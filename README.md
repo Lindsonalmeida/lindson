@@ -1,3 +1,6 @@
+> **MINI SITE:** a página de links da bio está em `links/` e no ar em
+> https://lindsonalmeida.github.io/lindson/links/. Detalhes em [MINI-SITE.md](MINI-SITE.md).
+
 # Xquads — instalação global
 
 Scripts que instalam os squads do [Xquads](https://github.com/ohmyjahh/xquads-squads)
