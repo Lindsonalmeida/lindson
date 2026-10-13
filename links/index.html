@@ -26,6 +26,7 @@
     --signal: #4C8DFF;
     --sun: #FFB547;
     --sun-ink: #1A1205;
+    --rec: #FF3B30;
 
     --f-display: "Bricolage Grotesque", "Arial Narrow", system-ui, sans-serif;
     --f-body: "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
@@ -48,10 +49,55 @@
     overflow-x: hidden;
   }
 
+  /* Vídeo de fundo: bastidores de gravação, escurecido para o texto ler bem */
+  .bgvid {
+    position: fixed; inset: 0;
+    width: 100%; height: 100%;
+    object-fit: cover;
+    z-index: 0; pointer-events: none;
+    background: var(--ink);
+  }
+  .scrim {
+    position: fixed; inset: 0; z-index: 0; pointer-events: none;
+    background:
+      linear-gradient(180deg, rgba(7, 11, 22, 0.30) 0%, rgba(7, 11, 22, 0.55) 40%, rgba(7, 11, 22, 0.82) 100%),
+      radial-gradient(ellipse at 50% 30%, transparent 0%, rgba(7, 11, 22, 0.35) 85%);
+  }
+  @media (min-width: 700px) {
+    .bgvid { filter: blur(6px); transform: scale(1.06); }
+  }
+
   #net {
     position: fixed; inset: 0;
     width: 100%; height: 100%;
     z-index: 0; pointer-events: none;
+    opacity: .55;
+  }
+
+  /* Visor de câmera: cantos de enquadramento, REC e timecode */
+  .vf { position: fixed; inset: 0; z-index: 2; pointer-events: none; }
+  .vf .c {
+    position: absolute; width: 22px; height: 22px;
+    border-color: rgba(238, 242, 255, 0.55); border-style: solid; border-width: 0;
+  }
+  .vf .tl { top: calc(12px + env(safe-area-inset-top, 0px)); left: 12px; border-top-width: 2px; border-left-width: 2px; }
+  .vf .tr { top: calc(12px + env(safe-area-inset-top, 0px)); right: 12px; border-top-width: 2px; border-right-width: 2px; }
+  .vf .bl { bottom: calc(12px + env(safe-area-inset-bottom, 0px)); left: 12px; border-bottom-width: 2px; border-left-width: 2px; }
+  .vf .br { bottom: calc(12px + env(safe-area-inset-bottom, 0px)); right: 12px; border-bottom-width: 2px; border-right-width: 2px; }
+  .vf .hud {
+    position: absolute; top: calc(18px + env(safe-area-inset-top, 0px)); left: 42px; right: 42px;
+    display: flex; justify-content: space-between; align-items: center;
+    font: 500 11px/1 var(--f-mono);
+    letter-spacing: .1em;
+    color: rgba(238, 242, 255, 0.85);
+    text-shadow: 0 1px 6px rgba(0, 0, 0, 0.6);
+    font-variant-numeric: tabular-nums;
+  }
+  .vf .rec { display: inline-flex; align-items: center; gap: 6px; }
+  .vf .rec i {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: var(--rec); box-shadow: 0 0 8px var(--rec);
+    animation: blink 1.2s steps(2, jump-none) infinite;
   }
   .glow {
     position: fixed; z-index: 0; pointer-events: none;
@@ -259,8 +305,14 @@
 </head>
 <body>
 
+<video class="bgvid" id="bgvid" src="bg.mp4" poster="bg-poster.jpg" autoplay muted loop playsinline preload="auto" aria-hidden="true"></video>
+<div class="scrim" aria-hidden="true"></div>
 <canvas id="net" aria-hidden="true"></canvas>
 <div class="glow" aria-hidden="true"></div>
+<div class="vf" aria-hidden="true">
+  <span class="c tl"></span><span class="c tr"></span><span class="c bl"></span><span class="c br"></span>
+  <div class="hud"><span class="rec"><i></i>REC</span><span id="tc">00:00:00:00</span></div>
+</div>
 
 <main class="wrap">
   <header class="head rise">
@@ -368,6 +420,22 @@
     if (!ctx) return;
 
     var still = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    // Vídeo de fundo: pausa para quem prefere menos movimento.
+    var v = document.getElementById("bgvid");
+    if (v) {
+      if (still) { v.removeAttribute("autoplay"); v.pause(); }
+      else { var pl = v.play && v.play(); if (pl && pl.catch) pl.catch(function () {}); }
+    }
+
+    // Timecode da "gravação" (hh:mm:ss:quadros a 30 fps), contando desde a abertura da página.
+    var tc = document.getElementById("tc"), t0 = Date.now();
+    function pad(n) { return (n < 10 ? "0" : "") + n; }
+    function tick() {
+      var ms = Date.now() - t0, s = Math.floor(ms / 1000);
+      tc.textContent = pad(Math.floor(s / 3600)) + ":" + pad(Math.floor(s / 60) % 60) + ":" + pad(s % 60) + ":" + pad(Math.floor((ms % 1000) / 33.34));
+    }
+    if (tc && !still) setInterval(tick, 50);
     var dpr = Math.min(window.devicePixelRatio || 1, 2);
     var W, H, pts = [];
 
