@@ -93,6 +93,31 @@
     text-shadow: 0 1px 6px rgba(0, 0, 0, 0.6);
     font-variant-numeric: tabular-nums;
   }
+  /* Botão de som: o navegador só libera áudio depois de um toque */
+  .snd {
+    position: fixed; z-index: 3;
+    right: 24px; bottom: calc(24px + env(safe-area-inset-bottom, 0px));
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 10px 16px 10px 12px;
+    border-radius: 999px;
+    border: 1px solid rgba(238, 242, 255, 0.25);
+    background: rgba(7, 11, 22, 0.72);
+    backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+    color: var(--fg);
+    font: 600 13px/1 var(--f-body);
+    cursor: pointer;
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.35);
+    transition: background-color .2s ease, border-color .2s ease;
+  }
+  .snd:hover { background: rgba(14, 20, 38, 0.9); border-color: rgba(76, 141, 255, 0.6); }
+  .snd:focus-visible { outline: 2px solid var(--signal); outline-offset: 3px; }
+  .snd svg { width: 18px; height: 18px; }
+  .snd .on { display: none; }
+  .snd[aria-pressed="true"] .on { display: inline; }
+  .snd[aria-pressed="true"] .off { display: none; }
+  .snd[aria-pressed="false"] { animation: nudge 2.4s ease-in-out 1.2s 3; }
+  @keyframes nudge { 0%, 100% { transform: none; } 50% { transform: translateY(-4px); } }
+
   .vf .rec { display: inline-flex; align-items: center; gap: 6px; }
   .vf .rec i {
     width: 8px; height: 8px; border-radius: 50%;
@@ -111,7 +136,7 @@
     width: 100%; max-width: 480px;
     margin: 0 auto;
     padding-inline: 16px;
-    padding-block: 56px 40px;
+    padding-block: 56px 96px;
     display: flex; flex-direction: column; gap: 28px;
   }
 
@@ -313,6 +338,12 @@
   <span class="c tl"></span><span class="c tr"></span><span class="c bl"></span><span class="c br"></span>
   <div class="hud"><span class="rec"><i></i>REC</span><span id="tc">00:00:00:00</span></div>
 </div>
+<!-- Trilha: abertura da Sonata ao Luar (Beethoven, domínio público), piano sintetizado -->
+<audio id="bgm" src="luar.mp3" loop preload="auto"></audio>
+<button class="snd" id="snd" type="button" aria-pressed="false" aria-label="Tocar trilha sonora">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path class="off" d="M16 9.5l5 5M21 9.5l-5 5"/><path class="on" d="M15.5 9a4 4 0 0 1 0 6M18.5 6.5a7.5 7.5 0 0 1 0 11"/></svg>
+  <span class="off">Ativar som</span><span class="on">Som ligado</span>
+</button>
 
 <main class="wrap">
   <header class="head rise">
@@ -363,6 +394,13 @@
         <a class="link" href="https://www.instagram.com/lindsonalmeida_/" target="_blank" rel="noopener">
           <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.4" cy="6.6" r=".6" fill="currentColor"/></svg></span>
           <span class="txt"><strong>Instagram</strong><span>@lindsonalmeida_</span></span>
+          <svg class="go" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </li>
+      <li>
+        <a class="link" href="https://www.linkedin.com/in/lindson-almeida-64953b281/" target="_blank" rel="noopener">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10.5V17M8 7.2v.1M12 17v-6.5M12 13.2c0-1.6 1.2-2.7 2.5-2.7s2.5.9 2.5 2.9V17"/></svg></span>
+          <span class="txt"><strong>LinkedIn</strong><span>Lindson Almeida</span></span>
           <svg class="go" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
         </a>
       </li>
@@ -426,6 +464,20 @@
     if (v) {
       if (still) { v.removeAttribute("autoplay"); v.pause(); }
       else { var pl = v.play && v.play(); if (pl && pl.catch) pl.catch(function () {}); }
+    }
+
+    // Trilha: o navegador só libera áudio depois de um toque do visitante.
+    var snd = document.getElementById("snd"), bgm = document.getElementById("bgm");
+    if (snd && bgm) {
+      bgm.volume = 0.7;
+      snd.addEventListener("click", function () {
+        var ligar = bgm.paused;
+        if (ligar) {
+          var p = bgm.play(); if (p && p.catch) p.catch(function () { snd.setAttribute("aria-pressed", "false"); });
+          if (v && v.paused) { var q = v.play(); if (q && q.catch) q.catch(function () {}); }
+        } else bgm.pause();
+        snd.setAttribute("aria-pressed", ligar ? "true" : "false");
+      });
     }
 
     // Timecode da "gravação" (hh:mm:ss:quadros a 30 fps), contando desde a abertura da página.
