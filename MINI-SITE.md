@@ -35,6 +35,14 @@ Página de links da bio do Instagram de **Lindson Almeida** (@lindsonalmeida_).
 
 O branding book completo está em `branding/` (`README.md`, `instagram.md`, `tokens.json` e os componentes). `branding/modelos/stories.html` é o arquivo-fonte dos 4 Stories, para criar novas peças no mesmo estilo.
 
+## Brand book
+
+Apresentação 16:9 com 16 slides da identidade visual (manifesto, pilares, voz, assinatura, cores, tipografia, grafismos, fotografia, Stories, mini site e usos).
+
+- Arquivos: `branding/brand-book/` (`index.html` e as imagens em `img/`)
+- No ar: https://lindsonalmeida.github.io/lindson/branding/brand-book/
+- Prévia no Claude: https://claude.ai/artifact/L1959UErxHBmmtqe7gwKBS
+
 ## Como publicar uma mudança
 
 A página é servida pelo GitHub Pages a partir do branch `claude/global-agent-installation-vdyowf`.
