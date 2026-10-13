@@ -40,4 +40,4 @@ Não renomeie nem mova a pasta `links/`: o endereço da bio depende dela.
 
 ## Versões
 
-A tag `mini-site-v1` marca esta primeira versão completa.
+Versão 1 (13/10/2026): commit `1c459cd` do branch `claude/global-agent-installation-vdyowf`.
