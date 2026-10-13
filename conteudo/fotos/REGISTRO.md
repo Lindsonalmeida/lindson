@@ -11,17 +11,17 @@ Antes de usar qualquer foto, remova nomes e marcas visíveis (boné, carro, roup
 | `usadas/retrato-estudio.jpg` | Mini site (foto de perfil), Story 3 Autoridade, brand book |
 | `usadas/fazenda-pensativo-mao-no-bolso.jpg` | Carrossel 01, slide 1 (capa) |
 | `usadas/fazenda-bracos-cruzados-caminhonete.jpg` | Carrossel 01, slide 5 (fechamento) |
+| `usadas/fazenda-cerca-bracos-abertos.jpg` | Carrossel 02, slide 1 (capa) |
+| `usadas/fazenda-arvore-corpo-inteiro.jpg` | Carrossel 02, slide 5 (fechamento) |
 | Vídeos de estúdio (IMG_7702, IMG_7710) | Fundo do mini site, brand book (bastidores) |
 
 ## Disponíveis
 
 | Foto | Descrição |
 | --- | --- |
-| `disponiveis/fazenda-cerca-bracos-abertos.jpg` | Corpo inteiro, apoiado na cerca, braços abertos, olhando para o lado |
 | `disponiveis/fazenda-arvore-perna-dobrada.jpg` | Corpo inteiro, encostado na árvore, perna dobrada, olhando para o lado |
-| `disponiveis/fazenda-arvore-corpo-inteiro.jpg` | Corpo inteiro, encostado na árvore, mão no bolso |
 
-As 3 disponíveis são da mesma sessão, com a mesma roupa e o boné com logo (precisa limpar).
+Resta 1 foto disponível. Peça fotos novas antes do próximo conteúdo com foto.
 
 ## Pendentes
 

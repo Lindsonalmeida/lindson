@@ -47,6 +47,7 @@ Apresentação 16:9 com 16 slides da identidade visual (manifesto, pilares, voz,
 
 "Identidade 01" é o nome da identidade visual do brand book (fundo ink, signal, sun, Bricolage Grotesque, Manrope e JetBrains Mono, visor de câmera e rede de nós). Conteúdos feitos nela ficam em `conteudo/identidade-01/`, cada um com os PNGs e a pasta `fonte/` para reeditar.
 
+- `carrossel-02-regra-do-pesquisador/`: carrossel de feed 1080×1350, 5 slides.
 - `carrossel-01-sequencia-do-iniciante/`: carrossel de feed 1080×1350, 5 slides. Cores de status só neste tipo de conteúdo: laranja `#FF8A3D` (aviso) e verde `#2FD07A` (tudo certo).
 
 ## Regras de conteúdo

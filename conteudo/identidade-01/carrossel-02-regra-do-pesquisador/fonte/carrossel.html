@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,500;12..96,700;12..96,800&family=JetBrains+Mono:wght@400;500;700&family=Manrope:wght@400;500;600;700;800&display=swap">
+<style>
+  /* Identidade 01 · Carrossel 02 · feed 1080×1350 */
+  :root {
+    --ink: #070B16; --ink-2: #0E1426; --ink-3: #141C33;
+    --fg: #EEF2FF; --lead: #C9D3EE; --muted: #93A0C2;
+    --line: rgba(140,170,255,.16); --line-strong: rgba(140,170,255,.3);
+    --signal: #4C8DFF; --signal-soft: #A9C6FF; --sun: #FFB547; --sun-ink: #1A1205; --rec: #FF3B30;
+    --f-display: "Bricolage Grotesque", system-ui, sans-serif;
+    --f-body: "Manrope", system-ui, sans-serif;
+    --f-mono: "JetBrains Mono", ui-monospace, monospace;
+  }
+  * { box-sizing: border-box; margin: 0; }
+  body { background: #222; display: flex; gap: 40px; padding: 40px; font-family: var(--f-body); color: var(--fg); -webkit-font-smoothing: antialiased; }
+
+  .s { position: relative; width: 1080px; height: 1350px; overflow: hidden; flex: none; background: var(--ink); }
+  .s::before { content: ""; position: absolute; inset: 0; pointer-events: none; z-index: 0;
+    background: radial-gradient(900px 700px at 100% 0%, rgba(76,141,255,.20), transparent 65%), radial-gradient(700px 600px at 0% 100%, rgba(255,181,71,.07), transparent 65%); }
+  .in { position: absolute; inset: 0; z-index: 2; padding: 76px 84px 70px; display: flex; flex-direction: column; }
+  .vf i { position: absolute; z-index: 3; width: 44px; height: 44px; border: 0 solid rgba(238,242,255,.4); }
+  .vf .a { top: 30px; left: 30px; border-top-width: 3px; border-left-width: 3px; }
+  .vf .b { top: 30px; right: 30px; border-top-width: 3px; border-right-width: 3px; }
+  .vf .c { bottom: 30px; left: 30px; border-bottom-width: 3px; border-left-width: 3px; }
+  .vf .d { bottom: 30px; right: 30px; border-bottom-width: 3px; border-right-width: 3px; }
+  .bar { display: flex; justify-content: space-between; align-items: center; font: 500 20px/1 var(--f-mono); letter-spacing: .16em; text-transform: uppercase; color: var(--muted); }
+  .bar b { color: var(--fg); font-weight: 500; }
+  .rec { display: inline-flex; align-items: center; gap: 12px; }
+  .rec i { width: 13px; height: 13px; border-radius: 50%; background: var(--rec); box-shadow: 0 0 14px var(--rec); }
+  .swipe { display: inline-flex; align-items: center; gap: 12px; color: var(--fg); }
+  .swipe svg { width: 34px; height: 34px; color: var(--sun); }
+  .eyebrow { font: 700 22px/1 var(--f-mono); letter-spacing: .2em; text-transform: uppercase; color: var(--signal); }
+  h1, h2 { font-family: var(--f-display); font-weight: 800; letter-spacing: -0.035em; line-height: .96; text-wrap: balance; }
+  h1 { font-size: 100px; } h2 { font-size: 80px; }
+  .light { font-weight: 300; }
+  .sun { color: var(--sun); } .sig { color: var(--signal); } .red { color: var(--rec); }
+  .lead { font-size: 36px; line-height: 1.35; font-weight: 500; color: var(--lead); }
+  .lead b { color: var(--fg); font-weight: 800; }
+  .body { flex: 1; display: flex; flex-direction: column; justify-content: center; min-height: 0; }
+  .photo { position: absolute; z-index: 1; left: 0; right: 0; top: 0; }
+  .photo img { width: 100%; height: 100%; object-fit: cover; }
+  .photo::after { content: ""; position: absolute; inset: 0; }
+  .tag { display: inline-block; background: var(--sun); color: var(--sun-ink); padding: 0 18px 8px; border-radius: 18px; transform: rotate(-2deg); }
+
+  .s1 .bar, .s5 .bar { color: var(--fg); text-shadow: 0 2px 10px rgba(0,0,0,.7); }
+  /* 1 · Capa */
+  .s1 .photo { height: 1000px; }
+  .s1 .photo img { object-position: 50% 30%; filter: saturate(.92) contrast(1.05); }
+  .s1 .photo::after { background: linear-gradient(0deg, var(--ink) 6%, rgba(7,11,22,.7) 30%, rgba(7,11,22,.05) 58%, rgba(7,11,22,.6) 84%, rgba(7,11,22,.85) 100%); }
+  .s1 .body { justify-content: flex-end; }
+  .checks { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+  .checks span { display: inline-flex; align-items: center; gap: 10px; padding: 14px 20px; border-radius: 16px; background: rgba(14,20,38,.85); border: 1.5px solid var(--line-strong); font: 700 26px/1 var(--f-body); }
+  .checks svg { width: 26px; height: 26px; color: var(--signal); }
+  .s1 .nada { margin-top: 30px; font: 800 64px/1 var(--f-display); letter-spacing: -0.03em; }
+  .s1 .huh { position: absolute; z-index: 3; right: 110px; top: 300px; padding: 20px 28px; border-radius: 26px 26px 26px 6px; background: rgba(7,11,22,.78); border: 2px solid var(--line-strong); font: 800 44px/1 var(--f-display); backdrop-filter: blur(6px); }
+  .s1 .huh small { display: block; margin-top: 8px; font: 500 17px/1 var(--f-mono); letter-spacing: .12em; color: var(--muted); }
+
+  /* 2 · Plot twist */
+  .s2 .body { gap: 40px; }
+  .nosearch { position: relative; width: 190px; height: 190px; border-radius: 50%; display: grid; place-items: center; background: var(--ink-2); border: 2px solid var(--line-strong); }
+  .nosearch > svg { width: 96px; height: 96px; color: var(--signal); }
+  .nosearch .x { position: absolute; right: -6px; top: -6px; width: 76px; height: 76px; border-radius: 50%; background: var(--rec); display: grid; place-items: center; box-shadow: 0 0 40px rgba(255,59,48,.45); }
+  .nosearch .x svg { width: 38px; height: 38px; color: #fff; }
+  .quote { display: flex; gap: 22px; align-items: flex-start; padding: 30px 32px; border-radius: 28px; background: var(--ink-2); border: 1.5px solid var(--line); }
+  .quote svg { flex: none; width: 52px; height: 52px; color: var(--sun); margin-top: 4px; }
+  .quote p { font: 700 36px/1.25 var(--f-display); letter-spacing: -0.01em; }
+
+  /* 3 · Método */
+  .s3 .body { gap: 30px; }
+  .steps { display: flex; flex-direction: column; gap: 14px; }
+  .step { display: grid; grid-template-columns: 58px 1fr; gap: 20px; align-items: center; font-size: 29px; line-height: 1.3; font-weight: 600; color: var(--lead); }
+  .step b { color: var(--fg); font-weight: 800; }
+  .step .n { width: 58px; height: 58px; border-radius: 50%; display: grid; place-items: center; background: var(--ink-2); border: 2px solid var(--signal); font: 800 28px/1 var(--f-display); color: var(--fg); }
+  .step:nth-child(4) .n { border-color: var(--sun); }
+  .phone { border-radius: 30px; background: var(--ink-2); border: 1.5px solid var(--line); padding: 22px; }
+  .search { display: flex; align-items: center; gap: 14px; padding: 16px 20px; border-radius: 16px; background: var(--ink-3); font-size: 27px; color: var(--fg); font-weight: 600; }
+  .search svg { width: 30px; height: 30px; color: var(--muted); }
+  .tabs { display: flex; gap: 30px; margin: 18px 4px 16px; font: 700 22px/1 var(--f-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+  .tabs .on { color: var(--fg); border-bottom: 3px solid var(--signal); padding-bottom: 8px; }
+  .grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 8px; }
+  .tile { position: relative; aspect-ratio: 9 / 14; border-radius: 10px; overflow: hidden; background: linear-gradient(160deg, #1C2747, #0B1122); }
+  .tile:nth-child(3n+2) { background: linear-gradient(160deg, #24304F, #121A30); }
+  .tile:nth-child(4n) { background: linear-gradient(160deg, #2B2A3F, #121628); }
+  .tile .pl { position: absolute; left: 8px; top: 8px; width: 22px; height: 22px; color: rgba(238,242,255,.85); }
+  .tile .v { position: absolute; left: 8px; bottom: 8px; font: 700 18px/1 var(--f-mono); color: var(--fg); }
+  .tile.top { outline: 3px solid var(--sun); outline-offset: -3px; }
+  .s3 .note { font-size: 30px; line-height: 1.35; color: var(--lead); }
+  .s3 .note b { color: var(--fg); font-weight: 800; }
+
+  /* 4 · Padrão */
+  .qs { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-top: 40px; }
+  .q { padding: 28px 28px 26px; border-radius: 26px; background: var(--ink-2); border: 1.5px solid var(--line); display: flex; flex-direction: column; gap: 14px; }
+  .q .top { display: flex; align-items: center; gap: 14px; }
+  .q .ic { width: 60px; height: 60px; border-radius: 16px; display: grid; place-items: center; background: rgba(76,141,255,.14); color: var(--signal); }
+  .q .ic svg { width: 32px; height: 32px; }
+  .q strong { font: 800 38px/1.05 var(--f-display); letter-spacing: -0.02em; }
+  .q .ex { display: flex; flex-wrap: wrap; gap: 8px; }
+  .q .ex span { padding: 8px 14px; border-radius: 999px; border: 1.5px solid var(--line-strong); font: 600 22px/1 var(--f-body); color: var(--lead); }
+  .copy { margin-top: 26px; display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 26px 32px; border-radius: 24px; background: var(--sun); color: var(--sun-ink); }
+  .copy strong { font: 800 42px/1.05 var(--f-display); letter-spacing: -0.02em; }
+  .copy span { font-size: 24px; font-weight: 600; opacity: .8; text-align: right; }
+
+  /* 5 · Fechamento */
+  .s5 .photo { height: 940px; }
+  .s5 .photo img { object-position: 50% 4%; }
+  .s5 .photo::after { background: linear-gradient(0deg, var(--ink) 4%, rgba(7,11,22,.55) 30%, rgba(7,11,22,0) 55%), linear-gradient(180deg, rgba(7,11,22,.85), rgba(7,11,22,.35) 14%, transparent 30%); }
+  .s5 .body { justify-content: flex-end; gap: 24px; }
+  .s5 h2 { font-size: 70px; }
+  .always { display: inline-flex; align-self: flex-start; align-items: center; gap: 14px; padding: 14px 22px; border-radius: 16px; background: rgba(14,20,38,.85); border: 1.5px solid var(--signal); font: 800 30px/1 var(--f-body); }
+  .always svg { width: 30px; height: 30px; color: var(--signal); }
+  .cta { display: flex; flex-direction: column; gap: 14px; }
+  .cta .c1 { padding: 24px 28px; border-radius: 24px; background: var(--ink-2); border: 1.5px solid var(--line-strong); font-size: 29px; line-height: 1.35; color: var(--lead); }
+  .cta .c1 b { color: var(--fg); font-weight: 800; }
+  .cta .c2 { display: flex; align-items: center; gap: 20px; padding: 22px 28px; border-radius: 24px; background: var(--sun); color: var(--sun-ink); box-shadow: 0 20px 60px rgba(255,181,71,.25); }
+  .cta .c2 img { width: 62px; height: 62px; border-radius: 50%; border: 3px solid var(--sun-ink); }
+  .cta .c2 strong { display: block; font: 800 34px/1.05 var(--f-display); }
+  .cta .c2 span { display: block; margin-top: 4px; font-size: 24px; font-weight: 600; opacity: .8; }
+  .cta .c2 .plus { margin-left: auto; width: 58px; height: 58px; border-radius: 50%; background: var(--sun-ink); color: var(--sun); display: grid; place-items: center; }
+  .cta .c2 .plus svg { width: 30px; height: 30px; }
+</style>
+</head>
+<body>
+
+<!-- 1 · CAPA -->
+<section class="s s1" id="c1">
+  <div class="photo"><img src="capa.jpg" alt=""></div>
+  <div class="vf"><i class="a"></i><i class="b"></i><i class="c"></i><i class="d"></i></div>
+  <div class="huh">Ué?!<small>Seguidores: parado</small></div>
+  <div class="in">
+    <div class="bar"><span class="rec"><i></i><b>Lindson Almeida</b></span><span>01 / 05</span></div>
+    <div class="body">
+      <p class="eyebrow" style="margin-bottom:22px">Causo real</p>
+      <h1>Conheci um criador que postava <span class="tag">BONITO.</span></h1>
+      <div class="checks">
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg>Conteúdo bom</span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg>Edição caprichada</span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg>Mensagem clara</span>
+      </div>
+      <p class="nada">E não crescia <span class="sun">NADA.</span></p>
+    </div>
+    <div class="bar" style="margin-top:40px"><span>@lindsonalmeida_</span><span class="swipe">Arraste<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+  </div>
+</section>
+
+<!-- 2 · PLOT TWIST -->
+<section class="s s2" id="c2">
+  <div class="vf"><i class="a"></i><i class="b"></i><i class="c"></i><i class="d"></i></div>
+  <div class="in">
+    <div class="bar"><span class="rec"><i></i><b>O plot twist</b></span><span>02 / 05</span></div>
+    <div class="body">
+      <div class="nosearch"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/></svg>
+        <span class="x"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></span></div>
+      <h2>Descobri o problema: ele <span class="red">nunca pesquisava</span> o que tava viralizando.</h2>
+      <p class="lead">Postava do jeito que achava certo, sem olhar pro que o <b>PÚBLICO</b> tava consumindo.</p>
+      <div class="quote"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l11-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="17" cy="16" r="3"/></svg>
+        <p>Era tipo tocar música desafinada esperando que alguém gostasse.</p></div>
+    </div>
+    <div class="bar"><span>@lindsonalmeida_</span><span class="swipe">Arraste<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+  </div>
+</section>
+
+<!-- 3 · MÉTODO -->
+<section class="s s3" id="c3">
+  <div class="vf"><i class="a"></i><i class="b"></i><i class="c"></i><i class="d"></i></div>
+  <div class="in">
+    <div class="bar"><span class="rec"><i></i><b>O método</b></span><span>03 / 05</span></div>
+    <div class="body">
+      <h2 style="font-size:72px">Aqui tá o que <span class="sig">eu faria:</span></h2>
+      <div class="steps">
+        <div class="step"><span class="n">1</span><span>Clica na <b>lupa</b> do Instagram</span></div>
+        <div class="step"><span class="n">2</span><span>Digita um assunto que você quer viralizar <b>(ex: “dica de vendas”)</b></span></div>
+        <div class="step"><span class="n">3</span><span>Abre a aba <b>“Posts”</b> ou <b>“Reels”</b></span></div>
+        <div class="step"><span class="n">4</span><span>Salva os <b class="sun">30 PRIMEIROS</b> com mais de <b>1 milhão</b> de views</span></div>
+      </div>
+      <div class="phone">
+        <div class="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/></svg>dica de vendas</div>
+        <div class="tabs"><span>Posts</span><span class="on">Reels</span><span>Contas</span></div>
+        <div class="grid">
+          <div class="tile top"><svg class="pl" viewBox="0 0 24 24" fill="currentColor"><path d="M7 4l13 8-13 8z"/></svg><span class="v">3,8 mi</span></div>
+          <div class="tile top"><svg class="pl" viewBox="0 0 24 24" fill="currentColor"><path d="M7 4l13 8-13 8z"/></svg><span class="v">2,1 mi</span></div>
+          <div class="tile top"><svg class="pl" viewBox="0 0 24 24" fill="currentColor"><path d="M7 4l13 8-13 8z"/></svg><span class="v">1,6 mi</span></div>
+          <div class="tile"><svg class="pl" viewBox="0 0 24 24" fill="currentColor"><path d="M7 4l13 8-13 8z"/></svg><span class="v">420 mil</span></div>
+          <div class="tile top"><svg class="pl" viewBox="0 0 24 24" fill="currentColor"><path d="M7 4l13 8-13 8z"/></svg><span class="v">1,2 mi</span></div>
+          <div class="tile"><svg class="pl" viewBox="0 0 24 24" fill="currentColor"><path d="M7 4l13 8-13 8z"/></svg><span class="v">87 mil</span></div>
+        </div>
+      </div>
+      <p class="note">Esses são os que o algoritmo tá recomendando <b class="sun">AGORA.</b></p>
+    </div>
+    <div class="bar"><span>@lindsonalmeida_ · números ilustrativos</span><span class="swipe">Arraste<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+  </div>
+</section>
+
+<!-- 4 · PADRÃO OCULTO -->
+<section class="s s4" id="c4">
+  <div class="vf"><i class="a"></i><i class="b"></i><i class="c"></i><i class="d"></i></div>
+  <div class="in">
+    <div class="bar"><span class="rec"><i></i><b>O padrão oculto</b></span><span>04 / 05</span></div>
+    <div class="body">
+      <h2>Agora olha <span class="sun">SEM</span> preconceito:</h2>
+      <div class="qs">
+        <div class="q"><div class="top"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="18" rx="2"/><rect x="14" y="3" width="7" height="8" rx="2"/><rect x="14" y="15" width="7" height="6" rx="2"/></svg></span><strong>Formato?</strong></div>
+          <div class="ex"><span>Reel</span><span>Carrossel</span><span>Vídeo</span></div></div>
+        <div class="q"><div class="top"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2M9 2h6"/></svg></span><strong>Duração?</strong></div>
+          <div class="ex"><span>Até 15 s</span><span>30 s</span><span>60 s+</span></div></div>
+        <div class="q"><div class="top"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v7a4 4 0 0 1-8 0"/><path d="M12 3l5 5"/></svg></span><strong>Gancho?</strong></div>
+          <div class="ex"><span>Pergunta</span><span>Polêmica</span><span>Causo</span></div></div>
+        <div class="q"><div class="top"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8.5 14.5c1 1.3 2.2 2 3.5 2s2.5-.7 3.5-2M9 9.5v.1M15 9.5v.1"/></svg></span><strong>Emoção?</strong></div>
+          <div class="ex"><span>Riso</span><span>Raiva</span><span>Curiosidade</span></div></div>
+      </div>
+      <p class="lead" style="margin-top:30px">Você vai perceber que tem um <b>PADRÃO</b> do que viraliza.</p>
+      <div class="copy"><strong>Copie o formato, não a mensagem.</strong><span>A mensagem<br>é sua.</span></div>
+    </div>
+    <div class="bar"><span>@lindsonalmeida_</span><span class="swipe">Arraste<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+  </div>
+</section>
+
+<!-- 5 · FECHAMENTO -->
+<section class="s s5" id="c5">
+  <div class="photo"><img src="fecho.jpg" alt=""></div>
+  <div class="vf"><i class="a"></i><i class="b"></i><i class="c"></i><i class="d"></i></div>
+  <div class="in">
+    <div class="bar"><span class="rec"><i></i><b>É isso aí</b></span><span>05 / 05</span></div>
+    <div class="body">
+      <h2>Seu conteúdo só cresce se você sabe o que o <span class="sun">povo tá consumindo.</span></h2>
+      <span class="always"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/></svg>Pesquisa antes de criar. Sempre.</span>
+      <div class="cta">
+        <div class="c1">Qual assunto você quer viralizar? <b>Comenta aí</b> e vem crescer comigo.</div>
+        <div class="c2"><img src="avatar.jpg" alt=""><div><strong>Segue @lindsonalmeida_</strong><span>pra mais tática de crescimento</span></div>
+          <span class="plus"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
