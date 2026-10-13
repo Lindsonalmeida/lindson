@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Lindson Almeida — conteudista há 14 anos, assessor político e marketing digital. Comunicação que mobiliza e engaja no Maranhão.">
+<meta property="og:title" content="Lindson Almeida">
+<meta property="og:description" content="Conteudista · Assessor Político · Marketing Digital. Comunicação que mobiliza e engaja.">
+<meta property="og:image" content="avatar.jpg">
+<meta name="theme-color" content="#070B16">
+<!--PAGE-START-->
+<title>Lindson Almeida</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=JetBrains+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap">
+<style>
+  /* Layout: uma coluna central estreita (cartão de bio), sinal irradiando da foto, rede de nós ao fundo */
+  :root {
+    --ink: #070B16;
+    --ink-2: #0E1426;
+    --fg: #EEF2FF;
+    --muted: #93A0C2;
+    --line: rgba(140, 170, 255, 0.16);
+    --panel: rgba(255, 255, 255, 0.035);
+    --panel-hover: rgba(76, 141, 255, 0.10);
+    --signal: #4C8DFF;
+    --sun: #FFB547;
+    --sun-ink: #1A1205;
+
+    --f-display: "Bricolage Grotesque", "Arial Narrow", system-ui, sans-serif;
+    --f-body: "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --f-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+
+    color-scheme: dark;
+  }
+
+  * { box-sizing: border-box; }
+  html { background: var(--ink); }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background: var(--ink);
+    color: var(--fg);
+    font-family: var(--f-body);
+    font-size: 15px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  #net {
+    position: fixed; inset: 0;
+    width: 100%; height: 100%;
+    z-index: 0; pointer-events: none;
+  }
+  .glow {
+    position: fixed; z-index: 0; pointer-events: none;
+    left: 50%; top: -220px; width: 720px; height: 520px; max-width: 160vw;
+    transform: translateX(-50%);
+    background: radial-gradient(closest-side, rgba(76, 141, 255, 0.22), transparent 70%);
+  }
+
+  .wrap {
+    position: relative; z-index: 1;
+    width: 100%; max-width: 480px;
+    margin: 0 auto;
+    padding-inline: 16px;
+    padding-block: 56px 40px;
+    display: flex; flex-direction: column; gap: 28px;
+  }
+
+  /* ── Cabeçalho ── */
+  .head { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 14px; }
+
+  .avatar { position: relative; width: 132px; height: 132px; margin-bottom: 6px; }
+  .avatar img {
+    position: relative; z-index: 2;
+    width: 100%; height: 100%; display: block;
+    border-radius: 50%; object-fit: cover;
+    border: 2px solid var(--ink);
+    box-shadow: 0 0 0 2px var(--signal), 0 12px 40px rgba(76, 141, 255, 0.35);
+  }
+  .avatar .wave {
+    position: absolute; inset: 0; z-index: 1;
+    border-radius: 50%;
+    border: 1.5px solid var(--signal);
+    opacity: 0;
+    animation: wave 3.6s cubic-bezier(.2, .6, .3, 1) infinite;
+  }
+  .avatar .wave:nth-child(2) { animation-delay: 1.2s; }
+  .avatar .wave:nth-child(3) { animation-delay: 2.4s; }
+  @keyframes wave {
+    0%   { transform: scale(1);   opacity: .55; }
+    100% { transform: scale(1.9); opacity: 0; }
+  }
+  .live {
+    position: absolute; z-index: 3; right: 2px; bottom: 8px;
+    display: flex; align-items: center; gap: 5px;
+    padding: 3px 8px 3px 7px;
+    border-radius: 999px;
+    background: var(--ink-2);
+    border: 1px solid var(--line);
+    font: 500 10px/1 var(--f-mono);
+    letter-spacing: .08em; text-transform: uppercase;
+    color: var(--fg);
+  }
+  .live i {
+    width: 6px; height: 6px; border-radius: 50%;
+    background: var(--sun);
+    box-shadow: 0 0 8px var(--sun);
+    animation: blink 1.6s ease-in-out infinite;
+  }
+  @keyframes blink { 50% { opacity: .3; } }
+
+  h1 {
+    margin: 0;
+    font-family: var(--f-display);
+    font-weight: 800;
+    font-size: clamp(30px, 8.5vw, 40px);
+    line-height: 1;
+    letter-spacing: -0.02em;
+    display: inline-flex; align-items: center; gap: 8px;
+    text-wrap: balance;
+  }
+  h1 svg { width: 24px; height: 24px; flex: none; }
+
+  .roles {
+    display: flex; flex-wrap: wrap; justify-content: center; gap: 6px;
+    margin: 0; padding: 0; list-style: none;
+  }
+  .roles li {
+    padding: 5px 11px;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+    background: var(--panel);
+    font-size: 12.5px; font-weight: 600;
+    color: var(--fg);
+  }
+
+  .thesis {
+    margin: 2px 0 0;
+    font-family: var(--f-display);
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 1.3;
+    color: var(--muted);
+    text-wrap: balance;
+  }
+  .thesis b { color: var(--fg); font-weight: 600; }
+  .thesis em { font-style: normal; color: var(--signal); }
+
+  /* ── Números ── */
+  .stats {
+    display: grid; grid-template-columns: repeat(3, 1fr);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    background: var(--panel);
+    backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+  }
+  .stat { padding: 12px 8px; text-align: center; min-width: 0; }
+  .stat + .stat { border-left: 1px solid var(--line); }
+  .stat strong {
+    display: block;
+    font-family: var(--f-display); font-weight: 800;
+    font-size: 22px; line-height: 1.1;
+    font-variant-numeric: tabular-nums;
+  }
+  .stat span {
+    display: block; margin-top: 3px;
+    font: 500 10.5px/1.3 var(--f-mono);
+    letter-spacing: .06em; text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* ── Links ── */
+  .links { display: flex; flex-direction: column; gap: 10px; margin: 0; padding: 0; list-style: none; }
+  .label {
+    margin: 0 0 2px 2px;
+    font: 500 11px/1 var(--f-mono);
+    letter-spacing: .14em; text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  .link {
+    position: relative;
+    display: flex; align-items: center; gap: 14px;
+    padding: 14px 16px 14px 14px;
+    border-radius: 16px;
+    border: 1px solid var(--line);
+    background: var(--panel);
+    backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+    color: var(--fg); text-decoration: none;
+    transition: transform .25s ease, background-color .25s ease, border-color .25s ease;
+    overflow: hidden;
+  }
+  .link::after {
+    content: ""; position: absolute; inset: 0;
+    background: linear-gradient(110deg, transparent 30%, rgba(76, 141, 255, 0.18) 50%, transparent 70%);
+    transform: translateX(-100%);
+    transition: transform .6s ease;
+    pointer-events: none;
+  }
+  .link:hover, .link:focus-visible {
+    transform: translateY(-2px);
+    background: var(--panel-hover);
+    border-color: rgba(76, 141, 255, 0.5);
+  }
+  .link:hover::after, .link:focus-visible::after { transform: translateX(100%); }
+  .link:focus-visible { outline: 2px solid var(--signal); outline-offset: 3px; }
+
+  .ico {
+    flex: none;
+    width: 42px; height: 42px;
+    display: grid; place-items: center;
+    border-radius: 12px;
+    background: rgba(76, 141, 255, 0.12);
+    color: var(--signal);
+  }
+  .ico svg { width: 22px; height: 22px; }
+  .txt { min-width: 0; flex: 1; display: flex; flex-direction: column; }
+  .txt strong { font-weight: 700; font-size: 15.5px; line-height: 1.25; }
+  .txt span { font-size: 13px; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .go { flex: none; width: 18px; height: 18px; color: var(--muted); transition: transform .25s ease, color .25s ease; }
+  .link:hover .go, .link:focus-visible .go { transform: translateX(3px); color: var(--fg); }
+
+  /* Chamada principal */
+  .link.cta {
+    background: var(--sun);
+    border-color: var(--sun);
+    color: var(--sun-ink);
+    box-shadow: 0 10px 34px rgba(255, 181, 71, 0.22);
+  }
+  .link.cta:hover, .link.cta:focus-visible { background: #FFC266; border-color: #FFC266; }
+  .link.cta::after { background: linear-gradient(110deg, transparent 30%, rgba(255, 255, 255, 0.45) 50%, transparent 70%); }
+  .link.cta .ico { background: rgba(26, 18, 5, 0.12); color: var(--sun-ink); }
+  .link.cta .txt span, .link.cta .go { color: rgba(26, 18, 5, 0.72); }
+  .link.cta:focus-visible { outline-color: var(--sun); }
+
+  /* ── Rodapé ── */
+  footer {
+    display: flex; flex-direction: column; align-items: center; gap: 6px;
+    padding-top: 8px;
+    font: 400 11px/1.4 var(--f-mono);
+    letter-spacing: .06em;
+    color: var(--muted);
+    text-align: center;
+  }
+  footer .pin { display: inline-flex; align-items: center; gap: 6px; color: var(--fg); text-transform: uppercase; letter-spacing: .12em; }
+  footer .pin svg { width: 13px; height: 13px; color: var(--sun); }
+
+  /* Entrada: começa visível e só desliza levemente */
+  .rise { animation: rise .7s cubic-bezier(.2, .7, .2, 1) both; }
+  @keyframes rise { from { transform: translateY(10px); } to { transform: none; } }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation: none !important; transition: none !important; }
+  }
+</style>
+</head>
+<body>
+
+<canvas id="net" aria-hidden="true"></canvas>
+<div class="glow" aria-hidden="true"></div>
+
+<main class="wrap">
+  <header class="head rise">
+    <div class="avatar">
+      <span class="wave"></span><span class="wave"></span><span class="wave"></span>
+      <img src="avatar.jpg" alt="Foto de Lindson Almeida" width="132" height="132">
+      <span class="live"><i></i>No ar</span>
+    </div>
+
+    <h1>Lindson Almeida
+      <svg viewBox="0 0 24 24" role="img" aria-label="Perfil verificado">
+        <path fill="#4C8DFF" d="M12 1.5l2.6 1.9 3.2-.2 1 3.1 2.6 1.9-1 3.1 1 3.1-2.6 1.9-1 3.1-3.2-.2L12 22.5l-2.6-1.9-3.2.2-1-3.1-2.6-1.9 1-3.1-1-3.1 2.6-1.9 1-3.1 3.2.2z"/>
+        <path fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M7.8 12.2l2.8 2.8 5.6-5.8"/>
+      </svg>
+    </h1>
+
+    <ul class="roles">
+      <li>Conteudista</li>
+      <li>Assessor Político</li>
+      <li>Marketing Digital</li>
+    </ul>
+
+    <p class="thesis"><b>Comunicação que</b> <em>mobiliza</em> <b>e</b> <em>engaja.</em><br>O Maranhão é o meu território.</p>
+  </header>
+
+  <section class="stats rise" aria-label="Em números" style="animation-delay:.08s">
+    <div class="stat"><strong>14</strong><span>anos de conteúdo</span></div>
+    <div class="stat"><strong>9,1 mil</strong><span>seguidores</span></div>
+    <div class="stat"><strong>MA</strong><span>território</span></div>
+  </section>
+
+  <nav class="rise" aria-label="Links" style="animation-delay:.16s">
+    <ul class="links">
+      <li>
+        <!-- TROQUE o número abaixo pelo seu WhatsApp: 55 + DDD + número, só dígitos -->
+        <a class="link cta" href="https://wa.me/5598900000000?text=Ol%C3%A1%20Lindson%2C%20vim%20pelo%20seu%20Instagram!" target="_blank" rel="noopener">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 20.5l1.3-4.2A8.5 8.5 0 1 1 8 19.4z"/><path d="M9 8.6c.2 2.6 3.7 6 6.4 6.4l1.2-1.4-2-1-1 .9c-1-.4-2.2-1.6-2.6-2.6l.9-1-1-2z"/></svg></span>
+          <span class="txt"><strong>Fale comigo no WhatsApp</strong><span>Assessoria, campanhas e conteúdo</span></span>
+          <svg class="go" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <nav class="rise" aria-label="Redes e projetos" style="animation-delay:.24s">
+    <p class="label">Redes</p>
+    <ul class="links">
+      <li>
+        <a class="link" href="https://www.instagram.com/lindsonalmeida_/" target="_blank" rel="noopener">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.4" cy="6.6" r=".6" fill="currentColor"/></svg></span>
+          <span class="txt"><strong>Instagram</strong><span>@lindsonalmeida_</span></span>
+          <svg class="go" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </li>
+      <li>
+        <a class="link" href="https://www.threads.net/@lindsonalmeida_" target="_blank" rel="noopener">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16.5 11.2c-.4-2.6-2.1-3.9-4.4-3.9-2.6 0-4.2 1.7-4.2 1.7"/><path d="M16.6 11.4c-3.3-.9-7.3-.3-7.1 2.4.2 2.2 4 2.6 5.6.6 1.4-1.8 1.3-4.6 1.3-4.6"/><path d="M19.5 15.5c-1 3.2-3.8 5-7.5 5-5 0-8-3.2-8-8.5S7 3.5 12 3.5c4 0 6.7 2 7.6 5.4"/></svg></span>
+          <span class="txt"><strong>Threads</strong><span>@lindsonalmeida_</span></span>
+          <svg class="go" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <nav class="rise" aria-label="Projetos" style="animation-delay:.32s">
+    <p class="label">Projetos</p>
+    <ul class="links">
+      <li>
+        <a class="link" href="https://www.instagram.com/alkantara.connections/" target="_blank" rel="noopener">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="5.5" cy="12" r="2.5"/><circle cx="18.5" cy="5.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/><path d="M7.8 10.9l8.4-4.2M7.8 13.1l8.4 4.2"/></svg></span>
+          <span class="txt"><strong>Alkantara Connections</strong><span>@alkantara.connections</span></span>
+          <svg class="go" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </li>
+      <li>
+        <a class="link" href="https://www.instagram.com/nucleo.slz/" target="_blank" rel="noopener">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="2.5"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="9.5"/></svg></span>
+          <span class="txt"><strong>Núcleo SLZ</strong><span>@nucleo.slz</span></span>
+          <svg class="go" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </li>
+      <li>
+        <a class="link" href="https://www.instagram.com/meuvereador5.0/" target="_blank" rel="noopener">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5l9-6 9 6"/><path d="M5 10.5V19M9.7 10.5V19M14.3 10.5V19M19 10.5V19"/><path d="M3 20h18"/></svg></span>
+          <span class="txt"><strong>Meu Vereador 5.0</strong><span>@meuvereador5.0</span></span>
+          <svg class="go" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <footer>
+    <span class="pin"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>São Luís · Maranhão</span>
+    <span>2°31′S 44°18′W</span>
+    <span>© <span id="ano">2026</span> Lindson Almeida</span>
+  </footer>
+</main>
+
+<script>
+  // Rede de nós ao fundo: pontos que se conectam quando próximos (comunicação que se espalha).
+  (function () {
+    var c = document.getElementById("net");
+    var ctx = c.getContext && c.getContext("2d");
+    var y = document.getElementById("ano");
+    if (y) y.textContent = new Date().getFullYear();
+    if (!ctx) return;
+
+    var still = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    var dpr = Math.min(window.devicePixelRatio || 1, 2);
+    var W, H, pts = [];
+
+    function size() {
+      W = window.innerWidth; H = window.innerHeight;
+      c.width = W * dpr; c.height = H * dpr;
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      var n = Math.round(Math.min(70, (W * H) / 16000));
+      pts = [];
+      for (var i = 0; i < n; i++) {
+        pts.push({
+          x: Math.random() * W, y: Math.random() * H,
+          vx: (Math.random() - 0.5) * 0.25, vy: (Math.random() - 0.5) * 0.25,
+          hot: Math.random() < 0.08
+        });
+      }
+    }
+
+    function draw() {
+      ctx.clearRect(0, 0, W, H);
+      var max = 130;
+      for (var i = 0; i < pts.length; i++) {
+        var p = pts[i];
+        for (var j = i + 1; j < pts.length; j++) {
+          var q = pts[j], dx = p.x - q.x, dy = p.y - q.y, d = Math.sqrt(dx * dx + dy * dy);
+          if (d < max) {
+            ctx.strokeStyle = "rgba(76,141,255," + (0.16 * (1 - d / max)).toFixed(3) + ")";
+            ctx.lineWidth = 1;
+            ctx.beginPath(); ctx.moveTo(p.x, p.y); ctx.lineTo(q.x, q.y); ctx.stroke();
+          }
+        }
+      }
+      for (var k = 0; k < pts.length; k++) {
+        var s = pts[k];
+        ctx.fillStyle = s.hot ? "rgba(255,181,71,0.9)" : "rgba(140,170,255,0.55)";
+        ctx.beginPath(); ctx.arc(s.x, s.y, s.hot ? 2 : 1.4, 0, Math.PI * 2); ctx.fill();
+      }
+    }
+
+    function step() {
+      for (var i = 0; i < pts.length; i++) {
+        var p = pts[i];
+        p.x += p.vx; p.y += p.vy;
+        if (p.x < -20) p.x = W + 20; else if (p.x > W + 20) p.x = -20;
+        if (p.y < -20) p.y = H + 20; else if (p.y > H + 20) p.y = -20;
+      }
+      draw();
+      requestAnimationFrame(step);
+    }
+
+    size();
+    window.addEventListener("resize", function () { size(); if (still) draw(); });
+    if (still) draw(); else requestAnimationFrame(step);
+  })();
+</script>
+<!--PAGE-END-->
+</body>
+</html>
