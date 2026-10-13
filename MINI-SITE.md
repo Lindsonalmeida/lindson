@@ -49,6 +49,12 @@ Apresentação 16:9 com 16 slides da identidade visual (manifesto, pilares, voz,
 
 - `carrossel-01-sequencia-do-iniciante/`: carrossel de feed 1080×1350, 5 slides. Cores de status só neste tipo de conteúdo: laranja `#FF8A3D` (aviso) e verde `#2FD07A` (tudo certo).
 
+## Regras de conteúdo
+
+- **Nunca usar a mesma foto duas vezes.** O controle fica em `conteudo/fotos/REGISTRO.md`: escolha só fotos de `conteudo/fotos/disponiveis/` e, ao usar, mova para `usadas/` e anote onde entrou.
+- **Acabaram as fotos? Peça novas ao Lindson** antes de produzir, em vez de repetir.
+- Tire nomes e marcas visíveis das fotos (boné, carro, roupas) antes de publicar.
+
 ## Como publicar uma mudança
 
 A página é servida pelo GitHub Pages a partir do branch `claude/global-agent-installation-vdyowf`.
