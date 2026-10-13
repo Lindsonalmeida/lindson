@@ -1,0 +1,751 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Brand Book Lindson Almeida</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,500;12..96,700;12..96,800&family=JetBrains+Mono:wght@400;500;700&family=Manrope:wght@400;500;600;700;800&display=swap">
+<style>
+  /* Layout: apresentação 16:9 — slides empilhados, cada um um "quadro" de câmera; escuro por escolha da marca */
+  :root {
+    --void: #04060C;
+    --ink: #070B16;
+    --ink-2: #0E1426;
+    --ink-3: #141C33;
+    --paper: #EEF2FF;
+    --fg: #EEF2FF;
+    --lead: #C9D3EE;
+    --muted: #93A0C2;
+    --line: rgba(140, 170, 255, 0.16);
+    --line-strong: rgba(140, 170, 255, 0.3);
+    --signal: #4C8DFF;
+    --signal-soft: #A9C6FF;
+    --violet: #9B7BFF;
+    --sun: #FFB547;
+    --sun-ink: #1A1205;
+    --rec: #FF3B30;
+    --paper-ink: #070B16;
+    --paper-muted: #4A5675;
+    --paper-line: rgba(7, 11, 22, 0.14);
+
+    --f-display: "Bricolage Grotesque", "Arial Narrow", system-ui, sans-serif;
+    --f-body: "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --f-mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+    color-scheme: dark;
+  }
+
+  * { box-sizing: border-box; }
+  html { background: var(--void); scroll-behavior: smooth; }
+  body {
+    margin: 0; background: var(--void); color: var(--fg);
+    font-family: var(--f-body); -webkit-font-smoothing: antialiased;
+  }
+  img { max-width: 100%; display: block; }
+
+  .deck { display: flex; flex-direction: column; gap: 28px; padding-inline: 16px; padding-block: 28px 96px; }
+
+  /* ── Slide ── */
+  .slide { width: 100%; max-width: 1440px; margin: 0 auto; container-type: inline-size; scroll-margin-top: 28px; }
+  .frame {
+    position: relative; aspect-ratio: 16 / 9; overflow: hidden;
+    border-radius: 18px; background: var(--ink);
+    box-shadow: 0 0 0 1px var(--line), 0 40px 80px rgba(0, 0, 0, 0.45);
+  }
+  .in { position: absolute; inset: 0; padding: 4.4cqw 5.2cqw 3.6cqw; display: flex; flex-direction: column; }
+  .paper .frame { background: var(--paper); color: var(--paper-ink); box-shadow: 0 40px 80px rgba(0, 0, 0, 0.45); }
+
+  /* Cabeçalho e rodapé de cada quadro */
+  .bar { display: flex; justify-content: space-between; align-items: center; font: 500 0.82cqw/1 var(--f-mono); letter-spacing: .16em; text-transform: uppercase; color: var(--muted); }
+  .paper .bar { color: var(--paper-muted); }
+  .bar b { color: var(--fg); font-weight: 500; }
+  .paper .bar b { color: var(--paper-ink); }
+  .bar .rec { display: inline-flex; align-items: center; gap: .6cqw; }
+  .bar .rec i { width: .55cqw; height: .55cqw; border-radius: 50%; background: var(--rec); box-shadow: 0 0 .8cqw var(--rec); }
+  .body { flex: 1; min-height: 0; display: flex; flex-direction: column; justify-content: center; }
+
+  /* Tipografia da apresentação */
+  .eyebrow { font: 500 0.95cqw/1 var(--f-mono); letter-spacing: .2em; text-transform: uppercase; color: var(--signal); }
+  .paper .eyebrow { color: #2F6FE0; }
+  .h1, .h2, .h3 { font-family: var(--f-display); font-weight: 800; letter-spacing: -0.035em; margin: 0; text-wrap: balance; }
+  .h1 { font-size: 8.6cqw; line-height: .9; }
+  .h2 { font-size: 4.6cqw; line-height: .95; }
+  .h3 { font-size: 2cqw; line-height: 1.05; letter-spacing: -0.02em; }
+  .light { font-weight: 300; }
+  .p { font-size: 1.3cqw; line-height: 1.55; color: var(--lead); max-width: 38em; margin: 0; }
+  .paper .p { color: var(--paper-muted); }
+  .small { font-size: 1.02cqw; line-height: 1.5; color: var(--muted); margin: 0; }
+  .paper .small { color: var(--paper-muted); }
+  .mono { font-family: var(--f-mono); letter-spacing: .08em; }
+  .sun { color: var(--sun); }
+  .sig { color: var(--signal); }
+  .rule { height: 1px; background: var(--line); border: 0; margin: 0; }
+  .paper .rule { background: var(--paper-line); }
+
+  /* Viewfinder decorativo nos cantos do quadro */
+  .vf span { position: absolute; width: 2.2cqw; height: 2.2cqw; border: 0 solid rgba(238, 242, 255, .35); pointer-events: none; }
+  .vf .a { top: 1.6cqw; left: 1.6cqw; border-top-width: 2px; border-left-width: 2px; }
+  .vf .b { top: 1.6cqw; right: 1.6cqw; border-top-width: 2px; border-right-width: 2px; }
+  .vf .c { bottom: 1.6cqw; left: 1.6cqw; border-bottom-width: 2px; border-left-width: 2px; }
+  .vf .d { bottom: 1.6cqw; right: 1.6cqw; border-bottom-width: 2px; border-right-width: 2px; }
+  .paper .vf span { border-color: rgba(7, 11, 22, .28); }
+
+  .glow::before { content: ""; position: absolute; inset: 0; pointer-events: none;
+    background: radial-gradient(60cqw 45cqw at 92% 0%, rgba(76, 141, 255, .22), transparent 70%), radial-gradient(40cqw 30cqw at 0% 100%, rgba(255, 181, 71, .08), transparent 70%); }
+
+  /* ── 01 Capa ── */
+  .cover .body { display: grid; grid-template-columns: 1.15fr .85fr; gap: 4cqw; align-items: center; }
+  .cover .h1 { font-size: 10.4cqw; }
+  .cover .meta { display: flex; gap: 2.4cqw; margin-top: 2.6cqw; font: 500 .95cqw/1.4 var(--f-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+  .cover .meta b { display: block; color: var(--fg); font-weight: 500; }
+  .portrait { position: relative; justify-self: end; width: 26cqw; aspect-ratio: 4 / 5; }
+  .portrait svg { position: absolute; inset: -9cqw; width: calc(100% + 18cqw); height: calc(100% + 18cqw); }
+  .portrait .photo { position: absolute; inset: 0; border-radius: 1.4cqw; overflow: hidden; box-shadow: 0 0 0 1px var(--line-strong), 0 3cqw 6cqw rgba(0, 0, 0, .5); }
+  .portrait .photo img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; }
+  .portrait .tag { position: absolute; left: 1.2cqw; bottom: 1.2cqw; display: inline-flex; align-items: center; gap: .6cqw; padding: .6cqw 1cqw; border-radius: 99px; background: rgba(7, 11, 22, .78); backdrop-filter: blur(6px); font: 500 .8cqw/1 var(--f-mono); letter-spacing: .14em; color: var(--fg); }
+  .portrait .tag i { width: .55cqw; height: .55cqw; border-radius: 50%; background: var(--rec); box-shadow: 0 0 .8cqw var(--rec); }
+
+  /* ── 02 Sumário ── */
+  .toc .body { display: grid; grid-template-columns: .8fr 1.2fr; gap: 5cqw; align-items: center; }
+  .toc ol { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; column-gap: 3cqw; }
+  .toc li { display: flex; align-items: baseline; gap: 1.4cqw; padding: 1.1cqw 0; border-top: 1px solid var(--line); font: 600 1.45cqw/1.2 var(--f-body); }
+  .toc li span { font: 500 .9cqw/1 var(--f-mono); color: var(--signal); letter-spacing: .1em; }
+
+  /* ── 03 Manifesto ── */
+  .manifesto .h1 { font-size: 7.4cqw; max-width: 12em; }
+  .manifesto .h1 em { font-style: normal; color: #2F6FE0; }
+  .manifesto .cols { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 3cqw; margin-top: 3.4cqw; }
+  .manifesto .cols div { border-top: 2px solid var(--paper-ink); padding-top: 1.2cqw; }
+  .manifesto .cols b { display: block; font: 800 2.4cqw/1 var(--f-display); letter-spacing: -0.02em; margin-bottom: .6cqw; }
+
+  /* ── 04 Pilares ── */
+  .pillars .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.6cqw; margin-top: 3cqw; }
+  .pillar { position: relative; padding: 2.2cqw; border-radius: 1.4cqw; background: rgba(255, 255, 255, .03); border: 1px solid var(--line); min-height: 20cqw; display: flex; flex-direction: column; gap: 1cqw; }
+  .pillar .n { font: 500 .9cqw/1 var(--f-mono); color: var(--muted); letter-spacing: .14em; }
+  .pillar .glyph { height: 7cqw; display: flex; align-items: center; }
+  .pillar .glyph svg { height: 100%; width: auto; }
+  .pillar .h3 { margin-top: auto; }
+
+  /* ── 05 Voz ── */
+  .voice .body { display: grid; grid-template-columns: 1fr 1fr; gap: 5cqw; align-items: center; }
+  .scale { display: flex; flex-direction: column; gap: 1.8cqw; margin-top: 2.4cqw; }
+  .scale .row { display: grid; grid-template-columns: 9cqw 1fr 9cqw; align-items: center; gap: 1.2cqw; font: 600 1.05cqw/1 var(--f-body); }
+  .scale .row span:last-child { text-align: right; color: var(--muted); }
+  .scale .track { position: relative; height: 2px; background: var(--line-strong); }
+  .scale .track i { position: absolute; top: 50%; width: 1.1cqw; height: 1.1cqw; border-radius: 50%; background: var(--signal); transform: translate(-50%, -50%); box-shadow: 0 0 0 .4cqw rgba(76, 141, 255, .2); }
+  .quotes { display: flex; flex-direction: column; gap: 1.2cqw; }
+  .quote { padding: 1.6cqw 1.8cqw; border-radius: 1.2cqw; background: var(--ink-2); border: 1px solid var(--line); }
+  .quote p { margin: 0; font: 700 1.7cqw/1.25 var(--f-display); letter-spacing: -0.01em; }
+  .quote small { display: block; margin-top: .8cqw; font: 500 .82cqw/1 var(--f-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+  .quote.no p { color: var(--muted); text-decoration: line-through; text-decoration-color: var(--rec); text-decoration-thickness: 2px; }
+
+  /* ── 06 Assinatura ── */
+  .sign .body { display: grid; grid-template-columns: 1.5fr 1fr; gap: 1.6cqw; }
+  .tile { position: relative; border-radius: 1.4cqw; display: grid; place-items: center; overflow: hidden; }
+  .tile .cap { position: absolute; left: 1.4cqw; bottom: 1.2cqw; font: 500 .8cqw/1 var(--f-mono); letter-spacing: .14em; text-transform: uppercase; }
+  .lockup { display: inline-flex; align-items: center; gap: .5em; font: 800 4.6cqw/1 var(--f-display); letter-spacing: -0.035em; white-space: nowrap; }
+  .lockup svg { width: .62em; height: .62em; flex: none; }
+  .t-main { background: var(--ink-2); border: 1px solid var(--line); }
+  .t-main .cap { color: var(--muted); }
+  .t-main .guide { position: absolute; inset: 22% 14%; border: 1px dashed rgba(76, 141, 255, .45); border-radius: .6cqw; }
+  .t-main .guide b { position: absolute; top: -1.6cqw; left: 0; font: 500 .75cqw/1 var(--f-mono); color: var(--signal); letter-spacing: .1em; }
+  .stackcol { display: grid; grid-template-rows: 1fr 1fr; gap: 1.6cqw; }
+  .t-sun { background: var(--sun); color: var(--sun-ink); }
+  .t-sun .cap { color: rgba(26, 18, 5, .7); }
+  .t-paper { background: var(--paper); color: var(--paper-ink); }
+  .t-paper .cap { color: var(--paper-muted); }
+  .t-sun .lockup, .t-paper .lockup { font-size: 2.6cqw; }
+
+  /* ── 07 Cores principais ── */
+  .colors .row { display: grid; grid-template-columns: 46fr 30fr 24fr; gap: 1.2cqw; flex: 1; margin-top: 2cqw; min-height: 0; }
+  .sw { position: relative; border-radius: 1.4cqw; padding: 2cqw; display: flex; flex-direction: column; justify-content: space-between; }
+  .sw .name { font: 800 3.2cqw/1 var(--f-display); letter-spacing: -0.03em; }
+  .sw .role { font-size: 1.05cqw; line-height: 1.45; max-width: 22em; margin-top: .8cqw; }
+  .sw dl { display: grid; grid-template-columns: auto 1fr; gap: .4cqw 1.2cqw; margin: 0; font: 500 .9cqw/1.2 var(--f-mono); letter-spacing: .06em; }
+  .sw dt { opacity: .6; }
+  .sw dd { margin: 0; }
+  .sw.ink { background: var(--ink); border: 1px solid var(--line-strong); }
+  .sw.ink .role { color: var(--lead); }
+  .sw.signal { background: var(--signal); color: #04122E; }
+  .sw.sun { background: var(--sun); color: var(--sun-ink); }
+
+  /* ── 08 Cores de apoio ── */
+  .support .chips { display: grid; grid-template-columns: repeat(6, 1fr); gap: 1.2cqw; margin-top: 2.6cqw; }
+  .chip .c { aspect-ratio: 1 / 1.1; border-radius: 1.1cqw; border: 1px solid var(--line); }
+  .chip b { display: block; margin-top: .9cqw; font: 700 1.15cqw/1.2 var(--f-body); }
+  .chip span { display: block; margin-top: .3cqw; font: 500 .82cqw/1.3 var(--f-mono); color: var(--muted); letter-spacing: .06em; }
+  .ratio { margin-top: 3cqw; }
+  .ratio .bar2 { display: flex; height: 3.2cqw; border-radius: .8cqw; overflow: hidden; border: 1px solid var(--line); }
+  .ratio .bar2 i { display: block; }
+  .ratio .legend { display: flex; justify-content: space-between; margin-top: .9cqw; font: 500 .85cqw/1 var(--f-mono); color: var(--muted); letter-spacing: .1em; text-transform: uppercase; }
+
+  /* ── 09 Tipografia ── */
+  .type .body { display: grid; grid-template-columns: 1.1fr 1fr; gap: 4cqw; align-items: center; }
+  .aa { font: 800 22cqw/.8 var(--f-display); letter-spacing: -0.06em; background: linear-gradient(180deg, var(--fg) 30%, rgba(238, 242, 255, .15)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .fam { padding: 1.4cqw 0; border-top: 1px solid var(--line); display: grid; grid-template-columns: 1fr auto; gap: .4cqw 2cqw; align-items: baseline; }
+  .fam .nm { font-size: 2.2cqw; line-height: 1.1; }
+  .fam .use { font: 500 .85cqw/1.4 var(--f-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); text-align: right; }
+  .fam .abc { grid-column: 1 / -1; font-size: 1.1cqw; color: var(--lead); letter-spacing: .02em; }
+
+  /* ── 10 Hierarquia ── */
+  .hier .rows { margin-top: 2.4cqw; display: flex; flex-direction: column; }
+  .hrow { display: grid; grid-template-columns: 11cqw 1fr 14cqw; gap: 2cqw; align-items: center; padding: 1.2cqw 0; border-top: 1px solid var(--line); }
+  .hrow .k { font: 500 .85cqw/1.3 var(--f-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--signal); }
+  .hrow .spec { font: 500 .85cqw/1.4 var(--f-mono); color: var(--muted); text-align: right; letter-spacing: .04em; }
+  .s-title { font: 800 4cqw/.95 var(--f-display); letter-spacing: -0.035em; }
+  .s-lead { font: 500 1.7cqw/1.3 var(--f-body); color: var(--lead); }
+  .s-chip { font: 800 1.4cqw/1 var(--f-body); }
+  .s-label { font: 700 1.1cqw/1 var(--f-mono); letter-spacing: .2em; color: var(--signal-soft); }
+
+  /* ── 11 Grafismos ── */
+  .graph .grid { display: grid; grid-template-columns: 1.3fr 1fr 1fr; gap: 1.4cqw; flex: 1; min-height: 0; margin-top: 2cqw; }
+  .gcard { position: relative; border-radius: 1.4cqw; background: var(--ink-2); border: 1px solid var(--line); overflow: hidden; display: flex; flex-direction: column; }
+  .gcard .art { flex: 1; min-height: 0; position: relative; }
+  .gcard .art svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .gcard .txt { padding: 1.4cqw 1.6cqw 1.6cqw; border-top: 1px solid var(--line); }
+  .gcard .txt b { display: block; font: 800 1.5cqw/1.1 var(--f-display); letter-spacing: -0.01em; }
+  .gcard .txt span { display: block; margin-top: .4cqw; font-size: .95cqw; line-height: 1.45; color: var(--muted); }
+  .hud { position: absolute; inset: 1.4cqw; }
+  .hud i { position: absolute; width: 2cqw; height: 2cqw; border: 0 solid rgba(238, 242, 255, .6); }
+  .hud .a { top: 0; left: 0; border-top-width: 2px; border-left-width: 2px; }
+  .hud .b { top: 0; right: 0; border-top-width: 2px; border-right-width: 2px; }
+  .hud .c { bottom: 0; left: 0; border-bottom-width: 2px; border-left-width: 2px; }
+  .hud .d { bottom: 0; right: 0; border-bottom-width: 2px; border-right-width: 2px; }
+  .hud .top { position: absolute; top: .6cqw; left: 3cqw; right: 3cqw; display: flex; justify-content: space-between; font: 500 .85cqw/1 var(--f-mono); letter-spacing: .12em; }
+  .hud .top em { font-style: normal; display: inline-flex; align-items: center; gap: .5cqw; }
+  .hud .top em::before { content: ""; width: .6cqw; height: .6cqw; border-radius: 50%; background: var(--rec); box-shadow: 0 0 .8cqw var(--rec); }
+
+  /* ── 12 Fotografia ── */
+  .photo-s .body { display: grid; grid-template-columns: 1fr 1fr 1.1fr; gap: 1.6cqw; align-items: stretch; }
+  .ph { position: relative; border-radius: 1.4cqw; overflow: hidden; border: 1px solid var(--line); }
+  .ph img { width: 100%; height: 100%; object-fit: cover; }
+  .ph .scrim { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(7, 11, 22, .3), rgba(7, 11, 22, .82)); }
+  .ph .lbl { position: absolute; left: 1.2cqw; bottom: 1.2cqw; right: 1.2cqw; font: 500 .8cqw/1.4 var(--f-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--fg); }
+  .rules { display: flex; flex-direction: column; justify-content: center; gap: 1.4cqw; padding-left: 1.4cqw; }
+  .rules div { border-top: 1px solid var(--line); padding-top: 1cqw; }
+  .rules b { display: block; font: 800 1.45cqw/1.15 var(--f-display); }
+  .rules span { display: block; margin-top: .3cqw; font-size: 1cqw; line-height: 1.45; color: var(--muted); }
+
+  /* ── 13 Stories ── */
+  .stories .row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.6cqw; margin-top: 2.2cqw; flex: 1; min-height: 0; }
+  .st { display: flex; flex-direction: column; gap: .9cqw; min-height: 0; }
+  .st .img { flex: 1; min-height: 0; border-radius: 1.2cqw; overflow: hidden; border: 1px solid var(--line); background: var(--ink-2); }
+  .st .img img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
+  .st b { font: 800 1.3cqw/1.1 var(--f-display); }
+  .st span { font: 500 .8cqw/1.3 var(--f-mono); letter-spacing: .1em; color: var(--muted); text-transform: uppercase; }
+
+  /* ── 14 Mini site ── */
+  .site .body { display: grid; grid-template-columns: 1fr auto 1fr; gap: 3cqw; align-items: center; }
+  .phone { width: 15.5cqw; aspect-ratio: 390 / 844; border-radius: 2.8cqw; padding: .6cqw; background: linear-gradient(145deg, #2A3350, #0B0F1C 60%); box-shadow: 0 0 0 1px var(--line-strong), 0 0 6cqw rgba(76, 141, 255, .3); position: relative; }
+  .phone img { width: 100%; height: 100%; object-fit: cover; object-position: top; border-radius: 2.3cqw; }
+  .callouts { display: flex; flex-direction: column; gap: 2cqw; }
+  .callouts.r { text-align: left; }
+  .callouts.l { text-align: right; }
+  .co b { display: block; font: 800 1.5cqw/1.1 var(--f-display); }
+  .co span { display: block; margin-top: .4cqw; font-size: 1cqw; line-height: 1.45; color: var(--muted); }
+  .co i { display: inline-block; width: .9cqw; height: .9cqw; border-radius: 50%; margin-right: .5cqw; vertical-align: .05cqw; }
+
+  /* ── 15 Certo / Errado ── */
+  .dos .grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.4cqw; margin-top: 2.2cqw; flex: 1; min-height: 0; }
+  .dd { display: flex; flex-direction: column; gap: .9cqw; min-height: 0; }
+  .dd .demo { flex: 1; min-height: 0; border-radius: 1.2cqw; position: relative; display: grid; place-items: center; overflow: hidden; border: 1px solid var(--line); padding: 1.4cqw; }
+  .dd .mark { position: absolute; top: .9cqw; right: .9cqw; width: 2cqw; height: 2cqw; border-radius: 50%; display: grid; place-items: center; }
+  .dd .mark svg { width: 1.1cqw; height: 1.1cqw; }
+  .dd.ok .mark { background: var(--signal); color: #04122E; }
+  .dd.no .mark { background: var(--rec); color: #fff; }
+  .dd b { font: 800 1.2cqw/1.15 var(--f-display); }
+  .dd span { font-size: .92cqw; line-height: 1.4; color: var(--muted); }
+  .btn-demo { width: 100%; padding: 1cqw 1.2cqw; border-radius: .9cqw; font: 700 1.05cqw/1.2 var(--f-body); }
+
+  /* ── 16 Encerramento ── */
+  .end .body { align-items: flex-start; }
+  .end .h1 { font-size: 9cqw; }
+  .end .links { display: flex; gap: 3cqw; margin-top: 3cqw; font: 500 1cqw/1.5 var(--f-mono); letter-spacing: .1em; color: var(--muted); text-transform: uppercase; }
+  .end .links b { display: block; color: var(--fg); font-weight: 500; text-transform: none; letter-spacing: .02em; font-size: 1.15cqw; }
+
+  /* Navegação fixa */
+  .nav { position: fixed; z-index: 10; right: 16px; bottom: calc(16px + env(safe-area-inset-bottom, 0px)); display: flex; align-items: center; gap: 6px; padding: 6px; border-radius: 999px; background: rgba(14, 20, 38, .86); border: 1px solid var(--line-strong); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
+  .nav button { width: 36px; height: 36px; border-radius: 50%; border: 0; background: transparent; color: var(--fg); display: grid; place-items: center; cursor: pointer; }
+  .nav button:hover { background: rgba(76, 141, 255, .18); }
+  .nav button:focus-visible { outline: 2px solid var(--signal); outline-offset: 2px; }
+  .nav svg { width: 18px; height: 18px; }
+  .nav .count { font: 500 12px/1 var(--f-mono); letter-spacing: .1em; padding: 0 8px; color: var(--muted); font-variant-numeric: tabular-nums; min-width: 64px; text-align: center; }
+  .nav .count b { color: var(--fg); font-weight: 500; }
+
+  /* ── Celular: os quadros viram páginas de altura livre ── */
+  @container (max-width: 760px) {
+    .frame { aspect-ratio: auto; border-radius: 14px; }
+    .in { position: relative; inset: auto; padding: 22px 20px 20px; gap: 0; }
+    .body { margin: 26px 0 18px; }
+    .bar { font-size: 9.5px; }
+    .bar .rec i { width: 6px; height: 6px; }
+    .eyebrow { font-size: 11px; }
+    .h1, .cover .h1, .end .h1 { font-size: 46px; }
+    .manifesto .h1 { font-size: 38px; }
+    .h2 { font-size: 32px; }
+    .h3 { font-size: 21px; }
+    .p { font-size: 15px; }
+    .small { font-size: 13px; }
+    .vf span { width: 16px; height: 16px; }
+    .cover .body, .toc .body, .voice .body, .sign .body, .type .body, .photo-s .body, .site .body { grid-template-columns: 1fr; gap: 24px; }
+    .cover .meta { flex-direction: column; gap: 10px; font-size: 11px; margin-top: 20px; }
+    .portrait { width: 70%; justify-self: center; margin: 20px 0; }
+    .portrait svg { inset: -18%; width: 136%; height: 136%; }
+    .portrait .photo { border-radius: 14px; }
+    .portrait .tag { font-size: 10px; padding: 6px 10px; left: 10px; bottom: 10px; gap: 6px; }
+    .portrait .tag i { width: 6px; height: 6px; }
+    .toc ol { grid-template-columns: 1fr; }
+    .toc li { font-size: 16px; padding: 11px 0; gap: 14px; }
+    .toc li span { font-size: 11px; }
+    .manifesto .cols, .pillars .grid { grid-template-columns: 1fr; gap: 16px; margin-top: 24px; }
+    .manifesto .cols b { font-size: 22px; margin-bottom: 6px; }
+    .manifesto .cols div { padding-top: 12px; }
+    .pillar { min-height: 0; padding: 20px; border-radius: 14px; gap: 10px; }
+    .pillar .n { font-size: 11px; }
+    .pillar .glyph { height: 60px; }
+    .scale { gap: 18px; margin-top: 20px; }
+    .scale .row { grid-template-columns: 84px 1fr 84px; font-size: 13px; gap: 10px; }
+    .scale .track i { width: 12px; height: 12px; box-shadow: 0 0 0 4px rgba(76, 141, 255, .2); }
+    .quotes { gap: 12px; }
+    .quote { padding: 16px 18px; border-radius: 12px; }
+    .quote p { font-size: 19px; }
+    .quote small { font-size: 10px; margin-top: 8px; }
+    .tile { min-height: 150px; border-radius: 14px; }
+    .tile .cap { font-size: 10px; left: 14px; bottom: 12px; }
+    .lockup { font-size: 30px; }
+    .t-sun .lockup, .t-paper .lockup { font-size: 22px; }
+    .t-main { min-height: 200px; }
+    .t-main .guide b { font-size: 9px; top: -14px; }
+    .stackcol { gap: 16px; }
+    .colors .row { grid-template-columns: 1fr; gap: 12px; margin-top: 20px; }
+    .sw { min-height: 170px; padding: 20px; border-radius: 14px; gap: 18px; }
+    .sw .name { font-size: 28px; }
+    .sw .role { font-size: 13px; margin-top: 8px; }
+    .sw dl { font-size: 11px; gap: 4px 12px; }
+    .support .chips { grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 22px; }
+    .chip .c { border-radius: 10px; }
+    .chip b { font-size: 14px; margin-top: 8px; }
+    .chip span { font-size: 10px; }
+    .ratio { margin-top: 26px; }
+    .ratio .bar2 { height: 28px; border-radius: 8px; }
+    .ratio .legend { font-size: 9.5px; flex-wrap: wrap; gap: 6px 12px; }
+    .aa { font-size: 130px; }
+    .fam { padding: 14px 0; }
+    .fam .nm { font-size: 22px; }
+    .fam .use { font-size: 10px; }
+    .fam .abc { font-size: 13px; }
+    .hier .rows { margin-top: 20px; }
+    .hrow { grid-template-columns: 1fr; gap: 6px; padding: 14px 0; }
+    .hrow .k, .hrow .spec { font-size: 10px; text-align: left; }
+    .s-title { font-size: 34px; }
+    .s-lead { font-size: 17px; }
+    .s-chip { font-size: 16px; }
+    .s-label { font-size: 12px; }
+    .graph .grid, .stories .row, .dos .grid { grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 20px; }
+    .graph .grid .gcard:first-child { grid-column: 1 / -1; }
+    .gcard { border-radius: 14px; }
+    .gcard .art { height: 160px; flex: none; }
+    .gcard .txt { padding: 14px 16px 16px; }
+    .gcard .txt b { font-size: 16px; }
+    .gcard .txt span { font-size: 12.5px; margin-top: 4px; }
+    .hud { inset: 12px; }
+    .hud i { width: 16px; height: 16px; }
+    .hud .top { font-size: 9.5px; left: 24px; right: 24px; top: 4px; }
+    .hud .top em { gap: 5px; }
+    .hud .top em::before { width: 6px; height: 6px; }
+    .ph { min-height: 260px; border-radius: 14px; }
+    .ph .lbl { font-size: 10px; left: 12px; right: 12px; bottom: 12px; }
+    .rules { padding-left: 0; gap: 14px; }
+    .rules b { font-size: 17px; }
+    .rules span { font-size: 13px; margin-top: 3px; }
+    .st { gap: 8px; }
+    .st .img { flex: none; aspect-ratio: 9 / 16; border-radius: 12px; }
+    .st b { font-size: 15px; }
+    .st span { font-size: 9.5px; }
+    .phone { width: 60%; justify-self: center; border-radius: 30px; padding: 7px; }
+    .phone img { border-radius: 24px; }
+    .callouts { gap: 16px; }
+    .callouts.l { text-align: left; }
+    .co b { font-size: 17px; }
+    .co span { font-size: 13px; }
+    .co i { width: 10px; height: 10px; margin-right: 6px; }
+    .dd .demo { flex: none; min-height: 140px; border-radius: 12px; padding: 14px; }
+    .dd .mark { width: 22px; height: 22px; top: 8px; right: 8px; }
+    .dd .mark svg { width: 12px; height: 12px; }
+    .dd b { font-size: 15px; }
+    .dd span { font-size: 12.5px; }
+    .btn-demo { font-size: 13px; padding: 11px 12px; border-radius: 10px; }
+    .end .links { flex-direction: column; gap: 14px; font-size: 10.5px; margin-top: 24px; }
+    .end .links b { font-size: 14px; }
+  }
+
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+</style>
+
+</head><body><main class="deck" id="deck">
+
+  <!-- 01 · CAPA -->
+  <section class="slide cover" id="capa" aria-label="Capa">
+    <div class="frame glow"><div class="vf"><span class="a"></span><span class="b"></span><span class="c"></span><span class="d"></span></div>
+      <div class="in">
+        <div class="bar"><span class="rec"><i></i><b>Brand Book</b></span><span>Vol. 01 — 2026</span></div>
+        <div class="body">
+          <div>
+            <p class="eyebrow">Identidade visual</p>
+            <h1 class="h1" style="margin-top:1.6cqw">Lindson<br>Almeida</h1>
+            <p class="p" style="margin-top:2cqw">Comunicação que <span class="sig">mobiliza</span> e <span class="sig">engaja</span>.</p>
+            <div class="meta"><span>Atuação<b>Conteúdo · Política · Marketing</b></span><span>Base<b>São Luís — MA</b></span><span>Coordenadas<b>2°31′S 44°18′W</b></span></div>
+          </div>
+          <div class="portrait">
+            <svg viewBox="0 0 100 120" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+              <g fill="none" stroke="#4C8DFF">
+                <circle cx="50" cy="60" r="38" stroke-opacity=".5" stroke-width=".35"/>
+                <circle cx="50" cy="60" r="46" stroke-opacity=".3" stroke-width=".3"/>
+                <circle cx="50" cy="60" r="54" stroke-opacity=".16" stroke-width=".3"/>
+              </g>
+              <circle cx="88" cy="38" r="1.1" fill="#FFB547"/>
+              <circle cx="12" cy="92" r=".9" fill="#4C8DFF"/>
+            </svg>
+            <div class="photo"><img src="img/retrato.jpg" alt="Retrato de Lindson Almeida em estúdio"></div>
+            <span class="tag"><i></i>REC 00:14:00:00</span>
+          </div>
+        </div>
+        <div class="bar"><span>@lindsonalmeida_</span><span>01</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 · SUMÁRIO -->
+  <section class="slide toc" id="sumario" aria-label="Sumário">
+    <div class="frame"><div class="in">
+      <div class="bar"><span><b>Lindson Almeida</b> — Brand Book</span><span>Sumário</span></div>
+      <div class="body">
+        <div>
+          <p class="eyebrow">Neste volume</p>
+          <h2 class="h2" style="margin-top:1.4cqw">Um sinal,<br><span class="light">doze capítulos.</span></h2>
+        </div>
+        <ol>
+          <li><span>03</span>Manifesto</li>
+          <li><span>04</span>Pilares</li>
+          <li><span>05</span>Voz e escrita</li>
+          <li><span>06</span>Assinatura</li>
+          <li><span>07</span>Cores principais</li>
+          <li><span>08</span>Cores de apoio</li>
+          <li><span>09</span>Tipografia</li>
+          <li><span>10</span>Hierarquia</li>
+          <li><span>11</span>Grafismos</li>
+          <li><span>12</span>Fotografia</li>
+          <li><span>13</span>Stories</li>
+          <li><span>14</span>Mini site</li>
+        </ol>
+      </div>
+      <div class="bar"><span>@lindsonalmeida_</span><span>02</span></div>
+    </div></div>
+  </section>
+
+  <!-- 03 · MANIFESTO -->
+  <section class="slide paper manifesto" id="manifesto" aria-label="Manifesto">
+    <div class="frame"><div class="vf"><span class="a"></span><span class="b"></span><span class="c"></span><span class="d"></span></div>
+      <div class="in">
+        <div class="bar"><span><b>03</b> — Manifesto</span><span>Lindson Almeida</span></div>
+        <div class="body">
+          <h2 class="h1">Comunicação que <em>mobiliza</em> e <em>engaja.</em></h2>
+          <div class="cols">
+            <div><b>14 anos</b><p class="small">criando conteúdo que faz gente se mover, da rua às redes.</p></div>
+            <div><b>9,1 mil</b><p class="small">pessoas acompanhando no Instagram, com perfil verificado.</p></div>
+            <div><b>MA</b><p class="small">O Maranhão é o meu território. É daqui que o sinal parte.</p></div>
+          </div>
+        </div>
+        <div class="bar"><span>Brand Book</span><span>03</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 04 · PILARES -->
+  <section class="slide pillars" id="pilares" aria-label="Pilares">
+    <div class="frame glow"><div class="in">
+      <div class="bar"><span><b>04</b> — Pilares</span><span>Lindson Almeida</span></div>
+      <div class="body">
+        <p class="eyebrow">Três ideias guiam cada peça</p>
+        <h2 class="h2" style="margin-top:1.2cqw">A marca se comporta como<br>um <span class="sig">sinal no ar.</span></h2>
+        <div class="grid">
+          <div class="pillar"><span class="n">01</span>
+            <div class="glyph"><svg viewBox="0 0 120 70" fill="none" aria-hidden="true"><path d="M4 18V4h14M102 4h14v14M116 52v14h-14M18 66H4V52" stroke="#EEF2FF" stroke-opacity=".6" stroke-width="2"/><circle cx="34" cy="35" r="5" fill="#FF3B30"/><text x="46" y="40" fill="#EEF2FF" font-family="JetBrains Mono, monospace" font-size="13" letter-spacing="2">REC</text></svg></div>
+            <h3 class="h3">No ar</h3><p class="small">Tudo parece acontecer agora: visor de câmera, timecode correndo, bastidores em vídeo.</p></div>
+          <div class="pillar"><span class="n">02</span>
+            <div class="glyph"><svg viewBox="0 0 120 70" fill="none" aria-hidden="true"><circle cx="30" cy="35" r="9" fill="#4C8DFF"/><circle cx="30" cy="35" r="17" stroke="#4C8DFF" stroke-opacity=".7" stroke-width="2"/><circle cx="30" cy="35" r="25" stroke="#4C8DFF" stroke-opacity=".45" stroke-width="2"/><circle cx="30" cy="35" r="33" stroke="#4C8DFF" stroke-opacity=".22" stroke-width="2"/><circle cx="92" cy="18" r="3" fill="#A9C6FF"/><circle cx="108" cy="46" r="3" fill="#FFB547"/><circle cx="84" cy="56" r="3" fill="#A9C6FF"/><path d="M92 18l16 28-24 10z" stroke="#4C8DFF" stroke-opacity=".5"/></svg></div>
+            <h3 class="h3">Sinal que se espalha</h3><p class="small">Ondas saindo da foto e uma rede de pontos conectados mostram alcance e mobilização.</p></div>
+          <div class="pillar"><span class="n">03</span>
+            <div class="glyph"><svg viewBox="0 0 120 70" fill="none" aria-hidden="true"><path d="M24 62s-16-14-16-27a16 16 0 0 1 32 0c0 13-16 27-16 27z" stroke="#FFB547" stroke-width="2.4"/><circle cx="24" cy="35" r="5" fill="#FFB547"/><text x="50" y="32" fill="#EEF2FF" font-family="JetBrains Mono, monospace" font-size="11" letter-spacing="1.5">2°31′S</text><text x="50" y="50" fill="#93A0C2" font-family="JetBrains Mono, monospace" font-size="11" letter-spacing="1.5">44°18′W</text></svg></div>
+            <h3 class="h3">Território</h3><p class="small">O Maranhão aparece como fato, não como enfeite: São Luís, coordenadas, a sigla MA.</p></div>
+        </div>
+      </div>
+      <div class="bar"><span>Brand Book</span><span>04</span></div>
+    </div></div>
+  </section>
+
+  <!-- 05 · VOZ -->
+  <section class="slide voice" id="voz" aria-label="Voz e escrita">
+    <div class="frame"><div class="in">
+      <div class="bar"><span><b>05</b> — Voz e escrita</span><span>Lindson Almeida</span></div>
+      <div class="body">
+        <div>
+          <p class="eyebrow">Como falamos</p>
+          <h2 class="h2" style="margin-top:1.2cqw">Direto, próximo<br><span class="light">e com prova.</span></h2>
+          <div class="scale">
+            <div class="row"><span>Direto</span><span class="track"><i style="left:16%"></i></span><span>Rebuscado</span></div>
+            <div class="row"><span>Próximo</span><span class="track"><i style="left:24%"></i></span><span>Formal</span></div>
+            <div class="row"><span>Concreto</span><span class="track"><i style="left:12%"></i></span><span>Abstrato</span></div>
+            <div class="row"><span>Energético</span><span class="track"><i style="left:30%"></i></span><span>Contido</span></div>
+          </div>
+        </div>
+        <div class="quotes">
+          <div class="quote"><p>“Sua bio merece um <span class="sun">upgrade.</span>”</p><small>Fala com você · virada em uma palavra</small></div>
+          <div class="quote"><p>“14 anos de comunicação que <span class="sig">mobiliza.</span>”</p><small>Autoridade com número exato</small></div>
+          <div class="quote"><p>“Responda este story com ‘EU QUERO’.”</p><small>Chamada que diz o gesto</small></div>
+          <div class="quote no"><p>“Soluções inovadoras em comunicação 360°.”</p><small>Jargão sem prova · não usamos</small></div>
+        </div>
+      </div>
+      <div class="bar"><span>Brand Book</span><span>05</span></div>
+    </div></div>
+  </section>
+
+  <!-- 06 · ASSINATURA -->
+  <section class="slide sign" id="assinatura" aria-label="Assinatura">
+    <div class="frame"><div class="in">
+      <div class="bar"><span><b>06</b> — Assinatura</span><span>Lindson Almeida</span></div>
+      <div class="body" style="margin-top:2.4cqw">
+        <div class="tile t-main">
+          <span class="guide"><b>ÁREA DE RESPIRO = ALTURA DO “L”</b></span>
+          <span class="lockup">Lindson Almeida <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#4C8DFF" d="M12 1.5l2.6 1.9 3.2-.2 1 3.1 2.6 1.9-1 3.1 1 3.1-2.6 1.9-1 3.1-3.2-.2L12 22.5l-2.6-1.9-3.2.2-1-3.1-2.6-1.9 1-3.1-1-3.1 2.6-1.9 1-3.1 3.2.2z"/><path fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M7.8 12.2l2.8 2.8 5.6-5.8"/></svg></span>
+          <span class="cap">Principal · sobre ink · Bricolage 800</span>
+        </div>
+        <div class="stackcol">
+          <div class="tile t-sun"><span class="lockup">Lindson Almeida <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#1A1205" d="M12 1.5l2.6 1.9 3.2-.2 1 3.1 2.6 1.9-1 3.1 1 3.1-2.6 1.9-1 3.1-3.2-.2L12 22.5l-2.6-1.9-3.2.2-1-3.1-2.6-1.9 1-3.1-1-3.1 2.6-1.9 1-3.1 3.2.2z"/><path fill="none" stroke="#FFB547" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M7.8 12.2l2.8 2.8 5.6-5.8"/></svg></span><span class="cap">Sobre sun · monocromática</span></div>
+          <div class="tile t-paper"><span class="lockup">Lindson Almeida <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#2F6FE0" d="M12 1.5l2.6 1.9 3.2-.2 1 3.1 2.6 1.9-1 3.1 1 3.1-2.6 1.9-1 3.1-3.2-.2L12 22.5l-2.6-1.9-3.2.2-1-3.1-2.6-1.9 1-3.1-1-3.1 2.6-1.9 1-3.1 3.2.2z"/><path fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M7.8 12.2l2.8 2.8 5.6-5.8"/></svg></span><span class="cap">Sobre paper · uso eventual</span></div>
+        </div>
+      </div>
+      <div class="bar" style="margin-top:2cqw"><span>Sem logotipo gráfico: o nome com o selo de verificado é a marca · mínimo 24 px</span><span>06</span></div>
+    </div></div>
+  </section>
+
+  <!-- 07 · CORES PRINCIPAIS -->
+  <section class="slide colors" id="cores" aria-label="Cores principais">
+    <div class="frame"><div class="in">
+      <div class="bar"><span><b>07</b> — Cores principais</span><span>Lindson Almeida</span></div>
+      <div style="margin-top:2cqw"><h2 class="h2">Escuro por padrão.<br><span class="light">Azul assina, âmbar chama.</span></h2></div>
+      <div class="row">
+        <div class="sw ink"><div><div class="name">Ink</div><p class="role">Fundo de tudo: mini site, posts, Stories. A marca vive no escuro, como um estúdio com a luz apontada para quem fala.</p></div>
+          <dl><dt>HEX</dt><dd>#070B16</dd><dt>RGB</dt><dd>7 · 11 · 22</dd><dt>Uso</dt><dd>≈ 70%</dd></dl></div>
+        <div class="sw signal"><div><div class="name">Signal</div><p class="role">A assinatura: anel da foto, ondas, ícones e palavras-chave.</p></div>
+          <dl><dt>HEX</dt><dd>#4C8DFF</dd><dt>RGB</dt><dd>76 · 141 · 255</dd><dt>Uso</dt><dd>≈ 10%</dd></dl></div>
+        <div class="sw sun"><div><div class="name">Sun</div><p class="role">A ação. Um elemento por tela.</p></div>
+          <dl><dt>HEX</dt><dd>#FFB547</dd><dt>RGB</dt><dd>255 · 181 · 71</dd><dt>Uso</dt><dd>≈ 5%</dd></dl></div>
+      </div>
+      <div class="bar" style="margin-top:2cqw"><span>Texto sobre Sun sempre em #1A1205 · nunca branco</span><span>07</span></div>
+    </div></div>
+  </section>
+
+  <!-- 08 · CORES DE APOIO -->
+  <section class="slide support" id="apoio" aria-label="Cores de apoio">
+    <div class="frame"><div class="in">
+      <div class="bar"><span><b>08</b> — Cores de apoio</span><span>Lindson Almeida</span></div>
+      <div class="body">
+        <p class="eyebrow">Paleta estendida</p>
+        <h2 class="h2" style="margin-top:1.2cqw">Cada cor tem<br><span class="light">um único trabalho.</span></h2>
+        <div class="chips">
+          <div class="chip"><div class="c" style="background:#0E1426"></div><b>Ink 2</b><span>#0E1426 · superfícies</span></div>
+          <div class="chip"><div class="c" style="background:#EEF2FF"></div><b>Paper</b><span>#EEF2FF · texto principal</span></div>
+          <div class="chip"><div class="c" style="background:#C9D3EE"></div><b>Lead</b><span>#C9D3EE · texto de apoio</span></div>
+          <div class="chip"><div class="c" style="background:#93A0C2"></div><b>Muted</b><span>#93A0C2 · rótulos</span></div>
+          <div class="chip"><div class="c" style="background:#9B7BFF"></div><b>Violet</b><span>#9B7BFF · só no mini site</span></div>
+          <div class="chip"><div class="c" style="background:#FF3B30"></div><b>Rec</b><span>#FF3B30 · só a luz do REC</span></div>
+        </div>
+        <div class="ratio">
+          <div class="bar2"><i style="flex:70;background:#070B16"></i><i style="flex:15;background:#EEF2FF"></i><i style="flex:10;background:#4C8DFF"></i><i style="flex:5;background:#FFB547"></i></div>
+          <div class="legend"><span>Ink 70%</span><span>Paper 15%</span><span>Signal 10%</span><span>Sun 5%</span></div>
+        </div>
+      </div>
+      <div class="bar"><span>Proporção recomendada por peça</span><span>08</span></div>
+    </div></div>
+  </section>
+
+  <!-- 09 · TIPOGRAFIA -->
+  <section class="slide type" id="tipografia" aria-label="Tipografia">
+    <div class="frame glow"><div class="in">
+      <div class="bar"><span><b>09</b> — Tipografia</span><span>Lindson Almeida</span></div>
+      <div class="body">
+        <div class="aa" aria-hidden="true">Aa</div>
+        <div>
+          <p class="eyebrow">Três vozes, três papéis</p>
+          <div style="margin-top:1.4cqw">
+            <div class="fam"><span class="nm" style="font-family:var(--f-display);font-weight:800;letter-spacing:-0.03em">Bricolage Grotesque</span><span class="use">Títulos · 800</span><span class="abc" style="font-family:var(--f-display);font-weight:700">ABCDEFGHIJ abcdefghij 0123456789</span></div>
+            <div class="fam"><span class="nm" style="font-family:var(--f-body);font-weight:700">Manrope</span><span class="use">Texto · 400–800</span><span class="abc" style="font-family:var(--f-body)">ABCDEFGHIJ abcdefghij 0123456789</span></div>
+            <div class="fam" style="border-bottom:1px solid var(--line)"><span class="nm" style="font-family:var(--f-mono);font-weight:500;font-size:1.9cqw">JetBrains Mono</span><span class="use">Rótulos · REC · dados</span><span class="abc" style="font-family:var(--f-mono)">REC 00:14:00:00 · 2°31′S 44°18′W</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="bar"><span>Google Fonts · uso livre</span><span>09</span></div>
+    </div></div>
+  </section>
+
+  <!-- 10 · HIERARQUIA -->
+  <section class="slide hier" id="hierarquia" aria-label="Hierarquia">
+    <div class="frame"><div class="in">
+      <div class="bar"><span><b>10</b> — Hierarquia</span><span>Lindson Almeida</span></div>
+      <div class="body">
+        <p class="eyebrow">Escala para Stories e posts · base 1080 px</p>
+        <div class="rows">
+          <div class="hrow"><span class="k">Rótulo</span><span class="s-label">COMO PEDIR O SEU</span><span class="spec">Mono 700 · 28 px · +0.2em</span></div>
+          <div class="hrow"><span class="k">Título</span><span class="s-title">Seu mini site em <span class="sun">3 toques.</span></span><span class="spec">Bricolage 800 · 104–132 px · 0.95</span></div>
+          <div class="hrow"><span class="k">Apoio</span><span class="s-lead">Agora eu levo isso para <b class="sun" style="font-weight:800">a sua bio.</b></span><span class="spec">Manrope 500 · 42 px · 1.3</span></div>
+          <div class="hrow" style="border-bottom:1px solid var(--line)"><span class="k">Etiqueta</span><span class="s-chip">WhatsApp em 1 toque</span><span class="spec">Manrope 800 · 34 px</span></div>
+        </div>
+      </div>
+      <div class="bar"><span>Uma virada de cor por título · nunca duas</span><span>10</span></div>
+    </div></div>
+  </section>
+
+  <!-- 11 · GRAFISMOS -->
+  <section class="slide graph" id="grafismos" aria-label="Grafismos">
+    <div class="frame"><div class="in">
+      <div class="bar"><span><b>11</b> — Grafismos</span><span>Lindson Almeida</span></div>
+      <div style="margin-top:2cqw"><h2 class="h2">Instrumentos, <span class="light">não enfeites.</span></h2></div>
+      <div class="grid">
+        <div class="gcard"><div class="art"><svg id="net" viewBox="0 0 400 220" preserveAspectRatio="xMidYMid slice" aria-hidden="true"></svg></div>
+          <div class="txt"><b>Rede de nós</b><span>Pontos ligados por linhas azuis em baixa opacidade; um em cada dez em âmbar. Sempre atrás de tudo.</span></div></div>
+        <div class="gcard"><div class="art"><svg viewBox="0 0 200 160" aria-hidden="true"><g fill="none" stroke="#4C8DFF"><circle cx="100" cy="80" r="30" stroke-width="2"/><circle cx="100" cy="80" r="44" stroke-opacity=".55" stroke-width="1.6"/><circle cx="100" cy="80" r="58" stroke-opacity=".3" stroke-width="1.4"/><circle cx="100" cy="80" r="72" stroke-opacity=".14" stroke-width="1.2"/></g><circle cx="100" cy="80" r="24" fill="#141C33"/><circle cx="100" cy="80" r="8" fill="#4C8DFF"/></svg></div>
+          <div class="txt"><b>Ondas de sinal</b><span>Três anéis saindo da foto, pulsando a cada 3,6 s.</span></div></div>
+        <div class="gcard"><div class="art" style="background:radial-gradient(circle at 70% 20%, rgba(76,141,255,.25), transparent 60%)"><div class="hud"><i class="a"></i><i class="b"></i><i class="c"></i><i class="d"></i><div class="top"><em>REC</em><span>00:14:00:00</span></div></div></div>
+          <div class="txt"><b>Visor de câmera</b><span>Cantos de enquadramento, REC e timecode em mono.</span></div></div>
+      </div>
+      <div class="bar" style="margin-top:2cqw"><span>Traço fino · cores da marca · nunca ilustração</span><span>11</span></div>
+    </div></div>
+  </section>
+
+  <!-- 12 · FOTOGRAFIA -->
+  <section class="slide photo-s" id="fotografia" aria-label="Fotografia">
+    <div class="frame"><div class="in">
+      <div class="bar"><span><b>12</b> — Fotografia e vídeo</span><span>Lindson Almeida</span></div>
+      <div class="body" style="margin-top:2.4cqw">
+        <div class="ph"><img src="img/retrato.jpg" alt="Retrato de estúdio, fundo cinza"><span class="lbl">Autoridade · retrato de estúdio</span></div>
+        <div class="ph"><img src="img/bastidores.jpg" alt="Lindson gravando no estúdio de madeira"><span class="scrim"></span><span class="lbl">Bastidores · véu ink 30% → 82%</span></div>
+        <div class="rules">
+          <p class="eyebrow">Regras</p>
+          <div><b>Rosto real, olhar na câmera</b><span>Nada de banco de imagens. A pessoa é a prova.</span></div>
+          <div><b>Bastidores em movimento</b><span>Vídeo curto, sem som, sempre sob o véu escuro.</span></div>
+          <div><b>Foto dissolve em ink</b><span>Em peças de autoridade, a imagem some de baixo para cima no fundo.</span></div>
+        </div>
+      </div>
+      <div class="bar" style="margin-top:2cqw"><span>Luz âmbar do estúdio conversa com Sun</span><span>12</span></div>
+    </div></div>
+  </section>
+
+  <!-- 13 · STORIES -->
+  <section class="slide stories" id="stories" aria-label="Stories">
+    <div class="frame"><div class="in">
+      <div class="bar"><span><b>13</b> — Aplicação · Stories</span><span>1080 × 1920</span></div>
+      <div style="margin-top:2cqw"><h2 class="h2">Curiosidade, desejo,<br><span class="light">confiança, ação.</span></h2></div>
+      <div class="row">
+        <div class="st"><div class="img"><img src="img/story-1.jpg" alt="Story Antes e Depois"></div><b>Antes × Depois</b><span>Mostra a transformação</span></div>
+        <div class="st"><div class="img"><img src="img/story-2.jpg" alt="Story Vitrine com fundo âmbar"></div><b>Vitrine</b><span>Fundo sun · 1 em 4</span></div>
+        <div class="st"><div class="img"><img src="img/story-3.jpg" alt="Story de autoridade com retrato"></div><b>Autoridade</b><span>Retrato + números</span></div>
+        <div class="st"><div class="img"><img src="img/story-4.jpg" alt="Story passo a passo"></div><b>Passo a passo</b><span>Ensina o gesto</span></div>
+      </div>
+      <div class="bar" style="margin-top:1.6cqw"><span>Área segura: 250 px livres no topo e na base · margem 80 px</span><span>13</span></div>
+    </div></div>
+  </section>
+
+  <!-- 14 · MINI SITE -->
+  <section class="slide site" id="mini-site" aria-label="Mini site">
+    <div class="frame glow"><div class="in">
+      <div class="bar"><span><b>14</b> — Aplicação · Mini site</span><span>lindsonalmeida.github.io/lindson/links</span></div>
+      <div class="body">
+        <div class="callouts l">
+          <div class="co"><b><i style="background:#4C8DFF"></i>Foto com ondas</b><span>Anel signal, três ondas e o selo “No ar”.</span></div>
+          <div class="co"><b><i style="background:#EEF2FF"></i>Faixa de números</b><span>14 anos · 9,1 mil · MA, em vidro.</span></div>
+          <div class="co"><b><i style="background:#FF3B30"></i>Visor de câmera</b><span>REC e timecode correndo sobre o vídeo.</span></div>
+        </div>
+        <div class="phone"><img src="img/site.jpg" alt="Mini site de Lindson Almeida no celular"></div>
+        <div class="callouts r">
+          <div class="co"><b><i style="background:#FFB547"></i>Botão principal</b><span>WhatsApp em sun. O único da tela.</span></div>
+          <div class="co"><b><i style="background:#9B7BFF"></i>Quero um mini site</b><span>Borda girando signal → sun → violet.</span></div>
+          <div class="co"><b><i style="background:#93A0C2"></i>Redes e projetos</b><span>Cartões de vidro com ícone de traço.</span></div>
+        </div>
+      </div>
+      <div class="bar"><span>Vídeo de bastidores · trilha só no toque</span><span>14</span></div>
+    </div></div>
+  </section>
+
+  <!-- 15 · CERTO E ERRADO -->
+  <section class="slide dos" id="usos" aria-label="Usos corretos e incorretos">
+    <div class="frame"><div class="in">
+      <div class="bar"><span><b>15</b> — Usos</span><span>Lindson Almeida</span></div>
+      <div style="margin-top:2cqw"><h2 class="h2">Faça assim. <span class="light">Nunca assim.</span></h2></div>
+      <div class="grid">
+        <div class="dd ok"><div class="demo" style="background:#070B16"><span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span><span class="btn-demo" style="background:#FFB547;color:#1A1205">Fale comigo no WhatsApp</span></div><b>Texto escuro sobre sun</b><span>Contraste alto, leitura imediata.</span></div>
+        <div class="dd no"><div class="demo" style="background:#070B16"><span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></span><span class="btn-demo" style="background:#FFB547;color:#FFFFFF">Fale comigo no WhatsApp</span></div><b>Branco sobre sun</b><span>Some no amarelo. Não use.</span></div>
+        <div class="dd ok"><div class="demo" style="background:#070B16;align-content:center;gap:.6cqw"><span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span><span class="btn-demo" style="background:#FFB547;color:#1A1205">Ação principal</span><span class="btn-demo" style="background:rgba(255,255,255,.04);border:1px solid rgba(140,170,255,.2);color:#EEF2FF">Instagram</span></div><b>Um sun por tela</b><span>A ação principal fica óbvia.</span></div>
+        <div class="dd no"><div class="demo" style="background:#F4F4F4;color:#222;font:800 1.4cqw/1.1 var(--f-display);text-align:center"><span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></span>Soluções inovadoras em comunicação</div><b>Fundo branco e jargão</b><span>Perde o “no ar” e a prova.</span></div>
+      </div>
+      <div class="bar" style="margin-top:1.6cqw"><span>Na dúvida: escuro, uma ação, um número</span><span>15</span></div>
+    </div></div>
+  </section>
+
+  <!-- 16 · ENCERRAMENTO -->
+  <section class="slide end" id="fim" aria-label="Encerramento">
+    <div class="frame glow"><div class="vf"><span class="a"></span><span class="b"></span><span class="c"></span><span class="d"></span></div>
+      <div class="in">
+        <div class="bar"><span class="rec"><i></i><b>Fim da gravação</b></span><span>Vol. 01 — 2026</span></div>
+        <div class="body">
+          <p class="eyebrow">Lindson Almeida</p>
+          <h2 class="h1" style="margin-top:1.4cqw">O sinal<br>já está <span class="sun">no ar.</span></h2>
+          <div class="links">
+            <span>Instagram<b>@lindsonalmeida_</b></span>
+            <span>Mini site<b>lindsonalmeida.github.io/lindson/links</b></span>
+            <span>Base<b>São Luís — Maranhão</b></span>
+          </div>
+        </div>
+        <div class="bar"><span>Brand Book</span><span>16</span></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<nav class="nav" aria-label="Navegar pelos slides">
+  <button type="button" id="prev" aria-label="Slide anterior"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 15l-6-6-6 6"/></svg></button>
+  <span class="count" id="count"><b>01</b> / 16</span>
+  <button type="button" id="next" aria-label="Próximo slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button>
+</nav>
+
+<script>
+  (function () {
+    // Rede de nós do capítulo Grafismos
+    var svg = document.getElementById("net"), s = 7, out = "", pts = [];
+    function rnd() { s = (s * 9301 + 49297) % 233280; return s / 233280; }
+    for (var i = 0; i < 34; i++) pts.push([rnd() * 400, rnd() * 220, rnd() < .1]);
+    for (var a = 0; a < pts.length; a++) for (var b = a + 1; b < pts.length; b++) {
+      var dx = pts[a][0] - pts[b][0], dy = pts[a][1] - pts[b][1], d = Math.sqrt(dx * dx + dy * dy);
+      if (d < 80) out += '<line x1="' + pts[a][0] + '" y1="' + pts[a][1] + '" x2="' + pts[b][0] + '" y2="' + pts[b][1] + '" stroke="#4C8DFF" stroke-opacity="' + (0.5 * (1 - d / 80)).toFixed(2) + '" stroke-width="1"/>';
+    }
+    pts.forEach(function (p) { out += '<circle cx="' + p[0] + '" cy="' + p[1] + '" r="' + (p[2] ? 3 : 2) + '" fill="' + (p[2] ? "#FFB547" : "#8CAAFF") + '"/>'; });
+    if (svg) svg.innerHTML = out;
+
+    // Navegação entre slides
+    var slides = Array.prototype.slice.call(document.querySelectorAll(".slide"));
+    var count = document.getElementById("count"), cur = 0;
+    function pad(n) { return (n < 10 ? "0" : "") + n; }
+    function show(i) { cur = i; count.innerHTML = "<b>" + pad(i + 1) + "</b> / " + slides.length; }
+    function go(i) { i = Math.max(0, Math.min(slides.length - 1, i)); slides[i].scrollIntoView({ block: "start" }); show(i); }
+    if ("IntersectionObserver" in window) {
+      var io = new IntersectionObserver(function (es) {
+        es.forEach(function (e) { if (e.isIntersecting) show(slides.indexOf(e.target)); });
+      }, { rootMargin: "-45% 0px -45% 0px" });
+      slides.forEach(function (sl) { io.observe(sl); });
+    }
+    document.getElementById("prev").addEventListener("click", function () { go(cur - 1); });
+    document.getElementById("next").addEventListener("click", function () { go(cur + 1); });
+    document.addEventListener("keydown", function (e) {
+      if (e.target && /input|textarea/i.test(e.target.tagName)) return;
+      if (e.key === "ArrowRight" || e.key === "ArrowDown" || e.key === "PageDown" || e.key === " ") { e.preventDefault(); go(cur + 1); }
+      if (e.key === "ArrowLeft" || e.key === "ArrowUp" || e.key === "PageUp") { e.preventDefault(); go(cur - 1); }
+    });
+  })();
+</script>
+</body></html>
