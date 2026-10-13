@@ -13,15 +13,15 @@ Antes de usar qualquer foto, remova nomes e marcas visíveis (boné, carro, roup
 | `usadas/fazenda-bracos-cruzados-caminhonete.jpg` | Carrossel 01, slide 5 (fechamento) |
 | `usadas/fazenda-cerca-bracos-abertos.jpg` | Carrossel 02, slide 1 (capa) |
 | `usadas/fazenda-arvore-corpo-inteiro.jpg` | Carrossel 02, slide 5 (fechamento) |
+| `usadas/fazenda-arvore-perna-dobrada.jpg` | Carrossel 03, slide 5 (fechamento) |
 | Vídeos de estúdio (IMG_7702, IMG_7710) | Fundo do mini site, brand book (bastidores) |
 
 ## Disponíveis
 
 | Foto | Descrição |
 | --- | --- |
-| `disponiveis/fazenda-arvore-perna-dobrada.jpg` | Corpo inteiro, encostado na árvore, perna dobrada, olhando para o lado |
 
-Resta 1 foto disponível. Peça fotos novas antes do próximo conteúdo com foto.
+**Nenhuma foto disponível.** Peça fotos novas ao Lindson antes do próximo conteúdo com foto.
 
 ## Pendentes
 
