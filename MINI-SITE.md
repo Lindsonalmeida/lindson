@@ -31,6 +31,10 @@ Página de links da bio do Instagram de **Lindson Almeida** (@lindsonalmeida_).
 | `divulgacao/story-3-autoridade.png` | Story 3: autoridade |
 | `divulgacao/story-4-como-pedir.png` | Story 4: como pedir em 3 toques |
 
+## Identidade visual
+
+O branding book completo está em `branding/` (`README.md`, `instagram.md`, `tokens.json` e os componentes). `branding/modelos/stories.html` é o arquivo-fonte dos 4 Stories, para criar novas peças no mesmo estilo.
+
 ## Como publicar uma mudança
 
 A página é servida pelo GitHub Pages a partir do branch `claude/global-agent-installation-vdyowf`.

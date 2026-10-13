@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=JetBrains+Mono:wght@400;500;700&family=Manrope:wght@400;500;600;700;800&display=swap">
+<style>
+  /* Stories 1080x1920 · área segura: 250px no topo e embaixo */
+  :root {
+    --ink: #070B16; --ink-2: #0E1426; --fg: #EEF2FF; --muted: #93A0C2;
+    --line: rgba(140,170,255,.18); --signal: #4C8DFF; --sun: #FFB547; --sun-ink: #1A1205; --rec: #FF3B30;
+    --f-display: "Bricolage Grotesque", system-ui, sans-serif;
+    --f-body: "Manrope", system-ui, sans-serif;
+    --f-mono: "JetBrains Mono", ui-monospace, monospace;
+  }
+  * { box-sizing: border-box; margin: 0; }
+  body { background: #222; display: flex; gap: 40px; padding: 40px; font-family: var(--f-body); color: var(--fg); }
+  .story { position: relative; width: 1080px; height: 1920px; overflow: hidden; flex: none; }
+  .net { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+  h1 { font-family: var(--f-display); font-weight: 800; letter-spacing: -0.035em; line-height: .95; }
+  .mono { font-family: var(--f-mono); letter-spacing: .14em; text-transform: uppercase; }
+  .verified { width: 1em; height: 1em; vertical-align: -0.12em; }
+
+  .phone {
+    position: absolute; aspect-ratio: 390 / 844; border-radius: 70px; padding: 15px;
+    background: linear-gradient(145deg, #2A3350, #0B0F1C 60%);
+    box-shadow: 0 0 0 2px rgba(140,170,255,.25), 0 60px 120px rgba(0,0,0,.55);
+  }
+  .phone > img, .phone > .screen { width: 100%; height: 100%; display: block; border-radius: 56px; object-fit: cover; object-position: top; overflow: hidden; }
+  .phone::after { content: ""; position: absolute; top: 32px; left: 50%; width: 130px; height: 36px; transform: translateX(-50%); background: #05070D; border-radius: 20px; z-index: 2; }
+
+  .linkzone { position: absolute; left: 50%; transform: translateX(-50%); display: flex; flex-direction: column; align-items: center; gap: 14px; }
+  .linkzone svg { width: 54px; height: 54px; }
+
+  /* ═════ STORY 1 · ANTES × DEPOIS ═════ */
+  .s1 { background: var(--ink); }
+  .s1::before { content: ""; position: absolute; inset: 0; background: radial-gradient(900px 900px at 75% 70%, rgba(76,141,255,.3), transparent 65%); }
+  .s1 .title { position: absolute; top: 270px; left: 80px; right: 80px; }
+  .s1 .title h1 { font-size: 118px; }
+  .s1 .title h1 em { font-style: normal; color: var(--sun); }
+  .s1 .label { position: absolute; font: 700 30px/1 var(--f-mono); letter-spacing: .18em; padding: 14px 24px; border-radius: 999px; z-index: 3; }
+  .s1 .before-l { left: 100px; top: 640px; background: rgba(255,255,255,.08); color: var(--muted); border: 2px solid rgba(255,255,255,.15); }
+  .s1 .after-l { right: 100px; top: 640px; background: var(--sun); color: var(--sun-ink); }
+  .s1 .before { left: 80px; top: 740px; width: 360px; transform: rotate(-4deg); filter: saturate(0); opacity: .8; }
+  .s1 .after { right: 70px; top: 720px; width: 410px; transform: rotate(4deg); box-shadow: 0 0 0 2px rgba(140,170,255,.3), 0 60px 120px rgba(0,0,0,.6), 0 0 140px rgba(76,141,255,.45); }
+  .generic { background: #ECECEC; display: flex; flex-direction: column; align-items: center; padding: 110px 30px 0; gap: 20px; }
+  .generic .av { width: 120px; height: 120px; border-radius: 50%; background: #C9C9C9; }
+  .generic .nm { width: 200px; height: 22px; border-radius: 11px; background: #BDBDBD; margin-bottom: 20px; }
+  .generic .bt { width: 100%; height: 76px; border-radius: 14px; background: #fff; border: 2px solid #D5D5D5; display: grid; place-items: center; color: #9A9A9A; font: 600 26px/1 var(--f-body); }
+  .s1 .vs { position: absolute; left: 50%; top: 1060px; transform: translateX(-50%); z-index: 4; width: 110px; height: 110px; border-radius: 50%;
+            background: var(--ink); border: 3px solid var(--signal); display: grid; place-items: center; font: 800 34px/1 var(--f-display); color: var(--fg); }
+  .s1 .sub { position: absolute; left: 80px; right: 80px; top: 1600px; text-align: center; font-size: 36px; font-weight: 600; line-height: 1.3; color: #C9D3EE; z-index: 3; }
+  .s1 .sub b { color: var(--fg); font-weight: 800; }
+
+  /* ═════ STORY 2 · VITRINE (fundo âmbar) ═════ */
+  .s2 { background: var(--sun); color: var(--sun-ink); }
+  .s2 .net { opacity: .9; }
+  .s2 .kicker { position: absolute; top: 270px; left: 0; right: 0; text-align: center; font: 700 30px/1 var(--f-mono); letter-spacing: .2em; }
+  .s2 h1 { position: absolute; top: 330px; left: 60px; right: 60px; text-align: center; font-size: 132px; color: var(--sun-ink); }
+  .s2 h1 span { display: inline-block; background: var(--ink); color: var(--sun); padding: 0 22px 8px; border-radius: 20px; transform: rotate(-2deg); }
+  .s2 .phone { left: 50%; top: 640px; width: 420px; transform: translateX(-50%); box-shadow: 0 0 0 3px var(--sun-ink), 0 50px 100px rgba(26,18,5,.45); }
+  .s2 .chip { position: absolute; z-index: 3; display: flex; align-items: center; gap: 14px; padding: 20px 28px; border-radius: 22px;
+              background: var(--ink); color: var(--fg); font: 800 34px/1 var(--f-body); box-shadow: 0 18px 40px rgba(26,18,5,.35); }
+  .s2 .chip svg { width: 40px; height: 40px; color: var(--sun); }
+  .s2 .c1 { left: 50px; top: 800px; transform: rotate(-5deg); }
+  .s2 .c2 { right: 50px; top: 1030px; transform: rotate(4deg); }
+  .s2 .c3 { left: 60px; top: 1290px; transform: rotate(-3deg); }
+  .s2 .bottom { position: absolute; left: 0; right: 0; top: 1590px; text-align: center; }
+  .s2 .bottom strong { display: block; font: 800 54px/1.05 var(--f-display); letter-spacing: -0.02em; }
+  .s2 .bottom span { display: block; margin-top: 14px; font: 600 32px/1.3 var(--f-body); opacity: .8; }
+
+  /* ═════ STORY 3 · AUTORIDADE ═════ */
+  .s3 { background: var(--ink); }
+  .s3 .photo { position: absolute; left: 0; right: 0; top: 0; height: 1180px; }
+  .s3 .photo img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 15%; }
+  .s3 .photo::after { content: ""; position: absolute; inset: 0; background: linear-gradient(0deg, var(--ink) 0%, rgba(7,11,22,.6) 28%, rgba(7,11,22,.1) 55%, rgba(7,11,22,.35) 100%); }
+  .s3 .vf .c { position: absolute; width: 60px; height: 60px; border: 0 solid rgba(238,242,255,.6); z-index: 3; }
+  .s3 .vf .tl { top: 250px; left: 60px; border-top-width: 4px; border-left-width: 4px; }
+  .s3 .vf .tr { top: 250px; right: 60px; border-top-width: 4px; border-right-width: 4px; }
+  .s3 .hud { position: absolute; top: 270px; left: 140px; right: 140px; display: flex; justify-content: space-between; z-index: 3;
+             font: 500 28px/1 var(--f-mono); letter-spacing: .12em; color: var(--fg); text-shadow: 0 2px 10px rgba(0,0,0,.6); }
+  .s3 .hud .rec { display: inline-flex; align-items: center; gap: 12px; }
+  .s3 .hud .rec i { width: 16px; height: 16px; border-radius: 50%; background: var(--rec); box-shadow: 0 0 16px var(--rec); }
+  .s3 .copy { position: absolute; left: 80px; right: 80px; top: 900px; z-index: 3; }
+  .s3 .name { display: flex; align-items: center; gap: 12px; font: 700 34px/1 var(--f-body); color: var(--fg); margin-bottom: 26px; }
+  .s3 .copy h1 { font-size: 112px; }
+  .s3 .copy h1 em { font-style: normal; color: var(--signal); }
+  .s3 .copy p { margin-top: 30px; font-size: 42px; line-height: 1.3; font-weight: 500; color: #C9D3EE; }
+  .s3 .copy p b { color: var(--sun); font-weight: 800; }
+  .s3 .stats { position: absolute; left: 80px; right: 80px; top: 1440px; display: grid; grid-template-columns: repeat(3, 1fr); z-index: 3;
+               border: 2px solid var(--line); border-radius: 30px; background: rgba(14,20,38,.85); }
+  .s3 .stat { padding: 26px 10px; text-align: center; }
+  .s3 .stat + .stat { border-left: 2px solid var(--line); }
+  .s3 .stat strong { display: block; font: 800 60px/1 var(--f-display); }
+  .s3 .stat span { display: block; margin-top: 10px; font: 500 20px/1.3 var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+  .s3 .linkzone { top: 1640px; color: var(--sun); font: 700 30px/1 var(--f-mono); letter-spacing: .14em; }
+
+  /* ═════ STORY 4 · PASSO A PASSO ═════ */
+  .s4 { background: var(--ink); }
+  .s4::before { content: ""; position: absolute; inset: 0; background: radial-gradient(900px 800px at 100% 0%, rgba(155,123,255,.22), transparent 60%), radial-gradient(800px 800px at 0% 100%, rgba(76,141,255,.22), transparent 60%); }
+  .s4 .head { position: absolute; top: 260px; left: 80px; right: 80px; }
+  .s4 .kick { font: 700 28px/1 var(--f-mono); letter-spacing: .2em; color: #A9C6FF; }
+  .s4 h1 { margin-top: 22px; font-size: 104px; }
+  .s4 h1 em { font-style: normal; background: linear-gradient(90deg, var(--signal), #9B7BFF 50%, var(--sun)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .s4 .steps { position: absolute; left: 80px; right: 80px; top: 570px; display: flex; flex-direction: column; gap: 56px; }
+  .s4 .steps::before { content: ""; position: absolute; left: 39px; top: 80px; bottom: 260px; width: 4px; border-radius: 2px; background: linear-gradient(var(--signal), #9B7BFF, var(--sun)); opacity: .6; }
+  .step { position: relative; display: grid; grid-template-columns: 82px 1fr; gap: 30px; align-items: start; }
+  .num { width: 82px; height: 82px; border-radius: 50%; display: grid; place-items: center; font: 800 42px/1 var(--f-display);
+         background: var(--ink-2); border: 4px solid var(--signal); color: var(--fg); box-shadow: 0 0 30px rgba(76,141,255,.45); z-index: 1; }
+  .step:nth-child(2) .num { border-color: #9B7BFF; box-shadow: 0 0 30px rgba(155,123,255,.45); }
+  .step:nth-child(3) .num { border-color: var(--sun); box-shadow: 0 0 30px rgba(255,181,71,.45); }
+  .step h3 { font: 800 46px/1.1 var(--f-display); letter-spacing: -0.02em; margin: 14px 0 22px; }
+  .step h3 b { color: var(--sun); font-weight: 800; }
+  .bio { display: flex; align-items: center; gap: 22px; padding: 22px 26px; border-radius: 26px; background: rgba(14,20,38,.9); border: 2px solid var(--line); }
+  .bio img { width: 84px; height: 84px; border-radius: 50%; box-shadow: 0 0 0 3px var(--signal); }
+  .bio b { display: flex; align-items: center; gap: 8px; font: 800 30px/1.2 var(--f-body); }
+  .bio b svg { width: 28px; height: 28px; }
+  .bio .url { display: flex; align-items: center; gap: 8px; margin-top: 8px; font: 600 25px/1.2 var(--f-body); color: #8DB4FF; }
+  .bio .url svg { width: 26px; height: 26px; flex: none; }
+  .tapwrap { position: relative; }
+  .tapwrap img.btn { width: 100%; display: block; border-radius: 40px; box-shadow: 0 20px 60px rgba(76,141,255,.35); }
+  .tap { position: absolute; right: 36px; bottom: -40px; width: 96px; height: 96px; }
+  .tap::before, .tap::after { content: ""; position: absolute; inset: 0; border-radius: 50%; border: 4px solid rgba(255,255,255,.85); }
+  .tap::after { inset: -22px; border-width: 3px; opacity: .45; }
+  .tap i { position: absolute; inset: 26px; border-radius: 50%; background: rgba(255,255,255,.9); }
+  .chat { background: #0B141A; border-radius: 26px; padding: 26px; border: 2px solid rgba(255,255,255,.08); }
+  .bubble { margin-left: auto; max-width: 92%; background: #005C4B; color: #E9EDEF; padding: 20px 24px 14px; border-radius: 22px 6px 22px 22px; font: 500 31px/1.35 var(--f-body); }
+  .bubble small { display: flex; justify-content: flex-end; align-items: center; gap: 6px; margin-top: 6px; font: 500 20px/1 var(--f-body); color: rgba(233,237,239,.65); }
+  .bubble small svg { width: 30px; height: 20px; color: #53BDEB; }
+  .send { display: flex; align-items: center; gap: 16px; margin-top: 18px; }
+  .send .field { flex: 1; height: 70px; border-radius: 35px; background: #202C33; }
+  .send .go { width: 70px; height: 70px; border-radius: 50%; background: #00A884; display: grid; place-items: center; color: #fff; }
+  .send .go svg { width: 34px; height: 34px; }
+  .s4 .close { position: absolute; left: 80px; right: 80px; top: 1600px; text-align: center; font: 600 36px/1.3 var(--f-body); color: #C9D3EE; }
+  .s4 .close b { color: var(--fg); font-weight: 800; }
+</style>
+</head>
+<body>
+
+<!-- ═════ STORY 1 ═════ -->
+<section class="story s1" id="s1">
+  <svg class="net" data-seed="5"></svg>
+  <div class="title"><h1>Sua bio merece um <em>upgrade.</em></h1></div>
+
+  <span class="label before-l">ANTES</span>
+  <span class="label after-l">DEPOIS</span>
+
+  <div class="phone before"><div class="screen generic">
+    <span class="av"></span><span class="nm"></span>
+    <span class="bt">Link 1</span><span class="bt">Link 2</span><span class="bt">Link 3</span><span class="bt">Link 4</span><span class="bt">Link 5</span>
+  </div></div>
+  <div class="vs">VS</div>
+  <div class="phone after"><img src="../../divulgacao/site-top.png" alt=""></div>
+
+  <p class="sub">Lista genérica × <b>mini site com a sua cara.</b></p>
+</section>
+
+<!-- ═════ STORY 2 ═════ -->
+<section class="story s2" id="s2">
+  <svg class="net" data-seed="9" data-dark="1"></svg>
+  <div class="kicker">MINI SITE PARA BIO</div>
+  <h1>Isso aqui é um <span>link da bio.</span></h1>
+
+  <div class="phone"><img src="../../divulgacao/site-top.png" alt=""></div>
+
+  <div class="chip c1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="13" height="14" rx="2"/><path d="M16 10l5-3v10l-5-3"/></svg>Vídeo de fundo</div>
+  <div class="chip c2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l11-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="17" cy="16" r="3"/></svg>Trilha sonora</div>
+  <div class="chip c3"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 20.5l1.3-4.2A8.5 8.5 0 1 1 8 19.4z"/><path d="M9 8.6c.2 2.6 3.7 6 6.4 6.4l1.2-1.4-2-1-1 .9c-1-.4-2.2-1.6-2.6-2.6l.9-1-1-2z"/></svg>WhatsApp em 1 toque</div>
+
+  <div class="bottom"><strong>Quer um assim no seu perfil?</strong><span>Responda este story com “EU QUERO”</span></div>
+</section>
+
+<!-- ═════ STORY 3 ═════ -->
+<section class="story s3" id="s3">
+  <div class="photo"><img src="retrato.jpg" alt=""></div>
+  <div class="vf"><span class="c tl"></span><span class="c tr"></span></div>
+  <div class="hud"><span class="rec"><i></i>REC</span><span>00:14:00:00</span></div>
+
+  <div class="copy">
+    <div class="name">Lindson Almeida <svg class="verified" viewBox="0 0 24 24"><path fill="#4C8DFF" d="M12 1.5l2.6 1.9 3.2-.2 1 3.1 2.6 1.9-1 3.1 1 3.1-2.6 1.9-1 3.1-3.2-.2L12 22.5l-2.6-1.9-3.2.2-1-3.1-2.6-1.9 1-3.1-1-3.1 2.6-1.9 1-3.1 3.2.2z"/><path fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M7.8 12.2l2.8 2.8 5.6-5.8"/></svg></div>
+    <h1>14 anos de comunicação que <em>mobiliza.</em></h1>
+    <p>Agora eu levo isso para <b>a sua bio.</b></p>
+  </div>
+
+  <div class="stats">
+    <div class="stat"><strong>14</strong><span>anos de<br>conteúdo</span></div>
+    <div class="stat"><strong>9,1 mil</strong><span>seguidores</span></div>
+    <div class="stat"><strong>MA</strong><span>São Luís</span></div>
+  </div>
+
+  <div class="linkzone">TOQUE NO LINK ABAIXO
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
+  </div>
+</section>
+
+<!-- ═════ STORY 4 ═════ -->
+<section class="story s4" id="s4">
+  <svg class="net" data-seed="13"></svg>
+  <div class="head">
+    <div class="kick">COMO PEDIR O SEU</div>
+    <h1>Seu mini site em <em>3 toques.</em></h1>
+  </div>
+
+  <div class="steps">
+    <div class="step"><span class="num">1</span><div>
+      <h3>Toque no link da <b>minha bio</b></h3>
+      <div class="bio"><img src="../../links/avatar.jpg" alt=""><div>
+        <b>lindsonalmeida_ <svg viewBox="0 0 24 24"><path fill="#4C8DFF" d="M12 1.5l2.6 1.9 3.2-.2 1 3.1 2.6 1.9-1 3.1 1 3.1-2.6 1.9-1 3.1-3.2-.2L12 22.5l-2.6-1.9-3.2.2-1-3.1-2.6-1.9 1-3.1-1-3.1 2.6-1.9 1-3.1 3.2.2z"/><path fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M7.8 12.2l2.8 2.8 5.6-5.8"/></svg></b>
+        <span class="url"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/></svg>lindsonalmeida.github.io/lindson/links</span>
+      </div></div>
+    </div></div>
+
+    <div class="step"><span class="num">2</span><div>
+      <h3>Toque em <b>“Quero um mini site”</b></h3>
+      <div class="tapwrap"><img class="btn" src="btn-mini.png" alt=""><span class="tap"><i></i></span></div>
+    </div></div>
+
+    <div class="step"><span class="num">3</span><div>
+      <h3>Envie a mensagem que <b>já vem pronta</b></h3>
+      <div class="chat">
+        <div class="bubble">Oi, Lindson! Quero ter um mini site no link da minha bio<small>agora <svg viewBox="0 0 30 20" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M2 11l5 5L18 4M12 15l1 1L24 4"/></svg></small></div>
+        <div class="send"><span class="field"></span><span class="go"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 20.5l18-8.5L3 3.5l.01 6.6L15 12 3.01 13.9z"/></svg></span></div>
+      </div>
+    </div></div>
+  </div>
+  <p class="close">Eu te respondo e <b>a gente começa o seu.</b></p>
+</section>
+
+<script>
+  document.querySelectorAll('svg.net').forEach(function (svg) {
+    var s = +svg.dataset.seed, dark = svg.dataset.dark;
+    function rnd() { s = (s * 9301 + 49297) % 233280; return s / 233280; }
+    svg.setAttribute('viewBox', '0 0 1080 1920');
+    var pts = [];
+    for (var i = 0; i < 60; i++) pts.push([rnd() * 1080, rnd() * 1920, rnd() < .1]);
+    var line = dark ? 'rgb(26,18,5)' : 'rgb(76,141,255)', k = dark ? .18 : .3, out = '';
+    for (var a = 0; a < pts.length; a++) for (var b = a + 1; b < pts.length; b++) {
+      var dx = pts[a][0] - pts[b][0], dy = pts[a][1] - pts[b][1], d = Math.sqrt(dx*dx + dy*dy);
+      if (d < 230) out += '<line x1="'+pts[a][0]+'" y1="'+pts[a][1]+'" x2="'+pts[b][0]+'" y2="'+pts[b][1]+'" stroke="'+line+'" stroke-opacity="'+(k*(1-d/230)).toFixed(3)+'" stroke-width="1.6"/>';
+    }
+    pts.forEach(function (p) { out += '<circle cx="'+p[0]+'" cy="'+p[1]+'" r="'+(p[2]?5:3)+'" fill="'+(dark?'#1A1205':(p[2]?'#FFB547':'#8CAAFF'))+'" fill-opacity="'+(dark?.35:(p[2]?.95:.6))+'"/>'; });
+    svg.innerHTML = out;
+  });
+</script>
+</body>
+</html>

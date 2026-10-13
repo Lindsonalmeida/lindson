@@ -1,0 +1,103 @@
+/* Componentes Lindson Almeida — valores copiados de links/index.html e dos Stories */
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=JetBrains+Mono:wght@400;500;700&family=Manrope:wght@400;500;600;700;800&display=swap");
+
+.la-root { background: var(--ink); color: var(--fg); font-family: var(--font-body); font-size: 15px; line-height: 1.5; -webkit-font-smoothing: antialiased; }
+.la-root * { box-sizing: border-box; }
+
+/* ── Cartão de link ── */
+.la-links { display: flex; flex-direction: column; gap: var(--space-stack); margin: 0; padding: 0; list-style: none; }
+.la-link {
+  position: relative; display: flex; align-items: center; gap: 14px;
+  padding: var(--space-card) 16px var(--space-card) var(--space-card);
+  border-radius: var(--radius-card); border: 1px solid var(--line); background: var(--panel);
+  backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+  color: var(--fg); text-decoration: none; overflow: hidden;
+  transition: transform .25s ease, background-color .25s ease, border-color .25s ease;
+}
+.la-link:hover, .la-link:focus-visible { transform: translateY(-2px); background: var(--panel-hover); border-color: rgba(76, 141, 255, 0.5); }
+.la-link:focus-visible { outline: 2px solid var(--signal); outline-offset: 3px; }
+.la-ico { flex: none; width: 42px; height: 42px; display: grid; place-items: center; border-radius: var(--radius-icon); background: rgba(76, 141, 255, 0.12); color: var(--signal); }
+.la-ico svg { width: 22px; height: 22px; }
+.la-txt { min-width: 0; flex: 1; display: flex; flex-direction: column; }
+.la-txt strong { font-weight: 700; font-size: 15.5px; line-height: 1.25; }
+.la-txt > span { font-size: 13px; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.la-go { flex: none; width: 18px; height: 18px; color: var(--muted); }
+
+.la-link--cta { background: var(--sun); border-color: var(--sun); color: var(--sun-ink); box-shadow: var(--glow-sun); }
+.la-link--cta:hover, .la-link--cta:focus-visible { background: var(--sun-hover); border-color: var(--sun-hover); }
+.la-link--cta .la-ico { background: rgba(26, 18, 5, 0.12); color: var(--sun-ink); }
+.la-link--cta .la-txt > span, .la-link--cta .la-go { color: rgba(26, 18, 5, 0.72); }
+
+@property --la-ang { syntax: "<angle>"; initial-value: 0deg; inherits: false; }
+.la-link--mini {
+  border: 2px solid transparent; padding-block: 16px; box-shadow: var(--glow-mini);
+  background:
+    linear-gradient(135deg, rgba(14, 20, 38, 0.96), rgba(20, 28, 54, 0.96)) padding-box,
+    conic-gradient(from var(--la-ang), var(--signal), var(--sun), var(--violet), var(--signal)) border-box;
+  animation: la-spin 4s linear infinite;
+}
+@keyframes la-spin { to { --la-ang: 360deg; } }
+.la-link--mini .la-ico { background: linear-gradient(135deg, var(--signal), var(--violet)); color: #fff; box-shadow: 0 0 18px rgba(76, 141, 255, 0.55); }
+.la-link--mini .la-txt strong { font-size: 16px; }
+.la-link--mini .la-go { color: var(--sun); }
+.la-badge { display: inline-block; vertical-align: 2px; margin-left: 6px; padding: 3px 7px; border-radius: 6px; background: var(--sun); color: var(--sun-ink); font: 700 9.5px/1 var(--font-mono); letter-spacing: .1em; }
+
+/* ── Pílulas de função ── */
+.la-roles { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; margin: 0; padding: 0; list-style: none; }
+.la-roles li { padding: 5px 11px; border-radius: var(--radius-pill); border: 1px solid var(--line); background: var(--panel); font-size: 12.5px; font-weight: 600; color: var(--fg); }
+
+/* ── Faixa de números ── */
+.la-stats { display: grid; grid-template-columns: repeat(3, 1fr); border: 1px solid var(--line); border-radius: var(--radius-stats); background: var(--panel); }
+.la-stat { padding: 12px 8px; text-align: center; min-width: 0; }
+.la-stat + .la-stat { border-left: 1px solid var(--line); }
+.la-stat strong { display: block; font-family: var(--font-display); font-weight: 800; font-size: 22px; line-height: 1.1; font-variant-numeric: tabular-nums; }
+.la-stat span { display: block; margin-top: 3px; font: 500 10.5px/1.3 var(--font-mono); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+
+/* ── Cabeçalho de perfil ── */
+.la-head { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 14px; }
+.la-avatar { position: relative; width: 132px; height: 132px; margin-bottom: 6px; }
+.la-avatar img { position: relative; z-index: 2; width: 100%; height: 100%; display: block; border-radius: 50%; object-fit: cover; border: 2px solid var(--ink); box-shadow: 0 0 0 2px var(--signal), var(--glow-signal); }
+.la-wave { position: absolute; inset: 0; z-index: 1; border-radius: 50%; border: 1.5px solid var(--signal); opacity: 0; animation: la-wave 3.6s cubic-bezier(.2, .6, .3, 1) infinite; }
+.la-wave:nth-child(2) { animation-delay: 1.2s; }
+.la-wave:nth-child(3) { animation-delay: 2.4s; }
+@keyframes la-wave { 0% { transform: scale(1); opacity: .55; } 100% { transform: scale(1.9); opacity: 0; } }
+.la-live { position: absolute; z-index: 3; right: 2px; bottom: 8px; display: flex; align-items: center; gap: 5px; padding: 3px 8px 3px 7px; border-radius: var(--radius-pill); background: var(--ink-2); border: 1px solid var(--line); font: 500 10px/1 var(--font-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--fg); }
+.la-live i { width: 6px; height: 6px; border-radius: 50%; background: var(--sun); box-shadow: 0 0 8px var(--sun); animation: la-blink 1.6s ease-in-out infinite; }
+@keyframes la-blink { 50% { opacity: .3; } }
+.la-name { margin: 0; font-family: var(--font-display); font-weight: 800; font-size: 40px; line-height: 1; letter-spacing: -0.02em; display: inline-flex; align-items: center; gap: 8px; }
+.la-name svg { width: 24px; height: 24px; flex: none; }
+.la-thesis { margin: 0; font-family: var(--font-display); font-weight: 600; font-size: 19px; line-height: 1.3; color: var(--muted); }
+.la-thesis b { color: var(--fg); font-weight: 600; }
+.la-thesis em { font-style: normal; color: var(--signal); }
+
+/* ── Visor de câmera ── */
+.la-vf { position: relative; }
+.la-vf .c { position: absolute; width: 22px; height: 22px; border: 0 solid rgba(238, 242, 255, 0.55); }
+.la-vf .tl { top: 12px; left: 12px; border-top-width: 2px; border-left-width: 2px; }
+.la-vf .tr { top: 12px; right: 12px; border-top-width: 2px; border-right-width: 2px; }
+.la-vf .bl { bottom: 12px; left: 12px; border-bottom-width: 2px; border-left-width: 2px; }
+.la-vf .br { bottom: 12px; right: 12px; border-bottom-width: 2px; border-right-width: 2px; }
+.la-hud { position: absolute; top: 18px; left: 42px; right: 42px; display: flex; justify-content: space-between; align-items: center; font: 500 11px/1 var(--font-mono); letter-spacing: .1em; color: rgba(238, 242, 255, 0.85); font-variant-numeric: tabular-nums; }
+.la-rec { display: inline-flex; align-items: center; gap: 6px; }
+.la-rec i { width: 8px; height: 8px; border-radius: 50%; background: var(--rec); box-shadow: 0 0 8px var(--rec); animation: la-blink 1.2s steps(2, jump-none) infinite; }
+
+/* ── Eyebrow ── */
+.la-eyebrow { display: inline-flex; align-items: center; gap: 12px; padding: 12px 22px; border-radius: var(--radius-pill); border: 1.5px solid rgba(76, 141, 255, 0.5); background: rgba(76, 141, 255, 0.12); font: 700 22px/1 var(--font-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--signal-soft); }
+
+/* ── Passo a passo ── */
+.la-steps { position: relative; display: flex; flex-direction: column; gap: 28px; }
+.la-steps::before { content: ""; position: absolute; left: 19px; top: 40px; bottom: 40px; width: 2px; border-radius: 2px; background: linear-gradient(var(--signal), var(--violet), var(--sun)); opacity: .6; }
+.la-step { position: relative; display: grid; grid-template-columns: 40px 1fr; gap: 16px; align-items: center; }
+.la-num { width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center; font: 800 20px/1 var(--font-display); background: var(--ink-2); border: 2px solid var(--signal); color: var(--fg); box-shadow: 0 0 16px rgba(76, 141, 255, 0.45); z-index: 1; }
+.la-step:nth-child(2) .la-num { border-color: var(--violet); box-shadow: 0 0 16px rgba(155, 123, 255, 0.45); }
+.la-step:nth-child(3) .la-num { border-color: var(--sun); box-shadow: 0 0 16px rgba(255, 181, 71, 0.45); }
+.la-step h3 { margin: 0; font: 800 22px/1.15 var(--font-display); letter-spacing: -0.02em; }
+.la-step h3 b { color: var(--sun); font-weight: 800; }
+
+/* ── Botão de som ── */
+.la-snd { display: inline-flex; align-items: center; gap: 8px; padding: 10px 16px 10px 12px; border-radius: var(--radius-pill); border: 1px solid rgba(238, 242, 255, 0.25); background: rgba(7, 11, 22, 0.72); backdrop-filter: blur(10px); color: var(--fg); font: 600 13px/1 var(--font-body); cursor: pointer; box-shadow: 0 8px 28px rgba(0, 0, 0, 0.35); }
+.la-snd:hover { border-color: rgba(76, 141, 255, 0.6); }
+.la-snd:focus-visible { outline: 2px solid var(--signal); outline-offset: 3px; }
+.la-snd svg { width: 18px; height: 18px; }
+
+@media (prefers-reduced-motion: reduce) { .la-root *, .la-root *::before, .la-root *::after { animation: none !important; transition: none !important; } }
