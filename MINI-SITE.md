@@ -55,6 +55,13 @@ Apresentação 16:9 com 16 slides da identidade visual (manifesto, pilares, voz,
 - **Nunca usar a mesma foto duas vezes.** O controle fica em `conteudo/fotos/REGISTRO.md`: escolha só fotos de `conteudo/fotos/disponiveis/` e, ao usar, mova para `usadas/` e anote onde entrou.
 - **Acabaram as fotos? Peça novas ao Lindson** antes de produzir, em vez de repetir.
 - Tire nomes e marcas visíveis das fotos (boné, carro, roupas) antes de publicar.
+- **Feed variado.** Não repita a mesma fórmula de um carrossel para o outro: alterne o tipo de capa e a cor dominante, sempre dentro da Identidade 01 (cores, fontes e grafismos do brand book). Rodízio de bases:
+  - **Ink** (escuro, azul e âmbar): base padrão. Usada nos carrosséis 01 e 02.
+  - **Paper** (fundo claro `#EEF2FF`, texto ink, destaque signal).
+  - **Signal** (fundo azul `#4C8DFF`, texto ink e paper).
+  - **Sun** (fundo âmbar `#FFB547`, texto `#1A1205`, cartões ink).
+  - **Foto cheia** (foto ocupando a capa toda, texto sobre véu).
+  Tipos de capa para alternar: foto + título embaixo (01 e 02), só tipografia gigante, número enorme, tela dividida foto/texto, pergunta em destaque, citação.
 
 ## Como publicar uma mudança
 
