@@ -983,13 +983,13 @@
       diag.querySelector(".rates").textContent = "Resposta " + rate(1) + "% · Reunião " + rate(2) + "% · Proposta " + rate(3) + "% · Fechamento " + rate(4) + "%";
     }
     var sortFn = function (a, b) { var x = a.nd || "9999", y = b.nd || "9999"; return x < y ? -1 : x > y ? 1 : 0; };
-    var todays = act.filter(function (l) { return l.st < 4 && l.nd && l.nd <= t; }).sort(sortFn);
+    var todays = act.filter(function (l) { return l.st < 4 && l.nd && l.nd <= t; }).sort(function (a, b) { return (b.st - a.st) || sortFn(a, b); });
     var tl = $("fu-today"); tl.innerHTML = "";
     $("fu-today-c").textContent = todays.length + (todays.length === 1 ? " contato" : " contatos");
     if (!todays.length) { var em = document.createElement("div"); em.className = "empty"; em.textContent = all.length ? "Nenhum follow-up para hoje. Hora de abordar gente nova." : "Os follow-ups do dia aparecem aqui."; tl.appendChild(em); }
     todays.forEach(function (l) { tl.appendChild(leadCard(l)); });
-    var list = act.filter(function (l) { return fuFilter === null ? !(l.st < 4 && l.nd && l.nd <= t) : l.st === fuFilter; }).sort(function (a, b) { return (a.st === 4) - (b.st === 4) || sortFn(a, b); });
-    $("fu-all-h").textContent = fuFilter === null ? "Demais contatos" : "Em " + STG[fuFilter];
+    var list = act.filter(function (l) { return fuFilter === null ? !(l.st < 4 && l.nd && l.nd <= t) : l.st === fuFilter; }).sort(function (a, b) { return (b.st - a.st) || (b.mx - a.mx) || sortFn(a, b); });
+    $("fu-all-h").textContent = fuFilter === null ? "Por adesão: mais perto de fechar primeiro" : "Em " + STG[fuFilter];
     $("fu-all-c").textContent = list.length;
     var ll = $("fu-list"); ll.innerHTML = "";
     if (!list.length) { var e2 = document.createElement("div"); e2.className = "empty"; e2.textContent = fuFilter === null ? "Nada por aqui." : "Ninguém nesta etapa agora."; ll.appendChild(e2); }
