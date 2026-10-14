@@ -67,7 +67,7 @@ Apresentação 16:9 com 16 slides da identidade visual (manifesto, pilares, voz,
 ## Agência (recomeço)
 
 - `agencia/ofertas/instagram-que-vende-90-dias.md`: oferta principal (Hormozi Squad), com pendências.
-- `agencia/app/recomeco90.html`: fonte do app gamificado "Recomeço 90" (missões, jornada e cartões de aprendizado). No ar como artefato: https://claude.ai/artifact/DQFTjzVzhH2ZaHtFQwXw5N (progresso salvo na conta do Lindson, capacidade `db`).
+- `agencia/app/recomeco90.html`: fonte do app gamificado "Recomeço 90" (missões, jornada, caixa com cálculo automático e cartões de aprendizado). No ar como artefato: https://claude.ai/artifact/DQFTjzVzhH2ZaHtFQwXw5N (progresso salvo na conta do Lindson, capacidade `db`).
 
 ## Como publicar uma mudança
 
