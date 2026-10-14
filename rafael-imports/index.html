@@ -357,14 +357,19 @@
     padding: 4px 8px; border-radius: 6px; background: var(--gold); color: var(--gold-ink);
     font: 700 9.5px/1 var(--f-mono); letter-spacing: .1em; text-transform: uppercase;
   }
-  .stage { position: relative; height: 230px; display: grid; place-items: center; perspective: 700px; }
+  .stage { position: relative; height: 230px; display: grid; place-items: center; perspective: 700px; overflow: hidden; }
+  .stage .phone { pointer-events: none; }
   .stage::after {
     content: ""; position: absolute; bottom: 6px; left: 50%; width: 52%; height: 16px; transform: translateX(-50%);
     background: radial-gradient(closest-side, rgba(245,197,24,.45), transparent); filter: blur(4px);
     animation: shadow 5s ease-in-out infinite;
   }
   .phone { height: 92%; animation: floaty 5s ease-in-out infinite; transform-style: preserve-3d; filter: drop-shadow(0 18px 24px rgba(0,0,0,.55)); }
-  .phone svg { height: 100%; width: auto; display: block; }
+  .phone svg, .phone > img { height: 100%; width: auto; display: block; }
+  .phone > img { max-width: 100%; object-fit: contain; border-radius: 18px; }
+  .nofoto { width: 128px; height: 205px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; border-radius: 26px; border: 1.5px dashed rgba(245,197,24,.45); background: rgba(0,0,0,.35); text-align: center; padding: 10px; }
+  .nofoto img { width: 54%; border-radius: 50%; box-shadow: 0 0 0 2px var(--gold); }
+  .nofoto b { font: 600 10.5px/1.3 var(--f-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--gold); }
   .phone .sheen { animation: sheen 3.6s ease-in-out infinite; }
   @keyframes floaty { 0%, 100% { transform: translateY(0) rotateY(-14deg) rotateZ(-3deg); } 50% { transform: translateY(-10px) rotateY(10deg) rotateZ(2deg); } }
   @keyframes shadow { 50% { width: 38%; opacity: .6; } }
@@ -396,6 +401,7 @@
   .x { position: absolute; top: 12px; right: 12px; width: 38px; height: 38px; border-radius: 50%; border: 1px solid var(--line); background: rgba(255,255,255,.05); color: var(--fg); font-size: 20px; line-height: 1; cursor: pointer; }
   .x:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
   .sheet .stage { height: 300px; }
+  .sheet .nofoto { width: 170px; height: 272px; }
   .sheet h3 { margin: 4px 0 2px; text-align: center; font: 800 24px/1.1 var(--f-display); }
   .sheet .fr { margin: 0 0 14px; text-align: center; color: var(--muted); font-size: 14px; }
   .sw { display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin-bottom: 4px; }
@@ -642,7 +648,7 @@
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 20.5l1.3-4.2A8.5 8.5 0 1 1 8 19.4z"/></svg>
       Quero esse · consultar preço
     </a>
-    <p class="ilu">Imagem ilustrativa. Especificações do fabricante (versão global); podem variar por versão e região.</p>
+    <p class="ilu">Especificações do fabricante (versão global); podem variar por versão e região.</p>
   </div>
 </div>
 
@@ -724,12 +730,16 @@
     (function () {
       var P = window.RI_PRODUTOS, SVG = window.RI_SVG, rail = document.getElementById("rail");
       if (!P || !rail) return;
+      function vis(p) {
+        return p.foto ? '<img src="' + p.foto + '" alt="Foto do ' + esc(p.nome) + '">'
+          : '<div class="nofoto"><img src="img/logo.jpg" alt=""><b>Foto real<br>em breve</b></div>';
+      }
       function esc(t) { return String(t).replace(/[&<>"]/g, function (m) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[m]; }); }
       function mini(p) { return p.dest.map(function (d) { return "<div><b>" + esc(d[0]) + "</b><span>" + esc(d[1]) + "</span></div>"; }).join(""); }
       rail.innerHTML = P.map(function (p, i) {
         return '<button type="button" class="pcard" data-i="' + i + '" aria-label="Ver ficha do ' + esc(p.nome) + '">' +
           '<span class="new">' + esc(p.tag) + '</span>' +
-          '<div class="stage"><div class="phone" style="animation-delay:-' + i * .8 + 's">' + SVG(p, 0) + '</div></div>' +
+          '<div class="stage"><div class="phone" style="animation-delay:-' + i * .8 + 's">' + vis(p) + '</div></div>' +
           '<h3>' + esc(p.nome) + '</h3><p>' + esc(p.frase) + '</p>' +
           '<div class="mini">' + mini({ dest: p.dest.slice(0, 2) }) + '</div>' +
           '<span class="more">Ver ficha completa →<span class="dots">' + p.cores.map(function (c) { return '<i style="background:' + c[1] + '"></i>'; }).join("") + '</span></span>' +
@@ -739,7 +749,7 @@
       var sh = document.getElementById("sheet"), cur = null, ci = 0, last = null;
       function cor(i) {
         ci = i;
-        document.getElementById("sh-ph").innerHTML = SVG(cur, i);
+        document.getElementById("sh-ph").innerHTML = vis(cur);
         document.getElementById("sh-cor").textContent = cur.cores[i][0];
         document.querySelectorAll("#sh-sw button").forEach(function (b, k) { b.setAttribute("aria-pressed", k === i ? "true" : "false"); });
         document.getElementById("sh-buy").href = link("Olá, Rafael Imports! Vi no site e quero saber o preço do " + cur.nome + " na cor " + cur.cores[i][0] + ".");

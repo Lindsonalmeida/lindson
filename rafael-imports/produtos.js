@@ -1,8 +1,10 @@
-/* Lançamentos da Rafael Imports: ficha técnica (dados do fabricante) + ilustração SVG de cada aparelho.
+/* Lançamentos da Rafael Imports: ficha técnica (dados do fabricante) e foto real de cada aparelho (campo foto).
+   Sem foto, o site mostra "Foto real em breve". A ilustração SVG fica só como referência interna, fora do site.
    Usado pelo mini site (index.html) e pelas artes de divulgação (artes/arte.html). */
 (function (root) {
   var P = [
     {
+      foto: null, /* foto real: "img/produtos/x8pro.jpg" */
       id: "x8pro", marca: "POCO", nome: "POCO X8 Pro", tag: "Desempenho topo",
       frase: "Chip de topo, tela 1,5K e bateria que aguenta o dia pesado.",
       cam: "duo",
@@ -22,6 +24,7 @@
       ]
     },
     {
+      foto: null, /* foto real: "img/produtos/note15pro.jpg" */
       id: "note15pro", marca: "Redmi", nome: "Redmi Note 15 Pro 5G", tag: "Câmera 200 MP",
       frase: "200 MP, tela gigante 1,5K e resistência IP68/IP69K.",
       cam: "pro",
@@ -40,6 +43,7 @@
       ]
     },
     {
+      foto: null, /* foto real: "img/produtos/note15.jpg" */
       id: "note15", marca: "Redmi", nome: "Redmi Note 15 5G", tag: "Leve e completo",
       frase: "108 MP com estabilizador, tela curva AMOLED e só 178 g.",
       cam: "note",
@@ -58,6 +62,7 @@
       ]
     },
     {
+      foto: null, /* foto real: "img/produtos/c85.jpg" */
       id: "c85", marca: "POCO", nome: "POCO C85", tag: "Custo-benefício",
       frase: "Telão de 6,9\", bateria de 6.000 mAh e carga rápida de 33 W.",
       cam: "ring",
@@ -77,6 +82,7 @@
       ]
     },
     {
+      foto: null, /* foto real: "img/produtos/r15c.jpg" */
       id: "r15c", marca: "Redmi", nome: "Redmi 15C", tag: "Bateria monstra",
       frase: "Bateria de 6.000 mAh, tela de 6,9\" e 50 MP pelo melhor preço.",
       cam: "ring",
