@@ -210,6 +210,12 @@
   .fu-edit { display: grid; gap: 8px; padding-top: 10px; border-top: 1px dashed var(--line-2); }
   .fu-more { border: 0; background: none; color: var(--signal-soft); text-decoration: underline; font: 600 13px/1 var(--f-body); cursor: pointer; padding: 6px; justify-self: center; }
 
+  .fu-search { display: flex; align-items: center; gap: 10px; padding: 4px 6px 4px 14px; border-radius: 14px; background: var(--ink-2); border: 1px solid var(--line-2); }
+  .fu-search:focus-within { border-color: var(--signal); }
+  .fu-search svg { width: 20px; height: 20px; color: var(--signal-soft); flex: none; }
+  .fu-search input { flex: 1; min-width: 0; border: 0; background: transparent; color: var(--fg); font: 600 16px/1.2 var(--f-body); padding: 11px 0; outline: none; }
+  .fu-search input::placeholder { color: var(--muted); font-weight: 500; }
+  .fu-search button { border: 0; background: var(--ink-3); color: var(--fg); width: 32px; height: 32px; border-radius: 10px; font-size: 20px; cursor: pointer; }
   .fu-seg { display: grid; grid-template-columns: 1fr 1fr; gap: 5px; padding: 5px; border-radius: 14px; background: var(--ink-2); border: 1px solid var(--line); }
   .fu-seg button { border: 0; border-radius: 10px; padding: 11px 6px; background: transparent; color: var(--muted); font: 700 13.5px/1 var(--f-body); cursor: pointer; }
   .fu-seg button[aria-pressed="true"] { background: var(--signal); color: #04122E; }
@@ -371,6 +377,7 @@
       <div class="fu-list" id="pq-list"></div>
     </div>
     <div class="fu-box" id="fu-box" hidden>
+    <label class="fu-search" for="fu-q"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><input id="fu-q" type="text" enterkeyhint="search" autocomplete="off" placeholder="Buscar lead: nome, @ ou WhatsApp"><button type="button" id="fu-q-x" aria-label="Limpar busca" hidden>×</button></label>
     <div class="fu-stages" id="fu-stages" role="group" aria-label="Filtrar por etapa"></div>
     <p class="fu-diag" id="fu-diag"></p>
     <button type="button" class="fu-new" id="fu-new">+ Novo contato</button>
@@ -393,7 +400,7 @@
       <button type="submit" class="add">Salvar contato (+2)</button>
       <button type="button" class="fu-more" id="fu-cancel">Cancelar</button>
     </form>
-    <div class="section-h"><h2>Para hoje</h2><small id="fu-today-c">0</small></div>
+    <div class="section-h" id="fu-today-h"><h2>Para hoje</h2><small id="fu-today-c">0</small></div>
     <div class="fu-list" id="fu-today"></div>
     <div class="section-h"><h2 id="fu-all-h">Todos os contatos</h2><small id="fu-all-c">0</small></div>
     <div class="fu-list" id="fu-list"></div>
@@ -958,6 +965,12 @@
     });
     return ch;
   }
+  var fuQ = "";
+  function fuNorm(x) { return String(x || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, ""); }
+  function fuMatch(l, q) {
+    var hay = fuNorm([l.n, l.b, l.ig, l.em, l.nx].join(" ")), dq = q.replace(/\D/g, "");
+    return q.split(/\s+/).every(function (w) { return !w || hay.indexOf(w) >= 0; }) || (dq.length >= 4 && String(l.w || "").replace(/\D/g, "").indexOf(dq) >= 0);
+  }
   function renderFunil() {
     var t = today(), wk = weekId(new Date()), all = S.leads, act = all.filter(function (l) { return !l.lost; });
     var box = $("fu-stages"); box.innerHTML = "";
@@ -988,11 +1001,14 @@
     $("fu-today-c").textContent = todays.length + (todays.length === 1 ? " contato" : " contatos");
     if (!todays.length) { var em = document.createElement("div"); em.className = "empty"; em.textContent = all.length ? "Nenhum follow-up para hoje. Hora de abordar gente nova." : "Os follow-ups do dia aparecem aqui."; tl.appendChild(em); }
     todays.forEach(function (l) { tl.appendChild(leadCard(l)); });
-    var list = act.filter(function (l) { return fuFilter === null ? !(l.st < 4 && l.nd && l.nd <= t) : l.st === fuFilter; }).sort(function (a, b) { return (b.st - a.st) || (b.mx - a.mx) || sortFn(a, b); });
-    $("fu-all-h").textContent = fuFilter === null ? "Por adesão: mais perto de fechar primeiro" : "Em " + STG[fuFilter];
+    var q = fuNorm(fuQ.trim());
+    $("fu-today-h").hidden = !!q; tl.hidden = !!q; $("fu-q-x").hidden = !q;
+    var list = (q ? all.filter(function (l) { return fuMatch(l, q); }) : act.filter(function (l) { return fuFilter === null ? !(l.st < 4 && l.nd && l.nd <= t) : l.st === fuFilter; })).sort(function (a, b) { return (b.st - a.st) || (b.mx - a.mx) || sortFn(a, b); });
+    if (q && list.length === 1 && fuOpen === null) fuOpen = list[0].id;
+    $("fu-all-h").textContent = q ? "Resultado da busca" : fuFilter === null ? "Por adesão: mais perto de fechar primeiro" : "Em " + STG[fuFilter];
     $("fu-all-c").textContent = list.length;
     var ll = $("fu-list"); ll.innerHTML = "";
-    if (!list.length) { var e2 = document.createElement("div"); e2.className = "empty"; e2.textContent = fuFilter === null ? "Nada por aqui." : "Ninguém nesta etapa agora."; ll.appendChild(e2); }
+    if (!list.length) { var e2 = document.createElement("div"); e2.className = "empty"; e2.textContent = q ? "Nenhum lead encontrado com essa busca." : fuFilter === null ? "Nada por aqui." : "Ninguém nesta etapa agora."; ll.appendChild(e2); }
     list.forEach(function (l) { ll.appendChild(leadCard(l)); });
     var lost = all.filter(function (l) { return l.lost; });
     var lt = $("fu-lost-t"); lt.hidden = !lost.length; lt.textContent = (fuShowLost ? "Esconder" : "Ver") + " perdidos (" + lost.length + ")";
@@ -1199,6 +1215,8 @@
     toast("💰", brl(c) + " lançado!", "Já está dividido nos baldes.");
   });
   $("pq-sel").addEventListener("change", function () { pqNi = $("pq-sel").value || null; renderProspec(); });
+  $("fu-q").addEventListener("input", function () { fuQ = $("fu-q").value; fuOpen = null; renderFunil(); });
+  $("fu-q-x").addEventListener("click", function () { $("fu-q").value = ""; fuQ = ""; fuOpen = null; renderFunil(); $("fu-q").focus(); });
   $("seg-pq").addEventListener("click", function () { showSeg("pq"); });
   $("seg-fu").addEventListener("click", function () { showSeg("fu"); });
   opt($("fu-st"), stgOpts(), 0); opt($("fu-p"), planOpts(), "");
