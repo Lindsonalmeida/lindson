@@ -240,6 +240,8 @@
   .pq-sim { font-size: 13px; color: var(--lead); }
   .pq-sim summary { cursor: pointer; font: 700 12.5px/1.4 var(--f-body); color: var(--signal-soft); padding: 4px 0; }
   .pq-sim .pq-msg { margin-top: 6px; }
+  .pq-sim .seq-h { display: block; margin-top: 10px; font: 700 10.5px/1 var(--f-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+  .pq-sim .seq-h.now { color: var(--sun); }
   .pq-ct { display: flex; flex-wrap: wrap; gap: 6px 12px; font: 500 12px/1.4 var(--f-mono); color: var(--signal-soft); }
   .pq-ct a { color: var(--signal-soft); }
   .pq-ct span { overflow-wrap: anywhere; user-select: all; }
@@ -888,6 +890,7 @@
     if (l.ig) { var ia = document.createElement("a"); ia.href = "https://instagram.com/" + l.ig; ia.target = "_blank"; ia.rel = "noopener"; ia.textContent = "Instagram"; acts.appendChild(ia); }
     if (l.w) { var a = document.createElement("a"); a.href = "https://wa.me/55" + l.w.replace(/\D/g, "").replace(/^55(?=\d{10,11}$)/, ""); a.target = "_blank"; a.rel = "noopener"; a.textContent = "WhatsApp"; acts.appendChild(a); }
     btn("", fuOpen === l.id ? "Fechar" : "Editar", function () { fuOpen = fuOpen === l.id ? null : l.id; fuArmed = null; renderFunil(); });
+    if (!l.lost && l.st < 4) c.appendChild(leadSeq(l, t));
     if (fuOpen === l.id) c.appendChild(leadEdit(l));
     return c;
   }
@@ -919,6 +922,35 @@
       fuArmed = null; fuOpen = null; S.leads = S.leads.filter(function (x) { return x.id !== l.id; }); renderFunil(); afterChange(e, 0);
     });
     return w;
+  }
+  function leadSeq(l, t) {
+    var since = l.h && l.h[0] ? Math.round((new Date(t + "T12:00:00") - new Date(l.h[0] + "T12:00:00")) / 864e5) : 0;
+    var id2 = Array.isArray(l.id2) ? l.id2 : [];
+    var steps = [];
+    if (l.m1) steps.push(["1ª mensagem", l.m1, false]);
+    steps.push(["Follow-up · dia 2", FU2.replace("{n}", l.n), l.st === 0 && since < 4]);
+    steps.push(["Follow-up · dia 5", FU5.replace("{n}", l.n), l.st === 0 && since >= 4]);
+    if (id2.length) steps.push(["Quando disser sim", simText(id2), l.st >= 1]);
+    var dt = document.createElement("details"); dt.className = "pq-sim";
+    var sm = document.createElement("summary"); sm.textContent = "Sequência de mensagens (" + steps.length + ")"; dt.appendChild(sm);
+    steps.forEach(function (st) {
+      var h = document.createElement("small"); h.className = "seq-h" + (st[2] ? " now" : ""); h.textContent = st[0] + (st[2] ? " · próxima" : ""); dt.appendChild(h);
+      var p = document.createElement("p"); p.className = "pq-msg"; p.textContent = st[1]; dt.appendChild(p);
+      var b = document.createElement("button"); b.type = "button"; b.className = "fu-more"; b.textContent = "Copiar";
+      b.addEventListener("click", function () { copyText(st[1], b); }); dt.appendChild(b);
+    });
+    return dt;
+  }
+  // Leads mandados ao funil antes desta versão: recupera a sequência pela lista do dia
+  function fuBackfill() {
+    if (!PQ || !PQ.leads.length) return false;
+    var ch = false;
+    S.leads.forEach(function (l) {
+      if (l.m1 || l.id.indexOf("pq") !== 0) return;
+      var p = PQ.leads.filter(function (x) { return (l.ig && x.ig === l.ig) || x.n === l.n; })[0];
+      if (p) { l.m1 = p.msg || ""; l.pid = p.id; if (!(l.id2 && l.id2.length) && Array.isArray(p.ideias)) l.id2 = p.ideias.slice(0, 3); ch = true; }
+    });
+    return ch;
   }
   function renderFunil() {
     var t = today(), wk = weekId(new Date()), all = S.leads, act = all.filter(function (l) { return !l.lost; });
@@ -1019,7 +1051,7 @@
     } else {
       btn("adv", "Mandei → Funil", function (e) {
         var t = today();
-        S.leads.push({ id: "pq" + Date.now().toString(36) + Math.random().toString(36).slice(2, 5), n: String(p.n || p.ig).slice(0, 50), b: [NICHOS[p.ni] || "", p.bai || ""].filter(Boolean).join(" · ").slice(0, 50), w: String(p.wa || p.tel || "").slice(0, 20), ig: p.ig || "", em: p.em || "", p: p.pl || "", id2: ideias.slice(0, 3), st: 0, mx: 0, h: { 0: t }, lc: t, cd: t, nx: "Fazer follow-up", nd: addDays(t, 2) });
+        S.leads.push({ id: "pq" + Date.now().toString(36) + Math.random().toString(36).slice(2, 5), n: String(p.n || p.ig).slice(0, 50), b: [NICHOS[p.ni] || "", p.bai || ""].filter(Boolean).join(" · ").slice(0, 50), w: String(p.wa || p.tel || "").slice(0, 20), ig: p.ig || "", em: p.em || "", p: p.pl || "", id2: ideias.slice(0, 3), m1: p.msg || "", pid: p.id, st: 0, mx: 0, h: { 0: t }, lc: t, cd: t, nx: "Fazer follow-up", nd: addDays(t, 2) });
         S.pq.s[p.id] = "f"; renderProspec(); fuSave(e, 2);
       });
       btn("warn", "Descartar", function () { S.pq.s[p.id] = "x"; renderProspec(); persist(); });
@@ -1030,6 +1062,7 @@
     var box = $("pq-list"); box.innerHTML = "";
     if (!PQ) { $("pq-prog").textContent = pqCol ? "Carregando a lista…" : "A lista do dia aparece aqui quando você abre o app na sua conta."; $("seg-pq-n").textContent = "0"; return; }
     if (PQ.data && S.pq.d !== PQ.data) S.pq = { d: PQ.data, s: {} };
+    if (fuRef && fuBackfill()) { renderFunil(); persist(); }
     var all = PQ.leads, worked = all.filter(function (p) { return S.pq.s[p.id]; }).length, sent = all.filter(function (p) { return S.pq.s[p.id] === "f"; }).length;
     $("seg-pq-n").textContent = String(all.length - worked);
     if (PQ.data) { var dd = PQ.data.split("-"); $("pq-date").textContent = "Lista de " + dd[2] + "/" + dd[1] + (PQ.data === today() ? " · hoje" : ""); }
