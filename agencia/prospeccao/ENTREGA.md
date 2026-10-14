@@ -1,6 +1,39 @@
-# Padrão de entrega: os 3 roteiros
+# Padrão de entrega
 
-O que o lead recebe quando responde "pode mandar". Não é uma lista de ideias soltas: são **3 roteiros prontos para gravar**, que funcionam como um mini funil de vídeo. Montado com o time de agentes:
+O que o lead recebe quando responde "pode mandar". A primeira mensagem prometeu **um caminho para o objetivo final do negócio**, então a entrega precisa ser esse caminho, pronto para usar. Há 3 tipos, e o tipo é escolhido pelo que mais aproxima aquele negócio do objetivo:
+
+| Tipo | Para quem | O que é |
+|---|---|---|
+| `campanha` | Precisa de cliente novo agora (clínicas, imobiliárias, planejados, academias) | Plano de captação |
+| `roteiros` | Precisa ser visto e gerar confiança (moda, beleza, food, perfis parados) | 3 roteiros de vídeo em cascata |
+| `google` | É procurado na hora da necessidade (urgência odontológica, serviço local) | Plano de Google Meu Negócio + Google Ads |
+
+Toda entrega termina com o **convite** (abaixo). Texto pronto para WhatsApp, com *negrito* do WhatsApp, até 1.800 caracteres, sem preço do serviço do Lindson e sem prometer número de clientes.
+
+## Tipo `campanha`: plano de captação
+
+```
+Que bom! Aqui vai o plano pra [objetivo] 👇
+
+🎯 *Objetivo:* [resultado final, na língua do dono]
+👥 *Pra quem:* [público, bairro ou raio, idade]
+🧲 *Porta de entrada:* [o que a pessoa ganha ao chamar: avaliação, visita, aula, orçamento; só o que o negócio já oferece]
+📲 *Caminho:* anúncio → WhatsApp → [triagem de 2 perguntas] → [agendamento/visita]
+🎬 *3 anúncios (conceitos diferentes, como pede o Andromeda da Meta):*
+1) "[gancho]" — [formato em 1 linha]
+2) "[gancho]" — ...
+3) "[gancho]" — ...
+💰 *Verba pra começar:* R$ [x] a [y]/dia, paga direto à Meta
+📊 *O que medir:* custo por conversa e quantas viram [agendamento/visita]
+```
+
+## Tipo `google`
+
+Plano com: os termos que o cliente digita (5), como deixar o Google Meu Negócio pronto (serviços, fotos, avaliações, perguntas), 1 campanha de pesquisa no Google Ads (palavras, 2 títulos de anúncio e verba sugerida) e o que medir.
+
+## Tipo `roteiros`: os 3 roteiros
+
+Não é uma lista de ideias soltas: são **3 roteiros prontos para gravar**, que funcionam como um mini funil de vídeo. Montado com o time de agentes:
 
 - **Hormozi Hooks:** o gancho decide tudo nos primeiros 3 segundos. Ele é uma promessa, não um resumo. Precisa ser específico e ter número, contraste ou pergunta.
 - **Hormozi Content:** toda peça segue Gancho, Retenção e Recompensa. Dê o "o quê" e o "porquê" de graça. A implementação é o que se vende.
@@ -57,4 +90,4 @@ Que bom! Aqui vão os 3 roteiros, prontos pra gravar 👇
 (vídeos 2 e 3 no mesmo formato)
 ```
 
-**2. Convite** (campo `convite`, enviado logo depois): tem 2 linhas. A 1ª oferece a implementação ("Se quiser, eu gravo esses 3 com vocês num dia só e coloco anúncio pra quem mora perto."). A 2ª faz uma pergunta calibrada sobre o negócio, por exemplo "Hoje, de onde vem a maioria dos clientes novos de vocês?".
+**2. Convite** (campo `convite`, enviado logo depois de qualquer tipo de entrega): tem 2 linhas. A 1ª oferece a implementação ("Se quiser, eu coloco esse plano de pé com vocês: gravação, anúncios e acompanhamento."). A 2ª faz uma pergunta calibrada sobre o negócio, por exemplo "Hoje, de onde vem a maioria dos clientes novos de vocês?".

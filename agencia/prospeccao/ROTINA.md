@@ -48,34 +48,40 @@ Todo dia, 10 leads novos por nicho (100 no total) de negócios da Grande São Lu
 | `an` | análise inicial em 1 ou 2 frases: o ponto fraco ou a oportunidade que dá para vender |
 | `nota` | 1 a 5: quanto este lead tem cara de cliente agora |
 | `pl` | plano sugerido: `video`, `trafego`, `alcance`, `presenca` ou `iqv` |
-| `msg` | primeira mensagem de WhatsApp ou direct, na fórmula Prova, Presente e Pergunta do "não" |
+| `msg` | primeira mensagem, na fórmula Objetivo, Caminho e Permissão |
 | `ideias` | lista com as 2 ideias de vídeo para mandar quando a pessoa disser sim |
-| `rot` | os 3 roteiros completos, no padrão de `ENTREGA.md` |
+| `ent` | a entrega: `{ "tipo": "campanha" \| "roteiros" \| "google", "titulo": ..., "texto": ... }`, com o texto pronto para WhatsApp, no padrão de `ENTREGA.md` |
+| `rot` | os 3 roteiros, só quando `ent.tipo` for `roteiros` |
 | `convite` | 2 linhas enviadas depois dos roteiros (oferta + pergunta calibrada), no padrão de `ENTREGA.md` |
 | `src` | URL de onde vieram os dados |
 
 ## Como escrever a mensagem
 
-Fórmula validada pelo Copy Master (Chris Voss + Alex Hormozi + Robert Cialdini): **Prova, Presente e Pergunta do "não"**.
+Fórmula **Objetivo, Caminho e Permissão** (Copy Master: Chris Voss, Alex Hormozi, Robert Cialdini). A primeira mensagem não vende vídeo nem campanha: ela mostra que o Lindson entende **aonde o negócio quer chegar** e já tem um caminho para isso.
 
-1. **Prova (1 linha):** algo específico e verdadeiro do perfil (serviço, bairro, um post, a bio) + "aqui de São Luís". Mostra que você olhou de verdade.
-2. **Presente (1 linha):** já entregue 1 ideia de vídeo concreta, com título entre aspas e o formato. Dar antes de pedir gera reciprocidade e prova competência.
-3. **Pergunta do "não" (1 linha):** "Seria um problema eu te mandar mais 2 ideias assim?". É fácil responder "não, pode mandar", e quem responde entra no funil.
+1. **Objetivo (1 linha):** algo específico e verdadeiro do perfil + o resultado final que esse negócio busca, dito na língua do dono ("encher a agenda de avaliações", "vender as unidades do lançamento", "transformar a aula experimental em matrícula", "mais pedidos no delivery durante a semana"). Inclua "aqui de São Luís".
+2. **Caminho (1 linha):** o caminho concreto que já foi desenhado, em linguagem simples, com 1 detalhe específico do negócio (ex.: "anúncio pra quem mora no Calhau + 3 vídeos que levam direto pro seu WhatsApp").
+3. **Permissão (1 linha), pergunta do "não":** "Seria um problema eu te mandar o plano?"
 
-Regras: até 300 caracteres; sem "sou o Lindson, faço vídeo e tráfego"; sem preço; sem pedir reunião; sem criticar o perfil; no máximo 1 emoji. Use o primeiro nome do dono ou o nome do negócio.
+Regras: até 320 caracteres; sem "sou o Lindson, faço vídeo e tráfego"; sem preço; sem pedir reunião; sem prometer número de clientes; sem criticar o perfil; no máximo 1 emoji.
 
 Exemplo:
 "Oi, Fabiana! Vi a aula experimental do studio aí no Vinhais, aqui de São Luís.
-Tive uma ideia de Reels pra vocês: "3 sinais de que seu corpo está pedindo pilates", com você demonstrando cada um em 5 segundos.
-Seria um problema eu te mandar mais 2 ideias assim?"
+Desenhei um caminho pra transformar essa aula em matrícula todo mês: anúncio pra quem mora no bairro + 3 vídeos que levam direto pro seu WhatsApp.
+Seria um problema eu te mandar o plano?"
 
-Campo extra `ideias`: as 2 ideias que serão enviadas quando a pessoa disser sim (cada uma com título e formato em 1 linha). Cada ideia precisa caber no negócio e no nicho.
+### A entrega (quando disser sim)
 
-### Follow-ups e resposta (o app mostra prontas)
+O material é escolhido pelo que mais aproxima aquele negócio do objetivo, no padrão de `ENTREGA.md`:
 
-- **Dia 2, sem resposta:** "Oi, [nome]! Separei as outras 2 ideias pra vocês. Mando por aqui ou prefere que eu deixe pra lá?"
-- **Dia 5, sem resposta:** "[Nome], vou entender que vídeo pro Instagram não é prioridade agora, tudo certo. Se mudar, me chama aqui. Abraço!"
-- **Quando disser sim:** mande as 2 ideias e feche com: "Essas 3 eu gravo num único dia com vocês e coloco anúncio pra quem mora perto. Posso te mostrar em 15 minutos como ficaria? Que dia é melhor, terça ou quinta?"
+- **campanha:** plano de captação (Meta Ads na era Andromeda e/ou Google), para quem precisa de cliente novo agora.
+- **roteiros:** 3 roteiros de vídeo em cascata, para quem precisa ser visto e gerar confiança.
+- **google:** plano de Google Meu Negócio + Google Ads, para negócios que o cliente procura na hora da necessidade (urgência, serviço local).
+
+### Follow-ups (o app mostra prontos)
+
+- **Dia 2:** "Oi, [nome]! O plano pra vocês tá pronto aqui. Mando por aqui ou prefere que eu deixe pra lá?"
+- **Dia 5:** "[Nome], vou entender que isso não é prioridade agora, tudo certo. Se mudar, me chama aqui. Abraço!"
 
 ## Onde gravar
 

@@ -886,7 +886,7 @@
       var fuTxt = (since >= 4 ? FU5 : FU2).replace("{n}", l.n);
       btn("", since >= 4 ? "Copiar follow-up (dia 5)" : "Copiar follow-up (dia 2)", function (e) { copyText(fuTxt, e.currentTarget); });
     }
-    if (!l.lost && l.st === 1 && (hasRot(l) || (Array.isArray(l.id2) && l.id2.length))) btn("", "Copiar roteiros", function (e) { copyText(hasRot(l) ? entregaText(l.rot) : simText(l.id2), e.currentTarget); });
+    if (!l.lost && l.st === 1 && (hasEnt(l) || hasRot(l) || (Array.isArray(l.id2) && l.id2.length))) btn("", "Copiar entrega", function (e) { copyText(hasEnt(l) ? l.ent.texto : hasRot(l) ? entregaText(l.rot) : simText(l.id2), e.currentTarget); });
     if (l.ig) { var ia = document.createElement("a"); ia.href = "https://instagram.com/" + l.ig; ia.target = "_blank"; ia.rel = "noopener"; ia.textContent = "Instagram"; acts.appendChild(ia); }
     if (l.w) { var a = document.createElement("a"); a.href = "https://wa.me/55" + l.w.replace(/\D/g, "").replace(/^55(?=\d{10,11}$)/, ""); a.target = "_blank"; a.rel = "noopener"; a.textContent = "WhatsApp"; acts.appendChild(a); }
     btn("", fuOpen === l.id ? "Fechar" : "Editar", function () { fuOpen = fuOpen === l.id ? null : l.id; fuArmed = null; renderFunil(); });
@@ -930,7 +930,8 @@
     if (l.m1) steps.push(["1ª mensagem", l.m1, false]);
     steps.push(["Follow-up · dia 2", FU2.replace("{n}", l.n), l.st === 0 && since < 4]);
     steps.push(["Follow-up · dia 5", FU5.replace("{n}", l.n), l.st === 0 && since >= 4]);
-    if (hasRot(l)) { steps.push(["Quando disser sim · roteiros", entregaText(l.rot), l.st >= 1]); if (l.cv) steps.push(["Logo depois · convite", l.cv, false]); }
+    if (hasEnt(l)) { steps.push(["Quando disser sim · " + (ENT_TIPO[l.ent.tipo] || "entrega"), l.ent.texto, l.st >= 1]); if (l.cv) steps.push(["Logo depois · convite", l.cv, false]); }
+    else if (hasRot(l)) { steps.push(["Quando disser sim · roteiros", entregaText(l.rot), l.st >= 1]); if (l.cv) steps.push(["Logo depois · convite", l.cv, false]); }
     else if (id2.length) steps.push(["Quando disser sim", simText(id2), l.st >= 1]);
     return simBlock("Sequência de mensagens (" + steps.length + ")", steps);
   }
@@ -939,13 +940,13 @@
     if (!PQ || !PQ.leads.length) return false;
     var ch = false;
     S.leads.forEach(function (l) {
-      if ((l.m1 && (hasRot(l) || l.rotx)) || l.id.indexOf("pq") !== 0) return;
+      if ((l.m1 && (hasRot(l) || hasEnt(l))) || l.id.indexOf("pq") !== 0) return;
       var p = PQ.leads.filter(function (x) { return (l.pid && x.id === l.pid) || (l.ig && x.ig === l.ig) || x.n === l.n; })[0];
       if (!p) return;
       if (!l.m1) { l.m1 = p.msg || ""; l.pid = p.id; ch = true; }
       if (!(l.id2 && l.id2.length) && Array.isArray(p.ideias)) { l.id2 = p.ideias.slice(0, 3); ch = true; }
       if (!l.ni && p.ni) { l.ni = p.ni; ch = true; }
-      if (!hasRot(l) && hasRot(p)) { l.rot = p.rot; l.cv = p.convite || ""; ch = true; }
+      if (!hasRot(l) && !hasEnt(l) && (hasRot(p) || hasEnt(p))) { if (hasEnt(p)) l.ent = p.ent; else l.rot = p.rot; l.cv = p.convite || ""; ch = true; }
     });
     return ch;
   }
@@ -1013,8 +1014,8 @@
     try { navigator.clipboard.writeText(t).then(ok, function () { ok(); }); } catch (e) { ok(); }
   }
   function waLink(n, msg) { var d = String(n || "").replace(/\D/g, ""); if (d.length >= 12 && d.indexOf("55") === 0) d = d.slice(2); return d.length >= 10 ? "https://wa.me/55" + d + (msg ? "?text=" + encodeURIComponent(msg) : "") : ""; }
-  var FU2 = "Oi, {n}! Separei as outras 2 ideias pra vocês. Mando por aqui ou prefere que eu deixe pra lá?";
-  var FU5 = "{n}, vou entender que vídeo pro Instagram não é prioridade agora, tudo certo. Se mudar, me chama aqui. Abraço!";
+  var FU2 = "Oi, {n}! O material que comentei pra vocês tá pronto aqui. Mando por aqui ou prefere que eu deixe pra lá?";
+  var FU5 = "{n}, vou entender que isso não é prioridade agora, tudo certo. Se mudar, me chama aqui. Abraço!";
   function simText(ideias) { return "Que bom! Aqui vão:\n" + ideias.map(function (x, i) { return (i + 1) + ". " + x; }).join("\n") + "\n\nEssas 3 eu gravo num único dia com vocês e coloco anúncio pra quem mora perto. Posso te mostrar em 15 minutos como ficaria? Que dia é melhor, terça ou quinta?"; }
   function entregaText(rot) {
     var em = ["🎬", "📋", "📲"];
@@ -1028,6 +1029,8 @@
     }).join("\n\n");
   }
   function hasRot(x) { return Array.isArray(x.rot) && x.rot.length >= 1; }
+  var ENT_TIPO = { campanha: "plano de captação", roteiros: "3 roteiros", google: "plano de Google" };
+  function hasEnt(x) { return x && x.ent && typeof x.ent.texto === "string" && x.ent.texto; }
   function simBlock(title, items) {
     var dt = document.createElement("details"); dt.className = "pq-sim";
     var sm = document.createElement("summary"); sm.textContent = title; dt.appendChild(sm);
@@ -1059,7 +1062,9 @@
     if (ct.children.length) c.appendChild(ct);
     add("p", "pq-msg", p.msg);
     var ideias = Array.isArray(p.ideias) ? p.ideias.filter(function (x) { return typeof x === "string" && x; }) : [];
-    if (hasRot(p)) {
+    if (hasEnt(p)) {
+      c.appendChild(simBlock("Quando disser sim: " + (ENT_TIPO[p.ent.tipo] || "entrega") + " pronto", [["Mensagem 1 · " + (p.ent.titulo || "entrega"), p.ent.texto]].concat(p.convite ? [["Mensagem 2 · convite", p.convite]] : [])));
+    } else if (hasRot(p)) {
       c.appendChild(simBlock("Quando disser sim: 3 roteiros prontos", [["Mensagem 1 · roteiros", entregaText(p.rot)]].concat(p.convite ? [["Mensagem 2 · convite", p.convite]] : [])));
     } else if (ideias.length) {
       var dt = document.createElement("details"); dt.className = "pq-sim";
@@ -1083,7 +1088,7 @@
     } else {
       btn("adv", "Mandei → Funil", function (e) {
         var t = today();
-        S.leads.push({ id: "pq" + Date.now().toString(36) + Math.random().toString(36).slice(2, 5), n: String(p.n || p.ig).slice(0, 50), b: [NICHOS[p.ni] || "", p.bai || ""].filter(Boolean).join(" · ").slice(0, 50), w: String(p.wa || p.tel || "").slice(0, 20), ig: p.ig || "", em: p.em || "", p: p.pl || "", id2: ideias.slice(0, 3), m1: p.msg || "", pid: p.id, ni: p.ni || "", rot: hasRot(p) ? p.rot : undefined, cv: p.convite || "", st: 0, mx: 0, h: { 0: t }, lc: t, cd: t, nx: "Fazer follow-up", nd: addDays(t, 2) });
+        S.leads.push({ id: "pq" + Date.now().toString(36) + Math.random().toString(36).slice(2, 5), n: String(p.n || p.ig).slice(0, 50), b: [NICHOS[p.ni] || "", p.bai || ""].filter(Boolean).join(" · ").slice(0, 50), w: String(p.wa || p.tel || "").slice(0, 20), ig: p.ig || "", em: p.em || "", p: p.pl || "", id2: ideias.slice(0, 3), m1: p.msg || "", pid: p.id, ni: p.ni || "", rot: !hasEnt(p) && hasRot(p) ? p.rot : undefined, ent: hasEnt(p) ? p.ent : undefined, cv: p.convite || "", st: 0, mx: 0, h: { 0: t }, lc: t, cd: t, nx: "Fazer follow-up", nd: addDays(t, 2) });
         S.pq.s[p.id] = "f"; renderProspec(); fuSave(e, 2);
       });
       btn("warn", "Descartar", function () { S.pq.s[p.id] = "x"; renderProspec(); persist(); });
