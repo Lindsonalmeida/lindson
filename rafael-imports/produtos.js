@@ -43,7 +43,7 @@
       ]
     },
     {
-      foto: null, /* foto real: "img/produtos/note15.jpg" */
+      foto: "img/produtos/note15.webp", /* foto oficial enviada pelo cliente */
       id: "note15", marca: "Redmi", nome: "Redmi Note 15 5G", tag: "Leve e completo",
       frase: "108 MP com estabilizador, tela curva AMOLED e só 178 g.",
       cam: "note",
