@@ -1,0 +1,495 @@
+<title>Recomeço 90</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=JetBrains+Mono:wght@500;700&family=Manrope:wght@500;600;700;800&display=swap">
+<style>
+  /* Layout: app de coluna única para celular — placar no topo, abas, lista de missões; Identidade 01 (escura por escolha) */
+  :root {
+    --ink: #070B16; --ink-2: #0E1426; --ink-3: #151D35;
+    --fg: #EEF2FF; --lead: #C9D3EE; --muted: #93A0C2;
+    --line: rgba(140,170,255,.16); --line-2: rgba(140,170,255,.3);
+    --signal: #4C8DFF; --signal-soft: #A9C6FF; --violet: #9B7BFF;
+    --sun: #FFB547; --sun-ink: #1A1205; --ok: #2FD07A; --rec: #FF3B30;
+    --f-display: "Bricolage Grotesque", "Arial Narrow", system-ui, sans-serif;
+    --f-body: "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --f-mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  [hidden] { display: none !important; }
+  html, body { background: var(--ink); }
+  body { margin: 0; color: var(--fg); font-family: var(--f-body); font-size: 15px; line-height: 1.45; -webkit-font-smoothing: antialiased; }
+  body::before { content: ""; position: fixed; inset: 0; pointer-events: none; background: radial-gradient(700px 500px at 100% 0%, rgba(76,141,255,.18), transparent 65%), radial-gradient(500px 400px at 0% 100%, rgba(255,181,71,.06), transparent 65%); }
+  button { font: inherit; color: inherit; }
+  button:focus-visible, input:focus-visible { outline: 2px solid var(--signal); outline-offset: 2px; }
+
+  .app { position: relative; max-width: 560px; margin: 0 auto; padding-inline: 16px; padding-block: 20px 110px; display: flex; flex-direction: column; gap: 16px; }
+
+  /* Placar */
+  .hud { display: flex; justify-content: space-between; align-items: center; font: 500 11px/1 var(--f-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+  .hud .rec { display: inline-flex; align-items: center; gap: 7px; color: var(--fg); }
+  .hud .rec i { width: 8px; height: 8px; border-radius: 50%; background: var(--rec); box-shadow: 0 0 8px var(--rec); animation: blink 1.4s steps(2, jump-none) infinite; }
+  @keyframes blink { 50% { opacity: .25; } }
+
+  .score { padding: 18px; border-radius: 20px; background: var(--ink-2); border: 1px solid var(--line); display: grid; gap: 14px; }
+  .score-top { display: flex; justify-content: space-between; align-items: flex-end; gap: 12px; }
+  .lvl small { display: block; font: 700 11px/1 var(--f-mono); letter-spacing: .14em; color: var(--signal-soft); text-transform: uppercase; }
+  .lvl b { display: block; margin-top: 6px; font: 800 30px/1 var(--f-display); letter-spacing: -0.02em; }
+  .xp { text-align: right; }
+  .xp b { display: block; font: 800 30px/1 var(--f-display); color: var(--sun); font-variant-numeric: tabular-nums; }
+  .xp small { font: 500 11px/1 var(--f-mono); letter-spacing: .12em; color: var(--muted); }
+  .bar { height: 10px; border-radius: 99px; background: var(--ink-3); overflow: hidden; }
+  .bar i { display: block; height: 100%; border-radius: 99px; background: linear-gradient(90deg, var(--signal), var(--violet) 60%, var(--sun)); transition: width .5s ease; }
+  .bar-label { display: flex; justify-content: space-between; font: 500 11px/1 var(--f-mono); color: var(--muted); letter-spacing: .06em; margin-top: -6px; }
+  .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+  .stat { padding: 10px 8px; border-radius: 14px; background: var(--ink-3); text-align: center; }
+  .stat b { display: block; font: 800 20px/1.1 var(--f-display); font-variant-numeric: tabular-nums; }
+  .stat span { display: block; margin-top: 3px; font: 500 10px/1.2 var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+
+  .phase { display: flex; gap: 10px; align-items: center; padding: 12px 14px; border-radius: 16px; border: 1px solid var(--line-2); background: rgba(76,141,255,.08); }
+  .phase .tag { flex: none; padding: 5px 9px; border-radius: 99px; background: var(--signal); color: #04122E; font: 700 11px/1 var(--f-mono); letter-spacing: .1em; }
+  .phase p { margin: 0; font-size: 13.5px; color: var(--lead); }
+  .phase p b { color: var(--fg); }
+
+  /* Abas */
+  .tabs { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; padding: 6px; border-radius: 16px; background: rgba(14,20,38,.92); border: 1px solid var(--line); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
+  .tabs button { border: 0; background: transparent; padding: 11px 6px; border-radius: 11px; font: 700 14px/1 var(--f-body); color: var(--muted); cursor: pointer; }
+  .tabs button[aria-selected="true"] { background: var(--fg); color: var(--ink); }
+  .tabs button span { display: inline-block; min-width: 18px; margin-left: 4px; padding: 2px 5px; border-radius: 99px; background: var(--sun); color: var(--sun-ink); font: 700 10px/1.2 var(--f-mono); }
+
+  .section-h { display: flex; justify-content: space-between; align-items: baseline; margin: 6px 2px 0; }
+  .section-h h2 { margin: 0; font: 800 22px/1.1 var(--f-display); letter-spacing: -0.02em; }
+  .section-h small { font: 500 11px/1 var(--f-mono); letter-spacing: .1em; color: var(--muted); text-transform: uppercase; }
+
+  /* Missões */
+  .list { display: flex; flex-direction: column; gap: 8px; }
+  .m { display: flex; gap: 12px; align-items: center; padding: 14px; border-radius: 16px; background: var(--ink-2); border: 1px solid var(--line); cursor: pointer; text-align: left; width: 100%; transition: transform .15s ease, border-color .2s ease, background-color .2s ease; }
+  .m:hover { border-color: var(--line-2); }
+  .m:active { transform: scale(.985); }
+  .m .box { flex: none; width: 28px; height: 28px; border-radius: 9px; border: 2px solid var(--line-2); display: grid; place-items: center; transition: background-color .2s ease, border-color .2s ease; }
+  .m .box svg { width: 16px; height: 16px; opacity: 0; color: var(--ink); }
+  .m .t { flex: 1; min-width: 0; }
+  .m .t b { display: block; font-weight: 700; font-size: 15px; line-height: 1.3; }
+  .m .t span { display: block; margin-top: 2px; font-size: 12.5px; color: var(--muted); }
+  .m .pts { flex: none; font: 700 12px/1 var(--f-mono); color: var(--sun); padding: 6px 8px; border-radius: 9px; background: rgba(255,181,71,.12); }
+  .m.done { background: rgba(47,208,122,.07); border-color: rgba(47,208,122,.35); }
+  .m.done .box { background: var(--ok); border-color: var(--ok); }
+  .m.done .box svg { opacity: 1; }
+  .m.done .t b { color: var(--lead); text-decoration: line-through; text-decoration-color: rgba(201,211,238,.5); }
+  .m.done .pts { background: rgba(47,208,122,.15); color: var(--ok); }
+  .m.boss { border-color: rgba(255,181,71,.35); }
+  .m.boss .t b::before { content: "★ "; color: var(--sun); }
+
+  /* Contador de prospecção */
+  .counter { padding: 16px; border-radius: 18px; background: var(--ink-2); border: 1px solid rgba(255,181,71,.4); display: grid; gap: 12px; }
+  .counter-top { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+  .counter-top b { font: 800 17px/1.2 var(--f-display); }
+  .counter-top span { font-size: 12.5px; color: var(--muted); display: block; margin-top: 2px; }
+  .counter .num { font: 800 34px/1 var(--f-display); color: var(--sun); font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .counter .num small { font-size: 16px; color: var(--muted); }
+  .counter .btns { display: grid; grid-template-columns: auto 1fr 1fr 1fr; gap: 8px; }
+  .counter .btns button { border: 1px solid var(--line-2); background: var(--ink-3); border-radius: 12px; padding: 12px 6px; font: 800 16px/1 var(--f-display); cursor: pointer; }
+  .counter .btns button.add { background: var(--sun); border-color: var(--sun); color: var(--sun-ink); }
+  .counter .btns button:active { transform: scale(.96); }
+  .counter.done { border-color: rgba(47,208,122,.5); }
+  .counter.done .num { color: var(--ok); }
+
+  .hint { padding: 12px 14px; border-radius: 14px; background: var(--ink-3); font-size: 13px; color: var(--lead); }
+  .hint b { color: var(--fg); }
+
+  /* Cartões de aprendizado */
+  .deck { display: grid; gap: 14px; }
+  .deck-top { display: flex; justify-content: space-between; align-items: center; font: 500 12px/1 var(--f-mono); letter-spacing: .1em; color: var(--muted); text-transform: uppercase; }
+  .dots { display: flex; flex-wrap: wrap; gap: 5px; }
+  .dots i { width: 9px; height: 9px; border-radius: 3px; background: var(--ink-3); border: 1px solid var(--line-2); }
+  .dots i.ok { background: var(--ok); border-color: var(--ok); }
+  .dots i.cur { outline: 2px solid var(--sun); outline-offset: 1px; }
+  .card { position: relative; min-height: 360px; padding: 26px 22px 22px; border-radius: 8px 8px 22px 8px; display: flex; flex-direction: column; gap: 14px; transform: rotate(-1deg); box-shadow: 0 22px 50px rgba(0,0,0,.45); transition: transform .35s ease, opacity .35s ease; }
+  .card.c-sun { background: var(--sun); color: var(--sun-ink); }
+  .card.c-paper { background: var(--fg); color: var(--ink); }
+  .card.c-signal { background: var(--signal); color: #04122E; }
+  .card.c-ink { background: var(--ink-3); color: var(--fg); border: 1px solid var(--line-2); }
+  .card::before { content: ""; position: absolute; top: -10px; left: 50%; width: 90px; height: 22px; transform: translateX(-50%) rotate(2deg); background: rgba(238,242,255,.35); border-radius: 3px; }
+  .card .k { font: 700 12px/1 var(--f-mono); letter-spacing: .16em; text-transform: uppercase; opacity: .72; }
+  .card h3 { margin: 0; font: 800 clamp(26px, 7.4vw, 34px)/1 var(--f-display); letter-spacing: -0.03em; text-wrap: balance; }
+  .card p { margin: 0; font-size: 16px; line-height: 1.5; font-weight: 600; }
+  .card .do { margin-top: auto; padding: 12px 14px; border-radius: 12px; background: rgba(7,11,22,.1); font-size: 14.5px; line-height: 1.45; font-weight: 700; }
+  .card.c-ink .do { background: rgba(76,141,255,.14); }
+  .card .do small { display: block; font: 700 10.5px/1 var(--f-mono); letter-spacing: .16em; text-transform: uppercase; opacity: .7; margin-bottom: 6px; }
+  .card .stamp { position: absolute; top: 18px; right: 16px; padding: 6px 10px; border-radius: 8px; border: 2px solid currentColor; font: 700 11px/1 var(--f-mono); letter-spacing: .14em; transform: rotate(8deg); opacity: .85; }
+  .card.out { transform: translateX(-30px) rotate(-6deg); opacity: 0; }
+  .deck-nav { display: grid; grid-template-columns: 54px 1fr 54px; gap: 8px; }
+  .deck-nav button { border: 1px solid var(--line-2); background: var(--ink-2); border-radius: 14px; padding: 15px 8px; cursor: pointer; font-weight: 800; display: grid; place-items: center; }
+  .deck-nav button svg { width: 20px; height: 20px; }
+  .deck-nav .ok { background: var(--ok); border-color: var(--ok); color: #03140A; font: 800 16px/1 var(--f-display); }
+  .deck-nav .ok.learned { background: var(--ink-3); border-color: rgba(47,208,122,.5); color: var(--ok); }
+  .deck-nav button:disabled { opacity: .35; cursor: default; }
+
+  .foot { text-align: center; font: 500 11px/1.5 var(--f-mono); letter-spacing: .08em; color: var(--muted); }
+  .foot button { border: 0; background: none; color: var(--signal-soft); text-decoration: underline; cursor: pointer; font: inherit; }
+
+  /* Pontos subindo */
+  .pop { position: fixed; z-index: 50; pointer-events: none; font: 800 22px/1 var(--f-display); color: var(--sun); text-shadow: 0 4px 14px rgba(0,0,0,.5); animation: pop 900ms ease-out forwards; }
+  @keyframes pop { from { transform: translate(-50%, 0) scale(.8); opacity: 0; } 20% { opacity: 1; transform: translate(-50%, -10px) scale(1.1); } to { transform: translate(-50%, -70px) scale(1); opacity: 0; } }
+  .toast { position: fixed; z-index: 60; left: 50%; bottom: calc(22px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); width: min(92vw, 420px); padding: 16px 18px; border-radius: 18px; background: var(--sun); color: var(--sun-ink); box-shadow: 0 20px 50px rgba(0,0,0,.5); display: flex; gap: 12px; align-items: center; animation: up .35s ease-out; }
+  .toast b { display: block; font: 800 18px/1.15 var(--f-display); }
+  .toast span { font-size: 13.5px; font-weight: 600; }
+  .toast .big { font-size: 30px; line-height: 1; }
+  @keyframes up { from { transform: translate(-50%, 30px); opacity: 0; } }
+
+  @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
+</style>
+
+<main class="app" id="app">
+  <div class="hud"><span class="rec"><i></i>Recomeço 90</span><span id="hud-day">Dia 1 de 90</span></div>
+
+  <section class="score" aria-label="Seu placar">
+    <div class="score-top">
+      <div class="lvl"><small id="lvl-n">Nível 1</small><b id="lvl-name">Recomeço</b></div>
+      <div class="xp"><b id="xp">0</b><small>PONTOS</small></div>
+    </div>
+    <div class="bar" role="progressbar" aria-label="Progresso até o próximo nível" id="lvl-bar"><i id="lvl-fill" style="width:0%"></i></div>
+    <div class="bar-label"><span id="lvl-from">0</span><span id="lvl-next">faltam 250 para o nível 2</span></div>
+    <div class="stats">
+      <div class="stat"><b id="st-streak">0</b><span>dias seguidos</span></div>
+      <div class="stat"><b id="st-today">0/6</b><span>missões hoje</span></div>
+      <div class="stat"><b id="st-learn">0</b><span>aprendidos</span></div>
+    </div>
+  </section>
+
+  <div class="phase" id="phase"><span class="tag" id="phase-tag">FASE 1</span><p id="phase-text"></p></div>
+
+  <nav class="tabs" role="tablist" aria-label="Seções">
+    <button role="tab" id="tab-hoje" aria-selected="true" aria-controls="p-hoje">Hoje</button>
+    <button role="tab" id="tab-jornada" aria-selected="false" aria-controls="p-jornada">Jornada</button>
+    <button role="tab" id="tab-aprender" aria-selected="false" aria-controls="p-aprender">Aprender</button>
+  </nav>
+
+  <!-- HOJE -->
+  <section id="p-hoje" role="tabpanel" aria-labelledby="tab-hoje" style="display:flex;flex-direction:column;gap:12px">
+    <div class="counter" id="counter">
+      <div class="counter-top">
+        <div><b>Regra dos 100</b><span>Mensagens, comentários, follow-ups, convites e conteúdo publicado contam.</span></div>
+        <div class="num"><span id="pc">0</span><small>/100</small></div>
+      </div>
+      <div class="bar"><i id="pc-fill" style="width:0%"></i></div>
+      <div class="btns">
+        <button type="button" id="pc-minus" aria-label="Tirar 1">−1</button>
+        <button type="button" class="add" data-add="1">+1</button>
+        <button type="button" class="add" data-add="5">+5</button>
+        <button type="button" class="add" data-add="10">+10</button>
+      </div>
+    </div>
+    <div class="section-h"><h2>Missões do dia</h2><small>zeram à meia-noite</small></div>
+    <div class="list" id="daily"></div>
+    <div class="section-h"><h2>Missões da semana</h2><small id="week-label">esta semana</small></div>
+    <div class="list" id="weekly"></div>
+    <p class="hint"><b>Dia que conta para a sequência:</b> 100 ações de prospecção, ou pelo menos 4 missões do dia concluídas.</p>
+  </section>
+
+  <!-- JORNADA -->
+  <section id="p-jornada" role="tabpanel" aria-labelledby="tab-jornada" hidden style="display:flex;flex-direction:column;gap:12px">
+    <div class="section-h"><h2>Fundação do dono</h2><small id="j1c">0/0</small></div>
+    <div class="list" id="once-base"></div>
+    <div class="section-h"><h2>Rumo aos R$ 10 mil</h2><small id="j2c">0/0</small></div>
+    <div class="list" id="once-money"></div>
+    <p class="hint">As missões com <b style="color:var(--sun)">★</b> são os chefões: valem muitos pontos e marcam virada de fase.</p>
+  </section>
+
+  <!-- APRENDER -->
+  <section id="p-aprender" role="tabpanel" aria-labelledby="tab-aprender" hidden class="deck">
+    <div class="deck-top"><span id="deck-pos">Cartão 1 de 22</span><span id="deck-learned">0 aprendidos</span></div>
+    <div class="dots" id="dots" aria-hidden="true"></div>
+    <article class="card" id="card" aria-live="polite"></article>
+    <div class="deck-nav">
+      <button type="button" id="prev" aria-label="Cartão anterior"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"/></svg></button>
+      <button type="button" class="ok" id="learn">Entendi ✓</button>
+      <button type="button" id="next" aria-label="Próximo cartão"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></button>
+    </div>
+  </section>
+
+  <p class="foot"><span id="save-state">Carregando seu progresso…</span></p>
+</main>
+
+<script>
+(function () {
+  "use strict";
+  var CHECK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg>';
+
+  var DAILY = [
+    { id: "manha", t: "Bloquear as 3 primeiras horas para vender", d: "Antes de produzir qualquer coisa.", x: 20 },
+    { id: "follow", t: "Fazer follow-up de quem respondeu", d: "Ninguém fica sem retorno.", x: 20 },
+    { id: "post", t: "Publicar 1 conteúdo", d: "Reel, carrossel ou Stories.", x: 20 },
+    { id: "funil", t: "Atualizar a planilha do funil", d: "Abordou → respondeu → reunião → proposta → fechou.", x: 10 },
+    { id: "oferta", t: "Falar da oferta para alguém novo", d: "Instagram que Vende ou o mini site.", x: 20 },
+    { id: "fim", t: "Encerrar o dia no horário", d: "Descanso também é estratégia.", x: 10 }
+  ];
+  var WEEKLY = [
+    { id: "painel", t: "Sexta: revisar os 5 números", d: "Ações, reuniões, propostas, contratos, caixa.", x: 30 },
+    { id: "reunioes", t: "Fazer 5 reuniões", d: "Presencial ou vídeo.", x: 50 },
+    { id: "propostas", t: "Enviar 3 propostas", d: "Com a oferta e o preço cheio.", x: 50 },
+    { id: "contrato", t: "Fechar 1 contrato ou venda", d: "Com pagamento adiantado.", x: 100, boss: true },
+    { id: "caixa", t: "Entrar R$ 2.500 no caixa", d: "Somando tudo o que entrou na semana.", x: 60 }
+  ];
+  var BASE = [
+    { id: "conta", t: "Abrir a conta só da agência", d: "Todo pagamento cai lá.", x: 60 },
+    { id: "contador", t: "Conversar com um contador", d: "MEI ou ME no Simples Nacional.", x: 60 },
+    { id: "prolabore", t: "Definir o pró-labore e os baldes", d: "50% você · 15% impostos · 15% reserva · 20% investir.", x: 50 },
+    { id: "planilha", t: "Criar a planilha do funil", d: "Uma linha por pessoa abordada.", x: 40 },
+    { id: "contrato-modelo", t: "Criar o contrato padrão", d: "3 meses, pagamento adiantado, verba de anúncio do cliente.", x: 60 },
+    { id: "preco", t: "Confirmar preço e garantia da oferta", d: "R$ 3.500 × 3, e o número da garantia.", x: 40 },
+    { id: "processo", t: "Escrever o passo a passo da entrega", d: "Gravação, calendário, campanha, relatório.", x: 60 },
+    { id: "boasvindas", t: "Montar a recepção do cliente novo", d: "Reunião, formulário e 1ª gravação em 7 dias.", x: 40 },
+    { id: "cortar", t: "Cortar o que não vende nem entrega", d: "Projetos paralelos esperam 90 dias.", x: 40 }
+  ];
+  var MONEY = [
+    { id: "venda1", t: "Primeira venda rápida", d: "Mini site, pacote de vídeos ou Stories.", x: 150, boss: true },
+    { id: "cliente1", t: "Fechar o 1º contrato de R$ 3.500", d: "Fim da Fase 1.", x: 300, boss: true },
+    { id: "caso1", t: "Gerar o 1º caso de resultado novo", d: "Print de contatos no WhatsApp do cliente.", x: 120 },
+    { id: "cliente2", t: "Fechar o 2º contrato", d: "R$ 7 mil por mês.", x: 300, boss: true },
+    { id: "cliente3", t: "Fechar o 3º contrato: R$ 10 mil por mês", d: "Meta batida. Fim da Fase 2.", x: 500, boss: true },
+    { id: "reserva", t: "Juntar 1 mês de reserva", d: "Na conta da agência.", x: 150 },
+    { id: "editor", t: "Testar um editor freelancer", d: "Com o passo a passo escrito.", x: 120 },
+    { id: "cliente4", t: "Abrir a 4ª vaga com preço maior", d: "Fim da Fase 3.", x: 300, boss: true }
+  ];
+  var CARDS = [
+    { k: "Mentalidade", c: "sun", h: "Você não começa do zero.", p: "Começa da experiência: 14 anos, casos em três nichos, perfil verificado.", d: "Liste hoje os 3 melhores resultados que você já entregou." },
+    { k: "A fórmula", c: "ink", h: "Sucesso = Volume × Alavancagem", p: "Agora sua alavancagem é baixa. O que está 100% no seu controle é o volume.", d: "Aumente o número de ações por dia antes de pensar em ferramentas." },
+    { k: "Foco", c: "paper", h: "Um público, uma oferta, um canal.", p: "Até chegar nos R$ 10 mil por mês. Abrir frentes demais é o que quebra agência.", d: "Quando bater a vontade de criar algo novo, anote e deixe para depois dos 90 dias." },
+    { k: "Oferta", c: "signal", h: "Venda um resultado, não um serviço.", p: "Ninguém acorda querendo \"social media\". Acorda querendo clientes.", d: "Troque \"faço conteúdo\" por \"trago clientes para o seu WhatsApp\"." },
+    { k: "Posicionamento", c: "sun", h: "Conteúdo que vende.", p: "\"Transformo o seu Instagram numa fonte de clientes no WhatsApp.\"", d: "Use essa frase na bio, nas mensagens e nas reuniões." },
+    { k: "A conta", c: "ink", h: "3 × R$ 3.500 = R$ 10.500", p: "Você não precisa de 30 clientes. Precisa de 3 sins.", d: "Seu trabalho é gerar conversas suficientes para chegar a 3 sins." },
+    { k: "A oferta", c: "paper", h: "Instagram que Vende: 90 Dias", p: "8 Reels, 8 posts, Stories, tráfego, mini site, script de WhatsApp e banco de ganchos.", d: "Mostre o valor total antes de dizer o preço." },
+    { k: "Regra de ouro", c: "signal", h: "Cobre antes. Sempre.", p: "Nenhum trabalho começa sem o 1º mês ou a entrada paga.", d: "Coloque \"pagamento antecipado\" na proposta e no contrato." },
+    { k: "Contrato", c: "sun", h: "Mínimo de 3 meses.", p: "Resultado de conteúdo leva tempo. Mês a mês vira cancelamento no 2º mês.", d: "Contrato padrão com prazo, multa e verba de anúncio por conta do cliente." },
+    { k: "Dinheiro", c: "ink", h: "Separe a empresa de você.", p: "Conta só da agência. Você vive de um pró-labore fixo.", d: "Nada de pagar o mercado direto da conta da empresa." },
+    { k: "Dinheiro", c: "paper", h: "A regra dos baldes", p: "De cada real: 50% você · 15% impostos · 15% reserva · 20% investir na agência.", d: "Faça a divisão no dia em que o dinheiro cai." },
+    { k: "Formalização", c: "signal", h: "Fale com um contador.", p: "R$ 10 mil por mês passa do limite do MEI, e agência pode nem ser atividade de MEI.", d: "Pergunte sobre ME no Simples Nacional." },
+    { k: "Vendas", c: "sun", h: "A Regra dos 100", p: "100 ações de prospecção por dia, todos os dias, até ter 3 clientes.", d: "Use o contador da aba Hoje." },
+    { k: "Rotina", c: "ink", h: "As 3 primeiras horas são de venda.", p: "Quem produz de manhã e vende \"se sobrar tempo\" não vende.", d: "Agenda bloqueada, celular no modo vender." },
+    { k: "Funil", c: "paper", h: "Cada número mostra onde está o problema.", p: "Abordou → respondeu → reunião → proposta → fechou.", d: "Muita abordagem e pouca resposta: mude a mensagem. Muita reunião e pouco fechamento: mude a oferta." },
+    { k: "Entrega", c: "signal", h: "Processo, não improviso.", p: "Escreva como você faz gravação, calendário, campanha e relatório. Igual para todo cliente.", d: "Esse documento é o que vai permitir contratar um editor depois." },
+    { k: "Cliente novo", c: "sun", h: "Resultado rápido segura o cliente.", p: "Reunião de boas-vindas, formulário e 1ª gravação em até 7 dias.", d: "O cliente precisa sentir movimento na primeira semana." },
+    { k: "Números", c: "ink", h: "O painel de sexta-feira", p: "Ações · reuniões · propostas · contratos · caixa. 15 minutos.", d: "Metas: 500 · 5 · 3 · 1 · R$ 2.500." },
+    { k: "Você", c: "paper", h: "Você é o ativo número 1.", p: "Horário fixo de início e de fim. Quem trabalha 16 horas com medo decide pior.", d: "Sem dívida nova agora. Primeiro o caixa, depois o investimento." },
+    { k: "Foco", c: "signal", h: "Corte o que não vende nem entrega.", p: "Projetos paralelos só ficam se gerarem dinheiro ou clientes agora.", d: "Revise sua semana e risque o que não leva aos 3 contratos." },
+    { k: "Não fazer", c: "sun", h: "O que fica para depois dos 90 dias", p: "Logo e site novos · cliente sem pagar adiantado · baixar preço · segundo nicho.", d: "Releia esta lista quando bater a tentação." },
+    { k: "Execução", c: "ink", h: "Velocidade vale mais que perfeição.", p: "A estratégia perfeita que não sai do papel perde para a boa estratégia feita hoje.", d: "Faça a próxima missão agora, mesmo sem estar 100% pronto." }
+  ];
+  var LEVELS = [
+    { at: 0, n: "Recomeço" }, { at: 250, n: "Caçador" }, { at: 700, n: "Fechador" },
+    { at: 1400, n: "Operador" }, { at: 2400, n: "Empresário" }, { at: 3800, n: "Dono" }, { at: 5600, n: "Lenda de São Luís" }
+  ];
+
+  // ── Estado ──
+  function today() { return new Date().toLocaleDateString("en-CA"); }
+  function weekId(d) {
+    var t = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()));
+    var day = t.getUTCDay() || 7; t.setUTCDate(t.getUTCDate() + 4 - day);
+    var y0 = new Date(Date.UTC(t.getUTCFullYear(), 0, 1));
+    return t.getUTCFullYear() + "-W" + String(Math.ceil(((t - y0) / 864e5 + 1) / 7)).padStart(2, "0");
+  }
+  function blank() { return { v: 1, start: today(), days: {}, weeks: {}, once: {}, learned: {}, card: 0 }; }
+  var S = blank();
+  var LOCAL = "recomeco90-v1";
+  function loadLocal() { try { var r = localStorage.getItem(LOCAL); if (r) return JSON.parse(r); } catch (e) {} return null; }
+  function saveLocal() { try { localStorage.setItem(LOCAL, JSON.stringify(S)); } catch (e) {} }
+  function normalize(o) {
+    var b = blank(); if (!o || typeof o !== "object") return b;
+    ["days", "weeks", "once", "learned"].forEach(function (k) { if (o[k] && typeof o[k] === "object") b[k] = o[k]; });
+    if (typeof o.start === "string") b.start = o.start;
+    if (typeof o.card === "number") b.card = Math.max(0, Math.min(CARDS.length - 1, o.card));
+    return b;
+  }
+  function day() { var k = today(); if (!S.days[k]) S.days[k] = { p: 0, m: {} }; return S.days[k]; }
+  function week() { var k = weekId(new Date()); if (!S.weeks[k]) S.weeks[k] = {}; return S.weeks[k]; }
+
+  function xpOfDay(d) {
+    var x = Math.min(100, d.p || 0) / 2; if ((d.p || 0) >= 100) x += 30;
+    DAILY.forEach(function (m) { if (d.m && d.m[m.id]) x += m.x; }); return x;
+  }
+  function totalXP() {
+    var x = 0;
+    Object.keys(S.days).forEach(function (k) { x += xpOfDay(S.days[k]); });
+    Object.keys(S.weeks).forEach(function (k) { WEEKLY.forEach(function (m) { if (S.weeks[k][m.id]) x += m.x; }); });
+    BASE.concat(MONEY).forEach(function (m) { if (S.once[m.id]) x += m.x; });
+    x += Object.keys(S.learned).filter(function (k) { return S.learned[k]; }).length * 10;
+    return Math.round(x);
+  }
+  function dayCounts(d) { if (!d) return false; var n = DAILY.filter(function (m) { return d.m && d.m[m.id]; }).length; return (d.p || 0) >= 100 || n >= 4; }
+  function streak() {
+    var n = 0, d = new Date();
+    if (!dayCounts(S.days[d.toLocaleDateString("en-CA")])) d.setDate(d.getDate() - 1);
+    while (dayCounts(S.days[d.toLocaleDateString("en-CA")])) { n++; d.setDate(d.getDate() - 1); }
+    return n;
+  }
+  function levelOf(x) { var i = 0; while (i + 1 < LEVELS.length && x >= LEVELS[i + 1].at) i++; return i; }
+  function dayNumber() { var a = new Date(S.start + "T00:00:00"), b = new Date(today() + "T00:00:00"); return Math.max(1, Math.round((b - a) / 864e5) + 1); }
+
+  // ── Persistência ──
+  var db = null, ref = null, chain = Promise.resolve(), timer = null, saveEl = document.getElementById("save-state");
+  function persist() {
+    saveLocal();
+    if (!ref) return;
+    clearTimeout(timer);
+    saveEl.textContent = "Salvando…";
+    timer = setTimeout(function () {
+      var snap = JSON.parse(JSON.stringify(S));
+      chain = chain.then(function () { return ref.set(snap); }).then(function () {
+        saveEl.textContent = "Progresso salvo na sua conta ✓";
+      }, function () { saveEl.textContent = "Não consegui salvar agora. Vou tentar na próxima ação."; });
+    }, 600);
+  }
+
+  // ── Render ──
+  var $ = function (id) { return document.getElementById(id); };
+  function missionBtn(m, done, onToggle) {
+    var b = document.createElement("button"); b.type = "button";
+    b.className = "m" + (done ? " done" : "") + (m.boss ? " boss" : "");
+    b.setAttribute("aria-pressed", done ? "true" : "false");
+    b.innerHTML = '<span class="box">' + CHECK + '</span><span class="t"><b></b><span></span></span><span class="pts">+' + m.x + '</span>';
+    b.querySelector(".t b").textContent = m.t; b.querySelector(".t span").textContent = m.d;
+    b.addEventListener("click", function (e) { onToggle(e, b); });
+    return b;
+  }
+  function renderLists() {
+    var d = day(), w = week();
+    var dl = $("daily"); dl.innerHTML = "";
+    DAILY.forEach(function (m) { dl.appendChild(missionBtn(m, !!d.m[m.id], function (e) { toggle(d.m, m, e); })); });
+    var wl = $("weekly"); wl.innerHTML = "";
+    WEEKLY.forEach(function (m) { wl.appendChild(missionBtn(m, !!w[m.id], function (e) { toggle(w, m, e); })); });
+    var ob = $("once-base"); ob.innerHTML = "";
+    BASE.forEach(function (m) { ob.appendChild(missionBtn(m, !!S.once[m.id], function (e) { toggle(S.once, m, e); })); });
+    var om = $("once-money"); om.innerHTML = "";
+    MONEY.forEach(function (m) { om.appendChild(missionBtn(m, !!S.once[m.id], function (e) { toggle(S.once, m, e); })); });
+    $("j1c").textContent = BASE.filter(function (m) { return S.once[m.id]; }).length + "/" + BASE.length;
+    $("j2c").textContent = MONEY.filter(function (m) { return S.once[m.id]; }).length + "/" + MONEY.length;
+  }
+  function renderScore() {
+    var x = totalXP(), li = levelOf(x), cur = LEVELS[li], nxt = LEVELS[li + 1];
+    $("xp").textContent = x.toLocaleString("pt-BR");
+    $("lvl-n").textContent = "Nível " + (li + 1);
+    $("lvl-name").textContent = cur.n;
+    var pct = nxt ? Math.round((x - cur.at) / (nxt.at - cur.at) * 100) : 100;
+    $("lvl-fill").style.width = pct + "%";
+    $("lvl-bar").setAttribute("aria-valuenow", String(pct));
+    $("lvl-from").textContent = cur.n;
+    $("lvl-next").textContent = nxt ? "faltam " + (nxt.at - x) + " para " + nxt.n : "nível máximo";
+    var d = day();
+    $("st-streak").textContent = streak();
+    $("st-today").textContent = DAILY.filter(function (m) { return d.m[m.id]; }).length + "/" + DAILY.length;
+    $("st-learn").textContent = Object.keys(S.learned).filter(function (k) { return S.learned[k]; }).length + "/" + CARDS.length;
+    $("pc").textContent = d.p || 0;
+    $("pc-fill").style.width = Math.min(100, d.p || 0) + "%";
+    $("counter").classList.toggle("done", (d.p || 0) >= 100);
+    var n = dayNumber();
+    $("hud-day").textContent = n <= 90 ? "Dia " + n + " de 90" : "Dia " + n + " · além dos 90";
+    var ph = n <= 30 ? ["FASE 1", "<b>Sobreviver.</b> Caixa rápido + 100 ações por dia + fechar o 1º contrato. Meta: R$ 5 mil no caixa."]
+      : n <= 60 ? ["FASE 2", "<b>Estabilizar.</b> Entregar muito bem, gerar o 1º caso e fechar o 2º e o 3º. Meta: R$ 10 mil por mês."]
+      : ["FASE 3", "<b>Organizar.</b> Processos escritos, reserva, editor freelancer e 4ª vaga com preço maior."];
+    $("phase-tag").textContent = ph[0]; $("phase-text").innerHTML = ph[1];
+    $("week-label").textContent = "semana " + weekId(new Date()).split("-W")[1];
+    return li;
+  }
+  function renderCard(dir) {
+    var i = S.card, c = CARDS[i], el = $("card"), learned = !!S.learned[i];
+    el.className = "card c-" + c.c;
+    el.innerHTML = '<span class="k"></span><h3></h3><p></p><div class="do"><small>Na prática</small><span></span></div>' + (learned ? '<span class="stamp">APRENDIDO</span>' : "");
+    el.querySelector(".k").textContent = (i + 1 < 10 ? "0" : "") + (i + 1) + " · " + c.k;
+    el.querySelector("h3").textContent = c.h; el.querySelector("p").textContent = c.p; el.querySelector(".do span").textContent = c.d;
+    $("deck-pos").textContent = "Cartão " + (i + 1) + " de " + CARDS.length;
+    var nl = Object.keys(S.learned).filter(function (k) { return S.learned[k]; }).length;
+    $("deck-learned").textContent = nl + " aprendidos";
+    $("learn").textContent = learned ? "Aprendido ✓" : "Entendi ✓ (+10)";
+    $("learn").classList.toggle("learned", learned);
+    $("prev").disabled = i === 0; $("next").disabled = i === CARDS.length - 1;
+    var dots = $("dots"); dots.innerHTML = "";
+    CARDS.forEach(function (_, k) { var d = document.createElement("i"); if (S.learned[k]) d.className = "ok"; if (k === i) d.className += " cur"; dots.appendChild(d); });
+  }
+  var lastLevel = 0;
+  function renderAll() { renderLists(); var li = renderScore(); renderCard(); return li; }
+
+  function pop(e, text) {
+    var p = document.createElement("div"); p.className = "pop"; p.textContent = text;
+    var x = e && e.clientX ? e.clientX : window.innerWidth / 2, y = e && e.clientY ? e.clientY : window.innerHeight / 2;
+    p.style.left = x + "px"; p.style.top = (y - 10) + "px"; document.body.appendChild(p);
+    setTimeout(function () { p.remove(); }, 950);
+  }
+  function toast(big, title, sub) {
+    var t = document.createElement("div"); t.className = "toast"; t.setAttribute("role", "status");
+    t.innerHTML = '<span class="big"></span><div><b></b><span></span></div>';
+    t.querySelector(".big").textContent = big; t.querySelector("b").textContent = title; t.querySelector("div span").textContent = sub;
+    document.body.appendChild(t); setTimeout(function () { t.remove(); }, 3200);
+  }
+  function afterChange(e, gained) {
+    if (gained) pop(e, "+" + gained);
+    var li = renderScore();
+    if (li > lastLevel) toast("🏆", "Nível " + (li + 1) + ": " + LEVELS[li].n + "!", "Você subiu de nível. Continue.");
+    lastLevel = li;
+    persist();
+  }
+  function toggle(obj, m, e) {
+    var on = !obj[m.id]; if (on) obj[m.id] = true; else delete obj[m.id];
+    renderLists();
+    if (on && m.boss) toast("★", "Chefão vencido!", m.t);
+    afterChange(e, on ? m.x : 0);
+  }
+  function addP(n, e) {
+    var d = day(), before = d.p || 0; d.p = Math.max(0, Math.min(999, before + n));
+    var gained = Math.round(Math.min(100, d.p) / 2 - Math.min(100, before) / 2) + (before < 100 && d.p >= 100 ? 30 : 0);
+    if (before < 100 && d.p >= 100) toast("🎯", "100 ações hoje!", "Regra dos 100 cumprida. +30 de bônus.");
+    afterChange(e, gained > 0 ? gained : 0);
+  }
+
+  // ── Eventos ──
+  Array.prototype.forEach.call(document.querySelectorAll("[data-add]"), function (b) {
+    b.addEventListener("click", function (e) { addP(parseInt(b.getAttribute("data-add"), 10), e); });
+  });
+  $("pc-minus").addEventListener("click", function (e) { addP(-1, e); });
+  var TABS = ["hoje", "jornada", "aprender"];
+  function showTab(name) {
+    TABS.forEach(function (t) {
+      $("tab-" + t).setAttribute("aria-selected", t === name ? "true" : "false");
+      $("p-" + t).hidden = t !== name;
+    });
+    try { sessionStorage.setItem("recomeco90-tab", name); } catch (e) {}
+  }
+  TABS.forEach(function (t) { $("tab-" + t).addEventListener("click", function () { showTab(t); }); });
+  $("prev").addEventListener("click", function () { if (S.card > 0) { S.card--; renderCard(); persist(); } });
+  $("next").addEventListener("click", function () { if (S.card < CARDS.length - 1) { S.card++; renderCard(); persist(); } });
+  $("learn").addEventListener("click", function (e) {
+    var i = S.card;
+    if (!S.learned[i]) {
+      S.learned[i] = true;
+      var el = $("card"); el.classList.add("out");
+      setTimeout(function () { if (S.card < CARDS.length - 1) S.card++; renderCard(); }, 280);
+      afterChange(e, 10);
+      if (Object.keys(S.learned).filter(function (k) { return S.learned[k]; }).length === CARDS.length) toast("🎓", "Todos os cartões aprendidos!", "Agora é executar.");
+    } else { delete S.learned[i]; renderCard(); afterChange(e, 0); }
+  });
+
+  // ── Início ──
+  var local = loadLocal(); if (local) S = normalize(local);
+  try { var tab = sessionStorage.getItem("recomeco90-tab"); if (tab && TABS.indexOf(tab) >= 0) showTab(tab); } catch (e) {}
+  lastLevel = renderAll();
+  saveEl.textContent = "Progresso salvo neste aparelho";
+
+  if (window.claude && window.claude.use) {
+    Promise.all([window.claude.use("user"), window.claude.use("db")]).then(function (r) {
+      var user = r[0]; db = r[1];
+      if (!user || !db) { saveEl.textContent = "Progresso salvo só neste aparelho"; return null; }
+      return user.id().then(function (uid) {
+        if (!uid) { saveEl.textContent = "Entre na sua conta para salvar o progresso"; return; }
+        ref = db.doc("data/users/" + uid + "/progresso");
+        return ref.get().then(function (snap) {
+          if (snap.exists) { S = normalize(snap.data()); saveLocal(); lastLevel = renderAll(); saveEl.textContent = "Progresso salvo na sua conta ✓"; }
+          else if (local) { persist(); }
+          else { saveEl.textContent = "Comece pela primeira missão. Tudo fica salvo na sua conta."; }
+        });
+      });
+    }).catch(function () { saveEl.textContent = "Progresso salvo só neste aparelho"; });
+  }
+  // Virada do dia com a página aberta
+  setInterval(function () { var k = today(); if (!S.days[k]) { renderAll(); } }, 60000);
+})();
+</script>
