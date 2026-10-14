@@ -191,7 +191,7 @@
   <section id="p-jornada" role="tabpanel" aria-labelledby="tab-jornada" hidden style="display:flex;flex-direction:column;gap:12px">
     <div class="section-h"><h2>Fundação do dono</h2><small id="j1c">0/0</small></div>
     <div class="list" id="once-base"></div>
-    <div class="section-h"><h2>Rumo aos R$ 10 mil</h2><small id="j2c">0/0</small></div>
+    <div class="section-h"><h2>Rumo aos R$ 10 mil para você</h2><small id="j2c">0/0</small></div>
     <div class="list" id="once-money"></div>
     <p class="hint">As missões com <b style="color:var(--sun)">★</b> são os chefões: valem muitos pontos e marcam virada de fase.</p>
   </section>
@@ -229,12 +229,12 @@
     { id: "reunioes", t: "Fazer 5 reuniões", d: "Presencial ou vídeo.", x: 50 },
     { id: "propostas", t: "Enviar 3 propostas", d: "Com a oferta e o preço cheio.", x: 50 },
     { id: "contrato", t: "Fechar 1 contrato ou venda", d: "Com pagamento adiantado.", x: 100, boss: true },
-    { id: "caixa", t: "Entrar R$ 2.500 no caixa", d: "Somando tudo o que entrou na semana.", x: 60 }
+    { id: "caixa", t: "Entrar R$ 3.500 no caixa", d: "Somando tudo o que entrou na semana.", x: 60 }
   ];
   var BASE = [
     { id: "conta", t: "Abrir a conta só da agência", d: "Todo pagamento cai lá.", x: 60 },
     { id: "contador", t: "Conversar com um contador", d: "MEI ou ME no Simples Nacional.", x: 60 },
-    { id: "prolabore", t: "Definir o pró-labore e os baldes", d: "50% você · 15% impostos · 15% reserva · 20% investir.", x: 50 },
+    { id: "prolabore", t: "Definir o pró-labore e os baldes", d: "Modo sobrevivência: 80% você · 10% impostos · 5% reserva · 5% investir.", x: 50 },
     { id: "planilha", t: "Criar a planilha do funil", d: "Uma linha por pessoa abordada.", x: 40 },
     { id: "contrato-modelo", t: "Criar o contrato padrão", d: "3 meses, pagamento adiantado, verba de anúncio do cliente.", x: 60 },
     { id: "preco", t: "Confirmar preço e garantia da oferta", d: "R$ 3.500 × 3, e o número da garantia.", x: 40 },
@@ -247,10 +247,11 @@
     { id: "cliente1", t: "Fechar o 1º contrato de R$ 3.500", d: "Fim da Fase 1.", x: 300, boss: true },
     { id: "caso1", t: "Gerar o 1º caso de resultado novo", d: "Print de contatos no WhatsApp do cliente.", x: 120 },
     { id: "cliente2", t: "Fechar o 2º contrato", d: "R$ 7 mil por mês.", x: 300, boss: true },
-    { id: "cliente3", t: "Fechar o 3º contrato: R$ 10 mil por mês", d: "Meta batida. Fim da Fase 2.", x: 500, boss: true },
+    { id: "cliente3", t: "Fechar o 3º contrato", d: "R$ 10.500 de faturamento.", x: 300, boss: true },
+    { id: "cliente4", t: "Fechar o 4º contrato: R$ 14 mil por mês", d: "Seu pró-labore de R$ 10 mil garantido. Fim da Fase 2.", x: 500, boss: true },
     { id: "reserva", t: "Juntar 1 mês de reserva", d: "Na conta da agência.", x: 150 },
     { id: "editor", t: "Testar um editor freelancer", d: "Com o passo a passo escrito.", x: 120 },
-    { id: "cliente4", t: "Abrir a 4ª vaga com preço maior", d: "Fim da Fase 3.", x: 300, boss: true }
+    { id: "cliente5", t: "Abrir a 5ª vaga com preço maior", d: "Com editor ajudando. Fim da Fase 3.", x: 300, boss: true }
   ];
   var CARDS = [
     { k: "Mentalidade", c: "sun", h: "Você não começa do zero.", p: "Começa da experiência: 14 anos, casos em três nichos, perfil verificado.", d: "Liste hoje os 3 melhores resultados que você já entregou." },
@@ -258,19 +259,19 @@
     { k: "Foco", c: "paper", h: "Um público, uma oferta, um canal.", p: "Até chegar nos R$ 10 mil por mês. Abrir frentes demais é o que quebra agência.", d: "Quando bater a vontade de criar algo novo, anote e deixe para depois dos 90 dias." },
     { k: "Oferta", c: "signal", h: "Venda um resultado, não um serviço.", p: "Ninguém acorda querendo \"social media\". Acorda querendo clientes.", d: "Troque \"faço conteúdo\" por \"trago clientes para o seu WhatsApp\"." },
     { k: "Posicionamento", c: "sun", h: "Conteúdo que vende.", p: "\"Transformo o seu Instagram numa fonte de clientes no WhatsApp.\"", d: "Use essa frase na bio, nas mensagens e nas reuniões." },
-    { k: "A conta", c: "ink", h: "3 × R$ 3.500 = R$ 10.500", p: "Você não precisa de 30 clientes. Precisa de 3 sins.", d: "Seu trabalho é gerar conversas suficientes para chegar a 3 sins." },
+    { k: "A conta", c: "ink", h: "4 × R$ 3.500 = R$ 14 mil", p: "Faturamento não é salário. Para você levar R$ 10 mil, a agência precisa faturar uns R$ 14 mil.", d: "Você não precisa de 30 clientes. Precisa de 4 sins." },
     { k: "A oferta", c: "paper", h: "Instagram que Vende: 90 Dias", p: "8 Reels, 8 posts, Stories, tráfego, mini site, script de WhatsApp e banco de ganchos.", d: "Mostre o valor total antes de dizer o preço." },
     { k: "Regra de ouro", c: "signal", h: "Cobre antes. Sempre.", p: "Nenhum trabalho começa sem o 1º mês ou a entrada paga.", d: "Coloque \"pagamento antecipado\" na proposta e no contrato." },
     { k: "Contrato", c: "sun", h: "Mínimo de 3 meses.", p: "Resultado de conteúdo leva tempo. Mês a mês vira cancelamento no 2º mês.", d: "Contrato padrão com prazo, multa e verba de anúncio por conta do cliente." },
     { k: "Dinheiro", c: "ink", h: "Separe a empresa de você.", p: "Conta só da agência. Você vive de um pró-labore fixo.", d: "Nada de pagar o mercado direto da conta da empresa." },
-    { k: "Dinheiro", c: "paper", h: "A regra dos baldes", p: "De cada real: 50% você · 15% impostos · 15% reserva · 20% investir na agência.", d: "Faça a divisão no dia em que o dinheiro cai." },
+    { k: "Dinheiro", c: "paper", h: "A regra dos baldes", p: "Sobrevivência: 80% você · 10% impostos · 5% reserva · 5% investir. Estável: 70/10/10/10. Crescimento: 60/10/15/15.", d: "Faça a divisão no dia em que o dinheiro cai. Troque de fase quando bater a meta por 2 meses." },
     { k: "Formalização", c: "signal", h: "Fale com um contador.", p: "R$ 10 mil por mês passa do limite do MEI, e agência pode nem ser atividade de MEI.", d: "Pergunte sobre ME no Simples Nacional." },
     { k: "Vendas", c: "sun", h: "A Regra dos 100", p: "100 ações de prospecção por dia, todos os dias, até ter 3 clientes.", d: "Use o contador da aba Hoje." },
     { k: "Rotina", c: "ink", h: "As 3 primeiras horas são de venda.", p: "Quem produz de manhã e vende \"se sobrar tempo\" não vende.", d: "Agenda bloqueada, celular no modo vender." },
     { k: "Funil", c: "paper", h: "Cada número mostra onde está o problema.", p: "Abordou → respondeu → reunião → proposta → fechou.", d: "Muita abordagem e pouca resposta: mude a mensagem. Muita reunião e pouco fechamento: mude a oferta." },
     { k: "Entrega", c: "signal", h: "Processo, não improviso.", p: "Escreva como você faz gravação, calendário, campanha e relatório. Igual para todo cliente.", d: "Esse documento é o que vai permitir contratar um editor depois." },
     { k: "Cliente novo", c: "sun", h: "Resultado rápido segura o cliente.", p: "Reunião de boas-vindas, formulário e 1ª gravação em até 7 dias.", d: "O cliente precisa sentir movimento na primeira semana." },
-    { k: "Números", c: "ink", h: "O painel de sexta-feira", p: "Ações · reuniões · propostas · contratos · caixa. 15 minutos.", d: "Metas: 500 · 5 · 3 · 1 · R$ 2.500." },
+    { k: "Números", c: "ink", h: "O painel de sexta-feira", p: "Ações · reuniões · propostas · contratos · caixa. 15 minutos.", d: "Metas: 500 · 5 · 3 · 1 · R$ 3.500." },
     { k: "Você", c: "paper", h: "Você é o ativo número 1.", p: "Horário fixo de início e de fim. Quem trabalha 16 horas com medo decide pior.", d: "Sem dívida nova agora. Primeiro o caixa, depois o investimento." },
     { k: "Foco", c: "signal", h: "Corte o que não vende nem entrega.", p: "Projetos paralelos só ficam se gerarem dinheiro ou clientes agora.", d: "Revise sua semana e risque o que não leva aos 3 contratos." },
     { k: "Não fazer", c: "sun", h: "O que fica para depois dos 90 dias", p: "Logo e site novos · cliente sem pagar adiantado · baixar preço · segundo nicho.", d: "Releia esta lista quando bater a tentação." },
@@ -385,8 +386,8 @@
     var n = dayNumber();
     $("hud-day").textContent = n <= 90 ? "Dia " + n + " de 90" : "Dia " + n + " · além dos 90";
     var ph = n <= 30 ? ["FASE 1", "<b>Sobreviver.</b> Caixa rápido + 100 ações por dia + fechar o 1º contrato. Meta: R$ 5 mil no caixa."]
-      : n <= 60 ? ["FASE 2", "<b>Estabilizar.</b> Entregar muito bem, gerar o 1º caso e fechar o 2º e o 3º. Meta: R$ 10 mil por mês."]
-      : ["FASE 3", "<b>Organizar.</b> Processos escritos, reserva, editor freelancer e 4ª vaga com preço maior."];
+      : n <= 60 ? ["FASE 2", "<b>Estabilizar.</b> Entregar muito bem, gerar o 1º caso e fechar o 2º, o 3º e o 4º. Meta: R$ 14 mil por mês = R$ 10 mil para você."]
+      : ["FASE 3", "<b>Organizar.</b> Processos escritos, reserva, editor freelancer e 5ª vaga com preço maior."];
     $("phase-tag").textContent = ph[0]; $("phase-text").innerHTML = ph[1];
     $("week-label").textContent = "semana " + weekId(new Date()).split("-W")[1];
     return li;

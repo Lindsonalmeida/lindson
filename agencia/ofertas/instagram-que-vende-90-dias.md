@@ -58,12 +58,14 @@ Verba de anúncios por conta do cliente, paga direto à Meta, mínimo sugerido d
 
 ## Meta
 
-3 clientes × R$ 3.500 = R$ 10.500/mês.
+4 clientes × R$ 3.500 = R$ 14.000/mês de faturamento, para um pró-labore de R$ 10.000 (depois de impostos, custos e reserva).
+
+Baldes por fase: sobrevivência 80% pró-labore / 10% impostos / 5% reserva / 5% investir; estável 70/10/10/10; crescimento 60/10/15/15.
 
 ## Pendências
 
 1. Confirmar capacidade de entrega (8 Reels + 8 posts + tráfego por cliente, para 3 ou 4 clientes).
 2. Definir o número da garantia ou decidir não oferecer garantia agora.
-3. Validar o preço (R$ 3.500 × 3, ou R$ 2.500 × 4).
+3. Validar o preço (R$ 3.500 × 4 clientes para chegar a R$ 14 mil).
 4. Validar o nome.
 5. Criar a oferta de entrada rápida (caixa nesta semana).
