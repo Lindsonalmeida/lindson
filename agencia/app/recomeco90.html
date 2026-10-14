@@ -458,6 +458,7 @@
   function saveLocal() { try { localStorage.setItem(LOCAL, JSON.stringify(S)); } catch (e) {} }
   function normalize(o) {
     var b = blank(); if (!o || typeof o !== "object") return b;
+    try { o = JSON.parse(JSON.stringify(o)); } catch (e) { return b; } // dados da conta chegam congelados: copia editável
     ["days", "weeks", "once", "learned"].forEach(function (k) { if (o[k] && typeof o[k] === "object") b[k] = o[k]; });
     if (typeof o.start === "string") b.start = o.start;
     if (typeof o.card === "number") b.card = Math.max(0, Math.min(CARDS.length - 1, o.card));
