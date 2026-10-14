@@ -202,6 +202,9 @@
   .btn.cta .txt span, .btn.cta .go { color: rgba(26,20,2,.72); }
   @keyframes pulse { 0%, 100% { box-shadow: 0 12px 36px rgba(245,197,24,.3), 0 0 0 0 rgba(245,197,24,.45); } 50% { box-shadow: 0 12px 36px rgba(245,197,24,.3), 0 0 0 10px rgba(245,197,24,0); } }
 
+  /* Vendas: contorno dourado e ícone metálico */
+  .btn.sale { border-color: rgba(245,197,24,.55); background: linear-gradient(135deg, rgba(40,32,8,.8), rgba(18,18,22,.8)); }
+  .btn.sale .ico { background: var(--metal); color: var(--gold-ink); }
   /* Assistência: borda dourada girando */
   .btn.tech {
     border: 2px solid transparent;
@@ -370,19 +373,27 @@
     </div>
   </div>
 
-  <nav class="rv" aria-label="Atendimento">
+  <nav class="rv" aria-label="Contatos">
+    <p class="label">3 contatos · fale com o setor certo</p>
     <ul class="links">
       <li>
         <a class="btn cta" data-loja data-wa="Olá, Rafael Imports! Vim pelo link da bio e quero atendimento." href="https://ig.me/m/rafael.imports.slz" target="_blank" rel="noopener">
           <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 20.5l1.3-4.2A8.5 8.5 0 1 1 8 19.4z"/><path d="M9 8.6c.2 2.6 3.7 6 6.4 6.4l1.2-1.4-2-1-1 .9c-1-.4-2.2-1.6-2.6-2.6l.9-1-1-2z"/></svg></span>
-          <span class="txt"><strong>Falar no WhatsApp</strong><span>Informações gerais da loja</span></span>
+          <span class="txt"><strong>WhatsApp da loja</strong><span>Informações gerais</span></span>
+          <svg class="go" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </li>
+      <li>
+        <a class="btn sale" data-wa="Olá, Rafael Imports! Vim pelo link da bio e quero saber preços e modelos de celular." href="https://ig.me/m/rafael.imports.slz" target="_blank" rel="noopener">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4h2.2l2.2 11h10.8l2-8H6.3"/><circle cx="9.5" cy="19" r="1.5"/><circle cx="17" cy="19" r="1.5"/></svg></span>
+          <span class="txt"><strong>WhatsApp de vendas</strong><span>Preços, modelos e produtos</span></span>
           <svg class="go" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
         </a>
       </li>
       <li>
         <button class="btn tech" id="q-toggle" type="button" aria-expanded="false" aria-controls="quote">
           <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2.5" width="12" height="19" rx="2.5"/><path d="M10.5 18.5h3"/><path d="M14.6 7.4a2.4 2.4 0 0 0-3.2 3.2l-2 2 .9.9 2-2a2.4 2.4 0 0 0 3.2-3.2l-1.3 1.3-1-.3-.3-1z"/></svg></span>
-          <span class="txt"><strong>Assistência técnica <span class="badge">ORÇAMENTO</span></strong><span>Tela, bateria, conector e mais</span></span>
+          <span class="txt"><strong>WhatsApp da assistência</strong><span>Orçamento de conserto</span></span>
           <svg class="go" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
         </button>
         <div class="quote" id="quote">
