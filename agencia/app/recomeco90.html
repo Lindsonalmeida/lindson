@@ -940,13 +940,14 @@
     if (!PQ || !PQ.leads.length) return false;
     var ch = false;
     S.leads.forEach(function (l) {
-      if ((l.m1 && (hasRot(l) || hasEnt(l))) || l.id.indexOf("pq") !== 0) return;
+      if ((l.m1 && hasEnt(l)) || l.id.indexOf("pq") !== 0) return;
       var p = PQ.leads.filter(function (x) { return (l.pid && x.id === l.pid) || (l.ig && x.ig === l.ig) || x.n === l.n; })[0];
       if (!p) return;
       if (!l.m1) { l.m1 = p.msg || ""; l.pid = p.id; ch = true; }
       if (!(l.id2 && l.id2.length) && Array.isArray(p.ideias)) { l.id2 = p.ideias.slice(0, 3); ch = true; }
       if (!l.ni && p.ni) { l.ni = p.ni; ch = true; }
-      if (!hasRot(l) && !hasEnt(l) && (hasRot(p) || hasEnt(p))) { if (hasEnt(p)) l.ent = p.ent; else l.rot = p.rot; l.cv = p.convite || ""; ch = true; }
+      if (!hasEnt(l) && hasEnt(p)) { l.ent = p.ent; l.cv = p.convite || ""; delete l.rot; ch = true; }
+      else if (!hasRot(l) && !hasEnt(l) && hasRot(p)) { l.rot = p.rot; l.cv = p.convite || ""; ch = true; }
     });
     return ch;
   }
