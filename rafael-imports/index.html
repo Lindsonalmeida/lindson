@@ -1,0 +1,663 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Rafael Imports — celulares Xiaomi, iPhone, Realme e Samsung, acessórios e assistência técnica. Loja física na Galeria New Center, Maranhão Novo, São Luís. Entrega grátis.">
+<meta property="og:title" content="Rafael Imports · São Luís">
+<meta property="og:description" content="Celulares · Acessórios · Assistência. Entrega grátis e loja física em São Luís.">
+<meta property="og:image" content="img/logo.jpg">
+<meta name="theme-color" content="#08080A">
+<title>Rafael Imports</title>
+<link rel="icon" href="img/logo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700;800&family=JetBrains+Mono:wght@400;600&family=Manrope:wght@400;500;600;700&display=swap">
+<style>
+  /* Identidade Rafael Imports: preto profundo + dourado metálico + listras amarelas da loja */
+  :root {
+    --ink: #08080A;
+    --ink-2: #121216;
+    --fg: #F6F3EA;
+    --muted: #A9A49A;
+    --line: rgba(245, 197, 24, 0.18);
+    --panel: rgba(255, 255, 255, 0.04);
+    --gold: #F5C518;
+    --gold-2: #E2A80F;
+    --gold-hi: #FFE27A;
+    --gold-ink: #1A1402;
+    --metal: linear-gradient(135deg, #FFE9A0 0%, #E2B33C 28%, #9C7414 52%, #F2CB5B 74%, #B8891A 100%);
+    --wa: #25D366;
+
+    --f-display: "Sora", system-ui, sans-serif;
+    --f-body: "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --f-mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  html { background: var(--ink); scroll-behavior: smooth; }
+  body {
+    margin: 0; min-height: 100vh;
+    background: var(--ink); color: var(--fg);
+    font: 15px/1.5 var(--f-body);
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+  a { color: inherit; }
+
+  /* ── Fundo: 2 vídeos da loja em crossfade + grade de circuito ── */
+  .bg { position: fixed; inset: 0; z-index: 0; pointer-events: none; }
+  .bg video {
+    position: absolute; inset: 0; width: 100%; height: 100%;
+    object-fit: cover; opacity: 0;
+    transition: opacity 1.4s ease;
+  }
+  .bg video.on { opacity: 1; }
+  @media (min-width: 700px) { .bg video { filter: blur(7px); transform: scale(1.08); } }
+  .scrim {
+    position: fixed; inset: 0; z-index: 0; pointer-events: none;
+    background:
+      linear-gradient(180deg, rgba(8,8,10,.45) 0%, rgba(8,8,10,.72) 38%, rgba(8,8,10,.94) 100%),
+      radial-gradient(ellipse at 50% 18%, rgba(245,197,24,.16), transparent 60%);
+  }
+  #fx { position: fixed; inset: 0; width: 100%; height: 100%; z-index: 0; pointer-events: none; opacity: .7; }
+
+  /* Listras amarelas e pretas (balcão da loja) no topo */
+  .stripes {
+    position: fixed; top: 0; left: 0; right: 0; height: 5px; z-index: 3;
+    background: repeating-linear-gradient(-45deg, var(--gold) 0 12px, #000 12px 24px);
+    background-size: 34px 100%;
+    animation: slide 1.2s linear infinite;
+  }
+  @keyframes slide { to { background-position: 34px 0; } }
+
+  .wrap {
+    position: relative; z-index: 1;
+    width: 100%; max-width: 480px; margin: 0 auto;
+    padding: 52px 16px 110px;
+    display: flex; flex-direction: column; gap: 26px;
+  }
+
+  /* ── Cabeçalho ── */
+  .head { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 12px; }
+  @property --ang { syntax: "<angle>"; initial-value: 0deg; inherits: false; }
+  .logo {
+    position: relative; width: 136px; height: 136px; margin-bottom: 4px;
+    border-radius: 50%; padding: 3px;
+    background: conic-gradient(from var(--ang), var(--gold), #5A430A, var(--gold-hi), #5A430A, var(--gold));
+    animation: spin 5s linear infinite;
+    box-shadow: 0 0 40px rgba(245,197,24,.35);
+  }
+  @keyframes spin { to { --ang: 360deg; } }
+  .logo img {
+    width: 100%; height: 100%; display: block; border-radius: 50%;
+    object-fit: cover; transform: scale(1.06);
+    border: 3px solid var(--ink);
+  }
+  .logo .scan {
+    position: absolute; inset: 3px; border-radius: 50%; overflow: hidden; pointer-events: none;
+  }
+  .logo .scan::after {
+    content: ""; position: absolute; left: 0; right: 0; height: 40%;
+    background: linear-gradient(180deg, transparent, rgba(255,226,122,.28), transparent);
+    animation: scan 3.2s ease-in-out infinite;
+  }
+  @keyframes scan { 0% { top: -40%; } 60%, 100% { top: 110%; } }
+  .live {
+    position: absolute; right: -4px; bottom: 6px; z-index: 2;
+    display: flex; align-items: center; gap: 5px;
+    padding: 4px 9px 4px 8px; border-radius: 999px;
+    background: var(--ink-2); border: 1px solid var(--line);
+    font: 600 10px/1 var(--f-mono); letter-spacing: .08em; text-transform: uppercase;
+  }
+  .live i { width: 7px; height: 7px; border-radius: 50%; background: var(--wa); box-shadow: 0 0 8px var(--wa); animation: blink 1.6s ease-in-out infinite; }
+  @keyframes blink { 50% { opacity: .3; } }
+
+  h1 {
+    margin: 0; display: inline-flex; align-items: center; gap: 8px;
+    font: 800 clamp(30px, 8.6vw, 40px)/1 var(--f-display);
+    letter-spacing: -.02em;
+    background: var(--metal); background-size: 200% 100%;
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+    animation: shine 6s ease-in-out infinite;
+  }
+  @keyframes shine { 50% { background-position: 100% 0; } }
+  h1 svg { width: 24px; height: 24px; flex: none; }
+  .handle { margin: -4px 0 0; font: 500 12.5px/1 var(--f-mono); color: var(--muted); letter-spacing: .04em; }
+  .tag { margin: 0; font: 600 13px/1.3 var(--f-mono); letter-spacing: .18em; text-transform: uppercase; color: var(--gold); }
+
+  .brands { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; margin: 2px 0 0; padding: 0; list-style: none; }
+  .brands li {
+    padding: 5px 12px; border-radius: 999px;
+    border: 1px solid var(--line); background: var(--panel);
+    font-size: 12.5px; font-weight: 700; letter-spacing: .02em;
+  }
+
+  /* ── Números ── */
+  .stats {
+    display: grid; grid-template-columns: repeat(3, 1fr);
+    border: 1px solid var(--line); border-radius: 16px;
+    background: rgba(18,18,22,.6);
+    backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+  }
+  .stat { padding: 12px 6px; text-align: center; min-width: 0; }
+  .stat + .stat { border-left: 1px solid var(--line); }
+  .stat strong { display: block; font: 800 21px/1.1 var(--f-display); color: var(--gold); font-variant-numeric: tabular-nums; }
+  .stat span { display: block; margin-top: 3px; font: 500 10px/1.3 var(--f-mono); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+
+  /* Faixa rolante de vantagens */
+  .marquee {
+    margin: 0 -16px; overflow: hidden;
+    border-block: 1px solid var(--line);
+    background: rgba(245,197,24,.06);
+    mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent);
+    -webkit-mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent);
+  }
+  .marquee div { display: flex; width: max-content; animation: run 22s linear infinite; }
+  .marquee span { padding: 10px 18px; white-space: nowrap; font: 600 12px/1 var(--f-mono); letter-spacing: .1em; text-transform: uppercase; }
+  .marquee span::before { content: "◆"; color: var(--gold); margin-right: 18px; font-size: 9px; vertical-align: 1px; }
+  @keyframes run { to { transform: translateX(-50%); } }
+
+  /* ── Botões ── */
+  .links { display: flex; flex-direction: column; gap: 11px; margin: 0; padding: 0; list-style: none; }
+  .label { margin: 0 0 10px 2px; font: 600 11px/1 var(--f-mono); letter-spacing: .16em; text-transform: uppercase; color: var(--muted); display: flex; align-items: center; gap: 10px; }
+  .label::after { content: ""; flex: 1; height: 1px; background: linear-gradient(90deg, var(--line), transparent); }
+
+  .btn {
+    position: relative; width: 100%;
+    display: flex; align-items: center; gap: 14px;
+    padding: 15px 16px 15px 14px; border-radius: 18px;
+    border: 1px solid var(--line);
+    background: rgba(18,18,22,.66);
+    backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+    color: var(--fg); text-decoration: none; text-align: left;
+    font: inherit; cursor: pointer; overflow: hidden;
+    transition: transform .3s cubic-bezier(.2,.8,.2,1), border-color .3s ease, background-color .3s ease;
+  }
+  .btn::after {
+    content: ""; position: absolute; inset: 0; pointer-events: none;
+    background: linear-gradient(110deg, transparent 30%, rgba(245,197,24,.2) 50%, transparent 70%);
+    transform: translateX(-100%); transition: transform .7s ease;
+  }
+  .btn:hover, .btn:focus-visible { transform: translateY(-2px) scale(1.01); border-color: rgba(245,197,24,.6); background: rgba(30,26,12,.75); }
+  .btn:hover::after, .btn:focus-visible::after { transform: translateX(100%); }
+  .btn:active { transform: scale(.98); }
+  .btn:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+  .ico {
+    flex: none; width: 44px; height: 44px; display: grid; place-items: center;
+    border-radius: 13px; background: rgba(245,197,24,.12); color: var(--gold);
+  }
+  .ico svg { width: 23px; height: 23px; }
+  .txt { min-width: 0; flex: 1; display: flex; flex-direction: column; }
+  .txt strong { font-weight: 800; font-size: 15.5px; line-height: 1.25; }
+  .txt span { font-size: 13px; color: var(--muted); }
+  .go { flex: none; width: 18px; height: 18px; color: var(--muted); transition: transform .3s ease, color .3s ease; }
+  .btn:hover .go, .btn:focus-visible .go { transform: translateX(4px); color: var(--gold); }
+
+  /* WhatsApp: amarelo da marca, com pulso */
+  .btn.cta { background: var(--gold); border-color: var(--gold); color: var(--gold-ink); box-shadow: 0 12px 36px rgba(245,197,24,.3); animation: pulse 2.6s ease-in-out infinite; }
+  .btn.cta:hover, .btn.cta:focus-visible { background: var(--gold-hi); border-color: var(--gold-hi); }
+  .btn.cta::after { background: linear-gradient(110deg, transparent 30%, rgba(255,255,255,.55) 50%, transparent 70%); }
+  .btn.cta .ico { background: rgba(26,20,2,.12); color: var(--gold-ink); }
+  .btn.cta .txt span, .btn.cta .go { color: rgba(26,20,2,.72); }
+  @keyframes pulse { 0%, 100% { box-shadow: 0 12px 36px rgba(245,197,24,.3), 0 0 0 0 rgba(245,197,24,.45); } 50% { box-shadow: 0 12px 36px rgba(245,197,24,.3), 0 0 0 10px rgba(245,197,24,0); } }
+
+  /* Assistência: borda dourada girando */
+  .btn.tech {
+    border: 2px solid transparent;
+    background:
+      linear-gradient(135deg, rgba(18,18,22,.95), rgba(28,24,12,.95)) padding-box,
+      conic-gradient(from var(--ang), var(--gold), #3A2C06, var(--gold-hi), #3A2C06, var(--gold)) border-box;
+    animation: spin 4s linear infinite;
+  }
+  .btn.tech .ico { background: var(--metal); color: var(--gold-ink); box-shadow: 0 0 18px rgba(245,197,24,.45); }
+  .txt .badge { display: inline-block; vertical-align: 2px; margin-left: 6px; padding: 3px 7px; border-radius: 6px; background: var(--gold); color: var(--gold-ink); font: 700 9.5px/1 var(--f-mono); letter-spacing: .1em; }
+
+  /* ── Painel de orçamento (abre em gaveta) ── */
+  .quote {
+    display: grid; grid-template-rows: 0fr;
+    transition: grid-template-rows .5s cubic-bezier(.2,.8,.2,1), margin .5s ease;
+  }
+  .quote.open { grid-template-rows: 1fr; margin-top: 2px; }
+  .quote > div { overflow: hidden; }
+  .qbox {
+    padding: 16px; border-radius: 18px;
+    border: 1px solid var(--line); background: rgba(14,14,18,.85);
+    backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+    display: flex; flex-direction: column; gap: 14px;
+  }
+  .qbox h3 { margin: 0; font: 700 15px/1.3 var(--f-display); }
+  .qbox h3 small { display: block; margin-top: 3px; font: 500 12.5px/1.4 var(--f-body); color: var(--muted); }
+  .step { display: flex; flex-direction: column; gap: 8px; }
+  .step > b { font: 600 11px/1 var(--f-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--gold); }
+  .chips { display: flex; flex-wrap: wrap; gap: 7px; }
+  .chip {
+    padding: 8px 12px; border-radius: 999px;
+    border: 1px solid var(--line); background: var(--panel); color: var(--fg);
+    font: 600 13px/1 var(--f-body); cursor: pointer;
+    transition: background-color .2s ease, border-color .2s ease, color .2s ease, transform .2s ease;
+  }
+  .chip:hover { border-color: rgba(245,197,24,.6); }
+  .chip[aria-pressed="true"] { background: var(--gold); border-color: var(--gold); color: var(--gold-ink); transform: scale(1.04); }
+  .chip:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+  .qbox input {
+    width: 100%; padding: 12px 14px; border-radius: 12px;
+    border: 1px solid var(--line); background: rgba(0,0,0,.4); color: var(--fg);
+    font: 500 15px/1.2 var(--f-body);
+  }
+  .qbox input::placeholder { color: #6E6A62; }
+  .qbox input:focus { outline: none; border-color: var(--gold); box-shadow: 0 0 0 3px rgba(245,197,24,.18); }
+  .send {
+    display: flex; align-items: center; justify-content: center; gap: 10px;
+    padding: 14px; border: 0; border-radius: 14px;
+    background: var(--wa); color: #04210F;
+    font: 800 15px/1 var(--f-body); cursor: pointer; text-decoration: none;
+    transition: transform .2s ease, filter .2s ease;
+  }
+  .send:hover { filter: brightness(1.08); transform: translateY(-1px); }
+  .send svg { width: 20px; height: 20px; }
+  .note { margin: -4px 0 0; font-size: 12px; color: var(--muted); text-align: center; }
+
+  /* ── Portfólio ── */
+  .filters { display: flex; gap: 7px; overflow-x: auto; padding-bottom: 10px; margin-bottom: 4px; scrollbar-width: thin; scrollbar-color: var(--gold-2) transparent; }
+  .filters .chip { flex: none; }
+  .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+  .card {
+    position: relative; display: flex; flex-direction: column;
+    border-radius: 16px; overflow: hidden;
+    border: 1px solid var(--line); background: rgba(18,18,22,.75);
+    text-decoration: none; color: var(--fg);
+    transition: transform .35s cubic-bezier(.2,.8,.2,1), border-color .3s ease, opacity .35s ease;
+  }
+  .card:hover, .card:focus-visible { transform: translateY(-3px); border-color: rgba(245,197,24,.6); }
+  .card:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+  .card.hide { display: none; }
+  .card .ph { position: relative; aspect-ratio: 1; overflow: hidden; background: #000; }
+  .card img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .6s ease; }
+  .card:hover img { transform: scale(1.07); }
+  .card .ph::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 55%, rgba(8,8,10,.85)); }
+  .card .tg {
+    position: absolute; top: 8px; left: 8px; z-index: 1;
+    padding: 4px 8px; border-radius: 6px;
+    background: rgba(8,8,10,.75); border: 1px solid var(--line);
+    font: 600 9.5px/1 var(--f-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--gold);
+  }
+  .card .cb { padding: 10px 11px 12px; display: flex; flex-direction: column; gap: 2px; }
+  .card .cb strong { font: 700 14px/1.25 var(--f-display); }
+  .card .cb span { font-size: 12px; color: var(--muted); }
+  .card .cb em { margin-top: 6px; font: 700 12px/1 var(--f-body); font-style: normal; color: var(--gold); display: inline-flex; align-items: center; gap: 5px; }
+
+  /* ── Localização ── */
+  .map {
+    position: relative; border-radius: 18px; overflow: hidden;
+    border: 1px solid var(--line); background: var(--ink-2);
+  }
+  .map iframe { display: block; width: 100%; height: 230px; border: 0; filter: grayscale(.9) invert(.92) contrast(.9) sepia(.35) hue-rotate(5deg); }
+  .map .addr { padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start; }
+  .map .addr svg { flex: none; width: 22px; height: 22px; color: var(--gold); margin-top: 2px; }
+  .map .addr strong { display: block; font-weight: 800; }
+  .map .addr span { font-size: 13px; color: var(--muted); }
+  .map .route { margin: 0 16px 16px; }
+  .route.send { background: var(--gold); color: var(--gold-ink); }
+
+  /* ── Rodapé ── */
+  footer { display: flex; flex-direction: column; align-items: center; gap: 6px; padding-top: 6px; font: 400 11px/1.5 var(--f-mono); letter-spacing: .06em; color: var(--muted); text-align: center; }
+  footer a { color: var(--gold); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+
+  /* Botão flutuante do WhatsApp */
+  .fab {
+    position: fixed; z-index: 4; right: 18px; bottom: calc(18px + env(safe-area-inset-bottom, 0px));
+    width: 58px; height: 58px; border-radius: 50%;
+    display: grid; place-items: center;
+    background: var(--wa); color: #fff;
+    box-shadow: 0 10px 30px rgba(37,211,102,.4);
+    transform: translateY(120px); transition: transform .5s cubic-bezier(.2,.8,.2,1);
+  }
+  .fab.show { transform: none; }
+  .fab svg { width: 30px; height: 30px; }
+  .fab:focus-visible { outline: 2px solid #fff; outline-offset: 3px; }
+
+  /* Entrada ao rolar */
+  .rv { opacity: 0; transform: translateY(18px); transition: opacity .8s ease, transform .8s cubic-bezier(.2,.8,.2,1); }
+  .rv.in { opacity: 1; transform: none; }
+  .no-js .rv { opacity: 1; transform: none; }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation: none !important; transition: none !important; }
+    .rv { opacity: 1; transform: none; }
+  }
+</style>
+</head>
+<body class="no-js">
+
+<div class="bg" aria-hidden="true">
+  <video id="v1" class="on" src="bg1.mp4" poster="img/poster.jpg" autoplay muted playsinline preload="auto"></video>
+  <video id="v2" src="bg2.mp4" muted playsinline preload="auto"></video>
+</div>
+<div class="scrim" aria-hidden="true"></div>
+<canvas id="fx" aria-hidden="true"></canvas>
+<div class="stripes" aria-hidden="true"></div>
+
+<main class="wrap">
+  <header class="head rv">
+    <div class="logo">
+      <img src="img/logo.jpg" alt="Logo Rafael Imports" width="136" height="136">
+      <span class="scan"></span>
+      <span class="live"><i></i><span>Delivery on</span></span>
+    </div>
+    <h1>Rafael Imports
+      <svg viewBox="0 0 24 24" role="img" aria-label="Perfil verificado">
+        <path fill="#3897F0" d="M12 1.5l2.6 1.9 3.2-.2 1 3.1 2.6 1.9-1 3.1 1 3.1-2.6 1.9-1 3.1-3.2-.2L12 22.5l-2.6-1.9-3.2.2-1-3.1-2.6-1.9 1-3.1-1-3.1 2.6-1.9 1-3.1 3.2.2z"/>
+        <path fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M7.8 12.2l2.8 2.8 5.6-5.8"/>
+      </svg>
+    </h1>
+    <p class="handle">@rafael.imports.slz</p>
+    <p class="tag">Celulares · Acessórios · Assistência</p>
+    <ul class="brands"><li>Xiaomi</li><li>iPhone</li><li>Realme</li><li>Poco</li><li>Samsung</li></ul>
+  </header>
+
+  <section class="stats rv" aria-label="Em números">
+    <div class="stat"><strong data-count="19.4" data-suf=" mil">19,4 mil</strong><span>seguidores</span></div>
+    <div class="stat"><strong data-count="6" data-suf=" meses">6 meses</strong><span>de garantia</span></div>
+    <div class="stat"><strong>Grátis</strong><span>entrega</span></div>
+  </section>
+
+  <div class="marquee rv" aria-label="Vantagens">
+    <div>
+      <span>Milhares de clientes satisfeitos</span><span>Entrega grátis</span><span>6 meses de garantia + brindes</span><span>Loja física em São Luís</span><span>Especialista em Xiaomi</span>
+      <span aria-hidden="true">Milhares de clientes satisfeitos</span><span aria-hidden="true">Entrega grátis</span><span aria-hidden="true">6 meses de garantia + brindes</span><span aria-hidden="true">Loja física em São Luís</span><span aria-hidden="true">Especialista em Xiaomi</span>
+    </div>
+  </div>
+
+  <nav class="rv" aria-label="Atendimento">
+    <ul class="links">
+      <li>
+        <a class="btn cta" data-wa="Olá, Rafael Imports! Vim pelo link da bio e quero atendimento." href="https://ig.me/m/rafael.imports.slz" target="_blank" rel="noopener">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 20.5l1.3-4.2A8.5 8.5 0 1 1 8 19.4z"/><path d="M9 8.6c.2 2.6 3.7 6 6.4 6.4l1.2-1.4-2-1-1 .9c-1-.4-2.2-1.6-2.6-2.6l.9-1-1-2z"/></svg></span>
+          <span class="txt"><strong>Falar no WhatsApp</strong><span>Atendimento direto com a loja</span></span>
+          <svg class="go" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </li>
+      <li>
+        <button class="btn tech" id="q-toggle" type="button" aria-expanded="false" aria-controls="quote">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2.5" width="12" height="19" rx="2.5"/><path d="M10.5 18.5h3"/><path d="M14.6 7.4a2.4 2.4 0 0 0-3.2 3.2l-2 2 .9.9 2-2a2.4 2.4 0 0 0 3.2-3.2l-1.3 1.3-1-.3-.3-1z"/></svg></span>
+          <span class="txt"><strong>Assistência técnica <span class="badge">ORÇAMENTO</span></strong><span>Tela, bateria, conector e mais</span></span>
+          <svg class="go" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="quote" id="quote">
+          <div>
+            <form class="qbox" id="qform">
+              <h3>Monte seu orçamento em 10 segundos<small>Escolha as opções e a mensagem já vai pronta para o WhatsApp.</small></h3>
+              <div class="step">
+                <b>1 · Marca</b>
+                <div class="chips" data-group="marca">
+                  <button type="button" class="chip" aria-pressed="false">Xiaomi</button>
+                  <button type="button" class="chip" aria-pressed="false">iPhone</button>
+                  <button type="button" class="chip" aria-pressed="false">Realme</button>
+                  <button type="button" class="chip" aria-pressed="false">Samsung</button>
+                  <button type="button" class="chip" aria-pressed="false">Motorola</button>
+                  <button type="button" class="chip" aria-pressed="false">Outra</button>
+                </div>
+              </div>
+              <div class="step">
+                <b>2 · O que aconteceu</b>
+                <div class="chips" data-group="defeito" data-multi>
+                  <button type="button" class="chip" aria-pressed="false">Tela quebrada</button>
+                  <button type="button" class="chip" aria-pressed="false">Bateria</button>
+                  <button type="button" class="chip" aria-pressed="false">Não carrega</button>
+                  <button type="button" class="chip" aria-pressed="false">Câmera</button>
+                  <button type="button" class="chip" aria-pressed="false">Som / microfone</button>
+                  <button type="button" class="chip" aria-pressed="false">Molhou</button>
+                  <button type="button" class="chip" aria-pressed="false">Software</button>
+                  <button type="button" class="chip" aria-pressed="false">Outro</button>
+                </div>
+              </div>
+              <div class="step">
+                <b>3 · Modelo</b>
+                <input id="q-modelo" type="text" placeholder="Ex.: Redmi Note 13, iPhone 12…" autocomplete="off">
+              </div>
+              <a class="send" id="q-send" href="https://ig.me/m/rafael.imports.slz" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 20.5l1.3-4.2A8.5 8.5 0 1 1 8 19.4z"/></svg>
+                Pedir orçamento
+              </a>
+              <p class="note">Sem compromisso. A resposta vem no WhatsApp.</p>
+            </form>
+          </div>
+        </div>
+      </li>
+      <li>
+        <a class="btn" href="#portfolio">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7.5" height="7.5" rx="2"/><rect x="13.5" y="3" width="7.5" height="7.5" rx="2"/><rect x="3" y="13.5" width="7.5" height="7.5" rx="2"/><rect x="13.5" y="13.5" width="7.5" height="7.5" rx="2"/></svg></span>
+          <span class="txt"><strong>Portfólio de produtos</strong><span>Xiaomi, iPhone, Realme, Samsung e acessórios</span></span>
+          <svg class="go" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </li>
+      <li>
+        <a class="btn" href="#local">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></span>
+          <span class="txt"><strong>Localização</strong><span>Galeria New Center · Maranhão Novo</span></span>
+          <svg class="go" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <section id="portfolio" class="rv" aria-label="Portfólio de produtos">
+    <p class="label">Portfólio</p>
+    <div class="filters chips" data-group="filtro" role="toolbar" aria-label="Filtrar por marca">
+      <button type="button" class="chip" aria-pressed="true" data-f="all">Todos</button>
+      <button type="button" class="chip" aria-pressed="false" data-f="xiaomi">Xiaomi · Poco</button>
+      <button type="button" class="chip" aria-pressed="false" data-f="apple">iPhone</button>
+      <button type="button" class="chip" aria-pressed="false" data-f="samsung">Samsung</button>
+      <button type="button" class="chip" aria-pressed="false" data-f="acess">Acessórios</button>
+    </div>
+    <div class="grid" id="grid">
+      <a class="card" data-cat="xiaomi" data-wa="Olá! Quero saber o preço e as cores do Redmi 15." href="https://ig.me/m/rafael.imports.slz" target="_blank" rel="noopener">
+        <div class="ph"><span class="tg">Lançamento</span><img src="img/redmi.jpg" alt="Redmi 15 na mão" loading="lazy"></div>
+        <div class="cb"><strong>Redmi 15</strong><span>Xiaomi</span><em>Consultar preço →</em></div>
+      </a>
+      <a class="card" data-cat="apple" data-wa="Olá! Quero saber os modelos de iPhone disponíveis e os preços." href="https://ig.me/m/rafael.imports.slz" target="_blank" rel="noopener">
+        <div class="ph"><span class="tg">Apple</span><img src="img/iphone.jpg" alt="Caixas de iPhone em várias cores" loading="lazy"></div>
+        <div class="cb"><strong>Linha iPhone</strong><span>Lacrados, várias cores</span><em>Consultar preço →</em></div>
+      </a>
+      <a class="card" data-cat="xiaomi" data-wa="Olá! Quero saber o preço dos celulares Poco." href="https://ig.me/m/rafael.imports.slz" target="_blank" rel="noopener">
+        <div class="ph"><span class="tg">Poco</span><img src="img/poco2.jpg" alt="Poco preto na mão" loading="lazy"></div>
+        <div class="cb"><strong>Poco</strong><span>Xiaomi</span><em>Consultar preço →</em></div>
+      </a>
+      <a class="card" data-cat="samsung" data-wa="Olá! Quero saber o preço do Samsung Galaxy A36 5G." href="https://ig.me/m/rafael.imports.slz" target="_blank" rel="noopener">
+        <div class="ph"><span class="tg">5G</span><img src="img/samsung.jpg" alt="Samsung Galaxy A36 5G na caixa" loading="lazy"></div>
+        <div class="cb"><strong>Galaxy A36 5G</strong><span>Samsung</span><em>Consultar preço →</em></div>
+      </a>
+      <a class="card" data-cat="xiaomi" data-wa="Olá! Quero saber o preço do Poco branco que vi no Instagram." href="https://ig.me/m/rafael.imports.slz" target="_blank" rel="noopener">
+        <div class="ph"><span class="tg">Poco</span><img src="img/poco.jpg" alt="Poco branco na mão" loading="lazy"></div>
+        <div class="cb"><strong>Poco · branco</strong><span>Xiaomi</span><em>Consultar preço →</em></div>
+      </a>
+      <a class="card" data-cat="apple" data-wa="Olá! Quero saber o preço do iPhone rosa e do branco." href="https://ig.me/m/rafael.imports.slz" target="_blank" rel="noopener">
+        <div class="ph"><span class="tg">Apple</span><img src="img/iphone2.jpg" alt="Dois iPhones, branco e rosa" loading="lazy"></div>
+        <div class="cb"><strong>iPhone</strong><span>Branco e rosa</span><em>Consultar preço →</em></div>
+      </a>
+      <a class="card" data-cat="acess" data-wa="Olá! Quero ver os acessórios disponíveis (capas, fones, carregadores)." href="https://ig.me/m/rafael.imports.slz" target="_blank" rel="noopener">
+        <div class="ph"><span class="tg">Acessórios</span><img src="img/acess.jpg" alt="Prateleiras de acessórios na loja" loading="lazy"></div>
+        <div class="cb"><strong>Acessórios</strong><span>Fones, capas, carregadores</span><em>Ver opções →</em></div>
+      </a>
+      <a class="card" data-cat="xiaomi acess" data-wa="Olá! Quero conhecer os produtos Xiaomi da loja." href="https://ig.me/m/rafael.imports.slz" target="_blank" rel="noopener">
+        <div class="ph"><span class="tg">Loja física</span><img src="img/loja.jpg" alt="Fachada da loja Rafael Imports" loading="lazy"></div>
+        <div class="cb"><strong>Especialista Xiaomi</strong><span>Venha conhecer a loja</span><em>Falar com a loja →</em></div>
+      </a>
+    </div>
+  </section>
+
+  <section id="local" class="rv" aria-label="Localização">
+    <p class="label">Localização</p>
+    <div class="map">
+      <iframe title="Mapa: Galeria New Center, Maranhão Novo, São Luís" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        src="https://maps.google.com/maps?q=Galeria%20New%20Center%2C%20Maranh%C3%A3o%20Novo%2C%20S%C3%A3o%20Lu%C3%ADs%20-%20MA&z=16&output=embed"></iframe>
+      <div class="addr">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+        <div><strong>Galeria New Center</strong><span>Maranhão Novo · São Luís - MA<br>Entrega grátis na cidade</span></div>
+      </div>
+      <a class="send route" href="https://www.google.com/maps/search/?api=1&query=Galeria%20New%20Center%20Maranh%C3%A3o%20Novo%20S%C3%A3o%20Lu%C3%ADs" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l18-8-8 18-2-8z"/></svg>
+        Traçar rota até a loja
+      </a>
+    </div>
+  </section>
+
+  <nav class="rv" aria-label="Redes">
+    <ul class="links">
+      <li>
+        <a class="btn" href="https://www.instagram.com/rafael.imports.slz/" target="_blank" rel="noopener">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.4" cy="6.6" r=".6" fill="currentColor"/></svg></span>
+          <span class="txt"><strong>Instagram</strong><span>Novidades e promoções toda semana</span></span>
+          <svg class="go" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <footer>
+    <span>© <span id="ano">2026</span> Rafael Imports · São Luís - MA</span>
+    <span>Mini site por <a href="../links/" target="_blank" rel="noopener">Lindson Almeida</a></span>
+  </footer>
+</main>
+
+<a class="fab" id="fab" data-wa="Olá, Rafael Imports! Vim pelo link da bio." href="https://ig.me/m/rafael.imports.slz" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.4.8 3.2.7a2.8 2.8 0 0 0 1.8-1.3 2.3 2.3 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg>
+</a>
+
+<script>
+  /* ⚙️ Número do WhatsApp da loja: só dígitos, com 55 + DDD (ex.: "5598988887777").
+     Enquanto estiver vazio, os botões abrem o Direct do Instagram. */
+  var WA = "";
+  var IG_DM = "https://ig.me/m/rafael.imports.slz";
+
+  (function () {
+    document.body.classList.remove("no-js");
+    var still = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    function link(msg) { return WA ? "https://wa.me/" + WA + "?text=" + encodeURIComponent(msg) : IG_DM; }
+
+    // Todos os botões com mensagem pronta
+    document.querySelectorAll("[data-wa]").forEach(function (a) { a.href = link(a.getAttribute("data-wa")); });
+    document.getElementById("ano").textContent = new Date().getFullYear();
+
+    // Vídeos de fundo em crossfade
+    var v1 = document.getElementById("v1"), v2 = document.getElementById("v2");
+    function play(v) { var p = v.play && v.play(); if (p && p.catch) p.catch(function () {}); }
+    if (still) { v1.removeAttribute("autoplay"); v1.pause(); }
+    else {
+      [v1, v2].forEach(function (v, i) {
+        var other = i ? v1 : v2;
+        v.addEventListener("timeupdate", function () {
+          if (v.classList.contains("on") && v.duration && v.duration - v.currentTime < 1.4 && other.paused) {
+            other.currentTime = 0; play(other);
+            other.classList.add("on"); v.classList.remove("on");
+            setTimeout(function () { v.pause(); }, 1500);
+          }
+        });
+      });
+      play(v1);
+    }
+
+    // Chips (seleção única ou múltipla)
+    document.querySelectorAll("[data-group]").forEach(function (g) {
+      var multi = g.hasAttribute("data-multi");
+      g.addEventListener("click", function (e) {
+        var c = e.target.closest(".chip"); if (!c) return;
+        if (multi) c.setAttribute("aria-pressed", c.getAttribute("aria-pressed") === "true" ? "false" : "true");
+        else g.querySelectorAll(".chip").forEach(function (x) { x.setAttribute("aria-pressed", x === c ? "true" : "false"); });
+        if (g.dataset.group === "filtro") filtrar(c.dataset.f);
+        else montar();
+      });
+    });
+
+    // Orçamento da assistência
+    var tg = document.getElementById("q-toggle"), qp = document.getElementById("quote");
+    tg.addEventListener("click", function () {
+      var open = qp.classList.toggle("open");
+      tg.setAttribute("aria-expanded", open ? "true" : "false");
+      tg.querySelector(".go").style.transform = open ? "rotate(180deg)" : "";
+    });
+    var modelo = document.getElementById("q-modelo"), send = document.getElementById("q-send");
+    function sel(group) {
+      return Array.prototype.map.call(document.querySelectorAll('[data-group="' + group + '"] [aria-pressed="true"]'), function (b) { return b.textContent; });
+    }
+    function montar() {
+      var marca = sel("marca")[0], def = sel("defeito"), mod = modelo.value.trim();
+      var msg = "Olá, Rafael Imports! Quero um orçamento da assistência técnica.";
+      if (marca || mod) msg += "\n📱 Aparelho: " + [marca, mod].filter(Boolean).join(" ");
+      if (def.length) msg += "\n🔧 Problema: " + def.join(", ");
+      send.href = link(msg);
+    }
+    modelo.addEventListener("input", montar);
+    document.getElementById("qform").addEventListener("submit", function (e) { e.preventDefault(); send.click(); });
+    montar();
+
+    // Filtro do portfólio
+    function filtrar(f) {
+      document.querySelectorAll("#grid .card").forEach(function (c) {
+        c.classList.toggle("hide", f !== "all" && c.dataset.cat.split(" ").indexOf(f) < 0);
+      });
+    }
+
+    // Entrada ao rolar + botão flutuante
+    var io = "IntersectionObserver" in window ? new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } });
+    }, { threshold: .12 }) : null;
+    document.querySelectorAll(".rv").forEach(function (el, i) {
+      el.style.transitionDelay = Math.min(i, 4) * 0.07 + "s";
+      if (io) io.observe(el); else el.classList.add("in");
+    });
+    var fab = document.getElementById("fab");
+    window.addEventListener("scroll", function () { fab.classList.toggle("show", window.scrollY > 320); }, { passive: true });
+
+    // Contadores
+    document.querySelectorAll("[data-count]").forEach(function (el) {
+      if (still) return;
+      var to = parseFloat(el.dataset.count), suf = el.dataset.suf || "", t0 = null, dec = to % 1 ? 1 : 0;
+      function f(t) {
+        if (!t0) t0 = t; var k = Math.min(1, (t - t0) / 1400), e = 1 - Math.pow(1 - k, 3);
+        el.textContent = (to * e).toFixed(dec).replace(".", ",") + suf;
+        if (k < 1) requestAnimationFrame(f);
+      }
+      requestAnimationFrame(f);
+    });
+
+    // Partículas douradas em grade de circuito (sobem como dados)
+    var c = document.getElementById("fx"), ctx = c.getContext && c.getContext("2d");
+    if (!ctx) return;
+    var dpr = Math.min(window.devicePixelRatio || 1, 2), W, H, ps = [], G = 34;
+    function size() {
+      W = innerWidth; H = innerHeight; c.width = W * dpr; c.height = H * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      ps = []; var n = Math.round(Math.min(40, W * H / 22000));
+      for (var i = 0; i < n; i++) ps.push(novo(true));
+    }
+    function novo(any) {
+      return { x: Math.round(Math.random() * W / G) * G, y: any ? Math.random() * H : H + 20, v: .3 + Math.random() * .7, l: 20 + Math.random() * 60, a: .25 + Math.random() * .6, turn: Math.random() < .3 };
+    }
+    function draw() {
+      ctx.clearRect(0, 0, W, H);
+      for (var i = 0; i < ps.length; i++) {
+        var p = ps[i];
+        var g = ctx.createLinearGradient(p.x, p.y, p.x, p.y + p.l);
+        g.addColorStop(0, "rgba(255,226,122," + p.a + ")"); g.addColorStop(1, "rgba(245,197,24,0)");
+        ctx.strokeStyle = g; ctx.lineWidth = 1.2;
+        ctx.beginPath(); ctx.moveTo(p.x, p.y); ctx.lineTo(p.x, p.y + p.l); ctx.stroke();
+        ctx.fillStyle = "rgba(255,226,122," + p.a + ")";
+        ctx.beginPath(); ctx.arc(p.x, p.y, 1.8, 0, 6.3); ctx.fill();
+      }
+    }
+    function step() {
+      for (var i = 0; i < ps.length; i++) {
+        var p = ps[i]; p.y -= p.v;
+        if (p.turn && Math.random() < .004) p.x += (Math.random() < .5 ? -G : G);
+        if (p.y + p.l < -10) ps[i] = novo(false);
+      }
+      draw(); requestAnimationFrame(step);
+    }
+    size(); addEventListener("resize", size);
+    if (still) draw(); else requestAnimationFrame(step);
+  })();
+</script>
+</body>
+</html>
