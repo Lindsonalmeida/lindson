@@ -587,6 +587,7 @@
     function montar() {
       var marca = sel("marca")[0], def = sel("defeito"), mod = modelo.value.trim();
       var msg = "Olá, Rafael Imports! Quero um orçamento da assistência técnica.";
+      if (marca && mod.toLowerCase().indexOf(marca.toLowerCase()) === 0) marca = "";
       if (marca || mod) msg += "\n📱 Aparelho: " + [marca, mod].filter(Boolean).join(" ");
       if (def.length) msg += "\n🔧 Problema: " + def.join(", ");
       send.href = link(msg, WA_ASSIST);
