@@ -69,6 +69,7 @@ Apresentação 16:9 com 16 slides da identidade visual (manifesto, pilares, voz,
 - `agencia/ofertas/instagram-que-vende-90-dias.md`: oferta principal (Hormozi Squad), com pendências.
 - `agencia/ofertas/esteira-de-produtos.md`: esteira com 5 pacotes (R$ 600, R$ 800, R$ 1.200, R$ 2.200 e R$ 3.500).
 - `proposta/index.html`: proposta comercial para clientes (6 folhas A4), no ar em https://lindsonalmeida.github.io/lindson/proposta/ . Para personalizar: `?para=Nome%20do%20Cliente`. PDF em `proposta/proposta-lindson-almeida.pdf`.
+- `agencia/prospeccao/ROTINA.md`: regras da lista diária de 100 leads (10 nichos × 10). Uma tarefa agendada roda todo dia às 6h26 (horário de São Luís) e grava a lista no app. Os leads ficam só no banco do app, nunca no repositório.
 - `agencia/app/recomeco90.html`: fonte do app gamificado "Recomeço 90" (missões, funil de vendas, caixa com esteira de produtos e cálculo automático, jornada e cartões de aprendizado). No ar como artefato: https://claude.ai/artifact/DQFTjzVzhH2ZaHtFQwXw5N (progresso salvo na conta do Lindson, capacidade `db`).
 
 ## Como publicar uma mudança

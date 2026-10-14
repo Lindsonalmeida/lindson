@@ -210,6 +210,37 @@
   .fu-edit { display: grid; gap: 8px; padding-top: 10px; border-top: 1px dashed var(--line-2); }
   .fu-more { border: 0; background: none; color: var(--signal-soft); text-decoration: underline; font: 600 13px/1 var(--f-body); cursor: pointer; padding: 6px; justify-self: center; }
 
+  .fu-seg { display: grid; grid-template-columns: 1fr 1fr; gap: 5px; padding: 5px; border-radius: 14px; background: var(--ink-2); border: 1px solid var(--line); }
+  .fu-seg button { border: 0; border-radius: 10px; padding: 11px 6px; background: transparent; color: var(--muted); font: 700 13.5px/1 var(--f-body); cursor: pointer; }
+  .fu-seg button[aria-pressed="true"] { background: var(--signal); color: #04122E; }
+  .fu-seg button span { display: inline-block; margin-left: 5px; padding: 2px 6px; border-radius: 99px; background: var(--sun); color: var(--sun-ink); font: 700 10.5px/1.2 var(--f-mono); }
+  .fu-box { display: flex; flex-direction: column; gap: 12px; }
+  .fu-box[hidden] { display: none; }
+  .pq-top { padding: 14px; border-radius: 16px; background: var(--ink-2); border: 1px solid var(--line-2); display: grid; gap: 8px; }
+  .pq-top small { font: 700 11px/1 var(--f-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--signal-soft); }
+  .pq-top > b { font: 800 22px/1.1 var(--f-display); }
+  .pq-top p { margin: 0; font-size: 12.5px; color: var(--muted); }
+  .chips { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 4px; scrollbar-width: none; }
+  .chips::-webkit-scrollbar { display: none; }
+  .chips button { flex: none; border: 1px solid var(--line-2); background: var(--ink-2); color: var(--lead); border-radius: 99px; padding: 8px 12px; font: 700 12.5px/1 var(--f-body); cursor: pointer; }
+  .chips button[aria-pressed="true"] { background: var(--fg); color: var(--ink); border-color: var(--fg); }
+  .chips button small { font: 500 10.5px/1 var(--f-mono); opacity: .75; margin-left: 4px; }
+  .pq-card { padding: 14px; border-radius: 16px; background: var(--ink-2); border: 1px solid var(--line); display: grid; gap: 9px; min-width: 0; }
+  .pq-card.hot { border-color: rgba(255,181,71,.5); }
+  .pq-card.worked { opacity: .55; }
+  .pq-h { display: flex; justify-content: space-between; gap: 10px; align-items: flex-start; }
+  .pq-h > div { min-width: 0; }
+  .pq-h b { display: block; font: 800 17px/1.2 var(--f-display); overflow-wrap: anywhere; }
+  .pq-h span { display: block; margin-top: 3px; font-size: 12px; color: var(--muted); overflow-wrap: anywhere; }
+  .pq-stars { flex: none; font: 700 12px/1 var(--f-mono); color: var(--sun); letter-spacing: .05em; }
+  .pq-bio { margin: 0; font-size: 12.5px; color: var(--muted); overflow-wrap: anywhere; }
+  .pq-an { margin: 0; font-size: 13px; color: var(--lead); padding: 9px 11px; border-radius: 11px; background: rgba(255,181,71,.08); border: 1px solid rgba(255,181,71,.25); }
+  .pq-an b { color: var(--sun); font: 700 10.5px/1 var(--f-mono); letter-spacing: .1em; text-transform: uppercase; display: block; margin-bottom: 4px; }
+  .pq-msg { margin: 0; font-size: 13px; color: var(--fg); padding: 9px 11px; border-radius: 11px; background: var(--ink-3); white-space: pre-wrap; overflow-wrap: anywhere; }
+  .pq-ct { display: flex; flex-wrap: wrap; gap: 6px 12px; font: 500 12px/1.4 var(--f-mono); color: var(--signal-soft); }
+  .pq-ct a { color: var(--signal-soft); }
+  .pq-ct span { overflow-wrap: anywhere; user-select: all; }
+
   /* Esteira */
   .sim { padding: 16px; border-radius: 18px; background: linear-gradient(160deg, rgba(76,141,255,.16), rgba(155,123,255,.08) 70%, var(--ink-2)); border: 1px solid var(--line-2); display: grid; gap: 8px; }
   .sim small { font: 700 11px/1 var(--f-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--signal-soft); }
@@ -312,6 +343,22 @@
 
   <!-- FUNIL -->
   <section id="p-funil" role="tabpanel" aria-labelledby="tab-funil" hidden class="fu">
+    <div class="fu-seg">
+      <button type="button" id="seg-pq" aria-pressed="true">Lista do dia<span id="seg-pq-n">0</span></button>
+      <button type="button" id="seg-fu" aria-pressed="false">Meu funil</button>
+    </div>
+    <div class="fu-box" id="pq-box">
+      <div class="pq-top">
+        <small id="pq-date">Lista do dia</small>
+        <b id="pq-prog">Carregando a lista…</b>
+        <div class="bar"><i id="pq-fill" style="width:0%"></i></div>
+        <p>Mande a mensagem, toque em <b style="color:var(--fg)">Mandei → Funil</b> e siga para o próximo. Confira o perfil antes: os dados vêm de buscas públicas.</p>
+      </div>
+      <div class="chips" id="pq-chips" role="group" aria-label="Filtrar por nicho"></div>
+      <div class="chips" id="pq-opts" role="group" aria-label="Opções"></div>
+      <div class="fu-list" id="pq-list"></div>
+    </div>
+    <div class="fu-box" id="fu-box" hidden>
     <div class="fu-stages" id="fu-stages" role="group" aria-label="Filtrar por etapa"></div>
     <p class="fu-diag" id="fu-diag"></p>
     <button type="button" class="fu-new" id="fu-new">+ Novo contato</button>
@@ -340,6 +387,7 @@
     <div class="fu-list" id="fu-list"></div>
     <button type="button" class="fu-more" id="fu-lost-t" hidden></button>
     <p class="hint"><b>Pontos:</b> contato novo +2 · respondeu +5 · reunião +15 · proposta +20 · fechou +50. Quando fechar, o app lança o valor no Caixa.</p>
+    </div>
   </section>
 
   <!-- CAIXA -->
@@ -525,7 +573,7 @@
     var y0 = new Date(Date.UTC(t.getUTCFullYear(), 0, 1));
     return t.getUTCFullYear() + "-W" + String(Math.ceil(((t - y0) / 864e5 + 1) / 7)).padStart(2, "0");
   }
-  function blank() { return { v: 1, start: today(), days: {}, weeks: {}, once: {}, learned: {}, card: 0, money: [], fph: "sobre", mix: {}, leads: [] }; }
+  function blank() { return { v: 1, start: today(), days: {}, weeks: {}, once: {}, learned: {}, card: 0, money: [], fph: "sobre", mix: {}, leads: [], pq: { d: "", s: {} } }; }
   var S = blank();
   var LOCAL = "recomeco90-v1";
   function loadLocal() { try { var r = localStorage.getItem(LOCAL); if (r) return JSON.parse(r); } catch (e) {} return null; }
@@ -539,6 +587,7 @@
     if (Array.isArray(o.money)) b.money = o.money.filter(function (e) { return e && typeof e.c === "number" && typeof e.d === "string"; });
     if (PH[o.fph]) b.fph = o.fph;
     if (Array.isArray(o.leads)) b.leads = o.leads.filter(function (l) { return l && typeof l.id === "string" && typeof l.n === "string" && typeof l.st === "number"; }).map(function (l) { if (!l.h || typeof l.h !== "object") l.h = {}; if (typeof l.mx !== "number") l.mx = l.st; return l; });
+    if (o.pq && typeof o.pq.d === "string" && o.pq.s && typeof o.pq.s === "object") b.pq = { d: o.pq.d, s: o.pq.s };
     if (o.mix && typeof o.mix === "object") PLANS.forEach(function (p) { var n = parseInt(o.mix[p.id], 10); if (n > 0) b.mix[p.id] = Math.min(30, n); });
     return b;
   }
@@ -577,11 +626,30 @@
     clearTimeout(timer);
     saveEl.textContent = "Salvando…";
     timer = setTimeout(function () {
-      var snap = JSON.parse(JSON.stringify(S));
-      chain = chain.then(function () { return ref.set(snap); }).then(function () {
+      var snap = JSON.parse(JSON.stringify(S)); delete snap.leads;
+      chain = chain.then(function () { return ref.set(snap); }).then(saveFunil).then(function () {
         saveEl.textContent = "Progresso salvo na sua conta ✓";
       }, function () { saveEl.textContent = "Não consegui salvar agora. Vou tentar na próxima ação."; });
     }, 600);
+  }
+
+  // Funil: um documento por dia de cadastro (o progresso fica leve)
+  var fuRef = null, fuSaved = {};
+  function fuGroups() {
+    var g = {};
+    S.leads.forEach(function (l) { if (!l.cd) l.cd = (l.h && l.h[0]) || today(); (g[l.cd] = g[l.cd] || []).push(l); });
+    return g;
+  }
+  function saveFunil() {
+    if (!fuRef) return Promise.resolve();
+    var g = fuGroups(), keys = Object.keys(g).concat(Object.keys(fuSaved)), done = {}, jobs = [];
+    keys.forEach(function (k) {
+      if (done[k]) return; done[k] = 1;
+      var body = JSON.stringify(g[k] || []);
+      if (fuSaved[k] === body) return;
+      jobs.push(fuRef.doc(k).set({ dia: k, leads: JSON.parse(body) }).then(function () { if ((g[k] || []).length) fuSaved[k] = body; else delete fuSaved[k]; }));
+    });
+    return Promise.all(jobs);
   }
 
   // ── Render ──
@@ -808,6 +876,7 @@
       toast("📅", "Contato registrado", "Próximo passo em " + dm(l.nd) + ".");
       fuSave(e, 0);
     });
+    if (l.ig) { var ia = document.createElement("a"); ia.href = "https://instagram.com/" + l.ig; ia.target = "_blank"; ia.rel = "noopener"; ia.textContent = "Instagram"; acts.appendChild(ia); }
     if (l.w) { var a = document.createElement("a"); a.href = "https://wa.me/55" + l.w.replace(/\D/g, "").replace(/^55(?=\d{10,11}$)/, ""); a.target = "_blank"; a.rel = "noopener"; a.textContent = "WhatsApp"; acts.appendChild(a); }
     btn("", fuOpen === l.id ? "Fechar" : "Editar", function () { fuOpen = fuOpen === l.id ? null : l.id; fuArmed = null; renderFunil(); });
     if (fuOpen === l.id) c.appendChild(leadEdit(l));
@@ -883,8 +952,92 @@
     if (fuShowLost) lost.forEach(function (l) { ll.appendChild(leadCard(l)); });
   }
 
+  // ── Lista do dia (prospecção) ──
+  var NICHOS = { estetica: "Estética", odonto: "Odonto", imob: "Imobiliário", planejados: "Planejados", medicos: "Médicos", plastica: "Plástica", academias: "Academias", moda: "Moda", beleza: "Beleza", food: "Food" };
+  var pqCol = null, PQ = null, pqNi = null, pqOnlyWa = false, pqShowDone = false, pqSeg = "pq";
+  function loadProspec() {
+    if (!pqCol) return;
+    pqCol.orderBy("data", "desc").limit(1).get().then(function (qs) {
+      var d = qs.docs[0] ? qs.docs[0].data() : null;
+      PQ = d && Array.isArray(d.leads) ? { data: String(d.data || qs.docs[0].id), leads: d.leads } : { data: "", leads: [] };
+      renderProspec();
+    }, function () { PQ = { data: "", leads: [], err: true }; renderProspec(); });
+  }
+  function fmtN(n) { return typeof n === "number" ? (n >= 1000 ? (Math.round(n / 100) / 10).toLocaleString("pt-BR") + " mil" : String(n)) : ""; }
+  function copyText(t, btn) {
+    var ok = function () { var o = btn.textContent; btn.textContent = "Copiado ✓"; setTimeout(function () { btn.textContent = o; }, 1500); };
+    try { navigator.clipboard.writeText(t).then(ok, function () { ok(); }); } catch (e) { ok(); }
+  }
+  function waLink(n, msg) { var d = String(n || "").replace(/\D/g, ""); if (d.length >= 12 && d.indexOf("55") === 0) d = d.slice(2); return d.length >= 10 ? "https://wa.me/55" + d + (msg ? "?text=" + encodeURIComponent(msg) : "") : ""; }
+  function pqCard(p) {
+    var st = S.pq.s[p.id], c = document.createElement("div");
+    c.className = "pq-card" + (st ? " worked" : (p.nota >= 4 ? " hot" : ""));
+    c.innerHTML = '<div class="pq-h"><div><b></b><span></span></div><span class="pq-stars"></span></div>';
+    c.querySelector(".pq-h b").textContent = p.n || p.ig || "Sem nome";
+    c.querySelector(".pq-h span").textContent = [NICHOS[p.ni] || p.ni, p.bai, p.sg ? fmtN(p.sg) + " seguidores" : ""].filter(Boolean).join(" · ");
+    c.querySelector(".pq-stars").textContent = p.nota ? "★★★★★".slice(0, Math.max(1, Math.min(5, p.nota))) : "";
+    function add(tag, cls, text, label) { if (!text) return; var e = document.createElement(tag); e.className = cls; if (label) { var b = document.createElement("b"); b.textContent = label; e.appendChild(b); } e.appendChild(document.createTextNode(text)); c.appendChild(e); }
+    add("p", "pq-bio", p.bio);
+    add("p", "pq-an", p.an, "Oportunidade");
+    var ct = document.createElement("div"); ct.className = "pq-ct";
+    function link(href, txt) { var a = document.createElement("a"); a.href = href; a.target = "_blank"; a.rel = "noopener"; a.textContent = txt; ct.appendChild(a); }
+    function span(txt) { var e = document.createElement("span"); e.textContent = txt; ct.appendChild(e); }
+    if (p.ig) link("https://instagram.com/" + p.ig, "@" + p.ig);
+    if (p.wa) span("WhatsApp " + p.wa); else if (p.tel) span("Tel " + p.tel);
+    if (p.em) span(p.em);
+    if (p.site) link(/^https?:/.test(p.site) ? p.site : "https://" + p.site, "site");
+    if (ct.children.length) c.appendChild(ct);
+    add("p", "pq-msg", p.msg);
+    var acts = document.createElement("div"); acts.className = "fu-acts"; c.appendChild(acts);
+    function btn(cls, txt, fn) { var b = document.createElement("button"); b.type = "button"; if (cls) b.className = cls; b.textContent = txt; b.addEventListener("click", function (e) { fn(e, b); }); acts.appendChild(b); return b; }
+    var wl = waLink(p.wa, p.msg);
+    if (wl) { var a = document.createElement("a"); a.href = wl; a.target = "_blank"; a.rel = "noopener"; a.textContent = "Abrir WhatsApp"; a.className = "pay"; acts.appendChild(a); }
+    if (p.msg) btn("", "Copiar mensagem", function (e, b) { copyText(p.msg, b); });
+    if (st) {
+      btn("", st === "f" ? "No funil ✓ · desfazer" : "Descartado · desfazer", function () { delete S.pq.s[p.id]; renderProspec(); persist(); });
+    } else {
+      btn("adv", "Mandei → Funil", function (e) {
+        var t = today();
+        S.leads.push({ id: "pq" + Date.now().toString(36) + Math.random().toString(36).slice(2, 5), n: String(p.n || p.ig).slice(0, 50), b: [NICHOS[p.ni] || "", p.bai || ""].filter(Boolean).join(" · ").slice(0, 50), w: String(p.wa || p.tel || "").slice(0, 20), ig: p.ig || "", em: p.em || "", p: p.pl || "", st: 0, mx: 0, h: { 0: t }, lc: t, cd: t, nx: "Fazer follow-up", nd: addDays(t, 2) });
+        S.pq.s[p.id] = "f"; renderProspec(); fuSave(e, 2);
+      });
+      btn("warn", "Descartar", function () { S.pq.s[p.id] = "x"; renderProspec(); persist(); });
+    }
+    return c;
+  }
+  function renderProspec() {
+    var box = $("pq-list"); box.innerHTML = "";
+    if (!PQ) { $("pq-prog").textContent = pqCol ? "Carregando a lista…" : "A lista do dia aparece aqui quando você abre o app na sua conta."; $("seg-pq-n").textContent = "0"; return; }
+    if (PQ.data && S.pq.d !== PQ.data) S.pq = { d: PQ.data, s: {} };
+    var all = PQ.leads, worked = all.filter(function (p) { return S.pq.s[p.id]; }).length, sent = all.filter(function (p) { return S.pq.s[p.id] === "f"; }).length;
+    $("seg-pq-n").textContent = String(all.length - worked);
+    if (PQ.data) { var dd = PQ.data.split("-"); $("pq-date").textContent = "Lista de " + dd[2] + "/" + dd[1] + (PQ.data === today() ? " · hoje" : ""); }
+    $("pq-prog").textContent = all.length ? worked + " de " + all.length + " trabalhados · " + sent + " no funil" : (PQ.err ? "Não consegui carregar a lista agora." : "A lista de hoje ainda não chegou. Ela é montada toda manhã.");
+    $("pq-fill").style.width = (all.length ? worked / all.length * 100 : 0) + "%";
+    var chips = $("pq-chips"); chips.innerHTML = "";
+    [[null, "Todos", all.length]].concat(Object.keys(NICHOS).map(function (k) { return [k, NICHOS[k], all.filter(function (p) { return p.ni === k && !S.pq.s[p.id]; }).length]; })).forEach(function (it) {
+      if (it[0] && !all.some(function (p) { return p.ni === it[0]; })) return;
+      var b = document.createElement("button"); b.type = "button"; b.setAttribute("aria-pressed", pqNi === it[0] ? "true" : "false");
+      b.textContent = it[1]; var sm = document.createElement("small"); sm.textContent = it[0] ? it[2] : (all.length - worked); b.appendChild(sm);
+      b.addEventListener("click", function () { pqNi = it[0]; renderProspec(); }); chips.appendChild(b);
+    });
+    var opts = $("pq-opts"); opts.innerHTML = "";
+    [["wa", "Só com WhatsApp", pqOnlyWa], ["done", "Mostrar trabalhados", pqShowDone]].forEach(function (it) {
+      var b = document.createElement("button"); b.type = "button"; b.textContent = it[1]; b.setAttribute("aria-pressed", it[2] ? "true" : "false");
+      b.addEventListener("click", function () { if (it[0] === "wa") pqOnlyWa = !pqOnlyWa; else pqShowDone = !pqShowDone; renderProspec(); }); opts.appendChild(b);
+    });
+    var list = all.filter(function (p) { return (!pqNi || p.ni === pqNi) && (!pqOnlyWa || p.wa) && (pqShowDone || !S.pq.s[p.id]); })
+      .sort(function (a, b) { return (b.nota || 0) - (a.nota || 0); });
+    if (!list.length) { var em = document.createElement("div"); em.className = "empty"; em.textContent = all.length ? "Nada pendente aqui. Boa!" : "Sem leads por enquanto."; box.appendChild(em); }
+    list.slice(0, 120).forEach(function (p) { box.appendChild(pqCard(p)); });
+  }
+  function showSeg(k) {
+    pqSeg = k; $("seg-pq").setAttribute("aria-pressed", k === "pq" ? "true" : "false"); $("seg-fu").setAttribute("aria-pressed", k === "fu" ? "true" : "false");
+    $("pq-box").hidden = k !== "pq"; $("fu-box").hidden = k !== "fu";
+  }
+
   var lastLevel = 0;
-  function renderAll() { renderLists(); var li = renderScore(); renderCard(); renderFin(); renderPlans(); renderFunil(); return li; }
+  function renderAll() { renderLists(); var li = renderScore(); renderCard(); renderFin(); renderPlans(); renderFunil(); renderProspec(); return li; }
 
   function pop(e, text) {
     var p = document.createElement("div"); p.className = "pop"; p.textContent = text;
@@ -942,6 +1095,8 @@
     afterChange(r ? { clientX: r.left + r.width / 2, clientY: r.top } : null, 5);
     toast("💰", brl(c) + " lançado!", "Já está dividido nos baldes.");
   });
+  $("seg-pq").addEventListener("click", function () { showSeg("pq"); });
+  $("seg-fu").addEventListener("click", function () { showSeg("fu"); });
   opt($("fu-st"), stgOpts(), 0); opt($("fu-p"), planOpts(), "");
   function fuReset() { $("fu-n").value = ""; $("fu-b").value = ""; $("fu-w").value = ""; $("fu-st").value = "0"; $("fu-p").value = ""; $("fu-x").value = STG_NEXT[0]; $("fu-d").value = addDays(today(), 2); $("fu-err").hidden = true; }
   $("fu-new").addEventListener("click", function () { fuReset(); $("fu-form").hidden = false; $("fu-new").hidden = true; $("fu-n").focus(); });
@@ -998,8 +1153,20 @@
       return user.id().then(function (uid) {
         if (!uid) { saveEl.textContent = "Entre na sua conta para salvar o progresso"; return; }
         ref = db.doc("data/users/" + uid + "/progresso");
-        return ref.get().then(function (snap) {
-          if (snap.exists) { S = normalize(snap.data()); saveLocal(); lastLevel = renderAll(); saveEl.textContent = "Progresso salvo na sua conta ✓"; }
+        var base = "data/users/" + uid;
+        var fuCol = db.collection(base + "/funil/dias");
+        pqCol = db.collection(base + "/prospec/dias");
+        loadProspec();
+        return Promise.all([ref.get(), fuCol.get().catch(function () { return null; })]).then(function (rr) {
+          var snap = rr[0], fs = rr[1], remote = [];
+          if (fs) fs.docs.forEach(function (d) { var b = d.data() || {}; if (Array.isArray(b.leads)) { remote = remote.concat(b.leads); fuSaved[d.id] = JSON.stringify(b.leads); } });
+          if (snap.exists) S = normalize(snap.data());
+          var byId = {}; remote.forEach(function (l) { byId[l.id] = 1; });
+          var legacy = S.leads.filter(function (l) { return !byId[l.id]; }); // leads antigos guardados no progresso
+          S.leads = normalize({ leads: remote }).leads.concat(legacy);
+          fuRef = fuCol;
+          saveLocal(); lastLevel = renderAll();
+          if (snap.exists) { saveEl.textContent = "Progresso salvo na sua conta ✓"; if (legacy.length) persist(); }
           else if (local) { persist(); }
           else { saveEl.textContent = "Comece pela primeira missão. Tudo fica salvo na sua conta."; }
         });
