@@ -50,6 +50,8 @@ Todo dia, 10 leads novos por nicho (100 no total) de negócios da Grande São Lu
 | `pl` | plano sugerido: `video`, `trafego`, `alcance`, `presenca` ou `iqv` |
 | `msg` | primeira mensagem de WhatsApp ou direct, na fórmula Prova, Presente e Pergunta do "não" |
 | `ideias` | lista com as 2 ideias de vídeo para mandar quando a pessoa disser sim |
+| `rot` | os 3 roteiros completos, no padrão de `ENTREGA.md` |
+| `convite` | 2 linhas enviadas depois dos roteiros (oferta + pergunta calibrada), no padrão de `ENTREGA.md` |
 | `src` | URL de onde vieram os dados |
 
 ## Como escrever a mensagem
@@ -79,7 +81,7 @@ Campo extra `ideias`: as 2 ideias que serão enviadas quando a pessoa disser sim
 
 No banco do app Recomeço 90 (https://claude.ai/artifact/DQFTjzVzhH2ZaHtFQwXw5N):
 
-- Lista do dia: coleção `data/users/me/prospec/dias`, documento `AAAA-MM-DD` (data de São Luís), campos `{ "data": "AAAA-MM-DD", "leads": [ ... ] }`.
+- Lista do dia: coleção `data/users/me/prospec/dias`, **um documento por nicho**: id `AAAA-MM-DD_<nicho>` (data de São Luís), campos `{ "data": "AAAA-MM-DD", "ni": "<nicho>", "leads": [ ... ] }`. Assim cada documento fica abaixo do limite de 256 KB mesmo com os roteiros.
 - Já vistos: coleção `data/users/me/prospec/vistos`, um documento por nicho (id do nicho), campo `ig` com a lista de @ já usados. Acrescente os novos sem apagar os antigos.
 
 Os leads ficam só no banco do app, nunca neste repositório (ele é público).

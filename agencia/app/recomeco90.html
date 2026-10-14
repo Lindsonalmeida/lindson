@@ -642,7 +642,7 @@
   var fuRef = null, fuSaved = {};
   function fuGroups() {
     var g = {};
-    S.leads.forEach(function (l) { if (!l.cd) l.cd = (l.h && l.h[0]) || today(); (g[l.cd] = g[l.cd] || []).push(l); });
+    S.leads.forEach(function (l) { if (!l.cd) l.cd = (l.h && l.h[0]) || today(); var k = l.cd + (l.ni ? "_" + l.ni : ""); (g[k] = g[k] || []).push(l); });
     return g;
   }
   function saveFunil() {
@@ -652,7 +652,7 @@
       if (done[k]) return; done[k] = 1;
       var body = JSON.stringify(g[k] || []);
       if (fuSaved[k] === body) return;
-      jobs.push(fuRef.doc(k).set({ dia: k, leads: JSON.parse(body) }).then(function () { if ((g[k] || []).length) fuSaved[k] = body; else delete fuSaved[k]; }));
+      jobs.push(fuRef.doc(k).set({ dia: k.slice(0, 10), leads: JSON.parse(body) }).then(function () { if ((g[k] || []).length) fuSaved[k] = body; else delete fuSaved[k]; }));
     });
     return Promise.all(jobs);
   }
@@ -886,7 +886,7 @@
       var fuTxt = (since >= 4 ? FU5 : FU2).replace("{n}", l.n);
       btn("", since >= 4 ? "Copiar follow-up (dia 5)" : "Copiar follow-up (dia 2)", function (e) { copyText(fuTxt, e.currentTarget); });
     }
-    if (!l.lost && l.st === 1 && Array.isArray(l.id2) && l.id2.length) btn("", "Copiar resposta do sim", function (e) { copyText(simText(l.id2), e.currentTarget); });
+    if (!l.lost && l.st === 1 && (hasRot(l) || (Array.isArray(l.id2) && l.id2.length))) btn("", "Copiar roteiros", function (e) { copyText(hasRot(l) ? entregaText(l.rot) : simText(l.id2), e.currentTarget); });
     if (l.ig) { var ia = document.createElement("a"); ia.href = "https://instagram.com/" + l.ig; ia.target = "_blank"; ia.rel = "noopener"; ia.textContent = "Instagram"; acts.appendChild(ia); }
     if (l.w) { var a = document.createElement("a"); a.href = "https://wa.me/55" + l.w.replace(/\D/g, "").replace(/^55(?=\d{10,11}$)/, ""); a.target = "_blank"; a.rel = "noopener"; a.textContent = "WhatsApp"; acts.appendChild(a); }
     btn("", fuOpen === l.id ? "Fechar" : "Editar", function () { fuOpen = fuOpen === l.id ? null : l.id; fuArmed = null; renderFunil(); });
@@ -930,25 +930,22 @@
     if (l.m1) steps.push(["1ª mensagem", l.m1, false]);
     steps.push(["Follow-up · dia 2", FU2.replace("{n}", l.n), l.st === 0 && since < 4]);
     steps.push(["Follow-up · dia 5", FU5.replace("{n}", l.n), l.st === 0 && since >= 4]);
-    if (id2.length) steps.push(["Quando disser sim", simText(id2), l.st >= 1]);
-    var dt = document.createElement("details"); dt.className = "pq-sim";
-    var sm = document.createElement("summary"); sm.textContent = "Sequência de mensagens (" + steps.length + ")"; dt.appendChild(sm);
-    steps.forEach(function (st) {
-      var h = document.createElement("small"); h.className = "seq-h" + (st[2] ? " now" : ""); h.textContent = st[0] + (st[2] ? " · próxima" : ""); dt.appendChild(h);
-      var p = document.createElement("p"); p.className = "pq-msg"; p.textContent = st[1]; dt.appendChild(p);
-      var b = document.createElement("button"); b.type = "button"; b.className = "fu-more"; b.textContent = "Copiar";
-      b.addEventListener("click", function () { copyText(st[1], b); }); dt.appendChild(b);
-    });
-    return dt;
+    if (hasRot(l)) { steps.push(["Quando disser sim · roteiros", entregaText(l.rot), l.st >= 1]); if (l.cv) steps.push(["Logo depois · convite", l.cv, false]); }
+    else if (id2.length) steps.push(["Quando disser sim", simText(id2), l.st >= 1]);
+    return simBlock("Sequência de mensagens (" + steps.length + ")", steps);
   }
   // Leads mandados ao funil antes desta versão: recupera a sequência pela lista do dia
   function fuBackfill() {
     if (!PQ || !PQ.leads.length) return false;
     var ch = false;
     S.leads.forEach(function (l) {
-      if (l.m1 || l.id.indexOf("pq") !== 0) return;
-      var p = PQ.leads.filter(function (x) { return (l.ig && x.ig === l.ig) || x.n === l.n; })[0];
-      if (p) { l.m1 = p.msg || ""; l.pid = p.id; if (!(l.id2 && l.id2.length) && Array.isArray(p.ideias)) l.id2 = p.ideias.slice(0, 3); ch = true; }
+      if ((l.m1 && (hasRot(l) || l.rotx)) || l.id.indexOf("pq") !== 0) return;
+      var p = PQ.leads.filter(function (x) { return (l.pid && x.id === l.pid) || (l.ig && x.ig === l.ig) || x.n === l.n; })[0];
+      if (!p) return;
+      if (!l.m1) { l.m1 = p.msg || ""; l.pid = p.id; ch = true; }
+      if (!(l.id2 && l.id2.length) && Array.isArray(p.ideias)) { l.id2 = p.ideias.slice(0, 3); ch = true; }
+      if (!l.ni && p.ni) { l.ni = p.ni; ch = true; }
+      if (!hasRot(l) && hasRot(p)) { l.rot = p.rot; l.cv = p.convite || ""; ch = true; }
     });
     return ch;
   }
@@ -998,11 +995,17 @@
   var pqCol = null, PQ = null, pqNi = null, pqOnlyWa = false, pqShowDone = false, pqSeg = "pq";
   function loadProspec() {
     if (!pqCol) return;
+    var fail = function () { PQ = { data: "", leads: [], err: true }; renderProspec(); };
     pqCol.orderBy("data", "desc").limit(1).get().then(function (qs) {
       var d = qs.docs[0] ? qs.docs[0].data() : null;
-      PQ = d && Array.isArray(d.leads) ? { data: String(d.data || qs.docs[0].id), leads: d.leads } : { data: "", leads: [] };
-      renderProspec();
-    }, function () { PQ = { data: "", leads: [], err: true }; renderProspec(); });
+      if (!d || !d.data) { PQ = { data: "", leads: [] }; renderProspec(); return; }
+      var date = String(d.data);
+      return pqCol.where("data", "==", date).get().then(function (all) {
+        var leads = [], seen = {};
+        all.docs.forEach(function (doc) { var b = doc.data() || {}; (b.leads || []).forEach(function (p) { if (p && p.id && !seen[p.id]) { seen[p.id] = 1; leads.push(p); } }); });
+        PQ = { data: date, leads: leads }; renderProspec();
+      });
+    }).catch(fail);
   }
   function fmtN(n) { return typeof n === "number" ? (n >= 1000 ? (Math.round(n / 100) / 10).toLocaleString("pt-BR") + " mil" : String(n)) : ""; }
   function copyText(t, btn) {
@@ -1013,6 +1016,29 @@
   var FU2 = "Oi, {n}! Separei as outras 2 ideias pra vocês. Mando por aqui ou prefere que eu deixe pra lá?";
   var FU5 = "{n}, vou entender que vídeo pro Instagram não é prioridade agora, tudo certo. Se mudar, me chama aqui. Abraço!";
   function simText(ideias) { return "Que bom! Aqui vão:\n" + ideias.map(function (x, i) { return (i + 1) + ". " + x; }).join("\n") + "\n\nEssas 3 eu gravo num único dia com vocês e coloco anúncio pra quem mora perto. Posso te mostrar em 15 minutos como ficaria? Que dia é melhor, terça ou quinta?"; }
+  function entregaText(rot) {
+    var em = ["🎬", "📋", "📲"];
+    return "Que bom! Aqui vão os 3 roteiros, prontos pra gravar 👇\n\n" + rot.map(function (r, i) {
+      var f = Array.isArray(r.f) ? r.f : [];
+      return "*" + (i + 1) + ". " + (r.t || "") + "* · " + (r.p || "") +
+        "\n🎬 Gancho (0-3s): " + (r.g || "") + (r.c ? "\n   Cena: " + r.c : "") +
+        "\n📋 Depois: " + f.map(function (x, k) { return (k + 1) + ") " + x; }).join(" ") +
+        "\n📲 Final: " + (r.a || "") +
+        (r.l ? "\n✍️ Legenda: " + r.l : "") + (r.d ? "\n🎥 Gravação: " + r.d : "") + (r.w ? "\n💡 Por que funciona: " + r.w : "");
+    }).join("\n\n");
+  }
+  function hasRot(x) { return Array.isArray(x.rot) && x.rot.length >= 1; }
+  function simBlock(title, items) {
+    var dt = document.createElement("details"); dt.className = "pq-sim";
+    var sm = document.createElement("summary"); sm.textContent = title; dt.appendChild(sm);
+    items.forEach(function (st) {
+      if (st[0]) { var h = document.createElement("small"); h.className = "seq-h" + (st[2] ? " now" : ""); h.textContent = st[0] + (st[2] ? " · próxima" : ""); dt.appendChild(h); }
+      var p = document.createElement("p"); p.className = "pq-msg"; p.textContent = st[1]; dt.appendChild(p);
+      var b = document.createElement("button"); b.type = "button"; b.className = "fu-more"; b.textContent = "Copiar";
+      b.addEventListener("click", function () { copyText(st[1], b); }); dt.appendChild(b);
+    });
+    return dt;
+  }
   function pqCard(p) {
     var st = S.pq.s[p.id], c = document.createElement("div");
     c.className = "pq-card" + (st ? " worked" : (p.nota >= 4 ? " hot" : ""));
@@ -1033,7 +1059,9 @@
     if (ct.children.length) c.appendChild(ct);
     add("p", "pq-msg", p.msg);
     var ideias = Array.isArray(p.ideias) ? p.ideias.filter(function (x) { return typeof x === "string" && x; }) : [];
-    if (ideias.length) {
+    if (hasRot(p)) {
+      c.appendChild(simBlock("Quando disser sim: 3 roteiros prontos", [["Mensagem 1 · roteiros", entregaText(p.rot)]].concat(p.convite ? [["Mensagem 2 · convite", p.convite]] : [])));
+    } else if (ideias.length) {
       var dt = document.createElement("details"); dt.className = "pq-sim";
       var sm = document.createElement("summary"); sm.textContent = "Quando disser sim (" + ideias.length + " ideias prontas)"; dt.appendChild(sm);
       var pre = document.createElement("p"); pre.className = "pq-msg"; pre.textContent = simText(ideias); dt.appendChild(pre);
@@ -1051,7 +1079,7 @@
     } else {
       btn("adv", "Mandei → Funil", function (e) {
         var t = today();
-        S.leads.push({ id: "pq" + Date.now().toString(36) + Math.random().toString(36).slice(2, 5), n: String(p.n || p.ig).slice(0, 50), b: [NICHOS[p.ni] || "", p.bai || ""].filter(Boolean).join(" · ").slice(0, 50), w: String(p.wa || p.tel || "").slice(0, 20), ig: p.ig || "", em: p.em || "", p: p.pl || "", id2: ideias.slice(0, 3), m1: p.msg || "", pid: p.id, st: 0, mx: 0, h: { 0: t }, lc: t, cd: t, nx: "Fazer follow-up", nd: addDays(t, 2) });
+        S.leads.push({ id: "pq" + Date.now().toString(36) + Math.random().toString(36).slice(2, 5), n: String(p.n || p.ig).slice(0, 50), b: [NICHOS[p.ni] || "", p.bai || ""].filter(Boolean).join(" · ").slice(0, 50), w: String(p.wa || p.tel || "").slice(0, 20), ig: p.ig || "", em: p.em || "", p: p.pl || "", id2: ideias.slice(0, 3), m1: p.msg || "", pid: p.id, ni: p.ni || "", rot: hasRot(p) ? p.rot : undefined, cv: p.convite || "", st: 0, mx: 0, h: { 0: t }, lc: t, cd: t, nx: "Fazer follow-up", nd: addDays(t, 2) });
         S.pq.s[p.id] = "f"; renderProspec(); fuSave(e, 2);
       });
       btn("warn", "Descartar", function () { S.pq.s[p.id] = "x"; renderProspec(); persist(); });
