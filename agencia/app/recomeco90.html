@@ -221,7 +221,13 @@
   .pq-top > b { font: 800 22px/1.1 var(--f-display); }
   .pq-top p { margin: 0; font-size: 12.5px; color: var(--muted); }
   .chips { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 4px; scrollbar-width: none; }
-  .chips::-webkit-scrollbar { display: none; }
+  .chips { scrollbar-width: thin; scrollbar-color: var(--signal) var(--ink-3); padding-bottom: 8px; }
+  .chips::-webkit-scrollbar { display: block; height: 6px; }
+  .chips::-webkit-scrollbar-track { background: var(--ink-3); border-radius: 99px; }
+  .chips::-webkit-scrollbar-thumb { background: var(--signal); border-radius: 99px; }
+  .pq-pick { display: grid; grid-template-columns: auto 1fr; align-items: center; gap: 10px; padding: 6px 6px 6px 14px; border-radius: 14px; background: var(--ink-2); border: 1px solid var(--line-2); }
+  .pq-pick span { font: 700 11px/1 var(--f-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--signal-soft); }
+  .pq-pick select { width: 100%; min-width: 0; padding: 11px 12px; border-radius: 10px; border: 1px solid var(--line); background: var(--ink-3); color: var(--fg); font: 700 15px/1.2 var(--f-body); }
   .chips button { flex: none; border: 1px solid var(--line-2); background: var(--ink-2); color: var(--lead); border-radius: 99px; padding: 8px 12px; font: 700 12.5px/1 var(--f-body); cursor: pointer; }
   .chips button[aria-pressed="true"] { background: var(--fg); color: var(--ink); border-color: var(--fg); }
   .chips button small { font: 500 10.5px/1 var(--f-mono); opacity: .75; margin-left: 4px; }
@@ -359,6 +365,7 @@
         <div class="bar"><i id="pq-fill" style="width:0%"></i></div>
         <p>Mande a mensagem, toque em <b style="color:var(--fg)">Mandei → Funil</b> e siga para o próximo. Confira o perfil antes: os dados vêm de buscas públicas.</p>
       </div>
+      <label class="pq-pick" for="pq-sel"><span>Nicho</span><select id="pq-sel"></select></label>
       <div class="chips" id="pq-chips" role="group" aria-label="Filtrar por nicho"></div>
       <div class="chips" id="pq-opts" role="group" aria-label="Opções"></div>
       <div class="fu-list" id="pq-list"></div>
@@ -1113,6 +1120,10 @@
       b.textContent = it[1]; var sm = document.createElement("small"); sm.textContent = it[0] ? it[2] : (all.length - worked); b.appendChild(sm);
       b.addEventListener("click", function () { pqNi = it[0]; renderProspec(); }); chips.appendChild(b);
     });
+    var sel = $("pq-sel"); sel.innerHTML = "";
+    [[null, "Todos os nichos", all.length - worked]].concat(Object.keys(NICHOS).filter(function (k) { return all.some(function (p) { return p.ni === k; }); }).map(function (k) { return [k, NICHOS[k], all.filter(function (p) { return p.ni === k && !S.pq.s[p.id]; }).length]; })).forEach(function (it) {
+      var o = document.createElement("option"); o.value = it[0] || ""; o.textContent = it[1] + " (" + it[2] + " pendentes)"; if ((pqNi || "") === (it[0] || "")) o.selected = true; sel.appendChild(o);
+    });
     var opts = $("pq-opts"); opts.innerHTML = "";
     [["wa", "Só com WhatsApp", pqOnlyWa], ["done", "Mostrar trabalhados", pqShowDone]].forEach(function (it) {
       var b = document.createElement("button"); b.type = "button"; b.textContent = it[1]; b.setAttribute("aria-pressed", it[2] ? "true" : "false");
@@ -1187,6 +1198,7 @@
     afterChange(r ? { clientX: r.left + r.width / 2, clientY: r.top } : null, 5);
     toast("💰", brl(c) + " lançado!", "Já está dividido nos baldes.");
   });
+  $("pq-sel").addEventListener("change", function () { pqNi = $("pq-sel").value || null; renderProspec(); });
   $("seg-pq").addEventListener("click", function () { showSeg("pq"); });
   $("seg-fu").addEventListener("click", function () { showSeg("fu"); });
   opt($("fu-st"), stgOpts(), 0); opt($("fu-p"), planOpts(), "");
