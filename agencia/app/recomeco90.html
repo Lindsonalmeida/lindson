@@ -1071,8 +1071,12 @@
     }
     var acts = document.createElement("div"); acts.className = "fu-acts"; c.appendChild(acts);
     function btn(cls, txt, fn) { var b = document.createElement("button"); b.type = "button"; if (cls) b.className = cls; b.textContent = txt; b.addEventListener("click", function (e) { fn(e, b); }); acts.appendChild(b); return b; }
-    var wl = waLink(p.wa, p.msg);
-    if (wl) { var a = document.createElement("a"); a.href = wl; a.target = "_blank"; a.rel = "noopener"; a.textContent = "Abrir WhatsApp"; a.className = "pay"; acts.appendChild(a); }
+    var mob = function (n) { var d = String(n || "").replace(/\D/g, ""); if (d.length >= 12 && d.indexOf("55") === 0) d = d.slice(2); return d.length === 11 && d.charAt(2) === "9" ? d : ""; };
+    var wl = waLink(p.wa, p.msg), tl = !wl && mob(p.tel) ? waLink(mob(p.tel), p.msg) : "";
+    function lk(href, txt, cls) { var a = document.createElement("a"); a.href = href; a.target = "_blank"; a.rel = "noopener"; a.textContent = txt; if (cls) a.className = cls; acts.appendChild(a); }
+    if (wl) lk(wl, "Abrir WhatsApp", "pay");
+    else if (tl) lk(tl, "Tentar no WhatsApp", "pay");
+    else if (p.ig) lk("https://instagram.com/" + p.ig, "Abrir Instagram (direct)", "pay");
     if (p.msg) btn("", "Copiar mensagem", function (e, b) { copyText(p.msg, b); });
     if (st) {
       btn("", st === "f" ? "No funil ✓ · desfazer" : "Descartado · desfazer", function () { delete S.pq.s[p.id]; renderProspec(); persist(); });
