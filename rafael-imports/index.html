@@ -417,7 +417,7 @@
                 <b>3 · Modelo</b>
                 <input id="q-modelo" type="text" placeholder="Ex.: Redmi Note 13, iPhone 12…" autocomplete="off">
               </div>
-              <a class="send" id="q-send" href="https://ig.me/m/rafael.imports.slz" target="_blank" rel="noopener">
+              <a class="send" id="q-send" href="https://wa.me/5598981950410" target="_blank" rel="noopener">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 20.5l1.3-4.2A8.5 8.5 0 1 1 8 19.4z"/></svg>
                 Pedir orçamento
               </a>
@@ -531,11 +531,13 @@
      Enquanto estiver vazio, os botões abrem o Direct do Instagram. */
   var WA = "";
   var IG_DM = "https://ig.me/m/rafael.imports.slz";
+  /* WhatsApp da assistência técnica (botão de orçamento). */
+  var WA_ASSIST = "5598981950410";
 
   (function () {
     document.body.classList.remove("no-js");
     var still = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    function link(msg) { return WA ? "https://wa.me/" + WA + "?text=" + encodeURIComponent(msg) : IG_DM; }
+    function link(msg, num) { num = num || WA; return num ? "https://wa.me/" + num + "?text=" + encodeURIComponent(msg) : IG_DM; }
 
     // Todos os botões com mensagem pronta
     document.querySelectorAll("[data-wa]").forEach(function (a) { a.href = link(a.getAttribute("data-wa")); });
@@ -587,7 +589,7 @@
       var msg = "Olá, Rafael Imports! Quero um orçamento da assistência técnica.";
       if (marca || mod) msg += "\n📱 Aparelho: " + [marca, mod].filter(Boolean).join(" ");
       if (def.length) msg += "\n🔧 Problema: " + def.join(", ");
-      send.href = link(msg);
+      send.href = link(msg, WA_ASSIST);
     }
     modelo.addEventListener("input", montar);
     document.getElementById("qform").addEventListener("submit", function (e) { e.preventDefault(); send.click(); });
