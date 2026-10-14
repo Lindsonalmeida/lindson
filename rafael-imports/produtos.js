@@ -43,7 +43,7 @@
       ]
     },
     {
-      foto: "img/produtos/note15.webp", /* foto oficial enviada pelo cliente */
+      foto: "img/produtos/note15.webp?v=1", /* foto oficial enviada pelo cliente */
       id: "note15", marca: "Redmi", nome: "Redmi Note 15 5G", tag: "Leve e completo",
       frase: "108 MP com estabilizador, tela curva AMOLED e só 178 g.",
       cam: "note",
@@ -82,7 +82,7 @@
       ]
     },
     {
-      foto: "img/produtos/r15c.webp", /* foto oficial enviada pelo cliente */
+      foto: "img/produtos/r15c.webp?v=1", /* foto oficial enviada pelo cliente */
       id: "r15c", marca: "Redmi", nome: "Redmi 15C", tag: "Bateria monstra",
       frase: "Bateria de 6.000 mAh, tela de 6,9\" e 50 MP pelo melhor preço.",
       cam: "ring",
