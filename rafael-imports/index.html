@@ -673,7 +673,7 @@
   /* WhatsApp da assistência técnica (botão de orçamento). */
   var WA_ASSIST = "5598981950410";
   /* Cards ilustrados do pedido de assistência (viram imagem de prévia no WhatsApp). */
-  var OS_URL = "https://lindsonalmeida.github.io/lindson/rafael-imports/os/";
+  var OS_URL = new URL("os/", location.href.split(/[?#]/)[0]).href; /* acompanha o endereço do site (funciona em domínio próprio) */
   /* WhatsApp da loja: informações gerais (botão principal e botão flutuante). */
   var WA_LOJA = "5598981194959";
 
