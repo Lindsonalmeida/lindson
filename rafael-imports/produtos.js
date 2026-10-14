@@ -82,7 +82,7 @@
       ]
     },
     {
-      foto: null, /* foto real: "img/produtos/r15c.jpg" */
+      foto: "img/produtos/r15c.webp", /* foto oficial enviada pelo cliente */
       id: "r15c", marca: "Redmi", nome: "Redmi 15C", tag: "Bateria monstra",
       frase: "Bateria de 6.000 mAh, tela de 6,9\" e 50 MP pelo melhor preço.",
       cam: "ring",
