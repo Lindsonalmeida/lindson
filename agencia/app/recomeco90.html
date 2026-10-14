@@ -86,6 +86,7 @@
   .counter-top b { font: 800 17px/1.2 var(--f-display); }
   .counter-top span { font-size: 12.5px; color: var(--muted); display: block; margin-top: 2px; }
   .counter .num { font: 800 34px/1 var(--f-display); color: var(--sun); font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .counter .num span { display: inline; margin: 0; font-size: inherit; color: inherit; }
   .counter .num small { font-size: 16px; color: var(--muted); }
   .counter .btns { display: grid; grid-template-columns: auto 1fr 1fr 1fr; gap: 8px; }
   .counter .btns button { border: 1px solid var(--line-2); background: var(--ink-3); border-radius: 12px; padding: 12px 6px; font: 800 16px/1 var(--f-display); cursor: pointer; }
@@ -168,6 +169,33 @@
   .en .del { border: 1px solid var(--line-2); background: transparent; border-radius: 10px; padding: 8px 9px; cursor: pointer; color: var(--muted); font: 700 12px/1 var(--f-body); }
   .en .del.confirm { background: var(--rec); border-color: var(--rec); color: #fff; }
   .empty { padding: 18px; border-radius: 16px; border: 1px dashed var(--line-2); text-align: center; color: var(--muted); font-size: 13.5px; }
+  /* Esteira */
+  .sim { padding: 16px; border-radius: 18px; background: linear-gradient(160deg, rgba(76,141,255,.16), rgba(155,123,255,.08) 70%, var(--ink-2)); border: 1px solid var(--line-2); display: grid; gap: 8px; }
+  .sim small { font: 700 11px/1 var(--f-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--signal-soft); }
+  .sim b { font: 800 30px/1 var(--f-display); letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+  .sim b span { font-size: 15px; color: var(--muted); }
+  .sim p { margin: 0; font-size: 13px; color: var(--lead); }
+  .sim p b { font: 700 13px/1.4 var(--f-body); color: var(--fg); letter-spacing: 0; }
+  .sim .warn { color: var(--sun); }
+  .plans { display: flex; flex-direction: column; gap: 8px; }
+  .plan { display: grid; grid-template-columns: 1fr auto; gap: 10px 12px; align-items: center; padding: 14px; border-radius: 16px; background: var(--ink-2); border: 1px solid var(--line); }
+  .plan.top { border-color: rgba(255,181,71,.5); background: linear-gradient(160deg, rgba(255,181,71,.10), var(--ink-2) 60%); }
+  .plan .pn { min-width: 0; }
+  .plan .pn b { display: block; font: 800 17px/1.15 var(--f-display); }
+  .plan .pn em { font-style: normal; font: 800 15px/1 var(--f-display); color: var(--sun); font-variant-numeric: tabular-nums; }
+  .plan .pn span { display: block; margin-top: 4px; font-size: 12px; color: var(--muted); }
+  .stp { display: flex; align-items: center; gap: 4px; padding: 3px; border-radius: 12px; background: var(--ink-3); border: 1px solid var(--line); }
+  .stp button { width: 34px; height: 34px; border: 0; border-radius: 9px; background: transparent; color: var(--fg); font: 800 18px/1 var(--f-body); cursor: pointer; }
+  .stp button:hover { background: rgba(76,141,255,.15); }
+  .stp output { min-width: 22px; text-align: center; font: 800 16px/1 var(--f-display); font-variant-numeric: tabular-nums; }
+  .plan .go { grid-column: 1 / -1; border: 1px dashed var(--line-2); background: transparent; border-radius: 11px; padding: 9px; color: var(--signal-soft); font: 700 13px/1 var(--f-body); cursor: pointer; }
+  .plan .go:hover { background: rgba(76,141,255,.1); }
+  .extras { display: flex; flex-wrap: wrap; gap: 6px; }
+  .extras button { border: 1px solid var(--line-2); background: var(--ink-2); border-radius: 99px; padding: 8px 12px; color: var(--lead); font: 700 12.5px/1 var(--f-body); cursor: pointer; }
+  .extras button em { font-style: normal; color: var(--sun); }
+  .who { display: flex; align-items: center; gap: 12px; min-width: 0; }
+  .ava { width: 56px; height: 56px; border-radius: 50%; border: 2px solid var(--signal); box-shadow: 0 0 0 4px rgba(76,141,255,.15); object-fit: cover; flex: none; }
+
   .foot { text-align: center; font: 500 11px/1.5 var(--f-mono); letter-spacing: .08em; color: var(--muted); }
   .foot button { border: 0; background: none; color: var(--signal-soft); text-decoration: underline; cursor: pointer; font: inherit; }
 
@@ -188,7 +216,7 @@
 
   <section class="score" aria-label="Seu placar">
     <div class="score-top">
-      <div class="lvl"><small id="lvl-n">Nível 1</small><b id="lvl-name">Recomeço</b></div>
+      <div class="who"><img class="ava" alt="Lindson Almeida" width="56" height="56" src="data:image/jpeg;base64,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"><div class="lvl"><small id="lvl-n">Nível 1</small><b id="lvl-name">Recomeço</b></div></div>
       <div class="xp"><b id="xp">0</b><small>PONTOS</small></div>
     </div>
     <div class="bar" role="progressbar" aria-label="Progresso até o próximo nível" id="lvl-bar"><i id="lvl-fill" style="width:0%"></i></div>
@@ -268,6 +296,16 @@
       <div class="bk" style="grid-column:1 / -1"><small><span>Investir na agência</span><span id="b-inv-p">5%</span></small><b id="b-inv">R$ 0</b><span>anúncios, equipamento, ferramentas</span></div>
     </div>
 
+    <div class="section-h"><h2>Sua esteira</h2><small>simule o mês</small></div>
+    <div class="sim" aria-live="polite">
+      <small>Se você tiver estes clientes</small>
+      <b id="sim-tot">R$ 0<span> / mês</span></b>
+      <div class="bar"><i id="sim-fill" style="width:0%"></i></div>
+      <p id="sim-note">Use o + para montar o mês que você quer.</p>
+    </div>
+    <div class="plans" id="plans"></div>
+    <div class="extras" id="extras"></div>
+
     <form class="form" id="f-form" novalidate>
       <h3>Lançar entrada</h3>
       <label for="f-valor">Valor recebido
@@ -279,9 +317,21 @@
       <div class="row2">
         <label for="f-tipo">Tipo
           <select id="f-tipo">
-            <option value="contrato">Contrato mensal</option>
-            <option value="rapida">Venda rápida</option>
-            <option value="outro">Outro</option>
+            <optgroup label="Esteira">
+              <option value="video">Vídeo</option>
+              <option value="trafego">Tráfego</option>
+              <option value="alcance">Alcance</option>
+              <option value="presenca">Presença</option>
+              <option value="iqv" selected>Instagram que Vende</option>
+            </optgroup>
+            <optgroup label="Extras">
+              <option value="minisite">Mini site</option>
+              <option value="extra">Vídeo extra</option>
+            </optgroup>
+            <optgroup label="Outros">
+              <option value="rapida">Venda rápida</option>
+              <option value="outro">Outro</option>
+            </optgroup>
           </select>
         </label>
         <label for="f-data">Data
@@ -378,6 +428,14 @@
     { k: "Não fazer", c: "sun", h: "O que fica para depois dos 90 dias", p: "Logo e site novos · cliente sem pagar adiantado · baixar preço · segundo nicho.", d: "Releia esta lista quando bater a tentação." },
     { k: "Execução", c: "ink", h: "Velocidade vale mais que perfeição.", p: "A estratégia perfeita que não sai do papel perde para a boa estratégia feita hoje.", d: "Faça a próxima missão agora, mesmo sem estar 100% pronto." }
   ];
+  var PLANS = [
+    { id: "video", n: "Vídeo", c: 60000, d: "4 vídeos · 1 diária de gravação", g: 1 },
+    { id: "trafego", n: "Tráfego", c: 80000, d: "Gestão de anúncios + relatório", g: 0 },
+    { id: "alcance", n: "Alcance", c: 120000, d: "Tráfego + 4 vídeos", g: 1 },
+    { id: "presenca", n: "Presença", c: 220000, d: "4 vídeos + 4 posts + tráfego", g: 1 },
+    { id: "iqv", n: "Instagram que Vende", c: 350000, d: "8 vídeos + 8 posts + tráfego + mini site", g: 2, top: true }
+  ];
+  var EXTRAS = [{ id: "minisite", n: "Mini site", c: 49700 }, { id: "extra", n: "Vídeo extra", c: 15000 }];
   var PH = { sobre: [80, 10, 5, 5], estavel: [70, 10, 10, 10], cresc: [60, 10, 15, 15] };
   var META = 1400000, PRO = 1000000;
   var LEVELS = [
@@ -393,7 +451,7 @@
     var y0 = new Date(Date.UTC(t.getUTCFullYear(), 0, 1));
     return t.getUTCFullYear() + "-W" + String(Math.ceil(((t - y0) / 864e5 + 1) / 7)).padStart(2, "0");
   }
-  function blank() { return { v: 1, start: today(), days: {}, weeks: {}, once: {}, learned: {}, card: 0, money: [], fph: "sobre" }; }
+  function blank() { return { v: 1, start: today(), days: {}, weeks: {}, once: {}, learned: {}, card: 0, money: [], fph: "sobre", mix: {} }; }
   var S = blank();
   var LOCAL = "recomeco90-v1";
   function loadLocal() { try { var r = localStorage.getItem(LOCAL); if (r) return JSON.parse(r); } catch (e) {} return null; }
@@ -405,6 +463,7 @@
     if (typeof o.card === "number") b.card = Math.max(0, Math.min(CARDS.length - 1, o.card));
     if (Array.isArray(o.money)) b.money = o.money.filter(function (e) { return e && typeof e.c === "number" && typeof e.d === "string"; });
     if (PH[o.fph]) b.fph = o.fph;
+    if (o.mix && typeof o.mix === "object") PLANS.forEach(function (p) { var n = parseInt(o.mix[p.id], 10); if (n > 0) b.mix[p.id] = Math.min(30, n); });
     return b;
   }
   function day() { var k = today(); if (!S.days[k]) S.days[k] = { p: 0, m: {} }; return S.days[k]; }
@@ -526,6 +585,55 @@
   function monthLabel(ym) { var p = ym.split("-"); var l = new Date(+p[0], +p[1] - 1, 1).toLocaleDateString("pt-BR", { month: "long", year: "numeric" }); return l.charAt(0).toUpperCase() + l.slice(1); }
   function shiftMonth(ym, k) { var p = ym.split("-"), d = new Date(+p[0], +p[1] - 1 + k, 1); return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0"); }
   var TIPO = { contrato: "Contrato mensal", rapida: "Venda rápida", outro: "Outro" };
+  PLANS.concat(EXTRAS).forEach(function (p) { TIPO[p.id] = p.n; });
+  function renderPlans() {
+    var tot = 0, days = 0, n = 0, ph = PH[S.fph];
+    PLANS.forEach(function (p) { var k = S.mix[p.id] || 0; tot += k * p.c; days += k * p.g; n += k; });
+    $("sim-tot").firstChild.nodeValue = brl(tot);
+    $("sim-fill").style.width = Math.min(100, tot / META * 100) + "%";
+    var me = Math.round(tot * ph[0] / 100), note;
+    if (!n) note = "Use o + para montar o mês que você quer.";
+    else {
+      note = n + (n === 1 ? " cliente" : " clientes") + " · seu pró-labore: <b>" + brl(me) + "</b> · " +
+        (tot >= META ? "<b>meta de R$ 14 mil batida</b>" : "faltam <b>" + brl(META - tot) + "</b> para a meta") +
+        " · " + days + (days === 1 ? " diária" : " diárias") + " de gravação";
+      if (days > 8) note += '<br><span class="warn">Mais de 8 diárias por mês: hora de contratar um editor.</span>';
+    }
+    $("sim-note").innerHTML = note;
+    var box = $("plans"); box.innerHTML = "";
+    PLANS.forEach(function (p) {
+      var row = document.createElement("div"); row.className = "plan" + (p.top ? " top" : "");
+      row.innerHTML = '<div class="pn"><b></b><em></em><span></span></div><div class="stp"><button type="button" data-d="-1">−</button><output></output><button type="button" data-d="1">+</button></div><button type="button" class="go"></button>';
+      row.querySelector("b").textContent = p.n; row.querySelector("em").textContent = brl(p.c) + "/mês"; row.querySelector(".pn span").textContent = p.d;
+      row.querySelector("output").textContent = S.mix[p.id] || 0;
+      row.querySelector('[data-d="-1"]').setAttribute("aria-label", "Tirar 1 cliente do " + p.n);
+      row.querySelector('[data-d="1"]').setAttribute("aria-label", "Somar 1 cliente no " + p.n);
+      row.querySelector(".go").textContent = "Recebi um " + p.n + ": lançar " + brl(p.c);
+      Array.prototype.forEach.call(row.querySelectorAll(".stp button"), function (b) {
+        b.addEventListener("click", function () {
+          var k = Math.max(0, Math.min(30, (S.mix[p.id] || 0) + parseInt(b.getAttribute("data-d"), 10)));
+          if (k) S.mix[p.id] = k; else delete S.mix[p.id];
+          renderPlans(); persist();
+        });
+      });
+      row.querySelector(".go").addEventListener("click", function () { prefill(p); });
+      box.appendChild(row);
+    });
+    var ex = $("extras"); ex.innerHTML = "";
+    EXTRAS.forEach(function (p) {
+      var b = document.createElement("button"); b.type = "button";
+      b.innerHTML = "+ <span></span> <em></em>"; b.querySelector("span").textContent = p.n; b.querySelector("em").textContent = brl(p.c);
+      b.addEventListener("click", function () { prefill(p); }); ex.appendChild(b);
+    });
+  }
+  function prefill(p) {
+    $("f-valor").value = (p.c / 100).toLocaleString("pt-BR");
+    $("f-tipo").value = p.id;
+    $("f-desc").placeholder = "Nome do cliente — " + p.n;
+    $("f-err").hidden = true;
+    $("f-form").scrollIntoView({ behavior: "smooth", block: "center" });
+    setTimeout(function () { $("f-desc").focus({ preventScroll: true }); }, 350);
+  }
   function renderFin() {
     var list = S.money.filter(function (e) { return e.d.slice(0, 7) === finMonth; }).sort(function (a, b) { return b.d < a.d ? -1 : b.d > a.d ? 1 : 0; });
     var tot = list.reduce(function (a, e) { return a + e.c; }, 0), ph = PH[S.fph];
@@ -564,7 +672,7 @@
   }
 
   var lastLevel = 0;
-  function renderAll() { renderLists(); var li = renderScore(); renderCard(); renderFin(); return li; }
+  function renderAll() { renderLists(); var li = renderScore(); renderCard(); renderFin(); renderPlans(); return li; }
 
   function pop(e, text) {
     var p = document.createElement("div"); p.className = "pop"; p.textContent = text;
@@ -607,7 +715,7 @@
   $("m-prev").addEventListener("click", function () { finMonth = shiftMonth(finMonth, -1); renderFin(); });
   $("m-next").addEventListener("click", function () { if (finMonth < today().slice(0, 7)) { finMonth = shiftMonth(finMonth, 1); renderFin(); } });
   Array.prototype.forEach.call(document.querySelectorAll("#f-phase button"), function (b) {
-    b.addEventListener("click", function () { S.fph = b.getAttribute("data-ph"); renderFin(); persist(); });
+    b.addEventListener("click", function () { S.fph = b.getAttribute("data-ph"); renderFin(); renderPlans(); persist(); });
   });
   $("f-form").addEventListener("submit", function (ev) {
     ev.preventDefault();
@@ -616,7 +724,7 @@
     err.hidden = true;
     S.money.push({ id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6), c: c, s: $("f-desc").value.trim().slice(0, 60), t: $("f-tipo").value, d: d });
     finMonth = d.slice(0, 7);
-    $("f-valor").value = ""; $("f-desc").value = "";
+    $("f-valor").value = ""; $("f-desc").value = ""; $("f-desc").placeholder = "Ex.: Clínica X — mensalidade";
     renderFin();
     var r = ev.submitter ? ev.submitter.getBoundingClientRect() : null;
     afterChange(r ? { clientX: r.left + r.width / 2, clientY: r.top } : null, 5);
