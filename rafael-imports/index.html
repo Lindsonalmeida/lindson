@@ -326,6 +326,92 @@
   .rv.in { opacity: 1; transform: none; }
   .no-js .rv { opacity: 1; transform: none; }
 
+  /* ── Lançamentos: vitrine com ilustração animada ── */
+  .launch-label { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; margin: 0 0 10px 2px; }
+  .launch-label h2 { margin: 0; font: 800 20px/1.1 var(--f-display); }
+  .launch-label h2 em { font-style: normal; background: var(--metal); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .launch-label span { font: 500 11px/1 var(--f-mono); color: var(--muted); letter-spacing: .08em; }
+  .rail {
+    display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory;
+    margin: 0 -16px 18px; padding: 4px 16px 14px;
+    scrollbar-width: thin; scrollbar-color: var(--gold-2) transparent;
+  }
+  .rail::-webkit-scrollbar { height: 4px; } .rail::-webkit-scrollbar-thumb { background: var(--gold-2); border-radius: 4px; }
+  .pcard {
+    position: relative; flex: none; width: 74%; max-width: 300px; scroll-snap-align: center;
+    padding: 16px 16px 14px; border-radius: 22px; border: 1px solid var(--line);
+    background:
+      radial-gradient(circle at 50% 30%, rgba(245,197,24,.22), transparent 62%),
+      linear-gradient(160deg, rgba(30,26,12,.92), rgba(12,12,15,.94));
+    color: var(--fg); text-align: left; font: inherit; cursor: pointer; overflow: hidden;
+    transition: transform .4s cubic-bezier(.2,.8,.2,1), border-color .3s ease;
+  }
+  .pcard:hover, .pcard:focus-visible { transform: translateY(-4px); border-color: rgba(245,197,24,.7); }
+  .pcard:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+  .pcard::before {
+    content: ""; position: absolute; inset: 0; pointer-events: none; opacity: .5;
+    background: repeating-linear-gradient(-45deg, transparent 0 22px, rgba(245,197,24,.05) 22px 23px);
+  }
+  .pcard .new {
+    position: absolute; top: 12px; left: 12px; z-index: 2;
+    padding: 4px 8px; border-radius: 6px; background: var(--gold); color: var(--gold-ink);
+    font: 700 9.5px/1 var(--f-mono); letter-spacing: .1em; text-transform: uppercase;
+  }
+  .stage { position: relative; height: 230px; display: grid; place-items: center; perspective: 700px; }
+  .stage::after {
+    content: ""; position: absolute; bottom: 6px; left: 50%; width: 52%; height: 16px; transform: translateX(-50%);
+    background: radial-gradient(closest-side, rgba(245,197,24,.45), transparent); filter: blur(4px);
+    animation: shadow 5s ease-in-out infinite;
+  }
+  .phone { height: 92%; animation: floaty 5s ease-in-out infinite; transform-style: preserve-3d; filter: drop-shadow(0 18px 24px rgba(0,0,0,.55)); }
+  .phone svg { height: 100%; width: auto; display: block; }
+  .phone .sheen { animation: sheen 3.6s ease-in-out infinite; }
+  @keyframes floaty { 0%, 100% { transform: translateY(0) rotateY(-14deg) rotateZ(-3deg); } 50% { transform: translateY(-10px) rotateY(10deg) rotateZ(2deg); } }
+  @keyframes shadow { 50% { width: 38%; opacity: .6; } }
+  @keyframes sheen { 0% { transform: rotate(14deg) translateX(0); } 60%, 100% { transform: rotate(14deg) translateX(520px); } }
+  .pcard h3 { position: relative; margin: 8px 0 2px; font: 800 18px/1.15 var(--f-display); }
+  .pcard p { position: relative; margin: 0 0 10px; font-size: 12.5px; color: var(--muted); line-height: 1.4; }
+  .mini { position: relative; display: grid; grid-template-columns: 1fr 1fr; gap: 6px; margin-bottom: 12px; }
+  .mini div { padding: 7px 8px; border-radius: 10px; background: rgba(255,255,255,.04); border: 1px solid rgba(245,197,24,.12); }
+  .mini b { display: block; font: 800 13px/1.15 var(--f-display); color: var(--gold); }
+  .mini span { font: 500 9.5px/1.2 var(--f-mono); color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+  .pcard .more { position: relative; display: flex; align-items: center; justify-content: space-between; font: 700 13px/1 var(--f-body); color: var(--gold); }
+  .dots { display: flex; gap: 5px; }
+  .dots i { width: 12px; height: 12px; border-radius: 50%; border: 1.5px solid rgba(255,255,255,.35); }
+
+  /* Ficha completa: gaveta que sobe */
+  .sheet { position: fixed; inset: 0; z-index: 10; display: none; }
+  .sheet.on { display: block; }
+  .sheet .bd { position: absolute; inset: 0; background: rgba(0,0,0,.7); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); opacity: 0; transition: opacity .35s ease; }
+  .sheet.show .bd { opacity: 1; }
+  .sheet .pn {
+    position: absolute; left: 0; right: 0; bottom: 0; margin: 0 auto; max-width: 520px; max-height: 92vh; overflow-y: auto;
+    border-radius: 26px 26px 0 0; border: 1px solid var(--line); border-bottom: 0;
+    background: radial-gradient(circle at 50% 0%, rgba(245,197,24,.18), transparent 55%), #0d0d10;
+    padding: 10px 18px calc(24px + env(safe-area-inset-bottom, 0px));
+    transform: translateY(100%); transition: transform .5s cubic-bezier(.2,.8,.2,1);
+  }
+  .sheet.show .pn { transform: none; }
+  .grab { width: 44px; height: 5px; border-radius: 3px; background: rgba(255,255,255,.25); margin: 0 auto 6px; }
+  .x { position: absolute; top: 12px; right: 12px; width: 38px; height: 38px; border-radius: 50%; border: 1px solid var(--line); background: rgba(255,255,255,.05); color: var(--fg); font-size: 20px; line-height: 1; cursor: pointer; }
+  .x:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+  .sheet .stage { height: 300px; }
+  .sheet h3 { margin: 4px 0 2px; text-align: center; font: 800 24px/1.1 var(--f-display); }
+  .sheet .fr { margin: 0 0 14px; text-align: center; color: var(--muted); font-size: 14px; }
+  .sw { display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin-bottom: 4px; }
+  .sw button { width: 30px; height: 30px; border-radius: 50%; border: 2px solid rgba(255,255,255,.25); cursor: pointer; transition: transform .2s ease, border-color .2s ease; }
+  .sw button[aria-pressed="true"] { border-color: var(--gold); transform: scale(1.15); box-shadow: 0 0 0 3px rgba(245,197,24,.25); }
+  .sw button:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+  .swn { text-align: center; margin: 4px 0 16px; font: 600 11px/1 var(--f-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--gold); }
+  .sheet .mini { grid-template-columns: repeat(4, 1fr); }
+  @media (max-width: 420px) { .sheet .mini { grid-template-columns: 1fr 1fr; } }
+  .specs { width: 100%; border-collapse: collapse; margin: 6px 0 16px; font-size: 13.5px; }
+  .specs th { width: 34%; padding: 10px 8px 10px 0; text-align: left; vertical-align: top; font: 600 10.5px/1.4 var(--f-mono); letter-spacing: .06em; text-transform: uppercase; color: var(--gold); }
+  .specs td { padding: 10px 0; line-height: 1.45; }
+  .specs tr + tr { border-top: 1px solid rgba(245,197,24,.1); }
+  .ilu { margin: 10px 0 0; text-align: center; font-size: 11px; color: #77736a; }
+  body.lock { overflow: hidden; }
+
   @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after { animation: none !important; transition: none !important; }
     .rv { opacity: 1; transform: none; }
@@ -455,6 +541,8 @@
   </nav>
 
   <section id="portfolio" class="rv" aria-label="Portfólio de produtos">
+    <div class="launch-label"><h2>Lançamentos <em>Xiaomi</em></h2><span>deslize →</span></div>
+    <div class="rail" id="rail"></div>
     <p class="label">Portfólio</p>
     <div class="filters chips" data-group="filtro" role="toolbar" aria-label="Filtrar por marca">
       <button type="button" class="chip" aria-pressed="true" data-f="all">Todos</button>
@@ -537,6 +625,28 @@
   <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.4.8 3.2.7a2.8 2.8 0 0 0 1.8-1.3 2.3 2.3 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg>
 </a>
 
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sh-nome">
+  <div class="bd" data-close></div>
+  <div class="pn">
+    <div class="grab"></div>
+    <button class="x" type="button" data-close aria-label="Fechar">×</button>
+    <div class="stage"><div class="phone" id="sh-ph"></div></div>
+    <h3 id="sh-nome"></h3>
+    <p class="fr" id="sh-fr"></p>
+    <div class="sw" id="sh-sw" role="group" aria-label="Cores"></div>
+    <p class="swn" id="sh-cor"></p>
+    <div class="mini" id="sh-dest"></div>
+    <p class="label">Ficha técnica do fabricante</p>
+    <table class="specs"><tbody id="sh-ficha"></tbody></table>
+    <a class="send" id="sh-buy" href="#" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 20.5l1.3-4.2A8.5 8.5 0 1 1 8 19.4z"/></svg>
+      Quero esse · consultar preço
+    </a>
+    <p class="ilu">Imagem ilustrativa. Especificações do fabricante (versão global); podem variar por versão e região.</p>
+  </div>
+</div>
+
+<script src="produtos.js"></script>
 <script>
   /* ⚙️ Número do WhatsApp da loja: só dígitos, com 55 + DDD (ex.: "5598988887777").
      Enquanto estiver vazio, os botões abrem o Direct do Instagram. */
@@ -609,6 +719,57 @@
     document.getElementById("qform").addEventListener("submit", function (e) { e.preventDefault(); send.click(); });
     montar();
 
+
+    // Lançamentos: vitrine + ficha completa
+    (function () {
+      var P = window.RI_PRODUTOS, SVG = window.RI_SVG, rail = document.getElementById("rail");
+      if (!P || !rail) return;
+      function esc(t) { return String(t).replace(/[&<>"]/g, function (m) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[m]; }); }
+      function mini(p) { return p.dest.map(function (d) { return "<div><b>" + esc(d[0]) + "</b><span>" + esc(d[1]) + "</span></div>"; }).join(""); }
+      rail.innerHTML = P.map(function (p, i) {
+        return '<button type="button" class="pcard" data-i="' + i + '" aria-label="Ver ficha do ' + esc(p.nome) + '">' +
+          '<span class="new">' + esc(p.tag) + '</span>' +
+          '<div class="stage"><div class="phone" style="animation-delay:-' + i * .8 + 's">' + SVG(p, 0) + '</div></div>' +
+          '<h3>' + esc(p.nome) + '</h3><p>' + esc(p.frase) + '</p>' +
+          '<div class="mini">' + mini({ dest: p.dest.slice(0, 2) }) + '</div>' +
+          '<span class="more">Ver ficha completa →<span class="dots">' + p.cores.map(function (c) { return '<i style="background:' + c[1] + '"></i>'; }).join("") + '</span></span>' +
+          '</button>';
+      }).join("");
+
+      var sh = document.getElementById("sheet"), cur = null, ci = 0, last = null;
+      function cor(i) {
+        ci = i;
+        document.getElementById("sh-ph").innerHTML = SVG(cur, i);
+        document.getElementById("sh-cor").textContent = cur.cores[i][0];
+        document.querySelectorAll("#sh-sw button").forEach(function (b, k) { b.setAttribute("aria-pressed", k === i ? "true" : "false"); });
+        document.getElementById("sh-buy").href = link("Olá, Rafael Imports! Vi no site e quero saber o preço do " + cur.nome + " na cor " + cur.cores[i][0] + ".");
+      }
+      function abrir(i) {
+        cur = P[i]; last = document.activeElement;
+        document.getElementById("sh-nome").textContent = cur.nome;
+        document.getElementById("sh-fr").textContent = cur.frase;
+        document.getElementById("sh-dest").innerHTML = mini(cur);
+        document.getElementById("sh-ficha").innerHTML = cur.ficha.map(function (f) { return "<tr><th>" + esc(f[0]) + "</th><td>" + esc(f[1]) + "</td></tr>"; }).join("");
+        document.getElementById("sh-sw").innerHTML = cur.cores.map(function (c, k) { return '<button type="button" aria-label="' + esc(c[0]) + '" style="background:linear-gradient(135deg,' + c[1] + ',' + c[2] + ')"></button>'; }).join("");
+        cor(0);
+        sh.classList.add("on"); document.body.classList.add("lock");
+        requestAnimationFrame(function () { requestAnimationFrame(function () { sh.classList.add("show"); }); });
+        sh.querySelector(".x").focus();
+      }
+      function fechar() {
+        sh.classList.remove("show"); document.body.classList.remove("lock");
+        setTimeout(function () { sh.classList.remove("on"); }, 450);
+        if (last) last.focus();
+      }
+      rail.addEventListener("click", function (e) { var b = e.target.closest(".pcard"); if (b) abrir(+b.dataset.i); });
+      document.getElementById("sh-sw").addEventListener("click", function (e) {
+        var b = e.target.closest("button"); if (b) cor(Array.prototype.indexOf.call(this.children, b));
+      });
+      sh.addEventListener("click", function (e) { if (e.target.closest("[data-close]")) fechar(); });
+      document.addEventListener("keydown", function (e) { if (e.key === "Escape" && sh.classList.contains("on")) fechar(); });
+      var m = /[?&]p=(\w+)/.exec(location.search);
+      if (m) P.forEach(function (p, i) { if (p.id === m[1]) setTimeout(function () { abrir(i); }, 400); });
+    })();
     // Filtro do portfólio
     function filtrar(f) {
       document.querySelectorAll("#grid .card").forEach(function (c) {
