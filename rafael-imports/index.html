@@ -420,6 +420,39 @@
   .ilu { margin: 10px 0 0; text-align: center; font-size: 11px; color: #77736a; }
   body.lock { overflow: hidden; }
 
+  /* ── Chatbot da assistência ── */
+  .bot { border-radius: 18px; border: 1px solid var(--line); background: rgba(12,12,15,.92); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); overflow: hidden; display: flex; flex-direction: column; }
+  .bot-h { display: flex; align-items: center; gap: 10px; padding: 12px 14px; border-bottom: 1px solid var(--line); background: linear-gradient(90deg, rgba(245,197,24,.12), transparent); }
+  .bot-h img { width: 38px; height: 38px; border-radius: 50%; box-shadow: 0 0 0 2px var(--gold); }
+  .bot-h div { flex: 1; min-width: 0; }
+  .bot-h b { display: block; font: 700 14px/1.2 var(--f-display); }
+  .bot-h span { font-size: 11.5px; color: var(--muted); display: inline-flex; align-items: center; gap: 5px; }
+  .bot-h span i { width: 7px; height: 7px; border-radius: 50%; background: var(--wa); box-shadow: 0 0 6px var(--wa); }
+  .bot-r { width: 34px; height: 34px; border-radius: 50%; border: 1px solid var(--line); background: transparent; color: var(--muted); font-size: 17px; cursor: pointer; }
+  .bot-r:hover { color: var(--gold); border-color: var(--gold); }
+  .bot-m { height: 330px; overflow-y: auto; padding: 14px 12px 6px; display: flex; flex-direction: column; gap: 8px; scroll-behavior: smooth; scrollbar-width: thin; scrollbar-color: var(--gold-2) transparent; }
+  .msg { flex-shrink: 0; max-width: 84%; padding: 9px 13px; border-radius: 16px; font-size: 14px; line-height: 1.45; animation: pop .35s cubic-bezier(.2,1.2,.4,1) both; white-space: pre-line; }
+  .msg.b { align-self: flex-start; background: #1b1a16; border: 1px solid rgba(245,197,24,.18); border-bottom-left-radius: 5px; }
+  .msg.u { align-self: flex-end; background: var(--gold); color: var(--gold-ink); font-weight: 700; border-bottom-right-radius: 5px; }
+  .msg.tip { align-self: stretch; max-width: none; background: rgba(255,90,78,.1); border: 1px solid rgba(255,90,78,.4); font-size: 13px; }
+  .msg img { display: block; width: 100%; border-radius: 10px; margin-top: 8px; }
+  .msg.card { max-width: 92%; }
+  @keyframes pop { from { opacity: 0; transform: translateY(8px) scale(.96); } to { opacity: 1; transform: none; } }
+  .typing { flex-shrink: 0; align-self: flex-start; display: flex; gap: 4px; padding: 12px 14px; border-radius: 16px; background: #1b1a16; border: 1px solid rgba(245,197,24,.18); }
+  .typing i { width: 6px; height: 6px; border-radius: 50%; background: var(--gold); animation: dot 1s ease-in-out infinite; }
+  .typing i:nth-child(2) { animation-delay: .15s; } .typing i:nth-child(3) { animation-delay: .3s; }
+  @keyframes dot { 0%, 100% { opacity: .3; transform: none; } 50% { opacity: 1; transform: translateY(-3px); } }
+  .bot-o { display: flex; flex-wrap: wrap; gap: 7px; padding: 8px 12px 12px; }
+  .bot-o:empty { display: none; }
+  .bot-o .chip { animation: pop .3s ease both; }
+  .bot-o .send { width: 100%; }
+  .bot-i { display: flex; gap: 8px; padding: 0 12px 12px; }
+  .bot-i[hidden] { display: none; }
+  .bot-i input { flex: 1; min-width: 0; padding: 11px 14px; border-radius: 999px; border: 1px solid var(--line); background: rgba(0,0,0,.45); color: var(--fg); font: 500 15px/1.2 var(--f-body); }
+  .bot-i input:focus { outline: none; border-color: var(--gold); box-shadow: 0 0 0 3px rgba(245,197,24,.18); }
+  .bot-i button { flex: none; width: 44px; height: 44px; border-radius: 50%; border: 0; background: var(--gold); color: var(--gold-ink); cursor: pointer; display: grid; place-items: center; }
+  .bot-i button svg { width: 20px; height: 20px; }
+
   @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after { animation: none !important; transition: none !important; }
     .rv { opacity: 1; transform: none; }
@@ -492,42 +525,19 @@
         </button>
         <div class="quote" id="quote">
           <div>
-            <form class="qbox" id="qform">
-              <h3>Monte seu orçamento em 10 segundos<small>Escolha as opções e a mensagem já vai pronta para o WhatsApp.</small></h3>
-              <div class="step">
-                <b>1 · Marca</b>
-                <div class="chips" data-group="marca">
-                  <button type="button" class="chip" aria-pressed="false">Xiaomi</button>
-                  <button type="button" class="chip" aria-pressed="false">iPhone</button>
-                  <button type="button" class="chip" aria-pressed="false">Realme</button>
-                  <button type="button" class="chip" aria-pressed="false">Samsung</button>
-                  <button type="button" class="chip" aria-pressed="false">Motorola</button>
-                  <button type="button" class="chip" aria-pressed="false">Outra</button>
-                </div>
+            <div class="bot" id="bot">
+              <div class="bot-h">
+                <img src="img/logo.jpg" alt="">
+                <div><b>Assistente Rafael Imports</b><span><i></i>online · responde na hora</span></div>
+                <button type="button" class="bot-r" id="bot-r" aria-label="Recomeçar conversa" title="Recomeçar">↻</button>
               </div>
-              <div class="step">
-                <b>2 · O que aconteceu</b>
-                <div class="chips" data-group="defeito" data-multi>
-                  <button type="button" class="chip" aria-pressed="false">Tela quebrada</button>
-                  <button type="button" class="chip" aria-pressed="false">Bateria</button>
-                  <button type="button" class="chip" aria-pressed="false">Não carrega</button>
-                  <button type="button" class="chip" aria-pressed="false">Câmera</button>
-                  <button type="button" class="chip" aria-pressed="false">Som / microfone</button>
-                  <button type="button" class="chip" aria-pressed="false">Molhou</button>
-                  <button type="button" class="chip" aria-pressed="false">Software</button>
-                  <button type="button" class="chip" aria-pressed="false">Outro</button>
-                </div>
-              </div>
-              <div class="step">
-                <b>3 · Modelo</b>
-                <input id="q-modelo" type="text" placeholder="Ex.: Redmi Note 13, iPhone 12…" autocomplete="off">
-              </div>
-              <a class="send" id="q-send" href="https://wa.me/5598981950410" target="_blank" rel="noopener">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 20.5l1.3-4.2A8.5 8.5 0 1 1 8 19.4z"/></svg>
-                Pedir orçamento
-              </a>
-              <p class="note">Sem compromisso. A resposta vem no WhatsApp.</p>
-            </form>
+              <div class="bot-m" id="bot-m" aria-live="polite"></div>
+              <div class="bot-o" id="bot-o"></div>
+              <form class="bot-i" id="bot-i" hidden>
+                <input id="bot-t" type="text" autocomplete="off" maxlength="80" aria-label="Sua resposta">
+                <button type="submit" aria-label="Enviar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12l16-8-6 16-2.5-6.5z"/></svg></button>
+              </form>
+            </div>
           </div>
         </div>
       </li>
@@ -654,7 +664,7 @@
   </div>
 </div>
 
-<script src="produtos.js?v=20261014c"></script>
+<script src="produtos.js?v=20261014d"></script>
 <script>
   /* ⚙️ Número do WhatsApp da loja: só dígitos, com 55 + DDD (ex.: "5598988887777").
      Enquanto estiver vazio, os botões abrem o Direct do Instagram. */
@@ -702,7 +712,6 @@
         if (multi) c.setAttribute("aria-pressed", c.getAttribute("aria-pressed") === "true" ? "false" : "true");
         else g.querySelectorAll(".chip").forEach(function (x) { x.setAttribute("aria-pressed", x === c ? "true" : "false"); });
         if (g.dataset.group === "filtro") filtrar(c.dataset.f);
-        else montar();
       });
     });
 
@@ -712,27 +721,126 @@
       var open = qp.classList.toggle("open");
       tg.setAttribute("aria-expanded", open ? "true" : "false");
       tg.querySelector(".go").style.transform = open ? "rotate(180deg)" : "";
+      if (open) bot.open();
     });
-    var modelo = document.getElementById("q-modelo"), send = document.getElementById("q-send");
-    function sel(group) {
-      return Array.prototype.map.call(document.querySelectorAll('[data-group="' + group + '"] [aria-pressed="true"]'), function (b) { return b.textContent; });
-    }
-    function montar() {
-      var marca = sel("marca")[0], def = sel("defeito"), mod = modelo.value.trim();
-      var msg = "Olá, Rafael Imports! Quero um orçamento da assistência técnica.";
-      // Card ilustrado (prévia do WhatsApp) da marca + primeiro problema escolhido
-      var MS = { "Xiaomi": "xiaomi", "iPhone": "iphone", "Realme": "realme", "Samsung": "samsung", "Motorola": "motorola" };
-      var PS = { "Tela quebrada": "tela", "Bateria": "bateria", "Não carrega": "carrega", "Câmera": "camera", "Som / microfone": "som", "Molhou": "molhou", "Software": "software" };
-      var card = OS_URL + (MS[marca] || "outra") + "-" + (PS[def[0]] || "outro") + ".html";
-      if (marca && mod.toLowerCase().indexOf(marca.toLowerCase()) === 0) marca = "";
-      if (marca || mod) msg += "\n📱 Aparelho: " + [marca, mod].filter(Boolean).join(" ");
-      if (def.length) msg += "\n🔧 Problema: " + def.join(", ");
-      msg += "\n\n" + card;
-      send.href = link(msg, WA_ASSIST);
-    }
-    modelo.addEventListener("input", montar);
-    document.getElementById("qform").addEventListener("submit", function (e) { e.preventDefault(); send.click(); });
-    montar();
+    // Chatbot da assistência: conversa guiada que monta o pedido e leva ao WhatsApp
+    var bot = (function () {
+      var M = document.getElementById("bot-m"), O = document.getElementById("bot-o"), F = document.getElementById("bot-i"), T = document.getElementById("bot-t");
+      var still2 = still, d = {}, waitText = null, started = false;
+      var MARCAS = ["Xiaomi", "iPhone", "Realme", "Samsung", "Motorola", "Outra"];
+      var PROB = [
+        ["tela", "📱 Tela quebrada", "Como está a tela agora?", ["Trincou, mas funciona", "O toque não funciona", "Tela preta / não acende", "Manchas ou linhas"]],
+        ["bateria", "🔋 Bateria", "O que acontece com a bateria?", ["Descarrega rápido", "Desliga sozinho", "Bateria estufada", "Esquenta muito"]],
+        ["carrega", "🔌 Não carrega", "Me conta um pouco mais:", ["Não carrega nada", "Só carrega com o cabo torto", "Carrega muito devagar", "Já testei outro cabo"]],
+        ["camera", "📷 Câmera", "Qual o problema na câmera?", ["Foto embaçada", "Câmera não abre", "Vidro da câmera quebrou", "Câmera da frente"]],
+        ["som", "🔊 Som / microfone", "O que está acontecendo?", ["Não escuto nas ligações", "Não me escutam", "Alto-falante baixo ou chiando", "Fone não funciona"]],
+        ["molhou", "💧 Molhou", "Quando molhou?", ["Hoje", "Faz alguns dias", "Ainda liga", "Não liga mais"]],
+        ["software", "⚙️ Software", "O que está acontecendo?", ["Travando / lento", "Reiniciando sozinho", "Esqueci senha ou conta", "Erro de atualização"]],
+        ["outro", "🛠️ Outro", null, null]
+      ];
+      var DICAS = {
+        molhou: "⚠️ Dica importante: desligue o aparelho e não coloque pra carregar. Também não use secador nem arroz. Traga pra avaliação o quanto antes.",
+        "Bateria estufada": "⚠️ Bateria estufada é perigosa: pare de usar e não coloque pra carregar até a avaliação.",
+        "Esquenta muito": "⚠️ Se estiver esquentando muito, evite usar enquanto carrega."
+      };
+      function esc(t) { return String(t).replace(/[&<>"]/g, function (m) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[m]; }); }
+      function down() { M.scrollTop = M.scrollHeight; }
+      function add(cls, html) {
+        var el = document.createElement("div"); el.className = "msg " + cls; el.innerHTML = html; M.appendChild(el); down();
+        var im = el.querySelector("img"); if (im) im.addEventListener("load", down);
+        return el;
+      }
+      // Fala do bot com "digitando…"
+      function say(lines, then) {
+        lines = [].concat(lines); O.innerHTML = ""; F.hidden = true;
+        (function next(i) {
+          if (i >= lines.length) { if (then) then(); return; }
+          var ty = document.createElement("div"); ty.className = "typing"; ty.innerHTML = "<i></i><i></i><i></i>"; M.appendChild(ty); down();
+          setTimeout(function () { ty.remove(); var l = lines[i]; add(l.cls || "b", l.html || esc(l)); next(i + 1); }, still2 ? 0 : 450 + Math.min(String(lines[i].html || lines[i]).length * 9, 700));
+        })(0);
+      }
+      function me(t) { add("u", esc(t)); }
+      function chips(list, cb) {
+        O.innerHTML = "";
+        list.forEach(function (it) {
+          var lab = typeof it === "string" ? it : it[1], b = document.createElement("button");
+          b.type = "button"; b.className = "chip"; b.textContent = lab;
+          b.onclick = function () { me(lab); cb(it); };
+          O.appendChild(b);
+        });
+      }
+      function ask(ph, cb, skip) {
+        F.hidden = false; T.value = ""; T.placeholder = ph; waitText = cb;
+        if (skip) chips([skip], function () { F.hidden = true; cb(""); });
+        setTimeout(function () { T.focus({ preventScroll: true }); }, 50);
+      }
+      F.addEventListener("submit", function (e) {
+        e.preventDefault(); var v = T.value.trim(); if (!v || !waitText) return;
+        var cb = waitText; waitText = null; F.hidden = true; O.innerHTML = ""; me(v); cb(v);
+      });
+
+      function start() {
+        M.innerHTML = ""; d = {}; started = true;
+        say(["Oi! 👋 Sou o assistente da Rafael Imports.", "Vou te ajudar a montar o pedido de orçamento da assistência técnica. Leva menos de 1 minuto.", "Pra começar, qual é o seu nome?"], function () {
+          ask("Digite seu nome", function (v) { d.nome = v; passoMarca(); }, "Prefiro não dizer");
+        });
+      }
+      function passoMarca() {
+        say([(d.nome ? "Prazer, " + d.nome.split(" ")[0] + "! " : "Tudo certo! ") + "Qual a marca do aparelho?"], function () {
+          chips(MARCAS, function (m) { d.marca = m; passoModelo(); });
+        });
+      }
+      function passoModelo() {
+        say(["Qual o modelo? Ex.: Redmi Note 13, iPhone 12, Galaxy A54."], function () {
+          ask("Digite o modelo", function (v) { d.modelo = v; passoProb(); }, "Não sei o modelo");
+        });
+      }
+      function passoProb() {
+        say(["Entendi. O que está acontecendo com ele?"], function () {
+          chips(PROB, function (p) { d.prob = p; if (p[2]) passoDet(); else passoOutro(); });
+        });
+      }
+      function passoDet() {
+        var p = d.prob, ls = [p[2]];
+        say(ls, function () {
+          chips(p[3], function (v) {
+            d.det = v;
+            var dica = DICAS[v] || DICAS[p[0]];
+            if (dica) say([{ cls: "tip", html: esc(dica) }], passoPrazo); else passoPrazo();
+          });
+        });
+      }
+      function passoOutro() {
+        say(["Me conta em poucas palavras o que aconteceu."], function () {
+          ask("Ex.: botão de ligar travado", function (v) { d.det = v; passoPrazo(); });
+        });
+      }
+      function passoPrazo() {
+        say(["Última pergunta: pra quando você precisa do aparelho pronto?"], function () {
+          chips(["O quanto antes", "Essa semana", "Sem pressa"], function (v) { d.prazo = v; fim(); });
+        });
+      }
+      function fim() {
+        var MS = { "Xiaomi": "xiaomi", "iPhone": "iphone", "Realme": "realme", "Samsung": "samsung", "Motorola": "motorola" };
+        var slug = (MS[d.marca] || "outra") + "-" + d.prob[0];
+        var marca = d.marca === "Outra" ? "" : d.marca, mod = d.modelo || "";
+        if (marca && mod.toLowerCase().indexOf(marca.toLowerCase()) === 0) marca = "";
+        var aparelho = [marca, mod].filter(Boolean).join(" ") || "Celular";
+        var probTxt = d.prob[1].replace(/^\S+\s/, "") + (d.det ? " — " + d.det : "");
+        var msg = "Olá, Rafael Imports! " + (d.nome ? "Sou " + d.nome + " e quero" : "Quero") + " um orçamento da assistência técnica.\n📱 Aparelho: " + aparelho + "\n🔧 Problema: " + probTxt + "\n⏱️ Prazo: " + d.prazo + "\n\n" + OS_URL + slug + ".html";
+        say(["Perfeito! Seu pedido ficou assim:",
+             { cls: "b card", html: "<b>📱 " + esc(aparelho) + "</b>\n🔧 " + esc(probTxt) + "\n⏱️ " + esc(d.prazo) + '<img src="os/img/' + slug + '.jpg" alt="Card ilustrativo do problema">' },
+             "Toque no botão abaixo pra enviar no WhatsApp da assistência. O técnico responde com o orçamento. 🔧"], function () {
+          O.innerHTML = "";
+          var a = document.createElement("a");
+          a.className = "send"; a.target = "_blank"; a.rel = "noopener"; a.href = link(msg, WA_ASSIST);
+          a.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 20.5l1.3-4.2A8.5 8.5 0 1 1 8 19.4z"/></svg>Enviar pedido no WhatsApp';
+          O.appendChild(a);
+        });
+      }
+      document.getElementById("bot-r").addEventListener("click", start);
+      return { open: function () { if (!started) start(); } };
+    })();
 
 
     // Lançamentos: vitrine + ficha completa
