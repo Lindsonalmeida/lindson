@@ -52,8 +52,8 @@
   .phase p b { color: var(--fg); }
 
   /* Abas */
-  .tabs { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; padding: 6px; border-radius: 16px; background: rgba(14,20,38,.92); border: 1px solid var(--line); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
-  .tabs button { border: 0; background: transparent; padding: 11px 4px; border-radius: 11px; font: 700 13.5px/1 var(--f-body); color: var(--muted); cursor: pointer; }
+  .tabs { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; display: grid; grid-template-columns: repeat(5, 1fr); gap: 4px; padding: 5px; border-radius: 16px; background: rgba(14,20,38,.92); border: 1px solid var(--line); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
+  .tabs button { border: 0; background: transparent; padding: 11px 2px; border-radius: 11px; font: 700 12.5px/1 var(--f-body); color: var(--muted); cursor: pointer; }
   .tabs button[aria-selected="true"] { background: var(--fg); color: var(--ink); }
   .tabs button span { display: inline-block; min-width: 18px; margin-left: 4px; padding: 2px 5px; border-radius: 99px; background: var(--sun); color: var(--sun-ink); font: 700 10px/1.2 var(--f-mono); }
 
@@ -169,6 +169,47 @@
   .en .del { border: 1px solid var(--line-2); background: transparent; border-radius: 10px; padding: 8px 9px; cursor: pointer; color: var(--muted); font: 700 12px/1 var(--f-body); }
   .en .del.confirm { background: var(--rec); border-color: var(--rec); color: #fff; }
   .empty { padding: 18px; border-radius: 16px; border: 1px dashed var(--line-2); text-align: center; color: var(--muted); font-size: 13.5px; }
+  /* Funil */
+  .fu[hidden] { display: none; }
+  .fu { display: flex; flex-direction: column; gap: 12px; }
+  .fu-stages { display: grid; grid-template-columns: repeat(5, 1fr); gap: 5px; }
+  .fu-st { position: relative; border: 1px solid var(--line); background: var(--ink-2); border-radius: 14px; padding: 10px 2px 9px; text-align: center; cursor: pointer; color: var(--fg); min-width: 0; }
+  .fu-st b { display: block; font: 800 24px/1 var(--f-display); font-variant-numeric: tabular-nums; }
+  .fu-st span { display: block; margin-top: 5px; font: 700 9.5px/1.1 var(--f-mono); letter-spacing: .04em; text-transform: uppercase; color: var(--muted); overflow: hidden; text-overflow: ellipsis; }
+  .fu-st small { display: block; margin-top: 4px; font: 500 9.5px/1 var(--f-mono); color: var(--signal-soft); }
+  .fu-st[aria-pressed="true"] { border-color: var(--signal); background: rgba(76,141,255,.16); }
+  .fu-st.s4 b { color: var(--ok); }
+  .fu-diag { margin: 0; padding: 12px 14px; border-radius: 14px; background: rgba(76,141,255,.08); border: 1px solid var(--line-2); font-size: 13px; color: var(--lead); }
+  .fu-diag b { color: var(--fg); }
+  .fu-diag .rates { display: block; margin-top: 6px; font: 500 11px/1.5 var(--f-mono); color: var(--signal-soft); }
+  .fu-new { border: 0; border-radius: 14px; padding: 14px; background: var(--sun); color: var(--sun-ink); font: 800 16px/1 var(--f-display); cursor: pointer; }
+  .fu-list { display: flex; flex-direction: column; gap: 8px; }
+  .fu-card { padding: 14px; border-radius: 16px; background: var(--ink-2); border: 1px solid var(--line); display: grid; gap: 10px; }
+  .fu-card.due { border-color: rgba(255,181,71,.55); }
+  .fu-card.late { border-color: rgba(255,59,48,.55); }
+  .fu-card.won { border-color: rgba(47,208,122,.45); background: rgba(47,208,122,.06); }
+  .fu-card.lost { opacity: .7; }
+  .fu-head { display: flex; justify-content: space-between; gap: 10px; align-items: flex-start; }
+  .fu-head > div { min-width: 0; }
+  .fu-head b { display: block; font: 800 17px/1.2 var(--f-display); overflow-wrap: anywhere; }
+  .fu-head span { display: block; margin-top: 2px; font-size: 12.5px; color: var(--muted); overflow-wrap: anywhere; }
+  .fu-pill { flex: none; padding: 5px 9px; border-radius: 99px; font: 700 10px/1 var(--f-mono); letter-spacing: .08em; text-transform: uppercase; background: var(--ink-3); color: var(--signal-soft); border: 1px solid var(--line-2); }
+  .fu-pill.p4 { background: rgba(47,208,122,.15); color: var(--ok); border-color: rgba(47,208,122,.4); }
+  .fu-pill.px { color: var(--muted); }
+  .fu-next { font-size: 13px; color: var(--lead); padding: 9px 11px; border-radius: 11px; background: var(--ink-3); }
+  .fu-next b { color: var(--fg); }
+  .fu-card.due .fu-next em, .fu-card.late .fu-next em { font-style: normal; font-weight: 800; }
+  .fu-card.due .fu-next em { color: var(--sun); } .fu-card.late .fu-next em { color: #FF8A80; }
+  .fu-next em { font-style: normal; }
+  .fu-acts { display: flex; flex-wrap: wrap; gap: 6px; }
+  .fu-acts button, .fu-acts a { flex: 1 1 auto; border: 1px solid var(--line-2); background: transparent; border-radius: 11px; padding: 10px 10px; color: var(--fg); font: 700 13px/1 var(--f-body); cursor: pointer; text-align: center; text-decoration: none; }
+  .fu-acts .adv { background: var(--signal); border-color: var(--signal); color: #04122E; }
+  .fu-acts .pay { background: var(--ok); border-color: var(--ok); color: #03200F; }
+  .fu-acts .warn { color: #FF8A80; border-color: rgba(255,138,128,.4); }
+  .fu-acts .del.confirm { background: var(--rec); border-color: var(--rec); color: #fff; }
+  .fu-edit { display: grid; gap: 8px; padding-top: 10px; border-top: 1px dashed var(--line-2); }
+  .fu-more { border: 0; background: none; color: var(--signal-soft); text-decoration: underline; font: 600 13px/1 var(--f-body); cursor: pointer; padding: 6px; justify-self: center; }
+
   /* Esteira */
   .sim { padding: 16px; border-radius: 18px; background: linear-gradient(160deg, rgba(76,141,255,.16), rgba(155,123,255,.08) 70%, var(--ink-2)); border: 1px solid var(--line-2); display: grid; gap: 8px; }
   .sim small { font: 700 11px/1 var(--f-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--signal-soft); }
@@ -232,8 +273,9 @@
 
   <nav class="tabs" role="tablist" aria-label="Seções">
     <button role="tab" id="tab-hoje" aria-selected="true" aria-controls="p-hoje">Hoje</button>
-    <button role="tab" id="tab-jornada" aria-selected="false" aria-controls="p-jornada">Jornada</button>
+    <button role="tab" id="tab-funil" aria-selected="false" aria-controls="p-funil">Funil</button>
     <button role="tab" id="tab-caixa" aria-selected="false" aria-controls="p-caixa">Caixa</button>
+    <button role="tab" id="tab-jornada" aria-selected="false" aria-controls="p-jornada">Jornada</button>
     <button role="tab" id="tab-aprender" aria-selected="false" aria-controls="p-aprender">Aprender</button>
   </nav>
 
@@ -266,6 +308,38 @@
     <div class="section-h"><h2>Rumo aos R$ 10 mil para você</h2><small id="j2c">0/0</small></div>
     <div class="list" id="once-money"></div>
     <p class="hint">As missões com <b style="color:var(--sun)">★</b> são os chefões: valem muitos pontos e marcam virada de fase.</p>
+  </section>
+
+  <!-- FUNIL -->
+  <section id="p-funil" role="tabpanel" aria-labelledby="tab-funil" hidden class="fu">
+    <div class="fu-stages" id="fu-stages" role="group" aria-label="Filtrar por etapa"></div>
+    <p class="fu-diag" id="fu-diag"></p>
+    <button type="button" class="fu-new" id="fu-new">+ Novo contato</button>
+    <form class="form" id="fu-form" hidden novalidate>
+      <h3>Novo contato</h3>
+      <label for="fu-n">Nome<input id="fu-n" autocomplete="off" maxlength="50" placeholder="Ex.: Dra. Ana"></label>
+      <div class="row2">
+        <label for="fu-b">Negócio<input id="fu-b" autocomplete="off" maxlength="50" placeholder="Ex.: Clínica"></label>
+        <label for="fu-w">WhatsApp<input id="fu-w" inputmode="tel" autocomplete="off" maxlength="20" placeholder="98 9..."></label>
+      </div>
+      <div class="row2">
+        <label for="fu-st">Etapa<select id="fu-st"></select></label>
+        <label for="fu-p">Plano de interesse<select id="fu-p"></select></label>
+      </div>
+      <div class="row2">
+        <label for="fu-x">Próximo passo<input id="fu-x" autocomplete="off" maxlength="60" value="Fazer follow-up"></label>
+        <label for="fu-d">Quando<input id="fu-d" type="date"></label>
+      </div>
+      <p class="err" id="fu-err" hidden></p>
+      <button type="submit" class="add">Salvar contato (+2)</button>
+      <button type="button" class="fu-more" id="fu-cancel">Cancelar</button>
+    </form>
+    <div class="section-h"><h2>Para hoje</h2><small id="fu-today-c">0</small></div>
+    <div class="fu-list" id="fu-today"></div>
+    <div class="section-h"><h2 id="fu-all-h">Todos os contatos</h2><small id="fu-all-c">0</small></div>
+    <div class="fu-list" id="fu-list"></div>
+    <button type="button" class="fu-more" id="fu-lost-t" hidden></button>
+    <p class="hint"><b>Pontos:</b> contato novo +2 · respondeu +5 · reunião +15 · proposta +20 · fechou +50. Quando fechar, o app lança o valor no Caixa.</p>
   </section>
 
   <!-- CAIXA -->
@@ -371,7 +445,7 @@
     { id: "manha", t: "Bloquear as 3 primeiras horas para vender", d: "Antes de produzir qualquer coisa.", x: 20 },
     { id: "follow", t: "Fazer follow-up de quem respondeu", d: "Ninguém fica sem retorno.", x: 20 },
     { id: "post", t: "Publicar 1 conteúdo", d: "Reel, carrossel ou Stories.", x: 20 },
-    { id: "funil", t: "Atualizar a planilha do funil", d: "Abordou → respondeu → reunião → proposta → fechou.", x: 10 },
+    { id: "funil", t: "Atualizar o funil", d: "Marca sozinho quando você mexe na aba Funil.", x: 10 },
     { id: "oferta", t: "Falar da oferta para alguém novo", d: "Instagram que Vende ou o mini site.", x: 20 },
     { id: "fim", t: "Encerrar o dia no horário", d: "Descanso também é estratégia.", x: 10 }
   ];
@@ -451,7 +525,7 @@
     var y0 = new Date(Date.UTC(t.getUTCFullYear(), 0, 1));
     return t.getUTCFullYear() + "-W" + String(Math.ceil(((t - y0) / 864e5 + 1) / 7)).padStart(2, "0");
   }
-  function blank() { return { v: 1, start: today(), days: {}, weeks: {}, once: {}, learned: {}, card: 0, money: [], fph: "sobre", mix: {} }; }
+  function blank() { return { v: 1, start: today(), days: {}, weeks: {}, once: {}, learned: {}, card: 0, money: [], fph: "sobre", mix: {}, leads: [] }; }
   var S = blank();
   var LOCAL = "recomeco90-v1";
   function loadLocal() { try { var r = localStorage.getItem(LOCAL); if (r) return JSON.parse(r); } catch (e) {} return null; }
@@ -464,6 +538,7 @@
     if (typeof o.card === "number") b.card = Math.max(0, Math.min(CARDS.length - 1, o.card));
     if (Array.isArray(o.money)) b.money = o.money.filter(function (e) { return e && typeof e.c === "number" && typeof e.d === "string"; });
     if (PH[o.fph]) b.fph = o.fph;
+    if (Array.isArray(o.leads)) b.leads = o.leads.filter(function (l) { return l && typeof l.id === "string" && typeof l.n === "string" && typeof l.st === "number"; }).map(function (l) { if (!l.h || typeof l.h !== "object") l.h = {}; if (typeof l.mx !== "number") l.mx = l.st; return l; });
     if (o.mix && typeof o.mix === "object") PLANS.forEach(function (p) { var n = parseInt(o.mix[p.id], 10); if (n > 0) b.mix[p.id] = Math.min(30, n); });
     return b;
   }
@@ -481,6 +556,7 @@
     BASE.concat(MONEY).forEach(function (m) { if (S.once[m.id]) x += m.x; });
     x += Object.keys(S.learned).filter(function (k) { return S.learned[k]; }).length * 10;
     x += (S.money || []).length * 5;
+    (S.leads || []).forEach(function (l) { for (var k = 0; k <= Math.min(4, l.mx); k++) x += STG_X[k]; });
     return Math.round(x);
   }
   function dayCounts(d) { if (!d) return false; var n = DAILY.filter(function (m) { return d.m && d.m[m.id]; }).length; return (d.p || 0) >= 100 || n >= 4; }
@@ -672,8 +748,143 @@
     });
   }
 
+  // ── Funil ──
+  var STG = ["Abordou", "Respondeu", "Reunião", "Proposta", "Fechou"];
+  var STG_X = [2, 5, 15, 20, 50];
+  var STG_NEXT = ["Fazer follow-up", "Marcar reunião", "Enviar proposta", "Cobrar resposta", ""];
+  var BENCH = [[1, 20, "Poucas respostas: a mensagem de abordagem está fraca. Personalize e fale do problema dele, não de você."], [2, 25, "Respondem, mas não viram reunião: proponha dia e hora direto, em vez de perguntar se ele tem interesse."], [3, 60, "Reuniões sem proposta: saia de toda reunião com a proposta enviada no mesmo dia."], [4, 30, "Propostas sem fechamento: faça follow-up em 2 dias e use a validade de 7 dias da proposta."]];
+  var fuFilter = null, fuOpen = null, fuArmed = null, fuShowLost = false, fuPay = null;
+  function addDays(iso, n) { var d = new Date(iso + "T12:00:00"); d.setDate(d.getDate() + n); return d.toLocaleDateString("en-CA"); }
+  function dm(iso) { var p = iso.split("-"); return p[2] + "/" + p[1]; }
+  function planOf(id) { for (var i = 0; i < PLANS.length; i++) if (PLANS[i].id === id) return PLANS[i]; return null; }
+  function touchFunil(e) {
+    var d = day();
+    if (!d.m.funil) { d.m.funil = true; renderLists(); afterChange(e, 10); return true; }
+    return false;
+  }
+  function fuSave(e, gained) { renderFunil(); if (!touchFunil(e)) afterChange(e, gained); else if (gained) { pop(e, "+" + gained); persist(); } }
+  function leadCard(l) {
+    var t = today(), c = document.createElement("div");
+    var due = !l.lost && l.st < 4 && l.nd && l.nd <= t;
+    c.className = "fu-card" + (l.lost ? " lost" : l.st === 4 ? " won" : due ? (l.nd < t ? " late" : " due") : "");
+    var p = planOf(l.p);
+    c.innerHTML = '<div class="fu-head"><div><b></b><span></span></div><span class="fu-pill"></span></div><div class="fu-next"></div><div class="fu-acts"></div>';
+    c.querySelector(".fu-head b").textContent = l.n;
+    c.querySelector(".fu-head span").textContent = [l.b, p ? p.n + " · " + brl(p.c) : ""].filter(Boolean).join(" · ") || "Sem negócio informado";
+    var pill = c.querySelector(".fu-pill"); pill.textContent = l.lost ? "Perdido" : STG[l.st]; pill.className = "fu-pill" + (l.lost ? " px" : l.st === 4 ? " p4" : "");
+    var nx = c.querySelector(".fu-next");
+    if (l.st === 4) nx.innerHTML = "<b>Cliente fechado</b>" + (l.h[4] ? " em " + dm(l.h[4]) : "") + (l.paid ? " · lançado no Caixa ✓" : "");
+    else if (l.lost) nx.textContent = "Marcado como perdido. Dá para reativar em Editar.";
+    else {
+      nx.innerHTML = "<b></b> <em></em>"; nx.querySelector("b").textContent = l.nx || "Sem próximo passo";
+      nx.querySelector("em").textContent = l.nd ? (l.nd < t ? "· atrasado desde " + dm(l.nd) : l.nd === t ? "· hoje" : "· " + dm(l.nd)) : "";
+      if (l.lc) nx.appendChild(document.createTextNode(" · último contato " + dm(l.lc)));
+    }
+    var acts = c.querySelector(".fu-acts");
+    function btn(cls, txt, fn) { var b = document.createElement("button"); b.type = "button"; if (cls) b.className = cls; b.textContent = txt; b.addEventListener("click", fn); acts.appendChild(b); return b; }
+    if (fuPay === l.id) {
+      btn("pay", "Lançar " + (p ? brl(p.c) : "valor") + " no Caixa", function (e) {
+        fuPay = null;
+        if (p) {
+          l.paid = true;
+          S.money.push({ id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6), c: p.c, s: l.n, t: p.id, d: t });
+          finMonth = t.slice(0, 7); renderFin();
+          toast("💰", brl(p.c) + " no Caixa!", l.n + " fechou o " + p.n + ".");
+          fuSave(e, 5);
+        } else { renderFunil(); showTab("caixa"); prefill({ id: "outro", n: "contrato", c: 0 }); $("f-valor").value = ""; $("f-desc").value = l.n; }
+      });
+      btn("", "Agora não", function () { fuPay = null; renderFunil(); });
+      return c;
+    }
+    if (!l.lost && l.st < 4) btn("adv", "→ " + STG[l.st + 1], function (e) {
+      var before = l.mx; l.st++; l.h[l.st] = t; l.lc = t; l.mx = Math.max(l.mx, l.st);
+      l.nx = STG_NEXT[l.st]; l.nd = l.st < 4 ? addDays(t, l.st === 3 ? 2 : 1) : "";
+      var g = l.mx > before ? STG_X[l.st] : 0;
+      if (l.st === 4) { fuPay = l.paid ? null : l.id; toast("🏆", "Fechou com " + l.n + "!", "+50 pontos. Agora lance no Caixa."); }
+      fuSave(e, g);
+    });
+    if (!l.lost && l.st < 4) btn("", "✓ Falei hoje", function (e) {
+      l.lc = t; if (!l.nd || l.nd <= t) l.nd = addDays(t, 2);
+      toast("📅", "Contato registrado", "Próximo passo em " + dm(l.nd) + ".");
+      fuSave(e, 0);
+    });
+    if (l.w) { var a = document.createElement("a"); a.href = "https://wa.me/55" + l.w.replace(/\D/g, "").replace(/^55(?=\d{10,11}$)/, ""); a.target = "_blank"; a.rel = "noopener"; a.textContent = "WhatsApp"; acts.appendChild(a); }
+    btn("", fuOpen === l.id ? "Fechar" : "Editar", function () { fuOpen = fuOpen === l.id ? null : l.id; fuArmed = null; renderFunil(); });
+    if (fuOpen === l.id) c.appendChild(leadEdit(l));
+    return c;
+  }
+  function opt(sel, items, val) { sel.innerHTML = ""; items.forEach(function (it) { var o = document.createElement("option"); o.value = it[0]; o.textContent = it[1]; if (String(it[0]) === String(val)) o.selected = true; sel.appendChild(o); }); }
+  function planOpts() { return [["", "Ainda não sei"]].concat(PLANS.map(function (p) { return [p.id, p.n + " · " + brl(p.c)]; })); }
+  function stgOpts() { return STG.map(function (n, i) { return [i, n]; }); }
+  function leadEdit(l) {
+    var w = document.createElement("div"); w.className = "fu-edit form"; w.style.padding = "10px 0 0"; w.style.background = "none"; w.style.border = "0";
+    w.innerHTML = '<div class="row2"><label>Próximo passo<input data-k="nx" maxlength="60"></label><label>Quando<input data-k="nd" type="date"></label></div>' +
+      '<div class="row2"><label>Etapa<select data-k="st"></select></label><label>Plano<select data-k="p"></select></label></div>' +
+      '<div class="row2"><label>Negócio<input data-k="b" maxlength="50"></label><label>WhatsApp<input data-k="w" inputmode="tel" maxlength="20"></label></div>' +
+      '<div class="fu-acts"><button type="button" class="adv" data-a="save">Salvar</button><button type="button" data-a="lost"></button><button type="button" class="del warn" data-a="del">Apagar</button></div>';
+    var q = function (k) { return w.querySelector('[data-k="' + k + '"]'); };
+    q("nx").value = l.nx || ""; q("nd").value = l.nd || ""; q("b").value = l.b || ""; q("w").value = l.w || "";
+    opt(q("st"), stgOpts(), l.st); opt(q("p"), planOpts(), l.p || "");
+    w.querySelector('[data-a="lost"]').textContent = l.lost ? "Reativar" : "Perdido";
+    var del = w.querySelector('[data-a="del"]');
+    if (fuArmed === l.id) { del.classList.add("confirm"); del.textContent = "Confirmar"; }
+    w.querySelector('[data-a="save"]').addEventListener("click", function (e) {
+      var st = parseInt(q("st").value, 10), t = today(), before = l.mx;
+      if (st !== l.st) { l.st = st; l.h[st] = l.h[st] || t; l.mx = Math.max(l.mx, st); if (st === 4 && !l.paid) fuPay = l.id; }
+      l.nx = q("nx").value.trim().slice(0, 60); l.nd = q("nd").value; l.b = q("b").value.trim().slice(0, 50); l.w = q("w").value.trim().slice(0, 20); l.p = q("p").value;
+      var g = 0; for (var k = before + 1; k <= l.mx; k++) g += STG_X[k];
+      fuOpen = null; fuSave(e, g);
+    });
+    w.querySelector('[data-a="lost"]').addEventListener("click", function (e) { l.lost = !l.lost; fuOpen = null; fuSave(e, 0); });
+    del.addEventListener("click", function (e) {
+      if (fuArmed !== l.id) { fuArmed = l.id; renderFunil(); setTimeout(function () { if (fuArmed === l.id) { fuArmed = null; renderFunil(); } }, 4000); return; }
+      fuArmed = null; fuOpen = null; S.leads = S.leads.filter(function (x) { return x.id !== l.id; }); renderFunil(); afterChange(e, 0);
+    });
+    return w;
+  }
+  function renderFunil() {
+    var t = today(), wk = weekId(new Date()), all = S.leads, act = all.filter(function (l) { return !l.lost; });
+    var box = $("fu-stages"); box.innerHTML = "";
+    STG.forEach(function (n, i) {
+      var b = document.createElement("button"); b.type = "button"; b.className = "fu-st s" + i;
+      b.setAttribute("aria-pressed", fuFilter === i ? "true" : "false");
+      var cnt = act.filter(function (l) { return l.st === i; }).length;
+      var wkc = all.filter(function (l) { return l.h[i] && weekId(new Date(l.h[i] + "T12:00:00")) === wk; }).length;
+      b.innerHTML = "<b></b><span></span><small></small>"; b.querySelector("b").textContent = cnt; b.querySelector("span").textContent = n; b.querySelector("small").textContent = "+" + wkc + " sem.";
+      b.setAttribute("aria-label", n + ": " + cnt + " contatos, " + wkc + " esta semana");
+      b.addEventListener("click", function () { fuFilter = fuFilter === i ? null : i; renderFunil(); });
+      box.appendChild(b);
+    });
+    var reached = [0, 1, 2, 3, 4].map(function (k) { return all.filter(function (l) { return l.mx >= k; }).length; });
+    var rate = function (k) { return reached[k - 1] ? Math.round(reached[k] / reached[k - 1] * 100) : 0; };
+    var diag = $("fu-diag");
+    if (!all.length) diag.innerHTML = "<b>Seu funil está vazio.</b> Cada pessoa que você abordar entra aqui. Toque em “+ Novo contato” para começar.";
+    else {
+      var tip;
+      if (reached[0] < 20) tip = "<b>Ainda é pouco contato para tirar conclusão.</b> Continue abordando: a meta é a Regra dos 100.";
+      else { tip = "<b>Funil saudável.</b> Agora é volume: mais abordagens, mais contratos."; for (var k = 0; k < BENCH.length; k++) { var bk = BENCH[k]; if (reached[bk[0] - 1] >= 5 && rate(bk[0]) < bk[1]) { tip = "<b>Ponto fraco:</b> " + bk[2]; break; } } }
+      diag.innerHTML = tip + '<span class="rates"></span>';
+      diag.querySelector(".rates").textContent = "Resposta " + rate(1) + "% · Reunião " + rate(2) + "% · Proposta " + rate(3) + "% · Fechamento " + rate(4) + "%";
+    }
+    var sortFn = function (a, b) { var x = a.nd || "9999", y = b.nd || "9999"; return x < y ? -1 : x > y ? 1 : 0; };
+    var todays = act.filter(function (l) { return l.st < 4 && l.nd && l.nd <= t; }).sort(sortFn);
+    var tl = $("fu-today"); tl.innerHTML = "";
+    $("fu-today-c").textContent = todays.length + (todays.length === 1 ? " contato" : " contatos");
+    if (!todays.length) { var em = document.createElement("div"); em.className = "empty"; em.textContent = all.length ? "Nenhum follow-up para hoje. Hora de abordar gente nova." : "Os follow-ups do dia aparecem aqui."; tl.appendChild(em); }
+    todays.forEach(function (l) { tl.appendChild(leadCard(l)); });
+    var list = act.filter(function (l) { return fuFilter === null ? !(l.st < 4 && l.nd && l.nd <= t) : l.st === fuFilter; }).sort(function (a, b) { return (a.st === 4) - (b.st === 4) || sortFn(a, b); });
+    $("fu-all-h").textContent = fuFilter === null ? "Demais contatos" : "Em " + STG[fuFilter];
+    $("fu-all-c").textContent = list.length;
+    var ll = $("fu-list"); ll.innerHTML = "";
+    if (!list.length) { var e2 = document.createElement("div"); e2.className = "empty"; e2.textContent = fuFilter === null ? "Nada por aqui." : "Ninguém nesta etapa agora."; ll.appendChild(e2); }
+    list.forEach(function (l) { ll.appendChild(leadCard(l)); });
+    var lost = all.filter(function (l) { return l.lost; });
+    var lt = $("fu-lost-t"); lt.hidden = !lost.length; lt.textContent = (fuShowLost ? "Esconder" : "Ver") + " perdidos (" + lost.length + ")";
+    if (fuShowLost) lost.forEach(function (l) { ll.appendChild(leadCard(l)); });
+  }
+
   var lastLevel = 0;
-  function renderAll() { renderLists(); var li = renderScore(); renderCard(); renderFin(); renderPlans(); return li; }
+  function renderAll() { renderLists(); var li = renderScore(); renderCard(); renderFin(); renderPlans(); renderFunil(); return li; }
 
   function pop(e, text) {
     var p = document.createElement("div"); p.className = "pop"; p.textContent = text;
@@ -731,7 +942,28 @@
     afterChange(r ? { clientX: r.left + r.width / 2, clientY: r.top } : null, 5);
     toast("💰", brl(c) + " lançado!", "Já está dividido nos baldes.");
   });
-  var TABS = ["hoje", "jornada", "caixa", "aprender"];
+  opt($("fu-st"), stgOpts(), 0); opt($("fu-p"), planOpts(), "");
+  function fuReset() { $("fu-n").value = ""; $("fu-b").value = ""; $("fu-w").value = ""; $("fu-st").value = "0"; $("fu-p").value = ""; $("fu-x").value = STG_NEXT[0]; $("fu-d").value = addDays(today(), 2); $("fu-err").hidden = true; }
+  $("fu-new").addEventListener("click", function () { fuReset(); $("fu-form").hidden = false; $("fu-new").hidden = true; $("fu-n").focus(); });
+  $("fu-cancel").addEventListener("click", function () { $("fu-form").hidden = true; $("fu-new").hidden = false; });
+  $("fu-st").addEventListener("change", function () { var i = parseInt($("fu-st").value, 10); $("fu-x").value = STG_NEXT[i]; $("fu-d").value = i < 4 ? addDays(today(), i === 3 ? 2 : 1) : ""; });
+  $("fu-lost-t").addEventListener("click", function () { fuShowLost = !fuShowLost; renderFunil(); });
+  $("fu-form").addEventListener("submit", function (ev) {
+    ev.preventDefault();
+    var n = $("fu-n").value.trim();
+    if (!n) { $("fu-err").textContent = "Escreva pelo menos o nome do contato."; $("fu-err").hidden = false; $("fu-n").focus(); return; }
+    var st = parseInt($("fu-st").value, 10) || 0, t = today(), h = {};
+    for (var k = 0; k <= st; k++) h[k] = t;
+    var l = { id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6), n: n.slice(0, 50), b: $("fu-b").value.trim().slice(0, 50), w: $("fu-w").value.trim().slice(0, 20), p: $("fu-p").value, st: st, mx: st, h: h, lc: t, nx: $("fu-x").value.trim().slice(0, 60), nd: st < 4 ? $("fu-d").value : "" };
+    S.leads.push(l);
+    if (st === 4) fuPay = l.id;
+    $("fu-form").hidden = true; $("fu-new").hidden = false; fuFilter = null;
+    var g = 0; for (var j = 0; j <= st; j++) g += STG_X[j];
+    var r = ev.submitter ? ev.submitter.getBoundingClientRect() : null;
+    fuSave(r ? { clientX: r.left + r.width / 2, clientY: r.top } : null, g);
+    toast("🎯", l.n + " no funil", "Etapa: " + STG[st] + ".");
+  });
+  var TABS = ["hoje", "funil", "caixa", "jornada", "aprender"];
   function showTab(name) {
     TABS.forEach(function (t) {
       $("tab-" + t).setAttribute("aria-selected", t === name ? "true" : "false");
