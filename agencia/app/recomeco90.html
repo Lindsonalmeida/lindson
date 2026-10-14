@@ -237,6 +237,9 @@
   .pq-an { margin: 0; font-size: 13px; color: var(--lead); padding: 9px 11px; border-radius: 11px; background: rgba(255,181,71,.08); border: 1px solid rgba(255,181,71,.25); }
   .pq-an b { color: var(--sun); font: 700 10.5px/1 var(--f-mono); letter-spacing: .1em; text-transform: uppercase; display: block; margin-bottom: 4px; }
   .pq-msg { margin: 0; font-size: 13px; color: var(--fg); padding: 9px 11px; border-radius: 11px; background: var(--ink-3); white-space: pre-wrap; overflow-wrap: anywhere; }
+  .pq-sim { font-size: 13px; color: var(--lead); }
+  .pq-sim summary { cursor: pointer; font: 700 12.5px/1.4 var(--f-body); color: var(--signal-soft); padding: 4px 0; }
+  .pq-sim .pq-msg { margin-top: 6px; }
   .pq-ct { display: flex; flex-wrap: wrap; gap: 6px 12px; font: 500 12px/1.4 var(--f-mono); color: var(--signal-soft); }
   .pq-ct a { color: var(--signal-soft); }
   .pq-ct span { overflow-wrap: anywhere; user-select: all; }
@@ -876,6 +879,12 @@
       toast("📅", "Contato registrado", "Próximo passo em " + dm(l.nd) + ".");
       fuSave(e, 0);
     });
+    if (!l.lost && l.st === 0) {
+      var since = l.h && l.h[0] ? Math.round((new Date(t + "T12:00:00") - new Date(l.h[0] + "T12:00:00")) / 864e5) : 0;
+      var fuTxt = (since >= 4 ? FU5 : FU2).replace("{n}", l.n);
+      btn("", since >= 4 ? "Copiar follow-up (dia 5)" : "Copiar follow-up (dia 2)", function (e) { copyText(fuTxt, e.currentTarget); });
+    }
+    if (!l.lost && l.st === 1 && Array.isArray(l.id2) && l.id2.length) btn("", "Copiar resposta do sim", function (e) { copyText(simText(l.id2), e.currentTarget); });
     if (l.ig) { var ia = document.createElement("a"); ia.href = "https://instagram.com/" + l.ig; ia.target = "_blank"; ia.rel = "noopener"; ia.textContent = "Instagram"; acts.appendChild(ia); }
     if (l.w) { var a = document.createElement("a"); a.href = "https://wa.me/55" + l.w.replace(/\D/g, "").replace(/^55(?=\d{10,11}$)/, ""); a.target = "_blank"; a.rel = "noopener"; a.textContent = "WhatsApp"; acts.appendChild(a); }
     btn("", fuOpen === l.id ? "Fechar" : "Editar", function () { fuOpen = fuOpen === l.id ? null : l.id; fuArmed = null; renderFunil(); });
@@ -969,6 +978,9 @@
     try { navigator.clipboard.writeText(t).then(ok, function () { ok(); }); } catch (e) { ok(); }
   }
   function waLink(n, msg) { var d = String(n || "").replace(/\D/g, ""); if (d.length >= 12 && d.indexOf("55") === 0) d = d.slice(2); return d.length >= 10 ? "https://wa.me/55" + d + (msg ? "?text=" + encodeURIComponent(msg) : "") : ""; }
+  var FU2 = "Oi, {n}! Separei as outras 2 ideias pra vocês. Mando por aqui ou prefere que eu deixe pra lá?";
+  var FU5 = "{n}, vou entender que vídeo pro Instagram não é prioridade agora, tudo certo. Se mudar, me chama aqui. Abraço!";
+  function simText(ideias) { return "Que bom! Aqui vão:\n" + ideias.map(function (x, i) { return (i + 1) + ". " + x; }).join("\n") + "\n\nEssas 3 eu gravo num único dia com vocês e coloco anúncio pra quem mora perto. Posso te mostrar em 15 minutos como ficaria? Que dia é melhor, terça ou quinta?"; }
   function pqCard(p) {
     var st = S.pq.s[p.id], c = document.createElement("div");
     c.className = "pq-card" + (st ? " worked" : (p.nota >= 4 ? " hot" : ""));
@@ -988,6 +1000,15 @@
     if (p.site) link(/^https?:/.test(p.site) ? p.site : "https://" + p.site, "site");
     if (ct.children.length) c.appendChild(ct);
     add("p", "pq-msg", p.msg);
+    var ideias = Array.isArray(p.ideias) ? p.ideias.filter(function (x) { return typeof x === "string" && x; }) : [];
+    if (ideias.length) {
+      var dt = document.createElement("details"); dt.className = "pq-sim";
+      var sm = document.createElement("summary"); sm.textContent = "Quando disser sim (" + ideias.length + " ideias prontas)"; dt.appendChild(sm);
+      var pre = document.createElement("p"); pre.className = "pq-msg"; pre.textContent = simText(ideias); dt.appendChild(pre);
+      var cb = document.createElement("button"); cb.type = "button"; cb.className = "fu-more"; cb.textContent = "Copiar resposta";
+      cb.addEventListener("click", function () { copyText(simText(ideias), cb); }); dt.appendChild(cb);
+      c.appendChild(dt);
+    }
     var acts = document.createElement("div"); acts.className = "fu-acts"; c.appendChild(acts);
     function btn(cls, txt, fn) { var b = document.createElement("button"); b.type = "button"; if (cls) b.className = cls; b.textContent = txt; b.addEventListener("click", function (e) { fn(e, b); }); acts.appendChild(b); return b; }
     var wl = waLink(p.wa, p.msg);
@@ -998,7 +1019,7 @@
     } else {
       btn("adv", "Mandei → Funil", function (e) {
         var t = today();
-        S.leads.push({ id: "pq" + Date.now().toString(36) + Math.random().toString(36).slice(2, 5), n: String(p.n || p.ig).slice(0, 50), b: [NICHOS[p.ni] || "", p.bai || ""].filter(Boolean).join(" · ").slice(0, 50), w: String(p.wa || p.tel || "").slice(0, 20), ig: p.ig || "", em: p.em || "", p: p.pl || "", st: 0, mx: 0, h: { 0: t }, lc: t, cd: t, nx: "Fazer follow-up", nd: addDays(t, 2) });
+        S.leads.push({ id: "pq" + Date.now().toString(36) + Math.random().toString(36).slice(2, 5), n: String(p.n || p.ig).slice(0, 50), b: [NICHOS[p.ni] || "", p.bai || ""].filter(Boolean).join(" · ").slice(0, 50), w: String(p.wa || p.tel || "").slice(0, 20), ig: p.ig || "", em: p.em || "", p: p.pl || "", id2: ideias.slice(0, 3), st: 0, mx: 0, h: { 0: t }, lc: t, cd: t, nx: "Fazer follow-up", nd: addDays(t, 2) });
         S.pq.s[p.id] = "f"; renderProspec(); fuSave(e, 2);
       });
       btn("warn", "Descartar", function () { S.pq.s[p.id] = "x"; renderProspec(); persist(); });
