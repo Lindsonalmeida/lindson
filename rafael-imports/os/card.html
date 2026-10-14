@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Card de assistência · Rafael Imports</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@700;800&family=JetBrains+Mono:wght@500;700&family=Manrope:wght@600;700&display=swap">
+<style>
+  /* Card 1200×630 (prévia do WhatsApp) do pedido de orçamento: ?m=<marca>&p=<problema>. Gerado em imagem por script. */
+  :root { --gold: #F5C518; --gold-hi: #FFE27A; --metal: linear-gradient(135deg, #FFE9A0 0%, #E2B33C 28%, #9C7414 52%, #F2CB5B 74%, #B8891A 100%); }
+  html, body { margin: 0; background: #08080A; }
+  .c { position: relative; width: 1200px; height: 630px; overflow: hidden; color: #F6F3EA; font-family: Manrope, sans-serif;
+       background: radial-gradient(circle at 26% 46%, rgba(245,197,24,.26), transparent 45%), #08080A; }
+  .grid { position: absolute; inset: 0; background-image: linear-gradient(rgba(245,197,24,.07) 1px, transparent 1px), linear-gradient(90deg, rgba(245,197,24,.07) 1px, transparent 1px); background-size: 42px 42px; mask-image: radial-gradient(circle at 26% 46%, #000 15%, transparent 60%); }
+  .ill { position: absolute; left: 60px; top: 70px; width: 440px; height: 440px; border-radius: 50%; display: grid; place-items: center;
+         background: radial-gradient(circle, #17150d 0%, #0b0b0d 70%); box-shadow: 0 0 0 4px rgba(245,197,24,.55), 0 0 0 16px rgba(245,197,24,.08), 0 30px 60px rgba(0,0,0,.6); }
+  .ill svg { width: 330px; height: 330px; }
+  .right { position: absolute; left: 560px; right: 60px; top: 60px; }
+  .brand { display: flex; align-items: center; gap: 14px; }
+  .brand img { width: 64px; height: 64px; border-radius: 50%; box-shadow: 0 0 0 3px var(--gold); }
+  .brand b { display: block; font: 800 25px/1 Sora, sans-serif; }
+  .brand span { font: 700 13px/1.4 'JetBrains Mono', monospace; letter-spacing: .16em; color: var(--gold); }
+  .kick { margin: 46px 0 8px; font: 700 18px/1 'JetBrains Mono', monospace; letter-spacing: .16em; text-transform: uppercase; color: #A9A49A; }
+  h1 { margin: 0; font: 800 66px/1.02 Sora, sans-serif; letter-spacing: -.02em; background: var(--metal); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .dev { display: inline-flex; align-items: center; gap: 12px; margin-top: 26px; padding: 14px 22px; border-radius: 14px; border: 2px solid rgba(245,197,24,.45); background: rgba(255,255,255,.04); font: 700 26px/1 Manrope, sans-serif; }
+  .dev small { font: 700 14px/1 'JetBrains Mono', monospace; letter-spacing: .12em; color: var(--gold); text-transform: uppercase; }
+  .stripes { position: absolute; left: 0; right: 0; bottom: 58px; height: 12px; background: repeating-linear-gradient(-45deg, var(--gold) 0 16px, #000 16px 32px); }
+  .foot { position: absolute; left: 0; right: 0; bottom: 0; height: 58px; display: flex; align-items: center; justify-content: space-between; padding: 0 60px; background: #0e0e11; font: 700 17px/1 Manrope, sans-serif; }
+  .foot span:last-child { font: 500 13px/1 'JetBrains Mono', monospace; color: #77736a; letter-spacing: .08em; }
+</style>
+</head>
+<body>
+<div class="c">
+  <div class="grid"></div>
+  <div class="ill" id="ill"></div>
+  <div class="right">
+    <div class="brand"><img src="../img/logo.jpg" alt=""><div><b>RAFAEL IMPORTS</b><span>ASSISTÊNCIA TÉCNICA</span></div></div>
+    <p class="kick">Pedido de orçamento</p>
+    <h1 id="prob"></h1>
+    <div class="dev"><small>Aparelho</small><span id="dev"></span></div>
+    <p style="margin:22px 0 0;font:600 20px/1.4 Manrope,sans-serif;color:#A9A49A">Orçamento sem compromisso, direto no WhatsApp.</p>
+  </div>
+  <div class="stripes"></div>
+  <div class="foot"><span>Galeria New Center · Maranhão Novo · São Luís</span><span>imagem ilustrativa</span></div>
+</div>
+<script src="dados.js"></script>
+<script>
+  var q = new URLSearchParams(location.search), m = RI_OS.marcas[q.get("m")] || RI_OS.marcas.outra, p = RI_OS.problemas[q.get("p")] || RI_OS.problemas.outro;
+  document.getElementById("prob").textContent = p.nome;
+  document.getElementById("dev").textContent = m;
+  document.getElementById("ill").innerHTML = RI_OS.svg(q.get("p") || "outro");
+</script>
+</body>
+</html>

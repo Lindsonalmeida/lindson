@@ -654,7 +654,7 @@
   </div>
 </div>
 
-<script src="produtos.js?v=20261014b"></script>
+<script src="produtos.js?v=20261014c"></script>
 <script>
   /* ⚙️ Número do WhatsApp da loja: só dígitos, com 55 + DDD (ex.: "5598988887777").
      Enquanto estiver vazio, os botões abrem o Direct do Instagram. */
@@ -662,6 +662,8 @@
   var IG_DM = "https://ig.me/m/rafael.imports.slz";
   /* WhatsApp da assistência técnica (botão de orçamento). */
   var WA_ASSIST = "5598981950410";
+  /* Cards ilustrados do pedido de assistência (viram imagem de prévia no WhatsApp). */
+  var OS_URL = "https://lindsonalmeida.github.io/lindson/rafael-imports/os/";
   /* WhatsApp da loja: informações gerais (botão principal e botão flutuante). */
   var WA_LOJA = "5598981194959";
 
@@ -718,9 +720,14 @@
     function montar() {
       var marca = sel("marca")[0], def = sel("defeito"), mod = modelo.value.trim();
       var msg = "Olá, Rafael Imports! Quero um orçamento da assistência técnica.";
+      // Card ilustrado (prévia do WhatsApp) da marca + primeiro problema escolhido
+      var MS = { "Xiaomi": "xiaomi", "iPhone": "iphone", "Realme": "realme", "Samsung": "samsung", "Motorola": "motorola" };
+      var PS = { "Tela quebrada": "tela", "Bateria": "bateria", "Não carrega": "carrega", "Câmera": "camera", "Som / microfone": "som", "Molhou": "molhou", "Software": "software" };
+      var card = OS_URL + (MS[marca] || "outra") + "-" + (PS[def[0]] || "outro") + ".html";
       if (marca && mod.toLowerCase().indexOf(marca.toLowerCase()) === 0) marca = "";
       if (marca || mod) msg += "\n📱 Aparelho: " + [marca, mod].filter(Boolean).join(" ");
       if (def.length) msg += "\n🔧 Problema: " + def.join(", ");
+      msg += "\n\n" + card;
       send.href = link(msg, WA_ASSIST);
     }
     modelo.addEventListener("input", montar);
