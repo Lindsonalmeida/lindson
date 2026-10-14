@@ -48,7 +48,7 @@ Todo dia, 10 leads novos por nicho (100 no total) de negócios da Grande São Lu
 | `an` | análise inicial em 1 ou 2 frases: o ponto fraco ou a oportunidade que dá para vender |
 | `nota` | 1 a 5: quanto este lead tem cara de cliente agora |
 | `pl` | plano sugerido: `video`, `trafego`, `alcance`, `presenca` ou `iqv` |
-| `msg` | primeira mensagem, na fórmula Objetivo, Caminho e Permissão |
+| `msg` | primeira mensagem, abordagem única para aquele negócio |
 | `ideias` | lista com as 2 ideias de vídeo para mandar quando a pessoa disser sim |
 | `ent` | a entrega: `{ "tipo": "campanha" \| "roteiros" \| "google", "titulo": ..., "texto": ... }`, com o texto pronto para WhatsApp, no padrão de `ENTREGA.md` |
 | `rot` | os 3 roteiros, só quando `ent.tipo` for `roteiros` |
@@ -57,18 +57,15 @@ Todo dia, 10 leads novos por nicho (100 no total) de negócios da Grande São Lu
 
 ## Como escrever a mensagem
 
-Fórmula **Objetivo, Caminho e Permissão** (Copy Master: Chris Voss, Alex Hormozi, Robert Cialdini). A primeira mensagem não vende vídeo nem campanha: ela mostra que o Lindson entende **aonde o negócio quer chegar** e já tem um caminho para isso.
+**Cada lead tem uma abordagem própria.** Não existe fórmula fixa: antes de escrever, responda para aquele negócio específico:
+1. Qual é a situação única dele (o que a bio, o bairro, os seguidores e a análise mostram)?
+2. O que o dono provavelmente quer agora (objetivo final na língua dele: agenda cheia, unidades vendidas, matrícula, pedidos)?
+3. O que o impede hoje?
+4. Qual detalhe prova que você olhou de verdade?
 
-1. **Objetivo (1 linha):** algo específico e verdadeiro do perfil + o resultado final que esse negócio busca, dito na língua do dono ("encher a agenda de avaliações", "vender as unidades do lançamento", "transformar a aula experimental em matrícula", "mais pedidos no delivery durante a semana"). Inclua "aqui de São Luís".
-2. **Caminho (1 linha):** o caminho concreto que já foi desenhado, em linguagem simples, com 1 detalhe específico do negócio (ex.: "anúncio pra quem mora no Calhau + 3 vídeos que levam direto pro seu WhatsApp").
-3. **Permissão (1 linha), pergunta do "não":** "Seria um problema eu te mandar o plano?"
+A mensagem (até 350 caracteres, 2 a 4 linhas) mostra que você entende aonde **esse** negócio quer chegar e que tem um caminho concreto, ligado à entrega dele. Varie o ângulo (elogio específico, observação de um detalhe, pergunta sobre um desafio típico, oportunidade de timing, rótulo de empatia "parece que...") e varie a abertura e o fechamento. Princípios de Chris Voss, Robert Cialdini e Alex Hormozi.
 
-Regras: até 320 caracteres; sem "sou o Lindson, faço vídeo e tráfego"; sem preço; sem pedir reunião; sem prometer número de clientes; sem criticar o perfil; no máximo 1 emoji.
-
-Exemplo:
-"Oi, Fabiana! Vi a aula experimental do studio aí no Vinhais, aqui de São Luís.
-Desenhei um caminho pra transformar essa aula em matrícula todo mês: anúncio pra quem mora no bairro + 3 vídeos que levam direto pro seu WhatsApp.
-Seria um problema eu te mandar o plano?"
+Regras: nenhuma abertura ou fechamento repetido entre leads do mesmo dia; "aqui de São Luís" no máximo 1 vez por nicho; sem "sou o Lindson, faço vídeo e tráfego"; sem preço; sem pedir reunião; sem prometer número de clientes; sem criticar o perfil; só fatos do lead; no máximo 1 emoji.
 
 ### A entrega (quando disser sim)
 
