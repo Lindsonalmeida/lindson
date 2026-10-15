@@ -63,9 +63,23 @@ Todo dia, 10 leads novos por nicho (100 no total) de negócios da Grande São Lu
 3. O que o impede hoje?
 4. Qual detalhe prova que você olhou de verdade?
 
-A mensagem (até 350 caracteres, 2 a 4 linhas) mostra que você entende aonde **esse** negócio quer chegar e que tem um caminho concreto, ligado à entrega dele. Varie o ângulo (elogio específico, observação de um detalhe, pergunta sobre um desafio típico, oportunidade de timing, rótulo de empatia "parece que...") e varie a abertura e o fechamento. Princípios de Chris Voss, Robert Cialdini e Alex Hormozi.
+A mensagem tem que fazer o dono parar e pensar "ele tá falando comigo, preciso responder". Curta: **até 220 caracteres, 2 ou 3 linhas**, cara de mensagem de pessoa, não de empresa.
 
-Regras: nenhuma abertura ou fechamento repetido entre leads do mesmo dia; "aqui de São Luís" no máximo 1 vez por nicho; sem "sou o Lindson, faço vídeo e tráfego"; sem preço; sem pedir reunião; sem prometer número de clientes; sem criticar o perfil; só fatos do lead; no máximo 1 emoji.
+**Técnicas de atenção (use 1 ou 2 por mensagem, varie entre os leads):**
+1. **Nome + detalhe só dele na 1ª linha.** O nome do negócio ou do dono e algo que só quem olhou sabe (um prato, um procedimento, um post, o bairro). Ex.: "Dra. Paula, aquele antes e depois de lente no Calhau tá muito bom."
+2. **Pergunta que só ele sabe responder.** Fácil, de resposta curta, sobre o negócio dele. Ex.: "Hoje o smash sai mais no balcão ou no delivery?"
+3. **Lacuna de curiosidade.** Diz que notou algo e não entrega tudo. Ex.: "Vi um detalhe no perfil de vocês que tá deixando cliente ir embora. Posso te falar?"
+4. **Rótulo de empatia (Chris Voss).** Ex.: "Parece que a agenda de vocês enche no fim do mês e esvazia no começo."
+5. **Pergunta do não (Voss).** Fácil de responder sem compromisso. Ex.: "Seria loucura gravar 3 vídeos num dia só aí na clínica?" ou "Te incomodo se eu mandar uma ideia?"
+6. **Presente pronto (reciprocidade, Cialdini).** Algo já feito pra ele, sem pedir nada. Ex.: "Montei 3 ideias de vídeo pro cardápio de vocês. Mando aqui?"
+7. **Timing.** Data, estação ou evento que mexe com o negócio. Ex.: "Dezembro é o mês que mais vende harmonização. Vocês já têm conteúdo pronto pra isso?"
+8. **Prova do bairro.** Algo que o concorrente ou o bairro dele está fazendo, sem citar nome. Ex.: "Tem hamburgueria na Cohama vendendo o dobro só com vídeo de montagem."
+
+**Estrutura:** linha 1 = gancho (nome + detalhe). Linha 2 = o ponto (observação, lacuna ou presente). Linha 3 = pergunta curta que pede só um "sim", um "manda" ou uma palavra.
+
+**Nunca:** "Olá, tudo bem?", "Prezado", "Somos uma agência", "Gostaria de apresentar", texto genérico que serviria pra qualquer negócio, parágrafo longo, link na 1ª mensagem. Teste: se trocar o nome do negócio e a mensagem ainda servir pra outro, reescreva.
+
+Regras: nenhuma abertura ou fechamento repetido entre leads do mesmo dia; "aqui de São Luís" no máximo 1 vez por nicho; sem "sou o Lindson, faço vídeo e tráfego"; sem preço; sem pedir reunião; sem prometer número de clientes; sem criticar o perfil; só fatos do lead (nunca invente post, prato ou detalhe); no máximo 1 emoji.
 
 ### A entrega (quando disser sim)
 
