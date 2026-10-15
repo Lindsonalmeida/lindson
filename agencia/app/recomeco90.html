@@ -1347,12 +1347,16 @@
   });
   $("em-copy").addEventListener("click", function () { copyText(emCsv(emLeads()), $("em-copy")); });
   $("em-csv").addEventListener("click", function () {
-    var list = emLeads(); if (!list.length) return;
-    try {
-      var a = document.createElement("a"), d = (PQ && PQ.data) || today();
-      a.href = URL.createObjectURL(new Blob(["\ufeff" + emCsv(list)], { type: "text/csv;charset=utf-8" }));
-      a.download = "emails-" + d + (pqNi ? "-" + pqNi : "") + ".csv"; document.body.appendChild(a); a.click(); a.remove();
-    } catch (e) { copyText(emCsv(list), $("em-csv")); }
+    var list = emLeads(), b = $("em-csv"); if (!list.length) return;
+    var d = (PQ && PQ.data) || today(), name = "emails-" + d + (pqNi ? "-" + pqNi : "") + ".csv", data = "﻿" + emCsv(list);
+    // No claude.ai o arquivo sai pelo capability downloads; fora dele, link comum
+    var use = window.claude && window.claude.use ? window.claude.use("downloads") : Promise.resolve(null);
+    use.then(function (dl) {
+      if (dl) return dl.save({ filename: name, data: data }).then(function () { b.textContent = "Planilha salva ✓"; setTimeout(function () { b.textContent = "Baixar planilha"; }, 1800); }, function (err) { if (!err || err.code !== "declined") copyText(emCsv(list), b); });
+      var a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([data], { type: "text/csv;charset=utf-8" }));
+      a.download = name; document.body.appendChild(a); a.click(); a.remove();
+    }).catch(function () { copyText(emCsv(list), b); });
   });
   $("em-done").addEventListener("click", function (e) {
     var list = emLeads(); if (!list.length) return;
