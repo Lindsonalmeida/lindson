@@ -838,7 +838,7 @@
 
     // Lançamentos: vitrine + ficha completa
     (function () {
-      var P = window.RI_PRODUTOS, SVG = window.RI_SVG, rail = document.getElementById("rail");
+      var P = (window.RI_PRODUTOS || []).filter(function (p) { return p.foto; }) /* só aparece quem já tem foto real */, SVG = window.RI_SVG, rail = document.getElementById("rail");
       if (!P || !rail) return;
       function vis(p) {
         return p.foto ? '<img src="' + p.foto + '" alt="Foto do ' + esc(p.nome) + '">'
