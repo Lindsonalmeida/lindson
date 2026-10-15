@@ -500,6 +500,41 @@
         ["Resistência", "Contra poeira e respingos · MIL-STD-810H (quedas de até 1,5 m)"],
         ["Rede", "4G · NFC"]
       ]
+    },
+    {
+      foto: "img/produtos/note60x.webp?v=1", /* foto enviada pelo cliente */
+      id: "note60x", marca: "realme", nome: "Realme Note 60X", tag: "Entrada",
+      frase: "Telão de 6,74\" e bateria de 5.000 mAh pelo menor preço da Realme.",
+      cam: "duo",
+      cores: [["Verde Wilderness", "#d6ead9", "#a8cdb0"], ["Preto Marble", "#2a2c30", "#141518"]],
+      dest: [["6,74\" 90 Hz", "tela grande"], ["5.000 mAh", "bateria"], ["Unisoc T612", "processador"], ["IP54", "respingos e poeira"]],
+      ficha: [
+        ["Tela", "6,74\" LCD IPS HD+, 90 Hz"],
+        ["Processador", "Unisoc T612"],
+        ["Memória", "4 GB / 128 GB"],
+        ["Câmera traseira", "8 MP"],
+        ["Câmera frontal", "5 MP"],
+        ["Bateria", "5.000 mAh · 10 W"],
+        ["Resistência", "IP54"]
+      ]
+    },
+    {
+      foto: "img/produtos/c715g.webp?v=1", /* fotos enviadas pelo cliente */
+      id: "c715g", marca: "realme", nome: "Realme C71 5G", tag: "5G + NFC",
+      frase: "5G com Dimensity 6300, tela de 120 Hz e carga rápida de 45 W.",
+      cam: "duo",
+      cores: [["Verde", "#d6ead9", "#a8cdb0"], ["Preto", "#2a2c30", "#141518"]],
+      dest: [["5G", "Dimensity 6300"], ["120 Hz", "tela 6,67\""], ["50 MP", "câmera"], ["45 W", "carga rápida"]],
+      ficha: [
+        ["Tela", "6,67\" LCD IPS HD+, 120 Hz"],
+        ["Processador", "MediaTek Dimensity 6300 (6 nm)"],
+        ["Memória", "6 GB / 128 GB ou 8 GB / 256 GB"],
+        ["Câmera traseira", "50 MP"],
+        ["Câmera frontal", "8 MP"],
+        ["Bateria", "5.000 mAh · 45 W"],
+        ["Rede", "5G · NFC"],
+        ["Sistema", "Android 15 · realme UI 6.0"]
+      ]
     }
   ];
 
