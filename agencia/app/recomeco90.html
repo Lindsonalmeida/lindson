@@ -1162,57 +1162,6 @@
     return ["EMAIL,EMPRESA,NICHO,MENSAGEM"].concat(list.map(function (p) { return [q(p.em.trim().toLowerCase()), q(p.n || p.ig), q(NICHOS[p.ni] || p.ni), q(p.msg)].join(","); })).join("\n");
   }
 
-  // ── Disparo pelo conector do Brevo (campanha com {{ contact.MENSAGEM }}, agendada para +10 min) ──
-  var BREVO = "Brevo";
-  function emSay(t, bad) { var e = $("em-st"); e.hidden = !t; e.textContent = t || ""; e.className = "em-st" + (bad ? " bad" : ""); }
-  function emErr(err) {
-    var c = err && err.code;
-    if (c === "server_not_connected" || c === "selection_required") return "Conecte o Brevo em claude.ai → Configurações → Conectores e tente de novo.";
-    if (c === "needs_reauth") return "A conexão com o Brevo expirou. Reconecte em claude.ai → Configurações → Conectores.";
-    if (c === "not_in_manifest" || c === "approval_required") return "O app precisa da sua permissão para usar o Brevo. Toque de novo e toque em Permitir.";
-    if (c === "tool_error") return "O Brevo recusou: " + (err.message || "erro sem detalhe") + ".";
-    if (c === "server_unavailable" || c === "upstream_error") return "O Brevo não respondeu. Confira em Campanhas no Brevo se a campanha foi criada antes de tentar de novo.";
-    return "Não consegui falar com o Brevo agora (" + (c || "erro") + ").";
-  }
-  function emSend() {
-    var b = $("em-send"), use = window.claude && window.claude.use ? window.claude.use("mcp") : Promise.resolve(null);
-    b.disabled = true; emSay("Conferindo sua conta no Brevo…");
-    var mcp, list, sender;
-    use.then(function (m) {
-      mcp = m; if (!mcp) throw { code: "unavailable_here" };
-      return Promise.all([
-        mcp.callTool(BREVO, "lists_get_lists", { limit: 5, sort: "desc" }, { cache: false }),
-        mcp.callTool(BREVO, "senders_get_senders", {}, { cache: false }),
-        mcp.callTool(BREVO, "attributes_get_attributes", {}, { cache: false })
-      ]);
-    }).then(function (r) {
-      var lists = (r[0].payload && r[0].payload.lists) || [], senders = ((r[1].payload && r[1].payload.senders) || []).filter(function (x) { return x.active !== false; });
-      var attrs = ((r[2].payload && r[2].payload.attributes) || []).map(function (a) { return a.name; });
-      list = lists[0]; sender = senders[0];
-      if (!sender) throw { msg: "Nenhum remetente ativo no Brevo. Cadastre um em Remetentes e domínios." };
-      if (attrs.indexOf("MENSAGEM") < 0 || attrs.indexOf("EMPRESA") < 0) throw { msg: "Faltam os atributos MENSAGEM e EMPRESA no Brevo. Crie os dois na hora de importar a lista (passo 3)." };
-      if (!list || !(list.uniqueSubscribers > 0)) throw { msg: "Não achei a lista com os leads no Brevo. Importe a lista primeiro (passos 1 a 3)." };
-      if (!confirm("Disparar para a lista \"" + list.name + "\" (" + list.uniqueSubscribers + " contatos), de " + sender.email + ", daqui a 10 minutos?")) throw { msg: "" };
-      emSay("Criando a campanha…");
-      var when = new Date(Date.now() + 10 * 60000).toISOString();
-      var html = '<div style="font-family:Arial,sans-serif;font-size:15px;line-height:1.6;color:#1a1a1a;max-width:560px">' +
-        '<p>{{ contact.MENSAGEM }}</p>' +
-        '<p style="margin-top:24px">Lindson Almeida<br>Conteúdo e tráfego pago · São Luís<br>WhatsApp (98) 98562-1808</p>' +
-        '<p style="margin-top:28px;font-size:12px;color:#888">Recebeu por engano? <a href="{{ unsubscribe }}" style="color:#888">Clique aqui para não receber mais</a>.</p></div>';
-      return mcp.callTool(BREVO, "email_campaign_management_create_email_campaign", {
-        name: list.name + " · " + today(), subject: "Uma ideia para a {{ contact.EMPRESA }}",
-        sender: { id: sender.id, name: "Lindson Almeida" }, replyTo: sender.email,
-        htmlContent: html, recipients: { listIds: [list.id] }, scheduledAt: when
-      }, { cache: false });
-    }).then(function (res) {
-      var id = res && res.payload && res.payload.id;
-      emSay("✓ Campanha criada" + (id ? " (nº " + id + ")" : "") + " e agendada para daqui a 10 minutos. Dá para conferir ou cancelar em Campanhas no Brevo. Agora toque em “Já disparei → funil”.");
-    }).catch(function (err) {
-      if (err && err.code === "unavailable_here") emSay("O disparo pelo Brevo só funciona com o app aberto no claude.ai.", true);
-      else if (err && "msg" in err) emSay(err.msg, !!err.msg);
-      else emSay(emErr(err), true);
-    }).then(function () { b.disabled = false; });
-  }
   // ── Modo disparo: um lead por vez, WhatsApp já com a mensagem, "Enviei" e vai pro próximo ──
   var dsp = { q: [], i: 0, sent: 0 };
   function dspQueue() {
