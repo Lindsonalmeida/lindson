@@ -407,6 +407,23 @@
         ["Rede", "5G · NFC"],
         ["Sistema", "Android 15 · Realme UI 6.0"]
       ]
+    },
+    {
+      foto: "img/produtos/p4lite.webp?v=1", /* foto oficial enviada pelo cliente */
+      id: "p4lite", marca: "realme", nome: "Realme P4 Lite", tag: "Custo-benefício",
+      frase: "Tela de 6,8\" 120 Hz e bateria de 6.600 mAh para o dia todo.",
+      cam: "duo",
+      cores: [["Roxo Pulse", "#ddd2ee", "#ad9ad0"], ["Cinza Titan", "#8e9096", "#5f6166"]],
+      dest: [["6.600 mAh", "bateria"], ["6,8\" 120 Hz", "tela grande"], ["Unisoc T7250", "processador"], ["4 GB", "de RAM"]],
+      ficha: [
+        ["Tela", "6,8\" LCD IPS HD+, 120 Hz"],
+        ["Processador", "Unisoc T7250"],
+        ["Memória", "4 GB / 128 GB ou 4 GB / 256 GB"],
+        ["Câmera traseira", "8 MP"],
+        ["Câmera frontal", "5 MP"],
+        ["Bateria", "6.600 mAh · 15 W"],
+        ["Rede", "4G · NFC"]
+      ]
     }
   ];
 
