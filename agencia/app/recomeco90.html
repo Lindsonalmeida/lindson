@@ -921,6 +921,7 @@
   function addDays(iso, n) { var d = new Date(iso + "T12:00:00"); d.setDate(d.getDate() + n); return d.toLocaleDateString("en-CA"); }
   function dm(iso) { var p = iso.split("-"); return p[2] + "/" + p[1]; }
   function planOf(id) { for (var i = 0; i < PLANS.length; i++) if (PLANS[i].id === id) return PLANS[i]; return null; }
+  function leadPlan(l) { return l.p === "custom" ? (l.cv > 0 ? { id: "outro", n: "Valor personalizado", c: l.cv } : null) : planOf(l.p); }
   function touchFunil(e) {
     var d = day();
     if (!d.m.funil) { d.m.funil = true; renderLists(); afterChange(e, 10); return true; }
@@ -931,7 +932,7 @@
     var t = today(), c = document.createElement("div");
     var due = !l.lost && l.st < 4 && l.nd && l.nd <= t;
     c.className = "fu-card" + (l.lost ? " lost" : l.st === 4 ? " won" : due ? (l.nd < t ? " late" : " due") : "");
-    var p = planOf(l.p);
+    var p = leadPlan(l);
     c.innerHTML = '<div class="fu-head"><div><b></b><span></span></div><span class="fu-pill"></span></div><div class="fu-next"></div><div class="fu-acts"></div>';
     c.querySelector(".fu-head b").textContent = l.n;
     c.querySelector(".fu-head span").textContent = [l.b, p ? p.n + " · " + brl(p.c) : ""].filter(Boolean).join(" · ") || "Sem negócio informado";
@@ -953,7 +954,7 @@
           l.paid = true;
           S.money.push({ id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6), c: p.c, s: l.n, t: p.id, d: t });
           finMonth = t.slice(0, 7); renderFin();
-          toast("💰", brl(p.c) + " no Caixa!", l.n + " fechou o " + p.n + ".");
+          toast("💰", brl(p.c) + " no Caixa!", l.n + (l.p === "custom" ? " fechou em valor personalizado." : " fechou o " + p.n + "."));
           fuSave(e, 5);
         } else { renderFunil(); showTab("caixa"); prefill({ id: "outro", n: "contrato", c: 0 }); $("f-valor").value = ""; $("f-desc").value = l.n; }
       });
@@ -986,17 +987,20 @@
     return c;
   }
   function opt(sel, items, val) { sel.innerHTML = ""; items.forEach(function (it) { var o = document.createElement("option"); o.value = it[0]; o.textContent = it[1]; if (String(it[0]) === String(val)) o.selected = true; sel.appendChild(o); }); }
-  function planOpts() { return [["", "Ainda não sei"]].concat(PLANS.map(function (p) { return [p.id, p.n + " · " + brl(p.c)]; })); }
+  function planOpts() { return [["", "Ainda não sei"]].concat(PLANS.map(function (p) { return [p.id, p.n + " · " + brl(p.c)]; })).concat([["custom", "Valor personalizado…"]]); }
   function stgOpts() { return STG.map(function (n, i) { return [i, n]; }); }
   function leadEdit(l) {
     var w = document.createElement("div"); w.className = "fu-edit form"; w.style.padding = "10px 0 0"; w.style.background = "none"; w.style.border = "0";
     w.innerHTML = '<div class="row2"><label>Próximo passo<input data-k="nx" maxlength="60"></label><label>Quando<input data-k="nd" type="date"></label></div>' +
       '<div class="row2"><label>Etapa<select data-k="st"></select></label><label>Plano<select data-k="p"></select></label></div>' +
+      '<label data-cvw hidden>Valor fechado<input data-k="cv" class="money" inputmode="decimal" autocomplete="off" placeholder="R$ 2.400,00"></label>' +
       '<div class="row2"><label>Negócio<input data-k="b" maxlength="50"></label><label>WhatsApp<input data-k="w" inputmode="tel" maxlength="20"></label></div>' +
       '<div class="fu-acts"><button type="button" class="adv" data-a="save">Salvar</button><button type="button" data-a="lost"></button><button type="button" class="del warn" data-a="del">Apagar</button></div>';
     var q = function (k) { return w.querySelector('[data-k="' + k + '"]'); };
     q("nx").value = l.nx || ""; q("nd").value = l.nd || ""; q("b").value = l.b || ""; q("w").value = l.w || "";
     opt(q("st"), stgOpts(), l.st); opt(q("p"), planOpts(), l.p || "");
+    var cvw = w.querySelector("[data-cvw]"), syncCv = function () { cvw.hidden = q("p").value !== "custom"; };
+    q("cv").value = l.cv > 0 ? (l.cv / 100).toLocaleString("pt-BR", { minimumFractionDigits: 2 }) : ""; syncCv(); q("p").addEventListener("change", function () { syncCv(); if (!cvw.hidden) q("cv").focus(); });
     w.querySelector('[data-a="lost"]').textContent = l.lost ? "Reativar" : "Perdido";
     var del = w.querySelector('[data-a="del"]');
     if (fuArmed === l.id) { del.classList.add("confirm"); del.textContent = "Confirmar"; }
@@ -1004,6 +1008,7 @@
       var st = parseInt(q("st").value, 10), t = today(), before = l.mx;
       if (st !== l.st) { l.st = st; l.h[st] = l.h[st] || t; l.mx = Math.max(l.mx, st); if (st === 4 && !l.paid) fuPay = l.id; }
       l.nx = q("nx").value.trim().slice(0, 60); l.nd = q("nd").value; l.b = q("b").value.trim().slice(0, 50); l.w = q("w").value.trim().slice(0, 20); l.p = q("p").value;
+      if (l.p === "custom") { var cv = parseBRL(q("cv").value); if (!(cv > 0)) { q("cv").focus(); toast("✏️", "Digite o valor fechado", "Ex.: 2.400 ou 1.950,00"); return; } l.cv = cv; } else delete l.cv;
       var g = 0; for (var k = before + 1; k <= l.mx; k++) g += STG_X[k];
       fuOpen = null; fuSave(e, g);
     });
