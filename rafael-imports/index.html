@@ -331,6 +331,8 @@
   .launch-label h2 { margin: 0; font: 800 20px/1.1 var(--f-display); }
   .launch-label h2 em { font-style: normal; background: var(--metal); -webkit-background-clip: text; background-clip: text; color: transparent; }
   .launch-label span { font: 500 11px/1 var(--f-mono); color: var(--muted); letter-spacing: .08em; }
+  .brand-h { display: flex; align-items: baseline; justify-content: space-between; margin: 6px 2px 8px; font: 700 15px/1.2 var(--f-display); color: var(--gold); }
+  .brand-h span { font: 500 10.5px/1 var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
   .rail {
     display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory;
     margin: 0 -16px 18px; padding: 4px 16px 14px;
@@ -553,7 +555,7 @@
 
   <section id="portfolio" class="rv" aria-label="Portfólio de produtos">
     <div class="launch-label"><h2>Lançamentos <em>e ofertas</em></h2><span>deslize →</span></div>
-    <div class="rail" id="rail"></div>
+    <div id="rail"></div>
     <p class="label">Portfólio</p>
     <div class="filters chips" data-group="filtro" role="toolbar" aria-label="Filtrar por marca">
       <button type="button" class="chip" aria-pressed="true" data-f="all">Todos</button>
@@ -657,7 +659,7 @@
   </div>
 </div>
 
-<script src="produtos.js?v=20261015d"></script>
+<script src="produtos.js?v=20261015e"></script>
 <script>
   /* ⚙️ Número do WhatsApp da loja: só dígitos, com 55 + DDD (ex.: "5598988887777").
      Enquanto estiver vazio, os botões abrem o Direct do Instagram. */
@@ -846,7 +848,9 @@
       }
       function esc(t) { return String(t).replace(/[&<>"]/g, function (m) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[m]; }); }
       function mini(p) { return p.dest.map(function (d) { return "<div><b>" + esc(d[0]) + "</b><span>" + esc(d[1]) + "</span></div>"; }).join(""); }
-      rail.innerHTML = P.map(function (p, i) {
+      // Uma vitrine por marca (Xiaomi reúne Redmi e POCO)
+      var GRUPOS = [["Xiaomi · Redmi · POCO", ["Redmi", "POCO", "Xiaomi"]], ["Samsung", ["Samsung"]], ["Realme", ["realme", "Realme"]], ["Motorola", ["Motorola"]]];
+      function card(p, i) {
         return '<button type="button" class="pcard" data-i="' + i + '" aria-label="Ver ficha do ' + esc(p.nome) + '">' +
           '<span class="new">' + esc(p.tag) + '</span>' +
           '<div class="stage"><div class="phone' + (p.foto ? ' real' : '') + '" style="animation-delay:-' + i * .8 + 's">' + vis(p) + '</div></div>' +
@@ -854,6 +858,12 @@
           '<div class="mini">' + mini({ dest: p.dest.slice(0, 2) }) + '</div>' +
           '<span class="more">Ver ficha completa →<span class="dots">' + p.cores.map(function (c) { return '<i style="background:' + c[1] + '"></i>'; }).join("") + '</span></span>' +
           '</button>';
+      }
+      rail.innerHTML = GRUPOS.map(function (g) {
+        var itens = [];
+        P.forEach(function (p, i) { if (g[1].indexOf(p.marca) >= 0) itens.push(card(p, i)); });
+        if (!itens.length) return "";
+        return '<h3 class="brand-h">' + esc(g[0]) + ' <span>' + itens.length + (itens.length > 1 ? " aparelhos" : " aparelho") + '</span></h3><div class="rail">' + itens.join("") + "</div>";
       }).join("");
 
       var sh = document.getElementById("sheet"), cur = null, ci = 0, last = null;
