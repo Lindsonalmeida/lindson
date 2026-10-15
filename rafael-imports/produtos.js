@@ -24,7 +24,7 @@
       ]
     },
     {
-      foto: null, /* foto real: "img/produtos/note15pro.jpg" */
+      foto: "img/produtos/note15pro.webp?v=1", /* foto oficial enviada pelo cliente */
       id: "note15pro", marca: "Redmi", nome: "Redmi Note 15 Pro 5G", tag: "Câmera 200 MP",
       frase: "200 MP, tela gigante 1,5K e resistência IP68/IP69K.",
       cam: "pro",
