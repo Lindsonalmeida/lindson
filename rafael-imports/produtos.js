@@ -278,6 +278,25 @@
         ["Resistência", "IP64"],
         ["Sistema", "Android 15"]
       ]
+    },
+    {
+      foto: "img/produtos/x8promax.webp?v=1", /* foto oficial enviada pelo cliente */
+      id: "x8promax", marca: "POCO", nome: "POCO X8 Pro Max", tag: "Topo de linha",
+      frase: "Dimensity 9500s, bateria de 8.500 mAh e carga de 100 W.",
+      cam: "duo",
+      cores: [["Azul", "#cfe4ee", "#9cc4d8"], ["Branco", "#f4f4f1", "#d6d7d3"], ["Preto", "#2a2c30", "#141518"]],
+      dest: [["Dimensity 9500s", "chip 3 nm"], ["8.500 mAh", "bateria"], ["100 W", "carregamento"], ["6,83\" AMOLED", "1,5K 120 Hz"]],
+      ficha: [
+        ["Tela", "6,83\" AMOLED 1,5K, 120 Hz, até 3.500 nits"],
+        ["Processador", "MediaTek Dimensity 9500s (3 nm)"],
+        ["Memória", "12 GB / 256 GB ou 12 GB / 512 GB"],
+        ["Câmera traseira", "50 MP Light Fusion 600 com OIS"],
+        ["Câmera frontal", "20 MP"],
+        ["Bateria", "8.500 mAh · 100 W (carregador vendido à parte)"],
+        ["Resistência", "IP68"],
+        ["Rede", "5G · NFC"],
+        ["Peso", "218 g"]
+      ]
     }
   ];
 
