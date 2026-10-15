@@ -62,7 +62,7 @@
       ]
     },
     {
-      foto: null, /* foto real: "img/produtos/c85.jpg" */
+      foto: "img/produtos/c85.webp?v=1", /* foto oficial enviada pelo cliente */
       id: "c85", marca: "POCO", nome: "POCO C85", tag: "Custo-benefício",
       frase: "Telão de 6,9\", bateria de 6.000 mAh e carga rápida de 33 W.",
       cam: "ring",
