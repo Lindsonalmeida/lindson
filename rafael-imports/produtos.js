@@ -443,6 +443,26 @@
         ["Extras", "Leitor de digital lateral · entrada P2 para fone"],
         ["Sistema", "Android 15 · realme UI"]
       ]
+    },
+    {
+      foto: "img/produtos/c85pro.webp?v=1", /* fotos enviadas pelo cliente */
+      id: "c85pro", marca: "realme", nome: "Realme C85 Pro", tag: "7.000 mAh",
+      frase: "AMOLED de 6,8\" 120 Hz, bateria de 7.000 mAh e resistência IP69.",
+      cam: "duo",
+      cores: [["Verde Peacock", "#3a4a44", "#1f2a26"], ["Roxo Parrot", "#ddd2ee", "#ad9ad0"]],
+      dest: [["7.000 mAh", "bateria"], ["45 W", "carregamento"], ["AMOLED 120 Hz", "tela 6,8\""], ["IP69", "água e poeira"]],
+      ficha: [
+        ["Tela", "6,8\" AMOLED Full HD+, 120 Hz"],
+        ["Processador", "Qualcomm Snapdragon 685 (6 nm)"],
+        ["Memória", "8 GB / 256 GB"],
+        ["Câmera traseira", "50 MP"],
+        ["Câmera frontal", "8 MP"],
+        ["Bateria", "7.000 mAh · 45 W · carrega outros aparelhos"],
+        ["Resistência", "IP68 / IP69 · MIL-STD-810H"],
+        ["Rede", "4G · NFC"],
+        ["Sistema", "Android 15 · realme UI 6.0"],
+        ["Peso", "205 g"]
+      ]
     }
   ];
 
