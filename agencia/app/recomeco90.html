@@ -240,6 +240,7 @@
   .em-acts { display: grid; gap: 8px; padding-bottom: 14px; }
   .em-acts button { padding: 12px; border-radius: 12px; border: 1px solid var(--line-2); background: transparent; color: var(--fg); font: 700 14px/1 var(--f-body); cursor: pointer; }
   .em-acts .adv { border: 0; background: linear-gradient(135deg, var(--signal), var(--violet)); color: #fff; }
+  .em-note { margin: 0 0 10px; font-size: 12.5px; color: var(--muted); }
   .em-st { margin: 0; padding: 10px 12px; border-radius: 10px; background: rgba(37,211,102,.1); font-size: 13px; color: var(--fg); }
   .em-st.bad { background: rgba(255,90,78,.12); }
   .em-st[hidden] { display: none; }
@@ -438,18 +439,11 @@
         <p>Mande a mensagem, toque em <b style="color:var(--fg)">Mandei → Funil</b> e siga para o próximo. Confira o perfil antes: os dados vêm de buscas públicas.</p>
         <button type="button" class="dsp-go" id="dsp-go"><b>⚡ Modo disparo</b><span id="dsp-go-n"></span></button>
         <details class="em-box" id="em-box">
-          <summary><b>📧 E-mails do dia para o Brevo</b><span id="em-n"></span></summary>
-          <ol>
-            <li>Toque em <b>Copiar lista</b>.</li>
-            <li>No Brevo: <b>Contatos → Importar contatos → Copiar e colar</b> → cole → crie uma <b>lista nova</b> (ex.: Leads 15/10).</li>
-            <li>Na tela de colunas, ligue <b>EMPRESA</b> e <b>MENSAGEM</b> a atributos de texto (na 1ª vez, crie os dois).</li>
-            <li>Volte aqui e toque em <b>🚀 Disparar no Brevo</b>: o app monta a campanha com a mensagem de cada lead e agenda para daqui a 10 minutos.</li>
-          </ol>
+          <summary><b>📧 E-mails do dia</b><span id="em-n"></span></summary>
+          <p class="em-note">Lista com o e-mail e a mensagem individual de cada lead. Para lead frio, envie pelo seu próprio e-mail (1 a 1 ou mala direta do Gmail), nunca por campanha de marketing.</p>
           <div class="em-acts">
             <button type="button" class="adv" id="em-copy">Copiar lista</button>
             <button type="button" id="em-csv">Baixar planilha</button>
-            <button type="button" class="adv" id="em-send">🚀 Disparar no Brevo</button>
-            <p class="em-st" id="em-st" hidden></p>
             <button type="button" id="em-done">Já disparei → funil</button>
           </div>
         </details>
@@ -1401,7 +1395,6 @@
     afterChange(r ? { clientX: r.left + r.width / 2, clientY: r.top } : null, 5);
     toast("💰", brl(c) + " lançado!", "Já está dividido nos baldes.");
   });
-  $("em-send").addEventListener("click", emSend);
   $("em-copy").addEventListener("click", function () { copyText(emCsv(emLeads()), $("em-copy")); });
   $("em-csv").addEventListener("click", function () {
     var list = emLeads(), b = $("em-csv"); if (!list.length) return;
