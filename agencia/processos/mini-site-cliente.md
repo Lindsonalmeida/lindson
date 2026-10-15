@@ -109,4 +109,4 @@ O Claude altera e publica; a Cloudflare atualiza sozinha em ~1 minuto.
 ## Clientes ativos
 | Cliente | Repositório | Link |
 |---|---|---|
-| Rafael Imports | rafaelimports/rafadigital | rafaelimports.github.io/rafadigital (migrar para `rafaelimports.pages.dev`) |
+| Rafael Imports | Lindsonalmeida/rafaelimports | https://rafaelimports.pages.dev |
