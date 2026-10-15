@@ -67,12 +67,12 @@ Todo dia, 10 leads novos por nicho (100 no total) de negócios da Grande São Lu
 
 **Não parecer stalker:** no máximo 1 dado público, e só se for do negócio (o serviço, o bairro). Nada de citar post, foto, viagem, evento ou número de seguidores.
 
-**Estrutura (até 220 caracteres, 3 linhas):**
-1. **Nome + a dor comum do nicho**, dita como quem conhece o mercado. Ex.: "Dra. Paula, em clínica de estética a agenda costuma oscilar muito de um mês pro outro."
-2. **O que o Lindson faz, em linguagem de resultado:** "Eu ajudo clínicas a ter um caminho fixo de cliente novo: anúncio, atendimento no WhatsApp e retorno."
-3. **Oferta leve + pergunta de sim:** "Posso te mostrar como ficaria pra vocês?" / "Te mando um plano de 1 página?"
+**Estrutura (3 linhas, linguagem simples, como uma pessoa falaria):**
+1. **Saudação + quem é:** "Oi, Dra. Paula! Tudo bem? Sou o Lindson, aqui de São Luís."
+2. **O que faz, em resultado concreto pro nicho:** "Ajudo clínicas de estética a lotar a agenda com anúncio e um bom atendimento no WhatsApp."
+3. **Pergunta direta:** "Posso te mostrar como faria isso pra vocês?" / "Vocês têm interesse?"
 
-**Técnicas:** autoridade de mercado (falar como quem conhece o nicho), pergunta do não de Chris Voss ("Seria loucura…?"), presente pronto (o plano já existe, é só mandar).
+Teste: se a pessoa precisar ler duas vezes pra entender, reescreva. Nada de frase de efeito ou jargão ("caminho fixo", "seria loucura").
 
 **Nunca:** "Olá, tudo bem?", "Somos uma agência", lista de serviços, preço, link, elogio genérico, detalhe pessoal.
 
