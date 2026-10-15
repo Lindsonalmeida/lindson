@@ -189,6 +189,95 @@
         ["Bateria", "5.000 mAh · 25 W"],
         ["Resistência", "IP54"]
       ]
+    },
+    {
+      foto: "img/produtos/a36.webp?v=1", /* foto do cartaz da loja */
+      id: "a36", marca: "Samsung", nome: "Samsung Galaxy A36 5G", tag: "Snapdragon",
+      frase: "Super AMOLED de 6,7\" 120 Hz, Snapdragon e câmera tripla de 50 MP.",
+      cam: "duo",
+      cores: [["Preto", "#2a2c30", "#141518"], ["Branco", "#eef0f2", "#c9ccd1"], ["Verde-claro", "#d3e8d6", "#a3c9aa"], ["Lilás", "#d9d3ee", "#aaa0d0"]],
+      dest: [["Super AMOLED", "6,7\" 120 Hz"], ["Snapdragon", "6 Gen 3"], ["50 MP", "câmera tripla"], ["IP67", "água e poeira"]],
+      ficha: [
+        ["Tela", "6,7\" Super AMOLED Full HD+, 120 Hz"],
+        ["Processador", "Qualcomm Snapdragon 6 Gen 3"],
+        ["Memória", "6 GB de RAM · 128 GB"],
+        ["Câmera traseira", "50 MP + 8 MP ultra-wide + 5 MP macro"],
+        ["Câmera frontal", "12 MP"],
+        ["Bateria", "5.000 mAh · 45 W"],
+        ["Rede", "5G · NFC"],
+        ["Resistência", "IP67"]
+      ]
+    },
+    {
+      foto: "img/produtos/note17-4g.webp?v=1", /* foto do cartaz da loja */
+      id: "note17-4g", marca: "Redmi", nome: "Redmi Note 17 4G", tag: "Lançamento",
+      frase: "Telão AMOLED de 6,99\" e bateria de 7.700 mAh com carga de 45 W.",
+      cam: "duo",
+      cores: [["Preto", "#2a2c30", "#141518"], ["Lilás", "#ddd2ee", "#ad9ad0"], ["Azul-claro", "#d3e6ea", "#a2c4cc"]],
+      dest: [["6,99\" AMOLED", "tela 120 Hz"], ["7.700 mAh", "bateria"], ["45 W", "carregamento"], ["50 MP", "câmera"]],
+      ficha: [
+        ["Tela", "6,99\" AMOLED Full HD+, 120 Hz"],
+        ["Processador", "Qualcomm Snapdragon 6s Gen 2"],
+        ["Memória", "4 GB / 128 GB ou 6 GB / 128 GB"],
+        ["Câmera traseira", "50 MP"],
+        ["Câmera frontal", "16 MP"],
+        ["Bateria", "7.700 mAh · 45 W"],
+        ["Resistência", "IP65"],
+        ["Sistema", "Xiaomi HyperOS 3 (Android 16)"]
+      ]
+    },
+    {
+      foto: "img/produtos/r17.webp?v=1", /* foto do cartaz da loja */
+      id: "r17", marca: "Redmi", nome: "Redmi 17", tag: "Bateria monstra",
+      frase: "Bateria de 7.500 mAh que dura até 2 dias, com carga de 45 W.",
+      cam: "duo",
+      cores: [["Preto", "#2a2c30", "#141518"], ["Azul", "#3b5fa8", "#22396b"], ["Lilás", "#ddd2ee", "#ad9ad0"], ["Verde", "#3f4a3c", "#232a21"]],
+      dest: [["7.500 mAh", "bateria"], ["45 W", "carregamento"], ["6,9\" 120 Hz", "tela grande"], ["50 MP", "câmera"]],
+      ficha: [
+        ["Tela", "6,9\" HD+, 120 Hz"],
+        ["Processador", "MediaTek Helio G91 Ultra"],
+        ["Memória", "4 GB de RAM · 128 GB ou 256 GB + microSD"],
+        ["Câmera traseira", "50 MP + câmera auxiliar"],
+        ["Câmera frontal", "8 MP"],
+        ["Bateria", "7.500 mAh · 45 W · carrega outros aparelhos (22,5 W)"],
+        ["Resistência", "IP64"],
+        ["Sistema", "Xiaomi HyperOS (Android 16)"]
+      ]
+    },
+    {
+      foto: "img/produtos/a15.webp?v=1", /* foto do cartaz da loja */
+      id: "a15", marca: "Samsung", nome: "Samsung Galaxy A15 5G", tag: "5G + NFC",
+      frase: "Super AMOLED de 6,5\", câmera tripla de 50 MP e 5G.",
+      cam: "duo",
+      cores: [["Azul-escuro", "#232c45", "#141a2b"], ["Azul-claro", "#dfe8f4", "#b3c6de"], ["Amarelo", "#f3eebf", "#dcd38a"]],
+      dest: [["Super AMOLED", "6,5\" 90 Hz"], ["5G", "com NFC"], ["50 MP", "câmera tripla"], ["5.000 mAh", "bateria"]],
+      ficha: [
+        ["Tela", "6,5\" Super AMOLED Full HD+, 90 Hz"],
+        ["Processador", "MediaTek Dimensity 6100+"],
+        ["Memória", "4 GB de RAM · 128 GB"],
+        ["Câmera traseira", "50 MP + 5 MP ultra-wide + 2 MP macro"],
+        ["Câmera frontal", "13 MP"],
+        ["Bateria", "5.000 mAh · 25 W"],
+        ["Rede", "5G · NFC"]
+      ]
+    },
+    {
+      foto: "img/produtos/g06.webp?v=1", /* foto do cartaz da loja */
+      id: "g06", marca: "Motorola", nome: "Motorola Moto G06", tag: "Motorola",
+      frase: "Tela grande de 6,88\" 120 Hz e bateria de 5.200 mAh.",
+      cam: "duo",
+      cores: [["Laranja", "#e0703c", "#b04f22"], ["Azul-petróleo", "#3c5a62", "#24393f"], ["Verde", "#7a9a3a", "#556d24"]],
+      dest: [["6,88\" 120 Hz", "tela grande"], ["5.200 mAh", "bateria"], ["50 MP", "câmera"], ["IP64", "respingos e poeira"]],
+      ficha: [
+        ["Tela", "6,88\" LCD IPS HD+, 120 Hz, Gorilla Glass 3"],
+        ["Processador", "MediaTek Helio G81"],
+        ["Memória", "4 GB / 128 GB ou 4 GB / 256 GB"],
+        ["Câmera traseira", "50 MP"],
+        ["Câmera frontal", "8 MP"],
+        ["Bateria", "5.200 mAh · 10 W"],
+        ["Resistência", "IP64"],
+        ["Sistema", "Android 15"]
+      ]
     }
   ];
 
