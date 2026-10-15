@@ -424,6 +424,25 @@
         ["Bateria", "6.600 mAh · 15 W"],
         ["Rede", "4G · NFC"]
       ]
+    },
+    {
+      foto: "img/produtos/note70.webp?v=1", /* foto enviada pelo cliente */
+      id: "note70", marca: "realme", nome: "Realme Note 70", tag: "Resistente",
+      frase: "Bateria de 6.300 mAh, tela de 6,74\" e resistência militar MIL-STD-810H.",
+      cam: "duo",
+      cores: [["Preto Obsidian", "#2a2c30", "#141518"], ["Dourado Beach", "#efe0b8", "#cdb27a"]],
+      dest: [["6.300 mAh", "bateria"], ["6,74\" 90 Hz", "tela grande"], ["13 MP", "câmera"], ["IP54", "respingos e poeira"]],
+      ficha: [
+        ["Tela", "6,74\" LCD HD+, 90 Hz, Panda Glass"],
+        ["Processador", "Unisoc T7250"],
+        ["Memória", "4 GB / 128 GB ou 8 GB / 256 GB + microSD"],
+        ["Câmera traseira", "13 MP"],
+        ["Câmera frontal", "5 MP"],
+        ["Bateria", "6.300 mAh · 15 W"],
+        ["Resistência", "IP54 · MIL-STD-810H"],
+        ["Extras", "Leitor de digital lateral · entrada P2 para fone"],
+        ["Sistema", "Android 15 · realme UI"]
+      ]
     }
   ];
 
