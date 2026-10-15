@@ -100,6 +100,95 @@
         ["Sistema", "Xiaomi HyperOS (Android 15)"],
         ["Peso", "205 g · 171,6 × 79,5 × 8 mm"]
       ]
+    },
+    {
+      foto: "img/produtos/a17-5g.webp?v=1", /* foto do cartaz da loja */
+      id: "a17-5g", marca: "Samsung", nome: "Samsung Galaxy A17 5G", tag: "5G + NFC",
+      frase: "Tela Super AMOLED, câmera tripla de 50 MP e 5G com NFC.",
+      cam: "duo",
+      cores: [["Preto", "#2a2c30", "#141518"], ["Azul", "#3b5fa8", "#22396b"], ["Cinza", "#c9cbcf", "#8f9298"]],
+      dest: [["Super AMOLED", "6,7\" 90 Hz"], ["Exynos 1330", "5G"], ["50 MP", "câmera tripla"], ["5.000 mAh", "bateria"]],
+      ficha: [
+        ["Tela", "6,7\" Super AMOLED Full HD+, 90 Hz"],
+        ["Processador", "Samsung Exynos 1330"],
+        ["Memória", "4 GB de RAM · 128 GB"],
+        ["Câmera traseira", "50 MP + 5 MP ultra-wide + 2 MP macro"],
+        ["Câmera frontal", "13 MP"],
+        ["Bateria", "5.000 mAh · 25 W"],
+        ["Rede", "5G · NFC"],
+        ["Resistência", "IP54"]
+      ]
+    },
+    {
+      foto: "img/produtos/a17-4g.webp?v=1", /* foto do cartaz da loja */
+      id: "a17-4g", marca: "Samsung", nome: "Samsung Galaxy A17 4G", tag: "Samsung",
+      frase: "Tela Super AMOLED, câmera tripla e bateria para o dia todo.",
+      cam: "duo",
+      cores: [["Preto", "#2a2c30", "#141518"], ["Azul claro", "#cfe0ee", "#9dbbd6"], ["Cinza", "#c9cbcf", "#8f9298"]],
+      dest: [["Super AMOLED", "6,7\" 90 Hz"], ["Helio G99", "processador"], ["50 MP", "câmera tripla"], ["5.000 mAh", "bateria"]],
+      ficha: [
+        ["Tela", "6,7\" Super AMOLED Full HD+, 90 Hz, Gorilla Glass Victus+"],
+        ["Processador", "MediaTek Helio G99"],
+        ["Memória", "4 GB / 128 GB ou 8 GB / 256 GB"],
+        ["Câmera traseira", "50 MP + 5 MP ultra-wide + 2 MP macro"],
+        ["Câmera frontal", "13 MP"],
+        ["Bateria", "5.000 mAh · 25 W"],
+        ["Resistência", "IP54"],
+        ["Sistema", "Android 15 · One UI 7"]
+      ]
+    },
+    {
+      foto: "img/produtos/p4power.webp?v=1", /* foto do cartaz da loja */
+      id: "p4power", marca: "realme", nome: "Realme P4 Power", tag: "10.001 mAh",
+      frase: "Bateria gigante de 10.001 mAh com carga de 80 W e tela AMOLED 144 Hz.",
+      cam: "duo",
+      cores: [["Azul", "#5b63d6", "#3a3fa3"], ["Laranja", "#e07a3c", "#b0541f"], ["Prata", "#e3e4e6", "#b5b7bb"]],
+      dest: [["10.001 mAh", "bateria"], ["80 W", "carregamento"], ["AMOLED 144 Hz", "tela 6,8\""], ["Dimensity 7400", "processador"]],
+      ficha: [
+        ["Tela", "6,8\" AMOLED curva 1,5K, 144 Hz, HDR10+"],
+        ["Processador", "MediaTek Dimensity 7400-Ultra (4 nm)"],
+        ["Memória", "8 GB / 256 GB ou 12 GB / 512 GB"],
+        ["Câmera traseira", "50 MP Sony + 8 MP"],
+        ["Câmera frontal", "16 MP"],
+        ["Bateria", "10.001 mAh · 80 W"],
+        ["Resistência", "IP69"],
+        ["Rede", "5G · NFC"],
+        ["Peso", "219 g"]
+      ]
+    },
+    {
+      foto: "img/produtos/pad2.webp?v=1", /* foto do cartaz da loja */
+      id: "pad2", marca: "Redmi", nome: "Redmi Pad 2 (com chip)", tag: "Tablet 4G",
+      frase: "Tablet de 11\" que aceita chip, com bateria de 9.000 mAh.",
+      cam: "duo",
+      cores: [["Roxo", "#ddd2ee", "#ad9ad0"], ["Verde", "#cfe8df", "#9ccab8"], ["Cinza", "#4a4c52", "#2a2c30"]],
+      dest: [["11\" 2,5K", "tela 90 Hz"], ["9.000 mAh", "bateria"], ["Aceita chip", "internet 4G"], ["Helio G100", "processador"]],
+      ficha: [
+        ["Tela", "11\" LCD IPS 2,5K, 90 Hz"],
+        ["Processador", "MediaTek Helio G100-Ultra"],
+        ["Memória", "4 GB / 128 GB"],
+        ["Câmera traseira", "8 MP"],
+        ["Câmera frontal", "5 MP"],
+        ["Bateria", "9.000 mAh · 18 W"],
+        ["Rede", "4G (aceita chip)"]
+      ]
+    },
+    {
+      foto: "img/produtos/a07.webp?v=1", /* foto do cartaz da loja */
+      id: "a07", marca: "Samsung", nome: "Samsung Galaxy A07", tag: "Custo-benefício",
+      frase: "Samsung de entrada com tela grande de 6,7\" e bateria de 5.000 mAh.",
+      cam: "duo",
+      cores: [["Prata", "#d9dade", "#a7a9ae"], ["Verde", "#2f6b5a", "#1b4338"], ["Preto", "#2a2c30", "#141518"]],
+      dest: [["6,7\" 90 Hz", "tela grande"], ["Helio G99", "processador"], ["50 MP", "câmera"], ["5.000 mAh", "bateria"]],
+      ficha: [
+        ["Tela", "6,7\" LCD HD+, 90 Hz"],
+        ["Processador", "MediaTek Helio G99"],
+        ["Memória", "4 GB / 128 GB ou 4 GB / 256 GB"],
+        ["Câmera traseira", "50 MP + 2 MP"],
+        ["Câmera frontal", "8 MP"],
+        ["Bateria", "5.000 mAh · 25 W"],
+        ["Resistência", "IP54"]
+      ]
     }
   ];
 
