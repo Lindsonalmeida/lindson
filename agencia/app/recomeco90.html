@@ -240,6 +240,9 @@
   .em-acts { display: grid; gap: 8px; padding-bottom: 14px; }
   .em-acts button { padding: 12px; border-radius: 12px; border: 1px solid var(--line-2); background: transparent; color: var(--fg); font: 700 14px/1 var(--f-body); cursor: pointer; }
   .em-acts .adv { border: 0; background: linear-gradient(135deg, var(--signal), var(--violet)); color: #fff; }
+  .em-st { margin: 0; padding: 10px 12px; border-radius: 10px; background: rgba(37,211,102,.1); font-size: 13px; color: var(--fg); }
+  .em-st.bad { background: rgba(255,90,78,.12); }
+  .em-st[hidden] { display: none; }
   .em-acts button:disabled { opacity: .4; cursor: default; }
   .dsp-go { display: grid; gap: 3px; justify-items: start; padding: 13px 14px; border: 0; border-radius: 14px; background: linear-gradient(135deg, var(--signal), var(--violet)); color: #fff; text-align: left; cursor: pointer; }
   .dsp-go b { font: 800 16px/1.1 var(--f-display); }
@@ -438,14 +441,15 @@
           <summary><b>📧 E-mails do dia para o Brevo</b><span id="em-n"></span></summary>
           <ol>
             <li>Toque em <b>Copiar lista</b>.</li>
-            <li>No Brevo: <b>Contatos → Importar contatos → Copiar e colar</b> → cole → crie a lista do dia.</li>
+            <li>No Brevo: <b>Contatos → Importar contatos → Copiar e colar</b> → cole → crie uma <b>lista nova</b> (ex.: Leads 15/10).</li>
             <li>Na tela de colunas, ligue <b>EMPRESA</b> e <b>MENSAGEM</b> a atributos de texto (na 1ª vez, crie os dois).</li>
-            <li>Dispare a campanha com o modelo que usa <b>{{ contact.MENSAGEM }}</b>.</li>
-            <li>Volte aqui e toque em <b>Já disparei</b>.</li>
+            <li>Volte aqui e toque em <b>🚀 Disparar no Brevo</b>: o app monta a campanha com a mensagem de cada lead e agenda para daqui a 10 minutos.</li>
           </ol>
           <div class="em-acts">
             <button type="button" class="adv" id="em-copy">Copiar lista</button>
             <button type="button" id="em-csv">Baixar planilha</button>
+            <button type="button" class="adv" id="em-send">🚀 Disparar no Brevo</button>
+            <p class="em-st" id="em-st" hidden></p>
             <button type="button" id="em-done">Já disparei → funil</button>
           </div>
         </details>
@@ -1163,6 +1167,58 @@
     var q = function (v) { return '"' + String(v || "").replace(/\s*\n+\s*/g, " ").replace(/"/g, '""') + '"'; };
     return ["EMAIL,EMPRESA,NICHO,MENSAGEM"].concat(list.map(function (p) { return [q(p.em.trim().toLowerCase()), q(p.n || p.ig), q(NICHOS[p.ni] || p.ni), q(p.msg)].join(","); })).join("\n");
   }
+
+  // ── Disparo pelo conector do Brevo (campanha com {{ contact.MENSAGEM }}, agendada para +10 min) ──
+  var BREVO = "Brevo";
+  function emSay(t, bad) { var e = $("em-st"); e.hidden = !t; e.textContent = t || ""; e.className = "em-st" + (bad ? " bad" : ""); }
+  function emErr(err) {
+    var c = err && err.code;
+    if (c === "server_not_connected" || c === "selection_required") return "Conecte o Brevo em claude.ai → Configurações → Conectores e tente de novo.";
+    if (c === "needs_reauth") return "A conexão com o Brevo expirou. Reconecte em claude.ai → Configurações → Conectores.";
+    if (c === "not_in_manifest" || c === "approval_required") return "O app precisa da sua permissão para usar o Brevo. Toque de novo e toque em Permitir.";
+    if (c === "tool_error") return "O Brevo recusou: " + (err.message || "erro sem detalhe") + ".";
+    if (c === "server_unavailable" || c === "upstream_error") return "O Brevo não respondeu. Confira em Campanhas no Brevo se a campanha foi criada antes de tentar de novo.";
+    return "Não consegui falar com o Brevo agora (" + (c || "erro") + ").";
+  }
+  function emSend() {
+    var b = $("em-send"), use = window.claude && window.claude.use ? window.claude.use("mcp") : Promise.resolve(null);
+    b.disabled = true; emSay("Conferindo sua conta no Brevo…");
+    var mcp, list, sender;
+    use.then(function (m) {
+      mcp = m; if (!mcp) throw { code: "unavailable_here" };
+      return Promise.all([
+        mcp.callTool(BREVO, "lists_get_lists", { limit: 5, sort: "desc" }, { cache: false }),
+        mcp.callTool(BREVO, "senders_get_senders", {}, { cache: false }),
+        mcp.callTool(BREVO, "attributes_get_attributes", {}, { cache: false })
+      ]);
+    }).then(function (r) {
+      var lists = (r[0].payload && r[0].payload.lists) || [], senders = ((r[1].payload && r[1].payload.senders) || []).filter(function (x) { return x.active !== false; });
+      var attrs = ((r[2].payload && r[2].payload.attributes) || []).map(function (a) { return a.name; });
+      list = lists[0]; sender = senders[0];
+      if (!sender) throw { msg: "Nenhum remetente ativo no Brevo. Cadastre um em Remetentes e domínios." };
+      if (attrs.indexOf("MENSAGEM") < 0 || attrs.indexOf("EMPRESA") < 0) throw { msg: "Faltam os atributos MENSAGEM e EMPRESA no Brevo. Crie os dois na hora de importar a lista (passo 3)." };
+      if (!list || !(list.uniqueSubscribers > 0)) throw { msg: "Não achei a lista com os leads no Brevo. Importe a lista primeiro (passos 1 a 3)." };
+      if (!confirm("Disparar para a lista \"" + list.name + "\" (" + list.uniqueSubscribers + " contatos), de " + sender.email + ", daqui a 10 minutos?")) throw { msg: "" };
+      emSay("Criando a campanha…");
+      var when = new Date(Date.now() + 10 * 60000).toISOString();
+      var html = '<div style="font-family:Arial,sans-serif;font-size:15px;line-height:1.6;color:#1a1a1a;max-width:560px">' +
+        '<p>{{ contact.MENSAGEM }}</p>' +
+        '<p style="margin-top:24px">Lindson Almeida<br>Conteúdo e tráfego pago · São Luís<br>WhatsApp (98) 98562-1808</p>' +
+        '<p style="margin-top:28px;font-size:12px;color:#888">Recebeu por engano? <a href="{{ unsubscribe }}" style="color:#888">Clique aqui para não receber mais</a>.</p></div>';
+      return mcp.callTool(BREVO, "email_campaign_management_create_email_campaign", {
+        name: list.name + " · " + today(), subject: "Uma ideia para a {{ contact.EMPRESA }}",
+        sender: { id: sender.id, name: "Lindson Almeida" }, replyTo: sender.email,
+        htmlContent: html, recipients: { listIds: [list.id] }, scheduledAt: when
+      }, { cache: false });
+    }).then(function (res) {
+      var id = res && res.payload && res.payload.id;
+      emSay("✓ Campanha criada" + (id ? " (nº " + id + ")" : "") + " e agendada para daqui a 10 minutos. Dá para conferir ou cancelar em Campanhas no Brevo. Agora toque em “Já disparei → funil”.");
+    }).catch(function (err) {
+      if (err && err.code === "unavailable_here") emSay("O disparo pelo Brevo só funciona com o app aberto no claude.ai.", true);
+      else if (err && "msg" in err) emSay(err.msg, !!err.msg);
+      else emSay(emErr(err), true);
+    }).then(function () { b.disabled = false; });
+  }
   // ── Modo disparo: um lead por vez, WhatsApp já com a mensagem, "Enviei" e vai pro próximo ──
   var dsp = { q: [], i: 0, sent: 0 };
   function dspQueue() {
@@ -1345,6 +1401,7 @@
     afterChange(r ? { clientX: r.left + r.width / 2, clientY: r.top } : null, 5);
     toast("💰", brl(c) + " lançado!", "Já está dividido nos baldes.");
   });
+  $("em-send").addEventListener("click", emSend);
   $("em-copy").addEventListener("click", function () { copyText(emCsv(emLeads()), $("em-copy")); });
   $("em-csv").addEventListener("click", function () {
     var list = emLeads(), b = $("em-csv"); if (!list.length) return;
