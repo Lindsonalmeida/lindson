@@ -482,6 +482,24 @@
         ["Rede", "4G · NFC"],
         ["Sistema", "Android 16 · realme UI"]
       ]
+    },
+    {
+      foto: "img/produtos/c71.webp?v=1", /* fotos enviadas pelo cliente */
+      id: "c71", marca: "realme", nome: "Realme C71", tag: "Carga 45 W",
+      frase: "Bateria de 6.300 mAh com carga rápida de 45 W e câmera de 50 MP.",
+      cam: "duo",
+      cores: [["Verde", "#2f4a44", "#1a2b27"], ["Branco", "#eceef0", "#c4c7cc"]],
+      dest: [["6.300 mAh", "bateria"], ["45 W", "carga rápida"], ["50 MP", "câmera"], ["120 Hz", "tela 6,67\""]],
+      ficha: [
+        ["Tela", "6,67\" LCD HD+, 120 Hz, até 725 nits"],
+        ["Processador", "Unisoc T7250"],
+        ["Memória", "4 GB / 128 GB ou 8 GB / 256 GB"],
+        ["Câmera traseira", "50 MP"],
+        ["Câmera frontal", "5 MP"],
+        ["Bateria", "6.300 mAh · 45 W"],
+        ["Resistência", "Contra poeira e respingos · MIL-STD-810H (quedas de até 1,5 m)"],
+        ["Rede", "4G · NFC"]
+      ]
     }
   ];
 
