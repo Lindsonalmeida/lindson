@@ -388,6 +388,25 @@
         ["Bateria", "5.000 mAh · 18 W"],
         ["Rede", "5G · NFC"]
       ]
+    },
+    {
+      foto: "img/produtos/realme14.webp?v=1", /* foto oficial enviada pelo cliente */
+      id: "realme14", marca: "realme", nome: "Realme 14 5G", tag: "Snapdragon",
+      frase: "Snapdragon 6 Gen 4, bateria de 6.000 mAh e resistência IP69.",
+      cam: "duo",
+      cores: [["Prata", "#e3e4e6", "#b5b7bb"], ["Rosa", "#e6b9c6", "#c98a9d"], ["Titânio", "#4a4740", "#2c2a25"]],
+      dest: [["Snapdragon", "6 Gen 4"], ["6.000 mAh", "bateria"], ["AMOLED 120 Hz", "tela 6,67\""], ["IP68 / IP69", "água e poeira"]],
+      ficha: [
+        ["Tela", "6,67\" AMOLED Full HD+, 120 Hz, até 2.000 nits"],
+        ["Processador", "Qualcomm Snapdragon 6 Gen 4 (4 nm)"],
+        ["Memória", "12 GB / 256 GB"],
+        ["Câmera traseira", "50 MP + 2 MP"],
+        ["Câmera frontal", "16 MP"],
+        ["Bateria", "6.000 mAh · 45 W"],
+        ["Resistência", "IP68 e IP69"],
+        ["Rede", "5G · NFC"],
+        ["Sistema", "Android 15 · Realme UI 6.0"]
+      ]
     }
   ];
 
