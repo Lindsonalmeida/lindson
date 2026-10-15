@@ -327,6 +327,7 @@
   .no-js .rv { opacity: 1; transform: none; }
 
   /* ── Lançamentos: vitrine com ilustração animada ── */
+  .launch-label[hidden], #grid-l[hidden] { display: none; }
   .launch-label { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; margin: 0 0 10px 2px; }
   .launch-label h2 { margin: 0; font: 800 20px/1.1 var(--f-display); }
   .launch-label h2 em { font-style: normal; background: var(--metal); -webkit-background-clip: text; background-clip: text; color: transparent; }
@@ -554,16 +555,19 @@
   </nav>
 
   <section id="portfolio" class="rv" aria-label="Portfólio de produtos">
-    <div class="launch-label"><h2>Lançamentos <em>e ofertas</em></h2><span>deslize →</span></div>
-    <div id="rail"></div>
     <p class="label">Portfólio</p>
     <div class="filters chips" data-group="filtro" role="toolbar" aria-label="Filtrar por marca">
       <button type="button" class="chip" aria-pressed="true" data-f="all">Todos</button>
       <button type="button" class="chip" aria-pressed="false" data-f="xiaomi">Xiaomi · Poco</button>
       <button type="button" class="chip" aria-pressed="false" data-f="apple">iPhone</button>
       <button type="button" class="chip" aria-pressed="false" data-f="samsung">Samsung</button>
+      <button type="button" class="chip" aria-pressed="false" data-f="realme">Realme</button>
+      <button type="button" class="chip" aria-pressed="false" data-f="motorola">Motorola</button>
       <button type="button" class="chip" aria-pressed="false" data-f="acess">Acessórios</button>
     </div>
+    <div class="launch-label"><h2>Lançamentos <em>e ofertas</em></h2><span>deslize →</span></div>
+    <div id="rail"></div>
+    <p class="label" id="grid-l" style="margin-top:8px">Direto da loja</p>
     <div class="grid" id="grid">
       <a class="card" data-cat="xiaomi" data-wa="Olá! Quero saber o preço e as cores do Redmi 15." href="https://ig.me/m/rafael.imports.slz" target="_blank" rel="noopener">
         <div class="ph"><span class="tg">Lançamento</span><img src="img/redmi.jpg" alt="Redmi 15 na mão" loading="lazy"></div>
@@ -659,7 +663,7 @@
   </div>
 </div>
 
-<script src="produtos.js?v=20261015e"></script>
+<script src="produtos.js?v=20261015f"></script>
 <script>
   /* ⚙️ Número do WhatsApp da loja: só dígitos, com 55 + DDD (ex.: "5598988887777").
      Enquanto estiver vazio, os botões abrem o Direct do Instagram. */
@@ -849,7 +853,7 @@
       function esc(t) { return String(t).replace(/[&<>"]/g, function (m) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[m]; }); }
       function mini(p) { return p.dest.map(function (d) { return "<div><b>" + esc(d[0]) + "</b><span>" + esc(d[1]) + "</span></div>"; }).join(""); }
       // Uma vitrine por marca (Xiaomi reúne Redmi e POCO)
-      var GRUPOS = [["Xiaomi · Redmi · POCO", ["Redmi", "POCO", "Xiaomi"]], ["Samsung", ["Samsung"]], ["Realme", ["realme", "Realme"]], ["Motorola", ["Motorola"]]];
+      var GRUPOS = [["Xiaomi · Redmi · POCO", ["Redmi", "POCO", "Xiaomi"], "xiaomi"], ["Samsung", ["Samsung"], "samsung"], ["Realme", ["realme", "Realme"], "realme"], ["Motorola", ["Motorola"], "motorola"]];
       function card(p, i) {
         return '<button type="button" class="pcard" data-i="' + i + '" aria-label="Ver ficha do ' + esc(p.nome) + '">' +
           '<span class="new">' + esc(p.tag) + '</span>' +
@@ -863,7 +867,7 @@
         var itens = [];
         P.forEach(function (p, i) { if (g[1].indexOf(p.marca) >= 0) itens.push(card(p, i)); });
         if (!itens.length) return "";
-        return '<h3 class="brand-h">' + esc(g[0]) + ' <span>' + itens.length + (itens.length > 1 ? " aparelhos" : " aparelho") + '</span></h3><div class="rail">' + itens.join("") + "</div>";
+        return '<div class="grp" data-g="' + g[2] + '"><h3 class="brand-h">' + esc(g[0]) + ' <span>' + itens.length + (itens.length > 1 ? " aparelhos" : " aparelho") + '</span></h3><div class="rail">' + itens.join("") + "</div></div>";
       }).join("");
 
       var sh = document.getElementById("sheet"), cur = null, ci = 0, last = null;
@@ -907,6 +911,11 @@
       document.querySelectorAll("#grid .card").forEach(function (c) {
         c.classList.toggle("hide", f !== "all" && c.dataset.cat.split(" ").indexOf(f) < 0);
       });
+      // O mesmo filtro vale para as vitrines de lançamentos por marca
+      document.querySelectorAll("#rail .grp").forEach(function (g) { g.hidden = f !== "all" && g.dataset.g !== f; });
+      // Esconde títulos sem nada embaixo
+      document.querySelector(".launch-label").hidden = !document.querySelector("#rail .grp:not([hidden])");
+      document.getElementById("grid-l").hidden = !document.querySelector("#grid .card:not(.hide)");
     }
 
     // Entrada ao rolar + botão flutuante
