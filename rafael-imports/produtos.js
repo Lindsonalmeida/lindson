@@ -463,6 +463,25 @@
         ["Sistema", "Android 15 · realme UI 6.0"],
         ["Peso", "205 g"]
       ]
+    },
+    {
+      foto: "img/produtos/c100i.webp?v=1", /* fotos enviadas pelo cliente */
+      id: "c100i", marca: "realme", nome: "Realme C100i", tag: "Lançamento",
+      frase: "Tela de 6,8\" 120 Hz e bateria de 6.600 mAh com Android 16.",
+      cam: "duo",
+      cores: [["Roxo Dawn", "#e6d3ec", "#c0a4cf"], ["Cinza Dusk", "#d2d4d8", "#a3a6ac"]],
+      dest: [["6.600 mAh", "bateria"], ["6,8\" 120 Hz", "tela grande"], ["Android 16", "sistema"], ["IP64", "respingos e poeira"]],
+      ficha: [
+        ["Tela", "6,8\" LCD IPS HD+, 120 Hz"],
+        ["Processador", "Unisoc T7250"],
+        ["Memória", "4 GB / 128 GB ou 4 GB / 256 GB"],
+        ["Câmera traseira", "8 MP"],
+        ["Câmera frontal", "5 MP"],
+        ["Bateria", "6.600 mAh · 15 W"],
+        ["Resistência", "IP64"],
+        ["Rede", "4G · NFC"],
+        ["Sistema", "Android 16 · realme UI"]
+      ]
     }
   ];
 
