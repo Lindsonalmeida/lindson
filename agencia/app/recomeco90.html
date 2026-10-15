@@ -231,6 +231,16 @@
   .chips::-webkit-scrollbar { display: block; height: 6px; }
   .chips::-webkit-scrollbar-track { background: var(--ink-3); border-radius: 99px; }
   .chips::-webkit-scrollbar-thumb { background: var(--signal); border-radius: 99px; }
+  .em-box { border-radius: 14px; border: 1px solid var(--line-2); background: var(--ink-3); padding: 0 14px; }
+  .em-box summary { display: grid; gap: 3px; padding: 12px 0; cursor: pointer; list-style: none; }
+  .em-box summary::-webkit-details-marker { display: none; }
+  .em-box summary b { font: 800 15px/1.1 var(--f-display); }
+  .em-box summary span { font-size: 12.5px; color: var(--muted); }
+  .em-box ol { margin: 0 0 10px; padding-left: 20px; font-size: 13px; color: var(--lead); display: grid; gap: 5px; }
+  .em-acts { display: grid; gap: 8px; padding-bottom: 14px; }
+  .em-acts button { padding: 12px; border-radius: 12px; border: 1px solid var(--line-2); background: transparent; color: var(--fg); font: 700 14px/1 var(--f-body); cursor: pointer; }
+  .em-acts .adv { border: 0; background: linear-gradient(135deg, var(--signal), var(--violet)); color: #fff; }
+  .em-acts button:disabled { opacity: .4; cursor: default; }
   .dsp-go { display: grid; gap: 3px; justify-items: start; padding: 13px 14px; border: 0; border-radius: 14px; background: linear-gradient(135deg, var(--signal), var(--violet)); color: #fff; text-align: left; cursor: pointer; }
   .dsp-go b { font: 800 16px/1.1 var(--f-display); }
   .dsp-go span { font-size: 12.5px; opacity: .85; }
@@ -424,6 +434,21 @@
         <div class="bar"><i id="pq-fill" style="width:0%"></i></div>
         <p>Mande a mensagem, toque em <b style="color:var(--fg)">Mandei → Funil</b> e siga para o próximo. Confira o perfil antes: os dados vêm de buscas públicas.</p>
         <button type="button" class="dsp-go" id="dsp-go"><b>⚡ Modo disparo</b><span id="dsp-go-n"></span></button>
+        <details class="em-box" id="em-box">
+          <summary><b>📧 E-mails do dia para o Brevo</b><span id="em-n"></span></summary>
+          <ol>
+            <li>Toque em <b>Copiar lista</b>.</li>
+            <li>No Brevo: <b>Contatos → Importar contatos → Copiar e colar</b> → cole → crie a lista do dia.</li>
+            <li>Na tela de colunas, ligue <b>EMPRESA</b> e <b>MENSAGEM</b> a atributos de texto (na 1ª vez, crie os dois).</li>
+            <li>Dispare a campanha com o modelo que usa <b>{{ contact.MENSAGEM }}</b>.</li>
+            <li>Volte aqui e toque em <b>Já disparei</b>.</li>
+          </ol>
+          <div class="em-acts">
+            <button type="button" class="adv" id="em-copy">Copiar lista</button>
+            <button type="button" id="em-csv">Baixar planilha</button>
+            <button type="button" id="em-done">Já disparei → funil</button>
+          </div>
+        </details>
       </div>
       <label class="pq-pick" for="pq-sel"><span>Nicho</span><select id="pq-sel"></select></label>
       <div class="chips" id="pq-chips" role="group" aria-label="Filtrar por nicho"></div>
@@ -1129,6 +1154,15 @@
     S.leads.push({ id: "pq" + Date.now().toString(36) + Math.random().toString(36).slice(2, 5), n: String(p.n || p.ig).slice(0, 50), b: [NICHOS[p.ni] || "", p.bai || ""].filter(Boolean).join(" · ").slice(0, 50), w: String(p.wa || p.tel || "").slice(0, 20), ig: p.ig || "", em: p.em || "", p: p.pl || "", id2: ideias.slice(0, 3), m1: p.msg || "", pid: p.id, ni: p.ni || "", rot: !hasEnt(p) && hasRot(p) ? p.rot : undefined, ent: hasEnt(p) ? p.ent : undefined, cv: p.convite || "", st: 0, mx: 0, h: { 0: t }, lc: t, cd: t, nx: "Fazer follow-up", nd: addDays(t, 2) });
     S.pq.s[p.id] = "f"; renderProspec(); fuSave(e, 2);
   }
+  // ── E-mails do dia: lista pronta para importar no Brevo (cada lead com a própria mensagem) ──
+  function emLeads() {
+    if (!PQ) return [];
+    return PQ.leads.filter(function (p) { return (!pqNi || p.ni === pqNi) && !S.pq.s[p.id] && p.em && /@/.test(p.em) && p.msg; });
+  }
+  function emCsv(list) {
+    var q = function (v) { return '"' + String(v || "").replace(/\s*\n+\s*/g, " ").replace(/"/g, '""') + '"'; };
+    return ["EMAIL,EMPRESA,NICHO,MENSAGEM"].concat(list.map(function (p) { return [q(p.em.trim().toLowerCase()), q(p.n || p.ig), q(NICHOS[p.ni] || p.ni), q(p.msg)].join(","); })).join("\n");
+  }
   // ── Modo disparo: um lead por vez, WhatsApp já com a mensagem, "Enviei" e vai pro próximo ──
   var dsp = { q: [], i: 0, sent: 0 };
   function dspQueue() {
@@ -1222,6 +1256,8 @@
     if (PQ.data) { var dd = PQ.data.split("-"); $("pq-date").textContent = "Lista de " + dd[2] + "/" + dd[1] + (PQ.data === today() ? " · hoje" : ""); }
     $("pq-prog").textContent = all.length ? worked + " de " + all.length + " trabalhados · " + sent + " no funil" : (PQ.err ? "Não consegui carregar a lista agora." : "A lista de hoje ainda não chegou. Ela é montada toda manhã.");
     $("pq-fill").style.width = (all.length ? worked / all.length * 100 : 0) + "%";
+    var ne = emLeads().length; $("em-n").textContent = ne ? ne + (ne > 1 ? " leads com e-mail" : " lead com e-mail") : "nenhum lead com e-mail pendente";
+    ["em-copy", "em-csv", "em-done"].forEach(function (k) { $(k).disabled = !ne; });
     var nq = dspQueue().length; $("dsp-go").disabled = !nq;
     $("dsp-go-n").textContent = nq ? nq + (nq > 1 ? " leads com WhatsApp" : " lead com WhatsApp") + (pqNi ? " · " + (NICHOS[pqNi] || pqNi) : "") : "nenhum lead com WhatsApp pendente";
     var chips = $("pq-chips"); chips.innerHTML = "";
@@ -1308,6 +1344,21 @@
     var r = ev.submitter ? ev.submitter.getBoundingClientRect() : null;
     afterChange(r ? { clientX: r.left + r.width / 2, clientY: r.top } : null, 5);
     toast("💰", brl(c) + " lançado!", "Já está dividido nos baldes.");
+  });
+  $("em-copy").addEventListener("click", function () { copyText(emCsv(emLeads()), $("em-copy")); });
+  $("em-csv").addEventListener("click", function () {
+    var list = emLeads(); if (!list.length) return;
+    try {
+      var a = document.createElement("a"), d = (PQ && PQ.data) || today();
+      a.href = URL.createObjectURL(new Blob(["\ufeff" + emCsv(list)], { type: "text/csv;charset=utf-8" }));
+      a.download = "emails-" + d + (pqNi ? "-" + pqNi : "") + ".csv"; document.body.appendChild(a); a.click(); a.remove();
+    } catch (e) { copyText(emCsv(list), $("em-csv")); }
+  });
+  $("em-done").addEventListener("click", function (e) {
+    var list = emLeads(); if (!list.length) return;
+    if (!confirm("Mandar " + list.length + (list.length > 1 ? " leads" : " lead") + " que receberam o e-mail para o funil?")) return;
+    list.forEach(function (p) { pqToFunnel(p, e); });
+    toast("📧", list.length + " no funil", "Follow-up marcado para daqui a 2 dias.");
   });
   $("dsp-go").addEventListener("click", dspOpen);
   $("dsp-x").addEventListener("click", dspClose);
