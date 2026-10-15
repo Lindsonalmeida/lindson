@@ -63,23 +63,20 @@ Todo dia, 10 leads novos por nicho (100 no total) de negócios da Grande São Lu
 3. O que o impede hoje?
 4. Qual detalhe prova que você olhou de verdade?
 
-A mensagem tem que fazer o dono parar e pensar "ele tá falando comigo, preciso responder". Curta: **até 220 caracteres, 2 ou 3 linhas**, cara de mensagem de pessoa, não de empresa.
+**Posicionamento:** o Lindson não é "o cara do vídeo" nem "o cara do tráfego". Ele é **um braço comercial dentro do negócio**: ajuda o dono a vender mais e mostra como. A mensagem fala do **resultado do negócio** (agenda, vendas, pedidos, contratos), nunca da vida da pessoa.
 
-**Técnicas de atenção (use 1 ou 2 por mensagem, varie entre os leads):**
-1. **Nome + detalhe só dele na 1ª linha.** O nome do negócio ou do dono e algo que só quem olhou sabe (um prato, um procedimento, um post, o bairro). Ex.: "Dra. Paula, aquele antes e depois de lente no Calhau tá muito bom."
-2. **Pergunta que só ele sabe responder.** Fácil, de resposta curta, sobre o negócio dele. Ex.: "Hoje o smash sai mais no balcão ou no delivery?"
-3. **Lacuna de curiosidade.** Diz que notou algo e não entrega tudo. Ex.: "Vi um detalhe no perfil de vocês que tá deixando cliente ir embora. Posso te falar?"
-4. **Rótulo de empatia (Chris Voss).** Ex.: "Parece que a agenda de vocês enche no fim do mês e esvazia no começo."
-5. **Pergunta do não (Voss).** Fácil de responder sem compromisso. Ex.: "Seria loucura gravar 3 vídeos num dia só aí na clínica?" ou "Te incomodo se eu mandar uma ideia?"
-6. **Presente pronto (reciprocidade, Cialdini).** Algo já feito pra ele, sem pedir nada. Ex.: "Montei 3 ideias de vídeo pro cardápio de vocês. Mando aqui?"
-7. **Timing.** Data, estação ou evento que mexe com o negócio. Ex.: "Dezembro é o mês que mais vende harmonização. Vocês já têm conteúdo pronto pra isso?"
-8. **Prova do bairro.** Algo que o concorrente ou o bairro dele está fazendo, sem citar nome. Ex.: "Tem hamburgueria na Cohama vendendo o dobro só com vídeo de montagem."
+**Não parecer stalker:** no máximo 1 dado público, e só se for do negócio (o serviço, o bairro). Nada de citar post, foto, viagem, evento ou número de seguidores.
 
-**Estrutura:** linha 1 = gancho (nome + detalhe). Linha 2 = o ponto (observação, lacuna ou presente). Linha 3 = pergunta curta que pede só um "sim", um "manda" ou uma palavra.
+**Estrutura (até 220 caracteres, 3 linhas):**
+1. **Nome + a dor comum do nicho**, dita como quem conhece o mercado. Ex.: "Dra. Paula, em clínica de estética a agenda costuma oscilar muito de um mês pro outro."
+2. **O que o Lindson faz, em linguagem de resultado:** "Eu ajudo clínicas a ter um caminho fixo de cliente novo: anúncio, atendimento no WhatsApp e retorno."
+3. **Oferta leve + pergunta de sim:** "Posso te mostrar como ficaria pra vocês?" / "Te mando um plano de 1 página?"
 
-**Nunca:** "Olá, tudo bem?", "Prezado", "Somos uma agência", "Gostaria de apresentar", texto genérico que serviria pra qualquer negócio, parágrafo longo, link na 1ª mensagem. Teste: se trocar o nome do negócio e a mensagem ainda servir pra outro, reescreva.
+**Técnicas:** autoridade de mercado (falar como quem conhece o nicho), pergunta do não de Chris Voss ("Seria loucura…?"), presente pronto (o plano já existe, é só mandar).
 
-Regras: nenhuma abertura ou fechamento repetido entre leads do mesmo dia; "aqui de São Luís" no máximo 1 vez por nicho; sem "sou o Lindson, faço vídeo e tráfego"; sem preço; sem pedir reunião; sem prometer número de clientes; sem criticar o perfil; só fatos do lead (nunca invente post, prato ou detalhe); no máximo 1 emoji.
+**Nunca:** "Olá, tudo bem?", "Somos uma agência", lista de serviços, preço, link, elogio genérico, detalhe pessoal.
+
+Regras: nenhuma abertura repetida entre leads do mesmo dia; sem prometer número de clientes; sem criticar o perfil; só fatos verdadeiros; no máximo 1 emoji.
 
 ### A entrega (quando disser sim)
 
