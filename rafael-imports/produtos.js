@@ -4,7 +4,7 @@
 (function (root) {
   var P = [
     {
-      foto: null, /* foto real: "img/produtos/x8pro.jpg" */
+      foto: "img/produtos/x8pro.webp?v=1", /* foto oficial enviada pelo cliente */
       id: "x8pro", marca: "POCO", nome: "POCO X8 Pro", tag: "Desempenho topo",
       frase: "Chip de topo, tela 1,5K e bateria que aguenta o dia pesado.",
       cam: "duo",
