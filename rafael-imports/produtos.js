@@ -297,6 +297,97 @@
         ["Rede", "5G · NFC"],
         ["Peso", "218 g"]
       ]
+    },
+    {
+      foto: "img/produtos/a5.webp?v=1", /* foto do cartaz da loja */
+      id: "a5", marca: "Redmi", nome: "Redmi A5", tag: "Entrada",
+      frase: "Telão de 6,88\" 120 Hz e bateria de 5.200 mAh pelo melhor preço.",
+      cam: "duo",
+      cores: [["Azul", "#cfe4ee", "#9cc4d8"], ["Verde", "#d6e8cf", "#a9c99c"], ["Dourado", "#efe2c4", "#cdb98a"], ["Preto", "#2a2c30", "#141518"]],
+      dest: [["6,88\" 120 Hz", "tela grande"], ["5.200 mAh", "bateria"], ["32 MP", "câmera"], ["4 GB / 128 GB", "memória"]],
+      ficha: [
+        ["Tela", "6,88\" LCD HD+, 120 Hz"],
+        ["Processador", "Unisoc T7250"],
+        ["Memória", "4 GB / 128 GB"],
+        ["Câmera traseira", "32 MP"],
+        ["Câmera frontal", "8 MP"],
+        ["Bateria", "5.200 mAh · 15 W"]
+      ]
+    },
+    {
+      foto: "img/produtos/a57.webp?v=1", /* foto do cartaz da loja */
+      id: "a57", marca: "Samsung", nome: "Samsung Galaxy A57 5G", tag: "Lançamento",
+      frase: "Super AMOLED de 6,7\" 120 Hz, Exynos 1680, IP68 e só 6,9 mm.",
+      cam: "duo",
+      cores: [["Lilás", "#d9d3ee", "#aaa0d0"], ["Branco", "#eef0f2", "#c9ccd1"], ["Cinza", "#6b6d72", "#45474b"], ["Azul-marinho", "#2b3247", "#171c2b"]],
+      dest: [["Exynos 1680", "chip 4 nm"], ["Super AMOLED", "6,7\" 120 Hz"], ["50 MP OIS", "câmera tripla"], ["IP68", "água e poeira"]],
+      ficha: [
+        ["Tela", "6,7\" Super AMOLED Plus Full HD+, 120 Hz, Gorilla Glass Victus+"],
+        ["Processador", "Samsung Exynos 1680 (4 nm)"],
+        ["Memória", "8 GB / 256 GB"],
+        ["Câmera traseira", "50 MP com OIS + 12 MP ultra-wide + 5 MP macro"],
+        ["Câmera frontal", "12 MP (vídeo 4K)"],
+        ["Bateria", "5.000 mAh · 45 W"],
+        ["Resistência", "IP68"],
+        ["Rede", "5G · NFC"],
+        ["Sistema", "Android 16 · One UI 8.5"],
+        ["Peso", "179 g · 6,9 mm"]
+      ]
+    },
+    {
+      foto: "img/produtos/a37.webp?v=1", /* foto do cartaz da loja */
+      id: "a37", marca: "Samsung", nome: "Samsung Galaxy A37 5G", tag: "Lançamento",
+      frase: "Super AMOLED de 6,7\" 120 Hz, câmera de 50 MP com OIS e IP68.",
+      cam: "duo",
+      cores: [["Branco", "#eef0f2", "#c9ccd1"], ["Lilás", "#d9d3ee", "#aaa0d0"], ["Verde-escuro", "#3a4a48", "#232e2c"], ["Grafite", "#3a3c40", "#222326"]],
+      dest: [["Exynos 1480", "chip 4 nm"], ["Super AMOLED", "6,7\" 120 Hz"], ["50 MP OIS", "câmera tripla"], ["IP68", "água e poeira"]],
+      ficha: [
+        ["Tela", "6,7\" Super AMOLED Full HD+, 120 Hz"],
+        ["Processador", "Samsung Exynos 1480 (4 nm)"],
+        ["Memória", "8 GB / 256 GB"],
+        ["Câmera traseira", "50 MP com OIS + 8 MP ultra-wide + 5 MP macro"],
+        ["Câmera frontal", "12 MP"],
+        ["Bateria", "5.000 mAh · 45 W"],
+        ["Resistência", "IP68"],
+        ["Rede", "5G · NFC"],
+        ["Sistema", "Android 16 · One UI 8.5"]
+      ]
+    },
+    {
+      foto: "img/produtos/edge70.webp?v=1", /* foto do cartaz da loja */
+      id: "edge70", marca: "Motorola", nome: "Motorola Edge 70 Fusion 5G", tag: "Tela 144 Hz",
+      frase: "Tela AMOLED curva de 6,8\" 144 Hz, câmera Sony e selfie de 32 MP.",
+      cam: "duo",
+      cores: [["Grafite", "#3a3c44", "#24252b"], ["Verde", "#1f8a6a", "#125a45"]],
+      dest: [["AMOLED 144 Hz", "tela 6,8\" curva"], ["32 MP", "selfie"], ["50 MP Sony", "câmera"], ["IP68 / IP69", "água e poeira"]],
+      ficha: [
+        ["Tela", "6,8\" AMOLED curva 1,5K, 144 Hz, HDR10+"],
+        ["Processador", "Qualcomm Snapdragon 7s (versão internacional: 7s Gen 3)"],
+        ["Memória", "8 GB / 256 GB"],
+        ["Câmera traseira", "50 MP Sony LYTIA 710 + 13 MP"],
+        ["Câmera frontal", "32 MP"],
+        ["Bateria", "5.200 mAh (versão vendida na loja)"],
+        ["Resistência", "IP68 e IP69"],
+        ["Rede", "5G · NFC"],
+        ["Sistema", "Android 16"]
+      ]
+    },
+    {
+      foto: "img/produtos/g35.webp?v=1", /* foto do cartaz da loja */
+      id: "g35", marca: "Motorola", nome: "Motorola Moto G35 5G", tag: "5G + NFC",
+      frase: "5G barato, tela de 6,72\" 120 Hz e selfie de 16 MP.",
+      cam: "duo",
+      cores: [["Preto", "#2a2c30", "#141518"], ["Verde", "#3f8a3f", "#285a28"], ["Vermelho", "#e0584a", "#b03a2e"]],
+      dest: [["5G", "com NFC"], ["6,72\" 120 Hz", "tela Full HD+"], ["50 MP", "câmera"], ["5.000 mAh", "bateria"]],
+      ficha: [
+        ["Tela", "6,72\" LCD IPS Full HD+, 120 Hz"],
+        ["Processador", "Unisoc T760"],
+        ["Memória", "4 GB / 256 GB"],
+        ["Câmera traseira", "50 MP + 8 MP ultra-wide"],
+        ["Câmera frontal", "16 MP"],
+        ["Bateria", "5.000 mAh · 18 W"],
+        ["Rede", "5G · NFC"]
+      ]
     }
   ];
 
