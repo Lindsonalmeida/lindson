@@ -55,28 +55,14 @@ Todo dia, 10 leads novos por nicho (100 no total) de negócios da Grande São Lu
 | `convite` | 2 linhas enviadas depois dos roteiros (oferta + pergunta calibrada), no padrão de `ENTREGA.md` |
 | `src` | URL de onde vieram os dados |
 
-## Como escrever a mensagem
-
-**Cada lead tem uma abordagem própria.** Não existe fórmula fixa: antes de escrever, responda para aquele negócio específico:
-1. Qual é a situação única dele (o que a bio, o bairro, os seguidores e a análise mostram)?
-2. O que o dono provavelmente quer agora (objetivo final na língua dele: agenda cheia, unidades vendidas, matrícula, pedidos)?
-3. O que o impede hoje?
-4. Qual detalhe prova que você olhou de verdade?
-
-**Posicionamento:** o Lindson não é "o cara do vídeo" nem "o cara do tráfego". Ele é **um braço comercial dentro do negócio**: ajuda o dono a vender mais e mostra como. A mensagem fala do **resultado do negócio** (agenda, vendas, pedidos, contratos), nunca da vida da pessoa.
-
-**Não parecer stalker:** no máximo 1 dado público, e só se for do negócio (o serviço, o bairro). Nada de citar post, foto, viagem, evento ou número de seguidores.
-
-**Estrutura (3 linhas, linguagem simples, como uma pessoa falaria):**
-1. **Saudação + quem é:** "Oi, Dra. Paula! Tudo bem? Sou o Lindson, aqui de São Luís."
-2. **O que faz, em resultado concreto pro nicho:** "Ajudo clínicas de estética a lotar a agenda com anúncio e um bom atendimento no WhatsApp."
-3. **Pergunta direta:** "Posso te mostrar como faria isso pra vocês?" / "Vocês têm interesse?"
-
-Teste: se a pessoa precisar ler duas vezes pra entender, reescreva. Nada de frase de efeito ou jargão ("caminho fixo", "seria loucura").
-
-**Nunca:** "Olá, tudo bem?", "Somos uma agência", lista de serviços, preço, link, elogio genérico, detalhe pessoal.
-
-Regras: nenhuma abertura repetida entre leads do mesmo dia; sem prometer número de clientes; sem criticar o perfil; só fatos verdadeiros; no máximo 1 emoji.
+## Como escrever a mensagem: Conexão, Dor, Desejo
+A mensagem tem que ser entendida numa única leitura por um dono de negócio comum. Fale como uma pessoa fala no WhatsApp. Até 280 caracteres, 3 ou 4 linhas curtas:
+1. CONEXÃO: saudação simples + quem é. Ex.: "Oi, Dra. Paula! Tudo bem? Sou o Lindson, aqui de São Luís." (varie: "Aqui é o Lindson.", "Meu nome é Lindson.")
+2. DOR: uma frase com uma dor real e comum do nicho, dita na língua do dono, que faça ele pensar "isso acontece comigo". Ex.: "O paciente pede orçamento de implante, diz que vai pensar… e não volta mais." / "Sábado lotado e terça vazia: conheço bem essa agenda." / "O cliente chama, pergunta o preço do imóvel… e some."
+3. DESEJO: o resultado que ele quer + como o Lindson ajuda, em palavras simples. Ex.: "Eu ajudo clínicas a ter paciente novo chegando toda semana, com anúncio e atendimento no WhatsApp."
+4. PERGUNTA de sim: "Posso te mostrar como faria pra vocês?" / "Quer que eu te mostre?" / "Posso te mandar como funciona?"
+Use o nome do negócio ou do dono na saudação. Um detalhe do lead só entra se for simples e do negócio (o serviço principal ou o bairro), nunca da vida pessoal.
+PROIBIDO: "vi que", "parece que", "gargalo", "desenho de campanha", "plateia", "o que costuma travar", frases de efeito, jargão de marketing, análise do perfil, elogio genérico, citar número de seguidores ou posts, pergunta difícil de responder. Também proibido: preço, link, pedir reunião, prometer número de clientes, criticar o perfil, inventar fatos, mais de 1 emoji. Saúde: sem promessa de resultado. Teste final de cada msg: se o dono precisar ler duas vezes pra entender, reescreva. Varie a dor e a abertura entre os leads do mesmo nicho.
 
 ### A entrega (quando disser sim)
 
