@@ -12,3 +12,7 @@ Sempre que o Lindson pedir um mini site / site bio para um cliente, **antes de c
 6. Depois de publicar, atualizar a tabela "Clientes ativos" no fim de `agencia/processos/mini-site-cliente.md`.
 
 Clientes ativos hoje: Rafael Imports → repositório `Lindsonalmeida/rafaelimports` → https://rafaelimports.pages.dev
+
+## Copy de vendas (padrão aprovado)
+
+Toda mensagem de abordagem e copy curta de venda segue `agencia/prospeccao/PADRAO-COPY.md`: **Conexão → Dor → Desejo → Pergunta**, linguagem simples de WhatsApp, entendida numa única leitura. Nunca usar "vi que", "parece que", "gargalo", jargão de marketing ou análise do perfil da pessoa.
