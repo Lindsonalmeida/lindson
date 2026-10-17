@@ -23,6 +23,11 @@ Todo dia, 10 leads novos por nicho (100 no total) de negócios da Grande São Lu
 - O Instagram não abre diretamente. Os dados vêm dos resultados de busca (bio, seguidores), do site do negócio, do Linktree, do Google e de guias como Solutudo, Apontador e Guia Mais.
 - Abra o site ou o link da bio quando houver, para achar WhatsApp e e-mail.
 
+## Contato e repetição (obrigatório)
+
+- **Contato:** o ideal é Instagram **e** WhatsApp. No mínimo, Instagram confirmado. Sem Instagram e sem WhatsApp, o lead **não entra**.
+- **Nunca repetir:** compare cada lead com todos os leads dos últimos 30 dias pelo @, pelo nome normalizado (minúsculo, sem acento e sem espaço) e pelos últimos 8 dígitos do telefone. Se qualquer um bater, descarte. É melhor entregar menos leads do que repetir.
+
 ## Regras
 
 - **Nunca invente dados.** Campo não encontrado = `null`. O WhatsApp só entra se aparecer escrito em alguma fonte.
