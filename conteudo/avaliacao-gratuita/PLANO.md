@@ -40,3 +40,14 @@ Planejado pelo time (Hormozi Squad: ofertas, ganchos e leads; Copy Squad: padrã
 - Visual: padrão dos criativos aprovados (amarelo, azul ou escuro da identidade, título grosso com palavra em destaque, etiquetas inclinadas).
 - Copy: padrão aprovado em `agencia/prospeccao/PADRAO-COPY.md`.
 - Fotos: uma foto nova por conteúdo, nunca repetir (`conteudo/fotos/REGISTRO.md`).
+
+## Roteiros dos Reels (até 30 s, falando pra câmera)
+
+**4 · O que eu olho primeiro no seu perfil**
+"Quando eu entro no seu perfil, eu olho 3 coisas. A foto: dá pra ver quem você é? A bio: em duas linhas eu sei o que você vende? E o botão: é fácil te chamar no WhatsApp? Se falhou uma, o cliente vai embora. Quer saber como está o seu? Comenta AVALIAÇÃO."
+
+**6 · Como funciona a avaliação grátis**
+"Funciona assim. Um: você comenta AVALIAÇÃO aqui. Dois: eu entro no seu perfil e olho tudo, com calma. Três: te mando no direct um vídeo de até 5 minutos com 3 coisas pra ajustar e 1 solução pronta. Sem compromisso. Comenta AVALIAÇÃO."
+
+**9 · É grátis mesmo?**
+"Todo mundo me pergunta: é grátis mesmo? É. Você recebe o vídeo, aplica sozinho se quiser. Se quiser ajuda pra fazer, aí eu te mostro um pacote que cabe no bolso. Mas a avaliação é sua, de graça. Comenta AVALIAÇÃO."

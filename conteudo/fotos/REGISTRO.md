@@ -33,3 +33,8 @@ Fotos que o Lindson mostrou mas que ainda não chegaram como arquivo: celular no
 - trator-encostado-bone.jpg → conteúdo 3 (capa 7 sinais)
 - trator-mao-na-testa.jpg → conteúdo 4 (capa Reels)
 - trator-olhando-horizonte.jpg → conteúdo 5 (capa bio)
+- caminhonete-telefone.jpg → conteúdo 6 (capa Reels como funciona) — placa borrada
+- pneu-olhando-lado.jpg → conteúdo 7 (post falta de caminho)
+- pneu-braco-apoiado.jpg → conteúdo 8 (capa postar todo dia)
+- cerca-celular-sorrindo.jpg → conteúdo 9 (capa Reels é grátis)
+- pneu-mao-no-bolso.jpg → conteúdo 10 (post últimas vagas)
