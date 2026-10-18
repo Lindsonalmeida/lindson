@@ -268,9 +268,9 @@ async function boot(){
   [db,assets,sample,downloads]=await Promise.all(['db','assets','sample','downloads'].map(n=>c.use(n).catch(()=>null)));
   if(!db){status('Não consegui abrir seu espaço de dados. Entre na sua conta do Claude e recarregue.','err');return}
   db.doc('app/config').onSnapshot(s=>{ if(s.exists){cfg=Object.assign(structuredClone(DEF),s.data());cfg.cores=Object.assign({},DEF.cores,cfg.cores||{});} carregarFontes(); preencherMarca(); renderTudo(); },e=>status('Erro ao ler a identidade: '+e.message,'err'));
-  db.collection('app/fotos').onSnapshot(s=>{fotos=s.docs.map(d=>({id:d.id,...d.data()})).sort((a,b)=>(a.criadaEm||0)-(b.criadaEm||0));renderFotos();renderTudo()});
-  db.collection('app/conteudos').onSnapshot(s=>{conteudos=s.docs.map(d=>({id:d.id,...d.data()})).sort((a,b)=>(b.criadoEm||0)-(a.criadoEm||0));renderTudo()});
-  db.collection('app/marca').onSnapshot(s=>{marcaFiles=s.docs.map(d=>({id:d.id,...d.data()}));renderMarcaFiles()});
+  db.collection('fotos').onSnapshot(s=>{fotos=s.docs.map(d=>({id:d.id,...d.data()})).sort((a,b)=>(a.criadaEm||0)-(b.criadaEm||0));renderFotos();renderTudo()});
+  db.collection('conteudos').onSnapshot(s=>{conteudos=s.docs.map(d=>({id:d.id,...d.data()})).sort((a,b)=>(b.criadoEm||0)-(a.criadoEm||0));renderTudo()});
+  db.collection('marca').onSnapshot(s=>{marcaFiles=s.docs.map(d=>({id:d.id,...d.data()}));renderMarcaFiles()});
   status(sample?'':'A IA não está liberada nesta visualização. Você ainda pode ver, editar e baixar.', sample?'':'err');
   if(!assets){$('#up-fotos').disabled=true;$('#up-marca').disabled=true}
 }
@@ -539,8 +539,8 @@ ${formato(t,telas)}`;
       const doc={tipo:t,tema:temaTxt,variante:v,titulo:r.titulo||'Sem título',legenda:r.legenda||'',hashtags:(r.hashtags||[]).slice(0,5),
         roteiro:r.roteiro||'',status:'rascunho',criadoEm:Date.now(),fotos:pegar,dataPlanejada:''};
       if(t==='reels_video')doc.cenas=ss;else doc.slides=ss;
-      const ref=await db.collection('app/conteudos').add(doc);
-      for(const fid of pegar){await db.doc('app/fotos/'+fid).update({usadaEm:ref.id,usadaTitulo:doc.titulo}).catch(()=>{});
+      const ref=await db.collection('conteudos').add(doc);
+      for(const fid of pegar){await db.doc('fotos/'+fid).update({usadaEm:ref.id,usadaTitulo:doc.titulo}).catch(()=>{});
         const f=fotos.find(x=>x.id===fid);if(f)f.usadaEm=ref.id}
       feitos.push(doc.titulo);
     }catch(e){erros++;console.warn(e);if(e&&e.code==='rate_limited'){mostrar('#gerar-msg','Muitos pedidos seguidos. Espere um minuto e tente de novo.','err');break}}
@@ -594,14 +594,14 @@ function abrir(c){
 }
 function lerForm(){atual.legenda=$('#leg').value;atual.hashtags=$('#tags').value.split(/\s+/).filter(Boolean).map(h=>h.startsWith('#')?h:'#'+h);atual.dataPlanejada=$('#dplan').value;const r=$('#rot');if(r)atual.roteiro=r.value}
 async function salvarAtual(){lerForm();if(atual.exemplo||!db){mostrar('#post-msg','O exemplo não é salvo.','err');return false}
-  const{id,...rest}=atual;try{await db.doc('app/conteudos/'+id).set(rest);return true}catch(e){mostrar('#post-msg','Não consegui salvar: '+e.message,'err');return false}}
+  const{id,...rest}=atual;try{await db.doc('conteudos/'+id).set(rest);return true}catch(e){mostrar('#post-msg','Não consegui salvar: '+e.message,'err');return false}}
 let confirmaExcluir=false;
 async function excluirAtual(){
   if(atual.exemplo)return;
   if(!confirmaExcluir){confirmaExcluir=true;$('#excluir').textContent='Clique de novo para excluir';setTimeout(()=>{confirmaExcluir=false;const b=$('#excluir');if(b)b.textContent='Excluir'},4000);return}
   confirmaExcluir=false;
-  for(const fid of atual.fotos||[])await db.doc('app/fotos/'+fid).update({usadaEm:null,usadaTitulo:null}).catch(()=>{});
-  await db.doc('app/conteudos/'+atual.id).delete();$('#dlg').close();
+  for(const fid of atual.fotos||[])await db.doc('fotos/'+fid).update({usadaEm:null,usadaTitulo:null}).catch(()=>{});
+  await db.doc('conteudos/'+atual.id).delete();$('#dlg').close();
 }
 async function refazerLegenda(){
   if(!sample){mostrar('#post-msg','A IA não está liberada nesta visualização.','err');return}
@@ -672,7 +672,7 @@ async function reduzir(file,max=1600){
 async function subirFotos(files){
   if(!assets||!db){mostrar('#fotos-msg','Só quem edita este app pode subir fotos.','err');return}
   let ok=0;for(const[i,f]of files.entries()){mostrar('#fotos-msg',`Subindo ${i+1} de ${files.length}…`);
-    try{const b=await reduzir(f);const r=await assets.upload(b,{type:'image/jpeg'});await db.collection('app/fotos').add({assetId:r.id,url:r.url,nome:f.name,usadaEm:null,criadaEm:Date.now()});ok++}
+    try{const b=await reduzir(f);const r=await assets.upload(b,{type:'image/jpeg'});await db.collection('fotos').add({assetId:r.id,url:r.url,nome:f.name,usadaEm:null,criadaEm:Date.now()});ok++}
     catch(e){mostrar('#fotos-msg',`Falhou em ${f.name}: ${e.message||e.code}`,'err')}}
   mostrar('#fotos-msg',`${ok} foto(s) no banco.`,'good');
 }
@@ -681,7 +681,7 @@ function renderFotos(){
   el.replaceChildren(...fotos.map(f=>{const d=document.createElement('div');d.className='ph'+(f.usadaEm?' used':'');
     d.innerHTML=`<img alt="${esc(f.nome||'foto')}" src="${esc(f.url)}" loading="lazy"><span class="tag chip ${f.usadaEm?'':'ok'}">${f.usadaEm?'Usada':'Livre'}</span>`;
     if(f.usadaEm){d.title='Usada em: '+(f.usadaTitulo||'')}
-    else{const b=document.createElement('button');b.textContent='Apagar';b.onclick=async()=>{if(b.dataset.c){await db.doc('app/fotos/'+f.id).delete();assets&&assets.delete(f.assetId).catch(()=>{})}else{b.dataset.c=1;b.textContent='Confirmar?'}};d.appendChild(b)}
+    else{const b=document.createElement('button');b.textContent='Apagar';b.onclick=async()=>{if(b.dataset.c){await db.doc('fotos/'+f.id).delete();assets&&assets.delete(f.assetId).catch(()=>{})}else{b.dataset.c=1;b.textContent='Confirmar?'}};d.appendChild(b)}
     return d}));
   if(!fotos.length)el.innerHTML='<p class="muted">Nenhuma foto ainda. Suba suas fotos para elas entrarem nas capas e posts.</p>';
 }
@@ -714,8 +714,8 @@ async function subirMarca(files){
         for(let p=1;p<=n;p++){mostrar('#marca-msg',`Convertendo página ${p} de ${n}…`);const pg=await pdf.getPage(p);const vp=pg.getViewport({scale:1});const sc=1400/Math.max(vp.width,vp.height);const v2=pg.getViewport({scale:sc});
           const cv=document.createElement('canvas');cv.width=v2.width;cv.height=v2.height;await pg.render({canvasContext:cv.getContext('2d'),viewport:v2}).promise;
           const b=await new Promise(r=>cv.toBlob(r,'image/jpeg',.88));const r=await assets.upload(b,{type:'image/jpeg'});
-          await db.collection('app/marca').add({assetId:r.id,url:r.url,nome:f.name+' · pág. '+p,criadaEm:Date.now()})}
-      }else{const b=await reduzir(f,1400);const r=await assets.upload(b,{type:'image/jpeg'});await db.collection('app/marca').add({assetId:r.id,url:r.url,nome:f.name,criadaEm:Date.now()})}
+          await db.collection('marca').add({assetId:r.id,url:r.url,nome:f.name+' · pág. '+p,criadaEm:Date.now()})}
+      }else{const b=await reduzir(f,1400);const r=await assets.upload(b,{type:'image/jpeg'});await db.collection('marca').add({assetId:r.id,url:r.url,nome:f.name,criadaEm:Date.now()})}
     }catch(e){mostrar('#marca-msg','Não consegui ler '+f.name+': '+(e.message||e.code),'err');return}
   }
   mostrar('#marca-msg','Arquivos guardados. Agora clique em “Ler identidade com IA”.','good');
@@ -723,7 +723,7 @@ async function subirMarca(files){
 function renderMarcaFiles(){
   $('#ler-marca').disabled=!marcaFiles.length;
   $('#marca-files').replaceChildren(...marcaFiles.map(f=>{const d=document.createElement('div');d.className='ph';d.innerHTML=`<img alt="${esc(f.nome)}" src="${esc(f.url)}" loading="lazy">`;
-    const b=document.createElement('button');b.textContent='Remover';b.onclick=async()=>{await db.doc('app/marca/'+f.id).delete();assets&&assets.delete(f.assetId).catch(()=>{})};d.appendChild(b);return d}));
+    const b=document.createElement('button');b.textContent='Remover';b.onclick=async()=>{await db.doc('marca/'+f.id).delete();assets&&assets.delete(f.assetId).catch(()=>{})};d.appendChild(b);return d}));
 }
 async function lerMarca(){
   if(!sample){mostrar('#marca-msg','A IA não está liberada nesta visualização.','err');return}
