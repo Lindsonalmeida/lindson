@@ -26,3 +26,10 @@ Antes de usar qualquer foto, remova nomes e marcas visíveis (boné, carro, roup
 ## Pendentes
 
 Fotos que o Lindson mostrou mas que ainda não chegaram como arquivo: celular no ouvido com a mão na testa, celular no ouvido de perfil, sorrindo com o celular apoiado na cerca, e apoiado na cerca de braços abertos (variação).
+
+## Usadas — campanha Avaliação Gratuita (2026-10-18)
+- trator-sentado-volante.jpg → conteúdo 1 (capa carrossel 5 segundos)
+- trator-pe-apoiado.jpg → conteúdo 2 (post 10 perfis)
+- trator-encostado-bone.jpg → conteúdo 3 (capa 7 sinais)
+- trator-mao-na-testa.jpg → conteúdo 4 (capa Reels)
+- trator-olhando-horizonte.jpg → conteúdo 5 (capa bio)
