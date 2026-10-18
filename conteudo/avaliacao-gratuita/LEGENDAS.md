@@ -60,3 +60,31 @@ Abre o seu Instagram agora e se faz essas 5 perguntas. Se falhou em uma, o clien
 Não quer fazer sozinho? Comenta AVALIAÇÃO aqui embaixo. Eu olho o seu perfil e te mando um vídeo mostrando o que ajustar. De graça. São só 10 avaliações por semana aqui em São Luís e região.
 
 #perfildeinstagram #instagramparanegocios #dicasdeinstagram #marketingdigitalsaoluis #saoluis
+
+## Conteúdo 02 · Vou avaliar 10 perfis de graça
+
+AVALIAÇÃO GRATUITA DE PERFIL DO INSTAGRAM: 10 VAGAS ESTA SEMANA
+
+Você posta, responde stories, se esforça… e o Instagram continua sem trazer cliente? Às vezes o problema não está no quanto você posta, e sim no caminho que o cliente faz dentro do seu perfil.
+
+Por isso, esta semana eu vou avaliar 10 perfis de Instagram de graça.
+
+📌 Como funciona a avaliação gratuita
+1. Você comenta AVALIAÇÃO aqui no post.
+2. Eu entro no seu perfil e olho tudo com calma: foto, nome, bio, destaques e últimos posts.
+3. Te mando no direct um vídeo de até 5 minutos.
+
+🔍 O que você recebe no vídeo
+• Os 3 problemas que estão afastando cliente do seu perfil.
+• 1 solução pronta pra você aplicar hoje, sozinho.
+
+💡 Pra quem é essa avaliação de perfil?
+Pra quem tem negócio local e usa o Instagram pra vender: clínica, loja, salão, consultório, restaurante, prestador de serviço. Se o seu cliente te encontra pelo Instagram, essa avaliação é pra você.
+
+❓ É grátis mesmo?
+É. Sem compromisso. O vídeo é seu. Se depois você quiser ajuda pra fazer os ajustes, eu te mostro um pacote acessível. Mas a avaliação não custa nada.
+
+🎁 Garanta a sua vaga
+São só 10 avaliações por semana, porque eu faço uma por uma. Comenta AVALIAÇÃO aqui embaixo antes que as vagas fechem.
+
+#avaliacaodeperfil #instagramparanegocios #marketingdigital #marketingdigitalsaoluis #saoluis
