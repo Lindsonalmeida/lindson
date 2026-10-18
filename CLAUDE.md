@@ -15,6 +15,6 @@ Clientes ativos hoje: Rafael Imports → repositório `Lindsonalmeida/rafaelimpo
 
 ## Copy de vendas (padrão aprovado)
 
-Legendas de post: sempre estilo blog SEO (título com palavra-chave, introdução, subtítulos, exemplo, conclusão, chamada e 3 a 5 hashtags de busca; até 2.200 caracteres) — modelo em `conteudo/avaliacao-gratuita/LEGENDAS.md`.
+Legendas de post: sempre estilo blog SEO (título com palavra-chave, introdução, subtítulos, exemplo, conclusão, chamada e 3 a 5 hashtags pesquisadas e variadas — tema + nicho + local, nunca o mesmo bloco; até 2.200 caracteres) — modelo em `conteudo/avaliacao-gratuita/LEGENDAS.md`.
 
 Toda mensagem de abordagem e copy curta de venda segue `agencia/prospeccao/PADRAO-COPY.md`: **Conexão → Dor → Desejo → Pergunta**, linguagem simples de WhatsApp, entendida numa única leitura. Nunca usar "vi que", "parece que", "gargalo", jargão de marketing ou análise do perfil da pessoa.

@@ -1,6 +1,8 @@
 # Legendas — Avaliação Gratuita (estilo SEO)
 
-Regra: legenda em estilo blog SEO — título com a palavra-chave, introdução curta, subtítulos, explicação com exemplo, conclusão e chamada (máx. 2.200 caracteres). Começa com a palavra-chave que a pessoa digitaria no Google/Instagram, repete a palavra-chave e variações de forma natural no texto, cita a cidade (São Luís - MA), termina com chamada clara e 3 a 5 hashtags de busca.
+Regra: legenda em estilo blog SEO — título com a palavra-chave, introdução curta, subtítulos, explicação com exemplo, conclusão e chamada (máx. 2.200 caracteres). Começa com a palavra-chave que a pessoa digitaria no Google/Instagram, repete a palavra-chave e variações de forma natural no texto, cita a cidade (São Luís - MA), termina com chamada clara.
+
+Hashtags (pesquisa out/2026): 3 a 5 por post, todas sobre o tema. Mistura: 1 do tema exato + 1 de nicho/público + 1 de formato ou dica + 1–2 de local (#saoluis, #slz, #saoluisma). Nunca repetir o mesmo bloco em todo post (lido como spam). Evitar tags gigantes genéricas (#marketingdigital, #instagram, #love). Conferir no Insights quais trouxeram alcance e trocar as fracas.
 
 ## Conteúdo 05 · Bio que espanta × bio que vende
 
@@ -28,7 +30,7 @@ A segunda bio não é mais bonita. Ela é mais clara. E clareza vende.
 🎁 Avaliação gratuita do seu perfil
 Quer saber se a bio do seu Instagram está afastando cliente? Comenta AVALIAÇÃO aqui embaixo. Eu reescrevo a sua bio e ainda avalio o resto do seu perfil, com um vídeo mostrando o que ajustar. De graça. São só 10 vagas por semana.
 
-#bioparainstagram #comofazerbio #instagramparanegocios #marketingdigitalsaoluis #saoluis
+#bioparainstagram #biodoinstagram #dicasdeinstagram #saoluisma
 
 ## Conteúdo 01 · Teste dos 5 segundos
 
@@ -59,7 +61,7 @@ Abre o seu Instagram agora e se faz essas 5 perguntas. Se falhou em uma, o clien
 🎁 Avaliação gratuita de perfil do Instagram
 Não quer fazer sozinho? Comenta AVALIAÇÃO aqui embaixo. Eu olho o seu perfil e te mando um vídeo mostrando o que ajustar. De graça. São só 10 avaliações por semana aqui em São Luís e região.
 
-#perfildeinstagram #instagramparanegocios #dicasdeinstagram #marketingdigitalsaoluis #saoluis
+#perfilprofissional #instagramparanegocios #marketinglocal #saoluis #slz
 
 ## Conteúdo 02 · Vou avaliar 10 perfis de graça
 
@@ -87,4 +89,4 @@ Pra quem tem negócio local e usa o Instagram pra vender: clínica, loja, salão
 🎁 Garanta a sua vaga
 São só 10 avaliações por semana, porque eu faço uma por uma. Comenta AVALIAÇÃO aqui embaixo antes que as vagas fechem.
 
-#avaliacaodeperfil #instagramparanegocios #marketingdigital #marketingdigitalsaoluis #saoluis
+#consultoriadeinstagram #instagramparaempresas #empreendedorismolocal #empreendedoresdesaoluis #saoluis
