@@ -1,76 +1,189 @@
 <!doctype html><html><head><meta charset="utf-8">
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Manrope:wght@600;700;800&family=JetBrains+Mono:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Caveat:wght@700&family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Serif+Display:ital@0;1&family=Space+Grotesk:wght@500;700&family=Inter:wght@500;700;800&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
 <style>
-*{margin:0;box-sizing:border-box}body{background:#000;font-family:Manrope;color:#EEF2FF}
-.ad{width:1080px;height:1350px;position:relative;overflow:hidden;background:#070B16;padding:80px 80px 0;margin-bottom:20px}
-.ad:before{content:"";position:absolute;inset:0;background:radial-gradient(800px 600px at 100% 0,rgba(76,141,255,.3),transparent 65%),radial-gradient(700px 500px at 0 100%,rgba(255,181,71,.13),transparent 65%)}
-.ad>*{position:relative}
-.grid{position:absolute;inset:0;background-image:linear-gradient(rgba(140,170,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(140,170,255,.05) 1px,transparent 1px);background-size:60px 60px}
-.tag{display:inline-flex;gap:14px;align-items:center;padding:14px 24px;border-radius:99px;border:2px solid rgba(140,170,255,.35);font:700 26px 'JetBrains Mono';letter-spacing:3px;color:#A9C6FF;text-transform:uppercase}
-.tag i{width:12px;height:12px;border-radius:50%;background:#FF3B30;box-shadow:0 0 10px #FF3B30}
-h1{font:800 84px/1.02 "Bricolage Grotesque";letter-spacing:-2.5px;margin-top:70px}
-h1 em{font-style:normal;color:#FFB547}
-.d{font:700 38px/1.3 Manrope;color:#C9D3EE;margin-top:30px;max-width:860px}
-.d b{color:#fff}
-ul{list-style:none;margin-top:40px;display:grid;gap:16px}
-li{display:flex;gap:18px;align-items:center;font:800 34px Manrope;padding:20px 26px;border-radius:22px;background:rgba(14,20,38,.85);border:2px solid rgba(140,170,255,.18);width:fit-content}
-li span{width:52px;height:52px;border-radius:14px;display:grid;place-items:center;background:rgba(76,141,255,.18);font-size:28px}
-.bot{position:absolute;left:80px;right:80px;bottom:70px;display:flex;justify-content:space-between;align-items:center}
-.cta{white-space:nowrap;padding:30px 44px;border-radius:24px;background:#FFB547;color:#1A1205;font:800 40px 'Bricolage Grotesque';box-shadow:0 20px 50px rgba(255,181,71,.25)}
-.me{display:flex;gap:18px;align-items:center;font:700 28px Manrope;color:#C9D3EE}
-.me img{width:84px;height:84px;border-radius:50%;object-fit:cover;border:4px solid #4C8DFF}
-.me b{display:block;color:#fff;font-size:30px}
-.price{position:absolute;right:80px;top:80px;text-align:right}
-.price small{display:block;font:700 22px 'JetBrains Mono';letter-spacing:3px;color:#93A0C2}
-.price b{font:800 64px/1 'Bricolage Grotesque';color:#FFB547}
-.price b span{font-size:28px;color:#93A0C2}
-.viz{position:absolute;right:70px;top:560px}
+*{margin:0;box-sizing:border-box}body{background:#888}
+.ad{width:1080px;height:1350px;position:relative;overflow:hidden;margin-bottom:20px;font-family:Inter}
+.wa{display:inline-flex;align-items:center;gap:14px;font:800 36px Inter;padding:26px 40px;border-radius:99px}
+.handle{font:700 26px Inter;opacity:.75}
+
+/* 1 VÍDEO — amarelo, filme */
+#c1{background:#FFC93C;color:#111;padding:70px}
+#c1 .strip{position:absolute;left:0;right:0;height:120px;background:#111;display:flex;gap:26px;padding:0 20px;align-items:center}
+#c1 .strip i{flex:none;width:150px;height:84px;border-radius:10px;background:#2a2a2a;position:relative}
+#c1 .strip i:before,#c1 .strip i:after{content:"";position:absolute;left:0;right:0;height:10px;background:repeating-linear-gradient(90deg,#FFC93C 0 14px,transparent 14px 28px)}
+#c1 .strip i:before{top:-20px}#c1 .strip i:after{bottom:-20px}
+#c1 h1{font:400 150px/1.08 Anton;text-transform:uppercase;margin-top:170px;letter-spacing:-1px}
+#c1 h1 span{background:#111;color:#FFC93C;padding:0 16px;display:inline-block;line-height:1;margin-top:14px}
+#c1 p{font:700 40px/1.3 Inter;margin-top:44px;max-width:880px}
+#c1 .chips{display:flex;gap:14px;margin-top:40px;flex-wrap:wrap}
+#c1 .chips b{font:800 30px Inter;border:4px solid #111;padding:14px 24px;border-radius:99px}
+#c1 .price{position:absolute;right:80px;bottom:330px;width:230px;height:230px;border-radius:50%;background:#E8432E;color:#fff;display:grid;place-items:center;text-align:center;transform:rotate(12deg);font:400 64px/1 Anton}
+#c1 .price small{display:block;font:800 22px Inter;margin-top:6px}
+#c1 .ft{position:absolute;left:70px;right:70px;bottom:190px;display:flex;justify-content:space-between;align-items:center}
+
+/* 2 TRÁFEGO — jornal */
+#c2{background:#F2EDE3;color:#1a1a1a;padding:60px 70px;font-family:'Playfair Display'}
+#c2 .mast{display:flex;justify-content:space-between;border-bottom:3px solid #1a1a1a;padding-bottom:16px;font:700 22px Inter;letter-spacing:4px;text-transform:uppercase}
+#c2 .name{font:900 120px/1 'Playfair Display';text-align:center;margin:20px 0 10px;letter-spacing:-2px}
+#c2 .rule{border-top:1px solid #1a1a1a;border-bottom:6px double #1a1a1a;height:12px}
+#c2 .kick{font:700 26px Inter;letter-spacing:4px;color:#C0392B;margin-top:46px;text-transform:uppercase}
+#c2 h1{font:900 96px/1 'Playfair Display';margin-top:14px;letter-spacing:-2px}
+#c2 h1 i{font-style:italic;color:#C0392B}
+#c2 .cols{display:grid;grid-template-columns:1fr 1fr;gap:40px;margin-top:40px;font:500 30px/1.45 Georgia;columns:2}
+#c2 .cols p:first-letter{float:left;font:900 96px/0.8 'Playfair Display';margin:8px 12px 0 0}
+#c2 .box{border:3px solid #1a1a1a;padding:24px;font:700 28px/1.5 Inter}
+#c2 .box b{display:block;font:900 54px 'Playfair Display';color:#C0392B}
+#c2 .ft{position:absolute;left:70px;right:70px;bottom:60px;display:flex;justify-content:space-between;align-items:center;border-top:3px solid #1a1a1a;padding-top:28px}
+
+/* 3 ALCANCE — pontos */
+#c3{background:#0A3DFF;color:#fff;padding:70px}
+#c3 h1{font:400 118px/.95 'Archivo Black';letter-spacing:-3px}
+#c3 h1 em{font-style:normal;color:#C8FF3D}
+#c3 .cmp{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin-top:56px}
+#c3 .cmp div{border-radius:30px;padding:30px;background:rgba(255,255,255,.08)}
+#c3 .cmp div.on{background:#fff;color:#0A3DFF}
+#c3 .cmp h3{font:800 34px Inter}
+#c3 .cmp small{display:block;font:700 24px Inter;opacity:.7;margin:6px 0 20px}
+#c3 .dots{display:grid;grid-template-columns:repeat(10,1fr);gap:9px}
+#c3 .dots i{aspect-ratio:1;border-radius:50%;background:rgba(255,255,255,.18)}
+#c3 .dots i.y{background:#C8FF3D}
+#c3 .on .dots i{background:#0A3DFF}
+#c3 p{font:700 38px/1.3 Inter;margin-top:44px}
+#c3 .ft{position:absolute;left:70px;right:70px;bottom:70px;display:flex;justify-content:space-between;align-items:center}
+
+/* 4 PRESENÇA — perfil abandonado */
+#c4{background:#FFE7E0;color:#2B1B17;padding:70px}
+#c4 h1{font:400 112px/.95 'DM Serif Display';letter-spacing:-2px}
+#c4 h1 i{color:#E2482E}
+#c4 .ph{position:absolute;right:70px;top:420px;width:470px;background:#fff;border-radius:40px;padding:34px;box-shadow:0 40px 80px rgba(120,40,20,.18);transform:rotate(-4deg)}
+#c4 .ph .h{display:flex;gap:20px;align-items:center}
+#c4 .ph .av{width:96px;height:96px;border-radius:50%;background:#eee;border:4px solid #ddd}
+#c4 .ph .h b{font:800 30px Inter}
+#c4 .ph .h small{display:block;font:500 22px Inter;color:#999}
+#c4 .ph .g{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:26px}
+#c4 .ph .g i{aspect-ratio:1;background:#eee;filter:grayscale(1)}
+#c4 .ph .g i:nth-child(n+4){background:repeating-linear-gradient(45deg,#f4f4f4 0 10px,#fafafa 10px 20px)}
+#c4 .stk{position:absolute;right:40px;top:380px;background:#E2482E;color:#fff;font:800 30px Inter;padding:18px 26px;border-radius:16px;transform:rotate(8deg);z-index:2;box-shadow:0 14px 30px rgba(226,72,46,.35)}
+#c4 .txt{width:470px;margin-top:60px}
+#c4 .txt p{font:500 34px/1.45 Inter}
+#c4 .txt p b{font-weight:800}
+#c4 ul{list-style:none;margin-top:30px}
+#c4 li{font:800 30px Inter;padding:14px 0;border-top:2px solid rgba(43,27,23,.15)}
+#c4 li:before{content:"✓ ";color:#E2482E}
+#c4 .ft{position:absolute;left:70px;right:70px;bottom:70px;display:flex;justify-content:space-between;align-items:center}
+
+/* 5 INSTAGRAM QUE VENDE — luxo preto e dourado */
+#c5{background:#0C0B09;color:#F3E9D2;padding:90px;text-align:center}
+#c5:before{content:"";position:absolute;inset:40px;border:2px solid #B8955A}
+#c5 .k{font:500 26px 'Space Grotesk';letter-spacing:10px;color:#B8955A;text-transform:uppercase;margin-top:40px}
+#c5 h1{font:700 104px/1.02 'Playfair Display';margin-top:56px}
+#c5 h1 i{color:#D9B26A}
+#c5 .l{width:120px;height:2px;background:#B8955A;margin:56px auto}
+#c5 p{font:500 36px/1.45 'Space Grotesk';color:#D6CAB2;max-width:780px;margin:0 auto}
+#c5 .three{display:flex;justify-content:center;gap:50px;margin-top:60px;font:700 26px 'Space Grotesk';letter-spacing:3px;text-transform:uppercase;color:#D9B26A}
+#c5 .ft{position:absolute;left:90px;right:90px;bottom:110px;text-align:center}
+#c5 .wa{background:linear-gradient(135deg,#F2D08A,#B8862E);color:#1a1205}
+
+/* 6 PRODUÇÃO — poster de cinema */
+#c6{background:#000;color:#fff}
+#c6 .bg{position:absolute;inset:0;background:radial-gradient(700px 500px at 70% 35%,rgba(255,120,40,.55),transparent 70%),radial-gradient(600px 500px at 20% 80%,rgba(0,140,255,.35),transparent 70%)}
+#c6 .bar{position:absolute;left:0;right:0;height:120px;background:#000}
+#c6 .in{position:absolute;inset:180px 80px 0;text-align:center}
+#c6 .k{font:500 28px Oswald;letter-spacing:14px;color:#FFB070}
+#c6 h1{font:700 128px/.95 Oswald;text-transform:uppercase;margin-top:40px;letter-spacing:2px}
+#c6 h1 span{color:#FFB070}
+#c6 .cr{display:flex;justify-content:center;gap:34px;margin-top:60px;font:500 30px Oswald;letter-spacing:5px;text-transform:uppercase;color:#ddd}
+#c6 .cr b{color:#fff}
+#c6 .bill{margin-top:60px;font:500 24px/1.6 Oswald;letter-spacing:4px;color:#aaa;text-transform:uppercase;border-top:1px solid #444;border-bottom:1px solid #444;padding:20px 0}
+#c6 .bill b{color:#fff}
+#c6 .ft{position:absolute;left:80px;right:80px;bottom:150px;display:flex;justify-content:space-between;align-items:center}
+
+/* 7 PLANO — planta azul */
+#c7{background:#0E3A63;color:#E6F1FF;padding:70px;font-family:'Space Grotesk'}
+#c7 .gr{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.08) 1px,transparent 1px),linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);background-size:120px 120px,120px 120px,24px 24px,24px 24px}
+#c7 .k{font:700 26px 'Space Grotesk';letter-spacing:6px;border:2px solid #E6F1FF;display:inline-block;padding:10px 18px}
+#c7 h1{font:700 96px/1 'Space Grotesk';letter-spacing:-3px;margin-top:40px}
+#c7 h1 span{font-family:Caveat;font-size:120px;color:#FFD84D;letter-spacing:0}
+#c7 .plan{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:60px}
+#c7 .plan div{border:2px dashed #E6F1FF;padding:28px 22px;min-height:250px;position:relative}
+#c7 .plan b{display:block;font:700 70px 'Space Grotesk';color:#FFD84D}
+#c7 .plan span{font:700 30px/1.3 'Space Grotesk'}
+#c7 .note{font:700 54px/1.1 Caveat;color:#FFD84D;margin-top:46px;transform:rotate(-2deg)}
+#c7 .ft{position:absolute;left:70px;right:70px;bottom:70px;display:flex;justify-content:space-between;align-items:center}
 </style></head><body>
 
-<section class="ad" id="c1"><div class="grid"></div><span class="tag"><i></i>Vídeo</span>
-<div class="price"><small>4 vídeos/mês</small><b>R$ 600<span>/mês</span></b></div>
-<h1>Você sabe que precisa de vídeo.<br><em>Mas nunca tem tempo de gravar.</em></h1>
-<p class="d">Eu gravo tudo <b>em 1 dia</b> e te entrego <b>4 vídeos editados</b>, prontos pra postar no mês inteiro.</p>
-<ul><li><span>📝</span>Roteiro pronto</li><li><span>🎬</span>Gravação em 1 dia</li><li><span>✂️</span>Edição com legenda</li></ul>
-<div class="bot"><div class="cta">Chama no WhatsApp →</div><div class="me"><img src="avatar.jpg"><div><b>Lindson Almeida</b>@lindsonalmeida_</div></div></div></section>
+<section class="ad" id="c1">
+ <div class="strip" style="top:0"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+ <div class="price">R$ 600<small>POR MÊS</small></div>
+ <h1>Sem tempo<br>pra <span>gravar?</span></h1>
+ <p>Eu gravo tudo em <u>1 dia</u> e te entrego 4 vídeos editados, prontos pro mês inteiro.</p>
+ <div class="chips"><b>📝 Roteiro</b><b>🎬 Gravação</b><b>✂️ Edição</b></div>
+ <div class="ft"><span class="wa" style="background:#111;color:#FFC93C">Me chama no WhatsApp →</span><span class="handle">@lindsonalmeida_</span></div>
+ <div class="strip" style="bottom:0"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+</section>
 
-<section class="ad" id="c2"><div class="grid"></div><span class="tag"><i></i>Tráfego pago</span>
-<div class="price"><small>gestão mensal</small><b>R$ 800<span>/mês</span></b></div>
-<h1>Você posta todo dia…<br><em>e só os mesmos seguidores veem.</em></h1>
-<p class="d">Com anúncio, o seu post chega em <b>quem mora perto</b> e está pronto pra comprar.</p>
-<ul><li><span>📍</span>Anúncio pro seu bairro</li><li><span>💬</span>Cliente direto no WhatsApp</li><li><span>📊</span>Relatório todo mês</li></ul>
-<div class="bot"><div class="cta">Chama no WhatsApp →</div><div class="me"><img src="avatar.jpg"><div><b>Lindson Almeida</b>@lindsonalmeida_</div></div></div></section>
+<section class="ad" id="c2">
+ <div class="mast"><span>São Luís · MA</span><span>Edição de hoje</span><span>Negócios</span></div>
+ <div class="name">O Diário do Lucro</div><div class="rule"></div>
+ <div class="kick">Exclusivo</div>
+ <h1>Empresário posta todo dia e <i>só os mesmos seguidores veem</i></h1>
+ <div class="cols"><p>Com anúncio, o post chega em quem mora perto e está pronto pra comprar. O cliente cai direto no WhatsApp, e o dono acompanha tudo num relatório por mês.</p>
+ <div class="box"><b>R$ 800/mês</b>Gestão de tráfego pago com anúncio no seu bairro e relatório mensal.</div></div>
+ <div class="ft"><span class="wa" style="background:#1a1a1a;color:#F2EDE3;font-family:Inter">Chama no WhatsApp →</span><span class="handle" style="font-family:Inter">por Lindson Almeida</span></div>
+</section>
 
-<section class="ad" id="c3"><div class="grid"></div><span class="tag"><i></i>Alcance · vídeo + tráfego</span>
-<div class="price"><small>de R$ 1.400 por</small><b>R$ 1.200<span>/mês</span></b></div>
-<h1>Vídeo bom que<br>ninguém vê <em>não vende.</em></h1>
-<p class="d">Eu gravo 4 vídeos por mês e <b>coloco eles na frente de quem compra</b>, com anúncio no seu bairro.</p>
-<ul><li><span>🎬</span>4 vídeos editados</li><li><span>🎯</span>Gestão de anúncios</li><li><span>📲</span>Contatos no seu WhatsApp</li></ul>
-<div class="bot"><div class="cta">Chama no WhatsApp →</div><div class="me"><img src="avatar.jpg"><div><b>Lindson Almeida</b>@lindsonalmeida_</div></div></div></section>
+<section class="ad" id="c3">
+ <h1>Vídeo bom que ninguém vê <em>não vende.</em></h1>
+ <div class="cmp">
+  <div><h3>Só postando</h3><small>quem te vê hoje</small><div class="dots">__D1__</div></div>
+  <div class="on"><h3>Vídeo + anúncio</h3><small>o bairro inteiro</small><div class="dots">__D2__</div></div>
+ </div>
+ <p>4 vídeos por mês + anúncio na frente de quem compra. <span style="color:#C8FF3D">De R$ 1.400 por R$ 1.200/mês.</span></p>
+ <div class="ft"><span class="wa" style="background:#C8FF3D;color:#0A3DFF">Quero aparecer →</span><span class="handle">@lindsonalmeida_</span></div>
+</section>
 
-<section class="ad" id="c4"><div class="grid"></div><span class="tag"><i></i>Presença</span>
-<div class="price"><small>perfil + vídeo + tráfego</small><b>R$ 2.200<span>/mês</span></b></div>
-<h1>Perfil parado<br><em>espanta cliente.</em></h1>
-<p class="d">O cliente entra, vê o último post de 3 meses atrás e vai pro concorrente. <b>Eu cuido do seu Instagram. Você só atende.</b></p>
-<ul><li><span>🗓️</span>Posts e legendas no calendário</li><li><span>🎬</span>4 vídeos por mês</li><li><span>🎯</span>Anúncios rodando</li></ul>
-<div class="bot"><div class="cta">Chama no WhatsApp →</div><div class="me"><img src="avatar.jpg"><div><b>Lindson Almeida</b>@lindsonalmeida_</div></div></div></section>
+<section class="ad" id="c4">
+ <h1>Perfil parado <i>espanta</i> cliente.</h1>
+ <div class="stk">Último post: há 3 meses 😬</div>
+ <div class="ph"><div class="h"><div class="av"></div><div><b>sua_empresa</b><small>12 publicações</small></div></div><div class="g"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+ <div class="txt"><p>O cliente entra, vê o perfil abandonado e vai pro concorrente. <b>Eu cuido do seu Instagram. Você só atende.</b></p>
+ <ul><li>Posts no calendário</li><li>4 vídeos por mês</li><li>Anúncios rodando</li></ul></div>
+ <div class="ft"><span class="wa" style="background:#2B1B17;color:#FFE7E0">Presença · R$ 2.200/mês →</span><span class="handle">@lindsonalmeida_</span></div>
+</section>
 
-<section class="ad" id="c5" style="background:linear-gradient(160deg,#0E1426,#070B16)"><div class="grid"></div><span class="tag" style="border-color:#FFB547;color:#FFB547"><i></i>Instagram que vende · 90 dias</span>
-<h1 style="font-size:96px;margin-top:60px">Seu Instagram tem seguidor.<br><em>Mas não tem cliente.</em></h1>
-<p class="d">Em 90 dias, eu transformo o seu perfil num <b>caminho direto pro seu WhatsApp</b>: conteúdo, anúncio e atendimento que fecha.</p>
-<ul><li><span>🎬</span>8 vídeos + 8 posts + Stories</li><li><span>🎯</span>Tráfego pago todo mês</li><li><span>📱</span>Mini site + script de fechamento</li></ul>
-<div class="bot"><div class="cta">Quero o meu →</div><div class="me"><img src="avatar.jpg"><div><b>Lindson Almeida</b>@lindsonalmeida_</div></div></div></section>
+<section class="ad" id="c5">
+ <div class="k">Instagram que vende · 90 dias</div>
+ <h1>Seu Instagram tem seguidor.<br><i>Falta cliente.</i></h1>
+ <div class="l"></div>
+ <p>Em 90 dias, seu perfil vira um caminho direto pro seu WhatsApp: conteúdo, anúncio e atendimento que fecha.</p>
+ <div class="three"><span>8 vídeos</span><span>Tráfego</span><span>Mini site</span></div>
+ <div class="ft"><span class="wa">Quero o meu</span><div class="handle" style="margin-top:24px;color:#B8955A">@lindsonalmeida_</div></div>
+</section>
 
-<section class="ad" id="c6"><div class="grid"></div><span class="tag"><i></i>Produção profissional</span>
-<div class="price"><small>a partir de</small><b>R$ 400<span>/vídeo</span></b></div>
-<h1>Seu trabalho é premium.<br><em>Seu vídeo também precisa ser.</em></h1>
-<p class="d">Cliente de alto padrão decide pelo olho. Vídeo amador faz seu trabalho <b>parecer menor do que ele é</b>.</p>
-<ul><li><span>🚁</span>Imagens com drone</li><li><span>🎥</span>Até 3 câmeras</li><li><span>💡</span>Iluminação de cinema</li></ul>
-<div class="bot"><div class="cta">Peça seu orçamento →</div><div class="me"><img src="avatar.jpg"><div><b>Lindson Almeida</b>@lindsonalmeida_</div></div></div></section>
+<section class="ad" id="c6">
+ <div class="bg"></div><div class="bar" style="top:0"></div><div class="bar" style="bottom:0"></div>
+ <div class="in">
+  <div class="k">Uma produção para o seu negócio</div>
+  <h1>Seu trabalho é <span>premium.</span><br>Seu vídeo também.</h1>
+  <div class="cr"><span><b>Drone</b></span>·<span><b>3</b> câmeras</span>·<span>Luz de <b>cinema</b></span></div>
+  <div class="bill">Direção <b>Lindson Almeida</b> · Roteiro, gravação e edição · <b>A partir de R$ 400 por vídeo</b></div>
+ </div>
+ <div class="ft"><span class="wa" style="background:#FFB070;color:#000;font-family:Oswald;letter-spacing:2px">PEÇA SEU ORÇAMENTO</span><span class="handle" style="color:#fff">@lindsonalmeida_</span></div>
+</section>
 
-<section class="ad" id="c7"><div class="grid"></div><span class="tag"><i></i>Plano de captação</span>
-<h1>Você depende de indicação<br><em>e o mês fraco aperta?</em></h1>
-<p class="d">Eu monto o plano completo pro seu negócio: <b>anúncio, atendimento e números</b>, pra ter cliente novo toda semana.</p>
-<ul><li><span>🗺️</span>Anúncio só pro seu bairro</li><li><span>💬</span>Roteiro de WhatsApp que fecha</li><li><span>📈</span>Painel de resultados</li></ul>
-<div class="bot"><div class="cta">Quero diagnóstico →</div><div class="me"><img src="avatar.jpg"><div><b>Lindson Almeida</b>@lindsonalmeida_</div></div></div></section>
+<section class="ad" id="c7">
+ <div class="gr"></div>
+ <div style="position:relative">
+ <div class="k">PLANO DE CAPTAÇÃO</div>
+ <h1>Depende de indicação e o mês fraco <span>aperta?</span></h1>
+ <div class="plan"><div><b>01</b><span>Anúncio só pro seu bairro</span></div><div><b>02</b><span>Roteiro de WhatsApp que fecha</span></div><div><b>03</b><span>Painel com os números</span></div></div>
+ <div class="note">→ cliente novo toda semana</div>
+ </div>
+ <div class="ft"><span class="wa" style="background:#FFD84D;color:#0E3A63">Quero meu diagnóstico</span><span class="handle">@lindsonalmeida_</span></div>
+</section>
+<script>
+const d1=[...Array(50)].map((_,i)=>`<i class="${i<4?'y':''}"></i>`).join('');
+const d2=[...Array(50)].map(()=>'<i></i>').join('');
+document.querySelector('#c3 .cmp div:first-child .dots').innerHTML=d1;document.querySelector('#c3 .cmp .on .dots').innerHTML=d2;
+</script>
 </body></html>
