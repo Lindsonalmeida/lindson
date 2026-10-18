@@ -439,7 +439,99 @@ function desenharItem(ctx,W,H,s,v,meta){
   if(meta.i<meta.total-1)pill(ctx,'ARRASTE →',W-M,H-120,th.pillBg,th.pillFg,26,true);
   ctx.restore();
 }
+// posts estáticos: 8 composições, todas na mesma identidade
+const POST_MOD=['moldura','celular','gigante','manchete','dividido','lista','conversa','selo'];
+const NOMES_POST={auto:'Automático',moldura:'Foto inclinada',celular:'Celular',gigante:'Palavra gigante',manchete:'Manchete',dividido:'Foto dividida',lista:'Checklist',conversa:'Conversa',selo:'Selo'};
+function modeloPost(s,meta){if(s.modelo&&s.modelo!=='auto')return s.modelo;return POST_MOD[(meta.seed||0)%POST_MOD.length]}
+function rodape(ctx,W,H,th,s){pill(ctx,s.cta||('COMENTA "'+(cfg.palavra||'EU QUERO')+'"'),84,H-170,th.pillBg,th.pillFg,30);ctx.save();ctx.font=fontM(24);spacing(ctx,5);ctx.fillStyle=th.fg;ctx.globalAlpha=.75;ctx.fillText((cfg.arroba||'').toUpperCase(),84,H-56);ctx.restore()}
+function moldura(ctx,img,x,y,w,h,rot,C){ctx.save();ctx.translate(x+w/2,y+h/2);ctx.rotate(rot*Math.PI/180);ctx.translate(-w/2,-h/2);ctx.shadowColor='rgba(0,0,0,.35)';ctx.shadowBlur=60;ctx.shadowOffsetY=30;ctx.fillStyle=C.escuro;rr(ctx,-10,-10,w+20,h+20,44);ctx.fill();ctx.shadowColor='transparent';rr(ctx,0,0,w,h,36);ctx.clip();if(img)cover(ctx,img,0,0,w,h,.2);else{ctx.fillStyle=C.primaria;ctx.fillRect(0,0,w,h)}ctx.restore()}
+function celular(ctx,img,x,y,w,h,rot,th,C,s){
+  ctx.save();ctx.translate(x+w/2,y+h/2);ctx.rotate(rot*Math.PI/180);ctx.translate(-w/2,-h/2);
+  ctx.shadowColor='rgba(0,0,0,.4)';ctx.shadowBlur=70;ctx.shadowOffsetY=36;ctx.fillStyle='#05070d';rr(ctx,0,0,w,h,70);ctx.fill();ctx.shadowColor='transparent';
+  ctx.save();rr(ctx,16,16,w-32,h-32,56);ctx.clip();ctx.fillStyle=C.claro;ctx.fillRect(16,16,w-32,h-32);
+  if(img){cover(ctx,img,16,16,w-32,h-32,.2)}else{ // perfil simples desenhado
+    ctx.fillStyle=C.primaria;ctx.beginPath();ctx.arc(w/2,170,70,0,7);ctx.fill();ctx.fillStyle=C.escuro;ctx.font=fontT(40);ctx.textAlign='center';ctx.fillText(cfg.nome||'',w/2,290);
+    ctx.font=fontB(24);ctx.fillStyle=mix(C.escuro,C.claro,.6);ctx.fillText(cfg.arroba||'',w/2,330);ctx.textAlign='left';
+    for(let i=0;i<9;i++){ctx.fillStyle=[C.destaque,C.primaria,C.escuro][i%3];const cw=(w-32-8)/3;ctx.fillRect(16+(i%3)*(cw+4),380+Math.floor(i/3)*(cw+4),cw,cw)}}
+  ctx.restore();ctx.fillStyle='#000';rr(ctx,w/2-70,26,140,36,18);ctx.fill();ctx.restore();
+}
+function desenharPost(ctx,W,H,s,v,img,meta){
+  const mod=modeloPost(s,meta);const C=cfg.cores;const M=84;
+  const vv=(mod==='manchete'||mod==='selo')&&v==='papel'?'papel':v;const th=tema(vv);const alt=tema(OPOSTO[vv]);
+  ctx.save();ctx.fillStyle=th.bg;ctx.fillRect(0,0,W,H);
+  const chips=(s.chips||[]).slice(0,3);
+  if(mod==='moldura'){
+    net(ctx,W,H,meta.seed||7,th.net);cantos(ctx,W,H,th.fg);
+    rotulo(ctx,s.rotulo,M,110,th.fg);const tsz=(s.titulo||'').length>40?96:110;
+    let yy=150+titulo(ctx,s.titulo,M,150,W-M*2,tsz,th)+40;const fy=Math.max(yy,520);
+    moldura(ctx,img,W-70-420,fy,420,620,4,C);
+    let cy=fy+20;if(s.texto)cy+=paragrafo(ctx,s.texto,M,cy,W-M-560,34,th.fg)+30;
+    chips.forEach((c,i)=>{cy+=chip(ctx,c,M-30,cy,[-3,2,-2][i],th,'✓',32)+26});
+    rodape(ctx,W,H,th,s);
+  }else if(mod==='celular'){
+    net(ctx,W,H,meta.seed||7,th.net);cantos(ctx,W,H,th.fg);
+    celular(ctx,img,W-80-430,330,430,880,6,th,C,s);
+    rotulo(ctx,s.rotulo,M,110,th.fg);titulo(ctx,s.titulo,M,150,W-M*2,104,th);
+    let cy=560;chips.forEach((c,i)=>{chip(ctx,c,M-20+(i%2)*40,cy,[-4,3,-2][i],i===2?th:th,'✓',34,i===1?{bg:th.hlBg===C.escuro?C.claro:C.escuro,fg:th.hlBg===C.escuro?C.escuro:C.claro,i:C.alerta}:null);cy+=150});
+    if(!chips.length&&s.texto)paragrafo(ctx,s.texto,M,cy,W-M-560,34,th.fg);
+    rodape(ctx,W,H,th,s);
+  }else if(mod==='gigante'){
+    net(ctx,W,H,meta.seed||7,th.net);
+    const m=/\[\[(.+?)\]\]/.exec(s.titulo||'');const pal=(m?m[1]:String(s.titulo||'')).replace(/[^\p{L}\p{N}\s]/gu,'').split(/\s+/).sort((a,b)=>b.length-a.length);const palavra=(pal[0]||'').toUpperCase();
+    ctx.save();let fs=520;ctx.font=fontT(fs);spacing(ctx,-fs*.05);while(ctx.measureText(palavra).width>W*1.25&&fs>200){fs-=20;ctx.font=fontT(fs);spacing(ctx,-fs*.05)}
+    ctx.translate(W/2,H*.42);ctx.rotate(-8*Math.PI/180);ctx.textAlign='center';ctx.textBaseline='middle';ctx.strokeStyle=th.fg;ctx.globalAlpha=.22;ctx.lineWidth=4;ctx.strokeText(palavra,0,0);ctx.restore();
+    cantos(ctx,W,H,th.fg);
+    if(img){ctx.save();ctx.beginPath();ctx.arc(W-M-120,220,120,0,7);ctx.closePath();ctx.lineWidth=12;ctx.strokeStyle=C.escuro;ctx.stroke();ctx.clip();cover(ctx,img,W-M-240,100,240,240,.2);ctx.restore()}
+    rotulo(ctx,s.rotulo,M,140,th.fg);
+    const tH=titulo(ctx,s.titulo,M,0,W-M*2,116,th,false);let y=H-260-tH-(s.texto?medirPar(ctx,s.texto,W-M*2,34)+30:0);
+    y+=titulo(ctx,s.titulo,M,y,W-M*2,116,th)+30;paragrafo(ctx,s.texto,M,y,W-M*2,34,th.fg);
+    rodape(ctx,W,H,th,s);
+  }else if(mod==='manchete'){
+    const fx=(yy)=>{ctx.save();ctx.beginPath();ctx.rect(0,yy,W,44);ctx.clip();ctx.fillStyle=th.fg;for(let x=-80;x<W+80;x+=68){ctx.beginPath();ctx.moveTo(x,yy+44);ctx.lineTo(x+34,yy+44);ctx.lineTo(x+78,yy);ctx.lineTo(x+44,yy);ctx.closePath();ctx.fill()}ctx.restore()};
+    fx(0);ctx.save();ctx.fillStyle=th.fg;ctx.fillRect(M,120,W-M*2,6);ctx.font=fontM(24);spacing(ctx,6);ctx.textBaseline='top';ctx.fillText((s.rotulo||'Aviso').toUpperCase(),M,150);ctx.textAlign='right';ctx.fillText(new Date().toLocaleDateString('pt-BR'),W-M,150);ctx.restore();
+    const tsz=(s.titulo||'').length>36?128:150;let y=230;y+=titulo(ctx,s.titulo,M,y,W-M*2,tsz,th)+30;
+    ctx.save();ctx.fillStyle=th.fg;ctx.fillRect(M,y,W-M*2,6);ctx.restore();y+=40;
+    if(img){ctx.save();rr(ctx,M,y,300,300,150);ctx.clip();cover(ctx,img,M,y,300,300,.2);ctx.restore();paragrafo(ctx,s.texto,M+340,y+20,W-M*2-340,36,th.fg,700)}
+    else paragrafo(ctx,s.texto,M,y,W-M*2,40,th.fg,700);
+    rodape(ctx,W,H-30,th,s);fx(H-44);
+  }else if(mod==='dividido'){
+    const ph=Math.round(H*.5);if(img)cover(ctx,img,0,0,W,ph,.2);else{ctx.fillStyle=alt.bg;ctx.fillRect(0,0,W,ph);net(ctx,W,ph,meta.seed||7,alt.net)}
+    ctx.fillStyle=th.bg;ctx.beginPath();ctx.moveTo(0,ph-60);ctx.lineTo(W,ph+20);ctx.lineTo(W,H);ctx.lineTo(0,H);ctx.closePath();ctx.fill();
+    cantos(ctx,W,H,th.fg);
+    if(chips[0])chip(ctx,chips[0],W-M-460,ph-150,-4,th,'✓',34);
+    let y=ph+60;rotulo(ctx,s.rotulo,M,y,th.fg);y+=40;y+=titulo(ctx,s.titulo,M,y,W-M*2,(s.titulo||'').length>40?84:96,th)+24;
+    paragrafo(ctx,s.texto,M,y,W-M*2,32,th.fg);rodape(ctx,W,H,th,s);
+  }else if(mod==='lista'){
+    net(ctx,W,H,meta.seed||7,th.net);cantos(ctx,W,H,th.fg);
+    rotulo(ctx,s.rotulo,M,120,th.fg);let y=160+titulo(ctx,s.titulo,M,160,W-M*2,100,th)+50;
+    const itens=chips.length?chips:[s.texto].filter(Boolean);const ch=110*itens.length+80;
+    ctx.save();ctx.shadowColor='rgba(0,0,0,.3)';ctx.shadowBlur=50;ctx.shadowOffsetY=24;ctx.fillStyle=alt.bg;rr(ctx,M,y,W-M*2,ch,36);ctx.fill();ctx.restore();
+    itens.forEach((t,i)=>{const yy=y+40+i*110;ctx.save();ctx.fillStyle=alt.hlBg;rr(ctx,M+40,yy+10,64,64,16);ctx.fill();ctx.fillStyle=alt.hlFg;ctx.font=fontT(40);ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillText('✓',M+72,yy+44);ctx.restore();
+      ctx.save();ctx.font=fontT(44);spacing(ctx,-1);ctx.fillStyle=alt.fg;ctx.textBaseline='middle';ctx.fillText(t,M+130,yy+44);ctx.restore()});
+    rodape(ctx,W,H,th,s);
+  }else if(mod==='conversa'){
+    net(ctx,W,H,meta.seed||7,th.net);cantos(ctx,W,H,th.fg);
+    rotulo(ctx,s.rotulo,M,120,th.fg);let y=160+titulo(ctx,s.titulo,M,160,W-M*2,100,th)+60;
+    const bolha=(txt,x,yy,mine)=>{ctx.save();ctx.font=fontB(34,600);const lines=[];let line='';for(const w of String(txt).split(/\s+/)){const t=line?line+' '+w:w;if(ctx.measureText(t).width>600&&line){lines.push(line);line=w}else line=t}if(line)lines.push(line);
+      const bw=Math.max(...lines.map(l=>ctx.measureText(l).width))+70,bh=lines.length*46+50;const bx=mine?W-M-bw:x;
+      ctx.shadowColor='rgba(0,0,0,.2)';ctx.shadowBlur=30;ctx.shadowOffsetY=12;ctx.fillStyle=mine?C.escuro:'#FFFFFF';rr(ctx,bx,yy,bw,bh,30);ctx.fill();ctx.shadowColor='transparent';
+      ctx.fillStyle=mine?C.claro:C.escuro;ctx.textBaseline='top';lines.forEach((l,i)=>ctx.fillText(l,bx+35,yy+25+i*46));ctx.restore();return bh};
+    y+=bolha(s.texto||'Oi! Quero saber como funciona.',M,y,false)+30;
+    if(chips[0])y+=bolha(chips[0],M,y,true)+30;if(chips[1])bolha(chips[1],M,y,false);
+    rodape(ctx,W,H,th,s);
+  }else{ // selo
+    net(ctx,W,H,meta.seed||7,th.net);cantos(ctx,W,H,th.fg);
+    const sx=W-M-170,sy=300;ctx.save();ctx.translate(sx,sy);ctx.rotate(-14*Math.PI/180);ctx.fillStyle=th.hlBg;ctx.beginPath();for(let i=0;i<48;i++){const a=i/48*Math.PI*2,r=i%2?160:176;ctx.lineTo(Math.cos(a)*r,Math.sin(a)*r)}ctx.closePath();ctx.fill();
+    ctx.fillStyle=th.hlFg;ctx.textAlign='center';ctx.textBaseline='middle';ctx.font=fontT(54);const st=String(s.selo||s.rotulo||'Grátis').toUpperCase().split(' ');st.slice(0,3).forEach((w,i,a)=>ctx.fillText(w,0,(i-(a.length-1)/2)*58));ctx.restore();
+    rotulo(ctx,s.rotulo,M,140,th.fg);let y=520;y+=titulo(ctx,s.titulo,M,y,W-M*2,118,th)+40;y+=paragrafo(ctx,s.texto,M,y,W-M*2,36,th.fg)+40;
+    chips.slice(0,2).forEach((c,i)=>{if(y>H-300)return;chip(ctx,c,M+i*30,y,[-2,2][i],th,'✓',32);y+=100});
+    if(img){ctx.save();ctx.beginPath();ctx.arc(M+90,240,90,0,7);ctx.closePath();ctx.lineWidth=10;ctx.strokeStyle=C.escuro;ctx.stroke();ctx.clip();cover(ctx,img,M,150,180,180,.2);ctx.restore()}
+    rodape(ctx,W,H,th,s);
+  }
+  ctx.restore();
+}
 function desenhar(ctx,W,H,s,v,img,meta){
+  if(s.layout==='post'&&H<=W*1.5){desenharPost(ctx,W,H,s,v,img,meta);return}
   if((s.layout==='item')&&H<=W*1.5){desenharItem(ctx,W,H,s,v,meta);return}
   const th=tema(v)||tema('sol');const C=cfg.cores;const M=84;const vert=H>W*1.5;const k=vert?1.15:1;
   ctx.save();ctx.fillStyle=th.bg;ctx.fillRect(0,0,W,H);
@@ -571,7 +663,7 @@ HASHTAGS: de 3 a 5, todas sobre o tema: 1 do tema exato + 1 de nicho/público + 
 }
 function formato(t,telas){
   const base='"titulo":"nome curto do conteúdo","legenda":"...","hashtags":["#a","#b","#c"]';
-  if(t==='post')return `{${base},"slides":[{"layout":"post","rotulo":"até 3 palavras","titulo":"... [[destaque]] ...","texto":"1 frase","chips":["até 3 itens curtos"],"cta":"COMENTA \\"PALAVRA\\""}]}`;
+  if(t==='post')return `{${base},"slides":[{"layout":"post","rotulo":"até 3 palavras","titulo":"... [[destaque]] ...","texto":"1 frase","chips":["3 itens curtos, até 5 palavras"],"selo":"1 a 2 palavras de selo, ex.: GRÁTIS, NOVO, ÚLTIMAS VAGAS","cta":"COMENTA \\"PALAVRA\\""}]}`;
   if(t==='carrossel')return `{${base},"slides":[{"layout":"capa","rotulo":"...","titulo":"...","texto":"1 frase"}, ${telas-2} x {"layout":"item","rotulo":"tema curto repetido em todas","numero":"1","titulo":"...","texto":"...","chip":"solução curta"}, {"layout":"cta","rotulo":"...","titulo":"...","texto":"...","cta":"COMENTA \\"PALAVRA\\""}]} — exatamente ${telas} slides no total.`;
   if(t==='reels_capa')return `{${base},"slides":[{"layout":"capa","rotulo":"Reels · tema","titulo":"..."}],"roteiro":"roteiro falado de 20 a 30 segundos, em frases curtas separadas por quebra de linha, começando com um gancho forte nos 2 primeiros segundos e terminando com a chamada"}`;
   return `{${base},"cenas":[{"layout":"capa","rotulo":"Reels · tema","titulo":"...","fala":"frase narrada"}, 3 a 5 cenas {"layout":"numero" ou "frase","numero":"1","titulo":"...","texto":"...","fala":"frase narrada"}, {"layout":"cta","rotulo":"...","titulo":"...","texto":"...","cta":"COMENTA \\"PALAVRA\\"","fala":"..."}],"roteiro":"todas as falas em ordem, uma por linha"}`;
@@ -601,6 +693,7 @@ ${formato(t,telas)}`;
       const v=VARS[(conteudos.length+i)%4];
       const doc={tipo:t,tema:temaTxt,variante:v,titulo:r.titulo||'Sem título',legenda:r.legenda||'',hashtags:(r.hashtags||[]).slice(0,5),
         roteiro:r.roteiro||'',status:'rascunho',criadoEm:Date.now(),fotos:pegar,dataPlanejada:''};
+      if(t==='post'){const nPosts=conteudos.filter(c=>c.tipo==='post').length+i;ss[0].modelo=POST_MOD[nPosts%POST_MOD.length]}
       if(t==='reels_video')doc.cenas=ss;else doc.slides=ss;
       const ref=await db.collection('conteudos').add(doc);
       for(const fid of pegar){await db.doc('fotos/'+fid).update({usadaEm:ref.id,usadaTitulo:doc.titulo}).catch(()=>{});
@@ -642,6 +735,7 @@ function abrir(c){
   ss.forEach((s,i)=>{const w=document.createElement('div');w.className='sl'+(vert?' v':'');const cv=document.createElement('canvas');w.appendChild(cv);
     const ed=document.createElement('div');ed.className='edit';
     ed.innerHTML=`<input type="text" aria-label="Título da tela ${i+1}" value="${esc(s.titulo||'')}" data-k="titulo"><textarea aria-label="Texto da tela ${i+1}" data-k="texto">${esc(s.texto||'')}</textarea>${s.chip!==undefined?`<input type="text" aria-label="Etiqueta da tela ${i+1}" value="${esc(s.chip)}" data-k="chip">`:''}`;
+    if(s.layout==='post')ed.insertAdjacentHTML('afterbegin',`<select aria-label="Composição do post" data-k="modelo">${Object.entries(NOMES_POST).map(([k,n])=>`<option value="${k}" ${(s.modelo||'auto')===k?'selected':''}>${n}</option>`).join('')}</select>`);
     if(s.layout==='item'&&!vert)ed.insertAdjacentHTML('afterbegin',`<select aria-label="Modelo da tela ${i+1}" data-k="modelo">${Object.entries(NOMES_MOD).map(([k,n])=>`<option value="${k}" ${(s.modelo||'auto')===k?'selected':''}>${n}</option>`).join('')}</select>`);
     ed.querySelectorAll('[data-k]').forEach(inp=>inp.oninput=()=>{s[inp.dataset.k]=inp.value;renderEm(cv,atual,i)});
     w.appendChild(ed);sl.appendChild(w);renderEm(cv,atual,i)});

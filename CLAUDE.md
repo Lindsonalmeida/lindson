@@ -19,4 +19,6 @@ Legendas de post: sempre estilo blog SEO (título com palavra-chave, introduçã
 
 Carrosséis: depois da capa, nenhuma tela repete o layout da anterior. Variar composição dentro da identidade (número grande, número de fundo, cor invertida, cartão, problema × solução, faixas, frase de impacto).
 
+Posts estáticos: nunca dois seguidos na mesma composição nem na mesma cor. Alternar entre foto inclinada, celular, palavra gigante, manchete, foto dividida, checklist, conversa e selo — sempre na identidade.
+
 Toda mensagem de abordagem e copy curta de venda segue `agencia/prospeccao/PADRAO-COPY.md`: **Conexão → Dor → Desejo → Pergunta**, linguagem simples de WhatsApp, entendida numa única leitura. Nunca usar "vi que", "parece que", "gargalo", jargão de marketing ou análise do perfil da pessoa.
