@@ -1,0 +1,150 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=JetBrains+Mono:wght@700&family=Manrope:wght@600;800&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#070B16;--blue:#4C8DFF;--sun:#FFB547;--paper:#EEF2FF;--red:#FF3B30;--wa:#25D366}
+*{margin:0;box-sizing:border-box}
+body{width:1080px;height:1920px;overflow:hidden;background:#000;font-family:Manrope}
+#st{position:absolute;inset:0;overflow:hidden;perspective:1600px}
+.bg{position:absolute;inset:0}
+#net{position:absolute;inset:0}
+.layer{position:absolute;inset:0;transform-style:preserve-3d}
+.H{font-family:'Bricolage Grotesque';font-weight:800;letter-spacing:-.045em;line-height:.92}
+.mono{font:700 30px 'JetBrains Mono';letter-spacing:.2em;text-transform:uppercase}
+.hl{background:var(--ink);color:var(--sun);padding:0 .18em .08em;border-radius:.16em;display:inline-block}
+.abs{position:absolute}
+.cap{position:absolute;left:70px;right:70px;top:1420px;text-align:center;font:800 64px/1.15 Manrope;color:#fff;text-shadow:0 4px 0 rgba(0,0,0,.35)}
+.cap span{display:inline-block;margin:0 .12em;padding:0 .12em;border-radius:12px}
+.cap span.on{background:var(--sun);color:var(--ink);text-shadow:none}
+.corner{position:absolute;width:60px;height:60px;border-style:solid;opacity:.5}
+.phone{position:absolute;width:420px;height:860px;border-radius:66px;background:#05070d;padding:16px;box-shadow:0 60px 120px rgba(0,0,0,.45)}
+.phone .s{width:100%;height:100%;border-radius:52px;overflow:hidden;background:var(--paper);position:relative}
+.isl{position:absolute;top:14px;left:50%;transform:translateX(-50%);width:130px;height:36px;border-radius:99px;background:#000;z-index:3}
+.lab{position:absolute;display:flex;gap:18px;align-items:center;padding:26px 38px;border-radius:26px;background:var(--ink);color:var(--paper);font:800 52px 'Bricolage Grotesque';letter-spacing:-1px;box-shadow:0 30px 60px rgba(0,0,0,.35);white-space:nowrap}
+.lab i{font-style:normal;color:var(--sun)}
+.bub{position:absolute;padding:30px 36px;border-radius:34px;font:700 44px/1.2 Manrope;box-shadow:0 20px 50px rgba(0,0,0,.25);max-width:800px}
+.flash{position:absolute;inset:0;background:#fff;pointer-events:none}
+.bar{position:absolute;top:70px;left:70px;right:70px;display:flex;gap:10px}
+.bar i{flex:1;height:10px;border-radius:9px;background:rgba(255,255,255,.3);overflow:hidden}
+.bar i b{display:block;height:100%;background:#fff}
+</style></head><body><div id="st"></div>
+<script>
+const TL=__TL__;
+const C={ink:'#070B16',blue:'#4C8DFF',sun:'#FFB547',paper:'#EEF2FF',red:'#FF3B30'};
+const st=document.getElementById('st');
+// helpers
+const cl=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));
+const lerp=(a,b,t)=>a+(b-a)*t;
+const eo=t=>1-Math.pow(1-cl(t),3);          // ease out cubic
+const eob=t=>{t=cl(t);const c1=1.70158,c3=c1+1;return 1+c3*Math.pow(t-1,3)+c1*Math.pow(t-1,2)}; // back
+const eel=t=>{t=cl(t);if(t===0||t===1)return t;return Math.pow(2,-10*t)*Math.sin((t*10-.75)*2.0944)+1}; // elastic
+const p=(t,a,d)=>cl((t-a)/d);
+const segs=TL.segs;
+const BG=[C.ink,C.sun,C.blue,C.paper,C.ink,C.sun,C.blue];
+const FG=[C.paper,C.ink,C.ink,C.ink,C.paper,C.ink,C.ink];
+function el(html){const d=document.createElement('div');d.innerHTML=html;return d.firstElementChild}
+// net drawing
+function net(ctx,w,h,t,col,seed){ctx.clearRect(0,0,w,h);let r=seed;const R=()=>(r=(r*9301+49297)%233280)/233280;
+  const P=[...Array(26)].map(()=>[R()*w,R()*h,R()*6.28,40+R()*60]);
+  const Q=P.map(([x,y,a,m])=>[x+Math.cos(t*.5+a)*m,y+Math.sin(t*.4+a)*m]);
+  ctx.globalAlpha=.32;ctx.strokeStyle=col;ctx.fillStyle=col;ctx.lineWidth=2;
+  Q.forEach((p,i)=>{const q=Q[(i*7+3)%26],s=Q[(i+1)%26];ctx.beginPath();ctx.moveTo(p[0],p[1]);ctx.lineTo(q[0],q[1]);ctx.lineTo(s[0],s[1]);ctx.stroke();ctx.beginPath();ctx.arc(p[0],p[1],6,0,7);ctx.fill()});ctx.globalAlpha=1}
+function sceneAt(t){let i=0;while(i<segs.length-1&&t>=segs[i+1].s)i++;return i}
+function phoneFeed(){let g='';const cs=[C.sun,C.blue,'#f4a',C.ink,'#7ad',C.sun,'#9c6',C.blue,'#e86'];for(let i=0;i<9;i++)g+=`<div style="position:absolute;left:${6+(i%3)*130}px;top:${300+Math.floor(i/3)*130}px;width:124px;height:124px;background:${cs[i]};border-radius:6px"></div>`;
+  return `<div class="isl"></div><div style="position:absolute;left:150px;top:80px;width:90px;height:90px;border-radius:50%;background:${C.blue}"></div><div style="position:absolute;left:60px;right:60px;top:190px;height:22px;border-radius:8px;background:${C.ink}"></div><div style="position:absolute;left:100px;right:100px;top:228px;height:16px;border-radius:8px;background:#9AA6C4"></div>${g}`}
+function miniSite(){return `<div class="isl"></div><div style="position:absolute;inset:0;background:linear-gradient(180deg,#e9efff,#fff)"></div><div style="position:absolute;left:130px;top:90px;width:130px;height:130px;border-radius:50%;background:url(ret.jpg) center/cover;border:6px solid ${C.blue}"></div>
+  <div class="H" style="position:absolute;left:0;right:0;top:250px;text-align:center;font-size:44px;color:${C.ink}">Seu Negócio</div>
+  <div style="position:absolute;left:0;right:0;top:310px;text-align:center;font:600 22px Manrope;color:#56607A">Renascença · São Luís</div>
+  ${['💬  Chamar no WhatsApp','📅  Agendar horário','📍  Como chegar'].map((x,i)=>`<div style="position:absolute;left:30px;right:30px;top:${380+i*110}px;height:90px;border-radius:24px;background:${i?'#fff':'#25D366'};border:${i?'2px solid #dfe5f5':'0'};font:800 28px Manrope;color:${C.ink};display:flex;align-items:center;padding-left:28px">${x}</div>`).join('')}`}
+// build all scenes once
+const scenes=segs.map((s,i)=>{const d=el(`<div class="layer" style="opacity:0"></div>`);st.appendChild(d);return d});
+const bgEl=el('<div class="bg"></div>');st.prepend(bgEl);
+const bg2=el('<div class="bg"></div>');st.insertBefore(bg2,bgEl.nextSibling);
+const cv=el('<canvas id="net" width="1080" height="1920"></canvas>');st.insertBefore(cv,scenes[0]);const ctx=cv.getContext('2d');
+const corners=['top:40px;left:40px;border-width:5px 0 0 5px','top:40px;right:40px;border-width:5px 5px 0 0','bottom:40px;left:40px;border-width:0 0 5px 5px','bottom:40px;right:40px;border-width:0 5px 5px 0'].map(s=>{const e=el(`<div class="corner" style="${s}"></div>`);st.appendChild(e);return e});
+const bar=el('<div class="bar">'+[0,1,2,3,4,5].map(()=>'<i><b style="width:0"></b></i>').join('')+'</div>');st.appendChild(bar);
+const handle=el('<div class="mono abs" style="left:70px;top:110px;font-size:24px;color:#fff;opacity:.85">@LINDSONALMEIDA_</div>');st.appendChild(handle);
+const cap=el('<div class="cap"></div>');st.appendChild(cap);
+const flash=el('<div class="flash" style="opacity:0"></div>');st.appendChild(flash);
+// scene contents
+// 0 hook
+scenes[0].innerHTML=`<div class="abs" id="h-photo" style="left:200px;top:330px;width:680px;height:820px;border-radius:50px;overflow:hidden;border:12px solid ${C.paper};box-shadow:0 60px 120px rgba(0,0,0,.6)"><img src="ret.jpg" style="width:100%;height:100%;object-fit:cover"></div>
+ <div class="H abs" id="h-t1" style="left:70px;right:70px;top:200px;font-size:120px;color:${C.paper}">Posta todo dia</div>
+ <div class="H abs" id="h-t2" style="left:70px;right:70px;top:1150px;font-size:120px;color:${C.paper}">e <span class="hl" style="background:${C.sun};color:${C.ink}">não vende?</span></div>
+ <div class="abs" id="h-big" style="left:0;right:0;top:520px;text-align:center"><div class="H" style="font-size:520px;color:${C.sun};text-shadow:0 30px 0 rgba(0,0,0,.35)">5</div><div class="lab" style="position:relative;display:inline-flex;margin-top:-40px;background:${C.red};font-size:80px">ERROS</div></div>`;
+const ERR=[
+ {n:'1',t:'Só foto bonita',sub:'não diz o que você vende'},
+ {n:'2',t:'Falar difícil',sub:'leu duas vezes, passou'},
+ {n:'3',t:'Sem convite',sub:'diga o próximo passo'},
+ {n:'4',t:'Cliente com dúvida',sub:'…some'},
+ {n:'5',t:'Postar sem plano',sub:'ninguém entende'}];
+ERR.forEach((e,k)=>{const i=k+1,fg=FG[i];
+ let prop='';
+ if(i===1)prop=`<div class="phone" id="p1" style="left:560px;top:470px"><div class="s">${phoneFeed()}</div></div><div class="abs H" id="x1" style="left:620px;top:700px;font-size:420px;color:${C.red}">✕</div>`;
+ if(i===2)prop=`<div class="bub" id="b2a" style="left:80px;top:760px;background:#fff;color:${C.ink}">"Sinergia omnichannel de branding disruptivo"</div><div class="abs" id="s2" style="left:70px;top:820px;width:0;height:12px;background:${C.red};border-radius:6px"></div><div class="bub" id="b2b" style="right:80px;top:1060px;background:${C.ink};color:${C.paper}">"Faço limpeza de pele no Renascença" ✅</div>`;
+ if(i===3)prop=`<div class="abs" id="c3" style="left:140px;top:700px;width:800px;height:560px;border-radius:40px;background:${C.paper};box-shadow:0 40px 80px rgba(0,0,0,.3);overflow:hidden"><div style="height:340px;background:linear-gradient(135deg,${C.blue},${C.ink})"></div><div style="padding:30px;font:800 40px Manrope;color:${C.ink}">Post bonito… e agora?</div></div><div class="abs" id="w3" style="left:220px;top:1130px;width:640px;height:120px;border-radius:30px;background:#25D366;font:800 46px Manrope;color:#06210f;display:flex;align-items:center;justify-content:center">💬 Chamar no WhatsApp</div><div class="abs" id="r3" style="left:220px;top:1130px;width:640px;height:120px;border-radius:30px;border:8px solid #25D366"></div>`;
+ if(i===4)prop=`<div class="bub" id="b4a" style="right:80px;top:740px;background:#fff;color:${C.ink}">Quanto custa? Como funciona?</div><div class="bub" id="b4b" style="left:80px;top:940px;background:${C.ink};color:${C.paper}">• • •</div><div class="abs mono" id="b4c" style="left:0;right:0;top:1180px;text-align:center;font-size:44px;color:${C.red}">VISUALIZOU E SUMIU</div>`;
+ if(i===5)prop=`<div class="abs" id="k5" style="left:140px;top:700px;width:800px;height:620px;border-radius:36px;background:${C.paper};padding:30px;display:grid;grid-template-columns:repeat(7,1fr);gap:12px;box-shadow:0 40px 80px rgba(0,0,0,.3)">${[...Array(28)].map((_,j)=>`<div class="c5" style="border-radius:12px;background:#dfe5f5;display:flex;align-items:center;justify-content:center;font-size:44px">${['','🎉','','😂','','📸','','','🛒','','🤷','','🍕','','','💤','','🎉','','','😂','','','📸','','','',''][j]}</div>`).join('')}</div>`;
+ scenes[i].innerHTML=`<div class="abs H num" style="left:30px;top:150px;font-size:620px;color:${fg};opacity:.95;transform-origin:left center">${e.n}</div>
+  <div class="lab tit" style="left:70px;top:620px;${fg===C.paper?`background:${C.sun};color:${C.ink}`:''}"><i style="${fg===C.paper?`color:${C.red}`:''}">✕</i>${e.t}</div>
+  ${prop}
+  <div class="mono abs sub" style="left:70px;top:1375px;color:${fg};font-size:34px">${e.sub}</div>`;
+});
+// CTA
+scenes[6].innerHTML=`<div class="H abs" id="ct1" style="left:70px;right:70px;top:190px;font-size:104px;color:${C.ink}">Quais desses o <span class="hl">seu perfil</span> comete?</div>
+ <div class="phone" id="cp" style="left:330px;top:440px"><div class="s">${miniSite()}</div></div>
+ <div class="abs" id="cpill" style="left:0;right:0;top:1300px;text-align:center"><span style="display:inline-block;padding:34px 56px;border-radius:99px;background:${C.ink};color:${C.paper};font:700 46px 'JetBrains Mono';letter-spacing:.12em">COMENTA "AVALIAÇÃO"</span></div>`;
+const q=(i,sel)=>scenes[i].querySelector(sel);
+// RENDER
+window.render=function(t){
+  const i=sceneAt(t),s=segs[i],lt=t-s.s,dur=s.e-s.s;
+  // bg wipe
+  const prev=i>0?BG[i-1]:BG[0];const w=eo(p(lt,0,.35));
+  bgEl.style.background=prev;bg2.style.background=BG[i];bg2.style.clipPath=`circle(${w*140}% at 50% 50%)`;
+  net(ctx,1080,1920,t,FG[i]===C.paper?C.blue:C.ink,7+i*13);
+  corners.forEach(c=>c.style.borderColor=FG[i]);
+  handle.style.color=FG[i];
+  // camera shake
+  let sh=0;[s.vs+0.05].forEach(h=>{const d=t-h;if(d>0&&d<.3)sh=(1-d/.3)*14});
+  scenes.forEach((sc,k)=>{sc.style.opacity=k===i?1:0});
+  const sc=scenes[i];
+  // whip-in
+  const wi=1-eo(p(lt,0,.3));sc.style.transform=`translate(${wi*500+Math.sin(t*80)*sh}px,${Math.cos(t*90)*sh}px)`;sc.style.filter=wi>.05?`blur(${wi*18}px)`:'none';
+  // flash on cut
+  flash.style.opacity=i>0?Math.max(0,.55-lt*4):0;
+  // progress bar (errors 1..5) + scene
+  bar.style.opacity=i>=1&&i<=5?1:0;
+  [...bar.querySelectorAll('b')].forEach((b,k)=>{b.style.width=(k<i-1?100:k===i-1?cl(lt/dur)*100:0)+'%'});
+  bar.querySelectorAll('i').forEach(x=>x.style.background=FG[i]===C.paper?'rgba(255,255,255,.3)':'rgba(7,11,22,.2)');
+  bar.querySelectorAll('b').forEach(x=>x.style.background=FG[i]);
+  // captions karaoke
+  const ws=s.words;let h='';ws.forEach(([wd,wt],k)=>{const a=t-wt;if(a<-0.02)return;const sc2=lerp(1.35,1,eo(a/.18));const on=t>=wt&&(k===ws.length-1||t<ws[k+1][1]);h+=`<span class="${on?'on':''}" style="transform:scale(${sc2})">${wd}</span>`});
+  cap.innerHTML=h;cap.style.color=i===6?C.ink:'#fff';cap.style.textShadow=(BG[i]===C.paper||BG[i]===C.sun||BG[i]===C.blue)?'none':'';if(BG[i]!==C.ink)cap.style.color=C.ink;
+  cap.style.top=i===0?'1500px':(i===6?'1480px':'1490px');
+  // scene specifics
+  if(i===0){const ph=q(0,'#h-photo'),t1=q(0,'#h-t1'),t2=q(0,'#h-t2'),bg=q(0,'#h-big');
+    const a=eo(p(lt,.05,.6));ph.style.transform=`rotateY(${lerp(55,-8,a)}deg) rotateX(${lerp(10,2,a)}deg) scale(${lerp(.6,1,a)+lt*.02})`;ph.style.opacity=lt<1.9?1:1-p(lt,1.9,.25);
+    t1.style.transform=`scale(${lerp(2.2,1,eob(p(lt,.2,.35)))})`;t1.style.opacity=p(lt,.2,.08)*(lt<1.9?1:1-p(lt,1.9,.2));
+    t2.style.transform=`scale(${lerp(2.2,1,eob(p(lt,.85,.35)))})`;t2.style.opacity=p(lt,.85,.08)*(lt<1.9?1:1-p(lt,1.9,.2));
+    const b=eel(p(lt,2.0,.9));bg.style.opacity=p(lt,1.95,.05);bg.style.transform=`rotateX(${lerp(-90,0,b)}deg) scale(${lerp(.4,1,b)})`;}
+  else if(i>=1&&i<=5){const num=q(i,'.num'),tit=q(i,'.tit'),sub=q(i,'.sub');
+    const a=eob(p(lt,.05,.5));num.style.transform=`rotateY(${lerp(-100,-14,a)}deg) translateZ(${Math.sin(t*2)*20}px)`;num.style.opacity=p(lt,.05,.1);
+    const b=p(lt,.35,.22);tit.style.transform=`scale(${lerp(2.4,1,eo(b))}) rotate(${lerp(-12,-3,eo(b))}deg)`;tit.style.opacity=cl(b*4);
+    sub.style.opacity=p(lt,1.4,.3);sub.style.transform=`translateY(${lerp(30,0,eo(p(lt,1.4,.3)))}px)`;
+    if(i===1){const ph=q(1,'#p1'),x=q(1,'#x1');const c=eo(p(lt,.5,.6));ph.style.transform=`rotateY(${lerp(70,-18,c)}deg) rotateZ(${lerp(10,4,c)}deg) translateY(${Math.sin(t*1.6)*12}px)`;ph.style.opacity=p(lt,.5,.1);
+      const d=eob(p(lt,1.5,.3));x.style.opacity=p(lt,1.5,.05);x.style.transform=`scale(${lerp(3,1,d)}) rotate(${lerp(-30,-8,d)}deg)`;}
+    if(i===2){const A=q(2,'#b2a'),S=q(2,'#s2'),B=q(2,'#b2b');A.style.opacity=p(lt,.5,.15);A.style.transform=`scale(${lerp(.6,1,eob(p(lt,.5,.3)))})`;
+      S.style.width=lerp(0,940,eo(p(lt,1.3,.35)))+'px';B.style.opacity=p(lt,1.9,.15);B.style.transform=`translateY(${lerp(80,0,eob(p(lt,1.9,.35)))}px)`;}
+    if(i===3){const Cc=q(3,'#c3'),W=q(3,'#w3'),R=q(3,'#r3');const c=eo(p(lt,.5,.5));Cc.style.transform=`rotateX(${lerp(40,8,c)}deg) scale(${lerp(.8,1,c)})`;Cc.style.opacity=p(lt,.5,.1);
+      const d=eel(p(lt,1.5,.8));W.style.opacity=p(lt,1.5,.05);W.style.transform=`scale(${lerp(0,1,d)})`;const r=(lt-2.1)%1;R.style.opacity=lt>2.1?1-r:0;R.style.transform=`scale(${1+r*.25})`;}
+    if(i===4){const A=q(4,'#b4a'),B=q(4,'#b4b'),Cc=q(4,'#b4c');A.style.opacity=p(lt,.5,.15);A.style.transform=`translateX(${lerp(200,0,eob(p(lt,.5,.35)))}px)`;
+      B.style.opacity=p(lt,1.0,.1)*(1-p(lt,1.8,.2));B.style.transform=`scale(${1+Math.sin(t*12)*.04})`;Cc.style.opacity=p(lt,1.9,.1);Cc.style.transform=`scale(${lerp(1.6,1,eob(p(lt,1.9,.3)))})`;}
+    if(i===5){const K=q(5,'#k5');const c=eo(p(lt,.5,.5));K.style.transform=`rotateX(${lerp(55,14,c)}deg) rotateZ(${lerp(-8,-3,c)}deg)`;K.style.opacity=p(lt,.5,.1);
+      K.querySelectorAll('.c5').forEach((x,j)=>{const a=p(lt,.7+j*.05,.2);x.style.transform=`scale(${lerp(0,1,eob(a))})`})}
+  }
+  else if(i===6){const T=q(6,'#ct1'),P=q(6,'#cp'),L=q(6,'#cpill');
+    T.style.opacity=p(lt,.1,.1);T.style.transform=`translateY(${lerp(-80,0,eob(p(lt,.1,.4)))}px)`;
+    const c=eo(p(lt,.3,1.1));P.style.transform=`rotateY(${lerp(200,-10,c)+Math.sin(t*1.5)*5}deg) translateY(${Math.sin(t*2)*10}px) scale(.88)`;P.style.opacity=p(lt,.3,.1);
+    const d=eel(p(lt,2.2,.8));L.style.opacity=p(lt,2.2,.05);L.style.transform=`scale(${lerp(0,1,d)*(1+Math.max(0,Math.sin((lt-3)*6))*.05*(lt>3))})`;}
+};
+document.fonts.ready.then(()=>{window.ready=true});
+</script></body></html>

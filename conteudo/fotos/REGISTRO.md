@@ -38,3 +38,5 @@ Fotos que o Lindson mostrou mas que ainda não chegaram como arquivo: celular no
 - pneu-braco-apoiado.jpg → conteúdo 8 (capa postar todo dia)
 - cerca-celular-sorrindo.jpg → conteúdo 9 (capa Reels é grátis)
 - pneu-mao-no-bolso.jpg → conteúdo 10 (post últimas vagas)
+
+- ensaio-mini-site/referencia-retrato.jpg → Reels "5 erros" 30s (abertura) e storyboard do ensaio
