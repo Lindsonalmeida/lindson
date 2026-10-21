@@ -60,6 +60,16 @@
    "cap": "Quantas pessoas viram, quantas chamaram no WhatsApp, quantas compraram."
   },
   {
+   "type": "phone",
+   "bg": "sun",
+   "title": "Do anúncio pro WhatsApp",
+   "brand": "Hamburgueria do Bairro",
+   "adtxt": "Seu pedido em 30 min no Cohama",
+   "say": "A pessoa vê o anúncio, toca no botão e já chama no uátsap.",
+   "cap": "A pessoa vê o anúncio, toca no botão e já chama no WhatsApp.",
+   "hold": 1.6
+  },
+  {
    "type": "hook",
    "bg": "ink",
    "lines": [
@@ -91,6 +101,27 @@
    "tag": "SÃO LUÍS · MA",
    "say": "É assim que negócio local cresce em São Luís.",
    "cap": "É assim que negócio local cresce em São Luís."
+  },
+  {
+   "type": "dash",
+   "bg": "paper",
+   "title": "Do seu jeito",
+   "rows": [
+    [
+     "ONDE",
+     "perto do seu negócio"
+    ],
+    [
+     "PRA QUEM",
+     "seu cliente ideal"
+    ],
+    [
+     "QUANTO",
+     "cabe no bolso"
+    ]
+   ],
+   "say": "Você decide onde aparece, pra quem aparece e quanto investe.",
+   "cap": "Você decide onde aparece, pra quem aparece e quanto investe."
   },
   {
    "type": "hook",
