@@ -1,0 +1,117 @@
+{
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "ink",
+   "lines": [
+    "Apertou",
+    "IMPULSIONAR",
+    "e nenhum",
+    "cliente veio?"
+   ],
+   "hl": [
+    1
+   ],
+   "size": 140,
+   "top": 380,
+   "say": "Você já apertou o botão impulsionar e não veio nenhum cliente?",
+   "cap": "Você já apertou o botão impulsionar e não veio nenhum cliente?"
+  },
+  {
+   "type": "big",
+   "bg": "sun",
+   "pre": "Calma. Não é",
+   "word": "CULPA SUA",
+   "size": 200,
+   "say": "Calma. Não é culpa sua.",
+   "cap": "Calma. Não é culpa sua."
+  },
+  {
+   "type": "compare",
+   "bg": "paper",
+   "title": "Parece igual. Não é.",
+   "left": {
+    "t": "Impulsionar",
+    "items": [
+     "Mostra pra quem curte",
+     "Gera like",
+     "Sem direção"
+    ]
+   },
+   "right": {
+    "t": "Tráfego pago",
+    "items": [
+     "Fala com quem compra",
+     "Gera conversa",
+     "Com objetivo"
+    ]
+   },
+   "say": "Impulsionar é mostrar o post pra quem curte. Tráfego pago é falar com quem compra.",
+   "cap": "Impulsionar é mostrar o post pra quem curte. Tráfego pago é falar com quem compra."
+  },
+  {
+   "type": "big",
+   "bg": "blue",
+   "pre": "Na prática, são",
+   "word": "3 PASSOS",
+   "size": 210,
+   "say": "Na prática, são três passos.",
+   "cap": "Na prática, são três passos."
+  },
+  {
+   "type": "map",
+   "bg": "ink",
+   "title": "1 · Público certo",
+   "pins": [
+    "Renascença",
+    "Cohama",
+    "Turu",
+    "Calhau"
+   ],
+   "say": "Um: público certo. Gente do Renascença, do Cohama, do Turu, perto de você.",
+   "cap": "Um: público certo. Gente do Renascença, do Cohama, do Turu, perto de você."
+  },
+  {
+   "type": "steps",
+   "bg": "sun",
+   "n": "2",
+   "t": "Anúncio que fala da dor",
+   "d": "do seu cliente, não do seu produto",
+   "icon": "🎯",
+   "say": "Dois: um anúncio que fala da dor do seu cliente.",
+   "cap": "Dois: um anúncio que fala da dor do seu cliente."
+  },
+  {
+   "type": "phone",
+   "bg": "paper",
+   "title": "3 · Direto pro WhatsApp",
+   "brand": "Clínica Sorriso",
+   "adtxt": "Avaliação sem compromisso",
+   "say": "Três: o clique vai direto pro uátsap, com a mensagem pronta.",
+   "cap": "Três: o clique vai direto pro WhatsApp, com a mensagem pronta.",
+   "hold": 1.6
+  },
+  {
+   "type": "funnel",
+   "bg": "blue",
+   "title": "Toda semana",
+   "rows": [
+    "Viram o anúncio",
+    "Chamaram no WhatsApp",
+    "Viraram clientes"
+   ],
+   "foot": "✂️ o que não funciona, sai",
+   "say": "E toda semana a gente olha os números e corta o que não funciona.",
+   "cap": "E toda semana a gente olha os números e corta o que não funciona."
+  },
+  {
+   "type": "cta",
+   "bg": "sun",
+   "pre": "Quer isso no seu negócio?",
+   "pill": "COMENTA \"ANÚNCIO\"",
+   "say": "Comenta anúncio, que eu te mostro como fazer no seu negócio.",
+   "cap": "Comenta ANÚNCIO, que eu te mostro como fazer no seu negócio.",
+   "hold": 1.5
+  }
+ ]
+}

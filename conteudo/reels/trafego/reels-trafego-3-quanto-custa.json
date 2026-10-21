@@ -1,0 +1,122 @@
+{
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "blue",
+   "lines": [
+    "Quanto custa",
+    "um cliente",
+    "novo?"
+   ],
+   "hl": [
+    1
+   ],
+   "size": 170,
+   "top": 420,
+   "say": "Quanto custa conseguir um cliente novo?",
+   "cap": "Quanto custa conseguir um cliente novo?"
+  },
+  {
+   "type": "cross",
+   "bg": "ink",
+   "items": [
+    "Panfleto",
+    "Indicação"
+   ],
+   "icons": [
+    "📄",
+    "🗣️"
+   ],
+   "subs": [
+    "some no chão",
+    "demora"
+   ],
+   "say": "Panfleto some no chão. Indicação demora.",
+   "cap": "Panfleto some no chão. Indicação demora.",
+   "hold": 0.6
+  },
+  {
+   "type": "big",
+   "bg": "sun",
+   "pre": "Com tráfego pago",
+   "word": "VOCÊ VÊ TUDO",
+   "size": 170,
+   "lines": 2,
+   "sub": "começando com pouco por dia",
+   "say": "Com tráfego pago, você começa com pouco por dia, e vê cada número.",
+   "cap": "Com tráfego pago, você começa com pouco por dia e vê cada número."
+  },
+  {
+   "type": "funnel",
+   "bg": "paper",
+   "title": "Cada número",
+   "rows": [
+    "Quantos viram",
+    "Quantos chamaram",
+    "Quantos compraram"
+   ],
+   "foot": "📊 sem achismo",
+   "say": "Quantas pessoas viram, quantas chamaram no uátsap, quantas compraram.",
+   "cap": "Quantas pessoas viram, quantas chamaram no WhatsApp, quantas compraram."
+  },
+  {
+   "type": "hook",
+   "bg": "ink",
+   "lines": [
+    "Deu resultado?",
+    "Mais verba.",
+    "Não deu?",
+    "Sai."
+   ],
+   "hl": [
+    1,
+    3
+   ],
+   "size": 145,
+   "top": 380,
+   "say": "O que dá resultado, ganha mais verba. O que não dá, sai.",
+   "cap": "O que dá resultado ganha mais verba. O que não dá, sai."
+  },
+  {
+   "type": "map",
+   "bg": "blue",
+   "title": "Negócio local crescendo",
+   "pins": [
+    "Cohama",
+    "Calhau",
+    "Turu",
+    "Cohab",
+    "Renascença"
+   ],
+   "tag": "SÃO LUÍS · MA",
+   "say": "É assim que negócio local cresce em São Luís.",
+   "cap": "É assim que negócio local cresce em São Luís."
+  },
+  {
+   "type": "hook",
+   "bg": "sun",
+   "lines": [
+    "Eu cuido",
+    "das campanhas.",
+    "Você cuida",
+    "do atendimento."
+   ],
+   "hl": [
+    1
+   ],
+   "size": 130,
+   "top": 420,
+   "say": "Eu cuido das campanhas. Você cuida do atendimento.",
+   "cap": "Eu cuido das campanhas. Você cuida do atendimento."
+  },
+  {
+   "type": "cta",
+   "bg": "paper",
+   "pre": "Bora montar o plano do seu negócio?",
+   "pill": "ME CHAMA NO DIRECT",
+   "say": "Me chama no directe, que eu te mostro o plano pro seu negócio.",
+   "cap": "Me chama no direct, que eu te mostro o plano pro seu negócio.",
+   "hold": 1.6
+  }
+ ]
+}

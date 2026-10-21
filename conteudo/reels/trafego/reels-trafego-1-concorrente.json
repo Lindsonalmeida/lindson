@@ -1,0 +1,120 @@
+{
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "ink",
+   "lines": [
+    "Enquanto você",
+    "posta e espera…",
+    "seu concorrente",
+    "aparece."
+   ],
+   "hl": [
+    2
+   ],
+   "size": 140,
+   "top": 360,
+   "say": "Enquanto você posta e espera, seu concorrente aparece no celular de quem mora perto de você.",
+   "cap": "Enquanto você posta e espera, seu concorrente aparece no celular de quem mora perto de você."
+  },
+  {
+   "type": "big",
+   "bg": "sun",
+   "pre": "Isso se chama",
+   "word": "TRÁFEGO PAGO",
+   "size": 170,
+   "lines": 2,
+   "say": "Isso se chama tráfego pago.",
+   "cap": "Isso se chama tráfego pago."
+  },
+  {
+   "type": "map",
+   "bg": "blue",
+   "title": "Anúncio só pra quem está perto",
+   "pins": [
+    "Renascença",
+    "Cohama",
+    "Turu",
+    "Calhau",
+    "Vinhais"
+   ],
+   "say": "É anúncio no Instagram, mostrado só pra quem está perto do seu negócio, aqui em São Luís.",
+   "cap": "É anúncio no Instagram, mostrado só pra quem está perto do seu negócio, aqui em São Luís."
+  },
+  {
+   "type": "phone",
+   "bg": "paper",
+   "title": "Viu. Tocou. Chamou.",
+   "brand": "Studio da Ana",
+   "adtxt": "Primeira aula é por nossa conta",
+   "say": "A pessoa vê, toca no botão e cai direto no seu uátsap.",
+   "cap": "A pessoa vê, toca no botão e cai direto no seu WhatsApp.",
+   "hold": 1.6
+  },
+  {
+   "type": "hook",
+   "bg": "ink",
+   "lines": [
+    "Sem depender",
+    "de seguidor.",
+    "Sem esperar",
+    "o algoritmo."
+   ],
+   "hl": [
+    1,
+    3
+   ],
+   "size": 140,
+   "top": 380,
+   "say": "Sem depender de seguidor. Sem esperar o algoritmo.",
+   "cap": "Sem depender de seguidor. Sem esperar o algoritmo."
+  },
+  {
+   "type": "dash",
+   "bg": "sun",
+   "title": "Você escolhe",
+   "rows": [
+    [
+     "BAIRRO",
+     "Cohama · Turu"
+    ],
+    [
+     "IDADE",
+     "25 a 55"
+    ],
+    [
+     "VERBA POR DIA",
+     "você define"
+    ]
+   ],
+   "say": "Você escolhe o bairro, a idade e quanto investir por dia.",
+   "cap": "Você escolhe o bairro, a idade e quanto investir por dia."
+  },
+  {
+   "type": "hook",
+   "bg": "blue",
+   "lines": [
+    "Eu monto.",
+    "Acompanho.",
+    "Ajusto toda",
+    "semana."
+   ],
+   "hl": [
+    3
+   ],
+   "size": 150,
+   "top": 400,
+   "say": "Eu monto, acompanho e ajusto toda semana.",
+   "cap": "Eu monto, acompanho e ajusto toda semana."
+  },
+  {
+   "type": "cta",
+   "bg": "paper",
+   "pre": "Quer ver como ficaria no seu negócio?",
+   "pill": "DIRECT: \"ANÚNCIO\"",
+   "say": "Quer ver como ficaria pro seu negócio? Me chama no directe, com a palavra anúncio.",
+   "cap": "Quer ver como ficaria pro seu negócio? Me chama no direct, com a palavra ANÚNCIO.",
+   "hold": 1.5
+  }
+ ]
+}
