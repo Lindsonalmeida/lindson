@@ -1,0 +1,55 @@
+{
+ "stage": "tv.html",
+ "voice": "pm_santa",
+ "bpm": 92,
+ "chords": [
+  146.83,
+  174.61,
+  130.81,
+  164.81
+ ],
+ "scenes": [
+  {
+   "type": "abertura",
+   "say": "Plantão urgente: dono de negócio em São Luís perde cliente todo dia, e nem percebe.",
+   "cap": "Plantão urgente: dono de negócio em São Luís perde cliente todo dia, e nem percebe.",
+   "hold": 0.4
+  },
+  {
+   "type": "whats",
+   "say": "Funciona assim: o cliente chama no uátsap, pergunta o preço, e some.",
+   "cap": "Funciona assim: o cliente chama no WhatsApp, pergunta o preço, e some.",
+   "hold": 0.6
+  },
+  {
+   "type": "sonora",
+   "say": "Tem dono que posta todo dia, e a agenda não enche.",
+   "cap": "Tem dono que posta todo dia, e a agenda não enche.",
+   "hold": 0.5
+  },
+  {
+   "type": "reporter",
+   "say": "O problema não é o seu produto. É que pouca gente certa vê ele.",
+   "cap": "O problema não é o seu produto. É que pouca gente certa vê ele.",
+   "hold": 0.4
+  },
+  {
+   "type": "info",
+   "say": "A solução: anúncio no Instagram, mostrado pra quem mora perto, que leva direto pro seu uátsap.",
+   "cap": "A solução: anúncio no Instagram, mostrado pra quem mora perto, que leva direto pro seu WhatsApp.",
+   "hold": 0.8
+  },
+  {
+   "type": "atendimento",
+   "say": "E o atendimento vem com roteiro pronto, pra conversa não esfriar.",
+   "cap": "E o atendimento vem com roteiro pronto, pra conversa não esfriar.",
+   "hold": 0.6
+  },
+  {
+   "type": "encerramento",
+   "say": "Quer saber como faria pro seu negócio? Me chama no uátsap. Lindson, direto de São Luís.",
+   "cap": "Quer saber como faria pro seu negócio? Me chama no WhatsApp. Lindson, direto de São Luís.",
+   "hold": 1.5
+  }
+ ]
+}

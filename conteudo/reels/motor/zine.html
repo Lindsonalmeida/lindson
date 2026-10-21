@@ -1,0 +1,69 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Caveat:wght@700&display=swap" rel="stylesheet">
+<style>
+:root{--kr:#F2E8D5;--or:#FF5A1F;--bl:#2D6BFF;--bk:#1A1A1A}
+*{margin:0;box-sizing:border-box}
+body{width:1080px;height:1920px;overflow:hidden;background:var(--kr)}
+#st{position:absolute;inset:0;overflow:hidden;background:var(--kr)}
+#st:before{content:"";position:absolute;inset:0;background:repeating-radial-gradient(circle at 30% 20%,rgba(120,90,40,.05) 0 2px,transparent 2px 7px)}
+.layer{position:absolute;inset:0}
+.abs{position:absolute}
+.AB{font-family:'Archivo Black';text-transform:uppercase;line-height:.95;color:var(--bk)}
+.hand{font-family:Caveat;color:var(--bl)}
+.paper{position:absolute;background:#fff;box-shadow:6px 10px 0 rgba(0,0,0,.15);clip-path:polygon(0 2%,6% 0,15% 2%,30% 0,48% 2%,63% 0,80% 2%,100% 0,98% 30%,100% 55%,98% 80%,100% 100%,82% 98%,60% 100%,40% 98%,20% 100%,0 98%,2% 70%,0 40%)}
+.tape{position:absolute;width:170px;height:56px;background:rgba(240,220,160,.85);box-shadow:0 2px 4px rgba(0,0,0,.1)}
+.stamp{display:inline-block;border:10px solid var(--or);color:var(--or);font-family:'Archivo Black';text-transform:uppercase;padding:14px 26px;border-radius:14px;letter-spacing:.02em}
+.photo{position:absolute;background:#fff;padding:18px 18px 70px;box-shadow:8px 12px 0 rgba(0,0,0,.18)}
+.photo img{display:block;width:100%;height:100%;object-fit:cover}
+.cap{position:absolute;left:60px;right:60px;top:1590px;text-align:center;font:400 54px/1.2 'Archivo Black';color:var(--bk)}
+.cap span{display:inline-block;margin:0 .1em;padding:0 .08em}.cap span.on{background:var(--or);color:#fff}
+.post{position:absolute;width:250px;height:230px;background:#FFE36B;box-shadow:4px 8px 0 rgba(0,0,0,.15);font:700 66px Caveat;color:var(--bk);display:grid;place-items:center}
+</style></head><body><div id="st"></div>
+<script>const TL=__TL__;</script><script src="file:///home/user/lindson/conteudo/reels/motor/core.js"></script>
+<script>
+const st=document.getElementById('st');const F='file:///home/user/lindson/conteudo/fotos/';const B={};
+const jit=(e,lt,amt=1.2)=>{const f=Math.floor(lt*8);e.style.rotate=((f*37)%7-3)*amt*.3+'deg'}; // stop-motion
+B.rip=(L,s)=>{L.innerHTML=`<div class="photo" style="left:70px;top:220px;width:520px;height:700px;rotate:-4deg"><img src="${F}disponiveis/trator-encostado-bone.jpg" style="object-position:50% 20%"></div><div class="tape" style="left:250px;top:220px;rotate:-8deg"></div>
+ <div class="paper btn" style="left:470px;top:800px;width:540px;height:240px;display:grid;place-items:center"><div style="background:#0095F6;color:#fff;font:400 64px 'Archivo Black';padding:24px 44px;border-radius:20px">Impulsionar</div></div>
+ <div class="abs AB x" style="left:580px;top:680px;font-size:420px;color:var(--or)">✕</div>
+ <div class="abs AB t" style="left:70px;right:70px;top:1140px;font-size:118px">Pare de apertar esse botão.</div>
+ <div class="abs" style="left:0;top:0;width:540px;height:1920px;background:var(--kr)" id="lp"></div><div class="abs" style="right:0;top:0;width:540px;height:1920px;background:var(--kr)" id="rp"></div>`;
+ sfx(s.s+.05,'rip');sfx(s.s+s.vs0+.9,'stamp');const lp=L.querySelector('#lp'),rp=L.querySelector('#rp'),x=L.querySelector('.x'),t=L.querySelector('.t'),ph=L.querySelector('.photo'),b=L.querySelector('.btn');
+ return lt=>{const a=eo(p(lt,.05,.45));lp.style.transform=`translateX(${-a*560}px) rotate(${-a*8}deg)`;rp.style.transform=`translateX(${a*560}px) rotate(${a*8}deg)`;
+  const k=p(lt,s.vs0+.9,.12);x.style.opacity=k;x.style.transform=`scale(${lerp(2.5,1,eob(k))})`;t.style.opacity=p(lt,.4,.1);jit(t,lt);jit(ph,lt+.3);jit(b,lt+.6)}};
+B.hearts=(L,s)=>{L.innerHTML=`<div class="abs AB" style="left:70px;right:70px;top:240px;font-size:96px">Muita curtida…</div>
+ <div class="paper reg" style="left:290px;top:980px;width:500px;height:360px;display:grid;place-items:center;text-align:center"><div><div style="font:400 160px 'Archivo Black'">R$ 0</div><div class="hand" style="font-size:70px">caixa vazio</div></div></div>
+ ${[...Array(14)].map((_,i)=>`<div class="abs hv" style="left:${80+(i*137)%880}px;top:-200px;font-size:${90+(i%3)*30}px">${['❤️','🧡','💙'][i%3]}</div>`).join('')}`;
+ const hv=[...L.querySelectorAll('.hv')];hv.forEach((_,i)=>sfx(s.s+.2+i*.17,'pop'));const rg=L.querySelector('.reg');
+ return lt=>{hv.forEach((e,i)=>{const a=p(lt,.2+i*.17,1.3);e.style.transform=`translateY(${lerp(0,1150+(i%4)*60,eo(a))}px) rotate(${(i%5-2)*15+a*40}deg)`});jit(rg,lt)}};
+B.stamp=(L,s)=>{L.style.background='var(--or)';L.innerHTML=`<div class="abs AB t" style="left:60px;right:60px;top:520px;text-align:center;font-size:170px;color:#fff">Curtida não paga aluguel.</div>`;sfx(s.s+.05,'stampbig');
+ const t=L.querySelector('.t');return lt=>{const k=p(lt,.05,.18);t.style.transform=`scale(${lerp(3,1,eob(k))}) rotate(-3deg)`;t.style.opacity=k}};
+B.arrow=(L,s)=>{L.innerHTML=`<div class="abs AB" style="left:70px;right:70px;top:240px;font-size:92px">Anúncio feito pra te <span style="color:var(--or)">chamar</span>.</div>
+ <div class="paper" style="left:90px;top:720px;width:300px;height:300px;display:grid;place-items:center;font-size:170px">❤️</div>
+ <div class="paper wa" style="left:690px;top:700px;width:310px;height:330px;display:grid;place-items:center;background:#25D366"><div style="font:400 50px 'Archivo Black';color:#fff;text-align:center">💬<br>WHATS</div></div>
+ <svg class="abs" style="left:380px;top:760px" width="320" height="200" viewBox="0 0 320 200"><path class="ar" d="M10 150 C 90 20, 220 20, 300 110 M300 110 l-50 -6 M300 110 l-14 -48" fill="none" stroke="#2D6BFF" stroke-width="12" stroke-linecap="round"/></svg>
+ <div class="abs hand" style="left:120px;top:1100px;font-size:90px">curtir ✕</div><div class="abs hand" style="left:660px;top:1100px;font-size:90px">chamar ✓</div>`;
+ const ar=L.querySelector('.ar');const len=ar.getTotalLength?900:900;ar.style.strokeDasharray=len;sfx(s.s+s.vs0+.6,'pen');const wa=L.querySelector('.wa');
+ return lt=>{ar.style.strokeDashoffset=len*(1-eo(p(lt,s.vs0+.6,1)));wa.style.transform=`scale(${eob(p(lt,s.vs0+1.5,.4))})`;jit(wa,lt)}};
+B.map=(L,s)=>{const pins=['Cohama','Renascença','Turu','Calhau'];
+ L.innerHTML=`<div class="abs AB" style="left:70px;right:70px;top:240px;font-size:92px">Gente <span style="color:var(--or)">perto</span> de você.</div>
+ <div class="paper" style="left:80px;top:520px;width:920px;height:900px;background:#eef3e6"><svg width="920" height="900"><path d="M120 200 C 260 80, 560 60, 760 180 S 860 520, 700 700 S 300 840, 160 660 S 20 320, 120 200Z" fill="#cfe0bd" stroke="#8aa070" stroke-width="6" stroke-dasharray="14 10"/><text x="300" y="460" font-family="Caveat" font-size="90" fill="#5d7a45">São Luís</text></svg></div>
+ ${pins.map((n,i)=>`<div class="abs pin" style="left:${[220,560,300,680][i]}px;top:${[700,760,1080,1050][i]}px"><div style="width:34px;height:34px;border-radius:50%;background:${['#FF5A1F','#2D6BFF','#1A1A1A','#25D366'][i]};box-shadow:0 70px 0 -14px rgba(0,0,0,.3)"></div><div class="hand" style="font-size:66px;margin-top:-6px">${n}</div></div>`).join('')}`;
+ const pp=[...L.querySelectorAll('.pin')];pp.forEach((_,i)=>sfx(s.s+s.vs0+.3+i*.55,'pin'));
+ return lt=>{pp.forEach((e,i)=>{const a=s.vs0+.3+i*.55;e.style.opacity=p(lt,a,.05);e.style.transform=`translateY(${lerp(-160,0,eob(p(lt,a,.3)))}px)`})}};
+B.postits=(L,s)=>{L.innerHTML=`<div class="photo" style="left:120px;top:300px;width:560px;height:760px;rotate:3deg"><img src="${F}disponiveis/caminhonete-telefone.jpg" style="object-position:50% 15%"></div><div class="tape" style="left:300px;top:270px;rotate:6deg"></div>
+ ${['seg ✔','qua ✔','sex ✔'].map((t,i)=>`<div class="post pi" style="left:${[690,720,650][i]}px;top:${[330,620,910][i]}px;rotate:${[5,-6,3][i]}deg">${t}</div>`).join('')}
+ <div class="abs AB" style="left:70px;right:70px;top:1180px;font-size:84px">Ajuste <span style="color:var(--or)">toda semana</span>.</div>`;
+ const pi=[...L.querySelectorAll('.pi')];pi.forEach((_,i)=>sfx(s.s+s.vs0+.4+i*.6,'postit'));const ph=L.querySelector('.photo');
+ return lt=>{pi.forEach((e,i)=>{const a=s.vs0+.4+i*.6;e.style.opacity=p(lt,a,.05);e.style.transform=`scale(${lerp(1.8,1,eob(p(lt,a,.3)))})`});jit(ph,lt)}};
+B.final=(L,s)=>{L.innerHTML=`<div class="abs AB" style="left:70px;right:70px;top:250px;font-size:104px">Pare de gastar no botão.</div>
+ <div class="abs st1" style="left:0;right:0;top:720px;text-align:center"><span class="stamp" style="font-size:76px;rotate:-5deg;background:rgba(255,255,255,.6)">Me chama<br>no WhatsApp</span></div>
+ <div class="abs hand" style="left:0;right:0;top:1120px;text-align:center;font-size:76px">pacote acessível · @lindsonalmeida_</div>
+ <div class="tape" style="left:-20px;top:120px;rotate:-25deg;width:300px"></div><div class="tape" style="right:-20px;top:1450px;rotate:-25deg;width:300px"></div>`;
+ sfx(s.s+s.vs0+s.vd*.45,'stampbig');const sp=L.querySelector('.st1');
+ return lt=>{const k=p(lt,s.vs0+s.vd*.45,.15);sp.style.opacity=k;sp.style.transform=`scale(${lerp(2.6,1,eob(k))})`}};
+boot(st,B);
+const cap=el('<div class="cap"></div>');st.append(cap);segs.forEach((s,i)=>{if(i)sfx(s.s-.05,'paper')});
+const R=window.render;window.render=t=>{R(t);const i=sceneAt(t),lt=t-segs[i].s;caption(cap,t,i);cap.style.color=segs[i].type==='stamp'?'#fff':'#1A1A1A';
+ const L=document.querySelectorAll('.layer')[i];L.style.transform=`translateY(${lerp(1920,0,eo(p(lt,0,.25)))}px) rotate(${lerp(6,0,eo(p(lt,0,.25)))}deg)`};
+</script></body></html>

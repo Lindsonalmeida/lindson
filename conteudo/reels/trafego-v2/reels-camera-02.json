@@ -1,0 +1,57 @@
+{
+ "stage": "cctv.html",
+ "voice": "pm_alex",
+ "bpm": 100,
+ "chords": [
+  110,
+  98,
+  130.81,
+  123.47
+ ],
+ "musicFrom": 4,
+ "speed": 1.0,
+ "scenes": [
+  {
+   "type": "cam",
+   "say": "Essa câmera grava o que mais dói num negócio.",
+   "cap": "Essa câmera grava o que mais dói num negócio.",
+   "hold": 0.8
+  },
+  {
+   "type": "clock",
+   "say": "Terça à tarde. Porta aberta, luz acesa, funcionário pago, e ninguém entra.",
+   "cap": "Terça à tarde. Porta aberta, luz acesa, funcionário pago, e ninguém entra.",
+   "hold": 0.7
+  },
+  {
+   "type": "split",
+   "say": "No sábado lota. No meio da semana, o dinheiro fica parado.",
+   "cap": "No sábado lota. No meio da semana, o dinheiro fica parado.",
+   "hold": 0.7
+  },
+  {
+   "type": "phone",
+   "say": "E o celular? Silêncio.",
+   "cap": "E o celular? Silêncio.",
+   "hold": 1.2
+  },
+  {
+   "type": "rewind",
+   "say": "Agora imagina essa mesma terça, com o celular tocando.",
+   "cap": "Agora imagina essa mesma terça, com o celular tocando.",
+   "hold": 1.6
+  },
+  {
+   "type": "enter",
+   "say": "Eu sou o Lindson. Faço anúncio pra gente daqui de São Luís achar o seu negócio e chamar no uátsap. Até na terça.",
+   "cap": "Eu sou o Lindson. Faço anúncio pra gente daqui de São Luís achar o seu negócio e chamar no WhatsApp. Até na terça.",
+   "hold": 0.6
+  },
+  {
+   "type": "off",
+   "say": "Quer ver como ficaria a sua terça? Me manda a palavra terça no uátsap.",
+   "cap": "Quer ver como ficaria a sua terça? Me manda a palavra TERÇA no WhatsApp.",
+   "hold": 1.6
+  }
+ ]
+}

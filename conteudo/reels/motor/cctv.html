@@ -1,0 +1,65 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=VT323&family=IBM+Plex+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bk:#0A0F0A;--g:#39FF14;--gr:#BFC5BF;--rec:#FF3B3B}
+*{margin:0;box-sizing:border-box}
+body{width:1080px;height:1920px;overflow:hidden;background:var(--bk);font-family:'IBM Plex Mono'}
+#st{position:absolute;inset:0;overflow:hidden;background:var(--bk)}
+.layer{position:absolute;inset:0}
+.abs{position:absolute}
+.V{font-family:VT323;line-height:1}
+.mon{position:absolute;left:40px;right:40px;top:240px;height:1180px;overflow:hidden;background:#151a15;border:4px solid #2a332a}
+.room{position:absolute;inset:0;filter:grayscale(1) contrast(1.15) brightness(.85)}
+.hud{position:absolute;inset:0;pointer-events:none;font-family:VT323;color:#fff;text-shadow:0 0 6px rgba(255,255,255,.5)}
+#noise{position:absolute;inset:0;mix-blend-mode:screen;opacity:.18}
+.cap{position:absolute;left:50px;right:50px;top:1500px;text-align:center;font:700 52px/1.25 'IBM Plex Mono';color:var(--gr)}
+.cap span{display:inline-block;margin:0 .12em}.cap span.on{color:var(--g);text-shadow:0 0 12px rgba(57,255,20,.6)}
+.sil{position:absolute;background:#2b2f2b;border-radius:60px 60px 20px 20px}
+.sil:before{content:"";position:absolute;left:50%;top:-70px;width:90px;height:90px;margin-left:-45px;border-radius:50%;background:#2b2f2b}
+.notif{position:absolute;left:30px;right:30px;background:rgba(255,255,255,.95);color:#111;border-radius:22px;padding:20px 24px;font:700 32px 'IBM Plex Mono';box-shadow:0 10px 30px rgba(0,0,0,.4)}
+</style></head><body><div id="st"></div>
+<script>const TL=__TL__;</script><script src="file:///home/user/lindson/conteudo/reels/motor/core.js"></script>
+<script>
+const st=document.getElementById('st');const F='file:///home/user/lindson/conteudo/fotos/';
+// loja desenhada em perspectiva (vista de cima, câmera de canto)
+const loja=(n=1,full=false)=>`<div class="room"><div style="position:absolute;inset:0;background:linear-gradient(180deg,#8d8d84 0,#6e6e66 38%,#9a9a90 38%,#b3b3a8 100%)"></div>
+ <div style="position:absolute;left:0;right:0;top:38%;bottom:0;background:repeating-linear-gradient(90deg,rgba(0,0,0,.08) 0 2px,transparent 2px 120px),repeating-linear-gradient(0deg,rgba(0,0,0,.08) 0 2px,transparent 2px 90px)"></div>
+ ${[0,1,2].map(i=>`<div style="position:absolute;left:${6+i*31}%;top:8%;width:26%;height:26%;background:#5a5a52;border:6px solid #444">${[0,1,2].map(j=>`<div style="height:6px;background:#333;margin-top:${j?40:30}px"></div>`).join('')}</div>`).join('')}
+ <div style="position:absolute;right:6%;top:48%;width:34%;height:14%;background:#4a4a44;border-radius:8px"></div>
+ <div style="position:absolute;left:6%;top:30%;width:18%;height:40%;background:#d8d8cc;border:6px solid #555"></div>
+ ${n?`<div class="sil" style="right:16%;top:44%;width:120px;height:170px"></div>`:''}
+ ${full?[...Array(9)].map((_,i)=>`<div class="sil" style="left:${8+(i*37)%80}%;top:${52+(i*13)%30}%;width:${90+i%3*15}px;height:${130+i%3*20}px"></div>`).join(''):''}</div>`;
+const hud=(cam,t,extra='')=>`<div class="hud"><div class="abs V" style="left:30px;top:24px;font-size:58px">${cam}</div><div class="abs V tm" style="right:30px;top:24px;font-size:58px">${t}</div>
+ <div class="abs V" style="left:30px;bottom:20px;font-size:52px;color:var(--rec)" ><span class="rec">● REC</span></div>${extra}</div>`;
+const B={};
+const mon=(inner)=>`<div class="mon">${inner}<canvas id="noise" width="270" height="295"></canvas></div>`;
+B.cam=(L,s)=>{L.innerHTML=mon(loja()+hud('CAM 02','TER 15:47',`<div class="abs V nin" style="left:0;right:0;bottom:120px;text-align:center;font-size:110px;color:#fff;background:rgba(0,0,0,.45)">NINGUÉM ENTROU</div>`));sfx(s.s,'hum');sfx(s.s+2.4,'glitch');
+ const r=L.querySelector('.room'),n=L.querySelector('.nin');return lt=>{r.style.transform=`scale(${1.15-lt*.02})`;n.style.opacity=p(lt,.4,.1)*(Math.floor(lt*2.5)%2?1:.6)}};
+B.clock=(L,s)=>{L.innerHTML=mon(loja()+hud('CAM 02','TER 15:47',`<div class="abs V cnt" style="left:0;right:0;top:40%;text-align:center;font-size:170px;color:#fff">0 CLIENTES</div>`));for(let i=0;i<10;i++)sfx(s.s+s.vs0+i*.5,'tick');
+ const tm=L.querySelector('.tm'),c=L.querySelector('.cnt');return lt=>{const m=47+Math.floor(lt*3);tm.textContent=`TER ${15+Math.floor(m/60)}:${String(m%60).padStart(2,'0')}`;c.style.opacity=p(lt,s.vs0+s.vd*.6,.2)}};
+B.split=(L,s)=>{L.innerHTML=`<div class="mon" style="height:1180px"><div class="abs" style="left:0;top:0;width:50%;height:100%;overflow:hidden">${loja(1,true)}${hud('SÁB','10:30')}</div><div class="abs" style="right:0;top:0;width:50%;height:100%;overflow:hidden;border-left:6px solid var(--bk)">${loja()}${hud('TER','15:58')}</div><canvas id="noise" width="270" height="295"></canvas></div>
+ <div class="abs V" style="left:40px;right:40px;top:150px;display:flex;justify-content:space-around;font-size:72px;color:var(--g)"><span>LOTADO</span><span style="color:var(--rec)">PARADO</span></div>`;sfx(s.s+.1,'crowd');sfx(s.s+s.vs0+s.vd*.55,'cut');
+ const a=L.querySelector('.mon>div'),b=L.querySelectorAll('.mon>div')[1];return lt=>{a.style.transform=`translateY(${lerp(-1200,0,eob(p(lt,.05,.5)))}px)`;b.style.transform=`translateY(${lerp(1200,0,eob(p(lt,s.vs0+s.vd*.45,.5)))}px)`}};
+B.phone=(L,s)=>{L.innerHTML=`<div class="abs" style="left:290px;top:300px;width:500px;height:1020px;border-radius:70px;background:#050705;padding:16px;box-shadow:0 0 0 4px #2a332a"><div style="width:100%;height:100%;border-radius:56px;background:#0c120c;position:relative;overflow:hidden">
+ <div class="abs V" style="left:0;right:0;top:260px;text-align:center;font-size:150px;color:#fff">15:59</div><div class="abs V" style="left:0;right:0;top:440px;text-align:center;font-size:58px;color:var(--gr)">0 MENSAGENS</div></div></div>`;sfx(s.s+s.vs0+s.vd,'silence');
+ const ph=L.querySelector('.abs');return lt=>{ph.style.transform=`scale(${lerp(1.25,1,eo(p(lt,0,.6)))}) rotate(${Math.sin(lt*1.5)*1.2}deg)`}};
+B.rewind=(L,s)=>{const msgs=['Oi! Ainda tem horário hoje?','Vocês abrem até que horas?','Quero agendar pra terça 🙂','Qual o valor? Tô aqui perto'];
+ L.innerHTML=`<div class="abs" style="left:290px;top:300px;width:500px;height:1020px;border-radius:70px;background:#050705;padding:16px"><div class="scr" style="width:100%;height:100%;border-radius:56px;background:#0c120c;position:relative;overflow:hidden">
+ <div class="abs V" style="left:0;right:0;top:110px;text-align:center;font-size:110px;color:#fff">16:02</div>${msgs.map((m,i)=>`<div class="notif" style="top:${300+i*150}px">💬 ${m}</div>`).join('')}</div></div>
+ <div class="abs V rw" style="left:0;right:0;top:170px;text-align:center;font-size:90px;color:#fff">◀◀ REBOBINANDO</div><div class="abs" style="left:0;right:0;top:1350px;text-align:center;font:500 26px 'IBM Plex Mono';color:var(--gr)">cena ilustrativa</div>`;
+ sfx(s.s,'rewind');msgs.forEach((_,i)=>sfx(s.s+s.vs0+.8+i*.55,'notif'));const n=[...L.querySelectorAll('.notif')],rw=L.querySelector('.rw'),sc=L.querySelector('.scr');
+ return lt=>{rw.style.opacity=lt<1.2?(Math.floor(lt*8)%2?1:.3):0;sc.style.filter=lt<1?`hue-rotate(${lt*300}deg) blur(${(1-lt)*4}px)`:'none';n.forEach((e,i)=>{const a=s.vs0+.8+i*.55;e.style.opacity=p(lt,a,.05);e.style.transform=`translateY(${lerp(-60,0,eob(p(lt,a,.35)))}px)`})}};
+B.enter=(L,s)=>{L.innerHTML=mon(loja(0)+`<img src="${F}disponiveis/cerca-celular-sorrindo.jpg" class="lin" style="position:absolute;left:18%;top:10%;width:64%;height:85%;object-fit:cover;object-position:50% 20%;filter:grayscale(1) contrast(1.2);border:4px solid #222">`+hud('CAM 02','TER 16:10',`<div class="abs V ent" style="left:0;right:0;bottom:110px;text-align:center;font-size:96px;color:var(--g);background:rgba(0,0,0,.6)">LINDSON ENTROU</div>`));sfx(s.s+.2,'bell');
+ const im=L.querySelector('.lin'),en=L.querySelector('.ent');return lt=>{im.style.transform=`translateX(${lerp(900,0,eo(p(lt,.2,.9)))}px) scale(${1+lt*.01})`;en.style.opacity=p(lt,1,.2)}};
+B.off=(L,s)=>{L.innerHTML=`<div class="mon" style="background:#000"><div class="line abs" style="left:0;right:0;top:50%;height:6px;background:#fff;box-shadow:0 0 30px #fff"></div>
+ <div class="cta abs V" style="left:40px;right:40px;top:330px;text-align:center;font-size:118px;color:var(--g);text-shadow:0 0 20px rgba(57,255,20,.7)">MANDA "TERÇA"<br>NO WHATSAPP</div><div class="cta2 abs" style="left:40px;right:40px;top:700px;text-align:center;font:700 44px 'IBM Plex Mono';color:var(--gr)">pacote acessível pra negócio de São Luís</div>
+ <div class="abs" style="left:0;right:0;top:980px;text-align:center;font:700 36px 'IBM Plex Mono';color:var(--g)">@lindsonalmeida_</div></div>`;sfx(s.s+.1,'off');sfx(s.s+s.vs0+s.vd*.5,'beep');
+ const ln=L.querySelector('.line'),c=L.querySelector('.cta'),c2=L.querySelector('.cta2');return lt=>{const a=p(lt,.1,.4);ln.style.transform=`scaleX(${1-a})`;ln.style.opacity=1-p(lt,.4,.1);c.style.opacity=p(lt,s.vs0+s.vd*.4,.05)*(Math.floor(lt*2)%3?1:.75);c2.style.opacity=p(lt,s.vs0+s.vd*.6,.3)}};
+boot(st,B);
+const cap=el('<div class="cap"></div>'),topbar=el('<div class="abs V" style="left:40px;top:120px;font-size:56px;color:var(--g)">SISTEMA DE SEGURANÇA · LOJA</div>');st.append(cap,topbar);
+segs.forEach((s,i)=>{if(i)sfx(s.s-.05,'glitch')});
+const R=window.render;window.render=t=>{R(t);const i=sceneAt(t),lt=t-segs[i].s;caption(cap,t,i);
+ document.querySelectorAll('.rec').forEach(r=>r.style.opacity=Math.floor(t*2)%2?1:.2);
+ document.querySelectorAll('#noise').forEach(c=>{const x=c.getContext('2d'),d=x.createImageData(270,295);for(let k=0;k<d.data.length;k+=4){const v=Math.random()*255;d.data[k]=d.data[k+1]=d.data[k+2]=v;d.data[k+3]=255}x.putImageData(d,0,0);c.style.width='100%';c.style.height='100%'});
+ const L=document.querySelectorAll('.layer')[i];L.style.transform=lt<.18?`translateX(${(Math.random()-.5)*60}px) skewX(${(Math.random()-.5)*10}deg)`:'none';L.style.filter=lt<.18?'hue-rotate(90deg) saturate(3)':'none'};
+</script></body></html>

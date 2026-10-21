@@ -1,0 +1,78 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--red:#D7141A;--navy:#0B1F3A;--yel:#FFC72C;--w:#fff}
+*{margin:0;box-sizing:border-box}
+body{width:1080px;height:1920px;overflow:hidden;background:var(--navy);font-family:'Barlow Condensed'}
+#st{position:absolute;inset:0;overflow:hidden;perspective:1600px;background:radial-gradient(1200px 900px at 50% 30%,#163a6b,#0B1F3A 60%,#06111f)}
+.layer{position:absolute;inset:0}
+.abs{position:absolute}
+.A{font-family:Anton;text-transform:uppercase;line-height:1}
+.tv{position:absolute;left:60px;right:60px;top:300px;height:960px;border-radius:26px;overflow:hidden;background:#000;box-shadow:0 40px 90px rgba(0,0,0,.6),0 0 0 8px #13294a}
+.tv img{width:100%;height:100%;object-fit:cover}
+.scan{position:absolute;inset:0;background:repeating-linear-gradient(0deg,rgba(0,0,0,.12) 0 2px,transparent 2px 4px);pointer-events:none}
+.live{position:absolute;top:28px;left:28px;background:var(--red);color:#fff;font:800 34px 'Barlow Condensed';padding:6px 16px;border-radius:6px;letter-spacing:.06em}
+.live:before{content:"";display:inline-block;width:14px;height:14px;border-radius:50%;background:#fff;margin-right:10px;vertical-align:2px}
+.lower{position:absolute;left:60px;right:60px;top:1180px}
+.lower .t1{display:inline-block;background:var(--red);color:#fff;font:800 40px 'Barlow Condensed';padding:8px 22px;letter-spacing:.08em}
+.lower .t2{background:#fff;color:var(--navy);font:400 70px/1.05 Anton;padding:18px 24px;text-transform:uppercase}
+.ticker{position:absolute;left:0;right:0;top:1440px;height:78px;background:var(--yel);overflow:hidden;display:flex;align-items:center}
+.ticker .lb{background:var(--navy);color:var(--yel);height:100%;display:flex;align-items:center;padding:0 22px;font:800 34px 'Barlow Condensed';z-index:2;letter-spacing:.06em}
+.ticker .tx{white-space:nowrap;font:700 40px 'Barlow Condensed';color:var(--navy);padding-left:30px}
+.cap{position:absolute;left:60px;right:60px;top:1580px;text-align:center;font:700 62px/1.15 'Barlow Condensed';color:#fff}
+.cap span{display:inline-block;margin:0 .12em}.cap span.on{color:var(--yel)}
+.logo{position:absolute;top:70px;left:60px;display:flex;align-items:center;gap:14px;font:400 56px Anton;color:#fff;letter-spacing:.02em}
+.logo b{background:var(--red);padding:2px 16px;border-radius:6px;font-weight:400}
+.clock{position:absolute;top:84px;right:60px;font:700 40px 'Barlow Condensed';color:#fff;opacity:.85}
+.bub{position:absolute;padding:24px 30px;border-radius:26px;font:600 40px/1.2 'Barlow Condensed';max-width:620px}
+.flash{position:absolute;inset:0;background:#fff;pointer-events:none}
+</style></head><body><div id="st"></div>
+<script>const TL=__TL__;</script><script src="file:///home/user/lindson/conteudo/reels/motor/core.js"></script>
+<script>
+const st=document.getElementById('st');const F='file:///home/user/lindson/conteudo/fotos/';
+const B={};
+const tvBox=(inner)=>`<div class="tv">${inner}<div class="scan"></div><div class="live">AO VIVO</div></div>`;
+const lower=(a,b)=>`<div class="lower"><div class="t1">${a}</div><div class="t2">${b}</div></div>`;
+function lowerAnim(L,lt,d0){const lw=L.querySelector('.lower');if(!lw)return;lw.querySelector('.t1').style.transform=`translateX(${lerp(-900,0,eo(p(lt,d0,.35)))}px)`;lw.querySelector('.t2').style.transform=`translateX(${lerp(1100,0,eo(p(lt,d0+.15,.4)))}px)`}
+B.abertura=(L,s)=>{L.innerHTML=tvBox(`<img src="${F}usadas/retrato-estudio.jpg" style="object-position:50% 20%">`)+`<div class="abs A" style="left:0;right:0;top:620px;text-align:center;font-size:150px;color:#fff;text-shadow:0 10px 30px rgba(0,0,0,.6)" id="urg">URGENTE</div>`+lower('URGENTE · SÃO LUÍS','Dono de negócio perde cliente todo dia e não percebe');
+ const img=L.querySelector('img'),u=L.querySelector('#urg');sfx(s.s,'vinheta');sfx(s.s+1.4,'whoosh');
+ return lt=>{u.style.opacity=lt<1.3?(Math.floor(lt*6)%2?1:.2):0;u.style.transform=`scale(${lerp(1.6,1,eo(p(lt,0,.3)))})`;img.style.transform=`scale(${lerp(1.5,1.08,eo(p(lt,.1,1.6)))+lt*.01})`;img.style.opacity=p(lt,.1,.3);lowerAnim(L,lt,1.4)}};
+B.whats=(L,s)=>{L.innerHTML=tvBox(`<div style="position:absolute;inset:0;background:#ECE5DD"><div style="background:#075E54;color:#fff;padding:28px 34px;font:700 44px 'Barlow Condensed'">Cliente <span style="display:block;font:500 30px 'Barlow Condensed';opacity:.85" id="vist">online</span></div>
+ <div class="bub" id="b1" style="left:40px;top:200px;background:#fff">Oi! Quanto custa? 🙂</div><div class="bub" id="b2" style="right:40px;top:360px;background:#DCF8C6">Oi! Te passo os valores e já agendo pra você?</div>
+ <div class="abs A" id="sum" style="left:0;right:0;top:560px;text-align:center;font-size:110px;color:#D7141A;transform:rotate(-8deg)">✓✓ SUMIU</div></div>`)+lower('O PROBLEMA','Perguntou o preço e sumiu');
+ const b1=L.querySelector('#b1'),b2=L.querySelector('#b2'),sm=L.querySelector('#sum'),v=L.querySelector('#vist');const T=s.vs0;sfx(s.s+T+.3,'notif');sfx(s.s+T+1.3,'notif');sfx(s.s+T+s.vd*.8,'stamp');
+ return lt=>{b1.style.opacity=p(lt,T+.3,.1);b1.style.transform=`scale(${eob(p(lt,T+.3,.3))})`;b2.style.opacity=p(lt,T+1.3,.1);b2.style.transform=`scale(${eob(p(lt,T+1.3,.3))})`;
+  v.textContent=lt>T+s.vd*.7?'visto por último às 14:02':'online';const k=p(lt,T+s.vd*.8,.15);sm.style.opacity=k;sm.style.transform=`rotate(-8deg) scale(${lerp(3,1,eob(k))})`;lowerAnim(L,lt,.2)}};
+B.sonora=(L,s)=>{L.innerHTML=tvBox(`<div style="position:absolute;inset:0;background:linear-gradient(160deg,#1a3c70,#0B1F3A)"><div class="abs A" style="left:60px;top:90px;font-size:300px;color:#FFC72C;opacity:.9">“</div>
+ <div class="abs" id="q" style="left:80px;right:80px;top:330px;font:700 84px/1.12 'Barlow Condensed';color:#fff">Eu posto todo dia… mas a agenda não enche.</div>
+ <div class="abs" style="left:80px;right:80px;bottom:110px;display:flex;gap:10px;align-items:flex-end;height:120px" id="wav">${[...Array(28)].map(()=>'<i style="flex:1;background:#FFC72C;border-radius:4px;height:20%"></i>').join('')}</div></div>`)+lower('O QUE OS DONOS DIZEM','A dor mais comum em São Luís');
+ const q=L.querySelector('#q'),bars=[...L.querySelectorAll('#wav i')];sfx(s.s+.1,'whoosh');
+ return lt=>{q.style.opacity=p(lt,.2,.3);q.style.transform=`translateY(${lerp(60,0,eo(p(lt,.2,.5)))}px)`;bars.forEach((b,i)=>b.style.height=(20+70*Math.abs(Math.sin(lt*9+i*.7))*(lt>s.vs0&&lt<s.vs0+s.vd?1:.15))+'%');lowerAnim(L,lt,.1)}};
+B.reporter=(L,s)=>{L.innerHTML=tvBox(`<img src="${F}usadas/fazenda-pensativo-mao-no-bolso.jpg" style="object-position:50% 25%"><div class="abs" style="left:28px;bottom:28px;background:rgba(11,31,58,.85);color:#FFC72C;font:800 34px 'Barlow Condensed';padding:8px 18px;letter-spacing:.08em">REPÓRTER · LINDSON ALMEIDA</div>`)+lower('ANÁLISE','O problema não é o seu produto');
+ const img=L.querySelector('img');sfx(s.s+.1,'whoosh');sfx(s.s+s.vs0+s.vd*.55,'hit');
+ return lt=>{img.style.transform=`scale(${1.25-lt*.03}) translateX(${lerp(-40,40,lt/6)}px)`;lowerAnim(L,lt,.2);const t2=L.querySelector('.t2');if(lt>s.vs0+s.vd*.55)t2.textContent='É que pouca gente certa vê ele'}};
+B.info=(L,s)=>{const pins=['Renascença','Cohama','Turu','Calhau','Vinhais'];
+ L.innerHTML=tvBox(`<div style="position:absolute;inset:0;background:#0B1F3A"><div class="abs A" style="left:0;right:0;top:60px;text-align:center;font-size:84px;color:#fff">A SOLUÇÃO</div>
+ <div class="abs" id="ig" style="left:90px;top:230px;width:260px;height:260px;border-radius:60px;background:linear-gradient(45deg,#f58529,#dd2a7b,#8134af);display:grid;place-items:center;font:400 54px Anton;color:#fff">INSTA</div>
+ <div class="abs" id="ar" style="left:370px;top:330px;height:16px;width:0;background:#FFC72C"></div>
+ <div class="abs" id="wa" style="right:90px;top:230px;width:260px;height:260px;border-radius:60px;background:#25D366;display:grid;place-items:center;font:400 46px Anton;color:#fff">WHATSAPP</div>
+ <div class="abs" style="left:120px;right:120px;top:560px;height:330px;border:4px solid #FFC72C;border-radius:30px"><div class="abs" style="left:50%;top:50%;width:30px;height:30px;margin:-15px;border-radius:50%;background:#D7141A;box-shadow:0 0 0 12px rgba(215,20,26,.3)"></div>
+ ${pins.map((n,i)=>`<div class="pin abs" style="left:${[12,62,20,70,42][i]}%;top:${[18,14,64,62,80][i]}%;font:700 34px 'Barlow Condensed';color:#fff"><b style="display:inline-block;width:20px;height:20px;border-radius:50%;background:#FFC72C;margin-right:8px"></b>${n}</div>`).join('')}</div></div>`)+lower('COMO FUNCIONA','Anúncio pra quem mora perto → WhatsApp');
+ const ig=L.querySelector('#ig'),wa=L.querySelector('#wa'),ar=L.querySelector('#ar'),pp=[...L.querySelectorAll('.pin')];const T=s.vs0;sfx(s.s+T,'whoosh');sfx(s.s+T+.9,'ding');pp.forEach((_,i)=>sfx(s.s+T+1.6+i*.35,'pop'));
+ return lt=>{ig.style.transform=`scale(${eob(p(lt,T,.4))})`;ar.style.width=lerp(0,340,eo(p(lt,T+.4,.5)))+'px';wa.style.transform=`scale(${eob(p(lt,T+.85,.4))})`;pp.forEach((e,i)=>{e.style.opacity=p(lt,T+1.6+i*.35,.1);e.style.transform=`translateY(${lerp(-30,0,eob(p(lt,T+1.6+i*.35,.3)))}px)`});lowerAnim(L,lt,.2)}};
+B.atendimento=(L,s)=>{const it=['Resposta em minutos','Pergunta certa','Horário marcado'];
+ L.innerHTML=tvBox(`<div style="position:absolute;inset:0;background:linear-gradient(160deg,#fff,#dfe8f5)"><div class="abs A" style="left:70px;top:80px;font-size:96px;color:#0B1F3A">ROTEIRO PRONTO</div>
+ ${it.map((x,i)=>`<div class="ck abs" style="left:70px;right:70px;top:${290+i*190}px;background:#fff;border-left:16px solid #D7141A;box-shadow:0 14px 30px rgba(0,0,0,.12);padding:34px 36px;font:700 60px 'Barlow Condensed';color:#0B1F3A">✔ ${x}</div>`).join('')}</div>`)+lower('ATENDIMENTO','Conversa que não esfria');
+ const ck=[...L.querySelectorAll('.ck')];ck.forEach((_,i)=>sfx(s.s+s.vs0+i*.7,'type'));
+ return lt=>{ck.forEach((e,i)=>{e.style.opacity=p(lt,s.vs0+i*.7,.1);e.style.transform=`translateX(${lerp(-700,0,eob(p(lt,s.vs0+i*.7,.4)))}px)`});lowerAnim(L,lt,.2)}};
+B.encerramento=(L,s)=>{L.innerHTML=tvBox(`<img src="${F}usadas/retrato-estudio.jpg" style="object-position:50% 20%">`)+lower('LINDSON ALMEIDA · DIRETO DE SÃO LUÍS','Chama no WhatsApp · pacote acessível');
+ const img=L.querySelector('img');sfx(s.s+s.vs0+s.vd*.6,'vinheta');
+ return lt=>{img.style.transform=`scale(${1.05+lt*.012})`;lowerAnim(L,lt,.3);const tw=L.querySelector('.t2');tw.style.background=lt>s.vs0+s.vd*.6?(Math.floor(lt*3)%2?'#FFC72C':'#fff'):'#fff'}};
+boot(st,B);
+const logo=el('<div class="logo"><b>PLANTÃO</b> SLZ</div>'),clock=el('<div class="clock">AO VIVO · 19:00</div>'),
+ tick=el('<div class="ticker"><div class="lb">ÚLTIMAS</div><div class="tx">ANÚNCIO QUE LEVA PRO WHATSAPP · NEGÓCIO LOCAL CRESCE EM SÃO LUÍS · PACOTE ACESSÍVEL · CHAMA O LINDSON · ANÚNCIO QUE LEVA PRO WHATSAPP · NEGÓCIO LOCAL CRESCE EM SÃO LUÍS · PACOTE ACESSÍVEL · CHAMA O LINDSON ·</div></div>'),
+ cap=el('<div class="cap"></div>'),fl=el('<div class="flash" style="opacity:0"></div>');st.append(logo,clock,tick,cap,fl);
+segs.forEach((s,i)=>{if(i)sfx(s.s-.1,'swoosh')});
+const R=window.render;window.render=t=>{R(t);const i=sceneAt(t),lt=t-segs[i].s;tick.querySelector('.tx').style.transform=`translateX(${-t*140%2400}px)`;caption(cap,t,i);fl.style.opacity=i?Math.max(0,.6-lt*5):0;
+ const tv=document.querySelectorAll('.tv')[i];if(tv)tv.style.transform=`scale(${lerp(.92,1,eo(p(lt,0,.3)))})`};
+</script></body></html>

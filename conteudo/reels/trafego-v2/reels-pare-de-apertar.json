@@ -1,0 +1,56 @@
+{
+ "stage": "zine.html",
+ "voice": "pm_alex",
+ "bpm": 128,
+ "chords": [
+  196,
+  233.08,
+  174.61,
+  261.63
+ ],
+ "speed": 1.08,
+ "scenes": [
+  {
+   "type": "rip",
+   "say": "Pare de apertar esse botão. Sério.",
+   "cap": "Pare de apertar esse botão. Sério.",
+   "hold": 0.6
+  },
+  {
+   "type": "hearts",
+   "say": "Impulsionar mostra seu post pra muita gente que curte, e nunca compra.",
+   "cap": "Impulsionar mostra seu post pra muita gente que curte, e nunca compra.",
+   "hold": 0.5
+  },
+  {
+   "type": "stamp",
+   "say": "Curtida não paga aluguel.",
+   "cap": "Curtida não paga aluguel.",
+   "hold": 0.7
+  },
+  {
+   "type": "arrow",
+   "say": "O que funciona é anúncio feito pra pessoa te chamar no uátsap, não só pra curtir.",
+   "cap": "O que funciona é anúncio feito pra pessoa te chamar no WhatsApp, não só pra curtir.",
+   "hold": 0.8
+  },
+  {
+   "type": "map",
+   "say": "Mostrado pra gente perto de você, que procura o que você vende.",
+   "cap": "Mostrado pra gente perto de você, que procura o que você vende.",
+   "hold": 0.9
+  },
+  {
+   "type": "postits",
+   "say": "E eu acompanho toda semana, ajustando o que não tá trazendo conversa.",
+   "cap": "E eu acompanho toda semana, ajustando o que não tá trazendo conversa.",
+   "hold": 0.8
+  },
+  {
+   "type": "final",
+   "say": "Quer parar de gastar no botão? Me chama, que eu te mostro como faria pro seu negócio.",
+   "cap": "Quer parar de gastar no botão? Me chama, que eu te mostro como faria pro seu negócio.",
+   "hold": 1.6
+  }
+ ]
+}
