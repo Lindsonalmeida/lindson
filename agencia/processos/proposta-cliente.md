@@ -20,3 +20,8 @@ Usar sempre que um lead aceitar ver o plano. Modelo aprovado: VOLL Pilates Turu 
 
 ## Mensagem para enviar junto com o PDF
 "Pronto! Montei o plano pensando no studio de vocês. São 8 páginas rápidas, dá pra ler no celular. Me conta o que achou?"
+
+## Variante: Avaliação gratuita do perfil (quem comentou AVALIAÇÃO)
+Mesmo formato (8 páginas 4:5, identidade do cliente). Estrutura: 1 capa com o objetivo do cliente · 2 raio-x com números reais do perfil e o que já funciona · 3, 4 e 5 os 3 problemas (um por página, sem humilhar) · 6 a 1 solução de graça pronta pra usar (ex.: bio nova) · 7 o caminho em fases · 8 próximo passo com uma ação só ("responde QUERO").
+Perfil político: incluir o aviso da regra eleitoral (antes da campanha oficial não pode pedir voto; anúncios passam pelo advogado eleitoral). Modelo: Tom Trajano (Presidente Médici 2028).
+Entrega: PDF + 8 imagens JPG, e o PDF na página de downloads https://claude.ai/artifact/VLijrTZyfqg1D53UYrKM6w.
