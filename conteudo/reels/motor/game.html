@@ -1,0 +1,79 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#1B0B3A;--mg:#FF2E88;--cy:#2DE2E6;--ye:#FFD319;--gr:#3DFF6E}
+*{margin:0;box-sizing:border-box}
+body{width:1080px;height:1920px;overflow:hidden;background:var(--bg)}
+#st{position:absolute;inset:0;overflow:hidden;background:var(--bg);font-family:'Press Start 2P';color:#fff;image-rendering:pixelated}
+#st:after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(0deg,rgba(0,0,0,.22) 0 3px,transparent 3px 6px);pointer-events:none;z-index:9}
+.layer{position:absolute;inset:0}
+.abs{position:absolute}
+.floor{position:absolute;left:0;right:0;top:1180px;height:240px;background:repeating-linear-gradient(90deg,#5B2A86 0 60px,#46206A 60px 120px);border-top:12px solid var(--cy)}
+.px{image-rendering:pixelated}
+.bar{position:absolute;height:56px;border:8px solid #fff;background:#000}.bar i{display:block;height:100%}
+.blk{position:absolute;width:150px;height:150px;background:var(--ye);border:8px solid #000;box-shadow:inset -12px -12px 0 #C99A00;display:grid;place-items:center;font-size:70px;color:#000}
+#hud{position:absolute;left:40px;right:40px;top:60px;display:flex;justify-content:space-between;font-size:30px;line-height:1.6;z-index:5}
+#dlg{position:absolute;left:40px;right:40px;top:1470px;height:330px;background:#000;border:10px solid #fff;box-shadow:0 0 0 8px #000,0 0 0 14px var(--cy);padding:34px 36px;z-index:6}
+.cap{font-size:38px;line-height:1.7}.cap span{display:inline-block;margin-right:.5em}.cap span.on{color:var(--ye)}
+#arw{position:absolute;right:30px;bottom:20px;font-size:30px;color:var(--ye)}
+</style></head><body><div id="st"></div>
+<script>const TL=__TL__;</script><script src="file:///home/user/lindson/conteudo/reels/motor/core.js"></script>
+<script>
+const st=document.getElementById('st');const F='file:///home/user/lindson/conteudo/fotos/';const B={};
+// jogador: foto do Lindson pixelizada em canvas
+const src=new Image();src.src=F+'usadas/fazenda-arvore-corpo-inteiro.jpg';
+const player=()=>{const c=document.createElement('canvas');c.width=52;c.height=78;c.className='abs px pl';c.style.width='260px';c.style.height='390px';c.dataset.d='';return c};
+const draw=c=>{if(c.dataset.d||!src.complete||!src.naturalWidth)return;const x=c.getContext('2d');x.imageSmoothingEnabled=true;const w=src.naturalWidth,h=src.naturalHeight;x.drawImage(src,w*.28,h*.06,w*.44,h*.9,0,0,52,78);c.dataset.d=1};
+const blink=lt=>Math.floor(lt*3)%2;
+B.start=(L,s)=>{L.innerHTML=`<div class="abs ttl" style="left:0;right:0;top:420px;text-align:center;font-size:92px;line-height:1.3;color:var(--ye);text-shadow:8px 8px 0 var(--mg)">SEU<br>NEGOCIO</div>
+ <div class="abs ps" style="left:0;right:0;top:820px;text-align:center;font-size:44px">PRESS START</div>
+ <div class="abs md" style="left:110px;right:110px;top:960px;text-align:center;font-size:58px;line-height:1.5;background:var(--mg);border:8px solid #fff;padding:30px">MODO:<br>DIFICIL</div><div class="floor"></div>`;
+ const ttl=L.querySelector('.ttl'),ps=L.querySelector('.ps'),md=L.querySelector('.md');const a=s.vs0+s.vd*.55;sfx(s.s+.05,'coin');sfx(s.s+.6,'blip');sfx(s.s+a,'boom');
+ return lt=>{ttl.style.transform=`translateY(${lerp(-700,0,eob(p(lt,0,.5)))}px)`;ps.style.opacity=lt<a?blink(lt):0;md.style.opacity=lt>a?1:0;md.style.transform=`scale(${lerp(2.2,1,eob(p(lt,a,.2)))})`}};
+B.energia=(L,s)=>{const dm=['📸 postar','💬 responder','🎬 editar','📦 entregar'];L.innerHTML=`<div class="abs" style="left:70px;top:260px;font-size:34px">ENERGIA</div><div class="bar" style="left:70px;top:320px;width:940px"><i class="hp" style="background:var(--gr)"></i></div>
+ <div class="floor"></div>${dm.map((t,i)=>`<div class="abs dmg" style="left:${[440,520,460,560][i]}px;top:${[620,730,840,950][i]}px;font-size:34px;color:var(--mg)">-25 ${t}</div>`).join('')}`;
+ const pl=player();pl.style.left='120px';pl.style.top='800px';L.append(pl);const hp=L.querySelector('.hp'),dd=[...L.querySelectorAll('.dmg')];const ts=dd.map((_,i)=>s.vs0+.3+i*s.vd*.2);ts.forEach(a=>sfx(s.s+a,'punch'));
+ return lt=>{draw(pl);const n=ts.filter(a=>lt>a).length;hp.style.width=Math.max(4,100-25*n+(n?0:0))+'%';hp.style.background=n>=3?'var(--mg)':n>=2?'var(--ye)':'var(--gr)';
+  dd.forEach((e,i)=>{const k=p(lt,ts[i],.6);e.style.opacity=lt>ts[i]?1-p(lt,ts[i]+.9,.3):0;e.style.transform=`translateY(${-k*80}px)`});
+  const hit=ts.some(a=>lt>a&&lt<a+.15);pl.style.filter=hit?'brightness(3)':'';pl.style.translate=hit?'-14px 0':'0 0'}};
+B.boss=(L,s)=>{L.innerHTML=`<div class="abs" style="left:70px;top:260px;font-size:34px;color:var(--mg)">CHEFAO: TERCA VAZIA</div><div class="bar" style="left:70px;top:320px;width:940px"><i style="background:var(--mg);width:100%"></i></div>
+ <div class="abs bs" style="left:500px;top:520px;width:480px;height:600px;background:#fff;border:12px solid #000;box-shadow:16px 16px 0 #000">
+  <div style="height:150px;background:var(--mg);display:grid;place-items:center;font-size:70px;border-bottom:12px solid #000">TER</div>
+  <div style="display:flex;justify-content:center;gap:90px;margin-top:80px"><div style="width:70px;height:70px;background:#000"></div><div style="width:70px;height:70px;background:#000"></div></div>
+  <div style="margin:60px auto 0;width:240px;height:40px;background:#000"></div><div style="text-align:center;margin-top:40px;font-size:30px;color:#000">0 CLIENTES</div></div><div class="floor"></div>`;
+ const pl=player();pl.style.left='90px';pl.style.top='800px';pl.style.width='200px';pl.style.height='300px';pl.style.top='890px';L.append(pl);const bs=L.querySelector('.bs');const a=s.vs0+s.vd*.4;sfx(s.s+.05,'buzz');sfx(s.s+a,'stampbig');
+ return lt=>{draw(pl);bs.style.transform=`translateY(${lerp(-1100,0,eo(p(lt,.05,.5)))}px) scale(${lt>a&&lt<a+.3?1.08:1})`;const sh=lt>a&&lt<a+.35?14:0;L.style.translate=`${Math.sin(lt*90)*sh}px 0`}};
+B.over=(L,s)=>{L.style.background='#3A0010';L.innerHTML=`<div class="abs go" style="left:0;right:0;top:620px;text-align:center;font-size:120px;line-height:1.3;color:#FF3B30;text-shadow:10px 10px 0 #000">GAME<br>OVER</div>
+ <div class="abs fm" style="left:0;right:0;top:1000px;text-align:center;font-size:40px;color:var(--ye)">FIM DO MES</div>`;
+ const go=L.querySelector('.go'),fm=L.querySelector('.fm');sfx(s.s+.1,'gameover');
+ return lt=>{go.style.opacity=p(lt,.1,.05);go.style.letterSpacing=lerp(.6,0,eo(p(lt,.1,.6)))+'em';fm.style.opacity=lt>s.vs0+s.vd*.5?blink(lt)*.6+.4:0}};
+B.power=(L,s)=>{L.innerHTML=`<div class="blk bk" style="left:465px;top:480px">?</div>
+ <div class="abs it" style="left:300px;top:480px;width:480px;background:#fff;color:#000;border:10px solid #000;box-shadow:12px 12px 0 var(--cy);padding:26px;text-align:center;font-size:34px;line-height:1.6">ANUNCIO<br><span style="color:var(--mg)">PERTO + WHATSAPP</span></div>
+ <div class="abs pu" style="left:0;right:0;top:190px;text-align:center;font-size:76px;color:var(--ye);text-shadow:6px 6px 0 var(--mg)">POWER-UP!</div><div class="floor"></div>`;
+ const pl=player();pl.style.left='410px';pl.style.top='800px';L.append(pl);const bk=L.querySelector('.bk'),it=L.querySelector('.it'),pu=L.querySelector('.pu');
+ const j=s.vs0+s.vd*.3,g=j+.55;sfx(s.s+j,'jump');sfx(s.s+j+.25,'coin');sfx(s.s+g,'powerup');
+ return lt=>{draw(pl);const jy=lt>j&&lt<j+.5?Math.sin((lt-j)/.5*Math.PI)*-180:0;pl.style.translate=`0 ${jy}px`;bk.style.translate=`0 ${lt>j+.22&&lt<j+.32?-30:0}px`;
+  it.style.opacity=lt>j+.25?1:0;it.style.transform=`translateY(${lerp(0,-170,eo(p(lt,j+.25,.4)))}px)`;pu.style.opacity=lt>g?1:0;
+  pl.style.filter=lt>g?`hue-rotate(${(lt*720)%360}deg) saturate(2) drop-shadow(0 0 30px var(--ye))`:''}};
+B.moedas=(L,s)=>{L.innerHTML=`<div class="abs" style="left:70px;top:260px;font-size:34px;color:var(--mg)">CHEFAO: TERCA VAZIA</div><div class="bar" style="left:70px;top:320px;width:940px"><i class="bh" style="background:var(--mg)"></i></div>
+ <div class="abs cnt" style="left:0;right:0;top:470px;text-align:center;font-size:60px;color:var(--ye)">💬 x00</div>
+ ${[...Array(8)].map((_,i)=>`<div class="abs cn" style="left:${520+(i%4)*110}px;top:880px;font-size:70px">💬</div>`).join('')}
+ <div class="abs aj" style="left:0;right:0;top:650px;text-align:center;font-size:40px;color:var(--gr)">AJUSTE SEMANAL +1 LV</div><div class="floor"></div>`;
+ const pl=player();pl.style.left='120px';pl.style.top='800px';L.append(pl);const cn=[...L.querySelectorAll('.cn')],cnt=L.querySelector('.cnt'),bh=L.querySelector('.bh'),aj=L.querySelector('.aj');
+ const ts=cn.map((_,i)=>s.vs0+.2+i*s.vd*.07);ts.forEach(a=>sfx(s.s+a,'coin'));const aa=s.vs0+s.vd*.6;sfx(s.s+aa,'powerup');
+ return lt=>{draw(pl);let n=0;cn.forEach((e,i)=>{const k=p(lt,ts[i],.35);if(lt>ts[i]+.35)n++;e.style.opacity=lt<ts[i]?1:1-k;e.style.transform=`translate(${lerp(0,-(520+(i%4)*110)+480,eo(k))}px,${lerp(0,-400,eo(k))-Math.sin(k*Math.PI)*120}px)`});
+  cnt.textContent='💬 x'+String(n).padStart(2,'0');bh.style.width=(100-n*12.5)+'%';aj.style.opacity=lt>aa?blink(lt)*.5+.5:0;pl.style.translate=`0 ${-Math.abs(Math.sin(lt*6))*30}px`}};
+B.cont=(L,s)=>{L.innerHTML=`<div class="abs" style="left:0;right:0;top:330px;text-align:center;font-size:84px;color:var(--ye);text-shadow:6px 6px 0 var(--mg)">CONTINUE?</div>
+ <div class="abs cd" style="left:0;right:0;top:470px;text-align:center;font-size:150px">9</div>
+ <div class="abs o1" style="left:120px;right:120px;top:740px;background:#25D366;border:8px solid #fff;padding:34px;font-size:40px;line-height:1.6;text-align:center;box-shadow:12px 12px 0 #000">▶ SIM<br>ME CHAMA NO WHATSAPP</div>
+ <div class="abs" style="left:120px;right:120px;top:1030px;padding:20px;font-size:34px;text-align:center;color:#888">NÃO</div>
+ <div class="abs o3" style="left:0;right:0;top:1180px;text-align:center;font-size:28px;line-height:1.8;color:var(--cy)">@LINDSONALMEIDA_<br>PACOTE ACESSIVEL</div>`;
+ const cd=L.querySelector('.cd'),o1=L.querySelector('.o1');const a=s.vs0+s.vd*.45;sfx(s.s+a,'coin');[0,1,2,3].forEach(k=>sfx(s.s+.1+k,'blip'));
+ return lt=>{cd.textContent=Math.max(1,9-Math.floor(lt));o1.style.transform=`scale(${lt>a?1+.04*Math.sin(lt*8):.0001+eob(p(lt,.2,.3))})`;o1.style.opacity=p(lt,.2,.1)}};
+const hud=el(`<div id="hud"><span>SCORE<br><b class="sc">000000</b></span><span style="text-align:center">FASE<br>SLZ-1</span><span style="text-align:right">VIDAS<br>x3</span></div>`);
+const dlg=el(`<div id="dlg"><div class="cap"></div><div id="arw">▼</div></div>`);
+boot(st,B,(t,i,lt)=>{caption(dlg.firstChild,t,i);document.getElementById('arw').style.opacity=blink(t);
+ const sc=Math.max(0,Math.floor(segs.filter((s,k)=>k<i).length*1250+lt*90));hud.querySelector('.sc').textContent=String(sc).padStart(6,'0');
+ const L=document.querySelectorAll('.layer')[i];L.style.clipPath=`inset(${lerp(50,0,eo(p(lt,0,.18)))}% 0)`});
+st.append(hud,dlg);segs.forEach((s,i)=>{if(i)sfx(s.s,'blip')});
+</script></body></html>

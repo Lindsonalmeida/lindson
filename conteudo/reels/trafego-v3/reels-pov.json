@@ -1,0 +1,56 @@
+{
+ "stage": "pov.html",
+ "voice": "pm_alex",
+ "speed": 1.05,
+ "bpm": 96,
+ "chords": [
+  220.0,
+  196.0,
+  174.61,
+  196.0
+ ],
+ "scenes": [
+  {
+   "type": "pov",
+   "say": "POV: você postou todo dia, e ninguém chamou.",
+   "cap": "POV: você postou todo dia, e ninguém chamou.",
+   "hold": 0.6
+  },
+  {
+   "type": "dias",
+   "say": "Dia um. Dia sete. Dia quinze. Dia trinta. E o direct, vazio.",
+   "cap": "Dia um. Dia sete. Dia quinze. Dia trinta. E o direct, vazio.",
+   "hold": 0.6
+  },
+  {
+   "type": "amigo",
+   "say": "Aí um amigo pergunta: mas você anuncia?",
+   "cap": "Aí um amigo pergunta: mas você anuncia?",
+   "hold": 0.5
+  },
+  {
+   "type": "caro",
+   "say": "E você pensa: anúncio não é caro? Não precisa ser. Tem pacote acessível.",
+   "cap": "E você pensa: anúncio não é caro? Não precisa ser. Tem pacote acessível.",
+   "hold": 0.5
+  },
+  {
+   "type": "virada",
+   "say": "Anúncio bem feito aparece pra quem mora perto, e leva direto pro seu uátsap.",
+   "cap": "Anúncio bem feito aparece pra quem mora perto, e leva direto pro seu WhatsApp.",
+   "hold": 0.6
+  },
+  {
+   "type": "depois",
+   "say": "POV: uma semana depois. O celular não para.",
+   "cap": "POV: uma semana depois. O celular não para.",
+   "hold": 1.4
+  },
+  {
+   "type": "cta",
+   "say": "Quer esse POV no seu negócio? Me chama no uátsap, que eu te mostro como faria.",
+   "cap": "Quer esse POV no seu negócio? Me chama no WhatsApp, que eu te mostro como faria.",
+   "hold": 1.6
+  }
+ ]
+}

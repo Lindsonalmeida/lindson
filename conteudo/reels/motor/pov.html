@@ -1,0 +1,71 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@700;800;900&display=swap" rel="stylesheet">
+<style>
+*{margin:0;box-sizing:border-box}
+body{width:1080px;height:1920px;overflow:hidden;background:#000}
+#st{position:absolute;inset:0;overflow:hidden;background:#000;font-family:Inter}
+.layer{position:absolute;inset:0;overflow:hidden}
+.abs{position:absolute}
+.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.35),transparent 30%,transparent 55%,rgba(0,0,0,.75))}
+.pov{font:900 230px Inter;color:#fff;letter-spacing:-.04em;text-shadow:0 8px 30px rgba(0,0,0,.5)}
+.box{font:800 76px/1.32 Inter;color:#111;letter-spacing:-.01em}
+.box span{background:#fff;padding:6px 22px;border-radius:16px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.box.y span{background:#FFE600}.box.g span{background:#25D366;color:#fff}
+.stk{position:absolute;font:900 86px Inter;color:#fff;background:#FF2D55;padding:14px 34px;border-radius:22px;box-shadow:0 10px 0 rgba(0,0,0,.25)}
+.bub{position:absolute;background:#E9E9EB;color:#111;font:700 70px Inter;padding:30px 44px;border-radius:50px}
+.ntf{position:absolute;left:60px;right:60px;height:180px;background:rgba(245,245,245,.92);border-radius:44px;display:flex;gap:28px;align-items:center;padding:0 34px;box-shadow:0 20px 50px rgba(0,0,0,.3)}
+.ntf i{width:110px;height:110px;border-radius:26px;background:#25D366;display:grid;place-items:center;font-style:normal;font-size:64px;flex:none}
+.ntf b{display:block;font:800 40px Inter;color:#111}.ntf small{font:600 40px Inter;color:#333}
+.cap{position:absolute;left:70px;right:70px;top:1600px;text-align:center;font:800 58px/1.25 Inter;color:#fff;-webkit-text-stroke:2px #000;paint-order:stroke fill;text-shadow:0 4px 0 #000}
+.cap span{display:inline-block;margin:0 .12em}.cap span.on{color:#FFE600}
+#fl{position:absolute;inset:0;background:#fff;opacity:0;pointer-events:none}
+</style></head><body><div id="st"></div>
+<script>const TL=__TL__;</script><script src="file:///home/user/lindson/conteudo/reels/motor/core.js"></script>
+<script>
+const st=document.getElementById('st');const F='file:///home/user/lindson/conteudo/fotos/';const B={};
+const bg=(f,pos='50% 30%',fx='')=>`<img class="bg" src="${F}${f}" style="object-position:${pos};${fx}"><div class="shade"></div>`;
+const kb=(img,lt,d,punch=[])=>{let z=1.06+.08*lt/d;punch.forEach(a=>{if(lt>a)z+=.06+.12*Math.max(0,1-(lt-a)*4)});img.style.transform=`scale(${z})`};
+const pop=(e,lt,a,from=2)=>{const k=p(lt,a,.22);e.style.opacity=p(lt,a,.04);e.style.transform=`scale(${lerp(from,1,eob(k))})`};
+B.pov=(L,s)=>{L.innerHTML=bg('disponiveis/trator-mao-na-testa.jpg','50% 20%')+`<div class="abs pov" style="left:70px;top:230px">POV:</div>
+ <div class="abs box" style="left:70px;right:70px;top:520px"><span>você postou todo dia…</span></div><div class="abs box y b2" style="left:70px;right:70px;top:760px"><span>e ninguém chamou.</span></div>`;
+ const im=L.querySelector('.bg'),pv=L.querySelector('.pov'),b1=L.querySelector('.box'),b2=L.querySelector('.b2');const a2=s.vs0+s.vd*.55;sfx(s.s+.02,'boom');sfx(s.s+s.vs0+.3,'pop');sfx(s.s+a2,'punch');
+ return (lt,d)=>{kb(im,lt,d,[a2]);pop(pv,lt,0,3);pop(b1,lt,s.vs0+.3);pop(b2,lt,a2,1.6)}};
+B.dias=(L,s)=>{const ds=['DIA 1','DIA 7','DIA 15','DIA 30'];L.innerHTML=bg('disponiveis/pneu-olhando-lado.jpg','50% 25%','filter:grayscale(1) brightness(.8)')+
+ ds.map((t,i)=>`<div class="stk dd" style="left:${[90,520,150,470][i]}px;top:${[280,440,640,820][i]}px;rotate:${[-6,5,-3,7][i]}deg">${t}</div>`).join('')+
+ `<div class="abs box dm" style="left:70px;right:70px;top:1180px"><span>📭 Direct: 0 mensagens</span></div>`;
+ const im=L.querySelector('.bg'),dd=[...L.querySelectorAll('.dd')],dm=L.querySelector('.dm');const ts=dd.map((_,i)=>s.vs0+i*s.vd*.17);const am=s.vs0+s.vd*.78;
+ ts.forEach(a=>sfx(s.s+a,'stamp'));sfx(s.s+am,'buzz');
+ return (lt,d)=>{kb(im,lt,d);dd.forEach((e,i)=>pop(e,lt,ts[i],2.4));pop(dm,lt,am,1.4)}};
+B.amigo=(L,s)=>{L.innerHTML=bg('disponiveis/trator-sentado-volante.jpg','50% 30%')+`<div class="bub ty" style="left:90px;top:300px">• • •</div><div class="bub tx" style="left:90px;top:300px">mas você <b>anuncia</b>? 🤨</div>`;
+ const im=L.querySelector('.bg'),ty=L.querySelector('.ty'),tx=L.querySelector('.tx');const a=s.vs0+s.vd*.5;sfx(s.s+s.vs0,'type');sfx(s.s+a,'notif');
+ return (lt,d)=>{kb(im,lt,d,[a]);ty.style.opacity=lt>s.vs0&&lt<a?.5+.5*Math.sin(lt*14):0;pop(tx,lt,a,.4)}};
+B.caro=(L,s)=>{L.innerHTML=bg('disponiveis/trator-pe-apoiado.jpg','50% 25%')+`<div class="abs box b1" style="left:70px;right:70px;top:300px"><span>“anúncio não é caro?” 🤔</span></div>
+ <div class="abs box g b2" style="left:70px;right:70px;top:1150px"><span>✓ tem pacote acessível</span></div>`;
+ const im=L.querySelector('.bg'),b1=L.querySelector('.b1'),b2=L.querySelector('.b2');const a2=s.vs0+s.vd*.55;sfx(s.s+s.vs0+.2,'pop');sfx(s.s+a2,'ding');
+ return (lt,d)=>{kb(im,lt,d,[s.vs0+.2]);pop(b1,lt,s.vs0+.2);pop(b2,lt,a2,1.6)}};
+B.virada=(L,s)=>{L.style.background='#0B0B0F';L.innerHTML=`<div class="abs" style="left:240px;top:200px;width:600px;height:1180px;border-radius:80px;background:#fff;border:18px solid #222;overflow:hidden">
+  <div style="height:520px;background:#DDEFD9;position:relative"><div class="ring" style="position:absolute;left:300px;top:260px;width:10px;height:10px;border-radius:50%;border:6px solid #FF2D55"></div><div style="position:absolute;left:280px;top:240px;font-size:60px">📍</div>
+  <div style="position:absolute;left:30px;top:30px;font:800 34px Inter;color:#2b5d27">Gente perto de você</div></div>
+  <div style="padding:30px;font:800 40px/1.3 Inter;color:#111">Seu negócio<br><span style="font-weight:600;font-size:32px;color:#555">Patrocinado</span></div>
+  <div class="btn" style="margin:40px 30px;background:#25D366;color:#fff;border-radius:22px;padding:30px;text-align:center;font:800 40px Inter">💬 Enviar mensagem</div></div>
+ <div class="abs fg" style="left:640px;top:1100px;font-size:150px">👆</div>
+ <div class="abs box y" style="left:70px;right:70px;top:1420px;text-align:center"><span>anúncio → WhatsApp</span></div>`;
+ const rg=L.querySelector('.ring'),fg=L.querySelector('.fg'),bt=L.querySelector('.btn');const at=s.vs0+s.vd*.7;sfx(s.s+.02,'scratch');sfx(s.s+at,'pop');sfx(s.s+at+.15,'notif');
+ return lt=>{const r=(lt*1.2)%1;rg.style.transform=`translate(-50%,-50%) scale(${1+r*40})`;rg.style.opacity=1-r;
+  fg.style.transform=`translate(${lerp(200,0,eo(p(lt,at-.6,.6)))}px,${lerp(300,0,eo(p(lt,at-.6,.6)))-(lt>at&&lt<at+.2?20:0)}px)`;bt.style.transform=`scale(${lt>at&&lt<at+.25?.93:1})`;bt.style.filter=lt>at?'brightness(1.15)':''}};
+B.depois=(L,s)=>{const ms=[['Cliente novo','Oi! Tem horário amanhã?'],['Cliente novo','Quanto fica pra entregar no Cohama?'],['Cliente novo','Quero agendar pra sexta 🙂'],['Cliente novo','Vocês atendem no Turu?']];
+ L.innerHTML=bg('disponiveis/pneu-braco-apoiado.jpg','50% 25%')+`<div class="abs pov" style="left:70px;top:1050px;font-size:120px">POV:</div><div class="abs box y wk" style="left:70px;right:70px;top:1200px"><span>uma semana depois</span></div>`+
+ ms.map(([a,b],i)=>`<div class="ntf nt"><i>💬</i><div><b>WhatsApp · ${a}</b><small>${b}</small></div></div>`).join('')+`<div class="abs" style="right:40px;top:1530px;font:600 26px Inter;color:#fff;opacity:.8">cena ilustrativa</div>`;
+ const im=L.querySelector('.bg'),nt=[...L.querySelectorAll('.nt')],wk=L.querySelector('.wk'),pv=L.querySelector('.pov');const ts=nt.map((_,i)=>s.vs0+.5+i*.5);ts.forEach(a=>sfx(s.s+a,'notif'));sfx(s.s+.05,'whoosh');
+ return (lt,d)=>{kb(im,lt,d);pop(pv,lt,0,2);pop(wk,lt,.15);nt.forEach((e,i)=>{const k=eob(p(lt,ts[i],.35));const n=nt.filter((_,j)=>lt>=ts[j]).length;e.style.top=(lerp(-220,90+(n-1-i)*200,k))+'px';e.style.opacity=lt>=ts[i]?1:0})}};
+B.cta=(L,s)=>{L.innerHTML=bg('usadas/fazenda-bracos-cruzados-caminhonete.jpg','55% 50%')+`<div class="abs box b1" style="left:70px;right:70px;top:260px"><span>Quer esse POV</span><br><span>no seu negócio?</span></div>
+ <div class="abs b2" style="left:110px;right:110px;top:1120px;background:#25D366;color:#fff;border-radius:40px;padding:40px;text-align:center;font:900 72px Inter;box-shadow:0 16px 0 #128C4B">Me chama no WhatsApp</div>
+ <div class="abs b3" style="left:0;right:0;top:1350px;text-align:center;font:800 44px Inter;color:#fff">@lindsonalmeida_ · pacote acessível</div>`;
+ const im=L.querySelector('.bg'),b1=L.querySelector('.b1'),b2=L.querySelector('.b2'),b3=L.querySelector('.b3');const a2=s.vs0+s.vd*.4;sfx(s.s+.05,'hit');sfx(s.s+a2,'ding');
+ return (lt,d)=>{kb(im,lt,d);pop(b1,lt,.05);pop(b2,lt,a2,.3);b2.style.scale=lt>a2+.4?1+.03*Math.sin(lt*8):1;pop(b3,lt,a2+.3,1)}};
+boot(st,B);
+const cap=el('<div class="cap"></div>'),fl=el('<div id="fl"></div>');st.append(cap,fl);segs.forEach((s,i)=>{if(i)sfx(s.s,'whoosh')});
+const R=window.render;window.render=t=>{R(t);const i=sceneAt(t),lt=t-segs[i].s;caption(cap,t,i);fl.style.opacity=i?Math.max(0,.8-lt*5):0;
+ const L=document.querySelectorAll('.layer')[i];const sh=lt<.2?(1-lt/.2)*18:0;L.style.transform=`translate(${Math.sin(t*90)*sh}px,${Math.cos(t*70)*sh}px)`};
+</script></body></html>

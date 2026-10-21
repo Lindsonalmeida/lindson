@@ -1,0 +1,55 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:wght@800;900&display=swap" rel="stylesheet">
+<style>
+*{margin:0;box-sizing:border-box}
+body{width:1080px;height:1920px;overflow:hidden;background:#15151C}
+#st{position:absolute;inset:0;overflow:hidden;background:radial-gradient(circle at 50% 0,#2A2A3A,#15151C 60%)}
+.layer{position:absolute;inset:0}
+.abs{position:absolute}
+.LO{font-family:'Lilita One';color:#fff;line-height:1}
+#hd{position:absolute;left:60px;right:220px;top:90px}
+#hd small{display:inline-block;font:900 34px Nunito;color:#15151C;background:#FFDF7F;padding:6px 18px;border-radius:10px;letter-spacing:.06em}
+#hd div{font:400 64px/1.05 'Lilita One';color:#fff;margin-top:14px}
+#host{position:absolute;right:50px;top:80px;width:170px;height:170px;border-radius:50%;overflow:hidden;border:7px solid #FF7F7F}
+#host img{width:100%;height:100%;object-fit:cover;object-position:50% 18%}
+#board{position:absolute;left:50px;right:50px;top:330px;display:grid;gap:10px}
+.row{height:178px;display:flex;background:#22222D;border-radius:18px;overflow:hidden}
+.row b{width:170px;display:grid;place-items:center;font:400 110px 'Lilita One';color:#15151C}
+.card{position:absolute;width:340px;height:160px;border-radius:18px;background:#fff;display:flex;align-items:center;gap:14px;padding:0 20px;font:900 33px/1.05 Nunito;color:#15151C;box-shadow:0 10px 0 rgba(0,0,0,.35)}
+.card i{font-style:normal;font-size:64px}
+.cap{position:absolute;left:60px;right:60px;top:1600px;text-align:center;font:400 60px/1.2 'Lilita One';color:#fff;-webkit-text-stroke:3px #000;paint-order:stroke fill}
+.cap span{display:inline-block;margin:0 .1em}.cap span.on{color:var(--hl,#FFDF7F)}
+</style></head><body><div id="st"></div>
+<script>const TL=__TL__;</script><script src="file:///home/user/lindson/conteudo/reels/motor/core.js"></script>
+<script>
+const st=document.getElementById('st');const F='file:///home/user/lindson/conteudo/fotos/';const B={};
+const TI={S:'#FF7F7F',A:'#FFBF7F',B:'#FFDF7F',C:'#FFFF7F',D:'#BFFF7F'},ROW='SABCD';
+st.innerHTML=`<div id="hd"><small>TIER LIST</small><div>Jeitos de conseguir cliente em São Luís</div></div><div id="host"><img src="${F}disponiveis/pneu-mao-no-bolso.jpg"></div>
+<div id="board">${[...ROW].map(r=>`<div class="row"><b style="background:${TI[r]}">${r}</b></div>`).join('')}</div>`;
+const myst=el(`<div class="card" style="left:240px;top:${330+12}px;background:#3A3A4A;color:#fff;justify-content:center;font-size:64px">🔒 ???</div>`);st.append(myst);
+// cartas: cada cena "item" traz uma carta, que cai na linha certa
+const items=segs.map((s,i)=>s.type==='item'?{i,s,c:el(`<div class="card"><i>${s.ico}</i><span>${s.lab}</span></div>`)}:null).filter(Boolean);
+items.forEach(x=>{st.append(x.c);x.drop=x.s.vs+x.s.vd*(x.s.at||.72);sfx(x.s.s+.05,'whoosh');sfx(x.drop+.32,x.s.tier==='S'?'boom':'slam');if(x.s.tier==='S'){sfx(x.drop-1.1,'riser');sfx(x.drop+.35,'ding')}});
+const slot=x=>{const r=ROW.indexOf(x.s.tier);return [240,342+r*188]};
+B.intro=(L,s)=>{L.innerHTML=`<div class="abs LO big" style="left:60px;right:60px;top:1290px;text-align:center;font-size:84px">Ranqueei <span style="color:#FF7F7F">5</span> jeitos.<br><span style="font-size:58px;color:#FFDF7F">o 1º lugar fica pro final 👀</span></div>`;
+ sfx(s.s+.02,'boom');sfx(s.s+.8,'swoosh');const b=L.querySelector('.big');return lt=>{b.style.opacity=p(lt,.1,.1);b.style.transform=`scale(${lerp(1.6,1,eob(p(lt,.1,.3)))})`}};
+B.item=(L,s)=>{L.innerHTML=`<div class="abs LO lt" style="left:820px;top:1290px;font-size:190px;color:${TI[s.tier]};-webkit-text-stroke:6px #000;paint-order:stroke fill">${s.tier}</div>`;
+ const x=items.find(x=>x.s===s),t=L.querySelector('.lt');return lt=>{const a=x.drop-s.s+.25;t.style.opacity=p(lt,a,.05)*(1-p(lt,a+.9,.2));t.style.transform=`scale(${lerp(2.5,1,eob(p(lt,a,.25)))})`}};
+B.cta=(L,s)=>{L.innerHTML=`<div class="abs LO c1" style="left:60px;right:60px;top:1290px;text-align:center;font-size:96px">Sobe pro <span style="color:#FF7F7F">S</span>?</div>
+ <div class="abs c2" style="left:130px;right:130px;top:1420px;background:#25D366;border-radius:36px;padding:32px;text-align:center;font:400 64px 'Lilita One';color:#fff;box-shadow:0 12px 0 #128C4B">Me chama no WhatsApp</div>
+ <div class="abs c3" style="left:0;right:0;top:1610px;text-align:center;font:900 40px Nunito;color:#fff">@lindsonalmeida_ · pacote acessível</div>`;
+ const c=[...L.querySelectorAll('.c1,.c2,.c3')];const a=s.vs0+s.vd*.35;sfx(s.s+a,'ding');
+ return lt=>{c.forEach((e,k)=>{e.style.opacity=p(lt,k?a+k*.2:.05,.1);e.style.transform=`scale(${lerp(1.5,1,eob(p(lt,k?a+k*.2:.05,.3)))})`});c[1].style.scale=lt>a+.6?1+.03*Math.sin(lt*8):1}};
+const cap=el('<div class="cap"></div>');st.append(cap);
+boot(st,B,(t,i,lt)=>{
+ const s=segs[i];caption(cap,t,i);cap.style.setProperty('--hl',s.tier?TI[s.tier]:'#FFDF7F');cap.style.opacity=s.type==='cta'?0:1;
+ items.forEach(x=>{const c=x.c,[sx,sy]=slot(x);if(t<x.s.s){c.style.opacity=0;return}c.style.opacity=1;
+  const e=eob(p(t,x.s.s,.4)),d=eo(p(t,x.drop,.35)),cx=lerp(330,sx,d),cy=lerp(lerp(2000,1310,e),sy,d),sc=lerp(1.5,1,d);
+  c.style.left=cx+'px';c.style.top=cy+'px';c.style.transform=`scale(${sc}) rotate(${lerp(-4,0,d)}deg)`;
+  if(x.s.tier==='S'){myst.style.opacity=t>x.drop+.3?0:1}});
+ myst.style.transform=`scale(${1+.03*Math.sin(t*6)})`;
+ const host=document.getElementById('host');host.style.transform=`scale(${1+.05*Math.max(0,Math.sin(t*18))*(t>s.vs&&t<s.vs+s.vd?1:0)})`;
+ const r=items.find(x=>t>x.drop+.3&&t<x.drop+.6);document.getElementById('board').style.transform=r?`translate(${Math.sin(t*90)*10}px,${Math.cos(t*80)*8}px)`:'';
+ const sx=items.find(x=>x.s.tier==='S');st.style.filter=sx&&t>sx.drop+.3&&t<sx.drop+.5?'brightness(1.6)':'';
+});
+</script></body></html>

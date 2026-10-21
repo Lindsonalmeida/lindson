@@ -1,0 +1,72 @@
+{
+ "stage": "tier.html",
+ "voice": "pm_santa",
+ "speed": 1.08,
+ "bpm": 118,
+ "chords": [
+  261.63,
+  220.0,
+  174.61,
+  196.0
+ ],
+ "scenes": [
+  {
+   "type": "intro",
+   "say": "Ranqueei cinco jeitos de conseguir cliente em São Luís. O primeiro lugar fica pro final.",
+   "cap": "Ranqueei cinco jeitos de conseguir cliente em São Luís. O primeiro lugar fica pro final.",
+   "hold": 0.4
+  },
+  {
+   "type": "item",
+   "say": "Panfleto no sinal. Vai pro lixo antes de chegar em casa.  Nível dê.",
+   "cap": "Panfleto no sinal. Vai pro lixo antes de chegar em casa.  Nível D.",
+   "hold": 0.5,
+   "tier": "D",
+   "ico": "📄",
+   "lab": "Panfleto"
+  },
+  {
+   "type": "item",
+   "say": "Botão impulsionar. Muita curtida, pouca venda.  Nível cê.",
+   "cap": "Botão impulsionar. Muita curtida, pouca venda.  Nível C.",
+   "hold": 0.5,
+   "tier": "C",
+   "ico": "🚀",
+   "lab": "Impulsionar"
+  },
+  {
+   "type": "item",
+   "say": "Postar todo dia. Ajuda, mas sozinho não enche a agenda.  Nível bê.",
+   "cap": "Postar todo dia. Ajuda, mas sozinho não enche a agenda.  Nível B.",
+   "hold": 0.5,
+   "tier": "B",
+   "ico": "📸",
+   "lab": "Postar todo dia"
+  },
+  {
+   "type": "item",
+   "say": "Indicação. É ouro, mas você não controla quando vem.  Nível á.",
+   "cap": "Indicação. É ouro, mas você não controla quando vem.  Nível A.",
+   "hold": 0.5,
+   "tier": "A",
+   "ico": "🤝",
+   "lab": "Indicação"
+  },
+  {
+   "type": "item",
+   "say": "E o ésse: anúncio pra gente perto de você, que leva direto pro uátsap. Você escolhe quem vê.",
+   "cap": "E o S: anúncio pra gente perto de você, que leva direto pro WhatsApp. Você escolhe quem vê.",
+   "hold": 0.8,
+   "tier": "S",
+   "ico": "🎯",
+   "lab": "Anúncio pro WhatsApp",
+   "at": 0.45
+  },
+  {
+   "type": "cta",
+   "say": "Quer subir seu negócio pro ésse? Me chama no uátsap.",
+   "cap": "Quer subir seu negócio pro S? Me chama no WhatsApp.",
+   "hold": 1.8
+  }
+ ]
+}

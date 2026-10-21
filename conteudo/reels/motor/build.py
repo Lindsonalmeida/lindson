@@ -60,14 +60,27 @@ def rip():n=int(.45*S);t=np.arange(n)/S;return bp(rng.standard_normal(n),1500,90
 def stampbig():return np.pad(punch(),(0,int(.55*S)))+boom()[:int(.8*S)]*.8
 def pen():n=int(1*S);t=np.arange(n)/S;return bp(rng.standard_normal(n),2500,8000)*(.5+.5*np.abs(np.sin(t*25)))*.35
 def pin():n=int(.1*S);t=np.arange(n)/S;f=1600*np.exp(-t*20)+500;return np.sin(2*np.pi*np.cumsum(f)/S)*np.exp(-t*40)*.6
-FX=dict(vinheta=(vinheta,.8),swoosh=(whoosh,.5),notif=(notif,.8),stamp=(punch,.8),hit=(boom,.7),type=(typ,.7),hum=(hum,.8),glitch=(glitch,.6),tick=(clock,.7),crowd=(crowd,.8),cut=(punch,.6),silence=(lambda:np.zeros(10),0),rewind=(rewind,.8),bell=(bell,.8),off=(off,.8),beep=(beep,.6),rip=(rip,.8),stampbig=(stampbig,.9),pen=(pen,.8),pin=(pin,.7),postit=(pop,.5),paper=(whoosh,.35),boom=(boom,.75),punch=(punch,.6),whoosh=(whoosh,.5),pop=(pop,.6),ding=(ding,.7),buzz=(buzz,.55),riser=(riser,.5))
+def sq(f,d,v=.25):n=int(d*S);t=np.arange(n)/S;return np.sign(np.sin(2*np.pi*f*t))*v*np.exp(-t*3)
+def seq(fs,d):return np.concatenate([sq(f,d) for f in fs])
+def coin():return np.concatenate([sq(988,.07),sq(1319,.3)*np.exp(-np.arange(int(.3*S))/S*8)])
+def jump():n=int(.25*S);t=np.arange(n)/S;f=300+1400*t/.25;return np.sign(np.sin(2*np.pi*np.cumsum(f)/S))*.2
+def powerup():return seq([523,659,784,1047,784,1047,1319,1568],.06)
+def gameover():return seq([784,659,523,392,330,262],.16)
+def blip():return sq(660,.08)
+def scratch():n=int(.5*S);t=np.arange(n)/S;w=np.sin(2*np.pi*np.cumsum(900+700*np.sin(t*40))/S);return bp(rng.standard_normal(n),600,4000)*.4*np.abs(w)*np.exp(-t*3)
+def shutter():y=np.zeros(int(.2*S));c=clock();y[:len(c)]+=c;y[int(.09*S):int(.09*S)+len(c)]+=c;return y
+FX=dict(coin=(coin,.6),jump=(jump,.6),powerup=(powerup,.6),gameover=(gameover,.7),blip=(blip,.5),scratch=(scratch,.9),shutter=(shutter,.8),slam=(stampbig,.7),vinheta=(vinheta,.8),swoosh=(whoosh,.5),notif=(notif,.8),stamp=(punch,.8),hit=(boom,.7),type=(typ,.7),hum=(hum,.8),glitch=(glitch,.6),tick=(clock,.7),crowd=(crowd,.8),cut=(punch,.6),silence=(lambda:np.zeros(10),0),rewind=(rewind,.8),bell=(bell,.8),off=(off,.8),beep=(beep,.6),rip=(rip,.8),stampbig=(stampbig,.9),pen=(pen,.8),pin=(pin,.7),postit=(pop,.5),paper=(whoosh,.35),boom=(boom,.75),punch=(punch,.6),whoosh=(whoosh,.5),pop=(pop,.6),ding=(ding,.7),buzz=(buzz,.55),riser=(riser,.5))
 sfx=np.zeros(N)
 def add(buf,sig,at,g):
     i=int(at*S);j=min(N,i+len(sig))
     if 0<=i<j:buf[i:j]+=sig[:j-i]*g
 for at,kind in json.load(open(W+'/sfx.json')):f,g=FX.get(kind,(pop,.4));add(sfx,f(),at,g)
 mus=np.zeros(N);beat=60/spec.get('bpm',104);ch=spec.get('chords',[220.0,174.61,261.63,196.0])
-for b in range(int(T/beat)+1):
+chip=spec.get('music')=='chip'
+for b in range(int(T/beat)+1) if chip else []:
+    at=b*beat;r=ch[(b//4)%4];add(mus,np.concatenate([sq(f,beat/4,.12) for f in [r*2,r*2.52,r*3,r*4]]),at,1);add(mus,sq(r/2,beat*.9,.2),at,1)
+    if b%2:add(mus,tick()*.8,at,1)
+for b in range(int(T/beat)+1) if not chip else []:
     at=b*beat;i=int(at*S);add(mus,boom()[:int(.35*S)]*.5,at,1);add(mus,tick()*.6,at+beat/2,1)
     root=ch[(b//4)%4]/2;n=int(beat*S);t=np.arange(n)/S;add(mus,lp(((t*root)%1*2-1),500)*np.exp(-t*2)*.35,at,1)
     if b%2==0:

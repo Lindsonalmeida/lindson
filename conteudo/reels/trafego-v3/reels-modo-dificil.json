@@ -1,0 +1,58 @@
+{
+ "stage": "game.html",
+ "voice": "pm_alex",
+ "speed": 1.06,
+ "bpm": 140,
+ "music": "chip",
+ "chords": [
+  261.63,
+  220.0,
+  174.61,
+  196.0
+ ],
+ "musicVol": 0.8,
+ "scenes": [
+  {
+   "type": "start",
+   "say": "Você tá jogando o jogo do seu negócio no modo difícil.",
+   "cap": "Você tá jogando o jogo do seu negócio no modo difícil.",
+   "hold": 0.6
+  },
+  {
+   "type": "energia",
+   "say": "Posta todo dia, responde tudo sozinho, e a energia vai acabando.",
+   "cap": "Posta todo dia, responde tudo sozinho, e a energia vai acabando.",
+   "hold": 0.5
+  },
+  {
+   "type": "boss",
+   "say": "Aí aparece o chefão: a terça vazia, sem nenhum cliente.",
+   "cap": "Aí aparece o chefão: a terça vazia, sem nenhum cliente.",
+   "hold": 0.5
+  },
+  {
+   "type": "over",
+   "say": "Sem cliente chamando, o fim do mês vira game over.",
+   "cap": "Sem cliente chamando, o fim do mês vira game over.",
+   "hold": 0.7
+  },
+  {
+   "type": "power",
+   "say": "Mas existe um power-up: anúncio pra quem mora perto, direto pro seu uátsap.",
+   "cap": "Mas existe um power-up: anúncio pra quem mora perto, direto pro seu WhatsApp.",
+   "hold": 0.8
+  },
+  {
+   "type": "moedas",
+   "say": "Cada conversa é uma moeda. E eu ajusto toda semana pra subir o seu placar.",
+   "cap": "Cada conversa é uma moeda. E eu ajusto toda semana pra subir o seu placar.",
+   "hold": 0.6
+  },
+  {
+   "type": "cont",
+   "say": "Quer jogar no modo fácil? Me chama no uátsap.",
+   "cap": "Quer jogar no modo fácil? Me chama no WhatsApp.",
+   "hold": 2.0
+  }
+ ]
+}
