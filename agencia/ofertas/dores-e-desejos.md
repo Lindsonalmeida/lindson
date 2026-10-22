@@ -78,6 +78,73 @@ Criado em 22/10/2026 a partir do produto master (`produto-master.md`) e da pesqu
 | Posto e não vende | Quase ninguém fecha a ponta do WhatsApp | Script de Fechamento + Painel de Clientes |
 | Dependo de indicação | Ninguém fala com o local | "O especialista de São Luís", com casos de clientes daqui |
 
+## Versão negativa (padrão para conteúdo)
+
+Decisão de 22/10/2026: **negatividade em tudo que é gancho, título e bio**, porque o medo de perder e o erro chamam mais atenção que a promessa.
+
+**Regras para não queimar a autoridade:**
+- O alvo é o **erro, o mito ou o inimigo** (o "guru da dancinha", o post bonito que não vende), **nunca o cliente**. Ele precisa pensar "isso acontece comigo", não "ele está me chamando de burro".
+- Todo gancho negativo entrega a saída no fim do conteúdo. O medo abre, a solução fecha.
+- Nada inventado: sem número falso, sem "o Instagram vai acabar".
+
+### Os 6 formatos negativos
+
+| Formato | Modelo | Exemplo |
+|---|---|---|
+| **Erro** | "O erro que faz..." | "O erro que faz o seu Instagram não trazer nenhum cliente." |
+| **Pare** | "Pare de..." | "Pare de postar todo dia. Isso não está vendendo nada." |
+| **Perda** | "Você está perdendo..." | "Você está perdendo cliente para um concorrente pior que você." |
+| **Mito** | "Ninguém te conta..." / "É mentira que..." | "É mentira que você precisa postar todo dia para vender." |
+| **Inimigo** | "O que te ensinaram está errado" | "Dancinha não vende consulta, nem imóvel, nem serviço." |
+| **Custo de não fazer** | "Se continuar assim..." | "Se o seu perfil continuar parado, daqui a um ano você ainda vai depender de indicação." |
+
+### As 5 maiores dores, em versão negativa
+
+| Dor | Gancho negativo |
+|---|---|
+| Não sei o que postar | "Você não está sem ideia. Está postando o que não vende." / "3 posts que fazem o cliente rolar a tela e esquecer de você." |
+| Não tenho tempo | "Você está perdendo horas no Instagram para nada." / "Quem posta todo dia sem estratégia está trabalhando de graça." |
+| Vergonha de gravar | "Sua vergonha de gravar está custando clientes." / "Enquanto você tem vergonha, o seu concorrente está aparecendo." |
+| Posto e não vende | "Seu Instagram é bonito e não vende. O problema não é o post." / "Curtida não paga boleto." |
+| Dependo de indicação | "Indicação acaba. E quando acabar, o seu Instagram vai estar parado." / "Se amanhã ninguém te indicar, de onde vem o seu cliente?" |
+
+### Por etapa do método, em versão negativa
+
+| Etapa | Gancho negativo |
+|---|---|
+| 1. Vitrine | "A pessoa entra no seu perfil, não entende o que você faz e vai embora." / "Sua bio está espantando cliente." |
+| 2. Conteúdo | "Post de bom dia não vende nada." / "Por que o seu conteúdo parece igual ao de todo mundo." |
+| 3. Gravação | "Você não precisa ser bonito nem falar bem. Precisa parar de se esconder." |
+| 4. Alcance | "Impulsionar pelo botão azul é jogar dinheiro fora." / "Só a sua família vê os seus posts. E ela não vai te contratar." |
+| 5. Fechamento | "Você não perde a venda no Instagram. Perde no WhatsApp." / "Responder só o preço é o jeito mais rápido de perder o cliente." |
+| 6. Resultado | "Você não sabe se o Instagram dá retorno. Então ele não dá." |
+
+### Desejos virados em perda
+
+| Desejo | Versão negativa |
+|---|---|
+| WhatsApp com gente pedindo orçamento | "Seu WhatsApp está quieto porque o seu Instagram não chama ninguém." |
+| Mês previsível | "Mês bom, mês ruim: isso não é azar, é falta de método." |
+| Cliente que paga bem | "Quem chega pelo preço vai embora pelo preço. Seu conteúdo está atraindo o cliente errado." |
+| Ser referência na cidade | "Na sua cidade, o mais conhecido ganha do melhor. E hoje o mais conhecido não é você." |
+| Gravar tudo de uma vez | "Gravar um vídeo por dia está te esgotando e não está vendendo." |
+
+### Bio em versão negativa (até 150 caracteres)
+
+Nome: `Lindson Almeida | Instagram que vende`
+
+> Seu Instagram é bonito e não traz cliente?
+> 14 anos fazendo negócio local vender em São Luís
+> Aula grátis 👇
+
+> Pare de postar sem vender
+> Ensino donos de negócio a criar conteúdo que traz cliente no WhatsApp 👇
+
+### Aula grátis (título)
+
+- "Os 5 erros que fazem o Instagram do seu negócio não vender (e como corrigir em 1 mês)"
+- "Por que você posta e ninguém compra"
+
 ## Como usar
 
 - **Bio, ganchos de Reels e títulos de carrossel:** usar as dores e os desejos com as palavras do cliente.
