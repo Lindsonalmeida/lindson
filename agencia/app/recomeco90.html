@@ -309,9 +309,14 @@
   .ct-fala { margin: 0; padding-left: 20px; display: grid; gap: 6px; font-size: 14px; color: var(--lead); }
   .ct-grav { margin: 0; font-size: 12.5px; color: var(--muted); }
   .pq-card.posted { border-color: rgba(47,208,122,.45); }
-  .ct-met { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; }
-  .ct-met label { display: grid; gap: 4px; font: 700 9.5px/1.1 var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
-  .ct-met input { width: 100%; min-width: 0; padding: 10px 8px; border-radius: 10px; border: 1px solid var(--line-2); background: var(--ink-3); color: var(--fg); font: 700 16px/1.2 var(--f-body); }
+  .ct-mw { display: grid; gap: 8px; padding-top: 10px; border-top: 1px dashed var(--line-2); }
+  .ct-up { display: block; padding: 13px; border-radius: 12px; border: 1px dashed var(--signal); background: rgba(76,141,255,.1); color: var(--fg); text-align: center; font: 700 14px/1.2 var(--f-body); cursor: pointer; }
+  .ct-up.busy { opacity: .7; cursor: progress; }
+  .ct-thumbs { display: flex; gap: 6px; flex-wrap: wrap; }
+  .ct-thumbs img { width: 64px; height: 110px; object-fit: cover; border-radius: 8px; border: 1px solid var(--line-2); display: block; }
+  .ct-met { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 5px; }
+  .ct-met label { display: grid; gap: 4px; font: 700 8.5px/1.1 var(--f-mono); letter-spacing: .02em; text-transform: uppercase; color: var(--muted); }
+  .ct-met input { width: 100%; min-width: 0; padding: 10px 4px; border-radius: 10px; border: 1px solid var(--line-2); background: var(--ink-3); color: var(--fg); font: 700 16px/1.2 var(--f-body); }
   .ct-rank { display: grid; gap: 6px; }
   .ct-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 10px; align-items: center; padding: 10px 12px; border-radius: 12px; background: var(--ink-2); border: 1px solid var(--line); }
   .ct-row b { display: block; font: 700 14px/1.25 var(--f-body); overflow-wrap: anywhere; }
@@ -417,13 +422,14 @@
       <small id="ct-plan">Esteira de conteúdo</small>
       <b id="ct-prog">Carregando os roteiros…</b>
       <div class="bar"><i id="ct-fill" style="width:0%"></i></div>
-      <p id="ct-sub">5 roteiros de Reels de 30 segundos chegam toda manhã. Grave, poste e anote os números.</p>
+      <p id="ct-sub">300 roteiros de Reels de 30 segundos. Marque o que fizer e envie o print das métricas.</p>
     </div>
-    <div class="chips" id="ct-days" role="group" aria-label="Escolher o dia"></div>
+    <div class="chips" id="ct-days" role="group" aria-label="Escolher o lote"></div>
+    <div class="chips" id="ct-opts" role="group" aria-label="Mostrar"></div>
     <div class="fu-list" id="ct-list"></div>
     <div class="section-h"><h2>O que está ganhando</h2><small>envios por mil views</small></div>
     <div class="ct-rank" id="ct-rank"></div>
-    <p class="hint"><b>Como testar:</b> 3 formatos × 10 conteúdos × 10 ganchos. Depois de 24 horas, anote visualizações, envios e salvos de cada Reel. Vence o que tiver mais envios a cada mil visualizações.</p>
+    <p class="hint"><b>Como testar:</b> 3 formatos × 10 conteúdos × 10 ganchos. Depois de alguns dias, envie o print das métricas de cada Reel: o app lê os números. Vence o que tiver mais envios a cada mil visualizações.</p>
   </section>
 
   <!-- JORNADA -->
@@ -626,7 +632,7 @@
   var DAILY = [
     { id: "manha", t: "Bloquear as 3 primeiras horas para vender", d: "Antes de produzir qualquer coisa.", x: 20 },
     { id: "follow", t: "Fazer follow-up de quem respondeu", d: "Ninguém fica sem retorno.", x: 20 },
-    { id: "post", t: "Publicar 1 conteúdo", d: "Marca sozinho quando você toca em Postei na aba Conteúdo.", x: 20 },
+    { id: "post", t: "Publicar 1 conteúdo", d: "Marca sozinho quando você marca um Reel como feito na aba Conteúdo.", x: 20 },
     { id: "funil", t: "Atualizar o funil", d: "Marca sozinho quando você mexe na aba Funil.", x: 10 },
     { id: "oferta", t: "Falar da oferta para alguém novo", d: "Instagram que Vende ou o mini site.", x: 20 },
     { id: "fim", t: "Encerrar o dia no horário", d: "Descanso também é estratégia.", x: 10 }
@@ -741,7 +747,7 @@
     x += Object.keys(S.learned).filter(function (k) { return S.learned[k]; }).length * 10;
     x += (S.money || []).length * 5;
     (S.leads || []).forEach(function (l) { for (var k = 0; k <= Math.min(4, l.mx); k++) x += STG_X[k]; });
-    Object.keys(S.ct || {}).forEach(function (k) { var r = S.ct[k]; if (r && r.g) x += 10; if (r && r.p) x += 20; });
+    Object.keys(S.ct || {}).forEach(function (k) { var r = S.ct[k]; if (r && r.p) x += 30; });
     return Math.round(x);
   }
   function dayCounts(d) { if (!d) return false; var n = DAILY.filter(function (m) { return d.m && d.m[m.id]; }).length; return (d.p || 0) >= 100 || n >= 4; }
@@ -1331,64 +1337,105 @@
   }
 
 
-  // ── Conteúdo: esteira de Reels (5 roteiros por dia, gravados pela tarefa diária) ──
-  var ctCol = null, ctPlanCol = null, CT = null, ctDay = "";
+  // ── Conteúdo: esteira de Reels (os 300 roteiros do teste, em 10 lotes de 30, um por gancho) ──
+  var ctCol = null, ctPlanCol = null, CT = null, ctLote = 0, ctAllMode = false, ctAssets = null, ctSample = null, ctBusy = {};
   function loadConteudo() {
     if (!ctCol) return;
     Promise.all([ctCol.get(), ctPlanCol.get().catch(function () { return null; })]).then(function (r) {
-      var dias = [], plano = null;
-      r[0].docs.forEach(function (d) { var b = d.data() || {}; if (b.data && Array.isArray(b.roteiros)) dias.push({ data: String(b.data), roteiros: b.roteiros.filter(function (x) { return x && x.id; }) }); });
-      dias.sort(function (a, b) { return a.data < b.data ? 1 : a.data > b.data ? -1 : 0; });
+      var lotes = [], plano = null;
+      r[0].docs.forEach(function (d) { var b = d.data() || {}; if (b.lote && Array.isArray(b.roteiros)) lotes.push({ lote: +b.lote, gn: String(b.gn || ""), roteiros: b.roteiros.filter(function (x) { return x && x.id; }).sort(function (a, b) { return a.k - b.k; }) }); });
+      lotes.sort(function (a, b) { return a.lote - b.lote; });
       if (r[1]) r[1].docs.forEach(function (d) { var b = d.data() || {}; if (b.id && (!plano || String(b.inicio) > String(plano.inicio))) plano = b; });
-      CT = { dias: dias, plano: plano };
-      if (!ctDay || !dias.some(function (d) { return d.data === ctDay; })) ctDay = dias.length ? dias[0].data : "";
+      CT = { lotes: lotes, plano: plano };
+      if (!lotes.some(function (l) { return l.lote === ctLote; })) { var first = lotes.filter(function (l) { return l.roteiros.some(function (x) { return !ctDone(x); }); })[0] || lotes[0]; ctLote = first ? first.lote : 0; }
       renderConteudo();
-    }).catch(function () { CT = { dias: [], plano: null, err: true }; renderConteudo(); });
+    }).catch(function () { CT = { lotes: [], plano: null, err: true }; renderConteudo(); });
+    var cl = window.claude;
+    cl.use("assets").then(function (a) { ctAssets = a; if (CT) renderConteudo(); }, function () {});
+    cl.use("sample").then(function (sm) { if (!sm) return; return sm.limits().then(function (lm) { if (lm && lm.images) { ctSample = sm; if (CT) renderConteudo(); } }); }).catch(function () {});
   }
+  // "12,3 mil" → 12300 · "1.234" → 1234 · "1,2 mi" → 1200000
+  function ctNum(v) {
+    if (typeof v === "number") return v;
+    if (typeof v !== "string") return NaN;
+    var t = v.toLowerCase().replace(/\s/g, ""), mult = /mil|k/.test(t) ? 1e3 : /mi|m/.test(t) ? 1e6 : 1, d = t.replace(/[^\d.,]/g, "");
+    d = mult > 1 ? d.replace(/\./g, "").replace(",", ".") : d.replace(/[.,]/g, "");
+    return parseFloat(d) * mult;
+  }
+  function ctDone(r) { return !!(S.ct[r.id] && S.ct[r.id].p); }
   function ctText(r) {
     return "🎬 " + (r.fn || "") + " · " + (r.cn || "") + "\nGancho: " + (r.gancho || "") + (r.tela ? "\nNa tela: " + r.tela : "") + "\n\n" +
       (Array.isArray(r.fala) ? r.fala : []).map(function (x, i) { return (i + 1) + ". " + x; }).join("\n") +
       "\n\n📲 Final: " + (r.cta || "") + (r.grav ? "\n🎥 Gravação: " + r.grav : "");
   }
-  function ctPost(e) { var d = day(); if (!d.m.post) { d.m.post = true; renderLists(); return 20; } return 0; }
-  function ctCard(r, i) {
+  function ctPost() { var d = day(); if (!d.m.post) { d.m.post = true; renderLists(); return 20; } return 0; }
+  // Print das métricas: guarda no artefato e, se o Claude estiver liberado, lê os números do print
+  function ctUpload(r, file, msg) {
+    if (!ctAssets || !file) return;
+    ctBusy[r.id] = "Enviando o print…"; renderConteudo();
+    ctAssets.upload(file).then(function (up) {
+      var x = S.ct[r.id] = S.ct[r.id] || {};
+      x.pr = (Array.isArray(x.pr) ? x.pr : []).concat([up.id]).slice(-4); persist();
+      if (!ctSample) { delete ctBusy[r.id]; renderConteudo(); toast("📷", "Print salvo", "Preencha os números abaixo do print."); return; }
+      ctBusy[r.id] = "Lendo os números do print…"; renderConteudo();
+      return ctSample.json("Este é um print das métricas de um Reel do Instagram (tela de insights). Leia os números e responda só com um JSON: {\"v\": visualizações, \"e\": compartilhamentos/envios, \"s\": salvamentos, \"l\": curtidas, \"c\": comentários}. Use números inteiros (\"1,2 mil\" = 1200). Use null no que não aparecer no print.", { images: file, modelTier: "quick" }).then(function (o) {
+        var n = 0;
+        ["v", "e", "s", "l", "c"].forEach(function (k) { var v = ctNum(o && o[k]); if (typeof v === "number" && isFinite(v) && v >= 0) { x[k] = Math.round(v); n++; } });
+        delete ctBusy[r.id]; renderConteudo(); persist();
+        toast("📊", n ? "Números lidos do print" : "Não achei números no print", n ? "Confira e corrija se precisar." : "Preencha à mão abaixo.");
+      }, function (e) { delete ctBusy[r.id]; renderConteudo(); toast("📷", "Print salvo", e && e.code === "not_granted" ? "Preencha os números à mão." : "Não consegui ler o print. Preencha à mão."); });
+    }).catch(function (e) {
+      delete ctBusy[r.id]; renderConteudo();
+      toast("⚠️", "Não consegui enviar o print", e && e.code === "too_large" ? "A imagem é grande demais (máximo 20 MB)." : e && e.code === "unsupported_type" ? "Envie uma imagem PNG ou JPG." : "Tente de novo daqui a pouco.");
+    });
+  }
+  function ctCard(r) {
     var m = S.ct[r.id] || {}, c = document.createElement("div");
     c.className = "pq-card" + (m.p ? " posted" : "");
-    var n = document.createElement("span"); n.className = "ct-n"; n.textContent = "Roteiro " + (i + 1) + " · " + (r.seg || 30) + " segundos" + (m.p ? " · postado ✓" : m.g ? " · gravado ✓" : ""); c.appendChild(n);
+    var n = document.createElement("span"); n.className = "ct-n"; n.textContent = "Roteiro " + (r.k + 1) + " de 300 · " + (r.seg || 30) + " s" + (m.p ? " · feito ✓" : ""); c.appendChild(n);
     var tg = document.createElement("div"); tg.className = "ct-tags";
     [["Formato", r.fn], ["Conteúdo", r.cn], ["Gancho", r.gn]].forEach(function (t) { var s = document.createElement("span"), sm = document.createElement("small"); sm.textContent = t[0]; s.appendChild(sm); s.appendChild(document.createTextNode(t[1] || "")); tg.appendChild(s); });
     c.appendChild(tg);
     var h = document.createElement("p"); h.className = "ct-hook"; h.textContent = r.gancho || ""; c.appendChild(h);
-    if (r.tela) { var tl = document.createElement("p"); tl.className = "pq-an"; var tb = document.createElement("b"); tb.textContent = "Texto na tela"; tl.appendChild(tb); tl.appendChild(document.createTextNode(r.tela)); c.appendChild(tl); }
-    var ol = document.createElement("ol"); ol.className = "ct-fala";
-    (Array.isArray(r.fala) ? r.fala : []).forEach(function (x) { var li = document.createElement("li"); li.textContent = x; ol.appendChild(li); });
-    c.appendChild(ol);
-    if (r.cta) { var ca = document.createElement("p"); ca.className = "pq-msg"; ca.textContent = "📲 " + r.cta; c.appendChild(ca); }
-    if (r.grav) { var gv = document.createElement("p"); gv.className = "ct-grav"; gv.textContent = "🎥 " + r.grav; c.appendChild(gv); }
+    if (!m.p) {
+      if (r.tela) { var tl = document.createElement("p"); tl.className = "pq-an"; var tb = document.createElement("b"); tb.textContent = "Texto na tela"; tl.appendChild(tb); tl.appendChild(document.createTextNode(r.tela)); c.appendChild(tl); }
+      var ol = document.createElement("ol"); ol.className = "ct-fala";
+      (Array.isArray(r.fala) ? r.fala : []).forEach(function (x) { var li = document.createElement("li"); li.textContent = x; ol.appendChild(li); });
+      c.appendChild(ol);
+      if (r.cta) { var ca = document.createElement("p"); ca.className = "pq-msg"; ca.textContent = "📲 " + r.cta; c.appendChild(ca); }
+      if (r.grav) { var gv = document.createElement("p"); gv.className = "ct-grav"; gv.textContent = "🎥 " + r.grav; c.appendChild(gv); }
+    }
     if (r.legenda) c.appendChild(simBlock("Legenda pronta", [["", r.legenda, false]]));
     var acts = document.createElement("div"); acts.className = "fu-acts"; c.appendChild(acts);
     function btn(cls, txt, fn) { var b = document.createElement("button"); b.type = "button"; if (cls) b.className = cls; b.textContent = txt; b.addEventListener("click", function (e) { fn(e, b); }); acts.appendChild(b); return b; }
     btn("", "Copiar roteiro", function (e, b) { copyText(ctText(r), b); });
-    btn(m.g ? "" : "adv", m.g ? "Gravado ✓" : "Gravei (+10)", function (e) {
-      var x = S.ct[r.id] = S.ct[r.id] || {};
-      if (x.g && !x.p) { delete x.g; renderConteudo(); afterChange(e, 0); return; }
-      if (x.g) return;
-      x.g = 1; renderConteudo(); afterChange(e, 10);
-    });
-    btn(m.p ? "" : "pay", m.p ? "Postado ✓ · desfazer" : "Postei (+20)", function (e) {
+    btn(m.p ? "" : "pay", m.p ? "Feito ✓ · desfazer" : "✓ Marcar como feito (+30)", function (e) {
       var x = S.ct[r.id] = S.ct[r.id] || {};
       if (x.p) { delete x.p; renderConteudo(); afterChange(e, 0); return; }
-      var g = (x.g ? 0 : 10) + 20; x.g = 1; x.p = today(); g += ctPost(e);
+      x.p = today(); var g = 30 + ctPost();
       renderConteudo(); afterChange(e, g);
-      toast("🎬", "Reel no ar!", "Daqui a 24 horas, anote visualizações, envios e salvos.");
     });
     if (m.p) {
+      var mw = document.createElement("div"); mw.className = "ct-mw";
+      var mh = document.createElement("span"); mh.className = "ct-n"; mh.textContent = "Métricas" + (m.p ? " · postado em " + dm(m.p) : ""); mw.appendChild(mh);
+      if (ctAssets) {
+        var up = document.createElement("label"); up.className = "ct-up" + (ctBusy[r.id] ? " busy" : "");
+        up.textContent = ctBusy[r.id] || (Array.isArray(m.pr) && m.pr.length ? "📷 Enviar outro print" : "📷 Enviar print das métricas");
+        var fi = document.createElement("input"); fi.type = "file"; fi.accept = "image/png,image/jpeg,image/webp"; fi.hidden = true; fi.disabled = !!ctBusy[r.id];
+        fi.addEventListener("change", function () { if (fi.files && fi.files[0]) ctUpload(r, fi.files[0]); });
+        up.appendChild(fi); mw.appendChild(up);
+      }
+      if (Array.isArray(m.pr) && m.pr.length) {
+        var th = document.createElement("div"); th.className = "ct-thumbs";
+        m.pr.forEach(function (id) { var a = document.createElement("a"); a.href = "/_blob/" + id; a.target = "_blank"; a.rel = "noopener"; var im = document.createElement("img"); im.src = "/_blob/" + id; im.alt = "Print das métricas"; im.loading = "lazy"; a.appendChild(im); th.appendChild(a); });
+        mw.appendChild(th);
+      }
       var mt = document.createElement("div"); mt.className = "ct-met";
-      [["v", "Visualizações"], ["e", "Envios"], ["s", "Salvos"]].forEach(function (f) {
+      [["v", "Views"], ["e", "Envios"], ["s", "Salvos"], ["l", "Curtidas"], ["c", "Coment."]].forEach(function (f) {
         var lb = document.createElement("label"), inp = document.createElement("input");
         lb.textContent = f[1]; inp.inputMode = "numeric"; inp.autocomplete = "off"; inp.placeholder = "0";
         inp.value = typeof m[f[0]] === "number" ? m[f[0]] : "";
-        inp.setAttribute("aria-label", f[1] + " do roteiro " + (i + 1));
+        inp.setAttribute("aria-label", f[1] + " do roteiro " + (r.k + 1));
         inp.addEventListener("change", function () {
           var v = parseInt(String(inp.value).replace(/\D/g, ""), 10), x = S.ct[r.id] = S.ct[r.id] || {};
           if (v >= 0) x[f[0]] = v; else delete x[f[0]];
@@ -1397,11 +1444,11 @@
         });
         lb.appendChild(inp); mt.appendChild(lb);
       });
-      c.appendChild(mt);
+      mw.appendChild(mt); c.appendChild(mw);
     }
     return c;
   }
-  function ctAll() { var a = []; if (CT) CT.dias.forEach(function (d) { a = a.concat(d.roteiros); }); return a; }
+  function ctAll() { var a = []; if (CT) CT.lotes.forEach(function (l) { a = a.concat(l.roteiros); }); return a; }
   function renderCtRank() {
     var box = $("ct-rank"); box.innerHTML = "";
     var by = { f: {}, g: {}, c: {} }, n = 0;
@@ -1412,7 +1459,7 @@
         o.q++; o.v += m.v; o.e += m.e || 0; o.s += m.s || 0;
       });
     });
-    if (!n) { var em = document.createElement("div"); em.className = "empty"; em.textContent = "Quando você anotar os números dos Reels postados, o ranking de formatos, ganchos e conteúdos aparece aqui."; box.appendChild(em); return; }
+    if (!n) { var em = document.createElement("div"); em.className = "empty"; em.textContent = "Quando você enviar os prints (ou anotar os números) dos Reels feitos, o ranking de formatos, ganchos e conteúdos aparece aqui."; box.appendChild(em); return; }
     [["f", "Formatos"], ["g", "Ganchos"], ["c", "Conteúdos"]].forEach(function (sec) {
       var rows = Object.keys(by[sec[0]]).map(function (k) { return by[sec[0]][k]; }).sort(function (a, b) { return (b.e / b.v) - (a.e / a.v) || b.v - a.v; });
       var h = document.createElement("span"); h.className = "ct-n"; h.textContent = sec[1]; box.appendChild(h);
@@ -1427,26 +1474,32 @@
     });
   }
   function renderConteudo() {
-    var list = $("ct-list"), days = $("ct-days"); list.innerHTML = ""; days.innerHTML = "";
+    var list = $("ct-list"), chips = $("ct-days"), opts = $("ct-opts"); list.innerHTML = ""; chips.innerHTML = ""; opts.innerHTML = "";
     if (!CT) { $("ct-prog").textContent = ctCol ? "Carregando os roteiros…" : "Os roteiros aparecem aqui quando você abre o app na sua conta."; renderCtRank(); return; }
-    var pl = CT.plano, total = (pl && pl.total) || 300, done = ctAll().filter(function (r) { return S.ct[r.id] && S.ct[r.id].p; }).length;
+    var pl = CT.plano, all = ctAll(), total = (pl && pl.total) || all.length || 300, done = all.filter(ctDone).length;
     $("ct-plan").textContent = pl && pl.nome ? pl.nome : "Esteira de conteúdo";
-    $("ct-prog").textContent = done + " de " + total + " Reels postados";
+    $("ct-prog").textContent = done + " de " + total + " Reels feitos";
     $("ct-fill").style.width = Math.min(100, done / total * 100) + "%";
-    if (pl && Array.isArray(pl.formatos)) $("ct-sub").textContent = "Formatos em teste: " + pl.formatos.map(function (f) { return f.n; }).join(" · ") + ". 5 roteiros de 30 segundos chegam toda manhã.";
-    CT.dias.slice(0, 10).forEach(function (d) {
-      var b = document.createElement("button"), pend = d.roteiros.filter(function (r) { return !(S.ct[r.id] && S.ct[r.id].p); }).length;
-      b.type = "button"; b.setAttribute("aria-pressed", d.data === ctDay ? "true" : "false");
-      b.textContent = d.data === today() ? "Hoje" : dm(d.data);
+    if (pl && Array.isArray(pl.formatos)) $("ct-sub").textContent = "Formatos em teste: " + pl.formatos.map(function (f) { return f.n; }).join(" · ") + ". Cada lote usa um gancho nos 30 conteúdos. Marque o que fizer e, depois de alguns dias, envie o print das métricas.";
+    CT.lotes.forEach(function (l) {
+      var b = document.createElement("button"), pend = l.roteiros.filter(function (r) { return !ctDone(r); }).length;
+      b.type = "button"; b.setAttribute("aria-pressed", l.lote === ctLote ? "true" : "false");
+      b.title = l.gn; b.textContent = "Gancho " + l.lote;
       var sm = document.createElement("small"); sm.textContent = pend ? pend : "✓"; b.appendChild(sm);
-      b.addEventListener("click", function () { ctDay = d.data; renderConteudo(); });
-      days.appendChild(b);
+      b.addEventListener("click", function () { ctLote = l.lote; renderConteudo(); });
+      chips.appendChild(b);
     });
-    var cur = CT.dias.filter(function (d) { return d.data === ctDay; })[0];
-    if (!cur) { var em = document.createElement("div"); em.className = "empty"; em.textContent = CT.err ? "Não consegui carregar os roteiros agora." : "Os roteiros de hoje ainda não chegaram. Eles são montados toda manhã."; list.appendChild(em); }
+    var cur = CT.lotes.filter(function (l) { return l.lote === ctLote; })[0];
+    [[false, "Pendentes"], [true, "Todos"]].forEach(function (it) {
+      var b = document.createElement("button"); b.type = "button"; b.textContent = it[1]; b.setAttribute("aria-pressed", ctAllMode === it[0] ? "true" : "false");
+      b.addEventListener("click", function () { ctAllMode = it[0]; renderConteudo(); }); opts.appendChild(b);
+    });
+    if (!cur) { var em = document.createElement("div"); em.className = "empty"; em.textContent = CT.err ? "Não consegui carregar os roteiros agora." : "Os roteiros ainda não chegaram."; list.appendChild(em); }
     else {
-      if (cur.data !== today() && !CT.dias.some(function (d) { return d.data === today(); })) { var nt = document.createElement("div"); nt.className = "empty"; nt.textContent = "Os roteiros de hoje ainda não chegaram. Enquanto isso, estes são os de " + dm(cur.data) + "."; list.appendChild(nt); }
-      cur.roteiros.forEach(function (r, i) { list.appendChild(ctCard(r, i)); });
+      var hd = document.createElement("p"); hd.className = "hint"; hd.innerHTML = "<b></b> "; hd.querySelector("b").textContent = "Gancho " + cur.lote + ": " + cur.gn + (/[.?!]$/.test(cur.gn) ? "" : "."); hd.appendChild(document.createTextNode(cur.roteiros.filter(ctDone).length + " de " + cur.roteiros.length + " feitos neste lote.")); list.appendChild(hd);
+      var rs = cur.roteiros.filter(function (r) { return ctAllMode || !ctDone(r); });
+      if (!rs.length) { var e2 = document.createElement("div"); e2.className = "empty"; e2.textContent = "Lote completo! Toque em Todos para enviar os prints, ou passe para o próximo gancho."; list.appendChild(e2); }
+      rs.forEach(function (r) { list.appendChild(ctCard(r)); });
     }
     renderCtRank();
   }
@@ -1601,7 +1654,7 @@
         var fuCol = db.collection(base + "/funil/dias");
         pqCol = db.collection(base + "/prospec/dias");
         loadProspec();
-        ctCol = db.collection(base + "/conteudo/dias"); ctPlanCol = db.collection(base + "/conteudo/planos");
+        ctCol = db.collection(base + "/conteudo/lotes"); ctPlanCol = db.collection(base + "/conteudo/planos");
         loadConteudo();
         return Promise.all([ref.get(), fuCol.get().catch(function () { return null; })]).then(function (rr) {
           var snap = rr[0], fs = rr[1], remote = [];
