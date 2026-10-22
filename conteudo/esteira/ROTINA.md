@@ -15,9 +15,9 @@ Plano em `teste-01-reels.json` (cópia no banco do app: `data/users/me/conteudo/
 - **3 formatos:** Reels falado · Nunca × Em vez disso · Isso parece X, mas é Y
 - **10 conteúdos por formato** (30 no total, cada um ligado a uma dor de `agencia/ofertas/dores-e-desejos.md`)
 - **10 ganchos por conteúdo** (os mesmos 10 modelos de gancho em todos, para comparar)
-- **300 roteiros**, 5 por dia, 60 dias.
+- **300 roteiros**, em 10 lotes de 30 (um por gancho).
 
-**Ordem (k = 0 a 299):** gancho = k ÷ 30; posição = k % 30; formato = posição % 3; conteúdo = posição ÷ 3 (dentro do formato). Os 6 primeiros dias passam pelos 30 conteúdos com o gancho 1; os 6 seguintes, com o gancho 2; e assim por diante.
+**Ordem (k = 0 a 299):** gancho = k ÷ 30; posição = k % 30; formato = posição % 3; conteúdo = posição ÷ 3 (dentro do formato). O lote 1 passa pelos 30 conteúdos com o gancho 1; o lote 2, com o gancho 2; e assim por diante.
 
 **Como medir:** depois de alguns dias, enviar o print das métricas de cada Reel no app. O app ranqueia formatos, ganchos e conteúdos por **envios a cada mil visualizações** (o sinal que mais leva o Reel para quem não segue).
 
