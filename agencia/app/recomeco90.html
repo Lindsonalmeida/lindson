@@ -52,8 +52,9 @@
   .phase p b { color: var(--fg); }
 
   /* Abas */
-  .tabs { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; display: grid; grid-template-columns: repeat(5, 1fr); gap: 4px; padding: 5px; border-radius: 16px; background: rgba(14,20,38,.92); border: 1px solid var(--line); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
-  .tabs button { border: 0; background: transparent; padding: 11px 2px; border-radius: 11px; font: 700 12.5px/1 var(--f-body); color: var(--muted); cursor: pointer; }
+  .tabs { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; display: grid; grid-template-columns: repeat(6, auto); justify-content: space-between; gap: 2px; padding: 5px; border-radius: 16px; background: rgba(14,20,38,.92); border: 1px solid var(--line); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
+  .tabs button { border: 0; background: transparent; padding: 11px 4px; border-radius: 11px; font: 700 12px/1 var(--f-body); letter-spacing: -0.01em; color: var(--muted); cursor: pointer; }
+  @media (max-width: 370px) { .tabs button { padding: 11px 3px; font-size: 11px; } }
   .tabs button[aria-selected="true"] { background: var(--fg); color: var(--ink); }
   .tabs button span { display: inline-block; min-width: 18px; margin-left: 4px; padding: 2px 5px; border-radius: 99px; background: var(--sun); color: var(--sun-ink); font: 700 10px/1.2 var(--f-mono); }
 
@@ -297,6 +298,27 @@
   .pq-ct a { color: var(--signal-soft); }
   .pq-ct span { overflow-wrap: anywhere; user-select: all; }
 
+
+  /* Conteúdo */
+  .ct { display: flex; flex-direction: column; gap: 12px; }
+  .ct-n { font: 700 11px/1 var(--f-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+  .ct-tags { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; }
+  .ct-tags span { min-width: 0; padding: 8px 9px; border-radius: 11px; background: var(--ink-3); font: 700 12.5px/1.25 var(--f-body); overflow-wrap: anywhere; }
+  .ct-tags small { display: block; margin-bottom: 4px; font: 700 9.5px/1 var(--f-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--signal-soft); }
+  .ct-hook { margin: 0; font: 800 20px/1.2 var(--f-display); letter-spacing: -0.01em; }
+  .ct-fala { margin: 0; padding-left: 20px; display: grid; gap: 6px; font-size: 14px; color: var(--lead); }
+  .ct-grav { margin: 0; font-size: 12.5px; color: var(--muted); }
+  .pq-card.posted { border-color: rgba(47,208,122,.45); }
+  .ct-met { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; }
+  .ct-met label { display: grid; gap: 4px; font: 700 9.5px/1.1 var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+  .ct-met input { width: 100%; min-width: 0; padding: 10px 8px; border-radius: 10px; border: 1px solid var(--line-2); background: var(--ink-3); color: var(--fg); font: 700 16px/1.2 var(--f-body); }
+  .ct-rank { display: grid; gap: 6px; }
+  .ct-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 10px; align-items: center; padding: 10px 12px; border-radius: 12px; background: var(--ink-2); border: 1px solid var(--line); }
+  .ct-row b { display: block; font: 700 14px/1.25 var(--f-body); overflow-wrap: anywhere; }
+  .ct-row small { display: block; margin-top: 2px; font-size: 11.5px; color: var(--muted); }
+  .ct-row span { font: 700 12px/1 var(--f-mono); color: var(--sun); white-space: nowrap; }
+  .ct-row.win { border-color: rgba(255,181,71,.5); }
+
   /* Esteira */
   .sim { padding: 16px; border-radius: 18px; background: linear-gradient(160deg, rgba(76,141,255,.16), rgba(155,123,255,.08) 70%, var(--ink-2)); border: 1px solid var(--line-2); display: grid; gap: 8px; }
   .sim small { font: 700 11px/1 var(--f-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--signal-soft); }
@@ -360,6 +382,7 @@
 
   <nav class="tabs" role="tablist" aria-label="Seções">
     <button role="tab" id="tab-hoje" aria-selected="true" aria-controls="p-hoje">Hoje</button>
+    <button role="tab" id="tab-conteudo" aria-selected="false" aria-controls="p-conteudo">Conteúdo</button>
     <button role="tab" id="tab-funil" aria-selected="false" aria-controls="p-funil">Funil</button>
     <button role="tab" id="tab-caixa" aria-selected="false" aria-controls="p-caixa">Caixa</button>
     <button role="tab" id="tab-jornada" aria-selected="false" aria-controls="p-jornada">Jornada</button>
@@ -386,6 +409,21 @@
     <div class="section-h"><h2>Missões da semana</h2><small id="week-label">esta semana</small></div>
     <div class="list" id="weekly"></div>
     <p class="hint"><b>Dia que conta para a sequência:</b> 100 ações de prospecção, ou pelo menos 4 missões do dia concluídas.</p>
+  </section>
+
+  <!-- CONTEÚDO -->
+  <section id="p-conteudo" role="tabpanel" aria-labelledby="tab-conteudo" hidden class="ct">
+    <div class="pq-top">
+      <small id="ct-plan">Esteira de conteúdo</small>
+      <b id="ct-prog">Carregando os roteiros…</b>
+      <div class="bar"><i id="ct-fill" style="width:0%"></i></div>
+      <p id="ct-sub">5 roteiros de Reels de 30 segundos chegam toda manhã. Grave, poste e anote os números.</p>
+    </div>
+    <div class="chips" id="ct-days" role="group" aria-label="Escolher o dia"></div>
+    <div class="fu-list" id="ct-list"></div>
+    <div class="section-h"><h2>O que está ganhando</h2><small>envios por mil views</small></div>
+    <div class="ct-rank" id="ct-rank"></div>
+    <p class="hint"><b>Como testar:</b> 3 formatos × 10 conteúdos × 10 ganchos. Depois de 24 horas, anote visualizações, envios e salvos de cada Reel. Vence o que tiver mais envios a cada mil visualizações.</p>
   </section>
 
   <!-- JORNADA -->
@@ -588,7 +626,7 @@
   var DAILY = [
     { id: "manha", t: "Bloquear as 3 primeiras horas para vender", d: "Antes de produzir qualquer coisa.", x: 20 },
     { id: "follow", t: "Fazer follow-up de quem respondeu", d: "Ninguém fica sem retorno.", x: 20 },
-    { id: "post", t: "Publicar 1 conteúdo", d: "Reel, carrossel ou Stories.", x: 20 },
+    { id: "post", t: "Publicar 1 conteúdo", d: "Marca sozinho quando você toca em Postei na aba Conteúdo.", x: 20 },
     { id: "funil", t: "Atualizar o funil", d: "Marca sozinho quando você mexe na aba Funil.", x: 10 },
     { id: "oferta", t: "Falar da oferta para alguém novo", d: "Instagram que Vende ou o mini site.", x: 20 },
     { id: "fim", t: "Encerrar o dia no horário", d: "Descanso também é estratégia.", x: 10 }
@@ -669,7 +707,7 @@
     var y0 = new Date(Date.UTC(t.getUTCFullYear(), 0, 1));
     return t.getUTCFullYear() + "-W" + String(Math.ceil(((t - y0) / 864e5 + 1) / 7)).padStart(2, "0");
   }
-  function blank() { return { v: 1, start: today(), days: {}, weeks: {}, once: {}, learned: {}, card: 0, money: [], fph: "sobre", mix: {}, leads: [], pq: { d: "", s: {} } }; }
+  function blank() { return { v: 1, start: today(), days: {}, weeks: {}, once: {}, learned: {}, card: 0, money: [], fph: "sobre", mix: {}, leads: [], pq: { d: "", s: {} }, ct: {} }; }
   var S = blank();
   var LOCAL = "recomeco90-v1";
   function loadLocal() { try { var r = localStorage.getItem(LOCAL); if (r) return JSON.parse(r); } catch (e) {} return null; }
@@ -684,6 +722,7 @@
     if (PH[o.fph]) b.fph = o.fph;
     if (Array.isArray(o.leads)) b.leads = o.leads.filter(function (l) { return l && typeof l.id === "string" && typeof l.n === "string" && typeof l.st === "number"; }).map(function (l) { if (!l.h || typeof l.h !== "object") l.h = {}; if (typeof l.mx !== "number") l.mx = l.st; return l; });
     if (o.pq && typeof o.pq.d === "string" && o.pq.s && typeof o.pq.s === "object") b.pq = { d: o.pq.d, s: o.pq.s };
+    if (o.ct && typeof o.ct === "object") b.ct = o.ct;
     if (o.mix && typeof o.mix === "object") PLANS.forEach(function (p) { var n = parseInt(o.mix[p.id], 10); if (n > 0) b.mix[p.id] = Math.min(30, n); });
     return b;
   }
@@ -702,6 +741,7 @@
     x += Object.keys(S.learned).filter(function (k) { return S.learned[k]; }).length * 10;
     x += (S.money || []).length * 5;
     (S.leads || []).forEach(function (l) { for (var k = 0; k <= Math.min(4, l.mx); k++) x += STG_X[k]; });
+    Object.keys(S.ct || {}).forEach(function (k) { var r = S.ct[k]; if (r && r.g) x += 10; if (r && r.p) x += 20; });
     return Math.round(x);
   }
   function dayCounts(d) { if (!d) return false; var n = DAILY.filter(function (m) { return d.m && d.m[m.id]; }).length; return (d.p || 0) >= 100 || n >= 4; }
@@ -1290,8 +1330,129 @@
     $("pq-box").hidden = k !== "pq"; $("fu-box").hidden = k !== "fu";
   }
 
+
+  // ── Conteúdo: esteira de Reels (5 roteiros por dia, gravados pela tarefa diária) ──
+  var ctCol = null, ctPlanCol = null, CT = null, ctDay = "";
+  function loadConteudo() {
+    if (!ctCol) return;
+    Promise.all([ctCol.get(), ctPlanCol.get().catch(function () { return null; })]).then(function (r) {
+      var dias = [], plano = null;
+      r[0].docs.forEach(function (d) { var b = d.data() || {}; if (b.data && Array.isArray(b.roteiros)) dias.push({ data: String(b.data), roteiros: b.roteiros.filter(function (x) { return x && x.id; }) }); });
+      dias.sort(function (a, b) { return a.data < b.data ? 1 : a.data > b.data ? -1 : 0; });
+      if (r[1]) r[1].docs.forEach(function (d) { var b = d.data() || {}; if (b.id && (!plano || String(b.inicio) > String(plano.inicio))) plano = b; });
+      CT = { dias: dias, plano: plano };
+      if (!ctDay || !dias.some(function (d) { return d.data === ctDay; })) ctDay = dias.length ? dias[0].data : "";
+      renderConteudo();
+    }).catch(function () { CT = { dias: [], plano: null, err: true }; renderConteudo(); });
+  }
+  function ctText(r) {
+    return "🎬 " + (r.fn || "") + " · " + (r.cn || "") + "\nGancho: " + (r.gancho || "") + (r.tela ? "\nNa tela: " + r.tela : "") + "\n\n" +
+      (Array.isArray(r.fala) ? r.fala : []).map(function (x, i) { return (i + 1) + ". " + x; }).join("\n") +
+      "\n\n📲 Final: " + (r.cta || "") + (r.grav ? "\n🎥 Gravação: " + r.grav : "");
+  }
+  function ctPost(e) { var d = day(); if (!d.m.post) { d.m.post = true; renderLists(); return 20; } return 0; }
+  function ctCard(r, i) {
+    var m = S.ct[r.id] || {}, c = document.createElement("div");
+    c.className = "pq-card" + (m.p ? " posted" : "");
+    var n = document.createElement("span"); n.className = "ct-n"; n.textContent = "Roteiro " + (i + 1) + " · " + (r.seg || 30) + " segundos" + (m.p ? " · postado ✓" : m.g ? " · gravado ✓" : ""); c.appendChild(n);
+    var tg = document.createElement("div"); tg.className = "ct-tags";
+    [["Formato", r.fn], ["Conteúdo", r.cn], ["Gancho", r.gn]].forEach(function (t) { var s = document.createElement("span"), sm = document.createElement("small"); sm.textContent = t[0]; s.appendChild(sm); s.appendChild(document.createTextNode(t[1] || "")); tg.appendChild(s); });
+    c.appendChild(tg);
+    var h = document.createElement("p"); h.className = "ct-hook"; h.textContent = r.gancho || ""; c.appendChild(h);
+    if (r.tela) { var tl = document.createElement("p"); tl.className = "pq-an"; var tb = document.createElement("b"); tb.textContent = "Texto na tela"; tl.appendChild(tb); tl.appendChild(document.createTextNode(r.tela)); c.appendChild(tl); }
+    var ol = document.createElement("ol"); ol.className = "ct-fala";
+    (Array.isArray(r.fala) ? r.fala : []).forEach(function (x) { var li = document.createElement("li"); li.textContent = x; ol.appendChild(li); });
+    c.appendChild(ol);
+    if (r.cta) { var ca = document.createElement("p"); ca.className = "pq-msg"; ca.textContent = "📲 " + r.cta; c.appendChild(ca); }
+    if (r.grav) { var gv = document.createElement("p"); gv.className = "ct-grav"; gv.textContent = "🎥 " + r.grav; c.appendChild(gv); }
+    if (r.legenda) c.appendChild(simBlock("Legenda pronta", [["", r.legenda, false]]));
+    var acts = document.createElement("div"); acts.className = "fu-acts"; c.appendChild(acts);
+    function btn(cls, txt, fn) { var b = document.createElement("button"); b.type = "button"; if (cls) b.className = cls; b.textContent = txt; b.addEventListener("click", function (e) { fn(e, b); }); acts.appendChild(b); return b; }
+    btn("", "Copiar roteiro", function (e, b) { copyText(ctText(r), b); });
+    btn(m.g ? "" : "adv", m.g ? "Gravado ✓" : "Gravei (+10)", function (e) {
+      var x = S.ct[r.id] = S.ct[r.id] || {};
+      if (x.g && !x.p) { delete x.g; renderConteudo(); afterChange(e, 0); return; }
+      if (x.g) return;
+      x.g = 1; renderConteudo(); afterChange(e, 10);
+    });
+    btn(m.p ? "" : "pay", m.p ? "Postado ✓ · desfazer" : "Postei (+20)", function (e) {
+      var x = S.ct[r.id] = S.ct[r.id] || {};
+      if (x.p) { delete x.p; renderConteudo(); afterChange(e, 0); return; }
+      var g = (x.g ? 0 : 10) + 20; x.g = 1; x.p = today(); g += ctPost(e);
+      renderConteudo(); afterChange(e, g);
+      toast("🎬", "Reel no ar!", "Daqui a 24 horas, anote visualizações, envios e salvos.");
+    });
+    if (m.p) {
+      var mt = document.createElement("div"); mt.className = "ct-met";
+      [["v", "Visualizações"], ["e", "Envios"], ["s", "Salvos"]].forEach(function (f) {
+        var lb = document.createElement("label"), inp = document.createElement("input");
+        lb.textContent = f[1]; inp.inputMode = "numeric"; inp.autocomplete = "off"; inp.placeholder = "0";
+        inp.value = typeof m[f[0]] === "number" ? m[f[0]] : "";
+        inp.setAttribute("aria-label", f[1] + " do roteiro " + (i + 1));
+        inp.addEventListener("change", function () {
+          var v = parseInt(String(inp.value).replace(/\D/g, ""), 10), x = S.ct[r.id] = S.ct[r.id] || {};
+          if (v >= 0) x[f[0]] = v; else delete x[f[0]];
+          inp.value = typeof x[f[0]] === "number" ? x[f[0]] : "";
+          renderCtRank(); persist();
+        });
+        lb.appendChild(inp); mt.appendChild(lb);
+      });
+      c.appendChild(mt);
+    }
+    return c;
+  }
+  function ctAll() { var a = []; if (CT) CT.dias.forEach(function (d) { a = a.concat(d.roteiros); }); return a; }
+  function renderCtRank() {
+    var box = $("ct-rank"); box.innerHTML = "";
+    var by = { f: {}, g: {}, c: {} }, n = 0;
+    ctAll().forEach(function (r) {
+      var m = S.ct[r.id]; if (!m || !(m.v > 0)) return; n++;
+      [["f", r.f, r.fn], ["g", r.g, r.gn], ["c", r.c, r.cn]].forEach(function (it) {
+        var o = by[it[0]][it[1]] = by[it[0]][it[1]] || { n: it[2] || it[1], q: 0, v: 0, e: 0, s: 0 };
+        o.q++; o.v += m.v; o.e += m.e || 0; o.s += m.s || 0;
+      });
+    });
+    if (!n) { var em = document.createElement("div"); em.className = "empty"; em.textContent = "Quando você anotar os números dos Reels postados, o ranking de formatos, ganchos e conteúdos aparece aqui."; box.appendChild(em); return; }
+    [["f", "Formatos"], ["g", "Ganchos"], ["c", "Conteúdos"]].forEach(function (sec) {
+      var rows = Object.keys(by[sec[0]]).map(function (k) { return by[sec[0]][k]; }).sort(function (a, b) { return (b.e / b.v) - (a.e / a.v) || b.v - a.v; });
+      var h = document.createElement("span"); h.className = "ct-n"; h.textContent = sec[1]; box.appendChild(h);
+      rows.slice(0, sec[0] === "f" ? 3 : 5).forEach(function (o, i) {
+        var row = document.createElement("div"); row.className = "ct-row" + (i === 0 && rows.length > 1 ? " win" : "");
+        row.innerHTML = "<div><b></b><small></small></div><span></span>";
+        row.querySelector("b").textContent = (i === 0 && rows.length > 1 ? "🏆 " : "") + o.n;
+        row.querySelector("small").textContent = o.q + (o.q > 1 ? " reels" : " reel") + " · " + fmtN(Math.round(o.v / o.q)) + " views em média · " + o.s + " salvos";
+        row.querySelector("span").textContent = (Math.round(o.e / o.v * 10000) / 10).toLocaleString("pt-BR") + " env/mil";
+        box.appendChild(row);
+      });
+    });
+  }
+  function renderConteudo() {
+    var list = $("ct-list"), days = $("ct-days"); list.innerHTML = ""; days.innerHTML = "";
+    if (!CT) { $("ct-prog").textContent = ctCol ? "Carregando os roteiros…" : "Os roteiros aparecem aqui quando você abre o app na sua conta."; renderCtRank(); return; }
+    var pl = CT.plano, total = (pl && pl.total) || 300, done = ctAll().filter(function (r) { return S.ct[r.id] && S.ct[r.id].p; }).length;
+    $("ct-plan").textContent = pl && pl.nome ? pl.nome : "Esteira de conteúdo";
+    $("ct-prog").textContent = done + " de " + total + " Reels postados";
+    $("ct-fill").style.width = Math.min(100, done / total * 100) + "%";
+    if (pl && Array.isArray(pl.formatos)) $("ct-sub").textContent = "Formatos em teste: " + pl.formatos.map(function (f) { return f.n; }).join(" · ") + ". 5 roteiros de 30 segundos chegam toda manhã.";
+    CT.dias.slice(0, 10).forEach(function (d) {
+      var b = document.createElement("button"), pend = d.roteiros.filter(function (r) { return !(S.ct[r.id] && S.ct[r.id].p); }).length;
+      b.type = "button"; b.setAttribute("aria-pressed", d.data === ctDay ? "true" : "false");
+      b.textContent = d.data === today() ? "Hoje" : dm(d.data);
+      var sm = document.createElement("small"); sm.textContent = pend ? pend : "✓"; b.appendChild(sm);
+      b.addEventListener("click", function () { ctDay = d.data; renderConteudo(); });
+      days.appendChild(b);
+    });
+    var cur = CT.dias.filter(function (d) { return d.data === ctDay; })[0];
+    if (!cur) { var em = document.createElement("div"); em.className = "empty"; em.textContent = CT.err ? "Não consegui carregar os roteiros agora." : "Os roteiros de hoje ainda não chegaram. Eles são montados toda manhã."; list.appendChild(em); }
+    else {
+      if (cur.data !== today() && !CT.dias.some(function (d) { return d.data === today(); })) { var nt = document.createElement("div"); nt.className = "empty"; nt.textContent = "Os roteiros de hoje ainda não chegaram. Enquanto isso, estes são os de " + dm(cur.data) + "."; list.appendChild(nt); }
+      cur.roteiros.forEach(function (r, i) { list.appendChild(ctCard(r, i)); });
+    }
+    renderCtRank();
+  }
+
   var lastLevel = 0;
-  function renderAll() { renderLists(); var li = renderScore(); renderCard(); renderFin(); renderPlans(); renderFunil(); renderProspec(); return li; }
+  function renderAll() { renderLists(); var li = renderScore(); renderCard(); renderFin(); renderPlans(); renderFunil(); renderProspec(); renderConteudo(); return li; }
 
   function pop(e, text) {
     var p = document.createElement("div"); p.className = "pop"; p.textContent = text;
@@ -1401,7 +1562,7 @@
     fuSave(r ? { clientX: r.left + r.width / 2, clientY: r.top } : null, g);
     toast("🎯", l.n + " no funil", "Etapa: " + STG[st] + ".");
   });
-  var TABS = ["hoje", "funil", "caixa", "jornada", "aprender"];
+  var TABS = ["hoje", "conteudo", "funil", "caixa", "jornada", "aprender"];
   function showTab(name) {
     TABS.forEach(function (t) {
       $("tab-" + t).setAttribute("aria-selected", t === name ? "true" : "false");
@@ -1440,6 +1601,8 @@
         var fuCol = db.collection(base + "/funil/dias");
         pqCol = db.collection(base + "/prospec/dias");
         loadProspec();
+        ctCol = db.collection(base + "/conteudo/dias"); ctPlanCol = db.collection(base + "/conteudo/planos");
+        loadConteudo();
         return Promise.all([ref.get(), fuCol.get().catch(function () { return null; })]).then(function (rr) {
           var snap = rr[0], fs = rr[1], remote = [];
           if (fs) fs.docs.forEach(function (d) { var b = d.data() || {}; if (Array.isArray(b.leads)) { remote = remote.concat(b.leads); fuSaved[d.id] = JSON.stringify(b.leads); } });
