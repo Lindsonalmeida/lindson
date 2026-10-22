@@ -1,105 +1,92 @@
-# Produto master: Gestão Instagram que Vende
+# Produto master: ensinar Instagram
 
-Criado com o Hormozi Squad (Hormozi Offers) em 22/10/2026. Versão 1 (rascunho para aprovar).
+Criado com o Hormozi Squad (Hormozi Offers) em 22/10/2026. Versão 2 (rascunho para aprovar).
 
-**Posicionamento:** "Lindson Almeida, especialista em gestão de Instagram para negócios locais. Transformo o seu Instagram numa fonte de clientes no WhatsApp."
+**A esteira de serviços não muda.** Os 5 degraus de `esteira-de-produtos.md` (até R$ 3.500/mês) continuam sendo o que eu vendo como agência. O produto master é a parte de **ensino**: é ele que me torna autoridade em Instagram.
 
-**Papel do master:** é o produto que define quem eu sou (especialista em gestão de redes sociais), para quem eu falo e de onde saem os produtos digitais. Tudo na esteira prepara para ele ou sai dele.
+**Posicionamento:** "Lindson Almeida, especialista em Instagram que vende. Faço para empresas e ensino quem quer fazer."
 
-**Rede:** só Instagram. Foco total é o que sustenta o título de especialista.
+**Prova que sustenta a autoridade:** eu aplico o método todo mês nos meus clientes da esteira. Cada resultado de cliente vira prova para os alunos. 14 anos de experiência, casos em 3 nichos.
 
-## Sonho do cliente
+## O método (base dos dois produtos)
 
-"Quero abrir o WhatsApp de manhã e ter gente nova pedindo orçamento, sem eu precisar pensar no Instagram."
+**Método Perfil que Vende**, em 6 etapas:
 
-**Para quem:** donos de negócios de São Luís que já atendem bem, mas dependem de indicação: clínicas, consultórios, corretores, imobiliárias, lojas e prestadores de serviço.
+| Etapa | O que ensina |
+|---|---|
+| 1. Vitrine | Bio, destaques, foto, fixados e mini site que passam confiança |
+| 2. Mapa de Conteúdo que Vende | Linha editorial e calendário do mês |
+| 3. Diária de Estúdio | Gravar o mês inteiro em 1 dia, sem vergonha da câmera |
+| 4. Motor de Alcance | Tráfego pago simples nos melhores conteúdos |
+| 5. Script de Fechamento | O que responder no WhatsApp para fechar |
+| 6. Painel de Clientes | Medir contatos, origem e custo |
+
+## Dois públicos, dois produtos
+
+| | Produto A: dono de negócio | Produto B: quem quer ser social media |
+|---|---|---|
+| **Nome** | Instagram que Vende na Prática | Formação Social Media que Vende |
+| **Sonho do aluno** | "Quero que o meu Instagram traga clientes para o meu WhatsApp, sem depender de indicação." | "Quero viver de gestão de Instagram, com clientes fixos pagando todo mês." |
+| **O que aprende** | As 6 etapas aplicadas no próprio negócio | As 6 etapas + como vender, entregar e cobrar gestão de Instagram |
+| **Módulo extra** | — | Esteira de serviços, prospecção (Conexão → Dor → Desejo → Pergunta), proposta e contrato |
+| **Ponte para a esteira** | Quem não tem tempo de fazer sozinho contrata a agência | Não compra a esteira; usa a esteira como modelo |
+
+## Formato: curso + mentoria
+
+| Degrau | O que entra | Preço sugerido |
+|---|---|---|
+| **Curso** | Aulas gravadas das 6 etapas, modelos prontos (calendário, roteiros, ganchos, scripts), grupo de dúvidas | R$ 497 a 997 |
+| **Curso + Mentoria em grupo** | Tudo do curso + encontros ao vivo em turma, correção do perfil do aluno e plano do mês | R$ 1.997 a 2.997 |
+
+Os preços são ponto de partida, para validar com as primeiras vendas. A Formação (Produto B) pode custar mais que o Produto A, porque o aluno vai ganhar dinheiro com ela.
 
 ## Equação de valor (0 a 10)
 
-| Item | Nota | Como o master resolve |
+| Item | Nota | Como o produto resolve |
 |---|---|---|
-| Tamanho do resultado | 8 | Clientes chegando no WhatsApp, não "posts bonitos" |
-| Confiança de que vai funcionar | 7 | 14 anos, casos em 3 nichos, garantia, relatório mensal |
-| Rapidez do primeiro resultado | 8 | Perfil arrumado na semana 1, tráfego ligado na semana 2 |
-| Esforço do cliente | 9 | Feito para ele: aparece 1 dia por mês para gravar |
+| Tamanho do resultado | 8 | Clientes no WhatsApp (A) ou clientes pagando gestão (B) |
+| Confiança de que vai funcionar | 6 | Casos reais dos clientes da esteira, perfil do Lindson como vitrine |
+| Rapidez do primeiro resultado | 7 | Etapa 1 (Vitrine) feita na primeira semana |
+| Esforço do aluno | 7 | Modelos prontos e mentoria corrigindo o perfil dele |
 
-Ponto mais fraco: **confiança** (7). Toda prova nova (print de WhatsApp, depoimento, antes e depois do perfil) entra aqui primeiro.
+Ponto mais fraco: **confiança** (6). Antes de lançar, juntar prints de resultado dos clientes atuais e, se possível, uma turma piloto com depoimentos.
 
-## Problemas → solução (o Método Perfil que Vende)
+## Bônus (sugestão)
 
-As 6 etapas abaixo são o método próprio. O serviço entrega o método feito para o cliente; os produtos digitais ensinam o mesmo método.
-
-| Problema | Solução | Nome da etapa |
+| Bônus | Tipo | Para que serve |
 |---|---|---|
-| "Meu perfil não passa confiança" | Bio, destaques, foto, fixados e mini site | 1. Vitrine |
-| "Não sei o que postar" | Linha editorial e calendário do mês | 2. Mapa de Conteúdo que Vende |
-| "Tenho vergonha ou não tenho tempo de gravar" | 1 diária de gravação por mês, com direção | 3. Diária de Estúdio |
-| "Posto e ninguém vê" | Tráfego pago nos melhores conteúdos | 4. Motor de Alcance |
-| "Chega gente, mas eu não fecho" | Roteiro e mensagens prontas para o WhatsApp | 5. Script de Fechamento |
-| "Não sei se está funcionando" | Relatório mensal de contatos, origem e custo | 6. Painel de Clientes |
+| Banco de 50 ganchos por nicho | Velocidade | Começar a postar no primeiro dia |
+| Script de Fechamento no WhatsApp | Esforço | Não precisar escrever mensagem do zero |
+| Modelo de proposta e contrato (só B) | Esforço | Fechar o primeiro cliente de gestão |
+| Correção ao vivo do perfil (só mentoria) | Prova | O aluno vê o próprio perfil melhorando |
 
-## Pacote
+## Garantia
 
-| O que entra | Valor de mercado |
-|---|---|
-| Gestão completa do Instagram: 8 Reels gravados e editados, 8 carrosséis ou posts, roteiros de Stories, legendas, calendário, publicação e tráfego pago | R$ 4.500/mês |
-| Bônus: mini site com botão de WhatsApp | R$ 997 |
-| Bônus: Script de Fechamento no WhatsApp | R$ 497 |
-| Bônus: Banco de 50 ganchos do nicho | R$ 297 |
-| Bônus por fechar rápido: implantação grátis para os 3 primeiros | R$ 1.500 |
-| **Valor total** | **R$ 7.791 no 1º mês** |
-| **Preço** | **R$ 3.500/mês**, contrato de 3 meses, 1º mês pago antes de começar |
-
-Verba de anúncios por conta do cliente, paga direto à Meta, mínimo sugerido de R$ 1.000/mês (no contrato).
-
-O master ocupa o degrau 5 da esteira. Os degraus 1 a 4 (Vídeo, Tráfego, Alcance, Presença) passam a ser "partes do método" que levam até ele.
-
-## Garantia (a confirmar)
-
-"Se em 90 dias o seu WhatsApp não receber pelo menos [X] novos contatos interessados vindos do Instagram, eu trabalho o 4º mês de graça." Condição: o cliente comparece às gravações, mantém a verba de anúncios e responde os contatos.
-
-[X] só depois de medir os clientes atuais. Nunca inventar o número.
+- **7 dias incondicional** (já é o direito de arrependimento em compra online).
+- **Condicional na mentoria (a confirmar):** "Se você fizer as 6 etapas e não tiver [resultado X] em [Y dias], eu te acompanho na próxima turma de graça." [X] e [Y] só depois da turma piloto. Nunca inventar o número.
 
 ## Não é para você se
 
-- quer só "posts bonitos" e não se importa com vendas;
-- não tem verba nenhuma para anúncios;
-- não consegue responder os clientes que chegam no WhatsApp.
+- procura fórmula mágica para viralizar;
+- não vai aplicar o que aprender (A) ou não quer prospectar clientes (B);
+- quer só seguidores, e não clientes.
 
 ## Escassez
 
-"Atendo no máximo 4 clientes ao mesmo tempo, porque eu mesmo gravo e edito."
+Mentoria por turmas com vagas limitadas, porque eu corrijo o perfil de cada aluno. O tamanho da turma é a definir.
 
-## Público que consome o conteúdo
+## Conteúdo de autoridade
 
-Um público só: **o dono do negócio local**. Não falar com social media nem com quem quer aprender a trabalhar com isso, porque isso divide a autoridade e atrai quem não compra o master.
+Os mesmos 6 pilares (as 6 etapas do método) servem os dois públicos. Muda só o ângulo:
 
-Pilares de conteúdo (todos saem do método):
+- **Para o dono de negócio:** "como fazer o seu Instagram vender".
+- **Para o social media:** "como fazer o Instagram do seu cliente vender e cobrar por isso".
 
-1. Vitrine: perfil que passa confiança.
-2. Conteúdo: o que postar no seu nicho.
-3. Gravação: como aparecer em vídeo sem vergonha.
-4. Alcance: anúncio simples que traz contato.
-5. Fechamento: o que responder no WhatsApp.
-6. Resultado: casos e números dos clientes.
-
-## Produtos digitais (escada até o master)
-
-Cada produto ensina uma parte do método para quem ainda não pode pagar o serviço. Quem compra e não tem tempo de fazer sozinho sobe para o master.
-
-| Degrau | Produto | Etapa do método | Faixa de preço |
-|---|---|---|---|
-| Isca grátis | Avaliação gratuita do perfil | Vitrine | Grátis |
-| Entrada | Banco de 50 ganchos do nicho | Conteúdo | R$ 27 a 47 |
-| Entrada | Script de Fechamento no WhatsApp | Fechamento | R$ 47 a 97 |
-| Meio | Curso Método Perfil que Vende (faça você mesmo) | As 6 etapas | R$ 297 a 497 |
-| Topo | Gestão Instagram que Vende (feito para você) | As 6 etapas | R$ 3.500/mês |
-
-As faixas de preço são ponto de partida, para validar com vendas reais.
+**Recomendação de ordem:** lançar primeiro o **Produto A** (dono de negócio). O conteúdo atual já fala com esse público e ainda traz clientes para a esteira. O **Produto B** entra depois, com casos de alunos e clientes já reunidos.
 
 ## Próximos passos
 
-1. Aprovar nome, método e público.
-2. Definir o [X] da garantia com os números dos clientes atuais.
-3. Atualizar `esteira-de-produtos.md` e a proposta com o nome do master.
-4. Criar o primeiro produto digital (sugestão: Banco de 50 ganchos, que já é bônus do master).
+1. Aprovar nomes, método e a ordem de lançamento.
+2. Juntar as provas dos clientes atuais (prints, depoimentos, números reais).
+3. Abrir uma turma piloto da mentoria (Produto A) para validar preço e garantia.
+4. Gravar o curso a partir do que funcionar na turma piloto.
