@@ -53,6 +53,50 @@ Feita em 22/10/2026 para o produto master (`produto-master.md`).
 - **Espaço livre:** o dono de negócio local que não tem tempo, tem vergonha de gravar e não sabe o que postar. A promessa é **conteúdo que traz cliente no WhatsApp, feito em pouco tempo**, não seguidores.
 - **Ideia a copiar do Molina:** entregar ferramentas de IA (prompts ou agentes) que criam roteiro e legenda pelo aluno. Isso corta o esforço.
 
+## Criadores que falam da dor (com análise da bio)
+
+Bios tiradas de páginas do Instagram indexadas pela busca (o Instagram não abre daqui). Podem estar desatualizadas.
+
+| Perfil | Seguidores | Parte da dor | O que a bio diz | Leitura |
+|---|---|---|---|---|
+| **Postar Pra Vender** (@postarpravender) | 126 mil a 284 mil | Não sei o que postar | Simplifica a criação de conteúdo para vender. Produto na bio: "Content Planner 2026". Prova: "+55k alunos & 25M em vendas". | O mais próximo da dor. Nome do perfil já é a promessa. Produto com nome e prova em números. |
+| **Jessica Dantas** (@faladantasmkt) | 99 mil | Conteúdo que vende | "14 anos vendendo online → Venda todo dia seu serviço, cursos e mentoria atraindo cliente ouro". Mentora de conteúdo e negócios digitais. | Tempo de mercado + resultado + seta para o link. Fala com quem vende serviço. |
+| **Afonso Molina** (@afonsomolina) | 2,5 a 3 mi | Não tenho tempo / não cresço | Criador do movimento "Volume Content", "pioneiro do conteúdo YAP". | Vende uma ideia com nome (movimento), não um serviço. Promessa é crescimento. |
+| **Luana Carolina** (@luanacarolina.s) | 642 mil a 2 mi | Conteúdo que vende | "Luana Carolina \| Marketing". Curso de marketing de conteúdo, canal no YouTube com cerca de 1 mi. | Palavra-chave no nome. Autoridade apoiada em outra rede (YouTube). |
+| **Guga Metzner** (@gugametzner) | 209 mil | Vergonha de gravar | Bio pessoal (fé, família, outro perfil). O "Curso Sem Vergonha" para donos de pequenos negócios não aparece na bio. | Exemplo do que evitar: a bio não diz o que ele vende nem para quem. |
+| **Rafael Santanna** (@rafaelsantannaf) | não capturado | Conteúdo + prospecção | "Social Media, conteúdo estratégico e prospecção de clientes", "+35 mil alunos". | Junta conteúdo com conseguir cliente. Prova em alunos. |
+| **Conteúdo & Narrativa** (@tri.wer) | não capturado | Conteúdo que vende | "Com o funil orgânico a sua audiência vai PEDIR para comprar de você". | Promessa invertida (o cliente pede), forte para quem odeia "empurrar" venda. |
+| **Rony Meisler** (@rony) | não capturado | Empresário que ensina | Fundou a Reserva e outras marcas "do zero a R$ 2 BI". "Hoje ensino donos a fazerem o mesmo". | Prova primeiro, ensino depois. Fala "donos", a mesma palavra do público do Lindson. |
+| **Josiane Rezende** (@josianemarketinglocal) | 17 mil | Negócio local | Selo de especialista, promessa de aparecer no Google, número de clientes atendidos. | Exemplo de especialista local com nicho no próprio @. |
+| **Fernando Vaz** (Stories que Engajam e Vendem) e **Daniel Smiderli** (Manual dos Vídeos) | não capturado | Vergonha de gravar / sem tempo | Bio não capturada. Cursos ensinam tímidos a falar com a câmera e conteúdo sem mostrar o rosto, gravado no celular. | Mostram que "vergonha de gravar" tem demanda própria. |
+
+### Padrões das bios que funcionam
+
+1. **Palavra-chave no nome** ("Postar Pra Vender", "Luana Carolina \| Marketing", "marketinglocal").
+2. **Uma promessa de resultado em uma linha**, na língua do cliente.
+3. **Prova em número:** alunos, vendas, anos ou clientes.
+4. **Produto com nome** dentro da bio (Content Planner, Volume Content).
+5. **Chamada com seta para o link.**
+6. **O que evitar:** bio pessoal que não diz o que vende (Guga Metzner).
+
+### Bio sugerida para o Lindson (até 150 caracteres, sem números inventados)
+
+Nome: `Lindson Almeida | Instagram que vende`
+
+Opção A (dor):
+> Ensino donos de negócio a criar conteúdo que traz cliente no WhatsApp
+> Não sabe o que postar? Comece aqui 👇
+
+Opção B (prova + local):
+> 14 anos fazendo Instagram vender em São Luís
+> Ensino o dono do negócio a criar conteúdo que vende
+> Aula grátis 👇
+
+Opção C (método):
+> Método Perfil que Vende
+> Conteúdo que traz cliente, mesmo sem tempo e com vergonha de gravar
+> Comece aqui 👇
+
 ## O que levar para o produto master
 
 | Aprendizado | Como aplicar no Instagram que Vende na Prática |
@@ -78,4 +122,5 @@ Feita em 22/10/2026 para o produto master (`produto-master.md`).
 - Rafael Kiso: [mLabs](https://www.mlabs.com.br/blog/tag/mitos-do-instagram/)
 - Valter Azevedo: [Box de Elite (oficial)](https://estrategistadeelite.com.br/boxsocialmediadeelite/), [Destrava Social Media (oficial)](https://estrategistadeelite.com.br/cursodestrava/)
 - Afonso Molina: [Site oficial](https://afonsomolina.com.br/), [Instagram](https://www.instagram.com/afonsomolina/), [Hotmart: Reels10k](https://hotmart.com/pt-br/marketplace/produtos/reels10k/V88133112W), [Reclame Aqui](https://www.reclameaqui.com.br/se-posicione-estrategias-digitais-ltda/mentoria-se-posicione-afonso-molina_dFXBl6GIUQ5X7zrd/)
+- Bios: [Postar Pra Vender](https://www.instagram.com/postarpravender/), [Content Planner](https://www.instagram.com/my.contentplanner/), [Jessica Dantas](https://www.instagram.com/faladantasmkt/), [Luana Carolina](https://www.instagram.com/luanacarolina.s/), [Guga Metzner](https://www.instagram.com/gugametzner/), [Curso Sem Vergonha](https://gugametzner.com.br/), [Rafael Santanna](https://www.instagram.com/rafaelsantannaf/), [Conteúdo & Narrativa](https://www.instagram.com/tri.wer/), [Rony Meisler](https://www.instagram.com/rony/), [Josiane Rezende](https://www.instagram.com/josianemarketinglocal/), [Stories que Engajam e Vendem](https://www.fernandovaz.com.br/sqe/), [Manual dos Vídeos](https://manualdosvideos.com.br/aula-instagram), [Destrave o Medo das Câmeras](https://destraveomedodascameras.com.br/)
 - Listas gerais: [Apptuts](https://www.apptuts.net/tutorial/redes-sociais/especialistas-instagram-brasil-portugal/), [HeroSpark](https://herospark.com/blog/curso-para-vender-no-instagram/), [Agendor](https://www.agendor.com.br/blog/influenciadores-de-vendas/)
