@@ -6,6 +6,8 @@ Criado com o Hormozi Squad (Hormozi Offers) em 22/10/2026. Versão 3 (rascunho p
 
 **O que é:** curso + mentoria que ensina o dono de negócio a vender no Instagram fazendo a gestão das próprias redes sociais.
 
+**Dor central:** o empresário ou empreendedor que **precisa criar conteúdo para vender**, mas não sabe o que postar, não tem tempo e tem vergonha de gravar. A promessa não é seguidor nem viralizar: é **conteúdo que traz cliente no WhatsApp, feito em pouco tempo**. (Ver `pesquisa-autoridades-instagram.md`.)
+
 **Posicionamento:** "Lindson Almeida, especialista em Instagram que vende. Faço para empresas e ensino o dono do negócio a fazer."
 
 **Para quem:** donos de negócio local que já atendem bem, mas dependem de indicação: clínicas, consultórios, corretores, imobiliárias, lojas e prestadores de serviço.
@@ -54,6 +56,7 @@ Ponto mais fraco: **confiança** (6). Antes de lançar, juntar prints de resulta
 | Banco de 50 ganchos por nicho | Velocidade | Começar a postar no primeiro dia |
 | Script de Fechamento no WhatsApp pronto | Esforço | Não escrever mensagem do zero |
 | Modelo de calendário e de roteiros | Esforço | Planejar o mês em 1 hora |
+| Assistentes de IA (roteiro, legenda e ganchos do nicho) | Esforço | O aluno preenche o negócio dele e recebe o conteúdo do mês pronto para gravar |
 | Correção ao vivo do perfil (só mentoria) | Prova | O aluno vê o próprio perfil melhorando |
 
 ## Garantia
