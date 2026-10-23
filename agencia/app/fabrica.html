@@ -792,9 +792,8 @@ function abrir(c){
   <div class="slides" id="sl"></div>
   <div class="row"><label class="f" style="min-width:160px">Cor<select id="var">${VARS.map(v=>`<option value="${v}" ${v===atual.variante?'selected':''}>${{sol:'Amarelo',azul:'Azul',noite:'Escuro',papel:'Claro'}[v]}</option>`).join('')}</select></label>
   <label class="f" style="min-width:180px">Planejar para<input type="date" id="dplan" value="${esc(atual.dataPlanejada||'')}"></label></div>
-  <div class="grid2"><div class="card" style="background:var(--bg)"><div class="row" style="justify-content:space-between"><h3>Legenda</h3><button class="btn ghost" id="refazer-leg">Refazer legenda</button></div>
-  <textarea id="leg" style="min-height:260px">${esc(atual.legenda)}</textarea>
-  <label class="f">Hashtags<input type="text" id="tags" value="${esc((atual.hashtags||[]).join(' '))}"></label>
+  <div class="grid2"><div class="card" style="background:var(--bg)"><div class="row" style="justify-content:space-between"><h3>Legenda com hashtags</h3><div class="row"><button class="btn sun" id="copiar-leg">Copiar legenda completa</button><button class="btn ghost" id="refazer-leg">Refazer legenda</button></div></div>
+  <textarea id="leg" aria-label="Legenda com hashtags" style="min-height:320px">${esc(juntarLeg(atual.legenda,atual.hashtags))}</textarea>
   <span class="muted" id="cont"></span></div>
   ${atual.roteiro?`<div class="card" style="background:var(--bg)"><h3>Roteiro para gravar</h3><textarea id="rot" style="min-height:260px">${esc(atual.roteiro)}</textarea></div>`:''}</div>
   <div id="post-msg" class="msg" hidden></div>
@@ -814,8 +813,9 @@ function abrir(c){
     if(s.layout==='item'&&!vert)ed.insertAdjacentHTML('afterbegin',`<select aria-label="Modelo da tela ${i+1}" data-k="modelo">${Object.entries(NOMES_MOD).map(([k,n])=>`<option value="${k}" ${(s.modelo||'auto')===k?'selected':''}>${n}</option>`).join('')}</select>`);
     ed.querySelectorAll('[data-k]').forEach(inp=>inp.oninput=()=>{s[inp.dataset.k]=inp.value;renderEm(cv,atual,i)});
     w.appendChild(ed);sl.appendChild(w);renderEm(cv,atual,i)});
-  const cont=()=>{$('#cont').textContent=($('#leg').value.length+1+$('#tags').value.length)+' / 2.200 caracteres'};cont();
-  $('#leg').oninput=cont;$('#tags').oninput=cont;
+  const cont=()=>{$('#cont').textContent=$('#leg').value.trim().length+' / 2.200 caracteres'};cont();
+  $('#leg').oninput=cont;
+  $('#copiar-leg').onclick=async()=>{const b=$('#copiar-leg');try{await navigator.clipboard.writeText(textoFinal());b.textContent='Copiada ✓'}catch(e){const l=$('#leg');l.focus();l.select();b.textContent='Selecionada: copie'}setTimeout(()=>{b.textContent='Copiar legenda completa'},2200)};
   $('#var').onchange=e=>{atual.variante=e.target.value;$$('#sl canvas').forEach((cv,i)=>renderEm(cv,atual,i))};
   $('#fechar').onclick=()=>d.close();
   $('#salvar').onclick=()=>salvarAtual().then(ok=>ok&&mostrar('#post-msg','Alterações salvas.','good'));
@@ -825,7 +825,10 @@ function abrir(c){
   const dm=$('#desmarcar');if(dm)dm.onclick=async()=>{atual.status='rascunho';await salvarAtual();d.close()};
   d.showModal();
 }
-function lerForm(){atual.legenda=$('#leg').value;atual.hashtags=$('#tags').value.split(/\s+/).filter(Boolean).map(h=>h.startsWith('#')?h:'#'+h);atual.dataPlanejada=$('#dplan').value;const r=$('#rot');if(r)atual.roteiro=r.value}
+// legenda e hashtags ficam num campo só; ao salvar, as linhas finais só com # viram a lista de hashtags
+function juntarLeg(leg,tags){const l=String(leg||'').trim();const t=(tags||[]).filter(h=>!l.includes(h)).join(' ');return t?l+'\n\n'+t:l}
+function separarLeg(txt){const ls=String(txt||'').replace(/\s+$/,'').split('\n');const tags=[];while(ls.length&&/^\s*(#[\p{L}\p{N}_]+\s*)+$/u.test(ls[ls.length-1])){tags.unshift(...ls.pop().trim().split(/\s+/))}return{legenda:ls.join('\n').trim(),hashtags:tags}}
+function lerForm(){const p=separarLeg($('#leg').value);atual.legenda=p.legenda;atual.hashtags=p.hashtags;atual.dataPlanejada=$('#dplan').value;const r=$('#rot');if(r)atual.roteiro=r.value}
 async function salvarAtual(){lerForm();if(atual.exemplo||!db){mostrar('#post-msg','O exemplo não é salvo.','err');return false}
   const{id,...rest}=atual;try{await db.doc('conteudos/'+id).set(rest);return true}catch(e){mostrar('#post-msg','Não consegui salvar: '+e.message,'err');return false}}
 let confirmaExcluir=false;
@@ -841,11 +844,11 @@ async function refazerLegenda(){
   const b=$('#refazer-leg');b.disabled=true;b.textContent='Escrevendo…';
   try{const ss=slidesDe(atual).map(s=>[s.titulo,s.texto,s.chip].filter(Boolean).join(' — ')).join('\n');
     const r=await sample.json(`Reescreva a legenda e as hashtags deste conteúdo de Instagram de ${cfg.nome} (${cfg.arroba}), ${cfg.cidade}. O que vende: ${cfg.oferta}\nConteúdo (${TIPOS[atual.tipo]}): ${atual.titulo}\nTelas:\n${ss}\n${regras()}\nResponda SOMENTE com JSON: {"legenda":"...","hashtags":["#a","#b","#c"]}`,{cache:false});
-    $('#leg').value=r.legenda||$('#leg').value;$('#tags').value=(r.hashtags||[]).slice(0,5).join(' ');$('#leg').dispatchEvent(new Event('input'));
+    $('#leg').value=juntarLeg(r.legenda||separarLeg($('#leg').value).legenda,(r.hashtags||[]).slice(0,5));$('#leg').dispatchEvent(new Event('input'));
   }catch(e){mostrar('#post-msg','Não consegui refazer agora. Tente de novo em instantes.','err')}
   b.disabled=false;b.textContent='Refazer legenda';
 }
-function textoFinal(){return $('#leg').value.trim()+'\n\n'+$('#tags').value.trim()}
+function textoFinal(){return $('#leg').value.trim()}
 async function postar(){
   lerForm();const txt=textoFinal();let copiou=false;
   try{await navigator.clipboard.writeText(txt);copiou=true}catch(e){const l=$('#leg');l.focus();l.select()}
