@@ -1,0 +1,598 @@
+{
+ "c21": {
+  "fala": [
+   "Parece que quem posta todo dia vende mais. Mas o que vende é post que responde a dúvida de quem está quase comprando.",
+   "Três vídeos bons por semana valem mais que sete feitos na correria.",
+   "E dá pra gravar tudo num dia só e ir soltando na semana.",
+   "Menos post, mais cliente, e sobra tempo pro seu negócio."
+  ],
+  "cta": "Manda pra quem tá se matando pra postar todo dia.",
+  "grav": "Fale para a câmera. No primeiro segundo, mostre na tela \"Postar todo dia\" e risque a frase.",
+  "titulo": "Precisa postar todo dia para vender no Instagram? Não.",
+  "corpo": "Muita gente desiste do Instagram porque acha que precisa aparecer todo dia. Isso cansa, toma o tempo do negócio e não garante cliente.\n\nPor que é mito\nO Instagram mostra mais o conteúdo que as pessoas assistem até o fim e mandam para os amigos. Um vídeo bom vale mais que sete feitos na pressa.\n\nO que funciona\nDe três a cinco vídeos bons por semana, respondendo dúvidas reais do seu cliente.\n\nExemplo\nUma loja de planejados grava num sábado: prazo, tipo de madeira, como é a medição. Três vídeos para a semana inteira.\n\nConclusão\nFrequência sem estratégia é trabalho de graça.\n\nSalve e mande para quem está cansado de postar todo dia.",
+  "tags": [
+   "#mitosdoinstagram",
+   "#frequenciadepostagem",
+   "#marketingdeconteudo",
+   "#postarmenos"
+  ],
+  "hooks": [
+   [
+    "Posso te dar um conselho? Para de tentar postar todo dia.",
+    "Postar todo dia = vender? Mentira."
+   ],
+   [
+    "Se você tem negócio e se mata pra postar todo dia, tá deixando dinheiro na mesa.",
+    "Postar todo dia = dinheiro na mesa"
+   ],
+   [
+    "Isso aqui parece dedicação, mas é trabalho de graça.",
+    "Parece dedicação. É trabalho de graça."
+   ],
+   [
+    "A melhor coisa que eu fiz pro Instagram vender foi postar menos.",
+    "Postar menos vendeu mais"
+   ],
+   [
+    "Pare de acreditar que precisa postar todo dia.",
+    "Pare de acreditar nisso"
+   ],
+   [
+    "O erro que faz você postar todo dia e não vender nada.",
+    "Posta todo dia e não vende?"
+   ],
+   [
+    "Ninguém te conta isso: quem vende no Instagram não posta todo dia.",
+    "Quem vende não posta todo dia"
+   ],
+   [
+    "Você está perdendo tempo e cliente tentando postar todo dia.",
+    "Postar todo dia te faz perder cliente"
+   ],
+   [
+    "Postar todo dia não vende nada.",
+    "Postar todo dia não vende nada"
+   ],
+   [
+    "Você posta todo dia e o WhatsApp continua parado?",
+    "Posta todo dia e o WhatsApp parado?"
+   ]
+  ]
+ },
+ "c22": {
+  "fala": [
+   "Parece que só vende quem tem muito seguidor. Mas negócio local não precisa de cem mil pessoas. Precisa das pessoas certas, perto de você.",
+   "Um perfil pequeno com conteúdo que responde dúvida vende mais que um grande cheio de gente de fora.",
+   "Foca em quem pode comprar, não em quem pode curtir."
+  ],
+  "cta": "Manda pra quem acha que tem poucos seguidores pra vender.",
+  "grav": "Fale para a câmera e mostre na tela o número de seguidores sendo riscado.",
+  "titulo": "Precisa de muitos seguidores para vender no Instagram? Não.",
+  "corpo": "Muita gente acha que não vale a pena postar porque tem poucos seguidores. Para negócio local, isso é mito.\n\nPor que é mito\nVocê não precisa de gente do Brasil inteiro. Precisa de quem mora perto e pode comprar.\n\nO que funciona\nConteúdo que responde as dúvidas do seu cliente, mostra o seu trabalho e chama para o WhatsApp. E anúncio para quem está no seu bairro.\n\nExemplo\nUm salão de beleza com poucos seguidores, mas todos da região, recebe mais agendamentos do que um perfil grande de outra cidade.\n\nConclusão\nSeguidor certo vale mais que seguidor demais.\n\nSalve e mande para quem acha que tem poucos seguidores para vender.",
+  "tags": [
+   "#poucosseguidores",
+   "#negociolocal",
+   "#publicocerto",
+   "#instagramlocal"
+  ],
+  "hooks": [
+   [
+    "Posso te dar um conselho? Para de se preocupar com o número de seguidores.",
+    "Muito seguidor = mais venda? Mentira."
+   ],
+   [
+    "Se você não posta porque tem poucos seguidores, tá deixando dinheiro na mesa.",
+    "Poucos seguidores ≠ poucas vendas"
+   ],
+   [
+    "Isso aqui parece um perfil pequeno, mas é um perfil que vende.",
+    "Parece pequeno. Vende."
+   ],
+   [
+    "A melhor coisa que eu fiz foi parar de olhar o número de seguidores.",
+    "Pare de olhar o número de seguidores"
+   ],
+   [
+    "Pare de achar que precisa de mil seguidores pra vender.",
+    "Pare de achar que precisa de mil seguidores"
+   ],
+   [
+    "O erro que faz você esperar ter muito seguidor pra começar a vender.",
+    "Esperando ter seguidor pra vender?"
+   ],
+   [
+    "Ninguém te conta isso: tem perfil com cem mil seguidores que não vende nada.",
+    "Cem mil seguidores, zero vendas"
+   ],
+   [
+    "Você está perdendo cliente perto de você enquanto corre atrás de seguidor.",
+    "Seguidor não é cliente"
+   ],
+   [
+    "Seguidor não paga boleto.",
+    "Seguidor não paga boleto"
+   ],
+   [
+    "Quantos dos seus seguidores moram perto e podem te comprar?",
+    "Quantos seguidores podem te comprar?"
+   ]
+  ]
+ },
+ "c23": {
+  "fala": [
+   "Parece que pra fazer vídeo bom precisa de câmera, luz e estúdio. Mas o celular que está na sua mão já basta.",
+   "Luz de janela de frente, celular na altura dos olhos e um lugar sem barulho.",
+   "O cliente quer ver você e o seu trabalho, não produção de cinema.",
+   "Começa hoje com o que tem. Equipamento você compra depois, se precisar."
+  ],
+  "cta": "Manda pra quem tá esperando comprar câmera pra começar.",
+  "grav": "Grave só com o celular, mostrando no começo a janela e o celular apoiado, sem nenhum equipamento.",
+  "titulo": "Precisa de equipamento caro para gravar vídeo para o Instagram? Não.",
+  "corpo": "Esperar comprar câmera, luz e microfone é um dos motivos que mais adiam o Instagram de um negócio.\n\nPor que é mito\nO celular grava com qualidade de sobra para o Instagram. O que faz o vídeo vender é a mensagem, não o equipamento.\n\nO que funciona\nLuz de janela de frente, celular na altura dos olhos, um lugar silencioso e falar do seu jeito.\n\nExemplo\nUma esteticista grava na própria sala de atendimento, com a luz da janela, e o vídeo fica claro e natural.\n\nConclusão\nO melhor equipamento é o que você já tem na mão.\n\nSalve e mande para quem está esperando comprar câmera.",
+  "tags": [
+   "#gravarcomcelular",
+   "#videonocelular",
+   "#semequipamento",
+   "#comecarhoje"
+  ],
+  "hooks": [
+   [
+    "Posso te dar um conselho? Para de esperar comprar câmera pra começar.",
+    "Precisa de câmera cara? Mentira."
+   ],
+   [
+    "Se você não grava porque não tem equipamento, tá deixando dinheiro na mesa.",
+    "Sem câmera ≠ sem vídeo"
+   ],
+   [
+    "Isso aqui parece um vídeo de estúdio, mas é só um celular e uma janela.",
+    "Parece estúdio. É celular e janela."
+   ],
+   [
+    "A melhor coisa que eu fiz pros vídeos ficarem bons foi usar a luz da janela.",
+    "Use a luz da janela"
+   ],
+   [
+    "Pare de esperar ter estúdio pra gravar.",
+    "Pare de esperar ter estúdio"
+   ],
+   [
+    "O erro que faz você adiar o Instagram por anos.",
+    "Adiando o Instagram por causa disso?"
+   ],
+   [
+    "Ninguém te conta isso: o celular que você tem já grava melhor que câmera de dez anos atrás.",
+    "Seu celular já basta"
+   ],
+   [
+    "Você está perdendo cliente esperando o equipamento perfeito.",
+    "Esperar o equipamento custa cliente"
+   ],
+   [
+    "Câmera cara não vende nada.",
+    "Câmera cara não vende"
+   ],
+   [
+    "O que está te impedindo de gravar hoje com o celular que está na sua mão?",
+    "O que te impede de gravar hoje?"
+   ]
+  ]
+ },
+ "c24": {
+  "fala": [
+   "Parece que pra crescer no Instagram tem que dançar e seguir trend. Mas dancinha traz curtida, não cliente.",
+   "Quem compra de um negócio local quer confiança: ver o seu trabalho, o seu lugar e quem já comprou.",
+   "Explicar uma dúvida vende mais que qualquer coreografia.",
+   "Você não precisa virar influenciador. Precisa virar referência no que faz."
+  ],
+  "cta": "Manda pra quem acha que precisa dançar pra vender.",
+  "grav": "Fale para a câmera com tom bem-humorado. Pode começar com um corte rápido de alguém dançando e cortar para você falando sério.",
+  "titulo": "Dancinha vende no Instagram? Para negócio local, não.",
+  "corpo": "Muito dono de negócio não posta porque acha que vai ter que dançar ou seguir trend. A boa notícia: não precisa.\n\nPor que é mito\nDancinha pode trazer visualização, mas raramente traz cliente para um negócio local. Quem compra quer confiança.\n\nO que funciona\nMostrar o seu trabalho, o seu espaço, responder dúvidas e mostrar clientes satisfeitos.\n\nExemplo\nUm advogado explica em 30 segundos o que fazer quando recebe uma notificação. Sem dança, com muita mensagem no WhatsApp.\n\nConclusão\nVocê não precisa virar influenciador. Precisa ser a referência do seu assunto.\n\nSalve e mande para quem acha que precisa dançar para vender.",
+  "tags": [
+   "#semdancinha",
+   "#conteudodevalor",
+   "#autoridadenoinstagram",
+   "#negocioserio"
+  ],
+  "hooks": [
+   [
+    "Posso te dar um conselho? Você não precisa dançar pra vender no Instagram.",
+    "Dancinha vende? Mentira."
+   ],
+   [
+    "Se você não posta porque acha que precisa dançar, tá deixando dinheiro na mesa.",
+    "Não precisa dançar pra vender"
+   ],
+   [
+    "Isso aqui parece o que viraliza, mas é o que não vende.",
+    "Parece viral. Não vende."
+   ],
+   [
+    "A melhor coisa que eu fiz pro Instagram vender foi não seguir trend nenhuma.",
+    "Esqueça a trend"
+   ],
+   [
+    "Pare de achar que precisa de dancinha pra crescer.",
+    "Pare de achar que precisa dançar"
+   ],
+   [
+    "O erro que faz você ter visualização e nenhum cliente.",
+    "Muita view, nenhum cliente?"
+   ],
+   [
+    "Ninguém te conta isso: trend traz curtida de quem nunca vai te comprar.",
+    "Trend traz quem nunca vai comprar"
+   ],
+   [
+    "Você está perdendo cliente copiando o que influenciador faz.",
+    "Você não é influenciador. Ainda bem."
+   ],
+   [
+    "Dancinha não vende consulta, nem imóvel, nem serviço.",
+    "Dancinha não vende serviço"
+   ],
+   [
+    "O seu cliente quer te ver dançando ou resolvendo o problema dele?",
+    "Dançando ou resolvendo o problema dele?"
+   ]
+  ]
+ },
+ "c25": {
+  "fala": [
+   "Parece que anúncio é dinheiro jogado fora. Mas quase sempre o problema é o jeito de anunciar.",
+   "Botão azul de impulsionar, público do Brasil inteiro e arte parada não trazem cliente.",
+   "Objetivo de mensagens, gente perto de você e o seu melhor vídeo trazem.",
+   "Anúncio não é aposta: é ferramenta, e ferramenta precisa ser usada do jeito certo."
+  ],
+  "cta": "Manda pra quem jura que anúncio não funciona.",
+  "grav": "Fale para a câmera e mostre de relance a tela do Gerenciador de Anúncios (sem dados de conta real).",
+  "titulo": "Anúncio no Instagram é dinheiro jogado fora? Depende de como você faz.",
+  "corpo": "Quem já impulsionou um post e não teve retorno costuma concluir que anúncio não funciona. Na maioria das vezes, o problema foi a configuração.\n\nPor que é mito\nO botão de impulsionar, do jeito que vem, busca curtida. E anunciar para quem mora longe não traz cliente local.\n\nO que funciona\nObjetivo de mensagens no WhatsApp, público perto do seu negócio e o seu melhor vídeo.\n\nExemplo\nUma clínica veterinária anuncia um vídeo sobre vacinação para tutores que moram no bairro, com o botão do WhatsApp.\n\nConclusão\nAnúncio não é aposta. É ferramenta, e ferramenta precisa ser usada do jeito certo.\n\nSalve e mande para quem jura que anúncio não funciona.",
+  "tags": [
+   "#anuncioquefunciona",
+   "#trafegopago",
+   "#mitosdomarketing",
+   "#anunciolocal"
+  ],
+  "hooks": [
+   [
+    "Posso te dar um conselho? Anúncio não é dinheiro jogado fora.",
+    "Anúncio não funciona? Mentira."
+   ],
+   [
+    "Se você desistiu de anúncio depois de impulsionar uma vez, tá deixando dinheiro na mesa.",
+    "Desistiu de anúncio? Dinheiro na mesa."
+   ],
+   [
+    "Isso aqui parece anúncio que não funciona, mas é anúncio mal configurado.",
+    "Não é o anúncio. É a configuração."
+   ],
+   [
+    "A melhor coisa que eu fiz com anúncio foi mudar o objetivo pra mensagens.",
+    "Mude o objetivo pra mensagens"
+   ],
+   [
+    "Pare de dizer que anúncio não funciona.",
+    "Pare de dizer que anúncio não funciona"
+   ],
+   [
+    "O erro que faz você achar que anunciar é jogar dinheiro fora.",
+    "O erro por trás do \"anúncio não funciona\""
+   ],
+   [
+    "Ninguém te conta isso: o botão de impulsionar não foi feito pra trazer cliente.",
+    "O botão não foi feito pra trazer cliente"
+   ],
+   [
+    "Você está perdendo cliente porque desistiu de anúncio cedo demais.",
+    "Desistiu cedo demais"
+   ],
+   [
+    "Anúncio não falha. Quem falha é a configuração.",
+    "Anúncio não falha"
+   ],
+   [
+    "Você impulsionou uma vez e decidiu que anúncio não funciona?",
+    "Impulsionou uma vez e desistiu?"
+   ]
+  ]
+ },
+ "c26": {
+  "fala": [
+   "Parece que o seu nicho é diferente e não funciona no Instagram. Mas o seu cliente está lá todo dia, rolando a tela.",
+   "Todo nicho tem dúvida, medo e pergunta antes de comprar.",
+   "Responde isso em vídeo, mostra o seu trabalho e quem já comprou.",
+   "Não existe nicho que não funciona. Existe conteúdo que não fala com o cliente."
+  ],
+  "cta": "Manda pra quem acha que o nicho dele não vende no Instagram.",
+  "grav": "Fale para a câmera e escreva na tela \"O meu nicho é diferente\", riscando em seguida.",
+  "titulo": "O meu nicho não funciona no Instagram? Funciona sim.",
+  "corpo": "Contador, advogado, oficina, clínica: muita gente acha que o seu negócio é sério demais ou diferente demais para o Instagram.\n\nPor que é mito\nO seu cliente usa o Instagram todo dia, e todo nicho tem dúvidas e medos antes de comprar.\n\nO que funciona\nResponder essas dúvidas em vídeo, mostrar o seu trabalho e mostrar quem já comprou.\n\nExemplo\nUm contador explica em 30 segundos o que acontece quando o MEI passa do limite. Quem tem essa dúvida chama no WhatsApp.\n\nConclusão\nNão existe nicho que não funciona. Existe conteúdo que não fala com o cliente.\n\nSalve e mande para quem acha que o nicho dele é diferente.",
+  "tags": [
+   "#todonichovende",
+   "#instagramparaprofissionais",
+   "#nicho",
+   "#conteudoparaempresas"
+  ],
+  "hooks": [
+   [
+    "Posso te dar um conselho? O seu nicho não é diferente.",
+    "\"Meu nicho é diferente\"? Mentira."
+   ],
+   [
+    "Se você acha que o seu nicho não vende no Instagram, tá deixando dinheiro na mesa.",
+    "Todo nicho vende no Instagram"
+   ],
+   [
+    "Isso aqui parece um nicho que não funciona, mas é um conteúdo que não fala com o cliente.",
+    "Não é o nicho. É o conteúdo."
+   ],
+   [
+    "A melhor coisa que eu fiz foi parar de achar que o nicho do cliente era diferente.",
+    "Todo nicho tem dúvida pra responder"
+   ],
+   [
+    "Pare de dizer que o seu nicho não funciona no Instagram.",
+    "Pare de dizer que seu nicho não funciona"
+   ],
+   [
+    "O erro que faz você achar que Instagram não é pro seu negócio.",
+    "Instagram é pro seu negócio, sim"
+   ],
+   [
+    "Ninguém te conta isso: o seu cliente está no Instagram agora mesmo.",
+    "Seu cliente está no Instagram agora"
+   ],
+   [
+    "Você está perdendo cliente pro concorrente que achou que o nicho dele funcionava.",
+    "Seu concorrente achou que funcionava"
+   ],
+   [
+    "\"O meu nicho é diferente\" é a desculpa mais cara do Instagram.",
+    "A desculpa mais cara do Instagram"
+   ],
+   [
+    "O seu cliente não usa Instagram? Tem certeza?",
+    "Seu cliente não usa Instagram?"
+   ]
+  ]
+ },
+ "c27": {
+  "fala": [
+   "Parece que cliente não compra pelo Instagram, que lá é só pra ver foto. Mas é lá que ele pesquisa antes de chamar.",
+   "Ele olha o seu perfil, vê se você é confiável e só depois manda mensagem.",
+   "O Instagram não fecha a venda: ele leva o cliente até o seu WhatsApp."
+  ],
+  "cta": "Manda pra quem acha que Instagram não vende.",
+  "grav": "Fale para a câmera e mostre na tela o caminho: perfil → mensagem → venda.",
+  "titulo": "Cliente compra pelo Instagram? Ele pesquisa lá antes de comprar.",
+  "corpo": "Muita gente acha que o Instagram é só vitrine de foto e que ninguém compra por lá.\n\nPor que é mito\nAntes de chamar um negócio, o cliente olha o perfil. Ele confere se é confiável, se tem clientes e se é o que procura.\n\nO que funciona\nUm perfil que responde as dúvidas, mostra o trabalho e leva para o WhatsApp, onde a venda é fechada.\n\nExemplo\nAntes de marcar, a paciente procura a clínica no Instagram, assiste dois vídeos do médico e chama para agendar.\n\nConclusão\nO Instagram não substitui a sua venda. Ele faz o cliente chegar pronto até ela.\n\nSalve e mande para quem acha que Instagram não vende.",
+  "tags": [
+   "#instagramvende",
+   "#jornadadocliente",
+   "#vendasonline",
+   "#instagramparaempresas"
+  ],
+  "hooks": [
+   [
+    "Posso te dar um conselho? O seu cliente pesquisa você no Instagram antes de chamar.",
+    "Instagram não vende? Mentira."
+   ],
+   [
+    "Se você acha que Instagram não vende, tá deixando dinheiro na mesa.",
+    "Instagram vende, sim"
+   ],
+   [
+    "Isso aqui parece só uma vitrine de foto, mas é onde o cliente decide te chamar.",
+    "Parece vitrine. É onde ele decide."
+   ],
+   [
+    "A melhor coisa que eu fiz foi entender que o Instagram leva o cliente pro WhatsApp.",
+    "Instagram leva pro WhatsApp"
+   ],
+   [
+    "Pare de achar que Instagram é só pra postar foto.",
+    "Pare de achar que é só foto"
+   ],
+   [
+    "O erro que faz o cliente olhar o seu perfil e chamar o concorrente.",
+    "Ele olhou seu perfil e chamou o outro"
+   ],
+   [
+    "Ninguém te conta isso: o cliente te pesquisa antes de mandar mensagem.",
+    "Ele te pesquisa antes de chamar"
+   ],
+   [
+    "Você está perdendo cliente que olhou o seu perfil e não confiou.",
+    "Olhou seu perfil e não confiou"
+   ],
+   [
+    "Quem diz que Instagram não vende nunca usou ele pra vender.",
+    "Instagram não vende? Para quem?"
+   ],
+   [
+    "Se o seu cliente procurar você no Instagram hoje, o que ele vai encontrar?",
+    "O que ele encontra no seu perfil?"
+   ]
+  ]
+ },
+ "c28": {
+  "fala": [
+   "Parece que é só colocar trinta hashtags que o cliente aparece. Mas hashtag hoje ajuda pouco a ser encontrado.",
+   "O que faz o Instagram mostrar o seu vídeo é gente assistindo até o fim e mandando pra alguém.",
+   "Usa poucas hashtags, do tema, do nicho e da cidade, e capricha na legenda."
+  ],
+  "cta": "Manda pra quem ainda cola trinta hashtags no post.",
+  "grav": "Mostre na tela uma legenda cheia de hashtags sendo apagada e trocada por três ou quatro.",
+  "titulo": "Hashtag traz cliente no Instagram? Menos do que você imagina.",
+  "corpo": "Durante muito tempo, encher o post de hashtags foi a dica número um. Hoje, ela ajuda pouco.\n\nPor que é mito\nO Instagram mostra o seu vídeo para mais gente quando as pessoas assistem até o fim e mandam para os amigos. Hashtag não substitui conteúdo bom.\n\nO que funciona\nPoucas hashtags variadas (tema, nicho e cidade) e uma legenda com título e palavras que o cliente procuraria.\n\nExemplo\nUma pizzaria troca trinta hashtags genéricas por quatro: o tipo de pizza, delivery, o bairro e a cidade.\n\nConclusão\nHashtag é tempero, não prato principal.\n\nSalve e mande para quem ainda cola trinta hashtags.",
+  "tags": [
+   "#hashtags",
+   "#legendaseo",
+   "#mitosdoinstagram",
+   "#alcanceorganico"
+  ],
+  "hooks": [
+   [
+    "Posso te dar um conselho? Para de colar trinta hashtags no post.",
+    "Hashtag traz cliente? Mentira."
+   ],
+   [
+    "Se você confia nas hashtags pra ser encontrado, tá deixando dinheiro na mesa.",
+    "Confiar em hashtag = dinheiro na mesa"
+   ],
+   [
+    "Isso aqui parece estratégia, mas é poluição na legenda.",
+    "Parece estratégia. É poluição."
+   ],
+   [
+    "A melhor coisa que eu fiz pela legenda foi apagar as hashtags.",
+    "Apague as hashtags"
+   ],
+   [
+    "Pare de copiar o mesmo bloco de hashtags em todo post.",
+    "Pare de copiar o mesmo bloco"
+   ],
+   [
+    "O erro que faz você usar hashtag e ninguém te achar.",
+    "Usa hashtag e ninguém te acha?"
+   ],
+   [
+    "Ninguém te conta isso: hashtag quase não ajuda mais a ser encontrado.",
+    "Hashtag quase não ajuda mais"
+   ],
+   [
+    "Você está perdendo tempo com hashtag em vez de melhorar o vídeo.",
+    "Melhore o vídeo, não a hashtag"
+   ],
+   [
+    "Trinta hashtags não salvam um vídeo ruim.",
+    "Hashtag não salva vídeo ruim"
+   ],
+   [
+    "Quantos clientes já te acharam por uma hashtag?",
+    "Quantos clientes te acharam por hashtag?"
+   ]
+  ]
+ },
+ "c29": {
+  "fala": [
+   "Parece que serviço complicado precisa de vídeo longo pra explicar. Mas ninguém assiste dez minutos de quem não conhece.",
+   "Quebra em vídeos de 30 segundos, cada um respondendo uma única dúvida.",
+   "Quem se interessar assiste o próximo e te chama pra saber o resto.",
+   "Explicar bem é explicar uma coisa de cada vez."
+  ],
+  "cta": "Manda pra quem faz vídeo de cinco minutos e ninguém assiste.",
+  "grav": "Mostre na tela um vídeo longo sendo cortado em vários pedaços curtos enquanto você fala.",
+  "titulo": "Vídeo longo explica melhor? Para o Instagram, não.",
+  "corpo": "Quem tem um serviço técnico costuma achar que precisa de vídeo longo para explicar tudo. No Instagram, isso afasta quem ainda não te conhece.\n\nPor que é mito\nAs pessoas decidem nos primeiros segundos se vão continuar. Vídeo longo de alguém desconhecido raramente é assistido até o fim.\n\nO que funciona\nVários vídeos de 30 segundos, cada um respondendo uma única dúvida.\n\nExemplo\nUma empresa de energia solar faz um vídeo sobre quanto tempo dura a instalação, outro sobre a conta de luz e outro sobre manutenção.\n\nConclusão\nExplicar bem é explicar uma coisa de cada vez.\n\nSalve e mande para quem faz vídeo longo que ninguém assiste.",
+  "tags": [
+   "#videoscurtos",
+   "#reelsde30segundos",
+   "#comunicacaosimples",
+   "#servicostecnicos"
+  ],
+  "hooks": [
+   [
+    "Posso te dar um conselho? Para de fazer vídeo de cinco minutos pra explicar o seu serviço.",
+    "Vídeo longo explica melhor? Mentira."
+   ],
+   [
+    "Se você explica o seu serviço em vídeo longo, tá deixando dinheiro na mesa.",
+    "Vídeo longo = dinheiro na mesa"
+   ],
+   [
+    "Isso aqui parece um vídeo completo, mas é um vídeo que ninguém termina.",
+    "Parece completo. Ninguém termina."
+   ],
+   [
+    "A melhor coisa que eu fiz pra explicar serviço difícil foi dividir em vídeos curtos.",
+    "Divida em vídeos curtos"
+   ],
+   [
+    "Pare de querer explicar tudo num vídeo só.",
+    "Pare de explicar tudo num vídeo só"
+   ],
+   [
+    "O erro que faz ninguém assistir os seus vídeos até o fim.",
+    "Ninguém assiste até o fim?"
+   ],
+   [
+    "Ninguém te conta isso: ninguém assiste vídeo longo de quem ainda não conhece.",
+    "Vídeo longo de desconhecido? Ninguém vê."
+   ],
+   [
+    "Você está perdendo cliente tentando explicar tudo de uma vez.",
+    "Explicar tudo de uma vez afasta"
+   ],
+   [
+    "Vídeo longo não prova que você entende. Prova que você não resume.",
+    "Vídeo longo não prova nada"
+   ],
+   [
+    "Você assistiria cinco minutos de alguém que nunca viu?",
+    "Você assistiria 5 minutos de um desconhecido?"
+   ]
+  ]
+ },
+ "c30": {
+  "fala": [
+   "Parece que é só pagar alguém pra postar que o Instagram começa a vender. Mas postar não é o mesmo que vender.",
+   "Se ninguém pensa no que o cliente pergunta, em como ele chega ao WhatsApp e no que você responde, o post vira só enfeite.",
+   "Pergunta pra quem cuida do seu perfil: quantos clientes isso trouxe esse mês?"
+  ],
+  "cta": "Manda pra quem paga alguém pra postar e não vê resultado.",
+  "grav": "Fale para a câmera, em tom de conversa franca, sem criticar nenhum profissional específico.",
+  "titulo": "Ter alguém postando no Instagram já resolve? Não é bem assim.",
+  "corpo": "Muitos donos de negócio já pagaram agência, freelancer ou o sobrinho para postar, e não viram cliente nenhum chegar.\n\nPor que é mito\nPostar é só uma parte. Sem pensar no que o cliente pergunta, em como ele chega ao WhatsApp e no atendimento, o post vira enfeite.\n\nO que funciona\nConteúdo que responde dúvidas, chamada clara para o WhatsApp, atendimento rápido e medir quantos clientes chegaram.\n\nExemplo\nUma loja que só recebia artes bonitas passa a gravar vídeos respondendo perguntas e a anotar de onde vem cada cliente.\n\nConclusão\nQuem cuida do seu Instagram precisa saber responder: quantos clientes isso trouxe?\n\nSalve e mande para quem paga para postar e não vê resultado.",
+  "tags": [
+   "#gestaoderedessociais",
+   "#resultadonoinstagram",
+   "#socialmedia",
+   "#marketingquevende"
+  ],
+  "hooks": [
+   [
+    "Posso te dar um conselho? Ter alguém postando não é o mesmo que vender.",
+    "Ter alguém postando resolve? Mentira."
+   ],
+   [
+    "Se você paga alguém pra postar e não mede os clientes, tá deixando dinheiro na mesa.",
+    "Postar sem medir = dinheiro na mesa"
+   ],
+   [
+    "Isso aqui parece Instagram profissional, mas é Instagram que não vende.",
+    "Parece profissional. Não vende."
+   ],
+   [
+    "A melhor coisa que eu fiz foi parar de entregar post e começar a medir cliente.",
+    "Meça cliente, não post"
+   ],
+   [
+    "Pare de pagar só por post bonito.",
+    "Pare de pagar só por post"
+   ],
+   [
+    "O erro que faz você pagar pra postar e não ver nenhum cliente.",
+    "Paga pra postar e nada de cliente?"
+   ],
+   [
+    "Ninguém te conta isso: post feito não é cliente chegando.",
+    "Post feito ≠ cliente chegando"
+   ],
+   [
+    "Você está perdendo dinheiro pagando alguém só pra postar.",
+    "Pagar só pra postar é perder dinheiro"
+   ],
+   [
+    "Postar não é vender.",
+    "Postar não é vender"
+   ],
+   [
+    "Quantos clientes o seu Instagram trouxe esse mês?",
+    "Quantos clientes ele trouxe esse mês?"
+   ]
+  ]
+ }
+}
