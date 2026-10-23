@@ -12,9 +12,7 @@ Na Fábrica de Conteúdo: tipo "Post de oferta".
 - Botão de chamada em pílula no acento + assinatura fixa no rodapé: LINDSON ALMEIDA · @LINDSONALMEIDA_.
 - Sem preço no feed ("pacote acessível"). Sem inventar prazo, vagas ou desconto.
 
-## 5 composições (rodam em sequência)
-1. Foto herói — foto ocupa a direita, manchete e ✓ à esquerda.
-2. Fitas de urgência — foto de fundo inteira, duas fitas cruzadas com o selo.
-3. Vitrine com selo — foto em moldura inclinada com selo estrelado.
-4. O que você leva — foto em faixa à esquerda, entregas numeradas 01-02-03.
-5. Manchete + foto — manchete gigante em cima, foto larga com faixa no acento.
+## 12 composições (rodam em sequência, nunca duas iguais seguidas)
+1. Foto herói · 2. Centro com retrato · 3. Fita de urgência · 4. O que você leva · 5. Capa de revista · 6. Ingresso
+7. Meio a meio · 8. Faixa de destaque · 9. Vitrine · 10. Palavra gigante · 11. Manchete + foto · 12. Checklist com assinatura
+Regra de limpeza: um acento por post, muito respiro, no máximo 2 itens com ✓ quando há foto grande, botão em pílula com seta, assinatura fixa.
