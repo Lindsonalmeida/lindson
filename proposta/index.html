@@ -184,6 +184,10 @@
     .sheet { width: 210mm; height: 297mm; min-height: 0; border: 0; border-radius: 0; break-after: page; }
     .sheet:last-child { break-after: auto; }
     .cta a { border: 1px solid var(--ink); }
+    .tbl { flex-shrink: 0; overflow: visible; }
+    .tbl th, .tbl td { padding-top: 7px; padding-bottom: 7px; }
+    .comp h2 { font-size: 34px; }
+    .comp .bonus { gap: 10px; }
   }
   @media (prefers-reduced-motion: no-preference) {
     .rec span:first-child::before { animation: blink 1.4s steps(2, start) infinite; }
@@ -294,16 +298,16 @@
       <article class="plan top">
         <div class="tag"><em class="badge">Recomendado</em> O plano completo</div>
         <h3>Instagram que Vende</h3>
-        <p class="for-who">O dobro de conteúdo, mini site e tudo pronto para fechar no WhatsApp.</p>
+        <p class="for-who">Conteúdo sem limite, mini site e tudo pronto para fechar no WhatsApp.</p>
         <div class="price"><b>R$ 3.500</b><small>por mês + verba</small></div>
-        <ul><li>8 vídeos por mês</li><li>8 posts ou carrosséis</li><li>Roteiros de Stories</li><li>Gestão de tráfego</li><li>Painel de Clientes</li><li class="x">Mini site incluso</li><li class="x">Script de Fechamento</li></ul>
+        <ul><li>Conteúdo sem limite</li><li>Toda a criação necessária para alcançar o objetivo</li><li>Roteiros de Stories</li><li>Gestão de tráfego</li><li>Painel de Clientes</li><li class="x">Mini site incluso</li><li class="x">Script de Fechamento</li></ul>
       </article>
     </div>
     <div class="foot"><span>Lindson Almeida</span><span>04 / 06</span></div>
   </section>
 
   <!-- 5. COMPARATIVO -->
-  <section class="sheet" aria-label="Comparativo">
+  <section class="sheet tight comp" aria-label="Comparativo">
     <div class="visor" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
     <span class="eyebrow">Lado a lado</span>
     <h2>Nos combos, quanto mais completo, <span class="sig">mais barato</span> fica cada publicação.</h2>
@@ -311,8 +315,8 @@
       <table>
         <thead><tr><th></th><th>Vídeo</th><th>Tráfego</th><th>Alcance</th><th>Presença</th><th class="t">Instagram que Vende</th></tr></thead>
         <tbody>
-          <tr><td>Vídeos por mês</td><td class="num">4</td><td><span class="n">—</span></td><td class="num">4</td><td class="num">4</td><td class="t num">8</td></tr>
-          <tr><td>Posts ou carrosséis</td><td><span class="n">—</span></td><td><span class="n">—</span></td><td><span class="n">—</span></td><td class="num">4</td><td class="t num">8</td></tr>
+          <tr><td>Vídeos por mês</td><td class="num">4</td><td><span class="n">—</span></td><td class="num">4</td><td class="num">4</td><td class="t">Sem limite</td></tr>
+          <tr><td>Posts ou carrosséis</td><td><span class="n">—</span></td><td><span class="n">—</span></td><td><span class="n">—</span></td><td class="num">4</td><td class="t">Sem limite</td></tr>
           <tr><td>Publicação no seu perfil</td><td><span class="n">—</span></td><td><span class="n">—</span></td><td><span class="n">—</span></td><td><span class="y">✓</span></td><td class="t"><span class="y">✓</span></td></tr>
           <tr><td>Roteiros de Stories</td><td><span class="n">—</span></td><td><span class="n">—</span></td><td><span class="n">—</span></td><td><span class="n">—</span></td><td class="t"><span class="y">✓</span></td></tr>
           <tr><td>Gestão de tráfego</td><td><span class="n">—</span></td><td><span class="y">✓</span></td><td><span class="y">✓</span></td><td><span class="y">✓</span></td><td class="t"><span class="y">✓</span></td></tr>
@@ -320,7 +324,7 @@
           <tr><td>Script de Fechamento</td><td><span class="n">—</span></td><td><span class="n">—</span></td><td><span class="n">—</span></td><td><span class="n">—</span></td><td class="t"><span class="y">✓</span></td></tr>
           <tr><td>Diárias de gravação</td><td class="num">1</td><td><span class="n">—</span></td><td class="num">1</td><td class="num">1</td><td class="t num">2</td></tr>
           <tr class="big"><td>Por mês</td><td>R$ 600</td><td>R$ 800</td><td>R$ 1.200</td><td>R$ 2.200</td><td class="t">R$ 3.500</td></tr>
-          <tr><td>Custo por publicação*</td><td><span class="n">—</span></td><td><span class="n">—</span></td><td class="num">R$ 300</td><td class="num">R$ 275</td><td class="t num">R$ 219</td></tr>
+          <tr><td>Custo por publicação*</td><td><span class="n">—</span></td><td><span class="n">—</span></td><td class="num">R$ 300</td><td class="num">R$ 275</td><td class="t">Menor de todos</td></tr>
         </tbody>
       </table>
     </div>
