@@ -52,8 +52,8 @@
   .phase p b { color: var(--fg); }
 
   /* Abas */
-  .tabs { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; display: grid; grid-template-columns: repeat(6, auto); justify-content: space-between; gap: 2px; padding: 5px; border-radius: 16px; background: rgba(14,20,38,.92); border: 1px solid var(--line); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
-  .tabs button { border: 0; background: transparent; padding: 11px 4px; border-radius: 11px; font: 700 12px/1 var(--f-body); letter-spacing: -0.01em; color: var(--muted); cursor: pointer; }
+  .tabs { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; display: grid; grid-template-columns: repeat(7, auto); justify-content: space-between; gap: 2px; padding: 5px; border-radius: 16px; background: rgba(14,20,38,.92); border: 1px solid var(--line); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
+  .tabs button { white-space: nowrap; border: 0; background: transparent; padding: 11px 4px; border-radius: 11px; font: 700 12px/1 var(--f-body); letter-spacing: -0.01em; color: var(--muted); cursor: pointer; }
   @media (max-width: 370px) { .tabs button { padding: 11px 3px; font-size: 11px; } }
   .tabs button[aria-selected="true"] { background: var(--fg); color: var(--ink); }
   .tabs button span { display: inline-block; min-width: 18px; margin-left: 4px; padding: 2px 5px; border-radius: 99px; background: var(--sun); color: var(--sun-ink); font: 700 10px/1.2 var(--f-mono); }
@@ -389,6 +389,7 @@
     <button role="tab" id="tab-hoje" aria-selected="true" aria-controls="p-hoje">Hoje</button>
     <button role="tab" id="tab-conteudo" aria-selected="false" aria-controls="p-conteudo">Conteúdo</button>
     <button role="tab" id="tab-funil" aria-selected="false" aria-controls="p-funil">Funil</button>
+    <button role="tab" id="tab-zedoca" aria-selected="false" aria-controls="p-zedoca">Zé Doca</button>
     <button role="tab" id="tab-caixa" aria-selected="false" aria-controls="p-caixa">Caixa</button>
     <button role="tab" id="tab-jornada" aria-selected="false" aria-controls="p-jornada">Jornada</button>
     <button role="tab" id="tab-aprender" aria-selected="false" aria-controls="p-aprender">Aprender</button>
@@ -528,6 +529,20 @@
     <button type="button" class="fu-more" id="fu-lost-t" hidden></button>
     <p class="hint"><b>Pontos:</b> contato novo +2 · respondeu +5 · reunião +15 · proposta +20 · fechou +50. Quando fechar, o app lança o valor no Caixa.</p>
     </div>
+  </section>
+
+  <!-- ZÉ DOCA: captação de todos os negócios da cidade (a lista vai crescendo e acumula) -->
+  <section id="p-zedoca" role="tabpanel" aria-labelledby="tab-zedoca" hidden class="fu">
+    <div class="pq-top">
+      <small>Captação · Zé Doca - MA</small>
+      <b id="zd-prog">Carregando os negócios…</b>
+      <div class="bar"><i id="zd-fill" style="width:0%"></i></div>
+      <p>Todo tipo de negócio da cidade, com WhatsApp e mensagem pronta. A lista vai crescendo: novos negócios entram aqui conforme forem encontrados. Confira o nome antes de mandar.</p>
+    </div>
+    <div class="fu-search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="zd-q" type="search" placeholder="Buscar por nome, tipo ou bairro" aria-label="Buscar negócio em Zé Doca"></div>
+    <div class="chips" id="zd-chips" role="group" aria-label="Filtrar por tipo de negócio"></div>
+    <div class="chips" id="zd-opts" role="group" aria-label="Opções"></div>
+    <div class="fu-list" id="zd-list"></div>
   </section>
 
   <!-- CAIXA -->
@@ -713,7 +728,7 @@
     var y0 = new Date(Date.UTC(t.getUTCFullYear(), 0, 1));
     return t.getUTCFullYear() + "-W" + String(Math.ceil(((t - y0) / 864e5 + 1) / 7)).padStart(2, "0");
   }
-  function blank() { return { v: 1, start: today(), days: {}, weeks: {}, once: {}, learned: {}, card: 0, money: [], fph: "sobre", mix: {}, leads: [], pq: { d: "", s: {} }, ct: {} }; }
+  function blank() { return { v: 1, start: today(), days: {}, weeks: {}, once: {}, learned: {}, card: 0, money: [], fph: "sobre", mix: {}, leads: [], pq: { d: "", s: {} }, ct: {}, zd: {} }; }
   var S = blank();
   var LOCAL = "recomeco90-v1";
   function loadLocal() { try { var r = localStorage.getItem(LOCAL); if (r) return JSON.parse(r); } catch (e) {} return null; }
@@ -729,6 +744,7 @@
     if (Array.isArray(o.leads)) b.leads = o.leads.filter(function (l) { return l && typeof l.id === "string" && typeof l.n === "string" && typeof l.st === "number"; }).map(function (l) { if (!l.h || typeof l.h !== "object") l.h = {}; if (typeof l.mx !== "number") l.mx = l.st; return l; });
     if (o.pq && typeof o.pq.d === "string" && o.pq.s && typeof o.pq.s === "object") b.pq = { d: o.pq.d, s: o.pq.s };
     if (o.ct && typeof o.ct === "object") b.ct = o.ct;
+    if (o.zd && typeof o.zd === "object") b.zd = o.zd;
     if (o.mix && typeof o.mix === "object") PLANS.forEach(function (p) { var n = parseInt(o.mix[p.id], 10); if (n > 0) b.mix[p.id] = Math.min(30, n); });
     return b;
   }
@@ -1331,6 +1347,68 @@
     if (!list.length) { var em = document.createElement("div"); em.className = "empty"; em.textContent = all.length ? "Nada pendente aqui. Boa!" : "Sem leads por enquanto."; box.appendChild(em); }
     list.slice(0, 120).forEach(function (p) { box.appendChild(pqCard(p)); });
   }
+
+  // ── Zé Doca: todos os negócios da cidade com WhatsApp; os lotes acumulam em zedoca/lotes ──
+  var zdCol = null, ZD = null, zdCat = null, zdShowDone = false;
+  function loadZd() {
+    if (!zdCol) return;
+    zdCol.get().then(function (qs) {
+      var leads = [], seen = {};
+      qs.docs.forEach(function (doc) { var b = doc.data() || {}; (b.leads || []).forEach(function (p) { if (p && p.id && !seen[p.id]) { seen[p.id] = 1; leads.push(p); } }); });
+      ZD = { leads: leads }; renderZd();
+    }).catch(function () { ZD = { leads: [], err: true }; renderZd(); });
+  }
+  function zdToFunnel(p, e) {
+    var t = today();
+    S.leads.push({ id: "zd" + Date.now().toString(36) + Math.random().toString(36).slice(2, 5), n: String(p.n || p.ig || "Sem nome").slice(0, 50), b: [p.cat || "", "Zé Doca"].filter(Boolean).join(" · ").slice(0, 50), w: String(p.wa || "").slice(0, 20), ig: p.ig || "", em: "", p: "", id2: [], m1: p.msg || "", pid: p.id, ni: "", cv: "", st: 0, mx: 0, h: { 0: t }, lc: t, cd: t, nx: "Fazer follow-up", nd: addDays(t, 2) });
+    S.zd[p.id] = "f"; renderZd(); fuSave(e, 2);
+  }
+  function zdCard(p) {
+    var st = S.zd[p.id], c = document.createElement("div");
+    c.className = "pq-card" + (st ? " worked" : (p.nota >= 4 ? " hot" : ""));
+    c.innerHTML = '<div class="pq-h"><div><b></b><span></span></div><span class="pq-stars"></span></div>';
+    c.querySelector(".pq-h b").textContent = p.n || p.ig || "Sem nome";
+    c.querySelector(".pq-h span").textContent = [p.cat, p.bai || p.end].filter(Boolean).join(" · ");
+    c.querySelector(".pq-stars").textContent = p.nota ? "★★★★★".slice(0, Math.max(1, Math.min(5, p.nota))) : "";
+    function add(tag, cls, text, label) { if (!text) return; var e = document.createElement(tag); e.className = cls; if (label) { var b = document.createElement("b"); b.textContent = label; e.appendChild(b); } e.appendChild(document.createTextNode(text)); c.appendChild(e); }
+    add("p", "pq-an", p.an, "Oportunidade");
+    var ct = document.createElement("div"); ct.className = "pq-ct";
+    if (p.ig) { var a = document.createElement("a"); a.href = "https://instagram.com/" + p.ig; a.target = "_blank"; a.rel = "noopener"; a.textContent = "@" + p.ig; ct.appendChild(a); }
+    if (p.wa) { var sp = document.createElement("span"); sp.textContent = "WhatsApp " + p.wa; ct.appendChild(sp); }
+    if (ct.children.length) c.appendChild(ct);
+    add("p", "pq-msg", p.msg);
+    var acts = document.createElement("div"); acts.className = "fu-acts"; c.appendChild(acts);
+    function btn(cls, txt, fn) { var b = document.createElement("button"); b.type = "button"; if (cls) b.className = cls; b.textContent = txt; b.addEventListener("click", function (e) { fn(e, b); }); acts.appendChild(b); return b; }
+    var wl = waLink(p.wa, p.msg);
+    if (wl) { var l = document.createElement("a"); l.href = wl; l.target = "_blank"; l.rel = "noopener"; l.className = "pay"; l.textContent = "Abrir WhatsApp"; acts.appendChild(l); }
+    if (p.msg) btn("", "Copiar mensagem", function (e, b) { copyText(p.msg, b); });
+    if (st) btn("", st === "f" ? "No funil ✓ · desfazer" : "Descartado · desfazer", function () { delete S.zd[p.id]; renderZd(); persist(); });
+    else { btn("adv", "Mandei → Funil", function (e) { zdToFunnel(p, e); }); btn("warn", "Descartar", function () { S.zd[p.id] = "x"; renderZd(); persist(); }); }
+    return c;
+  }
+  function renderZd() {
+    var box = $("zd-list"); if (!box) return; box.innerHTML = ""; if (!S.zd) S.zd = {};
+    if (!ZD) { $("zd-prog").textContent = zdCol ? "Carregando os negócios…" : "A lista de Zé Doca aparece aqui quando você abre o app na sua conta."; return; }
+    var all = ZD.leads, worked = all.filter(function (p) { return S.zd[p.id]; }).length, sent = all.filter(function (p) { return S.zd[p.id] === "f"; }).length;
+    $("zd-prog").textContent = all.length ? (all.length - worked) + " para captar · " + sent + " no funil · " + all.length + " negócios" : (ZD.err ? "Não consegui carregar a lista agora." : "Os negócios de Zé Doca estão sendo buscados. Eles aparecem aqui assim que chegarem.");
+    $("zd-fill").style.width = (all.length ? worked / all.length * 100 : 0) + "%";
+    var cats = {}; all.forEach(function (p) { var k = p.cat || "Outros"; cats[k] = (cats[k] || 0) + (S.zd[p.id] ? 0 : 1); });
+    var chips = $("zd-chips"); chips.innerHTML = "";
+    [[null, "Todos", all.length - worked]].concat(Object.keys(cats).sort(function (a, b) { return cats[b] - cats[a] || a.localeCompare(b); }).map(function (k) { return [k, k, cats[k]]; })).forEach(function (it) {
+      var b = document.createElement("button"); b.type = "button"; b.setAttribute("aria-pressed", zdCat === it[0] ? "true" : "false");
+      b.textContent = it[1]; var sm = document.createElement("small"); sm.textContent = it[2]; b.appendChild(sm);
+      b.addEventListener("click", function () { zdCat = it[0]; renderZd(); }); chips.appendChild(b);
+    });
+    var opts = $("zd-opts"); opts.innerHTML = "";
+    var ob = document.createElement("button"); ob.type = "button"; ob.textContent = "Mostrar trabalhados"; ob.setAttribute("aria-pressed", zdShowDone ? "true" : "false");
+    ob.addEventListener("click", function () { zdShowDone = !zdShowDone; renderZd(); }); opts.appendChild(ob);
+    var q = fuNorm($("zd-q").value.trim());
+    var list = all.filter(function (p) { return (!zdCat || (p.cat || "Outros") === zdCat) && (zdShowDone || !S.zd[p.id]) && (!q || fuNorm([p.n, p.cat, p.bai, p.end, p.ig].join(" ")).indexOf(q) >= 0); })
+      .sort(function (a, b) { return (b.nota || 0) - (a.nota || 0); });
+    if (!list.length) { var em = document.createElement("div"); em.className = "empty"; em.textContent = all.length ? "Nada pendente aqui." : "Sem negócios por enquanto."; box.appendChild(em); }
+    list.slice(0, 150).forEach(function (p) { box.appendChild(zdCard(p)); });
+  }
+  $("zd-q").addEventListener("input", function () { renderZd(); });
   function showSeg(k) {
     pqSeg = k; $("seg-pq").setAttribute("aria-pressed", k === "pq" ? "true" : "false"); $("seg-fu").setAttribute("aria-pressed", k === "fu" ? "true" : "false");
     $("pq-box").hidden = k !== "pq"; $("fu-box").hidden = k !== "fu";
@@ -1505,7 +1583,7 @@
   }
 
   var lastLevel = 0;
-  function renderAll() { renderLists(); var li = renderScore(); renderCard(); renderFin(); renderPlans(); renderFunil(); renderProspec(); renderConteudo(); return li; }
+  function renderAll() { renderLists(); var li = renderScore(); renderCard(); renderFin(); renderPlans(); renderFunil(); renderProspec(); renderConteudo(); renderZd(); return li; }
 
   function pop(e, text) {
     var p = document.createElement("div"); p.className = "pop"; p.textContent = text;
@@ -1615,7 +1693,7 @@
     fuSave(r ? { clientX: r.left + r.width / 2, clientY: r.top } : null, g);
     toast("🎯", l.n + " no funil", "Etapa: " + STG[st] + ".");
   });
-  var TABS = ["hoje", "conteudo", "funil", "caixa", "jornada", "aprender"];
+  var TABS = ["hoje", "conteudo", "funil", "zedoca", "caixa", "jornada", "aprender"];
   function showTab(name) {
     TABS.forEach(function (t) {
       $("tab-" + t).setAttribute("aria-selected", t === name ? "true" : "false");
@@ -1653,6 +1731,7 @@
         var base = "data/users/" + uid;
         var fuCol = db.collection(base + "/funil/dias");
         pqCol = db.collection(base + "/prospec/dias");
+        zdCol = db.collection(base + "/zedoca/lotes"); loadZd();
         loadProspec();
         ctCol = db.collection(base + "/conteudo/lotes"); ctPlanCol = db.collection(base + "/conteudo/planos");
         loadConteudo();
