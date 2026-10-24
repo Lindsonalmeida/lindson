@@ -1352,11 +1352,13 @@
   var zdCol = null, ZD = null, zdCat = null, zdShowDone = false;
   function loadZd() {
     if (!zdCol) return;
-    zdCol.get().then(function (qs) {
+    var put = function (qs) {
       var leads = [], seen = {};
       qs.docs.forEach(function (doc) { var b = doc.data() || {}; (b.leads || []).forEach(function (p) { if (p && p.id && !seen[p.id]) { seen[p.id] = 1; leads.push(p); } }); });
       ZD = { leads: leads }; renderZd();
-    }).catch(function () { ZD = { leads: [], err: true }; renderZd(); });
+    }, fail = function () { ZD = { leads: [], err: true }; renderZd(); };
+    // ao vivo: lotes novos aparecem sem recarregar o app
+    if (zdCol.onSnapshot) zdCol.onSnapshot(put, fail); else zdCol.get().then(put).catch(fail);
   }
   function zdToFunnel(p, e) {
     var t = today();
@@ -1369,6 +1371,7 @@
     c.innerHTML = '<div class="pq-h"><div><b></b><span></span></div><span class="pq-stars"></span></div>';
     c.querySelector(".pq-h b").textContent = p.n || p.ig || "Sem nome";
     c.querySelector(".pq-h span").textContent = [p.cat, p.bai || p.end].filter(Boolean).join(" · ");
+    if (p.conf === false) { var cf = document.createElement("p"); cf.className = "pq-an"; cf.style.borderColor = "rgba(255,59,48,.45)"; cf.textContent = p.wa ? "Confirmar WhatsApp: o número apareceu sem a palavra WhatsApp. Teste antes de contar como lead." : "Sem número público: chame pelo direct do Instagram."; c.appendChild(cf); }
     c.querySelector(".pq-stars").textContent = p.nota ? "★★★★★".slice(0, Math.max(1, Math.min(5, p.nota))) : "";
     function add(tag, cls, text, label) { if (!text) return; var e = document.createElement(tag); e.className = cls; if (label) { var b = document.createElement("b"); b.textContent = label; e.appendChild(b); } e.appendChild(document.createTextNode(text)); c.appendChild(e); }
     add("p", "pq-an", p.an, "Oportunidade");
@@ -1380,7 +1383,8 @@
     var acts = document.createElement("div"); acts.className = "fu-acts"; c.appendChild(acts);
     function btn(cls, txt, fn) { var b = document.createElement("button"); b.type = "button"; if (cls) b.className = cls; b.textContent = txt; b.addEventListener("click", function (e) { fn(e, b); }); acts.appendChild(b); return b; }
     var wl = waLink(p.wa, p.msg);
-    if (wl) { var l = document.createElement("a"); l.href = wl; l.target = "_blank"; l.rel = "noopener"; l.className = "pay"; l.textContent = "Abrir WhatsApp"; acts.appendChild(l); }
+    if (wl) { var l = document.createElement("a"); l.href = wl; l.target = "_blank"; l.rel = "noopener"; l.className = "pay"; l.textContent = p.conf === false ? "Testar no WhatsApp" : "Abrir WhatsApp"; acts.appendChild(l); }
+    else if (p.ig) { var li = document.createElement("a"); li.href = "https://instagram.com/" + p.ig; li.target = "_blank"; li.rel = "noopener"; li.className = "pay"; li.textContent = "Abrir Instagram (direct)"; acts.appendChild(li); }
     if (p.msg) btn("", "Copiar mensagem", function (e, b) { copyText(p.msg, b); });
     if (st) btn("", st === "f" ? "No funil ✓ · desfazer" : "Descartado · desfazer", function () { delete S.zd[p.id]; renderZd(); persist(); });
     else { btn("adv", "Mandei → Funil", function (e) { zdToFunnel(p, e); }); btn("warn", "Descartar", function () { S.zd[p.id] = "x"; renderZd(); persist(); }); }
