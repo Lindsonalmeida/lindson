@@ -1,7 +1,7 @@
 # BOMBOU — perfil de notícias (Maranhão e Brasil)
 
 Nome provisório: **BOMBOU** (troque se quiser; a arte se ajusta).
-Perfis sugeridos: **@bombou.ma** (Maranhão) e **@bombou.br** (Brasil). Confirme se estão livres antes de criar.
+Perfis sugeridos: **@bombouof** (Maranhão) e **@bombouof** (Brasil). Confirme se estão livres antes de criar.
 
 ## Arquivos
 | Arquivo | Uso |
@@ -39,7 +39,7 @@ Decisão do Lindson: usar imagens das fontes. Risco conhecido: o portal dono da 
 Chamativo e popular, mas sempre fiel à matéria. Crime: "suspeito". Sem nome de menor nem de vítima de violência sexual. Toda notícia tem a fonte na legenda. Confira o fato no link antes de postar.
 
 ## Perfil no Instagram (um só, Maranhão + Brasil)
-**@bombou** (ou o @ disponível) · foto: `avatar.png`
+**@bombouof** · foto: `avatar.png`
 - Nome: BOMBOU Notícias | Maranhão e Brasil
 - Bio:
 ```

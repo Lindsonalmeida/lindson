@@ -771,7 +771,7 @@ function pintarTipos(){$$('#types .type').forEach(b=>b.setAttribute('aria-presse
 
 // ---------- Notícias (perfil BOMBOU) ----------
 // BOMBOU — desenho do post de notícia (1080x1350). Usado na identidade e na Fábrica.
-const BOMBOU_ARROBA='@bombou';
+const BOMBOU_ARROBA='@bombouof';
 // item: {titulo (com *destaque*), chapeu, regiao:'MA'|'BR', fonte, quando, foto(img já carregada ou null)}
 function bombouArte(cv,item,img){
   const W=1080,H=1350;cv.width=W;cv.height=H;const x=cv.getContext('2d');
@@ -780,14 +780,18 @@ function bombouArte(cv,item,img){
   const raw0=(item.titulo||'').toUpperCase();const toks=[];{let hl=false;for(const p of raw0.split(/(\*)/)){if(p==='*'){hl=!hl;continue}for(const w of p.split(/\s+/).filter(Boolean))toks.push({w,hl})}}
   function quebra(fs){x.font=`400 ${fs}px Anton`;const L=[[]];let lw=0;for(const t of toks){const ww=x.measureText(t.w+' ').width;if(lw+ww>984&&L[L.length-1].length){L.push([]);lw=0}L[L.length-1].push(t);lw+=ww}return L}
   let fotoH=H,fs=100,lines;
-  if(img){let achou=false;for(const fh of[940,900,860,820,780,740,700]){for(let f=100;f>=78;f-=4){const L=quebra(f);if(L.length*f*1.02<=H-fh-200){fotoH=fh;fs=f;lines=L;achou=true;break}}if(achou)break}
+  if(img){let achou=false;const nat=Math.min(960,Math.round(150+Math.min(W/(img.width/img.height),800)+30));const ops=[nat,940,900,860,820,780,740,700].filter(v=>v<=nat);for(const fh of ops){for(let f=100;f>=78;f-=4){const L=quebra(f);if(L.length*f*1.02<=H-fh-200){fotoH=fh;fs=f;lines=L;achou=true;break}}if(achou)break}
     if(!achou){fotoH=700;for(fs=96;fs>=58;fs-=4){lines=quebra(fs);if(lines.length*fs*1.02<=H-fotoH-200)break}}}
-  if(img){ // corte pelo ponto de foco (rosto) com leve zoom para tirar marcas d'água das bordas
-    const f=item.foco||{x:.5,y:.4};const r=Math.max(W/img.width,fotoH/img.height)*1.08,w=img.width*r,h=img.height*r;
-    const dx=Math.min(0,Math.max(W-w,W/2-f.x*w)),dy=Math.min(0,Math.max(fotoH-h,fotoH*.42-f.y*h));
-    x.save();x.beginPath();x.rect(0,0,W,fotoH);x.clip();x.drawImage(img,dx,dy,w,h);x.restore();
-    const gt=x.createLinearGradient(0,0,0,220);gt.addColorStop(0,'rgba(0,0,0,.55)');gt.addColorStop(1,'rgba(0,0,0,0)');x.fillStyle=gt;x.fillRect(0,0,W,220);
-    const g=x.createLinearGradient(0,fotoH-420,0,fotoH);g.addColorStop(0,'rgba(10,10,10,0)');g.addColorStop(1,'rgba(10,10,10,1)');x.fillStyle=g;x.fillRect(0,fotoH-420,W,420)}
+  if(img){ // foto SEMPRE inteira, sem corte, sobre fundo desfocado da própria foto
+    const ar=img.width/img.height;
+    x.save();x.beginPath();x.rect(0,0,W,fotoH);x.clip();
+    const r0=Math.max(W/img.width,fotoH/img.height)*1.1,w0=img.width*r0,h0=img.height*r0;
+    x.filter='blur(30px) brightness(.5)';x.drawImage(img,(W-w0)/2,(fotoH-h0)/2,w0,h0);x.filter='none';
+    const boxH=fotoH-180,sc=Math.min(W/img.width,boxH/img.height),w=img.width*sc,h=img.height*sc;
+    x.drawImage(img,(W-w)/2,150+(boxH-h)/2,w,h);
+    x.restore();
+    const gt=x.createLinearGradient(0,0,0,150);gt.addColorStop(0,'rgba(0,0,0,.35)');gt.addColorStop(1,'rgba(0,0,0,0)');x.fillStyle=gt;x.fillRect(0,0,W,150);
+    const g=x.createLinearGradient(0,fotoH-30,0,fotoH);g.addColorStop(0,'rgba(10,10,10,0)');g.addColorStop(1,'rgba(10,10,10,1)');x.fillStyle=g;x.fillRect(0,fotoH-30,W,30)}
   else{ // fundo de marca: listras diagonais + sigla gigante
     x.save();x.globalAlpha=.10;x.fillStyle=RED;for(let i=-H;i<W+H;i+=90){x.beginPath();x.moveTo(i,0);x.lineTo(i+40,0);x.lineTo(i+40-H,H);x.lineTo(i-H,H);x.fill()}x.restore();
     const rg=x.createRadialGradient(W/2,420,40,W/2,420,700);rg.addColorStop(0,'rgba(225,6,0,.45)');rg.addColorStop(1,'rgba(225,6,0,0)');x.fillStyle=rg;x.fillRect(0,0,W,H);
