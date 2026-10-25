@@ -9,7 +9,9 @@ function bombouArte(cv,item,img){
   function quebra(fs){x.font=`400 ${fs}px Anton`;const L=[[]];let lw=0;for(const t of toks){const ww=x.measureText(t.w+' ').width;if(lw+ww>984&&L[L.length-1].length){L.push([]);lw=0}L[L.length-1].push(t);lw+=ww}return L}
   let fotoH=H,fs=100,lines;
   if(img){for(fs=96;fs>=60;fs-=4){lines=quebra(fs);if(lines.length*fs*1.02<=340)break}}
-  const cabe=img&&img.width/img.height<=1.0&&img.height>=900; // foto vertical/quadrada e grande: ocupa o post sozinha
+  // a foto ocupa o post sozinha quando: tem 1 rosto (corta no rosto), ou não tem rostos e não é larga demais, ou já é vertical/quadrada
+  const ar0=img?img.width/img.height:1,nR=item.rostos==null?-1:item.rostos;
+  const cabe=img&&(ar0<=1.0||nR===1||(nR===0&&ar0<=1.8)||(nR<0&&ar0<=1.45));
   if(cabe){
     const f=item.foco||{x:.5,y:.4};const r=Math.max(W/img.width,H/img.height),w=img.width*r,h=img.height*r;
     const dx=Math.min(0,Math.max(W-w,W/2-f.x*w)),dy=Math.min(0,Math.max(H-h,H*.32-f.y*h));
@@ -18,10 +20,14 @@ function bombouArte(cv,item,img){
     const tb=lines.length*fs*1.02+300,g=x.createLinearGradient(0,H-tb-160,0,H);g.addColorStop(0,'rgba(10,10,10,0)');g.addColorStop(.35,'rgba(10,10,10,.75)');g.addColorStop(1,'rgba(10,10,10,.97)');x.fillStyle=g;x.fillRect(0,H-tb-160,W,tb+160)}
   else if(img){ // foto que não preenche: inteira no centro sobre ela mesma desfocada
     const r0=Math.max(W/img.width,H/img.height)*1.08,w0=img.width*r0,h0=img.height*r0;
-    x.filter='blur(34px) brightness(.45) saturate(1.2)';x.drawImage(img,(W-w0)/2,(H-h0)/2,w0,h0);x.filter='none';
+    x.filter='blur(40px) brightness(.6) saturate(1.15)';x.drawImage(img,(W-w0)/2,(H-h0)/2,w0,h0);x.filter='none';
     const topo=150,base=H-170-lines.length*fs*1.02-70,boxH=base-topo;
     const sc=Math.min(W/img.width,boxH/img.height),w=img.width*sc,h=img.height*sc,ix=(W-w)/2,iy=topo+(boxH-h)/2;
-    x.save();x.shadowColor='rgba(0,0,0,.6)';x.shadowBlur=40;x.drawImage(img,ix,iy,w,h);x.restore();
+    const oc=document.createElement('canvas');oc.width=Math.round(w);oc.height=Math.round(h);const o=oc.getContext('2d');o.drawImage(img,0,0,w,h);
+    o.globalCompositeOperation='destination-in';const fe=Math.min(110,h*.18);
+    const gv=o.createLinearGradient(0,0,0,h);gv.addColorStop(0,'rgba(0,0,0,0)');gv.addColorStop(fe/h,'#000');gv.addColorStop(1-fe/h,'#000');gv.addColorStop(1,'rgba(0,0,0,0)');o.fillStyle=gv;o.fillRect(0,0,w,h);
+    if(w<W-4){const gh=o.createLinearGradient(0,0,w,0);gh.addColorStop(0,'rgba(0,0,0,0)');gh.addColorStop(fe/w,'#000');gh.addColorStop(1-fe/w,'#000');gh.addColorStop(1,'rgba(0,0,0,0)');o.fillStyle=gh;o.fillRect(0,0,w,h)}
+    x.drawImage(oc,ix,iy);
     const g=x.createLinearGradient(0,base-40,0,H);g.addColorStop(0,'rgba(10,10,10,0)');g.addColorStop(.25,'rgba(10,10,10,.85)');g.addColorStop(1,'rgba(10,10,10,.97)');x.fillStyle=g;x.fillRect(0,base-40,W,H-base+40)}
   else{ // fundo de marca: listras diagonais + sigla gigante
     x.save();x.globalAlpha=.10;x.fillStyle=RED;for(let i=-H;i<W+H;i+=90){x.beginPath();x.moveTo(i,0);x.lineTo(i+40,0);x.lineTo(i+40-H,H);x.lineTo(i-H,H);x.fill()}x.restore();
