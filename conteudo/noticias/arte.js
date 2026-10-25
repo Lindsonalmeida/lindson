@@ -1,4 +1,5 @@
 // BOMBOU — desenho do post de notícia (1080x1350). Usado na identidade e na Fábrica.
+const BOMBOU_ARROBA='@bombou';
 // item: {titulo (com *destaque*), chapeu, regiao:'MA'|'BR', fonte, quando, foto(img já carregada ou null)}
 function bombouArte(cv,item,img){
   const W=1080,H=1350;cv.width=W;cv.height=H;const x=cv.getContext('2d');
@@ -40,6 +41,6 @@ function bombouArte(cv,item,img){
   lines.forEach((ln,i)=>{let lx=48;const y=y0+i*lh;for(const t of ln){const ww=x.measureText(t.w).width;if(t.hl){x.fillStyle=YEL;x.fillRect(lx-6,y-fs*.5,ww+12,fs*.98);x.fillStyle=INK}else x.fillStyle=WH;x.fillText(t.w,lx,y+2);lx+=ww+x.measureText(' ').width}});
   // rodapé
   x.fillStyle=YEL;x.fillRect(48,H-112,984,6);x.font='700 30px "Archivo Black", Anton';x.fillStyle=WH;x.textBaseline='alphabetic';
-  x.fillText('@bombou'+(item.regiao==='MA'?'.ma':'.br'),48,H-56);x.textAlign='right';x.fillStyle='rgba(255,255,255,.7)';x.font='600 28px Archivo, sans-serif';
+  x.fillText(BOMBOU_ARROBA,48,H-56);x.textAlign='right';x.fillStyle='rgba(255,255,255,.7)';x.font='600 28px Archivo, sans-serif';
   x.fillText((item.fonte?'Fonte: '+item.fonte:'')+'  •  leia a legenda',1032,H-56);x.textAlign='left';
 }

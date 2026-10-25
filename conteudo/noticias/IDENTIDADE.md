@@ -38,22 +38,13 @@ Decisão do Lindson: usar imagens das fontes. Risco conhecido: o portal dono da 
 ## Tom
 Chamativo e popular, mas sempre fiel à matéria. Crime: "suspeito". Sem nome de menor nem de vítima de violência sexual. Toda notícia tem a fonte na legenda. Confira o fato no link antes de postar.
 
-## Perfis no Instagram
-**@bombou.ma** · foto: `avatar-maranhao.png`
-- Nome: BOMBOU Maranhão | Notícias
+## Perfil no Instagram (um só, Maranhão + Brasil)
+**@bombou** (ou o @ disponível) · foto: `avatar.png`
+- Nome: BOMBOU Notícias | Maranhão e Brasil
 - Bio:
 ```
-🚨 Tudo que bomba no Maranhão, primeiro aqui
-📍 São Luís, Imperatriz e todo o MA
+🚨 O que bomba no Maranhão e no Brasil, primeiro aqui
+📍 De São Luís pro país inteiro
 📲 Viu algo? Manda no direct 👇
 ```
-
-**@bombou.br** · foto: `avatar-brasil.png`
-- Nome: BOMBOU Brasil | Notícias
-- Bio:
-```
-🚨 O que está bombando no Brasil agora
-⚡ Famosos, polícia, futebol e seu bolso
-📲 Viu algo? Manda no direct 👇
-```
-Categoria do perfil: "Site de notícias e mídia". Nome com "Notícias" ajuda a aparecer na busca.
+Categoria do perfil: "Site de notícias e mídia".
