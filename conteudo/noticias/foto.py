@@ -25,6 +25,8 @@ try:
 except Exception as e:print('aviso rosto:',e,file=sys.stderr)
 if fs:
     x0=min(f[0] for f in fs);y0=min(f[1] for f in fs);x1=max(f[0]+f[2] for f in fs);y1=max(f[1]+f[3] for f in fs)
+    if (x1-x0)>H*0.8*0.85:  # rostos não cabem juntos no corte 4:5: foca o maior
+        b=max(fs,key=lambda f:f[2]*f[3]);x0,y0,x1,y1=b[0],b[1],b[0]+b[2],b[1]+b[3]
     foco={'x':round((x0+x1)/2/W,3),'y':round(((y0+y1)/2)/H,3)}
 else:foco={'x':.5,'y':.4}
 im.save(sys.argv[2],quality=88)
