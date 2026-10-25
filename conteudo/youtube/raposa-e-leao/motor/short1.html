@@ -1,0 +1,107 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Cormorant+Garamond:ital,wght@1,500;1,600&family=Anton&display=swap" rel="stylesheet">
+<style>
+*{margin:0;box-sizing:border-box}
+body{width:1080px;height:1920px;overflow:hidden;background:#0B0A08;color:#EFE6D2}
+.l{position:absolute;inset:0}
+#fx{position:absolute;inset:0}
+.sc{position:absolute;inset:0;opacity:0}
+.foto{position:absolute;left:-60px;right:-60px;top:420px;bottom:-200px;background:url(../img/maquiavel.jpg) center 20%/cover;filter:grayscale(1) contrast(1.2) brightness(.75)}
+.vin{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 45%,transparent 30%,rgba(0,0,0,.85) 85%)}
+.ant{font-family:Anton;text-transform:uppercase;line-height:.95;text-align:center}
+.tag{font:700 34px Cinzel;letter-spacing:.24em;color:#0B0A08;background:#C9A227;padding:12px 26px;display:inline-block}
+.cg{font-family:'Cormorant Garamond';font-style:italic;font-weight:600}
+.w{display:inline-block;opacity:0;transform:translateY(20px)}
+.gold{color:#E2BE4A}
+#grain{position:absolute;inset:0;opacity:.13;mix-blend-mode:overlay;pointer-events:none}
+</style></head><body>
+__EMB__
+<canvas id="fx" width="1080" height="1920"></canvas>
+
+<!-- S1 gancho -->
+<div class="sc" id="s1"><div class="foto" id="f1"></div><div class="vin"></div>
+ <div class="ant" style="position:absolute;top:150px;left:60px;right:60px;font-size:112px">
+  <div id="h1a">A frase mais famosa</div><div id="h1b">de Maquiavel</div></div>
+ <div class="ant gold" id="h1c" style="position:absolute;top:1250px;text-shadow:0 8px 40px #000;left:40px;right:40px;font-size:150px">Ele nunca<br>escreveu.</div>
+</div>
+
+<!-- S2 citação riscada -->
+<div class="sc" id="s2"><div class="l" style="background:radial-gradient(circle at 50% 38%,rgba(142,27,27,.35),transparent 55%)"></div><div class="vin"></div>
+ <div style="position:absolute;top:470px;left:60px;right:60px;text-align:center">
+  <div class="cg" id="q2" style="font-size:150px;line-height:1.05;position:relative;display:inline-block">“Os fins<br>justificam<br>os meios.”<div id="risco" style="position:absolute;left:-20px;top:46%;height:16px;background:#C0231F;width:0;transform:rotate(-4deg);box-shadow:0 0 30px rgba(192,35,31,.6)"></div></div>
+ </div>
+ <div id="carimbo" style="position:absolute;top:1080px;left:0;right:0;text-align:center"><span style="display:inline-block;font:900 92px Cinzel;letter-spacing:.08em;color:#D7322B;border:10px solid #D7322B;padding:16px 40px;transform:rotate(-7deg)">NÃO EXISTE</span>
+  <div class="cg" style="font-size:54px;color:#cdbf9f;margin-top:44px">em nenhum livro dele</div></div>
+</div>
+
+<!-- S3 o que ele escreveu -->
+<div class="sc" id="s3"><div class="l" style="font:900 560px Cinzel;color:rgba(201,162,39,.07);text-align:center;padding-top:820px;letter-spacing:-.02em">XVIII</div><div class="vin"></div>
+ <div style="position:absolute;top:330px;left:0;right:0;text-align:center"><span class="tag">O PRÍNCIPE · CAP. XVIII</span>
+  <div class="ant" style="font-size:96px;margin-top:40px">O que ele<br>escreveu foi:</div></div>
+ <div id="pg" style="position:absolute;top:830px;left:80px;right:80px;background:#EFE6D2;color:#1b140c;padding:70px 64px;box-shadow:0 30px 80px rgba(0,0,0,.6);transform:rotate(-1.5deg)">
+  <div class="cg" id="q3" style="font-size:86px;line-height:1.12"></div>
+  <div style="font:700 26px Cinzel;letter-spacing:.2em;color:#7a5a12;margin-top:36px">— NICOLAU MAQUIAVEL, 1513</div></div>
+</div>
+
+<!-- S4 -->
+<div class="sc" id="s4"><div class="foto" style="top:0;bottom:0;opacity:.18;filter:grayscale(1) blur(3px) brightness(.6)"></div><div class="vin"></div>
+ <div class="ant" style="position:absolute;top:640px;left:40px;right:40px;font-size:200px"><div id="h4a">Não era</div><div id="h4b" style="margin-top:34px"><span style="background:#8E1B1B;padding:.04em .12em;display:inline-block;line-height:1;font-size:170px">permissão.</span></div></div>
+</div>
+
+<!-- S5 -->
+<div class="sc" id="s5"><div class="l" style="background:radial-gradient(circle at 50% 48%,rgba(201,162,39,.22),transparent 50%)"></div><div class="vin"></div>
+ <div style="position:absolute;top:360px;left:0;right:0;text-align:center"><span class="tag" id="t5">ERA UM AVISO</span></div>
+ <div class="ant" id="h5a" style="position:absolute;top:560px;left:40px;right:40px;font-size:118px">Te julgam pelo<br>que você</div>
+ <div class="ant gold" id="h5b" style="position:absolute;top:820px;left:0;right:0;font-size:250px">entrega</div>
+ <div class="cg" id="h5c" style="position:absolute;top:1170px;left:0;right:0;text-align:center;font-size:84px;color:#b9ad92">não pelo que você <span style="position:relative;display:inline-block">pretendia<i id="r5" style="position:absolute;left:-6px;top:52%;height:8px;width:0;background:#C0231F"></i></span>.</div>
+</div>
+
+<!-- S6 assinatura -->
+<div class="sc" id="s6"><div class="vin"></div>
+ <svg id="emb6" style="position:absolute;left:290px;top:520px;width:500px;height:500px"><use href="#emb"/></svg>
+ <div id="nm6" style="position:absolute;top:1090px;left:0;right:0;text-align:center;font:900 96px Cinzel;letter-spacing:.06em">RAPOSA <span style="color:#C9A227">E</span> LEÃO</div>
+ <div id="at6" class="cg" style="position:absolute;top:1220px;left:0;right:0;text-align:center;font-size:58px;color:#cdbf9f">Astúcia para ver as armadilhas.<br>Força para afastar os lobos.</div>
+</div>
+
+<svg id="grain" width="1080" height="1920"><filter id="n"><feTurbulence id="tb" type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="1"/></filter><rect width="100%" height="100%" filter="url(#n)"/></svg>
+<script>
+const SP=__SPEC__;
+const $=id=>document.getElementById(id);
+const cl=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));
+const ease=x=>1-Math.pow(1-cl(x),3);
+const back=x=>{x=cl(x);const c=1.7;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+function win(t,a,b,f=.3){return cl((t-a)/f)*cl((b-t)/f)}
+function pop(el,t,at,d=.35,dy=40){const k=ease((t-at)/d);el.style.opacity=k;el.style.transform=`translateY(${(1-k)*dy}px)`}
+function slam(el,t,at){const k=cl((t-at)/.22);const s=1+(1-back(k))*.0+ (1-k)*.6;el.style.opacity=k;el.style.transform=`scale(${s})`}
+// citação S3 por palavra
+const Q3=['Nas','ações','dos','homens,','o','que','se','olha','é','o','resultado.'];const q3t=[16.59,16.804,17.23,17.401,18.169,18.383,18.553,18.681,19.065,19.407,19.492];
+$('q3').innerHTML=Q3.map((w,i)=>`<span class="w${i==10?' gold':''}" id="q3_${i}" style="${i==10?'color:#9a6f0e;font-weight:600;border-bottom:6px solid #C9A227':''}">${w}</span>`).join(' ');
+// brasas
+const E=[...Array(70)].map((_,i)=>{const r=Math.sin(i*91.7)*43758.5;const f=r-Math.floor(r);const r2=Math.sin(i*12.9)*9631.1;const g=r2-Math.floor(r2);return {x:f*1080,sp:40+g*90,ph:g*1920,sz:1.5+f*3.5,sw:20+g*40}});
+const ctx=$('fx').getContext('2d');
+function brasas(t){ctx.clearRect(0,0,1080,1920);
+ const gr=ctx.createRadialGradient(540,1700,50,540,1700,1100);gr.addColorStop(0,'rgba(120,45,15,.28)');gr.addColorStop(1,'rgba(0,0,0,0)');ctx.fillStyle=gr;ctx.fillRect(0,0,1080,1920);
+ for(const e of E){const y=1920-((e.ph+t*e.sp)%2100);const x=e.x+Math.sin(t*.8+e.ph)*e.sw;const a=cl(y/1920)*.85;ctx.fillStyle=`rgba(255,${140+e.sz*15|0},60,${a})`;ctx.beginPath();ctx.arc(x,y,e.sz,0,7);ctx.fill()}}
+const SC=[['s1',0,4.55],['s2',4.55,11.25],['s3',11.25,20.45],['s4',20.45,23.05],['s5',23.05,29.85],['s6',29.85,99]];
+window.SFX=[[0,'boom'],[2.9,'punch'],[4.55,'whoosh'],[8.45,'rip'],[9.0,'stamp'],[11.25,'whoosh'],[16.5,'page'],[20.45,'punch'],[23.05,'whoosh'],[26.9,'boom'],[29.3,'rip'],[29.85,'riser'],[30.4,'boom']];
+window.render=function(t){
+ brasas(t);$('tb').setAttribute('seed',Math.floor(t*12)%97);
+ for(const [id,a,b] of SC)$(id).style.opacity=win(t,a,b,.25);
+ // S1
+ $('f1').style.transform=`scale(${1.08+t*.03}) translateY(${-t*6}px)`;
+ pop($('h1a'),t,.25);pop($('h1b'),t,1.6);slam($('h1c'),t,2.9);
+ // S2
+ const q=$('q2');pop(q,t,4.7,.5);$('risco').style.width=(ease((t-8.45)/.35)*105)+'%';
+ slam($('carimbo'),t,9.0);
+ // S3
+ pop($('pg'),t,15.6,.5,80);for(let i=0;i<11;i++)pop($('q3_'+i),t,q3t[i]-.05,.25,18);
+ // S4
+ pop($('h4a'),t,20.55);slam($('h4b'),t,21.65);
+ // S5
+ pop($('t5'),t,23.2);pop($('h5a'),t,24.4);slam($('h5b'),t,26.9);pop($('h5c'),t,28.05);$('r5').style.width=(ease((t-29.3)/.3)*106)+'%';
+ // S6
+ const k=ease((t-29.95)/.7);$('emb6').style.opacity=k;$('emb6').style.transform=`scale(${.6+.4*back(cl((t-29.95)/.7))}) rotate(${(1-k)*-20}deg)`;
+ pop($('nm6'),t,30.5);pop($('at6'),t,31.1);
+};
+document.fonts.ready.then(()=>{window.ready=true});
+</script></body></html>
