@@ -1,7 +1,7 @@
 <!doctype html><html><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Archivo:wght@600;800&display=swap" rel="stylesheet">
 <style>body{margin:0;background:#333;display:flex;flex-wrap:wrap;gap:30px;padding:30px}canvas{display:block}</style></head><body>
-<canvas id="av" width="1080" height="1080"></canvas><canvas id="p1"></canvas><canvas id="p2"></canvas><canvas id="p3"></canvas>
+<canvas id="av" width="1080" height="1080"></canvas><canvas id="avma" width="1080" height="1080"></canvas><canvas id="avbr" width="1080" height="1080"></canvas><canvas id="p1"></canvas><canvas id="p2"></canvas><canvas id="p3"></canvas>
 <script src="arte.js"></script>
 <script>
 function avatar(cv,reg){const x=cv.getContext('2d');x.fillStyle='#E10600';x.fillRect(0,0,1080,1080);
@@ -10,7 +10,7 @@ function avatar(cv,reg){const x=cv.getContext('2d');x.fillStyle='#E10600';x.fill
  x.fillStyle='#FFD400';x.beginPath();x.moveTo(640,320);x.lineTo(720,320);x.lineTo(690,600);x.lineTo(670,600);x.fill();x.beginPath();x.arc(680,670,38,0,7);x.fill();
  x.fillStyle='#0A0A0A';x.fillRect(240,800,600,110);x.font='400 80px Anton';x.fillStyle='#FFD400';x.fillText(reg,540,858)}
 document.fonts.ready.then(async()=>{await document.fonts.load('400 100px Anton');await document.fonts.load('700 30px "Archivo Black"');
- avatar(document.getElementById('av'),'BOMBOU');
+ avatar(document.getElementById('av'),'BOMBOU');avatar(document.getElementById('avma'),'MARANHÃO');avatar(document.getElementById('avbr'),'BRASIL');
  const img=new Image();img.src='../youtube/raposa-e-leao/img/maquiavel.jpg';await img.decode();
  bombouArte(document.getElementById('p1'),{titulo:'Exemplo de manchete: *fato principal* aparece aqui em destaque amarelo',chapeu:'Urgente',regiao:'MA',fonte:'Portal'},null);
  bombouArte(document.getElementById('p2'),{titulo:'Com foto: a manchete fica embaixo e o *destaque* chama atenção',chapeu:'Agora',regiao:'BR',fonte:'Portal'},img);
