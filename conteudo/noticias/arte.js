@@ -9,7 +9,14 @@ function bombouArte(cv,item,img){
   function quebra(fs){x.font=`400 ${fs}px Anton`;const L=[[]];let lw=0;for(const t of toks){const ww=x.measureText(t.w+' ').width;if(lw+ww>984&&L[L.length-1].length){L.push([]);lw=0}L[L.length-1].push(t);lw+=ww}return L}
   let fotoH=H,fs=100,lines;
   if(img){for(fs=96;fs>=60;fs-=4){lines=quebra(fs);if(lines.length*fs*1.02<=340)break}}
-  if(img){ // post inteiro com a própria foto desfocada + a foto INTEIRA (sem corte) grande no centro
+  const cabe=img&&img.width/img.height<=1.0&&img.height>=900; // foto vertical/quadrada e grande: ocupa o post sozinha
+  if(cabe){
+    const f=item.foco||{x:.5,y:.4};const r=Math.max(W/img.width,H/img.height),w=img.width*r,h=img.height*r;
+    const dx=Math.min(0,Math.max(W-w,W/2-f.x*w)),dy=Math.min(0,Math.max(H-h,H*.32-f.y*h));
+    x.drawImage(img,dx,dy,w,h);
+    const gt=x.createLinearGradient(0,0,0,220);gt.addColorStop(0,'rgba(0,0,0,.5)');gt.addColorStop(1,'rgba(0,0,0,0)');x.fillStyle=gt;x.fillRect(0,0,W,220);
+    const tb=lines.length*fs*1.02+300,g=x.createLinearGradient(0,H-tb-160,0,H);g.addColorStop(0,'rgba(10,10,10,0)');g.addColorStop(.35,'rgba(10,10,10,.75)');g.addColorStop(1,'rgba(10,10,10,.97)');x.fillStyle=g;x.fillRect(0,H-tb-160,W,tb+160)}
+  else if(img){ // foto que não preenche: inteira no centro sobre ela mesma desfocada
     const r0=Math.max(W/img.width,H/img.height)*1.08,w0=img.width*r0,h0=img.height*r0;
     x.filter='blur(34px) brightness(.45) saturate(1.2)';x.drawImage(img,(W-w0)/2,(H-h0)/2,w0,h0);x.filter='none';
     const topo=150,base=H-170-lines.length*fs*1.02-70,boxH=base-topo;
