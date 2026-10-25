@@ -172,7 +172,7 @@ Observações:
 96. (I.19) Depois de um líder forte, um fraco ainda se segura. Dois fracos seguidos derrubam qualquer reino.
 97. (I.20) Dois líderes fortes seguidos fazem grandes coisas. Instituições boas garantem uma sequência de bons líderes.
 98. (I.21) É vergonhoso para um Estado não ter força própria.
-99. (I.22) Nunca arrisque tudo numa só disputa usando só parte da sua força.
+99. (I.22) Não coloque o destino de todos nas mãos de poucos (como Roma e Alba, que apostaram tudo em três campeões).
 100. (I.23) Não aposte toda a sorte sem colocar toda a força. Por isso defender só um ponto estreito costuma ser ruim.
 101. (I.24) Estados bem organizados premiam e punem, e nunca compensam um erro com um mérito do passado.
 102. (I.25) Quem quer reformar algo precisa manter pelo menos a aparência do jeito antigo.
