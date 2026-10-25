@@ -31,9 +31,9 @@ Perfis sugeridos: **@bombou.ma** (Maranhão) e **@bombou.br** (Brasil). Confirme
 4. Rodapé: @ do perfil, fonte e "leia a legenda".
 5. Com foto: a foto ocupa o topo e a manchete fica no preto embaixo. Sem foto: fundo de marca.
 
-## Fotos (importante)
-Fotos de portais de notícia têm dono. Usar sem autorização pode gerar denúncia de direitos autorais e derrubar posts ou o perfil.
-Use, nesta ordem: foto própria, foto enviada por seguidor (com permissão), foto oficial divulgada para imprensa (governo, prefeitura, assessoria), banco gratuito, ou o post sem foto (já pronto no estilo da página).
+## Fotos
+A busca automática coloca sozinha na arte a imagem da própria matéria (ou a capa do vídeo, quando houver). Se não achar, procura a mesma notícia em outros portais. Sem imagem, a arte sai com o fundo da marca, já pronta para postar.
+Decisão do Lindson: usar imagens das fontes. Risco conhecido: o portal dono da foto pode denunciar o post por direitos autorais.
 
 ## Tom
 Chamativo e popular, mas sempre fiel à matéria. Crime: "suspeito". Sem nome de menor nem de vítima de violência sexual. Toda notícia tem a fonte na legenda. Confira o fato no link antes de postar.
