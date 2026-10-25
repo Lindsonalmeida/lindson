@@ -1,0 +1,105 @@
+{
+ "tom": 61.74,
+ "cenas": [
+  {
+   "t": "pagina",
+   "tag": "O PRÍNCIPE · CAP. XVII",
+   "titulo": "A frase mais fria",
+   "ty": 330,
+   "de": "as",
+   "ate": "patrimônio",
+   "hl": [
+    "pai",
+    "patrimônio"
+   ],
+   "y": 740,
+   "s": 84
+  },
+  {
+   "t": "stack",
+   "w": "Cruel",
+   "items": [
+    {
+     "h": "Cruel?",
+     "y": 600,
+     "s": 240,
+     "f": "ant",
+     "w": "cruel"
+    },
+    {
+     "h": "É.",
+     "y": 880,
+     "s": 320,
+     "f": "ant",
+     "c": "red",
+     "w": "é#2",
+     "a": "slam"
+    }
+   ]
+  },
+  {
+   "t": "stack",
+   "w": "quando",
+   "bg": "num:R$",
+   "items": [
+    {
+     "h": "Mexeu no bolso",
+     "y": 480,
+     "s": 130,
+     "f": "ant",
+     "w": "bolso"
+    },
+    {
+     "h": "=",
+     "y": 650,
+     "s": 130,
+     "f": "cin",
+     "c": "gold",
+     "w": "cria"
+    },
+    {
+     "h": "Inimigo<br>para sempre",
+     "y": 820,
+     "s": 170,
+     "f": "ant",
+     "box": "red",
+     "w": "inimigo",
+     "a": "slam"
+    }
+   ]
+  },
+  {
+   "t": "stack",
+   "w": "Por",
+   "bg": "foto:top:640px;bottom:-320px",
+   "items": [
+    {
+     "h": "O conselho",
+     "y": 150,
+     "f": "tag",
+     "d": 0
+    },
+    {
+     "h": "Se quer ser respeitado sem ser odiado:",
+     "y": 250,
+     "s": 62,
+     "f": "cg",
+     "c": "dim",
+     "w": "respeitado"
+    },
+    {
+     "h": "Nunca toque<br>no que é<br>dos outros",
+     "y": 360,
+     "s": 110,
+     "f": "ant",
+     "c": "gold",
+     "w": "nunca"
+    }
+   ]
+  },
+  {
+   "t": "assinatura",
+   "apos": "outros"
+  }
+ ]
+}

@@ -1,0 +1,117 @@
+{
+ "tom": 61.74,
+ "cenas": [
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Um favor",
+     "y": 420,
+     "s": 200,
+     "f": "ant",
+     "c": "",
+     "d": 0
+    },
+    {
+     "h": "apaga uma<br>ofensa antiga?",
+     "y": 680,
+     "s": 110,
+     "f": "cg",
+     "c": "",
+     "w": "ofensa"
+    },
+    {
+     "h": "Não.",
+     "y": 1000,
+     "s": 220,
+     "f": "ant",
+     "c": "red",
+     "w": "engana",
+     "a": "slam"
+    }
+   ],
+   "bg": "glow:rgba(142,27,27,.3):45"
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "César Bórgia",
+     "y": 300,
+     "s": 40,
+     "f": "tag",
+     "c": "",
+     "d": 0
+    },
+    {
+     "h": "caiu por confiar<br>em quem ele<br>mesmo feriu",
+     "y": 460,
+     "s": 120,
+     "f": "ant",
+     "c": "",
+     "w": "confiar"
+    }
+   ],
+   "w": "César",
+   "bg": "num:VII"
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Aceita o favor.",
+     "y": 420,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "w": "aceita"
+    },
+    {
+     "h": "Agradece.",
+     "y": 580,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "w": "agradece"
+    },
+    {
+     "h": "E lembra.",
+     "y": 800,
+     "s": 200,
+     "f": "ant",
+     "c": "gold",
+     "w": "lembra",
+     "a": "slam"
+    }
+   ],
+   "w": "A"
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Antes de confiar em<br>quem você machucou,",
+     "y": 240,
+     "s": 90,
+     "f": "cg",
+     "c": "dim",
+     "w": "antes"
+    },
+    {
+     "h": "pense<br>duas vezes",
+     "y": 420,
+     "s": 150,
+     "f": "ant",
+     "c": "gold",
+     "w": "pense"
+    }
+   ],
+   "w": "Antes",
+   "bg": "foto:top:640px;bottom:-320px"
+  },
+  {
+   "t": "assinatura",
+   "apos": "vezes"
+  }
+ ]
+}

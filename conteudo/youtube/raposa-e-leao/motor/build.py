@@ -3,14 +3,14 @@ A pasta precisa ter voz.wav e spec.json (total em segundos). Gera video.mp4 nela
 import json,sys,os,subprocess,numpy as np,soundfile as sf
 from scipy.signal import butter,lfilter
 D=os.path.dirname(os.path.abspath(__file__));stage=sys.argv[1];P=os.path.abspath(sys.argv[2])
-W='/tmp/claude-0/-home-user/11370c4d-a43e-5ddc-930a-0de2e05453c2/scratchpad/rl_work';os.makedirs(W,exist_ok=True)
+W='/tmp/claude-0/-home-user/11370c4d-a43e-5ddc-930a-0de2e05453c2/scratchpad/rl_work_'+os.path.basename(P);os.makedirs(W,exist_ok=True)
 spec=json.load(open(P+'/spec.json'));T=spec['total']
 html=open(D+'/'+stage).read().replace('__EMB__',open(D+'/emblema.inc').read()).replace('__SPEC__',json.dumps(spec,ensure_ascii=False))
-open(D+'/_stage.html','w').write(html)
+open(D+'/_stage_'+os.path.basename(P)+'.html','w').write(html)
 STEP=int(os.environ.get('STEP','1'))
 js=f"""const {{chromium}}=require('playwright');const fs=require('fs');
 (async()=>{{const b=await chromium.launch();const p=await b.newPage({{viewport:{{width:1080,height:1920}}}});
-p.on('pageerror',e=>console.log('ERR',e.message));await p.goto('file://{D}/_stage.html');await p.waitForFunction(()=>window.ready);await p.waitForTimeout(600);
+p.on('pageerror',e=>console.log('ERR',e.message));await p.goto('file://{D}/_stage_{os.path.basename(P)}.html');await p.waitForFunction(()=>window.ready);await p.waitForTimeout(600);
 fs.writeFileSync('{W}/sfx.json',JSON.stringify(await p.evaluate(()=>window.SFX)));fs.rmSync('{W}/fr',{{recursive:true,force:true}});fs.mkdirSync('{W}/fr');
 const n=Math.floor({T}*30);for(let f=0;f<n;f+={STEP}){{await p.evaluate(t=>render(t),f/30);await p.screenshot({{path:'{W}/fr/'+String(f).padStart(5,'0')+'.jpg',type:'jpeg',quality:90}})}}
 await b.close()}})();"""
@@ -27,11 +27,12 @@ def rip():t=tt(.4);return bp(rng.standard_normal(len(t)),1200,7000)*(np.abs(np.s
 def stamp():return np.concatenate([punch(),np.zeros(int(.2*S))])*1.2
 def page():t=tt(.5);return bp(rng.standard_normal(len(t)),900,5000)*np.exp(-((t-.15)**2)/.006)*.4
 def riser():t=tt(.6);u=t/t[-1];return bp(rng.standard_normal(len(t)),600,6000)*u**2*.5
-FX=dict(boom=boom,punch=punch,whoosh=whoosh,rip=rip,stamp=stamp,page=page,riser=riser)
+def ding():t=tt(1.2);return (np.sin(2*np.pi*880*t)+.5*np.sin(2*np.pi*1320*t))*np.exp(-t*3.5)*.25
+FX=dict(ding=ding,boom=boom,punch=punch,whoosh=whoosh,rip=rip,stamp=stamp,page=page,riser=riser)
 mix=np.zeros(N+3*S)
 # trilha: drone grave em ré menor + pulso lento
 t=np.arange(N)/S
-dr=sum(a*np.sin(2*np.pi*f*t+np.sin(t*.3*k)) for k,(f,a) in enumerate([(73.42,.5),(110,.25),(146.83,.18),(174.61,.10),(220,.06)],1))
+R0=spec.get('tom',73.42);dr=sum(a*np.sin(2*np.pi*R0*m*t+np.sin(t*.3*k)) for k,(m,a) in enumerate([(1,.5),(1.5,.25),(2,.18),(2.378,.10),(3,.06)],1))
 dr=lp(dr,900)*(.75+.25*np.sin(2*np.pi*t/8))
 pulse=np.zeros(N)
 for b in np.arange(0,T,1.25):

@@ -1,0 +1,158 @@
+{
+ "tom": 69.3,
+ "cenas": [
+  {
+   "t": "stack",
+   "bg": "foto:top:620px;bottom:-320px",
+   "items": [
+    {
+     "h": "Temido",
+     "y": 150,
+     "s": 200,
+     "f": "ant",
+     "c": "gold"
+    },
+    {
+     "h": "ou",
+     "y": 360,
+     "s": 90,
+     "f": "cg",
+     "d": 0.4
+    },
+    {
+     "h": "amado?",
+     "y": 450,
+     "s": 200,
+     "f": "ant",
+     "w": "amado"
+    }
+   ]
+  },
+  {
+   "t": "stack",
+   "w": "Maquiavel",
+   "bg": "num:500",
+   "items": [
+    {
+     "h": "Há 500 anos",
+     "y": 330,
+     "f": "tag",
+     "d": 0
+    },
+    {
+     "h": "O ideal:",
+     "y": 520,
+     "s": 100,
+     "f": "ant",
+     "w": "ideal"
+    },
+    {
+     "h": "os dois",
+     "y": 650,
+     "s": 200,
+     "f": "ant",
+     "c": "gold",
+     "w": "dois"
+    },
+    {
+     "h": "Se tiver que escolher…",
+     "y": 980,
+     "s": 80,
+     "f": "cg",
+     "c": "dim",
+     "w": "escolher"
+    },
+    {
+     "h": "Temido",
+     "y": 1100,
+     "s": 170,
+     "f": "ant",
+     "box": "gold",
+     "w": "temido#2",
+     "a": "slam"
+    }
+   ]
+  },
+  {
+   "t": "duo",
+   "w": "Porque",
+   "dir": "v",
+   "a": {
+    "k": "Amor",
+    "s": "depende da vontade dos outros",
+    "c": "#EE8040",
+    "w": "amor"
+   },
+   "b": {
+    "k": "Respeito",
+    "s": "pelo limite não quebra",
+    "c": "#E2BE4A",
+    "w": "respeito"
+   }
+  },
+  {
+   "t": "stack",
+   "w": "Mas#2",
+   "items": [
+    {
+     "h": "Atenção",
+     "y": 360,
+     "f": "tag",
+     "d": 0
+    },
+    {
+     "h": "Temido",
+     "y": 540,
+     "s": 220,
+     "f": "ant",
+     "c": "gold",
+     "w": "temido#3"
+    },
+    {
+     "h": "nunca",
+     "y": 830,
+     "s": 90,
+     "f": "cg",
+     "c": "red",
+     "w": "nunca"
+    },
+    {
+     "h": "Odiado",
+     "y": 940,
+     "s": 220,
+     "f": "ant",
+     "c": "dim",
+     "w": "odiado",
+     "riscar": "odiado"
+    }
+   ]
+  },
+  {
+   "t": "stack",
+   "w": "Quem",
+   "bg": "glow:rgba(142,27,27,.4):50",
+   "items": [
+    {
+     "h": "Do respeito<br>ao ódio",
+     "y": 520,
+     "s": 120,
+     "f": "ant",
+     "w": "respeito#2"
+    },
+    {
+     "h": "Perde tudo.",
+     "y": 860,
+     "s": 150,
+     "f": "ant",
+     "box": "red",
+     "w": "perde",
+     "a": "slam"
+    }
+   ]
+  },
+  {
+   "t": "assinatura",
+   "apos": "tudo"
+  }
+ ]
+}

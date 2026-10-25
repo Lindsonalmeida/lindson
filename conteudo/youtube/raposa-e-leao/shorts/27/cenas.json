@@ -1,0 +1,105 @@
+{
+ "tom": 82.41,
+ "cenas": [
+  {
+   "t": "duo",
+   "w": "A",
+   "dir": "v",
+   "a": {
+    "k": "Disciplina",
+    "s": "vale mais",
+    "c": "#E2BE4A",
+    "w": "disciplina"
+   },
+   "b": {
+    "k": "Fúria",
+    "s": "vale menos",
+    "c": "#E0453C",
+    "w": "fúria"
+   }
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "A natureza cria",
+     "y": 340,
+     "s": 100,
+     "f": "ant",
+     "c": "",
+     "w": "natureza"
+    },
+    {
+     "h": "poucos fortes",
+     "y": 480,
+     "s": 130,
+     "f": "ant",
+     "c": "dim",
+     "w": "poucos"
+    },
+    {
+     "h": "O treino cria",
+     "y": 720,
+     "s": 100,
+     "f": "ant",
+     "c": "",
+     "w": "treino"
+    },
+    {
+     "h": "muitos",
+     "y": 860,
+     "s": 200,
+     "f": "ant",
+     "c": "gold",
+     "w": "muitos",
+     "a": "slam"
+    }
+   ],
+   "w": "E",
+   "bg": "num:VII"
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Raiva",
+     "y": 360,
+     "s": 150,
+     "f": "ant",
+     "c": "red",
+     "w": "raiva"
+    },
+    {
+     "h": "= energia por um dia",
+     "y": 540,
+     "s": 80,
+     "f": "cg",
+     "c": "",
+     "w": "energia"
+    },
+    {
+     "h": "Disciplina",
+     "y": 780,
+     "s": 150,
+     "f": "ant",
+     "c": "gold",
+     "w": "disciplina#2"
+    },
+    {
+     "h": "= resultado por anos",
+     "y": 960,
+     "s": 80,
+     "f": "cg",
+     "c": "",
+     "w": "resultado",
+     "a": "slam"
+    }
+   ],
+   "w": "A#2"
+  },
+  {
+   "t": "assinatura",
+   "apos": "anos"
+  }
+ ]
+}

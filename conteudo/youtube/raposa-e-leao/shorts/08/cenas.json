@@ -1,0 +1,98 @@
+{
+ "tom": 61.74,
+ "cenas": [
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "A regra que quase<br>ninguém conhece",
+     "y": 300,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "d": 0
+    },
+    {
+     "h": "Quem torna outro<br>poderoso",
+     "y": 620,
+     "s": 130,
+     "f": "ant",
+     "c": "gold",
+     "w": "quem"
+    },
+    {
+     "h": "trabalha para a<br>própria ruína",
+     "y": 900,
+     "s": 120,
+     "f": "ant",
+     "c": "",
+     "w": "ruína",
+     "a": "slam",
+     "box": "red"
+    }
+   ],
+   "bg": "glow:rgba(142,27,27,.3):45"
+  },
+  {
+   "t": "duo",
+   "w": "Porque",
+   "dir": "v",
+   "a": {
+    "k": "Você",
+    "s": "dá esperteza e força",
+    "c": "#E2BE4A"
+   },
+   "b": {
+    "k": "Ele",
+    "s": "passa a desconfiar de você",
+    "c": "#E0453C",
+    "w": "desconfiar"
+   },
+   "meio": "DEPOIS",
+   "meioW": "forte"
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Ajudar",
+     "y": 420,
+     "s": 200,
+     "f": "ant",
+     "c": "gold",
+     "w": "ajudar"
+    },
+    {
+     "h": "é bom.",
+     "y": 650,
+     "s": 100,
+     "f": "cg",
+     "c": "",
+     "w": "bom"
+    },
+    {
+     "h": "Entregar a chave<br>da sua casa,",
+     "y": 880,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "w": "entregar"
+    },
+    {
+     "h": "não.",
+     "y": 1120,
+     "s": 220,
+     "f": "ant",
+     "c": "red",
+     "w": "não",
+     "a": "slam"
+    }
+   ],
+   "w": "Ajudar"
+  },
+  {
+   "t": "assinatura",
+   "apos": "não"
+  }
+ ]
+}

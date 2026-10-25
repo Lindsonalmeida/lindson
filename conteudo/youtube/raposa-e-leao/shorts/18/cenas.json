@@ -1,0 +1,95 @@
+{
+ "tom": 73.42,
+ "cenas": [
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Bruto",
+     "y": 220,
+     "s": 230,
+     "f": "ant",
+     "c": "gold",
+     "d": 0
+    },
+    {
+     "h": "passou anos se<br>fingindo de tolo",
+     "y": 520,
+     "s": 100,
+     "f": "cg",
+     "c": "",
+     "w": "fingindo"
+    }
+   ],
+   "bg": "foto:top:800px;bottom:-320px"
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Ninguém desconfiava",
+     "y": 380,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "w": "ninguém"
+    },
+    {
+     "h": "Derrubou o rei",
+     "y": 620,
+     "s": 130,
+     "f": "ant",
+     "c": "gold",
+     "w": "derrubou"
+    },
+    {
+     "h": "Fundou a república",
+     "y": 800,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "w": "fundou",
+     "a": "slam"
+    }
+   ],
+   "w": "Ninguém",
+   "bg": "num:509 a.C."
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Às vezes é sábio",
+     "y": 380,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "w": "às"
+    },
+    {
+     "h": "parecer menos",
+     "y": 560,
+     "s": 170,
+     "f": "ant",
+     "c": "",
+     "w": "parecer",
+     "a": "slam",
+     "box": "gold"
+    },
+    {
+     "h": "Quem é subestimado se<br>move sem ser vigiado.",
+     "y": 900,
+     "s": 80,
+     "f": "cg",
+     "c": "",
+     "w": "subestimado"
+    }
+   ],
+   "w": "Maquiavel"
+  },
+  {
+   "t": "assinatura",
+   "apos": "vigiado"
+  }
+ ]
+}

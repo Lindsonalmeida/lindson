@@ -1,0 +1,119 @@
+{
+ "tom": 65.41,
+ "cenas": [
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Por que tudo",
+     "y": 300,
+     "s": 120,
+     "f": "ant",
+     "c": "",
+     "d": 0
+    },
+    {
+     "h": "apodrece",
+     "y": 460,
+     "s": 230,
+     "f": "ant",
+     "c": "red",
+     "w": "apodrecem"
+    },
+    {
+     "h": "com o tempo?",
+     "y": 740,
+     "s": 100,
+     "f": "cg",
+     "c": "",
+     "w": "tempo"
+    }
+   ],
+   "bg": "glow:rgba(142,27,27,.3):40"
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Volte à",
+     "y": 300,
+     "s": 120,
+     "f": "ant",
+     "c": "",
+     "w": "voltar"
+    },
+    {
+     "h": "origem",
+     "y": 450,
+     "s": 240,
+     "f": "ant",
+     "c": "gold",
+     "w": "origens",
+     "a": "slam"
+    }
+   ],
+   "w": "Maquiavel",
+   "bg": "num:III.1"
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "<span class='gold'>?</span> Por que começou",
+     "y": 380,
+     "s": 90,
+     "f": "ant",
+     "c": "",
+     "w": "começou",
+     "x": "l"
+    },
+    {
+     "h": "<span class='gold'>?</span> Quais eram as regras",
+     "y": 540,
+     "s": 90,
+     "f": "ant",
+     "c": "",
+     "w": "regras",
+     "x": "l"
+    },
+    {
+     "h": "<span class='gold'>?</span> O que te fez crescer",
+     "y": 700,
+     "s": 90,
+     "f": "ant",
+     "c": "",
+     "w": "crescer",
+     "x": "l"
+    }
+   ],
+   "w": "Lembrar"
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Quem se afasta da origem",
+     "y": 240,
+     "s": 80,
+     "f": "cg",
+     "c": "dim",
+     "w": "quem"
+    },
+    {
+     "h": "não se<br>reconhece<br>mais",
+     "y": 380,
+     "s": 150,
+     "f": "ant",
+     "c": "gold",
+     "w": "reconhece"
+    }
+   ],
+   "w": "Quem",
+   "bg": "foto:top:640px;bottom:-320px"
+  },
+  {
+   "t": "assinatura",
+   "apos": "mais"
+  }
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "tom": 69.3,
+ "cenas": [
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Ser o primeiro<br>a sugerir",
+     "y": 340,
+     "s": 130,
+     "f": "ant",
+     "c": "",
+     "d": 0
+    },
+    {
+     "h": "é perigoso",
+     "y": 640,
+     "s": 170,
+     "f": "ant",
+     "c": "red",
+     "w": "perigoso",
+     "a": "slam"
+    }
+   ],
+   "bg": "num:III.35"
+  },
+  {
+   "t": "duo",
+   "w": "Se",
+   "dir": "v",
+   "a": {
+    "k": "Deu certo",
+    "s": "o mérito é de todos",
+    "c": "#E2BE4A",
+    "w": "certo"
+   },
+   "b": {
+    "k": "Deu errado",
+    "s": "a culpa é só sua",
+    "c": "#E0453C",
+    "w": "errado"
+   }
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "<span class='gold'>01</span> Proponha com calma",
+     "y": 400,
+     "s": 90,
+     "f": "ant",
+     "c": "",
+     "w": "calma",
+     "x": "l"
+    },
+    {
+     "h": "<span class='gold'>02</span> Sem paixão",
+     "y": 560,
+     "s": 90,
+     "f": "ant",
+     "c": "",
+     "w": "paixão",
+     "x": "l"
+    },
+    {
+     "h": "<span class='gold'>03</span> Comprometa os outros",
+     "y": 720,
+     "s": 90,
+     "f": "ant",
+     "c": "",
+     "w": "comprometam",
+     "x": "l"
+    }
+   ],
+   "w": "Maquiavel"
+  },
+  {
+   "t": "assinatura",
+   "apos": "comprometam"
+  }
+ ]
+}

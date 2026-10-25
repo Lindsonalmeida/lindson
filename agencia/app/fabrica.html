@@ -66,6 +66,21 @@ input:focus-visible,select:focus-visible,textarea:focus-visible,button:focus-vis
 .edit input,.edit textarea{font-size:13px;padding:7px 9px}
 .edit textarea{min-height:56px}
 .muted{color:var(--muted)}
+.vgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(250px,100%),1fr));gap:14px}
+.vgrid.lg{grid-template-columns:repeat(auto-fill,minmax(min(380px,100%),1fr))}
+.vid{background:var(--panel);border:1px solid var(--line);border-radius:16px;overflow:hidden;display:grid;min-width:0}
+.vid video{width:100%;aspect-ratio:9/16;background:#000;display:block;object-fit:cover}
+.vgrid.lg .vid video{aspect-ratio:16/9}
+.vid .vb{padding:12px;display:grid;gap:10px}
+.vid .vb b{font:800 15px/1.25 var(--f-display)}
+.vid .vb .row .btn{padding:9px 12px;font-size:13px}
+.vid.postado{opacity:.7}
+.vid .pend{aspect-ratio:9/16;display:grid;place-items:center;background:var(--soft);color:var(--muted);font:700 12px var(--f-mono);letter-spacing:.1em;text-transform:uppercase;text-align:center;padding:12px}
+.vgrid.lg .vid .pend{aspect-ratio:16/9}
+.filt{display:flex;gap:8px;flex-wrap:wrap}
+.filt button{border:1px solid var(--line);background:transparent;color:var(--fg);border-radius:99px;padding:7px 14px;font:700 13px var(--f-body);cursor:pointer}
+.filt button[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+
 .msg{padding:12px 14px;border-radius:12px;background:var(--soft);font-weight:600}
 .msg.err{background:color-mix(in srgb,var(--red) 14%,transparent)}
 .msg.good{background:color-mix(in srgb,var(--ok) 16%,transparent)}
@@ -104,6 +119,7 @@ pre.cap{white-space:pre-wrap;font:500 14px/1.55 var(--f-body);margin:0}
     <button data-v="agenda">Agenda</button>
     <button data-v="fotos">Fotos</button>
     <button data-v="marca">Identidade</button>
+    <button data-v="maq">Maquiavel</button>
   </nav>
 </header>
 
@@ -228,6 +244,21 @@ pre.cap{white-space:pre-wrap;font:500 14px/1.55 var(--f-body);margin:0}
     <div class="row"><a class="btn" id="mais-ident" href="#" target="_blank" rel="noopener">Pedir outra identidade no WhatsApp</a><span class="muted" id="whats-txt"></span></div>
   </div>
 </section>
+
+<!-- MAQUIAVEL (canal Raposa e Leão) -->
+<section class="view" id="v-maq" hidden>
+  <div class="card">
+    <div class="mono dot">Canal Raposa e Leão · YouTube</div>
+    <h2>Vídeos do Maquiavel</h2>
+    <p class="muted" style="margin:0">Assista, baixe, copie a legenda completa (com hashtags) e marque como postado. Os vídeos novos aparecem aqui sozinhos assim que ficam prontos.</p>
+    <div class="row" style="justify-content:space-between">
+      <div class="filt" id="maq-filt"><button data-f="todos" aria-pressed="true">Todos</button><button data-f="a postar" aria-pressed="false">A postar</button><button data-f="postado" aria-pressed="false">Postados</button></div>
+      <span class="mono" id="maq-cont"></span>
+    </div>
+  </div>
+  <div class="card"><div class="mono dot">Shorts · 9:16</div><div class="vgrid" id="maq-shorts"></div></div>
+  <div class="card"><div class="mono dot">Vídeos longos · 16:9</div><div class="vgrid lg" id="maq-longos"></div></div>
+</section>
 </div>
 
 <a class="support" id="suporte" href="#" target="_blank" rel="noopener">Suporte</a>
@@ -272,6 +303,7 @@ async function boot(){
   db.collection('fotos').onSnapshot(s=>{fotos=s.docs.map(d=>({id:d.id,...d.data()})).sort((a,b)=>(a.criadaEm||0)-(b.criadaEm||0));renderFotos();renderTudo()});
   db.collection('conteudos').onSnapshot(s=>{conteudos=s.docs.map(d=>({id:d.id,...d.data()})).sort((a,b)=>(b.criadoEm||0)-(a.criadoEm||0));renderTudo()});
   db.collection('marca').onSnapshot(s=>{marcaFiles=s.docs.map(d=>({id:d.id,...d.data()}));renderMarcaFiles()});
+  db.collection('maquiavel').onSnapshot(s=>{maqVids=s.docs.map(d=>({id:d.id,...d.data()})).sort((a,b)=>(a.ordem||0)-(b.ordem||0));renderMaq()},e=>{$('#maq-cont').textContent='Erro: '+e.message});
   status(sample?'':'A IA não está liberada nesta visualização. Você ainda pode ver, editar e baixar.', sample?'':'err');
   if(!assets){$('#up-fotos').disabled=true;$('#up-marca').disabled=true}
 }
@@ -707,9 +739,47 @@ function semente(id){let h=7;for(const ch of String(id))h=(h*31+ch.charCodeAt(0)
 
 // ---------- UI geral ----------
 function pintarTipos(){$$('#types .type').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.t===tipo)));$('#wrap-telas').hidden=tipo!=='carrossel'}
+
+// ---------- Maquiavel (canal Raposa e Leão) ----------
+let maqVids=[],maqFiltro='todos';
+function renderMaq(){
+  const vis=maqVids.filter(v=>maqFiltro==='todos'||(v.status||'a postar')===maqFiltro);
+  const post=maqVids.filter(v=>v.status==='postado').length;
+  $('#maq-cont').textContent=maqVids.length?`${post} postado${post===1?'':'s'} de ${maqVids.length}`:'';
+  for(const [fmt,el] of [['short','#maq-shorts'],['longo','#maq-longos']]){
+    const box=$(el),lista=vis.filter(v=>v.formato===fmt);
+    if(!lista.length){box.innerHTML='';const p=document.createElement('p');p.className='muted';p.style.margin='0';p.textContent=maqVids.some(v=>v.formato===fmt)?'Nenhum vídeo neste filtro.':(fmt==='short'?'Os Shorts aparecem aqui conforme ficam prontos.':'Os vídeos longos aparecem aqui conforme ficam prontos.');box.appendChild(p);continue}
+    box.replaceChildren(...lista.map(cardMaq));
+  }
+}
+function cardMaq(v){
+  const st=v.status==='postado'?'postado':'a postar';
+  const d=document.createElement('div');d.className='vid'+(st==='postado'?' postado':'');
+  if(v.url){const vd=document.createElement('video');vd.src=v.url;vd.controls=true;vd.preload='metadata';vd.playsInline=true;d.appendChild(vd)}
+  else{const p=document.createElement('div');p.className='pend';p.textContent='Vídeo em produção';d.appendChild(p)}
+  const b=document.createElement('div');b.className='vb';
+  const top=document.createElement('div');top.className='row';top.style.justifyContent='space-between';
+  const n=document.createElement('span');n.className='mono';n.textContent=(v.formato==='longo'?'Longo ':'Short ')+String(v.num).padStart(2,'0')+(v.dia?' · '+v.dia:'');
+  const c=document.createElement('span');c.className='chip '+(st==='postado'?'ok':'warn');c.textContent=st==='postado'?'Postado':'A postar';
+  top.append(n,c);
+  const t=document.createElement('b');t.textContent=v.titulo||'';
+  const r1=document.createElement('div');r1.className='row';
+  r1.append(btnCopiar('Copiar legenda completa',()=>v.legenda||'','sun'),btnCopiar('Copiar título',()=>v.titulo||'','ghost'));
+  const r2=document.createElement('div');r2.className='row';
+  if(v.comentario)r2.append(btnCopiar('Copiar comentário fixado',()=>v.comentario,'ghost'));
+  if(v.url&&downloads){const bx=document.createElement('button');bx.className='btn ghost';bx.textContent='Baixar vídeo';bx.onclick=async()=>{bx.disabled=true;bx.textContent='Preparando…';try{const blob=await (await fetch(v.url)).blob();await downloads.save({filename:'raposa-e-leao-'+v.formato+'-'+String(v.num).padStart(2,'0')+'.mp4',data:blob});bx.textContent='Baixar vídeo'}catch(e){bx.textContent='Não baixou'}bx.disabled=false};r2.append(bx)}
+  const sb=document.createElement('button');sb.className='btn '+(st==='postado'?'ghost':'blue');sb.textContent=st==='postado'?'Voltar para "a postar"':'Marcar como postado';
+  sb.onclick=async()=>{sb.disabled=true;try{await db.doc('maquiavel/'+v.id).update({status:st==='postado'?'a postar':'postado',postadoEm:st==='postado'?null:Date.now()})}catch(e){sb.textContent='Não salvou';sb.disabled=false}};
+  r2.append(sb);
+  b.append(top,t,r1,r2);d.appendChild(b);return d;
+}
+function btnCopiar(rot,txt,cls){const x=document.createElement('button');x.className='btn '+cls;x.textContent=rot;
+  x.onclick=async()=>{try{await navigator.clipboard.writeText(txt());x.textContent='Copiado ✓'}catch(e){window.prompt('Copie o texto:',txt());}setTimeout(()=>{x.textContent=rot},2000)};return x}
+
 function ir(v){$$('nav button').forEach(b=>b.setAttribute('aria-current',String(b.dataset.v===v)));$$('section.view').forEach(s=>s.hidden=s.id!=='v-'+v);try{localStorage.setItem('fab-aba',v)}catch(e){};if(v==='agenda')renderAgenda();if(v==='marca')renderPrevMarca()}
 function ligarUI(){
   $$('nav button').forEach(b=>b.onclick=()=>ir(b.dataset.v));
+  $$('#maq-filt button').forEach(b=>b.onclick=()=>{maqFiltro=b.dataset.f;$$('#maq-filt button').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));renderMaq()});
   $$('[data-go]').forEach(b=>b.onclick=()=>ir(b.dataset.go));
   $$('#types .type').forEach(b=>b.onclick=()=>{tipo=b.dataset.t;pintarTipos()});
   $('#gerar').onclick=gerar;

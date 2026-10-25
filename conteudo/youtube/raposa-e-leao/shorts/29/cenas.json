@@ -1,0 +1,86 @@
+{
+ "tom": 61.74,
+ "cenas": [
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "O mesmo jeito<br>de agir",
+     "y": 300,
+     "s": 130,
+     "f": "ant",
+     "c": "",
+     "d": 0
+    },
+    {
+     "h": "dá certo numa época",
+     "y": 600,
+     "s": 80,
+     "f": "cg",
+     "c": "gold",
+     "w": "certo"
+    },
+    {
+     "h": "e afunda em outra",
+     "y": 720,
+     "s": 80,
+     "f": "cg",
+     "c": "red",
+     "w": "afunda"
+    }
+   ],
+   "bg": "num:XXV"
+  },
+  {
+   "t": "duo",
+   "w": "Quem",
+   "dir": "v",
+   "a": {
+    "k": "Tempo calmo",
+    "s": "o cauteloso brilha",
+    "c": "#E2BE4A",
+    "w": "brilha"
+   },
+   "b": {
+    "k": "Mudança",
+    "s": "o cauteloso quebra",
+    "c": "#E0453C",
+    "w": "quebra"
+   }
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Mude com<br>os tempos",
+     "y": 360,
+     "s": 170,
+     "f": "ant",
+     "c": "gold",
+     "w": "mudar"
+    },
+    {
+     "h": "O que te trouxe até aqui",
+     "y": 760,
+     "s": 80,
+     "f": "cg",
+     "c": "",
+     "w": "trouxe"
+    },
+    {
+     "h": "talvez não te leve adiante",
+     "y": 880,
+     "s": 80,
+     "f": "cg",
+     "c": "dim",
+     "w": "talvez"
+    }
+   ],
+   "w": "Ele"
+  },
+  {
+   "t": "assinatura",
+   "apos": "adiante"
+  }
+ ]
+}

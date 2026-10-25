@@ -1,0 +1,134 @@
+{
+ "tom": 82.41,
+ "cenas": [
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Neutro",
+     "y": 400,
+     "s": 230,
+     "f": "ant"
+    },
+    {
+     "h": "te protege?",
+     "y": 680,
+     "s": 110,
+     "f": "cg",
+     "c": "dim",
+     "w": "protege"
+    },
+    {
+     "h": "<div style='width:960px;height:60px;margin:0 auto;background:repeating-linear-gradient(90deg,#3a3122 0 110px,#0B0A08 110px 116px);border-top:4px solid #C9A227'></div>",
+     "y": 960,
+     "f": "",
+     "d": 0
+    },
+    {
+     "h": "Maquiavel discorda.",
+     "y": 1100,
+     "s": 90,
+     "f": "cg",
+     "c": "red",
+     "w": "discorda"
+    }
+   ]
+  },
+  {
+   "t": "duo",
+   "w": "Quando",
+   "dir": "v",
+   "a": {
+    "k": "Quem ganha",
+    "s": "não te deve nada",
+    "c": "#E2BE4A"
+   },
+   "b": {
+    "k": "Quem perde",
+    "s": "não te perdoa",
+    "c": "#E0453C",
+    "w": "perder"
+   },
+   "meio": "E VOCÊ?",
+   "meioW": "perdoa"
+  },
+  {
+   "t": "stack",
+   "w": "Ele",
+   "items": [
+    {
+     "h": "Seja",
+     "y": 360,
+     "s": 110,
+     "f": "cg"
+    },
+    {
+     "h": "Amigo",
+     "y": 490,
+     "s": 220,
+     "f": "ant",
+     "c": "gold",
+     "w": "amigo"
+    },
+    {
+     "h": "ou",
+     "y": 760,
+     "s": 90,
+     "f": "cg",
+     "c": "dim",
+     "w": "ou"
+    },
+    {
+     "h": "Inimigo",
+     "y": 860,
+     "s": 220,
+     "f": "ant",
+     "c": "red",
+     "w": "inimigo"
+    },
+    {
+     "h": "de verdade",
+     "y": 1130,
+     "s": 120,
+     "f": "ant",
+     "box": "gold",
+     "w": "verdade#2",
+     "a": "slam"
+    }
+   ]
+  },
+  {
+   "t": "stack",
+   "w": "quem#3",
+   "bg": "glow:rgba(142,27,27,.35):50",
+   "items": [
+    {
+     "h": "Em cima do muro",
+     "y": 520,
+     "s": 120,
+     "f": "ant",
+     "w": "muro"
+    },
+    {
+     "h": "<div style='width:960px;height:60px;margin:0 auto;background:repeating-linear-gradient(90deg,#3a3122 0 110px,#0B0A08 110px 116px);border-top:4px solid #C9A227'></div>",
+     "y": 700,
+     "f": "",
+     "d": 0
+    },
+    {
+     "h": "Presa de todos",
+     "y": 840,
+     "s": 170,
+     "f": "ant",
+     "box": "red",
+     "w": "presa",
+     "a": "slam"
+    }
+   ]
+  },
+  {
+   "t": "assinatura",
+   "apos": "todos"
+  }
+ ]
+}
