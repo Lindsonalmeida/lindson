@@ -821,7 +821,7 @@ function bombouArte(cv,item,img){
 let noticias=[],notReg='MA',notFiltro='a postar',notLimite=30;const notImgs={};
 function quandoTxt(iso){if(!iso)return'';const d=new Date(iso),m=Math.round((Date.now()-d)/60000);if(isNaN(m))return'';if(m<60)return`há ${Math.max(m,1)} min`;if(m<1440)return`há ${Math.round(m/60)} h`;return d.toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit'})+' '+d.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'})}
 function renderNot(){
-  const doReg=noticias.filter(n=>n.regiao===notReg);const vis=doReg.filter(n=>(n.status||'a postar')===notFiltro);
+  const doReg=noticias.filter(n=>n.regiao===notReg&&n.status!=='descartada');const vis=doReg.filter(n=>(n.status||'a postar')===notFiltro);
   const pend=doReg.filter(n=>(n.status||'a postar')==='a postar').length;
   $('#not-cont').textContent='';const npost=doReg.length-pend;$$('#not-filt button').forEach(b=>b.textContent=b.dataset.f==='postado'?`Postadas (${npost})`:`A postar (${pend})`);
   const box=$('#not-lista');
@@ -849,7 +849,12 @@ function cardNot(n){
     inp.onchange=async()=>{const fl=inp.files[0];if(!fl)return;lb.firstChild.textContent='Enviando…';try{const bl=await reduzir(fl,1400);const up=await assets.upload(bl,{type:'image/jpeg'});await db.doc('noticias/'+n.id).update({foto:up.url,fotoId:up.id})}catch(e){lb.firstChild.textContent='Não enviou'}};r2.append(lb)}
   const sb=document.createElement('button');sb.className='btn '+(st==='postado'?'ghost':'blue');sb.textContent=st==='postado'?'Voltar para "a postar"':'Marcar como postada';
   sb.onclick=async()=>{sb.disabled=true;try{await db.doc('noticias/'+n.id).update({status:st==='postado'?'a postar':'postado'})}catch(e){sb.textContent='Não salvou';sb.disabled=false}};r2.append(sb);
-  b.append(top,t,r,f,r1,r2);d.appendChild(b);return d;
+  // descartar: some da lista (fica guardada só para a busca não trazer a mesma notícia de novo)
+  const r3=document.createElement('div');r3.className='row';
+  const db3=document.createElement('button');db3.className='btn ghost';db3.style.color='var(--red)';db3.textContent='Descartar notícia';let conf=false;
+  db3.onclick=async()=>{if(!conf){conf=true;db3.textContent='Toque de novo para descartar';setTimeout(()=>{conf=false;db3.textContent='Descartar notícia'},4000);return}
+    db3.disabled=true;try{await db.doc('noticias/'+n.id).update({status:'descartada',descartadaEm:Date.now()})}catch(e){db3.textContent='Não descartou';db3.disabled=false}};r3.append(db3);
+  b.append(top,t,r,f,r1,r2,r3);d.appendChild(b);return d;
 }
 
 // ---------- Maquiavel (canal Raposa e Leão) ----------
