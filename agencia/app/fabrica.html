@@ -1,6 +1,6 @@
 <title>Fábrica de Conteúdo</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=JetBrains+Mono:wght@500;700&family=Manrope:wght@500;600;700;800&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Archivo:wght@600;800&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=JetBrains+Mono:wght@500;700&family=Manrope:wght@500;600;700;800&display=swap">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 <style>
@@ -66,6 +66,17 @@ input:focus-visible,select:focus-visible,textarea:focus-visible,button:focus-vis
 .edit input,.edit textarea{font-size:13px;padding:7px 9px}
 .edit textarea{min-height:56px}
 .muted{color:var(--muted)}
+.ncards{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(300px,100%),1fr));gap:14px}
+.ncard{background:var(--panel);border:1px solid var(--line);border-radius:16px;overflow:hidden;display:grid;min-width:0;align-content:start}
+.ncard canvas{width:100%;aspect-ratio:4/5;display:block;background:#0A0A0A}
+.ncard .nb{padding:12px;display:grid;gap:10px}
+.ncard .nb b{font:800 15px/1.25 var(--f-display)}
+.ncard .nb p{margin:0;font-size:13px;color:var(--muted)}
+.ncard .nb .row .btn{padding:9px 12px;font-size:13px}
+.ncard.postado{opacity:.65}
+.subtabs{display:flex;gap:8px}
+.subtabs button{border:2px solid var(--line);background:transparent;color:var(--fg);border-radius:12px;padding:10px 18px;font:800 15px var(--f-body);cursor:pointer}
+.subtabs button[aria-pressed="true"]{background:#E10600;border-color:#E10600;color:#fff}
 .vgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(250px,100%),1fr));gap:14px}
 .vgrid.lg{grid-template-columns:repeat(auto-fill,minmax(min(380px,100%),1fr))}
 .vid{background:var(--panel);border:1px solid var(--line);border-radius:16px;overflow:hidden;display:grid;min-width:0}
@@ -120,6 +131,7 @@ pre.cap{white-space:pre-wrap;font:500 14px/1.55 var(--f-body);margin:0}
     <button data-v="fotos">Fotos</button>
     <button data-v="marca">Identidade</button>
     <button data-v="maq">Maquiavel</button>
+    <button data-v="not">Notícias</button>
   </nav>
 </header>
 
@@ -245,6 +257,22 @@ pre.cap{white-space:pre-wrap;font:500 14px/1.55 var(--f-body);margin:0}
   </div>
 </section>
 
+<!-- NOTÍCIAS (perfil BOMBOU) -->
+<section class="view" id="v-not" hidden>
+  <div class="card">
+    <div class="mono dot">Perfil de notícias · BOMBOU</div>
+    <h2>Notícias da hora</h2>
+    <p class="muted" style="margin:0">A busca roda sozinha a cada 3 horas e as notícias vão acumulando aqui, já com arte no estilo do perfil e legenda pronta. Confira o fato na fonte antes de postar.</p>
+    <div class="row" style="justify-content:space-between">
+      <div class="subtabs" id="not-reg"><button data-r="MA" aria-pressed="true">Maranhão</button><button data-r="BR" aria-pressed="false">Brasil</button></div>
+      <div class="filt" id="not-filt"><button data-f="todos" aria-pressed="true">Todas</button><button data-f="a postar" aria-pressed="false">A postar</button><button data-f="postado" aria-pressed="false">Postadas</button></div>
+    </div>
+    <span class="mono" id="not-cont"></span>
+  </div>
+  <div class="ncards" id="not-lista"></div>
+  <div class="row" style="justify-content:center"><button class="btn ghost" id="not-mais" hidden>Carregar mais</button></div>
+</section>
+
 <!-- MAQUIAVEL (canal Raposa e Leão) -->
 <section class="view" id="v-maq" hidden>
   <div class="card">
@@ -303,6 +331,7 @@ async function boot(){
   db.collection('fotos').onSnapshot(s=>{fotos=s.docs.map(d=>({id:d.id,...d.data()})).sort((a,b)=>(a.criadaEm||0)-(b.criadaEm||0));renderFotos();renderTudo()});
   db.collection('conteudos').onSnapshot(s=>{conteudos=s.docs.map(d=>({id:d.id,...d.data()})).sort((a,b)=>(b.criadoEm||0)-(a.criadoEm||0));renderTudo()});
   db.collection('marca').onSnapshot(s=>{marcaFiles=s.docs.map(d=>({id:d.id,...d.data()}));renderMarcaFiles()});
+  db.collection('noticias').onSnapshot(s=>{noticias=s.docs.map(d=>({id:d.id,...d.data()})).sort((a,b)=>(b.quando||'').localeCompare(a.quando||''));renderNot()},e=>{$('#not-cont').textContent='Erro: '+e.message});
   db.collection('maquiavel').onSnapshot(s=>{maqVids=s.docs.map(d=>({id:d.id,...d.data()})).sort((a,b)=>(a.ordem||0)-(b.ordem||0));renderMaq()},e=>{$('#maq-cont').textContent='Erro: '+e.message});
   status(sample?'':'A IA não está liberada nesta visualização. Você ainda pode ver, editar e baixar.', sample?'':'err');
   if(!assets){$('#up-fotos').disabled=true;$('#up-marca').disabled=true}
@@ -740,6 +769,83 @@ function semente(id){let h=7;for(const ch of String(id))h=(h*31+ch.charCodeAt(0)
 // ---------- UI geral ----------
 function pintarTipos(){$$('#types .type').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.t===tipo)));$('#wrap-telas').hidden=tipo!=='carrossel'}
 
+// ---------- Notícias (perfil BOMBOU) ----------
+// BOMBOU — desenho do post de notícia (1080x1350). Usado na identidade e na Fábrica.
+// item: {titulo (com *destaque*), chapeu, regiao:'MA'|'BR', fonte, quando, foto(img já carregada ou null)}
+function bombouArte(cv,item,img){
+  const W=1080,H=1350;cv.width=W;cv.height=H;const x=cv.getContext('2d');
+  const RED='#E10600',YEL='#FFD400',INK='#0A0A0A',WH='#FFFFFF';
+  x.fillStyle=INK;x.fillRect(0,0,W,H);
+  const fotoH=img?760:H;
+  if(img){const r=Math.max(W/img.width,fotoH/img.height),w=img.width*r,h=img.height*r;x.drawImage(img,(W-w)/2,(fotoH-h)/2,w,h);
+    const g=x.createLinearGradient(0,fotoH-420,0,fotoH);g.addColorStop(0,'rgba(10,10,10,0)');g.addColorStop(1,'rgba(10,10,10,1)');x.fillStyle=g;x.fillRect(0,fotoH-420,W,420)}
+  else{ // fundo de marca: listras diagonais + sigla gigante
+    x.save();x.globalAlpha=.10;x.fillStyle=RED;for(let i=-H;i<W+H;i+=90){x.beginPath();x.moveTo(i,0);x.lineTo(i+40,0);x.lineTo(i+40-H,H);x.lineTo(i-H,H);x.fill()}x.restore();
+    const rg=x.createRadialGradient(W/2,420,40,W/2,420,700);rg.addColorStop(0,'rgba(225,6,0,.45)');rg.addColorStop(1,'rgba(225,6,0,0)');x.fillStyle=rg;x.fillRect(0,0,W,H);
+    x.save();x.font='400 560px Anton';x.textAlign='center';x.fillStyle='rgba(255,255,255,.06)';x.fillText(item.regiao==='MA'?'MA':'BR',W/2,640);x.restore();
+    // sirene
+    x.save();x.translate(W/2,330);x.fillStyle=RED;x.beginPath();x.arc(0,0,110,Math.PI,0);x.lineTo(110,40);x.lineTo(-110,40);x.fill();x.fillStyle=YEL;x.fillRect(-140,40,280,36);
+    x.strokeStyle=YEL;x.lineWidth=12;x.lineCap='round';for(const a of[-2.6,-2.2,-1.57,-.94,-.54]){x.beginPath();x.moveTo(Math.cos(a)*150,Math.sin(a)*150);x.lineTo(Math.cos(a)*200,Math.sin(a)*200);x.stroke()}
+    x.fillStyle='rgba(255,255,255,.35)';x.beginPath();x.ellipse(-40,-40,22,40,-.5,0,7);x.fill();x.restore();
+  }
+  // logo
+  x.fillStyle=RED;x.fillRect(48,48,300,92);x.font='400 70px Anton';x.fillStyle=WH;x.textBaseline='middle';x.fillText('BOMBOU',70,96);
+  x.fillStyle=YEL;x.beginPath();x.moveTo(318,58);x.lineTo(340,58);x.lineTo(332,108);x.lineTo(326,108);x.fill();x.fillRect(325,116,9,9);
+  const reg=item.regiao==='MA'?'MARANHÃO':'BRASIL';x.font='700 30px "Archivo Black", Anton';const rw=x.measureText(reg).width+40;
+  x.fillStyle=YEL;x.fillRect(348,48,rw,92);x.fillStyle=INK;x.fillText(reg,368,96);
+  // chapéu
+  const ch=(item.chapeu||'URGENTE').toUpperCase();x.font='400 46px Anton';const cw=x.measureText(ch).width;
+  let ty=img?fotoH-30:760;
+  // manchete: quebra de linhas com *destaque*
+  const raw=(item.titulo||'').toUpperCase();const toks=[];let hl=false;for(const p of raw.split(/(\*)/)){if(p==='*'){hl=!hl;continue}for(const w of p.split(/\s+/).filter(Boolean))toks.push({w,hl})}
+  let fs=100,lines;
+  for(;fs>=58;fs-=4){x.font=`400 ${fs}px Anton`;lines=[[]];let lw=0;for(const t of toks){const ww=x.measureText(t.w+' ').width;if(lw+ww>984&&lines[lines.length-1].length){lines.push([]);lw=0}lines[lines.length-1].push(t);lw+=ww}
+    if(lines.length*fs*1.02<= (img?H-fotoH-200:H-ty-170))break}
+  const lh=fs*1.02;let y0=img?fotoH+fs*.5+70:ty;
+  // barra do chapéu acima da manchete
+  const cy=y0-lh/2-58;x.fillStyle=RED;x.fillRect(48,cy-34,cw+92,68);x.fillStyle=WH;x.beginPath();x.arc(80,cy,12,0,7);x.fill();x.font='400 46px Anton';x.fillText(ch,104,cy+2);
+  x.font=`400 ${fs}px Anton`;x.textBaseline='middle';
+  lines.forEach((ln,i)=>{let lx=48;const y=y0+i*lh;for(const t of ln){const ww=x.measureText(t.w).width;if(t.hl){x.fillStyle=YEL;x.fillRect(lx-6,y-fs*.5,ww+12,fs*.98);x.fillStyle=INK}else x.fillStyle=WH;x.fillText(t.w,lx,y+2);lx+=ww+x.measureText(' ').width}});
+  // rodapé
+  x.fillStyle=YEL;x.fillRect(48,H-112,984,6);x.font='700 30px "Archivo Black", Anton';x.fillStyle=WH;x.textBaseline='alphabetic';
+  x.fillText('@bombou'+(item.regiao==='MA'?'.ma':'.br'),48,H-56);x.textAlign='right';x.fillStyle='rgba(255,255,255,.7)';x.font='600 28px Archivo, sans-serif';
+  x.fillText((item.fonte?'Fonte: '+item.fonte:'')+'  •  leia a legenda',1032,H-56);x.textAlign='left';
+}
+
+let noticias=[],notReg='MA',notFiltro='todos',notLimite=30;const notImgs={};
+function quandoTxt(iso){if(!iso)return'';const d=new Date(iso),m=Math.round((Date.now()-d)/60000);if(isNaN(m))return'';if(m<60)return`há ${Math.max(m,1)} min`;if(m<1440)return`há ${Math.round(m/60)} h`;return d.toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit'})+' '+d.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'})}
+function renderNot(){
+  const doReg=noticias.filter(n=>n.regiao===notReg);const vis=doReg.filter(n=>notFiltro==='todos'||(n.status||'a postar')===notFiltro);
+  const pend=doReg.filter(n=>(n.status||'a postar')==='a postar').length;
+  $('#not-cont').textContent=doReg.length?`${doReg.length} notícia${doReg.length===1?'':'s'} · ${pend} a postar`:'';
+  const box=$('#not-lista');
+  if(!vis.length){box.innerHTML='';const p=document.createElement('p');p.className='muted';p.textContent=doReg.length?'Nenhuma notícia neste filtro.':'As notícias chegam aqui a cada 3 horas.';box.appendChild(p);$('#not-mais').hidden=true;return}
+  box.replaceChildren(...vis.slice(0,notLimite).map(cardNot));$('#not-mais').hidden=vis.length<=notLimite;
+}
+async function fotoNot(n){if(!n.foto)return null;if(notImgs[n.foto])return notImgs[n.foto];const im=new Image();im.crossOrigin='anonymous';im.src=n.foto;try{await im.decode();notImgs[n.foto]=im;return im}catch(e){return null}}
+async function pintarNot(cv,n){try{await document.fonts.load('400 100px Anton');await document.fonts.load('700 30px "Archivo Black"')}catch(e){}bombouArte(cv,n,await fotoNot(n))}
+const notObs=('IntersectionObserver' in window)?new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){notObs.unobserve(e.target);pintarNot(e.target,e.target._n)}}),{rootMargin:'400px'}):null;
+function cardNot(n){
+  const st=n.status==='postado'?'postado':'a postar';
+  const d=document.createElement('div');d.className='ncard'+(st==='postado'?' postado':'');
+  const cv=document.createElement('canvas');cv.width=1080;cv.height=1350;cv._n=n;d.appendChild(cv);if(notObs)notObs.observe(cv);else pintarNot(cv,n);
+  const b=document.createElement('div');b.className='nb';
+  const top=document.createElement('div');top.className='row';top.style.justifyContent='space-between';
+  const q=document.createElement('span');q.className='mono';q.textContent=quandoTxt(n.quando);
+  const c=document.createElement('span');c.className='chip '+(st==='postado'?'ok':'warn');c.textContent=st==='postado'?'Postada':'A postar';top.append(q,c);
+  const t=document.createElement('b');t.textContent=(n.titulo||'').replace(/\*/g,'');
+  const r=document.createElement('p');r.textContent=n.resumo||'';
+  const f=document.createElement('p');if(n.url){const a=document.createElement('a');a.href=n.url;a.target='_blank';a.rel='noopener';a.textContent='Fonte: '+(n.fonte||'abrir');f.appendChild(a)}else f.textContent=n.fonte?'Fonte: '+n.fonte:'';
+  const r1=document.createElement('div');r1.className='row';r1.append(btnCopiar('Copiar legenda completa',()=>n.legenda||'','sun'));
+  if(downloads){const bx=document.createElement('button');bx.className='btn ghost';bx.textContent='Baixar arte';bx.onclick=async()=>{bx.disabled=true;try{await pintarNot(cv,n);const blob=await new Promise(res=>cv.toBlob(res,'image/png'));await downloads.save({filename:'bombou-'+(n.regiao||'').toLowerCase()+'-'+n.id+'.png',data:blob})}catch(e){bx.textContent='Não baixou'}bx.disabled=false};r1.append(bx)}
+  const r2=document.createElement('div');r2.className='row';
+  if(assets){const lb=document.createElement('label');lb.className='btn ghost';lb.textContent=n.foto?'Trocar foto':'Pôr foto';const inp=document.createElement('input');inp.type='file';inp.accept='image/*';inp.hidden=true;lb.appendChild(inp);
+    inp.onchange=async()=>{const fl=inp.files[0];if(!fl)return;lb.firstChild.textContent='Enviando…';try{const bl=await reduzir(fl,1400);const up=await assets.upload(bl,{type:'image/jpeg'});await db.doc('noticias/'+n.id).update({foto:up.url,fotoId:up.id})}catch(e){lb.firstChild.textContent='Não enviou'}};r2.append(lb)}
+  const sb=document.createElement('button');sb.className='btn '+(st==='postado'?'ghost':'blue');sb.textContent=st==='postado'?'Voltar para "a postar"':'Marcar como postada';
+  sb.onclick=async()=>{sb.disabled=true;try{await db.doc('noticias/'+n.id).update({status:st==='postado'?'a postar':'postado'})}catch(e){sb.textContent='Não salvou';sb.disabled=false}};r2.append(sb);
+  b.append(top,t,r,f,r1,r2);d.appendChild(b);return d;
+}
+
 // ---------- Maquiavel (canal Raposa e Leão) ----------
 let maqVids=[],maqFiltro='todos';
 function renderMaq(){
@@ -779,6 +885,9 @@ function btnCopiar(rot,txt,cls){const x=document.createElement('button');x.class
 function ir(v){$$('nav button').forEach(b=>b.setAttribute('aria-current',String(b.dataset.v===v)));$$('section.view').forEach(s=>s.hidden=s.id!=='v-'+v);try{localStorage.setItem('fab-aba',v)}catch(e){};if(v==='agenda')renderAgenda();if(v==='marca')renderPrevMarca()}
 function ligarUI(){
   $$('nav button').forEach(b=>b.onclick=()=>ir(b.dataset.v));
+  $$('#not-reg button').forEach(b=>b.onclick=()=>{notReg=b.dataset.r;notLimite=30;$$('#not-reg button').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));renderNot()});
+  $$('#not-filt button').forEach(b=>b.onclick=()=>{notFiltro=b.dataset.f;notLimite=30;$$('#not-filt button').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));renderNot()});
+  $('#not-mais').onclick=()=>{notLimite+=30;renderNot()};
   $$('#maq-filt button').forEach(b=>b.onclick=()=>{maqFiltro=b.dataset.f;$$('#maq-filt button').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));renderMaq()});
   $$('[data-go]').forEach(b=>b.onclick=()=>ir(b.dataset.go));
   $$('#types .type').forEach(b=>b.onclick=()=>{tipo=b.dataset.t;pintarTipos()});
