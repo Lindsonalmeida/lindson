@@ -1,0 +1,329 @@
+{
+ "titulo": "10 regras de guerra de Maquiavel para vencer qualquer disputa",
+ "seg": [
+  {
+   "tela": {
+    "t": "abertura",
+    "h": "10 regras de guerra<br>que quase ninguém leu",
+    "s": "A Arte da Guerra · 1521"
+   },
+   "txt": "Antes dos livros modernos sobre poder e estratégia, Maquiavel escreveu um manual militar chamado A Arte da Guerra. E no final desse livro existe uma lista de regras gerais que quase ninguém leu."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Um livro em forma<br><b>de conversa.</b>"
+   },
+   "txt": "A Arte da Guerra foi publicada em 1521 e é o único dos grandes livros políticos de Maquiavel que saiu enquanto ele ainda estava vivo. Ele escreveu em forma de diálogo, como uma conversa num jardim de Florença entre um comandante experiente e jovens interessados em política. No fim dessa conversa, o comandante resume tudo numa lista de regras gerais."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Escritas para a guerra.<br><b>Servem para qualquer disputa.</b>"
+   },
+   "txt": "Ele escreveu para generais. Mas essas regras servem para qualquer disputa: no trabalho, nos negócios, numa negociação ou numa competição. Aqui estão as dez mais úteis."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "1",
+    "h": "O que ajuda o inimigo, te prejudica",
+    "s": "Regra geral"
+   },
+   "txt": "Regra número um."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "O que ajuda o outro lado<br><b>te prejudica.</b>"
+   },
+   "txt": "Maquiavel começa com a mais simples: o que ajuda o inimigo te prejudica, e o que te ajuda prejudica o inimigo. Parece óbvio, mas muita gente toma decisões sem perguntar quem sai ganhando. Antes de agir, pergunte: isso fortalece quem disputa comigo?"
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Toda escolha<br><b>tem um vencedor.</b>"
+   },
+   "txt": "Um exemplo simples: você dá desconto para fechar uma venda rápida. O cliente ganha, mas talvez o concorrente também ganhe, porque agora o mercado passa a esperar aquele preço. Pensar em quem sai fortalecido por cada decisão é o primeiro passo para jogar com estratégia."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "2",
+    "h": "O plano escondido",
+    "s": "Regra geral"
+   },
+   "txt": "Regra número dois."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "O melhor plano<br><b>é o que ninguém conhece.</b>"
+   },
+   "txt": "Nenhum plano é melhor do que aquele que fica escondido do adversário até ser executado. Quem anuncia o que vai fazer dá tempo para o outro se preparar. No mundo dos negócios, isso vale para lançamentos, negociações e mudanças de carreira."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Fale depois.<br><b>Não antes.</b>"
+   },
+   "txt": "Isso não quer dizer mentir. Quer dizer escolher o momento de revelar. Muitas ideias morrem porque foram contadas cedo demais, para gente demais. Quanto mais importante o movimento, mais discreto ele deve ser até estar pronto para acontecer."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Quem consulta todos<br><b>avisa todos.</b>"
+   },
+   "txt": "Maquiavel liga essa regra a outra: quem consulta todo mundo sobre o que vai fazer acaba avisando todo mundo, inclusive quem não deveria saber. Discrição não é desconfiança de todos. É respeito pelo valor de um plano."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "3",
+    "h": "Saber ver a ocasião",
+    "s": "Regra geral"
+   },
+   "txt": "Regra número três."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Reconhecer a oportunidade<br><b>vale mais que tudo.</b>"
+   },
+   "txt": "Saber reconhecer a oportunidade e aproveitá-la ajuda mais do que qualquer outra coisa. Maquiavel repete essa ideia em vários livros: a sorte traz a ocasião, mas só quem está atento e preparado consegue usar."
+  },
+  {
+   "tela": {
+    "t": "lista",
+    "h": "Como ver a ocasião",
+    "itens": [
+     "Esteja preparado antes",
+     "Observe o que mudou",
+     "Aja rápido quando a porta abrir"
+    ]
+   },
+   "txt": "E como ficar pronto para a ocasião? Esteja preparado antes de ela aparecer, porque, quando ela chega, não dá tempo de se preparar. Observe o que mudou no seu mercado, no seu trabalho, nas pessoas ao redor. E, quando a porta abrir, aja rápido. Oportunidade que espera muito vira oportunidade de outra pessoa."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "4",
+    "h": "Treino vence talento",
+    "s": "Regra geral"
+   },
+   "txt": "Regra número quatro."
+  },
+  {
+   "tela": {
+    "t": "citacao",
+    "h": "A natureza gera poucos homens valentes; a indústria e o exercício fazem muitos.",
+    "s": "A Arte da Guerra"
+   },
+   "txt": "A natureza cria poucos fortes, diz ele. O esforço e o treino criam muitos. E logo em seguida: a disciplina vale mais do que a fúria. Para Maquiavel, não existe dom que substitua a repetição."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "A raiva dura um dia.<br><b>A disciplina dura anos.</b>"
+   },
+   "txt": "Muita gente começa projetos movida por raiva ou empolgação. Funciona por alguns dias. Depois, só a disciplina sustenta. O treino diário, chato e repetitivo é o que separa quem começa de quem termina."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Ninguém nasce pronto.<br><b>Todo mundo pode treinar.</b>"
+   },
+   "txt": "Essa é talvez a regra mais encorajadora do livro. Se a natureza cria poucos fortes e o treino cria muitos, então quase tudo pode ser aprendido: vender, falar em público, liderar, negociar. O que separa as pessoas não é o talento de origem, mas as horas de prática acumuladas."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "5",
+    "h": "Conheça as duas forças",
+    "s": "Regra geral"
+   },
+   "txt": "Regra número cinco."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Dificilmente perde quem conhece<br><b>a própria força e a do outro.</b>"
+   },
+   "txt": "Dificilmente é vencido quem sabe medir a própria força e a força do adversário. A maioria das derrotas vem de uma dessas duas ilusões: achar que é mais forte do que é, ou achar que o outro é mais fraco do que parece."
+  },
+  {
+   "tela": {
+    "t": "lista",
+    "h": "Antes de qualquer disputa",
+    "itens": [
+     "Quanto você aguenta?",
+     "Quanto o outro aguenta?",
+     "Quem precisa mais vencer?"
+    ]
+   },
+   "txt": "Antes de entrar em qualquer disputa, responda três perguntas. Quanto tempo e dinheiro você aguenta? Quanto o outro lado aguenta? E quem precisa mais vencer? Essas respostas dizem mais sobre o resultado do que a coragem de qualquer um dos lados."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "6",
+    "h": "Sem mantimentos, sem vitória",
+    "s": "Regra geral"
+   },
+   "txt": "Regra número seis."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Quem não se abastece<br><b>perde sem lutar.</b>"
+   },
+   "txt": "Quem não prepara os mantimentos é vencido sem precisar de batalha. Hoje, mantimento é caixa, é tempo, é saúde, é equipe. Muitas disputas são perdidas não pelo adversário, mas por falta de fôlego para continuar."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Melhor vencer pela fome<br><b>do que pelo ferro.</b>"
+   },
+   "txt": "Maquiavel completa essa ideia com outra regra: é melhor vencer o inimigo pela fome do que pelo ferro, porque na batalha a sorte pesa mais do que a coragem. Em outras palavras, a vitória mais segura é a que vem da preparação e da paciência, não do confronto direto."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "7",
+    "h": "Mude o plano descoberto",
+    "s": "Regra geral"
+   },
+   "txt": "Regra número sete."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Plano descoberto<br><b>é plano morto.</b>"
+   },
+   "txt": "Mude o plano quando perceber que o inimigo o descobriu. Insistir num caminho que o outro lado já previu é caminhar para a armadilha. Flexibilidade não é fraqueza: é inteligência."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Coisas novas assustam.<br><b>Treine antes.</b>"
+   },
+   "txt": "E ele acrescenta: coisas novas e repentinas assustam uma tropa, enquanto as conhecidas quase não assustam. Por isso, ele aconselha a treinar com confrontos pequenos antes do grande. Teste a sua ideia em pequeno, aprenda com o adversário, e só depois aposte alto."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "8",
+    "h": "Consulte muitos, decida com poucos",
+    "s": "Regra geral"
+   },
+   "txt": "Regra número oito."
+  },
+  {
+   "tela": {
+    "t": "duo",
+    "a": "Consulte muitos",
+    "as": "sobre o que deveria fazer",
+    "b": "Decida com poucos",
+    "bs": "o que você vai fazer"
+   },
+   "txt": "Sobre o que você deveria fazer, ouça muitas pessoas. Sobre o que você realmente vai fazer, converse com poucas. Ouvir muitos te dá visão. Contar o plano para muitos te tira a surpresa."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Escute aberto.<br><b>Decida fechado.</b>"
+   },
+   "txt": "Pense numa empresa que discute uma mudança importante com todos os funcionários e anuncia a decisão antes de estar pronta. A concorrência fica sabendo, o mercado reage, e a vantagem desaparece. Escute aberto, decida fechado."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "9",
+    "h": "O imprevisto custa caro",
+    "s": "Regra geral"
+   },
+   "txt": "Regra número nove."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "O imprevisto é difícil de remediar.<br><b>O previsto, fácil.</b>"
+   },
+   "txt": "Os acidentes repentinos são difíceis de remediar; os que foram pensados antes se resolvem com facilidade. Por isso os melhores estrategistas gastam mais tempo imaginando o que pode dar errado do que sonhando com o que pode dar certo."
+  },
+  {
+   "tela": {
+    "t": "lista",
+    "h": "Antes de agir, pergunte",
+    "itens": [
+     "O que pode dar errado?",
+     "Qual é o plano B?",
+     "Qual sinal me avisa cedo?"
+    ]
+   },
+   "txt": "Um exercício simples: antes de qualquer projeto importante, liste o que pode dar errado, defina um plano B para cada risco e escolha um sinal que te avise cedo de que algo está saindo do trilho. Isso transforma acidentes repentinos em problemas previstos."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "10",
+    "h": "Gente antes de dinheiro",
+    "s": "Regra geral"
+   },
+   "txt": "E a regra número dez."
+  },
+  {
+   "tela": {
+    "t": "citacao",
+    "h": "Homens, ferro, dinheiro e pão são o nervo da guerra; mas os dois primeiros são os mais necessários.",
+    "s": "A Arte da Guerra"
+   },
+   "txt": "Gente, armas, dinheiro e pão são a força da guerra, diz Maquiavel. Mas os dois primeiros valem mais, porque gente e armas conseguem dinheiro e pão, e o contrário não acontece. Nos Discursos, ele repete: bons soldados acham dinheiro, mas dinheiro nem sempre acha bons soldados."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Invista primeiro<br><b>em quem faz.</b>"
+   },
+   "txt": "Para um negócio, isso significa que a primeira prioridade não é juntar dinheiro, mas reunir as pessoas certas e as ferramentas certas. Com gente competente e bons meios, o dinheiro aparece. Com dinheiro e gente errada, ele some."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Disputa é maratona,<br><b>não tiro curto.</b>"
+   },
+   "txt": "Repare que quase todas as regras de Maquiavel têm algo em comum: elas favorecem quem pensa no longo prazo. Esconder o plano, garantir os mantimentos, treinar antes, prever o imprevisto e investir em gente são atitudes de quem quer vencer a guerra, e não apenas uma batalha."
+  },
+  {
+   "tela": {
+    "t": "resumo",
+    "itens": [
+     "O que ajuda o outro te prejudica",
+     "Esconda o plano",
+     "Veja a ocasião",
+     "Treino vence talento",
+     "Conheça as duas forças",
+     "Garanta os mantimentos",
+     "Mude o plano descoberto",
+     "Ouça muitos, decida com poucos",
+     "Preveja o imprevisto",
+     "Gente antes de dinheiro"
+    ]
+   },
+   "txt": "Resumindo as dez regras: o que ajuda o outro te prejudica. Esconda o plano. Veja a ocasião. Treino vence talento. Conheça as duas forças. Garanta os mantimentos. Mude o plano descoberto. Ouça muitos e decida com poucos. Preveja o imprevisto. E invista em gente antes de dinheiro."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Quem planeja resolve fácil.<br><b>Quem improvisa paga caro.</b>"
+   },
+   "txt": "Maquiavel escreveu essas regras para a guerra, mas a lógica é a mesma em qualquer disputa: quem planeja resolve fácil, quem improvisa paga caro."
+  },
+  {
+   "tela": {
+    "t": "fim"
+   },
+   "txt": "Qual dessas regras você mais precisava ouvir? Comente aqui embaixo. E se inscreva: no próximo vídeo, o livro de Maquiavel que quase ninguém lê, e que mostra um lado dele que você não conhece. Raposa e Leão."
+  }
+ ]
+}

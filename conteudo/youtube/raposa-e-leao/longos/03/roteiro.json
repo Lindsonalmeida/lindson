@@ -1,0 +1,270 @@
+{
+ "titulo": "César Bórgia: o homem que inspirou O Príncipe",
+ "seg": [
+  {
+   "tela": {
+    "t": "abertura",
+    "h": "O homem que<br>inspirou O Príncipe",
+    "s": "César Bórgia · 1475–1507"
+   },
+   "txt": "Ele conquistou boa parte do centro da Itália em poucos anos, foi admirado por Maquiavel como exemplo de príncipe novo e perdeu quase tudo em questão de meses."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Um erro.<br><b>E tudo desabou.</b>"
+   },
+   "txt": "O erro que derrubou César Bórgia foi um só. E é um erro que muita gente comete até hoje, nos negócios e na vida. Nesta história, você vai entender qual foi."
+  },
+  {
+   "tela": {
+    "t": "retrato",
+    "h": "Filho do papa",
+    "s": "Roma · fim do século XV"
+   },
+   "txt": "César Bórgia era filho de Rodrigo Bórgia, que em 1492 se tornou o papa Alexandre sexto. Ainda jovem, César foi feito cardeal. Mas a vida religiosa não era o que ele queria."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Trocou o chapéu de cardeal<br><b>pela espada.</b>"
+   },
+   "txt": "Em 1498, ele abandonou o cargo de cardeal, algo raríssimo na época, e passou a se dedicar à política e à guerra. Recebeu do rei da França, Luís doze, o título de duque de Valentinois, e por isso ficou conhecido na Itália como o Valentino."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Um jovem com o mundo<br><b>a seu favor.</b>"
+   },
+   "txt": "Para entender a admiração de Maquiavel, é preciso lembrar como era a Itália da época: dividida em pequenos estados, cidades e senhorios que viviam em guerra uns com os outros, e frequentemente invadida por exércitos estrangeiros, como os franceses e os espanhóis. Nesse cenário, um jovem com dinheiro, apoio do papa e ambição sem limites tinha uma oportunidade rara."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "1",
+    "h": "A subida",
+    "s": "Sorte e armas alheias"
+   },
+   "txt": "Parte um: a subida."
+  },
+  {
+   "tela": {
+    "t": "duo",
+    "a": "Dinheiro",
+    "as": "do papa, seu pai",
+    "b": "Tropas",
+    "bs": "emprestadas da França"
+   },
+   "txt": "A partir de 1499, com o dinheiro e a autoridade do pai e com tropas francesas, Bórgia iniciou campanhas na Romanha, uma região do centro da Itália cheia de pequenos senhores que mal obedeciam a Roma. Cidade por cidade, ele foi tomando o território."
+  },
+  {
+   "tela": {
+    "t": "citacao",
+    "h": "Aqueles que se tornam príncipes só pela sorte o fazem com pouco esforço, mas se mantêm com muito.",
+    "s": "O Príncipe, cap. VII"
+   },
+   "txt": "Maquiavel usa Bórgia no capítulo sete como o grande exemplo de quem chega ao poder pela sorte e pelas armas dos outros. E faz um alerta: quem sobe assim sobe fácil, mas precisa de muito trabalho para se manter. É preciso construir os alicerces depois de chegar."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Ele sabia disso.<br><b>E começou a construir.</b>"
+   },
+   "txt": "O que impressionava Maquiavel é que Bórgia percebeu esse risco e tentou corrigir. Começou a depender menos das tropas emprestadas e a montar uma força própria, mais leal a ele."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Força emprestada<br><b>tem dono.</b>"
+   },
+   "txt": "Maquiavel dedica capítulos inteiros do Príncipe ao perigo das tropas emprestadas e dos mercenários. Ele diz que esses soldados servem enquanto convém a eles, e abandonam quem os contratou no primeiro aperto. Bórgia aprendeu isso na prática, e foi aos poucos substituindo os aliados de ocasião por homens que dependiam só dele."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "2",
+    "h": "Ramiro d'Orco",
+    "s": "A praça de Cesena"
+   },
+   "txt": "Parte dois: a praça de Cesena."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Uma região sem lei<br><b>precisava de ordem.</b>"
+   },
+   "txt": "Quando conquistou a Romanha, Bórgia encontrou uma região tomada por roubos, brigas e abusos. Para colocar ordem, nomeou um homem duro e eficiente, Ramiro d'Orco, e deu a ele plenos poderes. Em pouco tempo, a região estava pacificada, mas o rigor tinha gerado muito ressentimento."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Uma manhã, na praça:<br><b>o recado estava dado.</b>"
+   },
+   "txt": "Bórgia percebeu que esse ódio poderia cair sobre ele. Então, segundo conta Maquiavel no capítulo sete, mandou executar Ramiro e deixar o corpo exposto numa manhã, na praça de Cesena. O povo, diz Maquiavel, ficou ao mesmo tempo satisfeito e assustado."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Deixe para outros o que gera ódio.<br><b>Faça você o que gera favor.</b>"
+   },
+   "txt": "É uma cena brutal, e Maquiavel a descreve sem rodeio. A lição política que ele tira é que o líder deve deixar para outros as medidas que geram antipatia, e fazer pessoalmente as que geram gratidão. Ele repete essa ideia no capítulo dezenove."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Não é exemplo moral.<br><b>É exemplo de cálculo.</b>"
+   },
+   "txt": "É importante deixar claro: Maquiavel não apresenta Bórgia como um homem bom. Ele o apresenta como alguém que entendia o cálculo do poder. A cena da praça de Cesena é lembrada até hoje justamente por ser chocante. O que Maquiavel quer mostrar é a frieza com que Bórgia separou a sua imagem das medidas impopulares."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "3",
+    "h": "Senigália",
+    "s": "A armadilha"
+   },
+   "txt": "Parte três: a armadilha de Senigália."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Os aliados<br><b>viraram ameaça.</b>"
+   },
+   "txt": "Em 1502, alguns dos comandantes que lutavam ao lado de Bórgia se reuniram e conspiraram contra ele. Bórgia não reagiu com fúria. Fingiu reconciliação, fez acordos e esperou."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Ele não reagiu.<br><b>Esperou.</b>"
+   },
+   "txt": "A reação imediata seria atacar. Mas Bórgia sabia que, naquele momento, os conspiradores estavam fortes e unidos. Então ele ganhou tempo, buscou apoio do rei da França e reorganizou as próprias tropas, enquanto mantinha uma aparência de paz. Quando os adversários se sentiram seguros, ele agiu."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "31 de dezembro de 1502:<br><b>o convite fatal.</b>"
+   },
+   "txt": "No fim daquele ano, ele convidou os líderes da conspiração para um encontro em Senigália. Eles foram. Lá, Bórgia mandou prender os principais, e alguns foram executados. Maquiavel estava na região como enviado de Florença e acompanhou esses meses de perto."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Raposa e leão<br><b>no mesmo homem.</b>"
+   },
+   "txt": "Para Maquiavel, Bórgia mostrou as duas qualidades do capítulo dezoito: a raposa, para perceber e montar a armadilha, e o leão, para agir com força quando chegou a hora."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Maquiavel estava lá.<br><b>E anotou tudo.</b>"
+   },
+   "txt": "Vale lembrar que Maquiavel não escreveu isso de longe. Como enviado de Florença, ele passou meses na corte de Bórgia, mandando relatórios para o governo florentino. Muitas das observações que aparecem anos depois no Príncipe nasceram dessas conversas e desses relatórios."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "4",
+    "h": "A queda",
+    "s": "1503"
+   },
+   "txt": "Parte quatro: a queda."
+  },
+  {
+   "tela": {
+    "t": "citacao",
+    "h": "Ele me disse que tinha pensado em tudo, menos que, quando o pai morresse, ele também estaria à beira da morte.",
+    "s": "O Príncipe, cap. VII"
+   },
+   "txt": "Em agosto de 1503, o papa Alexandre sexto morreu. E, ao mesmo tempo, César Bórgia caiu gravemente doente. Maquiavel conta que o próprio Bórgia disse a ele que tinha previsto tudo o que poderia acontecer na morte do pai, menos que ele mesmo estaria à beira da morte naquele momento."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "O erro:<br><b>confiar em quem ele tinha ferido.</b>"
+   },
+   "txt": "O papa seguinte durou poucas semanas. Na nova eleição, Bórgia apoiou o cardeal Giuliano della Rovere, a quem ele tinha prejudicado no passado, acreditando nas promessas que recebeu. Della Rovere virou o papa Júlio segundo, e não cumpriu o que Bórgia esperava."
+  },
+  {
+   "tela": {
+    "t": "duo",
+    "a": "O papa morto",
+    "as": "a base do seu poder",
+    "b": "O novo papa",
+    "bs": "um antigo inimigo"
+   },
+   "txt": "Pense na situação. Toda a força de Bórgia vinha do apoio do pai. Com o pai morto e ele próprio doente, ele precisava de um papa que fosse aliado. Em vez de garantir isso, ele aceitou a palavra de alguém que tinha motivos para se vingar. E perdeu a única coisa que sustentava todo o resto."
+  },
+  {
+   "tela": {
+    "t": "citacao",
+    "h": "Quem acredita que novos benefícios fazem esquecer as velhas injúrias se engana.",
+    "s": "O Príncipe, cap. VII"
+   },
+   "txt": "Para Maquiavel, esse foi o erro fatal. Bórgia deveria ter impedido a eleição de alguém que tinha motivos para odiá-lo. E ele resume com a frase que virou regra: quem acredita que benefícios novos fazem esquecer injúrias antigas se engana."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Preso, fugitivo<br><b>e morto aos 31 anos.</b>"
+   },
+   "txt": "Sem o pai e sem o apoio do novo papa, Bórgia perdeu os territórios, foi preso e levado para a Espanha. Conseguiu fugir em 1506 e morreu no ano seguinte, em 1507, numa emboscada em Navarra, com cerca de trinta e um anos."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Uma lição sobre<br><b>depender de uma só base.</b>"
+   },
+   "txt": "A queda de Bórgia mostra o risco de construir tudo em cima de uma única base. Enquanto o pai viveu, tudo funcionou. Quando essa base desapareceu, o edifício inteiro desabou em poucos meses. Na vida e nos negócios, depender de um só cliente, de um só chefe ou de uma só fonte de renda é repetir o erro do Valentino."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "5",
+    "h": "As lições",
+    "s": "O que fica"
+   },
+   "txt": "Parte cinco: o que essa história ensina."
+  },
+  {
+   "tela": {
+    "t": "resumo",
+    "itens": [
+     "A sorte abre a porta; o alicerce te mantém",
+     "Não dependa de força emprestada",
+     "Deixe para outros o que gera ódio",
+     "Seja raposa e leão",
+     "Nunca confie em quem você feriu",
+     "Prepare-se para o que não previu"
+    ]
+   },
+   "txt": "A sorte pode abrir a porta, mas só o alicerce te mantém lá dentro. Não dependa de força emprestada. Deixe para outros as medidas que geram ódio. Seja raposa e leão. Nunca confie seu destino a quem você feriu. E prepare-se até para o que parece impossível."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Admiração não é aprovação."
+   },
+   "txt": "Uma última observação. Maquiavel admirava a habilidade de Bórgia, mas isso não é o mesmo que aprovar tudo o que ele fez. O próprio Maquiavel diz, em outro capítulo, que matar cidadãos, trair amigos e não ter palavra pode dar poder, mas não dá glória. A história de Bórgia é estudada justamente por mostrar, ao mesmo tempo, a força e o limite do cálculo frio."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "A sorte te dá a oportunidade.<br><b>O alicerce te mantém.</b>"
+   },
+   "txt": "César Bórgia teve quase tudo: dinheiro, poder, coragem e inteligência. Faltou proteger a base contra o imprevisto e desconfiar de quem tinha motivos para se vingar."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Planeje também<br><b>para o pior dia.</b>"
+   },
+   "txt": "Bórgia tinha planos para a morte do pai, mas não para o pior cenário: a morte do pai e a própria doença ao mesmo tempo. Planejar para o dia comum é fácil. O que separa os que duram dos que caem é planejar também para o pior dia."
+  },
+  {
+   "tela": {
+    "t": "fim"
+   },
+   "txt": "Se você gostou dessa história, se inscreva no canal e comente qual personagem você quer ver no próximo vídeo. Raposa e Leão."
+  }
+ ]
+}

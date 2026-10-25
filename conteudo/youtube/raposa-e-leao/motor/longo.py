@@ -18,8 +18,8 @@ for i,g in enumerate(rot['seg']):
     if not os.path.exists(mp[:-4]+'.json'):
         asyncio.run(tts(g['txt'],mp));subprocess.run(['ffmpeg','-y','-loglevel','error','-i',mp,'-ar',str(S),'-ac','1',wv],check=True)
     a,_=sf.read(wv);g['ini']=max(0,t-.35);g['words']=[[w,round(t+o,3)] for w,o in json.load(open(mp[:-4]+'.json'))];vozes.append((t,a));t+=len(a)/S+(.9 if g['tela']['t'] in('capitulo','abertura') else .45)
-for i,g in enumerate(rot['seg']):g['fim']=rot['seg'][i+1]['ini'] if i+1<len(rot['seg']) else t+3
-T=round(t+3,2);rot['total']=T
+for i,g in enumerate(rot['seg']):g['fim']=rot['seg'][i+1]['ini'] if i+1<len(rot['seg']) else t+5
+T=round(t+5,2);rot['total']=T
 html=open(D+'/longo.html').read().replace('__EMB__',open(D+'/emblema.inc').read()).replace('__SPEC__',json.dumps(rot,ensure_ascii=False))
 st=f'{D}/_stage_lg_{nm}.html';open(st,'w').write(html)
 STEP=int(os.environ.get('STEP','1'))

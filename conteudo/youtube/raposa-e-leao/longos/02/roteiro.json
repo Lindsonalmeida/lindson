@@ -1,0 +1,273 @@
+{
+ "titulo": "Por que pessoas boas perdem para pessoas estratégicas",
+ "seg": [
+  {
+   "tela": {
+    "t": "abertura",
+    "h": "Por que os bons<br>sempre perdem?",
+    "s": "O Príncipe · cap. XV"
+   },
+   "txt": "Você conhece alguém bom, trabalhador e honesto que sempre sai perdendo? Que é passado para trás no emprego, nos negócios e até na família?"
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Não é azar.<br><b>É ingenuidade.</b>"
+   },
+   "txt": "Maquiavel explicou por que isso acontece há quinhentos anos. E a explicação não é azar. É algo que dá para corrigir sem deixar de ser uma boa pessoa. É isso que você vai entender neste vídeo."
+  },
+  {
+   "tela": {
+    "t": "citacao",
+    "h": "Um homem que queira ser bom em tudo se arruinará entre tantos que não são bons.",
+    "s": "O Príncipe, cap. XV"
+   },
+   "txt": "No capítulo quinze do Príncipe, Maquiavel escreve uma das frases mais incômodas do livro. Ele diz que quem quer ser bom em todas as situações acaba se arruinando no meio de tantos que não são."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Ele não manda ser mau.<br><b>Manda saber quando não ser ingênuo.</b>"
+   },
+   "txt": "Repare no que ele não está dizendo. Ele não diz para você ser mau. Ele diz que é preciso aprender a não ser bom quando a situação exige, e usar isso com critério. A bondade sem nenhum filtro vira um convite para quem quer se aproveitar."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "O mundo como ele é,<br><b>não como deveria ser.</b>"
+   },
+   "txt": "Maquiavel completa dizendo que existe uma distância tão grande entre como se vive e como se deveria viver, que quem abandona o que se faz pelo que se deveria fazer aprende mais a se arruinar do que a se preservar. É uma frase dura, mas pense na sua vida: quantas vezes você agiu como o mundo deveria funcionar, e foi surpreendido pelo jeito que ele realmente funciona?"
+  },
+  {
+   "tela": {
+    "t": "lista",
+    "h": "Sinais de ingenuidade",
+    "itens": [
+     "Confia em quem acabou de conhecer",
+     "Diz sim para não desagradar",
+     "Explica demais os próprios planos",
+     "Espera reconhecimento sem pedir"
+    ]
+   },
+   "txt": "Alguns sinais de que a sua bondade está virando ingenuidade: você confia em quem acabou de conhecer como se fosse amigo de anos. Diz sim para não desagradar, mesmo quando deveria dizer não. Explica demais os seus planos. E espera ser reconhecido sem nunca mostrar o que fez. Nada disso é maldade dos outros. É só o jogo funcionando, e você jogando sem saber as regras."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "1",
+    "h": "A generosidade que arruína",
+    "s": "O Príncipe · cap. XVI"
+   },
+   "txt": "Primeiro erro das pessoas boas: a generosidade que arruína."
+  },
+  {
+   "tela": {
+    "t": "duo",
+    "a": "Gasta tudo",
+    "as": "para parecer generoso",
+    "b": "Cobra mais",
+    "bs": "de quem está perto"
+   },
+   "txt": "Maquiavel observa que quem quer ter fama de generoso acaba gastando tudo para manter essa imagem. Quando o dinheiro acaba, precisa cobrar mais de quem está perto. E aí a fama de generoso vira ódio."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Generosidade de verdade<br><b>cabe no seu bolso.</b>"
+   },
+   "txt": "Ele preferia a fama de econômico, que gera crítica mas não gera ódio. Na vida real, pense em quem empresta para todo mundo, paga a conta de todos e nunca diz não. Um dia não consegue mais, e as mesmas pessoas que recebiam viram as primeiras a reclamar. Generosidade de verdade é a que você consegue manter."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Diga não<br><b>sem pedir desculpas.</b>"
+   },
+   "txt": "O antídoto não é virar uma pessoa fechada. É aprender a dizer não sem culpa e sem longas explicações. Quem justifica demais cada recusa ensina os outros a insistir. Um não tranquilo e educado protege o seu tempo, o seu dinheiro e, curiosamente, aumenta o respeito que as pessoas têm por você."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "2",
+    "h": "O favor não apaga a ferida",
+    "s": "O Príncipe · cap. VII"
+   },
+   "txt": "Segundo erro: acreditar que um favor apaga uma ofensa."
+  },
+  {
+   "tela": {
+    "t": "retrato",
+    "h": "César Bórgia",
+    "s": "Filho do papa Alexandre VI"
+   },
+   "txt": "César Bórgia foi um dos homens mais temidos da Itália, e Maquiavel o admirava. Mas, quando o pai dele, o papa Alexandre sexto, morreu, Bórgia apoiou a eleição de um cardeal que ele mesmo tinha prejudicado no passado, achando que as promessas novas fariam o homem esquecer as ofensas antigas."
+  },
+  {
+   "tela": {
+    "t": "citacao",
+    "h": "Quem acredita que novos benefícios fazem esquecer as velhas injúrias se engana.",
+    "s": "O Príncipe, cap. VII"
+   },
+   "txt": "Esse cardeal virou o papa Júlio segundo, e foi justamente ele quem acabou com o poder de Bórgia. Maquiavel resume a lição assim: quem acredita que benefícios novos fazem as pessoas esquecerem injúrias antigas se engana."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Aceita o favor. Agradece.<br><b>E lembra.</b>"
+   },
+   "txt": "Gente boa costuma achar que, depois de um favor, está tudo resolvido. Mas a pessoa ferida aceita o favor, agradece, e continua lembrando. Antes de confiar em quem você já machucou, pense duas vezes."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Ofensa antiga<br><b>pede atenção redobrada.</b>"
+   },
+   "txt": "Isso não significa viver desconfiando de todo mundo. Significa lembrar que as pessoas não esquecem as feridas só porque você mudou de atitude. Se você precisou ser duro com alguém no passado, trate essa relação com mais cuidado do que as outras. Reconstruir confiança leva tempo, e um favor isolado quase nunca basta."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "3",
+    "h": "O favor que chega tarde",
+    "s": "Discursos · I.32"
+   },
+   "txt": "Terceiro erro: dar só quando é obrigado."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Favor dado na pressão<br><b>não gera gratidão.</b>"
+   },
+   "txt": "Nos Discursos sobre Tito Lívio, Maquiavel observa que um governante não deve esperar a necessidade para conceder benefícios. Quando você só cede depois de ser pressionado, ninguém agradece. A pessoa acha que conquistou à força, e não que você ofereceu."
+  },
+  {
+   "tela": {
+    "t": "lista",
+    "h": "Na prática",
+    "itens": [
+     "O aumento antes do pedido",
+     "O elogio antes da cobrança",
+     "O pedido de desculpas antes da briga"
+    ]
+   },
+   "txt": "Gente boa costuma ser lenta para reconhecer e rápida para ceder no último minuto. O resultado é dar tudo e não receber nenhuma gratidão. O mesmo aumento, o mesmo elogio, o mesmo pedido de desculpas valem o dobro quando chegam antes da cobrança."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Reconheça antes<br><b>de ser cobrado.</b>"
+   },
+   "txt": "Pense num chefe que só dá aumento quando o funcionário ameaça sair. O funcionário fica, mas não agradece: sente que arrancou o aumento. Agora pense num chefe que reconhece antes, sem ser pedido. O valor é o mesmo, mas o efeito é completamente diferente. Um gera ressentimento, o outro gera lealdade."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "4",
+    "h": "Cuidado com quem você fortalece",
+    "s": "O Príncipe · cap. III"
+   },
+   "txt": "Quarto erro: ajudar sem pensar em quem você está fortalecendo."
+  },
+  {
+   "tela": {
+    "t": "citacao",
+    "h": "Quem é causa de que outro se torne poderoso arruína-se.",
+    "s": "O Príncipe, cap. III"
+   },
+   "txt": "No capítulo três, Maquiavel deixa uma regra que quase ninguém conhece: quem é a causa de outro se tornar poderoso trabalha para a própria ruína. O motivo é que esse poder foi construído com a sua esperteza ou com a sua força, e quem fica forte passa a desconfiar justamente de quem sabe como ele chegou lá."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Ajudar é bom.<br><b>Entregar a chave da casa, não.</b>"
+   },
+   "txt": "Isso não é um conselho para nunca ajudar ninguém. É um conselho para ajudar sem se tornar descartável. Ensine, apoie, abra portas, mas não entregue tudo o que te faz ter valor."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Ensine. Apoie.<br><b>Mas continue necessário.</b>"
+   },
+   "txt": "Muita gente boa ensina tudo o que sabe a um sócio, a um colega ou a um funcionário, e depois é descartada quando o outro já não precisa mais. A saída não é parar de ensinar. É continuar crescendo, para que você siga sendo necessário, e escolher com cuidado em quem você investe a sua força."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "5",
+    "h": "Às vezes, pareça menos",
+    "s": "Discursos · III.2"
+   },
+   "txt": "Quinto erro das pessoas boas: mostrar tudo o tempo todo."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Bruto se fingiu de tolo<br><b>e derrubou um rei.</b>"
+   },
+   "txt": "Maquiavel conta a história de Lúcio Júnio Bruto, que passou anos se fingindo de tolo na corte do tirano de Roma. Ninguém desconfiava dele. Quando chegou a hora, foi ele quem liderou a queda do rei e a fundação da república."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Quem é subestimado<br><b>se move sem ser vigiado.</b>"
+   },
+   "txt": "A lição que Maquiavel tira dali é que às vezes é sábio parecer menos do que você é. Pessoas boas costumam contar todos os planos, mostrar todas as cartas e explicar todas as intenções. Quem é estratégico guarda algumas para a hora certa."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Mostre resultado,<br><b>não intenção.</b>"
+   },
+   "txt": "Na prática, isso significa falar menos dos seus planos e mostrar mais os seus resultados. Quando você anuncia tudo antes, abre espaço para inveja, sabotagem e cópia. Quando você mostra só depois de pronto, o resultado fala por você, e ninguém teve tempo de atrapalhar."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "6",
+    "h": "Como ser bom e estratégico",
+    "s": "A síntese"
+   },
+   "txt": "E agora, a parte mais importante: como ser bom sem ser presa fácil."
+  },
+  {
+   "tela": {
+    "t": "lista",
+    "h": "Bom e estratégico",
+    "itens": [
+     "Generoso dentro do que consegue manter",
+     "Desconfiado de quem você já feriu",
+     "Generoso antes da cobrança",
+     "Ajuda sem entregar a chave",
+     "Discreto com seus planos"
+    ]
+   },
+   "txt": "Seja generoso dentro do que você consegue manter. Desconfie de quem você já feriu, mesmo depois de um favor. Dê antes de ser cobrado. Ajude sem entregar tudo que te dá valor. E seja discreto com os seus planos."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Comece por uma<br><b>esta semana.</b>"
+   },
+   "txt": "Escolha uma dessas cinco atitudes e pratique esta semana. Talvez seja dizer um não que você vem adiando. Talvez seja reconhecer alguém antes que essa pessoa peça. Pequenas mudanças de postura já mudam a forma como as pessoas te tratam, e você continua sendo exatamente quem é: uma pessoa boa, só que muito mais difícil de enganar."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Bondade sem estratégia<br><b>é presa fácil.</b>"
+   },
+   "txt": "Maquiavel não pede que você deixe de ser bom. Ele pede que você deixe de ser ingênuo. Bondade com estratégia é rara, respeitada e duradoura. Bondade sem estratégia é presa fácil."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Seja bom.<br><b>Mas de olhos abertos.</b>"
+   },
+   "txt": "No fundo, a mensagem é simples: continue sendo bom, mas de olhos abertos. Observe como as pessoas agem, e não só o que elas dizem. Proteja o que é seu. E guarde a sua generosidade para quem demonstra que sabe receber."
+  },
+  {
+   "tela": {
+    "t": "fim"
+   },
+   "txt": "Se você é uma dessas pessoas boas que sempre sai perdendo, mande este vídeo para alguém que também precisa ouvir. E se inscreva no canal: no próximo vídeo, a história completa de César Bórgia, o homem que inspirou O Príncipe. Raposa e Leão."
+  }
+ ]
+}
