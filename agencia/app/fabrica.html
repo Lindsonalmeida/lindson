@@ -780,13 +780,14 @@ function bombouArte(cv,item,img){
   const raw0=(item.titulo||'').toUpperCase();const toks=[];{let hl=false;for(const p of raw0.split(/(\*)/)){if(p==='*'){hl=!hl;continue}for(const w of p.split(/\s+/).filter(Boolean))toks.push({w,hl})}}
   function quebra(fs){x.font=`400 ${fs}px Anton`;const L=[[]];let lw=0;for(const t of toks){const ww=x.measureText(t.w+' ').width;if(lw+ww>984&&L[L.length-1].length){L.push([]);lw=0}L[L.length-1].push(t);lw+=ww}return L}
   let fotoH=H,fs=100,lines;
-  if(img){for(fs=100;fs>=60;fs-=4){lines=quebra(fs);if(lines.length*fs*1.02<=430)break}}
-  if(img){ // foto ocupa o post inteiro (1080x1350); corte guiado pelo rosto
-    const f=item.foco||{x:.5,y:.4};const r=Math.max(W/img.width,H/img.height),w=img.width*r,h=img.height*r;
-    const dx=Math.min(0,Math.max(W-w,W/2-f.x*w)),dy=Math.min(0,Math.max(H-h,H*.32-f.y*h));
-    x.drawImage(img,dx,dy,w,h);
-    const gt=x.createLinearGradient(0,0,0,240);gt.addColorStop(0,'rgba(0,0,0,.55)');gt.addColorStop(1,'rgba(0,0,0,0)');x.fillStyle=gt;x.fillRect(0,0,W,240);
-    const tb=lines.length*fs*1.02+260,g=x.createLinearGradient(0,H-tb-220,0,H);g.addColorStop(0,'rgba(10,10,10,0)');g.addColorStop(.35,'rgba(10,10,10,.75)');g.addColorStop(1,'rgba(10,10,10,.97)');x.fillStyle=g;x.fillRect(0,H-tb-220,W,tb+220)}
+  if(img){for(fs=96;fs>=60;fs-=4){lines=quebra(fs);if(lines.length*fs*1.02<=340)break}}
+  if(img){ // post inteiro com a própria foto desfocada + a foto INTEIRA (sem corte) grande no centro
+    const r0=Math.max(W/img.width,H/img.height)*1.08,w0=img.width*r0,h0=img.height*r0;
+    x.filter='blur(34px) brightness(.45) saturate(1.2)';x.drawImage(img,(W-w0)/2,(H-h0)/2,w0,h0);x.filter='none';
+    const topo=150,base=H-170-lines.length*fs*1.02-70,boxH=base-topo;
+    const sc=Math.min(W/img.width,boxH/img.height),w=img.width*sc,h=img.height*sc,ix=(W-w)/2,iy=topo+(boxH-h)/2;
+    x.save();x.shadowColor='rgba(0,0,0,.6)';x.shadowBlur=40;x.drawImage(img,ix,iy,w,h);x.restore();
+    const g=x.createLinearGradient(0,base-40,0,H);g.addColorStop(0,'rgba(10,10,10,0)');g.addColorStop(.25,'rgba(10,10,10,.85)');g.addColorStop(1,'rgba(10,10,10,.97)');x.fillStyle=g;x.fillRect(0,base-40,W,H-base+40)}
   else{ // fundo de marca: listras diagonais + sigla gigante
     x.save();x.globalAlpha=.10;x.fillStyle=RED;for(let i=-H;i<W+H;i+=90){x.beginPath();x.moveTo(i,0);x.lineTo(i+40,0);x.lineTo(i+40-H,H);x.lineTo(i-H,H);x.fill()}x.restore();
     const rg=x.createRadialGradient(W/2,420,40,W/2,420,700);rg.addColorStop(0,'rgba(225,6,0,.45)');rg.addColorStop(1,'rgba(225,6,0,0)');x.fillStyle=rg;x.fillRect(0,0,W,H);
