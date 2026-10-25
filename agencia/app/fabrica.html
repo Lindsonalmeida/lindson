@@ -265,7 +265,7 @@ pre.cap{white-space:pre-wrap;font:500 14px/1.55 var(--f-body);margin:0}
     <p class="muted" style="margin:0">A busca roda sozinha a cada 3 horas e as notícias vão acumulando aqui, já com arte no estilo do perfil e legenda pronta. Confira o fato na fonte antes de postar.</p>
     <div class="row" style="justify-content:space-between">
       <div class="subtabs" id="not-reg"><button data-r="MA" aria-pressed="true">Maranhão</button><button data-r="BR" aria-pressed="false">Brasil</button></div>
-      <div class="filt" id="not-filt"><button data-f="todos" aria-pressed="true">Todas</button><button data-f="a postar" aria-pressed="false">A postar</button><button data-f="postado" aria-pressed="false">Postadas</button></div>
+      <div class="filt" id="not-filt"><button data-f="a postar" aria-pressed="true">A postar</button><button data-f="postado" aria-pressed="false">Postadas</button></div>
     </div>
     <span class="mono" id="not-cont"></span>
   </div>
@@ -280,7 +280,7 @@ pre.cap{white-space:pre-wrap;font:500 14px/1.55 var(--f-body);margin:0}
     <h2>Vídeos do Maquiavel</h2>
     <p class="muted" style="margin:0">Assista, baixe, copie a legenda completa (com hashtags) e marque como postado. Os vídeos novos aparecem aqui sozinhos assim que ficam prontos.</p>
     <div class="row" style="justify-content:space-between">
-      <div class="filt" id="maq-filt"><button data-f="todos" aria-pressed="true">Todos</button><button data-f="a postar" aria-pressed="false">A postar</button><button data-f="postado" aria-pressed="false">Postados</button></div>
+      <div class="filt" id="maq-filt"><button data-f="a postar" aria-pressed="true">A postar</button><button data-f="postado" aria-pressed="false">Postados</button></div>
       <span class="mono" id="maq-cont"></span>
     </div>
   </div>
@@ -830,14 +830,14 @@ function bombouArte(cv,item,img){
   x.fillText((item.fonte?'Fonte: '+item.fonte:'')+'  •  leia a legenda',1032,H-56);x.textAlign='left';
 }
 
-let noticias=[],notReg='MA',notFiltro='todos',notLimite=30;const notImgs={};
+let noticias=[],notReg='MA',notFiltro='a postar',notLimite=30;const notImgs={};
 function quandoTxt(iso){if(!iso)return'';const d=new Date(iso),m=Math.round((Date.now()-d)/60000);if(isNaN(m))return'';if(m<60)return`há ${Math.max(m,1)} min`;if(m<1440)return`há ${Math.round(m/60)} h`;return d.toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit'})+' '+d.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'})}
 function renderNot(){
-  const doReg=noticias.filter(n=>n.regiao===notReg);const vis=doReg.filter(n=>notFiltro==='todos'||(n.status||'a postar')===notFiltro);
+  const doReg=noticias.filter(n=>n.regiao===notReg);const vis=doReg.filter(n=>(n.status||'a postar')===notFiltro);
   const pend=doReg.filter(n=>(n.status||'a postar')==='a postar').length;
-  $('#not-cont').textContent=doReg.length?`${doReg.length} notícia${doReg.length===1?'':'s'} · ${pend} a postar`:'';
+  $('#not-cont').textContent='';const npost=doReg.length-pend;$$('#not-filt button').forEach(b=>b.textContent=b.dataset.f==='postado'?`Postadas (${npost})`:`A postar (${pend})`);
   const box=$('#not-lista');
-  if(!vis.length){box.innerHTML='';const p=document.createElement('p');p.className='muted';p.textContent=doReg.length?'Nenhuma notícia neste filtro.':'As notícias chegam aqui a cada 3 horas.';box.appendChild(p);$('#not-mais').hidden=true;return}
+  if(!vis.length){box.innerHTML='';const p=document.createElement('p');p.className='muted';p.textContent=notFiltro==='postado'?'Nenhuma notícia postada ainda. Ao marcar como postada, ela vem para cá.':(doReg.length?'Tudo postado por aqui. As próximas chegam na próxima busca.':'As notícias chegam aqui a cada 3 horas.');box.appendChild(p);$('#not-mais').hidden=true;return}
   box.replaceChildren(...vis.slice(0,notLimite).map(cardNot));$('#not-mais').hidden=vis.length<=notLimite;
 }
 async function fotoNot(n){if(!n.foto)return null;if(notImgs[n.foto])return notImgs[n.foto];const im=new Image();im.crossOrigin='anonymous';im.src=n.foto;try{await im.decode();notImgs[n.foto]=im;return im}catch(e){return null}}
@@ -865,11 +865,11 @@ function cardNot(n){
 }
 
 // ---------- Maquiavel (canal Raposa e Leão) ----------
-let maqVids=[],maqFiltro='todos';
+let maqVids=[],maqFiltro='a postar';
 function renderMaq(){
-  const vis=maqVids.filter(v=>maqFiltro==='todos'||(v.status||'a postar')===maqFiltro);
+  const vis=maqVids.filter(v=>(v.status||'a postar')===maqFiltro);
   const post=maqVids.filter(v=>v.status==='postado').length;
-  $('#maq-cont').textContent=maqVids.length?`${post} postado${post===1?'':'s'} de ${maqVids.length}`:'';
+  $('#maq-cont').textContent='';$$('#maq-filt button').forEach(b=>b.textContent=b.dataset.f==='postado'?`Postados (${post})`:`A postar (${maqVids.length-post})`);
   for(const [fmt,el] of [['short','#maq-shorts'],['longo','#maq-longos']]){
     const box=$(el),lista=vis.filter(v=>v.formato===fmt);
     if(!lista.length){box.innerHTML='';const p=document.createElement('p');p.className='muted';p.style.margin='0';p.textContent=maqVids.some(v=>v.formato===fmt)?'Nenhum vídeo neste filtro.':(fmt==='short'?'Os Shorts aparecem aqui conforme ficam prontos.':'Os vídeos longos aparecem aqui conforme ficam prontos.');box.appendChild(p);continue}
