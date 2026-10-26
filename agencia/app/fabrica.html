@@ -331,7 +331,7 @@ async function boot(){
   db.collection('fotos').onSnapshot(s=>{fotos=s.docs.map(d=>({id:d.id,...d.data()})).sort((a,b)=>(a.criadaEm||0)-(b.criadaEm||0));renderFotos();renderTudo()});
   db.collection('conteudos').onSnapshot(s=>{conteudos=s.docs.map(d=>({id:d.id,...d.data()})).sort((a,b)=>(b.criadoEm||0)-(a.criadoEm||0));renderTudo()});
   db.collection('marca').onSnapshot(s=>{marcaFiles=s.docs.map(d=>({id:d.id,...d.data()}));renderMarcaFiles()});
-  db.collection('noticias').onSnapshot(s=>{noticias=s.docs.map(d=>({id:d.id,...d.data()})).sort((a,b)=>(b.quando||'').localeCompare(a.quando||''));renderNot()},e=>{$('#not-cont').textContent='Erro: '+e.message});
+  db.collection('noticias').onSnapshot(s=>{noticias=s.docs.map(d=>({id:d.id,...d.data()})).sort((a,b)=>(Date.parse(b.quando)||0)-(Date.parse(a.quando)||0));renderNot()},e=>{$('#not-cont').textContent='Erro: '+e.message});
   db.collection('maquiavel').onSnapshot(s=>{maqVids=s.docs.map(d=>({id:d.id,...d.data()})).sort((a,b)=>(a.ordem||0)-(b.ordem||0));renderMaq()},e=>{$('#maq-cont').textContent='Erro: '+e.message});
   status(sample?'':'A IA não está liberada nesta visualização. Você ainda pode ver, editar e baixar.', sample?'':'err');
   if(!assets){$('#up-fotos').disabled=true;$('#up-marca').disabled=true}
