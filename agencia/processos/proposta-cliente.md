@@ -1,5 +1,7 @@
 # Padrão de entrega: PDF de proposta para lead que respondeu "pode mostrar"
 
+> **Padrão atual (out/2026): estratégia completa de 19 páginas**, sem preços nem planos, seguindo `agencia/processos/modelo-estrategia/README.md` (exemplo: Villa do Vinho). O formato de 8 páginas abaixo fica como versão curta.
+
 Usar sempre que um lead aceitar ver o plano. Modelo aprovado: VOLL Pilates Turu (out/2026), em `agencia/propostas/<cliente>/` (pasta fora do GitHub).
 
 ## Formato

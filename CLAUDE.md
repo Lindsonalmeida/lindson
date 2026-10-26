@@ -21,6 +21,6 @@ Carrosséis: depois da capa, nenhuma tela repete o layout da anterior. Variar co
 
 Posts estáticos: nunca dois seguidos na mesma composição nem na mesma cor. Alternar entre foto inclinada, celular, palavra gigante, manchete, foto dividida, checklist, conversa e selo — sempre na identidade.
 
-Lead que respondeu "pode mostrar": entregar PDF de proposta na identidade visual DO CLIENTE, seguindo `agencia/processos/proposta-cliente.md` (8 páginas 4:5, sem inventar números).
+Lead que respondeu "pode mostrar": entregar a **estratégia completa** em PDF (19 páginas 4:5) na identidade visual DO CLIENTE, seguindo `agencia/processos/modelo-estrategia/README.md`: passo a passo técnico, linhas editoriais, campanhas de tráfego, WhatsApp, calendário de 90 dias e relatório. Sem preços nem planos (valores só na conversa) e sem inventar números. Usar os agentes Xquads (Hormozi Offers, Pedro Sobral, Donald Miller). Versão curta de 8 páginas: `agencia/processos/proposta-cliente.md`.
 
 Toda mensagem de abordagem e copy curta de venda segue `agencia/prospeccao/PADRAO-COPY.md`: **Conexão → Dor → Desejo → Pergunta**, linguagem simples de WhatsApp, entendida numa única leitura. Nunca usar "vi que", "parece que", "gargalo", jargão de marketing ou análise do perfil da pessoa.
