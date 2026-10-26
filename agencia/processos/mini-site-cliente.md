@@ -110,3 +110,4 @@ O Claude altera e publica; a Cloudflare atualiza sozinha em ~1 minuto.
 | Cliente | Repositório | Link |
 |---|---|---|
 | Rafael Imports | Lindsonalmeida/rafaelimports | https://rafaelimports.pages.dev |
+| Desentupidora SF | Lindsonalmeida/GruposSF | https://desentupidorasf.pages.dev |
