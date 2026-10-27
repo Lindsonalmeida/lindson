@@ -28,3 +28,7 @@ Toda mensagem de abordagem e copy curta de venda segue `agencia/prospeccao/PADRA
 ## Contratos
 
 Pedido de contrato de cliente: usar o modelo `agencia/processos/modelo-contrato/` (README explica). Dados do Lindson em `agencia/contratos/meus-dados.json` e do cliente em `agencia/contratos/<cliente>/dados.json`, ambos fora do GitHub. Se faltarem, pedir. Entregar PDF A4.
+
+## Entrega de PDFs
+
+Todo PDF entregue (estratégia, contrato, planos) também entra na página de downloads com botão de baixar: https://claude.ai/artifact/3Vn9qpHt3iXgG2JAhcubs7
