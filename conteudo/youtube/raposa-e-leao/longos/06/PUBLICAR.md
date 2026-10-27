@@ -10,12 +10,15 @@ Em cada lição tem uma aplicação prática para o trabalho, os negócios e as 
 
 ⏱️ Capítulos
 0:00 Introdução
-1:05 1. Diga-me quem te cerca
-2:22 2. O teste do conselheiro
-3:33 3. Verdade com regra
-4:57 4. Os sinais do bajulador
-5:25 Seu compromisso
-5:43 Resumo
+1:48 1. Diga-me quem te cerca
+3:05 2. O teste do conselheiro
+4:16 3. Verdade com regra
+5:40 4. Quem não sabe, não é aconselhado
+7:11 5. O imperador que ninguém entendia
+8:38 6. E se o bajulador for você?
+9:38 7. Os sinais do bajulador
+10:06 Seu compromisso
+10:24 Resumo
 
 📜 Fonte: Nicolau Maquiavel, O Príncipe, capítulos XXII e XXIII (1513).
 🦊🦁 Raposa e Leão: Maquiavel e as leis do poder aplicadas à vida real. Inscreva-se e ative o sino.
