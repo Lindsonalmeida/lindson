@@ -1,0 +1,184 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Raposa e Leão — identidade</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Cormorant+Garamond:ital,wght@1,500;1,600&family=Anton&display=swap" rel="stylesheet">
+<style>
+:root{--noite:#0B0A08;--carvao:#17140F;--ouro:#C9A227;--ouro2:#E2BE4A;--brasa:#D9622B;--perg:#EFE6D2;--sangue:#8E1B1B}
+*{margin:0;box-sizing:border-box}
+body{background:#333;display:flex;flex-direction:column;gap:40px;padding:40px;align-items:flex-start}
+.p{position:relative;overflow:hidden;background:var(--noite);color:var(--perg)}
+.grao:after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 50% 40%,transparent 40%,rgba(0,0,0,.65));pointer-events:none}
+/* perfil */
+#perfil{width:800px;height:800px;border-radius:0;display:grid;place-items:center;background:radial-gradient(circle at 50% 45%,#2a2115,var(--noite) 70%)}
+#perfil svg{width:640px;height:640px}
+/* banner 2560x1440, área segura 1546x423 central */
+#banner{width:2560px;height:1440px;background:radial-gradient(ellipse at 50% 50%,#251c11,var(--noite) 60%)}
+#banner .faixa{position:absolute;left:0;right:0;top:508px;height:423px;display:flex;align-items:center;justify-content:center;gap:56px}
+#banner svg{width:360px;height:360px;flex:none}
+#banner h1{font:900 132px/1 Cinzel;letter-spacing:.06em;color:var(--perg)}
+#banner h1 i{font-style:normal;color:var(--ouro)}
+#banner p{font:italic 500 46px/1.25 'Cormorant Garamond';color:#cdbf9f;margin-top:18px}
+#banner small{display:block;font:700 26px Cinzel;letter-spacing:.32em;color:var(--brasa);margin-top:22px}
+#banner .linhas{position:absolute;inset:0;background:repeating-linear-gradient(90deg,transparent 0 159px,rgba(201,162,39,.05) 159px 160px)}
+/* thumbs */
+.th{width:1280px;height:720px;background:var(--noite)}
+.th .foto{position:absolute;right:-40px;top:0;width:640px;height:720px;background:url(img/maquiavel.jpg) center 18%/cover;filter:grayscale(1) contrast(1.15) brightness(.9);-webkit-mask-image:linear-gradient(90deg,transparent,#000 35%)}
+.th .brilho{position:absolute;right:120px;top:120px;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle,rgba(217,98,43,.45),transparent 65%);mix-blend-mode:screen}
+.th .txt{position:absolute;left:64px;top:70px;width:720px}
+.th h2{font:400 128px/.92 Anton;text-transform:uppercase;color:var(--perg);letter-spacing:.005em}
+.th h2 b{font-weight:400;color:var(--ouro2)}
+.th h2 em{font-style:normal;background:var(--sangue);padding:0 .12em;display:inline-block;line-height:.98}
+.th .tag{display:inline-block;font:700 26px Cinzel;letter-spacing:.2em;color:var(--noite);background:var(--ouro);padding:10px 20px;margin-bottom:26px}
+.th .selo{position:absolute;left:64px;bottom:44px;display:flex;align-items:center;gap:14px;font:700 26px Cinzel;letter-spacing:.14em;color:#cdbf9f}
+.th .selo svg{width:64px;height:64px}
+.th.b .foto{right:auto;left:-40px;-webkit-mask-image:linear-gradient(270deg,transparent,#000 35%);background-position:center 18%}
+.th.b .brilho{right:auto;left:120px;background:radial-gradient(circle,rgba(201,162,39,.4),transparent 65%)}
+.th.b .txt{left:auto;right:64px;text-align:right}
+.th.b .selo{left:auto;right:64px}
+.th .num{position:absolute;font:400 520px/1 Anton;color:rgba(201,162,39,.12);left:20px;top:60px}
+</style><style>
+.sv{width:1080px;height:1920px;position:relative;overflow:hidden;background:#0B0A08}
+.sv .im{position:absolute;background-size:cover;background-position:center 20%;filter:grayscale(1) contrast(1.2) brightness(.85)}
+.sv .glow{position:absolute;border-radius:50%;mix-blend-mode:screen}
+.sv h1{position:absolute;left:70px;right:70px;font:400 190px/.9 Anton;text-transform:uppercase;color:#EFE6D2;text-shadow:0 8px 40px rgba(0,0,0,.9)}
+.sv h1 b{font-weight:400;color:#E2BE4A}.sv h1 em{font-style:normal;background:#8E1B1B;padding:0 .1em;display:inline-block;line-height:1}
+.sv .tg{position:absolute;font:700 40px Cinzel;letter-spacing:.2em;color:#0B0A08;background:#C9A227;padding:14px 30px}
+.sv .emb{position:absolute;width:130px;height:130px}
+.sv .num{position:absolute;font:900 120px Cinzel;color:rgba(201,162,39,.9)}
+.sv .sub{position:absolute;left:70px;right:70px;font:italic 600 64px/1.15 'Cormorant Garamond';color:#cdbf9f}
+</style></head><body>
+
+<svg width="0" height="0" style="position:absolute"><defs>
+<symbol id="emb" viewBox="0 0 400 400">
+ <circle cx="200" cy="200" r="194" fill="none" stroke="#C9A227" stroke-width="5"/>
+ <circle cx="200" cy="200" r="183" fill="none" stroke="#C9A227" stroke-width="1.5" opacity=".6"/>
+ <g transform="translate(-14,6) scale(.92) translate(17,17)">
+ <!-- juba do leão (só lado direito) -->
+ <g id="juba"></g>
+ <!-- RAPOSA (esquerda) -->
+ <polygon points="200,110 170,115 150,172 200,176" fill="#B54B1C"/>
+ <polygon points="120,36 108,138 170,115" fill="#D9622B"/>
+ <polygon points="126,64 120,124 158,116" fill="#3a1a0c"/>
+ <polygon points="170,115 108,138 150,172" fill="#C4561F"/>
+ <polygon points="108,138 92,192 140,206 150,172" fill="#EE8040"/>
+ <polygon points="92,192 74,236 150,266 140,206" fill="#EFE6D2"/>
+ <polygon points="140,206 150,266 186,300 200,305 200,240 160,226" fill="#E2D6BC"/>
+ <polygon points="150,172 140,206 160,226 200,240 200,176" fill="#D9622B"/>
+ <polygon points="134,184 166,190 140,198" fill="#0B0A08"/>
+ <polygon points="147,186 152,195 143,195" fill="#E2BE4A"/>
+ <!-- LEÃO (direita) -->
+ <polygon points="200,110 236,110 256,172 200,176" fill="#A8841C"/>
+ <polygon points="236,110 262,96 282,124 256,172" fill="#C9A227"/>
+ <polygon points="248,104 262,98 274,120 258,126" fill="#5a3f0a"/>
+ <polygon points="256,172 282,124 304,170 300,222" fill="#C9A227"/>
+ <polygon points="200,176 256,172 300,222 252,252 200,240" fill="#E2BE4A"/>
+ <polygon points="200,240 252,252 268,280 226,300 200,305" fill="#D4B04A"/>
+ <polygon points="252,252 300,222 290,268 268,280" fill="#A8841C"/>
+ <polygon points="200,305 226,300 216,326 200,330" fill="#8A6514"/>
+ <polygon points="236,182 270,184 244,198" fill="#0B0A08"/>
+ <polygon points="248,186 254,195 245,195" fill="#D9622B"/>
+ <!-- nariz -->
+ <polygon points="186,286 214,286 200,306" fill="#0B0A08"/>
+ <line x1="200" y1="110" x2="200" y2="286" stroke="#0B0A08" stroke-width="2" opacity=".5"/>
+ </g>
+</symbol>
+</defs></svg>
+
+<section class="p sv grao" id="s1"><div class="im" style="inset:0;background-image:url(img/maquiavel.jpg);opacity:.55"></div>
+<div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,10,8,.9) 0%,rgba(11,10,8,.4) 40%,rgba(11,10,8,.95) 75%)"></div>
+<div class="tg" style="left:70px;top:200px">O PRÍNCIPE · CAP. 18</div>
+<div style="position:absolute;left:70px;right:70px;top:340px;font:italic 600 110px/1.05 'Cormorant Garamond';color:#9b8f76">“Os fins justificam os meios”<i style="position:absolute;left:-2%;top:45%;width:104%;height:22px;background:#E0453C;transform:rotate(-4deg)"></i></div>
+<h1 style="top:900px">Ele <em>nunca</em><br>disse <b>isso</b></h1><svg class="emb" style="right:60px;top:80px"><use href="#emb"/></svg></section><section class="p sv grao" id="s2"><div class="im" style="left:0;width:540px;top:0;height:1920px;background-image:url(img/maquiavel2.jpg);filter:grayscale(1) brightness(.6)"></div><div class="im" style="right:0;width:540px;top:0;height:1920px;background-image:url(img/cesar.jpg);filter:sepia(.5) brightness(.75)"></div>
+<div style="position:absolute;left:536px;top:0;bottom:0;width:8px;background:#E2BE4A"></div>
+<div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 50%,rgba(11,10,8,.9) 25%,transparent 60%)"></div>
+<div class="tg" style="left:50%;transform:translateX(-50%);top:150px;white-space:nowrap">O PRÍNCIPE · CAP. 18</div>
+<div style="position:absolute;left:40px;top:330px;font:400 110px Anton;color:#EE8040">RAPOSA</div><div style="position:absolute;right:40px;top:330px;font:400 110px Anton;color:#E2BE4A;text-align:right">LEÃO</div>
+<h1 style="top:760px;text-align:center">Seja os <b>dois</b></h1><svg class="emb" style="right:60px;top:80px"><use href="#emb"/></svg></section><section class="p sv grao" id="s3"><div class="glow" style="left:90px;top:120px;width:900px;height:900px;background:radial-gradient(circle,rgba(217,98,43,.5),transparent 65%)"></div>
+<div class="im" style="left:0;right:0;top:0;height:1150px;background-image:url(img/cesar.jpg);-webkit-mask-image:linear-gradient(180deg,#000 55%,transparent)"></div>
+<div class="tg" style="left:70px;top:110px">O PRÍNCIPE · CAP. 17</div><h1 style="top:930px">Temido<br>ou <b>amado</b>?</h1><svg class="emb" style="right:60px;top:80px"><use href="#emb"/></svg></section><section class="p sv grao" id="s4"><div class="im" style="inset:0;background-image:url(img/hist/caracalla.jpg);opacity:.5"></div><div style="position:absolute;inset:0;background:rgba(11,10,8,.55)"></div>
+<div class="tg" style="left:70px;top:170px">O PRÍNCIPE · CAP. 17</div>
+<div style="position:absolute;left:80px;right:80px;top:320px;background:#EFE6D2;color:#1b140c;padding:60px 64px;transform:rotate(-2deg);box-shadow:0 30px 80px #000;font:italic 600 80px/1.1 'Cormorant Garamond'">“Esquecem a morte do pai antes da perda do patrimônio”</div>
+<h1 style="top:1000px">A frase mais <em>fria</em></h1><svg class="emb" style="right:60px;top:80px"><use href="#emb"/></svg></section><section class="p sv grao" id="s5"><div class="im" style="inset:0;background-image:url(img/borgia.jpg);opacity:.45"></div>
+<div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 45%,transparent 20%,rgba(11,10,8,.95) 75%)"></div>
+<div style="position:absolute;left:0;right:0;top:300px;text-align:center;font:400 620px/1 Anton;color:rgba(201,162,39,.85);text-shadow:0 10px 60px #000">1×</div>
+<div class="tg" style="left:70px;top:150px">O PRÍNCIPE · CAP. 8</div><h1 style="top:1060px;text-align:center">O mal de <em>uma vez</em>.<br>O bem aos <b>poucos</b>.</h1><svg class="emb" style="right:60px;top:80px"><use href="#emb"/></svg></section><section class="p sv grao" id="s6"><div class="glow" style="left:90px;top:900px;width:900px;height:900px;background:radial-gradient(circle,rgba(201,162,39,.45),transparent 65%)"></div>
+<div class="im" style="left:0;right:0;bottom:0;height:1100px;background-image:url(img/lorenzo.jpg);-webkit-mask-image:linear-gradient(0deg,#000 50%,transparent)"></div>
+<div style="position:absolute;inset:0;background:linear-gradient(0deg,rgba(11,10,8,.85),transparent 25%)"></div>
+<div class="tg" style="left:70px;top:230px">O PRÍNCIPE · CAP. 22</div><h1 style="top:340px">Te julgam<br>pelo seu<br><b>círculo</b></h1><svg class="emb" style="right:60px;top:80px"><use href="#emb"/></svg></section><section class="p sv grao" id="s7"><div class="glow" style="left:90px;top:120px;width:900px;height:900px;background:radial-gradient(circle,rgba(217,98,43,.5),transparent 65%)"></div>
+<div class="im" style="left:0;right:0;top:0;height:1150px;background-image:url(img/hist/pope_alexander_vi.jpg);-webkit-mask-image:linear-gradient(180deg,#000 55%,transparent)"></div>
+<div class="tg" style="left:70px;top:110px">O PRÍNCIPE · CAP. 21</div><h1 style="top:930px">Neutro<br>= <em>perdedor</em></h1><svg class="emb" style="right:60px;top:80px"><use href="#emb"/></svg></section><section class="p sv grao" id="s8"><div class="im" style="left:0;width:540px;top:0;height:1920px;background-image:url(img/hist/hannibal.jpg);filter:grayscale(1) brightness(.6)"></div><div class="im" style="right:0;width:540px;top:0;height:1920px;background-image:url(img/hist/commodus.jpg);filter:sepia(.5) brightness(.75)"></div>
+<div style="position:absolute;left:536px;top:0;bottom:0;width:8px;background:#E2BE4A"></div>
+<div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 50%,rgba(11,10,8,.9) 25%,transparent 60%)"></div>
+<div class="tg" style="left:50%;transform:translateX(-50%);top:150px;white-space:nowrap">O PRÍNCIPE · CAP. 3</div>
+<div style="position:absolute;left:40px;top:330px;font:400 110px Anton;color:#EE8040">VOCÊ</div><div style="position:absolute;right:40px;top:330px;font:400 110px Anton;color:#E2BE4A;text-align:right">ELE</div>
+<h1 style="top:760px;text-align:center">Cuidado com<br>quem você<br><b>fortalece</b></h1><svg class="emb" style="right:60px;top:80px"><use href="#emb"/></svg></section><section class="p sv grao" id="s9"><div class="im" style="inset:0;background-image:url(img/hist/marcus_aurelius.jpg);opacity:.45"></div>
+<div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 45%,transparent 20%,rgba(11,10,8,.95) 75%)"></div>
+<div style="position:absolute;left:0;right:0;top:300px;text-align:center;font:400 620px/1 Anton;color:rgba(201,162,39,.85);text-shadow:0 10px 60px #000">?</div>
+<div class="tg" style="left:70px;top:150px">O PRÍNCIPE · CAP. 3</div><h1 style="top:1060px;text-align:center">No começo<br><em>ninguém</em> <b>vê</b></h1><svg class="emb" style="right:60px;top:80px"><use href="#emb"/></svg></section><section class="p sv grao" id="s10"><div class="glow" style="left:90px;top:900px;width:900px;height:900px;background:radial-gradient(circle,rgba(201,162,39,.45),transparent 65%)"></div>
+<div class="im" style="left:0;right:0;bottom:0;height:1100px;background-image:url(img/maquiavel.jpg);-webkit-mask-image:linear-gradient(0deg,#000 50%,transparent)"></div>
+<div style="position:absolute;inset:0;background:linear-gradient(0deg,rgba(11,10,8,.85),transparent 25%)"></div>
+<div class="tg" style="left:70px;top:230px">O PRÍNCIPE · CAP. 18</div><h1 style="top:340px">Todos veem<br>o que você<br><b>parece</b></h1><svg class="emb" style="right:60px;top:80px"><use href="#emb"/></svg></section><section class="p sv grao" id="s11"><div class="glow" style="left:90px;top:120px;width:900px;height:900px;background:radial-gradient(circle,rgba(217,98,43,.5),transparent 65%)"></div>
+<div class="im" style="left:0;right:0;top:0;height:1150px;background-image:url(img/hist/girolamo_savonarola.jpg);-webkit-mask-image:linear-gradient(180deg,#000 55%,transparent)"></div>
+<div class="tg" style="left:70px;top:110px">O PRÍNCIPE · CAP. 6</div><h1 style="top:930px">O <b>novo</b><br>tem <em>inimigos</em></h1><svg class="emb" style="right:60px;top:80px"><use href="#emb"/></svg></section><section class="p sv grao" id="s12"><div class="im" style="inset:0;background-image:url(img/lorenzo.jpg);opacity:.5"></div><div style="position:absolute;inset:0;background:rgba(11,10,8,.55)"></div>
+<div class="tg" style="left:70px;top:170px">O PRÍNCIPE · CAP. 23</div>
+<div style="position:absolute;left:80px;right:80px;top:320px;background:#EFE6D2;color:#1b140c;padding:60px 64px;transform:rotate(-2deg);box-shadow:0 30px 80px #000;font:italic 600 80px/1.1 'Cormorant Garamond'">“Os bons conselhos nascem da prudência do príncipe”</div>
+<h1 style="top:1000px">Quem só<br>concorda te<br><em>derruba</em></h1><svg class="emb" style="right:60px;top:80px"><use href="#emb"/></svg></section><section class="p sv grao" id="s13"><div class="im" style="inset:0;background-image:url(img/hist/arno.jpg);opacity:.45"></div>
+<div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 45%,transparent 20%,rgba(11,10,8,.95) 75%)"></div>
+<div style="position:absolute;left:0;right:0;top:300px;text-align:center;font:400 430px/1 Anton;color:rgba(201,162,39,.85);text-shadow:0 10px 60px #000">50%</div>
+<div class="tg" style="left:70px;top:150px">O PRÍNCIPE · CAP. 25</div><h1 style="top:1060px;text-align:center">A sorte<br>é um <b>rio</b></h1><svg class="emb" style="right:60px;top:80px"><use href="#emb"/></svg></section><section class="p sv grao" id="s14"><div class="glow" style="left:90px;top:120px;width:900px;height:900px;background:radial-gradient(circle,rgba(217,98,43,.5),transparent 65%)"></div>
+<div class="im" style="left:0;right:0;top:0;height:1150px;background-image:url(img/hist/girolamo_savonarola.jpg);-webkit-mask-image:linear-gradient(180deg,#000 55%,transparent)"></div>
+<div class="tg" style="left:70px;top:110px">O PRÍNCIPE · CAP. 6</div><h1 style="top:930px">Ideia sem<br>força <em>morre</em></h1><svg class="emb" style="right:60px;top:80px"><use href="#emb"/></svg></section><section class="p sv grao" id="s15"><div class="glow" style="left:90px;top:900px;width:900px;height:900px;background:radial-gradient(circle,rgba(201,162,39,.45),transparent 65%)"></div>
+<div class="im" style="left:0;right:0;bottom:0;height:1100px;background-image:url(img/borgia.jpg);-webkit-mask-image:linear-gradient(0deg,#000 50%,transparent)"></div>
+<div style="position:absolute;inset:0;background:linear-gradient(0deg,rgba(11,10,8,.85),transparent 25%)"></div>
+<div class="tg" style="left:70px;top:230px">O PRÍNCIPE · CAP. 7</div><h1 style="top:340px">Favor <em>não</em><br>apaga a<br><b>ferida</b></h1><svg class="emb" style="right:60px;top:80px"><use href="#emb"/></svg></section><section class="p sv grao" id="s16"><div class="im" style="inset:0;background-image:url(img/hist/alexander_the_great.jpg);opacity:.55"></div>
+<div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,10,8,.9) 0%,rgba(11,10,8,.4) 40%,rgba(11,10,8,.95) 75%)"></div>
+<div class="tg" style="left:70px;top:200px">O PRÍNCIPE · CAP. 16</div>
+<div style="position:absolute;left:70px;right:70px;top:340px;font:italic 600 110px/1.05 'Cormorant Garamond';color:#9b8f76">“Seja generoso com todos”<i style="position:absolute;left:-2%;top:45%;width:104%;height:22px;background:#E0453C;transform:rotate(-4deg)"></i></div>
+<h1 style="top:900px">Generoso<br>demais =<br><em>arruinado</em></h1><svg class="emb" style="right:60px;top:80px"><use href="#emb"/></svg></section><section class="p sv grao" id="s17"><div class="im" style="inset:0;background-image:url(img/maquiavel2.jpg);opacity:.45"></div>
+<div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 45%,transparent 20%,rgba(11,10,8,.95) 75%)"></div>
+<div style="position:absolute;left:0;right:0;top:300px;text-align:center;font:400 620px/1 Anton;color:rgba(201,162,39,.85);text-shadow:0 10px 60px #000">3</div>
+<div class="tg" style="left:70px;top:150px">O PRÍNCIPE · CAP. 22</div><h1 style="top:1060px;text-align:center">Qual mente<br>é a <b>sua</b>?</h1><svg class="emb" style="right:60px;top:80px"><use href="#emb"/></svg></section><section class="p sv grao" id="s18"><div class="glow" style="left:90px;top:120px;width:900px;height:900px;background:radial-gradient(circle,rgba(217,98,43,.5),transparent 65%)"></div>
+<div class="im" style="left:0;right:0;top:0;height:1150px;background-image:url(img/hist/commodus.jpg);-webkit-mask-image:linear-gradient(180deg,#000 55%,transparent)"></div>
+<div class="tg" style="left:70px;top:110px">DISCURSOS · III.2</div><h1 style="top:930px">O mais<br>esperto se<br>faz de <b>bobo</b></h1><svg class="emb" style="right:60px;top:80px"><use href="#emb"/></svg></section><section class="p sv grao" id="s19"><div class="im" style="inset:0;background-image:url(img/hist/ferdinand_ii_of_aragon.jpg);opacity:.5"></div><div style="position:absolute;inset:0;background:rgba(11,10,8,.55)"></div>
+<div class="tg" style="left:70px;top:170px">DISCURSOS · I.51</div>
+<div style="position:absolute;left:80px;right:80px;top:320px;background:#EFE6D2;color:#1b140c;padding:60px 64px;transform:rotate(-2deg);box-shadow:0 30px 80px #000;font:italic 600 80px/1.1 'Cormorant Garamond'">“O que fizer por necessidade, faça parecer escolha”</div>
+<h1 style="top:1000px">Faça parecer<br><b>escolha</b></h1><svg class="emb" style="right:60px;top:80px"><use href="#emb"/></svg></section><section class="p sv grao" id="s20"><div class="im" style="left:0;width:540px;top:0;height:1920px;background-image:url(img/hist/caracalla.jpg);filter:grayscale(1) brightness(.6)"></div><div class="im" style="right:0;width:540px;top:0;height:1920px;background-image:url(img/maquiavel.jpg);filter:sepia(.5) brightness(.75)"></div>
+<div style="position:absolute;left:536px;top:0;bottom:0;width:8px;background:#E2BE4A"></div>
+<div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 50%,rgba(11,10,8,.9) 25%,transparent 60%)"></div>
+<div class="tg" style="left:50%;transform:translateX(-50%);top:150px;white-space:nowrap">DISCURSOS · I.44</div>
+<div style="position:absolute;left:40px;top:330px;font:400 110px Anton;color:#EE8040">AMEAÇA</div><div style="position:absolute;right:40px;top:330px;font:400 110px Anton;color:#E2BE4A;text-align:right">PEDE</div>
+<h1 style="top:760px;text-align:center">Nunca os<br><em>dois</em> juntos</h1><svg class="emb" style="right:60px;top:80px"><use href="#emb"/></svg></section><section class="p sv grao" id="s21"><div class="glow" style="left:90px;top:900px;width:900px;height:900px;background:radial-gradient(circle,rgba(201,162,39,.45),transparent 65%)"></div>
+<div class="im" style="left:0;right:0;bottom:0;height:1100px;background-image:url(img/hist/pope_julius_ii.jpg);-webkit-mask-image:linear-gradient(0deg,#000 50%,transparent)"></div>
+<div style="position:absolute;inset:0;background:linear-gradient(0deg,rgba(11,10,8,.85),transparent 25%)"></div>
+<div class="tg" style="left:70px;top:230px">DISCURSOS · I.32</div><h1 style="top:340px">Favor<br>obrigado não<br>tem <em>valor</em></h1><svg class="emb" style="right:60px;top:80px"><use href="#emb"/></svg></section><section class="p sv grao" id="s22"><div class="glow" style="left:90px;top:120px;width:900px;height:900px;background:radial-gradient(circle,rgba(217,98,43,.5),transparent 65%)"></div>
+<div class="im" style="left:0;right:0;top:0;height:1150px;background-image:url(img/hist/caracalla.jpg);-webkit-mask-image:linear-gradient(180deg,#000 55%,transparent)"></div>
+<div class="tg" style="left:70px;top:110px">DISCURSOS · II.26</div><h1 style="top:930px">Deboche<br>só te <em>custa</em></h1><svg class="emb" style="right:60px;top:80px"><use href="#emb"/></svg></section><section class="p sv grao" id="s23"><div class="glow" style="left:90px;top:120px;width:900px;height:900px;background:radial-gradient(circle,rgba(217,98,43,.5),transparent 65%)"></div>
+<div class="im" style="left:0;right:0;top:0;height:1150px;background-image:url(img/hist/hannibal.jpg);-webkit-mask-image:linear-gradient(180deg,#000 55%,transparent)"></div>
+<div class="tg" style="left:70px;top:110px">DISCURSOS · II.27</div><h1 style="top:930px">A vitória<br>que vira<br><em>derrota</em></h1><svg class="emb" style="right:60px;top:80px"><use href="#emb"/></svg></section><section class="p sv grao" id="s24"><div class="im" style="inset:0;background-image:url(img/lorenzo.jpg);opacity:.55"></div>
+<div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,10,8,.9) 0%,rgba(11,10,8,.4) 40%,rgba(11,10,8,.95) 75%)"></div>
+<div class="tg" style="left:70px;top:200px">DISCURSOS · III.35</div>
+<div style="position:absolute;left:70px;right:70px;top:340px;font:italic 600 110px/1.05 'Cormorant Garamond';color:#9b8f76">“Ideia boa, leva o mérito”<i style="position:absolute;left:-2%;top:45%;width:104%;height:22px;background:#E0453C;transform:rotate(-4deg)"></i></div>
+<h1 style="top:900px">Quem propõe<br>leva a <em>culpa</em></h1><svg class="emb" style="right:60px;top:80px"><use href="#emb"/></svg></section><section class="p sv grao" id="s25"><div class="glow" style="left:90px;top:120px;width:900px;height:900px;background:radial-gradient(circle,rgba(217,98,43,.5),transparent 65%)"></div>
+<div class="im" style="left:0;right:0;top:0;height:1150px;background-image:url(img/hist/alexander_the_great.jpg);-webkit-mask-image:linear-gradient(180deg,#000 55%,transparent)"></div>
+<div class="tg" style="left:70px;top:110px">DISCURSOS · III.48</div><h1 style="top:930px">Fácil<br>demais?<br><em>Desconfie</em></h1><svg class="emb" style="right:60px;top:80px"><use href="#emb"/></svg></section><section class="p sv grao" id="s26"><div class="im" style="left:0;width:540px;top:0;height:1920px;background-image:url(img/hist/marcus_aurelius.jpg);filter:grayscale(1) brightness(.6)"></div><div class="im" style="right:0;width:540px;top:0;height:1920px;background-image:url(img/maquiavel2.jpg);filter:sepia(.5) brightness(.75)"></div>
+<div style="position:absolute;left:536px;top:0;bottom:0;width:8px;background:#E2BE4A"></div>
+<div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 50%,rgba(11,10,8,.9) 25%,transparent 60%)"></div>
+<div class="tg" style="left:50%;transform:translateX(-50%);top:150px;white-space:nowrap">A ARTE DA GUERRA</div>
+<div style="position:absolute;left:40px;top:330px;font:400 110px Anton;color:#EE8040">MUITOS</div><div style="position:absolute;right:40px;top:330px;font:400 110px Anton;color:#E2BE4A;text-align:right">POUCOS</div>
+<h1 style="top:760px;text-align:center">Ouça muitos.<br>Decida com<br><b>poucos</b></h1><svg class="emb" style="right:60px;top:80px"><use href="#emb"/></svg></section><section class="p sv grao" id="s27"><div class="glow" style="left:90px;top:900px;width:900px;height:900px;background:radial-gradient(circle,rgba(201,162,39,.45),transparent 65%)"></div>
+<div class="im" style="left:0;right:0;bottom:0;height:1100px;background-image:url(img/cesar.jpg);-webkit-mask-image:linear-gradient(0deg,#000 50%,transparent)"></div>
+<div style="position:absolute;inset:0;background:linear-gradient(0deg,rgba(11,10,8,.85),transparent 25%)"></div>
+<div class="tg" style="left:70px;top:230px">A ARTE DA GUERRA</div><h1 style="top:340px">Disciplina<br>vence<br><em>fúria</em></h1><svg class="emb" style="right:60px;top:80px"><use href="#emb"/></svg></section><section class="p sv grao" id="s28"><div class="im" style="inset:0;background-image:url(img/hist/pope_alexander_vi.jpg);opacity:.5"></div><div style="position:absolute;inset:0;background:rgba(11,10,8,.55)"></div>
+<div class="tg" style="left:70px;top:170px">DISCURSOS · II.10</div>
+<div style="position:absolute;left:80px;right:80px;top:320px;background:#EFE6D2;color:#1b140c;padding:60px 64px;transform:rotate(-2deg);box-shadow:0 30px 80px #000;font:italic 600 80px/1.1 'Cormorant Garamond'">“Bons soldados acham dinheiro”</div>
+<h1 style="top:1000px">Dinheiro<br>não compra<br><b>vitória</b></h1><svg class="emb" style="right:60px;top:80px"><use href="#emb"/></svg></section><section class="p sv grao" id="s29"><div class="im" style="inset:0;background-image:url(img/hist/pope_julius_ii.jpg);opacity:.45"></div>
+<div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 45%,transparent 20%,rgba(11,10,8,.95) 75%)"></div>
+<div style="position:absolute;left:0;right:0;top:300px;text-align:center;font:400 520px/1 Anton;color:rgba(201,162,39,.85);text-shadow:0 10px 60px #000">↻</div>
+<div class="tg" style="left:70px;top:150px">DISCURSOS · III.9</div><h1 style="top:1060px;text-align:center">O que te trouxe<br><em>não</em> te <b>leva</b></h1><svg class="emb" style="right:60px;top:80px"><use href="#emb"/></svg></section><section class="p sv grao" id="s30"><div class="glow" style="left:90px;top:120px;width:900px;height:900px;background:radial-gradient(circle,rgba(217,98,43,.5),transparent 65%)"></div>
+<div class="im" style="left:0;right:0;top:0;height:1150px;background-image:url(img/maquiavel.jpg);-webkit-mask-image:linear-gradient(180deg,#000 55%,transparent)"></div>
+<div class="tg" style="left:70px;top:110px">DISCURSOS · III.1</div><h1 style="top:930px">Volte à<br><b>origem</b></h1><svg class="emb" style="right:60px;top:80px"><use href="#emb"/></svg></section><script>
+// juba: raios alternados no lado direito
+const g=document.getElementById('juba');let pts=[];const cx=200,cy=200;
+for(let i=0;i<=14;i++){const a=(-100+i*(200/14))*Math.PI/180;const r=i%2?132:178;pts.push([cx+Math.cos(a)*r,cy+Math.sin(a)*r])}
+const ns='http://www.w3.org/2000/svg';
+for(let i=0;i<pts.length-1;i++){const p=document.createElementNS(ns,'polygon');p.setAttribute('points',`${cx},${cy} ${pts[i]} ${pts[i+1]}`);p.setAttribute('fill',i%2?'#6E4A0E':'#8A5A12');g.appendChild(p)}
+</script>
+</body></html>
