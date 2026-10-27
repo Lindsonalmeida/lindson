@@ -1,0 +1,213 @@
+{
+ "titulo": "Os 2 erros que destroem qualquer líder, segundo Maquiavel",
+ "seg": [
+  {
+   "tela": {
+    "t": "abertura",
+    "h": "Os <b>2 erros</b><br>que destroem<br>qualquer líder",
+    "s": "O Príncipe · cap. 19",
+    "img": "cesar.jpg"
+   },
+   "txt": "Maquiavel estudou dezenas de governantes, papas e imperadores, e concluiu que quase todos que caíram cometeram um de dois erros. Não importa se eram bons ou maus, ricos ou pobres. Esses dois erros derrubam qualquer líder, e você provavelmente já viu os dois acontecerem perto de você."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Ódio<br>e <b>desprezo.</b>"
+   },
+   "txt": "Os dois erros são estes: ser odiado e ser desprezado. No capítulo dezenove de O Príncipe, Maquiavel explica o que causa cada um, mostra os imperadores romanos que caíram por causa deles e ensina como evitar. Vamos lá."
+  },
+  {
+   "tela": {
+    "t": "inscreva"
+   },
+   "txt": "Antes de continuar: se você quer aprender a pensar como raposa e agir como leão, se inscreva no canal e ative o sino. Toda semana tem uma lição nova de Maquiavel aplicada à vida real."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "1",
+    "h": "O que gera ódio",
+    "s": "O Príncipe · cap. 19"
+   },
+   "txt": "Erro um. O ódio."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "O ódio nasce<br>de <b>tirar o que é do outro.</b>"
+   },
+   "txt": "Segundo Maquiavel, o que mais torna alguém odiado é ser ganancioso e tomar o que pertence aos outros: os bens e a família das pessoas. Ele diz que, enquanto não se tira das pessoas os bens e a honra, a maioria vive contente."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Até as boas ações<br><b>podem gerar ódio.</b>"
+   },
+   "txt": "E ele faz uma observação surpreendente: o ódio se conquista tanto com as boas ações quanto com as más. Se o grupo de que você depende está corrompido, tentar agradar a todos pode te obrigar a fazer coisas erradas, e tentar consertar tudo de uma vez pode virar o grupo contra você."
+  },
+  {
+   "tela": {
+    "t": "pratica",
+    "h": "Na prática",
+    "itens": [
+     "Nunca tome crédito, tempo ou dinheiro de ninguém",
+     "Cumpra cada acordo, mesmo os pequenos",
+     "Mudanças grandes: explique antes de fazer"
+    ]
+   },
+   "txt": "Na prática: nunca tome o crédito, o tempo ou o dinheiro de ninguém. Cumpra cada acordo, mesmo os pequenos. E, quando precisar fazer uma mudança grande que vai mexer com as pessoas, explique o motivo antes de fazer, e não depois."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "2",
+    "h": "O que gera desprezo",
+    "s": "O Príncipe · cap. 19"
+   },
+   "txt": "Erro dois. O desprezo."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Volúvel, leviano<br><b>e indeciso.</b>"
+   },
+   "txt": "O desprezo, diz Maquiavel, vem de ser visto como volúvel, leviano, covarde e indeciso. Desse erro, ele diz que o governante deve se proteger como de um abismo. É o líder que muda de ideia toda semana, que promete e não cumpre, que tem medo de decidir."
+  },
+  {
+   "tela": {
+    "t": "citacao",
+    "h": "Que em suas ações se reconheça grandeza, ânimo, seriedade e firmeza, e que suas decisões sejam irrevogáveis.",
+    "s": "O Príncipe, cap. 19"
+   },
+   "txt": "O remédio é o contrário: que nas suas ações se reconheça grandeza, coragem, seriedade e firmeza. E que suas decisões sejam irrevogáveis, de modo que ninguém pense em te enganar ou te fazer mudar de ideia."
+  },
+  {
+   "tela": {
+    "t": "pratica",
+    "h": "Na prática",
+    "itens": [
+     "Decida no prazo que prometeu",
+     "Mudou de ideia? Explique o porquê",
+     "Não ameace o que não vai cumprir"
+    ]
+   },
+   "txt": "Na prática: decida no prazo que você prometeu. Se precisar mudar de ideia, explique o motivo com clareza, para não parecer fraqueza. E nunca ameace com algo que você não vai cumprir, porque cada ameaça vazia aumenta o desprezo."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "3",
+    "h": "Os imperadores",
+    "s": "O Príncipe · cap. 19"
+   },
+   "txt": "Agora, a prova. Os imperadores romanos."
+  },
+  {
+   "tela": {
+    "t": "imagem",
+    "img": "marcus_aurelius.jpg",
+    "h": "Marco Aurélio",
+    "s": "Imperador de Roma, 161 a 180"
+   },
+   "txt": "Maquiavel analisa os imperadores de Marco Aurélio até Maximino. Marco Aurélio viveu e morreu respeitado. Ele era justo e moderado, e por ter chegado ao trono por herança, não devia o cargo nem aos soldados nem ao povo."
+  },
+  {
+   "tela": {
+    "t": "imagem",
+    "img": "commodus.jpg",
+    "h": "Cômodo",
+    "s": "Filho de Marco Aurélio"
+   },
+   "txt": "O filho dele, Cômodo, herdou o império e fez o oposto. Segundo Maquiavel, deixou o exército sem disciplina e se rebaixou a lutar com gladiadores na arena. Ficou odiado por uns e desprezado por outros, e foi assassinado numa conspiração."
+  },
+  {
+   "tela": {
+    "t": "imagem",
+    "img": "pertinax.jpg",
+    "h": "Pertinax",
+    "s": "Imperador em 193"
+   },
+   "txt": "E aqui vem a lição sobre o ódio pelas boas ações. Pertinax era um homem bom, mas tentou impor disciplina a soldados acostumados à desordem. Foi odiado por isso e desprezado pela idade. Governou poucos meses antes de ser morto."
+  },
+  {
+   "tela": {
+    "t": "imagem",
+    "img": "caracalla.jpg",
+    "h": "Caracala",
+    "s": "Imperador de 198 a 217"
+   },
+   "txt": "Caracala foi um grande guerreiro, mas extremamente cruel. Maquiavel conta que ele mandou matar o irmão de um centurião e ainda manteve esse centurião na própria guarda. Foi esse homem que o matou. A lição: não mantenha perto de você quem você feriu gravemente."
+  },
+  {
+   "tela": {
+    "t": "imagem",
+    "img": "arco_severo.jpg",
+    "h": "Sétimo Severo",
+    "s": "Arco de Sétimo Severo · Roma"
+   },
+   "txt": "E quem escapou? Sétimo Severo. Maquiavel diz que ele soube ser ao mesmo tempo um leão muito feroz e uma raposa muito astuta, temido e respeitado por todos, e por isso conseguiu se manter mesmo tendo chegado ao poder como um novo imperador."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "4",
+    "h": "A defesa",
+    "s": "O Príncipe · cap. 19"
+   },
+   "txt": "Lição final. A melhor defesa."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "A melhor fortaleza:<br><b>não ser odiado.</b>"
+   },
+   "txt": "Maquiavel diz que um dos remédios mais fortes contra conspirações é não ser odiado pela maioria. Quem conspira conta com a satisfação do povo ao te ver cair. Se o povo está contente com você, quem conspira não encontra apoio."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "O desagradável,<br><b>delegue.</b>"
+   },
+   "txt": "E ele dá uma dica de gestão de quinhentos anos: o governante deve deixar a outros as tarefas que geram antipatia e reservar para si as que geram gratidão. Não é fugir da responsabilidade, é proteger a autoridade que mantém tudo de pé."
+  },
+  {
+   "tela": {
+    "t": "pratica",
+    "h": "Na prática",
+    "itens": [
+     "Pergunte: alguém tem motivo para me odiar?",
+     "Pergunte: alguém tem motivo para me desprezar?",
+     "Corrija o que encontrar esta semana"
+    ]
+   },
+   "txt": "Na prática, faça esta revisão uma vez por mês. Primeira pergunta: alguém na minha equipe, na minha casa ou nos meus clientes tem motivo para me odiar? Segunda: tem motivo para me desprezar? E corrija o que encontrar ainda esta semana."
+  },
+  {
+   "tela": {
+    "t": "compromisso",
+    "h": "Comenta: <b>EU VOU APLICAR</b>"
+   },
+   "txt": "Agora, o compromisso. Se você vai fazer essa revisão das duas perguntas hoje, comenta: eu vou aplicar. Um líder que se observa não precisa esperar a conspiração para descobrir o erro."
+  },
+  {
+   "tela": {
+    "t": "resumo",
+    "h": "Resumo",
+    "itens": [
+     "Ódio: tomar o que é do outro",
+     "Desprezo: ser volúvel e indeciso",
+     "Até o bem mal feito gera ódio",
+     "Seja leão e raposa"
+    ]
+   },
+   "txt": "Resumindo. O ódio vem de tomar o que é do outro. O desprezo vem de ser volúvel e indeciso. Até o bem mal feito gera ódio. E, como Sétimo Severo, seja ao mesmo tempo leão e raposa."
+  },
+  {
+   "tela": {
+    "t": "fim"
+   },
+   "txt": "Evite o ódio, evite o desprezo, e ninguém vai conseguir te derrubar. Se inscreva no Raposa e Leão e assista ao próximo vídeo na tela."
+  }
+ ]
+}

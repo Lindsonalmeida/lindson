@@ -1,0 +1,122 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Raposa e Leão — identidade</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Cormorant+Garamond:ital,wght@1,500;1,600&family=Anton&display=swap" rel="stylesheet">
+<style>
+:root{--noite:#0B0A08;--carvao:#17140F;--ouro:#C9A227;--ouro2:#E2BE4A;--brasa:#D9622B;--perg:#EFE6D2;--sangue:#8E1B1B}
+*{margin:0;box-sizing:border-box}
+body{background:#333;display:flex;flex-direction:column;gap:40px;padding:40px;align-items:flex-start}
+.p{position:relative;overflow:hidden;background:var(--noite);color:var(--perg)}
+.grao:after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 50% 40%,transparent 40%,rgba(0,0,0,.65));pointer-events:none}
+/* perfil */
+#perfil{width:800px;height:800px;border-radius:0;display:grid;place-items:center;background:radial-gradient(circle at 50% 45%,#2a2115,var(--noite) 70%)}
+#perfil svg{width:640px;height:640px}
+/* banner 2560x1440, área segura 1546x423 central */
+#banner{width:2560px;height:1440px;background:radial-gradient(ellipse at 50% 50%,#251c11,var(--noite) 60%)}
+#banner .faixa{position:absolute;left:0;right:0;top:508px;height:423px;display:flex;align-items:center;justify-content:center;gap:56px}
+#banner svg{width:360px;height:360px;flex:none}
+#banner h1{font:900 132px/1 Cinzel;letter-spacing:.06em;color:var(--perg)}
+#banner h1 i{font-style:normal;color:var(--ouro)}
+#banner p{font:italic 500 46px/1.25 'Cormorant Garamond';color:#cdbf9f;margin-top:18px}
+#banner small{display:block;font:700 26px Cinzel;letter-spacing:.32em;color:var(--brasa);margin-top:22px}
+#banner .linhas{position:absolute;inset:0;background:repeating-linear-gradient(90deg,transparent 0 159px,rgba(201,162,39,.05) 159px 160px)}
+/* thumbs */
+.th{width:1280px;height:720px;background:var(--noite)}
+.th .foto{position:absolute;right:-40px;top:0;width:640px;height:720px;background:url(img/maquiavel.jpg) center 18%/cover;filter:grayscale(1) contrast(1.15) brightness(.9);-webkit-mask-image:linear-gradient(90deg,transparent,#000 35%)}
+.th .brilho{position:absolute;right:120px;top:120px;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle,rgba(217,98,43,.45),transparent 65%);mix-blend-mode:screen}
+.th .txt{position:absolute;left:64px;top:70px;width:720px}
+.th h2{font:400 128px/.92 Anton;text-transform:uppercase;color:var(--perg);letter-spacing:.005em}
+.th h2 b{font-weight:400;color:var(--ouro2)}
+.th h2 em{font-style:normal;background:var(--sangue);padding:0 .12em;display:inline-block;line-height:.98}
+.th .tag{display:inline-block;font:700 26px Cinzel;letter-spacing:.2em;color:var(--noite);background:var(--ouro);padding:10px 20px;margin-bottom:26px}
+.th .selo{position:absolute;left:64px;bottom:44px;display:flex;align-items:center;gap:14px;font:700 26px Cinzel;letter-spacing:.14em;color:#cdbf9f}
+.th .selo svg{width:64px;height:64px}
+.th.b .foto{right:auto;left:-40px;-webkit-mask-image:linear-gradient(270deg,transparent,#000 35%);background-position:center 18%}
+.th.b .brilho{right:auto;left:120px;background:radial-gradient(circle,rgba(201,162,39,.4),transparent 65%)}
+.th.b .txt{left:auto;right:64px;text-align:right}
+.th.b .selo{left:auto;right:64px}
+.th .num{position:absolute;font:400 520px/1 Anton;color:rgba(201,162,39,.12);left:20px;top:60px}
+</style><style>
+.tb{width:1280px;height:720px}
+.tb .full{position:absolute;inset:0;background-size:cover;background-position:center}
+.tb .sh{position:absolute;inset:0}
+.tb .big{position:absolute;font:400 150px/.9 Anton;text-transform:uppercase;color:#EFE6D2;text-shadow:0 6px 30px rgba(0,0,0,.8)}
+.tb .big b{font-weight:400;color:#E2BE4A}.tb .big em{font-style:normal;background:#8E1B1B;padding:0 .1em;display:inline-block;line-height:.98}
+.tb .selo2{position:absolute;right:40px;bottom:30px;width:84px;height:84px}
+.half{position:absolute;top:0;bottom:0;width:640px;background-size:cover;background-position:center 20%}
+.mk{position:absolute;font:400 200px/1 Anton;text-shadow:0 6px 30px #000}
+.lab{position:absolute;bottom:60px;font:400 84px/1 Anton;text-transform:uppercase;padding:6px 26px}
+</style></head><body>
+
+<svg width="0" height="0" style="position:absolute"><defs>
+<symbol id="emb" viewBox="0 0 400 400">
+ <circle cx="200" cy="200" r="194" fill="none" stroke="#C9A227" stroke-width="5"/>
+ <circle cx="200" cy="200" r="183" fill="none" stroke="#C9A227" stroke-width="1.5" opacity=".6"/>
+ <g transform="translate(-14,6) scale(.92) translate(17,17)">
+ <!-- juba do leão (só lado direito) -->
+ <g id="juba"></g>
+ <!-- RAPOSA (esquerda) -->
+ <polygon points="200,110 170,115 150,172 200,176" fill="#B54B1C"/>
+ <polygon points="120,36 108,138 170,115" fill="#D9622B"/>
+ <polygon points="126,64 120,124 158,116" fill="#3a1a0c"/>
+ <polygon points="170,115 108,138 150,172" fill="#C4561F"/>
+ <polygon points="108,138 92,192 140,206 150,172" fill="#EE8040"/>
+ <polygon points="92,192 74,236 150,266 140,206" fill="#EFE6D2"/>
+ <polygon points="140,206 150,266 186,300 200,305 200,240 160,226" fill="#E2D6BC"/>
+ <polygon points="150,172 140,206 160,226 200,240 200,176" fill="#D9622B"/>
+ <polygon points="134,184 166,190 140,198" fill="#0B0A08"/>
+ <polygon points="147,186 152,195 143,195" fill="#E2BE4A"/>
+ <!-- LEÃO (direita) -->
+ <polygon points="200,110 236,110 256,172 200,176" fill="#A8841C"/>
+ <polygon points="236,110 262,96 282,124 256,172" fill="#C9A227"/>
+ <polygon points="248,104 262,98 274,120 258,126" fill="#5a3f0a"/>
+ <polygon points="256,172 282,124 304,170 300,222" fill="#C9A227"/>
+ <polygon points="200,176 256,172 300,222 252,252 200,240" fill="#E2BE4A"/>
+ <polygon points="200,240 252,252 268,280 226,300 200,305" fill="#D4B04A"/>
+ <polygon points="252,252 300,222 290,268 268,280" fill="#A8841C"/>
+ <polygon points="200,305 226,300 216,326 200,330" fill="#8A6514"/>
+ <polygon points="236,182 270,184 244,198" fill="#0B0A08"/>
+ <polygon points="248,186 254,195 245,195" fill="#D9622B"/>
+ <!-- nariz -->
+ <polygon points="186,286 214,286 200,306" fill="#0B0A08"/>
+ <line x1="200" y1="110" x2="200" y2="286" stroke="#0B0A08" stroke-width="2" opacity=".5"/>
+ </g>
+</symbol>
+</defs></svg>
+
+<section class="p th  grao" id="a06"><div class="brilho"></div><div class="foto" style="background-image:url(img/lorenzo.jpg);background-position:center 20%"></div>
+ <div class="txt"><div class="tag">O PRÍNCIPE · CAP. 23</div><h2 style="font-size:122px">Ele concorda<br>com <b>tudo</b>.<br><em>Cuidado.</em></h2></div>
+ <div class="selo"><svg><use href="#emb"/></svg>RAPOSA E LEÃO</div></section><section class="p tb grao" id="b06"><div class="half" style="left:0;background-image:url(img/maquiavel2.jpg);background-size:auto 200%;background-position:50% 6%;filter:grayscale(1) brightness(.75)"></div><div class="half" style="right:0;background-image:url(img/lorenzo.jpg);filter:sepia(.3) brightness(.8)"></div>
+ <div style="position:absolute;left:636px;top:0;bottom:0;width:8px;background:#E2BE4A"></div>
+ <div class="lab" style="left:40px;background:#1f6f3a">CONSELHEIRO</div><div class="lab" style="right:40px;background:#8E1B1B">BAJULADOR</div>
+ <div class="mk" style="left:440px;top:330px;color:#3ccf6a">✓</div><div class="mk" style="right:440px;top:330px;color:#ff3b30">✗</div>
+ <div class="sh" style="background:linear-gradient(180deg,rgba(11,10,8,.92),transparent 45%)"></div><div class="big" style="left:0;right:0;top:30px;text-align:center;font-size:118px">QUAL DELES <b>TE CERCA?</b></div><svg class="selo2"><use href="#emb"/></svg></section><section class="p th b grao" id="a07"><div class="brilho"></div><div class="foto" style="background-image:url(img/cesar.jpg);background-position:center 15%"></div>
+ <div class="txt"><div class="tag">O PRÍNCIPE · CAP. 17</div><h2 style="font-size:150px">Temido<br>ou <b>amado</b>?</h2></div>
+ <div class="selo"><svg><use href="#emb"/></svg>RAPOSA E LEÃO</div></section><section class="p tb grao" id="b07"><div class="full" style="background-image:url(img/hist/hannibal.jpg);background-position:center 20%;filter:brightness(.55) sepia(.3)"></div><div class="sh" style="background:linear-gradient(90deg,rgba(11,10,8,.95) 35%,transparent 75%)"></div>
+ <div class="big" style="left:60px;top:120px;font-size:130px;color:#9b8f76;position:absolute">AMADO<i style="position:absolute;left:-3%;top:44%;width:106%;height:16px;background:#ff3b30;transform:rotate(-4deg)"></i></div>
+ <div class="big" style="left:60px;top:270px;font-size:210px"><b>TEMIDO</b></div>
+ <div class="big" style="left:66px;top:500px;font-size:62px;color:#EFE6D2">(MAS NUNCA <em>ODIADO</em>)</div><svg class="selo2"><use href="#emb"/></svg></section><section class="p th  grao" id="a08"><div class="brilho"></div><div class="foto" style="background-image:url(img/maquiavel.jpg);background-position:center 18%"></div>
+ <div class="txt"><div class="tag">O PRÍNCIPE · CAP. 25</div><h2 style="font-size:150px">A sorte<br>é um <b>rio</b></h2></div>
+ <div class="selo"><svg><use href="#emb"/></svg>RAPOSA E LEÃO</div></section><section class="p tb grao" id="b08"><div class="full" style="background-image:url(img/hist/arno.jpg);filter:saturate(1.2) brightness(.6)"></div><div class="sh" style="background:linear-gradient(0deg,rgba(11,10,8,.95),transparent 70%)"></div>
+ <div class="big" style="left:60px;top:40px;font-size:330px;line-height:.85"><b>50%</b></div>
+ <div class="big" style="left:66px;top:360px;font-size:118px">DA SUA VIDA<br><em>NÃO</em> É SORTE</div><svg class="selo2"><use href="#emb"/></svg></section><section class="p th b grao" id="a09"><div class="brilho"></div><div class="foto" style="background-image:url(img/hist/girolamo_savonarola.jpg);background-position:center 30%"></div>
+ <div class="txt"><div class="tag">FLORENÇA · 1498</div><h2 style="font-size:140px">Terminou<br>na <em>fogueira</em></h2></div>
+ <div class="selo"><svg><use href="#emb"/></svg>RAPOSA E LEÃO</div></section><section class="p tb grao" id="b09"><div class="full" style="background-image:url(img/hist/piazza_della_signoria.jpg);filter:saturate(1.2) brightness(.6)"></div><div class="sh" style="background:radial-gradient(circle at 70% 40%,rgba(217,98,43,.35),transparent 55%),linear-gradient(0deg,rgba(11,10,8,.95),transparent 60%)"></div>
+ <div class="big" style="left:60px;bottom:70px;font-size:136px">QUEIMADO<br>NA <b>PRAÇA</b></div>
+ <svg style="position:absolute;left:660px;top:380px;width:330px;height:220px" viewBox="0 0 330 220"><path d="M20 30 C120 30 220 80 280 190" stroke="#ff3b30" stroke-width="18" fill="none" stroke-linecap="round"/><path d="M225 175 L285 200 L300 135" stroke="#ff3b30" stroke-width="18" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><svg class="selo2"><use href="#emb"/></svg></section><section class="p th  grao" id="a10"><div class="brilho"></div><div class="foto" style="background-image:url(img/maquiavel2.jpg);background-size:auto 210%;background-position:52% 8%"></div>
+ <div class="txt"><div class="tag">A VIDA DE MAQUIAVEL</div><h2 style="font-size:128px">Preso.<br><em>Torturado.</em><br>E <b>venceu</b>.</h2></div>
+ <div class="selo"><svg><use href="#emb"/></svg>RAPOSA E LEÃO</div></section><section class="p tb grao" id="b10"><div class="half" style="left:0;background-image:url(img/hist/palazzo_vecchio.jpg);filter:grayscale(1) brightness(.5)"></div><div class="half" style="right:0;background-image:url(img/maquiavel2.jpg);background-size:auto 210%;background-position:52% 8%;filter:sepia(.4) brightness(.85)"></div>
+ <div class="sh" style="background:linear-gradient(0deg,rgba(11,10,8,.9),transparent 50%)"></div>
+ <div class="big" style="left:40px;top:60px;font-size:110px">1513</div><div class="big" style="right:40px;top:60px;font-size:110px;text-align:right"><b>HOJE</b></div>
+ <div class="big" style="left:0;right:0;top:300px;text-align:center;font-size:150px">PRESO <b>→</b> <em>ETERNO</em></div><svg class="selo2"><use href="#emb"/></svg></section><section class="p th b grao" id="a11"><div class="brilho"></div><div class="foto" style="background-image:url(img/hist/caracalla.jpg);background-position:center 25%"></div>
+ <div class="txt"><div class="tag">O PRÍNCIPE · CAP. 19</div><h2 style="font-size:132px">Os <b>2 erros</b><br>de todo<br><em>líder</em></h2></div>
+ <div class="selo"><svg><use href="#emb"/></svg>RAPOSA E LEÃO</div></section><section class="p tb grao" id="b11"><div class="half" style="left:0;background-image:url(img/hist/marcus_aurelius.jpg);filter:grayscale(1) brightness(.7)"></div><div class="half" style="right:0;background-image:url(img/hist/commodus.jpg);filter:grayscale(1) brightness(.7)"></div>
+ <div class="sh" style="background:radial-gradient(circle at 50% 50%,rgba(11,10,8,.85) 25%,transparent 60%)"></div>
+ <div class="big" style="left:0;right:0;top:40px;text-align:center;font-size:420px;line-height:.8"><b>2</b></div>
+ <div class="big" style="left:0;right:0;top:400px;text-align:center;font-size:96px"><em>ÓDIO</em> E <em>DESPREZO</em></div>
+ <div class="mk" style="left:60px;bottom:40px;color:#3ccf6a;font-size:140px">✓</div><div class="mk" style="right:150px;bottom:40px;color:#ff3b30;font-size:140px">✗</div><svg class="selo2"><use href="#emb"/></svg></section><script>
+// juba: raios alternados no lado direito
+const g=document.getElementById('juba');let pts=[];const cx=200,cy=200;
+for(let i=0;i<=14;i++){const a=(-100+i*(200/14))*Math.PI/180;const r=i%2?132:178;pts.push([cx+Math.cos(a)*r,cy+Math.sin(a)*r])}
+const ns='http://www.w3.org/2000/svg';
+for(let i=0;i<pts.length-1;i++){const p=document.createElementNS(ns,'polygon');p.setAttribute('points',`${cx},${cy} ${pts[i]} ${pts[i+1]}`);p.setAttribute('fill',i%2?'#6E4A0E':'#8A5A12');g.appendChild(p)}
+</script>
+</body></html>

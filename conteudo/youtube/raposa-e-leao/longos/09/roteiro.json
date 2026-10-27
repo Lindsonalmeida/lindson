@@ -1,0 +1,190 @@
+{
+ "titulo": "Savonarola: o pregador que dominou Florença e terminou na fogueira",
+ "seg": [
+  {
+   "tela": {
+    "t": "abertura",
+    "h": "Dominou Florença.<br><b>Terminou<br>na fogueira.</b>",
+    "s": "A história que Maquiavel viu",
+    "img": "piazza_della_signoria.jpg"
+   },
+   "txt": "Em mil quatrocentos e noventa e oito, um frade que tinha dominado a cidade mais rica da Itália foi enforcado e queimado no meio da praça principal de Florença. Entre as pessoas que acompanharam a queda dele estava um jovem de vinte e nove anos chamado Nicolau Maquiavel."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Ele tinha<br>a multidão.<br><b>Faltava uma coisa.</b>"
+   },
+   "txt": "Esse frade se chamava Girolamo Savonarola. Ele tinha a multidão nas mãos, falava como poucos e mudou os costumes de uma cidade inteira. Mas faltava uma coisa, e Maquiavel transformou essa falta em uma das lições mais famosas de O Príncipe."
+  },
+  {
+   "tela": {
+    "t": "inscreva"
+   },
+   "txt": "Antes de continuar: se você quer aprender a pensar como raposa e agir como leão, se inscreva no canal e ative o sino. Toda semana tem uma lição nova de Maquiavel aplicada à vida real."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "1",
+    "h": "O pregador",
+    "s": "Florença · década de 1490"
+   },
+   "txt": "Parte um. O pregador."
+  },
+  {
+   "tela": {
+    "t": "imagem",
+    "img": "girolamo_savonarola.jpg",
+    "h": "Girolamo Savonarola",
+    "s": "Frade dominicano"
+   },
+   "txt": "Savonarola era um frade dominicano que pregava no convento de San Marco, em Florença. Seus sermões atacavam o luxo, a corrupção e os costumes da cidade e da Igreja, e anunciavam castigos que viriam sobre a Itália."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "A profecia<br><b>pareceu se cumprir.</b>"
+   },
+   "txt": "Em mil quatrocentos e noventa e quatro, o rei Carlos Oitavo da França invadiu a Itália. Os Médici foram expulsos de Florença, e muita gente viu na invasão o castigo que Savonarola tinha anunciado. A partir daí, a influência dele sobre a cidade cresceu enormemente."
+  },
+  {
+   "tela": {
+    "t": "imagem",
+    "img": "bonfire_of_the_vanities.jpg",
+    "h": "A fogueira das vaidades",
+    "s": "Florença, 1497"
+   },
+   "txt": "Sob a influência dele, jovens percorriam a cidade recolhendo objetos considerados vaidades: espelhos, cosméticos, jogos, roupas de luxo, livros e obras de arte. Tudo era queimado em grandes fogueiras na praça. A mais famosa aconteceu no carnaval de mil quatrocentos e noventa e sete."
+  },
+  {
+   "tela": {
+    "t": "pratica",
+    "h": "Na prática",
+    "itens": [
+     "Entusiasmo abre portas",
+     "Mas sozinho não sustenta nada",
+     "Pergunte: o que mantém isso de pé?"
+    ]
+   },
+   "txt": "Primeira lição prática: entusiasmo abre portas. Uma ideia forte, bem comunicada, move multidões, clientes e equipes. Mas, sozinho, o entusiasmo não sustenta nada. Sempre pergunte: o que vai manter isso de pé quando a empolgação passar?"
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "2",
+    "h": "A queda",
+    "s": "Florença · 1497 a 1498"
+   },
+   "txt": "Parte dois. A queda."
+  },
+  {
+   "tela": {
+    "t": "imagem",
+    "img": "pope_alexander_vi.jpg",
+    "h": "Papa Alexandre VI",
+    "s": "Rodrigo Bórgia"
+   },
+   "txt": "Savonarola atacou também o papa Alexandre Sexto, pai de César Bórgia. Em mil quatrocentos e noventa e sete, o papa o excomungou. Florença ficou dividida entre os seguidores do frade e seus inimigos."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "A prova<br><b>de fogo.</b>"
+   },
+   "txt": "Em abril de mil quatrocentos e noventa e oito, foi marcada uma prova de fogo: um seguidor de Savonarola e um frade rival deveriam atravessar as chamas para provar quem estava com a verdade. A multidão foi para a praça esperando um milagre. Depois de horas de discussões e de uma chuva, a prova não aconteceu."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "A multidão<br><b>virou.</b>"
+   },
+   "txt": "A frustração virou raiva. No dia seguinte, o convento de San Marco foi atacado e Savonarola foi preso. Ele foi interrogado sob tortura e condenado. Em vinte e três de maio de mil quatrocentos e noventa e oito, foi enforcado e queimado na Piazza della Signoria, no mesmo lugar das fogueiras das vaidades."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Semanas depois,<br><b>Maquiavel entrava no governo.</b>"
+   },
+   "txt": "E aqui está a coincidência histórica. Poucas semanas depois da execução, em junho daquele ano, Maquiavel foi nomeado secretário da Segunda Chancelaria de Florença. Ele começou a carreira no governo olhando para as cinzas de alguém que tinha tido o povo nas mãos e perdido tudo."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "3",
+    "h": "O profeta desarmado",
+    "s": "O Príncipe · cap. 6"
+   },
+   "txt": "Parte três. A lição que Maquiavel tirou."
+  },
+  {
+   "tela": {
+    "t": "citacao",
+    "h": "Todos os profetas armados venceram, e os desarmados se arruinaram.",
+    "s": "O Príncipe, cap. 6"
+   },
+   "txt": "No capítulo seis de O Príncipe, Maquiavel escreve: todos os profetas armados venceram, e os desarmados se arruinaram. E cita Savonarola pelo nome, como o exemplo de quem caiu junto com a nova ordem que criou, assim que a multidão começou a não acreditar mais nele."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "É fácil convencer.<br><b>Difícil é manter.</b>"
+   },
+   "txt": "O raciocínio dele é este: a natureza das pessoas é volúvel. É fácil convencê-las de uma coisa, mas é difícil mantê-las convencidas. Por isso, quem cria algo novo precisa estar preparado para que, quando não acreditarem mais, seja possível mantê-los firmes de outra forma."
+  },
+  {
+   "tela": {
+    "t": "imagem",
+    "img": "moses.jpg",
+    "h": "Moisés, Ciro, Rômulo e Teseu",
+    "s": "Os exemplos de Maquiavel"
+   },
+   "txt": "Ele compara com os grandes fundadores da história e da tradição, como Moisés, Ciro, Rômulo e Teseu. Segundo Maquiavel, eles não teriam conseguido fazer suas instituições durarem se estivessem desarmados."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Hoje, \"armas\"<br>são <b>estrutura.</b>"
+   },
+   "txt": "Traduzindo para hoje, sem violência nenhuma: \"armas\" são a estrutura que sustenta uma ideia quando o entusiasmo acaba. Contrato, processo, rotina, caixa, equipe, resultado comprovado. Quem tem só discurso é um profeta desarmado."
+  },
+  {
+   "tela": {
+    "t": "pratica",
+    "h": "Na prática",
+    "itens": [
+     "Transforme cada promessa em processo",
+     "Coloque acordos importantes por escrito",
+     "Mostre resultado, não só discurso"
+    ]
+   },
+   "txt": "Na prática: transforme cada promessa em um processo que funcione sem você estar motivado. Coloque por escrito os acordos importantes, com clientes, sócios e equipe. E construa resultados que falem por você, porque a fé das pessoas muda, mas os fatos ficam."
+  },
+  {
+   "tela": {
+    "t": "compromisso",
+    "h": "Comenta: <b>EU VOU APLICAR</b>"
+   },
+   "txt": "E agora o seu compromisso: qual ideia ou projeto seu hoje depende só de entusiasmo? Se você vai dar a ele uma estrutura esta semana, comenta: eu vou aplicar."
+  },
+  {
+   "tela": {
+    "t": "resumo",
+    "h": "Resumo",
+    "itens": [
+     "Entusiasmo abre portas",
+     "Mas a multidão muda de ideia",
+     "Profeta desarmado cai",
+     "Dê estrutura às suas ideias"
+    ]
+   },
+   "txt": "Resumindo. Entusiasmo abre portas, mas a multidão muda de ideia. O profeta desarmado cai. E as suas armas são a estrutura que você constrói por trás das suas ideias."
+  },
+  {
+   "tela": {
+    "t": "fim"
+   },
+   "txt": "Savonarola tinha a voz. Faltou a estrutura. Se inscreva no Raposa e Leão e assista ao próximo vídeo na tela."
+  }
+ ]
+}
