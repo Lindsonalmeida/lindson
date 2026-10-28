@@ -10,3 +10,7 @@ Método de venda: o Lindson escolhe o lead e manda o link dos vídeos/perfil. Eu
 5. Enviar o vídeo ao Lindson e ajustar pelo retorno.
 
 Endereço que aparece na barra do Safari: `<cliente>.pages.dev` (como ficará quando publicado).
+
+## Retorno do Lindson
+- Santa Beleza (1º teste): "ficou perfeito". A partir do próximo: **design mais premium** (mais sofisticação visual: tipografia de revista, mais respiro, fotos em destaque, detalhes dourados/foil ou texturas da marca, transições mais elegantes).
+- Leads de venda de mini site ficam na lista "Mini site · Estética" do app de SDR. O botão de WhatsApp só aparece depois que o vídeo está marcado como pronto.
