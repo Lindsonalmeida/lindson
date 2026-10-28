@@ -1,0 +1,17 @@
+[{"id":"pv-01","formato":"short",
+ "titulo":"A semana que mudou o mundo em 60 segundos #shorts",
+ "legenda":"Do domingo de ramos ao túmulo vazio: a última semana de Jesus contada com as gravuras de Gustave Doré.\n\nLeia a viagem completa em Mateus 21 a 28.\nComenta ROTA que eu te mando a rota grátis pra começar a ler.\n\n#biblia #pascoa #jesus #estudobiblico #passaportedabiblia",
+ "comentario":"Qual momento dessa semana mais te toca? 👇",
+ "titulo_tela":{"sup":"PASSAPORTE DA BÍBLIA","txt":"A semana que<br>mudou o mundo","dur":2.6},
+ "cenas":[
+  {"gravura":"069","mov":"in","txt":"Domingo. Jerusalém recebe Jesus com ramos nas mãos e gritos de hosana."},
+  {"gravura":"082","mov":"esq","txt":"Quinta à noite, ele reparte o pão com os amigos.","verso":"Isto é o meu corpo, entregue por vocês.","ref":"LUCAS 22.19"},
+  {"gravura":"083","mov":"out","txt":"No jardim, ele ora com angústia.","verso":"Não seja o que eu quero, mas o que tu queres.","ref":"MARCOS 14.36"},
+  {"gravura":"084","mov":"dir","txt":"Um beijo. E Judas entrega o mestre aos soldados."},
+  {"gravura":"086","mov":"cima","txt":"Sexta-feira. Ele carrega a cruz pelas ruas da cidade."},
+  {"gravura":"088","mov":"in","txt":"Pregado na cruz, ele ainda perdoa.","verso":"Pai, perdoa-lhes, pois não sabem o que fazem.","ref":"LUCAS 23.34"},
+  {"gravura":"089","mov":"out","txt":"O céu escurece. E ele diz: está consumado."},
+  {"gravura":"091","mov":"in","txt":"Domingo de manhã, a pedra foi removida.","verso":"Ele não está aqui. Ressuscitou.","ref":"MATEUS 28.6"},
+  {"gravura":"092","mov":"esq","txt":"E no caminho de Emaús, o coração dos discípulos ardia."},
+  {"gravura":"093","mov":"in","cta":"Leia em <b>Mateus 21 a 28</b><br>Comenta <b>ROTA</b>","txt":"Essa viagem está em Mateus 21 a 28. Comenta rota e embarque na leitura."}
+ ]}]

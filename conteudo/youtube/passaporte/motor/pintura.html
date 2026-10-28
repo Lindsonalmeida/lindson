@@ -1,0 +1,73 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800&family=Cormorant+Garamond:ital,wght@1,600&family=Manrope:wght@800&family=Special+Elite&display=swap" rel="stylesheet">
+<style>
+*{margin:0;box-sizing:border-box}
+body{width:__W__px;height:__H__px;overflow:hidden;background:#0A0C14}
+canvas{position:absolute;inset:0}
+#tit{position:absolute;left:0;right:0;top:36%;text-align:center;color:#F2D58A;font:800 __FT__px/1.05 Cinzel;letter-spacing:.06em;text-shadow:0 0 40px rgba(201,162,39,.6),0 6px 24px #000;opacity:0;padding:0 60px}
+#tit small{display:block;font:600 __FS__px Cinzel;letter-spacing:.4em;color:#EFE6D2;margin-bottom:24px}
+#ver{position:absolute;left:70px;right:70px;top:__VY__px;text-align:center;color:#EFE6D2;font:italic 600 __FV__px/1.18 'Cormorant Garamond';text-shadow:0 4px 20px #000,0 0 3px #000;opacity:0}
+#ver span{display:block;margin-top:14px;font:400 __FR__px 'Special Elite';letter-spacing:.14em;color:#C9A227;font-style:normal}
+#cap{position:absolute;left:60px;right:60px;top:__CY__px;text-align:center;font:800 __FC__px/1.15 Manrope;color:#EFE6D2;text-shadow:0 4px 16px #000,0 0 4px #000;text-transform:uppercase}
+#cap .on{color:#F2D58A}
+#sombra{position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,12,20,.55) 0,rgba(10,12,20,0) 14%,rgba(10,12,20,0) 48%,rgba(10,12,20,.82) 70%,rgba(10,12,20,.9) 100%)}
+#marca{position:absolute;left:0;right:0;top:__MY__px;text-align:center;font:400 22px 'Special Elite';letter-spacing:.3em;color:rgba(239,230,210,.55)}
+#cta{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:34px;opacity:0;text-align:center;padding:0 70px}
+#cta .sel{width:340px;height:340px;border-radius:50%;border:10px dashed #D7263D;color:#D7263D;background:rgba(239,230,210,.95);display:grid;place-items:center;font:800 54px/1 Cinzel;transform:rotate(-10deg)}
+#cta p{font:800 __FC__px/1.2 Manrope;color:#EFE6D2;text-transform:uppercase;text-shadow:0 4px 16px #000}
+#cta p b{color:#F2D58A}
+</style></head><body>
+<canvas id="gl" width="__W__" height="__H__"></canvas><div id="sombra"></div><canvas id="px" width="__W__" height="__H__"></canvas>
+<div id="marca">PASSAPORTE DA BÍBLIA</div><div id="tit"></div><div id="ver"></div><div id="cap"></div><div id="cta"></div>
+<script>
+const SP=__SPEC__,$=id=>document.getElementById(id),cl=(x,a=0,b=1)=>Math.max(a,Math.min(b,x)),ease=x=>{x=cl(x);return x<.5?2*x*x:1-Math.pow(-2*x+2,2)/2};
+const W=__W__,H=__H__,gl=$('gl').getContext('webgl',{preserveDrawingBuffer:true});
+const VS=`attribute vec2 p;varying vec2 v;void main(){v=p*.5+.5;v.y=1.-v.y;gl_Position=vec4(p,0,1);}`;
+const FS=`precision highp float;varying vec2 v;uniform sampler2D A,AD,B,BD;uniform vec4 ca,cb;uniform vec2 ia,ib,par_a,par_b;uniform float mixv,t,flick;
+vec2 fit(vec2 uv,vec2 ir,vec4 c){float sr=${(W/H).toFixed(4)};vec2 s=ir.x/ir.y>sr?vec2(sr/(ir.x/ir.y),1.):vec2(1.,(ir.x/ir.y)/sr);return (uv-.5)*s/c.z+.5+c.xy;}
+vec3 amostra(sampler2D im,sampler2D dp,vec2 ir,vec4 c,vec2 par){vec2 u=fit(v,ir,c);float d=texture2D(dp,u).r;u+= (d-.45)*par;u=clamp(u,.002,.998);return texture2D(im,u).rgb;}
+float h(vec2 p){return fract(sin(dot(p,vec2(12.9898,78.233)))*43758.5453);}
+void main(){vec3 a=amostra(A,AD,ia,ca,par_a),b=amostra(B,BD,ib,cb,par_b);vec3 c=mix(a,b,mixv);
+float g=dot(c,vec3(.299,.587,.114));g=pow(smoothstep(.06,.94,g),1.25);
+vec3 sombra=vec3(.05,.06,.11),meio=vec3(.55,.40,.22),luz=vec3(1.,.90,.68);
+vec3 col=g<.5?mix(sombra,meio,g*2.):mix(meio,luz,(g-.5)*2.);
+vec2 q=v-.5;float vig=smoothstep(.95,.25,length(q*vec2(${(W/H).toFixed(3)},1.)*1.15));col*=mix(.28,1.,vig);
+col+=vec3(1.,.75,.4)*.06*flick*smoothstep(.7,0.,length(q-vec2(.18,-.3)));
+col+=(h(v*vec2(${W}.,${H}.)+t)-.5)*.07;gl_FragColor=vec4(col,1.);}`;
+function sh(tp,src){const s=gl.createShader(tp);gl.shaderSource(s,src);gl.compileShader(s);if(!gl.getShaderParameter(s,gl.COMPILE_STATUS))throw gl.getShaderInfoLog(s);return s}
+const pr=gl.createProgram();gl.attachShader(pr,sh(gl.VERTEX_SHADER,VS));gl.attachShader(pr,sh(gl.FRAGMENT_SHADER,FS));gl.linkProgram(pr);gl.useProgram(pr);
+const bf=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,bf);gl.bufferData(gl.ARRAY_BUFFER,new Float32Array([-1,-1,1,-1,-1,1,1,1]),gl.STATIC_DRAW);
+const pl=gl.getAttribLocation(pr,'p');gl.enableVertexAttribArray(pl);gl.vertexAttribPointer(pl,2,gl.FLOAT,false,0,0);
+const U=n=>gl.getUniformLocation(pr,n);
+function tex(img){const t=gl.createTexture();gl.bindTexture(gl.TEXTURE_2D,t);gl.texImage2D(gl.TEXTURE_2D,0,gl.RGBA,gl.RGBA,gl.UNSIGNED_BYTE,img);
+ gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MIN_FILTER,gl.LINEAR);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MAG_FILTER,gl.LINEAR);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_S,gl.CLAMP_TO_EDGE);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_T,gl.CLAMP_TO_EDGE);return t}
+const load=src=>new Promise(r=>{const i=new Image();i.onload=()=>r(i);i.src=src});
+let TX=[];
+async function prep(){for(const s of SP.cenas){const [a,d]=await Promise.all([load(s.img),load(s.dep)]);TX.push({a:tex(a),d:tex(d),r:[a.width,a.height]})}}
+// movimento de câmera por cena: zoom lento + pan + parallax
+function cam(i,u){const s=SP.cenas[i],m=s.mov||['in','esq','dir','out','cima'][i%5];const z0=m==='out'?1.22:1.06,z1=m==='out'?1.06:1.22;
+ const px=m==='esq'?.04-.08*u:m==='dir'?-.04+.08*u:0,py=m==='cima'?.03-.06*u:0;const k=ease(u);
+ return {c:[px*k*0+px,(py),z0+(z1-z0)*k,0],par:[(.5-u)*.035,(.5-u)*.012]}}
+function bind(slot,unit,t){gl.activeTexture(gl.TEXTURE0+unit);gl.bindTexture(gl.TEXTURE_2D,t);gl.uniform1i(U(slot),unit)}
+// partículas de poeira dourada
+const px=$('px').getContext('2d'),P=[...Array(70)].map((_,i)=>{const r=Math.sin(i*91.7)*43758.5,f=r-Math.floor(r),r2=Math.sin(i*17.3)*9631.1,g=r2-Math.floor(r2);return{x:f*W,y:g*H,s:1+f*2.6,v:6+g*18,ph:i}});
+function poeira(t){px.clearRect(0,0,W,H);for(const p of P){const y=(p.y-t*p.v+H*4)%H,x=p.x+Math.sin(t*.4+p.ph)*18;px.fillStyle=`rgba(242,213,138,${.25+.35*Math.abs(Math.sin(t+p.ph))})`;px.beginPath();px.arc(x,y,p.s,0,7);px.fill()}}
+const CH=[];SP.cenas.forEach(s=>{const w=s.words||[];for(let k=0;k<w.length;k+=3){const bl=w.slice(k,k+3);CH.push({a:bl[0][1],z:w[k+3]?w[k+3][1]:bl[bl.length-1][1]+.6,w:bl})}});
+window.render=t=>{
+ let i=SP.cenas.findIndex(s=>t>=s.ini&&t<s.fim);if(i<0)i=t<SP.cenas[0].ini?0:SP.cenas.length-1;const s=SP.cenas[i];
+ const D=s.fim-s.ini,u=cl((t-s.ini)/D),j=Math.min(i+1,SP.cenas.length-1),FADE=.7,mixv=i===j?0:cl((t-(s.fim-FADE))/FADE);
+ const a=cam(i,u),b=cam(j,0);
+ bind('A',0,TX[i].a);bind('AD',1,TX[i].d);bind('B',2,TX[j].a);bind('BD',3,TX[j].d);
+ gl.uniform4fv(U('ca'),a.c);gl.uniform4fv(U('cb'),b.c);gl.uniform2fv(U('ia'),TX[i].r);gl.uniform2fv(U('ib'),TX[j].r);gl.uniform2fv(U('par_a'),a.par);gl.uniform2fv(U('par_b'),b.par);
+ gl.uniform1f(U('mixv'),mixv);gl.uniform1f(U('t'),t%7);gl.uniform1f(U('flick'),.6+.4*Math.sin(t*7.3)*Math.sin(t*3.1));
+ gl.viewport(0,0,W,H);gl.drawArrays(gl.TRIANGLE_STRIP,0,4);poeira(t);
+ // título de abertura
+ const tt=SP.titulo_tela,tk=t<tt.fim?cl(t/.8)*cl((tt.fim-t)/.6):0;$('tit').style.opacity=tk;$('tit').innerHTML=`<small>${tt.sup}</small>${tt.txt}`;$('tit').style.transform=`scale(${1.06-.06*cl(t/tt.fim)})`;
+ // versículo
+ const vv=s.verso?cl((t-s.ini-.4)/.6)*cl((s.fim-t)/.4):0;$('ver').style.opacity=vv;if(s.verso)$('ver').innerHTML=`“${s.verso}”<span>${s.ref}</span>`;
+ // legenda
+ const c=CH.find(c=>t>=c.a-.05&&t<c.z);$('cap').innerHTML=c&&!s.cta?c.w.map(([x,ts])=>`<span class="${t>=ts?'on':''}">${x}</span>`).join(' '):'';
+ const ct=SP.cenas.find(x=>x.cta);if(ct){const k=cl((t-ct.ini)/.6);$('cta').style.opacity=k;$('cta').innerHTML=`<div class="sel">CARIMBE<br>AQUI</div><p>${ct.cta}</p>`}
+};
+prep().then(()=>document.fonts.ready).then(()=>{window.ready=true});
+</script></body></html>

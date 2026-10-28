@@ -1,0 +1,1032 @@
+[
+ {
+  "id": "zap-01",
+  "titulo": "Jonas fugiu de Deus… de barco! Zap Bíblico #shorts",
+  "legenda": "Deus mandou Jonas pra Nínive. Ele comprou passagem pro lado contrário.\nTempestade, sorteio, mar e um peixe enorme: a fofoca completa no zap.\nComenta ROTA que eu te mando o mapa grátis da Bíblia.\n#jonas #historiabiblica #zapbiblico #biblia",
+  "comentario": "Você já fugiu de alguma coisa que Deus te pediu? Conta aqui 👇",
+  "ref": "Jonas 1–4",
+  "capa": {
+   "texto": "Jonas fugiu de Deus",
+   "destaque": "fugiu",
+   "icone": "assets/Spouting whale/Flat/spouting_whale_flat.svg"
+  },
+  "chat": {
+   "nome": "Barco rumo a Társis ⛵",
+   "icone": "assets/Ship/Flat/ship_flat.svg",
+   "tipo": "grupo"
+  },
+  "pessoas": {
+   "Jonas": {
+    "icone": "assets/Man beard/Default/Flat/man_beard_flat_default.svg",
+    "voz": "m"
+   },
+   "Capitão": {
+    "icone": "assets/Man white hair/Default/Flat/man_white_hair_flat_default.svg",
+    "voz": "m"
+   },
+   "Marinheiro": {
+    "icone": "assets/Man curly hair/Default/Flat/man_curly_hair_flat_default.svg",
+    "voz": "m"
+   }
+  },
+  "cenas": [
+   {
+    "tipo": "narra",
+    "txt": "Gente, um profeta fugiu de Deus… de barco!"
+   },
+   {
+    "tipo": "narra",
+    "txt": "Deus mandou Jonas pregar em Nínive. Ele pagou passagem pro lado oposto."
+   },
+   {
+    "tipo": "sistema",
+    "txt": "Jonas mudou o local para Társis"
+   },
+   {
+    "tipo": "narra",
+    "txt": "No mar, veio uma tempestade daquelas. E o Jonas?"
+   },
+   {
+    "tipo": "msg",
+    "de": "Capitão",
+    "txt": "Cadê o passageiro novo?? O barco tá quase quebrando!"
+   },
+   {
+    "tipo": "msg",
+    "de": "Marinheiro",
+    "txt": "Tá DORMINDO lá no porão 😳"
+   },
+   {
+    "tipo": "audio",
+    "de": "Capitão",
+    "txt": "Levanta, homem! Clama ao teu Deus, quem sabe ele se lembra da gente!"
+   },
+   {
+    "tipo": "msg",
+    "de": "Marinheiro",
+    "txt": "Tiramos a sorte. Caiu no Jonas."
+   },
+   {
+    "tipo": "audio",
+    "de": "Jonas",
+    "txt": "Fui eu. Tô fugindo do Senhor. Me joguem no mar que ele se acalma."
+   },
+   {
+    "tipo": "figurinha",
+    "de": "Marinheiro",
+    "icone": "assets/Face screaming in fear/Flat/face_screaming_in_fear_flat.svg"
+   },
+   {
+    "tipo": "sistema",
+    "txt": "Jonas saiu do grupo"
+   },
+   {
+    "tipo": "narra",
+    "txt": "O mar parou na hora. Um peixe enorme engoliu Jonas: três dias lá dentro."
+   },
+   {
+    "tipo": "narra",
+    "txt": "Ele orou, o peixe vomitou ele na praia e aí sim ele foi. Nínive se arrependeu… e Jonas ficou bravo com o perdão."
+   },
+   {
+    "tipo": "versiculo",
+    "txt": "Você tem pena de uma planta. E eu não teria pena de Nínive, com mais de 120 mil pessoas?",
+    "ref": "Jn 4.10-11"
+   },
+   {
+    "tipo": "fim",
+    "txt": "Comenta ROTA que eu te mando o mapa grátis. Lê tudo em Jonas 1 a 4."
+   }
+  ]
+ },
+ {
+  "id": "zap-02",
+  "titulo": "Os irmãos venderam o caçula! Grupo Filhos de Jacó #shorts",
+  "legenda": "José contou os sonhos no grupo da família… e o ciúme ferveu.\nCisterna, 20 moedas de prata e uma túnica manchada. Mas Deus não largou José.\nSalva pra lembrar disso quando te puxarem o tapete.\n#josedoegito #genesis #familia #fofocabiblica #fe",
+  "comentario": "Se você fosse o Rúben, o que teria feito? 👇",
+  "ref": "Gênesis 37; 50.20",
+  "capa": {
+   "texto": "Venderam o próprio irmão",
+   "destaque": "irmão",
+   "icone": "assets/Coin/Flat/coin_flat.svg"
+  },
+  "chat": {
+   "nome": "Filhos de Jacó 🐑",
+   "icone": "assets/Ewe/Flat/ewe_flat.svg",
+   "tipo": "grupo"
+  },
+  "pessoas": {
+   "José": {
+    "icone": "assets/Person curly hair/Default/Flat/person_curly_hair_flat_default.svg",
+    "voz": "m"
+   },
+   "Simeão": {
+    "icone": "assets/Man frowning/Default/Flat/man_frowning_flat_default.svg",
+    "voz": "m"
+   },
+   "Rúben": {
+    "icone": "assets/Man beard/Default/Flat/man_beard_flat_default.svg",
+    "voz": "m"
+   },
+   "Judá": {
+    "icone": "assets/Man red hair/Default/Flat/man_red_hair_flat_default.svg",
+    "voz": "m"
+   },
+   "Os irmãos": {
+    "icone": "assets/Busts in silhouette/Flat/busts_in_silhouette_flat.svg",
+    "voz": "m"
+   }
+  },
+  "cenas": [
+   {
+    "tipo": "narra",
+    "txt": "Gente, os irmãos venderam o caçula. Sim, venderam!"
+   },
+   {
+    "tipo": "msg",
+    "de": "José",
+    "txt": "Sonhei que os feixes de vocês se curvavam pro meu 🌾"
+   },
+   {
+    "tipo": "reacao",
+    "emoji": "🙄"
+   },
+   {
+    "tipo": "msg",
+    "de": "José",
+    "txt": "E outro: o sol, a lua e 11 estrelas se curvando pra mim ✨"
+   },
+   {
+    "tipo": "msg",
+    "de": "Simeão",
+    "txt": "Ninguém perguntou, José."
+   },
+   {
+    "tipo": "narra",
+    "txt": "E ainda tinha a túnica especial que o pai deu só pra ele."
+   },
+   {
+    "tipo": "sistema",
+    "txt": "José foi removido do grupo"
+   },
+   {
+    "tipo": "msg",
+    "de": "Os irmãos",
+    "txt": "Lá vem o sonhador. Bora acabar com ele e ver no que dá o sonho."
+   },
+   {
+    "tipo": "audio",
+    "de": "Rúben",
+    "txt": "Não matem! Joguem ele na cisterna, mas sem derramar sangue."
+   },
+   {
+    "tipo": "audio",
+    "de": "Judá",
+    "txt": "O que a gente ganha matando ele? Vamos vender pros ismaelitas."
+   },
+   {
+    "tipo": "sistema",
+    "txt": "Venda fechada: 20 moedas de prata"
+   },
+   {
+    "tipo": "msg",
+    "de": "Rúben",
+    "txt": "Voltei na cisterna e ele SUMIU. E agora?"
+   },
+   {
+    "tipo": "figurinha",
+    "de": "Judá",
+    "icone": "assets/Face without mouth/Flat/face_without_mouth_flat.svg"
+   },
+   {
+    "tipo": "narra",
+    "txt": "Mancharam a túnica com sangue de cabrito. Jacó achou que o filho tinha morrido."
+   },
+   {
+    "tipo": "narra",
+    "txt": "Anos depois, José era governador do Egito. E quem apareceu lá pedindo comida? Os irmãos."
+   },
+   {
+    "tipo": "versiculo",
+    "txt": "Vocês planejaram o mal contra mim, mas Deus transformou em bem, para salvar muitas vidas.",
+    "ref": "Gn 50.20"
+   },
+   {
+    "tipo": "fim",
+    "txt": "Salva pra lembrar quando te puxarem o tapete. História completa: Gênesis 37 a 50."
+   }
+  ]
+ },
+ {
+  "id": "zap-03",
+  "titulo": "O menino que calou o gigante: Davi x Golias no zap #shorts",
+  "legenda": "40 dias de Golias gritando e o exército inteiro com medo.\nAí chega o caçula que só veio trazer comida pros irmãos.\nSegue pra próxima fofoca bíblica.\n#davi #davidegolias #coragem #historiabiblica #fe",
+  "comentario": "Qual gigante você tá enfrentando hoje? Escreve aqui que a gente ora 🙏",
+  "ref": "1 Samuel 17",
+  "capa": {
+   "texto": "Davi contra o gigante",
+   "destaque": "gigante",
+   "icone": "assets/Rock/Flat/rock_flat.svg"
+  },
+  "chat": {
+   "nome": "Exército de Israel ⚔️",
+   "icone": "assets/Crossed swords/Flat/crossed_swords_flat.svg",
+   "tipo": "grupo"
+  },
+  "pessoas": {
+   "Davi": {
+    "icone": "assets/Boy/Default/Flat/boy_flat_default.svg",
+    "voz": "m"
+   },
+   "Eliabe": {
+    "icone": "assets/Man pouting/Default/Flat/man_pouting_flat_default.svg",
+    "voz": "m"
+   },
+   "Saul": {
+    "icone": "assets/Person with crown/Default/Flat/person_with_crown_flat_default.svg",
+    "voz": "m"
+   }
+  },
+  "cenas": [
+   {
+    "tipo": "narra",
+    "txt": "Gente, um menino com uma funda encarou um gigante."
+   },
+   {
+    "tipo": "narra",
+    "txt": "Quarenta dias o filisteu Golias desafiando Israel. E todo mundo com medo."
+   },
+   {
+    "tipo": "msg",
+    "de": "Eliabe",
+    "txt": "Ele tá gritando de novo. Ninguém vai?"
+   },
+   {
+    "tipo": "reacao",
+    "emoji": "😰"
+   },
+   {
+    "tipo": "narra",
+    "txt": "Aí chega o caçula Davi, que só veio trazer comida pros irmãos."
+   },
+   {
+    "tipo": "msg",
+    "de": "Davi",
+    "txt": "Quem é esse filisteu pra afrontar o exército do Deus vivo?"
+   },
+   {
+    "tipo": "audio",
+    "de": "Eliabe",
+    "txt": "Eu conheço teu orgulho. Largou as ovelhas só pra ver a guerra, né?"
+   },
+   {
+    "tipo": "msg",
+    "de": "Davi",
+    "txt": "Ué, o que eu fiz agora? Só perguntei 🤷"
+   },
+   {
+    "tipo": "audio",
+    "de": "Saul",
+    "txt": "Você é só um rapaz. Ele é guerreiro desde jovem."
+   },
+   {
+    "tipo": "msg",
+    "de": "Davi",
+    "txt": "Já matei leão e urso cuidando das ovelhas. O Senhor me livra desse também."
+   },
+   {
+    "tipo": "msg",
+    "de": "Saul",
+    "txt": "Então vai, e o Senhor esteja com você. Leva minha armadura."
+   },
+   {
+    "tipo": "msg",
+    "de": "Davi",
+    "txt": "Não consigo nem andar com isso 😅 Vou com cajado, funda e 5 pedras."
+   },
+   {
+    "tipo": "versiculo",
+    "txt": "Você vem com espada e lança. Eu vou em nome do Senhor dos Exércitos.",
+    "ref": "1Sm 17.45"
+   },
+   {
+    "tipo": "narra",
+    "txt": "Uma pedra. Na testa. O gigante caiu de cara no chão."
+   },
+   {
+    "tipo": "figurinha",
+    "de": "Eliabe",
+    "icone": "assets/Exploding head/Flat/exploding_head_flat.svg"
+   },
+   {
+    "tipo": "fim",
+    "txt": "Segue pra próxima fofoca bíblica. A história toda tá em 1 Samuel 17."
+   }
+  ]
+ },
+ {
+  "id": "zap-04",
+  "titulo": "A nora mais fiel da Bíblia: Rute e Noemi no zap #shorts",
+  "legenda": "Noemi perdeu o marido e os dois filhos. Uma nora foi embora. A outra ficou.\nE essa fidelidade foi parar na família do rei Davi.\nComenta ROTA que eu te mando o mapa grátis.\n#rute #sograenora #historiabiblica #amorefidelidade",
+  "comentario": "Marca aqui alguém que nunca te largou 💛",
+  "ref": "Rute 1–4",
+  "capa": {
+   "texto": "A nora que ficou",
+   "destaque": "ficou",
+   "icone": "assets/Sheaf of rice/Flat/sheaf_of_rice_flat.svg"
+  },
+  "chat": {
+   "nome": "Família de Noemi 💛",
+   "icone": "assets/Sheaf of rice/Flat/sheaf_of_rice_flat.svg",
+   "tipo": "grupo"
+  },
+  "pessoas": {
+   "Noemi": {
+    "icone": "assets/Old woman/Default/Flat/old_woman_flat_default.svg",
+    "voz": "f"
+   },
+   "Rute": {
+    "icone": "assets/Woman with headscarf/Default/Flat/woman_with_headscarf_flat_default.svg",
+    "voz": "f"
+   },
+   "Orfa": {
+    "icone": "assets/Woman curly hair/Default/Flat/woman_curly_hair_flat_default.svg",
+    "voz": "f"
+   }
+  },
+  "cenas": [
+   {
+    "tipo": "narra",
+    "txt": "Gente, a nora mais fiel da Bíblia. Senta que vem."
+   },
+   {
+    "tipo": "narra",
+    "txt": "Em Moabe, Noemi perdeu o marido e os dois filhos."
+   },
+   {
+    "tipo": "audio",
+    "de": "Noemi",
+    "txt": "Minhas filhas, voltem pra casa da mãe de vocês. Eu vou voltar pra Belém."
+   },
+   {
+    "tipo": "msg",
+    "de": "Orfa",
+    "txt": "Vou sentir muita saudade, sogrinha 😢"
+   },
+   {
+    "tipo": "sistema",
+    "txt": "Orfa saiu do grupo"
+   },
+   {
+    "tipo": "msg",
+    "de": "Noemi",
+    "txt": "Rute, sua cunhada voltou. Volta você também."
+   },
+   {
+    "tipo": "audio",
+    "de": "Rute",
+    "txt": "Aonde você for, eu vou. O teu povo será o meu povo, e o teu Deus, o meu Deus."
+   },
+   {
+    "tipo": "reacao",
+    "emoji": "🥹"
+   },
+   {
+    "tipo": "msg",
+    "de": "Noemi",
+    "txt": "Cheguei em Belém. Não me chamem de Noemi, me chamem de Mara 😞"
+   },
+   {
+    "tipo": "narra",
+    "txt": "Rute foi catar espigas e caiu justo no campo de Boaz."
+   },
+   {
+    "tipo": "msg",
+    "de": "Rute",
+    "txt": "Sogra, o dono do campo mandou deixarem espigas pra mim de propósito 😳"
+   },
+   {
+    "tipo": "audio",
+    "de": "Noemi",
+    "txt": "Boaz?! Bendito seja o Senhor! Esse homem é nosso parente resgatador!"
+   },
+   {
+    "tipo": "sistema",
+    "txt": "Noemi adicionou Boaz"
+   },
+   {
+    "tipo": "narra",
+    "txt": "Boaz casou com Rute. Nasceu Obede, avô do rei Davi. A estrangeira entrou na família de Jesus."
+   },
+   {
+    "tipo": "figurinha",
+    "de": "Noemi",
+    "icone": "assets/Smiling face with hearts/Flat/smiling_face_with_hearts_flat.svg"
+   },
+   {
+    "tipo": "fim",
+    "txt": "Comenta ROTA que eu te mando o mapa grátis. Lê o livro de Rute: só 4 capítulos."
+   }
+  ]
+ },
+ {
+  "id": "zap-05",
+  "titulo": "Faraó levou 10 pragas pra entender um recado #shorts",
+  "legenda": "Moisés e Arão chegaram no palácio com um recado de Deus. O Faraó disse não.\nRio de sangue, rã na cama e um coração cada vez mais duro.\nSalva e manda no grupo da família.\n#moises #exodo #10pragas #biblia #zapbiblico",
+  "comentario": "Qual das 10 pragas você acha que foi a pior? 👇",
+  "ref": "Êxodo 5–12",
+  "capa": {
+   "texto": "Faraó disse não",
+   "destaque": "não",
+   "icone": "assets/Frog/Flat/frog_flat.svg"
+  },
+  "chat": {
+   "nome": "Negociação no Egito 🐸",
+   "icone": "assets/Frog/Flat/frog_flat.svg",
+   "tipo": "grupo"
+  },
+  "pessoas": {
+   "Moisés": {
+    "icone": "assets/Old man/Default/Flat/old_man_flat_default.svg",
+    "voz": "m"
+   },
+   "Arão": {
+    "icone": "assets/Man white hair/Default/Flat/man_white_hair_flat_default.svg",
+    "voz": "m"
+   },
+   "Faraó": {
+    "icone": "assets/Person with crown/Default/Flat/person_with_crown_flat_default.svg",
+    "voz": "m"
+   }
+  },
+  "cenas": [
+   {
+    "tipo": "narra",
+    "txt": "Gente, o Faraó levou dez pragas pra entender um recado."
+   },
+   {
+    "tipo": "narra",
+    "txt": "Moisés e Arão entraram no palácio com uma mensagem de Deus."
+   },
+   {
+    "tipo": "versiculo",
+    "txt": "Assim diz o Senhor, o Deus de Israel: deixe o meu povo ir.",
+    "ref": "Êx 5.1"
+   },
+   {
+    "tipo": "audio",
+    "de": "Faraó",
+    "txt": "Quem é esse Senhor pra eu obedecer? Não conheço. E ninguém vai sair daqui."
+   },
+   {
+    "tipo": "narra",
+    "txt": "E ainda dobrou o peso sobre os escravos."
+   },
+   {
+    "tipo": "sistema",
+    "txt": "Arão tocou nas águas: o rio Nilo virou sangue"
+   },
+   {
+    "tipo": "msg",
+    "de": "Faraó",
+    "txt": "Meus magos fazem igual. Próximo."
+   },
+   {
+    "tipo": "sistema",
+    "txt": "Tem rã até na cama do Faraó"
+   },
+   {
+    "tipo": "msg",
+    "de": "Faraó",
+    "txt": "Tá bom, tá bom! Orem pro Senhor tirar as rãs que eu deixo o povo ir 🐸"
+   },
+   {
+    "tipo": "narra",
+    "txt": "As rãs foram embora… e o Faraó voltou atrás. De novo. E de novo."
+   },
+   {
+    "tipo": "msg",
+    "de": "Moisés",
+    "txt": "Moscas, gado, feridas, granizo, gafanhotos, escuridão… vai continuar?"
+   },
+   {
+    "tipo": "reacao",
+    "emoji": "😮‍💨"
+   },
+   {
+    "tipo": "narra",
+    "txt": "Na décima praga, morreram os primogênitos do Egito. Israel ficou protegido pelo sangue do cordeiro."
+   },
+   {
+    "tipo": "audio",
+    "de": "Faraó",
+    "txt": "Saiam do meio do meu povo! Vocês e os israelitas. Vão servir ao Senhor!"
+   },
+   {
+    "tipo": "figurinha",
+    "de": "Arão",
+    "icone": "assets/Raising hands/Default/Flat/raising_hands_flat_default.svg"
+   },
+   {
+    "tipo": "fim",
+    "txt": "Salva e manda pra família. A história tá em Êxodo 5 a 12."
+   }
+  ]
+ },
+ {
+  "id": "zap-06",
+  "titulo": "Armaram contra Daniel e caíram na própria cova #shorts",
+  "legenda": "Os governadores não acharam um erro no Daniel. Então atacaram a fé dele.\nLei de 30 dias, janela aberta e uma noite com os leões.\nSegue pra próxima fofoca bíblica.\n#daniel #covadosleoes #oracao #historiabiblica",
+  "comentario": "Você ora mesmo quando ninguém apoia? Escreve AMÉM 🙏",
+  "ref": "Daniel 6",
+  "capa": {
+   "texto": "Daniel na cova",
+   "destaque": "cova",
+   "icone": "assets/Lion/Flat/lion_flat.svg"
+  },
+  "chat": {
+   "nome": "Governadores (sem o Daniel) 📜",
+   "icone": "assets/Scroll/Flat/scroll_flat.svg",
+   "tipo": "grupo"
+  },
+  "pessoas": {
+   "Governador": {
+    "icone": "assets/Person in tuxedo/Default/Flat/person_in_tuxedo_flat_default.svg",
+    "voz": "m"
+   },
+   "Rei Dario": {
+    "icone": "assets/Person with crown/Default/Flat/person_with_crown_flat_default.svg",
+    "voz": "m"
+   },
+   "Daniel": {
+    "icone": "assets/Older person/Default/Flat/older_person_flat_default.svg",
+    "voz": "m"
+   }
+  },
+  "cenas": [
+   {
+    "tipo": "narra",
+    "txt": "Gente, armaram contra o Daniel e quem caiu foram eles."
+   },
+   {
+    "tipo": "narra",
+    "txt": "O rei ia pôr Daniel acima de todos. Os governadores surtaram."
+   },
+   {
+    "tipo": "msg",
+    "de": "Governador",
+    "txt": "Procurei erro dele de todo jeito. Nada. Nem um deslize."
+   },
+   {
+    "tipo": "msg",
+    "de": "Governador",
+    "txt": "Só pegando ele na fé. Tive uma ideia 😏"
+   },
+   {
+    "tipo": "narra",
+    "txt": "Fizeram o rei assinar: por 30 dias, oração só pro rei. Senão, cova dos leões."
+   },
+   {
+    "tipo": "narra",
+    "txt": "Daniel abriu a janela e orou três vezes por dia, como sempre."
+   },
+   {
+    "tipo": "msg",
+    "de": "Governador",
+    "txt": "Flagrei! Rei, o Daniel tá orando pro Deus dele."
+   },
+   {
+    "tipo": "audio",
+    "de": "Rei Dario",
+    "txt": "Tentei livrar ele até o pôr do sol… mas a lei não pode ser mudada."
+   },
+   {
+    "tipo": "figurinha",
+    "de": "Rei Dario",
+    "icone": "assets/Anxious face with sweat/Flat/anxious_face_with_sweat_flat.svg"
+   },
+   {
+    "tipo": "narra",
+    "txt": "Daniel foi pra cova. O rei passou a noite sem comer nem dormir."
+   },
+   {
+    "tipo": "sistema",
+    "txt": "Rei Dario adicionou Daniel"
+   },
+   {
+    "tipo": "audio",
+    "de": "Rei Dario",
+    "txt": "Daniel, servo do Deus vivo! O teu Deus te livrou dos leões?"
+   },
+   {
+    "tipo": "audio",
+    "de": "Daniel",
+    "txt": "Ó rei, vive para sempre! Meu Deus mandou seu anjo e fechou a boca dos leões."
+   },
+   {
+    "tipo": "reacao",
+    "emoji": "😱"
+   },
+   {
+    "tipo": "narra",
+    "txt": "Daniel saiu sem um arranhão, porque confiou em Deus. E os acusadores foram pra cova."
+   },
+   {
+    "tipo": "fim",
+    "txt": "Segue pra próxima fofoca bíblica. Lê tudo em Daniel 6."
+   }
+  ]
+ },
+ {
+  "id": "zap-07",
+  "titulo": "Acabou o vinho no casamento! Caná no zap #shorts",
+  "legenda": "Festa de casamento, vinho acabando e os servos desesperados.\nMaria deu a dica: façam tudo o que ele mandar. E a água virou o melhor vinho.\nComenta ROTA que eu te mando o mapa grátis.\n#bodasdecana #jesus #milagre #evangelho #catolicoseevangelicos",
+  "comentario": "O que você precisa que Jesus transforme na sua casa? 👇",
+  "ref": "João 2.1-11",
+  "capa": {
+   "texto": "Acabou o vinho!",
+   "destaque": "vinho",
+   "icone": "assets/Wine glass/Flat/wine_glass_flat.svg"
+  },
+  "chat": {
+   "nome": "Casamento em Caná 🍷",
+   "icone": "assets/Wine glass/Flat/wine_glass_flat.svg",
+   "tipo": "grupo"
+  },
+  "pessoas": {
+   "Maria": {
+    "icone": "assets/Woman with headscarf/Default/Flat/woman_with_headscarf_flat_default.svg",
+    "voz": "f"
+   },
+   "Servo": {
+    "icone": "assets/Man cook/Default/Flat/man_cook_flat_default.svg",
+    "voz": "m"
+   },
+   "Mestre-sala": {
+    "icone": "assets/Man in tuxedo/Default/Flat/man_in_tuxedo_flat_default.svg",
+    "voz": "m"
+   }
+  },
+  "cenas": [
+   {
+    "tipo": "narra",
+    "txt": "Gente, acabou o vinho no meio do casamento!"
+   },
+   {
+    "tipo": "narra",
+    "txt": "Casamento em Caná da Galileia. Maria tava lá, e Jesus e os discípulos também foram convidados."
+   },
+   {
+    "tipo": "msg",
+    "de": "Servo",
+    "txt": "Socorro. O vinho ACABOU. E a festa nem terminou 😰"
+   },
+   {
+    "tipo": "msg",
+    "de": "Maria",
+    "txt": "Calma. Já contei pro meu filho que o vinho acabou."
+   },
+   {
+    "tipo": "msg",
+    "de": "Maria",
+    "txt": "Façam tudo o que ele mandar."
+   },
+   {
+    "tipo": "narra",
+    "txt": "Tinha ali seis talhas de pedra, enormes. Jesus deu a ordem."
+   },
+   {
+    "tipo": "versiculo",
+    "txt": "Encham as talhas de água. Agora tirem um pouco e levem ao mestre-sala.",
+    "ref": "Jo 2.7-8"
+   },
+   {
+    "tipo": "msg",
+    "de": "Servo",
+    "txt": "Enchemos até a boca. Era água. Era ÁGUA, gente 😳"
+   },
+   {
+    "tipo": "narra",
+    "txt": "O mestre-sala provou… e não sabia de onde tinha vindo. Os servos sabiam."
+   },
+   {
+    "tipo": "audio",
+    "de": "Mestre-sala",
+    "txt": "Todo mundo serve o vinho bom primeiro. Vocês guardaram o melhor pra agora!"
+   },
+   {
+    "tipo": "reacao",
+    "emoji": "😮"
+   },
+   {
+    "tipo": "figurinha",
+    "de": "Servo",
+    "icone": "assets/Shushing face/Flat/shushing_face_flat.svg"
+   },
+   {
+    "tipo": "narra",
+    "txt": "Foi o primeiro sinal de Jesus. E os discípulos creram nele."
+   },
+   {
+    "tipo": "fim",
+    "txt": "Comenta ROTA que eu te mando o mapa grátis. Lê em João 2, do 1 ao 11."
+   }
+  ]
+ },
+ {
+  "id": "zap-08",
+  "titulo": "O homem mais odiado de Jericó subiu numa árvore #shorts",
+  "legenda": "Zaqueu era rico, cobrador de impostos e baixinho. Subiu numa árvore só pra ver Jesus.\nE Jesus parou bem ali e chamou pelo nome.\nSalva pra lembrar: ninguém foi longe demais.\n#zaqueu #jesus #salvacao #historiabiblica",
+  "comentario": "Você conhece alguém que todo mundo acha que não tem jeito? Ora por ele aqui 🙏",
+  "ref": "Lucas 19.1-10",
+  "capa": {
+   "texto": "Zaqueu na árvore",
+   "destaque": "árvore",
+   "icone": "assets/Deciduous tree/Flat/deciduous_tree_flat.svg"
+  },
+  "chat": {
+   "nome": "Vizinhos de Jericó 🌳",
+   "icone": "assets/Deciduous tree/Flat/deciduous_tree_flat.svg",
+   "tipo": "grupo"
+  },
+  "pessoas": {
+   "Zaqueu": {
+    "icone": "assets/Man bald/Default/Flat/man_bald_flat_default.svg",
+    "voz": "m"
+   },
+   "Vizinha": {
+    "icone": "assets/Woman curly hair/Default/Flat/woman_curly_hair_flat_default.svg",
+    "voz": "f"
+   },
+   "Vizinho": {
+    "icone": "assets/Man frowning/Default/Flat/man_frowning_flat_default.svg",
+    "voz": "m"
+   }
+  },
+  "cenas": [
+   {
+    "tipo": "narra",
+    "txt": "Gente, o homem mais odiado de Jericó subiu numa árvore."
+   },
+   {
+    "tipo": "narra",
+    "txt": "Zaqueu era chefe dos cobradores de impostos. Rico. E baixinho."
+   },
+   {
+    "tipo": "msg",
+    "de": "Vizinha",
+    "txt": "Jesus tá passando aqui na cidade!! Que multidão 😱"
+   },
+   {
+    "tipo": "msg",
+    "de": "Zaqueu",
+    "txt": "Não enxergo nada daqui de trás 😤"
+   },
+   {
+    "tipo": "sistema",
+    "txt": "Zaqueu mudou o local para: em cima do sicômoro"
+   },
+   {
+    "tipo": "reacao",
+    "emoji": "😂"
+   },
+   {
+    "tipo": "narra",
+    "txt": "Jesus chegou bem debaixo da árvore, olhou pra cima e chamou pelo nome."
+   },
+   {
+    "tipo": "versiculo",
+    "txt": "Zaqueu, desça depressa. Hoje eu preciso ficar na sua casa.",
+    "ref": "Lc 19.5"
+   },
+   {
+    "tipo": "msg",
+    "de": "Vizinho",
+    "txt": "Na casa do Zaqueu?? Foi se hospedar com um pecador!"
+   },
+   {
+    "tipo": "figurinha",
+    "de": "Vizinha",
+    "icone": "assets/Face with open eyes and hand over mouth/Flat/face_with_open_eyes_and_hand_over_mouth_flat.svg"
+   },
+   {
+    "tipo": "audio",
+    "de": "Zaqueu",
+    "txt": "Senhor, dou metade dos meus bens aos pobres. E se roubei alguém, devolvo quatro vezes mais."
+   },
+   {
+    "tipo": "versiculo",
+    "txt": "Hoje a salvação entrou nesta casa. O Filho do Homem veio buscar e salvar o que estava perdido.",
+    "ref": "Lc 19.9-10"
+   },
+   {
+    "tipo": "narra",
+    "txt": "Ninguém foi longe demais pra Jesus chamar pelo nome."
+   },
+   {
+    "tipo": "fim",
+    "txt": "Salva pra lembrar disso. A história toda tá em Lucas 19, do 1 ao 10."
+   }
+  ]
+ },
+ {
+  "id": "zap-09",
+  "titulo": "Pedro jurou que nunca… e negou 3 vezes #shorts",
+  "legenda": "Na ceia, Pedro prometeu ir até a morte. Na fogueira do pátio, negou três vezes.\nO galo cantou. Mas a história não termina no choro.\nSegue pra próxima fofoca bíblica.\n#pedro #sextafeirasanta #perdao #evangelho #fecrista",
+  "comentario": "Você já recebeu uma segunda chance de Deus? Conta aqui 👇",
+  "ref": "Mateus 26.69-75; Lucas 22.54-62; João 21.15-17",
+  "capa": {
+   "texto": "Pedro negou Jesus",
+   "destaque": "negou",
+   "icone": "assets/Rooster/Flat/rooster_flat.svg"
+  },
+  "chat": {
+   "nome": "Fogueira do pátio 🔥",
+   "icone": "assets/Fire/Flat/fire_flat.svg",
+   "tipo": "grupo"
+  },
+  "pessoas": {
+   "Pedro": {
+    "icone": "assets/Man beard/Default/Flat/man_beard_flat_default.svg",
+    "voz": "m"
+   },
+   "Criada": {
+    "icone": "assets/Woman/Default/Flat/woman_flat_default.svg",
+    "voz": "f"
+   },
+   "Servo": {
+    "icone": "assets/Man/Default/Flat/man_flat_default.svg",
+    "voz": "m"
+   }
+  },
+  "cenas": [
+   {
+    "tipo": "narra",
+    "txt": "Gente, Pedro jurou que nunca… e negou três vezes."
+   },
+   {
+    "tipo": "narra",
+    "txt": "Na última ceia, Pedro prometeu morrer por Jesus. E Jesus respondeu:"
+   },
+   {
+    "tipo": "versiculo",
+    "txt": "Nesta mesma noite, antes que o galo cante, você me negará três vezes.",
+    "ref": "Mt 26.34"
+   },
+   {
+    "tipo": "narra",
+    "txt": "Jesus foi preso. Pedro seguiu de longe e sentou na fogueira do pátio."
+   },
+   {
+    "tipo": "msg",
+    "de": "Criada",
+    "txt": "Pera… esse aí também tava com Jesus, o galileu 👀"
+   },
+   {
+    "tipo": "msg",
+    "de": "Pedro",
+    "txt": "Não sei do que você tá falando."
+   },
+   {
+    "tipo": "msg",
+    "de": "Criada",
+    "txt": "Tava sim! Esse homem é um deles."
+   },
+   {
+    "tipo": "msg",
+    "de": "Pedro",
+    "txt": "Juro que não conheço esse homem!"
+   },
+   {
+    "tipo": "audio",
+    "de": "Servo",
+    "txt": "Eu não te vi no jardim com ele? E esse teu sotaque te entrega."
+   },
+   {
+    "tipo": "msg",
+    "de": "Pedro",
+    "txt": "Já falei: NÃO CONHEÇO!!"
+   },
+   {
+    "tipo": "sistema",
+    "txt": "O galo cantou"
+   },
+   {
+    "tipo": "narra",
+    "txt": "Nessa hora, Jesus se virou e olhou pro Pedro. Ele saiu e chorou amargamente."
+   },
+   {
+    "tipo": "reacao",
+    "emoji": "💔"
+   },
+   {
+    "tipo": "narra",
+    "txt": "Mas não acabou ali. Depois de ressuscitar, Jesus perguntou três vezes:"
+   },
+   {
+    "tipo": "versiculo",
+    "txt": "Pedro, você me ama? Então cuide das minhas ovelhas.",
+    "ref": "Jo 21.15-17"
+   },
+   {
+    "tipo": "fim",
+    "txt": "Segue pra próxima fofoca bíblica. Lê Lucas 22 e João 21."
+   }
+  ]
+ },
+ {
+  "id": "zap-10",
+  "titulo": "O vilão caiu na própria armadilha: Ester no zap #shorts",
+  "legenda": "Hamã conseguiu um decreto contra todo o povo judeu. Ester tinha uma escolha.\nJejum, dois banquetes e uma forca que virou contra quem montou.\nComenta ROTA que eu te mando o mapa grátis.\n#ester #rainhaester #coragem #mulheresdabiblia #zapbiblico",
+  "comentario": "Pra qual \"momento como este\" Deus te colocou onde você está? 👇",
+  "ref": "Ester 3–7",
+  "capa": {
+   "texto": "Um momento como este",
+   "destaque": "momento",
+   "icone": "assets/Crown/Flat/crown_flat.svg"
+  },
+  "chat": {
+   "nome": "Primo Mardoqueu",
+   "icone": "assets/Man white hair/Default/Flat/man_white_hair_flat_default.svg",
+   "tipo": "privado"
+  },
+  "pessoas": {
+   "Mardoqueu": {
+    "icone": "assets/Man white hair/Default/Flat/man_white_hair_flat_default.svg",
+    "voz": "m"
+   },
+   "Ester": {
+    "icone": "assets/Princess/Default/Flat/princess_flat_default.svg",
+    "voz": "f"
+   }
+  },
+  "cenas": [
+   {
+    "tipo": "narra",
+    "txt": "Gente, o vilão caiu na própria armadilha."
+   },
+   {
+    "tipo": "narra",
+    "txt": "Mardoqueu não se curvava pro poderoso Hamã. Hamã se vingou com um decreto contra todos os judeus."
+   },
+   {
+    "tipo": "msg",
+    "de": "Mardoqueu",
+    "txt": "Ester, viu o decreto? Todos os judeus, com dia marcado. Fala com o rei!"
+   },
+   {
+    "tipo": "msg",
+    "de": "Ester",
+    "txt": "Primo, quem entra sem ser chamado pode morrer! E ele não me chama há 30 dias 😰"
+   },
+   {
+    "tipo": "audio",
+    "de": "Mardoqueu",
+    "txt": "No palácio você também não escapa. Quem sabe você virou rainha pra um momento como este?"
+   },
+   {
+    "tipo": "reacao",
+    "emoji": "🥺"
+   },
+   {
+    "tipo": "audio",
+    "de": "Ester",
+    "txt": "Jejuem por mim três dias. Depois eu vou até o rei. Se eu morrer, morri."
+   },
+   {
+    "tipo": "narra",
+    "txt": "O rei recebeu Ester, e ela convidou o rei e Hamã pra dois banquetes."
+   },
+   {
+    "tipo": "narra",
+    "txt": "E Hamã mandou levantar uma forca pra Mardoqueu."
+   },
+   {
+    "tipo": "narra",
+    "txt": "No banquete, Ester pediu pela vida dela e do seu povo. O rei quis saber o culpado."
+   },
+   {
+    "tipo": "audio",
+    "de": "Ester",
+    "txt": "O inimigo é este malvado Hamã!"
+   },
+   {
+    "tipo": "reacao",
+    "emoji": "😱"
+   },
+   {
+    "tipo": "narra",
+    "txt": "Hamã foi pendurado na forca que preparou pra Mardoqueu. E o povo foi salvo."
+   },
+   {
+    "tipo": "figurinha",
+    "de": "Mardoqueu",
+    "icone": "assets/Folded hands/Default/Flat/folded_hands_flat_default.svg"
+   },
+   {
+    "tipo": "fim",
+    "txt": "Comenta ROTA que eu te mando o mapa grátis. Lê Ester 3 a 7."
+   }
+  ]
+ }
+]
