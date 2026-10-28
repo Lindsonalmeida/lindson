@@ -60,8 +60,8 @@ st = f'{W}/stage.html'; open(st, 'w').write(html.replace('__SPEC__', json.dumps(
 js = f"""const {{chromium}}=require('playwright');const fs=require('fs');
 (async()=>{{const b=await chromium.launch({{args:['--use-gl=angle','--use-angle=swiftshader','--enable-unsafe-swiftshader']}});const p=await b.newPage({{viewport:{{width:{W_},height:{H_}}}}});
 p.on('pageerror',e=>console.log('ERR',e.message));p.on('console',m=>console.log(m.text()));await p.goto('file://{st}');await p.waitForFunction(()=>window.ready,null,{{timeout:120000}});await p.waitForTimeout(500);
-fs.rmSync('{W}/fr',{{recursive:true,force:true}});fs.mkdirSync('{W}/fr');
-const n=Math.floor({TT}*{FPS});for(let f=0;f<n;f+={STEP}){{await p.evaluate(t=>render(t),f/{FPS});await p.screenshot({{path:'{W}/fr/'+String(f).padStart(6,'0')+'.jpg',type:'jpeg',quality:90}})}}
+if(!process.env.RETOMAR)fs.rmSync('{W}/fr',{{recursive:true,force:true}});fs.mkdirSync('{W}/fr',{{recursive:true}});
+const n=Math.floor({TT}*{FPS});for(let f=0;f<n;f+={STEP}){{const q='{W}/fr/'+String(f).padStart(6,'0')+'.jpg';if(process.env.RETOMAR&&fs.existsSync(q)&&fs.statSync(q).size>20000)continue;await p.evaluate(t=>render(t),f/{FPS});await p.screenshot({{path:'{W}/fr/'+String(f).padStart(6,'0')+'.jpg',type:'jpeg',quality:90}})}}
 await b.close()}})();"""
 open(W + '/r.js', 'w').write(js); subprocess.run(['node', W + '/r.js'], check=True)
 if STEP != 1: print('previa', W + '/fr', TT); sys.exit()
