@@ -43,8 +43,11 @@ const U=n=>gl.getUniformLocation(pr,n);
 function tex(img){const t=gl.createTexture();gl.bindTexture(gl.TEXTURE_2D,t);gl.texImage2D(gl.TEXTURE_2D,0,gl.RGBA,gl.RGBA,gl.UNSIGNED_BYTE,img);
  gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MIN_FILTER,gl.LINEAR);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MAG_FILTER,gl.LINEAR);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_S,gl.CLAMP_TO_EDGE);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_T,gl.CLAMP_TO_EDGE);return t}
 const load=src=>new Promise(r=>{const i=new Image();i.onload=()=>r(i);i.src=src});
-let TX=[];
-async function prep(){for(const s of SP.cenas){const [a,d]=await Promise.all([load(s.img),load(s.dep)]);TX.push({a:tex(a),d:tex(d),r:[a.width,a.height]})}}
+// imagens ficam decodificadas na memória; na GPU só as texturas da cena atual e da próxima (vídeos longos perdiam o WebGL)
+let IM=[];const TXC={};
+async function prep(){for(const s of SP.cenas){const [a,d]=await Promise.all([load(s.img),load(s.dep)]);IM.push({a,d})}}
+function TX_(k){if(!TXC[k]){const m=IM[k];TXC[k]={a:tex(m.a),d:tex(m.d),r:[m.a.width,m.a.height]}}return TXC[k]}
+function limpa(i,j){for(const k in TXC)if(+k!==i&&+k!==j){gl.deleteTexture(TXC[k].a);gl.deleteTexture(TXC[k].d);delete TXC[k]}}
 // movimento de câmera por cena: zoom lento + pan + parallax
 function cam(i,u){const s=SP.cenas[i],m=s.mov||['in','esq','dir','out','cima'][i%5];const z0=m==='out'?1.22:1.06,z1=m==='out'?1.06:1.22;
  const px=m==='esq'?.04-.08*u:m==='dir'?-.04+.08*u:0,py=m==='cima'?.03-.06*u:0;const k=ease(u);
@@ -58,6 +61,7 @@ window.render=t=>{
  let i=SP.cenas.findIndex(s=>t>=s.ini&&t<s.fim);if(i<0)i=t<SP.cenas[0].ini?0:SP.cenas.length-1;const s=SP.cenas[i];
  const D=s.fim-s.ini,u=cl((t-s.ini)/D),j=Math.min(i+1,SP.cenas.length-1),FADE=.7,mixv=i===j?0:cl((t-(s.fim-FADE))/FADE);
  const a=cam(i,u),b=cam(j,0);
+ if(gl.isContextLost())throw new Error('WebGL perdido');limpa(i,j);const TX={[i]:TX_(i),[j]:TX_(j)};
  bind('A',0,TX[i].a);bind('AD',1,TX[i].d);bind('B',2,TX[j].a);bind('BD',3,TX[j].d);
  gl.uniform4fv(U('ca'),a.c);gl.uniform4fv(U('cb'),b.c);gl.uniform2fv(U('ia'),TX[i].r);gl.uniform2fv(U('ib'),TX[j].r);gl.uniform2fv(U('par_a'),a.par);gl.uniform2fv(U('par_b'),b.par);
  gl.uniform1f(U('mixv'),mixv);gl.uniform1f(U('t'),t%7);gl.uniform1f(U('flick'),.6+.4*Math.sin(t*7.3)*Math.sin(t*3.1));
