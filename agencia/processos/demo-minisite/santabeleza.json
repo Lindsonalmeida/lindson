@@ -1,0 +1,12 @@
+{"url":"file:///home/user/lindson/agencia/demos/santabeleza/site/index.html","endereco":"santabeleza.pages.dev","acoes":[
+ {"esperar":3.2},
+ {"rolar":430,"dur":2.2},{"esperar":0.8},
+ {"tocar":"Tecnologias","exato":true,"n":-1},{"esperar":2.2},
+ {"rolar":"#chat","mais":-40,"dur":2.2},{"esperar":3.4},
+ {"tocar":"Rosto","exato":true},{"esperar":3.4},
+ {"rolar":"#chat","mais":330,"dur":1.6},{"esperar":1},
+ {"rolar":".vids","mais":-60,"dur":1.6},{"esperar":2.2},
+ {"rolar":".feed","mais":-60,"dur":1.8},{"esperar":1.6},
+ {"rolar":".comp","mais":-80,"dur":1.6},{"esperar":1.8},
+ {"rolar":99999,"dur":1.8},{"esperar":1.8},
+ {"rolar":0,"dur":2.6},{"esperar":2.2}]}
