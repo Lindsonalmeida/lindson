@@ -32,3 +32,7 @@ Pedido de contrato de cliente: usar o modelo `agencia/processos/modelo-contrato/
 ## Entrega de PDFs
 
 Todo PDF entregue (estratégia, contrato, planos) também entra na página de downloads com botão de baixar: https://claude.ai/artifact/3Vn9qpHt3iXgG2JAhcubs7
+
+## Como trabalhar
+
+Sempre que o Lindson pedir algo, acione os agentes especialistas (Xquads em `scratchpad/xq/src`: Hormozi Offers, Donald Miller, Pedro Sobral, copy-squad, brand-squad etc., e agentes de pesquisa na internet) para fazer o trabalho, escolhendo os melhores para cada pedido.
