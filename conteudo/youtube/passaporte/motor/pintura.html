@@ -11,6 +11,7 @@ canvas{position:absolute;inset:0}
 #cap{position:absolute;left:60px;right:60px;top:__CY__px;text-align:center;font:800 __FC__px/1.15 Manrope;color:#EFE6D2;text-shadow:0 4px 16px #000,0 0 4px #000;text-transform:uppercase}
 #cap .on{color:#F2D58A}
 #sombra{position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,12,20,.55) 0,rgba(10,12,20,0) 14%,rgba(10,12,20,0) 48%,rgba(10,12,20,.82) 70%,rgba(10,12,20,.9) 100%)}
+@media (min-aspect-ratio:1/1){#sombra{background:linear-gradient(180deg,rgba(10,12,20,.45) 0,rgba(10,12,20,0) 14%,rgba(10,12,20,0) 60%,rgba(10,12,20,.85) 100%)}}
 #marca{position:absolute;left:0;right:0;top:__MY__px;text-align:center;font:400 22px 'Special Elite';letter-spacing:.3em;color:rgba(239,230,210,.55)}
 #cta{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:34px;opacity:0;text-align:center;padding:0 70px}
 #cta .sel{width:340px;height:340px;border-radius:50%;border:10px dashed #D7263D;color:#D7263D;background:rgba(239,230,210,.95);display:grid;place-items:center;font:800 54px/1 Cinzel;transform:rotate(-10deg)}
@@ -33,7 +34,7 @@ vec3 sombra=vec3(.05,.06,.11),meio=vec3(.55,.40,.22),luz=vec3(1.,.90,.68);
 vec3 col=g<.5?mix(sombra,meio,g*2.):mix(meio,luz,(g-.5)*2.);
 vec2 q=v-.5;float vig=smoothstep(.95,.25,length(q*vec2(${(W/H).toFixed(3)},1.)*1.15));col*=mix(.28,1.,vig);
 col+=vec3(1.,.75,.4)*.06*flick*smoothstep(.7,0.,length(q-vec2(.18,-.3)));
-col+=(h(v*vec2(${W}.,${H}.)+t)-.5)*.07;gl_FragColor=vec4(col,1.);}`;
+col+=(h(v*vec2(${W}.,${H}.)+t)-.5)*__GR__;gl_FragColor=vec4(col,1.);}`;
 function sh(tp,src){const s=gl.createShader(tp);gl.shaderSource(s,src);gl.compileShader(s);if(!gl.getShaderParameter(s,gl.COMPILE_STATUS))throw gl.getShaderInfoLog(s);return s}
 const pr=gl.createProgram();gl.attachShader(pr,sh(gl.VERTEX_SHADER,VS));gl.attachShader(pr,sh(gl.FRAGMENT_SHADER,FS));gl.linkProgram(pr);gl.useProgram(pr);
 const bf=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,bf);gl.bufferData(gl.ARRAY_BUFFER,new Float32Array([-1,-1,1,-1,-1,1,1,1]),gl.STATIC_DRAW);
@@ -62,12 +63,17 @@ window.render=t=>{
  gl.uniform1f(U('mixv'),mixv);gl.uniform1f(U('t'),t%7);gl.uniform1f(U('flick'),.6+.4*Math.sin(t*7.3)*Math.sin(t*3.1));
  gl.viewport(0,0,W,H);gl.drawArrays(gl.TRIANGLE_STRIP,0,4);poeira(t);
  // título de abertura
- const tt=SP.titulo_tela,tk=t<tt.fim?cl(t/.8)*cl((tt.fim-t)/.6):0;$('tit').style.opacity=tk;$('tit').innerHTML=`<small>${tt.sup}</small>${tt.txt}`;$('tit').style.transform=`scale(${1.06-.06*cl(t/tt.fim)})`;
+ // título de abertura ou de capítulo (cena com "cap")
+ const tt=SP.titulo_tela;let tk=0,th='',tz=1;
+ if(t<tt.fim){tk=cl(t/.8)*cl((tt.fim-t)/.6);th=`<small>${tt.sup}</small>${tt.txt}`;tz=1.06-.06*cl(t/tt.fim)}
+ else if(s.cap){const f=s.ini+3.4;tk=t<f?cl((t-s.ini)/.7)*cl((f-t)/.6):0;th=`<small>${s.cap.sup}</small>${s.cap.txt}`;tz=1.06-.06*cl((t-s.ini)/3.4)}
+ $('tit').style.opacity=tk;$('tit').innerHTML=th;$('tit').style.transform=`scale(${tz})`;
  // versículo
  const vv=s.verso?cl((t-s.ini-.4)/.6)*cl((s.fim-t)/.4):0;$('ver').style.opacity=vv;if(s.verso)$('ver').innerHTML=`“${s.verso}”<span>${s.ref}</span>`;
  // legenda
  const c=CH.find(c=>t>=c.a-.05&&t<c.z);$('cap').innerHTML=c&&!s.cta?c.w.map(([x,ts])=>`<span class="${t>=ts?'on':''}">${x}</span>`).join(' '):'';
- const ct=SP.cenas.find(x=>x.cta);if(ct){const k=cl((t-ct.ini)/.6);$('cta').style.opacity=k;$('cta').innerHTML=`<div class="sel">CARIMBE<br>AQUI</div><p>${ct.cta}</p>`}
+ // selo de chamada só durante a cena que tem "cta" (a última fica até o fim)
+ if(s.cta){const ult=i===SP.cenas.length-1,k=cl((t-s.ini)/.6)*(ult?1:cl((s.fim-t)/.5));$('cta').style.opacity=k;$('cta').innerHTML=`<div class="sel">${s.selo||'CARIMBE<br>AQUI'}</div><p>${s.cta}</p>`}else $('cta').style.opacity=0;
 };
 prep().then(()=>document.fonts.ready).then(()=>{window.ready=true});
 </script></body></html>

@@ -1,0 +1,99 @@
+<title>Passaporte da Bíblia · Postagens</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;800&family=Manrope:wght@500;700;800&family=Special+Elite&display=swap">
+<style>
+/* mesa de embarque: cada vídeo é um bilhete com capa, vídeo e os textos prontos para copiar */
+:root{
+ --noite:#0A0C14;--card:#141826;--card2:#1B2033;--ouro:#C9A227;--ouro2:#F2D58A;--papel:#EFE6D2;--mut:#A7A391;--linha:#2A3047;--selo:#D7263D;--ok:#5CC08A;
+ --disp:'Cinzel',Georgia,serif;--txt:'Manrope',system-ui,sans-serif;--maq:'Special Elite',ui-monospace,monospace;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--noite);color:var(--papel);font:500 15px/1.5 var(--txt);margin:0;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 60px}
+.w{max-width:1100px;margin:0 auto;display:grid;gap:22px}
+header{display:grid;gap:6px}
+.mk{font:400 13px var(--maq);letter-spacing:.3em;color:var(--ouro)}
+h1{font:800 clamp(28px,5vw,44px)/1.05 var(--disp);margin:0;color:var(--ouro2);text-wrap:balance}
+.sub{color:var(--mut);margin:0;max-width:62ch}
+.abas{display:flex;gap:8px;flex-wrap:wrap}
+.aba{font:700 14px var(--txt);border:1px solid var(--linha);background:var(--card);color:var(--papel);border-radius:999px;padding:9px 16px;cursor:pointer}
+.aba[aria-selected="true"]{background:var(--ouro2);color:var(--noite);border-color:var(--ouro2)}
+.aba b{font-family:var(--maq);margin-left:6px}
+.lista{display:grid;gap:18px}
+.bil{background:var(--card);border:1px solid var(--linha);border-radius:16px;display:grid;grid-template-columns:260px minmax(0,1fr);overflow:hidden;position:relative}
+.bil.longo{grid-template-columns:420px minmax(0,1fr)}
+.bil.feito{border-color:var(--ok)}
+.midia{background:#000;display:grid;align-content:start;gap:8px;padding:12px;border-right:1px dashed var(--linha)}
+.midia video,.midia img{width:100%;border-radius:10px;display:block;background:#05060b}
+.short .midia video,.short .midia img{aspect-ratio:9/16;object-fit:cover}
+.longo .midia video,.longo .midia img{aspect-ratio:16/9;object-fit:cover}
+.capas{display:grid;grid-template-columns:repeat(auto-fit,minmax(0,1fr));gap:8px}
+.corpo{padding:18px 20px;display:grid;gap:14px;min-width:0;align-content:start}
+.topo{display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap}
+.num{font:400 13px var(--maq);letter-spacing:.2em;color:var(--ouro)}
+.carimbo{display:flex;align-items:center;gap:8px;font:700 13px var(--txt);color:var(--mut);cursor:pointer}
+.carimbo input{width:20px;height:20px;accent-color:var(--ok)}
+.campo{background:var(--card2);border:1px solid var(--linha);border-radius:12px;padding:12px 14px;display:grid;gap:8px;min-width:0}
+.campo .r{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.rot{font:700 11px var(--txt);letter-spacing:.14em;text-transform:uppercase;color:var(--ouro)}
+.tx{white-space:pre-wrap;overflow-wrap:anywhere;margin:0}
+.tit .tx{font:700 17px/1.35 var(--txt);color:var(--papel)}
+.btn{font:700 13px var(--txt);border-radius:10px;padding:8px 12px;cursor:pointer;border:1px solid var(--linha);background:transparent;color:var(--papel);white-space:nowrap}
+.btn.cp{border-color:var(--ouro);color:var(--ouro2)}
+.btn.ok{border-color:var(--ok);color:var(--ok)}
+.btn.pri{background:var(--ouro2);border-color:var(--ouro2);color:var(--noite)}
+.btn:disabled{opacity:.5;cursor:default}
+.baixar{display:flex;flex-wrap:wrap;gap:8px}
+button:focus-visible{outline:3px solid var(--ouro2);outline-offset:2px}
+.vazio{border:1px dashed var(--linha);border-radius:10px;padding:20px;text-align:center;color:var(--mut);font-size:13px}
+.st{font-size:13px;color:var(--mut);min-height:1em}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(20px + env(safe-area-inset-bottom,0px));background:var(--ouro2);color:var(--noite);padding:10px 16px;border-radius:10px;font-weight:800;opacity:0;transition:opacity .2s;pointer-events:none}
+.toast.on{opacity:1}
+@media (max-width:760px){.bil,.bil.longo{grid-template-columns:minmax(0,1fr)}.midia{border-right:0;border-bottom:1px dashed var(--linha)}.short .midia{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}}
+@media (prefers-reduced-motion:reduce){.toast{transition:none}}
+</style>
+
+<div class="w">
+ <header>
+  <span class="mk">PASSAPORTE DA BÍBLIA · ESTÚDIO</span>
+  <h1>Postagens prontas</h1>
+  <p class="sub">Cada bilhete tem o vídeo, a capa, o título, a legenda e o comentário para fixar. Copie, baixe e poste. Marque "Postado" para saber o que já foi.</p>
+ </header>
+ <nav class="abas" role="tablist">
+  <button class="aba" role="tab" id="a-short" aria-selected="true">Shorts e Reels <b id="n-short"></b></button>
+  <button class="aba" role="tab" id="a-longo" aria-selected="false">Vídeos longos <b id="n-longo"></b></button>
+ </nav>
+ <div class="lista" id="lista"></div>
+</div>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+const DADOS=__DADOS__;
+const $=id=>document.getElementById(id),el=(t,c,h)=>{const e=document.createElement(t);if(c)e.className=c;if(h!=null)e.innerHTML=h;return e};
+let aba='short',dl=null;
+const feitos=(()=>{try{return JSON.parse(localStorage.getItem('pv-postados')||'{}')}catch(e){return{}}})();
+const guardar=()=>{try{localStorage.setItem('pv-postados',JSON.stringify(feitos))}catch(e){}};
+function toast(t){const e=$('toast');e.textContent=t;e.classList.add('on');clearTimeout(e._t);e._t=setTimeout(()=>e.classList.remove('on'),1600)}
+async function copiar(txt,bt){try{await navigator.clipboard.writeText(txt);bt.textContent='Copiado';bt.classList.add('ok');toast('Copiado');setTimeout(()=>{bt.textContent='Copiar';bt.classList.remove('ok')},1600)}
+ catch(e){toast('Segure no texto para copiar')}}
+async function baixar(url,nome,bt,st){if(!dl){st.textContent='Abra no Claude para baixar.';return}bt.disabled=true;st.textContent='Preparando…';
+ try{const blob=await(await fetch(url)).blob();await dl.save({filename:nome,data:blob});st.textContent='Baixado.'}catch(e){st.textContent=e&&e.code==='declined'?'Download cancelado.':'Não baixou. Toque de novo.'}bt.disabled=false}
+function campo(rot,txt,cls){const c=el('div','campo '+(cls||''));const r=el('div','r');r.append(el('span','rot',rot));const b=el('button','btn cp','Copiar');b.onclick=()=>copiar(txt,b);r.append(b);
+ const p=el('p','tx');p.textContent=txt;c.append(r,p);return c}
+function bilhete(v,i){const b=el('article','bil '+v.tipo+(feitos[v.id]?' feito':''));
+ const m=el('div','midia');
+ if(v.video){const vd=el('video');vd.controls=true;vd.preload='none';vd.playsInline=true;vd.src=v.video;if(v.capas[0]?.url)vd.poster=v.capas[0].url;m.append(vd)}
+ else m.append(el('div','vazio','Vídeo renderizando. Volte em instantes.'));
+ const cs=el('div','capas');v.capas.forEach(c=>{if(c.url){const im=el('img');im.src=c.url;im.alt=c.nome+' de '+v.titulo;im.loading='lazy';cs.append(im)}});m.append(cs);
+ const c=el('div','corpo');
+ const topo=el('div','topo');topo.append(el('span','num',(v.tipo==='longo'?'VÍDEO LONGO':'SHORT')+' · '+String(i+1).padStart(2,'0')+(v.dur?' · '+v.dur:'')));
+ const lb=el('label','carimbo');const ck=el('input');ck.type='checkbox';ck.id='p-'+v.id;ck.checked=!!feitos[v.id];ck.onchange=()=>{feitos[v.id]=ck.checked;guardar();b.classList.toggle('feito',ck.checked)};lb.append(ck,document.createTextNode('Postado'));topo.append(lb);
+ c.append(topo,campo('Título',v.titulo,'tit'),campo('Legenda',v.legenda),campo('Comentário para fixar',v.comentario));
+ const bx=el('div','baixar'),st=el('span','st');
+ if(v.video){const bv=el('button','btn pri','Baixar vídeo');bv.onclick=()=>baixar(v.video,v.arqVideo,bv,st);bx.append(bv)}
+ v.capas.forEach(cp=>{if(!cp.url)return;const bc=el('button','btn','Baixar '+cp.nome.toLowerCase());bc.onclick=()=>baixar(cp.url,'passaporte-'+cp.arq,bc,st);bx.append(bc)});
+ c.append(bx,st);b.append(m,c);return b}
+function render(){const L=DADOS.filter(v=>v.tipo===aba);$('lista').replaceChildren(...L.map(bilhete));
+ $('n-short').textContent=DADOS.filter(v=>v.tipo==='short').length;$('n-longo').textContent=DADOS.filter(v=>v.tipo==='longo').length}
+['short','longo'].forEach(k=>$('a-'+k).onclick=()=>{aba=k;document.querySelectorAll('.aba').forEach(a=>a.setAttribute('aria-selected',a.id==='a-'+k));render()});
+render();
+(async()=>{try{dl=await window.claude?.use?.('downloads')}catch(e){}})();
+</script>
