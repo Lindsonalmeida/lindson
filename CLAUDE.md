@@ -25,6 +25,10 @@ Lead que respondeu "pode mostrar": entregar a **estratégia completa** em PDF (1
 
 Toda mensagem de abordagem e copy curta de venda segue `agencia/prospeccao/PADRAO-COPY.md`: **Conexão → Dor → Desejo → Pergunta**, linguagem simples de WhatsApp, entendida numa única leitura. Nunca usar "vi que", "parece que", "gargalo", jargão de marketing ou análise do perfil da pessoa.
 
+## Apps de prospecção e SDR
+
+Todo app de prospecção/SDR (e funil de clientes) tem, em cada contato, um botão **WhatsApp** que abre a conversa do lead já com a mensagem da etapa escrita (link `wa.me/55<número>?text=<mensagem>`), sem copiar e colar. Ao clicar, o app registra sozinho o envio e avança a etapa/cadência. O botão fica visível na ficha fechada, sem precisar abrir. Sem número de WhatsApp, o botão copia a mensagem. O objetivo é o Lindson não fazer nada manual além de tocar em "enviar".
+
 ## Contratos
 
 Pedido de contrato de cliente: usar o modelo `agencia/processos/modelo-contrato/` (README explica). Dados do Lindson em `agencia/contratos/meus-dados.json` e do cliente em `agencia/contratos/<cliente>/dados.json`, ambos fora do GitHub. Se faltarem, pedir. Entregar PDF A4.
