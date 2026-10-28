@@ -14,3 +14,9 @@ Endereço que aparece na barra do Safari: `<cliente>.pages.dev` (como ficará qu
 ## Retorno do Lindson
 - Santa Beleza (1º teste): "ficou perfeito". A partir do próximo: **design mais premium** (mais sofisticação visual: tipografia de revista, mais respiro, fotos em destaque, detalhes dourados/foil ou texturas da marca, transições mais elegantes).
 - Leads de venda de mini site ficam na lista "Mini site · Estética" do app de SDR. O botão de WhatsApp só aparece depois que o vídeo está marcado como pronto.
+
+## Mensagem que o Lindson usou (Santa Beleza, aprovada)
+1. "Criamos um mini site para a bio do Instagram, com a identidade de vocês, pronto só para atender os clientes e qualificar no atendimento"
+2. "Estou enviando um vídeo para vocês verem como ficou este mini site" + vídeo com a legenda "Olha só que perfeição"
+3. "A cliente consegue ter uma percepção total, além de falar com um chat que vai perguntar sobre as dores dela e já chega no whats de vocês com tudo que a cliente quer"
+É a mensagem A da lista "Mini site · Estética" no app de SDR.
