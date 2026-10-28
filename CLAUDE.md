@@ -13,6 +13,10 @@ Sempre que o Lindson pedir um mini site / site bio para um cliente, **antes de c
 
 Clientes ativos hoje: Rafael Imports → `Lindsonalmeida/rafaelimports` → https://rafaelimports.pages.dev · Desentupidora SF → `Lindsonalmeida/GruposSF` → https://desentupidorasf.pages.dev
 
+## Demo de mini site para vender
+
+Lead escolhido pelo Lindson: montar um protótipo do mini site na identidade da pessoa e entregar só o **vídeo de demonstração** em tela de iPhone (sem publicar). Processo e gravador em `agencia/processos/demo-minisite/` (README). O site completo só depois que fechar.
+
 ## Copy de vendas (padrão aprovado)
 
 Legendas de post: sempre estilo blog SEO (título com palavra-chave, introdução, subtítulos, exemplo, conclusão, chamada e 3 a 5 hashtags pesquisadas e variadas — tema + nicho + local, nunca o mesmo bloco; até 2.200 caracteres) — modelo em `conteudo/avaliacao-gratuita/LEGENDAS.md`.
