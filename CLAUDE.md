@@ -31,7 +31,7 @@ Toda mensagem de abordagem e copy curta de venda segue `agencia/prospeccao/PADRA
 
 ## Apps de prospecção e SDR
 
-Todo app de prospecção/SDR (e funil de clientes) tem, em cada contato, um botão **WhatsApp** que abre a conversa do lead já com a mensagem da etapa escrita (link `wa.me/55<número>?text=<mensagem>`), sem copiar e colar. Ao clicar, o app registra sozinho o envio e avança a etapa/cadência. O botão fica visível na ficha fechada, sem precisar abrir. Sem número de WhatsApp, o botão copia a mensagem. O objetivo é o Lindson não fazer nada manual além de tocar em "enviar".
+Todo app de prospecção/SDR (e funil de clientes) tem, em cada contato, um botão **WhatsApp** que abre a conversa do lead já com a mensagem da etapa escrita (link `wa.me/55<número>?text=<mensagem>`), sem copiar e colar. Ao clicar, o app registra sozinho o envio e avança a etapa/cadência. O botão fica visível na ficha fechada, sem precisar abrir. Sem número de WhatsApp, o botão copia a mensagem. O objetivo é o Lindson não fazer nada manual além de tocar em "enviar". Só entram na fila de contato leads com **WhatsApp (celular) e Instagram**; quem não tiver os dois fica fora (sem botão, não manda). Ao buscar leads, trazer só quem tem os dois confirmados.
 
 ## Contratos
 
