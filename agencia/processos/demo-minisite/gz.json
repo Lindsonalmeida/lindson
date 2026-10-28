@@ -1,0 +1,11 @@
+{"url":"file:///home/user/lindson/agencia/demos/gz/site/index.html","endereco":"gzclinica.pages.dev","acoes":[
+ {"esperar":3.4},
+ {"rolar":470,"dur":2.2},{"esperar":0.8},
+ {"tocar":"Tratamentos","exato":true},{"esperar":2.4},
+ {"rolar":".galeria","mais":-130,"dur":2.2},{"esperar":2.2},
+ {"rolar":"#chat","mais":-80,"dur":1.8},{"esperar":3.4},
+ {"tocar":"Pele","exato":true,"n":-1},{"esperar":3.6},
+ {"rolar":"#chat","mais":300,"dur":1.6},{"esperar":1.6},
+ {"rolar":".local","mais":-140,"dur":1.8},{"esperar":2},
+ {"rolar":99999,"dur":1.6},{"esperar":1.5},
+ {"rolar":0,"dur":2.6},{"esperar":2.4}]}

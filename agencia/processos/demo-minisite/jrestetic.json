@@ -1,0 +1,12 @@
+{"url":"file:///home/user/lindson/agencia/demos/jrestetic/site/index.html","endereco":"jrestetic.pages.dev","acoes":[
+ {"esperar":3.4},
+ {"rolar":470,"dur":2.2},{"esperar":0.8},
+ {"tocar":"Procedimentos faciais","exato":true},{"esperar":2.4},
+ {"rolar":".dr","mais":-90,"dur":2.2},{"esperar":2.2},
+ {"rolar":"#chat","mais":-60,"dur":1.8},{"esperar":3.4},
+ {"tocar":"Rosto","exato":true},{"esperar":3.6},
+ {"rolar":"#chat","mais":300,"dur":1.6},{"esperar":0.8},
+ {"rolar":".feed","mais":-90,"dur":1.8},{"esperar":2},
+ {"rolar":".comp","mais":-120,"dur":1.6},{"esperar":2},
+ {"rolar":99999,"dur":1.8},{"esperar":1.8},
+ {"rolar":0,"dur":2.6},{"esperar":2.4}]}
