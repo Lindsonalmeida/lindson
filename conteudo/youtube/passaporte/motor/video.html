@@ -1,0 +1,87 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Nunito:wght@700;800&family=Special+Elite&display=swap" rel="stylesheet">
+<style>
+:root{--papel:#FFF7E8;--tinta:#1F2544;--carimbo:#D7263D;--areia:#F3E3C3;--ouro:#C9A227}
+*{margin:0;box-sizing:border-box}
+body{width:__W__px;height:__H__px;overflow:hidden;background:var(--papel);color:var(--tinta);font-family:Nunito,sans-serif}
+#bg{position:absolute;inset:-8%}
+.sc{position:absolute;inset:0;opacity:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:34px;padding:0 90px __PADB__px}
+.it{opacity:0}
+.pbg{position:absolute;inset:-5%;background-size:cover;background-position:center 30%;filter:sepia(.25) saturate(1.1)}
+.pov{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 50%,rgba(255,247,232,.88) 30%,rgba(255,247,232,.55) 75%)}
+.sc>*:not(.pbg):not(.pov){position:relative}
+.ttl{font:800 __F1__px/1.02 'Baloo 2';letter-spacing:-.01em}
+.ttl b,.tx b{color:var(--carimbo);font-weight:800}
+.sub{font:800 __F3__px Nunito;color:#6b6655}
+.etq{display:inline-block;font:400 __F4__px 'Special Elite';border:3px solid var(--tinta);border-radius:10px;padding:6px 18px;background:#fff}
+.circ{border-radius:50%;display:grid;place-items:center;background:#fff;box-shadow:0 18px 40px rgba(31,37,68,.18)}
+.circ img{width:68%;height:68%}
+.num{width:__NUM__px;height:__NUM__px;border-radius:50%;border:8px dashed var(--carimbo);color:var(--carimbo);display:grid;place-items:center;font:800 __FN__px 'Baloo 2';transform:rotate(-8deg)}
+.tag{font:400 __F4__px 'Special Elite';letter-spacing:.12em;background:var(--tinta);color:var(--papel);padding:10px 24px;border-radius:8px}
+.lst{display:flex;flex-direction:column;gap:22px;align-items:stretch;width:min(1500px,100%)}
+.li{display:flex;align-items:center;gap:26px;background:#fff;border-radius:22px;padding:22px 30px;text-align:left;font:800 __F2__px/1.15 'Baloo 2';box-shadow:0 8px 24px rgba(31,37,68,.08)}
+.li i{flex:none;width:__CK__px;height:__CK__px;border-radius:50%;background:var(--c,#3B8EDB);color:#fff;display:grid;place-items:center;font:800 __F3__px 'Baloo 2';font-style:normal}
+.tk{flex:none;width:__CK__px;height:__CK__px;border-radius:14px;border:5px solid #3F9A55;display:grid;place-items:center;font:800 __F3__px 'Baloo 2';color:#fff}
+.bil{width:min(1500px,96%);background:#fff;border-radius:34px;overflow:hidden;box-shadow:0 20px 50px rgba(31,37,68,.2);text-align:left}
+.bil .top{background:var(--c);color:var(--fg);padding:34px 44px;display:flex;justify-content:space-between;align-items:center;gap:30px}
+.bil .top small{display:block;font:400 __F5__px 'Special Elite';letter-spacing:.1em;opacity:.9}
+.bil .top h2{font:800 __F1__px/1 'Baloo 2'}
+.bil .hero{flex:none;width:__HERO__px;height:__HERO__px;border-radius:50%;background:var(--papel);display:grid;place-items:center;border:8px solid #fff}
+.bil .hero img{width:70%;height:70%}
+.bil .meio{padding:28px 44px;display:flex;flex-direction:column;gap:18px}
+.bil .frase{font:800 __F2__px/1.2 'Baloo 2'}
+.bil .par{display:flex;flex-wrap:wrap;gap:12px}
+.bil .par span{font:400 __F5__px 'Special Elite';background:var(--papel);border:2px solid var(--c);border-radius:8px;padding:6px 12px}
+.bil .camp{display:flex;gap:40px;font:800 __F5__px Nunito}
+#cap{position:absolute;left:70px;right:70px;top:__CAPY__px;text-align:center;font:800 __FC__px/1.2 'Baloo 2';color:var(--tinta)}
+#cap span{padding:0 4px;border-radius:8px}
+#cap .on{background:var(--ouro);color:var(--tinta)}
+#marca{position:absolute;left:50%;transform:translateX(-50%);top:__MARCAY__px;font:400 __F5__px 'Special Elite';letter-spacing:.2em;color:#9b8f76}
+</style></head><body>
+<canvas id="bg" width="__W__" height="__H__"></canvas>
+<div id="root"></div><div id="cap"></div><div id="marca">PASSAPORTE DA BÍBLIA</div>
+<script>
+const SP=__SPEC__;const $=id=>document.getElementById(id);
+const cl=(x,a=0,b=1)=>Math.max(a,Math.min(b,x)),ease=x=>1-Math.pow(1-cl(x),3),back=x=>{x=cl(x);const c=1.7;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const win=(t,a,b,f=.3)=>cl((t-a)/f)*cl((b-t)/f);const R=[],SFX=[];
+function pop(el,at,mode='up'){if(!el)return;R.push(t=>{const k=(t-at)/.45;el.style.opacity=cl(k*1.6);el.style.transform=mode==='scale'?`scale(${.6+.4*back(k)}) rotate(${(1-ease(k))*-6}deg)`:`translateY(${(1-ease(k))*40}px)`})}
+const img=s=>s?`<img src="${s}">`:'';
+SP.seg.forEach((g,i)=>{
+ const T=g.tela,sc=document.createElement('div');sc.className='sc';$('root').appendChild(sc);const D=g.fim-g.ini;let h='';
+ const C=T.cor||SP.cor||'#3B8EDB';
+ if(T.t==='abertura')h=`<div class="circ it" id="a${i}" style="width:__BIGC__px;height:__BIGC__px">${img(T.icone)}</div><div class="ttl it" id="b${i}">${T.h}</div>${T.s?`<div class="sub it" id="c${i}">${T.s}</div>`:''}`;
+ if(T.t==='frase'){h=`<div class="ttl">${T.h.split('<br>').map((l,j)=>`<span class="it" style="display:block" id="l${i}_${j}">${l}</span>`).join('')}</div>`}
+ if(T.t==='capitulo')h=`<div class="num it" id="a${i}">${T.n}</div>${T.s?`<div class="tag it" id="c${i}">${T.s}</div>`:''}<div class="ttl it" id="b${i}">${T.h}</div>`;
+ if(T.t==='icone')h=`<div class="circ it" id="a${i}" style="width:__BIGC__px;height:__BIGC__px;background:color-mix(in srgb,${C} 22%,#fff)">${img(T.icone)}</div><div class="ttl it" id="b${i}" style="font-size:__F2B__px">${T.h||''}</div>${T.s?`<div class="etq it" id="c${i}">${T.s}</div>`:''}`;
+ if(T.t==='livro'){const L=T.dados;h=`<div class="bil it" id="a${i}" style="--c:${L.cor};--fg:${L.fg}"><div class="top"><div><small>CARTÃO DE EMBARQUE · DESTINO ${String(L.n).padStart(2,'0')}/66</small><h2>${L.livro}</h2><div class="camp"><span>${L.caps} capítulos</span><span>${L.regiao}</span></div></div><div class="hero">${img(L.hero)}</div></div><div class="meio"><div class="frase">${L.frase}</div><div class="par">${L.paradas.slice(0,4).map(p=>`<span>${p.ref}</span>`).join('')}</div></div></div>`;SFX.push([g.ini+.5,'carimbo'])}
+ if(T.t==='lista'||T.t==='resumo')h=`<div class="tag it" id="a${i}">${(T.h||'Resumo').toUpperCase()}</div><div class="lst">${T.itens.map((x,j)=>`<div class="li it" id="i${i}_${j}" style="--c:${C}"><i>${j+1}</i><span>${x}</span></div>`).join('')}</div>`;
+ if(T.t==='pratica')h=`<div class="tag it" id="a${i}" style="background:var(--carimbo)">${(T.h||'Na prática').toUpperCase()}</div><div class="lst">${T.itens.map((x,j)=>`<div class="li it" id="i${i}_${j}"><span class="tk" id="k${i}_${j}"></span><span>${x}</span></div>`).join('')}</div>`;
+ if(T.t==='inscreva')h=`<div class="tag it" id="a${i}">GOSTANDO DA VIAGEM?</div><div id="bt${i}" style="display:inline-flex;align-items:center;gap:26px;font:800 __F2__px 'Baloo 2';padding:28px 60px;border-radius:24px;background:#CC0000;color:#fff">INSCREVER-SE 🔔</div><div class="sub it" id="b${i}">Uma viagem nova toda semana</div>`;
+ if(T.t==='compromisso')h=`<div class="ttl it" id="a${i}" style="font-size:__F2B__px">${T.h}</div><div class="it" id="b${i}" style="width:min(1300px,96%);background:#fff;border-radius:28px;padding:34px 40px;display:flex;gap:28px;text-align:left;box-shadow:0 12px 30px rgba(31,37,68,.12)"><div style="flex:none;width:100px;height:100px;border-radius:50%;background:var(--ouro);display:grid;place-items:center;font:800 40px 'Baloo 2'">VC</div><div><div style="font:400 26px 'Special Elite';color:#9b8f76">@você · agora</div><div id="ty${i}" style="font:800 __F2__px 'Baloo 2';min-height:1.2em"></div></div></div>`;
+ if(T.t==='fim')h=`<div class="num it" id="a${i}" style="width:__BIGC__px;height:__BIGC__px;font-size:__F2__px;line-height:1.05;padding:30px">CARIMBADO!</div><div class="ttl it" id="b${i}">${T.h||'Segue pra próxima <b>viagem</b>'}</div>`;
+ if(g.bg&&T.t!=='inscreva')h=`<div class="pbg" id="p${i}" style="background-image:url(${g.bg})"></div><div class="pov"></div>`+h;
+ sc.innerHTML=h;
+ {const pb=$('p'+i);if(pb){const dir=i%2?1:-1;R.push(t=>{const u=cl((t-g.ini)/Math.max(D,1));pb.style.transform=`scale(${1.06+u*.08}) translateX(${dir*u*2}%)`})}}
+ R.push(t=>{sc.style.opacity=win(t,g.ini,g.fim);sc.style.transform=`scale(${1+cl((t-g.ini)/Math.max(D,1))*.03})`});
+ const a=$('a'+i),b=$('b'+i),c=$('c'+i);
+ pop(a,g.ini+.1,['abertura','icone','capitulo','fim'].includes(T.t)?'scale':'up');pop(b,g.ini+.35);pop(c,g.ini+.6);
+ if(T.t==='frase')T.h.split('<br>').forEach((_,j)=>pop($(`l${i}_${j}`),g.ini+.1+j*Math.min(1.1,D*.6/T.h.split('<br>').length)));
+ if(T.itens)T.itens.forEach((_,j)=>{const at=g.ini+.5+j*(D-1)/T.itens.length;pop($(`i${i}_${j}`),at);if(T.t==='pratica'){const k=$(`k${i}_${j}`);R.push(t=>{const on=t>at+.5;k.style.background=on?'#3F9A55':'transparent';k.textContent=on?'✓':''});SFX.push([at+.5,'tic'])}});
+ if(T.t==='inscreva'){const bt=$('bt'+i);R.push(t=>{const k=t-g.ini;bt.style.transform=`scale(${k>1.2&&k<1.4?.92:1})`;bt.style.background=k>1.3?'#555':'#CC0000';bt.textContent=k>1.3?'INSCRITO ✓':'INSCREVER-SE 🔔'});SFX.push([g.ini+1.3,'tic'])}
+ if(T.t==='compromisso'){const ty=$('ty'+i),txt=(T.h.match(/<b>(.*?)<\/b>/)||[,'CARIMBEI'])[1]+' ✈️',t0=g.ini+1;R.push(t=>{ty.textContent=[...txt].slice(0,Math.floor(cl((t-t0)/1.4)*[...txt].length)).join('')})}
+ if(T.t==='capitulo'||T.t==='fim')SFX.push([g.ini+.15,'carimbo']);
+ if(i>0)SFX.push([g.ini,'whoosh']);
+});
+// legendas em blocos de até 5 palavras
+const CH=[];SP.seg.forEach(g=>{const w=g.words||[];for(let k=0;k<w.length;k+=5){const bl=w.slice(k,k+5);CH.push({a:bl[0][1],z:(w[k+5]?w[k+5][1]:bl[bl.length-1][1]+.7),w:bl})}});
+R.push(t=>{const c=CH.find(c=>t>=c.a-.05&&t<c.z);$('cap').innerHTML=c?c.w.map(([x,ts])=>`<span class="${t>=ts?'on':''}">${x}</span>`).join(' '):''});
+// fundo: rota pontilhada e carimbos que flutuam
+const ctx=$('bg').getContext('2d'),W=__W__,H=__H__,CORES=['#D9573B','#E9A23B','#E2668E','#3F9A55','#9CC152','#3B8EDB','#8466C4','#8E2C48'];
+function fundo(t){ctx.fillStyle='#FFF7E8';ctx.fillRect(0,0,W,H);ctx.setLineDash([14,18]);ctx.lineWidth=5;ctx.strokeStyle='rgba(215,38,61,.18)';ctx.beginPath();
+ for(let x=-100;x<W+100;x+=20){const y=H*.18+Math.sin(x/260+t*.3)*60;x===-100?ctx.moveTo(x,y):ctx.lineTo(x,y)}ctx.stroke();ctx.beginPath();
+ for(let x=-100;x<W+100;x+=20){const y=H*.86+Math.sin(x/300-t*.25)*50;x===-100?ctx.moveTo(x,y):ctx.lineTo(x,y)}ctx.stroke();ctx.setLineDash([8,10]);ctx.lineWidth=4;
+ for(let k=0;k<8;k++){const x=(k*W/8+t*14*(k%2?1:-1)+W)%W,y=(k%2?H*.08:H*.94)+Math.sin(t+k)*10;ctx.strokeStyle=CORES[k]+'40';ctx.beginPath();ctx.arc(x,y,46,0,7);ctx.stroke()}}
+SFX.push([0,'whoosh']);window.SFX=SFX;
+window.render=t=>{fundo(t);R.forEach(f=>f(t))};
+document.fonts.ready.then(()=>{window.ready=true});
+</script></body></html>

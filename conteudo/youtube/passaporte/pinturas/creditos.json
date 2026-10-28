@@ -1,0 +1,155 @@
+{
+ "noe": {
+  "titulo": "Noah",
+  "artista": "Lorenzo Monaco (Piero di Giovanni)",
+  "id": 436914,
+  "tam": [
+   1627,
+   2400
+  ]
+ },
+ "moises": {
+  "titulo": "Moses",
+  "artista": "Lorenzo Monaco (Piero di Giovanni)",
+  "id": 436913,
+  "tam": [
+   1756,
+   2400
+  ]
+ },
+ "santa_ceia": {
+  "titulo": "The Last Supper",
+  "artista": "Ugolino da Siena (Ugolino di Nerio)",
+  "id": 459131,
+  "tam": [
+   2400,
+   1574
+  ]
+ },
+ "paulo": {
+  "titulo": "Saint Paul",
+  "artista": "Niccolò di Buonaccorso",
+  "id": 437221,
+  "tam": [
+   746,
+   2400
+  ]
+ },
+ "criacao": {
+  "titulo": "Adam; Eve",
+  "artista": "Giuliano di Piero di Simone Bugiardini",
+  "id": 435823,
+  "tam": [
+   2400,
+   1032
+  ]
+ },
+ "pastor": {
+  "titulo": "Landscape with Shepherd",
+  "artista": "Robert S. Duncanson",
+  "id": 10777,
+  "tam": [
+   2400,
+   1642
+  ]
+ },
+ "apocalipse": {
+  "titulo": "Saint John on Patmos",
+  "artista": "Hans Baldung (called Hans Baldung Grien)",
+  "id": 435600,
+  "tam": [
+   1635,
+   1900
+  ]
+ },
+ "fuga_egito": {
+  "titulo": "The Flight into Egypt",
+  "artista": "Carlo Maratti",
+  "id": 816629,
+  "tam": [
+   1928,
+   2400
+  ]
+ },
+ "davi": {
+  "titulo": "David",
+  "artista": "Lorenzo Monaco (Piero di Giovanni)",
+  "id": 436912,
+  "tam": [
+   1907,
+   2400
+  ]
+ },
+ "ressurreicao": {
+  "titulo": "The Resurrection",
+  "artista": "Spanish (Aragonese) Painter",
+  "id": 436416,
+  "tam": [
+   1923,
+   2400
+  ]
+ },
+ "batismo": {
+  "titulo": "The Baptism of Christ",
+  "artista": "Sébastien Bourdon",
+  "id": 435755,
+  "tam": [
+   1857,
+   2400
+  ]
+ },
+ "pedro": {
+  "titulo": "Saint Peter",
+  "artista": "Lippo Memmi (Filippo di Memmo)",
+  "id": 458955,
+  "tam": [
+   1427,
+   2400
+  ]
+ },
+ "abraao": {
+  "titulo": "Abraham",
+  "artista": "Lorenzo Monaco (Piero di Giovanni)",
+  "id": 436911,
+  "tam": [
+   1580,
+   2400
+  ]
+ },
+ "salomao": {
+  "titulo": "The Judgment of Solomon",
+  "artista": "Leonaert Bramer",
+  "id": 435769,
+  "tam": [
+   2400,
+   1842
+  ]
+ },
+ "madalena": {
+  "titulo": "The Penitent Magdalen",
+  "artista": "Georges de La Tour",
+  "id": 436839,
+  "tam": [
+   1768,
+   2400
+  ]
+ },
+ "sermao": {
+  "titulo": "Christ Blessing",
+  "artista": "Segna di Buonaventura",
+  "id": 437649,
+  "tam": [
+   1505,
+   2400
+  ]
+ },
+ "emaus": {
+  "titulo": "The Supper at Emmaus",
+  "artista": "Velázquez (Diego Rodríguez de Silva y Velázquez)",
+  "id": 437871,
+  "tam": [
+   2400,
+   2241
+  ]
+ }
+}

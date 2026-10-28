@@ -7,3 +7,9 @@ conteudo/youtube/raposa-e-leao/longos/*/previa-app.mp4
 
 # Produtos digitais pagos (não publicar no repositório público)
 conteudo/produtos/
+
+# Passaporte da Bíblia: arquivos gerados
+conteudo/youtube/passaporte/capas/
+conteudo/youtube/passaporte/videos/
+conteudo/youtube/passaporte/motor/capas.html
+conteudo/youtube/passaporte/motor/_capas.js

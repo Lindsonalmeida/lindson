@@ -1,0 +1,1055 @@
+[
+ {
+  "id": "longo-01",
+  "titulo": "Você lê a Bíblia e não entende nada? Comece por aqui (o mapa que ninguém te mostrou)",
+  "formato": "longo",
+  "legenda": "Você abre a Bíblia, lê duas páginas e fecha sem entender nada? Calma: quase nunca o problema é você. É que ninguém te mostrou o mapa.\n\nNeste vídeo você vê a Bíblia em 8 regiões, a grande história em 6 capítulos e os 7 tipos de texto. E aprende 3 perguntas simples para saber onde está em qualquer página. Serve para católicos e evangélicos.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📖 Observação: os versículos aparecem em paráfrase curta, com a referência. Confira na sua tradução. A Bíblia evangélica tem 66 livros e a católica 73; o mapa vale para as duas.\n\n🎫 Quer uma rota pronta para começar? Baixe grátis a Rota da Primeira Viagem no link aqui na descrição, ou comente ROTA.\n\n#Bíblia #ComoLerABíblia #EstudoBíblico #PassaporteDaBíblia",
+  "comentario": "📌 Faça as 3 perguntas (região, capítulo da história, tipo de terreno) num capítulo hoje e comente CARIMBEI. E me conta: qual livro da Bíblia você mais quer entender?",
+  "capaA": {
+   "texto": "A Bíblia tem um MAPA",
+   "destaque": "MAPA",
+   "icone": "assets/World map/Flat/world_map_flat.svg",
+   "estilo": "A: ícone grande + texto"
+  },
+  "capaB": {
+   "texto": "Leu e não entendeu nada?",
+   "destaque": "nada",
+   "icone": "assets/Face with spiral eyes/Flat/face_with_spiral_eyes_flat.svg",
+   "estilo": "B: pergunta direta da dor, rosto confuso"
+  },
+  "seg": [
+   {
+    "tela": {
+     "t": "abertura",
+     "h": "Lê a Bíblia e <b>não entende</b>?",
+     "s": "O mapa que ninguém te mostrou",
+     "icone": "assets/World map/Flat/world_map_flat.svg"
+    },
+    "txt": "Você abre a Bíblia com vontade. Lê duas páginas. E fecha sem entender nada. Se isso já aconteceu com você, fica comigo até o fim, porque o problema quase nunca é você."
+   },
+   {
+    "tela": {
+     "t": "frase",
+     "h": "Te deram uma biblioteca <b>sem mapa</b>"
+    },
+    "txt": "O problema é outro. Te entregaram uma biblioteca inteira, com dezenas de livros, e ninguém te mostrou o mapa. É como desembarcar num país estranho sem saber nem em que cidade você está."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Compass/Flat/compass_flat.svg",
+     "h": "Hoje você recebe o mapa",
+     "s": "3 paradas"
+    },
+    "txt": "Hoje a gente faz essa viagem juntos. Primeiro, o mapa da Bíblia em 8 regiões. Depois, a história inteira em 6 capítulos. E por fim, os 7 tipos de texto, que explicam por que cada parte se lê de um jeito."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Key/Flat/key_flat.svg",
+     "h": "3 perguntas que destravam tudo",
+     "s": "no fim do vídeo"
+    },
+    "txt": "E no final eu te mostro 3 perguntas simples. Com elas, você abre a Bíblia em qualquer página e sabe onde está. Guarda isso, porque é a parte mais importante do vídeo."
+   },
+   {
+    "tela": {
+     "t": "inscreva"
+    },
+    "txt": "Antes de embarcar, um pedido rápido. Se essa é sua primeira viagem pela Bíblia, se inscreve no Passaporte da Bíblia. Aqui toda semana tem um pedaço da Bíblia explicado de um jeito simples, pra católico e pra evangélico."
+   },
+   {
+    "tela": {
+     "t": "capitulo",
+     "n": "1",
+     "h": "A Bíblia é uma biblioteca",
+     "s": "Primeira parada"
+    },
+    "txt": "Primeira parada. A Bíblia não é um livro só. É uma biblioteca."
+   },
+   {
+    "tela": {
+     "t": "lista",
+     "h": "Uma biblioteca, não um livro",
+     "itens": [
+      "66 livros na edição evangélica",
+      "73 livros na edição católica",
+      "Escrita ao longo de séculos",
+      "Muitos autores diferentes",
+      "Hebraico, aramaico e grego"
+     ]
+    },
+    "txt": "Na Bíblia evangélica são 66 livros. Na católica, 73. Foram escritos ao longo de muitos séculos, por gente bem diferente: pastor, rei, pescador, médico, profeta. E em três línguas: hebraico, aramaico e grego."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Books/Flat/books_flat.svg",
+     "h": "Ninguém lê uma biblioteca em ordem de prateleira",
+     "s": "o erro mais comum"
+    },
+    "txt": "Agora pensa comigo. Você entraria numa biblioteca e leria todos os livros na ordem da prateleira, sem saber o que cada um é? Pois é isso que muita gente tenta fazer com a Bíblia. E aí trava."
+   },
+   {
+    "tela": {
+     "t": "livro",
+     "livro": "Atos"
+    },
+    "txt": "E isso não é coisa de hoje. No livro de Atos, capítulo 8, tem um homem lendo o profeta Isaías dentro de uma carruagem. Filipe chega perto e pergunta: você entende o que está lendo?"
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Speech balloon/Flat/speech_balloon_flat.svg",
+     "h": "Como vou entender, se ninguém me explica?",
+     "s": "At 8.30-31"
+    },
+    "txt": "E a resposta dele é a resposta de muita gente hoje. Mais ou menos assim: como é que eu vou entender, se ninguém me explica? Ou seja, não entender sozinho não é falta de fé. É falta de guia."
+   },
+   {
+    "tela": {
+     "t": "pratica",
+     "h": "Na prática",
+     "itens": [
+      "Abra o índice da sua Bíblia",
+      "Conte quantos livros ela tem",
+      "Marque Gênesis, Mateus e Apocalipse"
+     ]
+    },
+    "txt": "Na prática, faz isso hoje. Abre o índice da sua Bíblia, aquela lista de livros lá no começo. Conta quantos livros ela tem, 66 ou 73. E marca três pontos: Gênesis, o começo; Mateus, onde começa o Novo Testamento; e Apocalipse, o fim."
+   },
+   {
+    "tela": {
+     "t": "capitulo",
+     "n": "2",
+     "h": "O mapa em 8 regiões",
+     "s": "Segunda parada"
+    },
+    "txt": "Segunda parada: o mapa. Imagina a Bíblia como um mapa-múndi, cheio de ilhas. Cada livro é uma ilha. E essas ilhas ficam agrupadas em 8 regiões."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/World map/Flat/world_map_flat.svg",
+     "h": "8 regiões, uma Bíblia",
+     "s": "o mapa-múndi"
+    },
+    "txt": "Saber a região muda tudo. Cada região tem um clima, um jeito, uma paisagem. Vamos passar por elas bem rápido, como quem olha o mapa antes de sair de casa."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Scroll/Flat/scroll_flat.svg",
+     "h": "Região 1: a Lei",
+     "s": "Gênesis a Deuteronômio · 5 livros"
+    },
+    "txt": "Região 1: a Lei. São os 5 primeiros livros, de Gênesis a Deuteronômio. Aqui está o começo de tudo: a criação, Abraão, a saída do Egito e as regras de vida que Deus deu ao povo de Israel."
+   },
+   {
+    "tela": {
+     "t": "livro",
+     "livro": "Gênesis"
+    },
+    "txt": "O primeiro destino é Gênesis. Em uma frase: Deus cria tudo, o ser humano estraga, e Deus começa a consertar escolhendo uma família. Guarda essa frase, porque ela volta daqui a pouco."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Classical building/Flat/classical_building_flat.svg",
+     "h": "Região 2: os Históricos",
+     "s": "Josué a Ester · 12 livros"
+    },
+    "txt": "Região 2: os livros Históricos. São 12 na Bíblia evangélica, de Josué a Ester. É a novela de Israel: a entrada na terra, os juízes, os reis, a queda e a volta do exílio."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Musical notes/Flat/musical_notes_flat.svg",
+     "h": "Região 3: os Poéticos",
+     "s": "Jó a Cantares · 5 livros"
+    },
+    "txt": "Região 3: os Poéticos. Jó, Salmos, Provérbios, Eclesiastes e Cantares. Aqui ninguém está contando história em ordem. São orações, canções e conselhos."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Megaphone/Flat/megaphone_flat.svg",
+     "h": "Regiões 4 e 5: os Profetas",
+     "s": "Maiores: 5 · Menores: 12"
+    },
+    "txt": "Regiões 4 e 5: os Profetas. Os Maiores são 5, de Isaías a Daniel, e os Menores são 12, de Oseias a Malaquias. E atenção: maior e menor aqui é pelo tamanho do livro. Não tem nada a ver com importância."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Dove/Flat/dove_flat.svg",
+     "h": "Região 6: Evangelhos e Atos",
+     "s": "Mateus a Atos · 5 livros"
+    },
+    "txt": "Região 6: os Evangelhos e Atos. Mateus, Marcos, Lucas e João contam a vida de Jesus. E Atos mostra o que aconteceu depois: a igreja nascendo e a mensagem saindo pelo mundo."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Envelope/Flat/envelope_flat.svg",
+     "h": "Região 7: as Cartas",
+     "s": "Romanos a Judas · 21 livros"
+    },
+    "txt": "Região 7: as Cartas. São 21, de Romanos a Judas. Paulo, Pedro, Tiago, João e outros escrevendo para igrejas e para pessoas de verdade, com problemas de verdade."
+   },
+   {
+    "tela": {
+     "t": "livro",
+     "livro": "Apocalipse"
+    },
+    "txt": "E a região 8 tem uma ilha só: Apocalipse. São visões cheias de símbolos, escritas para uma igreja que sofria. O recado central é simples: Jesus vence, e Deus faz novas todas as coisas."
+   },
+   {
+    "tela": {
+     "t": "frase",
+     "h": "O mapa serve pra <b>todo mundo</b>"
+    },
+    "txt": "E a Bíblia católica? Os livros a mais, como Tobias, Judite, Sabedoria e os Macabeus, entram nessas mesmas regiões. Ou seja, o mapa serve pra todo mundo. Muda o número de ilhas, não o desenho do mapa."
+   },
+   {
+    "tela": {
+     "t": "pratica",
+     "h": "Na prática",
+     "itens": [
+      "Pense num livro que você já ouviu falar",
+      "Descubra em qual das 8 regiões ele mora",
+      "Escreva a região, a lápis, na 1ª página dele"
+     ]
+    },
+    "txt": "Na prática: pensa num livro que você já ouviu falar. Pode ser Salmos, pode ser Jonas. Descobre em qual das 8 regiões ele mora e escreve o nome da região, a lápis, na primeira página dele."
+   },
+   {
+    "tela": {
+     "t": "frase",
+     "h": "Mapa sem história é <b>só geografia</b>"
+    },
+    "txt": "Agora vem a virada. Muita gente para no mapa e acha que já entendeu. Mas mapa sem história é só geografia. Você sabe onde as coisas estão, mas não sabe pra onde a viagem vai."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Thinking face/Flat/thinking_face_flat.svg",
+     "h": "O que liga Gênesis a Apocalipse?",
+     "s": "a pergunta que falta"
+    },
+    "txt": "Porque a Bíblia não é uma pilha de livros soltos. Ela conta uma história só, do começo ao fim. E quando você enxerga essa história, até as partes difíceis começam a fazer sentido."
+   },
+   {
+    "tela": {
+     "t": "capitulo",
+     "n": "3",
+     "h": "A grande história em 6 capítulos",
+     "s": "Terceira parada"
+    },
+    "txt": "Terceira parada: a grande história. Dá pra contar a Bíblia inteira em 6 capítulos. Vou te mostrar um por um, bem devagar."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Globe showing americas/Flat/globe_showing_americas_flat.svg",
+     "h": "1. Criação",
+     "s": "Gn 1–2"
+    },
+    "txt": "Capítulo 1: Criação. Deus cria tudo, e tudo é bom. O ser humano é criado para viver perto dele e cuidar do mundo."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Red apple/Flat/red_apple_flat.svg",
+     "h": "2. Queda",
+     "s": "Gn 3"
+    },
+    "txt": "Capítulo 2: Queda. O ser humano desobedece, e o mundo se quebra. Aparecem a culpa, a vergonha e a morte. E desde então a gente vive nesse mundo rachado."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Rainbow/Flat/rainbow_flat.svg",
+     "h": "3. Promessa e povo",
+     "s": "Gênesis 12 até Malaquias"
+    },
+    "txt": "Capítulo 3: Promessa e povo. Deus não desiste. Ele chama Abraão e promete que, por meio da família dele, todas as famílias da terra seriam abençoadas. Daí nasce Israel, e o Antigo Testamento conta essa caminhada."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Latin cross/Flat/latin_cross_flat.svg",
+     "h": "4. Jesus",
+     "s": "Mateus a João"
+    },
+    "txt": "Capítulo 4: Jesus. A promessa chega. Jesus vive, ensina, morre na cruz e ressuscita para nos salvar. É o centro da viagem inteira."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Dove/Flat/dove_flat.svg",
+     "h": "5. Igreja",
+     "s": "Atos a Judas"
+    },
+    "txt": "Capítulo 5: Igreja. O Espírito Santo vem, forma a igreja, e a boa notícia sai de Jerusalém para o mundo. É aqui que eu e você entramos na história."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Sunrise/Flat/sunrise_flat.svg",
+     "h": "6. Tudo novo",
+     "s": "Ap 21–22"
+    },
+    "txt": "Capítulo 6: Tudo novo. No fim, Deus faz novo céu e nova terra. Apocalipse 21 diz, em outras palavras, que ele vai enxugar toda lágrima, e não vai ter mais morte, nem choro, nem dor."
+   },
+   {
+    "tela": {
+     "t": "lista",
+     "h": "A grande história",
+     "itens": [
+      "Criação",
+      "Queda",
+      "Promessa e povo",
+      "Jesus",
+      "Igreja",
+      "Tudo novo"
+     ]
+    },
+    "txt": "Repete comigo: Criação, Queda, Promessa e povo, Jesus, Igreja, Tudo novo. Seis palavras. Se você guardar só isso deste vídeo, já vai ler a Bíblia diferente."
+   },
+   {
+    "tela": {
+     "t": "livro",
+     "livro": "Lucas"
+    },
+    "txt": "Sabe quem leu as Escrituras desse jeito? O próprio Jesus. Em Lucas 24, dois discípulos andam tristes no caminho de Emaús. E Jesus, começando por Moisés e passando pelos profetas, explica a eles o que as Escrituras diziam sobre ele."
+   },
+   {
+    "tela": {
+     "t": "frase",
+     "h": "A viagem inteira aponta para <b>Jesus</b>"
+    },
+    "txt": "Ou seja, até as páginas mais antigas fazem parte da mesma viagem. O Antigo Testamento não é outro assunto. É o caminho que leva até a promessa."
+   },
+   {
+    "tela": {
+     "t": "pratica",
+     "h": "Na prática",
+     "itens": [
+      "Abra um livro qualquer da Bíblia",
+      "Pergunte: em qual dos 6 capítulos estou?",
+      "Anote e guarde como marcador"
+     ]
+    },
+    "txt": "Na prática: abre qualquer livro e pergunta em qual dos 6 capítulos da história você está. Por exemplo, Marcos fica em Jesus, e Romanos fica em Igreja. Anota num papel e deixa dentro da Bíblia, como marcador."
+   },
+   {
+    "tela": {
+     "t": "capitulo",
+     "n": "4",
+     "h": "Os 7 tipos de texto",
+     "s": "Quarta parada"
+    },
+    "txt": "Quarta parada, e essa resolve muita confusão. A Bíblia tem 7 tipos de texto. Eu chamo de 7 tipos de terreno. E cada terreno se anda de um jeito."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Hiking boot/Flat/hiking_boot_flat.svg",
+     "h": "Ninguém sobe montanha de chinelo",
+     "s": "cada terreno, um jeito"
+    },
+    "txt": "Pensa assim: você não anda na praia do mesmo jeito que sobe uma montanha. Com a Bíblia é igual. Quem lê poesia como se fosse manual, ou carta como se fosse novela, se perde."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Scroll/Flat/scroll_flat.svg",
+     "h": "Terreno 1: Lei",
+     "s": "o que isso mostra sobre Deus?"
+    },
+    "txt": "Terreno 1: Lei. São regras de vida para o povo de Israel. Não leia só como uma lista de regras. Pergunte: o que essa regra mostra sobre Deus?"
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Classical building/Flat/classical_building_flat.svg",
+     "h": "Terreno 2: História",
+     "s": "quem? onde? o que aconteceu?"
+    },
+    "txt": "Terreno 2: História. São fatos contados em ordem. Leia como uma novela: quem está na cena, onde está e o que aconteceu. E lembre que nem tudo que um personagem fez é exemplo pra copiar."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Musical notes/Flat/musical_notes_flat.svg",
+     "h": "Terreno 3: Poesia",
+     "s": "leia devagar e sinta"
+    },
+    "txt": "Terreno 3: Poesia. Orações, canções e sabedoria, como Salmos e Provérbios. Leia devagar e sinta. E um detalhe: provérbio é regra geral, não promessa garantida."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Megaphone/Flat/megaphone_flat.svg",
+     "h": "Terreno 4: Profecia",
+     "s": "a quem ele falava, e quando?"
+    },
+    "txt": "Terreno 4: Profecia. É Deus falando ao povo por meio do profeta. Antes de tudo, descubra a quem ele falava e em que época. Isso já clareia muita coisa."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Dove/Flat/dove_flat.svg",
+     "h": "Terreno 5: Evangelho",
+     "s": "o que Jesus faz e pergunta"
+    },
+    "txt": "Terreno 5: Evangelho. É a vida de Jesus. Repare no que ele faz e, principalmente, no que ele pergunta. As perguntas de Jesus também são pra você."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Envelope/Flat/envelope_flat.svg",
+     "h": "Terreno 6: Carta",
+     "s": "leia de uma vez"
+    },
+    "txt": "Terreno 6: Carta. São mensagens para igrejas e pessoas reais. Leia de uma vez, como você leria a carta de alguém querido. Filipenses, por exemplo, tem só 4 capítulos."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Milky way/Flat/milky_way_flat.svg",
+     "h": "Terreno 7: Apocalíptico",
+     "s": "os símbolos apontam: Deus vence"
+    },
+    "txt": "Terreno 7: Apocalíptico. Visões com símbolos, números e imagens fortes. Não precisa decifrar cada detalhe, e existem leituras diferentes deles. Mas os símbolos apontam para uma ideia: Deus vence no fim."
+   },
+   {
+    "tela": {
+     "t": "livro",
+     "livro": "Filipenses"
+    },
+    "txt": "Quer ver como o terreno muda tudo? Filipenses 4.13 diz, em outras palavras: posso enfrentar todas as situações com a força que Cristo me dá. Muita gente usa como promessa de conseguir tudo o que quer. Mas é carta, então lê o parágrafo inteiro."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Magnifying glass tilted left/Flat/magnifying_glass_tilted_left_flat.svg",
+     "h": "Contexto muda tudo",
+     "s": "Fp 4.11-13"
+    },
+    "txt": "Nos versos de antes, Paulo diz que aprendeu a viver com pouco e com muito. E ele estava preso quando escreveu. Então o versículo fala de paz em qualquer situação, não de vencer tudo o que eu quiser."
+   },
+   {
+    "tela": {
+     "t": "pratica",
+     "h": "Na prática",
+     "itens": [
+      "Escolha 1 capítulo para ler hoje",
+      "Descubra o tipo de terreno",
+      "Leia usando a dica daquele terreno"
+     ]
+    },
+    "txt": "Na prática: escolhe um capítulo pra ler hoje. Antes de ler, descobre o tipo de terreno. Depois lê usando a dica daquele terreno, e repara como fica mais leve."
+   },
+   {
+    "tela": {
+     "t": "capitulo",
+     "n": "5",
+     "h": "As 3 perguntas do viajante",
+     "s": "Última parada"
+    },
+    "txt": "Última parada. Lembra que eu prometi 3 perguntas lá no começo? Agora elas fazem sentido, porque juntam o mapa, a história e o terreno."
+   },
+   {
+    "tela": {
+     "t": "lista",
+     "h": "Antes de ler, pergunte",
+     "itens": [
+      "Em que região eu estou?",
+      "Em que capítulo da história?",
+      "Que tipo de terreno é esse?"
+     ]
+    },
+    "txt": "Antes de ler qualquer página, pergunta: em que região eu estou, em que capítulo da grande história e que tipo de terreno é esse. Três perguntas. Menos de um minuto."
+   },
+   {
+    "tela": {
+     "t": "livro",
+     "livro": "Levítico"
+    },
+    "txt": "Vamos testar no lugar onde muita gente trava: Levítico. Região: Lei. Capítulo da história: Promessa e povo. Terreno: Lei, então a pergunta é o que cada regra mostra sobre Deus."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Tent/Flat/tent_flat.svg",
+     "h": "Comece por Lv 16 e 19",
+     "s": "dica de travessia"
+    },
+    "txt": "Em uma frase, Levítico ensina como um povo imperfeito pode chegar perto de um Deus santo. Se travar, começa pelos capítulos 16 e 19, que são o coração do livro. No 19 está aquele versículo famoso: ame o seu próximo como a si mesmo."
+   },
+   {
+    "tela": {
+     "t": "frase",
+     "h": "Não era falta de fé. Era falta de <b>mapa</b>."
+    },
+    "txt": "Percebe? O texto não mudou. O que mudou foi você chegar sabendo onde está. Não era falta de fé, era falta de mapa."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Open book/Flat/open_book_flat.svg",
+     "h": "A Palavra dá entendimento aos simples",
+     "s": "Sl 119.130"
+    },
+    "txt": "E isso combina com a própria Bíblia. No Salmo 119, versículo 130, o salmista diz, em outras palavras, que a explicação da Palavra traz luz e dá entendimento aos simples. A Bíblia foi feita pra gente simples entender."
+   },
+   {
+    "tela": {
+     "t": "pratica",
+     "h": "Na prática",
+     "itens": [
+      "Escolha o capítulo de amanhã",
+      "Faça as 3 perguntas antes de ler",
+      "Anote as respostas na margem"
+     ]
+    },
+    "txt": "Na prática: escolhe o capítulo de amanhã. Antes de ler, faz as 3 perguntas. E anota as respostas na margem, a lápis, pra ver o mapa crescendo na sua Bíblia."
+   },
+   {
+    "tela": {
+     "t": "compromisso",
+     "h": "Comenta: <b>CARIMBEI</b>"
+    },
+    "txt": "Agora é com você. Hoje, faz as 3 perguntas num capítulo qualquer. Quando fizer, comenta aqui embaixo: CARIMBEI. Quero ver esse mural cheio de carimbos."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Admission tickets/Flat/admission_tickets_flat.svg",
+     "h": "Rota grátis: comenta ROTA",
+     "s": "link na descrição"
+    },
+    "txt": "E se você quer uma rota pronta pra começar, eu preparei a Rota da Primeira Viagem, de graça. É só comentar ROTA ou pegar no link da descrição."
+   },
+   {
+    "tela": {
+     "t": "resumo",
+     "h": "Resumo",
+     "itens": [
+      "A Bíblia é uma biblioteca",
+      "8 regiões no mapa",
+      "6 capítulos, uma história só",
+      "7 tipos de terreno",
+      "3 perguntas antes de ler"
+     ]
+    },
+    "txt": "Resumindo a viagem de hoje. A Bíblia é uma biblioteca, com 8 regiões no mapa. Ela conta uma história só, em 6 capítulos. Tem 7 tipos de terreno, e 3 perguntas te dizem onde você está."
+   },
+   {
+    "tela": {
+     "t": "fim"
+    },
+    "txt": "No próximo vídeo, eu te mostro 3 rotas pra começar a ler, e você escolhe a sua. Até a próxima parada, viajante da Palavra."
+   }
+  ]
+ },
+ {
+  "id": "longo-02",
+  "titulo": "Por onde começar a ler a Bíblia se você nunca leu (3 rotas, escolha a sua)",
+  "formato": "longo",
+  "legenda": "Começou a Bíblia pela página 1 e travou em Levítico? Não é falta de fé, é falta de rota.\n\nNeste vídeo você conhece 3 rotas: a Rota da Primeira Viagem (Marcos, João, Lucas, Atos, Gênesis, Salmos, Provérbios, Romanos, Tiago e Filipenses), a Rota Clássica e a Rota da História. E aprende a ler sem culpa e a atravessar os trechos que mais travam.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📖 Observação: versículos em paráfrase curta, com a referência; confira na sua tradução. A conta de 1.189 capítulos é da edição evangélica (66 livros). A ordem cronológica varia entre estudiosos.\n\n🎫 Escolheu a Primeira Viagem? A Rota da Primeira Viagem é grátis: link na descrição ou comente ROTA.\n\n#LeituraBíblica #BíbliaParaIniciantes #PlanoDeLeitura #FéCristã",
+  "comentario": "📌 Qual rota você escolheu: Primeira Viagem, Clássica ou História? Comente VOU EMBARCAR + o nome da rota. Quando ler o 1º capítulo, volte e comente CARIMBEI.",
+  "capaA": {
+   "texto": "3 rotas pra começar",
+   "destaque": "3",
+   "icone": "assets/Compass/Flat/compass_flat.svg",
+   "estilo": "A: ícone grande + texto"
+  },
+  "capaB": {
+   "texto": "Não comece pela página 1",
+   "destaque": "Não",
+   "icone": "assets/Stop sign/Flat/stop_sign_flat.svg",
+   "estilo": "B: contraste (quebra de padrão com placa de pare)"
+  },
+  "seg": [
+   {
+    "tela": {
+     "t": "abertura",
+     "h": "Por onde <b>começar</b> a Bíblia?",
+     "s": "3 rotas, escolha a sua",
+     "icone": "assets/Compass/Flat/compass_flat.svg"
+    },
+    "txt": "Quase todo mundo começa a Bíblia pelo lugar mais lógico: a página 1. E é justamente ali que muita gente trava, logo no terceiro livro. Não é falta de fé. É falta de rota."
+   },
+   {
+    "tela": {
+     "t": "livro",
+     "livro": "Levítico"
+    },
+    "txt": "O terceiro livro é Levítico. Regras de sacrifício, de puro e impuro, de festas. Pra quem nunca leu nada da Bíblia, é como começar a viagem pela parte mais difícil da trilha."
+   },
+   {
+    "tela": {
+     "t": "frase",
+     "h": "O problema não é você. É a <b>rota</b>."
+    },
+    "txt": "Levítico é Palavra de Deus, e tem coisa linda ali. O problema é a ordem. Ninguém aprende a nadar no meio do mar."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Compass/Flat/compass_flat.svg",
+     "h": "3 rotas, você escolhe",
+     "s": "neste vídeo"
+    },
+    "txt": "Hoje eu te mostro 3 rotas pra ler a Bíblia, cada uma pra um tipo de viajante. Também te mostro como ler sem culpa quando você atrasar. E no fim, os trechos onde muita gente trava, com o jeito de atravessar cada um."
+   },
+   {
+    "tela": {
+     "t": "inscreva"
+    },
+    "txt": "Antes de escolher sua rota, um pedido. Se inscreve no Passaporte da Bíblia. Aqui a gente explica a Bíblia de um jeito simples, pra católico e evangélico, uma parada de cada vez."
+   },
+   {
+    "tela": {
+     "t": "capitulo",
+     "n": "1",
+     "h": "Rota da Primeira Viagem",
+     "s": "Para quem nunca leu"
+    },
+    "txt": "Rota 1: a Rota da Primeira Viagem. É pra quem nunca leu, ou pra quem já tentou e travou. Ela começa por Jesus."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Airplane/Flat/airplane_flat.svg",
+     "h": "10 destinos, começando por Jesus",
+     "s": "Rota da Primeira Viagem"
+    },
+    "txt": "São 10 livros, nesta ordem: Marcos, João, Lucas, Atos, Gênesis, Salmos, Provérbios, Romanos, Tiago e Filipenses. Parece uma ordem aleatória, mas cada parada tem um motivo. Olha só."
+   },
+   {
+    "tela": {
+     "t": "livro",
+     "livro": "Marcos"
+    },
+    "txt": "Primeira parada: Marcos. É o Evangelho mais curto e mais rápido, com 16 capítulos. Jesus age, serve e dá a vida por nós. É o melhor jeito de começar: direto no centro da história."
+   },
+   {
+    "tela": {
+     "t": "livro",
+     "livro": "João"
+    },
+    "txt": "Segunda parada: João. Esse Evangelho diz que foi escrito pra você crer que Jesus é o Filho de Deus e ter vida nele. Repara em cada vez que Jesus diz eu sou: o pão, a luz, a porta, o pastor, o caminho."
+   },
+   {
+    "tela": {
+     "t": "livro",
+     "livro": "Lucas"
+    },
+    "txt": "Terceira parada: Lucas. É um relato organizado da vida de Jesus, que vai atrás dos perdidos, dos pobres e dos esquecidos. É aqui que estão o bom samaritano e o filho pródigo."
+   },
+   {
+    "tela": {
+     "t": "livro",
+     "livro": "Atos"
+    },
+    "txt": "Quarta parada: Atos. Jesus sobe ao céu, o Espírito Santo vem e a boa notícia sai de Jerusalém para o mundo. Atos continua a história de Lucas, e a tradição diz que os dois têm o mesmo autor."
+   },
+   {
+    "tela": {
+     "t": "livro",
+     "livro": "Gênesis"
+    },
+    "txt": "Só agora a rota volta pro começo: Gênesis. E por que só agora? Porque, conhecendo Jesus, você lê a criação, Abraão e José sabendo aonde aquela promessa vai chegar."
+   },
+   {
+    "tela": {
+     "t": "livro",
+     "livro": "Salmos"
+    },
+    "txt": "Sexta parada: Salmos. São 150 orações e canções para todo tipo de dia: alegria, medo, raiva, culpa e gratidão. A dica é ler um salmo por dia, sem pressa."
+   },
+   {
+    "tela": {
+     "t": "livro",
+     "livro": "Provérbios"
+    },
+    "txt": "Sétima parada: Provérbios. São conselhos curtos de pai pra filho sobre dinheiro, palavras, trabalho, amizade e família. Tem 31 capítulos, e muita gente lê um por dia ao longo do mês."
+   },
+   {
+    "tela": {
+     "t": "livro",
+     "livro": "Romanos"
+    },
+    "txt": "Oitava parada: Romanos. Paulo explica que todo mundo falhou, mas Deus salva de graça quem confia em Jesus. É a carta que organiza muito do que você viu nos Evangelhos."
+   },
+   {
+    "tela": {
+     "t": "livro",
+     "livro": "Tiago"
+    },
+    "txt": "Nona parada: Tiago. Fé de verdade aparece na prática: no jeito de falar, de tratar o outro e de passar pela prova. Tiago diz, em resumo: não fique só ouvindo a Palavra, coloque em prática."
+   },
+   {
+    "tela": {
+     "t": "livro",
+     "livro": "Filipenses"
+    },
+    "txt": "E a última parada: Filipenses. É uma carta de alegria, escrita na prisão. Só 4 capítulos, pra você terminar a primeira viagem com paz."
+   },
+   {
+    "tela": {
+     "t": "pratica",
+     "h": "Na prática",
+     "itens": [
+      "Abra em Marcos 1",
+      "Leia 1 ou 2 capítulos, não mais",
+      "Marque um X no capítulo lido, sem data"
+     ]
+    },
+    "txt": "Na prática: se essa é sua rota, abre hoje em Marcos 1. Lê um ou dois capítulos, não mais que isso. E marca um X no capítulo lido, sem anotar data nenhuma."
+   },
+   {
+    "tela": {
+     "t": "capitulo",
+     "n": "2",
+     "h": "Rota Clássica",
+     "s": "De Gênesis a Apocalipse"
+    },
+    "txt": "Rota 2: a Rota Clássica. É a Bíblia na ordem das páginas, de Gênesis a Apocalipse. É pra quem quer ler tudo, do começo ao fim."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Locomotive/Flat/locomotive_flat.svg",
+     "h": "Na ordem das páginas",
+     "s": "Rota Clássica"
+    },
+    "txt": "Ela tem uma vantagem enorme: você não pula nada e vê a Bíblia inteira passar pela janela, como numa viagem de trem. Muita gente faz essa rota em um ano. Mas vamos fazer a conta com calma."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Spiral calendar/Flat/spiral_calendar_flat.svg",
+     "h": "1.189 capítulos ÷ 365 dias",
+     "s": "edição de 66 livros"
+    },
+    "txt": "Na Bíblia evangélica são 1.189 capítulos. Dividindo por 365 dias, dá entre 3 e 4 capítulos por dia pra ler tudo em um ano. Na edição católica são mais livros, então a conta sobe um pouco."
+   },
+   {
+    "tela": {
+     "t": "frase",
+     "h": "Leu menos? <b>Ainda é viagem.</b>"
+    },
+    "txt": "E se você ler menos que isso? Ainda é viagem. Um ano é uma meta, não uma regra da Bíblia."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Warning/Flat/warning_flat.svg",
+     "h": "Onde essa rota costuma travar",
+     "s": "Levítico · Números · Crônicas"
+    },
+    "txt": "O ponto fraco da Rota Clássica é que as partes difíceis chegam cedo. Levítico é o terceiro livro. Números tem contagens longas. E 1 Crônicas abre com 9 capítulos de nomes."
+   },
+   {
+    "tela": {
+     "t": "pratica",
+     "h": "Na prática",
+     "itens": [
+      "Leia o capítulo do dia + 1 salmo",
+      "Antes do trecho pesado, leia a dica",
+      "Atrasou? Volte de onde parou"
+     ]
+    },
+    "txt": "Na prática, pra não travar: lê o capítulo do dia e, junto, um salmo. Quando chegar num trecho pesado, lê a dica de travessia antes. E se atrasar, volta de onde parou, nunca pro dia 1."
+   },
+   {
+    "tela": {
+     "t": "capitulo",
+     "n": "3",
+     "h": "Rota da História",
+     "s": "Na ordem dos fatos"
+    },
+    "txt": "Rota 3: a Rota da História. Aqui os livros vão na ordem em que os fatos acontecem, não na ordem das páginas. É pra quem quer entender a sequência."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Hourglass done/Flat/hourglass_done_flat.svg",
+     "h": "A Bíblia não está em ordem de data",
+     "s": "Rota da História"
+    },
+    "txt": "Pouca gente sabe disso: a Bíblia não está organizada por data. Ela está organizada por tipo de livro. Por isso os profetas aparecem todos juntos, depois dos reis, mesmo tendo vivido no meio daquela história."
+   },
+   {
+    "tela": {
+     "t": "livro",
+     "livro": "2 Reis"
+    },
+    "txt": "Um exemplo. Em 2 Reis, você lê sobre o rei Ezequias e a ameaça da Assíria. E o profeta Isaías aparece ali mesmo, no meio dessa história."
+   },
+   {
+    "tela": {
+     "t": "livro",
+     "livro": "Isaías"
+    },
+    "txt": "Na Rota da História, você lê Isaías perto dessa época, e não lá na frente. De repente, as palavras do profeta ganham cenário. Você sabe quem está com medo, e por quê."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Crown/Flat/crown_flat.svg",
+     "h": "Davi e os Salmos, lado a lado",
+     "s": "1 e 2 Samuel + Salmos"
+    },
+    "txt": "Outro exemplo: alguns salmos têm títulos que ligam a oração a momentos da vida de Davi. Na Rota da História, você lê esses salmos perto da história dele, em 1 e 2 Samuel. É como ver a foto e ouvir a música ao mesmo tempo."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Envelope/Flat/envelope_flat.svg",
+     "h": "Cartas no meio de Atos",
+     "s": "Novo Testamento"
+    },
+    "txt": "No Novo Testamento, as cartas de Paulo entram no meio de Atos, perto das viagens em que ele visitou aquelas igrejas. Filipenses, por exemplo, foi escrita para uma igreja que nasce em Atos 16."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Hourglass not done/Flat/hourglass_not_done_flat.svg",
+     "h": "A ordem exata varia",
+     "s": "aviso honesto"
+    },
+    "txt": "Um aviso honesto: a ordem exata varia entre estudiosos, e muitas datas são aproximadas. Por isso existem planos cronológicos um pouco diferentes entre si. Escolhe um e segue em paz."
+   },
+   {
+    "tela": {
+     "t": "pratica",
+     "h": "Na prática",
+     "itens": [
+      "Escolha um plano cronológico",
+      "Leia a introdução de cada livro",
+      "Anote em que época você está"
+     ]
+    },
+    "txt": "Na prática: se essa é sua rota, escolhe um plano cronológico, no aplicativo ou impresso. Antes de cada livro, lê a introdução da sua Bíblia de estudo, se você tiver uma. E anota numa folha em que época da história você está."
+   },
+   {
+    "tela": {
+     "t": "lista",
+     "h": "Qual rota é a sua?",
+     "itens": [
+      "Nunca leu ou travou → Primeira Viagem",
+      "Quer ler tudo → Clássica",
+      "Quer a sequência → História"
+     ]
+    },
+    "txt": "Então, qual é a sua? Se nunca leu ou já travou, vai de Primeira Viagem. Se quer ler tudo, Clássica, e se quer entender a sequência, História."
+   },
+   {
+    "tela": {
+     "t": "frase",
+     "h": "A melhor rota é a que você <b>continua</b>"
+    },
+    "txt": "E não existe rota mais santa que a outra. A melhor rota é a que você consegue continuar."
+   },
+   {
+    "tela": {
+     "t": "frase",
+     "h": "Quem para, quase nunca para <b>pela rota</b>"
+    },
+    "txt": "Agora presta atenção, porque aqui está a virada. Muita gente não para de ler por causa da rota. Para por causa da culpa."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Tear-off calendar/Flat/tear-off_calendar_flat.svg",
+     "h": "Atrasou três dias e largou",
+     "s": "o ciclo da culpa"
+    },
+    "txt": "Funciona assim. Você começa animado em janeiro. Atrasa três dias, o plano fica cobrando, você se sente o pior cristão do mundo e fecha a Bíblia até o ano que vem."
+   },
+   {
+    "tela": {
+     "t": "capitulo",
+     "n": "4",
+     "h": "Como ler sem culpa",
+     "s": "Regras do viajante"
+    },
+    "txt": "Por isso, antes de embarcar, você precisa de algumas regras de viagem. Eu chamo de regras do viajante sem culpa. São simples, mas mudam tudo."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Passport control/Flat/passport_control_flat.svg",
+     "h": "Passaporte não vence",
+     "s": "regra 1"
+    },
+    "txt": "Regra 1: passaporte não vence. Sua leitura não tem data de validade. Se você levar dois anos pra ler, ainda é a Bíblia inteira."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Counterclockwise arrows button/Flat/counterclockwise_arrows_button_flat.svg",
+     "h": "Volte de onde parou",
+     "s": "regra 2"
+    },
+    "txt": "Regra 2: atrasou? Volte de onde parou, nunca para o dia 1. Ninguém que perde o ônibus volta pra casa e começa a viagem de novo. Pega o próximo e segue."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Footprints/Flat/footprints_flat.svg",
+     "h": "Um capítulo também é viagem",
+     "s": "regra 3"
+    },
+    "txt": "Regra 3: um capítulo também é viagem. Num dia corrido, ler um salmo curto já é andar. Constância vale mais que volume."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Bookmark/Flat/bookmark_flat.svg",
+     "h": "Não entendeu? Siga e volte depois",
+     "s": "regra 4"
+    },
+    "txt": "Regra 4: não entendeu um trecho? Siga em frente e volte depois. Nem todo texto abre na primeira leitura, e tudo bem."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/People hugging/Flat/people_hugging_flat.svg",
+     "h": "Leia com alguém",
+     "s": "regra 5"
+    },
+    "txt": "Regra 5: ler com alguém é mais leve. Chama um amigo, o marido, a esposa, alguém da igreja ou do grupo de oração. Quando um cansa, o outro puxa."
+   },
+   {
+    "tela": {
+     "t": "frase",
+     "h": "A Bíblia não é prova. É <b>encontro</b>."
+    },
+    "txt": "A Bíblia não é uma prova que você pode reprovar. É um lugar de encontro. E você pode voltar hoje, do ponto onde parou."
+   },
+   {
+    "tela": {
+     "t": "pratica",
+     "h": "Na prática",
+     "itens": [
+      "Risque as datas do plano atrasado",
+      "Marque o ponto onde você parou",
+      "Leia 1 capítulo hoje, a partir dali"
+     ]
+    },
+    "txt": "Na prática: se você tem um plano atrasado, risca as datas dele. Marca o ponto onde você parou. E lê um capítulo hoje, só um, a partir dali."
+   },
+   {
+    "tela": {
+     "t": "capitulo",
+     "n": "5",
+     "h": "Os trechos que travam",
+     "s": "e como atravessar"
+    },
+    "txt": "Último bloco: os trechos onde muita gente trava. Eu chamo de travessias. Quando você sabe que elas existem, elas assustam bem menos."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Tent/Flat/tent_flat.svg",
+     "h": "Travessia 1: Levítico",
+     "s": "comece pelos caps. 16 e 19"
+    },
+    "txt": "Travessia 1: Levítico. Em cada regra, pergunte o que ela mostra sobre Deus. E comece pelos capítulos 16 e 19: o Dia do Perdão e o viver santo no dia a dia."
+   },
+   {
+    "tela": {
+     "t": "livro",
+     "livro": "1 Crônicas"
+    },
+    "txt": "Travessia 2: as listas de nomes. Os 9 primeiros capítulos de 1 Crônicas são só nomes. Passa os olhos, para em Jabez, no capítulo 4, e começa a ler de verdade no capítulo 10."
+   },
+   {
+    "tela": {
+     "t": "livro",
+     "livro": "Mateus"
+    },
+    "txt": "Até o Novo Testamento abre com uma lista: Mateus 1. Não trava ali. Ela mostra que Jesus vem da família de Abraão e de Davi, ou seja, a promessa chegou."
+   },
+   {
+    "tela": {
+     "t": "livro",
+     "livro": "Números"
+    },
+    "txt": "Travessia 3: Números. As contagens do povo são longas. Passa rápido e para nas histórias, como os 12 espiões, nos capítulos 13 e 14, e Balaão e a jumenta, a partir do 22."
+   },
+   {
+    "tela": {
+     "t": "livro",
+     "livro": "Apocalipse"
+    },
+    "txt": "Travessia 4: Apocalipse. Símbolos, números e monstros assustam, e existem leituras bem diferentes deles. Lê antes os capítulos 1 a 5 e 21 e 22. Em todas as leituras, o centro é o mesmo: o Cordeiro vence."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Puzzle piece/Flat/puzzle_piece_flat.svg",
+     "h": "Travessia 5: Romanos 9 a 11",
+     "s": "leia até o louvor"
+    },
+    "txt": "Travessia 5: Romanos 9 a 11, que fala da escolha de Deus e do futuro de Israel. É difícil, e há leituras diferentes. Lê até o fim do capítulo 11, que termina em louvor."
+   },
+   {
+    "tela": {
+     "t": "pratica",
+     "h": "Na prática",
+     "itens": [
+      "Veja qual travessia está na sua rota",
+      "Leia a dica antes de chegar lá",
+      "Atravesse devagar, sem culpa"
+     ]
+    },
+    "txt": "Na prática: olha qual dessas travessias aparece na sua rota. Lê a dica antes de chegar lá. E atravessa devagar, sem culpa, porque trecho difícil não é sinal de que você é fraco."
+   },
+   {
+    "tela": {
+     "t": "compromisso",
+     "h": "Comenta: <b>VOU EMBARCAR</b>"
+    },
+    "txt": "Agora, o seu compromisso. Escolhe sua rota e escreve aqui nos comentários: VOU EMBARCAR, e o nome da rota. Quando ler o primeiro capítulo, volta e comenta CARIMBEI."
+   },
+   {
+    "tela": {
+     "t": "icone",
+     "icone": "assets/Admission tickets/Flat/admission_tickets_flat.svg",
+     "h": "Rota grátis: comenta ROTA",
+     "s": "link na descrição"
+    },
+    "txt": "Se você escolheu a Primeira Viagem, eu preparei um material grátis com os 4 Evangelhos explicados e um plano de 7 dias com Marcos, sem datas. Comenta ROTA ou pega no link da descrição."
+   },
+   {
+    "tela": {
+     "t": "resumo",
+     "h": "Resumo",
+     "itens": [
+      "Primeira Viagem: começa por Jesus",
+      "Clássica: de Gênesis a Apocalipse",
+      "História: na ordem dos fatos",
+      "Passaporte não vence",
+      "Atrasou? Volte de onde parou",
+      "Travessia: leia a dica antes"
+     ]
+    },
+    "txt": "Resumindo. São 3 rotas: Primeira Viagem, que começa por Jesus; Clássica, de Gênesis a Apocalipse; e História, na ordem dos fatos. Passaporte não vence, e quem atrasa volta de onde parou. E nos trechos difíceis, lê a dica antes de atravessar."
+   },
+   {
+    "tela": {
+     "t": "fim"
+    },
+    "txt": "No próximo vídeo, a gente atravessa Levítico juntos, sem largar a leitura. Até a próxima parada, viajante da Palavra."
+   }
+  ]
+ }
+]

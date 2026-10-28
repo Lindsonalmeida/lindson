@@ -1,0 +1,785 @@
+[
+  {
+    "id": "short-01",
+    "formato": "short",
+    "titulo": "Lê a Bíblia e não entende nada? Faz isso antes #shorts",
+    "legenda": "Você lê a Bíblia e não entende? O problema pode ser a ordem, não você.\nA Bíblia é uma biblioteca: olha o mapa antes e lê com 1 pergunta só.\nComenta ROTA que eu te mando a rota grátis.\n#biblia #comolerabiblia #estudobiblico #fecrista",
+    "comentario": "Qual livro da Bíblia você já tentou ler e não entendeu nada? Conta aqui 👇",
+    "capa": {
+      "texto": "Não entende a Bíblia?",
+      "destaque": "entende",
+      "icone": "assets/Thinking face/Flat/thinking_face_flat.svg",
+      "cor": "#1F2544"
+    },
+    "seg": [
+      {
+        "tela": {
+          "t": "abertura",
+          "h": "Não entende a <b>Bíblia</b>?<br>Faz isso antes",
+          "icone": "assets/Thinking face/Flat/thinking_face_flat.svg"
+        },
+        "txt": "Você lê a Bíblia e não entende nada? Calma. O problema pode não ser você."
+      },
+      {
+        "tela": {
+          "t": "frase",
+          "h": "A Bíblia não é um livro. É uma <b>biblioteca</b>."
+        },
+        "txt": "A Bíblia não é um livro só. É uma biblioteca. São 66 livros, ou 73 na Bíblia católica."
+      },
+      {
+        "tela": {
+          "t": "lista",
+          "h": "Cada livro, um jeito de ler",
+          "itens": [
+            "História",
+            "Poesia e oração",
+            "Profecia",
+            "Cartas"
+          ]
+        },
+        "txt": "Tem história, poesia, profecia e carta. E cada um se lê de um jeito. Quem lê um salmo como se fosse notícia, trava."
+      },
+      {
+        "tela": {
+          "t": "icone",
+          "icone": "assets/World map/Flat/world_map_flat.svg",
+          "h": "Vê o mapa antes da viagem",
+          "s": "8 regiões da Bíblia"
+        },
+        "txt": "Então faz o que todo viajante faz: olha o mapa antes. Em que região você está? Na Lei? Nos Profetas? Nas Cartas?"
+      },
+      {
+        "tela": {
+          "t": "livro",
+          "livro": "Marcos"
+        },
+        "txt": "Depois, começa por uma história. Marcos é curto: 16 capítulos, direto ao ponto."
+      },
+      {
+        "tela": {
+          "t": "icone",
+          "icone": "assets/Light bulb/Flat/light_bulb_flat.svg",
+          "h": "1 pergunta por capítulo",
+          "s": "O que isso mostra sobre Deus?"
+        },
+        "txt": "E em cada capítulo, faz uma pergunta só: o que isso mostra sobre Deus? Pronto. Agora a leitura tem rumo."
+      },
+      {
+        "tela": {
+          "t": "fim",
+          "h": "Comenta <b>ROTA</b>"
+        },
+        "txt": "Comenta ROTA que eu te mando a rota grátis."
+      }
+    ]
+  },
+  {
+    "id": "short-02",
+    "formato": "short",
+    "titulo": "Marcos em 1 minuto: o livro mais fácil pra começar #shorts",
+    "legenda": "Nunca leu a Bíblia e não sabe por onde começar? Comece por Marcos.\n16 capítulos, rápido e cheio de ação: dá pra ler em uma semana.\nSalva pra começar hoje.\n#evangelhodemarcos #porondecomecar #leiturabiblica #biblia",
+    "comentario": "Você já leu Marcos inteiro? Se não, topa ler Marcos 1 hoje? Escreve EU VOU 👇",
+    "capa": {
+      "texto": "Comece por este livro",
+      "destaque": "livro",
+      "icone": "assets/Admission tickets/Flat/admission_tickets_flat.svg",
+      "cor": "#3B8EDB"
+    },
+    "seg": [
+      {
+        "tela": {
+          "t": "abertura",
+          "h": "Nunca leu a Bíblia?<br>Começa <b>aqui</b>",
+          "icone": "assets/Admission tickets/Flat/admission_tickets_flat.svg"
+        },
+        "txt": "Nunca leu a Bíblia e não sabe por onde começar? Eu começaria por Marcos."
+      },
+      {
+        "tela": {
+          "t": "livro",
+          "livro": "Marcos"
+        },
+        "txt": "É o Evangelho mais curto. São 16 capítulos. Dá pra ler em uma semana, uns 2 capítulos por dia."
+      },
+      {
+        "tela": {
+          "t": "frase",
+          "h": "Jesus <b>age</b>, serve e dá a vida"
+        },
+        "txt": "E Marcos é rápido. Quase não para. Jesus cura, chama, ensina e segue andando."
+      },
+      {
+        "tela": {
+          "t": "lista",
+          "h": "As paradas da viagem",
+          "itens": [
+            "João Batista (Mc 1)",
+            "Curas na Galileia (Mc 1–3)",
+            "A tempestade acalmada (Mc 4)",
+            "Cruz e túmulo vazio (Mc 14–16)"
+          ]
+        },
+        "txt": "Primeiro, João Batista prepara o caminho. Depois vêm as curas na Galileia, a tempestade acalmada e, no fim, a cruz e o túmulo vazio."
+      },
+      {
+        "tela": {
+          "t": "icone",
+          "icone": "assets/Latin cross/Flat/latin_cross_flat.svg",
+          "h": "Veio para servir",
+          "s": "Mc 10.45"
+        },
+        "txt": "Tem um versículo que resume tudo: Jesus não veio para ser servido, mas para servir e dar a vida por muitos. Marcos 10, 45."
+      },
+      {
+        "tela": {
+          "t": "icone",
+          "icone": "assets/Check mark button/Flat/check_mark_button_flat.svg",
+          "h": "Hoje: leia Marcos 1",
+          "s": "Só 1 capítulo"
+        },
+        "txt": "Faz assim: hoje, lê só Marcos 1. Amanhã, o 2. Sem pressa e sem cobrança."
+      },
+      {
+        "tela": {
+          "t": "fim",
+          "h": "<b>Salva</b> pra não esquecer"
+        },
+        "txt": "Salva pra não esquecer."
+      }
+    ]
+  },
+  {
+    "id": "short-03",
+    "formato": "short",
+    "titulo": "Levítico em 40 segundos (pra você parar de travar) #shorts",
+    "legenda": "Muita gente larga a leitura da Bíblia em Levítico. Não precisa.\nEntenda a ideia do livro e comece pelos capítulos 16 e 19.\nComenta ROTA que eu te mando a rota grátis.\n#levitico #antigotestamento #planodeleitura #biblia",
+    "comentario": "Você já travou em Levítico? Em que capítulo você parou? 👇",
+    "capa": {
+      "texto": "Travou em Levítico?",
+      "destaque": "Travou",
+      "icone": "assets/Stop sign/Flat/stop_sign_flat.svg",
+      "cor": "#D9573B"
+    },
+    "seg": [
+      {
+        "tela": {
+          "t": "abertura",
+          "h": "Todo mundo <b>trava</b><br>em Levítico",
+          "icone": "assets/Stop sign/Flat/stop_sign_flat.svg"
+        },
+        "txt": "Todo mundo trava em Levítico. Calma. Você não é o único."
+      },
+      {
+        "tela": {
+          "t": "livro",
+          "livro": "Levítico"
+        },
+        "txt": "Levítico tem 27 capítulos. E não é um manual qualquer."
+      },
+      {
+        "tela": {
+          "t": "frase",
+          "h": "Como chegar <b>perto</b> de um Deus santo"
+        },
+        "txt": "É Deus ensinando como um povo imperfeito podia chegar perto de um Deus santo."
+      },
+      {
+        "tela": {
+          "t": "icone",
+          "icone": "assets/Fire/Flat/fire_flat.svg",
+          "h": "As ofertas",
+          "s": "Lv 1–7"
+        },
+        "txt": "As ofertas? Mostravam que o erro tem um preço, e que Deus abria um caminho de perdão."
+      },
+      {
+        "tela": {
+          "t": "icone",
+          "icone": "assets/Droplet/Flat/droplet_flat.svg",
+          "h": "Puro e impuro",
+          "s": "Lv 11–15"
+        },
+        "txt": "As regras de puro e impuro? Ensinavam que Deus é diferente de tudo, e que isso alcança a vida inteira."
+      },
+      {
+        "tela": {
+          "t": "icone",
+          "icone": "assets/Latin cross/Flat/latin_cross_flat.svg",
+          "h": "Uma vez por todas",
+          "s": "Hb 10.10"
+        },
+        "txt": "E no Novo Testamento, Hebreus diz que Jesus se ofereceu uma vez por todas. Hebreus 10, 10."
+      },
+      {
+        "tela": {
+          "t": "lista",
+          "h": "Comece por aqui",
+          "itens": [
+            "Lv 16: o Dia do Perdão",
+            "Lv 19: ame o próximo"
+          ]
+        },
+        "txt": "Dica de rota: lê primeiro o capítulo 16, o Dia do Perdão. Depois o 19, onde está: ame o seu próximo como a si mesmo."
+      },
+      {
+        "tela": {
+          "t": "fim",
+          "h": "Comenta <b>ROTA</b>"
+        },
+        "txt": "Comenta ROTA que eu te mando a rota grátis."
+      }
+    ]
+  },
+  {
+    "id": "short-04",
+    "formato": "short",
+    "titulo": "Atrasou a leitura da Bíblia? Não volta pro dia 1 #shorts",
+    "legenda": "Atrasou o plano de leitura? Não recomece do zero e não carregue culpa.\nPlano é mapa, não prova: continue de onde parou, 1 capítulo por vez.\nSegue pra próxima viagem.\n#planodeleitura #bibliaem1ano #devocional #vidacrista",
+    "comentario": "Em que dia do plano você parou? Escreve aqui e continua hoje com a gente 👇",
+    "capa": {
+      "texto": "Atrasou? Não recomece",
+      "destaque": "Atrasou?",
+      "icone": "assets/Spiral calendar/Flat/spiral_calendar_flat.svg",
+      "cor": "#1F2544"
+    },
+    "seg": [
+      {
+        "tela": {
+          "t": "abertura",
+          "h": "Atrasou?<br><b>Não</b> volta pro dia 1",
+          "icone": "assets/Spiral calendar/Flat/spiral_calendar_flat.svg"
+        },
+        "txt": "Atrasou o plano de leitura da Bíblia? Para. Não volta pro dia 1."
+      },
+      {
+        "tela": {
+          "t": "icone",
+          "icone": "assets/Pensive face/Flat/pensive_face_flat.svg",
+          "h": "A culpa pesa mais que o atraso",
+          "s": "Acontece com muita gente"
+        },
+        "txt": "Muita gente larga a Bíblia não por causa do atraso. É por causa da culpa."
+      },
+      {
+        "tela": {
+          "t": "frase",
+          "h": "Plano é <b>mapa</b>, não prova"
+        },
+        "txt": "Pensa assim: o plano é um mapa, não uma prova. Ninguém te reprova por chegar depois."
+      },
+      {
+        "tela": {
+          "t": "icone",
+          "icone": "assets/Round pushpin/Flat/round_pushpin_flat.svg",
+          "h": "Continua de onde parou",
+          "s": "Sem recomeçar"
+        },
+        "txt": "Então continua de onde você parou. Se estava no dia 40, abre o dia 41 hoje. Esquece a data do calendário."
+      },
+      {
+        "tela": {
+          "t": "lista",
+          "h": "Faz assim hoje",
+          "itens": [
+            "Risca a data, não o dia",
+            "1 capítulo já conta",
+            "Marca o carimbo"
+          ]
+        },
+        "txt": "Risca as datas, não os dias. Lê um capítulo, nem que seja um só. Um capítulo já é viagem. E marca no seu passaporte."
+      },
+      {
+        "tela": {
+          "t": "icone",
+          "icone": "assets/Sunrise/Flat/sunrise_flat.svg",
+          "h": "Misericórdias novas toda manhã",
+          "s": "Lm 3.22-23"
+        },
+        "txt": "A própria Bíblia diz que as misericórdias de Deus se renovam a cada manhã. Lamentações 3, 22 e 23. Hoje é uma manhã nova."
+      },
+      {
+        "tela": {
+          "t": "fim",
+          "h": "<b>Segue</b> pra próxima viagem"
+        },
+        "txt": "Segue pra próxima viagem."
+      }
+    ]
+  },
+  {
+    "id": "short-05",
+    "formato": "short",
+    "titulo": "Dá sono quando lê a Bíblia? Normal. Tenta isso #shorts",
+    "legenda": "Sono na hora de ler a Bíblia não é falta de fé. Muitas vezes é o jeito de ler.\n3 ajustes simples e uma pergunta que te mantém acordado.\nComenta ROTA que eu te mando a rota grátis.\n#leituradabiblia #devocionaldiario #biblia #oracao",
+    "comentario": "Você costuma ler a Bíblia de manhã ou à noite? Conta aqui 👇",
+    "capa": {
+      "texto": "Dá sono ao ler?",
+      "destaque": "sono",
+      "icone": "assets/Yawning face/Flat/yawning_face_flat.svg",
+      "cor": "#1F2544"
+    },
+    "seg": [
+      {
+        "tela": {
+          "t": "abertura",
+          "h": "Dá <b>sono</b> quando<br>lê a Bíblia?",
+          "icone": "assets/Yawning face/Flat/yawning_face_flat.svg"
+        },
+        "txt": "Dá sono quando você abre a Bíblia? Normal. Não é falta de fé."
+      },
+      {
+        "tela": {
+          "t": "icone",
+          "icone": "assets/Sleeping face/Flat/sleeping_face_flat.svg",
+          "h": "Até os discípulos dormiram",
+          "s": "Mc 14.37-38"
+        },
+        "txt": "Até os discípulos dormiram no Getsêmani. E Jesus disse: o espírito está pronto, mas a carne é fraca. Marcos 14."
+      },
+      {
+        "tela": {
+          "t": "frase",
+          "h": "Muitas vezes o problema é o <b>jeito</b>"
+        },
+        "txt": "Muitas vezes o sono vem do jeito de ler, e não de você."
+      },
+      {
+        "tela": {
+          "t": "lista",
+          "h": "3 ajustes simples",
+          "itens": [
+            "Sentado, não deitado",
+            "Em voz alta, nem que baixinho",
+            "Mais cedo, se der"
+          ]
+        },
+        "txt": "Lê sentado, não deitado. Lê em voz alta, nem que seja baixinho. E, se der, lê mais cedo, antes do cansaço do dia."
+      },
+      {
+        "tela": {
+          "t": "icone",
+          "icone": "assets/Light bulb/Flat/light_bulb_flat.svg",
+          "h": "Leia com uma pergunta",
+          "s": "O que isso mostra sobre Deus?"
+        },
+        "txt": "E vai com uma pergunta na mão: o que esse texto mostra sobre Deus? Quem procura alguma coisa fica mais atento."
+      },
+      {
+        "tela": {
+          "t": "livro",
+          "livro": "Rute"
+        },
+        "txt": "Se o trecho estiver pesado, troca por uma história curta. Rute, por exemplo: só 4 capítulos."
+      },
+      {
+        "tela": {
+          "t": "fim",
+          "h": "Comenta <b>ROTA</b>"
+        },
+        "txt": "Comenta ROTA que eu te mando a rota grátis."
+      }
+    ]
+  },
+  {
+    "id": "short-06",
+    "formato": "short",
+    "titulo": "Rute em 1 minuto: a história de amor da Bíblia #shorts",
+    "legenda": "Rute é uma estrangeira viúva que escolhe ficar com a sogra e acaba na família do rei Davi.\n4 capítulos de lealdade, cuidado e recomeço. Dá pra ler hoje.\nSalva pra não esquecer.\n#rute #mulheresdabiblia #historiasbiblicas #antigotestamento",
+    "comentario": "Você conhecia a história de Rute e Boaz? Qual parte você mais gosta? 👇",
+    "capa": {
+      "texto": "Rute em 1 minuto",
+      "destaque": "Rute",
+      "icone": "assets/Red heart/Flat/red_heart_flat.svg",
+      "cor": "#E9A23B"
+    },
+    "seg": [
+      {
+        "tela": {
+          "t": "abertura",
+          "h": "Uma história de <b>amor</b><br>em 4 capítulos",
+          "icone": "assets/Red heart/Flat/red_heart_flat.svg"
+        },
+        "txt": "Tem uma história de amor na Bíblia que cabe em 4 capítulos. É o livro de Rute."
+      },
+      {
+        "tela": {
+          "t": "livro",
+          "livro": "Rute"
+        },
+        "txt": "Rute é estrangeira, de Moabe, e fica viúva. A sogra, Noemi, perdeu o marido e os dois filhos."
+      },
+      {
+        "tela": {
+          "t": "icone",
+          "icone": "assets/Footprints/Flat/footprints_flat.svg",
+          "h": "Aonde você for, eu vou",
+          "s": "Rt 1.16"
+        },
+        "txt": "Noemi manda Rute voltar pra casa. E ela responde: aonde você for, eu vou. O seu Deus será o meu Deus. Rute 1, 16."
+      },
+      {
+        "tela": {
+          "t": "icone",
+          "icone": "assets/Sheaf of rice/Flat/sheaf_of_rice_flat.svg",
+          "h": "No campo de Boaz",
+          "s": "Rt 2"
+        },
+        "txt": "Pra sobreviver, Rute vai colher espigas no campo de um homem chamado Boaz. E ele cuida dela."
+      },
+      {
+        "tela": {
+          "t": "frase",
+          "h": "Boaz, o <b>resgatador</b>"
+        },
+        "txt": "Boaz era parente da família. Naquele tempo, o parente protegia a viúva e a terra. Ele faz isso e casa com Rute."
+      },
+      {
+        "tela": {
+          "t": "icone",
+          "icone": "assets/Crown/Flat/crown_flat.svg",
+          "h": "Bisavó do rei Davi",
+          "s": "Rt 4.17 · Mt 1.5"
+        },
+        "txt": "Eles têm um filho, Obede, avô do rei Davi. E Rute está na lista dos antepassados de Jesus, em Mateus 1."
+      },
+      {
+        "tela": {
+          "t": "frase",
+          "h": "A lealdade dela entrou na <b>grande história</b>"
+        },
+        "txt": "A estrangeira que ficou por lealdade entrou na grande história de Deus."
+      },
+      {
+        "tela": {
+          "t": "fim",
+          "h": "<b>Salva</b> pra não esquecer"
+        },
+        "txt": "Salva pra não esquecer."
+      }
+    ]
+  },
+  {
+    "id": "short-07",
+    "formato": "short",
+    "titulo": "Jonas em 1 minuto: o que ele tem a ver com Jesus? #shorts",
+    "legenda": "Jonas foge de Deus, passa 3 dias no grande peixe e fica bravo quando Deus perdoa Nínive.\nJesus citou o \"sinal de Jonas\" (Mt 12.40). E o livro termina com uma pergunta pra você.\nSegue pra próxima viagem.\n#jonas #profetasmenores #historiabiblica #jesus",
+    "comentario": "E você: quem é a pessoa que você não queria ver perdoada? Pode responder só pra si, ou aqui 👇",
+    "capa": {
+      "texto": "Jonas e Jesus",
+      "destaque": "Jonas",
+      "icone": "assets/Fish/Flat/fish_flat.svg",
+      "cor": "#9CC152"
+    },
+    "seg": [
+      {
+        "tela": {
+          "t": "abertura",
+          "h": "O profeta que<br><b>fugiu</b> de Deus",
+          "icone": "assets/Sailboat/Flat/sailboat_flat.svg"
+        },
+        "txt": "Um profeta que fugiu de Deus. E ficou bravo quando Deus perdoou. É Jonas."
+      },
+      {
+        "tela": {
+          "t": "livro",
+          "livro": "Jonas"
+        },
+        "txt": "Deus manda Jonas avisar Nínive, a cidade inimiga. Ele pega um navio pro lado contrário."
+      },
+      {
+        "tela": {
+          "t": "icone",
+          "icone": "assets/Water wave/Flat/water_wave_flat.svg",
+          "h": "A tempestade",
+          "s": "Jn 1"
+        },
+        "txt": "Vem uma tempestade. Os marinheiros jogam Jonas no mar."
+      },
+      {
+        "tela": {
+          "t": "icone",
+          "icone": "assets/Fish/Flat/fish_flat.svg",
+          "h": "Três dias no grande peixe",
+          "s": "Jn 1.17–2.10"
+        },
+        "txt": "E um grande peixe engole Jonas. Três dias lá dentro, orando."
+      },
+      {
+        "tela": {
+          "t": "icone",
+          "icone": "assets/Folded hands/Default/Flat/folded_hands_flat_default.svg",
+          "h": "Nínive se arrepende",
+          "s": "Jn 3"
+        },
+        "txt": "Ele finalmente vai. Nínive se arrepende, e Deus perdoa. Jonas fica furioso."
+      },
+      {
+        "tela": {
+          "t": "icone",
+          "icone": "assets/Latin cross/Flat/latin_cross_flat.svg",
+          "h": "O sinal de Jonas",
+          "s": "Mt 12.40"
+        },
+        "txt": "E o que isso tem a ver com Jesus? Ele mesmo disse: assim como Jonas ficou três dias no peixe, ele ficaria três dias na terra. Mateus 12, 40. Apontava pra morte e ressurreição dele."
+      },
+      {
+        "tela": {
+          "t": "frase",
+          "h": "O livro termina com uma <b>pergunta</b>"
+        },
+        "txt": "E o livro termina com uma pergunta de Deus, sem resposta. Jonas 4, 11. A pergunta fica pra você: quem você não quer ver perdoado?"
+      },
+      {
+        "tela": {
+          "t": "fim",
+          "h": "<b>Segue</b> pra próxima viagem"
+        },
+        "txt": "Segue pra próxima viagem."
+      }
+    ]
+  },
+  {
+    "id": "short-08",
+    "formato": "short",
+    "titulo": "A Bíblia inteira em 6 paradas, de Gênesis a Apocalipse #shorts",
+    "legenda": "A Bíblia fica mais fácil quando você vê a história toda antes.\nCriação, Queda, Promessa e povo, Jesus, Igreja e Tudo novo: todo livro cabe numa dessas paradas.\nComenta ROTA que eu te mando a rota grátis.\n#biblia #historiadabiblia #genesis #apocalipse #cristianismo",
+    "comentario": "Qual dessas 6 paradas você mais quer entender? Escreve o número 👇",
+    "capa": {
+      "texto": "Bíblia em 6 paradas",
+      "destaque": "6",
+      "icone": "assets/World map/Flat/world_map_flat.svg",
+      "cor": "#1F2544"
+    },
+    "seg": [
+      {
+        "tela": {
+          "t": "abertura",
+          "h": "A Bíblia inteira<br>em <b>6</b> paradas",
+          "icone": "assets/World map/Flat/world_map_flat.svg"
+        },
+        "txt": "A Bíblia inteira em 6 paradas. Grava essa rota."
+      },
+      {
+        "tela": {
+          "t": "icone",
+          "icone": "assets/Seedling/Flat/seedling_flat.svg",
+          "h": "1. Criação",
+          "s": "Gn 1–2"
+        },
+        "txt": "Parada 1: Criação. Deus faz tudo, e faz bom."
+      },
+      {
+        "tela": {
+          "t": "icone",
+          "icone": "assets/Cloud with lightning/Flat/cloud_with_lightning_flat.svg",
+          "h": "2. Queda",
+          "s": "Gn 3"
+        },
+        "txt": "Parada 2: Queda. O ser humano escolhe o próprio caminho, e o mundo se quebra."
+      },
+      {
+        "tela": {
+          "t": "icone",
+          "icone": "assets/Tent/Flat/tent_flat.svg",
+          "h": "3. Promessa e povo",
+          "s": "Gn 12.1-3"
+        },
+        "txt": "Parada 3: Promessa e povo. Deus chama Abraão e promete abençoar todas as famílias da terra por meio dele."
+      },
+      {
+        "tela": {
+          "t": "icone",
+          "icone": "assets/Latin cross/Flat/latin_cross_flat.svg",
+          "h": "4. Jesus",
+          "s": "Evangelhos"
+        },
+        "txt": "Parada 4: Jesus. A promessa chega. Ele vive, morre e ressuscita."
+      },
+      {
+        "tela": {
+          "t": "icone",
+          "icone": "assets/Dove/Flat/dove_flat.svg",
+          "h": "5. Igreja",
+          "s": "Atos e Cartas"
+        },
+        "txt": "Parada 5: Igreja. O Espírito Santo vem, e a mensagem sai pelo mundo."
+      },
+      {
+        "tela": {
+          "t": "icone",
+          "icone": "assets/Sparkles/Flat/sparkles_flat.svg",
+          "h": "6. Tudo novo",
+          "s": "Ap 21–22"
+        },
+        "txt": "Parada 6: Tudo novo. Deus enxuga toda lágrima e faz novas todas as coisas. Apocalipse 21."
+      },
+      {
+        "tela": {
+          "t": "frase",
+          "h": "Todo livro cabe em <b>uma</b> parada"
+        },
+        "txt": "Todo livro que você abrir cabe numa dessas paradas. Antes de ler, pergunta: em qual parada eu estou?"
+      },
+      {
+        "tela": {
+          "t": "fim",
+          "h": "Comenta <b>ROTA</b>"
+        },
+        "txt": "Comenta ROTA que eu te mando a rota grátis."
+      }
+    ]
+  },
+  {
+    "id": "short-09",
+    "formato": "short",
+    "titulo": "Por que a Bíblia tem tanta lista de nomes? #shorts",
+    "legenda": "As genealogias cansam, mas têm um motivo: mostram que Deus guarda cada família até a promessa chegar.\nVeja onde elas aparecem e como ler sem travar.\nSalva pra não esquecer.\n#genealogia #1cronicas #estudodabiblia #duvidasbiblicas",
+    "comentario": "Você pula as listas de nomes ou lê tudo? Sem julgamento 😄👇",
+    "capa": {
+      "texto": "Por que tanto nome?",
+      "destaque": "nome?",
+      "icone": "assets/Scroll/Flat/scroll_flat.svg",
+      "cor": "#E9A23B"
+    },
+    "seg": [
+      {
+        "tela": {
+          "t": "abertura",
+          "h": "Lista de <b>nomes</b><br>na Bíblia. Por quê?",
+          "icone": "assets/Scroll/Flat/scroll_flat.svg"
+        },
+        "txt": "Você abre a Bíblia e dá de cara com uma lista enorme de nomes. Fulano foi pai de fulano. Por quê?"
+      },
+      {
+        "tela": {
+          "t": "lista",
+          "h": "Onde elas aparecem",
+          "itens": [
+            "Gênesis 5, 10, 11 e 36",
+            "1 Crônicas 1 a 9",
+            "Mateus 1"
+          ]
+        },
+        "txt": "Elas aparecem em Gênesis, nos 9 primeiros capítulos de 1 Crônicas e logo na abertura de Mateus."
+      },
+      {
+        "tela": {
+          "t": "frase",
+          "h": "Deus não <b>esquece</b> nenhuma família"
+        },
+        "txt": "Pro povo antigo, nome era história. A lista mostra que Deus guardou cada família até a promessa chegar."
+      },
+      {
+        "tela": {
+          "t": "livro",
+          "livro": "1 Crônicas"
+        },
+        "txt": "1 Crônicas foi escrito depois do exílio. Pro povo que voltou, a lista dizia: vocês não foram esquecidos."
+      },
+      {
+        "tela": {
+          "t": "icone",
+          "icone": "assets/Latin cross/Flat/latin_cross_flat.svg",
+          "h": "De Abraão e Davi até Jesus",
+          "s": "Mt 1.1-17"
+        },
+        "txt": "E em Mateus, a lista mostra que Jesus vem da família de Abraão e de Davi. A promessa cumprida."
+      },
+      {
+        "tela": {
+          "t": "icone",
+          "icone": "assets/Compass/Flat/compass_flat.svg",
+          "h": "Leia por cima, sem culpa",
+          "s": "Pare em Jabez: 1Cr 4.9-10"
+        },
+        "txt": "Dica: leia por cima, sem culpa. E pare onde aparece uma história, como a de Jabez, em 1 Crônicas 4."
+      },
+      {
+        "tela": {
+          "t": "fim",
+          "h": "<b>Salva</b> pra não esquecer"
+        },
+        "txt": "Salva pra não esquecer."
+      }
+    ]
+  },
+  {
+    "id": "short-10",
+    "formato": "short",
+    "titulo": "Apocalipse dá medo? Comece por estes capítulos #shorts",
+    "legenda": "Apocalipse foi escrito pra dar coragem a uma igreja que sofria.\nComece por Ap 1–3 e 21–22. Há leituras diferentes dos detalhes, mas o centro é um só: o Cordeiro vence.\nSegue pra próxima viagem.\n#apocalipse #novotestamento #estudobiblico #esperanca",
+    "comentario": "Qual parte do Apocalipse você mais quer entender? 👇",
+    "capa": {
+      "texto": "Apocalipse dá medo?",
+      "destaque": "medo?",
+      "icone": "assets/Anxious face with sweat/Flat/anxious_face_with_sweat_flat.svg",
+      "cor": "#8E2C48"
+    },
+    "seg": [
+      {
+        "tela": {
+          "t": "abertura",
+          "h": "Apocalipse<br>dá <b>medo</b>?",
+          "icone": "assets/Anxious face with sweat/Flat/anxious_face_with_sweat_flat.svg"
+        },
+        "txt": "Apocalipse dá medo? Dragão, bestas, selos... Calma. Respira."
+      },
+      {
+        "tela": {
+          "t": "livro",
+          "livro": "Apocalipse"
+        },
+        "txt": "É o último livro da Bíblia: 22 capítulos de visões cheias de símbolos."
+      },
+      {
+        "tela": {
+          "t": "frase",
+          "h": "Escrito pra uma igreja que <b>sofria</b>"
+        },
+        "txt": "Ele foi escrito pra igrejas que estavam sofrendo. O objetivo não era assustar. Era dar coragem."
+      },
+      {
+        "tela": {
+          "t": "icone",
+          "icone": "assets/Candle/Flat/candle_flat.svg",
+          "h": "Jesus fala às 7 igrejas",
+          "s": "Ap 1–3"
+        },
+        "txt": "Comece pelos capítulos 1 a 3. Jesus fala com sete igrejas, com correção e com consolo."
+      },
+      {
+        "tela": {
+          "t": "icone",
+          "icone": "assets/Sparkles/Flat/sparkles_flat.svg",
+          "h": "Tudo novo",
+          "s": "Ap 21.4"
+        },
+        "txt": "Depois pula pro fim, capítulos 21 e 22. Deus enxuga toda lágrima. Não haverá mais morte, nem choro, nem dor. Apocalipse 21, 4."
+      },
+      {
+        "tela": {
+          "t": "frase",
+          "h": "O <b>Cordeiro</b> vence"
+        },
+        "txt": "Existem leituras bem diferentes dos detalhes. Mas em todas, o centro é o mesmo: o Cordeiro vence."
+      },
+      {
+        "tela": {
+          "t": "icone",
+          "icone": "assets/Open book/Flat/open_book_flat.svg",
+          "h": "Depois, o meio",
+          "s": "Ap 4–20"
+        },
+        "txt": "Com o começo e o fim na cabeça, o meio fica bem menos assustador."
+      },
+      {
+        "tela": {
+          "t": "fim",
+          "h": "<b>Segue</b> pra próxima viagem"
+        },
+        "txt": "Segue pra próxima viagem."
+      }
+    ]
+  }
+]
