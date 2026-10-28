@@ -1,0 +1,9 @@
+{"url":"https://lindsonalmeida.github.io/lindson/links/","endereco":"lindsonalmeida.github.io","acoes":[
+ {"esperar":3},
+ {"tocar":"Ativar som","som":"https://lindsonalmeida.github.io/lindson/links/rock.mp3"},
+ {"esperar":2.2},
+ {"rolar":260,"dur":2.2},{"esperar":1.2},
+ {"tocar":"Quero um mini site","so_mostrar":true},{"esperar":1},
+ {"rolar":700,"dur":2.4},{"esperar":1.5},
+ {"rolar":99999,"dur":2.2},{"esperar":1.8},
+ {"rolar":0,"dur":2.6},{"esperar":2.5}]}

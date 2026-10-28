@@ -1,0 +1,11 @@
+{"url":"https://rafaelimports.pages.dev","endereco":"rafaelimports.pages.dev","acoes":[
+ {"esperar":3.2},
+ {"rolar":330,"dur":2},{"esperar":1},
+ {"tocar":"WhatsApp da assistência"},{"esperar":3.5},
+ {"rolar":"#portfolio","mais":-420,"dur":1.6},{"esperar":0.6},
+ {"tocar":"Portfólio de produtos"},{"esperar":2},
+ {"tocar":"iPhone","exato":true,"n":-1},{"esperar":2},
+ {"tocar":"Samsung","exato":true,"n":-1},{"esperar":1.8},
+ {"rolar":"#portfolio","mais":520,"dur":2.2},{"esperar":1.5},
+ {"rolar":"#local","dur":2.2},{"esperar":2.5},
+ {"rolar":0,"dur":2.8},{"esperar":2.2}]}
