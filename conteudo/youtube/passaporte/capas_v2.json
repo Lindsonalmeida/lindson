@@ -13,6 +13,18 @@
    "tag": "GÊNESIS"
   },
   "B": {
+   "estilo": "close",
+   "grav": "014",
+   "foco": [
+    0.25,
+    0.48
+   ],
+   "zoom": 0.45,
+   "txt": "O FIO <b>ESCONDIDO</b>",
+   "lado": "dir",
+   "tag": "GÊNESIS"
+  },
+  "C": {
    "estilo": "duelo",
    "grav": "002",
    "foco": [
@@ -75,6 +87,18 @@
    "tag": "PARÁBOLAS DE JESUS"
   },
   "B": {
+   "estilo": "close",
+   "grav": "075",
+   "foco": [
+    0.45,
+    0.48
+   ],
+   "zoom": 0.45,
+   "txt": "<b>QUEM</b> É VOCÊ?",
+   "lado": "esq",
+   "tag": "PARÁBOLAS DE JESUS"
+  },
+  "C": {
    "estilo": "duelo",
    "grav": "077",
    "foco": [
@@ -90,6 +114,162 @@
    "zoom2": 0.42,
    "txt": "<b>FARISEU</b>",
    "txt2": "<i>PUBLICANO</i>"
+  }
+ },
+ "longo-01": {
+  "A": {
+   "estilo": "close",
+   "grav": "053",
+   "foco": [
+    0.33,
+    0.2
+   ],
+   "zoom": 0.36,
+   "txt": "NÃO <b>ENTENDE?</b>",
+   "lado": "dir",
+   "tag": "BÍBLIA PARA INICIANTES"
+  },
+  "B": {
+   "estilo": "close",
+   "grav": "061",
+   "foco": [
+    0.45,
+    0.45
+   ],
+   "zoom": 0.45,
+   "txt": "O MAPA <b>ESCONDIDO</b>",
+   "lado": "dir",
+   "tag": "BÍBLIA PARA INICIANTES"
+  }
+ },
+ "longo-02": {
+  "A": {
+   "estilo": "close",
+   "grav": "092",
+   "foco": [
+    0.42,
+    0.35
+   ],
+   "zoom": 0.5,
+   "txt": "COMECE <b>AQUI</b>",
+   "lado": "dir",
+   "tag": "POR ONDE COMEÇAR"
+  },
+  "B": {
+   "estilo": "close",
+   "grav": "065",
+   "foco": [
+    0.33,
+    0.42
+   ],
+   "zoom": 0.45,
+   "txt": "<b>3</b> ROTAS",
+   "lado": "dir",
+   "tag": "POR ONDE COMEÇAR"
+  }
+ },
+ "longo-03": {
+  "A": {
+   "estilo": "close",
+   "grav": "020",
+   "foco": [
+    0.5,
+    0.25
+   ],
+   "zoom": 0.6,
+   "txt": "A BÍBLIA <b>INTEIRA</b>",
+   "lado": "dir",
+   "tag": "DE GÊNESIS A APOCALIPSE"
+  },
+  "B": {
+   "estilo": "close",
+   "grav": "088",
+   "foco": [
+    0.65,
+    0.32
+   ],
+   "zoom": 0.42,
+   "txt": "UMA <b>PROMESSA</b>",
+   "lado": "esq",
+   "tag": "DE GÊNESIS A APOCALIPSE"
+  }
+ },
+ "longo-04": {
+  "A": {
+   "estilo": "close",
+   "grav": "082",
+   "foco": [
+    0.5,
+    0.42
+   ],
+   "zoom": 0.4,
+   "txt": "QUAL <b>PRIMEIRO?</b>",
+   "lado": "esq",
+   "tag": "OS 4 EVANGELHOS"
+  },
+  "B": {
+   "estilo": "close",
+   "grav": "078",
+   "foco": [
+    0.6,
+    0.46
+   ],
+   "zoom": 0.45,
+   "txt": "NÃO É <b>MATEUS</b>",
+   "lado": "esq",
+   "tag": "OS 4 EVANGELHOS"
+  }
+ },
+ "longo-07": {
+  "A": {
+   "estilo": "close",
+   "grav": "052",
+   "foco": [
+    0.45,
+    0.42
+   ],
+   "zoom": 0.42,
+   "txt": "NÃO É <b>ADIVINHO</b>",
+   "lado": "dir",
+   "tag": "OS PROFETAS"
+  },
+  "B": {
+   "estilo": "close",
+   "grav": "048",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "zoom": 0.5,
+   "txt": "OSSOS <b>VIVOS?</b>",
+   "lado": "esq",
+   "tag": "OS PROFETAS"
+  }
+ },
+ "longo-08": {
+  "A": {
+   "estilo": "close",
+   "grav": "069",
+   "foco": [
+    0.43,
+    0.36
+   ],
+   "zoom": 0.32,
+   "txt": "EM <b>ORDEM</b>",
+   "lado": "dir",
+   "tag": "A VIDA DE JESUS"
+  },
+  "B": {
+   "estilo": "close",
+   "grav": "091",
+   "foco": [
+    0.5,
+    0.62
+   ],
+   "zoom": 0.45,
+   "txt": "SEM <b>PULAR</b> NADA",
+   "lado": "esq",
+   "tag": "A VIDA DE JESUS"
   }
  }
 }

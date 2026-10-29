@@ -10,7 +10,7 @@ TEMPOS = json.load(open(RAIZ + '/tempos.json')) if os.path.exists(RAIZ + '/tempo
 itens = []
 for k in [x for x in ORDEM if x in spec]:
     v = spec[k]; longo = v['formato'] == 'longo'
-    capas = [{'nome': 'Capa A', 'arq': f'{k}-A.jpg'}, {'nome': 'Capa B', 'arq': f'{k}-B.jpg'}, {'nome': 'Capa C (clara)', 'arq': f'{k}-C.jpg'}] if longo else [{'nome': 'Capa', 'arq': f'{k}.jpg'}]
+    capas = [{'nome': 'Capa A', 'arq': f'{k}-A.jpg'}, {'nome': 'Capa B', 'arq': f'{k}-B.jpg'}, {'nome': 'Capa C', 'arq': f'{k}-C.jpg'}] if longo else [{'nome': 'Capa', 'arq': f'{k}.jpg'}]
     for c in capas: c['url'] = ativos.get(c['arq'])
     capas = [c for c in capas if c['url'] or not c['arq'].endswith('-C.jpg')]
     itens.append({'id': k, 'tipo': 'longo' if longo else 'short', 'titulo': v['titulo'], 'legenda': v['legenda'].replace('{CAPITULOS}', '\n'.join(f'{a} {b}' for a, b in TEMPOS.get(k, []))), 'comentario': v.get('comentario', ''),
