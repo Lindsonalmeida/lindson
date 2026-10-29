@@ -63,6 +63,16 @@
   },
   {
    "tela": {
+    "t": "conversa",
+    "tipo": "checkin",
+    "h": "O mesmo<br>Maquiavel?",
+    "x": "SURPRESO",
+    "img": "../img/hist/hannibal.jpg"
+   },
+   "txt": "Surpreso? É o mesmo Maquiavel do Príncipe. Fica comigo, que vai ficar ainda mais interessante."
+  },
+  {
+   "tela": {
     "t": "capitulo",
     "n": "2",
     "h": "O conflito que fortalece",
@@ -95,6 +105,16 @@
     ]
    },
    "txt": "Para uma divergência ser saudável, três coisas ajudam: regras claras sobre como discordar, alguém ou algum processo responsável pela decisão final, e a garantia de que ninguém será punido por dar a sua opinião. Com isso, o conflito vira combustível em vez de incêndio."
+  },
+  {
+   "tela": {
+    "t": "conversa",
+    "tipo": "comenta",
+    "h": "Fortalece<br>ou destrói?",
+    "x": "DEPENDE DA REGRA",
+    "img": "../img/hist/ferdinand_ii_of_aragon.jpg"
+   },
+   "txt": "Na sua casa ou no seu trabalho, discussão fortalece ou destrói? Conta nos comentários."
   },
   {
    "tela": {
@@ -174,6 +194,16 @@
   },
   {
    "tela": {
+    "t": "conversa",
+    "tipo": "segue",
+    "h": "Faltam<br>2 lições",
+    "x": "TOCA AQUI",
+    "img": "../img/hist/bonfire_of_the_vanities.jpg"
+   },
+   "txt": "Se você está descobrindo um Maquiavel que não conhecia, se inscreve no canal. Ainda faltam duas lições e a pergunta final."
+  },
+  {
+   "tela": {
     "t": "capitulo",
     "n": "5",
     "h": "Saiba parar",
@@ -232,6 +262,16 @@
     "h": "Muitos leitores param aqui.<br><b>É um erro.</b>"
    },
    "txt": "Muitos leitores param nesse tipo de frase e concluem que Maquiavel era apenas cínico. Mas, lido no conjunto, o livro mostra alguém preocupado com a estabilidade, com as leis e com a liberdade das cidades. A frieza aparece quando ele descreve como as coisas funcionam, não como um elogio à traição."
+  },
+  {
+   "tela": {
+    "t": "conversa",
+    "tipo": "checkin",
+    "h": "Qual você leva?",
+    "x": "VOLTAR ÀS ORIGENS",
+    "img": "../img/hist/alexander_the_great.jpg"
+   },
+   "txt": "Pausa rápida: qual dessas lições você vai levar pra sua vida? Guarda a resposta, que agora vem a pergunta que muita gente faz."
   },
   {
    "tela": {

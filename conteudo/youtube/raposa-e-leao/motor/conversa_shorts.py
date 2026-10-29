@@ -53,7 +53,7 @@ C['15'] = dict(meio=(2, 'checkin', 'Já reparou como tem gente que sorri, mas n�
 C['16'] = dict(meio=(2, 'checkin', 'Conhece alguém assim? Que gasta pra impressionar e depois aperta quem está perto?', 'Conhece alguém<br>assim?', 'CONHEÇO'),
                fim=('comenta', 'Generosidade que cabe no bolso. Você concorda ou discorda? Escreve aí.', 'Concorda?', 'CONCORDO'),
                fecho=('seguir', 'Generoso, sim. Falido, não.'), abre='flash', pulso=1.1, batida='espacado')
-C['17'] = dict(meio=(2, 'checkin', 'Rapidinho: em qual desses você se encaixa hoje? Responde só pra você.', 'Qual é o<br>seu tipo?', 'JÁ SEI'),
+C['17'] = dict(meio=('notícia', 'checkin', 'Rapidinho: em qual desses você se encaixa hoje? Responde só pra você.', 'Qual é o<br>seu tipo?', 'JÁ SEI'),
                fim=('comenta', 'Comenta um, dois ou três: qual tipo você quer ser daqui a um ano?', 'Daqui a<br>um ano?', 'O TIPO 1'),
                fecho=('pergunta', 'Só não seja o terceiro.'), abre='zoom', pulso=1.25, batida='reto')
 C['18'] = dict(meio=(2, 'checkin', 'Imagina a paciência desse homem. Você aguentaria?', 'Você<br>aguentaria?', 'NÃO SEI'),
@@ -83,7 +83,7 @@ C['25'] = dict(meio=(2, 'checkin', 'Tá ligado como isso aparece no dia a dia? A
 C['26'] = dict(meio=(2, 'checkin', 'Você costuma contar seus planos antes da hora? Pensa nisso um segundo.', 'Conta antes<br>da hora?', 'CONTO'),
                fim=('segue', 'Segue o canal pra mais estratégia como essa, direto do Maquiavel pra sua vida.', 'Mais estratégia', 'SIGA O CANAL'),
                fecho=('classico', 'Escute aberto. Decida fechado.'), abre='zoom', pulso=1.6, batida='duplo')
-C['27'] = dict(meio=(2, 'checkin', 'E você, se considera mais disciplinado ou mais explosivo? Responde pra você mesmo.', 'Disciplina<br>ou fúria?', 'EXPLOSIVO'),
+C['27'] = dict(meio=('raiva', 'checkin', 'E você, se considera mais disciplinado ou mais explosivo? Responde pra você mesmo.', 'Disciplina<br>ou fúria?', 'EXPLOSIVO'),
                fim=('comenta', 'Qual treino você vai repetir todo dia a partir de hoje? Escreve aqui e cumpre.', 'Seu treino<br>diário', 'LER 10 PÁGINAS'),
                fecho=('pergunta', 'Repetição vence talento.'), abre='tremor', pulso=.95, batida='reto')
 C['28'] = dict(meio=(2, 'checkin', 'Concorda com ele até aqui? Muita gente pensa o contrário.', 'Concorda?', 'CONCORDO'),

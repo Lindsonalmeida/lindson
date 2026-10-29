@@ -12,7 +12,7 @@ for k, v in lg.items():
     if 'gravA' in v: GRAV[k + '-A'], GRAV[k + '-B'] = v['gravA'], v['gravB']
 CAPAS = [('pv-01', 'short', {'texto': 'A semana que mudou o mundo', 'destaque': 'mudou', 'icone': 'assets/Latin cross/Flat/latin_cross_flat.svg'})]
 CAPAS += [(k, 'short', v['capa']) for k, v in sh.items()]
-for k, v in lg.items(): CAPAS += [(k + '-A', 'A', v['capaA']), (k + '-B', 'B', v['capaB'])]
+for k, v in lg.items(): CAPAS += [(k + '-A', 'C' if v['capaA'].get('estilo') == 'clara' else 'A', v['capaA']), (k + '-B', 'C' if v['capaB'].get('estilo') == 'clara' else 'B', v['capaB'])]
 # capa C para o teste A/B/C: clara, quente e com pouquíssimo texto (hipótese do vídeo do Peter Jordan)
 CAPA_C = {'longo-01': ('O MAPA', '020'), 'longo-02': ('3 ROTAS', '092'), 'longo-03': ('1 VIAGEM', '093'), 'longo-04': ('QUAL LER?', '057')}
 for k, (txt, g) in CAPA_C.items():
@@ -51,7 +51,7 @@ def html(kind, c, grav):
     if kind == 'C':
         return f'''<div class="c" style="width:1280px;height:720px"><div class="g" style="inset:-20px;background-image:url({img});background-position:50% 35%;filter:grayscale(1) sepia(.7) contrast(1.15) brightness(1.18) saturate(1.6)"></div>
 <div style="position:absolute;inset:0;background:radial-gradient(circle at 70% 30%,rgba(255,196,90,.45),rgba(255,140,40,0) 55%);mix-blend-mode:screen"></div>
-<div style="position:absolute;left:56px;bottom:56px;background:#FFB547;color:#14110B;font:800 92px/1 Manrope;padding:18px 34px;border-radius:18px;box-shadow:0 12px 40px rgba(0,0,0,.45);transform:rotate(-2deg)">{c['texto']}</div></div>'''
+<div style="position:absolute;left:56px;bottom:56px;background:{c.get('cor', '#FFB547')};color:#14110B;font:800 92px/1 Manrope;padding:18px 34px;border-radius:18px;box-shadow:0 12px 40px rgba(0,0,0,.45);transform:rotate(-2deg)">{c['texto']}</div></div>'''
     return f'''<div class="c" style="width:1280px;height:720px"><div class="g" style="inset:-20px;background-image:url({img});background-position:50% 40%"></div><div class="luz"></div><div class="vin"></div>
 <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,12,20,.15),rgba(10,12,20,.88) 70%)"></div>
 <div class="selo" style="width:210px;height:210px;left:64px;top:60px">{f'<img src="{ic}">' if ic else ''}</div>

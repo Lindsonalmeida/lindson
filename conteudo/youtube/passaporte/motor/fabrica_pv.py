@@ -9,7 +9,8 @@ html = re.sub(r'<!--PAS-INI-->.*?<!--PAS-FIM-->', '', html, flags=re.S)  # tira 
 html = re.sub(r'/\*PAS-INI\*/.*?/\*PAS-FIM\*/', '', html, flags=re.S)
 at = json.load(open(RAIZ + '/ativos-fabrica.json')); tempos = json.load(open(RAIZ + '/tempos.json'))
 spec = {v['id']: v for v in json.load(open(RAIZ + '/pintura.json'))}
-ORDEM = ['pv-01'] + [f'short-{i:02d}' for i in range(1, 21)] + [f'longo-{i:02d}' for i in range(1, 5)]
+ORDEM_ = ['pv-01'] + [f'short-{i:02d}' for i in range(1, 21)] + [f'longo-{i:02d}' for i in range(1, 10)]
+ORDEM = [k for k in ORDEM_ if k in spec]
 lote = []
 for n, k in enumerate(ORDEM):
     v = spec[k]; longo = v['formato'] == 'longo'; pronto = os.path.exists(f'{RAIZ}/videos/{k}-app.mp4')
@@ -17,7 +18,7 @@ for n, k in enumerate(ORDEM):
     it = dict(id=k, formato=v['formato'], num=0 if k == 'pv-01' else int(k[-2:]), ordem=n, titulo=v['titulo'], legenda=leg, comentario=v.get('comentario', ''),
               aviso=('Vídeo pronto: baixe no app "Passaporte da Bíblia · Postagens" e toque em "Enviar vídeo" para guardar aqui.' if pronto else 'Vídeo em produção. Título, legenda e capa já estão prontos.'),
               rev=2 if pronto else 1)
-    if longo: it.update(thumbA=at.get(f'{k}-A.jpg'), thumbB=at.get(f'{k}-B.jpg'))
+    if longo: it.update(thumbA=at.get(f'{k}-A.jpg'), thumbB=at.get(f'{k}-B.jpg'), thumbC=at.get(f'{k}-C.jpg'))
     else: it['capa'] = at.get(f'{k}.jpg')
     if at.get(f'{k}-app.mp4'): it['url'] = at[f'{k}-app.mp4']; it['aviso'] = ''; it['rev'] = 3
     lote.append(it)
@@ -47,7 +48,7 @@ function renderPas(){
   }
 }
 function semearPas(){if(pasSemeado||!db)return;pasSemeado=true;const tem=new Set(pasVids.map(v=>v.id));
-  for(const v of PAS_LOTE){const ex=pasVids.find(x=>x.id===v.id);if(ex&&(v.rev||0)>(ex.rev||0)){const up={titulo:v.titulo,legenda:v.legenda,comentario:v.comentario,aviso:v.aviso,rev:v.rev,capa:v.capa||null,thumbA:v.thumbA||null,thumbB:v.thumbB||null};if(v.url)up.url=v.url;db.doc('passaporte/'+v.id).update(up).catch(e=>console.warn(e))}}
+  for(const v of PAS_LOTE){const ex=pasVids.find(x=>x.id===v.id);if(ex&&(v.rev||0)>(ex.rev||0)){const up={titulo:v.titulo,legenda:v.legenda,comentario:v.comentario,aviso:v.aviso,rev:v.rev,capa:v.capa||null,thumbA:v.thumbA||null,thumbB:v.thumbB||null,thumbC:v.thumbC||null};if(v.url)up.url=v.url;db.doc('passaporte/'+v.id).update(up).catch(e=>console.warn(e))}}
   PAS_LOTE.filter(v=>!tem.has(v.id)).forEach(async v=>{try{const a=await db.doc('passaporte/'+v.id).get();if(a&&a.exists)return}catch(e){}
     await db.doc('passaporte/'+v.id).set({...v,status:'a postar',criadoEm:Date.now()}).catch(e=>console.warn(e))})}
 function cardPas(v){
@@ -72,6 +73,7 @@ function cardPas(v){
     if(v.capa)r2.append(btnBaixarUrl('Baixar capa',v.capa,base+'-capa.jpg'));
     if(v.thumbA)r2.append(btnBaixarUrl('Baixar capa A',v.thumbA,base+'-capa-A.jpg'));
     if(v.thumbB)r2.append(btnBaixarUrl('Baixar capa B',v.thumbB,base+'-capa-B.jpg'));
+    if(v.thumbC)r2.append(btnBaixarUrl('Baixar capa C',v.thumbC,base+'-capa-C.jpg'));
   }
   if(!v.url&&assets){const up=document.createElement('label');up.className='btn blue';up.textContent='Enviar vídeo';up.style.cursor='pointer';
     const inp=document.createElement('input');inp.type='file';inp.accept='video/mp4,video/*';inp.hidden=true;up.appendChild(inp);

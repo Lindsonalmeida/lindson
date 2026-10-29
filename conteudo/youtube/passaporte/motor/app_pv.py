@@ -4,11 +4,11 @@ import json, os, sys, re
 D = os.path.dirname(os.path.abspath(__file__)); RAIZ = os.path.join(D, '..')
 OUT = '/tmp/claude-0/-home-user/5acf6937-9ac6-56e0-bc29-78bef210dc8b/scratchpad/passaporte-app'; os.makedirs(OUT, exist_ok=True)
 ativos = json.load(open(sys.argv[1])) if len(sys.argv) > 1 and os.path.exists(sys.argv[1]) else {}
-ORDEM = ['pv-01'] + [f'short-{i:02d}' for i in range(1, 21)] + [f'longo-{i:02d}' for i in range(1, 5)]
+ORDEM = ['pv-01'] + [f'short-{i:02d}' for i in range(1, 21)] + [f'longo-{i:02d}' for i in range(1, 10)]
 spec = {v['id']: v for v in json.load(open(RAIZ + '/pintura.json'))}
 TEMPOS = json.load(open(RAIZ + '/tempos.json')) if os.path.exists(RAIZ + '/tempos.json') else {}
 itens = []
-for k in ORDEM:
+for k in [x for x in ORDEM if x in spec]:
     v = spec[k]; longo = v['formato'] == 'longo'
     capas = [{'nome': 'Capa A', 'arq': f'{k}-A.jpg'}, {'nome': 'Capa B', 'arq': f'{k}-B.jpg'}, {'nome': 'Capa C (clara)', 'arq': f'{k}-C.jpg'}] if longo else [{'nome': 'Capa', 'arq': f'{k}.jpg'}]
     for c in capas: c['url'] = ativos.get(c['arq'])

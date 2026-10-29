@@ -25,6 +25,10 @@ for i, w in enumerate(ow):
     t = pont.get(i, w)
     if norm(t) != norm(w): t = w
     toks.append(t)
+# trecho falado que não está no roteiro: ponto antes de palavra maiúscula (exceto nomes próprios)
+NOMES = {'maquiavel', 'césar', 'bórgia', 'bruto', 'lúcio', 'júnio', 'roma', 'príncipe', 'raposa', 'leão', 'aníbal', 'cipião'}
+for i in range(len(toks) - 1):
+    if i not in pont and i + 1 not in pont and toks[i + 1][:1].isupper() and norm(toks[i + 1]) not in NOMES and not re.search(r'[.!?…:,]$', toks[i]): toks[i] += '.'
 # frases (índices de palavra onde cada frase começa)
 ini = [0]
 for i, t in enumerate(toks[:-1]):
@@ -42,11 +46,21 @@ def idx(ref, W):
 cen = json.load(open(P + '/cenas_v1.json')); cs = cen['cenas']
 # 2) onde entra a fala do meio: antes da frase em que começa a cena k
 blocos = []  # (texto, conversa?, cena de conversa ou None)
-k, tipo, fala, h, x = cfg['meio']; c_k = cs[k]; ref = c_k.get('w') or c_k.get('apos')
+ref, tipo, fala, h, x = cfg['meio']   # ref: palavra (a conversa entra antes da frase que a contém)
+cs0 = json.load(open(P + '/cenas_v1.json'))['cenas']
+if isinstance(ref, int): ref = cs0[ref].get('w') or cs0[ref]['apos']   # número = antes da cena k
 p0 = idx(ref, ow); corte = max(s for s in ini if s <= p0)
-for c in cs[:k]:
-    for it in c.get('items', []):
-        if 'w' in it and idx(it['w'], ow) >= corte: print(f'{NN}: atenção, item "{it["w"]}" da cena anterior fica depois da conversa')
+def inicio(c, j):
+    if j == 0: return 0
+    return idx(c['w'], ow) if 'w' in c else idx(c['apos'], ow) + 1
+starts = [inicio(c, j) for j, c in enumerate(cs)]
+k = max(j for j, st in enumerate(starts) if st < corte) + 1   # a conversa entra depois desta cena
+def ancoras(c):
+    out = [c[q] for q in ('meioW', 'de', 'bom', 'mau', 'fox', 'lion') if q in c] + [it[q] for it in c.get('items', []) for q in ('w', 'riscar') if q in it]
+    return out + [c[q]['w'] for q in 'ab' if q in c and 'w' in c[q]]
+continua = None
+if starts[k - 1] < corte and (k >= len(cs) or starts[k] > corte) and any(idx(a, ow) >= corte for a in ancoras(cs[k - 1])):
+    continua = json.loads(json.dumps(cs[k - 1])); continua['w'] = f'{ow[corte]}#{sum(1 for z in ow[:corte + 1] if norm(z) == norm(ow[corte]))}'; continua.pop('apos', None); cs.insert(k, continua)
 blocos.append((' '.join(toks[:corte]), False, None))
 blocos.append((fala, True, ('meio', tipo, h, x)))
 blocos.append((' '.join(toks[corte:]), False, None))

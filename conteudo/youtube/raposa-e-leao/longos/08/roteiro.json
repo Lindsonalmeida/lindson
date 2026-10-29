@@ -19,9 +19,11 @@
   },
   {
    "tela": {
-    "t": "inscreva"
+    "t": "inscreva",
+    "tag": "VOCÊ ESTAVA PREPARADO?",
+    "s": "Se inscreve e continua comigo."
    },
-   "txt": "Antes de continuar: se você quer aprender a pensar como raposa e agir como leão, se inscreva no canal e ative o sino. Toda semana tem uma lição nova de Maquiavel aplicada à vida real."
+   "txt": "Antes de continuar, responde só pra você: na última crise que você passou, você estava preparado? Se a resposta for não, esse vídeo é pra você. Se inscreve no canal pra não perder as próximas lições."
   },
   {
    "tela": {
@@ -70,6 +72,16 @@
   },
   {
    "tela": {
+    "t": "conversa",
+    "tipo": "checkin",
+    "h": "Onde estão<br>seus diques?",
+    "x": "PRECISO DE MAIS",
+    "img": "../img/borgia.jpg"
+   },
+   "txt": "Tá visualizando o rio? Agora olha pra sua vida: onde estão os seus diques?"
+  },
+  {
+   "tela": {
     "t": "capitulo",
     "n": "2",
     "h": "A Itália sem diques",
@@ -111,6 +123,16 @@
     ]
    },
    "txt": "Na prática: tenha mais de uma fonte de renda ou de clientes. Se você tem um negócio, um bom sinal de alerta é quando um único cliente representa uma fatia muito grande do faturamento. E reserve um momento por mês para revisar os riscos, enquanto o tempo está calmo."
+  },
+  {
+   "tela": {
+    "t": "conversa",
+    "tipo": "comenta",
+    "h": "Qual crise<br>te pegou?",
+    "x": "DINHEIRO",
+    "img": "../img/lorenzo.jpg"
+   },
+   "txt": "Me conta nos comentários qual crise te pegou sem dique. Pode ser só uma palavra: emprego, saúde, dinheiro."
   },
   {
    "tela": {
@@ -165,10 +187,21 @@
   },
   {
    "tela": {
-    "t": "compromisso",
-    "h": "Comenta: <b>EU VOU APLICAR</b>"
+    "t": "conversa",
+    "tipo": "checkin",
+    "h": "O que precisa<br>mudar?",
+    "x": "PENSEI",
+    "img": "../img/hist/ponte_vecchio.jpg"
    },
-   "txt": "Agora, seu compromisso. Qual dique você vai começar a construir esta semana? Reserva, habilidade ou relacionamento? Comenta: eu vou aplicar, e diz qual é. Escrever o compromisso é o primeiro tijolo do dique."
+   "txt": "Essa última lição é forte, né? O jeito que te trouxe até aqui pode não ser o que te leva adiante. Respira e pensa nisso."
+  },
+  {
+   "tela": {
+    "t": "compromisso",
+    "h": "Comenta: <b>MEU DIQUE É…</b>",
+    "digita": "MEU DIQUE É A RESERVA"
+   },
+   "txt": "Agora, o seu compromisso. Qual dique você vai começar esta semana: reserva, habilidade ou relacionamento? Escreve nos comentários o nome do seu dique."
   },
   {
    "tela": {
@@ -185,9 +218,10 @@
   },
   {
    "tela": {
-    "t": "fim"
+    "t": "fim",
+    "s": "Salve para a próxima tempestade."
    },
-   "txt": "A sorte é um rio. Você decide se vai ser a planície ou o dique. Se inscreva no Raposa e Leão e assista ao próximo vídeo na tela."
+   "txt": "A sorte é um rio. Você decide se vai ser a planície ou o dique. Se esse vídeo te fez pensar, se inscreve no Raposa e Leão e salva ele pra rever na próxima tempestade."
   }
  ]
 }

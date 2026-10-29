@@ -19,9 +19,11 @@
   },
   {
    "tela": {
-    "t": "inscreva"
+    "t": "inscreva",
+    "tag": "FASE DIFÍCIL?",
+    "s": "Fica até o fim."
    },
-   "txt": "Antes de continuar: se você quer aprender a pensar como raposa e agir como leão, se inscreva no canal e ative o sino. Toda semana tem uma lição nova de Maquiavel aplicada à vida real."
+   "txt": "Essa é uma história de recomeço. Se você está passando por uma fase difícil, fica até o fim, e se inscreve no canal pra acompanhar as próximas."
   },
   {
    "tela": {
@@ -69,6 +71,16 @@
   },
   {
    "tela": {
+    "t": "conversa",
+    "tipo": "checkin",
+    "h": "Agora,<br>a queda",
+    "x": "SEGUREI",
+    "img": "../img/hist/girolamo_savonarola.jpg"
+   },
+   "txt": "Tá vendo como ele subiu? Agora segura, porque a queda foi rápida."
+  },
+  {
+   "tela": {
     "t": "capitulo",
     "n": "2",
     "h": "A queda",
@@ -98,6 +110,16 @@
     "h": "Ele não<br><b>confessou nada.</b>"
    },
    "txt": "Maquiavel sofreu a tortura e não confessou nada. Semanas depois, quando o cardeal Giovanni de Médici foi eleito papa, com o nome de Leão Décimo, houve uma anistia, e ele foi solto. Estava livre, mas sem cargo, sem dinheiro e malvisto pelos novos donos do poder."
+  },
+  {
+   "tela": {
+    "t": "conversa",
+    "tipo": "comenta",
+    "h": "Já perdeu<br>algo assim?",
+    "x": "MEU EMPREGO",
+    "img": "../img/hist/commodus.jpg"
+   },
+   "txt": "Você já perdeu algo que parecia garantido? Se quiser, conta nos comentários. Quem passou por isso vai se identificar."
   },
   {
    "tela": {
@@ -151,6 +173,16 @@
   },
   {
    "tela": {
+    "t": "conversa",
+    "tipo": "checkin",
+    "h": "Você faria isso?",
+    "x": "FARIA",
+    "img": "../img/hist/arno.jpg"
+   },
+   "txt": "Essa parte é forte. Um homem na pior fase da vida, vestindo a melhor roupa pra estudar. Você faria isso?"
+  },
+  {
+   "tela": {
     "t": "capitulo",
     "n": "4",
     "h": "O fim e o legado",
@@ -175,9 +207,10 @@
   {
    "tela": {
     "t": "compromisso",
-    "h": "Comenta: <b>EU VOU APLICAR</b>"
+    "h": "Comenta: <b>MINHA HORA COMEÇA AMANHÃ</b>",
+    "digita": "MINHA HORA COMEÇA AMANHÃ"
    },
-   "txt": "E agora é a sua vez. Se você está numa fase de lama, de perda ou de recomeço, e vai separar a sua hora de roupa de corte a partir de amanhã, comenta: eu vou aplicar."
+   "txt": "E agora é a sua vez. Se você está numa fase de perda ou de recomeço, separa a sua hora de estudo a partir de amanhã. Se você vai separar, escreve nos comentários: minha hora começa amanhã."
   },
   {
    "tela": {
@@ -194,9 +227,10 @@
   },
   {
    "tela": {
-    "t": "fim"
+    "t": "fim",
+    "s": "Salve para um dia difícil."
    },
-   "txt": "Maquiavel perdeu tudo e escreveu o livro que o tornou eterno. Se inscreva no Raposa e Leão e assista ao próximo vídeo na tela."
+   "txt": "Maquiavel perdeu tudo e escreveu o livro que o tornou eterno. Se essa história te deu força, salva esse vídeo pra assistir de novo num dia difícil, e se inscreve no Raposa e Leão."
   }
  ]
 }

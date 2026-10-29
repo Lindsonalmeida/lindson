@@ -89,6 +89,16 @@
   },
   {
    "tela": {
+    "t": "conversa",
+    "tipo": "checkin",
+    "h": "Raposa ou leão?",
+    "x": "GUARDEI",
+    "img": "../img/hist/ponte_vecchio.jpg"
+   },
+   "txt": "Antes da lição dois, uma pergunta rápida: hoje você está mais pra raposa ou pra leão? Guarda essa resposta, porque as próximas lições vão mexer com ela."
+  },
+  {
+   "tela": {
     "t": "capitulo",
     "n": "2",
     "h": "Temido ou amado?",
@@ -160,6 +170,16 @@
   },
   {
    "tela": {
+    "t": "conversa",
+    "tipo": "comenta",
+    "h": "Qual você já viveu?",
+    "x": "A LIÇÃO 3",
+    "img": "../img/hist/moses.jpg"
+   },
+   "txt": "Pausa pra você. Das três lições até aqui, qual delas você já viu acontecer na sua vida? Escreve o número nos comentários: um, dois ou três."
+  },
+  {
+   "tela": {
     "t": "capitulo",
     "n": "4",
     "h": "Todos veem o que você parece",
@@ -194,6 +214,16 @@
     ]
    },
    "txt": "E o que as pessoas veem primeiro? Sua aparência e sua postura. O jeito como você fala. Quem está ao seu lado, porque, como Maquiavel diz no capítulo vinte e dois, a primeira forma de avaliar alguém é olhar para as pessoas que o cercam. E, por fim, aquilo que você mostra que entrega. Cuidar disso não é vaidade. É garantir que o seu valor real seja percebido."
+  },
+  {
+   "tela": {
+    "t": "conversa",
+    "tipo": "segue",
+    "h": "Ainda tem<br>3 lições",
+    "x": "TOCA AQUI",
+    "img": "../img/hist/hannibal.jpg"
+   },
+   "txt": "Se essas lições estão fazendo sentido pra você, aproveita e se inscreve no canal agora. Ainda tem três lições pela frente, e a próxima derruba uma frase que todo mundo repete."
   },
   {
    "tela": {
@@ -254,6 +284,16 @@
   },
   {
    "tela": {
+    "t": "conversa",
+    "tipo": "checkin",
+    "h": "Tá comigo?",
+    "x": "TÔ JUNTO",
+    "img": "../img/hist/ferdinand_ii_of_aragon.jpg"
+   },
+   "txt": "Tá comigo até aqui? Se tá, escreve tô junto nos comentários. Falta só a última, e ela é sobre o que você faz quando tudo está calmo."
+  },
+  {
+   "tela": {
     "t": "capitulo",
     "n": "7",
     "h": "A sorte é um rio",
@@ -300,6 +340,16 @@
     "h": "Maquiavel não te ensina a ser mau.<br><b>Te ensina a não ser ingênuo.</b>"
    },
    "txt": "Maquiavel não te ensina a ser mau. Ensina a não ser ingênuo. E quem entende como o jogo funciona joga melhor, inclusive quando escolhe jogar limpo."
+  },
+  {
+   "tela": {
+    "t": "conversa",
+    "tipo": "manda",
+    "h": "Quem precisa<br>ouvir isso?",
+    "x": "MANDA PRA ELA",
+    "img": "../img/hist/bonfire_of_the_vanities.jpg"
+   },
+   "txt": "Antes de terminar, pensa numa pessoa que precisava ouvir pelo menos uma dessas lições hoje. Manda esse vídeo pra ela."
   },
   {
    "tela": {

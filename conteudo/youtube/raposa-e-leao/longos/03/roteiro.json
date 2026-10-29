@@ -81,6 +81,16 @@
   },
   {
    "tela": {
+    "t": "conversa",
+    "tipo": "checkin",
+    "h": "Guarda<br>esse nome",
+    "x": "GUARDEI",
+    "img": "../img/cesar.jpg"
+   },
+   "txt": "Tá conseguindo acompanhar a subida dele? Guarda o nome Ramiro de Orco, porque a próxima parte é das mais fortes dessa história."
+  },
+  {
+   "tela": {
     "t": "capitulo",
     "n": "2",
     "h": "Ramiro d'Orco",
@@ -115,6 +125,16 @@
     "h": "Não é exemplo moral.<br><b>É exemplo de cálculo.</b>"
    },
    "txt": "É importante deixar claro: Maquiavel não apresenta Bórgia como um homem bom. Ele o apresenta como alguém que entendia o cálculo do poder. A cena da praça de Cesena é lembrada até hoje justamente por ser chocante. O que Maquiavel quer mostrar é a frieza com que Bórgia separou a sua imagem das medidas impopulares."
+  },
+  {
+   "tela": {
+    "t": "conversa",
+    "tipo": "comenta",
+    "h": "Inteligente<br>ou cruel?",
+    "x": "OS DOIS",
+    "img": "../img/maquiavel.jpg"
+   },
+   "txt": "E aí, o que você achou da jogada de Cesena? Inteligente ou cruel demais? Escreve nos comentários."
   },
   {
    "tela": {
@@ -159,6 +179,16 @@
     "h": "Maquiavel estava lá.<br><b>E anotou tudo.</b>"
    },
    "txt": "Vale lembrar que Maquiavel não escreveu isso de longe. Como enviado de Florença, ele passou meses na corte de Bórgia, mandando relatórios para o governo florentino. Muitas das observações que aparecem anos depois no Príncipe nasceram dessas conversas e desses relatórios."
+  },
+  {
+   "tela": {
+    "t": "conversa",
+    "tipo": "segue",
+    "h": "Agora,<br>a queda",
+    "x": "TOCA AQUI",
+    "img": "../img/hist/pope_alexander_vi.jpg"
+   },
+   "txt": "Se você gosta de histórias reais como essa, se inscreve no canal. Agora vem a queda, e ela ensina mais do que a subida."
   },
   {
    "tela": {
@@ -215,6 +245,16 @@
     "h": "Uma lição sobre<br><b>depender de uma só base.</b>"
    },
    "txt": "A queda de Bórgia mostra o risco de construir tudo em cima de uma única base. Enquanto o pai viveu, tudo funcionou. Quando essa base desapareceu, o edifício inteiro desabou em poucos meses. Na vida e nos negócios, depender de um só cliente, de um só chefe ou de uma só fonte de renda é repetir o erro do Valentino."
+  },
+  {
+   "tela": {
+    "t": "conversa",
+    "tipo": "checkin",
+    "h": "Força<br>emprestada?",
+    "x": "PENSEI",
+    "img": "../img/hist/palazzo_vecchio.jpg"
+   },
+   "txt": "Respira um segundo. Tudo que ele construiu caiu em poucos meses. Antes das lições, pensa: o que na sua vida depende de força emprestada?"
   },
   {
    "tela": {

@@ -19,9 +19,11 @@
   },
   {
    "tela": {
-    "t": "inscreva"
+    "t": "inscreva",
+    "tag": "PENSE NUM LÍDER QUE CAIU",
+    "s": "Guarda o exemplo e se inscreve."
    },
-   "txt": "Antes de continuar: se você quer aprender a pensar como raposa e agir como leão, se inscreva no canal e ative o sino. Toda semana tem uma lição nova de Maquiavel aplicada à vida real."
+   "txt": "Antes do primeiro erro: pensa num líder que você viu cair. Guarda esse exemplo, e se inscreve no canal pra entender o que aconteceu com ele."
   },
   {
    "tela": {
@@ -60,6 +62,16 @@
   },
   {
    "tela": {
+    "t": "conversa",
+    "tipo": "checkin",
+    "h": "Agora, o erro<br>traiçoeiro",
+    "x": "FAZ SENTIDO",
+    "img": "../img/hist/palazzo_vecchio.jpg"
+   },
+   "txt": "Faz sentido até aqui? O primeiro erro é o mais fácil de ver. O segundo é mais traiçoeiro."
+  },
+  {
+   "tela": {
     "t": "capitulo",
     "n": "2",
     "h": "O que gera desprezo",
@@ -93,6 +105,16 @@
     ]
    },
    "txt": "Na prática: decida no prazo que você prometeu. Se precisar mudar de ideia, explique o motivo com clareza, para não parecer fraqueza. E nunca ameace com algo que você não vai cumprir, porque cada ameaça vazia aumenta o desprezo."
+  },
+  {
+   "tela": {
+    "t": "conversa",
+    "tipo": "comenta",
+    "h": "Ódio ou<br>desprezo?",
+    "x": "DESPREZO",
+    "img": "../img/hist/marcus_aurelius.jpg"
+   },
+   "txt": "O líder que você pensou no começo cometeu qual dos dois erros: ódio ou desprezo? Escreve nos comentários."
   },
   {
    "tela": {
@@ -150,6 +172,16 @@
   },
   {
    "tela": {
+    "t": "conversa",
+    "tipo": "checkin",
+    "h": "Agora,<br>a defesa",
+    "x": "QUERO SABER",
+    "img": "../img/hist/florence.jpg"
+   },
+   "txt": "Impressionante, né? Imperadores fortes caindo pelos mesmos dois motivos. Agora, a defesa."
+  },
+  {
+   "tela": {
     "t": "capitulo",
     "n": "4",
     "h": "A defesa",
@@ -186,9 +218,10 @@
   {
    "tela": {
     "t": "compromisso",
-    "h": "Comenta: <b>EU VOU APLICAR</b>"
+    "h": "Comenta: <b>VOU ME REVISAR</b>",
+    "digita": "VOU ME REVISAR"
    },
-   "txt": "Agora, o compromisso. Se você vai fazer essa revisão das duas perguntas hoje, comenta: eu vou aplicar. Um líder que se observa não precisa esperar a conspiração para descobrir o erro."
+   "txt": "Agora, o compromisso. Faz hoje a revisão das duas perguntas sobre você mesmo. Se você vai fazer, escreve nos comentários: vou me revisar."
   },
   {
    "tela": {
@@ -205,9 +238,10 @@
   },
   {
    "tela": {
-    "t": "fim"
+    "t": "fim",
+    "s": "Mande para quem lidera."
    },
-   "txt": "Evite o ódio, evite o desprezo, e ninguém vai conseguir te derrubar. Se inscreva no Raposa e Leão e assista ao próximo vídeo na tela."
+   "txt": "Evite o ódio, evite o desprezo, e fica muito mais difícil alguém te derrubar. Se você lidera alguém, em casa ou no trabalho, manda esse vídeo pra outra pessoa que lidera. E se inscreve no Raposa e Leão."
   }
  ]
 }

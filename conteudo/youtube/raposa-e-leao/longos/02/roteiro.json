@@ -86,6 +86,16 @@
   },
   {
    "tela": {
+    "t": "conversa",
+    "tipo": "checkin",
+    "h": "Se reconheceu?",
+    "x": "ME RECONHECI",
+    "img": "../img/hist/pope_julius_ii.jpg"
+   },
+   "txt": "Deixa eu te perguntar uma coisa: você se reconheceu nesse primeiro erro? Se sim, fica até o fim, porque a saída está na última parte."
+  },
+  {
+   "tela": {
     "t": "capitulo",
     "n": "2",
     "h": "O favor não apaga a ferida",
@@ -160,6 +170,16 @@
   },
   {
    "tela": {
+    "t": "conversa",
+    "tipo": "comenta",
+    "h": "Qual você<br>mais comete?",
+    "x": "O ERRO 2",
+    "img": "../img/hist/piazza_della_signoria.jpg"
+   },
+   "txt": "Até agora foram três erros. Qual deles você mais comete? Comenta: um, dois ou três. Sem vergonha, todo mundo comete algum."
+  },
+  {
+   "tela": {
     "t": "capitulo",
     "n": "4",
     "h": "Cuidado com quem você fortalece",
@@ -221,6 +241,16 @@
   },
   {
    "tela": {
+    "t": "conversa",
+    "tipo": "segue",
+    "h": "Agora, a parte<br>mais importante",
+    "x": "TOCA AQUI",
+    "img": "../img/hist/marcus_equestre.jpg"
+   },
+   "txt": "Se você é uma pessoa boa cansada de sair perdendo, se inscreve no canal. Agora vem a parte mais importante do vídeo."
+  },
+  {
+   "tela": {
     "t": "capitulo",
     "n": "6",
     "h": "Como ser bom e estratégico",
@@ -262,6 +292,16 @@
     "h": "Seja bom.<br><b>Mas de olhos abertos.</b>"
    },
    "txt": "No fundo, a mensagem é simples: continue sendo bom, mas de olhos abertos. Observe como as pessoas agem, e não só o que elas dizem. Proteja o que é seu. E guarde a sua generosidade para quem demonstra que sabe receber."
+  },
+  {
+   "tela": {
+    "t": "conversa",
+    "tipo": "comenta",
+    "h": "O que muda<br>amanhã?",
+    "x": "PARAR DE DAR TUDO",
+    "img": "../img/hist/girolamo_savonarola.jpg"
+   },
+   "txt": "Me responde nos comentários: o que você vai fazer diferente a partir de amanhã, sem deixar de ser uma pessoa boa?"
   },
   {
    "tela": {

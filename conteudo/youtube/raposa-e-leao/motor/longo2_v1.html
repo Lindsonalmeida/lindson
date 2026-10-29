@@ -1,0 +1,82 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Cormorant+Garamond:ital,wght@1,500;1,600&family=Anton&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;box-sizing:border-box}
+body{width:1920px;height:1080px;overflow:hidden;background:#0B0A08;color:#EFE6D2;font-family:Anton}
+.sc{position:absolute;inset:0;opacity:0}
+.vin{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 50%,transparent 35%,rgba(0,0,0,.8) 90%)}
+.foto{position:absolute;top:0;bottom:0;width:900px;background-position:center 18%;background-size:cover;filter:grayscale(1) contrast(1.2) brightness(.8)}
+.ant{font-family:Anton;text-transform:uppercase;line-height:1}
+.cg{font-family:'Cormorant Garamond';font-style:italic;font-weight:600;line-height:1.12}
+.tag{display:inline-block;font:700 30px Cinzel;letter-spacing:.22em;color:#0B0A08;background:#C9A227;padding:10px 24px}
+b,.gold{color:#E2BE4A;font-weight:inherit}.r{color:#E0453C!important}
+.cx{position:absolute;left:0;right:0;text-align:center}
+.ln{display:block;opacity:0}
+.it{opacity:0}
+.pg{background:#EFE6D2;color:#1b140c;padding:70px 90px;box-shadow:0 30px 80px rgba(0,0,0,.6);transform:rotate(-1deg)}
+#grain{position:absolute;inset:0;opacity:.12;mix-blend-mode:overlay}
+</style></head><body>
+__EMB__
+<canvas id="fx" width="1920" height="1080" style="position:absolute;inset:0"></canvas>
+<div id="root"></div><div id="cap" style="position:absolute;left:160px;right:160px;top:930px;text-align:center;font:600 50px/1.2 'Cormorant Garamond';font-style:italic;color:#EFE6D2;text-shadow:0 3px 18px #000"></div>
+<svg id="grain" width="1920" height="1080"><filter id="n"><feTurbulence id="tb" type="fractalNoise" baseFrequency=".85" numOctaves="2" seed="1"/></filter><rect width="100%" height="100%" filter="url(#n)"/></svg>
+<script>
+const SP=__SPEC__;const $=id=>document.getElementById(id);
+const cl=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));const ease=x=>1-Math.pow(1-cl(x),3);
+const win=(t,a,b,f=.35)=>cl((t-a)/f)*cl((b-t)/f);
+const R=[];const SFX=[];
+function pop(el,at,dy=30){R.push(t=>{const k=ease((t-at)/.45);el.style.opacity=k;el.style.transform=`translateY(${(1-k)*dy}px)`})}
+const GL=['rgba(201,162,39,.16)','rgba(142,27,27,.28)','rgba(217,98,43,.2)','rgba(76,141,255,.12)'];
+SP.seg.forEach((g,i)=>{
+ const T=g.tela,sc=document.createElement('div');sc.className='sc';sc.id='s'+i;$('root').appendChild(sc);
+ const gx=[30,70,50][i%3],gl=GL[i%4];let h=`<div style="position:absolute;inset:0;background:radial-gradient(circle at ${gx}% 50%,${gl},transparent 55%)"></div>`;
+ const D=g.fim-g.ini;
+ if(g.bg&&T.t!=='imagem'&&T.t!=='abertura'&&T.t!=='fim'){h+=`<div id="bg${i}" style="position:absolute;inset:-5%;background:url(${g.bg}) center 30%/cover;filter:grayscale(1) blur(1.5px) brightness(.6);opacity:.42"></div><div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 50%,rgba(11,10,8,.55),rgba(11,10,8,.92) 75%)"></div>`}
+ if(T.t==='abertura'){h+=`<div class="foto" style="background-image:url(${T.img});right:-40px;-webkit-mask-image:linear-gradient(90deg,transparent,#000 40%)"></div><div class="vin"></div><div style="position:absolute;left:120px;top:300px;width:1050px"><div class="ant it" id="a${i}" style="font-size:120px">${T.h}</div><div class="cg it" id="b${i}" style="font-size:52px;margin-top:30px;color:#cdbf9f">${T.s}</div></div>`}
+ if(T.t==='retrato'){h+=`<div class="foto" style="left:-40px;-webkit-mask-image:linear-gradient(270deg,transparent,#000 40%)"></div><div class="vin"></div><div style="position:absolute;left:980px;top:360px;width:840px"><div class="it" id="a${i}"><span class="tag">${T.s}</span></div><div class="ant it" id="b${i}" style="font-size:130px;margin-top:30px">${T.h}</div></div>`}
+ if(T.t==='frase'){const ls=T.h.split('<br>');h+=`<div class="vin"></div><div class="cx ant" style="top:${540-ls.length*62}px;font-size:110px">${ls.map((l,j)=>`<span class="ln" id="l${i}_${j}">${l}</span>`).join('')}</div>`}
+ if(T.t==='capitulo'){h+=`<div class="vin"></div><div style="position:absolute;left:140px;top:150px;font:900 640px/1 Cinzel;color:#C9A227" class="it" id="a${i}">${T.n}</div><div style="position:absolute;left:720px;top:380px;width:1100px"><div class="it" id="c${i}"><span class="tag">${T.s}</span></div><div class="ant it" id="b${i}" style="font-size:140px;margin-top:26px">${T.h}</div></div>`;SFX.push([g.ini,'boom'])}
+ if(T.t==='duo'){h+=`<div class="vin"></div><div style="position:absolute;left:959px;top:180px;bottom:180px;width:2px;background:#C9A227;opacity:.5"></div>
+  <div class="it cx" id="a${i}" style="left:0;right:960px;top:360px"><div class="ant" style="font-size:150px;color:#EE8040">${T.a}</div><div class="cg" style="font-size:60px;margin-top:20px">${T.as}</div></div>
+  <div class="it cx" id="b${i}" style="left:960px;right:0;top:360px"><div class="ant gold" style="font-size:150px">${T.b}</div><div class="cg" style="font-size:60px;margin-top:20px">${T.bs}</div></div>`}
+ if(T.t==='citacao'){h+=`<div class="vin"></div><div class="it" id="a${i}" style="position:absolute;left:260px;right:260px;top:${T.h.length>70?250:320}px"><div class="pg"><div class="cg" style="font-size:${T.h.length>70?66:78}px">“${T.h}”</div><div style="font:700 26px Cinzel;letter-spacing:.2em;color:#7a5a12;margin-top:34px">— ${T.s.toUpperCase()}</div></div></div>`;SFX.push([g.ini+.2,'page'])}
+ if(T.t==='riscado'){h+=`<div class="vin"></div><div class="cx" style="top:330px"><span class="cg" style="font-size:120px;position:relative;display:inline-block">“${T.h}”<i id="r${i}" style="position:absolute;left:-2%;top:52%;height:14px;width:0;background:#C0231F;transform:rotate(-2deg)"></i></span></div><div class="cx it" id="a${i}" style="top:640px"><span style="display:inline-block;font:900 84px Cinzel;color:#D7322B;border:9px solid #D7322B;padding:12px 40px;transform:rotate(-5deg)">NUNCA ESCREVEU</span></div>`;SFX.push([g.ini+D*.45,'rip'],[g.ini+D*.55,'punch'])}
+
+ if(T.t==='imagem'){h+=`<div class="kb" id="k${i}" style="position:absolute;inset:-6%;background:url(${T.img}) center 30%/cover;filter:sepia(.35) contrast(1.1) brightness(.8)"></div><div style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(11,10,8,.92) 0%,rgba(11,10,8,.35) 45%,transparent 70%),linear-gradient(0deg,rgba(11,10,8,.85),transparent 40%)"></div><div style="position:absolute;left:120px;top:560px;width:900px"><div class="it" id="a${i}"><span class="tag">${T.s}</span></div><div class="ant it" id="b${i}" style="font-size:110px;margin-top:24px">${T.h}</div></div>`;SFX.push([g.ini+.2,'whoosh'])}
+ if(T.t==='inscreva'){h+=`<div class="vin"></div><div class="cx it" id="a${i}" style="top:230px"><span class="tag">GOSTANDO? ENTÃO…</span></div><div class="cx" style="top:400px"><span id="bt${i}" style="display:inline-flex;align-items:center;gap:30px;font:400 96px Anton;padding:34px 70px;border-radius:24px;background:#CC0000;color:#fff;letter-spacing:.02em">INSCREVER-SE <svg width="90" height="90" viewBox="0 0 24 24" fill="#fff" id="sino${i}"><path d="M12 22a2.5 2.5 0 0 0 2.45-2h-4.9A2.5 2.5 0 0 0 12 22zm7-6V11a7 7 0 0 0-5.5-6.84V3.5a1.5 1.5 0 0 0-3 0v.66A7 7 0 0 0 5 11v5l-2 2v1h18v-1z"/></svg></span></div><svg id="cur${i}" width="110" height="110" viewBox="0 0 24 24" style="position:absolute;left:1400px;top:800px"><path d="M4 2l14 9-6 1.5 3.5 7-2.5 1.2-3.5-7L4 18z" fill="#fff" stroke="#000" stroke-width="1"/></svg><div class="cx cg it" id="b${i}" style="top:690px;font-size:64px;color:#cdbf9f">Uma lição de Maquiavel por semana.</div>`}
+ if(T.t==='pratica'){const its=T.itens;h+=`<div class="vin"></div><div style="position:absolute;left:180px;top:150px"><div class="it" id="a${i}"><span class="tag" style="background:#D9622B">${T.h.toUpperCase()}</span></div></div><div style="position:absolute;left:180px;right:180px;top:300px;display:flex;flex-direction:column;gap:40px">${its.map((x,j)=>`<div class="it" id="i${i}_${j}" style="display:flex;align-items:center;gap:40px;background:#17140F;border:2px solid rgba(201,162,39,.35);border-radius:22px;padding:30px 44px"><span id="ck${i}_${j}" style="flex:none;width:76px;height:76px;border:5px solid #C9A227;border-radius:16px;display:grid;place-items:center;font:400 60px Anton;color:#0B0A08"></span><span class="ant" style="font-size:60px;line-height:1.1">${x}</span></div>`).join('')}</div>`}
+ if(T.t==='compromisso'){h+=`<div class="vin"></div><div class="cx it" id="a${i}" style="top:170px"><div class="ant" style="font-size:110px">${T.h}</div></div><div class="it" id="b${i}" style="position:absolute;left:360px;right:360px;top:420px;background:#17140F;border:2px solid #3a3226;border-radius:28px;padding:40px 50px;display:flex;gap:34px;align-items:flex-start"><div style="flex:none;width:110px;height:110px;border-radius:50%;background:#C9A227;display:grid;place-items:center;font:900 54px Cinzel;color:#0B0A08">VC</div><div><div style="font:700 34px Cinzel;color:#cdbf9f;letter-spacing:.08em">@você · agora</div><div id="ty${i}" style="font:400 84px Anton;margin-top:14px;min-height:96px"></div><div style="display:flex;gap:40px;margin-top:22px;font:700 34px Cinzel;color:#9b8f76"><span id="lk${i}">👍 0</span><span>RESPONDER</span></div></div></div><div class="cx cg it" id="c${i}" style="top:800px;font-size:58px;color:#cdbf9f">Compromisso escrito é compromisso cumprido.</div>`}
+ if(T.t==='lista'||T.t==='resumo'){const its=T.itens;const two=its.length>4;h+=`<div class="vin"></div><div class="cx it" id="a${i}" style="top:${two?110:170}px"><span class="tag">${T.h||'Resumo'}</span></div><div style="position:absolute;left:180px;right:180px;top:${two?230:300}px;display:grid;grid-template-columns:${two?'1fr 1fr':'1fr'};gap:${two?'34px 60px':'34px'}">${its.map((x,j)=>`<div class="ant it" id="i${i}_${j}" style="font-size:${two?58:72}px;text-align:left"><span class="gold">${String(j+1).padStart(2,'0')}</span> ${x}</div>`).join('')}</div>`}
+ if(T.t==='fim'){h+=`<div class="vin"></div><svg class="it" id="a${i}" style="position:absolute;left:760px;top:120px;width:400px;height:400px"><use href="#emb"/></svg><div class="cx it" id="b${i}" style="top:580px;font:900 110px Cinzel;letter-spacing:.06em">RAPOSA <span class="gold">E</span> LEÃO</div><div class="cx cg it" id="c${i}" style="top:740px;font-size:60px;color:#cdbf9f">Inscreva-se para a próxima lição.</div>`;SFX.push([g.ini,'riser'],[g.ini+.6,'boom'])}
+ sc.innerHTML=h;
+ R.push(t=>{sc.style.opacity=win(t,g.ini,g.fim)});
+ const a=$('a'+i),b=$('b'+i),c=$('c'+i);
+ if(a)pop(a,g.ini+.15);if(c)pop(c,g.ini+.5);
+ if(b)pop(b,T.t==='duo'?g.ini+D*.5:g.ini+.45);
+ if(T.t==='frase'){const ls=T.h.split('<br>');ls.forEach((_,j)=>pop($(`l${i}_${j}`),g.ini+.1+j*Math.min(1.4,D*.7/ls.length)))}
+ if(T.t==='lista'||T.t==='resumo')T.itens.forEach((_,j)=>pop($(`i${i}_${j}`),g.ini+.6+j*(D-1.2)/T.itens.length,20));
+
+ if($('bg'+i)){const k=$('bg'+i),dir=i%2?1:-1;R.push(t=>{const u=cl((t-g.ini)/Math.max(D,1));k.style.transform=`scale(${1.05+u*.08}) translateX(${dir*u*1.5}%)`})}
+ if(T.t==='imagem'){const k=$('k'+i),dir=i%2?1:-1;R.push(t=>{const u=cl((t-g.ini)/Math.max(D,1));k.style.transform=`scale(${1.04+u*.1}) translateX(${dir*u*2.2}%)`})}
+ if(T.t==='inscreva'){const bt=$('bt'+i),cu=$('cur'+i),si=$('sino'+i),c0=g.ini+1.3,c1=g.ini+2.6;R.push(t=>{const m=ease((t-g.ini-.4)/.9);cu.style.left=(1400-m*380)+'px';cu.style.top=(800-m*300)+'px';cu.style.opacity=cl((t-g.ini-.3)/.2);
+  const p1=t>c0&&t<c0+.18,done=t>=c0;bt.style.transform=`scale(${p1?.92:1})`;bt.style.background=done?'#272727':'#CC0000';bt.firstChild.textContent=done?'INSCRITO ':'INSCREVER-SE ';
+  const sw=t>c1?Math.sin((t-c1)*30)*Math.exp(-(t-c1)*3)*25:0;si.style.transform=`rotate(${sw}deg)`;});SFX.push([c0,'punch'],[c1,'riser'])}
+ if(T.t==='pratica')T.itens.forEach((_,j)=>{const at=g.ini+.7+j*(D-1.4)/T.itens.length;pop($(`i${i}_${j}`),at,20);const ck=$(`ck${i}_${j}`);R.push(t=>{const on=t>at+.6;ck.style.background=on?'#C9A227':'transparent';ck.textContent=on?'✓':''});SFX.push([at+.6,'punch'])})
+ if(T.t==='compromisso'){const ty=$('ty'+i),lk=$('lk'+i),txt='EU VOU APLICAR 🔥',t0=g.ini+1.2;R.push(t=>{const n=Math.floor(cl((t-t0)/1.6)*txt.length);ty.textContent=[...txt].slice(0,n).join('');const L=Math.floor(Math.pow(cl((t-t0-1.8)/(D-2.5)),1.6)*1287);lk.textContent='👍 '+L.toLocaleString('pt-BR')})}
+ if(T.t==='riscado'){const r=$('r'+i);R.push(t=>{r.style.width=(ease((t-g.ini-D*.45)/.4)*104)+'%'});pop(a,g.ini+D*.55)}
+ if(T.t==='duo')SFX.push([g.ini+D*.5,'whoosh']);
+ if(i>0)SFX.push([g.ini,'whoosh']);
+ // leve zoom contínuo da cena
+ R.push(t=>{const k=cl((t-g.ini)/Math.max(D,1));sc.style.transform=`scale(${1+k*.035})`});
+});
+// legendas: blocos de até 7 palavras
+const CH=[];SP.seg.forEach(g=>{const w=g.words||[];for(let k=0;k<w.length;k+=7){const bl=w.slice(k,k+7);CH.push({a:bl[0][1],z:(w[k+7]?w[k+7][1]:bl[bl.length-1][1]+.8),w:bl})}});
+let lastCh=-1;R.push(t=>{const j=CH.findIndex(c=>t>=c.a-.05&&t<c.z);const el=$('cap');if(j<0){el.innerHTML='';lastCh=-1;return}
+ const c=CH[j];el.innerHTML=c.w.map(([x,ts])=>`<span style="color:${t>=ts?'#E2BE4A':'#EFE6D2'}">${x}</span>`).join(' ');});
+SFX.push([0,'boom']);window.SFX=SFX;
+const E=[...Array(90)].map((_,i)=>{const r=Math.sin(i*91.7)*43758.5,f=r-Math.floor(r),r2=Math.sin(i*12.9)*9631.1,g=r2-Math.floor(r2);return {x:f*1920,sp:30+g*70,ph:g*1080,sz:1.5+f*3,sw:20+g*40}});
+const ctx=$('fx').getContext('2d');
+function brasas(t){ctx.clearRect(0,0,1920,1080);for(const e of E){const y=1080-((e.ph+t*e.sp)%1250);const x=e.x+Math.sin(t*.7+e.ph)*e.sw;ctx.fillStyle=`rgba(255,${140+e.sz*15|0},60,${cl(y/1080)*.8})`;ctx.beginPath();ctx.arc(x,y,e.sz,0,7);ctx.fill()}}
+window.render=t=>{brasas(t);R.forEach(f=>f(t))};
+document.fonts.ready.then(()=>{window.ready=true});
+</script></body></html>

@@ -1,0 +1,297 @@
+{
+ "titulo": "O livro de Maquiavel que ninguém lê (e é melhor que O Príncipe)",
+ "seg": [
+  {
+   "tela": {
+    "t": "abertura",
+    "h": "O livro de Maquiavel<br>que ninguém lê",
+    "s": "Discursos sobre Tito Lívio"
+   },
+   "txt": "Todo mundo conhece O Príncipe. Mas Maquiavel escreveu outro livro, muito maior, que quase ninguém lê. E nesse livro ele defende ideias que surpreendem quem só conhece a fama dele."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Três livros.<br><b>Cento e quarenta e dois capítulos.</b>"
+   },
+   "txt": "O livro se chama Discursos sobre a Primeira Década de Tito Lívio. São três livros, com cento e quarenta e dois capítulos, escritos ao longo dos anos em que ele também escreveu O Príncipe. Muitos estudiosos consideram essa a obra mais importante dele."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Se O Príncipe é sobre conquistar,<br><b>os Discursos são sobre durar.</b>"
+   },
+   "txt": "A diferença é simples. O Príncipe fala de como um homem conquista e mantém o poder. Os Discursos falam de como uma comunidade inteira, uma república, consegue crescer e durar por séculos, usando Roma antiga como exemplo. Vamos às lições."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Escrito por um homem<br><b>sem poder.</b>"
+   },
+   "txt": "Um detalhe curioso: Maquiavel escreveu os Discursos depois de perder o cargo, quando frequentava os jardins de uma família florentina onde jovens se reuniam para discutir política e história. É o livro de alguém que observou o poder de perto e, longe dele, tentou entender por que algumas repúblicas duram e outras desaparecem."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "1",
+    "h": "O povo é mais sábio",
+    "s": "Discursos · I.58"
+   },
+   "txt": "Lição um. O povo é mais sábio do que o príncipe."
+  },
+  {
+   "tela": {
+    "t": "citacao",
+    "h": "Um povo é mais prudente, mais estável e de melhor juízo do que um príncipe.",
+    "s": "Discursos, I.58"
+   },
+   "txt": "No capítulo cinquenta e oito do primeiro livro, Maquiavel vai contra a opinião comum da época, que dizia que o povo é volúvel e ignorante. Ele defende o contrário: um povo bem ordenado é mais prudente, mais constante e julga melhor do que um príncipe."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Muitos olhos<br><b>erram menos do que um.</b>"
+   },
+   "txt": "Ele observa que o povo erra no geral, mas acerta quando precisa julgar um caso concreto. Traduzindo: decisões com mais gente, dentro de regras claras, costumam errar menos do que a vontade de um só."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Mais cabeças,<br><b>menos loucura.</b>"
+   },
+   "txt": "Ele compara: um príncipe sem freio comete loucuras que um povo sem freio raramente comete. E acrescenta que, quando um povo erra, basta alguém de respeito falar com ele para corrigi-lo, enquanto um príncipe mau não tem quem o corrija. Para Maquiavel, o problema nunca é o povo em si, mas a falta de leis e de organização."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "2",
+    "h": "O conflito que fortalece",
+    "s": "Discursos · I.4"
+   },
+   "txt": "Lição dois. O conflito pode fortalecer."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "A briga entre elite e povo<br><b>tornou Roma livre.</b>"
+   },
+   "txt": "Para muitos, as disputas entre o senado e o povo de Roma eram um defeito. Maquiavel diz o contrário: foram essas tensões, canalizadas por leis e instituições, que tornaram Roma livre e poderosa. Delas nasceram os tribunos da plebe, que protegiam o povo."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Conflito sem regra destrói.<br><b>Conflito com regra fortalece.</b>"
+   },
+   "txt": "A lição é atual. Empresas, famílias e equipes sem nenhuma divergência costumam estar adormecidas. O problema não é discordar. É não ter regras para transformar a discordância em decisão."
+  },
+  {
+   "tela": {
+    "t": "lista",
+    "h": "Divergência saudável",
+    "itens": [
+     "Regras claras para discordar",
+     "Decisão final definida",
+     "Ninguém punido por opinar"
+    ]
+   },
+   "txt": "Para uma divergência ser saudável, três coisas ajudam: regras claras sobre como discordar, alguém ou algum processo responsável pela decisão final, e a garantia de que ninguém será punido por dar a sua opinião. Com isso, o conflito vira combustível em vez de incêndio."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "3",
+    "h": "Volte às origens",
+    "s": "Discursos · III.1"
+   },
+   "txt": "Lição três. Volte às origens."
+  },
+  {
+   "tela": {
+    "t": "citacao",
+    "h": "Para que uma seita ou uma república viva muito tempo, é necessário trazê-la com frequência de volta ao seu princípio.",
+    "s": "Discursos, III.1"
+   },
+   "txt": "O terceiro livro abre com uma ideia poderosa. Tudo que dura precisa, de tempos em tempos, voltar às suas origens. Com o tempo, organizações e pessoas se afastam dos princípios que as fizeram crescer, e começam a se corromper."
+  },
+  {
+   "tela": {
+    "t": "lista",
+    "h": "Pergunte de tempos em tempos",
+    "itens": [
+     "Por que comecei?",
+     "Quais eram as minhas regras?",
+     "O que me fez crescer?"
+    ]
+   },
+   "txt": "Na prática, isso significa parar de vez em quando e perguntar: por que eu comecei? Quais eram as minhas regras? O que me fez crescer? Quem se afasta demais da própria origem um dia não se reconhece mais."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Roma voltava ao princípio<br><b>pelas leis e pelos exemplos.</b>"
+   },
+   "txt": "Maquiavel diz que Roma voltava às origens de duas formas: por leis que relembravam os princípios e pelo exemplo de cidadãos virtuosos, que inspiravam os outros. Numa empresa ou numa família, isso equivale a revisitar os valores e a ter pessoas que vivem esses valores no dia a dia."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Sem revisão,<br><b>tudo se desgasta.</b>"
+   },
+   "txt": "O alerta dele é que, sem esse retorno, a corrupção cresce aos poucos e um dia fica impossível de curar. É a mesma ideia do Príncipe sobre os problemas: no começo são fáceis de resolver e difíceis de enxergar; depois, fáceis de enxergar e impossíveis de resolver."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "4",
+    "h": "Mude com os tempos",
+    "s": "Discursos · III.9"
+   },
+   "txt": "Lição quatro. Mude com os tempos."
+  },
+  {
+   "tela": {
+    "t": "duo",
+    "a": "Cauteloso",
+    "as": "brilha em tempos calmos",
+    "b": "Ousado",
+    "bs": "brilha em tempos de mudança"
+   },
+   "txt": "Maquiavel compara dois generais romanos: Fábio Máximo, cauteloso, que salvou Roma esperando e desgastando Aníbal, e Cipião, ousado, que levou a guerra para a África. Cada um acertou no seu momento."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "O que te trouxe até aqui<br><b>talvez não te leve adiante.</b>"
+   },
+   "txt": "A conclusão dele é que, para ter boa sorte sempre, seria preciso mudar o jeito de agir conforme os tempos. E que isso é difícil, porque as pessoas tendem a repetir o que já deu certo antes."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Repúblicas mudam melhor<br><b>do que um homem só.</b>"
+   },
+   "txt": "E aqui ele dá um argumento a favor das repúblicas: como têm muitos líderes diferentes, elas conseguem colocar no comando o perfil certo para cada momento. Um príncipe sozinho fica preso ao próprio temperamento. Uma equipe com perfis variados se adapta melhor do que uma pessoa sozinha."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "5",
+    "h": "Saiba parar",
+    "s": "Discursos · II.27"
+   },
+   "txt": "Lição cinco. Saiba parar."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "A vitória que vira derrota."
+   },
+   "txt": "No segundo livro, Maquiavel alerta que príncipes e repúblicas prudentes devem se contentar com a vitória. Quem tenta tirar mais do que já ganhou acaba transformando o vencido num inimigo desesperado, e a vitória vira derrota."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Ganhou?<br><b>Garanta o que ganhou.</b>"
+   },
+   "txt": "Isso vale para uma negociação, uma discussão ou um negócio. Muitas pessoas perdem tudo depois de vencer, porque não souberam a hora de parar."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "A humilhação<br><b>cria o próximo inimigo.</b>"
+   },
+   "txt": "No mesmo livro, ele alerta que insultos e deboche geram ódio sem trazer vantagem nenhuma. Juntando as duas ideias: ao vencer, não humilhe e não exagere nas exigências. O adversário tratado com dignidade pode virar aliado. O humilhado vira o inimigo da próxima disputa."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "6",
+    "h": "A promessa forçada",
+    "s": "Discursos · III.42"
+   },
+   "txt": "Lição seis. A promessa forçada."
+  },
+  {
+   "tela": {
+    "t": "citacao",
+    "h": "As promessas feitas por força não devem ser cumpridas.",
+    "s": "Discursos, III.42"
+   },
+   "txt": "Aqui aparece o lado frio que todo mundo associa a ele. Maquiavel afirma que promessas arrancadas à força não obrigam quem as fez, e cita casos de Roma em que acordos impostos foram desfeitos depois."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Acordo forçado<br><b>não é acordo.</b>"
+   },
+   "txt": "Para quem negocia, a lição é dupla: não confie em um acordo que você arrancou à força, porque ele vai ser rompido na primeira chance. E prefira acordos em que o outro lado também ganha alguma coisa."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Muitos leitores param aqui.<br><b>É um erro.</b>"
+   },
+   "txt": "Muitos leitores param nesse tipo de frase e concluem que Maquiavel era apenas cínico. Mas, lido no conjunto, o livro mostra alguém preocupado com a estabilidade, com as leis e com a liberdade das cidades. A frieza aparece quando ele descreve como as coisas funcionam, não como um elogio à traição."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "7",
+    "h": "O verdadeiro Maquiavel",
+    "s": "A síntese"
+   },
+   "txt": "E agora, a pergunta final: os dois livros se contradizem?"
+  },
+  {
+   "tela": {
+    "t": "duo",
+    "a": "O Príncipe",
+    "as": "como conquistar",
+    "b": "Os Discursos",
+    "bs": "como fazer durar"
+   },
+   "txt": "Muita gente acha que sim. Mas, lendo os dois, a visão fica mais clara. O Príncipe ensina o que um líder precisa fazer em momentos de fundação e de crise. Os Discursos mostram que, para durar, o poder precisa de leis, instituições e da participação de muita gente."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Fundar exige um.<br><b>Durar exige muitos.</b>"
+   },
+   "txt": "Nos Discursos, ele mesmo diz que, para fundar ou reformar uma república, é preciso que um só tenha a autoridade. Mas, para conservá-la, ela deve estar nas mãos de muitos. Ou seja: O Príncipe e os Discursos falam de momentos diferentes da mesma história."
+  },
+  {
+   "tela": {
+    "t": "resumo",
+    "itens": [
+     "O povo é mais sábio",
+     "Conflito com regra fortalece",
+     "Volte às origens",
+     "Mude com os tempos",
+     "Saiba parar",
+     "Acordo forçado não é acordo"
+    ]
+   },
+   "txt": "Recapitulando: o povo julga melhor do que um só. Conflito com regras fortalece. Volte às origens de tempos em tempos. Mude com os tempos. Saiba parar depois de vencer. E acordo forçado não é acordo."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "O Príncipe ensina a conquistar.<br><b>Os Discursos ensinam a fazer durar.</b>"
+   },
+   "txt": "O Príncipe ensina a conquistar. Os Discursos ensinam a fazer durar. E quem quer construir algo que fique precisa das duas lições."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Leia os dois.<br><b>Entenda o homem.</b>"
+   },
+   "txt": "Se você leu só O Príncipe, conhece metade de Maquiavel. A outra metade está nos Discursos, onde aparece um pensador preocupado com a liberdade, com as leis e com a força de um povo bem organizado. Lendo os dois, você entende por que ele continua atual depois de cinco séculos."
+  },
+  {
+   "tela": {
+    "t": "fim"
+   },
+   "txt": "Se você chegou até aqui, você já sabe mais sobre Maquiavel do que a maioria das pessoas. Se inscreva no canal e comente qual livro você quer que eu explique no próximo vídeo. Raposa e Leão."
+  }
+ ]
+}

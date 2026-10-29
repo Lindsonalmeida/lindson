@@ -40,9 +40,11 @@
   },
   {
    "tela": {
-    "t": "inscreva"
+    "t": "inscreva",
+    "tag": "GUARDA ESSE NOME",
+    "s": "E se inscreve para aprender a se proteger."
    },
-   "txt": "Antes de continuar: se você quer aprender a pensar como raposa e agir como leão, se inscreva no canal e ative o sino. Toda semana tem uma lição nova de Maquiavel aplicada à vida real."
+   "txt": "Antes de seguir, me diz uma coisa: tem alguém na sua vida que só concorda com você? Guarda esse nome. E se você quer aprender a se proteger disso, se inscreve no canal agora."
   },
   {
    "tela": {
@@ -134,6 +136,16 @@
     ]
    },
    "txt": "Na prática: antes de seguir um conselho, pergunte quem ganha com aquela decisão. Quando alguém te alertar e estiver certo, valorize essa pessoa na frente dos outros. E nunca, nunca castigue quem te trouxe uma notícia ruim. É assim que se forma uma equipe de bajuladores sem perceber."
+  },
+  {
+   "tela": {
+    "t": "conversa",
+    "tipo": "checkin",
+    "h": "Ela pensa<br>em quem?",
+    "x": "FIZ O TESTE",
+    "img": "../img/hist/marcus_equestre.jpg"
+   },
+   "txt": "Tá comigo até aqui? Faz o teste de cabeça: a pessoa que mais te aconselha pensa mais em você ou nela mesma?"
   },
   {
    "tela": {
@@ -239,6 +251,16 @@
   },
   {
    "tela": {
+    "t": "conversa",
+    "tipo": "comenta",
+    "h": "Você tem<br>essa pessoa?",
+    "x": "EU TENHO",
+    "img": "../img/hist/girolamo_savonarola.jpg"
+   },
+   "txt": "Me conta nos comentários: você tem alguém que te fala a verdade sem medo? Se tem, escreve só: eu tenho."
+  },
+  {
+   "tela": {
     "t": "capitulo",
     "n": "5",
     "h": "O imperador que ninguém entendia",
@@ -328,6 +350,16 @@
   },
   {
    "tela": {
+    "t": "conversa",
+    "tipo": "checkin",
+    "h": "Se reconheceu?",
+    "x": "UM POUCO",
+    "img": "../img/hist/commodus.jpg"
+   },
+   "txt": "Essa lição incomoda, eu sei. Se você se reconheceu um pouco nela, tudo bem. Reconhecer é o primeiro passo."
+  },
+  {
+   "tela": {
     "t": "capitulo",
     "n": "7",
     "h": "Os sinais do bajulador",
@@ -352,9 +384,10 @@
   {
    "tela": {
     "t": "compromisso",
-    "h": "Comenta: <b>EU VOU APLICAR</b>"
+    "h": "Comenta: <b>VOU FAZER O TESTE</b>",
+    "digita": "VOU FAZER O TESTE"
    },
-   "txt": "Agora, um compromisso. Saber disso não muda nada se você não aplicar. Se você vai fazer o teste das cinco pessoas ainda esta semana, comenta aqui embaixo: eu vou aplicar. Quem comenta assume o compromisso consigo mesmo, e eu leio todos os comentários."
+   "txt": "Agora, um compromisso só seu. Escolhe as cinco pessoas que mais te aconselham e faz o teste ainda esta semana. Se você vai fazer, escreve nos comentários: vou fazer o teste."
   },
   {
    "tela": {
@@ -373,9 +406,10 @@
   },
   {
    "tela": {
-    "t": "fim"
+    "t": "fim",
+    "s": "Mande para quem vive cercado de sim."
    },
-   "txt": "Bajulação é um veneno doce. Maquiavel te deu o antídoto. Se inscreva no canal Raposa e Leão e assista ao próximo vídeo, que está aparecendo agora na tela."
+   "txt": "Bajulação é um veneno doce, e agora você tem o antídoto. Se esse vídeo te ajudou, se inscreve no Raposa e Leão e manda pra alguém que vive cercado de gente que só diz sim."
   }
  ]
 }

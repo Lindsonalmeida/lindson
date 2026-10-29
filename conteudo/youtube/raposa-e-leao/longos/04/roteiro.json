@@ -78,6 +78,16 @@
   },
   {
    "tela": {
+    "t": "conversa",
+    "tipo": "checkin",
+    "h": "Pega um papel",
+    "x": "ANOTANDO",
+    "img": "../img/hist/caracalla.jpg"
+   },
+   "txt": "Duas regras até aqui. Tá anotando? Se não, pega um papel agora, porque ainda vêm mais oito."
+  },
+  {
+   "tela": {
     "t": "capitulo",
     "n": "3",
     "h": "Saber ver a ocasião",
@@ -137,6 +147,16 @@
   },
   {
    "tela": {
+    "t": "conversa",
+    "tipo": "comenta",
+    "h": "Concorda?",
+    "x": "CONCORDO",
+    "img": "../img/hist/arco_severo.jpg"
+   },
+   "txt": "Treino vence talento. Você concorda? Responde nos comentários: concordo ou discordo, e diz o porquê."
+  },
+  {
+   "tela": {
     "t": "capitulo",
     "n": "5",
     "h": "Conheça as duas forças",
@@ -188,6 +208,16 @@
   },
   {
    "tela": {
+    "t": "conversa",
+    "tipo": "segue",
+    "h": "Metade<br>já foi",
+    "x": "TOCA AQUI",
+    "img": "../img/borgia.jpg"
+   },
+   "txt": "Metade das regras já foi. Se elas estão servindo pra você, se inscreve no canal, e vamos pra regra sete."
+  },
+  {
+   "tela": {
     "t": "capitulo",
     "n": "7",
     "h": "Mude o plano descoberto",
@@ -234,6 +264,16 @@
     "h": "Escute aberto.<br><b>Decida fechado.</b>"
    },
    "txt": "Pense numa empresa que discute uma mudança importante com todos os funcionários e anuncia a decisão antes de estar pronta. A concorrência fica sabendo, o mercado reage, e a vantagem desaparece. Escute aberto, decida fechado."
+  },
+  {
+   "tela": {
+    "t": "conversa",
+    "tipo": "checkin",
+    "h": "Qual você<br>mais quebra?",
+    "x": "A REGRA 2",
+    "img": "../img/lorenzo.jpg"
+   },
+   "txt": "Qual dessas regras você mais quebra no dia a dia? Pensa nela enquanto a gente fecha as últimas."
   },
   {
    "tela": {

@@ -19,9 +19,11 @@
   },
   {
    "tela": {
-    "t": "inscreva"
+    "t": "inscreva",
+    "tag": "PRESTA ATENÇÃO NELE",
+    "s": "Histórias reais que ensinam sobre poder."
    },
-   "txt": "Antes de continuar: se você quer aprender a pensar como raposa e agir como leão, se inscreva no canal e ative o sino. Toda semana tem uma lição nova de Maquiavel aplicada à vida real."
+   "txt": "Antes de contar essa história, um pedido: se você gosta de histórias reais que ensinam sobre poder, se inscreve no canal. E presta atenção no jovem que assistiu a tudo da praça."
   },
   {
    "tela": {
@@ -71,6 +73,16 @@
   },
   {
    "tela": {
+    "t": "conversa",
+    "tipo": "checkin",
+    "h": "Agora,<br>a queda",
+    "x": "TÔ ACOMPANHANDO",
+    "img": "../img/hist/bonfire_of_the_vanities.jpg"
+   },
+   "txt": "Dá pra imaginar uma cidade inteira queimando os próprios objetos de valor? Tá acompanhando? Agora começa a queda."
+  },
+  {
+   "tela": {
     "t": "capitulo",
     "n": "2",
     "h": "A queda",
@@ -107,6 +119,16 @@
     "h": "Semanas depois,<br><b>Maquiavel entrava no governo.</b>"
    },
    "txt": "E aqui está a coincidência histórica. Poucas semanas depois da execução, em junho daquele ano, Maquiavel foi nomeado secretário da Segunda Chancelaria de Florença. Ele começou a carreira no governo olhando para as cinzas de alguém que tinha tido o povo nas mãos e perdido tudo."
+  },
+  {
+   "tela": {
+    "t": "conversa",
+    "tipo": "comenta",
+    "h": "Já viu alguém<br>cair assim?",
+    "x": "JÁ, NO TRABALHO",
+    "img": "../img/hist/alexander_the_great.jpg"
+   },
+   "txt": "Você já viu alguém muito admirado cair de uma hora pra outra? Conta nos comentários, sem citar nomes."
   },
   {
    "tela": {
@@ -162,10 +184,21 @@
   },
   {
    "tela": {
-    "t": "compromisso",
-    "h": "Comenta: <b>EU VOU APLICAR</b>"
+    "t": "conversa",
+    "tipo": "checkin",
+    "h": "Profeta<br>desarmado",
+    "x": "GUARDEI",
+    "img": "../img/maquiavel2.jpg"
    },
-   "txt": "E agora o seu compromisso: qual ideia ou projeto seu hoje depende só de entusiasmo? Se você vai dar a ele uma estrutura esta semana, comenta: eu vou aplicar."
+   "txt": "Profeta desarmado. Guarda essa expressão, porque ela serve pra muita coisa na sua vida."
+  },
+  {
+   "tela": {
+    "t": "compromisso",
+    "h": "Comenta: <b>VOU DAR ESTRUTURA</b>",
+    "digita": "VOU DAR ESTRUTURA"
+   },
+   "txt": "E agora o seu compromisso: qual projeto seu hoje depende só de entusiasmo? Escreve nos comentários: vou dar estrutura, e diz qual é o projeto."
   },
   {
    "tela": {
@@ -182,9 +215,10 @@
   },
   {
    "tela": {
-    "t": "fim"
+    "t": "fim",
+    "s": "Mande para quem tem ideia sem plano."
    },
-   "txt": "Savonarola tinha a voz. Faltou a estrutura. Se inscreva no Raposa e Leão e assista ao próximo vídeo na tela."
+   "txt": "Savonarola tinha a voz. Faltou a estrutura. Se essa história te ensinou algo, manda pra alguém que tem uma ótima ideia e nenhum plano. E se inscreve no Raposa e Leão."
   }
  ]
 }

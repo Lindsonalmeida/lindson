@@ -69,9 +69,13 @@ async function prep(){for(const s of SP.cenas){const [a,d]=await Promise.all([lo
 function TX_(k){if(!TXC[k]){const m=IM[k];TXC[k]={a:tex(m.a),d:tex(m.d),r:[m.a.width,m.a.height]}}return TXC[k]}
 function limpa(i,j){for(const k in TXC)if(+k!==i&&+k!==j){gl.deleteTexture(TXC[k].a);gl.deleteTexture(TXC[k].d);delete TXC[k]}}
 // movimento de câmera por cena: zoom lento + pan + parallax
-function cam(i,u){const s=SP.cenas[i],m=s.mov||['in','esq','dir','out','cima'][i%5];const z0=m==='out'?1.22:1.06,z1=m==='out'?1.06:1.22;
- const px=m==='esq'?.04-.08*u:m==='dir'?-.04+.08*u:0,py=m==='cima'?.03-.06*u:0;const k=ease(u);
- return {c:[px*k*0+px,(py),z0+(z1-z0)*k,0],par:[(.5-u)*.035,(.5-u)*.012]}}
+// cortes a cada ~4 s dentro da cena: o 1º plano é o movimento da cena; os seguintes enquadram detalhes da gravura
+const hs=(a,b)=>{const r=Math.sin(a*127.1+b*311.7)*43758.5453;return r-Math.floor(r)};
+function cam(i,u,tl){const s=SP.cenas[i],m=s.mov||['in','esq','dir','out','cima'][i%5],D=s.fim-s.ini,n=Math.max(1,Math.round(D/4.2)),L=D/n,k0=Math.min(n-1,Math.floor((tl||0)/L)),v=cl(((tl||0)-k0*L)/L);
+ if(k0===0||!tl){const uu=n>1?v:u,z0=m==='out'?1.22:1.06,z1=m==='out'?1.06:1.22,px=m==='esq'?.04-.08*uu:m==='dir'?-.04+.08*uu:0,py=m==='cima'?.03-.06*uu:0,k=ease(uu);
+  return {c:[px,py,z0+(z1-z0)*k,0],par:[(.5-uu)*.035,(.5-uu)*.012]}}
+ const z=1.35+.4*hs(i,k0),lim=(1-1/z)/2*.9,fx=(hs(k0,i+7)-.5)*2*lim,fy=(hs(i+3,k0*2)-.5)*2*lim*.8,dz=hs(i*5,k0)<.5?.06:-.06,dx=(hs(k0*3,i)-.5)*.03;
+ return {c:[fx+dx*v,fy,z+dz*ease(v),0],par:[(.5-v)*.03,(.5-v)*.01]}}
 function bind(slot,unit,t){gl.activeTexture(gl.TEXTURE0+unit);gl.bindTexture(gl.TEXTURE_2D,t);gl.uniform1i(U(slot),unit)}
 // partículas de poeira dourada
 const px=$('px').getContext('2d'),P=[...Array(70)].map((_,i)=>{const r=Math.sin(i*91.7)*43758.5,f=r-Math.floor(r),r2=Math.sin(i*17.3)*9631.1,g=r2-Math.floor(r2);return{x:f*W,y:g*H,s:1+f*2.6,v:6+g*18,ph:i}});
@@ -96,7 +100,7 @@ function interacao(s,t){const e=$('int'),it=s.interage;if(!it){e.style.opacity=0
 window.render=t=>{
  let i=SP.cenas.findIndex(s=>t>=s.ini&&t<s.fim);if(i<0)i=t<SP.cenas[0].ini?0:SP.cenas.length-1;const s=SP.cenas[i];
  const D=s.fim-s.ini,u=cl((t-s.ini)/D),j=Math.min(i+1,SP.cenas.length-1),FADE=.7,mixv=i===j?0:cl((t-(s.fim-FADE))/FADE);
- const a=cam(i,u),b=cam(j,0);
+ const a=cam(i,u,t-s.ini),b=cam(j,0,0);
  if(gl.isContextLost())throw new Error('WebGL perdido');limpa(i,j);const TX={[i]:TX_(i),[j]:TX_(j)};
  bind('A',0,TX[i].a);bind('AD',1,TX[i].d);bind('B',2,TX[j].a);bind('BD',3,TX[j].d);
  gl.uniform4fv(U('ca'),a.c);gl.uniform4fv(U('cb'),b.c);gl.uniform2fv(U('ia'),TX[i].r);gl.uniform2fv(U('ib'),TX[j].r);gl.uniform2fv(U('par_a'),a.par);gl.uniform2fv(U('par_b'),b.par);

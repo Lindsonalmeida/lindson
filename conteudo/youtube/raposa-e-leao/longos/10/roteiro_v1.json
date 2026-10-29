@@ -1,0 +1,202 @@
+{
+ "titulo": "Preso, torturado e esquecido: como Maquiavel escreveu O Príncipe",
+ "seg": [
+  {
+   "tela": {
+    "t": "abertura",
+    "h": "Preso.<br>Torturado.<br><b>E escreveu<br>O Príncipe.</b>",
+    "s": "A vida de Maquiavel",
+    "img": "maquiavel2.jpg"
+   },
+   "txt": "O livro mais famoso sobre poder não foi escrito por um rei, nem por um general vitorioso. Foi escrito por um homem que tinha acabado de perder o emprego, de ser preso e torturado, e que estava esquecido numa pequena propriedade no campo. Essa é a história de como ele virou a própria derrota em obra-prima."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "A derrota<br><b>virou obra-prima.</b>"
+   },
+   "txt": "E essa história tem uma lição que serve para qualquer pessoa que já perdeu um emprego, um negócio ou uma posição, e sentiu que estava acabado. Vamos à vida de Nicolau Maquiavel."
+  },
+  {
+   "tela": {
+    "t": "inscreva"
+   },
+   "txt": "Antes de continuar: se você quer aprender a pensar como raposa e agir como leão, se inscreva no canal e ative o sino. Toda semana tem uma lição nova de Maquiavel aplicada à vida real."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "1",
+    "h": "A ascensão",
+    "s": "Florença · 1469 a 1512"
+   },
+   "txt": "Parte um. A ascensão."
+  },
+  {
+   "tela": {
+    "t": "imagem",
+    "img": "florence.jpg",
+    "h": "Florença",
+    "s": "Onde Maquiavel nasceu, em 1469"
+   },
+   "txt": "Maquiavel nasceu em Florença, em mil quatrocentos e sessenta e nove, numa família de prestígio, mas sem grande fortuna. Em mil quatrocentos e noventa e oito, com vinte e nove anos, virou secretário da Segunda Chancelaria da república florentina."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Quatorze anos<br><b>vendo o poder de perto.</b>"
+   },
+   "txt": "Durante quatorze anos, ele foi diplomata e funcionário de confiança. Fez missões junto ao rei da França, ao imperador, ao papa Júlio Segundo e a César Bórgia, que ele observou de perto em mil quinhentos e dois. Tudo isso virou material para O Príncipe."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Ele criou<br><b>um exército próprio.</b>"
+   },
+   "txt": "Maquiavel acreditava que uma cidade não podia depender de soldados contratados. Convenceu Florença a criar uma milícia de cidadãos, e essa milícia participou da retomada de Pisa, em mil quinhentos e nove. Foi o auge da carreira dele."
+  },
+  {
+   "tela": {
+    "t": "pratica",
+    "h": "Na prática",
+    "itens": [
+     "Aprenda observando quem está acima",
+     "Anote o que funciona e o que dá errado",
+     "Experiência vira patrimônio"
+    ]
+   },
+   "txt": "Primeira lição prática: Maquiavel aprendeu observando quem estava acima dele. Faça o mesmo. Anote o que funciona e o que dá errado nas decisões dos seus chefes, clientes e concorrentes. Experiência anotada vira patrimônio."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "2",
+    "h": "A queda",
+    "s": "Florença · 1512 a 1513"
+   },
+   "txt": "Parte dois. A queda."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Em semanas,<br><b>tudo desabou.</b>"
+   },
+   "txt": "Em mil quinhentos e doze, tropas espanholas atacaram a cidade vizinha de Prato, e a milícia de Maquiavel não conseguiu evitar o saque. A república caiu, os Médici voltaram ao poder e, em novembro, Maquiavel foi demitido do cargo."
+  },
+  {
+   "tela": {
+    "t": "imagem",
+    "img": "bargello.jpg",
+    "h": "O Bargello",
+    "s": "Antiga prisão de Florença"
+   },
+   "txt": "No começo de mil quinhentos e treze, descobriram uma conspiração contra os Médici. O nome de Maquiavel estava numa lista encontrada com os conspiradores. Ele foi preso e torturado com a corda, um suplício em que o preso era suspenso pelos braços amarrados nas costas e deixado cair."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Ele não<br><b>confessou nada.</b>"
+   },
+   "txt": "Maquiavel sofreu a tortura e não confessou nada. Semanas depois, quando o cardeal Giovanni de Médici foi eleito papa, com o nome de Leão Décimo, houve uma anistia, e ele foi solto. Estava livre, mas sem cargo, sem dinheiro e malvisto pelos novos donos do poder."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "3",
+    "h": "A roupa de corte",
+    "s": "Carta a Francesco Vettori · 1513"
+   },
+   "txt": "Parte três. A virada."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "O exílio<br><b>no campo.</b>"
+   },
+   "txt": "Ele foi morar numa pequena propriedade da família em Sant'Andrea in Percussina, perto de Florença. E numa carta famosa ao amigo Francesco Vettori, em dezembro de mil quinhentos e treze, ele conta como eram os dias."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "De dia,<br><b>a lama.</b>"
+   },
+   "txt": "De dia, ele cuidava do bosque, conversava com quem passava, e ia à taverna jogar cartas e discutir com o açougueiro, o moleiro e o padeiro. Ele mesmo descreve esses dias como de uma vida pequena e sem glória."
+  },
+  {
+   "tela": {
+    "t": "citacao",
+    "h": "Ao cair da noite, volto para casa e entro no meu escritório; na entrada, tiro a roupa do dia, cheia de lama, e visto roupas reais e de corte.",
+    "s": "Carta a Vettori, 10 de dezembro de 1513"
+   },
+   "txt": "Mas à noite, ele escreve, voltava para casa, tirava a roupa do dia, cheia de lama, e vestia roupas dignas de uma corte. E assim entrava nas antigas cortes dos grandes homens do passado, conversava com eles pelos livros e perguntava as razões de suas ações."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Dessas conversas<br><b>nasceu O Príncipe.</b>"
+   },
+   "txt": "Na mesma carta, ele conta que anotou o que aprendeu nessas conversas e compôs um pequeno livro sobre os principados. Esse pequeno livro era O Príncipe, que ele depois dedicou a Lourenço de Médici."
+  },
+  {
+   "tela": {
+    "t": "pratica",
+    "h": "Na prática",
+    "itens": [
+     "Separe uma hora do dia para a \"roupa de corte\"",
+     "Estude quem já venceu o que você enfrenta",
+     "Transforme o que aprende em algo concreto"
+    ]
+   },
+   "txt": "Na prática: separe uma hora do seu dia para a sua roupa de corte. Um momento sem celular e sem distração, para estudar quem já venceu o problema que você enfrenta. E transforme o que aprende em alguma coisa concreta: um plano, um texto, um projeto. Foi assim que a pior fase de Maquiavel virou a obra da vida dele."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "4",
+    "h": "O fim e o legado",
+    "s": "Florença · 1527"
+   },
+   "txt": "Parte quatro. O fim."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Escreveu<br><b>até o fim.</b>"
+   },
+   "txt": "Nos anos seguintes, ele escreveu os Discursos, a peça A Mandrágora, A Arte da Guerra e as Histórias de Florença, encomendadas pelo cardeal Giulio de Médici. Aos poucos, voltou a receber pequenas missões."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "A última<br><b>ironia.</b>"
+   },
+   "txt": "Em mil quinhentos e vinte e sete, os Médici foram expulsos de novo e a república voltou. Maquiavel esperava retomar seu posto, mas, por ter se aproximado dos Médici, foi deixado de lado. Morreu poucas semanas depois, em junho daquele ano. O livro que ele escreveu no exílio atravessou cinco séculos."
+  },
+  {
+   "tela": {
+    "t": "compromisso",
+    "h": "Comenta: <b>EU VOU APLICAR</b>"
+   },
+   "txt": "E agora é a sua vez. Se você está numa fase de lama, de perda ou de recomeço, e vai separar a sua hora de roupa de corte a partir de amanhã, comenta: eu vou aplicar."
+  },
+  {
+   "tela": {
+    "t": "resumo",
+    "h": "Resumo",
+    "itens": [
+     "Aprenda observando quem está acima",
+     "Queda não é o fim",
+     "Use a pior fase para estudar",
+     "Transforme estudo em obra"
+    ]
+   },
+   "txt": "Resumindo. Aprenda observando quem está acima. A queda não é o fim. Use a pior fase para estudar. E transforme esse estudo em obra."
+  },
+  {
+   "tela": {
+    "t": "fim"
+   },
+   "txt": "Maquiavel perdeu tudo e escreveu o livro que o tornou eterno. Se inscreva no Raposa e Leão e assista ao próximo vídeo na tela."
+  }
+ ]
+}
