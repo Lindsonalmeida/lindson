@@ -47,7 +47,7 @@ CSS = '''<link href="https://fonts.googleapis.com/css2?family=Anton&family=Speci
 *{margin:0;box-sizing:border-box}body{width:1280px;height:720px;overflow:hidden;background:#000;position:relative;font-family:Anton}
 .bg{position:absolute;inset:0;background-size:cover;background-position:center}
 .t{position:absolute;color:#fff;text-transform:uppercase;line-height:.92;letter-spacing:.01em;
- -webkit-text-stroke:3px #000;paint-order:stroke fill;text-shadow:0 8px 0 #000,0 0 40px rgba(0,0,0,.9)}
+ -webkit-text-stroke:6px #000;paint-order:stroke fill;text-shadow:0 10px 0 #000,0 0 50px rgba(0,0,0,.95)}
 .t b{color:#FFD23F;font-weight:400}.t i{font-style:normal;color:#5EE6EB}
 .mk{position:absolute;font:400 20px 'Special Elite';letter-spacing:.28em;color:rgba(255,240,205,.85);text-shadow:0 2px 8px #000}
 .vs{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%) rotate(-6deg);width:150px;height:150px;border-radius:50%;background:#FFD23F;
@@ -63,7 +63,7 @@ def close(c):
     lado = c.get('lado', 'esq'); pos = 'left:56px' if lado == 'esq' else 'right:56px;text-align:right'
     return pagina(f'''<div class="bg" style="background-image:url({uri(im)})"></div>
 <div style="position:absolute;inset:0;background:linear-gradient({'90deg' if lado == 'esq' else '270deg'},rgba(0,0,0,.55),rgba(0,0,0,0) 55%)"></div>
-<div class="t" style="{pos};bottom:60px;font-size:{c.get('fs', 132)}px;max-width:760px">{c['txt']}</div>
+<div class="t" style="{pos};bottom:{'44px' if lado == 'esq' else '96px'};font-size:{c.get('fs', 182)}px;max-width:900px;line-height:.86">{c['txt']}</div>
 <div class="mk" style="{pos};top:40px">PASSAPORTE DA BÍBLIA</div>{f'<div class="tag" style="{pos};top:90px">{c["tag"]}</div>' if c.get('tag') else ''}''')
 
 def duelo(c):
@@ -71,8 +71,8 @@ def duelo(c):
     b = recorte(c['grav2'], c.get('zoom2', .6), c.get('foco2'), ar=(640 / 720), W=680, H=720)
     return pagina(f'''<div class="bg" style="right:50%;background-image:url({uri(a)})"></div><div class="bg" style="left:50%;background-image:url({uri(b)})"></div>
 <div class="div"></div><div class="vs">VS</div>
-<div class="t" style="left:40px;bottom:46px;font-size:96px;width:520px">{c['txt']}</div>
-<div class="t" style="right:40px;bottom:46px;font-size:96px;width:520px;text-align:right">{c['txt2']}</div>
+<div class="t" style="left:40px;bottom:40px;font-size:{c.get('fs', 128)}px;width:600px">{c['txt']}</div>
+<div class="t" style="right:40px;bottom:92px;font-size:{c.get('fs', 128)}px;width:600px;text-align:right">{c['txt2']}</div>
 <div class="mk" style="left:40px;top:36px">PASSAPORTE DA BÍBLIA</div>''')
 
 ESTILOS = dict(close=close, duelo=duelo)
