@@ -1,0 +1,578 @@
+{
+ "id": "longo-13",
+ "canal": "raposa",
+ "formato": "longo",
+ "titulo": "Os Médici: como uma família dominou Florença",
+ "legenda": "Os Médici nunca usaram coroa e mesmo assim dominaram Florença por décadas. Neste vídeo você entende como uma família de banqueiros chegou ao poder: Cosimo, o Velho, o exílio de 1433 e a volta de 1434, Lorenzo, o Magnífico, a Conspiração dos Pazzi de 1478, a expulsão de 1494, a volta de 1512 e os papas Médici Leão X e Clemente VII.\n\nVocê também descobre a relação de Maquiavel com essa família: a prisão em 1513, O Príncipe dedicado a Lorenzo di Piero de Médici e a História de Florença encomendada pelo cardeal Giulio de Médici, o futuro Clemente VII. No final, as lições de poder que Maquiavel tirou dos Médici para você aplicar no trabalho, nos negócios e na vida.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📜 Fonte: Nicolau Maquiavel, O Príncipe (Dedicatória e caps. VI, IX, XIX, XX, XXI, XXV e XXVI); Discursos sobre a Primeira Década de Tito Lívio (Livro I, cap. 33; Livro III, cap. 6); História de Florença (Livros VII e VIII); carta a Francesco Vettori de 10/12/1513.\n\n🦊🦁 Raposa e Leão: Maquiavel e as leis do poder aplicadas à vida real.\n\n▶️ Playlist recomendada: Personagens do poder\n\n#Médici #Maquiavel #OPríncipe #HistóriaDeFlorença #Renascimento",
+ "comentario": "📌 Cosimo venceu sem cargo e Piero perdeu tudo com o nome da família. Na sua vida, o que pesa mais: o cargo ou a confiança das pessoas? Continue na playlist Personagens do poder ⬇️",
+ "titulo_tela": {
+  "sup": "RAPOSA E LEÃO",
+  "txt": "Os Médici sem coroa",
+  "dur": 3.2
+ },
+ "capa": {
+  "A": "Reis sem coroa",
+  "B": "O banco mandava",
+  "gravA": "lorenzo.jpg",
+  "gravB": "acervo/botticelli_giuliano_de_medici_accademia_carrara.jpg"
+ },
+ "cenas": [
+  {
+   "gravura": "lorenzo.jpg",
+   "mov": "in",
+   "txt": "Eles nunca usaram coroa. Nunca foram reis, nem duques, nem generais. E mesmo assim, por sessenta anos, quase nada acontecia em Florença sem passar pela mesa de uma família de banqueiros: os Médici."
+  },
+  {
+   "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+   "mov": "out",
+   "txt": "Foram expulsos e voltaram. Foram expulsos de novo e voltaram de novo. E no meio dessa história estava um funcionário da república que perdeu o emprego, foi preso e torturado por causa deles: Nicolau Maquiavel."
+  },
+  {
+   "gravura": "maquiavel.jpg",
+   "mov": "esq",
+   "txt": "E sabe o que esse homem fez depois? Escreveu O Príncipe, o livro sobre poder mais famoso da história, e dedicou a um Médici. Justamente à família que tinha acabado com a carreira dele."
+  },
+  {
+   "gravura": "acervo/botticelli_giuliano_de_medici_accademia_carrara.jpg",
+   "mov": "dir",
+   "txt": "Hoje eu vou te mostrar como essa família chegou ao poder sem exército, como sobreviveu a um ataque dentro de uma catedral e o que Maquiavel aprendeu observando tudo isso de perto."
+  },
+  {
+   "gravura": "acervo/beijo_judas_giotto.jpg",
+   "mov": "cima",
+   "txt": "Tem um detalhe que pouca gente conhece: esse ataque foi planejado com o apoio de alguém muito acima de qualquer banqueiro. Daqui a pouco você descobre quem estava por trás."
+  },
+  {
+   "gravura": "acervo/leao_x_raffaello.jpg",
+   "mov": "in",
+   "txt": "E tem outra virada: o filho de um Médici assassinado virou papa. E foi a família dele que pagou Maquiavel para escrever a história de Florença."
+  },
+  {
+   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "mov": "out",
+   "txt": "E a maior pergunta eu guardo para o fim: qual foi o segredo que fez essa família voltar depois de cada queda? Fica até o final que eu te mostro."
+  },
+  {
+   "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+   "mov": "esq",
+   "txt": "Florença, no século quinze, era uma república. Tinha conselhos, tinha cargos sorteados entre os cidadãos e um governo chamado Senhoria, que se reunia no Palazzo Vecchio. No papel, ninguém mandava sozinho.",
+   "cap": {
+    "sup": "LIÇÃO 1",
+    "txt": "O banco que virou trono"
+   }
+  },
+  {
+   "gravura": "acervo/embaixadores_holbein.jpg",
+   "mov": "dir",
+   "txt": "Mas quem tinha dinheiro tinha amigos. E os Médici tinham muito dinheiro. Giovanni di Bicci de Médici montou um banco que chegou a cuidar das finanças do próprio papa em Roma."
+  },
+  {
+   "gravura": "acervo/romanos_decadencia_couture.jpg",
+   "mov": "cima",
+   "txt": "Repara na diferença. Muitos ricos de Florença gastavam para se exibir. O filho de Giovanni, Cosimo, entendeu outra coisa: dinheiro emprestado na hora certa compra algo mais valioso que um palácio. Compra gratidão."
+  },
+  {
+   "gravura": "acervo/multidao_bruegel.jpg",
+   "mov": "in",
+   "txt": "Cosimo emprestava, ajudava, arrumava cargos, socorria famílias em apuro. Com o tempo, muita gente importante da cidade devia algum favor a ele. E quem deve favor costuma lembrar disso na hora de decidir."
+  },
+  {
+   "gravura": "acervo/cesar_assassinato_camuccini.jpg",
+   "mov": "out",
+   "txt": "Isso assustou os rivais. Em 1433, o grupo liderado por Rinaldo degli Albizzi conseguiu prender Cosimo numa torre do Palazzo Vecchio. Teve gente no governo que queria a cabeça dele."
+  },
+  {
+   "gravura": "acervo/prisao_cristo_caravaggio.jpg",
+   "mov": "esq",
+   "txt": "Cosimo escapou da morte, mas foi mandado para o exílio. Tiraram o homem da cidade. Só esqueceram de tirar da cidade a rede de amigos que ele tinha construído."
+  },
+  {
+   "gravura": "hist/marcus_equestre.jpg",
+   "mov": "dir",
+   "txt": "No exílio, em Veneza, ele foi recebido com honras. Em 1434, cerca de um ano depois, uma nova Senhoria favorável a ele chamou Cosimo de volta. Quem saiu para o exílio foi Rinaldo degli Albizzi."
+  },
+  {
+   "gravura": "hist/marcus_aurelius.jpg",
+   "mov": "in",
+   "txt": "Maquiavel estudou esse episódio nos Discursos. Ele diz que os inimigos de Cosimo erraram ao atacar de frente um poder que já tinha crescido demais. O ataque só serviu para unir os amigos dele.",
+   "verso": "Quando um mal cresce dentro de uma república, é mais seguro dar tempo ao tempo do que atacá-lo de frente.",
+   "ref": "DISCURSOS, LIVRO I, CAP. 33"
+  },
+  {
+   "gravura": "acervo/coroacao_napoleao_david.jpg",
+   "mov": "out",
+   "txt": "Repara na lição. Os Albizzi tinham o poder formal. Cosimo tinha o poder real: as pessoas que dependiam dele e confiavam nele. Quando os dois brigaram, o poder real ganhou."
+  },
+  {
+   "gravura": "hist/arco_severo.jpg",
+   "mov": "esq",
+   "txt": "Tá comigo até aqui? Guarda essa ideia de poder formal contra poder real, porque ela vai voltar em cada parte dessa história. Inclusive na que acontece dentro da catedral.",
+   "interage": {
+    "tipo": "checkin",
+    "txt": "Tá comigo até aqui, raposa?"
+   }
+  },
+  {
+   "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+   "mov": "dir",
+   "txt": "De 1434 até morrer, em 1464, Cosimo comandou Florença. Mas o detalhe que impressionou Maquiavel é outro: ele ocupou poucas vezes os cargos de governo. Na maior parte do tempo, era só um cidadão.",
+   "cap": {
+    "sup": "LIÇÃO 2",
+    "txt": "Mandar sem aparecer"
+   }
+  },
+  {
+   "gravura": "acervo/castiglione_raffaello.jpg",
+   "mov": "cima",
+   "txt": "O grupo dele controlava quem entrava nas listas de onde saíam os nomes do sorteio. Os amigos certos iam para os postos certos. A república continuava funcionando, só que as decisões já chegavam prontas."
+  },
+  {
+   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "mov": "in",
+   "txt": "Na História de Florença, Maquiavel registra uma frase atribuída a Cosimo. Quando reclamavam da dureza dele com os adversários, ele respondia que os Estados não se governam com o pai-nosso na mão.",
+   "verso": "Os Estados não se mantêm com o pai-nosso na mão.",
+   "ref": "HISTÓRIA DE FLORENÇA, LIVRO VII"
+  },
+  {
+   "gravura": "acervo/multidao_bruegel.jpg",
+   "mov": "out",
+   "txt": "Ao mesmo tempo, Cosimo evitava a ostentação. Maquiavel escreve que ele foi o cidadão de maior reputação que Florença já teve entre os homens desarmados, ou seja, sem exército."
+  },
+  {
+   "gravura": "hist/bonfire_of_the_vanities.jpg",
+   "mov": "esq",
+   "txt": "Ele também gastou fortunas com a cidade: igrejas, conventos, a biblioteca de San Marco, obras de Brunelleschi. Cada obra pública lembrava ao povo quem tinha pagado por ela."
+  },
+  {
+   "gravura": "cesar.jpg",
+   "mov": "dir",
+   "txt": "Quando ele morreu, em 1464, Florença deu a ele o título de Pai da Pátria. Pense nisso: um banqueiro que nunca foi rei recebeu um título que os romanos davam aos seus maiores líderes."
+  },
+  {
+   "gravura": "maquiavel.jpg",
+   "mov": "in",
+   "txt": "E isso conversa direto com O Príncipe. No capítulo nove, Maquiavel fala do principado civil: quando um cidadão vira o primeiro da cidade não por crime nem por violência, mas pelo favor dos outros cidadãos.",
+   "verso": "Quem chega ao poder com o favor do povo se mantém sozinho; quem chega pelos grandes vive cercado de quem se acha igual a ele.",
+   "ref": "O PRÍNCIPE, CAP. IX"
+  },
+  {
+   "gravura": "acervo/embaixadores_holbein.jpg",
+   "mov": "cima",
+   "txt": "Agora pensa na sua vida. No seu trabalho, quem tem o cargo e quem tem a confiança das pessoas? Muitas vezes não é a mesma pessoa. Me conta nos comentários.",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "Cargo ou confiança? Comenta aí"
+   }
+  },
+  {
+   "gravura": "acervo/albrecht_altdorfer_schlacht_bei_issus_alte_pinak.jpg",
+   "mov": "dir",
+   "txt": "Depois de Cosimo veio o filho, Piero, doente de gota, que governou só cinco anos. E em 1469 o poder caiu nas mãos de um rapaz de vinte anos. O nome dele era Lorenzo."
+  },
+  {
+   "gravura": "lorenzo.jpg",
+   "mov": "in",
+   "txt": "Repara na coincidência: naquele mesmo ano de 1469, em maio, nascia em Florença um menino chamado Nicolau Maquiavel. Ele ia crescer inteiro debaixo do governo de Lorenzo de Médici.",
+   "cap": {
+    "sup": "LIÇÃO 3",
+    "txt": "O Magnífico"
+   }
+  },
+  {
+   "gravura": "acervo/coroacao_napoleao_david.jpg",
+   "mov": "out",
+   "txt": "Lorenzo ficou conhecido como o Magnífico. Era poeta, colecionador e protetor de artistas. Botticelli trabalhou para a família, e um jovem Michelangelo chegou a viver na casa dos Médici ainda adolescente."
+  },
+  {
+   "gravura": "acervo/rendicao_granada_pradilla.jpg",
+   "mov": "esq",
+   "txt": "Isso também está em O Príncipe. No capítulo vinte e um, Maquiavel diz que quem governa deve honrar quem se destaca em cada arte e animar o povo com festas e espetáculos.",
+   "verso": "O príncipe deve mostrar-se amante das virtudes e honrar quem se destaca em cada arte.",
+   "ref": "O PRÍNCIPE, CAP. XXI"
+  },
+  {
+   "gravura": "hist/bonfire_of_the_vanities.jpg",
+   "mov": "cima",
+   "txt": "Mas tinha um problema que pouca gente via. Enquanto Lorenzo brilhava, o banco da família ia mal. Filiais fechavam no exterior, empréstimos não voltavam. O dinheiro que tinha criado o poder começava a encolher."
+  },
+  {
+   "gravura": "hist/caracalla.jpg",
+   "mov": "in",
+   "txt": "E onde tem brilho, tem inveja. Outra família de banqueiros de Florença, os Pazzi, olhava para os Médici e se perguntava: por que eles, e não nós?"
+  },
+  {
+   "gravura": "acervo/beijo_judas_giotto.jpg",
+   "mov": "out",
+   "txt": "Hora de fechar a primeira promessa. Lembra do ataque planejado com apoio de alguém muito acima de qualquer banqueiro? Foi no dia 26 de abril de 1478. E o lugar escolhido foi a catedral de Florença.",
+   "cap": {
+    "sup": "LIÇÃO 4",
+    "txt": "Sangue na catedral"
+   }
+  },
+  {
+   "gravura": "acervo/cesar_assassinato_camuccini.jpg",
+   "mov": "esq",
+   "txt": "O plano era matar os dois irmãos Médici ao mesmo tempo, Lorenzo e Giuliano, durante a missa, no meio do povo. Com os dois mortos, a cidade cairia antes de qualquer reação."
+  },
+  {
+   "gravura": "acervo/pollice_verso_gerome.jpg",
+   "mov": "dir",
+   "txt": "Por trás dos Pazzi estavam nomes pesados: Girolamo Riario, sobrinho do papa Sisto quarto, e Francesco Salviati, arcebispo de Pisa. O próprio papa sabia do plano. Até onde ele aceitava o sangue, os historiadores ainda discutem."
+  },
+  {
+   "gravura": "acervo/botticelli_giuliano_de_medici_accademia_carrara.jpg",
+   "mov": "cima",
+   "txt": "Na hora combinada, Bernardo Bandini e Francesco de Pazzi atacaram Giuliano, o irmão mais novo, o da imagem que você está vendo. Ele foi golpeado várias vezes e morreu ali mesmo, no chão da catedral."
+  },
+  {
+   "gravura": "lorenzo.jpg",
+   "mov": "in",
+   "txt": "Lorenzo foi ferido no pescoço, se defendeu com a espada e correu para a sacristia, onde os amigos trancaram as portas pesadas de bronze. Sobreviveu por muito pouco."
+  },
+  {
+   "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+   "mov": "out",
+   "txt": "Enquanto isso, o arcebispo Salviati tentava tomar o Palazzo Vecchio. E Jacopo de Pazzi saiu a cavalo pela praça gritando por povo e liberdade, esperando que a cidade se levantasse contra os Médici."
+  },
+  {
+   "gravura": "acervo/multidao_bruegel.jpg",
+   "mov": "esq",
+   "txt": "E a cidade se levantou, só que do lado errado para ele. O povo saiu às ruas a favor dos Médici. Salviati foi enforcado numa janela do palácio."
+  },
+  {
+   "gravura": "acervo/cesar_morte_gerome.jpg",
+   "mov": "dir",
+   "txt": "Maquiavel tinha nove anos nesse dia. E anos depois escreveu, no capítulo dezenove de O Príncipe, qual é um dos maiores remédios contra conspirações.",
+   "verso": "Um dos remédios mais fortes contra as conspirações é não ser odiado pelo povo.",
+   "ref": "O PRÍNCIPE, CAP. XIX"
+  },
+  {
+   "gravura": "acervo/jean_l_on_g_r_me_the_death_of_caesar_walters_378.jpg",
+   "mov": "cima",
+   "txt": "Nos Discursos, ele dedica um capítulo inteiro às conspirações e usa os Pazzi como exemplo. Matar dois alvos ao mesmo tempo, no meio da multidão, multiplica as chances de dar errado.",
+   "verso": "Nas conspirações, os perigos estão antes, durante e depois da execução.",
+   "ref": "DISCURSOS, LIVRO III, CAP. 6"
+  },
+  {
+   "gravura": "acervo/hannibal_and_scipio_africanus.jpg",
+   "mov": "in",
+   "txt": "Mas a crise não acabou ali. O papa excomungou Lorenzo e entrou em guerra contra Florença ao lado do rei de Nápoles. E a cidade começou a se perguntar se um homem só valia tanto sacrifício."
+  },
+  {
+   "gravura": "acervo/embaixadores_holbein.jpg",
+   "mov": "out",
+   "txt": "Aí Lorenzo fez uma jogada que Maquiavel narra com admiração. No fim de 1479, ele foi pessoalmente a Nápoles se colocar nas mãos do rei Ferrante, que estava em guerra com ele."
+  },
+  {
+   "gravura": "acervo/vercingetorix_royer.jpg",
+   "mov": "esq",
+   "txt": "Passou meses naquela corte conversando e convencendo, mostrando que a guerra contra Florença servia mais aos outros do que ao próprio rei. E voltou para casa com o caminho da paz aberto."
+  },
+  {
+   "gravura": "acervo/castiglione_raffaello.jpg",
+   "mov": "dir",
+   "txt": "Leão quando precisou, raposa quando foi preciso. Na catedral, sobreviveu pela força e pela sorte. Em Nápoles, venceu pela conversa. É exatamente essa mistura que Maquiavel vai defender anos depois."
+  },
+  {
+   "gravura": "hist/marcus_equestre.jpg",
+   "mov": "cima",
+   "txt": "Se essa história da catedral te prendeu, salva esse vídeo agora. Daqui a pouco vem a parte em que tudo desmorona, e é justamente a que mais ensina.",
+   "interage": {
+    "tipo": "salva",
+    "txt": "Salva pra ver de novo"
+   }
+  },
+  {
+   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "mov": "in",
+   "txt": "E se você está gostando de entender o poder pela história real, se inscreve no Raposa e Leão e abre a playlist Personagens do poder. Cada vídeo é um personagem que Maquiavel estudou de perto.",
+   "cta": "Inscreva-se e veja a playlist<br><b>Personagens do poder</b>",
+   "interage": {
+    "tipo": "segue",
+    "txt": "Segue o canal, raposa"
+   }
+  },
+  {
+   "gravura": "lorenzo.jpg",
+   "mov": "out",
+   "txt": "Lorenzo morreu em abril de 1492, aos quarenta e três anos. Na História de Florença, Maquiavel escreve que, depois da morte dele, começaram a nascer as sementes da ruína da Itália.",
+   "cap": {
+    "sup": "LIÇÃO 5",
+    "txt": "A queda de 1494"
+   }
+  },
+  {
+   "gravura": "acervo/the_battle_of_alexander_at_issus_by_albrecht_alt.jpg",
+   "mov": "esq",
+   "txt": "O herdeiro era o filho dele, Piero. E em 1494 o rei da França, Carlos oitavo, desceu para a Itália com um exército enorme, a caminho de Nápoles, passando pela Toscana."
+  },
+  {
+   "gravura": "acervo/rendicao_granada_pradilla.jpg",
+   "mov": "dir",
+   "txt": "Piero entrou em pânico. Foi ao encontro do rei e, sem consultar o governo da cidade, entregou fortalezas importantes de Florença. Fez sozinho um acordo que ninguém tinha autorizado."
+  },
+  {
+   "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+   "mov": "cima",
+   "txt": "Quando voltou, encontrou o Palazzo Vecchio fechado para ele. Em novembro de 1494, os Médici foram expulsos de Florença. Sessenta anos de domínio acabaram em poucos dias."
+  },
+  {
+   "gravura": "hist/arco_severo.jpg",
+   "mov": "in",
+   "txt": "Lembra do poder real? Piero herdou o nome, mas não herdou a confiança. E sem ela, o nome não segurou nada. Maquiavel escreve que a melhor fortaleza que existe é não ser odiado pelo povo.",
+   "verso": "A melhor fortaleza que existe é não ser odiado pelo povo.",
+   "ref": "O PRÍNCIPE, CAP. XX"
+  },
+  {
+   "gravura": "hist/girolamo_savonarola.jpg",
+   "mov": "out",
+   "txt": "No vazio que ficou, ganhou força um frade dominicano: Girolamo Savonarola. Ele pregava contra o luxo, contra a corrupção, contra os Médici. E Florença ouvia cada palavra."
+  },
+  {
+   "gravura": "hist/pope_alexander_vi.jpg",
+   "mov": "dir",
+   "txt": "Mas Savonarola atacou também o papa Alexandre sexto, o pai de César Bórgia. Foi excomungado, perdeu o apoio do povo e, em 1498, foi executado e queimado na mesma praça onde tinha sido ouvido."
+  },
+  {
+   "gravura": "hist/moses.jpg",
+   "mov": "cima",
+   "txt": "Maquiavel viu tudo. E no capítulo seis de O Príncipe cita Savonarola pelo nome: o frade tinha palavras, mas não tinha meios de segurar quem já não acreditava nele.",
+   "verso": "Todos os profetas armados venceram, e os desarmados se arruinaram.",
+   "ref": "O PRÍNCIPE, CAP. VI"
+  },
+  {
+   "gravura": "maquiavel.jpg",
+   "mov": "in",
+   "txt": "E aqui entra o próprio Maquiavel. Em 1498, ele assumiu um cargo de chanceler na república. Tinha vinte e nove anos e serviu catorze anos ao governo sem os Médici."
+  },
+  {
+   "gravura": "hist/commodus.jpg",
+   "mov": "esq",
+   "txt": "Pausa rápida. Até aqui você viu um banqueiro que venceu sem armas, um Magnífico que sobreviveu à catedral e um herdeiro que perdeu tudo por agir sozinho. Qual desses três você mais reconhece no seu trabalho?",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "Qual dos três você conhece?"
+   }
+  },
+  {
+   "gravura": "acervo/julio_ii_raffaello.jpg",
+   "mov": "dir",
+   "txt": "Os Médici nunca desistiram. Durante dezoito anos, a família esperou fora de Florença. Um dos irmãos de Piero, Giovanni, era cardeal em Roma. E em 1512 a chance apareceu.",
+   "cap": {
+    "sup": "LIÇÃO 6",
+    "txt": "A volta de 1512"
+   }
+  },
+  {
+   "gravura": "hist/ferdinand_ii_of_aragon.jpg",
+   "mov": "cima",
+   "txt": "O papa Júlio segundo formou a Santa Liga contra a França, com a Espanha de Fernando de Aragão. Florença tinha ficado do lado dos franceses. E a Liga decidiu cobrar a conta."
+  },
+  {
+   "gravura": "acervo/albrecht_altdorfer_schlacht_bei_issus_alte_pinak.jpg",
+   "mov": "in",
+   "txt": "Em agosto de 1512, tropas espanholas atacaram Prato, cidade bem perto de Florença. O saque foi brutal, e o medo chegou a Florença antes do exército."
+  },
+  {
+   "gravura": "acervo/multidao_bruegel.jpg",
+   "mov": "out",
+   "txt": "Piero Soderini, o chefe da república, fugiu. E os Médici voltaram para a cidade sem precisar travar uma grande batalha dentro dos muros. Dezoito anos de exílio desfeitos em poucas semanas."
+  },
+  {
+   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "mov": "esq",
+   "txt": "Para Maquiavel, foi o desastre. Em novembro ele perdeu o cargo. E no começo de 1513 o nome dele apareceu numa lista de pessoas ligadas a uma conspiração contra os Médici."
+  },
+  {
+   "gravura": "acervo/prisao_cristo_caravaggio.jpg",
+   "mov": "dir",
+   "txt": "Foi preso e torturado com a corda: braços amarrados nas costas, o corpo içado e solto de uma vez. Ele aguentou sem confessar, porque não tinha nada a confessar."
+  },
+  {
+   "gravura": "acervo/leao_x_raffaello.jpg",
+   "mov": "cima",
+   "txt": "E quem acabou soltando Maquiavel? A própria família que o derrubou. Em março de 1513, o cardeal Giovanni de Médici foi eleito papa com o nome de Leão décimo. Na anistia que veio depois, ele foi solto."
+  },
+  {
+   "gravura": "acervo/hannibal_and_scipio_africanus.jpg",
+   "mov": "out",
+   "txt": "Maquiavel olhou para isso e escreveu sobre a fortuna, a sorte. Ele compara a fortuna a um rio violento: não dá para impedir a cheia, mas dá para construir diques antes.",
+   "verso": "A fortuna é senhora de metade das nossas ações e deixa a outra metade para nós.",
+   "ref": "O PRÍNCIPE, CAP. XXV"
+  },
+  {
+   "gravura": "hist/alexander_the_great.jpg",
+   "mov": "esq",
+   "txt": "Repara que os Médici não esperaram parados. Mantiveram aliados em Roma, um cardeal pronto, contatos com reis. Quando a cheia veio, os diques estavam de pé. Faz sentido para você?",
+   "interage": {
+    "tipo": "checkin",
+    "txt": "Faz sentido até aqui?"
+   }
+  },
+  {
+   "gravura": "maquiavel.jpg",
+   "mov": "dir",
+   "txt": "Solto, mas sem emprego, Maquiavel foi para a pequena propriedade da família, perto de San Casciano. E ali, em 1513, escreveu o livro que tornaria o nome dele eterno.",
+   "cap": {
+    "sup": "LIÇÃO 7",
+    "txt": "O presente para os Médici"
+   }
+  },
+  {
+   "gravura": "acervo/embaixadores_holbein.jpg",
+   "mov": "cima",
+   "txt": "Numa carta ao amigo Francesco Vettori, de dezembro de 1513, ele conta a rotina. De dia, cuida da terra e vai à taverna. À noite, veste roupas de corte e conversa com os antigos através dos livros.",
+   "verso": "À noite, visto roupas de corte e entro nas antigas cortes dos homens antigos.",
+   "ref": "CARTA A FRANCESCO VETTORI, 10/12/1513"
+  },
+  {
+   "gravura": "acervo/sandro_botticelli_giuliano_de_medici_gem_ldegale.jpg",
+   "mov": "in",
+   "txt": "Nessa mesma carta, ele diz que pensava em dedicar o livro a Giuliano de Médici, filho de Lorenzo, o Magnífico. Maquiavel queria voltar a trabalhar e sabia que o caminho passava por aquela família."
+  },
+  {
+   "gravura": "lorenzo.jpg",
+   "mov": "out",
+   "txt": "Mas Giuliano morreu em 1516. E a dedicatória que ficou foi para outro Lorenzo: Lorenzo di Piero de Médici, neto do Magnífico, que então governava Florença em nome da família."
+  },
+  {
+   "gravura": "acervo/romanos_decadencia_couture.jpg",
+   "mov": "esq",
+   "txt": "Na dedicatória, Maquiavel diz que os outros oferecem aos príncipes cavalos, armas e tecidos de ouro. Ele oferece o que tem de mais valioso: o que aprendeu sobre as ações dos grandes homens.",
+   "verso": "Para conhecer bem os povos é preciso ser príncipe; para conhecer bem os príncipes, é preciso ser do povo.",
+   "ref": "O PRÍNCIPE, DEDICATÓRIA"
+  },
+  {
+   "gravura": "hist/arco_severo.jpg",
+   "mov": "dir",
+   "txt": "No último capítulo, ele faz um apelo direto à casa dos Médici: que ela assuma a missão de libertar a Itália dos estrangeiros. A família que o prendeu virava, no papel, a esperança da Itália.",
+   "verso": "Que a vossa ilustre casa tome esta empresa com o ânimo com que se abraçam as causas justas.",
+   "ref": "O PRÍNCIPE, CAP. XXVI"
+  },
+  {
+   "gravura": "hist/caracalla.jpg",
+   "mov": "cima",
+   "txt": "E o Lorenzo leu? Ninguém sabe. Conta-se que ele deu mais atenção a uns cães de caça do que ao livro, mas não há prova disso. O certo é que o livro não devolveu o emprego a Maquiavel."
+  },
+  {
+   "gravura": "acervo/vercingetorix_royer.jpg",
+   "mov": "in",
+   "txt": "Conhece alguém tentando ser notado por um chefe ou um cliente importante, sem conseguir? Manda esse vídeo. A história do Maquiavel com os Médici mostra que talento sozinho não abre porta.",
+   "interage": {
+    "tipo": "manda",
+    "txt": "Manda pra quem quer ser notado"
+   }
+  },
+  {
+   "gravura": "acervo/leao_x_raffaello.jpg",
+   "mov": "out",
+   "txt": "Agora repara neste quadro de Rafael. É Leão décimo, o papa Médici. E um dos cardeais ao lado dele é o primo, Giulio de Médici.",
+   "cap": {
+    "sup": "LIÇÃO 8",
+    "txt": "Dois papas Médici"
+   }
+  },
+  {
+   "gravura": "acervo/botticelli_giuliano_de_medici_accademia_carrara.jpg",
+   "mov": "esq",
+   "txt": "Giulio era filho de Giuliano, o irmão morto na catedral em 1478. Nasceu cerca de um mês depois do assassinato do pai. É o filho do Médici assassinado que eu te prometi."
+  },
+  {
+   "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+   "mov": "dir",
+   "txt": "Em 1520, o cardeal Giulio, que cuidava de Florença em nome da família, fez a Maquiavel uma encomenda: escrever a história de Florença. Era a volta dele ao trabalho."
+  },
+  {
+   "gravura": "acervo/coroacao_napoleao_david.jpg",
+   "mov": "in",
+   "txt": "Em 1523, Giulio foi eleito papa com o nome de Clemente sétimo. Dois papas Médici em dez anos. A família de banqueiros tinha chegado ao lugar mais alto da Igreja."
+  },
+  {
+   "gravura": "maquiavel.jpg",
+   "mov": "out",
+   "txt": "Em 1525, Maquiavel foi a Roma entregar os oito livros da História de Florença ao papa Clemente. E aqui tem uma questão delicada: como contar a verdade sobre a família de quem está pagando?"
+  },
+  {
+   "gravura": "acervo/castiglione_raffaello.jpg",
+   "mov": "esq",
+   "txt": "Segundo o amigo Donato Giannotti, Maquiavel disse que não podia escrever abertamente como Cosimo chegou ao poder. Então colocou as críticas na boca dos adversários dos Médici, nos discursos dos personagens."
+  },
+  {
+   "gravura": "acervo/the_battle_of_alexander_at_issus_by_albrecht_alt.jpg",
+   "mov": "dir",
+   "txt": "Ou seja: o elogio aparecia na voz do narrador, e a crítica ficava nos discursos. Quem lia com atenção encontrava as duas coisas. Isso é raposa pura: dizer a verdade sem ser destruído por ela."
+  },
+  {
+   "gravura": "acervo/cesar_morte_gerome.jpg",
+   "mov": "cima",
+   "txt": "O final tem ironia. Em 1527, Roma foi saqueada pelas tropas do imperador Carlos quinto, e os Médici foram expulsos de Florença mais uma vez. Maquiavel esperava voltar a servir a república restaurada."
+  },
+  {
+   "gravura": "hist/hannibal.jpg",
+   "mov": "in",
+   "txt": "Não conseguiu. Para muitos republicanos, ele era o homem que tinha trabalhado para os Médici. Em junho de 1527, Maquiavel morreu em Florença, sem o cargo que tanto queria."
+  },
+  {
+   "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+   "mov": "out",
+   "txt": "E os Médici? Voltaram de novo em 1530, depois de um longo cerco a Florença. Pouco depois viraram duques e, mais tarde, grão-duques da Toscana. A família sem coroa acabou ganhando uma."
+  },
+  {
+   "gravura": "lorenzo.jpg",
+   "mov": "esq",
+   "txt": "Agora a última promessa: o segredo que fez essa família voltar depois de cada queda. Juntando O Príncipe, os Discursos e a História de Florença, dá para ver lições bem claras.",
+   "cap": {
+    "sup": "LIÇÃO 9",
+    "txt": "O segredo dos Médici"
+   }
+  },
+  {
+   "gravura": "acervo/multidao_bruegel.jpg",
+   "mov": "dir",
+   "txt": "Primeira lição: o poder real mora nas pessoas, não no cargo. Cosimo voltou do exílio porque a cidade estava cheia de gente ligada a ele. Piero caiu porque só tinha o nome."
+  },
+  {
+   "gravura": "hist/marcus_aurelius.jpg",
+   "mov": "cima",
+   "txt": "Segunda lição: não ser odiado. Lorenzo sobreviveu à catedral porque o povo ficou do lado dele. No capítulo nove, Maquiavel explica que o povo só quer não ser oprimido.",
+   "verso": "O povo só deseja não ser oprimido; os grandes desejam oprimir.",
+   "ref": "O PRÍNCIPE, CAP. IX"
+  },
+  {
+   "gravura": "acervo/embaixadores_holbein.jpg",
+   "mov": "in",
+   "txt": "Terceira lição: construir os diques antes da cheia. Mesmo expulsos, os Médici mantiveram um cardeal em Roma, aliados nas cortes e muita paciência. Quando a fortuna virou, eles estavam prontos."
+  },
+  {
+   "gravura": "cesar.jpg",
+   "mov": "out",
+   "txt": "E tem uma quarta lição, que é do próprio Maquiavel: dizer a verdade com inteligência. Ele serviu a quem o prendeu sem deixar de escrever o que pensava."
+  },
+  {
+   "gravura": "hist/moses.jpg",
+   "mov": "esq",
+   "txt": "Na sua vida, isso vira algo simples. Cuide das pessoas antes de precisar delas. Não crie inimigos à toa. Tenha um plano para quando as coisas derem errado."
+  },
+  {
+   "gravura": "acervo/castiglione_raffaello.jpg",
+   "mov": "dir",
+   "txt": "E repara: nenhuma dessas lições ensina a enganar ninguém. Elas ensinam a não ser pego de surpresa e a liderar de um jeito que as pessoas queiram te ver de pé quando a crise chegar."
+  },
+  {
+   "gravura": "acervo/sandro_botticelli_giuliano_de_medici_gem_ldegale.jpg",
+   "mov": "cima",
+   "txt": "Agora me conta: qual dessas lições você precisa aplicar primeiro? No trabalho, na família ou no seu negócio? Escreve aí nos comentários, porque escrever já é o primeiro passo.",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "Qual lição você aplica primeiro?"
+   }
+  },
+  {
+   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "mov": "in",
+   "txt": "No próximo vídeo da playlist Personagens do poder, você conhece de perto César Bórgia, o homem que Maquiavel observou por meses. Até a próxima lição, raposa.",
+   "cta": "Até a próxima <b>lição</b>,<br>raposa",
+   "selo": "RAPOSA<br>E LEÃO"
+  }
+ ]
+}
