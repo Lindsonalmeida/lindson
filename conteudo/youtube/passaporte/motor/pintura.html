@@ -74,7 +74,7 @@ const hs=(a,b)=>{const r=Math.sin(a*127.1+b*311.7)*43758.5453;return r-Math.floo
 function cam(i,u,tl){const s=SP.cenas[i],m=s.mov||['in','esq','dir','out','cima'][i%5],D=s.fim-s.ini,n=Math.max(1,Math.round(D/4.2)),L=D/n,k0=Math.min(n-1,Math.floor((tl||0)/L)),v=cl(((tl||0)-k0*L)/L);
  if(k0===0||!tl){const uu=n>1?v:u,z0=m==='out'?1.22:1.06,z1=m==='out'?1.06:1.22,px=m==='esq'?.04-.08*uu:m==='dir'?-.04+.08*uu:0,py=m==='cima'?.03-.06*uu:0,k=ease(uu);
   return {c:[px,py,z0+(z1-z0)*k,0],par:[(.5-uu)*.035,(.5-uu)*.012]}}
- const z=1.35+.4*hs(i,k0),lim=(1-1/z)/2*.9,fx=(hs(k0,i+7)-.5)*2*lim,fy=(hs(i+3,k0*2)-.5)*2*lim*.8,dz=hs(i*5,k0)<.5?.06:-.06,dx=(hs(k0*3,i)-.5)*.03;
+ const L16=W>H,z=L16?1.12+.22*hs(i,k0):1.35+.4*hs(i,k0),lim=(1-1/z)/2*(L16?.6:.9),fx=(hs(k0,i+7)-.5)*2*lim,fy=(hs(i+3,k0*2)-.5)*2*lim*.8,dz=hs(i*5,k0)<.5?.06:-.06,dx=(hs(k0*3,i)-.5)*.03;
  return {c:[fx+dx*v,fy,z+dz*ease(v),0],par:[(.5-v)*.03,(.5-v)*.01]}}
 function bind(slot,unit,t){gl.activeTexture(gl.TEXTURE0+unit);gl.bindTexture(gl.TEXTURE_2D,t);gl.uniform1i(U(slot),unit)}
 // partículas de poeira dourada
