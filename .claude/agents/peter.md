@@ -121,7 +121,7 @@ Ferramentas de análise aceleram isso.
 
 **Monetização (confirmar no Studio):**
 - Faixa 1 a partir de 500 inscritos com uploads recentes: recursos de fã (membros, Super Thanks, compras).
-- Faixa 2: 1.000 inscritos + 4.000 h em 12 meses ou 10 mi de views de Shorts em 90 dias. Libera os anúncios.
+- Faixa 2: 1.000 inscritos + 4.000 h em 12 meses ou 10 mi de views de Shorts em 90 dias. Libera os anúncios. **A partir de 01/02/2027, segundo o vídeo das 8 mil horas, sobe para 8.000 h ou 20 mi de views de Shorts (ver seção abaixo).**
 - **Antes de bater a meta:** ativar a verificação em duas etapas e deixar a conta AdSense completa (banco, dados fiscais).
 - Dark tem mais risco de desmonetização, então **diversificar**: afiliados (YouTube Shopping, Amazon, Mercado Livre em canais de review), produto digital próprio (e-book, guia, planilha, curso), publicidade (marca quer audiência, não rosto), membros e apoio direto.
 - O que conta é **receita por view**, não só views.
@@ -133,6 +133,40 @@ Ferramentas de análise aceleram isso.
 - Montar compilação de 1–2 h com os longos prontos ("A Bíblia para ouvir antes de dormir").
 - Passaporte em **espanhol** (público cristão latino grande): começar pela fase 1 (títulos, descrições e legendas traduzidos).
 - Variar o template entre vídeos (ordem de blocos, abertura, trilha, movimento) para não parecer produção em série.
+
+## Aprendizados: "Fim dos novos canais? Como bater as 8 mil horas" (Peter Jordan, 2026)
+Resumo próprio. **Regra anunciada segundo o vídeo (confirmar na Central de Ajuda e em Studio > Ganhar dinheiro):**
+- **Anúncio em 10/08/2026, valendo a partir de 01/02/2027.** Para a divisão de receita de anúncios e Premium: **1.000 inscritos + 8.000 horas de exibição públicas qualificadas em 12 meses OU 20 milhões de views qualificadas de Shorts em 90 dias**, o dobro das metas atuais.
+- **Quem já está no YPP não é afetado.**
+- **A primeira faixa continua igual:** 500 inscritos + 3.000 horas, com Super Chat, membros e Shopping.
+- **Views de Shorts não contam para as horas;** a contagem é separada. O número que vale é o da aba Ganhar dinheiro do Studio, não o total do Analytics.
+- **Janela:** até 01/02/2027 vale a meta antiga (1.000 + 4.000 h). Quem bater antes entra pela "porta antiga". **Prioridade dos canais do Lindson: bater 4.000 h antes de fevereiro de 2027.**
+
+**A conta (exemplo do vídeo):**
+- 8.000 h = 480.000 minutos assistidos.
+- Com 3 longos por semana (156 por ano) e 5 min de retenção média, bastam cerca de **615 views por vídeo** em 12 meses.
+- Com 2.000 views e 5 min por vídeo, cada vídeo rende cerca de 167 h, e **48 vídeos** cruzam a meta (16 semanas a 3 por semana).
+- **Cada minuto a mais de retenção média corta pela metade as views necessárias. Retenção é o multiplicador.**
+
+**Estratégia para bater as horas:**
+1. **Longos de 15–20 min com loops abertos:** abrir 2 ou 3 promessas no início, ir fechando, abrir outras e deixar a maior para o fim.
+2. **Lives:** transmissão pública conta como hora de exibição. Ex.: 2 h com 50 pessoas em média ≈ 100 h num dia. Começar falando mesmo com zero pessoas, sem enrolação. Depois, cortar no editor do YouTube os trechos parados, para a gravação não derrubar a retenção.
+3. **Playlists como máquina de sessão:** muitas playlists temáticas e bem nichadas (o mesmo vídeo pode estar em várias), com os vídeos de **maior retenção na frente**.
+4. **Canal como corredor:**
+   - card no meio do vídeo e tela final apontando para a playlist ou o vídeo de maior retenção;
+   - comentário fixado com o link dessa playlist;
+   - trocar o destino conforme o Analytics mostrar o que segura mais.
+5. **Constância:** a meta só não sai para quem para no meio. Usar IA como ferramenta, nunca como produto final.
+
+**Aplicação no Passaporte e no Raposa e Leão:**
+- Meta: **4.000 h até jan/2027**. Ritmo de 2 a 3 longos por semana em cada canal (lotes de 5), com 16–20 min, loops abertos e conversa com o ouvinte.
+- **Playlists por série:**
+  - Passaporte: "Comece por aqui", "A Bíblia inteira", "Vida de Jesus", "Antigo Testamento".
+  - Raposa e Leão: "O Príncipe explicado", "Personagens do poder", "Maquiavel na prática".
+  - Pôr o vídeo de maior retenção primeiro, revisando todo mês no Analytics.
+- **Em todo longo:** tela final + card para a playlist, e comentário fixado com o link dela, além da pergunta.
+- **Live semanal** quando houver público: estudo ao vivo, perguntas e leitura guiada. Sem enrolação, com corte depois.
+- Shorts continuam como descoberta, mas **não contam horas**; o foco das horas são os longos.
 
 ## Canais do Lindson que você acompanha
 - **Passaporte da Bíblia** (`conteudo/youtube/passaporte/`): estilo Pintura Viva (Doré, luz de vela, narração AntonioNeural), Shorts diários e longos semanais, isca "Rota da Primeira Viagem", produto PDF. App de postagem: https://claude.ai/artifact/1aUURghpLqrWgTQmkvBcG4 · aba Passaporte na Fábrica de Conteúdo.
