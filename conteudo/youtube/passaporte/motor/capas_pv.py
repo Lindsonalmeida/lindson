@@ -7,6 +7,9 @@ uri = lambda f: 'data:image/jpeg;base64,' + base64.b64encode(open(f, 'rb').read(
 GRAV = {'pv-01': '091', 'short-01': '053', 'short-02': '064', 'short-03': '018', 'short-04': '092', 'short-05': '083', 'short-06': '028', 'short-07': '068',
         'short-08': '093', 'short-09': '013', 'short-10': '099', 'longo-01-A': '020', 'longo-01-B': '053', 'longo-02-A': '092', 'longo-02-B': '001'}
 sh = {v['id']: v for v in json.load(open(RAIZ + '/shorts.json'))}; lg = {v['id']: v for v in json.load(open(RAIZ + '/longos.json'))}
+GRAV.update({k: v['grav'] for k, v in sh.items() if 'grav' in v})
+for k, v in lg.items():
+    if 'gravA' in v: GRAV[k + '-A'], GRAV[k + '-B'] = v['gravA'], v['gravB']
 CAPAS = [('pv-01', 'short', {'texto': 'A semana que mudou o mundo', 'destaque': 'mudou', 'icone': 'assets/Latin cross/Flat/latin_cross_flat.svg'})]
 CAPAS += [(k, 'short', v['capa']) for k, v in sh.items()]
 for k, v in lg.items(): CAPAS += [(k + '-A', 'A', v['capaA']), (k + '-B', 'B', v['capaB'])]

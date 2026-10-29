@@ -1051,5 +1051,47 @@
     "txt": "No próximo vídeo, a gente atravessa Levítico juntos, sem largar a leitura. Até a próxima parada, viajante da Palavra."
    }
   ]
+ },
+ {
+  "id": "longo-03",
+  "titulo": "A história da Bíblia inteira em uma viagem só (de Gênesis a Apocalipse)",
+  "formato": "longo",
+  "legenda": "A Bíblia tem 66 livros (73 na católica), mas conta uma história só. Neste vídeo você faz a viagem inteira em 8 paradas: o começo, a família escolhida, a saída do Egito, a terra e os reis, o exílio e os profetas, Jesus, a Igreja e o Apocalipse.\n\nE vai perceber o fio que liga tudo: a promessa de Gênesis 3.15 cumprida em Jesus.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📖 Observação: os versículos aparecem em paráfrase curta, com a referência. Confira na sua tradução. As datas e a divisão em paradas são um resumo didático.\n\n🎫 Quer começar a ler com rota? Baixe grátis a Rota da Primeira Viagem no link da descrição, ou comente ROTA.\n\n#HistóriaDaBíblia #BíbliaExplicada #ResumoDaBíblia #PassaporteDaBíblia",
+  "comentario": "📌 Em qual parada da viagem você está lendo hoje? Comente o número da parada (1 a 8). Quando terminar um livro, volte e comente CARIMBEI.",
+  "capaA": {
+   "texto": "A Bíblia INTEIRA em 1 viagem",
+   "destaque": "INTEIRA",
+   "icone": "assets/Compass/Flat/compass_flat.svg",
+   "estilo": "A: ícone grande + texto"
+  },
+  "capaB": {
+   "texto": "De Gênesis a Apocalipse",
+   "destaque": "Apocalipse",
+   "icone": "assets/Scroll/Flat/scroll_flat.svg",
+   "estilo": "B: começo e fim da Bíblia"
+  },
+  "gravA": "020",
+  "gravB": "004"
+ },
+ {
+  "id": "longo-04",
+  "titulo": "Os 4 Evangelhos: qual a diferença e qual ler primeiro?",
+  "formato": "longo",
+  "legenda": "Por que a Bíblia tem 4 Evangelhos? Neste vídeo você entende a diferença entre Mateus, Marcos, Lucas e João: quem escreveu, pra quem, o que cada um quer que você veja em Jesus. E no fim, a ordem pra começar se você nunca leu.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📖 Observação: os versículos aparecem em paráfrase curta, com a referência. Confira na sua tradução. A autoria dos Evangelhos segue a tradição antiga da Igreja.\n\n🎫 A Rota da Primeira Viagem começa por Marcos, com um plano de 7 dias. É grátis: link na descrição ou comente ROTA.\n\n#Evangelhos #BíbliaParaIniciantes #EstudoBíblico #PassaporteDaBíblia",
+  "comentario": "📌 Qual Evangelho você vai ler primeiro: Mateus, Marcos, Lucas ou João? Comente o nome. Quando terminar, volte e comente CARIMBEI.",
+  "capaA": {
+   "texto": "Qual Evangelho ler PRIMEIRO?",
+   "destaque": "PRIMEIRO",
+   "icone": "assets/Books/Flat/books_flat.svg",
+   "estilo": "A: ícone grande + texto"
+  },
+  "capaB": {
+   "texto": "Não comece por Mateus",
+   "destaque": "Mateus",
+   "icone": "assets/Open book/Flat/open_book_flat.svg",
+   "estilo": "B: frase que contraria o costume"
+  },
+  "gravA": "082",
+  "gravB": "078"
  }
 ]

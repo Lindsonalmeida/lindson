@@ -51,7 +51,10 @@ for i, c in enumerate(spec['cenas']):
     vozes.append((t, a)); t += len(a) / S + .55
 spec['cenas'][0]['ini'] = 0
 for i, c in enumerate(spec['cenas']): c['fim'] = spec['cenas'][i + 1]['ini'] if i + 1 < len(spec['cenas']) else t + 2.5
-TT = round(t + 2.5, 2); spec['titulo_tela']['fim'] = spec['titulo_tela'].get('dur', 2.6)
+TT = round(t + 2.5, 2)
+if not curto:
+    import tempos; tempos.salva(vid, tempos.capitulos(spec, [c['ini'] for c in spec['cenas']]))
+spec['titulo_tela']['fim'] = spec['titulo_tela'].get('dur', 2.6)
 
 SUB = dict(GR='.07' if curto else '.02', W=W_, H=H_, FT=104 if curto else 96, FS=30, FV=76 if curto else 58, FR=30, VY=1180 if curto else 640, FC=62 if curto else 50, CY=1560 if curto else 900, MY=70 if curto else 34)
 html = open(D + '/pintura.html').read()
