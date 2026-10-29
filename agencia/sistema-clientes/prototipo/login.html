@@ -1,0 +1,191 @@
+<title>Central Lindson Almeida</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Exo+2:wght@300;400;600&family=Share+Tech+Mono&display=swap">
+<style>
+/* Layout: banner épico em duas metades — o estrategista à esquerda, envolto em órbitas; o título e o acesso à direita, sobre um campo de estrelas em movimento. Visual único escuro, por escolha. */
+:root{
+  --espaco:#03040B;      /* fundo do vácuo */
+  --nebulosa:#16113A;    /* roxo profundo */
+  --holo:#46E6FF;        /* ciano holográfico */
+  --ouro:#F5C542;        /* ouro do título */
+  --texto:#E9EEFF;
+  --apagado:#8A93B8;
+  --vidro:rgba(14,18,40,.62);
+  --linha:rgba(70,230,255,.22);
+  --f-titulo:'Orbitron','Arial Black',system-ui,sans-serif;
+  --f-corpo:'Exo 2',system-ui,sans-serif;
+  --f-dado:'Share Tech Mono',ui-monospace,monospace;
+  color-scheme:dark;
+}
+html,body{height:100%;overflow-x:clip}
+body{background:var(--espaco);color:var(--texto);font-family:var(--f-corpo);overflow-x:hidden}
+#estrelas{position:fixed;inset:0;width:100%;height:100%;z-index:0;display:block}
+.grade{position:fixed;inset:0;z-index:1;pointer-events:none;background-image:linear-gradient(rgba(70,230,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(70,230,255,.05) 1px,transparent 1px);background-size:56px 56px;-webkit-mask-image:radial-gradient(70% 80% at 30% 50%,#000,transparent);mask-image:radial-gradient(70% 80% at 30% 50%,#000,transparent)}
+.nebulosa{position:fixed;inset:-20%;z-index:0;pointer-events:none;
+  background:radial-gradient(40% 35% at 25% 40%,rgba(90,60,220,.35),transparent 70%),
+             radial-gradient(35% 30% at 78% 70%,rgba(70,230,255,.16),transparent 70%),
+             radial-gradient(30% 25% at 70% 15%,rgba(245,197,66,.10),transparent 70%);
+  animation:deriva 40s ease-in-out infinite alternate}
+@keyframes deriva{to{transform:translate(3%,-2%) scale(1.08) rotate(3deg)}}
+
+/* Abertura em letreiro rolando, estilo épico espacial */
+.abertura{position:fixed;inset:0;z-index:5;display:grid;place-items:center;overflow:hidden;background:transparent;perspective:420px;transition:opacity .9s}
+.abertura.fim{opacity:0;pointer-events:none}
+.intro1{position:absolute;color:var(--holo);font:400 clamp(16px,2.4vw,26px)/1.5 var(--f-corpo);text-align:center;padding-inline:24px;animation:intro 3.6s ease forwards}
+@keyframes intro{0%{opacity:0}15%,75%{opacity:1}100%{opacity:0}}
+.letreiro{position:absolute;bottom:0;width:min(780px,92vw);transform-origin:50% 100%;transform:rotateX(26deg);height:120vh;overflow:hidden;
+  -webkit-mask-image:linear-gradient(to top,#000 40%,transparent 92%);mask-image:linear-gradient(to top,#000 40%,transparent 92%)}
+.letreiro .rola{position:absolute;top:100%;width:100%;text-align:justify;color:var(--ouro);font:600 clamp(18px,2.6vw,30px)/1.45 var(--f-corpo);animation:rola 26s linear 3.4s forwards}
+.letreiro h2{font:900 clamp(26px,4vw,48px)/1.1 var(--f-titulo);text-align:center;letter-spacing:.06em;margin:0 0 .3em}
+.letreiro h3{font:500 clamp(14px,1.8vw,20px) var(--f-dado);text-align:center;letter-spacing:.3em;margin:0 0 1.2em;color:var(--ouro)}
+@keyframes rola{to{top:-170%}}
+.pular{position:absolute;right:max(20px,env(safe-area-inset-right,0px));bottom:calc(20px + env(safe-area-inset-bottom,0px));z-index:6;background:transparent;color:var(--apagado);border:1px solid var(--linha);border-radius:99px;padding:8px 16px;font:400 13px var(--f-dado);letter-spacing:.14em;cursor:pointer}
+.pular:hover,.pular:focus-visible{color:var(--holo);border-color:var(--holo);outline:none}
+
+/* Palco principal */
+.palco{position:relative;z-index:2;min-height:100%;display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);align-items:center;gap:clamp(16px,4vw,64px);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:32px;max-width:1280px;margin:0 auto;
+  opacity:0;transform:translateY(16px);transition:opacity 1.2s ease,transform 1.2s ease}
+.palco.on{opacity:1;transform:none}
+.heroi{position:relative;display:grid;place-items:center;min-height:min(78vh,760px);overflow:clip;overflow-clip-margin:24px}
+.orbita{position:absolute;border:1px solid var(--linha);border-radius:50%;animation:gira linear infinite}
+.orbita::after{content:"";position:absolute;top:-4px;left:50%;width:8px;height:8px;border-radius:50%;background:var(--holo);box-shadow:0 0 14px var(--holo)}
+.o1{width:min(560px,86vw);aspect-ratio:1;animation-duration:38s}
+.o2{width:min(440px,68vw);aspect-ratio:1;animation-duration:26s;animation-direction:reverse;border-style:dashed}
+.o2::after{background:var(--ouro);box-shadow:0 0 14px var(--ouro)}
+@keyframes gira{to{transform:rotate(360deg)}}
+.foto{position:relative;width:min(430px,70vw);aspect-ratio:720/882;max-width:100%;border-radius:0;
+  background:url(__FOTO__) center top/cover no-repeat;
+  -webkit-mask-image:radial-gradient(closest-side at 50% 46%,#000 62%,transparent 100%);mask-image:radial-gradient(closest-side at 50% 46%,#000 62%,transparent 100%);
+  filter:contrast(1.06) saturate(1.05) drop-shadow(0 0 40px rgba(70,230,255,.25));animation:flutua 7s ease-in-out infinite}
+.foto::after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,rgba(70,230,255,.18),transparent 35%,transparent 70%,rgba(245,197,66,.12));mix-blend-mode:screen}
+@keyframes flutua{50%{transform:translateY(-10px)}}
+.selo-hud{position:absolute;left:4%;bottom:10%;font:400 12px/1.6 var(--f-dado);letter-spacing:.16em;color:var(--holo);background:var(--vidro);border:1px solid var(--linha);padding:10px 14px;backdrop-filter:blur(6px)}
+.selo-hud b{color:var(--ouro);font-weight:400}
+
+.lado{display:grid;gap:28px;min-width:0}
+.eyebrow{font:400 13px var(--f-dado);letter-spacing:.42em;color:var(--holo);text-transform:uppercase}
+h1{margin:0;font:900 clamp(40px,6.2vw,86px)/.95 var(--f-titulo);letter-spacing:.02em;text-transform:uppercase;text-wrap:balance;
+  background:linear-gradient(180deg,#FFF6CF 0%,var(--ouro) 45%,#B9821A 100%);-webkit-background-clip:text;background-clip:text;color:transparent;
+  filter:drop-shadow(0 0 22px rgba(245,197,66,.35))}
+.cargo{display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;font:600 clamp(16px,1.6vw,20px) var(--f-corpo);letter-spacing:.24em;text-transform:uppercase}
+.cargo .arroba{font:400 15px var(--f-dado);letter-spacing:.08em;text-transform:none;color:var(--holo)}
+.sabre{height:3px;width:min(340px,100%);border-radius:3px;background:linear-gradient(90deg,transparent,var(--holo) 12%,#fff 50%,var(--holo) 88%,transparent);box-shadow:0 0 18px var(--holo),0 0 4px #fff;animation:sabre 2.4s ease-in-out infinite alternate;transform-origin:left}
+@keyframes sabre{from{opacity:.75;transform:scaleX(.96)}to{opacity:1;transform:scaleX(1)}}
+
+.cartao{background:var(--vidro);border:1px solid var(--linha);border-radius:18px;padding:clamp(20px,3vw,32px);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+  box-shadow:0 30px 80px rgba(0,0,0,.5),inset 0 1px 0 rgba(255,255,255,.06);display:grid;gap:18px;max-width:440px}
+.cartao h2{margin:0;font:900 clamp(22px,2.4vw,30px)/1.1 var(--f-titulo);letter-spacing:.04em;text-transform:uppercase}
+.cartao p.sub{margin:-8px 0 0;color:var(--apagado);font-size:14px;line-height:1.5}
+.campo{display:grid;gap:6px}
+.campo label{font:400 12px var(--f-dado);letter-spacing:.2em;text-transform:uppercase;color:var(--apagado)}
+.campo input{width:100%;box-sizing:border-box;background:rgba(3,4,11,.6);border:1px solid var(--linha);border-radius:10px;color:var(--texto);font:400 16px var(--f-corpo);padding:13px 14px;transition:border-color .2s,box-shadow .2s}
+.campo input:focus{outline:none;border-color:var(--holo);box-shadow:0 0 0 3px rgba(70,230,255,.18)}
+.senha{position:relative}
+.senha button{position:absolute;right:8px;top:50%;transform:translateY(-50%);background:none;border:0;color:var(--apagado);font:400 12px var(--f-dado);letter-spacing:.1em;cursor:pointer;padding:6px}
+.senha button:focus-visible{outline:2px solid var(--holo);border-radius:6px}
+.entrar{position:relative;overflow:hidden;border:0;border-radius:10px;padding:15px;font:700 15px var(--f-titulo);letter-spacing:.24em;text-transform:uppercase;cursor:pointer;color:#05060E;
+  background:linear-gradient(90deg,var(--ouro),#FFE38A,var(--ouro));box-shadow:0 0 24px rgba(245,197,66,.35)}
+.entrar::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,transparent 30%,rgba(255,255,255,.7) 50%,transparent 70%);transform:translateX(-100%);animation:brilho 3.5s ease-in-out infinite}
+@keyframes brilho{60%,100%{transform:translateX(100%)}}
+.entrar:focus-visible{outline:3px solid var(--holo);outline-offset:3px}
+.rotulo{display:flex;justify-content:space-between;align-items:baseline;gap:8px}.rotulo a{font-size:13px;color:var(--apagado);text-decoration:none}.rotulo a:hover,.rotulo a:focus-visible{color:var(--holo)}
+.seguro{display:flex;justify-content:center;align-items:center;gap:8px;font-size:13px;color:var(--apagado)}.seguro i{width:8px;height:8px;border-radius:50%;background:#3BE38A;box-shadow:0 0 8px #3BE38A}
+.linha-baixo{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;font-size:13px;color:var(--apagado)}
+.linha-baixo a{color:var(--holo);text-decoration:none}
+.aviso{min-height:1.2em;font:400 13px/1.5 var(--f-dado);color:var(--holo)}
+.rodape{font:400 11px var(--f-dado);letter-spacing:.18em;color:var(--apagado);text-transform:uppercase}
+
+@media (max-width:860px){
+  .palco{grid-template-columns:minmax(0,1fr);padding-block:20px 40px}
+  .heroi{min-height:auto;padding-top:8px}
+  .o1{width:min(420px,92vw)}.o2{width:min(330px,72vw)}
+  .foto{width:min(320px,74vw)}
+  .selo-hud{left:0;bottom:4%}
+  .lado{justify-items:start}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .abertura{display:none}.palco{opacity:1;transform:none}
+}
+</style>
+
+<canvas id="estrelas" aria-hidden="true"></canvas>
+<div class="nebulosa" aria-hidden="true"></div><div class="grade" aria-hidden="true"></div>
+
+<div class="abertura" id="abertura" aria-hidden="true">
+  <p class="intro1">Há pouco tempo, num mercado digital bem perto de você...</p>
+  <div class="letreiro"><div class="rola">
+    <h3>EPISÓDIO I</h3>
+    <h2>O DESPERTAR DA ESTRATÉGIA</h2>
+    <p>É tempo de crescimento. Marcas, mandatos e negócios disputam a atenção de milhões de pessoas numa galáxia de telas.</p>
+    <p>Sem estratégia, campanhas se perdem no vácuo. Com estratégia, cada post, cada anúncio e cada conversa vira resultado.</p>
+    <p>Nesta central, cada cliente acompanha o próprio plano, os conteúdos e os números, guiado pelo estrategista Lindson Almeida...</p>
+  </div></div>
+</div>
+<button class="pular" id="pular" type="button">PULAR ABERTURA ›</button>
+
+<main class="palco" id="palco">
+  <section class="heroi" aria-label="Lindson Almeida">
+    <div class="orbita o1" aria-hidden="true"></div>
+    <div class="orbita o2" aria-hidden="true"></div>
+    <div class="foto" role="img" aria-label="Foto de Lindson Almeida"></div>
+    <div class="selo-hud" aria-hidden="true">ESTRATÉGIA · CONTEÚDO · TRÁFEGO<br><b>SÃO LUÍS · MA</b></div>
+  </section>
+
+  <section class="lado">
+    <span class="eyebrow">Central do cliente</span>
+    <h1>Lindson<br>Almeida</h1>
+    <div class="cargo"><span>Estrategista digital</span><span class="arroba">@lindsonalmeida_</span></div>
+    <div class="sabre" aria-hidden="true"></div>
+
+    <form class="cartao" id="login" novalidate>
+      <h2>Acessar painel</h2>
+      <p class="sub">Entre com sua conta para continuar.</p>
+      <div class="campo"><label for="usuario">Login</label>
+        <input id="usuario" name="usuario" autocomplete="username" placeholder="seu.login" required></div>
+      <div class="campo"><div class="rotulo"><label for="senha">Senha</label><a href="#login" id="esqueci">Esqueci minha senha</a></div>
+        <div class="senha"><input id="senha" name="senha" type="password" autocomplete="current-password" placeholder="••••••••" required>
+        <button type="button" id="ver" aria-label="Mostrar senha"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg></button></div></div>
+      <button class="entrar" type="submit">Entrar <span aria-hidden="true">→</span></button>
+      <div class="aviso" id="aviso" role="status" aria-live="polite"></div>
+      <div class="seguro"><i></i>Conexão segura e criptografada</div>
+    </form>
+    <span class="rodape">© Lindson Almeida · Estratégia digital</span>
+  </section>
+</main>
+
+<script>
+(()=>{
+const reduz=matchMedia('(prefers-reduced-motion: reduce)').matches;
+// campo de estrelas em velocidade de cruzeiro, com leve paralaxe do mouse
+const cv=document.getElementById('estrelas'),cx=cv.getContext('2d');let W,H,ES=[],mx=0,my=0;
+function tam(){W=cv.width=innerWidth*devicePixelRatio;H=cv.height=innerHeight*devicePixelRatio;ES=Array.from({length:Math.min(900,Math.floor(W*H/2600))},nova)}
+function nova(){return{x:(Math.random()-.5)*W,y:(Math.random()-.5)*H,z:Math.random()*W,c:Math.random()<.08?'245,197,66':Math.random()<.2?'70,230,255':'233,238,255'}}
+let vel=reduz?0:6;
+function quadro(){cx.fillStyle='rgba(3,4,11,.35)';cx.fillRect(0,0,W,H);
+  for(const e of ES){const pz=e.z;e.z-=vel;if(e.z<1){Object.assign(e,nova(),{z:W})}
+    const k=W/2/e.z,sx=e.x*k+W/2+mx*(1-e.z/W)*40,sy=e.y*k+H/2+my*(1-e.z/W)*40,pk=W/2/pz,px=e.x*pk+W/2+mx*(1-pz/W)*40,py=e.y*pk+H/2+my*(1-pz/W)*40;
+    const a=Math.min(1,(1-e.z/W)*1.4);cx.strokeStyle=`rgba(${e.c},${a})`;cx.lineWidth=Math.max(.6,(1-e.z/W)*2.4*devicePixelRatio);
+    cx.beginPath();cx.moveTo(px,py);cx.lineTo(sx,sy);cx.stroke()}
+  if(!reduz)requestAnimationFrame(quadro)}
+addEventListener('resize',tam);addEventListener('pointermove',e=>{mx=(e.clientX/innerWidth-.5)*devicePixelRatio;my=(e.clientY/innerHeight-.5)*devicePixelRatio});
+tam();cx.fillStyle='#03040B';cx.fillRect(0,0,W,H);quadro();
+
+// abertura: letreiro rolando, depois o painel aparece (pode pular)
+const ab=document.getElementById('abertura'),pl=document.getElementById('palco'),pu=document.getElementById('pular');
+let visto=false;try{visto=sessionStorage.getItem('abertura-vista')==='1'}catch(e){}
+function revela(){ab.classList.add('fim');pu.hidden=true;pl.classList.add('on');vel=reduz?0:1.2;try{sessionStorage.setItem('abertura-vista','1')}catch(e){}}
+if(reduz||visto){ab.hidden=true;revela()}else{vel=14;setTimeout(revela,14000)}
+pu.addEventListener('click',revela);
+
+// formulário (protótipo: o acesso de verdade entra quando o sistema for criado)
+const f=document.getElementById('login'),av=document.getElementById('aviso'),se=document.getElementById('senha');
+document.getElementById('ver').addEventListener('click',e=>{const v=se.type==='password';se.type=v?'text':'password';e.currentTarget.setAttribute('aria-label',v?'Ocultar senha':'Mostrar senha')});
+f.addEventListener('submit',e=>{e.preventDefault();const u=document.getElementById('usuario').value.trim();
+  if(!u||!se.value){av.textContent='Preencha o login e a senha para entrar.';return}
+  av.textContent='Protótipo da tela de acesso. O login de verdade é ligado quando o painel for criado.'});
+document.getElementById('esqueci').addEventListener('click',e=>{e.preventDefault();av.textContent='Para criar uma senha nova, fale com a equipe do Lindson pelo WhatsApp.'});
+})();
+</script>
