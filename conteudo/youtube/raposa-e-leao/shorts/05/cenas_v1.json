@@ -1,0 +1,188 @@
+{
+ "tom": 77.78,
+ "cenas": [
+  {
+   "t": "stack",
+   "bg": "glow:rgba(142,27,27,.3):45",
+   "items": [
+    {
+     "h": "Notícia ruim?",
+     "y": 500,
+     "s": 150,
+     "f": "ant"
+    },
+    {
+     "h": "De uma vez.",
+     "y": 760,
+     "s": 190,
+     "f": "ant",
+     "c": "gold",
+     "w": "toda",
+     "a": "slam"
+    }
+   ]
+  },
+  {
+   "t": "stack",
+   "w": "Corte",
+   "items": [
+    {
+     "h": "<span class='gold'>01</span> Corte",
+     "y": 400,
+     "s": 130,
+     "f": "ant",
+     "x": "l",
+     "w": "corte"
+    },
+    {
+     "h": "<span class='gold'>02</span> Ajuste",
+     "y": 580,
+     "s": 130,
+     "f": "ant",
+     "x": "l",
+     "w": "ajuste"
+    },
+    {
+     "h": "<span class='gold'>03</span> Mudança dura",
+     "y": 760,
+     "s": 130,
+     "f": "ant",
+     "x": "l",
+     "w": "mudança"
+    },
+    {
+     "h": "Tudo junto",
+     "y": 1060,
+     "s": 160,
+     "f": "ant",
+     "box": "red",
+     "w": "tudo",
+     "a": "slam"
+    }
+   ]
+  },
+  {
+   "t": "stack",
+   "w": "Porque",
+   "bg": "foto:opacity:.2",
+   "items": [
+    {
+     "h": "Dor que se arrasta",
+     "y": 600,
+     "s": 120,
+     "f": "ant",
+     "w": "dor"
+    },
+    {
+     "h": "vira ressentimento",
+     "y": 780,
+     "s": 100,
+     "f": "cg",
+     "c": "red",
+     "w": "ressentimento"
+    }
+   ]
+  },
+  {
+   "t": "duo",
+   "w": "Já",
+   "dir": "v",
+   "a": {
+    "k": "O mal",
+    "s": "de uma vez",
+    "c": "#E0453C",
+    "bar": "full"
+   },
+   "b": {
+    "k": "O bem",
+    "s": "aos poucos, para ser lembrado",
+    "c": "#E2BE4A",
+    "w": "entregue",
+    "bar": "steps"
+   }
+  },
+  {
+   "t": "stack",
+   "w": "Maquiavel",
+   "bg": "num:VIII",
+   "items": [
+    {
+     "h": "Hoje serve para",
+     "y": 400,
+     "f": "tag",
+     "d": 0
+    },
+    {
+     "h": "o chefe",
+     "y": 580,
+     "s": 150,
+     "f": "ant",
+     "w": "chefe"
+    },
+    {
+     "h": "o pai",
+     "y": 760,
+     "s": 150,
+     "f": "ant",
+     "w": "pai"
+    },
+    {
+     "h": "quem vende",
+     "y": 940,
+     "s": 150,
+     "f": "ant",
+     "c": "gold",
+     "w": "vende",
+     "a": "slam"
+    }
+   ]
+  },
+  {
+   "t": "stack",
+   "w": "mal",
+   "bg": "glow:rgba(201,162,39,.2):50",
+   "items": [
+    {
+     "h": "O mal,",
+     "y": 520,
+     "s": 170,
+     "f": "ant",
+     "c": "red",
+     "w": "mal"
+    },
+    {
+     "h": "de uma vez.",
+     "y": 700,
+     "s": 110,
+     "f": "cg",
+     "w": "vez#2"
+    },
+    {
+     "h": "O bem,",
+     "y": 920,
+     "s": 170,
+     "f": "ant",
+     "c": "gold",
+     "w": "bem"
+    },
+    {
+     "h": "aos poucos.",
+     "y": 1100,
+     "s": 110,
+     "f": "cg",
+     "w": "poucos#2"
+    },
+    {
+     "h": "O PRÍNCIPE · CAP. VIII",
+     "y": 1340,
+     "f": "tag",
+     "w": "poucos#2"
+    }
+   ]
+  },
+  {
+   "t": "assinatura",
+   "apos": "poucos#2"
+  }
+ ]
+}

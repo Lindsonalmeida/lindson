@@ -1,0 +1,104 @@
+{
+ "tom": 65.41,
+ "cenas": [
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Perderam tudo",
+     "y": 360,
+     "s": 170,
+     "f": "ant",
+     "c": "red",
+     "d": 0
+    },
+    {
+     "h": "depois de vencer",
+     "y": 620,
+     "s": 110,
+     "f": "cg",
+     "c": "",
+     "w": "vencer"
+    }
+   ],
+   "bg": "glow:rgba(142,27,27,.35):40"
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Por quê?",
+     "y": 380,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "w": "por"
+    },
+    {
+     "h": "Não souberam",
+     "y": 560,
+     "s": 150,
+     "f": "ant",
+     "c": "",
+     "w": "souberam"
+    },
+    {
+     "h": "parar",
+     "y": 760,
+     "s": 250,
+     "f": "ant",
+     "c": "gold",
+     "w": "parar",
+     "a": "slam"
+    }
+   ],
+   "w": "Por"
+  },
+  {
+   "t": "duo",
+   "w": "Maquiavel",
+   "dir": "v",
+   "a": {
+    "k": "Prudente",
+    "s": "se contenta com a vitória",
+    "c": "#E2BE4A",
+    "w": "prudente"
+   },
+   "b": {
+    "k": "Ganancioso",
+    "s": "cria um inimigo desesperado",
+    "c": "#E0453C",
+    "w": "desesperado"
+   }
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Ganhou?",
+     "y": 420,
+     "s": 200,
+     "f": "ant",
+     "c": "",
+     "w": "ganhou"
+    },
+    {
+     "h": "Garanta o<br>que ganhou.",
+     "y": 700,
+     "s": 150,
+     "f": "ant",
+     "c": "",
+     "w": "garanta",
+     "a": "slam",
+     "box": "gold"
+    }
+   ],
+   "w": "Ganhou",
+   "bg": "foto:top:1100px;bottom:-320px"
+  },
+  {
+   "t": "assinatura",
+   "apos": "ganhou#3"
+  }
+ ]
+}

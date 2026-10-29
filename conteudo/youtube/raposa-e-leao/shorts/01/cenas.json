@@ -1,0 +1,141 @@
+{
+ "cenas": [
+  {
+   "t": "stack",
+   "bg": "glow:rgba(142,27,27,.32):42",
+   "items": [
+    {
+     "h": "A frase mais famosa<br>de Maquiavel",
+     "y": 300,
+     "s": 96,
+     "f": "ant",
+     "c": "",
+     "d": 0
+    },
+    {
+     "h": "ele nunca<br>escreveu",
+     "y": 560,
+     "s": 150,
+     "f": "ant",
+     "c": "gold",
+     "w": "nunca#1",
+     "a": "slam"
+    },
+    {
+     "h": "“Os fins justificam<br>os meios”",
+     "y": 900,
+     "s": 96,
+     "f": "cg",
+     "c": "",
+     "w": "fins#1",
+     "riscar": "meios#1"
+    },
+    {
+     "h": "não aparece em<br>nenhum livro dele",
+     "y": 1140,
+     "s": 66,
+     "f": "cg",
+     "c": "dim",
+     "w": "aparece#1"
+    }
+   ]
+  },
+  {
+   "t": "conversa",
+   "w": "Você#1",
+   "img": "../img/hist/arco_severo.jpg",
+   "h": "Achava que<br>era dele?",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "RESPONDE NOS COMENTÁRIOS",
+    "digita": "SIM, ACHAVA"
+   }
+  },
+  {
+   "t": "pagina",
+   "w": "O#1",
+   "tag": "O PRÍNCIPE · CAP. XVIII",
+   "titulo": "O que ele<br>escreveu",
+   "ty": 300,
+   "de": "nas#1",
+   "ate": "resultado#1",
+   "hl": [
+    "resultado#1"
+   ],
+   "y": 760,
+   "s": 74
+  },
+  {
+   "t": "duo",
+   "w": "Ele#3",
+   "dir": "v",
+   "a": {
+    "k": "Permissão",
+    "s": "não era isso",
+    "c": "#E0453C",
+    "w": "permissão#1"
+   },
+   "b": {
+    "k": "Aviso",
+    "s": "é assim que vão te julgar",
+    "c": "#E2BE4A",
+    "w": "avisando#1"
+   }
+  },
+  {
+   "t": "stack",
+   "w": "pelo#1",
+   "items": [
+    {
+     "h": "Pelo que você",
+     "y": 380,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "w": "pelo#1"
+    },
+    {
+     "h": "entrega",
+     "y": 580,
+     "s": 220,
+     "f": "ant",
+     "c": "gold",
+     "w": "entrega#1",
+     "a": "slam"
+    },
+    {
+     "h": "não pelo que<br>você pretendia",
+     "y": 900,
+     "s": 100,
+     "f": "cg",
+     "c": "dim",
+     "w": "pretendia#1"
+    }
+   ]
+  },
+  {
+   "t": "conversa",
+   "w": "E#2",
+   "img": "../img/hist/girolamo_savonarola.jpg",
+   "h": "Já te julgaram<br>assim?",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "RESPONDE NOS COMENTÁRIOS",
+    "digita": "JÁ, NO TRABALHO"
+   }
+  },
+  {
+   "t": "assinatura",
+   "apos": "embaixo#1",
+   "frase": "Siga para a próxima lição.",
+   "interage": {
+    "tipo": "segue",
+    "txt": "SIGA PARA A PRÓXIMA LIÇÃO"
+   }
+  }
+ ],
+ "tom": 73.42,
+ "abre": "flash",
+ "pulso": 1.25,
+ "batida": "reto"
+}

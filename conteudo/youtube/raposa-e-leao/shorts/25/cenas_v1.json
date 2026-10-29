@@ -1,0 +1,85 @@
+{
+ "tom": 73.42,
+ "cenas": [
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Erro fácil demais?",
+     "y": 360,
+     "s": 130,
+     "f": "ant",
+     "c": "",
+     "d": 0
+    },
+    {
+     "h": "Desconfie.",
+     "y": 620,
+     "s": 220,
+     "f": "ant",
+     "c": "gold",
+     "w": "desconfie",
+     "a": "slam"
+    }
+   ],
+   "bg": "foto:top:1000px;bottom:-320px"
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "É isca.",
+     "y": 400,
+     "s": 240,
+     "f": "ant",
+     "c": "red",
+     "w": "isca"
+    },
+    {
+     "h": "Exércitos inteiros<br>caíram em emboscadas<br>perseguindo quem “fugia”",
+     "y": 780,
+     "s": 74,
+     "f": "cg",
+     "c": "",
+     "w": "exércitos"
+    }
+   ],
+   "w": "Muitas",
+   "bg": "num:III.48"
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Parece fácil?",
+     "y": 400,
+     "s": 130,
+     "f": "ant",
+     "c": "",
+     "w": "parece"
+    },
+    {
+     "h": "Pergunte por quê",
+     "y": 620,
+     "s": 130,
+     "f": "ant",
+     "c": "gold",
+     "w": "pergunte"
+    },
+    {
+     "h": "antes de avançar",
+     "y": 800,
+     "s": 100,
+     "f": "cg",
+     "c": "",
+     "w": "avançar"
+    }
+   ],
+   "w": "Se"
+  },
+  {
+   "t": "assinatura",
+   "apos": "avançar"
+  }
+ ]
+}

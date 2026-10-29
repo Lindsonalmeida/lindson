@@ -1,0 +1,79 @@
+{
+ "tom": 77.78,
+ "cenas": [
+  {
+   "t": "pagina",
+   "tag": "A ARTE DA GUERRA",
+   "titulo": "Regra de guerra",
+   "ty": 300,
+   "de": "sobre",
+   "ate": "poucos",
+   "hl": [
+    "muitos",
+    "poucos"
+   ],
+   "y": 740,
+   "s": 78
+  },
+  {
+   "t": "duo",
+   "w": "Ouvir",
+   "dir": "h",
+   "a": {
+    "k": "Ouvir muitos",
+    "s": "te dá visão",
+    "c": "#E2BE4A",
+    "w": "ouvir"
+   },
+   "b": {
+    "k": "Contar a muitos",
+    "s": "entrega seu próximo passo",
+    "c": "#E0453C",
+    "w": "contar"
+   }
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Escute",
+     "y": 400,
+     "s": 170,
+     "f": "ant",
+     "c": "",
+     "w": "escute"
+    },
+    {
+     "h": "aberto.",
+     "y": 580,
+     "s": 110,
+     "f": "cg",
+     "c": "dim",
+     "w": "aberto"
+    },
+    {
+     "h": "Decida",
+     "y": 780,
+     "s": 170,
+     "f": "ant",
+     "c": "gold",
+     "w": "decida"
+    },
+    {
+     "h": "fechado.",
+     "y": 960,
+     "s": 110,
+     "f": "cg",
+     "c": "gold",
+     "w": "fechado",
+     "a": "slam"
+    }
+   ],
+   "w": "Escute"
+  },
+  {
+   "t": "assinatura",
+   "apos": "fechado"
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "tom": 58.27,
+ "cenas": [
+  {
+   "t": "stack",
+   "bg": "num:?",
+   "items": [
+    {
+     "h": "Quer saber se alguém é",
+     "y": 520,
+     "s": 100,
+     "f": "ant"
+    },
+    {
+     "h": "inteligente?",
+     "y": 680,
+     "s": 190,
+     "f": "ant",
+     "c": "gold",
+     "w": "inteligente",
+     "a": "slam"
+    }
+   ]
+  },
+  {
+   "t": "orbita",
+   "w": "Maquiavel",
+   "titulo": "Olhe em volta dele",
+   "centro": "ELE",
+   "bom": "capazes",
+   "mau": "fracas",
+   "tb": "capazes e leais = líder sábio",
+   "tm": "fracos = o erro foi dele"
+  },
+  {
+   "t": "stack",
+   "w": "Antes",
+   "bg": "foto:top:640px;bottom:-320px",
+   "items": [
+    {
+     "h": "Antes de te ouvirem,",
+     "y": 190,
+     "s": 90,
+     "f": "cg",
+     "c": "dim"
+    },
+    {
+     "h": "olham quem<br>anda com você",
+     "y": 310,
+     "s": 130,
+     "f": "ant",
+     "c": "gold",
+     "w": "olham"
+    }
+   ]
+  },
+  {
+   "t": "assinatura",
+   "w": "raposa"
+  }
+ ]
+}

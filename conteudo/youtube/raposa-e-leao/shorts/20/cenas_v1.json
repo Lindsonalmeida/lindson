@@ -1,0 +1,97 @@
+{
+ "tom": 82.41,
+ "cenas": [
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "O erro:",
+     "y": 340,
+     "s": 40,
+     "f": "tag",
+     "c": "",
+     "d": 0
+    },
+    {
+     "h": "ameaçar",
+     "y": 500,
+     "s": 190,
+     "f": "ant",
+     "c": "red",
+     "w": "ameaçar"
+    },
+    {
+     "h": "e pedir",
+     "y": 740,
+     "s": 190,
+     "f": "ant",
+     "c": "",
+     "w": "pedir"
+    },
+    {
+     "h": "na mesma frase",
+     "y": 980,
+     "s": 90,
+     "f": "cg",
+     "c": "dim",
+     "w": "frase"
+    }
+   ]
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "“Me dá isso,",
+     "y": 420,
+     "s": 120,
+     "f": "cg",
+     "c": "",
+     "w": "me"
+    },
+    {
+     "h": "senão…”",
+     "y": 600,
+     "s": 180,
+     "f": "ant",
+     "c": "red",
+     "w": "senão",
+     "a": "slam"
+    },
+    {
+     "h": "= avisa o perigo e dá<br>tempo para se proteger",
+     "y": 900,
+     "s": 70,
+     "f": "cg",
+     "c": "dim",
+     "w": "avisa"
+    }
+   ],
+   "w": "Me",
+   "bg": "glow:rgba(142,27,27,.35):40"
+  },
+  {
+   "t": "duo",
+   "w": "Se",
+   "dir": "h",
+   "a": {
+    "k": "Vai pedir?",
+    "s": "peça",
+    "c": "#E2BE4A",
+    "w": "pedir#2"
+   },
+   "b": {
+    "k": "Vai agir?",
+    "s": "aja",
+    "c": "#EE8040",
+    "w": "agir"
+   },
+   "meio": "NUNCA OS DOIS",
+   "meioW": "misturar"
+  },
+  {
+   "t": "assinatura",
+   "apos": "dois#2"
+  }
+ ]
+}

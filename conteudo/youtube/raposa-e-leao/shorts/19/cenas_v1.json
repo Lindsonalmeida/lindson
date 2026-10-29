@@ -1,0 +1,81 @@
+{
+ "tom": 77.78,
+ "cenas": [
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Obrigado a ceder?",
+     "y": 360,
+     "s": 130,
+     "f": "ant",
+     "c": "",
+     "d": 0
+    },
+    {
+     "h": "Faça parecer",
+     "y": 620,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "w": "parecer"
+    },
+    {
+     "h": "escolha",
+     "y": 760,
+     "s": 220,
+     "f": "ant",
+     "c": "gold",
+     "w": "escolha",
+     "a": "slam"
+    }
+   ],
+   "bg": "num:I.51"
+  },
+  {
+   "t": "duo",
+   "w": "Quem",
+   "dir": "v",
+   "a": {
+    "k": "Cede reclamando",
+    "s": "parece fraco e perde o mérito",
+    "c": "#E0453C",
+    "w": "reclamando"
+   },
+   "b": {
+    "k": "Cede decidindo",
+    "s": "mantém autoridade e gratidão",
+    "c": "#E2BE4A",
+    "w": "decidido"
+   }
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "A situação é a mesma.",
+     "y": 420,
+     "s": 80,
+     "f": "cg",
+     "c": "dim",
+     "w": "situação"
+    },
+    {
+     "h": "O que muda<br>é a postura.",
+     "y": 580,
+     "s": 150,
+     "f": "ant",
+     "c": "gold",
+     "w": "muda",
+     "a": "slam"
+    }
+   ],
+   "w": "A#2",
+   "bg": "foto:top:900px;bottom:-320px"
+  },
+  {
+   "t": "assinatura",
+   "apos": "postura"
+  }
+ ]
+}

@@ -10,8 +10,9 @@ TEMPOS = json.load(open(RAIZ + '/tempos.json')) if os.path.exists(RAIZ + '/tempo
 itens = []
 for k in ORDEM:
     v = spec[k]; longo = v['formato'] == 'longo'
-    capas = [{'nome': 'Capa A', 'arq': f'{k}-A.jpg'}, {'nome': 'Capa B', 'arq': f'{k}-B.jpg'}] if longo else [{'nome': 'Capa', 'arq': f'{k}.jpg'}]
+    capas = [{'nome': 'Capa A', 'arq': f'{k}-A.jpg'}, {'nome': 'Capa B', 'arq': f'{k}-B.jpg'}, {'nome': 'Capa C (clara)', 'arq': f'{k}-C.jpg'}] if longo else [{'nome': 'Capa', 'arq': f'{k}.jpg'}]
     for c in capas: c['url'] = ativos.get(c['arq'])
+    capas = [c for c in capas if c['url'] or not c['arq'].endswith('-C.jpg')]
     itens.append({'id': k, 'tipo': 'longo' if longo else 'short', 'titulo': v['titulo'], 'legenda': v['legenda'].replace('{CAPITULOS}', '\n'.join(f'{a} {b}' for a, b in TEMPOS.get(k, []))), 'comentario': v.get('comentario', ''),
                   'video': ativos.get(f'{k}-app.mp4'), 'arqVideo': f'passaporte-{k}.mp4', 'capas': capas, 'dur': ativos.get(f'{k}-dur', '')})
 html = open(D + '/app_pv.html').read().replace('__DADOS__', json.dumps(itens, ensure_ascii=False))

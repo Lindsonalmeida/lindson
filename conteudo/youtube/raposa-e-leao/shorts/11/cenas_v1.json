@@ -1,0 +1,97 @@
+{
+ "tom": 73.42,
+ "cenas": [
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Nada é mais",
+     "y": 360,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "d": 0
+    },
+    {
+     "h": "perigoso",
+     "y": 520,
+     "s": 230,
+     "f": "ant",
+     "c": "red",
+     "w": "perigoso",
+     "a": "slam"
+    },
+    {
+     "h": "do que implantar<br>algo novo",
+     "y": 820,
+     "s": 100,
+     "f": "cg",
+     "c": "",
+     "w": "implantar"
+    }
+   ],
+   "bg": "glow:rgba(142,27,27,.35):40"
+  },
+  {
+   "t": "duo",
+   "w": "Quem",
+   "dir": "v",
+   "a": {
+    "k": "Antigo",
+    "s": "vira seu inimigo na hora",
+    "c": "#E0453C",
+    "w": "antigo"
+   },
+   "b": {
+    "k": "Novo",
+    "s": "te defende só um pouco",
+    "c": "#E2BE4A",
+    "w": "novo#2",
+    "bar": "steps"
+   }
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Vai mudar algo?",
+     "y": 380,
+     "s": 120,
+     "f": "ant",
+     "c": "",
+     "w": "mudar"
+    },
+    {
+     "h": "Espere",
+     "y": 620,
+     "s": 130,
+     "f": "cg",
+     "c": "dim",
+     "w": "espere"
+    },
+    {
+     "h": "resistência",
+     "y": 760,
+     "s": 170,
+     "f": "ant",
+     "c": "gold",
+     "w": "resistência",
+     "a": "slam"
+    },
+    {
+     "h": "Ela não é sinal<br>de que você errou.",
+     "y": 1040,
+     "s": 80,
+     "f": "cg",
+     "c": "",
+     "w": "sinal"
+    }
+   ],
+   "w": "Se"
+  },
+  {
+   "t": "assinatura",
+   "apos": "errado"
+  }
+ ]
+}

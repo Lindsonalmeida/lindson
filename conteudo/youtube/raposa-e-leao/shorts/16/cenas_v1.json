@@ -1,0 +1,83 @@
+{
+ "tom": 65.41,
+ "cenas": [
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Generoso para<br>ser visto?",
+     "y": 320,
+     "s": 140,
+     "f": "ant",
+     "c": "",
+     "d": 0
+    },
+    {
+     "h": "É uma armadilha.",
+     "y": 660,
+     "s": 120,
+     "f": "ant",
+     "c": "",
+     "w": "armadilha",
+     "a": "slam",
+     "box": "red"
+    }
+   ],
+   "bg": "num:XVI"
+  },
+  {
+   "t": "duo",
+   "w": "Quem",
+   "dir": "v",
+   "a": {
+    "k": "Gasta tudo",
+    "s": "para parecer generoso",
+    "c": "#E2BE4A",
+    "w": "gasta",
+    "bar": "full"
+   },
+   "b": {
+    "k": "Cobra mais",
+    "s": "de quem está perto",
+    "c": "#E0453C",
+    "w": "cobrar"
+   },
+   "meio": "ÓDIO",
+   "meioW": "ódio"
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Fama de econômico",
+     "y": 400,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "w": "econômico"
+    },
+    {
+     "h": "má fama, sem ódio",
+     "y": 580,
+     "s": 90,
+     "f": "cg",
+     "c": "dim",
+     "w": "má"
+    },
+    {
+     "h": "Generosidade de<br>verdade cabe no<br>seu bolso",
+     "y": 820,
+     "s": 110,
+     "f": "ant",
+     "c": "gold",
+     "w": "generosidade"
+    }
+   ],
+   "w": "Ele"
+  },
+  {
+   "t": "assinatura",
+   "apos": "bolso"
+  }
+ ]
+}

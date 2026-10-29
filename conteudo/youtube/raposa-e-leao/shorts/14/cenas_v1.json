@@ -1,0 +1,128 @@
+{
+ "tom": 58.27,
+ "cenas": [
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Profetas armados",
+     "y": 360,
+     "s": 130,
+     "f": "ant",
+     "c": "gold",
+     "d": 0
+    },
+    {
+     "h": "venceram",
+     "y": 540,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "w": "venceram"
+    },
+    {
+     "h": "Desarmados",
+     "y": 800,
+     "s": 130,
+     "f": "ant",
+     "c": "red",
+     "w": "desarmados"
+    },
+    {
+     "h": "se arruinaram",
+     "y": 980,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "w": "arruinaram"
+    }
+   ],
+   "bg": "num:VI"
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Não é só espada.",
+     "y": 260,
+     "s": 90,
+     "f": "cg",
+     "c": "dim",
+     "w": "espada"
+    },
+    {
+     "h": "É ter meios de<br>sustentar o que<br>você começou",
+     "y": 380,
+     "s": 110,
+     "f": "ant",
+     "c": "gold",
+     "w": "meios"
+    }
+   ],
+   "w": "Maquiavel",
+   "bg": "foto:top:640px;bottom:-320px"
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Ideia sem recurso",
+     "y": 380,
+     "s": 100,
+     "f": "ant",
+     "c": "",
+     "w": "recurso",
+     "riscar": "dura"
+    },
+    {
+     "h": "sem estrutura",
+     "y": 540,
+     "s": 100,
+     "f": "ant",
+     "c": "",
+     "w": "estrutura"
+    },
+    {
+     "h": "sem gente",
+     "y": 700,
+     "s": 100,
+     "f": "ant",
+     "c": "",
+     "w": "gente"
+    },
+    {
+     "h": "não dura",
+     "y": 900,
+     "s": 170,
+     "f": "ant",
+     "c": "",
+     "w": "dura",
+     "a": "slam",
+     "box": "red"
+    }
+   ],
+   "w": "Uma"
+  },
+  {
+   "t": "duo",
+   "w": "Convencer",
+   "dir": "v",
+   "a": {
+    "k": "Convencer",
+    "s": "é fácil",
+    "c": "#EFE6D2",
+    "w": "convencer"
+   },
+   "b": {
+    "k": "Manter",
+    "s": "é que exige força",
+    "c": "#E2BE4A",
+    "w": "manter"
+   }
+  },
+  {
+   "t": "assinatura",
+   "apos": "força"
+  }
+ ]
+}

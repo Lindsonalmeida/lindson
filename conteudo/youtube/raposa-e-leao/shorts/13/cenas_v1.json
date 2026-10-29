@@ -1,0 +1,106 @@
+{
+ "tom": 82.41,
+ "cenas": [
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "A sorte",
+     "y": 380,
+     "s": 230,
+     "f": "ant",
+     "c": "gold",
+     "d": 0
+    },
+    {
+     "h": "é um rio que,<br>quando enche,",
+     "y": 680,
+     "s": 100,
+     "f": "cg",
+     "c": "",
+     "w": "rio"
+    },
+    {
+     "h": "arrasta tudo",
+     "y": 940,
+     "s": 150,
+     "f": "ant",
+     "c": "",
+     "w": "arrasta",
+     "a": "slam",
+     "box": "red"
+    }
+   ],
+   "bg": "glow:rgba(76,141,255,.18):45"
+  },
+  {
+   "t": "duo",
+   "w": "Mas",
+   "dir": "v",
+   "a": {
+    "k": "Tempo bom",
+    "s": "construa o dique",
+    "c": "#E2BE4A",
+    "w": "construiu",
+    "bar": "steps"
+   },
+   "b": {
+    "k": "Tempestade",
+    "s": "o dique segura",
+    "c": "#EFE6D2",
+    "w": "limita",
+    "bar": "full"
+   }
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Reserva",
+     "y": 360,
+     "s": 150,
+     "f": "ant",
+     "c": "",
+     "w": "reserva"
+    },
+    {
+     "h": "Preparo",
+     "y": 530,
+     "s": 150,
+     "f": "ant",
+     "c": "",
+     "w": "preparo"
+    },
+    {
+     "h": "Contatos",
+     "y": 700,
+     "s": 150,
+     "f": "ant",
+     "c": "",
+     "w": "contatos"
+    },
+    {
+     "h": "se faz na calmaria",
+     "y": 920,
+     "s": 100,
+     "f": "cg",
+     "c": "gold",
+     "w": "calmaria"
+    },
+    {
+     "h": "Na tempestade é tarde.",
+     "y": 1080,
+     "s": 90,
+     "f": "ant",
+     "c": "red",
+     "w": "tempestade"
+    }
+   ],
+   "w": "Reserva"
+  },
+  {
+   "t": "assinatura",
+   "apos": "tarde"
+  }
+ ]
+}

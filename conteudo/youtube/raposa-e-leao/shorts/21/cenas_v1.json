@@ -1,0 +1,80 @@
+{
+ "tom": 58.27,
+ "cenas": [
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Só dá quando<br>é obrigado?",
+     "y": 340,
+     "s": 140,
+     "f": "ant",
+     "c": "",
+     "d": 0
+    },
+    {
+     "h": "Ninguém agradece.",
+     "y": 700,
+     "s": 120,
+     "f": "ant",
+     "c": "",
+     "w": "agradece",
+     "a": "slam",
+     "box": "red"
+    }
+   ],
+   "bg": "foto:top:1000px;bottom:-320px"
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Não espere a pressão",
+     "y": 380,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "w": "espere"
+    },
+    {
+     "h": "Aumento",
+     "y": 600,
+     "s": 120,
+     "f": "ant",
+     "c": "gold",
+     "w": "aumento"
+    },
+    {
+     "h": "Bônus",
+     "y": 750,
+     "s": 120,
+     "f": "ant",
+     "c": "gold",
+     "w": "bônus"
+    },
+    {
+     "h": "Desculpas",
+     "y": 900,
+     "s": 120,
+     "f": "ant",
+     "c": "gold",
+     "w": "desculpas"
+    },
+    {
+     "h": "valem o dobro antes da cobrança",
+     "y": 1100,
+     "s": 70,
+     "f": "cg",
+     "c": "",
+     "w": "dobro"
+    }
+   ],
+   "w": "Maquiavel",
+   "bg": "num:2×"
+  },
+  {
+   "t": "assinatura",
+   "apos": "cobrança"
+  }
+ ]
+}

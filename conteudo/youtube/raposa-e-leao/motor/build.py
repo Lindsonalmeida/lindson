@@ -3,9 +3,9 @@ A pasta precisa ter voz.wav e spec.json (total em segundos). Gera video.mp4 nela
 import json,sys,os,subprocess,numpy as np,soundfile as sf
 from scipy.signal import butter,lfilter
 D=os.path.dirname(os.path.abspath(__file__));stage=sys.argv[1];P=os.path.abspath(sys.argv[2])
-W='/tmp/claude-0/-home-user/11370c4d-a43e-5ddc-930a-0de2e05453c2/scratchpad/rl_work_'+os.path.basename(P);os.makedirs(W,exist_ok=True)
+W='/tmp/claude-0/-home-user/5acf6937-9ac6-56e0-bc29-78bef210dc8b/scratchpad/rl_work_'+os.path.basename(P);os.makedirs(W,exist_ok=True)
 spec=json.load(open(P+'/spec.json'));T=spec['total']
-html=open(D+'/'+stage).read().replace('__EMB__',open(D+'/emblema.inc').read()).replace('__SPEC__',json.dumps(spec,ensure_ascii=False))
+html=open(D+'/'+stage).read().replace('__EMB__',open(D+'/emblema.inc').read()).replace('__IW__',open(D+'/interage.inc').read()).replace('__SPEC__',json.dumps(spec,ensure_ascii=False))
 open(D+'/_stage_'+os.path.basename(P)+'.html','w').write(html)
 STEP=int(os.environ.get('STEP','1'))
 js=f"""const {{chromium}}=require('playwright');const fs=require('fs');
@@ -35,8 +35,12 @@ t=np.arange(N)/S
 R0=spec.get('tom',73.42);dr=sum(a*np.sin(2*np.pi*R0*m*t+np.sin(t*.3*k)) for k,(m,a) in enumerate([(1,.5),(1.5,.25),(2,.18),(2.378,.10),(3,.06)],1))
 dr=lp(dr,900)*(.75+.25*np.sin(2*np.pi*t/8))
 pulse=np.zeros(N)
-for b in np.arange(0,T,1.25):
-    i=int(b*S);seg=np.sin(2*np.pi*55*tt(.5))*np.exp(-tt(.5)*7)*.5;pulse[i:i+len(seg)]+=seg[:N-i]
+# pulso: andamento e desenho variam por vídeo (spec['pulso'] = segundos entre batidas, spec['batida'] = padrão)
+PU=spec.get('pulso',1.25);pad=spec.get('batida','reto')
+for k,b in enumerate(np.arange(0,T,PU)):
+    if pad=='espacado' and k%2:continue
+    for off,g in ([(0,1)] if pad!='duplo' else [(0,1),(PU*.25,.55)]):
+        i=int((b+off)*S);seg=np.sin(2*np.pi*55*tt(.5))*np.exp(-tt(.5)*7)*.5*g;pulse[i:i+len(seg)]+=seg[:max(0,N-i)]
 amb=lp(rng.standard_normal(N),500)*.05
 mus=(dr*.5+pulse*.6+amb)*np.minimum(1,t/1.0)*np.minimum(1,(T-t)/1.2)
 mix[:N]+=mus*.32

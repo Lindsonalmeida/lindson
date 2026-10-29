@@ -1,0 +1,73 @@
+{
+ "tom": 58.27,
+ "cenas": [
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Dinheiro é o<br>nervo da guerra?",
+     "y": 340,
+     "s": 130,
+     "f": "ant",
+     "c": "",
+     "d": 0
+    },
+    {
+     "h": "Maquiavel discordou.",
+     "y": 700,
+     "s": 90,
+     "f": "cg",
+     "c": "red",
+     "w": "discordou"
+    }
+   ],
+   "bg": "num:R$"
+  },
+  {
+   "t": "duo",
+   "w": "Ele",
+   "dir": "v",
+   "a": {
+    "k": "Bons soldados",
+    "s": "acham dinheiro",
+    "c": "#E2BE4A",
+    "w": "soldados"
+   },
+   "b": {
+    "k": "Dinheiro",
+    "s": "nem sempre acha bons soldados",
+    "c": "#E0453C",
+    "w": "nem"
+   }
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Invista primeiro",
+     "y": 420,
+     "s": 130,
+     "f": "ant",
+     "c": "",
+     "w": "invista"
+    },
+    {
+     "h": "em quem faz",
+     "y": 600,
+     "s": 190,
+     "f": "ant",
+     "c": "",
+     "w": "quem",
+     "a": "slam",
+     "box": "gold"
+    }
+   ],
+   "w": "Gente",
+   "bg": "foto:top:1000px;bottom:-320px"
+  },
+  {
+   "t": "assinatura",
+   "apos": "faz"
+  }
+ ]
+}

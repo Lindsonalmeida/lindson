@@ -17,9 +17,29 @@ canvas{position:absolute;inset:0}
 #cta .sel{width:340px;height:340px;border-radius:50%;border:10px dashed #D7263D;color:#D7263D;background:rgba(239,230,210,.95);display:grid;place-items:center;font:800 54px/1 Cinzel;transform:rotate(-10deg)}
 #cta p{font:800 __FC__px/1.2 Manrope;color:#EFE6D2;text-transform:uppercase;text-shadow:0 4px 16px #000}
 #cta p b{color:#F2D58A}
+#int{position:absolute;left:50%;top:__IY__px;width:__IW__px;transform-origin:50% 0;opacity:0;font-family:Manrope}
+#int .box{background:rgba(14,16,26,.86);border:2px solid rgba(201,162,39,.55);border-radius:28px;padding:26px 30px;display:flex;gap:22px;align-items:center;box-shadow:0 18px 50px rgba(0,0,0,.6)}
+#int .av{flex:none;width:84px;height:84px;border-radius:50%;background:#C9A227;display:grid;place-items:center}
+#int .av svg{width:48px;height:48px;fill:#14110B}
+#int .tx{color:#EFE6D2;font:800 __IF__px/1.22 Manrope}
+#int .tx small{display:block;font:400 __IS__px 'Special Elite';letter-spacing:.18em;color:#C9A227;margin-bottom:8px;text-transform:uppercase}
+#int .bt{display:inline-flex;align-items:center;gap:12px;margin-top:14px;padding:12px 26px;border-radius:99px;font:800 __IS__px Manrope;letter-spacing:.06em}
+#int .bt.r{background:#D7263D;color:#fff}#int .bt.g{background:#3A3D48;color:#EFE6D2}
+#int .bt svg{width:30px;height:30px;fill:currentColor}
+#int .cur{position:absolute;width:46px;height:46px;border-radius:50%;background:rgba(255,255,255,.85);box-shadow:0 0 0 10px rgba(255,255,255,.25);opacity:0}
+#t2{position:absolute;left:70px;right:70px;top:__T2__px;color:#EFE6D2;font:800 __FT2__px/1.02 Manrope;text-transform:uppercase;text-shadow:0 6px 24px #000;opacity:0}
+#t2 small{display:block;font:400 __FS__px 'Special Elite';letter-spacing:.3em;color:#C9A227;margin-bottom:18px}
+#t2 i{display:block;height:8px;background:#C9A227;border-radius:4px;margin-top:22px;transform-origin:0 50%}
+#t3{position:absolute;left:50%;top:__T3__px;transform:translateX(-50%) rotate(-6deg);border:8px dashed #D7263D;border-radius:22px;padding:28px 44px;color:#F2D58A;background:rgba(10,12,20,.55);font:800 __FT3__px/1.05 Cinzel;text-align:center;opacity:0;max-width:88%}
+#t3 small{display:block;font:400 __FS__px 'Special Elite';letter-spacing:.3em;color:#EFE6D2;margin-bottom:14px}
+#cta .pg{background:rgba(239,230,210,.94);color:#1F2544;border-radius:26px;padding:44px 48px;box-shadow:0 20px 60px rgba(0,0,0,.6);position:relative}
+#cta .pg p{color:#1F2544;text-shadow:none}#cta .pg p b{color:#D7263D}
+#cta .pg .mk{position:absolute;right:-30px;top:-40px;width:150px;height:150px;border-radius:50%;border:7px dashed #D7263D;color:#D7263D;display:grid;place-items:center;font:800 26px/1 Cinzel;transform:rotate(12deg);background:rgba(239,230,210,.95)}
+#cta .ins{display:flex;align-items:center;gap:18px;background:#D7263D;color:#fff;border-radius:99px;padding:22px 46px;font:800 46px Manrope;letter-spacing:.04em;box-shadow:0 14px 40px rgba(0,0,0,.5)}
+#cta .ins svg{width:52px;height:52px;fill:#fff}
 </style></head><body>
 <canvas id="gl" width="__W__" height="__H__"></canvas><div id="sombra"></div><canvas id="px" width="__W__" height="__H__"></canvas>
-<div id="marca">PASSAPORTE DA BÍBLIA</div><div id="tit"></div><div id="ver"></div><div id="cap"></div><div id="cta"></div>
+<div id="marca">PASSAPORTE DA BÍBLIA</div><div id="tit"></div><div id="ver"></div><div id="cap"></div><div id="cta"></div><div id="t2"></div><div id="t3"></div><div id="int"></div>
 <script>
 const SP=__SPEC__,$=id=>document.getElementById(id),cl=(x,a=0,b=1)=>Math.max(a,Math.min(b,x)),ease=x=>{x=cl(x);return x<.5?2*x*x:1-Math.pow(-2*x+2,2)/2};
 const W=__W__,H=__H__,gl=$('gl').getContext('webgl',{preserveDrawingBuffer:true});
@@ -57,6 +77,22 @@ function bind(slot,unit,t){gl.activeTexture(gl.TEXTURE0+unit);gl.bindTexture(gl.
 const px=$('px').getContext('2d'),P=[...Array(70)].map((_,i)=>{const r=Math.sin(i*91.7)*43758.5,f=r-Math.floor(r),r2=Math.sin(i*17.3)*9631.1,g=r2-Math.floor(r2);return{x:f*W,y:g*H,s:1+f*2.6,v:6+g*18,ph:i}});
 function poeira(t){px.clearRect(0,0,W,H);for(const p of P){const y=(p.y-t*p.v+H*4)%H,x=p.x+Math.sin(t*.4+p.ph)*18;px.fillStyle=`rgba(242,213,138,${.25+.35*Math.abs(Math.sin(t+p.ph))})`;px.beginPath();px.arc(x,y,p.s,0,7);px.fill()}}
 const CH=[];SP.cenas.forEach(s=>{const w=s.words||[];for(let k=0;k<w.length;k+=3){const bl=w.slice(k,k+3);CH.push({a:bl[0][1],z:w[k+3]?w[k+3][1]:bl[bl.length-1][1]+.6,w:bl})}});
+
+// ---- conversa com o ouvinte (cena com "interage") ----
+const IC={comenta:'<svg viewBox="0 0 24 24"><path d="M4 3h16a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H8l-5 4V5a2 2 0 0 1 1-2z"/></svg>',
+ checkin:'<svg viewBox="0 0 24 24"><path d="M2 10h4v12H2zM8 22h10.5a2 2 0 0 0 2-1.6l1.4-7A2 2 0 0 0 20 11h-6l1-5a2.2 2.2 0 0 0-4-1.4L8 10z"/></svg>',
+ segue:'<svg viewBox="0 0 24 24"><path d="M12 22a2.5 2.5 0 0 0 2.5-2.5h-5A2.5 2.5 0 0 0 12 22zm7-6V11a7 7 0 0 0-5-6.7V3.5a2 2 0 0 0-4 0v.8A7 7 0 0 0 5 11v5l-2 2v1h18v-1z"/></svg>',
+ salva:'<svg viewBox="0 0 24 24"><path d="M6 2h12a1 1 0 0 1 1 1v19l-7-4-7 4V3a1 1 0 0 1 1-1z"/></svg>',
+ manda:'<svg viewBox="0 0 24 24"><path d="M14 4l8 8-8 8v-5C8 15 4.5 17 2 21c1-6 4-11 12-12z"/></svg>'};
+const ROT={comenta:'Comenta aí',checkin:'Tá comigo?',segue:'Segue o canal',salva:'Salva esse',manda:'Manda pra alguém'};
+function interacao(s,t){const e=$('int'),it=s.interage;if(!it){e.style.opacity=0;return}
+ const a=s.ini+.45,z=s.fim-.25,k=cl((t-a)/.35)*cl((z-t)/.3),pop=1+.08*Math.sin(Math.PI*cl((t-a)/.35));
+ e.style.opacity=k;e.style.transform=`translateX(-50%) scale(${(.85+.15*cl((t-a)/.35))*pop})`;
+ const n=Math.floor(cl((t-a-.2)/1.4)*it.txt.length),txt=it.tipo==='comenta'?it.txt.slice(0,n)+(n<it.txt.length?'<span style="opacity:.5">|</span>':''):it.txt;
+ let bt='';if(it.tipo==='segue'){const ok=t>a+1.6;bt=`<div class="bt ${ok?'g':'r'}">${IC.segue}${ok?'INSCRITO ✓':'INSCREVER-SE'}</div>`}
+ else if(it.tipo==='salva'){const ok=t>a+1.6;bt=`<div class="bt ${ok?'g':'r'}">${IC.salva}${ok?'SALVO ✓':'SALVAR'}</div>`}
+ else if(it.tipo==='manda')bt=`<div class="bt r">${IC.manda}COMPARTILHAR</div>`;
+ e.innerHTML=`<div class="box"><div class="av">${IC[it.tipo]||IC.comenta}</div><div class="tx"><small>${ROT[it.tipo]||'Comenta aí'}</small>${txt}${bt?'<br>'+bt:''}</div></div>`}
 window.render=t=>{
  let i=SP.cenas.findIndex(s=>t>=s.ini&&t<s.fim);if(i<0)i=t<SP.cenas[0].ini?0:SP.cenas.length-1;const s=SP.cenas[i];
  const D=s.fim-s.ini,u=cl((t-s.ini)/D),j=Math.min(i+1,SP.cenas.length-1),FADE=.7,mixv=i===j?0:cl((t-(s.fim-FADE))/FADE);
@@ -71,13 +107,16 @@ window.render=t=>{
  const tt=SP.titulo_tela;let tk=0,th='',tz=1;
  if(t<tt.fim){tk=cl(t/.8)*cl((tt.fim-t)/.6);th=`<small>${tt.sup}</small>${tt.txt}`;tz=1.06-.06*cl(t/tt.fim)}
  else if(s.cap){const f=s.ini+3.4;tk=t<f?cl((t-s.ini)/.7)*cl((f-t)/.6):0;th=`<small>${s.cap.sup}</small>${s.cap.txt}`;tz=1.06-.06*cl((t-s.ini)/3.4)}
- $('tit').style.opacity=tk;$('tit').innerHTML=th;$('tit').style.transform=`scale(${tz})`;
+ const ab=t<tt.fim?((SP.estilo||{}).abre||0):0;
+ for(const [id,on] of [['tit',ab===0],['t2',ab===1],['t3',ab===2]]){const el=$(id);el.style.opacity=on?tk:0;if(on)el.innerHTML=th+(id==='t2'?`<i style="transform:scaleX(${cl(t/1.2)})"></i>`:'')}
+ $('tit').style.transform=`scale(${tz})`;$('t3').style.transform=`translateX(-50%) rotate(-6deg) scale(${1.25-.25*cl(t/.35)})`;
  // versículo
  const vv=s.verso?cl((t-s.ini-.4)/.6)*cl((s.fim-t)/.4):0;$('ver').style.opacity=vv;if(s.verso)$('ver').innerHTML=`“${s.verso}”<span>${s.ref}</span>`;
+ interacao(s,t);
  // legenda
  const c=CH.find(c=>t>=c.a-.05&&t<c.z);$('cap').innerHTML=c&&!s.cta?c.w.map(([x,ts])=>`<span class="${t>=ts?'on':''}">${x}</span>`).join(' '):'';
  // selo de chamada só durante a cena que tem "cta" (a última fica até o fim)
- if(s.cta){const ult=i===SP.cenas.length-1,k=cl((t-s.ini)/.6)*(ult?1:cl((s.fim-t)/.5));$('cta').style.opacity=k;$('cta').innerHTML=`<div class="sel">${s.selo||'CARIMBE<br>AQUI'}</div><p>${s.cta}</p>`}else $('cta').style.opacity=0;
+ if(s.cta){const ult=i===SP.cenas.length-1,k=cl((t-s.ini)/.6)*(ult?1:cl((s.fim-t)/.5));$('cta').style.opacity=k;const fe=(SP.estilo||{}).fecha||0;$('cta').innerHTML=fe===1?`<div class="ins">${IC.segue}INSCREVER-SE</div><p>${s.cta}</p>`:fe===2?`<div class="pg"><div class="mk">${s.selo||'CARIMBE<br>AQUI'}</div><p>${s.cta}</p></div>`:`<div class="sel">${s.selo||'CARIMBE<br>AQUI'}</div><p>${s.cta}</p>`}else $('cta').style.opacity=0;
 };
 prep().then(()=>document.fonts.ready).then(()=>{window.ready=true});
 </script></body></html>

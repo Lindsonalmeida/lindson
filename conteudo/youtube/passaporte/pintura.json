@@ -14,7 +14,8 @@
    {
     "gravura": "069",
     "mov": "in",
-    "txt": "Domingo. Jerusalém recebe Jesus com ramos nas mãos e gritos de hosana."
+    "txt": "Domingo. Jerusalém recebe Jesus com ramos nas mãos e gritos de hosana. Em cinco dias, essa mesma cidade ia gritar outra coisa.",
+    "txt0": "Domingo. Jerusalém recebe Jesus com ramos nas mãos e gritos de hosana."
    },
    {
     "gravura": "082",
@@ -34,6 +35,16 @@
     "gravura": "084",
     "mov": "dir",
     "txt": "Um beijo. E Judas entrega o mestre aos soldados."
+   },
+   {
+    "gravura": "085",
+    "mov": "out",
+    "txt": "Para um segundo. Você já foi traído por alguém que comia na sua mesa? Se já, você entende essa noite. Deixa um coração aqui embaixo, só isso.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Já passou por isso? Deixa um coração"
+    },
+    "conv": true
    },
    {
     "gravura": "086",
@@ -65,6 +76,16 @@
     "txt": "E no caminho de Emaús, o coração dos discípulos ardia."
    },
    {
+    "gravura": "092",
+    "mov": "cima",
+    "txt": "Se essa semana mexeu com você, segue o Passaporte. Toda semana tem uma nova parada da Bíblia explicada assim.",
+    "interage": {
+     "tipo": "segue",
+     "txt": "Toda semana, uma nova parada"
+    },
+    "conv": true
+   },
+   {
     "gravura": "093",
     "mov": "in",
     "cta": "Leia em <b>Mateus 21 a 28</b><br>Comenta <b>ROTA</b>",
@@ -87,7 +108,8 @@
    {
     "gravura": "053",
     "mov": "in",
-    "txt": "Você lê a Bíblia e não entende nada? Calma. O problema pode não ser você."
+    "txt": "Você lê a Bíblia e não entende nada? Calma. O problema pode não ser você. E no fim eu te dou a pergunta que muda a leitura.",
+    "txt0": "Você lê a Bíblia e não entende nada? Calma. O problema pode não ser você."
    },
    {
     "gravura": "061",
@@ -103,6 +125,16 @@
     "gravura": "020",
     "mov": "dir",
     "txt": "Então faz o que todo viajante faz: olha o mapa antes. Em que região você está? Na Lei? Nos Profetas? Nas Cartas?"
+   },
+   {
+    "gravura": "049",
+    "mov": "in",
+    "txt": "Até aqui faz sentido? Então me conta nos comentários: qual livro você tentou ler e travou?",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Qual livro te travou?"
+    },
+    "conv": true
    },
    {
     "gravura": "062",
@@ -162,6 +194,16 @@
     "ref": "MARCOS 10.45"
    },
    {
+    "gravura": "063",
+    "mov": "esq",
+    "txt": "Você já leu algum Evangelho inteiro? Responde aqui: sim, ou ainda não. Sem vergonha nenhuma.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Já leu um Evangelho inteiro?"
+    },
+    "conv": true
+   },
+   {
     "gravura": "091",
     "mov": "in",
     "txt": "Faz assim: hoje, lê só Marcos 1. Amanhã, o 2. Sem pressa e sem cobrança."
@@ -169,8 +211,13 @@
    {
     "gravura": "093",
     "mov": "in",
-    "txt": "Salva pra não esquecer.",
-    "cta": "<b>Salva</b> pra não esquecer"
+    "txt": "Salva esse vídeo e volta amanhã pra me contar se leu Marcos 1.",
+    "cta": "<b>Salva</b> pra não esquecer",
+    "interage": {
+     "tipo": "salva",
+     "txt": "Lê Marcos 1 hoje"
+    },
+    "txt0": "Salva pra não esquecer."
    }
   ]
  },
@@ -217,6 +264,16 @@
     "txt": "E no Novo Testamento, Hebreus diz que Jesus se ofereceu uma vez por todas. Hebreus 10, 10.",
     "verso": "Jesus se ofereceu uma vez por todas.",
     "ref": "HEBREUS 10.10"
+   },
+   {
+    "gravura": "053",
+    "mov": "dir",
+    "txt": "Tá comigo até aqui? Levítico parecia só regra, né? Se mudou alguma coisa na sua cabeça, escreve: mudou.",
+    "interage": {
+     "tipo": "checkin",
+     "txt": "Escreve: mudou"
+    },
+    "conv": true
    },
    {
     "gravura": "012",
@@ -266,6 +323,16 @@
     "txt": "Então continua de onde você parou. Se estava no dia 40, abre o dia 41 hoje. Esquece a data do calendário."
    },
    {
+    "gravura": "046",
+    "mov": "out",
+    "txt": "Seja sincero comigo: em que dia do plano você parou? Escreve o número aqui. Ninguém vai te julgar.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Em que dia você parou?"
+    },
+    "conv": true
+   },
+   {
     "gravura": "092",
     "mov": "in",
     "txt": "Risca as datas, não os dias. Lê um capítulo, nem que seja um só. Um capítulo já é viagem. E marca no seu passaporte."
@@ -280,8 +347,13 @@
    {
     "gravura": "093",
     "mov": "in",
-    "txt": "Segue pra próxima viagem.",
-    "cta": "<b>Segue</b> pra próxima viagem"
+    "txt": "Segue o canal. Amanhã tem mais uma parada pra você continuar sem culpa.",
+    "cta": "<b>Segue</b> pra próxima viagem",
+    "interage": {
+     "tipo": "segue",
+     "txt": "Amanhã tem mais uma parada"
+    },
+    "txt0": "Segue pra próxima viagem."
    }
   ]
  },
@@ -323,6 +395,16 @@
     "gravura": "061",
     "mov": "dir",
     "txt": "E vai com uma pergunta na mão: o que esse texto mostra sobre Deus? Quem procura alguma coisa fica mais atento."
+   },
+   {
+    "gravura": "063",
+    "mov": "in",
+    "txt": "Qual dessas você vai testar hoje: sentado, em voz alta ou mais cedo? Escolhe uma e me conta.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Sentado, em voz alta ou mais cedo?"
+    },
+    "conv": true
    },
    {
     "gravura": "028",
@@ -382,6 +464,16 @@
     "txt": "Eles têm um filho, Obede, avô do rei Davi. E Rute está na lista dos antepassados de Jesus, em Mateus 1."
    },
    {
+    "gravura": "024",
+    "mov": "esq",
+    "txt": "Você tem alguém na vida que é tipo Rute pra você? Marca essa pessoa aqui nos comentários.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Marca a sua Rute"
+    },
+    "conv": true
+   },
+   {
     "gravura": "028",
     "mov": "in",
     "txt": "A estrangeira que ficou por lealdade entrou na grande história de Deus."
@@ -389,8 +481,13 @@
    {
     "gravura": "029",
     "mov": "out",
-    "txt": "Salva pra não esquecer.",
-    "cta": "<b>Salva</b> pra não esquecer"
+    "txt": "Manda esse vídeo pra essa pessoa. Ela vai gostar de saber.",
+    "cta": "<b>Salva</b> pra não esquecer",
+    "interage": {
+     "tipo": "manda",
+     "txt": "Manda pra sua Rute"
+    },
+    "txt0": "Salva pra não esquecer."
    }
   ]
  },
@@ -444,10 +541,25 @@
     "txt": "E o livro termina com uma pergunta de Deus, sem resposta. Jonas 4, 11. A pergunta fica pra você: quem você não quer ver perdoado?"
    },
    {
+    "gravura": "044",
+    "mov": "in",
+    "txt": "Pensa nessa pergunta antes de passar pro próximo vídeo. Se quiser, responde aqui embaixo.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Quem você não quer ver perdoado?"
+    },
+    "conv": true
+   },
+   {
     "gravura": "092",
     "mov": "in",
-    "txt": "Segue pra próxima viagem.",
-    "cta": "<b>Segue</b> pra próxima viagem"
+    "txt": "Segue o canal pra próxima viagem.",
+    "cta": "<b>Segue</b> pra próxima viagem",
+    "interage": {
+     "tipo": "segue",
+     "txt": "Próxima viagem: outro profeta"
+    },
+    "txt0": "Segue pra próxima viagem."
    }
   ]
  },
@@ -482,6 +594,16 @@
     "gravura": "011",
     "mov": "in",
     "txt": "Parada 3: Promessa e povo. Deus chama Abraão e promete abençoar todas as famílias da terra por meio dele."
+   },
+   {
+    "gravura": "053",
+    "mov": "out",
+    "txt": "Até aqui são três paradas. Tá conseguindo guardar? Escreve um, dois, três nos comentários, e vamos pra parte mais importante.",
+    "interage": {
+     "tipo": "checkin",
+     "txt": "Escreve: 1, 2, 3"
+    },
+    "conv": true
    },
    {
     "gravura": "091",
@@ -551,6 +673,16 @@
     "txt": "E em Mateus, a lista mostra que Jesus vem da família de Abraão e de Davi. A promessa cumprida."
    },
    {
+    "gravura": "061",
+    "mov": "dir",
+    "txt": "Você pulava essas listas? Fala a verdade. Quase todo mundo pula. Comenta: pulava.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Você pulava as listas?"
+    },
+    "conv": true
+   },
+   {
     "gravura": "053",
     "mov": "out",
     "txt": "Dica: leia por cima, sem culpa. E pare onde aparece uma história, como a de Jabez, em 1 Crônicas 4."
@@ -558,8 +690,13 @@
    {
     "gravura": "092",
     "mov": "in",
-    "txt": "Salva pra não esquecer.",
-    "cta": "<b>Salva</b> pra não esquecer"
+    "txt": "Salva esse vídeo. Quando chegar em 1 Crônicas, você vai lembrar dele.",
+    "cta": "<b>Salva</b> pra não esquecer",
+    "interage": {
+     "tipo": "salva",
+     "txt": "Salva pra quando chegar em 1 Crônicas"
+    },
+    "txt0": "Salva pra não esquecer."
    }
   ]
  },
@@ -596,6 +733,16 @@
     "txt": "Comece pelos capítulos 1 a 3. Jesus fala com sete igrejas, com correção e com consolo."
    },
    {
+    "gravura": "053",
+    "mov": "in",
+    "txt": "Respira. Até aqui ficou menos assustador? Escreve: menos medo. Agora vem a melhor parte.",
+    "interage": {
+     "tipo": "checkin",
+     "txt": "Escreve: menos medo"
+    },
+    "conv": true
+   },
+   {
     "gravura": "093",
     "mov": "cima",
     "txt": "Depois pula pro fim, capítulos 21 e 22. Deus enxuga toda lágrima. Não haverá mais morte, nem choro, nem dor. Apocalipse 21, 4.",
@@ -615,8 +762,13 @@
    {
     "gravura": "093",
     "mov": "in",
-    "txt": "Segue pra próxima viagem.",
-    "cta": "<b>Segue</b> pra próxima viagem"
+    "txt": "Segue o Passaporte pra não perder a próxima viagem pela Bíblia.",
+    "cta": "<b>Segue</b> pra próxima viagem",
+    "interage": {
+     "tipo": "segue",
+     "txt": "Não perde a próxima viagem"
+    },
+    "txt0": "Segue pra próxima viagem."
    }
   ]
  },
@@ -657,7 +809,11 @@
     "mov": "in",
     "txt": "Antes de embarcar, um pedido rápido. Se essa é sua primeira viagem pela Bíblia, se inscreve no Passaporte da Bíblia. Aqui toda semana tem um pedaço da Bíblia explicado de um jeito simples, pra católico e pra evangélico.",
     "cta": "<b>Inscreva-se</b> no Passaporte<br>e ative o sininho",
-    "selo": "SE<br>INSCREVA"
+    "selo": "SE<br>INSCREVA",
+    "interage": {
+     "tipo": "segue",
+     "txt": "Primeira viagem? Se inscreve"
+    }
    },
    {
     "gravura": "061",
@@ -692,6 +848,16 @@
     "gravura": "046",
     "mov": "dir",
     "txt": "Na prática, faz isso hoje. Abre o índice da sua Bíblia, aquela lista de livros lá no começo. Conta quantos livros ela tem, 66 ou 73. E marca três pontos: Gênesis, o começo; Mateus, onde começa o Novo Testamento; e Apocalipse, o fim."
+   },
+   {
+    "gravura": "053",
+    "mov": "esq",
+    "txt": "Primeira parada feita. Tá comigo até aqui? Se a ideia da biblioteca fez sentido pra você, escreve nos comentários: biblioteca. E bora pro mapa.",
+    "interage": {
+     "tipo": "checkin",
+     "txt": "Escreve: biblioteca"
+    },
+    "conv": true
    },
    {
     "gravura": "020",
@@ -768,6 +934,16 @@
     "txt": "Porque a Bíblia não é uma pilha de livros soltos. Ela conta uma história só, do começo ao fim. E quando você enxerga essa história, até as partes difíceis começam a fazer sentido."
    },
    {
+    "gravura": "063",
+    "mov": "out",
+    "txt": "Antes da grande história, me conta: em qual dessas regiões você mais lê hoje? Lei, Profetas, Evangelhos ou Cartas? Escreve aqui.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Qual região você mais lê?"
+    },
+    "conv": true
+   },
+   {
     "gravura": "020",
     "mov": "in",
     "txt": "Terceira parada: a grande história. Dá pra contar a Bíblia inteira em 6 capítulos. Vou te mostrar um por um, bem devagar.",
@@ -829,6 +1005,16 @@
     "gravura": "065",
     "mov": "in",
     "txt": "Na prática: abre qualquer livro e pergunta em qual dos 6 capítulos da história você está. Por exemplo, Marcos fica em Jesus, e Romanos fica em Igreja. Anota num papel e deixa dentro da Bíblia, como marcador."
+   },
+   {
+    "gravura": "092",
+    "mov": "in",
+    "txt": "Se até aqui esse vídeo já clareou alguma coisa pra você, segue o canal. Toda semana tem uma parada nova.",
+    "interage": {
+     "tipo": "segue",
+     "txt": "Uma parada nova por semana"
+    },
+    "conv": true
    },
    {
     "gravura": "024",
@@ -898,6 +1084,16 @@
    },
    {
     "gravura": "053",
+    "mov": "dir",
+    "txt": "Respira um pouco. Foi bastante coisa, né? Se bateu cansaço, tudo bem: salva o vídeo e volta depois. Se tá firme, vamos pra última parada.",
+    "interage": {
+     "tipo": "salva",
+     "txt": "Cansou? Salva e volta depois"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "053",
     "mov": "out",
     "txt": "Última parada. Lembra que eu prometi 3 perguntas lá no começo? Agora elas fazem sentido, porque juntam o mapa, a história e o terreno.",
     "cap": {
@@ -942,7 +1138,11 @@
     "mov": "out",
     "txt": "Agora é com você. Hoje, faz as 3 perguntas num capítulo qualquer. Quando fizer, comenta aqui embaixo: CARIMBEI. Quero ver esse mural cheio de carimbos.",
     "cta": "Comenta: <b>CARIMBEI</b>",
-    "selo": "CARIMBE<br>AQUI"
+    "selo": "CARIMBE<br>AQUI",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Fez as 3 perguntas? Conta aqui"
+    }
    },
    {
     "gravura": "092",
@@ -1001,7 +1201,11 @@
     "mov": "in",
     "txt": "Antes de escolher sua rota, um pedido. Se inscreve no Passaporte da Bíblia. Aqui a gente explica a Bíblia de um jeito simples, pra católico e evangélico, uma parada de cada vez.",
     "cta": "<b>Inscreva-se</b> no Passaporte<br>e ative o sininho",
-    "selo": "SE<br>INSCREVA"
+    "selo": "SE<br>INSCREVA",
+    "interage": {
+     "tipo": "segue",
+     "txt": "Se inscreve antes de embarcar"
+    }
    },
    {
     "gravura": "092",
@@ -1075,6 +1279,16 @@
     "txt": "Na prática: se essa é sua rota, abre hoje em Marcos 1. Lê um ou dois capítulos, não mais que isso. E marca um X no capítulo lido, sem anotar data nenhuma."
    },
    {
+    "gravura": "053",
+    "mov": "in",
+    "txt": "Primeira rota apresentada. Tá fazendo sentido até aqui? Se a Primeira Viagem é a sua cara, escreve: primeira. Mas espera as outras duas antes de decidir.",
+    "interage": {
+     "tipo": "checkin",
+     "txt": "Escreve: primeira"
+    },
+    "conv": true
+   },
+   {
     "gravura": "020",
     "mov": "in",
     "txt": "Rota 2: a Rota Clássica. É a Bíblia na ordem das páginas, de Gênesis a Apocalipse. É pra quem quer ler tudo, do começo ao fim.",
@@ -1107,6 +1321,16 @@
     "gravura": "035",
     "mov": "out",
     "txt": "Na prática, pra não travar: lê o capítulo do dia e, junto, um salmo. Quando chegar num trecho pesado, lê a dica de travessia antes. E se atrasar, volta de onde parou, nunca pro dia 1."
+   },
+   {
+    "gravura": "063",
+    "mov": "esq",
+    "txt": "Quem aqui já tentou ler na ordem das páginas e parou no meio? Levanta a mão nos comentários. Escreve: eu.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Já parou no meio? Escreve: eu"
+    },
+    "conv": true
    },
    {
     "gravura": "024",
@@ -1173,6 +1397,16 @@
     "txt": "Funciona assim. Você começa animado em janeiro. Atrasa três dias, o plano fica cobrando, você se sente o pior cristão do mundo e fecha a Bíblia até o ano que vem."
    },
    {
+    "gravura": "092",
+    "mov": "out",
+    "txt": "Se você está gostando de ver a Bíblia como viagem, segue o canal. Toda semana a gente atravessa um trecho junto.",
+    "interage": {
+     "tipo": "segue",
+     "txt": "Toda semana, um trecho juntos"
+    },
+    "conv": true
+   },
+   {
     "gravura": "020",
     "mov": "esq",
     "txt": "Por isso, antes de embarcar, você precisa de algumas regras de viagem. Eu chamo de regras do viajante sem culpa. São simples, mas mudam tudo.",
@@ -1215,6 +1449,16 @@
     "gravura": "046",
     "mov": "esq",
     "txt": "Na prática: se você tem um plano atrasado, risca as datas dele. Marca o ponto onde você parou. E lê um capítulo hoje, só um, a partir dali."
+   },
+   {
+    "gravura": "053",
+    "mov": "dir",
+    "txt": "Me conta uma coisa: você já largou a leitura por culpa? Escreve só: já larguei. Você não está sozinho nessa.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Já largou por culpa?"
+    },
+    "conv": true
    },
    {
     "gravura": "068",
@@ -1265,7 +1509,11 @@
     "mov": "dir",
     "txt": "Agora, o seu compromisso. Escolhe sua rota e escreve aqui nos comentários: VOU EMBARCAR, e o nome da rota. Quando ler o primeiro capítulo, volta e comenta CARIMBEI.",
     "cta": "Comenta: <b>VOU EMBARCAR</b>",
-    "selo": "CARIMBE<br>AQUI"
+    "selo": "CARIMBE<br>AQUI",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "VOU EMBARCAR + sua rota"
+    }
    },
    {
     "gravura": "092",
@@ -1302,7 +1550,8 @@
    {
     "gravura": "025",
     "mov": "in",
-    "txt": "Sansão matou um leão com as próprias mãos. E mesmo assim perdeu tudo. Sabe por quê?"
+    "txt": "Sansão matou um leão com as próprias mãos. E mesmo assim perdeu tudo. Fica até o fim que eu te conto onde estava a fraqueza dele.",
+    "txt0": "Sansão matou um leão com as próprias mãos. E mesmo assim perdeu tudo. Sabe por quê?"
    },
    {
     "gravura": "020",
@@ -1320,6 +1569,16 @@
     "txt": "Mas ele brincava com o próprio limite. Dalila perguntou o segredo da força dele. Ele mentiu três vezes. Na quarta, contou."
    },
    {
+    "gravura": "021",
+    "mov": "out",
+    "txt": "Para aqui um segundo. Você também já brincou com um limite que sabia que não devia? Responde só pra você, ou escreve aqui: já.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Já brincou com um limite?"
+    },
+    "conv": true
+   },
+   {
     "gravura": "032",
     "mov": "out",
     "txt": "Cortaram o cabelo, e a força foi embora. Ele foi preso, cegado, e virou escravo dos filisteus."
@@ -1335,7 +1594,11 @@
     "gravura": "092",
     "mov": "out",
     "txt": "A lição de Sansão: força sem fidelidade não sustenta ninguém. E Deus ainda ouviu a oração de um homem quebrado. Segue pra próxima viagem.",
-    "cta": "<b>Segue</b> pra próxima viagem"
+    "cta": "<b>Segue</b> pra próxima viagem",
+    "interage": {
+     "tipo": "segue",
+     "txt": "Segue pra próxima viagem"
+    }
    }
   ]
  },
@@ -1382,6 +1645,16 @@
     "gravura": "052",
     "mov": "out",
     "txt": "Foi jogado na cova. E de manhã o rei correu até lá. Daniel estava vivo: Deus fechou a boca dos leões."
+   },
+   {
+    "gravura": "036",
+    "mov": "esq",
+    "txt": "Me conta: você tem um horário fixo com Deus? Manhã, tarde ou noite? Escreve aqui o seu.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Manhã, tarde ou noite?"
+    },
+    "conv": true
    },
    {
     "gravura": "053",
@@ -1436,6 +1709,16 @@
     "ref": "PROVÉRBIOS 1.7"
    },
    {
+    "gravura": "049",
+    "mov": "in",
+    "txt": "Hoje é dia de qual capítulo? Olha o calendário e escreve o número aqui. Vamos ler juntos.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Hoje é dia de qual capítulo?"
+    },
+    "conv": true
+   },
+   {
     "gravura": "053",
     "mov": "out",
     "txt": "Dica de viajante: em cada capítulo, escolhe um versículo só e anota. No fim do mês, você tem um caderno de sabedoria."
@@ -1444,7 +1727,11 @@
     "gravura": "092",
     "mov": "in",
     "txt": "Salva e começa hoje pelo capítulo do dia.",
-    "cta": "<b>Salva</b> e lê o<br>capítulo de hoje"
+    "cta": "<b>Salva</b> e lê o<br>capítulo de hoje",
+    "interage": {
+     "tipo": "salva",
+     "txt": "Lê o capítulo de hoje"
+    }
    }
   ]
  },
@@ -1486,6 +1773,16 @@
     "txt": "Levou até uma hospedaria e ainda pagou. Disse: cuida dele, e o que você gastar a mais, eu pago quando voltar."
    },
    {
+    "gravura": "063",
+    "mov": "in",
+    "txt": "Antes da resposta de Jesus, pensa: você seria quem nessa história? O sacerdote, o levita ou o samaritano? Responde aqui.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Você seria quem nessa história?"
+    },
+    "conv": true
+   },
+   {
     "gravura": "070",
     "mov": "in",
     "txt": "No fim, Jesus virou a pergunta. Não é: quem é o meu próximo? É: de quem eu vou ser próximo?",
@@ -1496,7 +1793,11 @@
     "gravura": "092",
     "mov": "out",
     "txt": "Segue pra próxima viagem.",
-    "cta": "<b>Segue</b> pra próxima viagem"
+    "cta": "<b>Segue</b> pra próxima viagem",
+    "interage": {
+     "tipo": "segue",
+     "txt": "Segue pra próxima viagem"
+    }
    }
   ]
  },
@@ -1515,7 +1816,8 @@
    {
     "gravura": "014",
     "mov": "in",
-    "txt": "José era o filho preferido de Jacó. Ganhou até uma túnica especial. Os irmãos não aguentaram."
+    "txt": "José era o filho preferido de Jacó. Ganhou até uma túnica especial. Os irmãos não aguentaram. E o fim dessa história ninguém esperava.",
+    "txt0": "José era o filho preferido de Jacó. Ganhou até uma túnica especial. Os irmãos não aguentaram."
    },
    {
     "gravura": "016",
@@ -1536,6 +1838,16 @@
     "gravura": "017",
     "mov": "in",
     "txt": "Na fome, os mesmos irmãos foram ao Egito comprar comida. E se ajoelharam diante de José, sem reconhecer quem ele era."
+   },
+   {
+    "gravura": "053",
+    "mov": "out",
+    "txt": "Agora imagina estar no lugar de José. Você perdoaria? Escreve sim ou não. A resposta dele vem agora.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Você perdoaria?"
+    },
+    "conv": true
    },
    {
     "gravura": "018",
@@ -1602,10 +1914,24 @@
     "txt": "Se você está cansado demais, começa pelo básico: come, dorme e escuta a voz baixinha de Deus. Elias recomeçou dali."
    },
    {
+    "gravura": "061",
+    "mov": "in",
+    "txt": "E você, como está hoje, de verdade? Se estiver cansado, escreve só: tô cansado. A gente ora por você.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Como você está hoje?"
+    },
+    "conv": true
+   },
+   {
     "gravura": "092",
     "mov": "in",
     "txt": "Manda esse vídeo pra alguém que está cansado.",
-    "cta": "<b>Manda</b> pra quem<br>está cansado"
+    "cta": "<b>Manda</b> pra quem<br>está cansado",
+    "interage": {
+     "tipo": "manda",
+     "txt": "Manda pra quem está cansado"
+    }
    }
   ]
  },
@@ -1640,6 +1966,16 @@
     "gravura": "001",
     "mov": "cima",
     "txt": "Mas ainda não tinha vida. Até que o espírito entra neles, e eles se levantam: um exército enorme."
+   },
+   {
+    "gravura": "053",
+    "mov": "dir",
+    "txt": "Tá acompanhando? Os ossos já têm pele, mas falta uma coisa. Escreve o que você acha que falta, e eu te mostro.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "O que falta nesses ossos?"
+    },
+    "conv": true
    },
    {
     "gravura": "044",
@@ -1701,6 +2037,16 @@
     "txt": "No alto do monte, Deus segura a mão de Abraão. E aparece um carneiro preso pelos chifres. Isaque vive."
    },
    {
+    "gravura": "053",
+    "mov": "esq",
+    "txt": "Respira. Esse capítulo é pesado mesmo. Tá comigo até aqui? Escreve: tô junto. Agora vem a virada.",
+    "interage": {
+     "tipo": "checkin",
+     "txt": "Escreve: tô junto"
+    },
+    "conv": true
+   },
+   {
     "gravura": "088",
     "mov": "cima",
     "txt": "Muitos séculos depois, em Jerusalém, outro Filho subiu um monte carregando a madeira. E dessa vez não houve substituto. Ele era o cordeiro."
@@ -1758,6 +2104,16 @@
     "txt": "Jesus estendeu a mão na hora. E perguntou: por que você duvidou?"
    },
    {
+    "gravura": "053",
+    "mov": "in",
+    "txt": "E você? Qual é o vento que está tirando o seu foco agora? Escreve uma palavra só.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Qual é o seu vento?"
+    },
+    "conv": true
+   },
+   {
     "gravura": "063",
     "mov": "cima",
     "txt": "Pedro afundou quando trocou o foco: de Jesus pro vento. O vento continuava lá. O que mudou foi pra onde ele olhava."
@@ -1766,7 +2122,11 @@
     "gravura": "092",
     "mov": "in",
     "txt": "Salva pra lembrar disso amanhã.",
-    "cta": "<b>Salva</b> pra lembrar"
+    "cta": "<b>Salva</b> pra lembrar",
+    "interage": {
+     "tipo": "salva",
+     "txt": "Salva pra lembrar amanhã"
+    }
    }
   ]
  },
@@ -1810,6 +2170,16 @@
     "txt": "Pra quando parece que Deus sumiu: Salmo 13. Pra lembrar que Deus te conhece por inteiro: Salmo 139."
    },
    {
+    "gravura": "049",
+    "mov": "out",
+    "txt": "Qual desses salmos você precisa hoje? Escreve o número aqui, e lê ele ainda hoje.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Qual salmo você precisa hoje?"
+    },
+    "conv": true
+   },
+   {
     "gravura": "001",
     "mov": "cima",
     "txt": "Dica: lê em voz alta. Os salmos foram feitos pra ser cantados e orados, não só lidos."
@@ -1818,7 +2188,11 @@
     "gravura": "092",
     "mov": "out",
     "txt": "Salva pra quando precisar.",
-    "cta": "<b>Salva</b> pra quando<br>precisar"
+    "cta": "<b>Salva</b> pra quando<br>precisar",
+    "interage": {
+     "tipo": "salva",
+     "txt": "Salva pra quando precisar"
+    }
    }
   ]
  },
@@ -1893,6 +2267,16 @@
     "txt": "E em Babel, as pessoas tentam construir uma torre até o céu, pra fazer um nome pra si mesmas. Deus confunde as línguas e espalha os povos. A humanidade continua perdida."
    },
    {
+    "gravura": "053",
+    "mov": "out",
+    "txt": "Primeira parada vencida. Tá comigo? Se a promessa de Gênesis 3 ficou na sua cabeça, escreve: promessa. Ela vai voltar.",
+    "interage": {
+     "tipo": "checkin",
+     "txt": "Escreve: promessa"
+    },
+    "conv": true
+   },
+   {
     "gravura": "007",
     "mov": "in",
     "txt": "Segunda parada: Gênesis 12 a 50. Deus chama um homem, Abrão, e faz uma promessa: vou te dar uma terra, uma descendência enorme, e através de você todas as famílias da terra vão ser abençoadas.",
@@ -1956,6 +2340,16 @@
     "gravura": "053",
     "mov": "dir",
     "txt": "Em Números, o povo desconfia de Deus e fica quarenta anos no deserto. E em Deuteronômio, Moisés relembra tudo antes de morrer, e o povo se prepara pra entrar na terra."
+   },
+   {
+    "gravura": "063",
+    "mov": "in",
+    "txt": "Pausa pra você: de Abraão até Moisés, qual história você mais gosta? Escreve o nome aqui.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Qual história você mais gosta?"
+    },
+    "conv": true
    },
    {
     "gravura": "033",
@@ -2051,6 +2445,16 @@
     "txt": "O Antigo Testamento termina com o povo de volta à terra, mas esperando. Esperando o rei prometido a Davi. Esperando o servo de Isaías. E vêm séculos sem um novo profeta."
    },
    {
+    "gravura": "092",
+    "mov": "esq",
+    "txt": "Se essa viagem está clareando a Bíblia pra você, segue o canal agora, antes da parada mais importante. A próxima parada é Jesus.",
+    "interage": {
+     "tipo": "segue",
+     "txt": "A próxima parada é Jesus"
+    },
+    "conv": true
+   },
+   {
     "gravura": "057",
     "mov": "in",
     "txt": "Sexta parada: os Evangelhos. Num estábulo em Belém, nasce Jesus, da família de Davi. Mateus abre o Novo Testamento justamente assim: Jesus, filho de Davi, filho de Abraão.",
@@ -2095,6 +2499,16 @@
     "gravura": "091",
     "mov": "cima",
     "txt": "No domingo, o túmulo está vazio. Jesus ressuscitou. A cabeça da serpente foi esmagada. A promessa de Gênesis 3 se cumpriu."
+   },
+   {
+    "gravura": "053",
+    "mov": "dir",
+    "txt": "Lembra da promessa lá do começo? Você acabou de ver ela se cumprir. Escreve nos comentários: cumprida. Quero ver quem chegou até aqui.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Escreve: cumprida"
+    },
+    "conv": true
    },
    {
     "gravura": "093",
@@ -2145,6 +2559,16 @@
     "gravura": "061",
     "mov": "in",
     "txt": "Agora, quando você abrir qualquer livro da Bíblia, pergunta: em que parada eu estou? Só essa pergunta já muda a leitura."
+   },
+   {
+    "gravura": "061",
+    "mov": "out",
+    "txt": "Conhece alguém que diz que não entende a Bíblia? Manda esse vídeo pra essa pessoa. Pode ser o começo da viagem dela.",
+    "interage": {
+     "tipo": "manda",
+     "txt": "Manda pra quem diz que não entende"
+    },
+    "conv": true
    },
    {
     "gravura": "093",
@@ -2212,6 +2636,16 @@
     "txt": "João é diferente. Ele traz muitas histórias que os outros não contam, como a mulher samaritana no poço e a ressurreição de Lázaro."
    },
    {
+    "gravura": "053",
+    "mov": "esq",
+    "txt": "Antes de começar: qual Evangelho você acha que é a sua cara? Chuta aqui nos comentários. No fim você confere.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Chuta: qual é o seu?"
+    },
+    "conv": true
+   },
+   {
     "gravura": "058",
     "mov": "in",
     "txt": "Começando por Mateus. Segundo a tradição da Igreja, foi escrito por Mateus, o cobrador de impostos que largou tudo pra seguir Jesus.",
@@ -2258,6 +2692,16 @@
     "gravura": "053",
     "mov": "in",
     "txt": "Mateus é ótimo pra quem quer entender como o Antigo e o Novo Testamento se ligam. Ele tem 28 capítulos."
+   },
+   {
+    "gravura": "063",
+    "mov": "out",
+    "txt": "Mateus fechado. Tá comigo até aqui? Escreve: rei. Agora vem o mais rápido dos quatro.",
+    "interage": {
+     "tipo": "checkin",
+     "txt": "Escreve: rei"
+    },
+    "conv": true
    },
    {
     "gravura": "064",
@@ -2357,6 +2801,16 @@
     "txt": "E Lucas tem continuação: o livro de Atos, do mesmo autor. Lucas conta o que Jesus começou a fazer e a ensinar. Atos conta o que ele continuou fazendo pela Igreja."
    },
    {
+    "gravura": "092",
+    "mov": "in",
+    "txt": "Três Evangelhos vistos. Se está valendo a pena, segue o canal, que ainda vem a resposta do título.",
+    "interage": {
+     "tipo": "segue",
+     "txt": "Ainda vem a resposta"
+    },
+    "conv": true
+   },
+   {
     "gravura": "078",
     "mov": "in",
     "txt": "Por fim, João. A tradição atribui esse Evangelho ao apóstolo João, o discípulo amado. E ele é bem diferente dos outros três.",
@@ -2419,6 +2873,16 @@
     "txt": "Os quatro concordam no centro: Jesus ensinou, curou, foi crucificado e ressuscitou. As diferenças mostram ângulos, não histórias diferentes."
    },
    {
+    "gravura": "053",
+    "mov": "dir",
+    "txt": "Você já reparou alguma diferença lendo os Evangelhos? Conta aqui qual foi. Essas descobertas ajudam muita gente.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Qual diferença você já notou?"
+    },
+    "conv": true
+   },
+   {
     "gravura": "020",
     "mov": "in",
     "txt": "Agora, a pergunta do título: por qual começar?",
@@ -2456,6 +2920,16 @@
     "gravura": "069",
     "mov": "cima",
     "txt": "Resumindo: Mateus mostra o Rei prometido. Marcos, o Servo em ação. Lucas, o Salvador de todos. João, o Filho de Deus. Quatro retratos de uma pessoa só."
+   },
+   {
+    "gravura": "061",
+    "mov": "in",
+    "txt": "Tem alguém que quer começar a ler a Bíblia e não sabe por onde? Manda esse vídeo. Essa ordem pode ajudar.",
+    "interage": {
+     "tipo": "manda",
+     "txt": "Manda pra quem quer começar"
+    },
+    "conv": true
    },
    {
     "gravura": "093",

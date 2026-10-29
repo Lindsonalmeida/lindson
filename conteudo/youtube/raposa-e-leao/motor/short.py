@@ -25,7 +25,7 @@ for c in cs:
         a,b=idx(c['de']),idx(c['ate']);c['ws']=W[a:b+1];c['hl']=[i-a for i in map(idx,c.get('hl',[]))]
     if c['t']=='orbita':c['bom']=tm(c['bom']);c['mau']=tm(c['mau'])
     if c['t']=='emb':c['fox']=tm(c['fox']);c['lion']=tm(c['lion'])
-total=round(max(W[-1][1]+2.6,cs[-1]['ini']+3.2),2)
+total=round(max(W[-1][1]+2.6,cs[-1]['ini']+(5.6 if cs[-1].get('interage') else 3.2)),2)
 for i,c in enumerate(cs):c['fim']=cs[i+1]['ini'] if i+1<len(cs) else total+1
-json.dump({'cenas':cs,'total':total,'tom':C.get('tom',73.42)},open(P+'/spec.json','w'),ensure_ascii=False)
+json.dump({'cenas':cs,'total':total,'tom':C.get('tom',73.42),'abre':C.get('abre','zoom'),'pulso':C.get('pulso',1.25),'batida':C.get('batida','reto')},open(P+'/spec.json','w'),ensure_ascii=False)
 subprocess.run([sys.executable,D+'/build.py','cenas.html',P],check=True)

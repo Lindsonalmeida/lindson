@@ -1,0 +1,125 @@
+{
+ "tom": 65.41,
+ "cenas": [
+  {
+   "t": "stack",
+   "bg": "glow:rgba(201,162,39,.18):55",
+   "items": [
+    {
+     "h": "Duas formas<br>de lutar",
+     "y": 330,
+     "s": 150,
+     "f": "ant"
+    },
+    {
+     "h": "Com a lei",
+     "y": 900,
+     "s": 120,
+     "f": "cg",
+     "c": "dim",
+     "w": "lei"
+    },
+    {
+     "h": "Com a força",
+     "y": 1060,
+     "s": 150,
+     "f": "ant",
+     "c": "gold",
+     "w": "força",
+     "a": "slam"
+    }
+   ]
+  },
+  {
+   "t": "stack",
+   "w": "E",
+   "bg": "foto:opacity:.22",
+   "items": [
+    {
+     "h": "Para sobreviver,<br>seja",
+     "y": 420,
+     "s": 110,
+     "f": "ant",
+     "d": 0
+    },
+    {
+     "h": "2 animais",
+     "y": 720,
+     "s": 260,
+     "f": "ant",
+     "c": "gold",
+     "w": "dois",
+     "a": "slam"
+    }
+   ]
+  },
+  {
+   "t": "duo",
+   "w": "O",
+   "dir": "h",
+   "a": {
+    "k": "Leão",
+    "s": "não enxerga as armadilhas",
+    "c": "#E2BE4A",
+    "w": "leão"
+   },
+   "b": {
+    "k": "Raposa",
+    "s": "não assusta os lobos",
+    "c": "#EE8040",
+    "w": "raposa"
+   }
+  },
+  {
+   "t": "emb",
+   "w": "Então",
+   "titulo": "Seja os dois",
+   "fox": "raposa#2",
+   "lion": "leão#2",
+   "sf": "para ver a armadilha",
+   "sl": "para ninguém te atacar"
+  },
+  {
+   "t": "stack",
+   "w": "Só",
+   "bg": "glow:rgba(142,27,27,.35):50",
+   "items": [
+    {
+     "h": "Só esperteza",
+     "y": 500,
+     "s": 120,
+     "f": "ant",
+     "w": "esperteza"
+    },
+    {
+     "h": "sem respeito",
+     "y": 640,
+     "s": 90,
+     "f": "cg",
+     "c": "red",
+     "w": "respeito"
+    },
+    {
+     "h": "Só força",
+     "y": 940,
+     "s": 120,
+     "f": "ant",
+     "w": "força#2"
+    },
+    {
+     "h": "cego",
+     "y": 1080,
+     "s": 150,
+     "f": "ant",
+     "box": "red",
+     "w": "cego",
+     "a": "slam"
+    }
+   ]
+  },
+  {
+   "t": "assinatura",
+   "w": "raposa#3"
+  }
+ ]
+}

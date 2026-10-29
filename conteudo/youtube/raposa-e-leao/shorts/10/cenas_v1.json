@@ -1,0 +1,111 @@
+{
+ "tom": 69.3,
+ "cenas": [
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Todos veem o que<br>você parece",
+     "y": 260,
+     "s": 120,
+     "f": "ant",
+     "c": "",
+     "w": "todos"
+    },
+    {
+     "h": "Poucos sentem<br>o que você é",
+     "y": 560,
+     "s": 120,
+     "f": "ant",
+     "c": "gold",
+     "w": "poucos"
+    }
+   ],
+   "bg": "foto:top:640px;bottom:-320px"
+  },
+  {
+   "t": "duo",
+   "w": "As",
+   "dir": "h",
+   "a": {
+    "k": "Olhos",
+    "s": "é assim que te julgam",
+    "c": "#E2BE4A",
+    "w": "olhos"
+   },
+   "b": {
+    "k": "Mãos",
+    "s": "quase ninguém olha",
+    "c": "#EFE6D2",
+    "w": "mãos"
+   }
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Bom no que faz",
+     "y": 380,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "w": "bom"
+    },
+    {
+     "h": "+",
+     "y": 540,
+     "s": 110,
+     "f": "cin",
+     "c": "gold",
+     "w": "se"
+    },
+    {
+     "h": "cara de amador",
+     "y": 680,
+     "s": 120,
+     "f": "ant",
+     "c": "",
+     "w": "amador",
+     "a": "slam",
+     "box": "red"
+    },
+    {
+     "h": "= ninguém compra",
+     "y": 900,
+     "s": 90,
+     "f": "cg",
+     "c": "dim",
+     "w": "primeira"
+    }
+   ],
+   "w": "Não#2"
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "A primeira impressão",
+     "y": 460,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "w": "primeira"
+    },
+    {
+     "h": "decide se vai existir<br>uma segunda",
+     "y": 680,
+     "s": 90,
+     "f": "cg",
+     "c": "gold",
+     "w": "decide"
+    }
+   ],
+   "w": "primeira",
+   "bg": "num:1ª"
+  },
+  {
+   "t": "assinatura",
+   "apos": "segunda"
+  }
+ ]
+}

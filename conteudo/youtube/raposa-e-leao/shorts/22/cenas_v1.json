@@ -1,0 +1,71 @@
+{
+ "tom": 61.74,
+ "cenas": [
+  {
+   "t": "pagina",
+   "tag": "DISCURSOS · II.26",
+   "titulo": "Insultar e debochar",
+   "ty": 300,
+   "de": "gera",
+   "ate": "nenhuma",
+   "hl": [
+    "ódio",
+    "nenhuma"
+   ],
+   "y": 740,
+   "s": 76
+  },
+  {
+   "t": "duo",
+   "w": "O#1",
+   "dir": "v",
+   "a": {
+    "k": "Deboche",
+    "s": "não enfraquece o outro",
+    "c": "#E0453C",
+    "w": "deboche"
+   },
+   "b": {
+    "k": "Ele fica",
+    "s": "mais cuidadoso e motivado",
+    "c": "#EFE6D2",
+    "w": "cuidadoso"
+   }
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "O forte de verdade",
+     "y": 380,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "w": "forte"
+    },
+    {
+     "h": "não humilha.",
+     "y": 560,
+     "s": 120,
+     "f": "cg",
+     "c": "dim",
+     "w": "humilhar"
+    },
+    {
+     "h": "Vence calado.",
+     "y": 800,
+     "s": 190,
+     "f": "ant",
+     "c": "gold",
+     "w": "vence",
+     "a": "slam"
+    }
+   ],
+   "w": "O#3"
+  },
+  {
+   "t": "assinatura",
+   "apos": "calado"
+  }
+ ]
+}

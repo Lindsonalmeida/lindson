@@ -1,0 +1,79 @@
+{
+ "tom": 65.41,
+ "cenas": [
+  {
+   "t": "pagina",
+   "tag": "O PRÍNCIPE · CAP. III",
+   "titulo": "O problema é<br>uma febre",
+   "ty": 300,
+   "de": "No",
+   "ate": "curar#2",
+   "hl": [
+    "difícil",
+    "impossível"
+   ],
+   "y": 760,
+   "s": 74
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "O dinheiro que some aos poucos",
+     "y": 420,
+     "s": 64,
+     "f": "cg",
+     "c": "dim",
+     "w": "dinheiro"
+    },
+    {
+     "h": "O cliente que esfria",
+     "y": 560,
+     "s": 64,
+     "f": "cg",
+     "c": "dim",
+     "w": "cliente"
+    },
+    {
+     "h": "A relação que desgasta",
+     "y": 700,
+     "s": 64,
+     "f": "cg",
+     "c": "dim",
+     "w": "relação"
+    }
+   ],
+   "w": "O#2",
+   "bg": "num:III"
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Quem só age quando<br>todo mundo vê",
+     "y": 380,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "w": "quem"
+    },
+    {
+     "h": "Chega tarde.",
+     "y": 760,
+     "s": 200,
+     "f": "ant",
+     "c": "",
+     "w": "tarde",
+     "a": "slam",
+     "box": "red"
+    }
+   ],
+   "w": "Quem",
+   "bg": "foto:top:900px;bottom:-320px"
+  },
+  {
+   "t": "assinatura",
+   "apos": "tarde"
+  }
+ ]
+}
