@@ -17,7 +17,7 @@
      "s": 120,
      "f": "cg",
      "c": "dim",
-     "w": "lei"
+     "w": "lei#1"
     },
     {
      "h": "Com a força",
@@ -25,14 +25,14 @@
      "s": 150,
      "f": "ant",
      "c": "gold",
-     "w": "força",
+     "w": "força#1",
      "a": "slam"
     }
    ]
   },
   {
    "t": "stack",
-   "w": "E",
+   "w": "e#1",
    "bg": "foto:opacity:.22",
    "items": [
     {
@@ -48,40 +48,50 @@
      "s": 260,
      "f": "ant",
      "c": "gold",
-     "w": "dois",
+     "w": "dois#1",
      "a": "slam"
     }
    ]
   },
   {
    "t": "duo",
-   "w": "O",
+   "w": "O#1",
    "dir": "h",
    "a": {
     "k": "Leão",
     "s": "não enxerga as armadilhas",
     "c": "#E2BE4A",
-    "w": "leão"
+    "w": "leão#1"
    },
    "b": {
     "k": "Raposa",
     "s": "não assusta os lobos",
     "c": "#EE8040",
-    "w": "raposa"
+    "w": "raposa#1"
+   }
+  },
+  {
+   "t": "conversa",
+   "w": "Pensa#1",
+   "img": "../img/hist/caracalla.jpg",
+   "h": "Mais raposa ou<br>mais leão?",
+   "interage": {
+    "tipo": "checkin",
+    "txt": "PENSEI"
    }
   },
   {
    "t": "emb",
-   "w": "Então",
+   "w": "Então#1",
    "titulo": "Seja os dois",
-   "fox": "raposa#2",
-   "lion": "leão#2",
+   "fox": "raposa#3",
+   "lion": "leão#3",
    "sf": "para ver a armadilha",
    "sl": "para ninguém te atacar"
   },
   {
    "t": "stack",
-   "w": "Só",
+   "w": "Só#1",
    "bg": "glow:rgba(142,27,27,.35):50",
    "items": [
     {
@@ -89,7 +99,7 @@
      "y": 500,
      "s": 120,
      "f": "ant",
-     "w": "esperteza"
+     "w": "esperteza#1"
     },
     {
      "h": "sem respeito",
@@ -97,7 +107,7 @@
      "s": 90,
      "f": "cg",
      "c": "red",
-     "w": "respeito"
+     "w": "respeito#1"
     },
     {
      "h": "Só força",
@@ -112,14 +122,30 @@
      "s": 150,
      "f": "ant",
      "box": "red",
-     "w": "cego",
+     "w": "cego#1",
      "a": "slam"
     }
    ]
   },
   {
+   "t": "conversa",
+   "w": "Escreve#1",
+   "img": "../img/hist/marcus_equestre.jpg",
+   "h": "Qual falta<br>em você?",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "RESPONDE NOS COMENTÁRIOS",
+    "digita": "FALTA O LEÃO"
+   }
+  },
+  {
    "t": "assinatura",
-   "w": "raposa#3"
+   "w": "Raposa#4",
+   "apos": "você#2",
+   "frase": "Esperteza e força. As duas."
   }
- ]
+ ],
+ "abre": "zoom",
+ "pulso": 0.95,
+ "batida": "duplo"
 }
