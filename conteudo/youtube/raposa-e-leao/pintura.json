@@ -1,0 +1,1128 @@
+[
+ {
+  "id": "longo-14",
+  "formato": "longo",
+  "titulo": "Por que Roma caiu, segundo Maquiavel",
+  "legenda": "Por que Roma caiu? Para Maquiavel, o inimigo nasceu dentro de casa. Neste vídeo você entende o que os Discursos sobre Tito Lívio dizem sobre a força da República romana: o conflito entre plebe e senado que fortalece, as leis e a religião, o remédio de voltar às origens, a corrupção dos costumes, a ditadura que vira tirania e a glória enganosa de Júlio César.\n\nDepois, no capítulo XIX de O Príncipe, você vê por que imperadores como Marco Aurélio, Cômodo, Pertinax, Sétimo Severo e Caracala foram honrados, odiados ou desprezados. No final, três sinais de que uma empresa, uma família ou um país está seguindo o caminho de Roma, e o remédio de Maquiavel.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📜 Fonte: Nicolau Maquiavel, Discursos sobre a primeira década de Tito Lívio, livro I, caps. 2, 3, 4, 10, 11, 17, 18, 34, 35 e 37, e livro III, caps. 1 e 24; O Príncipe, cap. XIX. As citações aparecem em paráfrase curta.\n\n🦊🦁 Raposa e Leão: Maquiavel e as leis do poder aplicadas à vida real.\n\n▶️ Playlist recomendada: Maquiavel na prática\n\n#Maquiavel #ImpérioRomano #HistóriaDeRoma #Liderança #RaposaELeão",
+  "comentario": "📌 Dos três sinais do caminho de Roma (briga sem regra, costume gasto ou poder sem prazo), qual você mais enxerga hoje no seu trabalho, na sua família ou no país? Continue na playlist Maquiavel na prática ⬇️",
+  "titulo_tela": {
+   "sup": "RAPOSA E LEÃO",
+   "txt": "Por que<br>Roma caiu",
+   "dur": 3.2
+  },
+  "cenas": [
+   {
+    "gravura": "acervo/cesar_assassinato_camuccini.jpg",
+    "mov": "in",
+    "txt": "Roma tinha o exército mais temido do seu tempo. E mesmo assim caiu. Para Maquiavel, o inimigo que derrubou Roma não veio de fora. Ele nasceu dentro de casa, e começou bem antes dos bárbaros."
+   },
+   {
+    "gravura": "acervo/multidao_bruegel.jpg",
+    "mov": "out",
+    "txt": "E tem um detalhe que parece loucura. Segundo ele, o que deixou Roma forte foi justamente a briga. Plebe contra senado, gritaria na praça, gente saindo da cidade em protesto. Briga que fortalece? Já já eu explico."
+   },
+   {
+    "gravura": "hist/marcus_aurelius.jpg",
+    "mov": "esq",
+    "txt": "Tem também a história de um imperador honesto, que quis colocar ordem nas coisas e foi morto em poucos meses. Morto, segundo Maquiavel, justamente pelas coisas boas que tentou fazer. Guarda esse nome que eu ainda não disse."
+   },
+   {
+    "gravura": "maquiavel.jpg",
+    "mov": "dir",
+    "txt": "E no final eu te entrego a lição maior: três sinais de que uma empresa, uma família ou um país está entrando no mesmo caminho de Roma. E o remédio que Maquiavel indicava para voltar atrás."
+   },
+   {
+    "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+    "mov": "cima",
+    "txt": "Antes, uma coisa honesta. Maquiavel nunca escreveu um capítulo chamado por que Roma caiu. Essa resposta está espalhada em dois livros: os Discursos sobre Tito Lívio e O Príncipe. Hoje a gente junta as peças."
+   },
+   {
+    "gravura": "acervo/romanos_decadencia_couture.jpg",
+    "mov": "in",
+    "txt": "E os historiadores até hoje debatem as causas da queda do Império do Ocidente, em 476. Invasões, economia, divisão do território, muita coisa entrou na conta. Aqui você vai ver a leitura de Maquiavel, que olha para dentro."
+   },
+   {
+    "gravura": "cesar.jpg",
+    "mov": "out",
+    "txt": "Então vem comigo. Oito lições, de Rômulo a Caracala, e em cada uma, o que isso tem a ver com o seu trabalho, a sua casa e o seu país."
+   },
+   {
+    "gravura": "acervo/multidao_bruegel.jpg",
+    "mov": "esq",
+    "txt": "Depois que os romanos expulsaram os reis Tarquínios, Roma virou república. E a cidade vivia dividida em dois lados: os grandes, ricos e nobres do senado, e o povo, a plebe.",
+    "cap": {
+     "sup": "LIÇÃO 1",
+     "txt": "A briga que fez Roma forte"
+    }
+   },
+   {
+    "gravura": "hist/bonfire_of_the_vanities.jpg",
+    "mov": "dir",
+    "txt": "Os dois lados brigavam o tempo todo. A plebe chegava a se recusar a ir para a guerra e até a sair da cidade em protesto. Muita gente olhava para isso e dizia: que bagunça."
+   },
+   {
+    "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+    "mov": "in",
+    "txt": "Maquiavel diz o contrário. Para ele, quem condena essas brigas está condenando a primeira causa da liberdade de Roma. Porque foi delas que saíram as leis que protegiam todo mundo.",
+    "verso": "Quem condena os tumultos entre nobres e plebe condena a primeira causa da liberdade de Roma.",
+    "ref": "DISCURSOS, LIVRO I, CAP. 4"
+   },
+   {
+    "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+    "mov": "out",
+    "txt": "A ideia dele é simples. Em toda cidade existem dois humores: os grandes querem mandar, e o povo não quer ser mandado. Se um lado engole o outro, acabou a liberdade. Se os dois se vigiam, nasce o equilíbrio."
+   },
+   {
+    "gravura": "cesar.jpg",
+    "mov": "cima",
+    "txt": "Foi dessa disputa que surgiram os tribunos da plebe, representantes do povo com poder de barrar abusos dos poderosos. A briga não destruiu Roma. Ela criou um freio."
+   },
+   {
+    "gravura": "acervo/coroacao_napoleao_david.jpg",
+    "mov": "esq",
+    "txt": "No capítulo 2, Maquiavel elogia o governo misto de Roma: cônsules no papel do rei, senado no dos nobres, tribunos no do povo. Cada um segurava o outro."
+   },
+   {
+    "gravura": "maquiavel2.jpg",
+    "mov": "in",
+    "txt": "Aí está a primeira promessa cumprida. A briga fortalecia Roma porque era briga com regra. Cada lado gritava, mas o grito virava lei, não virava espada. Briga sem regra destrói. Briga com regra fortalece."
+   },
+   {
+    "gravura": "acervo/embaixadores_holbein.jpg",
+    "mov": "out",
+    "txt": "Pensa numa empresa. Vendas quer vender de qualquer jeito, o financeiro quer segurar o caixa. Se um manda sozinho, a empresa quebra. A tensão entre os dois, com regra clara, é o que protege o negócio."
+   },
+   {
+    "gravura": "acervo/castiglione_raffaello.jpg",
+    "mov": "esq",
+    "txt": "Tá comigo até aqui? Então guarda essa: não é a briga que mata uma casa. É a briga sem regra, ou o silêncio de quem já desistiu de discordar.",
+    "interage": {
+     "tipo": "checkin",
+     "txt": "Briga com regra fortalece. Tá comigo?"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "acervo/leao_x_raffaello.jpg",
+    "mov": "dir",
+    "txt": "Me conta aqui embaixo: no seu trabalho ou na sua família, existe uma discussão que você evita, mas que precisava acontecer com respeito e com regra? Escreve só o tema.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Qual discussão você evita?"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "hist/moses.jpg",
+    "mov": "in",
+    "txt": "Mas briga com regra só funciona se existir regra. E aqui entra a segunda peça de Maquiavel: as leis e a religião, a cola invisível que segurava Roma.",
+    "cap": {
+     "sup": "LIÇÃO 2",
+     "txt": "Leis e religião: a cola invisível"
+    }
+   },
+   {
+    "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+    "mov": "cima",
+    "txt": "Maquiavel não tinha ilusão sobre as pessoas. No terceiro capítulo dos Discursos, ele diz que quem funda uma república precisa supor que os homens são maus, e que vão agir mal sempre que tiverem chance."
+   },
+   {
+    "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+    "mov": "out",
+    "txt": "E completa com uma frase dura: a fome e a pobreza tornam os homens trabalhadores, e as leis os tornam bons. Bondade, para ele, não nasce sozinha. Ela é sustentada por regra.",
+    "verso": "A fome e a pobreza tornam os homens trabalhadores; as leis os tornam bons.",
+    "ref": "DISCURSOS, LIVRO I, CAP. 3"
+   },
+   {
+    "gravura": "hist/moses.jpg",
+    "mov": "esq",
+    "txt": "Depois vem a religião. Rômulo fundou Roma com a espada. Mas quem veio depois dele, o rei Numa, encontrou um povo feroz e usou a religião para ensinar esse povo a obedecer e a cumprir a palavra dada."
+   },
+   {
+    "gravura": "acervo/julio_ii_raffaello.jpg",
+    "mov": "dir",
+    "txt": "E Maquiavel chega a dizer que, se fosse preciso escolher, Roma deveu mais a Numa do que a Rômulo. Mais ao homem que criou costumes do que ao homem que ganhou batalhas.",
+    "verso": "Se fosse preciso escolher, Roma deveu mais a Numa do que a Rômulo.",
+    "ref": "DISCURSOS, LIVRO I, CAP. 11"
+   },
+   {
+    "gravura": "hist/girolamo_savonarola.jpg",
+    "mov": "out",
+    "txt": "Atenção: Maquiavel olha a religião pelo efeito na vida pública, nos costumes, na palavra cumprida. Não é um tratado de fé. É a pergunta: o que faz um povo cumprir o combinado quando ninguém está olhando?"
+   },
+   {
+    "gravura": "acervo/embaixadores_holbein.jpg",
+    "mov": "cima",
+    "txt": "E ele junta tudo numa frase que vale ouro: assim como os bons costumes precisam de leis para se manter, as leis precisam de bons costumes para serem obedecidas.",
+    "verso": "Assim como os bons costumes precisam de leis, as leis precisam de bons costumes para serem obedecidas.",
+    "ref": "DISCURSOS, LIVRO I, CAP. 18"
+   },
+   {
+    "gravura": "maquiavel.jpg",
+    "mov": "esq",
+    "txt": "Traduzindo para hoje: o regulamento da empresa não serve de nada se ninguém acredita nele. E o combinado da família não dura se não tiver valor por trás. Lei sem costume é papel. Costume sem lei se perde."
+   },
+   {
+    "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+    "mov": "dir",
+    "txt": "Agora vem o remédio que Maquiavel considerava o mais importante para qualquer coisa durar. Está no começo do terceiro livro dos Discursos, e cabe numa frase: voltar às origens.",
+    "cap": {
+     "sup": "LIÇÃO 3",
+     "txt": "Voltar às origens"
+    }
+   },
+   {
+    "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+    "mov": "in",
+    "txt": "Ele diz que tudo o que existe tem um tempo de vida. E que as repúblicas e as religiões só duram muito se forem trazidas de volta, com frequência, aos princípios que as fizeram nascer.",
+    "verso": "Para durar muito, uma república precisa ser trazida de volta, com frequência, aos seus princípios.",
+    "ref": "DISCURSOS, LIVRO III, CAP. 1"
+   },
+   {
+    "gravura": "acervo/vercingetorix_royer.jpg",
+    "mov": "out",
+    "txt": "Por quê? Porque todo começo tem alguma bondade, alguma força. É por isso que a coisa cresceu. Com o tempo, essa bondade vai se gastando, e se ninguém renova, o corpo morre."
+   },
+   {
+    "gravura": "acervo/cesar_morte_gerome.jpg",
+    "mov": "cima",
+    "txt": "Um exemplo que ele dá: quando os gauleses tomaram Roma, a cidade levou um susto tão grande que voltou a respeitar suas leis e sua religião. A desgraça fez Roma renascer."
+   },
+   {
+    "gravura": "acervo/leao_x_raffaello.jpg",
+    "mov": "esq",
+    "txt": "Mas ele prefere que a renovação venha de dentro: por uma lei boa ou pelo exemplo de um homem virtuoso. E chega a dizer que esses choques de volta à origem não deviam passar de dez anos de distância um do outro."
+   },
+   {
+    "gravura": "acervo/castiglione_raffaello.jpg",
+    "mov": "in",
+    "txt": "Agora pensa no seu negócio. Por que o primeiro cliente comprou de você? Qual era o capricho do começo? Muita empresa cresce e esquece exatamente isso."
+   },
+   {
+    "gravura": "lorenzo.jpg",
+    "mov": "out",
+    "txt": "Me responde nos comentários: qual era a coisa boa do começo, no seu trabalho, no seu casamento ou no seu projeto, que você precisa trazer de volta? Uma palavra já basta.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "O que precisa voltar?"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "acervo/romanos_decadencia_couture.jpg",
+    "mov": "esq",
+    "txt": "Até aqui, você viu o que fazia Roma forte. Agora começa a parte triste: como isso apodreceu. E Maquiavel usa uma palavra que vai aparecer muito daqui pra frente: corrupção.",
+    "cap": {
+     "sup": "LIÇÃO 4",
+     "txt": "Quando os costumes apodrecem"
+    }
+   },
+   {
+    "gravura": "acervo/pollice_verso_gerome.jpg",
+    "mov": "dir",
+    "txt": "Corrupção, para ele, não é só roubar dinheiro público. É quando os costumes se estragam e o cidadão deixa de pensar no bem comum para pensar só no próprio lado."
+   },
+   {
+    "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+    "mov": "cima",
+    "txt": "E ele faz um alerta pesado no capítulo 17: um povo corrompido que ganha a liberdade quase não consegue mantê-la. Quando os Tarquínios caíram, Roma ainda era sadia. Por isso a república vingou.",
+    "verso": "Um povo corrompido que conquista a liberdade com enorme dificuldade consegue mantê-la.",
+    "ref": "DISCURSOS, LIVRO I, CAP. 17"
+   },
+   {
+    "gravura": "acervo/cesar_assassinato_camuccini.jpg",
+    "mov": "in",
+    "txt": "Mas depois de César, diz Maquiavel, já não deu. Mesmo com César, Calígula e Nero mortos, Roma nunca mais conseguiu nem começar a ser livre de novo. O povo já estava gasto por dentro."
+   },
+   {
+    "gravura": "acervo/multidao_bruegel.jpg",
+    "mov": "out",
+    "txt": "E onde começou o estrago? Ele aponta uma briga específica, no capítulo 37: a disputa pela lei agrária, a divisão das terras conquistadas, que explodiu na época dos irmãos Graco."
+   },
+   {
+    "gravura": "hist/bonfire_of_the_vanities.jpg",
+    "mov": "esq",
+    "txt": "Maquiavel elogia a intenção dos Gracos, mas critica a falta de prudência. Mexeram numa ferida antiga de um jeito que inflamou os dois lados. A briga com regra virou briga de facção."
+   },
+   {
+    "gravura": "acervo/albrecht_altdorfer_schlacht_bei_issus_alte_pinak.jpg",
+    "mov": "dir",
+    "txt": "Daí em diante, ele conta, cada lado arranjou seu chefe armado. Mário, do lado do povo. Sila, do lado dos nobres. Depois César herdou o partido de Mário, e Pompeu, o de Sila."
+   },
+   {
+    "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+    "mov": "in",
+    "txt": "Lembra da primeira lição? Por mais de trezentos anos, diz Maquiavel, a briga virava lei. Agora a briga virava exército. Esse é o ponto exato em que, para Maquiavel, a doença entrou no corpo de Roma."
+   },
+   {
+    "gravura": "acervo/prisao_cristo_caravaggio.jpg",
+    "mov": "cima",
+    "txt": "Repara: não foi Aníbal, não foram os gauleses. Foram romanos vendo outros romanos como inimigos. E falta a pior parte: quem iria se aproveitar disso."
+   },
+   {
+    "gravura": "acervo/coroacao_napoleao_david.jpg",
+    "mov": "out",
+    "txt": "Você vai se surpreender com o que Maquiavel fala da ditadura romana. Porque, no começo, ele defende ela.",
+    "cap": {
+     "sup": "LIÇÃO 5",
+     "txt": "A ditadura que vira tirania"
+    }
+   },
+   {
+    "gravura": "cesar.jpg",
+    "mov": "esq",
+    "txt": "Em Roma, o ditador era um cargo legal, para emergências. Numa guerra ou numa crise, um homem recebia poder total, mas por tempo curto, no máximo seis meses, e sem poder mudar as leis da república."
+   },
+   {
+    "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+    "mov": "dir",
+    "txt": "E Maquiavel diz que essa ditadura fez bem a Roma, e não mal. O perigo, segundo ele, não é a autoridade dada pelo voto, com limite. É a autoridade que alguém toma por conta própria.",
+    "verso": "A ditadura fez bem a Roma; o mal vem da autoridade tomada à força, não da dada pelo voto.",
+    "ref": "DISCURSOS, LIVRO I, CAP. 34"
+   },
+   {
+    "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+    "mov": "in",
+    "txt": "E ele mostra o contraste com os decênviros: dez homens escolhidos para escrever as leis de Roma, com poder total. O mandato foi esticado, e eles viraram tiranos, sob o comando de Ápio Cláudio."
+   },
+   {
+    "gravura": "maquiavel2.jpg",
+    "mov": "out",
+    "txt": "A conclusão dele é cirúrgica. Poder dado de graça e por muito tempo, sem ninguém para vigiar, apodrece. O problema não é ter poder em hora de crise. É o poder que não tem prazo para acabar."
+   },
+   {
+    "gravura": "acervo/vercingetorix_royer.jpg",
+    "mov": "cima",
+    "txt": "E tem um capítulo do terceiro livro que fecha esse raciocínio. Maquiavel diz que o que tornou Roma serva foi o prolongamento dos comandos militares. Generais ficando anos e anos à frente das mesmas tropas.",
+    "verso": "O prolongamento dos comandos militares tornou Roma serva.",
+    "ref": "DISCURSOS, LIVRO III, CAP. 24"
+   },
+   {
+    "gravura": "acervo/hannibal_and_scipio_africanus.jpg",
+    "mov": "esq",
+    "txt": "O soldado passava tanto tempo com o mesmo general que deixava de ser soldado de Roma. Virava soldado do general. Foi assim que Sila e Mário tiveram exércitos fiéis a eles, e não à república."
+   },
+   {
+    "gravura": "lorenzo.jpg",
+    "mov": "dir",
+    "txt": "Respira e pensa num exemplo de hoje: o gerente que ficou tanto tempo no setor que a equipe obedece a ele, não à empresa. Se ele sair, leva o time. Isso é o comando prolongado.",
+    "interage": {
+     "tipo": "checkin",
+     "txt": "Respira. Isso acontece hoje, né?"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "cesar.jpg",
+    "mov": "in",
+    "txt": "E aí vem o homem que juntou tudo: exército fiel, facção do povo e uma ditadura que não quis devolver. E guarda esta: mais adiante aparece um imperador que Maquiavel descreve com o nome deste canal."
+   },
+   {
+    "gravura": "acervo/vercingetorix_royer.jpg",
+    "mov": "out",
+    "txt": "César conquistou a Gália, viu Vercingetórix se render aos seus pés e voltou com um exército que seguia só ele. Cruzou o Rubicão, venceu Pompeu e virou senhor de Roma.",
+    "cap": {
+     "sup": "LIÇÃO 6",
+     "txt": "César: a glória que enganou"
+    }
+   },
+   {
+    "gravura": "cesar.jpg",
+    "mov": "esq",
+    "txt": "Ele foi nomeado ditador várias vezes, e em 44 antes de Cristo se tornou ditador perpétuo. Repara na palavra. Aquele cargo de seis meses, criado para emergências, agora não tinha mais fim."
+   },
+   {
+    "gravura": "acervo/cesar_assassinato_camuccini.jpg",
+    "mov": "dir",
+    "txt": "Naquele mesmo ano, nos idos de março, César foi morto a punhaladas no senado. Os conspiradores achavam que estavam salvando a república. Mas, como você viu na lição 4, ela não voltou."
+   },
+   {
+    "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+    "mov": "in",
+    "txt": "E agora a frase que muita gente não conhece. No capítulo 10, Maquiavel escreve: que ninguém se deixe enganar pela glória de César. Para ele, César foi o primeiro tirano de Roma.",
+    "verso": "Que ninguém se deixe enganar pela glória de César.",
+    "ref": "DISCURSOS, LIVRO I, CAP. 10"
+   },
+   {
+    "gravura": "acervo/jean_l_on_g_r_me_the_death_of_caesar_walters_378.jpg",
+    "mov": "out",
+    "txt": "E ele explica por que tantos escritores elogiaram César: estavam encantados com a sorte dele e com medo do império que governava em seu nome. Não podiam falar livremente."
+   },
+   {
+    "gravura": "maquiavel.jpg",
+    "mov": "esq",
+    "txt": "Pra Maquiavel, quem funda uma república ou um reino bom merece elogio. Quem destrói isso, mesmo cheio de vitória, merece a vergonha. Glória sem bem comum não é glória."
+   },
+   {
+    "gravura": "acervo/coroacao_napoleao_david.jpg",
+    "mov": "dir",
+    "txt": "E a lição para hoje: cuidado com o líder carismático que ganha todas, mas deixa a casa mais dependente dele. Na empresa, na igreja, na política. Brilho não é o mesmo que construir."
+   },
+   {
+    "gravura": "lorenzo.jpg",
+    "mov": "in",
+    "txt": "Se essa lição já valeu o seu tempo, segue o Raposa e Leão e assiste a playlist Maquiavel na prática. Toda semana, Maquiavel na fonte, trazido para a sua vida.",
+    "cta": "Segue o <b>Raposa e Leão</b><br>e veja a playlist <b>Maquiavel na prática</b>",
+    "interage": {
+     "tipo": "segue",
+     "txt": "Segue pra próxima lição"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "acervo/romanos_decadencia_couture.jpg",
+    "mov": "out",
+    "txt": "A república morreu com César. Mas o império ainda durou séculos. E no capítulo 19 de O Príncipe, Maquiavel faz um raio-x de uma sequência de imperadores, de Marco Aurélio a Maximino.",
+    "cap": {
+     "sup": "LIÇÃO 7",
+     "txt": "Odiados ou desprezados"
+    }
+   },
+   {
+    "gravura": "maquiavel2.jpg",
+    "mov": "esq",
+    "txt": "A regra do capítulo é uma só: o governante precisa fugir de tudo que o torne odiado ou desprezado. Odiado por tomar o que é dos outros e por crueldade. Desprezado por ser fraco, indeciso, leviano.",
+    "verso": "O príncipe deve fugir de tudo o que o torne odiado ou desprezado.",
+    "ref": "O PRÍNCIPE, CAP. XIX"
+   },
+   {
+    "gravura": "acervo/pollice_verso_gerome.jpg",
+    "mov": "dir",
+    "txt": "E ele aponta um problema que só Roma tinha. Os imperadores precisavam agradar o povo, que queria paz, e os soldados, que queriam guerra, dinheiro e liberdade para saquear. Agradar um era irritar o outro."
+   },
+   {
+    "gravura": "hist/marcus_equestre.jpg",
+    "mov": "cima",
+    "txt": "Primeiro, Marco Aurélio. Um homem justo, filósofo, e segundo Maquiavel, o único desse grupo que viveu e morreu honrado. Porque herdou o trono e não devia o poder nem ao povo nem aos soldados."
+   },
+   {
+    "gravura": "hist/marcus_aurelius.jpg",
+    "mov": "in",
+    "txt": "Cheio de virtudes, manteve os dois lados nos seus limites. Mas repara: nos Discursos, capítulo 10, Maquiavel diz que os bons imperadores vieram por adoção, e que quando o trono voltou aos herdeiros, voltou a ruína."
+   },
+   {
+    "gravura": "hist/commodus.jpg",
+    "mov": "out",
+    "txt": "E o herdeiro de Marco foi o filho, Cômodo. Tinha tudo para ser fácil: bastava seguir o pai. Mas foi cruel, entregou-se aos soldados e chegou a descer à arena para lutar com gladiadores."
+   },
+   {
+    "gravura": "acervo/pollice_verso_gerome.jpg",
+    "mov": "esq",
+    "txt": "Para Maquiavel, isso o rebaixou. O imperador virou espetáculo, e os próprios soldados passaram a desprezá-lo. Odiado de um lado, desprezado do outro. Cômodo foi morto numa conspiração."
+   },
+   {
+    "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+    "mov": "dir",
+    "txt": "Agora, o nome que eu te prometi lá no começo: Pertinax. Feito imperador contra a vontade dos soldados, que tinham se acostumado à bagunça do tempo de Cômodo. Ele quis colocar ordem."
+   },
+   {
+    "gravura": "hist/bonfire_of_the_vanities.jpg",
+    "mov": "cima",
+    "txt": "Os soldados odiaram a disciplina e ainda o desprezavam por ser velho. Pertinax foi morto em poucos meses. E Maquiavel solta uma frase dura: o ódio se conquista tanto com boas obras quanto com más.",
+    "verso": "O ódio se conquista tanto com boas obras quanto com más.",
+    "ref": "O PRÍNCIPE, CAP. XIX"
+   },
+   {
+    "gravura": "maquiavel.jpg",
+    "mov": "in",
+    "txt": "Fechando essa promessa: Pertinax não morreu por ser bom. Morreu por tentar mudar tudo de uma vez, contra quem tinha a força, sem ter base para isso. Quer arrumar uma casa bagunçada? Primeiro tenha apoio."
+   },
+   {
+    "gravura": "hist/arco_severo.jpg",
+    "mov": "out",
+    "txt": "Depois vem Sétimo Severo, e aqui aparece o nome do canal. Maquiavel diz que Severo foi uma raposa muito astuta e um leão muito feroz. Temido e respeitado por todos.",
+    "verso": "Severo foi uma raposa muito astuta e um leão muito feroz.",
+    "ref": "O PRÍNCIPE, CAP. XIX"
+   },
+   {
+    "gravura": "acervo/albrecht_altdorfer_schlacht_bei_issus_alte_pinak.jpg",
+    "mov": "esq",
+    "txt": "O leão: marchou com o exército até Roma dizendo que ia vingar Pertinax, e o senado o aceitou com medo. A raposa: tinha dois rivais. Dividiu um título com um, derrotou o outro, e depois voltou para eliminar o primeiro."
+   },
+   {
+    "gravura": "acervo/beijo_judas_giotto.jpg",
+    "mov": "dir",
+    "txt": "Importante: aqui no canal a gente estuda isso para reconhecer o jogo e se proteger, não para trair ninguém. Quando alguém te dá um título bonito enquanto resolve outro problema, vale perguntar: qual é o próximo passo dele?"
+   },
+   {
+    "gravura": "hist/caracalla.jpg",
+    "mov": "cima",
+    "txt": "E o filho de Severo, Caracala? Era bom de guerra e admirado pelos soldados. Mas a crueldade não tinha limite: segundo Maquiavel, mandou matar boa parte do povo de Roma e todo o de Alexandria. Virou odiado pelo mundo."
+   },
+   {
+    "gravura": "acervo/prisao_cristo_caravaggio.jpg",
+    "mov": "in",
+    "txt": "E morreu do jeito que Maquiavel usa como alerta. Tinha matado o irmão de um centurião, ameaçava esse homem todo dia, e mesmo assim o mantinha na própria guarda. Foi esse centurião que o matou."
+   },
+   {
+    "gravura": "hist/caracalla.jpg",
+    "mov": "out",
+    "txt": "A lição dele é prática: não ofenda gravemente quem trabalha do seu lado todos os dias. Ressentimento perto demais é perigo. Na empresa, na família, em qualquer lugar."
+   },
+   {
+    "gravura": "lorenzo.jpg",
+    "mov": "esq",
+    "txt": "Essa parte dos imperadores vale ouvir de novo com calma. Salva esse vídeo agora, e quando tiver que tomar uma decisão difícil como líder, volta aqui e pergunta: isso me deixa odiado ou desprezado?",
+    "interage": {
+     "tipo": "salva",
+     "txt": "Salva: odiado ou desprezado?"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+    "mov": "dir",
+    "txt": "Agora a promessa maior. Juntando os Discursos e O Príncipe, dá para tirar três sinais de que uma empresa, uma família ou um país está entrando no caminho de Roma.",
+    "cap": {
+     "sup": "LIÇÃO 8",
+     "txt": "Os três sinais e o remédio"
+    }
+   },
+   {
+    "gravura": "acervo/multidao_bruegel.jpg",
+    "mov": "cima",
+    "txt": "Primeiro sinal: a briga perdeu a regra. Antes, as pessoas discordavam e daquilo saía uma decisão. Agora discordam e daquilo saem grupos, panelinhas e inimigos dentro da mesma casa. Foi o que aconteceu depois dos Gracos."
+   },
+   {
+    "gravura": "acervo/romanos_decadencia_couture.jpg",
+    "mov": "in",
+    "txt": "Segundo sinal: os costumes se gastaram. As regras continuam no papel, mas ninguém mais acredita nelas. Cada um pensa na própria vantagem. Lembra? Lei sem bom costume não é obedecida."
+   },
+   {
+    "gravura": "acervo/cesar_morte_gerome.jpg",
+    "mov": "out",
+    "txt": "Terceiro sinal: o poder sem prazo. Alguém que recebeu autoridade para uma crise e nunca devolveu. Uma pessoa sem a qual nada funciona, e a quem a equipe é mais fiel do que à própria casa."
+   },
+   {
+    "gravura": "maquiavel.jpg",
+    "mov": "esq",
+    "txt": "E qual o remédio? O de Maquiavel, do livro três: voltar às origens. Lembrar por que aquilo nasceu, renovar as regras e dar o exemplo. De preferência antes da crise, e não por causa dela."
+   },
+   {
+    "gravura": "acervo/embaixadores_holbein.jpg",
+    "mov": "dir",
+    "txt": "Na empresa: reunião em que discordar é permitido, com decisão no final. Cargos com prazo e revisão. E, de tempos em tempos, voltar à promessa que fez o primeiro cliente confiar em você."
+   },
+   {
+    "gravura": "acervo/ferdinand_of_aragon_isabella_of_castile.jpg",
+    "mov": "cima",
+    "txt": "Na família: combinado claro, discussão sem humilhação e o costume de lembrar por que vocês estão juntos. Família também vive de leis e costumes."
+   },
+   {
+    "gravura": "acervo/rendicao_granada_pradilla.jpg",
+    "mov": "in",
+    "txt": "No país: instituições que deixam o povo e os poderosos se vigiarem, e desconfiança de quem pede poder de emergência sem data para acabar. Isso não é de esquerda nem de direita. É a lição de Roma."
+   },
+   {
+    "gravura": "acervo/castiglione_raffaello.jpg",
+    "mov": "out",
+    "txt": "Me conta nos comentários: desses três sinais, briga sem regra, costume gasto ou poder sem prazo, qual você mais enxerga hoje? No seu trabalho, na sua casa ou no país?",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Qual sinal você enxerga?"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "lorenzo.jpg",
+    "mov": "esq",
+    "txt": "E se você conhece alguém que lidera uma equipe, uma empresa ou uma família e está vivendo essa briga sem regra, manda esse vídeo pra essa pessoa. Pode ser a conversa que faltava.",
+    "interage": {
+     "tipo": "manda",
+     "txt": "Manda pra quem lidera"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+    "mov": "dir",
+    "txt": "Recapitulando: Roma ficou forte com briga que virava lei, com leis apoiadas em costumes e com a coragem de voltar às origens. E começou a cair quando a briga virou facção e o poder perdeu o prazo."
+   },
+   {
+    "gravura": "cesar.jpg",
+    "mov": "in",
+    "txt": "César foi o leão que todo mundo aplaudiu. Severo, a raposa e o leão juntos. Pertinax, o homem bom sem apoio. Marco Aurélio, o único que conseguiu não ser odiado nem desprezado."
+   },
+   {
+    "gravura": "maquiavel2.jpg",
+    "mov": "out",
+    "txt": "No próximo vídeo da playlist Maquiavel na prática, você continua aprendendo a enxergar o jogo do poder no trabalho e na vida. Até a próxima lição, raposa.",
+    "cta": "Até a próxima <b>lição</b>,<br>raposa",
+    "selo": "RAPOSA<br>E LEÃO"
+   }
+  ],
+  "canal": "raposa"
+ },
+ {
+  "id": "longo-16",
+  "formato": "longo",
+  "titulo": "Maquiavel não era o vilão que te contaram",
+  "legenda": "Maquiavel não era o vilão que te contaram. Neste vídeo você conhece a vida real de Nicolau Maquiavel: o secretário da Segunda Chancelaria de Florença, as missões diplomáticas junto ao rei da França e a César Bórgia, a milícia florentina, a queda da república em 1512, a prisão e a tortura em 1513 e o exílio em Sant'Andrea in Percussina, onde nasceu O Príncipe.\n\nVocê também descobre o Maquiavel republicano dos Discursos, a comédia A Mandrágora, A Arte da Guerra e a História de Florença, como o termo maquiavélico nasceu com o Índice de livros proibidos e o Anti-Maquiavel de Frederico II, e por que a frase \"os fins justificam os meios\" não é dele. Os estudiosos discordam sobre Maquiavel, e o vídeo mostra as principais leituras.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📜 Fonte: Nicolau Maquiavel, O Príncipe, caps. VII, VIII, XII, XV, XVII e XVIII; Discursos sobre a primeira década de Tito Lívio, livro I, caps. 4, 9, 10 e 58; A Arte da Guerra, proêmio; A Mandrágora, prólogo; História de Florença; cartas a Francesco Vettori de 10/12/1513 e 16/04/1527.\n\n🦊🦁 Raposa e Leão: Maquiavel e as leis do poder aplicadas à vida real.\n\n▶️ Playlist recomendada: Personagens do poder\n\n#Maquiavel #OPríncipe #HistóriaDeFlorença #FilosofiaPolítica #Renascimento",
+  "comentario": "📌 Depois de conhecer a vida dele: Maquiavel é vilão, gênio ou patriota? E você já foi julgado por uma frase tirada de contexto? Continue na playlist Personagens do poder ⬇️",
+  "titulo_tela": {
+   "sup": "RAPOSA E LEÃO",
+   "txt": "O vilão<br>inventado",
+   "dur": 3.2
+  },
+  "cenas": [
+   {
+    "gravura": "maquiavel.jpg",
+    "mov": "in",
+    "txt": "Durante quinhentos anos, o nome dele virou sinônimo de traição, frieza e mentira. Mas esse homem foi preso, torturado e passou a vida defendendo uma república. Então quem é o verdadeiro vilão dessa história?"
+   },
+   {
+    "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+    "mov": "out",
+    "txt": "Hoje você conhece o Maquiavel que quase ninguém conhece. O funcionário, o diplomata, o criador de um exército de cidadãos, o preso político, o autor de comédia e o historiador da própria cidade."
+   },
+   {
+    "gravura": "lorenzo.jpg",
+    "mov": "esq",
+    "txt": "E eu vou te deixar três perguntas pra guardar. A primeira: existe uma frase famosa que todo mundo jura que é dele. Ele nunca escreveu essa frase. No fim, eu te mostro de onde ela veio."
+   },
+   {
+    "gravura": "acervo/coroacao_napoleao_david.jpg",
+    "mov": "dir",
+    "txt": "A segunda: um rei escreveu um livro inteiro chamado Anti-Maquiavel, dizendo que aquilo era uma vergonha. Meses depois, esse mesmo rei fez exatamente o que condenava. Daqui a pouco você descobre quem foi."
+   },
+   {
+    "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+    "mov": "cima",
+    "txt": "E a terceira: o que um homem arruinado, expulso do emprego e com os ombros machucados fazia toda noite, sozinho, numa casinha no campo? A resposta mudou a história do pensamento político."
+   },
+   {
+    "gravura": "acervo/multidao_bruegel.jpg",
+    "mov": "in",
+    "txt": "Antes de começar, um aviso honesto. Estudiosos sérios discordam sobre quem foi Maquiavel. Alguns o veem como mestre do mal, outros como patriota republicano. Eu vou te mostrar as leituras e os fatos, e você decide."
+   },
+   {
+    "gravura": "hist/bonfire_of_the_vanities.jpg",
+    "mov": "out",
+    "txt": "Nicolau Maquiavel nasceu em Florença, em 1469. A família não era rica. O pai, Bernardo, era advogado e amava livros, e foi em casa que o menino conheceu o historiador romano Tito Lívio.",
+    "cap": {
+     "sup": "LIÇÃO 1",
+     "txt": "O secretário de Florença"
+    }
+   },
+   {
+    "gravura": "hist/girolamo_savonarola.jpg",
+    "mov": "esq",
+    "txt": "Florença vivia em tempestade. Os Médici foram expulsos em 1494. Depois veio o frade Savonarola, que pregava contra o luxo e dominou a cidade com sermões de fogo. Em 1498, ele foi condenado e executado na praça."
+   },
+   {
+    "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+    "mov": "dir",
+    "txt": "Poucas semanas depois, um homem de 29 anos ganha um cargo na república: chefe da Segunda Chancelaria. Logo também vira secretário dos Dez, o conselho que cuidava da guerra e das relações com outros Estados."
+   },
+   {
+    "gravura": "acervo/embaixadores_holbein.jpg",
+    "mov": "cima",
+    "txt": "Na prática, um servidor de alto nível. Escrevia cartas oficiais, organizava relatórios, acompanhava guerras e viajava em nome da cidade. Não era príncipe, não era rico. Era o homem que fazia a máquina andar."
+   },
+   {
+    "gravura": "acervo/castiglione_raffaello.jpg",
+    "mov": "in",
+    "txt": "Isso muda tudo na hora de ler O Príncipe. Não é um vilão sonhando com maldades. É um servidor contando o que viu acontecer, sem enfeite, com a franqueza de quem pagou caro."
+   },
+   {
+    "gravura": "hist/marcus_aurelius.jpg",
+    "mov": "out",
+    "txt": "Ele mesmo explica isso. Diz que muita gente imaginou repúblicas e reinos que nunca existiram, e que ele prefere ir atrás da verdade efetiva das coisas, de como elas realmente funcionam.",
+    "verso": "Prefiro ir à verdade efetiva da coisa do que à imaginação dela.",
+    "ref": "O PRÍNCIPE, CAP. XV"
+   },
+   {
+    "gravura": "acervo/multidao_bruegel.jpg",
+    "mov": "esq",
+    "txt": "Tá comigo até aqui? Antes do mito, existe um homem com emprego, chefe, prazo e salário atrasado. Igual a muita gente que está assistindo agora.",
+    "interage": {
+     "tipo": "checkin",
+     "txt": "Um servidor, não um vilão. Tá comigo?"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "acervo/ferdinand_of_aragon_isabella_of_castile.jpg",
+    "mov": "dir",
+    "txt": "Agora vem a parte que formou a cabeça dele: as missões diplomáticas. Florença era rica, mas militarmente fraca. Então precisava negociar com gigantes. E quem ia negociar muitas vezes era Maquiavel.",
+    "cap": {
+     "sup": "LIÇÃO 2",
+     "txt": "O diplomata que observava"
+    }
+   },
+   {
+    "gravura": "hist/ferdinand_ii_of_aragon.jpg",
+    "mov": "cima",
+    "txt": "Em 1500, ele vai à corte do rei Luís XII, da França. Lá descobre que os franceses tratavam Florença com desdém, porque ela não tinha exército próprio nem dinheiro pra oferecer. Quem é fraco não é ouvido."
+   },
+   {
+    "gravura": "borgia.jpg",
+    "mov": "in",
+    "txt": "Em 1502, vem o encontro mais famoso. Ele é enviado até César Bórgia, filho do papa Alexandre Sexto, que estava conquistando cidades na Romanha com velocidade assustadora."
+   },
+   {
+    "gravura": "hist/pope_alexander_vi.jpg",
+    "mov": "out",
+    "txt": "Maquiavel passa meses perto de Bórgia. Escreve relatórios para Florença descrevendo um homem rápido, calado, imprevisível. E testemunha, no fim de 1502, a armadilha de Senigália, quando Bórgia mandou matar capitães que tinham conspirado contra ele."
+   },
+   {
+    "gravura": "cesar.jpg",
+    "mov": "esq",
+    "txt": "É por isso que Bórgia aparece no capítulo sete de O Príncipe como exemplo. Mas repara: Maquiavel também conta como tudo desabou. Quando o pai morreu, Bórgia ficou sem base e perdeu quase tudo."
+   },
+   {
+    "gravura": "acervo/julio_ii_raffaello.jpg",
+    "mov": "dir",
+    "txt": "E aqui Maquiavel registra o erro fatal. Bórgia deixou subir ao papado Júlio Segundo, um homem que ele mesmo tinha ofendido. Quem acredita que benefícios novos fazem esquecer ofensas antigas se engana."
+   },
+   {
+    "gravura": "hist/alexander_the_great.jpg",
+    "mov": "cima",
+    "txt": "Ele ainda vai a Roma, ao imperador Maximiliano e de novo à França. E em cada lugar vê a mesma coisa: quem decide é quem tem força, dinheiro e coragem de agir na hora certa."
+   },
+   {
+    "gravura": "acervo/rendicao_granada_pradilla.jpg",
+    "mov": "in",
+    "txt": "Então, a primeira lição para você: Maquiavel não inventou a dureza do poder. Ele anotou. É como um médico descrevendo uma doença. Descrever o vírus não é o mesmo que torcer pelo vírus."
+   },
+   {
+    "gravura": "acervo/embaixadores_holbein.jpg",
+    "mov": "out",
+    "txt": "E isso vale pra sua vida. Antes de entrar numa negociação, no trabalho ou nos negócios, olhe o que as pessoas fazem, não só o que elas dizem. Observar com calma protege você de muita armadilha.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Já caiu numa promessa bonita?"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "acervo/hannibal_and_scipio_africanus.jpg",
+    "mov": "esq",
+    "txt": "Agora, a ideia que Maquiavel mais amou na vida, e que pouca gente conhece. Florença vivia contratando soldados de aluguel, os mercenários. E eles falhavam sempre que a coisa apertava.",
+    "cap": {
+     "sup": "LIÇÃO 3",
+     "txt": "A milícia do povo"
+    }
+   },
+   {
+    "gravura": "hist/hannibal.jpg",
+    "mov": "dir",
+    "txt": "A guerra contra Pisa se arrastava há anos. Mercenários cobravam caro, enrolavam e fugiam. Maquiavel chegou a uma conclusão que ia repetir até o fim da vida: quem depende de armas alheias não é livre."
+   },
+   {
+    "gravura": "acervo/multidao_bruegel.jpg",
+    "mov": "cima",
+    "txt": "Então ele propõe algo ousado: um exército de cidadãos, recrutados no campo florentino, treinados e ligados à república. Foi a chamada milícia, ou Ordenança, criada entre 1505 e 1506."
+   },
+   {
+    "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+    "mov": "in",
+    "txt": "No começo de 1506, os novos soldados desfilam na Piazza della Signoria, no coração de Florença. Para um homem sem espada e sem título, era o projeto da vida dele saindo do papel."
+   },
+   {
+    "gravura": "acervo/albrecht_altdorfer_schlacht_bei_issus_alte_pinak.jpg",
+    "mov": "out",
+    "txt": "E deu resultado. Em 1509, Pisa se rende. A milícia participou do cerco, e Maquiavel estava lá, cuidando de tudo. Foi o maior momento da carreira dele."
+   },
+   {
+    "gravura": "hist/arco_severo.jpg",
+    "mov": "esq",
+    "txt": "Por trás disso, tem uma convicção que aparece em vários livros dele: não existem boas leis sem boas armas. Um povo que sabe se defender não precisa implorar a ninguém pela própria liberdade.",
+    "verso": "Não pode haver boas leis onde não há boas armas.",
+    "ref": "O PRÍNCIPE, CAP. XII"
+   },
+   {
+    "gravura": "acervo/the_battle_of_alexander_at_issus_by_albrecht_alt.jpg",
+    "mov": "dir",
+    "txt": "Em 1512, tropas espanholas descem para a Toscana com um objetivo: devolver os Médici ao poder. No caminho, atacam a cidade de Prato, perto de Florença. A milícia estava lá. E não aguentou.",
+    "cap": {
+     "sup": "LIÇÃO 4",
+     "txt": "Queda, prisão e tortura"
+    }
+   },
+   {
+    "gravura": "acervo/pollice_verso_gerome.jpg",
+    "mov": "cima",
+    "txt": "Prato foi saqueada com uma violência terrível. Florença entrou em pânico. O chefe da república, Piero Soderini, aliado de Maquiavel, fugiu para o exílio. E os Médici voltaram à cidade."
+   },
+   {
+    "gravura": "acervo/leao_x_raffaello.jpg",
+    "mov": "in",
+    "txt": "Em novembro de 1512, Maquiavel é demitido. Catorze anos de serviço acabam numa ordem. Ele é proibido de sair do território florentino e ainda precisa pagar uma fiança alta."
+   },
+   {
+    "gravura": "acervo/beijo_judas_giotto.jpg",
+    "mov": "out",
+    "txt": "Mas o pior vinha em fevereiro de 1513. Descobrem uma conspiração contra os Médici. Num papel dos conspiradores, havia uma lista de nomes. Um deles era Nicolau Maquiavel."
+   },
+   {
+    "gravura": "acervo/prisao_cristo_caravaggio.jpg",
+    "mov": "esq",
+    "txt": "Ele é preso e torturado com a corda. Amarravam as mãos da pessoa nas costas, erguiam o corpo pelos pulsos e soltavam de repente. Num poema, ele mesmo conta que levou seis desses golpes."
+   },
+   {
+    "gravura": "acervo/cesar_morte_gerome.jpg",
+    "mov": "dir",
+    "txt": "Nunca se provou que ele participava da conspiração. E ele não confessou nada. Imagina: o homem que hoje é chamado de mestre da traição ficou calado sob tortura e não entregou ninguém."
+   },
+   {
+    "gravura": "acervo/botticelli_giuliano_de_medici_accademia_carrara.jpg",
+    "mov": "cima",
+    "txt": "Na cadeia, ele chega a escrever versos para Giuliano de Médici, com humor amargo, falando dos piolhos e das correntes. É um preso tentando sobreviver, não um gênio do mal planejando o mundo."
+   },
+   {
+    "gravura": "acervo/leao_x_raffaello.jpg",
+    "mov": "in",
+    "txt": "Então acontece uma reviravolta. Em março de 1513, o cardeal Giovanni de Médici vira o papa Leão Décimo. Florença comemora, há anistia, e Maquiavel sai da prisão. Livre, mas destruído."
+   },
+   {
+    "gravura": "hist/marcus_equestre.jpg",
+    "mov": "out",
+    "txt": "Ele vai morar numa pequena propriedade da família, no campo, em Sant'Andrea in Percussina, a poucos quilômetros de Florença. A casa era conhecida como Albergaccio. Ali começa o exílio.",
+    "cap": {
+     "sup": "LIÇÃO 5",
+     "txt": "O exílio que gerou O Príncipe"
+    }
+   },
+   {
+    "gravura": "acervo/romanos_decadencia_couture.jpg",
+    "mov": "esq",
+    "txt": "De dia, a vida era rude. Cuidava do bosque, conversava com lenhadores, ia à taverna da estrada, jogava cartas e brigava por centavos com o açougueiro e o moleiro."
+   },
+   {
+    "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+    "mov": "dir",
+    "txt": "E agora fecho a terceira pergunta. Numa carta ao amigo Francesco Vettori, em dezembro de 1513, ele conta: toda noite tirava a roupa suja de lama e vestia roupas de corte."
+   },
+   {
+    "gravura": "hist/marcus_aurelius.jpg",
+    "mov": "cima",
+    "txt": "Assim vestido, entrava no escritório e conversava com os antigos. Perguntava a eles as razões das suas ações, e os livros respondiam. Durante quatro horas, esquecia o cansaço, a pobreza e até o medo da morte.",
+    "verso": "Visto roupas de corte e entro nas antigas cortes dos homens antigos.",
+    "ref": "CARTA A VETTORI, 10/12/1513"
+   },
+   {
+    "gravura": "cesar.jpg",
+    "mov": "in",
+    "txt": "E nessa mesma carta, ele avisa o amigo: escrevi um pequeno livro sobre os principados. É o nascimento de O Príncipe. Não num palácio, mas numa casa de campo, de um homem humilhado."
+   },
+   {
+    "gravura": "acervo/sandro_botticelli_giuliano_de_medici_gem_ldegale.jpg",
+    "mov": "out",
+    "txt": "A dedicatória foi para Lorenzo de Médici, duque de Urbino, neto do famoso Lorenzo, o Magnífico. Ninguém sabe ao certo se ele chegou a ler."
+   },
+   {
+    "gravura": "lorenzo.jpg",
+    "mov": "esq",
+    "txt": "Repara: O Príncipe foi escrito por um homem querendo emprego, falando com os novos donos do poder. Muitos estudiosos leem o livro como conselho prático para um momento de crise da Itália."
+   },
+   {
+    "gravura": "acervo/coroacao_napoleao_david.jpg",
+    "mov": "dir",
+    "txt": "O livro só foi publicado em 1532, cinco anos depois da morte dele. Maquiavel nunca viu O Príncipe impresso. O escândalo todo aconteceu quando ele já não podia se defender."
+   },
+   {
+    "gravura": "acervo/castiglione_raffaello.jpg",
+    "mov": "cima",
+    "txt": "Se até aqui você já enxerga Maquiavel de outro jeito, segue o canal. Toda semana tem uma lição nova de poder, com fonte, para você aplicar na vida real.",
+    "interage": {
+     "tipo": "segue",
+     "txt": "Segue pra próxima lição"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+    "mov": "in",
+    "txt": "E se quiser maratonar, a playlist Personagens do poder tem Bórgia, os Médici, os imperadores romanos e outros nomes que Maquiavel estudou. Está aqui embaixo.",
+    "cta": "Siga a <b>Raposa e Leão</b><br>e veja a playlist Personagens do poder"
+   },
+   {
+    "gravura": "acervo/multidao_bruegel.jpg",
+    "mov": "out",
+    "txt": "Agora vem a parte que derruba o mito de vez. Enquanto escrevia O Príncipe, Maquiavel trabalhava num livro bem maior: os Discursos sobre a primeira década de Tito Lívio. E ali ele mostra outro rosto.",
+    "cap": {
+     "sup": "LIÇÃO 6",
+     "txt": "O republicano dos Discursos"
+    }
+   },
+   {
+    "gravura": "hist/arco_severo.jpg",
+    "mov": "esq",
+    "txt": "Os Discursos são uma longa conversa sobre Roma antiga e sobre como uma república nasce, cresce e se mantém livre. E o herói desse livro não é um príncipe. É o povo organizado com boas leis."
+   },
+   {
+    "gravura": "acervo/pollice_verso_gerome.jpg",
+    "mov": "dir",
+    "txt": "Ele chega a defender uma ideia ousada para a época: os conflitos entre o povo e os nobres de Roma não foram só bagunça. Foram eles que geraram leis a favor da liberdade.",
+    "verso": "As desavenças entre a plebe e o Senado tornaram Roma livre e poderosa.",
+    "ref": "DISCURSOS, LIVRO I, CAP. 4"
+   },
+   {
+    "gravura": "acervo/multidao_bruegel.jpg",
+    "mov": "cima",
+    "txt": "E tem um capítulo que costuma surpreender quem só conhece o Maquiavel vilão. Ele diz que o povo, em geral, é mais sábio e mais constante do que um príncipe.",
+    "verso": "A multidão é mais sábia e mais constante que um príncipe.",
+    "ref": "DISCURSOS, LIVRO I, CAP. 58"
+   },
+   {
+    "gravura": "hist/moses.jpg",
+    "mov": "in",
+    "txt": "Ele também separa claramente quem merece louvor de quem merece desprezo. Os mais louvados são os fundadores de religiões e de repúblicas. Os que destroem a liberdade e viram tiranos merecem ser odiados.",
+    "verso": "Tão louvados são os fundadores de repúblicas quanto vituperados os tiranos.",
+    "ref": "DISCURSOS, LIVRO I, CAP. 10"
+   },
+   {
+    "gravura": "hist/caracalla.jpg",
+    "mov": "out",
+    "txt": "E no próprio O Príncipe, tem um trecho que pouca gente lê. Ao falar de Agátocles, que chegou ao poder matando os cidadãos de Siracusa, Maquiavel diz que isso pode render poder, mas não glória.",
+    "verso": "Matar cidadãos e trair amigos não se pode chamar de virtude.",
+    "ref": "O PRÍNCIPE, CAP. VIII"
+   },
+   {
+    "gravura": "acervo/cesar_assassinato_camuccini.jpg",
+    "mov": "esq",
+    "txt": "Rousseau, no século dezoito, achava que O Príncipe era quase uma denúncia. Fingindo dar lições aos reis, Maquiavel teria ensinado os povos a enxergar como os tiranos agem. Para ele, era o livro dos republicanos."
+   },
+   {
+    "gravura": "acervo/jean_l_on_g_r_me_the_death_of_caesar_walters_378.jpg",
+    "mov": "dir",
+    "txt": "Já Leo Strauss, no século vinte, viu nele um professor do mal. Isaiah Berlin disse que ele mostrou um choque real entre duas morais: a virtude cívica dos antigos e a moral cristã."
+   },
+   {
+    "gravura": "acervo/ferdinand_of_aragon_isabella_of_castile.jpg",
+    "mov": "cima",
+    "txt": "E historiadores como Quentin Skinner leem Maquiavel no contexto dos humanistas do seu tempo, como um pensador republicano preocupado com a liberdade da cidade. Nenhuma dessas leituras é unânime."
+   },
+   {
+    "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+    "mov": "in",
+    "txt": "O que dá para afirmar com segurança é isto: o mesmo homem que escreveu O Príncipe escreveu uma defesa longa e apaixonada da república. Reduzir ele a vilão é ler só metade da obra."
+   },
+   {
+    "gravura": "acervo/julio_ii_raffaello.jpg",
+    "mov": "out",
+    "txt": "Isso tem tudo a ver com você. Quando alguém te julga por uma frase solta, um print, um comentário fora de contexto, é exatamente o que fizeram com Maquiavel. Antes de condenar alguém, leia a obra inteira.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Já te julgaram por um print?"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "acervo/romanos_decadencia_couture.jpg",
+    "mov": "esq",
+    "txt": "Agora uma surpresa: Maquiavel também fazia rir. Por volta de 1518, a data exata é discutida, ele escreve A Mandrágora, uma comédia que virou uma das mais famosas do Renascimento italiano.",
+    "cap": {
+     "sup": "LIÇÃO 7",
+     "txt": "Comédia, guerra e história"
+    }
+   },
+   {
+    "gravura": "acervo/beijo_judas_giotto.jpg",
+    "mov": "dir",
+    "txt": "Um jovem apaixonado arma um plano cheio de mentiras para conquistar uma mulher casada, com ajuda de um marido bobo, de um parasita esperto e de um frade que vende a consciência por dinheiro."
+   },
+   {
+    "gravura": "hist/girolamo_savonarola.jpg",
+    "mov": "cima",
+    "txt": "É uma sátira afiada da hipocrisia da sociedade florentina, inclusive de religiosos corrompidos. Maquiavel ri da corrupção, não a aplaude. E no prólogo, deixa escapar a própria tristeza.",
+    "verso": "Escrevo para tornar mais leve o tempo triste, pois me impediram de mostrar meu valor em outras obras.",
+    "ref": "A MANDRÁGORA, PRÓLOGO"
+   },
+   {
+    "gravura": "acervo/hannibal_and_scipio_africanus.jpg",
+    "mov": "in",
+    "txt": "Ele também volta ao seu grande tema, a guerra. Escreve A Arte da Guerra, um diálogo em que o comandante Fabrizio Colonna conversa com jovens florentinos nos jardins da família Rucellai."
+   },
+   {
+    "gravura": "hist/hannibal.jpg",
+    "mov": "out",
+    "txt": "E agora abro uma pequena curiosidade. De todas as grandes obras políticas de Maquiavel, sabe qual foi a única publicada enquanto ele estava vivo? Foi justamente A Arte da Guerra, impressa em 1521."
+   },
+   {
+    "gravura": "acervo/the_battle_of_alexander_at_issus_by_albrecht_alt.jpg",
+    "mov": "esq",
+    "txt": "No livro, ele defende de novo o exército de cidadãos, a disciplina e o exemplo dos romanos. É a milícia de Florença transformada em teoria, a obsessão de uma vida inteira.",
+    "verso": "Todas as boas ordens de uma cidade seriam vãs sem quem as defenda.",
+    "ref": "A ARTE DA GUERRA, PROÊMIO"
+   },
+   {
+    "gravura": "acervo/leao_x_raffaello.jpg",
+    "mov": "dir",
+    "txt": "E veja a ironia. Em 1520, os mesmos Médici que o tinham afastado encomendam a ele um trabalho oficial: escrever a história de Florença. Quem fez a encomenda foi o cardeal Giulio de Médici."
+   },
+   {
+    "gravura": "hist/bonfire_of_the_vanities.jpg",
+    "mov": "cima",
+    "txt": "A História de Florença conta as brigas de facções, as revoltas e os golpes da cidade desde a Idade Média. Em 1525, ele entrega os livros ao mesmo Giulio, que agora era o papa Clemente Sétimo."
+   },
+   {
+    "gravura": "acervo/embaixadores_holbein.jpg",
+    "mov": "in",
+    "txt": "Essa é uma lição de raposa que serve pra você: dá para dizer a verdade com prudência, escolhendo a hora e a forma. Isso não é falsidade. É sabedoria para não se queimar à toa.",
+    "interage": {
+     "tipo": "salva",
+     "txt": "Salva essa lição de prudência"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "acervo/sandro_botticelli_giuliano_de_medici_gem_ldegale.jpg",
+    "mov": "out",
+    "txt": "Em maio de 1527, Roma é saqueada e os Médici são expulsos de Florença de novo. A república volta. Era a chance de Maquiavel. Mas os novos republicanos o viam como homem ligado aos Médici."
+   },
+   {
+    "gravura": "maquiavel.jpg",
+    "mov": "esq",
+    "txt": "Ele não consegue o cargo de volta. Morre em junho de 1527, em Florença. Pouco antes, numa carta a Vettori, tinha escrito uma frase que resume a vida dele.",
+    "verso": "Amo minha pátria mais do que a minha alma.",
+    "ref": "CARTA A VETTORI, 16/04/1527"
+   },
+   {
+    "gravura": "hist/pope_julius_ii.jpg",
+    "mov": "dir",
+    "txt": "Então como esse homem virou sinônimo de maldade? A resposta tem nome, data e carimbo oficial. Em 1559, a Igreja publica o Índice de livros proibidos, sob o papa Paulo Quarto.",
+    "cap": {
+     "sup": "LIÇÃO 8",
+     "txt": "Como nasceu o maquiavélico"
+    }
+   },
+   {
+    "gravura": "acervo/prisao_cristo_caravaggio.jpg",
+    "mov": "cima",
+    "txt": "E as obras de Maquiavel entram na lista. Todas. O Príncipe, os Discursos, a História. Ler Maquiavel virou coisa proibida para católicos, e o que é proibido vira lenda."
+   },
+   {
+    "gravura": "acervo/multidao_bruegel.jpg",
+    "mov": "in",
+    "txt": "Na França, depois das guerras de religião, um protestante chamado Innocent Gentillet escreve contra ele, culpando suas ideias pela violência dos governantes. O nome Maquiavel vira xingamento."
+   },
+   {
+    "gravura": "hist/commodus.jpg",
+    "mov": "out",
+    "txt": "Na Inglaterra, o teatro faz o resto. Shakespeare põe na boca de um vilão que ele ensinaria lições até ao assassino Maquiavel. O homem real some. Sobra um personagem de vilão."
+   },
+   {
+    "gravura": "hist/ferdinand_ii_of_aragon.jpg",
+    "mov": "esq",
+    "txt": "E agora fecho a segunda pergunta do começo. Por volta de 1739, um jovem príncipe herdeiro escreve um livro chamado Anti-Maquiavel, rebatendo O Príncipe capítulo por capítulo."
+   },
+   {
+    "gravura": "acervo/coroacao_napoleao_david.jpg",
+    "mov": "dir",
+    "txt": "Era Frederico, futuro rei da Prússia, conhecido depois como Frederico, o Grande. O livro sai em 1740, com ajuda do filósofo Voltaire. Nele, o príncipe diz que o rei deve ser o primeiro servidor do Estado."
+   },
+   {
+    "gravura": "acervo/albrecht_altdorfer_schlacht_bei_issus_alte_pinak.jpg",
+    "mov": "cima",
+    "txt": "Só que em 1740 Frederico vira rei. E, no fim desse mesmo ano, invade a Silésia, uma província da Áustria, sem declaração de guerra. O autor do Anti-Maquiavel fez exatamente o que criticava."
+   },
+   {
+    "gravura": "hist/caracalla.jpg",
+    "mov": "in",
+    "txt": "Repara na lição. Muitas vezes, quem grita mais alto contra o poder é quem mais quer o poder. Maquiavel não criou esse comportamento. Ele só teve a coragem de escrever sobre ele."
+   },
+   {
+    "gravura": "acervo/vercingetorix_royer.jpg",
+    "mov": "out",
+    "txt": "Tá comigo? O vilão foi fabricado em etapas: a proibição, a propaganda, o teatro e até um rei que o atacava em público. A fama ficou maior que o homem.",
+    "interage": {
+     "tipo": "checkin",
+     "txt": "Fama fabricada. Faz sentido?"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "acervo/cesar_assassinato_camuccini.jpg",
+    "mov": "esq",
+    "txt": "E agora a maior das três perguntas: a frase. Os fins justificam os meios. Você já ouviu isso atribuído a Maquiavel mil vezes. Ela não aparece em nenhuma obra dele, com essas palavras.",
+    "cap": {
+     "sup": "LIÇÃO 9",
+     "txt": "A frase que ele nunca escreveu"
+    }
+   },
+   {
+    "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+    "mov": "dir",
+    "txt": "Então de onde vem? Existe um trecho no capítulo dezoito de O Príncipe que deu origem à confusão. Ele diz que, nas ações dos príncipes, onde não há tribunal a quem recorrer, as pessoas olham para o resultado.",
+    "verso": "Nas ações dos príncipes, onde não há tribunal a que recorrer, olha-se o resultado.",
+    "ref": "O PRÍNCIPE, CAP. XVIII"
+   },
+   {
+    "gravura": "acervo/rendicao_granada_pradilla.jpg",
+    "mov": "cima",
+    "txt": "Repara: é uma descrição de como o povo julga os governantes. Se o príncipe vence e mantém o Estado, as pessoas tendem a aprovar os meios. Ele está descrevendo o mundo, não dando licença moral."
+   },
+   {
+    "gravura": "hist/arco_severo.jpg",
+    "mov": "in",
+    "txt": "Nos Discursos, tem outra frase parecida, sobre Rômulo, o fundador de Roma: quando o fato o acusa, o efeito o desculpa. Mas ali ele fala de fundar uma república para o bem comum.",
+    "verso": "Se o fato o acusa, o efeito o desculpa.",
+    "ref": "DISCURSOS, LIVRO I, CAP. 9"
+   },
+   {
+    "gravura": "hist/marcus_aurelius.jpg",
+    "mov": "out",
+    "txt": "Então sim, Maquiavel aceitava que a política às vezes exige atos duros. Isso é real e muitos estudiosos criticam. Mas a frase pronta, como um cheque em branco para qualquer maldade, foi criada depois e colada nele."
+   },
+   {
+    "gravura": "acervo/cesar_morte_gerome.jpg",
+    "mov": "esq",
+    "txt": "E ele também alerta o príncipe contra o ódio e o desprezo. Diz que é bom ser temido, se não puder ser amado, mas que precisa evitar ser odiado. Nada de crueldade gratuita.",
+    "verso": "O príncipe deve fazer-se temer de modo que, se não ganha o amor, evite o ódio.",
+    "ref": "O PRÍNCIPE, CAP. XVII"
+   },
+   {
+    "gravura": "borgia.jpg",
+    "mov": "dir",
+    "txt": "Agora a grande lição para a sua vida. Raposa e leão não é sobre enganar ninguém. É sobre enxergar as armadilhas e ter firmeza para não ser engolido. É defesa, não ataque.",
+    "verso": "É preciso ser raposa para conhecer as armadilhas e leão para assustar os lobos.",
+    "ref": "O PRÍNCIPE, CAP. XVIII"
+   },
+   {
+    "gravura": "hist/moses.jpg",
+    "mov": "cima",
+    "txt": "Use Maquiavel para se proteger. Para perceber quando alguém tenta te manipular, para não confiar em promessa sem garantia, para liderar com firmeza. Nunca para prejudicar quem confia em você."
+   },
+   {
+    "gravura": "hist/alexander_the_great.jpg",
+    "mov": "in",
+    "txt": "E a história dele ensina mais uma coisa. Perdeu o cargo, foi preso, torturado, esquecido. E foi exatamente no pior momento que ele escreveu o livro que atravessou quinhentos anos."
+   },
+   {
+    "gravura": "maquiavel.jpg",
+    "mov": "out",
+    "txt": "Comenta aqui embaixo: depois desse vídeo, Maquiavel é vilão, gênio, patriota ou tudo isso junto? Quero saber a sua leitura, porque até os especialistas discordam.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Vilão, gênio ou patriota?"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "lorenzo.jpg",
+    "mov": "esq",
+    "txt": "E manda esse vídeo para aquela pessoa que vive dizendo que os fins justificam os meios, como se fosse frase de Maquiavel. Ela vai descobrir uma história que ninguém contou.",
+    "interage": {
+     "tipo": "manda",
+     "txt": "Manda pra quem cita a frase"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+    "mov": "dir",
+    "txt": "Hoje, em Florença, o túmulo dele fica na igreja de Santa Croce, perto de Michelangelo e Galileu. Na lápide, uma frase em latim diz que nenhum elogio está à altura de um nome tão grande."
+   },
+   {
+    "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+    "mov": "cima",
+    "txt": "No próximo vídeo da playlist Personagens do poder, você conhece de perto César Bórgia, o homem que Maquiavel observou por meses. Até a próxima lição, raposa.",
+    "cta": "Até a próxima <b>lição</b>,<br>raposa",
+    "selo": "RAPOSA<br>E LEÃO"
+   }
+  ],
+  "canal": "raposa"
+ }
+]
