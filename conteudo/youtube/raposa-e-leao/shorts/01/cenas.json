@@ -127,10 +127,10 @@
   {
    "t": "assinatura",
    "apos": "embaixo#1",
-   "frase": "Siga para a próxima lição.",
+   "frase": "O mundo olha o resultado.",
    "interage": {
     "tipo": "segue",
-    "txt": "SIGA PARA A PRÓXIMA LIÇÃO"
+    "txt": "NÃO PERCA A PRÓXIMA"
    }
   }
  ],

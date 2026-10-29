@@ -51,6 +51,9 @@ blocos.append((' '.join(toks[:corte]), False, None))
 blocos.append((fala, True, ('meio', tipo, h, x)))
 blocos.append((' '.join(toks[corte:]), False, None))
 ft, ffala, fh, fx = cfg['fim']; blocos.append((ffala, True, ('fim', ft, fh, fx)))
+if '--seco' in sys.argv:
+    for b in blocos: print(('  >> ' if b[1] else '     ') + b[0])
+    sys.exit()
 
 # 3) voz humanizada por bloco (falas ao ouvinte mais calorosas)
 aud, W, t, marca = [], [], .25, {}
