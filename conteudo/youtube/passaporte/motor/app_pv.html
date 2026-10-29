@@ -82,7 +82,7 @@ function campo(rot,txt,cls){const c=el('div','campo '+(cls||''));const r=el('div
 function bilhete(v){const i=DADOS.filter(x=>x.tipo===v.tipo).indexOf(v);const b=el('article','bil '+v.tipo+(feitos[v.id]?' feito':''));
  const m=el('div','midia');
  if(v.video){const vd=el('video');vd.controls=true;vd.preload='none';vd.playsInline=true;vd.src=v.video;if(v.capas[0]?.url)vd.poster=v.capas[0].url;m.append(vd)}
- else m.append(el('div','vazio','Vídeo renderizando. Volte em instantes.'));
+ else m.append(el('div','vazio','Versão nova (voz humanizada e conversa) sendo gerada. Volte em instantes.'));
  const cs=el('div','capas');v.capas.forEach(c=>{if(c.url){const im=el('img');im.src=c.url;im.alt=c.nome+' de '+v.titulo;im.loading='lazy';cs.append(im)}});m.append(cs);
  const c=el('div','corpo');
  const topo=el('div','topo');topo.append(el('span','num',(v.tipo==='longo'?'VÍDEO LONGO':'SHORT')+' · '+String(i+1).padStart(2,'0')+(v.dur?' · '+v.dur:'')));
