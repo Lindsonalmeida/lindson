@@ -35,7 +35,7 @@ body{background:var(--espaco);color:var(--texto);font-family:var(--f-corpo);over
   padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:32px;max-width:1280px;margin:0 auto;
   opacity:0;transform:translateY(16px);transition:opacity 1.2s ease,transform 1.2s ease}
 .palco.on{opacity:1;transform:none}
-.heroi{position:relative;align-self:stretch;min-height:min(86vh,820px);display:grid;place-items:end center;overflow:hidden}
+.heroi{position:relative;align-self:stretch;min-height:min(86vh,820px);display:grid;place-items:end center}
 .planeta{position:absolute;left:50%;bottom:-62%;width:150%;aspect-ratio:1;transform:translateX(-50%);border-radius:50%;
   background:radial-gradient(circle at 50% 0%,rgba(70,230,255,.35),rgba(22,17,58,.9) 18%,#03040B 45%);box-shadow:0 -6px 40px rgba(70,230,255,.45),inset 0 8px 30px rgba(70,230,255,.35)}
 .aura{position:absolute;left:50%;top:6%;width:80%;aspect-ratio:1;transform:translateX(-50%);border-radius:50%;
@@ -43,13 +43,11 @@ body{background:var(--espaco);color:var(--texto);font-family:var(--f-corpo);over
 @keyframes pulso{50%{opacity:.7;transform:translateX(-50%) scale(1.05)}}
 .feixe{position:absolute;left:-10%;right:-10%;top:30%;height:2px;background:linear-gradient(90deg,transparent,rgba(70,230,255,.0) 15%,rgba(160,240,255,.9) 50%,rgba(70,230,255,0) 85%,transparent);
   box-shadow:0 0 22px 4px rgba(70,230,255,.35);opacity:.55;transform:rotate(-8deg);mix-blend-mode:screen}
-.foto{position:relative;z-index:1;width:min(560px,92%);aspect-ratio:720/1101;max-width:100%;
-  background:url(__FOTO__) center top/cover no-repeat;
-  -webkit-mask-image:linear-gradient(to bottom,transparent 0,#000 14%,#000 62%,transparent 98%),linear-gradient(to right,transparent 0,#000 20%,#000 80%,transparent 100%);-webkit-mask-composite:source-in;
-  mask-image:linear-gradient(to bottom,transparent 0,#000 14%,#000 62%,transparent 98%),linear-gradient(to right,transparent 0,#000 20%,#000 80%,transparent 100%);mask-composite:intersect;
-  filter:contrast(1.12) saturate(.92) brightness(.98)}
-.foto::before{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(40,170,230,.32),transparent 38%,transparent 62%,rgba(245,150,50,.30));mix-blend-mode:soft-light}
-.foto::after{content:"";position:absolute;inset:0;background:radial-gradient(60% 45% at 50% 30%,transparent 55%,rgba(3,4,11,.55));}
+.foto{position:relative;z-index:1;width:min(560px,96%);aspect-ratio:760/1183;max-width:100%;
+  background:url(__FOTO__) center bottom/contain no-repeat;
+  -webkit-mask-image:linear-gradient(to bottom,#000 70%,transparent 99%),linear-gradient(to right,transparent 0,#000 14%,#000 86%,transparent 100%);-webkit-mask-composite:source-in;
+  mask-image:linear-gradient(to bottom,#000 70%,transparent 99%),linear-gradient(to right,transparent 0,#000 14%,#000 86%,transparent 100%);mask-composite:intersect;
+  filter:contrast(1.08) saturate(.95) drop-shadow(-4px -2px 18px rgba(70,230,255,.32)) drop-shadow(6px -4px 22px rgba(245,170,60,.26))}
 .creditos{position:absolute;z-index:2;bottom:4%;left:0;right:0;text-align:center;font:400 11px/1.7 var(--f-dado);letter-spacing:.32em;color:var(--apagado);text-transform:uppercase}
 .creditos b{color:var(--holo);font-weight:400}
 .lado{display:grid;gap:28px;min-width:0}
@@ -86,7 +84,7 @@ h1{margin:0;font:700 clamp(36px,5.4vw,76px)/1 var(--f-titulo);letter-spacing:.08
 .rodape{font:400 11px var(--f-dado);letter-spacing:.18em;color:var(--apagado);text-transform:uppercase}
 
 @media (max-width:860px){
-  .heroi{min-height:min(70vh,560px)}.foto{width:min(380px,88%)}.planeta{display:none}
+  .heroi{min-height:min(70vh,560px)}.foto{width:min(380px,88%)}.feixe{display:none}.aura{width:110%;top:0}
   .palco{grid-template-columns:minmax(0,1fr);padding-block:20px 40px}
   .heroi{min-height:auto;padding-top:8px}
   .o1{width:min(420px,92vw)}.o2{width:min(330px,72vw)}
@@ -106,11 +104,9 @@ h1{margin:0;font:700 clamp(36px,5.4vw,76px)/1 var(--f-titulo);letter-spacing:.08
 
 <main class="palco" id="palco">
   <section class="heroi" aria-label="Lindson Almeida">
-    <div class="planeta" aria-hidden="true"></div>
     <div class="aura" aria-hidden="true"></div>
     <div class="foto" role="img" aria-label="Foto de Lindson Almeida"></div>
     <div class="feixe" aria-hidden="true"></div>
-    <div class="creditos" aria-hidden="true">Estratégia · Conteúdo · Tráfego<br><b>São Luís · MA</b></div>
   </section>
 
   <section class="lado">
