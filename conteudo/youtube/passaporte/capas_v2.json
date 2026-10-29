@@ -1,0 +1,95 @@
+{
+ "longo-05": {
+  "A": {
+   "estilo": "close",
+   "grav": "011",
+   "zoom": 0.45,
+   "foco": [
+    0.6,
+    0.47
+   ],
+   "txt": "NINGUÉM <b>PERCEBEU</b> ISSO",
+   "lado": "esq",
+   "tag": "GÊNESIS"
+  },
+  "B": {
+   "estilo": "duelo",
+   "grav": "002",
+   "foco": [
+    0.6,
+    0.55
+   ],
+   "zoom": 0.5,
+   "grav2": "003",
+   "foco2": [
+    0.5,
+    0.6
+   ],
+   "zoom2": 0.5,
+   "txt": "<b>PARAÍSO</b>",
+   "txt2": "<i>1º CRIME</i>"
+  }
+ },
+ "longo-06": {
+  "A": {
+   "estilo": "close",
+   "grav": "036",
+   "zoom": 0.42,
+   "foco": [
+    0.42,
+    0.36
+   ],
+   "txt": "FOI UM <b>ERRO?</b>",
+   "lado": "dir",
+   "tag": "OS REIS DE ISRAEL"
+  },
+  "B": {
+   "estilo": "duelo",
+   "grav": "036",
+   "foco": [
+    0.42,
+    0.36
+   ],
+   "zoom": 0.45,
+   "grav2": "042",
+   "foco2": [
+    0.32,
+    0.28
+   ],
+   "zoom2": 0.5,
+   "txt": "<b>AUGE</b>",
+   "txt2": "<i>QUEDA</i>"
+  }
+ },
+ "longo-09": {
+  "A": {
+   "estilo": "close",
+   "grav": "083",
+   "zoom": 0.42,
+   "foco": [
+    0.5,
+    0.62
+   ],
+   "txt": "ISSO <b>INCOMODA</b>",
+   "lado": "esq",
+   "tag": "PARÁBOLAS DE JESUS"
+  },
+  "B": {
+   "estilo": "duelo",
+   "grav": "077",
+   "foco": [
+    0.72,
+    0.36
+   ],
+   "zoom": 0.42,
+   "grav2": "077",
+   "foco2": [
+    0.22,
+    0.72
+   ],
+   "zoom2": 0.42,
+   "txt": "<b>FARISEU</b>",
+   "txt2": "<i>PUBLICANO</i>"
+  }
+ }
+}
