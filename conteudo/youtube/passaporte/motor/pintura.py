@@ -10,26 +10,33 @@ MODELO = TMP + '/modelos/depth.onnx'
 arq, vid = sys.argv[1], sys.argv[2]; STEP = int(os.environ.get('STEP', '1')); FPS = 30
 spec = next(v for v in json.load(open(arq)) if v['id'] == vid)
 curto = spec.get('formato', 'short') == 'short'; W_, H_ = (1080, 1920) if curto else (1920, 1080)
+# identidade de cada canal (o motor é o mesmo)
+RL = os.path.join(RAIZ, '..', 'raposa-e-leao')
+SKINS = {'passaporte': dict(img=DORE, saida=RAIZ + '/videos', marca='PASSAPORTE DA BÍBLIA', selo='CARIMBE<br>AQUI', rate=-4, pitch=-5, sombra='.05,.06,.11', meio='.55,.40,.22', luz='1.,.90,.68'),
+         'raposa': dict(img=RL + '/img', saida=RL + '/videos', marca='RAPOSA E LEÃO', selo='RAPOSA<br>E LEÃO', rate=7, pitch=-6, sombra='.04,.035,.03', meio='.58,.34,.17', luz='1.,.88,.62')}
+SK = SKINS[spec.get('canal', 'passaporte')]
+if spec.get('canal') == 'raposa': DORE = SK['img']
 W = f'{TMP}/pv/{vid}'; os.makedirs(W + '/vz', exist_ok=True); os.makedirs(DORE + '/prof', exist_ok=True)
 
 _s = None
 def profundidade(n):
-    f = f'{DORE}/prof/{n}.png'
+    f = f'{DORE}/prof/{n.replace("/", "__").rsplit(".", 1)[0]}.png'
     if not os.path.exists(f):
         global _s
         _s = _s or ort.InferenceSession(MODELO, providers=['CPUExecutionProvider'])
-        im = cv2.imread(f'{DORE}/{n}.jpg')[:, :, ::-1]
+        im = cv2.imread(foto(n))[:, :, ::-1]
         x = cv2.resize(im, (518, 518)).astype(np.float32) / 255; x = ((x - [.485, .456, .406]) / [.229, .224, .225]).transpose(2, 0, 1)[None].astype(np.float32)
         d = _s.run(None, {'pixel_values': x})[0][0]; d = (d - d.min()) / (d.max() - d.min())
         d = cv2.GaussianBlur(cv2.resize(d, (im.shape[1], im.shape[0])), (0, 0), 3)
         cv2.imwrite(f, (d * 255).astype(np.uint8))
     return f
+def foto(n): return f'{DORE}/{n}' if '.' in n else f'{DORE}/{n}.jpg'
 def data(path, scale=None, q=90):
     im = Image.open(path).convert('RGB')
     if scale: im = im.resize((int(im.width * scale), int(im.height * scale)), Image.LANCZOS).filter(ImageFilter.UnsharpMask(2, 60, 2))
     b = io.BytesIO(); im.save(b, 'JPEG', quality=q); return 'data:image/jpeg;base64,' + base64.b64encode(b.getvalue()).decode()
 for c in spec['cenas']:
-    c['img'] = data(f"{DORE}/{c['gravura']}.jpg", 2.2); c['dep'] = data(profundidade(c['gravura']), 1.0, 85)
+    c['img'] = data(foto(c['gravura']), 2.2 if spec.get('canal', 'passaporte') == 'passaporte' else 1.0); c['dep'] = data(profundidade(c['gravura']), 1.0, 85)
 
 S = 44100
 sys.path.insert(0, os.path.join(RAIZ, '..', 'comum')); from voz_humana import narrar
@@ -40,7 +47,7 @@ vozes = []; t = .35
 for i, c in enumerate(spec['cenas']):
     wv = f'{W}/vz2/{i:03d}.wav'; js = wv[:-4] + '.json'
     if not os.path.exists(js):
-        a, ws = narrar(c['txt'], rate=-4, pitch=-5, semente=SEM, conversa=bool(c.get('interage')))
+        a, ws = narrar(c['txt'], rate=SK['rate'], pitch=SK['pitch'], semente=SEM, conversa=bool(c.get('interage')))
         sf.write(wv, a, S); json.dump(ws, open(js, 'w'), ensure_ascii=False)
     a, _ = sf.read(wv); c['ini'] = max(0, t - .5); c['words'] = [[w, round(t + o, 3)] for w, o in json.load(open(js))]
     vozes.append((t, a)); t += len(a) / S + rng0.uniform(.45, .75) + (.7 if (c.get('interage') or {}).get('tipo') in ('comenta', 'checkin') else 0)
@@ -52,7 +59,7 @@ if not curto:
 spec['titulo_tela']['fim'] = spec['titulo_tela'].get('dur', 2.6)
 
 spec['estilo'] = dict(abre=SEM % 3, fecha=SEM // 3 % 3)
-SUB = dict(GR='.07' if curto else '.02', W=W_, H=H_, FT=104 if curto else 96, FS=30, FV=76 if curto else 58, FR=30, VY=1180 if curto else 640, FC=62 if curto else 50, CY=1560 if curto else 900, MY=70 if curto else 34, IY=200 if curto else 70, IW=960 if curto else 780, IF=56 if curto else 36, IS=27 if curto else 21, T2=300 if curto else 120, FT2=96 if curto else 84, T3=520 if curto else 260, FT3=84 if curto else 72)
+SUB = dict(GR='.07' if curto else '.02', W=W_, H=H_, FT=104 if curto else 96, FS=30, FV=76 if curto else 58, FR=30, VY=1180 if curto else 640, FC=62 if curto else 50, CY=1560 if curto else 900, MY=70 if curto else 34, MARCA=SK['marca'], SELO=SK['selo'], SOMBRA=SK['sombra'], MEIO=SK['meio'], LUZ=SK['luz'], IY=200 if curto else 70, IW=960 if curto else 780, IF=56 if curto else 36, IS=27 if curto else 21, T2=300 if curto else 120, FT2=96 if curto else 84, T3=520 if curto else 260, FT3=84 if curto else 72)
 html = open(D + '/pintura.html').read()
 for k, v in SUB.items(): html = html.replace(f'__{k}__', str(v))
 st = f'{W}/stage.html'; open(st, 'w').write(html.replace('__SPEC__', json.dumps(spec, ensure_ascii=False)))
@@ -86,7 +93,7 @@ for c in spec['cenas']:
     if c.get('interage'): i = int((c['ini'] + .55) * S); b = plim(); mix[i:i + len(b)] += b
 for at, a in vozes: i = int(at * S); mix[i:i + len(a)] += a / np.max(np.abs(a)) * .95
 mix = mix[:N]; mix = mix / np.max(np.abs(mix)) * .95; sf.write(W + '/a.wav', mix, S)
-os.makedirs(RAIZ + '/videos', exist_ok=True); out = f'{RAIZ}/videos/{vid}.mp4'
+os.makedirs(SK['saida'], exist_ok=True); out = f"{SK['saida']}/{vid}.mp4"
 subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-framerate', str(FPS), '-i', W + '/fr/%06d.jpg', '-i', W + '/a.wav', '-c:v', 'libx264', '-pix_fmt', 'yuv420p',
                 '-crf', '20', '-preset', 'medium', '-c:a', 'aac', '-b:a', '160k', '-shortest', '-movflags', '+faststart', out], check=True)
 print('ok', out, TT)

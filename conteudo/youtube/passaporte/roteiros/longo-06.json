@@ -1,0 +1,589 @@
+{
+ "id": "longo-06",
+ "formato": "longo",
+ "titulo": "Israel pediu um rei. Foi um erro?",
+ "legenda": "Por que o povo de Israel pediu um rei em 1 Samuel 8? Neste vídeo você faz a viagem de Juízes até a queda de Jerusalém: Saul, o rei da aparência; Davi, de Golias ao pecado com Bate-Seba e ao arrependimento do Salmo 51; Absalão; Salomão, o templo e o desvio; a divisão do reino e Elias no monte Carmelo.\n\nE no fim respondemos: pedir um rei foi um erro? E quem é o rei eterno prometido a Davi em 2 Samuel 7, cumprido em Jesus, o filho de Davi.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📖 Observação: os versículos aparecem em paráfrase curta, com a referência. Confira na sua tradução. O Salmo 51 é o Salmo 50 em algumas Bíblias católicas. As datas são aproximadas.\n\n🎫 Quer ler 1 e 2 Samuel e Reis sem se perder? Baixe grátis a Rota da Primeira Viagem no link da descrição, ou comente ROTA.\n\n#ReiDavi #HistóriaDeIsrael #Salmo51 #BíbliaExplicada #PassaporteDaBíblia",
+ "comentario": "📌 Saul caiu pelo orgulho, Davi pelo desejo, Salomão pela riqueza. Na sua opinião, pedir um rei foi um erro? Responde aqui e diz qual desses reis mais te ensinou alguma coisa.",
+ "titulo_tela": {
+  "sup": "PASSAPORTE DA BÍBLIA",
+  "txt": "Israel pediu<br>um rei",
+  "dur": 3.2
+ },
+ "capa": {
+  "A": "PEDIRAM UM REI",
+  "B": "FOI UM ERRO?",
+  "gravA": "036",
+  "gravB": "040"
+ },
+ "cenas": [
+  {
+   "gravura": "031",
+   "mov": "in",
+   "txt": "Um rei atirou uma lança no jovem que mais o servia. Outro rei mandou matar um soldado leal pra esconder um pecado. E foi o próprio povo de Deus que pediu reis assim. Foi um erro?"
+  },
+  {
+   "gravura": "036",
+   "mov": "out",
+   "txt": "Hoje a gente vai atravessar séculos de história em uma viagem só: de Juízes até a queda de Jerusalém. Saul, Davi, Salomão, Elias e o fim dos reinos."
+  },
+  {
+   "gravura": "053",
+   "mov": "esq",
+   "txt": "Três perguntas pra carregar na mochila. Primeira: pedir um rei foi um erro? A Bíblia responde, mas a resposta não é tão simples quanto parece."
+  },
+  {
+   "gravura": "034",
+   "mov": "dir",
+   "txt": "Segunda: como o homem chamado de segundo o coração de Deus caiu em adultério e assassinato, e mesmo assim não foi rejeitado como o rei anterior? Isso tem a ver com você."
+  },
+  {
+   "gravura": "043",
+   "mov": "cima",
+   "txt": "E terceira: no meio dessa história toda, Deus faz uma promessa a Davi sobre um rei que vai reinar pra sempre. Quem é esse rei? Fica comigo até o fim que você vai ver."
+  },
+  {
+   "gravura": "022",
+   "mov": "in",
+   "txt": "Primeira parada: o tempo dos Juízes. O povo já está na terra prometida, mas vive num ciclo cansativo. Esquece Deus, sofre nas mãos dos inimigos, clama por socorro, e Deus levanta um libertador.",
+   "cap": {
+    "sup": "PARADA 1",
+    "txt": "Sem rei em Israel"
+   }
+  },
+  {
+   "gravura": "021",
+   "mov": "esq",
+   "txt": "Débora, Gideão, Jael, Jefté. Só que, quando o herói morre, o povo volta pro mesmo lugar. É um vai e volta que parece não ter fim."
+  },
+  {
+   "gravura": "025",
+   "mov": "out",
+   "txt": "Até o mais forte de todos, Sansão, que matou um leão com as mãos, era um homem dividido. Tinha uma força enorme por fora e muita fraqueza por dentro."
+  },
+  {
+   "gravura": "027",
+   "mov": "in",
+   "txt": "E o livro de Juízes termina com uma frase que resume o caos daquele tempo. Ela aparece mais de uma vez no final do livro, como um alarme tocando.",
+   "verso": "Não havia rei em Israel; cada um fazia o que achava certo.",
+   "ref": "JUÍZES 21.25"
+  },
+  {
+   "gravura": "029",
+   "mov": "cima",
+   "txt": "No meio dessa bagunça, tem uma luz: Rute, a estrangeira leal que trabalha no campo de Boaz. A história dela termina com um nome que vai mudar tudo: Davi, o bisneto dela."
+  },
+  {
+   "gravura": "030",
+   "mov": "out",
+   "txt": "Depois vem Samuel, o último juiz e também profeta. Ele guia o povo a vida inteira. Mas ele envelhece, e os filhos dele não seguem o mesmo caminho."
+  },
+  {
+   "gravura": "037",
+   "mov": "esq",
+   "txt": "A Bíblia diz que os filhos de Samuel aceitavam suborno e torciam a justiça. Aí os líderes de Israel se reúnem e fazem o pedido que muda a história do povo."
+  },
+  {
+   "gravura": "024",
+   "mov": "in",
+   "txt": "Eles dizem: dá pra nós um rei que nos governe, como todas as outras nações têm. Repara nessa expressão. Como todas as nações. Ela é a chave do capítulo inteiro."
+  },
+  {
+   "gravura": "044",
+   "mov": "dir",
+   "txt": "Samuel fica triste. Ele leva o pedido a Deus em oração. E a resposta de Deus é surpreendente, porque ela mostra o que estava escondido por trás daquele pedido.",
+   "verso": "Não foi a você que rejeitaram, mas a mim, para que eu não reine sobre eles.",
+   "ref": "1 SAMUEL 8.7"
+  },
+  {
+   "gravura": "043",
+   "mov": "out",
+   "txt": "Deus manda atender o povo. Mas Samuel avisa: esse rei vai tomar seus filhos pro exército, suas filhas pro palácio, seus melhores campos e a décima parte de tudo."
+  },
+  {
+   "gravura": "024",
+   "mov": "cima",
+   "txt": "E o povo responde: não, nós queremos um rei. Queremos ser como as outras nações. Queremos alguém que lute as nossas guerras. Eles já tinham quem lutasse por eles."
+  },
+  {
+   "gravura": "053",
+   "mov": "in",
+   "txt": "Tá comigo até aqui? O problema não era só ter um rei. Era o motivo. Me conta nos comentários se você já pediu algo a Deus só pra ser igual a todo mundo.",
+   "interage": {
+    "tipo": "checkin",
+    "txt": "Já pediu pra ser igual?"
+   }
+  },
+  {
+   "gravura": "032",
+   "mov": "esq",
+   "txt": "Segunda parada: Saul. Ele é da tribo de Benjamim, bonito, e a Bíblia diz que era mais alto que todo mundo, dos ombros pra cima. Ele parecia exatamente o rei que o povo queria.",
+   "cap": {
+    "sup": "PARADA 2",
+    "txt": "Saul, o rei da aparência"
+   }
+  },
+  {
+   "gravura": "035",
+   "mov": "dir",
+   "txt": "No dia de ser apresentado ao povo, ninguém acha Saul. Ele estava escondido no meio da bagagem. Começa humilde, quase com medo do tamanho da missão."
+  },
+  {
+   "gravura": "030",
+   "mov": "cima",
+   "txt": "Mas logo vem a primeira rachadura. Antes de uma batalha contra os filisteus, Saul não espera Samuel chegar e oferece o sacrifício ele mesmo. Ficou com medo de o povo ir embora."
+  },
+  {
+   "gravura": "033",
+   "mov": "esq",
+   "txt": "Depois, Deus manda Saul destruir Amaleque por completo. Saul vence, mas guarda o rei Agague vivo e o melhor do gado. E ainda diz que foi o povo que quis."
+  },
+  {
+   "gravura": "047",
+   "mov": "out",
+   "txt": "É aí que Samuel fala uma das frases mais fortes do Antigo Testamento. Deus não queria um show de religião. Queria um coração que obedece.",
+   "verso": "Obedecer é melhor do que sacrificar.",
+   "ref": "1 SAMUEL 15.22"
+  },
+  {
+   "gravura": "044",
+   "mov": "dir",
+   "txt": "Saul até diz: pequei. Mas logo pede a Samuel que o honre diante dos líderes do povo. Guarda esse detalhe, porque ele vai responder a nossa segunda pergunta lá na frente."
+  },
+  {
+   "gravura": "031",
+   "mov": "in",
+   "txt": "Saul é rejeitado como rei. Daqui pra frente, ele vai ficando cada vez mais inseguro, desconfiado e ciumento. E o alvo desse ciúme vai ser um menino pastor."
+  },
+  {
+   "gravura": "015",
+   "mov": "out",
+   "txt": "Terceira parada: Davi. Deus manda Samuel à casa de Jessé, em Belém. Os filhos passam um por um. O mais velho é alto e bonito, e Samuel pensa: é esse.",
+   "cap": {
+    "sup": "PARADA 3",
+    "txt": "Davi, o menino das ovelhas"
+   }
+  },
+  {
+   "gravura": "053",
+   "mov": "cima",
+   "txt": "Mas Deus diz não. E fala uma frase que vale pra sua vida também, principalmente nos dias em que você se sente pequeno demais.",
+   "verso": "O homem vê a aparência, mas o Senhor vê o coração.",
+   "ref": "1 SAMUEL 16.7"
+  },
+  {
+   "gravura": "036",
+   "mov": "in",
+   "txt": "Nenhum dos filhos presentes é o escolhido. Falta o caçula, que estava cuidando das ovelhas. Ninguém nem lembrou de chamar. É ele que Samuel unge com azeite."
+  },
+  {
+   "gravura": "020",
+   "mov": "esq",
+   "txt": "Pouco tempo depois, o gigante filisteu Golias desafia Israel. O exército inteiro treme, inclusive o rei mais alto do povo. E quem enfrenta o gigante é o menino."
+  },
+  {
+   "gravura": "038",
+   "mov": "dir",
+   "txt": "Davi vai sem armadura, com um cajado, uma funda e pedras lisas do riacho. Ele diz que a batalha pertence ao Senhor. Uma pedra, e o gigante cai."
+  },
+  {
+   "gravura": "031",
+   "mov": "in",
+   "txt": "E aqui entra a cena que abriu o nosso vídeo. Davi toca harpa pra acalmar o rei, e Saul atira a lança pra prender o rapaz na parede. Davi desvia e foge."
+  },
+  {
+   "gravura": "032",
+   "mov": "cima",
+   "txt": "Davi vira fugitivo por anos. Um dia, numa caverna no deserto de En-Gedi, Saul entra sozinho, sem saber que Davi estava escondido lá no fundo."
+  },
+  {
+   "gravura": "053",
+   "mov": "esq",
+   "txt": "Os homens de Davi dizem: é a sua chance. Davi só corta a ponta do manto do rei. E ainda sente o coração pesar por isso. Ele não toca no ungido do Senhor."
+  },
+  {
+   "gravura": "033",
+   "mov": "dir",
+   "txt": "Saul morre numa batalha contra os filisteus, no monte Gilboa, junto com Jônatas, o melhor amigo de Davi. E Davi não comemora. Ele chora pelos dois e compõe um lamento."
+  },
+  {
+   "gravura": "036",
+   "mov": "out",
+   "txt": "Davi é ungido rei primeiro sobre Judá, em Hebrom, e depois sobre todo Israel. A Bíblia diz que ele reinou quarenta anos: sete e meio em Hebrom e trinta e três em Jerusalém."
+  },
+  {
+   "gravura": "049",
+   "mov": "in",
+   "txt": "Ele conquista Jerusalém e faz dela a capital. Isso foi por volta do ano mil antes de Cristo. Depois leva a arca da aliança pra cidade, dançando com todas as forças diante do Senhor."
+  },
+  {
+   "gravura": "047",
+   "mov": "dir",
+   "txt": "Davi quer construir uma casa pra Deus. Mas o profeta Natã traz uma resposta que vira tudo de cabeça pra baixo: não é você que vai construir uma casa pra mim. Eu é que vou construir uma casa pra você."
+  },
+  {
+   "gravura": "036",
+   "mov": "cima",
+   "txt": "Casa aqui quer dizer família, dinastia. Deus promete que um descendente de Davi vai construir o templo, e mais: que o trono dessa família vai durar pra sempre.",
+   "verso": "O seu trono será firme para sempre.",
+   "ref": "2 SAMUEL 7.16"
+  },
+  {
+   "gravura": "053",
+   "mov": "out",
+   "txt": "Guarda essa promessa. Ela é a nossa terceira pergunta. Porque, como você vai ver, nenhum rei dessa história consegue ser esse rei eterno. Nem o próprio Davi."
+  },
+  {
+   "gravura": "029",
+   "mov": "esq",
+   "txt": "Pausa rápida na viagem. Se você quer ler essas histórias na própria Bíblia sem se perder, eu preparei a Rota da Primeira Viagem, grátis. Comenta ROTA ou pega no link da descrição.",
+   "cta": "Comenta <b>ROTA</b><br>e receba a rota grátis"
+  },
+  {
+   "gravura": "043",
+   "mov": "in",
+   "txt": "Quarta parada: a queda de Davi. É primavera, a época em que os reis saem pra guerra. Mas Davi manda o exército e fica em Jerusalém.",
+   "cap": {
+    "sup": "PARADA 4",
+    "txt": "O rei que caiu"
+   }
+  },
+  {
+   "gravura": "035",
+   "mov": "esq",
+   "txt": "Uma tarde, do terraço do palácio, ele vê uma mulher muito bonita tomando banho. Pergunta quem é. É Bate-Seba, esposa de Urias, um dos seus soldados mais leais."
+  },
+  {
+   "gravura": "021",
+   "mov": "out",
+   "txt": "Davi manda buscá-la e se deita com ela. Pouco depois, ela manda um recado curto: estou grávida. E aqui o rei tinha duas saídas: confessar ou esconder."
+  },
+  {
+   "gravura": "033",
+   "mov": "in",
+   "txt": "Davi tenta esconder o pecado, mas Urias é leal demais e não vai pra casa. Então Davi escreve ao comandante Joabe: coloquem Urias na frente da batalha mais dura e recuem."
+  },
+  {
+   "gravura": "044",
+   "mov": "cima",
+   "txt": "Urias morre. Davi se casa com Bate-Seba. Ninguém ficou sabendo, ele achava. Mas a Bíblia fecha o capítulo com uma frase seca: o que Davi fez desagradou ao Senhor."
+  },
+  {
+   "gravura": "047",
+   "mov": "esq",
+   "txt": "Deus manda Natã de novo. E Natã conta uma história: um homem rico, com muitos rebanhos, recebe uma visita e, em vez de usar uma ovelha sua, toma a única ovelhinha de um pobre."
+  },
+  {
+   "gravura": "036",
+   "mov": "out",
+   "txt": "Davi fica furioso: esse homem merece morrer! E Natã olha pra ele e diz quatro palavras que atravessam qualquer desculpa.",
+   "verso": "Você é esse homem.",
+   "ref": "2 SAMUEL 12.7"
+  },
+  {
+   "gravura": "044",
+   "mov": "dir",
+   "txt": "Respira. Isso pesa, né? O mesmo homem que poupou Saul na caverna agora tirou a vida de um inocente. Ninguém está acima da queda. Nem o melhor rei de Israel.",
+   "interage": {
+    "tipo": "checkin",
+    "txt": "Respira, isso pesa"
+   }
+  },
+  {
+   "gravura": "053",
+   "mov": "in",
+   "txt": "E agora vem a resposta da nossa segunda pergunta. Davi não culpa ninguém. Não fala do povo, não fala da mulher, não fala da guerra. Ele diz só isto: pequei contra o Senhor."
+  },
+  {
+   "gravura": "031",
+   "mov": "esq",
+   "txt": "Lembra de Saul? Ele também disse pequei, mas jogou a culpa no povo e logo pediu honra diante dos líderes. Estava preocupado com a imagem. Davi estava preocupado com Deus."
+  },
+  {
+   "gravura": "047",
+   "mov": "out",
+   "txt": "Natã responde: o Senhor perdoou o seu pecado. Você não vai morrer. Mas as consequências ficam. A espada não vai se afastar da sua casa, e o filho daquela gravidez morre."
+  },
+  {
+   "gravura": "046",
+   "mov": "cima",
+   "txt": "Dessa noite nasce o Salmo 51, que em algumas Bíblias católicas é o Salmo 50. O próprio título diz que ele foi escrito quando Natã foi falar com Davi."
+  },
+  {
+   "gravura": "044",
+   "mov": "in",
+   "txt": "Ele não pede pra Deus limpar a reputação dele. Pede um coração novo. É talvez a oração de arrependimento mais conhecida da Bíblia.",
+   "verso": "Cria em mim, ó Deus, um coração puro.",
+   "ref": "SALMO 51.10"
+  },
+  {
+   "gravura": "036",
+   "mov": "out",
+   "txt": "Se essa parte falou com você, segue o canal agora. Toda semana a gente faz uma viagem assim pela Bíblia, com calma e sem complicar.",
+   "interage": {
+    "tipo": "segue",
+    "txt": "Segue pra próxima viagem"
+   }
+  },
+  {
+   "gravura": "046",
+   "mov": "in",
+   "txt": "E salva este vídeo. Num dia em que você errar feio, volta neste trecho e reza o Salmo 51 junto com Davi. Ele foi escrito pra dias assim.",
+   "interage": {
+    "tipo": "salva",
+    "txt": "Salva pro dia difícil"
+   }
+  },
+  {
+   "gravura": "035",
+   "mov": "esq",
+   "txt": "Quinta parada: Absalão. A espada que Natã anunciou entra na casa de Davi. Um filho, Amnom, violenta a própria meia-irmã, Tamar. E Davi fica irado, mas não faz nada.",
+   "cap": {
+    "sup": "PARADA 5",
+    "txt": "A espada dentro de casa"
+   }
+  },
+  {
+   "gravura": "043",
+   "mov": "out",
+   "txt": "Absalão, irmão de Tamar, espera dois anos. Faz uma festa, e no meio dela os servos dele matam Amnom. Absalão foge e passa anos longe do pai."
+  },
+  {
+   "gravura": "037",
+   "mov": "dir",
+   "txt": "Quando volta, começa a conquistar o povo. Fica na porta da cidade, ouve as queixas e diz: se eu fosse juiz, você teria justiça. A Bíblia diz que ele roubava o coração do povo."
+  },
+  {
+   "gravura": "049",
+   "mov": "in",
+   "txt": "Até que Absalão se declara rei em Hebrom. E Davi foge de Jerusalém a pé, subindo o monte das Oliveiras, chorando, de cabeça coberta e descalço."
+  },
+  {
+   "gravura": "038",
+   "mov": "cima",
+   "txt": "O confronto final acontece num bosque, na região de Efraim. A Bíblia diz que naquele dia a floresta matou mais gente do que a espada. O exército de Absalão é derrotado."
+  },
+  {
+   "gravura": "034",
+   "mov": "in",
+   "txt": "Absalão foge montado numa mula, passa debaixo de um grande carvalho e fica com a cabeça presa nos galhos. A mula segue, e ele fica pendurado entre o céu e a terra."
+  },
+  {
+   "gravura": "044",
+   "mov": "out",
+   "txt": "Contra o pedido do rei, Joabe mata Absalão ali mesmo. E Davi não comemora a vitória. Ele sobe pro quarto e chora alto. É um dos lamentos mais doídos da Bíblia.",
+   "verso": "Meu filho Absalão! Quem me dera ter morrido em seu lugar!",
+   "ref": "2 SAMUEL 18.33"
+  },
+  {
+   "gravura": "053",
+   "mov": "dir",
+   "txt": "Foi muita coisa, né? Então me responde nos comentários: qual parte da vida de Davi mais mexeu com você até agora? A caverna, Golias, o Salmo 51 ou esse choro?",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "Qual parte mexeu com você?"
+   }
+  },
+  {
+   "gravura": "036",
+   "mov": "in",
+   "txt": "Sexta parada: Salomão, o filho de Davi com Bate-Seba. Sim, da história mais triste de Davi, Deus tira o próximo rei. Logo no começo do reinado, Deus aparece a ele num sonho.",
+   "cap": {
+    "sup": "PARADA 6",
+    "txt": "Salomão: do templo ao desvio"
+   }
+  },
+  {
+   "gravura": "053",
+   "mov": "esq",
+   "txt": "Deus diz: peça o que quiser. E Salomão não pede riqueza nem vida longa. Pede sabedoria pra governar bem o povo.",
+   "verso": "Dá ao teu servo um coração que saiba ouvir, para julgar o teu povo.",
+   "ref": "1 REIS 3.9"
+  },
+  {
+   "gravura": "037",
+   "mov": "out",
+   "txt": "Deus dá também riqueza e honra. Logo vem o teste: duas mulheres brigam por um bebê. Salomão manda dividir a criança, a verdadeira mãe prefere perdê-la a vê-la morrer, e o rei descobre quem é a mãe."
+  },
+  {
+   "gravura": "043",
+   "mov": "in",
+   "txt": "E então Salomão faz o que Davi sonhou: constrói o templo em Jerusalém. A Bíblia diz que a obra levou sete anos. Na dedicação, uma nuvem enche a casa, e é a glória do Senhor."
+  },
+  {
+   "gravura": "049",
+   "mov": "esq",
+   "txt": "Mas aqui tem um detalhe que quase ninguém percebe. Lá em Deuteronômio 17, séculos antes, Deus já tinha dado regras pro futuro rei de Israel."
+  },
+  {
+   "gravura": "043",
+   "mov": "out",
+   "txt": "E as regras eram três: o rei não devia juntar muitos cavalos, nem muitas mulheres, nem muito ouro e prata. E devia copiar a Lei e ler todos os dias."
+  },
+  {
+   "gravura": "035",
+   "mov": "dir",
+   "txt": "Salomão juntou cavalos vindos do Egito, ouro em quantidade enorme, e a Bíblia diz que teve setecentas esposas e trezentas concubinas. Quebrou as três regras, uma por uma.",
+   "verso": "Suas mulheres desviaram o coração dele para outros deuses.",
+   "ref": "1 REIS 11.4"
+  },
+  {
+   "gravura": "044",
+   "mov": "in",
+   "txt": "O homem mais sábio da terra terminou dividido. Construiu o templo do Senhor e, na velhice, altares pra deuses estrangeiros. Sabedoria sem obediência não segura o coração."
+  },
+  {
+   "gravura": "035",
+   "mov": "out",
+   "txt": "Sétima parada: o reino se divide. O filho de Salomão, Roboão, ouve o pedido do povo: alivia o peso que o seu pai colocou em nós. Os conselheiros mais velhos dizem: atende.",
+   "cap": {
+    "sup": "PARADA 7",
+    "txt": "Dois reinos e um profeta"
+   }
+  },
+  {
+   "gravura": "043",
+   "mov": "esq",
+   "txt": "Mas Roboão segue o conselho dos amigos jovens e responde com arrogância: meu pai castigou vocês com chicotes, eu vou castigar com escorpiões. Pronto. Dez tribos vão embora."
+  },
+  {
+   "gravura": "030",
+   "mov": "cima",
+   "txt": "Agora são dois reinos. No norte, Israel, com Jeroboão. No sul, Judá, com a família de Davi. Repara: a promessa de 2 Samuel 7 continua viva, ainda que por um fio."
+  },
+  {
+   "gravura": "039",
+   "mov": "dir",
+   "txt": "Jeroboão, com medo de o povo voltar a Jerusalém pra adorar, faz dois bezerros de ouro, em Betel e em Dã. O norte nasce desviado e nunca mais se recupera."
+  },
+  {
+   "gravura": "042",
+   "mov": "in",
+   "txt": "Anos depois, o pior de todos: o rei Acabe, casado com Jezabel, que espalha o culto a Baal pelo reino. E Deus levanta um profeta que aparece do nada: Elias."
+  },
+  {
+   "gravura": "053",
+   "mov": "out",
+   "txt": "Elias anuncia uma seca, e ela vem. Depois chama o povo ao monte Carmelo e faz uma pergunta que serve pra hoje também, porque o povo queria Deus e Baal ao mesmo tempo.",
+   "verso": "Até quando vocês vão ficar indecisos entre duas opções?",
+   "ref": "1 REIS 18.21"
+  },
+  {
+   "gravura": "040",
+   "mov": "cima",
+   "txt": "Os profetas de Baal gritam o dia inteiro, e nada. Elias encharca o altar com água, faz uma oração curta, e fogo desce do céu. Consome tudo, até a água."
+  },
+  {
+   "gravura": "044",
+   "mov": "in",
+   "txt": "Jezabel jura Elias de morte, e o mesmo profeta do fogo foge pro deserto. Senta debaixo de uma árvore e pede pra morrer. Um anjo traz pão e água e diz: levanta e come."
+  },
+  {
+   "gravura": "053",
+   "mov": "esq",
+   "txt": "No monte Horebe, Deus passa diante dele. Vem um vento forte, um terremoto, um fogo, mas Deus não estava neles. Depois vem algo bem pequeno.",
+   "verso": "Depois do fogo, veio o murmúrio de uma brisa suave.",
+   "ref": "1 REIS 19.12"
+  },
+  {
+   "gravura": "044",
+   "mov": "out",
+   "txt": "Se você está esgotado como Elias, guarda isso: Deus não começou com sermão. Começou com comida, descanso e uma voz baixa. Manda esse trecho pra alguém que anda cansado assim.",
+   "interage": {
+    "tipo": "manda",
+    "txt": "Manda pra quem tá esgotado"
+   }
+  },
+  {
+   "gravura": "042",
+   "mov": "in",
+   "txt": "Última parada: a queda. Os profetas continuam chamando, mas os reis do norte seguem nos bezerros de ouro. Por volta de 722 antes de Cristo, a Assíria toma Samaria. O reino do norte acaba.",
+   "cap": {
+    "sup": "PARADA 8",
+    "txt": "A queda e o Rei que viria"
+   }
+  },
+  {
+   "gravura": "046",
+   "mov": "esq",
+   "txt": "Mas os reis seguintes voltam pros ídolos. Por volta de 586 antes de Cristo, a Babilônia destrói Jerusalém e o templo de Salomão. O povo é levado pro exílio."
+  },
+  {
+   "gravura": "044",
+   "mov": "cima",
+   "txt": "Mas repara nos últimos versículos de 2 Reis. Um rei da família de Davi, Joaquim, é tirado da prisão na Babilônia e passa a comer à mesa do rei. Um fio de esperança."
+  },
+  {
+   "gravura": "053",
+   "mov": "in",
+   "txt": "Então vamos fechar a primeira pergunta: pedir um rei foi um erro? Existem leituras diferentes entre os estudiosos. Mas o texto mostra duas coisas juntas, e as duas são verdade."
+  },
+  {
+   "gravura": "043",
+   "mov": "esq",
+   "txt": "Um: Deus tinha previsto um rei. A Lei de Deuteronômio já falava dele, e Gênesis já dizia que o cetro viria de Judá. Ter um rei não era o problema em si."
+  },
+  {
+   "gravura": "024",
+   "mov": "dir",
+   "txt": "Dois: o motivo do pedido estava errado. Eles queriam um rei como o das outras nações, pra não depender de Deus. E a história inteira mostra o resultado: nenhum rei humano deu conta."
+  },
+  {
+   "gravura": "036",
+   "mov": "out",
+   "txt": "Saul caiu pelo orgulho. Davi caiu pelo desejo. Salomão caiu pela riqueza. E os reinos caíram pelos ídolos. O povo pediu um rei e descobriu que precisava de um rei diferente."
+  },
+  {
+   "gravura": "047",
+   "mov": "in",
+   "txt": "E agora a terceira pergunta: quem é o rei eterno de 2 Samuel 7? Os profetas começam a falar dele. Isaías diz que de um tronco cortado, o de Jessé, ia brotar um ramo novo."
+  },
+  {
+   "gravura": "057",
+   "mov": "cima",
+   "txt": "Séculos depois, um anjo aparece a uma jovem de Nazaré chamada Maria. E repara nas palavras que ele usa, quase as mesmas da promessa feita a Davi.",
+   "verso": "Deus lhe dará o trono de Davi, seu pai, e o seu reino não terá fim.",
+   "ref": "LUCAS 1.32-33"
+  },
+  {
+   "gravura": "069",
+   "mov": "esq",
+   "txt": "Esse menino é Jesus. O Novo Testamento abre chamando ele de filho de Davi. E quando ele entra em Jerusalém num jumentinho, o povo grita: hosana ao filho de Davi!"
+  },
+  {
+   "gravura": "087",
+   "mov": "out",
+   "txt": "Mas esse rei é diferente de todos. Saul se escondeu na bagagem. Davi tomou a ovelhinha do pobre. Jesus não toma nada de ninguém. Ele dá a própria vida."
+  },
+  {
+   "gravura": "088",
+   "mov": "in",
+   "txt": "A coroa dele é de espinhos. O trono é uma cruz. E em cima da cabeça dele está escrito: o Rei dos Judeus. Davi pediu um coração puro. Jesus morreu pra dar esse coração."
+  },
+  {
+   "gravura": "091",
+   "mov": "cima",
+   "txt": "E no domingo o túmulo está vazio. Um rei que morre e volta à vida não perde o trono nunca mais. Aí está o trono firme para sempre de 2 Samuel 7."
+  },
+  {
+   "gravura": "053",
+   "mov": "dir",
+   "txt": "Então, foi um erro pedir um rei? O motivo foi. Mas Deus usou até esse pedido torto pra trazer o Rei que a gente precisava. E agora é com você: quem está no trono da sua vida?",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "Quem está no trono?"
+   }
+  },
+  {
+   "gravura": "036",
+   "mov": "in",
+   "txt": "Resumindo a viagem: os Juízes sem rei, Saul da aparência, Davi do coração, Salomão da sabedoria que se perdeu, dois reinos, Elias, a queda. E uma promessa que sobreviveu a tudo."
+  },
+  {
+   "gravura": "093",
+   "mov": "out",
+   "txt": "No próximo vídeo, a gente entra no exílio e nos profetas: Jeremias, Ezequiel e Daniel na Babilônia. Até a próxima parada, viajante da Palavra.",
+   "cta": "Até a próxima <b>parada</b>,<br>viajante",
+   "selo": "PASSA<br>PORTE"
+  }
+ ]
+}

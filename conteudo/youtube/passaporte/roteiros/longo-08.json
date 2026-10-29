@@ -1,0 +1,603 @@
+{
+ "id": "longo-08",
+ "formato": "longo",
+ "titulo": "A vida de Jesus em ordem cronológica",
+ "legenda": "Você já tentou ler a vida de Jesus nos quatro Evangelhos e se perdeu na ordem dos fatos? Neste vídeo, Mateus, Marcos, Lucas e João viram uma linha do tempo simples: do nascimento em Belém à ascensão, com a referência de cada parte para você ler na sua Bíblia.\n\nVocê vai ver a infância, o batismo, a Galileia, a confissão de Pedro, a última semana, a cruz e a ressurreição. E vai entender por que os Evangelhos às vezes contam em ordens diferentes, com os pontos debatidos indicados com honestidade.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📖 Observação: os versículos aparecem em paráfrase curta, com a referência. Confira na sua tradução. A ordem dos fatos é uma harmonização didática; onde ela é debatida, o vídeo avisa.\n\n🎫 Quer ler os Evangelhos com um caminho claro? Baixe grátis a Rota da Primeira Viagem no link da descrição, ou comente ROTA.\n\n#VidaDeJesus #Evangelhos #HarmoniaDosEvangelhos #EstudoBíblico #PassaporteDaBíblia",
+ "comentario": "📌 Qual parada da vida de Jesus você quer que a gente aprofunde num vídeo só: Galileia, última semana, cruz ou ressurreição? Comente a parada.",
+ "titulo_tela": {
+  "sup": "PASSAPORTE DA BÍBLIA",
+  "txt": "A vida de Jesus<br>em ordem",
+  "dur": 3.2
+ },
+ "capa": {
+  "A": "Jesus em ordem",
+  "B": "Qual veio primeiro?",
+  "gravA": "069",
+  "gravB": "093"
+ },
+ "cenas": [
+  {
+   "gravura": "082",
+   "mov": "in",
+   "txt": "Jesus expulsou os vendedores do templo no começo do ministério ou na última semana? Depende do Evangelho que você abre. Isso confunde muita gente."
+  },
+  {
+   "gravura": "066",
+   "mov": "esq",
+   "txt": "São quatro Evangelhos: Mateus, Marcos, Lucas e João. Eles contam a mesma vida, mas nem sempre na mesma sequência. Hoje a gente vai juntar os quatro numa linha do tempo simples."
+  },
+  {
+   "gravura": "057",
+   "mov": "out",
+   "txt": "Do presépio em Belém até a nuvem da ascensão. Em cada parada, eu vou te dizer onde ler na sua Bíblia, pra você poder conferir com os próprios olhos."
+  },
+  {
+   "gravura": "070",
+   "mov": "dir",
+   "txt": "E vou ser honesto com você: em alguns pontos, a ordem exata é debatida entre os estudiosos. Quando for assim, eu aviso."
+  },
+  {
+   "gravura": "064",
+   "mov": "cima",
+   "txt": "No caminho, três perguntas vão ficar abertas. Primeira: por que os Evangelhos às vezes contam em ordens diferentes? Erro, ou motivo?"
+  },
+  {
+   "gravura": "062",
+   "mov": "in",
+   "txt": "Segunda: qual é o único milagre, fora a ressurreição, que aparece nos quatro Evangelhos? E terceira: em que momento a história vira, e Jesus começa a caminhar de propósito para a cruz?"
+  },
+  {
+   "gravura": "053",
+   "mov": "out",
+   "txt": "Guarda essas três perguntas. Todas vão ser respondidas antes do fim. A primeira parada é Belém."
+  },
+  {
+   "gravura": "057",
+   "mov": "in",
+   "txt": "Primeira parada: o nascimento. Só dois Evangelhos contam essa parte: Mateus, capítulos 1 e 2, e Lucas, capítulos 1 e 2. Marcos e João começam com Jesus já adulto.",
+   "cap": {
+    "sup": "PARADA 1",
+    "txt": "Belém e Nazaré"
+   }
+  },
+  {
+   "gravura": "071",
+   "mov": "esq",
+   "txt": "Lucas começa antes. O anjo Gabriel anuncia o nascimento de João Batista a Zacarias, e depois anuncia a Maria, em Nazaré, que ela ia conceber pelo Espírito Santo. Está em Lucas 1."
+  },
+  {
+   "gravura": "058",
+   "mov": "dir",
+   "txt": "Mateus conta o mesmo nascimento pelo lado de José. Ele pensa em deixar Maria em segredo, mas um anjo, em sonho, diz para ele recebê-la. O nome do menino seria Jesus."
+  },
+  {
+   "gravura": "057",
+   "mov": "cima",
+   "txt": "Por causa de um recenseamento romano, José e Maria vão de Nazaré a Belém, a cidade de Davi. Lá nasce Jesus, e Maria o deita numa manjedoura, porque não havia lugar na hospedaria. Lucas 2."
+  },
+  {
+   "gravura": "005",
+   "mov": "out",
+   "txt": "Na mesma noite, anjos aparecem a pastores no campo. Eles encontram o menino e saem contando a todo mundo o que viram."
+  },
+  {
+   "gravura": "061",
+   "mov": "in",
+   "txt": "Quarenta dias depois, pela lei de Moisés, o menino é apresentado no templo de Jerusalém. O velho Simeão o pega no colo e louva a Deus. Também está em Lucas 2."
+  },
+  {
+   "gravura": "058",
+   "mov": "esq",
+   "txt": "Depois vêm os magos do Oriente, guiados por uma estrela. Mateus diz que eles encontram o menino numa casa, não num estábulo. Por isso muitos acham que vieram um tempo depois."
+  },
+  {
+   "gravura": "044",
+   "mov": "dir",
+   "txt": "E aqui aparece o primeiro ponto debatido. Os magos chegaram antes ou depois da apresentação no templo? Os textos não dizem com exatidão. Existem harmonizações diferentes, e tudo bem."
+  },
+  {
+   "gravura": "060",
+   "mov": "out",
+   "txt": "Herodes, com medo de perder o trono, manda matar os meninos de Belém de até dois anos. Mateus 2."
+  },
+  {
+   "gravura": "059",
+   "mov": "in",
+   "txt": "Mas José é avisado em sonho e foge com Maria e o menino para o Egito. Depois que Herodes morre, eles voltam e vão morar em Nazaré, na Galileia."
+  },
+  {
+   "gravura": "053",
+   "mov": "cima",
+   "txt": "Respira, porque foi muita coisa em pouco tempo. Anúncio, Belém, pastores, templo, magos, Egito e Nazaré. Tá comigo até aqui? Escreve aí: Nazaré.",
+   "interage": {
+    "tipo": "checkin",
+    "txt": "Tá comigo? Escreve: Nazaré"
+   }
+  },
+  {
+   "gravura": "061",
+   "mov": "in",
+   "txt": "Depois disso, a Bíblia faz quase um silêncio total sobre a infância de Jesus. Só uma cena sobrevive: Jesus aos doze anos, em Jerusalém, na festa da Páscoa. Lucas 2, versículos 41 a 52."
+  },
+  {
+   "gravura": "066",
+   "mov": "esq",
+   "txt": "Na volta, Maria e José percebem que o menino não está na caravana. Procuram três dias. E acham Jesus no templo, sentado entre os mestres, ouvindo e fazendo perguntas."
+  },
+  {
+   "gravura": "061",
+   "mov": "out",
+   "txt": "Maria pergunta por que ele fez aquilo. E Jesus responde com a primeira frase dele registrada nos Evangelhos.",
+   "verso": "Não sabiam que eu devia estar na casa de meu Pai?",
+   "ref": "LUCAS 2.49"
+  },
+  {
+   "gravura": "071",
+   "mov": "dir",
+   "txt": "Depois ele volta para Nazaré e vive em obediência aos pais. Lucas diz que ele crescia em sabedoria, em estatura e em graça diante de Deus e dos homens."
+  },
+  {
+   "gravura": "063",
+   "mov": "in",
+   "txt": "Segunda parada: o começo do ministério. Lucas diz que Jesus tinha mais ou menos trinta anos. Antes dele, João Batista prega no deserto e chama o povo ao arrependimento.",
+   "cap": {
+    "sup": "PARADA 2",
+    "txt": "Batismo e deserto"
+   }
+  },
+  {
+   "gravura": "047",
+   "mov": "esq",
+   "txt": "O batismo de Jesus está em Mateus 3, Marcos 1 e Lucas 3. João estranha: eu é que preciso ser batizado por você. Mas Jesus insiste, e entra nas águas do Jordão."
+  },
+  {
+   "gravura": "093",
+   "mov": "cima",
+   "txt": "Quando ele sai da água, o céu se abre, o Espírito desce como pomba, e uma voz do céu fala. É um dos raros momentos em que aparecem juntos o Pai, o Filho e o Espírito.",
+   "verso": "Este é o meu Filho amado, em quem me agrado.",
+   "ref": "MATEUS 3.17"
+  },
+  {
+   "gravura": "053",
+   "mov": "out",
+   "txt": "Logo depois, o Espírito leva Jesus ao deserto. Quarenta dias de jejum. E ali vem a tentação. Leia em Mateus 4, versículos 1 a 11, e em Lucas 4, versículos 1 a 13."
+  },
+  {
+   "gravura": "044",
+   "mov": "in",
+   "txt": "O diabo propõe três coisas: transformar pedras em pão, se jogar do alto do templo e receber todos os reinos do mundo se o adorasse. Jesus responde as três com a Escritura."
+  },
+  {
+   "gravura": "020",
+   "mov": "dir",
+   "txt": "Um detalhe curioso: Mateus e Lucas trocam a ordem da segunda e da terceira tentação. As tentações são as mesmas, a sequência muda. Guarda esse detalhe, porque ele ajuda a responder a nossa primeira pergunta."
+  },
+  {
+   "gravura": "078",
+   "mov": "in",
+   "txt": "Terceira parada: os primeiros discípulos. E aqui João completa o que os outros não contam. Em João 1, André, Pedro, Filipe e Natanael conhecem Jesus ainda perto do Jordão.",
+   "cap": {
+    "sup": "PARADA 3",
+    "txt": "Os primeiros seguidores"
+   }
+  },
+  {
+   "gravura": "072",
+   "mov": "esq",
+   "txt": "Em João 2, Jesus vai a um casamento em Caná e transforma água em vinho. João diz que esse foi o primeiro dos seus sinais. Os discípulos creram nele."
+  },
+  {
+   "gravura": "069",
+   "mov": "out",
+   "txt": "E em João 2 também, Jesus expulsa os vendedores do templo. Já Mateus, Marcos e Lucas contam essa cena na última semana. Lembra da pergunta do começo? Ela mora aqui."
+  },
+  {
+   "gravura": "044",
+   "mov": "dir",
+   "txt": "Duas leituras existem. Muitos acham que Jesus purificou o templo duas vezes, no começo e no fim. Outros acham que foi uma vez só, e que João colocou a cena antes por um motivo de tema. Os dois lados têm gente séria."
+  },
+  {
+   "gravura": "066",
+   "mov": "cima",
+   "txt": "Ainda nessa fase, Nicodemos, um mestre fariseu, procura Jesus de noite. É ali que está o versículo mais conhecido da Bíblia: Deus amou o mundo de tal maneira. João 3.16."
+  },
+  {
+   "gravura": "078",
+   "mov": "in",
+   "txt": "E, voltando para a Galileia, Jesus passa por Samaria. No poço de Jacó, conversa com uma mulher samaritana e oferece a ela a água viva. A cidade inteira vem ver quem é ele. João 4."
+  },
+  {
+   "gravura": "064",
+   "mov": "out",
+   "txt": "Já na Galileia, Jesus encontra pescadores trabalhando: Pedro e André, Tiago e João. E faz um convite que muda a vida deles. Marcos 1 e Lucas 5.",
+   "verso": "Venham comigo, e eu farei de vocês pescadores de gente.",
+   "ref": "MARCOS 1.17"
+  },
+  {
+   "gravura": "067",
+   "mov": "esq",
+   "txt": "Mais tarde, depois de passar a noite orando no monte, Jesus escolhe doze entre os discípulos e os chama de apóstolos. A lista está em Marcos 3 e Lucas 6."
+  },
+  {
+   "gravura": "070",
+   "mov": "dir",
+   "txt": "Agora, uma pergunta só pra você. Qual Evangelho você mais lê: Mateus, Marcos, Lucas ou João? Comenta aqui embaixo.",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "Qual Evangelho você mais lê?"
+   }
+  },
+  {
+   "gravura": "092",
+   "mov": "in",
+   "txt": "Pausa rápida na viagem. Se você quer ler os Evangelhos e o resto da Bíblia com um caminho claro, eu preparei a Rota da Primeira Viagem, grátis. Comenta ROTA ou pega no link da descrição.",
+   "cta": "Comenta <b>ROTA</b><br>e receba a rota grátis"
+  },
+  {
+   "gravura": "063",
+   "mov": "out",
+   "txt": "Quarta parada: a Galileia, onde Jesus passa a maior parte do ministério. Ele começa em Nazaré, na sinagoga, lendo Isaías. Mas a cidade dele o rejeita. Lucas 4.",
+   "cap": {
+    "sup": "PARADA 4",
+    "txt": "Galileia"
+   }
+  },
+  {
+   "gravura": "070",
+   "mov": "esq",
+   "txt": "Então Jesus faz de Cafarnaum, à beira do mar da Galileia, a sua base. Dali ele percorre as cidades e aldeias, ensinando nas sinagogas e curando todo tipo de doença."
+  },
+  {
+   "gravura": "063",
+   "mov": "cima",
+   "txt": "É nessa fase que vem o Sermão do Monte, em Mateus 5, 6 e 7. As bem-aventuranças, o Pai Nosso, a casa na rocha. É o maior bloco de ensino de Jesus num lugar só.",
+   "verso": "Felizes os humildes de espírito, porque deles é o reino dos céus.",
+   "ref": "MATEUS 5.3"
+  },
+  {
+   "gravura": "070",
+   "mov": "out",
+   "txt": "Lucas 6 tem um sermão bem parecido, mas num lugar plano. É o mesmo sermão contado de outro jeito, ou Jesus repetiu o ensino em lugares diferentes? Também aqui existem leituras diferentes."
+  },
+  {
+   "gravura": "062",
+   "mov": "in",
+   "txt": "E vêm os milagres. Jesus cura leprosos, paralíticos, cegos. Perdoa pecados. Marcos 1 e 2 mostram um dia atrás do outro de curas."
+  },
+  {
+   "gravura": "064",
+   "mov": "esq",
+   "txt": "Uma noite, no mar da Galileia, vem uma tempestade. Os discípulos, apavorados, acordam Jesus. Ele repreende o vento, e tudo fica em calma. Marcos 4.",
+   "verso": "Quem é este, que até o vento e o mar lhe obedecem?",
+   "ref": "MARCOS 4.41"
+  },
+  {
+   "gravura": "067",
+   "mov": "out",
+   "txt": "Jesus também ensina por parábolas. Em Mateus 13 e Marcos 4 está a do semeador: a mesma semente cai em terrenos diferentes. O problema nunca é a semente, é o coração que recebe."
+  },
+  {
+   "gravura": "062",
+   "mov": "cima",
+   "txt": "E agora, a nossa segunda pergunta. Qual é o único milagre, fora a ressurreição, que está nos quatro Evangelhos? A multiplicação dos pães para cinco mil homens."
+  },
+  {
+   "gravura": "070",
+   "mov": "dir",
+   "txt": "Cinco pães e dois peixes. Todos comem e ainda sobram doze cestos. Leia em Mateus 14, Marcos 6, Lucas 9 e João 6. Os quatro registram. Pergunta número dois respondida."
+  },
+  {
+   "gravura": "068",
+   "mov": "in",
+   "txt": "Na mesma noite, os discípulos atravessam o mar de barco, e Jesus vem andando sobre as águas. Pedro tenta ir até ele, olha pro vento e começa a afundar. Mateus 14."
+  },
+  {
+   "gravura": "053",
+   "mov": "esq",
+   "txt": "Se essa linha do tempo está te ajudando, salva esse vídeo. Assim, quando você for ler os Evangelhos, abre aqui e confere em que parada você está.",
+   "interage": {
+    "tipo": "salva",
+    "txt": "Salva pra ler na ordem"
+   }
+  },
+  {
+   "gravura": "088",
+   "mov": "in",
+   "txt": "Quinta parada: a virada. E aqui fecha a nossa terceira pergunta. Perto de Cesareia de Filipe, no norte, Jesus pergunta aos discípulos: e vocês, quem dizem que eu sou?",
+   "cap": {
+    "sup": "PARADA 5",
+    "txt": "A grande virada"
+   }
+  },
+  {
+   "gravura": "065",
+   "mov": "out",
+   "txt": "Pedro responde em nome de todos. Está em Mateus 16, Marcos 8 e Lucas 9. É o ponto alto do ministério na Galileia.",
+   "verso": "Tu és o Cristo, o Filho do Deus vivo.",
+   "ref": "MATEUS 16.16"
+  },
+  {
+   "gravura": "086",
+   "mov": "dir",
+   "txt": "E logo depois, tudo muda de tom. Marcos diz que, a partir daí, Jesus começou a ensinar que precisava sofrer, ser morto e ressuscitar ao terceiro dia. Marcos 8, versículo 31."
+  },
+  {
+   "gravura": "044",
+   "mov": "esq",
+   "txt": "Essa é a virada. Até ali, a grande pergunta era quem é Jesus. Dali em diante, a pergunta passa a ser: o que ele veio fazer? E a resposta aponta para Jerusalém e para a cruz."
+  },
+  {
+   "gravura": "093",
+   "mov": "cima",
+   "txt": "Uns dias depois, Jesus sobe um monte com Pedro, Tiago e João, e o rosto dele brilha como o sol. Moisés e Elias aparecem conversando com ele. É a transfiguração. Mateus 17."
+  },
+  {
+   "gravura": "053",
+   "mov": "in",
+   "txt": "Qual era o monte? A Bíblia não diz o nome. A tradição aponta o monte Tabor, outros pensam no Hermon. E Lucas fala em uns oito dias depois, enquanto Mateus e Marcos falam em seis. Contagens diferentes do mesmo intervalo."
+  },
+  {
+   "gravura": "070",
+   "mov": "out",
+   "txt": "Se você entendeu agora por que a confissão de Pedro divide a vida de Jesus em duas partes, segue o canal. Toda semana tem mapa novo.",
+   "interage": {
+    "tipo": "segue",
+    "txt": "Segue pra próxima parada"
+   }
+  },
+  {
+   "gravura": "049",
+   "mov": "in",
+   "txt": "Sexta parada: o caminho para Jerusalém. Lucas marca o momento com uma frase forte: Jesus decidiu firmemente ir para Jerusalém. Lucas 9, versículo 51.",
+   "cap": {
+    "sup": "PARADA 6",
+    "txt": "Rumo a Jerusalém"
+   }
+  },
+  {
+   "gravura": "073",
+   "mov": "esq",
+   "txt": "De Lucas 9 até Lucas 19, está a grande viagem. E é nela que estão muitas parábolas que só Lucas conta. A do bom samaritano, por exemplo, em Lucas 10."
+  },
+  {
+   "gravura": "074",
+   "mov": "dir",
+   "txt": "Um homem é assaltado e deixado meio morto. Um sacerdote passa reto. Um levita também. Quem para, cuida e paga a hospedaria é justamente um samaritano, o estrangeiro."
+  },
+  {
+   "gravura": "075",
+   "mov": "out",
+   "txt": "Em Lucas 15 vem a do filho pródigo. O filho gasta tudo, passa fome e volta. E o pai corre ao encontro dele. Jesus mostra como Deus recebe quem volta."
+  },
+  {
+   "gravura": "077",
+   "mov": "in",
+   "txt": "Mas atenção: João mostra que, nesse período, Jesus também sobe a Jerusalém nas festas. João menciona pelo menos três Páscoas, por isso se fala em uns três anos. É estimativa: há quem calcule diferente."
+  },
+  {
+   "gravura": "080",
+   "mov": "dir",
+   "txt": "Em Betânia, perto de Jerusalém, Jesus ressuscita o amigo Lázaro, que já estava sepultado havia quatro dias. Ele diz: eu sou a ressurreição e a vida. E João conta que, a partir dali, os líderes decidiram matar Jesus. João 11."
+  },
+  {
+   "gravura": "081",
+   "mov": "esq",
+   "txt": "De volta a Betânia, uma mulher derrama perfume caro sobre Jesus. João coloca a cena seis dias antes da Páscoa. Mateus e Marcos contam dentro da última semana. A ordem também é debatida aqui."
+  },
+  {
+   "gravura": "069",
+   "mov": "in",
+   "txt": "Sétima parada: a última semana. Jesus entra em Jerusalém montado num jumentinho. E essa cena está nos quatro Evangelhos: Mateus 21, Marcos 11, Lucas 19 e João 12.",
+   "cap": {
+    "sup": "PARADA 7",
+    "txt": "A última semana"
+   }
+  },
+  {
+   "gravura": "070",
+   "mov": "cima",
+   "txt": "O povo estende roupas e ramos no caminho. João diz que eram ramos de palmeira. E a multidão grita.",
+   "verso": "Hosana! Bendito o que vem em nome do Senhor!",
+   "ref": "MARCOS 11.9"
+  },
+  {
+   "gravura": "062",
+   "mov": "out",
+   "txt": "É aqui que Mateus, Marcos e Lucas colocam a expulsão dos vendedores do templo. Lembra da primeira pergunta do vídeo? Agora dá pra fechar ela."
+  },
+  {
+   "gravura": "044",
+   "mov": "dir",
+   "txt": "Os Evangelhos não são agendas de compromissos. Cada autor organiza a história para ensinar algo. Lucas diz que escreveu uma narração em ordem, mas às vezes a ordem é de tema, não de relógio. Isso não é erro, é estilo."
+  },
+  {
+   "gravura": "065",
+   "mov": "in",
+   "txt": "Chega a noite da Última Ceia. Em João 13, antes da refeição, Jesus lava os pés dos discípulos. O Mestre faz o serviço de um escravo."
+  },
+  {
+   "gravura": "082",
+   "mov": "out",
+   "txt": "Na ceia, ele toma o pão, dá graças, parte e entrega. Depois o cálice. Está em Mateus 26, Marcos 14, Lucas 22 e também em Primeira Coríntios 11.",
+   "verso": "Isto é o meu corpo, entregue por vocês.",
+   "ref": "LUCAS 22.19"
+  },
+  {
+   "gravura": "053",
+   "mov": "dir",
+   "txt": "E mais um ponto debatido. Mateus, Marcos e Lucas mostram a ceia como refeição de Páscoa. João dá a entender que a Páscoa seria comida depois. Os estudiosos propõem várias explicações, e nenhuma é unanimidade."
+  },
+  {
+   "gravura": "083",
+   "mov": "in",
+   "txt": "Oitava parada: da noite mais escura até a cruz. Jesus vai com os discípulos ao Getsêmani, no monte das Oliveiras. Mateus 26, Marcos 14 e Lucas 22.",
+   "cap": {
+    "sup": "PARADA 8",
+    "txt": "Do Getsêmani à cruz"
+   }
+  },
+  {
+   "gravura": "081",
+   "mov": "out",
+   "txt": "Ele se afasta um pouco, cai com o rosto em terra e ora com angústia. Lucas diz que o suor dele caía como gotas de sangue. Os discípulos dormem.",
+   "verso": "Pai, não seja como eu quero, mas como tu queres.",
+   "ref": "MATEUS 26.39"
+  },
+  {
+   "gravura": "044",
+   "mov": "esq",
+   "txt": "Pensa nisso um segundo. Ele podia ir embora pela escuridão do monte. E fica. Me conta nos comentários: qual parte do Getsêmani mais mexe com você?",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "O que mais mexe com você?"
+   }
+  },
+  {
+   "gravura": "085",
+   "mov": "in",
+   "txt": "Judas chega com uma multidão armada e entrega Jesus com um beijo. Pedro puxa a espada e corta a orelha de um servo. Jesus manda guardar a espada e cura o homem. Os discípulos fogem."
+  },
+  {
+   "gravura": "087",
+   "mov": "dir",
+   "txt": "Começam os julgamentos. Costuma-se contar seis etapas. Três religiosas: diante de Anás, de Caifás e do Sinédrio ao amanhecer. E três romanas: Pilatos, Herodes Antipas e Pilatos de novo."
+  },
+  {
+   "gravura": "084",
+   "mov": "cima",
+   "txt": "Enquanto isso, no pátio, Pedro nega Jesus três vezes, e o galo canta. Lucas conta que Jesus se virou e olhou para Pedro. E Judas, cheio de remorso, devolve as moedas."
+  },
+  {
+   "gravura": "087",
+   "mov": "in",
+   "txt": "Pilatos não encontra culpa, mas a multidão pede Barrabás. Jesus é açoitado, recebe uma coroa de espinhos e um manto de púrpura. João 19."
+  },
+  {
+   "gravura": "086",
+   "mov": "esq",
+   "txt": "Jesus sai carregando a cruz. No caminho, os soldados obrigam um homem de Cirene, chamado Simão, a carregar a cruz atrás dele. Marcos 15 e Lucas 23."
+  },
+  {
+   "gravura": "088",
+   "mov": "in",
+   "txt": "No lugar chamado Gólgota, que quer dizer lugar da caveira, Jesus é crucificado entre dois criminosos. E as primeiras palavras dele na cruz são de perdão.",
+   "verso": "Pai, perdoa-lhes, porque não sabem o que fazem.",
+   "ref": "LUCAS 23.34"
+  },
+  {
+   "gravura": "089",
+   "mov": "cima",
+   "txt": "Ao meio-dia, trevas cobrem a terra até as três da tarde. Jesus clama: Deus meu, Deus meu, por que me abandonaste? É o começo do Salmo 22. Marcos 15."
+  },
+  {
+   "gravura": "088",
+   "mov": "out",
+   "txt": "São sete frases na cruz, espalhadas pelos quatro Evangelhos. A ordem em que costumam ser recitadas é uma harmonização. E uma das últimas é uma palavra só no grego.",
+   "verso": "Está consumado.",
+   "ref": "JOÃO 19.30"
+  },
+  {
+   "gravura": "089",
+   "mov": "dir",
+   "txt": "O véu do templo se rasga de cima a baixo. E o centurião romano, que viu tudo, diz: verdadeiramente este homem era o Filho de Deus. Marcos 15."
+  },
+  {
+   "gravura": "090",
+   "mov": "in",
+   "txt": "Antes do pôr do sol, José de Arimateia pede o corpo a Pilatos. Com Nicodemos, envolve Jesus em panos com especiarias e o coloca num túmulo novo, cavado na rocha. Uma pedra fecha a entrada."
+  },
+  {
+   "gravura": "071",
+   "mov": "esq",
+   "txt": "Parada final: o túmulo vazio. No primeiro dia da semana, bem cedo, as mulheres vão ao túmulo. A pedra está removida. Os quatro Evangelhos contam: Mateus 28, Marcos 16, Lucas 24 e João 20.",
+   "cap": {
+    "sup": "PARADA FINAL",
+    "txt": "O túmulo vazio"
+   }
+  },
+  {
+   "gravura": "091",
+   "mov": "cima",
+   "txt": "Um anjo fala com elas. Os detalhes variam: quantas mulheres, um anjo ou dois. Cada autor destaca testemunhas diferentes. Mas o centro é o mesmo em todos.",
+   "verso": "Ele não está aqui. Ressuscitou!",
+   "ref": "LUCAS 24.6"
+  },
+  {
+   "gravura": "081",
+   "mov": "out",
+   "txt": "Pedro e João correm até o túmulo e encontram só os panos. E Maria Madalena, chorando do lado de fora, é a primeira a ver Jesus ressuscitado. Ele a chama pelo nome. João 20."
+  },
+  {
+   "gravura": "049",
+   "mov": "dir",
+   "txt": "Na mesma tarde, dois discípulos caminham para Emaús, a uns sessenta estádios de Jerusalém. Um deles se chama Cléopas. Jesus se junta a eles, mas eles não o reconhecem. Lucas 24."
+  },
+  {
+   "gravura": "092",
+   "mov": "in",
+   "txt": "Ele explica tudo o que as Escrituras diziam sobre ele, começando por Moisés. Na hora da refeição, ele parte o pão, os olhos deles se abrem, e ele desaparece.",
+   "verso": "Não ardia o nosso coração enquanto ele nos falava?",
+   "ref": "LUCAS 24.32"
+  },
+  {
+   "gravura": "044",
+   "mov": "esq",
+   "txt": "Já aconteceu de um texto da Bíblia arder no seu coração assim, como em Emaús? Escreve nos comentários qual foi. Eu leio todos.",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "Que texto ardeu em você?"
+   }
+  },
+  {
+   "gravura": "070",
+   "mov": "out",
+   "txt": "Naquela noite, Jesus aparece aos discípulos reunidos. Oito dias depois, aparece de novo, e Tomé, que tinha duvidado, diz: Senhor meu e Deus meu. João 20."
+  },
+  {
+   "gravura": "064",
+   "mov": "cima",
+   "txt": "Depois, na Galileia, à beira do mar, Jesus prepara peixe e pão para os discípulos. E pergunta três vezes a Pedro: você me ama? As três negações recebem três chances. João 21."
+  },
+  {
+   "gravura": "093",
+   "mov": "in",
+   "txt": "Atos 1 diz que Jesus apareceu durante quarenta dias. Então, perto de Betânia, no monte das Oliveiras, ele é elevado ao céu, e uma nuvem o encobre. Lucas 24 e Atos 1."
+  },
+  {
+   "gravura": "053",
+   "mov": "out",
+   "txt": "Os discípulos ficam olhando pro alto. E dois homens vestidos de branco dizem que esse mesmo Jesus vai voltar do mesmo jeito que foi visto subir. Atos 1, versículo 11."
+  },
+  {
+   "gravura": "061",
+   "mov": "in",
+   "txt": "E as três perguntas fecharam. A ordem às vezes muda porque cada autor organiza por tema. O milagre dos quatro é a multiplicação dos pães. E a virada é a confissão de Pedro."
+  },
+  {
+   "gravura": "053",
+   "mov": "esq",
+   "txt": "João termina o Evangelho dizendo que Jesus fez muitas outras coisas, e que nem o mundo inteiro teria lugar para tantos livros. Essa linha do tempo é um mapa, não o território. O território é ler."
+  },
+  {
+   "gravura": "057",
+   "mov": "out",
+   "txt": "Uma sugestão prática: leia Marcos inteiro primeiro. É o mais curto, dezesseis capítulos, e segue bem esse caminho. Depois Lucas, Mateus e João. Você vai reconhecer cada parada."
+  },
+  {
+   "gravura": "078",
+   "mov": "dir",
+   "txt": "Conhece alguém que acha a vida de Jesus confusa, tudo misturado? Manda esse vídeo pra essa pessoa. Pode ser o mapa que estava faltando pra ela.",
+   "interage": {
+    "tipo": "manda",
+    "txt": "Manda pra quem acha confuso"
+   }
+  },
+  {
+   "gravura": "093",
+   "mov": "in",
+   "txt": "No próximo vídeo, a gente vai entrar nos quatro Evangelhos um por um e ver o jeito único de cada autor. Até a próxima parada, viajante da Palavra.",
+   "cta": "Até a próxima <b>parada</b>,<br>viajante",
+   "selo": "PASSA<br>PORTE"
+  }
+ ]
+}

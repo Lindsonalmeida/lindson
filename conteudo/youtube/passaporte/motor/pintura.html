@@ -39,7 +39,7 @@ canvas{position:absolute;inset:0}
 #cta .ins svg{width:52px;height:52px;fill:#fff}
 </style></head><body>
 <canvas id="gl" width="__W__" height="__H__"></canvas><div id="sombra"></div><canvas id="px" width="__W__" height="__H__"></canvas>
-<div id="marca">PASSAPORTE DA BÍBLIA</div><div id="tit"></div><div id="ver"></div><div id="cap"></div><div id="cta"></div><div id="t2"></div><div id="t3"></div><div id="int"></div>
+<div id="marca">__MARCA__</div><div id="tit"></div><div id="ver"></div><div id="cap"></div><div id="cta"></div><div id="t2"></div><div id="t3"></div><div id="int"></div>
 <script>
 const SP=__SPEC__,$=id=>document.getElementById(id),cl=(x,a=0,b=1)=>Math.max(a,Math.min(b,x)),ease=x=>{x=cl(x);return x<.5?2*x*x:1-Math.pow(-2*x+2,2)/2};
 const W=__W__,H=__H__,gl=$('gl').getContext('webgl',{preserveDrawingBuffer:true});
@@ -50,7 +50,7 @@ vec3 amostra(sampler2D im,sampler2D dp,vec2 ir,vec4 c,vec2 par){vec2 u=fit(v,ir,
 float h(vec2 p){return fract(sin(dot(p,vec2(12.9898,78.233)))*43758.5453);}
 void main(){vec3 a=amostra(A,AD,ia,ca,par_a),b=amostra(B,BD,ib,cb,par_b);vec3 c=mix(a,b,mixv);
 float g=dot(c,vec3(.299,.587,.114));g=pow(smoothstep(.06,.94,g),1.25);
-vec3 sombra=vec3(.05,.06,.11),meio=vec3(.55,.40,.22),luz=vec3(1.,.90,.68);
+vec3 sombra=vec3(__SOMBRA__),meio=vec3(__MEIO__),luz=vec3(__LUZ__);
 vec3 col=g<.5?mix(sombra,meio,g*2.):mix(meio,luz,(g-.5)*2.);
 vec2 q=v-.5;float vig=smoothstep(.95,.25,length(q*vec2(${(W/H).toFixed(3)},1.)*1.15));col*=mix(.28,1.,vig);
 col+=vec3(1.,.75,.4)*.06*flick*smoothstep(.7,0.,length(q-vec2(.18,-.3)));
@@ -120,7 +120,7 @@ window.render=t=>{
  // legenda
  const c=CH.find(c=>t>=c.a-.05&&t<c.z);$('cap').innerHTML=c&&!s.cta?c.w.map(([x,ts])=>`<span class="${t>=ts?'on':''}">${x}</span>`).join(' '):'';
  // selo de chamada só durante a cena que tem "cta" (a última fica até o fim)
- if(s.cta){const ult=i===SP.cenas.length-1,k=cl((t-s.ini)/.6)*(ult?1:cl((s.fim-t)/.5));$('cta').style.opacity=k;const fe=(SP.estilo||{}).fecha||0;$('cta').innerHTML=fe===1?`<div class="ins">${IC.segue}INSCREVER-SE</div><p>${s.cta}</p>`:fe===2?`<div class="pg"><div class="mk">${s.selo||'CARIMBE<br>AQUI'}</div><p>${s.cta}</p></div>`:`<div class="sel">${s.selo||'CARIMBE<br>AQUI'}</div><p>${s.cta}</p>`}else $('cta').style.opacity=0;
+ if(s.cta){const ult=i===SP.cenas.length-1,k=cl((t-s.ini)/.6)*(ult?1:cl((s.fim-t)/.5));$('cta').style.opacity=k;const fe=(SP.estilo||{}).fecha||0;$('cta').innerHTML=fe===1?`<div class="ins">${IC.segue}INSCREVER-SE</div><p>${s.cta}</p>`:fe===2?`<div class="pg"><div class="mk">${s.selo||'__SELO__'}</div><p>${s.cta}</p></div>`:`<div class="sel">${s.selo||'__SELO__'}</div><p>${s.cta}</p>`}else $('cta').style.opacity=0;
 };
 prep().then(()=>document.fonts.ready).then(()=>{window.ready=true});
 </script></body></html>

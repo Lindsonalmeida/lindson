@@ -51,8 +51,8 @@ def _respiro(rng, dur):
     u = np.linspace(0, 1, n); env = np.sin(np.pi * u) ** 1.6 * (0.6 + 0.4 * u)
     return (x * env / (np.abs(x).max() + 1e-9) * 10 ** (-34 / 20)).astype(np.float32)
 
-def _pct(v): return f'{"+" if v >= 0 else ""}{int(round(v))}%'
-def _hz(v): return f'{"+" if v >= 0 else ""}{int(round(v))}Hz'
+def _pct(v): return f'{int(round(v)):+d}%'
+def _hz(v): return f'{int(round(v)):+d}Hz'
 
 def narrar(txt, voz='pt-BR-AntonioNeural', rate=0, pitch=0, semente=0, conversa=False):
     """rate em %, pitch em Hz (valores-base do canal). conversa=True quando a fala é direta ao ouvinte (mais calorosa)."""

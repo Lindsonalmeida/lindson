@@ -1093,5 +1093,62 @@
   },
   "gravA": "082",
   "gravB": "078"
+ },
+ {
+  "id": "longo-06",
+  "titulo": "Israel pediu um rei. Foi um erro?",
+  "formato": "longo",
+  "legenda": "Por que o povo de Israel pediu um rei em 1 Samuel 8? Neste vídeo você faz a viagem de Juízes até a queda de Jerusalém: Saul, o rei da aparência; Davi, de Golias ao pecado com Bate-Seba e ao arrependimento do Salmo 51; Absalão; Salomão, o templo e o desvio; a divisão do reino e Elias no monte Carmelo.\n\nE no fim respondemos: pedir um rei foi um erro? E quem é o rei eterno prometido a Davi em 2 Samuel 7, cumprido em Jesus, o filho de Davi.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📖 Observação: os versículos aparecem em paráfrase curta, com a referência. Confira na sua tradução. O Salmo 51 é o Salmo 50 em algumas Bíblias católicas. As datas são aproximadas.\n\n🎫 Quer ler 1 e 2 Samuel e Reis sem se perder? Baixe grátis a Rota da Primeira Viagem no link da descrição, ou comente ROTA.\n\n#ReiDavi #HistóriaDeIsrael #Salmo51 #BíbliaExplicada #PassaporteDaBíblia",
+  "comentario": "📌 Saul caiu pelo orgulho, Davi pelo desejo, Salomão pela riqueza. Na sua opinião, pedir um rei foi um erro? Responde aqui e diz qual desses reis mais te ensinou alguma coisa.",
+  "capaA": {
+   "texto": "PEDIRAM UM REI",
+   "cor": "#FFB547",
+   "estilo": "clara"
+  },
+  "capaB": {
+   "texto": "FOI UM ERRO?",
+   "cor": "#3FD0D4",
+   "estilo": "clara"
+  },
+  "gravA": "036",
+  "gravB": "040"
+ },
+ {
+  "id": "longo-08",
+  "titulo": "A vida de Jesus em ordem cronológica",
+  "formato": "longo",
+  "legenda": "Você já tentou ler a vida de Jesus nos quatro Evangelhos e se perdeu na ordem dos fatos? Neste vídeo, Mateus, Marcos, Lucas e João viram uma linha do tempo simples: do nascimento em Belém à ascensão, com a referência de cada parte para você ler na sua Bíblia.\n\nVocê vai ver a infância, o batismo, a Galileia, a confissão de Pedro, a última semana, a cruz e a ressurreição. E vai entender por que os Evangelhos às vezes contam em ordens diferentes, com os pontos debatidos indicados com honestidade.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📖 Observação: os versículos aparecem em paráfrase curta, com a referência. Confira na sua tradução. A ordem dos fatos é uma harmonização didática; onde ela é debatida, o vídeo avisa.\n\n🎫 Quer ler os Evangelhos com um caminho claro? Baixe grátis a Rota da Primeira Viagem no link da descrição, ou comente ROTA.\n\n#VidaDeJesus #Evangelhos #HarmoniaDosEvangelhos #EstudoBíblico #PassaporteDaBíblia",
+  "comentario": "📌 Qual parada da vida de Jesus você quer que a gente aprofunde num vídeo só: Galileia, última semana, cruz ou ressurreição? Comente a parada.",
+  "capaA": {
+   "texto": "Jesus em ordem",
+   "cor": "#FFB547",
+   "estilo": "clara"
+  },
+  "capaB": {
+   "texto": "Qual veio primeiro?",
+   "cor": "#3FD0D4",
+   "estilo": "clara"
+  },
+  "gravA": "069",
+  "gravB": "093"
+ },
+ {
+  "id": "longo-09",
+  "titulo": "As parábolas de Jesus que incomodam até hoje",
+  "formato": "longo",
+  "legenda": "As parábolas de Jesus não foram contadas pra deixar ninguém confortável. Neste vídeo você entende o que é parábola, por que Jesus ensinava com histórias e o choque que cada uma causou em quem ouviu: o semeador, o bom samaritano, o filho pródigo e o irmão mais velho, o rico e Lázaro, o fariseu e o publicano, os trabalhadores da vinha, as dez virgens, os talentos e a ovelha perdida.\n\nNo final, você aprende um jeito simples de ler qualquer parábola da Bíblia sozinho e descobre a pergunta que cada história faz pra você hoje.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📖 Observação: os versículos aparecem em paráfrase curta, com a referência. Confira na sua tradução.\n\n🎫 Quer ler os Evangelhos com um caminho certo? Baixe grátis a Rota da Primeira Viagem no link da descrição, ou comente ROTA.\n\n#ParábolasDeJesus #FilhoPródigo #BomSamaritano #EstudoBíblico #PassaporteDaBíblia",
+  "comentario": "📌 Qual dessas parábolas mais incomodou você? E uma pergunta sincera: na história do filho pródigo, você já foi o filho que voltou ou o irmão do lado de fora?",
+  "capaA": {
+   "texto": "Ainda incomoda",
+   "cor": "#FFB547",
+   "estilo": "clara"
+  },
+  "capaB": {
+   "texto": "O irmão esquecido",
+   "cor": "#3FD0D4",
+   "estilo": "clara"
+  },
+  "gravA": "073",
+  "gravB": "075"
  }
 ]

@@ -1,0 +1,596 @@
+{
+ "id": "longo-05",
+ "formato": "longo",
+ "titulo": "O que você nunca percebeu em Gênesis",
+ "legenda": "Gênesis explicado como uma viagem: criação, queda, Caim e Abel, dilúvio, Torre de Babel, Abraão, Isaque, Jacó e José. Um resumo de Gênesis capítulo por capítulo, com os detalhes que quase ninguém percebe na primeira leitura.\n\nVocê vai seguir o fio da promessa de Gênesis 3.15 e 12.3, entender por que Deus escolhe os improváveis e descobrir a frase de Gênesis 50.20 que explica o livro inteiro.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📖 Observação: os versículos aparecem em paráfrase curta, com a referência. Confira na sua tradução.\n\n🎫 Quer ler a Bíblia com rota, sem se perder? Baixe grátis a Rota da Primeira Viagem no link da descrição, ou comente ROTA.\n\n#Gênesis #EstudoBíblico #AntigoTestamento #HistóriasDaBíblia #PassaporteDaBíblia",
+ "comentario": "📌 Qual detalhe de Gênesis você nunca tinha percebido: Babel e Abraão lado a lado, o mais novo sempre escolhido, a túnica com sangue de cabrito ou Gênesis 50.20? Comenta aqui.",
+ "titulo_tela": {
+  "sup": "PASSAPORTE DA BÍBLIA",
+  "txt": "O que ninguém<br>percebe em Gênesis",
+  "dur": 3.2
+ },
+ "capa": {
+  "A": "Ninguém percebe isso",
+  "B": "O fio escondido",
+  "gravA": "001",
+  "gravB": "007"
+ },
+ "cenas": [
+  {
+   "gravura": "001",
+   "mov": "in",
+   "txt": "Gênesis é um dos livros mais lidos da Bíblia. E talvez um dos mais mal lidos. Muita gente conhece as histórias, mas passa direto pelo que elas têm de mais estranho. Por que Deus vive escolhendo justamente quem ninguém escolheria?"
+  },
+  {
+   "gravura": "053",
+   "mov": "esq",
+   "txt": "Hoje a gente vai atravessar os cinquenta capítulos de Gênesis como uma viagem. Do jardim até um caixão no Egito. E no caminho, eu vou te mostrar coisas que quase ninguém percebe na primeira leitura."
+  },
+  {
+   "gravura": "006",
+   "mov": "out",
+   "txt": "Vou deixar três perguntas abertas, e prometo fechar cada uma até o fim. Primeira: por que a história de Babel vem colada na história de Abraão? Tem um detalhe ali que muda tudo."
+  },
+  {
+   "gravura": "016",
+   "mov": "dir",
+   "txt": "Segunda: por que, em quase todas as famílias de Gênesis, quem leva a promessa adiante não é o filho mais velho? Isso não é acaso. É um padrão, e ele se repete de geração em geração."
+  },
+  {
+   "gravura": "018",
+   "mov": "in",
+   "txt": "E terceira: existe uma frase no último capítulo do livro que explica Gênesis inteiro. Uma frase só. Quando a gente chegar nela, você nunca mais vai ler esse livro do mesmo jeito."
+  },
+  {
+   "gravura": "092",
+   "mov": "cima",
+   "txt": "Antes de sair, um combinado: presta atenção num fio que atravessa a viagem toda. É uma promessa. Ela aparece no capítulo 3, ganha força no capítulo 12 e não para mais."
+  },
+  {
+   "gravura": "001",
+   "mov": "in",
+   "txt": "Primeira parada: Gênesis 1. Antes de qualquer coisa existir, Deus já existe. E ele cria só falando. Haja luz, e houve luz. Não tem briga entre deuses, não tem caos vencendo. Tem um Deus que fala, e tudo obedece.",
+   "cap": {
+    "sup": "PARADA 1",
+    "txt": "No princípio"
+   },
+   "verso": "No princípio, Deus criou os céus e a terra.",
+   "ref": "GÊNESIS 1.1"
+  },
+  {
+   "gravura": "053",
+   "mov": "out",
+   "txt": "Repara num refrão que se repete: e Deus viu que era bom. Dia após dia, a mesma frase. E no sexto dia, depois de criar o ser humano, ela sobe de tom: era muito bom."
+  },
+  {
+   "gravura": "020",
+   "mov": "esq",
+   "txt": "O ser humano é criado à imagem de Deus, homem e mulher. Isso quer dizer que toda pessoa tem valor antes de fazer qualquer coisa. Um valor que vem de quem fez, não do que ela produz."
+  },
+  {
+   "gravura": "001",
+   "mov": "dir",
+   "txt": "Em Gênesis 2, a câmera chega mais perto. Deus forma o homem do pó da terra e sopra nele o fôlego da vida. Depois coloca ele num jardim, o Éden, pra cultivar e cuidar."
+  },
+  {
+   "gravura": "044",
+   "mov": "in",
+   "txt": "E aqui tem um detalhe que pouca gente nota. Depois de tanto era bom, aparece a primeira coisa que não é boa: não é bom que o homem esteja só. Deus fez a gente pra viver em relação."
+  },
+  {
+   "gravura": "001",
+   "mov": "cima",
+   "txt": "Então Deus forma a mulher, e o homem reage com o primeiro poema da Bíblia: esta, sim, é osso dos meus ossos. Os dois juntos, sem vergonha, perto de Deus. É assim que a história começa."
+  },
+  {
+   "gravura": "002",
+   "mov": "in",
+   "txt": "Segunda parada: Gênesis 3. Entra a serpente, e ela não começa com uma ordem. Começa com uma pergunta: é verdade que Deus disse? A queda começa com uma dúvida sobre a bondade de Deus.",
+   "cap": {
+    "sup": "PARADA 2",
+    "txt": "A queda"
+   }
+  },
+  {
+   "gravura": "024",
+   "mov": "esq",
+   "txt": "Eva come do fruto, dá ao marido, e ele come também. E o que vem logo depois? Não é poder, nem sabedoria. É vergonha. Eles percebem que estão nus e tentam se esconder."
+  },
+  {
+   "gravura": "053",
+   "mov": "out",
+   "txt": "Aí vem um momento que muita gente lê rápido demais. Deus vai atrás deles no jardim. E a primeira pergunta de Deus na Bíblia não é uma acusação. É uma procura: onde você está?",
+   "verso": "Onde você está?",
+   "ref": "GÊNESIS 3.9"
+  },
+  {
+   "gravura": "046",
+   "mov": "dir",
+   "txt": "Pensa nisso. Deus sabia onde eles estavam. A pergunta é um convite pra sair do esconderijo. Desde o começo da Bíblia, quem sai procurando não é o ser humano. É Deus."
+  },
+  {
+   "gravura": "002",
+   "mov": "in",
+   "txt": "Mas a resposta deles é empurrar a culpa. O homem culpa a mulher, e até culpa Deus: a mulher que tu me deste. A mulher culpa a serpente. Soa familiar? A gente faz isso até hoje."
+  },
+  {
+   "gravura": "020",
+   "mov": "cima",
+   "txt": "E é bem aqui, no meio da sentença, que nasce a promessa. Deus diz à serpente que um descendente da mulher ia ferir a cabeça dela, e ela ia ferir o calcanhar dele.",
+   "verso": "Ele ferirá a sua cabeça, e você ferirá o calcanhar dele.",
+   "ref": "GÊNESIS 3.15"
+  },
+  {
+   "gravura": "093",
+   "mov": "esq",
+   "txt": "Muitos cristãos, desde os primeiros séculos, chamam esse versículo de primeiro anúncio do evangelho. Um descendente vai sair ferido, mas vai vencer. Guarda essa promessa. Ela é o fio da nossa viagem."
+  },
+  {
+   "gravura": "065",
+   "mov": "in",
+   "txt": "E antes de tirar Adão e Eva do jardim, Deus faz roupas de pele pra eles. Eles tinham tentado se cobrir com folhas. Deus mesmo cobre a vergonha deles. Até no juízo, tem cuidado."
+  },
+  {
+   "gravura": "002",
+   "mov": "dir",
+   "txt": "Eles saem do Éden, e querubins com uma espada de fogo guardam o caminho de volta. Daqui pra frente, dá pra ler a Bíblia inteira como Deus abrindo um caminho de volta pra casa."
+  },
+  {
+   "gravura": "053",
+   "mov": "cima",
+   "txt": "Respira, foi muita coisa em três capítulos. Tá comigo até aqui? Se a promessa de Gênesis 3.15 ficou na sua cabeça, escreve aí nos comentários: calcanhar. Ela vai voltar no fim.",
+   "interage": {
+    "tipo": "checkin",
+    "txt": "Escreve: calcanhar"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "003",
+   "mov": "in",
+   "txt": "Terceira parada: Gênesis 4. Fora do jardim, nascem os primeiros filhos. Caim, o mais velho, trabalha a terra. Abel, o mais novo, cuida das ovelhas. Os dois levam uma oferta a Deus.",
+   "cap": {
+    "sup": "PARADA 3",
+    "txt": "Irmãos e águas"
+   }
+  },
+  {
+   "gravura": "044",
+   "mov": "esq",
+   "txt": "Deus se agrada da oferta de Abel e não da de Caim. Gênesis não explica tudo, mas a carta aos Hebreus diz que Abel ofereceu pela fé. E repara: quem é aceito é o irmão mais novo. Anota esse detalhe."
+  },
+  {
+   "gravura": "003",
+   "mov": "out",
+   "txt": "Caim fica furioso. E Deus vai conversar com ele antes do crime. Avisa que o pecado está à porta, querendo dominar, mas que Caim pode e deve dominar o pecado.",
+   "verso": "O pecado está à porta, mas você deve dominá-lo.",
+   "ref": "GÊNESIS 4.7"
+  },
+  {
+   "gravura": "046",
+   "mov": "dir",
+   "txt": "Caim não escuta. Leva o irmão pro campo e mata Abel. A primeira morte da Bíblia não é de velhice. É um irmão matando o outro. Em uma geração, a queda já entrou dentro de casa."
+  },
+  {
+   "gravura": "024",
+   "mov": "in",
+   "txt": "Deus pergunta onde está Abel, e Caim responde: por acaso eu sou guardião do meu irmão? A resposta que a Bíblia inteira vai dar é simples: sim, você é."
+  },
+  {
+   "gravura": "053",
+   "mov": "out",
+   "txt": "E mesmo assim, Deus coloca um sinal em Caim, pra que ninguém o matasse. O assassino é castigado, mas protegido. A misericórdia aparece até na pior história da família."
+  },
+  {
+   "gravura": "004",
+   "mov": "in",
+   "txt": "Os capítulos seguintes mostram a violência crescendo. Em Gênesis 6, a terra está cheia de maldade, e o texto diz que Deus se entristeceu no coração por ter feito o ser humano. Vem o dilúvio."
+  },
+  {
+   "gravura": "005",
+   "mov": "esq",
+   "txt": "Mas no meio do julgamento tem uma frase pequena e enorme: Noé achou graça aos olhos do Senhor. Antes de qualquer elogio ao Noé, o texto mostra que ele recebeu graça.",
+   "verso": "Noé achou graça aos olhos do Senhor.",
+   "ref": "GÊNESIS 6.8"
+  },
+  {
+   "gravura": "004",
+   "mov": "cima",
+   "txt": "Noé constrói a arca, entra com a família e os animais, e as águas cobrem a terra. Quando elas baixam, Noé sai num mundo lavado. É como um recomeço da criação."
+  },
+  {
+   "gravura": "093",
+   "mov": "dir",
+   "txt": "Deus faz uma aliança com Noé e com toda a vida da terra: nunca mais um dilúvio pra destruir tudo. E coloca o arco nas nuvens como sinal dessa promessa."
+  },
+  {
+   "gravura": "005",
+   "mov": "out",
+   "txt": "Só que logo depois, Gênesis conta uma cena desconfortável. Noé planta uma vinha, bebe, se embriaga e fica descoberto dentro da tenda. O herói do dilúvio também cai."
+  },
+  {
+   "gravura": "061",
+   "mov": "in",
+   "txt": "E esse é o primeiro grande segredo de Gênesis: o livro não esconde os defeitos dos seus heróis. Ninguém aqui é perfeito. O único que nunca falha nessa história inteira é Deus."
+  },
+  {
+   "gravura": "006",
+   "mov": "in",
+   "txt": "Quarta parada: Gênesis 11, a Torre de Babel. Os povos se juntam numa planície e decidem construir uma cidade com uma torre que chegasse até o céu.",
+   "cap": {
+    "sup": "PARADA 4",
+    "txt": "A torre"
+   }
+  },
+  {
+   "gravura": "053",
+   "mov": "esq",
+   "txt": "E o texto diz o motivo com todas as letras. Eles queriam fazer um nome pra si mesmos e não ser espalhados pela terra. Guarda bem essa expressão: fazer um nome.",
+   "verso": "Vamos construir uma torre e fazer um nome para nós.",
+   "ref": "GÊNESIS 11.4"
+  },
+  {
+   "gravura": "006",
+   "mov": "out",
+   "txt": "Aí vem uma ironia deliciosa. O texto diz que Deus desceu pra ver a torre. Eles achavam que estavam chegando no céu, e Deus precisou descer pra enxergar. Ele confunde as línguas, e a obra para."
+  },
+  {
+   "gravura": "020",
+   "mov": "dir",
+   "txt": "Babel termina com a humanidade espalhada e dividida. Onze capítulos, e o quadro é triste: jardim perdido, irmão morto, dilúvio, torre abandonada. Dá vontade de perguntar: acabou? É exatamente aqui que tudo vira."
+  },
+  {
+   "gravura": "092",
+   "mov": "in",
+   "txt": "Pausa rápida na viagem. Se você quer ler Gênesis e o resto da Bíblia sem se perder no caminho, eu preparei a Rota da Primeira Viagem, grátis. Comenta ROTA ou pega no link da descrição.",
+   "cta": "Comenta <b>ROTA</b><br>e receba a rota grátis"
+  },
+  {
+   "gravura": "007",
+   "mov": "in",
+   "txt": "Quinta parada: Gênesis 12. E agora eu fecho a primeira pergunta. Logo depois de Babel, Deus chama um homem, Abrão, e faz uma promessa a ele. Escuta com atenção o começo dessa promessa.",
+   "cap": {
+    "sup": "PARADA 5",
+    "txt": "O chamado"
+   }
+  },
+  {
+   "gravura": "053",
+   "mov": "cima",
+   "txt": "Deus diz: eu vou fazer de você uma grande nação, e vou engrandecer o seu nome. Percebeu? Em Babel, o povo queria fazer um nome pra si mesmo. Aqui, Deus dá o nome de presente.",
+   "verso": "Farei de você uma grande nação e engrandecerei o seu nome.",
+   "ref": "GÊNESIS 12.2"
+  },
+  {
+   "gravura": "044",
+   "mov": "esq",
+   "txt": "Essa é a resposta da primeira pergunta. Babel é o ser humano tentando subir até Deus pela própria força. Abraão é Deus descendo e escolhendo alguém por graça. Os dois capítulos estão lado a lado de propósito."
+  },
+  {
+   "gravura": "007",
+   "mov": "out",
+   "txt": "E a promessa não para em Abraão. Deus diz: em você serão abençoadas todas as famílias da terra. Os povos que se espalharam em Babel vão ser alcançados pela família de Abraão.",
+   "verso": "Em você serão benditas todas as famílias da terra.",
+   "ref": "GÊNESIS 12.3"
+  },
+  {
+   "gravura": "061",
+   "mov": "dir",
+   "txt": "Agora junta com Gênesis 3.15. Lá, a promessa era um descendente da mulher. Aqui, ela ganha endereço: vai vir da família de Abraão. O fio da viagem acabou de ficar mais forte."
+  },
+  {
+   "gravura": "053",
+   "mov": "in",
+   "txt": "E quem é Abraão quando recebe isso? Um homem de setenta e cinco anos, casado com Sara, que não podia ter filhos. Deus promete uma nação a um casal sem filhos. Primeira escolha improvável dessa família."
+  },
+  {
+   "gravura": "093",
+   "mov": "esq",
+   "txt": "Numa noite, Deus leva Abraão pra fora da tenda e diz: olha pro céu e conta as estrelas, se conseguir. Assim vai ser a sua descendência. E Abraão creu.",
+   "verso": "Abrão creu no Senhor, e isso lhe foi atribuído como justiça.",
+   "ref": "GÊNESIS 15.6"
+  },
+  {
+   "gravura": "065",
+   "mov": "out",
+   "txt": "Mas Abraão também tropeça. Com medo, ele diz no Egito que Sara é só irmã dele. E anos depois repete a mesma mentira em outro lugar. O pai da fé teve medo, e mais de uma vez."
+  },
+  {
+   "gravura": "009",
+   "mov": "dir",
+   "txt": "Cansados de esperar, Sara e Abraão tentam resolver do jeito deles. Sara entrega a serva egípcia, Agar, a Abraão, e ela engravida. A casa vira um lugar de ciúme e humilhação."
+  },
+  {
+   "gravura": "010",
+   "mov": "in",
+   "txt": "Maltratada, Agar foge pro deserto, grávida e sozinha. E ali Deus vai ao encontro dela. Uma estrangeira, uma serva, fora da família escolhida. E ela dá um nome a Deus: o Deus que me vê.",
+   "verso": "Tu és o Deus que me vê.",
+   "ref": "GÊNESIS 16.13"
+  },
+  {
+   "gravura": "024",
+   "mov": "out",
+   "txt": "Isso quase ninguém comenta. Repara quem dá esse nome a Deus: uma mulher escrava, longe de casa, que todo mundo ignorava. Se você está se sentindo invisível hoje, essa parte da viagem é pra você."
+  },
+  {
+   "gravura": "092",
+   "mov": "esq",
+   "txt": "Me conta aqui nos comentários: qual pessoa improvável de Gênesis mais te marcou até agora? Abel, Noé, Agar ou o próprio Abraão? Eu leio as respostas, de verdade.",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "Quem mais te marcou?"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "007",
+   "mov": "cima",
+   "txt": "Anos depois, três visitantes chegam à tenda de Abraão e anunciam: daqui a um ano, Sara vai ter um filho. Sara escuta escondida atrás da tenda e ri. Ela já era idosa."
+  },
+  {
+   "gravura": "008",
+   "mov": "in",
+   "txt": "Nesse mesmo trecho, Abraão intercede por Sodoma. A cidade é destruída, mas Ló e a família escapam, e o texto diz que Deus se lembrou de Abraão. O homem da promessa já está sendo bênção pros outros."
+  },
+  {
+   "gravura": "005",
+   "mov": "out",
+   "txt": "E o filho nasce: Isaque, um nome ligado a riso. Sara diz que Deus a fez rir. O riso de dúvida virou riso de alegria. Deus fez o que nenhum médico faria."
+  },
+  {
+   "gravura": "011",
+   "mov": "in",
+   "txt": "Sexta parada: Gênesis 22. Deus pede a Abraão o filho da promessa, Isaque, em sacrifício num monte na região de Moriá. É um dos capítulos mais difíceis da Bíblia, e o texto não esconde isso.",
+   "cap": {
+    "sup": "PARADA 6",
+    "txt": "O monte e o poço"
+   }
+  },
+  {
+   "gravura": "053",
+   "mov": "esq",
+   "txt": "No caminho, Isaque carrega a lenha e pergunta: pai, onde está o cordeiro? E Abraão responde: Deus mesmo vai providenciar o cordeiro, meu filho."
+  },
+  {
+   "gravura": "011",
+   "mov": "out",
+   "txt": "No alto do monte, Deus segura a mão de Abraão e providencia um carneiro preso pelos chifres no mato. Abraão chama o lugar de: o Senhor proverá.",
+   "verso": "No monte do Senhor se proverá.",
+   "ref": "GÊNESIS 22.14"
+  },
+  {
+   "gravura": "088",
+   "mov": "dir",
+   "txt": "Muitos cristãos leem essa cena como uma sombra do que viria: um pai, um filho amado, um monte, lenha nas costas e um substituto no lugar. Existem leituras diferentes dos detalhes, mas o eco é forte."
+  },
+  {
+   "gravura": "012",
+   "mov": "in",
+   "txt": "Sara morre, e Abraão compra uma caverna pra sepultar a esposa. Repara: o primeiro pedaço da terra prometida que Abraão possui é um túmulo. Ele morre crendo numa promessa que ainda não tinha visto."
+  },
+  {
+   "gravura": "013",
+   "mov": "cima",
+   "txt": "E Isaque? Abraão manda o servo buscar uma esposa pra ele. Junto ao poço, o servo ora, e Rebeca aparece oferecendo água pra ele e até pros camelos. Deus guiando nos detalhes."
+  },
+  {
+   "gravura": "061",
+   "mov": "esq",
+   "txt": "Isaque é o patriarca mais quieto de Gênesis. Ele quase não tem histórias só dele. Mas repara: Rebeca também não podia ter filhos, e Isaque orou por ela. De novo, a promessa depende de um milagre."
+  },
+  {
+   "gravura": "014",
+   "mov": "out",
+   "txt": "E Isaque repete até o erro do pai: com medo, diz que Rebeca é irmã dele. Pai e filho caindo no mesmo padrão. Gênesis é muito honesto sobre o que passa de geração em geração numa família."
+  },
+  {
+   "gravura": "092",
+   "mov": "in",
+   "txt": "Se essa ideia de Deus escolher os improváveis falou com você, salva esse vídeo. Vale ouvir de novo no dia em que você se achar pequeno demais pra Deus usar.",
+   "interage": {
+    "tipo": "salva",
+    "txt": "Salva pro dia difícil"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "014",
+   "mov": "in",
+   "txt": "Sétima parada: Jacó. Rebeca tem gêmeos. Esaú nasce primeiro, e Jacó nasce segurando o calcanhar do irmão. Antes do parto, Deus já tinha dito a ela: o mais velho vai servir ao mais novo.",
+   "cap": {
+    "sup": "PARADA 7",
+    "txt": "O enganador"
+   }
+  },
+  {
+   "gravura": "044",
+   "mov": "esq",
+   "txt": "Lembra da segunda pergunta? Abel aceito no lugar de Caim. Isaque, e não Ismael. Agora Jacó, e não Esaú. Já são três vezes o mais novo na frente. E ainda não acabou."
+  },
+  {
+   "gravura": "005",
+   "mov": "out",
+   "txt": "E Jacó não é nenhum santinho. Compra o direito de primogênito de Esaú por um prato de comida. Depois, com a ajuda da mãe, se cobre com pele de cabrito pra enganar o pai, que já não enxergava."
+  },
+  {
+   "gravura": "014",
+   "mov": "dir",
+   "txt": "Isaque, velho e cego, abençoa Jacó pensando que era Esaú. Quando Esaú descobre, chora alto e jura matar o irmão. E Jacó foge de casa, com a bênção e com a culpa."
+  },
+  {
+   "gravura": "053",
+   "mov": "in",
+   "txt": "Sozinho, dormindo com uma pedra de travesseiro, Jacó sonha com uma escada entre a terra e o céu. E Deus repete pra ele a promessa feita a Abraão. Pro enganador. Sem cobrar nada antes."
+  },
+  {
+   "gravura": "015",
+   "mov": "esq",
+   "txt": "Jacó chega à terra do tio Labão e se apaixona por Raquel, junto ao poço. Trabalha sete anos por ela. E na noite do casamento, recebe Lia no lugar. O enganador foi enganado."
+  },
+  {
+   "gravura": "024",
+   "mov": "out",
+   "txt": "Daí nasce uma família cheia de rivalidade. Duas irmãs disputando o mesmo marido, filhos com nomes que contam a dor da mãe. Mas o texto diz que o Senhor viu que Lia era desprezada."
+  },
+  {
+   "gravura": "093",
+   "mov": "cima",
+   "txt": "E aqui tem um detalhe lindo. É de Lia, a esposa menos amada, que nascem Levi, de onde vêm os sacerdotes, e Judá, de onde vai sair o rei Davi. E, segundo Mateus, o próprio Jesus."
+  },
+  {
+   "gravura": "046",
+   "mov": "in",
+   "txt": "Anos depois, voltando pra casa com medo de Esaú, Jacó passa a noite lutando com um homem misterioso até o amanhecer. E não solta: só te deixo ir se você me abençoar."
+  },
+  {
+   "gravura": "044",
+   "mov": "dir",
+   "txt": "Jacó sai dali mancando e com nome novo: Israel. O homem que vivia agarrando as coisas aprende a se agarrar a Deus. E esse nome vai virar o nome de um povo inteiro.",
+   "verso": "Seu nome não será mais Jacó, mas Israel.",
+   "ref": "GÊNESIS 32.28"
+  },
+  {
+   "gravura": "005",
+   "mov": "out",
+   "txt": "E quando ele finalmente encontra Esaú, o irmão corre, abraça e chora com ele. A reconciliação que ninguém esperava. Gênesis tem muita ferida de família, mas também tem cura de família."
+  },
+  {
+   "gravura": "061",
+   "mov": "in",
+   "txt": "Pausa pra respirar. Já foram sete paradas e quatro gerações de gente complicada. Tá conseguindo acompanhar? Se tá, comenta: Israel. Porque agora vem a parte mais bonita do livro.",
+   "interage": {
+    "tipo": "checkin",
+    "txt": "Comenta: Israel"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "016",
+   "mov": "in",
+   "txt": "Oitava parada: José, o filho preferido de Jacó, com a túnica especial que o pai deu só pra ele. O mesmo favoritismo que rachou a geração anterior volta a ferir a casa.",
+   "cap": {
+    "sup": "PARADA 8",
+    "txt": "O sonhador"
+   }
+  },
+  {
+   "gravura": "053",
+   "mov": "esq",
+   "txt": "José sonha que os irmãos se curvam diante dele, e conta os sonhos. Os irmãos odeiam. No campo, jogam José numa cisterna e depois vendem o próprio irmão como escravo pra uma caravana."
+  },
+  {
+   "gravura": "016",
+   "mov": "out",
+   "txt": "E aí vem um detalhe que quase ninguém nota. Pra enganar o pai, eles mancham a túnica com sangue de cabrito. Jacó enganou o pai com pele de cabrito. Agora é enganado com sangue de cabrito."
+  },
+  {
+   "gravura": "044",
+   "mov": "dir",
+   "txt": "No Egito, José serve na casa de Potifar, é acusado injustamente pela mulher dele e vai parar na prisão. Fazendo tudo certo, ele só afunda mais. Mas o texto repete: o Senhor estava com José."
+  },
+  {
+   "gravura": "018",
+   "mov": "in",
+   "txt": "Na prisão, ele interpreta sonhos. Até que o faraó tem um sonho que ninguém entende, e José é chamado. Sete anos de fartura, sete de fome. Aos trinta anos, José vira governador do Egito."
+  },
+  {
+   "gravura": "092",
+   "mov": "cima",
+   "txt": "Se você está enxergando mais em Gênesis agora do que em anos de leitura, segue o canal. Porque o que vem agora é a frase que explica o livro inteiro.",
+   "interage": {
+    "tipo": "segue",
+    "txt": "Segue pra próxima viagem"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "017",
+   "mov": "esq",
+   "txt": "Chega a fome, e os irmãos de José descem ao Egito pra comprar comida. E se curvam diante dele, sem reconhecer. O sonho se cumpre. Mas José não se vinga. Ele testa os irmãos."
+  },
+  {
+   "gravura": "053",
+   "mov": "out",
+   "txt": "E o teste revela uma mudança. Judá, o irmão que deu a ideia de vender José, agora se oferece pra ficar como escravo no lugar do caçula, Benjamim, pra não partir o coração do pai."
+  },
+  {
+   "gravura": "017",
+   "mov": "in",
+   "txt": "José não aguenta. Manda todo mundo sair, chora tão alto que os egípcios escutam e diz: eu sou José, o irmão que vocês venderam. Não fiquem com medo. Foi Deus quem me mandou na frente pra preservar vidas."
+  },
+  {
+   "gravura": "014",
+   "mov": "dir",
+   "txt": "Jacó desce ao Egito e reencontra o filho que dava por morto. Antes de morrer, ele abençoa os netos, Efraim e Manassés. E cruza os braços: coloca a mão direita sobre o mais novo."
+  },
+  {
+   "gravura": "044",
+   "mov": "cima",
+   "txt": "E assim eu fecho a segunda pergunta. Abel, Isaque, Jacó, José, Efraim. Geração após geração, Deus olha pra quem estava atrás na fila. A promessa não segue a ordem de nascimento nem o mérito. Segue a graça."
+  },
+  {
+   "gravura": "018",
+   "mov": "in",
+   "txt": "E agora a terceira. Depois que Jacó morre, os irmãos ficam com medo: e se José se vingar agora que o pai se foi? E José responde com a frase que resume Gênesis inteiro."
+  },
+  {
+   "gravura": "053",
+   "mov": "out",
+   "txt": "Vocês planejaram o mal contra mim, mas Deus transformou isso em bem, pra salvar muitas vidas. Repara: José não diz que o mal foi pequeno. Ele diz que Deus foi maior.",
+   "verso": "Vocês planejaram o mal, mas Deus o transformou em bem.",
+   "ref": "GÊNESIS 50.20"
+  },
+  {
+   "gravura": "061",
+   "mov": "esq",
+   "txt": "Relê Gênesis com essa frase na mão. A queda, o crime de Caim, a confusão de Babel, as mentiras, as rivalidades. Deus nunca aprova o mal. Mas ele não deixa o mal ter a última palavra."
+  },
+  {
+   "gravura": "065",
+   "mov": "in",
+   "txt": "E você? Tem alguma situação da sua vida que hoje você já consegue olhar e dizer: Deus transformou em bem? Se quiser, conta nos comentários. Pode ser só uma palavra.",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "Deus transformou em bem?"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "012",
+   "mov": "dir",
+   "txt": "Gênesis termina de um jeito estranho. José morre e é colocado num caixão no Egito. O livro que começou num jardim termina num caixão, longe da terra prometida."
+  },
+  {
+   "gravura": "020",
+   "mov": "in",
+   "txt": "Só que, antes de morrer, José faz um pedido: quando Deus visitar vocês, levem os meus ossos daqui. Até no fim, ele aponta pra frente. A promessa continua viva."
+  },
+  {
+   "gravura": "091",
+   "mov": "out",
+   "txt": "E o fio da promessa atravessa a Bíblia toda: o descendente da mulher, da família de Abraão, da tribo de Judá. Para os cristãos, ele chega em Jesus, ferido no calcanhar e vencedor sobre a serpente."
+  },
+  {
+   "gravura": "057",
+   "mov": "cima",
+   "txt": "Então, quando você abrir Gênesis de novo, procura três coisas: o fio da promessa, Deus escolhendo os improváveis e o bem que Deus tira até do mal. O livro vira outro."
+  },
+  {
+   "gravura": "028",
+   "mov": "in",
+   "txt": "Conhece alguém que acha que a própria família é complicada demais pra Deus? Manda esse vídeo pra essa pessoa. Gênesis é a prova de que Deus trabalha justamente aí.",
+   "interage": {
+    "tipo": "manda",
+    "txt": "Manda pra quem precisa ouvir"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "092",
+   "mov": "out",
+   "txt": "No próximo vídeo, a viagem continua em Êxodo, com Moisés e a saída do Egito, e aqueles ossos de José finalmente vão pegar a estrada. Até a próxima parada, viajante da Palavra.",
+   "cta": "Até a próxima <b>parada</b>,<br>viajante",
+   "selo": "PASSA<br>PORTE"
+  }
+ ]
+}

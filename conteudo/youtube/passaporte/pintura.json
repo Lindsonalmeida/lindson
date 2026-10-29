@@ -2939,5 +2939,1787 @@
     "selo": "PASSA<br>PORTE"
    }
   ]
+ },
+ {
+  "id": "longo-06",
+  "formato": "longo",
+  "titulo": "Israel pediu um rei. Foi um erro?",
+  "legenda": "Por que o povo de Israel pediu um rei em 1 Samuel 8? Neste vídeo você faz a viagem de Juízes até a queda de Jerusalém: Saul, o rei da aparência; Davi, de Golias ao pecado com Bate-Seba e ao arrependimento do Salmo 51; Absalão; Salomão, o templo e o desvio; a divisão do reino e Elias no monte Carmelo.\n\nE no fim respondemos: pedir um rei foi um erro? E quem é o rei eterno prometido a Davi em 2 Samuel 7, cumprido em Jesus, o filho de Davi.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📖 Observação: os versículos aparecem em paráfrase curta, com a referência. Confira na sua tradução. O Salmo 51 é o Salmo 50 em algumas Bíblias católicas. As datas são aproximadas.\n\n🎫 Quer ler 1 e 2 Samuel e Reis sem se perder? Baixe grátis a Rota da Primeira Viagem no link da descrição, ou comente ROTA.\n\n#ReiDavi #HistóriaDeIsrael #Salmo51 #BíbliaExplicada #PassaporteDaBíblia",
+  "comentario": "📌 Saul caiu pelo orgulho, Davi pelo desejo, Salomão pela riqueza. Na sua opinião, pedir um rei foi um erro? Responde aqui e diz qual desses reis mais te ensinou alguma coisa.",
+  "titulo_tela": {
+   "sup": "PASSAPORTE DA BÍBLIA",
+   "txt": "Israel pediu<br>um rei",
+   "dur": 3.2
+  },
+  "cenas": [
+   {
+    "gravura": "031",
+    "mov": "in",
+    "txt": "Um rei atirou uma lança no jovem que mais o servia. Outro rei mandou matar um soldado leal pra esconder um pecado. E foi o próprio povo de Deus que pediu reis assim. Foi um erro?"
+   },
+   {
+    "gravura": "036",
+    "mov": "out",
+    "txt": "Hoje a gente vai atravessar séculos de história em uma viagem só: de Juízes até a queda de Jerusalém. Saul, Davi, Salomão, Elias e o fim dos reinos."
+   },
+   {
+    "gravura": "053",
+    "mov": "esq",
+    "txt": "E eu vou te deixar três perguntas pra carregar na mochila. Primeira: pedir um rei foi um erro? A Bíblia responde, mas a resposta não é tão simples quanto parece."
+   },
+   {
+    "gravura": "034",
+    "mov": "dir",
+    "txt": "Segunda: como o homem chamado de segundo o coração de Deus caiu em adultério e assassinato, e mesmo assim não foi rejeitado como o rei anterior? Isso tem a ver com você."
+   },
+   {
+    "gravura": "043",
+    "mov": "cima",
+    "txt": "E terceira: no meio dessa história toda, Deus faz uma promessa a Davi sobre um rei que vai reinar pra sempre. Quem é esse rei? Fica comigo até o fim que você vai ver."
+   },
+   {
+    "gravura": "022",
+    "mov": "in",
+    "txt": "Primeira parada: o tempo dos Juízes. O povo já está na terra prometida, mas vive num ciclo cansativo. Esquece Deus, sofre nas mãos dos inimigos, clama por socorro, e Deus levanta um libertador.",
+    "cap": {
+     "sup": "PARADA 1",
+     "txt": "Sem rei em Israel"
+    }
+   },
+   {
+    "gravura": "021",
+    "mov": "esq",
+    "txt": "Débora, Gideão, Jael, Jefté. Cada geração tem o seu herói. Só que, quando o herói morre, o povo volta pro mesmo lugar. É um vai e volta que parece não ter fim."
+   },
+   {
+    "gravura": "025",
+    "mov": "out",
+    "txt": "Até o mais forte de todos, Sansão, que matou um leão com as mãos, era um homem dividido. Tinha uma força enorme por fora e muita fraqueza por dentro."
+   },
+   {
+    "gravura": "027",
+    "mov": "in",
+    "txt": "E o livro de Juízes termina com uma frase que resume o caos daquele tempo. Ela aparece mais de uma vez no final do livro, como um alarme tocando.",
+    "verso": "Não havia rei em Israel; cada um fazia o que achava certo.",
+    "ref": "JUÍZES 21.25"
+   },
+   {
+    "gravura": "029",
+    "mov": "cima",
+    "txt": "No meio dessa bagunça, tem uma luz: Rute, a estrangeira leal que trabalha no campo de Boaz. A história dela termina com um nome que vai mudar tudo: Davi, o bisneto dela."
+   },
+   {
+    "gravura": "030",
+    "mov": "out",
+    "txt": "Depois vem Samuel, o último juiz e também profeta. Ele guia o povo a vida inteira. Mas ele envelhece, e os filhos dele não seguem o mesmo caminho."
+   },
+   {
+    "gravura": "037",
+    "mov": "esq",
+    "txt": "A Bíblia diz que os filhos de Samuel aceitavam suborno e torciam a justiça. Aí os líderes de Israel se reúnem e fazem o pedido que muda a história do povo."
+   },
+   {
+    "gravura": "024",
+    "mov": "in",
+    "txt": "Eles dizem: dá pra nós um rei que nos governe, como todas as outras nações têm. Repara nessa expressão. Como todas as nações. Ela é a chave do capítulo inteiro."
+   },
+   {
+    "gravura": "044",
+    "mov": "dir",
+    "txt": "Samuel fica triste. Ele leva o pedido a Deus em oração. E a resposta de Deus é surpreendente, porque ela mostra o que estava escondido por trás daquele pedido.",
+    "verso": "Não foi a você que rejeitaram, mas a mim, para que eu não reine sobre eles.",
+    "ref": "1 SAMUEL 8.7"
+   },
+   {
+    "gravura": "043",
+    "mov": "out",
+    "txt": "Mesmo assim, Deus manda Samuel atender o povo. Mas antes, Samuel avisa: esse rei vai tomar seus filhos pro exército, suas filhas pro palácio, seus melhores campos e a décima parte de tudo."
+   },
+   {
+    "gravura": "024",
+    "mov": "cima",
+    "txt": "E o povo responde: não, nós queremos um rei. Queremos ser como as outras nações. Queremos alguém que lute as nossas guerras. Eles já tinham quem lutasse por eles."
+   },
+   {
+    "gravura": "053",
+    "mov": "in",
+    "txt": "Tá comigo até aqui? Então segura essa: o problema não era só ter um rei. Era o motivo. Me conta nos comentários se você já pediu algo a Deus só pra ser igual a todo mundo.",
+    "interage": {
+     "tipo": "checkin",
+     "txt": "Já pediu pra ser igual?"
+    }
+   },
+   {
+    "gravura": "032",
+    "mov": "esq",
+    "txt": "Segunda parada: Saul. Ele é da tribo de Benjamim, bonito, e a Bíblia diz que era mais alto que todo mundo, dos ombros pra cima. Ele parecia exatamente o rei que o povo queria.",
+    "cap": {
+     "sup": "PARADA 2",
+     "txt": "Saul, o rei da aparência"
+    }
+   },
+   {
+    "gravura": "035",
+    "mov": "dir",
+    "txt": "No dia de ser apresentado ao povo, ninguém acha Saul. Ele estava escondido no meio da bagagem. Começa humilde, quase com medo do tamanho da missão."
+   },
+   {
+    "gravura": "030",
+    "mov": "cima",
+    "txt": "Mas logo vem a primeira rachadura. Antes de uma batalha contra os filisteus, Saul não espera Samuel chegar e oferece o sacrifício ele mesmo. Ficou com medo de o povo ir embora."
+   },
+   {
+    "gravura": "033",
+    "mov": "esq",
+    "txt": "Depois, Deus manda Saul destruir Amaleque por completo. Saul vence, mas guarda o rei Agague vivo e o melhor do gado. E ainda diz que foi o povo que quis."
+   },
+   {
+    "gravura": "047",
+    "mov": "out",
+    "txt": "É aí que Samuel fala uma das frases mais fortes do Antigo Testamento. Deus não queria um show de religião. Queria um coração que obedece.",
+    "verso": "Obedecer é melhor do que sacrificar.",
+    "ref": "1 SAMUEL 15.22"
+   },
+   {
+    "gravura": "044",
+    "mov": "dir",
+    "txt": "Saul até diz: pequei. Mas logo pede a Samuel que o honre diante dos líderes do povo. Guarda esse detalhe, porque ele vai responder a nossa segunda pergunta lá na frente."
+   },
+   {
+    "gravura": "031",
+    "mov": "in",
+    "txt": "Saul é rejeitado como rei. Daqui pra frente, ele vai ficando cada vez mais inseguro, desconfiado e ciumento. E o alvo desse ciúme vai ser um menino pastor."
+   },
+   {
+    "gravura": "015",
+    "mov": "out",
+    "txt": "Terceira parada: Davi. Deus manda Samuel à casa de Jessé, em Belém. Os filhos passam um por um. O mais velho é alto e bonito, e Samuel pensa: é esse.",
+    "cap": {
+     "sup": "PARADA 3",
+     "txt": "Davi, o menino das ovelhas"
+    }
+   },
+   {
+    "gravura": "053",
+    "mov": "cima",
+    "txt": "Mas Deus diz não. E fala uma frase que vale pra sua vida também, principalmente nos dias em que você se sente pequeno demais.",
+    "verso": "O homem vê a aparência, mas o Senhor vê o coração.",
+    "ref": "1 SAMUEL 16.7"
+   },
+   {
+    "gravura": "036",
+    "mov": "in",
+    "txt": "Nenhum dos filhos presentes é o escolhido. Falta o caçula, que estava cuidando das ovelhas. Ninguém nem lembrou de chamar. É ele que Samuel unge com azeite."
+   },
+   {
+    "gravura": "020",
+    "mov": "esq",
+    "txt": "Pouco tempo depois, o gigante filisteu Golias desafia Israel. O exército inteiro treme, inclusive o rei mais alto do povo. E quem enfrenta o gigante é o menino."
+   },
+   {
+    "gravura": "038",
+    "mov": "dir",
+    "txt": "Davi vai sem armadura, com um cajado, uma funda e pedras lisas do riacho. Ele diz que a batalha pertence ao Senhor. Uma pedra, e o gigante cai."
+   },
+   {
+    "gravura": "031",
+    "mov": "in",
+    "txt": "E aqui entra a cena que abriu o nosso vídeo. Davi toca harpa pra acalmar o rei, e Saul atira a lança pra prender o rapaz na parede. Davi desvia e foge."
+   },
+   {
+    "gravura": "032",
+    "mov": "cima",
+    "txt": "Davi vira fugitivo por anos. Um dia, numa caverna no deserto de En-Gedi, Saul entra sozinho, sem saber que Davi estava escondido lá no fundo."
+   },
+   {
+    "gravura": "053",
+    "mov": "esq",
+    "txt": "Os homens de Davi dizem: é a sua chance. Davi só corta a ponta do manto do rei. E ainda sente o coração pesar por isso. Ele não toca no ungido do Senhor."
+   },
+   {
+    "gravura": "033",
+    "mov": "dir",
+    "txt": "Saul morre numa batalha contra os filisteus, no monte Gilboa, junto com Jônatas, o melhor amigo de Davi. E Davi não comemora. Ele chora pelos dois e compõe um lamento."
+   },
+   {
+    "gravura": "036",
+    "mov": "out",
+    "txt": "Davi é ungido rei primeiro sobre Judá, em Hebrom, e depois sobre todo Israel. A Bíblia diz que ele reinou quarenta anos: sete e meio em Hebrom e trinta e três em Jerusalém."
+   },
+   {
+    "gravura": "049",
+    "mov": "in",
+    "txt": "Ele conquista Jerusalém e faz dela a capital. Isso foi por volta do ano mil antes de Cristo. Depois leva a arca da aliança pra cidade, dançando com todas as forças diante do Senhor."
+   },
+   {
+    "gravura": "047",
+    "mov": "dir",
+    "txt": "Davi quer construir uma casa pra Deus. Mas o profeta Natã traz uma resposta que vira tudo de cabeça pra baixo: não é você que vai construir uma casa pra mim. Eu é que vou construir uma casa pra você."
+   },
+   {
+    "gravura": "036",
+    "mov": "cima",
+    "txt": "Casa aqui quer dizer família, dinastia. Deus promete que um descendente de Davi vai construir o templo, e mais: que o trono dessa família vai durar pra sempre.",
+    "verso": "O seu trono será firme para sempre.",
+    "ref": "2 SAMUEL 7.16"
+   },
+   {
+    "gravura": "053",
+    "mov": "out",
+    "txt": "Guarda essa promessa. Ela é a nossa terceira pergunta. Porque, como você vai ver, nenhum rei dessa história consegue ser esse rei eterno. Nem o próprio Davi."
+   },
+   {
+    "gravura": "029",
+    "mov": "in",
+    "txt": "Pausa rápida na viagem. Se você quer ler essas histórias na própria Bíblia sem se perder, eu preparei a Rota da Primeira Viagem, grátis. Comenta ROTA ou pega no link da descrição.",
+    "cta": "Comenta <b>ROTA</b><br>e receba a rota grátis"
+   },
+   {
+    "gravura": "043",
+    "mov": "in",
+    "txt": "Quarta parada: a queda de Davi. É primavera, a época em que os reis saem pra guerra. Mas Davi manda o exército e fica em Jerusalém.",
+    "cap": {
+     "sup": "PARADA 4",
+     "txt": "O rei que caiu"
+    }
+   },
+   {
+    "gravura": "035",
+    "mov": "esq",
+    "txt": "Uma tarde, do terraço do palácio, ele vê uma mulher muito bonita tomando banho. Pergunta quem é. É Bate-Seba, esposa de Urias, um dos seus soldados mais leais."
+   },
+   {
+    "gravura": "021",
+    "mov": "out",
+    "txt": "Davi manda buscá-la e se deita com ela. Pouco depois, ela manda um recado curto: estou grávida. E aqui o rei tinha duas saídas: confessar ou esconder."
+   },
+   {
+    "gravura": "033",
+    "mov": "in",
+    "txt": "Davi tenta esconder o pecado, mas Urias é leal demais e não vai pra casa. Então Davi escreve ao comandante Joabe: coloquem Urias na frente da batalha mais dura e recuem."
+   },
+   {
+    "gravura": "044",
+    "mov": "cima",
+    "txt": "Urias morre. Davi se casa com Bate-Seba. Ninguém ficou sabendo, ele achava. Mas a Bíblia fecha o capítulo com uma frase seca: o que Davi fez desagradou ao Senhor."
+   },
+   {
+    "gravura": "047",
+    "mov": "esq",
+    "txt": "Deus manda Natã de novo. E Natã conta uma história: um homem rico, com muitos rebanhos, recebe uma visita e, em vez de usar uma ovelha sua, toma a única ovelhinha de um pobre."
+   },
+   {
+    "gravura": "036",
+    "mov": "out",
+    "txt": "Davi fica furioso: esse homem merece morrer! E Natã olha pra ele e diz quatro palavras que atravessam qualquer desculpa.",
+    "verso": "Você é esse homem.",
+    "ref": "2 SAMUEL 12.7"
+   },
+   {
+    "gravura": "044",
+    "mov": "dir",
+    "txt": "Respira. Isso pesa, né? O mesmo homem que poupou Saul na caverna agora tirou a vida de um inocente. Ninguém está acima da queda. Nem o melhor rei de Israel.",
+    "interage": {
+     "tipo": "checkin",
+     "txt": "Respira, isso pesa"
+    }
+   },
+   {
+    "gravura": "053",
+    "mov": "in",
+    "txt": "E agora vem a resposta da nossa segunda pergunta. Davi não culpa ninguém. Não fala do povo, não fala da mulher, não fala da guerra. Ele diz só isto: pequei contra o Senhor."
+   },
+   {
+    "gravura": "031",
+    "mov": "esq",
+    "txt": "Lembra de Saul? Ele também disse pequei, mas jogou a culpa no povo e logo pediu honra diante dos líderes. Estava preocupado com a imagem. Davi estava preocupado com Deus."
+   },
+   {
+    "gravura": "047",
+    "mov": "out",
+    "txt": "Natã responde: o Senhor perdoou o seu pecado. Você não vai morrer. Mas as consequências ficam. A espada não vai se afastar da sua casa, e o filho daquela gravidez morre."
+   },
+   {
+    "gravura": "046",
+    "mov": "cima",
+    "txt": "Dessa noite nasce o Salmo 51, que em algumas Bíblias católicas é o Salmo 50. O próprio título diz que ele foi escrito quando Natã foi falar com Davi."
+   },
+   {
+    "gravura": "044",
+    "mov": "in",
+    "txt": "Ele não pede pra Deus limpar a reputação dele. Pede um coração novo. É talvez a oração de arrependimento mais conhecida da Bíblia.",
+    "verso": "Cria em mim, ó Deus, um coração puro.",
+    "ref": "SALMO 51.10"
+   },
+   {
+    "gravura": "036",
+    "mov": "out",
+    "txt": "Se essa parte falou com você, segue o canal agora. Toda semana a gente faz uma viagem assim pela Bíblia, com calma e sem complicar.",
+    "interage": {
+     "tipo": "segue",
+     "txt": "Segue pra próxima viagem"
+    }
+   },
+   {
+    "gravura": "046",
+    "mov": "in",
+    "txt": "E salva este vídeo. Num dia em que você errar feio, volta neste trecho e reza o Salmo 51 junto com Davi. Ele foi escrito pra dias assim.",
+    "interage": {
+     "tipo": "salva",
+     "txt": "Salva pro dia difícil"
+    }
+   },
+   {
+    "gravura": "035",
+    "mov": "esq",
+    "txt": "Quinta parada: Absalão. A espada que Natã anunciou entra na casa de Davi. Um filho, Amnom, violenta a própria meia-irmã, Tamar. E Davi fica irado, mas não faz nada.",
+    "cap": {
+     "sup": "PARADA 5",
+     "txt": "A espada dentro de casa"
+    }
+   },
+   {
+    "gravura": "043",
+    "mov": "out",
+    "txt": "Absalão, irmão de Tamar, espera dois anos. Faz uma festa, e no meio dela os servos dele matam Amnom. Absalão foge e passa anos longe do pai."
+   },
+   {
+    "gravura": "037",
+    "mov": "dir",
+    "txt": "Quando volta, começa a conquistar o povo. Fica na porta da cidade, ouve as queixas e diz: se eu fosse juiz, você teria justiça. A Bíblia diz que ele roubava o coração do povo."
+   },
+   {
+    "gravura": "049",
+    "mov": "in",
+    "txt": "Até que Absalão se declara rei em Hebrom. E Davi, o rei que derrubou Golias, foge de Jerusalém a pé, subindo o monte das Oliveiras, chorando, de cabeça coberta e descalço."
+   },
+   {
+    "gravura": "038",
+    "mov": "cima",
+    "txt": "O confronto final acontece num bosque, na região de Efraim. A Bíblia diz que naquele dia a floresta matou mais gente do que a espada. O exército de Absalão é derrotado."
+   },
+   {
+    "gravura": "034",
+    "mov": "in",
+    "txt": "Absalão foge montado numa mula, passa debaixo de um grande carvalho e fica com a cabeça presa nos galhos. A mula segue, e ele fica pendurado entre o céu e a terra."
+   },
+   {
+    "gravura": "044",
+    "mov": "out",
+    "txt": "Contra o pedido do rei, Joabe mata Absalão ali mesmo. E Davi não comemora a vitória. Ele sobe pro quarto e chora alto. É um dos lamentos mais doídos da Bíblia.",
+    "verso": "Meu filho Absalão! Quem me dera ter morrido em seu lugar!",
+    "ref": "2 SAMUEL 18.33"
+   },
+   {
+    "gravura": "053",
+    "mov": "dir",
+    "txt": "Foi muita coisa, né? Então me responde nos comentários: qual parte da vida de Davi mais mexeu com você até agora? A caverna, Golias, o Salmo 51 ou esse choro?",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Qual parte mexeu com você?"
+    }
+   },
+   {
+    "gravura": "036",
+    "mov": "in",
+    "txt": "Sexta parada: Salomão, o filho de Davi com Bate-Seba. Sim, da história mais triste de Davi, Deus tira o próximo rei. Logo no começo do reinado, Deus aparece a ele num sonho.",
+    "cap": {
+     "sup": "PARADA 6",
+     "txt": "Salomão: do templo ao desvio"
+    }
+   },
+   {
+    "gravura": "053",
+    "mov": "esq",
+    "txt": "Deus diz: peça o que quiser. E Salomão não pede riqueza nem vida longa. Pede sabedoria pra governar bem o povo.",
+    "verso": "Dá ao teu servo um coração que saiba ouvir, para julgar o teu povo.",
+    "ref": "1 REIS 3.9"
+   },
+   {
+    "gravura": "037",
+    "mov": "out",
+    "txt": "Deus dá também riqueza e honra. Logo vem o teste: duas mulheres brigam por um bebê. Salomão manda dividir a criança, a verdadeira mãe prefere perdê-la a vê-la morrer, e o rei descobre quem é a mãe."
+   },
+   {
+    "gravura": "043",
+    "mov": "in",
+    "txt": "E então Salomão faz o que Davi sonhou: constrói o templo em Jerusalém. A Bíblia diz que a obra levou sete anos. Na dedicação, uma nuvem enche a casa, e é a glória do Senhor."
+   },
+   {
+    "gravura": "049",
+    "mov": "esq",
+    "txt": "Mas aqui tem um detalhe que quase ninguém percebe. Lá em Deuteronômio 17, séculos antes, Deus já tinha dado regras pro futuro rei de Israel. Sim, a Lei já previa um rei."
+   },
+   {
+    "gravura": "043",
+    "mov": "out",
+    "txt": "E as regras eram três: o rei não devia juntar muitos cavalos, nem muitas mulheres, nem muito ouro e prata. E devia copiar a Lei e ler todos os dias."
+   },
+   {
+    "gravura": "035",
+    "mov": "dir",
+    "txt": "Salomão juntou cavalos vindos do Egito, ouro em quantidade enorme, e a Bíblia diz que teve setecentas esposas e trezentas concubinas. Quebrou as três regras, uma por uma.",
+    "verso": "Suas mulheres desviaram o coração dele para outros deuses.",
+    "ref": "1 REIS 11.4"
+   },
+   {
+    "gravura": "044",
+    "mov": "in",
+    "txt": "O homem mais sábio da terra terminou dividido. Construiu o templo do Senhor e, na velhice, altares pra deuses estrangeiros. Sabedoria sem obediência não segura o coração."
+   },
+   {
+    "gravura": "035",
+    "mov": "out",
+    "txt": "Sétima parada: o reino se divide. O filho de Salomão, Roboão, ouve o pedido do povo: alivia o peso que o seu pai colocou em nós. Os conselheiros mais velhos dizem: atende.",
+    "cap": {
+     "sup": "PARADA 7",
+     "txt": "Dois reinos e um profeta"
+    }
+   },
+   {
+    "gravura": "043",
+    "mov": "esq",
+    "txt": "Mas Roboão segue o conselho dos amigos jovens e responde com arrogância: meu pai castigou vocês com chicotes, eu vou castigar com escorpiões. Pronto. Dez tribos vão embora."
+   },
+   {
+    "gravura": "030",
+    "mov": "cima",
+    "txt": "Agora são dois reinos. No norte, Israel, com Jeroboão. No sul, Judá, com a família de Davi. Repara: a promessa de 2 Samuel 7 continua viva, ainda que por um fio."
+   },
+   {
+    "gravura": "039",
+    "mov": "dir",
+    "txt": "Jeroboão, com medo de o povo voltar a Jerusalém pra adorar, faz dois bezerros de ouro, em Betel e em Dã. O norte nasce desviado e nunca mais se recupera."
+   },
+   {
+    "gravura": "042",
+    "mov": "in",
+    "txt": "Anos depois, o pior de todos: o rei Acabe, casado com Jezabel, que espalha o culto a Baal pelo reino. E Deus levanta um profeta que aparece do nada: Elias."
+   },
+   {
+    "gravura": "053",
+    "mov": "out",
+    "txt": "Elias anuncia uma seca, e ela vem. Depois chama o povo ao monte Carmelo e faz uma pergunta que serve pra hoje também, porque o povo queria Deus e Baal ao mesmo tempo.",
+    "verso": "Até quando vocês vão ficar indecisos entre duas opções?",
+    "ref": "1 REIS 18.21"
+   },
+   {
+    "gravura": "040",
+    "mov": "cima",
+    "txt": "Os profetas de Baal gritam o dia inteiro, e nada. Elias encharca o altar com água três vezes, ora uma oração curta, e fogo desce do céu. Consome o sacrifício, a lenha, as pedras e a água."
+   },
+   {
+    "gravura": "044",
+    "mov": "in",
+    "txt": "Jezabel jura Elias de morte, e o mesmo profeta do fogo foge pro deserto. Senta debaixo de uma árvore e pede pra morrer. Um anjo traz pão e água e diz: levanta e come."
+   },
+   {
+    "gravura": "053",
+    "mov": "esq",
+    "txt": "No monte Horebe, Deus passa diante dele. Vem um vento forte, um terremoto, um fogo, mas Deus não estava neles. Depois vem algo bem pequeno.",
+    "verso": "Depois do fogo, veio o murmúrio de uma brisa suave.",
+    "ref": "1 REIS 19.12"
+   },
+   {
+    "gravura": "044",
+    "mov": "out",
+    "txt": "Se você está esgotado como Elias, guarda isso: Deus não começou com sermão. Começou com comida, descanso e uma voz baixa. Manda esse trecho pra alguém que anda cansado assim.",
+    "interage": {
+     "tipo": "manda",
+     "txt": "Manda pra quem tá esgotado"
+    }
+   },
+   {
+    "gravura": "042",
+    "mov": "in",
+    "txt": "Última parada: a queda. Os profetas continuam chamando, mas os reis do norte seguem nos bezerros de ouro. Por volta de 722 antes de Cristo, a Assíria toma Samaria. O reino do norte acaba.",
+    "cap": {
+     "sup": "PARADA 8",
+     "txt": "A queda e o Rei que viria"
+    }
+   },
+   {
+    "gravura": "046",
+    "mov": "esq",
+    "txt": "Mas os reis seguintes voltam pros ídolos. Por volta de 586 antes de Cristo, a Babilônia destrói Jerusalém e o templo de Salomão. O povo é levado pro exílio."
+   },
+   {
+    "gravura": "044",
+    "mov": "cima",
+    "txt": "Mas repara nos últimos versículos de 2 Reis. Um rei da família de Davi, Joaquim, é tirado da prisão na Babilônia e passa a comer à mesa do rei. Um fio de esperança."
+   },
+   {
+    "gravura": "053",
+    "mov": "in",
+    "txt": "Então vamos fechar a primeira pergunta: pedir um rei foi um erro? Existem leituras diferentes entre os estudiosos. Mas o texto mostra duas coisas juntas, e as duas são verdade."
+   },
+   {
+    "gravura": "043",
+    "mov": "esq",
+    "txt": "Um: Deus tinha previsto um rei. A Lei de Deuteronômio já falava dele, e Gênesis já dizia que o cetro viria de Judá. Ter um rei não era o problema em si."
+   },
+   {
+    "gravura": "024",
+    "mov": "dir",
+    "txt": "Dois: o motivo do pedido estava errado. Eles queriam um rei como o das outras nações, pra não depender de Deus. E a história inteira mostra o resultado: nenhum rei humano deu conta."
+   },
+   {
+    "gravura": "036",
+    "mov": "out",
+    "txt": "Saul caiu pelo orgulho. Davi caiu pelo desejo. Salomão caiu pela riqueza. E os reinos caíram pelos ídolos. O povo pediu um rei e descobriu que precisava de um rei diferente."
+   },
+   {
+    "gravura": "047",
+    "mov": "in",
+    "txt": "E agora a terceira pergunta: quem é o rei eterno de 2 Samuel 7? Os profetas começam a falar dele. Isaías diz que de um tronco cortado, o de Jessé, ia brotar um ramo novo."
+   },
+   {
+    "gravura": "057",
+    "mov": "cima",
+    "txt": "Séculos depois, um anjo aparece a uma jovem de Nazaré chamada Maria. E repara nas palavras que ele usa, quase as mesmas da promessa feita a Davi.",
+    "verso": "Deus lhe dará o trono de Davi, seu pai, e o seu reino não terá fim.",
+    "ref": "LUCAS 1.32-33"
+   },
+   {
+    "gravura": "069",
+    "mov": "esq",
+    "txt": "Esse menino é Jesus. O Novo Testamento abre chamando ele de filho de Davi. E quando ele entra em Jerusalém num jumentinho, o povo grita: hosana ao filho de Davi!"
+   },
+   {
+    "gravura": "087",
+    "mov": "out",
+    "txt": "Mas esse rei é diferente de todos. Saul se escondeu na bagagem. Davi tomou a ovelhinha do pobre. Jesus não toma nada de ninguém. Ele dá a própria vida."
+   },
+   {
+    "gravura": "088",
+    "mov": "in",
+    "txt": "A coroa dele é de espinhos. O trono é uma cruz. E em cima da cabeça dele está escrito: o Rei dos Judeus. Davi pediu um coração puro. Jesus morreu pra dar esse coração."
+   },
+   {
+    "gravura": "091",
+    "mov": "cima",
+    "txt": "E no domingo o túmulo está vazio. Um rei que morre e volta à vida não perde o trono nunca mais. Aí está o trono firme para sempre de 2 Samuel 7."
+   },
+   {
+    "gravura": "053",
+    "mov": "dir",
+    "txt": "Então, foi um erro pedir um rei? O motivo foi. Mas Deus pegou até esse pedido torto e o usou pra trazer o Rei que a gente precisava. E agora é com você: quem está no trono da sua vida?",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Quem está no trono?"
+    }
+   },
+   {
+    "gravura": "036",
+    "mov": "in",
+    "txt": "Resumindo a viagem: os Juízes sem rei, Saul da aparência, Davi do coração, Salomão da sabedoria que se perdeu, dois reinos, Elias, a queda. E uma promessa que sobreviveu a tudo."
+   },
+   {
+    "gravura": "093",
+    "mov": "out",
+    "txt": "No próximo vídeo, a gente entra no exílio e nos profetas: Jeremias, Ezequiel e Daniel na Babilônia. Até a próxima parada, viajante da Palavra.",
+    "cta": "Até a próxima <b>parada</b>,<br>viajante",
+    "selo": "PASSA<br>PORTE"
+   }
+  ]
+ },
+ {
+  "id": "longo-08",
+  "formato": "longo",
+  "titulo": "A vida de Jesus em ordem cronológica",
+  "legenda": "Você já tentou ler a vida de Jesus nos quatro Evangelhos e se perdeu na ordem dos fatos? Neste vídeo, Mateus, Marcos, Lucas e João viram uma linha do tempo simples: do nascimento em Belém à ascensão, com a referência de cada parte para você ler na sua Bíblia.\n\nVocê vai ver a infância, o batismo, a Galileia, a confissão de Pedro, a última semana, a cruz e a ressurreição. E vai entender por que os Evangelhos às vezes contam em ordens diferentes, com os pontos debatidos indicados com honestidade.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📖 Observação: os versículos aparecem em paráfrase curta, com a referência. Confira na sua tradução. A ordem dos fatos é uma harmonização didática; onde ela é debatida, o vídeo avisa.\n\n🎫 Quer ler os Evangelhos com um caminho claro? Baixe grátis a Rota da Primeira Viagem no link da descrição, ou comente ROTA.\n\n#VidaDeJesus #Evangelhos #HarmoniaDosEvangelhos #EstudoBíblico #PassaporteDaBíblia",
+  "comentario": "📌 Qual parada da vida de Jesus você quer que a gente aprofunde num vídeo só: Galileia, última semana, cruz ou ressurreição? Comente a parada.",
+  "titulo_tela": {
+   "sup": "PASSAPORTE DA BÍBLIA",
+   "txt": "A vida de Jesus<br>em ordem",
+   "dur": 3.2
+  },
+  "cenas": [
+   {
+    "gravura": "082",
+    "mov": "in",
+    "txt": "Jesus expulsou os vendedores do templo no começo do ministério ou na última semana? Depende do Evangelho que você abre. E isso confunde muita gente que tenta ler a vida de Jesus em ordem."
+   },
+   {
+    "gravura": "066",
+    "mov": "esq",
+    "txt": "São quatro Evangelhos: Mateus, Marcos, Lucas e João. Eles contam a mesma vida, mas nem sempre na mesma sequência. Hoje a gente vai juntar os quatro numa linha do tempo simples."
+   },
+   {
+    "gravura": "057",
+    "mov": "out",
+    "txt": "Do presépio em Belém até a nuvem da ascensão. Em cada parada, eu vou te dizer onde ler na sua Bíblia, pra você poder conferir com os próprios olhos."
+   },
+   {
+    "gravura": "070",
+    "mov": "dir",
+    "txt": "E vou ser honesto com você: em alguns pontos, a ordem exata é debatida entre os estudiosos. Quando for assim, eu aviso. Nada de inventar certeza onde a Bíblia não dá."
+   },
+   {
+    "gravura": "064",
+    "mov": "cima",
+    "txt": "No caminho, três perguntas vão ficar abertas. Primeira: por que os Evangelhos às vezes contam em ordens diferentes? Isso é erro, ou tem um motivo?"
+   },
+   {
+    "gravura": "062",
+    "mov": "in",
+    "txt": "Segunda: qual é o único milagre, fora a ressurreição, que aparece nos quatro Evangelhos? E terceira: em que momento a história vira, e Jesus começa a caminhar de propósito para a cruz?"
+   },
+   {
+    "gravura": "053",
+    "mov": "out",
+    "txt": "Guarda essas três perguntas. Todas vão ser respondidas antes do fim. Agora pega o seu passaporte, porque a primeira parada é uma cidade pequena chamada Belém."
+   },
+   {
+    "gravura": "057",
+    "mov": "in",
+    "txt": "Primeira parada: o nascimento. Só dois Evangelhos contam essa parte: Mateus, capítulos 1 e 2, e Lucas, capítulos 1 e 2. Marcos e João começam com Jesus já adulto.",
+    "cap": {
+     "sup": "PARADA 1",
+     "txt": "Belém e Nazaré"
+    }
+   },
+   {
+    "gravura": "071",
+    "mov": "esq",
+    "txt": "Lucas começa antes. O anjo Gabriel anuncia o nascimento de João Batista a Zacarias, e depois anuncia a Maria, em Nazaré, que ela ia conceber pelo Espírito Santo. Está em Lucas 1."
+   },
+   {
+    "gravura": "058",
+    "mov": "dir",
+    "txt": "Mateus conta o mesmo nascimento pelo lado de José. Ele pensa em deixar Maria em segredo, mas um anjo, em sonho, diz para ele recebê-la. O nome do menino seria Jesus."
+   },
+   {
+    "gravura": "057",
+    "mov": "cima",
+    "txt": "Por causa de um recenseamento romano, José e Maria vão de Nazaré a Belém, a cidade de Davi. Lá nasce Jesus, e Maria o deita numa manjedoura, porque não havia lugar na hospedaria. Lucas 2."
+   },
+   {
+    "gravura": "005",
+    "mov": "out",
+    "txt": "Na mesma noite, anjos aparecem a pastores no campo. Eles vão correndo até Belém, encontram o menino e saem contando a todo mundo o que viram e ouviram."
+   },
+   {
+    "gravura": "061",
+    "mov": "in",
+    "txt": "Quarenta dias depois, pela lei de Moisés, o menino é apresentado no templo de Jerusalém. O velho Simeão o pega no colo e louva a Deus. Também está em Lucas 2."
+   },
+   {
+    "gravura": "058",
+    "mov": "esq",
+    "txt": "Depois vêm os magos do Oriente, guiados por uma estrela. Mateus diz que eles encontram o menino numa casa, não num estábulo. Por isso muitos acham que vieram um tempo depois."
+   },
+   {
+    "gravura": "044",
+    "mov": "dir",
+    "txt": "E aqui aparece o primeiro ponto debatido. Os magos chegaram antes ou depois da apresentação no templo? Os textos não dizem com exatidão. Existem harmonizações diferentes, e tudo bem."
+   },
+   {
+    "gravura": "060",
+    "mov": "out",
+    "txt": "Herodes, com medo de perder o trono, manda matar os meninos de Belém de até dois anos. É uma das cenas mais tristes de Mateus 2."
+   },
+   {
+    "gravura": "059",
+    "mov": "in",
+    "txt": "Mas José é avisado em sonho e foge com Maria e o menino para o Egito. Depois que Herodes morre, eles voltam e vão morar em Nazaré, na Galileia."
+   },
+   {
+    "gravura": "053",
+    "mov": "cima",
+    "txt": "Respira, porque foi muita coisa em pouco tempo. Anúncio, Belém, pastores, templo, magos, Egito e Nazaré. Tá comigo até aqui? Escreve aí: Nazaré.",
+    "interage": {
+     "tipo": "checkin",
+     "txt": "Tá comigo? Escreve: Nazaré"
+    }
+   },
+   {
+    "gravura": "061",
+    "mov": "in",
+    "txt": "Depois disso, a Bíblia faz quase um silêncio total sobre a infância de Jesus. Só uma cena sobrevive: Jesus aos doze anos, em Jerusalém, na festa da Páscoa. Lucas 2, versículos 41 a 52."
+   },
+   {
+    "gravura": "066",
+    "mov": "esq",
+    "txt": "Na volta, Maria e José percebem que o menino não está na caravana. Procuram três dias. E acham Jesus no templo, sentado entre os mestres, ouvindo e fazendo perguntas."
+   },
+   {
+    "gravura": "061",
+    "mov": "out",
+    "txt": "Maria pergunta por que ele fez aquilo. E Jesus responde com a primeira frase dele registrada nos Evangelhos.",
+    "verso": "Não sabiam que eu devia estar na casa de meu Pai?",
+    "ref": "LUCAS 2.49"
+   },
+   {
+    "gravura": "071",
+    "mov": "dir",
+    "txt": "Depois ele volta para Nazaré e vive em obediência aos pais. Lucas diz que ele crescia em sabedoria, em estatura e em graça diante de Deus e dos homens."
+   },
+   {
+    "gravura": "063",
+    "mov": "in",
+    "txt": "Segunda parada: o começo do ministério. Lucas diz que Jesus tinha mais ou menos trinta anos. Antes dele, João Batista prega no deserto e chama o povo ao arrependimento.",
+    "cap": {
+     "sup": "PARADA 2",
+     "txt": "Batismo e deserto"
+    }
+   },
+   {
+    "gravura": "047",
+    "mov": "esq",
+    "txt": "O batismo de Jesus está em Mateus 3, Marcos 1 e Lucas 3. João estranha: eu é que preciso ser batizado por você. Mas Jesus insiste, e entra nas águas do Jordão."
+   },
+   {
+    "gravura": "093",
+    "mov": "cima",
+    "txt": "Quando ele sai da água, o céu se abre, o Espírito desce como pomba, e uma voz do céu fala. É um dos raros momentos em que aparecem juntos o Pai, o Filho e o Espírito.",
+    "verso": "Este é o meu Filho amado, em quem me agrado.",
+    "ref": "MATEUS 3.17"
+   },
+   {
+    "gravura": "053",
+    "mov": "out",
+    "txt": "Logo depois, o Espírito leva Jesus ao deserto. Quarenta dias de jejum. E ali vem a tentação. Leia em Mateus 4, versículos 1 a 11, e em Lucas 4, versículos 1 a 13."
+   },
+   {
+    "gravura": "044",
+    "mov": "in",
+    "txt": "O diabo propõe três coisas: transformar pedras em pão, se jogar do alto do templo e receber todos os reinos do mundo se o adorasse. Jesus responde as três com a Escritura."
+   },
+   {
+    "gravura": "020",
+    "mov": "dir",
+    "txt": "Um detalhe curioso: Mateus e Lucas trocam a ordem da segunda e da terceira tentação. As tentações são as mesmas, a sequência muda. Guarda esse detalhe, porque ele ajuda a responder a nossa primeira pergunta."
+   },
+   {
+    "gravura": "078",
+    "mov": "in",
+    "txt": "Terceira parada: os primeiros discípulos. E aqui João completa o que os outros não contam. Em João 1, André, Pedro, Filipe e Natanael conhecem Jesus ainda perto do Jordão.",
+    "cap": {
+     "sup": "PARADA 3",
+     "txt": "Os primeiros seguidores"
+    }
+   },
+   {
+    "gravura": "072",
+    "mov": "esq",
+    "txt": "Em João 2, Jesus vai a um casamento em Caná e transforma água em vinho. João diz que esse foi o primeiro dos seus sinais. Os discípulos creram nele."
+   },
+   {
+    "gravura": "069",
+    "mov": "out",
+    "txt": "E em João 2 também, Jesus expulsa os vendedores do templo. Já Mateus, Marcos e Lucas contam essa cena na última semana. Lembra da pergunta do começo? Ela mora aqui."
+   },
+   {
+    "gravura": "044",
+    "mov": "dir",
+    "txt": "Duas leituras existem. Muitos acham que Jesus purificou o templo duas vezes, no começo e no fim. Outros acham que foi uma vez só, e que João colocou a cena antes por um motivo de tema. Os dois lados têm gente séria."
+   },
+   {
+    "gravura": "066",
+    "mov": "cima",
+    "txt": "Ainda nessa fase, Nicodemos, um mestre fariseu, procura Jesus de noite. É ali que está o versículo mais conhecido da Bíblia: Deus amou o mundo de tal maneira. João 3.16."
+   },
+   {
+    "gravura": "078",
+    "mov": "in",
+    "txt": "E, voltando para a Galileia, Jesus passa por Samaria. No poço de Jacó, conversa com uma mulher samaritana e oferece a ela a água viva. A cidade inteira vem ver quem é ele. João 4."
+   },
+   {
+    "gravura": "064",
+    "mov": "out",
+    "txt": "Já na Galileia, Jesus encontra pescadores trabalhando: Pedro e André, Tiago e João. E faz um convite que muda a vida deles. Marcos 1 e Lucas 5.",
+    "verso": "Venham comigo, e eu farei de vocês pescadores de gente.",
+    "ref": "MARCOS 1.17"
+   },
+   {
+    "gravura": "067",
+    "mov": "esq",
+    "txt": "Mais tarde, depois de passar a noite orando no monte, Jesus escolhe doze entre os discípulos e os chama de apóstolos. A lista está em Marcos 3 e Lucas 6."
+   },
+   {
+    "gravura": "070",
+    "mov": "dir",
+    "txt": "Agora, uma pergunta só pra você. Qual Evangelho você mais lê: Mateus, Marcos, Lucas ou João? Comenta aqui embaixo. Quero saber qual é o seu preferido e por quê.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Qual Evangelho você mais lê?"
+    }
+   },
+   {
+    "gravura": "092",
+    "mov": "in",
+    "txt": "Pausa rápida na viagem. Se você quer ler os Evangelhos e o resto da Bíblia com um caminho claro, eu preparei a Rota da Primeira Viagem, grátis. Comenta ROTA ou pega no link da descrição.",
+    "cta": "Comenta <b>ROTA</b><br>e receba a rota grátis"
+   },
+   {
+    "gravura": "063",
+    "mov": "in",
+    "txt": "Quarta parada: a Galileia, onde Jesus passa a maior parte do ministério. Ele começa em Nazaré, na sinagoga, lendo Isaías. Mas a cidade dele o rejeita. Lucas 4.",
+    "cap": {
+     "sup": "PARADA 4",
+     "txt": "Galileia"
+    }
+   },
+   {
+    "gravura": "070",
+    "mov": "esq",
+    "txt": "Então Jesus faz de Cafarnaum, à beira do mar da Galileia, a sua base. Dali ele percorre as cidades e aldeias, ensinando nas sinagogas e curando todo tipo de doença."
+   },
+   {
+    "gravura": "063",
+    "mov": "cima",
+    "txt": "É nessa fase que vem o Sermão do Monte, em Mateus 5, 6 e 7. As bem-aventuranças, o Pai Nosso, a casa na rocha. É o maior bloco de ensino de Jesus num lugar só.",
+    "verso": "Felizes os humildes de espírito, porque deles é o reino dos céus.",
+    "ref": "MATEUS 5.3"
+   },
+   {
+    "gravura": "070",
+    "mov": "out",
+    "txt": "Lucas 6 tem um sermão bem parecido, mas num lugar plano. É o mesmo sermão contado de outro jeito, ou Jesus repetiu o ensino em lugares diferentes? Também aqui existem leituras diferentes."
+   },
+   {
+    "gravura": "062",
+    "mov": "in",
+    "txt": "E vêm os milagres. Jesus cura leprosos, paralíticos, cegos. Perdoa pecados. Toca em quem ninguém queria tocar. Marcos 1 e 2 mostram um dia atrás do outro de curas."
+   },
+   {
+    "gravura": "064",
+    "mov": "esq",
+    "txt": "Uma noite, no mar da Galileia, vem uma tempestade. Os discípulos, apavorados, acordam Jesus. Ele repreende o vento, e tudo fica em calma. Marcos 4.",
+    "verso": "Quem é este, que até o vento e o mar lhe obedecem?",
+    "ref": "MARCOS 4.41"
+   },
+   {
+    "gravura": "067",
+    "mov": "out",
+    "txt": "Jesus também ensina por parábolas. Em Mateus 13 e Marcos 4 está a do semeador: a mesma semente cai em terrenos diferentes. O problema nunca é a semente, é o coração que recebe."
+   },
+   {
+    "gravura": "062",
+    "mov": "cima",
+    "txt": "E agora, a nossa segunda pergunta. Qual é o único milagre, fora a ressurreição, que está nos quatro Evangelhos? A multiplicação dos pães para cinco mil homens."
+   },
+   {
+    "gravura": "070",
+    "mov": "dir",
+    "txt": "Cinco pães e dois peixes. Todos comem e ainda sobram doze cestos. Leia em Mateus 14, Marcos 6, Lucas 9 e João 6. Os quatro registram. Pergunta número dois respondida."
+   },
+   {
+    "gravura": "068",
+    "mov": "in",
+    "txt": "Na mesma noite, os discípulos atravessam o mar de barco, e Jesus vem andando sobre as águas. Pedro tenta ir até ele, olha pro vento e começa a afundar. Mateus 14."
+   },
+   {
+    "gravura": "053",
+    "mov": "esq",
+    "txt": "Se essa linha do tempo está te ajudando, salva esse vídeo. Assim, quando você for ler os Evangelhos, abre aqui e confere em que parada você está.",
+    "interage": {
+     "tipo": "salva",
+     "txt": "Salva pra ler na ordem"
+    }
+   },
+   {
+    "gravura": "088",
+    "mov": "in",
+    "txt": "Quinta parada: a virada. E aqui fecha a nossa terceira pergunta. Perto de Cesareia de Filipe, no norte, Jesus pergunta aos discípulos: e vocês, quem dizem que eu sou?",
+    "cap": {
+     "sup": "PARADA 5",
+     "txt": "A grande virada"
+    }
+   },
+   {
+    "gravura": "065",
+    "mov": "out",
+    "txt": "Pedro responde em nome de todos. Está em Mateus 16, Marcos 8 e Lucas 9. É o ponto alto do ministério na Galileia.",
+    "verso": "Tu és o Cristo, o Filho do Deus vivo.",
+    "ref": "MATEUS 16.16"
+   },
+   {
+    "gravura": "086",
+    "mov": "dir",
+    "txt": "E logo depois, tudo muda de tom. Marcos diz que, a partir daí, Jesus começou a ensinar que precisava sofrer, ser morto e ressuscitar ao terceiro dia. Marcos 8, versículo 31."
+   },
+   {
+    "gravura": "044",
+    "mov": "esq",
+    "txt": "Essa é a virada. Até ali, a grande pergunta era quem é Jesus. Dali em diante, a pergunta passa a ser: o que ele veio fazer? E a resposta aponta para Jerusalém e para a cruz."
+   },
+   {
+    "gravura": "093",
+    "mov": "cima",
+    "txt": "Uns dias depois, Jesus sobe um monte com Pedro, Tiago e João, e o rosto dele brilha como o sol. Moisés e Elias aparecem conversando com ele. É a transfiguração. Mateus 17."
+   },
+   {
+    "gravura": "053",
+    "mov": "in",
+    "txt": "Qual era o monte? A Bíblia não diz o nome. A tradição aponta o monte Tabor, outros pensam no Hermon. E Lucas fala em uns oito dias depois, enquanto Mateus e Marcos falam em seis. Contagens diferentes do mesmo intervalo."
+   },
+   {
+    "gravura": "070",
+    "mov": "out",
+    "txt": "Se você entendeu agora por que a confissão de Pedro divide a vida de Jesus em duas partes, segue o canal. É esse tipo de mapa que eu trago toda semana.",
+    "interage": {
+     "tipo": "segue",
+     "txt": "Segue pra próxima parada"
+    }
+   },
+   {
+    "gravura": "049",
+    "mov": "in",
+    "txt": "Sexta parada: o caminho para Jerusalém. Lucas marca o momento com uma frase forte: Jesus decidiu firmemente ir para Jerusalém. Lucas 9, versículo 51.",
+    "cap": {
+     "sup": "PARADA 6",
+     "txt": "Rumo a Jerusalém"
+    }
+   },
+   {
+    "gravura": "073",
+    "mov": "esq",
+    "txt": "De Lucas 9 até Lucas 19, está a grande viagem. E é nela que estão muitas parábolas que só Lucas conta. A do bom samaritano, por exemplo, em Lucas 10."
+   },
+   {
+    "gravura": "074",
+    "mov": "dir",
+    "txt": "Um homem é assaltado e deixado meio morto. Um sacerdote passa reto. Um levita também. Quem para, cuida e paga a hospedaria é justamente um samaritano, o estrangeiro."
+   },
+   {
+    "gravura": "075",
+    "mov": "out",
+    "txt": "Em Lucas 15 vem a do filho pródigo. O filho gasta tudo, passa fome e volta. E o pai corre ao encontro dele. Jesus mostra como Deus recebe quem volta."
+   },
+   {
+    "gravura": "077",
+    "mov": "in",
+    "txt": "Mas atenção: João mostra que, nesse período, Jesus também sobe a Jerusalém nas festas. João menciona pelo menos três Páscoas, por isso se fala em uns três anos. É estimativa: há quem calcule diferente."
+   },
+   {
+    "gravura": "080",
+    "mov": "dir",
+    "txt": "Em Betânia, perto de Jerusalém, Jesus ressuscita o amigo Lázaro, que já estava sepultado havia quatro dias. Ele diz: eu sou a ressurreição e a vida. E João conta que, a partir dali, os líderes decidiram matar Jesus. João 11."
+   },
+   {
+    "gravura": "081",
+    "mov": "esq",
+    "txt": "De volta a Betânia, uma mulher derrama perfume caro sobre Jesus. João coloca a cena seis dias antes da Páscoa. Mateus e Marcos contam dentro da última semana. A ordem também é debatida aqui."
+   },
+   {
+    "gravura": "069",
+    "mov": "in",
+    "txt": "Sétima parada: a última semana. Jesus entra em Jerusalém montado num jumentinho. E essa cena está nos quatro Evangelhos: Mateus 21, Marcos 11, Lucas 19 e João 12.",
+    "cap": {
+     "sup": "PARADA 7",
+     "txt": "A última semana"
+    }
+   },
+   {
+    "gravura": "069",
+    "mov": "cima",
+    "txt": "O povo estende roupas e ramos no caminho. João diz que eram ramos de palmeira. E a multidão grita.",
+    "verso": "Hosana! Bendito o que vem em nome do Senhor!",
+    "ref": "MARCOS 11.9"
+   },
+   {
+    "gravura": "062",
+    "mov": "out",
+    "txt": "É aqui que Mateus, Marcos e Lucas colocam a expulsão dos vendedores do templo. Lembra da primeira pergunta do vídeo? Agora dá pra fechar ela."
+   },
+   {
+    "gravura": "044",
+    "mov": "dir",
+    "txt": "Os Evangelhos não são agendas de compromissos. Cada autor organiza a história para ensinar algo. Lucas diz que escreveu uma narração em ordem, mas às vezes a ordem é de tema, não de relógio. Isso não é erro, é estilo."
+   },
+   {
+    "gravura": "082",
+    "mov": "in",
+    "txt": "Chega a noite da Última Ceia. Em João 13, antes da refeição, Jesus lava os pés dos discípulos. O Mestre faz o serviço de um escravo."
+   },
+   {
+    "gravura": "082",
+    "mov": "out",
+    "txt": "Na ceia, ele toma o pão, dá graças, parte e entrega. Depois o cálice. Está em Mateus 26, Marcos 14, Lucas 22 e também em Primeira Coríntios 11.",
+    "verso": "Isto é o meu corpo, entregue por vocês.",
+    "ref": "LUCAS 22.19"
+   },
+   {
+    "gravura": "053",
+    "mov": "dir",
+    "txt": "E mais um ponto debatido. Mateus, Marcos e Lucas mostram a ceia como refeição de Páscoa. João dá a entender que a Páscoa seria comida depois. Os estudiosos propõem várias explicações, e nenhuma é unanimidade."
+   },
+   {
+    "gravura": "083",
+    "mov": "in",
+    "txt": "Oitava parada: da noite mais escura até a cruz. Jesus vai com os discípulos ao Getsêmani, no monte das Oliveiras. Mateus 26, Marcos 14 e Lucas 22.",
+    "cap": {
+     "sup": "PARADA 8",
+     "txt": "Do Getsêmani à cruz"
+    }
+   },
+   {
+    "gravura": "083",
+    "mov": "out",
+    "txt": "Ele se afasta um pouco, cai com o rosto em terra e ora com angústia. Lucas diz que o suor dele caía como gotas de sangue. Os discípulos dormem.",
+    "verso": "Pai, não seja como eu quero, mas como tu queres.",
+    "ref": "MATEUS 26.39"
+   },
+   {
+    "gravura": "044",
+    "mov": "esq",
+    "txt": "Pensa nisso um segundo. Ele podia ir embora pela escuridão do monte. E fica. Me conta nos comentários: qual parte do Getsêmani mais mexe com você?",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "O que mais mexe com você?"
+    }
+   },
+   {
+    "gravura": "085",
+    "mov": "in",
+    "txt": "Judas chega com uma multidão armada e entrega Jesus com um beijo. Pedro puxa a espada e corta a orelha de um servo. Jesus manda guardar a espada e cura o homem. Os discípulos fogem."
+   },
+   {
+    "gravura": "087",
+    "mov": "dir",
+    "txt": "Começam os julgamentos. Costuma-se contar seis etapas. Três religiosas: diante de Anás, de Caifás e do Sinédrio ao amanhecer. E três romanas: Pilatos, Herodes Antipas e Pilatos de novo."
+   },
+   {
+    "gravura": "084",
+    "mov": "cima",
+    "txt": "Enquanto isso, no pátio, Pedro nega Jesus três vezes, e o galo canta. Lucas conta que Jesus se virou e olhou para Pedro. E Judas, cheio de remorso, devolve as moedas."
+   },
+   {
+    "gravura": "087",
+    "mov": "in",
+    "txt": "Pilatos não encontra culpa, mas a multidão pede Barrabás. Jesus é açoitado, recebe uma coroa de espinhos e um manto de púrpura. Os soldados zombam dele. João 19."
+   },
+   {
+    "gravura": "086",
+    "mov": "esq",
+    "txt": "Jesus sai carregando a cruz. No caminho, os soldados obrigam um homem de Cirene, chamado Simão, a carregar a cruz atrás dele. Marcos 15 e Lucas 23."
+   },
+   {
+    "gravura": "088",
+    "mov": "in",
+    "txt": "No lugar chamado Gólgota, que quer dizer lugar da caveira, Jesus é crucificado entre dois criminosos. E as primeiras palavras dele na cruz são de perdão.",
+    "verso": "Pai, perdoa-lhes, porque não sabem o que fazem.",
+    "ref": "LUCAS 23.34"
+   },
+   {
+    "gravura": "089",
+    "mov": "cima",
+    "txt": "Ao meio-dia, trevas cobrem a terra até as três da tarde. Jesus clama: Deus meu, Deus meu, por que me abandonaste? É o começo do Salmo 22. Marcos 15."
+   },
+   {
+    "gravura": "088",
+    "mov": "out",
+    "txt": "São sete frases na cruz, espalhadas pelos quatro Evangelhos. A ordem em que costumam ser recitadas é uma harmonização. E uma das últimas é uma palavra só no grego.",
+    "verso": "Está consumado.",
+    "ref": "JOÃO 19.30"
+   },
+   {
+    "gravura": "089",
+    "mov": "dir",
+    "txt": "O véu do templo se rasga de cima a baixo. E o centurião romano, que viu tudo, diz: verdadeiramente este homem era o Filho de Deus. Marcos 15."
+   },
+   {
+    "gravura": "090",
+    "mov": "in",
+    "txt": "Antes do pôr do sol, José de Arimateia pede o corpo a Pilatos. Com Nicodemos, envolve Jesus em panos com especiarias e o coloca num túmulo novo, cavado na rocha. Uma pedra fecha a entrada."
+   },
+   {
+    "gravura": "091",
+    "mov": "in",
+    "txt": "Parada final: o túmulo vazio. No primeiro dia da semana, bem cedo, as mulheres vão ao túmulo. A pedra está removida. Os quatro Evangelhos contam: Mateus 28, Marcos 16, Lucas 24 e João 20.",
+    "cap": {
+     "sup": "PARADA FINAL",
+     "txt": "O túmulo vazio"
+    }
+   },
+   {
+    "gravura": "091",
+    "mov": "cima",
+    "txt": "Um anjo fala com elas. Os detalhes variam: quantas mulheres, um anjo ou dois. Cada autor destaca testemunhas diferentes. Mas o centro é o mesmo em todos.",
+    "verso": "Ele não está aqui. Ressuscitou!",
+    "ref": "LUCAS 24.6"
+   },
+   {
+    "gravura": "081",
+    "mov": "out",
+    "txt": "Pedro e João correm até o túmulo e encontram só os panos. E Maria Madalena, chorando do lado de fora, é a primeira a ver Jesus ressuscitado. Ele a chama pelo nome. João 20."
+   },
+   {
+    "gravura": "092",
+    "mov": "dir",
+    "txt": "Na mesma tarde, dois discípulos caminham para Emaús, a uns sessenta estádios de Jerusalém. Um deles se chama Cléopas. Jesus se junta a eles, mas eles não o reconhecem. Lucas 24."
+   },
+   {
+    "gravura": "092",
+    "mov": "in",
+    "txt": "Ele explica tudo o que as Escrituras diziam sobre ele, começando por Moisés. Na hora da refeição, ele parte o pão, os olhos deles se abrem, e ele desaparece.",
+    "verso": "Não ardia o nosso coração enquanto ele nos falava?",
+    "ref": "LUCAS 24.32"
+   },
+   {
+    "gravura": "053",
+    "mov": "esq",
+    "txt": "Já aconteceu de um texto da Bíblia arder no seu coração assim, como em Emaús? Escreve nos comentários qual foi. Eu leio todos.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Que texto ardeu em você?"
+    }
+   },
+   {
+    "gravura": "070",
+    "mov": "out",
+    "txt": "Naquela noite, Jesus aparece aos discípulos reunidos. Oito dias depois, aparece de novo, e Tomé, que tinha duvidado, diz: Senhor meu e Deus meu. João 20."
+   },
+   {
+    "gravura": "064",
+    "mov": "cima",
+    "txt": "Depois, na Galileia, à beira do mar, Jesus prepara peixe e pão para os discípulos. E pergunta três vezes a Pedro: você me ama? As três negações recebem três chances. João 21."
+   },
+   {
+    "gravura": "093",
+    "mov": "cima",
+    "txt": "Atos 1 diz que Jesus apareceu durante quarenta dias. Então, perto de Betânia, no monte das Oliveiras, ele é elevado ao céu, e uma nuvem o encobre. Lucas 24 e Atos 1."
+   },
+   {
+    "gravura": "093",
+    "mov": "out",
+    "txt": "Os discípulos ficam olhando pro alto. E dois homens vestidos de branco dizem que esse mesmo Jesus vai voltar do mesmo jeito que foi visto subir. Atos 1, versículo 11."
+   },
+   {
+    "gravura": "061",
+    "mov": "in",
+    "txt": "E as três perguntas fecharam. A ordem às vezes muda porque cada autor organiza por tema. O milagre dos quatro é a multiplicação dos pães. E a virada é a confissão de Pedro."
+   },
+   {
+    "gravura": "053",
+    "mov": "esq",
+    "txt": "João termina o Evangelho dizendo que Jesus fez muitas outras coisas, e que nem o mundo caberia os livros. Essa linha do tempo é um mapa, não o território. O território é ler."
+   },
+   {
+    "gravura": "057",
+    "mov": "out",
+    "txt": "Uma sugestão prática: leia Marcos inteiro primeiro. É o mais curto, dezesseis capítulos, e segue bem esse caminho. Depois Lucas, Mateus e João. Você vai reconhecer cada parada."
+   },
+   {
+    "gravura": "078",
+    "mov": "dir",
+    "txt": "Conhece alguém que acha a vida de Jesus confusa, tudo misturado? Manda esse vídeo pra essa pessoa. Pode ser o mapa que estava faltando pra ela.",
+    "interage": {
+     "tipo": "manda",
+     "txt": "Manda pra quem acha confuso"
+    }
+   },
+   {
+    "gravura": "093",
+    "mov": "in",
+    "txt": "No próximo vídeo, a gente vai entrar nos quatro Evangelhos um por um e ver o jeito único de cada autor. Até a próxima parada, viajante da Palavra.",
+    "cta": "Até a próxima <b>parada</b>,<br>viajante",
+    "selo": "PASSA<br>PORTE"
+   }
+  ]
+ },
+ {
+  "id": "longo-09",
+  "formato": "longo",
+  "titulo": "As parábolas de Jesus que incomodam até hoje",
+  "legenda": "As parábolas de Jesus não foram contadas pra deixar ninguém confortável. Neste vídeo você entende o que é parábola, por que Jesus ensinava com histórias e o choque que cada uma causou em quem ouviu: o semeador, o bom samaritano, o filho pródigo e o irmão mais velho, o rico e Lázaro, o fariseu e o publicano, os trabalhadores da vinha, as dez virgens, os talentos e a ovelha perdida.\n\nNo final, você aprende um jeito simples de ler qualquer parábola da Bíblia sozinho e descobre a pergunta que cada história faz pra você hoje.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📖 Observação: os versículos aparecem em paráfrase curta, com a referência. Confira na sua tradução.\n\n🎫 Quer ler os Evangelhos com um caminho certo? Baixe grátis a Rota da Primeira Viagem no link da descrição, ou comente ROTA.\n\n#ParábolasDeJesus #FilhoPródigo #BomSamaritano #EstudoBíblico #PassaporteDaBíblia",
+  "comentario": "📌 Qual dessas parábolas mais incomodou você? E uma pergunta sincera: na história do filho pródigo, você já foi o filho que voltou ou o irmão do lado de fora?",
+  "titulo_tela": {
+   "sup": "PASSAPORTE DA BÍBLIA",
+   "txt": "Parábolas que<br>incomodam",
+   "dur": 3.2
+  },
+  "cenas": [
+   {
+    "gravura": "075",
+    "mov": "in",
+    "txt": "Uma das histórias mais famosas de Jesus termina sem final. O filho volta pra casa, tem festa, tem música. E o irmão mais velho fica do lado de fora. Ele entrou ou não entrou? Jesus nunca contou."
+   },
+   {
+    "gravura": "063",
+    "mov": "out",
+    "txt": "E isso não foi descuido. As parábolas de Jesus não foram feitas pra gente sair confortável. Foram feitas pra incomodar. E incomodam até hoje."
+   },
+   {
+    "gravura": "066",
+    "mov": "esq",
+    "txt": "Hoje você vai conhecer nove dessas histórias. Em cada uma, eu vou te mostrar o choque que ela causou em quem ouviu na época. E a pergunta que ela faz pra você agora."
+   },
+   {
+    "gravura": "076",
+    "mov": "dir",
+    "txt": "Tem uma parábola com um detalhe que nenhuma outra tem: um personagem com nome próprio. Só um, em todas as parábolas de Jesus. Daqui a pouco você descobre quem é."
+   },
+   {
+    "gravura": "061",
+    "mov": "cima",
+    "txt": "E tem uma frase do próprio Jesus que assusta muita gente. Ele disse que falava por parábolas para que alguns olhassem e não vissem. Como assim? Ele não queria ser entendido?"
+   },
+   {
+    "gravura": "053",
+    "mov": "in",
+    "txt": "Guarda essas três perguntas: o final que falta, o nome que aparece e a frase difícil. Todas vão ser respondidas até o fim da viagem."
+   },
+   {
+    "gravura": "070",
+    "mov": "out",
+    "txt": "E no final eu te mostro um jeito simples de ler qualquer parábola sozinho, sem se perder. Então pega o seu passaporte, que a viagem começa agora."
+   },
+   {
+    "gravura": "063",
+    "mov": "in",
+    "txt": "Primeiro, o básico. A palavra parábola vem do grego e quer dizer, mais ou menos, colocar uma coisa ao lado da outra. É uma comparação. Uma história do dia a dia ao lado de uma verdade sobre Deus.",
+    "cap": {
+     "sup": "PARADA 1",
+     "txt": "Por que Jesus contava histórias"
+    }
+   },
+   {
+    "gravura": "067",
+    "mov": "esq",
+    "txt": "Jesus falava de semente, de ovelha, de moeda, de festa de casamento, de trabalhador e de patrão. Coisas que qualquer pessoa da Galileia conhecia. Todo mundo entendia o cenário."
+   },
+   {
+    "gravura": "054",
+    "mov": "dir",
+    "txt": "E ele usava muito esse jeito de ensinar. Os Evangelhos chegam a dizer que, quando falava às multidões, ele não falava sem parábolas.",
+    "verso": "Jesus não lhes falava sem parábolas.",
+    "ref": "MATEUS 13.34"
+   },
+   {
+    "gravura": "066",
+    "mov": "out",
+    "txt": "Mas atenção: parábola não é fábula com moral bonitinha no final. Quase sempre tem uma virada. Uma hora em que a história faz o contrário do que o ouvinte esperava. É ali que mora o incômodo."
+   },
+   {
+    "gravura": "061",
+    "mov": "in",
+    "txt": "Agora, a frase difícil. Os discípulos perguntaram por que ele falava em parábolas. E Jesus respondeu citando o profeta Isaías: eles olham e não veem, ouvem e não entendem.",
+    "verso": "Vendo, não veem; ouvindo, não ouvem.",
+    "ref": "MATEUS 13.13"
+   },
+   {
+    "gravura": "044",
+    "mov": "cima",
+    "txt": "Parece duro, né? Mas repara no que acontece em seguida. Para quem se aproxima e pergunta, Jesus explica tudo. A parábola não fecha a porta. Ela separa quem só assiste de quem quer entender."
+   },
+   {
+    "gravura": "062",
+    "mov": "esq",
+    "txt": "A mesma história que abre o coração de um endurece o orgulho de outro. Quem chega com fome de Deus encontra pão. Quem chega só pra criticar vai embora com uma charada. Primeira pergunta respondida."
+   },
+   {
+    "gravura": "070",
+    "mov": "dir",
+    "txt": "Por isso a parábola é tão poderosa. Ela passa pela defesa da pessoa e, quando ela percebe, já está dentro da história."
+   },
+   {
+    "gravura": "053",
+    "mov": "out",
+    "txt": "Tá comigo até aqui? Então já dá pra entender o resto. Parábola é espelho. E agora a gente vai olhar nesse espelho nove vezes.",
+    "interage": {
+     "tipo": "checkin",
+     "txt": "Parábola é espelho. Tá comigo?"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "030",
+    "mov": "in",
+    "txt": "Primeira história: o semeador. Um homem sai pra semear e joga a semente. Uma parte cai à beira do caminho, e os pássaros comem.",
+    "cap": {
+     "sup": "PARADA 2",
+     "txt": "O semeador"
+    }
+   },
+   {
+    "gravura": "067",
+    "mov": "esq",
+    "txt": "Outra parte cai em terreno cheio de pedra. Brota rápido, mas não tem raiz. O sol esquenta e a planta seca."
+   },
+   {
+    "gravura": "029",
+    "mov": "dir",
+    "txt": "Outra parte cai no meio dos espinhos, que crescem junto e sufocam a planta. E uma parte cai em terra boa e dá fruto: trinta, sessenta, cem por um."
+   },
+   {
+    "gravura": "054",
+    "mov": "out",
+    "txt": "Jesus termina com uma frase curta, quase um chamado de atenção: quem tem ouvidos pra ouvir, ouça.",
+    "verso": "Quem tem ouvidos para ouvir, ouça.",
+    "ref": "MARCOS 4.9"
+   },
+   {
+    "gravura": "062",
+    "mov": "in",
+    "txt": "Qual era o choque? Jesus estava sendo seguido por multidões. A parábola avisa: nem todo mundo ali estava com ele. A mesma palavra cai em todo mundo, mas nem todo mundo deixa ela crescer."
+   },
+   {
+    "gravura": "066",
+    "mov": "cima",
+    "txt": "E o próprio Jesus explica. O caminho é quem ouve e não entende. As pedras são quem recebe com alegria, mas desiste na primeira dificuldade."
+   },
+   {
+    "gravura": "070",
+    "mov": "esq",
+    "txt": "Os espinhos são as preocupações da vida e a ilusão das riquezas, que sufocam a palavra. E a terra boa é quem ouve, entende e dá fruto."
+   },
+   {
+    "gravura": "053",
+    "mov": "dir",
+    "txt": "A pergunta pra você hoje não é se você ouve a palavra. Você ouve, tá ouvindo agora. A pergunta é: o que tá sufocando ela? Pressa, medo, celular, conta pra pagar?"
+   },
+   {
+    "gravura": "065",
+    "mov": "out",
+    "txt": "Me conta uma coisa, com sinceridade. Hoje, qual desses terrenos mais parece com você? Caminho, pedra, espinho ou terra boa? Escreve aqui embaixo.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Qual terreno você é hoje?"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "066",
+    "mov": "in",
+    "txt": "Segunda história. Um mestre da lei quer testar Jesus e pergunta: o que eu faço pra herdar a vida eterna? A resposta é amar a Deus e amar o próximo. Aí ele insiste: e quem é o meu próximo?",
+    "cap": {
+     "sup": "PARADA 3",
+     "txt": "O bom samaritano"
+    }
+   },
+   {
+    "gravura": "053",
+    "mov": "esq",
+    "txt": "Jesus responde com uma história. Um homem descia de Jerusalém para Jericó. Foi assaltado, espancado e largado na estrada, meio morto."
+   },
+   {
+    "gravura": "077",
+    "mov": "dir",
+    "txt": "Passa um sacerdote. Vê o homem e passa pelo outro lado. Passa um levita, alguém que servia no templo. Também vê e passa pelo outro lado."
+   },
+   {
+    "gravura": "073",
+    "mov": "in",
+    "txt": "Aí chega um samaritano. Ele vê o homem e tem compaixão. Limpa as feridas com óleo e vinho, faz curativo, coloca o ferido no próprio animal e leva até uma hospedaria."
+   },
+   {
+    "gravura": "074",
+    "mov": "out",
+    "txt": "No dia seguinte, ainda deixa duas moedas de prata com o dono da hospedaria e diz: cuida dele, e o que gastar a mais, eu pago quando voltar."
+   },
+   {
+    "gravura": "078",
+    "mov": "cima",
+    "txt": "Agora o choque. Judeus e samaritanos não se davam. O Evangelho de João diz isso com todas as letras: judeus não se davam com samaritanos."
+   },
+   {
+    "gravura": "073",
+    "mov": "esq",
+    "txt": "Pra quem ouvia, o herói da história era o inimigo. Os religiosos passaram reto, e quem parou foi justamente o cara que eles evitavam."
+   },
+   {
+    "gravura": "074",
+    "mov": "dir",
+    "txt": "E repara na virada final. Jesus não responde quem é o meu próximo. Ele pergunta: qual dos três foi o próximo do homem ferido? O mestre da lei nem consegue dizer a palavra samaritano. Diz só: o que teve misericórdia.",
+    "verso": "Vá e faça o mesmo.",
+    "ref": "LUCAS 10.37"
+   },
+   {
+    "gravura": "070",
+    "mov": "in",
+    "txt": "A pergunta pra você: quem é a pessoa que você atravessa a rua pra não encontrar? Às vezes o próximo é exatamente quem a gente não escolheria."
+   },
+   {
+    "gravura": "062",
+    "mov": "out",
+    "txt": "Agora pensa: alguém já foi o seu bom samaritano? Alguém que parou quando todo mundo passou reto? Escreve o nome ou só a inicial dessa pessoa nos comentários.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Quem parou por você?"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "092",
+    "mov": "esq",
+    "txt": "Pausa rápida na viagem. Se você quer ler os Evangelhos e as parábolas com um caminho certo, eu preparei a Rota da Primeira Viagem, grátis. Comenta ROTA ou pega no link da descrição.",
+    "cta": "Comenta <b>ROTA</b><br>e receba a rota grátis"
+   },
+   {
+    "gravura": "069",
+    "mov": "in",
+    "txt": "Terceira história, e talvez a mais famosa. Mas antes, olha pra quem estava ouvindo. Lucas conta que cobradores de impostos e pecadores chegavam perto pra ouvir Jesus.",
+    "cap": {
+     "sup": "PARADA 4",
+     "txt": "O filho pródigo e o irmão mais velho"
+    }
+   },
+   {
+    "gravura": "066",
+    "mov": "dir",
+    "txt": "E os fariseus e os mestres da lei reclamavam: esse homem recebe pecadores e come com eles. É pra essa plateia, misturada, que Jesus conta três histórias seguidas."
+   },
+   {
+    "gravura": "014",
+    "mov": "out",
+    "txt": "Um homem tinha dois filhos. O mais novo pede a parte da herança. Ainda com o pai vivo. Na prática, é como dizer: o que eu quero de você é o seu dinheiro, não você."
+   },
+   {
+    "gravura": "016",
+    "mov": "esq",
+    "txt": "O pai divide os bens. O filho junta tudo, vai pra uma terra distante e gasta o que tem vivendo de forma desregrada."
+   },
+   {
+    "gravura": "075",
+    "mov": "in",
+    "txt": "Acaba o dinheiro, chega uma fome grande na região. Ele vai cuidar de porcos, animal impuro para os judeus. E tinha vontade de comer até a comida que os porcos comiam."
+   },
+   {
+    "gravura": "044",
+    "mov": "cima",
+    "txt": "Aí vem uma frase linda: ele caiu em si. E decide voltar. Ensaia o discurso: pai, pequei contra o céu e contra você. Não mereço ser chamado seu filho."
+   },
+   {
+    "gravura": "005",
+    "mov": "dir",
+    "txt": "Mas o pai vê o filho ainda longe. Tem compaixão, corre, abraça e beija. O filho nem termina o discurso ensaiado.",
+    "verso": "Correu, abraçou-o e o beijou.",
+    "ref": "LUCAS 15.20"
+   },
+   {
+    "gravura": "082",
+    "mov": "out",
+    "txt": "O pai manda trazer a melhor roupa, um anel pro dedo e sandália pros pés. Mata o bezerro gordo e faz festa. Esse filho estava morto e voltou a viver. Estava perdido e foi achado."
+   },
+   {
+    "gravura": "009",
+    "mov": "in",
+    "txt": "Mas a história não acaba aí. O filho mais velho volta do campo, ouve a música e fica furioso. E não quer entrar."
+   },
+   {
+    "gravura": "065",
+    "mov": "esq",
+    "txt": "Ele desabafa: tantos anos eu te sirvo, nunca desobedeci uma ordem sua e você nunca me deu nem um cabrito pra festejar com os amigos. Mas esse seu filho chega, e você mata o bezerro gordo."
+   },
+   {
+    "gravura": "005",
+    "mov": "cima",
+    "txt": "Repara: o pai sai de casa duas vezes. Uma pra correr até o filho perdido lá fora. Outra pra implorar ao filho certinho que entre. Os dois estavam longe do pai, cada um do seu jeito.",
+    "verso": "Filho, tudo o que é meu é seu.",
+    "ref": "LUCAS 15.31"
+   },
+   {
+    "gravura": "066",
+    "mov": "dir",
+    "txt": "E aqui fecha a primeira pergunta do começo. Jesus termina a história sem dizer se o irmão mais velho entrou. Por quê? Porque o irmão mais velho estava ali, na plateia: os religiosos que reclamavam."
+   },
+   {
+    "gravura": "070",
+    "mov": "out",
+    "txt": "O final aberto era um convite. Jesus deixa a porta da festa aberta e passa a pergunta pra eles. E pra nós. Você entra na festa quando Deus perdoa alguém que você acha que não merecia?"
+   },
+   {
+    "gravura": "092",
+    "mov": "in",
+    "txt": "Se essa história mexeu com você, segue o canal agora. É exatamente esse tipo de viagem que a gente faz aqui: abrir a Bíblia devagar até ela falar com você.",
+    "interage": {
+     "tipo": "segue",
+     "txt": "Segue pra próxima viagem"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "043",
+    "mov": "in",
+    "txt": "Quarta história. Um homem rico se vestia de púrpura e linho fino, e todo dia dava banquete. Lucas conta que os fariseus, que amavam o dinheiro, estavam ouvindo e zombavam de Jesus.",
+    "cap": {
+     "sup": "PARADA 5",
+     "txt": "O rico e Lázaro"
+    }
+   },
+   {
+    "gravura": "075",
+    "mov": "esq",
+    "txt": "No portão da casa dele ficava um pobre coberto de feridas. Queria comer as migalhas que caíam da mesa. E os cães vinham lamber as feridas dele."
+   },
+   {
+    "gravura": "076",
+    "mov": "cima",
+    "txt": "E aqui está a segunda pergunta do começo. O pobre tem nome: Lázaro. É o único personagem com nome próprio em todas as parábolas de Jesus. E o rico, que tinha tudo, fica sem nome nenhum."
+   },
+   {
+    "gravura": "053",
+    "mov": "dir",
+    "txt": "O mundo sabia o nome do rico. Ninguém sabia o nome do mendigo. Na história de Jesus, é o contrário. Deus sabe o nome de quem a gente nem enxerga no portão."
+   },
+   {
+    "gravura": "041",
+    "mov": "in",
+    "txt": "Os dois morrem. Lázaro é levado pelos anjos para junto de Abraão. O rico vai para o lugar dos mortos, em tormento. E de lá pede uma gota de água."
+   },
+   {
+    "gravura": "089",
+    "mov": "out",
+    "txt": "Abraão responde que existe um grande abismo entre eles. Então o rico pede: manda Lázaro avisar meus cinco irmãos. E a resposta é dura: eles têm Moisés e os profetas. Que ouçam.",
+    "verso": "Nem se alguém ressuscitar dos mortos, se convencerão.",
+    "ref": "LUCAS 16.31"
+   },
+   {
+    "gravura": "051",
+    "mov": "esq",
+    "txt": "O choque: muita gente via a riqueza como prova de que Deus aprovava a pessoa. E Jesus vira tudo. O rico não é condenado por ser rico. É pela indiferença, por passar a vida inteira sem ver Lázaro no próprio portão."
+   },
+   {
+    "gravura": "044",
+    "mov": "dir",
+    "txt": "Existem leituras diferentes sobre o quanto essa história descreve os detalhes da vida depois da morte. Mas o recado central é claro pra todo mundo: o tempo de ouvir e mudar é agora."
+   },
+   {
+    "gravura": "063",
+    "mov": "out",
+    "txt": "Respira um pouco, que essa pesa. Pensa só numa coisa: quem é o Lázaro no seu portão? Alguém perto, que você vê todo dia e já parou de enxergar.",
+    "interage": {
+     "tipo": "checkin",
+     "txt": "Respira. Essa pesa, né?"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "077",
+    "mov": "in",
+    "txt": "Quinta história. Lucas diz pra quem ela foi contada: pra alguns que confiavam em si mesmos, achando que eram justos, e desprezavam os outros. Dois homens sobem ao templo pra orar.",
+    "cap": {
+     "sup": "PARADA 6",
+     "txt": "O fariseu e o publicano"
+    }
+   },
+   {
+    "gravura": "066",
+    "mov": "esq",
+    "txt": "Um era fariseu. Gente respeitada, que levava a lei de Deus muito a sério. O outro era publicano, cobrador de impostos, visto pelo povo como traidor e ladrão."
+   },
+   {
+    "gravura": "037",
+    "mov": "cima",
+    "txt": "O fariseu ora de pé: ó Deus, eu te agradeço porque não sou como os outros, ladrões, injustos, adúlteros. Nem como esse publicano aí. Jejuo duas vezes por semana e dou o dízimo de tudo."
+   },
+   {
+    "gravura": "046",
+    "mov": "dir",
+    "txt": "O publicano fica de longe. Nem levanta os olhos pro céu. Bate no peito e diz só uma frase.",
+    "verso": "Ó Deus, tem misericórdia de mim, pecador.",
+    "ref": "LUCAS 18.13"
+   },
+   {
+    "gravura": "077",
+    "mov": "out",
+    "txt": "E Jesus conclui: foi esse que voltou pra casa justificado diante de Deus, e não o outro. Quem se exalta será humilhado, e quem se humilha será exaltado."
+   },
+   {
+    "gravura": "070",
+    "mov": "in",
+    "txt": "Pra plateia, era de cair o queixo. O homem religioso sai perdendo, e o cobrador de impostos sai perdoado. Mas porque o fariseu orou olhando pra si mesmo e pro defeito do outro."
+   },
+   {
+    "gravura": "053",
+    "mov": "esq",
+    "txt": "E aqui tem uma armadilha escondida. É muito fácil ler essa história e pensar: ainda bem que eu não sou como esse fariseu. Percebeu? Aí a gente virou o fariseu."
+   },
+   {
+    "gravura": "081",
+    "mov": "dir",
+    "txt": "A pergunta pra você: quando você ora, você fala com Deus ou se compara com os outros? Às vezes a oração mais honesta cabe numa frase só."
+   },
+   {
+    "gravura": "029",
+    "mov": "in",
+    "txt": "Sexta história, e essa irrita muita gente até hoje. Um dono de vinha sai bem cedo e contrata trabalhadores por uma moeda de prata, o pagamento de um dia.",
+    "cap": {
+     "sup": "PARADA 7",
+     "txt": "Os trabalhadores da vinha"
+    }
+   },
+   {
+    "gravura": "067",
+    "mov": "esq",
+    "txt": "Ele sai de novo no meio da manhã, ao meio-dia, no meio da tarde. E sai até no fim do dia, quando faltava uma hora pro serviço acabar, e contrata mais gente."
+   },
+   {
+    "gravura": "030",
+    "mov": "dir",
+    "txt": "Na hora de pagar, ele começa pelos últimos. E dá uma moeda pra cada um. Os primeiros pensam: opa, a gente vai ganhar mais. E recebem a mesma moeda."
+   },
+   {
+    "gravura": "066",
+    "mov": "out",
+    "txt": "Eles reclamam: esses trabalharam uma hora só, e você igualou a gente, que aguentou o peso do dia e o calor. Confesso: eu já fiquei do lado deles."
+   },
+   {
+    "gravura": "036",
+    "mov": "in",
+    "txt": "Mas o dono responde: amigo, não estou sendo injusto com você. Você não combinou uma moeda? Eu quero dar ao último o mesmo que dei a você.",
+    "verso": "Ou você tem inveja porque eu sou bom?",
+    "ref": "MATEUS 20.15"
+   },
+   {
+    "gravura": "063",
+    "mov": "cima",
+    "txt": "Repara: ninguém foi enganado. Os primeiros receberam o combinado. O problema não era injustiça. Era a bondade do patrão com os outros. A história termina assim: os últimos serão primeiros, e os primeiros, últimos."
+   },
+   {
+    "gravura": "062",
+    "mov": "esq",
+    "txt": "O choque era pra quem achava que tinha mais direito ao amor de Deus porque chegou antes. A graça não é salário por hora. É presente."
+   },
+   {
+    "gravura": "065",
+    "mov": "dir",
+    "txt": "A pergunta pra você: fica difícil se alegrar quando Deus é generoso com alguém que chegou depois? Essa parábola foi feita exatamente pra esse incômodo."
+   },
+   {
+    "gravura": "083",
+    "mov": "in",
+    "txt": "Sétima história. Dez moças esperam o noivo pra uma festa de casamento, com lâmpadas de óleo. Cinco são prudentes e levam óleo de reserva. Cinco são insensatas e não levam.",
+    "cap": {
+     "sup": "PARADA 8",
+     "txt": "As dez virgens e os talentos"
+    }
+   },
+   {
+    "gravura": "089",
+    "mov": "esq",
+    "txt": "O noivo demora, e todas dormem. À meia-noite alguém grita: o noivo está chegando! As lâmpadas das insensatas estão se apagando, e elas pedem óleo às outras."
+   },
+   {
+    "gravura": "081",
+    "mov": "dir",
+    "txt": "As prudentes dizem não, porque pode faltar pra todas. Vão comprar. Enquanto isso o noivo chega, as que estavam prontas entram, e a porta se fecha. As outras batem e ouvem: eu não conheço vocês.",
+    "verso": "Vigiem, porque vocês não sabem o dia nem a hora.",
+    "ref": "MATEUS 25.13"
+   },
+   {
+    "gravura": "053",
+    "mov": "out",
+    "txt": "O choque aqui é a porta fechada. Parece duro as prudentes não dividirem. Mas tem coisa que não dá pra pegar emprestado. Ninguém vive a fé de Deus no lugar de outra pessoa."
+   },
+   {
+    "gravura": "044",
+    "mov": "cima",
+    "txt": "Existem leituras diferentes sobre o que exatamente o óleo representa. Mas a pergunta é a mesma pra todas: se o noivo chegasse hoje, a sua lâmpada estaria acesa?"
+   },
+   {
+    "gravura": "016",
+    "mov": "in",
+    "txt": "Oitava história, no mesmo capítulo. Um homem vai viajar e entrega seus bens aos servos. A um dá cinco talentos, a outro dois, a outro um. Cada um de acordo com a sua capacidade."
+   },
+   {
+    "gravura": "018",
+    "mov": "esq",
+    "txt": "Talento, na época, era uma quantia enorme de dinheiro, não uma habilidade. Curiosidade: é por causa dessa parábola que a palavra talento passou a significar dom."
+   },
+   {
+    "gravura": "036",
+    "mov": "dir",
+    "txt": "O de cinco negocia e ganha mais cinco. O de dois ganha mais dois. E os dois ouvem a mesma frase do senhor, mesmo com resultados diferentes.",
+    "verso": "Muito bem, servo bom e fiel! Foi fiel no pouco.",
+    "ref": "MATEUS 25.21"
+   },
+   {
+    "gravura": "012",
+    "mov": "out",
+    "txt": "Mas o de um talento cava um buraco e esconde o dinheiro. Quando o senhor volta, ele diz: eu sabia que o senhor é um homem duro. Tive medo e escondi."
+   },
+   {
+    "gravura": "065",
+    "mov": "in",
+    "txt": "O choque: o servo não roubou nada. Devolveu tudo certinho. E mesmo assim é repreendido. Porque o problema dele foi o medo. Ele enxergava o senhor como alguém duro, e por isso não arriscou nada."
+   },
+   {
+    "gravura": "053",
+    "mov": "esq",
+    "txt": "A pergunta pra você: o que Deus colocou na sua mão que você enterrou por medo? Um dom, um chamado, uma conversa adiada?"
+   },
+   {
+    "gravura": "070",
+    "mov": "dir",
+    "txt": "Se até aqui alguma dessas histórias te cutucou, salva esse vídeo. Vale ouvir de novo com calma, uma parábola por dia, com a Bíblia aberta do lado.",
+    "interage": {
+     "tipo": "salva",
+     "txt": "Salva: uma parábola por dia"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "015",
+    "mov": "in",
+    "txt": "Última história, e eu guardei de propósito. Ela vem logo antes do filho pródigo. Um pastor tem cem ovelhas e perde uma. Ele deixa as noventa e nove e vai atrás da perdida, até encontrar.",
+    "cap": {
+     "sup": "PARADA 9",
+     "txt": "A ovelha perdida e como ler uma parábola"
+    }
+   },
+   {
+    "gravura": "005",
+    "mov": "dir",
+    "txt": "Quando acha, coloca a ovelha nos ombros, todo alegre. Chama os amigos e vizinhos: alegrem-se comigo, eu achei a minha ovelha perdida."
+   },
+   {
+    "gravura": "062",
+    "mov": "cima",
+    "txt": "O choque: parece mau negócio largar noventa e nove por causa de uma. Mas Jesus diz que é assim no céu.",
+    "verso": "Há mais alegria no céu por um pecador que se arrepende.",
+    "ref": "LUCAS 15.7"
+   },
+   {
+    "gravura": "069",
+    "mov": "out",
+    "txt": "Lembra da plateia: religiosos reclamando que Jesus comia com pecadores. A resposta de Jesus foi: vocês reclamam do que o céu comemora. Se você já se sentiu a ovelha perdida, essa história é sua."
+   },
+   {
+    "gravura": "063",
+    "mov": "in",
+    "txt": "Agora, como ler qualquer parábola sozinho. Primeiro passo: leia os versículos antes da história. Veja quem estava ouvindo e o que tinham acabado de perguntar. A plateia explica muita coisa."
+   },
+   {
+    "gravura": "066",
+    "mov": "esq",
+    "txt": "Segundo passo: procure a virada. O momento em que a história faz o contrário do esperado. O samaritano que para, o pai que corre, o salário igual. O choque é o centro da mensagem."
+   },
+   {
+    "gravura": "061",
+    "mov": "dir",
+    "txt": "Terceiro passo: não force cada detalhe a virar símbolo. Existem leituras que veem sentido em muitos detalhes, e Jesus mesmo explica alguns. Mas o caminho seguro é buscar a mensagem principal primeiro."
+   },
+   {
+    "gravura": "053",
+    "mov": "cima",
+    "txt": "Quarto passo, o mais importante: pergunte onde você está na história. Você é o fariseu ou o publicano? O filho que voltou ou o irmão do lado de fora? Parábola é espelho, lembra?"
+   },
+   {
+    "gravura": "092",
+    "mov": "out",
+    "txt": "E a última pergunta do começo, o final que falta, fecha aqui. A parábola não termina na tela. Ela termina na sua resposta. O irmão mais velho somos nós, decidindo se entramos na festa."
+   },
+   {
+    "gravura": "073",
+    "mov": "in",
+    "txt": "Conhece alguém que acha que a Bíblia é só regra e cobrança? Manda esse vídeo pra essa pessoa. Talvez ela nunca tenha ouvido sobre o pai que corre.",
+    "interage": {
+     "tipo": "manda",
+     "txt": "Manda pra quem só vê regra"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "093",
+    "mov": "out",
+    "txt": "No próximo vídeo, a gente continua a viagem pelos milagres de Jesus. Até a próxima parada, viajante da Palavra.",
+    "cta": "Até a próxima <b>parada</b>,<br>viajante",
+    "selo": "PASSA<br>PORTE"
+   }
+  ]
  }
 ]
