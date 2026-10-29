@@ -1095,6 +1095,25 @@
   "gravB": "078"
  },
  {
+  "id": "longo-05",
+  "titulo": "O que você nunca percebeu em Gênesis",
+  "formato": "longo",
+  "legenda": "Gênesis explicado como uma viagem: criação, queda, Caim e Abel, dilúvio, Torre de Babel, Abraão, Isaque, Jacó e José. Um resumo de Gênesis capítulo por capítulo, com os detalhes que quase ninguém percebe na primeira leitura.\n\nVocê vai seguir o fio da promessa de Gênesis 3.15 e 12.3, entender por que Deus escolhe os improváveis e descobrir a frase de Gênesis 50.20 que explica o livro inteiro.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📖 Observação: os versículos aparecem em paráfrase curta, com a referência. Confira na sua tradução.\n\n🎫 Quer ler a Bíblia com rota, sem se perder? Baixe grátis a Rota da Primeira Viagem no link da descrição, ou comente ROTA.\n\n#Gênesis #EstudoBíblico #AntigoTestamento #HistóriasDaBíblia #PassaporteDaBíblia",
+  "comentario": "📌 Qual detalhe de Gênesis você nunca tinha percebido: Babel e Abraão lado a lado, o mais novo sempre escolhido, a túnica com sangue de cabrito ou Gênesis 50.20? Comenta aqui.",
+  "capaA": {
+   "texto": "Ninguém percebe isso",
+   "cor": "#FFB547",
+   "estilo": "clara"
+  },
+  "capaB": {
+   "texto": "O fio escondido",
+   "cor": "#3FD0D4",
+   "estilo": "clara"
+  },
+  "gravA": "002",
+  "gravB": "007"
+ },
+ {
   "id": "longo-06",
   "titulo": "Israel pediu um rei. Foi um erro?",
   "formato": "longo",
@@ -1112,6 +1131,25 @@
   },
   "gravA": "036",
   "gravB": "040"
+ },
+ {
+  "id": "longo-07",
+  "titulo": "Os profetas da Bíblia que quase ninguém entende",
+  "formato": "longo",
+  "legenda": "Os profetas da Bíblia sem complicar: o que é um profeta (e por que ele não é adivinho), a diferença entre profetas maiores e menores e o contexto de cada um, do reino dividido ao exílio na Babilônia e à volta para casa.\n\nVocê faz uma parada em Elias, Isaías 53, Jeremias e a nova aliança, Ezequiel e o vale de ossos secos, Daniel, Jonas, Amós, Miqueias 6.8 e Malaquias, e sai com 3 perguntas para ler qualquer livro profético do Antigo Testamento.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📖 Observação: os versículos aparecem em paráfrase curta, com a referência. Confira na sua tradução. As datas são aproximadas (por volta de) e a numeração de Malaquias muda conforme a Bíblia.\n\n🎫 Quer ler a Bíblia com um caminho certo? Baixe grátis a Rota da Primeira Viagem no link da descrição, ou comente ROTA.\n\n#ProfetasDaBíblia #AntigoTestamento #Isaías53 #EstudoBíblico #PassaporteDaBíblia",
+  "comentario": "📌 Qual profeta você vai ler primeiro depois deste vídeo: Jonas, Amós, Miqueias ou Malaquias? E das 3 perguntas para ler um profeta, qual mais te ajudou?",
+  "capaA": {
+   "texto": "Não é adivinho",
+   "cor": "#FFB547",
+   "estilo": "clara"
+  },
+  "capaB": {
+   "texto": "Ninguém entende?",
+   "cor": "#3FD0D4",
+   "estilo": "clara"
+  },
+  "gravA": "041",
+  "gravB": "047"
  },
  {
   "id": "longo-08",

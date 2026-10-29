@@ -49,9 +49,9 @@ def html(kind, c, grav):
 <div style="position:absolute;left:64px;top:150px;width:690px"><h1 style="font-size:104px">{titulo(c)}</h1><div class="fio" style="width:130px;margin-top:30px"></div></div>
 <div class="selo" style="width:230px;height:230px;right:70px;bottom:60px">{f'<img src="{ic}">' if ic else ''}</div></div>'''
     if kind == 'C':
-        return f'''<div class="c" style="width:1280px;height:720px"><div class="g" style="inset:-20px;background-image:url({img});background-position:50% 35%;filter:grayscale(1) sepia(.7) contrast(1.15) brightness(1.18) saturate(1.6)"></div>
+        return f'''<div class="c" style="width:1280px;height:720px"><div class="g" style="inset:-20px;background-image:url({img});background-position:50% 35%;filter:grayscale(1) sepia(.75) contrast(1.45) brightness(1.06) saturate(1.7)"></div>
 <div style="position:absolute;inset:0;background:radial-gradient(circle at 70% 30%,rgba(255,196,90,.45),rgba(255,140,40,0) 55%);mix-blend-mode:screen"></div>
-<div style="position:absolute;left:56px;bottom:56px;background:{c.get('cor', '#FFB547')};color:#14110B;font:800 92px/1 Manrope;padding:18px 34px;border-radius:18px;box-shadow:0 12px 40px rgba(0,0,0,.45);transform:rotate(-2deg)">{c['texto']}</div></div>'''
+<div style="position:absolute;left:56px;bottom:56px;background:{c.get('cor', '#FFB547')};color:#14110B;font:800 88px/1 Manrope;text-transform:uppercase;padding:18px 34px;border-radius:18px;box-shadow:0 12px 40px rgba(0,0,0,.45);transform:rotate(-2deg)">{c['texto']}</div></div>'''
     return f'''<div class="c" style="width:1280px;height:720px"><div class="g" style="inset:-20px;background-image:url({img});background-position:50% 40%"></div><div class="luz"></div><div class="vin"></div>
 <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,12,20,.15),rgba(10,12,20,.88) 70%)"></div>
 <div class="selo" style="width:210px;height:210px;left:64px;top:60px">{f'<img src="{ic}">' if ic else ''}</div>
