@@ -271,5 +271,173 @@
    "lado": "esq",
    "tag": "A VIDA DE JESUS"
   }
+ },
+ "pv-01": {
+  "V": {
+   "estilo": "vclose",
+   "grav": "091",
+   "txt": "A SEMANA <b>FINAL</b>",
+   "zoom": 0.85
+  }
+ },
+ "short-01": {
+  "V": {
+   "estilo": "vclose",
+   "grav": "053",
+   "txt": "NÃO <b>ENTENDE?</b>",
+   "zoom": 0.85
+  }
+ },
+ "short-02": {
+  "V": {
+   "estilo": "vclose",
+   "grav": "065",
+   "txt": "COMECE <b>AQUI</b>",
+   "zoom": 0.85
+  }
+ },
+ "short-03": {
+  "V": {
+   "estilo": "vclose",
+   "grav": "018",
+   "txt": "TRAVOU EM <b>LEVÍTICO?</b>",
+   "zoom": 0.85
+  }
+ },
+ "short-04": {
+  "V": {
+   "estilo": "vclose",
+   "grav": "092",
+   "txt": "<b>ATRASOU?</b>",
+   "zoom": 0.85
+  }
+ },
+ "short-05": {
+  "V": {
+   "estilo": "vclose",
+   "grav": "083",
+   "txt": "DÁ <b>SONO?</b>",
+   "zoom": 0.85
+  }
+ },
+ "short-06": {
+  "V": {
+   "estilo": "vclose",
+   "grav": "028",
+   "txt": "AMOR <b>LEAL</b>",
+   "zoom": 0.85
+  }
+ },
+ "short-07": {
+  "V": {
+   "estilo": "vclose",
+   "grav": "068",
+   "txt": "<b>JONAS</b> E JESUS",
+   "zoom": 0.85
+  }
+ },
+ "short-08": {
+  "V": {
+   "estilo": "vclose",
+   "grav": "020",
+   "txt": "6 <b>PARADAS</b>",
+   "zoom": 0.85
+  }
+ },
+ "short-09": {
+  "V": {
+   "estilo": "vclose",
+   "grav": "013",
+   "txt": "POR QUE <b>LISTAS?</b>",
+   "zoom": 0.85
+  }
+ },
+ "short-10": {
+  "V": {
+   "estilo": "vclose",
+   "grav": "099",
+   "txt": "MEDO DO <b>FIM?</b>",
+   "zoom": 0.85
+  }
+ },
+ "short-11": {
+  "V": {
+   "estilo": "vclose",
+   "grav": "025",
+   "txt": "FORTE E <b>FRACO</b>",
+   "zoom": 0.85
+  }
+ },
+ "short-12": {
+  "V": {
+   "estilo": "vclose",
+   "grav": "052",
+   "txt": "O <b>DETALHE</b>",
+   "zoom": 0.85
+  }
+ },
+ "short-13": {
+  "V": {
+   "estilo": "vclose",
+   "grav": "036",
+   "txt": "1 POR <b>DIA</b>",
+   "zoom": 0.85
+  }
+ },
+ "short-14": {
+  "V": {
+   "estilo": "vclose",
+   "grav": "073",
+   "txt": "QUEM É O <b>PRÓXIMO?</b>",
+   "zoom": 0.85
+  }
+ },
+ "short-15": {
+  "V": {
+   "estilo": "vclose",
+   "grav": "018",
+   "txt": "VIROU <b>GOVERNADOR</b>",
+   "zoom": 0.85
+  }
+ },
+ "short-16": {
+  "V": {
+   "estilo": "vclose",
+   "grav": "044",
+   "txt": "PEDIU PRA <b>MORRER</b>",
+   "zoom": 0.85
+  }
+ },
+ "short-17": {
+  "V": {
+   "estilo": "vclose",
+   "grav": "048",
+   "txt": "OSSOS <b>VIVOS?</b>",
+   "zoom": 0.85
+  }
+ },
+ "short-18": {
+  "V": {
+   "estilo": "vclose",
+   "grav": "011",
+   "txt": "POR QUE <b>ISAQUE?</b>",
+   "zoom": 0.85
+  }
+ },
+ "short-19": {
+  "V": {
+   "estilo": "vclose",
+   "grav": "068",
+   "txt": "POR QUE <b>AFUNDOU?</b>",
+   "zoom": 0.85
+  }
+ },
+ "short-20": {
+  "V": {
+   "estilo": "vclose",
+   "grav": "046",
+   "txt": "QUANDO ESTIVER <b>MAL</b>",
+   "zoom": 0.85
+  }
  }
 }

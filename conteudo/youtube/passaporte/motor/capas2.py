@@ -75,12 +75,20 @@ def duelo(c):
 <div class="t" style="right:40px;bottom:92px;font-size:{c.get('fs', 128)}px;width:600px;text-align:right">{c['txt2']}</div>
 <div class="mk" style="left:40px;top:36px">PASSAPORTE DA BÍBLIA</div>''')
 
-ESTILOS = dict(close=close, duelo=duelo)
+def vclose(c):
+    im = recorte(c['grav'], c.get('zoom', .8), c.get('foco'), ar=9 / 16, W=1080, H=1920)
+    return pagina(f'''<style>body{{width:1080px;height:1920px}}</style><div class="bg" style="background-image:url({uri(im)});filter:brightness(1.35) contrast(1.12) saturate(1.15)"></div>
+<div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 45%,rgba(0,0,0,.7) 85%)"></div>
+<div class="mk" style="left:0;right:0;text-align:center;top:90px;font-size:26px">PASSAPORTE DA BÍBLIA</div>
+<div class="t" style="left:60px;right:60px;text-align:center;bottom:330px;font-size:{c.get('fs', 190)}px;line-height:.9">{c['txt']}</div>
+{f'<div class="tag" style="left:50%;transform:translateX(-50%) rotate(-3deg);top:150px;font-size:44px">{c["tag"]}</div>' if c.get('tag') else ''}''')
+
+ESTILOS = dict(close=close, duelo=duelo, vclose=vclose)
 CAPAS = json.load(open(RAIZ + '/capas_v2.json'))
 ids = sys.argv[1:] or list(CAPAS)
 pages = []
 for k in ids:
     for var, c in CAPAS[k].items():
-        f = f'{TMP}/{k}-{var}.html'; open(f, 'w').write(ESTILOS[c['estilo']](c)); pages.append((f, f'{OUT}/{k}-{var}.jpg'))
-js = "const {chromium}=require('playwright');(async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:1280,height:720}});for(const [f,o] of " + json.dumps(pages) + "){await p.goto('file://'+f,{waitUntil:'networkidle'});await p.evaluate(()=>document.fonts.ready);await p.screenshot({path:o,type:'jpeg',quality:92})}await b.close()})()"
+        f = f'{TMP}/{k}-{var}.html'; open(f, 'w').write(ESTILOS[c['estilo']](c)); v = c['estilo'] == 'vclose'; pages.append((f, f'{OUT}/{k}' + ('' if v else f'-{var}') + '.jpg', 1080 if v else 1280, 1920 if v else 720))
+js = "const {chromium}=require('playwright');(async()=>{const b=await chromium.launch();for(const [f,o,w,h] of " + json.dumps(pages) + "){const p=await b.newPage({viewport:{width:w,height:h}});await p.goto('file://'+f,{waitUntil:'networkidle'});await p.evaluate(()=>document.fonts.ready);await p.screenshot({path:o,type:'jpeg',quality:92});await p.close()}await b.close()})()"
 subprocess.run(['node', '-e', js], check=True); print(len(pages), 'capas em', OUT)
