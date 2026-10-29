@@ -88,5 +88,23 @@
   "licenca": "Public domain",
   "url_commons": "https://commons.wikimedia.org/wiki/File:Hannibal_and_Scipio_Africanus.jpg",
   "busca": "Scipio Africanus painting"
+ },
+ {
+  "arquivo": "jean_l_on_g_r_me_the_death_of_caesar_walters_378.jpg",
+  "titulo": "File:Jean-Léon Gérôme - The Death of Caesar - Walters 37884.jpg",
+  "autor": "Jean-Léon Gérôme",
+  "data": "between 1859 and 1867date QS:P571,+1850-00-00T00:00:00Z/7,P1319,+1859-00-00T00:00:00Z/9,P1326,+1867-00-00T00:00:00Z/9",
+  "licenca": "Public domain",
+  "url_commons": "https://commons.wikimedia.org/wiki/File:Jean-L%C3%A9on_G%C3%A9r%C3%B4me_-_The_Death_of_Caesar_-_Walters_37884.jpg",
+  "busca": "Death of Caesar painting"
+ },
+ {
+  "arquivo": "gerome_death_of_caesar.jpg",
+  "titulo": "File:Gerome Death of Caesar.jpg",
+  "autor": "Jean-Léon Gérôme",
+  "data": "1867date QS:P571,+1867-00-00T00:00:00Z/9",
+  "licenca": "Public domain",
+  "url_commons": "https://commons.wikimedia.org/wiki/File:Gerome_Death_of_Caesar.jpg",
+  "busca": "Death of Caesar painting"
  }
 ]
