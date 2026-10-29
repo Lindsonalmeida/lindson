@@ -29,7 +29,7 @@
   {
    "gravura": "044",
    "mov": "out",
-   "txt": "Depois a gente faz uma parada em cada um dos principais: Elias, Isaías, Jeremias, Ezequiel, Daniel, Jonas, Amós, Miqueias e Malaquias. Um de cada vez, sem pressa e sem complicar."
+   "txt": "Depois a gente faz uma parada em cada um dos principais: Elias, Isaías, Jeremias, Ezequiel, Daniel, Jonas, Amós, Miqueias e Malaquias."
   },
   {
    "gravura": "041",
@@ -113,7 +113,7 @@
   {
    "gravura": "049",
    "mov": "esq",
-   "txt": "Pra você ter uma ideia: Isaías tem sessenta e seis capítulos. Jeremias tem cinquenta e dois. Ezequiel, quarenta e oito. São livros enormes, escritos pra serem lidos com calma."
+   "txt": "Pra você ter uma ideia: Isaías tem sessenta e seis capítulos. Jeremias tem cinquenta e dois. Ezequiel, quarenta e oito. São livros enormes."
   },
   {
    "gravura": "054",
@@ -123,12 +123,12 @@
   {
    "gravura": "053",
    "mov": "in",
-   "txt": "Então, menor não quer dizer menos importante. Um dos versículos mais famosos da Bíblia sobre justiça está num profeta menor. Segura essa, porque a gente vai chegar nele."
+   "txt": "Então, menor não quer dizer menos importante. Um dos versículos mais famosos da Bíblia sobre justiça está num profeta menor. A gente vai chegar nele."
   },
   {
    "gravura": "036",
    "mov": "dir",
-   "txt": "Pergunta rápida: antes deste vídeo, você achava que profeta menor era profeta menos importante? Responde sim ou não nos comentários. Sem vergonha nenhuma, muita gente pensa assim.",
+   "txt": "Pergunta rápida: antes deste vídeo, você achava que profeta menor era profeta menos importante? Responde sim ou não nos comentários. Muita gente pensa assim.",
    "interage": {
     "tipo": "comenta",
     "txt": "Achava? Sim ou não"
@@ -189,7 +189,7 @@
   },
   {
    "gravura": "040",
-   "mov": "in",
+   "mov": "cima",
    "txt": "Primeira parada nos profetas: Elias. Ele não escreveu nenhum livro, mas é um dos profetas mais importantes da Bíblia. A história dele está em Primeiro e Segundo Reis.",
    "cap": {
     "sup": "PARADA 4",
@@ -209,7 +209,7 @@
   {
    "gravura": "047",
    "mov": "dir",
-   "txt": "Antes do desafio, ele olha pro povo e pergunta: até quando vocês vão ficar mancando entre duas opiniões? Se o Senhor é Deus, sigam o Senhor. Se é Baal, sigam Baal.",
+   "txt": "Antes do desafio, ele olha pro povo e pergunta: até quando vocês vão ficar mancando entre duas opiniões? Se o Senhor é Deus, sigam o Senhor.",
    "verso": "Até quando ficarão indecisos? Se o Senhor é Deus, sigam-no.",
    "ref": "1 REIS 18.21"
   },
@@ -238,7 +238,7 @@
   {
    "gravura": "044",
    "mov": "in",
-   "txt": "Talvez você esteja debaixo dessa árvore hoje, cansado depois de uma batalha. Se for o seu caso, escreve: debaixo da árvore. Você não está sozinho nisso. Elias também não estava.",
+   "txt": "Talvez você esteja debaixo dessa árvore hoje, cansado depois de uma batalha. Se for o seu caso, escreve: debaixo da árvore. Elias também se sentiu assim.",
    "interage": {
     "tipo": "comenta",
     "txt": "Escreve: debaixo da árvore"
@@ -252,12 +252,12 @@
   {
    "gravura": "092",
    "mov": "in",
-   "txt": "Pausa rápida na viagem. Se você quer ler a Bíblia com um caminho certo, sem se perder nos livros difíceis, eu preparei a Rota da Primeira Viagem, grátis. Comenta ROTA ou pega no link da descrição.",
+   "txt": "Pausa rápida na viagem. Se você quer ler a Bíblia com um caminho certo, eu preparei a Rota da Primeira Viagem, grátis. Comenta ROTA ou pega no link da descrição.",
    "cta": "Comenta <b>ROTA</b><br>e receba a rota grátis"
   },
   {
    "gravura": "047",
-   "mov": "in",
+   "mov": "dir",
    "txt": "Agora, Isaías. Ele profetiza em Jerusalém, no reino do sul, no tempo em que a Assíria ameaçava tudo. É um dos livros mais citados no Novo Testamento.",
    "cap": {
     "sup": "PARADA 5",
@@ -277,7 +277,7 @@
   {
    "gravura": "057",
    "mov": "dir",
-   "txt": "Um menino que vai ser chamado Maravilhoso Conselheiro, Deus Forte, Príncipe da Paz. E fala de um mundo novo, em que o lobo vai morar junto com o cordeiro."
+   "txt": "Um menino que vai ser chamado Maravilhoso Conselheiro, Deus Forte, Príncipe da Paz. E de um mundo em que o lobo mora com o cordeiro."
   },
   {
    "gravura": "053",
@@ -292,7 +292,7 @@
   {
    "gravura": "088",
    "mov": "cima",
-   "txt": "E vem a frase que atravessa os séculos: ele foi ferido por causa das nossas transgressões, esmagado por causa das nossas culpas. O castigo que nos traz a paz caiu sobre ele.",
+   "txt": "E vem a frase central: ele foi ferido por causa das nossas transgressões, esmagado por causa das nossas culpas. O castigo que nos traz a paz caiu sobre ele.",
    "verso": "Ele foi ferido por causa das nossas transgressões.",
    "ref": "ISAÍAS 53.5"
   },
@@ -317,7 +317,7 @@
   },
   {
    "gravura": "046",
-   "mov": "in",
+   "mov": "cima",
    "txt": "Agora, Jeremias. Ele é chamado de profeta chorão, e tem motivo. Deus o chamou ainda jovem, e a primeira resposta dele foi: eu não sei falar, sou só um menino.",
    "cap": {
     "sup": "PARADA 6",
@@ -327,7 +327,7 @@
   {
    "gravura": "044",
    "mov": "esq",
-   "txt": "Jeremias prega em Jerusalém nos anos antes da queda. A mensagem dele é dura: a Babilônia vai vir, e a cidade vai cair. Ninguém quer ouvir isso, muito menos o rei."
+   "txt": "Jeremias prega em Jerusalém nos anos antes da queda. A mensagem dele é dura: a Babilônia vai vir, e a cidade vai cair. Ninguém quer ouvir."
   },
   {
    "gravura": "055",
@@ -354,7 +354,7 @@
   {
    "gravura": "049",
    "mov": "out",
-   "txt": "Enquanto Jeremias chora em Jerusalém, Ezequiel já está no exílio. Ele era sacerdote e foi levado pra Babilônia com os primeiros deportados. É lá, longe de casa, que Deus o chama."
+   "txt": "Enquanto Jeremias chora em Jerusalém, Ezequiel já está no exílio. Ele era sacerdote e foi levado pra Babilônia com os primeiros deportados. Lá, Deus o chama."
   },
   {
    "gravura": "053",
@@ -416,7 +416,7 @@
   {
    "gravura": "053",
    "mov": "cima",
-   "txt": "E Deus fecha a boca dos leões. O recado de Daniel é simples: os impérios sobem e caem, mas quem governa a história é Deus. Isso consola quem vive longe de casa."
+   "txt": "E Deus fecha a boca dos leões. O recado de Daniel é simples: os impérios sobem e caem, mas quem governa a história é Deus."
   },
   {
    "gravura": "036",
@@ -441,7 +441,7 @@
   {
    "gravura": "044",
    "mov": "dir",
-   "txt": "Deus perdoa Nínive. E Jonas? Fica furioso. Ele diz: eu sabia que tu és um Deus bondoso e compassivo. Era por isso que eu tinha fugido. Pronto: segunda pergunta respondida."
+   "txt": "Deus perdoa Nínive. E Jonas? Fica furioso. Ele diz: eu sabia que tu és um Deus bondoso e compassivo. Era por isso que eu tinha fugido. Segunda pergunta respondida."
   },
   {
    "gravura": "053",
@@ -453,7 +453,7 @@
   {
    "gravura": "046",
    "mov": "out",
-   "txt": "Seja sincero: tem alguém que você, no fundo, não queria ver perdoado? Não precisa dizer quem. Só escreve nos comentários: eu sou Jonas. A gente aprende junto.",
+   "txt": "Seja sincero: tem alguém que você, no fundo, não queria ver perdoado? Não precisa dizer quem. Só escreve nos comentários: eu sou Jonas.",
    "interage": {
     "tipo": "comenta",
     "txt": "Escreve: eu sou Jonas"
@@ -495,7 +495,7 @@
   {
    "gravura": "053",
    "mov": "in",
-   "txt": "Das três, qual é a mais difícil pra você hoje: justiça, misericórdia ou humildade? Responde com uma palavra só nos comentários. A sua resposta diz muito sobre a sua caminhada.",
+   "txt": "Das três, qual é a mais difícil pra você hoje: justiça, misericórdia ou humildade? Responde com uma palavra só nos comentários.",
    "interage": {
     "tipo": "comenta",
     "txt": "Justiça, misericórdia ou humildade?"
@@ -509,7 +509,7 @@
   {
    "gravura": "046",
    "mov": "esq",
-   "txt": "O livro começa com Deus dizendo: eu amei vocês. E o povo responde: em que nos amaste? É um povo cansado, que já não consegue enxergar o amor de Deus."
+   "txt": "O livro começa com Deus dizendo: eu amei vocês. E o povo responde: em que nos amaste? É um povo cansado, que já não enxerga o amor de Deus."
   },
   {
    "gravura": "041",
@@ -545,7 +545,7 @@
   {
    "gravura": "049",
    "mov": "dir",
-   "txt": "Primeira: quando e pra quem? Antes, durante ou depois do exílio? Pro reino do norte, pro reino do sul, pro povo exilado? Muitas vezes, o primeiro versículo do livro já te conta isso."
+   "txt": "Primeira: quando e pra quem? Antes, durante ou depois do exílio? Pro reino do norte, pro reino do sul, pro povo exilado? O primeiro versículo do livro costuma contar."
   },
   {
    "gravura": "047",
@@ -555,7 +555,7 @@
   {
    "gravura": "092",
    "mov": "cima",
-   "txt": "Terceira: como isso aponta pra Jesus, e o que muda em mim? Depois de ressuscitar, Jesus explicou aos discípulos, começando por Moisés e por todos os profetas, o que as Escrituras diziam sobre ele."
+   "txt": "Terceira: como isso aponta pra Jesus? E o que muda em mim? Depois de ressuscitar, Jesus explicou aos discípulos, começando por Moisés e por todos os profetas, o que as Escrituras diziam sobre ele."
   },
   {
    "gravura": "093",

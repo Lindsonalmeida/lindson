@@ -29,12 +29,12 @@
   {
    "gravura": "006",
    "mov": "out",
-   "txt": "Vou deixar três perguntas abertas, e prometo fechar cada uma até o fim. Primeira: por que a história de Babel vem colada na história de Abraão? Tem um detalhe ali que muda tudo."
+   "txt": "Vou deixar três perguntas abertas, e vou fechar cada uma. Primeira: por que a história de Babel vem colada na história de Abraão? Tem um detalhe ali que muda tudo."
   },
   {
    "gravura": "016",
    "mov": "dir",
-   "txt": "Segunda: por que, em quase todas as famílias de Gênesis, quem leva a promessa adiante não é o filho mais velho? Isso não é acaso. É um padrão, e ele se repete de geração em geração."
+   "txt": "Segunda: por que, em quase todas as famílias de Gênesis, quem leva a promessa adiante não é o filho mais velho? Isso não é acaso. É um padrão."
   },
   {
    "gravura": "018",
@@ -49,7 +49,7 @@
   {
    "gravura": "001",
    "mov": "in",
-   "txt": "Primeira parada: Gênesis 1. Antes de qualquer coisa existir, Deus já existe. E ele cria só falando. Haja luz, e houve luz. Não tem briga entre deuses, não tem caos vencendo. Tem um Deus que fala, e tudo obedece.",
+   "txt": "Primeira parada: Gênesis 1. Antes de qualquer coisa existir, Deus já existe. E ele cria só falando. Haja luz, e houve luz. Ele fala, e tudo obedece.",
    "cap": {
     "sup": "PARADA 1",
     "txt": "No princípio"
@@ -60,12 +60,12 @@
   {
    "gravura": "053",
    "mov": "out",
-   "txt": "Repara num refrão que se repete: e Deus viu que era bom. Dia após dia, a mesma frase. E no sexto dia, depois de criar o ser humano, ela sobe de tom: era muito bom."
+   "txt": "Repara num refrão que se repete: e Deus viu que era bom. E no sexto dia, depois de criar o ser humano, ela sobe de tom: era muito bom."
   },
   {
    "gravura": "020",
    "mov": "esq",
-   "txt": "O ser humano é criado à imagem de Deus, homem e mulher. Isso quer dizer que toda pessoa tem valor antes de fazer qualquer coisa. Um valor que vem de quem fez, não do que ela produz."
+   "txt": "O ser humano é criado à imagem de Deus, homem e mulher. Isso quer dizer que toda pessoa tem valor antes de fazer qualquer coisa. Valor que vem de quem fez."
   },
   {
    "gravura": "001",
@@ -76,11 +76,6 @@
    "gravura": "044",
    "mov": "in",
    "txt": "E aqui tem um detalhe que pouca gente nota. Depois de tanto era bom, aparece a primeira coisa que não é boa: não é bom que o homem esteja só. Deus fez a gente pra viver em relação."
-  },
-  {
-   "gravura": "001",
-   "mov": "cima",
-   "txt": "Então Deus forma a mulher, e o homem reage com o primeiro poema da Bíblia: esta, sim, é osso dos meus ossos. Os dois juntos, sem vergonha, perto de Deus. É assim que a história começa."
   },
   {
    "gravura": "002",
@@ -104,14 +99,9 @@
    "ref": "GÊNESIS 3.9"
   },
   {
-   "gravura": "046",
-   "mov": "dir",
-   "txt": "Pensa nisso. Deus sabia onde eles estavam. A pergunta é um convite pra sair do esconderijo. Desde o começo da Bíblia, quem sai procurando não é o ser humano. É Deus."
-  },
-  {
    "gravura": "002",
    "mov": "in",
-   "txt": "Mas a resposta deles é empurrar a culpa. O homem culpa a mulher, e até culpa Deus: a mulher que tu me deste. A mulher culpa a serpente. Soa familiar? A gente faz isso até hoje."
+   "txt": "Mas a resposta deles é empurrar a culpa. O homem culpa a mulher, e até culpa Deus: a mulher que tu me deste. A mulher culpa a serpente. Soa familiar?"
   },
   {
    "gravura": "020",
@@ -133,7 +123,7 @@
   {
    "gravura": "002",
    "mov": "dir",
-   "txt": "Eles saem do Éden, e querubins com uma espada de fogo guardam o caminho de volta. Daqui pra frente, dá pra ler a Bíblia inteira como Deus abrindo um caminho de volta pra casa."
+   "txt": "Eles saem do Éden, e querubins com uma espada de fogo guardam o caminho de volta. E o resto da Bíblia é Deus abrindo um caminho de volta pra casa."
   },
   {
    "gravura": "053",
@@ -157,7 +147,7 @@
   {
    "gravura": "044",
    "mov": "esq",
-   "txt": "Deus se agrada da oferta de Abel e não da de Caim. Gênesis não explica tudo, mas a carta aos Hebreus diz que Abel ofereceu pela fé. E repara: quem é aceito é o irmão mais novo. Anota esse detalhe."
+   "txt": "Deus se agrada da oferta de Abel e não da de Caim. A carta aos Hebreus diz que Abel ofereceu pela fé. E repara: quem é aceito é o irmão mais novo. Anota esse detalhe."
   },
   {
    "gravura": "003",
@@ -169,17 +159,12 @@
   {
    "gravura": "046",
    "mov": "dir",
-   "txt": "Caim não escuta. Leva o irmão pro campo e mata Abel. A primeira morte da Bíblia não é de velhice. É um irmão matando o outro. Em uma geração, a queda já entrou dentro de casa."
+   "txt": "Caim não escuta. Leva o irmão pro campo e mata Abel. A primeira morte da Bíblia não é de velhice. É um irmão matando o outro. A queda já entrou em casa."
   },
   {
    "gravura": "024",
    "mov": "in",
    "txt": "Deus pergunta onde está Abel, e Caim responde: por acaso eu sou guardião do meu irmão? A resposta que a Bíblia inteira vai dar é simples: sim, você é."
-  },
-  {
-   "gravura": "053",
-   "mov": "out",
-   "txt": "E mesmo assim, Deus coloca um sinal em Caim, pra que ninguém o matasse. O assassino é castigado, mas protegido. A misericórdia aparece até na pior história da família."
   },
   {
    "gravura": "004",
@@ -197,11 +182,6 @@
    "gravura": "004",
    "mov": "cima",
    "txt": "Noé constrói a arca, entra com a família e os animais, e as águas cobrem a terra. Quando elas baixam, Noé sai num mundo lavado. É como um recomeço da criação."
-  },
-  {
-   "gravura": "093",
-   "mov": "dir",
-   "txt": "Deus faz uma aliança com Noé e com toda a vida da terra: nunca mais um dilúvio pra destruir tudo. E coloca o arco nas nuvens como sinal dessa promessa."
   },
   {
    "gravura": "005",
@@ -225,7 +205,7 @@
   {
    "gravura": "053",
    "mov": "esq",
-   "txt": "E o texto diz o motivo com todas as letras. Eles queriam fazer um nome pra si mesmos e não ser espalhados pela terra. Guarda bem essa expressão: fazer um nome.",
+   "txt": "E o texto diz o motivo com todas as letras. Eles queriam fazer um nome pra si mesmos e não ser espalhados pela terra. Guarda essa expressão.",
    "verso": "Vamos construir uma torre e fazer um nome para nós.",
    "ref": "GÊNESIS 11.4"
   },
@@ -237,18 +217,18 @@
   {
    "gravura": "020",
    "mov": "dir",
-   "txt": "Babel termina com a humanidade espalhada e dividida. Onze capítulos, e o quadro é triste: jardim perdido, irmão morto, dilúvio, torre abandonada. Dá vontade de perguntar: acabou? É exatamente aqui que tudo vira."
+   "txt": "Babel termina com a humanidade espalhada e dividida. Onze capítulos, e o quadro é triste: jardim perdido, irmão morto, dilúvio, torre abandonada. Acabou? Não. É aqui que tudo vira."
   },
   {
    "gravura": "092",
    "mov": "in",
-   "txt": "Pausa rápida na viagem. Se você quer ler Gênesis e o resto da Bíblia sem se perder no caminho, eu preparei a Rota da Primeira Viagem, grátis. Comenta ROTA ou pega no link da descrição.",
+   "txt": "Pausa rápida na viagem. Se você quer ler Gênesis e o resto da Bíblia eu preparei a Rota da Primeira Viagem, grátis. Comenta ROTA ou pega no link da descrição.",
    "cta": "Comenta <b>ROTA</b><br>e receba a rota grátis"
   },
   {
    "gravura": "007",
    "mov": "in",
-   "txt": "Quinta parada: Gênesis 12. E agora eu fecho a primeira pergunta. Logo depois de Babel, Deus chama um homem, Abrão, e faz uma promessa a ele. Escuta com atenção o começo dessa promessa.",
+   "txt": "Quinta parada: Gênesis 12. E agora eu fecho a primeira pergunta. Logo depois de Babel, Deus chama um homem, Abrão, e faz uma promessa a ele. Escuta o começo dela.",
    "cap": {
     "sup": "PARADA 5",
     "txt": "O chamado"
@@ -276,7 +256,7 @@
   {
    "gravura": "061",
    "mov": "dir",
-   "txt": "Agora junta com Gênesis 3.15. Lá, a promessa era um descendente da mulher. Aqui, ela ganha endereço: vai vir da família de Abraão. O fio da viagem acabou de ficar mais forte."
+   "txt": "Agora junta com Gênesis 3.15. Lá, a promessa era um descendente da mulher. Aqui, ela ganha endereço: vai vir da família de Abraão. O fio ficou mais forte."
   },
   {
    "gravura": "053",
@@ -310,12 +290,12 @@
   {
    "gravura": "024",
    "mov": "out",
-   "txt": "Isso quase ninguém comenta. Repara quem dá esse nome a Deus: uma mulher escrava, longe de casa, que todo mundo ignorava. Se você está se sentindo invisível hoje, essa parte da viagem é pra você."
+   "txt": "Isso quase ninguém comenta. Repara quem dá esse nome a Deus: uma mulher escrava, longe de casa. Se você está se sentindo invisível hoje, essa parte da viagem é pra você."
   },
   {
    "gravura": "092",
    "mov": "esq",
-   "txt": "Me conta aqui nos comentários: qual pessoa improvável de Gênesis mais te marcou até agora? Abel, Noé, Agar ou o próprio Abraão? Eu leio as respostas, de verdade.",
+   "txt": "Me conta aqui nos comentários: qual pessoa improvável de Gênesis mais te marcou até agora? Abel, Noé, Agar ou o próprio Abraão? Eu leio todas.",
    "interage": {
     "tipo": "comenta",
     "txt": "Quem mais te marcou?"
@@ -328,14 +308,9 @@
    "txt": "Anos depois, três visitantes chegam à tenda de Abraão e anunciam: daqui a um ano, Sara vai ter um filho. Sara escuta escondida atrás da tenda e ri. Ela já era idosa."
   },
   {
-   "gravura": "008",
-   "mov": "in",
-   "txt": "Nesse mesmo trecho, Abraão intercede por Sodoma. A cidade é destruída, mas Ló e a família escapam, e o texto diz que Deus se lembrou de Abraão. O homem da promessa já está sendo bênção pros outros."
-  },
-  {
    "gravura": "005",
    "mov": "out",
-   "txt": "E o filho nasce: Isaque, um nome ligado a riso. Sara diz que Deus a fez rir. O riso de dúvida virou riso de alegria. Deus fez o que nenhum médico faria."
+   "txt": "E o filho nasce: Isaque, um nome ligado a riso. Sara diz que Deus a fez rir. O riso de dúvida virou riso de alegria."
   },
   {
    "gravura": "011",
@@ -361,7 +336,7 @@
   {
    "gravura": "088",
    "mov": "dir",
-   "txt": "Muitos cristãos leem essa cena como uma sombra do que viria: um pai, um filho amado, um monte, lenha nas costas e um substituto no lugar. Existem leituras diferentes dos detalhes, mas o eco é forte."
+   "txt": "Muitos cristãos leem essa cena como uma sombra do que viria: um pai, um filho amado, um monte, lenha nas costas e um substituto no lugar. Existem leituras diferentes, mas o eco é forte."
   },
   {
    "gravura": "012",
@@ -374,14 +349,9 @@
    "txt": "E Isaque? Abraão manda o servo buscar uma esposa pra ele. Junto ao poço, o servo ora, e Rebeca aparece oferecendo água pra ele e até pros camelos. Deus guiando nos detalhes."
   },
   {
-   "gravura": "061",
-   "mov": "esq",
-   "txt": "Isaque é o patriarca mais quieto de Gênesis. Ele quase não tem histórias só dele. Mas repara: Rebeca também não podia ter filhos, e Isaque orou por ela. De novo, a promessa depende de um milagre."
-  },
-  {
    "gravura": "014",
    "mov": "out",
-   "txt": "E Isaque repete até o erro do pai: com medo, diz que Rebeca é irmã dele. Pai e filho caindo no mesmo padrão. Gênesis é muito honesto sobre o que passa de geração em geração numa família."
+   "txt": "E Isaque repete até o erro do pai: com medo, diz que Rebeca é irmã dele. Pai e filho caindo no mesmo padrão. Gênesis é muito honesto sobre família."
   },
   {
    "gravura": "092",
@@ -415,7 +385,7 @@
   {
    "gravura": "014",
    "mov": "dir",
-   "txt": "Isaque, velho e cego, abençoa Jacó pensando que era Esaú. Quando Esaú descobre, chora alto e jura matar o irmão. E Jacó foge de casa, com a bênção e com a culpa."
+   "txt": "Isaque, velho e cego, abençoa Jacó pensando que era Esaú. Quando Esaú descobre, chora alto e jura matar o irmão. E Jacó foge de casa."
   },
   {
    "gravura": "053",
@@ -457,7 +427,7 @@
   {
    "gravura": "061",
    "mov": "in",
-   "txt": "Pausa pra respirar. Já foram sete paradas e quatro gerações de gente complicada. Tá conseguindo acompanhar? Se tá, comenta: Israel. Porque agora vem a parte mais bonita do livro.",
+   "txt": "Pausa pra respirar. Já foram sete paradas e quatro gerações de gente complicada. Tá conseguindo acompanhar? Se tá, comenta: Israel. Agora vem a parte mais bonita.",
    "interage": {
     "tipo": "checkin",
     "txt": "Comenta: Israel"
@@ -486,7 +456,7 @@
   {
    "gravura": "044",
    "mov": "dir",
-   "txt": "No Egito, José serve na casa de Potifar, é acusado injustamente pela mulher dele e vai parar na prisão. Fazendo tudo certo, ele só afunda mais. Mas o texto repete: o Senhor estava com José."
+   "txt": "No Egito, José serve na casa de Potifar, é acusado injustamente pela mulher dele e vai parar na prisão. Fazendo tudo certo, só afunda. Mas o texto repete: o Senhor estava com José."
   },
   {
    "gravura": "018",
@@ -548,7 +518,7 @@
   {
    "gravura": "065",
    "mov": "in",
-   "txt": "E você? Tem alguma situação da sua vida que hoje você já consegue olhar e dizer: Deus transformou em bem? Se quiser, conta nos comentários. Pode ser só uma palavra.",
+   "txt": "E você? Tem alguma situação da sua vida que hoje você já consegue olhar e dizer: Deus transformou em bem? Se quiser, conta nos comentários.",
    "interage": {
     "tipo": "comenta",
     "txt": "Deus transformou em bem?"
@@ -563,7 +533,7 @@
   {
    "gravura": "020",
    "mov": "in",
-   "txt": "Só que, antes de morrer, José faz um pedido: quando Deus visitar vocês, levem os meus ossos daqui. Até no fim, ele aponta pra frente. A promessa continua viva."
+   "txt": "Só que, antes de morrer, José faz um pedido: quando Deus visitar vocês, levem os meus ossos daqui. A promessa continua viva."
   },
   {
    "gravura": "091",
