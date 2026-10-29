@@ -26,7 +26,7 @@ alvo = int(os.environ.get('ALVO', '85'))
 for q in BUSCAS:
     if len([f for f in os.listdir(OUT) if f.endswith('.jpg')]) >= alvo: break
     try: res = api(action='query', generator='search', gsrsearch=q + ' filetype:bitmap', gsrnamespace=6, gsrlimit=6, prop='imageinfo', iiprop='url|extmetadata|size', iiurlwidth=1920)
-    except Exception as e: print('busca falhou', q, e); time.sleep(120 if '429' in str(e) else 5); continue
+    except Exception as e: print('busca falhou', q, e); time.sleep(600 if '429' in str(e) else 20); continue
     pegos = 0
     for pg in sorted((res.get('query') or {}).get('pages', {}).values(), key=lambda x: x.get('index', 0)):
         if pegos >= 2: break
@@ -39,9 +39,9 @@ for q in BUSCAS:
             dado = urllib.request.urlopen(urllib.request.Request(ii.get('thumburl') or ii['url'], headers=UA), timeout=120).read()
             from PIL import Image; import io
             im = Image.open(io.BytesIO(dado)).convert('RGB'); im.save(f'{OUT}/{arq}', 'JPEG', quality=90)
-        except Exception as e: print('download falhou', arq, e); time.sleep(120 if '429' in str(e) else 5); continue
+        except Exception as e: print('download falhou', arq, e); time.sleep(600 if '429' in str(e) else 20); continue
         txt = lambda k: re.sub('<[^>]+>', '', md.get(k, {}).get('value', ''))[:200]
         cred.append(dict(arquivo=arq, titulo=pg['title'], autor=txt('Artist'), data=txt('DateTimeOriginal'), licenca=txt('LicenseShortName'), url_commons=ii.get('descriptionurl', ''), busca=q))
-        tem.add(arq); pegos += 1; print('ok', arq); json.dump(cred, open(CRED, 'w'), ensure_ascii=False, indent=1); time.sleep(4)
-    time.sleep(4)
+        tem.add(arq); pegos += 1; print('ok', arq); json.dump(cred, open(CRED, 'w'), ensure_ascii=False, indent=1); time.sleep(25)
+    time.sleep(25)
 print(len([f for f in os.listdir(OUT) if f.endswith('.jpg')]), 'imagens')
