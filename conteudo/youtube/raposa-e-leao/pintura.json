@@ -1,5 +1,1140 @@
 [
  {
+  "id": "longo-12",
+  "formato": "longo",
+  "titulo": "O Príncipe de Maquiavel explicado sem enrolação",
+  "legenda": "O Príncipe, de Maquiavel, é o livro mais citado e menos lido sobre poder. Neste vídeo você entende a obra inteira, sem enrolação: Florença em 1513, a prisão e o exílio de Maquiavel, a carta a Vettori e todos os grandes temas do livro.\n\nTipos de principado, César Bórgia, armas próprias, ser bom ou parecer bom, temido ou amado, a raposa e o leão, conselheiros, fortuna e o apelo final à Itália. E como cada lição te protege no trabalho, nos negócios e na família.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📜 Fonte: Nicolau Maquiavel, O Príncipe (dedicatória e caps. I a XXVI, com destaque para III, VI, VII, VIII, XII, XIV, XV, XVII, XVIII, XX, XXV e XXVI); carta a Francesco Vettori de 10 de dezembro de 1513.\n\n🦊🦁 Raposa e Leão: Maquiavel e as leis do poder aplicadas à vida real.\n\n▶️ Playlist recomendada: O Príncipe explicado\n\n#Maquiavel #OPríncipe #Filosofia #Liderança #ResumoDeLivro",
+  "comentario": "📌 Das lições de O Príncipe, qual você mais precisa aplicar hoje: armas próprias, firmeza sem ódio ou gente sincera por perto? Continue na playlist O Príncipe explicado ⬇️",
+  "titulo_tela": {
+   "sup": "RAPOSA E LEÃO",
+   "txt": "O Príncipe<br>sem enrolação",
+   "dur": 3.2
+  },
+  "cenas": [
+   {
+    "gravura": "maquiavel.jpg",
+    "mov": "in",
+    "txt": "Ele foi preso, torturado e expulso do poder. E foi nesse fundo do poço que escreveu o livro mais famoso sobre poder da história. E sabe para quem? Para os Médici, a família que tinha acabado de derrubar o governo dele."
+   },
+   {
+    "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+    "mov": "out",
+    "txt": "Esse livro é O Príncipe, de Nicolau Maquiavel. Quase todo mundo já ouviu falar. Pouca gente leu. E quem leu, muitas vezes, leu pedaços soltos, fora do contexto."
+   },
+   {
+    "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+    "mov": "esq",
+    "txt": "Hoje você vai entender o livro inteiro, do capítulo um ao vinte e seis, sem enrolação. O que ele diz, por que diz e como isso te protege no trabalho, nos negócios e na família."
+   },
+   {
+    "gravura": "borgia.jpg",
+    "mov": "dir",
+    "txt": "E tem três coisas que eu vou te mostrar no caminho. A primeira: o que Maquiavel fazia toda noite, sozinho, numa casa de campo. Ele mesmo contou numa carta, e é uma cena linda."
+   },
+   {
+    "gravura": "hist/pope_alexander_vi.jpg",
+    "mov": "cima",
+    "txt": "A segunda: a frase mais famosa ligada ao nome dele, os fins justificam os meios. Daqui a pouco você vai descobrir se ela está ou não está no livro."
+   },
+   {
+    "gravura": "lorenzo.jpg",
+    "mov": "in",
+    "txt": "E a terceira, a maior: o jeito como o livro termina. Não é com uma regra fria de poder. É com um pedido e um poema. Essa eu guardo para o final."
+   },
+   {
+    "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+    "mov": "out",
+    "txt": "Volta comigo para Florença. Por catorze anos, Maquiavel serviu à república da cidade. Era secretário e diplomata, visitou cortes de reis e papas e organizou até uma milícia de cidadãos.",
+    "cap": {
+     "sup": "LIÇÃO 1",
+     "txt": "Preso, torturado e exilado"
+    }
+   },
+   {
+    "gravura": "hist/ferdinand_ii_of_aragon.jpg",
+    "mov": "esq",
+    "txt": "Em 1512, tudo desabou. Tropas espanholas, da liga de Fernando de Aragão com o papa, entraram na Toscana. A república caiu, e os Médici voltaram a mandar em Florença."
+   },
+   {
+    "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+    "mov": "dir",
+    "txt": "Maquiavel perdeu o cargo. E, no começo de 1513, veio o pior. Descobriram uma conspiração contra os Médici, e numa lista de nomes estava o dele. Ele foi preso."
+   },
+   {
+    "gravura": "acervo/prisao_cristo_caravaggio.jpg",
+    "mov": "cima",
+    "txt": "Na prisão, sofreu a tortura da corda: mãos amarradas nas costas, o corpo içado e solto. Num poema, ele contou que aguentou seis desses puxões. E não confessou nada."
+   },
+   {
+    "gravura": "acervo/leao_x_raffaello.jpg",
+    "mov": "in",
+    "txt": "A saída veio de um jeito curioso. Em março de 1513, Giovanni de Médici virou o papa Leão Décimo. Florença festejou, houve perdão para presos, e Maquiavel saiu da cadeia."
+   },
+   {
+    "gravura": "maquiavel.jpg",
+    "mov": "out",
+    "txt": "Livre, mas sem cargo, ele foi para uma pequena propriedade da família em Sant'Andrea in Percussina, perto de San Casciano."
+   },
+   {
+    "gravura": "acervo/castiglione_raffaello.jpg",
+    "mov": "esq",
+    "txt": "E aqui eu fecho a primeira promessa. Em 10 de dezembro de 1513, ele escreve ao amigo Francesco Vettori, embaixador de Florença em Roma, contando como passa os dias."
+   },
+   {
+    "gravura": "acervo/embaixadores_holbein.jpg",
+    "mov": "dir",
+    "txt": "De dia, conversa com lenhadores e joga cartas na taverna. Mas, quando chega a noite, tira a roupa suja de lama, veste roupas dignas de uma corte e entra no escritório."
+   },
+   {
+    "gravura": "hist/alexander_the_great.jpg",
+    "mov": "cima",
+    "txt": "Lá, ele conversa com os grandes homens da Antiguidade. Pergunta por que agiram como agiram, e eles respondem. Por quatro horas, esquece o cansaço, não teme a pobreza nem a morte.",
+    "verso": "À noite visto roupas de corte e entro nas antigas cortes dos homens antigos.",
+    "ref": "CARTA A VETTORI, 10/12/1513"
+   },
+   {
+    "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+    "mov": "in",
+    "txt": "E é nessa carta que o livro aparece pela primeira vez. Ele conta que escreveu uma obrinha chamada Dos Principados. Era isso que viria a ser O Príncipe."
+   },
+   {
+    "gravura": "acervo/coroacao_napoleao_david.jpg",
+    "mov": "out",
+    "txt": "A ideia era oferecer o livro a um Médici, para provar que entendia de Estado e voltar a trabalhar. Pensou primeiro em Giuliano. No fim, dedicou a Lorenzo de Médici, neto do Magnífico."
+   },
+   {
+    "gravura": "hist/bonfire_of_the_vanities.jpg",
+    "mov": "esq",
+    "txt": "Na dedicatória tem uma imagem genial. Quem desenha paisagens fica embaixo para ver as montanhas e no alto para ver a planície. Para conhecer o povo, é preciso ser príncipe. Para conhecer príncipes, é preciso ser povo."
+   },
+   {
+    "gravura": "acervo/multidao_bruegel.jpg",
+    "mov": "dir",
+    "txt": "Repara no recado: Maquiavel olha o poder de baixo, como quem apanhou dele. Tá comigo até aqui? Então agora a gente abre o livro de verdade.",
+    "interage": {
+     "tipo": "checkin",
+     "txt": "Tá comigo até aqui?"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "hist/marcus_equestre.jpg",
+    "mov": "cima",
+    "txt": "Um detalhe: o livro só foi impresso em 1532, cinco anos depois da morte dele. Se Lorenzo chegou a ler com atenção, ninguém sabe. Há uma história de que ele preferiu um presente de cães de caça, mas não tem prova firme."
+   },
+   {
+    "gravura": "maquiavel.jpg",
+    "mov": "in",
+    "txt": "Os onze primeiros capítulos são um mapa. Todo Estado é república ou principado. E o principado é herdado ou novo, ganho com armas próprias ou dos outros, pela sorte ou pelo talento.",
+    "cap": {
+     "sup": "LIÇÃO 2",
+     "txt": "Como se ganha um Estado"
+    }
+   },
+   {
+    "gravura": "acervo/coroacao_napoleao_david.jpg",
+    "mov": "out",
+    "txt": "Herdar é fácil, diz o capítulo dois. O povo já está acostumado com a família, e basta não mudar tudo de repente. O difícil é o novo, e é nele que o livro gasta quase toda a energia."
+   },
+   {
+    "gravura": "acervo/vercingetorix_royer.jpg",
+    "mov": "esq",
+    "txt": "No capítulo três, ele fala de quem conquista um território e junta ao que já tinha. O conselho: ir morar lá. De longe, você só descobre os problemas quando já não têm remédio."
+   },
+   {
+    "gravura": "acervo/hannibal_and_scipio_africanus.jpg",
+    "mov": "dir",
+    "txt": "E tem uma lição dos romanos: eles nunca deixavam um problema crescer só para fugir de uma guerra. Sabiam que a guerra não se evita. Só se adia, em vantagem do outro.",
+    "verso": "A guerra não se evita; apenas se adia, em vantagem dos outros.",
+    "ref": "O PRÍNCIPE, CAP. III"
+   },
+   {
+    "gravura": "acervo/multidao_bruegel.jpg",
+    "mov": "cima",
+    "txt": "Na sua vida: aquela conversa difícil com o sócio, aquele cliente que atrasa todo mês. Empurrar não resolve. A cada mês adiado, o problema fica mais forte e você mais fraco."
+   },
+   {
+    "gravura": "acervo/albrecht_altdorfer_schlacht_bei_issus_alte_pinak.jpg",
+    "mov": "in",
+    "txt": "No capítulo quatro, uma pergunta curiosa. Alexandre, o Grande, conquistou o império de Dario e morreu cedo. Mesmo assim, o império não se revoltou contra os sucessores dele. Por quê?"
+   },
+   {
+    "gravura": "hist/alexander_the_great.jpg",
+    "mov": "out",
+    "txt": "Porque era um reino com um senhor só, e todos os outros eram servos. Difícil de conquistar, fácil de manter. Já um reino como a França, cheio de barões fortes, é fácil de invadir e difícil de segurar."
+   },
+   {
+    "gravura": "hist/bonfire_of_the_vanities.jpg",
+    "mov": "esq",
+    "txt": "No capítulo cinco, o aviso sobre cidades que viviam livres. Lá, a memória da liberdade e das leis antigas não se apaga, nem com o tempo nem com favores. Liberdade perdida não se esquece."
+   },
+   {
+    "gravura": "hist/moses.jpg",
+    "mov": "dir",
+    "txt": "Aí vem o capítulo seis. Quem chega ao poder pelo próprio talento e pelas próprias armas, como Moisés, Ciro, Rômulo e Teseu. A sorte só deu a eles a ocasião. O resto foi talento deles."
+   },
+   {
+    "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+    "mov": "cima",
+    "txt": "E ele avisa: não há nada mais difícil do que implantar uma ordem nova. Quem ganhava com a velha vira seu inimigo, e quem vai ganhar com a nova te defende sem muita vontade.",
+    "verso": "Não há coisa mais difícil do que se fazer introdutor de uma nova ordem.",
+    "ref": "O PRÍNCIPE, CAP. VI"
+   },
+   {
+    "gravura": "hist/girolamo_savonarola.jpg",
+    "mov": "in",
+    "txt": "Por isso, diz ele, os profetas armados venceram e os desarmados caíram. O exemplo é da casa: Savonarola, o frade que dominou Florença com sermões e acabou queimado em 1498, quando o povo deixou de acreditar nele."
+   },
+   {
+    "gravura": "acervo/embaixadores_holbein.jpg",
+    "mov": "out",
+    "txt": "Já tentou mudar alguma coisa no trabalho ou na família e ficou sozinho? Talvez a ideia fosse boa, mas faltou gente comprometida antes da mudança. Me conta nos comentários.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Já mudou algo e ficou sozinho?"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "borgia.jpg",
+    "mov": "esq",
+    "txt": "Capítulo sete, o mais famoso desse bloco: quem chega ao poder com a sorte e as armas dos outros. O personagem principal é César Bórgia, filho do papa Alexandre Sexto."
+   },
+   {
+    "gravura": "acervo/pollice_verso_gerome.jpg",
+    "mov": "dir",
+    "txt": "Exemplo duro: Bórgia pôs na Romanha um governador cruel, Remirro de Orco, que impôs ordem com mão de ferro. Quando o ódio cresceu, mandou exibir o corpo dele, partido em dois, numa praça de Cesena."
+   },
+   {
+    "gravura": "borgia.jpg",
+    "mov": "cima",
+    "txt": "Maquiavel conta isso para mostrar como o poder empurra a culpa para outro. Mas, em 1503, o pai morreu, Bórgia estava doente e ainda apoiou para papa Júlio Segundo, um antigo inimigo. Perdeu tudo."
+   },
+   {
+    "gravura": "acervo/julio_ii_raffaello.jpg",
+    "mov": "in",
+    "txt": "A lição para você: nunca entregue seu futuro a quem você já feriu, achando que um favor novo apaga a ferida antiga. Não apaga.",
+    "verso": "Quem crê que novos benefícios fazem os grandes esquecer antigas ofensas se engana.",
+    "ref": "O PRÍNCIPE, CAP. VII"
+   },
+   {
+    "gravura": "hist/caracalla.jpg",
+    "mov": "out",
+    "txt": "No capítulo oito, quem sobe por crimes, como Agátocles, na Sicília antiga. E Maquiavel é claro: matar cidadãos, trair amigos, não ter fé nem piedade não é virtude. Dá poder, mas não dá glória.",
+    "verso": "Não se pode chamar de virtude matar cidadãos, trair amigos, ser sem fé e sem piedade.",
+    "ref": "O PRÍNCIPE, CAP. VIII"
+   },
+   {
+    "gravura": "acervo/multidao_bruegel.jpg",
+    "mov": "esq",
+    "txt": "Capítulo nove: o cidadão que vira príncipe com apoio dos outros. Em toda cidade há dois humores. O povo, que não quer ser oprimido, e os grandes, que querem oprimir."
+   },
+   {
+    "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+    "mov": "dir",
+    "txt": "Para Maquiavel, o desejo do povo é mais honesto, então é nele que o príncipe deve se apoiar. Na empresa, quem só agrada os de cima e ignora a base cai no primeiro tropeço."
+   },
+   {
+    "gravura": "hist/arco_severo.jpg",
+    "mov": "cima",
+    "txt": "Os capítulos dez e onze fecham o mapa. Uma cidade bem preparada, com um povo que não odeia seu governante, aguenta um cerco. E por fim vêm os principados da Igreja, tratados com ironia cuidadosa."
+   },
+   {
+    "gravura": "acervo/castiglione_raffaello.jpg",
+    "mov": "in",
+    "txt": "Se você quer rever esse mapa depois, salva o vídeo. Porque agora o livro muda de assunto: sai de como se ganha o poder e vai para o que segura o poder.",
+    "interage": {
+     "tipo": "salva",
+     "txt": "Salva o mapa dos principados"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "acervo/the_battle_of_alexander_at_issus_by_albrecht_alt.jpg",
+    "mov": "out",
+    "txt": "Capítulos doze a catorze. Os fundamentos de todo Estado, diz Maquiavel, são boas leis e boas armas. E como não existem boas leis sem boas armas, ele fala das armas.",
+    "cap": {
+     "sup": "LIÇÃO 3",
+     "txt": "Quem não tem armas próprias"
+    }
+   },
+   {
+    "gravura": "acervo/pollice_verso_gerome.jpg",
+    "mov": "esq",
+    "txt": "E ataca os mercenários. São desunidos, ambiciosos, sem disciplina e sem lealdade. Valentes entre amigos, covardes diante do inimigo. Na paz te roubam, na guerra te abandonam.",
+    "verso": "As armas mercenárias e auxiliares são inúteis e perigosas.",
+    "ref": "O PRÍNCIPE, CAP. XII"
+   },
+   {
+    "gravura": "acervo/rendicao_granada_pradilla.jpg",
+    "mov": "dir",
+    "txt": "Para ele, a Itália virou presa por confiar em soldados de aluguel. Tanto que o rei francês Carlos Oitavo tomou a Itália com giz, só marcando as casas onde suas tropas iam se hospedar."
+   },
+   {
+    "gravura": "acervo/vercingetorix_royer.jpg",
+    "mov": "cima",
+    "txt": "Pior ainda, no capítulo treze, são as tropas auxiliares, o exército de um aliado forte que vem te ajudar. Se ele perde, você cai junto. Se ele vence, você fica preso a quem te salvou."
+   },
+   {
+    "gravura": "hist/marcus_aurelius.jpg",
+    "mov": "in",
+    "txt": "E ele usa uma imagem da Bíblia: Davi recusou a armadura de Saul para enfrentar Golias e foi com a funda. As armas dos outros, diz Maquiavel, ou caem, ou pesam, ou apertam."
+   },
+   {
+    "gravura": "acervo/embaixadores_holbein.jpg",
+    "mov": "out",
+    "txt": "Hoje, arma própria é sua habilidade, sua carteira de clientes, sua reserva. Se tudo depende de um cliente ou de uma plataforma, a arma é emprestada. Qual é a sua arma própria? Escreve aí.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Qual é a sua arma própria?"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "hist/alexander_the_great.jpg",
+    "mov": "esq",
+    "txt": "No capítulo catorze, ele manda o príncipe treinar sempre, mesmo na paz, ler a história dos grandes e imitar um modelo. Alexandre imitava Aquiles, César imitava Alexandre e Cipião imitava Ciro.",
+    "verso": "O príncipe deve ter a guerra e sua disciplina como única arte e pensamento.",
+    "ref": "O PRÍNCIPE, CAP. XIV"
+   },
+   {
+    "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+    "mov": "dir",
+    "txt": "Se esse vídeo já te deu mais clareza do que anos de frase solta de Maquiavel, segue o canal e abre a playlist O Príncipe explicado. Agora vem a parte mais polêmica do livro.",
+    "cta": "Segue o <b>Raposa e Leão</b><br>e veja a playlist <b>O Príncipe explicado</b>",
+    "interage": {
+     "tipo": "segue",
+     "txt": "Segue pra próxima lição"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "maquiavel.jpg",
+    "mov": "cima",
+    "txt": "Capítulo quinze. Maquiavel avisa que vai fazer diferente. Muitos imaginaram repúblicas e reinos que nunca existiram. Ele quer a verdade efetiva das coisas, o mundo como ele funciona de fato.",
+    "cap": {
+     "sup": "LIÇÃO 4",
+     "txt": "Ser bom ou parecer bom"
+    }
+   },
+   {
+    "gravura": "acervo/beijo_judas_giotto.jpg",
+    "mov": "in",
+    "txt": "E solta a frase que choca: quem quer ser bom em tudo se arruína no meio de tantos que não são bons. O príncipe precisa aprender a poder não ser bom, conforme a necessidade.",
+    "verso": "Quem quer ser bom em tudo se arruína entre tantos que não são bons.",
+    "ref": "O PRÍNCIPE, CAP. XV"
+   },
+   {
+    "gravura": "acervo/castiglione_raffaello.jpg",
+    "mov": "out",
+    "txt": "Calma. Isso não é licença para ser mau. É um alerta contra a ingenuidade. Bondade sem limite e sem leitura do ambiente vira convite para ser explorado. Ser bom, sim. Ser bobo, não."
+   },
+   {
+    "gravura": "acervo/romanos_decadencia_couture.jpg",
+    "mov": "esq",
+    "txt": "Capítulo dezesseis: a generosidade. Parece virtude, não é? Mas o príncipe que busca fama de generoso gasta tudo em luxo. Quando o dinheiro acaba, aumenta impostos, tira do povo e vira odiado."
+   },
+   {
+    "gravura": "acervo/julio_ii_raffaello.jpg",
+    "mov": "dir",
+    "txt": "Por isso ele prefere a fama de econômico. E cita Júlio Segundo, que usou a fama de generoso para chegar ao papado, mas depois segurou os gastos para poder fazer guerra."
+   },
+   {
+    "gravura": "hist/hannibal.jpg",
+    "mov": "cima",
+    "txt": "Capítulo dezessete, a pergunta mais famosa: é melhor ser amado ou temido? A resposta é mais cuidadosa do que todo mundo repete. O ideal, diz ele, é ser as duas coisas.",
+    "cap": {
+     "sup": "LIÇÃO 5",
+     "txt": "Temido ou amado?"
+    }
+   },
+   {
+    "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+    "mov": "in",
+    "txt": "Mas, como é difícil juntar as duas, se tiver de escolher, é mais seguro ser temido. O amor é um laço que as pessoas rompem quando convém. O temor se apoia no medo do castigo, que não falha.",
+    "verso": "É muito mais seguro ser temido que amado, quando falta um dos dois.",
+    "ref": "O PRÍNCIPE, CAP. XVII"
+   },
+   {
+    "gravura": "acervo/cesar_assassinato_camuccini.jpg",
+    "mov": "out",
+    "txt": "Agora a parte que quase ninguém cita. O príncipe deve ser temido de um jeito que, se não ganhar o amor, pelo menos fuja do ódio. Temido, sim. Odiado, nunca."
+   },
+   {
+    "gravura": "lorenzo.jpg",
+    "mov": "esq",
+    "txt": "E como não ser odiado? Não tocar nos bens nem nas mulheres das pessoas. Ele chega a dizer que os homens esquecem mais depressa a morte do pai do que a perda do patrimônio."
+   },
+   {
+    "gravura": "hist/hannibal.jpg",
+    "mov": "dir",
+    "txt": "O exemplo é Aníbal. Levou um exército enorme, de muitos povos, para lutar em terra estrangeira, e nunca houve revolta entre os soldados. Maquiavel credita isso à dureza dele, somada às suas muitas virtudes."
+   },
+   {
+    "gravura": "acervo/hannibal_and_scipio_africanus.jpg",
+    "mov": "cima",
+    "txt": "Já Cipião, um dos maiores generais de Roma, foi tão indulgente que os soldados dele se rebelaram na Espanha. Bondade sem firmeza, diz Maquiavel, virou desordem."
+   },
+   {
+    "gravura": "acervo/embaixadores_holbein.jpg",
+    "mov": "in",
+    "txt": "Para hoje: respeito vem de regra clara e cumprida. Quem deixa tudo passar para ser querido perde a autoridade. Quem humilha vira odiado. E você, lidera mais pelo medo ou pelo respeito? Comenta.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Medo ou respeito: qual você usa?"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "maquiavel.jpg",
+    "mov": "out",
+    "txt": "Capítulo dezoito, o que dá nome a este canal. Há dois jeitos de lutar: com as leis, próprio dos homens, e com a força, próprio dos animais. Como o primeiro muitas vezes não basta, é preciso saber usar o segundo.",
+    "cap": {
+     "sup": "LIÇÃO 6",
+     "txt": "A raposa e o leão"
+    }
+   },
+   {
+    "gravura": "acervo/prisao_cristo_caravaggio.jpg",
+    "mov": "esq",
+    "txt": "E aí vêm os dois animais. O leão não se defende das armadilhas. A raposa não se defende dos lobos. Então é preciso ser raposa para ver as armadilhas e leão para espantar os lobos.",
+    "verso": "É preciso ser raposa para conhecer as armadilhas e leão para assustar os lobos.",
+    "ref": "O PRÍNCIPE, CAP. XVIII"
+   },
+   {
+    "gravura": "borgia.jpg",
+    "mov": "dir",
+    "txt": "Quem é só leão, força bruta, cai em qualquer cilada. Quem é só raposa, só esperteza, é engolido quando o perigo é força. Você precisa das duas: ler o jogo e ter coragem de se posicionar."
+   },
+   {
+    "gravura": "hist/pope_alexander_vi.jpg",
+    "mov": "cima",
+    "txt": "Agora a parte pesada. Ele diz que um príncipe prudente não precisa cumprir a palavra quando isso se volta contra ele, porque os homens também não cumprem. E cita Alexandre Sexto, que vivia de enganar."
+   },
+   {
+    "gravura": "acervo/beijo_judas_giotto.jpg",
+    "mov": "in",
+    "txt": "Use isso como escudo, não como arma. Saber que existe gente que promete sem intenção de cumprir te faz pedir por escrito, conferir antes de confiar e não entregar tudo numa conversa."
+   },
+   {
+    "gravura": "acervo/coroacao_napoleao_david.jpg",
+    "mov": "out",
+    "txt": "E vem uma das frases mais lúcidas do livro: todos veem o que você parece, poucos sentem o que você é. As pessoas julgam mais pelos olhos do que pelas mãos.",
+    "verso": "Todos veem o que pareces; poucos sentem o que és.",
+    "ref": "O PRÍNCIPE, CAP. XVIII"
+   },
+   {
+    "gravura": "acervo/leao_x_raffaello.jpg",
+    "mov": "esq",
+    "txt": "E agora fecho a segunda promessa. A frase os fins justificam os meios não aparece assim no livro. O que ele escreve é que, nas ações dos príncipes, onde não há tribunal a quem recorrer, se olha o resultado."
+   },
+   {
+    "gravura": "hist/pope_julius_ii.jpg",
+    "mov": "dir",
+    "txt": "Ou seja, ele descreve como o povo julga os poderosos: pelo que conseguem. A frase pronta é um resumo feito por outros, depois. E muitos estudiosos acham esse resumo injusto com o texto."
+   },
+   {
+    "gravura": "hist/commodus.jpg",
+    "mov": "cima",
+    "txt": "Capítulo dezenove: fugir do ódio e do desprezo. O desprezo vem de parecer volúvel, leviano, covarde e indeciso. O príncipe deve mostrar firmeza e decisões que não voltam atrás."
+   },
+   {
+    "gravura": "hist/marcus_aurelius.jpg",
+    "mov": "in",
+    "txt": "E ele analisa imperadores romanos. Marco Aurélio viveu e morreu respeitado. Já o filho, Cômodo, desceu à arena para lutar com gladiadores, foi desprezado e acabou morto numa conspiração."
+   },
+   {
+    "gravura": "hist/arco_severo.jpg",
+    "mov": "out",
+    "txt": "E Sétimo Severo, o do arco famoso em Roma, Maquiavel descreve como um leão muito feroz e uma raposa muito astuta. Por isso foi temido e respeitado por todos."
+   },
+   {
+    "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+    "mov": "esq",
+    "txt": "Capítulos vinte a vinte e três. Muitos príncipes erguiam fortalezas para se proteger do próprio povo. Maquiavel pesa os prós e os contras e chega a uma frase que vale para muita coisa.",
+    "cap": {
+     "sup": "LIÇÃO 7",
+     "txt": "Fortalezas, aliados e conselheiros"
+    }
+   },
+   {
+    "gravura": "acervo/the_battle_of_alexander_at_issus_by_albrecht_alt.jpg",
+    "mov": "dir",
+    "txt": "A melhor fortaleza que existe é não ser odiado pelo povo. Muralha nenhuma salva quem é odiado por quem está do lado de dentro. Vale para empresa, para equipe e para casa.",
+    "verso": "A melhor fortaleza que existe é não ser odiado pelo povo.",
+    "ref": "O PRÍNCIPE, CAP. XX"
+   },
+   {
+    "gravura": "acervo/ferdinand_of_aragon_isabella_of_castile.jpg",
+    "mov": "cima",
+    "txt": "No capítulo vinte e um, como ganhar estima. O exemplo é Fernando de Aragão, que, nas palavras de Maquiavel, virou o primeiro rei dos cristãos com grandes empreitadas, como a conquista de Granada."
+   },
+   {
+    "gravura": "acervo/rendicao_granada_pradilla.jpg",
+    "mov": "in",
+    "txt": "E o conselho sobre alianças: ficar neutro quase sempre é pior. Quem fica em cima do muro vira presa do vencedor e não ganha a gratidão do perdedor. Tome partido com clareza."
+   },
+   {
+    "gravura": "acervo/castiglione_raffaello.jpg",
+    "mov": "out",
+    "txt": "Capítulo vinte e dois: os ministros. A primeira impressão de um líder vem de quem ele mantém por perto. Há três tipos de cabeça: a que entende sozinha, a que entende quando explicam e a que não entende nem assim."
+   },
+   {
+    "gravura": "lorenzo.jpg",
+    "mov": "esq",
+    "txt": "Capítulo vinte e três: os bajuladores. A defesa é escolher pessoas sábias e dar a elas liberdade para falar a verdade sobre o que você pergunta. Os bons conselhos nascem da prudência de quem lidera."
+   },
+   {
+    "gravura": "maquiavel.jpg",
+    "mov": "dir",
+    "txt": "Conhece alguém, um chefe ou um amigo empresário, que só ouve quem concorda com ele? Manda esse vídeo. Pode ser o capítulo que está faltando na vida dessa pessoa.",
+    "interage": {
+     "tipo": "manda",
+     "txt": "Manda pra quem só ouve elogio"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "acervo/albrecht_altdorfer_schlacht_bei_issus_alte_pinak.jpg",
+    "mov": "cima",
+    "txt": "Capítulo vinte e cinco: a fortuna. Muita gente acha que tudo é destino. Maquiavel responde que a fortuna decide metade das nossas ações, mas deixa a outra metade, ou quase, para nós.",
+    "cap": {
+     "sup": "LIÇÃO 8",
+     "txt": "A fortuna e o apelo final"
+    }
+   },
+   {
+    "gravura": "hist/marcus_equestre.jpg",
+    "mov": "in",
+    "txt": "Ele compara a fortuna a um rio violento que, na cheia, derruba árvores e casas. Ninguém segura a enchente, mas nos tempos calmos dá para erguer diques. A fortuna ataca onde ninguém se preparou.",
+    "verso": "A fortuna é árbitro de metade das nossas ações, mas deixa a outra metade a nós.",
+    "ref": "O PRÍNCIPE, CAP. XXV"
+   },
+   {
+    "gravura": "acervo/julio_ii_raffaello.jpg",
+    "mov": "out",
+    "txt": "E diz que o sucesso depende de combinar o seu jeito com os tempos. Júlio Segundo agia sempre com ímpeto, e deu certo porque os tempos pediam isso. Se mudassem, diz Maquiavel, ele teria caído."
+   },
+   {
+    "gravura": "hist/bonfire_of_the_vanities.jpg",
+    "mov": "esq",
+    "txt": "E agora a última promessa, a maior. Depois de vinte e cinco capítulos frios, o vinte e seis muda de tom. É um apelo emocionado para que os Médici libertem a Itália dos exércitos estrangeiros."
+   },
+   {
+    "gravura": "acervo/leao_x_raffaello.jpg",
+    "mov": "dir",
+    "txt": "Ele diz que a Itália espera um redentor, mais escrava que os hebreus e mais dispersa que os atenienses. E que a família Médici, com um papa no trono, tem a chance da história."
+   },
+   {
+    "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+    "mov": "cima",
+    "txt": "E o livro termina com versos de Petrarca: a virtude contra o furor pegará em armas, e o combate será curto, porque o antigo valor nos corações italianos ainda não morreu.",
+    "verso": "A virtude contra o furor tomará as armas, e o combate será curto.",
+    "ref": "O PRÍNCIPE, CAP. XXVI"
+   },
+   {
+    "gravura": "hist/alexander_the_great.jpg",
+    "mov": "in",
+    "txt": "Os historiadores ainda debatem esse final. Uns veem patriotismo sincero. Outros, um jeito de agradar os Médici. E há quem leia o livro inteiro como um aviso ao povo sobre como os poderosos agem."
+   },
+   {
+    "gravura": "maquiavel.jpg",
+    "mov": "out",
+    "txt": "O certo é isso: o homem que escreveu o manual mais frio sobre o poder terminou com um sonho. Nunca recuperou o posto que tinha, morreu em 1527, e o livrinho dele atravessou os séculos."
+   },
+   {
+    "gravura": "acervo/coroacao_napoleao_david.jpg",
+    "mov": "esq",
+    "txt": "Resumindo: armas próprias, firmeza sem ódio, olho de raposa, coragem de leão, gente sincera por perto e diques antes da enchente. Qual dessas lições você vai usar primeiro? Escreve nos comentários.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Qual lição você usa primeiro?"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+    "mov": "dir",
+    "txt": "No próximo vídeo da playlist O Príncipe explicado, a gente mergulha no capítulo dezoito, a raposa e o leão, com exemplos de hoje. Até a próxima lição, raposa.",
+    "cta": "Próximo: <b>a raposa e o leão</b><br>Até a próxima lição, raposa",
+    "selo": "RAPOSA<br>E LEÃO"
+   }
+  ],
+  "canal": "raposa"
+ },
+ {
+  "id": "longo-13",
+  "formato": "longo",
+  "titulo": "Os Médici: como uma família dominou Florença",
+  "legenda": "Os Médici nunca usaram coroa e mesmo assim dominaram Florença por décadas. Neste vídeo você entende como uma família de banqueiros chegou ao poder: Cosimo, o Velho, o exílio de 1433 e a volta de 1434, Lorenzo, o Magnífico, a Conspiração dos Pazzi de 1478, a expulsão de 1494, a volta de 1512 e os papas Médici Leão X e Clemente VII.\n\nVocê também descobre a relação de Maquiavel com essa família: a prisão em 1513, O Príncipe dedicado a Lorenzo di Piero de Médici e a História de Florença encomendada pelo cardeal Giulio de Médici, o futuro Clemente VII. No final, as lições de poder que Maquiavel tirou dos Médici para você aplicar no trabalho, nos negócios e na vida.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📜 Fonte: Nicolau Maquiavel, O Príncipe (Dedicatória e caps. VI, IX, XIX, XX, XXI, XXV e XXVI); Discursos sobre a Primeira Década de Tito Lívio (Livro I, cap. 33; Livro III, cap. 6); História de Florença (Livros VII e VIII); carta a Francesco Vettori de 10/12/1513.\n\n🦊🦁 Raposa e Leão: Maquiavel e as leis do poder aplicadas à vida real.\n\n▶️ Playlist recomendada: Personagens do poder\n\n#Médici #Maquiavel #OPríncipe #HistóriaDeFlorença #Renascimento",
+  "comentario": "📌 Cosimo venceu sem cargo e Piero perdeu tudo com o nome da família. Na sua vida, o que pesa mais: o cargo ou a confiança das pessoas? Continue na playlist Personagens do poder ⬇️",
+  "titulo_tela": {
+   "sup": "RAPOSA E LEÃO",
+   "txt": "Os Médici sem coroa",
+   "dur": 3.2
+  },
+  "cenas": [
+   {
+    "gravura": "lorenzo.jpg",
+    "mov": "in",
+    "txt": "Eles nunca usaram coroa. Nunca foram reis, nem duques, nem generais. E mesmo assim, por sessenta anos, quase nada acontecia em Florença sem passar pela mesa de uma família de banqueiros: os Médici."
+   },
+   {
+    "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+    "mov": "out",
+    "txt": "Foram expulsos e voltaram. Foram expulsos de novo e voltaram de novo. E no meio dessa história estava um funcionário da república que perdeu o emprego, foi preso e torturado por causa deles: Nicolau Maquiavel."
+   },
+   {
+    "gravura": "maquiavel.jpg",
+    "mov": "esq",
+    "txt": "E sabe o que esse homem fez depois? Escreveu O Príncipe, o livro sobre poder mais famoso da história, e dedicou a um Médici. Justamente à família que tinha acabado com a carreira dele."
+   },
+   {
+    "gravura": "acervo/botticelli_giuliano_de_medici_accademia_carrara.jpg",
+    "mov": "dir",
+    "txt": "Hoje eu vou te mostrar como essa família chegou ao poder sem exército, como sobreviveu a um ataque dentro de uma catedral e o que Maquiavel aprendeu observando tudo isso de perto."
+   },
+   {
+    "gravura": "acervo/beijo_judas_giotto.jpg",
+    "mov": "cima",
+    "txt": "Tem um detalhe que pouca gente conhece: esse ataque foi planejado com o apoio de alguém muito acima de qualquer banqueiro. Daqui a pouco você descobre quem estava por trás."
+   },
+   {
+    "gravura": "acervo/leao_x_raffaello.jpg",
+    "mov": "in",
+    "txt": "E tem outra virada: o filho de um Médici assassinado virou papa. E foi a família dele que pagou Maquiavel para escrever a história de Florença."
+   },
+   {
+    "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+    "mov": "out",
+    "txt": "E a maior pergunta eu guardo para o fim: qual foi o segredo que fez essa família voltar depois de cada queda? Fica até o final que eu te mostro."
+   },
+   {
+    "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+    "mov": "esq",
+    "txt": "Florença, no século quinze, era uma república. Tinha conselhos, tinha cargos sorteados entre os cidadãos e um governo chamado Senhoria, que se reunia no Palazzo Vecchio. No papel, ninguém mandava sozinho.",
+    "cap": {
+     "sup": "LIÇÃO 1",
+     "txt": "O banco que virou trono"
+    }
+   },
+   {
+    "gravura": "acervo/embaixadores_holbein.jpg",
+    "mov": "dir",
+    "txt": "Mas quem tinha dinheiro tinha amigos. E os Médici tinham muito dinheiro. Giovanni di Bicci de Médici montou um banco que chegou a cuidar das finanças do próprio papa em Roma."
+   },
+   {
+    "gravura": "acervo/romanos_decadencia_couture.jpg",
+    "mov": "cima",
+    "txt": "Repara na diferença. Muitos ricos de Florença gastavam para se exibir. O filho de Giovanni, Cosimo, entendeu outra coisa: dinheiro emprestado na hora certa compra algo mais valioso que um palácio. Compra gratidão."
+   },
+   {
+    "gravura": "acervo/multidao_bruegel.jpg",
+    "mov": "in",
+    "txt": "Cosimo emprestava, ajudava, arrumava cargos, socorria famílias em apuro. Com o tempo, muita gente importante da cidade devia algum favor a ele. E quem deve favor costuma lembrar disso na hora de decidir."
+   },
+   {
+    "gravura": "acervo/cesar_assassinato_camuccini.jpg",
+    "mov": "out",
+    "txt": "Isso assustou os rivais. Em 1433, o grupo liderado por Rinaldo degli Albizzi conseguiu prender Cosimo numa torre do Palazzo Vecchio. Teve gente no governo que queria a cabeça dele."
+   },
+   {
+    "gravura": "acervo/prisao_cristo_caravaggio.jpg",
+    "mov": "esq",
+    "txt": "Cosimo escapou da morte, mas foi mandado para o exílio. Tiraram o homem da cidade. Só esqueceram de tirar da cidade a rede de amigos que ele tinha construído."
+   },
+   {
+    "gravura": "hist/marcus_equestre.jpg",
+    "mov": "dir",
+    "txt": "No exílio, em Veneza, ele foi recebido com honras. Em 1434, cerca de um ano depois, uma nova Senhoria favorável a ele chamou Cosimo de volta. Quem saiu para o exílio foi Rinaldo degli Albizzi."
+   },
+   {
+    "gravura": "hist/marcus_aurelius.jpg",
+    "mov": "in",
+    "txt": "Maquiavel estudou esse episódio nos Discursos. Ele diz que os inimigos de Cosimo erraram ao atacar de frente um poder que já tinha crescido demais. O ataque só serviu para unir os amigos dele.",
+    "verso": "Quando um mal cresce dentro de uma república, é mais seguro dar tempo ao tempo do que atacá-lo de frente.",
+    "ref": "DISCURSOS, LIVRO I, CAP. 33"
+   },
+   {
+    "gravura": "acervo/coroacao_napoleao_david.jpg",
+    "mov": "out",
+    "txt": "Repara na lição. Os Albizzi tinham o poder formal. Cosimo tinha o poder real: as pessoas que dependiam dele e confiavam nele. Quando os dois brigaram, o poder real ganhou."
+   },
+   {
+    "gravura": "hist/arco_severo.jpg",
+    "mov": "esq",
+    "txt": "Tá comigo até aqui? Guarda essa ideia de poder formal contra poder real, porque ela vai voltar em cada parte dessa história. Inclusive na que acontece dentro da catedral.",
+    "interage": {
+     "tipo": "checkin",
+     "txt": "Tá comigo até aqui, raposa?"
+    }
+   },
+   {
+    "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+    "mov": "dir",
+    "txt": "De 1434 até morrer, em 1464, Cosimo comandou Florença. Mas o detalhe que impressionou Maquiavel é outro: ele ocupou poucas vezes os cargos de governo. Na maior parte do tempo, era só um cidadão.",
+    "cap": {
+     "sup": "LIÇÃO 2",
+     "txt": "Mandar sem aparecer"
+    }
+   },
+   {
+    "gravura": "acervo/castiglione_raffaello.jpg",
+    "mov": "cima",
+    "txt": "O grupo dele controlava quem entrava nas listas de onde saíam os nomes do sorteio. Os amigos certos iam para os postos certos. A república continuava funcionando, só que as decisões já chegavam prontas."
+   },
+   {
+    "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+    "mov": "in",
+    "txt": "Na História de Florença, Maquiavel registra uma frase atribuída a Cosimo. Quando reclamavam da dureza dele com os adversários, ele respondia que os Estados não se governam com o pai-nosso na mão.",
+    "verso": "Os Estados não se mantêm com o pai-nosso na mão.",
+    "ref": "HISTÓRIA DE FLORENÇA, LIVRO VII"
+   },
+   {
+    "gravura": "acervo/multidao_bruegel.jpg",
+    "mov": "out",
+    "txt": "Ao mesmo tempo, Cosimo evitava a ostentação. Maquiavel escreve que ele foi o cidadão de maior reputação que Florença já teve entre os homens desarmados, ou seja, sem exército."
+   },
+   {
+    "gravura": "hist/bonfire_of_the_vanities.jpg",
+    "mov": "esq",
+    "txt": "Ele também gastou fortunas com a cidade: igrejas, conventos, a biblioteca de San Marco, obras de Brunelleschi. Cada obra pública lembrava ao povo quem tinha pagado por ela."
+   },
+   {
+    "gravura": "cesar.jpg",
+    "mov": "dir",
+    "txt": "Quando ele morreu, em 1464, Florença deu a ele o título de Pai da Pátria. Pense nisso: um banqueiro que nunca foi rei recebeu um título que os romanos davam aos seus maiores líderes."
+   },
+   {
+    "gravura": "maquiavel.jpg",
+    "mov": "in",
+    "txt": "E isso conversa direto com O Príncipe. No capítulo nove, Maquiavel fala do principado civil: quando um cidadão vira o primeiro da cidade não por crime nem por violência, mas pelo favor dos outros cidadãos.",
+    "verso": "Quem chega ao poder com o favor do povo se mantém sozinho; quem chega pelos grandes vive cercado de quem se acha igual a ele.",
+    "ref": "O PRÍNCIPE, CAP. IX"
+   },
+   {
+    "gravura": "acervo/embaixadores_holbein.jpg",
+    "mov": "cima",
+    "txt": "Agora pensa na sua vida. No seu trabalho, quem tem o cargo e quem tem a confiança das pessoas? Muitas vezes não é a mesma pessoa. Me conta nos comentários.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Cargo ou confiança? Comenta aí"
+    }
+   },
+   {
+    "gravura": "acervo/albrecht_altdorfer_schlacht_bei_issus_alte_pinak.jpg",
+    "mov": "dir",
+    "txt": "Depois de Cosimo veio o filho, Piero, doente de gota, que governou só cinco anos. E em 1469 o poder caiu nas mãos de um rapaz de vinte anos. O nome dele era Lorenzo."
+   },
+   {
+    "gravura": "lorenzo.jpg",
+    "mov": "in",
+    "txt": "Repara na coincidência: naquele mesmo ano de 1469, em maio, nascia em Florença um menino chamado Nicolau Maquiavel. Ele ia crescer inteiro debaixo do governo de Lorenzo de Médici.",
+    "cap": {
+     "sup": "LIÇÃO 3",
+     "txt": "O Magnífico"
+    }
+   },
+   {
+    "gravura": "acervo/coroacao_napoleao_david.jpg",
+    "mov": "out",
+    "txt": "Lorenzo ficou conhecido como o Magnífico. Era poeta, colecionador e protetor de artistas. Botticelli trabalhou para a família, e um jovem Michelangelo chegou a viver na casa dos Médici ainda adolescente."
+   },
+   {
+    "gravura": "acervo/rendicao_granada_pradilla.jpg",
+    "mov": "esq",
+    "txt": "Isso também está em O Príncipe. No capítulo vinte e um, Maquiavel diz que quem governa deve honrar quem se destaca em cada arte e animar o povo com festas e espetáculos.",
+    "verso": "O príncipe deve mostrar-se amante das virtudes e honrar quem se destaca em cada arte.",
+    "ref": "O PRÍNCIPE, CAP. XXI"
+   },
+   {
+    "gravura": "hist/bonfire_of_the_vanities.jpg",
+    "mov": "cima",
+    "txt": "Mas tinha um problema que pouca gente via. Enquanto Lorenzo brilhava, o banco da família ia mal. Filiais fechavam no exterior, empréstimos não voltavam. O dinheiro que tinha criado o poder começava a encolher."
+   },
+   {
+    "gravura": "hist/caracalla.jpg",
+    "mov": "in",
+    "txt": "E onde tem brilho, tem inveja. Outra família de banqueiros de Florença, os Pazzi, olhava para os Médici e se perguntava: por que eles, e não nós?"
+   },
+   {
+    "gravura": "acervo/beijo_judas_giotto.jpg",
+    "mov": "out",
+    "txt": "Hora de fechar a primeira promessa. Lembra do ataque planejado com apoio de alguém muito acima de qualquer banqueiro? Foi no dia 26 de abril de 1478. E o lugar escolhido foi a catedral de Florença.",
+    "cap": {
+     "sup": "LIÇÃO 4",
+     "txt": "Sangue na catedral"
+    }
+   },
+   {
+    "gravura": "acervo/cesar_assassinato_camuccini.jpg",
+    "mov": "esq",
+    "txt": "O plano era matar os dois irmãos Médici ao mesmo tempo, Lorenzo e Giuliano, durante a missa, no meio do povo. Com os dois mortos, a cidade cairia antes de qualquer reação."
+   },
+   {
+    "gravura": "acervo/pollice_verso_gerome.jpg",
+    "mov": "dir",
+    "txt": "Por trás dos Pazzi estavam nomes pesados: Girolamo Riario, sobrinho do papa Sisto quarto, e Francesco Salviati, arcebispo de Pisa. O próprio papa sabia do plano. Até onde ele aceitava o sangue, os historiadores ainda discutem."
+   },
+   {
+    "gravura": "acervo/botticelli_giuliano_de_medici_accademia_carrara.jpg",
+    "mov": "cima",
+    "txt": "Na hora combinada, Bernardo Bandini e Francesco de Pazzi atacaram Giuliano, o irmão mais novo, o da imagem que você está vendo. Ele foi golpeado várias vezes e morreu ali mesmo, no chão da catedral."
+   },
+   {
+    "gravura": "lorenzo.jpg",
+    "mov": "in",
+    "txt": "Lorenzo foi ferido no pescoço, se defendeu com a espada e correu para a sacristia, onde os amigos trancaram as portas pesadas de bronze. Sobreviveu por muito pouco."
+   },
+   {
+    "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+    "mov": "out",
+    "txt": "Enquanto isso, o arcebispo Salviati tentava tomar o Palazzo Vecchio. E Jacopo de Pazzi saiu a cavalo pela praça gritando por povo e liberdade, esperando que a cidade se levantasse contra os Médici."
+   },
+   {
+    "gravura": "acervo/multidao_bruegel.jpg",
+    "mov": "esq",
+    "txt": "E a cidade se levantou, só que do lado errado para ele. O povo saiu às ruas a favor dos Médici. Salviati foi enforcado numa janela do palácio."
+   },
+   {
+    "gravura": "acervo/cesar_morte_gerome.jpg",
+    "mov": "dir",
+    "txt": "Maquiavel tinha nove anos nesse dia. E anos depois escreveu, no capítulo dezenove de O Príncipe, qual é um dos maiores remédios contra conspirações.",
+    "verso": "Um dos remédios mais fortes contra as conspirações é não ser odiado pelo povo.",
+    "ref": "O PRÍNCIPE, CAP. XIX"
+   },
+   {
+    "gravura": "acervo/jean_l_on_g_r_me_the_death_of_caesar_walters_378.jpg",
+    "mov": "cima",
+    "txt": "Nos Discursos, ele dedica um capítulo inteiro às conspirações e usa os Pazzi como exemplo. Matar dois alvos ao mesmo tempo, no meio da multidão, multiplica as chances de dar errado.",
+    "verso": "Nas conspirações, os perigos estão antes, durante e depois da execução.",
+    "ref": "DISCURSOS, LIVRO III, CAP. 6"
+   },
+   {
+    "gravura": "acervo/hannibal_and_scipio_africanus.jpg",
+    "mov": "in",
+    "txt": "Mas a crise não acabou ali. O papa excomungou Lorenzo e entrou em guerra contra Florença ao lado do rei de Nápoles. E a cidade começou a se perguntar se um homem só valia tanto sacrifício."
+   },
+   {
+    "gravura": "acervo/embaixadores_holbein.jpg",
+    "mov": "out",
+    "txt": "Aí Lorenzo fez uma jogada que Maquiavel narra com admiração. No fim de 1479, ele foi pessoalmente a Nápoles se colocar nas mãos do rei Ferrante, que estava em guerra com ele."
+   },
+   {
+    "gravura": "acervo/vercingetorix_royer.jpg",
+    "mov": "esq",
+    "txt": "Passou meses naquela corte conversando e convencendo, mostrando que a guerra contra Florença servia mais aos outros do que ao próprio rei. E voltou para casa com o caminho da paz aberto."
+   },
+   {
+    "gravura": "acervo/castiglione_raffaello.jpg",
+    "mov": "dir",
+    "txt": "Leão quando precisou, raposa quando foi preciso. Na catedral, sobreviveu pela força e pela sorte. Em Nápoles, venceu pela conversa. É exatamente essa mistura que Maquiavel vai defender anos depois."
+   },
+   {
+    "gravura": "hist/marcus_equestre.jpg",
+    "mov": "cima",
+    "txt": "Se essa história da catedral te prendeu, salva esse vídeo agora. Daqui a pouco vem a parte em que tudo desmorona, e é justamente a que mais ensina.",
+    "interage": {
+     "tipo": "salva",
+     "txt": "Salva pra ver de novo"
+    }
+   },
+   {
+    "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+    "mov": "in",
+    "txt": "E se você está gostando de entender o poder pela história real, se inscreve no Raposa e Leão e abre a playlist Personagens do poder. Cada vídeo é um personagem que Maquiavel estudou de perto.",
+    "cta": "Inscreva-se e veja a playlist<br><b>Personagens do poder</b>",
+    "interage": {
+     "tipo": "segue",
+     "txt": "Segue o canal, raposa"
+    }
+   },
+   {
+    "gravura": "lorenzo.jpg",
+    "mov": "out",
+    "txt": "Lorenzo morreu em abril de 1492, aos quarenta e três anos. Na História de Florença, Maquiavel escreve que, depois da morte dele, começaram a nascer as sementes da ruína da Itália.",
+    "cap": {
+     "sup": "LIÇÃO 5",
+     "txt": "A queda de 1494"
+    }
+   },
+   {
+    "gravura": "acervo/the_battle_of_alexander_at_issus_by_albrecht_alt.jpg",
+    "mov": "esq",
+    "txt": "O herdeiro era o filho dele, Piero. E em 1494 o rei da França, Carlos oitavo, desceu para a Itália com um exército enorme, a caminho de Nápoles, passando pela Toscana."
+   },
+   {
+    "gravura": "acervo/rendicao_granada_pradilla.jpg",
+    "mov": "dir",
+    "txt": "Piero entrou em pânico. Foi ao encontro do rei e, sem consultar o governo da cidade, entregou fortalezas importantes de Florença. Fez sozinho um acordo que ninguém tinha autorizado."
+   },
+   {
+    "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+    "mov": "cima",
+    "txt": "Quando voltou, encontrou o Palazzo Vecchio fechado para ele. Em novembro de 1494, os Médici foram expulsos de Florença. Sessenta anos de domínio acabaram em poucos dias."
+   },
+   {
+    "gravura": "hist/arco_severo.jpg",
+    "mov": "in",
+    "txt": "Lembra do poder real? Piero herdou o nome, mas não herdou a confiança. E sem ela, o nome não segurou nada. Maquiavel escreve que a melhor fortaleza que existe é não ser odiado pelo povo.",
+    "verso": "A melhor fortaleza que existe é não ser odiado pelo povo.",
+    "ref": "O PRÍNCIPE, CAP. XX"
+   },
+   {
+    "gravura": "hist/girolamo_savonarola.jpg",
+    "mov": "out",
+    "txt": "No vazio que ficou, ganhou força um frade dominicano: Girolamo Savonarola. Ele pregava contra o luxo, contra a corrupção, contra os Médici. E Florença ouvia cada palavra."
+   },
+   {
+    "gravura": "hist/pope_alexander_vi.jpg",
+    "mov": "dir",
+    "txt": "Mas Savonarola atacou também o papa Alexandre sexto, o pai de César Bórgia. Foi excomungado, perdeu o apoio do povo e, em 1498, foi executado e queimado na mesma praça onde tinha sido ouvido."
+   },
+   {
+    "gravura": "hist/moses.jpg",
+    "mov": "cima",
+    "txt": "Maquiavel viu tudo. E no capítulo seis de O Príncipe cita Savonarola pelo nome: o frade tinha palavras, mas não tinha meios de segurar quem já não acreditava nele.",
+    "verso": "Todos os profetas armados venceram, e os desarmados se arruinaram.",
+    "ref": "O PRÍNCIPE, CAP. VI"
+   },
+   {
+    "gravura": "maquiavel.jpg",
+    "mov": "in",
+    "txt": "E aqui entra o próprio Maquiavel. Em 1498, ele assumiu um cargo de chanceler na república. Tinha vinte e nove anos e serviu catorze anos ao governo sem os Médici."
+   },
+   {
+    "gravura": "hist/commodus.jpg",
+    "mov": "esq",
+    "txt": "Pausa rápida. Até aqui você viu um banqueiro que venceu sem armas, um Magnífico que sobreviveu à catedral e um herdeiro que perdeu tudo por agir sozinho. Qual desses três você mais reconhece no seu trabalho?",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Qual dos três você conhece?"
+    }
+   },
+   {
+    "gravura": "acervo/julio_ii_raffaello.jpg",
+    "mov": "dir",
+    "txt": "Os Médici nunca desistiram. Durante dezoito anos, a família esperou fora de Florença. Um dos irmãos de Piero, Giovanni, era cardeal em Roma. E em 1512 a chance apareceu.",
+    "cap": {
+     "sup": "LIÇÃO 6",
+     "txt": "A volta de 1512"
+    }
+   },
+   {
+    "gravura": "hist/ferdinand_ii_of_aragon.jpg",
+    "mov": "cima",
+    "txt": "O papa Júlio segundo formou a Santa Liga contra a França, com a Espanha de Fernando de Aragão. Florença tinha ficado do lado dos franceses. E a Liga decidiu cobrar a conta."
+   },
+   {
+    "gravura": "acervo/albrecht_altdorfer_schlacht_bei_issus_alte_pinak.jpg",
+    "mov": "in",
+    "txt": "Em agosto de 1512, tropas espanholas atacaram Prato, cidade bem perto de Florença. O saque foi brutal, e o medo chegou a Florença antes do exército."
+   },
+   {
+    "gravura": "acervo/multidao_bruegel.jpg",
+    "mov": "out",
+    "txt": "Piero Soderini, o chefe da república, fugiu. E os Médici voltaram para a cidade sem precisar travar uma grande batalha dentro dos muros. Dezoito anos de exílio desfeitos em poucas semanas."
+   },
+   {
+    "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+    "mov": "esq",
+    "txt": "Para Maquiavel, foi o desastre. Em novembro ele perdeu o cargo. E no começo de 1513 o nome dele apareceu numa lista de pessoas ligadas a uma conspiração contra os Médici."
+   },
+   {
+    "gravura": "acervo/prisao_cristo_caravaggio.jpg",
+    "mov": "dir",
+    "txt": "Foi preso e torturado com a corda: braços amarrados nas costas, o corpo içado e solto de uma vez. Ele aguentou sem confessar, porque não tinha nada a confessar."
+   },
+   {
+    "gravura": "acervo/leao_x_raffaello.jpg",
+    "mov": "cima",
+    "txt": "E quem acabou soltando Maquiavel? A própria família que o derrubou. Em março de 1513, o cardeal Giovanni de Médici foi eleito papa com o nome de Leão décimo. Na anistia que veio depois, ele foi solto."
+   },
+   {
+    "gravura": "acervo/hannibal_and_scipio_africanus.jpg",
+    "mov": "out",
+    "txt": "Maquiavel olhou para isso e escreveu sobre a fortuna, a sorte. Ele compara a fortuna a um rio violento: não dá para impedir a cheia, mas dá para construir diques antes.",
+    "verso": "A fortuna é senhora de metade das nossas ações e deixa a outra metade para nós.",
+    "ref": "O PRÍNCIPE, CAP. XXV"
+   },
+   {
+    "gravura": "hist/alexander_the_great.jpg",
+    "mov": "esq",
+    "txt": "Repara que os Médici não esperaram parados. Mantiveram aliados em Roma, um cardeal pronto, contatos com reis. Quando a cheia veio, os diques estavam de pé. Faz sentido para você?",
+    "interage": {
+     "tipo": "checkin",
+     "txt": "Faz sentido até aqui?"
+    }
+   },
+   {
+    "gravura": "maquiavel.jpg",
+    "mov": "dir",
+    "txt": "Solto, mas sem emprego, Maquiavel foi para a pequena propriedade da família, perto de San Casciano. E ali, em 1513, escreveu o livro que tornaria o nome dele eterno.",
+    "cap": {
+     "sup": "LIÇÃO 7",
+     "txt": "O presente para os Médici"
+    }
+   },
+   {
+    "gravura": "acervo/embaixadores_holbein.jpg",
+    "mov": "cima",
+    "txt": "Numa carta ao amigo Francesco Vettori, de dezembro de 1513, ele conta a rotina. De dia, cuida da terra e vai à taverna. À noite, veste roupas de corte e conversa com os antigos através dos livros.",
+    "verso": "À noite, visto roupas de corte e entro nas antigas cortes dos homens antigos.",
+    "ref": "CARTA A FRANCESCO VETTORI, 10/12/1513"
+   },
+   {
+    "gravura": "acervo/sandro_botticelli_giuliano_de_medici_gem_ldegale.jpg",
+    "mov": "in",
+    "txt": "Nessa mesma carta, ele diz que pensava em dedicar o livro a Giuliano de Médici, filho de Lorenzo, o Magnífico. Maquiavel queria voltar a trabalhar e sabia que o caminho passava por aquela família."
+   },
+   {
+    "gravura": "lorenzo.jpg",
+    "mov": "out",
+    "txt": "Mas Giuliano morreu em 1516. E a dedicatória que ficou foi para outro Lorenzo: Lorenzo di Piero de Médici, neto do Magnífico, que então governava Florença em nome da família."
+   },
+   {
+    "gravura": "acervo/romanos_decadencia_couture.jpg",
+    "mov": "esq",
+    "txt": "Na dedicatória, Maquiavel diz que os outros oferecem aos príncipes cavalos, armas e tecidos de ouro. Ele oferece o que tem de mais valioso: o que aprendeu sobre as ações dos grandes homens.",
+    "verso": "Para conhecer bem os povos é preciso ser príncipe; para conhecer bem os príncipes, é preciso ser do povo.",
+    "ref": "O PRÍNCIPE, DEDICATÓRIA"
+   },
+   {
+    "gravura": "hist/arco_severo.jpg",
+    "mov": "dir",
+    "txt": "No último capítulo, ele faz um apelo direto à casa dos Médici: que ela assuma a missão de libertar a Itália dos estrangeiros. A família que o prendeu virava, no papel, a esperança da Itália.",
+    "verso": "Que a vossa ilustre casa tome esta empresa com o ânimo com que se abraçam as causas justas.",
+    "ref": "O PRÍNCIPE, CAP. XXVI"
+   },
+   {
+    "gravura": "hist/caracalla.jpg",
+    "mov": "cima",
+    "txt": "E o Lorenzo leu? Ninguém sabe. Conta-se que ele deu mais atenção a uns cães de caça do que ao livro, mas não há prova disso. O certo é que o livro não devolveu o emprego a Maquiavel."
+   },
+   {
+    "gravura": "acervo/vercingetorix_royer.jpg",
+    "mov": "in",
+    "txt": "Conhece alguém tentando ser notado por um chefe ou um cliente importante, sem conseguir? Manda esse vídeo. A história do Maquiavel com os Médici mostra que talento sozinho não abre porta.",
+    "interage": {
+     "tipo": "manda",
+     "txt": "Manda pra quem quer ser notado"
+    }
+   },
+   {
+    "gravura": "acervo/leao_x_raffaello.jpg",
+    "mov": "out",
+    "txt": "Agora repara neste quadro de Rafael. É Leão décimo, o papa Médici. E um dos cardeais ao lado dele é o primo, Giulio de Médici.",
+    "cap": {
+     "sup": "LIÇÃO 8",
+     "txt": "Dois papas Médici"
+    }
+   },
+   {
+    "gravura": "acervo/botticelli_giuliano_de_medici_accademia_carrara.jpg",
+    "mov": "esq",
+    "txt": "Giulio era filho de Giuliano, o irmão morto na catedral em 1478. Nasceu cerca de um mês depois do assassinato do pai. É o filho do Médici assassinado que eu te prometi."
+   },
+   {
+    "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+    "mov": "dir",
+    "txt": "Em 1520, o cardeal Giulio, que cuidava de Florença em nome da família, fez a Maquiavel uma encomenda: escrever a história de Florença. Era a volta dele ao trabalho."
+   },
+   {
+    "gravura": "acervo/coroacao_napoleao_david.jpg",
+    "mov": "in",
+    "txt": "Em 1523, Giulio foi eleito papa com o nome de Clemente sétimo. Dois papas Médici em dez anos. A família de banqueiros tinha chegado ao lugar mais alto da Igreja."
+   },
+   {
+    "gravura": "maquiavel.jpg",
+    "mov": "out",
+    "txt": "Em 1525, Maquiavel foi a Roma entregar os oito livros da História de Florença ao papa Clemente. E aqui tem uma questão delicada: como contar a verdade sobre a família de quem está pagando?"
+   },
+   {
+    "gravura": "acervo/castiglione_raffaello.jpg",
+    "mov": "esq",
+    "txt": "Segundo o amigo Donato Giannotti, Maquiavel disse que não podia escrever abertamente como Cosimo chegou ao poder. Então colocou as críticas na boca dos adversários dos Médici, nos discursos dos personagens."
+   },
+   {
+    "gravura": "acervo/the_battle_of_alexander_at_issus_by_albrecht_alt.jpg",
+    "mov": "dir",
+    "txt": "Ou seja: o elogio aparecia na voz do narrador, e a crítica ficava nos discursos. Quem lia com atenção encontrava as duas coisas. Isso é raposa pura: dizer a verdade sem ser destruído por ela."
+   },
+   {
+    "gravura": "acervo/cesar_morte_gerome.jpg",
+    "mov": "cima",
+    "txt": "O final tem ironia. Em 1527, Roma foi saqueada pelas tropas do imperador Carlos quinto, e os Médici foram expulsos de Florença mais uma vez. Maquiavel esperava voltar a servir a república restaurada."
+   },
+   {
+    "gravura": "hist/hannibal.jpg",
+    "mov": "in",
+    "txt": "Não conseguiu. Para muitos republicanos, ele era o homem que tinha trabalhado para os Médici. Em junho de 1527, Maquiavel morreu em Florença, sem o cargo que tanto queria."
+   },
+   {
+    "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+    "mov": "out",
+    "txt": "E os Médici? Voltaram de novo em 1530, depois de um longo cerco a Florença. Pouco depois viraram duques e, mais tarde, grão-duques da Toscana. A família sem coroa acabou ganhando uma."
+   },
+   {
+    "gravura": "lorenzo.jpg",
+    "mov": "esq",
+    "txt": "Agora a última promessa: o segredo que fez essa família voltar depois de cada queda. Juntando O Príncipe, os Discursos e a História de Florença, dá para ver lições bem claras.",
+    "cap": {
+     "sup": "LIÇÃO 9",
+     "txt": "O segredo dos Médici"
+    }
+   },
+   {
+    "gravura": "acervo/multidao_bruegel.jpg",
+    "mov": "dir",
+    "txt": "Primeira lição: o poder real mora nas pessoas, não no cargo. Cosimo voltou do exílio porque a cidade estava cheia de gente ligada a ele. Piero caiu porque só tinha o nome."
+   },
+   {
+    "gravura": "hist/marcus_aurelius.jpg",
+    "mov": "cima",
+    "txt": "Segunda lição: não ser odiado. Lorenzo sobreviveu à catedral porque o povo ficou do lado dele. No capítulo nove, Maquiavel explica que o povo só quer não ser oprimido.",
+    "verso": "O povo só deseja não ser oprimido; os grandes desejam oprimir.",
+    "ref": "O PRÍNCIPE, CAP. IX"
+   },
+   {
+    "gravura": "acervo/embaixadores_holbein.jpg",
+    "mov": "in",
+    "txt": "Terceira lição: construir os diques antes da cheia. Mesmo expulsos, os Médici mantiveram um cardeal em Roma, aliados nas cortes e muita paciência. Quando a fortuna virou, eles estavam prontos."
+   },
+   {
+    "gravura": "cesar.jpg",
+    "mov": "out",
+    "txt": "E tem uma quarta lição, que é do próprio Maquiavel: dizer a verdade com inteligência. Ele serviu a quem o prendeu sem deixar de escrever o que pensava."
+   },
+   {
+    "gravura": "hist/moses.jpg",
+    "mov": "esq",
+    "txt": "Na sua vida, isso vira algo simples. Cuide das pessoas antes de precisar delas. Não crie inimigos à toa. Tenha um plano para quando as coisas derem errado."
+   },
+   {
+    "gravura": "acervo/castiglione_raffaello.jpg",
+    "mov": "dir",
+    "txt": "E repara: nenhuma dessas lições ensina a enganar ninguém. Elas ensinam a não ser pego de surpresa e a liderar de um jeito que as pessoas queiram te ver de pé quando a crise chegar."
+   },
+   {
+    "gravura": "acervo/sandro_botticelli_giuliano_de_medici_gem_ldegale.jpg",
+    "mov": "cima",
+    "txt": "Agora me conta: qual dessas lições você precisa aplicar primeiro? No trabalho, na família ou no seu negócio? Escreve aí nos comentários, porque escrever já é o primeiro passo.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Qual lição você aplica primeiro?"
+    }
+   },
+   {
+    "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+    "mov": "in",
+    "txt": "No próximo vídeo da playlist Personagens do poder, você conhece de perto César Bórgia, o homem que Maquiavel observou por meses. Até a próxima lição, raposa.",
+    "cta": "Até a próxima <b>lição</b>,<br>raposa",
+    "selo": "RAPOSA<br>E LEÃO"
+   }
+  ],
+  "canal": "raposa"
+ },
+ {
   "id": "longo-14",
   "formato": "longo",
   "titulo": "Por que Roma caiu, segundo Maquiavel",
@@ -547,6 +1682,567 @@
     "gravura": "maquiavel2.jpg",
     "mov": "out",
     "txt": "No próximo vídeo da playlist Maquiavel na prática, você continua aprendendo a enxergar o jogo do poder no trabalho e na vida. Até a próxima lição, raposa.",
+    "cta": "Até a próxima <b>lição</b>,<br>raposa",
+    "selo": "RAPOSA<br>E LEÃO"
+   }
+  ],
+  "canal": "raposa"
+ },
+ {
+  "id": "longo-15",
+  "formato": "longo",
+  "titulo": "Em quem confiar? O teste de Maquiavel",
+  "legenda": "Em quem confiar no trabalho, nos negócios e na vida? Nicolau Maquiavel respondeu com um teste prático em O Príncipe: como julgar um ministro, como fugir dos bajuladores, por que ficar neutro quase sempre arruína e por que a melhor fortaleza é não ser odiado.\n\nNeste vídeo você vê as conspirações nos Discursos (o capítulo mais longo da obra), a morte de Júlio César, a conspiração dos Pazzi contra os Médici e a armadilha de César Bórgia em Senigallia, em 1502. No fim, o teste de Maquiavel em uma pergunta, para se proteger sem manipular ninguém.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📜 Fonte: Nicolau Maquiavel, O Príncipe, caps. VII, VIII, XII, XVIII, XIX, XX, XXI, XXII e XXIII; Discursos sobre a Primeira Década de Tito Lívio, livro III, cap. 6; História de Florença, livro VIII. Sobre a morte de César: Suetônio, Vida do Divino Júlio, 82.\n\n🦊🦁 Raposa e Leão: Maquiavel e as leis do poder aplicadas à vida real.\n\n▶️ Playlist recomendada: Maquiavel na prática\n\n#Maquiavel #OPríncipe #Confiança #Liderança #Traição",
+  "comentario": "📌 Faz o teste de Maquiavel agora: pensa numa pessoa importante no seu trabalho ou nos seus negócios. Ela ganha quando você ganha, ou ganha mesmo quando você perde? Conta aqui o que você descobriu. Continue na playlist Maquiavel na prática ⬇️",
+  "titulo_tela": {
+   "sup": "RAPOSA E LEÃO",
+   "txt": "Em quem<br>confiar?",
+   "dur": 3.2
+  },
+  "cenas": [
+   {
+    "gravura": "acervo/cesar_assassinato_camuccini.jpg",
+    "mov": "in",
+    "txt": "Júlio César foi morto por homens que ele mesmo tinha perdoado. Bruto lutou contra ele na guerra civil e recebeu perdão. Então a pergunta é dura: o perigo vem do inimigo ou de quem senta do seu lado?"
+   },
+   {
+    "gravura": "maquiavel.jpg",
+    "mov": "out",
+    "txt": "Nicolau Maquiavel passou a vida olhando para essa pergunta. Secretário em Florença, ele viu governantes caírem, aliados mudarem de lado, e escreveu como reconhecer em quem dá para confiar."
+   },
+   {
+    "gravura": "acervo/embaixadores_holbein.jpg",
+    "mov": "esq",
+    "txt": "Hoje você vai aprender o teste dele. Não é para desconfiar de todo mundo, nem para manipular ninguém. É para se proteger, escolher melhor quem fica perto de você e liderar com os olhos abertos."
+   },
+   {
+    "gravura": "borgia.jpg",
+    "mov": "dir",
+    "txt": "E eu vou te contar uma história que Maquiavel acompanhou de perto, como enviado de Florença. Uma noite de dezembro, numa cidade do litoral da Itália, quatro capitães confiaram na palavra errada. Já, já você descobre."
+   },
+   {
+    "gravura": "acervo/coroacao_napoleao_david.jpg",
+    "mov": "cima",
+    "txt": "Também vou te mostrar quem, segundo Maquiavel, é o mais perigoso para quem tem poder. E não é o inimigo declarado. A resposta surpreende muita gente."
+   },
+   {
+    "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+    "mov": "esq",
+    "txt": "E no final eu te entrego o teste inteiro em uma pergunta só. Uma pergunta para fazer sobre qualquer pessoa perto de você, e sobre você mesmo. Guarda essas três promessas."
+   },
+   {
+    "gravura": "acervo/castiglione_raffaello.jpg",
+    "mov": "in",
+    "txt": "Começa pelo capítulo vinte e dois de O Príncipe. Ele trata dos secretários e ministros, as pessoas que trabalham colado em quem manda.",
+    "cap": {
+     "sup": "LIÇÃO 1",
+     "txt": "O teste do secretário"
+    }
+   },
+   {
+    "gravura": "hist/ferdinand_ii_of_aragon.jpg",
+    "mov": "out",
+    "txt": "Maquiavel abre com uma frase que serve para qualquer chefe. A primeira impressão que se tem de alguém que manda vem das pessoas que ele escolheu para ter por perto.",
+    "verso": "A primeira ideia que se faz de um senhor vem dos homens que ele tem ao redor.",
+    "ref": "O PRÍNCIPE, CAP. XXII"
+   },
+   {
+    "gravura": "lorenzo.jpg",
+    "mov": "esq",
+    "txt": "No dia a dia é igual. O dono da loja é julgado pelo atendente. O gerente é julgado pela equipe. E você, de certa forma, também é julgado pelas pessoas que deixa entrar na sua vida."
+   },
+   {
+    "gravura": "acervo/leao_x_raffaello.jpg",
+    "mov": "dir",
+    "txt": "Se os ministros são capazes e fiéis, o governante é considerado sábio, porque soube reconhecê-los e mantê-los fiéis. Se não são, o primeiro erro foi justamente a escolha."
+   },
+   {
+    "gravura": "hist/marcus_aurelius.jpg",
+    "mov": "cima",
+    "txt": "Aí vem uma classificação famosa. Existe o cérebro que entende sozinho, o que entende o que os outros explicam, e o que não entende nem sozinho nem com ajuda.",
+    "verso": "Há cérebros que entendem por si, outros que discernem o que os outros entendem, e outros que não entendem nem uma coisa nem outra.",
+    "ref": "O PRÍNCIPE, CAP. XXII"
+   },
+   {
+    "gravura": "acervo/julio_ii_raffaello.jpg",
+    "mov": "in",
+    "txt": "O primeiro é excelente, o segundo é bom e o terceiro é inútil. E repara: ninguém precisa ser gênio. Basta ser do segundo tipo, alguém que sabe separar o bom conselho do ruim."
+   },
+   {
+    "gravura": "hist/alexander_the_great.jpg",
+    "mov": "out",
+    "txt": "O exemplo dele vem de Siena. Pandolfo Petrucci governava a cidade e tinha como ministro Antonio da Venafro. Quem conhecia Antonio, diz Maquiavel, julgava Pandolfo um homem de grande valor só por tê-lo escolhido."
+   },
+   {
+    "gravura": "acervo/embaixadores_holbein.jpg",
+    "mov": "esq",
+    "txt": "E aqui está o primeiro teste. Maquiavel diz que existe um modo que nunca falha para conhecer um ministro. Não depende de currículo nem de simpatia.",
+    "verso": "Quando o ministro pensa mais em si do que em você, nunca será um bom ministro.",
+    "ref": "O PRÍNCIPE, CAP. XXII"
+   },
+   {
+    "gravura": "hist/caracalla.jpg",
+    "mov": "dir",
+    "txt": "Quando você percebe que a pessoa pensa mais nela do que em você, e que em tudo procura o próprio proveito, ela nunca vai ser de confiança."
+   },
+   {
+    "gravura": "acervo/sandro_botticelli_giuliano_de_medici_gem_ldegale.jpg",
+    "mov": "cima",
+    "txt": "Traduzindo para hoje: o sócio que sempre dá um jeito de sair ganhando em cada acordo. O colega que só aparece na hora do crédito. O sinal é o padrão, não um dia isolado."
+   },
+   {
+    "gravura": "hist/pope_julius_ii.jpg",
+    "mov": "in",
+    "txt": "Mas Maquiavel não para no teste. Ele diz que quem lidera também tem obrigação. Para manter o bom ministro fiel, precisa pensar nele: honrar, dar segurança, dividir as honras e os encargos."
+   },
+   {
+    "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+    "mov": "out",
+    "txt": "A ideia é que a pessoa perceba que não fica de pé sem você, e que ganhe tanto ao seu lado que não precise procurar nada fora. Confiança, para ele, é uma via de mão dupla."
+   },
+   {
+    "gravura": "maquiavel.jpg",
+    "mov": "esq",
+    "txt": "Tá comigo até aqui? Primeiro teste: observa, com calma, se a pessoa pensa mais no próprio proveito do que no trabalho que vocês fazem juntos. Olhando o padrão, não um deslize.",
+    "interage": {
+     "tipo": "checkin",
+     "txt": "Pensa mais em si ou em você?"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "acervo/romanos_decadencia_couture.jpg",
+    "mov": "in",
+    "txt": "Agora o capítulo vinte e três. Maquiavel diz que existe um erro do qual os governantes quase nunca escapam, a não ser que sejam muito prudentes. É a bajulação.",
+    "cap": {
+     "sup": "LIÇÃO 2",
+     "txt": "A peste dos bajuladores"
+    }
+   },
+   {
+    "gravura": "hist/commodus.jpg",
+    "mov": "dir",
+    "txt": "As cortes, diz ele, vivem cheias de bajuladores. A gente gosta tanto das próprias coisas, e se engana tanto sobre elas, que fica difícil se defender dessa peste. E quem tenta se defender corre outro risco."
+   },
+   {
+    "gravura": "acervo/coroacao_napoleao_david.jpg",
+    "mov": "out",
+    "txt": "O único jeito de se proteger, segundo ele, é fazer as pessoas entenderem que dizer a verdade não te ofende. Só que tem um problema escondido nessa solução.",
+    "verso": "Não há outro modo de se guardar da bajulação senão fazer os homens entenderem que dizer a verdade não te ofende.",
+    "ref": "O PRÍNCIPE, CAP. XXIII"
+   },
+   {
+    "gravura": "lorenzo.jpg",
+    "mov": "cima",
+    "txt": "Se todo mundo pode te dizer qualquer coisa, a qualquer hora, você perde o respeito. Então Maquiavel propõe um terceiro caminho, que é o coração do capítulo."
+   },
+   {
+    "gravura": "hist/marcus_equestre.jpg",
+    "mov": "in",
+    "txt": "Escolha pessoas sábias e dê só a elas a liberdade de falar a verdade. Pergunte sobre tudo, ouça com atenção e depois decida você, do seu jeito. Quanto mais franco o conselho, melhor deve ser recebido."
+   },
+   {
+    "gravura": "acervo/ferdinand_of_aragon_isabella_of_castile.jpg",
+    "mov": "esq",
+    "txt": "E tem o exemplo do outro lado: o imperador Maximiliano. Luca Rainaldi, um homem a serviço dele, contava que o imperador não pedia conselho a ninguém e, mesmo assim, nunca fazia nada do jeito dele."
+   },
+   {
+    "gravura": "acervo/albrecht_altdorfer_schlacht_bei_issus_alte_pinak.jpg",
+    "mov": "dir",
+    "txt": "Ele era fechado e não contava os planos. Na hora de agir, as pessoas em volta contestavam, e ele, sem firmeza, voltava atrás. O que fazia num dia, desfazia no outro."
+   },
+   {
+    "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+    "mov": "in",
+    "txt": "Daí vem a frase que fecha o capítulo. Não adianta ter os melhores conselheiros do mundo se você não tem critério próprio para escolher entre eles.",
+    "verso": "Os bons conselhos nascem da prudência do príncipe, e não a prudência do príncipe dos bons conselhos.",
+    "ref": "O PRÍNCIPE, CAP. XXIII"
+   },
+   {
+    "gravura": "hist/moses.jpg",
+    "mov": "out",
+    "txt": "Na prática: quem você deixa falar a verdade para você? Se a resposta é ninguém, cuidado. Se é todo mundo, também. O ideal são duas ou três pessoas francas e você sabendo ouvir sem se defender."
+   },
+   {
+    "gravura": "acervo/multidao_bruegel.jpg",
+    "mov": "cima",
+    "txt": "Me conta nos comentários: no trabalho ou na família, quem te fala a verdade mesmo quando dói? E você agradece ou se fecha?",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Quem te fala a verdade?"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "acervo/pollice_verso_gerome.jpg",
+    "mov": "in",
+    "txt": "Agora vem a parte pesada: quando quem está perto decide agir contra. Maquiavel trata disso no capítulo dezenove de O Príncipe.",
+    "cap": {
+     "sup": "LIÇÃO 3",
+     "txt": "Quem conspira e por quê"
+    }
+   },
+   {
+    "gravura": "cesar.jpg",
+    "mov": "out",
+    "txt": "Ele diz que um governante tem dois medos. Um vem de fora, das potências estrangeiras. O outro vem de dentro, das pessoas que ele governa. E contra o perigo de dentro, o remédio principal não é muro nem guarda."
+   },
+   {
+    "gravura": "acervo/rendicao_granada_pradilla.jpg",
+    "mov": "esq",
+    "txt": "É não ser odiado. Quem conspira conta com o apoio de alguém depois do golpe. Se o povo gosta do governante, o conspirador sabe que, mesmo dando certo, vai ter todo mundo contra ele.",
+    "verso": "Um dos remédios mais fortes contra as conspirações é não ser odiado pelo povo.",
+    "ref": "O PRÍNCIPE, CAP. XIX"
+   },
+   {
+    "gravura": "acervo/hannibal_and_scipio_africanus.jpg",
+    "mov": "dir",
+    "txt": "E ele descreve os dois lados com uma imagem forte. Do lado de quem conspira, só há medo, desconfiança e pavor do castigo. Do lado do governante, estão as leis, os amigos e a força do Estado."
+   },
+   {
+    "gravura": "hist/bonfire_of_the_vanities.jpg",
+    "mov": "cima",
+    "txt": "O exemplo é de Bolonha. Os Canneschi mataram Annibale Bentivoglio, que governava a cidade. O povo se levantou e matou os assassinos. Depois trouxe de Florença alguém que diziam ser filho de um Bentivoglio, para governar."
+   },
+   {
+    "gravura": "hist/caracalla.jpg",
+    "mov": "in",
+    "txt": "Agora repara num caso romano do mesmo capítulo. O imperador Caracala cometeu um erro grave: mandou matar o irmão de um centurião, vivia ameaçando esse homem e, mesmo assim, o manteve na própria guarda."
+   },
+   {
+    "gravura": "hist/arco_severo.jpg",
+    "mov": "out",
+    "txt": "Foi esse centurião que o matou. Maquiavel tira daí uma lição prática: não dá para ofender gravemente alguém e deixar essa pessoa colada em você, com acesso livre. Ferida aberta não vira lealdade."
+   },
+   {
+    "gravura": "hist/marcus_aurelius.jpg",
+    "mov": "esq",
+    "txt": "Do outro lado, Marco Aurélio. Segundo Maquiavel, ele viveu e morreu respeitado. Chegou ao trono por herança, não devia favor a ninguém, e tinha virtudes que faziam as pessoas o respeitarem."
+   },
+   {
+    "gravura": "acervo/botticelli_giuliano_de_medici_accademia_carrara.jpg",
+    "mov": "dir",
+    "txt": "Tá acompanhando? A lição até aqui é uma só: a melhor proteção contra traição não é desconfiar de tudo, é não criar inimigos à toa. Respeito protege mais que vigilância.",
+    "interage": {
+     "tipo": "checkin",
+     "txt": "Respeito protege mais que muro"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "acervo/cesar_morte_gerome.jpg",
+    "mov": "in",
+    "txt": "Agora a gente vai para outro livro. Nos Discursos sobre Tito Lívio, Maquiavel dedica às conspirações o capítulo seis do livro três. É o capítulo mais longo de toda a obra.",
+    "cap": {
+     "sup": "LIÇÃO 4",
+     "txt": "O capítulo mais longo dos Discursos"
+    }
+   },
+   {
+    "gravura": "maquiavel.jpg",
+    "mov": "dir",
+    "txt": "E ele explica por que escreveu tanto. Muito mais governantes perderam a vida e o poder por conspirações do que por guerra aberta. Fazer guerra a um rei, poucos podem. Conspirar, qualquer um pode tentar.",
+    "verso": "Muitos mais príncipes perderam a vida e o Estado por conspirações do que por guerra aberta.",
+    "ref": "DISCURSOS, LIVRO III, CAP. 6"
+   },
+   {
+    "gravura": "acervo/sandro_botticelli_giuliano_de_medici_gem_ldegale.jpg",
+    "mov": "in",
+    "txt": "Ele divide o perigo em três momentos: antes, durante e depois. Antes, o risco é ser descoberto. Quanto mais gente sabe, maior a chance de alguém contar, por medo, por ambição ou por descuido."
+   },
+   {
+    "gravura": "lorenzo.jpg",
+    "mov": "out",
+    "txt": "Durante, o risco é o nervosismo e o imprevisto. Em abril de 1478, a família Pazzi atacou Lorenzo e Giuliano de Médici dentro da catedral, durante a missa."
+   },
+   {
+    "gravura": "acervo/botticelli_giuliano_de_medici_accademia_carrara.jpg",
+    "mov": "esq",
+    "txt": "Giuliano morreu. Lorenzo foi ferido e escapou. E o depois foi terrível para os conspiradores: Florença ficou do lado dos Médici, e os envolvidos foram caçados. Maquiavel conta tudo na História de Florença."
+   },
+   {
+    "gravura": "acervo/jean_l_on_g_r_me_the_death_of_caesar_walters_378.jpg",
+    "mov": "dir",
+    "txt": "O depois também explica o fim de quem matou César. Nos Discursos, Maquiavel lembra que o povo de Roma gostava de César. Por isso, os conspiradores foram expulsos e mortos, em lugares e momentos diferentes."
+   },
+   {
+    "gravura": "cesar.jpg",
+    "mov": "cima",
+    "txt": "Uma nota honesta: a frase “até tu, Bruto” ficou famosa com Shakespeare. O historiador Suetônio diz que César não falou nada, mas registra que alguns escreveram que ele disse em grego “até tu, filho?”. Até hoje isso é discutido."
+   },
+   {
+    "gravura": "acervo/prisao_cristo_caravaggio.jpg",
+    "mov": "in",
+    "txt": "Agora vem uma das promessas do começo. Quem é o mais perigoso para quem tem poder? Maquiavel responde nesse mesmo capítulo, e a resposta vira a cabeça de muita gente."
+   },
+   {
+    "gravura": "hist/commodus.jpg",
+    "mov": "out",
+    "txt": "Ele diz que o governante deve temer mais quem recebeu benefícios demais do que quem recebeu ofensas demais. Quem já ganhou tudo, às vezes, só tem uma coisa a mais para desejar: o seu lugar.",
+    "verso": "O príncipe deve temer mais aqueles a quem fez favores demais do que aqueles a quem fez ofensas demais.",
+    "ref": "DISCURSOS, LIVRO III, CAP. 6"
+   },
+   {
+    "gravura": "hist/arco_severo.jpg",
+    "mov": "esq",
+    "txt": "Os exemplos são romanos: Perene contra Cômodo, Plauciano contra Sétimo Severo, Sejano contra Tibério. Todos ganharam tanta riqueza e honra que só faltava o império. E foram atrás dele."
+   },
+   {
+    "gravura": "acervo/beijo_judas_giotto.jpg",
+    "mov": "dir",
+    "txt": "Então como fica o capítulo vinte e dois, que mandava enriquecer o ministro? Não é contradição. É medida. Dar segurança e reconhecimento, sim. Dar tanto poder que a pessoa fique sem limite nenhum, não."
+   },
+   {
+    "gravura": "acervo/embaixadores_holbein.jpg",
+    "mov": "cima",
+    "txt": "No trabalho, isso aparece quando o líder entrega tudo a uma pessoa só: senhas, clientes, dinheiro e decisões, sem ninguém para conferir. Não é desconfiar dela. É não deixar o negócio refém de um par de mãos."
+   },
+   {
+    "gravura": "hist/marcus_equestre.jpg",
+    "mov": "in",
+    "txt": "Pergunta sincera para você responder nos comentários: no seu negócio ou na sua casa, existe alguém que tem a chave de tudo sozinho? Isso é confiança ou é um risco que ninguém está olhando?",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Quem tem a chave de tudo?"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+    "mov": "esq",
+    "txt": "Se essa lição já valeu o seu tempo, segue o canal Raposa e Leão e abre a playlist Maquiavel na prática. Cada vídeo pega uma lição dele e mostra como ela aparece no trabalho e nas relações.",
+    "cta": "Segue o <b>Raposa e Leão</b><br>e veja a playlist <b>Maquiavel na prática</b>"
+   },
+   {
+    "gravura": "borgia.jpg",
+    "mov": "in",
+    "txt": "Agora, a história que eu prometi. Em 1502, César Bórgia, filho do papa Alexandre sexto, conquistava a Romanha com a ajuda de capitães contratados, os chamados condottieri.",
+    "cap": {
+     "sup": "LIÇÃO 5",
+     "txt": "Senigallia, 1502"
+    }
+   },
+   {
+    "gravura": "hist/pope_alexander_vi.jpg",
+    "mov": "dir",
+    "txt": "Entre eles estavam Vitellozzo Vitelli, Oliverotto da Fermo e dois homens da família Orsini. Eles passaram a temer o poder crescente de Bórgia e se reuniram em Magione para conspirar contra ele."
+   },
+   {
+    "gravura": "acervo/the_battle_of_alexander_at_issus_by_albrecht_alt.jpg",
+    "mov": "cima",
+    "txt": "A revolta deu trabalho. Bórgia, em vez de lutar só com força, mudou de estratégia. Fez as pazes com eles, prometeu acordos, devolveu a confiança. Maquiavel estava por perto, como enviado de Florença."
+   },
+   {
+    "gravura": "acervo/prisao_cristo_caravaggio.jpg",
+    "mov": "in",
+    "txt": "No último dia de 1502, os capitães foram encontrá-lo em Senigallia, no litoral do Adriático. Entraram na cidade ao lado dele, longe da maior parte das próprias tropas. E foram presos ali mesmo.",
+    "verso": "Soube dissimular tanto o seu ânimo que a ingenuidade deles os levou a Senigallia, às suas mãos.",
+    "ref": "O PRÍNCIPE, CAP. VII"
+   },
+   {
+    "gravura": "acervo/cesar_morte_gerome.jpg",
+    "mov": "out",
+    "txt": "Naquela noite, Vitellozzo e Oliverotto foram estrangulados. Os dois Orsini tiveram o mesmo fim semanas depois. Maquiavel escreveu um relato só sobre esse episódio, e voltou a ele no capítulo sete de O Príncipe."
+   },
+   {
+    "gravura": "acervo/romanos_decadencia_couture.jpg",
+    "mov": "esq",
+    "txt": "Atenção: isso não é exemplo de como agir. Foi crime, e o poder de Bórgia desabou pouco depois. O que interessa é outra pergunta: por que homens experientes caíram nisso?"
+   },
+   {
+    "gravura": "hist/hannibal.jpg",
+    "mov": "dir",
+    "txt": "Primeiro: eles confiaram na palavra de alguém contra quem tinham acabado de conspirar. Era mais confortável acreditar que estava tudo bem. A pressa de fazer as pazes tapou os olhos deles."
+   },
+   {
+    "gravura": "acervo/hannibal_and_scipio_africanus.jpg",
+    "mov": "cima",
+    "txt": "Segundo: largaram a própria proteção. Foram ao encontro longe das tropas, num lugar escolhido pelo outro lado. Maquiavel chama isso de ingenuidade. Homens acostumados a enganar não imaginaram ser enganados."
+   },
+   {
+    "gravura": "hist/alexander_the_great.jpg",
+    "mov": "in",
+    "txt": "E tem um detalhe que Maquiavel conta no capítulo oito. Oliverotto tinha tomado o poder em Fermo matando o próprio tio num banquete. Um ano depois, foi estrangulado em Senigallia. Quem vive de traição costuma confiar mal."
+   },
+   {
+    "gravura": "acervo/vercingetorix_royer.jpg",
+    "mov": "out",
+    "txt": "Dos condottieri sai mais uma lição, do capítulo doze: tropas contratadas, sem vínculo, são desunidas, ambiciosas e infiéis. Lealdade que é só comprada vai embora quando aparece uma oferta melhor."
+   },
+   {
+    "gravura": "acervo/castiglione_raffaello.jpg",
+    "mov": "esq",
+    "txt": "Salva este vídeo para lembrar dos sinais de Senigallia: acordo bom demais, pressa para fechar e pedido para você baixar a guarda. Quando os três aparecem juntos, respira e confere antes de assinar qualquer coisa.",
+    "interage": {
+     "tipo": "salva",
+     "txt": "Salva: os sinais de Senigallia"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "maquiavel.jpg",
+    "mov": "dir",
+    "txt": "E se essa história te abriu os olhos, segue o canal. Toda semana tem uma lição nova de Maquiavel, com a fonte na descrição.",
+    "interage": {
+     "tipo": "segue",
+     "txt": "Segue pra próxima lição"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "acervo/rendicao_granada_pradilla.jpg",
+    "mov": "in",
+    "txt": "Agora uma lição que vai contra o instinto de muita gente. No capítulo vinte e um de O Príncipe, Maquiavel fala de alianças e diz que ficar neutro quase sempre é o pior caminho.",
+    "cap": {
+     "sup": "LIÇÃO 6",
+     "txt": "O erro de ficar em cima do muro"
+    }
+   },
+   {
+    "gravura": "hist/ferdinand_ii_of_aragon.jpg",
+    "mov": "dir",
+    "txt": "Ele diz que um governante é respeitado quando é amigo de verdade ou inimigo de verdade. Quando se declara, sem rodeio, a favor de um contra o outro, em vez de esperar para ver quem ganha.",
+    "verso": "Quem não é teu amigo pedirá que fiques neutro; quem é teu amigo pedirá que te declares com as armas.",
+    "ref": "O PRÍNCIPE, CAP. XXI"
+   },
+   {
+    "gravura": "acervo/the_battle_of_alexander_at_issus_by_albrecht_alt.jpg",
+    "mov": "out",
+    "txt": "O exemplo é da Grécia antiga. Antíoco entrou na Grécia, chamado pelos etólios, para tirar de lá os romanos. Ele pediu aos aqueus, amigos de Roma, que ficassem neutros. Os romanos pediram que pegassem em armas."
+   },
+   {
+    "gravura": "cesar.jpg",
+    "mov": "esq",
+    "txt": "O enviado romano respondeu com uma frase dura: ficar de fora, sem gratidão e sem dignidade, faria deles o prêmio de quem vencesse. Ou seja, o neutro não escapa da guerra. Só perde a voz nela."
+   },
+   {
+    "gravura": "hist/pope_julius_ii.jpg",
+    "mov": "dir",
+    "txt": "Maquiavel resume: os indecisos, para fugir do perigo de agora, escolhem quase sempre ficar neutros. E quase sempre se arruínam. Adiar a decisão não é prudência. É só empurrar o problema para depois.",
+    "verso": "Os príncipes indecisos, para fugir dos perigos presentes, seguem quase sempre a via neutra, e quase sempre se arruínam.",
+    "ref": "O PRÍNCIPE, CAP. XXI"
+   },
+   {
+    "gravura": "acervo/leao_x_raffaello.jpg",
+    "mov": "out",
+    "txt": "Mas tem um contrapeso. Ele avisa para nunca se aliar a alguém muito mais forte para atacar um terceiro, a não ser por necessidade. Se ele vencer, você vira prisioneiro dele."
+   },
+   {
+    "gravura": "acervo/multidao_bruegel.jpg",
+    "mov": "cima",
+    "txt": "Na vida real: a briga no trabalho em que você finge que não viu nada, ou a discussão em família em que você não defende o que é certo. Ficar em cima do muro só te deixa sem aliados."
+   },
+   {
+    "gravura": "hist/marcus_aurelius.jpg",
+    "mov": "esq",
+    "txt": "Comenta aqui: você já ficou neutro numa situação e depois percebeu que perdeu dos dois lados? Conta em uma frase, que isso ajuda muita gente aqui.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Já ficou em cima do muro?"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+    "mov": "in",
+    "txt": "Agora o capítulo vinte. Os governantes da época construíam fortalezas para se proteger até do próprio povo. Maquiavel pergunta: isso funciona?",
+    "cap": {
+     "sup": "LIÇÃO 7",
+     "txt": "A fortaleza que não te salva"
+    }
+   },
+   {
+    "gravura": "acervo/ferdinand_of_aragon_isabella_of_castile.jpg",
+    "mov": "dir",
+    "txt": "O caso é de Caterina Sforza, a condessa de Forlì. Quando mataram o marido dela, o conde Girolamo, a fortaleza a salvou da fúria do povo. Ela esperou o socorro de Milão e recuperou o poder."
+   },
+   {
+    "gravura": "borgia.jpg",
+    "mov": "cima",
+    "txt": "Mas, anos depois, quando César Bórgia atacou Forlì, o povo, que era inimigo dela, se juntou ao invasor. E a fortaleza não serviu de nada. Muro nenhum substitui ter gente do seu lado."
+   },
+   {
+    "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+    "mov": "out",
+    "txt": "Daí a frase mais famosa do capítulo. Você pode ter muros, contratos, senhas e câmeras. Se as pessoas à sua volta te odeiam, tudo isso cai na primeira crise.",
+    "verso": "A melhor fortaleza que existe é não ser odiado pelo povo.",
+    "ref": "O PRÍNCIPE, CAP. XX"
+   },
+   {
+    "gravura": "hist/pope_alexander_vi.jpg",
+    "mov": "esq",
+    "txt": "E, no mesmo capítulo, tem uma ideia surpreendente sobre confiança. Maquiavel diz que governantes novos encontraram mais lealdade em quem, no começo, era visto como suspeito do que em quem parecia confiável desde o início."
+   },
+   {
+    "gravura": "acervo/julio_ii_raffaello.jpg",
+    "mov": "dir",
+    "txt": "O motivo: quem já foi adversário e passa a precisar de você sabe que tem que provar com atos. Pandolfo Petrucci, de Siena, governava mais com os antigos suspeitos do que com os outros."
+   },
+   {
+    "gravura": "hist/marcus_equestre.jpg",
+    "mov": "cima",
+    "txt": "Para você, isso quer dizer uma coisa simples: não julgue lealdade pelo discurso do primeiro dia. Julgue pelos atos, ao longo do tempo. Às vezes, quem chegou desconfiado vira o mais firme do time."
+   },
+   {
+    "gravura": "lorenzo.jpg",
+    "mov": "in",
+    "txt": "Chegou a hora da promessa maior. Eu disse que ia te entregar o teste de Maquiavel em uma pergunta só. Juntando tudo o que ele escreveu, a pergunta é esta.",
+    "cap": {
+     "sup": "LIÇÃO 8",
+     "txt": "O teste em uma pergunta"
+    }
+   },
+   {
+    "gravura": "maquiavel.jpg",
+    "mov": "out",
+    "txt": "Essa pessoa ganha quando eu ganho, ou ganha mesmo quando eu perco? Quem só ganha com o seu sucesso tem motivo para cuidar dele. Quem ganha de qualquer jeito, ou ganha com a sua queda, merece atenção."
+   },
+   {
+    "gravura": "acervo/castiglione_raffaello.jpg",
+    "mov": "esq",
+    "txt": "Repara como tudo se encaixa. O ministro que pensa mais em si. O bajulador que ganha sendo agradável. O conspirador que ganha com a queda. O aliado que fica neutro para sair bem de qualquer lado."
+   },
+   {
+    "gravura": "acervo/sandro_botticelli_giuliano_de_medici_gem_ldegale.jpg",
+    "mov": "dir",
+    "txt": "Mas o teste corta para os dois lados. Faz a mesma pergunta sobre você. As pessoas perto de você ganham quando você ganha? Você divide o reconhecimento? Você aceita a verdade sem punir quem fala?"
+   },
+   {
+    "gravura": "hist/marcus_aurelius.jpg",
+    "mov": "cima",
+    "txt": "Lembra: lealdade se constrói, e a melhor proteção é não ser odiado. Não basta escolher bem as pessoas. É preciso ser alguém que vale a pena não trair."
+   },
+   {
+    "gravura": "acervo/rendicao_granada_pradilla.jpg",
+    "mov": "in",
+    "txt": "É aqui que a raposa e o leão se encontram. A raposa enxerga a armadilha: o acordo bom demais, o elogio vazio, o pedido para baixar a guarda. O leão sustenta a decisão e toma posição.",
+    "verso": "É preciso ser raposa para conhecer as armadilhas e leão para assustar os lobos.",
+    "ref": "O PRÍNCIPE, CAP. XVIII"
+   },
+   {
+    "gravura": "acervo/embaixadores_holbein.jpg",
+    "mov": "out",
+    "txt": "E nada disso é para manipular ninguém. É para você não ser a peça que alguém move. Quem enxerga os sinais não precisa enganar ninguém. Só precisa olhar com atenção e agir no tempo certo."
+   },
+   {
+    "gravura": "acervo/beijo_judas_giotto.jpg",
+    "mov": "esq",
+    "txt": "Manda este vídeo para aquela pessoa que confia fácil demais, ou para o amigo que está para fechar uma sociedade. Às vezes uma pergunta certa, na hora certa, evita anos de dor de cabeça.",
+    "interage": {
+     "tipo": "manda",
+     "txt": "Manda pra quem confia fácil"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+    "mov": "dir",
+    "txt": "Recapitulando: observe se a pessoa pensa mais nela do que no trabalho. Tenha poucos que te digam a verdade. Não crie ódio à toa. Não dê poder sem limite. Tome posição. E julgue pelos atos, não pelo discurso."
+   },
+   {
+    "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+    "mov": "out",
+    "txt": "No próximo vídeo da playlist Maquiavel na prática, a gente continua com outra lição de poder para a vida real. Te vejo lá. Até a próxima lição, raposa.",
     "cta": "Até a próxima <b>lição</b>,<br>raposa",
     "selo": "RAPOSA<br>E LEÃO"
    }

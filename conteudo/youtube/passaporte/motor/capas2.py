@@ -33,7 +33,8 @@ def grade(im, glow=(0.5, 0.45)):
     return Image.fromarray(np.clip(out * vig, 0, 255).astype(np.uint8))
 
 def recorte(g, zoom, f=None, ar=16 / 9, W=1280, H=720):
-    im = Image.open(f'{RAIZ}/dore/{g}.jpg').convert('RGB'); fx, fy = f or foco(g)
+    arq = f'{RAIZ}/../raposa-e-leao/img/{g}' if '.' in g else f'{RAIZ}/dore/{g}.jpg'
+    im = Image.open(arq).convert('RGB'); fx, fy = f or foco(g)
     cw = im.width * zoom; ch = cw / ar
     if ch > im.height: ch = im.height; cw = ch * ar
     x0 = min(max(fx * im.width - cw / 2, 0), im.width - cw); y0 = min(max(fy * im.height - ch * .45, 0), im.height - ch)
@@ -64,7 +65,7 @@ def close(c):
     return pagina(f'''<div class="bg" style="background-image:url({uri(im)})"></div>
 <div style="position:absolute;inset:0;background:linear-gradient({'90deg' if lado == 'esq' else '270deg'},rgba(0,0,0,.55),rgba(0,0,0,0) 55%)"></div>
 <div class="t" style="{pos};bottom:{'44px' if lado == 'esq' else '96px'};font-size:{c.get('fs', 182)}px;max-width:900px;line-height:.86">{c['txt']}</div>
-<div class="mk" style="{pos};top:40px">PASSAPORTE DA BÍBLIA</div>{f'<div class="tag" style="{pos};top:90px">{c["tag"]}</div>' if c.get('tag') else ''}''')
+<div class="mk" style="{pos};top:40px">{c.get('marca', 'PASSAPORTE DA BÍBLIA')}</div>{f'<div class="tag" style="{pos};top:90px">{c["tag"]}</div>' if c.get('tag') else ''}''')
 
 def duelo(c):
     a = recorte(c['grav'], c.get('zoom', .6), c.get('foco'), ar=(640 / 720), W=680, H=720)
@@ -73,7 +74,7 @@ def duelo(c):
 <div class="div"></div><div class="vs">VS</div>
 <div class="t" style="left:40px;bottom:40px;font-size:{c.get('fs', 128)}px;width:600px">{c['txt']}</div>
 <div class="t" style="right:40px;bottom:92px;font-size:{c.get('fs', 128)}px;width:600px;text-align:right">{c['txt2']}</div>
-<div class="mk" style="left:40px;top:36px">PASSAPORTE DA BÍBLIA</div>''')
+<div class="mk" style="left:40px;top:36px">{c.get('marca', 'PASSAPORTE DA BÍBLIA')}</div>''')
 
 def vclose(c):
     im = recorte(c['grav'], c.get('zoom', .8), c.get('foco'), ar=9 / 16, W=1080, H=1920)
@@ -84,7 +85,8 @@ def vclose(c):
 {f'<div class="tag" style="left:50%;transform:translateX(-50%) rotate(-3deg);top:150px;font-size:44px">{c["tag"]}</div>' if c.get('tag') else ''}''')
 
 ESTILOS = dict(close=close, duelo=duelo, vclose=vclose)
-CAPAS = json.load(open(RAIZ + '/capas_v2.json'))
+CAPAS = json.load(open(os.environ.get('CAPAS', RAIZ + '/capas_v2.json')))
+if os.environ.get('OUTDIR'): OUT = os.environ['OUTDIR']; os.makedirs(OUT, exist_ok=True)
 ids = sys.argv[1:] or list(CAPAS)
 pages = []
 for k in ids:

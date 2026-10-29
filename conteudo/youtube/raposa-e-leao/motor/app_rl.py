@@ -30,11 +30,14 @@ for d in sorted(glob.glob(R + '/shorts/[0-9][0-9]')):
     else: continue
     itens.append(dict(id=k, tipo='short', titulo=tit, legenda=desc, comentario=com, video=ativos.get(f'{k}.mp4'), arqVideo=f'raposa-e-leao-{k}.mp4',
                       capas=[dict(nome='Capa', arq=f'{k}.jpg', url=ativos.get(f'{k}.jpg'))], dur=ativos.get(f'{k}-dur', '')))
-for d in sorted(glob.glob(R + '/longos/[0-9][0-9]')):
-    n = d.split('/')[-1]; k = f'longo-{n}'; rot = json.load(open(d + '/roteiro.json'))
+for d in sorted(glob.glob(R + '/longos/[0-9][0-9]'), key=lambda x: (not os.path.exists(x + '/publicar_novo.json'), x)):
+    n = d.split('/')[-1]; k = f'longo-{n}'; rot = json.load(open(d + '/roteiro.json')) if os.path.exists(d + '/roteiro.json') else {}
     if os.path.exists(d + '/publicar.json'): p = json.load(open(d + '/publicar.json')); tit, leg, com = p['titulo'], p['legenda'], p['comentario']
     elif n in L15: intro, fonte, com = L15[n]; tit = rot['titulo']; leg = f'{intro}\n\nEm cada lição tem uma aplicação prática para o trabalho, os negócios e as relações.\n\n📜 Fonte: Nicolau Maquiavel, {fonte}\n{FONTE}\n\n{TAGS}'
-    elif os.path.exists(d + '/publicar_novo.json'): p = json.load(open(d + '/publicar_novo.json')); tit, leg, com = p['titulo'], p['legenda'], p['comentario']
+    elif os.path.exists(d + '/publicar_novo.json'):
+        p = json.load(open(d + '/publicar_novo.json')); tit, leg, com = p['titulo'], p['legenda'], p['comentario']
+        TP = os.path.join(R, '..', 'passaporte', 'tempos.json'); tp = json.load(open(TP)).get(k, []) if os.path.exists(TP) else []
+        leg = leg.replace('{CAPITULOS}', '\n'.join(f'{x} {y}' for x, y in tp) or '(os capítulos entram quando o vídeo ficar pronto)')
     else: continue
     capas = [dict(nome=f'Capa {x}', arq=f'{k}-{x}.jpg', url=ativos.get(f'{k}-{x}.jpg')) for x in 'ABC']
     capas = [c for c in capas if c['url']] or [dict(nome='Capa A', arq=f'{k}-A.jpg', url=None)]
