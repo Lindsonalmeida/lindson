@@ -37,3 +37,6 @@
      - ícone de olho no campo da senha;
      - botão com seta;
      - "Conexão segura e criptografada" com ponto verde.
+5. **Ajuste da tela de login (29/10):**
+   - **Sem abertura com letreiro**, porque os clientes achariam chato. O visual deve ser mais sério.
+   - O "estilo de filme do espaço" é a **foto** tratada como cartaz de cinema: retrato grande com luz de contorno, aura dourada, horizonte de planeta em luz azul e cores de cinema.
