@@ -1,0 +1,64 @@
+# Estado do projeto (para continuar de qualquer conta)
+
+Atualizado em 29/10/2026. Leia também o `CLAUDE.md` (regras de trabalho) e o agente Peter em `.claude/agents/peter.md` (regras de YouTube, retenção e monetização).
+
+## Apps e páginas publicadas (claude.ai)
+São privados da conta que criou. **Para abrir ou editar de outra conta, compartilhe pelo menu "Compartilhar" de cada página** (dê acesso de edição se a outra conta for publicar nela). Os endereços `/_blob/...` dos arquivos `ativos*.json` só funcionam dentro do app de origem.
+
+| Página | Link | Fonte no repositório |
+|---|---|---|
+| Downloads Alkantara (PDFs, demos) | https://claude.ai/artifact/3Vn9qpHt3iXgG2JAhcubs7 | gerada à mão (sem fonte) |
+| SDR para Agências (funil, botão WhatsApp) | https://claude.ai/artifact/NztpiSW1Dd4JAjpXZ5CwBd | dados no banco do app |
+| Minhas 3 Prioridades (organização pessoal) | https://claude.ai/artifact/4FbvcXArU9RPegh9D5PjsU | dados no banco do app |
+| Contratos Alkantara | https://claude.ai/artifact/B9QirY7ndLJWP9iZ61mozz | `agencia/processos/modelo-contrato/` |
+| Passaporte da Bíblia · Postagens | https://claude.ai/artifact/1aUURghpLqrWgTQmkvBcG4 | `conteudo/youtube/passaporte/motor/app_pv.py` + `ativos.json` |
+| Raposa e Leão · Postagens | https://claude.ai/artifact/LSTErmeSra3qxFKBJMLiTC | `conteudo/youtube/raposa-e-leao/motor/app_rl.py` + `ativos.json` |
+| Fábrica de Conteúdo (outra organização) | https://claude.ai/artifact/WxeZuhrzQutLDTJ36y6EVt | aba Passaporte: `passaporte/motor/fabrica_pv.py` |
+
+Decisão do Lindson: os vídeos do Passaporte e do Maquiavel ficam **nos apps próprios** de cada canal, não na Fábrica.
+
+## Canais de YouTube (dark)
+Motor único **Pintura Viva** em `conteudo/youtube/passaporte/motor/pintura.py`. Ele serve aos dois canais pelo campo `"canal"`: `passaporte` usa as gravuras de Doré e `raposa` usa as pinturas do acervo. Recursos:
+- voz humanizada em `conteudo/youtube/comum/voz_humana.py`;
+- conversa com o ouvinte (balões);
+- cortes a cada ~4 s;
+- 3 aberturas e 3 fechamentos;
+- trilha variada.
+
+Processo completo em `conteudo/youtube/passaporte/PROCESSO.md` e `conteudo/youtube/raposa-e-leao/PROCESSO.md`.
+
+### Passaporte da Bíblia
+- **Longos 05 a 09**, de 16 a 20 min, roteiros em `passaporte/roteiros/` (gerados pelo `BRIEF.md` + agentes roteiristas).
+  - Prontos e no app: 05 Gênesis e 09 Parábolas.
+  - Em renderização: 06 Reis, depois 07 Profetas e 08 Vida de Jesus.
+- **Refazer com a voz nova e a conversa:** pv-01, Shorts 01 a 20 e longos 01 a 04 (fila `conteudo/youtube/filas/lote8.sh`, pausada para dar prioridade aos longos).
+- **Capas:** `motor/capas_pv.py`. Os longos novos têm capas claras com até 3 palavras e sem vermelho (estilo C).
+- **Ordem dos comandos:** `lote3.py` (longos 05-09) → `pintura.py` → `capas_pv.py` → `app_pv.py ativos.json` → publicar o app. Depois de qualquer `lote2.py`, rodar `conversa.py`.
+
+### Raposa e Leão
+- App próprio criado com os 30 Shorts e 11 longos. Os textos de publicação ficam em `shorts/NN/publicar.json` e `longos/NN/publicar.json`.
+- **Shorts refeitos com a voz nova:** só o 01. A fila `raposa-e-leao/motor/lote.sh shorts` está pausada.
+- **5 longos novos** (próximo passo, depois do Passaporte). Os temas:
+  1. O Príncipe explicado
+  2. Os Médici
+  3. Por que Roma caiu segundo Maquiavel
+  4. Em quem confiar: o teste de Maquiavel
+  5. Maquiavel não era o vilão que te contaram
+  - Brief em `raposa-e-leao/roteiros/BRIEF.md`.
+  - Imagens em domínio público em `img/acervo/`, baixadas por `motor/acervo.py`. A Wikimedia limita o ritmo (pausas e miniatura de 1920 px). As imagens ficam fora do Git: rode `acervo.py` de novo noutra conta.
+  - Falta: concluir o acervo e criar `img/acervo/MAPA.md` (o que cada imagem mostra), os 5 roteiros, a renderização (`pintura.py` com `canal: raposa`), as capas claras e subir no app.
+
+### Retomar uma renderização
+- Os quadros vão para a pasta temporária da sessão (`TMP` no topo de `pintura.py`). Noutra conta ou sessão, troque esse caminho pelo da sua pasta temporária.
+- `RETOMAR=1 python3 pintura.py ../pintura.json <id>` continua de onde parou.
+- O vídeo final completo (1080p) fica em `passaporte/videos/<id>.mp4`, fora do Git. A versão do app (`<id>-app.mp4`) é comprimida para caber em 20 MB. **Para o YouTube, use o arquivo completo.**
+
+## Ferramentas que ficam fora do Git
+- **Agentes Xquads** (Hormozi, Donald Miller, Pedro Sobral, copy-squad…): instale com `instalar-xquads.sh` (Mac/Linux) ou `instalar-xquads.ps1` (Windows).
+- **Modelo de profundidade** (Depth Anything V2 ONNX) usado pelo motor: baixe para `<pasta temporária>/modelos/depth.onnx`.
+- **Dados pessoais e de clientes** (`agencia/contratos/`, `agencia/propostas/`): não vão para o GitHub de propósito. Peça ao Lindson quando precisar.
+
+## Pesquisas e estratégias
+- Passaporte: `conteudo/youtube/passaporte/pesquisa/` (estratégia, pesquisa de dores, estilos de vídeo, nomes) e `IDENTIDADE.md`.
+- Raposa e Leão: `IDENTIDADE.md`, `ROTEIROS-SHORTS.md`, `ROTEIROS-LONGOS.md`.
+- Peter (YouTube): `.claude/agents/peter.md`.

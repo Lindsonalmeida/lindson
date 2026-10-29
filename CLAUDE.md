@@ -46,3 +46,7 @@ Todo PDF entregue (estratégia, contrato, planos) também entra na página de do
 Sempre que o Lindson pedir algo, acione os agentes especialistas (Xquads em `scratchpad/xq/src`: Hormozi Offers, Donald Miller, Pedro Sobral, copy-squad, brand-squad etc., e agentes de pesquisa na internet) para fazer o trabalho, escolhendo os melhores para cada pedido.
 
 Para canal dark e monetização no YouTube (Passaporte da Bíblia, Raposa e Leão, nichos novos), acionar o agente **Peter** (`.claude/agents/peter.md`).
+
+## Estado atual e continuidade
+
+Antes de continuar qualquer trabalho (de qualquer conta), leia `ESTADO-DO-PROJETO.md`: links dos apps, o que está pronto, o que falta e como retomar.
