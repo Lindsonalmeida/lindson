@@ -111,3 +111,10 @@
     - **Seletor de cliente:** visão do admin.
     - **Menu:** Visão geral, Resultados, Relatórios, Aprovações (aprovar ou pedir ajuste), Calendário, Entregas e arquivos, Campanhas, Leads e atendimento, Pedidos à agência, Reuniões, Contrato e pagamentos, e botão de WhatsApp.
     - **Dados:** todos de exemplo e marcados assim na tela. O sistema real puxa de cada cliente: Supermetrics/Meta para redes e anúncios, e o banco para o resto.
+17. **Abas novas no painel (30/10).**
+    - **Conteúdos**, com as subabas Datas comemorativas, Carrosséis e Reels.
+    - **Fotos**: banco de fotos e envio.
+    - **Planejamento**: plano de 90 dias e linhas editoriais.
+    - **Métricas**: a antiga aba Resultados, renomeada.
+    - **Missões do dia** gamificadas: XP por ação, barra de progresso, dias ativos e conquistas.
+    - **Mensagem motivacional do dia**, específica de cada cliente, no topo da Visão geral, que é a primeira tela ao entrar, e também nas Missões.

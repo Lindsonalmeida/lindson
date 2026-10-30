@@ -84,6 +84,25 @@ svg.graf{width:100%;height:auto;display:block}
 .form-linha{display:grid;gap:10px;grid-template-columns:minmax(0,1fr) auto}
 .form-linha input,.form-linha select,textarea{background:var(--painel2);color:var(--texto);border:1px solid var(--linha);border-radius:9px;padding:10px 12px;font:500 14px var(--f-corpo);width:100%}
 textarea{min-height:80px;resize:vertical}
+.bom-dia{display:flex;gap:18px;align-items:center;padding:22px;border-radius:16px;border:1px solid rgba(245,197,24,.35);background:radial-gradient(60% 120% at 0% 0%,rgba(245,197,24,.20),transparent 60%),var(--painel)}
+.bom-dia .sol{flex:none;width:52px;height:52px;border-radius:50%;background:var(--amarelo);display:grid;place-items:center;color:#0A0A0A;font:800 24px var(--f-titulo)}
+.bom-dia .q{font:800 clamp(20px,2.2vw,28px)/1.15 var(--f-titulo);letter-spacing:.01em}
+.bom-dia .a{color:var(--apagado);font-size:13px;margin-top:4px}
+.bom-dia .xp{margin-left:auto;text-align:right;flex:none}.bom-dia .xp b{font:800 26px var(--f-titulo);color:var(--amarelo)}
+.subabas{display:flex;gap:6px;flex-wrap:wrap}
+.subabas button{border:1px solid var(--linha);background:var(--painel2);color:#C9C5BA;border-radius:99px;padding:8px 14px;font:700 13px var(--f-corpo);cursor:pointer}
+.subabas button[aria-pressed="true"]{background:var(--amarelo);color:#0A0A0A;border-color:var(--amarelo)}
+.missao{display:flex;gap:12px;align-items:center;padding:14px;border:1px solid var(--linha);border-radius:12px;background:var(--painel2);cursor:pointer}
+.missao input{width:22px;height:22px;accent-color:#F5C518;flex:none}
+.missao.feita{opacity:.6}.missao.feita .t{text-decoration:line-through}
+.missao .pts{margin-left:auto;font:700 12px var(--f-dado);color:var(--amarelo);white-space:nowrap}
+.nivel{display:grid;gap:8px;align-content:start}.medalhas{display:flex;gap:10px;flex-wrap:wrap}
+.medalha{width:64px;text-align:center;font-size:11px;color:var(--apagado)}.medalha i{display:grid;place-items:center;width:52px;height:52px;margin:0 auto 4px;border-radius:50%;border:2px solid var(--linha);font-style:normal;font-size:22px;filter:grayscale(1);opacity:.5}
+.medalha.on i{border-color:var(--amarelo);filter:none;opacity:1;background:rgba(245,197,24,.1)}
+.fotos{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+.fotos div{aspect-ratio:4/5;border-radius:10px;border:1px dashed var(--linha);display:grid;place-items:center;text-align:center;color:var(--apagado);font-size:12px;padding:10px;background:var(--painel2)}
+.fase{border-left:3px solid var(--amarelo);padding:4px 0 4px 14px;display:grid;gap:4px}
+@media (max-width:760px){.bom-dia{flex-wrap:wrap}.bom-dia .xp{margin-left:0;text-align:left}}
 .toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--amarelo);color:#0A0A0A;font-weight:700;padding:10px 16px;border-radius:10px;opacity:0;transition:opacity .25s;pointer-events:none;z-index:20}
 .toast.on{opacity:1}
 @media (max-width:1100px){.g4{grid-template-columns:repeat(2,minmax(0,1fr))}.g3,.g21{grid-template-columns:minmax(0,1fr)}}
@@ -107,9 +126,13 @@ textarea{min-height:80px;resize:vertical}
       <select id="cliente"><option value="apple">Apple Black</option><option value="jaci">Dra. Jaci Cunha</option><option value="leo">Vereador Leo Pinto</option></select></div>
     <div class="grupo"><h4>Visão</h4>
       <a href="#inicio" data-v="inicio"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="7" height="9" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/><rect x="3" y="16" width="7" height="5" rx="1.5"/></svg>Visão geral</a>
-      <a href="#resultados" data-v="resultados"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>Resultados</a>
+      <a href="#missoes" data-v="missoes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2l3 6 6 .9-4.5 4.3 1 6.3L12 16.6 6.5 19.5l1-6.3L3 8.9 9 8z"/></svg>Missões do dia<span class="n" id="n-miss"></span></a>
+      <a href="#resultados" data-v="resultados"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>Métricas</a>
+      <a href="#planejamento" data-v="planejamento"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 3h6v4H9zM5 5h4M15 5h4v16H5V5"/><path d="M8 12h8M8 16h5"/></svg>Planejamento</a>
       <a href="#relatorios" data-v="relatorios"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 2h9l5 5v15H6z"/><path d="M14 2v6h6M9 13h7M9 17h7"/></svg>Relatórios</a></div>
     <div class="grupo"><h4>Conteúdo</h4>
+      <a href="#conteudos" data-v="conteudos"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M3 9h18M9 21V9"/></svg>Conteúdos</a>
+      <a href="#fotos" data-v="fotos"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="2"/><path d="m21 17-5-5-8 8"/></svg>Fotos</a>
       <a href="#aprovacoes" data-v="aprovacoes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 6 9 17l-5-5"/></svg>Aprovações<span class="n" id="n-aprov"></span></a>
       <a href="#calendario" data-v="calendario"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>Calendário</a>
       <a href="#entregas" data-v="entregas"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 7l8-4 8 4v10l-8 4-8-4z"/><path d="M4 7l8 4 8-4M12 11v10"/></svg>Entregas e arquivos</a></div>
@@ -169,8 +192,41 @@ function rosca(itens){const cores=['#F5C518','#C99A10','#6E5A1C'];let a=-Math.PI
   g+=`<path d="M${x1},${y1}A${R},${R} 0 ${l} 1 ${x2},${y2}L${x3},${y3}A${r},${r} 0 ${l} 0 ${x4},${y4}Z" fill="${cores[k]}" stroke="#121213" stroke-width="2"/>`;a=b});
  return `<svg class="graf" viewBox="0 0 180 180" style="max-width:200px;margin:0 auto">${g}<text x="90" y="96" text-anchor="middle" fill="#F3F0E6" font-size="13" font-weight="700">origem</text></svg><div class="legenda" style="justify-content:center">${itens.map(([n,v],k)=>`<span><i style="background:${cores[k]}"></i>${n} ${v}%</span>`).join('')}</div>`}
 
+
+const FRASES={apple:['Cada story de hoje é uma vitrine aberta. Mostre um produto e conte por que vale a pena.','Cliente que confia, compra. Responda rápido no WhatsApp hoje.','Seu concorrente postou hoje? Então hoje você posta melhor.'],
+ jaci:['Cada paciente que você ajuda hoje é a melhor propaganda da sua clínica.','Mostrar quem cuida gera confiança. Apareça nos stories hoje, nem que seja por 15 segundos.','Avaliação de paciente feliz vale mais que qualquer anúncio. Peça uma hoje.'],
+ leo:['O mandato acontece na rua. Mostre hoje o que você resolveu para o bairro.','Cada demanda respondida é uma pessoa que se sente ouvida.','Transparência gera confiança: conte hoje o que foi feito na Câmara.']};
+const MISSOES={apple:[['Responder todos os direcionais e WhatsApp até 12h',30],['Postar 3 stories mostrando um produto em uso',20],['Gravar 1 vídeo curto de unboxing para a equipe editar',40],['Pedir 1 avaliação a um cliente que comprou esta semana',25],['Aprovar os posts da semana no painel',15]],
+ jaci:[['Gravar 15 segundos de bastidor do consultório',30],['Responder dúvidas de pacientes nos direcionais',20],['Pedir avaliação no Google a 1 paciente atendida hoje',25],['Mandar à equipe a foto de um resultado autorizado pela paciente',40],['Aprovar os posts da semana no painel',15]],
+ leo:[['Registrar em foto ou vídeo uma visita ou atendimento de hoje',40],['Responder as demandas novas do WhatsApp do gabinete',30],['Gravar 30 segundos explicando uma pauta da Câmara',30],['Compartilhar nos stories um post da semana',15],['Aprovar os posts da semana no painel',15]]};
+const hoje=new Date().toISOString().slice(0,10);
+let feitas={};try{feitas=JSON.parse(localStorage.getItem('missoes')||'{}')}catch(e){}
+const chaveM=()=>cli+':'+hoje;const lista=()=>feitas[chaveM()]||[];
+function pontos(){return MISSOES[cli].reduce((a,m,i)=>a+(lista().includes(i)?m[1]:0),0)}
+function salvaM(){try{localStorage.setItem('missoes',JSON.stringify(feitas))}catch(e){}}
+function bomDia(){const f=FRASES[cli],fr=f[new Date().getDate()%f.length],h=new Date().getHours(),sd=h<12?'Bom dia':h<18?'Boa tarde':'Boa noite',nome=BASE[cli].nome.replace(/^(Dra\.|Vereador) /,'');
+ return `<div class="bom-dia"><div class="sol">☀</div><div><div class="a">${sd}, ${nome}. A mensagem de hoje:</div><div class="q">“${fr}”</div></div><div class="xp"><div class="a">Pontos de hoje</div><b>${pontos()} XP</b><div><a class="a" href="#missoes" style="color:var(--amarelo)">Ver missões →</a></div></div></div>`}
 const V={
-inicio(d){return `<div class="grade g4">${d.kpis.map(([r,v,p,u])=>`<div class="card kpi"><div class="rot">${r}</div><div class="val">${v}</div><div class="var ${p.startsWith('-')&&!r.startsWith('Custo')?'down':'up'}">${p} <span>vs mês anterior</span></div></div>`).join('')}</div>
+missoes(){const m=MISSOES[cli],l=lista(),tot=m.reduce((a,x)=>a+x[1],0),p=pontos(),dias=Object.keys(feitas).filter(k=>k.startsWith(cli+':')&&feitas[k].length).length;
+ const med=[['🔥','Primeira missão',p>0],['⭐','Dia completo',l.length===m.length],['🏅','3 dias ativos',dias>=3],['👑','7 dias ativos',dias>=7]];
+ return bomDia()+`<div class="grade g21"><div class="card"><h3>Missões de hoje</h3><p class="sub">Ações rápidas que fazem seu marketing andar. Marque ao concluir.</p><div class="lista">${m.map(([t,x],i)=>`<label class="missao ${l.includes(i)?'feita':''}"><input type="checkbox" data-m="${i}" ${l.includes(i)?'checked':''}><span class="t">${t}</span><span class="pts">+${x} XP</span></label>`).join('')}</div></div>
+ <div class="card nivel"><h3>Seu progresso</h3><p class="sub" style="margin:0">${p} de ${tot} XP hoje</p><div class="barra"><i style="width:${p/tot*100}%"></i></div><p class="sub" style="margin:6px 0 0">Dias ativos: ${dias}</p><h3 style="margin-top:10px">Conquistas</h3><div class="medalhas">${med.map(([e,n,on])=>`<div class="medalha ${on?'on':''}"><i>${e}</i>${n}</div>`).join('')}</div></div></div>`},
+conteudos(){const sub=window._sub||'datas';const D={
+ datas:[['15/11','Proclamação da República','Post institucional'],['20/11','Dia da Consciência Negra','Carrossel de valorização'],['28/11','Black Friday','Campanha + stories em sequência'],['25/12','Natal','Reels de agradecimento']],
+ carrosseis:[['5 erros que fazem você perder clientes','aprovado'],['Antes de comprar, veja isso','em revisão'],['Perguntas que mais recebemos','em produção']],
+ reels:[['Bastidores da semana','aprovado'],['Um dia com a equipe','em produção'],['Responda em 30 segundos: dúvida do cliente','ideia']]};
+ const bt=k=>`<button aria-pressed="${sub===k}" data-sub="${k}">${{datas:'Datas comemorativas',carrosseis:'Carrosséis',reels:'Reels'}[k]}</button>`;
+ const corpo=sub==='datas'?`<div class="tab"><table><thead><tr><th>Data</th><th>Data comemorativa</th><th>Ideia de conteúdo</th></tr></thead><tbody>${D.datas.map(r=>`<tr>${r.map(c=>`<td>${c}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`
+  :`<div class="posts">${D[sub].map(([t,st])=>`<div class="post"><div class="img" style="aspect-ratio:${sub==='reels'?'9/16':'4/5'}">${t}</div><div class="c"><div style="display:flex;justify-content:space-between;gap:8px"><b>${sub==='reels'?'Reels':'Carrossel'}</b>${chip(st)}</div></div></div>`).join('')}</div>`;
+ return `<div class="card"><h3>Conteúdos</h3><p class="sub">Tudo que está sendo produzido para você.</p><div class="subabas" style="margin-bottom:14px">${bt('datas')+bt('carrosseis')+bt('reels')}</div>${corpo}</div>`},
+fotos(){return `<div class="grade g21"><div class="card"><h3>Banco de fotos</h3><p class="sub">Suas fotos usadas nos conteúdos. Cada foto vira no máximo um post.</p><div class="fotos">${['Foto do espaço','Equipe','Produto em destaque','Bastidor','Cliente atendido (com autorização)','Fachada'].map(t=>`<div>${t}<br>· aguardando envio ·</div>`).join('')}</div></div>
+ <div class="card"><h3>Enviar fotos</h3><p class="sub">Mande fotos boas, na vertical, com luz natural. Sem marca de outras empresas.</p><button class="btn am" data-toast="Envio de fotos liga quando o sistema estiver no ar">Enviar fotos</button><p class="sub" style="margin-top:14px">Dica: 1 foto por dia já mantém seu conteúdo cheio para o mês todo.</p></div></div>`},
+planejamento(d){return `<div class="grade g21"><div class="card"><h3>Plano de 90 dias</h3><p class="sub">${d.plano} · combinado na reunião de início.</p><div class="lista">
+ <div class="fase"><b>Mês 1 · Base</b><span class="sub" style="margin:0">Perfil arrumado, identidade, mini site e primeiros conteúdos.</span></div>
+ <div class="fase"><b>Mês 2 · Alcance</b><span class="sub" style="margin:0">Reels toda semana, campanhas de anúncio e parcerias.</span></div>
+ <div class="fase"><b>Mês 3 · Conversão</b><span class="sub" style="margin:0">Remarketing, depoimentos e ofertas para quem já conhece você.</span></div></div></div>
+ <div class="card"><h3>Linhas editoriais</h3><p class="sub">Sobre o que falamos toda semana.</p><div class="lista">${['Autoridade: ensinar e tirar dúvidas','Prova: resultados e depoimentos','Bastidores: quem faz acontecer','Oferta: chamada clara para o WhatsApp'].map(t=>`<div class="item"><div class="t">${t}</div></div>`).join('')}</div></div></div>`},
+inicio(d){return bomDia()+`<div class="grade g4">${d.kpis.map(([r,v,p,u])=>`<div class="card kpi"><div class="rot">${r}</div><div class="val">${v}</div><div class="var ${p.startsWith('-')&&!r.startsWith('Custo')?'down':'up'}">${p} <span>vs mês anterior</span></div></div>`).join('')}</div>
  <div class="grade g21"><div class="card"><h3>Crescimento nos últimos 30 dias</h3><p class="sub">Alcance diário (amarelo) e interações (cinza), em mil.</p>${linha([serie(1,40,10),serie(3,14,4)],['#F5C518','#8E8B83'])}</div>
  <div class="card"><h3>De onde vêm os contatos</h3><p class="sub">Participação de cada canal no mês.</p>${rosca(d.canais)}</div></div>
  <div class="grade g3"><div class="card"><h3>Metas do mês</h3><p class="sub">Combinadas no planejamento.</p><div class="lista">${d.metas.map(([n,a,b])=>`<div><div style="display:flex;justify-content:space-between"><span>${n}</span><b>${a} / ${b}</b></div><div class="barra"><i style="width:${Math.min(100,a/b*100)}%"></i></div></div>`).join('')}</div></div>
@@ -194,15 +250,18 @@ reunioes(){return `<div class="card"><h3>Reuniões</h3><p class="sub">Encontros 
 contrato(d){return `<div class="grade g2"><div class="card"><h3>Seu plano</h3><p class="sub">Serviços contratados.</p><div class="lista"><div class="item"><div><div class="t">${d.plano}</div><div class="d">Cliente desde ${d.inicio}</div></div><div class="fim">${chip('Ativa')}</div></div></div><button class="btn lin" style="margin-top:12px" data-toast="Contrato em PDF disponível quando o sistema estiver ligado">Ver contrato</button></div>
  <div class="card"><h3>Pagamentos</h3><p class="sub">Mensalidades da agência.</p><div class="tab"><table><thead><tr><th>Mês</th><th>Vencimento</th><th>Status</th></tr></thead><tbody>${PAGT.map(p=>`<tr><td>${p[0]}</td><td>${p[1]}</td><td>${chip(p[2])}</td></tr>`).join('')}</tbody></table></div></div></div>`}
 };
-const T={inicio:'Visão geral',resultados:'Resultados',relatorios:'Relatórios',aprovacoes:'Aprovações',calendario:'Calendário',entregas:'Entregas e arquivos',campanhas:'Campanhas',leads:'Leads e atendimento',pedidos:'Pedidos à agência',reunioes:'Reuniões',contrato:'Contrato e pagamentos'};
+const T={missoes:'Missões do dia',conteudos:'Conteúdos',fotos:'Fotos',planejamento:'Planejamento',inicio:'Visão geral',resultados:'Métricas',relatorios:'Relatórios',aprovacoes:'Aprovações',calendario:'Calendário',entregas:'Entregas e arquivos',campanhas:'Campanhas',leads:'Leads e atendimento',pedidos:'Pedidos à agência',reunioes:'Reuniões',contrato:'Contrato e pagamentos'};
 function render(){const v=(location.hash||'#inicio').slice(1),view=V[v]?v:'inicio',d=BASE[cli];
  $('#titulo').textContent=T[view];$('#nome-cliente').textContent=d.nome+' · '+d.seg;$('#cliente').value=cli;
  document.querySelectorAll('.grupo a').forEach(a=>a.toggleAttribute('aria-current',a.dataset.v===view)||a.dataset.v===view&&a.setAttribute('aria-current','page'));
  document.querySelectorAll('.grupo a').forEach(a=>{if(a.dataset.v===view)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')});
+ $('#n-miss').textContent=(MISSOES[cli].length-lista().length)||'';
  $('#n-aprov').textContent=APROV.filter(p=>p.st==='aguardando').length||'';
  main.innerHTML=V[view](d);$('#menu').classList.remove('aberto');$('#abrir').setAttribute('aria-expanded','false');
  main.querySelectorAll('[data-ap]').forEach(b=>b.onclick=()=>{APROV[b.dataset.ap].st='aprovado';toast('Aprovado. A equipe foi avisada.');render()});
  main.querySelectorAll('[data-aj]').forEach(b=>b.onclick=()=>{APROV[b.dataset.aj].st='em revisão';toast('Pedido de ajuste enviado para a equipe.');render()});
+ main.querySelectorAll('[data-sub]').forEach(b=>b.onclick=()=>{window._sub=b.dataset.sub;render()});
+ main.querySelectorAll('[data-m]').forEach(c=>c.onchange=()=>{const i=+c.dataset.m,l=lista().filter(x=>x!==i);if(c.checked){l.push(i);toast('+'+MISSOES[cli][i][1]+' XP! Boa.')}feitas[chaveM()]=l;salvaM();render()});
  main.querySelectorAll('[data-toast]').forEach(b=>b.onclick=()=>toast(b.dataset.toast));
  const f=$('#novo-ped');if(f)f.onsubmit=e=>{e.preventDefault();const t=$('#ped-t').value.trim();if(!t)return;PEDIDOS.unshift([t,'em andamento','hoje']);toast('Pedido enviado. A equipe responde em até 1 dia útil.');render()}}
 $('#cliente').onchange=e=>{cli=e.target.value;try{localStorage.setItem('painel-cliente',cli)}catch(_){}render()};
