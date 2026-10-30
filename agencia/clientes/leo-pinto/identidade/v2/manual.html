@@ -1,0 +1,129 @@
+<!doctype html><html lang="pt-BR"><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--l:#F26A1B;--a:#FFC20E;--g:#3FB8E8;--b:#0E4DA4;--n:#0A2A5E;--c:#F6F1E7}
+*{box-sizing:border-box}body{margin:0;font-family:Poppins;color:var(--n)}
+.p{width:1080px;height:1350px;position:relative;overflow:hidden;page-break-after:always;background:var(--c)}
+.d{font-family:'Baloo 2';font-weight:800;line-height:.86;letter-spacing:-1px}
+.k{font-weight:600;letter-spacing:5px;font-size:17px;text-transform:uppercase}
+.hd{position:absolute;left:80px;right:80px;top:70px;display:flex;justify-content:space-between;align-items:center}
+.hd .k{font-size:15px}.num{font-family:'Baloo 2';font-weight:800;font-size:22px}
+.ft{position:absolute;left:80px;right:80px;bottom:56px;display:flex;justify-content:space-between;font-size:14px;letter-spacing:2px;text-transform:uppercase;opacity:.7}
+h2{font-family:'Baloo 2';font-weight:800;font-size:96px;line-height:.9;margin:0;letter-spacing:-2px}
+.lead{font-size:24px;line-height:1.5;max-width:780px}
+.wm{display:flex;align-items:center;gap:26px}.wm .t{font-family:'Baloo 2';font-weight:800;line-height:.8}
+.wm .s{font-weight:600;letter-spacing:4px;text-transform:uppercase}
+.ic{width:190px;height:190px;border-radius:50%;display:grid;place-items:center}
+.ic svg{width:104px;height:104px;fill:none;stroke:#fff;stroke-width:6.5;stroke-linecap:round;stroke-linejoin:round}
+.lbl{font-size:15px;text-align:center;margin-top:14px;font-weight:600;letter-spacing:1px}
+</style>
+<body>
+<script>
+// monograma: L + sol + duas águas da Baixada
+function M(o={}){const{bg='#F26A1B',sun='#FFC20E',L='#fff',w1='#3FB8E8',w2='#0E4DA4',s=200,ring=''}=o;const id='c'+Math.random().toString(36).slice(2);
+return `<svg viewBox="0 0 200 200" width="${s}" height="${s}"><defs><clipPath id="${id}"><circle cx="100" cy="100" r="96"/></clipPath></defs><circle cx="100" cy="100" r="96" fill="${bg}" ${ring}/><g clip-path="url(#${id})"><circle cx="138" cy="62" r="20" fill="${sun}"/><path d="M62 34h30v78h52v26H62z" fill="${L}"/><path d="M0 150c25-14 50-14 75 0s50 14 75 0 50-14 75 0v60H0z" fill="${w1}"/><path d="M0 168c25-14 50-14 75 0s50 14 75 0 50-14 75 0v40H0z" fill="${w2}"/></g></svg>`}
+function W(o={}){const{c1='#0E4DA4',c2='#F26A1B',sub='#0A2A5E',fs=110,m={},stack=true,tag='Vereador · São João Batista'}=o;
+return `<div class="wm">${M({s:fs*1.75,...m})}<div><div class="t" style="font-size:${fs}px;color:${c1}">LEO${stack?'<br>':' '}<span style="color:${c2}">PINTO</span></div><div class="s" style="font-size:${fs*.15}px;color:${sub};margin-top:${fs*.14}px">${tag}</div></div></div>`}
+const wave=(c,y,a=40,h=1350)=>`<path d="M0 ${y}c135-${a} 270-${a} 405 0s270 ${a} 405 0 270-${a} 405 0v${h}H0z" fill="${c}"/>`;
+// bandeirinhas de São João
+function flags(n=14,w=1080,y=0,cols=['#F26A1B','#FFC20E','#3FB8E8','#0E4DA4','#fff']){let s=`<svg viewBox="0 0 ${w} 90" width="${w}" style="position:absolute;left:0;top:${y}px"><path d="M0 8Q${w/2} 40 ${w} 8" stroke="#0A2A5E" stroke-width="3" fill="none"/>`;
+for(let i=0;i<n;i++){const x=(i+.5)*w/n,t=i/(n-1)*2-1,yy=8+32*(1-t*t);s+=`<path d="M${x-26} ${yy}h52v52l-26-16-26 16z" fill="${cols[i%cols.length]}"/>`}return s+'</svg>'}
+const ICONS={
+'Saúde':'<path d="M50 84C20 64 12 48 12 36a19 19 0 0 1 38-6 19 19 0 0 1 38 6c0 12-8 28-38 48z"/><path d="M50 40v22M39 51h22"/>',
+'Educação':'<path d="M12 28c14-6 26-6 38 4 12-10 24-10 38-4v50c-14-6-26-6-38 4-12-10-24-10-38-4z"/><path d="M50 32v50"/>',
+'Esporte':'<circle cx="50" cy="50" r="36"/><path d="M50 30l17 12-6 20H39l-6-20z"/><path d="M50 14v16M83 40l-16 2M72 80l-11-18M28 80l11-18M17 40l16 2"/>',
+'Pesca':'<path d="M14 50c18-24 50-24 64 0-14 24-46 24-64 0z"/><path d="M78 50l12-14v28z"/><circle cx="32" cy="46" r="2.5" fill="#fff"/><path d="M48 38c4 8 4 16 0 24"/>',
+'Garça':'<path d="M30 20c8-6 18-2 18 8 0 10-10 14-10 26 0 12 10 18 24 18 10 0 20-6 26-12-12 0-18-4-22-12"/><path d="M30 20l-18 4 16 4"/><path d="M50 72v18M58 72l4 18"/>',
+'Lagos':'<path d="M10 40c10-8 20-8 30 0s20 8 30 0 20-8 30 0"/><path d="M10 58c10-8 20-8 30 0s20 8 30 0 20-8 30 0"/><path d="M10 76c10-8 20-8 30 0s20 8 30 0 20-8 30 0"/>',
+'Fé':'<path d="M26 88V46l24-24 24 24v42z"/><path d="M50 6v16M42 12h16"/><path d="M42 88V68a8 8 0 0 1 16 0v20"/><path d="M14 88h72"/>',
+'Barco':'<path d="M10 62h80l-12 18H22z"/><path d="M48 14v48M48 18l26 36H48"/><path d="M10 90c10-6 20-6 30 0s20 6 30 0 14-4 20 0"/>',
+'Juventude':'<path d="M34 90V56l-6-8V30a6 6 0 0 1 12 0v12-18a6 6 0 0 1 12 0v18-14a6 6 0 0 1 12 0v14-8a6 6 0 0 1 12 0v22c0 10-6 18-14 22v12"/>',
+'Obras':'<path d="M14 84h72"/><path d="M22 84V52h56v32"/><path d="M30 52V36h40v16"/><path d="M50 14v22M38 22h24"/>',
+'Povo':'<circle cx="30" cy="30" r="10"/><circle cx="70" cy="30" r="10"/><circle cx="50" cy="40" r="11"/><path d="M12 76c0-14 8-24 18-24M88 76c0-14-8-24-18-24M28 88c0-18 10-28 22-28s22 10 22 28"/>',
+'São João':'<path d="M8 22Q50 44 92 22"/><path d="M20 28v20l8-6 8 6V33"/><path d="M44 34v20l6-5 6 5V34"/><path d="M64 33v15l8-6 8 6V28"/><path d="M30 80c4-12 8-16 10-24 4 8 0 12 6 14 2-6 6-8 6-14 6 10 10 14 8 24z"/>'};
+const IC_BG=['#F26A1B','#0E4DA4','#FFC20E','#3FB8E8','#0A2A5E','#3FB8E8','#FFC20E','#0E4DA4','#F26A1B','#0A2A5E','#F26A1B','#0E4DA4'];
+const ic=(k,bg,s=190)=>`<div class="ic" style="width:${s}px;height:${s}px;background:${bg}"><svg viewBox="0 0 100 100" style="width:${s*.55}px;height:${s*.55}px;${bg=='#FFC20E'?'stroke:#0A2A5E':''}">${ICONS[k].replaceAll('fill="#fff"',bg=='#FFC20E'?'fill="#0A2A5E"':'fill="#fff"')}</svg></div>`;
+const hd=(t,n,dark)=>`<div class="hd" style="color:${dark?'#fff':'var(--n)'}"><span class="k">${t}</span><span class="num">${String(n).padStart(2,'0')}</span></div>`;
+const ft=(dark)=>`<div class="ft" style="color:${dark?'#fff':'var(--n)'}"><span>Leo Pinto · Manual de identidade</span><span>Do povo, pro povo.</span></div>`;
+const P=[];
+// 1 capa
+P.push(`<div class="p" style="background:var(--b)"><svg style="position:absolute;inset:0" viewBox="0 0 1080 1350"><circle cx="900" cy="470" r="300" fill="#FFC20E"/>${wave('#3FB8E8',1010,46)}${wave('#0A2A5E',1080,46)}</svg>
+<img src="../v1/leo-28.png" style="position:absolute;right:-170px;bottom:150px;height:1000px">
+<svg style="position:absolute;inset:0" viewBox="0 0 1080 1350">${wave('#F26A1B',1160,40)}</svg>
+<div style="position:absolute;left:80px;top:90px">${W({c1:'#fff',c2:'#FFC20E',sub:'#fff',fs:104})}</div>
+<div style="position:absolute;left:80px;bottom:90px;color:#fff"><div class="k" style="font-size:16px;opacity:.85">Manual de identidade · 2025–2028</div><div class="d" style="font-size:84px;margin-top:14px">Do povo,<br>pro povo.</div></div></div>`);
+// 2 conceito
+P.push(`<div class="p">${hd('O conceito',2)}<div style="position:absolute;left:80px;top:190px"><div class="k" style="color:var(--l)">Leo da Baixada</div><h2 style="margin-top:22px">Um vereador<br>que nasce<br><span style="color:var(--l)">da água</span><br>e do povo.</h2>
+<p class="lead" style="margin-top:46px">São João Batista vive dos campos que alagam e secam, dos lagos, da pesca e da festa de São João. A marca do Leo junta três coisas que todo mundo da Baixada reconhece: <b>o sol</b> que aquece o dia de trabalho, <b>a água</b> que sustenta a cidade e <b>o L</b> firme de quem está presente.</p></div>
+<div style="position:absolute;left:80px;right:80px;bottom:150px;display:grid;grid-template-columns:repeat(3,1fr);gap:26px">
+${[['Sol','#FFC20E','Energia, trabalho e juventude.'],['Água','#3FB8E8','Os campos alagados, os lagos e a pesca.'],['L','#F26A1B','Presença firme. O Leo de pé, junto do povo.']].map(([t,c,x])=>`<div style="border-top:8px solid ${c};padding-top:20px"><div class="d" style="font-size:52px">${t}</div><div style="font-size:19px;margin-top:8px;line-height:1.45">${x}</div></div>`).join('')}</div>${ft()}</div>`);
+// 3 monograma construção
+P.push(`<div class="p" style="background:#fff">${hd('Monograma',3)}<div style="position:absolute;left:80px;top:170px"><h2>O símbolo</h2><p class="lead" style="margin-top:20px">Um círculo, como um selo de presença. Dentro dele, o L do Leo, o sol da Baixada e duas linhas de água.</p></div>
+<div style="position:absolute;left:140px;top:470px;width:800px;height:800px">
+<svg viewBox="0 0 200 200" width="800" height="800" style="position:absolute;inset:0"><g stroke="#3FB8E8" stroke-width=".35" fill="none" opacity=".9">${[...Array(11)].map((_,i)=>`<path d="M${i*20} 0V200M0 ${i*20}H200"/>`).join('')}<circle cx="100" cy="100" r="96"/><circle cx="138" cy="62" r="20" stroke-dasharray="2 2"/></g></svg>
+<div style="position:absolute;inset:100px">${M({s:600})}</div>
+<svg viewBox="0 0 200 200" width="800" height="800" style="position:absolute;inset:0"><g fill="none" stroke="#0A2A5E" stroke-width=".5" stroke-dasharray="1.5 1.5"><path d="M74 37V185M98 37V185M74 113H200M74 140H200"/></g><g font-family="Poppins" font-size="4.2" fill="#0A2A5E" font-weight="600"><text x="2" y="6">GRADE 10 × 10</text><text x="160" y="40">SOL · r = 2u</text><text x="150" y="190">ÁGUA · 2 ondas</text></g></svg></div>${ft()}</div>`);
+// 4 logo principal e versões de forma
+P.push(`<div class="p">${hd('Assinatura',4)}<div style="position:absolute;left:80px;top:170px"><h2>Logo em versões</h2></div>
+<div style="position:absolute;left:80px;right:80px;top:330px;height:430px;background:#fff;border-radius:28px;display:grid;place-items:center">${W({fs:120})}</div>
+<div style="position:absolute;left:80px;top:790px;width:445px;height:420px;background:#fff;border-radius:28px;display:grid;place-items:center;text-align:center"><div>${M({s:170})}<div class="d" style="font-size:72px;color:var(--b);margin-top:16px">LEO <span style="color:var(--l)">PINTO</span></div><div class="k" style="font-size:12px;margin-top:8px">Vereador · São João Batista</div></div></div>
+<div style="position:absolute;right:80px;top:790px;width:445px;height:198px;background:#fff;border-radius:28px;display:flex;align-items:center;justify-content:center;gap:18px">${M({s:96})}<div class="d" style="font-size:62px;color:var(--b)">LEO <span style="color:var(--l)">PINTO</span></div></div>
+<div style="position:absolute;right:80px;top:1012px;width:445px;height:198px;border-radius:28px;display:flex;align-items:center;justify-content:center;gap:40px;background:#fff">${M({s:120})}${M({s:80})}${M({s:44})}</div>
+<div style="position:absolute;left:80px;right:80px;bottom:100px;display:flex;justify-content:space-between;font-size:15px;font-weight:600"><span>Principal horizontal</span><span>Vertical · horizontal compacta · monograma</span></div>${ft()}</div>`);
+// 5 versões de cor
+const box=(bg,html)=>`<div style="background:${bg};display:grid;place-items:center">${html}</div>`;
+P.push(`<div class="p" style="display:grid;grid-template-columns:1fr 1fr;grid-template-rows:repeat(3,1fr)">
+${box('#0E4DA4',W({c1:'#fff',c2:'#FFC20E',sub:'#fff',fs:74}))}
+${box('#FFC20E',W({c1:'#0A2A5E',c2:'#F26A1B',sub:'#0A2A5E',fs:74,m:{sun:'#fff'}}))}
+${box('#F26A1B',W({c1:'#fff',c2:'#0A2A5E',sub:'#fff',fs:74,m:{bg:'#fff',L:'#F26A1B'}}))}
+${box('#0A2A5E',W({c1:'#fff',c2:'#3FB8E8',sub:'#3FB8E8',fs:74}))}
+${box('#fff',W({c1:'#0A2A5E',c2:'#0A2A5E',sub:'#0A2A5E',fs:74,m:{bg:'#0A2A5E',sun:'#fff',L:'#fff',w1:'#fff',w2:'#0A2A5E'}}))}
+${box('#111',W({c1:'#fff',c2:'#fff',sub:'#fff',fs:74,m:{bg:'#fff',sun:'#111',L:'#111',w1:'#111',w2:'#fff'}}))}
+<div style="position:absolute;left:0;right:0;top:0;padding:28px 40px;color:#fff;display:flex;justify-content:space-between"><span class="k" style="font-size:14px">Versões de cor</span><span class="num">05</span></div>
+<div style="position:absolute;right:40px;bottom:24px;font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#fff;opacity:.7">Monocromáticas: bordado e P&amp;B</div></div>`);
+// 6 proteção e mau uso
+const bad=(t,st)=>`<div style="text-align:center"><div style="height:190px;background:#fff;border-radius:20px;display:grid;place-items:center;position:relative;overflow:hidden"><div style="${st}">${W({fs:44,tag:''})}</div><svg viewBox="0 0 100 100" style="position:absolute;inset:0;width:100%;height:100%" preserveAspectRatio="none"><path d="M4 4L96 96" stroke="#E0262B" stroke-width="1.2"/></svg></div><div class="lbl">${t}</div></div>`;
+P.push(`<div class="p">${hd('Regras de uso',6)}<div style="position:absolute;left:80px;top:170px"><h2>Respiro e<br>tamanho mínimo</h2></div>
+<div style="position:absolute;left:80px;top:420px;width:920px;height:380px;background:#fff;border-radius:28px;display:grid;place-items:center"><div style="position:relative;padding:56px;outline:3px dashed #3FB8E8;outline-offset:0">${W({fs:80})}<div style="position:absolute;left:0;top:0;width:56px;height:56px;background:#3FB8E833;display:grid;place-items:center;font-weight:700;color:var(--b)">x</div></div></div>
+<div style="position:absolute;left:80px;top:820px;font-size:18px;line-height:1.5;max-width:920px">A área de proteção é <b>x</b> = metade da altura do monograma. Mínimo: logo horizontal com 30 mm (ou 160 px); monograma sozinho com 8 mm (ou 40 px).</div>
+<div style="position:absolute;left:80px;right:80px;top:950px;display:grid;grid-template-columns:repeat(3,1fr);gap:26px">${bad('Não distorcer','transform:scaleX(1.5)')}${bad('Não trocar as cores','filter:hue-rotate(140deg)')}${bad('Não girar','transform:rotate(-14deg)')}</div>${ft()}</div>`);
+// 7 paleta
+const CO=[['Laranja Baixada','#F26A1B','242 106 27','0 70 95 0','Pantone 1585 C'],['Amarelo Sol','#FFC20E','255 194 14','0 25 100 0','Pantone 7408 C'],['Água','#3FB8E8','63 184 232','65 5 0 0','Pantone 298 C'],['Azul Mandato','#0E4DA4','14 77 164','100 70 0 0','Pantone 2945 C'],['Azul Noite','#0A2A5E','10 42 94','100 85 30 20','Pantone 2768 C']];
+P.push(`<div class="p" style="background:#fff">${hd('Paleta',7)}<div style="position:absolute;left:80px;top:170px"><h2>Cores</h2><p class="lead" style="margin-top:16px">Laranja e azul vêm do partido; o amarelo e a água vêm da Baixada. Proporção sugerida: azul domina, laranja chama, amarelo destaca.</p></div>
+<div style="position:absolute;left:80px;right:80px;top:440px;display:flex;height:70px;border-radius:14px;overflow:hidden"><div style="flex:38;background:#0E4DA4"></div><div style="flex:24;background:#F26A1B"></div><div style="flex:16;background:#FFC20E"></div><div style="flex:12;background:#3FB8E8"></div><div style="flex:10;background:#0A2A5E"></div></div>
+<div style="position:absolute;left:80px;right:80px;top:550px;display:grid;grid-template-columns:repeat(5,1fr);gap:18px">${CO.map(([n,h,r,c,p])=>`<div><div style="height:420px;border-radius:20px;background:${h}"></div><div style="font-family:'Baloo 2';font-weight:800;font-size:28px;margin-top:16px;line-height:1">${n}</div><div style="font-size:14px;line-height:1.7;margin-top:8px"><b>HEX</b> ${h}<br><b>RGB</b> ${r}<br><b>CMYK</b> ${c}<br><span style="opacity:.7">${p}*</span></div></div>`).join('')}</div>
+<div style="position:absolute;left:80px;bottom:110px;font-size:13px;opacity:.7">* Pantone aproximado. Conferir a prova de cor com a gráfica antes de imprimir.</div>${ft()}</div>`);
+// 8 tipografia
+P.push(`<div class="p" style="background:var(--n);color:#fff">${hd('Tipografia',8,1)}<div style="position:absolute;left:80px;top:170px;right:80px">
+<div class="k" style="color:var(--a)">Títulos · Baloo 2 ExtraBold</div><div class="d" style="font-size:250px;margin-top:10px">Aa</div><div class="d" style="font-size:58px;margin-top:10px;line-height:1">ABCDEFGHIJKLMNOPQRSTUVWXYZ<br><span style="color:var(--g)">abcdefghijklmnopqrstuvwxyz 0123456789</span></div>
+<div style="height:3px;background:#ffffff33;margin:60px 0"></div>
+<div class="k" style="color:var(--a)">Textos · Poppins Regular, Medium e SemiBold</div><div style="font-size:120px;font-weight:600;margin-top:10px;line-height:1">Aa</div>
+<p style="font-size:24px;line-height:1.55;margin-top:24px;max-width:860px">Uma família redonda e amiga nos títulos, para falar como o povo fala. Uma família limpa nos textos, para prestar contas com clareza. As duas são gratuitas no Google Fonts.</p></div>${ft(1)}</div>`);
+// 9 ícones
+const KS=Object.keys(ICONS);
+P.push(`<div class="p">${hd('Ícones',9)}<div style="position:absolute;left:80px;top:170px"><h2>Ícones do mandato</h2><p class="lead" style="margin-top:16px">Traço único e cantos arredondados, sempre dentro de um círculo de cor da paleta. Servem para destaques do Instagram, posts de prestação de contas e sinalização.</p></div>
+<div style="position:absolute;left:80px;right:80px;top:470px;display:grid;grid-template-columns:repeat(4,1fr);row-gap:34px;justify-items:center">${KS.map((k,i)=>`<div>${ic(k,IC_BG[i])}<div class="lbl">${k}</div></div>`).join('')}</div>${ft()}</div>`);
+// 10 grafismos
+const garca=(x,y,s,c)=>`<g transform="translate(${x} ${y}) scale(${s})" fill="none" stroke="${c}" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round">${ICONS['Garça']}</g>`;
+const peixe=(x,y,s,c)=>`<g transform="translate(${x} ${y}) scale(${s})" fill="none" stroke="${c}" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 50c18-24 50-24 64 0-14 24-46 24-64 0z"/><path d="M78 50l12-14v28z"/></g>`;
+const vit=(x,y,s,c)=>`<g transform="translate(${x} ${y}) scale(${s})"><path d="M50 50L95 45A46 20 0 1 0 95 55z" fill="${c}"/><path d="M50 50L14 40M50 50L10 54M50 50L30 66M50 50L62 68" stroke="#3FB8E8" stroke-width="2.5" opacity=".6"/></g>`;
+let pat='';for(let r=0;r<6;r++)for(let c=0;c<6;c++){const x=c*90+(r%2)*45,y=r*90;pat+=(r+c)%3==0?peixe(x+8,y+14,.6,'#3FB8E8'):(r+c)%3==1?`<path d="M${x+10} ${y+50}c12-10 24-10 36 0s24 10 36 0" stroke="#FFC20E" stroke-width="6" fill="none" stroke-linecap="round"/>`:`<circle cx="${x+45}" cy="${y+45}" r="9" fill="#F26A1B"/>`}
+P.push(`<div class="p" style="background:#fff">${hd('Grafismos regionais',10)}<div style="position:absolute;left:80px;top:170px"><h2>A Baixada<br>em desenho</h2></div>
+<div style="position:absolute;left:80px;top:420px;width:445px;height:445px;border-radius:28px;background:var(--b);overflow:hidden"><svg viewBox="0 0 540 540" width="445" height="445">${pat}</svg></div>
+<div style="position:absolute;right:80px;top:420px;width:445px;height:445px;border-radius:28px;background:var(--g);overflow:hidden"><svg viewBox="0 0 445 445" width="445" height="445">${vit(30,250,1.3,'#0E4DA4')}${vit(230,300,1.0,'#0A2A5E')}${vit(280,130,.7,'#0E4DA4')}${garca(80,40,1.7,'#fff')}<path d="M0 230c40-14 80-14 120 0s80 14 120 0 80-14 120 0 60-10 85 0" stroke="#fff" stroke-width="5" fill="none" opacity=".6"/></svg></div>
+<div style="position:absolute;left:80px;right:80px;top:890px;height:200px;border-radius:28px;background:var(--a);overflow:hidden">${flags(12,920,20)}</div>
+<div style="position:absolute;left:80px;right:80px;top:1112px;display:grid;grid-template-columns:repeat(3,1fr);font-size:15px;font-weight:600"><span>Padrão Lagos e Pesca</span><span style="text-align:center">Garça e vitória-régia</span><span style="text-align:right">Bandeirinhas de São João</span></div>
+<div style="position:absolute;left:80px;right:80px;top:1150px;font-size:15px;opacity:.75">As bandeirinhas homenageiam o padroeiro e o nome da cidade. Usar em eventos, aniversário da cidade e na época junina.</div>${ft()}</div>`);
+// 11 slogan
+P.push(`<div class="p" style="background:var(--l)">${hd('Slogan',11,1)}
+<div style="position:absolute;left:0;right:0;top:250px;transform:rotate(-4deg)"><div style="background:#fff;margin:0 -40px;padding:40px 120px"><div class="d" style="font-size:150px;color:var(--b)">Do povo,<br><span style="color:var(--l)">pro povo.</span></div></div></div>
+<div style="position:absolute;left:0;right:0;top:760px;transform:rotate(-4deg);background:var(--n);padding:26px 0;white-space:nowrap;overflow:hidden"><span class="d" style="font-size:58px;color:var(--a)">${'#LeoPresente &nbsp;·&nbsp; Leo da Baixada &nbsp;·&nbsp; '.repeat(4)}</span></div>
+<div style="position:absolute;left:80px;bottom:150px;right:80px;color:#fff;font-size:24px;line-height:1.5">Curto, de falar em voz alta. Diz de onde o Leo veio e para quem ele trabalha. A faixa com <b>#LeoPresente</b> fecha os posts de prestação de contas.</div>${ft(1)}</div>`);
+// 12 foto + layout
+P.push(`<div class="p" style="background:var(--g)"><svg style="position:absolute;inset:0" viewBox="0 0 1080 1350"><circle cx="790" cy="520" r="340" fill="#FFC20E"/>${wave('#0E4DA4',980,46)}</svg>
+<img src="../v1/leo-18.png" style="position:absolute;left:380px;bottom:250px;height:980px">
+<svg style="position:absolute;inset:0" viewBox="0 0 1080 1350">${wave('#0A2A5E',1090,40)}</svg>
+${hd('Fotografia',12)}<div style="position:absolute;left:80px;top:160px;width:420px"><h2 style="font-size:84px;color:var(--n)">Leo de verdade.</h2></div>
+<div style="position:absolute;left:80px;right:80px;bottom:130px;color:#fff;display:grid;grid-template-columns:1fr 1fr;gap:40px;font-size:19px;line-height:1.5"><div><b style="color:var(--a)">Sempre</b><br>foto real, recortada, de frente para o povo, sobre o sol e a água da marca.</div><div><b style="color:var(--a)">Nunca</b><br>filtros pesados, foto com fundo poluído ou ilustração no lugar do Leo.</div></div>${ft(1)}</div>`);
+document.body.innerHTML=P.join('');
+</script></body></html>
