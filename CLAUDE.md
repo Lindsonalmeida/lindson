@@ -50,3 +50,5 @@ Para canal dark e monetização no YouTube (Passaporte da Bíblia, Raposa e Leã
 ## Estado atual e continuidade
 
 Antes de continuar qualquer trabalho (de qualquer conta), leia `ESTADO-DO-PROJETO.md`: links dos apps, o que está pronto, o que falta e como retomar.
+
+Sempre que o Lindson pedir algo, consulte antes o repositório (incluindo os outros branches em `origin/`) e o que as outras equipes e contas já fizeram sobre o assunto, e continue a partir disso, sem refazer do zero.
