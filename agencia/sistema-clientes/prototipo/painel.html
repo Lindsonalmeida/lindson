@@ -103,6 +103,27 @@ textarea{min-height:80px;resize:vertical}
 .fotos div{aspect-ratio:4/5;border-radius:10px;border:1px dashed var(--linha);display:grid;place-items:center;text-align:center;color:var(--apagado);font-size:12px;padding:10px;background:var(--painel2)}
 .fase{border-left:3px solid var(--amarelo);padding:4px 0 4px 14px;display:grid;gap:4px}
 @media (max-width:760px){.bom-dia{flex-wrap:wrap}.bom-dia .xp{margin-left:0;text-align:left}}
+.promo{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.4fr);border:1px solid rgba(245,197,24,.3);border-radius:16px;overflow:hidden;min-height:300px;
+  background:radial-gradient(50% 80% at 20% 60%,rgba(245,197,24,.22),transparent 70%),linear-gradient(90deg,#0d0b05,#0B0B0C 55%)}
+.promo .eu{position:relative;min-height:300px}
+.promo .eu img{position:absolute;left:50%;bottom:0;height:100%;transform:translateX(-50%);object-fit:contain;
+  -webkit-mask-image:linear-gradient(to bottom,#000 70%,transparent 100%),linear-gradient(to right,transparent 0,#000 18%,#000 82%,transparent);-webkit-mask-composite:source-in;
+  mask-image:linear-gradient(to bottom,#000 70%,transparent 100%),linear-gradient(to right,transparent 0,#000 18%,#000 82%,transparent);mask-composite:intersect}
+.promo .eu .nome{position:absolute;left:0;right:0;bottom:16px;text-align:center;z-index:2}
+.promo .eu .nome small{display:block;font:500 10px var(--f-dado);letter-spacing:.4em;color:var(--texto)}
+.promo .eu .nome b{font:900 clamp(26px,2.6vw,38px)/1 var(--f-titulo);color:var(--amarelo);text-transform:uppercase;text-shadow:0 4px 18px #000}
+.promo .vit{position:relative;overflow:hidden;padding:0}
+.promo .trilho2{display:flex;height:100%;transition:transform .9s cubic-bezier(.7,0,.2,1)}
+.promo .sl{flex:0 0 100%;box-sizing:border-box;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.9fr);gap:18px;align-items:center;padding:22px 22px 60px}
+.promo .sl .ey{font:500 10px var(--f-dado);letter-spacing:.24em;color:var(--amarelo);text-transform:uppercase}
+.promo .sl h3{margin:6px 0 8px;font:800 clamp(24px,2.4vw,36px)/.95 var(--f-titulo);text-transform:uppercase}
+.promo .sl h3 em{font-style:normal;color:var(--amarelo)}
+.promo .sl p{margin:0;color:#C9C5BA;font-size:13px;line-height:1.5}
+.promo .sl .mat{aspect-ratio:16/10;border-radius:10px;background-size:cover;background-position:top center;border:1px solid var(--linha);box-shadow:0 20px 40px rgba(0,0,0,.6)}
+.promo .rodape2{position:absolute;left:22px;right:22px;bottom:14px;display:flex;align-items:center;gap:6px}
+.promo .rodape2 i{flex:1;height:3px;border-radius:3px;background:rgba(243,240,230,.15)}.promo .rodape2 i.on{background:var(--amarelo)}
+.promo .rodape2 a{margin-left:10px;white-space:nowrap}
+@media (max-width:900px){.promo{grid-template-columns:minmax(0,1fr)}.promo .eu{min-height:260px}.promo .sl{grid-template-columns:minmax(0,1fr)}.promo .sl .mat{display:none}}
 .toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--amarelo);color:#0A0A0A;font-weight:700;padding:10px 16px;border-radius:10px;opacity:0;transition:opacity .25s;pointer-events:none;z-index:20}
 .toast.on{opacity:1}
 @media (max-width:1100px){.g4{grid-template-columns:repeat(2,minmax(0,1fr))}.g3,.g21{grid-template-columns:minmax(0,1fr)}}
@@ -115,6 +136,7 @@ textarea{min-height:80px;resize:vertical}
   .topo .exemplo{display:none}
   main{padding:16px max(16px,env(safe-area-inset-right,0px)) 40px max(16px,env(safe-area-inset-left,0px))}
   .g2{grid-template-columns:minmax(0,1fr)}
+  .posts{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.post .img{font-size:16px;padding:10px}.post .c{padding:9px}
   .cal{grid-template-columns:repeat(7,minmax(0,1fr));gap:3px}.cal .dia{min-height:58px;padding:3px}.cal .ev{font-size:9px;padding:1px 3px}
 }
 </style>
@@ -206,6 +228,15 @@ function pontos(){return MISSOES[cli].reduce((a,m,i)=>a+(lista().includes(i)?m[1
 function salvaM(){try{localStorage.setItem('missoes',JSON.stringify(feitas))}catch(e){}}
 function bomDia(){const f=FRASES[cli],fr=f[new Date().getDate()%f.length],h=new Date().getHours(),sd=h<12?'Bom dia':h<18?'Boa tarde':'Boa noite',nome=BASE[cli].nome.replace(/^(Dra\.|Vereador) /,'');
  return `<div class="bom-dia"><div class="sol">☀</div><div><div class="a">${sd}, ${nome}. A mensagem de hoje:</div><div class="q">“${fr}”</div></div><div class="xp"><div class="a">Pontos de hoje</div><b>${pontos()} XP</b><div><a class="a" href="#missoes" style="color:var(--amarelo)">Ver missões →</a></div></div></div>`}
+
+const PROMO=[['Conheça um dos nossos clientes','Rafael <em>Imports</em>','Mini site da bio com WhatsApp por setor para a loja de celulares e assistência em São Luís.','__RAFAEL1__'],
+ ['Conheça um dos nossos clientes','Desentupidora <em>SF</em>','Mini site para quem tem urgência: orçamento no WhatsApp e ligação em um toque.','__SF1__'],
+ ['Conheça um dos nossos projetos','Passaporte da <em>Bíblia</em>','Canal que explica a Bíblia como viagem: vídeos animados, Shorts diários e produto digital.','__PASSAPORTE1__'],
+ ['Conheça um dos nossos projetos','Raposa e <em>Leão</em>','Canal sobre Maquiavel e as leis do poder aplicadas a liderança, negócios e relações.','__RAPOSA1__']];
+function promo(){return `<section class="promo" aria-label="Lindson Almeida, estrategista digital"><div class="eu"><img src="__CINE__" alt="Lindson Almeida"><div class="nome"><small>ESTRATEGISTA DIGITAL</small><b>Lindson Almeida</b></div></div>
+ <div class="vit"><div class="trilho2" id="trilho2">${PROMO.map(([e,h,p,m])=>`<div class="sl"><div><span class="ey">${e}</span><h3>${h}</h3><p>${p}</p></div><div class="mat" style="background-image:url(${m})"></div></div>`).join('')}</div>
+ <div class="rodape2">${PROMO.map((_,k)=>`<i data-k="${k}"></i>`).join('')}<a class="btn am" href="https://wa.me/5598985621808?text=Oi%2C%20Lindson%21%20Quero%20indicar%20ou%20contratar%20um%20novo%20servi%C3%A7o." target="_blank" rel="noopener">Indicar ou contratar</a></div></div></section>`}
+let pi=0,pt=null;function giraPromo(){const t=document.getElementById('trilho2');if(!t)return;t.style.transform=`translateX(-${pi*100}%)`;document.querySelectorAll('.rodape2 i').forEach((x,k)=>x.classList.toggle('on',k===pi));clearTimeout(pt);pt=setTimeout(()=>{pi=(pi+1)%PROMO.length;giraPromo()},6000)}
 const V={
 missoes(){const m=MISSOES[cli],l=lista(),tot=m.reduce((a,x)=>a+x[1],0),p=pontos(),dias=Object.keys(feitas).filter(k=>k.startsWith(cli+':')&&feitas[k].length).length;
  const med=[['🔥','Primeira missão',p>0],['⭐','Dia completo',l.length===m.length],['🏅','3 dias ativos',dias>=3],['👑','7 dias ativos',dias>=7]];
@@ -256,7 +287,7 @@ function render(){const v=(location.hash||'#inicio').slice(1),view=V[v]?v:'inici
  document.querySelectorAll('.grupo a').forEach(a=>{if(a.dataset.v===view)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')});
  $('#n-miss').textContent=(MISSOES[cli].length-lista().length)||'';
  $('#n-aprov').textContent=APROV.filter(p=>p.st==='aguardando').length||'';
- main.innerHTML=V[view](d);$('#menu').classList.remove('aberto');$('#abrir').setAttribute('aria-expanded','false');
+ main.innerHTML=V[view](d)+promo();giraPromo();$('#menu').classList.remove('aberto');$('#abrir').setAttribute('aria-expanded','false');
  main.querySelectorAll('[data-ap]').forEach(b=>b.onclick=()=>{APROV[b.dataset.ap].st='aprovado';toast('Aprovado. A equipe foi avisada.');render()});
  main.querySelectorAll('[data-aj]').forEach(b=>b.onclick=()=>{APROV[b.dataset.aj].st='em revisão';toast('Pedido de ajuste enviado para a equipe.');render()});
  main.querySelectorAll('[data-sub]').forEach(b=>b.onclick=()=>{window._sub=b.dataset.sub;render()});

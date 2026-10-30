@@ -118,3 +118,4 @@
     - **Métricas**: a antiga aba Resultados, renomeada.
     - **Missões do dia** gamificadas: XP por ação, barra de progresso, dias ativos e conquistas.
     - **Mensagem motivacional do dia**, específica de cada cliente, no topo da Visão geral, que é a primeira tela ao entrar, e também nas Missões.
+18. **Bloco de promoção no pé de todas as páginas do painel (30/10):** foto do Lindson com o nome, vitrine de clientes e projetos passando sozinha e botão "Indicar ou contratar". Monte com `prototipo/montar-painel.sh`. No celular, as miniaturas de Conteúdos ficam em 2 colunas.
