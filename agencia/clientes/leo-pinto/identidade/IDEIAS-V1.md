@@ -15,7 +15,7 @@
 ## Conceito B: "Pinto no trabalho"
 - **Monograma:** um "LP" encaixado num selo redondo, como um carimbo de trabalho feito.
 - **Número:** o 77333 entra numa faixa amarela.
-- **Ícones:** mão estendida, coração, bola, igreja matriz, barco e o número.
+- **Ícones:** mão estendida, coração, bola, igreja matriz, barco, sem número.
 - **Slogan:** "Presente todo dia."
 
 ## Conceito C: "Energia jovem"

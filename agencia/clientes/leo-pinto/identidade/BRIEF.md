@@ -45,3 +45,9 @@ A campanha "Bruno Marques 40111" traz:
 ## Entregas
 - Manual de identidade (PDF 4:5), mockups das aplicações e versões do logo.
 - O PDF também vai para a página de downloads.
+
+## Atualização (Lindson)
+O Leo já está no mandato. É **identidade de mandato, não de campanha**:
+- **sem número de urna** nas peças;
+- o foco vai para a prestação de contas, a presença e as entregas;
+- as aplicações mudam: posts do mandato, fardamento da equipe, crachá, placa do gabinete, faixa de evento e capa das redes. Bandeira e adesivo de carro só se fizerem sentido.
