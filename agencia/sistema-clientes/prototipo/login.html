@@ -33,38 +33,39 @@ body{background:var(--preto);color:var(--texto);font-family:var(--f-corpo)}
 /* Slide 1: cartaz de cinema */
 .cartaz{background:radial-gradient(60% 55% at 58% 42%,rgba(245,197,24,.20),transparent 70%),radial-gradient(40% 40% at 20% 85%,rgba(245,150,24,.10),transparent 70%),#050505}
 .estrelas{position:absolute;inset:0;opacity:.55}
-.ceu{position:absolute;left:50%;top:-4%;width:min(78%,680px);transform:translateX(-50%);opacity:.22;filter:grayscale(.2) sepia(.5) saturate(1.4) hue-rotate(-12deg) brightness(1.1);
-  -webkit-mask-image:linear-gradient(to bottom,#000 30%,transparent 88%);mask-image:linear-gradient(to bottom,#000 30%,transparent 88%);mix-blend-mode:screen}
-.feixe{position:absolute;left:-20%;right:-20%;top:46%;height:3px;transform:rotate(-14deg);background:linear-gradient(90deg,transparent,rgba(245,197,24,.0) 20%,#FFE58A 50%,rgba(245,197,24,0) 80%,transparent);box-shadow:0 0 30px 6px rgba(245,197,24,.35);opacity:.65}
+.ceu{position:absolute;left:50%;top:6%;width:min(78%,680px);transform:translateX(-50%);opacity:.14;filter:grayscale(.2) sepia(.5) saturate(1.4) hue-rotate(-12deg) brightness(1.1);
+  -webkit-mask-image:linear-gradient(to bottom,transparent 0,#000 20%,#000 45%,transparent 85%);mask-image:linear-gradient(to bottom,transparent 0,#000 20%,#000 45%,transparent 85%);mix-blend-mode:screen}
+.feixe{position:absolute;left:-20%;right:-20%;top:30%;height:3px;transform:rotate(-14deg);background:linear-gradient(90deg,transparent,rgba(245,197,24,.0) 20%,#FFE58A 50%,rgba(245,197,24,0) 80%,transparent);box-shadow:0 0 20px 4px rgba(245,197,24,.3);opacity:.4}
 .pessoa{position:absolute;bottom:0;filter:drop-shadow(0 0 18px rgba(245,197,24,.18)) drop-shadow(-8px 0 24px rgba(0,0,0,.6))}
-.pessoa img{display:block;width:100%;height:auto;-webkit-mask-image:linear-gradient(to bottom,#000 70%,transparent 100%),linear-gradient(to right,transparent 0,#000 12%,#000 88%,transparent 100%);-webkit-mask-composite:source-in;mask-image:linear-gradient(to bottom,#000 70%,transparent 100%),linear-gradient(to right,transparent 0,#000 12%,#000 88%,transparent 100%);mask-composite:intersect}
-.p-esq{left:2%;width:30%;bottom:12%;filter:brightness(.55) contrast(1.05) drop-shadow(0 0 14px rgba(245,197,24,.2))}
-.p-fundo{left:22%;width:24%;bottom:22%;filter:brightness(.38) blur(.4px)}
-.p-dir{right:1%;width:31%;bottom:10%;filter:brightness(.6) contrast(1.05) drop-shadow(0 0 14px rgba(245,197,24,.2))}
-.p-centro{left:50%;width:min(44%,440px);transform:translateX(-50%);bottom:14%;filter:contrast(1.06) drop-shadow(0 0 26px rgba(245,197,24,.28)) drop-shadow(0 -2px 2px rgba(255,221,85,.35))}
+.pessoa img{display:block;width:100%;height:auto;-webkit-mask-image:linear-gradient(to bottom,#000 70%,transparent 100%),linear-gradient(to right,transparent 0,#000 22%,#000 78%,transparent 100%);-webkit-mask-composite:source-in;mask-image:linear-gradient(to bottom,#000 70%,transparent 100%),linear-gradient(to right,transparent 0,#000 22%,#000 78%,transparent 100%);mask-composite:intersect}
+.p-esq{left:2%;width:30%;bottom:6%;filter:brightness(.45) contrast(1.05)}
+.p-fundo{left:50%;transform:translateX(-50%);width:60%;bottom:30%;filter:brightness(.22)}
+.p-dir{right:1%;width:31%;bottom:6%;filter:brightness(.45) contrast(1.05)}
+.p-centro{left:50%;width:min(44%,440px);transform:translateX(-50%);bottom:14%;filter:contrast(1.06) drop-shadow(0 30px 40px rgba(0,0,0,.7))}
 .titulo-cartaz{position:absolute;z-index:4;left:0;right:0;bottom:calc(64px + env(safe-area-inset-bottom,0px));text-align:center;padding-inline:24px}
 .titulo-cartaz .pre{font:500 12px var(--f-dado);letter-spacing:.5em;color:var(--amarelo);text-transform:uppercase}
 .titulo-cartaz h1{margin:.12em 0 0;font:900 clamp(44px,6vw,96px)/.86 var(--f-titulo);letter-spacing:.04em;text-transform:uppercase;
   background:linear-gradient(180deg,#FFF3C2 0%,var(--amarelo2) 35%,var(--amarelo) 62%,#9C7408 100%);-webkit-background-clip:text;background-clip:text;color:transparent;
   filter:drop-shadow(0 4px 0 rgba(0,0,0,.6)) drop-shadow(0 0 30px rgba(245,197,24,.25))}
-.titulo-cartaz .credito{margin-top:12px;font:500 11px/1.7 var(--f-dado);letter-spacing:.34em;color:var(--apagado);text-transform:uppercase}
+.titulo-cartaz .credito{margin-top:12px;font:500 11px/1.7 var(--f-dado);letter-spacing:.24em;color:var(--apagado);text-transform:uppercase}
 .titulo-cartaz .credito b{color:var(--texto);font-weight:500}
 .sombra-base{position:absolute;inset:auto 0 0 0;height:46%;background:linear-gradient(to top,#050505 18%,rgba(5,5,5,.85) 45%,transparent);z-index:3}
 
 /* Slides de clientes e projetos */
-.caso{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.9fr);align-items:center;gap:clamp(20px,4vw,56px);padding:calc(96px + env(safe-area-inset-top,0px)) clamp(24px,5vw,72px) 96px;
+.caso{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);align-items:center;gap:clamp(20px,4vw,56px);padding:calc(96px + env(safe-area-inset-top,0px)) clamp(24px,5vw,72px) 96px;
   background:radial-gradient(50% 60% at 80% 50%,rgba(245,197,24,.10),transparent 70%),#070707}
 .caso .info{display:grid;gap:18px;min-width:0}
 .caso .eyebrow{font:500 12px var(--f-dado);letter-spacing:.3em;text-transform:uppercase;color:var(--amarelo)}
+.caso h2 em{font-style:normal;color:var(--amarelo)}
 .caso h2{margin:0;font:800 clamp(40px,5.2vw,78px)/.9 var(--f-titulo);text-transform:uppercase;letter-spacing:.02em;text-wrap:balance}
 .caso p{margin:0;max-width:44ch;color:#C9C5BA;font-size:clamp(15px,1.15vw,17px);line-height:1.6}
 .chips{display:flex;flex-wrap:wrap;gap:8px}
 .chips span{border:1px solid var(--linha);color:var(--texto);border-radius:99px;padding:6px 12px;font:500 12px var(--f-corpo)}
 .caso .link{font:500 13px var(--f-dado);color:var(--apagado);letter-spacing:.04em}
 .caso .link b{color:var(--amarelo);font-weight:500}
-.celular{justify-self:center;width:min(270px,100%);aspect-ratio:9/19;border-radius:38px;padding:10px;background:#1A1A1C;border:1px solid #2A2A2D;box-shadow:0 40px 90px rgba(0,0,0,.7),0 0 0 1px rgba(245,197,24,.08),inset 0 0 0 2px #0E0E10;transform:rotate(4deg)}
+.celular{justify-self:center;width:min(300px,100%);aspect-ratio:9/19;border-radius:38px;padding:10px;background:#1A1A1C;border:1px solid #2A2A2D;box-shadow:0 40px 90px rgba(0,0,0,.7),0 0 0 1px rgba(245,197,24,.08),inset 0 0 0 2px #0E0E10;transform:rotate(2deg)}
 .celular div{width:100%;height:100%;border-radius:30px;background-size:cover;background-position:top center}
-.tela169{justify-self:center;width:100%;max-width:520px;aspect-ratio:16/9;border-radius:14px;background-size:cover;background-position:center;border:1px solid #2A2A2D;box-shadow:0 40px 90px rgba(0,0,0,.7);transform:rotate(-2deg)}
+.tela169{justify-self:center;width:100%;max-width:100%;aspect-ratio:16/9;border-radius:14px;background-size:cover;background-position:center;border:1px solid var(--linha);box-shadow:0 40px 90px rgba(0,0,0,.7)}
 
 /* Controles da vitrine */
 .controles{position:absolute;z-index:7;left:max(32px,env(safe-area-inset-left,0px));right:32px;bottom:calc(18px + env(safe-area-inset-bottom,0px));display:flex;gap:8px}
@@ -99,15 +100,17 @@ body{background:var(--preto);color:var(--texto);font-family:var(--f-corpo)}
 .entrar:hover{background:var(--amarelo2)}.entrar:active{transform:translateY(1px)}
 .entrar:focus-visible{outline:3px solid #fff;outline-offset:3px}
 .seguro{display:flex;justify-content:center;align-items:center;gap:8px;font-size:13px;color:var(--apagado)}
-.seguro i{width:7px;height:7px;border-radius:50%;background:#37D67A;box-shadow:0 0 8px #37D67A}
+.seguro svg{color:var(--amarelo)}
+.mono{width:44px;height:44px;border:1.5px solid var(--amarelo);display:grid;place-items:center;font:800 20px var(--f-titulo);letter-spacing:.04em;color:var(--amarelo);margin-bottom:6px}
 .aviso{min-height:1.3em;font:400 13px/1.5 var(--f-corpo);color:var(--amarelo2);text-align:center}
-.assina{position:absolute;bottom:calc(20px + env(safe-area-inset-bottom,0px));left:0;right:0;text-align:center;font:500 11px var(--f-dado);letter-spacing:.24em;color:#5D5B56;text-transform:uppercase}
+.assina{position:absolute;bottom:calc(20px + env(safe-area-inset-bottom,0px));left:0;right:0;text-align:center;font:500 11px var(--f-dado);letter-spacing:.24em;color:#7A776F;text-transform:uppercase}
 
 @media (max-width:900px){
   .tela{grid-template-columns:minmax(0,1fr)}
   .vitrine{border-right:0;border-bottom:1px solid var(--linha2)}
-  .tela{height:auto}.vitrine{height:560px}
+  .tela{height:auto}.vitrine{height:clamp(340px,52svh,440px)}
   .p-fundo{display:none}.p-esq{width:34%;left:-4%}.p-dir{width:35%;right:-5%}.p-centro{width:56%}
+  .credito .extra{display:none}
   .caso{grid-template-columns:minmax(0,1fr);padding:88px 24px 64px;align-content:start}
   .celular{width:180px;transform:none}.tela169{max-width:360px;transform:none}
   .caso .media{order:-1}
@@ -123,8 +126,8 @@ body{background:var(--preto);color:var(--texto);font-family:var(--f-corpo)}
 
       <article class="slide cartaz" aria-label="Lindson Almeida, estrategista digital">
         <canvas class="estrelas" id="estrelas" aria-hidden="true"></canvas>
-        <img class="ceu" src="__F69__" alt="" aria-hidden="true">
         <div class="feixe" aria-hidden="true"></div>
+        <img class="ceu" src="__F69__" alt="" aria-hidden="true">
         <div class="pessoa p-fundo" aria-hidden="true"><img src="__F71__" alt=""></div>
         <div class="pessoa p-esq" aria-hidden="true"><img src="__F70__" alt=""></div>
         <div class="pessoa p-dir" aria-hidden="true"><img src="__F72__" alt=""></div>
@@ -133,14 +136,14 @@ body{background:var(--preto);color:var(--texto);font-family:var(--f-corpo)}
         <div class="titulo-cartaz">
           <div class="pre">Estrategista digital</div>
           <h1>Lindson Almeida</h1>
-          <div class="credito"><b>@lindsonalmeida_</b> · estratégia · conteúdo · tráfego · São Luís</div>
+          <div class="credito"><b>@lindsonalmeida_</b><span class="extra"> · estratégia · conteúdo · tráfego</span> · São Luís</div>
         </div>
       </article>
 
       <article class="slide caso" aria-label="Cliente Rafael Imports">
         <div class="info">
           <span class="eyebrow">Conheça um dos nossos clientes</span>
-          <h2>Rafael Imports</h2>
+          <h2>Rafael <em>Imports</em></h2>
           <p>Loja de celulares, acessórios e assistência em São Luís. Criamos o mini site da bio: cada cliente cai direto no WhatsApp do setor certo, seja loja ou assistência.</p>
           <div class="chips"><span>Mini site</span><span>WhatsApp por setor</span><span>Identidade premium</span></div>
           <span class="link">Veja ao vivo: <b>rafaelimports.pages.dev</b></span>
@@ -151,7 +154,7 @@ body{background:var(--preto);color:var(--texto);font-family:var(--f-corpo)}
       <article class="slide caso" aria-label="Cliente Desentupidora SF">
         <div class="info">
           <span class="eyebrow">Conheça um dos nossos clientes</span>
-          <h2>Desentupidora SF</h2>
+          <h2>Desentupidora <em>SF</em></h2>
           <p>Serviço de desentupimento em São Luís e Grande Ilha. O mini site leva quem tem urgência a pedir orçamento no WhatsApp ou ligar em um toque.</p>
           <div class="chips"><span>Mini site</span><span>Orçamento no WhatsApp</span><span>Ligação em um toque</span></div>
           <span class="link">Veja ao vivo: <b>desentupidorasf.pages.dev</b></span>
@@ -162,7 +165,7 @@ body{background:var(--preto);color:var(--texto);font-family:var(--f-corpo)}
       <article class="slide caso" aria-label="Projeto Passaporte da Bíblia">
         <div class="info">
           <span class="eyebrow">Conheça um dos nossos projetos</span>
-          <h2>Passaporte da Bíblia</h2>
+          <h2>Passaporte da <em>Bíblia</em></h2>
           <p>Canal no YouTube que explica a Bíblia como uma viagem, com gravuras clássicas animadas, narração própria e um produto digital para quem quer começar a ler.</p>
           <div class="chips"><span>Canal no YouTube</span><span>Shorts e vídeos longos</span><span>Produto digital</span></div>
           <span class="link">Canal: <b>@passaportedabiblia</b></span>
@@ -173,7 +176,7 @@ body{background:var(--preto);color:var(--texto);font-family:var(--f-corpo)}
       <article class="slide caso" aria-label="Projeto Raposa e Leão">
         <div class="info">
           <span class="eyebrow">Conheça um dos nossos projetos</span>
-          <h2>Raposa e Leão</h2>
+          <h2>Raposa e <em>Leão</em></h2>
           <p>Canal que traduz Maquiavel e as leis do poder para a vida real: liderança, negócios e relações, com pinturas históricas e roteiros próprios.</p>
           <div class="chips"><span>Canal no YouTube</span><span>Roteiro e edição</span><span>Estratégia de crescimento</span></div>
           <span class="link">Canal: <b>@RaposaeLeao</b></span>
@@ -188,6 +191,7 @@ body{background:var(--preto);color:var(--texto);font-family:var(--f-corpo)}
   <section class="acesso">
     <form class="form" id="login" novalidate>
       <div class="topo">
+        <div class="mono" aria-hidden="true">LA</div>
         <span class="rot">Central do cliente</span>
         <h2>Acessar painel</h2>
         <p class="sub">Entre com o login e a senha que você recebeu da nossa equipe.</p>
@@ -199,7 +203,7 @@ body{background:var(--preto);color:var(--texto);font-family:var(--f-corpo)}
           <button type="button" id="ver" aria-label="Mostrar senha"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg></button></div></div>
       <button class="entrar" type="submit">Entrar <span aria-hidden="true">→</span></button>
       <div class="aviso" id="aviso" role="status" aria-live="polite"></div>
-      <div class="seguro"><i></i>Conexão segura e criptografada</div>
+      <div class="seguro"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>Conexão segura e criptografada</div>
     </form>
     <div class="assina">Lindson Almeida · Estratégia digital</div>
   </section>
