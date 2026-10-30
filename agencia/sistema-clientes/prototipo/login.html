@@ -30,9 +30,18 @@ body{background:var(--preto);color:var(--texto);font-family:var(--f-corpo)}
 .marca{position:absolute;z-index:6;top:calc(28px + env(safe-area-inset-top,0px));left:max(32px,env(safe-area-inset-left,0px));display:flex;align-items:center;gap:10px;font:500 12px var(--f-dado);letter-spacing:.32em;text-transform:uppercase;color:var(--texto)}
 .marca i{width:22px;height:2px;background:var(--amarelo)}
 
+.fundo-vivo{position:absolute;inset:0;z-index:0;overflow:hidden}
+.fundo-vivo canvas{position:absolute;inset:0;width:100%;height:100%}
+.icone{position:absolute;width:var(--t,34px);height:var(--t,34px);color:var(--amarelo);opacity:0;animation:flutua var(--dur,14s) linear var(--atraso,0s) infinite}
+.icone svg{width:100%;height:100%;filter:drop-shadow(0 0 8px rgba(245,197,24,.45))}
+@keyframes flutua{0%{transform:translateY(40px) scale(.9);opacity:0}15%{opacity:var(--op,.35)}85%{opacity:var(--op,.35)}100%{transform:translateY(-220px) scale(1.05);opacity:0}}
+.notif{position:absolute;display:flex;align-items:center;gap:8px;padding:8px 12px;border-radius:12px;background:rgba(20,18,10,.78);border:1px solid rgba(245,197,24,.25);
+  font:600 12px var(--f-corpo);color:var(--texto);white-space:nowrap;backdrop-filter:blur(6px);opacity:0;animation:aparece var(--dur,12s) ease-in-out var(--atraso,0s) infinite}
+.notif i{width:22px;height:22px;border-radius:50%;background:var(--amarelo);display:grid;place-items:center;color:#0A0A0A;font-style:normal;font-size:12px}
+@keyframes aparece{0%,8%{opacity:0;transform:translateY(10px)}14%,40%{opacity:.92;transform:none}48%,100%{opacity:0;transform:translateY(-8px)}}
 /* Slide 1: retrato principal, centralizado, sobre fundo escuro com luz dourada */
 .cartaz{background:radial-gradient(55% 60% at 50% 38%,#1C1607 0%,#0A0905 45%,#050505 75%)}
-.halo{position:absolute;left:50%;top:6%;width:min(86%,720px);aspect-ratio:1;transform:translateX(-50%);border-radius:50%;
+.halo{position:absolute;z-index:1;left:50%;top:6%;width:min(86%,720px);aspect-ratio:1;transform:translateX(-50%);border-radius:50%;
   background:radial-gradient(circle,rgba(245,197,24,.30),rgba(245,170,24,.10) 40%,transparent 66%);animation:respira 7s ease-in-out infinite}
 @keyframes respira{50%{opacity:.75;transform:translateX(-50%) scale(1.04)}}
 .feixe-luz{position:absolute;inset:0;background:linear-gradient(115deg,transparent 30%,rgba(255,221,85,.10) 45%,transparent 60%);background-size:250% 100%;animation:varre 9s ease-in-out infinite;mix-blend-mode:screen}
@@ -109,12 +118,13 @@ body{background:var(--preto);color:var(--texto);font-family:var(--f-corpo)}
   .tela{height:auto}.vitrine{height:clamp(340px,52svh,440px)}
 .parede{grid-template-columns:repeat(3,minmax(0,1fr))}
   .credito .extra{display:none}
+  .notif{display:none}.icone{--t:22px!important}
   .caso{grid-template-columns:minmax(0,1fr);padding:88px 24px 64px;align-content:start}
   .celular{width:180px;transform:none}.tela169{max-width:360px;transform:none}
   .caso .media{order:-1}
   .acesso{padding-block:40px 64px}
 }
-@media (prefers-reduced-motion:reduce){.halo,.feixe-luz{animation:none}.trilho{transition:none}.controles button.ativo span i{animation:none;width:100%}}
+@media (prefers-reduced-motion:reduce){.halo,.feixe-luz,.icone,.notif{animation:none}.notif{opacity:.8}.trilho{transition:none}.controles button.ativo span i{animation:none;width:100%}}
 </style>
 
 <main class="tela">
@@ -123,6 +133,7 @@ body{background:var(--preto);color:var(--texto);font-family:var(--f-corpo)}
     <div class="trilho" id="trilho">
 
       <article class="slide cartaz" aria-label="Lindson Almeida, estrategista digital">
+        <div class="fundo-vivo" aria-hidden="true"><canvas id="rede"></canvas><div class="icone" aria-hidden="true" style="left:8%;top:70%;--t:34px;--dur:13s;--atraso:-0s;--op:0.4"><svg viewBox="0 0 24 24"><path d="M12 21s-7.5-4.6-9.5-9.2C1 8.2 3.2 4.5 6.9 4.5c2 0 3.6 1.1 5.1 3 1.5-1.9 3.1-3 5.1-3 3.7 0 5.9 3.7 4.4 7.3C19.5 16.4 12 21 12 21z" fill="currentColor"/></svg></div><div class="icone" aria-hidden="true" style="left:84%;top:64%;--t:40px;--dur:16s;--atraso:-2s;--op:0.45"><svg viewBox="0 0 24 24"><path d="M3 20h18M5 16l5-5 4 3 6-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M16 7h4v4" fill="none" stroke="currentColor" stroke-width="2"/></svg></div><div class="icone" aria-hidden="true" style="left:14%;top:40%;--t:28px;--dur:12s;--atraso:-5s;--op:0.3"><svg viewBox="0 0 24 24"><path d="M4 4h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H9l-5 4V6a2 2 0 0 1 2-2z" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></div><div class="icone" aria-hidden="true" style="left:80%;top:30%;--t:36px;--dur:15s;--atraso:-7s;--op:0.35"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="1.6" fill="currentColor"/></svg></div><div class="icone" aria-hidden="true" style="left:6%;top:22%;--t:30px;--dur:14s;--atraso:-3s;--op:0.3"><svg viewBox="0 0 24 24"><path d="M3 4h2l2.4 11h10.8L21 8H7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="9" cy="19" r="1.6" fill="currentColor"/><circle cx="17" cy="19" r="1.6" fill="currentColor"/></svg></div><div class="icone" aria-hidden="true" style="left:88%;top:82%;--t:30px;--dur:13s;--atraso:-9s;--op:0.3"><svg viewBox="0 0 24 24"><path d="M3 10v4h3l7 4V6L6 10H3z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M17 9a4 4 0 0 1 0 6" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></div><div class="icone" aria-hidden="true" style="left:20%;top:86%;--t:32px;--dur:15s;--atraso:-11s;--op:0.3"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M10 9l5 3-5 3z" fill="currentColor"/></svg></div><div class="icone" aria-hidden="true" style="left:74%;top:50%;--t:30px;--dur:12s;--atraso:-4s;--op:0.3"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3 20c.5-3.5 3-5.5 6-5.5s5.5 2 6 5.5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17" cy="9" r="2.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></div><div class="icone" aria-hidden="true" style="left:90%;top:14%;--t:24px;--dur:11s;--atraso:-6s;--op:0.25"><svg viewBox="0 0 24 24"><path d="M12 21s-7.5-4.6-9.5-9.2C1 8.2 3.2 4.5 6.9 4.5c2 0 3.6 1.1 5.1 3 1.5-1.9 3.1-3 5.1-3 3.7 0 5.9 3.7 4.4 7.3C19.5 16.4 12 21 12 21z" fill="currentColor"/></svg></div><div class="icone" aria-hidden="true" style="left:4%;top:55%;--t:26px;--dur:14s;--atraso:-10s;--op:0.25"><svg viewBox="0 0 24 24"><path d="M3 20h18M5 16l5-5 4 3 6-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M16 7h4v4" fill="none" stroke="currentColor" stroke-width="2"/></svg></div><div class="notif" aria-hidden="true" style="left:6%;top:30%;--dur:12s;--atraso:-0s"><i>♥</i>Novo seguidor</div><div class="notif" aria-hidden="true" style="left:66%;top:20%;--dur:12s;--atraso:-4s"><i>$</i>Venda aprovada</div><div class="notif" aria-hidden="true" style="left:62%;top:68%;--dur:12s;--atraso:-8s"><i>✓</i>Post publicado</div><div class="notif" aria-hidden="true" style="left:4%;top:62%;--dur:12s;--atraso:-6s"><i>→</i>Novo lead no WhatsApp</div><div class="notif" aria-hidden="true" style="left:70%;top:44%;--dur:12s;--atraso:-10s"><i>▲</i>Campanha no ar</div></div>
         <div class="halo" aria-hidden="true"></div>
         <div class="feixe-luz" aria-hidden="true"></div>
         <div class="principal"><img src="__F68__" alt="Lindson Almeida"></div>
@@ -230,4 +241,21 @@ f.addEventListener('submit',e=>{e.preventDefault();if(!document.getElementById('
   av.textContent='Protótipo da tela de acesso. O login de verdade é ligado quando o painel for criado.'});
 document.getElementById('esqueci').addEventListener('click',e=>{e.preventDefault();av.textContent='Para criar uma senha nova, fale com a nossa equipe pelo WhatsApp.'});
 })();
+
+// fundo vivo: grade, rede de conexões e gráfico de crescimento desenhando sozinho
+(()=>{const cv=document.getElementById('rede');if(!cv)return;const cx=cv.getContext('2d');const reduz=matchMedia('(prefers-reduced-motion: reduce)').matches;let W,H,N=[];
+function tam(){const r=cv.getBoundingClientRect();W=cv.width=r.width*devicePixelRatio;H=cv.height=r.height*devicePixelRatio;N=Array.from({length:26},()=>({x:Math.random()*W,y:Math.random()*H,vx:(Math.random()-.5)*.25*devicePixelRatio,vy:(Math.random()-.5)*.25*devicePixelRatio}))}
+function curva(t){const pts=[];for(let i=0;i<=40;i++){const x=i/40;pts.push([x*W,H*(.86-.5*x-.05*Math.sin(x*9+t/900)-.03*Math.sin(x*23))])}return pts}
+function q(t){cx.clearRect(0,0,W,H);const g=48*devicePixelRatio;cx.strokeStyle='rgba(245,197,24,.05)';cx.lineWidth=1;
+ for(let x=0;x<W;x+=g){cx.beginPath();cx.moveTo(x,0);cx.lineTo(x,H);cx.stroke()}for(let y=0;y<H;y+=g){cx.beginPath();cx.moveTo(0,y);cx.lineTo(W,y);cx.stroke()}
+ for(const n of N){n.x+=n.vx;n.y+=n.vy;if(n.x<0||n.x>W)n.vx*=-1;if(n.y<0||n.y>H)n.vy*=-1}
+ for(let a=0;a<N.length;a++)for(let b=a+1;b<N.length;b++){const d=Math.hypot(N[a].x-N[b].x,N[a].y-N[b].y);if(d<170*devicePixelRatio){cx.strokeStyle=`rgba(245,197,24,${.16*(1-d/(170*devicePixelRatio))})`;cx.beginPath();cx.moveTo(N[a].x,N[a].y);cx.lineTo(N[b].x,N[b].y);cx.stroke()}}
+ for(const n of N){cx.fillStyle='rgba(255,221,85,.55)';cx.beginPath();cx.arc(n.x,n.y,2*devicePixelRatio,0,7);cx.fill()}
+ const p=curva(t),k=reduz?1:((t%9000)/9000),m=Math.max(2,Math.floor(p.length*Math.min(1,k*1.25)));
+ const gr=cx.createLinearGradient(0,H,0,0);gr.addColorStop(0,'rgba(245,197,24,0)');gr.addColorStop(1,'rgba(245,197,24,.12)');
+ cx.beginPath();cx.moveTo(p[0][0],H);for(let i=0;i<m;i++)cx.lineTo(p[i][0],p[i][1]);cx.lineTo(p[m-1][0],H);cx.closePath();cx.fillStyle=gr;cx.fill();
+ cx.beginPath();for(let i=0;i<m;i++)i?cx.lineTo(p[i][0],p[i][1]):cx.moveTo(p[i][0],p[i][1]);cx.strokeStyle='rgba(255,215,70,.55)';cx.lineWidth=2.5*devicePixelRatio;cx.shadowColor='rgba(245,197,24,.8)';cx.shadowBlur=14;cx.stroke();cx.shadowBlur=0;
+ const e=p[m-1];cx.fillStyle='#FFD84D';cx.beginPath();cx.arc(e[0],e[1],4.5*devicePixelRatio,0,7);cx.fill();
+ if(!reduz)requestAnimationFrame(q)}
+addEventListener('resize',tam);tam();requestAnimationFrame(q)})();
 </script>

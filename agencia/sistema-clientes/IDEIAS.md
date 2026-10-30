@@ -79,3 +79,9 @@
    - A parede do portfólio passa em loop contínuo no fundo.
 10. **Decisão final do slide 1 (30/10): só a foto principal** (mãos no queixo, `fotos/68.jpg`), centralizada, com luz dourada atrás. Sem montagem, sem várias fotos e sem portfólio no fundo.
     - O portfólio fica nos **slides seguintes, um trabalho por página**, passando para o lado sozinho.
+11. **Fundo vivo do slide 1 (30/10):** o fundo estava "sem vida". Agora tem, em dourado e discreto:
+    - grade;
+    - rede de conexões em movimento;
+    - um gráfico de crescimento que se desenha sozinho;
+    - ícones de redes sociais e vendas flutuando (curtir, comentário, gráfico, alvo, carrinho, megafone, vídeo, pessoas);
+    - avisos que aparecem e somem ("Novo seguidor", "Venda aprovada", "Post publicado", "Novo lead no WhatsApp", "Campanha no ar"), sem números inventados. No celular os avisos ficam escondidos.

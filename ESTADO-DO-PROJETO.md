@@ -13,9 +13,18 @@ São privados da conta que criou. **Para abrir ou editar de outra conta, compart
 | Contratos Alkantara | https://claude.ai/artifact/B9QirY7ndLJWP9iZ61mozz | `agencia/processos/modelo-contrato/` |
 | Passaporte da Bíblia · Postagens | https://claude.ai/artifact/1aUURghpLqrWgTQmkvBcG4 | `conteudo/youtube/passaporte/motor/app_pv.py` + `ativos.json` |
 | Raposa e Leão · Postagens | https://claude.ai/artifact/LSTErmeSra3qxFKBJMLiTC | `conteudo/youtube/raposa-e-leao/motor/app_rl.py` + `ativos.json` |
+| Central do cliente (login, protótipo) | https://claude.ai/artifact/XjCkj5eULmE2Pg8KptnKcV | `agencia/sistema-clientes/prototipo/` |
 | Fábrica de Conteúdo (outra organização) | https://claude.ai/artifact/WxeZuhrzQutLDTJ36y6EVt | aba Passaporte: `passaporte/motor/fabrica_pv.py` |
 
 Decisão do Lindson: os vídeos do Passaporte e do Maquiavel ficam **nos apps próprios** de cada canal, não na Fábrica.
+
+## Sistema de clientes (vereador e próximos)
+- Ideias e decisões em `agencia/sistema-clientes/IDEIAS.md`: multi-cliente, o Lindson vê todos e cada cliente só o seu, com login próprio.
+- Protótipo da tela de login: https://claude.ai/artifact/XjCkj5eULmE2Pg8KptnKcV
+  - O código fica em `agencia/sistema-clientes/prototipo/login.html` e é montado com `prototipo/montar.sh`.
+  - As fotos e imagens ficam fora do Git, em `agencia/sistema-clientes/fotos/`: `rec-68.webp` (foto principal recortada) e `casos/*.webp`. Noutra conta, peça as fotos ao Lindson ou baixe-as do artifact.
+  - A foto foi recortada com `rembg` (modelo `u2net_human_seg`).
+- Instaladores globais: `instalar-xquads.ps1/.sh` (squads do Xquads) e `instalar-builder-squad.ps1/.sh` (Builder Squad), para rodar no computador do Lindson.
 
 ## Canais de YouTube (dark)
 Motor único **Pintura Viva** em `conteudo/youtube/passaporte/motor/pintura.py`. Ele serve aos dois canais pelo campo `"canal"`: `passaporte` usa as gravuras de Doré e `raposa` usa as pinturas do acervo. Recursos:
