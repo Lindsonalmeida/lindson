@@ -48,8 +48,13 @@ body{background:var(--preto);color:var(--texto);font-family:var(--f-corpo)}
 @keyframes varre{0%{background-position:120% 0}100%{background-position:-60% 0}}
 .principal{position:absolute;left:50%;bottom:0;transform:translateX(-50%);height:96%;aspect-ratio:768/1214;max-width:100%;z-index:2}
 .principal img{display:block;width:100%;height:100%;object-fit:contain;object-position:bottom;filter:contrast(1.06) drop-shadow(0 0 40px rgba(245,197,24,.18));
-  -webkit-mask-image:linear-gradient(to bottom,#000 66%,transparent 97%),linear-gradient(to right,transparent 0,#000 18%,#000 82%,transparent 100%);-webkit-mask-composite:source-in;
-  mask-image:linear-gradient(to bottom,#000 66%,transparent 97%),linear-gradient(to right,transparent 0,#000 18%,#000 82%,transparent 100%);mask-composite:intersect}
+  -webkit-mask-image:linear-gradient(to bottom,#000 66%,transparent 97%);mask-image:linear-gradient(to bottom,#000 66%,transparent 97%)}
+.marca-fundo{position:absolute;z-index:1;left:50%;top:40%;transform:translate(-50%,-50%);font:900 min(72vh,620px)/.8 var(--f-titulo);letter-spacing:-.02em;color:transparent;
+  -webkit-text-stroke:2px rgba(245,197,24,.26);text-shadow:0 0 60px rgba(245,197,24,.10);pointer-events:none;user-select:none}
+.principal canvas{position:absolute;inset:0;width:100%;height:100%;display:block;
+  -webkit-mask-image:linear-gradient(to bottom,#000 64%,transparent 97%),linear-gradient(to right,transparent 0,#000 16%,#000 84%,transparent 100%);-webkit-mask-composite:source-in;
+  mask-image:linear-gradient(to bottom,#000 64%,transparent 97%),linear-gradient(to right,transparent 0,#000 16%,#000 84%,transparent 100%);mask-composite:intersect}
+.principal.gl img{visibility:hidden}
 .base-escura{position:absolute;inset:auto 0 0 0;height:34%;z-index:3;background:linear-gradient(to top,#050505 30%,rgba(5,5,5,.85) 58%,transparent)}
 .titulo-cartaz{position:absolute;z-index:5;left:0;right:0;bottom:calc(64px + env(safe-area-inset-bottom,0px));text-align:center;padding-inline:24px}
 .titulo-cartaz .pre{font:500 13px var(--f-dado);letter-spacing:.5em;color:var(--texto);text-transform:uppercase;text-shadow:0 2px 12px #000,0 0 4px #000}
@@ -118,7 +123,7 @@ body{background:var(--preto);color:var(--texto);font-family:var(--f-corpo)}
   .tela{height:auto}.vitrine{height:clamp(340px,52svh,440px)}
 .parede{grid-template-columns:repeat(3,minmax(0,1fr))}
   .credito .extra{display:none}
-  .notif{display:none}.icone{--t:22px!important}
+  .notif{display:none}.marca-fundo{display:none}.icone{--t:22px!important}
   .caso{grid-template-columns:minmax(0,1fr);padding:88px 24px 64px;align-content:start}
   .celular{width:180px;transform:none}.tela169{max-width:360px;transform:none}
   .caso .media{order:-1}
@@ -136,7 +141,8 @@ body{background:var(--preto);color:var(--texto);font-family:var(--f-corpo)}
         <div class="fundo-vivo" aria-hidden="true"><canvas id="rede"></canvas><div class="icone" aria-hidden="true" style="left:8%;top:70%;--t:34px;--dur:13s;--atraso:-0s;--op:0.4"><svg viewBox="0 0 24 24"><path d="M12 21s-7.5-4.6-9.5-9.2C1 8.2 3.2 4.5 6.9 4.5c2 0 3.6 1.1 5.1 3 1.5-1.9 3.1-3 5.1-3 3.7 0 5.9 3.7 4.4 7.3C19.5 16.4 12 21 12 21z" fill="currentColor"/></svg></div><div class="icone" aria-hidden="true" style="left:84%;top:64%;--t:40px;--dur:16s;--atraso:-2s;--op:0.45"><svg viewBox="0 0 24 24"><path d="M3 20h18M5 16l5-5 4 3 6-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M16 7h4v4" fill="none" stroke="currentColor" stroke-width="2"/></svg></div><div class="icone" aria-hidden="true" style="left:14%;top:40%;--t:28px;--dur:12s;--atraso:-5s;--op:0.3"><svg viewBox="0 0 24 24"><path d="M4 4h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H9l-5 4V6a2 2 0 0 1 2-2z" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></div><div class="icone" aria-hidden="true" style="left:80%;top:30%;--t:36px;--dur:15s;--atraso:-7s;--op:0.35"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="1.6" fill="currentColor"/></svg></div><div class="icone" aria-hidden="true" style="left:6%;top:22%;--t:30px;--dur:14s;--atraso:-3s;--op:0.3"><svg viewBox="0 0 24 24"><path d="M3 4h2l2.4 11h10.8L21 8H7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="9" cy="19" r="1.6" fill="currentColor"/><circle cx="17" cy="19" r="1.6" fill="currentColor"/></svg></div><div class="icone" aria-hidden="true" style="left:88%;top:82%;--t:30px;--dur:13s;--atraso:-9s;--op:0.3"><svg viewBox="0 0 24 24"><path d="M3 10v4h3l7 4V6L6 10H3z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M17 9a4 4 0 0 1 0 6" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></div><div class="icone" aria-hidden="true" style="left:20%;top:86%;--t:32px;--dur:15s;--atraso:-11s;--op:0.3"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M10 9l5 3-5 3z" fill="currentColor"/></svg></div><div class="icone" aria-hidden="true" style="left:74%;top:50%;--t:30px;--dur:12s;--atraso:-4s;--op:0.3"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3 20c.5-3.5 3-5.5 6-5.5s5.5 2 6 5.5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17" cy="9" r="2.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></div><div class="icone" aria-hidden="true" style="left:90%;top:14%;--t:24px;--dur:11s;--atraso:-6s;--op:0.25"><svg viewBox="0 0 24 24"><path d="M12 21s-7.5-4.6-9.5-9.2C1 8.2 3.2 4.5 6.9 4.5c2 0 3.6 1.1 5.1 3 1.5-1.9 3.1-3 5.1-3 3.7 0 5.9 3.7 4.4 7.3C19.5 16.4 12 21 12 21z" fill="currentColor"/></svg></div><div class="icone" aria-hidden="true" style="left:4%;top:55%;--t:26px;--dur:14s;--atraso:-10s;--op:0.25"><svg viewBox="0 0 24 24"><path d="M3 20h18M5 16l5-5 4 3 6-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M16 7h4v4" fill="none" stroke="currentColor" stroke-width="2"/></svg></div><div class="notif" aria-hidden="true" style="left:6%;top:30%;--dur:12s;--atraso:-0s"><i>♥</i>Novo seguidor</div><div class="notif" aria-hidden="true" style="left:66%;top:20%;--dur:12s;--atraso:-4s"><i>$</i>Venda aprovada</div><div class="notif" aria-hidden="true" style="left:62%;top:68%;--dur:12s;--atraso:-8s"><i>✓</i>Post publicado</div><div class="notif" aria-hidden="true" style="left:4%;top:62%;--dur:12s;--atraso:-6s"><i>→</i>Novo lead no WhatsApp</div><div class="notif" aria-hidden="true" style="left:70%;top:44%;--dur:12s;--atraso:-10s"><i>▲</i>Campanha no ar</div></div>
         <div class="halo" aria-hidden="true"></div>
         <div class="feixe-luz" aria-hidden="true"></div>
-        <div class="principal"><img src="__F68__" alt="Lindson Almeida"></div>
+        <div class="marca-fundo" aria-hidden="true">LA</div>
+        <div class="principal"><canvas id="foto3d" aria-hidden="true"></canvas><img id="fotoimg" src="__CINE__" alt="Lindson Almeida"><img id="fotoprof" src="__PROF__" alt="" hidden></div>
         <div class="base-escura" aria-hidden="true"></div>
         <div class="titulo-cartaz">
           <div class="pre">Estrategista digital</div>
@@ -258,4 +264,25 @@ function q(t){cx.clearRect(0,0,W,H);const g=48*devicePixelRatio;cx.strokeStyle='
  const e=p[m-1];cx.fillStyle='#FFD84D';cx.beginPath();cx.arc(e[0],e[1],4.5*devicePixelRatio,0,7);cx.fill();
  if(!reduz)requestAnimationFrame(q)}
 addEventListener('resize',tam);tam();requestAnimationFrame(q)})();
+
+// foto principal em 3D: profundidade (parallax), respiração de câmera e reflexo de luz passando
+(()=>{const cv=document.getElementById('foto3d'),box=cv&&cv.parentElement,im=document.getElementById('fotoimg'),dp=document.getElementById('fotoprof');if(!cv)return;
+const gl=cv.getContext('webgl',{premultipliedAlpha:false,alpha:true});if(!gl)return;const reduz=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const VS='attribute vec2 p;varying vec2 v;void main(){v=p*.5+.5;v.y=1.-v.y;gl_Position=vec4(p,0,1);}';
+const FS=`precision highp float;varying vec2 v;uniform sampler2D A,D;uniform vec2 m;uniform float t,z;
+void main(){vec2 c=(v-.5)/z+.5;float d=texture2D(D,c).r;vec2 u=c+(d-.35)*m*vec2(.028,.018);vec4 col=texture2D(A,u);
+float faixa=smoothstep(.07,0.,abs((u.x*.8+u.y*.45)-fract(t*.06)*2.2+.4));col.rgb+=vec3(1.,.86,.5)*faixa*.22*col.a*smoothstep(.2,.7,d);
+gl_FragColor=vec4(col.rgb*col.a,col.a);}`;
+function sh(tp,src){const o=gl.createShader(tp);gl.shaderSource(o,src);gl.compileShader(o);return o}
+const pr=gl.createProgram();gl.attachShader(pr,sh(gl.VERTEX_SHADER,VS));gl.attachShader(pr,sh(gl.FRAGMENT_SHADER,FS));gl.linkProgram(pr);if(!gl.getProgramParameter(pr,gl.LINK_STATUS))return;gl.useProgram(pr);
+const b=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,b);gl.bufferData(gl.ARRAY_BUFFER,new Float32Array([-1,-1,1,-1,-1,1,1,1]),gl.STATIC_DRAW);const pl=gl.getAttribLocation(pr,'p');gl.enableVertexAttribArray(pl);gl.vertexAttribPointer(pl,2,gl.FLOAT,false,0,0);
+function tx(img,u){const t=gl.createTexture();gl.activeTexture(gl.TEXTURE0+u);gl.bindTexture(gl.TEXTURE_2D,t);gl.texImage2D(gl.TEXTURE_2D,0,gl.RGBA,gl.RGBA,gl.UNSIGNED_BYTE,img);[gl.TEXTURE_MIN_FILTER,gl.TEXTURE_MAG_FILTER].forEach(k=>gl.texParameteri(gl.TEXTURE_2D,k,gl.LINEAR));[gl.TEXTURE_WRAP_S,gl.TEXTURE_WRAP_T].forEach(k=>gl.texParameteri(gl.TEXTURE_2D,k,gl.CLAMP_TO_EDGE))}
+const ok=i=>i.complete&&i.naturalWidth?Promise.resolve():new Promise(r=>i.onload=r);
+let mx=0,my=0,tx_=0,ty_=0;addEventListener('pointermove',e=>{tx_=(e.clientX/innerWidth-.5)*2;ty_=(e.clientY/innerHeight-.5)*2});
+Promise.all([ok(im),ok(dp)]).then(()=>{tx(im,0);tx(dp,1);gl.uniform1i(gl.getUniformLocation(pr,'A'),0);gl.uniform1i(gl.getUniformLocation(pr,'D'),1);box.classList.add('gl');
+ const U=n=>gl.getUniformLocation(pr,n);gl.enable(gl.BLEND);gl.blendFunc(gl.ONE,gl.ONE_MINUS_SRC_ALPHA);
+ function q(ms){const r=cv.getBoundingClientRect();const w=Math.round(r.width*devicePixelRatio),h=Math.round(r.height*devicePixelRatio);if(cv.width!==w||cv.height!==h){cv.width=w;cv.height=h}
+  const t=reduz?0:ms/1000;mx+=(tx_+Math.sin(t*.35)*.6-mx)*.05;my+=(ty_+Math.cos(t*.27)*.4-my)*.05;
+  gl.viewport(0,0,cv.width,cv.height);gl.clearColor(0,0,0,0);gl.clear(gl.COLOR_BUFFER_BIT);gl.uniform2f(U('m'),reduz?0:mx,reduz?0:my);gl.uniform1f(U('t'),t);gl.uniform1f(U('z'),1.0+(reduz?0:.025*(.5-.5*Math.cos(t*.25))));
+  gl.drawArrays(gl.TRIANGLE_STRIP,0,4);if(!reduz)requestAnimationFrame(q)}requestAnimationFrame(q)})})();
 </script>

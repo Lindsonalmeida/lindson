@@ -85,3 +85,10 @@
     - um gráfico de crescimento que se desenha sozinho;
     - ícones de redes sociais e vendas flutuando (curtir, comentário, gráfico, alvo, carrinho, megafone, vídeo, pessoas);
     - avisos que aparecem e somem ("Novo seguidor", "Venda aprovada", "Post publicado", "Novo lead no WhatsApp", "Campanha no ar"), sem números inventados. No celular os avisos ficam escondidos.
+12. **Foto principal "com vida" (30/10).** Arquivos `fotos/principal-cine.webp` e `fotos/principal-prof.webp`, gerados a partir de `rec-68`:
+    - tratamento de cor de cinema: contraste, pele quente e realces dourados;
+    - luz de contorno dourada suave, do lado direito e de cima;
+    - efeito 3D em WebGL: mapa de profundidade, movimento lento e acompanhando o mouse;
+    - respiração de câmera, com zoom lento;
+    - reflexo de luz passando pelo rosto;
+    - "LA" gigante vazado atrás, em teste (só no computador).
