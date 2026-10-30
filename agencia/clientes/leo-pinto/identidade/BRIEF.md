@@ -1,28 +1,47 @@
-# Identidade visual · Vereador Leo Pinto
+# Briefing · Identidade visual do Vereador Leo Pinto
 
-## Referência enviada (campanha "Bruno Marques 40111", só como estrutura, não copiar)
-- Logo com monograma (inicial estilizada) + nome forte + cargo e número.
-- Paleta de 5 cores com CMYK/RGB.
-- 15 ícones redondos (símbolos regionais, mão, coração, número, slogan com hashtag, retrato).
-- Grafismos regionais (cactos e sol do Nordeste) em padrão e em 4 fundos.
-- Slogan em faixa ("A força da esperança").
-- Versões do logo: horizontal, empilhada, com número, em 3 fundos e branco.
-- Aplicações: bandeira, boné, botons, camiseta, adesivo perfurado de carro, adesivo dobrado.
+## Dados confirmados
+- **Nome de urna:** Leo Pinto
+- **Cargo:** vereador, eleito em 2024
+- **Cidade:** São João Batista, no Maranhão
+- **Partido e número em 2024:** Solidariedade, 77333 (fonte: O Tempo, com dados do TSE)
+- **Fotos:** 30 fotos de estúdio, baixadas do álbum do Google Fotos para `../fotos/`. Ficam fora do Git.
+  - Roupas: polos amarela, laranja e branca.
+  - Fundos: branco, azul royal, azul nublado, verde nublado e luz amarela.
+  - Poses: braços cruzados, punho erguido, aponta o número no relógio, celular na mão, bola de futebol, mão no peito e "cinco" com a mão.
 
-## O que fazer diferente (identidade própria do Leo)
-- Cores a partir do partido + da cidade (bandeira/brasão), validadas com contraste.
-- Símbolos tirados da cidade (pesquisa: marcos, natureza, cultura, apelidos locais).
-- Monograma "L" ou "LP" próprio, slogan e hashtags novos.
-- Fotos reais do Leo, nunca ilustração no lugar dele.
+## Leitura estratégica
+- As cores do Solidariedade (laranja e azul) já aparecem nas fotos, junto com o amarelo. A paleta nasce delas.
+- A bola e o punho erguido sugerem esporte, juventude e energia. É um vereador perto do povo.
+- O 77333 tem repetição (77 e 333), o que facilita memorizar. Pode virar grafismo.
+- **A pesquisar e validar com o Lindson:**
+  - símbolos de São João Batista, na Baixada Maranhense: campos alagados, lagos, pesca, São João, bumba-meu-boi, igreja matriz e bandeira do município;
+  - bairros e povoados fortes;
+  - causas do mandato;
+  - se a campanha de 2028 usará o mesmo partido e número.
 
-## Entradas pendentes (pedir ao Lindson)
-1. Partido e número de urna.
-2. Cidade: **São João Batista – MA** (recebida). Falta: bairros/povoados fortes.
-3. Fotos do Leo: 30 baixadas do álbum do Google Fotos para `fotos/` (fora do Git). Falta: fotos da cidade.
-4. Bandeiras/causas principais e se é reeleição ou primeira campanha.
+## Referência enviada (estrutura, não copiar)
+A campanha "Bruno Marques 40111" traz:
+- monograma;
+- logo em várias versões;
+- paleta com CMYK e RGB;
+- 15 ícones redondos;
+- grafismos regionais;
+- faixa de slogan;
+- bandeira, boné, botons, camiseta, adesivo de carro e adesivo.
+
+## Direção
+- Identidade própria: laranja, azul e amarelo.
+- Símbolos de São João Batista e da Baixada, no lugar dos cactos e do sol do Sertão.
+- Fotos reais do Leo, recortadas.
+- Respeitar as regras do TSE: número e partido em destaque, sem pedir voto fora do período de campanha.
 
 ## Time
-Pesquisa na internet (cidade, partido, regras do TSE para material), brand-squad (Xquads), Donald Miller (slogan/mensagem), copy-squad (hashtags/frases).
+- Pesquisa na internet: cidade, partido e TSE.
+- brand-squad: logo e sistema.
+- Donald Miller: mensagem e slogan.
+- copy-squad: hashtags e frases.
 
 ## Entregas
-Manual de identidade (página/PDF 4:5) + mockups das aplicações. PDF também entra na página de downloads.
+- Manual de identidade (PDF 4:5), mockups das aplicações e versões do logo.
+- O PDF também vai para a página de downloads.
