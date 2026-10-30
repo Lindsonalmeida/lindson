@@ -103,27 +103,28 @@ textarea{min-height:80px;resize:vertical}
 .fotos div{aspect-ratio:4/5;border-radius:10px;border:1px dashed var(--linha);display:grid;place-items:center;text-align:center;color:var(--apagado);font-size:12px;padding:10px;background:var(--painel2)}
 .fase{border-left:3px solid var(--amarelo);padding:4px 0 4px 14px;display:grid;gap:4px}
 @media (max-width:760px){.bom-dia{flex-wrap:wrap}.bom-dia .xp{margin-left:0;text-align:left}}
-.promo{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.4fr);border:1px solid rgba(245,197,24,.3);border-radius:16px;overflow:hidden;min-height:300px;
-  background:radial-gradient(50% 80% at 20% 60%,rgba(245,197,24,.22),transparent 70%),linear-gradient(90deg,#0d0b05,#0B0B0C 55%)}
-.promo .eu{position:relative;min-height:300px}
-.promo .eu img{position:absolute;left:50%;bottom:0;height:100%;transform:translateX(-50%);object-fit:contain;
-  -webkit-mask-image:linear-gradient(to bottom,#000 70%,transparent 100%),linear-gradient(to right,transparent 0,#000 18%,#000 82%,transparent);-webkit-mask-composite:source-in;
-  mask-image:linear-gradient(to bottom,#000 70%,transparent 100%),linear-gradient(to right,transparent 0,#000 18%,#000 82%,transparent);mask-composite:intersect}
-.promo .eu .nome{position:absolute;left:0;right:0;bottom:16px;text-align:center;z-index:2}
-.promo .eu .nome small{display:block;font:500 10px var(--f-dado);letter-spacing:.4em;color:var(--texto)}
-.promo .eu .nome b{font:900 clamp(26px,2.6vw,38px)/1 var(--f-titulo);color:var(--amarelo);text-transform:uppercase;text-shadow:0 4px 18px #000}
-.promo .vit{position:relative;overflow:hidden;padding:0}
+.promo{position:relative;height:230px;border:1px solid var(--linha);border-radius:14px;overflow:hidden;
+  background:radial-gradient(40% 90% at 50% 40%,rgba(245,197,24,.16),transparent 70%),
+  linear-gradient(rgba(245,197,24,.045) 1px,transparent 1px) 0 0/40px 40px,linear-gradient(90deg,rgba(245,197,24,.045) 1px,transparent 1px) 0 0/40px 40px,#070707}
+.promo .marca2{position:absolute;z-index:3;top:14px;left:18px;display:flex;align-items:center;gap:8px;font:500 10px var(--f-dado);letter-spacing:.3em;text-transform:uppercase}
+.promo .marca2 i{width:16px;height:2px;background:var(--amarelo)}
+.promo .contr{position:absolute;z-index:3;top:10px;right:12px;padding:6px 12px;font-size:11px;letter-spacing:.06em;text-transform:uppercase}
 .promo .trilho2{display:flex;height:100%;transition:transform .9s cubic-bezier(.7,0,.2,1)}
-.promo .sl{flex:0 0 100%;box-sizing:border-box;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.9fr);gap:18px;align-items:center;padding:22px 22px 60px}
-.promo .sl .ey{font:500 10px var(--f-dado);letter-spacing:.24em;color:var(--amarelo);text-transform:uppercase}
-.promo .sl h3{margin:6px 0 8px;font:800 clamp(24px,2.4vw,36px)/.95 var(--f-titulo);text-transform:uppercase}
-.promo .sl h3 em{font-style:normal;color:var(--amarelo)}
-.promo .sl p{margin:0;color:#C9C5BA;font-size:13px;line-height:1.5}
-.promo .sl .mat{aspect-ratio:16/10;border-radius:10px;background-size:cover;background-position:top center;border:1px solid var(--linha);box-shadow:0 20px 40px rgba(0,0,0,.6)}
-.promo .rodape2{position:absolute;left:22px;right:22px;bottom:14px;display:flex;align-items:center;gap:6px}
-.promo .rodape2 i{flex:1;height:3px;border-radius:3px;background:rgba(243,240,230,.15)}.promo .rodape2 i.on{background:var(--amarelo)}
-.promo .rodape2 a{margin-left:10px;white-space:nowrap}
-@media (max-width:900px){.promo{grid-template-columns:minmax(0,1fr)}.promo .eu{min-height:260px}.promo .sl{grid-template-columns:minmax(0,1fr)}.promo .sl .mat{display:none}}
+.promo .sl{flex:0 0 100%;position:relative;box-sizing:border-box;height:100%}
+.promo .sl.eu img{position:absolute;left:50%;bottom:0;height:96%;transform:translateX(-50%);
+  -webkit-mask-image:linear-gradient(to bottom,#000 62%,transparent 100%),linear-gradient(to right,transparent 0,#000 18%,#000 82%,transparent);-webkit-mask-composite:source-in;
+  mask-image:linear-gradient(to bottom,#000 62%,transparent 100%),linear-gradient(to right,transparent 0,#000 18%,#000 82%,transparent);mask-composite:intersect}
+.promo .sl.eu .nome{position:absolute;left:0;right:0;bottom:26px;text-align:center}
+.promo .sl.eu small{display:block;font:500 9px var(--f-dado);letter-spacing:.45em;text-shadow:0 2px 8px #000}
+.promo .sl.eu b{font:900 30px/1 var(--f-titulo);letter-spacing:.02em;color:var(--amarelo);text-transform:uppercase;text-shadow:0 4px 16px #000}
+.promo .sl.caso2{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,auto);gap:20px;align-items:center;padding:40px 22px 30px}
+.promo .ey{font:500 10px var(--f-dado);letter-spacing:.24em;color:var(--amarelo);text-transform:uppercase}
+.promo h3{margin:4px 0 6px;font:800 28px/.95 var(--f-titulo);text-transform:uppercase}.promo h3 em{font-style:normal;color:var(--amarelo)}
+.promo p{margin:0;color:#C9C5BA;font-size:13px;line-height:1.45;max-width:52ch}
+.promo .mat{height:128px;margin-top:14px;aspect-ratio:16/10;border-radius:10px;background-size:cover;background-position:top center;border:1px solid rgba(245,197,24,.18);box-shadow:0 18px 40px rgba(0,0,0,.6)}
+.promo .barras{position:absolute;z-index:3;left:18px;right:18px;bottom:10px;display:flex;gap:6px}
+.promo .barras i{flex:1;height:3px;border-radius:3px;background:rgba(243,240,230,.15)}.promo .barras i.on{background:var(--amarelo)}
+@media (max-width:760px){.promo{height:250px}.promo .mat{display:none}.promo .sl.caso2{grid-template-columns:minmax(0,1fr);padding:44px 16px 26px}.promo h3{font-size:24px}.promo .contr{display:none}}
 .toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--amarelo);color:#0A0A0A;font-weight:700;padding:10px 16px;border-radius:10px;opacity:0;transition:opacity .25s;pointer-events:none;z-index:20}
 .toast.on{opacity:1}
 @media (max-width:1100px){.g4{grid-template-columns:repeat(2,minmax(0,1fr))}.g3,.g21{grid-template-columns:minmax(0,1fr)}}
@@ -233,10 +234,12 @@ const PROMO=[['Conheça um dos nossos clientes','Rafael <em>Imports</em>','Mini 
  ['Conheça um dos nossos clientes','Desentupidora <em>SF</em>','Mini site para quem tem urgência: orçamento no WhatsApp e ligação em um toque.','__SF1__'],
  ['Conheça um dos nossos projetos','Passaporte da <em>Bíblia</em>','Canal que explica a Bíblia como viagem: vídeos animados, Shorts diários e produto digital.','__PASSAPORTE1__'],
  ['Conheça um dos nossos projetos','Raposa e <em>Leão</em>','Canal sobre Maquiavel e as leis do poder aplicadas a liderança, negócios e relações.','__RAPOSA1__']];
-function promo(){return `<section class="promo" aria-label="Lindson Almeida, estrategista digital"><div class="eu"><img src="__CINE__" alt="Lindson Almeida"><div class="nome"><small>ESTRATEGISTA DIGITAL</small><b>Lindson Almeida</b></div></div>
- <div class="vit"><div class="trilho2" id="trilho2">${PROMO.map(([e,h,p,m])=>`<div class="sl"><div><span class="ey">${e}</span><h3>${h}</h3><p>${p}</p></div><div class="mat" style="background-image:url(${m})"></div></div>`).join('')}</div>
- <div class="rodape2">${PROMO.map((_,k)=>`<i data-k="${k}"></i>`).join('')}<a class="btn am" href="https://wa.me/5598985621808?text=Oi%2C%20Lindson%21%20Quero%20indicar%20ou%20contratar%20um%20novo%20servi%C3%A7o." target="_blank" rel="noopener">Indicar ou contratar</a></div></div></section>`}
-let pi=0,pt=null;function giraPromo(){const t=document.getElementById('trilho2');if(!t)return;t.style.transform=`translateX(-${pi*100}%)`;document.querySelectorAll('.rodape2 i').forEach((x,k)=>x.classList.toggle('on',k===pi));clearTimeout(pt);pt=setTimeout(()=>{pi=(pi+1)%PROMO.length;giraPromo()},6000)}
+function promo(){return `<section class="promo" aria-label="Lindson Almeida, estrategista digital"><div class="marca2"><i></i>Lindson Almeida</div>
+ <a class="btn am contr" href="https://wa.me/5598985621808?text=Oi%2C%20Lindson%21%20Quero%20indicar%20ou%20contratar%20um%20servi%C3%A7o." target="_blank" rel="noopener">Indicar ou contratar</a>
+ <div class="trilho2" id="trilho2"><div class="sl eu"><img src="__CINE__" alt="Lindson Almeida"><div class="nome"><small>ESTRATEGISTA DIGITAL</small><b>Lindson Almeida</b></div></div>
+ ${PROMO.map(([e,h,p,m])=>`<div class="sl caso2"><div><span class="ey">${e}</span><h3>${h}</h3><p>${p}</p></div><div class="mat" style="background-image:url(${m})"></div></div>`).join('')}</div>
+ <div class="barras">${[0,...PROMO].map((_,k)=>`<i></i>`).join('')}</div></section>`}
+let pi=0,pt=null;function giraPromo(){const t=document.getElementById('trilho2');if(!t)return;t.style.transform=`translateX(-${pi*100}%)`;document.querySelectorAll('.promo .barras i').forEach((x,k)=>x.classList.toggle('on',k===pi));clearTimeout(pt);pt=setTimeout(()=>{pi=(pi+1)%(PROMO.length+1);giraPromo()},6000)}
 const V={
 missoes(){const m=MISSOES[cli],l=lista(),tot=m.reduce((a,x)=>a+x[1],0),p=pontos(),dias=Object.keys(feitas).filter(k=>k.startsWith(cli+':')&&feitas[k].length).length;
  const med=[['🔥','Primeira missão',p>0],['⭐','Dia completo',l.length===m.length],['🏅','3 dias ativos',dias>=3],['👑','7 dias ativos',dias>=7]];
