@@ -69,7 +69,7 @@ tr:last-child td{border-bottom:0}
 svg.graf{width:100%;height:auto;display:block}
 .legenda{display:flex;gap:14px;flex-wrap:wrap;color:var(--apagado);font-size:12px}.legenda i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px;vertical-align:-1px}
 /* aprovações */
-.posts{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}
+.posts{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:14px}
 .post{border:1px solid var(--linha);border-radius:12px;overflow:hidden;background:var(--painel2);display:flex;flex-direction:column}
 .post .img{aspect-ratio:4/5;background:linear-gradient(135deg,#2a2412,#0f0f10);display:grid;place-items:center;color:var(--amarelo);font:800 22px var(--f-titulo);text-align:center;padding:16px;text-transform:uppercase}
 .post .c{padding:12px;display:grid;gap:8px}.post .acoes{display:flex;gap:8px}.post .acoes .btn{flex:1;padding:8px}
@@ -216,8 +216,7 @@ conteudos(){const sub=window._sub||'datas';const D={
  carrosseis:[['5 erros que fazem você perder clientes','aprovado'],['Antes de comprar, veja isso','em revisão'],['Perguntas que mais recebemos','em produção']],
  reels:[['Bastidores da semana','aprovado'],['Um dia com a equipe','em produção'],['Responda em 30 segundos: dúvida do cliente','ideia']]};
  const bt=k=>`<button aria-pressed="${sub===k}" data-sub="${k}">${{datas:'Datas comemorativas',carrosseis:'Carrosséis',reels:'Reels'}[k]}</button>`;
- const corpo=sub==='datas'?`<div class="tab"><table><thead><tr><th>Data</th><th>Data comemorativa</th><th>Ideia de conteúdo</th></tr></thead><tbody>${D.datas.map(r=>`<tr>${r.map(c=>`<td>${c}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`
-  :`<div class="posts">${D[sub].map(([t,st])=>`<div class="post"><div class="img" style="aspect-ratio:${sub==='reels'?'9/16':'4/5'}">${t}</div><div class="c"><div style="display:flex;justify-content:space-between;gap:8px"><b>${sub==='reels'?'Reels':'Carrossel'}</b>${chip(st)}</div></div></div>`).join('')}</div>`;
+ const corpo=`<div class="posts">${sub==='datas'?D.datas.map(([d,n,ideia])=>`<div class="post"><div class="img" style="aspect-ratio:4/5;flex-direction:column;gap:8px;display:flex;justify-content:center"><span style="font:500 13px var(--f-dado);letter-spacing:.2em;color:var(--apagado)">${d}</span>${n}</div><div class="c"><b>Data comemorativa</b><span style="color:var(--apagado);font-size:12.5px">${ideia}</span></div></div>`).join(''):D[sub].map(([t,st])=>`<div class="post"><div class="img" style="aspect-ratio:${sub==='reels'?'9/16':'4/5'}">${t}</div><div class="c"><div style="display:flex;justify-content:space-between;gap:8px"><b>${sub==='reels'?'Reels':'Carrossel'}</b>${chip(st)}</div></div></div>`).join('')}</div>`;
  return `<div class="card"><h3>Conteúdos</h3><p class="sub">Tudo que está sendo produzido para você.</p><div class="subabas" style="margin-bottom:14px">${bt('datas')+bt('carrosseis')+bt('reels')}</div>${corpo}</div>`},
 fotos(){return `<div class="grade g21"><div class="card"><h3>Banco de fotos</h3><p class="sub">Suas fotos usadas nos conteúdos. Cada foto vira no máximo um post.</p><div class="fotos">${['Foto do espaço','Equipe','Produto em destaque','Bastidor','Cliente atendido (com autorização)','Fachada'].map(t=>`<div>${t}<br>· aguardando envio ·</div>`).join('')}</div></div>
  <div class="card"><h3>Enviar fotos</h3><p class="sub">Mande fotos boas, na vertical, com luz natural. Sem marca de outras empresas.</p><button class="btn am" data-toast="Envio de fotos liga quando o sistema estiver no ar">Enviar fotos</button><p class="sub" style="margin-top:14px">Dica: 1 foto por dia já mantém seu conteúdo cheio para o mês todo.</p></div></div>`},
