@@ -101,3 +101,9 @@
     - **Onde ficam os códigos completos:** em `agencia/sistema-clientes/privado/codigos-acesso.json`, **fora do GitHub**. Noutra conta, peça ao Lindson.
     - **Na página:** só aparece o resumo SHA-256 de cada código, nunca o código em si.
     - **No sistema real:** o código é conferido no servidor, usado uma vez por pessoa ou com limite, e pode ser trocado a qualquer momento.
+15. **Materiais e contato (30/10).**
+    - Ao lado da explicação de cada cliente e projeto entram os **materiais produzidos**:
+      - nos sites, 3 telas do mini site em celulares;
+      - nos canais, uma capa grande e 3 menores.
+    - **Botão "Quero contratar"** fixo no topo da vitrine, abrindo o WhatsApp do Lindson com mensagem pronta.
+    - `README.md` criado para outras equipes continuarem.
