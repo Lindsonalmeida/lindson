@@ -1,160 +1,238 @@
+<meta charset="utf-8">
 <title>Central Lindson Almeida</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Exo+2:wght@300;400;600&family=Share+Tech+Mono&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800;900&family=Manrope:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
-/* Layout: banner épico em duas metades — o estrategista à esquerda, envolto em órbitas; o título e o acesso à direita, sobre um campo de estrelas em movimento. Visual único escuro, por escolha. */
+/* Layout: duas colunas sóbrias. À esquerda, uma vitrine que desliza para o lado (cartaz do estrategista, depois clientes e projetos reais); à direita, o acesso, preto sólido com um único detalhe em amarelo. Visual único escuro, por escolha. */
 :root{
-  --espaco:#03040B;      /* fundo do vácuo */
-  --nebulosa:#16113A;    /* roxo profundo */
-  --holo:#46E6FF;        /* ciano holográfico */
-  --ouro:#F5C542;        /* ouro do título */
-  --texto:#E9EEFF;
-  --apagado:#8A93B8;
-  --vidro:rgba(14,18,40,.62);
-  --linha:rgba(70,230,255,.22);
-  --f-titulo:'Orbitron','Arial Black',system-ui,sans-serif;
-  --f-corpo:'Exo 2',system-ui,sans-serif;
-  --f-dado:'Share Tech Mono',ui-monospace,monospace;
+  --preto:#09090A;       /* fundo */
+  --carvao:#131314;      /* painéis */
+  --amarelo:#F5C518;     /* acento premium */
+  --amarelo2:#FFDD55;
+  --texto:#F3F0E6;
+  --apagado:#8E8B83;
+  --linha:rgba(245,197,24,.16);
+  --linha2:rgba(243,240,230,.10);
+  --f-titulo:'Big Shoulders Display','Arial Narrow',Impact,sans-serif;
+  --f-corpo:'Manrope',system-ui,sans-serif;
+  --f-dado:'IBM Plex Mono',ui-monospace,monospace;
   color-scheme:dark;
 }
 html,body{height:100%;overflow-x:clip}
-body{background:var(--espaco);color:var(--texto);font-family:var(--f-corpo);overflow-x:hidden}
-#estrelas{position:fixed;inset:0;width:100%;height:100%;z-index:0;display:block}
-.grade{position:fixed;inset:0;z-index:1;pointer-events:none;background-image:linear-gradient(rgba(70,230,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(70,230,255,.05) 1px,transparent 1px);background-size:56px 56px;-webkit-mask-image:radial-gradient(70% 80% at 30% 50%,#000,transparent);mask-image:radial-gradient(70% 80% at 30% 50%,#000,transparent)}
-.nebulosa{position:fixed;inset:-20%;z-index:0;pointer-events:none;
-  background:radial-gradient(40% 35% at 25% 40%,rgba(90,60,220,.35),transparent 70%),
-             radial-gradient(35% 30% at 78% 70%,rgba(70,230,255,.16),transparent 70%),
-             radial-gradient(30% 25% at 70% 15%,rgba(245,197,66,.10),transparent 70%);
-  animation:deriva 40s ease-in-out infinite alternate}
-@keyframes deriva{to{transform:translate(3%,-2%) scale(1.08) rotate(3deg)}}
+body{background:var(--preto);color:var(--texto);font-family:var(--f-corpo)}
+.tela{height:100%;min-height:600px;display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr)}
 
+/* ---------- Vitrine (carrossel) ---------- */
+.vitrine{position:relative;overflow:hidden;background:#000;border-right:1px solid var(--linha2);height:100%;min-width:0}
+.trilho{display:flex;height:100%;transition:transform 1.1s cubic-bezier(.7,0,.2,1)}
+.slide{position:relative;flex:0 0 100%;width:100%;min-width:0;height:100%;overflow:hidden;box-sizing:border-box}
+.marca{position:absolute;z-index:6;top:calc(28px + env(safe-area-inset-top,0px));left:max(32px,env(safe-area-inset-left,0px));display:flex;align-items:center;gap:10px;font:500 12px var(--f-dado);letter-spacing:.32em;text-transform:uppercase;color:var(--texto)}
+.marca i{width:22px;height:2px;background:var(--amarelo)}
 
-/* Palco principal */
-.palco{position:relative;z-index:2;min-height:100%;display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);align-items:center;gap:clamp(16px,4vw,64px);
-  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:32px;max-width:1280px;margin:0 auto;
-  opacity:0;transform:translateY(16px);transition:opacity 1.2s ease,transform 1.2s ease}
-.palco.on{opacity:1;transform:none}
-.heroi{position:relative;align-self:stretch;min-height:min(86vh,820px);display:grid;place-items:end center}
-.planeta{position:absolute;left:50%;bottom:-62%;width:150%;aspect-ratio:1;transform:translateX(-50%);border-radius:50%;
-  background:radial-gradient(circle at 50% 0%,rgba(70,230,255,.35),rgba(22,17,58,.9) 18%,#03040B 45%);box-shadow:0 -6px 40px rgba(70,230,255,.45),inset 0 8px 30px rgba(70,230,255,.35)}
-.aura{position:absolute;left:50%;top:6%;width:80%;aspect-ratio:1;transform:translateX(-50%);border-radius:50%;
-  background:radial-gradient(circle,rgba(245,197,66,.28),rgba(245,140,40,.10) 40%,transparent 68%);filter:blur(6px);animation:pulso 6s ease-in-out infinite}
-@keyframes pulso{50%{opacity:.7;transform:translateX(-50%) scale(1.05)}}
-.feixe{position:absolute;left:-10%;right:-10%;top:30%;height:2px;background:linear-gradient(90deg,transparent,rgba(70,230,255,.0) 15%,rgba(160,240,255,.9) 50%,rgba(70,230,255,0) 85%,transparent);
-  box-shadow:0 0 22px 4px rgba(70,230,255,.35);opacity:.55;transform:rotate(-8deg);mix-blend-mode:screen}
-.foto{position:relative;z-index:1;width:min(560px,96%);aspect-ratio:760/1183;max-width:100%;
-  background:url(__FOTO__) center bottom/contain no-repeat;
-  -webkit-mask-image:linear-gradient(to bottom,#000 70%,transparent 99%),linear-gradient(to right,transparent 0,#000 14%,#000 86%,transparent 100%);-webkit-mask-composite:source-in;
-  mask-image:linear-gradient(to bottom,#000 70%,transparent 99%),linear-gradient(to right,transparent 0,#000 14%,#000 86%,transparent 100%);mask-composite:intersect;
-  filter:contrast(1.08) saturate(.95) drop-shadow(-4px -2px 18px rgba(70,230,255,.32)) drop-shadow(6px -4px 22px rgba(245,170,60,.26))}
-.creditos{position:absolute;z-index:2;bottom:4%;left:0;right:0;text-align:center;font:400 11px/1.7 var(--f-dado);letter-spacing:.32em;color:var(--apagado);text-transform:uppercase}
-.creditos b{color:var(--holo);font-weight:400}
-.lado{display:grid;gap:28px;min-width:0}
-.eyebrow{font:400 13px var(--f-dado);letter-spacing:.42em;color:var(--holo);text-transform:uppercase}
-h1{margin:0;font:700 clamp(36px,5.4vw,76px)/1 var(--f-titulo);letter-spacing:.08em;text-transform:uppercase;text-wrap:balance;
-  background:linear-gradient(180deg,#FFF6CF 0%,var(--ouro) 45%,#B9821A 100%);-webkit-background-clip:text;background-clip:text;color:transparent;
-  filter:drop-shadow(0 0 22px rgba(245,197,66,.35))}
-.cargo{display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;font:600 clamp(16px,1.6vw,20px) var(--f-corpo);letter-spacing:.24em;text-transform:uppercase}
-.cargo .arroba{font:400 15px var(--f-dado);letter-spacing:.08em;text-transform:none;color:var(--holo)}
-.sabre{height:3px;width:min(340px,100%);border-radius:3px;background:linear-gradient(90deg,transparent,var(--holo) 12%,#fff 50%,var(--holo) 88%,transparent);box-shadow:0 0 18px var(--holo),0 0 4px #fff;animation:sabre 2.4s ease-in-out infinite alternate;transform-origin:left}
-@keyframes sabre{from{opacity:.75;transform:scaleX(.96)}to{opacity:1;transform:scaleX(1)}}
+/* Slide 1: cartaz de cinema */
+.cartaz{background:radial-gradient(60% 55% at 58% 42%,rgba(245,197,24,.20),transparent 70%),radial-gradient(40% 40% at 20% 85%,rgba(245,150,24,.10),transparent 70%),#050505}
+.estrelas{position:absolute;inset:0;opacity:.55}
+.ceu{position:absolute;left:50%;top:-4%;width:min(78%,680px);transform:translateX(-50%);opacity:.22;filter:grayscale(.2) sepia(.5) saturate(1.4) hue-rotate(-12deg) brightness(1.1);
+  -webkit-mask-image:linear-gradient(to bottom,#000 30%,transparent 88%);mask-image:linear-gradient(to bottom,#000 30%,transparent 88%);mix-blend-mode:screen}
+.feixe{position:absolute;left:-20%;right:-20%;top:46%;height:3px;transform:rotate(-14deg);background:linear-gradient(90deg,transparent,rgba(245,197,24,.0) 20%,#FFE58A 50%,rgba(245,197,24,0) 80%,transparent);box-shadow:0 0 30px 6px rgba(245,197,24,.35);opacity:.65}
+.pessoa{position:absolute;bottom:0;filter:drop-shadow(0 0 18px rgba(245,197,24,.18)) drop-shadow(-8px 0 24px rgba(0,0,0,.6))}
+.pessoa img{display:block;width:100%;height:auto;-webkit-mask-image:linear-gradient(to bottom,#000 70%,transparent 100%),linear-gradient(to right,transparent 0,#000 12%,#000 88%,transparent 100%);-webkit-mask-composite:source-in;mask-image:linear-gradient(to bottom,#000 70%,transparent 100%),linear-gradient(to right,transparent 0,#000 12%,#000 88%,transparent 100%);mask-composite:intersect}
+.p-esq{left:2%;width:30%;bottom:12%;filter:brightness(.55) contrast(1.05) drop-shadow(0 0 14px rgba(245,197,24,.2))}
+.p-fundo{left:22%;width:24%;bottom:22%;filter:brightness(.38) blur(.4px)}
+.p-dir{right:1%;width:31%;bottom:10%;filter:brightness(.6) contrast(1.05) drop-shadow(0 0 14px rgba(245,197,24,.2))}
+.p-centro{left:50%;width:min(44%,440px);transform:translateX(-50%);bottom:14%;filter:contrast(1.06) drop-shadow(0 0 26px rgba(245,197,24,.28)) drop-shadow(0 -2px 2px rgba(255,221,85,.35))}
+.titulo-cartaz{position:absolute;z-index:4;left:0;right:0;bottom:calc(64px + env(safe-area-inset-bottom,0px));text-align:center;padding-inline:24px}
+.titulo-cartaz .pre{font:500 12px var(--f-dado);letter-spacing:.5em;color:var(--amarelo);text-transform:uppercase}
+.titulo-cartaz h1{margin:.12em 0 0;font:900 clamp(44px,6vw,96px)/.86 var(--f-titulo);letter-spacing:.04em;text-transform:uppercase;
+  background:linear-gradient(180deg,#FFF3C2 0%,var(--amarelo2) 35%,var(--amarelo) 62%,#9C7408 100%);-webkit-background-clip:text;background-clip:text;color:transparent;
+  filter:drop-shadow(0 4px 0 rgba(0,0,0,.6)) drop-shadow(0 0 30px rgba(245,197,24,.25))}
+.titulo-cartaz .credito{margin-top:12px;font:500 11px/1.7 var(--f-dado);letter-spacing:.34em;color:var(--apagado);text-transform:uppercase}
+.titulo-cartaz .credito b{color:var(--texto);font-weight:500}
+.sombra-base{position:absolute;inset:auto 0 0 0;height:46%;background:linear-gradient(to top,#050505 18%,rgba(5,5,5,.85) 45%,transparent);z-index:3}
 
-.cartao{background:var(--vidro);border:1px solid var(--linha);border-radius:18px;padding:clamp(20px,3vw,32px);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
-  box-shadow:0 30px 80px rgba(0,0,0,.5),inset 0 1px 0 rgba(255,255,255,.06);display:grid;gap:18px;max-width:440px}
-.cartao h2{margin:0;font:900 clamp(22px,2.4vw,30px)/1.1 var(--f-titulo);letter-spacing:.04em;text-transform:uppercase}
-.cartao p.sub{margin:-8px 0 0;color:var(--apagado);font-size:14px;line-height:1.5}
-.campo{display:grid;gap:6px}
-.campo label{font:400 12px var(--f-dado);letter-spacing:.2em;text-transform:uppercase;color:var(--apagado)}
-.campo input{width:100%;box-sizing:border-box;background:rgba(3,4,11,.6);border:1px solid var(--linha);border-radius:10px;color:var(--texto);font:400 16px var(--f-corpo);padding:13px 14px;transition:border-color .2s,box-shadow .2s}
-.campo input:focus{outline:none;border-color:var(--holo);box-shadow:0 0 0 3px rgba(70,230,255,.18)}
+/* Slides de clientes e projetos */
+.caso{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.9fr);align-items:center;gap:clamp(20px,4vw,56px);padding:calc(96px + env(safe-area-inset-top,0px)) clamp(24px,5vw,72px) 96px;
+  background:radial-gradient(50% 60% at 80% 50%,rgba(245,197,24,.10),transparent 70%),#070707}
+.caso .info{display:grid;gap:18px;min-width:0}
+.caso .eyebrow{font:500 12px var(--f-dado);letter-spacing:.3em;text-transform:uppercase;color:var(--amarelo)}
+.caso h2{margin:0;font:800 clamp(40px,5.2vw,78px)/.9 var(--f-titulo);text-transform:uppercase;letter-spacing:.02em;text-wrap:balance}
+.caso p{margin:0;max-width:44ch;color:#C9C5BA;font-size:clamp(15px,1.15vw,17px);line-height:1.6}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips span{border:1px solid var(--linha);color:var(--texto);border-radius:99px;padding:6px 12px;font:500 12px var(--f-corpo)}
+.caso .link{font:500 13px var(--f-dado);color:var(--apagado);letter-spacing:.04em}
+.caso .link b{color:var(--amarelo);font-weight:500}
+.celular{justify-self:center;width:min(270px,100%);aspect-ratio:9/19;border-radius:38px;padding:10px;background:#1A1A1C;border:1px solid #2A2A2D;box-shadow:0 40px 90px rgba(0,0,0,.7),0 0 0 1px rgba(245,197,24,.08),inset 0 0 0 2px #0E0E10;transform:rotate(4deg)}
+.celular div{width:100%;height:100%;border-radius:30px;background-size:cover;background-position:top center}
+.tela169{justify-self:center;width:100%;max-width:520px;aspect-ratio:16/9;border-radius:14px;background-size:cover;background-position:center;border:1px solid #2A2A2D;box-shadow:0 40px 90px rgba(0,0,0,.7);transform:rotate(-2deg)}
+
+/* Controles da vitrine */
+.controles{position:absolute;z-index:7;left:max(32px,env(safe-area-inset-left,0px));right:32px;bottom:calc(18px + env(safe-area-inset-bottom,0px));display:flex;gap:8px}
+.controles button{flex:1;height:22px;background:none;border:0;padding:9px 0;cursor:pointer}
+.controles button span{display:block;height:3px;border-radius:3px;background:rgba(243,240,230,.18);overflow:hidden}
+.controles button span i{display:block;height:100%;width:0;background:var(--amarelo)}
+.controles button.ativo span i{animation:carga var(--tempo,7s) linear forwards}
+.controles button.feito span i{width:100%}
+.vitrine.pausa .controles button.ativo span i{animation-play-state:paused}
+@keyframes carga{to{width:100%}}
+.controles button:focus-visible{outline:2px solid var(--amarelo);outline-offset:2px;border-radius:4px}
+
+/* ---------- Acesso ---------- */
+.acesso{display:grid;align-content:center;justify-items:center;background:var(--carvao);padding-block:48px;padding-left:max(24px,env(safe-area-inset-left,0px));padding-right:max(24px,env(safe-area-inset-right,0px));position:relative}
+.acesso::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--amarelo),transparent 70%)}
+.form{width:100%;max-width:400px;display:grid;gap:22px}
+.form .topo{display:grid;gap:8px}
+.form .rot{font:500 12px var(--f-dado);letter-spacing:.3em;text-transform:uppercase;color:var(--amarelo)}
+.form h2{margin:0;font:800 clamp(34px,3.2vw,46px)/.95 var(--f-titulo);letter-spacing:.02em;text-transform:uppercase}
+.form .sub{margin:0;color:var(--apagado);font-size:15px;line-height:1.5}
+.campo{display:grid;gap:8px}
+.linha{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.campo label{font:600 12px var(--f-corpo);letter-spacing:.14em;text-transform:uppercase;color:#BDB9AE}
+.linha a{font-size:13px;color:var(--apagado);text-decoration:none}.linha a:hover,.linha a:focus-visible{color:var(--amarelo)}
+.campo input{width:100%;box-sizing:border-box;background:#0C0C0D;border:1px solid #2A2A2D;border-radius:10px;color:var(--texto);font:500 16px var(--f-corpo);padding:14px 16px;transition:border-color .2s,box-shadow .2s}
+.campo input::placeholder{color:#5D5B56}
+.campo input:focus{outline:none;border-color:var(--amarelo);box-shadow:0 0 0 3px rgba(245,197,24,.15)}
 .senha{position:relative}
-.senha button{position:absolute;right:8px;top:50%;transform:translateY(-50%);background:none;border:0;color:var(--apagado);font:400 12px var(--f-dado);letter-spacing:.1em;cursor:pointer;padding:6px}
-.senha button:focus-visible{outline:2px solid var(--holo);border-radius:6px}
-.entrar{position:relative;overflow:hidden;border:0;border-radius:10px;padding:15px;font:700 15px var(--f-titulo);letter-spacing:.24em;text-transform:uppercase;cursor:pointer;color:#05060E;
-  background:linear-gradient(90deg,var(--ouro),#FFE38A,var(--ouro));box-shadow:0 0 24px rgba(245,197,66,.35)}
-.entrar::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,transparent 30%,rgba(255,255,255,.7) 50%,transparent 70%);transform:translateX(-100%);animation:brilho 3.5s ease-in-out infinite}
-@keyframes brilho{60%,100%{transform:translateX(100%)}}
-.entrar:focus-visible{outline:3px solid var(--holo);outline-offset:3px}
-.rotulo{display:flex;justify-content:space-between;align-items:baseline;gap:8px}.rotulo a{font-size:13px;color:var(--apagado);text-decoration:none}.rotulo a:hover,.rotulo a:focus-visible{color:var(--holo)}
-.seguro{display:flex;justify-content:center;align-items:center;gap:8px;font-size:13px;color:var(--apagado)}.seguro i{width:8px;height:8px;border-radius:50%;background:#3BE38A;box-shadow:0 0 8px #3BE38A}
-.linha-baixo{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;font-size:13px;color:var(--apagado)}
-.linha-baixo a{color:var(--holo);text-decoration:none}
-.aviso{min-height:1.2em;font:400 13px/1.5 var(--f-dado);color:var(--holo)}
-.rodape{font:400 11px var(--f-dado);letter-spacing:.18em;color:var(--apagado);text-transform:uppercase}
+.senha button{position:absolute;right:8px;top:50%;transform:translateY(-50%);background:none;border:0;color:var(--apagado);cursor:pointer;padding:8px;display:grid}
+.senha button:focus-visible{outline:2px solid var(--amarelo);border-radius:6px}
+.entrar{display:flex;align-items:center;justify-content:center;gap:10px;border:0;border-radius:10px;padding:16px;background:var(--amarelo);color:#0A0A0A;font:700 15px var(--f-corpo);letter-spacing:.16em;text-transform:uppercase;cursor:pointer;transition:background .2s,transform .2s}
+.entrar:hover{background:var(--amarelo2)}.entrar:active{transform:translateY(1px)}
+.entrar:focus-visible{outline:3px solid #fff;outline-offset:3px}
+.seguro{display:flex;justify-content:center;align-items:center;gap:8px;font-size:13px;color:var(--apagado)}
+.seguro i{width:7px;height:7px;border-radius:50%;background:#37D67A;box-shadow:0 0 8px #37D67A}
+.aviso{min-height:1.3em;font:400 13px/1.5 var(--f-corpo);color:var(--amarelo2);text-align:center}
+.assina{position:absolute;bottom:calc(20px + env(safe-area-inset-bottom,0px));left:0;right:0;text-align:center;font:500 11px var(--f-dado);letter-spacing:.24em;color:#5D5B56;text-transform:uppercase}
 
-@media (max-width:860px){
-  .heroi{min-height:min(70vh,560px)}.foto{width:min(380px,88%)}.feixe{display:none}.aura{width:110%;top:0}
-  .palco{grid-template-columns:minmax(0,1fr);padding-block:20px 40px}
-  .heroi{min-height:auto;padding-top:8px}
-  .o1{width:min(420px,92vw)}.o2{width:min(330px,72vw)}
-  .foto{width:min(320px,74vw)}
-  .selo-hud{left:0;bottom:4%}
-  .lado{justify-items:start}
+@media (max-width:900px){
+  .tela{grid-template-columns:minmax(0,1fr)}
+  .vitrine{border-right:0;border-bottom:1px solid var(--linha2)}
+  .tela{height:auto}.vitrine{height:560px}
+  .p-fundo{display:none}.p-esq{width:34%;left:-4%}.p-dir{width:35%;right:-5%}.p-centro{width:56%}
+  .caso{grid-template-columns:minmax(0,1fr);padding:88px 24px 64px;align-content:start}
+  .celular{width:180px;transform:none}.tela169{max-width:360px;transform:none}
+  .caso .media{order:-1}
+  .acesso{padding-block:40px 64px}
 }
-@media (prefers-reduced-motion:reduce){
-  *,*::before,*::after{animation:none!important;transition:none!important}
-  .palco{opacity:1;transform:none}
-}
+@media (prefers-reduced-motion:reduce){.trilho{transition:none}.controles button.ativo span i{animation:none;width:100%}}
 </style>
 
-<canvas id="estrelas" aria-hidden="true"></canvas>
-<div class="nebulosa" aria-hidden="true"></div><div class="grade" aria-hidden="true"></div>
+<main class="tela">
+  <section class="vitrine" id="vitrine" aria-roledescription="carrossel" aria-label="Lindson Almeida, clientes e projetos">
+    <div class="marca"><i></i>Lindson Almeida</div>
+    <div class="trilho" id="trilho">
 
+      <article class="slide cartaz" aria-label="Lindson Almeida, estrategista digital">
+        <canvas class="estrelas" id="estrelas" aria-hidden="true"></canvas>
+        <img class="ceu" src="__F69__" alt="" aria-hidden="true">
+        <div class="feixe" aria-hidden="true"></div>
+        <div class="pessoa p-fundo" aria-hidden="true"><img src="__F71__" alt=""></div>
+        <div class="pessoa p-esq" aria-hidden="true"><img src="__F70__" alt=""></div>
+        <div class="pessoa p-dir" aria-hidden="true"><img src="__F72__" alt=""></div>
+        <div class="pessoa p-centro"><img src="__F68__" alt="Lindson Almeida"></div>
+        <div class="sombra-base" aria-hidden="true"></div>
+        <div class="titulo-cartaz">
+          <div class="pre">Estrategista digital</div>
+          <h1>Lindson Almeida</h1>
+          <div class="credito"><b>@lindsonalmeida_</b> · estratégia · conteúdo · tráfego · São Luís</div>
+        </div>
+      </article>
 
-<main class="palco" id="palco">
-  <section class="heroi" aria-label="Lindson Almeida">
-    <div class="aura" aria-hidden="true"></div>
-    <div class="foto" role="img" aria-label="Foto de Lindson Almeida"></div>
-    <div class="feixe" aria-hidden="true"></div>
+      <article class="slide caso" aria-label="Cliente Rafael Imports">
+        <div class="info">
+          <span class="eyebrow">Conheça um dos nossos clientes</span>
+          <h2>Rafael Imports</h2>
+          <p>Loja de celulares, acessórios e assistência em São Luís. Criamos o mini site da bio: cada cliente cai direto no WhatsApp do setor certo, seja loja ou assistência.</p>
+          <div class="chips"><span>Mini site</span><span>WhatsApp por setor</span><span>Identidade premium</span></div>
+          <span class="link">Veja ao vivo: <b>rafaelimports.pages.dev</b></span>
+        </div>
+        <div class="media"><div class="celular"><div style="background-image:url(__RAFAEL__)" role="img" aria-label="Mini site da Rafael Imports"></div></div></div>
+      </article>
+
+      <article class="slide caso" aria-label="Cliente Desentupidora SF">
+        <div class="info">
+          <span class="eyebrow">Conheça um dos nossos clientes</span>
+          <h2>Desentupidora SF</h2>
+          <p>Serviço de desentupimento em São Luís e Grande Ilha. O mini site leva quem tem urgência a pedir orçamento no WhatsApp ou ligar em um toque.</p>
+          <div class="chips"><span>Mini site</span><span>Orçamento no WhatsApp</span><span>Ligação em um toque</span></div>
+          <span class="link">Veja ao vivo: <b>desentupidorasf.pages.dev</b></span>
+        </div>
+        <div class="media"><div class="celular"><div style="background-image:url(__SF__)" role="img" aria-label="Mini site da Desentupidora SF"></div></div></div>
+      </article>
+
+      <article class="slide caso" aria-label="Projeto Passaporte da Bíblia">
+        <div class="info">
+          <span class="eyebrow">Conheça um dos nossos projetos</span>
+          <h2>Passaporte da Bíblia</h2>
+          <p>Canal no YouTube que explica a Bíblia como uma viagem, com gravuras clássicas animadas, narração própria e um produto digital para quem quer começar a ler.</p>
+          <div class="chips"><span>Canal no YouTube</span><span>Shorts e vídeos longos</span><span>Produto digital</span></div>
+          <span class="link">Canal: <b>@passaportedabiblia</b></span>
+        </div>
+        <div class="media"><div class="tela169" style="background-image:url(__PASSAPORTE__)" role="img" aria-label="Capa de vídeo do Passaporte da Bíblia"></div></div>
+      </article>
+
+      <article class="slide caso" aria-label="Projeto Raposa e Leão">
+        <div class="info">
+          <span class="eyebrow">Conheça um dos nossos projetos</span>
+          <h2>Raposa e Leão</h2>
+          <p>Canal que traduz Maquiavel e as leis do poder para a vida real: liderança, negócios e relações, com pinturas históricas e roteiros próprios.</p>
+          <div class="chips"><span>Canal no YouTube</span><span>Roteiro e edição</span><span>Estratégia de crescimento</span></div>
+          <span class="link">Canal: <b>@RaposaeLeao</b></span>
+        </div>
+        <div class="media"><div class="tela169" style="background-image:url(__RAPOSA__)" role="img" aria-label="Capa de vídeo do Raposa e Leão"></div></div>
+      </article>
+
+    </div>
+    <div class="controles" id="controles" role="tablist" aria-label="Escolher slide"></div>
   </section>
 
-  <section class="lado">
-    <span class="eyebrow">Central do cliente</span>
-    <h1>Lindson<br>Almeida</h1>
-    <div class="cargo"><span>Estrategista digital</span><span class="arroba">@lindsonalmeida_</span></div>
-    <div class="sabre" aria-hidden="true"></div>
-
-    <form class="cartao" id="login" novalidate>
-      <h2>Acessar painel</h2>
-      <p class="sub">Entre com sua conta para continuar.</p>
+  <section class="acesso">
+    <form class="form" id="login" novalidate>
+      <div class="topo">
+        <span class="rot">Central do cliente</span>
+        <h2>Acessar painel</h2>
+        <p class="sub">Entre com o login e a senha que você recebeu da nossa equipe.</p>
+      </div>
       <div class="campo"><label for="usuario">Login</label>
         <input id="usuario" name="usuario" autocomplete="username" placeholder="seu.login" required></div>
-      <div class="campo"><div class="rotulo"><label for="senha">Senha</label><a href="#login" id="esqueci">Esqueci minha senha</a></div>
+      <div class="campo"><div class="linha"><label for="senha">Senha</label><a href="#login" id="esqueci">Esqueci minha senha</a></div>
         <div class="senha"><input id="senha" name="senha" type="password" autocomplete="current-password" placeholder="••••••••" required>
-        <button type="button" id="ver" aria-label="Mostrar senha"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg></button></div></div>
+          <button type="button" id="ver" aria-label="Mostrar senha"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg></button></div></div>
       <button class="entrar" type="submit">Entrar <span aria-hidden="true">→</span></button>
       <div class="aviso" id="aviso" role="status" aria-live="polite"></div>
       <div class="seguro"><i></i>Conexão segura e criptografada</div>
     </form>
+    <div class="assina">Lindson Almeida · Estratégia digital</div>
   </section>
 </main>
 
 <script>
 (()=>{
 const reduz=matchMedia('(prefers-reduced-motion: reduce)').matches;
-// campo de estrelas em velocidade de cruzeiro, com leve paralaxe do mouse
-const cv=document.getElementById('estrelas'),cx=cv.getContext('2d');let W,H,ES=[],mx=0,my=0;
-function tam(){W=cv.width=innerWidth*devicePixelRatio;H=cv.height=innerHeight*devicePixelRatio;ES=Array.from({length:Math.min(900,Math.floor(W*H/2600))},nova)}
-function nova(){return{x:(Math.random()-.5)*W,y:(Math.random()-.5)*H,z:Math.random()*W,c:Math.random()<.08?'245,197,66':Math.random()<.2?'70,230,255':'233,238,255'}}
-let vel=reduz?0:6;
-function quadro(){cx.fillStyle='rgba(3,4,11,.35)';cx.fillRect(0,0,W,H);
-  for(const e of ES){const pz=e.z;e.z-=vel;if(e.z<1){Object.assign(e,nova(),{z:W})}
-    const k=W/2/e.z,sx=e.x*k+W/2+mx*(1-e.z/W)*40,sy=e.y*k+H/2+my*(1-e.z/W)*40,pk=W/2/pz,px=e.x*pk+W/2+mx*(1-pz/W)*40,py=e.y*pk+H/2+my*(1-pz/W)*40;
-    const a=Math.min(1,(1-e.z/W)*1.4);cx.strokeStyle=`rgba(${e.c},${a})`;cx.lineWidth=Math.max(.6,(1-e.z/W)*2.4*devicePixelRatio);
-    cx.beginPath();cx.moveTo(px,py);cx.lineTo(sx,sy);cx.stroke()}
-  if(!reduz)requestAnimationFrame(quadro)}
-addEventListener('resize',tam);addEventListener('pointermove',e=>{mx=(e.clientX/innerWidth-.5)*devicePixelRatio;my=(e.clientY/innerHeight-.5)*devicePixelRatio});
-tam();cx.fillStyle='#03040B';cx.fillRect(0,0,W,H);quadro();
+// estrelas discretas no cartaz (desenhadas uma vez, cintilam devagar)
+const cv=document.getElementById('estrelas'),cx=cv.getContext('2d');let pts=[];
+function tam(){const r=cv.getBoundingClientRect();cv.width=r.width*devicePixelRatio;cv.height=r.height*devicePixelRatio;pts=Array.from({length:Math.floor(cv.width*cv.height/9000)},()=>({x:Math.random()*cv.width,y:Math.random()*cv.height*.75,r:Math.random()*1.3*devicePixelRatio+.3,f:Math.random()*6}))}
+function brilha(t){cx.clearRect(0,0,cv.width,cv.height);for(const p of pts){const a=.25+.5*Math.abs(Math.sin(t/1600+p.f));cx.fillStyle=`rgba(255,240,200,${a})`;cx.beginPath();cx.arc(p.x,p.y,p.r,0,7);cx.fill()}if(!reduz)requestAnimationFrame(brilha)}
+addEventListener('resize',tam);tam();requestAnimationFrame(brilha);
 
-const pl=document.getElementById('palco');pl.classList.add('on');vel=reduz?0:1.2;
+// vitrine: desliza para o lado a cada 7 s; pausa ao passar o mouse ou focar
+const vit=document.getElementById('vitrine'),tri=document.getElementById('trilho'),ctl=document.getElementById('controles'),slides=[...tri.children],TEMPO=7000;
+let i=0,tm=null,pausado=false;
+slides.forEach((s,k)=>{const b=document.createElement('button');b.type='button';b.setAttribute('role','tab');b.setAttribute('aria-label',s.getAttribute('aria-label'));b.innerHTML='<span><i></i></span>';b.onclick=()=>vai(k);ctl.appendChild(b)});
+const bts=[...ctl.children];vit.style.setProperty('--tempo',TEMPO+'ms');
+function vai(k){i=(k+slides.length)%slides.length;tri.style.transform=`translateX(-${i*100}%)`;
+  bts.forEach((b,n)=>{b.classList.remove('ativo');b.classList.toggle('feito',n<i);b.setAttribute('aria-selected',n===i)});
+  void bts[i].offsetWidth;bts[i].classList.add('ativo');slides.forEach((s,n)=>s.setAttribute('aria-hidden',n!==i));agenda()}
+function agenda(){clearTimeout(tm);if(reduz||pausado)return;tm=setTimeout(()=>vai(i+1),TEMPO)}
+vit.addEventListener('mouseenter',()=>{pausado=true;vit.classList.add('pausa');clearTimeout(tm)});
+vit.addEventListener('mouseleave',()=>{pausado=false;vit.classList.remove('pausa');vai(i)});
+vit.addEventListener('keydown',e=>{if(e.key==='ArrowRight')vai(i+1);if(e.key==='ArrowLeft')vai(i-1)});
+vai(0);
 
 // formulário (protótipo: o acesso de verdade entra quando o sistema for criado)
 const f=document.getElementById('login'),av=document.getElementById('aviso'),se=document.getElementById('senha');
 document.getElementById('ver').addEventListener('click',e=>{const v=se.type==='password';se.type=v?'text':'password';e.currentTarget.setAttribute('aria-label',v?'Ocultar senha':'Mostrar senha')});
-f.addEventListener('submit',e=>{e.preventDefault();const u=document.getElementById('usuario').value.trim();
-  if(!u||!se.value){av.textContent='Preencha o login e a senha para entrar.';return}
+f.addEventListener('submit',e=>{e.preventDefault();if(!document.getElementById('usuario').value.trim()||!se.value){av.textContent='Preencha o login e a senha para entrar.';return}
   av.textContent='Protótipo da tela de acesso. O login de verdade é ligado quando o painel for criado.'});
-document.getElementById('esqueci').addEventListener('click',e=>{e.preventDefault();av.textContent='Para criar uma senha nova, fale com a equipe do Lindson pelo WhatsApp.'});
+document.getElementById('esqueci').addEventListener('click',e=>{e.preventDefault();av.textContent='Para criar uma senha nova, fale com a nossa equipe pelo WhatsApp.'});
 })();
 </script>

@@ -54,3 +54,13 @@
      - linha com rótulos nos pontos.
    - **Estilo:** claro, monocromático, cinza e preto, bordas finas e cantos arredondados, muito respiro.
    - Verde e vermelho só para o que variou.
+7. **Login v3 (30/10): sóbrio, premium, amarelo e preto.**
+   - **À esquerda, vitrine que desliza para o lado** a cada 7 s. Pausa com o mouse em cima e tem barras de progresso clicáveis.
+     1. Cartaz no estilo Star Wars com as 5 fotos recortadas, sem fundo: rosto gigante no céu, figura principal no centro, duas laterais, uma ao fundo, feixe de luz dourado e o nome em ouro.
+     2. Rafael Imports (mini site).
+     3. Desentupidora SF (mini site).
+     4. Passaporte da Bíblia (canal).
+     5. Raposa e Leão (canal).
+     - Os slides 2 a 5 usam "Conheça um dos nossos clientes/projetos" e só fatos reais.
+   - **À direita, o acesso** em preto sólido com um único destaque amarelo.
+   - **Fotos recortadas e prints** ficam em `fotos/` e `fotos/casos/` (fora do Git). Monte com `prototipo/montar.sh`.
