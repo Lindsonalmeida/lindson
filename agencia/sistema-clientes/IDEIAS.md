@@ -40,3 +40,17 @@
 5. **Ajuste da tela de login (29/10):**
    - **Sem abertura com letreiro**, porque os clientes achariam chato. O visual deve ser mais sério.
    - O "estilo de filme do espaço" é a **foto** tratada como cartaz de cinema: retrato grande com luz de contorno, aura dourada, horizonte de planeta em luz azul e cores de cinema.
+6. **Referência de painel (30/10):** https://efferd.com/view/dashboard-3 (print em `fotos/ref-efferd-dashboard-3.png`, fora do Git).
+   - **Menu lateral:**
+     - logo e botão principal no topo;
+     - grupos com títulos ("Today", "Inbox", "Organization");
+     - cartão "Novidades" e "Ajuda" no pé.
+   - **Barra superior:** nome da página, ícones de enviar e notificação, e avatar.
+   - **Indicadores:** 4 cartões, cada um com número grande e variação (verde ou vermelho, com seta).
+   - **Gráficos:**
+     - gráfico de área com filtro de período ("Últimos 30 dias");
+     - rosca de distribuição por canal;
+     - barras empilhadas por dia;
+     - linha com rótulos nos pontos.
+   - **Estilo:** claro, monocromático, cinza e preto, bordas finas e cantos arredondados, muito respiro.
+   - Verde e vermelho só para o que variou.
