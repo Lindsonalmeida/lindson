@@ -69,3 +69,11 @@
    - luz e halo amarelos atrás e um arco de luz girando;
    - o nome como assinatura grande embaixo.
    - **Nada de várias cópias da mesma pessoa**: o Lindson achou amador.
+9. **Cartaz v5 (30/10): as 5 fotos juntas, cada uma olhando para um lado** (referência: cartaz de esporte do Flamengo).
+   - Composição:
+     - rostos grandes no alto (69 espelhada e 68);
+     - dois corpos sentados nas laterais (71 e 72 espelhada);
+     - a foto em pé (70) no centro, na frente.
+   - Todas em **duotone amarelo e preto**: uma cor só, que deixa tudo coerente e profissional.
+   - Faixas de luz em espiral animadas.
+   - A parede do portfólio passa em loop contínuo no fundo.
