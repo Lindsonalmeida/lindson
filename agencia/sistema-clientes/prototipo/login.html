@@ -21,7 +21,7 @@
 }
 html,body{height:100%;overflow-x:clip}
 body{background:var(--preto);color:var(--texto);font-family:var(--f-corpo)}
-.tela{height:100%;min-height:600px;display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr)}
+.tela{height:100%;min-height:600px;overflow:hidden;display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr)}
 
 /* ---------- Vitrine (carrossel) ---------- */
 .vitrine{position:relative;overflow:hidden;background:#050505;border-right:1px solid var(--linha2);height:100%;min-width:0}
@@ -97,9 +97,9 @@ body{background:var(--preto);color:var(--texto);font-family:var(--f-corpo)}
 .controles button:focus-visible{outline:2px solid var(--amarelo);outline-offset:2px;border-radius:4px}
 
 /* ---------- Acesso ---------- */
-.acesso{display:grid;align-content:center;justify-items:center;background:var(--carvao);padding-block:48px;padding-left:max(24px,env(safe-area-inset-left,0px));padding-right:max(24px,env(safe-area-inset-right,0px));position:relative}
+.acesso{display:grid;align-content:safe center;overflow-y:auto;justify-items:center;background:var(--carvao);padding-block:48px;padding-left:max(24px,env(safe-area-inset-left,0px));padding-right:max(24px,env(safe-area-inset-right,0px));position:relative}
 .acesso::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--amarelo),transparent 70%)}
-.form{width:100%;max-width:400px;display:grid;gap:22px}
+.form{width:100%;max-width:400px;display:grid;gap:18px}
 .form .topo{display:grid;gap:8px}
 .form .rot{font:500 12px var(--f-dado);letter-spacing:.3em;text-transform:uppercase;color:var(--amarelo)}
 .form h2{margin:0;font:800 clamp(34px,3.2vw,46px)/.95 var(--f-titulo);letter-spacing:.02em;text-transform:uppercase}
@@ -109,6 +109,13 @@ body{background:var(--preto);color:var(--texto);font-family:var(--f-corpo)}
 .campo label{font:600 12px var(--f-corpo);letter-spacing:.14em;text-transform:uppercase;color:#BDB9AE}
 .linha a{font-size:13px;color:var(--apagado);text-decoration:none}.linha a:hover,.linha a:focus-visible{color:var(--amarelo)}
 .campo input{width:100%;box-sizing:border-box;background:#0C0C0D;border:1px solid #2A2A2D;border-radius:10px;color:var(--texto);font:500 16px var(--f-corpo);padding:14px 16px;transition:border-color .2s,box-shadow .2s}
+.abas-acesso{display:grid;grid-template-columns:1fr 1fr;background:#0C0C0D;border:1px solid #2A2A2D;border-radius:10px;padding:4px;gap:4px}
+.abas-acesso button{border:0;border-radius:7px;padding:10px;background:none;color:var(--apagado);font:700 13px var(--f-corpo);letter-spacing:.1em;text-transform:uppercase;cursor:pointer}
+.abas-acesso button[aria-selected="true"]{background:var(--amarelo);color:#0A0A0A}
+.abas-acesso button:focus-visible{outline:2px solid var(--amarelo);outline-offset:2px}
+#codigo{font-family:var(--f-dado);letter-spacing:.14em;text-transform:uppercase}
+.dica{color:var(--apagado);font-size:12px;line-height:1.4}
+.aviso.ok{color:var(--amarelo2)}
 .campo input::placeholder{color:#5D5B56}
 .campo input:focus{outline:none;border-color:var(--amarelo);box-shadow:0 0 0 3px rgba(245,197,24,.15)}
 .senha{position:relative}
@@ -121,12 +128,12 @@ body{background:var(--preto);color:var(--texto);font-family:var(--f-corpo)}
 .seguro svg{color:var(--amarelo)}
 .mono{width:44px;height:44px;border:1.5px solid var(--amarelo);display:grid;place-items:center;font:800 20px var(--f-titulo);letter-spacing:.04em;color:var(--amarelo);margin-bottom:6px}
 .aviso{min-height:1.3em;font:400 13px/1.5 var(--f-corpo);color:var(--amarelo2);text-align:center}
-.assina{position:absolute;bottom:calc(20px + env(safe-area-inset-bottom,0px));left:0;right:0;text-align:center;font:500 11px var(--f-dado);letter-spacing:.24em;color:#7A776F;text-transform:uppercase}
+.assina{margin-top:28px;text-align:center;font:500 11px var(--f-dado);letter-spacing:.24em;color:#7A776F;text-transform:uppercase}
 
 @media (max-width:900px){
   .tela{grid-template-columns:minmax(0,1fr)}
   .vitrine{border-right:0;border-bottom:1px solid var(--linha2)}
-  .tela{height:auto}.vitrine{height:clamp(500px,62svh,560px)}
+  .tela{height:auto;overflow:visible}.acesso{overflow:visible}.vitrine{height:clamp(500px,62svh,560px)}
 .parede{grid-template-columns:repeat(3,minmax(0,1fr))}
   .credito .extra{display:none}
   .notif{display:none}.marca-fundo{display:none}.icone{--t:22px!important}
@@ -212,14 +219,23 @@ body{background:var(--preto);color:var(--texto);font-family:var(--f-corpo)}
         <div class="mono" aria-hidden="true">LA</div>
         <span class="rot">Central do cliente</span>
         <h2>Acessar painel</h2>
-        <p class="sub">Entre com o login e a senha que você recebeu da nossa equipe.</p>
+        <p class="sub">Primeira vez aqui? Crie sua conta com o código de acesso que você recebeu da nossa equipe.</p>
       </div>
-      <div class="campo"><label for="usuario">Login</label>
-        <input id="usuario" name="usuario" autocomplete="username" placeholder="seu.login" required></div>
+      <div class="abas-acesso" role="tablist" aria-label="Entrar ou criar conta">
+        <button type="button" role="tab" id="tab-entrar" aria-selected="true">Entrar</button>
+        <button type="button" role="tab" id="tab-criar" aria-selected="false">Criar conta</button>
+      </div>
+      <div class="campo so-criar" hidden><label for="nome">Nome completo</label>
+        <input id="nome" name="nome" autocomplete="name" placeholder="Seu nome"></div>
+      <div class="campo"><label for="usuario">E-mail</label>
+        <input id="usuario" name="usuario" type="email" autocomplete="username" placeholder="voce@email.com" required></div>
       <div class="campo"><div class="linha"><label for="senha">Senha</label><a href="#login" id="esqueci">Esqueci minha senha</a></div>
         <div class="senha"><input id="senha" name="senha" type="password" autocomplete="current-password" placeholder="••••••••" required>
           <button type="button" id="ver" aria-label="Mostrar senha"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg></button></div></div>
-      <button class="entrar" type="submit">Entrar <span aria-hidden="true">→</span></button>
+      <div class="campo so-criar" hidden><label for="codigo">Código de acesso</label>
+        <input id="codigo" name="codigo" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="XXX-XXXX-XXXX" maxlength="14">
+        <small class="dica">O código diz qual painel é o seu. Peça à nossa equipe se ainda não recebeu.</small></div>
+      <button class="entrar" type="submit" id="btn-acao">Entrar <span aria-hidden="true">→</span></button>
       <div class="aviso" id="aviso" role="status" aria-live="polite"></div>
       <div class="seguro"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>Conexão segura e criptografada</div>
     </form>
@@ -247,11 +263,29 @@ vit.addEventListener('mouseleave',()=>{pausado=false;vit.classList.remove('pausa
 vit.addEventListener('keydown',e=>{if(e.key==='ArrowRight')vai(i+1);if(e.key==='ArrowLeft')vai(i-1)});
 vai(0);
 
-// formulário (protótipo: o acesso de verdade entra quando o sistema for criado)
-const f=document.getElementById('login'),av=document.getElementById('aviso'),se=document.getElementById('senha');
+// acesso: entrar ou criar conta com código de acesso (protótipo; no sistema real o código é conferido no servidor)
+// Os códigos não ficam escritos aqui: só o "resumo" (SHA-256) de cada um, ligado ao painel do cliente.
+const PAINEIS={"57861c51c35bdce9d53f37a165f22a09b0651e7b93380a08c887d98879a27be9":"Apple Black",
+ "bac2de2f33ae14bda1d00f10caacd048871c502f7fba3f412e89b77c50bdd785":"Dra. Jaci Cunha",
+ "4baec3d7d45d883fac8604d1a93bdb4dc7372b6585a7638c7ca89c7c15008ac9":"Vereador Leo Pinto"};
+const f=document.getElementById('login'),av=document.getElementById('aviso'),se=document.getElementById('senha'),cod=document.getElementById('codigo'),btn=document.getElementById('btn-acao');
+let modo='entrar';
+function setModo(m){modo=m;document.getElementById('tab-entrar').setAttribute('aria-selected',m==='entrar');document.getElementById('tab-criar').setAttribute('aria-selected',m==='criar');
+ document.querySelectorAll('.so-criar').forEach(x=>x.hidden=m!=='criar');document.getElementById('esqueci').hidden=m==='criar';
+ se.autocomplete=m==='criar'?'new-password':'current-password';btn.firstChild.textContent=m==='criar'?'Criar conta ':'Entrar ';av.textContent='';av.className='aviso'}
+document.getElementById('tab-entrar').onclick=()=>setModo('entrar');document.getElementById('tab-criar').onclick=()=>setModo('criar');
+cod.addEventListener('input',()=>{let v=cod.value.toUpperCase().replace(/[^A-Z0-9]/g,'').slice(0,11);cod.value=[v.slice(0,3),v.slice(3,7),v.slice(7,11)].filter(Boolean).join('-')});
+async function resumo(t){const b=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(t));return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('')}
 document.getElementById('ver').addEventListener('click',e=>{const v=se.type==='password';se.type=v?'text':'password';e.currentTarget.setAttribute('aria-label',v?'Ocultar senha':'Mostrar senha')});
-f.addEventListener('submit',e=>{e.preventDefault();if(!document.getElementById('usuario').value.trim()||!se.value){av.textContent='Preencha o login e a senha para entrar.';return}
-  av.textContent='Protótipo da tela de acesso. O login de verdade é ligado quando o painel for criado.'});
+f.addEventListener('submit',async e=>{e.preventDefault();av.className='aviso';const email=document.getElementById('usuario').value.trim();
+ if(modo==='entrar'){if(!email||!se.value){av.textContent='Preencha o e-mail e a senha para entrar.';return}
+  av.textContent='Protótipo da tela de acesso. O login de verdade é ligado quando o painel for criado.';return}
+ const nome=document.getElementById('nome').value.trim();
+ if(!nome||!email||!se.value||!cod.value){av.textContent='Preencha nome, e-mail, senha e código de acesso.';return}
+ if(se.value.length<8){av.textContent='Use uma senha com pelo menos 8 caracteres.';return}
+ let painel=null;try{painel=PAINEIS[await resumo(cod.value.trim().toUpperCase())]}catch(err){}
+ if(!painel){av.textContent='Código de acesso não encontrado. Confira o código com a nossa equipe.';return}
+ av.className='aviso ok';av.textContent='Código confirmado: sua conta será ligada ao painel '+painel+'. (Protótipo: o cadastro de verdade é salvo quando o sistema for criado.)'});
 document.getElementById('esqueci').addEventListener('click',e=>{e.preventDefault();av.textContent='Para criar uma senha nova, fale com a nossa equipe pelo WhatsApp.'});
 })();
 

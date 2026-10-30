@@ -96,3 +96,8 @@
     - O fundo vivo vale para todos os slides (grade, rede, gráfico, ícones). Os avisos aparecem só no slide 1.
     - Cada cliente ou projeto tem "O que é" e "O que fizemos", só com fatos.
     - No celular, o print do site fica escondido para o texto caber.
+14. **Cadastro com código de acesso (30/10).** Na tela há as abas "Entrar" e "Criar conta". Para criar a conta, o cliente informa nome, e-mail, senha e o **código de acesso**, e o código define qual painel é liberado.
+    - **Clientes e códigos:** Apple Black (`APB-…`), Dra. Jaci Cunha (`JAC-…`) e Vereador Leo Pinto (`LEO-…`).
+    - **Onde ficam os códigos completos:** em `agencia/sistema-clientes/privado/codigos-acesso.json`, **fora do GitHub**. Noutra conta, peça ao Lindson.
+    - **Na página:** só aparece o resumo SHA-256 de cada código, nunca o código em si.
+    - **No sistema real:** o código é conferido no servidor, usado uma vez por pessoa ou com limite, e pode ser trocado a qualquer momento.
