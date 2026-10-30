@@ -64,3 +64,8 @@
      - Os slides 2 a 5 usam "Conheça um dos nossos clientes/projetos" e só fatos reais.
    - **À direita, o acesso** em preto sólido com um único destaque amarelo.
    - **Fotos recortadas e prints** ficam em `fotos/` e `fotos/casos/` (fora do Git). Monte com `prototipo/montar.sh`.
+8. **Cartaz v4 (30/10), a partir das referências que o Lindson mandou** (Fábrica de Cortes, Atração Natural, Bráulio Langer e terapia holística):
+   - autoridade vem de **uma foto só**, grande, peito para cima, na frente de uma **parede com o portfólio real** (capas dos canais e sites de clientes) escurecida e em leve rotação;
+   - luz e halo amarelos atrás e um arco de luz girando;
+   - o nome como assinatura grande embaixo.
+   - **Nada de várias cópias da mesma pessoa**: o Lindson achou amador.

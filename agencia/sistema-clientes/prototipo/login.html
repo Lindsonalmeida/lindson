@@ -30,26 +30,32 @@ body{background:var(--preto);color:var(--texto);font-family:var(--f-corpo)}
 .marca{position:absolute;z-index:6;top:calc(28px + env(safe-area-inset-top,0px));left:max(32px,env(safe-area-inset-left,0px));display:flex;align-items:center;gap:10px;font:500 12px var(--f-dado);letter-spacing:.32em;text-transform:uppercase;color:var(--texto)}
 .marca i{width:22px;height:2px;background:var(--amarelo)}
 
-/* Slide 1: cartaz de cinema */
-.cartaz{background:radial-gradient(60% 55% at 58% 42%,rgba(245,197,24,.20),transparent 70%),radial-gradient(40% 40% at 20% 85%,rgba(245,150,24,.10),transparent 70%),#050505}
-.estrelas{position:absolute;inset:0;opacity:.55}
-.ceu{position:absolute;left:50%;top:6%;width:min(78%,680px);transform:translateX(-50%);opacity:.14;filter:grayscale(.2) sepia(.5) saturate(1.4) hue-rotate(-12deg) brightness(1.1);
-  -webkit-mask-image:linear-gradient(to bottom,transparent 0,#000 20%,#000 45%,transparent 85%);mask-image:linear-gradient(to bottom,transparent 0,#000 20%,#000 45%,transparent 85%);mix-blend-mode:screen}
-.feixe{position:absolute;left:-20%;right:-20%;top:30%;height:3px;transform:rotate(-14deg);background:linear-gradient(90deg,transparent,rgba(245,197,24,.0) 20%,#FFE58A 50%,rgba(245,197,24,0) 80%,transparent);box-shadow:0 0 20px 4px rgba(245,197,24,.3);opacity:.4}
-.pessoa{position:absolute;bottom:0;filter:drop-shadow(0 0 18px rgba(245,197,24,.18)) drop-shadow(-8px 0 24px rgba(0,0,0,.6))}
-.pessoa img{display:block;width:100%;height:auto;-webkit-mask-image:linear-gradient(to bottom,#000 70%,transparent 100%),linear-gradient(to right,transparent 0,#000 22%,#000 78%,transparent 100%);-webkit-mask-composite:source-in;mask-image:linear-gradient(to bottom,#000 70%,transparent 100%),linear-gradient(to right,transparent 0,#000 22%,#000 78%,transparent 100%);mask-composite:intersect}
-.p-esq{left:2%;width:30%;bottom:6%;filter:brightness(.45) contrast(1.05)}
-.p-fundo{left:50%;transform:translateX(-50%);width:60%;bottom:30%;filter:brightness(.22)}
-.p-dir{right:1%;width:31%;bottom:6%;filter:brightness(.45) contrast(1.05)}
-.p-centro{left:50%;width:min(44%,440px);transform:translateX(-50%);bottom:14%;filter:contrast(1.06) drop-shadow(0 30px 40px rgba(0,0,0,.7))}
+/* Slide 1: retrato de autoridade sobre a parede do portfólio real */
+.cartaz{background:#050505}
+.parede{position:absolute;inset:-18% -12%;transform:rotate(-9deg) scale(1.08);display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px;animation:deriva 60s linear infinite alternate;opacity:.9}
+.parede div{display:grid;gap:14px;align-content:start}
+.parede div:nth-child(even){margin-top:-90px}
+.parede img{width:100%;display:block;border-radius:10px;box-shadow:0 10px 30px rgba(0,0,0,.6)}
+@keyframes deriva{to{transform:rotate(-9deg) scale(1.08) translateY(-90px)}}
+.veu{position:absolute;inset:0;background:radial-gradient(48% 60% at 50% 45%,rgba(5,5,5,.94) 35%,rgba(5,5,5,.62) 72%,rgba(5,5,5,.8)),linear-gradient(to top,#050505 8%,transparent 45%),linear-gradient(to bottom,rgba(5,5,5,.85),transparent 22%)}
+.tinta{position:absolute;inset:0;background:linear-gradient(135deg,rgba(245,197,24,.18),transparent 40%,rgba(245,197,24,.10));mix-blend-mode:color;pointer-events:none}
+.halo{position:absolute;left:50%;bottom:30%;width:min(78%,640px);aspect-ratio:1;transform:translateX(-50%);border-radius:50%;
+  background:radial-gradient(circle,rgba(245,197,24,.34),rgba(245,170,24,.12) 42%,transparent 68%)}
+.arco{position:absolute;left:50%;bottom:30%;width:min(72%,580px);aspect-ratio:1;transform:translateX(-50%);border-radius:50%;
+  border:2px solid transparent;border-top-color:rgba(255,221,85,.9);border-right-color:rgba(245,197,24,.35);filter:drop-shadow(0 0 10px rgba(245,197,24,.8));animation:arco 14s linear infinite}
+@keyframes arco{to{transform:translateX(-50%) rotate(360deg)}}
+.heroi-foto{position:absolute;left:50%;bottom:-2%;width:min(82%,700px);transform:translateX(-50%);z-index:2}
+.heroi-foto img{display:block;width:100%;height:auto;filter:contrast(1.08) saturate(1.02) drop-shadow(0 30px 50px rgba(0,0,0,.8));
+  -webkit-mask-image:linear-gradient(to bottom,#000 60%,transparent 96%);mask-image:linear-gradient(to bottom,#000 60%,transparent 96%)}
+.base-escura{position:absolute;inset:auto 0 0 0;height:42%;z-index:3;background:linear-gradient(to top,#050505 22%,rgba(5,5,5,.85) 50%,transparent)}
+.luz-borda{position:absolute;inset:0;background:linear-gradient(90deg,rgba(255,214,90,.0) 52%,rgba(255,214,90,.55) 100%),linear-gradient(270deg,rgba(255,214,90,0) 70%,rgba(255,214,90,.22) 100%);mix-blend-mode:screen;
+  -webkit-mask-image:url(__HEROI__);mask-image:url(__HEROI__);-webkit-mask-size:100% auto;mask-size:100% auto;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat}
 .titulo-cartaz{position:absolute;z-index:4;left:0;right:0;bottom:calc(64px + env(safe-area-inset-bottom,0px));text-align:center;padding-inline:24px}
-.titulo-cartaz .pre{font:500 12px var(--f-dado);letter-spacing:.5em;color:var(--amarelo);text-transform:uppercase}
-.titulo-cartaz h1{margin:.12em 0 0;font:900 clamp(44px,6vw,96px)/.86 var(--f-titulo);letter-spacing:.04em;text-transform:uppercase;
-  background:linear-gradient(180deg,#FFF3C2 0%,var(--amarelo2) 35%,var(--amarelo) 62%,#9C7408 100%);-webkit-background-clip:text;background-clip:text;color:transparent;
-  filter:drop-shadow(0 4px 0 rgba(0,0,0,.6)) drop-shadow(0 0 30px rgba(245,197,24,.25))}
-.titulo-cartaz .credito{margin-top:12px;font:500 11px/1.7 var(--f-dado);letter-spacing:.24em;color:var(--apagado);text-transform:uppercase}
+.titulo-cartaz .pre{font:500 13px var(--f-dado);letter-spacing:.5em;color:var(--texto);text-transform:uppercase}
+.titulo-cartaz h1{margin:.1em 0 0;font:900 clamp(46px,6.4vw,104px)/.86 var(--f-titulo);letter-spacing:.02em;text-transform:uppercase;color:var(--amarelo);
+  text-shadow:0 6px 30px rgba(0,0,0,.8),0 0 40px rgba(245,197,24,.25)}
+.titulo-cartaz .credito{margin-top:12px;font:500 11px/1.7 var(--f-dado);letter-spacing:.24em;color:#B8B4AA;text-transform:uppercase}
 .titulo-cartaz .credito b{color:var(--texto);font-weight:500}
-.sombra-base{position:absolute;inset:auto 0 0 0;height:46%;background:linear-gradient(to top,#050505 18%,rgba(5,5,5,.85) 45%,transparent);z-index:3}
 
 /* Slides de clientes e projetos */
 .caso{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);align-items:center;gap:clamp(20px,4vw,56px);padding:calc(96px + env(safe-area-inset-top,0px)) clamp(24px,5vw,72px) 96px;
@@ -109,14 +115,14 @@ body{background:var(--preto);color:var(--texto);font-family:var(--f-corpo)}
   .tela{grid-template-columns:minmax(0,1fr)}
   .vitrine{border-right:0;border-bottom:1px solid var(--linha2)}
   .tela{height:auto}.vitrine{height:clamp(340px,52svh,440px)}
-  .p-fundo{display:none}.p-esq{width:34%;left:-4%}.p-dir{width:35%;right:-5%}.p-centro{width:56%}
+  .heroi-foto{width:min(92%,420px)}.parede{grid-template-columns:repeat(3,minmax(0,1fr))}
   .credito .extra{display:none}
   .caso{grid-template-columns:minmax(0,1fr);padding:88px 24px 64px;align-content:start}
   .celular{width:180px;transform:none}.tela169{max-width:360px;transform:none}
   .caso .media{order:-1}
   .acesso{padding-block:40px 64px}
 }
-@media (prefers-reduced-motion:reduce){.trilho{transition:none}.controles button.ativo span i{animation:none;width:100%}}
+@media (prefers-reduced-motion:reduce){.parede,.arco{animation:none}.trilho{transition:none}.controles button.ativo span i{animation:none;width:100%}}
 </style>
 
 <main class="tela">
@@ -125,14 +131,13 @@ body{background:var(--preto);color:var(--texto);font-family:var(--f-corpo)}
     <div class="trilho" id="trilho">
 
       <article class="slide cartaz" aria-label="Lindson Almeida, estrategista digital">
-        <canvas class="estrelas" id="estrelas" aria-hidden="true"></canvas>
-        <div class="feixe" aria-hidden="true"></div>
-        <img class="ceu" src="__F69__" alt="" aria-hidden="true">
-        <div class="pessoa p-fundo" aria-hidden="true"><img src="__F71__" alt=""></div>
-        <div class="pessoa p-esq" aria-hidden="true"><img src="__F70__" alt=""></div>
-        <div class="pessoa p-dir" aria-hidden="true"><img src="__F72__" alt=""></div>
-        <div class="pessoa p-centro"><img src="__F68__" alt="Lindson Almeida"></div>
-        <div class="sombra-base" aria-hidden="true"></div>
+        <div class="parede" aria-hidden="true"><div><img src="__T00__" alt=""><img src="__T05__" alt=""><img src="__T10__" alt=""><img src="__T15__" alt=""></div><div><img src="__T01__" alt=""><img src="__T06__" alt=""><img src="__T11__" alt=""><img src="__T16__" alt=""></div><div><img src="__T02__" alt=""><img src="__T07__" alt=""><img src="__T12__" alt=""><img src="__T17__" alt=""></div><div><img src="__T03__" alt=""><img src="__T08__" alt=""><img src="__T13__" alt=""><img src="__T18__" alt=""></div><div><img src="__T04__" alt=""><img src="__T09__" alt=""><img src="__T14__" alt=""><img src="__T19__" alt=""></div></div>
+        <div class="veu" aria-hidden="true"></div>
+        <div class="tinta" aria-hidden="true"></div>
+        <div class="halo" aria-hidden="true"></div>
+        <div class="arco" aria-hidden="true"></div>
+        <div class="heroi-foto"><img src="__HEROI__" alt="Lindson Almeida"><div class="luz-borda" aria-hidden="true"></div></div>
+        <div class="base-escura" aria-hidden="true"></div>
         <div class="titulo-cartaz">
           <div class="pre">Estrategista digital</div>
           <h1>Lindson Almeida</h1>
@@ -213,10 +218,7 @@ body{background:var(--preto);color:var(--texto);font-family:var(--f-corpo)}
 (()=>{
 const reduz=matchMedia('(prefers-reduced-motion: reduce)').matches;
 // estrelas discretas no cartaz (desenhadas uma vez, cintilam devagar)
-const cv=document.getElementById('estrelas'),cx=cv.getContext('2d');let pts=[];
-function tam(){const r=cv.getBoundingClientRect();cv.width=r.width*devicePixelRatio;cv.height=r.height*devicePixelRatio;pts=Array.from({length:Math.floor(cv.width*cv.height/9000)},()=>({x:Math.random()*cv.width,y:Math.random()*cv.height*.75,r:Math.random()*1.3*devicePixelRatio+.3,f:Math.random()*6}))}
-function brilha(t){cx.clearRect(0,0,cv.width,cv.height);for(const p of pts){const a=.25+.5*Math.abs(Math.sin(t/1600+p.f));cx.fillStyle=`rgba(255,240,200,${a})`;cx.beginPath();cx.arc(p.x,p.y,p.r,0,7);cx.fill()}if(!reduz)requestAnimationFrame(brilha)}
-addEventListener('resize',tam);tam();requestAnimationFrame(brilha);
+const cv=null;
 
 // vitrine: desliza para o lado a cada 7 s; pausa ao passar o mouse ou focar
 const vit=document.getElementById('vitrine'),tri=document.getElementById('trilho'),ctl=document.getElementById('controles'),slides=[...tri.children],TEMPO=7000;
