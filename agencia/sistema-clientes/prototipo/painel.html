@@ -1,0 +1,212 @@
+<meta charset="utf-8">
+<title>Painel do Cliente</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&family=Manrope:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: menu lateral fixo + área de trabalho com cartões. Preto e amarelo, mesmo visual da tela de acesso. Visual único escuro, por escolha. */
+:root{
+  --fundo:#09090A;--painel:#121213;--painel2:#18181A;--linha:#242427;--amarelo:#F5C518;--amarelo2:#FFDD55;
+  --texto:#F3F0E6;--apagado:#8E8B83;--ok:#5CC98A;--alerta:#F2A93B;--erro:#E5604D;
+  --f-titulo:'Big Shoulders Display','Arial Narrow',Impact,sans-serif;--f-corpo:'Manrope',system-ui,sans-serif;--f-dado:'IBM Plex Mono',ui-monospace,monospace;
+  color-scheme:dark;
+}
+[hidden]{display:none!important}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:var(--fundo);color:var(--texto);font:500 14px/1.5 var(--f-corpo);overflow-x:clip}
+.app{display:grid;grid-template-columns:248px minmax(0,1fr);min-height:100%}
+/* menu */
+.menu{position:sticky;top:0;height:100vh;display:flex;flex-direction:column;gap:18px;padding:22px 16px;border-right:1px solid var(--linha);background:#0C0C0D;overflow-y:auto}
+.logo{display:flex;align-items:center;gap:10px;font:800 20px var(--f-titulo);letter-spacing:.04em;text-transform:uppercase}
+.logo b{width:34px;height:34px;display:grid;place-items:center;border:1.5px solid var(--amarelo);color:var(--amarelo);font-size:16px}
+.seletor{display:grid;gap:6px}
+.seletor label{font:500 10px var(--f-dado);letter-spacing:.24em;text-transform:uppercase;color:var(--apagado)}
+.seletor select{background:var(--painel2);color:var(--texto);border:1px solid var(--linha);border-radius:8px;padding:9px 10px;font:600 13px var(--f-corpo)}
+.grupo{display:grid;gap:2px}
+.grupo h4{margin:6px 8px 4px;font:500 10px var(--f-dado);letter-spacing:.24em;text-transform:uppercase;color:var(--apagado)}
+.grupo a{display:flex;align-items:center;gap:10px;padding:8px 10px;border-radius:8px;color:#C9C5BA;text-decoration:none;font-weight:600}
+.grupo a svg{width:17px;height:17px;flex:none}
+.grupo a:hover{background:var(--painel2);color:var(--texto)}
+.grupo a[aria-current="page"]{background:rgba(245,197,24,.12);color:var(--amarelo)}
+.grupo a .n{margin-left:auto;font:600 11px var(--f-dado);background:var(--amarelo);color:#0A0A0A;border-radius:99px;padding:0 7px}
+.rodape-menu{margin-top:auto;border:1px solid var(--linha);border-radius:12px;padding:14px;display:grid;gap:8px;background:var(--painel)}
+.rodape-menu b{font-size:13px}.rodape-menu span{color:var(--apagado);font-size:12px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:0;border-radius:9px;padding:9px 14px;font:700 13px var(--f-corpo);cursor:pointer;text-decoration:none}
+.btn.am{background:var(--amarelo);color:#0A0A0A}.btn.am:hover{background:var(--amarelo2)}
+.btn.lin{background:transparent;color:var(--texto);border:1px solid var(--linha)}.btn.lin:hover{border-color:var(--amarelo);color:var(--amarelo)}
+.btn:focus-visible,.grupo a:focus-visible,select:focus-visible{outline:2px solid var(--amarelo);outline-offset:2px}
+/* topo */
+.area{min-width:0;display:flex;flex-direction:column}
+.topo{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:14px;padding:14px max(20px,env(safe-area-inset-right,0px)) 14px 24px;border-bottom:1px solid var(--linha);background:rgba(9,9,10,.92);backdrop-filter:blur(8px)}
+.topo h1{margin:0;font:800 26px/1 var(--f-titulo);letter-spacing:.03em;text-transform:uppercase}
+.topo .cliente{color:var(--apagado);font-size:13px}
+.topo .dir{margin-left:auto;display:flex;align-items:center;gap:10px}
+.exemplo{font:500 10px var(--f-dado);letter-spacing:.16em;text-transform:uppercase;color:var(--amarelo);border:1px dashed rgba(245,197,24,.5);border-radius:99px;padding:4px 10px}
+.avatar{width:34px;height:34px;border-radius:50%;background:var(--amarelo);color:#0A0A0A;display:grid;place-items:center;font:800 14px var(--f-titulo)}
+.abrir-menu{display:none;background:none;border:1px solid var(--linha);color:var(--texto);border-radius:8px;padding:6px 9px;cursor:pointer}
+main{padding:24px max(20px,env(safe-area-inset-right,0px)) 48px 24px;display:grid;gap:18px}
+/* cartões */
+.grade{display:grid;gap:16px}
+.g4{grid-template-columns:repeat(4,minmax(0,1fr))}.g3{grid-template-columns:repeat(3,minmax(0,1fr))}.g2{grid-template-columns:repeat(2,minmax(0,1fr))}.g21{grid-template-columns:minmax(0,2fr) minmax(0,1fr)}
+.card{background:var(--painel);border:1px solid var(--linha);border-radius:14px;padding:18px;min-width:0}
+.card h3{margin:0 0 4px;font:700 15px var(--f-corpo)}
+.card .sub{margin:0 0 14px;color:var(--apagado);font-size:12.5px}
+.kpi .rot{color:var(--apagado);font-size:12.5px}
+.kpi .val{font:800 34px/1.1 var(--f-titulo);letter-spacing:.02em;margin:6px 0 4px;font-variant-numeric:tabular-nums}
+.var{font:600 12px var(--f-corpo)}.var.up{color:var(--ok)}.var.down{color:var(--erro)}.var span{color:var(--apagado);font-weight:500}
+.chip{display:inline-flex;align-items:center;gap:6px;font:600 11px var(--f-corpo);border-radius:99px;padding:3px 9px;white-space:nowrap}
+.chip.ok{background:rgba(92,201,138,.12);color:var(--ok)}.chip.al{background:rgba(242,169,59,.12);color:var(--alerta)}.chip.er{background:rgba(229,96,77,.12);color:var(--erro)}.chip.am{background:rgba(245,197,24,.12);color:var(--amarelo)}.chip.ne{background:var(--painel2);color:#C9C5BA}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{text-align:left;font:500 10px var(--f-dado);letter-spacing:.18em;text-transform:uppercase;color:var(--apagado);padding:8px 10px;border-bottom:1px solid var(--linha)}
+td{padding:11px 10px;border-bottom:1px solid var(--linha);vertical-align:middle}
+tr:last-child td{border-bottom:0}
+.tab{overflow-x:auto}
+.lista{display:grid;gap:10px}
+.item{display:flex;align-items:center;gap:12px;padding:12px;border:1px solid var(--linha);border-radius:10px;background:var(--painel2)}
+.item .t{font-weight:700}.item .d{color:var(--apagado);font-size:12.5px}
+.item .fim{margin-left:auto;display:flex;gap:8px;align-items:center}
+.barra{height:8px;border-radius:8px;background:var(--painel2);overflow:hidden}.barra i{display:block;height:100%;background:var(--amarelo);border-radius:8px}
+svg.graf{width:100%;height:auto;display:block}
+.legenda{display:flex;gap:14px;flex-wrap:wrap;color:var(--apagado);font-size:12px}.legenda i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+/* aprovações */
+.posts{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}
+.post{border:1px solid var(--linha);border-radius:12px;overflow:hidden;background:var(--painel2);display:flex;flex-direction:column}
+.post .img{aspect-ratio:4/5;background:linear-gradient(135deg,#2a2412,#0f0f10);display:grid;place-items:center;color:var(--amarelo);font:800 22px var(--f-titulo);text-align:center;padding:16px;text-transform:uppercase}
+.post .c{padding:12px;display:grid;gap:8px}.post .acoes{display:flex;gap:8px}.post .acoes .btn{flex:1;padding:8px}
+/* calendário */
+.cal{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:6px}
+.cal .dia{min-height:86px;border:1px solid var(--linha);border-radius:8px;padding:6px;background:var(--painel2);display:grid;align-content:start;gap:4px}
+.cal .dia b{font:500 11px var(--f-dado);color:var(--apagado)}
+.cal .ev{font-size:11px;border-radius:5px;padding:2px 5px;background:rgba(245,197,24,.14);color:var(--amarelo2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cal .ev.v{background:rgba(92,201,138,.14);color:var(--ok)}.cal .ev.r{background:rgba(120,160,255,.14);color:#9DB8FF}
+.cal .cab{font:500 10px var(--f-dado);letter-spacing:.18em;color:var(--apagado);text-align:center;text-transform:uppercase}
+.vazio{color:var(--apagado);text-align:center;padding:24px}
+.form-linha{display:grid;gap:10px;grid-template-columns:minmax(0,1fr) auto}
+.form-linha input,.form-linha select,textarea{background:var(--painel2);color:var(--texto);border:1px solid var(--linha);border-radius:9px;padding:10px 12px;font:500 14px var(--f-corpo);width:100%}
+textarea{min-height:80px;resize:vertical}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--amarelo);color:#0A0A0A;font-weight:700;padding:10px 16px;border-radius:10px;opacity:0;transition:opacity .25s;pointer-events:none;z-index:20}
+.toast.on{opacity:1}
+@media (max-width:1100px){.g4{grid-template-columns:repeat(2,minmax(0,1fr))}.g3,.g21{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:760px){
+  .app{grid-template-columns:minmax(0,1fr)}
+  .menu{position:fixed;inset:0 auto 0 0;width:270px;z-index:30;transform:translateX(-100%);transition:transform .25s;padding-top:calc(22px + env(safe-area-inset-top,0px))}
+  .menu.aberto{transform:none;box-shadow:20px 0 60px rgba(0,0,0,.6)}
+  .abrir-menu{display:block}
+  .topo{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));top:env(safe-area-inset-top,0px)}
+  .topo .exemplo{display:none}
+  main{padding:16px max(16px,env(safe-area-inset-right,0px)) 40px max(16px,env(safe-area-inset-left,0px))}
+  .g2{grid-template-columns:minmax(0,1fr)}
+  .cal{grid-template-columns:repeat(7,minmax(0,1fr));gap:3px}.cal .dia{min-height:58px;padding:3px}.cal .ev{font-size:9px;padding:1px 3px}
+}
+</style>
+
+<div class="app">
+  <nav class="menu" id="menu" aria-label="Menu do painel">
+    <div class="logo"><b>LA</b>Central</div>
+    <div class="seletor"><label for="cliente">Cliente (visão do admin)</label>
+      <select id="cliente"><option value="apple">Apple Black</option><option value="jaci">Dra. Jaci Cunha</option><option value="leo">Vereador Leo Pinto</option></select></div>
+    <div class="grupo"><h4>Visão</h4>
+      <a href="#inicio" data-v="inicio"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="7" height="9" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/><rect x="3" y="16" width="7" height="5" rx="1.5"/></svg>Visão geral</a>
+      <a href="#resultados" data-v="resultados"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>Resultados</a>
+      <a href="#relatorios" data-v="relatorios"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 2h9l5 5v15H6z"/><path d="M14 2v6h6M9 13h7M9 17h7"/></svg>Relatórios</a></div>
+    <div class="grupo"><h4>Conteúdo</h4>
+      <a href="#aprovacoes" data-v="aprovacoes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 6 9 17l-5-5"/></svg>Aprovações<span class="n" id="n-aprov"></span></a>
+      <a href="#calendario" data-v="calendario"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>Calendário</a>
+      <a href="#entregas" data-v="entregas"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 7l8-4 8 4v10l-8 4-8-4z"/><path d="M4 7l8 4 8-4M12 11v10"/></svg>Entregas e arquivos</a></div>
+    <div class="grupo"><h4>Vendas e tráfego</h4>
+      <a href="#campanhas" data-v="campanhas"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 10v4h3l8 5V5L6 10z"/><path d="M18 9a4 4 0 0 1 0 6"/></svg>Campanhas</a>
+      <a href="#leads" data-v="leads"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="9" cy="8" r="3.5"/><path d="M2 21c.6-4 3.5-6 7-6s6.4 2 7 6M17 11h5M19.5 8.5v5"/></svg>Leads e atendimento</a></div>
+    <div class="grupo"><h4>Conta</h4>
+      <a href="#pedidos" data-v="pedidos"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1H9l-5 4V5a1 1 0 0 1 1-1z"/></svg>Pedidos à agência</a>
+      <a href="#reunioes" data-v="reunioes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="6" width="13" height="12" rx="2"/><path d="m16 10 5-3v10l-5-3"/></svg>Reuniões</a>
+      <a href="#contrato" data-v="contrato"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 10h18M7 15h4"/></svg>Contrato e pagamentos</a></div>
+    <div class="rodape-menu"><b>Precisa de algo agora?</b><span>Fale direto com a equipe do Lindson.</span>
+      <a class="btn am" href="https://wa.me/5598985621808?text=Oi%2C%20Lindson%21%20Vim%20pelo%20painel%20do%20cliente." target="_blank" rel="noopener">Chamar no WhatsApp</a></div>
+  </nav>
+
+  <div class="area">
+    <header class="topo">
+      <button class="abrir-menu" id="abrir" aria-label="Abrir menu" aria-controls="menu" aria-expanded="false">☰</button>
+      <div><h1 id="titulo">Visão geral</h1><div class="cliente" id="nome-cliente"></div></div>
+      <div class="dir"><span class="exemplo">Dados de exemplo</span><div class="avatar" title="Lindson Almeida (admin)">LA</div></div>
+    </header>
+    <main id="conteudo"></main>
+  </div>
+</div>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+(()=>{
+// ---------- dados de exemplo (o sistema real busca no servidor, por cliente) ----------
+const BASE={
+ apple:{nome:'Apple Black',seg:'Loja de produtos Apple',plano:'Gestão de redes + Tráfego pago',inicio:'Agosto/2026',kpis:[['Seguidores','12.480','+3,1%',1],['Alcance (30 dias)','186 mil','+12%',1],['Leads no WhatsApp','214','+18%',1],['Custo por lead','R$ 6,40','-9%',1]],canais:[['Instagram',58],['Tráfego pago',30],['Indicação',12]],metas:[['Leads no mês',214,300],['Posts publicados',14,20],['Vendas atribuídas',38,60]]},
+ jaci:{nome:'Dra. Jaci Cunha',seg:'Clínica / saúde',plano:'Gestão de redes + Mini site',inicio:'Setembro/2026',kpis:[['Seguidores','8.920','+2,4%',1],['Alcance (30 dias)','94 mil','+7%',1],['Agendamentos','61','+10%',1],['Custo por agendamento','R$ 18,90','-5%',1]],canais:[['Instagram',64],['Mini site',22],['Indicação',14]],metas:[['Agendamentos no mês',61,80],['Posts publicados',12,16],['Avaliações no Google',9,15]]},
+ leo:{nome:'Vereador Leo Pinto',seg:'Mandato parlamentar',plano:'Comunicação do mandato',inicio:'Outubro/2026',kpis:[['Seguidores','21.300','+4,6%',1],['Alcance (30 dias)','312 mil','+21%',1],['Demandas recebidas','148','+15%',1],['Demandas resolvidas','97','+11%',1]],canais:[['Instagram',46],['WhatsApp do gabinete',38],['Atendimento presencial',16]],metas:[['Demandas respondidas',97,148],['Posts publicados',18,24],['Visitas a bairros',6,10]]}
+};
+const dias=Array.from({length:30},(_,i)=>i);
+const serie=(k,b,a)=>dias.map(i=>Math.round(b+a*Math.sin(i/4+k)+i*a/18+((i*37+k*11)%7)));
+const APROV=[{t:'Carrossel',titulo:'5 erros que fazem você perder clientes',data:'Seg, 03/11 · 12h',st:'aguardando'},{t:'Reels',titulo:'Bastidores da semana',data:'Qua, 05/11 · 19h',st:'aguardando'},{t:'Post único',titulo:'Depoimento de cliente',data:'Sex, 07/11 · 12h',st:'aguardando'},{t:'Story',titulo:'Enquete: qual conteúdo você quer?',data:'Sáb, 08/11 · 10h',st:'aprovado'}];
+const ENTREGAS=[['Identidade visual (manual da marca)','PDF','15/09','entregue'],['Mini site da bio','Link','22/09','entregue'],['Estratégia de 90 dias','PDF','01/10','entregue'],['Pacote de posts de novembro','16 artes','28/10','em revisão'],['Relatório de outubro','PDF','05/11','em produção']];
+const CAMP=[['Captação de leads · WhatsApp','Ativa','R$ 30/dia','R$ 6,40','142'],['Remarketing · visitantes','Ativa','R$ 15/dia','R$ 4,10','58'],['Reconhecimento · vídeo','Pausada','R$ 10/dia','—','14']];
+const LEADS=[['Mariana S.','Instagram','Novo',' hoje 10:42'],['Carlos R.','Tráfego pago','Em atendimento','hoje 09:15'],['Ana P.','Indicação','Proposta enviada','ontem'],['João M.','Tráfego pago','Fechado','ontem'],['Bruna L.','Instagram','Sem resposta','há 3 dias']];
+let PEDIDOS=[['Trocar a foto de capa do perfil','em andamento','29/10'],['Post sobre o feriado','concluído','25/10']];
+const REUN=[['Reunião de resultados de outubro','Qua, 05/11 · 15h','Google Meet'],['Planejamento de dezembro','Ter, 18/11 · 10h','Presencial']];
+const PAGT=[['Novembro/2026','05/11','a vencer'],['Outubro/2026','05/10','pago'],['Setembro/2026','05/09','pago']];
+
+const $=s=>document.querySelector(s),main=$('#conteudo');let cli='apple';
+try{cli=localStorage.getItem('painel-cliente')||'apple'}catch(e){}
+const st=x=>({entregue:'ok',pago:'ok',aprovado:'ok',concluído:'ok',Ativa:'ok',Fechado:'ok','em revisão':'al','em andamento':'al','a vencer':'al',aguardando:'am','Em atendimento':'am','Proposta enviada':'am',Novo:'am','em produção':'ne',Pausada:'ne','Sem resposta':'er'}[x]||'ne');
+const chip=x=>`<span class="chip ${st(x)}">${x}</span>`;
+function toast(t){const e=$('#toast');e.textContent=t;e.classList.add('on');clearTimeout(e._t);e._t=setTimeout(()=>e.classList.remove('on'),1800)}
+
+function linha(vals,cores){const W=640,H=220,P=28,max=Math.max(...vals.flat())*1.1,x=i=>P+i*(W-2*P)/(vals[0].length-1),y=v=>H-P-(v/max)*(H-2*P);
+ let g='';for(let k=0;k<=4;k++){const yy=P+k*(H-2*P)/4;g+=`<line x1="${P}" x2="${W-P}" y1="${yy}" y2="${yy}" stroke="#242427"/><text x="${P-6}" y="${yy+4}" fill="#8E8B83" font-size="10" text-anchor="end">${Math.round(max*(1-k/4))}</text>`}
+ vals.forEach((s,j)=>{const d=s.map((v,i)=>`${i?'L':'M'}${x(i)},${y(v)}`).join('');if(!j)g+=`<path d="${d}L${x(s.length-1)},${H-P}L${x(0)},${H-P}Z" fill="${cores[j]}" opacity=".12"/>`;g+=`<path d="${d}" fill="none" stroke="${cores[j]}" stroke-width="2.4"/><circle cx="${x(s.length-1)}" cy="${y(s.at(-1))}" r="4" fill="${cores[j]}"/>`});
+ [0,7,14,21,29].forEach(i=>g+=`<text x="${x(i)}" y="${H-8}" fill="#8E8B83" font-size="10" text-anchor="middle">${i+1}/10</text>`);
+ return `<svg class="graf" viewBox="0 0 ${W} ${H}" role="img" aria-label="Gráfico dos últimos 30 dias">${g}</svg>`}
+function rosca(itens){const cores=['#F5C518','#C99A10','#6E5A1C'];let a=-Math.PI/2,g='';const R=70,r=44,c=90;
+ itens.forEach(([n,v],k)=>{const b=a+v/100*Math.PI*2,l=v>50?1:0,p=(q,rr)=>[c+rr*Math.cos(q),c+rr*Math.sin(q)];const [x1,y1]=p(a,R),[x2,y2]=p(b,R),[x3,y3]=p(b,r),[x4,y4]=p(a,r);
+  g+=`<path d="M${x1},${y1}A${R},${R} 0 ${l} 1 ${x2},${y2}L${x3},${y3}A${r},${r} 0 ${l} 0 ${x4},${y4}Z" fill="${cores[k]}" stroke="#121213" stroke-width="2"/>`;a=b});
+ return `<svg class="graf" viewBox="0 0 180 180" style="max-width:200px;margin:0 auto">${g}<text x="90" y="96" text-anchor="middle" fill="#F3F0E6" font-size="13" font-weight="700">origem</text></svg><div class="legenda" style="justify-content:center">${itens.map(([n,v],k)=>`<span><i style="background:${cores[k]}"></i>${n} ${v}%</span>`).join('')}</div>`}
+
+const V={
+inicio(d){return `<div class="grade g4">${d.kpis.map(([r,v,p,u])=>`<div class="card kpi"><div class="rot">${r}</div><div class="val">${v}</div><div class="var ${p.startsWith('-')&&!r.startsWith('Custo')?'down':'up'}">${p} <span>vs mês anterior</span></div></div>`).join('')}</div>
+ <div class="grade g21"><div class="card"><h3>Crescimento nos últimos 30 dias</h3><p class="sub">Alcance diário (amarelo) e interações (cinza), em mil.</p>${linha([serie(1,40,10),serie(3,14,4)],['#F5C518','#8E8B83'])}</div>
+ <div class="card"><h3>De onde vêm os contatos</h3><p class="sub">Participação de cada canal no mês.</p>${rosca(d.canais)}</div></div>
+ <div class="grade g3"><div class="card"><h3>Metas do mês</h3><p class="sub">Combinadas no planejamento.</p><div class="lista">${d.metas.map(([n,a,b])=>`<div><div style="display:flex;justify-content:space-between"><span>${n}</span><b>${a} / ${b}</b></div><div class="barra"><i style="width:${Math.min(100,a/b*100)}%"></i></div></div>`).join('')}</div></div>
+ <div class="card"><h3>Precisa da sua aprovação</h3><p class="sub">Conteúdos esperando você.</p><div class="lista">${APROV.filter(p=>p.st==='aguardando').map(p=>`<div class="item"><div><div class="t">${p.titulo}</div><div class="d">${p.t} · ${p.data}</div></div></div>`).join('')}</div><a class="btn am" href="#aprovacoes" style="margin-top:12px;width:100%">Revisar agora</a></div>
+ <div class="card"><h3>Próximos passos</h3><p class="sub">O que a agência está fazendo.</p><div class="lista">${ENTREGAS.filter(e=>e[3]!=='entregue').map(e=>`<div class="item"><div><div class="t">${e[0]}</div><div class="d">Previsto: ${e[2]}</div></div><div class="fim">${chip(e[3])}</div></div>`).join('')}${REUN.slice(0,1).map(r=>`<div class="item"><div><div class="t">${r[0]}</div><div class="d">${r[1]}</div></div></div>`).join('')}</div></div></div>`},
+resultados(d){return `<div class="grade g2"><div class="card"><h3>Seguidores</h3><p class="sub">Evolução diária no Instagram.</p>${linha([serie(2,120,8)],['#F5C518'])}</div><div class="card"><h3>Leads e conversas</h3><p class="sub">Novos contatos por dia.</p>${linha([serie(5,8,3)],['#F5C518'])}</div></div>
+ <div class="card"><h3>Melhores conteúdos do mês</h3><p class="sub">Ordenados por alcance.</p><div class="tab"><table><thead><tr><th>Conteúdo</th><th>Formato</th><th>Alcance</th><th>Salvamentos</th><th>Compart.</th></tr></thead><tbody>
+ ${[['Bastidores da equipe','Reels','38,2 mil','412','188'],['Antes de comprar, veja isso','Carrossel','24,7 mil','655','240'],['Pergunta da semana','Story','11,9 mil','—','36'],['Depoimento de cliente','Post','9,4 mil','121','44']].map(r=>`<tr>${r.map(c=>`<td>${c}</td>`).join('')}</tr>`).join('')}</tbody></table></div></div>`},
+relatorios(){return `<div class="card"><h3>Relatórios mensais</h3><p class="sub">Resumo do mês, o que funcionou e o plano do próximo mês.</p><div class="lista">${['Outubro/2026','Setembro/2026'].map((m,k)=>`<div class="item"><div><div class="t">Relatório de ${m}</div><div class="d">${k?'Entregue em 05/10':'Em produção · entrega 05/11'}</div></div><div class="fim">${chip(k?'entregue':'em produção')}<button class="btn lin" ${k?'':'disabled'} data-toast="Download disponível quando o sistema estiver ligado">Baixar PDF</button></div></div>`).join('')}</div></div>`},
+aprovacoes(){return `<div class="card"><h3>Conteúdos para aprovar</h3><p class="sub">Aprove ou peça ajuste. A equipe é avisada na hora.</p><div class="posts">${APROV.map((p,i)=>`<div class="post"><div class="img">${p.titulo}</div><div class="c"><div style="display:flex;justify-content:space-between;gap:8px"><b>${p.t}</b>${chip(p.st)}</div><div class="d" style="color:var(--apagado);font-size:12.5px">${p.data}</div>${p.st==='aguardando'?`<div class="acoes"><button class="btn am" data-ap="${i}">Aprovar</button><button class="btn lin" data-aj="${i}">Pedir ajuste</button></div>`:''}</div></div>`).join('')}</div></div>`},
+calendario(){const ev={3:['Carrossel'],5:['Reels'],7:['Post'],8:['Story'],10:['Reels','r:Reunião'],12:['Carrossel'],14:['v:Campanha'],17:['Post'],18:['r:Planejamento'],19:['Reels'],21:['Carrossel'],24:['Post'],26:['Reels'],28:['v:Relatório']};
+ let h=['Seg','Ter','Qua','Qui','Sex','Sáb','Dom'].map(d=>`<div class="cab">${d}</div>`).join('')+'<div></div><div></div><div></div><div></div><div></div>';
+ for(let d=1;d<=30;d++)h+=`<div class="dia"><b>${d}</b>${(ev[d]||[]).map(e=>{const [c,t]=e.includes(':')?e.split(':'):['',e];return `<div class="ev ${c}">${t}</div>`}).join('')}</div>`;
+ return `<div class="card"><h3>Novembro/2026</h3><p class="sub">Publicações, campanhas e reuniões do mês.</p><div class="legenda" style="margin-bottom:12px"><span><i style="background:var(--amarelo)"></i>Publicação</span><span><i style="background:var(--ok)"></i>Campanha ou entrega</span><span><i style="background:#9DB8FF"></i>Reunião</span></div><div class="cal">${h}</div></div>`},
+entregas(){return `<div class="card"><h3>Entregas e arquivos</h3><p class="sub">Tudo o que a agência já entregou e o que está a caminho.</p><div class="tab"><table><thead><tr><th>Entrega</th><th>Tipo</th><th>Data</th><th>Status</th><th></th></tr></thead><tbody>${ENTREGAS.map(e=>`<tr><td>${e[0]}</td><td>${e[1]}</td><td>${e[2]}</td><td>${chip(e[3])}</td><td>${e[3]==='entregue'?'<button class="btn lin" data-toast="Download disponível quando o sistema estiver ligado">Abrir</button>':''}</td></tr>`).join('')}</tbody></table></div></div>`},
+campanhas(){return `<div class="grade g3">${[['Investimento no mês','R$ 1.240'],['Leads gerados','214'],['Custo por lead','R$ 6,40']].map(([r,v])=>`<div class="card kpi"><div class="rot">${r}</div><div class="val">${v}</div></div>`).join('')}</div><div class="card"><h3>Campanhas</h3><p class="sub">Anúncios no Meta (Instagram e Facebook).</p><div class="tab"><table><thead><tr><th>Campanha</th><th>Status</th><th>Orçamento</th><th>Custo por lead</th><th>Leads</th></tr></thead><tbody>${CAMP.map(c=>`<tr><td>${c[0]}</td><td>${chip(c[1])}</td><td>${c[2]}</td><td>${c[3]}</td><td>${c[4]}</td></tr>`).join('')}</tbody></table></div></div>`},
+leads(){return `<div class="grade g4">${[['Novos hoje','6'],['Em atendimento','14'],['Propostas','9'],['Fechados no mês','38']].map(([r,v])=>`<div class="card kpi"><div class="rot">${r}</div><div class="val">${v}</div></div>`).join('')}</div><div class="card"><h3>Últimos contatos</h3><p class="sub">Leads que chegaram pelos canais da agência.</p><div class="tab"><table><thead><tr><th>Nome</th><th>Origem</th><th>Etapa</th><th>Quando</th></tr></thead><tbody>${LEADS.map(l=>`<tr><td>${l[0]}</td><td>${l[1]}</td><td>${chip(l[2])}</td><td>${l[3]}</td></tr>`).join('')}</tbody></table></div></div>`},
+pedidos(){return `<div class="grade g21"><div class="card"><h3>Seus pedidos</h3><p class="sub">Acompanhe o que você pediu para a equipe.</p><div class="lista" id="lista-ped">${PEDIDOS.map(p=>`<div class="item"><div><div class="t">${p[0]}</div><div class="d">Aberto em ${p[2]}</div></div><div class="fim">${chip(p[1])}</div></div>`).join('')}</div></div>
+ <form class="card" id="novo-ped"><h3>Fazer um pedido</h3><p class="sub">Arte, ajuste, post novo, dúvida... a equipe responde em até 1 dia útil.</p><div style="display:grid;gap:10px"><label for="ped-t" class="sub" style="margin:0">O que você precisa?</label><textarea id="ped-t" placeholder="Ex.: preciso de um post sobre a promoção de sexta" required></textarea><button class="btn am" type="submit">Enviar pedido</button></div></form></div>`},
+reunioes(){return `<div class="card"><h3>Reuniões</h3><p class="sub">Encontros marcados com a equipe.</p><div class="lista">${REUN.map(r=>`<div class="item"><div><div class="t">${r[0]}</div><div class="d">${r[1]} · ${r[2]}</div></div><div class="fim"><button class="btn lin" data-toast="Link da reunião aparece aqui no dia">Entrar</button></div></div>`).join('')}</div><a class="btn am" style="margin-top:12px" href="https://wa.me/5598985621808?text=Oi%2C%20Lindson%21%20Quero%20marcar%20uma%20reuni%C3%A3o." target="_blank" rel="noopener">Pedir nova reunião</a></div>`},
+contrato(d){return `<div class="grade g2"><div class="card"><h3>Seu plano</h3><p class="sub">Serviços contratados.</p><div class="lista"><div class="item"><div><div class="t">${d.plano}</div><div class="d">Cliente desde ${d.inicio}</div></div><div class="fim">${chip('Ativa')}</div></div></div><button class="btn lin" style="margin-top:12px" data-toast="Contrato em PDF disponível quando o sistema estiver ligado">Ver contrato</button></div>
+ <div class="card"><h3>Pagamentos</h3><p class="sub">Mensalidades da agência.</p><div class="tab"><table><thead><tr><th>Mês</th><th>Vencimento</th><th>Status</th></tr></thead><tbody>${PAGT.map(p=>`<tr><td>${p[0]}</td><td>${p[1]}</td><td>${chip(p[2])}</td></tr>`).join('')}</tbody></table></div></div></div>`}
+};
+const T={inicio:'Visão geral',resultados:'Resultados',relatorios:'Relatórios',aprovacoes:'Aprovações',calendario:'Calendário',entregas:'Entregas e arquivos',campanhas:'Campanhas',leads:'Leads e atendimento',pedidos:'Pedidos à agência',reunioes:'Reuniões',contrato:'Contrato e pagamentos'};
+function render(){const v=(location.hash||'#inicio').slice(1),view=V[v]?v:'inicio',d=BASE[cli];
+ $('#titulo').textContent=T[view];$('#nome-cliente').textContent=d.nome+' · '+d.seg;$('#cliente').value=cli;
+ document.querySelectorAll('.grupo a').forEach(a=>a.toggleAttribute('aria-current',a.dataset.v===view)||a.dataset.v===view&&a.setAttribute('aria-current','page'));
+ document.querySelectorAll('.grupo a').forEach(a=>{if(a.dataset.v===view)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')});
+ $('#n-aprov').textContent=APROV.filter(p=>p.st==='aguardando').length||'';
+ main.innerHTML=V[view](d);$('#menu').classList.remove('aberto');$('#abrir').setAttribute('aria-expanded','false');
+ main.querySelectorAll('[data-ap]').forEach(b=>b.onclick=()=>{APROV[b.dataset.ap].st='aprovado';toast('Aprovado. A equipe foi avisada.');render()});
+ main.querySelectorAll('[data-aj]').forEach(b=>b.onclick=()=>{APROV[b.dataset.aj].st='em revisão';toast('Pedido de ajuste enviado para a equipe.');render()});
+ main.querySelectorAll('[data-toast]').forEach(b=>b.onclick=()=>toast(b.dataset.toast));
+ const f=$('#novo-ped');if(f)f.onsubmit=e=>{e.preventDefault();const t=$('#ped-t').value.trim();if(!t)return;PEDIDOS.unshift([t,'em andamento','hoje']);toast('Pedido enviado. A equipe responde em até 1 dia útil.');render()}}
+$('#cliente').onchange=e=>{cli=e.target.value;try{localStorage.setItem('painel-cliente',cli)}catch(_){}render()};
+$('#abrir').onclick=()=>{const m=$('#menu');m.classList.toggle('aberto');$('#abrir').setAttribute('aria-expanded',m.classList.contains('aberto'))};
+addEventListener('hashchange',render);render();
+})();
+</script>

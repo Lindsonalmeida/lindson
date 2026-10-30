@@ -2,7 +2,8 @@
 
 Um painel único para todos os clientes da agência. O Lindson (admin) vê tudo, e cada cliente vê só o próprio painel. Este README é o ponto de partida para qualquer equipe ou conta que for continuar o projeto.
 
-- **Status:** protótipo da tela de acesso pronto. O painel interno e o login de verdade ainda não foram construídos.
+- **Status:** protótipos prontos da tela de acesso e do painel interno (v1 geral, com dados de exemplo). O login de verdade e o servidor ainda não foram construídos.
+- **Painel interno (v1):** https://claude.ai/artifact/RJrQcfyPeML9AwT5YMGbBZ · código em `prototipo/painel.html` (arquivo único, sem imagens).
 - **Protótipo publicado:** https://claude.ai/artifact/XjCkj5eULmE2Pg8KptnKcV
 - **Histórico de pedidos e decisões do Lindson:** `IDEIAS.md` (leia antes de mudar qualquer coisa).
 
@@ -11,6 +12,7 @@ Um painel único para todos os clientes da agência. O Lindson (admin) vê tudo,
 |---|---|---|
 | `IDEIAS.md` | todas as ideias e decisões, em ordem | sim |
 | `prototipo/login.html` | código da tela de acesso, com marcadores `__NOME__` no lugar das imagens | sim |
+| `prototipo/painel.html` | painel interno v1: visão geral, resultados, relatórios, aprovações, calendário, entregas, campanhas, leads, pedidos, reuniões, contrato e pagamentos | sim |
 | `prototipo/montar.sh` | embute as imagens e gera `prototipo/central-lindson.html` | sim |
 | `fotos/casos/*.webp` | prints dos mini sites dos clientes e capas dos canais (portfólio) | sim |
 | `fotos/rec-68.webp`, `principal-cine.webp`, `principal-prof.webp` | foto do Lindson recortada, tratada e mapa de profundidade | **não** (dado pessoal: peça ao Lindson) |

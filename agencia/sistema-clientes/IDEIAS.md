@@ -107,3 +107,7 @@
       - nos canais, uma capa grande e 3 menores.
     - **Botão "Quero contratar"** fixo no topo da vitrine, abrindo o WhatsApp do Lindson com mensagem pronta.
     - `README.md` criado para outras equipes continuarem.
+16. **Painel interno v1 (30/10).** Versão geral, que depois vamos customizar para cada cliente.
+    - **Seletor de cliente:** visão do admin.
+    - **Menu:** Visão geral, Resultados, Relatórios, Aprovações (aprovar ou pedir ajuste), Calendário, Entregas e arquivos, Campanhas, Leads e atendimento, Pedidos à agência, Reuniões, Contrato e pagamentos, e botão de WhatsApp.
+    - **Dados:** todos de exemplo e marcados assim na tela. O sistema real puxa de cada cliente: Supermetrics/Meta para redes e anúncios, e o banco para o resto.
