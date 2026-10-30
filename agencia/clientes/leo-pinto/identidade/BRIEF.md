@@ -17,8 +17,8 @@
 
 ## Entradas pendentes (pedir ao Lindson)
 1. Partido e número de urna.
-2. Cidade (e bairros/regiões fortes).
-3. Fotos do Leo (uma por mensagem), fotos da cidade.
+2. Cidade: **São João Batista – MA** (recebida). Falta: bairros/povoados fortes.
+3. Fotos do Leo: 30 baixadas do álbum do Google Fotos para `fotos/` (fora do Git). Falta: fotos da cidade.
 4. Bandeiras/causas principais e se é reeleição ou primeira campanha.
 
 ## Time
