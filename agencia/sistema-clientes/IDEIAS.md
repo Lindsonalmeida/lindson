@@ -77,3 +77,5 @@
    - Todas em **duotone amarelo e preto**: uma cor só, que deixa tudo coerente e profissional.
    - Faixas de luz em espiral animadas.
    - A parede do portfólio passa em loop contínuo no fundo.
+10. **Decisão final do slide 1 (30/10): só a foto principal** (mãos no queixo, `fotos/68.jpg`), centralizada, com luz dourada atrás. Sem montagem, sem várias fotos e sem portfólio no fundo.
+    - O portfólio fica nos **slides seguintes, um trabalho por página**, passando para o lado sozinho.

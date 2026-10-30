@@ -30,38 +30,18 @@ body{background:var(--preto);color:var(--texto);font-family:var(--f-corpo)}
 .marca{position:absolute;z-index:6;top:calc(28px + env(safe-area-inset-top,0px));left:max(32px,env(safe-area-inset-left,0px));display:flex;align-items:center;gap:10px;font:500 12px var(--f-dado);letter-spacing:.32em;text-transform:uppercase;color:var(--texto)}
 .marca i{width:22px;height:2px;background:var(--amarelo)}
 
-/* Slide 1: retrato de autoridade sobre a parede do portfólio real */
-.cartaz{background:#050505}
-.parede{position:absolute;inset:-30% -14%;transform:rotate(-9deg) scale(1.08);display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px;opacity:.9;overflow:hidden}
-.parede div{display:flex;flex-direction:column;gap:14px;animation:sobe 48s linear infinite;will-change:transform}
-.parede div:nth-child(even){animation-name:desce;animation-duration:56s}
-.parede div:nth-child(3){animation-duration:40s}
-.parede img{width:100%;display:block;border-radius:10px;box-shadow:0 10px 30px rgba(0,0,0,.6)}
-@keyframes sobe{from{transform:translateY(0)}to{transform:translateY(calc(-50% - 7px))}}
-@keyframes desce{from{transform:translateY(calc(-50% - 7px))}to{transform:translateY(0)}}
-.veu{position:absolute;inset:0;background:radial-gradient(48% 60% at 50% 45%,rgba(5,5,5,.94) 35%,rgba(5,5,5,.62) 72%,rgba(5,5,5,.8)),linear-gradient(to top,#050505 8%,transparent 45%),linear-gradient(to bottom,rgba(5,5,5,.85),transparent 22%)}
-.tinta{position:absolute;inset:0;background:linear-gradient(135deg,rgba(245,197,24,.18),transparent 40%,rgba(245,197,24,.10));mix-blend-mode:color;pointer-events:none}
-.halo{position:absolute;left:50%;bottom:30%;width:min(78%,640px);aspect-ratio:1;transform:translateX(-50%);border-radius:50%;
-  background:radial-gradient(circle,rgba(245,197,24,.34),rgba(245,170,24,.12) 42%,transparent 68%)}
-.arco{position:absolute;left:50%;bottom:30%;width:min(72%,580px);aspect-ratio:1;transform:translateX(-50%);border-radius:50%;
-  border:2px solid transparent;border-top-color:rgba(255,221,85,.9);border-right-color:rgba(245,197,24,.35);filter:drop-shadow(0 0 10px rgba(245,197,24,.8));animation:arco 14s linear infinite}
-@keyframes arco{to{transform:translateX(-50%) rotate(360deg)}}
-.elenco{position:absolute;inset:0;z-index:2}
-.fig{position:absolute;filter:drop-shadow(0 24px 40px rgba(0,0,0,.85))}
-.fig img{display:block;width:100%;height:auto;-webkit-mask-image:linear-gradient(to bottom,#000 62%,transparent 98%),linear-gradient(to right,transparent 0,#000 14%,#000 86%,transparent 100%);-webkit-mask-composite:source-in;
-  mask-image:linear-gradient(to bottom,#000 62%,transparent 98%),linear-gradient(to right,transparent 0,#000 14%,#000 86%,transparent 100%);mask-composite:intersect}
-.f69{left:-4%;top:-3%;width:47%;filter:brightness(.78) drop-shadow(0 24px 40px rgba(0,0,0,.85))}
-.f68{right:-6%;top:-4%;width:46%;filter:brightness(.8) drop-shadow(0 24px 40px rgba(0,0,0,.85))}
-.f71{left:0;bottom:15%;width:35%;filter:brightness(.9) drop-shadow(0 24px 40px rgba(0,0,0,.85))}
-.f72{right:0;bottom:14%;width:35%;filter:brightness(.9) drop-shadow(0 24px 40px rgba(0,0,0,.85))}
-.f70{left:50%;bottom:11%;width:min(36%,320px);transform:translateX(-50%);filter:drop-shadow(0 0 22px rgba(245,197,24,.35)) drop-shadow(0 24px 40px rgba(0,0,0,.9))}
-.f69 img,.f68 img{-webkit-mask-image:linear-gradient(to bottom,#000 45%,transparent 85%),linear-gradient(to right,transparent 0,#000 14%,#000 86%,transparent 100%);mask-image:linear-gradient(to bottom,#000 45%,transparent 85%),linear-gradient(to right,transparent 0,#000 14%,#000 86%,transparent 100%)}
-.f70 img{-webkit-mask-image:linear-gradient(to bottom,#000 80%,transparent 100%);mask-image:linear-gradient(to bottom,#000 80%,transparent 100%)}
-.espiral{position:absolute;inset:0;z-index:3;width:100%;height:100%;pointer-events:none;mix-blend-mode:screen}
-.espiral path{fill:none;stroke-linecap:round;stroke-dasharray:var(--d) 1400;animation:corre 7s linear infinite}
-.espiral path:nth-child(2){animation-duration:12s;animation-direction:reverse}
-.espiral path:nth-child(3){animation-duration:15s}
-@keyframes corre{to{stroke-dashoffset:-2300}}
+/* Slide 1: retrato principal, centralizado, sobre fundo escuro com luz dourada */
+.cartaz{background:radial-gradient(55% 60% at 50% 38%,#1C1607 0%,#0A0905 45%,#050505 75%)}
+.halo{position:absolute;left:50%;top:6%;width:min(86%,720px);aspect-ratio:1;transform:translateX(-50%);border-radius:50%;
+  background:radial-gradient(circle,rgba(245,197,24,.30),rgba(245,170,24,.10) 40%,transparent 66%);animation:respira 7s ease-in-out infinite}
+@keyframes respira{50%{opacity:.75;transform:translateX(-50%) scale(1.04)}}
+.feixe-luz{position:absolute;inset:0;background:linear-gradient(115deg,transparent 30%,rgba(255,221,85,.10) 45%,transparent 60%);background-size:250% 100%;animation:varre 9s ease-in-out infinite;mix-blend-mode:screen}
+@keyframes varre{0%{background-position:120% 0}100%{background-position:-60% 0}}
+.principal{position:absolute;left:50%;bottom:0;transform:translateX(-50%);height:96%;aspect-ratio:768/1214;max-width:100%;z-index:2}
+.principal img{display:block;width:100%;height:100%;object-fit:contain;object-position:bottom;filter:contrast(1.06) drop-shadow(0 0 40px rgba(245,197,24,.18));
+  -webkit-mask-image:linear-gradient(to bottom,#000 66%,transparent 97%),linear-gradient(to right,transparent 0,#000 18%,#000 82%,transparent 100%);-webkit-mask-composite:source-in;
+  mask-image:linear-gradient(to bottom,#000 66%,transparent 97%),linear-gradient(to right,transparent 0,#000 18%,#000 82%,transparent 100%);mask-composite:intersect}
+.base-escura{position:absolute;inset:auto 0 0 0;height:34%;z-index:3;background:linear-gradient(to top,#050505 30%,rgba(5,5,5,.85) 58%,transparent)}
 .titulo-cartaz{position:absolute;z-index:5;left:0;right:0;bottom:calc(64px + env(safe-area-inset-bottom,0px));text-align:center;padding-inline:24px}
 .titulo-cartaz .pre{font:500 13px var(--f-dado);letter-spacing:.5em;color:var(--texto);text-transform:uppercase;text-shadow:0 2px 12px #000,0 0 4px #000}
 .titulo-cartaz h1{margin:.1em 0 0;font:900 clamp(46px,6.4vw,104px)/.86 var(--f-titulo);letter-spacing:.02em;text-transform:uppercase;color:var(--amarelo);
@@ -134,7 +114,7 @@ body{background:var(--preto);color:var(--texto);font-family:var(--f-corpo)}
   .caso .media{order:-1}
   .acesso{padding-block:40px 64px}
 }
-@media (prefers-reduced-motion:reduce){.parede div,.arco,.espiral path{animation:none}.trilho{transition:none}.controles button.ativo span i{animation:none;width:100%}}
+@media (prefers-reduced-motion:reduce){.halo,.feixe-luz{animation:none}.trilho{transition:none}.controles button.ativo span i{animation:none;width:100%}}
 </style>
 
 <main class="tela">
@@ -143,22 +123,9 @@ body{background:var(--preto);color:var(--texto);font-family:var(--f-corpo)}
     <div class="trilho" id="trilho">
 
       <article class="slide cartaz" aria-label="Lindson Almeida, estrategista digital">
-        <div class="parede" aria-hidden="true"><div><img src="__T00__" alt=""><img src="__T05__" alt=""><img src="__T10__" alt=""><img src="__T15__" alt=""><img src="__T00__" alt=""><img src="__T05__" alt=""><img src="__T10__" alt=""><img src="__T15__" alt=""></div><div><img src="__T01__" alt=""><img src="__T06__" alt=""><img src="__T11__" alt=""><img src="__T16__" alt=""><img src="__T01__" alt=""><img src="__T06__" alt=""><img src="__T11__" alt=""><img src="__T16__" alt=""></div><div><img src="__T02__" alt=""><img src="__T07__" alt=""><img src="__T12__" alt=""><img src="__T17__" alt=""><img src="__T02__" alt=""><img src="__T07__" alt=""><img src="__T12__" alt=""><img src="__T17__" alt=""></div><div><img src="__T03__" alt=""><img src="__T08__" alt=""><img src="__T13__" alt=""><img src="__T18__" alt=""><img src="__T03__" alt=""><img src="__T08__" alt=""><img src="__T13__" alt=""><img src="__T18__" alt=""></div><div><img src="__T04__" alt=""><img src="__T09__" alt=""><img src="__T14__" alt=""><img src="__T19__" alt=""><img src="__T04__" alt=""><img src="__T09__" alt=""><img src="__T14__" alt=""><img src="__T19__" alt=""></div></div>
-        <div class="veu" aria-hidden="true"></div>
-        <div class="tinta" aria-hidden="true"></div>
         <div class="halo" aria-hidden="true"></div>
-        <div class="elenco">
-          <div class="fig f69" aria-hidden="true"><img src="__D69__" alt=""></div>
-          <div class="fig f68" aria-hidden="true"><img src="__D68__" alt=""></div>
-          <div class="fig f71" aria-hidden="true"><img src="__D71__" alt=""></div>
-          <div class="fig f72" aria-hidden="true"><img src="__D72__" alt=""></div>
-          <div class="fig f70"><img src="__D70__" alt="Lindson Almeida"></div>
-        </div>
-        <svg class="espiral" viewBox="0 0 800 900" preserveAspectRatio="none" aria-hidden="true">
-          <defs><filter id="brilho" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
-          <path style="--d:900" filter="url(#brilho)" stroke="#FFD84D" stroke-width="5" d="M-40 640 C 120 480, 260 760, 420 600 S 700 420, 860 560"/>
-          <path style="--d:700" filter="url(#brilho)" stroke="#F5C518" stroke-width="3.5" d="M-40 420 C 160 300, 300 520, 470 380 S 760 240, 860 330"/>
-        </svg>
+        <div class="feixe-luz" aria-hidden="true"></div>
+        <div class="principal"><img src="__F68__" alt="Lindson Almeida"></div>
         <div class="base-escura" aria-hidden="true"></div>
         <div class="titulo-cartaz">
           <div class="pre">Estrategista digital</div>
