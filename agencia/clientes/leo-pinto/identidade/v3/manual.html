@@ -1,0 +1,215 @@
+<!doctype html><html lang="pt-BR"><meta charset="utf-8"><title>Leo Pinto · Manual de identidade v3</title>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="marca.js"></script>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Inter;color:#0A2A5E;-webkit-font-smoothing:antialiased}
+.p{width:1080px;height:1350px;position:relative;overflow:hidden;page-break-after:always;background:#F4EFE6}
+.p.gr::after{content:"";position:absolute;inset:0;background-image:var(--grain);mix-blend-mode:overlay;opacity:.5;pointer-events:none;z-index:50}
+.d{font-family:Archivo;font-weight:900;font-stretch:72%;line-height:.84;letter-spacing:-.01em}
+.h{font-family:Archivo;font-weight:900;font-stretch:72%;font-size:112px;line-height:.86;margin:0;text-transform:uppercase}
+.k{font-weight:600;font-size:14px;letter-spacing:.3em;text-transform:uppercase}
+.lead{font-size:22px;line-height:1.55;max-width:760px;margin:0}
+.top{position:absolute;left:72px;right:72px;top:56px;display:flex;justify-content:space-between;align-items:center;z-index:40}
+.top .k{font-size:12px}
+.bot{position:absolute;left:72px;right:72px;bottom:46px;display:flex;justify-content:space-between;z-index:40;font-size:11px;letter-spacing:.3em;text-transform:uppercase;font-weight:600;opacity:.55}
+.card{background:#fff;border-radius:22px;box-shadow:0 1px 0 #0A2A5E10,0 30px 60px -30px #0A2A5E40}
+.lb{font-size:13px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;opacity:.6;margin-top:14px}
+.rule{height:1.5px;background:currentColor;opacity:.18}
+</style><body><script>
+document.documentElement.style.setProperty('--grain',GRAIN);
+const top_=(sec,n,c=C.n)=>`<div class="top" style="color:${c}"><span class="k">${sec}</span><span class="k">${String(n).padStart(2,'0')} / 20</span></div>`;
+const bot_=(c=C.n)=>`<div class="bot" style="color:${c}"><span>Leo Pinto · Manual de identidade</span><span>Do povo, pro povo.</span></div>`;
+const P=[];const az=azulejo();const azN=azulejo({fg:'#ffffff22',bg:'transparent',ac:'#ffffff14',su:'#FFC20E55'});
+const rim='filter:drop-shadow(-5px -2px 0 #F26A1BCC) drop-shadow(0 0 38px #F26A1B88) drop-shadow(0 40px 40px #0006)';
+
+// 01 CAPA
+P.push(`<div class="p gr" style="background:radial-gradient(70% 55% at 55% 45%,#123E86 0%,#0A2A5E 55%,#061A3D 100%)">
+<svg style="position:absolute;inset:0" viewBox="0 0 1080 1350"><defs>${azN.def}</defs><rect width="1080" height="1350" fill="url(#${azN.id})" opacity=".55"/></svg>
+<div class="d" style="position:absolute;left:-20px;right:-20px;top:250px;text-align:center;font-size:600px;color:#F26A1B;letter-spacing:-.02em">LEO</div>
+<img src="fotos/leo-polo-bordada.png" style="position:absolute;left:50%;transform:translateX(-50%);bottom:0;height:1080px;${rim}">
+<div style="position:absolute;left:0;right:0;bottom:0;height:420px;background:linear-gradient(transparent,#061A3DF2 70%)"></div>
+<div style="position:absolute;left:72px;top:64px">${lockup({fs:54,c1:'#fff',c2:C.a,tc:C.g})}</div>
+<div style="position:absolute;right:72px;top:56px">${selo({s:130})}</div>
+<div style="position:absolute;left:72px;right:72px;bottom:70px;color:#fff;display:flex;justify-content:space-between;align-items:flex-end">
+<div><div class="k" style="color:${C.a}">Manual de identidade · Mandato</div><div class="d" style="font-size:118px;margin-top:16px;text-transform:uppercase">Do povo,<br><span style="color:${C.a}">pro povo.</span></div></div>
+<div class="k" style="text-align:right;line-height:2;opacity:.8">São João Batista<br>Baixada Maranhense</div></div></div>`);
+
+// 02 SUMÁRIO
+const SUM=[['Essência','03'],['O símbolo','04'],['Assinatura e versões','05'],['Selo de mandato','07'],['Cores e regras','08'],['Paleta','10'],['Tipografia','11'],['Ícones','12'],['Azulejo da Baixada','13'],['Grafismos','14'],['Fotografia','15'],['Aplicações','16']];
+P.push(`<div class="p">${top_('Sumário',2)}<div style="position:absolute;left:72px;top:150px"><h2 class="h">O que<br>tem aqui</h2></div>
+<div style="position:absolute;left:72px;right:72px;top:450px">${SUM.map(([t,n],i)=>`<div style="display:flex;align-items:baseline;justify-content:space-between;padding:15px 0;border-top:1.5px solid #0A2A5E22"><span style="display:flex;gap:28px;align-items:baseline"><span class="d" style="font-size:26px;color:${C.l};width:40px">${String(i+1).padStart(2,'0')}</span><span class="d" style="font-size:46px;text-transform:uppercase">${t}</span></span><span class="k" style="opacity:.5">p. ${n}</span></div>`).join('')}</div>${bot_()}</div>`);
+
+// 03 ESSÊNCIA (Donald Miller · StoryBrand)
+P.push(`<div class="p gr" style="background:${C.l};color:#fff">${top_('01 · Essência',3,'#fff')}
+<div style="position:absolute;left:72px;right:72px;top:150px"><div class="k" style="color:${C.n}">A grande ideia</div><h2 class="h" style="font-size:136px;margin-top:22px">O herói é<br>o povo da<br><span style="color:${C.n}">Baixada.</span></h2>
+<p class="lead" style="margin-top:36px;font-size:24px">O Leo não é o salvador. Ele é quem caminha junto: escuta na porta de casa, leva a demanda para a Câmara e volta para mostrar o que foi feito. A marca existe para provar presença.</p></div>
+<div style="position:absolute;left:72px;right:72px;bottom:120px;display:grid;grid-template-columns:repeat(3,1fr);gap:22px">
+${[['Propósito','Levar a voz de São João Batista para dentro da Câmara e voltar com resposta.'],['Personalidade','Cara do povo, trabalhador e animado. Firme sem ser arrogante.'],['Tom de voz','Simples, direto, de conversa na calçada. Fala “a gente”, mostra o feito.']].map(([t,x])=>`<div style="background:#ffffff1f;border:1.5px solid #ffffff55;border-radius:20px;padding:26px"><div class="d" style="font-size:40px;text-transform:uppercase">${t}</div><div style="font-size:17px;line-height:1.5;margin-top:12px">${x}</div></div>`).join('')}</div>${bot_('#fff')}</div>`);
+
+// 04 SÍMBOLO (construção)
+P.push(`<div class="p gr" style="background:${C.n};color:#fff">${top_('02 · O símbolo',4,'#fff')}
+<div style="position:absolute;left:72px;top:140px"><h2 class="h">Um traço,<br>três histórias</h2></div>
+<div style="position:absolute;left:190px;top:420px;width:700px;height:700px">
+<svg viewBox="0 0 200 200" width="700" height="700" style="position:absolute;inset:0"><g stroke="#3FB8E8" stroke-width=".25" fill="none" opacity=".55">${[...Array(21)].map((_,i)=>`<path d="M${i*10} 0V200M0 ${i*10}H200"/>`).join('')}</g><circle cx="100" cy="100" r="98" fill="none" stroke="#3FB8E8" stroke-width=".4" stroke-dasharray="1.5 1.5"/></svg>
+<div style="position:absolute;inset:0">${mono({s:700})}</div>
+<svg viewBox="0 0 200 200" width="700" height="700" style="position:absolute;inset:0;overflow:visible"><g fill="none" stroke="#fff" stroke-width=".45"><circle cx="135" cy="78" r="37" stroke-dasharray="1.2 1.2"/><path d="M66 41V159M98 41V159" stroke-dasharray="1.2 1.2"/></g></svg></div>
+<div style="position:absolute;left:72px;right:72px;bottom:110px;display:grid;grid-template-columns:repeat(3,1fr);gap:30px">
+${[[C.w,'A haste','O Leo de pé, firme, presente na rua.'],[C.a,'O sol','O bojo do P. Trabalho que começa cedo.'],[C.g,'A água','O pé do L. Os campos e lagos da Baixada.']].map(([c,t,x])=>`<div style="border-top:6px solid ${c};padding-top:18px"><div class="d" style="font-size:44px;text-transform:uppercase">${t}</div><div style="font-size:17px;line-height:1.5;margin-top:8px;opacity:.85">${x}</div></div>`).join('')}</div>${bot_('#fff')}</div>`);
+
+// 05 LOGO PRINCIPAL
+P.push(`<div class="p">${top_('03 · Assinatura',5)}<div style="position:absolute;left:72px;top:140px"><h2 class="h">Assinatura<br>principal</h2></div>
+<div class="card" style="position:absolute;left:72px;right:72px;top:420px;height:560px;display:grid;place-items:center">${lockup({fs:132})}</div>
+<div style="position:absolute;left:72px;right:72px;top:1020px;display:grid;grid-template-columns:1fr 1fr;gap:40px;font-size:18px;line-height:1.55"><p style="margin:0">O monograma sempre à esquerda. O nome em Archivo condensada, com <b style="color:${C.l}">PINTO</b> na cor de destaque.</p><p style="margin:0">O cargo e a cidade vão embaixo, com espaçamento largo. Em peças de rua, o cargo pode sair.</p></div>${bot_()}</div>`);
+
+// 06 VERSÕES
+const vbox=(h,lab,bg='#fff',st='')=>`<div><div class="card" style="height:${h}px;background:${bg};display:grid;place-items:center;${st}">${lab[0]}</div><div class="lb">${lab[1]}</div></div>`;
+P.push(`<div class="p">${top_('03 · Versões',6)}<div style="position:absolute;left:72px;top:140px"><h2 class="h">Versões<br>da marca</h2></div>
+<div style="position:absolute;left:72px;right:72px;top:420px;display:grid;grid-template-columns:1fr 1fr;gap:26px 26px">
+${vbox(340,[`<div style="text-align:center">${mono({s:150})}<div style="margin-top:18px">${word({fs:64,tag:'Vereador',stack:false})}</div></div>`,'Vertical'])}
+${vbox(340,[selo({s:270}),'Selo de mandato'])}
+${vbox(200,[`<div style="display:flex;align-items:center;gap:18px">${mono({s:96})}${word({fs:62,tag:''})}</div>`,'Horizontal compacta'])}
+${vbox(200,[`<div style="display:flex;gap:28px;align-items:center">${mono({s:120})}${mono({s:72})}${mono({s:40})}${mono({s:24})}</div>`,'Monograma · até 24 px'])}
+${vbox(150,[`<div style="display:flex;align-items:center;gap:16px">${mono({s:64})}<div><div class="k" style="font-size:11px;opacity:.7">Gabinete do vereador</div>${word({fs:40,tag:''})}</div></div>`,'Assinatura institucional'])}
+${vbox(150,[`<div style="display:flex;gap:16px">${['#F26A1B','#0E4DA4','#0A2A5E','#FFC20E'].map(b=>mono({s:86,bg:b,sun:b=='#FFC20E'?'#F26A1B':C.a,L:b=='#FFC20E'?C.n:C.w})).join('')}</div>`,'Avatar das redes'])}
+</div>${bot_()}</div>`);
+
+// 07 SELO DE MANDATO
+P.push(`<div class="p gr" style="background:${C.b};color:#fff"><svg style="position:absolute;inset:0" viewBox="0 0 1080 1350"><defs>${azN.def.replace(azN.id,azN.id+'b')}</defs><rect width="1080" height="1350" fill="url(#${azN.id}b)"/></svg>${top_('04 · Selo de mandato',7,'#fff')}
+<div style="position:absolute;left:72px;top:140px"><h2 class="h">O selo<br>do mandato</h2></div>
+<div style="position:absolute;left:50%;top:420px;transform:translateX(-50%);filter:drop-shadow(0 40px 50px #0008)">${selo({s:620})}</div>
+<p class="lead" style="position:absolute;left:72px;bottom:110px;font-size:20px">Carimba o que foi entregue: obra, ação, prestação de contas. Vai em posts de resultado, documentos, adesivos e brindes. Não substitui a assinatura principal.</p>${bot_('#fff')}</div>`);
+
+// 08 CORES DE FUNDO
+const cbox=(bg,html)=>`<div style="background:${bg};display:grid;place-items:center">${html}</div>`;
+P.push(`<div class="p" style="display:grid;grid-template-columns:1fr 1fr;grid-template-rows:repeat(3,1fr)">
+${cbox(C.n,lockup({fs:62,c1:'#fff',c2:C.a,tc:C.g}))}
+${cbox(C.l,lockup({fs:62,c1:'#fff',c2:C.n,tc:'#fff',m:{bg:'#fff',L:C.l,sun:C.a,water:C.b}}))}
+${cbox(C.a,lockup({fs:62,c1:C.n,c2:C.l,m:{bg:C.n,sun:C.a}}))}
+${cbox(C.b,lockup({fs:62,c1:'#fff',c2:C.a,tc:'#fff'}))}
+${cbox('#fff',lockup({fs:62,c1:C.n,c2:C.n,m:{bg:C.n,sun:'#fff',L:'#fff',water:'#fff'}}))}
+${cbox('#111',lockup({fs:62,c1:'#fff',c2:'#fff',tc:'#fff',m:{bg:'#fff',sun:'#111',L:'#111',water:'#111'}}))}
+<div style="position:absolute;inset:0;pointer-events:none">${top_('05 · Cores de fundo',8,'#fff')}</div>
+<div style="position:absolute;right:40px;bottom:22px;font-size:11px;letter-spacing:.3em;text-transform:uppercase;font-weight:600;color:#fff;opacity:.6">Uma cor: bordado, carimbo e P&amp;B</div></div>`);
+
+// 09 REGRAS
+const no=(t,st,m={})=>`<div><div class="card" style="height:170px;display:grid;place-items:center;position:relative;overflow:hidden"><div style="${st}">${lockup({fs:34,tag:'',...m})}</div><svg viewBox="0 0 10 10" preserveAspectRatio="none" style="position:absolute;inset:0;width:100%;height:100%"><path d="M0 10L10 0" stroke="#E0262B" stroke-width=".12"/></svg></div><div class="lb">${t}</div></div>`;
+P.push(`<div class="p">${top_('05 · Regras de uso',9)}<div style="position:absolute;left:72px;top:140px"><h2 class="h">Respiro<br>e cuidado</h2></div>
+<div class="card" style="position:absolute;left:72px;right:72px;top:420px;height:340px;display:grid;place-items:center"><div style="position:relative;padding:60px;background:repeating-linear-gradient(45deg,#3FB8E81a 0 8px,transparent 8px 16px);outline:2px dashed #3FB8E8">${lockup({fs:80})}<div style="position:absolute;left:0;top:0;width:60px;height:60px;display:grid;place-items:center;font-family:Archivo;font-weight:800;color:${C.b}">x</div></div></div>
+<div style="position:absolute;left:72px;right:72px;top:790px;display:grid;grid-template-columns:1fr 1fr;gap:40px;font-size:17px;line-height:1.55"><p style="margin:0"><b>Área de proteção:</b> x = metade do monograma, em volta de toda a assinatura.</p><p style="margin:0"><b>Tamanho mínimo:</b> assinatura com 30 mm ou 160 px; monograma com 8 mm ou 24 px.</p></div>
+<div style="position:absolute;left:72px;right:72px;top:930px;display:grid;grid-template-columns:repeat(4,1fr);gap:18px">${no('Não distorcer','transform:scaleX(1.45)')}${no('Não trocar cores','',{m:{bg:'#7B2CBF',sun:'#2EC4B6'},c2:'#2EC4B6'})}${no('Não girar','transform:rotate(-15deg)')}${no('Não pôr sombra','filter:drop-shadow(6px 8px 0 #0008)')}</div>${bot_()}</div>`);
+
+// 10 PALETA
+const CO=[['Laranja Baixada',C.l,'242 106 27','0 70 95 0','1585 C'],['Amarelo Sol',C.a,'255 194 14','0 25 100 0','7408 C'],['Água',C.g,'63 184 232','65 5 0 0','298 C'],['Azul Mandato',C.b,'14 77 164','100 70 0 0','2945 C'],['Azul Noite',C.n,'10 42 94','100 85 30 20','2768 C']];
+P.push(`<div class="p" style="background:#fff">${top_('06 · Paleta',10)}<div style="position:absolute;left:72px;top:140px"><h2 class="h">Cores do<br>mandato</h2></div>
+<div style="position:absolute;left:72px;right:72px;top:420px;height:600px;display:grid;grid-template-columns:2fr 1fr 1fr;grid-template-rows:1fr 1fr;gap:14px">
+${CO.map(([n,h,r,c,p],i)=>`<div style="background:${h};border-radius:20px;padding:24px;display:flex;flex-direction:column;justify-content:space-between;color:${i==1||i==2?C.n:'#fff'};${i==3?'grid-column:1;grid-row:1':i==4?'grid-column:1;grid-row:2':''}"><div class="d" style="font-size:${i>2?54:36}px;text-transform:uppercase">${n}</div><div style="font-size:13px;line-height:1.75;font-weight:500"><b>HEX</b> ${h}<br><b>RGB</b> ${r}<br><b>CMYK</b> ${c}<br><b>Pantone*</b> ${p}</div></div>`).join('')}</div>
+<div style="position:absolute;left:72px;right:72px;top:1050px"><div class="k" style="font-size:11px;opacity:.6">Proporção de uso</div><div style="display:flex;height:34px;border-radius:10px;overflow:hidden;margin-top:12px"><div style="flex:40;background:${C.n}"></div><div style="flex:22;background:${C.b}"></div><div style="flex:18;background:${C.l}"></div><div style="flex:12;background:${C.a}"></div><div style="flex:8;background:${C.g}"></div></div><div style="font-size:12px;opacity:.6;margin-top:14px">* Pantone aproximado. Pedir prova de cor à gráfica antes de imprimir.</div></div>${bot_()}</div>`);
+
+// 11 TIPOGRAFIA
+P.push(`<div class="p gr" style="background:${C.n};color:#fff">${top_('07 · Tipografia',11,'#fff')}
+<div style="position:absolute;left:72px;right:72px;top:140px"><div class="k" style="color:${C.a}">Títulos · Archivo Condensed Black</div>
+<div style="display:flex;align-items:flex-end;gap:40px;margin-top:20px"><div class="d" style="font-size:380px">Aa</div><div class="d" style="font-size:54px;line-height:1;padding-bottom:30px">ABCDEFGHIJKLM<br>NOPQRSTUVWXYZ<br><span style="color:${C.g}">0123456789 !?</span></div></div>
+<div class="rule" style="margin:70px 0;color:#fff"></div>
+<div class="k" style="color:${C.a}">Textos · Inter Regular, Medium e SemiBold</div>
+<div style="display:flex;gap:40px;align-items:flex-start;margin-top:14px"><div style="font-size:160px;font-weight:600;line-height:1">Aa</div><p style="font-size:22px;line-height:1.6;margin:10px 0 0">A Archivo condensada fala alto, como faixa de rua. A Inter explica com calma, como prestação de contas. As duas são gratuitas no Google Fonts.</p></div>
+<div class="rule" style="margin:34px 0;color:#fff"></div>
+<div class="k" style="color:${C.a}">Hierarquia</div><div style="margin-top:18px"><div class="d" style="font-size:86px;text-transform:uppercase">Ponte <span style="color:${C.l}">entregue</span></div><div style="font-size:24px;font-weight:600;margin-top:12px">Povoado Ribeiro ganhou passagem segura no inverno.</div><div style="font-size:17px;opacity:.75;margin-top:8px">Pedido feito pela comunidade em março. Indicação 014/2025.</div></div></div>${bot_('#fff')}</div>`);
+
+// 12 ÍCONES
+const KS=Object.keys(ICONS);const IB=[C.b,C.l,C.n,C.g,C.b,C.n,C.l,C.n,C.b,C.l,C.n,C.g];
+P.push(`<div class="p">${top_('08 · Ícones',12)}<div style="position:absolute;left:72px;top:140px"><h2 class="h">Ícones do<br>mandato</h2><p class="lead" style="margin-top:20px;font-size:19px">Traço único com um acento amarelo, sempre dentro do círculo. Destaques do Instagram, prestação de contas e sinalização do gabinete.</p></div>
+<div style="position:absolute;left:72px;right:72px;top:530px;display:grid;grid-template-columns:repeat(4,1fr);row-gap:30px;justify-items:center">${KS.map((k,i)=>`<div style="text-align:center">${icon(k,{bg:IB[i],ac:IB[i]==C.l?C.n:C.a,s:192})}<div class="lb" style="margin-top:10px">${k}</div></div>`).join('')}</div>${bot_()}</div>`);
+
+// 13 AZULEJO
+const az2=azulejo({s:180});
+P.push(`<div class="p"><svg style="position:absolute;inset:0" viewBox="0 0 1080 1350"><defs>${az2.def}</defs><rect width="1080" height="1350" fill="url(#${az2.id})"/></svg>
+${top_('09 · Azulejo da Baixada',13)}
+<div class="card" style="position:absolute;left:72px;right:72px;bottom:110px;padding:44px 48px;display:flex;gap:40px;align-items:center"><div style="flex:1"><h2 class="h" style="font-size:84px">Azulejo<br>da Baixada</h2></div><p style="flex:1.2;font-size:18px;line-height:1.55;margin:0">O Maranhão é a terra do azulejo. O padrão do Leo leva esse desenho para a Baixada: o sol no centro, a flor em quatro pétalas e as águas nos cantos. Encaixados, os cantos formam círculos, como a comunidade que se junta.</p></div>${bot_()}</div>`);
+
+// 14 GRAFISMOS
+const az3=azulejo({fg:C.w,bg:C.l,ac:C.n,su:C.a,s:90});
+P.push(`<div class="p" style="background:#fff">${top_('10 · Grafismos',14)}<div style="position:absolute;left:72px;top:140px"><h2 class="h">Grafismos</h2></div>
+<div style="position:absolute;left:72px;top:300px;width:450px;height:450px;border-radius:22px;overflow:hidden"><svg viewBox="0 0 450 450" width="450" height="450"><rect width="450" height="450" fill="${C.b}"/><circle cx="330" cy="140" r="110" fill="${C.a}"/>${wave(C.g,250,30,450,400)}${wave(C.n,300,30,450,400)}${wave(C.l,350,24,450,400)}</svg></div>
+<div style="position:absolute;right:72px;top:300px;width:450px;height:450px;border-radius:22px;overflow:hidden"><svg viewBox="0 0 450 450" width="450" height="450"><defs>${az3.def}</defs><rect width="450" height="450" fill="url(#${az3.id})"/></svg></div>
+<div style="position:absolute;left:72px;right:72px;top:780px;display:flex;justify-content:space-between" class="lb"><span>Sol e águas</span><span>Azulejo invertido</span></div>
+<div style="position:absolute;left:72px;right:72px;top:850px;height:190px;border-radius:22px;background:${C.a};overflow:hidden;padding-top:6px">${flags(13,936)}</div>
+<div style="position:absolute;left:0;right:0;top:1080px;transform:rotate(-3deg);background:${C.n};padding:22px 0;white-space:nowrap;overflow:hidden"><span class="d" style="font-size:52px;color:${C.a};text-transform:uppercase">${'#LeoPresente <span style="color:#F26A1B">●</span> Do povo, pro povo <span style="color:#3FB8E8">●</span> '.repeat(4)}</span></div>
+<div style="position:absolute;left:72px;right:72px;top:1200px" class="lb">Bandeirinhas de São João para festa e aniversário da cidade · faixa de slogan para fechar posts</div>${bot_()}</div>`);
+
+// 15 FOTOGRAFIA
+P.push(`<div class="p gr" style="background:radial-gradient(80% 60% at 60% 40%,#1A5BB8,#0A2A5E 70%)">${top_('11 · Fotografia',15,'#fff')}
+<div class="d" style="position:absolute;left:40px;top:430px;font-size:300px;color:#ffffff12;text-transform:uppercase;line-height:.8">Pre<br>sen<br>ça</div>
+<img src="../v1/leo-18.png" style="position:absolute;right:-60px;bottom:0;height:1150px;${rim}">
+<div style="position:absolute;left:72px;top:150px;width:470px;color:#fff"><h2 class="h" style="font-size:96px">Leo de<br>verdade</h2></div>
+<div style="position:absolute;left:72px;bottom:110px;width:440px;color:#fff;display:grid;gap:22px;font-size:17px;line-height:1.5">
+<div><div class="d" style="font-size:30px;color:${C.a}">SEMPRE</div>Foto real, recortada, com luz de contorno laranja e o nome grande atrás da cabeça. Nas ruas: foto do Leo com gente, sem pose.</div>
+<div><div class="d" style="font-size:30px;color:${C.l}">NUNCA</div>Filtro pesado, fundo poluído, foto de banco de imagem ou ilustração no lugar do Leo.</div></div>${bot_('#fff')}</div>`);
+
+// 16 FARDAMENTO
+P.push(`<div class="p" style="background:#E9E2D6">${top_('12 · Aplicações · Fardamento',16)}
+<div style="position:absolute;left:0;top:0;width:620px;height:1350px;overflow:hidden;background:radial-gradient(circle at 50% 40%,#fff,#E9E2D6)"><img src="fotos/leo-polo-bordada.png" style="position:absolute;left:-815px;top:-853px;height:2500px;filter:drop-shadow(0 30px 40px #0003)"></div>
+<div style="position:absolute;left:660px;right:60px;top:150px"><h2 class="h" style="font-size:88px">Polo<br>da equipe</h2><p style="font-size:18px;line-height:1.55;margin-top:22px">Polo amarela com o monograma bordado no peito, em patch redondo. Costas: assinatura vertical em azul noite.</p>
+<div class="card" style="margin-top:36px;padding:28px"><div class="lb" style="margin:0 0 14px">Cores da polo</div><div style="display:flex;gap:12px">${[C.a,C.l,'#fff',C.n].map(c=>`<div style="flex:1;height:70px;border-radius:12px;background:${c};border:1px solid #0001"></div>`).join('')}</div></div>
+<div class="card" style="margin-top:20px;padding:28px;display:flex;align-items:center;gap:20px">${mono({s:90})}<div style="font-size:15px;line-height:1.5"><b>Patch bordado</b><br>8 cm · linha laranja, branca, amarela e água</div></div></div>${bot_()}</div>`);
+
+// 17 CRACHÁ E CARTÃO
+const strap=`<div style="position:absolute;width:56px;height:520px;background:${C.b};display:flex;flex-direction:column;align-items:center;gap:40px;padding-top:20px;overflow:hidden;box-shadow:inset -8px 0 12px #0003">${'<div class="d" style="color:#FFC20E;font-size:22px;transform:rotate(90deg);white-space:nowrap">LEO PINTO</div>'.repeat(6)}</div>`;
+P.push(`<div class="p" style="background:radial-gradient(90% 70% at 40% 30%,#F8F4EC,#D9D0C1)">${top_('12 · Aplicações · Equipe',17)}
+<div style="position:absolute;left:150px;top:-40px;transform:rotate(-6deg);transform-origin:top center">
+${strap.replace('position:absolute','position:absolute;left:122px;top:0')}
+<div style="position:absolute;left:118px;top:500px;width:64px;height:40px;border-radius:8px;background:linear-gradient(#e8e8e8,#9a9a9a);box-shadow:0 4px 8px #0004"></div>
+<div style="position:absolute;left:0;top:530px;width:300px;height:460px;border-radius:20px;overflow:hidden;background:#fff;box-shadow:0 50px 60px -20px #0006,0 0 0 1px #0001">
+<div style="height:190px;background:${C.n};position:relative;overflow:hidden"><svg viewBox="0 0 300 190" width="300" height="190" style="position:absolute;inset:0"><defs>${azN.def.replace(azN.id,azN.id+'c')}</defs><rect width="300" height="190" fill="url(#${azN.id}c)"/>${wave(C.l,150,14,300,100)}</svg><div style="position:absolute;left:22px;top:22px">${lockup({fs:22,c1:'#fff',c2:C.a,tag:''})}</div></div>
+<div style="position:absolute;left:100px;top:110px;width:100px;height:100px;border-radius:50%;border:5px solid #fff;background:${C.a};overflow:hidden"><img src="../v1/leo-12.png" style="height:150px;margin-left:-55px;margin-top:-6px"></div>
+<div style="padding:70px 22px 0;text-align:center"><div class="d" style="font-size:40px;text-transform:uppercase">Maria Silva</div><div class="k" style="font-size:11px;color:${C.l};margin-top:8px">Equipe do gabinete</div><div style="height:1px;background:#0A2A5E22;margin:18px 0"></div><div style="font-size:12px;opacity:.7">Câmara Municipal de São João Batista · MA</div></div></div></div>
+<div style="position:absolute;left:560px;top:420px;width:420px;height:240px;border-radius:14px;background:${C.n};transform:rotate(8deg);box-shadow:0 40px 50px -20px #0007;padding:30px;overflow:hidden"><svg viewBox="0 0 420 240" style="position:absolute;inset:0"><defs>${azN.def.replace(azN.id,azN.id+'d')}</defs><rect width="420" height="240" fill="url(#${azN.id}d)"/></svg><div style="position:relative">${lockup({fs:46,c1:'#fff',c2:C.a,tc:C.g})}</div></div>
+<div style="position:absolute;left:520px;top:720px;width:420px;height:240px;border-radius:14px;background:#fff;transform:rotate(-4deg);box-shadow:0 40px 50px -20px #0006;padding:30px;color:${C.n}"><div class="d" style="font-size:40px;text-transform:uppercase">Leo Pinto</div><div class="k" style="font-size:10px;color:${C.l};margin-top:6px">Vereador</div><div style="font-size:13px;line-height:1.8;margin-top:22px">Câmara Municipal de São João Batista · MA<br>@vereadorleopinto<br>(98) 9 0000-0000</div><div style="position:absolute;right:24px;bottom:24px">${mono({s:60})}</div><div style="position:absolute;left:0;right:0;bottom:0;height:10px;background:linear-gradient(90deg,${C.l} 40%,${C.a} 40% 70%,${C.g} 70%)"></div></div>
+<div style="position:absolute;left:72px;right:72px;bottom:110px;display:flex;justify-content:space-between" class="lb"><span>Crachá da equipe</span><span>Cartão de visita · frente e verso</span></div>${bot_()}</div>`);
+
+// 18 INSTAGRAM
+const tile=(i)=>{const T=[
+`<div style="background:${C.l};height:100%;padding:10px;color:#fff"><div class="d" style="font-size:24px">PONTE<br>ENTREGUE</div><div style="position:absolute;right:6px;bottom:6px">${selo({s:46})}</div></div>`,
+`<div style="background:${C.n};height:100%;position:relative;overflow:hidden"><img src="../v1/leo-18.png" style="position:absolute;left:10px;bottom:-60px;height:220px"></div>`,
+`<svg viewBox="0 0 120 120" width="100%" height="100%"><defs>${azulejo({s:60}).def.replace(/id="u\d+"/,'id="tz"')}</defs><rect width="120" height="120" fill="url(#tz)"/><rect x="14" y="40" width="92" height="40" rx="6" fill="${C.n}"/><text x="60" y="66" text-anchor="middle" font-family="Archivo" font-weight="900" font-stretch="72%" font-size="16" fill="#fff">AGENDA</text></svg>`,
+`<div style="background:${C.a};height:100%;padding:10px;color:${C.n}"><div class="k" style="font-size:7px">Prestação de contas</div><div class="d" style="font-size:46px;margin-top:6px">12</div><div style="font-size:9px;font-weight:600">indicações<br>no mês</div></div>`,
+`<div style="background:${C.b};height:100%;position:relative;overflow:hidden"><img src="../v1/leo-12.png" style="position:absolute;left:-30px;bottom:0;height:150px"><div class="d" style="position:absolute;left:8px;top:8px;color:#fff;font-size:18px">ESCUTA<br><span style="color:${C.a}">NA RUA</span></div></div>`,
+`<div style="background:${C.g};height:100%;display:grid;place-items:center">${icon('Saúde',{bg:C.n,s:70})}</div>`,
+`<div style="background:#fff;height:100%;padding:10px;color:${C.n}"><div class="d" style="font-size:20px">DO POVO,<br><span style="color:${C.l}">PRO POVO.</span></div></div>`,
+`<div style="background:${C.n};height:100%;padding:10px;color:#fff"><div class="d" style="font-size:20px">SESSÃO<br><span style="color:${C.g}">DE HOJE</span></div><div style="position:absolute;right:8px;bottom:8px">${mono({s:34})}</div></div>`,
+`<div style="background:${C.l};height:100%;position:relative;overflow:hidden"><img src="fotos/leo-polo-bordada.png" style="position:absolute;left:-14px;top:-8px;height:200px"></div>`];return `<div style="position:relative;aspect-ratio:1;overflow:hidden">${T[i]}</div>`};
+P.push(`<div class="p gr" style="background:radial-gradient(80% 60% at 50% 40%,#F26A1B,#C9500F)">${top_('12 · Aplicações · Redes',18,'#fff')}
+<div style="position:absolute;left:72px;top:140px;width:380px;color:#fff"><h2 class="h" style="font-size:92px">Perfil<br>do mandato</h2><p style="font-size:18px;line-height:1.55;margin-top:22px">Avatar com o monograma, destaques com os ícones e uma grade que alterna foto, número e frase.</p></div>
+<div style="position:absolute;right:80px;top:120px;width:470px;height:960px;border-radius:70px;background:#0b0b0d;padding:16px;box-shadow:0 60px 80px -30px #0009,inset 0 0 0 2px #333">
+<div style="width:100%;height:100%;border-radius:56px;background:#fff;overflow:hidden;position:relative;color:#111">
+<div style="position:absolute;left:50%;top:12px;transform:translateX(-50%);width:120px;height:34px;border-radius:20px;background:#0b0b0d"></div>
+<div style="padding:62px 22px 0;font-size:15px;font-weight:700">vereadorleopinto</div>
+<div style="display:flex;align-items:center;gap:22px;padding:16px 22px"><div style="padding:3px;border-radius:50%;background:conic-gradient(${C.a},${C.l},${C.b},${C.a})"><div style="border:3px solid #fff;border-radius:50%">${mono({s:86})}</div></div><div style="display:flex;gap:22px;text-align:center;font-size:12px"><div><b style="font-size:16px">248</b><br>posts</div><div><b style="font-size:16px">—</b><br>seguidores</div><div><b style="font-size:16px">—</b><br>seguindo</div></div></div>
+<div style="padding:0 22px;font-size:12.5px;line-height:1.5"><b>Leo Pinto · Vereador</b><br>São João Batista · MA 🌊☀️<br>Do povo, pro povo. Prestação de contas toda semana 👇</div>
+<div style="display:flex;gap:12px;padding:16px 18px">${['Saúde','Obras','Esporte','Escuta','São João'].map((k,i)=>`<div style="text-align:center;font-size:10px">${icon(k,{bg:[C.b,C.l,C.n,C.g,C.b][i],s:62})}<div style="margin-top:4px">${k}</div></div>`).join('')}</div>
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:2px;margin-top:6px">${[...Array(9)].map((_,i)=>tile(i)).join('')}</div></div></div>
+<div style="position:absolute;left:72px;bottom:110px;width:380px;color:#fff;font-size:13px;opacity:.8">Seguidores ficam em branco no modelo: entram os números reais do perfil.</div>${bot_('#fff')}</div>`);
+
+// 19 GABINETE + EVENTO
+P.push(`<div class="p">${top_('12 · Aplicações · Gabinete e eventos',19)}
+<div style="position:absolute;left:0;right:0;top:0;height:720px;background:linear-gradient(180deg,#EDE8E0,#D8D1C5);overflow:hidden">
+<div style="position:absolute;inset:0;background-image:var(--grain);opacity:.6;mix-blend-mode:multiply"></div>
+<div style="position:absolute;left:0;right:0;top:560px;height:4px;background:#0001"></div>
+<div style="position:absolute;left:170px;top:190px;width:740px;height:330px;border-radius:10px;background:linear-gradient(135deg,#0E3570,#0A2A5E 60%,#071E45);box-shadow:0 30px 40px -12px #0007,inset 0 1px 0 #ffffff30;display:grid;place-items:center">
+${[[22,22],[700,22],[22,290],[700,290]].map(([x,y])=>`<div style="position:absolute;left:${x}px;top:${y}px;width:18px;height:18px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#fff,#9aa3ad 60%,#5d6670);box-shadow:0 2px 3px #0006"></div>`).join('')}
+<div style="text-align:center"><div class="k" style="color:${C.g};font-size:14px">Gabinete do vereador</div><div style="margin-top:20px;display:inline-block">${lockup({fs:70,c1:'#fff',c2:C.a,tag:'Câmara Municipal de São João Batista',tc:'#ffffffb0'})}</div></div>
+<div style="position:absolute;inset:0;border-radius:10px;background:linear-gradient(115deg,transparent 40%,#ffffff1c 48%,transparent 56%)"></div></div></div>
+<div style="position:absolute;left:0;right:0;top:720px;height:630px;background:linear-gradient(#123E86,#0A2A5E)">
+<div style="position:absolute;left:0;right:0;top:10px">${flags(16,1080)}</div>
+<div style="position:absolute;left:60px;right:60px;top:170px;height:230px;background:${C.l};box-shadow:0 30px 40px -10px #0009;overflow:hidden;transform:perspective(1400px) rotateX(6deg)">
+<svg viewBox="0 0 960 230" width="960" height="230" style="position:absolute;inset:0"><defs>${azulejo({fg:'#ffffff26',bg:'transparent',ac:'#ffffff18',su:'#FFC20E40',s:115}).def.replace(/id="u\d+"/,'id="fz"')}</defs><rect width="960" height="230" fill="url(#fz)"/></svg>
+<div style="position:absolute;left:40px;top:50%;transform:translateY(-50%)">${lockup({fs:70,c1:'#fff',c2:C.n,tag:'',m:{bg:'#fff',L:C.l,water:C.b}})}</div>
+<div class="d" style="position:absolute;right:44px;top:50%;transform:translateY(-50%);color:#fff;font-size:76px;text-align:right;text-transform:uppercase">Do povo,<br><span style="color:${C.n}">pro povo.</span></div>
+${[20,320,640,930].map(x=>`<div style="position:absolute;left:${x}px;top:10px;width:12px;height:12px;border-radius:50%;background:radial-gradient(#ddd,#777)"></div><div style="position:absolute;left:${x}px;bottom:10px;width:12px;height:12px;border-radius:50%;background:radial-gradient(#ddd,#777)"></div>`).join('')}
+<div style="position:absolute;inset:0;background:linear-gradient(90deg,#0002,transparent 20%,#fff1 50%,transparent 80%,#0002)"></div></div>
+<div style="position:absolute;left:72px;right:72px;bottom:110px;display:flex;justify-content:space-between;color:#fff" class="lb"><span>Placa do gabinete · acrílico com afastadores</span><span>Faixa de evento · lona 4 × 1 m</span></div>${bot_('#fff')}</div></div>`);
+
+// 20 CONTRACAPA
+P.push(`<div class="p gr" style="background:${C.n};display:grid;place-items:center"><svg style="position:absolute;inset:0" viewBox="0 0 1080 1350"><defs>${azN.def.replace(azN.id,azN.id+'e')}</defs><rect width="1080" height="1350" fill="url(#${azN.id}e)"/>${wave(C.g,1130,36)}${wave(C.b,1170,36)}${wave(C.l,1215,30)}</svg>
+<div style="position:relative;text-align:center;color:#fff;margin-top:-140px">${selo({s:360})}<div class="d" style="font-size:110px;margin-top:50px;text-transform:uppercase">Do povo,<br><span style="color:${C.a}">pro povo.</span></div><div class="k" style="margin-top:30px;opacity:.7">Leo Pinto · Vereador · São João Batista · MA</div></div></div>`);
+document.body.innerHTML=P.join('');
+</script></body></html>
