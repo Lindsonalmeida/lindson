@@ -24,8 +24,8 @@ body{background:var(--preto);color:var(--texto);font-family:var(--f-corpo)}
 .tela{height:100%;min-height:600px;display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr)}
 
 /* ---------- Vitrine (carrossel) ---------- */
-.vitrine{position:relative;overflow:hidden;background:#000;border-right:1px solid var(--linha2);height:100%;min-width:0}
-.trilho{display:flex;height:100%;transition:transform 1.1s cubic-bezier(.7,0,.2,1)}
+.vitrine{position:relative;overflow:hidden;background:#050505;border-right:1px solid var(--linha2);height:100%;min-width:0}
+.trilho{position:relative;z-index:1;display:flex;height:100%;transition:transform 1.1s cubic-bezier(.7,0,.2,1)}
 .slide{position:relative;flex:0 0 100%;width:100%;min-width:0;height:100%;overflow:hidden;box-sizing:border-box}
 .marca{position:absolute;z-index:6;top:calc(28px + env(safe-area-inset-top,0px));left:max(32px,env(safe-area-inset-left,0px));display:flex;align-items:center;gap:10px;font:500 12px var(--f-dado);letter-spacing:.32em;text-transform:uppercase;color:var(--texto)}
 .marca i{width:22px;height:2px;background:var(--amarelo)}
@@ -37,10 +37,11 @@ body{background:var(--preto);color:var(--texto);font-family:var(--f-corpo)}
 @keyframes flutua{0%{transform:translateY(40px) scale(.9);opacity:0}15%{opacity:var(--op,.35)}85%{opacity:var(--op,.35)}100%{transform:translateY(-220px) scale(1.05);opacity:0}}
 .notif{position:absolute;display:flex;align-items:center;gap:8px;padding:8px 12px;border-radius:12px;background:rgba(20,18,10,.78);border:1px solid rgba(245,197,24,.25);
   font:600 12px var(--f-corpo);color:var(--texto);white-space:nowrap;backdrop-filter:blur(6px);opacity:0;animation:aparece var(--dur,12s) ease-in-out var(--atraso,0s) infinite}
+.vitrine:not(.no-inicio) .notif{visibility:hidden}
 .notif i{width:22px;height:22px;border-radius:50%;background:var(--amarelo);display:grid;place-items:center;color:#0A0A0A;font-style:normal;font-size:12px}
 @keyframes aparece{0%,8%{opacity:0;transform:translateY(10px)}14%,40%{opacity:.92;transform:none}48%,100%{opacity:0;transform:translateY(-8px)}}
 /* Slide 1: retrato principal, centralizado, sobre fundo escuro com luz dourada */
-.cartaz{background:radial-gradient(55% 60% at 50% 38%,#1C1607 0%,#0A0905 45%,#050505 75%)}
+.cartaz{background:radial-gradient(55% 60% at 50% 38%,rgba(28,22,7,.85) 0%,rgba(10,9,5,.35) 45%,transparent 75%)}
 .halo{position:absolute;z-index:1;left:50%;top:6%;width:min(86%,720px);aspect-ratio:1;transform:translateX(-50%);border-radius:50%;
   background:radial-gradient(circle,rgba(245,197,24,.30),rgba(245,170,24,.10) 40%,transparent 66%);animation:respira 7s ease-in-out infinite}
 @keyframes respira{50%{opacity:.75;transform:translateX(-50%) scale(1.04)}}
@@ -65,12 +66,17 @@ body{background:var(--preto);color:var(--texto);font-family:var(--f-corpo)}
 
 /* Slides de clientes e projetos */
 .caso{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);align-items:center;gap:clamp(20px,4vw,56px);padding:calc(96px + env(safe-area-inset-top,0px)) clamp(24px,5vw,72px) 96px;
-  background:radial-gradient(50% 60% at 80% 50%,rgba(245,197,24,.10),transparent 70%),#070707}
-.caso .info{display:grid;gap:18px;min-width:0}
+  background:radial-gradient(50% 60% at 80% 50%,rgba(245,197,24,.10),transparent 70%),linear-gradient(90deg,rgba(7,7,7,.92) 0%,rgba(7,7,7,.75) 45%,rgba(7,7,7,.35) 100%)}
+.caso .info{display:grid;gap:14px;min-width:0}
 .caso .eyebrow{font:500 12px var(--f-dado);letter-spacing:.3em;text-transform:uppercase;color:var(--amarelo)}
 .caso h2 em{font-style:normal;color:var(--amarelo)}
-.caso h2{margin:0;font:800 clamp(40px,5.2vw,78px)/.9 var(--f-titulo);text-transform:uppercase;letter-spacing:.02em;text-wrap:balance}
+.caso h2{margin:0;font:800 clamp(36px,4.4vw,66px)/.9 var(--f-titulo);text-transform:uppercase;letter-spacing:.02em;text-wrap:balance}
 .caso p{margin:0;max-width:44ch;color:#C9C5BA;font-size:clamp(15px,1.15vw,17px);line-height:1.6}
+.bloco{display:grid;gap:6px}
+.rot-caso{font:500 11px var(--f-dado);letter-spacing:.24em;text-transform:uppercase;color:var(--apagado)}
+.caso ul{margin:0;padding:0;list-style:none;display:grid;gap:7px;max-width:46ch}
+.caso li{position:relative;padding-left:18px;color:#D8D4C9;font-size:clamp(14px,1.05vw,16px);line-height:1.45}
+.caso li::before{content:"";position:absolute;left:0;top:.6em;width:8px;height:2px;background:var(--amarelo)}
 .chips{display:flex;flex-wrap:wrap;gap:8px}
 .chips span{border:1px solid var(--linha);color:var(--texto);border-radius:99px;padding:6px 12px;font:500 12px var(--f-corpo)}
 .caso .link{font:500 13px var(--f-dado);color:var(--apagado);letter-spacing:.04em}
@@ -120,13 +126,14 @@ body{background:var(--preto);color:var(--texto);font-family:var(--f-corpo)}
 @media (max-width:900px){
   .tela{grid-template-columns:minmax(0,1fr)}
   .vitrine{border-right:0;border-bottom:1px solid var(--linha2)}
-  .tela{height:auto}.vitrine{height:clamp(340px,52svh,440px)}
+  .tela{height:auto}.vitrine{height:clamp(500px,62svh,560px)}
 .parede{grid-template-columns:repeat(3,minmax(0,1fr))}
   .credito .extra{display:none}
   .notif{display:none}.marca-fundo{display:none}.icone{--t:22px!important}
   .caso{grid-template-columns:minmax(0,1fr);padding:88px 24px 64px;align-content:start}
   .celular{width:180px;transform:none}.tela169{max-width:360px;transform:none}
-  .caso .media{order:-1}
+  .caso .media{margin-top:16px}.caso .celular{display:none}.caso .tela169{max-width:230px;justify-self:start}
+  .caso{padding:76px 22px 52px;gap:0}.caso .info{gap:10px}.caso h2{font-size:34px}.caso p,.caso li{font-size:14px}.caso li:nth-child(4){display:none}
   .acesso{padding-block:40px 64px}
 }
 @media (prefers-reduced-motion:reduce){.halo,.feixe-luz,.icone,.notif{animation:none}.notif{opacity:.8}.trilho{transition:none}.controles button.ativo span i{animation:none;width:100%}}
@@ -135,10 +142,10 @@ body{background:var(--preto);color:var(--texto);font-family:var(--f-corpo)}
 <main class="tela">
   <section class="vitrine" id="vitrine" aria-roledescription="carrossel" aria-label="Lindson Almeida, clientes e projetos">
     <div class="marca"><i></i>Lindson Almeida</div>
+    <div class="fundo-vivo" aria-hidden="true"><canvas id="rede"></canvas><div class="icone" aria-hidden="true" style="left:8%;top:70%;--t:34px;--dur:13s;--atraso:-0s;--op:0.4"><svg viewBox="0 0 24 24"><path d="M12 21s-7.5-4.6-9.5-9.2C1 8.2 3.2 4.5 6.9 4.5c2 0 3.6 1.1 5.1 3 1.5-1.9 3.1-3 5.1-3 3.7 0 5.9 3.7 4.4 7.3C19.5 16.4 12 21 12 21z" fill="currentColor"/></svg></div><div class="icone" aria-hidden="true" style="left:84%;top:64%;--t:40px;--dur:16s;--atraso:-2s;--op:0.45"><svg viewBox="0 0 24 24"><path d="M3 20h18M5 16l5-5 4 3 6-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M16 7h4v4" fill="none" stroke="currentColor" stroke-width="2"/></svg></div><div class="icone" aria-hidden="true" style="left:14%;top:40%;--t:28px;--dur:12s;--atraso:-5s;--op:0.3"><svg viewBox="0 0 24 24"><path d="M4 4h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H9l-5 4V6a2 2 0 0 1 2-2z" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></div><div class="icone" aria-hidden="true" style="left:80%;top:30%;--t:36px;--dur:15s;--atraso:-7s;--op:0.35"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="1.6" fill="currentColor"/></svg></div><div class="icone" aria-hidden="true" style="left:6%;top:22%;--t:30px;--dur:14s;--atraso:-3s;--op:0.3"><svg viewBox="0 0 24 24"><path d="M3 4h2l2.4 11h10.8L21 8H7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="9" cy="19" r="1.6" fill="currentColor"/><circle cx="17" cy="19" r="1.6" fill="currentColor"/></svg></div><div class="icone" aria-hidden="true" style="left:88%;top:82%;--t:30px;--dur:13s;--atraso:-9s;--op:0.3"><svg viewBox="0 0 24 24"><path d="M3 10v4h3l7 4V6L6 10H3z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M17 9a4 4 0 0 1 0 6" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></div><div class="icone" aria-hidden="true" style="left:20%;top:86%;--t:32px;--dur:15s;--atraso:-11s;--op:0.3"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M10 9l5 3-5 3z" fill="currentColor"/></svg></div><div class="icone" aria-hidden="true" style="left:74%;top:50%;--t:30px;--dur:12s;--atraso:-4s;--op:0.3"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3 20c.5-3.5 3-5.5 6-5.5s5.5 2 6 5.5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17" cy="9" r="2.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></div><div class="icone" aria-hidden="true" style="left:90%;top:14%;--t:24px;--dur:11s;--atraso:-6s;--op:0.25"><svg viewBox="0 0 24 24"><path d="M12 21s-7.5-4.6-9.5-9.2C1 8.2 3.2 4.5 6.9 4.5c2 0 3.6 1.1 5.1 3 1.5-1.9 3.1-3 5.1-3 3.7 0 5.9 3.7 4.4 7.3C19.5 16.4 12 21 12 21z" fill="currentColor"/></svg></div><div class="icone" aria-hidden="true" style="left:4%;top:55%;--t:26px;--dur:14s;--atraso:-10s;--op:0.25"><svg viewBox="0 0 24 24"><path d="M3 20h18M5 16l5-5 4 3 6-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M16 7h4v4" fill="none" stroke="currentColor" stroke-width="2"/></svg></div><div class="notif" aria-hidden="true" style="left:6%;top:30%;--dur:12s;--atraso:-0s"><i>♥</i>Novo seguidor</div><div class="notif" aria-hidden="true" style="left:66%;top:20%;--dur:12s;--atraso:-4s"><i>$</i>Venda aprovada</div><div class="notif" aria-hidden="true" style="left:62%;top:68%;--dur:12s;--atraso:-8s"><i>✓</i>Post publicado</div><div class="notif" aria-hidden="true" style="left:4%;top:62%;--dur:12s;--atraso:-6s"><i>→</i>Novo lead no WhatsApp</div><div class="notif" aria-hidden="true" style="left:70%;top:44%;--dur:12s;--atraso:-10s"><i>▲</i>Campanha no ar</div></div>
     <div class="trilho" id="trilho">
 
       <article class="slide cartaz" aria-label="Lindson Almeida, estrategista digital">
-        <div class="fundo-vivo" aria-hidden="true"><canvas id="rede"></canvas><div class="icone" aria-hidden="true" style="left:8%;top:70%;--t:34px;--dur:13s;--atraso:-0s;--op:0.4"><svg viewBox="0 0 24 24"><path d="M12 21s-7.5-4.6-9.5-9.2C1 8.2 3.2 4.5 6.9 4.5c2 0 3.6 1.1 5.1 3 1.5-1.9 3.1-3 5.1-3 3.7 0 5.9 3.7 4.4 7.3C19.5 16.4 12 21 12 21z" fill="currentColor"/></svg></div><div class="icone" aria-hidden="true" style="left:84%;top:64%;--t:40px;--dur:16s;--atraso:-2s;--op:0.45"><svg viewBox="0 0 24 24"><path d="M3 20h18M5 16l5-5 4 3 6-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M16 7h4v4" fill="none" stroke="currentColor" stroke-width="2"/></svg></div><div class="icone" aria-hidden="true" style="left:14%;top:40%;--t:28px;--dur:12s;--atraso:-5s;--op:0.3"><svg viewBox="0 0 24 24"><path d="M4 4h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H9l-5 4V6a2 2 0 0 1 2-2z" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></div><div class="icone" aria-hidden="true" style="left:80%;top:30%;--t:36px;--dur:15s;--atraso:-7s;--op:0.35"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="1.6" fill="currentColor"/></svg></div><div class="icone" aria-hidden="true" style="left:6%;top:22%;--t:30px;--dur:14s;--atraso:-3s;--op:0.3"><svg viewBox="0 0 24 24"><path d="M3 4h2l2.4 11h10.8L21 8H7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="9" cy="19" r="1.6" fill="currentColor"/><circle cx="17" cy="19" r="1.6" fill="currentColor"/></svg></div><div class="icone" aria-hidden="true" style="left:88%;top:82%;--t:30px;--dur:13s;--atraso:-9s;--op:0.3"><svg viewBox="0 0 24 24"><path d="M3 10v4h3l7 4V6L6 10H3z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M17 9a4 4 0 0 1 0 6" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></div><div class="icone" aria-hidden="true" style="left:20%;top:86%;--t:32px;--dur:15s;--atraso:-11s;--op:0.3"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M10 9l5 3-5 3z" fill="currentColor"/></svg></div><div class="icone" aria-hidden="true" style="left:74%;top:50%;--t:30px;--dur:12s;--atraso:-4s;--op:0.3"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3 20c.5-3.5 3-5.5 6-5.5s5.5 2 6 5.5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17" cy="9" r="2.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></div><div class="icone" aria-hidden="true" style="left:90%;top:14%;--t:24px;--dur:11s;--atraso:-6s;--op:0.25"><svg viewBox="0 0 24 24"><path d="M12 21s-7.5-4.6-9.5-9.2C1 8.2 3.2 4.5 6.9 4.5c2 0 3.6 1.1 5.1 3 1.5-1.9 3.1-3 5.1-3 3.7 0 5.9 3.7 4.4 7.3C19.5 16.4 12 21 12 21z" fill="currentColor"/></svg></div><div class="icone" aria-hidden="true" style="left:4%;top:55%;--t:26px;--dur:14s;--atraso:-10s;--op:0.25"><svg viewBox="0 0 24 24"><path d="M3 20h18M5 16l5-5 4 3 6-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M16 7h4v4" fill="none" stroke="currentColor" stroke-width="2"/></svg></div><div class="notif" aria-hidden="true" style="left:6%;top:30%;--dur:12s;--atraso:-0s"><i>♥</i>Novo seguidor</div><div class="notif" aria-hidden="true" style="left:66%;top:20%;--dur:12s;--atraso:-4s"><i>$</i>Venda aprovada</div><div class="notif" aria-hidden="true" style="left:62%;top:68%;--dur:12s;--atraso:-8s"><i>✓</i>Post publicado</div><div class="notif" aria-hidden="true" style="left:4%;top:62%;--dur:12s;--atraso:-6s"><i>→</i>Novo lead no WhatsApp</div><div class="notif" aria-hidden="true" style="left:70%;top:44%;--dur:12s;--atraso:-10s"><i>▲</i>Campanha no ar</div></div>
         <div class="halo" aria-hidden="true"></div>
         <div class="feixe-luz" aria-hidden="true"></div>
         <div class="marca-fundo" aria-hidden="true">LA</div>
@@ -155,8 +162,8 @@ body{background:var(--preto);color:var(--texto);font-family:var(--f-corpo)}
         <div class="info">
           <span class="eyebrow">Conheça um dos nossos clientes</span>
           <h2>Rafael <em>Imports</em></h2>
-          <p>Loja de celulares, acessórios e assistência em São Luís. Criamos o mini site da bio: cada cliente cai direto no WhatsApp do setor certo, seja loja ou assistência.</p>
-          <div class="chips"><span>Mini site</span><span>WhatsApp por setor</span><span>Identidade premium</span></div>
+          <div class="bloco"><span class="rot-caso">O que é</span><p>Loja de celulares, acessórios e assistência técnica em São Luís, com Xiaomi, iPhone, Realme, Poco e Samsung, e entrega na cidade.</p></div>
+          <div class="bloco"><span class="rot-caso">O que fizemos</span><ul><li>Mini site da bio do Instagram na identidade premium da marca</li><li>Botões que levam o cliente direto ao WhatsApp certo: loja ou assistência</li><li>Portfólio de produtos e destaques da loja em uma página</li></ul></div>
           <span class="link">Veja ao vivo: <b>rafaelimports.pages.dev</b></span>
         </div>
         <div class="media"><div class="celular"><div style="background-image:url(__RAFAEL__)" role="img" aria-label="Mini site da Rafael Imports"></div></div></div>
@@ -166,8 +173,8 @@ body{background:var(--preto);color:var(--texto);font-family:var(--f-corpo)}
         <div class="info">
           <span class="eyebrow">Conheça um dos nossos clientes</span>
           <h2>Desentupidora <em>SF</em></h2>
-          <p>Serviço de desentupimento em São Luís e Grande Ilha. O mini site leva quem tem urgência a pedir orçamento no WhatsApp ou ligar em um toque.</p>
-          <div class="chips"><span>Mini site</span><span>Orçamento no WhatsApp</span><span>Ligação em um toque</span></div>
+          <div class="bloco"><span class="rot-caso">O que é</span><p>Empresa de desentupimento em São Luís e na Grande Ilha: pia, ralo, vaso sanitário, esgoto, caixa de gordura e calhas.</p></div>
+          <div class="bloco"><span class="rot-caso">O que fizemos</span><ul><li>Mini site pensado para quem tem urgência</li><li>Pedido de orçamento no WhatsApp e ligação em um toque, sempre visíveis</li><li>Serviços e diferenciais explicados de forma simples</li></ul></div>
           <span class="link">Veja ao vivo: <b>desentupidorasf.pages.dev</b></span>
         </div>
         <div class="media"><div class="celular"><div style="background-image:url(__SF__)" role="img" aria-label="Mini site da Desentupidora SF"></div></div></div>
@@ -177,8 +184,8 @@ body{background:var(--preto);color:var(--texto);font-family:var(--f-corpo)}
         <div class="info">
           <span class="eyebrow">Conheça um dos nossos projetos</span>
           <h2>Passaporte da <em>Bíblia</em></h2>
-          <p>Canal no YouTube que explica a Bíblia como uma viagem, com gravuras clássicas animadas, narração própria e um produto digital para quem quer começar a ler.</p>
-          <div class="chips"><span>Canal no YouTube</span><span>Shorts e vídeos longos</span><span>Produto digital</span></div>
+          <div class="bloco"><span class="rot-caso">O que é</span><p>Canal no YouTube, Instagram e TikTok que explica a Bíblia como uma viagem, livro por livro, para católicos e evangélicos.</p></div>
+          <div class="bloco"><span class="rot-caso">O que fizemos</span><ul><li>Criação da marca, identidade visual e perfis</li><li>Vídeos com gravuras clássicas animadas em 3D, roteiro e narração</li><li>Shorts diários, vídeos longos e capas para cada um</li><li>Produto digital e isca gratuita para quem quer começar a ler</li></ul></div>
           <span class="link">Canal: <b>@passaportedabiblia</b></span>
         </div>
         <div class="media"><div class="tela169" style="background-image:url(__PASSAPORTE__)" role="img" aria-label="Capa de vídeo do Passaporte da Bíblia"></div></div>
@@ -188,8 +195,8 @@ body{background:var(--preto);color:var(--texto);font-family:var(--f-corpo)}
         <div class="info">
           <span class="eyebrow">Conheça um dos nossos projetos</span>
           <h2>Raposa e <em>Leão</em></h2>
-          <p>Canal que traduz Maquiavel e as leis do poder para a vida real: liderança, negócios e relações, com pinturas históricas e roteiros próprios.</p>
-          <div class="chips"><span>Canal no YouTube</span><span>Roteiro e edição</span><span>Estratégia de crescimento</span></div>
+          <div class="bloco"><span class="rot-caso">O que é</span><p>Canal no YouTube que traduz Maquiavel e as leis do poder para a vida real: liderança, negócios e relações.</p></div>
+          <div class="bloco"><span class="rot-caso">O que fizemos</span><ul><li>Criação da marca e identidade visual do canal</li><li>Roteiros com a fonte de cada ensinamento</li><li>Vídeos com pinturas históricas, Shorts e vídeos longos</li><li>Capas e estratégia de crescimento do canal</li></ul></div>
           <span class="link">Canal: <b>@RaposaeLeao</b></span>
         </div>
         <div class="media"><div class="tela169" style="background-image:url(__RAPOSA__)" role="img" aria-label="Capa de vídeo do Raposa e Leão"></div></div>
@@ -233,7 +240,7 @@ slides.forEach((s,k)=>{const b=document.createElement('button');b.type='button';
 const bts=[...ctl.children];vit.style.setProperty('--tempo',TEMPO+'ms');
 function vai(k){i=(k+slides.length)%slides.length;tri.style.transform=`translateX(-${i*100}%)`;
   bts.forEach((b,n)=>{b.classList.remove('ativo');b.classList.toggle('feito',n<i);b.setAttribute('aria-selected',n===i)});
-  void bts[i].offsetWidth;bts[i].classList.add('ativo');slides.forEach((s,n)=>s.setAttribute('aria-hidden',n!==i));agenda()}
+  void bts[i].offsetWidth;bts[i].classList.add('ativo');slides.forEach((s,n)=>s.setAttribute('aria-hidden',n!==i));vit.classList.toggle('no-inicio',i===0);agenda()}
 function agenda(){clearTimeout(tm);if(reduz||pausado)return;tm=setTimeout(()=>vai(i+1),TEMPO)}
 vit.addEventListener('mouseenter',()=>{pausado=true;vit.classList.add('pausa');clearTimeout(tm)});
 vit.addEventListener('mouseleave',()=>{pausado=false;vit.classList.remove('pausa');vai(i)});

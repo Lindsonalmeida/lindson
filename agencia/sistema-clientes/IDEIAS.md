@@ -92,3 +92,7 @@
     - respiração de câmera, com zoom lento;
     - reflexo de luz passando pelo rosto;
     - "LA" gigante vazado atrás, em teste (só no computador).
+13. **Portfólio com fundo animado e explicação (30/10).**
+    - O fundo vivo vale para todos os slides (grade, rede, gráfico, ícones). Os avisos aparecem só no slide 1.
+    - Cada cliente ou projeto tem "O que é" e "O que fizemos", só com fatos.
+    - No celular, o print do site fica escondido para o texto caber.
