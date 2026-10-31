@@ -18,7 +18,7 @@
      "s": 100,
      "f": "cg",
      "c": "",
-     "w": "fingindo"
+     "w": "fingindo#1"
     }
    ],
    "bg": "foto:top:800px;bottom:-320px"
@@ -32,7 +32,7 @@
      "s": 110,
      "f": "ant",
      "c": "",
-     "w": "ninguém"
+     "w": "Ninguém#1"
     },
     {
      "h": "Derrubou o rei",
@@ -40,7 +40,7 @@
      "s": 130,
      "f": "ant",
      "c": "gold",
-     "w": "derrubou"
+     "w": "derrubou#1"
     },
     {
      "h": "Fundou a república",
@@ -48,12 +48,22 @@
      "s": 110,
      "f": "ant",
      "c": "",
-     "w": "fundou",
+     "w": "fundou#1",
      "a": "slam"
     }
    ],
-   "w": "Ninguém",
+   "w": "Ninguém#1",
    "bg": "num:509 a.C."
+  },
+  {
+   "t": "conversa",
+   "w": "Imagina#1",
+   "img": "../img/hist/ferdinand_ii_of_aragon.jpg",
+   "h": "Você<br>aguentaria?",
+   "interage": {
+    "tipo": "checkin",
+    "txt": "NÃO SEI"
+   }
   },
   {
    "t": "stack",
@@ -64,7 +74,7 @@
      "s": 110,
      "f": "ant",
      "c": "",
-     "w": "às"
+     "w": "às#1"
     },
     {
      "h": "parecer menos",
@@ -72,7 +82,7 @@
      "s": 170,
      "f": "ant",
      "c": "",
-     "w": "parecer",
+     "w": "parecer#1",
      "a": "slam",
      "box": "gold"
     },
@@ -82,14 +92,32 @@
      "s": 80,
      "f": "cg",
      "c": "",
-     "w": "subestimado"
+     "w": "subestimado#1"
     }
    ],
-   "w": "Maquiavel"
+   "w": "Maquiavel#1"
+  },
+  {
+   "t": "conversa",
+   "w": "Salva#1",
+   "img": "../img/hist/palazzo_vecchio.jpg",
+   "h": "Nem toda hora<br>é hora",
+   "interage": {
+    "tipo": "salva",
+    "txt": "SALVA ESSE"
+   }
   },
   {
    "t": "assinatura",
-   "apos": "vigiado"
+   "apos": "sabe#1",
+   "frase": "Quem é subestimado, avança.",
+   "interage": {
+    "tipo": "segue",
+    "txt": "NÃO PERCA A PRÓXIMA"
+   }
   }
- ]
+ ],
+ "abre": "tremor",
+ "pulso": 1.6,
+ "batida": "duplo"
 }
