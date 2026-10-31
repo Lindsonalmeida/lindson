@@ -10,7 +10,7 @@
      "s": 120,
      "f": "ant",
      "c": "",
-     "w": "todos"
+     "w": "Todos#1"
     },
     {
      "h": "Poucos sentem<br>o que você é",
@@ -18,26 +18,36 @@
      "s": 120,
      "f": "ant",
      "c": "gold",
-     "w": "poucos"
+     "w": "Poucos#1"
     }
    ],
    "bg": "foto:top:640px;bottom:-320px"
   },
   {
    "t": "duo",
-   "w": "As",
+   "w": "As#1",
    "dir": "h",
    "a": {
     "k": "Olhos",
     "s": "é assim que te julgam",
     "c": "#E2BE4A",
-    "w": "olhos"
+    "w": "olhos#1"
    },
    "b": {
     "k": "Mãos",
     "s": "quase ninguém olha",
     "c": "#EFE6D2",
-    "w": "mãos"
+    "w": "mãos#1"
+   }
+  },
+  {
+   "t": "conversa",
+   "w": "Seja#1",
+   "img": "../img/hist/commodus.jpg",
+   "h": "Seu perfil<br>mostra isso?",
+   "interage": {
+    "tipo": "checkin",
+    "txt": "AINDA NÃO"
    }
   },
   {
@@ -49,7 +59,7 @@
      "s": 110,
      "f": "ant",
      "c": "",
-     "w": "bom"
+     "w": "bom#2"
     },
     {
      "h": "+",
@@ -57,7 +67,7 @@
      "s": 110,
      "f": "cin",
      "c": "gold",
-     "w": "se"
+     "w": "se#1"
     },
     {
      "h": "cara de amador",
@@ -65,7 +75,7 @@
      "s": 120,
      "f": "ant",
      "c": "",
-     "w": "amador",
+     "w": "amador#1",
      "a": "slam",
      "box": "red"
     },
@@ -75,7 +85,7 @@
      "s": 90,
      "f": "cg",
      "c": "dim",
-     "w": "primeira"
+     "w": "primeira#1"
     }
    ],
    "w": "Não#2"
@@ -89,7 +99,7 @@
      "s": 110,
      "f": "ant",
      "c": "",
-     "w": "primeira"
+     "w": "primeira#1"
     },
     {
      "h": "decide se vai existir<br>uma segunda",
@@ -97,15 +107,35 @@
      "s": 90,
      "f": "cg",
      "c": "gold",
-     "w": "decide"
+     "w": "decide#1"
     }
    ],
-   "w": "primeira",
+   "w": "primeira#1",
    "bg": "num:1ª"
   },
   {
+   "t": "conversa",
+   "w": "Qual#1",
+   "img": "../img/hist/moses.jpg",
+   "h": "Um detalhe só",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "RESPONDE NOS COMENTÁRIOS",
+    "digita": "A FOTO DO PERFIL"
+   }
+  },
+  {
    "t": "assinatura",
-   "apos": "segunda"
+   "apos": "embaixo#1",
+   "frase": "Pareça o que você é.",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "DEIXA SUA RESPOSTA",
+    "digita": ""
+   }
   }
- ]
+ ],
+ "abre": "flash",
+ "pulso": 1.6,
+ "batida": "duplo"
 }
