@@ -18,7 +18,7 @@
      "s": 120,
      "f": "ant",
      "c": "",
-     "w": "tipos"
+     "w": "tipos#1"
     }
    ],
    "bg": "glow:rgba(201,162,39,.2):35"
@@ -32,7 +32,7 @@
      "s": 96,
      "f": "ant",
      "c": "",
-     "w": "primeira",
+     "w": "primeira#1",
      "x": "l"
     },
     {
@@ -41,7 +41,7 @@
      "s": 64,
      "f": "cg",
      "c": "gold",
-     "w": "excelente",
+     "w": "excelente#1",
      "x": "l"
     },
     {
@@ -50,7 +50,7 @@
      "s": 96,
      "f": "ant",
      "c": "",
-     "w": "segunda",
+     "w": "segunda#1",
      "x": "l"
     },
     {
@@ -59,7 +59,7 @@
      "s": 64,
      "f": "cg",
      "c": "",
-     "w": "boa",
+     "w": "boa#1",
      "x": "l"
     },
     {
@@ -68,7 +68,7 @@
      "s": 96,
      "f": "ant",
      "c": "",
-     "w": "terceira",
+     "w": "terceira#1",
      "x": "l"
     },
     {
@@ -77,11 +77,11 @@
      "s": 64,
      "f": "cg",
      "c": "red",
-     "w": "inútil",
+     "w": "inútil#1",
      "x": "l"
     }
    ],
-   "w": "A"
+   "w": "A#1"
   },
   {
    "t": "stack",
@@ -100,7 +100,7 @@
      "s": 150,
      "f": "ant",
      "c": "",
-     "w": "precisa"
+     "w": "precisa#1"
     },
     {
      "h": "Basta não<br>ser o 3º",
@@ -108,7 +108,7 @@
      "s": 150,
      "f": "ant",
      "c": "",
-     "w": "basta",
+     "w": "Basta#1",
      "a": "slam",
      "box": "gold"
     }
@@ -116,8 +116,70 @@
    "w": "A#4"
   },
   {
+   "t": "conversa",
+   "w": "Rapidinho#1",
+   "img": "../img/hist/bonfire_of_the_vanities.jpg",
+   "h": "Qual é o<br>seu tipo?",
+   "interage": {
+    "tipo": "checkin",
+    "txt": "JÁ SEI"
+   }
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Boa notícia:",
+     "y": 380,
+     "s": 40,
+     "f": "tag",
+     "c": "",
+     "d": 0
+    },
+    {
+     "h": "Não precisa<br>ser o 1º",
+     "y": 560,
+     "s": 150,
+     "f": "ant",
+     "c": "",
+     "w": "precisa#1"
+    },
+    {
+     "h": "Basta não<br>ser o 3º",
+     "y": 900,
+     "s": 150,
+     "f": "ant",
+     "c": "",
+     "w": "Basta#1",
+     "a": "slam",
+     "box": "gold"
+    }
+   ],
+   "w": "A#7"
+  },
+  {
+   "t": "conversa",
+   "w": "Comenta#1",
+   "img": "../img/hist/marcus_aurelius.jpg",
+   "h": "Daqui a<br>um ano?",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "RESPONDE NOS COMENTÁRIOS",
+    "digita": "O TIPO 1"
+   }
+  },
+  {
    "t": "assinatura",
-   "apos": "terceiro"
+   "apos": "ano#1",
+   "frase": "Só não seja o terceiro.",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "DEIXA SUA RESPOSTA",
+    "digita": ""
+   }
   }
- ]
+ ],
+ "abre": "zoom",
+ "pulso": 1.25,
+ "batida": "reto"
 }
