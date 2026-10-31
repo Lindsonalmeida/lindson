@@ -1,5 +1,558 @@
 [
  {
+  "id": "longo-07",
+  "formato": "longo",
+  "titulo": "Temido ou amado? A resposta completa de Maquiavel",
+  "legenda": "É melhor ser amado ou temido? Neste vídeo você entende a resposta completa de Maquiavel no capítulo 17 de O Príncipe: por que o medo dura mais que o amor, por que você nunca deve ser odiado e o que Aníbal e Cipião ensinam sobre liderança.\n\nVocê também vai ver o que aconteceu na praça de Cesena com César Bórgia, a crueldade bem usada e mal usada do capítulo 8, o perigo do desprezo no capítulo 19 e a resposta que Maquiavel deu depois, nos Discursos. Tudo aplicado ao trabalho, aos negócios e à família, para liderar sem virar carrasco.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📜 Fonte: Nicolau Maquiavel, O Príncipe, caps. VII, VIII, XVII e XIX; Discursos sobre a primeira década de Tito Lívio, livro III, caps. 21 e 22.\n\n🦊🦁 Raposa e Leão: Maquiavel e as leis do poder aplicadas à vida real.\n\n▶️ Playlist recomendada: O Príncipe explicado\n\n#Maquiavel #OPríncipe #Liderança #GestãoDePessoas #Filosofia",
+  "comentario": "📌 No seu trabalho ou na sua casa, você está mais perto do erro de Cipião (bondade sem limite) ou do erro de Caracala (medo com ódio)? Continue na playlist O Príncipe explicado ⬇️",
+  "titulo_tela": {
+   "sup": "RAPOSA E LEÃO",
+   "txt": "Temido<br>ou amado?",
+   "dur": 3.2
+  },
+  "cenas": [
+   {
+    "gravura": "borgia.jpg",
+    "mov": "in",
+    "txt": "Numa manhã, o povo de Cesena acordou e encontrou, no meio da praça, o corpo do governador cortado em dois. Quem mandou fazer isso foi o próprio chefe dele. E o mais estranho: o povo ficou satisfeito."
+   },
+   {
+    "gravura": "acervo/multidao_bruegel.jpg",
+    "mov": "dir",
+    "txt": "Maquiavel conta essa cena em O Príncipe. E ela ajuda a responder a pergunta mais famosa do livro: afinal, é melhor ser amado ou ser temido?"
+   },
+   {
+    "gravura": "maquiavel.jpg",
+    "mov": "out",
+    "txt": "Quase todo mundo sabe a resposta curta: melhor ser temido. Só que quem para aí entende tudo ao contrário, e acaba virando exatamente o tipo de líder que, segundo Maquiavel, cai."
+   },
+   {
+    "gravura": "cesar.jpg",
+    "mov": "cima",
+    "txt": "Hoje você vai ver o raciocínio inteiro do capítulo dezessete, frase por frase, e o que vem antes e depois dele. E como usar isso no trabalho, em casa e nos negócios, sem virar carrasco de ninguém."
+   },
+   {
+    "gravura": "hist/hannibal.jpg",
+    "mov": "esq",
+    "txt": "No caminho, eu te conto o erro que quase destruiu a fama de um dos homens mais admirados de Roma. Ele era bom demais. E isso quase acabou com ele."
+   },
+   {
+    "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+    "mov": "out",
+    "txt": "E a maior eu guardo para o final. Em outro livro, escrito depois, o próprio Maquiavel volta a essa pergunta e dá uma resposta que muda o jeito de ler tudo isso. Pouca gente conhece."
+   },
+   {
+    "gravura": "hist/girolamo_savonarola.jpg",
+    "mov": "cima",
+    "txt": "Mas a cena de Cesena só fecha mais para frente. Primeiro, você precisa entender a pergunta que Maquiavel faz antes dessa, e que quase ninguém repara."
+   },
+   {
+    "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+    "mov": "esq",
+    "txt": "O capítulo dezessete começa assim: é melhor ser cruel ou piedoso? E a primeira resposta de Maquiavel é que todo governante deveria querer ser visto como piedoso, e não como cruel.",
+    "cap": {
+     "sup": "LIÇÃO 1",
+     "txt": "Cruel ou piedoso?"
+    }
+   },
+   {
+    "gravura": "borgia.jpg",
+    "mov": "in",
+    "txt": "Mas ele faz um alerta logo em seguida: cuidado para não usar mal essa piedade. E dá o exemplo de César Bórgia, filho do papa Alexandre Sexto, que tinha fama de ser cruel."
+   },
+   {
+    "gravura": "hist/pope_alexander_vi.jpg",
+    "mov": "dir",
+    "txt": "Segundo Maquiavel, essa crueldade de Bórgia arrumou a Romanha. Uniu a região, trouxe paz e fez o povo voltar a ser leal. Antes, aquilo era terra de roubo, briga e abuso.",
+    "verso": "César Bórgia era tido como cruel; mesmo assim, essa crueldade reorganizou a Romanha e a levou à paz e à lealdade.",
+    "ref": "O PRÍNCIPE, CAP. XVII"
+   },
+   {
+    "gravura": "hist/bonfire_of_the_vanities.jpg",
+    "mov": "esq",
+    "txt": "E aí vem a comparação que dói. O povo de Florença, a cidade do próprio Maquiavel, quis fugir da fama de cruel. E por isso deixou a cidade de Pistoia ser destruída pelas brigas entre facções."
+   },
+   {
+    "gravura": "hist/arco_severo.jpg",
+    "mov": "in",
+    "txt": "Repara na ironia. Para não parecer duro com poucos, Florença deixou o caos machucar muita gente. Maquiavel explica: o castigo atinge só algumas pessoas, mas a desordem atinge a comunidade inteira."
+   },
+   {
+    "gravura": "maquiavel.jpg",
+    "mov": "dir",
+    "txt": "Traz isso para a sua vida. Sabe aquele chefe que nunca corrige ninguém para não ficar chato? A equipe inteira paga. O folgado continua folgando, e quem trabalha direito carrega o peso dele."
+   },
+   {
+    "gravura": "acervo/castiglione_raffaello.jpg",
+    "mov": "out",
+    "txt": "Ou aquela casa onde nenhuma regra vale de verdade. Parece amor, mas vira briga todo dia. A falta de limite não poupa ninguém. Só espalha o problema."
+   },
+   {
+    "gravura": "lorenzo.jpg",
+    "mov": "cima",
+    "txt": "Maquiavel diz ainda que, para quem acabou de chegar ao poder, é impossível fugir da fama de cruel, porque tudo que é novo vem cheio de perigo. E cita o poeta Virgílio, na boca da rainha Dido.",
+    "verso": "A dura situação e a novidade do reino me obrigam a agir assim e a vigiar todas as fronteiras.",
+    "ref": "O PRÍNCIPE, CAP. XVII (VIRGÍLIO)"
+   },
+   {
+    "gravura": "hist/marcus_aurelius.jpg",
+    "mov": "dir",
+    "txt": "Só que, logo depois, ele põe um freio. O governante deve ser lento para acreditar e lento para agir. Não deve ter medo da própria sombra, e precisa agir com prudência e humanidade."
+   },
+   {
+    "gravura": "acervo/embaixadores_holbein.jpg",
+    "mov": "out",
+    "txt": "Nem confiança demais, que deixa a pessoa descuidada, nem desconfiança demais, que deixa ela insuportável. Guarda essa ideia de equilíbrio, porque ela volta com força no fim do vídeo."
+   },
+   {
+    "gravura": "cesar.jpg",
+    "mov": "cima",
+    "txt": "Tá comigo até aqui? Então já deu para notar uma coisa: até agora Maquiavel não mandou ninguém ser malvado. Ele está falando de não deixar a bagunça machucar quem não tem culpa.",
+    "interage": {
+     "tipo": "checkin",
+     "txt": "Bagunça também machuca. Tá comigo?"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "acervo/albrecht_altdorfer_schlacht_bei_issus_alte_pinak.jpg",
+    "mov": "esq",
+    "txt": "Agora sim, a pergunta famosa. É melhor ser amado ou temido? E a resposta completa começa de um jeito que pouca gente conta: o ideal seria ser as duas coisas ao mesmo tempo.",
+    "cap": {
+     "sup": "LIÇÃO 2",
+     "txt": "Por que o medo dura mais"
+    }
+   },
+   {
+    "gravura": "maquiavel.jpg",
+    "mov": "in",
+    "txt": "Só que é difícil juntar as duas. Então, se for preciso abrir mão de uma, ele diz que é muito mais seguro ser temido do que amado. Repara: é uma escolha para quando não dá para ter tudo.",
+    "verso": "Seria preciso ser um e outro; mas, como é difícil reuni-los, é muito mais seguro ser temido do que amado.",
+    "ref": "O PRÍNCIPE, CAP. XVII"
+   },
+   {
+    "gravura": "acervo/multidao_bruegel.jpg",
+    "mov": "cima",
+    "txt": "E por quê? Aqui vem a parte mais dura do livro. Maquiavel diz que as pessoas, em geral, são ingratas, volúveis, fingidas, fogem do perigo e correm atrás de ganho."
+   },
+   {
+    "gravura": "hist/pope_julius_ii.jpg",
+    "mov": "esq",
+    "txt": "Enquanto você faz bem a elas, oferecem tudo: o sangue, os bens, a vida, os filhos. Mas só enquanto a necessidade está longe. Quando o aperto chega de verdade, muitas viram as costas."
+   },
+   {
+    "gravura": "acervo/beijo_judas_giotto.jpg",
+    "mov": "in",
+    "txt": "Quem já passou por isso sabe como é. O amigo que vivia na sua casa e sumiu quando você perdeu o emprego. O sócio que jurava lealdade até aparecer uma proposta melhor."
+   },
+   {
+    "gravura": "hist/ferdinand_ii_of_aragon.jpg",
+    "mov": "dir",
+    "txt": "E Maquiavel faz um alerta sobre amizade comprada. A que vem por pagamento, e não por grandeza de caráter, até se compra, mas não se possui. Na hora em que você mais precisa, ela não aparece.",
+    "verso": "As amizades que se conquistam com dinheiro, e não com grandeza de alma, se compram, mas não se possuem.",
+    "ref": "O PRÍNCIPE, CAP. XVII"
+   },
+   {
+    "gravura": "acervo/rendicao_granada_pradilla.jpg",
+    "mov": "out",
+    "txt": "Depois ele explica a diferença entre os dois sentimentos. O amor é preso por uma corrente de obrigação. E, como as pessoas pensam primeiro em si, quebram essa corrente sempre que isso dá vantagem."
+   },
+   {
+    "gravura": "hist/caracalla.jpg",
+    "mov": "in",
+    "txt": "Já o medo é preso pelo receio do castigo, que nunca abandona ninguém. Por isso as pessoas têm menos cuidado em ofender quem se faz amar do que quem se faz temer.",
+    "verso": "O amor é mantido por um vínculo de obrigação que se rompe; o medo, pelo receio do castigo, que nunca falha.",
+    "ref": "O PRÍNCIPE, CAP. XVII"
+   },
+   {
+    "gravura": "lorenzo.jpg",
+    "mov": "dir",
+    "txt": "Mas calma. Temido, aqui, não quer dizer gritar, ameaçar ou humilhar. Quer dizer que as pessoas sabem que a sua palavra tem consequência. Que o combinado vai ser cumprido, para o bem e para o mal."
+   },
+   {
+    "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+    "mov": "out",
+    "txt": "Pensa no professor que todo mundo respeitava. Ele não precisava gritar. Bastava a turma saber que a prova era séria e que cola não passava. É desse tipo de medo que Maquiavel está falando."
+   },
+   {
+    "gravura": "hist/alexander_the_great.jpg",
+    "mov": "cima",
+    "txt": "Agora me conta nos comentários. Quem foi a pessoa que você mais respeitou na vida: um chefe, um pai, uma mãe, um professor? Ela era mais amada ou mais temida?",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Ela era amada ou temida?"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "hist/marcus_equestre.jpg",
+    "mov": "esq",
+    "txt": "Chegamos à frase que quase ninguém cita. Maquiavel diz que o governante deve se fazer temer de um jeito que, se não ganhar o amor, pelo menos fuja do ódio.",
+    "cap": {
+     "sup": "LIÇÃO 3",
+     "txt": "Temido, nunca odiado"
+    }
+   },
+   {
+    "gravura": "borgia.jpg",
+    "mov": "out",
+    "txt": "E ele garante que ser temido e não ser odiado podem andar muito bem juntos. Aliás, essa é a condição de tudo. Medo com ódio não protege ninguém. Derruba.",
+    "verso": "Pode muito bem ser temido e, ao mesmo tempo, não ser odiado.",
+    "ref": "O PRÍNCIPE, CAP. XVII"
+   },
+   {
+    "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+    "mov": "cima",
+    "txt": "E como fugir do ódio? A receita é simples. Não tocar nos bens das pessoas, nem nas mulheres delas, como ele escreve na linguagem do século dezesseis. Ou seja: não mexer no que é do outro."
+   },
+   {
+    "gravura": "hist/pope_alexander_vi.jpg",
+    "mov": "esq",
+    "txt": "E se um dia for preciso punir alguém com dureza, que seja com justificativa clara e motivo que todos entendam. Castigo sem explicação não gera respeito. Gera raiva escondida."
+   },
+   {
+    "gravura": "acervo/romanos_decadencia_couture.jpg",
+    "mov": "in",
+    "txt": "E aqui vem uma das frases mais cruas de O Príncipe. As pessoas esquecem mais depressa a morte do pai do que a perda do patrimônio.",
+    "verso": "Os homens esquecem mais depressa a morte do pai do que a perda do patrimônio.",
+    "ref": "O PRÍNCIPE, CAP. XVII"
+   },
+   {
+    "gravura": "maquiavel.jpg",
+    "mov": "dir",
+    "txt": "Dura, né? Mas ele explica o motivo. Pretexto para tomar o que é dos outros nunca falta. Quem começa a viver de tomar sempre encontra uma desculpa para tomar de novo. E o ódio só cresce."
+   },
+   {
+    "gravura": "cesar.jpg",
+    "mov": "esq",
+    "txt": "Agora traz para hoje. O que é o patrimônio de quem trabalha com você? O salário combinado, o tempo de descanso, o crédito pelo trabalho que a pessoa fez, o respeito na frente dos outros."
+   },
+   {
+    "gravura": "acervo/embaixadores_holbein.jpg",
+    "mov": "in",
+    "txt": "Mexeu nisso, acabou. Pode ser o chefe mais simpático do mundo: se ele assina o projeto que outra pessoa fez, ou atrasa o pagamento sem avisar, o ódio nasce e não vai embora tão cedo."
+   },
+   {
+    "gravura": "hist/marcus_aurelius.jpg",
+    "mov": "dir",
+    "txt": "Então a regra que sobra é essa: seja firme no combinado, mas nunca tire o que é do outro. Corrija em particular, reconheça em público, e quando cobrar, cobre com motivo claro."
+   },
+   {
+    "gravura": "acervo/multidao_bruegel.jpg",
+    "mov": "out",
+    "txt": "Se essa regra já valeu o seu tempo, segue o Raposa e Leão e assiste a playlist O Príncipe explicado. Toda semana tem Maquiavel na fonte, trazido para a sua vida. Porque agora vem a prova que ele usou.",
+    "cta": "Segue o <b>Raposa e Leão</b><br>e veja a playlist <b>O Príncipe explicado</b>",
+    "interage": {
+     "tipo": "segue",
+     "txt": "Segue para a próxima lição"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "acervo/hannibal_and_scipio_africanus.jpg",
+    "mov": "cima",
+    "txt": "Para provar o que diz, Maquiavel vai para a guerra. Quando o governante está à frente de um exército, ele afirma, não pode se preocupar com fama de cruel. Sem ela, nenhum exército fica unido.",
+    "cap": {
+     "sup": "LIÇÃO 4",
+     "txt": "Aníbal e Cipião"
+    }
+   },
+   {
+    "gravura": "hist/hannibal.jpg",
+    "mov": "dir",
+    "txt": "O primeiro exemplo é Aníbal, o general de Cartago. Ele levou um exército enorme, com soldados de muitos povos diferentes, para lutar em terra estrangeira, longe de casa."
+   },
+   {
+    "gravura": "acervo/albrecht_altdorfer_schlacht_bei_issus_alte_pinak.jpg",
+    "mov": "out",
+    "txt": "E Maquiavel destaca uma coisa impressionante: nunca houve briga entre aqueles soldados, nem revolta contra o comandante. Nem quando as coisas iam bem, nem quando iam mal."
+   },
+   {
+    "gravura": "hist/alexander_the_great.jpg",
+    "mov": "cima",
+    "txt": "O motivo, segundo ele, foi a crueldade desumana de Aníbal, somada às suas muitas virtudes. Juntas, faziam os soldados olharem para ele com respeito e com medo.",
+    "verso": "Sua crueldade desumana, junto com suas muitas virtudes, o tornava sempre respeitado e terrível aos soldados.",
+    "ref": "O PRÍNCIPE, CAP. XVII"
+   },
+   {
+    "gravura": "maquiavel.jpg",
+    "mov": "esq",
+    "txt": "E ele critica os escritores que admiram as conquistas de Aníbal, mas condenam a causa principal delas. Para Maquiavel, sem a dureza, as virtudes sozinhas não teriam bastado."
+   },
+   {
+    "gravura": "acervo/vercingetorix_royer.jpg",
+    "mov": "in",
+    "txt": "Agora o outro lado, e aqui eu fecho a primeira promessa do começo. O homem admirado que quase perdeu a fama por ser bom demais é Cipião, o general romano que derrotou Aníbal."
+   },
+   {
+    "gravura": "acervo/hannibal_and_scipio_africanus.jpg",
+    "mov": "cima",
+    "txt": "Maquiavel diz que Cipião foi um homem raríssimo, não só no tempo dele, mas em toda a memória que temos. Mesmo assim, os exércitos dele se rebelaram na Espanha."
+   },
+   {
+    "gravura": "acervo/pollice_verso_gerome.jpg",
+    "mov": "esq",
+    "txt": "E o motivo foi a bondade demais. Ele dava aos soldados mais liberdade do que a disciplina militar permitia. Por isso, foi repreendido no Senado por Fábio Máximo, que o chamou de corruptor da milícia romana."
+   },
+   {
+    "gravura": "hist/arco_severo.jpg",
+    "mov": "in",
+    "txt": "E tem mais. Um enviado de Cipião arrasou os moradores de Locros, no sul da Itália. Cipião não vingou aquela gente nem castigou a arrogância do enviado. Tudo pelo jeito brando dele."
+   },
+   {
+    "gravura": "hist/marcus_equestre.jpg",
+    "mov": "dir",
+    "txt": "Um senador, tentando defender Cipião, disse que existem muitos homens que sabem melhor não errar do que corrigir os erros dos outros. Ou seja: bom para si, fraco para cobrar."
+   },
+   {
+    "gravura": "cesar.jpg",
+    "mov": "out",
+    "txt": "E Maquiavel conclui que, se Cipião tivesse continuado no comando desse jeito, com o tempo teria manchado a própria glória. Só que ele vivia sob o governo do Senado, e esse defeito ficou escondido."
+   },
+   {
+    "gravura": "lorenzo.jpg",
+    "mov": "in",
+    "txt": "Pensa no seu dia a dia. Quem nunca cobra nada não é visto como bom. É visto como fácil. E a bagunça que nasce disso acaba machucando justamente quem você queria proteger."
+   },
+   {
+    "gravura": "acervo/castiglione_raffaello.jpg",
+    "mov": "dir",
+    "txt": "Se essa história de Cipião te pegou, salva o vídeo. Ela vale ouvir de novo no dia em que você estiver com pena de cobrar alguém que está prejudicando o resto do grupo.",
+    "interage": {
+     "tipo": "salva",
+     "txt": "Salva a lição de Cipião"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "borgia.jpg",
+    "mov": "out",
+    "txt": "Agora, a promessa da primeira cena. Por que o povo de Cesena ficou satisfeito ao ver o governador cortado em dois? A história está no capítulo sete de O Príncipe.",
+    "cap": {
+     "sup": "LIÇÃO 5",
+     "txt": "O que houve em Cesena"
+    }
+   },
+   {
+    "gravura": "hist/pope_alexander_vi.jpg",
+    "mov": "cima",
+    "txt": "Quando César Bórgia tomou a Romanha, encontrou uma região governada por senhores fracos, que mais roubavam do que cuidavam do povo. Era cheia de assaltos, brigas e abusos de todo tipo."
+   },
+   {
+    "gravura": "acervo/prisao_cristo_caravaggio.jpg",
+    "mov": "esq",
+    "txt": "Para pôr ordem, Bórgia colocou ali um homem cruel e rápido, Remirro de Orco, e deu a ele poder total. Em pouco tempo, Remirro pacificou a região, com muita dureza."
+   },
+   {
+    "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+    "mov": "out",
+    "txt": "Depois, Bórgia achou que tanto poder já não era necessário e podia gerar ódio. Criou um tribunal civil no meio da província, com um presidente excelente, e cada cidade com seu advogado."
+   },
+   {
+    "gravura": "borgia.jpg",
+    "mov": "cima",
+    "txt": "E, sabendo que o rigor de antes tinha gerado ódio contra ele, quis mostrar que a crueldade não tinha vindo dele, e sim da natureza dura do ministro.",
+    "verso": "Quis mostrar que, se houvera alguma crueldade, não nascera dele, mas da natureza áspera do ministro.",
+    "ref": "O PRÍNCIPE, CAP. VII"
+   },
+   {
+    "gravura": "acervo/multidao_bruegel.jpg",
+    "mov": "esq",
+    "txt": "Então, numa manhã, Remirro apareceu na praça de Cesena cortado em dois, com um pedaço de madeira e uma faca ensanguentada ao lado. Maquiavel diz que o espetáculo deixou o povo, ao mesmo tempo, satisfeito e atônito."
+   },
+   {
+    "gravura": "maquiavel.jpg",
+    "mov": "in",
+    "txt": "Agora, cuidado com a lição. Isso aconteceu no começo do século dezesseis, no meio de guerras. Maquiavel conta como quem observa a estratégia. A gente não está aqui para copiar a crueldade, e sim para entender a cabeça de quem comanda."
+   },
+   {
+    "gravura": "hist/caracalla.jpg",
+    "mov": "dir",
+    "txt": "E o que a cabeça de Bórgia entendeu? Que a dureza tinha um custo: o ódio. E que alguém precisava pagar esse custo. Ele jogou a conta no ministro e ficou com a fama da justiça."
+   },
+   {
+    "gravura": "acervo/romanos_decadencia_couture.jpg",
+    "mov": "esq",
+    "txt": "Isso leva ao capítulo oito, onde Maquiavel separa a crueldade bem usada da crueldade mal usada. Essa diferença é uma das ideias mais práticas do livro inteiro."
+   },
+   {
+    "gravura": "hist/girolamo_savonarola.jpg",
+    "mov": "in",
+    "txt": "Bem usada é a que se faz de uma vez, por necessidade, para se proteger, e depois não se repete, virando benefício para as pessoas. Mal usada é a que começa pequena e só cresce com o tempo.",
+    "verso": "As ofensas devem ser feitas todas juntas; os benefícios, pouco a pouco, para que sejam mais saboreados.",
+    "ref": "O PRÍNCIPE, CAP. VIII"
+   },
+   {
+    "gravura": "cesar.jpg",
+    "mov": "dir",
+    "txt": "No seu mundo, isso vale ouro. Se você precisa tomar uma decisão difícil, como um corte ou uma mudança de regra, faça de uma vez, explique e encerre. Não vá cortando um pouquinho todo mês."
+   },
+   {
+    "gravura": "hist/marcus_aurelius.jpg",
+    "mov": "out",
+    "txt": "E com as coisas boas, o contrário: aos poucos, para que sejam sentidas. Um aumento, um elogio, uma folga. Quem dá tudo de uma vez e depois vai tirando colhe o pior dos dois mundos."
+   },
+   {
+    "gravura": "hist/moses.jpg",
+    "mov": "cima",
+    "txt": "E repara num limite que o próprio Maquiavel coloca nesse capítulo. Ao falar de Agátocles, que subiu ao poder matando cidadãos e traindo amigos, ele diz que isso pode trazer poder, mas nunca glória."
+   },
+   {
+    "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+    "mov": "dir",
+    "txt": "Conhece alguém que acabou de virar chefe e está perdido entre ser bonzinho ou ser duro? Manda esse vídeo para essa pessoa. Pode poupar ela de muito erro.",
+    "interage": {
+     "tipo": "manda",
+     "txt": "Manda pra quem virou chefe"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "hist/commodus.jpg",
+    "mov": "out",
+    "txt": "Tem um perigo que quase ninguém liga a essa pergunta. No capítulo dezenove, Maquiavel diz que o governante precisa fugir de duas coisas: do ódio e do desprezo.",
+    "cap": {
+     "sup": "LIÇÃO 6",
+     "txt": "O outro perigo: o desprezo"
+    }
+   },
+   {
+    "gravura": "acervo/embaixadores_holbein.jpg",
+    "mov": "cima",
+    "txt": "O ódio, você já viu, nasce quando ele toma o que é dos outros. O desprezo nasce quando ele parece instável, leviano, medroso e indeciso.",
+    "verso": "Torna-se desprezível quem é tido por volúvel, leviano, pusilânime e indeciso.",
+    "ref": "O PRÍNCIPE, CAP. XIX"
+   },
+   {
+    "gravura": "hist/marcus_aurelius.jpg",
+    "mov": "esq",
+    "txt": "E ele usa os imperadores romanos como exemplo. Marco Aurélio viveu e morreu honrado. Tinha muitas virtudes, manteve soldados e povo dentro dos limites e nunca foi odiado nem desprezado."
+   },
+   {
+    "gravura": "hist/commodus.jpg",
+    "mov": "in",
+    "txt": "Já o filho dele, Cômodo, herdou tudo pronto. Mas não guardou a dignidade do cargo. Maquiavel conta que ele descia às arenas para lutar com gladiadores e fazia coisas indignas de um imperador."
+   },
+   {
+    "gravura": "acervo/pollice_verso_gerome.jpg",
+    "mov": "cima",
+    "txt": "Resultado: virou alvo de desprezo dos próprios soldados. Odiado de um lado e desprezado do outro, acabou vítima de uma conspiração e foi morto."
+   },
+   {
+    "gravura": "hist/caracalla.jpg",
+    "mov": "esq",
+    "txt": "E tem Caracala. Esse era temido de verdade. Maquiavel conta que ele matou boa parte do povo de Roma e toda a população de Alexandria. Ficou odiado pelo mundo inteiro."
+   },
+   {
+    "gravura": "acervo/prisao_cristo_caravaggio.jpg",
+    "mov": "in",
+    "txt": "E foi morto por um centurião no meio do próprio exército. Um homem cujo irmão Caracala tinha mandado matar, que ele ameaçava todo dia, e mesmo assim mantinha na guarda pessoal."
+   },
+   {
+    "gravura": "maquiavel.jpg",
+    "mov": "dir",
+    "txt": "Repara: esse é o temido que deu errado. Medo com ódio não é proteção, é uma bomba com o pavio aceso. Por isso o capítulo dezessete insiste tanto em não ser odiado."
+   },
+   {
+    "gravura": "acervo/castiglione_raffaello.jpg",
+    "mov": "out",
+    "txt": "E o desprezo é o outro lado: o líder que muda de ideia toda semana, que promete e não cumpre, que foge de conversa difícil. Esse não é odiado. É ignorado. E ninguém segue quem é ignorado."
+   },
+   {
+    "gravura": "hist/alexander_the_great.jpg",
+    "mov": "in",
+    "txt": "Então são dois buracos, um de cada lado da estrada. De um lado, o ódio, de quem abusa. Do outro, o desprezo, de quem é fraco. O caminho de Maquiavel passa no meio."
+   },
+   {
+    "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+    "mov": "dir",
+    "txt": "E agora, a maior promessa do vídeo. Anos depois de O Príncipe, nos Discursos sobre Tito Lívio, Maquiavel volta a essa pergunta. E a resposta fica bem mais interessante.",
+    "cap": {
+     "sup": "LIÇÃO 7",
+     "txt": "A resposta que muda tudo"
+    }
+   },
+   {
+    "gravura": "acervo/hannibal_and_scipio_africanus.jpg",
+    "mov": "out",
+    "txt": "No livro três dos Discursos, ele pergunta: como Aníbal, sendo cruel, conseguiu na Itália os mesmos resultados que Cipião conseguiu na Espanha sendo humano e generoso?",
+    "verso": "Aníbal, com um modo oposto ao de Cipião, obteve na Itália os mesmos efeitos que Cipião obteve na Espanha.",
+    "ref": "DISCURSOS, LIVRO III, CAP. 21"
+   },
+   {
+    "gravura": "hist/hannibal.jpg",
+    "mov": "cima",
+    "txt": "A resposta dele: as pessoas se movem por dois motores, o amor e o medo. Quem tem grande virtude pode seguir qualquer um dos dois caminhos, porque a virtude compensa os defeitos de cada um."
+   },
+   {
+    "gravura": "lorenzo.jpg",
+    "mov": "esq",
+    "txt": "Mas cada caminho tem seu precipício. Quem quer demais ser amado acaba desprezado. Quem quer demais ser temido acaba odiado. O erro não está no caminho. Está no exagero.",
+    "verso": "Quem deseja demais ser amado se torna desprezível; quem deseja demais ser temido se torna odioso.",
+    "ref": "DISCURSOS, LIVRO III, CAP. 21"
+   },
+   {
+    "gravura": "hist/arco_severo.jpg",
+    "mov": "out",
+    "txt": "No capítulo seguinte, ele compara dois comandantes romanos da mesma época: Mânlio Torquato, famoso pela severidade, e Valério Corvino, famoso pela gentileza. Os dois tiveram vitórias e glória parecidas."
+   },
+   {
+    "gravura": "acervo/vercingetorix_royer.jpg",
+    "mov": "cima",
+    "txt": "A tradição romana conta que Mânlio mandou executar o próprio filho por desobedecer a uma ordem, mesmo tendo vencido o combate. Valério, ao contrário, tratava os soldados com afeto e ganhava tudo com doçura."
+   },
+   {
+    "gravura": "maquiavel.jpg",
+    "mov": "esq",
+    "txt": "E qual Maquiavel prefere? Para um cidadão numa república, ele acha mais seguro o jeito de Mânlio, porque essa severidade serve ao bem comum e não cria seguidores pessoais. Os estudiosos ainda debatem como juntar isso com O Príncipe."
+   },
+   {
+    "gravura": "cesar.jpg",
+    "mov": "in",
+    "txt": "Então a grande virada é essa: Maquiavel não diz seja temido e pronto. Ele diz: tenha virtude, cuide do bem comum e não caia nem no ódio nem no desprezo. Medo e amor são ferramentas, não objetivos."
+   },
+   {
+    "gravura": "hist/girolamo_savonarola.jpg",
+    "mov": "dir",
+    "txt": "E o capítulo dezessete termina com a frase que, para mim, resume tudo. As pessoas amam conforme a vontade delas e temem conforme a vontade de quem governa.",
+    "cap": {
+     "sup": "LIÇÃO 8",
+     "txt": "O que depende de você"
+    },
+    "verso": "Os homens amam conforme a vontade deles e temem conforme a vontade do príncipe.",
+    "ref": "O PRÍNCIPE, CAP. XVII"
+   },
+   {
+    "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+    "mov": "esq",
+    "txt": "Por isso, diz ele, o sábio deve se apoiar no que depende dele, e não no que depende dos outros. E só precisa se esforçar para não ser odiado. É a última linha do capítulo."
+   },
+   {
+    "gravura": "hist/marcus_aurelius.jpg",
+    "mov": "in",
+    "txt": "Traduzindo: você não controla se vão gostar de você. Mas controla se as suas regras são claras, se você cumpre o que promete e se respeita o que é dos outros. Isso é seu."
+   },
+   {
+    "gravura": "acervo/multidao_bruegel.jpg",
+    "mov": "dir",
+    "txt": "Então fica o exercício de hoje. Escreve três regras que ninguém atravessa no seu trabalho ou na sua casa. Cobra na primeira vez, não na terceira. E reconhece o esforço com a mesma força com que cobra o erro."
+   },
+   {
+    "gravura": "maquiavel.jpg",
+    "mov": "out",
+    "txt": "Resumindo: o ideal é ser amado e temido. Se não der, temido é mais seguro. Mas nunca odiado, e nunca desprezado. Maquiavel não ensina a ser cruel. Ensina a não ser fraco."
+   },
+   {
+    "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+    "mov": "cima",
+    "txt": "No próximo vídeo da playlist O Príncipe explicado, a gente vai ao capítulo dezoito: a raposa e o leão, e quando a palavra dada deixa de valer. Até a próxima lição, raposa.",
+    "cta": "Próximo: <b>a raposa e o leão</b><br>Até a próxima lição, raposa",
+    "selo": "RAPOSA<br>E LEÃO"
+   }
+  ],
+  "canal": "raposa"
+ },
+ {
   "id": "longo-11",
   "formato": "longo",
   "titulo": "Maquiavel: os 2 erros que derrubam qualquer líder",
