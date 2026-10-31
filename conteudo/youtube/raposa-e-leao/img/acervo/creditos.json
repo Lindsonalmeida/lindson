@@ -235,5 +235,48 @@
    "cesar.jpg"
   ],
   "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo"
+ },
+ {
+  "arquivo": "multidao_bruegel.jpg",
+  "titulo": "File:Pieter Bruegel d. Ä. 015.jpg",
+  "licenca": "Public domain",
+  "url_commons": "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_d._%C3%84._015.jpg",
+  "obs": "Dança dos camponeses (detalhe), praça de aldeia com multidão"
+ },
+ {
+  "arquivo": "embaixadores_holbein.jpg",
+  "titulo": "File:Hans Holbein the Younger - The Ambassadors - Google Art Project.jpg",
+  "licenca": "Public domain",
+  "url_commons": "https://commons.wikimedia.org/wiki/File:Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg"
+ },
+ {
+  "arquivo": "rendicao_granada_pradilla.jpg",
+  "titulo": "File:La Rendición de Granada - Pradilla.jpg",
+  "licenca": "Public domain",
+  "url_commons": "https://commons.wikimedia.org/wiki/File:La_Rendici%C3%B3n_de_Granada_-_Pradilla.jpg"
+ },
+ {
+  "arquivo": "romanos_decadencia_couture.jpg",
+  "titulo": "File:Thomas Couture - Romans during the Decadence - Google Art Project.jpg",
+  "licenca": "Public domain",
+  "url_commons": "https://commons.wikimedia.org/wiki/File:Thomas_Couture_-_Romans_during_the_Decadence_-_Google_Art_Project.jpg"
+ },
+ {
+  "arquivo": "vercingetorix_royer.jpg",
+  "titulo": "File:Siege-alesia-vercingetorix-jules-cesar.jpg",
+  "licenca": "Public domain",
+  "url_commons": "https://commons.wikimedia.org/wiki/File:Siege-alesia-vercingetorix-jules-cesar.jpg"
+ },
+ {
+  "arquivo": "pollice_verso_gerome.jpg",
+  "titulo": "File:Jean-Leon Gerome Pollice Verso.jpg",
+  "licenca": "Public domain",
+  "url_commons": "https://commons.wikimedia.org/wiki/File:Jean-Leon_Gerome_Pollice_Verso.jpg"
+ },
+ {
+  "arquivo": "prisao_cristo_caravaggio.jpg",
+  "titulo": "File:The Taking of Christ-Caravaggio (c.1602).jpg",
+  "licenca": "Public domain",
+  "url_commons": "https://commons.wikimedia.org/wiki/File:The_Taking_of_Christ-Caravaggio_%28c.1602%29.jpg"
  }
 ]
