@@ -228,5 +228,33 @@
    "tag": "A VIDA DE MAQUIAVEL",
    "marca": "RAPOSA E LEÃO"
   }
+ },
+ "longo-08": {
+  "A": {
+   "estilo": "close",
+   "lado": "dir",
+   "tag": "A SORTE É UM RIO",
+   "marca": "RAPOSA E LEÃO",
+   "grav": "maquiavel2.jpg",
+   "foco": [
+    0.5,
+    0.3
+   ],
+   "zoom": 0.8,
+   "txt": "METADE É <b>SUA</b>"
+  },
+  "B": {
+   "estilo": "close",
+   "lado": "dir",
+   "tag": "A SORTE É UM RIO",
+   "marca": "RAPOSA E LEÃO",
+   "grav": "acervo/smk_skibbrud_vernet.jpg",
+   "foco": [
+    0.45,
+    0.45
+   ],
+   "zoom": 0.9,
+   "txt": "CONSTRUA O <b>DIQUE</b>"
+  }
  }
 }
