@@ -171,5 +171,34 @@
    "tag": "MAQUIAVEL DE VERDADE",
    "marca": "RAPOSA E LEÃO"
   }
+ },
+ "longo-07": {
+  "A": {
+   "estilo": "close",
+   "tag": "O PRÍNCIPE EXPLICADO",
+   "marca": "RAPOSA E LEÃO",
+   "grav": "cesar.jpg",
+   "foco": [
+    0.5,
+    0.3
+   ],
+   "zoom": 1.0,
+   "txt": "TEMIDO OU <b>AMADO?</b>",
+   "lado": "dir"
+  },
+  "B": {
+   "estilo": "close",
+   "tag": "O PRÍNCIPE EXPLICADO",
+   "marca": "RAPOSA E LEÃO",
+   "grav": "acervo/castiglione_raffaello.jpg",
+   "foco": [
+    0.5,
+    0.28
+   ],
+   "zoom": 1.0,
+   "txt": "NUNCA <b>ODIADO</b>",
+   "lado": "dir",
+   "fs": 170
+  }
  }
 }
