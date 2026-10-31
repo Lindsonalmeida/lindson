@@ -207,9 +207,9 @@
    "grav": "maquiavel2.jpg",
    "foco": [
     0.5,
-    0.3
+    0.2
    ],
-   "zoom": 0.75,
+   "zoom": 0.72,
    "txt": "PRESO. <b>TORTURADO.</b>",
    "lado": "dir",
    "tag": "A VIDA DE MAQUIAVEL",
@@ -217,12 +217,12 @@
   },
   "B": {
    "estilo": "close",
-   "grav": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "grav": "acervo/prisao_cristo_caravaggio.jpg",
    "foco": [
-    0.48,
-    0.25
+    0.42,
+    0.4
    ],
-   "zoom": 0.7,
+   "zoom": 0.8,
    "txt": "FUNDO <b>DO POÇO</b>",
    "lado": "dir",
    "tag": "A VIDA DE MAQUIAVEL",
