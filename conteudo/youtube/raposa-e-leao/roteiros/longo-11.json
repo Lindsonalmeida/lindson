@@ -18,9 +18,10 @@
  },
  "cenas": [
   {
-   "gravura": "acervo/cesar_morte_gerome.jpg",
+   "gravura": "cesar.jpg",
    "mov": "in",
-   "txt": "Um imperador governou Roma por catorze anos sem mandar matar ninguém sem julgamento. Justo, educado, sem sangue nas mãos. E foi morto pelos próprios soldados. Maquiavel explica por quê, e a resposta incomoda."
+   "txt": "Um imperador governou Roma por catorze anos sem mandar matar ninguém sem julgamento. Justo, educado, sem sangue nas mãos. E foi morto pelos próprios soldados. Maquiavel explica por quê, e a resposta incomoda.",
+   "gravura_original": "acervo/cesar_morte_gerome.jpg"
   },
   {
    "gravura": "maquiavel2.jpg",
@@ -28,19 +29,22 @@
    "txt": "Ele não foi derrubado por ser mau. Foi derrubado por um dos dois erros que, segundo Maquiavel, destroem qualquer líder. E você pode estar cometendo um deles agora, sem perceber."
   },
   {
-   "gravura": "acervo/multidao_bruegel.jpg",
+   "gravura": "acervo/albrecht_altdorfer_schlacht_bei_issus_alte_pinak.jpg",
    "mov": "esq",
-   "txt": "Tem mais. No meio desse mesmo capítulo existe a história de uma cidade inteira que, depois de um assassinato, foi atrás do filho de um ferreiro para colocar no governo. Parece piada. Não é. Daqui a pouco você entende."
+   "txt": "Tem mais. No meio desse mesmo capítulo existe a história de uma cidade inteira que, depois de um assassinato, foi atrás do filho de um ferreiro para colocar no governo. Parece piada. Não é. Daqui a pouco você entende.",
+   "gravura_original": "acervo/multidao_bruegel.jpg"
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel2.jpg",
    "mov": "dir",
-   "txt": "E no final eu te mostro a defesa que Maquiavel considerava a mais forte de todas. Mais forte que muralha, guarda ou exército. E te entrego um teste de duas perguntas para usar antes de qualquer decisão difícil."
+   "txt": "E no final eu te mostro a defesa que Maquiavel considerava a mais forte de todas. Mais forte que muralha, guarda ou exército. E te entrego um teste de duas perguntas para usar antes de qualquer decisão difícil.",
+   "gravura_original": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
   },
   {
-   "gravura": "acervo/embaixadores_holbein.jpg",
+   "gravura": "hist/pope_julius_ii.jpg",
    "mov": "cima",
-   "txt": "Tudo isso está no capítulo dezenove de O Príncipe, um dos mais longos do livro. Maquiavel escreveu para governantes, mas a lógica serve para quem lidera uma equipe, uma loja, uma igreja ou uma casa."
+   "txt": "Tudo isso está no capítulo dezenove de O Príncipe, um dos mais longos do livro. Maquiavel escreveu para governantes, mas a lógica serve para quem lidera uma equipe, uma loja, uma igreja ou uma casa.",
+   "gravura_original": "acervo/embaixadores_holbein.jpg"
   },
   {
    "gravura": "lorenzo.jpg",
@@ -59,9 +63,10 @@
    "ref": "O PRÍNCIPE, CAP. XIX"
   },
   {
-   "gravura": "acervo/castiglione_raffaello.jpg",
+   "gravura": "hist/pope_alexander_vi.jpg",
    "mov": "esq",
-   "txt": "Repara que ele não diz: seja amado. Ele não diz: seja perfeito. Diz só: não seja odiado e não seja desprezado. É uma meta bem mais realista do que a gente costuma imaginar."
+   "txt": "Repara que ele não diz: seja amado. Ele não diz: seja perfeito. Diz só: não seja odiado e não seja desprezado. É uma meta bem mais realista do que a gente costuma imaginar.",
+   "gravura_original": "acervo/castiglione_raffaello.jpg"
   },
   {
    "gravura": "hist/caracalla.jpg",
@@ -74,9 +79,10 @@
    "txt": "E o perigo chega por caminhos diferentes. Quem odeia quer se vingar. Quem despreza perde o medo de desobedecer. Nos dois casos, a autoridade do líder começa a escorrer pelas mãos."
   },
   {
-   "gravura": "acervo/pollice_verso_gerome.jpg",
+   "gravura": "cesar.jpg",
    "mov": "cima",
-   "txt": "Pensa num chefe que todo mundo odeia. A equipe faz o mínimo e torce contra. Agora pensa num chefe que ninguém respeita. A equipe faz o que quer. São dois jeitos diferentes de perder o comando."
+   "txt": "Pensa num chefe que todo mundo odeia. A equipe faz o mínimo e torce contra. Agora pensa num chefe que ninguém respeita. A equipe faz o que quer. São dois jeitos diferentes de perder o comando.",
+   "gravura_original": "acervo/pollice_verso_gerome.jpg"
   },
   {
    "gravura": "lorenzo.jpg",
@@ -89,25 +95,28 @@
    "conv": true
   },
   {
-   "gravura": "acervo/romanos_decadencia_couture.jpg",
+   "gravura": "hist/caracalla.jpg",
    "mov": "esq",
    "txt": "Vamos ao primeiro erro. De onde vem o ódio? Maquiavel é direto: o que mais torna um governante odiado é tomar o que pertence aos outros. Os bens das pessoas e a honra das famílias.",
    "cap": {
     "sup": "LIÇÃO 2",
     "txt": "O ódio começa no bolso"
-   }
+   },
+   "gravura_original": "acervo/romanos_decadencia_couture.jpg"
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel.jpg",
    "mov": "dir",
    "txt": "No capítulo dezessete, ele escreve uma das frases mais duras do livro: os homens esquecem mais depressa a morte do pai do que a perda do patrimônio. É pesado, mas ele falava do que via.",
    "verso": "Os homens esquecem mais depressa a morte do pai do que a perda do patrimônio.",
-   "ref": "O PRÍNCIPE, CAP. XVII"
+   "ref": "O PRÍNCIPE, CAP. XVII",
+   "gravura_original": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
   },
   {
-   "gravura": "acervo/multidao_bruegel.jpg",
+   "gravura": "hist/bonfire_of_the_vanities.jpg",
    "mov": "in",
-   "txt": "Mas tem um alívio no capítulo dezenove. Enquanto você não mexe nos bens nem na honra das pessoas, a maioria vive contente. Aí o líder só precisa lidar com a ambição de poucos, que é bem mais fácil de conter."
+   "txt": "Mas tem um alívio no capítulo dezenove. Enquanto você não mexe nos bens nem na honra das pessoas, a maioria vive contente. Aí o líder só precisa lidar com a ambição de poucos, que é bem mais fácil de conter.",
+   "gravura_original": "acervo/multidao_bruegel.jpg"
   },
   {
    "gravura": "maquiavel2.jpg",
@@ -117,14 +126,16 @@
    "ref": "O PRÍNCIPE, CAP. XVII"
   },
   {
-   "gravura": "acervo/embaixadores_holbein.jpg",
+   "gravura": "borgia.jpg",
    "mov": "out",
-   "txt": "Agora traz para hoje. Os bens das pessoas não são só dinheiro. É o tempo delas, o mérito do trabalho delas, a folga que foi prometida. Quando um líder toma isso, o ódio começa baixinho."
+   "txt": "Agora traz para hoje. Os bens das pessoas não são só dinheiro. É o tempo delas, o mérito do trabalho delas, a folga que foi prometida. Quando um líder toma isso, o ódio começa baixinho.",
+   "gravura_original": "acervo/embaixadores_holbein.jpg"
   },
   {
-   "gravura": "acervo/leao_x_raffaello.jpg",
+   "gravura": "hist/pope_julius_ii.jpg",
    "mov": "esq",
-   "txt": "É o chefe que apresenta a ideia do funcionário como se fosse dele. O sócio que mexe na parte do outro. O pai que promete e nunca cumpre. Ninguém grita no primeiro dia. Mas ninguém esquece."
+   "txt": "É o chefe que apresenta a ideia do funcionário como se fosse dele. O sócio que mexe na parte do outro. O pai que promete e nunca cumpre. Ninguém grita no primeiro dia. Mas ninguém esquece.",
+   "gravura_original": "acervo/leao_x_raffaello.jpg"
   },
   {
    "gravura": "hist/girolamo_savonarola.jpg",
@@ -137,18 +148,20 @@
    "txt": "A minha leitura é simples: o ódio quase nunca nasce de uma decisão dura. Nasce da sensação de ter sido roubado. Decisão dura com respeito, as pessoas aceitam. Roubo, mesmo pequeno, elas guardam."
   },
   {
-   "gravura": "acervo/coroacao_napoleao_david.jpg",
+   "gravura": "hist/hannibal.jpg",
    "mov": "esq",
    "txt": "Agora vem uma armadilha que quase ninguém percebe. Você pode acabar odiado justamente por querer ser bonzinho. Maquiavel explica isso no capítulo dezesseis, quando fala da fama de generoso.",
    "cap": {
     "sup": "LIÇÃO 3",
     "txt": "A generosidade que vira ódio"
-   }
+   },
+   "gravura_original": "acervo/coroacao_napoleao_david.jpg"
   },
   {
-   "gravura": "acervo/julio_ii_raffaello.jpg",
+   "gravura": "hist/pope_alexander_vi.jpg",
    "mov": "out",
-   "txt": "O raciocínio é assim. O governante quer fama de generoso, então gasta, faz festa, distribui presente. Só que essa fama precisa ser alimentada o tempo todo. E um dia o dinheiro dele acaba."
+   "txt": "O raciocínio é assim. O governante quer fama de generoso, então gasta, faz festa, distribui presente. Só que essa fama precisa ser alimentada o tempo todo. E um dia o dinheiro dele acaba.",
+   "gravura_original": "acervo/julio_ii_raffaello.jpg"
   },
   {
    "gravura": "hist/arco_severo.jpg",
@@ -156,16 +169,18 @@
    "txt": "Para continuar com fama de generoso, ele precisa tirar de alguém. Aumenta imposto, aperta o povo, cobra de quem não tinha nada com isso. Pronto: aquele que queria ser amado começa a ser odiado."
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel2.jpg",
    "mov": "esq",
    "txt": "E ainda fica pobre, e por isso pouco estimado. Maquiavel fecha o capítulo dizendo que essa generosidade de vitrine leva aos dois erros de uma vez: ao ódio e ao desprezo.",
    "verso": "De tudo o que um príncipe deve evitar está ser desprezado e odiado, e a liberalidade leva a um e a outro.",
-   "ref": "O PRÍNCIPE, CAP. XVI"
+   "ref": "O PRÍNCIPE, CAP. XVI",
+   "gravura_original": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
   },
   {
-   "gravura": "acervo/castiglione_raffaello.jpg",
+   "gravura": "hist/ferdinand_ii_of_aragon.jpg",
    "mov": "dir",
-   "txt": "Na vida real, é o gerente que promete aumento para todo mundo sem ter orçamento. Depois precisa cortar, voltar atrás, explicar. A equipe que aplaudiu a promessa agora odeia a frustração."
+   "txt": "Na vida real, é o gerente que promete aumento para todo mundo sem ter orçamento. Depois precisa cortar, voltar atrás, explicar. A equipe que aplaudiu a promessa agora odeia a frustração.",
+   "gravura_original": "acervo/castiglione_raffaello.jpg"
   },
   {
    "gravura": "hist/pope_julius_ii.jpg",
@@ -197,21 +212,24 @@
    }
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel.jpg",
    "mov": "dir",
    "txt": "Maquiavel lista o que torna alguém desprezado: ser visto como volúvel, leviano, frouxo, covarde e indeciso. Cinco palavras. Repara que nenhuma delas é maldade. Todas são fraqueza.",
    "verso": "Torna-o desprezado ser tido por volúvel, leviano, frouxo, covarde e indeciso.",
-   "ref": "O PRÍNCIPE, CAP. XIX"
+   "ref": "O PRÍNCIPE, CAP. XIX",
+   "gravura_original": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
   },
   {
-   "gravura": "acervo/romanos_decadencia_couture.jpg",
+   "gravura": "hist/alexander_the_great.jpg",
    "mov": "in",
-   "txt": "Volúvel é quem muda de ideia toda semana. Leviano é quem trata coisa séria como brincadeira. Frouxo é quem não segura a pressão. Covarde é quem foge do problema. Indeciso é quem nunca resolve."
+   "txt": "Volúvel é quem muda de ideia toda semana. Leviano é quem trata coisa séria como brincadeira. Frouxo é quem não segura a pressão. Covarde é quem foge do problema. Indeciso é quem nunca resolve.",
+   "gravura_original": "acervo/romanos_decadencia_couture.jpg"
   },
   {
-   "gravura": "acervo/multidao_bruegel.jpg",
+   "gravura": "hist/arco_severo.jpg",
    "mov": "out",
-   "txt": "Quem lidera alguém sabe como isso aparece no dia a dia. A regra que vale na segunda e não vale na sexta. A reunião que termina sem decisão. A ordem que muda conforme quem reclamou por último."
+   "txt": "Quem lidera alguém sabe como isso aparece no dia a dia. A regra que vale na segunda e não vale na sexta. A reunião que termina sem decisão. A ordem que muda conforme quem reclamou por último.",
+   "gravura_original": "acervo/multidao_bruegel.jpg"
   },
   {
    "gravura": "maquiavel2.jpg",
@@ -226,9 +244,10 @@
    "txt": "Decisão irrevogável não quer dizer teimosia. Quer dizer pensar antes, ouvir antes e, depois de decidir, sustentar. Quem decide rápido e desfaz depois ensina a equipe a insistir até você ceder."
   },
   {
-   "gravura": "acervo/embaixadores_holbein.jpg",
+   "gravura": "hist/girolamo_savonarola.jpg",
    "mov": "dir",
-   "txt": "Maquiavel diz que o líder precisa manter uma reputação tal que ninguém pense em enganá-lo nem em fazê-lo de bobo. Não pelo grito. Pela coerência. As pessoas testam, e o que elas encontram define o resto."
+   "txt": "Maquiavel diz que o líder precisa manter uma reputação tal que ninguém pense em enganá-lo nem em fazê-lo de bobo. Não pelo grito. Pela coerência. As pessoas testam, e o que elas encontram define o resto.",
+   "gravura_original": "acervo/embaixadores_holbein.jpg"
   },
   {
    "gravura": "lorenzo.jpg",
@@ -247,20 +266,22 @@
    "conv": true
   },
   {
-   "gravura": "acervo/cesar_morte_gerome.jpg",
+   "gravura": "cesar.jpg",
    "mov": "esq",
    "txt": "Agora sim, o imperador do começo. O nome dele é Alexandre Severo. Maquiavel conta que ele ficou catorze anos no trono e registra um elogio raro: nesse tempo, ninguém foi morto por ordem dele sem julgamento.",
    "cap": {
     "sup": "LIÇÃO 5",
     "txt": "O imperador bom que caiu"
-   }
+   },
+   "gravura_original": "acervo/cesar_morte_gerome.jpg"
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel2.jpg",
    "mov": "dir",
    "txt": "Antes de contar o fim dele, Maquiavel solta uma frase que derruba muita certeza: o ódio se conquista tanto com as boas obras quanto com as más. Ser bom não é proteção automática.",
    "verso": "O ódio se conquista tanto com as boas obras quanto com as más.",
-   "ref": "O PRÍNCIPE, CAP. XIX"
+   "ref": "O PRÍNCIPE, CAP. XIX",
+   "gravura_original": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
   },
   {
    "gravura": "hist/bonfire_of_the_vanities.jpg",
@@ -278,14 +299,16 @@
    "txt": "E aqui está a parte que mais importa para você. Bondade sem firmeza vira convite. Você pode ser o melhor chefe da empresa e, mesmo assim, perder a equipe se ninguém sabe quem decide de verdade."
   },
   {
-   "gravura": "acervo/hannibal_and_scipio_africanus.jpg",
+   "gravura": "hist/caracalla.jpg",
    "mov": "esq",
-   "txt": "Depois dele, o exército escolheu o oposto: Maximino, um homem de guerra, bem diferente do anterior. Tinha cara de solução. Mas Maquiavel mostra que ele conseguiu cometer os dois erros ao mesmo tempo."
+   "txt": "Depois dele, o exército escolheu o oposto: Maximino, um homem de guerra, bem diferente do anterior. Tinha cara de solução. Mas Maquiavel mostra que ele conseguiu cometer os dois erros ao mesmo tempo.",
+   "gravura_original": "acervo/hannibal_and_scipio_africanus.jpg"
   },
   {
-   "gravura": "acervo/pollice_verso_gerome.jpg",
+   "gravura": "hist/marcus_equestre.jpg",
    "mov": "dir",
-   "txt": "Desprezado porque tinha origem humilde, tinha sido pastor de ovelhas na Trácia, e isso era motivo de desdém para os romanos. E odiado porque, de longe, deixou seus prefeitos cometerem muitas crueldades em Roma e nas províncias."
+   "txt": "Desprezado porque tinha origem humilde, tinha sido pastor de ovelhas na Trácia, e isso era motivo de desdém para os romanos. E odiado porque, de longe, deixou seus prefeitos cometerem muitas crueldades em Roma e nas províncias.",
+   "gravura_original": "acervo/pollice_verso_gerome.jpg"
   },
   {
    "gravura": "maquiavel.jpg",
@@ -293,9 +316,10 @@
    "txt": "Aqui eu discordo dos romanos, e acho que você também: origem humilde não deveria ser motivo de desprezo. Mas repara no ponto de Maquiavel. O desprezo procura qualquer rachadura. Se você dá motivo, ele usa até o que não é justo."
   },
   {
-   "gravura": "acervo/vercingetorix_royer.jpg",
+   "gravura": "hist/commodus.jpg",
    "mov": "out",
-   "txt": "O fim de Maximino foi rápido. A África se rebelou, o senado e o povo de Roma se voltaram contra ele. E o próprio exército, cansado da crueldade e cercando Aquileia sem conseguir tomar a cidade, matou o imperador."
+   "txt": "O fim de Maximino foi rápido. A África se rebelou, o senado e o povo de Roma se voltaram contra ele. E o próprio exército, cansado da crueldade e cercando Aquileia sem conseguir tomar a cidade, matou o imperador.",
+   "gravura_original": "acervo/vercingetorix_royer.jpg"
   },
   {
    "gravura": "hist/marcus_aurelius.jpg",
@@ -303,30 +327,34 @@
    "txt": "Dois imperadores opostos. Um bom e sem firmeza. Outro duro e sem respeito pelas pessoas. Os dois caíram. Maquiavel não está pedindo que você escolha um dos lados. Está pedindo equilíbrio."
   },
   {
-   "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+   "gravura": "acervo/albrecht_altdorfer_schlacht_bei_issus_alte_pinak.jpg",
    "mov": "esq",
    "txt": "Agora uma pergunta que todo líder já fez: e se alguém conspirar contra mim? Maquiavel dedica um bom pedaço do capítulo a isso, e a resposta dele não é mais guarda nem mais desconfiança.",
    "cap": {
     "sup": "LIÇÃO 6",
     "txt": "Quem tem o povo do lado"
-   }
+   },
+   "gravura_original": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg"
   },
   {
-   "gravura": "acervo/beijo_judas_giotto.jpg",
+   "gravura": "borgia.jpg",
    "mov": "dir",
-   "txt": "Ele explica que quem conspira sempre acredita que vai agradar o povo ao eliminar o líder. Se percebe que o povo vai ficar contra ele, perde a coragem. Do lado de quem conspira, só tem medo e suspeita."
+   "txt": "Ele explica que quem conspira sempre acredita que vai agradar o povo ao eliminar o líder. Se percebe que o povo vai ficar contra ele, perde a coragem. Do lado de quem conspira, só tem medo e suspeita.",
+   "gravura_original": "acervo/beijo_judas_giotto.jpg"
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel.jpg",
    "mov": "in",
    "txt": "Daí vem a regra: quando o povo te quer bem, conspiração não deve te tirar o sono. Mas quando o povo te odeia, você precisa temer tudo e todos.",
    "verso": "Quando o povo lhe quer bem, o príncipe pouco deve temer as conspirações; quando o odeia, deve temer tudo e todos.",
-   "ref": "O PRÍNCIPE, CAP. XIX"
+   "ref": "O PRÍNCIPE, CAP. XIX",
+   "gravura_original": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
   },
   {
-   "gravura": "acervo/multidao_bruegel.jpg",
+   "gravura": "hist/arco_severo.jpg",
    "mov": "out",
-   "txt": "E aqui entra a cidade da segunda promessa: Bolonha. Quem governava era Aníbal Bentivoglio, até ser assassinado numa conspiração da família Canneschi. Do sangue dele, sobrou só um menino ainda de fraldas."
+   "txt": "E aqui entra a cidade da segunda promessa: Bolonha. Quem governava era Aníbal Bentivoglio, até ser assassinado numa conspiração da família Canneschi. Do sangue dele, sobrou só um menino ainda de fraldas.",
+   "gravura_original": "acervo/multidao_bruegel.jpg"
   },
   {
    "gravura": "hist/bonfire_of_the_vanities.jpg",
@@ -334,14 +362,16 @@
    "txt": "Os conspiradores achavam que tinham vencido. Mas o povo de Bolonha se levantou e matou os Canneschi. O líder morto era tão querido que a cidade não aceitou o golpe."
   },
   {
-   "gravura": "acervo/rendicao_granada_pradilla.jpg",
+   "gravura": "hist/hannibal.jpg",
    "mov": "esq",
-   "txt": "Só que faltava alguém para governar. Aí souberam que em Florença vivia um rapaz que seria filho de um Bentivoglio, mas que até então todo mundo tinha como filho de um ferreiro."
+   "txt": "Só que faltava alguém para governar. Aí souberam que em Florença vivia um rapaz que seria filho de um Bentivoglio, mas que até então todo mundo tinha como filho de um ferreiro.",
+   "gravura_original": "acervo/rendicao_granada_pradilla.jpg"
   },
   {
-   "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+   "gravura": "hist/bonfire_of_the_vanities.jpg",
    "mov": "dir",
-   "txt": "Os bolonheses foram até Florença buscar esse rapaz e entregaram a ele o governo da cidade, até o pequeno herdeiro crescer. Promessa fechada: a cidade foi buscar o filho do ferreiro por estima a uma família."
+   "txt": "Os bolonheses foram até Florença buscar esse rapaz e entregaram a ele o governo da cidade, até o pequeno herdeiro crescer. Promessa fechada: a cidade foi buscar o filho do ferreiro por estima a uma família.",
+   "gravura_original": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg"
   },
   {
    "gravura": "lorenzo.jpg",
@@ -349,23 +379,25 @@
    "txt": "Isso é o que Maquiavel chama de benevolência do povo. Nenhum guarda salvou Aníbal. Mas a estima que ele construiu protegeu o filho dele e manteve a família no governo."
   },
   {
-   "gravura": "acervo/castiglione_raffaello.jpg",
+   "gravura": "hist/pope_julius_ii.jpg",
    "mov": "out",
    "txt": "Essa parte vale guardar. Salva o vídeo, e na próxima vez que você sentir que tem alguém contra você no trabalho, antes de desconfiar de todo mundo, pergunta: como estão as pessoas comigo?",
    "interage": {
     "tipo": "salva",
     "txt": "Salva pra hora da desconfiança"
    },
-   "conv": true
+   "conv": true,
+   "gravura_original": "acervo/castiglione_raffaello.jpg"
   },
   {
-   "gravura": "acervo/ferdinand_of_aragon_isabella_of_castile.jpg",
+   "gravura": "hist/pope_alexander_vi.jpg",
    "mov": "esq",
    "txt": "Até aqui, o capítulo dezenove. Mas Maquiavel volta ao desprezo em outras partes do livro e mostra três atalhos que levam até ele sem a pessoa perceber. Pensa em quais você já pegou.",
    "cap": {
     "sup": "LIÇÃO 7",
     "txt": "Três atalhos para o desprezo"
-   }
+   },
+   "gravura_original": "acervo/ferdinand_of_aragon_isabella_of_castile.jpg"
   },
   {
    "gravura": "hist/alexander_the_great.jpg",
@@ -373,16 +405,18 @@
    "txt": "Primeiro atalho: ficar em cima do muro. No capítulo vinte e um, ele diz que o governante é estimado quando é amigo de verdade ou inimigo de verdade, e se posiciona sem rodeio."
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel2.jpg",
    "mov": "in",
    "txt": "E explica o risco de quem fica neutro: quem vence não quer amigo que não ajudou na hora difícil, e quem perde não te acolhe, porque você não quis correr o risco junto.",
    "verso": "Quem vence não quer amigos suspeitos; quem perde não te acolhe.",
-   "ref": "O PRÍNCIPE, CAP. XXI"
+   "ref": "O PRÍNCIPE, CAP. XXI",
+   "gravura_original": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
   },
   {
-   "gravura": "acervo/leao_x_raffaello.jpg",
+   "gravura": "hist/ferdinand_ii_of_aragon.jpg",
    "mov": "out",
-   "txt": "Na prática, é o líder que nunca toma partido numa briga da equipe, esperando para ver quem ganha. No fim, os dois lados desconfiam dele. O muro tem cara de lugar seguro, mas é onde o respeito morre."
+   "txt": "Na prática, é o líder que nunca toma partido numa briga da equipe, esperando para ver quem ganha. No fim, os dois lados desconfiam dele. O muro tem cara de lugar seguro, mas é onde o respeito morre.",
+   "gravura_original": "acervo/leao_x_raffaello.jpg"
   },
   {
    "gravura": "hist/pope_alexander_vi.jpg",
@@ -397,9 +431,10 @@
    "ref": "O PRÍNCIPE, CAP. XXIII"
   },
   {
-   "gravura": "acervo/embaixadores_holbein.jpg",
+   "gravura": "hist/girolamo_savonarola.jpg",
    "mov": "dir",
-   "txt": "Traduzindo: tenha poucas pessoas de confiança que te digam o que você não quer ouvir. E não transforme toda conversa em assembleia. Quem consulta todo mundo sobre tudo passa a imagem de quem não sabe decidir."
+   "txt": "Traduzindo: tenha poucas pessoas de confiança que te digam o que você não quer ouvir. E não transforme toda conversa em assembleia. Quem consulta todo mundo sobre tudo passa a imagem de quem não sabe decidir.",
+   "gravura_original": "acervo/embaixadores_holbein.jpg"
   },
   {
    "gravura": "hist/hannibal.jpg",
@@ -409,9 +444,10 @@
    "ref": "O PRÍNCIPE, CAP. XIV"
   },
   {
-   "gravura": "acervo/hannibal_and_scipio_africanus.jpg",
+   "gravura": "hist/alexander_the_great.jpg",
    "mov": "out",
-   "txt": "Hoje, a arma de um líder é o preparo. Conhecer o próprio negócio, os números, o trabalho da equipe. Quem não sabe o básico do que comanda vira refém de quem sabe, e todo mundo percebe."
+   "txt": "Hoje, a arma de um líder é o preparo. Conhecer o próprio negócio, os números, o trabalho da equipe. Quem não sabe o básico do que comanda vira refém de quem sabe, e todo mundo percebe.",
+   "gravura_original": "acervo/hannibal_and_scipio_africanus.jpg"
   },
   {
    "gravura": "lorenzo.jpg",
@@ -419,13 +455,14 @@
    "txt": "Pensa com calma: dos três atalhos, o muro, os bajuladores ou o despreparo, qual você mais vê nos líderes à sua volta? E qual deles, sendo bem sincero, você já pegou também?"
   },
   {
-   "gravura": "acervo/rendicao_granada_pradilla.jpg",
+   "gravura": "hist/marcus_equestre.jpg",
    "mov": "esq",
    "txt": "Agora a maior promessa. Qual é a defesa mais forte de um líder? No capítulo vinte, Maquiavel discute as fortalezas, aquelas construções de pedra que os governantes erguiam para se proteger.",
    "cap": {
     "sup": "LIÇÃO 8",
     "txt": "A fortaleza que ninguém derruba"
-   }
+   },
+   "gravura_original": "acervo/rendicao_granada_pradilla.jpg"
   },
   {
    "gravura": "hist/arco_severo.jpg",
@@ -438,16 +475,18 @@
    "txt": "Anos depois, César Bórgia atacou Forlì, e o povo, que tinha raiva dela, ficou do lado do invasor. A mesma fortaleza não serviu de nada. Muralha nenhuma segura quem é odiado por dentro."
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel.jpg",
    "mov": "out",
    "txt": "E aí vem a frase que fecha a promessa: a melhor fortaleza que existe é não ser odiado pelo povo. Você pode ter muralhas, mas se o povo te odeia, elas não te salvam.",
    "verso": "A melhor fortaleza que existe é não ser odiado pelo povo.",
-   "ref": "O PRÍNCIPE, CAP. XX"
+   "ref": "O PRÍNCIPE, CAP. XX",
+   "gravura_original": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
   },
   {
-   "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+   "gravura": "acervo/albrecht_altdorfer_schlacht_bei_issus_alte_pinak.jpg",
    "mov": "cima",
-   "txt": "Pensa no que isso quer dizer hoje. Contrato, cargo, sobrenome, crachá, tudo isso é muralha. Ajuda, mas não segura um líder que a equipe odeia ou que ninguém respeita."
+   "txt": "Pensa no que isso quer dizer hoje. Contrato, cargo, sobrenome, crachá, tudo isso é muralha. Ajuda, mas não segura um líder que a equipe odeia ou que ninguém respeita.",
+   "gravura_original": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg"
   },
   {
    "gravura": "hist/ferdinand_ii_of_aragon.jpg",
@@ -455,11 +494,12 @@
    "txt": "Tem mais uma ferramenta no capítulo dezenove, e eu acho ela genial. Maquiavel fala do reino da França e do parlamento que os reis criaram, um terceiro juiz entre os nobres e o povo."
   },
   {
-   "gravura": "acervo/coroacao_napoleao_david.jpg",
+   "gravura": "cesar.jpg",
    "mov": "dir",
    "txt": "Esse parlamento podia frear os poderosos e proteger os pequenos sem que o rei levasse a culpa. Daí Maquiavel tira a regra: as coisas que geram peso, passe para outros; as que geram gratidão, faça você.",
    "verso": "Os príncipes devem deixar a outros as coisas de carga e reservar para si as de graça.",
-   "ref": "O PRÍNCIPE, CAP. XIX"
+   "ref": "O PRÍNCIPE, CAP. XIX",
+   "gravura_original": "acervo/coroacao_napoleao_david.jpg"
   },
   {
    "gravura": "maquiavel.jpg",
@@ -467,14 +507,16 @@
    "txt": "Agora, a minha posição: isso não serve para arrumar bode expiatório nem para fugir da responsabilidade. Lido do jeito certo, é sobre criar regras claras, que decidem as coisas duras de forma impessoal, e não pelo humor do chefe."
   },
   {
-   "gravura": "acervo/julio_ii_raffaello.jpg",
+   "gravura": "borgia.jpg",
    "mov": "out",
-   "txt": "Na empresa: critério de promoção escrito antes, e não decidido no calor. Em casa: combinado feito antes da briga. Quando a regra decide o difícil, você fica livre para ser o rosto das coisas boas."
+   "txt": "Na empresa: critério de promoção escrito antes, e não decidido no calor. Em casa: combinado feito antes da briga. Quando a regra decide o difícil, você fica livre para ser o rosto das coisas boas.",
+   "gravura_original": "acervo/julio_ii_raffaello.jpg"
   },
   {
-   "gravura": "acervo/castiglione_raffaello.jpg",
+   "gravura": "hist/pope_julius_ii.jpg",
    "mov": "cima",
-   "txt": "E agora, o teste de duas perguntas que eu te prometi lá no começo. Antes de qualquer decisão difícil como líder, no trabalho, na família ou num grupo, pare e pergunte duas coisas."
+   "txt": "E agora, o teste de duas perguntas que eu te prometi lá no começo. Antes de qualquer decisão difícil como líder, no trabalho, na família ou num grupo, pare e pergunte duas coisas.",
+   "gravura_original": "acervo/castiglione_raffaello.jpg"
   },
   {
    "gravura": "hist/marcus_equestre.jpg",
@@ -487,9 +529,10 @@
    "txt": "Segunda pergunta: isso vai me deixar com cara de volúvel, frouxo ou indeciso? Vou voltar atrás amanhã? Vou ficar em cima do muro? Se a resposta for sim, você está plantando desprezo."
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel2.jpg",
    "mov": "in",
-   "txt": "Se passou nas duas, pode decidir com tranquilidade, mesmo que a decisão seja dura. Lembra da regra do começo: quem escapa desses dois erros, segundo Maquiavel, não corre perigo grave pelos outros defeitos."
+   "txt": "Se passou nas duas, pode decidir com tranquilidade, mesmo que a decisão seja dura. Lembra da regra do começo: quem escapa desses dois erros, segundo Maquiavel, não corre perigo grave pelos outros defeitos.",
+   "gravura_original": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
   },
   {
    "gravura": "hist/marcus_aurelius.jpg",
@@ -497,9 +540,10 @@
    "txt": "No mesmo capítulo, o exemplo que Maquiavel elogia é Marco Aurélio, que viveu e morreu honrado. Nem odiado, nem desprezado. Não era perfeito. Mas respeitava os limites e tinha firmeza."
   },
   {
-   "gravura": "acervo/cesar_assassinato_camuccini.jpg",
+   "gravura": "hist/caracalla.jpg",
    "mov": "cima",
-   "txt": "Então, recapitulando. O ódio nasce quando você toma o que é dos outros, inclusive com a generosidade que você não consegue pagar. O desprezo nasce quando você se mostra fraco, muda de ideia e foge da decisão."
+   "txt": "Então, recapitulando. O ódio nasce quando você toma o que é dos outros, inclusive com a generosidade que você não consegue pagar. O desprezo nasce quando você se mostra fraco, muda de ideia e foge da decisão.",
+   "gravura_original": "acervo/cesar_assassinato_camuccini.jpg"
   },
   {
    "gravura": "lorenzo.jpg",
@@ -512,14 +556,15 @@
    "txt": "No fundo, a lição do capítulo dezenove é esta: não dá para liderar contra as pessoas por muito tempo. Nem tirando delas, nem decepcionando elas. Respeito e firmeza, juntos."
   },
   {
-   "gravura": "acervo/embaixadores_holbein.jpg",
+   "gravura": "hist/pope_alexander_vi.jpg",
    "mov": "in",
    "txt": "Se você conhece alguém que acabou de assumir uma liderança, um gerente novo, um líder de igreja, um pai de primeira viagem, manda esse vídeo para essa pessoa. As duas perguntas valem para qualquer comando.",
    "interage": {
     "tipo": "manda",
     "txt": "Manda pra quem vai liderar"
    },
-   "conv": true
+   "conv": true,
+   "gravura_original": "acervo/embaixadores_holbein.jpg"
   },
   {
    "gravura": "maquiavel.jpg",

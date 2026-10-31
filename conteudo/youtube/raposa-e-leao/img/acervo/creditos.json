@@ -6,7 +6,11 @@
   "data": "from 1550 until 1600date QS:P,+1500-00-00T00:00:00Z/6,P580,+1550-00-00T00:00:00Z/9,P582,+1600-00-00T00:00:00Z/9 ",
   "licenca": "Public domain",
   "url_commons": "https://commons.wikimedia.org/wiki/File:Portrait_of_Niccol%C3%B2_Machiavelli_by_Santi_di_Tito.jpg",
-  "busca": "Niccolò Machiavelli portrait painting"
+  "busca": "Niccolò Machiavelli portrait painting",
+  "trocada_por": [
+   "maquiavel.jpg"
+  ],
+  "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo"
  },
  {
   "arquivo": "bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
@@ -15,7 +19,11 @@
   "data": "1740date QS:P571,+1740-00-00T00:00:00Z/9",
   "licenca": "Public domain",
   "url_commons": "https://commons.wikimedia.org/wiki/File:Bernardo_Bellotto_-_The_Piazza_della_Signoria_in_Florence_-_Google_Art_Project.jpg",
-  "busca": "Piazza della Signoria painting"
+  "busca": "Piazza della Signoria painting",
+  "trocada_por": [
+   "hist/bonfire_of_the_vanities.jpg"
+  ],
+  "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo"
  },
  {
   "arquivo": "botticelli_giuliano_de_medici_accademia_carrara.jpg",
@@ -42,7 +50,11 @@
   "data": "15th centurydate QS:P571,+1450-00-00T00:00:00Z/7",
   "licenca": "Public domain",
   "url_commons": "https://commons.wikimedia.org/wiki/File:Ferdinand_of_Aragon,_Isabella_of_Castile.jpg",
-  "busca": "Ferdinand II of Aragon portrait"
+  "busca": "Ferdinand II of Aragon portrait",
+  "trocada_por": [
+   "hist/ferdinand_ii_of_aragon.jpg"
+  ],
+  "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo"
  },
  {
   "arquivo": "graftombes_van_ferdinand_ii_van_aragon_en_filips.jpg",
@@ -87,7 +99,12 @@
   "data": "17th centurydate QS:P,+1650-00-00T00:00:00Z/7",
   "licenca": "Public domain",
   "url_commons": "https://commons.wikimedia.org/wiki/File:Hannibal_and_Scipio_Africanus.jpg",
-  "busca": "Scipio Africanus painting"
+  "busca": "Scipio Africanus painting",
+  "trocada_por": [
+   "hist/alexander_the_great.jpg",
+   "hist/hannibal.jpg"
+  ],
+  "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo"
  },
  {
   "arquivo": "jean_l_on_g_r_me_the_death_of_caesar_walters_378.jpg",
@@ -122,7 +139,11 @@
   "autor": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Giotto\" class=\"extiw\" title=\"w:en:Giotto\"><span title=\"Italian painter and architect (c. 1267–1337)\">Giotto</span></a></bdi>",
   "licenca": "Public domain",
   "url_commons": "https://commons.wikimedia.org/wiki/File:Giotto_di_Bondone_-_No._31_Scenes_from_the_Life_of_Christ_-_15._The_Arrest_of_Christ_(Kiss_of_Judas)_-_WGA09216.jpg",
-  "busca": "Giotto Kiss of Judas Scrovegni"
+  "busca": "Giotto Kiss of Judas Scrovegni",
+  "trocada_por": [
+   "borgia.jpg"
+  ],
+  "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo"
  },
  {
   "arquivo": "castiglione_raffaello.jpg",
@@ -130,6 +151,89 @@
   "autor": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Raphael\" class=\"extiw\" title=\"w:en:Raphael\"><span title=\"Italian painter and architect (1483–1520)\">Raphael</span></a></bdi>",
   "licenca": "Public domain",
   "url_commons": "https://commons.wikimedia.org/wiki/File:Baldassare_Castiglione,_by_Raffaello_Sanzio,_from_C2RMF_retouched.jpg",
-  "busca": "Raphael Portrait of Baldassare Castiglione Louvre"
+  "busca": "Raphael Portrait of Baldassare Castiglione Louvre",
+  "trocada_por": [
+   "maquiavel2.jpg"
+  ],
+  "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo"
+ },
+ {
+  "arquivo": "cesar_morte_gerome.jpg",
+  "trocada_por": [
+   "cesar.jpg"
+  ],
+  "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo"
+ },
+ {
+  "arquivo": "multidao_bruegel.jpg",
+  "trocada_por": [
+   "hist/arco_severo.jpg",
+   "hist/bonfire_of_the_vanities.jpg"
+  ],
+  "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo"
+ },
+ {
+  "arquivo": "embaixadores_holbein.jpg",
+  "trocada_por": [
+   "borgia.jpg"
+  ],
+  "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo"
+ },
+ {
+  "arquivo": "pollice_verso_gerome.jpg",
+  "trocada_por": [
+   "hist/arco_severo.jpg",
+   "hist/commodus.jpg"
+  ],
+  "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo"
+ },
+ {
+  "arquivo": "romanos_decadencia_couture.jpg",
+  "trocada_por": [
+   "hist/caracalla.jpg"
+  ],
+  "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo"
+ },
+ {
+  "arquivo": "leao_x_raffaello.jpg",
+  "trocada_por": [
+   "lorenzo.jpg"
+  ],
+  "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo"
+ },
+ {
+  "arquivo": "coroacao_napoleao_david.jpg",
+  "trocada_por": [
+   "hist/marcus_equestre.jpg"
+  ],
+  "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo"
+ },
+ {
+  "arquivo": "julio_ii_raffaello.jpg",
+  "trocada_por": [
+   "hist/pope_julius_ii.jpg"
+  ],
+  "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo"
+ },
+ {
+  "arquivo": "vercingetorix_royer.jpg",
+  "trocada_por": [
+   "cesar.jpg"
+  ],
+  "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo"
+ },
+ {
+  "arquivo": "rendicao_granada_pradilla.jpg",
+  "trocada_por": [
+   "hist/ferdinand_ii_of_aragon.jpg"
+  ],
+  "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo"
+ },
+ {
+  "arquivo": "cesar_assassinato_camuccini.jpg",
+  "trocada_por": [
+   "cesar.jpg"
+  ],
+  "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo"
  }
 ]
