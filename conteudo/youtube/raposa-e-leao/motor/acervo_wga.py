@@ -1,4 +1,5 @@
-"""Plano C do acervo: baixa da Web Gallery of Art (wga.hu) a mesma obra quando o Commons bloqueia (429). python3 acervo_wga.py"""
+"""Plano C do acervo: baixa da Web Gallery of Art (wga.hu) a mesma obra quando o Commons bloqueia (429). python3 acervo_wga.py
+Use HTTP/1.1: em HTTP/2 o download pode travar em 192 KB. Catálogo da WGA: https://www.wga.hu/database/download/data_txt.zip"""
 import urllib.request,io,json,os,time,subprocess
 from PIL import Image
 OUT='/home/user/lindson/conteudo/youtube/raposa-e-leao/img/acervo'
@@ -15,6 +16,9 @@ L={'bernardo_bellotto_the_piazza_della_signoria_in_f.jpg':('/art/b/bellotto/1/be
 'embaixadores_holbein.jpg':('/art/h/holbein/hans_y/1535a/0ambassa.jpg','Hans Holbein, o Jovem, Os Embaixadores, 1533'),
 'multidao_bruegel.jpg':('/art/b/bruegel/pieter_e/08/11calvar.jpg','Pieter Bruegel, o Velho, Cristo carregando a cruz, 1564'),
 'batalha_ostia_raffaello.jpg':('/art/r/raphael/4stanze/3borgo/2battle.jpg','Rafael e oficina, A Batalha de Óstia, 1514-15, Vaticano'),
+'savonarola_fra_bartolomeo.jpg':('/art/b/bartolom/fra/savonaro.jpg','Fra Bartolomeo, Retrato de Girolamo Savonarola, c. 1498'),
+'carlos_viii_florenca_bezzuoli.jpg':('/art/b/bezzuoli/charles8.jpg','Giuseppe Bezzuoli, Entrada de Carlos VIII em Florença, 1829'),
+'sermao_bruegel.jpg':('/art/b/bruegel/pieter_e/09/01baptis.jpg','Pieter Bruegel, o Velho, O Sermão de São João Batista, 1566'),
 'batalha_ponte_milvio_raffaello.jpg':('/art/r/raphael/4stanze/4constan/2battle.jpg','Oficina de Rafael, A Batalha da Ponte Mílvia, 1520-24, Vaticano'),
 }
 cred=json.load(open(OUT+'/creditos.json')); por={c['arquivo']:c for c in cred}
@@ -22,7 +26,7 @@ for arq,(p,t) in L.items():
     for k in range(6):
         if os.path.exists(f'{OUT}/{arq}'): break
         tmp=f'/tmp/{arq}'
-        r=subprocess.run(['curl','-sSfL','--retry','3','-m','300','-A','Mozilla/5.0','-o',tmp,'https://www.wga.hu'+p])
+        r=subprocess.run(['curl','-sSfL','--http1.1','-C','-','--retry','3','-m','300','-A','Mozilla/5.0','-o',tmp,'https://www.wga.hu'+p])
         try: Image.open(tmp).convert('RGB').save(f'{OUT}/{arq}',quality=93)
         except Exception as e: print('erro',arq,e,flush=True); time.sleep(10)
     if not os.path.exists(f'{OUT}/{arq}'): print('FALHOU',arq,flush=True); continue

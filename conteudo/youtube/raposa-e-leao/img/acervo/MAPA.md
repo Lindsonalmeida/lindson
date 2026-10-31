@@ -1,9 +1,9 @@
 # Mapa de imagens do Raposa e Leão (caminhos relativos a `raposa-e-leao/img/`)
-Use **só** as imagens desta lista. Pinturas e esculturas em domínio público. Créditos em `acervo/creditos.json` (as de `hist/` e da raiz vieram do Wikimedia Commons antes, já conferidas).
+Use **só** as imagens desta lista. Pinturas e esculturas em domínio público. Créditos em `acervo/creditos.json` (quando a Wikimedia bloqueia, as mesmas obras vêm da Web Gallery of Art, wga.hu, com HTTP/1.1: veja `fonte_download`) (as de `hist/` e da raiz vieram do Wikimedia Commons antes, já conferidas).
 
 **Fora da lista de propósito:**
 - Fotos modernas de Florença (`hist/arno.jpg`, `hist/florence.jpg`, `hist/palazzo_vecchio.jpg`, `hist/piazza_della_signoria.jpg`, `hist/ponte_vecchio.jpg`) e de túmulo (`acervo/graftombes_...`): a licença de foto não é domínio público garantido.
-- `acervo/roda_fortuna_burne_jones.jpg`: tem nus. Thumbnail ou cena com nudez pode limitar anúncios.
+- `acervo/roda_fortuna_burne_jones.jpg` e `acervo/romanos_decadencia_couture.jpg`: têm nus. Thumbnail ou cena com nudez pode limitar anúncios.
 
 | Arquivo | O que mostra | Formato · luz |
 |---|---|---|
@@ -19,6 +19,9 @@ Use **só** as imagens desta lista. Pinturas e esculturas em domínio público. 
 | acervo/sandro_botticelli_giuliano_de_medici_gem_ldegale.jpg | Giuliano de Médici (outra versão) | retrato · claro |
 | acervo/castiglione_raffaello.jpg | Baldassare Castiglione (Rafael), cortesão | retrato · médio |
 | hist/girolamo_savonarola.jpg | Savonarola de perfil, capuz | retrato · escuro |
+| acervo/savonarola_fra_bartolomeo.jpg | Retrato de Savonarola por Fra Bartolomeo (c. 1498), perfil, capuz, fundo escuro | retrato · médio |
+| acervo/carlos_viii_florenca_bezzuoli.jpg | Entrada de Carlos VIII em Florença (Bezzuoli, 1829): rei a cavalo, cortejo, bandeiras | paisagem · médio |
+| acervo/sermao_bruegel.jpg | O Sermão de São João Batista (Bruegel): multidão ouvindo um pregador no bosque | paisagem · médio |
 | hist/ferdinand_ii_of_aragon.jpg | Fernando de Aragão | retrato · médio |
 | acervo/ferdinand_of_aragon_isabella_of_castile.jpg | Fernando e Isabel, casal real | paisagem · escuro |
 | acervo/embaixadores_holbein.jpg | Os Embaixadores (Holbein), dois diplomatas | retrato · médio |
@@ -33,7 +36,6 @@ Use **só** as imagens desta lista. Pinturas e esculturas em domínio público. 
 | acervo/cesar_morte_gerome.jpg | Morte de César (Gérôme): senadores saindo, corpo no chão | paisagem · escuro |
 | acervo/jean_l_on_g_r_me_the_death_of_caesar_walters_378.jpg | Morte de César (outra versão de Gérôme) | paisagem · escuro |
 | acervo/pollice_verso_gerome.jpg | Gladiador na arena, polegar para baixo | paisagem · médio |
-| acervo/romanos_decadencia_couture.jpg | Os romanos da decadência: banquete e excesso | paisagem · claro |
 | acervo/vercingetorix_royer.jpg | Vercingetórix se rende a César | paisagem · médio |
 | acervo/hannibal_and_scipio_africanus.jpg | Batalha de Zama: Aníbal e Cipião, cavalaria | paisagem · médio |
 | acervo/albrecht_altdorfer_schlacht_bei_issus_alte_pinak.jpg | Batalha de Isso (Altdorfer): exércitos imensos, céu dramático | retrato · médio |

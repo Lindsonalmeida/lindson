@@ -256,5 +256,33 @@
    "zoom": 0.9,
    "txt": "CONSTRUA O <b>DIQUE</b>"
   }
+ },
+ "longo-09": {
+  "A": {
+   "estilo": "close",
+   "grav": "acervo/savonarola_fra_bartolomeo.jpg",
+   "foco": [
+    0.4,
+    0.3
+   ],
+   "zoom": 0.85,
+   "txt": "SÓ A <b>VOZ</b>",
+   "lado": "dir",
+   "tag": "O PROFETA DESARMADO",
+   "marca": "RAPOSA E LEÃO"
+  },
+  "B": {
+   "estilo": "close",
+   "grav": "maquiavel.jpg",
+   "foco": [
+    0.5,
+    0.3
+   ],
+   "zoom": 0.75,
+   "txt": "<b>DESARMADO</b>",
+   "lado": "dir",
+   "tag": "SAVONAROLA E MAQUIAVEL",
+   "marca": "RAPOSA E LEÃO"
+  }
  }
 }

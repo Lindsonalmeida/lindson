@@ -1,6 +1,7 @@
 """Plano B do acervo: troca nos roteiros cada imagem que não foi possível baixar (Wikimedia bloqueada)
 por uma obra em domínio público do mesmo tema que já está no acervo, sem repetir a imagem da cena anterior.
 Guarda a original em 'gravura_original' (para voltar quando o download funcionar) e registra no creditos.json.
+ROTEIROS=longo-09 python3 acervo_trocas.py só nesse roteiro (padrão longo-1[2-6]).
 python3 acervo_trocas.py            -> aplica      |      python3 acervo_trocas.py desfaz -> volta às originais que já existem"""
 import glob, json, os, sys
 D = os.path.dirname(os.path.abspath(__file__)); RL = os.path.join(D, '..'); IMG = RL + '/img'
@@ -33,7 +34,7 @@ TEMA = {
 }
 existe = lambda g: os.path.exists(f'{IMG}/{g}')
 cred = json.load(open(CRED)); trocas = {}
-for f in sorted(glob.glob(RL + '/roteiros/longo-1[2-6].json')):
+for f in sorted(glob.glob(RL + '/roteiros/' + os.environ.get('ROTEIROS', 'longo-1[2-6]') + '.json')):
     v = json.load(open(f)); ant = None; mud = 0
     cs = v['cenas']
     for i, c in enumerate(cs):

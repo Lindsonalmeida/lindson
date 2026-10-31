@@ -13,8 +13,8 @@
  "capa": {
   "A": "SÓ A VOZ",
   "B": "DESARMADO",
-  "gravA": "hist/girolamo_savonarola.jpg",
-  "gravB": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
+  "gravA": "acervo/savonarola_fra_bartolomeo.jpg",
+  "gravB": "maquiavel.jpg"
  },
  "cenas": [
   {
@@ -38,7 +38,7 @@
    "txt": "Tem outra coisa guardada pro meio do vídeo: uma lei que o próprio Savonarola defendeu e que, na hora em que mais importava, ele deixou de lado. Esse silêncio custou caro."
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel.jpg",
    "mov": "cima",
    "txt": "E no fim eu te entrego a resposta maior: o que Maquiavel chamou de profeta desarmado, por que isso derruba gente boa até hoje e quais armas, sem violência nenhuma, você pode construir."
   },
@@ -48,7 +48,7 @@
    "txt": "Uma coisa antes de começar. Sobre Savonarola, os historiadores discordam muito. Para uns, foi um santo. Para outros, um fanático. Eu vou te contar os fatos aceitos e o que Maquiavel pensou deles."
   },
   {
-   "gravura": "hist/girolamo_savonarola.jpg",
+   "gravura": "acervo/savonarola_fra_bartolomeo.jpg",
    "mov": "out",
    "txt": "Girolamo Savonarola nasceu em Ferrara, no norte da Itália, em 1452. O avô era médico da corte, e a família esperava que ele seguisse a medicina.",
    "cap": {
@@ -106,7 +106,7 @@
    }
   },
   {
-   "gravura": "acervo/rendicao_granada_pradilla.jpg",
+   "gravura": "acervo/carlos_viii_florenca_bezzuoli.jpg",
    "mov": "out",
    "txt": "Em 1494, o rei Carlos Oitavo, da França, desce com um exército enorme pela Itália. Ele queria o reino de Nápoles, e Florença estava bem no caminho."
   },
@@ -121,7 +121,7 @@
    "txt": "Em novembro de 1494, o povo se revolta e os Médici fogem. Para muita gente, era a profecia do frade se cumprindo na frente de todos. O castigo tinha mesmo vindo do outro lado das montanhas."
   },
   {
-   "gravura": "hist/girolamo_savonarola.jpg",
+   "gravura": "acervo/carlos_viii_florenca_bezzuoli.jpg",
    "mov": "cima",
    "txt": "Savonarola foi um dos enviados para falar com o rei francês. Tratou Carlos como alguém mandado por Deus, mas avisou que ele também seria julgado se não cumprisse a missão."
   },
@@ -138,7 +138,7 @@
    "txt": "E isso vale pra sua vida: crise abre espaço para quem tem uma mensagem clara. Quando todo mundo está com medo, quem explica o que está acontecendo ganha autoridade muito rápido."
   },
   {
-   "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+   "gravura": "acervo/savonarola_fra_bartolomeo.jpg",
    "mov": "esq",
    "txt": "Pausa rápida. Repara no que aconteceu: um frade sem exército, sem dinheiro e sem cargo acabou de ver a família mais poderosa da cidade fugir. Até aqui, faz sentido pra você?",
    "interage": {
@@ -162,12 +162,12 @@
    "txt": "Para receber esse conselho, construíram um salão enorme no Palazzo Vecchio, o Salão dos Quinhentos. O frade não tinha cargo, mas as ideias dele estavam virando lei."
   },
   {
-   "gravura": "hist/girolamo_savonarola.jpg",
+   "gravura": "acervo/savonarola_fra_bartolomeo.jpg",
    "mov": "in",
    "txt": "Ele chegou a proclamar que o verdadeiro rei de Florença era Cristo. E a cidade, famosa pelo comércio, pelos banqueiros e pelas festas, começou a mudar de cara."
   },
   {
-   "gravura": "acervo/romanos_decadencia_couture.jpg",
+   "gravura": "acervo/embaixadores_holbein.jpg",
    "mov": "out",
    "txt": "Jogos de azar foram atacados e as roupas de luxo viraram motivo de vergonha. Grupos de meninos, organizados pelos seguidores do frade, iam de casa em casa recolhendo as chamadas vaidades."
   },
@@ -238,7 +238,7 @@
    "txt": "Savonarola responde que a excomunhão era inválida e, no começo de 1498, volta a pregar em público. Agora Florença tinha um problema enorme: o papa ameaçava a cidade inteira por causa de um frade."
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel.jpg",
    "mov": "dir",
    "txt": "Se essa história está te prendendo, segue o Raposa e Leão. Aqui cada lição de Maquiavel vem com a história real por trás e com o capítulo certo, pra você conferir.",
    "interage": {
@@ -263,12 +263,12 @@
    }
   },
   {
-   "gravura": "acervo/embaixadores_holbein.jpg",
+   "gravura": "acervo/sermao_bruegel.jpg",
    "mov": "out",
    "txt": "Ele conta que foi ouvir os sermões em San Marco. E descreve tudo com olho de quem estuda o poder: o que o frade dizia, para quem dizia e como o discurso mudava conforme a situação."
   },
   {
-   "gravura": "hist/girolamo_savonarola.jpg",
+   "gravura": "acervo/savonarola_fra_bartolomeo.jpg",
    "mov": "esq",
    "txt": "A conclusão dele é dura. Na leitura de Maquiavel, o frade ia acompanhando os tempos e dando cor às suas mentiras. Ou seja: o discurso mudava conforme o perigo mudava.",
    "verso": "Ele vai acompanhando os tempos e colorindo as suas mentiras.",
@@ -321,7 +321,7 @@
    "txt": "As horas foram passando. Caiu uma chuva forte. No fim do dia, as autoridades cancelaram tudo. Ninguém entrou no fogo, e a multidão voltou pra casa sem milagre e sem resposta."
   },
   {
-   "gravura": "acervo/pollice_verso_gerome.jpg",
+   "gravura": "acervo/sermao_bruegel.jpg",
    "mov": "out",
    "txt": "Pensa no efeito disso. Uma multidão que esperava um sinal e não recebeu nada sente que foi enganada. A fé que tinha levantado o frade virou raiva contra ele em uma noite."
   },
@@ -351,7 +351,7 @@
    "txt": "E agora a coincidência que liga tudo. Poucas semanas depois, em junho de 1498, Maquiavel é escolhido para chefiar a Segunda Chancelaria da república. A carreira dele começa sobre as cinzas do frade."
   },
   {
-   "gravura": "acervo/vercingetorix_royer.jpg",
+   "gravura": "acervo/julio_ii_raffaello.jpg",
    "mov": "esq",
    "txt": "Agora a segunda promessa, a da lei. Pra entender a queda, a gente precisa voltar ao verão de 1497. Porque o frade começou a cair antes da prova de fogo.",
    "cap": {
@@ -370,7 +370,7 @@
    "txt": "Em agosto de 1497, cinco cidadãos importantes foram condenados à morte por conspirar pela volta dos Médici. Eles pediram para usar justamente essa lei e apelar ao conselho."
   },
   {
-   "gravura": "hist/girolamo_savonarola.jpg",
+   "gravura": "acervo/savonarola_fra_bartolomeo.jpg",
    "mov": "in",
    "txt": "A apelação foi negada, e os cinco foram executados. E Savonarola, o homem que tinha defendido a lei, não agiu para que ela fosse cumprida."
   },
@@ -416,7 +416,7 @@
    }
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel.jpg",
    "mov": "esq",
    "txt": "E então escreve: todos os profetas armados venceram, e os desarmados se arruinaram. Logo em seguida, ele cita o nome do frade como o exemplo do seu tempo.",
    "verso": "Todos os profetas armados venceram, e os desarmados se arruinaram.",
@@ -456,7 +456,7 @@
    "ref": "O PRÍNCIPE, CAP. VI"
   },
   {
-   "gravura": "acervo/ferdinand_of_aragon_isabella_of_castile.jpg",
+   "gravura": "hist/marcus_equestre.jpg",
    "mov": "dir",
    "txt": "Esse é o contraste. Hierão construiu a estrutura antes de precisar dela. Savonarola construiu um movimento, mas a estrutura nunca foi dele: os guardas, o governo e o tribunal estavam na mão de outros."
   },
@@ -475,7 +475,7 @@
    }
   },
   {
-   "gravura": "acervo/hannibal_and_scipio_africanus.jpg",
+   "gravura": "acervo/carlos_viii_florenca_bezzuoli.jpg",
    "mov": "out",
    "txt": "A primeira é a estrutura. Processo escrito, acordo assinado, rotina que funciona mesmo quando você não está motivado. Ideia sem estrutura depende do humor das pessoas, e humor muda."
   },
@@ -490,12 +490,12 @@
    "txt": "A terceira são aliados de verdade. Gente que está com você pelo que vocês constroem juntos, não pela emoção de um dia. Hierão escolheu os próprios amigos. Escolha os seus com calma."
   },
   {
-   "gravura": "acervo/vercingetorix_royer.jpg",
+   "gravura": "acervo/castiglione_raffaello.jpg",
    "mov": "cima",
    "txt": "A quarta é a coerência. A regra que você defende vale pra você e pro seu grupo também. Foi aí que o frade mais perdeu reputação, e é aí que muita liderança cai hoje."
   },
   {
-   "gravura": "hist/girolamo_savonarola.jpg",
+   "gravura": "acervo/savonarola_fra_bartolomeo.jpg",
    "mov": "in",
    "txt": "Repara que nenhuma dessas armas serve pra enganar ninguém. Elas protegem a sua ideia do único inimigo que todo projeto tem: o dia em que a empolgação acaba."
   },

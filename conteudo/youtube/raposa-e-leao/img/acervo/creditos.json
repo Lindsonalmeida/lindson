@@ -26,7 +26,8 @@
   "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo",
   "fonte_baixada": "https://www.wga.hu/art/b/bellotto/1/bello103.jpg",
   "obra": "Bernardo Bellotto, The Piazza della Signoria in Florence, 1740",
-  "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)"
+  "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)",
+  "fonte_download": "Web Gallery of Art: https://www.wga.hu/html/b/bellotto/1/bello103.html (Wikimedia bloqueou com HTTP 429 em 31/10/2026)"
  },
  {
   "arquivo": "botticelli_giuliano_de_medici_accademia_carrara.jpg",
@@ -38,7 +39,8 @@
   "busca": "Giuliano de Medici portrait",
   "fonte_baixada": "https://www.wga.hu/art/b/botticel/7portrai/05medici.jpg",
   "obra": "Sandro Botticelli, Giuliano de' Medici, c. 1478",
-  "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)"
+  "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)",
+  "fonte_download": "Web Gallery of Art: https://www.wga.hu/html/b/botticel/7portrai/05medici.html (Wikimedia bloqueou com HTTP 429 em 31/10/2026)"
  },
  {
   "arquivo": "sandro_botticelli_giuliano_de_medici_gem_ldegale.jpg",
@@ -50,7 +52,8 @@
   "busca": "Giuliano de Medici portrait",
   "fonte_baixada": "https://www.wga.hu/art/b/botticel/7portrai/07medici.jpg",
   "obra": "Sandro Botticelli, Giuliano de' Medici, c. 1478",
-  "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)"
+  "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)",
+  "fonte_download": "Web Gallery of Art: https://www.wga.hu/html/b/botticel/7portrai/06medici.html (Wikimedia bloqueou com HTTP 429 em 31/10/2026)"
  },
  {
   "arquivo": "ferdinand_of_aragon_isabella_of_castile.jpg",
@@ -84,7 +87,8 @@
   "busca": "Alexander the Great painting battle",
   "fonte_baixada": "https://www.wga.hu/art/a/altdorfe/1/5battle.jpg",
   "obra": "Albrecht Altdorfer, The Battle of Alexander, 1529",
-  "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)"
+  "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)",
+  "fonte_download": "Web Gallery of Art: https://www.wga.hu/html/a/altdorfe/1/5battle.html (Wikimedia bloqueou com HTTP 429 em 31/10/2026)"
  },
  {
   "arquivo": "the_battle_of_alexander_at_issus_by_albrecht_alt.jpg",
@@ -161,7 +165,8 @@
   "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo",
   "fonte_baixada": "https://www.wga.hu/art/g/giotto/padova/3christ/chris15.jpg",
   "obra": "Giotto, Cenas da vida de Cristo: 15. A Prisão de Cristo (Beijo de Judas), Pádua",
-  "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)"
+  "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)",
+  "fonte_download": "Web Gallery of Art: https://www.wga.hu/html/g/giotto/padova/3christ/chris15.html (Wikimedia bloqueou com HTTP 429 em 31/10/2026)"
  },
  {
   "arquivo": "castiglione_raffaello.jpg",
@@ -176,7 +181,8 @@
   "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo",
   "fonte_baixada": "https://www.wga.hu/art/r/raphael/5roma/3/01castig.jpg",
   "obra": "Rafael, Retrato de Baldassare Castiglione, 1514-15",
-  "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)"
+  "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)",
+  "fonte_download": "Web Gallery of Art: https://www.wga.hu/html/r/raphael/5roma/3/01castig.html (Wikimedia bloqueou com HTTP 429 em 31/10/2026)"
  },
  {
   "arquivo": "cesar_morte_gerome.jpg",
@@ -224,14 +230,16 @@
   "fonte_baixada": "https://www.wga.hu/art/r/raphael/5roma/5/09leo_x.jpg",
   "obra": "Rafael, Papa Leão X com os cardeais Giulio de' Medici e Luigi de' Rossi, 1518",
   "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)",
-  "titulo": "Rafael, Papa Leão X com os cardeais Giulio de' Medici e Luigi de' Rossi, 1518"
+  "titulo": "Rafael, Papa Leão X com os cardeais Giulio de' Medici e Luigi de' Rossi, 1518",
+  "fonte_download": "Web Gallery of Art: https://www.wga.hu/html/r/raphael/5roma/5/09leo_x.html (Wikimedia bloqueou com HTTP 429 em 31/10/2026)"
  },
  {
   "arquivo": "coroacao_napoleao_david.jpg",
   "trocada_por": [
    "hist/marcus_equestre.jpg"
   ],
-  "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo"
+  "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo",
+  "fonte_download": "Web Gallery of Art: https://www.wga.hu/html/d/david_j/4/405david.html (Wikimedia bloqueou com HTTP 429 em 31/10/2026)"
  },
  {
   "arquivo": "julio_ii_raffaello.jpg",
@@ -242,7 +250,8 @@
   "fonte_baixada": "https://www.wga.hu/art/r/raphael/5roma/1/09julius.jpg",
   "obra": "Rafael, Retrato de Júlio II, 1511-12",
   "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)",
-  "titulo": "Rafael, Retrato de Júlio II, 1511-12"
+  "titulo": "Rafael, Retrato de Júlio II, 1511-12",
+  "fonte_download": "Web Gallery of Art: https://www.wga.hu/html/r/raphael/5roma/1/10julius.html (Wikimedia bloqueou com HTTP 429 em 31/10/2026)"
  },
  {
   "arquivo": "vercingetorix_royer.jpg",
@@ -263,7 +272,8 @@
   "trocada_por": [
    "cesar.jpg"
   ],
-  "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo"
+  "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo",
+  "fonte_download": "Web Gallery of Art: https://www.wga.hu/html/c/camuccin/caesar.html (Wikimedia bloqueou com HTTP 429 em 31/10/2026)"
  },
  {
   "arquivo": "multidao_bruegel.jpg",
@@ -273,7 +283,13 @@
   "obs": "Dança dos camponeses (detalhe), praça de aldeia com multidão",
   "fonte_baixada": "https://www.wga.hu/art/b/bruegel/pieter_e/08/11calvar.jpg",
   "obra": "Pieter Bruegel, o Velho, Cristo carregando a cruz, 1564",
-  "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)"
+  "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)",
+  "trocada_por": [
+   "hist/arco_severo.jpg",
+   "hist/bonfire_of_the_vanities.jpg"
+  ],
+  "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo",
+  "fonte_download": "Web Gallery of Art: https://www.wga.hu/html/b/bruegel/pieter_e/08/11calvar.html (Wikimedia bloqueou com HTTP 429 em 31/10/2026)"
  },
  {
   "arquivo": "embaixadores_holbein.jpg",
@@ -282,31 +298,54 @@
   "url_commons": "https://commons.wikimedia.org/wiki/File:Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg",
   "fonte_baixada": "https://www.wga.hu/art/h/holbein/hans_y/1535a/0ambassa.jpg",
   "obra": "Hans Holbein, o Jovem, Os Embaixadores, 1533",
-  "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)"
+  "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)",
+  "trocada_por": [
+   "borgia.jpg"
+  ],
+  "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo",
+  "fonte_download": "Web Gallery of Art: https://www.wga.hu/html/h/holbein/hans_y/1535a/0ambassa.html (Wikimedia bloqueou com HTTP 429 em 31/10/2026)"
  },
  {
   "arquivo": "rendicao_granada_pradilla.jpg",
   "titulo": "File:La Rendición de Granada - Pradilla.jpg",
   "licenca": "Public domain",
-  "url_commons": "https://commons.wikimedia.org/wiki/File:La_Rendici%C3%B3n_de_Granada_-_Pradilla.jpg"
+  "url_commons": "https://commons.wikimedia.org/wiki/File:La_Rendici%C3%B3n_de_Granada_-_Pradilla.jpg",
+  "trocada_por": [
+   "hist/ferdinand_ii_of_aragon.jpg"
+  ],
+  "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo"
  },
  {
   "arquivo": "romanos_decadencia_couture.jpg",
   "titulo": "File:Thomas Couture - Romans during the Decadence - Google Art Project.jpg",
   "licenca": "Public domain",
-  "url_commons": "https://commons.wikimedia.org/wiki/File:Thomas_Couture_-_Romans_during_the_Decadence_-_Google_Art_Project.jpg"
+  "url_commons": "https://commons.wikimedia.org/wiki/File:Thomas_Couture_-_Romans_during_the_Decadence_-_Google_Art_Project.jpg",
+  "trocada_por": [
+   "hist/caracalla.jpg"
+  ],
+  "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo",
+  "fonte_download": "Web Gallery of Art: https://www.wga.hu/html/c/couture/decadenc.html (Wikimedia bloqueou com HTTP 429 em 31/10/2026)"
  },
  {
   "arquivo": "vercingetorix_royer.jpg",
   "titulo": "File:Siege-alesia-vercingetorix-jules-cesar.jpg",
   "licenca": "Public domain",
-  "url_commons": "https://commons.wikimedia.org/wiki/File:Siege-alesia-vercingetorix-jules-cesar.jpg"
+  "url_commons": "https://commons.wikimedia.org/wiki/File:Siege-alesia-vercingetorix-jules-cesar.jpg",
+  "trocada_por": [
+   "cesar.jpg"
+  ],
+  "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo"
  },
  {
   "arquivo": "pollice_verso_gerome.jpg",
   "titulo": "File:Jean-Leon Gerome Pollice Verso.jpg",
   "licenca": "Public domain",
-  "url_commons": "https://commons.wikimedia.org/wiki/File:Jean-Leon_Gerome_Pollice_Verso.jpg"
+  "url_commons": "https://commons.wikimedia.org/wiki/File:Jean-Leon_Gerome_Pollice_Verso.jpg",
+  "trocada_por": [
+   "hist/arco_severo.jpg",
+   "hist/commodus.jpg"
+  ],
+  "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo"
  },
  {
   "arquivo": "prisao_cristo_caravaggio.jpg",
@@ -315,7 +354,8 @@
   "url_commons": "https://commons.wikimedia.org/wiki/File:The_Taking_of_Christ-Caravaggio_%28c.1602%29.jpg",
   "fonte_baixada": "https://www.wga.hu/art/c/caravagg/03/191captu.jpg",
   "obra": "Caravaggio, A Prisão de Cristo, c. 1602",
-  "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)"
+  "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)",
+  "fonte_download": "Web Gallery of Art: https://www.wga.hu/html/c/caravagg/03/192captu.html (Wikimedia bloqueou com HTTP 429 em 31/10/2026)"
  },
  {
   "arquivo": "batalha_ostia_raffaello.jpg",
@@ -450,5 +490,23 @@
   "data": "1630-1669",
   "licenca": "Public domain (SMK Open)",
   "url_commons": "https://open.smk.dk/artwork/image/KMS672"
+ },
+ {
+  "arquivo": "savonarola_fra_bartolomeo.jpg",
+  "titulo": "Fra Bartolomeo, Portrait of Girolamo Savonarola (c. 1498)",
+  "licenca": "Public domain (obra anterior a 1900)",
+  "fonte_download": "Web Gallery of Art: https://www.wga.hu/html/b/bartolom/fra/savonaro.html (Wikimedia bloqueou com HTTP 429 em 31/10/2026)"
+ },
+ {
+  "arquivo": "carlos_viii_florenca_bezzuoli.jpg",
+  "titulo": "Giuseppe Bezzuoli, Entry of Charles VIII into Florence (1829)",
+  "licenca": "Public domain (obra anterior a 1900)",
+  "fonte_download": "Web Gallery of Art: https://www.wga.hu/html/b/bezzuoli/charles8.html (Wikimedia bloqueou com HTTP 429 em 31/10/2026)"
+ },
+ {
+  "arquivo": "sermao_bruegel.jpg",
+  "titulo": "Pieter Bruegel the Elder, The Sermon of St John the Baptist (1566)",
+  "licenca": "Public domain (obra anterior a 1900)",
+  "fonte_download": "Web Gallery of Art: https://www.wga.hu/html/b/bruegel/pieter_e/09/01baptis.html (Wikimedia bloqueou com HTTP 429 em 31/10/2026)"
  }
 ]
