@@ -18,7 +18,7 @@
      "s": 230,
      "f": "ant",
      "c": "red",
-     "w": "perigoso",
+     "w": "perigoso#1",
      "a": "slam"
     },
     {
@@ -27,20 +27,20 @@
      "s": 100,
      "f": "cg",
      "c": "",
-     "w": "implantar"
+     "w": "implantar#1"
     }
    ],
    "bg": "glow:rgba(142,27,27,.35):40"
   },
   {
    "t": "duo",
-   "w": "Quem",
+   "w": "Quem#1",
    "dir": "v",
    "a": {
     "k": "Antigo",
     "s": "vira seu inimigo na hora",
     "c": "#E0453C",
-    "w": "antigo"
+    "w": "antigo#1"
    },
    "b": {
     "k": "Novo",
@@ -48,6 +48,16 @@
     "c": "#E2BE4A",
     "w": "novo#2",
     "bar": "steps"
+   }
+  },
+  {
+   "t": "conversa",
+   "w": "Já#1",
+   "img": "../img/hist/girolamo_savonarola.jpg",
+   "h": "Já te<br>aconteceu?",
+   "interage": {
+    "tipo": "checkin",
+    "txt": "JÁ"
    }
   },
   {
@@ -59,7 +69,7 @@
      "s": 120,
      "f": "ant",
      "c": "",
-     "w": "mudar"
+     "w": "mudar#2"
     },
     {
      "h": "Espere",
@@ -67,7 +77,7 @@
      "s": 130,
      "f": "cg",
      "c": "dim",
-     "w": "espere"
+     "w": "espere#1"
     },
     {
      "h": "resistência",
@@ -75,7 +85,7 @@
      "s": 170,
      "f": "ant",
      "c": "gold",
-     "w": "resistência",
+     "w": "resistência#1",
      "a": "slam"
     },
     {
@@ -84,14 +94,32 @@
      "s": 80,
      "f": "cg",
      "c": "",
-     "w": "sinal"
+     "w": "sinal#1"
     }
    ],
-   "w": "Se"
+   "w": "Se#1"
+  },
+  {
+   "t": "conversa",
+   "w": "Salva#1",
+   "img": "../img/hist/ponte_vecchio.jpg",
+   "h": "Pro dia da<br>resistência",
+   "interage": {
+    "tipo": "salva",
+    "txt": "SALVA ESSE"
+   }
   },
   {
    "t": "assinatura",
-   "apos": "errado"
+   "apos": "aparecer#2",
+   "frase": "Mude. E segure firme.",
+   "interage": {
+    "tipo": "segue",
+    "txt": "NÃO PERCA A PRÓXIMA"
+   }
   }
- ]
+ ],
+ "abre": "zoom",
+ "pulso": 0.95,
+ "batida": "reto"
 }
