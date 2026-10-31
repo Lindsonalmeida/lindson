@@ -18,6 +18,8 @@ CAPA_C = {'longo-01': ('O MAPA', '020'), 'longo-02': ('3 ROTAS', '092'), 'longo-
 for k, (txt, g) in CAPA_C.items():
     if k in lg: CAPAS.append((k + '-C', 'C', {'texto': txt})); GRAV[k + '-C'] = g
 
+if os.environ.get('SO'): CAPAS = [x for x in CAPAS if x[0].rsplit('-', 1)[0] == os.environ['SO'] or x[0] == os.environ['SO']]  # SO=<id>: só as capas desse vídeo
+
 def titulo(c):
     t = c['texto']; d = c.get('destaque', '')
     return t.replace(d, f'<em>{d}</em>', 1) if d else t
