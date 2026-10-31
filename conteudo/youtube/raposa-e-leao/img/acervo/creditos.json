@@ -330,5 +330,125 @@
   "obra": "Oficina de Rafael, A Batalha da Ponte Mílvia, 1520-24, Vaticano",
   "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)",
   "titulo": "Oficina de Rafael, A Batalha da Ponte Mílvia, 1520-24, Vaticano"
+ },
+ {
+  "arquivo": "smk_stormflod_vernet.jpg",
+  "titulo": "Stormflod",
+  "autor": "Vernet, Claude-Joseph",
+  "data": "1750-1799",
+  "licenca": "Public domain (SMK Open)",
+  "url_commons": "https://open.smk.dk/artwork/image/KMSst564"
+ },
+ {
+  "arquivo": "smk_storm_bakhuizen.jpg",
+  "titulo": "En storm",
+  "autor": "Bakhuizen, Ludolf",
+  "data": "1646-1708",
+  "licenca": "Public domain (SMK Open)",
+  "url_commons": "https://open.smk.dk/artwork/image/KMSsp544"
+ },
+ {
+  "arquivo": "smk_skibbrud_dahl.jpg",
+  "titulo": "Et skibbrud ved den norske kyst",
+  "autor": "Dahl, J.C.",
+  "data": "1831-1832",
+  "licenca": "Public domain (SMK Open)",
+  "url_commons": "https://open.smk.dk/artwork/image/KMS216"
+ },
+ {
+  "arquivo": "smk_efter_stormen_friedrich.jpg",
+  "titulo": "Efter stormen",
+  "autor": "Friedrich, Caspar David",
+  "data": "1817",
+  "licenca": "Public domain (SMK Open)",
+  "url_commons": "https://open.smk.dk/artwork/image/KMS8817"
+ },
+ {
+  "arquivo": "smk_flod_klipper_doughty.jpg",
+  "titulo": "Flod mellem klipper",
+  "autor": "Doughty, Thomas",
+  "data": "1808-1856",
+  "licenca": "Public domain (SMK Open)",
+  "url_commons": "https://open.smk.dk/artwork/image/KMS3128"
+ },
+ {
+  "arquivo": "smk_flod_ruysdael.jpg",
+  "titulo": "Kørevejen ved floden",
+  "autor": "Ruysdael, Salomon van",
+  "data": "1652",
+  "licenca": "Public domain (SMK Open)",
+  "url_commons": "https://open.smk.dk/artwork/image/KMS726"
+ },
+ {
+  "arquivo": "smk_uvejr_gaard_juel.jpg",
+  "titulo": "En sjællandsk bondegård under et optrækkende uvejr. Eigaard ved Ordrup",
+  "autor": "Juel, Jens",
+  "data": "1791-1793",
+  "licenca": "Public domain (SMK Open)",
+  "url_commons": "https://open.smk.dk/artwork/image/KMS137"
+ },
+ {
+  "arquivo": "smk_efter_regn_skovgaard.jpg",
+  "titulo": "Opklarende vejr efter en regnbyge ved Gurre Sø",
+  "autor": "Skovgaard, P.C.",
+  "data": "1844",
+  "licenca": "Public domain (SMK Open)",
+  "url_commons": "https://open.smk.dk/artwork/image/KMS1472"
+ },
+ {
+  "arquivo": "smk_vandfald_ruisdael.jpg",
+  "titulo": "Et vandfald i en bjergegn",
+  "autor": "Ruisdael, Jacob Isaacksz. van",
+  "data": "1643-1682",
+  "licenca": "Public domain (SMK Open)",
+  "url_commons": "https://open.smk.dk/artwork/image/KMSsp573"
+ },
+ {
+  "arquivo": "smk_skibbrud_vernet.jpg",
+  "titulo": "Et skibbrud",
+  "autor": "Vernet, Claude-Joseph",
+  "data": "1729-1789",
+  "licenca": "Public domain (SMK Open)",
+  "url_commons": "https://open.smk.dk/artwork/image/KMSsp708"
+ },
+ {
+  "arquivo": "smk_havn_bakhuizen.jpg",
+  "titulo": "Indsejlingen til en havn",
+  "autor": "Bakhuizen, Ludolf",
+  "data": "1689",
+  "licenca": "Public domain (SMK Open)",
+  "url_commons": "https://open.smk.dk/artwork/image/KMSsp548"
+ },
+ {
+  "arquivo": "smk_flod_bjerg_vernet.jpg",
+  "titulo": "Bjerglandskab med en flod",
+  "autor": "Vernet, Claude-Joseph",
+  "data": "1770",
+  "licenca": "Public domain (SMK Open)",
+  "url_commons": "https://open.smk.dk/artwork/image/KMS3765"
+ },
+ {
+  "arquivo": "smk_spaakone_wijck.jpg",
+  "titulo": "Zigøjnersken spår soldaterne",
+  "autor": "Wijck, Thomas",
+  "data": "1658-1661",
+  "licenca": "Public domain (SMK Open)",
+  "url_commons": "https://open.smk.dk/artwork/image/KMS3023"
+ },
+ {
+  "arquivo": "smk_uvejr_dietrich.jpg",
+  "titulo": "Uvejr",
+  "autor": "Dietrich, Christian Wilhelm Ernst",
+  "data": "1727-1774",
+  "licenca": "Public domain (SMK Open)",
+  "url_commons": "https://open.smk.dk/artwork/image/KMSst194"
+ },
+ {
+  "arquivo": "smk_borg_flod_haagen.jpg",
+  "titulo": "Borg ved en flod",
+  "autor": "Haagen, Joris van der",
+  "data": "1630-1669",
+  "licenca": "Public domain (SMK Open)",
+  "url_commons": "https://open.smk.dk/artwork/image/KMS672"
  }
 ]

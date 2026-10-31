@@ -51,3 +51,24 @@ Use **só** as imagens desta lista. Pinturas e esculturas em domínio público. 
 | acervo/batalha_ponte_milvio_raffaello.jpg | A Batalha da Ponte Mílvia (oficina de Rafael): cavalaria, rio, saque | paisagem · médio |
 
 Obs. (31/10, longo-10): com o Commons bloqueado (429), parte do acervo foi baixada da Web Gallery of Art (wga.hu), mesma obra; a origem fica em `fonte_baixada` no creditos.json.
+
+**Acrescentadas em 31/10 (SMK, Statens Museum for Kunst, coleção aberta em domínio público; créditos no `creditos.json`).** Tema: a sorte como rio, tempestade e calmaria (longo-08).
+
+| Arquivo | O que mostra | Formato · luz |
+|---|---|---|
+| acervo/smk_stormflod_vernet.jpg | Cheia/tempestade invadindo a costa, gente fugindo (Vernet) | paisagem · médio, P&B |
+| acervo/smk_storm_bakhuizen.jpg | Navio numa tempestade no mar (Bakhuizen) | paisagem · escuro |
+| acervo/smk_skibbrud_dahl.jpg | Naufrágio na costa da Noruega (J.C. Dahl) | paisagem · médio |
+| acervo/smk_skibbrud_vernet.jpg | Naufrágio com raios de sol entre nuvens (Vernet) | paisagem · médio |
+| acervo/smk_efter_stormen_friedrich.jpg | Barco destroçado nas pedras depois da tempestade (C.D. Friedrich) | paisagem · médio |
+| acervo/smk_flod_klipper_doughty.jpg | Rio calmo entre rochedos (Doughty) | paisagem · médio |
+| acervo/smk_flod_ruysdael.jpg | Rio tranquilo com barcos, céu claro (S. van Ruysdael) | paisagem · claro |
+| acervo/smk_flod_bjerg_vernet.jpg | Rio de montanha com pescadores e barco (Vernet) | paisagem · médio |
+| acervo/smk_borg_flod_haagen.jpg | Castelo à beira do rio (van der Haagen) | paisagem · claro, P&B |
+| acervo/smk_vandfald_ruisdael.jpg | Cachoeira e casa no alto (J. van Ruisdael) | retrato · médio, P&B |
+| acervo/smk_havn_bakhuizen.jpg | Barcos entrando no porto com vento (Bakhuizen) | quadrado · claro, P&B |
+| acervo/smk_uvejr_gaard_juel.jpg | Sítio ao sol com tempestade chegando (Jens Juel) | paisagem · claro |
+| acervo/smk_efter_regn_skovgaard.jpg | Tempo abrindo depois da chuva, lago (Skovgaard) | paisagem · médio |
+| acervo/smk_uvejr_dietrich.jpg | Tempestade noturna com raio sobre castelo (Dietrich) | paisagem · escuro |
+| acervo/smk_spaakone_wijck.jpg | Cigana lendo a sorte de soldados (Thomas Wijck) | paisagem · claro, P&B |
+| acervo/jean_l_on_g_r_me_the_death_of_caesar_walters_378.jpg | (já listada acima) baixada direto do Commons | — |

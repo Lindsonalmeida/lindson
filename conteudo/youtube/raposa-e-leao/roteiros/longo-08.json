@@ -1,0 +1,534 @@
+{
+ "id": "longo-08",
+ "canal": "raposa",
+ "formato": "longo",
+ "titulo": "A sorte é um rio: o aviso de Maquiavel",
+ "legenda": "Metade da sua vida é sorte. A outra metade é sua. Neste vídeo você entende a lição mais prática de Maquiavel sobre a sorte: no capítulo XXV de O Príncipe, ele compara a sorte a um rio violento e ensina a construir diques no tempo calmo, antes da enchente.\n\nVocê vai ver por que os príncipes italianos perderam tudo na calmaria, o detalhe que derrubou César Bórgia, a ousadia de Júlio II, a paciência de Fábio Máximo, o teste das três perguntas para saber se o seu jeito ainda combina com o seu tempo e o que o próprio Maquiavel fez quando a sorte virou contra ele.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📜 Fonte: Nicolau Maquiavel, O Príncipe, dedicatória e capítulos VI, VII, XXIV e XXV; Discursos sobre a primeira década de Tito Lívio, livro III, cap. 9; carta a Francesco Vettori de 10 de dezembro de 1513. As citações aparecem em paráfrase curta.\n\n🦊🦁 Raposa e Leão: Maquiavel e as leis do poder aplicadas à vida real.\n\n▶️ Playlist recomendada: Maquiavel na prática\n\n#Maquiavel #OPríncipe #Sorte #Resiliência #RaposaELeão",
+ "comentario": "📌 Qual dique você vai começar esta semana: reserva, habilidade, amizade ou saúde? Escreve o nome dele aqui. Continue na playlist Maquiavel na prática ⬇️",
+ "titulo_tela": {
+  "sup": "RAPOSA E LEÃO",
+  "txt": "A sorte<br>é um rio",
+  "dur": 3.2
+ },
+ "capa": {
+  "A": "Metade é sua",
+  "B": "Construa o dique",
+  "gravA": "maquiavel2.jpg",
+  "gravB": "hist/pope_julius_ii.jpg"
+ },
+ "cenas": [
+  {
+   "gravura": "acervo/smk_stormflod_vernet.jpg",
+   "mov": "in",
+   "txt": "Metade da sua vida não está nas suas mãos. Quem disse isso foi Maquiavel. Mas a outra metade está, e quase todo mundo joga essa metade fora sem perceber."
+  },
+  {
+   "gravura": "borgia.jpg",
+   "mov": "dir",
+   "txt": "Hoje você vai conhecer o homem mais calculista da Itália, que pensou em tudo o que podia dar errado. Em tudo, menos numa coisa. E essa coisa derrubou ele. Já já eu te conto qual foi."
+  },
+  {
+   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "mov": "out",
+   "txt": "E no final eu te mostro o que o próprio Maquiavel fez quando a sorte virou contra ele. Preso, sem emprego, sem dinheiro. O que ele fez nesse fundo do poço é a maior lição do vídeo."
+  },
+  {
+   "gravura": "acervo/smk_flod_klipper_doughty.jpg",
+   "mov": "cima",
+   "txt": "Tudo começa com uma imagem simples, que ele escreveu há mais de quinhentos anos e que serve pra sua vida hoje: a sorte é um rio."
+  },
+  {
+   "gravura": "acervo/smk_spaakone_wijck.jpg",
+   "mov": "esq",
+   "txt": "Antes, uma pergunta só pra você. Quando algo dá errado na sua vida, sua primeira reação é dizer que foi azar? Guarda essa resposta. Ela vai fazer sentido daqui a pouco."
+  },
+  {
+   "gravura": "maquiavel.jpg",
+   "mov": "in",
+   "txt": "O capítulo vinte e cinco de O Príncipe começa com uma pergunta que muita gente fazia na época de Maquiavel: se tudo é governado pela sorte e por Deus, adianta alguma coisa se esforçar?",
+   "cap": {
+    "sup": "LIÇÃO 1",
+    "txt": "Metade é sua"
+   }
+  },
+  {
+   "gravura": "hist/bonfire_of_the_vanities.jpg",
+   "mov": "dir",
+   "txt": "Muitos achavam que não. Diziam que o mundo é como é, que o homem não consegue mudar nada, e que o melhor era deixar a vida correr. Maquiavel confessa que às vezes ele mesmo pensava assim."
+  },
+  {
+   "gravura": "hist/arco_severo.jpg",
+   "mov": "out",
+   "txt": "E faz sentido ele sentir isso. A Itália do tempo dele vivia de pernas pro ar. Governos caíam, exércitos estrangeiros entravam e saíam, famílias ricas viravam pó em poucos anos."
+  },
+  {
+   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "mov": "cima",
+   "txt": "Mas ele não aceita a desculpa. Para não apagar o nosso livre-arbítrio, ele chega a uma conclusão que virou famosa: a sorte decide metade das nossas ações, e deixa a outra metade, ou quase isso, com a gente.",
+   "verso": "A sorte é árbitro da metade das nossas ações, mas deixa a outra metade, ou quase, para nós.",
+   "ref": "O PRÍNCIPE, CAP. XXV"
+  },
+  {
+   "gravura": "acervo/smk_spaakone_wijck.jpg",
+   "mov": "esq",
+   "txt": "Repara no que isso significa. Ele não diz que você controla tudo, como prometem os gurus. E também não diz que você é vítima de tudo. Ele coloca você no meio, com uma parte real de poder."
+  },
+  {
+   "gravura": "acervo/smk_uvejr_gaard_juel.jpg",
+   "mov": "in",
+   "txt": "Pensa numa pessoa que perdeu o emprego numa crise. A crise foi sorte, ela não escolheu. Mas ter guardado dinheiro antes, ter feito contatos, ter aprendido algo novo, isso era a metade dela."
+  },
+  {
+   "gravura": "lorenzo.jpg",
+   "mov": "dir",
+   "txt": "O problema é que a gente costuma misturar as duas metades. Quando dá certo, foi mérito. Quando dá errado, foi azar. E assim a gente nunca descobre o que estava, de fato, nas nossas mãos."
+  },
+  {
+   "gravura": "maquiavel2.jpg",
+   "mov": "out",
+   "txt": "Então a primeira lição é essa: pare de discutir se a vida é justa. Pergunte só uma coisa diante de qualquer problema: qual é a minha metade aqui? E mexa nela."
+  },
+  {
+   "gravura": "acervo/smk_stormflod_vernet.jpg",
+   "mov": "cima",
+   "txt": "Aí vem a imagem que dá nome a este vídeo. Maquiavel compara a sorte a um desses rios violentos que, quando ficam furiosos, alagam as planícies e derrubam árvores e casas.",
+   "cap": {
+    "sup": "LIÇÃO 2",
+    "txt": "O rio e os diques"
+   }
+  },
+  {
+   "gravura": "acervo/smk_skibbrud_dahl.jpg",
+   "mov": "esq",
+   "txt": "Eles arrancam a terra de um lado e jogam do outro. Todo mundo foge, todo mundo cede à força da água, e ninguém consegue segurar nada.",
+   "verso": "Todos fogem diante dele, todos cedem ao seu ímpeto, sem poder resistir em parte alguma.",
+   "ref": "O PRÍNCIPE, CAP. XXV"
+  },
+  {
+   "gravura": "acervo/smk_borg_flod_haagen.jpg",
+   "mov": "in",
+   "txt": "Maquiavel conhecia bem esse rio. Florença, a cidade dele, é cortada pelo Arno, que de tempos em tempos subia e invadia ruas e casas. Para o leitor da época, essa imagem não era poesia. Era memória."
+  },
+  {
+   "gravura": "acervo/smk_flod_ruysdael.jpg",
+   "mov": "dir",
+   "txt": "Mas olha a virada. Ele diz que, mesmo sendo assim, nada impede que as pessoas, quando o tempo está calmo, construam diques e barragens."
+  },
+  {
+   "gravura": "acervo/smk_flod_bjerg_vernet.jpg",
+   "mov": "out",
+   "txt": "Desse jeito, quando o rio subir de novo, a água corre por um canal, ou a força dela chega menor e faz menos estrago. A sorte, ele diz, é igual. Ela mostra o poder dela onde não encontra resistência preparada.",
+   "verso": "A sorte mostra o seu poder onde não há virtude preparada para resistir a ela.",
+   "ref": "O PRÍNCIPE, CAP. XXV"
+  },
+  {
+   "gravura": "maquiavel.jpg",
+   "mov": "cima",
+   "txt": "Agora presta atenção num detalhe que muda tudo. Ninguém constrói dique durante a enchente. Quando a água já está na porta, é tarde. O dique só pode ser feito no tempo bom."
+  },
+  {
+   "gravura": "acervo/smk_uvejr_gaard_juel.jpg",
+   "mov": "esq",
+   "txt": "E é justamente no tempo bom que ninguém tem vontade de construir nada. Quando o salário está caindo certinho, quando o cliente está comprando, quando a saúde está boa, parece exagero se preparar."
+  },
+  {
+   "gravura": "hist/marcus_aurelius.jpg",
+   "mov": "in",
+   "txt": "Na sua vida, os diques têm nomes bem concretos: uma reserva de dinheiro, uma habilidade que aumenta o seu valor, amizades cultivadas antes de você precisar delas, e o cuidado com o corpo enquanto ele ainda não reclama."
+  },
+  {
+   "gravura": "acervo/smk_havn_bakhuizen.jpg",
+   "mov": "dir",
+   "txt": "Tá comigo até aqui? Então guarda essa frase: o dique não impede o rio de subir. Ele só decide se a água vai levar tudo ou vai passar.",
+   "interage": {
+    "tipo": "checkin",
+    "txt": "Dique se faz no tempo bom"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "acervo/smk_uvejr_dietrich.jpg",
+   "mov": "out",
+   "txt": "Maquiavel não inventou essa ideia do nada. Um capítulo antes, no vinte e quatro, ele analisa por que os príncipes italianos perderam os seus estados. E o diagnóstico é duro.",
+   "cap": {
+    "sup": "LIÇÃO 3",
+    "txt": "Na calmaria, ninguém pensa na tempestade"
+   }
+  },
+  {
+   "gravura": "hist/ferdinand_ii_of_aragon.jpg",
+   "mov": "cima",
+   "txt": "Gente como o rei de Nápoles e o duque de Milão tinha perdido tudo. E todos culpavam a sorte. Maquiavel responde: não culpem a sorte, culpem a própria preguiça.",
+   "verso": "Não acusem a sorte, mas a própria indolência.",
+   "ref": "O PRÍNCIPE, CAP. XXIV"
+  },
+  {
+   "gravura": "acervo/smk_efter_regn_skovgaard.jpg",
+   "mov": "esq",
+   "txt": "E ele explica a preguiça com uma frase que vale ouro. Nos tempos de paz, eles nunca pensaram que as coisas podiam mudar. É defeito comum das pessoas não contar, na calmaria, com a tempestade.",
+   "verso": "É defeito comum dos homens não contar, na bonança, com a tempestade.",
+   "ref": "O PRÍNCIPE, CAP. XXIV"
+  },
+  {
+   "gravura": "acervo/smk_storm_bakhuizen.jpg",
+   "mov": "in",
+   "txt": "Quando a tempestade chegou, eles pensaram em fugir, não em se defender. E ficaram esperando que o povo, cansado dos invasores, chamasse eles de volta. Maquiavel diz que esse é o pior plano: depender de alguém te levantar."
+  },
+  {
+   "gravura": "hist/caracalla.jpg",
+   "mov": "dir",
+   "txt": "No capítulo vinte e cinco ele aplica a mesma lógica ao país inteiro. A Itália, diz ele, era uma planície sem diques e sem nenhuma barragem."
+  },
+  {
+   "gravura": "hist/alexander_the_great.jpg",
+   "mov": "out",
+   "txt": "Se ela tivesse sido protegida com a devida força, como a Alemanha, a Espanha e a França, a enchente das invasões não teria feito tanto estrago. Ou talvez nem tivesse chegado."
+  },
+  {
+   "gravura": "acervo/smk_skibbrud_vernet.jpg",
+   "mov": "cima",
+   "txt": "E ele falava do que viu com os próprios olhos. A partir de mil quatrocentos e noventa e quatro, exércitos estrangeiros atravessaram a Itália várias vezes. Cidades ricas e cultas ficaram à mercê de reis de fora."
+  },
+  {
+   "gravura": "lorenzo.jpg",
+   "mov": "esq",
+   "txt": "Aqui tem uma lição que pouca gente percebe. Florença era rica, cheia de banqueiros e artistas. Mas riqueza não é dique. Uma cidade rica sem defesa própria é só uma planície mais bonita para a água invadir."
+  },
+  {
+   "gravura": "hist/bonfire_of_the_vanities.jpg",
+   "mov": "in",
+   "txt": "Traz isso para hoje. Uma empresa que fatura bem, mas depende de um único cliente. Uma família que ganha bem, mas gasta tudo. Uma pessoa competente que nunca aprendeu nada além do próprio cargo. Planície sem dique."
+  },
+  {
+   "gravura": "maquiavel2.jpg",
+   "mov": "dir",
+   "txt": "Então a pergunta prática da lição três é: o que, hoje, parece tão seguro na sua vida que você nem pensa em proteger? Muitas vezes é aí que a enchente entra."
+  },
+  {
+   "gravura": "borgia.jpg",
+   "mov": "out",
+   "txt": "Agora o homem que eu te prometi lá no começo. César Bórgia, filho do papa Alexandre Sexto. Para Maquiavel, o exemplo de quem subiu pela sorte, e soube usar a própria força para segurar o que ganhou.",
+   "cap": {
+    "sup": "LIÇÃO 4",
+    "txt": "Bórgia: pensou em tudo, menos nisso"
+   }
+  },
+  {
+   "gravura": "hist/pope_alexander_vi.jpg",
+   "mov": "cima",
+   "txt": "No capítulo sete, ele conta a história. Bórgia ganhou poder graças ao pai. O papa usava a força da Igreja para abrir caminho ao filho na Romanha, no centro da Itália."
+  },
+  {
+   "gravura": "acervo/smk_storm_bakhuizen.jpg",
+   "mov": "esq",
+   "txt": "Mas Bórgia sabia que poder emprestado pelo pai é dique de areia. Então ele tratou de construir a sua própria base: tropas próprias, aliados, governo forte nas cidades que conquistava."
+  },
+  {
+   "gravura": "maquiavel.jpg",
+   "mov": "in",
+   "txt": "Maquiavel conheceu Bórgia de perto, como enviado de Florença. E diz que não saberia dar conselho melhor a um príncipe novo do que o exemplo das ações dele. Ele tinha pensado em tudo."
+  },
+  {
+   "gravura": "acervo/smk_skibbrud_dahl.jpg",
+   "mov": "dir",
+   "txt": "Bom, em quase tudo. Em mil quinhentos e três, o papa Alexandre morreu de repente. E no exato momento em que Bórgia mais precisava estar de pé, ele mesmo estava gravemente doente, quase morrendo."
+  },
+  {
+   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "mov": "out",
+   "txt": "E aqui fecha o mistério do começo. Maquiavel conta que o próprio Bórgia disse a ele que tinha pensado em tudo o que podia acontecer quando o pai morresse. Menos que ele mesmo estaria à beira da morte nessa hora.",
+   "verso": "Tinha pensado em tudo o que poderia acontecer com a morte do pai, menos que ele próprio estaria morrendo.",
+   "ref": "O PRÍNCIPE, CAP. VII"
+  },
+  {
+   "gravura": "hist/pope_julius_ii.jpg",
+   "mov": "cima",
+   "txt": "Doente, ele ainda cometeu um erro. Deixou que fosse eleito papa Júlio Segundo, um inimigo antigo da família. Maquiavel diz que isso foi o fim dele. Em pouco tempo, perdeu quase tudo."
+  },
+  {
+   "gravura": "acervo/smk_vandfald_ruisdael.jpg",
+   "mov": "esq",
+   "txt": "Repara na lição escondida. Bórgia construiu muitos diques, mas todos dependiam de um único ponto: ele mesmo, de pé e saudável no momento certo. Quando esse ponto caiu, a água passou por todos."
+  },
+  {
+   "gravura": "hist/marcus_aurelius.jpg",
+   "mov": "in",
+   "txt": "Na sua vida, qual é o ponto único que, se falhar, leva tudo junto? Às vezes é a sua saúde. Às vezes é um sócio, um cliente, um chefe. Às vezes é só você, que faz tudo sozinho e não ensina ninguém."
+  },
+  {
+   "gravura": "lorenzo.jpg",
+   "mov": "dir",
+   "txt": "Me conta aqui embaixo: qual é o seu ponto único de falha hoje, no trabalho ou em casa? Escreve em uma palavra. Só de dar nome a ele, você já começa o dique.",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "Qual é o seu ponto único?"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "hist/moses.jpg",
+   "mov": "out",
+   "txt": "Agora vamos para o outro lado da moeda. Se a sorte pode derrubar, ela também pode abrir portas. E no capítulo seis Maquiavel fala de Moisés, Ciro, Rômulo e Teseu.",
+   "cap": {
+    "sup": "LIÇÃO 5",
+    "txt": "A ocasião e o preparo"
+   }
+  },
+  {
+   "gravura": "hist/alexander_the_great.jpg",
+   "mov": "cima",
+   "txt": "Ele diz que esses homens não receberam da sorte nada além da ocasião. Uma chance, uma porta aberta. O resto, a forma que deram ao mundo, foi trabalho e força deles.",
+   "verso": "Não receberam da sorte outra coisa senão a ocasião.",
+   "ref": "O PRÍNCIPE, CAP. VI"
+  },
+  {
+   "gravura": "hist/moses.jpg",
+   "mov": "esq",
+   "txt": "E então vem uma frase de mão dupla. Sem a ocasião, a força deles teria se apagado. E sem a força deles, a ocasião teria vindo em vão.",
+   "verso": "Sem a ocasião, a virtude teria se apagado; sem a virtude, a ocasião teria vindo em vão.",
+   "ref": "O PRÍNCIPE, CAP. VI"
+  },
+  {
+   "gravura": "acervo/smk_flod_bjerg_vernet.jpg",
+   "mov": "in",
+   "txt": "Isso é o rio de novo, só que visto pelo outro lado. A mesma água que alaga a planície faz girar o moinho de quem construiu o canal. A diferença não está no rio. Está no preparo."
+  },
+  {
+   "gravura": "acervo/smk_uvejr_gaard_juel.jpg",
+   "mov": "dir",
+   "txt": "Pensa em quantas vezes uma oportunidade apareceu e você não estava pronto. A vaga que pedia um curso que você não fez. O cliente grande que chegou quando seu negócio não dava conta."
+  },
+  {
+   "gravura": "maquiavel2.jpg",
+   "mov": "out",
+   "txt": "A ocasião não avisa quando vem. Por isso o preparo tem que vir antes, sem garantia nenhuma de que vai ser usado. É isso que separa quem tem sorte de quem sabe aproveitar a sorte."
+  },
+  {
+   "gravura": "lorenzo.jpg",
+   "mov": "cima",
+   "txt": "E aqui eu fecho a primeira promessa e já abro outra. Você viu o que derrubou Bórgia. Agora vai ver uma coisa ainda mais traiçoeira: o jeito de agir que te fez vencer pode ser exatamente o que vai te derrubar."
+  },
+  {
+   "gravura": "hist/pope_julius_ii.jpg",
+   "mov": "esq",
+   "txt": "Maquiavel observa algo curioso. Duas pessoas podem agir de jeitos opostos, uma com cuidado, outra com ousadia, e as duas se darem bem. E duas podem agir igual, e uma vencer enquanto a outra cai.",
+   "cap": {
+    "sup": "LIÇÃO 6",
+    "txt": "Ousado ou cauteloso?"
+   }
+  },
+  {
+   "gravura": "acervo/smk_efter_regn_skovgaard.jpg",
+   "mov": "in",
+   "txt": "O que decide, segundo ele, é se o jeito de cada uma combina com o tempo em que ela vive. Feliz é quem tem o modo de agir que combina com o momento. Infeliz é quem age contra o seu tempo.",
+   "verso": "É feliz aquele cujo modo de proceder combina com a qualidade dos tempos.",
+   "ref": "O PRÍNCIPE, CAP. XXV"
+  },
+  {
+   "gravura": "hist/pope_julius_ii.jpg",
+   "mov": "dir",
+   "txt": "O exemplo dele é justamente Júlio Segundo, aquele papa que acabou com Bórgia. Júlio fazia tudo com ímpeto. Não esperava, não negociava muito, ia para cima."
+  },
+  {
+   "gravura": "hist/marcus_equestre.jpg",
+   "mov": "out",
+   "txt": "Em mil quinhentos e seis, ele partiu pessoalmente para tomar Bolonha. Veneza e Espanha não gostaram, mas ficaram paradas, e o rei da França acabou mandando tropas para ajudar, e a jogada deu certo. Um papa mais prudente, diz Maquiavel, nunca teria conseguido."
+  },
+  {
+   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "mov": "cima",
+   "txt": "Mas aí vem o aviso. Júlio morreu antes que os tempos mudassem, e todos os tempos que encontrou pediam ousadia. Se tivessem vindo tempos que pedissem cautela, ele teria caído. Porque nunca mudaria o seu jeito."
+  },
+  {
+   "gravura": "hist/hannibal.jpg",
+   "mov": "esq",
+   "txt": "Nos Discursos, Maquiavel mostra o caso oposto. Quando Aníbal invadiu a Itália, Roma tinha Fábio Máximo, um general famoso pela paciência. Ele evitava a batalha e cansava o inimigo."
+  },
+  {
+   "gravura": "hist/marcus_aurelius.jpg",
+   "mov": "in",
+   "txt": "Na hora certa, essa cautela salvou Roma. Mas quando chegou o momento de atacar e levar a guerra para a África, Fábio foi contra. O jeito dele não servia mais. Roma precisou de outro tipo de homem, Cipião.",
+   "verso": "Fábio procedia com cautela, longe da ousadia romana, e a sorte fez que isso combinasse com os tempos.",
+   "ref": "DISCURSOS, LIVRO III, CAP. 9"
+  },
+  {
+   "gravura": "hist/commodus.jpg",
+   "mov": "dir",
+   "txt": "Repara: ninguém ali era burro. Júlio era ousado, Fábio era paciente, e os dois acertaram. O erro não estava no jeito. Estava em achar que o mesmo jeito serve para sempre."
+  },
+  {
+   "gravura": "maquiavel.jpg",
+   "mov": "out",
+   "txt": "Se essa lição já valeu o seu tempo, segue o Raposa e Leão e assiste a playlist Maquiavel na prática. Toda semana tem Maquiavel na fonte, explicado em linguagem de gente.",
+   "cta": "Segue o <b>Raposa e Leão</b><br>e veja a playlist <b>Maquiavel na prática</b>",
+   "interage": {
+    "tipo": "segue",
+    "txt": "Segue pra próxima lição"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "hist/girolamo_savonarola.jpg",
+   "mov": "cima",
+   "txt": "Então por que é tão difícil mudar? Maquiavel dá duas razões no livro três dos Discursos, capítulo nove. E elas valem para você, para mim e para qualquer chefe.",
+   "cap": {
+    "sup": "LIÇÃO 7",
+    "txt": "O teste dos tempos"
+   }
+  },
+  {
+   "gravura": "acervo/smk_flod_klipper_doughty.jpg",
+   "mov": "esq",
+   "txt": "A primeira: a gente não consegue ir contra aquilo a que a nossa natureza nos inclina. Quem é cuidadoso sente medo de ousar. Quem é ousado sente tédio de esperar.",
+   "verso": "Não podemos nos desviar daquilo a que a natureza nos inclina.",
+   "ref": "DISCURSOS, LIVRO III, CAP. 9"
+  },
+  {
+   "gravura": "hist/arco_severo.jpg",
+   "mov": "in",
+   "txt": "A segunda é ainda mais perigosa: quando um jeito de agir sempre deu certo, é quase impossível convencer a pessoa de que agora ela precisa agir diferente. O sucesso vira uma prisão."
+  },
+  {
+   "gravura": "hist/bonfire_of_the_vanities.jpg",
+   "mov": "dir",
+   "txt": "Maquiavel conhecia um exemplo de perto. Piero Soderini, que governou Florença e foi chefe do próprio Maquiavel, agia sempre com paciência e bondade. Por anos, isso funcionou e ele prosperou."
+  },
+  {
+   "gravura": "acervo/smk_storm_bakhuizen.jpg",
+   "mov": "out",
+   "txt": "Mas quando os tempos pediram firmeza, Soderini não soube mudar. E em mil quinhentos e doze, caiu junto com o governo dele. Os Médici voltaram a Florença."
+  },
+  {
+   "gravura": "acervo/smk_spaakone_wijck.jpg",
+   "mov": "cima",
+   "txt": "Então como saber se o seu jeito ainda combina com o seu tempo? Juntando o que Maquiavel escreveu, dá para fazer um teste simples, de três perguntas, antes de qualquer decisão importante."
+  },
+  {
+   "gravura": "acervo/smk_havn_bakhuizen.jpg",
+   "mov": "esq",
+   "txt": "Primeira pergunta: o que funcionou da última vez, por que funcionou? Foi o meu jeito, ou foi o momento? Se foi o momento, não confie que vai funcionar de novo."
+  },
+  {
+   "gravura": "acervo/smk_flod_ruysdael.jpg",
+   "mov": "in",
+   "txt": "Segunda: este momento pede ousadia ou cautela? E aqui vem o truque: peça para alguém bem diferente de você responder também. Porque você sempre vai enxergar a resposta que combina com o seu jeito."
+  },
+  {
+   "gravura": "acervo/smk_efter_stormen_friedrich.jpg",
+   "mov": "dir",
+   "txt": "Terceira: se o meu jeito de sempre der errado agora, qual seria o plano do jeito oposto? Só de pensar nele, você já não está mais preso a uma única forma de agir."
+  },
+  {
+   "gravura": "maquiavel2.jpg",
+   "mov": "out",
+   "txt": "Esse é o teste que eu te prometi. E repara que ele não manda você virar outra pessoa. Manda você treinar o lado oposto em coisas pequenas, para ter ele à mão quando o rio mudar de curso."
+  },
+  {
+   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "mov": "cima",
+   "txt": "E se mesmo assim ficar em dúvida? Maquiavel dá a opinião pessoal dele no fim do capítulo vinte e cinco: é melhor ser ousado do que cauteloso, porque a sorte costuma favorecer quem age com coragem.",
+   "verso": "É melhor ser impetuoso do que cauteloso.",
+   "ref": "O PRÍNCIPE, CAP. XXV"
+  },
+  {
+   "gravura": "acervo/smk_skibbrud_vernet.jpg",
+   "mov": "esq",
+   "txt": "Só que, depois de tudo o que você viu hoje, dá para entender o que ele quer dizer. Não é ousadia de quem pula no rio sem saber nadar. É ousadia de quem construiu o dique antes."
+  },
+  {
+   "gravura": "lorenzo.jpg",
+   "mov": "in",
+   "txt": "Salva esse vídeo agora. E na próxima vez que você for tomar uma decisão grande, volta nesse trecho e faz as três perguntas. Elas cabem num bilhete na carteira.",
+   "interage": {
+    "tipo": "salva",
+    "txt": "Salva: as três perguntas"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "hist/bonfire_of_the_vanities.jpg",
+   "mov": "dir",
+   "txt": "Agora a promessa maior. Lembra que Soderini caiu em mil quinhentos e doze? Junto com ele caiu um funcionário que tinha trabalhado catorze anos para a república de Florença: Nicolau Maquiavel.",
+   "cap": {
+    "sup": "LIÇÃO 8",
+    "txt": "Quando a sorte virou contra Maquiavel"
+   }
+  },
+  {
+   "gravura": "acervo/smk_skibbrud_dahl.jpg",
+   "mov": "out",
+   "txt": "Ele perdeu o cargo. Meses depois, o nome dele apareceu numa lista de suspeitos de uma conspiração contra os Médici. Foi preso e torturado, mesmo sem prova de que tivesse participado."
+  },
+  {
+   "gravura": "hist/pope_julius_ii.jpg",
+   "mov": "cima",
+   "txt": "E veja que ironia. Quem salvou Maquiavel também foi a sorte. Em mil quinhentos e treze, Giovanni de Médici foi eleito papa, Leão Décimo. Na festa, Florença soltou vários presos, e ele saiu."
+  },
+  {
+   "gravura": "acervo/smk_uvejr_gaard_juel.jpg",
+   "mov": "esq",
+   "txt": "Mas saiu sem nada. Sem emprego, sem dinheiro, sem prestígio. Foi morar numa pequena propriedade no campo, perto de Florença. Para alguém que tinha conversado com reis e papas, era o fundo do poço."
+  },
+  {
+   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "mov": "in",
+   "txt": "Aqui está o que ele fez. Numa carta famosa ao amigo Francesco Vettori, ele conta a rotina. De dia, cuidava do sítio e jogava cartas na taverna com gente simples. Mas à noite, era outra coisa."
+  },
+  {
+   "gravura": "maquiavel.jpg",
+   "mov": "dir",
+   "txt": "À noite, ele tirava a roupa suja de lama, vestia roupas dignas e entrava no escritório para conversar com os grandes da Antiguidade, lendo os livros deles. E foi dessas conversas que nasceu O Príncipe.",
+   "verso": "À noite, visto roupas dignas e entro nas antigas cortes dos homens antigos.",
+   "ref": "CARTA A FRANCESCO VETTORI, 1513"
+  },
+  {
+   "gravura": "acervo/smk_vandfald_ruisdael.jpg",
+   "mov": "out",
+   "txt": "Repara: ele não podia controlar a enchente que levou a vida dele. Mas tinha uma metade. E usou essa metade para construir um dos livros de política mais lidos da história."
+  },
+  {
+   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "mov": "cima",
+   "txt": "Na dedicatória de O Príncipe, ele fala sem vergonha da própria situação. Diz que sofre, sem merecer, uma grande e contínua maldade da sorte. Ele nomeia o rio. Mas não para de construir.",
+   "verso": "Suporto, sem merecer, uma grande e contínua malignidade da sorte.",
+   "ref": "O PRÍNCIPE, DEDICATÓRIA"
+  },
+  {
+   "gravura": "acervo/smk_efter_stormen_friedrich.jpg",
+   "mov": "esq",
+   "txt": "Essa é a maior lição do vídeo. A sorte vai bater em você. Pode ser demissão, doença, uma perda, uma crise no país. Isso não é sinal de fracasso. É o rio fazendo o que rio faz."
+  },
+  {
+   "gravura": "acervo/smk_efter_regn_skovgaard.jpg",
+   "mov": "in",
+   "txt": "A pergunta nunca é se a água vai subir. É o que você constrói no tempo calmo, e o que você faz com a sua metade quando a água já subiu. Maquiavel fez as duas coisas."
+  },
+  {
+   "gravura": "lorenzo.jpg",
+   "mov": "dir",
+   "txt": "Agora me responde nos comentários: qual dique você vai começar esta semana? Reserva, habilidade, amizade ou saúde. Escreve o nome dele. Quem escreve, tende a cumprir.",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "Qual dique você começa?"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "hist/marcus_aurelius.jpg",
+   "mov": "out",
+   "txt": "E se você conhece alguém que acabou de levar uma pancada da vida, manda esse vídeo pra essa pessoa. Às vezes ela só precisa ouvir que ainda tem uma metade nas mãos."
+  },
+  {
+   "gravura": "acervo/smk_borg_flod_haagen.jpg",
+   "mov": "cima",
+   "txt": "Resumindo. Metade é sorte, metade é sua. Dique se faz no tempo calmo. Riqueza sem defesa é planície. Cuidado com o ponto único. E o jeito que te trouxe até aqui pode não ser o que te leva adiante."
+  },
+  {
+   "gravura": "maquiavel2.jpg",
+   "mov": "esq",
+   "txt": "No próximo vídeo da playlist Maquiavel na prática, você continua aprendendo a enxergar o jogo do poder e a se proteger dele. A sorte é um rio. Você escolhe se é a planície ou o dique. Até a próxima lição, raposa.",
+   "cta": "Até a próxima <b>lição</b>,<br>raposa",
+   "selo": "RAPOSA<br>E LEÃO"
+  }
+ ]
+}
