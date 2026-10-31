@@ -18,7 +18,7 @@
      "s": 100,
      "f": "cg",
      "c": "",
-     "w": "rio"
+     "w": "rio#1"
     },
     {
      "h": "arrasta tudo",
@@ -26,7 +26,7 @@
      "s": 150,
      "f": "ant",
      "c": "",
-     "w": "arrasta",
+     "w": "arrasta#1",
      "a": "slam",
      "box": "red"
     }
@@ -35,21 +35,31 @@
   },
   {
    "t": "duo",
-   "w": "Mas",
+   "w": "Mas#1",
    "dir": "v",
    "a": {
     "k": "Tempo bom",
     "s": "construa o dique",
     "c": "#E2BE4A",
-    "w": "construiu",
+    "w": "construiu#1",
     "bar": "steps"
    },
    "b": {
     "k": "Tempestade",
     "s": "o dique segura",
     "c": "#EFE6D2",
-    "w": "limita",
+    "w": "limita#1",
     "bar": "full"
+   }
+  },
+  {
+   "t": "conversa",
+   "w": "E#1",
+   "img": "../img/hist/piazza_della_signoria.jpg",
+   "h": "Qual é o<br>seu dique?",
+   "interage": {
+    "tipo": "checkin",
+    "txt": "GUARDEI"
    }
   },
   {
@@ -61,7 +71,7 @@
      "s": 150,
      "f": "ant",
      "c": "",
-     "w": "reserva"
+     "w": "Reserva#1"
     },
     {
      "h": "Preparo",
@@ -69,7 +79,7 @@
      "s": 150,
      "f": "ant",
      "c": "",
-     "w": "preparo"
+     "w": "preparo#1"
     },
     {
      "h": "Contatos",
@@ -77,7 +87,7 @@
      "s": 150,
      "f": "ant",
      "c": "",
-     "w": "contatos"
+     "w": "contatos#1"
     },
     {
      "h": "se faz na calmaria",
@@ -85,7 +95,7 @@
      "s": 100,
      "f": "cg",
      "c": "gold",
-     "w": "calmaria"
+     "w": "calmaria#1"
     },
     {
      "h": "Na tempestade é tarde.",
@@ -93,14 +103,33 @@
      "s": 90,
      "f": "ant",
      "c": "red",
-     "w": "tempestade"
+     "w": "tempestade#1"
     }
    ],
-   "w": "Reserva"
+   "w": "Reserva#1"
+  },
+  {
+   "t": "conversa",
+   "w": "Escreve#1",
+   "img": "../img/borgia.jpg",
+   "h": "Seu dique<br>da semana",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "RESPONDE NOS COMENTÁRIOS",
+    "digita": "RESERVA"
+   }
   },
   {
    "t": "assinatura",
-   "apos": "tarde"
+   "apos": "contatos#2",
+   "frase": "Construa na calmaria.",
+   "interage": {
+    "tipo": "segue",
+    "txt": "NÃO PERCA A PRÓXIMA"
+   }
   }
- ]
+ ],
+ "abre": "flash",
+ "pulso": 1.25,
+ "batida": "duplo"
 }
