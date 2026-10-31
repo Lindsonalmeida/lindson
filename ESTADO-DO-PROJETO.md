@@ -49,7 +49,7 @@ Processo completo em `conteudo/youtube/passaporte/PROCESSO.md` e `conteudo/youtu
 
 ### Raposa e Leão
 - App próprio criado com os 30 Shorts e 11 longos. Os textos de publicação ficam em `shorts/NN/publicar.json` e `longos/NN/publicar.json`.
-- **Shorts refeitos com a voz nova:** só o 01. A fila `raposa-e-leao/motor/lote.sh shorts` está pausada.
+- **Shorts refeitos com a voz nova:** 01 a 18 (07-18 em 31/10, enviados como assets `raposa-short-NN.mp4` no app https://claude.ai/artifact/2k4SSuvALdqXDcXnBQMVZH; a página do app ainda aponta para os arquivos antigos). Faltam 19 a 30: `lote.sh shorts 19 … 30`.
 - **5 longos novos** (próximo passo, depois do Passaporte). Os temas:
   1. O Príncipe explicado
   2. Os Médici
