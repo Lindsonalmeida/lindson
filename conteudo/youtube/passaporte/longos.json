@@ -1053,27 +1053,6 @@
   ]
  },
  {
-  "id": "longo-03",
-  "titulo": "A história da Bíblia inteira em uma viagem só (de Gênesis a Apocalipse)",
-  "formato": "longo",
-  "legenda": "A Bíblia tem 66 livros (73 na católica), mas conta uma história só. Neste vídeo você faz a viagem inteira em 8 paradas: o começo, a família escolhida, a saída do Egito, a terra e os reis, o exílio e os profetas, Jesus, a Igreja e o Apocalipse.\n\nE vai perceber o fio que liga tudo: a promessa de Gênesis 3.15 cumprida em Jesus.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📖 Observação: os versículos aparecem em paráfrase curta, com a referência. Confira na sua tradução. As datas e a divisão em paradas são um resumo didático.\n\n🎫 Quer começar a ler com rota? Baixe grátis a Rota da Primeira Viagem no link da descrição, ou comente ROTA.\n\n#HistóriaDaBíblia #BíbliaExplicada #ResumoDaBíblia #PassaporteDaBíblia",
-  "comentario": "📌 Em qual parada da viagem você está lendo hoje? Comente o número da parada (1 a 8). Quando terminar um livro, volte e comente CARIMBEI.",
-  "capaA": {
-   "texto": "A Bíblia INTEIRA em 1 viagem",
-   "destaque": "INTEIRA",
-   "icone": "assets/Compass/Flat/compass_flat.svg",
-   "estilo": "A: ícone grande + texto"
-  },
-  "capaB": {
-   "texto": "De Gênesis a Apocalipse",
-   "destaque": "Apocalipse",
-   "icone": "assets/Scroll/Flat/scroll_flat.svg",
-   "estilo": "B: começo e fim da Bíblia"
-  },
-  "gravA": "020",
-  "gravB": "004"
- },
- {
   "id": "longo-04",
   "titulo": "Os 4 Evangelhos: qual ler primeiro?",
   "formato": "longo",
@@ -1091,6 +1070,25 @@
   },
   "gravA": "063",
   "gravB": "078"
+ },
+ {
+  "id": "longo-03",
+  "titulo": "A história da Bíblia inteira numa viagem só",
+  "formato": "longo",
+  "legenda": "A história da Bíblia inteira, de Gênesis a Apocalipse, em nove paradas: a criação e a queda, a família de Abraão, a saída do Egito, a terra prometida, o trono de Davi, o exílio e os profetas, Jesus, a Igreja e a nova criação. Um resumo da Bíblia pra quem sempre se perdeu na leitura.\n\nVocê vai seguir o fio que liga o Antigo e o Novo Testamento: a promessa de Gênesis 3.15, a bênção de Gênesis 12.3 e o trono prometido em 2 Samuel 7, até a árvore da vida de Apocalipse 22.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📖 Observação: os versículos aparecem em paráfrase curta, com a referência. Confira na sua tradução. A divisão em paradas é um resumo didático.\n\n🎫 Quer ler a Bíblia com rota, sem se perder? Baixe grátis a Rota da Primeira Viagem no link da descrição, ou comente ROTA.\n\n#HistóriaDaBíblia #ResumoDaBíblia #AntigoTestamento #EstudoBíblico #PassaporteDaBíblia",
+  "comentario": "📌 Das três perguntas do vídeo (a promessa do jardim, a família escolhida e o lugar onde a Bíblia termina), qual resposta você não conhecia? Comenta aqui. E diz em qual parada você está lendo hoje (1 a 9).",
+  "capaA": {
+   "texto": "Uma história só",
+   "cor": "#FFB547",
+   "estilo": "clara"
+  },
+  "capaB": {
+   "texto": "Tudo se liga",
+   "cor": "#3FD0D4",
+   "estilo": "clara"
+  },
+  "gravA": "001",
+  "gravB": "093"
  },
  {
   "id": "longo-05",
