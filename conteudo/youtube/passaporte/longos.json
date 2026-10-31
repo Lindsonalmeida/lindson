@@ -1075,23 +1075,21 @@
  },
  {
   "id": "longo-04",
-  "titulo": "Os 4 Evangelhos: qual a diferença e qual ler primeiro?",
+  "titulo": "Os 4 Evangelhos: qual ler primeiro?",
   "formato": "longo",
-  "legenda": "Por que a Bíblia tem 4 Evangelhos? Neste vídeo você entende a diferença entre Mateus, Marcos, Lucas e João: quem escreveu, pra quem, o que cada um quer que você veja em Jesus. E no fim, a ordem pra começar se você nunca leu.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📖 Observação: os versículos aparecem em paráfrase curta, com a referência. Confira na sua tradução. A autoria dos Evangelhos segue a tradição antiga da Igreja.\n\n🎫 A Rota da Primeira Viagem começa por Marcos, com um plano de 7 dias. É grátis: link na descrição ou comente ROTA.\n\n#Evangelhos #BíbliaParaIniciantes #EstudoBíblico #PassaporteDaBíblia",
-  "comentario": "📌 Qual Evangelho você vai ler primeiro: Mateus, Marcos, Lucas ou João? Comente o nome. Quando terminar, volte e comente CARIMBEI.",
+  "legenda": "Por que a Bíblia tem 4 Evangelhos e não um só? Neste vídeo você entende a diferença entre Mateus, Marcos, Lucas e João: quem escreveu, pra quem escreveu e o que cada um quer que você veja em Jesus. Você também descobre o final de Marcos que tem nota de rodapé, o mistério dos anjos no túmulo vazio e as sete frases de Jesus na cruz espalhadas pelos quatro.\n\nNo fim, você recebe uma ordem simples pra começar a ler os Evangelhos, mesmo que nunca tenha aberto a Bíblia.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📖 Observação: os versículos aparecem em paráfrase curta, com a referência. Confira na sua tradução. A autoria dos Evangelhos segue a tradição antiga da Igreja.\n\n🎫 A Rota da Primeira Viagem começa por Marcos, com um plano de 7 dias. É grátis: baixe no link da descrição ou comente ROTA.\n\n#Evangelhos #ComoLerABíblia #MateusMarcosLucasJoão #EstudoBíblico #PassaporteDaBíblia",
+  "comentario": "📌 Seu palpite do começo bateu? Qual Evangelho você vai ler primeiro: Mateus, Marcos, Lucas ou João? Comente o nome. Quando terminar, volte e comente CARIMBEI.",
   "capaA": {
-   "texto": "Qual Evangelho ler PRIMEIRO?",
-   "destaque": "PRIMEIRO",
-   "icone": "assets/Books/Flat/books_flat.svg",
-   "estilo": "A: ícone grande + texto"
+   "texto": "Qual primeiro?",
+   "cor": "#FFB547",
+   "estilo": "clara"
   },
   "capaB": {
-   "texto": "Não comece por Mateus",
-   "destaque": "Mateus",
-   "icone": "assets/Open book/Flat/open_book_flat.svg",
-   "estilo": "B: frase que contraria o costume"
+   "texto": "Quatro retratos",
+   "cor": "#3FD0D4",
+   "estilo": "clara"
   },
-  "gravA": "082",
+  "gravA": "063",
   "gravB": "078"
  },
  {

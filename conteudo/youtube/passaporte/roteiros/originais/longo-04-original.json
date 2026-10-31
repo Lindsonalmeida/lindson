@@ -1,0 +1,361 @@
+{
+ "id": "longo-04",
+ "formato": "longo",
+ "titulo": "Os 4 Evangelhos: qual a diferença e qual ler primeiro?",
+ "legenda": "Por que a Bíblia tem 4 Evangelhos? Neste vídeo você entende a diferença entre Mateus, Marcos, Lucas e João: quem escreveu, pra quem, o que cada um quer que você veja em Jesus. E no fim, a ordem pra começar se você nunca leu.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📖 Observação: os versículos aparecem em paráfrase curta, com a referência. Confira na sua tradução. A autoria dos Evangelhos segue a tradição antiga da Igreja.\n\n🎫 A Rota da Primeira Viagem começa por Marcos, com um plano de 7 dias. É grátis: link na descrição ou comente ROTA.\n\n#Evangelhos #BíbliaParaIniciantes #EstudoBíblico #PassaporteDaBíblia",
+ "comentario": "📌 Qual Evangelho você vai ler primeiro: Mateus, Marcos, Lucas ou João? Comente o nome. Quando terminar, volte e comente CARIMBEI.",
+ "titulo_tela": {
+  "sup": "PASSAPORTE DA BÍBLIA",
+  "txt": "Os 4 Evangelhos",
+  "dur": 3.2
+ },
+ "cenas": [
+  {
+   "gravura": "082",
+   "mov": "in",
+   "txt": "Por que a Bíblia tem quatro Evangelhos contando a vida de Jesus? Não bastava um? E se são quatro, qual você deveria ler primeiro?"
+  },
+  {
+   "gravura": "061",
+   "mov": "esq",
+   "txt": "Muita gente abre Mateus, dá de cara com uma lista de nomes no capítulo 1 e desiste. Ou lê os quatro em sequência e acha que está lendo a mesma coisa quatro vezes."
+  },
+  {
+   "gravura": "063",
+   "mov": "out",
+   "txt": "Hoje você vai entender a diferença entre Mateus, Marcos, Lucas e João. Quem escreveu, pra quem, e o que cada um quer que você veja em Jesus. E no fim, a ordem pra começar."
+  },
+  {
+   "gravura": "092",
+   "mov": "dir",
+   "txt": "Pensa assim: quatro pessoas contando a mesma viagem, cada uma do seu jeito. Uma conta os detalhes, outra conta correndo, outra conta pra quem é de fora, outra conta o sentido de tudo. Juntas, elas mostram mais do que uma sozinha."
+  },
+  {
+   "gravura": "057",
+   "mov": "in",
+   "txt": "Primeiro: Evangelho quer dizer boa notícia. Não é uma biografia moderna, com infância, adolescência e todos os detalhes. É o anúncio de quem Jesus é e do que ele fez.",
+   "cap": {
+    "sup": "ANTES DE TUDO",
+    "txt": "O que é um Evangelho"
+   }
+  },
+  {
+   "gravura": "069",
+   "mov": "esq",
+   "txt": "Por isso os quatro dedicam tanto espaço à última semana de Jesus. A cruz e a ressurreição são o centro da notícia."
+  },
+  {
+   "gravura": "066",
+   "mov": "out",
+   "txt": "Mateus, Marcos e Lucas são parecidos entre si. Contam muitas histórias iguais, às vezes com as mesmas palavras. Por isso são chamados de Evangelhos sinóticos, que quer dizer: vistos juntos."
+  },
+  {
+   "gravura": "078",
+   "mov": "dir",
+   "txt": "João é diferente. Ele traz muitas histórias que os outros não contam, como a mulher samaritana no poço e a ressurreição de Lázaro."
+  },
+  {
+   "gravura": "053",
+   "mov": "esq",
+   "txt": "Antes de começar: qual Evangelho você acha que é a sua cara? Chuta aqui nos comentários. No fim você confere.",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "Chuta: qual é o seu?"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "058",
+   "mov": "in",
+   "txt": "Começando por Mateus. Segundo a tradição da Igreja, foi escrito por Mateus, o cobrador de impostos que largou tudo pra seguir Jesus.",
+   "cap": {
+    "sup": "EVANGELHO 1",
+    "txt": "Mateus: o Rei prometido"
+   }
+  },
+  {
+   "gravura": "061",
+   "mov": "esq",
+   "txt": "Ele escreve pensando em quem conhecia o Antigo Testamento. Por isso começa com aquela lista de nomes: Jesus, filho de Davi, filho de Abraão. É o jeito de dizer: as promessas chegaram aqui."
+  },
+  {
+   "gravura": "060",
+   "mov": "dir",
+   "txt": "Mateus mostra paralelos com Moisés. Assim como no Egito, um rei manda matar os meninos, e o menino escapa. E Jesus sai do Egito, como Israel saiu."
+  },
+  {
+   "gravura": "059",
+   "mov": "out",
+   "txt": "Mateus cita as profecias o tempo todo. Muitas vezes ele diz: isso aconteceu pra se cumprir o que o profeta tinha dito. Repara nessa frase quando for ler."
+  },
+  {
+   "gravura": "063",
+   "mov": "in",
+   "txt": "E Mateus junta os ensinos de Jesus em grandes discursos. O mais famoso é o Sermão do Monte, nos capítulos 5 a 7, que começa com as bem-aventuranças.",
+   "verso": "Bem-aventurados os pobres em espírito, pois deles é o Reino dos céus.",
+   "ref": "MATEUS 5.3"
+  },
+  {
+   "gravura": "065",
+   "mov": "cima",
+   "txt": "O Jesus de Mateus é o Rei e o Mestre. Aquele que cumpre a lei e ensina com autoridade."
+  },
+  {
+   "gravura": "093",
+   "mov": "out",
+   "txt": "E Mateus termina com Jesus mandando os discípulos a todas as nações, com uma promessa.",
+   "verso": "Eu estou com vocês todos os dias, até o fim dos tempos.",
+   "ref": "MATEUS 28.20"
+  },
+  {
+   "gravura": "053",
+   "mov": "in",
+   "txt": "Mateus é ótimo pra quem quer entender como o Antigo e o Novo Testamento se ligam. Ele tem 28 capítulos."
+  },
+  {
+   "gravura": "063",
+   "mov": "out",
+   "txt": "Mateus fechado. Tá comigo até aqui? Escreve: rei. Agora vem o mais rápido dos quatro.",
+   "interage": {
+    "tipo": "checkin",
+    "txt": "Escreve: rei"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "064",
+   "mov": "in",
+   "txt": "Agora, Marcos. É o mais curto dos quatro: 16 capítulos. A tradição antiga liga esse Evangelho a Marcos, que teria registrado o que ouviu do apóstolo Pedro.",
+   "cap": {
+    "sup": "EVANGELHO 2",
+    "txt": "Marcos: o Servo em ação"
+   }
+  },
+  {
+   "gravura": "062",
+   "mov": "esq",
+   "txt": "Marcos não conta o nascimento de Jesus. Ele começa com Jesus já adulto e vai direto pra ação."
+  },
+  {
+   "gravura": "068",
+   "mov": "out",
+   "txt": "O texto é rápido. Uma palavra aparece muito: logo. Logo Jesus foi, logo curou, logo saiu. Parece que Marcos está com pressa de te mostrar quem Jesus é."
+  },
+  {
+   "gravura": "072",
+   "mov": "dir",
+   "txt": "E tem uma pergunta que atravessa o livro: quem é este? Os discípulos não entendem, a família não entende, os líderes não entendem."
+  },
+  {
+   "gravura": "065",
+   "mov": "in",
+   "txt": "Muitas vezes, depois de um milagre, Jesus pede pra pessoa não contar pra ninguém. Ele não queria ser seguido só como alguém que faz milagres. O caminho dele passava pela cruz."
+  },
+  {
+   "gravura": "088",
+   "mov": "out",
+   "txt": "E quem diz a resposta em voz alta é um soldado romano, aos pés da cruz.",
+   "verso": "Verdadeiramente este homem era o Filho de Deus.",
+   "ref": "MARCOS 15.39"
+  },
+  {
+   "gravura": "086",
+   "mov": "cima",
+   "txt": "O versículo que resume Marcos mostra Jesus como servo: ele não veio pra ser servido, mas pra servir e dar a vida em resgate de muitos.",
+   "verso": "O Filho do Homem não veio para ser servido, mas para servir.",
+   "ref": "MARCOS 10.45"
+  },
+  {
+   "gravura": "053",
+   "mov": "dir",
+   "txt": "Marcos é ótimo pra quem nunca leu a Bíblia. Dá pra ler em uma semana, uns dois capítulos por dia."
+  },
+  {
+   "gravura": "092",
+   "mov": "in",
+   "txt": "Pausa rápida: a Rota da Primeira Viagem começa justamente por Marcos, com um plano de sete dias. É grátis. Comenta ROTA ou pega no link da descrição.",
+   "cta": "Comenta <b>ROTA</b><br>e receba a rota grátis"
+  },
+  {
+   "gravura": "073",
+   "mov": "in",
+   "txt": "Agora, Lucas. O autor era companheiro de viagem de Paulo, e Paulo chama Lucas de médico amado. Ele não foi um dos doze apóstolos.",
+   "cap": {
+    "sup": "EVANGELHO 3",
+    "txt": "Lucas: o Salvador de todos"
+   }
+  },
+  {
+   "gravura": "061",
+   "mov": "out",
+   "txt": "Lucas abre o livro dizendo que investigou tudo com cuidado e escreveu em ordem, pra um homem chamado Teófilo.",
+   "verso": "Investiguei tudo cuidadosamente, desde o começo.",
+   "ref": "LUCAS 1.3"
+  },
+  {
+   "gravura": "057",
+   "mov": "esq",
+   "txt": "É Lucas quem conta o nascimento com mais detalhes: o anjo visitando Maria, a manjedoura, os pastores no campo."
+  },
+  {
+   "gravura": "074",
+   "mov": "dir",
+   "txt": "E várias parábolas famosas só aparecem em Lucas: o bom samaritano, o filho pródigo, o rico e Lázaro."
+  },
+  {
+   "gravura": "079",
+   "mov": "in",
+   "txt": "Lucas mostra Jesus perto de quem estava à margem: pobres, mulheres, estrangeiros, pecadores conhecidos e cobradores de impostos."
+  },
+  {
+   "gravura": "076",
+   "mov": "out",
+   "txt": "O versículo-chave de Lucas resume a missão de Jesus.",
+   "verso": "O Filho do Homem veio buscar e salvar o que estava perdido.",
+   "ref": "LUCAS 19.10"
+  },
+  {
+   "gravura": "092",
+   "mov": "cima",
+   "txt": "E Lucas tem continuação: o livro de Atos, do mesmo autor. Lucas conta o que Jesus começou a fazer e a ensinar. Atos conta o que ele continuou fazendo pela Igreja."
+  },
+  {
+   "gravura": "092",
+   "mov": "in",
+   "txt": "Três Evangelhos vistos. Se está valendo a pena, segue o canal, que ainda vem a resposta do título.",
+   "interage": {
+    "tipo": "segue",
+    "txt": "Ainda vem a resposta"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "078",
+   "mov": "in",
+   "txt": "Por fim, João. A tradição atribui esse Evangelho ao apóstolo João, o discípulo amado. E ele é bem diferente dos outros três.",
+   "cap": {
+    "sup": "EVANGELHO 4",
+    "txt": "João: o Filho de Deus"
+   }
+  },
+  {
+   "gravura": "001",
+   "mov": "esq",
+   "txt": "Repara como ele começa: não em Belém, mas antes de tudo. É um eco de Gênesis 1. Antes de nascer em Belém, Jesus já existia.",
+   "verso": "No princípio era o Verbo, e o Verbo era Deus.",
+   "ref": "JOÃO 1.1"
+  },
+  {
+   "gravura": "070",
+   "mov": "out",
+   "txt": "João organiza o livro em sinais: milagres que apontam pra quem Jesus é. A água virando vinho, o cego de nascença, a ressurreição de Lázaro."
+  },
+  {
+   "gravura": "080",
+   "mov": "dir",
+   "txt": "E Jesus fala de si mesmo com frases que começam com Eu sou: eu sou o pão da vida, a luz do mundo, o bom pastor, a ressurreição e a vida, o caminho."
+  },
+  {
+   "gravura": "077",
+   "mov": "in",
+   "txt": "João também tem conversas longas e pessoais. Nicodemos, de noite. A mulher samaritana, ao meio-dia, no poço."
+  },
+  {
+   "gravura": "083",
+   "mov": "out",
+   "txt": "E ele dedica vários capítulos à última noite antes da cruz: Jesus lava os pés dos discípulos, consola, promete o Espírito Santo e ora por eles."
+  },
+  {
+   "gravura": "091",
+   "mov": "cima",
+   "txt": "E João diz com todas as letras por que escreveu: pra que você creia, e crendo, tenha vida.",
+   "verso": "Estes foram escritos para que vocês creiam que Jesus é o Cristo, o Filho de Deus.",
+   "ref": "JOÃO 20.31"
+  },
+  {
+   "gravura": "066",
+   "mov": "in",
+   "txt": "Uma dúvida comum: se os quatro contam a mesma história, por que tem detalhes diferentes? Um fala de um anjo no túmulo, outro fala de dois.",
+   "cap": {
+    "sup": "PERGUNTA COMUM",
+    "txt": "E as diferenças?"
+   }
+  },
+  {
+   "gravura": "092",
+   "mov": "esq",
+   "txt": "Pensa em testemunhas de um mesmo acontecimento. Cada uma destaca o que achou mais importante. Se todas contassem exatamente igual, palavra por palavra, aí sim seria estranho."
+  },
+  {
+   "gravura": "049",
+   "mov": "out",
+   "txt": "Os quatro concordam no centro: Jesus ensinou, curou, foi crucificado e ressuscitou. As diferenças mostram ângulos, não histórias diferentes."
+  },
+  {
+   "gravura": "053",
+   "mov": "dir",
+   "txt": "Você já reparou alguma diferença lendo os Evangelhos? Conta aqui qual foi. Essas descobertas ajudam muita gente.",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "Qual diferença você já notou?"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "020",
+   "mov": "in",
+   "txt": "Agora, a pergunta do título: por qual começar?",
+   "cap": {
+    "sup": "A ROTA",
+    "txt": "Qual ler primeiro"
+   }
+  },
+  {
+   "gravura": "064",
+   "mov": "esq",
+   "txt": "Se você nunca leu a Bíblia, comece por Marcos. É curto, rápido e te dá a história inteira de Jesus em poucos dias."
+  },
+  {
+   "gravura": "078",
+   "mov": "out",
+   "txt": "Depois, vá pra João. Você já conhece a história, e João te mostra o sentido dela: quem Jesus é."
+  },
+  {
+   "gravura": "074",
+   "mov": "dir",
+   "txt": "Em seguida, Lucas, que emenda direto em Atos. Você vê Jesus e depois a Igreja nascendo."
+  },
+  {
+   "gravura": "061",
+   "mov": "in",
+   "txt": "E por último Mateus, quando você já estiver pronto pra ligar tudo com o Antigo Testamento."
+  },
+  {
+   "gravura": "053",
+   "mov": "out",
+   "txt": "Essa é a ordem da Rota da Primeira Viagem. Mas se você prefere seguir a ordem da Bíblia, tudo bem. O importante é ler com uma pergunta em mente: o que esse Evangelho quer que eu veja em Jesus?"
+  },
+  {
+   "gravura": "069",
+   "mov": "cima",
+   "txt": "Resumindo: Mateus mostra o Rei prometido. Marcos, o Servo em ação. Lucas, o Salvador de todos. João, o Filho de Deus. Quatro retratos de uma pessoa só."
+  },
+  {
+   "gravura": "061",
+   "mov": "in",
+   "txt": "Tem alguém que quer começar a ler a Bíblia e não sabe por onde? Manda esse vídeo. Essa ordem pode ajudar.",
+   "interage": {
+    "tipo": "manda",
+    "txt": "Manda pra quem quer começar"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "093",
+   "mov": "out",
+   "txt": "No próximo vídeo, a gente abre Marcos 1 juntos. Comenta qual Evangelho você vai ler primeiro. Até a próxima parada, viajante da Palavra.",
+   "cta": "Até a próxima <b>parada</b>,<br>viajante",
+   "selo": "PASSA<br>PORTE"
+  }
+ ]
+}

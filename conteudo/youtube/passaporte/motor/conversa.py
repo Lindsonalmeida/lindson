@@ -74,7 +74,9 @@ ABRE = {
 }
 
 d = json.load(open(ARQ))
+PROPRIOS = {os.path.basename(f)[:-5] for f in __import__('glob').glob(os.path.join(D, '..', 'roteiros', 'longo-*.json'))}  # já trazem a conversa
 for v in d:
+    if v['id'] in PROPRIOS: continue
     k = v['id']; cs = [c for c in v['cenas'] if not c.get('conv')]
     for c in cs:
         if 'txt0' in c: c['txt'] = c.pop('txt0')
