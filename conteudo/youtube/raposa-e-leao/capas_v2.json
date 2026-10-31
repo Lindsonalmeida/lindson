@@ -1,4 +1,32 @@
 {
+ "longo-11": {
+  "A": {
+   "estilo": "close",
+   "grav": "hist/commodus.jpg",
+   "foco": [
+    0.47,
+    0.17
+   ],
+   "zoom": 0.42,
+   "txt": "DOIS ERROS <b>FATAIS</b>",
+   "lado": "dir",
+   "tag": "O PRÍNCIPE EXPLICADO",
+   "marca": "RAPOSA E LEÃO"
+  },
+  "B": {
+   "estilo": "close",
+   "grav": "hist/marcus_aurelius.jpg",
+   "foco": [
+    0.36,
+    0.3
+   ],
+   "zoom": 0.7,
+   "txt": "BOM NÃO <b>BASTA</b>",
+   "lado": "esq",
+   "tag": "O PRÍNCIPE EXPLICADO",
+   "marca": "RAPOSA E LEÃO"
+  }
+ },
  "longo-12": {
   "A": {
    "estilo": "close",
