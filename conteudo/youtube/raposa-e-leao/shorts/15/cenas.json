@@ -18,7 +18,7 @@
      "s": 110,
      "f": "cg",
      "c": "",
-     "w": "ofensa"
+     "w": "ofensa#1"
     },
     {
      "h": "Não.",
@@ -26,7 +26,7 @@
      "s": 220,
      "f": "ant",
      "c": "red",
-     "w": "engana",
+     "w": "engana#1",
      "a": "slam"
     }
    ],
@@ -49,11 +49,21 @@
      "s": 120,
      "f": "ant",
      "c": "",
-     "w": "confiar"
+     "w": "confiar#1"
     }
    ],
-   "w": "César",
+   "w": "César#1",
    "bg": "num:VII"
+  },
+  {
+   "t": "conversa",
+   "w": "Já#1",
+   "img": "../img/maquiavel2.jpg",
+   "h": "Sorri, mas<br>não esquece",
+   "interage": {
+    "tipo": "checkin",
+    "txt": "JÁ REPAREI"
+   }
   },
   {
    "t": "stack",
@@ -64,7 +74,7 @@
      "s": 110,
      "f": "ant",
      "c": "",
-     "w": "aceita"
+     "w": "aceita#1"
     },
     {
      "h": "Agradece.",
@@ -72,7 +82,7 @@
      "s": 110,
      "f": "ant",
      "c": "",
-     "w": "agradece"
+     "w": "agradece#1"
     },
     {
      "h": "E lembra.",
@@ -80,11 +90,11 @@
      "s": 200,
      "f": "ant",
      "c": "gold",
-     "w": "lembra",
+     "w": "lembra#1",
      "a": "slam"
     }
    ],
-   "w": "A"
+   "w": "A#1"
   },
   {
    "t": "stack",
@@ -95,7 +105,7 @@
      "s": 90,
      "f": "cg",
      "c": "dim",
-     "w": "antes"
+     "w": "Antes#1"
     },
     {
      "h": "pense<br>duas vezes",
@@ -103,15 +113,29 @@
      "s": 150,
      "f": "ant",
      "c": "gold",
-     "w": "pense"
+     "w": "pense#1"
     }
    ],
-   "w": "Antes",
+   "w": "Antes#1",
    "bg": "foto:top:640px;bottom:-320px"
   },
   {
+   "t": "conversa",
+   "w": "Se#2",
+   "img": "../img/hist/caracalla.jpg",
+   "h": "Pensou em<br>alguém?",
+   "interage": {
+    "tipo": "segue",
+    "txt": "GOSTOU? ENTÃO…"
+   }
+  },
+  {
    "t": "assinatura",
-   "apos": "vezes"
+   "apos": "real.#1",
+   "frase": "Favor não apaga ferida."
   }
- ]
+ ],
+ "abre": "tremor",
+ "pulso": 0.95,
+ "batida": "duplo"
 }
