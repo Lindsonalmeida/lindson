@@ -65,6 +65,7 @@ Processo completo em `conteudo/youtube/passaporte/PROCESSO.md` e `conteudo/youtu
 - **Gravuras de Doré:** `https://www.gutenberg.org/cache/epub/8710/pg8710-h.zip`, pasta `images/` (já numeradas `001.jpg`…; batem com `dore/MAPA.md`).
 - **Acervo do Raposa:** `raposa-e-leao/motor/acervo_faltantes.py` baixa só as imagens que os roteiros 12-16 usam (título exato do `creditos.json` ou busca pela obra) e registra o crédito. O Wikimedia limita a 429: o script espera e tenta de novo.
 - **Fila do Passaporte:** longos 06, 07 e 08 (mesmos passos do `lote7.sh`, sem refazer 05 e 09). Cada longo leva ~1h20 a 1h40 em 4 núcleos. Rode desacoplado (`setsid nohup … &`): tarefas em segundo plano da sessão morrem em 2 h. `RETOMAR=1` continua do último quadro.
+- **Apps únicos desta conta (31/10, 12h UTC):** Passaporte https://claude.ai/artifact/CT3Z4M3yrzGrqCt3nh95ak (`ativos-novo.json`, `python3 app_pv.py ../ativos-novo.json`) e Raposa https://claude.ai/artifact/2k4SSuvALdqXDcXnBQMVZH (`ATIVOS=../ativos-novo.json python3 app_rl.py`). No app do Raposa já estão os Shorts 07-18 com a voz nova. Em renderização em sessões filhas (tag `canais-dark-render`): Passaporte shorts 02-20 e longos 03, 04, 07, 08; Raposa shorts 19-30, longos 06-11 e 12-16 (a Wikimedia bloqueou o IP da sessão principal, então o acervo dos 12-16 está numa sessão nova).
 - **Depois:** longos 12-16 do Raposa (`filas/lote_rl.sh`) e a fila de refazer com a voz nova (`filas/lote8.sh` e `raposa-e-leao/motor/lote.sh shorts`). Os vídeos ficam fora do Git.
 
 ### Retomar uma renderização
