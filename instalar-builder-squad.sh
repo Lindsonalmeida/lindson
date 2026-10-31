@@ -22,7 +22,9 @@ if [ "${1:-}" = "--remover" ]; then remover; echo "Builder Squad removido."; exi
 
 TMP=$(mktemp -d); trap 'rm -rf "$TMP"' EXIT
 echo "Baixando o Builder Squad..."
-if [ -f "$ZIP" ]; then cp "$ZIP" "$TMP/bs.zip"; else curl -fsSL "$ZIP" -o "$TMP/bs.zip"; fi; (cd "$TMP" && unzip -q bs.zip)
+if [ -f "$ZIP" ]; then cp "$ZIP" "$TMP/bs.zip"; (cd "$TMP" && unzip -q bs.zip)
+elif curl -fsSL "$ZIP" -o "$TMP/bs.zip"; then (cd "$TMP" && unzip -q bs.zip)
+else echo "Download do ZIP recusado; usando git clone."; git clone -q --depth 1 https://github.com/ohmyjahh/builder-squad.git "$TMP/builder-squad-main"; fi
 ORIG=$(find "$TMP" -mindepth 1 -maxdepth 1 -type d -exec test -d '{}/agents' ';' -print | head -1)
 [ -n "$ORIG" ] || { echo "Não encontrei a pasta agents no pacote."; exit 1; }
 

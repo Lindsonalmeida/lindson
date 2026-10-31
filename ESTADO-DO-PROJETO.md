@@ -15,6 +15,9 @@ São privados da conta que criou. **Para abrir ou editar de outra conta, compart
 | Raposa e Leão · Postagens | https://claude.ai/artifact/LSTErmeSra3qxFKBJMLiTC | `conteudo/youtube/raposa-e-leao/motor/app_rl.py` + `ativos.json` |
 | Central do cliente (login, protótipo) | https://claude.ai/artifact/XjCkj5eULmE2Pg8KptnKcV | `agencia/sistema-clientes/prototipo/` |
 | Fábrica de Conteúdo (outra organização) | https://claude.ai/artifact/WxeZuhrzQutLDTJ36y6EVt | aba Passaporte: `passaporte/motor/fabrica_pv.py` |
+| Painel do Vereador Leo Pinto (Central, cliente `LEO-…`) | https://claude.ai/artifact/7TjjwEUN5jASCbytXAvhHk (conta passaportedabiblia) | `agencia/sistema-clientes/leo-pinto/` (README) |
+
+**Atenção (31/10):** os apps acima, exceto o painel do Leo, estão noutra organização do Claude. Compartilhar com edição por e-mail **não** libera escrita entre organizações: a conta passaportedabiblia abre, mas não publica neles. Para atualizar, use uma sessão da conta dona ou recrie o app nesta conta.
 
 Decisão do Lindson: os vídeos do Passaporte e do Maquiavel ficam **nos apps próprios** de cada canal, não na Fábrica.
 
@@ -56,6 +59,13 @@ Processo completo em `conteudo/youtube/passaporte/PROCESSO.md` e `conteudo/youtu
   - Brief em `raposa-e-leao/roteiros/BRIEF.md`.
   - Imagens em domínio público em `img/acervo/`, baixadas por `motor/acervo.py`. A Wikimedia limita o ritmo (pausas e miniatura de 1920 px). As imagens ficam fora do Git: rode `acervo.py` de novo noutra conta.
   - Falta: concluir o acervo e criar `img/acervo/MAPA.md` (o que cada imagem mostra), os 5 roteiros, a renderização (`pintura.py` com `canal: raposa`), as capas claras e subir no app.
+
+### Sessão de 31/10 (conta passaportedabiblia): o que ficou rodando e como continuar
+- **Ambiente:** os scripts usam caminhos da sessão antiga. Em vez de editar o código, recrie-os com links: `ln -s <seu scratchpad>/old-scratch /tmp/claude-0/-home-user/5acf6937-9ac6-56e0-bc29-78bef210dc8b/scratchpad` e `ln -s <clone do repo> /home/user/lindson`. Instale `edge-tts soundfile scipy` e baixe o modelo `https://huggingface.co/inference4j/depth-anything-v2-small/resolve/main/model.onnx` para `<scratchpad antigo>/modelos/depth.onnx`.
+- **Gravuras de Doré:** `https://www.gutenberg.org/cache/epub/8710/pg8710-h.zip`, pasta `images/` (já numeradas `001.jpg`…; batem com `dore/MAPA.md`).
+- **Acervo do Raposa:** `raposa-e-leao/motor/acervo_faltantes.py` baixa só as imagens que os roteiros 12-16 usam (título exato do `creditos.json` ou busca pela obra) e registra o crédito. O Wikimedia limita a 429: o script espera e tenta de novo.
+- **Fila do Passaporte:** longos 06, 07 e 08 (mesmos passos do `lote7.sh`, sem refazer 05 e 09). Cada longo leva ~1h20 a 1h40 em 4 núcleos. Rode desacoplado (`setsid nohup … &`): tarefas em segundo plano da sessão morrem em 2 h. `RETOMAR=1` continua do último quadro.
+- **Depois:** longos 12-16 do Raposa (`filas/lote_rl.sh`) e a fila de refazer com a voz nova (`filas/lote8.sh` e `raposa-e-leao/motor/lote.sh shorts`). Os vídeos ficam fora do Git.
 
 ### Retomar uma renderização
 - Os quadros vão para a pasta temporária da sessão (`TMP` no topo de `pintura.py`). Noutra conta ou sessão, troque esse caminho pelo da sua pasta temporária.

@@ -43,6 +43,12 @@ Todo PDF entregue (estratégia, contrato, planos) também entra na página de do
 
 ## Como trabalhar
 
+**Sempre consulte este repositório antes de responder qualquer pedido** (clientes em `agencia/clientes/`, processos em `agencia/processos/`, identidades, briefings e estado do projeto). Use os dados que já existem aqui em vez de perguntar ou inventar.
+
+Artes de Instagram de cliente: siga o sistema de feed aprovado em `agencia/clientes/leo-pinto/instagram-v12-feed/README.md` (mesma assinatura em todas, composição diferente em cada post, fotos reais posicionadas pelo rosto, logo oficial com destaque). Painéis de cliente na Central: monte a partir do modelo `agencia/sistema-clientes/prototipo/painel.html` (exemplo: `agencia/sistema-clientes/leo-pinto/montar-leo.py`), nunca do zero. Código passa pelo Builder Squad (`/builder-squad`) e pelo RAXOS quando instalado.
+
+Pedido de identidade visual: use o modelo de prompt para o Claude Design em `agencia/clientes/leo-pinto/identidade/PROMPT-CLAUDE-DESIGN.md`, preenchido com o briefing do cliente (`agencia/clientes/<cliente>/identidade/BRIEF.md`).
+
 Sempre que o Lindson pedir algo, acione os agentes especialistas (Xquads em `scratchpad/xq/src`: Hormozi Offers, Donald Miller, Pedro Sobral, copy-squad, brand-squad etc., e agentes de pesquisa na internet) para fazer o trabalho, escolhendo os melhores para cada pedido.
 
 Para canal dark e monetização no YouTube (Passaporte da Bíblia, Raposa e Leão, nichos novos), acionar o agente **Peter** (`.claude/agents/peter.md`).
