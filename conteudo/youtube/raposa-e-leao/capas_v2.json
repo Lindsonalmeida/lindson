@@ -200,5 +200,33 @@
    "lado": "dir",
    "fs": 170
   }
+ },
+ "longo-10": {
+  "A": {
+   "estilo": "close",
+   "grav": "maquiavel2.jpg",
+   "foco": [
+    0.5,
+    0.3
+   ],
+   "zoom": 0.75,
+   "txt": "PRESO. <b>TORTURADO.</b>",
+   "lado": "dir",
+   "tag": "A VIDA DE MAQUIAVEL",
+   "marca": "RAPOSA E LEÃO"
+  },
+  "B": {
+   "estilo": "close",
+   "grav": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "foco": [
+    0.48,
+    0.25
+   ],
+   "zoom": 0.7,
+   "txt": "FUNDO <b>DO POÇO</b>",
+   "lado": "dir",
+   "tag": "A VIDA DE MAQUIAVEL",
+   "marca": "RAPOSA E LEÃO"
+  }
  }
 }

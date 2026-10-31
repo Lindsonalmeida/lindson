@@ -23,7 +23,10 @@
   "trocada_por": [
    "hist/bonfire_of_the_vanities.jpg"
   ],
-  "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo"
+  "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo",
+  "fonte_baixada": "https://www.wga.hu/art/b/bellotto/1/bello103.jpg",
+  "obra": "Bernardo Bellotto, The Piazza della Signoria in Florence, 1740",
+  "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)"
  },
  {
   "arquivo": "botticelli_giuliano_de_medici_accademia_carrara.jpg",
@@ -32,7 +35,10 @@
   "data": "between circa 1478 and circa 1480date QS:P,+1450-00-00T00:00:00Z/7,P1319,+1478-00-00T00:00:00Z/9,P1326,+1480-00-00T00:00:00Z/9,P1480,Q5727902 ",
   "licenca": "Public domain",
   "url_commons": "https://commons.wikimedia.org/wiki/File:Botticelli_-_Giuliano_de%27_Medici_-_Accademia_Carrara_Bergamo.jpg",
-  "busca": "Giuliano de Medici portrait"
+  "busca": "Giuliano de Medici portrait",
+  "fonte_baixada": "https://www.wga.hu/art/b/botticel/7portrai/05medici.jpg",
+  "obra": "Sandro Botticelli, Giuliano de' Medici, c. 1478",
+  "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)"
  },
  {
   "arquivo": "sandro_botticelli_giuliano_de_medici_gem_ldegale.jpg",
@@ -41,7 +47,10 @@
   "data": "1478",
   "licenca": "Public domain",
   "url_commons": "https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_-_Giuliano_de%27_Medici_-_Gem%C3%A4ldegalerie_(Berlin).jpg",
-  "busca": "Giuliano de Medici portrait"
+  "busca": "Giuliano de Medici portrait",
+  "fonte_baixada": "https://www.wga.hu/art/b/botticel/7portrai/07medici.jpg",
+  "obra": "Sandro Botticelli, Giuliano de' Medici, c. 1478",
+  "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)"
  },
  {
   "arquivo": "ferdinand_of_aragon_isabella_of_castile.jpg",
@@ -72,7 +81,10 @@
   "data": "1529 ",
   "licenca": "Public domain",
   "url_commons": "https://commons.wikimedia.org/wiki/File:Albrecht_Altdorfer_-_Schlacht_bei_Issus_(Alte_Pinakothek,_M%C3%BCnchen)_-_Google_Art_Project.jpg",
-  "busca": "Alexander the Great painting battle"
+  "busca": "Alexander the Great painting battle",
+  "fonte_baixada": "https://www.wga.hu/art/a/altdorfe/1/5battle.jpg",
+  "obra": "Albrecht Altdorfer, The Battle of Alexander, 1529",
+  "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)"
  },
  {
   "arquivo": "the_battle_of_alexander_at_issus_by_albrecht_alt.jpg",
@@ -81,7 +93,10 @@
   "data": "1529 ",
   "licenca": "Public domain",
   "url_commons": "https://commons.wikimedia.org/wiki/File:The_Battle_of_Alexander_at_Issus_(by_Albrecht_Altdorfer,_1529)_-_Alte_Pinakothek,_Munich.jpg",
-  "busca": "Alexander the Great painting battle"
+  "busca": "Alexander the Great painting battle",
+  "fonte_baixada": "https://www.wga.hu/art/a/altdorfe/1/5battle1.jpg",
+  "obra": "Albrecht Altdorfer, The Battle of Alexander (detalhe), 1529",
+  "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)"
  },
  {
   "arquivo": "battle_of_issus_by_albrecht_altdorfer_1529_alte.jpg",
@@ -143,7 +158,10 @@
   "trocada_por": [
    "borgia.jpg"
   ],
-  "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo"
+  "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo",
+  "fonte_baixada": "https://www.wga.hu/art/g/giotto/padova/3christ/chris15.jpg",
+  "obra": "Giotto, Cenas da vida de Cristo: 15. A Prisão de Cristo (Beijo de Judas), Pádua",
+  "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)"
  },
  {
   "arquivo": "castiglione_raffaello.jpg",
@@ -155,7 +173,10 @@
   "trocada_por": [
    "maquiavel2.jpg"
   ],
-  "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo"
+  "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo",
+  "fonte_baixada": "https://www.wga.hu/art/r/raphael/5roma/3/01castig.jpg",
+  "obra": "Rafael, Retrato de Baldassare Castiglione, 1514-15",
+  "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)"
  },
  {
   "arquivo": "cesar_morte_gerome.jpg",
@@ -199,7 +220,11 @@
   "trocada_por": [
    "lorenzo.jpg"
   ],
-  "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo"
+  "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo",
+  "fonte_baixada": "https://www.wga.hu/art/r/raphael/5roma/5/09leo_x.jpg",
+  "obra": "Rafael, Papa Leão X com os cardeais Giulio de' Medici e Luigi de' Rossi, 1518",
+  "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)",
+  "titulo": "Rafael, Papa Leão X com os cardeais Giulio de' Medici e Luigi de' Rossi, 1518"
  },
  {
   "arquivo": "coroacao_napoleao_david.jpg",
@@ -213,7 +238,11 @@
   "trocada_por": [
    "hist/pope_julius_ii.jpg"
   ],
-  "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo"
+  "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo",
+  "fonte_baixada": "https://www.wga.hu/art/r/raphael/5roma/1/09julius.jpg",
+  "obra": "Rafael, Retrato de Júlio II, 1511-12",
+  "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)",
+  "titulo": "Rafael, Retrato de Júlio II, 1511-12"
  },
  {
   "arquivo": "vercingetorix_royer.jpg",
@@ -241,13 +270,19 @@
   "titulo": "File:Pieter Bruegel d. Ä. 015.jpg",
   "licenca": "Public domain",
   "url_commons": "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_d._%C3%84._015.jpg",
-  "obs": "Dança dos camponeses (detalhe), praça de aldeia com multidão"
+  "obs": "Dança dos camponeses (detalhe), praça de aldeia com multidão",
+  "fonte_baixada": "https://www.wga.hu/art/b/bruegel/pieter_e/08/11calvar.jpg",
+  "obra": "Pieter Bruegel, o Velho, Cristo carregando a cruz, 1564",
+  "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)"
  },
  {
   "arquivo": "embaixadores_holbein.jpg",
   "titulo": "File:Hans Holbein the Younger - The Ambassadors - Google Art Project.jpg",
   "licenca": "Public domain",
-  "url_commons": "https://commons.wikimedia.org/wiki/File:Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg"
+  "url_commons": "https://commons.wikimedia.org/wiki/File:Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg",
+  "fonte_baixada": "https://www.wga.hu/art/h/holbein/hans_y/1535a/0ambassa.jpg",
+  "obra": "Hans Holbein, o Jovem, Os Embaixadores, 1533",
+  "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)"
  },
  {
   "arquivo": "rendicao_granada_pradilla.jpg",
@@ -277,6 +312,23 @@
   "arquivo": "prisao_cristo_caravaggio.jpg",
   "titulo": "File:The Taking of Christ-Caravaggio (c.1602).jpg",
   "licenca": "Public domain",
-  "url_commons": "https://commons.wikimedia.org/wiki/File:The_Taking_of_Christ-Caravaggio_%28c.1602%29.jpg"
+  "url_commons": "https://commons.wikimedia.org/wiki/File:The_Taking_of_Christ-Caravaggio_%28c.1602%29.jpg",
+  "fonte_baixada": "https://www.wga.hu/art/c/caravagg/03/191captu.jpg",
+  "obra": "Caravaggio, A Prisão de Cristo, c. 1602",
+  "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)"
+ },
+ {
+  "arquivo": "batalha_ostia_raffaello.jpg",
+  "fonte_baixada": "https://www.wga.hu/art/r/raphael/4stanze/3borgo/2battle.jpg",
+  "obra": "Rafael e oficina, A Batalha de Óstia, 1514-15, Vaticano",
+  "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)",
+  "titulo": "Rafael e oficina, A Batalha de Óstia, 1514-15, Vaticano"
+ },
+ {
+  "arquivo": "batalha_ponte_milvio_raffaello.jpg",
+  "fonte_baixada": "https://www.wga.hu/art/r/raphael/4stanze/4constan/2battle.jpg",
+  "obra": "Oficina de Rafael, A Batalha da Ponte Mílvia, 1520-24, Vaticano",
+  "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)",
+  "titulo": "Oficina de Rafael, A Batalha da Ponte Mílvia, 1520-24, Vaticano"
  }
 ]

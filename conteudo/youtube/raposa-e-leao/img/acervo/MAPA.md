@@ -47,3 +47,7 @@ Use **só** as imagens desta lista. Pinturas e esculturas em domínio público. 
 | hist/hannibal.jpg | Busto de Aníbal | retrato · escuro |
 | hist/arco_severo.jpg | Arco de Sétimo Severo (desenho) | paisagem · claro |
 | hist/moses.jpg | Moisés com as tábuas (Rembrandt) | retrato · médio |
+| acervo/batalha_ostia_raffaello.jpg | A Batalha de Óstia (Rafael e oficina, Vaticano): soldados, navios, cerco | paisagem · médio |
+| acervo/batalha_ponte_milvio_raffaello.jpg | A Batalha da Ponte Mílvia (oficina de Rafael): cavalaria, rio, saque | paisagem · médio |
+
+Obs. (31/10, longo-10): com o Commons bloqueado (429), parte do acervo foi baixada da Web Gallery of Art (wga.hu), mesma obra; a origem fica em `fonte_baixada` no creditos.json.

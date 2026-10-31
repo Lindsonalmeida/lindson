@@ -1082,6 +1082,588 @@
   "canal": "raposa"
  },
  {
+  "id": "longo-10",
+  "formato": "longo",
+  "titulo": "Preso e torturado: como Maquiavel escreveu O Príncipe",
+  "legenda": "Maquiavel foi demitido, preso e torturado em 1513, e foi nesse fundo do poço que escreveu O Príncipe. Neste vídeo você conhece a vida de Nicolau Maquiavel do começo ao fim: o menino pobre de Florença, a fogueira de Savonarola, os meses ao lado de César Bórgia, o exército de cidadãos e a queda.\n\nA corda na prisão, as noites com a roupa de corte, a carta a Vettori, os Discursos sobre Tito Lívio e o fim irônico quando a república voltou. E o que a vida dele ensina para quem perdeu o emprego, o negócio ou a posição e precisa recomeçar.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📜 Fonte: Nicolau Maquiavel, O Príncipe (dedicatória e caps. VI, VII e XII); Discursos sobre a primeira década de Tito Lívio (livro I, cap. LVIII); cartas a Francesco Vettori de 9/4/1513, 10/12/1513 e 16/4/1527; soneto a Giuliano de Médici (1513).\n\n🦊🦁 Raposa e Leão: Maquiavel e as leis do poder aplicadas à vida real.\n\n▶️ Playlist recomendada: A vida de Maquiavel\n\n#Maquiavel #OPríncipe #HistóriaDaItália #Recomeço #Florença",
+  "comentario": "📌 Se você perdesse tudo amanhã, qual seria a sua \"roupa de corte\": o que você estudaria toda noite? Continue na playlist A vida de Maquiavel ⬇️",
+  "titulo_tela": {
+   "sup": "RAPOSA E LEÃO",
+   "txt": "Preso, torturado<br>e eterno",
+   "dur": 3.2
+  },
+  "cenas": [
+   {
+    "gravura": "acervo/prisao_cristo_caravaggio.jpg",
+    "mov": "in",
+    "txt": "Fevereiro de 1513. Um homem de quarenta e três anos está pendurado pelos braços numa prisão de Florença. Ele não sabe, mas o livro mais famoso sobre poder vai nascer dessa dor."
+   },
+   {
+    "gravura": "maquiavel.jpg",
+    "mov": "out",
+    "txt": "O nome dele é Nicolau Maquiavel. Até poucos meses antes, ele era um dos homens mais bem informados da Europa. Agora não tem cargo, não tem salário e está sendo torturado."
+   },
+   {
+    "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+    "mov": "esq",
+    "txt": "Hoje eu te conto a vida dele do começo ao fim, sem lenda e sem enfeite. Como ele subiu, como caiu e o que fez no fundo do poço."
+   },
+   {
+    "gravura": "borgia.jpg",
+    "mov": "dir",
+    "txt": "E eu deixo três perguntas abertas pelo caminho. A primeira: o que César Bórgia confessou para Maquiavel, cara a cara, no dia em que perdeu tudo. Ele mesmo registrou isso no livro."
+   },
+   {
+    "gravura": "hist/moses.jpg",
+    "mov": "cima",
+    "txt": "A segunda: um livro que o pai de Maquiavel ganhou em troca de trabalho, quando ele era criança. Esse livro volta na história anos depois, e de um jeito bonito."
+   },
+   {
+    "gravura": "hist/marcus_aurelius.jpg",
+    "mov": "in",
+    "txt": "E a terceira, a maior: o que aconteceu com Maquiavel no dia em que o sonho da vida dele finalmente se realizou. Essa eu guardo para o último capítulo."
+   },
+   {
+    "gravura": "hist/bonfire_of_the_vanities.jpg",
+    "mov": "out",
+    "txt": "Maquiavel nasceu em Florença, em 3 de maio de 1469. A família tinha nome antigo, mas pouco dinheiro. O pai, Bernardo, era advogado e vivia apertado.",
+    "cap": {
+     "sup": "PARTE 1",
+     "txt": "O menino e o livro do pai"
+    }
+   },
+   {
+    "gravura": "hist/moses.jpg",
+    "mov": "esq",
+    "txt": "Só que o Bernardo tinha uma paixão: livros. E livro naquela época era caro. Então ele fazia de tudo para ler, até trabalho em troca de um volume."
+   },
+   {
+    "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+    "mov": "dir",
+    "txt": "Nos registros que o pai deixou, aparece um caso. Ele montou o índice dos lugares citados numa obra de Tito Lívio, o historiador de Roma. Como pagamento, ficou com um exemplar."
+   },
+   {
+    "gravura": "hist/arco_severo.jpg",
+    "mov": "cima",
+    "txt": "Guarda esse livro na cabeça. A história de Roma contada por Tito Lívio. Foi nessa casa simples, cheia de papel, que o menino cresceu ouvindo falar de cônsules e de batalhas."
+   },
+   {
+    "gravura": "lorenzo.jpg",
+    "mov": "in",
+    "txt": "Enquanto isso, quem mandava em Florença era Lorenzo de Médici, o Magnífico. Oficialmente a cidade era uma república. Na prática, a família de banqueiros decidia quase tudo."
+   },
+   {
+    "gravura": "hist/marcus_equestre.jpg",
+    "mov": "out",
+    "txt": "Sobre a juventude de Maquiavel, quase não há documento. Os historiadores discutem até onde ele estudou. O que se sabe é que lia latim e conhecia bem os autores antigos."
+   },
+   {
+    "gravura": "acervo/castiglione_raffaello.jpg",
+    "mov": "esq",
+    "txt": "E repara numa coisa: ele não nasceu nobre, não nasceu rico e não tinha padrinho poderoso. Tudo o que ele conseguiu veio de leitura, observação e trabalho."
+   },
+   {
+    "gravura": "hist/bonfire_of_the_vanities.jpg",
+    "mov": "dir",
+    "txt": "Em 1492, Lorenzo morre. Dois anos depois, o rei Carlos Oitavo, da França, entra na Itália com um exército enorme. E o filho de Lorenzo, Piero, entrega fortalezas sem lutar.",
+    "cap": {
+     "sup": "PARTE 2",
+     "txt": "A fogueira na praça"
+    }
+   },
+   {
+    "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+    "mov": "cima",
+    "txt": "O povo de Florença se revolta, e os Médici são expulsos da cidade em 1494. Quem ocupa o vazio não é um general. É um frade."
+   },
+   {
+    "gravura": "hist/girolamo_savonarola.jpg",
+    "mov": "in",
+    "txt": "Girolamo Savonarola. Pregava contra o luxo, anunciava castigos de Deus e enchia a catedral. Por alguns anos, foi a voz mais poderosa de Florença."
+   },
+   {
+    "gravura": "hist/bonfire_of_the_vanities.jpg",
+    "mov": "out",
+    "txt": "Os seguidores dele queimavam espelhos, joias, roupas finas e pinturas em grandes fogueiras na praça. Maquiavel tinha uns vinte e poucos anos e assistia a tudo."
+   },
+   {
+    "gravura": "hist/pope_alexander_vi.jpg",
+    "mov": "esq",
+    "txt": "Mas Savonarola atacou também o papa Alexandre Sexto. Foi excomungado, perdeu apoio na cidade e, em maio de 1498, foi enforcado e queimado na mesma praça das fogueiras."
+   },
+   {
+    "gravura": "maquiavel2.jpg",
+    "mov": "dir",
+    "txt": "Maquiavel tirou dali uma das ideias mais duras do livro que escreveria depois. Quem só tem palavras, quando o povo deixa de acreditar, não tem como segurá-lo."
+   },
+   {
+    "gravura": "hist/moses.jpg",
+    "mov": "cima",
+    "txt": "Ele compara Savonarola a Moisés. Moisés tinha força para manter as leis que trouxe. O frade só tinha a pregação. Por isso, os profetas armados venceram e os desarmados se arruinaram.",
+    "verso": "Todos os profetas armados venceram, e os desarmados se arruinaram.",
+    "ref": "O PRÍNCIPE, CAP. VI"
+   },
+   {
+    "gravura": "acervo/castiglione_raffaello.jpg",
+    "mov": "in",
+    "txt": "Na sua vida, isso quer dizer uma coisa simples. Boa intenção sem estrutura não se sustenta. Ideia sem dinheiro guardado, sem gente e sem processo cai na primeira crise."
+   },
+   {
+    "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+    "mov": "out",
+    "txt": "Poucas semanas depois da fogueira de Savonarola, em junho de 1498, Maquiavel é eleito secretário da Segunda Chancelaria de Florença. Ele tinha vinte e nove anos.",
+    "cap": {
+     "sup": "PARTE 3",
+     "txt": "O secretário que via tudo"
+    }
+   },
+   {
+    "gravura": "acervo/embaixadores_holbein.jpg",
+    "mov": "esq",
+    "txt": "Logo depois, vira também secretário dos Dez, o conselho que cuidava da guerra e da diplomacia. Era um cargo de funcionário, não de chefe. Mas por ele passava tudo."
+   },
+   {
+    "gravura": "acervo/ferdinand_of_aragon_isabella_of_castile.jpg",
+    "mov": "dir",
+    "txt": "Ele escrevia cartas, relatórios e ordens. E, principalmente, viajava. Em 1500, foi mandado à corte do rei Luís Doze, da França."
+   },
+   {
+    "gravura": "maquiavel.jpg",
+    "mov": "cima",
+    "txt": "Lá ele aprendeu uma lição amarga. Os franceses davam pouca importância a Florença, porque a cidade não tinha exército próprio e pagava para ser protegida."
+   },
+   {
+    "gravura": "acervo/multidao_bruegel.jpg",
+    "mov": "in",
+    "txt": "Tá comigo até aqui? Guarda isso: quem depende dos outros para se defender não é levado a sério. Essa frase vai voltar daqui a pouco, e com muita força.",
+    "interage": {
+     "tipo": "checkin",
+     "txt": "Tá comigo nessa viagem?"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "borgia.jpg",
+    "mov": "out",
+    "txt": "Em 1502, vem a missão que mais marcou a vida dele. Florença manda Maquiavel até César Bórgia, filho do papa, que estava conquistando cidades na Romanha."
+   },
+   {
+    "gravura": "hist/pope_alexander_vi.jpg",
+    "mov": "esq",
+    "txt": "Bórgia era jovem, rápido e sem medo. Tinha o dinheiro e as tropas do pai, Alexandre Sexto, e usava tudo isso para montar um Estado próprio no centro da Itália."
+   },
+   {
+    "gravura": "borgia.jpg",
+    "mov": "dir",
+    "txt": "Maquiavel passou meses perto dele, escrevendo relatórios para Florença. Viu o duque enganar inimigos, dividir alianças e agir quando ninguém esperava."
+   },
+   {
+    "gravura": "hist/caracalla.jpg",
+    "mov": "cima",
+    "txt": "Na Romanha, Bórgia tinha posto um governador duro, Ramiro de Lorqua, para acabar com a bagunça. Funcionou. Mas o povo passou a odiar o governador."
+   },
+   {
+    "gravura": "cesar.jpg",
+    "mov": "in",
+    "txt": "Então, numa manhã de dezembro de 1502, o corpo de Ramiro apareceu cortado em dois na praça de Cesena. Maquiavel conta que o espetáculo deixou o povo satisfeito e assustado ao mesmo tempo.",
+    "verso": "Aquele espetáculo deixou o povo ao mesmo tempo satisfeito e estupefato.",
+    "ref": "O PRÍNCIPE, CAP. VII"
+   },
+   {
+    "gravura": "maquiavel2.jpg",
+    "mov": "out",
+    "txt": "Atenção aqui: Maquiavel não está aplaudindo crueldade. Ele está descrevendo o que viu. O livro dele é um relatório, não um manual de maldade."
+   },
+   {
+    "gravura": "acervo/julio_ii_raffaello.jpg",
+    "mov": "esq",
+    "txt": "Em 1503, Alexandre Sexto morre. Pouco depois, o novo papa é Júlio Segundo, inimigo antigo dos Bórgia. E Maquiavel está em Roma acompanhando a eleição."
+   },
+   {
+    "gravura": "borgia.jpg",
+    "mov": "dir",
+    "txt": "E aqui eu fecho a primeira pergunta. Naquele dia, o próprio Bórgia contou a Maquiavel que tinha pensado em tudo para quando o pai morresse. Menos numa coisa."
+   },
+   {
+    "gravura": "hist/hannibal.jpg",
+    "mov": "cima",
+    "txt": "Ele não imaginou que, na hora em que o pai morresse, ele mesmo estaria doente, à beira da morte. A fortuna pegou o duque no único ponto que ele não previu.",
+    "verso": "Pensara em tudo o que podia acontecer com a morte do pai, menos que ele mesmo estaria à morte.",
+    "ref": "O PRÍNCIPE, CAP. VII"
+   },
+   {
+    "gravura": "hist/pope_julius_ii.jpg",
+    "mov": "in",
+    "txt": "Em poucos meses, o homem mais temido da Itália perdeu tudo. Maquiavel, que antes admirava a energia dele, passou a descrevê-lo como alguém que caiu por confiar no inimigo errado."
+   },
+   {
+    "gravura": "hist/alexander_the_great.jpg",
+    "mov": "out",
+    "txt": "A lição para você: não existe plano que cubra tudo. Por isso, quem é esperto deixa sempre uma reserva, uma saída, um plano para o dia em que o imprevisto chegar."
+   },
+   {
+    "gravura": "acervo/ferdinand_of_aragon_isabella_of_castile.jpg",
+    "mov": "esq",
+    "txt": "Agora volta comigo para aquela frase da França: quem depende dos outros não é levado a sério. Maquiavel cansou de ver Florença pagar soldados que fugiam na hora da luta.",
+    "cap": {
+     "sup": "PARTE 4",
+     "txt": "O exército de cidadãos"
+    }
+   },
+   {
+    "gravura": "acervo/albrecht_altdorfer_schlacht_bei_issus_alte_pinak.jpg",
+    "mov": "dir",
+    "txt": "Os mercenários, dizia ele, são desunidos, ambiciosos e infiéis. Corajosos entre amigos, covardes diante do inimigo. Na paz te roubam, e na guerra te deixam sozinho.",
+    "verso": "Os mercenários são desunidos, ambiciosos, sem disciplina e infiéis.",
+    "ref": "O PRÍNCIPE, CAP. XII"
+   },
+   {
+    "gravura": "maquiavel.jpg",
+    "mov": "cima",
+    "txt": "Então ele propôs algo que parecia loucura para um funcionário: Florença devia ter um exército de cidadãos, gente da própria terra, treinada e chamada quando precisasse."
+   },
+   {
+    "gravura": "hist/marcus_equestre.jpg",
+    "mov": "in",
+    "txt": "Ele tinha apoio de Piero Soderini, eleito em 1502 chefe da república por toda a vida. Soderini confiava em Maquiavel, e os inimigos zombavam dele por isso."
+   },
+   {
+    "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+    "mov": "out",
+    "txt": "A milícia saiu do papel. Em fevereiro de 1506, os primeiros soldados desfilaram em Florença. Era o projeto da vida de Maquiavel."
+   },
+   {
+    "gravura": "acervo/batalha_ostia_raffaello.jpg",
+    "mov": "esq",
+    "txt": "E em 1509 veio a prova. Pisa, que tinha se rebelado contra Florença anos antes, se rendeu depois de um cerco em que a milícia ajudou. Foi o maior momento da carreira dele."
+   },
+   {
+    "gravura": "hist/marcus_aurelius.jpg",
+    "mov": "dir",
+    "txt": "Se até aqui você já entendeu mais sobre Maquiavel do que em anos de frase solta na internet, segue o canal e abre a playlist A vida de Maquiavel. Porque agora vem a queda.",
+    "cta": "Segue o <b>Raposa e Leão</b><br>e veja a playlist <b>A vida de Maquiavel</b>",
+    "interage": {
+     "tipo": "segue",
+     "txt": "Segue pra ver a queda"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "acervo/julio_ii_raffaello.jpg",
+    "mov": "cima",
+    "txt": "Só que a política mudou de novo. O papa Júlio Segundo montou uma liga contra a França. E Florença, aliada dos franceses, ficou do lado perdedor."
+   },
+   {
+    "gravura": "hist/ferdinand_ii_of_aragon.jpg",
+    "mov": "in",
+    "txt": "Em agosto de 1512, tropas espanholas da liga, do rei Fernando de Aragão, atacaram Prato, cidade vizinha. A milícia de Maquiavel estava lá. Não segurou."
+   },
+   {
+    "gravura": "acervo/batalha_ponte_milvio_raffaello.jpg",
+    "mov": "out",
+    "txt": "Prato foi saqueada com uma violência que assustou a Itália inteira. Florença entrou em pânico, Soderini fugiu e os Médici voltaram para a cidade depois de dezoito anos."
+   },
+   {
+    "gravura": "maquiavel2.jpg",
+    "mov": "esq",
+    "txt": "O exército de cidadãos falhou no teste mais importante. E o homem que tinha inventado esse exército ficou exposto, sem padrinho, nas mãos dos antigos inimigos."
+   },
+   {
+    "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+    "mov": "dir",
+    "txt": "Em 7 de novembro de 1512, Maquiavel é demitido. Dias depois, é proibido de sair do território de Florença por um ano e precisa pagar uma fiança alta, que amigos ajudam a bancar.",
+    "cap": {
+     "sup": "PARTE 5",
+     "txt": "A corda"
+    }
+   },
+   {
+    "gravura": "acervo/botticelli_giuliano_de_medici_accademia_carrara.jpg",
+    "mov": "cima",
+    "txt": "Ele tenta se aproximar dos novos donos do poder. Escreve até para Giuliano de Médici. Mas, para os Médici, ele era o braço direito de Soderini. Gente de confiança do outro lado."
+   },
+   {
+    "gravura": "acervo/beijo_judas_giotto.jpg",
+    "mov": "in",
+    "txt": "Em fevereiro de 1513, descobrem uma conspiração para matar os Médici. Com um dos conspiradores, Pietro Paolo Boscoli, acharam uma lista de nomes. O de Maquiavel estava lá."
+   },
+   {
+    "gravura": "acervo/prisao_cristo_caravaggio.jpg",
+    "mov": "out",
+    "txt": "Não há prova de que ele soubesse do plano. Mesmo assim, foi preso e passou pela corda: braços amarrados nas costas, corpo erguido e solto de uma vez."
+   },
+   {
+    "gravura": "hist/caracalla.jpg",
+    "mov": "esq",
+    "txt": "Num soneto que escreveu da cela para Giuliano de Médici, ele conta seis puxões da corda nos ombros, correntes nas pernas e piolhos do tamanho de borboletas.",
+    "verso": "Tenho, Giuliano, um par de grilhões nas pernas e seis puxões de corda nas costas.",
+    "ref": "SONETO A GIULIANO DE MÉDICI, 1513"
+   },
+   {
+    "gravura": "hist/pope_julius_ii.jpg",
+    "mov": "dir",
+    "txt": "Boscoli e o companheiro Agostino Capponi foram executados. Maquiavel, nos versos, fala das orações que ouvia de madrugada pelos condenados. Ele não confessou nada, porque não tinha o que confessar."
+   },
+   {
+    "gravura": "acervo/leao_x_raffaello.jpg",
+    "mov": "cima",
+    "txt": "A saída veio por acaso. Em março de 1513, o cardeal Giovanni de Médici foi eleito papa com o nome de Leão Décimo. Florença festejou e soltou presos. Maquiavel entre eles."
+   },
+   {
+    "gravura": "maquiavel.jpg",
+    "mov": "in",
+    "txt": "Ele saiu vivo, mas destruído. Quarenta e três anos, ombros machucados, sem emprego, sem dinheiro e malvisto pelos únicos que podiam dar trabalho a ele."
+   },
+   {
+    "gravura": "acervo/multidao_bruegel.jpg",
+    "mov": "out",
+    "txt": "E agora te pergunto de verdade: se você perdesse o emprego hoje e ficasse meses parado, o que faria com esse tempo? Escreve aí. Quero ler a sua resposta.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "O que você faria parado?"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "hist/marcus_equestre.jpg",
+    "mov": "esq",
+    "txt": "Sem saída em Florença, ele vai morar numa pequena propriedade da família em Sant'Andrea in Percussina, perto de San Casciano, a poucas horas da cidade.",
+    "cap": {
+     "sup": "PARTE 6",
+     "txt": "Os tordos e a roupa de corte"
+    }
+   },
+   {
+    "gravura": "acervo/embaixadores_holbein.jpg",
+    "mov": "dir",
+    "txt": "O melhor retrato desses meses está nas cartas para o amigo Francesco Vettori, embaixador de Florença em Roma. Os dois trocavam cartas sobre política como quem joga xadrez."
+   },
+   {
+    "gravura": "maquiavel2.jpg",
+    "mov": "cima",
+    "txt": "Numa carta de abril de 1513, ele confessa algo que diz tudo. Não sabia falar de seda, nem de lã, nem de lucro e prejuízo. A sorte só tinha deixado para ele falar do Estado.",
+    "verso": "Não sei raciocinar nem sobre seda, nem sobre lã, nem sobre lucros e perdas; cabe-me raciocinar sobre o Estado.",
+    "ref": "CARTA A VETTORI, 9/4/1513"
+   },
+   {
+    "gravura": "acervo/multidao_bruegel.jpg",
+    "mov": "in",
+    "txt": "E em 10 de dezembro de 1513 vem a carta mais famosa. Ele descreve os dias. Até pouco antes, caçava tordos com visgo. Agora acorda com o sol e vai a um bosque que mandou cortar."
+   },
+   {
+    "gravura": "hist/moses.jpg",
+    "mov": "out",
+    "txt": "Fica um tempo com os lenhadores, que sempre tinham alguma briga para contar. Depois senta perto de uma fonte com um livro de Dante, de Petrarca ou de Ovídio debaixo do braço."
+   },
+   {
+    "gravura": "hist/bonfire_of_the_vanities.jpg",
+    "mov": "esq",
+    "txt": "Na hora do almoço, come com a família o pouco que a terra dá. Depois vai à taverna da estrada e passa a tarde jogando cartas e gamão com o açougueiro, o moleiro e dois forneiros."
+   },
+   {
+    "gravura": "hist/commodus.jpg",
+    "mov": "dir",
+    "txt": "E ele não se faz de santo. Conta que as brigas por uma moeda eram tão altas que se ouviam de San Casciano. Ele mesmo diz que se mete entre aqueles piolhos para tirar o mofo do cérebro."
+   },
+   {
+    "gravura": "acervo/castiglione_raffaello.jpg",
+    "mov": "cima",
+    "txt": "Mas aí chega a noite. Ele tira a roupa suja do dia, veste as roupas que usava nas cortes e entra no escritório. E lá, conversa com os antigos pelos livros."
+   },
+   {
+    "gravura": "maquiavel.jpg",
+    "mov": "in",
+    "txt": "Ele diz que, nessas quatro horas, não sente tédio, esquece os problemas, não teme a pobreza nem a morte. Se alimenta do único alimento que é só dele, e para o qual nasceu.",
+    "verso": "Me alimento daquele alimento que só é meu, e para o qual nasci.",
+    "ref": "CARTA A VETTORI, 10/12/1513"
+   },
+   {
+    "gravura": "acervo/the_battle_of_alexander_at_issus_by_albrecht_alt.jpg",
+    "mov": "out",
+    "txt": "E conta que, como Dante dizia que não existe ciência sem guardar o que se entendeu, ele anotou o que aprendeu nessas conversas. E escreveu um livrinho sobre os principados."
+   },
+   {
+    "gravura": "borgia.jpg",
+    "mov": "esq",
+    "txt": "Esse livrinho é O Príncipe. Todo o material estava ali: a França, a fogueira de Savonarola, os meses ao lado de Bórgia, a milícia, Prato e a própria corda."
+   },
+   {
+    "gravura": "acervo/castiglione_raffaello.jpg",
+    "mov": "dir",
+    "txt": "Repara: ele não escreveu para desabafar. Escreveu para provar que sabia. Na mesma carta, diz que os quinze anos estudando o Estado ele não passou dormindo nem jogando.",
+    "verso": "Os quinze anos em que estive estudando a arte do Estado não os dormi nem os joguei.",
+    "ref": "CARTA A VETTORI, 10/12/1513"
+   },
+   {
+    "gravura": "hist/marcus_equestre.jpg",
+    "mov": "cima",
+    "txt": "E fala da pobreza sem vergonha. Diz que quem foi fiel e bom por quarenta e três anos não muda de natureza, e que a pobreza dele era a testemunha da sua honestidade."
+   },
+   {
+    "gravura": "maquiavel2.jpg",
+    "mov": "in",
+    "txt": "Se essa carta mexeu com você, salva esse vídeo. Ele é para assistir de novo no dia em que a vida te deixar parado e você precisar lembrar o que fazer com a noite.",
+    "interage": {
+     "tipo": "salva",
+     "txt": "Salva pro dia difícil"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "hist/alexander_the_great.jpg",
+    "mov": "out",
+    "txt": "Na prática, a roupa de corte é isso: um horário fixo, sem celular, para estudar quem já resolveu o problema que você enfrenta. E transformar o estudo em algo que outro pode ver."
+   },
+   {
+    "gravura": "lorenzo.jpg",
+    "mov": "esq",
+    "txt": "O plano era claro. Dar o livro a um Médici para voltar a trabalhar. Ele pensou em Giuliano. Com a morte dele, em 1516, a dedicatória acabou indo para Lorenzo, neto do Magnífico.",
+    "cap": {
+     "sup": "PARTE 7",
+     "txt": "O livro que não abriu a porta"
+    }
+   },
+   {
+    "gravura": "acervo/sandro_botticelli_giuliano_de_medici_gem_ldegale.jpg",
+    "mov": "dir",
+    "txt": "No fim da dedicatória, tem uma frase que pouca gente nota. Ele pede que Lorenzo, lá do alto, olhe às vezes para baixo e veja quanta má sorte o autor vinha suportando.",
+    "verso": "Se Vossa Magnificência olhar destes lugares baixos, conhecerá quanto suporto uma grande e contínua malignidade da fortuna.",
+    "ref": "O PRÍNCIPE, DEDICATÓRIA"
+   },
+   {
+    "gravura": "maquiavel.jpg",
+    "mov": "cima",
+    "txt": "Não funcionou. O cargo não veio. Não existe nenhum registro de que Lorenzo tenha dado atenção ao livro. Maquiavel continuou no campo, sem posto."
+   },
+   {
+    "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+    "mov": "in",
+    "txt": "Mas ele não parou. Começou a frequentar os encontros nos jardins da família Rucellai, os Orti Oricellari, onde jovens de Florença discutiam história e política."
+   },
+   {
+    "gravura": "hist/arco_severo.jpg",
+    "mov": "out",
+    "txt": "E lá ele lia e comentava, capítulo por capítulo, a história de Roma de Tito Lívio. Lembra do livro que o pai ganhou montando um índice? Ele voltou."
+   },
+   {
+    "gravura": "hist/moses.jpg",
+    "mov": "esq",
+    "txt": "Daquelas conversas nasceram os Discursos sobre a primeira década de Tito Lívio, a obra mais longa de Maquiavel. O livro que entrou na casa como pagamento virou a base do pensamento do filho."
+   },
+   {
+    "gravura": "hist/marcus_aurelius.jpg",
+    "mov": "dir",
+    "txt": "E fecho a segunda pergunta. Nos Discursos, Maquiavel defende a república, a liberdade e as leis. Quem só conhece O Príncipe acha que ele amava tiranos. Não é bem assim.",
+    "verso": "Não sem razão se compara a voz de um povo à de Deus.",
+    "ref": "DISCURSOS, LIVRO I, CAP. LVIII"
+   },
+   {
+    "gravura": "hist/commodus.jpg",
+    "mov": "cima",
+    "txt": "Ele também virou escritor de sucesso, mas por outro caminho. A peça A Mandrágora, uma comédia ácida sobre enganação, fez Florença inteira rir. Foi a obra mais popular dele em vida."
+   },
+   {
+    "gravura": "acervo/albrecht_altdorfer_schlacht_bei_issus_alte_pinak.jpg",
+    "mov": "in",
+    "txt": "Em 1521, publicou A Arte da Guerra, defendendo de novo o exército de cidadãos. Foi uma das poucas obras políticas dele impressas enquanto ele estava vivo."
+   },
+   {
+    "gravura": "acervo/embaixadores_holbein.jpg",
+    "mov": "out",
+    "txt": "O Príncipe, não. Ele circulou em cópias feitas à mão entre amigos. Só foi impresso em 1532, cinco anos depois da morte do autor."
+   },
+   {
+    "gravura": "acervo/castiglione_raffaello.jpg",
+    "mov": "esq",
+    "txt": "Pensa nisso: o livro que o fez famoso para sempre não deu a ele nem um emprego. O resultado que importa às vezes chega muito depois do esforço."
+   },
+   {
+    "gravura": "acervo/leao_x_raffaello.jpg",
+    "mov": "dir",
+    "txt": "Aos poucos, os Médici aceitaram usar o talento dele. Em 1520, o cardeal Giulio de Médici encomendou a Maquiavel uma história de Florença, com salário.",
+    "cap": {
+     "sup": "PARTE 8",
+     "txt": "A república volta, e ele não"
+    }
+   },
+   {
+    "gravura": "acervo/julio_ii_raffaello.jpg",
+    "mov": "cima",
+    "txt": "Giulio virou papa Clemente Sétimo, e Maquiavel entregou a ele em Roma os livros das Histórias Florentinas. Depois, foi encarregado de cuidar das muralhas de Florença."
+   },
+   {
+    "gravura": "acervo/albrecht_altdorfer_schlacht_bei_issus_alte_pinak.jpg",
+    "mov": "in",
+    "txt": "Em maio de 1527, o exército do imperador Carlos Quinto saqueia Roma. O papa Médici fica cercado. E em Florença, sem o apoio de Roma, os Médici são expulsos de novo."
+   },
+   {
+    "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+    "mov": "out",
+    "txt": "A república voltou. Exatamente o regime que Maquiavel serviu por catorze anos, que ele defendeu nos Discursos e pelo qual ele foi torturado."
+   },
+   {
+    "gravura": "maquiavel2.jpg",
+    "mov": "esq",
+    "txt": "Agora eu fecho a maior pergunta. No dia em que o sonho se realizou, Maquiavel esperava voltar ao antigo cargo. Afinal, ele era o homem da república."
+   },
+   {
+    "gravura": "acervo/botticelli_giuliano_de_medici_accademia_carrara.jpg",
+    "mov": "dir",
+    "txt": "Mas os novos governantes lembraram outra coisa: nos últimos anos, ele tinha trabalhado para os Médici. Para eles, Maquiavel era suspeito. E o posto ficou com outro."
+   },
+   {
+    "gravura": "acervo/beijo_judas_giotto.jpg",
+    "mov": "cima",
+    "txt": "Os Médici desconfiaram dele por ser republicano. A república desconfiou dele por ter servido aos Médici. Ele ficou sem lugar nos dois lados."
+   },
+   {
+    "gravura": "maquiavel.jpg",
+    "mov": "in",
+    "txt": "Poucas semanas depois, em 21 de junho de 1527, Nicolau Maquiavel morreu em Florença, aos cinquenta e oito anos. Foi enterrado na igreja de Santa Croce."
+   },
+   {
+    "gravura": "hist/marcus_equestre.jpg",
+    "mov": "out",
+    "txt": "Dois meses antes, numa carta a Vettori, ele tinha escrito uma frase que mostra quem ele era. Disse que amava a sua pátria mais do que a própria alma.",
+    "verso": "Amo a minha pátria mais do que a alma.",
+    "ref": "CARTA A VETTORI, 16/4/1527"
+   },
+   {
+    "gravura": "acervo/multidao_bruegel.jpg",
+    "mov": "esq",
+    "txt": "Conhece alguém que perdeu o emprego, fechou um negócio ou levou uma rasteira e acha que a vida acabou? Manda esse vídeo. Talvez essa pessoa precise da roupa de corte hoje.",
+    "interage": {
+     "tipo": "manda",
+     "txt": "Manda pra quem caiu"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "hist/bonfire_of_the_vanities.jpg",
+    "mov": "dir",
+    "txt": "Séculos depois, colocaram no túmulo dele uma frase em latim: para um nome tão grande, nenhum elogio basta. O homem demitido virou o mais lido de Florença."
+   },
+   {
+    "gravura": "acervo/castiglione_raffaello.jpg",
+    "mov": "cima",
+    "txt": "Resumindo a vida dele em lições: aprenda observando quem está acima. Tenha armas próprias. Planeje a reserva para o imprevisto. E use a pior fase para estudar."
+   },
+   {
+    "gravura": "hist/alexander_the_great.jpg",
+    "mov": "in",
+    "txt": "E a última, que ele aprendeu da pior forma: quem serve a todos os lados sem ter base própria pode acabar sem lugar em nenhum. Construa a sua base."
+   },
+   {
+    "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+    "mov": "out",
+    "txt": "No próximo vídeo da playlist A vida de Maquiavel, a gente abre O Príncipe capítulo por capítulo, sem enrolação. Até a próxima lição, raposa.",
+    "cta": "Próximo: <b>O Príncipe explicado</b><br>Até a próxima lição, raposa",
+    "selo": "RAPOSA<br>E LEÃO"
+   }
+  ],
+  "canal": "raposa"
+ },
+ {
   "id": "longo-11",
   "formato": "longo",
   "titulo": "Maquiavel: os 2 erros que derrubam qualquer líder",
