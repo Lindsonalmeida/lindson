@@ -243,7 +243,9 @@ LONGOS = [
    c('093', 'out', 'No próximo vídeo, a gente abre Marcos 1 juntos. Comenta qual Evangelho você vai ler primeiro. Até a próxima parada, viajante da Palavra.', **FIM)]),
 ]
 
+NOVOS = {os.path.basename(f)[:-5] for f in __import__('glob').glob(RAIZ + '/roteiros/*.json')}  # refeitos em roteiros/: não sobrescrever
 def grava(arq, novos):
+    novos = [v for v in novos if v['id'] not in NOVOS]
     f = f'{RAIZ}/{arq}'; d = json.load(open(f)); ids = {v['id'] for v in novos}
     d = [v for v in d if v['id'] not in ids] + novos; json.dump(d, open(f, 'w'), ensure_ascii=False, indent=1)
 pint, sh, lg = [], [], []
