@@ -1,0 +1,535 @@
+{
+ "id": "longo-09",
+ "canal": "raposa",
+ "formato": "longo",
+ "titulo": "Savonarola: o profeta desarmado que Maquiavel viu cair",
+ "legenda": "Savonarola, o frade que governou Florença só com a voz, e a lição que Maquiavel tirou da queda dele: o profeta desarmado. Neste vídeo você vê a profecia de 1494, a fuga dos Médici, o Conselho Maior, a fogueira das vaidades de 1497, a briga com o papa Alexandre VI, a prova de fogo que não aconteceu e a execução na Piazza della Signoria em 1498.\n\nVocê também lê a carta em que o jovem Maquiavel descreve os sermões do frade, descobre a lei que Savonarola deixou de defender e aprende, com o capítulo VI de O Príncipe, as quatro armas que sustentam qualquer projeto quando o entusiasmo acaba, sem violência e sem manipular ninguém. Onde os historiadores discordam, o vídeo avisa.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📜 Fonte: Nicolau Maquiavel, O Príncipe, cap. VI; Discursos sobre a primeira década de Tito Lívio, livro I, caps. 11 e 45; carta a Ricciardo Becchi, 9 de março de 1498.\n\n🦊🦁 Raposa e Leão: Maquiavel e as leis do poder aplicadas à vida real.\n\n▶️ Playlist recomendada: Personagens do poder\n\n#Maquiavel #Savonarola #OPríncipe #HistóriaDeFlorença #Liderança",
+ "comentario": "📌 Das quatro armas (estrutura, resultado, aliados e coerência), qual está faltando no seu projeto hoje? Continue na playlist Personagens do poder ⬇️",
+ "titulo_tela": {
+  "sup": "RAPOSA E LEÃO",
+  "txt": "O profeta<br>desarmado",
+  "dur": 3.2
+ },
+ "capa": {
+  "A": "SÓ A VOZ",
+  "B": "DESARMADO",
+  "gravA": "hist/girolamo_savonarola.jpg",
+  "gravB": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
+ },
+ "cenas": [
+  {
+   "gravura": "hist/girolamo_savonarola.jpg",
+   "mov": "in",
+   "txt": "Ele convenceu uma cidade inteira a queimar os próprios tesouros na praça. Pouco mais de um ano depois, a mesma praça assistiu ao corpo dele queimar. O que faz uma multidão trocar o amor pelo ódio tão rápido?"
+  },
+  {
+   "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+   "mov": "out",
+   "txt": "Esse homem é Girolamo Savonarola, um frade que mandou em Florença sem nunca ter ocupado cargo nenhum. Só com a voz. E a queda dele virou uma das frases mais duras que Maquiavel escreveu."
+  },
+  {
+   "gravura": "maquiavel.jpg",
+   "mov": "esq",
+   "txt": "Porque Maquiavel estava lá. Morava na cidade, foi ouvir os sermões do frade e escreveu uma carta contando o que viu. Mais pra frente, eu leio essa carta pra você."
+  },
+  {
+   "gravura": "hist/bonfire_of_the_vanities.jpg",
+   "mov": "dir",
+   "txt": "Tem outra coisa guardada pro meio do vídeo: uma lei que o próprio Savonarola defendeu e que, na hora em que mais importava, ele deixou de lado. Esse silêncio custou caro."
+  },
+  {
+   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "mov": "cima",
+   "txt": "E no fim eu te entrego a resposta maior: o que Maquiavel chamou de profeta desarmado, por que isso derruba gente boa até hoje e quais armas, sem violência nenhuma, você pode construir."
+  },
+  {
+   "gravura": "acervo/multidao_bruegel.jpg",
+   "mov": "in",
+   "txt": "Uma coisa antes de começar. Sobre Savonarola, os historiadores discordam muito. Para uns, foi um santo. Para outros, um fanático. Eu vou te contar os fatos aceitos e o que Maquiavel pensou deles."
+  },
+  {
+   "gravura": "hist/girolamo_savonarola.jpg",
+   "mov": "out",
+   "txt": "Girolamo Savonarola nasceu em Ferrara, no norte da Itália, em 1452. O avô era médico da corte, e a família esperava que ele seguisse a medicina.",
+   "cap": {
+    "sup": "LIÇÃO 1",
+    "txt": "O frade de Ferrara"
+   }
+  },
+  {
+   "gravura": "hist/arco_severo.jpg",
+   "mov": "esq",
+   "txt": "Mas o rapaz era sério demais para a vida de corte. Em 1475, aos vinte e dois anos, ele sai de casa escondido, deixa uma carta para o pai e entra no convento dos dominicanos em Bolonha."
+  },
+  {
+   "gravura": "hist/marcus_aurelius.jpg",
+   "mov": "dir",
+   "txt": "Estudou, rezou, jejuou e começou a pregar. E aqui vem um detalhe que pouca gente conta: no começo, ele era um pregador fraco. Nas primeiras vezes em Florença, pouca gente se interessou."
+  },
+  {
+   "gravura": "hist/moses.jpg",
+   "mov": "cima",
+   "txt": "Ele foi pregar em outras cidades e foi mudando. Passou a falar como quem anuncia uma tempestade: a Igreja precisava de reforma, a Itália seria castigada e depois renovada."
+  },
+  {
+   "gravura": "lorenzo.jpg",
+   "mov": "in",
+   "txt": "Em 1490, ele volta para o convento de San Marco, em Florença. Quem comandava a cidade, sem título oficial, era Lourenço de Médici, o Magnífico, mecenas de artistas e mestre da política."
+  },
+  {
+   "gravura": "acervo/botticelli_giuliano_de_medici_accademia_carrara.jpg",
+   "mov": "out",
+   "txt": "Os relatos dizem que a volta teve o apoio do próprio Lourenço. E aí está a ironia: o frade que voltou com a ajuda dos Médici passou a atacar o luxo e o poder da família que mandava na cidade."
+  },
+  {
+   "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+   "mov": "esq",
+   "txt": "Em 1491, ele vira prior de San Marco. Os primeiros biógrafos contam que ele não foi agradecer a Lourenço, como era costume. Dizia que devia o cargo a Deus, não a um homem."
+  },
+  {
+   "gravura": "lorenzo.jpg",
+   "mov": "dir",
+   "txt": "Lourenço morreu em abril de 1492. Existe uma história famosa de que Savonarola foi ao leito dele e negou o perdão. Mas os relatos da época não batem, e muitos historiadores tratam isso como lenda."
+  },
+  {
+   "gravura": "acervo/castiglione_raffaello.jpg",
+   "mov": "cima",
+   "txt": "Primeira lição: uma voz forte não precisa de cargo para ganhar poder. Ela precisa de plateia e de um momento de medo. E o momento de medo estava chegando."
+  },
+  {
+   "gravura": "acervo/albrecht_altdorfer_schlacht_bei_issus_alte_pinak.jpg",
+   "mov": "in",
+   "txt": "Savonarola pregava que um castigo viria do outro lado dos Alpes. Falava de um novo Ciro, o rei antigo que a Bíblia descreve como instrumento de Deus. Muita gente achava exagero.",
+   "cap": {
+    "sup": "LIÇÃO 2",
+    "txt": "A profecia que se cumpriu"
+   }
+  },
+  {
+   "gravura": "acervo/rendicao_granada_pradilla.jpg",
+   "mov": "out",
+   "txt": "Em 1494, o rei Carlos Oitavo, da França, desce com um exército enorme pela Itália. Ele queria o reino de Nápoles, e Florença estava bem no caminho."
+  },
+  {
+   "gravura": "acervo/sandro_botticelli_giuliano_de_medici_gem_ldegale.jpg",
+   "mov": "esq",
+   "txt": "Quem comandava Florença agora era Piero de Médici, filho de Lourenço. Com medo, Piero foi até o rei e entregou fortalezas importantes sem consultar a cidade. Os florentinos se sentiram traídos."
+  },
+  {
+   "gravura": "acervo/multidao_bruegel.jpg",
+   "mov": "dir",
+   "txt": "Em novembro de 1494, o povo se revolta e os Médici fogem. Para muita gente, era a profecia do frade se cumprindo na frente de todos. O castigo tinha mesmo vindo do outro lado das montanhas."
+  },
+  {
+   "gravura": "hist/girolamo_savonarola.jpg",
+   "mov": "cima",
+   "txt": "Savonarola foi um dos enviados para falar com o rei francês. Tratou Carlos como alguém mandado por Deus, mas avisou que ele também seria julgado se não cumprisse a missão."
+  },
+  {
+   "gravura": "cesar.jpg",
+   "mov": "in",
+   "txt": "Maquiavel diria que ali o frade encontrou a sua ocasião. No capítulo seis de O Príncipe, ele explica que até os grandes fundadores precisaram de um momento certo para que o talento aparecesse.",
+   "verso": "Sem a ocasião, a virtude se apagaria; sem a virtude, a ocasião viria em vão.",
+   "ref": "O PRÍNCIPE, CAP. VI"
+  },
+  {
+   "gravura": "hist/bonfire_of_the_vanities.jpg",
+   "mov": "out",
+   "txt": "E isso vale pra sua vida: crise abre espaço para quem tem uma mensagem clara. Quando todo mundo está com medo, quem explica o que está acontecendo ganha autoridade muito rápido."
+  },
+  {
+   "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+   "mov": "esq",
+   "txt": "Pausa rápida. Repara no que aconteceu: um frade sem exército, sem dinheiro e sem cargo acabou de ver a família mais poderosa da cidade fugir. Até aqui, faz sentido pra você?",
+   "interage": {
+    "tipo": "checkin",
+    "txt": "A crise abriu a porta. Faz sentido?"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "acervo/coroacao_napoleao_david.jpg",
+   "mov": "dir",
+   "txt": "Com os Médici fora, Florença precisava de um novo governo. Savonarola defendeu do púlpito um Conselho Maior, uma grande assembleia de cidadãos. E o conselho foi criado em dezembro de 1494.",
+   "cap": {
+    "sup": "LIÇÃO 3",
+    "txt": "A cidade que virou convento"
+   }
+  },
+  {
+   "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+   "mov": "cima",
+   "txt": "Para receber esse conselho, construíram um salão enorme no Palazzo Vecchio, o Salão dos Quinhentos. O frade não tinha cargo, mas as ideias dele estavam virando lei."
+  },
+  {
+   "gravura": "hist/girolamo_savonarola.jpg",
+   "mov": "in",
+   "txt": "Ele chegou a proclamar que o verdadeiro rei de Florença era Cristo. E a cidade, famosa pelo comércio, pelos banqueiros e pelas festas, começou a mudar de cara."
+  },
+  {
+   "gravura": "acervo/romanos_decadencia_couture.jpg",
+   "mov": "out",
+   "txt": "Jogos de azar foram atacados e as roupas de luxo viraram motivo de vergonha. Grupos de meninos, organizados pelos seguidores do frade, iam de casa em casa recolhendo as chamadas vaidades."
+  },
+  {
+   "gravura": "hist/bonfire_of_the_vanities.jpg",
+   "mov": "esq",
+   "txt": "No carnaval de 1497, montaram uma enorme pilha na Piazza della Signoria. Espelhos, perfumes, cartas de baralho, roupas finas, livros e quadros. E puseram fogo em tudo. Foi a fogueira das vaidades."
+  },
+  {
+   "gravura": "acervo/sandro_botticelli_giuliano_de_medici_gem_ldegale.jpg",
+   "mov": "dir",
+   "txt": "Uma tradição antiga diz que até o pintor Botticelli teria jogado quadros seus no fogo. Não existe prova segura disso. É mais uma das histórias que cresceram junto com a fama do frade."
+  },
+  {
+   "gravura": "acervo/multidao_bruegel.jpg",
+   "mov": "cima",
+   "txt": "E o mais impressionante: muita gente fazia aquilo por vontade própria. Não era só medo. Era entusiasmo. A cidade estava convencida, e uma multidão convencida parece invencível."
+  },
+  {
+   "gravura": "acervo/castiglione_raffaello.jpg",
+   "mov": "in",
+   "txt": "Só que entusiasmo tem prazo. Ele depende de resultado. E nos anos seguintes, Florença viveu fome, peste, uma guerra para recuperar Pisa e dinheiro curto. As promessas começaram a pesar."
+  },
+  {
+   "gravura": "hist/marcus_aurelius.jpg",
+   "mov": "out",
+   "txt": "Maquiavel resume isso numa frase só: a natureza dos povos é variável. É fácil convencer as pessoas de alguma coisa. Difícil é manter as pessoas convencidas.",
+   "verso": "É fácil persuadir o povo de uma coisa, mas difícil mantê-lo nessa persuasão.",
+   "ref": "O PRÍNCIPE, CAP. VI"
+  },
+  {
+   "gravura": "acervo/embaixadores_holbein.jpg",
+   "mov": "esq",
+   "txt": "Pensa no seu trabalho. Quantas vezes uma ideia nova foi aplaudida na reunião e, três meses depois, ninguém mais lembrava dela? O aplauso é o começo, não é garantia."
+  },
+  {
+   "gravura": "lorenzo.jpg",
+   "mov": "dir",
+   "txt": "Me conta uma coisa nos comentários: você já começou algo com todo mundo animado do seu lado e, no meio do caminho, se viu sozinho? Na empresa, na igreja, na família?",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "Já começou animado e ficou só?"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "hist/pope_alexander_vi.jpg",
+   "mov": "cima",
+   "txt": "Agora entra o adversário mais perigoso. O papa era Alexandre Sexto, Rodrigo Bórgia, pai de César Bórgia. E Savonarola pregava abertamente contra a corrupção de Roma.",
+   "cap": {
+    "sup": "LIÇÃO 4",
+    "txt": "O papa contra o frade"
+   }
+  },
+  {
+   "gravura": "borgia.jpg",
+   "mov": "in",
+   "txt": "E tinha política no meio. O papa queria Florença numa liga contra os franceses, e o frade era o maior defensor da aliança com a França. Era um problema religioso e diplomático ao mesmo tempo."
+  },
+  {
+   "gravura": "hist/pope_julius_ii.jpg",
+   "mov": "out",
+   "txt": "Em 1495, o papa manda Savonarola parar de pregar. Ele obedece por um tempo e depois volta ao púlpito. Em maio de 1497, vem a excomunhão."
+  },
+  {
+   "gravura": "hist/girolamo_savonarola.jpg",
+   "mov": "esq",
+   "txt": "Savonarola responde que a excomunhão era inválida e, no começo de 1498, volta a pregar em público. Agora Florença tinha um problema enorme: o papa ameaçava a cidade inteira por causa de um frade."
+  },
+  {
+   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "mov": "dir",
+   "txt": "Se essa história está te prendendo, segue o Raposa e Leão. Aqui cada lição de Maquiavel vem com a história real por trás e com o capítulo certo, pra você conferir.",
+   "interage": {
+    "tipo": "segue",
+    "txt": "Segue e acompanha a queda"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "acervo/coroacao_napoleao_david.jpg",
+   "mov": "cima",
+   "txt": "E se você gosta de gente que subiu e caiu, a playlist Personagens do poder tem os Bórgia, os Médici e os imperadores que Maquiavel estudou. Está aqui embaixo.",
+   "cta": "Siga a <b>Raposa e Leão</b><br>e maratone Personagens do poder"
+  },
+  {
+   "gravura": "maquiavel.jpg",
+   "mov": "in",
+   "txt": "Prometi lá no começo, então aqui está. Em março de 1498, um florentino de vinte e oito anos chamado Nicolau Maquiavel escreve uma carta a um amigo, Ricciardo Becchi, que estava em Roma.",
+   "cap": {
+    "sup": "LIÇÃO 5",
+    "txt": "O que o jovem Maquiavel viu"
+   }
+  },
+  {
+   "gravura": "acervo/embaixadores_holbein.jpg",
+   "mov": "out",
+   "txt": "Ele conta que foi ouvir os sermões em San Marco. E descreve tudo com olho de quem estuda o poder: o que o frade dizia, para quem dizia e como o discurso mudava conforme a situação."
+  },
+  {
+   "gravura": "hist/girolamo_savonarola.jpg",
+   "mov": "esq",
+   "txt": "A conclusão dele é dura. Na leitura de Maquiavel, o frade ia acompanhando os tempos e dando cor às suas mentiras. Ou seja: o discurso mudava conforme o perigo mudava.",
+   "verso": "Ele vai acompanhando os tempos e colorindo as suas mentiras.",
+   "ref": "CARTA A RICCIARDO BECCHI, 1498"
+  },
+  {
+   "gravura": "acervo/multidao_bruegel.jpg",
+   "mov": "dir",
+   "txt": "Repara no detalhe. Enquanto a multidão via um profeta, o jovem Maquiavel via um líder acuado, que carregava no ataque aos adversários para unir os seus e suavizava o tom quando o vento mudava."
+  },
+  {
+   "gravura": "acervo/castiglione_raffaello.jpg",
+   "mov": "cima",
+   "txt": "Isso é a raposa observando. Não importa só o que alguém fala, mas por que fala aquilo naquele momento. Essa forma de ler as pessoas virou a marca de tudo o que Maquiavel escreveu depois."
+  },
+  {
+   "gravura": "acervo/leao_x_raffaello.jpg",
+   "mov": "in",
+   "txt": "Só que, anos mais tarde, nos Discursos, ele fala do frade com outro tom. Diz que não vai julgar se Savonarola falava ou não com Deus, porque de um homem tão grande se deve falar com reverência.",
+   "verso": "De um homem tão grande se deve falar com reverência.",
+   "ref": "DISCURSOS, LIVRO I, CAP. 11"
+  },
+  {
+   "gravura": "acervo/julio_ii_raffaello.jpg",
+   "mov": "out",
+   "txt": "Então qual é o Maquiavel verdadeiro, o da carta ou o dos Discursos? Provavelmente os dois. Ele desconfiava do discurso, mas respeitava o homem que convenceu um povo inteiro. Guarda isso, porque volta no final."
+  },
+  {
+   "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+   "mov": "esq",
+   "txt": "Março de 1498. Um frade franciscano lança um desafio: se Savonarola fala mesmo em nome de Deus, que alguém do lado dele atravesse o fogo. Quem saísse vivo provaria a verdade.",
+   "cap": {
+    "sup": "LIÇÃO 6",
+    "txt": "A prova de fogo"
+   }
+  },
+  {
+   "gravura": "hist/girolamo_savonarola.jpg",
+   "mov": "dir",
+   "txt": "Quem aceita não é Savonarola. É um seguidor fiel dele, frei Domenico da Pescia. Do outro lado, um franciscano também é escolhido. A prova fica marcada para 7 de abril, na Piazza della Signoria."
+  },
+  {
+   "gravura": "acervo/multidao_bruegel.jpg",
+   "mov": "cima",
+   "txt": "Montaram um corredor de lenha na praça, a multidão lotou tudo e esperou um milagre. Então começaram as discussões: se o frade podia entrar com as vestes, se podia levar a hóstia, quem entraria primeiro."
+  },
+  {
+   "gravura": "hist/arco_severo.jpg",
+   "mov": "in",
+   "txt": "As horas foram passando. Caiu uma chuva forte. No fim do dia, as autoridades cancelaram tudo. Ninguém entrou no fogo, e a multidão voltou pra casa sem milagre e sem resposta."
+  },
+  {
+   "gravura": "acervo/pollice_verso_gerome.jpg",
+   "mov": "out",
+   "txt": "Pensa no efeito disso. Uma multidão que esperava um sinal e não recebeu nada sente que foi enganada. A fé que tinha levantado o frade virou raiva contra ele em uma noite."
+  },
+  {
+   "gravura": "acervo/prisao_cristo_caravaggio.jpg",
+   "mov": "esq",
+   "txt": "No dia seguinte, Domingo de Ramos, uma multidão ataca o convento de San Marco. Houve luta e mortes. Savonarola é preso junto com frei Domenico e outro companheiro, frei Silvestro."
+  },
+  {
+   "gravura": "acervo/beijo_judas_giotto.jpg",
+   "mov": "dir",
+   "txt": "E aqui vem a parte mais amarga: muitos que gritavam o nome dele meses antes agora pediam o seu fim. Era a mesma cidade. As pessoas não tinham mudado. A crença delas é que tinha mudado."
+  },
+  {
+   "gravura": "hist/caracalla.jpg",
+   "mov": "cima",
+   "txt": "Ele foi interrogado sob tortura, como era comum na época. As confissões foram registradas e, segundo vários historiadores, alteradas por quem conduziu o processo. O que ele confessou de verdade ainda é debatido."
+  },
+  {
+   "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+   "mov": "in",
+   "txt": "Em 23 de maio de 1498, os três frades foram enforcados e queimados na Piazza della Signoria, quase no mesmo lugar das fogueiras das vaidades. As cinzas foram jogadas no rio Arno."
+  },
+  {
+   "gravura": "maquiavel.jpg",
+   "mov": "out",
+   "txt": "E agora a coincidência que liga tudo. Poucas semanas depois, em junho de 1498, Maquiavel é escolhido para chefiar a Segunda Chancelaria da república. A carreira dele começa sobre as cinzas do frade."
+  },
+  {
+   "gravura": "acervo/vercingetorix_royer.jpg",
+   "mov": "esq",
+   "txt": "Agora a segunda promessa, a da lei. Pra entender a queda, a gente precisa voltar ao verão de 1497. Porque o frade começou a cair antes da prova de fogo.",
+   "cap": {
+    "sup": "LIÇÃO 7",
+    "txt": "A lei que ele deixou de lado"
+   }
+  },
+  {
+   "gravura": "acervo/coroacao_napoleao_david.jpg",
+   "mov": "dir",
+   "txt": "Em 1495, Savonarola tinha defendido uma lei importante: quem fosse condenado por crime contra o Estado podia apelar ao Conselho Maior, ou seja, ao povo. Era uma proteção contra perseguição."
+  },
+  {
+   "gravura": "acervo/botticelli_giuliano_de_medici_accademia_carrara.jpg",
+   "mov": "cima",
+   "txt": "Em agosto de 1497, cinco cidadãos importantes foram condenados à morte por conspirar pela volta dos Médici. Eles pediram para usar justamente essa lei e apelar ao conselho."
+  },
+  {
+   "gravura": "hist/girolamo_savonarola.jpg",
+   "mov": "in",
+   "txt": "A apelação foi negada, e os cinco foram executados. E Savonarola, o homem que tinha defendido a lei, não agiu para que ela fosse cumprida."
+  },
+  {
+   "gravura": "hist/marcus_aurelius.jpg",
+   "mov": "out",
+   "txt": "Maquiavel comenta esse episódio nos Discursos. Diz que isso tirou mais reputação do frade do que qualquer outro acontecimento, porque mostrou alguém que defendia a regra só quando ela servia ao seu lado.",
+   "verso": "Isso tirou mais reputação ao frade do que qualquer outro acontecimento.",
+   "ref": "DISCURSOS, LIVRO I, CAP. 45"
+  },
+  {
+   "gravura": "hist/marcus_equestre.jpg",
+   "mov": "esq",
+   "txt": "Repara como isso é atual. A pessoa defende uma regra bonita, mas, quando a regra atrapalha o grupo dela, fica calada. Quem estava em cima do muro percebe. E a confiança vai embora devagar."
+  },
+  {
+   "gravura": "acervo/castiglione_raffaello.jpg",
+   "mov": "dir",
+   "txt": "No trabalho e em casa vale o mesmo. A sua palavra só tem peso se valer também quando custa caro pra você. É isso que faz alguém confiar em você na hora difícil."
+  },
+  {
+   "gravura": "hist/hannibal.jpg",
+   "mov": "cima",
+   "txt": "Salva esse vídeo e volta nele antes de uma decisão difícil. Pergunta pra você mesmo: eu defenderia essa regra se ela estivesse contra mim? Essa pergunta evita muito arrependimento.",
+   "interage": {
+    "tipo": "salva",
+    "txt": "Salva: a regra vale pra mim?"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "hist/pope_alexander_vi.jpg",
+   "mov": "in",
+   "txt": "Então, quando a prova de fogo fracassou, o frade já tinha perdido o papa, os ricos que queriam os Médici, os moderados assustados com as execuções e boa parte da paciência do povo. Faltava só o empurrão."
+  },
+  {
+   "gravura": "hist/moses.jpg",
+   "mov": "out",
+   "txt": "Agora a frase que tornou Savonarola eterno. No capítulo seis de O Príncipe, Maquiavel fala de quem tenta criar uma ordem nova. E dá como exemplo Moisés, Ciro, Rômulo e Teseu.",
+   "cap": {
+    "sup": "LIÇÃO 8",
+    "txt": "O profeta desarmado"
+   }
+  },
+  {
+   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "mov": "esq",
+   "txt": "E então escreve: todos os profetas armados venceram, e os desarmados se arruinaram. Logo em seguida, ele cita o nome do frade como o exemplo do seu tempo.",
+   "verso": "Todos os profetas armados venceram, e os desarmados se arruinaram.",
+   "ref": "O PRÍNCIPE, CAP. VI"
+  },
+  {
+   "gravura": "hist/girolamo_savonarola.jpg",
+   "mov": "dir",
+   "txt": "Savonarola, diz ele, caiu junto com a sua ordem nova assim que a multidão deixou de acreditar. Não tinha como manter firmes os que tinham acreditado, nem como fazer crer os descrentes.",
+   "verso": "Não tinha modo de manter firmes os que haviam crido, nem de fazer crer os descrentes.",
+   "ref": "O PRÍNCIPE, CAP. VI"
+  },
+  {
+   "gravura": "acervo/albrecht_altdorfer_schlacht_bei_issus_alte_pinak.jpg",
+   "mov": "cima",
+   "txt": "Atenção para não ler errado. Maquiavel não está mandando ninguém pegar em armas pra convencer os outros. Ele está dizendo que a fé sozinha não sustenta uma mudança quando o entusiasmo acaba."
+  },
+  {
+   "gravura": "cesar.jpg",
+   "mov": "in",
+   "txt": "No mesmo capítulo, ele avisa que nada é mais difícil do que liderar uma mudança. Quem ganhava com a ordem antiga vira inimigo, e quem ganharia com a nova defende sem muita vontade.",
+   "verso": "Não há coisa mais difícil do que se fazer chefe de uma nova ordem.",
+   "ref": "O PRÍNCIPE, CAP. VI"
+  },
+  {
+   "gravura": "acervo/julio_ii_raffaello.jpg",
+   "mov": "out",
+   "txt": "Por que sem vontade? Porque as pessoas, diz ele, não acreditam de verdade nas coisas novas até ver uma experiência firme. Enquanto não existe resultado, todo apoio é emprestado.",
+   "verso": "Os homens não creem nas coisas novas se não as virem nascer de experiência firme.",
+   "ref": "O PRÍNCIPE, CAP. VI"
+  },
+  {
+   "gravura": "hist/alexander_the_great.jpg",
+   "mov": "esq",
+   "txt": "E tem um exemplo no fim desse capítulo: Hierão, que de cidadão comum virou senhor de Siracusa. Ele desfez a milícia antiga, criou uma nova e escolheu os próprios aliados. Teve trabalho pra conquistar e pouco pra manter.",
+   "verso": "Teve muito trabalho para conquistar e pouco para manter.",
+   "ref": "O PRÍNCIPE, CAP. VI"
+  },
+  {
+   "gravura": "acervo/ferdinand_of_aragon_isabella_of_castile.jpg",
+   "mov": "dir",
+   "txt": "Esse é o contraste. Hierão construiu a estrutura antes de precisar dela. Savonarola construiu um movimento, mas a estrutura nunca foi dele: os guardas, o governo e o tribunal estavam na mão de outros."
+  },
+  {
+   "gravura": "maquiavel.jpg",
+   "mov": "cima",
+   "txt": "E aqui eu fecho o que ficou aberto na carta. Maquiavel desconfiava do discurso do frade, mas respeitava o homem. A crítica dele não é contra a fé de ninguém. É contra a ideia de que palavra bonita basta."
+  },
+  {
+   "gravura": "acervo/embaixadores_holbein.jpg",
+   "mov": "in",
+   "txt": "Agora a promessa maior: quais são as armas de um profeta hoje? Traduzindo Maquiavel pra vida comum, sem violência e sem manipular ninguém, eu vejo quatro.",
+   "cap": {
+    "sup": "LIÇÃO 9",
+    "txt": "As suas armas"
+   }
+  },
+  {
+   "gravura": "acervo/hannibal_and_scipio_africanus.jpg",
+   "mov": "out",
+   "txt": "A primeira é a estrutura. Processo escrito, acordo assinado, rotina que funciona mesmo quando você não está motivado. Ideia sem estrutura depende do humor das pessoas, e humor muda."
+  },
+  {
+   "gravura": "hist/ferdinand_ii_of_aragon.jpg",
+   "mov": "esq",
+   "txt": "A segunda é o resultado. Lembra que as pessoas só acreditam de verdade depois de ver experiência firme? Então mostre pequenas vitórias cedo. Cada resultado segura quem já acreditava."
+  },
+  {
+   "gravura": "lorenzo.jpg",
+   "mov": "dir",
+   "txt": "A terceira são aliados de verdade. Gente que está com você pelo que vocês constroem juntos, não pela emoção de um dia. Hierão escolheu os próprios amigos. Escolha os seus com calma."
+  },
+  {
+   "gravura": "acervo/vercingetorix_royer.jpg",
+   "mov": "cima",
+   "txt": "A quarta é a coerência. A regra que você defende vale pra você e pro seu grupo também. Foi aí que o frade mais perdeu reputação, e é aí que muita liderança cai hoje."
+  },
+  {
+   "gravura": "hist/girolamo_savonarola.jpg",
+   "mov": "in",
+   "txt": "Repara que nenhuma dessas armas serve pra enganar ninguém. Elas protegem a sua ideia do único inimigo que todo projeto tem: o dia em que a empolgação acaba."
+  },
+  {
+   "gravura": "acervo/cesar_assassinato_camuccini.jpg",
+   "mov": "out",
+   "txt": "Então pensa num projeto seu agora. Um negócio, uma mudança na família, uma meta de saúde. Se a empolgação acabasse amanhã, o que manteria isso de pé? Se a resposta for nada, você ainda está desarmado."
+  },
+  {
+   "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+   "mov": "esq",
+   "txt": "Resumindo a história. Savonarola tinha a voz, a crise e a multidão. Teve a ocasião. Mas, quando a fé mudou de lado, não havia estrutura, resultado, aliados nem coerência pra segurar."
+  },
+  {
+   "gravura": "acervo/multidao_bruegel.jpg",
+   "mov": "dir",
+   "txt": "Manda esse vídeo pra aquela pessoa que tem uma ideia brilhante e nenhum plano. Às vezes ela só precisa ouvir que paixão sem estrutura não dura.",
+   "interage": {
+    "tipo": "manda",
+    "txt": "Manda pra quem só tem paixão"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "maquiavel.jpg",
+   "mov": "cima",
+   "txt": "E me conta nos comentários: das quatro armas, qual está faltando no seu projeto hoje? Estrutura, resultado, aliados ou coerência? Eu leio todos."
+  },
+  {
+   "gravura": "borgia.jpg",
+   "mov": "in",
+   "txt": "No próximo vídeo da playlist Personagens do poder, você conhece César Bórgia, o filho do papa que excomungou o frade, e o homem que Maquiavel viu agir com armas próprias. Até a próxima lição, raposa.",
+   "cta": "Até a próxima <b>lição</b>,<br>raposa",
+   "selo": "RAPOSA<br>E LEÃO"
+  }
+ ]
+}
