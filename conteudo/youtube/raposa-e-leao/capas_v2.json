@@ -284,5 +284,34 @@
    "tag": "SAVONAROLA E MAQUIAVEL",
    "marca": "RAPOSA E LEÃO"
   }
+ },
+ "longo-06": {
+  "A": {
+   "estilo": "close",
+   "tag": "MAQUIAVEL NA PRÁTICA",
+   "marca": "RAPOSA E LEÃO",
+   "zoom": 1.0,
+   "grav": "acervo/botticelli_giuliano_de_medici_accademia_carrara.jpg",
+   "foco": [
+    0.5,
+    0.3
+   ],
+   "txt": "ELE SÓ <b>CONCORDA</b>",
+   "lado": "dir"
+  },
+  "B": {
+   "estilo": "close",
+   "tag": "MAQUIAVEL NA PRÁTICA",
+   "marca": "RAPOSA E LEÃO",
+   "zoom": 1.0,
+   "grav": "acervo/julio_ii_raffaello.jpg",
+   "foco": [
+    0.72,
+    0.3
+   ],
+   "txt": "BAJULADOR <b>À VISTA</b>",
+   "lado": "dir",
+   "fs": 120
+  }
  }
 }
