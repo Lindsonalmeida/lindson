@@ -1,0 +1,218 @@
+<!doctype html><html lang="pt-BR"><meta charset="utf-8"><title>Dra. Jaci Cunha · Manual de identidade v1</title>
+<!-- Conta Lindson, 01/11/2026. Renderizar com render.js (Playwright). Fontes: Fraunces e Manrope (Google Fonts). -->
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,300..800,0..100&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="marca.js"></script>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Manrope;color:#1F2B2C;-webkit-font-smoothing:antialiased}
+.p{width:1080px;height:1350px;position:relative;overflow:hidden;page-break-after:always;background:#F6F0E8}
+.f{font-family:Fraunces;font-variation-settings:'SOFT' 80,'opsz' 144;letter-spacing:-.02em}
+.h{font-family:Fraunces;font-variation-settings:'SOFT' 80,'opsz' 144;font-weight:560;font-size:104px;line-height:.95;margin:0;letter-spacing:-.025em}
+.h em{font-style:italic;font-weight:400}
+.k{font-weight:700;font-size:14px;letter-spacing:.3em;text-transform:uppercase}
+.lead{font-size:23px;line-height:1.55;max-width:800px;margin:0}
+.top{position:absolute;left:72px;right:72px;top:56px;display:flex;justify-content:space-between;align-items:center;z-index:40}
+.top .k{font-size:12px}
+.bot{position:absolute;left:72px;right:72px;bottom:44px;display:flex;justify-content:space-between;z-index:40;font-size:11px;letter-spacing:.3em;text-transform:uppercase;font-weight:700;opacity:.5}
+.card{background:#fff;border-radius:26px;box-shadow:0 1px 0 #0F4C4A10,0 30px 60px -34px #0F4C4A55}
+.lb{font-size:13px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;opacity:.6;margin-top:14px}
+.x{font-size:17px;line-height:1.5;margin:6px 0 0}
+.ph{border-radius:24px;position:relative;overflow:hidden;display:flex;align-items:flex-end;padding:22px;color:#fff;font-weight:700;font-size:15px;letter-spacing:.06em}
+.ph::before{content:"";position:absolute;inset:0;background:radial-gradient(60% 50% at 50% 40%,#ffffff40,transparent 70%)}
+.ph span{position:relative;background:#0F4C4ACC;padding:8px 12px;border-radius:10px}
+</style><body><script>
+const T=19;
+const top_=(sec,n,c=C.p)=>`<div class="top" style="color:${c}"><span class="k">${sec}</span><span class="k">${String(n).padStart(2,'0')} / ${T}</span></div>`;
+const bot_=(c=C.p)=>`<div class="bot" style="color:${c}"><span>Dra. Jaci Cunha · Manual de identidade</span><span>Cuidado especializado, perto de você.</span></div>`;
+const pat=sorriso({id:'ls1',fg:'#8FD3C733',dot:'#F07F6733',sc:1.4});
+const patD=sorriso({id:'ls2',fg:'#ffffff16',dot:'#F07F6740',sc:1.4});
+const P=[];
+const sw=(hex,n,rgb,cmyk,t='#fff',b='')=>`<div style="background:${hex};color:${t};border-radius:24px;padding:26px;display:flex;flex-direction:column;justify-content:flex-end;${b}"><div class="f" style="font-size:34px;font-weight:560">${n}</div><div style="font-size:15px;line-height:1.7;margin-top:8px;opacity:.9">${hex}<br>RGB ${rgb}<br>CMYK ${cmyk}</div></div>`;
+
+// 01 CAPA
+P.push(`<div class="p" style="background:radial-gradient(80% 60% at 30% 30%,#14605D 0%,#0F4C4A 55%,#0A3634 100%);color:#fff">
+<svg style="position:absolute;inset:0" viewBox="0 0 1080 1350"><defs>${patD.def}</defs><rect width="1080" height="1350" fill="url(#ls2)"/></svg>
+<div style="position:absolute;right:-180px;top:180px;opacity:.95">${mono({s:900,cc:'#ffffff',jc:C.v,dc:C.o,sw:7})}</div>
+<div style="position:absolute;left:72px;top:64px">${lockup({fs:40,cc:'#fff',jc:C.v,dc:C.o,t1:'#fff',t2:'#ffffffcc'})}</div>
+<div style="position:absolute;left:72px;right:72px;bottom:80px">
+<div class="k" style="color:${C.v}">Manual de identidade visual · v1</div>
+<h1 class="h" style="font-size:132px;margin-top:22px">Cuidado<br><em>especializado,</em><br>perto de você.</h1>
+<div class="k" style="margin-top:40px;opacity:.75;line-height:2">Odontologia especializada · Zé Doca, Maranhão</div></div></div>`);
+
+// 02 SUMÁRIO
+const SUM=[['Essência','03'],['O símbolo','04'],['Assinatura principal','05'],['Versões','06'],['Proteção e usos incorretos','07'],['Paleta','08'],['Combinações e contraste','09'],['Tipografia','10'],['Linha do sorriso','11'],['Ícones','12'],['Estilo de foto','13'],['Instagram: feed','14'],['Stories, destaques e avatar','15'],['Papelaria','16'],['Clínica e equipe','17'],['Tom de voz e regras do CFO','18']];
+P.push(`<div class="p">${top_('Sumário',2)}<div style="position:absolute;left:72px;top:150px"><h2 class="h">O que<br><em>tem aqui</em></h2></div>
+<div style="position:absolute;left:72px;right:72px;top:400px">${SUM.map(([t,n])=>`<div style="display:flex;align-items:baseline;justify-content:space-between;padding:10px 0;border-top:1.5px solid #0F4C4A22"><span class="f" style="font-size:27px;font-weight:500;color:${C.p}">${t}</span><span class="k" style="color:${C.c}">${n}</span></div>`).join('')}</div>${bot_()}</div>`);
+
+// 03 ESSÊNCIA
+P.push(`<div class="p" style="background:${C.p};color:#fff">${top_('01 · Essência',3,'#fff')}
+<svg style="position:absolute;inset:0" viewBox="0 0 1080 1350"><defs>${patD.def}</defs><rect width="1080" height="1350" fill="url(#ls2)"/></svg>
+<div style="position:absolute;left:72px;right:72px;top:150px"><div class="k" style="color:${C.v}">A grande ideia</div>
+<h2 class="h" style="font-size:110px;margin-top:22px">Especialista<br>sem precisar<br><em>viajar.</em></h2>
+<p class="lead" style="margin-top:36px;color:#ffffffdd">Quem mora em Zé Doca e região não precisa ir a São Luís ou Imperatriz para tratar com especialista. A Dra. Jaci Cunha traz a odontologia especializada para perto de casa, com o acolhimento de quem conhece cada paciente pelo nome.</p></div>
+<div style="position:absolute;left:72px;right:72px;bottom:110px;display:grid;grid-template-columns:repeat(3,1fr);gap:20px">
+${[['Propósito','Fazer o paciente de Zé Doca e região sorrir sem medo e sem viajar.'],['Personalidade','Acolhedora, segura, moderna e próxima. Especialista sem ser fria.'],['Tom de voz','Simples e calmo, como a dentista que explica tudo com paciência na cadeira.']].map(([t,x])=>`<div style="background:#ffffff12;border:1px solid #ffffff22;border-radius:22px;padding:26px"><div class="k" style="color:${C.v};font-size:12px">${t}</div><p class="x" style="margin-top:12px;color:#fff">${x}</p></div>`).join('')}</div>${bot_('#fff')}</div>`);
+
+// 04 SÍMBOLO
+P.push(`<div class="p">${top_('02 · O símbolo',4)}
+<div style="position:absolute;left:72px;top:140px"><h2 class="h">Um sorriso,<br><em>três gestos</em></h2></div>
+<div style="position:absolute;left:240px;top:420px;width:600px;height:600px">
+<svg viewBox="0 0 100 100" width="600" height="600" style="position:absolute;inset:0"><g stroke="${C.p}" stroke-width=".15" fill="none" opacity=".35">${[...Array(11)].map((_,i)=>`<path d="M${i*10} 0V100M0 ${i*10}H100"/>`).join('')}<circle cx="50" cy="50" r="40"/><circle cx="46" cy="54.5" r="14"/></g></svg>
+<div style="position:absolute;inset:0">${mono({s:600})}</div></div>
+<div style="position:absolute;left:72px;right:72px;bottom:100px;display:grid;grid-template-columns:repeat(3,1fr);gap:28px">
+${[[C.p,'O C aberto','O cuidado que acolhe e envolve o paciente, sem fechar a porta.'],[C.c,'A curva do J','O sorriso. É a inicial da Dra. Jaci e o resultado do tratamento.'],[C.o,'O ponto','O brilho do sorriso e o olhar atento da especialista.']].map(([c,t,x])=>`<div><div style="height:6px;width:64px;border-radius:9px;background:${c}"></div><div class="f" style="font-size:32px;font-weight:560;margin-top:18px;color:${C.p}">${t}</div><p class="x">${x}</p></div>`).join('')}</div>${bot_()}</div>`);
+
+// 05 ASSINATURA PRINCIPAL
+P.push(`<div class="p">${top_('03 · Assinatura',5)}<div style="position:absolute;left:72px;top:140px"><h2 class="h">Assinatura<br><em>principal</em></h2></div>
+<div class="card" style="position:absolute;left:72px;right:72px;top:420px;height:440px;display:flex;align-items:center;justify-content:center">${lockup({fs:72})}</div>
+<div style="position:absolute;left:72px;right:72px;top:900px;display:grid;grid-template-columns:1fr 1fr;gap:20px">
+<div class="card" style="height:250px;background:${C.p};display:flex;align-items:center;justify-content:center">${lockup({fs:40,cc:'#fff',jc:C.v,dc:C.o,t1:'#fff',t2:'#ffffffcc'})}</div>
+<div class="card" style="height:250px;background:${C.v};display:flex;align-items:center;justify-content:center">${lockup({fs:40,cc:C.p,jc:C.p,dc:C.c,t1:C.p,t2:C.p})}</div></div>
+<p class="x" style="position:absolute;left:72px;right:72px;bottom:100px">O nome em Fraunces traz o calor de uma assinatura; o descritor em Manrope, com letras espaçadas, traz a precisão da especialista. Use a assinatura principal sempre que houver espaço.</p>${bot_()}</div>`);
+
+// 06 VERSÕES
+P.push(`<div class="p">${top_('04 · Versões',6)}<div style="position:absolute;left:72px;top:140px"><h2 class="h">Uma marca,<br><em>vários formatos</em></h2></div>
+<div style="position:absolute;left:72px;right:72px;top:420px;display:grid;grid-template-columns:1fr 1fr;gap:20px">
+<div class="card" style="height:330px;display:flex;flex-direction:column;align-items:center;justify-content:center">${lockup({fs:30,dir:'v',city:'Zé Doca · MA'})}<div class="lb">Vertical</div></div>
+<div class="card" style="height:330px;display:flex;flex-direction:column;align-items:center;justify-content:center">${mono({s:170})}<div class="lb">Símbolo (avatar, ícone, bordado)</div></div>
+<div class="card" style="height:330px;display:flex;flex-direction:column;align-items:center;justify-content:center">${lockup({fs:34,cc:C.g,jc:C.g,dc:C.g,t1:C.g,t2:C.g})}<div class="lb">Monocromática</div></div>
+<div class="card" style="height:330px;background:${C.g};display:flex;flex-direction:column;align-items:center;justify-content:center;color:#fff">${lockup({fs:34,cc:'#fff',jc:'#fff',dc:'#fff',t1:'#fff',t2:'#fff'})}<div class="lb" style="color:#fff">Negativa (1 cor)</div></div></div>
+<p class="x" style="position:absolute;left:72px;right:72px;bottom:100px">Monocromática e negativa servem para carimbo, receituário em 1 cor, bordado, gravação a laser e fundos fotográficos.</p>${bot_()}</div>`);
+
+// 07 PROTEÇÃO E USOS INCORRETOS
+const wrong=(st,t)=>`<div><div class="card" style="height:150px;display:flex;align-items:center;justify-content:center;overflow:hidden;position:relative"><div style="${st}">${lockup({fs:22})}</div><svg style="position:absolute;inset:0" viewBox="0 0 100 100" preserveAspectRatio="none"><path d="M8 92L92 8" stroke="${C.c}" stroke-width="1.2"/></svg></div><div class="lb">${t}</div></div>`;
+P.push(`<div class="p">${top_('05 · Proteção',7)}<div style="position:absolute;left:72px;top:140px"><h2 class="h">Espaço para<br><em>respirar</em></h2></div>
+<div class="card" style="position:absolute;left:72px;width:560px;top:420px;height:330px;display:flex;align-items:center;justify-content:center"><div style="outline:2px dashed ${C.c};outline-offset:44px">${lockup({fs:30})}</div></div>
+<div style="position:absolute;left:670px;right:72px;top:430px"><div class="f" style="font-size:30px;font-weight:560;color:${C.p}">Área de proteção</div><p class="x">Em volta da marca, deixe livre a altura do símbolo dividida por 2. Nenhum texto ou imagem entra nesse espaço.</p>
+<div class="f" style="font-size:30px;font-weight:560;color:${C.p};margin-top:26px">Tamanho mínimo</div><p class="x">Assinatura: 35 mm ou 180 px de largura.<br>Símbolo: 8 mm ou 24 px.</p></div>
+<div class="k" style="position:absolute;left:72px;top:800px;color:${C.c}">Nunca faça</div>
+<div style="position:absolute;left:72px;right:72px;top:840px;display:grid;grid-template-columns:repeat(3,1fr);gap:18px">
+${wrong('transform:scaleX(1.5)','Esticar ou achatar')+wrong('filter:hue-rotate(160deg)','Trocar as cores')+wrong('transform:rotate(-14deg)','Girar')+wrong('filter:drop-shadow(6px 6px 2px #000a)','Sombra e efeitos')+wrong('opacity:.25','Baixo contraste')+wrong('font-style:italic;filter:blur(1px)','Distorcer ou desfocar')}</div>${bot_()}</div>`);
+
+// 08 PALETA
+P.push(`<div class="p">${top_('06 · Paleta',8)}<div style="position:absolute;left:72px;top:140px"><h2 class="h">Cores que<br><em>acalmam</em></h2></div>
+<div style="position:absolute;left:72px;right:72px;top:420px;display:grid;grid-template-columns:1.4fr 1fr;grid-template-rows:300px 200px 200px;gap:18px">
+${sw(C.p,'Petróleo Cuidado','15 76 74','85 35 55 40','#fff','grid-row:span 2')}
+${sw(C.v,'Verde-água Sorriso','143 211 199','40 0 25 0',C.p)}
+${sw(C.c,'Coral Acolhida','240 127 103','0 60 55 0',C.g)}
+${sw(C.o,'Champanhe','200 164 107','20 35 65 5',C.g)}
+${sw(C.g,'Grafite','31 43 44','75 55 55 65','#fff')}</div>
+<div style="position:absolute;left:72px;right:72px;bottom:96px;display:flex;gap:18px;align-items:center"><div style="width:120px;height:60px;border-radius:14px;background:${C.a};border:1px solid #0F4C4A30"></div><p class="x" style="margin:0"><b>Areia</b> · #F6F0E8 · RGB 246 240 232 · CMYK 2 4 8 0. Fundo principal: quente, limpo e longe do branco hospitalar.</p></div>${bot_()}</div>`);
+
+// 09 COMBINAÇÕES E CONTRASTE
+const cb=(bg,fg,t,ok)=>`<div style="background:${bg};color:${fg};border-radius:20px;padding:22px;height:150px;display:flex;flex-direction:column;justify-content:space-between;border:1px solid #0F4C4A18"><span class="f" style="font-size:34px;font-weight:560">Aa Sorriso</span><span style="font-size:13px;font-weight:700;letter-spacing:.1em">${t} · ${ok}</span></div>`;
+P.push(`<div class="p">${top_('07 · Combinações',9)}<div style="position:absolute;left:72px;top:140px"><h2 class="h">Proporção<br><em>e contraste</em></h2></div>
+<div style="position:absolute;left:72px;right:72px;top:410px;height:90px;border-radius:18px;overflow:hidden;display:flex">
+<div style="flex:60;background:${C.a};display:flex;align-items:center;padding-left:22px;font-weight:700;color:${C.p}">60% Areia</div><div style="flex:30;background:${C.p};display:flex;align-items:center;padding-left:22px;font-weight:700;color:#fff">30% Petróleo</div><div style="flex:10;background:${C.c};display:flex;align-items:center;justify-content:center;font-weight:700;color:${C.g}">10%</div></div>
+<p class="x" style="position:absolute;left:72px;right:72px;top:515px">Areia é o fundo, Petróleo é a voz da marca e Coral é o destaque (botões, palavras-chave, o ponto do sorriso). Verde-água e Champanhe entram como apoio.</p>
+<div style="position:absolute;left:72px;right:72px;top:620px;display:grid;grid-template-columns:repeat(3,1fr);gap:16px">
+${cb(C.a,C.p,'Petróleo sobre Areia','AAA')+cb(C.p,'#fff','Branco sobre Petróleo','AAA')+cb(C.v,C.p,'Petróleo sobre Verde-água','AA')+cb('#fff',C.g,'Grafite sobre Branco','AAA')+cb(C.p,C.v,'Verde-água sobre Petróleo','AA')+cb(C.c,C.g,'Grafite sobre Coral','AA')}</div>
+<div class="card" style="position:absolute;left:72px;right:72px;bottom:96px;padding:22px 26px;font-size:16px;line-height:1.5"><b style="color:${C.c}">Atenção:</b> Coral e Champanhe sobre fundo claro não passam no contraste para texto pequeno. Use só em títulos grandes, ícones e detalhes.</div>${bot_()}</div>`);
+
+// 10 TIPOGRAFIA
+P.push(`<div class="p">${top_('08 · Tipografia',10)}<div style="position:absolute;left:72px;top:140px"><h2 class="h">Duas vozes,<br><em>uma conversa</em></h2></div>
+<div style="position:absolute;left:72px;right:72px;top:420px;display:grid;grid-template-columns:1fr 1fr;gap:20px">
+<div class="card" style="padding:34px;height:330px"><div class="f" style="font-size:150px;font-weight:560;line-height:1;color:${C.p}">Aa</div><div class="f" style="font-size:34px;font-weight:560;margin-top:14px">Fraunces</div><p class="x">Títulos e frases de impacto. A serifa suave acolhe e dá cara de assinatura.</p></div>
+<div class="card" style="padding:34px;height:330px"><div style="font-size:150px;font-weight:700;line-height:1;color:${C.p}">Aa</div><div style="font-size:30px;font-weight:700;margin-top:14px">Manrope</div><p class="x">Textos, legendas e informações. Clara, moderna e fácil de ler no celular.</p></div></div>
+<div style="position:absolute;left:72px;right:72px;top:790px">
+${[['H1 · Fraunces 560 · 72/76','Sorrir sem medo',72,'f'],['H2 · Fraunces 500 itálico · 44/50','<em>cuidado de especialista</em>',44,'f'],['H3 · Manrope 700 · 24/32','Como funciona a primeira consulta',24,''],['Corpo · Manrope 500 · 18/28','Explique um passo de cada vez, com palavras do dia a dia.',18,''],['Destaque · Manrope 700 · 13 · caixa alta, +30%','AGENDE PELO WHATSAPP',13,'k']].map(([l,t,s,c])=>`<div style="display:grid;grid-template-columns:280px 1fr;align-items:baseline;padding:13px 0;border-top:1.5px solid #0F4C4A1c"><span style="font-size:13px;font-weight:700;opacity:.55">${l}</span><span class="${c}" style="font-size:${s}px;${c==='f'?'font-weight:560;':'font-weight:700;'}color:${C.p};line-height:1.1">${t}</span></div>`).join('')}</div>${bot_()}</div>`);
+
+// 11 LINHA DO SORRISO
+P.push(`<div class="p" style="background:${C.p};color:#fff">${top_('09 · Grafismo',11,'#fff')}
+<div style="position:absolute;left:72px;top:140px"><h2 class="h">Linha do<br><em>sorriso</em></h2></div>
+<div style="position:absolute;left:72px;right:72px;top:420px;display:grid;grid-template-columns:1fr 1fr;gap:20px">
+<div style="height:420px;border-radius:26px;overflow:hidden;background:${C.a}"><svg width="100%" height="100%"><defs>${sorriso({id:'g1',fg:C.v,dot:C.c,sc:1.1}).def}</defs><rect width="100%" height="100%" fill="url(#g1)"/></svg></div>
+<div style="height:420px;border-radius:26px;overflow:hidden;background:#0A3634"><svg width="100%" height="100%"><defs>${sorriso({id:'g2',fg:'#8FD3C755',dot:C.o,sc:1.1}).def}</defs><rect width="100%" height="100%" fill="url(#g2)"/></svg></div></div>
+<div style="position:absolute;left:72px;right:72px;top:880px;display:grid;grid-template-columns:repeat(3,1fr);gap:26px">
+${[['O que é','Arcos suaves (a curva do sorriso) e pontos de brilho, tirados do próprio símbolo.'],['Onde usar','Fundos de post, capas de destaque, papelaria, adesivo de vidro e jaleco.'],['Regra','Sempre em segundo plano e em baixo contraste. Nunca atrás de texto pequeno.']].map(([t,x])=>`<div><div class="k" style="color:${C.v};font-size:12px">${t}</div><p class="x" style="margin-top:10px;color:#ffffffdd">${x}</p></div>`).join('')}</div>${bot_('#fff')}</div>`);
+
+// 12 ÍCONES
+const IN=Object.keys(ICON);
+P.push(`<div class="p">${top_('10 · Ícones',12)}<div style="position:absolute;left:72px;top:140px"><h2 class="h">Os tratamentos<br><em>em ícones</em></h2></div>
+<div style="position:absolute;left:72px;right:72px;top:420px;display:grid;grid-template-columns:repeat(3,1fr);gap:18px">
+${IN.map((n,i)=>`<div class="card" style="height:200px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px">${icone(n,{s:96,bg:[C.v,C.a,'#F9D9D0'][i%3]})}<div style="font-weight:700;font-size:15px;color:${C.p}">${n}</div></div>`).join('')}</div>
+<p class="x" style="position:absolute;left:72px;right:72px;bottom:96px">Traço de 5 px, cantos redondos e um ponto de brilho em Coral. Versão redonda para destaques e versão em linha para textos. <b>Ajuste a lista às especialidades que a clínica oferece.</b></p>${bot_()}</div>`);
+
+// 13 ESTILO DE FOTO
+P.push(`<div class="p">${top_('11 · Fotos',13)}<div style="position:absolute;left:72px;top:140px"><h2 class="h">Fotos reais,<br><em>luz de janela</em></h2></div>
+<div style="position:absolute;left:72px;right:72px;top:420px;display:grid;grid-template-columns:1.2fr 1fr;grid-template-rows:300px 300px;gap:18px">
+<div class="ph" style="grid-row:span 2;background:linear-gradient(160deg,#E9D8C4,#C9A88A 60%,#8C6E58)"><span>Retrato da Dra. Jaci · jaleco, luz natural lateral</span></div>
+<div class="ph" style="background:linear-gradient(160deg,#CFE9E3,#8FD3C7 60%,#4E8F86)"><span>Consultório real, organizado</span></div>
+<div class="ph" style="background:linear-gradient(160deg,#F6D8CF,#F07F67 70%,#B85A47)"><span>Atendimento com o paciente</span></div></div>
+<div style="position:absolute;left:72px;right:72px;bottom:96px;display:grid;grid-template-columns:1fr 1fr;gap:26px">
+<div><div class="k" style="color:${C.p};font-size:12px">Assim sim</div><p class="x">Luz natural e quente, sorrisos espontâneos, a Dra. Jaci olhando para o paciente, o consultório real de Zé Doca, cor levemente quente e sem filtro pesado.</p></div>
+<div><div class="k" style="color:${C.c};font-size:12px">Assim não</div><p class="x">Banco de imagem, close de boca aberta ou sangue, flash estourado, ambiente bagunçado, "antes e depois" sensacionalista e foto de paciente sem autorização por escrito.</p></div></div>${bot_()}</div>`);
+
+// 14 INSTAGRAM: FEED
+const tile=(i)=>[
+ `<div style="background:${C.p};color:#fff;padding:22px;display:flex;flex-direction:column;justify-content:space-between"><span class="k" style="font-size:10px;color:${C.v}">Você sabia?</span><span class="f" style="font-size:30px;font-weight:560;line-height:1.05">Sensibilidade no dente <em>tem tratamento.</em></span>${mono({s:34,cc:'#fff',jc:C.v})}</div>`,
+ `<div class="ph" style="border-radius:0;background:linear-gradient(160deg,#E9D8C4,#B9977A)"><span style="font-size:11px">Foto: Dra. Jaci</span></div>`,
+ `<div style="background:${C.a};padding:22px;display:flex;flex-direction:column;justify-content:center;gap:10px"><span class="f" style="font-size:64px;color:${C.c};font-weight:560;line-height:1">3</span><span style="font-weight:700;font-size:15px;color:${C.p}">sinais de que é hora da avaliação</span></div>`,
+ `<div style="background:${C.v};padding:22px;display:flex;flex-direction:column;justify-content:space-between;color:${C.p}"><span class="k" style="font-size:10px">Mito × Verdade</span><span class="f" style="font-size:28px;font-weight:560;line-height:1.05">"Clareamento estraga o dente."</span><span style="font-weight:800;font-size:13px">MITO →</span></div>`,
+ `<div class="ph" style="border-radius:0;background:linear-gradient(160deg,#CFE9E3,#6FB3A8)"><span style="font-size:11px">Foto: consultório</span></div>`,
+ `<div style="background:${C.c};padding:22px;display:flex;flex-direction:column;justify-content:space-between;color:${C.g}"><span class="k" style="font-size:10px">Pergunta da semana</span><span class="f" style="font-size:28px;font-weight:560;line-height:1.05">Dói fazer canal?</span>${icone('Canal (endodontia)',{s:40,c:C.g,dot:'#fff'})}</div>`,
+ `<div style="background:${C.a};padding:22px;display:flex;flex-direction:column;justify-content:space-between"><svg width="100%" height="60"><defs>${sorriso({id:'tt'+i,fg:C.v,dot:C.c,sc:.5}).def}</defs><rect width="100%" height="60" fill="url(#tt${i})"/></svg><span class="f" style="font-size:26px;font-weight:560;color:${C.p};line-height:1.05">Especialista em Zé Doca, <em>sem viajar.</em></span></div>`,
+ `<div class="ph" style="border-radius:0;background:linear-gradient(160deg,#F6D8CF,#D9806B)"><span style="font-size:11px">Foto: atendimento</span></div>`,
+ `<div style="background:${C.p};padding:22px;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:12px;color:#fff;text-align:center">${mono({s:70,cc:'#fff',jc:C.v})}<span class="k" style="font-size:10px">Agende pelo WhatsApp</span></div>`][i];
+P.push(`<div class="p">${top_('12 · Instagram',14)}<div style="position:absolute;left:72px;top:140px"><h2 class="h">Feed que<br><em>explica e acolhe</em></h2></div>
+<div class="card" style="position:absolute;left:160px;right:160px;top:400px;padding:26px">
+<div style="display:flex;align-items:center;gap:22px;margin-bottom:22px"><div style="width:96px;height:96px;border-radius:50%;background:${C.p};display:flex;align-items:center;justify-content:center">${mono({s:64,cc:'#fff',jc:C.v})}</div>
+<div><div style="font-weight:800;font-size:20px">drajacicunha</div><div style="font-size:15px;line-height:1.45;opacity:.8;margin-top:4px">Dra. Jaci Cunha · Odontologia Especializada<br>Cuidado especializado, perto de você 🦷<br>Av. Militar · Zé Doca, MA · Agende no WhatsApp 👇</div></div></div>
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:4px">${[0,1,2,3,4,5].map(i=>`<div style="aspect-ratio:4/5;display:grid;overflow:hidden">${tile(i)}</div>`).join('')}</div></div>
+<p class="x" style="position:absolute;left:72px;right:72px;bottom:90px;font-size:15px">Grade alternando foto real, número, pergunta e mito × verdade. Nunca dois posts seguidos na mesma composição ou cor. O @ é sugestão; troque pelo perfil real.</p>${bot_()}</div>`);
+
+// 15 STORIES, DESTAQUES E AVATAR
+const story=(bg,inner)=>`<div style="width:270px;height:480px;border-radius:30px;overflow:hidden;position:relative;background:${bg};box-shadow:0 30px 60px -30px #0F4C4A77">${inner}</div>`;
+P.push(`<div class="p">${top_('13 · Stories',15)}<div style="position:absolute;left:72px;top:140px"><h2 class="h">Stories e<br><em>destaques</em></h2></div>
+<div style="position:absolute;left:72px;right:72px;top:410px;display:flex;justify-content:space-between">
+${story(C.p,`<div style="position:absolute;inset:0;padding:30px;color:#fff;display:flex;flex-direction:column;justify-content:space-between"><span class="k" style="font-size:10px;color:${C.v}">Bastidor</span><span class="f" style="font-size:34px;font-weight:560;line-height:1.05">Hoje tem <em>avaliação</em> com horário marcado.</span><div style="background:#fff;color:${C.p};border-radius:99px;padding:12px;text-align:center;font-weight:800;font-size:13px">AGENDAR NO WHATSAPP</div></div>`)}
+${story(C.a,`<div style="position:absolute;inset:0;padding:30px;display:flex;flex-direction:column;justify-content:center;gap:16px"><span class="k" style="font-size:10px;color:${C.c}">Enquete</span><span class="f" style="font-size:32px;font-weight:560;color:${C.p};line-height:1.05">Você tem medo de dentista?</span><div style="background:#fff;border-radius:16px;padding:14px;font-weight:700;color:${C.p}">Muito 😬</div><div style="background:#fff;border-radius:16px;padding:14px;font-weight:700;color:${C.p}">Já perdi 😄</div></div>`)}
+${story('linear-gradient(170deg,#E9D8C4,#B9977A)',`<div style="position:absolute;left:24px;right:24px;bottom:24px;background:#0F4C4AE6;border-radius:20px;padding:20px;color:#fff"><span class="f" style="font-size:24px;font-weight:560">A Dra. Jaci explica</span><div style="font-size:13px;opacity:.85;margin-top:6px">Foto ou vídeo real · CRO-MA na tela</div></div>`)}</div>
+<div style="position:absolute;left:72px;right:72px;top:950px;display:flex;justify-content:space-between;align-items:flex-start">
+${['Avaliação','Clareamento','Ortodontia','Implante','Odontopediatria'].map(n=>`<div style="text-align:center;width:150px">${icone(n,{s:118,bg:[C.v,'#F9D9D0',C.a][n.length%3]})}<div style="font-weight:700;font-size:14px;margin-top:8px;color:${C.p}">${n}</div></div>`).join('')}</div>
+<p class="x" style="position:absolute;left:72px;right:72px;bottom:90px;font-size:15px">Capas de destaque com os ícones redondos. Avatar: símbolo branco sobre Petróleo.</p>${bot_()}</div>`);
+
+// 16 PAPELARIA
+P.push(`<div class="p" style="background:#E9E1D6">${top_('14 · Papelaria',16)}<div style="position:absolute;left:72px;top:140px"><h2 class="h">Papelaria<br><em>da clínica</em></h2></div>
+<div style="position:absolute;left:72px;top:420px;width:420px;height:250px;border-radius:14px;background:${C.p};box-shadow:0 30px 50px -25px #0008;display:flex;align-items:center;justify-content:center;transform:rotate(-4deg)">${mono({s:120,cc:'#fff',jc:C.v,dc:C.o})}</div>
+<div style="position:absolute;left:150px;top:600px;width:420px;height:250px;border-radius:14px;background:#fff;box-shadow:0 30px 50px -25px #0008;padding:28px;display:flex;flex-direction:column;justify-content:space-between;transform:rotate(3deg)">${lockup({fs:24})}<div style="font-size:13px;line-height:1.7;color:${C.g}"><b>Dra. Jaci Cunha</b> · CRO-MA 0000<br>WhatsApp (98) 9 0000-0000<br>Av. Militar · Zé Doca, MA</div></div>
+<div style="position:absolute;right:72px;top:400px;width:380px;height:540px;background:#fff;box-shadow:0 30px 50px -25px #0008;padding:32px;display:flex;flex-direction:column;transform:rotate(2deg)">${lockup({fs:20})}<div class="k" style="margin-top:34px;font-size:12px;color:${C.c}">Receituário</div>${[...Array(8)].map(()=>`<div style="height:1px;background:#0F4C4A22;margin-top:34px"></div>`).join('')}<div style="margin-top:auto;font-size:11px;line-height:1.6;opacity:.7">Dra. Jaci Cunha · CRO-MA 0000 · Av. Militar, Zé Doca, MA</div><svg style="position:absolute;right:0;bottom:0" width="160" height="100"><defs>${sorriso({id:'rc',fg:C.v,dot:C.c,sc:.6}).def}</defs><rect width="160" height="100" fill="url(#rc)" opacity=".6"/></svg></div>
+<div style="position:absolute;left:150px;top:930px;width:250px;height:360px;border-radius:20px;background:#fff;box-shadow:0 30px 50px -25px #0008;overflow:hidden;transform:rotate(-3deg)"><div style="height:120px;background:${C.p};display:flex;align-items:center;justify-content:center">${mono({s:70,cc:'#fff',jc:C.v})}</div><div style="padding:22px;text-align:center"><div style="width:90px;height:90px;border-radius:50%;margin:-70px auto 0;background:linear-gradient(160deg,#E9D8C4,#B9977A);border:4px solid #fff"></div><div class="f" style="font-size:24px;font-weight:560;margin-top:12px;color:${C.p}">Nome da equipe</div><div class="k" style="font-size:10px;margin-top:8px;color:${C.c}">Auxiliar · Recepção</div></div></div>
+<p class="x" style="position:absolute;left:470px;right:72px;bottom:110px;font-size:15px">Cartão de visita (frente e verso), receituário A5 e crachá. Em toda peça: nome e CRO-MA da responsável técnica (os números aqui são de exemplo).</p>${bot_()}</div>`);
+
+// 17 CLÍNICA E EQUIPE
+P.push(`<div class="p">${top_('15 · Clínica',17)}<div style="position:absolute;left:72px;top:140px"><h2 class="h">Na clínica<br><em>e na equipe</em></h2></div>
+<div style="position:absolute;left:72px;right:72px;top:410px;height:400px;border-radius:26px;overflow:hidden;background:linear-gradient(#cfc6ba,#b5ab9e)">
+<div style="position:absolute;left:0;right:0;bottom:0;height:70px;background:#8d847a"></div>
+<div style="position:absolute;left:90px;right:90px;top:60px;height:150px;border-radius:14px;background:${C.p};display:flex;align-items:center;justify-content:center;box-shadow:0 20px 30px -15px #0007">${lockup({fs:46,cc:'#fff',jc:C.v,dc:C.o,t1:'#fff',t2:'#ffffffcc'})}</div>
+<div style="position:absolute;left:140px;right:140px;top:240px;bottom:70px;background:#ffffff55;border:6px solid #f2ede6;display:flex;align-items:center;justify-content:center"><svg width="100%" height="100%"><defs>${sorriso({id:'vd',fg:'#ffffffaa',dot:'#ffffffaa',sc:.9}).def}</defs><rect width="100%" height="100%" fill="url(#vd)"/></svg></div>
+<div class="k" style="position:absolute;left:24px;bottom:22px;color:#fff;font-size:11px">Fachada: placa em Petróleo + adesivo jateado no vidro</div></div>
+<div style="position:absolute;left:72px;right:72px;top:840px;display:grid;grid-template-columns:1fr 1fr;gap:20px">
+<div class="card" style="height:400px;display:flex;align-items:center;justify-content:center;position:relative">
+<svg width="300" height="340" viewBox="0 0 300 340"><path d="M90 20 L150 60 L210 20 L280 60 L260 150 L230 140 L230 330 L70 330 L70 140 L40 150 L20 60 Z" fill="#fff" stroke="#0F4C4A33" stroke-width="3"/><path d="M150 60 L150 330" stroke="#0F4C4A22" stroke-width="3"/><path d="M90 20 L150 110 L210 20" fill="none" stroke="#0F4C4A33" stroke-width="3"/></svg>
+<div style="position:absolute;left:calc(50% + 22px);top:150px">${mono({s:44})}</div>
+<div class="lb" style="position:absolute;bottom:18px">Jaleco branco · símbolo bordado no peito</div></div>
+<div class="card" style="height:400px;display:flex;align-items:center;justify-content:center;position:relative;background:${C.v}">
+<div style="width:200px;height:250px;border-radius:16px 16px 26px 26px;background:${C.p};display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;box-shadow:0 30px 40px -20px #0007">${mono({s:90,cc:'#fff',jc:C.v,dc:C.o})}<div class="k" style="font-size:10px;color:#fff">Kit sorriso</div></div>
+<div class="lb" style="position:absolute;bottom:18px;color:${C.p}">Kit de higiene para o paciente (escova e fio)</div></div></div>${bot_()}</div>`);
+
+// 18 TOM DE VOZ E CFO
+const vz=(t,s,n)=>`<div class="card" style="padding:24px"><div class="f" style="font-size:28px;font-weight:560;color:${C.p}">${t}</div><div style="margin-top:12px;font-size:16px;line-height:1.5"><b style="color:${C.p}">Assim sim:</b> ${s}</div><div style="margin-top:8px;font-size:16px;line-height:1.5;opacity:.75"><b style="color:${C.c}">Assim não:</b> ${n}</div></div>`;
+P.push(`<div class="p">${top_('16 · Tom de voz',18)}<div style="position:absolute;left:72px;top:140px"><h2 class="h">Como a marca<br><em>conversa</em></h2></div>
+<div style="position:absolute;left:72px;right:72px;top:410px;display:grid;gap:16px">
+${vz('Explica com calma','"O canal limpa a parte de dentro do dente. Com anestesia, você não sente dor."','"Endodontia com instrumentação rotatória de última geração."')}
+${vz('Acolhe o medo','"Medo de dentista é comum. Aqui a gente vai no seu tempo."','"Não tem por que ter medo, é bobagem."')}
+${vz('Fala de perto','"Especialista aqui em Zé Doca, sem precisar viajar."','"Clínica de excelência referência nacional."')}</div>
+<div style="position:absolute;left:72px;right:72px;top:1000px;background:${C.p};color:#fff;border-radius:24px;padding:28px">
+<div class="k" style="color:${C.v};font-size:12px">Regras do CFO em toda peça</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px 28px;margin-top:14px;font-size:16px;line-height:1.45">
+<div>• Nome e CRO-MA da responsável técnica.</div><div>• Sem preço, promoção ou desconto em post.</div><div>• Sem "antes e depois" sensacionalista.</div><div>• Sem promessa de resultado.</div><div>• Paciente só com autorização por escrito.</div><div>• Informação técnica aprovada pela Dra. Jaci.</div></div></div>${bot_()}</div>`);
+
+// 19 CONTRACAPA
+P.push(`<div class="p" style="background:${C.a}">
+<svg style="position:absolute;inset:0" viewBox="0 0 1080 1350"><defs>${pat.def}</defs><rect width="1080" height="1350" fill="url(#ls1)"/></svg>
+<div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:40px">${lockup({fs:64,dir:'v',city:'Zé Doca · Maranhão'})}
+<div class="f" style="font-size:40px;font-style:italic;color:${C.p}">Cuidado especializado, perto de você.</div></div>
+<div class="bot" style="color:${C.p}"><span>Manual de identidade v1 · novembro de 2026</span><span>Lindson Almeida · Alkantara</span></div></div>`);
+
+document.body.innerHTML=P.join('');
+</script></body></html>
