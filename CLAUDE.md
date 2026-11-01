@@ -58,7 +58,7 @@ Para canal dark e monetização no YouTube (Passaporte da Bíblia, Raposa e Leã
 Nunca criar estilo ou gerador de capa novo; usar só o que está aprovado no repositório:
 - **Passaporte da Bíblia:** `conteudo/youtube/passaporte/motor/capas2.py` com os dados de `passaporte/capas_v2.json` (longos A/B/C e Shorts verticais). Visual: gravura de Doré em close com cor de cinema (sombra petróleo, luz âmbar), "PASSAPORTE DA BÍBLIA" no topo, etiqueta ciano com a série (longos) e título branco gigante com a palavra-chave em amarelo. Faltando mapa de profundidade em `dore/prof/`, gere com o modelo do `pintura.py`.
 - **Raposa e Leão:** regras de thumb do `raposa-e-leao/IDENTIDADE.md` (fundo escuro, retrato P&B com brilho, etiqueta dourada com a fonte, Anton com 1 palavra em ouro e no máximo 1 tarja vermelha, selo no rodapé). Shorts já têm `shorts/NN/capa.jpg` nesse padrão.
-- Antes de mexer em capa, título, duração ou formato de qualquer vídeo, leia o BRIEF e o PROCESSO do canal e o agente Peter. Longo = 16 a 20 min; Short = 45 a 70 s.
+- Antes de mexer em capa, título, duração ou formato de qualquer vídeo, leia o BRIEF e o PROCESSO do canal e o agente Peter. Longo = 16 a 20 min. Short: Passaporte 45 a 70 s (Peter); Raposa 35 a 45 s (`raposa-e-leao/ROTEIROS-SHORTS.md`), feito pelo `short2.py` (versão humanizada).
 
 ## Estado atual e continuidade
 
