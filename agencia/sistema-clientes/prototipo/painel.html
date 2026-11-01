@@ -1,7 +1,7 @@
 <meta charset="utf-8">
 <title>Painel do Cliente</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&family=Manrope:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=Inter:wght@400;500;600;700&family=Big+Shoulders+Display:wght@700;800&family=Manrope:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
 /* Layout: menu lateral fixo + área de trabalho com cartões. Preto e amarelo, mesmo visual da tela de acesso. Visual único escuro, por escolha. */
 :root{
@@ -140,6 +140,45 @@ textarea{min-height:80px;resize:vertical}
   .posts{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.post .img{font-size:16px;padding:10px}.post .c{padding:9px}
   .cal{grid-template-columns:repeat(7,minmax(0,1fr));gap:3px}.cal .dia{min-height:58px;padding:3px}.cal .ev{font-size:9px;padding:1px 3px}
 }
+
+/* Tema do cliente Leo Pinto (identidade de mandato v3: monograma LP, Archivo condensada + Inter, laranja, sol, água e azuis).
+   Entra sozinho quando o cliente selecionado é o Leo. */
+body.tema-leo{--fundo:#071B3F;--painel:#0B2552;--painel2:#0F2E63;--linha:#1D4280;--amarelo:#FFC20E;--amarelo2:#FFD34D;--laranja:#F26A1B;--agua:#3FB8E8;
+  --texto:#F4EFE6;--apagado:#9FB2D1;--f-titulo:'Archivo','Arial Narrow',sans-serif;--f-corpo:'Inter',system-ui,sans-serif}
+body.tema-leo .menu{background:#06173A}
+body.tema-leo .topo{background:rgba(7,27,63,.92)}
+body.tema-leo .topo h1,body.tema-leo .kpi .val,body.tema-leo .bom-dia .q,body.tema-leo .bom-dia .xp b,body.tema-leo .post .img,body.tema-leo .leo-h{font-stretch:72%;font-weight:900;letter-spacing:0}
+body.tema-leo .btn.am{background:var(--laranja);color:#fff}body.tema-leo .btn.am:hover{background:#FF7B2E}
+body.tema-leo .grupo a[aria-current="page"]{background:rgba(242,106,27,.16);color:#FFA56B}
+body.tema-leo .grupo a .n{background:var(--laranja);color:#fff}
+body.tema-leo .barra i{background:linear-gradient(90deg,var(--laranja),var(--amarelo))}
+body.tema-leo .bom-dia{border-color:rgba(242,106,27,.45);background:var(--azulejo) right center/96px repeat-y,radial-gradient(60% 120% at 0% 0%,rgba(242,106,27,.28),transparent 60%),var(--painel)}
+body.tema-leo .bom-dia .sol{background:none;width:56px;height:56px}
+body.tema-leo .post .img{background:linear-gradient(160deg,#F26A1B,#C9500F);color:#fff}
+body.tema-leo .avatar{background:none}
+body.tema-leo .toast{background:var(--laranja);color:#fff}
+body.tema-leo .missao input{accent-color:#F26A1B}
+.so-leo{display:none}body.tema-leo .so-leo{display:grid}body.tema-leo .nao-leo{display:none}
+.logo .mono{width:38px;height:38px;flex:none}
+.logo .lp{display:grid;line-height:.9}.logo .lp small{font:600 9px var(--f-corpo);letter-spacing:.26em;color:var(--apagado);font-stretch:100%}
+.lgpd{display:flex;gap:14px;align-items:flex-start;padding:14px 16px;border-radius:12px;border:1px solid rgba(63,184,232,.4);background:rgba(63,184,232,.08);font-size:13px}
+.lgpd b{color:var(--agua)}
+.kanban{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.kanban div{border-radius:12px;padding:14px;background:var(--painel2);border-top:4px solid var(--c)}.kanban b{display:block;font:900 34px/1 var(--f-titulo);font-stretch:72%}.kanban span{color:var(--apagado);font-size:12.5px}
+.hbar{display:grid;grid-template-columns:130px minmax(0,1fr) 38px;gap:10px;align-items:center;font-size:13px}.hbar .barra{height:12px}
+.temas{display:grid;grid-template-columns:repeat(auto-fill,minmax(96px,1fr));gap:12px}.temas div{text-align:center;font-size:12px;color:var(--apagado)}.temas b{display:block;color:var(--texto);font-size:15px}
+.form-g{display:grid;gap:10px;grid-template-columns:1fr 1fr}.form-g label{display:grid;gap:5px;font-size:12px;color:var(--apagado)}.form-g .inteiro{grid-column:1/-1}
+.form-g input,.form-g select{background:var(--painel2);color:var(--texto);border:1px solid var(--linha);border-radius:9px;padding:10px 12px;font:500 14px var(--f-corpo);width:100%}
+.form-g .ok{display:flex;gap:10px;align-items:flex-start;color:var(--texto);font-size:12.5px}.form-g .ok input{width:20px;height:20px;flex:none;accent-color:#F26A1B}
+.filtros{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}.filtros select{background:var(--painel2);color:var(--texto);border:1px solid var(--linha);border-radius:9px;padding:8px 10px;font:600 13px var(--f-corpo)}
+.acoes-d{display:flex;gap:6px}.acoes-d .btn{padding:6px 10px;font-size:12px}
+.peca{aspect-ratio:4/5;border-radius:14px;overflow:hidden;position:relative;background:#F26A1B;color:#fff;padding:22px;display:flex;flex-direction:column;justify-content:space-between;box-shadow:0 24px 50px -20px #000}
+.peca .eti{font:600 10px var(--f-corpo);letter-spacing:.3em;text-transform:uppercase;color:#0A2A5E}
+.peca h4{margin:0;font:900 42px/.88 var(--f-titulo);font-stretch:72%;text-transform:uppercase}
+.peca p{margin:0;font-size:13px;line-height:1.45;max-width:24ch}
+.peca .rod{display:flex;align-items:center;justify-content:space-between}
+.peca .ond{position:absolute;left:0;right:0;bottom:0;height:70px}
+@media (max-width:760px){.kanban{grid-template-columns:repeat(2,minmax(0,1fr))}.form-g{grid-template-columns:minmax(0,1fr)}.hbar{grid-template-columns:96px minmax(0,1fr) 32px}}
 </style>
 
 <div class="app">
@@ -153,13 +192,17 @@ textarea{min-height:80px;resize:vertical}
       <a href="#resultados" data-v="resultados"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>Métricas</a>
       <a href="#planejamento" data-v="planejamento"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 3h6v4H9zM5 5h4M15 5h4v16H5V5"/><path d="M8 12h8M8 16h5"/></svg>Planejamento</a>
       <a href="#relatorios" data-v="relatorios"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 2h9l5 5v15H6z"/><path d="M14 2v6h6M9 13h7M9 17h7"/></svg>Relatórios</a></div>
+    <div class="grupo so-leo"><h4>Mandato</h4>
+      <a href="#demandas" data-v="demandas"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16v12H9l-5 4z"/><path d="M8 9h8M8 12h5"/></svg>Demandas<span class="n" id="n-dem"></span></a>
+      <a href="#atendimentos" data-v="atendimentos"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="8" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M2 20c.5-4 3-6 6-6s5.5 2 6 6M14 20c.3-2.6 1.8-4 3.5-4S21 17.4 22 20"/></svg>Atendimentos</a>
+      <a href="#prestacao" data-v="prestacao"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></svg>Prestação de contas</a></div>
     <div class="grupo"><h4>Conteúdo</h4>
       <a href="#conteudos" data-v="conteudos"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M3 9h18M9 21V9"/></svg>Conteúdos</a>
       <a href="#fotos" data-v="fotos"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="2"/><path d="m21 17-5-5-8 8"/></svg>Fotos</a>
       <a href="#aprovacoes" data-v="aprovacoes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 6 9 17l-5-5"/></svg>Aprovações<span class="n" id="n-aprov"></span></a>
       <a href="#calendario" data-v="calendario"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>Calendário</a>
       <a href="#entregas" data-v="entregas"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 7l8-4 8 4v10l-8 4-8-4z"/><path d="M4 7l8 4 8-4M12 11v10"/></svg>Entregas e arquivos</a></div>
-    <div class="grupo"><h4>Vendas e tráfego</h4>
+    <div class="grupo nao-leo"><h4>Vendas e tráfego</h4>
       <a href="#campanhas" data-v="campanhas"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 10v4h3l8 5V5L6 10z"/><path d="M18 9a4 4 0 0 1 0 6"/></svg>Campanhas</a>
       <a href="#leads" data-v="leads"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="9" cy="8" r="3.5"/><path d="M2 21c.6-4 3.5-6 7-6s6.4 2 7 6M17 11h5M19.5 8.5v5"/></svg>Leads e atendimento</a></div>
     <div class="grupo"><h4>Conta</h4>
@@ -191,8 +234,12 @@ const BASE={
 };
 const dias=Array.from({length:30},(_,i)=>i);
 const serie=(k,b,a)=>dias.map(i=>Math.round(b+a*Math.sin(i/4+k)+i*a/18+((i*37+k*11)%7)));
-const APROV=[{t:'Carrossel',titulo:'5 erros que fazem você perder clientes',data:'Seg, 03/11 · 12h',st:'aguardando'},{t:'Reels',titulo:'Bastidores da semana',data:'Qua, 05/11 · 19h',st:'aguardando'},{t:'Post único',titulo:'Depoimento de cliente',data:'Sex, 07/11 · 12h',st:'aguardando'},{t:'Story',titulo:'Enquete: qual conteúdo você quer?',data:'Sáb, 08/11 · 10h',st:'aprovado'}];
-const ENTREGAS=[['Identidade visual (manual da marca)','PDF','15/09','entregue'],['Mini site da bio','Link','22/09','entregue'],['Estratégia de 90 dias','PDF','01/10','entregue'],['Pacote de posts de novembro','16 artes','28/10','em revisão'],['Relatório de outubro','PDF','05/11','em produção']];
+const APROV_GERAL=[{t:'Carrossel',titulo:'5 erros que fazem você perder clientes',data:'Seg, 03/11 · 12h',st:'aguardando'},{t:'Reels',titulo:'Bastidores da semana',data:'Qua, 05/11 · 19h',st:'aguardando'},{t:'Post único',titulo:'Depoimento de cliente',data:'Sex, 07/11 · 12h',st:'aguardando'},{t:'Story',titulo:'Enquete: qual conteúdo você quer?',data:'Sáb, 08/11 · 10h',st:'aprovado'}];
+const APROV_LEO=[{t:'Carrossel',titulo:'Pedimos, fizemos, entregamos: outubro',data:'Seg, 03/11 · 12h',st:'aguardando'},{t:'Reels',titulo:'Um dia de visita nos povoados',data:'Qua, 05/11 · 19h',st:'aguardando'},{t:'Post único',titulo:'Entregue: demanda resolvida com selo',data:'Sex, 07/11 · 12h',st:'aguardando'},{t:'Story',titulo:'Caixinha: qual a demanda do seu bairro?',data:'Sáb, 08/11 · 10h',st:'aprovado'}];
+let APROV=APROV_GERAL;
+const ENTREGAS_LEO=[['Identidade visual do mandato (manual v3, 20 páginas)','PDF','30/10','entregue'],['Painel do mandato (este painel)','Link','30/10','entregue'],['Mockups de fardamento, gabinete e brindes','Imagens','—','em produção'],['Posts de prestação de contas de novembro','12 artes','07/11','em produção'],['Relatório de outubro','PDF','05/11','em produção']];
+const ENTREGAS_GERAL=[['Identidade visual (manual da marca)','PDF','15/09','entregue'],['Mini site da bio','Link','22/09','entregue'],['Estratégia de 90 dias','PDF','01/10','entregue'],['Pacote de posts de novembro','16 artes','28/10','em revisão'],['Relatório de outubro','PDF','05/11','em produção']];
+let ENTREGAS=ENTREGAS_GERAL;
 const CAMP=[['Captação de leads · WhatsApp','Ativa','R$ 30/dia','R$ 6,40','142'],['Remarketing · visitantes','Ativa','R$ 15/dia','R$ 4,10','58'],['Reconhecimento · vídeo','Pausada','R$ 10/dia','—','14']];
 const LEADS=[['Mariana S.','Instagram','Novo',' hoje 10:42'],['Carlos R.','Tráfego pago','Em atendimento','hoje 09:15'],['Ana P.','Indicação','Proposta enviada','ontem'],['João M.','Tráfego pago','Fechado','ontem'],['Bruna L.','Instagram','Sem resposta','há 3 dias']];
 let PEDIDOS=[['Trocar a foto de capa do perfil','em andamento','29/10'],['Post sobre o feriado','concluído','25/10']];
@@ -206,11 +253,11 @@ const chip=x=>`<span class="chip ${st(x)}">${x}</span>`;
 function toast(t){const e=$('#toast');e.textContent=t;e.classList.add('on');clearTimeout(e._t);e._t=setTimeout(()=>e.classList.remove('on'),1800)}
 
 function linha(vals,cores){const W=640,H=220,P=28,max=Math.max(...vals.flat())*1.1,x=i=>P+i*(W-2*P)/(vals[0].length-1),y=v=>H-P-(v/max)*(H-2*P);
- let g='';for(let k=0;k<=4;k++){const yy=P+k*(H-2*P)/4;g+=`<line x1="${P}" x2="${W-P}" y1="${yy}" y2="${yy}" stroke="#242427"/><text x="${P-6}" y="${yy+4}" fill="#8E8B83" font-size="10" text-anchor="end">${Math.round(max*(1-k/4))}</text>`}
+ let g='';for(let k=0;k<=4;k++){const yy=P+k*(H-2*P)/4;g+=`<line x1="${P}" x2="${W-P}" y1="${yy}" y2="${yy}" style="stroke:var(--linha)"/><text x="${P-6}" y="${yy+4}" fill="#8E8B83" font-size="10" text-anchor="end">${Math.round(max*(1-k/4))}</text>`}
  vals.forEach((s,j)=>{const d=s.map((v,i)=>`${i?'L':'M'}${x(i)},${y(v)}`).join('');if(!j)g+=`<path d="${d}L${x(s.length-1)},${H-P}L${x(0)},${H-P}Z" fill="${cores[j]}" opacity=".12"/>`;g+=`<path d="${d}" fill="none" stroke="${cores[j]}" stroke-width="2.4"/><circle cx="${x(s.length-1)}" cy="${y(s.at(-1))}" r="4" fill="${cores[j]}"/>`});
  [0,7,14,21,29].forEach(i=>g+=`<text x="${x(i)}" y="${H-8}" fill="#8E8B83" font-size="10" text-anchor="middle">${i+1}/10</text>`);
  return `<svg class="graf" viewBox="0 0 ${W} ${H}" role="img" aria-label="Gráfico dos últimos 30 dias">${g}</svg>`}
-function rosca(itens){const cores=['#F5C518','#C99A10','#6E5A1C'];let a=-Math.PI/2,g='';const R=70,r=44,c=90;
+function rosca(itens){const cores=cli==='leo'?['#F26A1B','#FFC20E','#3FB8E8']:['#F5C518','#C99A10','#6E5A1C'];let a=-Math.PI/2,g='';const R=70,r=44,c=90;
  itens.forEach(([n,v],k)=>{const b=a+v/100*Math.PI*2,l=v>50?1:0,p=(q,rr)=>[c+rr*Math.cos(q),c+rr*Math.sin(q)];const [x1,y1]=p(a,R),[x2,y2]=p(b,R),[x3,y3]=p(b,r),[x4,y4]=p(a,r);
   g+=`<path d="M${x1},${y1}A${R},${R} 0 ${l} 1 ${x2},${y2}L${x3},${y3}A${r},${r} 0 ${l} 0 ${x4},${y4}Z" fill="${cores[k]}" stroke="#121213" stroke-width="2"/>`;a=b});
  return `<svg class="graf" viewBox="0 0 180 180" style="max-width:200px;margin:0 auto">${g}<text x="90" y="96" text-anchor="middle" fill="#F3F0E6" font-size="13" font-weight="700">origem</text></svg><div class="legenda" style="justify-content:center">${itens.map(([n,v],k)=>`<span><i style="background:${cores[k]}"></i>${n} ${v}%</span>`).join('')}</div>`}
@@ -228,7 +275,7 @@ const chaveM=()=>cli+':'+hoje;const lista=()=>feitas[chaveM()]||[];
 function pontos(){return MISSOES[cli].reduce((a,m,i)=>a+(lista().includes(i)?m[1]:0),0)}
 function salvaM(){try{localStorage.setItem('missoes',JSON.stringify(feitas))}catch(e){}}
 function bomDia(){const f=FRASES[cli],fr=f[new Date().getDate()%f.length],h=new Date().getHours(),sd=h<12?'Bom dia':h<18?'Boa tarde':'Boa noite',nome=BASE[cli].nome.replace(/^(Dra\.|Vereador) /,'');
- return `<div class="bom-dia"><div class="sol">☀</div><div><div class="a">${sd}, ${nome}. A mensagem de hoje:</div><div class="q">“${fr}”</div></div><div class="xp"><div class="a">Pontos de hoje</div><b>${pontos()} XP</b><div><a class="a" href="#missoes" style="color:var(--amarelo)">Ver missões →</a></div></div></div>`}
+ return `<div class="bom-dia"><div class="sol">${cli==='leo'?monoLP(56):'☀'}</div><div><div class="a">${sd}, ${nome}. A mensagem de hoje:</div><div class="q">“${fr}”</div></div><div class="xp"><div class="a">Pontos de hoje</div><b>${pontos()} XP</b><div><a class="a" href="#missoes" style="color:var(--amarelo)">Ver missões →</a></div></div></div>`}
 
 const PROMO=[['Conheça um dos nossos clientes','Rafael <em>Imports</em>','Mini site da bio com WhatsApp por setor para a loja de celulares e assistência em São Luís.','__RAFAEL1__'],
  ['Conheça um dos nossos clientes','Desentupidora <em>SF</em>','Mini site para quem tem urgência: orçamento no WhatsApp e ligação em um toque.','__SF1__'],
@@ -240,6 +287,63 @@ function promo(){return `<section class="promo" aria-label="Lindson Almeida, est
  ${PROMO.map(([e,h,p,m])=>`<div class="sl caso2"><div><span class="ey">${e}</span><h3>${h}</h3><p>${p}</p></div><div class="mat" style="background-image:url(${m})"></div></div>`).join('')}</div>
  <div class="barras">${[0,...PROMO].map((_,k)=>`<i></i>`).join('')}</div></section>`}
 let pi=0,pt=null;function giraPromo(){const t=document.getElementById('trilho2');if(!t)return;t.style.transform=`translateX(-${pi*100}%)`;document.querySelectorAll('.promo .barras i').forEach((x,k)=>x.classList.toggle('on',k===pi));clearTimeout(pt);pt=setTimeout(()=>{pi=(pi+1)%(PROMO.length+1);giraPromo()},6000)}
+
+// ---------- Leo Pinto · mandato (dados de exemplo; nomes de bairro são de exemplo até o gabinete mandar a lista real) ----------
+const LC={l:'#F26A1B',a:'#FFC20E',g:'#3FB8E8',b:'#0E4DA4',n:'#0A2A5E'};
+const glyphLP=(L='#fff',su=LC.a,w=LC.g)=>`<rect x="58" y="38" width="32" height="118" rx="3" fill="${L}"/><path d="M90 38h12a37 37 0 0 1 0 74H90z" fill="${su}"/><path d="M90 156V132c10-8 20-8 30 0s20 8 30 0v24z" fill="${w}"/>`;
+const monoLP=(s=40,bg=LC.l)=>`<svg class="mono" viewBox="0 0 200 200" width="${s}" height="${s}" aria-hidden="true"><circle cx="100" cy="100" r="98" fill="${bg}"/><g transform="translate(8 3)">${glyphLP()}</g></svg>`;
+const seloLP=(s=90)=>`<svg viewBox="0 0 300 300" width="${s}" height="${s}" aria-label="Selo do mandato"><defs><path id="anel" d="M150 150m-118 0a118 118 0 1 1 236 0a118 118 0 1 1-236 0"/></defs><circle cx="150" cy="150" r="148" fill="${LC.n}"/><circle cx="150" cy="150" r="138" fill="none" stroke="${LC.a}" stroke-width="2"/><circle cx="150" cy="150" r="98" fill="none" stroke="${LC.a}" stroke-width="2"/><text font-family="Archivo" font-weight="800" font-size="19.5" fill="#fff"><textPath href="#anel" textLength="738" lengthAdjust="spacing">DO POVO, PRO POVO · SÃO JOÃO BATISTA · MA · </textPath></text><circle cx="150" cy="150" r="88" fill="${LC.l}"/><g transform="translate(150 150) scale(.82) translate(-92 -97)">${glyphLP()}</g></svg>`;
+const AZULEJO=`url("data:image/svg+xml,${encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' width='96' height='96' viewBox='0 0 120 120'>${[[0,0],[120,0],[0,120],[120,120]].map(([x,y])=>`<circle cx='${x}' cy='${y}' r='34' fill='%23ffffff10'/><circle cx='${x}' cy='${y}' r='12' fill='%23F26A1B30'/>`).join('')}<g transform='translate(60 60)'>${[0,45,90,135].map(r=>`<ellipse rx='30' ry='9' transform='rotate(${r})' fill='%23ffffff12'/>`).join('')}<circle r='8' fill='%23FFC20E55'/></g></svg>`).replace(/%2523/g,'%23')}")`;
+const IC={Saúde:'<path d="M50 82C22 64 14 50 14 38a18 18 0 0 1 36-6 18 18 0 0 1 36 6c0 12-8 26-36 44z"/><path d="M50 42v20M40 52h20" class="ac"/>',Educação:'<path d="M12 30c14-6 26-6 38 4 12-10 24-10 38-4v48c-14-6-26-6-38 4-12-10-24-10-38-4z"/><path d="M50 34v48"/>',Esporte:'<circle cx="50" cy="50" r="34"/><path d="M50 32l15 11-6 18H41l-6-18z" class="ac"/>',Pesca:'<path d="M14 50c18-22 48-22 62 0-14 22-44 22-62 0z"/><path d="M76 50l12-13v26z"/><path d="M48 38c4 8 4 16 0 24" class="ac"/>',Água:'<path d="M50 14C36 34 26 46 26 60a24 24 0 0 0 48 0c0-14-10-26-24-46z"/><path d="M38 62a12 12 0 0 0 12 12" class="ac"/>',Obras:'<path d="M28 88L42 16M72 88L58 16"/><path d="M50 22v10M50 44v12M50 68v16" class="ac"/><path d="M12 88h76"/>',Iluminação:'<path d="M36 62a22 22 0 1 1 28 0v12H36z"/><path d="M40 84h20" class="ac"/>',Outros:'<path d="M16 26h68v40H48L30 82V66H16z"/><path d="M32 42h36M32 52h22" class="ac"/>'};
+const iconeLP=(k,bg=LC.b,s=56)=>`<svg viewBox="0 0 100 100" width="${s}" height="${s}" aria-hidden="true"><circle cx="50" cy="50" r="50" fill="${bg}"/><g transform="translate(50 50) scale(.6) translate(-50 -50)" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">${(IC[k]||IC.Outros).replaceAll('class="ac"',`stroke="${bg===LC.l?LC.a:LC.l}"`)}</g></svg>`;
+const BAIRROS=['Centro (sede)','Bairro 2','Bairro 3','Povoado 1','Povoado 2','Povoado 3','Zona rural'];
+const TEMAS=['Saúde','Educação','Esporte','Pesca','Água','Obras','Iluminação','Outros'];
+const ETAPAS=['Recebida','Encaminhada','Em andamento','Resolvida'];
+const COR_ETAPA={Recebida:LC.a,Encaminhada:LC.g,'Em andamento':LC.l,Resolvida:'#5CC98A'};
+// Só em memória: dados de cidadãos não ficam guardados no navegador (LGPD).
+let DEM=[['LP-0148','Maria','Povoado 1','Água','WhatsApp','Recebida','hoje',''],['LP-0147','José','Centro (sede)','Iluminação','Presencial','Encaminhada','ontem',''],['LP-0146','Ana','Povoado 2','Saúde','Instagram','Em andamento','28/10',''],['LP-0145','Raimundo','Bairro 2','Obras','WhatsApp','Em andamento','27/10',''],['LP-0144','Francisca','Zona rural','Educação','Presencial','Resolvida','25/10',''],['LP-0143','Pedro','Povoado 3','Pesca','WhatsApp','Resolvida','24/10',''],['LP-0142','Luzia','Bairro 3','Esporte','Instagram','Resolvida','22/10','']].map(([p,n,b,t,c,e,q,w])=>({p,n,b,t,c,e,q,w}));
+const TOT_MES={recebidas:148,resolvidas:97};
+let filtroE='',filtroB='';
+const ATEND=[['Seg 03/11','Visita','Povoado 1','Escuta com moradores sobre o abastecimento de água'],['Ter 04/11','Plantão','Gabinete','Atendimento ao público, 8h às 12h'],['Qua 05/11','Sessão','Câmara','Sessão ordinária'],['Qui 06/11','Visita','Bairro 2','Acompanhar a obra da rua com a comunidade'],['Sex 07/11','Reunião','Gabinete','Lideranças comunitárias da zona rural']];
+let ATREG=[];
+const PREST=[['Pedimos','Indicação de reforma da quadra do Bairro 3','Esporte','15/10'],['Fizemos','Requerimento sobre o posto de saúde do Povoado 2','Saúde','20/10'],['Entregamos','Iluminação da rua principal do Centro','Iluminação','28/10'],['Entregamos','Limpeza do canal no Povoado 1','Água','29/10']];
+let pecaI=2;
+function waDem(x){const msg=`Oi, ${x.n}! Aqui é do gabinete do vereador Leo Pinto. Sua demanda ${x.p} (${x.t}, ${x.b}) está: ${x.e}. Qualquer coisa, é só responder aqui. Do povo, pro povo.`;return {msg,url:x.w?`https://wa.me/55${x.w}?text=${encodeURIComponent(msg)}`:''}}
+function peca(i){const [k,t,tema]=PREST[i];return `<div class="peca"><div><div class="eti">${k} · prestação de contas</div><h4 style="margin-top:12px">${k==='Entregamos'?'Entregue!':k==='Fizemos'?'Feito.':'Pedido feito.'}</h4><p style="margin-top:12px">${t}.</p></div><svg class="ond" viewBox="0 0 400 70" preserveAspectRatio="none"><path d="M0 30c50-16 100-16 150 0s100 16 150 0 70-12 100-6v46H0z" fill="${LC.n}"/></svg><div class="rod" style="position:relative">${iconeLP(tema,LC.n,54)}${seloLP(86)}</div></div>`}
+const VLEO={
+demandas(){const cont=e=>DEM.filter(x=>x.e===e).length,porB=BAIRROS.map(b=>[b,DEM.filter(x=>x.b===b).length]),max=Math.max(1,...porB.map(x=>x[1]));
+ const lista=DEM.filter(x=>(!filtroE||x.e===filtroE)&&(!filtroB||x.b===filtroB));
+ return `<div class="lgpd">${iconeLP('Outros',LC.g,34)}<div><b>Dados de cidadãos (LGPD).</b> Registre só o necessário para responder: primeiro nome, bairro e a demanda. Só com autorização da pessoa. Nada fica salvo neste navegador; no sistema real, só a equipe do gabinete acessa, e a pessoa pode pedir para apagar.</div></div>
+ <div class="grade g4">${[['Recebidas no mês',TOT_MES.recebidas],['Resolvidas no mês',TOT_MES.resolvidas],['Taxa de resolução',Math.round(TOT_MES.resolvidas/TOT_MES.recebidas*100)+'%'],['Tempo médio de resposta','3,2 dias']].map(([r,v])=>`<div class="card kpi"><div class="rot">${r}</div><div class="val">${v}</div></div>`).join('')}</div>
+ <div class="card"><h3>Andamento das demandas abertas nesta lista</h3><p class="sub">Da porta de casa até a resposta.</p><div class="kanban">${ETAPAS.map(e=>`<div style="--c:${COR_ETAPA[e]}"><b>${cont(e)}</b><span>${e}</span></div>`).join('')}</div></div>
+ <div class="grade g2"><div class="card"><h3>Demandas por bairro</h3><p class="sub">Nomes de exemplo: trocar pela lista de bairros e povoados do gabinete.</p><div class="lista">${porB.map(([b,n])=>`<div class="hbar"><span>${b}</span><div class="barra"><i style="width:${n/max*100}%"></i></div><b>${n}</b></div>`).join('')}</div></div>
+ <div class="card"><h3>Demandas por tema</h3><p class="sub">As causas do mandato.</p><div class="temas">${TEMAS.map((t,k)=>`<div>${iconeLP(t,[LC.b,LC.l,LC.n,LC.g][k%4])}<b>${DEM.filter(x=>x.t===t).length}</b>${t}</div>`).join('')}</div></div></div>
+ <div class="grade g21"><div class="card"><h3>Lista de demandas</h3><p class="sub">Avance a etapa e avise a pessoa no WhatsApp com a mensagem pronta.</p>
+ <div class="filtros"><select id="f-e" aria-label="Filtrar por etapa"><option value="">Todas as etapas</option>${ETAPAS.map(e=>`<option ${e===filtroE?'selected':''}>${e}</option>`).join('')}</select><select id="f-b" aria-label="Filtrar por bairro"><option value="">Todos os bairros</option>${BAIRROS.map(b=>`<option ${b===filtroB?'selected':''}>${b}</option>`).join('')}</select></div>
+ <div class="tab"><table><thead><tr><th>Protocolo</th><th>Pessoa</th><th>Bairro</th><th>Tema</th><th>Etapa</th><th></th></tr></thead><tbody>${lista.map(x=>{const i=DEM.indexOf(x),w=waDem(x);return `<tr><td>${x.p}<div class="sub" style="margin:0">${x.c} · ${x.q}</div></td><td>${x.n}</td><td>${x.b}</td><td>${x.t}</td><td><span class="chip" style="background:${COR_ETAPA[x.e]}22;color:${COR_ETAPA[x.e]}">${x.e}</span></td><td><div class="acoes-d">${x.e!=='Resolvida'?`<button class="btn lin" data-av="${i}">Avançar</button>`:''}${w.url?`<a class="btn am" href="${w.url}" target="_blank" rel="noopener">WhatsApp</a>`:`<button class="btn am" data-cp="${i}" title="Sem número: copia a mensagem">Copiar aviso</button>`}</div></td></tr>`}).join('')||'<tr><td colspan="6" class="vazio">Nenhuma demanda com esse filtro.</td></tr>'}</tbody></table></div></div>
+ <form class="card" id="nova-dem"><h3>Registrar demanda</h3><p class="sub">Leva menos de 1 minuto. Gera o protocolo na hora.</p><div class="form-g">
+ <label>Primeiro nome<input id="d-n" required maxlength="30" autocomplete="off"></label><label>Bairro ou povoado<select id="d-b">${BAIRROS.map(b=>`<option>${b}</option>`).join('')}</select></label>
+ <label>Tema<select id="d-t">${TEMAS.map(t=>`<option>${t}</option>`).join('')}</select></label><label>Canal<select id="d-c"><option>WhatsApp</option><option>Presencial</option><option>Instagram</option><option>Telefone</option></select></label>
+ <label class="inteiro">WhatsApp com DDD (opcional, só para dar o retorno)<input id="d-w" inputmode="numeric" placeholder="98 9 0000-0000" autocomplete="off"></label>
+ <label class="inteiro ok"><input type="checkbox" id="d-ok" required><span>A pessoa autorizou o gabinete a usar estes dados só para responder esta demanda.</span></label>
+ <button class="btn am inteiro" type="submit">Registrar e gerar protocolo</button></div></form></div>`},
+atendimentos(){return `<div class="grade g4">${[['Visitas a bairros no mês','6 de 10'],['Plantões no gabinete','8'],['Pessoas atendidas','212'],['Viraram demanda','61']].map(([r,v])=>`<div class="card kpi"><div class="rot">${r}</div><div class="val">${v}</div></div>`).join('')}</div>
+ <div class="grade g21"><div class="card"><h3>Agenda da semana</h3><p class="sub">Onde o Leo vai estar. Cada visita vira registro em foto para as redes.</p><div class="lista">${ATEND.map(([d,t,l,o])=>`<div class="item"><div style="width:76px;flex:none"><b class="leo-h" style="font-size:20px">${d.split(' ')[0]}</b><div class="d">${d.split(' ')[1]}</div></div><div><div class="t">${o}</div><div class="d">${t} · ${l}</div></div><div class="fim"><span class="chip am">${t}</span></div></div>`).join('')}</div></div>
+ <form class="card" id="novo-at"><h3>Registrar atendimento</h3><p class="sub">Depois de cada visita ou plantão.</p><div class="form-g"><label>Tipo<select id="a-t"><option>Visita</option><option>Plantão</option><option>Reunião</option><option>Evento</option></select></label><label>Local<select id="a-l">${['Gabinete',...BAIRROS].map(b=>`<option>${b}</option>`).join('')}</select></label><label class="inteiro">Pessoas atendidas<input id="a-p" type="number" min="1" value="10"></label><label class="inteiro ok"><input type="checkbox" id="a-f"><span>Teve foto ou vídeo para as redes</span></label><button class="btn am inteiro" type="submit">Registrar</button></div>
+ ${ATREG.length?`<div class="lista" style="margin-top:14px">${ATREG.map(a=>`<div class="item"><div><div class="t">${a[0]} · ${a[1]}</div><div class="d">${a[2]} pessoas · ${a[3]?'com foto':'sem foto'} · hoje</div></div></div>`).join('')}</div>`:''}</form></div>`},
+prestacao(){return `<div class="card"><h3>Pedimos · Fizemos · Entregamos</h3><p class="sub">O que o mandato fez, do pedido à entrega. Toque em "Ver post" para gerar a peça na identidade do Leo.</p><div class="grade g3">${['Pedimos','Fizemos','Entregamos'].map(k=>`<div><div class="leo-h" style="font-size:26px;text-transform:uppercase;color:${k==='Entregamos'?'#5CC98A':k==='Fizemos'?LC.g:LC.a}">${k}</div><div class="lista" style="margin-top:10px">${PREST.map((p,i)=>p[0]===k?`<div class="item">${iconeLP(p[2],LC.b,38)}<div><div class="t">${p[1]}</div><div class="d">${p[2]} · ${p[3]}</div></div><div class="fim"><button class="btn lin" data-pc="${i}">Ver post</button></div></div>`:'').join('')}</div></div>`).join('')}</div></div>
+ <div class="grade g21"><div class="card"><h3>Prévia do post</h3><p class="sub">Formato 4:5 para o feed, com o selo do mandato. A equipe finaliza com a foto real da entrega.</p><div style="max-width:360px">${peca(pecaI)}</div></div>
+ <div class="card"><h3>Como usar</h3><div class="lista"><div class="fase"><b>1 · Pedimos</b><span class="sub" style="margin:0">Indicação ou requerimento protocolado. Mostra que a demanda chegou à Câmara.</span></div><div class="fase"><b>2 · Fizemos</b><span class="sub" style="margin:0">Visita, reunião ou cobrança feita. Mostra o trabalho no caminho.</span></div><div class="fase"><b>3 · Entregamos</b><span class="sub" style="margin:0">Resolvido. Leva o selo "Do povo, pro povo" e a foto com a comunidade.</span></div></div>
+ <p class="sub" style="margin-top:14px">Regra do mandato: nunca usar número de urna nem pedir voto nas peças.</p></div></div>`}};
+function ligaLeo(){
+ const fe=$('#f-e'),fb=$('#f-b');if(fe){fe.onchange=e=>{filtroE=e.target.value;render()};fb.onchange=e=>{filtroB=e.target.value;render()}}
+ main.querySelectorAll('[data-av]').forEach(b=>b.onclick=()=>{const x=DEM[b.dataset.av];x.e=ETAPAS[Math.min(3,ETAPAS.indexOf(x.e)+1)];if(x.e==='Resolvida')TOT_MES.resolvidas++;toast(`${x.p}: ${x.e}. Avise a pessoa no WhatsApp.`);render()});
+ main.querySelectorAll('[data-cp]').forEach(b=>b.onclick=()=>{const m=waDem(DEM[b.dataset.cp]).msg;(navigator.clipboard?navigator.clipboard.writeText(m):Promise.reject()).then(()=>toast('Mensagem copiada.'),()=>toast('Não deu para copiar neste navegador.'))});
+ main.querySelectorAll('[data-pc]').forEach(b=>b.onclick=()=>{pecaI=+b.dataset.pc;render()});
+ const fd=$('#nova-dem');if(fd)fd.onsubmit=e=>{e.preventDefault();const n=$('#d-n').value.trim().split(/\s+/)[0];if(!n||!$('#d-ok').checked)return;const w=$('#d-w').value.replace(/\D/g,'');const num=148+DEM.length-6;const x={p:'LP-0'+(num+1),n,b:$('#d-b').value,t:$('#d-t').value,c:$('#d-c').value,e:'Recebida',q:'agora',w:(w.length===10||w.length===11)?w:''};DEM.unshift(x);TOT_MES.recebidas++;toast(`Protocolo ${x.p} gerado.`);render()};
+ const fa=$('#novo-at');if(fa)fa.onsubmit=e=>{e.preventDefault();ATREG.unshift([$('#a-t').value,$('#a-l').value,+$('#a-p').value||0,$('#a-f').checked]);toast('Atendimento registrado.');render()};
+}
+const LOGO_GERAL=document.querySelector('.logo').innerHTML;
 const V={
 missoes(){const m=MISSOES[cli],l=lista(),tot=m.reduce((a,x)=>a+x[1],0),p=pontos(),dias=Object.keys(feitas).filter(k=>k.startsWith(cli+':')&&feitas[k].length).length;
  const med=[['🔥','Primeira missão',p>0],['⭐','Dia completo',l.length===m.length],['🏅','3 dias ativos',dias>=3],['👑','7 dias ativos',dias>=7]];
@@ -252,7 +356,7 @@ conteudos(){const sub=window._sub||'datas';const D={
  const bt=k=>`<button aria-pressed="${sub===k}" data-sub="${k}">${{datas:'Datas comemorativas',carrosseis:'Carrosséis',reels:'Reels'}[k]}</button>`;
  const corpo=`<div class="posts">${sub==='datas'?D.datas.map(([d,n,ideia])=>`<div class="post"><div class="img" style="aspect-ratio:4/5;flex-direction:column;gap:8px;display:flex;justify-content:center"><span style="font:500 13px var(--f-dado);letter-spacing:.2em;color:var(--apagado)">${d}</span>${n}</div><div class="c"><b>Data comemorativa</b><span style="color:var(--apagado);font-size:12.5px">${ideia}</span></div></div>`).join(''):D[sub].map(([t,st])=>`<div class="post"><div class="img" style="aspect-ratio:${sub==='reels'?'9/16':'4/5'}">${t}</div><div class="c"><div style="display:flex;justify-content:space-between;gap:8px"><b>${sub==='reels'?'Reels':'Carrossel'}</b>${chip(st)}</div></div></div>`).join('')}</div>`;
  return `<div class="card"><h3>Conteúdos</h3><p class="sub">Tudo que está sendo produzido para você.</p><div class="subabas" style="margin-bottom:14px">${bt('datas')+bt('carrosseis')+bt('reels')}</div>${corpo}</div>`},
-fotos(){return `<div class="grade g21"><div class="card"><h3>Banco de fotos</h3><p class="sub">Suas fotos usadas nos conteúdos. Cada foto vira no máximo um post.</p><div class="fotos">${['Foto do espaço','Equipe','Produto em destaque','Bastidor','Cliente atendido (com autorização)','Fachada'].map(t=>`<div>${t}<br>· aguardando envio ·</div>`).join('')}</div></div>
+fotos(){return `<div class="grade g21"><div class="card"><h3>Banco de fotos</h3><p class="sub">Suas fotos usadas nos conteúdos. Cada foto vira no máximo um post.</p><div class="fotos">${(cli==='leo'?['Visita a bairro','Plantão no gabinete','Sessão na Câmara','Entrega com a comunidade (com autorização)','Reunião com lideranças','Festa de São João']:['Foto do espaço','Equipe','Produto em destaque','Bastidor','Cliente atendido (com autorização)','Fachada']).map(t=>`<div>${t}<br>· aguardando envio ·</div>`).join('')}</div></div>
  <div class="card"><h3>Enviar fotos</h3><p class="sub">Mande fotos boas, na vertical, com luz natural. Sem marca de outras empresas.</p><button class="btn am" data-toast="Envio de fotos liga quando o sistema estiver no ar">Enviar fotos</button><p class="sub" style="margin-top:14px">Dica: 1 foto por dia já mantém seu conteúdo cheio para o mês todo.</p></div></div>`},
 planejamento(d){return `<div class="grade g21"><div class="card"><h3>Plano de 90 dias</h3><p class="sub">${d.plano} · combinado na reunião de início.</p><div class="lista">
  <div class="fase"><b>Mês 1 · Base</b><span class="sub" style="margin:0">Perfil arrumado, identidade, mini site e primeiros conteúdos.</span></div>
@@ -260,12 +364,12 @@ planejamento(d){return `<div class="grade g21"><div class="card"><h3>Plano de 90
  <div class="fase"><b>Mês 3 · Conversão</b><span class="sub" style="margin:0">Remarketing, depoimentos e ofertas para quem já conhece você.</span></div></div></div>
  <div class="card"><h3>Linhas editoriais</h3><p class="sub">Sobre o que falamos toda semana.</p><div class="lista">${['Autoridade: ensinar e tirar dúvidas','Prova: resultados e depoimentos','Bastidores: quem faz acontecer','Oferta: chamada clara para o WhatsApp'].map(t=>`<div class="item"><div class="t">${t}</div></div>`).join('')}</div></div></div>`},
 inicio(d){return bomDia()+`<div class="grade g4">${d.kpis.map(([r,v,p,u])=>`<div class="card kpi"><div class="rot">${r}</div><div class="val">${v}</div><div class="var ${p.startsWith('-')&&!r.startsWith('Custo')?'down':'up'}">${p} <span>vs mês anterior</span></div></div>`).join('')}</div>
- <div class="grade g21"><div class="card"><h3>Crescimento nos últimos 30 dias</h3><p class="sub">Alcance diário (amarelo) e interações (cinza), em mil.</p>${linha([serie(1,40,10),serie(3,14,4)],['#F5C518','#8E8B83'])}</div>
+ <div class="grade g21"><div class="card"><h3>Crescimento nos últimos 30 dias</h3><p class="sub">Alcance diário (${cli==='leo'?'laranja':'amarelo'}) e interações (cinza), em mil.</p>${linha([serie(1,40,10),serie(3,14,4)],[cli==='leo'?'#F26A1B':'#F5C518','#8E8B83'])}</div>
  <div class="card"><h3>De onde vêm os contatos</h3><p class="sub">Participação de cada canal no mês.</p>${rosca(d.canais)}</div></div>
  <div class="grade g3"><div class="card"><h3>Metas do mês</h3><p class="sub">Combinadas no planejamento.</p><div class="lista">${d.metas.map(([n,a,b])=>`<div><div style="display:flex;justify-content:space-between"><span>${n}</span><b>${a} / ${b}</b></div><div class="barra"><i style="width:${Math.min(100,a/b*100)}%"></i></div></div>`).join('')}</div></div>
  <div class="card"><h3>Precisa da sua aprovação</h3><p class="sub">Conteúdos esperando você.</p><div class="lista">${APROV.filter(p=>p.st==='aguardando').map(p=>`<div class="item"><div><div class="t">${p.titulo}</div><div class="d">${p.t} · ${p.data}</div></div></div>`).join('')}</div><a class="btn am" href="#aprovacoes" style="margin-top:12px;width:100%">Revisar agora</a></div>
  <div class="card"><h3>Próximos passos</h3><p class="sub">O que a agência está fazendo.</p><div class="lista">${ENTREGAS.filter(e=>e[3]!=='entregue').map(e=>`<div class="item"><div><div class="t">${e[0]}</div><div class="d">Previsto: ${e[2]}</div></div><div class="fim">${chip(e[3])}</div></div>`).join('')}${REUN.slice(0,1).map(r=>`<div class="item"><div><div class="t">${r[0]}</div><div class="d">${r[1]}</div></div></div>`).join('')}</div></div></div>`},
-resultados(d){return `<div class="grade g2"><div class="card"><h3>Seguidores</h3><p class="sub">Evolução diária no Instagram.</p>${linha([serie(2,120,8)],['#F5C518'])}</div><div class="card"><h3>Leads e conversas</h3><p class="sub">Novos contatos por dia.</p>${linha([serie(5,8,3)],['#F5C518'])}</div></div>
+resultados(d){return `<div class="grade g2"><div class="card"><h3>Seguidores</h3><p class="sub">Evolução diária no Instagram.</p>${linha([serie(2,120,8)],[cli==='leo'?'#F26A1B':'#F5C518'])}</div><div class="card"><h3>Leads e conversas</h3><p class="sub">Novos contatos por dia.</p>${linha([serie(5,8,3)],[cli==='leo'?'#F26A1B':'#F5C518'])}</div></div>
  <div class="card"><h3>Melhores conteúdos do mês</h3><p class="sub">Ordenados por alcance.</p><div class="tab"><table><thead><tr><th>Conteúdo</th><th>Formato</th><th>Alcance</th><th>Salvamentos</th><th>Compart.</th></tr></thead><tbody>
  ${[['Bastidores da equipe','Reels','38,2 mil','412','188'],['Antes de comprar, veja isso','Carrossel','24,7 mil','655','240'],['Pergunta da semana','Story','11,9 mil','—','36'],['Depoimento de cliente','Post','9,4 mil','121','44']].map(r=>`<tr>${r.map(c=>`<td>${c}</td>`).join('')}</tr>`).join('')}</tbody></table></div></div>`},
 relatorios(){return `<div class="card"><h3>Relatórios mensais</h3><p class="sub">Resumo do mês, o que funcionou e o plano do próximo mês.</p><div class="lista">${['Outubro/2026','Setembro/2026'].map((m,k)=>`<div class="item"><div><div class="t">Relatório de ${m}</div><div class="d">${k?'Entregue em 05/10':'Em produção · entrega 05/11'}</div></div><div class="fim">${chip(k?'entregue':'em produção')}<button class="btn lin" ${k?'':'disabled'} data-toast="Download disponível quando o sistema estiver ligado">Baixar PDF</button></div></div>`).join('')}</div></div>`},
@@ -283,12 +387,18 @@ reunioes(){return `<div class="card"><h3>Reuniões</h3><p class="sub">Encontros 
 contrato(d){return `<div class="grade g2"><div class="card"><h3>Seu plano</h3><p class="sub">Serviços contratados.</p><div class="lista"><div class="item"><div><div class="t">${d.plano}</div><div class="d">Cliente desde ${d.inicio}</div></div><div class="fim">${chip('Ativa')}</div></div></div><button class="btn lin" style="margin-top:12px" data-toast="Contrato em PDF disponível quando o sistema estiver ligado">Ver contrato</button></div>
  <div class="card"><h3>Pagamentos</h3><p class="sub">Mensalidades da agência.</p><div class="tab"><table><thead><tr><th>Mês</th><th>Vencimento</th><th>Status</th></tr></thead><tbody>${PAGT.map(p=>`<tr><td>${p[0]}</td><td>${p[1]}</td><td>${chip(p[2])}</td></tr>`).join('')}</tbody></table></div></div></div>`}
 };
-const T={missoes:'Missões do dia',conteudos:'Conteúdos',fotos:'Fotos',planejamento:'Planejamento',inicio:'Visão geral',resultados:'Métricas',relatorios:'Relatórios',aprovacoes:'Aprovações',calendario:'Calendário',entregas:'Entregas e arquivos',campanhas:'Campanhas',leads:'Leads e atendimento',pedidos:'Pedidos à agência',reunioes:'Reuniões',contrato:'Contrato e pagamentos'};
-function render(){const v=(location.hash||'#inicio').slice(1),view=V[v]?v:'inicio',d=BASE[cli];
+Object.assign(V,VLEO);
+const T={demandas:'Demandas da população',atendimentos:'Atendimentos',prestacao:'Prestação de contas',missoes:'Missões do dia',conteudos:'Conteúdos',fotos:'Fotos',planejamento:'Planejamento',inicio:'Visão geral',resultados:'Métricas',relatorios:'Relatórios',aprovacoes:'Aprovações',calendario:'Calendário',entregas:'Entregas e arquivos',campanhas:'Campanhas',leads:'Leads e atendimento',pedidos:'Pedidos à agência',reunioes:'Reuniões',contrato:'Contrato e pagamentos'};
+function render(){const leo=cli==='leo';document.body.classList.toggle('tema-leo',leo);document.body.style.setProperty('--azulejo',leo?AZULEJO:'none');
+ APROV=leo?APROV_LEO:APROV_GERAL;ENTREGAS=leo?ENTREGAS_LEO:ENTREGAS_GERAL;
+ document.querySelector('.logo').innerHTML=leo?`${monoLP(38)}<span class="lp"><span>LEO PINTO</span><small>Painel do mandato</small></span>`:LOGO_GERAL;
+ const av=document.querySelector('.avatar');av.innerHTML=leo?monoLP(34):'LA';
+ const v0=(location.hash||'#inicio').slice(1),v=(!leo&&VLEO[v0])||(leo&&['campanhas','leads'].includes(v0))?'inicio':v0,view=V[v]?v:'inicio',d=BASE[cli];
  $('#titulo').textContent=T[view];$('#nome-cliente').textContent=d.nome+' · '+d.seg;$('#cliente').value=cli;
  document.querySelectorAll('.grupo a').forEach(a=>a.toggleAttribute('aria-current',a.dataset.v===view)||a.dataset.v===view&&a.setAttribute('aria-current','page'));
  document.querySelectorAll('.grupo a').forEach(a=>{if(a.dataset.v===view)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')});
  $('#n-miss').textContent=(MISSOES[cli].length-lista().length)||'';
+ const nd=document.getElementById('n-dem');if(nd)nd.textContent=leo?DEM.filter(x=>x.e==='Recebida').length||'':'';
  $('#n-aprov').textContent=APROV.filter(p=>p.st==='aguardando').length||'';
  main.innerHTML=V[view](d)+promo();giraPromo();$('#menu').classList.remove('aberto');$('#abrir').setAttribute('aria-expanded','false');
  main.querySelectorAll('[data-ap]').forEach(b=>b.onclick=()=>{APROV[b.dataset.ap].st='aprovado';toast('Aprovado. A equipe foi avisada.');render()});
@@ -296,7 +406,7 @@ function render(){const v=(location.hash||'#inicio').slice(1),view=V[v]?v:'inici
  main.querySelectorAll('[data-sub]').forEach(b=>b.onclick=()=>{window._sub=b.dataset.sub;render()});
  main.querySelectorAll('[data-m]').forEach(c=>c.onchange=()=>{const i=+c.dataset.m,l=lista().filter(x=>x!==i);if(c.checked){l.push(i);toast('+'+MISSOES[cli][i][1]+' XP! Boa.')}feitas[chaveM()]=l;salvaM();render()});
  main.querySelectorAll('[data-toast]').forEach(b=>b.onclick=()=>toast(b.dataset.toast));
- const f=$('#novo-ped');if(f)f.onsubmit=e=>{e.preventDefault();const t=$('#ped-t').value.trim();if(!t)return;PEDIDOS.unshift([t,'em andamento','hoje']);toast('Pedido enviado. A equipe responde em até 1 dia útil.');render()}}
+ ligaLeo();const f=$('#novo-ped');if(f)f.onsubmit=e=>{e.preventDefault();const t=$('#ped-t').value.trim();if(!t)return;PEDIDOS.unshift([t,'em andamento','hoje']);toast('Pedido enviado. A equipe responde em até 1 dia útil.');render()}}
 $('#cliente').onchange=e=>{cli=e.target.value;try{localStorage.setItem('painel-cliente',cli)}catch(_){}render()};
 $('#abrir').onclick=()=>{const m=$('#menu');m.classList.toggle('aberto');$('#abrir').setAttribute('aria-expanded',m.classList.contains('aberto'))};
 addEventListener('hashchange',render);render();

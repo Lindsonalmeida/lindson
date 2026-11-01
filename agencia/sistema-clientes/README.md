@@ -50,7 +50,12 @@ Sem as fotos pessoais, o script para com erro. Coloque as fotos em `fotos/` com 
 2. Back-end: Cloudflare Workers + D1 (o Lindson já tem a conta conectada).
    - **Tabelas:** clientes, usuários, códigos e registro de acesso.
    - **Regra de acesso:** o perfil "admin" vê tudo.
-3. Painel do Vereador Leo Pinto: demandas da população por bairro, atendimentos e redes. Seguir a LGPD, porque são dados de cidadãos.
+3. ~~Painel do Vereador Leo Pinto~~ **feito no protótipo (01/11)** dentro de `prototipo/painel.html`. Ao escolher o Leo, o painel veste a identidade dele (monograma LP, Archivo + Inter, laranja e azuis, azulejo) e ganha o grupo **Mandato**:
+   - **Demandas:** protocolo, etapas (Recebida → Encaminhada → Em andamento → Resolvida), gráficos por bairro e por tema, filtros e registro com consentimento LGPD. O botão WhatsApp avisa a pessoa com a mensagem pronta; sem número, copia a mensagem.
+   - **Atendimentos:** agenda da semana e registro de visita ou plantão.
+   - **Prestação de contas:** Pedimos / Fizemos / Entregamos, com a prévia do post 4:5 com o selo.
+   - Campanhas e Leads ficam escondidos para o Leo. Dados de cidadãos ficam só em memória, nunca no navegador.
+   - **Falta:** a lista real de bairros e povoados (hoje são nomes de exemplo) e ligar ao servidor.
 4. Painéis da Apple Black e da Dra. Jaci Cunha: definir com o Lindson.
 
 Antes de começar a construir, vale usar o **Builder Squad** (`/builder-squad`) para o briefing, a arquitetura e as checagens de qualidade.
