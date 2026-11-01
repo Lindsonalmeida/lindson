@@ -56,6 +56,7 @@ if (PL) V.planejamento = d => {
    ${PL.linhasNota ? `<p class="sub" style="margin:10px 0 0">${esc(PL.linhasNota)}</p>` : ''}</div>
   <div class="grade g21"><div class="card"><h3>Ritmo da semana</h3><p class="sub">${esc(PL.ritmoNota || '')}</p><div class="tab"><table><thead><tr><th>Dia</th><th>Feed</th><th>Stories</th></tr></thead><tbody>${(PL.ritmo || []).map(r => `<tr>${r.map(c => `<td>${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div></div>
    <div class="card"><h3>Plano de 90 dias</h3><div class="lista">${(PL.fases || []).map(([t, x]) => `<div class="fase"><b>${esc(t)}</b><span class="sub" style="margin:0">${esc(x)}</span></div>`).join('')}</div></div></div>
+  ${(PL.datas || []).length ? `<div class="card"><h3>Datas comemorativas do ano</h3><p class="sub">${esc(PL.datasNota || '')}</p><div class="tab"><table><thead><tr><th>Data</th><th>O que é</th><th>Ideia de conteúdo</th></tr></thead><tbody>${PL.datas.map(r => `<tr>${r.map((c, i) => `<td>${i === 0 ? '<b>' + esc(c) + '</b>' : esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div></div>` : ''}
   ${PL.regras ? `<div class="card" style="border-color:var(--amarelo)"><h3>Regras que valem para todo post</h3><p class="sub" style="margin:0">${esc(PL.regras)}</p></div>` : ''}`;
 };
 const C = D.calendario;
