@@ -3,9 +3,11 @@
 Ficha montada pela conta Lindson em 01/11/2026, juntando o que existe no repositório e nos apps. **Dados pessoais (CPF, CNPJ, e-mail, WhatsApp, endereço e valores) não entram aqui**, porque o repositório é público: estão no contrato em PDF.
 
 ## Quem é
-- **Clínica:** Dra Jaci Cunha Odontologia Especializada Ltda, em **Zé Doca (MA)**, na Avenida Militar.
-- **Responsável:** a proprietária, cirurgiã-dentista (responsável técnica perante o CFO/CRO).
-- **Segmento:** clínica / saúde (odontologia).
+- **Clínica:** Clínica Dra. Jaci Cunha · Harmonização Orofacial e Odontologia, em **Zé Doca (MA)**, Av. Militar, em frente à Praça do Viva.
+- **Responsável técnica:** Dra. Jaci Cunha, cirurgiã-dentista, CRO 8514.
+- **Instagram:** @clinica.drajacicunha
+- **Identidade:** já existe (bordô e dourado, monograma JC com perfil feminino): manual em `identidade/v2/`.
+- **Estratégia de vendas premium (out/2026):** resumo em `estrategia-resumo.md`.
 
 ## O contrato (fechado em out/2026)
 - **PDF:** página Downloads Lindson, item "Contrato · Dra. Jaci Cunha Odontologia" (5 páginas): https://claude.ai/artifact/VLijrTZyfqg1D53UYrKM6w
@@ -23,12 +25,10 @@ Ficha montada pela conta Lindson em 01/11/2026, juntando o que existe no reposit
 - Código de acesso começa com `JAC-` (`agencia/sistema-clientes/README.md`).
 - O painel dela aparece no protótipo `agencia/sistema-clientes/prototipo/painel.html` (cliente "jaci"), mas **os números lá são de exemplo**, não reais. O painel próprio ainda está "a definir com o Lindson".
 
-## O que não foi encontrado
-- Nenhum perfil público dela na internet pelas buscas (nem o @ do Instagram da clínica).
-- Nenhuma estratégia, calendário, roteiro, relatório ou identidade feitos para ela no repositório.
 
 ## Pendências
-- Estratégia e calendário do 1º mês (o contrato começou em 26/10).
+- Executar a semana 1 e 2 da estratégia (bio, destaques, Google, mini site com chat, WhatsApp com etiquetas, códigos nos anúncios).
+- Calendário de conteúdo de novembro com os ganchos da estratégia.
 - Relatório semanal.
 - Painel real na Central do Cliente.
-- Confirmar o @ do Instagram da clínica com o Lindson.
+- Logo original em vetor e fotos em alta resolução.

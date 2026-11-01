@@ -1,31 +1,14 @@
-# Briefing · Identidade visual da Dra. Jaci Cunha
+# Briefing · Identidade da Clínica Dra. Jaci Cunha
 
-Montado pela conta Lindson em 01/11/2026 a partir do contrato (Plano Master, desde 26/10/2026) e da ficha da cliente (`../README.md`). O que está marcado como **suposição** precisa ser confirmado com o Lindson ou com a cliente.
+Atualizado pela conta Lindson em 01/11/2026 com o perfil do Instagram e a estratégia premium (out/2026). **A identidade já existe** e está documentada em `v2/` (manual de 16 páginas). O rascunho v1 (petróleo e coral, símbolo JC de sorriso) foi descartado: não era a marca da cliente.
 
-## Quem é
-- **Nome na marca:** Dra. Jaci Cunha · Odontologia Especializada
-- **Onde:** Zé Doca (MA), Avenida Militar, em frente à Praça do Viva.
-- **Segmento:** clínica odontológica com especialidades. Responsável técnica perante o CFO/CRO.
-- **Canais:** Instagram, TikTok e YouTube (Shorts e longos), WhatsApp oficial para atendimento.
-
-## Posicionamento (suposição)
-Odontologia especializada **sem precisar viajar** para São Luís ou Imperatriz. Promessa: cuidado de especialista, perto de casa, com acolhimento.
-- **Slogan sugerido:** "Cuidado especializado, perto de você."
-- **Propósito:** fazer o paciente de Zé Doca e região sorrir sem medo e sem viajar.
-- **Personalidade:** acolhedora, segura, moderna, próxima. Especialista sem ser fria.
-- **Tom de voz:** simples, calmo e explicativo, como uma dentista que conversa na cadeira. Nada de termo técnico sem explicar.
-
-## Público (suposição)
-Famílias, mulheres de 25 a 55 anos (que decidem a saúde da casa), adultos com medo de dentista e quem hoje viaja para tratar com especialista.
-
-## Regras da área da saúde (CFO)
-- Toda peça de divulgação mostra nome e número do CRO da responsável técnica.
-- Sem preço, promoção ou "desconto" em post; sem "antes e depois" sensacionalista; sem promessa de resultado.
-- Foto de paciente só com autorização por escrito (contrato, cláusula 8ª).
-
-## O que ainda falta (pedir)
-- Logo atual, se existir (o manual propõe um novo).
-- Fotos reais da Dra. Jaci e da clínica (o manual mostra onde elas entram).
-- @ do Instagram (o manual usa a sugestão `@drajacicunha`).
-- Número do CRO-MA da responsável técnica.
-- Especialidades oferecidas (os ícones são de tratamentos comuns e devem ser ajustados).
+- **Nome:** Clínica Dra. Jaci Cunha · Harmonização Orofacial e Odontologia
+- **Instagram:** @clinica.drajacicunha (cerca de 1.050 seguidores; 35,4 mil visualizações em 30 dias, print de out/2026)
+- **Responsável técnica:** Dra. Jaci Cunha, cirurgiã-dentista, CRO 8514
+- **Onde:** Av. Militar, em frente à Praça do Viva, Zé Doca/MA
+- **Bio atual:** "Harmonização Orofacial e Odontologia · ✨ Um novo conceito em beleza, saúde e bem-estar"
+- **Posicionamento (estratégia):** beleza natural, com saúde e cuidado, aqui em Zé Doca. Realçar sem exagerar.
+- **Procedimentos em destaque:** botox, preenchimento labial e facial, bioestimulador de colágeno; odontologia (limpeza, clareamento, estética do sorriso).
+- **Público (estratégia):** mulheres de 25 a 55 anos em Zé Doca e até 40 km; cidades vizinhas para botox e bioestimulador.
+- **Visual:** bordô e dourado, Cormorant Garamond + Montserrat, fotos de estúdio claras com a Dra. em roupas off-white, nude ou bordô e joias douradas.
+- **Regras:** CFO (Res. 196/2019): sem preço, promoção, "grátis", promessa de resultado, procedimento sendo feito; antes e depois só com TCLE e nunca em anúncio.
