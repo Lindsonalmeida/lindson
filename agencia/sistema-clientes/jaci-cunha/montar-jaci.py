@@ -129,7 +129,7 @@ cine = os.path.join(SC, 'fotos', 'principal-cine.webp')
 s = s.replace('<img src="__CINE__" alt="Lindson Almeida">', f'<img src="{webp(cine)}" alt="Lindson Almeida">' if os.path.exists(cine) else '')
 
 s = s.replace('__LOGO__', uri(os.path.join(IMG, 'assinatura.jpg'), 340))
-extra = 'window.__DADOS=' + json.dumps(dados, ensure_ascii=False).replace('</', '<\\/') + ';\n' + open(os.path.join(SC, 'prototipo', 'real.js')).read() + '\n' + open(os.path.join(D, 'clinica.js')).read() + '\nwindow.__FERR=' + json.dumps(FERR, ensure_ascii=False) + ';\n' + open(os.path.join(SC, 'prototipo', 'ferramentas.js')).read()
+extra = 'window.__DADOS=' + json.dumps(dados, ensure_ascii=False).replace('</', '<\\/') + ';\n' + open(os.path.join(SC, 'prototipo', 'real.js')).read() + '\n' + open(os.path.join(D, 'clinica.js')).read() + '\nwindow.__FERR=' + json.dumps(FERR, ensure_ascii=False) + ';\n' + open(os.path.join(SC, 'prototipo', 'ferramentas.js')).read() + '\n' + open(os.path.join(SC, 'prototipo', 'fotos.js')).read()  # fotos.js por último: ele encadeia o __pos dos anteriores
 s = s.replace('</script>', '</script>\n<script>\n' + extra + '\n</script>', 1)
 s = s.replace('<meta charset="utf-8">\n', '', 1)
 open(os.path.join(D, 'painel-jaci.html'), 'w').write(s)

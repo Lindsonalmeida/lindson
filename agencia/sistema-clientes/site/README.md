@@ -71,6 +71,14 @@ Use `npx wrangler@3 pages dev publico --kv CONTAS` com um `.dev.vars` (fora do G
 - **Notícias:** `functions/api/noticias.js` busca no Google Notícias (reserva: Bing) e guarda por 3 horas no KV. Só para quem entrou.
 - **Onde ficam os dados:** `functions/api/dados.js` salva no KV (`dados:<cliente>:crm|fin`). Só o próprio cliente ou o admin acessa. Se duas pessoas salvarem ao mesmo tempo, os itens são juntados.
 
+## Envio de fotos (conta Lindson, 01/11/2026)
+- **Código:** tela Fotos em `prototipo/fotos.js`; servidor em `functions/api/fotos.js` (lista, envio, exclusão) e `foto.js` (imagem, miniatura, download).
+- **Como funciona:** a foto é reduzida no celular para no máximo 2048 px, mais uma miniatura de 480 px, e guardada no KV (`foto:<cliente>:<id>`, `fotot:` para a miniatura). A categoria vai nos metadados.
+- **Quem acessa:** o próprio cliente ou o admin.
+- **Categorias:** por cliente, em `dados/<cliente>.json` (`fotosCats`).
+- **Ordem no montar:** `fotos.js` entra por último, porque encadeia o `__pos` dos outros scripts.
+- **Se o volume crescer muito:** passar para o R2 da Cloudflare.
+
 ## Dados reais dos clientes
 - **Onde ficam:** no repositório privado, em `CentralLindsonALmeida/dados/<cliente>.json`, nunca aqui.
 - **Como entram no painel:** o `montar-<cliente>.py` lê esse arquivo (clone o privado em `/home/user/centrallindsonalmeida`, ao lado deste) e o `prototipo/real.js` troca as telas de exemplo pelos dados.
