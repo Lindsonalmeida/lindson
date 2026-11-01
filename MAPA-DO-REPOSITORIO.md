@@ -13,7 +13,7 @@ Branch principal: `claude/global-agent-installation-vdyowf`. Outros branches: `e
 | `REGISTRO-DAS-CONTAS.md` | Tudo o que já foi entregue, por conta e data |
 | `ESTADO-DO-PROJETO.md` | Apps publicados, filas de vídeo e como retomar uma renderização |
 | `MINI-SITE.md`, `links/` | Mini site de links da bio do Lindson |
-| `README.md`, `instalar-xquads.*`, `instalar-builder-squad.*`, `ferramentas/` | Instaladores globais dos agentes Xquads e do Builder Squad |
+| `README.md`, `instalar-xquads.*`, `instalar-builder-squad.*`, `ferramentas/` | Instaladores globais dos agentes Xquads e do Builder Squad; `ferramentas/nano_banana.py` gera e edita imagens com o Nano Banana (precisa de GEMINI_API_KEY no ambiente) |
 
 ## Agência (`agencia/`)
 | Pasta / arquivo | O que tem |
