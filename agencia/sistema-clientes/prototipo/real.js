@@ -46,6 +46,18 @@ V.reunioes = () => `<div class="card"><h3>Reuniões</h3><p class="sub">Encontros
 V.contrato = d => `<div class="grade g2"><div class="card"><h3>Seu plano</h3><p class="sub">Serviços contratados.</p><div class="lista"><div class="item"><div><div class="t">${esc(d.plano)}</div><div class="d">Cliente desde ${esc(d.inicio)}</div></div><div class="fim">${chip('Ativa')}</div></div></div></div>
  <div class="card"><h3>Pagamentos</h3><p class="sub">Mensalidades da agência.</p><div class="tab"><table><thead><tr><th>Mês</th><th>Vencimento</th><th>Status</th></tr></thead><tbody>${(D.pagamentos || []).map(p => `<tr><td>${esc(p[0])}</td><td>${esc(p[1])}</td><td>${chip(p[2])}</td></tr>`).join('') || '<tr><td colspan="3">Nenhum pagamento registrado aqui ainda.</td></tr>'}</tbody></table></div></div></div>`;
 
+
+const PL = D.planejamento;
+if (PL) V.planejamento = d => {
+  const mx = Math.max(...PL.linhas.map(l => parseInt(l[1]) || 0), 1);
+  return `<div class="card"><h3>Objetivo</h3><p class="sub" style="margin:0">${esc(PL.objetivo)}</p><p class="sub" style="margin:8px 0 0;font-size:12px">${esc(PL.fonte)} · ${esc(d.plano)}</p></div>
+  <div class="card"><h3>Linhas editoriais</h3><p class="sub">Sobre o que falamos e por quê. O % é a fatia de cada linha nos posts do mês.</p>
+   <div class="tab"><table><thead><tr>${PL.colunas.map(c => `<th>${esc(c)}</th>`).join('')}</tr></thead><tbody>${PL.linhas.map(l => `<tr><td><b>${esc(l[0])}</b><div class="barra" style="margin-top:6px;min-width:90px"><i style="width:${(parseInt(l[1]) || 0) / mx * 100}%"></i></div></td>${l.slice(1).map(c => `<td>${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>
+   ${PL.linhasNota ? `<p class="sub" style="margin:10px 0 0">${esc(PL.linhasNota)}</p>` : ''}</div>
+  <div class="grade g21"><div class="card"><h3>Ritmo da semana</h3><p class="sub">${esc(PL.ritmoNota || '')}</p><div class="tab"><table><thead><tr><th>Dia</th><th>Feed</th><th>Stories</th></tr></thead><tbody>${(PL.ritmo || []).map(r => `<tr>${r.map(c => `<td>${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div></div>
+   <div class="card"><h3>Plano de 90 dias</h3><div class="lista">${(PL.fases || []).map(([t, x]) => `<div class="fase"><b>${esc(t)}</b><span class="sub" style="margin:0">${esc(x)}</span></div>`).join('')}</div></div></div>
+  ${PL.regras ? `<div class="card" style="border-color:var(--amarelo)"><h3>Regras que valem para todo post</h3><p class="sub" style="margin:0">${esc(PL.regras)}</p></div>` : ''}`;
+};
 const C = D.calendario;
 if (!C) V.calendario = () => `<div class="card"><h3>Calendário</h3><p class="sub" style="margin:0">${esc(D.semCalendario || 'O calendário do mês aparece aqui quando estiver aprovado.')}</p></div>`;
 if (C) V.calendario = () => {
