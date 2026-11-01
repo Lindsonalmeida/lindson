@@ -369,5 +369,33 @@
    ],
    "txt": "NINGUÉM <b>LEU</b>"
   }
+ },
+ "longo-02": {
+  "A": {
+   "estilo": "close",
+   "tag": "MAQUIAVEL NA PRÁTICA",
+   "marca": "RAPOSA E LEÃO",
+   "zoom": 1.0,
+   "lado": "dir",
+   "grav": "lorenzo.jpg",
+   "foco": [
+    0.5,
+    0.32
+   ],
+   "txt": "BOM <b>DEMAIS?</b>"
+  },
+  "B": {
+   "estilo": "close",
+   "tag": "MAQUIAVEL NA PRÁTICA",
+   "marca": "RAPOSA E LEÃO",
+   "zoom": 1.0,
+   "lado": "dir",
+   "grav": "acervo/castiglione_raffaello.jpg",
+   "foco": [
+    0.5,
+    0.3
+   ],
+   "txt": "PRESA <b>FÁCIL</b>"
+  }
  }
 }
