@@ -24,10 +24,10 @@
  "longo-01-B.jpg": "/_blob/5fe4672d752d7fd6b5959144637927a4",
  "longo-02-A.jpg": "/_blob/7ded8cd64de35272debaf95b8dd01f7e",
  "longo-02-B.jpg": "/_blob/a952deab0ef6c67b25dfbeccc2c54ec3",
- "longo-03-A.jpg": "/_blob/5db40e803482cfdc11265106e3bf3c9a",
- "longo-03-B.jpg": "/_blob/c4076276b526edf74cf0f1bd9ee80cfe",
- "longo-04-A.jpg": "/_blob/afa85745994b6d499d86f03251cb35ea",
- "longo-04-B.jpg": "/_blob/528b754f100dace41444f22f255c9549",
+ "longo-03-A.jpg": "/_blob/ae7e6cdaa6f93ad98cc7c4e9943d7501",
+ "longo-03-B.jpg": "/_blob/679535e485cde117deaefd82fcc9b533",
+ "longo-04-A.jpg": "/_blob/28106b598db0058f7ea71eea67e8ed5c",
+ "longo-04-B.jpg": "/_blob/8c1d4d0d40f0f4ea287a83bc9d88e8c5",
  "longo-05-A.jpg": "/_blob/2204bdcbc40bd9153fb6effc2c5e41e6",
  "longo-05-B.jpg": "/_blob/41cca64f1fdea1c584af9b34a0e6c5ab",
  "longo-06-A.jpg": "/_blob/5a5cd7d4e659d6c86837e3ee00b08e53",
@@ -55,5 +55,9 @@
  "short-07-app.mp4": "/_blob/8298f985d2c490588c1914360ef2e4be",
  "short-07-dur": "1:07",
  "short-08-app.mp4": "/_blob/71d1179e9593e1097b39c55c1baf3cf6",
- "short-08-dur": "1:10"
+ "short-08-dur": "1:10",
+ "longo-03-app.mp4": "/_blob/29e6e059b330b406bb540c53bb507bc3",
+ "longo-03-dur": "18:30",
+ "longo-04-app.mp4": "/_blob/02c9d49fd9fdeb3db0f84ded5c1a2f17",
+ "longo-04-dur": "18:23"
 }
