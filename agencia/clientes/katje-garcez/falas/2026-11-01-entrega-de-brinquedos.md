@@ -1,18 +1,17 @@
-# Fala de 40 s · Entrega de brinquedos na comunidade (conta Zuleide, 01/11/2026)
+# Fala de 40 s · Entrega de brinquedos na Vila Conceição (conta Zuleide, 01/11/2026 · versão 2)
 
 Influencer política Katje Garcez. Tom acolhedor, primeira pessoa, para Reels ou stories. Cerca de 100 palavras (40 s em ritmo de conversa).
 
 ---
+Ontem a Vila Conceição ficou mais colorida.
 
-Oi, gente! Eu ainda tô com o coração cheio por causa de ontem.
+A gente levou brinquedos pras crianças da comunidade, e eu confesso: foi um dos dias mais bonitos que eu já vivi. Criança correndo pra pegar o presente, mãe se emocionando, um sorriso puxando o outro.
 
-A gente entregou brinquedos pras crianças da nossa comunidade. E eu queria que vocês tivessem visto: o olhinho brilhando, o sorriso tímido virando gargalhada, criança abraçando o presente como se fosse um tesouro.
+E nada disso eu fiz sozinha. Teve amigo que doou, que embalou, que carregou caixa e deu o dia inteiro pra estar ali. Gente de coração grande. A vocês, o meu muito obrigada.
 
-Nada disso seria possível sozinha. Teve amigo que doou, que carregou caixa, que embalou, que passou o dia inteiro com a gente. A cada um de vocês: muito obrigada, de verdade.
+Porque o presente de verdade é olhar pra uma criança e dizer: você é importante pra nós.
 
-Porque cuidar da comunidade é isso: estar perto e fazer junto.
-
-Ontem foi um brinquedo. Mas o que fica é a certeza de que, juntos, a alegria chega mais longe.
+Vila Conceição, obrigada por abrir as portas pra gente. Isso é só o começo.
 
 ---
 
