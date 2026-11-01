@@ -22,7 +22,7 @@ Branch principal: `claude/global-agent-installation-vdyowf`. Outros branches: `e
 | `processos/` | Mini site de cliente, demo de mini site (vídeo de iPhone), modelo de contrato, modelo de estratégia completa (19 páginas), proposta curta (8 páginas) |
 | `app/` | Fontes dos apps **Recomeço 90** (`recomeco90.html`) e **Fábrica de Conteúdo** (`fabrica.html`) |
 | `clientes/` | Dra. Jaci Cunha (ficha, contrato, estratégia premium e manual de identidade), Leo Pinto (identidades v2 e v3, feed do Instagram aprovado v12, prompt do Claude Design), Katje Garcez (falas) |
-| `sistema-clientes/` | Central do Cliente: ideias, protótipo do login e do painel (modelo para novos clientes), painel do Leo Pinto |
+| `sistema-clientes/` | Central do Cliente: ideias, protótipo do login e do painel (modelo para novos clientes), painéis do Leo Pinto e da Dra. Jaci (`jaci-cunha/`), site publicável com login no servidor (`site/`, publicar num repositório privado) |
 | `indicacao/` | Banner do programa de indicação |
 | `identidade-oferta.md` | Identidade dos posts de oferta (estilo lançamento) |
 | `contratos/`, `propostas/` | Dados pessoais e de clientes: **fora do GitHub** (peça ao Lindson) |

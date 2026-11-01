@@ -28,3 +28,9 @@ agencia/sistema-clientes/prototipo/central-lindson.html
 agencia/sistema-clientes/privado/
 agencia/sistema-clientes/prototipo/painel-montado.html
 agencia/clientes/leo-pinto/fotos/
+# Central do Cliente: site publicável gerado e segredos locais (o site vai para um repositório privado)
+agencia/sistema-clientes/site/publico/
+agencia/sistema-clientes/site/.dev.vars
+agencia/sistema-clientes/site/.wrangler/
+agencia/sistema-clientes/jaci-cunha/painel-jaci.html
+agencia/sistema-clientes/site/node_modules/

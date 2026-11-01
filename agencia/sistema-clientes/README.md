@@ -2,7 +2,7 @@
 
 Um painel único para todos os clientes da agência. O Lindson (admin) vê tudo, e cada cliente vê só o próprio painel. Este README é o ponto de partida para qualquer equipe ou conta que for continuar o projeto.
 
-- **Status:** protótipos prontos da tela de acesso e do painel interno (v1 geral, com dados de exemplo). O login de verdade e o servidor ainda não foram construídos.
+- **Status (01/11/2026, conta Lindson):** site publicável pronto em `site/`: acesso com código conferido no servidor (Cloudflare Pages Functions), painel do administrador, painel da Dra. Jaci (`jaci-cunha/`, identidade bordô e dourado) e painel do Leo Pinto. Para publicar, siga `site/README.md`.
 - **Painel interno (v1):** https://claude.ai/artifact/RJrQcfyPeML9AwT5YMGbBZ · código em `prototipo/painel.html` (arquivo único, sem imagens).
 - **Protótipo publicado:** https://claude.ai/artifact/XjCkj5eULmE2Pg8KptnKcV
 - **Histórico de pedidos e decisões do Lindson:** `IDEIAS.md` (leia antes de mudar qualquer coisa).
@@ -16,7 +16,9 @@ Um painel único para todos os clientes da agência. O Lindson (admin) vê tudo,
 | `prototipo/montar.sh` | embute as imagens e gera `prototipo/central-lindson.html` | sim |
 | `fotos/casos/*.webp` | prints dos mini sites dos clientes e capas dos canais (portfólio) | sim |
 | `fotos/rec-68.webp`, `principal-cine.webp`, `principal-prof.webp` | foto do Lindson recortada, tratada e mapa de profundidade | **não** (dado pessoal: peça ao Lindson) |
-| `privado/codigos-acesso.json` | códigos de acesso de cada cliente | **não** (segredo) |
+| `privado/codigos-acesso.json` | códigos de acesso (admin, Jaci, Leo, Apple) e os segredos da Cloudflare | **não** (segredo) |
+| `jaci-cunha/` | painel da Dra. Jaci: `montar-jaci.py` + `clinica.js` (Avaliações, Plano de 90 dias, Pautas) | sim (o HTML gerado não) |
+| `site/` | site no ar: `functions/` (login no servidor), `montar-site.py`, README de publicação | sim (o `publico/` não) |
 
 ## Como montar a tela
 ```bash
@@ -42,8 +44,9 @@ Sem as fotos pessoais, o script para com erro. Coloque as fotos em `fotos/` com 
   - Apple Black → `APB-…`
   - Dra. Jaci Cunha → `JAC-…`
   - Vereador Leo Pinto → `LEO-…`
-- **No protótipo**, a página só guarda o SHA-256 de cada código.
-- **No sistema real**, o código precisa ser conferido **no servidor**, com limite de uso e possibilidade de troca. A senha fica guardada com hash forte (bcrypt ou argon2), e toda consulta checa o `cliente_id` no servidor.
+- **Administrador:** código `ADM-…` do Lindson, que abre todos os painéis.
+- **No site (v1)**, o código é conferido **no servidor** e os códigos antigos do protótipo não valem mais. Para trocar um código, gere outro em `privado/` e atualize `CODIGOS` na Cloudflare.
+- **Próxima versão:** A senha fica guardada com hash forte (bcrypt ou argon2), e toda consulta checa o `cliente_id` no servidor.
 
 ## Próximos passos
 1. Painel interno (referência visual em `IDEIAS.md` item 6, Efferd dashboard 3): menu lateral, cartões de indicadores e gráficos.
@@ -51,6 +54,6 @@ Sem as fotos pessoais, o script para com erro. Coloque as fotos em `fotos/` com 
    - **Tabelas:** clientes, usuários, códigos e registro de acesso.
    - **Regra de acesso:** o perfil "admin" vê tudo.
 3. Painel do Vereador Leo Pinto: demandas da população por bairro, atendimentos e redes. Seguir a LGPD, porque são dados de cidadãos.
-4. Painéis da Apple Black e da Dra. Jaci Cunha: definir com o Lindson.
+4. Painel da Apple Black: definir com o Lindson (o código `APB-…` já está reservado). O painel da Dra. Jaci está pronto.
 
 Antes de começar a construir, vale usar o **Builder Squad** (`/builder-squad`) para o briefing, a arquitetura e as checagens de qualidade.
