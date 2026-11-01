@@ -59,6 +59,7 @@ Agora leia os arquivos acima e me diga em uma linha qual conta você é e o que 
 ### Central do Cliente (sistema único de painéis)
 - **Como funciona:** o cliente cria a conta uma vez (nome, e-mail, senha e código de acesso). Depois entra com e-mail e senha e cai direto no painel dele. O Lindson (admin) vê todos e gerencia as contas.
 - **Onde está:** `agencia/sistema-clientes/` (ver `site/README.md`).
+- **Endereço:** https://lindsonalmeida.pages.dev (nome escolhido pelo Lindson; projeto `lindsonalmeida` na Cloudflare Pages, repositório privado `central`).
 - **Estado em 01/11:**
   - pronto e testado;
   - falta o Lindson criar o repositório privado `Lindsonalmeida/central` e configurar a Cloudflare Pages: KV `CONTAS` e os segredos `SEGREDO` e `CODIGOS`.

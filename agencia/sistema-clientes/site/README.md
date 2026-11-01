@@ -34,13 +34,13 @@ python3 site/montar-site.py          # gera site/publico/ (fora do Git)
 ## Publicar (repositório privado, nunca o `lindson`, que é público)
 1. O Lindson cria o repositório privado **`Lindsonalmeida/central`** (vazio) e libera o app Claude.
 2. Envie para lá `functions/` e `publico/`. O `publico/` tem os painéis com dados reais, por isso não entra no repositório público.
-3. Cloudflare: Workers e Pages → Criar → Pages → Importar repositório → `central`. Branch `main`, framework `None`, comando de build vazio e diretório de saída `publico`.
+3. Cloudflare: Workers e Pages → Criar → Pages → Importar repositório → `central`. **Project name `lindsonalmeida`** (decisão do Lindson, 01/11), branch `main`, framework `None`, comando de build vazio e diretório de saída `publico`.
 4. Em Armazenamento e bancos de dados → KV, crie o namespace `central-contas`.
 5. No projeto Pages → Configurações:
    - Vínculos → Adicionar → Namespace KV: nome da variável `CONTAS`, namespace `central-contas`;
    - Variáveis e segredos: crie `SEGREDO` e `CODIGOS` (tipo Segredo) com os valores de `privado/codigos-acesso.json`.
    Depois, faça um novo deploy.
-6. O link fica `central.pages.dev` (ou o nome que a Cloudflare der). Registre-o aqui e no `ESTADO-DO-PROJETO.md`.
+6. O link fica **https://lindsonalmeida.pages.dev** (endereço único da Central, escolhido pelo Lindson em 01/11). Registre aqui e no `ESTADO-DO-PROJETO.md` quando estiver no ar.
 
 ## Testar no computador
 Use `npx wrangler@3 pages dev publico --kv CONTAS` com um `.dev.vars` (fora do Git) contendo `SEGREDO=` e `CODIGOS=`. Em 01/11 foram testados 20 casos no servidor e o fluxo completo no navegador, todos certos:
