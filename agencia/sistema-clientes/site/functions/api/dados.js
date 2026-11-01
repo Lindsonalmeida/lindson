@@ -2,7 +2,7 @@
 // GET → {dados, versao}. PUT {dados, versao} → grava se a versão bate; se outra pessoa salvou antes, 409 com a versão atual (o painel junta e tenta de novo).
 // Só o próprio cliente ou o admin. Conta Lindson, 01/11/2026.
 import { json, quemE, configurado, faltaConfig } from '../_lib.js';
-const FERR = ['crm', 'fin', 'dem', 'ag'];  // dem e ag: demandas e agenda do gabinete (painel do Leo)
+const FERR = ['crm', 'fin', 'dem', 'ag', 'aprov', 'ped'];  // aprov: aprovações de posts; ped: pedidos à agência  // dem e ag: demandas e agenda do gabinete (painel do Leo)
 async function acesso(request, env) {
   const q = await quemE(request, env), u = new URL(request.url);
   const cli = (u.searchParams.get('cli') || '').toLowerCase(), f = u.searchParams.get('f');
@@ -15,7 +15,7 @@ export async function onRequestGet({ request, env }) {
   if (!configurado(env)) return faltaConfig();
   const a = await acesso(request, env); if (a.erro) return a.erro;
   const r = await env.CONTAS.get(a.chave, 'json');
-  return json(r || { dados: null, versao: 0 });
+  return json({ ...(r || { dados: null, versao: 0 }), eu: a.q.cli === 'admin' ? 'admin' : 'cliente' });
 }
 export async function onRequestPut({ request, env }) {
   if (!configurado(env)) return faltaConfig();

@@ -36,10 +36,16 @@ document.getElementById('clientes').innerHTML = CLIENTES.map(c => { const ig = c
     <div class="num"><div class="r">Fotos recebidas</div><div class="v" data-fotos>…</div></div>
     <div class="num"><div class="r">${c.cliente === 'jaci' ? 'Pacientes no CRM' : c.cliente === 'leo' ? 'Demandas' : 'Itens'}</div><div class="v" data-extra>…</div></div></div>
    <div class="acoes"><a class="bt am" href="/painel/${c.cliente}">Abrir painel</a><a class="bt" href="/painel/${c.cliente}#fotos">Fotos</a>${c.cliente === 'jaci' ? '<a class="bt" href="/painel/jaci#crm">CRM</a><a class="bt" href="/painel/jaci#financeiro">Financeiro</a>' : ''}${c.cliente === 'leo' ? '<a class="bt" href="/painel/leo#demandas">Demandas</a>' : ''}</div>
+   <div class="rod" data-novid style="color:var(--amarelo);font-weight:700"></div>
    <div class="rod">Dados do Instagram de ${esc(ig.data || '—')} · página atualizada em ${esc(c.atualizado || '—')}</div></div>`; }).join('');
 const conta = async (url, f) => { try { const r = await fetch(url); if (!r.ok) return '—'; return f(await r.json()); } catch (e) { return '—'; } };
 document.querySelectorAll('[data-cli]').forEach(async el => { const c = el.dataset.cli;
   el.querySelector('[data-fotos]').textContent = await conta(`/api/fotos?cli=${c}`, j => (j.fotos || []).length);
   const f = c === 'leo' ? 'dem' : 'crm';
-  el.querySelector('[data-extra]').textContent = await conta(`/api/dados?cli=${c}&f=${f}`, j => ((j.dados && j.dados.itens) || []).length); });
+  el.querySelector('[data-extra]').textContent = await conta(`/api/dados?cli=${c}&f=${f}`, j => ((j.dados && j.dados.itens) || []).length);
+  const ped = await conta(`/api/dados?cli=${c}&f=ped`, j => ((j.dados && j.dados.itens) || []).filter(x => x.st !== 'concluído').length);
+  const aj = await conta(`/api/dados?cli=${c}&f=aprov`, j => ((j.dados && j.dados.itens) || []).filter(x => x.st === 'em revisão').length);
+  const nv = el.querySelector('[data-novid]'); const t = [];
+  if (ped > 0) t.push(`<a href="/painel/${c}#pedidos" style="color:inherit">${ped} pedido(s) em aberto</a>`); if (aj > 0) t.push(`<a href="/painel/${c}#aprovacoes" style="color:inherit">${aj} ajuste(s) pedido(s)</a>`);
+  nv.innerHTML = t.join(' · '); });
 </script></main></body></html>
