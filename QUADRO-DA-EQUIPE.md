@@ -18,7 +18,7 @@ Como usar:
 ## Livre para pegar (pendências conhecidas)
 | Desde | O quê | De onde veio |
 |---|---|---|
-| 26/10 | Dra. Jaci Cunha (contrato desde 26/10): executar as semanas 1 e 2 da estratégia, calendário de novembro e relatório semanal. Pedir logo em vetor e fotos em alta | `agencia/clientes/jaci-cunha/estrategia-resumo.md` |
+| 26/10 | Dra. Jaci Cunha: executar as semanas 1 e 2 (bio, destaques, Google, mini site, WhatsApp) e relatório semanal. Calendário de novembro já feito pela Zuleide em 01/11. Pedir logo em vetor e fotos em alta | `agencia/clientes/jaci-cunha/estrategia/LINHAS-EDITORIAIS-NOV.md` |
 | 22/10 | Carrosséis da esteira de conteúdo, no mesmo modelo dos Reels (formatos, conteúdos e ganchos em teste) | conversa do Lindson (conta Lindson) |
 | 22/10 | Produto master: roteiro da aula grátis "Os 5 erros…", plano da turma piloto da mentoria, assistentes de IA de roteiro e legenda (bônus) e o número da garantia | `agencia/ofertas/produto-master.md` |
 | 30/10 | Leo Pinto: mockups fotográficos de boné e bandeira da identidade v3 (precisam de gerador de imagem) | registro da conta Zuleide |
