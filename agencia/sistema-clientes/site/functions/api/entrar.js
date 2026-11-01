@@ -1,14 +1,11 @@
-// POST /api/entrar {email, codigo} → confere o código no servidor e grava o cookie assinado (30 dias).
-import { hmac, normaliza, COOKIE } from '../_lib.js';
-const json = (o, s = 200, h = {}) => new Response(JSON.stringify(o), { status: s, headers: { 'Content-Type': 'application/json', 'Cache-Control': 'no-store', ...h } });
+// POST /api/entrar {email, senha} → confere a senha no servidor e abre o painel da pessoa (cookie assinado, 30 dias).
+import { json, espera, normEmail, hashSenha, iguais, cookieDe, configurado, faltaConfig } from '../_lib.js';
 export async function onRequestPost({ request, env }) {
-  if (!env.SEGREDO || !env.CODIGOS) return json({ erro: 'A Central ainda não foi configurada (faltam as variáveis SEGREDO e CODIGOS).' }, 500);
-  let corpo = {}; try { corpo = await request.json(); } catch (e) {}
-  const codigo = normaliza(corpo.codigo);
-  let mapa = {}; try { mapa = JSON.parse(env.CODIGOS); } catch (e) {}
-  const cli = codigo.length === 11 ? mapa[await hmac(env.SEGREDO, codigo)] : null;
-  if (!cli) { await new Promise(r => setTimeout(r, 800)); return json({ erro: 'Código de acesso não encontrado. Confira o código com a nossa equipe.' }, 401); }
-  const exp = Date.now() + 30 * 864e5, val = cli + '.' + exp, sig = await hmac(env.SEGREDO, val);
-  return json({ ok: true, destino: '/painel/' + cli }, 200, {
-    'Set-Cookie': `${COOKIE}=${encodeURIComponent(val + '.' + sig)}; Path=/; Max-Age=${30 * 86400}; HttpOnly; Secure; SameSite=Lax` });
+  if (!configurado(env)) return faltaConfig();
+  let b = {}; try { b = await request.json(); } catch (e) {}
+  const email = normEmail(b.email), senha = String(b.senha || '').slice(0, 200);
+  const c = email ? await env.CONTAS.get('conta:' + email, 'json') : null;
+  const ok = c && iguais((await hashSenha(senha, c.sal)).hash, c.hash);
+  if (!ok) { await espera(); return json({ erro: 'E-mail ou senha não conferem. Primeira vez aqui? Use a aba Criar conta.' }, 401); }
+  return json({ ok: true, destino: '/painel/' + c.cli }, 200, { 'Set-Cookie': await cookieDe(env, c.cli, email) });
 }

@@ -12,7 +12,7 @@ Como usar:
 | Desde | Conta | O quê | Como retomar / onde está |
 |---|---|---|---|
 | 31/10 | Pedro | Refazer os longos abaixo de 16 min dos dois canais e colocar no app | `conteudo/youtube/filas/REFAZER-LONGOS.md` · vídeos no branch `entregas-videos` · apps Passaporte https://claude.ai/artifact/CT3Z4M3yrzGrqCt3nh95ak e Raposa https://claude.ai/artifact/2k4SSuvALdqXDcXnBQMVZH. Conferido pela conta Lindson em 01/11 (`ativos-novo.json`): vídeo no app só de Passaporte 03, 04, 06, 07, 08 e Raposa 07-11. **Faltam o vídeo** de Passaporte 01, 02, 05, 09 e Raposa 01-06 e 12-16 (as capas já estão) |
-| 01/11 | Lindson | Central do Cliente no ar: falta o Lindson criar o repositório privado `Lindsonalmeida/central` e importar na Cloudflare Pages (passo a passo em `agencia/sistema-clientes/site/README.md`). Como retomar: montar com `site/montar-site.py`, enviar `functions/` + `publico/` ao repositório privado | `agencia/sistema-clientes/site/` |
+| 01/11 | Lindson | Central do Cliente no ar: falta o Lindson criar o repositório privado `Lindsonalmeida/central` e importar na Cloudflare Pages, com o KV `CONTAS` e os segredos (passo a passo em `agencia/sistema-clientes/site/README.md`). Como retomar: montar com `site/montar-site.py`, enviar `functions/` + `publico/` ao repositório privado | `agencia/sistema-clientes/site/` |
 | 22/10 | Lindson | Teste 01 de Reels: o Lindson grava os 300 roteiros e envia os prints das métricas | aba Conteúdo do Recomeço 90 (https://claude.ai/artifact/DQFTjzVzhH2ZaHtFQwXw5N) · `conteudo/esteira/ROTINA.md`. Quando chegarem métricas: ler o ranking e decidir o Teste 02 |
 
 ## Livre para pegar (pendências conhecidas)
