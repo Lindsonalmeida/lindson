@@ -8,6 +8,7 @@ Branch principal: `claude/global-agent-installation-vdyowf`. Outros branches: `e
 | Arquivo | Para quê |
 |---|---|
 | `CLAUDE.md` | Regras de trabalho de todas as contas |
+| `PROMPT-DA-EQUIPE.md` | Prompt para colar no começo de qualquer conversa: quem é quem, o que buscar no repositório e o que as contas já sabem |
 | `QUADRO-DA-EQUIPE.md` | O que cada conta está fazendo agora e o que está livre |
 | `REGISTRO-DAS-CONTAS.md` | Tudo o que já foi entregue, por conta e data |
 | `ESTADO-DO-PROJETO.md` | Apps publicados, filas de vídeo e como retomar uma renderização |

@@ -70,6 +70,8 @@ Sempre que o Lindson pedir algo, consulte antes o repositório (incluindo os out
 
 Três contas do Claude trabalham neste repositório como uma equipe só. Uma continua o trabalho da outra ou faz trabalho em paralelo. **Nunca refaça o que já foi feito.**
 
+**0. Prompt pronto:** para começar uma conversa nova em qualquer conta, cole o prompt de `PROMPT-DA-EQUIPE.md` (também resume o que as contas já sabem).
+
 **1. Descubra qual conta você é.** Compare a conta do Claude desta sessão com a tabela "Nomes das contas" do `REGISTRO-DAS-CONTAS.md`:
 - **Lindson** = conta `lindsonmkt`
 - **Zuleide** = conta `lindsonlopes0`
