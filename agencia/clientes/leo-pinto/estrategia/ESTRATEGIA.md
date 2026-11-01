@@ -71,11 +71,23 @@ Ganchos prontos:
 10. "Errei, e vou te contar."
 
 ## 6. Perfil que conecta (a fazer na semana 1)
-- **Nome no perfil:** "Leo Pinto | Vereador", para aparecer na busca.
+
+**Diagnóstico do perfil atual** (print de 01/11/2026):
+- **@_leonardopinto**, "Leonardo Pinto", categoria Político: 28 posts, 3.161 seguidores, seguindo 2.859.
+- **Bio atual:** Vereador de São João Batista-MA · Juntos podemos mais! · Engenheiro · #tôcomléopinto
+- **Destaques:** cinco círculos laranja que, juntos, formam o 77333, com os títulos "Juntos podemos mais!" e emojis. São sobra da campanha de 2024. **Trocar**: número não entra, e o visitante não sabe o que tem em cada destaque.
+
+**O que manter:**
+- "Juntos podemos mais!": é o slogan que o povo já conhece. Ele vira a assinatura, junto com o "Leo da Baixada".
+- #tôcomléopinto.
+- **Engenheiro:** é um trunfo de autoridade. "O engenheiro que entende de obra, estrada e ponte." Vira uma série fixa dentro de "Mandato que entrega": "Leo explica a obra".
+
+- **Nome no perfil:** "Léo Pinto | Vereador SJB", para aparecer na busca. O @ continua o mesmo.
 - **Bio:**
-  > Vereador de São João Batista/MA 🧡💙
-  > Do povo, pro povo. Na rua todo dia.
-  > 👇 Fale comigo / mande a demanda do seu bairro
+  > Vereador de São João Batista-MA 🧡💙
+  > Engenheiro · na rua todo dia
+  > Juntos podemos mais! #tôcomléopinto
+  > 👇 Mande a demanda do seu bairro
 - **Link:** página simples com o WhatsApp do gabinete e um formulário de demanda por bairro. Os dados dos cidadãos são tratados pela LGPD.
 - **Destaques:** Quem sou · Na rua · Feito · Câmara · Nossa Baixada · Fale comigo
 - **3 fixados:**
@@ -120,7 +132,7 @@ Ganchos prontos:
 Sem metas numéricas inventadas: a primeira medição define a base.
 
 ## 10. O que precisamos do Leo
-1. @ do Instagram e acesso. Ainda não tenho.
+1. Acesso ao @_leonardopinto. O perfil já foi recebido.
 2. Lista de entregas e indicações do mandato até hoje.
 3. Causas principais, bairros e povoados fortes, e onde quer crescer.
 4. Uma pessoa da equipe para filmar 2 vezes por semana. A agência manda o roteiro.
