@@ -15,7 +15,8 @@ Um painel único para todos os clientes da agência. O Lindson (admin) vê tudo,
 | `prototipo/painel.html` | painel interno v1: visão geral, resultados, relatórios, aprovações, calendário, entregas, campanhas, leads, pedidos, reuniões, contrato e pagamentos | sim |
 | `prototipo/montar.sh` | embute as imagens e gera `prototipo/central-lindson.html` | sim |
 | `fotos/casos/*.webp` | prints dos mini sites dos clientes e capas dos canais (portfólio) | sim |
-| `fotos/rec-68.webp`, `principal-cine.webp`, `principal-prof.webp` | foto do Lindson recortada, tratada e mapa de profundidade | **não** (dado pessoal: peça ao Lindson) |
+| `fotos/rec-68.webp`, `principal-cine.webp`, `principal-prof.webp` | foto do Lindson recortada, tratada e mapa de profundidade | **não** (dado pessoal: peça ao Lindson a foto original, mãos no queixo) |
+| `prototipo/tratar-foto.py` | gera as 3 fotos acima a partir da original: `python3 tratar-foto.py <foto> <depth-anything-v2-small.onnx>` (refeito em 01/11, conta Lindson) | sim |
 | `privado/codigos-acesso.json` | códigos de acesso (admin, Jaci, Leo, Apple) e os segredos da Cloudflare | **não** (segredo) |
 | `jaci-cunha/` | painel da Dra. Jaci: `montar-jaci.py` + `clinica.js` (Avaliações, Plano de 90 dias, Pautas) | sim (o HTML gerado não) |
 | `site/` | site no ar: `functions/` (login no servidor), `montar-site.py`, README de publicação | sim (o `publico/` não) |
@@ -24,7 +25,7 @@ Um painel único para todos os clientes da agência. O Lindson (admin) vê tudo,
 ```bash
 cd agencia/sistema-clientes/prototipo && bash montar.sh   # gera central-lindson.html
 ```
-Sem as fotos pessoais, o script para com erro. Coloque as fotos em `fotos/` com os nomes acima. Como gerá-las:
+Sem as fotos pessoais, o script para com erro. **Atenção:** com as fotos na máquina, o `leo-pinto/painel-leo.html` remontado leva a foto embutida. Não suba esse arquivo assim; volte com `git checkout` antes do commit. Coloque as fotos em `fotos/` com os nomes acima. Como gerá-las:
 - **Recorte:** `rembg`, modelo `u2net_human_seg`.
 - **Tratamento de cor e luz de contorno:** script documentado no histórico.
 - **Profundidade:** Depth Anything V2 (ONNX).

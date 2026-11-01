@@ -60,4 +60,4 @@ Use `npx wrangler@3 pages dev publico --kv CONTAS` com um `.dev.vars` (fora do G
 ## Limites da v1
 - Ainda não há recuperação de senha por e-mail: quem esquece pede ao admin, que apaga a conta para a pessoa criar de novo.
 - As demandas e a agenda do painel do Leo só gravam dentro do app no claude.ai. No site, essas telas mostram o conteúdo de exemplo.
-- A foto do Lindson na tela de acesso só entra se `fotos/principal-*.webp` estiver na máquina que monta o site.
+- A foto do Lindson na tela de acesso só entra se `fotos/principal-*.webp` estiver na máquina que monta o site. Para gerar, use `prototipo/tratar-foto.py` com a foto original (fora do Git). O site montado em 01/11 já tem a foto embutida.
