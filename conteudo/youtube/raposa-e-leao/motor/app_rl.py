@@ -37,7 +37,7 @@ for d in sorted(glob.glob(R + '/longos/[0-9][0-9]'), key=lambda x: (not os.path.
     elif n in L15: intro, fonte, com = L15[n]; tit = rot['titulo']; leg = f'{intro}\n\nEm cada lição tem uma aplicação prática para o trabalho, os negócios e as relações.\n\n📜 Fonte: Nicolau Maquiavel, {fonte}\n{FONTE}\n\n{TAGS}'
     elif os.path.exists(d + '/publicar_novo.json'):
         p = json.load(open(d + '/publicar_novo.json')); tit, leg, com = p['titulo'], p['legenda'], p['comentario']
-        TP = os.path.join(R, '..', 'passaporte', 'tempos.json'); tp = json.load(open(TP)).get(k, []) if os.path.exists(TP) else []
+        TP = os.path.join(R, 'tempos.json'); tp = json.load(open(TP)).get(k, []) if os.path.exists(TP) else []  # tempos do Raposa (o passaporte/tempos.json tem os mesmos ids)
         leg = leg.replace('{CAPITULOS}', '\n'.join(f'{x} {y}' for x, y in tp) or '(os capítulos entram quando o vídeo ficar pronto)')
     else: continue
     capas = [dict(nome=f'Capa {x}', arq=f'{k}-{x}.jpg', url=ativos.get(f'{k}-{x}.jpg')) for x in 'ABC']
