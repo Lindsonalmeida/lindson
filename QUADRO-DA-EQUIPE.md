@@ -26,6 +26,7 @@ Como usar:
 | 29/10 | Passaporte: refazer com a voz nova o pv-01 e os Shorts que ainda estiverem na voz antiga | `ESTADO-DO-PROJETO.md` (fila `filas/lote8.sh`) |
 | 01/11 | Central: conferir no site se "Notícias do nicho" carrega (o ambiente de teste não acessa o Google Notícias) | conta Lindson |
 | 01/11 | Nano Banana: o Lindson ativa o faturamento do projeto no Google (chave já configurada; deu "cota do plano gratuito") | `ferramentas/nano_banana.py` |
+| 01/11 | Lindson: atualizar o segredo CODIGOS na Cloudflare (código da Jaci trocado por vazamento no histórico) e mandar o código novo à Jaci se ela ainda não criou a conta | `privado/codigos-acesso.json` (fora do Git) |
 
 ## Feito recentemente (últimos registros)
 Veja o fim da tabela "Entregas" do `REGISTRO-DAS-CONTAS.md`.
