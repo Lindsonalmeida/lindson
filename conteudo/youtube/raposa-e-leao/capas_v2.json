@@ -397,5 +397,33 @@
    ],
    "txt": "PRESA <b>FÁCIL</b>"
   }
+ },
+ "longo-03": {
+  "A": {
+   "estilo": "close",
+   "lado": "dir",
+   "tag": "PERSONAGENS DO PODER",
+   "marca": "RAPOSA E LEÃO",
+   "grav": "borgia.jpg",
+   "foco": [
+    0.4,
+    0.38
+   ],
+   "zoom": 0.95,
+   "txt": "UM SÓ <b>ERRO</b>"
+  },
+  "B": {
+   "estilo": "close",
+   "lado": "dir",
+   "tag": "PERSONAGENS DO PODER",
+   "marca": "RAPOSA E LEÃO",
+   "grav": "acervo/julio_ii_raffaello.jpg",
+   "foco": [
+    0.42,
+    0.33
+   ],
+   "zoom": 0.8,
+   "txt": "PERDEU <b>TUDO</b>"
+  }
  }
 }
