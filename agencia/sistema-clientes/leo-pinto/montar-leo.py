@@ -55,7 +55,7 @@ s = re.sub(r'<a href="#leads" data-v="leads">.*?</a>', '', s, count=1, flags=re.
 troca("const V={", "const V=window.__V={"); troca("const T={", "const T=window.__T={")
 troca("function toast(t){", "window.__toast=t=>toast(t);function toast(t){")
 troca("const f=$('#novo-ped');", "if(window.__pos)window.__pos(view);const f=$('#novo-ped');")
-troca("addEventListener('hashchange',render);render();", "window.__render=render;addEventListener('hashchange',render);setTimeout(render,0);")
+troca("addEventListener('hashchange',render);render();", "window.__render=render;window.__h={BASE,APROV,PEDIDOS,bomDia,chip,cli:()=>cli};addEventListener('hashchange',render);setTimeout(render,0);")
 
 # 4 · artes reais do feed nas Aprovações e em Conteúdos > Carrosséis
 ARTES = [('v12-1-dividido', 'Post único', 'A gente não promete, volta pra mostrar'), ('v12-2-palavra', 'Post único', 'Presença'),
@@ -80,7 +80,16 @@ cine = os.path.join(SC, 'fotos', 'principal-cine.webp')
 s = s.replace('<img src="__CINE__" alt="Lindson Almeida">', f'<img src="{webp(cine)}" alt="Lindson Almeida">' if os.path.exists(cine) else '')
 
 s = s.replace('__LOGO__', uri(os.path.join(IG, 'marca', 'logo_principal.png'), 360))
-s = s.replace('</script>', '</script>\n<script>\n' + open(os.path.join(D, 'gabinete.js')).read() + '\n</script>', 1)
+# dados reais: no repositório PRIVADO (CentralLindsonALmeida/dados/leo.json), lidos aqui e aplicados pelo prototipo/real.js (conta Lindson, 01/11)
+import json
+pj = os.path.join(os.environ.get('CENTRAL_DADOS', os.path.join(D, '..', '..', '..', '..', 'centrallindsonalmeida', 'dados')), 'leo.json')
+if os.path.exists(pj): dados = json.load(open(pj))
+else:
+    print('AVISO: sem', pj, '· o painel sai com tudo "a medir"')
+    dados = {'nome': 'Vereador Leo Pinto', 'seg': 'Vereador de São João Batista/MA', 'plano': 'Comunicação do mandato', 'inicio': 'Outubro/2026', 'atualizado': '—'}
+extra = ('window.__DADOS=' + json.dumps(dados, ensure_ascii=False).replace('</', '<\\/') + ';\n' + open(os.path.join(SC, 'prototipo', 'real.js')).read()
+         + '\n' + open(os.path.join(SC, 'prototipo', 'kvdb.js')).read() + '\n' + open(os.path.join(D, 'gabinete.js')).read())
+s = s.replace('</script>', '</script>\n<script>\n' + extra + '\n</script>', 1)
 s = s.replace('<meta charset="utf-8">\n', '', 1)
 open(os.path.join(D, 'painel-leo.html'), 'w').write(s)
 print('painel-leo.html', round(len(s) / 1024), 'KB')

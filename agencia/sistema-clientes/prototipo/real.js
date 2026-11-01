@@ -8,23 +8,23 @@ const H = window.__h, V = window.__V, { BASE, APROV, PEDIDOS, bomDia, chip } = H
 Object.assign(b, { nome: D.nome, seg: D.seg, plano: D.plano, inicio: D.inicio });
 PEDIDOS.length = 0;
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-const num = n => typeof n === 'number' ? n.toLocaleString('pt-BR') : esc(n);
+const num = n => n == null || n === '' ? null : typeof n === 'number' ? n.toLocaleString('pt-BR') : esc(n);
 const vazio = t => `<div class="item"><div class="d" style="color:var(--apagado)">${t}</div></div>`;
 const ig = D.instagram || {};
 const kpi = (r, v, n) => `<div class="card kpi"><div class="rot">${r}</div><div class="val">${v ?? 'a medir'}</div><div class="var up"><span>${n || ''}</span></div></div>`;
 const difSeg = ig.anterior && typeof ig.seguidores === 'number' ? ig.seguidores - ig.anterior.seguidores : null;
 const kpis = () => `<div class="grade g4">
-  ${kpi('Seguidores', num(ig.seguidores), difSeg === null ? 'Instagram · ' + esc(ig.data) : (difSeg >= 0 ? '+' : '') + num(difSeg) + ' desde o ' + esc(ig.anterior.rotulo))}
-  ${kpi('Visualizações (30 dias)', esc(ig.visualizacoes), esc(ig.periodo))}
-  ${kpi('Novos seguidores', num(ig.novos_seguidores), esc(ig.periodo))}
-  ${window.__crmResumo ? kpi('Avaliações marcadas', num(window.__crmResumo().marcadas), 'no CRM de pacientes') : kpi('Avaliações agendadas', null, 'quando as campanhas começarem')}</div>`;
-const metas = () => `<div class="lista">${(D.metas || []).map(([n, a, m]) => `<div><div style="display:flex;justify-content:space-between"><span>${esc(n)}</span><b>${a == null ? 'a medir' : num(a)} / ${num(m)}</b></div><div class="barra"><i style="width:${a == null ? 0 : Math.min(100, a / m * 100)}%"></i></div></div>`).join('')}</div>`;
+  ${kpi('Seguidores', num(ig.seguidores), ig.var_seguidores ? esc(ig.var_seguidores) : difSeg === null ? 'Instagram · ' + esc(ig.data) : (difSeg >= 0 ? '+' : '') + num(difSeg) + ' desde o ' + esc(ig.anterior.rotulo))}
+  ${kpi('Visualizações (30 dias)', esc(ig.visualizacoes), esc(ig.var_visualizacoes || ig.periodo))}
+  ${kpi(ig.novos_rotulo || 'Novos seguidores', num(ig.novos_seguidores), esc(ig.periodo))}
+  ${window.__crmResumo ? kpi('Avaliações marcadas', num(window.__crmResumo().marcadas), 'no CRM de pacientes') : D.kpi4 ? kpi(esc(D.kpi4[0]), D.kpi4[1] == null ? null : esc(D.kpi4[1]), esc(D.kpi4[2])) : kpi('Avaliações agendadas', null, 'quando as campanhas começarem')}</div>`;
+const metas = () => !(D.metas || []).length ? `<p class="sub" style="margin:0">${esc(D.semMetas || 'Sem metas numéricas ainda: a primeira medição define a base.')}</p>` : `<div class="lista">${(D.metas || []).map(([n, a, m]) => `<div><div style="display:flex;justify-content:space-between"><span>${esc(n)}</span><b>${a == null ? 'a medir' : num(a)} / ${num(m)}</b></div><div class="barra"><i style="width:${a == null ? 0 : Math.min(100, a / m * 100)}%"></i></div></div>`).join('')}</div>`;
 const prox = () => (D.entregas || []).filter(e => e[3] !== 'entregue');
 
 V.inicio = () => bomDia() + kpis() + `
  <div class="grade g21"><div class="card"><h3>Seu Instagram hoje</h3><p class="sub">Números do painel do Instagram em ${esc(ig.data)} (${esc(ig.periodo)}).</p>
-  <div class="tab"><table><tbody>${[['Perfil', esc(ig.perfil)], ['Publicações', num(ig.posts)], ['Seguidores', num(ig.seguidores)], ['Visualizações em 30 dias', esc(ig.visualizacoes)], ['Novos seguidores em 30 dias', num(ig.novos_seguidores)], ['Conteúdos publicados em 30 dias', num(ig.conteudos)]].map(([a, v]) => `<tr><td>${a}</td><td><b>${v ?? 'a medir'}</b></td></tr>`).join('')}</tbody></table></div></div>
-  <div class="card"><h3>Metas</h3><p class="sub">Combinadas na estratégia. Começam a ser medidas com as campanhas.</p>${metas()}</div></div>
+  <div class="tab"><table><tbody>${[['Perfil', esc(ig.perfil)], ['Publicações', num(ig.posts)], ['Seguidores', num(ig.seguidores)], ['Visualizações em 30 dias', esc(ig.visualizacoes)], [(ig.novos_rotulo || 'Novos seguidores') + ' em 30 dias', num(ig.novos_seguidores)], ['Conteúdos publicados em 30 dias', num(ig.conteudos)]].map(([a, v]) => `<tr><td>${a}</td><td><b>${v ?? 'a medir'}</b></td></tr>`).join('')}</tbody></table></div></div>
+  <div class="card"><h3>Metas</h3>${(D.metas || []).length ? '<p class="sub">Combinadas na estratégia. Começam a ser medidas com as campanhas.</p>' : ''}${metas()}</div></div>
  <div class="grade g2"><div class="card"><h3>Precisa da sua aprovação</h3><p class="sub">Conteúdos esperando você.</p><div class="lista">${APROV.filter(p => p.st === 'aguardando').map(p => `<div class="item"><div><div class="t">${esc(p.titulo)}</div><div class="d">${esc(p.t)}</div></div></div>`).join('') || vazio('Nada esperando por você agora.')}</div><a class="btn am" href="#aprovacoes" style="margin-top:12px;width:100%">Revisar agora</a></div>
   <div class="card"><h3>Próximos passos</h3><p class="sub">O que a agência está fazendo.</p><div class="lista">${prox().map(e => `<div class="item"><div><div class="t">${esc(e[0])}</div><div class="d">Previsto: ${esc(e[2])}</div></div><div class="fim">${chip(e[3])}</div></div>`).join('') || vazio('Tudo entregue até aqui.')}</div></div></div>`;
 
@@ -44,9 +44,10 @@ V.campanhas = () => (D.campanhas || []).length ? `<div class="card"><h3>Campanha
 V.reunioes = () => `<div class="card"><h3>Reuniões</h3><p class="sub">Encontros marcados com a equipe.</p><div class="lista">${(D.reunioes || []).map(r => `<div class="item"><div><div class="t">${esc(r[0])}</div><div class="d">${esc(r[1])} · ${esc(r[2])}</div></div></div>`).join('') || vazio('Nenhuma reunião marcada.')}</div><a class="btn am" style="margin-top:12px" href="https://wa.me/5598985621808?text=Oi%2C%20Lindson%21%20Quero%20marcar%20uma%20reuni%C3%A3o." target="_blank" rel="noopener">Pedir reunião</a></div>`;
 
 V.contrato = d => `<div class="grade g2"><div class="card"><h3>Seu plano</h3><p class="sub">Serviços contratados.</p><div class="lista"><div class="item"><div><div class="t">${esc(d.plano)}</div><div class="d">Cliente desde ${esc(d.inicio)}</div></div><div class="fim">${chip('Ativa')}</div></div></div></div>
- <div class="card"><h3>Pagamentos</h3><p class="sub">Mensalidades da agência.</p><div class="tab"><table><thead><tr><th>Mês</th><th>Vencimento</th><th>Status</th></tr></thead><tbody>${(D.pagamentos || []).map(p => `<tr><td>${esc(p[0])}</td><td>${esc(p[1])}</td><td>${chip(p[2])}</td></tr>`).join('')}</tbody></table></div></div></div>`;
+ <div class="card"><h3>Pagamentos</h3><p class="sub">Mensalidades da agência.</p><div class="tab"><table><thead><tr><th>Mês</th><th>Vencimento</th><th>Status</th></tr></thead><tbody>${(D.pagamentos || []).map(p => `<tr><td>${esc(p[0])}</td><td>${esc(p[1])}</td><td>${chip(p[2])}</td></tr>`).join('') || '<tr><td colspan="3">Nenhum pagamento registrado aqui ainda.</td></tr>'}</tbody></table></div></div></div>`;
 
 const C = D.calendario;
+if (!C) V.calendario = () => `<div class="card"><h3>Calendário</h3><p class="sub" style="margin:0">${esc(D.semCalendario || 'O calendário do mês aparece aqui quando estiver aprovado.')}</p></div>`;
 if (C) V.calendario = () => {
   const ini = (new Date(C.ano, C.m - 1, 1).getDay() + 6) % 7, nd = new Date(C.ano, C.m, 0).getDate();
   let h = ['Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb', 'Dom'].map(x => `<div class="cab">${x}</div>`).join('') + '<div></div>'.repeat(ini);

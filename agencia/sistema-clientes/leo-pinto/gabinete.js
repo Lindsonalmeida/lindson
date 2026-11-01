@@ -1,5 +1,5 @@
 // Área "Gabinete" do painel do Vereador Leo Pinto (entra no modelo prototipo/painel.html pelo montar-leo.py).
-// Demandas da população com banco real (db do artifact), no ciclo do book Pedimos → Fizemos → Entregamos.
+// Demandas da população com banco real (db do artifact no claude.ai; no site da Central, o servidor via prototipo/kvdb.js), no ciclo do book Pedimos → Fizemos → Entregamos.
 // LGPD: nome e contato do cidadão só são gravados com consentimento; a coleção "demandas" só abre para Colaborador ou acima.
 (() => {
 const V = window.__V, T = window.__T;
@@ -106,6 +106,7 @@ const redesenha = () => { if (['demandas', 'prestacao', 'agenda'].includes((loca
 (async () => {
   const t = setTimeout(() => { if (estado === 'carregando') { estado = 'lento'; redesenha(); } }, 10000);
   let user = null; try { user = await claude.use('user'); db = await claude.use('db'); } catch { db = null; }
+  if (!db && window.__kvdb) { try { const r = await fetch('/api/dados?cli=leo&f=dem', { headers: { Accept: 'application/json' } }); if (r.ok && (r.headers.get('content-type') || '').includes('json')) db = window.__kvdb('leo'); } catch {} }  // no site da Central: banco do servidor (conta Lindson, 01/11)
   if (!db) { clearTimeout(t); estado = 'semdb'; redesenha(); return; }
   let pode = null; try { meuId = user ? await user.id() : null; pode = user ? await user.can('data.write') : null; } catch {}
   db.collection('demandas').orderBy('criado', 'desc').limit(1000).onSnapshot(s => {
