@@ -1,6 +1,6 @@
 # Estado do projeto (para continuar de qualquer conta)
 
-Atualizado em 29/10/2026. Leia também o `REGISTRO-DAS-CONTAS.md` (quem fez o quê, com a conta de cada entrega), o `CLAUDE.md` (regras de trabalho) e o agente Peter em `.claude/agents/peter.md` (regras de YouTube, retenção e monetização).
+Atualizado em 29/10/2026. Leia também o `QUADRO-DA-EQUIPE.md` (quem está fazendo o quê agora), o `MAPA-DO-REPOSITORIO.md` (onde está cada coisa), o `REGISTRO-DAS-CONTAS.md` (quem fez o quê, com a conta de cada entrega), o `CLAUDE.md` (regras de trabalho) e o agente Peter em `.claude/agents/peter.md` (regras de YouTube, retenção e monetização).
 
 ## Apps e páginas publicadas (claude.ai)
 São privados da conta que criou. **Para abrir ou editar de outra conta, compartilhe pelo menu "Compartilhar" de cada página** (dê acesso de edição se a outra conta for publicar nela). Os endereços `/_blob/...` dos arquivos `ativos*.json` só funcionam dentro do app de origem.
@@ -14,7 +14,8 @@ São privados da conta que criou. **Para abrir ou editar de outra conta, compart
 | Passaporte da Bíblia · Postagens | https://claude.ai/artifact/1aUURghpLqrWgTQmkvBcG4 | `conteudo/youtube/passaporte/motor/app_pv.py` + `ativos.json` |
 | Raposa e Leão · Postagens | https://claude.ai/artifact/LSTErmeSra3qxFKBJMLiTC | `conteudo/youtube/raposa-e-leao/motor/app_rl.py` + `ativos.json` |
 | Central do cliente (login, protótipo) | https://claude.ai/artifact/XjCkj5eULmE2Pg8KptnKcV | `agencia/sistema-clientes/prototipo/` |
-| Fábrica de Conteúdo (outra organização) | https://claude.ai/artifact/WxeZuhrzQutLDTJ36y6EVt | aba Passaporte: `passaporte/motor/fabrica_pv.py` |
+| Fábrica de Conteúdo (conta Lindson) | https://claude.ai/artifact/WxeZuhrzQutLDTJ36y6EVt | `agencia/app/fabrica.html`; aba Passaporte: `passaporte/motor/fabrica_pv.py` |
+| Recomeço 90: missões, funil, lista diária de leads e aba Conteúdo com os 300 roteiros de Reels (conta Lindson) | https://claude.ai/artifact/DQFTjzVzhH2ZaHtFQwXw5N | `agencia/app/recomeco90.html` · `conteudo/esteira/` |
 | Painel do Vereador Leo Pinto (Central, cliente `LEO-…`) | https://claude.ai/artifact/7TjjwEUN5jASCbytXAvhHk (conta passaportedabiblia) | `agencia/sistema-clientes/leo-pinto/` (README) |
 
 **Atenção (31/10):** os apps acima, exceto o painel do Leo, estão noutra organização do Claude. Compartilhar com edição por e-mail **não** libera escrita entre organizações: a conta passaportedabiblia abre, mas não publica neles. Para atualizar, use uma sessão da conta dona ou recrie o app nesta conta.

@@ -66,4 +66,31 @@ Antes de continuar qualquer trabalho (de qualquer conta), leia `ESTADO-DO-PROJET
 
 Sempre que o Lindson pedir algo, consulte antes o repositório (incluindo os outros branches em `origin/`) e o que as outras equipes e contas já fizeram sobre o assunto, e continue a partir disso, sem refazer do zero.
 
-**Registre tudo o que fizer e qual conta fez.** O Lindson dá um nome a cada conta (esta é a **Zuleide**; a lista fica em `REGISTRO-DAS-CONTAS.md`). Cada entrega vai para o repositório (commit e push) e ganha uma linha nesse registro com data, nome da conta, o que foi feito, onde está e a situação. Nos READMEs e no `ESTADO-DO-PROJETO.md`, cite a conta entre parênteses, como em "(conta Zuleide)". Leia esse registro antes de começar.
+## Trabalho em equipe: Lindson, Zuleide e Pedro
+
+Três contas do Claude trabalham neste repositório como uma equipe só. Uma continua o trabalho da outra ou faz trabalho em paralelo. **Nunca refaça o que já foi feito.**
+
+**1. Descubra qual conta você é.** Compare a conta do Claude desta sessão com a tabela "Nomes das contas" do `REGISTRO-DAS-CONTAS.md`:
+- **Lindson** = conta `lindsonmkt`
+- **Zuleide** = conta `lindsonlopes0`
+- **Pedro** = conta `passaportedabiblia`
+Se não der para saber, pergunte ao Lindson antes de registrar qualquer coisa.
+
+**2. Antes de qualquer pedido**, nesta ordem:
+1. `git pull` no branch principal (`claude/global-agent-installation-vdyowf`) e `git fetch` dos outros branches.
+2. Leia o `QUADRO-DA-EQUIPE.md` (o que cada conta está fazendo agora), o `REGISTRO-DAS-CONTAS.md` (tudo o que já foi entregue), o `MAPA-DO-REPOSITORIO.md` (onde está cada coisa) e o `ESTADO-DO-PROJETO.md` (apps e como retomar).
+3. Procure no repositório (`git grep`, `git log --grep`) se o pedido já existe.
+
+**3. Pedido repetido:** se já foi feito, **não refaça**. Responda: "Isso já foi feito pela conta X em DD/MM: [o que é], está em [pasta ou link]." Só faça de novo se o Lindson pedir uma versão nova; aí continue a partir da existente (versão 2, 3…) e diga o que mudou.
+
+**4. Pedido que outra conta está fazendo** (está em "Em andamento" no quadro): não comece do zero. Continue de onde ela parou, seguindo o "como retomar" do quadro, ou pegue uma parte paralela e combine no quadro quem faz o quê.
+
+**5. Ao começar** um trabalho de mais de alguns minutos: coloque uma linha em "Em andamento" no `QUADRO-DA-EQUIPE.md` com seu nome e faça commit e push na hora, para as outras contas verem que você pegou.
+
+**6. Ao terminar** (ou ao parar no meio):
+- Commit e push de tudo (antes do push, `git pull --rebase`; em conflito, junte as duas versões, nunca apague o trabalho da outra conta).
+- Uma linha no fim da tabela "Entregas" do `REGISTRO-DAS-CONTAS.md` com data, conta, o que fez, onde está e situação.
+- Tire do "Em andamento" do quadro. Se parou no meio, deixe lá com "como retomar".
+- Se criou pasta, app ou processo novo, acrescente no `MAPA-DO-REPOSITORIO.md`. Nos READMEs e no `ESTADO-DO-PROJETO.md`, cite a conta entre parênteses, como em "(conta Pedro)".
+
+**Salve tudo no repositório.** Nada fica só na conversa: roteiros, decisões do Lindson, pesquisas, prompts e links dos apps publicados vão para arquivos aqui. O que não pode ir para o GitHub (dados pessoais, contratos, vídeos grandes) fica registrado com o lugar onde está.
