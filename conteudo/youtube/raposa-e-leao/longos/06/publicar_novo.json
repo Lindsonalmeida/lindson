@@ -7,5 +7,43 @@
   "B": "Bajulador à vista",
   "gravA": "acervo/botticelli_giuliano_de_medici_accademia_carrara.jpg",
   "gravB": "acervo/julio_ii_raffaello.jpg"
- }
+ },
+ "tempos": [
+  [
+   "0:00",
+   "Abertura"
+  ],
+  [
+   "1:48",
+   "A peste das cortes"
+  ],
+  [
+   "3:05",
+   "Diga-me quem te cerca"
+  ],
+  [
+   "4:30",
+   "O teste que nunca falha"
+  ],
+  [
+   "6:02",
+   "Verdade com regra"
+  ],
+  [
+   "8:07",
+   "O imperador que mudava de ideia"
+  ],
+  [
+   "10:07",
+   "Ninguém pensa por você"
+  ],
+  [
+   "11:49",
+   "Quando o bajulador é você"
+  ],
+  [
+   "13:54",
+   "Os sinais e o espelho"
+  ]
+ ]
 }
