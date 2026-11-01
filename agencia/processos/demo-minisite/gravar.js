@@ -8,7 +8,7 @@ const W = 393, H = 578, DPR = 1080 / 393;
   const b = await chromium.launch();
   const c = await b.newContext({...devices['iPhone 13'], viewport: {width: W, height: H}, deviceScaleFactor: DPR});
   await c.route(/wa\.me|api\.whatsapp|instagram\.com|linkedin\.com|threads\.net/, r => r.abort());
-  const p = await c.newPage(); const cdp = await c.newCDPSession(p);
+  const p = await c.newPage(); p.setDefaultTimeout(6000); const cdp = await c.newCDPSession(p);
   const tempos = []; const eventos = []; let t0 = null, n = 0;
   cdp.on('Page.screencastFrame', async f => {
     const t = f.metadata.timestamp; if (t0 === null) t0 = t;
@@ -30,8 +30,14 @@ const W = 393, H = 578, DPR = 1080 / 393;
     requestAnimationFrame(pas) }), [alvo, dur]);
   await cdp.send('Page.startScreencast', {format: 'jpeg', quality: 90, maxWidth: 1080, maxHeight: 1700, everyNthFrame: 1});
   inicio = Date.now() / 1000;
+  if (R.antes) await p.goto(R.antes, {waitUntil: 'domcontentloaded'}).catch(() => {});
   await p.goto(R.url, {waitUntil: 'domcontentloaded'}); await p.evaluate(DEDO);
-  for (const a of R.acoes) {
+  let ia = 0; for (const a of R.acoes) { if (process.env.DEBUG_DEMO) console.log('ação', ia, JSON.stringify(a).slice(0, 70), ((Date.now() / 1000) - inicio).toFixed(1)); ia++;
+    if (a.legenda !== undefined) eventos.push({t: agora(), tipo: 'legenda', texto: a.legenda});  // tutorial: legenda até a próxima (conta Lindson, 01/11)
+    if (a.js) await p.evaluate(a.js).catch(e => console.log('js', e.message.slice(0, 60)));
+    if (a.clicar) { const loc = p.locator(a.clicar).first(); const bx = await loc.boundingBox().catch(() => null);
+      if (bx) { const x = bx.x + bx.width / 2, y = bx.y + bx.height / 2; await dedo(x, y, true, 1.15); await p.waitForTimeout(160); await dedo(x, y, true, .85); eventos.push({t: agora(), tipo: 'toque'}); await loc.click({timeout: 3000}).catch(e => console.log('clicar', e.message.slice(0, 60))); await p.waitForTimeout(180); await dedo(x, y, false, 1); } else console.log('não achei', a.clicar); }
+    if (a.digitar) { const loc = p.locator(a.digitar).first(); await loc.focus({timeout: 4000}).catch(e => console.log('foco', a.digitar)); await p.keyboard.type(a.texto, {delay: a.ritmo || 55}); }
     if (a.esperar) await p.waitForTimeout(a.esperar * 1000);
     if (a.rolar !== undefined) {
       let y = a.rolar; if (typeof y === 'string') y = await p.evaluate(s => { const e = document.querySelector(s); return e ? e.getBoundingClientRect().top + scrollY - 70 : 0 }, y);

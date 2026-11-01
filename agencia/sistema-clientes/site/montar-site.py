@@ -15,6 +15,14 @@ def troca(s, velho, novo):
     return s.replace(velho, novo, 1)
 
 SAIR = '<a href="/sair" style="font:600 12px var(--f-corpo);color:var(--apagado);text-decoration:none;border:1px solid var(--linha);border-radius:99px;padding:6px 12px">Sair</a>'
+
+CAB = '<!doctype html>\n<html lang="pt-BR">\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">\n'
+def doc(x):
+    """As páginas vêm no formato de artifact (sem doctype nem viewport). No site, sem isso o celular abre como página de computador."""
+    x = x.lstrip()
+    if x.startswith('<meta charset="utf-8">'): x = x[len('<meta charset="utf-8">'):].lstrip()
+    return x if x.lower().startswith('<!doctype') else CAB + x
+
 def com_sair(s):
     return troca(s, '<span class="exemplo">Dados de exemplo</span>', '<span class="exemplo">Dados de exemplo</span>' + SAIR)
 
@@ -49,11 +57,11 @@ document.getElementById('esqueci').addEventListener('click',e=>{e.preventDefault
 s = re.sub(r"f\.addEventListener\('submit',async e=>\{.*?\n(?=\}\)\(\);)", novo + '\n', s, count=1, flags=re.S)
 s = troca(s, 'const ok=i=>i.complete&&', 'if(!im||!dp)return;const ok=i=>i.complete&&')  # sem a foto do Lindson, o efeito 3D não roda
 assert '/api/entrar' in s and '/api/criar' in s and 'PAINEIS' not in s and 'resumo(' not in s
-open(os.path.join(OUT, 'index.html'), 'w').write(s)
+open(os.path.join(OUT, 'index.html'), 'w').write(doc(s))
 
 # 2 · painéis dos clientes (gerados pelos scripts de cada cliente) com o botão Sair
 for cli, arq in [('jaci', os.path.join(SC, 'jaci-cunha', 'painel-jaci.html')), ('leo', os.path.join(SC, 'leo-pinto', 'painel-leo.html'))]:
-    open(os.path.join(OUT, 'painel', cli + '.html'), 'w').write(com_sair(open(arq).read()))
+    open(os.path.join(OUT, 'painel', cli + '.html'), 'w').write(doc(com_sair(open(arq).read())))
 
 # 3 · painel do administrador (Lindson): resumo com os números reais de cada cliente (dados do repositório privado)
 import json

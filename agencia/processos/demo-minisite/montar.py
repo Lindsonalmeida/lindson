@@ -5,7 +5,7 @@ import numpy as np, soundfile as sf
 from scipy.signal import butter, lfilter
 D = os.path.dirname(os.path.abspath(__file__))
 rot, saida = sys.argv[1], sys.argv[2]; R = json.load(open(rot))
-TMP = '/tmp/claude-0/-home-user/5acf6937-9ac6-56e0-bc29-78bef210dc8b/scratchpad/demo/' + os.path.basename(rot)[:-5]
+TMP = os.environ.get('DEMO_TMP', '/tmp/demo-minisite') + '/' + os.path.basename(rot)[:-5]
 os.makedirs(TMP, exist_ok=True)
 subprocess.run(['node', D + '/gravar.js', rot, TMP + '/g'], check=True)
 G = json.load(open(TMP + '/g/tempos.json')); T, FIM = G['tempos'], G['fim']; ev = json.load(open(TMP + '/g/eventos.json'))
@@ -31,6 +31,18 @@ ui = f'''<!doctype html><html><head><meta charset="utf-8"><link href="https://fo
 <div class="sf"><div class="url"><small>🔒</small>{R['endereco']}</div><div class="home"></div></div></body></html>'''
 open(TMP + '/ui.html', 'w').write(ui)
 subprocess.run(['node', '-e', f"const {{chromium}}=require('playwright');(async()=>{{const b=await chromium.launch();const p=await b.newPage({{viewport:{{width:1080,height:1920}}}});await p.goto('file://{TMP}/ui.html',{{waitUntil:'networkidle'}});await p.evaluate(()=>document.fonts.ready);await p.screenshot({{path:'{TMP}/ui.png',omitBackground:true}});await b.close()}})()"], check=True)
+# legendas do tutorial (ações {"legenda": "..."} no roteiro): cartão no rodapé, de uma legenda até a próxima
+LEG = [e for e in ev if e['tipo'] == 'legenda']
+for i, e in enumerate(LEG):
+    e['fim'] = LEG[i + 1]['t'] if i + 1 < len(LEG) else FIM
+    cor = R.get('cor_legenda', '#F5C518')
+    h = f'''<!doctype html><html><head><meta charset="utf-8"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;800&display=swap" rel="stylesheet"><style>
+*{{margin:0;box-sizing:border-box}}body{{width:1080px;height:1920px;background:transparent;font-family:Inter,sans-serif;position:relative}}
+.c{{position:absolute;left:56px;right:56px;bottom:250px;background:rgba(10,10,12,.9);border:3px solid {cor};border-radius:36px;padding:34px 40px;color:#fff;font:800 50px/1.22 Inter;box-shadow:0 20px 60px rgba(0,0,0,.5)}}
+.c small{{display:block;font:600 34px/1.3 Inter;color:{cor};margin-bottom:10px;letter-spacing:.04em}}</style></head><body>{('<div class="c">' + e['texto'] + '</div>') if e['texto'] else ''}</body></html>'''
+    open(f"{TMP}/leg{i}.html", 'w').write(h)
+if LEG:
+    subprocess.run(['node', '-e', f"const {{chromium}}=require('playwright');(async()=>{{const b=await chromium.launch();const p=await b.newPage({{viewport:{{width:1080,height:1920}}}});for(let i=0;i<{len(LEG)};i++){{await p.goto('file://{TMP}/leg'+i+'.html');await p.waitForTimeout(400);await p.screenshot({{path:'{TMP}/leg'+i+'.png',omitBackground:true}})}}await b.close()}})()"], check=True)
 # áudio: a trilha do próprio site (se o roteiro toca "Ativar som") ou uma batida leve; clique em cada toque
 S = 44100; N = int(FIM * S); mix = np.zeros(N + S)
 mus = [e for e in ev if e['tipo'] == 'musica']
@@ -54,7 +66,7 @@ for e in ev:
     if e['tipo'] == 'toque':
         x = np.arange(int(.04 * S)) / S; c = np.sin(2 * np.pi * 2200 * x) * np.exp(-x * 160) * .25; i = int(e['t'] * S); mix[i:i + len(c)] += c
 mix = mix[:N]; mix = mix / max(1e-6, np.max(np.abs(mix))) * .9; sf.write(TMP + '/a.wav', mix, S)
-subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'concat', '-safe', '0', '-i', TMP + '/lista.txt', '-i', TMP + '/ui.png', '-i', TMP + '/a.wav',
-                '-filter_complex', '[0:v]fps=30,scale=1080:-2,format=yuv420p[g];color=c=black:s=1080x1920:r=30[f];[f][g]overlay=0:132:shortest=1[a];[a][1:v]overlay=0:0,format=yuv420p[v]',
+subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'concat', '-safe', '0', '-i', TMP + '/lista.txt', '-i', TMP + '/ui.png', '-i', TMP + '/a.wav'] + sum([['-i', f'{TMP}/leg{i}.png'] for i in range(len(LEG))], []) + [
+                '-filter_complex', '[0:v]fps=30,scale=1080:-2,format=yuv420p[g];color=c=black:s=1080x1920:r=30[f];[f][g]overlay=0:132:shortest=1[a];[a][1:v]overlay=0:0[l0]' + ''.join(f";[l{i}][{i + 3}:v]overlay=0:0:enable='between(t,{e['t']:.2f},{e['fim']:.2f})'[l{i + 1}]" for i, e in enumerate(LEG)) + f';[l{len(LEG)}]format=yuv420p[v]',
                 '-map', '[v]', '-map', '2:a', '-c:v', 'libx264', '-crf', '21', '-preset', 'medium', '-c:a', 'aac', '-b:a', '160k', '-t', f'{FIM:.2f}', '-movflags', '+faststart', saida], check=True)
 print('ok', saida, round(FIM, 1), 's')
