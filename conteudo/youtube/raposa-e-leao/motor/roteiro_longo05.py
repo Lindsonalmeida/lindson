@@ -136,7 +136,7 @@ d = dict(id='longo-05', canal='raposa', formato='longo', titulo='O livro de Maqu
  legenda=legenda,
  comentario='📌 Das 9 lições dos Discursos, qual você mais precisa hoje: voltar ao começo, mudar com os tempos ou saber parar depois de vencer? Continue na playlist Maquiavel na prática ⬇️',
  titulo_tela={'sup': 'RAPOSA E LEÃO', 'txt': 'O livro que<br>ninguém lê', 'dur': 3.2},
- capa={'A': 'O outro livro', 'B': 'Ninguém leu', 'gravA': 'maquiavel.jpg', 'gravB': 'cesar.jpg'}, cenas=C)
+ capa={'A': 'O outro livro', 'B': 'Ninguém leu', 'gravA': 'maquiavel.jpg', 'gravB': 'acervo/embaixadores_holbein.jpg'}, cenas=C)
 R = '/home/user/lindson/conteudo/youtube/raposa-e-leao'
 json.dump(d, open(R + '/roteiros/longo-05.json', 'w'), ensure_ascii=False, indent=1)
 ws = [len(x['txt'].split()) for x in C]

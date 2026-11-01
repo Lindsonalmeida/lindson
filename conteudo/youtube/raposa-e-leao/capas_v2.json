@@ -314,32 +314,32 @@
    "fs": 120
   }
  },
- "longo-04": {
+ "longo-05": {
   "A": {
    "estilo": "close",
-   "grav": "hist/alexander_the_great.jpg",
-   "foco": [
-    0.5,
-    0.4
-   ],
-   "zoom": 0.8,
-   "txt": "VENÇA <b>SEM LUTAR</b>",
+   "tag": "OS DISCURSOS",
+   "marca": "RAPOSA E LEÃO",
+   "zoom": 1.0,
    "lado": "dir",
-   "tag": "REGRAS DE GUERRA",
-   "marca": "RAPOSA E LEÃO"
-  },
-  "B": {
-   "estilo": "close",
    "grav": "maquiavel.jpg",
    "foco": [
     0.5,
     0.3
    ],
-   "zoom": 0.75,
-   "txt": "MANUAL <b>ESQUECIDO</b>",
+   "txt": "O OUTRO <b>LIVRO</b>"
+  },
+  "B": {
+   "estilo": "close",
+   "tag": "OS DISCURSOS",
+   "marca": "RAPOSA E LEÃO",
+   "zoom": 1.0,
    "lado": "dir",
-   "tag": "A ARTE DA GUERRA",
-   "marca": "RAPOSA E LEÃO"
+   "grav": "acervo/embaixadores_holbein.jpg",
+   "foco": [
+    0.5,
+    0.3
+   ],
+   "txt": "NINGUÉM <b>LEU</b>"
   }
  }
 }
