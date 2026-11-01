@@ -15,6 +15,8 @@ Montado pela conta Lindson em 01/11/2026. Site da Central do Cliente: tela de ac
 - **Quem já entrou** e abre o endereço principal vai direto para o painel (`functions/index.js`). `/sair` encerra.
 - **Códigos:** ficam só nos segredos da Cloudflare, `SEGREDO` e `CODIGOS` (HMAC de cada código → cliente). Os valores estão em `../privado/codigos-acesso.json`, fora do GitHub.
 
+**Guarda geral** (`functions/_middleware.js`): bloqueia `/publico/*`, arquivos `.md/.py/.json` e caminhos ocultos. Foi criada em 01/11, depois que uma cópia em `/publico/painel/` abriu sem login no primeiro deploy.
+
 ## Painéis no ar
 | Endereço | Quem abre | Gerado por |
 |---|---|---|
@@ -33,8 +35,8 @@ python3 site/montar-site.py          # gera site/publico/ (fora do Git)
 
 ## Publicar (repositório privado, nunca o `lindson`, que é público)
 1. O Lindson cria o repositório privado **`Lindsonalmeida/CentralLindsonALmeida`** (vazio) e libera o app Claude.
-2. Envie para lá `functions/` e `publico/`. O `publico/` tem os painéis com dados reais, por isso não entra no repositório público.
-3. Cloudflare: Workers e Pages → Criar → Pages → Importar repositório → `CentralLindsonALmeida`. **Project name `lindsonalmeida`** (decisão do Lindson, 01/11), branch `main`, framework `None`, comando de build vazio e diretório de saída `publico`.
+2. Envie para lá `functions/` e **o conteúdo** de `publico/` na raiz (index.html, painel/, _headers, robots.txt). O `publico/` tem os painéis com dados reais, por isso não entra no repositório público.
+3. Cloudflare: Workers e Pages → Criar → Pages → Importar repositório → `CentralLindsonALmeida`. **Project name `lindsonalmeida`** (decisão do Lindson, 01/11), branch `main`, framework `None`, comando de build vazio e diretório de saída **vazio** (a raiz). Em 01/11 o site ficou assim no repositório `CentralLindsonALmeida`.
 4. Em Armazenamento e bancos de dados → KV, crie o namespace `central-contas`.
 5. No projeto Pages → Configurações:
    - Vínculos → Adicionar → Namespace KV: nome da variável `CONTAS`, namespace `central-contas`;
