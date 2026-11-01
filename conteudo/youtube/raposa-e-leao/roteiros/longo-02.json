@@ -1,0 +1,534 @@
+{
+ "id": "longo-02",
+ "canal": "raposa",
+ "formato": "longo",
+ "titulo": "Por que pessoas boas perdem, segundo Maquiavel",
+ "legenda": "Por que pessoas boas perdem tanto no trabalho, nos negócios e na família? Para Maquiavel, o problema não é a bondade: é a bondade sem critério. Neste vídeo você entende o capítulo XV de O Príncipe, a frase mais mal interpretada do livro, e as lições sobre generosidade, favores, gratidão e confiança.\n\nVocê vai ver o erro que arruinou César Bórgia, a história de Lúcio Júnio Bruto, que se fingiu de tolo para sobreviver a um tirano, a queda de Savonarola, o profeta desarmado, e o que Maquiavel diz sobre ser amado ou temido. No final, um teste de três perguntas para saber se a sua bondade virou ingenuidade.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📜 Fonte: Nicolau Maquiavel, O Príncipe, caps. III, VI, VII, XV, XVI, XVII, XVIII, XIX e XXV; Discursos sobre a primeira década de Tito Lívio, livro I, cap. 32, e livro III, cap. 2. As citações aparecem em paráfrase curta.\n\n🦊🦁 Raposa e Leão: Maquiavel e as leis do poder aplicadas à vida real.\n\n▶️ Playlist recomendada: Maquiavel na prática\n\n#Maquiavel #OPríncipe #InteligênciaEmocional #Relacionamentos #RaposaELeão",
+ "comentario": "📌 Das três perguntas do teste (medo de desagradar, respeito ou uso, dá para manter por um ano), qual pegou você? Conta em que área: trabalho, família ou negócios. Continue na playlist Maquiavel na prática ⬇️",
+ "titulo_tela": {
+  "sup": "RAPOSA E LEÃO",
+  "txt": "Por que os bons<br>perdem",
+  "dur": 3.2
+ },
+ "capa": {
+  "A": "Bom demais?",
+  "B": "Presa fácil",
+  "gravA": "lorenzo.jpg",
+  "gravB": "hist/marcus_aurelius.jpg"
+ },
+ "cenas": [
+  {
+   "gravura": "borgia.jpg",
+   "mov": "in",
+   "txt": "Você conhece alguém bom, honesto e trabalhador que sempre sai perdendo? No emprego, nos negócios, até dentro da família? Maquiavel tem uma explicação para isso. E ela não tem nada a ver com azar."
+  },
+  {
+   "gravura": "maquiavel.jpg",
+   "mov": "out",
+   "txt": "Há mais de quinhentos anos ele escreveu uma frase que quase todo mundo lê errado. Parece um convite para ser mau. Não é. Ainda na primeira lição você vai entender o que ela diz de verdade."
+  },
+  {
+   "gravura": "hist/commodus.jpg",
+   "mov": "esq",
+   "txt": "Também vou te contar a história de um romano que passou anos se fingindo de bobo na corte de um rei tirano. Guarda essa história, porque ela muda o jeito de enxergar a esperteza."
+  },
+  {
+   "gravura": "maquiavel2.jpg",
+   "mov": "dir",
+   "txt": "E no final eu te entrego um teste de três perguntas. Com ele, você descobre em menos de um minuto se a sua bondade está te protegendo ou se virou porta aberta para quem gosta de se aproveitar."
+  },
+  {
+   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "mov": "cima",
+   "txt": "Maquiavel não escreveu um livro sobre pessoas boas e pessoas espertas. Ele escreveu sobre príncipes e repúblicas. Mas as regras que ele observou valem para qualquer lugar onde tem gente disputando espaço."
+  },
+  {
+   "gravura": "acervo/multidao_bruegel.jpg",
+   "mov": "in",
+   "txt": "E isso inclui o seu trabalho, a sua casa e os seus negócios. Hoje são oito lições, tiradas de O Príncipe e dos Discursos. Cada uma é um erro que gente boa comete sem perceber."
+  },
+  {
+   "gravura": "hist/bonfire_of_the_vanities.jpg",
+   "mov": "out",
+   "txt": "Vamos à tal frase. Ela está no capítulo quinze de O Príncipe, e é uma das mais incômodas do livro inteiro. Fala de quem quer ser bom em todas as situações, com todo mundo, o tempo todo.",
+   "cap": {
+    "sup": "LIÇÃO 1",
+    "txt": "Bondade sem filtro"
+   }
+  },
+  {
+   "gravura": "maquiavel.jpg",
+   "mov": "esq",
+   "txt": "Maquiavel diz que um homem que quer ser bom em tudo acaba se arruinando no meio de tantos que não são bons. Ele não diz que a bondade é errada. Ele diz que bondade sem critério é perigosa.",
+   "verso": "Quem quer ser bom em tudo se arruína entre tantos que não são bons.",
+   "ref": "O PRÍNCIPE, CAP. XV"
+  },
+  {
+   "gravura": "acervo/embaixadores_holbein.jpg",
+   "mov": "dir",
+   "txt": "E logo depois vem a parte que todo mundo esquece. Ele escreve que é preciso aprender a poder não ser bom, e usar isso ou não usar conforme a necessidade. A palavra importante ali é necessidade, não vontade."
+  },
+  {
+   "gravura": "lorenzo.jpg",
+   "mov": "in",
+   "txt": "Aqui eu fecho a primeira promessa. A frase não manda você virar uma pessoa má. Ela manda você parar de ser ingênuo. Ser bom por escolha, sabendo com quem está lidando, e não por falta de opção."
+  },
+  {
+   "gravura": "acervo/castiglione_raffaello.jpg",
+   "mov": "out",
+   "txt": "E ele explica o motivo. Existe uma distância enorme entre como as pessoas vivem e como deveriam viver. Quem só olha para o que deveria ser aprende mais a se arruinar do que a se proteger.",
+   "verso": "Há tanta distância entre como se vive e como se deveria viver que quem esquece um pelo outro aprende a se arruinar.",
+   "ref": "O PRÍNCIPE, CAP. XV"
+  },
+  {
+   "gravura": "hist/ferdinand_ii_of_aragon.jpg",
+   "mov": "cima",
+   "txt": "Quantas vezes você agiu do jeito que o mundo deveria funcionar e levou um susto com o jeito que ele funciona de verdade? Emprestou sem combinar prazo, confiou sem conhecer, ajudou sem perguntar para quê."
+  },
+  {
+   "gravura": "acervo/multidao_bruegel.jpg",
+   "mov": "esq",
+   "txt": "Alguns sinais de que a bondade virou ingenuidade: confiar em quem acabou de conhecer, dizer sim só para não desagradar, explicar demais os próprios planos e esperar reconhecimento sem nunca mostrar o que fez."
+  },
+  {
+   "gravura": "borgia.jpg",
+   "mov": "dir",
+   "txt": "Nada disso é maldade dos outros. É o jogo funcionando, e você jogando sem conhecer as regras. Maquiavel chamava isso de olhar a verdade efetiva das coisas, e não a imaginação que a gente tem delas."
+  },
+  {
+   "gravura": "maquiavel2.jpg",
+   "mov": "in",
+   "txt": "Bom por escolha, e não por falta de opção. Se essa ideia já fez sentido para você, fica comigo, porque agora vem o erro que mais esvazia o bolso de gente boa.",
+   "interage": {
+    "tipo": "checkin",
+    "txt": "Bom por escolha. Tá comigo?"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "lorenzo.jpg",
+   "mov": "out",
+   "txt": "No capítulo dezesseis, Maquiavel fala de uma virtude que todo mundo admira: a generosidade. E ele faz uma observação que parece maldade, mas é pura matemática da vida real.",
+   "cap": {
+    "sup": "LIÇÃO 2",
+    "txt": "A generosidade que arruína"
+   }
+  },
+  {
+   "gravura": "acervo/sandro_botticelli_giuliano_de_medici_gem_ldegale.jpg",
+   "mov": "dir",
+   "txt": "Quem quer ter fama de generoso precisa gastar sempre, com festa, com presente, com favor. Para manter essa imagem, vai consumindo tudo o que tem. E um dia, inevitavelmente, o dinheiro acaba."
+  },
+  {
+   "gravura": "acervo/multidao_bruegel.jpg",
+   "mov": "in",
+   "txt": "Aí vem a armadilha. Para continuar parecendo generoso, ele precisa tirar de alguém. No caso do príncipe, do próprio povo, com mais impostos. E a fama de generoso, que custou tão caro, vira ódio.",
+   "verso": "Quem quer manter a fama de generoso acaba pesando sobre o povo e se torna odiado.",
+   "ref": "O PRÍNCIPE, CAP. XVI"
+  },
+  {
+   "gravura": "maquiavel.jpg",
+   "mov": "esq",
+   "txt": "Por isso Maquiavel preferia a fama de econômico. Ela gera algumas críticas, mas não gera ódio. E com o tempo as pessoas percebem que quem é econômico é justamente quem consegue estar presente quando a coisa aperta."
+  },
+  {
+   "gravura": "hist/marcus_aurelius.jpg",
+   "mov": "cima",
+   "txt": "Pensa naquela pessoa que empresta para todo mundo, paga a conta de todos e nunca diz não. É amada enquanto pode. No dia em que não consegue mais, os primeiros a reclamar são os que mais receberam."
+  },
+  {
+   "gravura": "acervo/embaixadores_holbein.jpg",
+   "mov": "out",
+   "txt": "O remédio não é virar uma pessoa fechada. É aprender a dizer não com calma, sem pedir desculpas. Quem se justifica demais em cada recusa ensina os outros a insistir."
+  },
+  {
+   "gravura": "lorenzo.jpg",
+   "mov": "dir",
+   "txt": "Um não tranquilo protege o seu tempo e o seu dinheiro. E as pessoas passam a respeitar mais o seu sim, porque sabem que ele não é automático. Generosidade de verdade é a que você consegue manter."
+  },
+  {
+   "gravura": "borgia.jpg",
+   "mov": "in",
+   "txt": "Agora a história de um homem que Maquiavel admirava, e que caiu por um erro de pessoa boa. Curioso, porque ninguém nunca chamou esse homem de bonzinho. O nome dele é César Bórgia.",
+   "cap": {
+    "sup": "LIÇÃO 3",
+    "txt": "O favor não apaga a ferida"
+   }
+  },
+  {
+   "gravura": "hist/pope_alexander_vi.jpg",
+   "mov": "esq",
+   "txt": "Bórgia era filho do papa Alexandre sexto e conquistou boa parte da Romanha em poucos anos. Maquiavel esteve com ele pessoalmente, em missão diplomática de Florença, e usou o exemplo dele no capítulo sete de O Príncipe."
+  },
+  {
+   "gravura": "maquiavel2.jpg",
+   "mov": "dir",
+   "txt": "Quando o pai morreu, em 1503, veio a eleição de um novo papa, e logo outra, porque o escolhido morreu em poucas semanas. Na segunda, Bórgia ajudou a eleger justamente um cardeal que ele mesmo tinha ofendido no passado."
+  },
+  {
+   "gravura": "acervo/julio_ii_raffaello.jpg",
+   "mov": "out",
+   "txt": "Esse cardeal era Giuliano della Rovere, que virou o papa Júlio segundo. Bórgia acreditou nas promessas novas e achou que o passado estava esquecido. Pouco tempo depois, foi o próprio Júlio segundo quem desmontou o poder dele."
+  },
+  {
+   "gravura": "maquiavel.jpg",
+   "mov": "cima",
+   "txt": "Maquiavel não perdoa esse erro. Ele escreve que quem acredita que, entre os grandes, benefícios novos fazem esquecer ofensas antigas, se engana. Para ele, essa escolha foi a causa da ruína final de Bórgia.",
+   "verso": "Quem acredita que benefícios novos fazem esquecer ofensas antigas se engana.",
+   "ref": "O PRÍNCIPE, CAP. VII"
+  },
+  {
+   "gravura": "hist/caracalla.jpg",
+   "mov": "esq",
+   "txt": "Repara na ironia. O homem mais temido da Itália caiu por confiar numa promessa. Esperteza não protege quem esquece o passado."
+  },
+  {
+   "gravura": "acervo/castiglione_raffaello.jpg",
+   "mov": "in",
+   "txt": "Gente boa costuma pensar: eu errei, mas fiz um favor, então está tudo certo. Só que a pessoa ferida aceita o favor, agradece, até sorri, e continua lembrando."
+  },
+  {
+   "gravura": "hist/pope_julius_ii.jpg",
+   "mov": "esq",
+   "txt": "Isso não quer dizer viver desconfiando de todo mundo. Quer dizer que, se você já foi duro com alguém, essa relação pede mais cuidado do que as outras. Confiança quebrada se reconstrói com tempo e constância, não com um presente."
+  },
+  {
+   "gravura": "lorenzo.jpg",
+   "mov": "out",
+   "txt": "Me conta nos comentários: você já viu alguém achar que um favor resolvia uma mágoa antiga, no trabalho ou na família? Funcionou? Responde só com sim ou não, e se quiser, conta o caso.",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "Favor apagou a mágoa?"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "hist/bonfire_of_the_vanities.jpg",
+   "mov": "out",
+   "txt": "O quarto erro está nos Discursos sobre Tito Lívio, o livro em que Maquiavel analisa a história de Roma. É o erro de quem é bom, mas é bom tarde demais.",
+   "cap": {
+    "sup": "LIÇÃO 4",
+    "txt": "Bom tarde demais"
+   }
+  },
+  {
+   "gravura": "hist/arco_severo.jpg",
+   "mov": "dir",
+   "txt": "No capítulo trinta e dois do primeiro livro, ele diz que um governante não deve esperar a hora do aperto para fazer o bem às pessoas. Porque o bem feito debaixo de pressão não gera gratidão.",
+   "verso": "Não se deve esperar a necessidade para fazer o bem aos homens.",
+   "ref": "DISCURSOS, LIVRO I, CAP. 32"
+  },
+  {
+   "gravura": "acervo/multidao_bruegel.jpg",
+   "mov": "in",
+   "txt": "O motivo é simples. Quando você só cede depois de ser cobrado, a pessoa não sente que você ofereceu. Sente que ela arrancou. E ninguém agradece aquilo que acha que conquistou na força."
+  },
+  {
+   "gravura": "acervo/embaixadores_holbein.jpg",
+   "mov": "cima",
+   "txt": "Maquiavel lembra que, quando o rei Porsena atacou Roma, o senado aliviou o povo antes que o povo pedisse. E a cidade ficou unida na hora difícil."
+  },
+  {
+   "gravura": "lorenzo.jpg",
+   "mov": "esq",
+   "txt": "Pensa num chefe que só dá aumento quando o funcionário ameaça sair. O funcionário fica, mas fica ressentido. Agora pensa num chefe que reconhece antes de ser pedido. O valor é o mesmo. O efeito é o oposto."
+  },
+  {
+   "gravura": "maquiavel2.jpg",
+   "mov": "dir",
+   "txt": "Na família é igual. O pedido de desculpas que chega antes da briga explodir vale o dobro do que chega depois. O elogio que vem antes da reclamação vira lealdade. O que vem depois vira só alívio."
+  },
+  {
+   "gravura": "acervo/leao_x_raffaello.jpg",
+   "mov": "in",
+   "txt": "Se essas lições já valeram o seu tempo, segue o Raposa e Leão e assiste a playlist Maquiavel na prática. Toda semana tem Maquiavel tirado da fonte e trazido para a sua vida, sem enrolação.",
+   "cta": "Segue o <b>Raposa e Leão</b><br>e veja a playlist <b>Maquiavel na prática</b>",
+   "interage": {
+    "tipo": "segue",
+    "txt": "Segue: bom, mas não bobo"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "hist/ferdinand_ii_of_aragon.jpg",
+   "mov": "out",
+   "txt": "Agora uma regra que quase ninguém conhece, escondida no fim do capítulo três de O Príncipe. Ela fala de ajudar alguém a crescer, e do preço que isso pode ter.",
+   "cap": {
+    "sup": "LIÇÃO 5",
+    "txt": "Cuidado com quem você fortalece"
+   }
+  },
+  {
+   "gravura": "acervo/carlos_viii_florenca_bezzuoli.jpg",
+   "mov": "esq",
+   "txt": "Maquiavel analisa os erros do rei Luís doze da França na Itália. Um deles foi ajudar outros a ficarem fortes ali dentro: a Igreja e o rei da Espanha. Depois de fortes, os dois acabaram tirando a França do caminho."
+  },
+  {
+   "gravura": "maquiavel.jpg",
+   "mov": "cima",
+   "txt": "Daí vem a regra geral: quem é a causa de outro se tornar poderoso trabalha para a própria ruína. Quem fica forte passa a desconfiar de quem sabe como ele chegou lá.",
+   "verso": "Quem é causa de outro se tornar poderoso arruína a si mesmo.",
+   "ref": "O PRÍNCIPE, CAP. III"
+  },
+  {
+   "gravura": "acervo/castiglione_raffaello.jpg",
+   "mov": "dir",
+   "txt": "A pessoa boa ensina tudo o que sabe a um sócio, a um colega, a um funcionário. Abre portas, apresenta contatos, entrega o caminho das pedras. E um dia é dispensada, porque já não faz falta."
+  },
+  {
+   "gravura": "borgia.jpg",
+   "mov": "in",
+   "txt": "Atenção: isso não é um conselho para nunca ajudar ninguém. Quem não ajuda ninguém fica sozinho, e Maquiavel sabia muito bem que ninguém se sustenta sozinho. O conselho é ajudar sem se tornar descartável."
+  },
+  {
+   "gravura": "lorenzo.jpg",
+   "mov": "out",
+   "txt": "Na prática, três cuidados. Continue aprendendo, para seguir sendo necessário. Escolha com atenção em quem você investe a sua força. E observe como a pessoa trata quem já não serve para ela."
+  },
+  {
+   "gravura": "acervo/beijo_judas_giotto.jpg",
+   "mov": "esq",
+   "txt": "Porque quem descarta os outros com facilidade vai descartar você também. A forma como alguém trata quem saiu é o melhor aviso de como vai tratar você no dia em que você não for mais útil."
+  },
+  {
+   "gravura": "hist/caracalla.jpg",
+   "mov": "in",
+   "txt": "Lembra do romano que se fingia de bobo? Chegou a hora dele. O nome era Lúcio Júnio Bruto. Quem conta a história é o historiador Tito Lívio, e Maquiavel comenta o caso no terceiro livro dos Discursos.",
+   "cap": {
+    "sup": "LIÇÃO 6",
+    "txt": "Parecer menos do que é"
+   }
+  },
+  {
+   "gravura": "hist/arco_severo.jpg",
+   "mov": "dir",
+   "txt": "Roma era governada pelo rei Tarquínio, o Soberbo, um tirano. Bruto era parente da família real e tinha visto o que acontecia com quem parecia perigoso. Então escolheu parecer inofensivo, e passou anos se fazendo de tolo."
+  },
+  {
+   "gravura": "acervo/multidao_bruegel.jpg",
+   "mov": "out",
+   "txt": "Até o apelido, Bruto, virou uma espécie de piada: queria dizer lerdo, sem juízo. Ninguém na corte via ameaça naquele homem. E foi exatamente isso que manteve Bruto vivo enquanto outros caíam."
+  },
+  {
+   "gravura": "cesar.jpg",
+   "mov": "cima",
+   "txt": "Quando chegou a hora, foi ele quem liderou o povo contra os Tarquínios. O rei foi expulso, e Roma virou república. O bobo da corte virou um dos fundadores da liberdade romana."
+  },
+  {
+   "gravura": "acervo/batalha_ostia_raffaello.jpg",
+   "mov": "dir",
+   "txt": "Anos de paciência, e uma única hora de ação. Foi essa combinação que mudou a história de Roma."
+  },
+  {
+   "gravura": "maquiavel2.jpg",
+   "mov": "in",
+   "txt": "A lição de Maquiavel: em certos momentos é muito sábio se fingir de louco, ou seja, parecer menos do que você é. Aqui fecha a segunda promessa. Bruto não enganou para ferir ninguém. Ele se protegeu até a hora certa.",
+   "verso": "É coisa muito sábia, em certos momentos, fingir loucura.",
+   "ref": "DISCURSOS, LIVRO III, CAP. 2"
+  },
+  {
+   "gravura": "acervo/embaixadores_holbein.jpg",
+   "mov": "esq",
+   "txt": "Gente boa costuma fazer o contrário. Conta todos os planos, mostra todas as cartas, anuncia o projeto antes de começar. Quem é estratégico guarda algumas cartas e mostra o resultado depois de pronto."
+  },
+  {
+   "gravura": "lorenzo.jpg",
+   "mov": "dir",
+   "txt": "Quando você anuncia tudo antes, abre espaço para a inveja, para a sabotagem e para a cópia. Quando mostra depois, o resultado fala por você, e ninguém teve tempo de atrapalhar. Fale menos dos planos e mais das conquistas."
+  },
+  {
+   "gravura": "acervo/sermao_bruegel.jpg",
+   "mov": "out",
+   "txt": "Agora o erro mais doído para quem é bom: querer ser amado por todo mundo. No capítulo dezessete, Maquiavel faz a pergunta famosa. É melhor ser amado ou temido?",
+   "cap": {
+    "sup": "LIÇÃO 7",
+    "txt": "Querido, mas não respeitado"
+   }
+  },
+  {
+   "gravura": "maquiavel2.jpg",
+   "mov": "esq",
+   "txt": "A resposta dele é que o ideal seria ser as duas coisas. Mas, como é difícil juntar as duas, se for preciso escolher, é mais seguro ser temido do que amado."
+  },
+  {
+   "gravura": "acervo/prisao_cristo_caravaggio.jpg",
+   "mov": "dir",
+   "txt": "Ele diz que as pessoas hesitam menos em ofender quem se faz amar do que quem se faz temer. O amor depende de gratidão, e a gratidão se rompe quando aparece uma vantagem. O respeito a um limite não se rompe tão fácil.",
+   "verso": "Os homens hesitam menos em ofender quem se faz amar do que quem se faz temer.",
+   "ref": "O PRÍNCIPE, CAP. XVII"
+  },
+  {
+   "gravura": "hist/marcus_aurelius.jpg",
+   "mov": "in",
+   "txt": "Agora o detalhe que quase todo mundo pula. Maquiavel diz que é preciso ser temido sem ser odiado. E o caminho para não ser odiado é não tomar o que é dos outros. Ou seja: firmeza sem abuso."
+  },
+  {
+   "gravura": "acervo/castiglione_raffaello.jpg",
+   "mov": "cima",
+   "txt": "E no capítulo dezenove ele diz o que torna alguém desprezado: ser visto como inconstante, leviano, medroso, sem decisão. Repara que nenhuma dessas palavras é maldade. São todas formas de fraqueza.",
+   "verso": "Torna-se desprezado quem é tido por volúvel, leviano, covarde e irresoluto.",
+   "ref": "O PRÍNCIPE, CAP. XIX"
+  },
+  {
+   "gravura": "lorenzo.jpg",
+   "mov": "out",
+   "txt": "Na vida real, temido não quer dizer assustador. Quer dizer alguém que tem limite claro, cumpre o que fala e não muda de ideia a cada pressão. Ninguém ousa passar essa pessoa para trás."
+  },
+  {
+   "gravura": "acervo/julio_ii_raffaello.jpg",
+   "mov": "esq",
+   "txt": "A pessoa boa que quer agradar a todos faz o contrário. Muda de opinião para não criar clima, aceita qualquer prazo, ri da piada que a ofendeu. Mas é a primeira a ser cobrada e a última a ser ouvida."
+  },
+  {
+   "gravura": "maquiavel.jpg",
+   "mov": "dir",
+   "txt": "Me responde com sinceridade nos comentários: no seu trabalho hoje, você é mais querido ou mais respeitado? Escreve só uma palavra. Essa resposta já mostra qual lição deste vídeo é a sua.",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "Querido ou respeitado? Uma palavra"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "acervo/savonarola_fra_bartolomeo.jpg",
+   "mov": "in",
+   "txt": "A oitava lição vem de alguém que Maquiavel viu de perto, em Florença: o frade Girolamo Savonarola. Um homem que muita gente considerava sincero, e que terminou executado em praça pública.",
+   "cap": {
+    "sup": "LIÇÃO 8",
+    "txt": "A bondade desarmada"
+   }
+  },
+  {
+   "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+   "mov": "out",
+   "txt": "Savonarola pregava contra o luxo e a corrupção, e por alguns anos teve Florença nas mãos. As pessoas lotavam a igreja para ouvir o frade. O povo acreditava nele."
+  },
+  {
+   "gravura": "hist/bonfire_of_the_vanities.jpg",
+   "mov": "esq",
+   "txt": "Mas a confiança do povo mudou, como costuma mudar. E quando a multidão deixou de acreditar, Savonarola não tinha nenhuma forma de se sustentar. Em 1498 foi preso, condenado e executado na Piazza della Signoria."
+  },
+  {
+   "gravura": "maquiavel2.jpg",
+   "mov": "dir",
+   "txt": "É daí que vem uma frase famosa do capítulo seis: todos os profetas armados venceram, e os desarmados se arruinaram. E Maquiavel cita Savonarola como o exemplo do profeta desarmado.",
+   "verso": "Todos os profetas armados venceram, e os desarmados se arruinaram.",
+   "ref": "O PRÍNCIPE, CAP. VI"
+  },
+  {
+   "gravura": "hist/moses.jpg",
+   "mov": "cima",
+   "txt": "No mesmo capítulo ele cita Moisés entre os que tinham a causa e também os meios de sustentá-la. Não é sobre ter espada. É sobre ter como manter de pé aquilo em que você acredita."
+  },
+  {
+   "gravura": "acervo/botticelli_giuliano_de_medici_accademia_carrara.jpg",
+   "mov": "in",
+   "txt": "Na vida comum, as suas armas são outras: dinheiro guardado, uma habilidade que poucos têm, pessoas que confiam em você, um acordo bem escrito. Boa intenção sem nada disso fica dependendo do humor dos outros."
+  },
+  {
+   "gravura": "borgia.jpg",
+   "mov": "out",
+   "txt": "Por isso tanta gente boa cai na primeira crise. Ela tinha razão, tinha caráter, tinha boa vontade. Só não tinha reserva, nem plano, nem apoio. A bondade estava certa. Estava só desarmada."
+  },
+  {
+   "gravura": "acervo/smk_stormflod_vernet.jpg",
+   "mov": "cima",
+   "txt": "E a crise sempre chega. A pergunta nunca é se ela vem. É o que você vai ter na mão quando ela chegar."
+  },
+  {
+   "gravura": "maquiavel.jpg",
+   "mov": "esq",
+   "txt": "Maquiavel completa a ideia no capítulo vinte e cinco, com a imagem do rio. A fortuna é como um rio que, quando enche, arrasta tudo pela frente. Mas, nos tempos calmos, dá para construir diques e barreiras."
+  },
+  {
+   "gravura": "hist/marcus_equestre.jpg",
+   "mov": "dir",
+   "txt": "Ele diz que a fortuna mostra a sua força onde não encontra preparo para resistir. Ou seja, a hora de se armar é quando está tudo bem. Quem espera a enchente para construir o dique já perdeu.",
+   "verso": "A fortuna mostra seu poder onde não há virtude preparada para resistir a ela.",
+   "ref": "O PRÍNCIPE, CAP. XXV"
+  },
+  {
+   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "mov": "in",
+   "txt": "Chegamos à parte mais importante. Você viu oito erros que fazem pessoas boas perderem. Agora vamos juntar tudo num caminho só: como continuar sendo bom sem virar presa fácil.",
+   "cap": {
+    "sup": "A SAÍDA",
+    "txt": "Bom sem ser presa fácil"
+   }
+  },
+  {
+   "gravura": "lorenzo.jpg",
+   "mov": "out",
+   "txt": "Primeiro: generosidade que cabe no seu bolso, com um não tranquilo quando precisar. Segundo: cuidado redobrado com quem você já feriu, mesmo depois de um favor. Terceiro: reconhecer antes da cobrança, e não depois."
+  },
+  {
+   "gravura": "hist/alexander_the_great.jpg",
+   "mov": "esq",
+   "txt": "Quarto: ajudar sem entregar tudo o que te faz ter valor. Quinto: guardar os planos e mostrar os resultados. Sexto: ser respeitado antes de ser querido, com limite claro e palavra cumprida."
+  },
+  {
+   "gravura": "maquiavel2.jpg",
+   "mov": "dir",
+   "txt": "Sétimo: nunca deixar a sua bondade desarmada, com reserva, habilidade e apoio. E por trás de tudo, a primeira lição: ser bom por escolha, sabendo com quem você está lidando."
+  },
+  {
+   "gravura": "acervo/castiglione_raffaello.jpg",
+   "mov": "cima",
+   "txt": "Agora sim, a promessa maior, a que eu deixei para o fim: o teste de três perguntas. Pensa numa situação concreta em que você sente que está sendo passado para trás, e responde comigo."
+  },
+  {
+   "gravura": "hist/pope_julius_ii.jpg",
+   "mov": "in",
+   "txt": "Primeira pergunta: eu estou fazendo isso porque escolhi, ou porque tenho medo de desagradar? Se a resposta for medo, a sua bondade não é escolha. É uma porta aberta."
+  },
+  {
+   "gravura": "borgia.jpg",
+   "mov": "out",
+   "txt": "Segunda pergunta: se eu parar de fazer isso amanhã, essa pessoa continua me respeitando? Se a resposta for não, o que existe ali não é respeito. É uso. E gratidão comprada se rompe na primeira vantagem."
+  },
+  {
+   "gravura": "acervo/leao_x_raffaello.jpg",
+   "mov": "dir",
+   "txt": "Terceira pergunta: eu consigo manter isso por mais um ano sem me arruinar, no dinheiro, no tempo ou na saúde? Se não consegue, essa generosidade vai acabar, como a do príncipe do capítulo dezesseis."
+  },
+  {
+   "gravura": "maquiavel.jpg",
+   "mov": "cima",
+   "txt": "Se você respondeu medo, uso ou não consigo em alguma delas, achou o ponto exato onde a sua bondade virou ingenuidade. Não precisa mudar a vida inteira. Muda só esse ponto esta semana."
+  },
+  {
+   "gravura": "lorenzo.jpg",
+   "mov": "in",
+   "txt": "Talvez seja um não que você está adiando há meses. Talvez seja reconhecer alguém antes que essa pessoa peça. Uma mudança de postura já muda como te tratam."
+  },
+  {
+   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "mov": "out",
+   "txt": "No capítulo dezoito, Maquiavel lembra que todos veem o que você parece, e poucos sentem o que você é. Por isso a bondade também precisa parecer firme. Senão, quem está de fora lê fraqueza.",
+   "verso": "Todos veem o que pareces; poucos sentem o que és.",
+   "ref": "O PRÍNCIPE, CAP. XVIII"
+  },
+  {
+   "gravura": "hist/ferdinand_ii_of_aragon.jpg",
+   "mov": "esq",
+   "txt": "Se você conhece alguém bom demais, que vive saindo no prejuízo, manda este vídeo para essa pessoa. Às vezes ela só precisa ouvir que dá para ser boa e firme ao mesmo tempo.",
+   "interage": {
+    "tipo": "manda",
+    "txt": "Manda pra quem sempre perde"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "maquiavel2.jpg",
+   "mov": "dir",
+   "txt": "Maquiavel não pede que você deixe de ser bom. Ele pede que você deixe de ser ingênuo. Bondade com estratégia é rara, respeitada e dura muito. Bondade sem estratégia é presa fácil."
+  },
+  {
+   "gravura": "cesar.jpg",
+   "mov": "in",
+   "txt": "No próximo vídeo da playlist Maquiavel na prática, você continua aprendendo a enxergar o jogo do poder no trabalho e na vida, sem perder o caráter. Até a próxima lição, raposa.",
+   "cta": "Próximo: <b>Maquiavel na prática</b><br>Até a próxima lição, raposa",
+   "selo": "RAPOSA<br>E LEÃO"
+  }
+ ]
+}
