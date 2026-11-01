@@ -59,10 +59,10 @@ Agora leia os arquivos acima e me diga em uma linha qual conta você é e o que 
 ### Central do Cliente (sistema único de painéis)
 - **Como funciona:** o cliente cria a conta uma vez (nome, e-mail, senha e código de acesso). Depois entra com e-mail e senha e cai direto no painel dele. O Lindson (admin) vê todos e gerencia as contas.
 - **Onde está:** `agencia/sistema-clientes/` (ver `site/README.md`).
-- **Endereço:** https://lindsonalmeida.pages.dev (nome escolhido pelo Lindson; projeto `lindsonalmeida` na Cloudflare Pages, repositório privado `central`).
+- **Endereço:** https://lindsonalmeida.pages.dev (nome escolhido pelo Lindson; projeto `lindsonalmeida` na Cloudflare Pages, repositório privado `CentralLindsonALmeida`).
 - **Estado em 01/11:**
   - pronto e testado;
-  - falta o Lindson criar o repositório privado `Lindsonalmeida/central` e configurar a Cloudflare Pages: KV `CONTAS` e os segredos `SEGREDO` e `CODIGOS`.
+  - falta o Lindson criar o repositório privado `Lindsonalmeida/CentralLindsonALmeida` e configurar a Cloudflare Pages: KV `CONTAS` e os segredos `SEGREDO` e `CODIGOS`.
 - **Códigos e segredos:** em `agencia/sistema-clientes/privado/codigos-acesso.json`, fora do Git, só na máquina da conta Lindson. Outra conta precisa pedir ao Lindson.
 - **Painel novo de cliente:** sempre a partir de `prototipo/painel.html` com um script `montar-<cliente>.py` (exemplos: `jaci-cunha/montar-jaci.py`, `leo-pinto/montar-leo.py`). Nunca do zero.
 - **Cuidado:** com as fotos do Lindson na máquina, `montar-leo.py` embute a foto dele no `painel-leo.html`, que vai para o Git. Volte esse arquivo com `git checkout` antes do commit.

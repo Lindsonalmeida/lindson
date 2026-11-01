@@ -32,9 +32,9 @@ python3 site/montar-site.py          # gera site/publico/ (fora do Git)
 ```
 
 ## Publicar (repositório privado, nunca o `lindson`, que é público)
-1. O Lindson cria o repositório privado **`Lindsonalmeida/central`** (vazio) e libera o app Claude.
+1. O Lindson cria o repositório privado **`Lindsonalmeida/CentralLindsonALmeida`** (vazio) e libera o app Claude.
 2. Envie para lá `functions/` e `publico/`. O `publico/` tem os painéis com dados reais, por isso não entra no repositório público.
-3. Cloudflare: Workers e Pages → Criar → Pages → Importar repositório → `central`. **Project name `lindsonalmeida`** (decisão do Lindson, 01/11), branch `main`, framework `None`, comando de build vazio e diretório de saída `publico`.
+3. Cloudflare: Workers e Pages → Criar → Pages → Importar repositório → `CentralLindsonALmeida`. **Project name `lindsonalmeida`** (decisão do Lindson, 01/11), branch `main`, framework `None`, comando de build vazio e diretório de saída `publico`.
 4. Em Armazenamento e bancos de dados → KV, crie o namespace `central-contas`.
 5. No projeto Pages → Configurações:
    - Vínculos → Adicionar → Namespace KV: nome da variável `CONTAS`, namespace `central-contas`;
