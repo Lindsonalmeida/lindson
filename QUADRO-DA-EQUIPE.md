@@ -11,7 +11,7 @@ Como usar:
 ## Em andamento
 | Desde | Conta | O quê | Como retomar / onde está |
 |---|---|---|---|
-| 31/10 | Pedro | Refazer os longos abaixo de 16 min dos dois canais e colocar no app | `conteudo/youtube/filas/REFAZER-LONGOS.md` · vídeos no branch `entregas-videos` · apps Passaporte https://claude.ai/artifact/CT3Z4M3yrzGrqCt3nh95ak e Raposa https://claude.ai/artifact/2k4SSuvALdqXDcXnBQMVZH. Pelo registro de 01/11, faltavam no app: Passaporte 01, 02, 05, 09 e Raposa 01-06 e 12-16 (conferir no `git log` o que já entrou depois) |
+| 31/10 | Pedro | Refazer os longos abaixo de 16 min dos dois canais e colocar no app | `conteudo/youtube/filas/REFAZER-LONGOS.md` · vídeos no branch `entregas-videos` · apps Passaporte https://claude.ai/artifact/CT3Z4M3yrzGrqCt3nh95ak e Raposa https://claude.ai/artifact/2k4SSuvALdqXDcXnBQMVZH. Conferido pela conta Lindson em 01/11 (`ativos-novo.json`): vídeo no app só de Passaporte 03, 04, 06, 07, 08 e Raposa 07-11. **Faltam o vídeo** de Passaporte 01, 02, 05, 09 e Raposa 01-06 e 12-16 (as capas já estão) |
 | 22/10 | Lindson | Teste 01 de Reels: o Lindson grava os 300 roteiros e envia os prints das métricas | aba Conteúdo do Recomeço 90 (https://claude.ai/artifact/DQFTjzVzhH2ZaHtFQwXw5N) · `conteudo/esteira/ROTINA.md`. Quando chegarem métricas: ler o ranking e decidir o Teste 02 |
 
 ## Livre para pegar (pendências conhecidas)
@@ -21,6 +21,7 @@ Como usar:
 | 22/10 | Produto master: roteiro da aula grátis "Os 5 erros…", plano da turma piloto da mentoria, assistentes de IA de roteiro e legenda (bônus) e o número da garantia | `agencia/ofertas/produto-master.md` |
 | 30/10 | Leo Pinto: mockups fotográficos de boné e bandeira da identidade v3 (precisam de gerador de imagem) | registro da conta Zuleide |
 | 01/11 | Desentupidora SF: instalar Pixel da Meta e UTM no site e ligar o Facebook Ads no Supermetrics, antes de medir a campanha | registro da conta Zuleide |
+| 26/10 | Religar as tarefas agendadas da conta Lindson (lista diária de leads, captação por cidades, notícias BOMBOU), desligadas desde 26/10 por limite de uso. Só com o OK do Lindson | `MAPA-DO-REPOSITORIO.md` |
 | 29/10 | Passaporte: refazer com a voz nova o pv-01 e os Shorts que ainda estiverem na voz antiga | `ESTADO-DO-PROJETO.md` (fila `filas/lote8.sh`) |
 
 ## Feito recentemente (últimos registros)

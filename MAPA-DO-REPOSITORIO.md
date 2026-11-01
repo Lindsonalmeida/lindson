@@ -64,7 +64,10 @@ Cada app é privado da conta que criou. Para editar de outra conta, peça ao don
 **Outros apps citados no `ESTADO-DO-PROJETO.md`** (Downloads Alkantara, SDR para Agências, Minhas 3 Prioridades, Contratos Alkantara, Postagens antigas do Passaporte e do Raposa, Central do cliente): dono não confirmado; não aparecem na lista de apps da conta Lindson.
 
 ## Tarefas agendadas (conta Lindson)
+Todas desligadas desde 26/10 (as de 3 em 3 horas falharam por limite de uso do plano). Para religar, peça ao Lindson.
 | Nome | Quando | Situação |
 |---|---|---|
-| Lista diária de leads | todo dia 6h26 (São Luís) | ligada; grava no Recomeço 90 |
-| Roteiros diários de Reels | 5h41 | desligada (os 300 roteiros foram entregues de uma vez em 22/10) |
+| Lista diária de leads (100 com WhatsApp) | todo dia 6h26 (São Luís) | desligada desde 26/10; última rodada boa em 26/10 |
+| Captação por cidades | a cada 3 h | desligada desde 26/10 (falhou por limite de uso) |
+| Notícias BOMBOU | a cada 3 h | desligada desde 26/10 (falhou por limite de uso em 27/10) |
+| Roteiros diários de Reels | 5h41 | desligada de propósito (os 300 roteiros foram entregues de uma vez em 22/10) |
