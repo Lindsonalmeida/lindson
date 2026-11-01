@@ -17,6 +17,7 @@ Como usar:
 ## Livre para pegar (pendências conhecidas)
 | Desde | O quê | De onde veio |
 |---|---|---|
+| 26/10 | Dra. Jaci Cunha (contrato desde 26/10): estratégia, calendário do mês e relatório semanal ainda não existem no repositório | `agencia/clientes/jaci-cunha/README.md` |
 | 22/10 | Carrosséis da esteira de conteúdo, no mesmo modelo dos Reels (formatos, conteúdos e ganchos em teste) | conversa do Lindson (conta Lindson) |
 | 22/10 | Produto master: roteiro da aula grátis "Os 5 erros…", plano da turma piloto da mentoria, assistentes de IA de roteiro e legenda (bônus) e o número da garantia | `agencia/ofertas/produto-master.md` |
 | 30/10 | Leo Pinto: mockups fotográficos de boné e bandeira da identidade v3 (precisam de gerador de imagem) | registro da conta Zuleide |
