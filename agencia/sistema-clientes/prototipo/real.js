@@ -59,6 +59,17 @@ if (PL) V.planejamento = d => {
   ${(PL.datas || []).length ? `<div class="card"><h3>Datas comemorativas do ano</h3><p class="sub">${esc(PL.datasNota || '')}</p><div class="tab"><table><thead><tr><th>Data</th><th>O que é</th><th>Ideia de conteúdo</th></tr></thead><tbody>${PL.datas.map(r => `<tr>${r.map((c, i) => `<td>${i === 0 ? '<b>' + esc(c) + '</b>' : esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div></div>` : ''}
   ${PL.regras ? `<div class="card" style="border-color:var(--amarelo)"><h3>Regras que valem para todo post</h3><p class="sub" style="margin:0">${esc(PL.regras)}</p></div>` : ''}`;
 };
+
+// Conteúdos › Datas comemorativas: as datas pesquisadas para o cliente (planejamento.datas), no lugar das datas genéricas do modelo
+if (PL && (PL.datas || []).length) {
+  const conteudosModelo = V.conteudos;
+  V.conteudos = d => {
+    const sub = window._sub || 'datas'; if (sub !== 'datas') return conteudosModelo(d);
+    const bt = k => `<button aria-pressed="${sub === k}" data-sub="${k}">${{ datas: 'Datas comemorativas', carrosseis: 'Carrosséis', reels: 'Reels' }[k]}</button>`;
+    return `<div class="card"><h3>Conteúdos</h3><p class="sub">Tudo que está sendo produzido para você.</p><div class="subabas" style="margin-bottom:14px">${bt('datas') + bt('carrosseis') + bt('reels')}</div>
+     <p class="sub">${esc(PL.datasNota || '')}</p><div class="lista">${PL.datas.map(([dt, nome, ideia]) => `<div class="item"><div style="min-width:0"><div class="t">${esc(dt)} · ${esc(nome)}</div><div class="d">${esc(ideia)}</div></div></div>`).join('')}</div></div>`;
+  };
+}
 const C = D.calendario;
 if (!C) V.calendario = () => `<div class="card"><h3>Calendário</h3><p class="sub" style="margin:0">${esc(D.semCalendario || 'O calendário do mês aparece aqui quando estiver aprovado.')}</p></div>`;
 if (C) V.calendario = () => {
