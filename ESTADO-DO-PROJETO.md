@@ -1,6 +1,6 @@
 # Estado do projeto (para continuar de qualquer conta)
 
-Atualizado em 29/10/2026. Leia também o `CLAUDE.md` (regras de trabalho) e o agente Peter em `.claude/agents/peter.md` (regras de YouTube, retenção e monetização).
+Atualizado em 29/10/2026. Leia também o `REGISTRO-DAS-CONTAS.md` (quem fez o quê, com a conta de cada entrega), o `CLAUDE.md` (regras de trabalho) e o agente Peter em `.claude/agents/peter.md` (regras de YouTube, retenção e monetização).
 
 ## Apps e páginas publicadas (claude.ai)
 São privados da conta que criou. **Para abrir ou editar de outra conta, compartilhe pelo menu "Compartilhar" de cada página** (dê acesso de edição se a outra conta for publicar nela). Os endereços `/_blob/...` dos arquivos `ativos*.json` só funcionam dentro do app de origem.
