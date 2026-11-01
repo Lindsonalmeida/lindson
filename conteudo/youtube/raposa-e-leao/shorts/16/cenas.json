@@ -18,7 +18,7 @@
      "s": 120,
      "f": "ant",
      "c": "",
-     "w": "armadilha",
+     "w": "armadilha#1",
      "a": "slam",
      "box": "red"
     }
@@ -27,23 +27,33 @@
   },
   {
    "t": "duo",
-   "w": "Quem",
+   "w": "Quem#1",
    "dir": "v",
    "a": {
     "k": "Gasta tudo",
     "s": "para parecer generoso",
     "c": "#E2BE4A",
-    "w": "gasta",
+    "w": "gasta#1",
     "bar": "full"
    },
    "b": {
     "k": "Cobra mais",
     "s": "de quem está perto",
     "c": "#E0453C",
-    "w": "cobrar"
+    "w": "cobrar#1"
    },
    "meio": "ÓDIO",
-   "meioW": "ódio"
+   "meioW": "ódio#1"
+  },
+  {
+   "t": "conversa",
+   "w": "Conhece#1",
+   "img": "../img/hist/alexander_the_great.jpg",
+   "h": "Conhece alguém<br>assim?",
+   "interage": {
+    "tipo": "checkin",
+    "txt": "CONHEÇO"
+   }
   },
   {
    "t": "stack",
@@ -54,7 +64,7 @@
      "s": 110,
      "f": "ant",
      "c": "",
-     "w": "econômico"
+     "w": "econômico#1"
     },
     {
      "h": "má fama, sem ódio",
@@ -62,7 +72,7 @@
      "s": 90,
      "f": "cg",
      "c": "dim",
-     "w": "má"
+     "w": "má#1"
     },
     {
      "h": "Generosidade de<br>verdade cabe no<br>seu bolso",
@@ -70,14 +80,33 @@
      "s": 110,
      "f": "ant",
      "c": "gold",
-     "w": "generosidade"
+     "w": "Generosidade#1"
     }
    ],
-   "w": "Ele"
+   "w": "Ele#1"
+  },
+  {
+   "t": "conversa",
+   "w": "Generosidade#2",
+   "img": "../img/hist/florence.jpg",
+   "h": "Concorda?",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "RESPONDE NOS COMENTÁRIOS",
+    "digita": "CONCORDO"
+   }
   },
   {
    "t": "assinatura",
-   "apos": "bolso"
+   "apos": "aí#2",
+   "frase": "Generoso, sim. Falido, não.",
+   "interage": {
+    "tipo": "segue",
+    "txt": "NÃO PERCA A PRÓXIMA"
+   }
   }
- ]
+ ],
+ "abre": "flash",
+ "pulso": 1.1,
+ "batida": "espacado"
 }

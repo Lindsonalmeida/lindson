@@ -3,7 +3,8 @@ python3 app_rl.py -> scratchpad/raposa-app/index.html ; arquivos já enviados ao
 import json, os, re, glob
 D = os.path.dirname(os.path.abspath(__file__)); R = os.path.join(D, '..')
 OUT = '/tmp/claude-0/-home-user/5acf6937-9ac6-56e0-bc29-78bef210dc8b/scratchpad/raposa-app'; os.makedirs(OUT, exist_ok=True)
-AT = R + '/ativos.json'; ativos = json.load(open(AT)) if os.path.exists(AT) else {}
+AT = os.environ.get('ATIVOS', R + '/ativos.json');  # app único nesta conta: ATIVOS=../ativos-novo.json
+ativos = json.load(open(AT)) if os.path.exists(AT) else {}
 TPL = os.path.join(R, '..', 'passaporte', 'motor', 'app_pv.html')
 
 def publicar_md(f):

@@ -1,0 +1,73 @@
+# Mapa do repositório: o que já existe e onde
+
+Leia antes de criar qualquer coisa: se já existe aqui, continue a partir disso (regra do `CLAUDE.md`, "Trabalho em equipe"). Montado pela conta Lindson em 01/11/2026. Quem criar pasta, app ou processo novo acrescenta aqui.
+
+Branch principal: `claude/global-agent-installation-vdyowf`. Outros branches: `entregas-videos` (vídeos e capas prontos dos canais dark, para o app) e `claude/padrao-estrategia-completa` (antigo, primeiras versões da identidade do Leo Pinto; o conteúdo atual está no principal).
+
+## Arquivos da raiz
+| Arquivo | Para quê |
+|---|---|
+| `CLAUDE.md` | Regras de trabalho de todas as contas |
+| `QUADRO-DA-EQUIPE.md` | O que cada conta está fazendo agora e o que está livre |
+| `REGISTRO-DAS-CONTAS.md` | Tudo o que já foi entregue, por conta e data |
+| `ESTADO-DO-PROJETO.md` | Apps publicados, filas de vídeo e como retomar uma renderização |
+| `MINI-SITE.md`, `links/` | Mini site de links da bio do Lindson |
+| `README.md`, `instalar-xquads.*`, `instalar-builder-squad.*`, `ferramentas/` | Instaladores globais dos agentes Xquads e do Builder Squad |
+
+## Agência (`agencia/`)
+| Pasta / arquivo | O que tem |
+|---|---|
+| `ofertas/` | Esteira de produtos (5 degraus até R$ 3.500), oferta Instagram que Vende: 90 Dias, **produto master** (curso + mentoria para donos de negócio), dores e desejos do público (com versão negativa), pesquisa das autoridades do nicho |
+| `prospeccao/` | Padrão de copy (Conexão → Dor → Desejo → Pergunta), padrão de entrega, rotina da lista diária de leads |
+| `processos/` | Mini site de cliente, demo de mini site (vídeo de iPhone), modelo de contrato, modelo de estratégia completa (19 páginas), proposta curta (8 páginas) |
+| `app/` | Fontes dos apps **Recomeço 90** (`recomeco90.html`) e **Fábrica de Conteúdo** (`fabrica.html`) |
+| `clientes/` | Dra. Jaci Cunha (ficha, contrato, estratégia premium e manual de identidade), Leo Pinto (identidades v2 e v3, feed do Instagram aprovado v12, prompt do Claude Design), Katje Garcez (falas) |
+| `sistema-clientes/` | Central do Cliente: ideias, protótipo do login e do painel (modelo para novos clientes), painéis do Leo Pinto e da Dra. Jaci (`jaci-cunha/`), site publicável com login no servidor (`site/`, publicar num repositório privado) |
+| `indicacao/` | Banner do programa de indicação |
+| `identidade-oferta.md` | Identidade dos posts de oferta (estilo lançamento) |
+| `contratos/`, `propostas/` | Dados pessoais e de clientes: **fora do GitHub** (peça ao Lindson) |
+
+## Marca do Lindson (`branding/`)
+Brand book, componentes (Cover, LinkCard, StatStrip…), modelos e guia de Instagram (`instagram.md`).
+
+## Conteúdo (`conteudo/`)
+| Pasta / arquivo | O que tem |
+|---|---|
+| `esteira/` | **Esteira de Reels, Teste 01**: 300 roteiros de 30 s (3 formatos × 10 conteúdos × 10 ganchos), já no app Recomeço 90. Regras em `ROTINA.md`; gerador `montar.py` |
+| `formatos-que-engajam.md` | Os 10 formatos que mais engajam, com dados de 2026 |
+| `identidade-01/` | 4 carrosséis da identidade 01 |
+| `avaliacao-gratuita/` | Campanha Avaliação Gratuita (10 conteúdos) e o **modelo de legenda SEO** |
+| `reels/` | Reels de tráfego v1, v2 e v3 (motion design) e roteiros "5 erros" |
+| `top-x/` | Quadro Top X: pesquisa de virais e legendas |
+| `criativos-vendas/`, `ensaio-mini-site/`, `fotos/` | Criativos de venda, ensaio do mini site, registro de fotos |
+| `noticias/` | Perfil de notícias BOMBOU (identidade, padrão de foto, gerador de arte) |
+| `referencias/` | Engenharia reversa do Behance, ensinamentos de Maquiavel (248) |
+| `youtube/passaporte/` | Canal **Passaporte da Bíblia**: identidade, processo, pesquisas, roteiros, motor Pintura Viva (`motor/pintura.py`), capas (`motor/capas2.py` + `capas_v2.json`) |
+| `youtube/raposa-e-leao/` | Canal **Raposa e Leão** (Maquiavel): identidade, processo, 30 Shorts, longos, roteiros, acervo de imagens |
+| `youtube/comum/` | Voz humanizada |
+| `youtube/filas/` | Filas de renderização e instruções para refazer os longos |
+| `youtube/pesquisa/`, `youtube/biblia/` | Top 5 canais dark, referência do canal da Bíblia |
+
+## Agentes
+| Agente | Onde | Quando |
+|---|---|---|
+| Peter | `.claude/agents/peter.md` | Canal dark e monetização no YouTube |
+| Xquads (15 squads, 183 agentes) | instalados por `instalar-xquads.sh` | Oferta, copy, tráfego, marca etc. |
+
+## Apps publicados por conta
+Cada app é privado da conta que criou. Para editar de outra conta, peça ao dono para compartilhar com edição (entre organizações diferentes, nem assim dá para publicar).
+
+**Conta Lindson:** Recomeço 90 https://claude.ai/artifact/DQFTjzVzhH2ZaHtFQwXw5N · Fábrica de Conteúdo https://claude.ai/artifact/WxeZuhrzQutLDTJ36y6EVt · Downloads Lindson https://claude.ai/artifact/VLijrTZyfqg1D53UYrKM6w · Legendas Top X https://claude.ai/artifact/PHe4b5buViTfSGqQzBc2XT · Brand Book https://claude.ai/artifact/L1959UErxHBmmtqe7gwKBS · Design System https://claude.ai/artifact/G4tLQ1bQj4JWnLiFU615oU · Gerador de propostas https://claude.ai/artifact/UV4P5h6vJS1kxVgKnXP2rB
+
+**Conta Pedro:** Passaporte (app único) https://claude.ai/artifact/CT3Z4M3yrzGrqCt3nh95ak · Raposa e Leão (app único) https://claude.ai/artifact/2k4SSuvALdqXDcXnBQMVZH · Painel do Leo Pinto https://claude.ai/artifact/7TjjwEUN5jASCbytXAvhHk
+
+**Outros apps citados no `ESTADO-DO-PROJETO.md`** (Downloads Alkantara, SDR para Agências, Minhas 3 Prioridades, Contratos Alkantara, Postagens antigas do Passaporte e do Raposa, Central do cliente): dono não confirmado; não aparecem na lista de apps da conta Lindson.
+
+## Tarefas agendadas (conta Lindson)
+Todas desligadas desde 26/10 (as de 3 em 3 horas falharam por limite de uso do plano). Para religar, peça ao Lindson.
+| Nome | Quando | Situação |
+|---|---|---|
+| Lista diária de leads (100 com WhatsApp) | todo dia 6h26 (São Luís) | desligada desde 26/10; última rodada boa em 26/10 |
+| Captação por cidades | a cada 3 h | desligada desde 26/10 (falhou por limite de uso) |
+| Notícias BOMBOU | a cada 3 h | desligada desde 26/10 (falhou por limite de uso em 27/10) |
+| Roteiros diários de Reels | 5h41 | desligada de propósito (os 300 roteiros foram entregues de uma vez em 22/10) |

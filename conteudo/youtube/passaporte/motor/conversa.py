@@ -29,19 +29,10 @@ INS = {
  'short-18': [(5, '053', 'esq', 'Respira. Esse capítulo é pesado mesmo. Tá comigo até aqui? Escreve: tô junto. Agora vem a virada.', 'checkin', 'Escreve: tô junto')],
  'short-19': [(6, '053', 'in', 'E você? Qual é o vento que está tirando o seu foco agora? Escreve uma palavra só.', 'comenta', 'Qual é o seu vento?')],
  'short-20': [(5, '049', 'out', 'Qual desses salmos você precisa hoje? Escreve o número aqui, e lê ele ainda hoje.', 'comenta', 'Qual salmo você precisa hoje?')],
- 'longo-01': [(11, '053', 'esq', 'Primeira parada feita. Tá comigo até aqui? Se a ideia da biblioteca fez sentido pra você, escreve nos comentários: biblioteca. E bora pro mapa.', 'checkin', 'Escreve: biblioteca'),
-              (25, '063', 'out', 'Antes da grande história, me conta: em qual dessas regiões você mais lê hoje? Lei, Profetas, Evangelhos ou Cartas? Escreve aqui.', 'comenta', 'Qual região você mais lê?'),
-              (36, '092', 'in', 'Se até aqui esse vídeo já clareou alguma coisa pra você, segue o canal. Toda semana tem uma parada nova.', 'segue', 'Uma parada nova por semana'),
-              (48, '053', 'dir', 'Respira um pouco. Foi bastante coisa, né? Se bateu cansaço, tudo bem: salva o vídeo e volta depois. Se tá firme, vamos pra última parada.', 'salva', 'Cansou? Salva e volta depois')],
  'longo-02': [(18, '053', 'in', 'Primeira rota apresentada. Tá fazendo sentido até aqui? Se a Primeira Viagem é a sua cara, escreve: primeira. Mas espera as outras duas antes de decidir.', 'checkin', 'Escreve: primeira'),
               (24, '063', 'esq', 'Quem aqui já tentou ler na ordem das páginas e parou no meio? Levanta a mão nos comentários. Escreve: eu.', 'comenta', 'Já parou no meio? Escreve: eu'),
               (36, '092', 'out', 'Se você está gostando de ver a Bíblia como viagem, segue o canal. Toda semana a gente atravessa um trecho junto.', 'segue', 'Toda semana, um trecho juntos'),
               (44, '053', 'dir', 'Me conta uma coisa: você já largou a leitura por culpa? Escreve só: já larguei. Você não está sozinho nessa.', 'comenta', 'Já largou por culpa?')],
- 'longo-03': [(10, '053', 'out', 'Primeira parada vencida. Tá comigo? Se a promessa de Gênesis 3 ficou na sua cabeça, escreve: promessa. Ela vai voltar.', 'checkin', 'Escreve: promessa'),
-              (21, '063', 'in', 'Pausa pra você: de Abraão até Moisés, qual história você mais gosta? Escreve o nome aqui.', 'comenta', 'Qual história você mais gosta?'),
-              (37, '092', 'esq', 'Se essa viagem está clareando a Bíblia pra você, segue o canal agora, antes da parada mais importante. A próxima parada é Jesus.', 'segue', 'A próxima parada é Jesus'),
-              (45, '053', 'dir', 'Lembra da promessa lá do começo? Você acabou de ver ela se cumprir. Escreve nos comentários: cumprida. Quero ver quem chegou até aqui.', 'comenta', 'Escreve: cumprida'),
-              (53, '061', 'out', 'Conhece alguém que diz que não entende a Bíblia? Manda esse vídeo pra essa pessoa. Pode ser o começo da viagem dela.', 'manda', 'Manda pra quem diz que não entende')],
  'longo-04': [(8, '053', 'esq', 'Antes de começar: qual Evangelho você acha que é a sua cara? Chuta aqui nos comentários. No fim você confere.', 'comenta', 'Chuta: qual é o seu?'),
               (16, '063', 'out', 'Mateus fechado. Tá comigo até aqui? Escreve: rei. Agora vem o mais rápido dos quatro.', 'checkin', 'Escreve: rei'),
               (32, '092', 'in', 'Três Evangelhos vistos. Se está valendo a pena, segue o canal, que ainda vem a resposta do título.', 'segue', 'Ainda vem a resposta'),
@@ -62,7 +53,6 @@ MARCA = {
  'short-16': {7: ('manda', 'Manda pra quem está cansado', None)},
  'short-19': {7: ('salva', 'Salva pra lembrar amanhã', None)},
  'short-20': {6: ('salva', 'Salva pra quando precisar', None)},
- 'longo-01': {4: ('segue', 'Primeira viagem? Se inscreve', None), 55: ('comenta', 'Fez as 3 perguntas? Conta aqui', None)},
  'longo-02': {4: ('segue', 'Se inscreve antes de embarcar', None), 52: ('comenta', 'VOU EMBARCAR + sua rota', None)},
 }
 # gancho com pergunta aberta (fechada mais adiante no vídeo)
@@ -74,7 +64,9 @@ ABRE = {
 }
 
 d = json.load(open(ARQ))
+PROPRIOS = {os.path.basename(f)[:-5] for f in __import__('glob').glob(os.path.join(D, '..', 'roteiros', 'longo-*.json'))}  # já trazem a conversa
 for v in d:
+    if v['id'] in PROPRIOS: continue
     k = v['id']; cs = [c for c in v['cenas'] if not c.get('conv')]
     for c in cs:
         if 'txt0' in c: c['txt'] = c.pop('txt0')

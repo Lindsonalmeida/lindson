@@ -773,769 +773,6 @@
   ]
  },
  {
-  "id": "longo-01",
-  "formato": "longo",
-  "titulo": "Você lê a Bíblia e não entende nada? Comece por aqui (o mapa que ninguém te mostrou)",
-  "legenda": "Você abre a Bíblia, lê duas páginas e fecha sem entender nada? Calma: quase nunca o problema é você. É que ninguém te mostrou o mapa.\n\nNeste vídeo você vê a Bíblia em 8 regiões, a grande história em 6 capítulos e os 7 tipos de texto. E aprende 3 perguntas simples para saber onde está em qualquer página. Serve para católicos e evangélicos.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📖 Observação: os versículos aparecem em paráfrase curta, com a referência. Confira na sua tradução. A Bíblia evangélica tem 66 livros e a católica 73; o mapa vale para as duas.\n\n🎫 Quer uma rota pronta para começar? Baixe grátis a Rota da Primeira Viagem no link aqui na descrição, ou comente ROTA.\n\n#Bíblia #ComoLerABíblia #EstudoBíblico #PassaporteDaBíblia",
-  "comentario": "📌 Faça as 3 perguntas (região, capítulo da história, tipo de terreno) num capítulo hoje e comente CARIMBEI. E me conta: qual livro da Bíblia você mais quer entender?",
-  "titulo_tela": {
-   "sup": "PASSAPORTE DA BÍBLIA",
-   "txt": "A Bíblia tem um MAPA",
-   "dur": 3.2
-  },
-  "cenas": [
-   {
-    "gravura": "053",
-    "mov": "in",
-    "txt": "Você abre a Bíblia com vontade. Lê duas páginas. E fecha sem entender nada. Se isso já aconteceu com você, fica comigo até o fim, porque o problema quase nunca é você."
-   },
-   {
-    "gravura": "046",
-    "mov": "esq",
-    "txt": "O problema é outro. Te entregaram uma biblioteca inteira, com dezenas de livros, e ninguém te mostrou o mapa. É como desembarcar num país estranho sem saber nem em que cidade você está."
-   },
-   {
-    "gravura": "020",
-    "mov": "out",
-    "txt": "Hoje a gente faz essa viagem juntos. Primeiro, o mapa da Bíblia em 8 regiões. Depois, a história inteira em 6 capítulos. E por fim, os 7 tipos de texto, que explicam por que cada parte se lê de um jeito."
-   },
-   {
-    "gravura": "092",
-    "mov": "dir",
-    "txt": "E no final eu te mostro 3 perguntas simples. Com elas, você abre a Bíblia em qualquer página e sabe onde está. Guarda isso, porque é a parte mais importante do vídeo."
-   },
-   {
-    "gravura": "063",
-    "mov": "in",
-    "txt": "Antes de embarcar, um pedido rápido. Se essa é sua primeira viagem pela Bíblia, se inscreve no Passaporte da Bíblia. Aqui toda semana tem um pedaço da Bíblia explicado de um jeito simples, pra católico e pra evangélico.",
-    "cta": "<b>Inscreva-se</b> no Passaporte<br>e ative o sininho",
-    "selo": "SE<br>INSCREVA",
-    "interage": {
-     "tipo": "segue",
-     "txt": "Primeira viagem? Se inscreve"
-    }
-   },
-   {
-    "gravura": "061",
-    "mov": "cima",
-    "txt": "Primeira parada. A Bíblia não é um livro só. É uma biblioteca.",
-    "cap": {
-     "sup": "PRIMEIRA PARADA",
-     "txt": "A Bíblia é uma biblioteca"
-    }
-   },
-   {
-    "gravura": "043",
-    "mov": "out",
-    "txt": "Na Bíblia evangélica são 66 livros. Na católica, 73. Foram escritos ao longo de muitos séculos, por gente bem diferente: pastor, rei, pescador, médico, profeta. E em três línguas: hebraico, aramaico e grego."
-   },
-   {
-    "gravura": "017",
-    "mov": "in",
-    "txt": "Agora pensa comigo. Você entraria numa biblioteca e leria todos os livros na ordem da prateleira, sem saber o que cada um é? Pois é isso que muita gente tenta fazer com a Bíblia. E aí trava."
-   },
-   {
-    "gravura": "059",
-    "mov": "esq",
-    "txt": "E isso não é coisa de hoje. No livro de Atos, capítulo 8, tem um homem lendo o profeta Isaías dentro de uma carruagem. Filipe chega perto e pergunta: você entende o que está lendo?"
-   },
-   {
-    "gravura": "053",
-    "mov": "out",
-    "txt": "E a resposta dele é a resposta de muita gente hoje. Mais ou menos assim: como é que eu vou entender, se ninguém me explica? Ou seja, não entender sozinho não é falta de fé. É falta de guia."
-   },
-   {
-    "gravura": "046",
-    "mov": "dir",
-    "txt": "Na prática, faz isso hoje. Abre o índice da sua Bíblia, aquela lista de livros lá no começo. Conta quantos livros ela tem, 66 ou 73. E marca três pontos: Gênesis, o começo; Mateus, onde começa o Novo Testamento; e Apocalipse, o fim."
-   },
-   {
-    "gravura": "053",
-    "mov": "esq",
-    "txt": "Primeira parada feita. Tá comigo até aqui? Se a ideia da biblioteca fez sentido pra você, escreve nos comentários: biblioteca. E bora pro mapa.",
-    "interage": {
-     "tipo": "checkin",
-     "txt": "Escreve: biblioteca"
-    },
-    "conv": true
-   },
-   {
-    "gravura": "020",
-    "mov": "in",
-    "txt": "Segunda parada: o mapa. Imagina a Bíblia como um mapa-múndi, cheio de ilhas. Cada livro é uma ilha. E essas ilhas ficam agrupadas em 8 regiões.",
-    "cap": {
-     "sup": "SEGUNDA PARADA",
-     "txt": "O mapa em 8 regiões"
-    }
-   },
-   {
-    "gravura": "024",
-    "mov": "cima",
-    "txt": "Saber a região muda tudo. Cada região tem um clima, um jeito, uma paisagem. Vamos passar por elas bem rápido, como quem olha o mapa antes de sair de casa."
-   },
-   {
-    "gravura": "022",
-    "mov": "out",
-    "txt": "Região 1: a Lei. São os 5 primeiros livros, de Gênesis a Deuteronômio. Aqui está o começo de tudo: a criação, Abraão, a saída do Egito e as regras de vida que Deus deu ao povo de Israel."
-   },
-   {
-    "gravura": "001",
-    "mov": "in",
-    "txt": "O primeiro destino é Gênesis. Em uma frase: Deus cria tudo, o ser humano estraga, e Deus começa a consertar escolhendo uma família. Guarda essa frase, porque ela volta daqui a pouco."
-   },
-   {
-    "gravura": "019",
-    "mov": "esq",
-    "txt": "Região 2: os livros Históricos. São 12 na Bíblia evangélica, de Josué a Ester. É a novela de Israel: a entrada na terra, os juízes, os reis, a queda e a volta do exílio."
-   },
-   {
-    "gravura": "035",
-    "mov": "out",
-    "txt": "Região 3: os Poéticos. Jó, Salmos, Provérbios, Eclesiastes e Cantares. Aqui ninguém está contando história em ordem. São orações, canções e conselhos."
-   },
-   {
-    "gravura": "047",
-    "mov": "dir",
-    "txt": "Regiões 4 e 5: os Profetas. Os Maiores são 5, de Isaías a Daniel, e os Menores são 12, de Oseias a Malaquias. E atenção: maior e menor aqui é pelo tamanho do livro. Não tem nada a ver com importância."
-   },
-   {
-    "gravura": "063",
-    "mov": "in",
-    "txt": "Região 6: os Evangelhos e Atos. Mateus, Marcos, Lucas e João contam a vida de Jesus. E Atos mostra o que aconteceu depois: a igreja nascendo e a mensagem saindo pelo mundo."
-   },
-   {
-    "gravura": "097",
-    "mov": "cima",
-    "txt": "Região 7: as Cartas. São 21, de Romanos a Judas. Paulo, Pedro, Tiago, João e outros escrevendo para igrejas e para pessoas de verdade, com problemas de verdade."
-   },
-   {
-    "gravura": "099",
-    "mov": "out",
-    "txt": "E a região 8 tem uma ilha só: Apocalipse. São visões cheias de símbolos, escritas para uma igreja que sofria. O recado central é simples: Jesus vence, e Deus faz novas todas as coisas."
-   },
-   {
-    "gravura": "018",
-    "mov": "in",
-    "txt": "E a Bíblia católica? Os livros a mais, como Tobias, Judite, Sabedoria e os Macabeus, entram nessas mesmas regiões. Ou seja, o mapa serve pra todo mundo. Muda o número de ilhas, não o desenho do mapa."
-   },
-   {
-    "gravura": "046",
-    "mov": "esq",
-    "txt": "Na prática: pensa num livro que você já ouviu falar. Pode ser Salmos, pode ser Jonas. Descobre em qual das 8 regiões ele mora e escreve o nome da região, a lápis, na primeira página dele."
-   },
-   {
-    "gravura": "053",
-    "mov": "out",
-    "txt": "Agora vem a virada. Muita gente para no mapa e acha que já entendeu. Mas mapa sem história é só geografia. Você sabe onde as coisas estão, mas não sabe pra onde a viagem vai."
-   },
-   {
-    "gravura": "092",
-    "mov": "dir",
-    "txt": "Porque a Bíblia não é uma pilha de livros soltos. Ela conta uma história só, do começo ao fim. E quando você enxerga essa história, até as partes difíceis começam a fazer sentido."
-   },
-   {
-    "gravura": "063",
-    "mov": "out",
-    "txt": "Antes da grande história, me conta: em qual dessas regiões você mais lê hoje? Lei, Profetas, Evangelhos ou Cartas? Escreve aqui.",
-    "interage": {
-     "tipo": "comenta",
-     "txt": "Qual região você mais lê?"
-    },
-    "conv": true
-   },
-   {
-    "gravura": "020",
-    "mov": "in",
-    "txt": "Terceira parada: a grande história. Dá pra contar a Bíblia inteira em 6 capítulos. Vou te mostrar um por um, bem devagar.",
-    "cap": {
-     "sup": "TERCEIRA PARADA",
-     "txt": "A grande história em 6 capítulos"
-    }
-   },
-   {
-    "gravura": "020",
-    "mov": "cima",
-    "txt": "Capítulo 1: Criação. Deus cria tudo, e tudo é bom. O ser humano é criado para viver perto dele e cuidar do mundo."
-   },
-   {
-    "gravura": "001",
-    "mov": "out",
-    "txt": "Capítulo 2: Queda. O ser humano desobedece, e o mundo se quebra. Aparecem a culpa, a vergonha e a morte. E desde então a gente vive nesse mundo rachado."
-   },
-   {
-    "gravura": "011",
-    "mov": "in",
-    "txt": "Capítulo 3: Promessa e povo. Deus não desiste. Ele chama Abraão e promete que, por meio da família dele, todas as famílias da terra seriam abençoadas. Daí nasce Israel, e o Antigo Testamento conta essa caminhada."
-   },
-   {
-    "gravura": "088",
-    "mov": "esq",
-    "txt": "Capítulo 4: Jesus. A promessa chega. Jesus vive, ensina, morre na cruz e ressuscita para nos salvar. É o centro da viagem inteira."
-   },
-   {
-    "gravura": "095",
-    "mov": "out",
-    "txt": "Capítulo 5: Igreja. O Espírito Santo vem, forma a igreja, e a boa notícia sai de Jerusalém para o mundo. É aqui que eu e você entramos na história."
-   },
-   {
-    "gravura": "093",
-    "mov": "dir",
-    "txt": "Capítulo 6: Tudo novo. No fim, Deus faz novo céu e nova terra. Apocalipse 21 diz, em outras palavras, que ele vai enxugar toda lágrima, e não vai ter mais morte, nem choro, nem dor.",
-    "verso": "Deus enxugará toda lágrima.",
-    "ref": "APOCALIPSE 21.4"
-   },
-   {
-    "gravura": "091",
-    "mov": "in",
-    "txt": "Repete comigo: Criação, Queda, Promessa e povo, Jesus, Igreja, Tudo novo. Seis palavras. Se você guardar só isso deste vídeo, já vai ler a Bíblia diferente."
-   },
-   {
-    "gravura": "092",
-    "mov": "cima",
-    "txt": "Sabe quem leu as Escrituras desse jeito? O próprio Jesus. Em Lucas 24, dois discípulos andam tristes no caminho de Emaús. E Jesus, começando por Moisés e passando pelos profetas, explica a eles o que as Escrituras diziam sobre ele.",
-    "verso": "Explicou o que as Escrituras diziam sobre ele.",
-    "ref": "LUCAS 24.27"
-   },
-   {
-    "gravura": "057",
-    "mov": "out",
-    "txt": "Ou seja, até as páginas mais antigas fazem parte da mesma viagem. O Antigo Testamento não é outro assunto. É o caminho que leva até a promessa."
-   },
-   {
-    "gravura": "065",
-    "mov": "in",
-    "txt": "Na prática: abre qualquer livro e pergunta em qual dos 6 capítulos da história você está. Por exemplo, Marcos fica em Jesus, e Romanos fica em Igreja. Anota num papel e deixa dentro da Bíblia, como marcador."
-   },
-   {
-    "gravura": "092",
-    "mov": "in",
-    "txt": "Se até aqui esse vídeo já clareou alguma coisa pra você, segue o canal. Toda semana tem uma parada nova.",
-    "interage": {
-     "tipo": "segue",
-     "txt": "Uma parada nova por semana"
-    },
-    "conv": true
-   },
-   {
-    "gravura": "024",
-    "mov": "esq",
-    "txt": "Quarta parada, e essa resolve muita confusão. A Bíblia tem 7 tipos de texto. Eu chamo de 7 tipos de terreno. E cada terreno se anda de um jeito.",
-    "cap": {
-     "sup": "QUARTA PARADA",
-     "txt": "Os 7 tipos de texto"
-    }
-   },
-   {
-    "gravura": "059",
-    "mov": "out",
-    "txt": "Pensa assim: você não anda na praia do mesmo jeito que sobe uma montanha. Com a Bíblia é igual. Quem lê poesia como se fosse manual, ou carta como se fosse novela, se perde."
-   },
-   {
-    "gravura": "022",
-    "mov": "dir",
-    "txt": "Terreno 1: Lei. São regras de vida para o povo de Israel. Não leia só como uma lista de regras. Pergunte: o que essa regra mostra sobre Deus?"
-   },
-   {
-    "gravura": "031",
-    "mov": "in",
-    "txt": "Terreno 2: História. São fatos contados em ordem. Leia como uma novela: quem está na cena, onde está e o que aconteceu. E lembre que nem tudo que um personagem fez é exemplo pra copiar."
-   },
-   {
-    "gravura": "035",
-    "mov": "cima",
-    "txt": "Terreno 3: Poesia. Orações, canções e sabedoria, como Salmos e Provérbios. Leia devagar e sinta. E um detalhe: provérbio é regra geral, não promessa garantida."
-   },
-   {
-    "gravura": "047",
-    "mov": "out",
-    "txt": "Terreno 4: Profecia. É Deus falando ao povo por meio do profeta. Antes de tudo, descubra a quem ele falava e em que época. Isso já clareia muita coisa."
-   },
-   {
-    "gravura": "062",
-    "mov": "in",
-    "txt": "Terreno 5: Evangelho. É a vida de Jesus. Repare no que ele faz e, principalmente, no que ele pergunta. As perguntas de Jesus também são pra você."
-   },
-   {
-    "gravura": "097",
-    "mov": "esq",
-    "txt": "Terreno 6: Carta. São mensagens para igrejas e pessoas reais. Leia de uma vez, como você leria a carta de alguém querido. Filipenses, por exemplo, tem só 4 capítulos."
-   },
-   {
-    "gravura": "099",
-    "mov": "out",
-    "txt": "Terreno 7: Apocalíptico. Visões com símbolos, números e imagens fortes. Não precisa decifrar cada detalhe, e existem leituras diferentes deles. Mas os símbolos apontam para uma ideia: Deus vence no fim."
-   },
-   {
-    "gravura": "096",
-    "mov": "dir",
-    "txt": "Quer ver como o terreno muda tudo? Filipenses 4.13 diz, em outras palavras: posso enfrentar todas as situações com a força que Cristo me dá. Muita gente usa como promessa de conseguir tudo o que quer. Mas é carta, então lê o parágrafo inteiro.",
-    "verso": "Posso todas as coisas naquele que me fortalece.",
-    "ref": "FILIPENSES 4.13"
-   },
-   {
-    "gravura": "098",
-    "mov": "in",
-    "txt": "Nos versos de antes, Paulo diz que aprendeu a viver com pouco e com muito. E ele estava preso quando escreveu. Então o versículo fala de paz em qualquer situação, não de vencer tudo o que eu quiser."
-   },
-   {
-    "gravura": "046",
-    "mov": "cima",
-    "txt": "Na prática: escolhe um capítulo pra ler hoje. Antes de ler, descobre o tipo de terreno. Depois lê usando a dica daquele terreno, e repara como fica mais leve."
-   },
-   {
-    "gravura": "053",
-    "mov": "dir",
-    "txt": "Respira um pouco. Foi bastante coisa, né? Se bateu cansaço, tudo bem: salva o vídeo e volta depois. Se tá firme, vamos pra última parada.",
-    "interage": {
-     "tipo": "salva",
-     "txt": "Cansou? Salva e volta depois"
-    },
-    "conv": true
-   },
-   {
-    "gravura": "053",
-    "mov": "out",
-    "txt": "Última parada. Lembra que eu prometi 3 perguntas lá no começo? Agora elas fazem sentido, porque juntam o mapa, a história e o terreno.",
-    "cap": {
-     "sup": "ÚLTIMA PARADA",
-     "txt": "As 3 perguntas do viajante"
-    }
-   },
-   {
-    "gravura": "061",
-    "mov": "in",
-    "txt": "Antes de ler qualquer página, pergunta: em que região eu estou, em que capítulo da grande história e que tipo de terreno é esse. Três perguntas. Menos de um minuto."
-   },
-   {
-    "gravura": "018",
-    "mov": "esq",
-    "txt": "Vamos testar no lugar onde muita gente trava: Levítico. Região: Lei. Capítulo da história: Promessa e povo. Terreno: Lei, então a pergunta é o que cada regra mostra sobre Deus."
-   },
-   {
-    "gravura": "017",
-    "mov": "out",
-    "txt": "Em uma frase, Levítico ensina como um povo imperfeito pode chegar perto de um Deus santo. Se travar, começa pelos capítulos 16 e 19, que são o coração do livro. No 19 está aquele versículo famoso: ame o seu próximo como a si mesmo."
-   },
-   {
-    "gravura": "044",
-    "mov": "dir",
-    "txt": "Percebe? O texto não mudou. O que mudou foi você chegar sabendo onde está. Não era falta de fé, era falta de mapa."
-   },
-   {
-    "gravura": "091",
-    "mov": "in",
-    "txt": "E isso combina com a própria Bíblia. No Salmo 119, versículo 130, o salmista diz, em outras palavras, que a explicação da Palavra traz luz e dá entendimento aos simples. A Bíblia foi feita pra gente simples entender.",
-    "verso": "A explicação das tuas palavras ilumina.",
-    "ref": "SALMO 119.130"
-   },
-   {
-    "gravura": "046",
-    "mov": "cima",
-    "txt": "Na prática: escolhe o capítulo de amanhã. Antes de ler, faz as 3 perguntas. E anota as respostas na margem, a lápis, pra ver o mapa crescendo na sua Bíblia."
-   },
-   {
-    "gravura": "063",
-    "mov": "out",
-    "txt": "Agora é com você. Hoje, faz as 3 perguntas num capítulo qualquer. Quando fizer, comenta aqui embaixo: CARIMBEI. Quero ver esse mural cheio de carimbos.",
-    "cta": "Comenta: <b>CARIMBEI</b>",
-    "selo": "CARIMBE<br>AQUI",
-    "interage": {
-     "tipo": "comenta",
-     "txt": "Fez as 3 perguntas? Conta aqui"
-    }
-   },
-   {
-    "gravura": "092",
-    "mov": "in",
-    "txt": "E se você quer uma rota pronta pra começar, eu preparei a Rota da Primeira Viagem, de graça. É só comentar ROTA ou pegar no link da descrição.",
-    "cta": "Comenta <b>ROTA</b><br>e receba a rota grátis"
-   },
-   {
-    "gravura": "020",
-    "mov": "esq",
-    "txt": "Resumindo a viagem de hoje. A Bíblia é uma biblioteca, com 8 regiões no mapa. Ela conta uma história só, em 6 capítulos. Tem 7 tipos de terreno, e 3 perguntas te dizem onde você está."
-   },
-   {
-    "gravura": "093",
-    "mov": "out",
-    "txt": "No próximo vídeo, eu te mostro 3 rotas pra começar a ler, e você escolhe a sua. Até a próxima parada, viajante da Palavra.",
-    "cta": "Até a próxima <b>parada</b>,<br>viajante",
-    "selo": "PASSA<br>PORTE"
-   }
-  ]
- },
- {
-  "id": "longo-02",
-  "formato": "longo",
-  "titulo": "Por onde começar a ler a Bíblia se você nunca leu (3 rotas, escolha a sua)",
-  "legenda": "Começou a Bíblia pela página 1 e travou em Levítico? Não é falta de fé, é falta de rota.\n\nNeste vídeo você conhece 3 rotas: a Rota da Primeira Viagem (Marcos, João, Lucas, Atos, Gênesis, Salmos, Provérbios, Romanos, Tiago e Filipenses), a Rota Clássica e a Rota da História. E aprende a ler sem culpa e a atravessar os trechos que mais travam.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📖 Observação: versículos em paráfrase curta, com a referência; confira na sua tradução. A conta de 1.189 capítulos é da edição evangélica (66 livros). A ordem cronológica varia entre estudiosos.\n\n🎫 Escolheu a Primeira Viagem? A Rota da Primeira Viagem é grátis: link na descrição ou comente ROTA.\n\n#LeituraBíblica #BíbliaParaIniciantes #PlanoDeLeitura #FéCristã",
-  "comentario": "📌 Qual rota você escolheu: Primeira Viagem, Clássica ou História? Comente VOU EMBARCAR + o nome da rota. Quando ler o 1º capítulo, volte e comente CARIMBEI.",
-  "titulo_tela": {
-   "sup": "PASSAPORTE DA BÍBLIA",
-   "txt": "3 rotas pra começar",
-   "dur": 3.2
-  },
-  "cenas": [
-   {
-    "gravura": "053",
-    "mov": "in",
-    "txt": "Quase todo mundo começa a Bíblia pelo lugar mais lógico: a página 1. E é justamente ali que muita gente trava, logo no terceiro livro. Não é falta de fé. É falta de rota."
-   },
-   {
-    "gravura": "018",
-    "mov": "esq",
-    "txt": "O terceiro livro é Levítico. Regras de sacrifício, de puro e impuro, de festas. Pra quem nunca leu nada da Bíblia, é como começar a viagem pela parte mais difícil da trilha."
-   },
-   {
-    "gravura": "068",
-    "mov": "out",
-    "txt": "Levítico é Palavra de Deus, e tem coisa linda ali. O problema é a ordem. Ninguém aprende a nadar no meio do mar."
-   },
-   {
-    "gravura": "020",
-    "mov": "dir",
-    "txt": "Hoje eu te mostro 3 rotas pra ler a Bíblia, cada uma pra um tipo de viajante. Também te mostro como ler sem culpa quando você atrasar. E no fim, os trechos onde muita gente trava, com o jeito de atravessar cada um."
-   },
-   {
-    "gravura": "063",
-    "mov": "in",
-    "txt": "Antes de escolher sua rota, um pedido. Se inscreve no Passaporte da Bíblia. Aqui a gente explica a Bíblia de um jeito simples, pra católico e evangélico, uma parada de cada vez.",
-    "cta": "<b>Inscreva-se</b> no Passaporte<br>e ative o sininho",
-    "selo": "SE<br>INSCREVA",
-    "interage": {
-     "tipo": "segue",
-     "txt": "Se inscreve antes de embarcar"
-    }
-   },
-   {
-    "gravura": "092",
-    "mov": "cima",
-    "txt": "Rota 1: a Rota da Primeira Viagem. É pra quem nunca leu, ou pra quem já tentou e travou. Ela começa por Jesus.",
-    "cap": {
-     "sup": "PARA QUEM NUNCA LEU",
-     "txt": "Rota da Primeira Viagem"
-    }
-   },
-   {
-    "gravura": "046",
-    "mov": "out",
-    "txt": "São 10 livros, nesta ordem: Marcos, João, Lucas, Atos, Gênesis, Salmos, Provérbios, Romanos, Tiago e Filipenses. Parece uma ordem aleatória, mas cada parada tem um motivo. Olha só."
-   },
-   {
-    "gravura": "065",
-    "mov": "in",
-    "txt": "Primeira parada: Marcos. É o Evangelho mais curto e mais rápido, com 16 capítulos. Jesus age, serve e dá a vida por nós. É o melhor jeito de começar: direto no centro da história."
-   },
-   {
-    "gravura": "078",
-    "mov": "esq",
-    "txt": "Segunda parada: João. Esse Evangelho diz que foi escrito pra você crer que Jesus é o Filho de Deus e ter vida nele. Repara em cada vez que Jesus diz eu sou: o pão, a luz, a porta, o pastor, o caminho.",
-    "verso": "Para que vocês creiam que Jesus é o Filho de Deus.",
-    "ref": "JOÃO 20.31"
-   },
-   {
-    "gravura": "073",
-    "mov": "out",
-    "txt": "Terceira parada: Lucas. É um relato organizado da vida de Jesus, que vai atrás dos perdidos, dos pobres e dos esquecidos. É aqui que estão o bom samaritano e o filho pródigo."
-   },
-   {
-    "gravura": "093",
-    "mov": "dir",
-    "txt": "Quarta parada: Atos. Jesus sobe ao céu, o Espírito Santo vem e a boa notícia sai de Jerusalém para o mundo. Atos continua a história de Lucas, e a tradição diz que os dois têm o mesmo autor."
-   },
-   {
-    "gravura": "001",
-    "mov": "in",
-    "txt": "Só agora a rota volta pro começo: Gênesis. E por que só agora? Porque, conhecendo Jesus, você lê a criação, Abraão e José sabendo aonde aquela promessa vai chegar."
-   },
-   {
-    "gravura": "035",
-    "mov": "cima",
-    "txt": "Sexta parada: Salmos. São 150 orações e canções para todo tipo de dia: alegria, medo, raiva, culpa e gratidão. A dica é ler um salmo por dia, sem pressa."
-   },
-   {
-    "gravura": "037",
-    "mov": "out",
-    "txt": "Sétima parada: Provérbios. São conselhos curtos de pai pra filho sobre dinheiro, palavras, trabalho, amizade e família. Tem 31 capítulos, e muita gente lê um por dia ao longo do mês."
-   },
-   {
-    "gravura": "095",
-    "mov": "in",
-    "txt": "Oitava parada: Romanos. Paulo explica que todo mundo falhou, mas Deus salva de graça quem confia em Jesus. É a carta que organiza muito do que você viu nos Evangelhos."
-   },
-   {
-    "gravura": "062",
-    "mov": "esq",
-    "txt": "Nona parada: Tiago. Fé de verdade aparece na prática: no jeito de falar, de tratar o outro e de passar pela prova. Tiago diz, em resumo: não fique só ouvindo a Palavra, coloque em prática."
-   },
-   {
-    "gravura": "096",
-    "mov": "out",
-    "txt": "E a última parada: Filipenses. É uma carta de alegria, escrita na prisão. Só 4 capítulos, pra você terminar a primeira viagem com paz."
-   },
-   {
-    "gravura": "046",
-    "mov": "dir",
-    "txt": "Na prática: se essa é sua rota, abre hoje em Marcos 1. Lê um ou dois capítulos, não mais que isso. E marca um X no capítulo lido, sem anotar data nenhuma."
-   },
-   {
-    "gravura": "053",
-    "mov": "in",
-    "txt": "Primeira rota apresentada. Tá fazendo sentido até aqui? Se a Primeira Viagem é a sua cara, escreve: primeira. Mas espera as outras duas antes de decidir.",
-    "interage": {
-     "tipo": "checkin",
-     "txt": "Escreve: primeira"
-    },
-    "conv": true
-   },
-   {
-    "gravura": "020",
-    "mov": "in",
-    "txt": "Rota 2: a Rota Clássica. É a Bíblia na ordem das páginas, de Gênesis a Apocalipse. É pra quem quer ler tudo, do começo ao fim.",
-    "cap": {
-     "sup": "DE GÊNESIS A APOCALIPSE",
-     "txt": "Rota Clássica"
-    }
-   },
-   {
-    "gravura": "059",
-    "mov": "cima",
-    "txt": "Ela tem uma vantagem enorme: você não pula nada e vê a Bíblia inteira passar pela janela, como numa viagem de trem. Muita gente faz essa rota em um ano. Mas vamos fazer a conta com calma."
-   },
-   {
-    "gravura": "061",
-    "mov": "out",
-    "txt": "Na Bíblia evangélica são 1.189 capítulos. Dividindo por 365 dias, dá entre 3 e 4 capítulos por dia pra ler tudo em um ano. Na edição católica são mais livros, então a conta sobe um pouco."
-   },
-   {
-    "gravura": "053",
-    "mov": "in",
-    "txt": "E se você ler menos que isso? Ainda é viagem. Um ano é uma meta, não uma regra da Bíblia."
-   },
-   {
-    "gravura": "018",
-    "mov": "esq",
-    "txt": "O ponto fraco da Rota Clássica é que as partes difíceis chegam cedo. Levítico é o terceiro livro. Números tem contagens longas. E 1 Crônicas abre com 9 capítulos de nomes."
-   },
-   {
-    "gravura": "035",
-    "mov": "out",
-    "txt": "Na prática, pra não travar: lê o capítulo do dia e, junto, um salmo. Quando chegar num trecho pesado, lê a dica de travessia antes. E se atrasar, volta de onde parou, nunca pro dia 1."
-   },
-   {
-    "gravura": "063",
-    "mov": "esq",
-    "txt": "Quem aqui já tentou ler na ordem das páginas e parou no meio? Levanta a mão nos comentários. Escreve: eu.",
-    "interage": {
-     "tipo": "comenta",
-     "txt": "Já parou no meio? Escreve: eu"
-    },
-    "conv": true
-   },
-   {
-    "gravura": "024",
-    "mov": "dir",
-    "txt": "Rota 3: a Rota da História. Aqui os livros vão na ordem em que os fatos acontecem, não na ordem das páginas. É pra quem quer entender a sequência.",
-    "cap": {
-     "sup": "NA ORDEM DOS FATOS",
-     "txt": "Rota da História"
-    }
-   },
-   {
-    "gravura": "017",
-    "mov": "in",
-    "txt": "Pouca gente sabe disso: a Bíblia não está organizada por data. Ela está organizada por tipo de livro. Por isso os profetas aparecem todos juntos, depois dos reis, mesmo tendo vivido no meio daquela história."
-   },
-   {
-    "gravura": "045",
-    "mov": "cima",
-    "txt": "Um exemplo. Em 2 Reis, você lê sobre o rei Ezequias e a ameaça da Assíria. E o profeta Isaías aparece ali mesmo, no meio dessa história."
-   },
-   {
-    "gravura": "047",
-    "mov": "out",
-    "txt": "Na Rota da História, você lê Isaías perto dessa época, e não lá na frente. De repente, as palavras do profeta ganham cenário. Você sabe quem está com medo, e por quê."
-   },
-   {
-    "gravura": "031",
-    "mov": "in",
-    "txt": "Outro exemplo: alguns salmos têm títulos que ligam a oração a momentos da vida de Davi. Na Rota da História, você lê esses salmos perto da história dele, em 1 e 2 Samuel. É como ver a foto e ouvir a música ao mesmo tempo."
-   },
-   {
-    "gravura": "097",
-    "mov": "esq",
-    "txt": "No Novo Testamento, as cartas de Paulo entram no meio de Atos, perto das viagens em que ele visitou aquelas igrejas. Filipenses, por exemplo, foi escrita para uma igreja que nasce em Atos 16."
-   },
-   {
-    "gravura": "046",
-    "mov": "out",
-    "txt": "Um aviso honesto: a ordem exata varia entre estudiosos, e muitas datas são aproximadas. Por isso existem planos cronológicos um pouco diferentes entre si. Escolhe um e segue em paz."
-   },
-   {
-    "gravura": "061",
-    "mov": "dir",
-    "txt": "Na prática: se essa é sua rota, escolhe um plano cronológico, no aplicativo ou impresso. Antes de cada livro, lê a introdução da sua Bíblia de estudo, se você tiver uma. E anota numa folha em que época da história você está."
-   },
-   {
-    "gravura": "092",
-    "mov": "in",
-    "txt": "Então, qual é a sua? Se nunca leu ou já travou, vai de Primeira Viagem. Se quer ler tudo, Clássica, e se quer entender a sequência, História."
-   },
-   {
-    "gravura": "053",
-    "mov": "cima",
-    "txt": "E não existe rota mais santa que a outra. A melhor rota é a que você consegue continuar."
-   },
-   {
-    "gravura": "044",
-    "mov": "out",
-    "txt": "Agora presta atenção, porque aqui está a virada. Muita gente não para de ler por causa da rota. Para por causa da culpa."
-   },
-   {
-    "gravura": "084",
-    "mov": "in",
-    "txt": "Funciona assim. Você começa animado em janeiro. Atrasa três dias, o plano fica cobrando, você se sente o pior cristão do mundo e fecha a Bíblia até o ano que vem."
-   },
-   {
-    "gravura": "092",
-    "mov": "out",
-    "txt": "Se você está gostando de ver a Bíblia como viagem, segue o canal. Toda semana a gente atravessa um trecho junto.",
-    "interage": {
-     "tipo": "segue",
-     "txt": "Toda semana, um trecho juntos"
-    },
-    "conv": true
-   },
-   {
-    "gravura": "020",
-    "mov": "esq",
-    "txt": "Por isso, antes de embarcar, você precisa de algumas regras de viagem. Eu chamo de regras do viajante sem culpa. São simples, mas mudam tudo.",
-    "cap": {
-     "sup": "REGRAS DO VIAJANTE",
-     "txt": "Como ler sem culpa"
-    }
-   },
-   {
-    "gravura": "059",
-    "mov": "out",
-    "txt": "Regra 1: passaporte não vence. Sua leitura não tem data de validade. Se você levar dois anos pra ler, ainda é a Bíblia inteira."
-   },
-   {
-    "gravura": "092",
-    "mov": "dir",
-    "txt": "Regra 2: atrasou? Volte de onde parou, nunca para o dia 1. Ninguém que perde o ônibus volta pra casa e começa a viagem de novo. Pega o próximo e segue."
-   },
-   {
-    "gravura": "035",
-    "mov": "in",
-    "txt": "Regra 3: um capítulo também é viagem. Num dia corrido, ler um salmo curto já é andar. Constância vale mais que volume."
-   },
-   {
-    "gravura": "053",
-    "mov": "cima",
-    "txt": "Regra 4: não entendeu um trecho? Siga em frente e volte depois. Nem todo texto abre na primeira leitura, e tudo bem."
-   },
-   {
-    "gravura": "028",
-    "mov": "out",
-    "txt": "Regra 5: ler com alguém é mais leve. Chama um amigo, o marido, a esposa, alguém da igreja ou do grupo de oração. Quando um cansa, o outro puxa."
-   },
-   {
-    "gravura": "091",
-    "mov": "in",
-    "txt": "A Bíblia não é uma prova que você pode reprovar. É um lugar de encontro. E você pode voltar hoje, do ponto onde parou."
-   },
-   {
-    "gravura": "046",
-    "mov": "esq",
-    "txt": "Na prática: se você tem um plano atrasado, risca as datas dele. Marca o ponto onde você parou. E lê um capítulo hoje, só um, a partir dali."
-   },
-   {
-    "gravura": "053",
-    "mov": "dir",
-    "txt": "Me conta uma coisa: você já largou a leitura por culpa? Escreve só: já larguei. Você não está sozinho nessa.",
-    "interage": {
-     "tipo": "comenta",
-     "txt": "Já largou por culpa?"
-    },
-    "conv": true
-   },
-   {
-    "gravura": "068",
-    "mov": "out",
-    "txt": "Último bloco: os trechos onde muita gente trava. Eu chamo de travessias. Quando você sabe que elas existem, elas assustam bem menos.",
-    "cap": {
-     "sup": "E COMO ATRAVESSAR",
-     "txt": "Os trechos que travam"
-    }
-   },
-   {
-    "gravura": "018",
-    "mov": "dir",
-    "txt": "Travessia 1: Levítico. Em cada regra, pergunte o que ela mostra sobre Deus. E comece pelos capítulos 16 e 19: o Dia do Perdão e o viver santo no dia a dia."
-   },
-   {
-    "gravura": "013",
-    "mov": "in",
-    "txt": "Travessia 2: as listas de nomes. Os 9 primeiros capítulos de 1 Crônicas são só nomes. Passa os olhos, para em Jabez, no capítulo 4, e começa a ler de verdade no capítulo 10."
-   },
-   {
-    "gravura": "057",
-    "mov": "cima",
-    "txt": "Até o Novo Testamento abre com uma lista: Mateus 1. Não trava ali. Ela mostra que Jesus vem da família de Abraão e de Davi, ou seja, a promessa chegou."
-   },
-   {
-    "gravura": "020",
-    "mov": "out",
-    "txt": "Travessia 3: Números. As contagens do povo são longas. Passa rápido e para nas histórias, como os 12 espiões, nos capítulos 13 e 14, e Balaão e a jumenta, a partir do 22."
-   },
-   {
-    "gravura": "099",
-    "mov": "in",
-    "txt": "Travessia 4: Apocalipse. Símbolos, números e monstros assustam, e existem leituras bem diferentes deles. Lê antes os capítulos 1 a 5 e 21 e 22. Em todas as leituras, o centro é o mesmo: o Cordeiro vence."
-   },
-   {
-    "gravura": "097",
-    "mov": "esq",
-    "txt": "Travessia 5: Romanos 9 a 11, que fala da escolha de Deus e do futuro de Israel. É difícil, e há leituras diferentes. Lê até o fim do capítulo 11, que termina em louvor."
-   },
-   {
-    "gravura": "024",
-    "mov": "out",
-    "txt": "Na prática: olha qual dessas travessias aparece na sua rota. Lê a dica antes de chegar lá. E atravessa devagar, sem culpa, porque trecho difícil não é sinal de que você é fraco."
-   },
-   {
-    "gravura": "063",
-    "mov": "dir",
-    "txt": "Agora, o seu compromisso. Escolhe sua rota e escreve aqui nos comentários: VOU EMBARCAR, e o nome da rota. Quando ler o primeiro capítulo, volta e comenta CARIMBEI.",
-    "cta": "Comenta: <b>VOU EMBARCAR</b>",
-    "selo": "CARIMBE<br>AQUI",
-    "interage": {
-     "tipo": "comenta",
-     "txt": "VOU EMBARCAR + sua rota"
-    }
-   },
-   {
-    "gravura": "092",
-    "mov": "in",
-    "txt": "Se você escolheu a Primeira Viagem, eu preparei um material grátis com os 4 Evangelhos explicados e um plano de 7 dias com Marcos, sem datas. Comenta ROTA ou pega no link da descrição.",
-    "cta": "Comenta <b>ROTA</b><br>e receba a rota grátis"
-   },
-   {
-    "gravura": "020",
-    "mov": "cima",
-    "txt": "Resumindo. São 3 rotas: Primeira Viagem, que começa por Jesus; Clássica, de Gênesis a Apocalipse; e História, na ordem dos fatos. Passaporte não vence, e quem atrasa volta de onde parou. E nos trechos difíceis, lê a dica antes de atravessar."
-   },
-   {
-    "gravura": "093",
-    "mov": "out",
-    "txt": "No próximo vídeo, a gente atravessa Levítico juntos, sem largar a leitura. Até a próxima parada, viajante da Palavra.",
-    "cta": "Até a próxima <b>parada</b>,<br>viajante",
-    "selo": "PASSA<br>PORTE"
-   }
-  ]
- },
- {
   "id": "short-11",
   "formato": "short",
   "titulo": "Sansão em 1 minuto: o homem mais forte era fraco onde? #shorts",
@@ -2197,383 +1434,1614 @@
   ]
  },
  {
-  "id": "longo-03",
+  "id": "longo-01",
   "formato": "longo",
-  "titulo": "A história da Bíblia inteira em uma viagem só (de Gênesis a Apocalipse)",
-  "legenda": "A Bíblia tem 66 livros (73 na católica), mas conta uma história só. Neste vídeo você faz a viagem inteira em 8 paradas: o começo, a família escolhida, a saída do Egito, a terra e os reis, o exílio e os profetas, Jesus, a Igreja e o Apocalipse.\n\nE vai perceber o fio que liga tudo: a promessa de Gênesis 3.15 cumprida em Jesus.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📖 Observação: os versículos aparecem em paráfrase curta, com a referência. Confira na sua tradução. As datas e a divisão em paradas são um resumo didático.\n\n🎫 Quer começar a ler com rota? Baixe grátis a Rota da Primeira Viagem no link da descrição, ou comente ROTA.\n\n#HistóriaDaBíblia #BíbliaExplicada #ResumoDaBíblia #PassaporteDaBíblia",
-  "comentario": "📌 Em qual parada da viagem você está lendo hoje? Comente o número da parada (1 a 8). Quando terminar um livro, volte e comente CARIMBEI.",
+  "titulo": "Não entende a Bíblia? Comece por este mapa",
+  "legenda": "Você lê a Bíblia e não entende nada? Calma: quase nunca o problema é você. É que ninguém te mostrou o mapa. Neste vídeo você aprende como ler a Bíblia e entender: a Bíblia em 8 regiões, a grande história em 6 capítulos e o fio de promessa que liga Gênesis a Apocalipse.\n\nVocê também vê os 7 tipos de texto da Bíblia, os 3 erros de quem começa a ler (inclusive o jeito errado de usar Filipenses 4.13) e 3 perguntas simples para saber onde está em qualquer página. Serve para católicos e evangélicos.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📖 Observação: os versículos aparecem em paráfrase curta, com a referência. Confira na sua tradução. A Bíblia evangélica tem 66 livros e a católica 73; o mapa vale para as duas.\n\n🎫 Quer uma rota pronta para começar? Baixe grátis a Rota da Primeira Viagem no link aqui na descrição, ou comente ROTA.\n\n#ComoLerABíblia #EntenderABíblia #EstudoBíblico #BíbliaParaIniciantes #PassaporteDaBíblia",
+  "comentario": "📌 Faça as 3 perguntas do viajante (região, capítulo da história e tipo de terreno) num capítulo hoje e comente CARIMBEI com o nome dele. E me conta: qual dos 3 erros você já cometeu?",
   "titulo_tela": {
    "sup": "PASSAPORTE DA BÍBLIA",
-   "txt": "A Bíblia inteira<br>em uma viagem",
+   "txt": "A Bíblia tem<br>um MAPA",
    "dur": 3.2
   },
   "cenas": [
    {
-    "gravura": "020",
+    "gravura": "053",
     "mov": "in",
-    "txt": "A Bíblia tem 66 livros, ou 73 na Bíblia católica. Foram escritos ao longo de muitos séculos, por dezenas de autores diferentes. E mesmo assim, ela conta uma história só. Hoje a gente vai fazer essa viagem inteira, do primeiro versículo ao último."
+    "txt": "Você abre a Bíblia com vontade. Lê duas páginas. E fecha sem entender nada. Se isso já aconteceu com você, fica comigo, porque o problema quase nunca é você."
    },
    {
-    "gravura": "053",
+    "gravura": "059",
     "mov": "esq",
-    "txt": "Se você já tentou ler a Bíblia e se perdeu, provavelmente faltou isso: enxergar o caminho todo antes de entrar nos detalhes. É como olhar o mapa antes de sair de casa."
+    "txt": "Uns dois mil anos atrás, um homem importante passou pelo mesmo aperto. Estava numa carruagem, lendo o profeta Isaías, e não entendia o que lia. O que aconteceu com ele depois muda tudo. Eu te conto no fim."
+   },
+   {
+    "gravura": "046",
+    "mov": "out",
+    "txt": "O problema dele, e talvez o seu, é o mesmo. Te entregaram uma biblioteca inteira, com dezenas de livros, e ninguém te mostrou o mapa. É como desembarcar num país estranho sem saber em que cidade você está."
+   },
+   {
+    "gravura": "020",
+    "mov": "dir",
+    "txt": "Hoje a gente faz essa viagem juntos. O mapa da Bíblia em 8 regiões. A história inteira em 6 capítulos. O fio escondido que liga tudo. E os 7 tipos de texto, que explicam por que cada parte se lê de um jeito."
+   },
+   {
+    "gravura": "096",
+    "mov": "cima",
+    "txt": "No meio do caminho eu vou te mostrar um dos versículos mais famosos da Bíblia. Ele aparece em camiseta, em parede de academia, em legenda de foto. E muita gente usa ele do jeito errado."
+   },
+   {
+    "gravura": "092",
+    "mov": "in",
+    "txt": "E no final eu te entrego 3 perguntas simples. Com elas, você abre a Bíblia em qualquer página e sabe onde está. Guarda isso, porque é a parte mais importante da viagem de hoje."
    },
    {
     "gravura": "061",
     "mov": "out",
-    "txt": "Vou dividir a viagem em oito paradas. Em cada uma, você vai saber o que aconteceu, em que livros isso está e o que essa parte mostra sobre Deus."
+    "txt": "Primeira parada. Antes de abrir em qualquer página, você precisa entender uma coisa: a Bíblia não é um livro só. Ela é uma biblioteca inteira, guardada dentro de uma capa.",
+    "cap": {
+     "sup": "PARADA 1",
+     "txt": "A Bíblia é uma biblioteca"
+    }
+   },
+   {
+    "gravura": "043",
+    "mov": "in",
+    "txt": "Na Bíblia evangélica são 66 livros. Na católica, 73. Foram escritos ao longo de muitos séculos, por gente bem diferente: pastor, rei, pescador, médico, profeta. E em três línguas: hebraico, aramaico e grego."
+   },
+   {
+    "gravura": "017",
+    "mov": "esq",
+    "txt": "Agora pensa comigo. Você entraria numa biblioteca e leria todos os livros na ordem da prateleira, sem saber o que cada um é? Pois é isso que muita gente tenta fazer com a Bíblia. E aí trava."
+   },
+   {
+    "gravura": "059",
+    "mov": "out",
+    "txt": "Lembra do homem da carruagem? A história dele está em Atos, capítulo 8. Ele era um alto oficial da rainha da Etiópia, voltando de Jerusalém. Filipe chega perto e escuta ele lendo em voz alta."
+   },
+   {
+    "gravura": "053",
+    "mov": "in",
+    "txt": "Filipe pergunta: você entende o que está lendo? E ele responde mais ou menos assim: como é que eu vou entender, se ninguém me explicar? Não entender sozinho não é falta de fé. É falta de guia.",
+    "verso": "Como posso entender, se ninguém me explicar?",
+    "ref": "ATOS 8.31"
+   },
+   {
+    "gravura": "044",
+    "mov": "cima",
+    "txt": "Repara que o homem não fechou o rolo. Ele convidou Filipe pra subir e sentar do lado dele. É isso que eu quero fazer com você hoje: sentar do lado e ler junto, sem pressa."
+   },
+   {
+    "gravura": "046",
+    "mov": "esq",
+    "txt": "Na prática, faz isso hoje. Abre o índice da sua Bíblia, aquela lista lá no começo. Conta quantos livros ela tem, 66 ou 73. E marca três pontos: Gênesis, o começo; Mateus, o Novo Testamento; e Apocalipse, o fim."
+   },
+   {
+    "gravura": "053",
+    "mov": "out",
+    "txt": "Primeira parada feita. Tá comigo até aqui? Se a ideia da biblioteca fez sentido pra você, escreve nos comentários só uma palavra: biblioteca. E bora pro mapa.",
+    "interage": {
+     "tipo": "checkin",
+     "txt": "Escreve: biblioteca"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "020",
+    "mov": "in",
+    "txt": "Segunda parada: o mapa. Imagina a Bíblia como um mapa-múndi cheio de ilhas. Cada livro é uma ilha. E essas ilhas ficam agrupadas em 8 regiões, cada uma com o seu clima.",
+    "cap": {
+     "sup": "PARADA 2",
+     "txt": "O mapa em 8 regiões"
+    }
+   },
+   {
+    "gravura": "024",
+    "mov": "cima",
+    "txt": "Saber a região muda tudo. Vamos passar por elas bem rápido, como quem olha o mapa antes de sair de casa. Não precisa decorar agora. Só repara no desenho."
+   },
+   {
+    "gravura": "022",
+    "mov": "out",
+    "txt": "Região 1: a Lei. São os 5 primeiros livros, de Gênesis a Deuteronômio. Aqui está o começo de tudo: a criação, Abraão, a saída do Egito e as regras de vida que Deus deu ao povo de Israel."
+   },
+   {
+    "gravura": "001",
+    "mov": "in",
+    "txt": "O primeiro destino é Gênesis. Em uma frase: Deus cria tudo, o ser humano estraga, e Deus começa a consertar escolhendo uma família. Guarda essa frase, porque ela volta daqui a pouco."
+   },
+   {
+    "gravura": "019",
+    "mov": "esq",
+    "txt": "Região 2: os livros Históricos. São 12 na Bíblia evangélica, de Josué a Ester. É a grande novela de Israel: a entrada na terra, os juízes, os reis, a queda e a volta do exílio."
+   },
+   {
+    "gravura": "035",
+    "mov": "dir",
+    "txt": "Região 3: os Poéticos. Jó, Salmos, Provérbios, Eclesiastes e Cantares. Aqui ninguém está contando história em ordem. São orações, canções, perguntas difíceis e conselhos pra vida."
+   },
+   {
+    "gravura": "047",
+    "mov": "out",
+    "txt": "Regiões 4 e 5: os Profetas. Os Maiores são 5, de Isaías a Daniel. Os Menores são 12, de Oseias a Malaquias. E atenção: maior e menor aqui é pelo tamanho do livro. Não tem nada a ver com importância."
+   },
+   {
+    "gravura": "054",
+    "mov": "in",
+    "txt": "Um exemplo: Jonas está entre os Menores. Tem só 4 capítulos. E mesmo assim é uma das histórias mais conhecidas da Bíblia inteira. Pequeno no tamanho, enorme no recado."
+   },
+   {
+    "gravura": "063",
+    "mov": "cima",
+    "txt": "Região 6: os Evangelhos e Atos. Mateus, Marcos, Lucas e João contam a vida de Jesus. E Atos mostra o que veio depois: a igreja nascendo e a mensagem saindo pelo mundo."
+   },
+   {
+    "gravura": "097",
+    "mov": "esq",
+    "txt": "Região 7: as Cartas. São 21, de Romanos a Judas. Paulo, Pedro, Tiago, João e outros escrevendo para igrejas e para pessoas de verdade, com problemas de verdade."
+   },
+   {
+    "gravura": "099",
+    "mov": "out",
+    "txt": "E a região 8 tem uma ilha só: Apocalipse. São visões cheias de símbolos, escritas para uma igreja que sofria. O recado central é simples: Jesus vence, e Deus faz novas todas as coisas."
+   },
+   {
+    "gravura": "018",
+    "mov": "in",
+    "txt": "E a Bíblia católica? Os livros a mais, como Tobias, Judite, Sabedoria e os Macabeus, entram nessas mesmas regiões. Ou seja, o mapa serve pra todo mundo. Muda o número de ilhas, não o desenho."
+   },
+   {
+    "gravura": "046",
+    "mov": "dir",
+    "txt": "Na prática: pensa num livro que você já ouviu falar. Pode ser Salmos, pode ser Jonas. Descobre em qual das 8 regiões ele mora e escreve o nome da região, a lápis, na primeira página dele."
+   },
+   {
+    "gravura": "070",
+    "mov": "cima",
+    "txt": "Agora me conta uma coisa, de verdade: em qual dessas regiões você mais lê hoje? Lei, Poéticos, Profetas, Evangelhos ou Cartas? Escreve aqui embaixo. Quero saber por onde você anda.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Qual região você mais lê?"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "053",
+    "mov": "out",
+    "txt": "Agora vem a virada. Muita gente para no mapa e acha que já entendeu. Mas mapa sem história é só geografia. Você sabe onde as coisas estão, mas não sabe pra onde a viagem vai."
+   },
+   {
+    "gravura": "092",
+    "mov": "in",
+    "txt": "Terceira parada: a grande história. A Bíblia não é uma pilha de livros soltos. Ela conta uma história só, do começo ao fim, e dá pra resumir em 6 capítulos. Vou um por um, devagar.",
+    "cap": {
+     "sup": "PARADA 3",
+     "txt": "A história em 6 capítulos"
+    }
+   },
+   {
+    "gravura": "001",
+    "mov": "cima",
+    "txt": "Capítulo 1: Criação. Deus cria tudo, e tudo é bom. O ser humano é criado para viver perto dele e cuidar do mundo. É o jardim, a luz, o começo da viagem."
+   },
+   {
+    "gravura": "002",
+    "mov": "out",
+    "txt": "Capítulo 2: Queda. O ser humano desobedece, e o mundo se quebra. Aparecem a culpa, a vergonha e a morte. E desde então a gente vive nesse mundo rachado, sentindo falta de casa."
+   },
+   {
+    "gravura": "007",
+    "mov": "in",
+    "txt": "Capítulo 3: Promessa e povo. Deus não desiste. Ele chama Abraão e promete que, por meio da família dele, todas as famílias da terra seriam abençoadas. Daí nasce Israel, e o Antigo Testamento conta essa caminhada."
+   },
+   {
+    "gravura": "088",
+    "mov": "esq",
+    "txt": "Capítulo 4: Jesus. A promessa chega. Jesus vive, ensina, cura, morre na cruz e ressuscita. É o centro da viagem inteira. Tudo antes aponta pra ele, e tudo depois sai dele."
+   },
+   {
+    "gravura": "095",
+    "mov": "out",
+    "txt": "Capítulo 5: Igreja. O Espírito Santo vem, forma a igreja, e a boa notícia sai de Jerusalém para o mundo. É aqui que eu e você entramos na história."
    },
    {
     "gravura": "093",
     "mov": "dir",
-    "txt": "E presta atenção num fio que atravessa tudo: uma promessa. Ela aparece logo no começo, e o resto da Bíblia é Deus cumprindo essa promessa, apesar de tudo."
+    "txt": "Capítulo 6: Tudo novo. No fim, Deus faz novo céu e nova terra. Apocalipse 21 diz, em outras palavras, que ele vai enxugar toda lágrima, e não vai ter mais morte, nem choro, nem dor.",
+    "verso": "Deus enxugará toda lágrima.",
+    "ref": "APOCALIPSE 21.4"
    },
    {
-    "gravura": "001",
+    "gravura": "091",
     "mov": "in",
-    "txt": "Primeira parada: Gênesis, capítulos 1 e 2. Deus cria tudo, e tudo é bom. O ser humano é feito à imagem de Deus, pra cuidar da criação e viver perto dele.",
+    "txt": "Repete comigo: Criação, Queda, Promessa e povo, Jesus, Igreja, Tudo novo. Seis palavras. Se você guardar só isso deste vídeo, já vai abrir a Bíblia com outros olhos."
+   },
+   {
+    "gravura": "065",
+    "mov": "cima",
+    "txt": "Na prática: abre qualquer livro e pergunta em qual dos 6 capítulos da história você está. Marcos fica em Jesus. Romanos fica em Igreja. Anota num papel e deixa dentro da Bíblia, como marcador."
+   },
+   {
+    "gravura": "049",
+    "mov": "out",
+    "txt": "Pausa rápida na viagem. Se você quer começar com um caminho pronto, eu preparei a Rota da Primeira Viagem, de graça. É só comentar ROTA aqui embaixo ou pegar no link da descrição.",
+    "cta": "Comenta <b>ROTA</b><br>e receba a rota grátis"
+   },
+   {
+    "gravura": "020",
+    "mov": "in",
+    "txt": "Quarta parada, e essa quase ninguém te conta. Se a Bíblia é uma história só, tem que existir um fio passando por ela inteira. E existe. Ele aparece já no terceiro capítulo de Gênesis.",
     "cap": {
-     "sup": "PARADA 1",
-     "txt": "O começo"
+     "sup": "PARADA 4",
+     "txt": "O fio que liga tudo"
+    }
+   },
+   {
+    "gravura": "002",
+    "mov": "esq",
+    "txt": "Logo depois da queda, Deus diz à serpente que um descendente da mulher ia ferir a cabeça dela, e ela ia ferir o calcanhar dele. Desde os primeiros séculos, muitos cristãos chamam isso de primeira promessa de salvação.",
+    "verso": "Ele ferirá a sua cabeça, e você ferirá o calcanhar dele.",
+    "ref": "GÊNESIS 3.15"
+   },
+   {
+    "gravura": "007",
+    "mov": "out",
+    "txt": "Depois o fio passa por Abraão. Deus promete: em você serão abençoadas todas as famílias da terra. Não só Israel. Todas. Repara como a promessa já nasce grande.",
+    "verso": "Em você serão abençoadas todas as famílias da terra.",
+    "ref": "GÊNESIS 12.3"
+   },
+   {
+    "gravura": "036",
+    "mov": "dir",
+    "txt": "Depois o fio passa por Davi. Deus promete que um descendente dele teria um trono que não ia acabar. E os profetas pegam esse fio e vão esticando, século após século, cada vez mais claro."
+   },
+   {
+    "gravura": "047",
+    "mov": "in",
+    "txt": "Isaías, por exemplo, fala de um servo que seria ferido pelas transgressões do povo, e pelas feridas dele viria a cura. Guarda esse capítulo, Isaías 53, porque ele é a chave do homem da carruagem.",
+    "verso": "Ele foi ferido por causa das nossas transgressões.",
+    "ref": "ISAÍAS 53.5"
+   },
+   {
+    "gravura": "092",
+    "mov": "cima",
+    "txt": "E quem amarra o fio é o próprio Jesus. Em Lucas 24, no caminho de Emaús, ele começa por Moisés, passa pelos profetas e explica aos dois discípulos o que as Escrituras diziam sobre ele.",
+    "verso": "Explicou o que as Escrituras diziam sobre ele.",
+    "ref": "LUCAS 24.27"
+   },
+   {
+    "gravura": "057",
+    "mov": "out",
+    "txt": "Ou seja, as páginas mais antigas não são outro assunto. O Antigo Testamento é a estrada que leva até a promessa. E o Novo mostra a promessa chegando e abrindo a porta pra todo mundo."
+   },
+   {
+    "gravura": "053",
+    "mov": "in",
+    "txt": "Sabe o que isso muda pra você? Quando um capítulo do Antigo Testamento parecer estranho, pergunta só uma coisa: como essa parte ajuda a promessa a seguir viva? Muita página difícil clareia na hora."
+   },
+   {
+    "gravura": "063",
+    "mov": "esq",
+    "txt": "Se esse fio acendeu uma luz aí dentro, segue o Passaporte da Bíblia. É isso que a gente faz aqui toda semana: abre um pedaço da Bíblia e mostra onde ele encaixa na viagem.",
+    "interage": {
+     "tipo": "segue",
+     "txt": "Segue pra próxima parada"
     },
-    "verso": "No princípio, Deus criou os céus e a terra.",
-    "ref": "GÊNESIS 1.1"
+    "conv": true
+   },
+   {
+    "gravura": "024",
+    "mov": "out",
+    "txt": "Quinta parada, e essa resolve muita confusão. A Bíblia tem 7 tipos de texto. Eu chamo de 7 tipos de terreno. E cada terreno se anda de um jeito diferente.",
+    "cap": {
+     "sup": "PARADA 5",
+     "txt": "Os 7 tipos de terreno"
+    }
+   },
+   {
+    "gravura": "032",
+    "mov": "in",
+    "txt": "Pensa assim: você não anda na praia do mesmo jeito que sobe uma montanha. Com a Bíblia é igual. Quem lê poesia como se fosse manual, ou carta como se fosse novela, se perde no caminho."
+   },
+   {
+    "gravura": "022",
+    "mov": "dir",
+    "txt": "Terreno 1: Lei. São regras de vida para o povo de Israel. Não leia só como uma lista de proibições. Pergunte sempre: o que essa regra mostra sobre quem Deus é e sobre o que ele ama?"
+   },
+   {
+    "gravura": "031",
+    "mov": "in",
+    "txt": "Terreno 2: História. São fatos contados em ordem. Leia como uma novela: quem está na cena, onde está e o que aconteceu. E lembre que nem tudo que um personagem fez é exemplo pra copiar."
+   },
+   {
+    "gravura": "035",
+    "mov": "cima",
+    "txt": "Terreno 3: Poesia. Orações, canções e sabedoria, como Salmos e Provérbios. Leia devagar, sinta, repita. E um detalhe que salva muita gente: provérbio é regra geral da vida, não promessa garantida."
+   },
+   {
+    "gravura": "048",
+    "mov": "out",
+    "txt": "Terreno 4: Profecia. É Deus falando ao povo por meio do profeta. Antes de tudo, descubra a quem ele falava e em que época. Só isso já clareia muita coisa que parecia enigma."
+   },
+   {
+    "gravura": "062",
+    "mov": "in",
+    "txt": "Terreno 5: Evangelho. É a vida de Jesus. Repare no que ele faz e, principalmente, no que ele pergunta. As perguntas de Jesus também foram feitas pra você responder."
+   },
+   {
+    "gravura": "097",
+    "mov": "esq",
+    "txt": "Terreno 6: Carta. São mensagens para igrejas e pessoas reais. Leia de uma vez, do começo ao fim, como você leria a carta de alguém querido. Filipenses, por exemplo, tem só 4 capítulos."
+   },
+   {
+    "gravura": "041",
+    "mov": "out",
+    "txt": "Terreno 7: Apocalíptico. Visões com símbolos, números e imagens fortes. Não precisa decifrar cada detalhe, e existem leituras diferentes deles. Mas os símbolos apontam para uma ideia: Deus vence no fim."
+   },
+   {
+    "gravura": "096",
+    "mov": "dir",
+    "txt": "Lembra do versículo de camiseta que eu prometi? É Filipenses 4.13: posso todas as coisas naquele que me fortalece. Muita gente usa como promessa de vencer tudo o que quiser. Mas é carta, então lê o parágrafo inteiro.",
+    "verso": "Posso todas as coisas naquele que me fortalece.",
+    "ref": "FILIPENSES 4.13"
+   },
+   {
+    "gravura": "098",
+    "mov": "in",
+    "txt": "Nos versos de antes, Paulo diz que aprendeu a viver com pouco e com muito, com fome e com fartura. E ele estava preso quando escreveu. O versículo fala de força pra atravessar qualquer situação, não de ganhar tudo.",
+    "verso": "Sei passar necessidade e sei ter fartura.",
+    "ref": "FILIPENSES 4.12"
+   },
+   {
+    "gravura": "053",
+    "mov": "out",
+    "txt": "Percebe? O versículo continua lindo. Até mais bonito. Só que agora ele fala a verdade sobre a vida: tem dia de pouco, tem dia de muito, e Cristo dá força nos dois. Esse era o segundo segredo que eu te prometi."
+   },
+   {
+    "gravura": "046",
+    "mov": "cima",
+    "txt": "Na prática: escolhe um capítulo pra ler hoje. Antes de ler, descobre o tipo de terreno. Depois lê usando a dica daquele terreno, e repara como a leitura fica mais leve."
+   },
+   {
+    "gravura": "044",
+    "mov": "dir",
+    "txt": "Respira um pouco. Foi bastante coisa, né? Se bateu cansaço, tudo bem: salva este vídeo e volta nos 7 terrenos quando for ler. Eles servem de consulta por muito tempo.",
+    "interage": {
+     "tipo": "salva",
+     "txt": "Salva pra consultar depois"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "018",
+    "mov": "in",
+    "txt": "Sexta parada. Agora que você tem mapa, história, fio e terreno, deixa eu te mostrar os 3 erros mais comuns de quem começa a ler. Se você já caiu em algum, relaxa: é normal.",
+    "cap": {
+     "sup": "PARADA 6",
+     "txt": "Os 3 erros de quem começa"
+    }
+   },
+   {
+    "gravura": "017",
+    "mov": "out",
+    "txt": "Erro 1: começar por Gênesis e querer ir até o fim, na ordem. Gênesis e Êxodo vão bem. Aí chega Levítico, cheio de regras de sacrifício, e a pessoa trava. Não é preguiça. É falta de rota."
+   },
+   {
+    "gravura": "037",
+    "mov": "esq",
+    "txt": "Levítico não é inimigo. Em uma frase, ele ensina como um povo imperfeito pode chegar perto de um Deus santo. E o capítulo 19 tem a frase que Jesus citou como um dos maiores mandamentos.",
+    "verso": "Ame o seu próximo como a si mesmo.",
+    "ref": "LEVÍTICO 19.18"
+   },
+   {
+    "gravura": "049",
+    "mov": "in",
+    "txt": "A saída é simples: alterna. Um livro de história, depois um Evangelho, depois um Salmo. Quem começa por Marcos, por exemplo, entra direto na vida de Jesus, em 16 capítulos curtos e cheios de ação."
+   },
+   {
+    "gravura": "077",
+    "mov": "dir",
+    "txt": "Erro 2: ler um versículo solto, fora do lugar. Foi o que aconteceu com Filipenses 4.13. Versículo é como uma rua: só faz sentido quando você sabe em que bairro e em que cidade ela fica."
+   },
+   {
+    "gravura": "066",
+    "mov": "cima",
+    "txt": "A regra prática é fácil de lembrar: leia pelo menos o parágrafo de antes e o de depois. Se ainda ficar dúvida, leia o capítulo inteiro. O contexto é o melhor guia que existe dentro da própria Bíblia."
+   },
+   {
+    "gravura": "065",
+    "mov": "out",
+    "txt": "Erro 3: achar que precisa entender tudo de primeira, e sozinho. Nem os discípulos entendiam tudo na hora. O Evangelho de João conta que algumas coisas eles só entenderam depois da ressurreição."
+   },
+   {
+    "gravura": "070",
+    "mov": "in",
+    "txt": "Ler junto ajuda muito. Em Atos 17, o povo de Bereia ouvia a pregação e depois examinava as Escrituras todos os dias, pra conferir. Ler com alguém e conferir no texto é coisa bem bíblica.",
+    "verso": "Examinavam as Escrituras todos os dias.",
+    "ref": "ATOS 17.11"
+   },
+   {
+    "gravura": "053",
+    "mov": "esq",
+    "txt": "Pensa agora em uma pessoa que vive dizendo que não entende a Bíblia. Manda este vídeo pra ela. Melhor ainda: combinem de ler o mesmo capítulo amanhã e conversar sobre ele.",
+    "interage": {
+     "tipo": "manda",
+     "txt": "Manda pra quem vive travando"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "020",
+    "mov": "out",
+    "txt": "Última parada. Lembra que eu prometi 3 perguntas lá no começo? Agora elas fazem sentido, porque juntam tudo o que a gente viu: o mapa, a história e o terreno.",
+    "cap": {
+     "sup": "PARADA 7",
+     "txt": "As 3 perguntas do viajante"
+    }
+   },
+   {
+    "gravura": "061",
+    "mov": "in",
+    "txt": "Antes de ler qualquer página, pergunta: em que região eu estou, em que capítulo da grande história e que tipo de terreno é esse. Três perguntas. Menos de um minuto. E a página muda de cara."
+   },
+   {
+    "gravura": "037",
+    "mov": "esq",
+    "txt": "Vamos testar onde muita gente trava: Levítico. Região: Lei. Capítulo da história: Promessa e povo. Terreno: Lei, então a pergunta é o que cada regra mostra sobre Deus."
+   },
+   {
+    "gravura": "053",
+    "mov": "out",
+    "txt": "Agora o Salmo 23. Região: Poéticos. Capítulo da história: Promessa e povo, porque é uma oração de Davi. Terreno: Poesia, então lê devagar, sentindo cada imagem: o pastor, o vale, a mesa."
+   },
+   {
+    "gravura": "095",
+    "mov": "dir",
+    "txt": "E um do Novo Testamento: Romanos 8. Região: Cartas. Capítulo da história: Igreja. Terreno: Carta, então lê o capítulo de uma vez, como quem recebe a carta de um amigo. Repara como tudo se encaixa."
+   },
+   {
+    "gravura": "044",
+    "mov": "in",
+    "txt": "Percebe? O texto não mudou. O que mudou foi você chegar sabendo onde está. Não era falta de fé, nem falta de inteligência. Era falta de mapa. E mapa, agora, você tem."
+   },
+   {
+    "gravura": "091",
+    "mov": "cima",
+    "txt": "E isso combina com a própria Bíblia. No Salmo 119, o salmista diz, em outras palavras, que a explicação da Palavra traz luz e dá entendimento aos simples. A Bíblia foi feita pra gente simples entender.",
+    "verso": "A explicação das tuas palavras ilumina.",
+    "ref": "SALMO 119.130"
+   },
+   {
+    "gravura": "059",
+    "mov": "out",
+    "txt": "E o homem da carruagem? Prometi contar. Ele estava lendo justamente Isaías 53, o trecho do servo ferido. Filipe começou por aquela passagem e anunciou Jesus a ele. O fio, de novo, aparecendo."
+   },
+   {
+    "gravura": "019",
+    "mov": "in",
+    "txt": "Quando passaram por um lugar com água, ele pediu pra ser batizado ali mesmo. E Atos conta que ele seguiu o seu caminho cheio de alegria. Entrou na carruagem confuso. Saiu entendendo, e alegre.",
+    "verso": "E seguiu o seu caminho cheio de alegria.",
+    "ref": "ATOS 8.39"
+   },
+   {
+    "gravura": "046",
+    "mov": "dir",
+    "txt": "Na prática: escolhe o capítulo de amanhã. Antes de ler, faz as 3 perguntas. E anota as respostas na margem, a lápis, pra ver o mapa crescendo dentro da sua própria Bíblia."
+   },
+   {
+    "gravura": "063",
+    "mov": "out",
+    "txt": "Agora é com você. Hoje ainda, faz as 3 perguntas num capítulo qualquer. Quando fizer, comenta aqui embaixo: CARIMBEI, e o nome do capítulo. Quero ver esse mural cheio de carimbos.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Fez as 3? Comenta CARIMBEI"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "024",
+    "mov": "cima",
+    "txt": "Resumindo a viagem de hoje. A Bíblia é uma biblioteca, com 8 regiões no mapa. Ela conta uma história só, em 6 capítulos, com um fio de promessa passando por todas as páginas."
+   },
+   {
+    "gravura": "062",
+    "mov": "in",
+    "txt": "Ela tem 7 tipos de terreno, e cada um se lê de um jeito. Fuja dos 3 erros de quem começa. E antes de qualquer página, faz as 3 perguntas do viajante."
+   },
+   {
+    "gravura": "093",
+    "mov": "out",
+    "txt": "No próximo vídeo, eu te mostro 3 rotas pra começar a ler, e você escolhe a sua. Se quiser já sair com uma, comenta ROTA. Até a próxima parada, viajante da Palavra.",
+    "cta": "Até a próxima <b>parada</b>,<br>viajante",
+    "selo": "PASSA<br>PORTE"
+   }
+  ]
+ },
+ {
+  "id": "longo-02",
+  "formato": "longo",
+  "titulo": "Por onde começar a ler a Bíblia sem travar",
+  "legenda": "Por onde começar a ler a Bíblia se você nunca leu, ou se começou pela página 1 e travou em Levítico? Não é falta de fé, é falta de rota. Primeiro você vê o mapa: a Bíblia é uma biblioteca, com livros de lei, história, poesia, profetas, Evangelhos e cartas.\n\nDepois conhece 3 rotas de leitura bíblica: a Rota da Primeira Viagem (Marcos, João, Lucas, Atos, Gênesis, Salmos, Provérbios, Romanos, Tiago e Filipenses), a Rota Clássica e a Rota da História. E aprende a ler sem culpa, a atravessar os trechos que mais travam e o que Jesus ensinou sobre ler as Escrituras na estrada de Emaús.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📖 Observação: os versículos aparecem em paráfrase curta, com a referência. Confira na sua tradução. A conta de 1.189 capítulos é da edição evangélica (66 livros); a católica tem 73. A ordem cronológica varia entre estudiosos.\n\n🎫 Escolheu a Primeira Viagem? Baixe grátis a Rota da Primeira Viagem no link da descrição, ou comente ROTA.\n\n#ComoLerABíblia #LeituraBíblica #BíbliaParaIniciantes #PlanoDeLeitura #PassaporteDaBíblia",
+  "comentario": "📌 Qual rota você escolheu: Primeira Viagem, Clássica ou História? Comente VOU EMBARCAR + o nome da rota. Quando ler o primeiro capítulo, volte aqui e comente CARIMBEI.",
+  "titulo_tela": {
+   "sup": "PASSAPORTE DA BÍBLIA",
+   "txt": "3 rotas<br>pra começar",
+   "dur": 3.2
+  },
+  "cenas": [
+   {
+    "gravura": "053",
+    "mov": "in",
+    "txt": "Se você abrir a Bíblia hoje na página um, existe uma boa chance de parar antes do fim do mês. Não por falta de fé. Por falta de rota. E hoje eu te dou três."
+   },
+   {
+    "gravura": "018",
+    "mov": "esq",
+    "txt": "Funciona assim. Gênesis é cheio de histórias, Êxodo também. Aí chega o terceiro livro, Levítico, com regras de sacrifício, de puro e impuro, de festas. E muita gente fecha a Bíblia ali."
+   },
+   {
+    "gravura": "068",
+    "mov": "out",
+    "txt": "Levítico é Palavra de Deus, e tem coisa linda ali dentro. O problema nunca foi o livro. Foi a ordem. Ninguém aprende a nadar começando pelo meio do mar."
+   },
+   {
+    "gravura": "020",
+    "mov": "dir",
+    "txt": "Neste vídeo você vai conhecer três rotas pra ler a Bíblia, cada uma pra um tipo de viajante. Vai aprender a ler sem culpa quando atrasar. E vai saber atravessar os trechos que mais travam."
+   },
+   {
+    "gravura": "044",
+    "mov": "cima",
+    "txt": "E fica com duas perguntas na cabeça. Primeira: na rota pra quem nunca leu, por que Gênesis, o primeiro livro da Bíblia, só aparece em quinto lugar? Tem um motivo, e ele muda o jeito de ler."
+   },
+   {
+    "gravura": "092",
+    "mov": "in",
+    "txt": "Segunda, e essa é a maior: existe uma estrada na Bíblia onde o próprio Jesus deu uma aula de leitura pra dois viajantes desanimados. Por onde ele começou? A resposta fecha este vídeo."
    },
    {
     "gravura": "001",
     "mov": "out",
-    "txt": "Mas no capítulo 3 vem a quebra. Adão e Eva desconfiam de Deus e desobedecem. A relação se rompe, a morte entra na história, e eles saem do jardim."
+    "txt": "Antes de escolher a rota, você precisa olhar o mapa. E a primeira coisa que quase ninguém conta é esta: a Bíblia não é um livro só. É uma biblioteca.",
+    "cap": {
+     "sup": "PARADA 1",
+     "txt": "Antes da rota, o mapa"
+    }
    },
+   {
+    "gravura": "097",
+    "mov": "esq",
+    "txt": "A própria palavra Bíblia vem do grego e quer dizer livros, no plural. São muitos livros, de autores diferentes, escritos ao longo de muitos séculos, em três línguas: hebraico, aramaico e grego."
+   },
+   {
+    "gravura": "036",
+    "mov": "dir",
+    "txt": "Na Bíblia evangélica são sessenta e seis livros: trinta e nove no Antigo Testamento e vinte e sete no Novo. Na Bíblia católica são setenta e três, porque o Antigo Testamento tem sete livros a mais."
+   },
+   {
+    "gravura": "063",
+    "mov": "in",
+    "txt": "Essa diferença existe, e as rotas que eu vou te mostrar funcionam nas duas. E o Novo Testamento é igual pra católicos e evangélicos: os mesmos vinte e sete livros."
+   },
+   {
+    "gravura": "037",
+    "mov": "out",
+    "txt": "Dentro dessa biblioteca tem prateleiras. Livros de lei e de história, livros de poesia e sabedoria, profetas, Evangelhos e cartas. E cada prateleira se lê de um jeito."
+   },
+   {
+    "gravura": "047",
+    "mov": "cima",
+    "txt": "Você não lê um poema do mesmo jeito que lê uma notícia, né? Com a Bíblia é igual. Um salmo é oração cantada. Um Evangelho conta a vida de Jesus. Uma carta responde problemas de uma igreja de verdade."
+   },
+   {
+    "gravura": "061",
+    "mov": "esq",
+    "txt": "Agora um detalhe que surpreende muita gente: os capítulos e os versículos não estavam no texto original. Eles foram colocados muitos séculos depois, só pra facilitar a encontrar os trechos."
+   },
+   {
+    "gravura": "053",
+    "mov": "in",
+    "txt": "Isso quer dizer que você pode, e deve, ler além do versículo solto. Lê o capítulo inteiro, o trecho inteiro. É assim que o sentido aparece."
+   },
+   {
+    "gravura": "046",
+    "mov": "out",
+    "txt": "E guarda esta frase pra viagem. O salmista diz que a Palavra de Deus é lâmpada para os pés. Lâmpada ilumina o próximo passo, não a estrada inteira. Você não precisa entender tudo hoje.",
+    "verso": "Lâmpada para os meus pés é a tua palavra.",
+    "ref": "SALMOS 119.105"
+   },
+   {
+    "gravura": "044",
+    "mov": "dir",
+    "txt": "Tá comigo até aqui? A Bíblia é uma biblioteca, com prateleiras diferentes. Se isso já tirou um peso das suas costas, escreve aí embaixo: biblioteca.",
+    "interage": {
+     "tipo": "checkin",
+     "txt": "Escreve: biblioteca"
+    }
+   },
+   {
+    "gravura": "092",
+    "mov": "cima",
+    "txt": "Rota um: a Rota da Primeira Viagem. É pra quem nunca leu, ou pra quem já tentou e travou. E ela não começa no começo. Ela começa por Jesus.",
+    "cap": {
+     "sup": "PARADA 2",
+     "txt": "Rota da Primeira Viagem"
+    }
+   },
+   {
+    "gravura": "065",
+    "mov": "out",
+    "txt": "São dez livros, nesta ordem: Marcos, João, Lucas, Atos, Gênesis, Salmos, Provérbios, Romanos, Tiago e Filipenses. Parece uma ordem aleatória, mas cada parada tem um motivo. Olha só."
+   },
+   {
+    "gravura": "062",
+    "mov": "in",
+    "txt": "Primeira parada: Marcos. É o Evangelho mais curto, com dezesseis capítulos. Jesus cura, ensina, serve e dá a vida. E o livro já abre dizendo do que se trata.",
+    "verso": "Princípio do evangelho de Jesus Cristo, Filho de Deus.",
+    "ref": "MARCOS 1.1"
+   },
+   {
+    "gravura": "064",
+    "mov": "esq",
+    "txt": "Marcos tem pressa. As cenas correm, uma atrás da outra. Em poucos capítulos você já viu Jesus acalmar uma tempestade e levantar uma menina. É o melhor jeito de começar: direto no centro da história."
+   },
+   {
+    "gravura": "078",
+    "mov": "out",
+    "txt": "Segunda parada: João. Esse Evangelho diz com todas as letras por que foi escrito: pra você crer que Jesus é o Filho de Deus e, crendo, ter vida.",
+    "verso": "Para que vocês creiam que Jesus é o Filho de Deus e tenham vida.",
+    "ref": "JOÃO 20.31"
+   },
+   {
+    "gravura": "080",
+    "mov": "dir",
+    "txt": "Repara em cada vez que Jesus diz eu sou: o pão da vida, a luz do mundo, a porta, o bom pastor, a ressurreição, o caminho. É um retrato de quem ele é, pedaço por pedaço."
+   },
+   {
+    "gravura": "073",
+    "mov": "in",
+    "txt": "Terceira parada: Lucas. É um relato organizado, feito com pesquisa, de um Jesus que vai atrás dos perdidos, dos pobres e dos esquecidos. É aqui que estão o bom samaritano e o filho pródigo."
+   },
+   {
+    "gravura": "093",
+    "mov": "cima",
+    "txt": "Quarta parada: Atos. Jesus sobe ao céu, o Espírito Santo vem e a boa notícia sai de Jerusalém para o mundo. Lucas e Atos são dirigidos à mesma pessoa, Teófilo. É a segunda parte da mesma história."
+   },
+   {
+    "gravura": "001",
+    "mov": "out",
+    "txt": "E agora a resposta da primeira pergunta. Só aqui, na quinta parada, a rota volta pro começo: Gênesis. Por quê? Porque, conhecendo Jesus primeiro, você lê a criação, Abraão e José sabendo aonde aquela promessa vai chegar."
+   },
+   {
+    "gravura": "007",
+    "mov": "in",
+    "txt": "É como ver o destino no mapa antes de sair de casa. Quando Deus promete a Abraão que todas as famílias da terra seriam abençoadas, você já sabe por onde essa bênção vai passar.",
+    "verso": "Em você serão abençoadas todas as famílias da terra.",
+    "ref": "GÊNESIS 12.3"
+   },
+   {
+    "gravura": "036",
+    "mov": "esq",
+    "txt": "Sexta parada: Salmos. São cento e cinquenta orações e canções pra todo tipo de dia: alegria, medo, raiva, culpa e gratidão. A dica é ler um salmo por dia, sem pressa."
+   },
+   {
+    "gravura": "037",
+    "mov": "dir",
+    "txt": "Sétima parada: Provérbios. São conselhos curtos, de pai pra filho, sobre dinheiro, palavras, trabalho, amizade e família. Tem trinta e um capítulos, e muita gente lê um por dia ao longo do mês."
+   },
+   {
+    "gravura": "095",
+    "mov": "in",
+    "txt": "Oitava parada: Romanos. Paulo explica que todo mundo falhou, mas Deus salva de graça quem confia em Jesus. É a carta que organiza muito do que você viu nos Evangelhos."
+   },
+   {
+    "gravura": "070",
+    "mov": "out",
+    "txt": "Nona parada: Tiago. Fé de verdade aparece na prática: no jeito de falar, de tratar o outro e de passar pela prova. Tiago resume assim: não fique só ouvindo a Palavra.",
+    "verso": "Sejam praticantes da palavra, e não apenas ouvintes.",
+    "ref": "TIAGO 1.22"
+   },
+   {
+    "gravura": "096",
+    "mov": "cima",
+    "txt": "E a última parada: Filipenses. Uma carta de alegria, escrita por Paulo na prisão. Só quatro capítulos, pra você fechar a primeira viagem com paz.",
+    "verso": "Alegrem-se sempre no Senhor.",
+    "ref": "FILIPENSES 4.4"
+   },
+   {
+    "gravura": "046",
+    "mov": "dir",
+    "txt": "Na prática: se essa é a sua rota, abre hoje em Marcos um. Lê um ou dois capítulos, não mais que isso. E marca um X no capítulo lido, sem anotar data nenhuma."
+   },
+   {
+    "gravura": "053",
+    "mov": "in",
+    "txt": "Primeira rota apresentada. Agora me conta: dessas dez paradas, qual te deu mais vontade de abrir a Bíblia hoje? Escreve o nome do livro aqui embaixo.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Qual parada te chamou?"
+    }
+   },
+   {
+    "gravura": "020",
+    "mov": "out",
+    "txt": "Rota dois: a Rota Clássica. É a Bíblia na ordem das páginas, de Gênesis a Apocalipse. É pra quem quer ler tudo, do começo ao fim, sem pular nada.",
+    "cap": {
+     "sup": "PARADA 3",
+     "txt": "Rota Clássica"
+    }
+   },
+   {
+    "gravura": "059",
+    "mov": "esq",
+    "txt": "Ela tem uma vantagem enorme: você vê a Bíblia inteira passar pela janela, como numa viagem de trem. Muita gente faz essa rota em um ano. Mas vamos fazer a conta com calma."
+   },
+   {
+    "gravura": "061",
+    "mov": "in",
+    "txt": "Na Bíblia evangélica são mil cento e oitenta e nove capítulos. Dividindo por trezentos e sessenta e cinco dias, dá entre três e quatro capítulos por dia. Na católica são mais livros, então a conta sobe um pouco."
+   },
+   {
+    "gravura": "092",
+    "mov": "dir",
+    "txt": "Pausa rápida na viagem. Se a Primeira Viagem é a sua cara, eu preparei a Rota da Primeira Viagem grátis, com os quatro Evangelhos explicados e um plano de sete dias em Marcos, sem datas. Comenta ROTA ou pega no link da descrição.",
+    "cta": "Comenta <b>ROTA</b><br>e receba a rota grátis"
+   },
+   {
+    "gravura": "053",
+    "mov": "cima",
+    "txt": "E se você ler menos que três capítulos por dia? Ainda é viagem. Um ano é uma meta, não uma regra da Bíblia."
+   },
+   {
+    "gravura": "018",
+    "mov": "out",
+    "txt": "O ponto fraco da Rota Clássica é que as partes difíceis chegam cedo. Levítico é o terceiro livro. Números tem contagens longas. E Primeiro Crônicas abre com nove capítulos de nomes."
+   },
+   {
+    "gravura": "035",
+    "mov": "in",
+    "txt": "Na prática, pra não travar: lê o capítulo do dia e, junto, um salmo. Quando chegar num trecho pesado, lê a dica de travessia antes. Elas estão no fim deste vídeo. E se atrasar, volta de onde parou."
+   },
+   {
+    "gravura": "024",
+    "mov": "dir",
+    "txt": "Rota três: a Rota da História. Aqui os livros vão na ordem em que os fatos acontecem, não na ordem das páginas. É pra quem quer entender a sequência.",
+    "cap": {
+     "sup": "PARADA 4",
+     "txt": "Rota da História"
+    }
+   },
+   {
+    "gravura": "017",
+    "mov": "in",
+    "txt": "Pouca gente sabe disso: a Bíblia não está organizada por data. Está organizada por tipo de livro, por prateleira, lembra? Por isso os profetas aparecem todos juntos, depois dos reis, mesmo tendo vivido no meio daquela história."
+   },
+   {
+    "gravura": "045",
+    "mov": "cima",
+    "txt": "Um exemplo. Em Segundo Reis você lê sobre o rei Ezequias e a ameaça da Assíria. E o profeta Isaías aparece ali mesmo, no meio dessa história, levando o recado de Deus ao rei."
+   },
+   {
+    "gravura": "047",
+    "mov": "out",
+    "txt": "Na Rota da História, você lê Isaías perto dessa época, e não lá na frente. De repente, as palavras do profeta ganham cenário. Você sabe quem está com medo, e por quê."
+   },
+   {
+    "gravura": "031",
+    "mov": "in",
+    "txt": "Outro exemplo: alguns salmos têm títulos que ligam a oração a momentos da vida de Davi. O Salmo cinquenta e sete, por exemplo, é de quando ele fugia de Saul e se escondeu numa caverna."
+   },
+   {
+    "gravura": "032",
+    "mov": "esq",
+    "txt": "Na Rota da História, você lê esses salmos perto da história dele, em Primeiro e Segundo Samuel. É como ver a foto e ouvir a música ao mesmo tempo."
+   },
+   {
+    "gravura": "098",
+    "mov": "out",
+    "txt": "No Novo Testamento, as cartas de Paulo entram no meio de Atos, perto das viagens em que ele visitou aquelas igrejas. Filipenses, por exemplo, foi escrita pra uma igreja que nasce em Atos dezesseis."
+   },
+   {
+    "gravura": "046",
+    "mov": "dir",
+    "txt": "Um aviso honesto: a ordem exata varia entre estudiosos, e muitas datas são aproximadas. Por isso existem planos cronológicos um pouco diferentes entre si. Escolhe um e segue em paz."
+   },
+   {
+    "gravura": "061",
+    "mov": "in",
+    "txt": "Na prática: escolhe um plano cronológico, no aplicativo ou impresso. Antes de cada livro, lê a introdução da sua Bíblia de estudo, se tiver uma. E anota numa folha em que época da história você está."
+   },
+   {
+    "gravura": "093",
+    "mov": "out",
+    "txt": "Se ver a Bíblia como uma viagem com mapa está fazendo sentido pra você, segue o Passaporte. Toda semana a gente atravessa um trecho junto, sem pressa e sem complicar.",
+    "interage": {
+     "tipo": "segue",
+     "txt": "Toda semana, um trecho juntos"
+    }
+   },
+   {
+    "gravura": "092",
+    "mov": "cima",
+    "txt": "Então, qual é a sua? Vou facilitar com um teste de dez segundos. Responde aí na sua cabeça: você já leu algum livro da Bíblia inteiro, do começo ao fim?",
+    "cap": {
+     "sup": "PARADA 5",
+     "txt": "Qual rota é a sua"
+    }
+   },
+   {
+    "gravura": "053",
+    "mov": "in",
+    "txt": "Se a resposta é não, ou se você já tentou e travou, nem pensa duas vezes: Primeira Viagem. Ela foi feita pra você."
+   },
+   {
+    "gravura": "059",
+    "mov": "esq",
+    "txt": "Se você já leu os Evangelhos e quer a Bíblia inteira, sem pular nada, vai de Clássica. E se você gosta de entender o antes e o depois, quem veio primeiro, quem estava vivo quando, vai de História."
+   },
+   {
+    "gravura": "044",
+    "mov": "out",
+    "txt": "E não existe rota mais santa que a outra. Ninguém chega mais perto de Deus porque leu na ordem certa. A melhor rota é a que você consegue continuar."
+   },
+   {
+    "gravura": "084",
+    "mov": "dir",
+    "txt": "Mas presta atenção, porque aqui está a virada. Muita gente não para de ler por causa da rota. Para por causa de outra coisa. Uma coisa que quase ninguém fala."
+   },
+   {
+    "gravura": "075",
+    "mov": "in",
+    "txt": "Essa coisa é a culpa. Você começa animado em janeiro. Atrasa três dias, o plano fica cobrando, você se sente o pior cristão do mundo e fecha a Bíblia até o ano que vem.",
+    "cap": {
+     "sup": "PARADA 6",
+     "txt": "Como ler sem culpa"
+    }
+   },
+   {
+    "gravura": "081",
+    "mov": "out",
+    "txt": "Se isso já aconteceu com você, respira. Não é fraqueza sua. É uma armadilha muito comum. E dá pra sair dela com algumas regras simples. Eu chamo de regras do viajante sem culpa."
+   },
+   {
+    "gravura": "059",
+    "mov": "cima",
+    "txt": "Regra um: passaporte não vence. Sua leitura não tem data de validade. Se você levar dois anos pra ler, ainda leu a Bíblia inteira."
+   },
+   {
+    "gravura": "092",
+    "mov": "esq",
+    "txt": "Regra dois: atrasou? Volte de onde parou, nunca pro dia um. Ninguém que perde o ônibus volta pra casa e começa a viagem de novo. Pega o próximo e segue."
+   },
+   {
+    "gravura": "046",
+    "mov": "in",
+    "txt": "E isso não é só conselho prático. Lamentações diz que as misericórdias de Deus se renovam a cada manhã. Cada manhã. Inclusive a manhã depois de um mês sem abrir a Bíblia.",
+    "verso": "As misericórdias do Senhor se renovam a cada manhã.",
+    "ref": "LAMENTAÇÕES 3.22-23"
+   },
+   {
+    "gravura": "035",
+    "mov": "dir",
+    "txt": "Regra três: um capítulo também é viagem. Num dia corrido, ler um salmo curto já é andar. Constância vale mais que volume."
+   },
+   {
+    "gravura": "053",
+    "mov": "out",
+    "txt": "Regra quatro: não entendeu um trecho? Siga em frente e volte depois. Nem todo texto abre na primeira leitura, e tudo bem."
+   },
+   {
+    "gravura": "028",
+    "mov": "in",
+    "txt": "Regra cinco: ler com alguém é mais leve. Chama um amigo, o marido, a esposa, alguém da igreja ou do grupo de oração. Quando um cansa, o outro puxa."
+   },
+   {
+    "gravura": "049",
+    "mov": "cima",
+    "txt": "A própria Bíblia tem um exemplo disso. Em Atos oito, um oficial da Etiópia lia Isaías na estrada, e Filipe pergunta se ele entendia. A resposta é sincera: como vou entender, se ninguém me explicar?",
+    "verso": "Como posso entender, se alguém não me explicar?",
+    "ref": "ATOS 8.31"
+   },
+   {
+    "gravura": "091",
+    "mov": "esq",
+    "txt": "A Bíblia não é uma prova que você pode reprovar. É um lugar de encontro. E você pode voltar hoje, do ponto exato onde parou."
+   },
+   {
+    "gravura": "061",
+    "mov": "out",
+    "txt": "Na prática: se você tem um plano atrasado, risca as datas dele. Marca o ponto onde você parou. E lê um capítulo hoje, só um, a partir dali."
+   },
+   {
+    "gravura": "044",
+    "mov": "in",
+    "txt": "Me conta uma coisa, e sem medo: você já largou a leitura por culpa? Escreve só: já larguei. Pode ter certeza que você não é o único aqui.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Já largou por culpa?"
+    }
+   },
+   {
+    "gravura": "068",
+    "mov": "dir",
+    "txt": "Agora, os trechos onde muita gente trava. Eu chamo de travessias. Quando você sabe que elas existem, e sabe o que fazer, elas assustam bem menos.",
+    "cap": {
+     "sup": "PARADA 7",
+     "txt": "Os trechos que travam"
+    }
+   },
+   {
+    "gravura": "018",
+    "mov": "in",
+    "txt": "Travessia um: Levítico. Em cada regra, pergunte o que ela mostra sobre Deus. E comece pelo capítulo dezesseis, o Dia do Perdão, quando o pecado do povo era coberto."
+   },
+   {
+    "gravura": "063",
+    "mov": "out",
+    "txt": "E sabia que o mandamento que Jesus chamou de segundo maior está justamente em Levítico? Ame o seu próximo como a si mesmo. O livro que muita gente pula guarda essa frase.",
+    "verso": "Ame o seu próximo como a si mesmo.",
+    "ref": "LEVÍTICO 19.18"
+   },
+   {
+    "gravura": "013",
+    "mov": "cima",
+    "txt": "Travessia dois: as listas de nomes. Os nove primeiros capítulos de Primeiro Crônicas são quase só nomes. Passa os olhos, para em Jabez, no capítulo quatro, e começa a ler de verdade no capítulo dez."
+   },
+   {
+    "gravura": "057",
+    "mov": "esq",
+    "txt": "Até o Novo Testamento abre com uma lista: Mateus um. Não trava ali. Ela mostra que Jesus vem da família de Abraão e de Davi. Ou seja: a promessa chegou."
+   },
+   {
+    "gravura": "020",
+    "mov": "in",
+    "txt": "Travessia três: Números. As contagens do povo são longas. Passa rápido e para nas histórias, como os doze espiões, nos capítulos treze e catorze, e Balaão e a jumenta, a partir do vinte e dois."
+   },
+   {
+    "gravura": "099",
+    "mov": "out",
+    "txt": "Travessia quatro: Apocalipse. Símbolos, números e monstros assustam, e existem leituras bem diferentes deles. Lê antes os capítulos um a cinco, e depois o vinte e um e o vinte e dois."
+   },
+   {
+    "gravura": "091",
+    "mov": "dir",
+    "txt": "Em todas as leituras, o centro é o mesmo: o Cordeiro vence. E o fim da Bíblia é uma promessa de casa. Deus vai morar com o seu povo e enxugar toda lágrima.",
+    "verso": "Ele enxugará dos olhos deles toda lágrima.",
+    "ref": "APOCALIPSE 21.4"
+   },
+   {
+    "gravura": "097",
+    "mov": "in",
+    "txt": "Travessia cinco: Romanos nove a onze, que fala da escolha de Deus e do futuro de Israel. É difícil, e há leituras diferentes. Lê até o fim do capítulo onze, que termina em louvor."
+   },
+   {
+    "gravura": "036",
+    "mov": "cima",
+    "txt": "Repara: até Paulo, depois de três capítulos difíceis, para e se maravilha com a sabedoria de Deus. Se o apóstolo terminou maravilhado, você pode terminar com perguntas.",
+    "verso": "Ó profundidade da riqueza da sabedoria de Deus!",
+    "ref": "ROMANOS 11.33"
+   },
+   {
+    "gravura": "024",
+    "mov": "out",
+    "txt": "Na prática: olha qual dessas travessias aparece na sua rota. Lê a dica antes de chegar lá. E atravessa devagar, porque trecho difícil não é sinal de que você é fraco."
+   },
+   {
+    "gravura": "053",
+    "mov": "esq",
+    "txt": "Essas cinco travessias você vai querer na mão quando chegar nelas. Salva este vídeo agora, pra voltar aqui no dia em que Levítico ou Apocalipse aparecer na sua frente.",
+    "interage": {
+     "tipo": "salva",
+     "txt": "Salva pras travessias"
+    }
+   },
+   {
+    "gravura": "049",
+    "mov": "in",
+    "txt": "Última parada antes de embarcar: o seu primeiro dia. Não precisa de muito. Precisa de três coisas: hora, lugar e uma frase.",
+    "cap": {
+     "sup": "PARADA 8",
+     "txt": "Seu primeiro dia"
+    }
+   },
+   {
+    "gravura": "014",
+    "mov": "dir",
+    "txt": "Hora: escolhe um horário que já existe na sua rotina. Antes do café, no almoço, antes de dormir. Fica mais fácil lembrar quando a leitura vem grudada num costume que você já tem."
+   },
+   {
+    "gravura": "029",
+    "mov": "out",
+    "txt": "Lugar: o mesmo cantinho todo dia. E a Bíblia já aberta no capítulo de amanhã, de papel ou no celular, de preferência sem notificação piscando na tela."
+   },
+   {
+    "gravura": "065",
+    "mov": "in",
+    "txt": "E a frase: no fim de cada capítulo, escolhe uma frase só, a que mais falou com você. Copia num papel ou no celular e transforma em uma oração curta. Uma frase por dia."
+   },
+   {
+    "gravura": "046",
+    "mov": "cima",
+    "txt": "Uma tradução em português atual também ajuda muito no começo. Católico ou evangélico, escolhe uma que você entende e, quando um trecho ficar difícil, compara com outra."
+   },
+   {
+    "gravura": "092",
+    "mov": "out",
+    "txt": "E agora, a resposta da maior pergunta. Depois da ressurreição, dois discípulos voltavam pra Emaús, tristes, achando que tudo tinha acabado. Jesus caminha com eles, e eles não o reconhecem."
+   },
+   {
+    "gravura": "063",
+    "mov": "in",
+    "txt": "E o que Jesus faz? Uma aula de leitura bíblica na estrada. Começando por Moisés e passando por todos os profetas, ele explica o que as Escrituras diziam a respeito dele.",
+    "verso": "Começando por Moisés e todos os profetas, explicou o que dizia respeito a ele.",
+    "ref": "LUCAS 24.27"
+   },
+   {
+    "gravura": "092",
+    "mov": "dir",
+    "txt": "Repara: Jesus começa lá em Moisés, mas o tempo todo aponta pra ele mesmo. É por isso que a Primeira Viagem começa por Jesus. Toda rota boa chega no mesmo lugar: nele."
+   },
+   {
+    "gravura": "082",
+    "mov": "out",
+    "txt": "Quando ele parte o pão, os olhos se abrem. E eles dizem: não ardia o nosso coração enquanto ele nos explicava as Escrituras? É isso que eu desejo pra sua leitura.",
+    "verso": "Não ardia o nosso coração enquanto ele nos explicava as Escrituras?",
+    "ref": "LUCAS 24.32"
+   },
+   {
+    "gravura": "044",
+    "mov": "cima",
+    "txt": "Agora, o seu compromisso. Escolhe a sua rota e escreve aqui nos comentários: VOU EMBARCAR, e o nome da rota. Quando ler o primeiro capítulo, volta e comenta CARIMBEI.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "VOU EMBARCAR + sua rota"
+    }
+   },
+   {
+    "gravura": "020",
+    "mov": "in",
+    "txt": "Resumindo a viagem. A Bíblia é uma biblioteca. São três rotas: Primeira Viagem, que começa por Jesus; Clássica, de Gênesis a Apocalipse; e História, na ordem dos fatos. Passaporte não vence, e quem atrasa volta de onde parou."
+   },
+   {
+    "gravura": "093",
+    "mov": "out",
+    "txt": "No próximo vídeo, a gente atravessa Levítico juntos, aquele livro onde todo mundo trava, e você vai ver quanta coisa dele aponta pra Jesus. Até a próxima parada, viajante da Palavra.",
+    "cta": "Até a próxima <b>parada</b>,<br>viajante",
+    "selo": "PASSA<br>PORTE"
+   }
+  ]
+ },
+ {
+  "id": "longo-03",
+  "formato": "longo",
+  "titulo": "A história da Bíblia inteira numa viagem só",
+  "legenda": "A história da Bíblia inteira, de Gênesis a Apocalipse, em nove paradas: a criação e a queda, a família de Abraão, a saída do Egito, a terra prometida, o trono de Davi, o exílio e os profetas, Jesus, a Igreja e a nova criação. Um resumo da Bíblia pra quem sempre se perdeu na leitura.\n\nVocê vai seguir o fio que liga o Antigo e o Novo Testamento: a promessa de Gênesis 3.15, a bênção de Gênesis 12.3 e o trono prometido em 2 Samuel 7, até a árvore da vida de Apocalipse 22.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📖 Observação: os versículos aparecem em paráfrase curta, com a referência. Confira na sua tradução. A divisão em paradas é um resumo didático.\n\n🎫 Quer ler a Bíblia com rota, sem se perder? Baixe grátis a Rota da Primeira Viagem no link da descrição, ou comente ROTA.\n\n#HistóriaDaBíblia #ResumoDaBíblia #AntigoTestamento #EstudoBíblico #PassaporteDaBíblia",
+  "comentario": "📌 Das três perguntas do vídeo (a promessa do jardim, a família escolhida e o lugar onde a Bíblia termina), qual resposta você não conhecia? Comenta aqui. E diz em qual parada você está lendo hoje (1 a 9).",
+  "titulo_tela": {
+   "sup": "PASSAPORTE DA BÍBLIA",
+   "txt": "A Bíblia inteira<br>numa viagem",
+   "dur": 3.2
+  },
+  "cenas": [
    {
     "gravura": "002",
     "mov": "in",
-    "txt": "E é aqui, no meio da tragédia, que aparece a promessa. Deus diz à serpente que um descendente da mulher ia esmagar a cabeça dela. Guarda isso: é o fio da viagem inteira.",
-    "verso": "Ele lhe ferirá a cabeça.",
+    "txt": "Uma promessa foi feita no terceiro capítulo da Bíblia, pra um casal que estava sendo expulso de um jardim. E ela só se cumpre muitos livros depois, escritos por gente que nunca se conheceu. Como isso é possível?"
+   },
+   {
+    "gravura": "053",
+    "mov": "esq",
+    "txt": "A Bíblia tem 66 livros, ou 73 na Bíblia católica. Tudo junto parece uma estante bagunçada. Mas não é. É uma viagem só, com começo, meio e fim."
+   },
+   {
+    "gravura": "061",
+    "mov": "out",
+    "txt": "E é por isso que tanta gente trava na leitura. Não é falta de fé, nem de inteligência. É que ninguém mostrou o mapa antes. A pessoa cai de paraquedas em Levítico, sem saber onde está, e cansa."
+   },
+   {
+    "gravura": "092",
+    "mov": "dir",
+    "txt": "Hoje eu vou te dar esse mapa, em nove paradas, do primeiro versículo ao último. Em cada parada você vai saber o que acontece, em que livros isso está e o que aquela parte mostra sobre Deus."
+   },
+   {
+    "gravura": "041",
+    "mov": "in",
+    "txt": "E eu vou deixar três perguntas abertas pelo caminho. A primeira: que promessa é essa feita na porta do jardim? A segunda: por que Deus escolhe uma família só, se ele ama o mundo inteiro?"
+   },
+   {
+    "gravura": "020",
+    "mov": "cima",
+    "txt": "E a terceira, que eu só respondo no último minuto: a Bíblia termina num lugar que você já viu na primeira página. Que lugar é esse? Fica comigo até o fim, porque essa resposta muda o jeito de ler tudo."
+   },
+   {
+    "gravura": "001",
+    "mov": "in",
+    "txt": "Primeira parada: Gênesis, capítulos 1 a 11. Deus cria tudo só com a palavra. Luz, mar, terra, plantas e bichos. E no fim de cada etapa, o texto repete a mesma coisa: e Deus viu que era bom.",
+    "cap": {
+     "sup": "PARADA 1",
+     "txt": "O começo"
+    }
+   },
+   {
+    "gravura": "053",
+    "mov": "esq",
+    "txt": "Aí vem o ponto alto. Deus cria o ser humano à sua própria imagem, homem e mulher. Não como enfeite do mundo, mas pra cuidar dele e viver perto de Deus."
+   },
+   {
+    "gravura": "002",
+    "mov": "out",
+    "txt": "Mas no capítulo 3 tudo racha. A serpente planta uma dúvida: será que Deus é bom mesmo? Adão e Eva comem do fruto proibido, se escondem e saem do jardim. A morte entra na história."
+   },
+   {
+    "gravura": "046",
+    "mov": "in",
+    "txt": "E repara no que Deus faz logo em seguida. Ele fala com a serpente e promete: um descendente da mulher ia ferir a cabeça dela. Essa é a primeira pergunta do vídeo. Guarda bem essa frase.",
+    "verso": "Ele ferirá a sua cabeça.",
     "ref": "GÊNESIS 3.15"
    },
    {
     "gravura": "003",
     "mov": "dir",
-    "txt": "Depois disso, o mal se espalha rápido. Caim mata o próprio irmão, Abel. E a violência cresce de geração em geração."
+    "txt": "Fora do jardim, o estrago cresce rápido. Caim mata o próprio irmão, Abel, por inveja. Uma geração depois do Éden, já tem sangue no chão."
    },
    {
     "gravura": "004",
     "mov": "cima",
-    "txt": "Vem o dilúvio. Deus recomeça com Noé e a família dele, e faz uma aliança com a terra inteira, com o arco-íris como sinal."
+    "txt": "A violência se espalha tanto que vem o dilúvio. Mas Deus não desiste da criação. Ele guarda Noé e a família na arca, recomeça com eles e põe o arco-íris no céu como sinal de aliança."
    },
    {
     "gravura": "006",
     "mov": "in",
-    "txt": "E em Babel, as pessoas tentam construir uma torre até o céu, pra fazer um nome pra si mesmas. Deus confunde as línguas e espalha os povos. A humanidade continua perdida."
+    "txt": "E em Babel, os povos se juntam pra construir uma torre até o céu e fazer um nome pra si mesmos. Deus confunde as línguas e espalha todo mundo. Gênesis 11 termina com uma humanidade dividida."
    },
    {
     "gravura": "053",
     "mov": "out",
-    "txt": "Primeira parada vencida. Tá comigo? Se a promessa de Gênesis 3 ficou na sua cabeça, escreve: promessa. Ela vai voltar.",
+    "txt": "Pergunta rápida, pra ver se você tá junto comigo: quantos capítulos de Gênesis durou essa primeira parada? Se você lembra, escreve o número aqui nos comentários.",
     "interage": {
      "tipo": "checkin",
-     "txt": "Escreve: promessa"
+     "txt": "Quantos capítulos? Escreve o número"
     },
     "conv": true
    },
    {
     "gravura": "007",
     "mov": "in",
-    "txt": "Segunda parada: Gênesis 12 a 50. Deus chama um homem, Abrão, e faz uma promessa: vou te dar uma terra, uma descendência enorme, e através de você todas as famílias da terra vão ser abençoadas.",
+    "txt": "Segunda parada: Gênesis 12 a 50. Depois de Babel, Deus não chama um império. Chama um homem já idoso e sem filhos, Abrão, e manda ele sair da terra dele sem saber direito pra onde ia.",
     "cap": {
      "sup": "PARADA 2",
-     "txt": "Uma família escolhida"
-    },
+     "txt": "A família escolhida"
+    }
+   },
+   {
+    "gravura": "005",
+    "mov": "esq",
+    "txt": "E faz uma promessa em três partes: uma terra, uma descendência enorme e uma bênção que não ia ficar só com ele. Em você, diz Deus, todas as famílias da terra vão ser abençoadas.",
     "verso": "Em você serão benditas todas as famílias da terra.",
     "ref": "GÊNESIS 12.3"
    },
    {
+    "gravura": "061",
+    "mov": "out",
+    "txt": "Repara nessa última parte, porque ela começa a responder a segunda pergunta. Deus não escolhe uma família pra deixar o resto de fora. Escolhe uma família pra alcançar as outras por meio dela."
+   },
+   {
+    "gravura": "010",
+    "mov": "dir",
+    "txt": "Só que a promessa demora. Abraão e Sara envelhecem esperando. Até que, já bem velhos, nasce Isaque, o filho prometido."
+   },
+   {
     "gravura": "011",
-    "mov": "esq",
-    "txt": "Abraão espera muitos anos pelo filho prometido, Isaque. E depois é provado no monte, quando Deus pede o próprio filho e providencia um carneiro no lugar."
+    "mov": "in",
+    "txt": "E então vem um dos capítulos mais difíceis da Bíblia: Deus pede Isaque no monte. Abraão sobe com o filho carregando a lenha. E no último instante, Deus segura a mão dele e providencia um carneiro."
    },
    {
     "gravura": "013",
-    "mov": "out",
-    "txt": "Isaque se casa com Rebeca. Eles têm gêmeos, Esaú e Jacó. E é Jacó, o mais novo e cheio de truques, que leva a promessa adiante."
+    "mov": "esq",
+    "txt": "Isaque se casa com Rebeca, que o servo de Abraão encontra junto a um poço. Eles têm gêmeos, Esaú e Jacó. E quem leva a promessa adiante é Jacó, o mais novo e o mais complicado."
    },
    {
     "gravura": "014",
-    "mov": "dir",
-    "txt": "Jacó ganha um nome novo: Israel. Ele tem doze filhos, e deles vêm as doze tribos do povo de Deus."
+    "mov": "out",
+    "txt": "Jacó engana o irmão, engana o pai, foge e acaba enganado também. Mas Deus não larga dele. Muda o nome dele pra Israel, e os doze filhos dele viram as doze tribos de um povo."
    },
    {
     "gravura": "016",
-    "mov": "in",
-    "txt": "Um desses filhos é José. Vendido pelos irmãos, vira escravo no Egito, vai pra prisão e termina governador. Quando chega a fome, a família inteira vai morar no Egito."
+    "mov": "dir",
+    "txt": "Outro filho é José. Os irmãos vendem ele como escravo. No Egito ele passa pela prisão e termina governando a terra. E quando vem a fome, quem salva a família é justamente o irmão que foi vendido."
    },
    {
     "gravura": "018",
-    "mov": "out",
-    "txt": "Gênesis termina assim: a família da promessa está viva, mas está fora da terra prometida. E a próxima parada começa muito tempo depois."
+    "mov": "in",
+    "txt": "Gênesis fecha assim: a família está viva e reconciliada, mas está no Egito, longe da terra prometida. O texto diz que eram setenta pessoas. Guarda esse número pequeno, porque a próxima parada começa enorme."
    },
    {
     "gravura": "019",
-    "mov": "in",
-    "txt": "Terceira parada: Êxodo. A família virou um povo grande, e o Egito escravizou esse povo. Um menino hebreu é salvo das águas do Nilo e criado no palácio do faraó: Moisés.",
+    "mov": "out",
+    "txt": "Terceira parada: Êxodo. Aquela família de setenta virou um povo tão grande que o faraó ficou com medo, escravizou todo mundo e mandou matar os meninos hebreus. Mas um bebê escapa no rio Nilo: Moisés.",
     "cap": {
      "sup": "PARADA 3",
-     "txt": "A saída do Egito"
+     "txt": "Livres do Egito"
     }
    },
    {
-    "gravura": "017",
+    "gravura": "053",
     "mov": "esq",
-    "txt": "Deus chama Moisés pra tirar o povo do Egito. Vêm as pragas, a primeira Páscoa e a travessia do mar. Deus liberta Israel."
+    "txt": "Moisés cresce no palácio, foge pro deserto e passa anos cuidando de ovelhas. Lá, numa sarça que pega fogo sem se queimar, Deus chama ele pra voltar e dizer ao faraó: deixa o meu povo ir."
+   },
+   {
+    "gravura": "017",
+    "mov": "out",
+    "txt": "Vêm as pragas, uma atrás da outra. Na última noite, o povo marca as portas com o sangue de um cordeiro, e a morte passa por cima daquelas casas. É a primeira Páscoa. Lembra desse cordeiro."
    },
    {
     "gravura": "020",
-    "mov": "out",
-    "txt": "No monte Sinai, Deus faz uma aliança com o povo e dá a lei, começando pelos Dez Mandamentos. Repara na ordem: Deus não salva o povo por causa da lei. Ele salva primeiro, e depois mostra como viver."
+    "mov": "dir",
+    "txt": "Depois, o mar se abre e o povo atravessa a seco. Um povo de escravos sai livre sem ter vencido nenhuma batalha. Quem liberta é Deus, do começo ao fim."
    },
    {
-    "gravura": "018",
+    "gravura": "047",
+    "mov": "in",
+    "txt": "No monte Sinai, Deus faz aliança com eles e dá a lei. E presta atenção em como os mandamentos começam: não com uma ordem, mas com uma lembrança. Eu sou o teu Deus, que te tirou do Egito.",
+    "verso": "Eu sou o Senhor, o teu Deus, que te tirou do Egito.",
+    "ref": "ÊXODO 20.2"
+   },
+   {
+    "gravura": "037",
     "mov": "cima",
-    "txt": "Levítico mostra como um povo imperfeito pode chegar perto de um Deus santo: sacrifícios, festas e o Dia do Perdão. Tudo isso aponta pra frente, pra algo maior."
+    "txt": "Ou seja: Deus não salva o povo porque ele obedeceu. Ele salva primeiro e depois ensina a viver. Primeiro a graça, depois a obediência."
+   },
+   {
+    "gravura": "055",
+    "mov": "out",
+    "txt": "Levítico, que muita gente pula, é o manual de como um povo imperfeito pode morar perto de um Deus santo. Sacrifícios, festas e o Dia do Perdão. Tudo apontando pra algo que ainda ia chegar."
    },
    {
     "gravura": "053",
     "mov": "dir",
-    "txt": "Em Números, o povo desconfia de Deus e fica quarenta anos no deserto. E em Deuteronômio, Moisés relembra tudo antes de morrer, e o povo se prepara pra entrar na terra."
+    "txt": "Em Números, o povo reclama, desconfia e tem medo de entrar na terra. Resultado: quarenta anos andando no deserto, e uma geração inteira fica pelo caminho. Em Deuteronômio, Moisés relembra tudo antes de morrer."
    },
    {
-    "gravura": "063",
+    "gravura": "046",
     "mov": "in",
-    "txt": "Pausa pra você: de Abraão até Moisés, qual história você mais gosta? Escreve o nome aqui.",
+    "txt": "Se você é daqueles que sempre trava em Levítico ou em Números, salva esse vídeo agora. Quando chegar nesses livros, volta nessa parte e lembra: é um povo aprendendo a morar perto de Deus.",
     "interage": {
-     "tipo": "comenta",
-     "txt": "Qual história você mais gosta?"
+     "tipo": "salva",
+     "txt": "Salva pra quando travar"
     },
     "conv": true
    },
    {
     "gravura": "033",
-    "mov": "in",
-    "txt": "Quarta parada: de Josué até Crônicas. Com Josué, o povo finalmente entra na terra prometida.",
+    "mov": "out",
+    "txt": "Quarta parada: Josué. Com Moisés morto, Josué leva o povo pra dentro da terra. As muralhas de Jericó caem, as tribos recebem seus territórios e, no fim, o livro faz um balanço que vale ouro.",
     "cap": {
      "sup": "PARADA 4",
-     "txt": "A terra e os reis"
+     "txt": "A terra prometida"
     }
    },
    {
-    "gravura": "022",
+    "gravura": "030",
     "mov": "esq",
-    "txt": "Depois vem o tempo dos Juízes, um ciclo que se repete: o povo esquece Deus, sofre, clama, e Deus levanta um libertador. Débora, Gideão, Sansão."
+    "txt": "O texto diz assim: nenhuma das boas promessas que Deus tinha feito a Israel falhou. Todas se cumpriram. A parte da terra, prometida a Abraão lá atrás, finalmente chegou.",
+    "verso": "Nenhuma promessa falhou; todas se cumpriram.",
+    "ref": "JOSUÉ 21.45"
    },
    {
-    "gravura": "029",
+    "gravura": "022",
     "mov": "out",
-    "txt": "No meio desse caos, tem uma história de lealdade: Rute, uma estrangeira que entra no povo de Deus. E ela vira bisavó do rei Davi."
+    "txt": "Só que depois vem Juízes, e é um ciclo que se repete sem parar. O povo esquece Deus, sofre nas mãos dos inimigos, clama, e Deus levanta um libertador. Débora, Gideão, Sansão."
    },
    {
-    "gravura": "031",
+    "gravura": "025",
     "mov": "dir",
-    "txt": "O povo pede um rei. O primeiro é Saul, que começa bem e termina mal. Ele chega a atirar uma lança em Davi."
+    "txt": "Sansão é o retrato desse tempo. Forte o bastante pra rasgar um leão com as mãos, e fraco demais pra dizer não aos próprios desejos. O libertador também precisava ser libertado."
    },
    {
-    "gravura": "036",
-    "mov": "in",
-    "txt": "Davi vira rei. E Deus faz uma promessa a ele: um descendente seu vai reinar pra sempre. O fio da promessa fica mais forte.",
-    "verso": "O teu trono será firme para sempre.",
-    "ref": "2 SAMUEL 7.16"
-   },
-   {
-    "gravura": "043",
-    "mov": "out",
-    "txt": "Salomão, filho de Davi, constrói o templo em Jerusalém. É o auge do reino. Mas o coração de Salomão se desvia, e depois dele o reino se divide em dois: Israel, no norte, e Judá, no sul."
-   },
-   {
-    "gravura": "040",
+    "gravura": "027",
     "mov": "cima",
-    "txt": "Vêm alguns reis bons e muitos reis maus. Deus manda profetas pra chamar o povo de volta. Elias enfrenta os profetas de Baal, e fogo desce do céu."
-   },
-   {
-    "gravura": "042",
-    "mov": "in",
-    "txt": "Mas o povo não volta. O reino do norte cai diante da Assíria. E mais tarde, Judá cai diante da Babilônia."
+    "txt": "E o livro termina com uma frase que explica a bagunça toda: naqueles dias não havia rei em Israel, e cada um fazia o que achava certo. Guarda essa frase, porque ela prepara a próxima parada.",
+    "verso": "Cada um fazia o que achava certo.",
+    "ref": "JUÍZES 21.25"
    },
    {
     "gravura": "092",
     "mov": "in",
-    "txt": "Pausa rápida na viagem. Se você quer começar a ler a Bíblia com uma rota, eu preparei a Rota da Primeira Viagem, grátis. Comenta ROTA ou pega no link da descrição.",
+    "txt": "Pausa na estrada. Se esse mapa está te ajudando, eu montei uma rota de leitura pra quem quer começar sem se perder: a Rota da Primeira Viagem. É grátis. Comenta ROTA ou pega no link da descrição.",
     "cta": "Comenta <b>ROTA</b><br>e receba a rota grátis"
    },
    {
-    "gravura": "046",
+    "gravura": "028",
+    "mov": "out",
+    "txt": "No meio desse caos, tem um livro pequeno e lindo: Rute. Uma estrangeira, viúva, que entra no povo de Deus e vira bisavó do rei Davi. Já é um pedacinho daquele todas as famílias da terra."
+   },
+   {
+    "gravura": "031",
     "mov": "in",
-    "txt": "Quinta parada: o exílio. Jerusalém é destruída, o templo cai, e o povo é levado pra Babilônia. Parece que a promessa acabou.",
+    "txt": "Quinta parada: os livros de Samuel, Reis e Crônicas. O povo pede um rei, como as outras nações. O primeiro é Saul, que começa bem. Mas desobedece, fica amargo e cheio de inveja.",
     "cap": {
      "sup": "PARADA 5",
+     "txt": "O trono de Davi"
+    }
+   },
+   {
+    "gravura": "032",
+    "mov": "out",
+    "txt": "Deus escolhe outro: Davi, o caçula de uma família de Belém, que cuidava de ovelhas. Saul tenta matar Davi várias vezes. E Davi, mesmo tendo a chance, poupa a vida de Saul."
+   },
+   {
+    "gravura": "036",
+    "mov": "dir",
+    "txt": "Davi vira rei, e Deus faz a ele uma promessa enorme: um descendente dele vai ter um trono que não acaba nunca. Agora o fio da promessa tem endereço: a família de Davi.",
+    "verso": "O teu trono será firme para sempre.",
+    "ref": "2 SAMUEL 7.16"
+   },
+   {
+    "gravura": "034",
+    "mov": "esq",
+    "txt": "Mas Davi também cai feio. Adultério com Bate-Seba, a morte de Urias, e depois a família desmoronando, com o próprio filho Absalão se revoltando contra ele. A Bíblia não esconde os pecados dos heróis."
+   },
+   {
+    "gravura": "043",
+    "mov": "in",
+    "txt": "Salomão, filho de Davi, constrói o templo em Jerusalém. É o auge: riqueza, sabedoria e paz. Mas, com o tempo, o coração dele se desvia de Deus."
+   },
+   {
+    "gravura": "044",
+    "mov": "cima",
+    "txt": "E aqui fica uma dúvida no ar: se até Davi e Salomão falharam, quem vai ser esse rei do trono eterno? Segura essa pergunta. O próprio Antigo Testamento vai terminar esperando a resposta."
+   },
+   {
+    "gravura": "040",
+    "mov": "out",
+    "txt": "Depois de Salomão, o reino racha em dois: Israel no norte e Judá no sul. Vêm poucos reis bons e muitos reis maus. E Deus manda profetas, como Elias, que enfrenta os profetas de Baal no monte Carmelo."
+   },
+   {
+    "gravura": "042",
+    "mov": "dir",
+    "txt": "Mas o povo não volta. O reino do norte cai diante da Assíria. Mais tarde, o reino do sul cai diante da Babilônia. A terra que tinha chegado em Josué agora é perdida."
+   },
+   {
+    "gravura": "041",
+    "mov": "in",
+    "txt": "Se essa viagem está fazendo a Bíblia ter sentido pra você, esse é um bom momento pra seguir o canal. Porque agora vem a parte mais escura da história, e logo depois a mais bonita.",
+    "interage": {
+     "tipo": "segue",
+     "txt": "Segue: agora vem a virada"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "046",
+    "mov": "out",
+    "txt": "Sexta parada: o exílio. Jerusalém é destruída, o templo vira ruína e o povo é levado pra Babilônia. Sem terra, sem rei e sem templo. Parece que a promessa morreu ali.",
+    "cap": {
+     "sup": "PARADA 6",
      "txt": "Exílio e profetas"
     }
    },
    {
-    "gravura": "047",
+    "gravura": "044",
     "mov": "esq",
-    "txt": "É aqui que os profetas brilham. Jeremias chora pela cidade, mas anuncia uma nova aliança, escrita não em pedra, mas no coração."
+    "txt": "E é justamente aí que os profetas mais falam de esperança. Jeremias chora pela cidade, mas anuncia uma nova aliança, escrita não em tábuas de pedra, mas dentro do coração.",
+    "verso": "Porei a minha lei no coração deles.",
+    "ref": "JEREMIAS 31.33"
    },
    {
     "gravura": "048",
     "mov": "out",
-    "txt": "Ezequiel vê um vale de ossos secos voltando à vida. É o retrato de um povo sem esperança que Deus vai levantar de novo."
+    "txt": "Ezequiel vê um vale cheio de ossos secos. Deus pergunta: esses ossos podem viver? E eles se juntam, ganham carne e fôlego. É o retrato de um povo sem esperança que Deus vai levantar de novo."
    },
    {
-    "gravura": "052",
+    "gravura": "047",
     "mov": "dir",
-    "txt": "Daniel, na Babilônia, continua fiel. E vê visões de um reino que Deus vai estabelecer e que nunca vai acabar."
-   },
-   {
-    "gravura": "044",
-    "mov": "in",
-    "txt": "E Isaías fala de um servo misterioso, que ia sofrer no lugar dos outros. Guarda isso também.",
+    "txt": "Isaías fala de um servo misterioso, que ia sofrer no lugar dos outros, ferido por culpas que não eram dele. Esse retrato fica esperando um rosto.",
     "verso": "Ele foi ferido por causa das nossas transgressões.",
     "ref": "ISAÍAS 53.5"
    },
    {
     "gravura": "049",
-    "mov": "out",
-    "txt": "Décadas depois, a Pérsia derrota a Babilônia, e o rei Ciro deixa os judeus voltarem. Esdras e Neemias contam a reconstrução do templo e dos muros de Jerusalém."
+    "mov": "cima",
+    "txt": "Até que a Pérsia vence a Babilônia, e o rei Ciro deixa os judeus voltarem. Esdras e Neemias contam a volta: o templo é reconstruído e os muros de Jerusalém se levantam de novo."
    },
    {
     "gravura": "053",
-    "mov": "cima",
-    "txt": "O Antigo Testamento termina com o povo de volta à terra, mas esperando. Esperando o rei prometido a Davi. Esperando o servo de Isaías. E vêm séculos sem um novo profeta."
+    "mov": "out",
+    "txt": "Mas o Antigo Testamento termina sem final completo. O povo voltou, só que o rei da família de Davi não apareceu. O servo de Isaías também não. E vem um longo tempo sem livro novo, só esperando."
    },
    {
-    "gravura": "092",
-    "mov": "esq",
-    "txt": "Se essa viagem está clareando a Bíblia pra você, segue o canal agora, antes da parada mais importante. A próxima parada é Jesus.",
+    "gravura": "054",
+    "mov": "in",
+    "txt": "Me conta uma coisa nos comentários: você já passou por um tempo assim, em que parecia que Deus tinha esquecido o que prometeu? Escreve só: esperei. Eu leio, e a próxima parada é pra você.",
     "interage": {
-     "tipo": "segue",
-     "txt": "A próxima parada é Jesus"
+     "tipo": "comenta",
+     "txt": "Já esperou assim? Escreve: esperei"
     },
     "conv": true
    },
    {
     "gravura": "057",
-    "mov": "in",
-    "txt": "Sexta parada: os Evangelhos. Num estábulo em Belém, nasce Jesus, da família de Davi. Mateus abre o Novo Testamento justamente assim: Jesus, filho de Davi, filho de Abraão.",
+    "mov": "out",
+    "txt": "Sétima parada: os Evangelhos. Depois de toda essa espera, nasce um menino em Belém, a cidade de Davi. E Mateus abre o Novo Testamento com uma frase que amarra tudo: Jesus, filho de Davi, filho de Abraão.",
     "cap": {
-     "sup": "PARADA 6",
+     "sup": "PARADA 7",
      "txt": "O Rei chegou"
-    }
+    },
+    "verso": "Jesus Cristo, filho de Davi, filho de Abraão.",
+    "ref": "MATEUS 1.1"
    },
    {
     "gravura": "058",
     "mov": "esq",
-    "txt": "Magos do Oriente vêm adorar o rei recém-nascido. E a família foge pro Egito, pra escapar do rei Herodes."
+    "txt": "Filho de Davi: o rei do trono eterno. Filho de Abraão: a bênção pra todas as famílias. E os primeiros a adorar o menino são magos estrangeiros, vindos do Oriente."
    },
    {
     "gravura": "063",
     "mov": "out",
-    "txt": "Adulto, Jesus anuncia que o reino de Deus chegou. Ele ensina, cura doentes, perdoa pecados e acolhe quem todo mundo rejeitava."
+    "txt": "Adulto, Jesus começa a pregar dizendo: o tempo se cumpriu, o reino de Deus chegou. Tudo aquilo que os profetas esperavam, ele diz que começa ali, nele."
+   },
+   {
+    "gravura": "062",
+    "mov": "dir",
+    "txt": "E ele mostra esse reino na prática. Cura doentes, perdoa pecados, come com gente mal falada e toca em quem ninguém tinha coragem de tocar."
    },
    {
     "gravura": "068",
-    "mov": "dir",
-    "txt": "Ele acalma tempestades e anda sobre o mar. E os discípulos se perguntam: quem é este?"
+    "mov": "cima",
+    "txt": "Ele acalma a tempestade, anda sobre o mar, e os discípulos perguntam assustados: quem é este? Essa pergunta atravessa os quatro Evangelhos de ponta a ponta."
    },
    {
     "gravura": "069",
     "mov": "in",
-    "txt": "Até que ele entra em Jerusalém montado num jumentinho, e o povo grita: hosana ao filho de Davi."
+    "txt": "Até que ele entra em Jerusalém montado num jumentinho, como o profeta Zacarias tinha descrito, e a multidão grita: hosana ao filho de Davi. O rei esperado chega humilde."
    },
    {
     "gravura": "082",
     "mov": "out",
-    "txt": "Na última ceia, ele diz que o pão é o seu corpo e que o cálice é a nova aliança no seu sangue. A nova aliança que Jeremias tinha anunciado."
+    "txt": "Na última ceia, na semana da Páscoa, ele pega o pão e o cálice e fala de uma nova aliança no seu sangue. Lembra do cordeiro da Páscoa no Egito? E da nova aliança de Jeremias? As duas se encontram nessa mesa."
+   },
+   {
+    "gravura": "083",
+    "mov": "esq",
+    "txt": "No Getsêmani, ele ora com uma angústia enorme. Depois é preso, julgado e abandonado pelos amigos. O servo de Isaías, ferido pelas culpas dos outros, agora tem rosto."
    },
    {
     "gravura": "088",
     "mov": "in",
-    "txt": "Na sexta-feira, ele é crucificado. O servo de Isaías, ferido pelas nossas transgressões. E antes de morrer, ele diz: está consumado.",
+    "txt": "E na cruz, antes de morrer, ele diz: está consumado. Não é um grito de derrota. É o aviso de que o trabalho foi terminado.",
     "verso": "Está consumado.",
     "ref": "JOÃO 19.30"
    },
    {
     "gravura": "091",
     "mov": "cima",
-    "txt": "No domingo, o túmulo está vazio. Jesus ressuscitou. A cabeça da serpente foi esmagada. A promessa de Gênesis 3 se cumpriu."
+    "txt": "No domingo, o túmulo está vazio. Ele ressuscitou. E agora eu fecho a primeira pergunta do vídeo: a cabeça da serpente foi esmagada. A promessa feita na porta do jardim, em Gênesis 3.15, se cumpriu aqui."
    },
    {
-    "gravura": "053",
+    "gravura": "092",
     "mov": "dir",
-    "txt": "Lembra da promessa lá do começo? Você acabou de ver ela se cumprir. Escreve nos comentários: cumprida. Quero ver quem chegou até aqui.",
+    "txt": "E o próprio Jesus mostra o fio. No caminho de Emaús, ele explica a dois discípulos, começando por Moisés e todos os profetas, o que as Escrituras diziam sobre ele. A viagem inteira apontava pra ele.",
+    "verso": "Começando por Moisés e todos os profetas, explicou o que as Escrituras diziam a seu respeito.",
+    "ref": "LUCAS 24.27"
+   },
+   {
+    "gravura": "065",
+    "mov": "in",
+    "txt": "Agora me diz: dessas promessas que se cumpriram em Jesus, qual mexeu mais com você? A da serpente, a do trono de Davi ou a do servo de Isaías? Escreve nos comentários: serpente, trono ou servo.",
     "interage": {
      "tipo": "comenta",
-     "txt": "Escreve: cumprida"
+     "txt": "Serpente, trono ou servo?"
     },
     "conv": true
    },
    {
     "gravura": "093",
-    "mov": "in",
-    "txt": "Sétima parada: Atos e as cartas. Jesus sobe ao céu e manda os discípulos levarem a mensagem até os confins da terra.",
+    "mov": "out",
+    "txt": "Oitava parada: Atos dos Apóstolos. Antes de subir ao céu, Jesus diz aos discípulos que eles vão ser testemunhas dele em Jerusalém, na Judeia, em Samaria e até os confins da terra.",
     "cap": {
-     "sup": "PARADA 7",
-     "txt": "A Igreja nasce"
+     "sup": "PARADA 8",
+     "txt": "Até os confins"
     }
    },
    {
-    "gravura": "094",
+    "gravura": "054",
     "mov": "esq",
-    "txt": "Em Pentecostes, o Espírito Santo desce, e a Igreja nasce em Jerusalém. Logo vem a perseguição, e Estêvão é apedrejado."
+    "txt": "No Pentecostes, o Espírito Santo desce, e Pedro prega em Jerusalém pra gente de muitos lugares, cada um ouvindo na própria língua. Lembra de Babel, onde as línguas espalharam os povos? Aqui, as línguas juntam."
+   },
+   {
+    "gravura": "094",
+    "mov": "out",
+    "txt": "A Igreja cresce, e com ela vem a perseguição. Estêvão é apedrejado. E quem guarda as roupas dos que atiram as pedras é um jovem chamado Saulo."
    },
    {
     "gravura": "095",
-    "mov": "out",
-    "txt": "E um perseguidor, Saulo, encontra Jesus no caminho de Damasco. Ele vira Paulo, o apóstolo que leva o evangelho aos povos não judeus."
+    "mov": "dir",
+    "txt": "Esse mesmo Saulo, indo prender cristãos, cai por terra diante de uma luz no caminho de Damasco e encontra Jesus. Ele vira Paulo, o apóstolo que leva a mensagem aos povos que não eram judeus."
    },
    {
     "gravura": "099",
-    "mov": "dir",
-    "txt": "Paulo viaja, planta igrejas e escreve cartas pra elas: Romanos, Coríntios, Gálatas, Efésios. É a promessa feita a Abraão se cumprindo: todas as famílias da terra sendo abençoadas."
+    "mov": "in",
+    "txt": "Paulo viaja por terra e por mar, apanha, é preso, naufraga, e vai plantando igrejas pelo caminho. E escreve cartas pra elas: Romanos, Coríntios, Gálatas, Efésios, Filipenses e outras."
+   },
+   {
+    "gravura": "097",
+    "mov": "cima",
+    "txt": "E é numa dessas cartas que eu fecho a segunda pergunta. Em Gálatas, Paulo diz que a Escritura anunciou o evangelho a Abraão bem antes: em você todas as nações serão abençoadas.",
+    "verso": "Em você serão abençoadas todas as nações.",
+    "ref": "GÁLATAS 3.8"
+   },
+   {
+    "gravura": "053",
+    "mov": "out",
+    "txt": "Ou seja, Deus nunca escolheu Abraão pra deixar o mundo de fora. Escolheu Abraão pra chegar no mundo inteiro. Se você crê em Jesus hoje, você é uma das famílias que aquela promessa alcançou."
    },
    {
     "gravura": "041",
     "mov": "in",
-    "txt": "Última parada: Apocalipse. Não é um livro pra dar medo. É uma mensagem pra igrejas perseguidas: Jesus venceu, e ele vai voltar.",
+    "txt": "Nona e última parada: Apocalipse. Muita gente tem medo desse livro. Mas ele foi escrito pra igrejas perseguidas, e a mensagem central é simples: Jesus venceu, e ele vai voltar.",
     "cap": {
-     "sup": "PARADA 8",
+     "sup": "PARADA 9",
      "txt": "O fim que é começo"
     }
    },
    {
-    "gravura": "001",
+    "gravura": "045",
+    "mov": "esq",
+    "txt": "Tem dragões, selos, trombetas e muitas imagens fortes, e existem leituras diferentes sobre os detalhes. Mas católicos e evangélicos concordam no principal: o mal não tem a última palavra."
+   },
+   {
+    "gravura": "020",
     "mov": "cima",
-    "txt": "E a Bíblia termina onde começou: num jardim. Novo céu e nova terra, Deus morando com o seu povo, sem morte, sem choro e sem dor.",
+    "txt": "No capítulo 21, João vê um novo céu e uma nova terra. Deus morando com o seu povo, sem morte, sem choro e sem dor. E aquele que está no trono diz: eis que faço novas todas as coisas.",
     "verso": "Eis que faço novas todas as coisas.",
     "ref": "APOCALIPSE 21.5"
    },
    {
-    "gravura": "020",
-    "mov": "out",
-    "txt": "Resumindo a viagem: criação, queda, promessa, uma família, um povo, reis, exílio, Jesus, a Igreja e a nova criação. Uma história só, e Jesus no centro dela."
-   },
-   {
-    "gravura": "061",
+    "gravura": "001",
     "mov": "in",
-    "txt": "Agora, quando você abrir qualquer livro da Bíblia, pergunta: em que parada eu estou? Só essa pergunta já muda a leitura."
+    "txt": "E agora eu fecho a última pergunta, a maior. O último capítulo da Bíblia mostra um rio e, dos dois lados dele, a árvore da vida. A mesma árvore que estava no jardim do Éden, lá em Gênesis 2.",
+    "verso": "De um lado e do outro do rio está a árvore da vida.",
+    "ref": "APOCALIPSE 22.2"
+   },
+   {
+    "gravura": "002",
+    "mov": "out",
+    "txt": "Lembra da saída do jardim? Em Gênesis 3, querubins com uma espada de fogo ficam guardando o caminho da árvore da vida. O ser humano perdeu o acesso. E esse caminho ficou fechado a Bíblia inteira."
+   },
+   {
+    "gravura": "093",
+    "mov": "cima",
+    "txt": "No Apocalipse, ele está aberto de novo, e as folhas da árvore servem pra curar as nações. A Bíblia começa num jardim e termina numa cidade-jardim. O que foi perdido em Gênesis é devolvido no fim."
+   },
+   {
+    "gravura": "053",
+    "mov": "in",
+    "txt": "Então olha a viagem inteira de uma vez: criação, queda, promessa, uma família, um povo liberto, uma terra, reis, exílio, Jesus, a Igreja e a nova criação. Muitos livros, uma história só."
    },
    {
     "gravura": "061",
     "mov": "out",
-    "txt": "Conhece alguém que diz que não entende a Bíblia? Manda esse vídeo pra essa pessoa. Pode ser o começo da viagem dela.",
+    "txt": "E o centro dessa história não é você nem eu. É Jesus. Foi por isso que ele disse em Emaús que Moisés e os profetas falavam dele. Cada parada aponta pra ele, até as mais escuras."
+   },
+   {
+    "gravura": "044",
+    "mov": "esq",
+    "txt": "Agora a dica prática pra sua próxima leitura. Quando abrir qualquer livro da Bíblia, pergunta primeiro: em que parada eu estou? Antes de Jesus, esperando a promessa? Ou depois, vivendo a promessa? Só essa pergunta já tira muita confusão."
+   },
+   {
+    "gravura": "028",
+    "mov": "in",
+    "txt": "Tem alguém na sua vida que já disse: eu tentei ler a Bíblia, mas não entendi nada? Manda esse vídeo pra essa pessoa. Às vezes, o que faltava era só o mapa.",
     "interage": {
      "tipo": "manda",
-     "txt": "Manda pra quem diz que não entende"
+     "txt": "Manda pra quem não entendeu"
     },
     "conv": true
    },
    {
-    "gravura": "093",
+    "gravura": "092",
     "mov": "out",
-    "txt": "No próximo vídeo, a gente entra nos quatro Evangelhos com calma. Até a próxima parada, viajante da Palavra.",
+    "txt": "No próximo vídeo, a gente para numa estação só, com calma: os quatro Evangelhos, e por que eles contam a mesma história de jeitos diferentes. Até a próxima parada, viajante da Palavra.",
     "cta": "Até a próxima <b>parada</b>,<br>viajante",
     "selo": "PASSA<br>PORTE"
    }
@@ -2582,359 +3050,563 @@
  {
   "id": "longo-04",
   "formato": "longo",
-  "titulo": "Os 4 Evangelhos: qual a diferença e qual ler primeiro?",
-  "legenda": "Por que a Bíblia tem 4 Evangelhos? Neste vídeo você entende a diferença entre Mateus, Marcos, Lucas e João: quem escreveu, pra quem, o que cada um quer que você veja em Jesus. E no fim, a ordem pra começar se você nunca leu.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📖 Observação: os versículos aparecem em paráfrase curta, com a referência. Confira na sua tradução. A autoria dos Evangelhos segue a tradição antiga da Igreja.\n\n🎫 A Rota da Primeira Viagem começa por Marcos, com um plano de 7 dias. É grátis: link na descrição ou comente ROTA.\n\n#Evangelhos #BíbliaParaIniciantes #EstudoBíblico #PassaporteDaBíblia",
-  "comentario": "📌 Qual Evangelho você vai ler primeiro: Mateus, Marcos, Lucas ou João? Comente o nome. Quando terminar, volte e comente CARIMBEI.",
+  "titulo": "Os 4 Evangelhos: qual ler primeiro?",
+  "legenda": "Por que a Bíblia tem 4 Evangelhos e não um só? Neste vídeo você entende a diferença entre Mateus, Marcos, Lucas e João: quem escreveu, pra quem escreveu e o que cada um quer que você veja em Jesus. Você também descobre o final de Marcos que tem nota de rodapé, o mistério dos anjos no túmulo vazio e as sete frases de Jesus na cruz espalhadas pelos quatro.\n\nNo fim, você recebe uma ordem simples pra começar a ler os Evangelhos, mesmo que nunca tenha aberto a Bíblia.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📖 Observação: os versículos aparecem em paráfrase curta, com a referência. Confira na sua tradução. A autoria dos Evangelhos segue a tradição antiga da Igreja.\n\n🎫 A Rota da Primeira Viagem começa por Marcos, com um plano de 7 dias. É grátis: baixe no link da descrição ou comente ROTA.\n\n#Evangelhos #ComoLerABíblia #MateusMarcosLucasJoão #EstudoBíblico #PassaporteDaBíblia",
+  "comentario": "📌 Seu palpite do começo bateu? Qual Evangelho você vai ler primeiro: Mateus, Marcos, Lucas ou João? Comente o nome. Quando terminar, volte e comente CARIMBEI.",
   "titulo_tela": {
    "sup": "PASSAPORTE DA BÍBLIA",
-   "txt": "Os 4 Evangelhos",
+   "txt": "Os 4<br>Evangelhos",
    "dur": 3.2
   },
   "cenas": [
    {
     "gravura": "082",
     "mov": "in",
-    "txt": "Por que a Bíblia tem quatro Evangelhos contando a vida de Jesus? Não bastava um? E se são quatro, qual você deveria ler primeiro?"
+    "txt": "Quatro homens escreveram sobre a mesma pessoa, e nenhum começa do mesmo jeito. Um abre com uma lista de nomes. Outro pula o Natal. Outro faz uma investigação. E o último começa antes de o mundo existir."
    },
    {
     "gravura": "061",
+    "mov": "out",
+    "txt": "Por que a Bíblia precisava de quatro relatos da vida de Jesus? Não bastava um? E, se são quatro, por qual você começa sem se perder no caminho?"
+   },
+   {
+    "gravura": "066",
     "mov": "esq",
-    "txt": "Muita gente abre Mateus, dá de cara com uma lista de nomes no capítulo 1 e desiste. Ou lê os quatro em sequência e acha que está lendo a mesma coisa quatro vezes."
+    "txt": "Muita gente abre Mateus, dá de cara com uma lista de nomes difíceis e fecha a Bíblia ali mesmo. Outros leem os quatro em sequência e acham que leram a mesma coisa quatro vezes."
    },
    {
     "gravura": "063",
-    "mov": "out",
-    "txt": "Hoje você vai entender a diferença entre Mateus, Marcos, Lucas e João. Quem escreveu, pra quem, e o que cada um quer que você veja em Jesus. E no fim, a ordem pra começar."
+    "mov": "dir",
+    "txt": "Nessa viagem você vai conhecer Mateus, Marcos, Lucas e João de perto. Quem escreveu, pra quem escreveu e o que cada um quer que você enxergue em Jesus."
    },
    {
-    "gravura": "092",
-    "mov": "dir",
-    "txt": "Pensa assim: quatro pessoas contando a mesma viagem, cada uma do seu jeito. Uma conta os detalhes, outra conta correndo, outra conta pra quem é de fora, outra conta o sentido de tudo. Juntas, elas mostram mais do que uma sozinha."
+    "gravura": "091",
+    "mov": "in",
+    "txt": "E no caminho tem duas surpresas. A primeira: um dos quatro termina de um jeito tão brusco que muita Bíblia traz uma nota de rodapé no último capítulo. Qual será?"
+   },
+   {
+    "gravura": "090",
+    "mov": "cima",
+    "txt": "A segunda: no túmulo vazio, um Evangelho fala de um anjo, e outro fala de dois. Contradição? Eu vou te mostrar o que essa diferença realmente revela."
+   },
+   {
+    "gravura": "053",
+    "mov": "out",
+    "txt": "E a pergunta do título, qual ler primeiro, eu respondo no fim, com uma ordem simples que funciona até pra quem nunca abriu a Bíblia na vida."
    },
    {
     "gravura": "057",
     "mov": "in",
-    "txt": "Primeiro: Evangelho quer dizer boa notícia. Não é uma biografia moderna, com infância, adolescência e todos os detalhes. É o anúncio de quem Jesus é e do que ele fez.",
+    "txt": "Primeiro, a palavra. Evangelho quer dizer boa notícia. Não é uma biografia moderna, com infância, adolescência e cada detalhe da vida. É o anúncio de quem Jesus é e do que ele fez.",
     "cap": {
-     "sup": "ANTES DE TUDO",
-     "txt": "O que é um Evangelho"
+     "sup": "PARADA 1",
+     "txt": "Por que quatro e não um"
     }
    },
    {
     "gravura": "069",
     "mov": "esq",
-    "txt": "Por isso os quatro dedicam tanto espaço à última semana de Jesus. A cruz e a ressurreição são o centro da notícia."
+    "txt": "Por isso os quatro gastam tanto espaço com a última semana de Jesus. A entrada em Jerusalém, a cruz e a ressurreição são o coração da notícia."
    },
    {
     "gravura": "066",
     "mov": "out",
-    "txt": "Mateus, Marcos e Lucas são parecidos entre si. Contam muitas histórias iguais, às vezes com as mesmas palavras. Por isso são chamados de Evangelhos sinóticos, que quer dizer: vistos juntos."
+    "txt": "Mateus, Marcos e Lucas são bem parecidos. Contam muitas histórias iguais, às vezes quase com as mesmas palavras. Por isso são chamados de sinóticos, que quer dizer: vistos juntos."
    },
    {
     "gravura": "078",
     "mov": "dir",
-    "txt": "João é diferente. Ele traz muitas histórias que os outros não contam, como a mulher samaritana no poço e a ressurreição de Lázaro."
+    "txt": "João é diferente. Ele traz conversas e milagres que os outros três não contam, como a mulher samaritana no poço e Lázaro saindo do túmulo depois de quatro dias."
+   },
+   {
+    "gravura": "092",
+    "mov": "in",
+    "txt": "Pensa em quatro amigos contando a mesma viagem. Um lembra das promessas, outro conta correndo, outro explica pra quem não foi, outro conta o que aquilo significou. Juntos, eles mostram mais."
+   },
+   {
+    "gravura": "047",
+    "mov": "cima",
+    "txt": "E tem um detalhe curioso. O profeta Ezequiel teve uma visão de quatro seres vivos, cada um com quatro rostos. O Apocalipse fala de quatro seres parecidos, ao redor do trono.",
+    "verso": "Cada um tinha rosto de homem, de leão, de boi e de águia.",
+    "ref": "EZEQUIEL 1.10"
+   },
+   {
+    "gravura": "041",
+    "mov": "out",
+    "txt": "Séculos depois, Jerônimo, um estudioso cristão antigo, ligou cada Evangelho a um desses rostos. Guarda essa imagem, porque ela vai aparecer em cada parada da viagem de hoje."
    },
    {
     "gravura": "053",
     "mov": "esq",
-    "txt": "Antes de começar: qual Evangelho você acha que é a sua cara? Chuta aqui nos comentários. No fim você confere.",
+    "txt": "Antes de embarcar, um palpite. Pelo que você já ouviu falar, qual dos quatro Evangelhos combina mais com você? Escreve o nome nos comentários. No fim você confere se acertou.",
     "interage": {
      "tipo": "comenta",
-     "txt": "Chuta: qual é o seu?"
+     "txt": "Seu palpite: qual dos quatro?"
     },
     "conv": true
    },
    {
     "gravura": "058",
     "mov": "in",
-    "txt": "Começando por Mateus. Segundo a tradição da Igreja, foi escrito por Mateus, o cobrador de impostos que largou tudo pra seguir Jesus.",
+    "txt": "Começando por Mateus. A tradição da Igreja diz que ele foi escrito pelo próprio Mateus, o cobrador de impostos que largou a mesa de dinheiro pra seguir Jesus.",
     "cap": {
-     "sup": "EVANGELHO 1",
+     "sup": "PARADA 2",
      "txt": "Mateus: o Rei prometido"
     }
    },
    {
-    "gravura": "061",
-    "mov": "esq",
-    "txt": "Ele escreve pensando em quem conhecia o Antigo Testamento. Por isso começa com aquela lista de nomes: Jesus, filho de Davi, filho de Abraão. É o jeito de dizer: as promessas chegaram aqui."
+    "gravura": "007",
+    "mov": "dir",
+    "txt": "Mateus escreve pensando em quem conhecia as Escrituras de Israel. Por isso começa com aquela lista de nomes que tanta gente pula: Jesus Cristo, filho de Davi, filho de Abraão."
    },
    {
-    "gravura": "060",
-    "mov": "dir",
-    "txt": "Mateus mostra paralelos com Moisés. Assim como no Egito, um rei manda matar os meninos, e o menino escapa. E Jesus sai do Egito, como Israel saiu."
+    "gravura": "036",
+    "mov": "out",
+    "txt": "Essa lista não é enfeite. Ela diz: as promessas feitas a Abraão e ao rei Davi chegaram aqui. Mateus até organiza os nomes em três grupos de catorze gerações, pra ficar fácil de lembrar."
+   },
+   {
+    "gravura": "029",
+    "mov": "esq",
+    "txt": "E repara numa coisa que pouca gente nota. No meio de tantos homens, Mateus coloca mulheres: Tamar, Raabe, Rute, a mulher de Urias e Maria. Algumas estrangeiras, outras com histórias bem difíceis."
+   },
+   {
+    "gravura": "028",
+    "mov": "in",
+    "txt": "É como se Mateus dissesse logo na primeira página: essa família tem cicatrizes. E foi justamente nela que Deus escolheu entrar na história."
    },
    {
     "gravura": "059",
+    "mov": "dir",
+    "txt": "Mateus cita os profetas o tempo todo. Muitas vezes ele escreve: isso aconteceu pra se cumprir o que o profeta tinha dito. Quando você for ler, repara nessa frase. Ela volta muito."
+   },
+   {
+    "gravura": "060",
     "mov": "out",
-    "txt": "Mateus cita as profecias o tempo todo. Muitas vezes ele diz: isso aconteceu pra se cumprir o que o profeta tinha dito. Repara nessa frase quando for ler."
+    "txt": "Ele também mostra Jesus parecido com Moisés. Um rei manda matar os meninos, como no Egito, e o menino escapa. Depois Jesus volta do Egito, como o povo de Israel saiu de lá."
+   },
+   {
+    "gravura": "019",
+    "mov": "cima",
+    "txt": "Moisés recebeu a lei no monte. E em Mateus, Jesus sobe um monte pra ensinar. É o Sermão do Monte, nos capítulos 5 a 7, talvez o ensino mais conhecido de Jesus."
    },
    {
     "gravura": "063",
     "mov": "in",
-    "txt": "E Mateus junta os ensinos de Jesus em grandes discursos. O mais famoso é o Sermão do Monte, nos capítulos 5 a 7, que começa com as bem-aventuranças.",
-    "verso": "Bem-aventurados os pobres em espírito, pois deles é o Reino dos céus.",
+    "txt": "Ele começa com as bem-aventuranças, uma lista de gente que o mundo nunca chamaria de feliz: quem chora, quem é humilde, quem tem fome de justiça.",
+    "verso": "Felizes os pobres em espírito, porque deles é o Reino dos céus.",
     "ref": "MATEUS 5.3"
    },
    {
     "gravura": "065",
-    "mov": "cima",
-    "txt": "O Jesus de Mateus é o Rei e o Mestre. Aquele que cumpre a lei e ensina com autoridade."
+    "mov": "esq",
+    "txt": "Reino dos céus, aliás, é a expressão preferida de Mateus. Os outros costumam dizer Reino de Deus. Muitos estudiosos acham que é um costume judeu de respeito: evitar repetir o nome de Deus."
+   },
+   {
+    "gravura": "067",
+    "mov": "out",
+    "txt": "E os ensinos de Jesus aparecem juntos em cinco grandes blocos: o sermão do monte, a missão dos doze, as parábolas do Reino, a vida em comunidade e o fim dos tempos."
    },
    {
     "gravura": "093",
-    "mov": "out",
-    "txt": "E Mateus termina com Jesus mandando os discípulos a todas as nações, com uma promessa.",
+    "mov": "cima",
+    "txt": "No último capítulo, Jesus manda os discípulos a todas as nações, com uma promessa que fecha o livro.",
     "verso": "Eu estou com vocês todos os dias, até o fim dos tempos.",
     "ref": "MATEUS 28.20"
    },
    {
-    "gravura": "053",
+    "gravura": "044",
     "mov": "in",
-    "txt": "Mateus é ótimo pra quem quer entender como o Antigo e o Novo Testamento se ligam. Ele tem 28 capítulos."
+    "txt": "E o rosto de homem? Jerônimo ligou Mateus ao homem porque o livro começa pela família humana de Jesus. São 28 capítulos, e é o Evangelho do Rei prometido."
    },
    {
-    "gravura": "063",
-    "mov": "out",
-    "txt": "Mateus fechado. Tá comigo até aqui? Escreve: rei. Agora vem o mais rápido dos quatro.",
+    "gravura": "053",
+    "mov": "dir",
+    "txt": "Primeira parada carimbada. Tá comigo até aqui? Se aquela lista de nomes deixou de parecer chata, escreve: genealogia. Agora vem o Evangelho mais rápido de todos.",
     "interage": {
      "tipo": "checkin",
-     "txt": "Escreve: rei"
+     "txt": "A lista ficou menos chata?"
     },
     "conv": true
    },
    {
     "gravura": "064",
     "mov": "in",
-    "txt": "Agora, Marcos. É o mais curto dos quatro: 16 capítulos. A tradição antiga liga esse Evangelho a Marcos, que teria registrado o que ouviu do apóstolo Pedro.",
+    "txt": "Agora, Marcos. É o mais curto dos quatro, com 16 capítulos. Papias, um escritor cristão bem antigo, contou que Marcos registrou o que ouvia o apóstolo Pedro pregar.",
     "cap": {
-     "sup": "EVANGELHO 2",
-     "txt": "Marcos: o Servo em ação"
+     "sup": "PARADA 3",
+     "txt": "Marcos: o Servo que não para"
     }
    },
    {
     "gravura": "062",
     "mov": "esq",
-    "txt": "Marcos não conta o nascimento de Jesus. Ele começa com Jesus já adulto e vai direto pra ação."
+    "txt": "Marcos não perde tempo com o nascimento de Jesus. A primeira frase do livro já diz do que se trata.",
+    "verso": "Princípio do evangelho de Jesus Cristo, Filho de Deus.",
+    "ref": "MARCOS 1.1"
+   },
+   {
+    "gravura": "047",
+    "mov": "out",
+    "txt": "Logo depois vem uma voz gritando no deserto, como o profeta Isaías tinha anunciado. É por isso que Jerônimo deu a Marcos o leão: um rugido no deserto."
    },
    {
     "gravura": "068",
-    "mov": "out",
-    "txt": "O texto é rápido. Uma palavra aparece muito: logo. Logo Jesus foi, logo curou, logo saiu. Parece que Marcos está com pressa de te mostrar quem Jesus é."
+    "mov": "dir",
+    "txt": "E o texto corre. Uma palavra aparece o tempo todo: logo. Logo Jesus saiu, logo curou, logo chamou. É como se Marcos estivesse com pressa de te mostrar quem Jesus é."
+   },
+   {
+    "gravura": "064",
+    "mov": "cima",
+    "txt": "Marcos é o Evangelho da ação. Menos discursos longos e mais cenas: a tempestade acalmada, Jesus andando sobre as águas, gente sendo curada na beira da estrada."
    },
    {
     "gravura": "072",
-    "mov": "dir",
-    "txt": "E tem uma pergunta que atravessa o livro: quem é este? Os discípulos não entendem, a família não entende, os líderes não entendem."
+    "mov": "in",
+    "txt": "E por baixo de tudo corre uma pergunta: quem é este? Os discípulos não entendem, a família acha que ele perdeu o juízo, os líderes religiosos não aceitam."
    },
    {
     "gravura": "065",
-    "mov": "in",
-    "txt": "Muitas vezes, depois de um milagre, Jesus pede pra pessoa não contar pra ninguém. Ele não queria ser seguido só como alguém que faz milagres. O caminho dele passava pela cruz."
+    "mov": "esq",
+    "txt": "Muitas vezes, depois de um milagre, Jesus pede pra pessoa não contar pra ninguém. Ele não queria ser seguido só por causa dos milagres. O caminho dele passava pela cruz."
+   },
+   {
+    "gravura": "070",
+    "mov": "out",
+    "txt": "Bem no meio do livro, Jesus pergunta aos discípulos: e vocês, quem dizem que eu sou? Pedro responde: tu és o Cristo. E a partir dali, Jesus começa a falar abertamente da cruz."
+   },
+   {
+    "gravura": "086",
+    "mov": "dir",
+    "txt": "O versículo que muita gente usa pra resumir Marcos mostra Jesus como servo. Não um rei cercado de criados, mas alguém que se abaixa.",
+    "verso": "O Filho do Homem não veio para ser servido, mas para servir e dar a sua vida em resgate de muitos.",
+    "ref": "MARCOS 10.45"
+   },
+   {
+    "gravura": "092",
+    "mov": "esq",
+    "txt": "Pausa rápida na viagem. Marcos é ótimo pra quem está começando: dá pra ler em uma semana. Por isso a Rota da Primeira Viagem, que é grátis, começa por ele. Comenta ROTA ou pega no link da descrição.",
+    "cta": "Comenta <b>ROTA</b><br>e comece por Marcos"
    },
    {
     "gravura": "088",
-    "mov": "out",
-    "txt": "E quem diz a resposta em voz alta é um soldado romano, aos pés da cruz.",
+    "mov": "in",
+    "txt": "E quem diz em voz alta a resposta da grande pergunta não é um discípulo. É um soldado romano, um estrangeiro, olhando Jesus morrer.",
     "verso": "Verdadeiramente este homem era o Filho de Deus.",
     "ref": "MARCOS 15.39"
    },
    {
-    "gravura": "086",
+    "gravura": "091",
     "mov": "cima",
-    "txt": "O versículo que resume Marcos mostra Jesus como servo: ele não veio pra ser servido, mas pra servir e dar a vida em resgate de muitos.",
-    "verso": "O Filho do Homem não veio para ser servido, mas para servir.",
-    "ref": "MARCOS 10.45"
+    "txt": "Lembra da primeira surpresa? O final brusco é de Marcos. No capítulo 16, as mulheres encontram o túmulo vazio, ouvem que Jesus ressuscitou e fogem com medo, sem contar nada a ninguém."
    },
    {
-    "gravura": "053",
+    "gravura": "049",
+    "mov": "out",
+    "txt": "Os manuscritos mais antigos que temos de Marcos terminam aí, no versículo 8. Por isso muitas Bíblias trazem uma nota: os versículos 9 a 20 não aparecem em alguns manuscritos antigos."
+   },
+   {
+    "gravura": "081",
+    "mov": "esq",
+    "txt": "Existem leituras diferentes sobre isso. Mas muita gente vê nesse final aberto um convite. As mulheres ficaram caladas por medo. E você, que agora sabe da notícia, vai contar ou vai ficar calado?"
+   },
+   {
+    "gravura": "037",
     "mov": "dir",
-    "txt": "Marcos é ótimo pra quem nunca leu a Bíblia. Dá pra ler em uma semana, uns dois capítulos por dia."
-   },
-   {
-    "gravura": "092",
-    "mov": "in",
-    "txt": "Pausa rápida: a Rota da Primeira Viagem começa justamente por Marcos, com um plano de sete dias. É grátis. Comenta ROTA ou pega no link da descrição.",
-    "cta": "Comenta <b>ROTA</b><br>e receba a rota grátis"
-   },
-   {
-    "gravura": "073",
-    "mov": "in",
-    "txt": "Agora, Lucas. O autor era companheiro de viagem de Paulo, e Paulo chama Lucas de médico amado. Ele não foi um dos doze apóstolos.",
+    "txt": "Agora, Lucas. Ele não foi um dos doze apóstolos. Era companheiro de viagem de Paulo, e numa das cartas Paulo chama Lucas de médico amado.",
     "cap": {
-     "sup": "EVANGELHO 3",
+     "sup": "PARADA 4",
      "txt": "Lucas: o Salvador de todos"
     }
    },
    {
     "gravura": "061",
-    "mov": "out",
-    "txt": "Lucas abre o livro dizendo que investigou tudo com cuidado e escreveu em ordem, pra um homem chamado Teófilo.",
-    "verso": "Investiguei tudo cuidadosamente, desde o começo.",
+    "mov": "in",
+    "txt": "E Lucas faz uma coisa que nenhum dos outros faz: explica o método. Ele diz que investigou tudo com cuidado, desde o começo, antes de escrever.",
+    "verso": "Investiguei tudo com cuidado desde o princípio e decidi escrever-te em ordem.",
     "ref": "LUCAS 1.3"
+   },
+   {
+    "gravura": "055",
+    "mov": "out",
+    "txt": "Ele escreve pra um homem chamado Teófilo. E começa dentro do templo de Jerusalém, com o sacerdote Zacarias oferecendo incenso. Por causa do templo e dos sacrifícios, o símbolo de Lucas é o boi."
    },
    {
     "gravura": "057",
     "mov": "esq",
-    "txt": "É Lucas quem conta o nascimento com mais detalhes: o anjo visitando Maria, a manjedoura, os pastores no campo."
+    "txt": "É Lucas quem conta o Natal com mais detalhes: o anjo visitando Maria, o bebê deitado na manjedoura, os pastores no campo de noite. Boa parte do que se encena no Natal vem daqui."
    },
    {
-    "gravura": "074",
-    "mov": "dir",
-    "txt": "E várias parábolas famosas só aparecem em Lucas: o bom samaritano, o filho pródigo, o rico e Lázaro."
+    "gravura": "005",
+    "mov": "in",
+    "txt": "A genealogia de Lucas também é diferente. Mateus sobe até Abraão, o pai de Israel. Lucas vai até Adão, o pai de todos. É o jeito dele dizer: Jesus veio pra humanidade inteira."
    },
    {
     "gravura": "079",
-    "mov": "in",
-    "txt": "Lucas mostra Jesus perto de quem estava à margem: pobres, mulheres, estrangeiros, pecadores conhecidos e cobradores de impostos."
+    "mov": "cima",
+    "txt": "E Lucas mostra Jesus perto de quem ficava de fora: pobres, mulheres, estrangeiros, doentes, cobradores de impostos e gente com fama ruim na cidade."
    },
    {
-    "gravura": "076",
+    "gravura": "073",
+    "mov": "dir",
+    "txt": "Várias parábolas famosas só existem em Lucas. O samaritano que cuida de um ferido na estrada. O filho que volta pra casa. O rico que nunca enxergou o Lázaro à sua porta."
+   },
+   {
+    "gravura": "077",
     "mov": "out",
-    "txt": "O versículo-chave de Lucas resume a missão de Jesus.",
+    "txt": "E o pequeno Zaqueu, chefe dos cobradores de impostos, que sobe numa árvore só pra ver Jesus passar. Jesus para, olha pra cima e se convida pra ir à casa dele."
+   },
+   {
+    "gravura": "070",
+    "mov": "in",
+    "txt": "Zaqueu devolve o que roubou e reparte com os pobres. E depois desse encontro vem a frase que resume o livro inteiro de Lucas.",
     "verso": "O Filho do Homem veio buscar e salvar o que estava perdido.",
     "ref": "LUCAS 19.10"
    },
    {
-    "gravura": "092",
-    "mov": "cima",
-    "txt": "E Lucas tem continuação: o livro de Atos, do mesmo autor. Lucas conta o que Jesus começou a fazer e a ensinar. Atos conta o que ele continuou fazendo pela Igreja."
+    "gravura": "083",
+    "mov": "esq",
+    "txt": "Mais uma marca de Lucas: oração. Jesus ora no batismo, passa a noite inteira orando antes de escolher os doze e ora no Getsêmani até o suor cair como gotas de sangue."
    },
    {
     "gravura": "092",
-    "mov": "in",
-    "txt": "Três Evangelhos vistos. Se está valendo a pena, segue o canal, que ainda vem a resposta do título.",
+    "mov": "dir",
+    "txt": "E só Lucas conta a caminhada de Emaús. Dois discípulos tristes na estrada, e Jesus ressuscitado andando junto, sem ser reconhecido, explicando as Escrituras até o coração deles arder."
+   },
+   {
+    "gravura": "096",
+    "mov": "out",
+    "txt": "E Lucas tem continuação: o livro de Atos, do mesmo autor, também escrito a Teófilo. O Evangelho conta o que Jesus começou a fazer. Atos mostra a Igreja continuando a missão."
+   },
+   {
+    "gravura": "053",
+    "mov": "esq",
+    "txt": "Três retratos vistos, falta o mais profundo. Se essa viagem está te ajudando a enxergar a Bíblia de outro jeito, segue o canal agora. E fica, que a resposta do título está chegando.",
     "interage": {
      "tipo": "segue",
-     "txt": "Ainda vem a resposta"
+     "txt": "Segue: falta o mais profundo"
     },
     "conv": true
    },
    {
-    "gravura": "078",
-    "mov": "in",
-    "txt": "Por fim, João. A tradição atribui esse Evangelho ao apóstolo João, o discípulo amado. E ele é bem diferente dos outros três.",
-    "cap": {
-     "sup": "EVANGELHO 4",
-     "txt": "João: o Filho de Deus"
-    }
-   },
-   {
     "gravura": "001",
-    "mov": "esq",
-    "txt": "Repara como ele começa: não em Belém, mas antes de tudo. É um eco de Gênesis 1. Antes de nascer em Belém, Jesus já existia.",
-    "verso": "No princípio era o Verbo, e o Verbo era Deus.",
+    "mov": "in",
+    "txt": "Por fim, João. A tradição atribui esse Evangelho ao apóstolo João, o discípulo amado. E ele não começa em Belém. Começa antes de tudo existir.",
+    "cap": {
+     "sup": "PARADA 5",
+     "txt": "João: o Filho de Deus"
+    },
+    "verso": "No princípio era o Verbo, e o Verbo estava com Deus, e o Verbo era Deus.",
     "ref": "JOÃO 1.1"
    },
    {
-    "gravura": "070",
+    "gravura": "041",
     "mov": "out",
-    "txt": "João organiza o livro em sinais: milagres que apontam pra quem Jesus é. A água virando vinho, o cego de nascença, a ressurreição de Lázaro."
+    "txt": "No princípio: é o mesmo começo de Gênesis. Por isso o símbolo de João é a águia. Ele voa alto, olha a história de cima e mostra quem Jesus era antes mesmo de nascer."
+   },
+   {
+    "gravura": "043",
+    "mov": "cima",
+    "txt": "João chama os milagres de sinais. Não são só demonstrações de poder. São placas na estrada, apontando pra quem Jesus é. O primeiro é a água virando vinho numa festa de casamento, em Caná."
    },
    {
     "gravura": "080",
-    "mov": "dir",
-    "txt": "E Jesus fala de si mesmo com frases que começam com Eu sou: eu sou o pão da vida, a luz do mundo, o bom pastor, a ressurreição e a vida, o caminho."
-   },
-   {
-    "gravura": "077",
-    "mov": "in",
-    "txt": "João também tem conversas longas e pessoais. Nicodemos, de noite. A mulher samaritana, ao meio-dia, no poço."
-   },
-   {
-    "gravura": "083",
     "mov": "out",
-    "txt": "E ele dedica vários capítulos à última noite antes da cruz: Jesus lava os pés dos discípulos, consola, promete o Espírito Santo e ora por eles."
+    "txt": "O último grande sinal é Lázaro. Jesus chega ao túmulo do amigo e, antes de chamá-lo pra fora, faz uma coisa que muita gente não espera de Deus."
+   },
+   {
+    "gravura": "081",
+    "mov": "in",
+    "txt": "Ele chora. O Filho de Deus, que ia ressuscitar o amigo em minutos, para e chora junto com quem está chorando.",
+    "verso": "Jesus chorou.",
+    "ref": "JOÃO 11.35"
+   },
+   {
+    "gravura": "015",
+    "mov": "dir",
+    "txt": "E em João, Jesus fala de si mesmo com sete frases que começam com Eu sou. Eu sou o pão da vida. A luz do mundo. A porta. O bom pastor."
+   },
+   {
+    "gravura": "067",
+    "mov": "cima",
+    "txt": "A ressurreição e a vida. O caminho, a verdade e a vida. A videira verdadeira. Quem conhecia as Escrituras ouvia ali um eco do nome que Deus revelou a Moisés: Eu sou."
+   },
+   {
+    "gravura": "078",
+    "mov": "esq",
+    "txt": "João também gosta de conversas longas e pessoais. Nicodemos, um mestre importante, vem de noite. A mulher samaritana vai ao poço sozinha, ao meio-dia, e sai correndo pra contar pra cidade."
+   },
+   {
+    "gravura": "082",
+    "mov": "out",
+    "txt": "E João gasta cinco capítulos numa única noite, a última antes da cruz. Jesus lava os pés dos discípulos, consola, promete o Espírito Santo e ora por eles."
    },
    {
     "gravura": "091",
-    "mov": "cima",
-    "txt": "E João diz com todas as letras por que escreveu: pra que você creia, e crendo, tenha vida.",
-    "verso": "Estes foram escritos para que vocês creiam que Jesus é o Cristo, o Filho de Deus.",
-    "ref": "JOÃO 20.31"
-   },
-   {
-    "gravura": "066",
     "mov": "in",
-    "txt": "Uma dúvida comum: se os quatro contam a mesma história, por que tem detalhes diferentes? Um fala de um anjo no túmulo, outro fala de dois.",
-    "cap": {
-     "sup": "PERGUNTA COMUM",
-     "txt": "E as diferenças?"
-    }
-   },
-   {
-    "gravura": "092",
-    "mov": "esq",
-    "txt": "Pensa em testemunhas de um mesmo acontecimento. Cada uma destaca o que achou mais importante. Se todas contassem exatamente igual, palavra por palavra, aí sim seria estranho."
-   },
-   {
-    "gravura": "049",
-    "mov": "out",
-    "txt": "Os quatro concordam no centro: Jesus ensinou, curou, foi crucificado e ressuscitou. As diferenças mostram ângulos, não histórias diferentes."
+    "txt": "Perto do fim, depois do túmulo vazio, João para a narrativa e diz com todas as letras por que escreveu o livro.",
+    "verso": "Estes foram escritos para que vocês creiam que Jesus é o Cristo, o Filho de Deus, e, crendo, tenham vida.",
+    "ref": "JOÃO 20.31"
    },
    {
     "gravura": "053",
     "mov": "dir",
-    "txt": "Você já reparou alguma diferença lendo os Evangelhos? Conta aqui qual foi. Essas descobertas ajudam muita gente.",
+    "txt": "E ele termina com um exagero bonito: se tudo o que Jesus fez fosse escrito, nem o mundo inteiro teria lugar pra tantos livros. Quatro Evangelhos, e ainda assim só uma parte."
+   },
+   {
+    "gravura": "065",
+    "mov": "out",
+    "txt": "Respira um pouco, que João é profundo mesmo. Das frases Eu sou, qual você mais precisa ouvir hoje? Pão, luz, pastor ou caminho? Escreve só uma palavra aqui embaixo.",
     "interage": {
      "tipo": "comenta",
-     "txt": "Qual diferença você já notou?"
+     "txt": "Qual Eu sou você precisa hoje?"
     },
     "conv": true
    },
    {
+    "gravura": "090",
+    "mov": "in",
+    "txt": "Agora, a segunda surpresa que eu prometi lá no começo. No túmulo vazio, quantos anjos tinha? Mateus fala de um anjo. Marcos fala de um jovem vestido de branco.",
+    "cap": {
+     "sup": "PARADA 6",
+     "txt": "Contradição ou testemunho?"
+    }
+   },
+   {
+    "gravura": "091",
+    "mov": "esq",
+    "txt": "Lucas fala de dois homens com roupas brilhantes. E João conta que Maria Madalena viu dois anjos sentados onde o corpo tinha estado. Então, era um ou eram dois?"
+   },
+   {
+    "gravura": "049",
+    "mov": "out",
+    "txt": "Pensa num acidente na rua com quatro testemunhas. Uma diz: um homem me ajudou. Outra diz: dois homens me ajudaram. Se eram dois, a primeira não mentiu. Ela falou de quem conversou com ela."
+   },
+   {
+    "gravura": "066",
+    "mov": "dir",
+    "txt": "É assim que muitos estudiosos explicam o túmulo. Mateus e Marcos destacam o anjo que deu o recado. Lucas e João contam os dois. Muda o foco, não o fato."
+   },
+   {
+    "gravura": "092",
+    "mov": "cima",
+    "txt": "E repara: se os quatro relatos fossem iguais, palavra por palavra, aí sim seria suspeito. Ia parecer combinado. Testemunhas verdadeiras contam do seu próprio ângulo."
+   },
+   {
+    "gravura": "086",
+    "mov": "in",
+    "txt": "No centro, os quatro concordam: Jesus ensinou, curou, foi traído, crucificado, sepultado e ressuscitou ao terceiro dia. As diferenças mostram ângulos, não histórias diferentes."
+   },
+   {
+    "gravura": "053",
+    "mov": "esq",
+    "txt": "E você? Já leu dois Evangelhos e achou um detalhe diferente que te deixou encucado? Conta aqui qual foi. Outra pessoa pode estar com a mesma dúvida agora.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Qual detalhe te deixou encucado?"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "088",
+    "mov": "in",
+    "txt": "Quer ver os quatro trabalhando juntos? Vai até a cruz. Nenhum Evangelho traz todas as frases que Jesus disse ali. Juntos, eles guardam sete.",
+    "cap": {
+     "sup": "PARADA 7",
+     "txt": "Os quatro aos pés da cruz"
+    }
+   },
+   {
+    "gravura": "087",
+    "mov": "out",
+    "txt": "Lucas guarda a primeira: Jesus pedindo perdão justamente por quem estava pregando ele na cruz.",
+    "verso": "Pai, perdoa-lhes, porque não sabem o que fazem.",
+    "ref": "LUCAS 23.34"
+   },
+   {
+    "gravura": "089",
+    "mov": "dir",
+    "txt": "Lucas também guarda a promessa ao ladrão arrependido: hoje você estará comigo no paraíso. E João guarda o cuidado com a mãe: Jesus entrega Maria aos cuidados do discípulo amado."
+   },
+   {
+    "gravura": "024",
+    "mov": "esq",
+    "txt": "Mateus e Marcos guardam o grito mais duro, com as primeiras palavras do Salmo 22. O Rei e o Servo sentem o peso inteiro da cruz.",
+    "verso": "Meu Deus, meu Deus, por que me abandonaste?",
+    "ref": "MARCOS 15.34"
+   },
+   {
+    "gravura": "088",
+    "mov": "cima",
+    "txt": "João guarda a sede, quando Jesus diz: tenho sede. E guarda a palavra da vitória: está consumado. Lucas fecha com a entrega: Pai, nas tuas mãos entrego o meu espírito."
+   },
+   {
+    "gravura": "063",
+    "mov": "in",
+    "txt": "Sozinho, cada Evangelho mostra uma parte. Juntos, você ouve a cruz inteira: perdão, promessa, cuidado, abandono, sede, vitória e entrega. Essa é a resposta: por isso Deus nos deu quatro."
+   },
+   {
+    "gravura": "054",
+    "mov": "out",
+    "txt": "E isso não é ideia nova. No século dois, Irineu, um bispo cristão, já defendia que os Evangelhos eram quatro, e só quatro. As igrejas liam os quatro lado a lado, como uma boa notícia só, com quatro vozes."
+   },
+   {
     "gravura": "020",
     "mov": "in",
-    "txt": "Agora, a pergunta do título: por qual começar?",
+    "txt": "Chegou a hora da pergunta do título. Qual Evangelho ler primeiro? Não existe ordem errada. Mas existe uma ordem que ajuda muito quem está começando.",
     "cap": {
-     "sup": "A ROTA",
+     "sup": "PARADA 8",
      "txt": "Qual ler primeiro"
     }
    },
    {
     "gravura": "064",
     "mov": "esq",
-    "txt": "Se você nunca leu a Bíblia, comece por Marcos. É curto, rápido e te dá a história inteira de Jesus em poucos dias."
+    "txt": "Se você nunca leu a Bíblia, comece por Marcos. É curto, rápido e te dá a história inteira de Jesus. Dois ou três capítulos por dia e, em uma semana, você terminou."
    },
    {
     "gravura": "078",
-    "mov": "out",
-    "txt": "Depois, vá pra João. Você já conhece a história, e João te mostra o sentido dela: quem Jesus é."
+    "mov": "dir",
+    "txt": "Depois vá pra João. Você já conhece a história, e João te leva mais fundo: quem é esse Jesus que você acabou de acompanhar? É a águia voando depois do leão."
    },
    {
-    "gravura": "074",
-    "mov": "dir",
-    "txt": "Em seguida, Lucas, que emenda direto em Atos. Você vê Jesus e depois a Igreja nascendo."
+    "gravura": "092",
+    "mov": "out",
+    "txt": "Em seguida, Lucas, e emende direto em Atos. Você vê Jesus caminhando com as pessoas e depois a Igreja nascendo, do mesmo autor, como uma série em duas temporadas."
    },
    {
     "gravura": "061",
     "mov": "in",
-    "txt": "E por último Mateus, quando você já estiver pronto pra ligar tudo com o Antigo Testamento."
+    "txt": "E por último Mateus, quando você já estiver pronto pra ligar tudo com o Antigo Testamento. Aí aquela lista de nomes do capítulo 1 vai fazer sentido, e você vai entender por quê."
    },
    {
     "gravura": "053",
-    "mov": "out",
-    "txt": "Essa é a ordem da Rota da Primeira Viagem. Mas se você prefere seguir a ordem da Bíblia, tudo bem. O importante é ler com uma pergunta em mente: o que esse Evangelho quer que eu veja em Jesus?"
+    "mov": "cima",
+    "txt": "E o seu palpite lá do começo? Mateus é pra quem gosta de ver as promessas se cumprindo. Marcos, pra quem gosta de ação. Lucas, pra quem se sente de fora. João, pra quem quer profundidade. Acertou?"
+   },
+   {
+    "gravura": "070",
+    "mov": "esq",
+    "txt": "Uma dica pra qualquer um dos quatro: leia com uma pergunta na cabeça. O que esse Evangelho quer que eu veja em Jesus hoje? E anota uma frase por capítulo. Só uma."
    },
    {
     "gravura": "069",
-    "mov": "cima",
-    "txt": "Resumindo: Mateus mostra o Rei prometido. Marcos, o Servo em ação. Lucas, o Salvador de todos. João, o Filho de Deus. Quatro retratos de uma pessoa só."
+    "mov": "out",
+    "txt": "Resumindo a viagem: Mateus mostra o Rei prometido. Marcos, o Servo que não para. Lucas, o Salvador que procura quem se perdeu. João, o Filho de Deus. Quatro retratos de uma pessoa só."
    },
    {
-    "gravura": "061",
+    "gravura": "062",
     "mov": "in",
-    "txt": "Tem alguém que quer começar a ler a Bíblia e não sabe por onde? Manda esse vídeo. Essa ordem pode ajudar.",
+    "txt": "Conhece alguém que já tentou ler a Bíblia e desistiu no capítulo 1 de Mateus? Manda esse vídeo pra essa pessoa. Talvez ela só tenha começado pela porta mais difícil.",
     "interage": {
      "tipo": "manda",
-     "txt": "Manda pra quem quer começar"
+     "txt": "Manda pra quem desistiu em Mateus"
     },
     "conv": true
    },
    {
     "gravura": "093",
     "mov": "out",
-    "txt": "No próximo vídeo, a gente abre Marcos 1 juntos. Comenta qual Evangelho você vai ler primeiro. Até a próxima parada, viajante da Palavra.",
+    "txt": "No próximo vídeo, a gente abre Marcos 1 juntos, versículo por versículo. Comenta qual Evangelho você vai ler primeiro. Até a próxima parada, viajante da Palavra.",
     "cta": "Até a próxima <b>parada</b>,<br>viajante",
     "selo": "PASSA<br>PORTE"
    }

@@ -1,0 +1,383 @@
+{
+ "id": "longo-03",
+ "formato": "longo",
+ "titulo": "A história da Bíblia inteira em uma viagem só (de Gênesis a Apocalipse)",
+ "legenda": "A Bíblia tem 66 livros (73 na católica), mas conta uma história só. Neste vídeo você faz a viagem inteira em 8 paradas: o começo, a família escolhida, a saída do Egito, a terra e os reis, o exílio e os profetas, Jesus, a Igreja e o Apocalipse.\n\nE vai perceber o fio que liga tudo: a promessa de Gênesis 3.15 cumprida em Jesus.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📖 Observação: os versículos aparecem em paráfrase curta, com a referência. Confira na sua tradução. As datas e a divisão em paradas são um resumo didático.\n\n🎫 Quer começar a ler com rota? Baixe grátis a Rota da Primeira Viagem no link da descrição, ou comente ROTA.\n\n#HistóriaDaBíblia #BíbliaExplicada #ResumoDaBíblia #PassaporteDaBíblia",
+ "comentario": "📌 Em qual parada da viagem você está lendo hoje? Comente o número da parada (1 a 8). Quando terminar um livro, volte e comente CARIMBEI.",
+ "titulo_tela": {
+  "sup": "PASSAPORTE DA BÍBLIA",
+  "txt": "A Bíblia inteira<br>em uma viagem",
+  "dur": 3.2
+ },
+ "cenas": [
+  {
+   "gravura": "020",
+   "mov": "in",
+   "txt": "A Bíblia tem 66 livros, ou 73 na Bíblia católica. Foram escritos ao longo de muitos séculos, por dezenas de autores diferentes. E mesmo assim, ela conta uma história só. Hoje a gente vai fazer essa viagem inteira, do primeiro versículo ao último."
+  },
+  {
+   "gravura": "053",
+   "mov": "esq",
+   "txt": "Se você já tentou ler a Bíblia e se perdeu, provavelmente faltou isso: enxergar o caminho todo antes de entrar nos detalhes. É como olhar o mapa antes de sair de casa."
+  },
+  {
+   "gravura": "061",
+   "mov": "out",
+   "txt": "Vou dividir a viagem em oito paradas. Em cada uma, você vai saber o que aconteceu, em que livros isso está e o que essa parte mostra sobre Deus."
+  },
+  {
+   "gravura": "093",
+   "mov": "dir",
+   "txt": "E presta atenção num fio que atravessa tudo: uma promessa. Ela aparece logo no começo, e o resto da Bíblia é Deus cumprindo essa promessa, apesar de tudo."
+  },
+  {
+   "gravura": "001",
+   "mov": "in",
+   "txt": "Primeira parada: Gênesis, capítulos 1 e 2. Deus cria tudo, e tudo é bom. O ser humano é feito à imagem de Deus, pra cuidar da criação e viver perto dele.",
+   "cap": {
+    "sup": "PARADA 1",
+    "txt": "O começo"
+   },
+   "verso": "No princípio, Deus criou os céus e a terra.",
+   "ref": "GÊNESIS 1.1"
+  },
+  {
+   "gravura": "001",
+   "mov": "out",
+   "txt": "Mas no capítulo 3 vem a quebra. Adão e Eva desconfiam de Deus e desobedecem. A relação se rompe, a morte entra na história, e eles saem do jardim."
+  },
+  {
+   "gravura": "002",
+   "mov": "in",
+   "txt": "E é aqui, no meio da tragédia, que aparece a promessa. Deus diz à serpente que um descendente da mulher ia esmagar a cabeça dela. Guarda isso: é o fio da viagem inteira.",
+   "verso": "Ele lhe ferirá a cabeça.",
+   "ref": "GÊNESIS 3.15"
+  },
+  {
+   "gravura": "003",
+   "mov": "dir",
+   "txt": "Depois disso, o mal se espalha rápido. Caim mata o próprio irmão, Abel. E a violência cresce de geração em geração."
+  },
+  {
+   "gravura": "004",
+   "mov": "cima",
+   "txt": "Vem o dilúvio. Deus recomeça com Noé e a família dele, e faz uma aliança com a terra inteira, com o arco-íris como sinal."
+  },
+  {
+   "gravura": "006",
+   "mov": "in",
+   "txt": "E em Babel, as pessoas tentam construir uma torre até o céu, pra fazer um nome pra si mesmas. Deus confunde as línguas e espalha os povos. A humanidade continua perdida."
+  },
+  {
+   "gravura": "053",
+   "mov": "out",
+   "txt": "Primeira parada vencida. Tá comigo? Se a promessa de Gênesis 3 ficou na sua cabeça, escreve: promessa. Ela vai voltar.",
+   "interage": {
+    "tipo": "checkin",
+    "txt": "Escreve: promessa"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "007",
+   "mov": "in",
+   "txt": "Segunda parada: Gênesis 12 a 50. Deus chama um homem, Abrão, e faz uma promessa: vou te dar uma terra, uma descendência enorme, e através de você todas as famílias da terra vão ser abençoadas.",
+   "cap": {
+    "sup": "PARADA 2",
+    "txt": "Uma família escolhida"
+   },
+   "verso": "Em você serão benditas todas as famílias da terra.",
+   "ref": "GÊNESIS 12.3"
+  },
+  {
+   "gravura": "011",
+   "mov": "esq",
+   "txt": "Abraão espera muitos anos pelo filho prometido, Isaque. E depois é provado no monte, quando Deus pede o próprio filho e providencia um carneiro no lugar."
+  },
+  {
+   "gravura": "013",
+   "mov": "out",
+   "txt": "Isaque se casa com Rebeca. Eles têm gêmeos, Esaú e Jacó. E é Jacó, o mais novo e cheio de truques, que leva a promessa adiante."
+  },
+  {
+   "gravura": "014",
+   "mov": "dir",
+   "txt": "Jacó ganha um nome novo: Israel. Ele tem doze filhos, e deles vêm as doze tribos do povo de Deus."
+  },
+  {
+   "gravura": "016",
+   "mov": "in",
+   "txt": "Um desses filhos é José. Vendido pelos irmãos, vira escravo no Egito, vai pra prisão e termina governador. Quando chega a fome, a família inteira vai morar no Egito."
+  },
+  {
+   "gravura": "018",
+   "mov": "out",
+   "txt": "Gênesis termina assim: a família da promessa está viva, mas está fora da terra prometida. E a próxima parada começa muito tempo depois."
+  },
+  {
+   "gravura": "019",
+   "mov": "in",
+   "txt": "Terceira parada: Êxodo. A família virou um povo grande, e o Egito escravizou esse povo. Um menino hebreu é salvo das águas do Nilo e criado no palácio do faraó: Moisés.",
+   "cap": {
+    "sup": "PARADA 3",
+    "txt": "A saída do Egito"
+   }
+  },
+  {
+   "gravura": "017",
+   "mov": "esq",
+   "txt": "Deus chama Moisés pra tirar o povo do Egito. Vêm as pragas, a primeira Páscoa e a travessia do mar. Deus liberta Israel."
+  },
+  {
+   "gravura": "020",
+   "mov": "out",
+   "txt": "No monte Sinai, Deus faz uma aliança com o povo e dá a lei, começando pelos Dez Mandamentos. Repara na ordem: Deus não salva o povo por causa da lei. Ele salva primeiro, e depois mostra como viver."
+  },
+  {
+   "gravura": "018",
+   "mov": "cima",
+   "txt": "Levítico mostra como um povo imperfeito pode chegar perto de um Deus santo: sacrifícios, festas e o Dia do Perdão. Tudo isso aponta pra frente, pra algo maior."
+  },
+  {
+   "gravura": "053",
+   "mov": "dir",
+   "txt": "Em Números, o povo desconfia de Deus e fica quarenta anos no deserto. E em Deuteronômio, Moisés relembra tudo antes de morrer, e o povo se prepara pra entrar na terra."
+  },
+  {
+   "gravura": "063",
+   "mov": "in",
+   "txt": "Pausa pra você: de Abraão até Moisés, qual história você mais gosta? Escreve o nome aqui.",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "Qual história você mais gosta?"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "033",
+   "mov": "in",
+   "txt": "Quarta parada: de Josué até Crônicas. Com Josué, o povo finalmente entra na terra prometida.",
+   "cap": {
+    "sup": "PARADA 4",
+    "txt": "A terra e os reis"
+   }
+  },
+  {
+   "gravura": "022",
+   "mov": "esq",
+   "txt": "Depois vem o tempo dos Juízes, um ciclo que se repete: o povo esquece Deus, sofre, clama, e Deus levanta um libertador. Débora, Gideão, Sansão."
+  },
+  {
+   "gravura": "029",
+   "mov": "out",
+   "txt": "No meio desse caos, tem uma história de lealdade: Rute, uma estrangeira que entra no povo de Deus. E ela vira bisavó do rei Davi."
+  },
+  {
+   "gravura": "031",
+   "mov": "dir",
+   "txt": "O povo pede um rei. O primeiro é Saul, que começa bem e termina mal. Ele chega a atirar uma lança em Davi."
+  },
+  {
+   "gravura": "036",
+   "mov": "in",
+   "txt": "Davi vira rei. E Deus faz uma promessa a ele: um descendente seu vai reinar pra sempre. O fio da promessa fica mais forte.",
+   "verso": "O teu trono será firme para sempre.",
+   "ref": "2 SAMUEL 7.16"
+  },
+  {
+   "gravura": "043",
+   "mov": "out",
+   "txt": "Salomão, filho de Davi, constrói o templo em Jerusalém. É o auge do reino. Mas o coração de Salomão se desvia, e depois dele o reino se divide em dois: Israel, no norte, e Judá, no sul."
+  },
+  {
+   "gravura": "040",
+   "mov": "cima",
+   "txt": "Vêm alguns reis bons e muitos reis maus. Deus manda profetas pra chamar o povo de volta. Elias enfrenta os profetas de Baal, e fogo desce do céu."
+  },
+  {
+   "gravura": "042",
+   "mov": "in",
+   "txt": "Mas o povo não volta. O reino do norte cai diante da Assíria. E mais tarde, Judá cai diante da Babilônia."
+  },
+  {
+   "gravura": "092",
+   "mov": "in",
+   "txt": "Pausa rápida na viagem. Se você quer começar a ler a Bíblia com uma rota, eu preparei a Rota da Primeira Viagem, grátis. Comenta ROTA ou pega no link da descrição.",
+   "cta": "Comenta <b>ROTA</b><br>e receba a rota grátis"
+  },
+  {
+   "gravura": "046",
+   "mov": "in",
+   "txt": "Quinta parada: o exílio. Jerusalém é destruída, o templo cai, e o povo é levado pra Babilônia. Parece que a promessa acabou.",
+   "cap": {
+    "sup": "PARADA 5",
+    "txt": "Exílio e profetas"
+   }
+  },
+  {
+   "gravura": "047",
+   "mov": "esq",
+   "txt": "É aqui que os profetas brilham. Jeremias chora pela cidade, mas anuncia uma nova aliança, escrita não em pedra, mas no coração."
+  },
+  {
+   "gravura": "048",
+   "mov": "out",
+   "txt": "Ezequiel vê um vale de ossos secos voltando à vida. É o retrato de um povo sem esperança que Deus vai levantar de novo."
+  },
+  {
+   "gravura": "052",
+   "mov": "dir",
+   "txt": "Daniel, na Babilônia, continua fiel. E vê visões de um reino que Deus vai estabelecer e que nunca vai acabar."
+  },
+  {
+   "gravura": "044",
+   "mov": "in",
+   "txt": "E Isaías fala de um servo misterioso, que ia sofrer no lugar dos outros. Guarda isso também.",
+   "verso": "Ele foi ferido por causa das nossas transgressões.",
+   "ref": "ISAÍAS 53.5"
+  },
+  {
+   "gravura": "049",
+   "mov": "out",
+   "txt": "Décadas depois, a Pérsia derrota a Babilônia, e o rei Ciro deixa os judeus voltarem. Esdras e Neemias contam a reconstrução do templo e dos muros de Jerusalém."
+  },
+  {
+   "gravura": "053",
+   "mov": "cima",
+   "txt": "O Antigo Testamento termina com o povo de volta à terra, mas esperando. Esperando o rei prometido a Davi. Esperando o servo de Isaías. E vêm séculos sem um novo profeta."
+  },
+  {
+   "gravura": "092",
+   "mov": "esq",
+   "txt": "Se essa viagem está clareando a Bíblia pra você, segue o canal agora, antes da parada mais importante. A próxima parada é Jesus.",
+   "interage": {
+    "tipo": "segue",
+    "txt": "A próxima parada é Jesus"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "057",
+   "mov": "in",
+   "txt": "Sexta parada: os Evangelhos. Num estábulo em Belém, nasce Jesus, da família de Davi. Mateus abre o Novo Testamento justamente assim: Jesus, filho de Davi, filho de Abraão.",
+   "cap": {
+    "sup": "PARADA 6",
+    "txt": "O Rei chegou"
+   }
+  },
+  {
+   "gravura": "058",
+   "mov": "esq",
+   "txt": "Magos do Oriente vêm adorar o rei recém-nascido. E a família foge pro Egito, pra escapar do rei Herodes."
+  },
+  {
+   "gravura": "063",
+   "mov": "out",
+   "txt": "Adulto, Jesus anuncia que o reino de Deus chegou. Ele ensina, cura doentes, perdoa pecados e acolhe quem todo mundo rejeitava."
+  },
+  {
+   "gravura": "068",
+   "mov": "dir",
+   "txt": "Ele acalma tempestades e anda sobre o mar. E os discípulos se perguntam: quem é este?"
+  },
+  {
+   "gravura": "069",
+   "mov": "in",
+   "txt": "Até que ele entra em Jerusalém montado num jumentinho, e o povo grita: hosana ao filho de Davi."
+  },
+  {
+   "gravura": "082",
+   "mov": "out",
+   "txt": "Na última ceia, ele diz que o pão é o seu corpo e que o cálice é a nova aliança no seu sangue. A nova aliança que Jeremias tinha anunciado."
+  },
+  {
+   "gravura": "088",
+   "mov": "in",
+   "txt": "Na sexta-feira, ele é crucificado. O servo de Isaías, ferido pelas nossas transgressões. E antes de morrer, ele diz: está consumado.",
+   "verso": "Está consumado.",
+   "ref": "JOÃO 19.30"
+  },
+  {
+   "gravura": "091",
+   "mov": "cima",
+   "txt": "No domingo, o túmulo está vazio. Jesus ressuscitou. A cabeça da serpente foi esmagada. A promessa de Gênesis 3 se cumpriu."
+  },
+  {
+   "gravura": "053",
+   "mov": "dir",
+   "txt": "Lembra da promessa lá do começo? Você acabou de ver ela se cumprir. Escreve nos comentários: cumprida. Quero ver quem chegou até aqui.",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "Escreve: cumprida"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "093",
+   "mov": "in",
+   "txt": "Sétima parada: Atos e as cartas. Jesus sobe ao céu e manda os discípulos levarem a mensagem até os confins da terra.",
+   "cap": {
+    "sup": "PARADA 7",
+    "txt": "A Igreja nasce"
+   }
+  },
+  {
+   "gravura": "094",
+   "mov": "esq",
+   "txt": "Em Pentecostes, o Espírito Santo desce, e a Igreja nasce em Jerusalém. Logo vem a perseguição, e Estêvão é apedrejado."
+  },
+  {
+   "gravura": "095",
+   "mov": "out",
+   "txt": "E um perseguidor, Saulo, encontra Jesus no caminho de Damasco. Ele vira Paulo, o apóstolo que leva o evangelho aos povos não judeus."
+  },
+  {
+   "gravura": "099",
+   "mov": "dir",
+   "txt": "Paulo viaja, planta igrejas e escreve cartas pra elas: Romanos, Coríntios, Gálatas, Efésios. É a promessa feita a Abraão se cumprindo: todas as famílias da terra sendo abençoadas."
+  },
+  {
+   "gravura": "041",
+   "mov": "in",
+   "txt": "Última parada: Apocalipse. Não é um livro pra dar medo. É uma mensagem pra igrejas perseguidas: Jesus venceu, e ele vai voltar.",
+   "cap": {
+    "sup": "PARADA 8",
+    "txt": "O fim que é começo"
+   }
+  },
+  {
+   "gravura": "001",
+   "mov": "cima",
+   "txt": "E a Bíblia termina onde começou: num jardim. Novo céu e nova terra, Deus morando com o seu povo, sem morte, sem choro e sem dor.",
+   "verso": "Eis que faço novas todas as coisas.",
+   "ref": "APOCALIPSE 21.5"
+  },
+  {
+   "gravura": "020",
+   "mov": "out",
+   "txt": "Resumindo a viagem: criação, queda, promessa, uma família, um povo, reis, exílio, Jesus, a Igreja e a nova criação. Uma história só, e Jesus no centro dela."
+  },
+  {
+   "gravura": "061",
+   "mov": "in",
+   "txt": "Agora, quando você abrir qualquer livro da Bíblia, pergunta: em que parada eu estou? Só essa pergunta já muda a leitura."
+  },
+  {
+   "gravura": "061",
+   "mov": "out",
+   "txt": "Conhece alguém que diz que não entende a Bíblia? Manda esse vídeo pra essa pessoa. Pode ser o começo da viagem dela.",
+   "interage": {
+    "tipo": "manda",
+    "txt": "Manda pra quem diz que não entende"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "093",
+   "mov": "out",
+   "txt": "No próximo vídeo, a gente entra nos quatro Evangelhos com calma. Até a próxima parada, viajante da Palavra.",
+   "cta": "Até a próxima <b>parada</b>,<br>viajante",
+   "selo": "PASSA<br>PORTE"
+  }
+ ]
+}

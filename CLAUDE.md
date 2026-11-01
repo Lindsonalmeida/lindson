@@ -43,10 +43,54 @@ Todo PDF entregue (estratégia, contrato, planos) também entra na página de do
 
 ## Como trabalhar
 
+**Sempre consulte este repositório antes de responder qualquer pedido** (clientes em `agencia/clientes/`, processos em `agencia/processos/`, identidades, briefings e estado do projeto). Use os dados que já existem aqui em vez de perguntar ou inventar.
+
+Artes de Instagram de cliente: siga o sistema de feed aprovado em `agencia/clientes/leo-pinto/instagram-v12-feed/README.md` (mesma assinatura em todas, composição diferente em cada post, fotos reais posicionadas pelo rosto, logo oficial com destaque). Painéis de cliente na Central: monte a partir do modelo `agencia/sistema-clientes/prototipo/painel.html` (exemplo: `agencia/sistema-clientes/leo-pinto/montar-leo.py`), nunca do zero. Código passa pelo Builder Squad (`/builder-squad`) e pelo RAXOS quando instalado.
+
+Pedido de identidade visual: use o modelo de prompt para o Claude Design em `agencia/clientes/leo-pinto/identidade/PROMPT-CLAUDE-DESIGN.md`, preenchido com o briefing do cliente (`agencia/clientes/<cliente>/identidade/BRIEF.md`).
+
 Sempre que o Lindson pedir algo, acione os agentes especialistas (Xquads em `scratchpad/xq/src`: Hormozi Offers, Donald Miller, Pedro Sobral, copy-squad, brand-squad etc., e agentes de pesquisa na internet) para fazer o trabalho, escolhendo os melhores para cada pedido.
 
 Para canal dark e monetização no YouTube (Passaporte da Bíblia, Raposa e Leão, nichos novos), acionar o agente **Peter** (`.claude/agents/peter.md`).
 
+## Capas dos canais dark (decisão do Lindson, 01/11/2026)
+
+Nunca criar estilo ou gerador de capa novo; usar só o que está aprovado no repositório:
+- **Passaporte da Bíblia:** `conteudo/youtube/passaporte/motor/capas2.py` com os dados de `passaporte/capas_v2.json` (longos A/B/C e Shorts verticais). Visual: gravura de Doré em close com cor de cinema (sombra petróleo, luz âmbar), "PASSAPORTE DA BÍBLIA" no topo, etiqueta ciano com a série (longos) e título branco gigante com a palavra-chave em amarelo. Faltando mapa de profundidade em `dore/prof/`, gere com o modelo do `pintura.py`.
+- **Raposa e Leão:** regras de thumb do `raposa-e-leao/IDENTIDADE.md` (fundo escuro, retrato P&B com brilho, etiqueta dourada com a fonte, Anton com 1 palavra em ouro e no máximo 1 tarja vermelha, selo no rodapé). Shorts já têm `shorts/NN/capa.jpg` nesse padrão.
+- Antes de mexer em capa, título, duração ou formato de qualquer vídeo, leia o BRIEF e o PROCESSO do canal e o agente Peter. Longo = 16 a 20 min. Short: Passaporte 45 a 70 s (Peter); Raposa 35 a 45 s (`raposa-e-leao/ROTEIROS-SHORTS.md`), feito pelo `short2.py` (versão humanizada).
+
 ## Estado atual e continuidade
 
 Antes de continuar qualquer trabalho (de qualquer conta), leia `ESTADO-DO-PROJETO.md`: links dos apps, o que está pronto, o que falta e como retomar.
+
+Sempre que o Lindson pedir algo, consulte antes o repositório (incluindo os outros branches em `origin/`) e o que as outras equipes e contas já fizeram sobre o assunto, e continue a partir disso, sem refazer do zero.
+
+## Trabalho em equipe: Lindson, Zuleide e Pedro
+
+Três contas do Claude trabalham neste repositório como uma equipe só. Uma continua o trabalho da outra ou faz trabalho em paralelo. **Nunca refaça o que já foi feito.**
+
+**1. Descubra qual conta você é.** Compare a conta do Claude desta sessão com a tabela "Nomes das contas" do `REGISTRO-DAS-CONTAS.md`:
+- **Lindson** = conta `lindsonmkt`
+- **Zuleide** = conta `lindsonlopes0`
+- **Pedro** = conta `passaportedabiblia`
+Se não der para saber, pergunte ao Lindson antes de registrar qualquer coisa.
+
+**2. Antes de qualquer pedido**, nesta ordem:
+1. `git pull` no branch principal (`claude/global-agent-installation-vdyowf`) e `git fetch` dos outros branches.
+2. Leia o `QUADRO-DA-EQUIPE.md` (o que cada conta está fazendo agora), o `REGISTRO-DAS-CONTAS.md` (tudo o que já foi entregue), o `MAPA-DO-REPOSITORIO.md` (onde está cada coisa) e o `ESTADO-DO-PROJETO.md` (apps e como retomar).
+3. Procure no repositório (`git grep`, `git log --grep`) se o pedido já existe.
+
+**3. Pedido repetido:** se já foi feito, **não refaça**. Responda: "Isso já foi feito pela conta X em DD/MM: [o que é], está em [pasta ou link]." Só faça de novo se o Lindson pedir uma versão nova; aí continue a partir da existente (versão 2, 3…) e diga o que mudou.
+
+**4. Pedido que outra conta está fazendo** (está em "Em andamento" no quadro): não comece do zero. Continue de onde ela parou, seguindo o "como retomar" do quadro, ou pegue uma parte paralela e combine no quadro quem faz o quê.
+
+**5. Ao começar** um trabalho de mais de alguns minutos: coloque uma linha em "Em andamento" no `QUADRO-DA-EQUIPE.md` com seu nome e faça commit e push na hora, para as outras contas verem que você pegou.
+
+**6. Ao terminar** (ou ao parar no meio):
+- Commit e push de tudo (antes do push, `git pull --rebase`; em conflito, junte as duas versões, nunca apague o trabalho da outra conta).
+- Uma linha no fim da tabela "Entregas" do `REGISTRO-DAS-CONTAS.md` com data, conta, o que fez, onde está e situação.
+- Tire do "Em andamento" do quadro. Se parou no meio, deixe lá com "como retomar".
+- Se criou pasta, app ou processo novo, acrescente no `MAPA-DO-REPOSITORIO.md`. Nos READMEs e no `ESTADO-DO-PROJETO.md`, cite a conta entre parênteses, como em "(conta Pedro)".
+
+**Salve tudo no repositório.** Nada fica só na conversa: roteiros, decisões do Lindson, pesquisas, prompts e links dos apps publicados vão para arquivos aqui. O que não pode ir para o GitHub (dados pessoais, contratos, vídeos grandes) fica registrado com o lugar onde está.

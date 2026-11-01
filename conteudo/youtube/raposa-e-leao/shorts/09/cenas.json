@@ -6,11 +6,11 @@
    "tag": "O PRÍNCIPE · CAP. III",
    "titulo": "O problema é<br>uma febre",
    "ty": 300,
-   "de": "No",
+   "de": "No#1",
    "ate": "curar#2",
    "hl": [
-    "difícil",
-    "impossível"
+    "difícil#1",
+    "impossível#1"
    ],
    "y": 760,
    "s": 74
@@ -24,7 +24,7 @@
      "s": 64,
      "f": "cg",
      "c": "dim",
-     "w": "dinheiro"
+     "w": "dinheiro#1"
     },
     {
      "h": "O cliente que esfria",
@@ -32,7 +32,7 @@
      "s": 64,
      "f": "cg",
      "c": "dim",
-     "w": "cliente"
+     "w": "cliente#1"
     },
     {
      "h": "A relação que desgasta",
@@ -40,11 +40,21 @@
      "s": 64,
      "f": "cg",
      "c": "dim",
-     "w": "relação"
+     "w": "relação#1"
     }
    ],
-   "w": "O#2",
+   "w": "o#2",
    "bg": "num:III"
+  },
+  {
+   "t": "conversa",
+   "w": "Qual#1",
+   "img": "../img/hist/arno.jpg",
+   "h": "Qual desses<br>é o seu?",
+   "interage": {
+    "tipo": "checkin",
+    "txt": "ESCOLHI"
+   }
   },
   {
    "t": "stack",
@@ -55,7 +65,7 @@
      "s": 110,
      "f": "ant",
      "c": "",
-     "w": "quem"
+     "w": "Quem#1"
     },
     {
      "h": "Chega tarde.",
@@ -63,17 +73,31 @@
      "s": 200,
      "f": "ant",
      "c": "",
-     "w": "tarde",
+     "w": "tarde#1",
      "a": "slam",
      "box": "red"
     }
    ],
-   "w": "Quem",
+   "w": "Quem#1",
    "bg": "foto:top:900px;bottom:-320px"
   },
   {
+   "t": "conversa",
+   "w": "Segue#1",
+   "img": "../img/hist/hannibal.jpg",
+   "h": "Veja antes<br>de todo mundo",
+   "interage": {
+    "tipo": "segue",
+    "txt": "GOSTOU? ENTÃO…"
+   }
+  },
+  {
    "t": "assinatura",
-   "apos": "tarde"
+   "apos": "pequeno#1",
+   "frase": "Cure a febre no começo."
   }
- ]
+ ],
+ "abre": "tremor",
+ "pulso": 1.25,
+ "batida": "reto"
 }

@@ -16,7 +16,7 @@
      "s": 110,
      "f": "cg",
      "c": "dim",
-     "w": "protege"
+     "w": "protege#1"
     },
     {
      "h": "<div style='width:960px;height:60px;margin:0 auto;background:repeating-linear-gradient(90deg,#3a3122 0 110px,#0B0A08 110px 116px);border-top:4px solid #C9A227'></div>",
@@ -30,13 +30,13 @@
      "s": 90,
      "f": "cg",
      "c": "red",
-     "w": "discorda"
+     "w": "discorda#1"
     }
    ]
   },
   {
    "t": "duo",
-   "w": "Quando",
+   "w": "Quando#1",
    "dir": "v",
    "a": {
     "k": "Quem ganha",
@@ -47,14 +47,24 @@
     "k": "Quem perde",
     "s": "não te perdoa",
     "c": "#E0453C",
-    "w": "perder"
+    "w": "perder#1"
    },
    "meio": "E VOCÊ?",
-   "meioW": "perdoa"
+   "meioW": "perdoa#1"
+  },
+  {
+   "t": "conversa",
+   "w": "Já#1",
+   "img": "../img/maquiavel.jpg",
+   "h": "Já passou<br>por isso?",
+   "interage": {
+    "tipo": "checkin",
+    "txt": "JÁ PASSEI"
+   }
   },
   {
    "t": "stack",
-   "w": "Ele",
+   "w": "Ele#1",
    "items": [
     {
      "h": "Seja",
@@ -68,7 +78,7 @@
      "s": 220,
      "f": "ant",
      "c": "gold",
-     "w": "amigo"
+     "w": "amigo#1"
     },
     {
      "h": "ou",
@@ -76,7 +86,7 @@
      "s": 90,
      "f": "cg",
      "c": "dim",
-     "w": "ou"
+     "w": "ou#1"
     },
     {
      "h": "Inimigo",
@@ -84,7 +94,7 @@
      "s": 220,
      "f": "ant",
      "c": "red",
-     "w": "inimigo"
+     "w": "inimigo#1"
     },
     {
      "h": "de verdade",
@@ -99,7 +109,7 @@
   },
   {
    "t": "stack",
-   "w": "quem#3",
+   "w": "Quem#3",
    "bg": "glow:rgba(142,27,27,.35):50",
    "items": [
     {
@@ -107,7 +117,7 @@
      "y": 520,
      "s": 120,
      "f": "ant",
-     "w": "muro"
+     "w": "muro#1"
     },
     {
      "h": "<div style='width:960px;height:60px;margin:0 auto;background:repeating-linear-gradient(90deg,#3a3122 0 110px,#0B0A08 110px 116px);border-top:4px solid #C9A227'></div>",
@@ -121,14 +131,34 @@
      "s": 170,
      "f": "ant",
      "box": "red",
-     "w": "presa",
+     "w": "presa#1",
      "a": "slam"
     }
    ]
   },
   {
+   "t": "conversa",
+   "w": "E#4",
+   "img": "../img/hist/bonfire_of_the_vanities.jpg",
+   "h": "Em cima<br>do muro?",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "RESPONDE NOS COMENTÁRIOS",
+    "digita": "NÃO MAIS"
+   }
+  },
+  {
    "t": "assinatura",
-   "apos": "todos"
+   "apos": "não#4",
+   "frase": "Escolha um lado. Com cabeça.",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "DEIXA SUA RESPOSTA",
+    "digita": ""
+   }
   }
- ]
+ ],
+ "abre": "flash",
+ "pulso": 0.95,
+ "batida": "espacado"
 }

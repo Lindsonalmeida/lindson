@@ -1,0 +1,45 @@
+"""Plano C do acervo: baixa da Web Gallery of Art (wga.hu) a mesma obra quando o Commons bloqueia (429). python3 acervo_wga.py
+Use HTTP/1.1: em HTTP/2 o download pode travar em 192 KB. Catálogo da WGA: https://www.wga.hu/database/download/data_txt.zip"""
+import urllib.request,io,json,os,time,subprocess
+from PIL import Image
+OUT='/home/user/lindson/conteudo/youtube/raposa-e-leao/img/acervo'
+L={'bernardo_bellotto_the_piazza_della_signoria_in_f.jpg':('/art/b/bellotto/1/bello103.jpg','Bernardo Bellotto, The Piazza della Signoria in Florence, 1740'),
+'botticelli_giuliano_de_medici_accademia_carrara.jpg':('/art/b/botticel/7portrai/05medici.jpg',"Sandro Botticelli, Giuliano de' Medici, c. 1478"),
+'sandro_botticelli_giuliano_de_medici_gem_ldegale.jpg':('/art/b/botticel/7portrai/07medici.jpg',"Sandro Botticelli, Giuliano de' Medici, c. 1478"),
+'albrecht_altdorfer_schlacht_bei_issus_alte_pinak.jpg':('/art/a/altdorfe/1/5battle.jpg','Albrecht Altdorfer, The Battle of Alexander, 1529'),
+'the_battle_of_alexander_at_issus_by_albrecht_alt.jpg':('/art/a/altdorfe/1/5battle1.jpg','Albrecht Altdorfer, The Battle of Alexander (detalhe), 1529'),
+'castiglione_raffaello.jpg':('/art/r/raphael/5roma/3/01castig.jpg','Rafael, Retrato de Baldassare Castiglione, 1514-15'),
+'leao_x_raffaello.jpg':('/art/r/raphael/5roma/5/09leo_x.jpg',"Rafael, Papa Leão X com os cardeais Giulio de' Medici e Luigi de' Rossi, 1518"),
+'julio_ii_raffaello.jpg':('/art/r/raphael/5roma/1/09julius.jpg','Rafael, Retrato de Júlio II, 1511-12'),
+'prisao_cristo_caravaggio.jpg':('/art/c/caravagg/03/191captu.jpg','Caravaggio, A Prisão de Cristo, c. 1602'),
+'beijo_judas_giotto.jpg':('/art/g/giotto/padova/3christ/chris15.jpg','Giotto, Cenas da vida de Cristo: 15. A Prisão de Cristo (Beijo de Judas), Pádua'),
+'embaixadores_holbein.jpg':('/art/h/holbein/hans_y/1535a/0ambassa.jpg','Hans Holbein, o Jovem, Os Embaixadores, 1533'),
+'multidao_bruegel.jpg':('/art/b/bruegel/pieter_e/08/11calvar.jpg','Pieter Bruegel, o Velho, Cristo carregando a cruz, 1564'),
+'batalha_ostia_raffaello.jpg':('/art/r/raphael/4stanze/3borgo/2battle.jpg','Rafael e oficina, A Batalha de Óstia, 1514-15, Vaticano'),
+'savonarola_fra_bartolomeo.jpg':('/art/b/bartolom/fra/savonaro.jpg','Fra Bartolomeo, Retrato de Girolamo Savonarola, c. 1498'),
+'carlos_viii_florenca_bezzuoli.jpg':('/art/b/bezzuoli/charles8.jpg','Giuseppe Bezzuoli, Entrada de Carlos VIII em Florença, 1829'),
+'sermao_bruegel.jpg':('/art/b/bruegel/pieter_e/09/01baptis.jpg','Pieter Bruegel, o Velho, O Sermão de São João Batista, 1566'),
+'batalha_ponte_milvio_raffaello.jpg':('/art/r/raphael/4stanze/4constan/2battle.jpg','Oficina de Rafael, A Batalha da Ponte Mílvia, 1520-24, Vaticano'),
+# longos 12-16 (01/11): mesmas obras do roteiro; Zama e Reis Católicos em obra equivalente do mesmo tema
+'cesar_assassinato_camuccini.jpg':('/art/c/camuccin/caesar.jpg','Vincenzo Camuccini, A Morte de Júlio César, 1798, Capodimonte'),
+'romanos_decadencia_couture.jpg':('/art/c/couture/decadenc.jpg','Thomas Couture, Os Romanos da Decadência, 1847, Musée d\'Orsay'),
+'coroacao_napoleao_david.jpg':('/art/d/david_j/4/405david.jpg','Jacques-Louis David, Sagração do Imperador Napoleão I e Coroação da Imperatriz Josefina, 1805-07, Louvre'),
+'hannibal_and_scipio_africanus.jpg':('/art/g/giulio/various/zzbattle.jpg','Giulio Romano, A Batalha de Zama (Aníbal e Cipião)'),
+'ferdinand_of_aragon_isabella_of_castile.jpg':('/art/g/gallego/catholic.jpg','Fernando Gallego, Virgem dos Reis Católicos (Fernando e Isabel), c. 1490-95, Prado'),
+}
+cred=json.load(open(OUT+'/creditos.json')); por={c['arquivo']:c for c in cred}
+for arq,(p,t) in L.items():
+    for k in range(6):
+        if os.path.exists(f'{OUT}/{arq}'): break
+        tmp=f'/tmp/{arq}'
+        r=subprocess.run(['curl','-sSfL','--http1.1','-C','-','--retry','3','-m','300','-A','Mozilla/5.0','-o',tmp,'https://www.wga.hu'+p])
+        try: Image.open(tmp).convert('RGB').save(f'{OUT}/{arq}',quality=93)
+        except Exception as e: print('erro',arq,e,flush=True); time.sleep(10)
+    if not os.path.exists(f'{OUT}/{arq}'): print('FALHOU',arq,flush=True); continue
+    r=por.get(arq)
+    if r is None: r={'arquivo':arq}; cred.append(r); por[arq]=r
+    r.update(fonte_baixada='https://www.wga.hu'+p, obra=t, licenca_obra='domínio público (obra anterior a 1900; reprodução fiel de obra 2D)')
+    r.setdefault('titulo',t)
+    json.dump(cred,open(OUT+'/creditos.json','w'),ensure_ascii=False,indent=1)
+    print('ok',arq,Image.open(f'{OUT}/{arq}').size,flush=True)
+print('FIM')

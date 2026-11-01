@@ -18,7 +18,7 @@
      "s": 130,
      "f": "ant",
      "c": "gold",
-     "w": "quem"
+     "w": "quem#1"
     },
     {
      "h": "trabalha para a<br>própria ruína",
@@ -26,7 +26,7 @@
      "s": 120,
      "f": "ant",
      "c": "",
-     "w": "ruína",
+     "w": "ruína#1",
      "a": "slam",
      "box": "red"
     }
@@ -35,7 +35,7 @@
   },
   {
    "t": "duo",
-   "w": "Porque",
+   "w": "Porque#1",
    "dir": "v",
    "a": {
     "k": "Você",
@@ -46,10 +46,20 @@
     "k": "Ele",
     "s": "passa a desconfiar de você",
     "c": "#E0453C",
-    "w": "desconfiar"
+    "w": "desconfiar#1"
    },
    "meio": "DEPOIS",
-   "meioW": "forte"
+   "meioW": "forte#1"
+  },
+  {
+   "t": "conversa",
+   "w": "Tá#1",
+   "img": "../img/cesar.jpg",
+   "h": "Ajudar do<br>jeito certo",
+   "interage": {
+    "tipo": "checkin",
+    "txt": "ENTENDI"
+   }
   },
   {
    "t": "stack",
@@ -60,7 +70,7 @@
      "s": 200,
      "f": "ant",
      "c": "gold",
-     "w": "ajudar"
+     "w": "Ajudar#2"
     },
     {
      "h": "é bom.",
@@ -68,7 +78,7 @@
      "s": 100,
      "f": "cg",
      "c": "",
-     "w": "bom"
+     "w": "bom#1"
     },
     {
      "h": "Entregar a chave<br>da sua casa,",
@@ -76,7 +86,7 @@
      "s": 110,
      "f": "ant",
      "c": "",
-     "w": "entregar"
+     "w": "Entregar#1"
     },
     {
      "h": "não.",
@@ -84,15 +94,34 @@
      "s": 220,
      "f": "ant",
      "c": "red",
-     "w": "não",
+     "w": "não#2",
      "a": "slam"
     }
    ],
-   "w": "Ajudar"
+   "w": "Ajudar#2"
+  },
+  {
+   "t": "conversa",
+   "w": "Você#3",
+   "img": "../img/hist/ferdinand_ii_of_aragon.jpg",
+   "h": "Já te<br>aconteceu?",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "RESPONDE NOS COMENTÁRIOS",
+    "digita": "JÁ, COM UM SÓCIO"
+   }
   },
   {
    "t": "assinatura",
-   "apos": "não"
+   "apos": "embaixo#1",
+   "frase": "Siga e não entregue a chave.",
+   "interage": {
+    "tipo": "segue",
+    "txt": "NÃO PERCA A PRÓXIMA"
+   }
   }
- ]
+ ],
+ "abre": "zoom",
+ "pulso": 1.1,
+ "batida": "duplo"
 }

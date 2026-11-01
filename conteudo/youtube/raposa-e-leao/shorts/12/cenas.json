@@ -18,7 +18,7 @@
      "s": 70,
      "f": "cg",
      "c": "gold",
-     "w": "verdade"
+     "w": "verdade#1"
     }
    ],
    "bg": "foto:top:640px;bottom:-320px"
@@ -40,7 +40,7 @@
      "s": 110,
      "f": "ant",
      "c": "",
-     "w": "todo"
+     "w": "todo#1"
     },
     {
      "h": "= perdem o respeito",
@@ -48,12 +48,22 @@
      "s": 110,
      "f": "ant",
      "c": "red",
-     "w": "respeito",
+     "w": "respeito#1",
      "a": "slam"
     }
    ],
-   "w": "Mas",
+   "w": "Mas#1",
    "bg": "num:XXIII"
+  },
+  {
+   "t": "conversa",
+   "w": "Até#1",
+   "img": "../img/hist/marcus_equestre.jpg",
+   "h": "Agora,<br>o como",
+   "interage": {
+    "tipo": "checkin",
+    "txt": "TUDO CERTO"
+   }
   },
   {
    "t": "stack",
@@ -64,7 +74,7 @@
      "s": 90,
      "f": "ant",
      "c": "",
-     "w": "escolha",
+     "w": "escolha#1",
      "x": "l"
     },
     {
@@ -73,7 +83,7 @@
      "s": 90,
      "f": "ant",
      "c": "",
-     "w": "pergunte",
+     "w": "pergunte#1",
      "x": "l"
     },
     {
@@ -82,7 +92,7 @@
      "s": 90,
      "f": "ant",
      "c": "",
-     "w": "ouça",
+     "w": "ouça#1",
      "x": "l"
     },
     {
@@ -91,16 +101,31 @@
      "s": 90,
      "f": "ant",
      "c": "",
-     "w": "decida",
+     "w": "decida#1",
      "a": "slam",
      "x": "l"
     }
    ],
-   "w": "Então"
+   "w": "Então#1"
+  },
+  {
+   "t": "conversa",
+   "w": "Quem#1",
+   "img": "../img/lorenzo.jpg",
+   "h": "Quem te fala<br>a verdade?",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "RESPONDE NOS COMENTÁRIOS",
+    "digita": "M"
+   }
   },
   {
    "t": "assinatura",
-   "apos": "sozinho"
+   "apos": "dela#1",
+   "frase": "Ouça poucos. Decida sozinho."
   }
- ]
+ ],
+ "abre": "tremor",
+ "pulso": 1.1,
+ "batida": "espacado"
 }

@@ -1,6 +1,6 @@
 # Estado do projeto (para continuar de qualquer conta)
 
-Atualizado em 29/10/2026. Leia também o `CLAUDE.md` (regras de trabalho) e o agente Peter em `.claude/agents/peter.md` (regras de YouTube, retenção e monetização).
+Atualizado em 29/10/2026. Leia também o `QUADRO-DA-EQUIPE.md` (quem está fazendo o quê agora), o `MAPA-DO-REPOSITORIO.md` (onde está cada coisa), o `REGISTRO-DAS-CONTAS.md` (quem fez o quê, com a conta de cada entrega), o `CLAUDE.md` (regras de trabalho) e o agente Peter em `.claude/agents/peter.md` (regras de YouTube, retenção e monetização).
 
 ## Apps e páginas publicadas (claude.ai)
 São privados da conta que criou. **Para abrir ou editar de outra conta, compartilhe pelo menu "Compartilhar" de cada página** (dê acesso de edição se a outra conta for publicar nela). Os endereços `/_blob/...` dos arquivos `ativos*.json` só funcionam dentro do app de origem.
@@ -14,7 +14,11 @@ São privados da conta que criou. **Para abrir ou editar de outra conta, compart
 | Passaporte da Bíblia · Postagens | https://claude.ai/artifact/1aUURghpLqrWgTQmkvBcG4 | `conteudo/youtube/passaporte/motor/app_pv.py` + `ativos.json` |
 | Raposa e Leão · Postagens | https://claude.ai/artifact/LSTErmeSra3qxFKBJMLiTC | `conteudo/youtube/raposa-e-leao/motor/app_rl.py` + `ativos.json` |
 | Central do cliente (login, protótipo) | https://claude.ai/artifact/XjCkj5eULmE2Pg8KptnKcV | `agencia/sistema-clientes/prototipo/` |
-| Fábrica de Conteúdo (outra organização) | https://claude.ai/artifact/WxeZuhrzQutLDTJ36y6EVt | aba Passaporte: `passaporte/motor/fabrica_pv.py` |
+| Fábrica de Conteúdo (conta Lindson) | https://claude.ai/artifact/WxeZuhrzQutLDTJ36y6EVt | `agencia/app/fabrica.html`; aba Passaporte: `passaporte/motor/fabrica_pv.py` |
+| Recomeço 90: missões, funil, lista diária de leads e aba Conteúdo com os 300 roteiros de Reels (conta Lindson) | https://claude.ai/artifact/DQFTjzVzhH2ZaHtFQwXw5N | `agencia/app/recomeco90.html` · `conteudo/esteira/` |
+| Painel do Vereador Leo Pinto (Central, cliente `LEO-…`) | https://claude.ai/artifact/7TjjwEUN5jASCbytXAvhHk (conta passaportedabiblia) | `agencia/sistema-clientes/leo-pinto/` (README) |
+
+**Atenção (31/10):** os apps acima, exceto o painel do Leo, estão noutra organização do Claude. Compartilhar com edição por e-mail **não** libera escrita entre organizações: a conta passaportedabiblia abre, mas não publica neles. Para atualizar, use uma sessão da conta dona ou recrie o app nesta conta.
 
 Decisão do Lindson: os vídeos do Passaporte e do Maquiavel ficam **nos apps próprios** de cada canal, não na Fábrica.
 
@@ -46,7 +50,7 @@ Processo completo em `conteudo/youtube/passaporte/PROCESSO.md` e `conteudo/youtu
 
 ### Raposa e Leão
 - App próprio criado com os 30 Shorts e 11 longos. Os textos de publicação ficam em `shorts/NN/publicar.json` e `longos/NN/publicar.json`.
-- **Shorts refeitos com a voz nova:** só o 01. A fila `raposa-e-leao/motor/lote.sh shorts` está pausada.
+- **Shorts refeitos com a voz nova:** 01 a 18 (07-18 em 31/10, enviados como assets `raposa-short-NN.mp4` no app https://claude.ai/artifact/2k4SSuvALdqXDcXnBQMVZH; a página do app ainda aponta para os arquivos antigos). Faltam 19 a 30: `lote.sh shorts 19 … 30`.
 - **5 longos novos** (próximo passo, depois do Passaporte). Os temas:
   1. O Príncipe explicado
   2. Os Médici
@@ -56,6 +60,15 @@ Processo completo em `conteudo/youtube/passaporte/PROCESSO.md` e `conteudo/youtu
   - Brief em `raposa-e-leao/roteiros/BRIEF.md`.
   - Imagens em domínio público em `img/acervo/`, baixadas por `motor/acervo.py`. A Wikimedia limita o ritmo (pausas e miniatura de 1920 px). As imagens ficam fora do Git: rode `acervo.py` de novo noutra conta.
   - Falta: concluir o acervo e criar `img/acervo/MAPA.md` (o que cada imagem mostra), os 5 roteiros, a renderização (`pintura.py` com `canal: raposa`), as capas claras e subir no app.
+
+### Sessão de 31/10 (conta passaportedabiblia): o que ficou rodando e como continuar
+- **Ambiente:** os scripts usam caminhos da sessão antiga. Em vez de editar o código, recrie-os com links: `ln -s <seu scratchpad>/old-scratch /tmp/claude-0/-home-user/5acf6937-9ac6-56e0-bc29-78bef210dc8b/scratchpad` e `ln -s <clone do repo> /home/user/lindson`. Instale `edge-tts soundfile scipy` e baixe o modelo `https://huggingface.co/inference4j/depth-anything-v2-small/resolve/main/model.onnx` para `<scratchpad antigo>/modelos/depth.onnx`.
+- **Gravuras de Doré:** `https://www.gutenberg.org/cache/epub/8710/pg8710-h.zip`, pasta `images/` (já numeradas `001.jpg`…; batem com `dore/MAPA.md`).
+- **Acervo do Raposa:** `raposa-e-leao/motor/acervo_faltantes.py` baixa só as imagens que os roteiros 12-16 usam (título exato do `creditos.json` ou busca pela obra) e registra o crédito. O Wikimedia limita a 429: o script espera e tenta de novo.
+- **Fila do Passaporte:** longos 06, 07 e 08 (mesmos passos do `lote7.sh`, sem refazer 05 e 09). Cada longo leva ~1h20 a 1h40 em 4 núcleos. Rode desacoplado (`setsid nohup … &`): tarefas em segundo plano da sessão morrem em 2 h. `RETOMAR=1` continua do último quadro.
+- **Apps únicos desta conta (31/10, 12h UTC):** Passaporte https://claude.ai/artifact/CT3Z4M3yrzGrqCt3nh95ak (`ativos-novo.json`, `python3 app_pv.py ../ativos-novo.json`) e Raposa https://claude.ai/artifact/2k4SSuvALdqXDcXnBQMVZH (`ATIVOS=../ativos-novo.json python3 app_rl.py`). No app (31/10, 12h45 UTC): Raposa Shorts 07-30 (voz nova); Passaporte longos 07, 08 e Shorts 02-07. Em sessões filhas (tag `canais-dark-render`): Passaporte Shorts 08-20; Raposa longos 12-16 (a Wikimedia bloqueia a saída de rede, então imagens que faltarem são trocadas por obras do acervo); **roteiros novos de 16-20 min** para Raposa longos 06-11 (`raposa-e-leao/roteiros/longo-NN.json`, formato dos 12-16) e Passaporte longos 03-04 (`passaporte/roteiros/`).
+- **Regra (Lindson, 31/10): todo vídeo longo tem de 16 a 20 min (2.400 a 2.900 palavras, BRIEF de cada canal).** Os roteiros antigos (`raposa-e-leao/longos/01-11/roteiro.json` e os longos 01-04 do Passaporte em `pintura.json`) são curtos, de 5 a 10 min: não renderize com eles. Antes de pôr um longo no app, confira que passa de 15 min.
+- **Depois:** longos 12-16 do Raposa (`filas/lote_rl.sh`) e a fila de refazer com a voz nova (`filas/lote8.sh` e `raposa-e-leao/motor/lote.sh shorts`). Os vídeos ficam fora do Git.
 
 ### Retomar uma renderização
 - Os quadros vão para a pasta temporária da sessão (`TMP` no topo de `pintura.py`). Noutra conta ou sessão, troque esse caminho pelo da sua pasta temporária.

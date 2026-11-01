@@ -1,0 +1,189 @@
+<!doctype html><html lang="pt-BR"><meta charset="utf-8"><title>Clínica Dra. Jaci Cunha · Manual de identidade</title>
+<!-- Conta Lindson, 01/11/2026. Documenta a identidade que a clínica JÁ usa (logo, cores e letras do Instagram e da estratégia premium).
+     Renderizar com render.js (Playwright). Fontes: Cormorant Garamond e Montserrat (Google Fonts). Imagens em img/ (recortes do perfil @clinica.drajacicunha). -->
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--b:#6B1620;--bd:#4E0E17;--g:#C6A06A;--gl:#E3C9A0;--c:#F5EFE6;--n:#EDE6DE;--i:#2A1A1C;--m:#7A6A66}
+*{box-sizing:border-box}body{margin:0;font-family:Montserrat;color:var(--i);-webkit-font-smoothing:antialiased}
+.p{width:1080px;height:1350px;position:relative;overflow:hidden;page-break-after:always;background:var(--c)}
+.dk{background:radial-gradient(80% 60% at 40% 20%,#7E1C27 0%,var(--b) 45%,var(--bd) 100%);color:#fff}
+.s{font-family:'Cormorant Garamond';font-weight:500;letter-spacing:-.01em}
+.h{font-family:'Cormorant Garamond';font-weight:500;font-size:96px;line-height:1;margin:0;color:var(--b)}
+.dk .h{color:#fff}.h em,.s em{font-style:italic;color:var(--g)}
+.k{font-weight:600;font-size:13px;letter-spacing:.34em;text-transform:uppercase;color:var(--g)}
+.top{position:absolute;left:84px;right:84px;top:70px;display:flex;justify-content:space-between;align-items:center}
+.top .n{font-family:'Cormorant Garamond';font-size:22px;color:var(--g)}.top .t{font-family:'Cormorant Garamond';font-size:20px;letter-spacing:.32em;color:var(--b)}
+.dk .top .t{color:var(--gl)}
+.bot{position:absolute;left:84px;right:84px;bottom:52px;display:flex;justify-content:space-between;font-size:14px;color:var(--m)}
+.dk .bot{color:#ffffffaa}
+.rule{height:2px;width:620px;background:linear-gradient(90deg,var(--g),transparent);margin:26px 0 0}
+.card{background:#fff;border:1px solid #6B162018;border-radius:22px}
+.dk .card{background:#ffffff10;border-color:#E3C9A033}
+.x{font-size:18px;line-height:1.6;margin:0}
+.lb{font-size:12px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--m);margin-top:14px}
+.img{background-size:cover;background-position:center;border-radius:22px}
+.hd{position:absolute;left:84px;top:150px;right:84px}
+</style><body><script>
+const T=16, I=n=>`img/${n}`;
+const top_=(n)=>`<div class="top"><span class="n">${String(n).padStart(2,'0')}</span><span class="t">DRA. JACI CUNHA</span></div>`;
+const bot_=()=>`<div class="bot"><span>Manual de identidade · Clínica Dra. Jaci Cunha</span><span>Alkantara · Lindson Almeida</span></div>`;
+const hd=(k,t)=>`<div class="hd"><div class="k">${k}</div><h2 class="h" style="margin-top:18px">${t}</h2><div class="rule"></div></div>`;
+const oval=(s,src=I('monograma.jpg'))=>`<div style="width:${s}px;height:${s*1.2}px;border-radius:50%;border:2px solid var(--g);background:url(${src}) center/cover;box-shadow:0 0 0 8px #C6A06A22"></div>`;
+const sw=(hex,n,rgb,t='#fff',u='',b='')=>`<div style="background:${hex};color:${t};border-radius:22px;padding:26px;display:flex;flex-direction:column;justify-content:flex-end;border:1px solid #6B162014;${b}"><div class="s" style="font-size:32px">${n}</div><div style="font-size:14px;line-height:1.7;margin-top:6px;opacity:.9">${hex} · RGB ${rgb}${u?'<br>'+u:''}</div></div>`;
+const P=[];
+
+// 01 CAPA
+P.push(`<div class="p dk">
+<div class="img" style="position:absolute;inset:0;border-radius:0;background-image:url(${I('assinatura.jpg')});background-size:92% auto;background-repeat:no-repeat;background-position:center 18%;background-color:#6B1620"></div>
+<div style="position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,#4E0E17 88%)"></div>
+<div style="position:absolute;left:84px;right:84px;bottom:110px">
+<div class="k">Manual de identidade visual</div>
+<h1 class="h" style="font-size:118px;margin-top:20px;color:#fff">Beleza natural,<br><em>saúde e bem-estar</em></h1>
+<div class="rule"></div>
+<p class="x" style="margin-top:26px;color:#ffffffcc">Harmonização Orofacial e Odontologia · Zé Doca, Maranhão</p></div></div>`);
+
+// 02 ESSÊNCIA
+P.push(`<div class="p">${top_(2)}${hd('A essência','Um novo conceito em <em>beleza</em>')}
+<div style="position:absolute;left:84px;top:470px;width:470px">
+<p class="x" style="font-size:22px">A Clínica Dra. Jaci Cunha une harmonização orofacial e odontologia com um olhar só: <b>realçar sem exagerar</b>. Cada plano começa ouvindo a paciente e analisando o rosto com calma.</p>
+<p class="x" style="margin-top:22px">Por isso a marca é elegante, acolhedora e segura. O bordô traz a sofisticação, o dourado traz o cuidado artesanal, e o perfil feminino no símbolo lembra que o centro de tudo é o rosto de quem chega.</p></div>
+<div class="img" style="position:absolute;right:84px;top:470px;width:400px;height:520px;background-image:url(${I('post-observo.jpg')})"></div>
+<div style="position:absolute;left:84px;right:84px;bottom:120px;display:grid;grid-template-columns:repeat(3,1fr);gap:18px">
+${[['Promessa','Beleza natural, com saúde e cuidado, aqui em Zé Doca.'],['Personalidade','Elegante, acolhedora, segura e próxima.'],['Tom de voz','Explica com calma, sem termo difícil e sem promessa.']].map(([t,x])=>`<div class="card" style="padding:24px"><div class="k" style="font-size:11px">${t}</div><p class="x" style="margin-top:10px;font-size:16px">${x}</p></div>`).join('')}</div>${bot_()}</div>`);
+
+// 03 SÍMBOLO
+P.push(`<div class="p dk">${top_(3)}${hd('O símbolo','Um traço, <em>um rosto</em>')}
+<div class="img" style="position:absolute;left:84px;top:470px;width:520px;height:640px;background-image:url(${I('monograma.jpg')});border:1px solid #E3C9A044"></div>
+<div style="position:absolute;left:650px;right:84px;top:480px">
+${[['As iniciais','O J e o C entrelaçados em dourado: a assinatura da Dra. Jaci Cunha.'],['O perfil','Um rosto feminino desenhado em traço contínuo: a harmonização, o equilíbrio das proporções.'],['O fio','A linha fina que nasce e volta ao monograma: delicadeza e trabalho feito à mão.']].map(([t,x])=>`<div style="margin-bottom:34px"><div style="height:2px;width:60px;background:var(--g)"></div><div class="s" style="font-size:34px;margin-top:14px">${t}</div><p class="x" style="margin-top:6px;color:#ffffffcc;font-size:17px">${x}</p></div>`).join('')}</div>
+<p class="x" style="position:absolute;left:84px;right:84px;bottom:110px;font-size:15px;color:#ffffffaa">Interpretação do símbolo a partir do logo em uso. Os arquivos originais (vetor AI, PDF ou SVG) devem ser pedidos à clínica ou a quem criou o logo.</p>${bot_()}</div>`);
+
+// 04 ASSINATURA E VERSÕES
+P.push(`<div class="p">${top_(4)}${hd('Assinatura','Três formas, <em>a mesma marca</em>')}
+<div style="position:absolute;left:84px;right:84px;top:460px;display:grid;grid-template-columns:1.25fr 1fr;grid-template-rows:330px 330px;gap:20px">
+<div style="grid-row:span 2;display:flex;flex-direction:column"><div class="img" style="flex:1;background-image:url(${I('assinatura.jpg')});background-size:contain;background-repeat:no-repeat;background-color:#6B1620"></div><div class="lb">Assinatura principal · vertical</div></div>
+<div style="display:flex;flex-direction:column"><div class="img" style="flex:1;background-image:url(${I('selo-foto.jpg')})"></div><div class="lb">Selo circular · sobre foto</div></div>
+<div style="display:flex;flex-direction:column;align-items:flex-start"><div style="width:260px;height:260px;border-radius:50%;background:url(${I('avatar.jpg')}) center/cover"></div><div class="lb">Avatar · perfil e WhatsApp</div></div></div>
+<p class="x" style="position:absolute;left:84px;right:84px;bottom:110px;font-size:16px"><b>Assinatura:</b> símbolo + "DRA. JACI CUNHA" em letras romanas maiúsculas + "HARMONIZAÇÃO OROFACIAL E ODONTOLOGIA" com espaçamento largo. Na fachada e nos posts de abertura, use a vertical. Em espaço pequeno, o símbolo dentro do oval dourado.</p>${bot_()}</div>`);
+
+// 05 USOS
+const bad=(st,t)=>`<div><div style="height:150px;border-radius:18px;overflow:hidden;position:relative;background:#fff;border:1px solid #6B162018"><div class="img" style="position:absolute;inset:14px;border-radius:10px;background-image:url(${I('assinatura.jpg')});background-size:contain;background-repeat:no-repeat;background-color:#6B1620;${st}"></div><svg style="position:absolute;inset:0" viewBox="0 0 100 100" preserveAspectRatio="none"><path d="M6 94L94 6" stroke="#B3261E" stroke-width="1.4"/></svg></div><div class="lb">${t}</div></div>`;
+P.push(`<div class="p">${top_(5)}${hd('Usos','Cuidados com <em>a marca</em>')}
+<div style="position:absolute;left:84px;right:84px;top:460px;display:grid;grid-template-columns:repeat(3,1fr);gap:18px">
+<div class="img" style="height:230px;background-image:url(${I('assinatura.jpg')});background-size:contain;background-repeat:no-repeat;background-color:#6B1620"></div>
+<div style="height:230px;border-radius:22px;background:var(--c);border:1px solid #6B162022;display:flex;align-items:center;justify-content:center">${oval(130)}</div>
+<div style="height:230px;border-radius:22px;background:#fff;border:1px solid #6B162022;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:8px"><span class="s" style="font-size:40px;color:var(--b);letter-spacing:.06em">DRA. JACI CUNHA</span><span style="font-size:10px;letter-spacing:.28em;color:var(--g);font-weight:600">HARMONIZAÇÃO OROFACIAL E ODONTOLOGIA</span></div></div>
+<div style="position:absolute;left:84px;right:84px;top:710px;display:grid;grid-template-columns:repeat(3,1fr);gap:18px;font-size:14px;line-height:1.5;color:var(--m)"><span><b style="color:var(--i)">Ideal:</b> dourado sobre bordô.</span><span><b style="color:var(--i)">Fundo claro:</b> símbolo no oval dourado.</span><span><b style="color:var(--i)">Só texto:</b> bordô e dourado, sem efeitos.</span></div>
+<div style="position:absolute;left:84px;right:84px;top:780px"><div class="k" style="color:#B3261E">Nunca faça</div></div>
+<div style="position:absolute;left:84px;right:84px;top:820px;display:grid;grid-template-columns:repeat(3,1fr);gap:18px">
+${bad('transform:scaleX(1.45)','Esticar ou achatar')+bad('filter:hue-rotate(180deg)','Trocar as cores')+bad('filter:blur(1.5px)','Usar arquivo borrado')+bad('opacity:.3','Baixo contraste')+bad('transform:rotate(-12deg)','Girar')+bad('filter:drop-shadow(5px 5px 3px #000)','Sombra e brilho extra')}</div>
+<p class="x" style="position:absolute;left:84px;right:84px;bottom:100px;font-size:14px;color:var(--m)">Área de proteção: deixe livre em volta a altura do símbolo dividida por 2. Tamanho mínimo da assinatura: 40 mm ou 220 px de largura (o traço é fino e some se ficar pequeno).</p>${bot_()}</div>`);
+
+// 06 PALETA
+P.push(`<div class="p">${top_(6)}${hd('Paleta','Bordô e <em>dourado</em>')}
+<div style="position:absolute;left:84px;right:84px;top:460px;display:grid;grid-template-columns:1.3fr 1fr;grid-template-rows:290px 200px 200px;gap:16px">
+${sw('#6B1620','Bordô Jaci','107 22 32','#fff','Cor principal: fundos, títulos, botões','grid-row:span 2')}
+${sw('#C6A06A','Dourado','198 160 106','#2A1A1C','Símbolo, fios, destaques')}
+${sw('#E3C9A0','Champanhe','227 201 160','#2A1A1C','Degradê do dourado, detalhes')}
+${sw('#4E0E17','Bordô Profundo','78 14 23','#fff','Sombras e degradês')}
+${sw('#F5EFE6','Creme','245 239 230','#2A1A1C','Fundo claro principal')}</div>
+<div style="position:absolute;left:84px;right:84px;top:1180px;display:flex;gap:16px;align-items:center"><div style="width:110px;height:54px;border-radius:12px;background:#2A1A1C"></div><p class="x" style="font-size:15px"><b>Tinta</b> #2A1A1C para textos longos. <b>Nude</b> #EDE6DE para fundos de foto.</p></div>
+<p class="x" style="position:absolute;left:84px;right:84px;bottom:96px;font-size:13px;color:var(--m)">Cores medidas no perfil e na estratégia da clínica. Proporção: 50% creme ou nude · 35% bordô · 15% dourado.</p>${bot_()}</div>`);
+// fix the swatch with span (sw ignores 5th arg as style) -> handled below
+P[P.length-1]=P[P.length-1].replace('Cor principal: fundos, títulos, botões</div></div>','Cor principal: fundos, títulos, botões</div></div>');
+
+// 07 TIPOGRAFIA
+P.push(`<div class="p">${top_(7)}${hd('Tipografia','Clássica com <em>leveza</em>')}
+<div style="position:absolute;left:84px;right:84px;top:460px;display:grid;grid-template-columns:1fr 1fr;gap:20px">
+<div class="card" style="padding:34px;height:340px"><div class="s" style="font-size:150px;line-height:1;color:var(--b)">A<em>a</em></div><div class="s" style="font-size:34px;margin-top:14px">Cormorant Garamond</div><p class="x" style="font-size:16px;margin-top:6px">Títulos e frases. O itálico em dourado destaca a palavra que importa.</p></div>
+<div class="card" style="padding:34px;height:340px"><div style="font-size:140px;font-weight:300;line-height:1;color:var(--b)">Aa</div><div style="font-size:28px;font-weight:600;margin-top:14px">Montserrat</div><p class="x" style="font-size:16px;margin-top:6px">Textos, rótulos e botões. Rótulos em caixa alta com espaçamento largo.</p></div></div>
+<div style="position:absolute;left:84px;right:84px;top:830px">
+${[['Título · Cormorant 500 · 72','Agenda cheia de <em>avaliações</em>',62,'s'],['Destaque · Cormorant itálico · dourado','<em>beleza natural</em>',44,'s'],['Rótulo · Montserrat 600 · caixa alta +34%','<span class="k" style="font-size:15px">Análise e estratégia</span>',15,''],['Texto · Montserrat 400 · 18/29','Cada rosto é único, por isso tudo começa com uma avaliação.',18,'']].map(([l,t,s,c])=>`<div style="display:grid;grid-template-columns:270px 1fr;align-items:baseline;padding:14px 0;border-top:1px solid #6B162022"><span style="font-size:12px;font-weight:600;color:var(--m)">${l}</span><span class="${c}" style="font-size:${s}px;color:var(--b);line-height:1.15">${t}</span></div>`).join('')}</div>${bot_()}</div>`);
+
+// 08 ACABAMENTOS
+P.push(`<div class="p dk">${top_(8)}${hd('Acabamentos','Detalhes <em>de luxo</em>')}
+<div style="position:absolute;left:84px;right:84px;top:470px;display:grid;grid-template-columns:repeat(3,1fr);gap:20px">
+<div class="card" style="height:300px;display:flex;align-items:center;justify-content:center">${oval(140)}</div>
+<div class="card" style="height:300px;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:22px"><div style="height:2px;width:220px;background:linear-gradient(90deg,var(--g),transparent)"></div><div style="height:2px;width:220px;background:linear-gradient(90deg,transparent,var(--gl),transparent)"></div><div style="height:2px;width:220px;background:linear-gradient(90deg,transparent,var(--g))"></div></div>
+<div class="card" style="height:300px;padding:26px;display:flex;flex-direction:column;justify-content:flex-end;background:radial-gradient(90% 70% at 40% 20%,#8A2431,#4E0E17)"><span class="s" style="font-size:30px">Luz <em>radial</em></span></div></div>
+<div style="position:absolute;left:84px;right:84px;top:800px;display:grid;grid-template-columns:repeat(3,1fr);gap:20px">
+${[['Oval dourado','O símbolo dentro de uma moldura oval fina, com brilho suave. Capa, assinatura de página e destaque.'],['Fio dourado','Linha fina em degradê embaixo dos títulos e entre seções. Nunca grossa.'],['Bordô com luz','Fundo bordô com luz no alto, mais escuro nas bordas. Dá profundidade sem textura.']].map(([t,x])=>`<div><div class="s" style="font-size:30px">${t}</div><p class="x" style="margin-top:8px;font-size:16px;color:#ffffffcc">${x}</p></div>`).join('')}</div>
+<p class="x" style="position:absolute;left:84px;right:84px;bottom:110px;font-size:15px;color:#ffffffaa">Cartões claros com cantos arredondados e borda bem fina organizam a informação nas peças em fundo creme.</p>${bot_()}</div>`);
+
+// 09 FOTOGRAFIA
+P.push(`<div class="p">${top_(9)}${hd('Fotografia','A Dra. <em>na frente</em>')}
+<div style="position:absolute;left:84px;right:84px;top:460px;display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:300px 300px;gap:16px">
+<div class="img" style="grid-row:span 2;background-image:url(${I('post-frases.jpg')})"></div>
+<div class="img" style="background-image:url(${I('consultorio.jpg')})"></div>
+<div class="img" style="background-image:url(${I('post-bioestimulador.jpg')});background-position:center 20%"></div>
+<div class="img" style="background-image:url(${I('post-labios.jpg')})"></div>
+<div class="img" style="background-image:url(${I('fachada.jpg')})"></div></div>
+<div style="position:absolute;left:84px;right:84px;bottom:96px;display:grid;grid-template-columns:1fr 1fr;gap:26px">
+<div><div class="k" style="font-size:11px;color:#2E7D4F">Assim sim</div><p class="x" style="font-size:15px;margin-top:6px">Estúdio claro, roupas off-white, nude ou bordô, joias douradas, sorriso natural. Consultório com a luz âmbar real. Detalhes de resultado só com autorização por escrito (TCLE).</p></div>
+<div><div class="k" style="font-size:11px;color:#B3261E">Assim não</div><p class="x" style="font-size:15px;margin-top:6px">Procedimento sendo feito, sangue ou agulha em close, filtro que muda a pele, banco de imagem, "antes e depois" sem autorização ou em anúncio.</p></div></div>${bot_()}</div>`);
+
+// 10 SISTEMA DE POSTS
+P.push(`<div class="p">${top_(10)}${hd('Instagram','O sistema <em>dos posts</em>')}
+<div style="position:absolute;left:84px;right:84px;top:450px;display:grid;grid-template-columns:repeat(4,1fr);gap:14px">
+${['post-reta-final.jpg','post-preenchimento.jpg','post-botox.jpg','post-botox-checklist.jpg'].map(f=>`<div class="img" style="height:420px;background-image:url(${I(f)});border-radius:14px"></div>`).join('')}</div>
+<div style="position:absolute;left:84px;right:84px;top:900px;display:grid;grid-template-columns:repeat(3,1fr);gap:18px">
+${[['Cabeçalho fixo','CLINICA.DRAJACICUNHA · CIRURGIÃ-DENTISTA · @clinica.drajacicunha, em letras pequenas no topo de todo post.'],['Título que para o dedo','Serifa itálica grande em branco, com 1 palavra em faixa bordô e caixa alta ("E EU SEMPRE AVISO").'],['Rodapé de assinatura','Nome, CRO e endereço discretos: "Av. Militar, em frente à Praça do Viva · Zé Doca/MA".']].map(([t,x])=>`<div class="card" style="padding:22px"><div class="s" style="font-size:26px;color:var(--b)">${t}</div><p class="x" style="font-size:14px;margin-top:8px">${x}</p></div>`).join('')}</div>
+<p class="x" style="position:absolute;left:84px;right:84px;bottom:96px;font-size:14px;color:var(--m)">Foto da Dra. ocupa o post inteiro, com fundo claro. Carrossel sempre com "ARRASTE PARA O LADO". Nunca dois posts seguidos com a mesma composição.</p>${bot_()}</div>`);
+
+// 11 PERFIL
+P.push(`<div class="p">${top_(11)}${hd('Perfil','Bio, destaques <em>e caminho</em>')}
+<div class="card" style="position:absolute;left:84px;right:84px;top:450px;padding:30px;display:flex;gap:28px;align-items:center">
+<div style="width:150px;height:150px;border-radius:50%;flex:none;background:url(${I('avatar.jpg')}) center/cover"></div>
+<div><div style="font-weight:700;font-size:22px">clinica.drajacicunha</div><div style="font-size:17px;line-height:1.6;margin-top:6px">Dra. Jaci Cunha | CRO 8514<br>Harmonização Orofacial e Odonto em Zé Doca/MA<br>Beleza natural, saúde e bem-estar<br>👇 Agende sua avaliação</div></div></div>
+<div style="position:absolute;left:84px;right:84px;top:720px;display:flex;justify-content:space-between">
+${['Avaliação','Procedimentos','Dúvidas','A Clínica','Pacientes','Como chegar'].map(n=>`<div style="text-align:center;width:140px"><div style="width:118px;height:118px;margin:0 auto;border-radius:50%;background:radial-gradient(80% 80% at 40% 30%,#8A2431,#4E0E17);border:2px solid var(--g);display:flex;align-items:center;justify-content:center"><div style="width:60px;height:72px;border-radius:50%;border:1.5px solid var(--gl);background:url(${I('monograma.jpg')}) center/180%"></div></div><div style="font-size:14px;font-weight:600;margin-top:10px;color:var(--b)">${n}</div></div>`).join('')}</div>
+<div class="card" style="position:absolute;left:84px;right:84px;top:940px;padding:26px"><div class="k" style="font-size:11px">Link da bio</div><p class="x" style="margin-top:8px">Mini site com o chat de avaliação, no lugar do link direto do WhatsApp (estratégia, páginas 17 e 18).</p></div>
+<p class="x" style="position:absolute;left:84px;right:84px;bottom:96px;font-size:14px;color:var(--m)">Bio e destaques da estratégia de vendas aprovada. Capas de destaque: bordô com luz, borda dourada e o símbolo no oval.</p>${bot_()}</div>`);
+
+// 12 ANÚNCIOS E STORIES
+const ad=(src,t,pos='center')=>`<div style="width:280px;height:560px;border-radius:36px;background:#111;padding:10px"><div style="width:100%;height:100%;border-radius:28px;overflow:hidden;position:relative;background:url(${I(src)}) ${pos}/cover"><div style="position:absolute;left:0;right:0;bottom:0;height:60%;background:linear-gradient(transparent,#6B1620F2 60%)"></div><div style="position:absolute;left:20px;right:20px;bottom:20px"><div class="s" style="font-size:30px;line-height:1.05;color:#fff">${t}</div><div style="margin-top:14px;background:var(--g);color:var(--bd);border-radius:12px;padding:12px;text-align:center;font-weight:700;font-size:14px">Agendar avaliação</div></div></div></div>`;
+P.push(`<div class="p">${top_(12)}${hd('Anúncios e stories','A frase, a Dra. <em>e o botão</em>')}
+<div style="position:absolute;left:84px;right:84px;top:450px;display:flex;justify-content:space-between">
+${ad('post-botox.jpg','Botox não é pra congelar o rosto.','center 20%')+ad('post-bioestimulador.jpg','Flacidez depois dos 35: o que dá pra fazer?','center 15%')+ad('post-reta-final.jpg','Beleza natural, <em>do seu jeito.</em>','center 15%')}</div>
+<p class="x" style="position:absolute;left:84px;right:84px;top:1060px;font-size:16px">Rosto da Dra. nos 3 primeiros segundos, frase em Cormorant sobre o degradê bordô e botão dourado. Cada anúncio abre o WhatsApp com um código ([BTX01], [BIO01], [LAB01], [ODO01]).</p>
+<p class="x" style="position:absolute;left:84px;right:84px;bottom:96px;font-size:14px;color:var(--m)">Sem preço, sem "grátis" e sem antes e depois em anúncio (CFO e regras da Meta).</p>${bot_()}</div>`);
+
+// 13 PAPELARIA E MINI SITE
+P.push(`<div class="p" style="background:var(--n)">${top_(13)}${hd('Papelaria','Cartão, receituário <em>e mini site</em>')}
+<div style="position:absolute;left:84px;top:470px;width:400px;height:240px;border-radius:14px;background:radial-gradient(90% 80% at 40% 20%,#8A2431,#4E0E17);box-shadow:0 30px 50px -25px #0008;transform:rotate(-4deg);display:flex;align-items:center;justify-content:center">${oval(110)}</div>
+<div style="position:absolute;left:150px;top:640px;width:400px;height:240px;border-radius:14px;background:var(--c);box-shadow:0 30px 50px -25px #0008;transform:rotate(3deg);padding:28px;display:flex;flex-direction:column;justify-content:space-between"><div><div class="s" style="font-size:30px;color:var(--b);letter-spacing:.06em">DRA. JACI CUNHA</div><div style="font-size:9px;letter-spacing:.26em;color:var(--g);font-weight:600;margin-top:4px">HARMONIZAÇÃO OROFACIAL E ODONTOLOGIA</div></div><div style="font-size:12px;line-height:1.7">Cirurgiã-dentista · CRO 8514<br>@clinica.drajacicunha<br>Av. Militar, em frente à Praça do Viva · Zé Doca/MA</div></div>
+<div style="position:absolute;left:150px;top:930px;width:330px;height:330px;background:#fff;box-shadow:0 30px 50px -25px #0008;transform:rotate(-2deg);padding:26px;display:flex;flex-direction:column"><div class="s" style="font-size:22px;color:var(--b);letter-spacing:.06em">DRA. JACI CUNHA</div><div class="k" style="font-size:9px;margin-top:20px">Receituário</div>${[...Array(5)].map(()=>`<div style="height:1px;background:#6B162022;margin-top:30px"></div>`).join('')}<div style="margin-top:auto;font-size:9px;color:var(--m)">CRO 8514 · Zé Doca/MA</div></div>
+<div style="position:absolute;right:84px;top:450px;width:360px;height:740px;border-radius:44px;background:#111;padding:12px;box-shadow:0 30px 60px -30px #000a"><div style="width:100%;height:100%;border-radius:34px;overflow:hidden;background:var(--c)"><div style="height:330px;background:url(${I('post-reta-final.jpg')}) center 15%/cover"></div><div style="padding:24px"><div class="s" style="font-size:30px;line-height:1.1;color:var(--b)">Beleza natural, com saúde e cuidado, aqui em Zé Doca.</div><p style="font-size:13px;color:var(--m);margin:10px 0 0">Harmonização orofacial e odontologia com a Dra. Jaci Cunha.</p><div style="margin-top:20px;background:var(--b);color:#fff;border-radius:12px;padding:14px;text-align:center;font-weight:700;font-size:14px">Fazer minha avaliação</div><div style="margin-top:10px;border:1px solid var(--g);color:var(--b);border-radius:12px;padding:12px;text-align:center;font-weight:600;font-size:12px">Como funciona · Procedimentos · A clínica</div></div></div></div>
+${bot_()}</div>`);
+
+// 14 CLÍNICA
+P.push(`<div class="p dk">${top_(14)}${hd('A clínica','A marca <em>no espaço</em>')}
+<div style="position:absolute;left:84px;right:84px;top:450px;display:grid;grid-template-columns:1.2fr 1fr;grid-template-rows:330px 330px;gap:16px">
+<div class="img" style="grid-row:span 2;background-image:url(${I('fachada.jpg')})"></div>
+<div class="img" style="background-image:url(${I('consultorio.jpg')})"></div>
+<div class="img" style="background-image:url(${I('consultorio-2.jpg')})"></div></div>
+<div style="position:absolute;left:84px;right:84px;bottom:110px;display:grid;grid-template-columns:1fr 1fr;gap:26px">
+<p class="x" style="font-size:16px;color:#ffffffcc"><b style="color:#fff">Fachada e recepção:</b> letras douradas em relevo sobre bordô, com o símbolo no alto e a luz quente por trás. É a imagem que mais marca a clínica (o post da inauguração passou de 50 mil visualizações).</p>
+<p class="x" style="font-size:16px;color:#ffffffcc"><b style="color:#fff">Consultório:</b> branco e madeira clara com luz âmbar. Nos vídeos, a Dra. aparece sentada à mesa, com o espelho dourado e o tablet: esse cenário vira assinatura dos reels.</p></div>${bot_()}</div>`);
+
+// 15 TOM DE VOZ E CFO
+const vz=(t,s,n)=>`<div class="card" style="padding:22px"><div class="s" style="font-size:28px;color:var(--b)">${t}</div><div style="font-size:15px;line-height:1.5;margin-top:10px"><b style="color:#2E7D4F">Assim sim:</b> ${s}</div><div style="font-size:15px;line-height:1.5;margin-top:6px;color:var(--m)"><b style="color:#B3261E">Assim não:</b> ${n}</div></div>`;
+P.push(`<div class="p">${top_(15)}${hd('Tom de voz','Como a <em>Dra. fala</em>')}
+<div style="position:absolute;left:84px;right:84px;top:450px;display:grid;gap:14px">
+${vz('Natural, sem exagero','"Natural não é fazer pouco, é fazer certo pra você."','"Fique 10 anos mais jovem em uma sessão!"')}
+${vz('Explica com calma','"Bioestimulador ou preenchimento? A diferença em 30 segundos."','"Protocolo de bioestimulação com ácido poli-L-lático."')}
+${vz('Acolhe antes de vender','"Na avaliação, a Dra. olha seu rosto com calma e mostra o que combina com você."','"Últimas vagas com desconto, corre!"')}</div>
+<div style="position:absolute;left:84px;right:84px;top:1000px;display:grid;grid-template-columns:1fr 1fr;gap:16px">
+<div class="card" style="padding:22px"><div class="k" style="font-size:11px;color:#2E7D4F">O CFO permite</div><p class="x" style="font-size:14px;margin-top:8px">Selfie da Dra. (inclusive com paciente), conteúdo educativo e bastidor, antes e depois de casos próprios com TCLE, depoimento autorizado.</p></div>
+<div class="card" style="padding:22px"><div class="k" style="font-size:11px;color:#B3261E">O CFO não permite</div><p class="x" style="font-size:14px;margin-top:8px">Preço, promoção, desconto, sorteio, "consulta grátis", promessa de resultado, procedimento sendo feito, sangue ou tecido.</p></div></div>
+<p class="x" style="position:absolute;left:84px;right:84px;bottom:96px;font-size:13px;color:var(--m)">Base: Resolução CFO 196/2019 e Código de Ética (Res. 118/2012). Em toda peça: nome e CRO 8514.</p>${bot_()}</div>`);
+
+// 16 CONTRACAPA
+P.push(`<div class="p dk"><div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:40px;text-align:center">${oval(220)}
+<div class="s" style="font-size:54px;letter-spacing:.08em">DRA. JACI CUNHA</div><div class="k" style="margin-top:-24px">Harmonização orofacial e odontologia</div>
+<div class="rule" style="margin:0 auto;width:420px;background:linear-gradient(90deg,transparent,var(--g),transparent)"></div>
+<div class="s" style="font-size:34px"><em>Beleza natural, saúde e bem-estar.</em></div></div>
+<div class="bot"><span>Manual de identidade · novembro de 2026</span><span>Alkantara · Lindson Almeida</span></div></div>`);
+
+document.body.innerHTML=P.join('');
+</script></body></html>

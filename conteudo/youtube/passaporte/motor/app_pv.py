@@ -8,7 +8,8 @@ ORDEM = ['pv-01'] + [f'short-{i:02d}' for i in range(1, 21)] + [f'longo-{i:02d}'
 spec = {v['id']: v for v in json.load(open(RAIZ + '/pintura.json'))}
 TEMPOS = json.load(open(RAIZ + '/tempos.json')) if os.path.exists(RAIZ + '/tempos.json') else {}
 itens = []
-for k in [x for x in ORDEM if x in spec]:
+SO = [x for x in os.environ.get('IDS', '').split(',') if x]  # IDS=longo-06,longo-07 limita o app a esses vídeos
+for k in [x for x in ORDEM if x in spec and (not SO or x in SO)]:
     v = spec[k]; longo = v['formato'] == 'longo'
     capas = [{'nome': 'Capa A', 'arq': f'{k}-A.jpg'}, {'nome': 'Capa B', 'arq': f'{k}-B.jpg'}, {'nome': 'Capa C', 'arq': f'{k}-C.jpg'}] if longo else [{'nome': 'Capa', 'arq': f'{k}.jpg'}]
     for c in capas: c['url'] = ativos.get(c['arq'])

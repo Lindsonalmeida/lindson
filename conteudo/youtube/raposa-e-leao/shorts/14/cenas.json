@@ -18,7 +18,7 @@
      "s": 110,
      "f": "ant",
      "c": "",
-     "w": "venceram"
+     "w": "venceram#1"
     },
     {
      "h": "Desarmados",
@@ -26,7 +26,7 @@
      "s": 130,
      "f": "ant",
      "c": "red",
-     "w": "desarmados"
+     "w": "desarmados#1"
     },
     {
      "h": "se arruinaram",
@@ -34,7 +34,7 @@
      "s": 110,
      "f": "ant",
      "c": "",
-     "w": "arruinaram"
+     "w": "arruinaram#1"
     }
    ],
    "bg": "num:VI"
@@ -48,7 +48,7 @@
      "s": 90,
      "f": "cg",
      "c": "dim",
-     "w": "espada"
+     "w": "espada#1"
     },
     {
      "h": "É ter meios de<br>sustentar o que<br>você começou",
@@ -56,11 +56,21 @@
      "s": 110,
      "f": "ant",
      "c": "gold",
-     "w": "meios"
+     "w": "meios#1"
     }
    ],
-   "w": "Maquiavel",
+   "w": "Maquiavel#1",
    "bg": "foto:top:640px;bottom:-320px"
+  },
+  {
+   "t": "conversa",
+   "w": "Tá#1",
+   "img": "../img/hist/pope_julius_ii.jpg",
+   "h": "Força =<br>estrutura",
+   "interage": {
+    "tipo": "checkin",
+    "txt": "FAZ SENTIDO"
+   }
   },
   {
    "t": "stack",
@@ -71,8 +81,8 @@
      "s": 100,
      "f": "ant",
      "c": "",
-     "w": "recurso",
-     "riscar": "dura"
+     "w": "recurso#1",
+     "riscar": "dura#1"
     },
     {
      "h": "sem estrutura",
@@ -80,7 +90,7 @@
      "s": 100,
      "f": "ant",
      "c": "",
-     "w": "estrutura"
+     "w": "estrutura#2"
     },
     {
      "h": "sem gente",
@@ -88,7 +98,7 @@
      "s": 100,
      "f": "ant",
      "c": "",
-     "w": "gente"
+     "w": "gente#1"
     },
     {
      "h": "não dura",
@@ -96,33 +106,53 @@
      "s": 170,
      "f": "ant",
      "c": "",
-     "w": "dura",
+     "w": "dura#1",
      "a": "slam",
      "box": "red"
     }
    ],
-   "w": "Uma"
+   "w": "Uma#1"
   },
   {
    "t": "duo",
-   "w": "Convencer",
+   "w": "Convencer#1",
    "dir": "v",
    "a": {
     "k": "Convencer",
     "s": "é fácil",
     "c": "#EFE6D2",
-    "w": "convencer"
+    "w": "Convencer#1"
    },
    "b": {
     "k": "Manter",
     "s": "é que exige força",
     "c": "#E2BE4A",
-    "w": "manter"
+    "w": "Manter#1"
+   }
+  },
+  {
+   "t": "conversa",
+   "w": "Qual#1",
+   "img": "../img/hist/arco_severo.jpg",
+   "h": "Qual ideia<br>morreu?",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "RESPONDE NOS COMENTÁRIOS",
+    "digita": "MINHA LOJA"
    }
   },
   {
    "t": "assinatura",
-   "apos": "força"
+   "apos": "comentários#1",
+   "frase": "Ideia boa precisa de braço.",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "DEIXA SUA RESPOSTA",
+    "digita": ""
+   }
   }
- ]
+ ],
+ "abre": "zoom",
+ "pulso": 1.6,
+ "batida": "reto"
 }
