@@ -11,7 +11,7 @@ Como usar:
 ## Em andamento
 | Desde | Conta | O quê | Como retomar / onde está |
 |---|---|---|---|
-| 31/10 | Pedro | Refazer os longos abaixo de 16 min dos dois canais e colocar no app | `conteudo/youtube/filas/REFAZER-LONGOS.md` · vídeos no branch `entregas-videos` · apps Passaporte https://claude.ai/artifact/CT3Z4M3yrzGrqCt3nh95ak e Raposa https://claude.ai/artifact/2k4SSuvALdqXDcXnBQMVZH. Conferido pela conta Lindson em 01/11 (`ativos-novo.json`): vídeo no app só de Passaporte 03, 04, 06, 07, 08 e Raposa 07-11. Passaporte 01 refeito e entregue (conta Pedro, 01/11, `entregas/passaporte/`). **Faltam o vídeo** de Passaporte 02, 05, 09 e Raposa 01-06 e 12-16 (as capas já estão) |
+| 31/10 | Pedro | Refazer os longos abaixo de 16 min dos dois canais e colocar no app | `conteudo/youtube/filas/REFAZER-LONGOS.md` · vídeos no branch `entregas-videos` · apps Passaporte https://claude.ai/artifact/CT3Z4M3yrzGrqCt3nh95ak e Raposa https://claude.ai/artifact/2k4SSuvALdqXDcXnBQMVZH. Em 01/11 21h: no app Passaporte 03-08 e Raposa 02-04, 06-11. **Faltam** Passaporte 01, 02, 09 (09 renderizando na sessão coordenadora `session_01XiFncet69pmvqfriyq8wAJ`) e Raposa 01, 05, 12-16 (sessões "Refazer longo …"). Capas: Passaporte pelo `capas2.py`; Raposa pelas thumbs da identidade (`longos/NN/thumb*.png`; 12-16 ainda sem thumb da identidade) |
 | 22/10 | Lindson | Teste 01 de Reels: o Lindson grava os 300 roteiros e envia os prints das métricas | aba Conteúdo do Recomeço 90 (https://claude.ai/artifact/DQFTjzVzhH2ZaHtFQwXw5N) · `conteudo/esteira/ROTINA.md`. Quando chegarem métricas: ler o ranking e decidir o Teste 02 |
 
 ## Livre para pegar (pendências conhecidas)
