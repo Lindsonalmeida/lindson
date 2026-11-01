@@ -6,7 +6,7 @@ const W = 393, H = 578, DPR = 1080 / 393;
 (async () => {
   fs.rmSync(OUT, {recursive: true, force: true}); fs.mkdirSync(OUT + '/q', {recursive: true});
   const b = await chromium.launch();
-  const c = await b.newContext({...devices['iPhone 13'], viewport: {width: W, height: H}, deviceScaleFactor: DPR});
+  const c = await b.newContext({...devices['iPhone 13'], viewport: {width: W, height: H}, deviceScaleFactor: DPR, locale: 'pt-BR', timezoneId: 'America/Fortaleza'});
   await c.route(/wa\.me|api\.whatsapp|instagram\.com|linkedin\.com|threads\.net/, r => r.abort());
   const p = await c.newPage(); p.setDefaultTimeout(6000); const cdp = await c.newCDPSession(p);
   const tempos = []; const eventos = []; let t0 = null, n = 0;
@@ -19,7 +19,7 @@ const W = 393, H = 578, DPR = 1080 / 393;
   // dedo: bolinha que aparece no toque e acompanha a rolagem
   const DEDO = `(()=>{if(window.__dedo)return;const d=document.createElement('div');d.id='__dedo';d.style.cssText='position:fixed;z-index:2147483647;width:46px;height:46px;margin:-23px 0 0 -23px;border-radius:50%;background:rgba(255,255,255,.38);border:2px solid rgba(255,255,255,.85);box-shadow:0 0 0 1px rgba(0,0,0,.25),0 4px 14px rgba(0,0,0,.35);pointer-events:none;opacity:0;transition:opacity .15s,transform .15s;left:0;top:0';document.documentElement.appendChild(d);window.__dedo=d})()`;
   await p.addInitScript(DEDO);
-  const dedo = (x, y, vis, esc = 1) => p.evaluate(([x, y, v, e]) => { const d = document.getElementById('__dedo'); if (!d) return; d.style.left = x + 'px'; d.style.top = y + 'px'; d.style.opacity = v ? 1 : 0; d.style.transform = `scale(${e})`; }, [x, y, vis, esc]);
+  const dedo = (x, y, vis, esc = 1) => p.evaluate(([x, y, v, e]) => { const d = document.getElementById('__dedo'); if (!d) return; d.style.left = x + 'px'; d.style.top = y + 'px'; d.style.opacity = v ? 1 : 0; d.style.transform = `scale(${e})`; }, [x, y, vis, esc]).catch(() => {});
   const rolar = (alvo, dur) => p.evaluate(([alvo, dur]) => new Promise(res => {
     const y0 = scrollY, dy = alvo - y0, ini = performance.now(), d = document.getElementById('__dedo'), x = innerWidth * .62, yb = innerHeight * .78;
     document.documentElement.style.scrollBehavior = 'auto';
@@ -32,12 +32,13 @@ const W = 393, H = 578, DPR = 1080 / 393;
   inicio = Date.now() / 1000;
   if (R.antes) await p.goto(R.antes, {waitUntil: 'domcontentloaded'}).catch(() => {});
   await p.goto(R.url, {waitUntil: 'domcontentloaded'}); await p.evaluate(DEDO);
-  let ia = 0; for (const a of R.acoes) { if (process.env.DEBUG_DEMO) console.log('ação', ia, JSON.stringify(a).slice(0, 70), ((Date.now() / 1000) - inicio).toFixed(1)); ia++;
-    if (a.legenda !== undefined) eventos.push({t: agora(), tipo: 'legenda', texto: a.legenda});  // tutorial: legenda até a próxima (conta Lindson, 01/11)
+  let ia = 0, marca = agora(); for (const a of R.acoes) { if (process.env.DEBUG_DEMO) console.log('ação', ia, JSON.stringify(a).slice(0, 70), ((Date.now() / 1000) - inicio).toFixed(1)); ia++;
+    if (a.legenda !== undefined) { eventos.push({t: agora(), tipo: 'legenda', texto: a.legenda}); marca = agora(); }
+    if (a.ate) { const falta = a.ate - (agora() - marca); if (falta > 0) await p.waitForTimeout(falta * 1000); }  // tutorial: legenda até a próxima (conta Lindson, 01/11)
     if (a.js) await p.evaluate(a.js).catch(e => console.log('js', e.message.slice(0, 60)));
     if (a.clicar) { const loc = p.locator(a.clicar).first(); const bx = await loc.boundingBox().catch(() => null);
       if (bx) { const x = bx.x + bx.width / 2, y = bx.y + bx.height / 2; await dedo(x, y, true, 1.15); await p.waitForTimeout(160); await dedo(x, y, true, .85); eventos.push({t: agora(), tipo: 'toque'}); await loc.click({timeout: 3000}).catch(e => console.log('clicar', e.message.slice(0, 60))); await p.waitForTimeout(180); await dedo(x, y, false, 1); } else console.log('não achei', a.clicar); }
-    if (a.digitar) { const loc = p.locator(a.digitar).first(); await loc.focus({timeout: 4000}).catch(e => console.log('foco', a.digitar)); await p.keyboard.type(a.texto, {delay: a.ritmo || 55}); }
+    if (a.digitar) { const ok = await p.evaluate(sel => { const e = document.querySelector(sel); if (!e) return false; e.scrollIntoView({block: 'center'}); e.focus(); return document.activeElement === e; }, a.digitar).catch(() => false); if (!ok) console.log('foco', a.digitar); await p.keyboard.type(a.texto, {delay: a.ritmo || 55}); }
     if (a.esperar) await p.waitForTimeout(a.esperar * 1000);
     if (a.rolar !== undefined) {
       let y = a.rolar; if (typeof y === 'string') y = await p.evaluate(s => { const e = document.querySelector(s); return e ? e.getBoundingClientRect().top + scrollY - 70 : 0 }, y);

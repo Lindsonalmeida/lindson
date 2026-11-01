@@ -1,0 +1,320 @@
+{
+ "url": "http://localhost:8788/",
+ "endereco": "lindsonalmeida.pages.dev",
+ "cor_legenda": "#FFC20E",
+ "inicio": [
+  {
+   "js": "document.head.insertAdjacentHTML('beforeend','<style>#codigo{-webkit-text-security:disc}</style>')"
+  }
+ ],
+ "passos": [
+  {
+   "legenda": "<small>CENTRAL DO GABINETE</small>Oi, Vereador Leo! Oi, equipe!",
+   "fala": "Oi, Vereador Leo! Oi, equipe do gabinete! Aqui é o Lindson. Neste vídeo eu vou mostrar, rapidinho, como usar a Central do mandato.",
+   "acoes": [
+    {
+     "esperar": 1
+    }
+   ]
+  },
+  {
+   "legenda": "<small>PASSO 1</small>Criar a sua conta",
+   "fala": "Na primeira vez, abra o site lindsonalmeida ponto pages ponto dev e toque em Criar conta. Coloque o seu nome, o e-mail, uma senha e o código que eu te mandei.",
+   "acoes": [
+    {
+     "rolar": "#login",
+     "mais": 20,
+     "dur": 1.4
+    },
+    {
+     "clicar": "#tab-criar"
+    },
+    {
+     "esperar": 0.5
+    },
+    {
+     "digitar": "#nome",
+     "texto": "Equipe do gabinete",
+     "ritmo": 40
+    },
+    {
+     "digitar": "#usuario",
+     "texto": "gabinete@email.com",
+     "ritmo": 35
+    },
+    {
+     "digitar": "#senha",
+     "texto": "minhasenha1",
+     "ritmo": 40
+    },
+    {
+     "rolar": "#codigo",
+     "mais": -200,
+     "dur": 0.6
+    },
+    {
+     "digitar": "#codigo",
+     "texto": "{CODIGO:leo}",
+     "ritmo": 60
+    }
+   ]
+  },
+  {
+   "legenda": "<small>PRONTO</small>Depois, é só e-mail e senha",
+   "fala": "Pronto! Das próximas vezes, é só entrar com o e-mail e a senha. E cada pessoa da equipe pode ter o próprio acesso, com o mesmo código.",
+   "acoes": [
+    {
+     "clicar": "#btn-acao"
+    },
+    {
+     "esperar": 2
+    }
+   ]
+  },
+  {
+   "legenda": "<small>VISÃO GERAL</small>Os números do Instagram",
+   "fala": "Aqui na visão geral você acompanha os números do seu Instagram e o que a nossa equipe está preparando.",
+   "acoes": [
+    {
+     "rolar": 560,
+     "dur": 2.2
+    },
+    {
+     "esperar": 1
+    },
+    {
+     "rolar": 0,
+     "dur": 1.4
+    }
+   ]
+  },
+  {
+   "legenda": "<small>MENU</small>Todas as áreas ficam aqui",
+   "fala": "Neste botão fica o menu, com todas as áreas do sistema.",
+   "acoes": [
+    {
+     "clicar": "#abrir"
+    },
+    {
+     "esperar": 1.8
+    },
+    {
+     "js": "document.getElementById('menu').classList.remove('aberto')"
+    }
+   ]
+  },
+  {
+   "legenda": "<small>DEMANDAS</small>O que o povo pediu",
+   "fala": "Em Demandas, a equipe registra tudo o que o povo pede: na rua, no WhatsApp ou no gabinete. Por exemplo: um poste apagado na rua da escola, no Centro.",
+   "acoes": [
+    {
+     "js": "document.getElementById('menu').classList.remove('aberto')"
+    },
+    {
+     "clicar": "#abrir"
+    },
+    {
+     "esperar": 0.7
+    },
+    {
+     "clicar": "a[data-v=demandas]"
+    },
+    {
+     "esperar": 1.2
+    },
+    {
+     "rolar": "#nova-dem",
+     "mais": -60,
+     "dur": 1.2
+    },
+    {
+     "digitar": "#nd-titulo",
+     "texto": "Poste apagado na rua da escola",
+     "ritmo": 35
+    },
+    {
+     "digitar": "#nd-bairro",
+     "texto": "Centro",
+     "ritmo": 60
+    },
+    {
+     "clicar": "#nd-btn"
+    },
+    {
+     "esperar": 1
+    }
+   ]
+  },
+  {
+   "legenda": "<small>DEMANDAS</small>Pedimos, fizemos, entregamos",
+   "fala": "Cada demanda passa por três etapas: pedimos, fizemos e entregamos. E vocês veem quais bairros mais chamam o mandato.",
+   "acoes": [
+    {
+     "rolar": 0,
+     "dur": 1.4
+    },
+    {
+     "esperar": 0.8
+    },
+    {
+     "rolar": 700,
+     "dur": 2
+    }
+   ]
+  },
+  {
+   "legenda": "<small>PRESTAÇÃO DE CONTAS</small>Entregou? Vira post",
+   "fala": "Quando uma demanda é entregue, ela aparece em Prestação de contas, com o texto do post pronto: pediu, tá feito.",
+   "acoes": [
+    {
+     "js": "document.getElementById('menu').classList.remove('aberto')"
+    },
+    {
+     "clicar": "#abrir"
+    },
+    {
+     "esperar": 0.7
+    },
+    {
+     "clicar": "a[data-v=prestacao]"
+    },
+    {
+     "esperar": 1.2
+    }
+   ]
+  },
+  {
+   "legenda": "<small>AGENDA</small>Os compromissos do mandato",
+   "fala": "Na Agenda do mandato, a equipe coloca visitas, sessões e escutas. Por exemplo: uma escuta com os pescadores.",
+   "acoes": [
+    {
+     "js": "document.getElementById('menu').classList.remove('aberto')"
+    },
+    {
+     "clicar": "#abrir"
+    },
+    {
+     "esperar": 0.7
+    },
+    {
+     "clicar": "a[data-v=agenda]"
+    },
+    {
+     "esperar": 1.2
+    },
+    {
+     "rolar": "#nova-ag",
+     "mais": -60,
+     "dur": 1
+    },
+    {
+     "digitar": "#ag-t",
+     "texto": "Escuta com pescadores",
+     "ritmo": 40
+    },
+    {
+     "clicar": "#nova-ag button[type=submit]"
+    },
+    {
+     "esperar": 1
+    },
+    {
+     "rolar": 0,
+     "dur": 1
+    }
+   ]
+  },
+  {
+   "legenda": "<small>PLANEJAMENTO</small>Linhas e datas do ano",
+   "fala": "Em Planejamento estão as linhas de conteúdo, o ritmo da semana e as datas comemorativas da cidade.",
+   "acoes": [
+    {
+     "js": "document.getElementById('menu').classList.remove('aberto')"
+    },
+    {
+     "clicar": "#abrir"
+    },
+    {
+     "esperar": 0.7
+    },
+    {
+     "clicar": "a[data-v=planejamento]"
+    },
+    {
+     "esperar": 1.2
+    },
+    {
+     "rolar": 700,
+     "dur": 2.4
+    },
+    {
+     "esperar": 0.6
+    },
+    {
+     "rolar": 2000,
+     "dur": 2.4
+    }
+   ]
+  },
+  {
+   "legenda": "<small>FOTOS</small>Mande fotos pra equipe",
+   "fala": "Em Fotos, vocês mandam as fotos do dia a dia do mandato, direto do celular. As do ensaio já estão aqui.",
+   "acoes": [
+    {
+     "js": "document.getElementById('menu').classList.remove('aberto')"
+    },
+    {
+     "clicar": "#abrir"
+    },
+    {
+     "esperar": 0.7
+    },
+    {
+     "clicar": "a[data-v=fotos]"
+    },
+    {
+     "esperar": 1.2
+    },
+    {
+     "rolar": 520,
+     "dur": 1.6
+    }
+   ]
+  },
+  {
+   "legenda": "<small>APROVAÇÕES E PEDIDOS</small>Aprove e peça o que precisar",
+   "fala": "Em Aprovações, vocês aprovam os posts ou pedem ajuste. E em Pedidos, pedem o que precisar pra equipe.",
+   "acoes": [
+    {
+     "js": "document.getElementById('menu').classList.remove('aberto')"
+    },
+    {
+     "clicar": "#abrir"
+    },
+    {
+     "esperar": 0.7
+    },
+    {
+     "clicar": "a[data-v=aprovacoes]"
+    },
+    {
+     "esperar": 1.2
+    },
+    {
+     "rolar": 280,
+     "dur": 1.4
+    }
+   ]
+  },
+  {
+   "legenda": "<small>QUALQUER DÚVIDA</small>Chame no WhatsApp",
+   "fala": "É isso! Qualquer dúvida, me chama no WhatsApp. Um abraço, vereador, e bom trabalho pra toda a equipe!",
+   "acoes": [
+    {
+     "rolar": 0,
+     "dur": 1.2
+    }
+   ]
+  }
+ ]
+}

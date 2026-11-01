@@ -1,21 +1,354 @@
-{"url":"http://localhost:8788/","endereco":"lindsonalmeida.pages.dev","cor_legenda":"#C6A06A","acoes":[
- {"js":"document.head.insertAdjacentHTML('beforeend','<style>#codigo{-webkit-text-security:disc}</style>')"},
- {"legenda":"<small>CENTRAL DA DRA. JACI</small>Como usar o seu sistema em 1 minuto"},{"esperar":3.2},
- {"legenda":"<small>PASSO 1</small>Abra lindsonalmeida.pages.dev e toque em Criar conta"},
- {"rolar":"#login","mais":20,"dur":1.6},{"esperar":0.6},{"clicar":"#tab-criar"},{"esperar":1},
- {"legenda":"<small>PASSO 2</small>Coloque nome, e-mail, uma senha e o código que você recebeu"},
- {"digitar":"#nome","texto":"Jaci Cunha"},{"digitar":"#usuario","texto":"dra.jaci@email.com","ritmo":40},{"digitar":"#senha","texto":"minhasenha1"},
- {"rolar":"#codigo","mais":-200,"dur":0.8},{"digitar":"#codigo","texto":"JACUYWCEP5B","ritmo":70},{"esperar":0.6},{"clicar":"#btn-acao"},{"esperar":2.6},
- {"legenda":"<small>PRONTO!</small>Das próximas vezes, é só entrar com e-mail e senha"},{"esperar":2.4},
- {"legenda":"<small>VISÃO GERAL</small>Seus números do Instagram, metas e próximos passos"},
- {"rolar":520,"dur":2},{"esperar":1.2},{"rolar":1100,"dur":2},{"esperar":1},{"rolar":0,"dur":1.4},
- {"legenda":"<small>MENU</small>Toque aqui para ver todas as áreas do seu sistema"},{"esperar":0.8},{"clicar":"#abrir"},{"esperar":2.2},
- {"legenda":"<small>APROVAÇÕES</small>Aprove o post ou peça ajuste. A equipe recebe na hora"},{"clicar":"a[data-v=aprovacoes]"},{"esperar":1.6},{"rolar":300,"dur":1.4},{"esperar":1.2},{"clicar":"[data-ap]"},{"esperar":1.8},
- {"legenda":"<small>CALENDÁRIO</small>Todos os posts do mês, dia a dia"},{"clicar":"#abrir"},{"esperar":0.8},{"clicar":"a[data-v=calendario]"},{"esperar":1.4},{"rolar":420,"dur":2},{"esperar":1.6},
- {"legenda":"<small>CRM DE PACIENTES</small>Chegou mensagem? Cadastre a paciente aqui"},{"clicar":"#abrir"},{"esperar":0.8},{"clicar":"a[data-v=crm]"},{"esperar":1.4},{"rolar":"[data-novo-pac]","mais":-90,"dur":1.2},{"clicar":"[data-novo-pac]"},{"esperar":0.8},
- {"digitar":"#fr-pac [name=nome]","texto":"Maria (exemplo)"},{"digitar":"#fr-pac [name=whats]","texto":"98 99999-0000","ritmo":45},{"esperar":0.6},{"clicar":"button[form=fr-pac]"},{"esperar":1.4},
- {"legenda":"<small>CRM</small>Toque em WhatsApp: a mensagem já vai escrita e a paciente anda no funil"},{"rolar":".fr-funil","mais":-60,"dur":1.2},{"esperar":0.8},{"tocar":"WhatsApp","exato":true,"so_mostrar":true},{"esperar":2.6},
- {"legenda":"<small>FINANCEIRO</small>Lance o que entrou e o que saiu e acompanhe a meta do mês"},{"clicar":"#abrir"},{"esperar":0.8},{"clicar":"a[data-v=financeiro]"},{"esperar":1.4},{"rolar":520,"dur":2},{"esperar":1.6},
- {"legenda":"<small>FOTOS</small>Mande fotos da clínica direto para a equipe"},{"clicar":"#abrir"},{"esperar":0.8},{"clicar":"a[data-v=fotos]"},{"esperar":2.8},
- {"legenda":"<small>PEDIDOS</small>Precisa de um post ou de um ajuste? Peça por aqui"},{"clicar":"#abrir"},{"esperar":0.8},{"clicar":"a[data-v=pedidos]"},{"esperar":1},{"rolar":"#novo-ped","mais":-60,"dur":1.2},{"digitar":"#ped-t","texto":"Post sobre o horário de fim de ano","ritmo":40},{"esperar":1.6},
- {"legenda":"<small>QUALQUER DÚVIDA</small>Chame a equipe no WhatsApp. Bom trabalho, Dra.!"},{"rolar":0,"dur":1.2},{"esperar":3}]}
+{
+ "url": "http://localhost:8788/",
+ "endereco": "lindsonalmeida.pages.dev",
+ "cor_legenda": "#C6A06A",
+ "inicio": [
+  {
+   "js": "document.head.insertAdjacentHTML('beforeend','<style>#codigo{-webkit-text-security:disc}</style>')"
+  }
+ ],
+ "passos": [
+  {
+   "legenda": "<small>CENTRAL DA CLÍNICA</small>Oi, Dra. Jaci! Oi, equipe!",
+   "fala": "Oi, Dra. Jaci! Oi, equipe da clínica! Aqui é o Lindson. Neste vídeo eu vou mostrar, rapidinho, como usar a Central da clínica.",
+   "acoes": [
+    {
+     "esperar": 1
+    }
+   ]
+  },
+  {
+   "legenda": "<small>PASSO 1</small>Criar a sua conta",
+   "fala": "Na primeira vez, abra o site lindsonalmeida ponto pages ponto dev e toque em Criar conta. Coloque o seu nome, o e-mail, uma senha e o código que eu te mandei.",
+   "acoes": [
+    {
+     "rolar": "#login",
+     "mais": 20,
+     "dur": 1.4
+    },
+    {
+     "clicar": "#tab-criar"
+    },
+    {
+     "esperar": 0.5
+    },
+    {
+     "digitar": "#nome",
+     "texto": "Jaci Cunha"
+    },
+    {
+     "digitar": "#usuario",
+     "texto": "dra.jaci@email.com",
+     "ritmo": 35
+    },
+    {
+     "digitar": "#senha",
+     "texto": "minhasenha1",
+     "ritmo": 40
+    },
+    {
+     "rolar": "#codigo",
+     "mais": -200,
+     "dur": 0.6
+    },
+    {
+     "digitar": "#codigo",
+     "texto": "{CODIGO:jaci}",
+     "ritmo": 60
+    }
+   ]
+  },
+  {
+   "legenda": "<small>PRONTO</small>Depois, é só e-mail e senha",
+   "fala": "Pronto! Das próximas vezes, é só entrar com o e-mail e a senha. E cada pessoa da equipe pode criar o próprio acesso, com o mesmo código.",
+   "acoes": [
+    {
+     "clicar": "#btn-acao"
+    },
+    {
+     "esperar": 2
+    }
+   ]
+  },
+  {
+   "legenda": "<small>VISÃO GERAL</small>Os números da clínica",
+   "fala": "Aqui na visão geral você acompanha os números do Instagram da clínica, as metas e o que a nossa equipe está fazendo agora.",
+   "acoes": [
+    {
+     "rolar": 560,
+     "dur": 2.2
+    },
+    {
+     "esperar": 1
+    },
+    {
+     "rolar": 1150,
+     "dur": 2.2
+    },
+    {
+     "esperar": 0.6
+    },
+    {
+     "rolar": 0,
+     "dur": 1.4
+    }
+   ]
+  },
+  {
+   "legenda": "<small>MENU</small>Todas as áreas ficam aqui",
+   "fala": "Neste botão fica o menu, com todas as áreas do sistema.",
+   "acoes": [
+    {
+     "clicar": "#abrir"
+    },
+    {
+     "esperar": 1.8
+    },
+    {
+     "js": "document.getElementById('menu').classList.remove('aberto')"
+    }
+   ]
+  },
+  {
+   "legenda": "<small>APROVAÇÕES</small>Aprove ou peça ajuste",
+   "fala": "Em Aprovações, você vê os posts antes de irem pro ar. Gostou? Toque em Aprovar. Quer mudar alguma coisa? Toque em Pedir ajuste, e a gente recebe na hora.",
+   "acoes": [
+    {
+     "js": "document.getElementById('menu').classList.remove('aberto')"
+    },
+    {
+     "clicar": "#abrir"
+    },
+    {
+     "esperar": 0.7
+    },
+    {
+     "clicar": "a[data-v=aprovacoes]"
+    },
+    {
+     "esperar": 1.2
+    },
+    {
+     "rolar": 280,
+     "dur": 1.4
+    },
+    {
+     "esperar": 0.8
+    },
+    {
+     "clicar": "[data-ap]"
+    },
+    {
+     "esperar": 1
+    }
+   ]
+  },
+  {
+   "legenda": "<small>CALENDÁRIO</small>Os posts do mês",
+   "fala": "No Calendário estão todos os posts do mês, dia a dia, com o tema de cada um.",
+   "acoes": [
+    {
+     "js": "document.getElementById('menu').classList.remove('aberto')"
+    },
+    {
+     "clicar": "#abrir"
+    },
+    {
+     "esperar": 0.7
+    },
+    {
+     "clicar": "a[data-v=calendario]"
+    },
+    {
+     "esperar": 1.2
+    },
+    {
+     "rolar": 450,
+     "dur": 2.2
+    }
+   ]
+  },
+  {
+   "legenda": "<small>CRM DE PACIENTES</small>Cadastre quem chamou",
+   "fala": "Agora, a parte mais importante: o CRM de pacientes. Chegou mensagem no WhatsApp? Toque em Novo paciente, coloque o nome e o WhatsApp, por exemplo, a Maria, e salve.",
+   "acoes": [
+    {
+     "js": "document.getElementById('menu').classList.remove('aberto')"
+    },
+    {
+     "clicar": "#abrir"
+    },
+    {
+     "esperar": 0.7
+    },
+    {
+     "clicar": "a[data-v=crm]"
+    },
+    {
+     "esperar": 1.2
+    },
+    {
+     "rolar": "[data-novo-pac]",
+     "mais": -90,
+     "dur": 1.2
+    },
+    {
+     "clicar": "[data-novo-pac]"
+    },
+    {
+     "esperar": 0.6
+    },
+    {
+     "digitar": "#fr-pac [name=nome]",
+     "texto": "Maria (exemplo)",
+     "ritmo": 45
+    },
+    {
+     "digitar": "#fr-pac [name=whats]",
+     "texto": "98 99999-0000",
+     "ritmo": 40
+    },
+    {
+     "clicar": "button[form=fr-pac]"
+    },
+    {
+     "esperar": 0.8
+    }
+   ]
+  },
+  {
+   "legenda": "<small>CRM</small>WhatsApp com a mensagem pronta",
+   "fala": "Depois, é só tocar em WhatsApp. A mensagem já vai escrita, e a paciente anda sozinha no funil: avaliação marcada, avaliação feita e procedimento.",
+   "acoes": [
+    {
+     "rolar": ".fr-funil",
+     "mais": -60,
+     "dur": 1.2
+    },
+    {
+     "esperar": 0.6
+    },
+    {
+     "tocar": "WhatsApp",
+     "exato": true,
+     "so_mostrar": true
+    },
+    {
+     "esperar": 1
+    }
+   ]
+  },
+  {
+   "legenda": "<small>FINANCEIRO</small>O que entrou e o que saiu",
+   "fala": "No Financeiro, você lança o que entrou e o que saiu. Por exemplo: um procedimento de novecentos reais. E acompanha a meta do mês.",
+   "acoes": [
+    {
+     "js": "document.getElementById('menu').classList.remove('aberto')"
+    },
+    {
+     "clicar": "#abrir"
+    },
+    {
+     "esperar": 0.7
+    },
+    {
+     "clicar": "a[data-v=financeiro]"
+    },
+    {
+     "esperar": 1.2
+    },
+    {
+     "rolar": "#fr-fin",
+     "mais": -140,
+     "dur": 1.2
+    },
+    {
+     "digitar": "#fr-fin [name=valor]",
+     "texto": "900",
+     "ritmo": 90
+    },
+    {
+     "digitar": "#fr-fin [name=desc]",
+     "texto": "Botox · Maria (exemplo)",
+     "ritmo": 40
+    },
+    {
+     "clicar": "button[form=fr-fin]"
+    },
+    {
+     "esperar": 0.6
+    },
+    {
+     "rolar": 0,
+     "dur": 1.4
+    }
+   ]
+  },
+  {
+   "legenda": "<small>FOTOS</small>Mande fotos pra equipe",
+   "fala": "Em Fotos, você manda fotos da clínica e da equipe direto do celular, e a gente usa nos posts.",
+   "acoes": [
+    {
+     "js": "document.getElementById('menu').classList.remove('aberto')"
+    },
+    {
+     "clicar": "#abrir"
+    },
+    {
+     "esperar": 0.7
+    },
+    {
+     "clicar": "a[data-v=fotos]"
+    },
+    {
+     "esperar": 1.2
+    },
+    {
+     "rolar": 300,
+     "dur": 1.4
+    }
+   ]
+  },
+  {
+   "legenda": "<small>PEDIDOS</small>Peça o que precisar",
+   "fala": "E em Pedidos, você pede o que precisar: um post, um ajuste, uma dúvida.",
+   "acoes": [
+    {
+     "js": "document.getElementById('menu').classList.remove('aberto')"
+    },
+    {
+     "clicar": "#abrir"
+    },
+    {
+     "esperar": 0.7
+    },
+    {
+     "clicar": "a[data-v=pedidos]"
+    },
+    {
+     "esperar": 1.2
+    },
+    {
+     "rolar": "#novo-ped",
+     "mais": -60,
+     "dur": 1.2
+    },
+    {
+     "digitar": "#ped-t",
+     "texto": "Post sobre o horário de fim de ano",
+     "ritmo": 35
+    }
+   ]
+  },
+  {
+   "legenda": "<small>QUALQUER DÚVIDA</small>Chame no WhatsApp",
+   "fala": "É isso! Qualquer dúvida, me chama no WhatsApp. Um abraço, Dra. Jaci, e bom trabalho pra toda a equipe!",
+   "acoes": [
+    {
+     "rolar": 0,
+     "dur": 1.2
+    }
+   ]
+  }
+ ]
+}

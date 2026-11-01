@@ -20,3 +20,15 @@ Endereço que aparece na barra do Safari: `<cliente>.pages.dev` (como ficará qu
 2. "Estou enviando um vídeo para vocês verem como ficou este mini site" + vídeo com a legenda "Olha só que perfeição"
 3. "A cliente consegue ter uma percepção total, além de falar com um chat que vai perguntar sobre as dores dela e já chega no whats de vocês com tudo que a cliente quer"
 É a mensagem A da lista "Mini site · Estética" no app de SDR.
+
+## Tutorial narrado do sistema do cliente (conta Lindson, 01/11/2026)
+- **Comando:** `python3 tutorial.py tutorial-<cliente>.json <saida.mp4>`.
+- **O que sai:** tela de iPhone com dedo e toques, legenda em cada passo e a **voz humanizada** dos canais (`conteudo/youtube/comum/voz_humana.py`). Cada passo dura pelo menos o tempo da fala, com música baixa por baixo.
+- **Ações novas no roteiro:**
+  - `legenda` e `ate` (segundos desde a legenda);
+  - `clicar` (seletor CSS);
+  - `digitar` (seletor + texto);
+  - `js`.
+- **Códigos de acesso nunca entram no roteiro:** use `{CODIGO:jaci}`. O `tutorial.py` lê o código de `agencia/sistema-clientes/privado/codigos-acesso.json`, e no vídeo ele aparece mascarado.
+- **Como gravar a Central:** com o site rodando local (`npx wrangler@3 pages dev publico --kv CONTAS` em `agencia/sistema-clientes/site`).
+- **Entregues em 01/11:** `tutorial-jaci.json` e `tutorial-leo.json`. Os vídeos estão em `agencia/demos/tutoriais/` (fora do Git).

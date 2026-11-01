@@ -62,10 +62,16 @@ else:
         a0 = k * 4 * bt; m = (tm >= a0) & (tm < a0 + 4 * bt); x = tm[m] - a0
         mix[:N][m] += sum(np.sin(2 * np.pi * f * x) for f in ac[k % 4]) * np.minimum(1, x * 4) * np.exp(-x * .5) * .05
     b_, a_ = butter(2, 5000 / (S / 2)); mix = lfilter(b_, a_, mix)
+# narração do tutorial (R['falas']: um wav por legenda, na mesma ordem): música baixa por baixo da voz
+if R.get('falas'):
+    mix *= 0.22
+    for i, w in enumerate(R['falas']):
+        if i >= len(LEG): break
+        v, _ = sf.read(w); i0 = int((LEG[i]['t'] + 0.25) * S); v = v[:max(0, len(mix) - i0)]; mix[i0:i0 + len(v)] += v * 1.0
 for e in ev:
     if e['tipo'] == 'toque':
         x = np.arange(int(.04 * S)) / S; c = np.sin(2 * np.pi * 2200 * x) * np.exp(-x * 160) * .25; i = int(e['t'] * S); mix[i:i + len(c)] += c
-mix = mix[:N]; mix = mix / max(1e-6, np.max(np.abs(mix))) * .9; sf.write(TMP + '/a.wav', mix, S)
+mix = mix[:N]; mix = mix / max(1e-6, np.max(np.abs(mix))) * (.95 if R.get('falas') else .9); sf.write(TMP + '/a.wav', mix, S)
 subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'concat', '-safe', '0', '-i', TMP + '/lista.txt', '-i', TMP + '/ui.png', '-i', TMP + '/a.wav'] + sum([['-i', f'{TMP}/leg{i}.png'] for i in range(len(LEG))], []) + [
                 '-filter_complex', '[0:v]fps=30,scale=1080:-2,format=yuv420p[g];color=c=black:s=1080x1920:r=30[f];[f][g]overlay=0:132:shortest=1[a];[a][1:v]overlay=0:0[l0]' + ''.join(f";[l{i}][{i + 3}:v]overlay=0:0:enable='between(t,{e['t']:.2f},{e['fim']:.2f})'[l{i + 1}]" for i, e in enumerate(LEG)) + f';[l{len(LEG)}]format=yuv420p[v]',
                 '-map', '[v]', '-map', '2:a', '-c:v', 'libx264', '-crf', '21', '-preset', 'medium', '-c:a', 'aac', '-b:a', '160k', '-t', f'{FIM:.2f}', '-movflags', '+faststart', saida], check=True)
