@@ -90,3 +90,8 @@ Processo completo em `conteudo/youtube/passaporte/PROCESSO.md` e `conteudo/youtu
 - **Site montado:** repositório privado `Lindsonalmeida/CentralLindsonALmeida`.
 - **Fonte:** `agencia/sistema-clientes/` (ver `site/README.md`).
 - **Atualizar:** rode `site/montar-site.py`, copie `functions/` e o conteúdo de `publico/` para a raiz do repositório privado e faça push. A Cloudflare publica sozinha.
+
+## Nano Banana, imagens com Gemini (conta Lindson, 01/11/2026)
+- **Chave:** em Segredos de rede do ambiente "Default" da conta Lindson (host `generativelanguage.googleapis.com`, cabeçalho `x-goog-api-key`, sem prefixo). O proxy coloca a chave sozinho, e ela nunca aparece no código.
+- **Uso:** `python3 ferramentas/nano_banana.py "prompt" saida.png [fotos de referência]`.
+- **Primeiro teste:** numa sessão nova. Nas outras contas, a chave precisa ser cadastrada de novo no ambiente de cada uma.
