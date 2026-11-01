@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Central · Administrador</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--fundo:#09090A;--painel:#121213;--painel2:#18181A;--linha:#242427;--amarelo:#F5C518;--texto:#F3F0E6;--apagado:#8E8B83;--ok:#5CC98A}
+*{box-sizing:border-box}body{margin:0;background:var(--fundo);color:var(--texto);font:15px/1.5 Manrope,system-ui,sans-serif}
+main{max-width:1080px;margin:0 auto;padding:32px 16px 64px}
+header{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:8px}
+h1{margin:0;font:800 34px/1 'Big Shoulders Display',Impact,sans-serif;letter-spacing:.02em;text-transform:uppercase}
+h1 b{color:var(--amarelo)}
+.sub{color:var(--apagado);margin:0 0 24px}
+a.bt{display:inline-flex;align-items:center;font:700 13px Manrope,sans-serif;color:var(--texto);border:1px solid var(--linha);border-radius:99px;padding:7px 14px;text-decoration:none}
+a.bt:hover{border-color:var(--amarelo);color:var(--amarelo)}a.bt.am{background:var(--amarelo);color:#0A0A0A;border-color:var(--amarelo)}
+.grade{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.card{background:var(--painel);border:1px solid var(--linha);border-radius:16px;padding:20px;display:grid;gap:14px}
+.card h2{margin:0;font:800 24px/1.1 'Big Shoulders Display',sans-serif;text-transform:uppercase;letter-spacing:.02em}
+.card .seg{color:var(--apagado);font-size:13px;margin-top:4px}
+.nums{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.num{background:var(--painel2);border:1px solid var(--linha);border-radius:12px;padding:12px}
+.num .r{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--apagado)}.num .v{font:800 26px/1.1 'Big Shoulders Display',sans-serif;margin-top:4px}.num .n{font-size:12px;color:var(--ok)}
+.acoes{display:flex;flex-wrap:wrap;gap:8px}
+.rod{font-size:12px;color:var(--apagado)}
+</style></head><body><main>
+<header><h1>Central · <b>Administrador</b></h1><div style="display:flex;gap:8px;flex-wrap:wrap"><a class="bt" href="/painel/contas">Contas de acesso</a><a class="bt" href="/sair">Sair</a></div></header>
+<p class="sub">Todos os clientes, com os números reais de cada painel. Para atualizar números, mande os prints na conversa com o Claude.</p>
+<div class="grade" id="clientes"></div>
+<script>
+const CLIENTES = __CLIENTES__;
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const n = v => v == null || v === '' ? 'a medir' : typeof v === 'number' ? v.toLocaleString('pt-BR') : esc(v);
+document.getElementById('clientes').innerHTML = CLIENTES.map(c => { const ig = c.instagram || {};
+  return `<div class="card" data-cli="${c.cliente}"><div><h2>${esc(c.nome)}</h2><div class="seg">${esc(c.seg)} · ${esc(ig.perfil || '')}</div></div>
+   <div class="nums"><div class="num"><div class="r">Seguidores</div><div class="v">${n(ig.seguidores)}</div><div class="n">${esc(ig.var_seguidores || '')}</div></div>
+    <div class="num"><div class="r">Visualizações 30 dias</div><div class="v">${n(ig.visualizacoes)}</div><div class="n">${esc(ig.var_visualizacoes || ig.periodo || '')}</div></div>
+    <div class="num"><div class="r">Fotos recebidas</div><div class="v" data-fotos>…</div></div>
+    <div class="num"><div class="r">${c.cliente === 'jaci' ? 'Pacientes no CRM' : c.cliente === 'leo' ? 'Demandas' : 'Itens'}</div><div class="v" data-extra>…</div></div></div>
+   <div class="acoes"><a class="bt am" href="/painel/${c.cliente}">Abrir painel</a><a class="bt" href="/painel/${c.cliente}#fotos">Fotos</a>${c.cliente === 'jaci' ? '<a class="bt" href="/painel/jaci#crm">CRM</a><a class="bt" href="/painel/jaci#financeiro">Financeiro</a>' : ''}${c.cliente === 'leo' ? '<a class="bt" href="/painel/leo#demandas">Demandas</a>' : ''}</div>
+   <div class="rod">Dados do Instagram de ${esc(ig.data || '—')} · página atualizada em ${esc(c.atualizado || '—')}</div></div>`; }).join('');
+const conta = async (url, f) => { try { const r = await fetch(url); if (!r.ok) return '—'; return f(await r.json()); } catch (e) { return '—'; } };
+document.querySelectorAll('[data-cli]').forEach(async el => { const c = el.dataset.cli;
+  el.querySelector('[data-fotos]').textContent = await conta(`/api/fotos?cli=${c}`, j => (j.fotos || []).length);
+  const f = c === 'leo' ? 'dem' : 'crm';
+  el.querySelector('[data-extra]').textContent = await conta(`/api/dados?cli=${c}&f=${f}`, j => ((j.dados && j.dados.itens) || []).length); });
+</script></main></body></html>

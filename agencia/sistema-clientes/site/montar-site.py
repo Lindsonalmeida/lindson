@@ -55,20 +55,15 @@ open(os.path.join(OUT, 'index.html'), 'w').write(s)
 for cli, arq in [('jaci', os.path.join(SC, 'jaci-cunha', 'painel-jaci.html')), ('leo', os.path.join(SC, 'leo-pinto', 'painel-leo.html'))]:
     open(os.path.join(OUT, 'painel', cli + '.html'), 'w').write(com_sair(open(arq).read()))
 
-# 3 · painel do administrador (Lindson): o modelo com o seletor de clientes e atalhos para cada painel
-a = open(os.path.join(SC, 'prototipo', 'painel.html')).read()
-for k, f in [('RAFAEL1', 'rafael.webp'), ('SF1', 'sf.webp'), ('PASSAPORTE1', 'passaporte-1.webp'), ('RAPOSA1', 'raposa-1.webp')]:
-    p = os.path.join(FOTOS, 'casos', f); a = a.replace(f'__{k}__', webp(p) if os.path.exists(p) else '')
-p = os.path.join(FOTOS, 'principal-cine.webp')
-a = a.replace('<img src="__CINE__" alt="Lindson Almeida">', f'<img src="{webp(p)}" alt="Lindson Almeida">' if os.path.exists(p) else '')
-a = troca(a, '<title>Painel do Cliente</title>', '<title>Central · Administrador</title>')
-atalhos = ('<div class="grupo"><h4>Painéis no ar</h4>'
-           '<a href="/painel/jaci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M7 17 17 7M9 7h8v8"/></svg>Dra. Jaci Cunha</a>'
-           '<a href="/painel/contas"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.8-3.6 3.4-5.5 6.5-5.5s5.7 1.9 6.5 5.5M16 4.5a3.5 3.5 0 0 1 0 7M18.5 14.8c1.7.8 2.8 2.5 3.2 5.2"/></svg>Contas de acesso</a>'
-           '<a href="/painel/leo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M7 17 17 7M9 7h8v8"/></svg>Vereador Leo Pinto</a></div>')
-a = re.sub(r'(<div class="seletor">.*?</select></div>)', lambda m: m.group(1) + atalhos, a, count=1, flags=re.S)
-open(os.path.join(OUT, 'painel', 'admin.html'), 'w').write(com_sair(a))
-
+# 3 · painel do administrador (Lindson): resumo com os números reais de cada cliente (dados do repositório privado)
+import json
+DADOS = os.environ.get('CENTRAL_DADOS', os.path.join(D, '..', '..', '..', '..', 'centrallindsonalmeida', 'dados'))
+clientes = [json.load(open(os.path.join(DADOS, c + '.json'))) for c in ['jaci', 'leo'] if os.path.exists(os.path.join(DADOS, c + '.json'))]
+resumo = [{k: c.get(k) for k in ['cliente', 'nome', 'seg', 'atualizado', 'instagram']} for c in clientes]
+for r in resumo:
+    if r.get('instagram'): r['instagram'] = {k: r['instagram'].get(k) for k in ['perfil', 'data', 'periodo', 'seguidores', 'visualizacoes', 'var_seguidores', 'var_visualizacoes']}
+a = open(os.path.join(D, 'admin.html')).read().replace('__CLIENTES__', json.dumps(resumo, ensure_ascii=False).replace('</', '<\\/'))
+open(os.path.join(OUT, 'painel', 'admin.html'), 'w').write(a)
 shutil.copy(os.path.join(D, 'contas.html'), os.path.join(OUT, 'painel', 'contas.html'))
 open(os.path.join(OUT, '_headers'), 'w').write("/*\n  X-Frame-Options: DENY\n  Referrer-Policy: same-origin\n  X-Content-Type-Options: nosniff\n/painel/*\n  Cache-Control: private, no-store\n  X-Robots-Tag: noindex\n")
 open(os.path.join(OUT, 'robots.txt'), 'w').write("User-agent: *\nDisallow: /\n")
