@@ -59,4 +59,4 @@ Antes de continuar qualquer trabalho (de qualquer conta), leia `ESTADO-DO-PROJET
 
 Sempre que o Lindson pedir algo, consulte antes o repositório (incluindo os outros branches em `origin/`) e o que as outras equipes e contas já fizeram sobre o assunto, e continue a partir disso, sem refazer do zero.
 
-**Registre tudo o que fizer e qual conta fez.** Cada entrega vai para o repositório (commit e push) e ganha uma linha em `REGISTRO-DAS-CONTAS.md` com data, nome da conta do Claude, o que foi feito, onde está e a situação. Nos READMEs e no `ESTADO-DO-PROJETO.md`, cite a conta entre parênteses, como em "(conta passaportedabiblia)". Leia esse registro antes de começar.
+**Registre tudo o que fizer e qual conta fez.** O Lindson dá um nome a cada conta (esta é a **Zuleide**; a lista fica em `REGISTRO-DAS-CONTAS.md`). Cada entrega vai para o repositório (commit e push) e ganha uma linha nesse registro com data, nome da conta, o que foi feito, onde está e a situação. Nos READMEs e no `ESTADO-DO-PROJETO.md`, cite a conta entre parênteses, como em "(conta Zuleide)". Leia esse registro antes de começar.
