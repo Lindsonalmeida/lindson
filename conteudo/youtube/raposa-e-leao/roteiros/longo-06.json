@@ -1,0 +1,579 @@
+{
+ "id": "longo-06",
+ "canal": "raposa",
+ "formato": "longo",
+ "titulo": "Como reconhecer um bajulador, segundo Maquiavel",
+ "legenda": "Todo mundo tem perto alguém que só concorda. Neste vídeo você aprende a reconhecer um bajulador com o método de Maquiavel, tirado de O Príncipe (capítulos XXII e XXIII) e dos Discursos: o teste que nunca falha, a verdade com regra e o caso do imperador que mudava de ideia.\n\nCada lição tem aplicação prática no trabalho, nos negócios e na família: como montar um círculo de gente sincera, como ouvir sem perder o respeito e como falar a verdade para quem está acima de você.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📜 Fonte: Nicolau Maquiavel, O Príncipe (dedicatória e caps. XIX, XXII e XXIII); Discursos sobre a primeira década de Tito Lívio, livro I, cap. 53, e livro III, cap. 35.\n\n🦊🦁 Raposa e Leão: Maquiavel e as leis do poder aplicadas à vida real.\n\n▶️ Playlist recomendada: Maquiavel na prática\n\n#Maquiavel #Bajulação #OPríncipe #Liderança #FalsosAmigos",
+ "comentario": "📌 Qual dos cinco sinais do bajulador você já viu de perto: no trabalho, nos negócios ou na família? Continue na playlist Maquiavel na prática ⬇️",
+ "titulo_tela": {
+  "sup": "RAPOSA E LEÃO",
+  "txt": "O bajulador<br>à sua volta",
+  "dur": 3.2
+ },
+ "capa": {
+  "A": "Ele só concorda",
+  "B": "Bajulador à vista",
+  "gravA": "acervo/castiglione_raffaello.jpg",
+  "gravB": "acervo/botticelli_giuliano_de_medici_accademia_carrara.jpg"
+ },
+ "cenas": [
+  {
+   "gravura": "acervo/carlos_viii_florenca_bezzuoli.jpg",
+   "mov": "cima",
+   "txt": "O homem mais poderoso da Europa não pedia conselho a ninguém. E, mesmo assim, nunca conseguia fazer o que queria. Maquiavel conheceu a corte desse homem de perto. E a explicação tem tudo a ver com você."
+  },
+  {
+   "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+   "mov": "in",
+   "txt": "Parece um enigma. Mas ele esconde uma das lições mais úteis de O Príncipe: como reconhecer quem só te diz o que você quer ouvir, antes que essa pessoa te custe caro."
+  },
+  {
+   "gravura": "acervo/embaixadores_holbein.jpg",
+   "mov": "cima",
+   "txt": "O nome disso é bajulação. E Maquiavel não tratava o bajulador como um chato inofensivo. Ele chamava de peste, uma doença que se espalha sem fazer barulho."
+  },
+  {
+   "gravura": "acervo/castiglione_raffaello.jpg",
+   "mov": "esq",
+   "txt": "Pensa numa loja de bairro. O dono pergunta como andam as vendas e o gerente responde: tudo ótimo, chefe. No mês seguinte, a mesma coisa. Ninguém quer ser quem leva a notícia ruim."
+  },
+  {
+   "gravura": "acervo/multidao_bruegel.jpg",
+   "mov": "in",
+   "txt": "Enquanto isso, os clientes vão sumindo um por um. Quando o dono descobre, já perdeu meses. Não foi um concorrente que derrubou a loja. Foi o silêncio confortável de quem estava do lado dele."
+  },
+  {
+   "gravura": "maquiavel.jpg",
+   "mov": "out",
+   "txt": "Hoje você vai ver o método de Maquiavel, tirado dos capítulos vinte e dois e vinte e três de O Príncipe e de um capítulo dos Discursos, para enxergar o bajulador antes do estrago."
+  },
+  {
+   "gravura": "borgia.jpg",
+   "mov": "esq",
+   "txt": "E eu vou te deixar três respostas pelo caminho. A primeira: o mistério do homem que não ouvia ninguém e nunca fazia o que queria. Essa vem no meio do vídeo."
+  },
+  {
+   "gravura": "acervo/julio_ii_raffaello.jpg",
+   "mov": "cima",
+   "txt": "A segunda: um detalhe do capítulo vinte e três que quase ninguém comenta. Maquiavel diz que, numa certa situação, quem lidera deve ficar bravo. E não é quando alguém discorda dele."
+  },
+  {
+   "gravura": "lorenzo.jpg",
+   "mov": "esq",
+   "txt": "E a terceira, a maior: o bajulador mais perigoso da sua vida. Ele está mais perto do que você imagina, e quase ninguém desconfia dele. Essa fica para o final."
+  },
+  {
+   "gravura": "hist/ferdinand_ii_of_aragon.jpg",
+   "mov": "dir",
+   "txt": "Uma coisa antes de começar. Isso aqui não é para você virar desconfiado de todo mundo. É para você cercar a sua vida de gente que fala a verdade, e aprender a ouvir essa gente."
+  },
+  {
+   "gravura": "acervo/sermao_bruegel.jpg",
+   "mov": "in",
+   "txt": "A gente começa pela causa. Por que é tão fácil cair na conversa de um bajulador? Maquiavel responde logo no começo do capítulo vinte e três, sem rodeio nenhum.",
+   "cap": {
+    "sup": "LIÇÃO 1",
+    "txt": "A peste das cortes"
+   }
+  },
+  {
+   "gravura": "acervo/leao_x_raffaello.jpg",
+   "mov": "out",
+   "txt": "Ele diz que as cortes vivem cheias de bajuladores. E o motivo não está no bajulador. Está em nós: a gente gosta tanto das próprias coisas que se engana sobre elas.",
+   "verso": "As cortes estão cheias de aduladores, porque os homens se agradam tanto das próprias coisas que mal se defendem dessa peste.",
+   "ref": "O PRÍNCIPE, CAP. XXIII"
+  },
+  {
+   "gravura": "acervo/castiglione_raffaello.jpg",
+   "mov": "dir",
+   "txt": "Repara no detalhe. O bajulador não cria a vaidade. Ele só encontra a vaidade que já estava ali e trabalha em cima dela. Ele te vende exatamente o que você já queria comprar."
+  },
+  {
+   "gravura": "acervo/botticelli_giuliano_de_medici_accademia_carrara.jpg",
+   "mov": "cima",
+   "txt": "Por isso Maquiavel avisa: é um erro do qual quem governa só escapa se for muito prudente ou se escolher muito bem quem fica por perto. Inteligência sozinha não protege ninguém."
+  },
+  {
+   "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+   "mov": "out",
+   "txt": "E corte não é só palácio. Corte é qualquer grupo em volta de alguém que decide. A sua equipe, a sua família, os sócios, o grupo da igreja, até o grupo de amigos no WhatsApp."
+  },
+  {
+   "gravura": "acervo/embaixadores_holbein.jpg",
+   "mov": "cima",
+   "txt": "Onde existe alguém que pode dar ou tirar alguma coisa, existe a tentação de agradar em vez de ajudar. Promoção, cliente, herança, uma vaga, um favor. O bajulador sempre está de olho em algo."
+  },
+  {
+   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "mov": "in",
+   "txt": "Então a primeira lição é simples e meio dura: o problema começa no gosto que a gente tem pelo elogio. Quem adora ouvir que está certo vira presa fácil de quem sabe dizer isso."
+  },
+  {
+   "gravura": "acervo/ferdinand_of_aragon_isabella_of_castile.jpg",
+   "mov": "out",
+   "txt": "Agora o capítulo vinte e dois. Antes de falar do bajulador, Maquiavel fala da escolha das pessoas que trabalham colado em quem manda. E começa com um jeito curioso de medir alguém.",
+   "cap": {
+    "sup": "LIÇÃO 2",
+    "txt": "Diga-me quem te cerca"
+   }
+  },
+  {
+   "gravura": "hist/ferdinand_ii_of_aragon.jpg",
+   "mov": "esq",
+   "txt": "A ideia é direta. Quer saber se alguém que manda é inteligente? Não escute o que ele fala de si mesmo. Olhe para quem ele colocou do lado dele.",
+   "verso": "A primeira ideia que se faz da inteligência de um senhor vem de olhar os homens que ele tem ao redor.",
+   "ref": "O PRÍNCIPE, CAP. XXII"
+  },
+  {
+   "gravura": "lorenzo.jpg",
+   "mov": "dir",
+   "txt": "Se as pessoas em volta são capazes e leais, o chefe passa por sábio, porque soube reconhecer e segurar gente boa. Se não são, o primeiro erro já foi dele: a escolha."
+  },
+  {
+   "gravura": "hist/marcus_aurelius.jpg",
+   "mov": "in",
+   "txt": "Daí vem a divisão famosa dos três tipos de cabeça. Uma entende sozinha. Outra entende quando alguém mostra. E a terceira não entende nem sozinha, nem com ajuda."
+  },
+  {
+   "gravura": "hist/alexander_the_great.jpg",
+   "mov": "cima",
+   "txt": "A primeira é excelente, a segunda é boa, a terceira é inútil, nas palavras dele. E aqui está o ponto que interessa para o nosso assunto: a segunda já basta."
+  },
+  {
+   "gravura": "hist/hannibal.jpg",
+   "mov": "esq",
+   "txt": "Você não precisa ser gênio. Precisa ter juízo para separar o bom do ruim quando alguém te mostra. Quem tem esse juízo percebe a diferença entre um conselho e um agrado."
+  },
+  {
+   "gravura": "acervo/multidao_bruegel.jpg",
+   "mov": "in",
+   "txt": "E o contrário também vale. Quem não consegue julgar o que ouve fica na mão de quem fala mais bonito. E quem fala mais bonito, quase sempre, é o bajulador."
+  },
+  {
+   "gravura": "hist/bonfire_of_the_vanities.jpg",
+   "mov": "dir",
+   "txt": "Olha a sua volta com honestidade. As pessoas mais perto de você te ajudam a enxergar, ou só te deixam confortável? Tá comigo até aqui? Então segura essa resposta, porque ela volta.",
+   "interage": {
+    "tipo": "checkin",
+    "txt": "Tá comigo até aqui?"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "borgia.jpg",
+   "mov": "in",
+   "txt": "Agora vem o teste. Maquiavel diz que existe um modo de conhecer quem te aconselha que não falha nunca. E ele cabe numa frase só.",
+   "cap": {
+    "sup": "LIÇÃO 3",
+    "txt": "O teste que nunca falha"
+   }
+  },
+  {
+   "gravura": "acervo/embaixadores_holbein.jpg",
+   "mov": "cima",
+   "txt": "Quando você percebe que a pessoa pensa mais nela do que em você, e em tudo procura a própria vantagem, ela nunca vai ser um bom conselheiro. Nunca vai dar para confiar.",
+   "verso": "Quando vires o ministro pensar mais em si do que em ti, e buscar em tudo o próprio proveito, esse nunca será bom ministro.",
+   "ref": "O PRÍNCIPE, CAP. XXII"
+  },
+  {
+   "gravura": "hist/pope_julius_ii.jpg",
+   "mov": "esq",
+   "txt": "Repara: o teste não é se a pessoa é simpática, se concorda, se elogia. O teste é para onde aponta o interesse dela no momento em que ela te aconselha."
+  },
+  {
+   "gravura": "acervo/castiglione_raffaello.jpg",
+   "mov": "cima",
+   "txt": "O bajulador fala do que te agrada, porque o ganho dele vem de você estar contente. O bom conselheiro fala do que te serve, mesmo que doa, porque o ganho dele depende de você dar certo."
+  },
+  {
+   "gravura": "acervo/sermao_bruegel.jpg",
+   "mov": "in",
+   "txt": "Um exemplo de hoje. O vendedor que diz que tudo fica lindo em você está pensando na comissão. O amigo que diz que aquela roupa não ficou boa está pensando em você. Os dois sorriem. Só um te ajuda."
+  },
+  {
+   "gravura": "hist/pope_alexander_vi.jpg",
+   "mov": "esq",
+   "txt": "E tem uma parte desse capítulo que quase ninguém lembra. O teste vale para os dois lados. Quem manda também tem obrigação com quem serve bem."
+  },
+  {
+   "gravura": "acervo/leao_x_raffaello.jpg",
+   "mov": "dir",
+   "txt": "Maquiavel diz que o governante deve honrar o bom conselheiro, fazer ele prosperar e dividir com ele as honras e as responsabilidades. Assim a pessoa não deseja outro lugar e teme qualquer mudança."
+  },
+  {
+   "gravura": "acervo/carlos_viii_florenca_bezzuoli.jpg",
+   "mov": "in",
+   "txt": "Traduzindo: quem te fala a verdade precisa sair ganhando com isso. Se quem te avisou do problema é justamente quem leva a bronca, a equipe inteira aprende rapidinho a ficar calada."
+  },
+  {
+   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "mov": "out",
+   "txt": "Se essa ideia já mudou o jeito como você olha para a sua equipe, segue o Raposa e Leão e abre a playlist Maquiavel na prática. Agora vem a parte que pouca gente conhece.",
+   "cta": "Segue o <b>Raposa e Leão</b><br>e veja a playlist <b>Maquiavel na prática</b>",
+   "interage": {
+    "tipo": "segue",
+    "txt": "Segue pra próxima lição"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+   "mov": "in",
+   "txt": "Agora a parte que surpreende quem lê pela primeira vez. Você pode pensar que o remédio é deixar todo mundo falar tudo. Maquiavel diz que não é bem assim.",
+   "cap": {
+    "sup": "LIÇÃO 4",
+    "txt": "Verdade com regra"
+   }
+  },
+  {
+   "gravura": "maquiavel.jpg",
+   "mov": "esq",
+   "txt": "O único remédio contra a bajulação, diz ele, é as pessoas saberem que a verdade não te ofende. Só que, se qualquer um te diz qualquer coisa a qualquer hora, você perde o respeito.",
+   "verso": "O único modo de se guardar da bajulação é mostrar que a verdade não te ofende; mas, se todos podem dizê-la, falta-te o respeito.",
+   "ref": "O PRÍNCIPE, CAP. XXIII"
+  },
+  {
+   "gravura": "hist/arco_severo.jpg",
+   "mov": "dir",
+   "txt": "Pensa num chefe que vira alvo de palpite o dia inteiro, de todo mundo, sobre tudo. Ele não fica mais sábio. Fica perdido e sem autoridade. Então Maquiavel propõe um terceiro caminho."
+  },
+  {
+   "gravura": "acervo/castiglione_raffaello.jpg",
+   "mov": "cima",
+   "txt": "Escolha algumas pessoas sábias e dê só a elas a liberdade de falar a verdade com você, sobre o que você perguntar. Não é censura. É foco.",
+   "verso": "Escolher homens sábios e só a eles dar liberdade de falar a verdade, e só das coisas que ele pergunta.",
+   "ref": "O PRÍNCIPE, CAP. XXIII"
+  },
+  {
+   "gravura": "acervo/julio_ii_raffaello.jpg",
+   "mov": "out",
+   "txt": "Mas atenção ao detalhe: você tem que perguntar sobre tudo. Quem só pergunta o que quer ouvir monta um conselho de bajuladores bem-educados, e acha que está ouvindo a verdade."
+  },
+  {
+   "gravura": "hist/marcus_aurelius.jpg",
+   "mov": "in",
+   "txt": "Maquiavel quer alguém que pergunta muito e escuta com paciência. Pergunta, escuta, e só depois decide sozinho, do seu jeito, sem ficar mudando a cada opinião nova.",
+   "verso": "Deve ser um grande perguntador e, depois, um ouvinte paciente da verdade sobre o que perguntou.",
+   "ref": "O PRÍNCIPE, CAP. XXIII"
+  },
+  {
+   "gravura": "acervo/savonarola_fra_bartolomeo.jpg",
+   "mov": "dir",
+   "txt": "E aqui eu fecho a segunda promessa. Lembra do momento em que quem lidera deve ficar bravo? Não é quando alguém discorda. É justamente o contrário."
+  },
+  {
+   "gravura": "hist/ferdinand_ii_of_aragon.jpg",
+   "mov": "out",
+   "txt": "Se ele perceber que alguém, por medo ou por algum interesse, deixou de contar a verdade, aí sim deve se incomodar. A bronca vai para o silêncio, não para a crítica.",
+   "verso": "Se perceber que alguém, por algum respeito, não lhe diz a verdade, deve se aborrecer.",
+   "ref": "O PRÍNCIPE, CAP. XXIII"
+  },
+  {
+   "gravura": "acervo/embaixadores_holbein.jpg",
+   "mov": "cima",
+   "txt": "Isso muda tudo. Na maioria dos lugares é o contrário: quem critica leva bronca e quem esconde o problema passa ileso. É assim que se fabrica um bajulador, até com gente boa."
+  },
+  {
+   "gravura": "lorenzo.jpg",
+   "mov": "esq",
+   "txt": "Ele completa: com cada conselheiro, quem decide deve agir de um jeito que fique claro que, quanto mais livre a pessoa fala, mais bem recebida ela é. Isso se mostra com atitude, não com discurso."
+  },
+  {
+   "gravura": "acervo/ferdinand_of_aragon_isabella_of_castile.jpg",
+   "mov": "dir",
+   "txt": "Na vida real, pode ser uma pergunta fixa na reunião: o que pode dar errado aqui? Ou agradecer em público quem trouxe o problema cedo. Pequenos gestos ensinam o grupo a falar."
+  },
+  {
+   "gravura": "acervo/carlos_viii_florenca_bezzuoli.jpg",
+   "mov": "in",
+   "txt": "Agora me conta: no seu trabalho ou na sua casa, quem traz notícia ruim é ouvido ou vira o culpado? Responde aí nos comentários, que eu leio.",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "Quem traz notícia ruim é ouvido?"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "acervo/batalha_ponte_milvio_raffaello.jpg",
+   "mov": "out",
+   "txt": "Chegou a hora do mistério do começo. O homem mais poderoso da Europa, que não pedia conselho e mesmo assim nunca fazia o que queria. Ele tinha nome: o imperador Maximiliano.",
+   "cap": {
+    "sup": "LIÇÃO 5",
+    "txt": "O imperador que mudava de ideia"
+   }
+  },
+  {
+   "gravura": "maquiavel.jpg",
+   "mov": "in",
+   "txt": "Maquiavel conhecia a corte dele. Florença o mandou em missão até o imperador entre 1507 e 1508. E no capítulo vinte e três ele conta o caso pelo relato de um homem de confiança de Maximiliano."
+  },
+  {
+   "gravura": "acervo/albrecht_altdorfer_schlacht_bei_issus_alte_pinak.jpg",
+   "mov": "esq",
+   "txt": "Esse homem, um padre chamado Luca, dizia que o imperador não se aconselhava com ninguém e nunca fazia nada do jeito dele. Parece impossível, mas a explicação é simples.",
+   "verso": "Não se aconselhava com ninguém e não fazia nada a seu modo.",
+   "ref": "O PRÍNCIPE, CAP. XXIII"
+  },
+  {
+   "gravura": "acervo/embaixadores_holbein.jpg",
+   "mov": "in",
+   "txt": "Maximiliano era muito fechado. Não contava os planos para ninguém e não pedia opinião. Até aqui parece força: um líder que guarda segredo e decide sozinho."
+  },
+  {
+   "gravura": "acervo/hannibal_and_scipio_africanus.jpg",
+   "mov": "dir",
+   "txt": "O problema vinha na hora de agir. Quando o plano começava a aparecer, as pessoas em volta começavam a contrariar. E ele, sem ter ouvido ninguém antes, cedia ali mesmo, na pressão."
+  },
+  {
+   "gravura": "hist/caracalla.jpg",
+   "mov": "esq",
+   "txt": "Resultado: o que ele fazia num dia desfazia no outro. Ninguém entendia o que ele queria. E ninguém podia se apoiar nas decisões dele, porque elas não duravam."
+  },
+  {
+   "gravura": "hist/marcus_equestre.jpg",
+   "mov": "out",
+   "txt": "Repara no paradoxo. Ele não ouvia ninguém na hora certa e ouvia todo mundo na hora errada. Fechou a porta para o conselho e deixou a janela aberta para a pressão."
+  },
+  {
+   "gravura": "hist/commodus.jpg",
+   "mov": "cima",
+   "txt": "No capítulo dezenove, Maquiavel avisa que quem é visto como volúvel e indeciso acaba desprezado. E o desprezo, para ele, é um dos piores perigos para quem lidera."
+  },
+  {
+   "gravura": "hist/hannibal.jpg",
+   "mov": "dir",
+   "txt": "E o bajulador adora esse tipo de líder. Basta chegar por último, falar o que agrada, e a decisão muda. Quem cede na pressão ensina todo mundo a pressionar em vez de pensar."
+  },
+  {
+   "gravura": "acervo/ferdinand_of_aragon_isabella_of_castile.jpg",
+   "mov": "out",
+   "txt": "Então a lição do imperador tem duas partes. Ouça antes de decidir, e não depois de anunciar. E, depois de decidir, só mude por um fato novo, não porque alguém reclamou."
+  },
+  {
+   "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+   "mov": "esq",
+   "txt": "Se mudar, explique o motivo com clareza. Assim as pessoas veem alguém que aprende, e não alguém que foi empurrado. Pronto: o mistério do imperador está resolvido."
+  },
+  {
+   "gravura": "acervo/batalha_ostia_raffaello.jpg",
+   "mov": "in",
+   "txt": "Agora a regra mais dura do capítulo. Maquiavel chama de regra geral, daquelas que nunca falham. E ela vai contra o que muita gente gostaria de ouvir.",
+   "cap": {
+    "sup": "LIÇÃO 6",
+    "txt": "Ninguém pensa por você"
+   }
+  },
+  {
+   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "mov": "esq",
+   "txt": "Quem não tem sabedoria própria não consegue ser bem aconselhado. Parece estranho. A gente pensa que quem sabe menos é justamente quem mais precisa de conselho.",
+   "verso": "Um príncipe que não é sábio por si mesmo não pode ser bem aconselhado.",
+   "ref": "O PRÍNCIPE, CAP. XXIII"
+  },
+  {
+   "gravura": "hist/pope_julius_ii.jpg",
+   "mov": "in",
+   "txt": "E precisa mesmo. O problema é outro. Quem não entende do assunto recebe opiniões que não combinam entre si e não sabe juntar nem escolher. Fica refém de quem fala por último."
+  },
+  {
+   "gravura": "hist/pope_alexander_vi.jpg",
+   "mov": "esq",
+   "txt": "Cada conselheiro puxa para o próprio lado, diz Maquiavel, e quem não tem critério não percebe nem corrige. É aí que o bajulador entra sem nem precisar bater na porta."
+  },
+  {
+   "gravura": "acervo/sermao_bruegel.jpg",
+   "mov": "out",
+   "txt": "E ele completa com uma frase seca: as pessoas vão se mostrar más, a não ser que alguma necessidade as obrigue a ser boas. Não é ódio da humanidade. É olhar o interesse de frente.",
+   "verso": "Os homens sempre te sairão maus, se uma necessidade não os fizer bons.",
+   "ref": "O PRÍNCIPE, CAP. XXIII"
+  },
+  {
+   "gravura": "borgia.jpg",
+   "mov": "in",
+   "txt": "E se a saída for entregar tudo a uma pessoa só, muito competente? Maquiavel admite que funcionaria. Mas por pouco tempo. Esse homem logo tomaria o seu lugar."
+  },
+  {
+   "gravura": "acervo/botticelli_giuliano_de_medici_accademia_carrara.jpg",
+   "mov": "dir",
+   "txt": "Quem terceiriza o próprio juízo entrega junto o próprio poder. Vale para o dono que não olha o caixa, para quem assina sem ler e para quem deixa outro decidir a própria vida."
+  },
+  {
+   "gravura": "acervo/castiglione_raffaello.jpg",
+   "mov": "esq",
+   "txt": "Traduzindo: ouça o contador, o advogado, o mentor, o pastor, o sócio. Mas aprenda o básico do que você decide. Uma hora por semana já muda o jogo."
+  },
+  {
+   "gravura": "acervo/multidao_bruegel.jpg",
+   "mov": "dir",
+   "txt": "E antes de uma decisão grande, pergunte com educação: o que você ganha se eu seguir esse caminho? Não é ofensa. É o teste do capítulo vinte e dois, feito em voz alta."
+  },
+  {
+   "gravura": "lorenzo.jpg",
+   "mov": "cima",
+   "txt": "Conselho bom com juízo seu vira decisão firme. Conselho bom sem juízo seu vira loteria. E ninguém constrói nada sério em cima de loteria."
+  },
+  {
+   "gravura": "acervo/carlos_viii_florenca_bezzuoli.jpg",
+   "mov": "in",
+   "txt": "Até aqui a gente olhou de cima, de quem decide. Agora vira a mesa. E quando é você que fica calado para agradar o chefe, o sócio, o cliente ou o sogro?",
+   "cap": {
+    "sup": "LIÇÃO 7",
+    "txt": "Quando o bajulador é você"
+   }
+  },
+  {
+   "gravura": "maquiavel.jpg",
+   "mov": "cima",
+   "txt": "Maquiavel conhecia esse lado como ninguém. Ele passou catorze anos servindo o governo de Florença. Viveu boa parte da vida tendo que dizer verdades a quem mandava nele."
+  },
+  {
+   "gravura": "hist/moses.jpg",
+   "mov": "esq",
+   "txt": "Nos Discursos, ele dedica um capítulo inteiro aos perigos de ser quem propõe uma ideia. E diz que, quanto mais ousada a proposta, maior o risco para quem falou.",
+   "verso": "Quanto mais extraordinária é a coisa que se aconselha, maiores são os perigos de quem a aconselha.",
+   "ref": "DISCURSOS, LIVRO III, CAP. 35"
+  },
+  {
+   "gravura": "hist/arco_severo.jpg",
+   "mov": "out",
+   "txt": "Porque as pessoas julgam pelo resultado. Se dá errado, a culpa cai inteira em quem sugeriu. Se dá certo, ele até recebe elogio, mas o prêmio quase nunca compensa o risco."
+  },
+  {
+   "gravura": "acervo/ferdinand_of_aragon_isabella_of_castile.jpg",
+   "mov": "cima",
+   "txt": "E qual é a saída dele? Não é ficar calado. É dar a sua opinião sem paixão, sem fazer da ideia uma causa pessoal, e defender com calma e modéstia.",
+   "verso": "Dizer a sua opinião sem paixão, e sem paixão, com modéstia, defendê-la.",
+   "ref": "DISCURSOS, LIVRO III, CAP. 35"
+  },
+  {
+   "gravura": "hist/ferdinand_ii_of_aragon.jpg",
+   "mov": "in",
+   "txt": "E repara: calar também é uma escolha. Quem enxerga o problema e não fala não fica neutro. Só deixa o problema crescer no escuro, até ele chegar em todo mundo."
+  },
+  {
+   "gravura": "acervo/castiglione_raffaello.jpg",
+   "mov": "esq",
+   "txt": "Na prática, para falar a verdade para quem está acima de você: traga o problema junto com uma sugestão. Use fatos, não impressões. Fale uma vez, com calma, e respeite a decisão final."
+  },
+  {
+   "gravura": "acervo/embaixadores_holbein.jpg",
+   "mov": "cima",
+   "txt": "O próprio Maquiavel passou por isso. Na dedicatória de O Príncipe, ele lembra que muita gente tenta agradar os poderosos com cavalos, armas, tecidos de ouro e pedras preciosas."
+  },
+  {
+   "gravura": "acervo/leao_x_raffaello.jpg",
+   "mov": "dir",
+   "txt": "Ele levou outra coisa: o que tinha aprendido sobre o poder, em anos de experiência e de leitura. Um presente que podia incomodar, porque falava a verdade sobre quem manda."
+  },
+  {
+   "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+   "mov": "in",
+   "txt": "E ele se explica com uma imagem bonita. Quem desenha montanhas se coloca embaixo, na planície. Para enxergar bem quem está no poder, às vezes é preciso olhar lá de baixo.",
+   "verso": "Para conhecer bem a natureza dos príncipes, é preciso ser do povo.",
+   "ref": "O PRÍNCIPE, DEDICATÓRIA"
+  },
+  {
+   "gravura": "acervo/sandro_botticelli_giuliano_de_medici_gem_ldegale.jpg",
+   "mov": "cima",
+   "txt": "Se o presente deu certo? Não logo. Ele continuou longe do governo por anos, e os historiadores discutem até hoje se os Médici chegaram a ler o livro com atenção."
+  },
+  {
+   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "mov": "out",
+   "txt": "Conhece alguém que vive engolindo o que pensa para não desagradar o chefe? Manda esse vídeo. Pode ser o empurrão que falta para essa pessoa falar, com calma e com fatos.",
+   "interage": {
+    "tipo": "manda",
+    "txt": "Manda pra quem engole tudo"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "hist/bonfire_of_the_vanities.jpg",
+   "mov": "in",
+   "txt": "Agora, os sinais. Maquiavel não deixou uma lista pronta. O que vem agora é a lição dele aplicada ao dia a dia, para você reconhecer o bajulador antes do estrago.",
+   "cap": {
+    "sup": "LIÇÃO 8",
+    "txt": "Os sinais e o espelho"
+   }
+  },
+  {
+   "gravura": "acervo/julio_ii_raffaello.jpg",
+   "mov": "out",
+   "txt": "Primeiro sinal: concorda antes de você terminar de falar. Quem concorda com o que ainda nem ouviu não está pensando no assunto. Está pensando em você gostar dele."
+  },
+  {
+   "gravura": "acervo/prisao_cristo_caravaggio.jpg",
+   "mov": "cima",
+   "txt": "Segundo sinal: elogio genérico, nunca concreto. Ótima ideia, chefe, você é demais. Quem elogia de verdade aponta o que gostou e, quando precisa, aponta o que falta."
+  },
+  {
+   "gravura": "hist/hannibal.jpg",
+   "mov": "dir",
+   "txt": "Terceiro sinal: some na hora do problema. Na vitória, está na foto. Na crise, está ocupado. O teste do capítulo vinte e dois aparece sozinho: ele estava pensando nele."
+  },
+  {
+   "gravura": "acervo/beijo_judas_giotto.jpg",
+   "mov": "cima",
+   "txt": "Quarto sinal: fala mal dos outros com você. Quem traz fofoca para te agradar leva a sua para outro lugar. Um abraço caloroso nem sempre é amizade, e a aparência engana fácil."
+  },
+  {
+   "gravura": "hist/commodus.jpg",
+   "mov": "in",
+   "txt": "Quinto sinal: o elogio sempre chega antes de um pedido. Primeiro o mel, depois a conta. Se toda conversa doce termina num favor, você já sabe o que estava sendo comprado."
+  },
+  {
+   "gravura": "maquiavel.jpg",
+   "mov": "cima",
+   "txt": "E agora a última promessa, a maior. O bajulador mais perigoso da sua vida. Lembra da causa lá do começo? A gente se engana sobre as próprias coisas."
+  },
+  {
+   "gravura": "acervo/carlos_viii_florenca_bezzuoli.jpg",
+   "mov": "dir",
+   "txt": "O bajulador mais perigoso é a voz dentro de você que diz que você já está certo. Ela não pede salário nem favor. Só pede que você pare de perguntar."
+  },
+  {
+   "gravura": "hist/moses.jpg",
+   "mov": "esq",
+   "txt": "Maquiavel viu isso até em cidades inteiras. Nos Discursos, ele escreve que o povo muitas vezes deseja a própria ruína, enganado por uma falsa aparência de bem.",
+   "verso": "O povo, muitas vezes, enganado por uma falsa aparência de bem, deseja a própria ruína.",
+   "ref": "DISCURSOS, LIVRO I, CAP. 53"
+  },
+  {
+   "gravura": "acervo/batalha_ostia_raffaello.jpg",
+   "mov": "cima",
+   "txt": "O bajulador de fora só funciona porque o de dentro abriu a porta. Quem desconfia do próprio aplauso, e pergunta de verdade, fica quase imune ao resto."
+  },
+  {
+   "gravura": "acervo/ferdinand_of_aragon_isabella_of_castile.jpg",
+   "mov": "in",
+   "txt": "Então aqui vai o compromisso desta semana. Escolha uma decisão que você já tomou e pergunte a duas pessoas sinceras: o que pode dar errado aqui? E escute até o fim, sem se defender."
+  },
+  {
+   "gravura": "acervo/batalha_ponte_milvio_raffaello.jpg",
+   "mov": "esq",
+   "txt": "Depois volta aqui e me conta: qual dos cinco sinais você já viu de perto, no trabalho ou na família? Escreve o número nos comentários.",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "Qual sinal você já viu?"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "acervo/botticelli_giuliano_de_medici_accademia_carrara.jpg",
+   "mov": "dir",
+   "txt": "Resumindo. O problema começa no gosto pelo elogio. Você é julgado por quem te cerca. Quem pensa mais em si não aconselha bem. E a verdade precisa de espaço, mas com regra."
+  },
+  {
+   "gravura": "lorenzo.jpg",
+   "mov": "cima",
+   "txt": "Ouça antes de decidir e mantenha a decisão. Tenha juízo próprio, porque ninguém pensa por você. Fale a verdade para cima com calma e fatos. E desconfie primeiro da voz que diz que você já sabe tudo."
+  },
+  {
+   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "mov": "dir",
+   "txt": "No próximo vídeo da playlist Maquiavel na prática, a gente vai ver em quem confiar quando a coisa aperta, com o teste completo de Maquiavel. Até a próxima lição, raposa.",
+   "cta": "Próximo: <b>Em quem confiar?</b><br>Até a próxima lição, raposa",
+   "selo": "RAPOSA<br>E LEÃO"
+  }
+ ]
+}
