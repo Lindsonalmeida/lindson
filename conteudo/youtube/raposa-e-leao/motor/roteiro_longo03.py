@@ -6,12 +6,14 @@ B, AV, J2, J2M = 'borgia.jpg', 'hist/pope_alexander_vi.jpg', 'acervo/julio_ii_ra
 M, M2, MP = 'maquiavel.jpg', 'maquiavel2.jpg', 'acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg'
 L, LX, CAS, EMB = 'lorenzo.jpg', 'acervo/leao_x_raffaello.jpg', 'acervo/castiglione_raffaello.jpg', 'acervo/embaixadores_holbein.jpg'
 PZ, REL, MUL = 'acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg', 'hist/bonfire_of_the_vanities.jpg', 'acervo/multidao_bruegel.jpg'
-GRA, COR, JUD, PRI = 'acervo/rendicao_granada_pradilla.jpg', 'acervo/coroacao_napoleao_david.jpg', 'acervo/beijo_judas_giotto.jpg', 'acervo/prisao_cristo_caravaggio.jpg'
-CES, CASS, CMG = 'cesar.jpg', 'acervo/cesar_assassinato_camuccini.jpg', 'acervo/cesar_morte_gerome.jpg'
-VER, ZAM, ISS = 'acervo/vercingetorix_royer.jpg', 'acervo/hannibal_and_scipio_africanus.jpg', 'acervo/albrecht_altdorfer_schlacht_bei_issus_alte_pinak.jpg'
+GRA = 'acervo/carlos_viii_florenca_bezzuoli.jpg'  # Pradilla bloqueado na Wikimedia
+_, COR, JUD, PRI = None, 'acervo/coroacao_napoleao_david.jpg', 'acervo/beijo_judas_giotto.jpg', 'acervo/prisao_cristo_caravaggio.jpg'
+CES, CASS, CMG = 'cesar.jpg', 'acervo/cesar_assassinato_camuccini.jpg', 'acervo/cesar_assassinato_camuccini.jpg'  # Gérôme bloqueado na Wikimedia
+VER = 'acervo/the_battle_of_alexander_at_issus_by_albrecht_alt.jpg'  # Royer bloqueado na Wikimedia
+_, ZAM, ISS = None, 'acervo/hannibal_and_scipio_africanus.jpg', 'acervo/albrecht_altdorfer_schlacht_bei_issus_alte_pinak.jpg'
 FER, FI, SAV, GIU = 'hist/ferdinand_ii_of_aragon.jpg', 'acervo/ferdinand_of_aragon_isabella_of_castile.jpg', 'hist/girolamo_savonarola.jpg', 'acervo/botticelli_giuliano_de_medici_accademia_carrara.jpg'
 OST, MIL, ROM, CAR = 'acervo/batalha_ostia_raffaello.jpg', 'acervo/batalha_ponte_milvio_raffaello.jpg', 'acervo/romanos_decadencia_couture.jpg', 'hist/caracalla.jpg'
-POL, MEQ = 'acervo/pollice_verso_gerome.jpg', 'hist/marcus_equestre.jpg'
+POL, MEQ = 'acervo/batalha_ponte_milvio_raffaello.jpg', 'hist/marcus_equestre.jpg'  # Gérôme bloqueado na Wikimedia
 
 C = []  # (gravura, txt, extras)
 def c(g, t, **x): C.append((g, t, x))
