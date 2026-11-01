@@ -2,7 +2,7 @@
 
 Um painel único para todos os clientes da agência. O Lindson (admin) vê tudo, e cada cliente vê só o próprio painel. Este README é o ponto de partida para qualquer equipe ou conta que for continuar o projeto.
 
-- **Status (01/11/2026, conta Lindson):** site publicável pronto em `site/`: acesso com código conferido no servidor (Cloudflare Pages Functions), painel do administrador, painel da Dra. Jaci (`jaci-cunha/`, identidade bordô e dourado) e painel do Leo Pinto. Para publicar, siga `site/README.md`.
+- **Status (01/11/2026, conta Lindson):** site publicável pronto em `site/`, um sistema só: o cliente cria a conta uma vez com senha e código, depois entra com e-mail e senha e cai no painel dele; o admin vê todos. Tudo conferido no servidor (Cloudflare Pages Functions), painel do administrador, painel da Dra. Jaci (`jaci-cunha/`, identidade bordô e dourado) e painel do Leo Pinto. Para publicar, siga `site/README.md`.
 - **Painel interno (v1):** https://claude.ai/artifact/RJrQcfyPeML9AwT5YMGbBZ · código em `prototipo/painel.html` (arquivo único, sem imagens).
 - **Protótipo publicado:** https://claude.ai/artifact/XjCkj5eULmE2Pg8KptnKcV
 - **Histórico de pedidos e decisões do Lindson:** `IDEIAS.md` (leia antes de mudar qualquer coisa).
@@ -45,7 +45,7 @@ Sem as fotos pessoais, o script para com erro. Coloque as fotos em `fotos/` com 
   - Dra. Jaci Cunha → `JAC-…`
   - Vereador Leo Pinto → `LEO-…`
 - **Administrador:** código `ADM-…` do Lindson, que abre todos os painéis.
-- **No site (v1)**, o código é conferido **no servidor** e os códigos antigos do protótipo não valem mais. Para trocar um código, gere outro em `privado/` e atualize `CODIGOS` na Cloudflare.
+- **No site**, o código e a senha são conferidos **no servidor** (contas no KV da Cloudflare, senha em PBKDF2). Os códigos antigos do protótipo não valem mais. Para trocar um código, gere outro em `privado/` e atualize `CODIGOS` na Cloudflare.
 - **Próxima versão:** A senha fica guardada com hash forte (bcrypt ou argon2), e toda consulta checa o `cliente_id` no servidor.
 
 ## Próximos passos
