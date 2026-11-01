@@ -1,0 +1,530 @@
+{
+ "id": "longo-01",
+ "formato": "longo",
+ "titulo": "Não entende a Bíblia? Comece por este mapa",
+ "legenda": "Você lê a Bíblia e não entende nada? Calma: quase nunca o problema é você. É que ninguém te mostrou o mapa. Neste vídeo você aprende como ler a Bíblia e entender: a Bíblia em 8 regiões, a grande história em 6 capítulos e o fio de promessa que liga Gênesis a Apocalipse.\n\nVocê também vê os 7 tipos de texto da Bíblia, os 3 erros de quem começa a ler (inclusive o jeito errado de usar Filipenses 4.13) e 3 perguntas simples para saber onde está em qualquer página. Serve para católicos e evangélicos.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📖 Observação: os versículos aparecem em paráfrase curta, com a referência. Confira na sua tradução. A Bíblia evangélica tem 66 livros e a católica 73; o mapa vale para as duas.\n\n🎫 Quer uma rota pronta para começar? Baixe grátis a Rota da Primeira Viagem no link aqui na descrição, ou comente ROTA.\n\n#ComoLerABíblia #EntenderABíblia #EstudoBíblico #BíbliaParaIniciantes #PassaporteDaBíblia",
+ "comentario": "📌 Faça as 3 perguntas do viajante (região, capítulo da história e tipo de terreno) num capítulo hoje e comente CARIMBEI com o nome dele. E me conta: qual dos 3 erros você já cometeu?",
+ "titulo_tela": {
+  "sup": "PASSAPORTE DA BÍBLIA",
+  "txt": "A Bíblia tem<br>um MAPA",
+  "dur": 3.2
+ },
+ "capa": {
+  "A": "O mapa escondido",
+  "B": "Pare de travar",
+  "gravA": "092",
+  "gravB": "053"
+ },
+ "cenas": [
+  {
+   "gravura": "053",
+   "mov": "in",
+   "txt": "Você abre a Bíblia com vontade. Lê duas páginas. E fecha sem entender nada. Se isso já aconteceu com você, fica comigo, porque o problema quase nunca é você."
+  },
+  {
+   "gravura": "059",
+   "mov": "esq",
+   "txt": "Uns dois mil anos atrás, um homem importante passou pelo mesmo aperto. Estava numa carruagem, lendo o profeta Isaías, e não entendia o que lia. O que aconteceu com ele depois muda tudo. Eu te conto no fim."
+  },
+  {
+   "gravura": "046",
+   "mov": "out",
+   "txt": "O problema dele, e talvez o seu, é o mesmo. Te entregaram uma biblioteca inteira, com dezenas de livros, e ninguém te mostrou o mapa. É como desembarcar num país estranho sem saber em que cidade você está."
+  },
+  {
+   "gravura": "020",
+   "mov": "dir",
+   "txt": "Hoje a gente faz essa viagem juntos. O mapa da Bíblia em 8 regiões. A história inteira em 6 capítulos. O fio escondido que liga tudo. E os 7 tipos de texto, que explicam por que cada parte se lê de um jeito."
+  },
+  {
+   "gravura": "096",
+   "mov": "cima",
+   "txt": "No meio do caminho eu vou te mostrar um dos versículos mais famosos da Bíblia. Ele aparece em camiseta, em parede de academia, em legenda de foto. E muita gente usa ele do jeito errado."
+  },
+  {
+   "gravura": "092",
+   "mov": "in",
+   "txt": "E no final eu te entrego 3 perguntas simples. Com elas, você abre a Bíblia em qualquer página e sabe onde está. Guarda isso, porque é a parte mais importante da viagem de hoje."
+  },
+  {
+   "gravura": "061",
+   "mov": "out",
+   "txt": "Primeira parada. Antes de abrir em qualquer página, você precisa entender uma coisa: a Bíblia não é um livro só. Ela é uma biblioteca inteira, guardada dentro de uma capa.",
+   "cap": {
+    "sup": "PARADA 1",
+    "txt": "A Bíblia é uma biblioteca"
+   }
+  },
+  {
+   "gravura": "043",
+   "mov": "in",
+   "txt": "Na Bíblia evangélica são 66 livros. Na católica, 73. Foram escritos ao longo de muitos séculos, por gente bem diferente: pastor, rei, pescador, médico, profeta. E em três línguas: hebraico, aramaico e grego."
+  },
+  {
+   "gravura": "017",
+   "mov": "esq",
+   "txt": "Agora pensa comigo. Você entraria numa biblioteca e leria todos os livros na ordem da prateleira, sem saber o que cada um é? Pois é isso que muita gente tenta fazer com a Bíblia. E aí trava."
+  },
+  {
+   "gravura": "059",
+   "mov": "out",
+   "txt": "Lembra do homem da carruagem? A história dele está em Atos, capítulo 8. Ele era um alto oficial da rainha da Etiópia, voltando de Jerusalém. Filipe chega perto e escuta ele lendo em voz alta."
+  },
+  {
+   "gravura": "053",
+   "mov": "in",
+   "txt": "Filipe pergunta: você entende o que está lendo? E ele responde mais ou menos assim: como é que eu vou entender, se ninguém me explicar? Não entender sozinho não é falta de fé. É falta de guia.",
+   "verso": "Como posso entender, se ninguém me explicar?",
+   "ref": "ATOS 8.31"
+  },
+  {
+   "gravura": "044",
+   "mov": "cima",
+   "txt": "Repara que o homem não fechou o rolo. Ele convidou Filipe pra subir e sentar do lado dele. É isso que eu quero fazer com você hoje: sentar do lado e ler junto, sem pressa."
+  },
+  {
+   "gravura": "046",
+   "mov": "esq",
+   "txt": "Na prática, faz isso hoje. Abre o índice da sua Bíblia, aquela lista lá no começo. Conta quantos livros ela tem, 66 ou 73. E marca três pontos: Gênesis, o começo; Mateus, o Novo Testamento; e Apocalipse, o fim."
+  },
+  {
+   "gravura": "053",
+   "mov": "out",
+   "txt": "Primeira parada feita. Tá comigo até aqui? Se a ideia da biblioteca fez sentido pra você, escreve nos comentários só uma palavra: biblioteca. E bora pro mapa.",
+   "interage": {
+    "tipo": "checkin",
+    "txt": "Escreve: biblioteca"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "020",
+   "mov": "in",
+   "txt": "Segunda parada: o mapa. Imagina a Bíblia como um mapa-múndi cheio de ilhas. Cada livro é uma ilha. E essas ilhas ficam agrupadas em 8 regiões, cada uma com o seu clima.",
+   "cap": {
+    "sup": "PARADA 2",
+    "txt": "O mapa em 8 regiões"
+   }
+  },
+  {
+   "gravura": "024",
+   "mov": "cima",
+   "txt": "Saber a região muda tudo. Vamos passar por elas bem rápido, como quem olha o mapa antes de sair de casa. Não precisa decorar agora. Só repara no desenho."
+  },
+  {
+   "gravura": "022",
+   "mov": "out",
+   "txt": "Região 1: a Lei. São os 5 primeiros livros, de Gênesis a Deuteronômio. Aqui está o começo de tudo: a criação, Abraão, a saída do Egito e as regras de vida que Deus deu ao povo de Israel."
+  },
+  {
+   "gravura": "001",
+   "mov": "in",
+   "txt": "O primeiro destino é Gênesis. Em uma frase: Deus cria tudo, o ser humano estraga, e Deus começa a consertar escolhendo uma família. Guarda essa frase, porque ela volta daqui a pouco."
+  },
+  {
+   "gravura": "019",
+   "mov": "esq",
+   "txt": "Região 2: os livros Históricos. São 12 na Bíblia evangélica, de Josué a Ester. É a grande novela de Israel: a entrada na terra, os juízes, os reis, a queda e a volta do exílio."
+  },
+  {
+   "gravura": "035",
+   "mov": "dir",
+   "txt": "Região 3: os Poéticos. Jó, Salmos, Provérbios, Eclesiastes e Cantares. Aqui ninguém está contando história em ordem. São orações, canções, perguntas difíceis e conselhos pra vida."
+  },
+  {
+   "gravura": "047",
+   "mov": "out",
+   "txt": "Regiões 4 e 5: os Profetas. Os Maiores são 5, de Isaías a Daniel. Os Menores são 12, de Oseias a Malaquias. E atenção: maior e menor aqui é pelo tamanho do livro. Não tem nada a ver com importância."
+  },
+  {
+   "gravura": "054",
+   "mov": "in",
+   "txt": "Um exemplo: Jonas está entre os Menores. Tem só 4 capítulos. E mesmo assim é uma das histórias mais conhecidas da Bíblia inteira. Pequeno no tamanho, enorme no recado."
+  },
+  {
+   "gravura": "063",
+   "mov": "cima",
+   "txt": "Região 6: os Evangelhos e Atos. Mateus, Marcos, Lucas e João contam a vida de Jesus. E Atos mostra o que veio depois: a igreja nascendo e a mensagem saindo pelo mundo."
+  },
+  {
+   "gravura": "097",
+   "mov": "esq",
+   "txt": "Região 7: as Cartas. São 21, de Romanos a Judas. Paulo, Pedro, Tiago, João e outros escrevendo para igrejas e para pessoas de verdade, com problemas de verdade."
+  },
+  {
+   "gravura": "099",
+   "mov": "out",
+   "txt": "E a região 8 tem uma ilha só: Apocalipse. São visões cheias de símbolos, escritas para uma igreja que sofria. O recado central é simples: Jesus vence, e Deus faz novas todas as coisas."
+  },
+  {
+   "gravura": "018",
+   "mov": "in",
+   "txt": "E a Bíblia católica? Os livros a mais, como Tobias, Judite, Sabedoria e os Macabeus, entram nessas mesmas regiões. Ou seja, o mapa serve pra todo mundo. Muda o número de ilhas, não o desenho."
+  },
+  {
+   "gravura": "046",
+   "mov": "dir",
+   "txt": "Na prática: pensa num livro que você já ouviu falar. Pode ser Salmos, pode ser Jonas. Descobre em qual das 8 regiões ele mora e escreve o nome da região, a lápis, na primeira página dele."
+  },
+  {
+   "gravura": "070",
+   "mov": "cima",
+   "txt": "Agora me conta uma coisa, de verdade: em qual dessas regiões você mais lê hoje? Lei, Poéticos, Profetas, Evangelhos ou Cartas? Escreve aqui embaixo. Quero saber por onde você anda.",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "Qual região você mais lê?"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "053",
+   "mov": "out",
+   "txt": "Agora vem a virada. Muita gente para no mapa e acha que já entendeu. Mas mapa sem história é só geografia. Você sabe onde as coisas estão, mas não sabe pra onde a viagem vai."
+  },
+  {
+   "gravura": "092",
+   "mov": "in",
+   "txt": "Terceira parada: a grande história. A Bíblia não é uma pilha de livros soltos. Ela conta uma história só, do começo ao fim, e dá pra resumir em 6 capítulos. Vou um por um, devagar.",
+   "cap": {
+    "sup": "PARADA 3",
+    "txt": "A história em 6 capítulos"
+   }
+  },
+  {
+   "gravura": "001",
+   "mov": "cima",
+   "txt": "Capítulo 1: Criação. Deus cria tudo, e tudo é bom. O ser humano é criado para viver perto dele e cuidar do mundo. É o jardim, a luz, o começo da viagem."
+  },
+  {
+   "gravura": "002",
+   "mov": "out",
+   "txt": "Capítulo 2: Queda. O ser humano desobedece, e o mundo se quebra. Aparecem a culpa, a vergonha e a morte. E desde então a gente vive nesse mundo rachado, sentindo falta de casa."
+  },
+  {
+   "gravura": "007",
+   "mov": "in",
+   "txt": "Capítulo 3: Promessa e povo. Deus não desiste. Ele chama Abraão e promete que, por meio da família dele, todas as famílias da terra seriam abençoadas. Daí nasce Israel, e o Antigo Testamento conta essa caminhada."
+  },
+  {
+   "gravura": "088",
+   "mov": "esq",
+   "txt": "Capítulo 4: Jesus. A promessa chega. Jesus vive, ensina, cura, morre na cruz e ressuscita. É o centro da viagem inteira. Tudo antes aponta pra ele, e tudo depois sai dele."
+  },
+  {
+   "gravura": "095",
+   "mov": "out",
+   "txt": "Capítulo 5: Igreja. O Espírito Santo vem, forma a igreja, e a boa notícia sai de Jerusalém para o mundo. É aqui que eu e você entramos na história."
+  },
+  {
+   "gravura": "093",
+   "mov": "dir",
+   "txt": "Capítulo 6: Tudo novo. No fim, Deus faz novo céu e nova terra. Apocalipse 21 diz, em outras palavras, que ele vai enxugar toda lágrima, e não vai ter mais morte, nem choro, nem dor.",
+   "verso": "Deus enxugará toda lágrima.",
+   "ref": "APOCALIPSE 21.4"
+  },
+  {
+   "gravura": "091",
+   "mov": "in",
+   "txt": "Repete comigo: Criação, Queda, Promessa e povo, Jesus, Igreja, Tudo novo. Seis palavras. Se você guardar só isso deste vídeo, já vai abrir a Bíblia com outros olhos."
+  },
+  {
+   "gravura": "065",
+   "mov": "cima",
+   "txt": "Na prática: abre qualquer livro e pergunta em qual dos 6 capítulos da história você está. Marcos fica em Jesus. Romanos fica em Igreja. Anota num papel e deixa dentro da Bíblia, como marcador."
+  },
+  {
+   "gravura": "049",
+   "mov": "out",
+   "txt": "Pausa rápida na viagem. Se você quer começar com um caminho pronto, eu preparei a Rota da Primeira Viagem, de graça. É só comentar ROTA aqui embaixo ou pegar no link da descrição.",
+   "cta": "Comenta <b>ROTA</b><br>e receba a rota grátis"
+  },
+  {
+   "gravura": "020",
+   "mov": "in",
+   "txt": "Quarta parada, e essa quase ninguém te conta. Se a Bíblia é uma história só, tem que existir um fio passando por ela inteira. E existe. Ele aparece já no terceiro capítulo de Gênesis.",
+   "cap": {
+    "sup": "PARADA 4",
+    "txt": "O fio que liga tudo"
+   }
+  },
+  {
+   "gravura": "002",
+   "mov": "esq",
+   "txt": "Logo depois da queda, Deus diz à serpente que um descendente da mulher ia ferir a cabeça dela, e ela ia ferir o calcanhar dele. Desde os primeiros séculos, muitos cristãos chamam isso de primeira promessa de salvação.",
+   "verso": "Ele ferirá a sua cabeça, e você ferirá o calcanhar dele.",
+   "ref": "GÊNESIS 3.15"
+  },
+  {
+   "gravura": "007",
+   "mov": "out",
+   "txt": "Depois o fio passa por Abraão. Deus promete: em você serão abençoadas todas as famílias da terra. Não só Israel. Todas. Repara como a promessa já nasce grande.",
+   "verso": "Em você serão abençoadas todas as famílias da terra.",
+   "ref": "GÊNESIS 12.3"
+  },
+  {
+   "gravura": "036",
+   "mov": "dir",
+   "txt": "Depois o fio passa por Davi. Deus promete que um descendente dele teria um trono que não ia acabar. E os profetas pegam esse fio e vão esticando, século após século, cada vez mais claro."
+  },
+  {
+   "gravura": "047",
+   "mov": "in",
+   "txt": "Isaías, por exemplo, fala de um servo que seria ferido pelas transgressões do povo, e pelas feridas dele viria a cura. Guarda esse capítulo, Isaías 53, porque ele é a chave do homem da carruagem.",
+   "verso": "Ele foi ferido por causa das nossas transgressões.",
+   "ref": "ISAÍAS 53.5"
+  },
+  {
+   "gravura": "092",
+   "mov": "cima",
+   "txt": "E quem amarra o fio é o próprio Jesus. Em Lucas 24, no caminho de Emaús, ele começa por Moisés, passa pelos profetas e explica aos dois discípulos o que as Escrituras diziam sobre ele.",
+   "verso": "Explicou o que as Escrituras diziam sobre ele.",
+   "ref": "LUCAS 24.27"
+  },
+  {
+   "gravura": "057",
+   "mov": "out",
+   "txt": "Ou seja, as páginas mais antigas não são outro assunto. O Antigo Testamento é a estrada que leva até a promessa. E o Novo mostra a promessa chegando e abrindo a porta pra todo mundo."
+  },
+  {
+   "gravura": "053",
+   "mov": "in",
+   "txt": "Sabe o que isso muda pra você? Quando um capítulo do Antigo Testamento parecer estranho, pergunta só uma coisa: como essa parte ajuda a promessa a seguir viva? Muita página difícil clareia na hora."
+  },
+  {
+   "gravura": "063",
+   "mov": "esq",
+   "txt": "Se esse fio acendeu uma luz aí dentro, segue o Passaporte da Bíblia. É isso que a gente faz aqui toda semana: abre um pedaço da Bíblia e mostra onde ele encaixa na viagem.",
+   "interage": {
+    "tipo": "segue",
+    "txt": "Segue pra próxima parada"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "024",
+   "mov": "out",
+   "txt": "Quinta parada, e essa resolve muita confusão. A Bíblia tem 7 tipos de texto. Eu chamo de 7 tipos de terreno. E cada terreno se anda de um jeito diferente.",
+   "cap": {
+    "sup": "PARADA 5",
+    "txt": "Os 7 tipos de terreno"
+   }
+  },
+  {
+   "gravura": "032",
+   "mov": "in",
+   "txt": "Pensa assim: você não anda na praia do mesmo jeito que sobe uma montanha. Com a Bíblia é igual. Quem lê poesia como se fosse manual, ou carta como se fosse novela, se perde no caminho."
+  },
+  {
+   "gravura": "022",
+   "mov": "dir",
+   "txt": "Terreno 1: Lei. São regras de vida para o povo de Israel. Não leia só como uma lista de proibições. Pergunte sempre: o que essa regra mostra sobre quem Deus é e sobre o que ele ama?"
+  },
+  {
+   "gravura": "031",
+   "mov": "in",
+   "txt": "Terreno 2: História. São fatos contados em ordem. Leia como uma novela: quem está na cena, onde está e o que aconteceu. E lembre que nem tudo que um personagem fez é exemplo pra copiar."
+  },
+  {
+   "gravura": "035",
+   "mov": "cima",
+   "txt": "Terreno 3: Poesia. Orações, canções e sabedoria, como Salmos e Provérbios. Leia devagar, sinta, repita. E um detalhe que salva muita gente: provérbio é regra geral da vida, não promessa garantida."
+  },
+  {
+   "gravura": "048",
+   "mov": "out",
+   "txt": "Terreno 4: Profecia. É Deus falando ao povo por meio do profeta. Antes de tudo, descubra a quem ele falava e em que época. Só isso já clareia muita coisa que parecia enigma."
+  },
+  {
+   "gravura": "062",
+   "mov": "in",
+   "txt": "Terreno 5: Evangelho. É a vida de Jesus. Repare no que ele faz e, principalmente, no que ele pergunta. As perguntas de Jesus também foram feitas pra você responder."
+  },
+  {
+   "gravura": "097",
+   "mov": "esq",
+   "txt": "Terreno 6: Carta. São mensagens para igrejas e pessoas reais. Leia de uma vez, do começo ao fim, como você leria a carta de alguém querido. Filipenses, por exemplo, tem só 4 capítulos."
+  },
+  {
+   "gravura": "041",
+   "mov": "out",
+   "txt": "Terreno 7: Apocalíptico. Visões com símbolos, números e imagens fortes. Não precisa decifrar cada detalhe, e existem leituras diferentes deles. Mas os símbolos apontam para uma ideia: Deus vence no fim."
+  },
+  {
+   "gravura": "096",
+   "mov": "dir",
+   "txt": "Lembra do versículo de camiseta que eu prometi? É Filipenses 4.13: posso todas as coisas naquele que me fortalece. Muita gente usa como promessa de vencer tudo o que quiser. Mas é carta, então lê o parágrafo inteiro.",
+   "verso": "Posso todas as coisas naquele que me fortalece.",
+   "ref": "FILIPENSES 4.13"
+  },
+  {
+   "gravura": "098",
+   "mov": "in",
+   "txt": "Nos versos de antes, Paulo diz que aprendeu a viver com pouco e com muito, com fome e com fartura. E ele estava preso quando escreveu. O versículo fala de força pra atravessar qualquer situação, não de ganhar tudo.",
+   "verso": "Sei passar necessidade e sei ter fartura.",
+   "ref": "FILIPENSES 4.12"
+  },
+  {
+   "gravura": "053",
+   "mov": "out",
+   "txt": "Percebe? O versículo continua lindo. Até mais bonito. Só que agora ele fala a verdade sobre a vida: tem dia de pouco, tem dia de muito, e Cristo dá força nos dois. Esse era o segundo segredo que eu te prometi."
+  },
+  {
+   "gravura": "046",
+   "mov": "cima",
+   "txt": "Na prática: escolhe um capítulo pra ler hoje. Antes de ler, descobre o tipo de terreno. Depois lê usando a dica daquele terreno, e repara como a leitura fica mais leve."
+  },
+  {
+   "gravura": "044",
+   "mov": "dir",
+   "txt": "Respira um pouco. Foi bastante coisa, né? Se bateu cansaço, tudo bem: salva este vídeo e volta nos 7 terrenos quando for ler. Eles servem de consulta por muito tempo.",
+   "interage": {
+    "tipo": "salva",
+    "txt": "Salva pra consultar depois"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "018",
+   "mov": "in",
+   "txt": "Sexta parada. Agora que você tem mapa, história, fio e terreno, deixa eu te mostrar os 3 erros mais comuns de quem começa a ler. Se você já caiu em algum, relaxa: é normal.",
+   "cap": {
+    "sup": "PARADA 6",
+    "txt": "Os 3 erros de quem começa"
+   }
+  },
+  {
+   "gravura": "017",
+   "mov": "out",
+   "txt": "Erro 1: começar por Gênesis e querer ir até o fim, na ordem. Gênesis e Êxodo vão bem. Aí chega Levítico, cheio de regras de sacrifício, e a pessoa trava. Não é preguiça. É falta de rota."
+  },
+  {
+   "gravura": "037",
+   "mov": "esq",
+   "txt": "Levítico não é inimigo. Em uma frase, ele ensina como um povo imperfeito pode chegar perto de um Deus santo. E o capítulo 19 tem a frase que Jesus citou como um dos maiores mandamentos.",
+   "verso": "Ame o seu próximo como a si mesmo.",
+   "ref": "LEVÍTICO 19.18"
+  },
+  {
+   "gravura": "049",
+   "mov": "in",
+   "txt": "A saída é simples: alterna. Um livro de história, depois um Evangelho, depois um Salmo. Quem começa por Marcos, por exemplo, entra direto na vida de Jesus, em 16 capítulos curtos e cheios de ação."
+  },
+  {
+   "gravura": "077",
+   "mov": "dir",
+   "txt": "Erro 2: ler um versículo solto, fora do lugar. Foi o que aconteceu com Filipenses 4.13. Versículo é como uma rua: só faz sentido quando você sabe em que bairro e em que cidade ela fica."
+  },
+  {
+   "gravura": "066",
+   "mov": "cima",
+   "txt": "A regra prática é fácil de lembrar: leia pelo menos o parágrafo de antes e o de depois. Se ainda ficar dúvida, leia o capítulo inteiro. O contexto é o melhor guia que existe dentro da própria Bíblia."
+  },
+  {
+   "gravura": "065",
+   "mov": "out",
+   "txt": "Erro 3: achar que precisa entender tudo de primeira, e sozinho. Nem os discípulos entendiam tudo na hora. O Evangelho de João conta que algumas coisas eles só entenderam depois da ressurreição."
+  },
+  {
+   "gravura": "070",
+   "mov": "in",
+   "txt": "Ler junto ajuda muito. Em Atos 17, o povo de Bereia ouvia a pregação e depois examinava as Escrituras todos os dias, pra conferir. Ler com alguém e conferir no texto é coisa bem bíblica.",
+   "verso": "Examinavam as Escrituras todos os dias.",
+   "ref": "ATOS 17.11"
+  },
+  {
+   "gravura": "053",
+   "mov": "esq",
+   "txt": "Pensa agora em uma pessoa que vive dizendo que não entende a Bíblia. Manda este vídeo pra ela. Melhor ainda: combinem de ler o mesmo capítulo amanhã e conversar sobre ele.",
+   "interage": {
+    "tipo": "manda",
+    "txt": "Manda pra quem vive travando"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "020",
+   "mov": "out",
+   "txt": "Última parada. Lembra que eu prometi 3 perguntas lá no começo? Agora elas fazem sentido, porque juntam tudo o que a gente viu: o mapa, a história e o terreno.",
+   "cap": {
+    "sup": "PARADA 7",
+    "txt": "As 3 perguntas do viajante"
+   }
+  },
+  {
+   "gravura": "061",
+   "mov": "in",
+   "txt": "Antes de ler qualquer página, pergunta: em que região eu estou, em que capítulo da grande história e que tipo de terreno é esse. Três perguntas. Menos de um minuto. E a página muda de cara."
+  },
+  {
+   "gravura": "037",
+   "mov": "esq",
+   "txt": "Vamos testar onde muita gente trava: Levítico. Região: Lei. Capítulo da história: Promessa e povo. Terreno: Lei, então a pergunta é o que cada regra mostra sobre Deus."
+  },
+  {
+   "gravura": "053",
+   "mov": "out",
+   "txt": "Agora o Salmo 23. Região: Poéticos. Capítulo da história: Promessa e povo, porque é uma oração de Davi. Terreno: Poesia, então lê devagar, sentindo cada imagem: o pastor, o vale, a mesa."
+  },
+  {
+   "gravura": "095",
+   "mov": "dir",
+   "txt": "E um do Novo Testamento: Romanos 8. Região: Cartas. Capítulo da história: Igreja. Terreno: Carta, então lê o capítulo de uma vez, como quem recebe a carta de um amigo. Repara como tudo se encaixa."
+  },
+  {
+   "gravura": "044",
+   "mov": "in",
+   "txt": "Percebe? O texto não mudou. O que mudou foi você chegar sabendo onde está. Não era falta de fé, nem falta de inteligência. Era falta de mapa. E mapa, agora, você tem."
+  },
+  {
+   "gravura": "091",
+   "mov": "cima",
+   "txt": "E isso combina com a própria Bíblia. No Salmo 119, o salmista diz, em outras palavras, que a explicação da Palavra traz luz e dá entendimento aos simples. A Bíblia foi feita pra gente simples entender.",
+   "verso": "A explicação das tuas palavras ilumina.",
+   "ref": "SALMO 119.130"
+  },
+  {
+   "gravura": "059",
+   "mov": "out",
+   "txt": "E o homem da carruagem? Prometi contar. Ele estava lendo justamente Isaías 53, o trecho do servo ferido. Filipe começou por aquela passagem e anunciou Jesus a ele. O fio, de novo, aparecendo."
+  },
+  {
+   "gravura": "019",
+   "mov": "in",
+   "txt": "Quando passaram por um lugar com água, ele pediu pra ser batizado ali mesmo. E Atos conta que ele seguiu o seu caminho cheio de alegria. Entrou na carruagem confuso. Saiu entendendo, e alegre.",
+   "verso": "E seguiu o seu caminho cheio de alegria.",
+   "ref": "ATOS 8.39"
+  },
+  {
+   "gravura": "046",
+   "mov": "dir",
+   "txt": "Na prática: escolhe o capítulo de amanhã. Antes de ler, faz as 3 perguntas. E anota as respostas na margem, a lápis, pra ver o mapa crescendo dentro da sua própria Bíblia."
+  },
+  {
+   "gravura": "063",
+   "mov": "out",
+   "txt": "Agora é com você. Hoje ainda, faz as 3 perguntas num capítulo qualquer. Quando fizer, comenta aqui embaixo: CARIMBEI, e o nome do capítulo. Quero ver esse mural cheio de carimbos.",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "Fez as 3? Comenta CARIMBEI"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "024",
+   "mov": "cima",
+   "txt": "Resumindo a viagem de hoje. A Bíblia é uma biblioteca, com 8 regiões no mapa. Ela conta uma história só, em 6 capítulos, com um fio de promessa passando por todas as páginas."
+  },
+  {
+   "gravura": "062",
+   "mov": "in",
+   "txt": "Ela tem 7 tipos de terreno, e cada um se lê de um jeito. Fuja dos 3 erros de quem começa. E antes de qualquer página, faz as 3 perguntas do viajante."
+  },
+  {
+   "gravura": "093",
+   "mov": "out",
+   "txt": "No próximo vídeo, eu te mostro 3 rotas pra começar a ler, e você escolhe a sua. Se quiser já sair com uma, comenta ROTA. Até a próxima parada, viajante da Palavra.",
+   "cta": "Até a próxima <b>parada</b>,<br>viajante",
+   "selo": "PASSA<br>PORTE"
+  }
+ ]
+}

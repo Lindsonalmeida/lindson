@@ -29,10 +29,6 @@ INS = {
  'short-18': [(5, '053', 'esq', 'Respira. Esse capítulo é pesado mesmo. Tá comigo até aqui? Escreve: tô junto. Agora vem a virada.', 'checkin', 'Escreve: tô junto')],
  'short-19': [(6, '053', 'in', 'E você? Qual é o vento que está tirando o seu foco agora? Escreve uma palavra só.', 'comenta', 'Qual é o seu vento?')],
  'short-20': [(5, '049', 'out', 'Qual desses salmos você precisa hoje? Escreve o número aqui, e lê ele ainda hoje.', 'comenta', 'Qual salmo você precisa hoje?')],
- 'longo-01': [(11, '053', 'esq', 'Primeira parada feita. Tá comigo até aqui? Se a ideia da biblioteca fez sentido pra você, escreve nos comentários: biblioteca. E bora pro mapa.', 'checkin', 'Escreve: biblioteca'),
-              (25, '063', 'out', 'Antes da grande história, me conta: em qual dessas regiões você mais lê hoje? Lei, Profetas, Evangelhos ou Cartas? Escreve aqui.', 'comenta', 'Qual região você mais lê?'),
-              (36, '092', 'in', 'Se até aqui esse vídeo já clareou alguma coisa pra você, segue o canal. Toda semana tem uma parada nova.', 'segue', 'Uma parada nova por semana'),
-              (48, '053', 'dir', 'Respira um pouco. Foi bastante coisa, né? Se bateu cansaço, tudo bem: salva o vídeo e volta depois. Se tá firme, vamos pra última parada.', 'salva', 'Cansou? Salva e volta depois')],
  'longo-02': [(18, '053', 'in', 'Primeira rota apresentada. Tá fazendo sentido até aqui? Se a Primeira Viagem é a sua cara, escreve: primeira. Mas espera as outras duas antes de decidir.', 'checkin', 'Escreve: primeira'),
               (24, '063', 'esq', 'Quem aqui já tentou ler na ordem das páginas e parou no meio? Levanta a mão nos comentários. Escreve: eu.', 'comenta', 'Já parou no meio? Escreve: eu'),
               (36, '092', 'out', 'Se você está gostando de ver a Bíblia como viagem, segue o canal. Toda semana a gente atravessa um trecho junto.', 'segue', 'Toda semana, um trecho juntos'),
@@ -57,7 +53,6 @@ MARCA = {
  'short-16': {7: ('manda', 'Manda pra quem está cansado', None)},
  'short-19': {7: ('salva', 'Salva pra lembrar amanhã', None)},
  'short-20': {6: ('salva', 'Salva pra quando precisar', None)},
- 'longo-01': {4: ('segue', 'Primeira viagem? Se inscreve', None), 55: ('comenta', 'Fez as 3 perguntas? Conta aqui', None)},
  'longo-02': {4: ('segue', 'Se inscreve antes de embarcar', None), 52: ('comenta', 'VOU EMBARCAR + sua rota', None)},
 }
 # gancho com pergunta aberta (fechada mais adiante no vídeo)
