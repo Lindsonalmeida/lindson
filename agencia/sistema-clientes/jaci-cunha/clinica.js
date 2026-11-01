@@ -30,7 +30,7 @@ const LINHAS = [['Bastidores e acolhimento', 30, 'Reels e stories com a Dra. e a
 
 const IG = (window.__DADOS || {}).instagram || {};
 const n = v => typeof v === 'number' ? v.toLocaleString('pt-BR') : (v || 'a medir');
-V.funil = () => `<div class="grade g4">${[['Seguidores', n(IG.seguidores), 'Instagram · ' + (IG.data || '')], ['Visualizações (30 dias)', n(IG.visualizacoes), IG.periodo || ''], ['Conversas por código', 'a medir', 'quando as campanhas entrarem'], ['Avaliações agendadas', 'a medir', 'etiqueta no WhatsApp']]
+V.funil = () => `<div class="grade g4">${[['Seguidores', n(IG.seguidores), 'Instagram · ' + (IG.data || '')], ['Visualizações (30 dias)', n(IG.visualizacoes), IG.periodo || ''], ...(R => [['Contatos de anúncio (mês)', R ? n(R.comCodigo) : 'a medir', 'pelo código, no CRM'], ['Avaliações marcadas', R ? n(R.marcadas) : 'a medir', 'no CRM de pacientes']])(window.__crmResumo && window.__crmResumo())]
     .map(([r, v, n]) => `<div class="card kpi"><div class="rot">${r}</div><div class="val">${v}</div><div class="var up"><span>${n}</span></div></div>`).join('')}</div>
   <div class="grade g21"><div class="card"><h3>O caminho da paciente</h3><p class="sub">Do vídeo até o procedimento. Se a conversa é barata mas ninguém agenda, o problema é o atendimento, não o anúncio.</p>
   <div class="lista">${FUNIL.map(([t, d], i) => `<div class="item"><div style="min-width:0"><div class="t">${i + 1}. ${t}</div><div class="d">${d}</div></div></div>`).join('')}</div></div>

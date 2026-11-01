@@ -56,6 +56,21 @@ Use `npx wrangler@3 pages dev publico --kv CONTAS` com um `.dev.vars` (fora do G
 - cookie falsificado é recusado;
 - sair funciona.
 
+## Ferramentas de gestão (CRM, Financeiro, Notícias): conta Lindson, 01/11/2026
+- **Código:** `prototipo/ferramentas.js` (genérico). A configuração de cada cliente fica no `montar-<cliente>.py` (`FERR`: etapas do funil com a mensagem de WhatsApp de cada uma, origens, interesses, categorias do financeiro e temas de notícias). A primeira cliente é a Dra. Jaci.
+- **CRM:** funil de pacientes (Novo contato → Conversando → Avaliação marcada → Fez a avaliação → Fez procedimento → Retorno, mais "Não seguiu").
+  - Botão **WhatsApp** em cada card, com a mensagem da etapa (regras do CFO). Ao tocar, registra o envio e avança a etapa.
+  - Relatório por origem (códigos dos anúncios).
+  - O valor do procedimento entra sozinho no Financeiro.
+- **Financeiro:**
+  - entradas e saídas por mês, a receber e a pagar;
+  - meta de faturamento;
+  - despesas fixas repetidas no mês seguinte;
+  - categorias e últimos 6 meses;
+  - planilha CSV.
+- **Notícias:** `functions/api/noticias.js` busca no Google Notícias (reserva: Bing) e guarda por 3 horas no KV. Só para quem entrou.
+- **Onde ficam os dados:** `functions/api/dados.js` salva no KV (`dados:<cliente>:crm|fin`). Só o próprio cliente ou o admin acessa. Se duas pessoas salvarem ao mesmo tempo, os itens são juntados.
+
 ## Dados reais dos clientes
 - **Onde ficam:** no repositório privado, em `CentralLindsonALmeida/dados/<cliente>.json`, nunca aqui.
 - **Como entram no painel:** o `montar-<cliente>.py` lê esse arquivo (clone o privado em `/home/user/centrallindsonalmeida`, ao lado deste) e o `prototipo/real.js` troca as telas de exemplo pelos dados.

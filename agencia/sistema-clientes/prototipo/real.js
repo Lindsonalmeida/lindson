@@ -17,7 +17,7 @@ const kpis = () => `<div class="grade g4">
   ${kpi('Seguidores', num(ig.seguidores), difSeg === null ? 'Instagram · ' + esc(ig.data) : (difSeg >= 0 ? '+' : '') + num(difSeg) + ' desde o ' + esc(ig.anterior.rotulo))}
   ${kpi('Visualizações (30 dias)', esc(ig.visualizacoes), esc(ig.periodo))}
   ${kpi('Novos seguidores', num(ig.novos_seguidores), esc(ig.periodo))}
-  ${kpi('Avaliações agendadas', null, 'quando as campanhas começarem')}</div>`;
+  ${window.__crmResumo ? kpi('Avaliações marcadas', num(window.__crmResumo().marcadas), 'no CRM de pacientes') : kpi('Avaliações agendadas', null, 'quando as campanhas começarem')}</div>`;
 const metas = () => `<div class="lista">${(D.metas || []).map(([n, a, m]) => `<div><div style="display:flex;justify-content:space-between"><span>${esc(n)}</span><b>${a == null ? 'a medir' : num(a)} / ${num(m)}</b></div><div class="barra"><i style="width:${a == null ? 0 : Math.min(100, a / m * 100)}%"></i></div></div>`).join('')}</div>`;
 const prox = () => (D.entregas || []).filter(e => e[3] !== 'entregue');
 

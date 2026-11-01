@@ -81,6 +81,46 @@ troca("function toast(t){", "window.__toast=t=>toast(t);function toast(t){")
 troca("const f=$('#novo-ped');", "if(window.__pos)window.__pos(view);const f=$('#novo-ped');")
 troca("addEventListener('hashchange',render);render();", "window.__render=render;window.__h={BASE,APROV,PEDIDOS,bomDia,chip,cli:()=>cli};addEventListener('hashchange',render);setTimeout(render,0);")
 
+
+# 5b · grupo "Gestão da clínica": CRM de pacientes, Financeiro e Notícias do nicho (prototipo/ferramentas.js)
+troca('<div class="grupo"><h4>Agenda cheia</h4>', '<div class="grupo"><h4>Gestão da clínica</h4>'
+      '<a href="#crm" data-v="crm"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.8-3.6 3.4-5.5 6.5-5.5s5.7 1.9 6.5 5.5M16 4.5a3.5 3.5 0 0 1 0 7M18.5 14.8c1.7.8 2.8 2.5 3.2 5.2"/></svg>CRM de pacientes</a>'
+      '<a href="#financeiro" data-v="financeiro"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2.5" y="5.5" width="19" height="13" rx="2.5"/><circle cx="12" cy="12" r="2.6"/><path d="M6 9v.01M18 15v.01"/></svg>Financeiro</a>'
+      '<a href="#noticias" data-v="noticias"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 5h13v14H6a2 2 0 0 1-2-2zM17 9h3v8a2 2 0 0 1-2 2"/><path d="M7.5 9h6M7.5 12.5h6M7.5 16h4"/></svg>Notícias do nicho</a></div>'
+      '<div class="grupo"><h4>Agenda cheia</h4>')
+FERR = {
+  'negocio': 'Clínica Dra. Jaci Cunha', 'linkGoogle': '', 'retornoDias': 150,
+  'origens': ['[BTX01] Anúncio botox', '[BIO01] Anúncio flacidez', '[LAB01] Anúncio lábios', '[ODO01] Anúncio odonto', 'Instagram (direct)', 'WhatsApp direto', 'Indicação', 'Google', 'Passou na clínica', 'Outro'],
+  'interesses': ['Avaliação geral', 'Toxina botulínica (botox)', 'Preenchimento', 'Bioestimulador de colágeno', 'Lábios', 'Harmonização facial', 'Odontologia (clínico geral)', 'Lentes e estética dental', 'Limpeza e prevenção', 'Outro'],
+  'etapas': [
+    {'id': 'novo', 'nome': 'Novo contato', 'botao': 'Respondeu', 'depois': 'conversa',
+     'msg': 'Oi, {nome}! Tudo bem? Aqui é da {negocio}. Que bom que você chamou sobre {interesse}. Posso te passar os horários para a sua avaliação com a Dra. Jaci?'},
+    {'id': 'conversa', 'nome': 'Conversando', 'botao': 'Marcou',
+     'msg': 'Oi, {nome}! Tenho horários para a sua avaliação com a Dra. Jaci nesta semana. Qual fica melhor pra você: manhã ou tarde?'},
+    {'id': 'marcada', 'nome': 'Avaliação marcada', 'botao': 'Compareceu',
+     'msg': 'Oi, {nome}! Passando para confirmar a sua avaliação com a Dra. Jaci {quando}. Posso confirmar o seu horário?'},
+    {'id': 'compareceu', 'nome': 'Fez a avaliação', 'botao': 'Fez procedimento',
+     'msg': 'Oi, {nome}! Foi muito bom te receber aqui na clínica. Ficou alguma dúvida sobre o que a Dra. Jaci explicou? Quer que eu reserve um horário para o seu procedimento?'},
+    {'id': 'fez', 'nome': 'Fez procedimento', 'botao': 'Retorno', 'depois': 'retorno',
+     'msg': 'Oi, {nome}! Como você está depois do procedimento? Qualquer dúvida, me chama aqui. A Dra. Jaci quer saber como você está se sentindo.'},
+    {'id': 'retorno', 'nome': 'Retorno', 'depois': 'conversa',
+     'msg': 'Oi, {nome}! Já faz alguns meses do seu procedimento. Quer que eu reserve um horário para a sua revisão com a Dra. Jaci?'},
+    {'id': 'perdido', 'nome': 'Não seguiu', 'depois': 'conversa',
+     'msg': 'Oi, {nome}! Aqui é da {negocio}. Você ainda tem interesse em {interesse}? Se quiser, te passo os horários da semana para a sua avaliação.'}],
+  'catEntradas': ['Procedimento estético', 'Odontologia', 'Avaliação', 'Retorno ou revisão', 'Outras entradas'],
+  'catEntradaCRM': 'Procedimento estético', 'catOdonto': 'Odontologia', 'regexOdonto': 'odonto|dent|limpeza',
+  'catSaidas': ['Materiais e insumos', 'Aluguel e condomínio', 'Salários e pró-labore', 'Energia, água e internet', 'Anúncios (Meta e Google)', 'Agência e marketing', 'Impostos e taxas', 'Maquininha e taxas de cartão', 'Equipamentos e manutenção', 'Cursos e congressos', 'Outras saídas'],
+  'formas': ['Pix', 'Cartão de crédito', 'Cartão de débito', 'Dinheiro', 'Parcelado', 'Boleto', 'A definir'],
+  'noticias': [
+    {'nome': 'Harmonização orofacial', 'q': 'harmonização orofacial'},
+    {'nome': 'Botox', 'q': 'toxina botulínica estética'},
+    {'nome': 'Preenchimento e bioestimulador', 'q': 'bioestimulador de colágeno OR preenchimento ácido hialurônico'},
+    {'nome': 'Odontologia estética', 'q': 'odontologia estética OR lentes de contato dental'},
+    {'nome': 'Regras do CFO e Anvisa', 'q': 'Conselho Federal de Odontologia OR Anvisa harmonização'},
+    {'nome': 'Marketing para clínicas', 'q': 'marketing clínica odontológica Instagram'}],
+  'notaNoticias': 'Notícias de portais públicos, atualizadas sozinhas a cada 3 horas. Antes de postar sobre uma delas, abra a fonte original e siga as regras do CFO.',
+  'ideiaPost': 'Gancho (rosto da Dra. nos 3 primeiros segundos): "Saiu uma notícia sobre {tema} e muita paciente vai me perguntar. Te explico em 30 segundos."\nNotícia: {titulo}\nFonte: {link}\nLembrete do CFO: sem preço, sem promoção e sem promessa de resultado.'}
+
 # 6 · bloco de promoção do Lindson com o portfólio real (a foto dele fica fora do Git)
 CASOS = os.path.join(SC, 'fotos', 'casos')
 for k, f in [('RAFAEL1', 'rafael.webp'), ('SF1', 'sf.webp'), ('PASSAPORTE1', 'passaporte-1.webp'), ('RAPOSA1', 'raposa-1.webp')]:
@@ -89,7 +129,7 @@ cine = os.path.join(SC, 'fotos', 'principal-cine.webp')
 s = s.replace('<img src="__CINE__" alt="Lindson Almeida">', f'<img src="{webp(cine)}" alt="Lindson Almeida">' if os.path.exists(cine) else '')
 
 s = s.replace('__LOGO__', uri(os.path.join(IMG, 'assinatura.jpg'), 340))
-extra = 'window.__DADOS=' + json.dumps(dados, ensure_ascii=False).replace('</', '<\\/') + ';\n' + open(os.path.join(SC, 'prototipo', 'real.js')).read() + '\n' + open(os.path.join(D, 'clinica.js')).read()
+extra = 'window.__DADOS=' + json.dumps(dados, ensure_ascii=False).replace('</', '<\\/') + ';\n' + open(os.path.join(SC, 'prototipo', 'real.js')).read() + '\n' + open(os.path.join(D, 'clinica.js')).read() + '\nwindow.__FERR=' + json.dumps(FERR, ensure_ascii=False) + ';\n' + open(os.path.join(SC, 'prototipo', 'ferramentas.js')).read()
 s = s.replace('</script>', '</script>\n<script>\n' + extra + '\n</script>', 1)
 s = s.replace('<meta charset="utf-8">\n', '', 1)
 open(os.path.join(D, 'painel-jaci.html'), 'w').write(s)
