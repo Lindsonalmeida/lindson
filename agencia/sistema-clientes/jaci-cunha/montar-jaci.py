@@ -46,17 +46,17 @@ troca("$('#cliente').onchange=e=>{cli=e.target.value;try{localStorage.setItem('p
 troca(";$('#cliente').value=cli;", ';')
 troca('<div class="avatar" title="Lindson Almeida (admin)">LA</div>', '<div class="avatar" title="Clínica Dra. Jaci Cunha">JC</div>')
 
-# 3 · dados reais da cliente (o que não tem número real fica marcado)
+# 3 · dados reais: ficam no repositório PRIVADO (CentralLindsonALmeida/dados/jaci.json), nunca aqui no público.
+#     O prototipo/real.js troca as telas de exemplo pelos dados desse arquivo; sem o arquivo, tudo aparece "a medir".
+import json
+DADOS = os.environ.get('CENTRAL_DADOS', os.path.join(D, '..', '..', '..', '..', 'centrallindsonalmeida', 'dados'))
+pj = os.path.join(DADOS, 'jaci.json')
+if os.path.exists(pj): dados = json.load(open(pj))
+else:
+    print('AVISO: sem', pj, '(clone o repositório privado ao lado deste) · o painel sai com tudo "a medir"')
+    dados = {'nome': 'Clínica Dra. Jaci Cunha', 'seg': 'Harmonização orofacial e odontologia · Zé Doca/MA', 'plano': 'Plano Master', 'inicio': 'Outubro/2026', 'atualizado': '—'}
 troca(re.search(r" jaci:\{nome:'Dra\. Jaci Cunha'.*?\]\]\},", s, re.S).group(0),
-      " jaci:{nome:'Clínica Dra. Jaci Cunha',seg:'Harmonização orofacial e odontologia · Zé Doca/MA',plano:'Plano Master: redes, conteúdo e tráfego pago',inicio:'Outubro/2026',"
-      "kpis:[['Seguidores','1.052','print de out/2026',2],['Visualizações (30 dias)','35,4 mil','print de out/2026',2],['Post da inauguração','50,6 mil','visualizações',2],['Avaliações agendadas','a medir','campanhas de novembro',2]],"
-      "canais:[['Instagram',70],['Indicação',20],['Google',10]],metas:[['Avaliações no Google (90 dias)',0,30],['Reels por semana',0,4],['Carrosséis por semana',0,1]]},")
-troca('<div class="var ${p.startsWith(\'-\')&&!r.startsWith(\'Custo\')?\'down\':\'up\'}">${p} <span>vs mês anterior</span></div>',
-      '<div class="var ${p.startsWith(\'-\')&&!r.startsWith(\'Custo\')?\'down\':\'up\'}">${p} <span>${u===2?\'\':\'vs mês anterior\'}</span></div>')
-troca(re.search(r"const ENTREGAS=\[.*?\];", s).group(0),
-      "const ENTREGAS=[['Contrato do Plano Master','PDF','26/10','entregue'],['Estratégia de vendas (24 páginas)','PDF','out/2026','entregue'],['Manual de identidade (16 páginas)','PDF','01/11','entregue'],"
-      "['Bio, destaques e Perfil do Google','Perfil','nov · sem. 1-2','em produção'],['Mini site com chat de avaliação','Link','nov · sem. 1-2','em produção'],['Campanhas A, B e C no Meta','Anúncios','nov · sem. 3-4','em produção']];")
-troca(re.search(r"const PAGT=\[.*?\];", s).group(0), "const PAGT=[['Dezembro/2026','26/12','a vencer'],['Novembro/2026','26/11','a vencer'],['Outubro/2026','26/10','a confirmar']];")
+      " jaci:{nome:'Clínica Dra. Jaci Cunha',seg:'',plano:'',inicio:'',kpis:[],canais:[],metas:[]},")
 
 # 4 · posts reais nas Aprovações e pautas da clínica em Conteúdos
 POSTS = [('post-botox.jpg', 'Carrossel', 'Botox: o que ninguém responde', 'aguardando'), ('post-preenchimento.jpg', 'Carrossel', 'Preenchimento facial natural', 'aguardando'),
@@ -79,7 +79,7 @@ s = re.sub(r'<a href="#leads" data-v="leads">.*?</a>', '', s, count=1, flags=re.
 troca("const V={", "const V=window.__V={"); troca("const T={", "const T=window.__T={")
 troca("function toast(t){", "window.__toast=t=>toast(t);function toast(t){")
 troca("const f=$('#novo-ped');", "if(window.__pos)window.__pos(view);const f=$('#novo-ped');")
-troca("addEventListener('hashchange',render);render();", "window.__render=render;addEventListener('hashchange',render);setTimeout(render,0);")
+troca("addEventListener('hashchange',render);render();", "window.__render=render;window.__h={BASE,APROV,PEDIDOS,bomDia,chip,cli:()=>cli};addEventListener('hashchange',render);setTimeout(render,0);")
 
 # 6 · bloco de promoção do Lindson com o portfólio real (a foto dele fica fora do Git)
 CASOS = os.path.join(SC, 'fotos', 'casos')
@@ -89,7 +89,8 @@ cine = os.path.join(SC, 'fotos', 'principal-cine.webp')
 s = s.replace('<img src="__CINE__" alt="Lindson Almeida">', f'<img src="{webp(cine)}" alt="Lindson Almeida">' if os.path.exists(cine) else '')
 
 s = s.replace('__LOGO__', uri(os.path.join(IMG, 'assinatura.jpg'), 340))
-s = s.replace('</script>', '</script>\n<script>\n' + open(os.path.join(D, 'clinica.js')).read() + '\n</script>', 1)
+extra = 'window.__DADOS=' + json.dumps(dados, ensure_ascii=False).replace('</', '<\\/') + ';\n' + open(os.path.join(SC, 'prototipo', 'real.js')).read() + '\n' + open(os.path.join(D, 'clinica.js')).read()
+s = s.replace('</script>', '</script>\n<script>\n' + extra + '\n</script>', 1)
 s = s.replace('<meta charset="utf-8">\n', '', 1)
 open(os.path.join(D, 'painel-jaci.html'), 'w').write(s)
 print('painel-jaci.html', round(len(s) / 1024), 'KB')

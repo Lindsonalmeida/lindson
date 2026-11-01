@@ -56,6 +56,12 @@ Use `npx wrangler@3 pages dev publico --kv CONTAS` com um `.dev.vars` (fora do G
 - cookie falsificado é recusado;
 - sair funciona.
 
+## Dados reais dos clientes
+- **Onde ficam:** no repositório privado, em `CentralLindsonALmeida/dados/<cliente>.json`, nunca aqui.
+- **Como entram no painel:** o `montar-<cliente>.py` lê esse arquivo (clone o privado em `/home/user/centrallindsonalmeida`, ao lado deste) e o `prototipo/real.js` troca as telas de exemplo pelos dados.
+- **O que faltar** aparece como "a medir".
+- **Para atualizar:** edite o JSON, rode os scripts de montagem e envie para o privado.
+
 ## Novo cliente
 1. Crie `../<cliente>/montar-<cliente>.py` a partir do `montar-jaci.py`.
 2. Acrescente o cliente nas listas do `montar-site.py`.
