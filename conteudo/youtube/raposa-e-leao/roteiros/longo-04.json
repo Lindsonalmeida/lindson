@@ -1,0 +1,570 @@
+{
+ "id": "longo-04",
+ "canal": "raposa",
+ "formato": "longo",
+ "titulo": "Maquiavel: 10 regras de guerra que ninguém lê",
+ "legenda": "Maquiavel não escreveu só O Príncipe. Em 1521 ele publicou A Arte da Guerra, um manual em forma de conversa que termina com uma lista de regras gerais para vencer disputas. Neste vídeo você conhece as 10 regras mais úteis desse livro, citadas com fidelidade.\n\nE vê como cada uma funciona hoje: no trabalho, nos negócios, numa negociação ou numa briga de família. Mais a guerra que o próprio Maquiavel perdeu em 1512, a regra que ele quebrou e a regra que vale por todas as outras.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📜 Fonte: Nicolau Maquiavel, A Arte da Guerra (livro VII, regras gerais e conclusão); O Príncipe (caps. VI, XII, XIII, XIV, XXI, XXIII e XXV); Discursos sobre a primeira década de Tito Lívio (livro II, cap. 10; livro III, cap. 9).\n\n🦊🦁 Raposa e Leão: Maquiavel e as leis do poder aplicadas à vida real.\n\n▶️ Playlist recomendada: Maquiavel na prática\n\n#Maquiavel #ArteDaGuerra #Estratégia #Negócios #DesenvolvimentoPessoal",
+ "comentario": "📌 Das 10 regras de guerra de Maquiavel, qual você mais quebra hoje: contar o plano cedo, pular o treino ou ficar sem reserva? Continue na playlist Maquiavel na prática ⬇️",
+ "titulo_tela": {
+  "sup": "RAPOSA E LEÃO",
+  "txt": "As regras<br>da guerra",
+  "dur": 3.2
+ },
+ "capa": {
+  "A": "Vença sem lutar",
+  "B": "Manual esquecido",
+  "gravA": "hist/alexander_the_great.jpg",
+  "gravB": "maquiavel.jpg"
+ },
+ "cenas": [
+  {
+   "gravura": "acervo/albrecht_altdorfer_schlacht_bei_issus_alte_pinak.jpg",
+   "mov": "in",
+   "txt": "O homem que escreveu o manual de guerra mais lido do Renascimento perdeu a única guerra que organizou. E foi depois dessa derrota que ele escreveu as regras que você vai ouvir hoje."
+  },
+  {
+   "gravura": "maquiavel.jpg",
+   "mov": "out",
+   "txt": "Esse homem é Nicolau Maquiavel. Todo mundo conhece O Príncipe. Quase ninguém sabe que ele escreveu um livro inteiro sobre guerra, e que no fim desse livro existe uma lista de regras gerais."
+  },
+  {
+   "gravura": "acervo/batalha_ostia_raffaello.jpg",
+   "mov": "esq",
+   "txt": "Ele escreveu para generais. Mas essas regras servem para qualquer disputa: uma vaga de emprego, uma negociação, um concorrente que abriu do lado da sua loja, até uma briga de família por herança."
+  },
+  {
+   "gravura": "borgia.jpg",
+   "mov": "dir",
+   "txt": "Eu separei as dez mais úteis. E tem duas coisas que eu vou te contar no caminho. A primeira: qual foi a guerra que o próprio Maquiavel perdeu, e qual dessas regras ele quebrou."
+  },
+  {
+   "gravura": "hist/alexander_the_great.jpg",
+   "mov": "cima",
+   "txt": "A segunda, a maior, fica para o final: tem uma regra no livro que vale por todas as outras juntas. Se você só lembrar de uma coisa deste vídeo, vai ser dela."
+  },
+  {
+   "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+   "mov": "out",
+   "txt": "Volta comigo para Florença. O livro se chama A Arte da Guerra. Saiu impresso em 1521, e foi um dos poucos livros de Maquiavel publicados enquanto ele ainda estava vivo.",
+   "cap": {
+    "sup": "LIÇÃO 1",
+    "txt": "O manual que ninguém lê"
+   }
+  },
+  {
+   "gravura": "acervo/embaixadores_holbein.jpg",
+   "mov": "in",
+   "txt": "O Príncipe e os Discursos, os dois mais famosos, só foram impressos depois da morte dele. Ou seja: esse manual de guerra foi o livro que Maquiavel quis mostrar ao mundo com o próprio nome."
+  },
+  {
+   "gravura": "acervo/castiglione_raffaello.jpg",
+   "mov": "dir",
+   "txt": "E ele escreveu em forma de conversa. A cena se passa num jardim de Florença, os Orti Oricellari, da família Rucellai, onde jovens se reuniam para discutir política e história antiga."
+  },
+  {
+   "gravura": "hist/marcus_aurelius.jpg",
+   "mov": "esq",
+   "txt": "Quem fala quase o tempo todo é um comandante experiente, Fabrizio Colonna, um militar de verdade daquela época. Os jovens perguntam, ele responde, e assim o livro vai do recrutamento até a batalha."
+  },
+  {
+   "gravura": "hist/marcus_equestre.jpg",
+   "mov": "cima",
+   "txt": "São sete livros. E no sétimo, quando a conversa está acabando, Fabrizio faz uma coisa que todo bom professor faz: ele resume tudo numa lista curta de regras gerais.",
+   "verso": "Quero deixar-vos algumas regras gerais, que vos serão muito familiares.",
+   "ref": "A ARTE DA GUERRA, LIVRO VII"
+  },
+  {
+   "gravura": "hist/bonfire_of_the_vanities.jpg",
+   "mov": "in",
+   "txt": "É dessa lista que vêm as regras deste vídeo. Eu vou citar cada uma com fidelidade, em português simples, e depois mostrar como ela funciona hoje, fora do campo de batalha."
+  },
+  {
+   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "mov": "esq",
+   "txt": "Antes, um aviso que Maquiavel daria: regra de disputa serve para se proteger e para vencer com inteligência. Não é para destruir pessoas. Quem usa estratégia para pisar nos outros cria inimigos que não precisava."
+  },
+  {
+   "gravura": "acervo/batalha_ponte_milvio_raffaello.jpg",
+   "mov": "out",
+   "txt": "Regra número um, a mais simples de todas: o que ajuda o inimigo te prejudica, e o que te ajuda prejudica o inimigo.",
+   "cap": {
+    "sup": "LIÇÃO 2",
+    "txt": "Quem ganha com isso?"
+   },
+   "verso": "O que ajuda o inimigo te prejudica; o que te ajuda prejudica o inimigo.",
+   "ref": "A ARTE DA GUERRA, LIVRO VII"
+  },
+  {
+   "gravura": "acervo/sermao_bruegel.jpg",
+   "mov": "cima",
+   "txt": "Parece óbvio. Mas repara quantas decisões a gente toma sem fazer a pergunta mais básica de qualquer disputa: no fim das contas, quem sai fortalecido com isso?"
+  },
+  {
+   "gravura": "acervo/embaixadores_holbein.jpg",
+   "mov": "dir",
+   "txt": "Um exemplo: você dá um desconto enorme para fechar uma venda rápida. O cliente ganha. Mas quem mais ganha? Talvez o concorrente, porque agora o mercado inteiro aprende a esperar aquele preço."
+  },
+  {
+   "gravura": "acervo/multidao_bruegel.jpg",
+   "mov": "in",
+   "txt": "Ou no trabalho: você reclama do chefe no grupo da empresa. Na hora alivia. Mas quem ganha com aquela mensagem? Às vezes é o colega que quer a sua vaga e guarda o print."
+  },
+  {
+   "gravura": "hist/caracalla.jpg",
+   "mov": "out",
+   "txt": "Então a primeira regra vira uma pergunta que cabe no bolso. Antes de agir numa disputa, pergunte: isso me fortalece, ou fortalece quem disputa comigo?"
+  },
+  {
+   "gravura": "hist/ferdinand_ii_of_aragon.jpg",
+   "mov": "esq",
+   "txt": "Regra número dois: nenhum plano é melhor do que aquele que fica escondido do adversário até você executar.",
+   "verso": "Nenhum plano é melhor do que aquele que fica escondido do inimigo até ser executado.",
+   "ref": "A ARTE DA GUERRA, LIVRO VII"
+  },
+  {
+   "gravura": "acervo/ferdinand_of_aragon_isabella_of_castile.jpg",
+   "mov": "dir",
+   "txt": "Fernando de Aragão, um rei que Maquiavel admirava e temia, era mestre nisso. No capítulo vinte e um de O Príncipe, ele conta como Fernando mantinha todos ocupados e surpresos com novas empreitadas."
+  },
+  {
+   "gravura": "acervo/embaixadores_holbein.jpg",
+   "mov": "cima",
+   "txt": "Hoje isso vale para lançamento de produto, para troca de emprego, para negociação de salário. Quem anuncia o que vai fazer dá ao outro lado o presente mais valioso de uma disputa: tempo para se preparar."
+  },
+  {
+   "gravura": "lorenzo.jpg",
+   "mov": "out",
+   "txt": "Mas atenção: esconder o plano não é mentir. É escolher a hora de revelar. Muita ideia boa morre porque foi contada cedo demais, para gente demais, antes de estar pronta para andar sozinha."
+  },
+  {
+   "gravura": "acervo/beijo_judas_giotto.jpg",
+   "mov": "in",
+   "txt": "E repara que a primeira e a segunda regra conversam. Quando você conta o plano antes da hora, quem é que ganha? Exatamente. Quem disputa com você."
+  },
+  {
+   "gravura": "acervo/castiglione_raffaello.jpg",
+   "mov": "dir",
+   "txt": "Pensa aí: qual plano seu você contou cedo demais e alguém atrapalhou? Ou copiou? Conta nos comentários. Eu leio, e muita gente vai se reconhecer na sua história.",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "Contou cedo e se deu mal?"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "acervo/julio_ii_raffaello.jpg",
+   "mov": "esq",
+   "txt": "Regra número três: saber reconhecer a ocasião na guerra e agarrá-la ajuda mais do que qualquer outra coisa.",
+   "cap": {
+    "sup": "LIÇÃO 3",
+    "txt": "A porta que abre uma vez"
+   },
+   "verso": "Saber conhecer a ocasião e agarrá-la ajuda mais do que qualquer outra coisa.",
+   "ref": "A ARTE DA GUERRA, LIVRO VII"
+  },
+  {
+   "gravura": "hist/pope_julius_ii.jpg",
+   "mov": "cima",
+   "txt": "Maquiavel repete essa ideia em vários livros. Em O Príncipe, no capítulo seis, ele diz que os grandes fundadores só brilharam porque a ocasião apareceu. Mas sem a capacidade deles, a ocasião teria passado em vão."
+  },
+  {
+   "gravura": "hist/moses.jpg",
+   "mov": "in",
+   "txt": "Um dos exemplos que ele usa é Moisés. O povo de Israel precisava estar oprimido no Egito para querer segui-lo. A ocasião deu a matéria, mas foi a virtude dele que deu forma a essa matéria.",
+   "verso": "Sem a ocasião, a virtude se apagaria; sem a virtude, a ocasião viria em vão.",
+   "ref": "O PRÍNCIPE, CAP. VI"
+  },
+  {
+   "gravura": "acervo/smk_efter_regn_skovgaard.jpg",
+   "mov": "esq",
+   "txt": "Traduzindo para hoje: a sorte traz a porta, mas quem passa por ela é quem já estava pronto antes. Quando a oportunidade aparece, não dá mais tempo de se preparar."
+  },
+  {
+   "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+   "mov": "out",
+   "txt": "Então como ficar pronto para a ocasião? Primeiro, prepare-se antes: estude, junte reserva, treine a habilidade. Segundo, observe o que mudou ao seu redor, porque toda ocasião nasce de uma mudança."
+  },
+  {
+   "gravura": "acervo/multidao_bruegel.jpg",
+   "mov": "cima",
+   "txt": "E terceiro: quando a porta abrir, aja rápido. Oportunidade que espera demais vira oportunidade de outra pessoa. Ela não fica parada te esperando decidir."
+  },
+  {
+   "gravura": "hist/arco_severo.jpg",
+   "mov": "dir",
+   "txt": "Regra número quatro, a minha preferida: a natureza gera poucos homens valentes, e o esforço e o treino fazem muitos.",
+   "cap": {
+    "sup": "LIÇÃO 4",
+    "txt": "Treino vence talento"
+   },
+   "verso": "A natureza gera poucos homens valentes; o esforço e o treino fazem muitos.",
+   "ref": "A ARTE DA GUERRA, LIVRO VII"
+  },
+  {
+   "gravura": "acervo/smk_spaakone_wijck.jpg",
+   "mov": "in",
+   "txt": "E logo em seguida ele completa: na guerra, a disciplina pode mais do que a fúria. Para Maquiavel, não existe coragem de um dia que substitua a repetição de todos os dias.",
+   "verso": "Na guerra, a disciplina pode mais do que a fúria.",
+   "ref": "A ARTE DA GUERRA, LIVRO VII"
+  },
+  {
+   "gravura": "hist/marcus_aurelius.jpg",
+   "mov": "out",
+   "txt": "Ele leva isso tão a sério que, em O Príncipe, no capítulo catorze, diz que o governante deve se exercitar para a guerra mais na paz do que na própria guerra.",
+   "verso": "Nunca deve tirar o pensamento do exercício da guerra, e na paz deve exercitá-lo mais do que na guerra.",
+   "ref": "O PRÍNCIPE, CAP. XIV"
+  },
+  {
+   "gravura": "acervo/smk_uvejr_gaard_juel.jpg",
+   "mov": "esq",
+   "txt": "Muita gente começa um projeto movida por raiva ou empolgação. Funciona por uma semana. Depois a empolgação passa, a raiva esfria, e só a disciplina segura o projeto de pé."
+  },
+  {
+   "gravura": "hist/marcus_equestre.jpg",
+   "mov": "dir",
+   "txt": "E essa é talvez a regra mais encorajadora do livro inteiro. Se a natureza faz poucos fortes e o treino faz muitos, então quase tudo pode ser aprendido: vender, falar em público, liderar, negociar."
+  },
+  {
+   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "mov": "cima",
+   "txt": "O que separa as pessoas, quase sempre, não é o dom de nascença. É a quantidade de vezes que cada uma repetiu a coisa chata quando ninguém estava olhando."
+  },
+  {
+   "gravura": "hist/commodus.jpg",
+   "mov": "out",
+   "txt": "Tá comigo até aqui? Já são quatro regras. Se você tá anotando, ótimo. Se não tá, pausa um segundo e pega um papel, porque agora vem a história que eu te prometi lá no começo.",
+   "interage": {
+    "tipo": "checkin",
+    "txt": "Quatro regras. Tá anotando?"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
+   "mov": "in",
+   "txt": "Antes de escrever sobre guerra, Maquiavel tentou fazer uma. Como secretário da república de Florença, ele convenceu a cidade a criar uma milícia de cidadãos, em vez de pagar soldados de aluguel.",
+   "cap": {
+    "sup": "LIÇÃO 5",
+    "txt": "A guerra que ele perdeu"
+   }
+  },
+  {
+   "gravura": "borgia.jpg",
+   "mov": "dir",
+   "txt": "A ideia vinha da experiência. Ele tinha visto mercenários que recebiam e não lutavam. Em O Príncipe, nos capítulos doze e treze, ele diz que essas tropas são inúteis e perigosas.",
+   "verso": "As armas mercenárias e auxiliares são inúteis e perigosas.",
+   "ref": "O PRÍNCIPE, CAP. XII"
+  },
+  {
+   "gravura": "hist/girolamo_savonarola.jpg",
+   "mov": "esq",
+   "txt": "A milícia teve um primeiro sucesso: participou do cerco que fez Pisa se render a Florença em 1509. Maquiavel estava orgulhoso. Parecia a prova de que a ideia dele funcionava."
+  },
+  {
+   "gravura": "hist/ferdinand_ii_of_aragon.jpg",
+   "mov": "cima",
+   "txt": "Mas em 1512 veio o teste de verdade. Tropas espanholas, enviadas pela liga do papa com Fernando de Aragão, marcharam sobre a cidade de Prato, bem perto de Florença."
+  },
+  {
+   "gravura": "acervo/prisao_cristo_caravaggio.jpg",
+   "mov": "in",
+   "txt": "A milícia de Maquiavel não aguentou. Os soldados recuaram, Prato foi saqueada, a república de Florença caiu e os Médici voltaram ao poder. Maquiavel perdeu o cargo, e logo depois foi preso."
+  },
+  {
+   "gravura": "acervo/batalha_ponte_milvio_raffaello.jpg",
+   "mov": "esq",
+   "txt": "E aí está a resposta que eu te prometi. Ele quebrou justamente a regra quatro, a do treino. Era uma milícia nova, de cidadãos com pouco preparo, colocada contra soldados experientes de carreira."
+  },
+  {
+   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "mov": "out",
+   "txt": "Ele estava certo na ideia, ter armas próprias. Mas faltou tempo de treino, e a disciplina ainda não pesava mais do que o medo. Anos depois, ele pôs essa lição no papel."
+  },
+  {
+   "gravura": "acervo/botticelli_giuliano_de_medici_accademia_carrara.jpg",
+   "mov": "cima",
+   "txt": "Isso é o que eu mais admiro nele: ele não escondeu a derrota. Pegou o próprio fracasso e transformou em regra. Quem escreve sobre o próprio erro ensina mais do que quem só conta vitória."
+  },
+  {
+   "gravura": "hist/hannibal.jpg",
+   "mov": "dir",
+   "txt": "Agora a regra número cinco: dificilmente é vencido quem sabe conhecer as próprias forças e as forças do inimigo.",
+   "verso": "Dificilmente é vencido quem sabe conhecer as próprias forças e as do inimigo.",
+   "ref": "A ARTE DA GUERRA, LIVRO VII"
+  },
+  {
+   "gravura": "acervo/batalha_ostia_raffaello.jpg",
+   "mov": "in",
+   "txt": "A maioria das derrotas nasce de uma de duas ilusões: achar que você é mais forte do que é, ou achar que o outro é mais fraco do que parece. Prato foi as duas coisas ao mesmo tempo."
+  },
+  {
+   "gravura": "acervo/embaixadores_holbein.jpg",
+   "mov": "out",
+   "txt": "Então, antes de entrar numa disputa, responda três perguntas. Quanto tempo e dinheiro você aguenta? Quanto o outro lado aguenta? E quem precisa mais vencer?"
+  },
+  {
+   "gravura": "acervo/carlos_viii_florenca_bezzuoli.jpg",
+   "mov": "esq",
+   "txt": "Essas três respostas dizem mais sobre o resultado do que a coragem de qualquer um dos lados. Quem precisa mais vencer, quase sempre, aceita qualquer acordo primeiro."
+  },
+  {
+   "gravura": "acervo/the_battle_of_alexander_at_issus_by_albrecht_alt.jpg",
+   "mov": "dir",
+   "txt": "E isso leva direto à regra número seis, sobre os mantimentos. Maquiavel diz que é melhor vencer o inimigo pela fome do que pelo ferro, porque na batalha a sorte pesa mais do que a virtude.",
+   "verso": "É melhor vencer o inimigo pela fome do que pelo ferro; na vitória pelo ferro, a sorte pode mais que a virtude.",
+   "ref": "A ARTE DA GUERRA, LIVRO VII"
+  },
+  {
+   "gravura": "hist/hannibal.jpg",
+   "mov": "cima",
+   "txt": "Pensa em Aníbal na Itália. Os romanos tentaram enfrentá-lo de frente e perderam. Então Fábio Máximo, o Contemporizador, mudou o jogo: evitava a batalha e cansava o inimigo. Maquiavel comenta esse caso nos Discursos.",
+   "ref": "DISCURSOS, LIVRO III, CAP. 9",
+   "verso": "Fábio procedia com cautela, e o tempo era favorável a esse modo."
+  },
+  {
+   "gravura": "acervo/smk_efter_stormen_friedrich.jpg",
+   "mov": "out",
+   "txt": "Hoje, mantimento é caixa, é tempo, é saúde, é gente do seu lado. Muitas disputas não são perdidas para o adversário. São perdidas por falta de fôlego para continuar."
+  },
+  {
+   "gravura": "acervo/multidao_bruegel.jpg",
+   "mov": "in",
+   "txt": "Quem abre um negócio sem reserva para os primeiros meses está indo para a guerra sem pão. Pode ter a melhor ideia do mundo, e mesmo assim perder sem nenhum concorrente encostar nele."
+  },
+  {
+   "gravura": "maquiavel.jpg",
+   "mov": "dir",
+   "txt": "Se essas regras já te fizeram pensar diferente sobre alguma disputa da sua vida, segue o canal e abre a playlist Maquiavel na prática. Agora vem a parte em que o plano dá errado.",
+   "cta": "Segue o <b>Raposa e Leão</b><br>e veja a playlist <b>Maquiavel na prática</b>",
+   "interage": {
+    "tipo": "segue",
+    "txt": "Segue pra próxima regra"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "acervo/smk_storm_bakhuizen.jpg",
+   "mov": "esq",
+   "txt": "Regra número sete, e essa dói no orgulho: mude o plano assim que perceber que o inimigo já o descobriu.",
+   "cap": {
+    "sup": "LIÇÃO 6",
+    "txt": "Quando o plano vaza"
+   },
+   "verso": "Muda de plano quando perceberes que o inimigo o previu.",
+   "ref": "A ARTE DA GUERRA, LIVRO VII"
+  },
+  {
+   "gravura": "acervo/smk_skibbrud_dahl.jpg",
+   "mov": "cima",
+   "txt": "Insistir num caminho que o outro já previu é andar direto para a armadilha. E aqui mora um erro muito humano: a gente se apega ao plano porque gastou tempo e orgulho nele."
+  },
+  {
+   "gravura": "hist/pope_alexander_vi.jpg",
+   "mov": "in",
+   "txt": "Mudar de rota não é fraqueza. Em O Príncipe, no capítulo vinte e cinco, Maquiavel diz que é feliz quem ajusta o modo de agir aos tempos, e infeliz quem não consegue mudar quando os tempos mudam.",
+   "verso": "É feliz quem combina o seu modo de proceder com a qualidade dos tempos.",
+   "ref": "O PRÍNCIPE, CAP. XXV"
+  },
+  {
+   "gravura": "acervo/smk_uvejr_dietrich.jpg",
+   "mov": "esq",
+   "txt": "E ele acrescenta, ainda no livro sete: coisas novas e repentinas assustam os exércitos. As conhecidas, quase não assustam. Por isso ele manda acostumar a tropa com pequenos confrontos antes do grande."
+  },
+  {
+   "gravura": "acervo/smk_havn_bakhuizen.jpg",
+   "mov": "out",
+   "txt": "Na vida real: teste a sua ideia pequeno antes de apostar alto. Um produto com poucos clientes, um projeto com um mês de prazo. O pequeno te ensina sem quebrar você."
+  },
+  {
+   "gravura": "acervo/leao_x_raffaello.jpg",
+   "mov": "cima",
+   "txt": "Regra número oito, uma das mais inteligentes do livro: consulte muitos sobre o que você deveria fazer, e converse com poucos sobre o que você vai fazer de fato.",
+   "verso": "Aconselha-te com muitos sobre o que deves fazer; o que depois decidires fazer, comunica a poucos.",
+   "ref": "A ARTE DA GUERRA, LIVRO VII"
+  },
+  {
+   "gravura": "acervo/embaixadores_holbein.jpg",
+   "mov": "dir",
+   "txt": "Ouvir muitos te dá visão. Contar o plano a muitos te tira a surpresa. São duas coisas diferentes, e quase todo mundo confunde as duas."
+  },
+  {
+   "gravura": "lorenzo.jpg",
+   "mov": "in",
+   "txt": "Os Médici entendiam isso como ninguém. Ouviam artistas, banqueiros, filósofos, embaixadores. Mas as decisões que importavam eram tomadas num círculo muito pequeno."
+  },
+  {
+   "gravura": "acervo/multidao_bruegel.jpg",
+   "mov": "out",
+   "txt": "Pensa numa empresa que discute uma mudança grande com todo mundo e anuncia antes de estar pronta. O concorrente fica sabendo, o mercado reage, e a vantagem some antes do primeiro passo."
+  },
+  {
+   "gravura": "acervo/castiglione_raffaello.jpg",
+   "mov": "esq",
+   "txt": "Então, a fórmula: escute aberto, decida fechado. E repara que a regra oito protege a regra dois. É assim que um plano fica escondido sem você precisar desconfiar de todo mundo."
+  },
+  {
+   "gravura": "acervo/julio_ii_raffaello.jpg",
+   "mov": "dir",
+   "txt": "Em O Príncipe, no capítulo vinte e três, ele vai além: o governante sábio escolhe poucas pessoas que podem dizer a verdade a ele. E só sobre o que ele perguntar.",
+   "verso": "O príncipe prudente escolhe homens sábios, e só a eles dá liberdade de lhe dizer a verdade.",
+   "ref": "O PRÍNCIPE, CAP. XXIII"
+  },
+  {
+   "gravura": "acervo/botticelli_giuliano_de_medici_accademia_carrara.jpg",
+   "mov": "cima",
+   "txt": "Você conhece alguém que conta todos os planos para todo mundo e depois não entende por que nada sai do papel? Manda esse vídeo para essa pessoa. É um favor que você faz.",
+   "interage": {
+    "tipo": "manda",
+    "txt": "Manda pra quem conta tudo"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "acervo/albrecht_altdorfer_schlacht_bei_issus_alte_pinak.jpg",
+   "mov": "out",
+   "txt": "Regra número nove: os acidentes repentinos são difíceis de remediar; os que foram pensados antes se resolvem com facilidade.",
+   "cap": {
+    "sup": "LIÇÃO 7",
+    "txt": "O imprevisto e o dinheiro"
+   },
+   "verso": "Os acidentes repentinos com dificuldade se remedeiam; os pensados antes, com facilidade.",
+   "ref": "A ARTE DA GUERRA, LIVRO VII"
+  },
+  {
+   "gravura": "hist/caracalla.jpg",
+   "mov": "in",
+   "txt": "É por isso que os bons estrategistas gastam mais tempo imaginando o que pode dar errado do que sonhando com o que vai dar certo. Parece pessimismo, mas é o contrário. É paz."
+  },
+  {
+   "gravura": "acervo/smk_stormflod_vernet.jpg",
+   "mov": "dir",
+   "txt": "Em O Príncipe, ele usa a imagem do rio. A fortuna é como um rio que, quando enche, alaga tudo. Mas, nos tempos calmos, dá para construir diques e barragens.",
+   "verso": "Nos tempos calmos, os homens podem fazer barragens e diques.",
+   "ref": "O PRÍNCIPE, CAP. XXV"
+  },
+  {
+   "gravura": "hist/marcus_equestre.jpg",
+   "mov": "esq",
+   "txt": "Um exercício simples, antes de qualquer projeto importante. Escreva o que pode dar errado. Para cada risco, um plano B. E escolha um sinal que te avise cedo de que algo saiu do trilho."
+  },
+  {
+   "gravura": "hist/bonfire_of_the_vanities.jpg",
+   "mov": "cima",
+   "txt": "Com isso, o acidente repentino vira problema previsto. E problema previsto, como diz a regra, se resolve com facilidade. Você não elimina o risco, mas tira dele o susto."
+  },
+  {
+   "gravura": "acervo/ferdinand_of_aragon_isabella_of_castile.jpg",
+   "mov": "in",
+   "txt": "E chegamos à regra número dez, sobre o que realmente sustenta uma disputa. Maquiavel lista quatro coisas: gente, ferro, dinheiro e pão. Esse é o nervo da guerra."
+  },
+  {
+   "gravura": "acervo/the_battle_of_alexander_at_issus_by_albrecht_alt.jpg",
+   "mov": "esq",
+   "txt": "Mas ele diz que as duas primeiras valem mais, porque gente e ferro encontram dinheiro e pão, e dinheiro e pão não encontram gente e ferro.",
+   "verso": "Homens, ferro, dinheiro e pão são o nervo da guerra; mas os dois primeiros são mais necessários.",
+   "ref": "A ARTE DA GUERRA, LIVRO VII"
+  },
+  {
+   "gravura": "borgia.jpg",
+   "mov": "out",
+   "txt": "Nos Discursos, ele repete com outras palavras: o dinheiro não é o nervo da guerra, como diz a opinião comum. Bons soldados acham ouro, mas o ouro nem sempre acha bons soldados.",
+   "verso": "Bons soldados acham o ouro; mas o ouro nem sempre acha bons soldados.",
+   "ref": "DISCURSOS, LIVRO II, CAP. 10"
+  },
+  {
+   "gravura": "acervo/embaixadores_holbein.jpg",
+   "mov": "cima",
+   "txt": "Para um negócio, isso muda a ordem das prioridades. Primeiro, as pessoas certas e as ferramentas certas. Com gente boa e bons meios, o dinheiro aparece. Com dinheiro e gente errada, ele some rapidinho."
+  },
+  {
+   "gravura": "lorenzo.jpg",
+   "mov": "dir",
+   "txt": "E para a sua vida também. A sua habilidade e as pessoas leais ao seu lado são o seu ferro e a sua gente. Isso ninguém te tira numa crise. O dinheiro pode ir e voltar."
+  },
+  {
+   "gravura": "cesar.jpg",
+   "mov": "in",
+   "txt": "E você, em qual dessas dez regras você mais tropeça hoje? A do plano contado cedo, a do treino ou a da reserva? Escreve o número dela aqui nos comentários.",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "Qual regra você mais quebra?"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "hist/moses.jpg",
+   "mov": "out",
+   "txt": "Agora a promessa maior, a regra que vale por todas as outras. Repara numa coisa: as dez regras têm um ponto em comum. Todas favorecem quem pensa no longo prazo.",
+   "cap": {
+    "sup": "LIÇÃO 8",
+    "txt": "A regra que vale por todas"
+   }
+  },
+  {
+   "gravura": "acervo/batalha_ponte_milvio_raffaello.jpg",
+   "mov": "esq",
+   "txt": "Esconder o plano, guardar mantimentos, treinar antes, prever o imprevisto, investir em gente. São atitudes de quem quer vencer a guerra, e não apenas ganhar uma batalha bonita."
+  },
+  {
+   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "mov": "dir",
+   "txt": "E por trás de todas está a ideia que Maquiavel defende a vida inteira: ter armas próprias. Não depender da sorte, nem da boa vontade dos outros, para se defender."
+  },
+  {
+   "gravura": "acervo/batalha_ponte_milvio_raffaello.jpg",
+   "mov": "cima",
+   "txt": "Em O Príncipe, no capítulo treze, ele é direto: sem armas próprias, nenhum principado está seguro. Fica inteiramente nas mãos da sorte, porque não tem força para se defender na adversidade.",
+   "verso": "Sem armas próprias, nenhum principado está seguro; fica todo entregue à fortuna.",
+   "ref": "O PRÍNCIPE, CAP. XIII"
+  },
+  {
+   "gravura": "hist/hannibal.jpg",
+   "mov": "out",
+   "txt": "Essa é a regra que vale por todas. Treino é arma própria. Reserva é arma própria. Gente leal é arma própria. Um plano guardado é arma própria. Tudo aponta para o mesmo lugar."
+  },
+  {
+   "gravura": "acervo/carlos_viii_florenca_bezzuoli.jpg",
+   "mov": "in",
+   "txt": "Arma própria, hoje, é a sua habilidade, a sua carteira de clientes, a sua reserva de dinheiro, a sua reputação. Se tudo depende de um único chefe, de um único cliente, ou de uma única plataforma, a sua arma é emprestada."
+  },
+  {
+   "gravura": "maquiavel.jpg",
+   "mov": "dir",
+   "txt": "E quem vive de arma emprestada perde a disputa no dia em que o dono pede a arma de volta. Foi isso que Maquiavel aprendeu em Prato, do jeito mais doloroso possível."
+  },
+  {
+   "gravura": "hist/marcus_equestre.jpg",
+   "mov": "esq",
+   "txt": "E sabe como o livro termina? Fabrizio, já velho, lamenta que a sorte nunca lhe deu um estado para pôr essas ideias em prática. É Maquiavel falando de si mesmo pela boca do personagem."
+  },
+  {
+   "gravura": "hist/bonfire_of_the_vanities.jpg",
+   "mov": "cima",
+   "txt": "Mas logo em seguida vem uma frase cheia de esperança. Ele diz que a Itália parece ter nascido para ressuscitar as coisas mortas, como já fez com a poesia, a pintura e a escultura.",
+   "verso": "Esta província parece nascida para ressuscitar as coisas mortas, como se viu na poesia, na pintura e na escultura.",
+   "ref": "A ARTE DA GUERRA, LIVRO VII"
+  },
+  {
+   "gravura": "acervo/botticelli_giuliano_de_medici_accademia_carrara.jpg",
+   "mov": "in",
+   "txt": "Pensa no peso disso. Um homem que perdeu o cargo, foi preso e viu a sua milícia fugir termina o livro dizendo que o que está morto pode voltar. É a última lição: derrota não é fim de linha."
+  },
+  {
+   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "mov": "esq",
+   "txt": "Resumindo as dez: veja quem ganha, esconda o plano, agarre a ocasião, treine, meça as forças, guarde mantimentos, mude o plano descoberto, ouça muitos e decida com poucos, preveja o imprevisto e invista em gente."
+  },
+  {
+   "gravura": "hist/alexander_the_great.jpg",
+   "mov": "out",
+   "txt": "E por trás de todas, construa as suas armas próprias. Quem planeja resolve fácil. Quem improvisa paga caro. Isso valia para Florença em 1521 e vale para a sua vida agora."
+  },
+  {
+   "gravura": "lorenzo.jpg",
+   "mov": "cima",
+   "txt": "No próximo vídeo da playlist Maquiavel na prática, você vai ver o livro de Maquiavel que quase ninguém lê, e que mostra um lado dele que não aparece em O Príncipe. Até a próxima lição, raposa.",
+   "cta": "Próximo: o Maquiavel <b>que ninguém conhece</b>",
+   "selo": "RAPOSA<br>E LEÃO"
+  }
+ ]
+}
