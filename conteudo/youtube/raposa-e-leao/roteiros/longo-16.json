@@ -38,9 +38,10 @@
    "txt": "A segunda: um rei escreveu um livro inteiro chamado Anti-Maquiavel, dizendo que aquilo era uma vergonha. Meses depois, esse mesmo rei fez exatamente o que condenava. Daqui a pouco você descobre quem foi."
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel.jpg",
    "mov": "cima",
-   "txt": "E a terceira: o que um homem arruinado, expulso do emprego e com os ombros machucados fazia toda noite, sozinho, numa casinha no campo? A resposta mudou a história do pensamento político."
+   "txt": "E a terceira: o que um homem arruinado, expulso do emprego e com os ombros machucados fazia toda noite, sozinho, numa casinha no campo? A resposta mudou a história do pensamento político.",
+   "gravura_original": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
   },
   {
    "gravura": "acervo/multidao_bruegel.jpg",
@@ -133,9 +134,10 @@
    "txt": "Ele ainda vai a Roma, ao imperador Maximiliano e de novo à França. E em cada lugar vê a mesma coisa: quem decide é quem tem força, dinheiro e coragem de agir na hora certa."
   },
   {
-   "gravura": "acervo/rendicao_granada_pradilla.jpg",
+   "gravura": "hist/ferdinand_ii_of_aragon.jpg",
    "mov": "in",
-   "txt": "Então, a primeira lição para você: Maquiavel não inventou a dureza do poder. Ele anotou. É como um médico descrevendo uma doença. Descrever o vírus não é o mesmo que torcer pelo vírus."
+   "txt": "Então, a primeira lição para você: Maquiavel não inventou a dureza do poder. Ele anotou. É como um médico descrevendo uma doença. Descrever o vírus não é o mesmo que torcer pelo vírus.",
+   "gravura_original": "acervo/rendicao_granada_pradilla.jpg"
   },
   {
    "gravura": "acervo/embaixadores_holbein.jpg",
@@ -193,9 +195,10 @@
    }
   },
   {
-   "gravura": "acervo/pollice_verso_gerome.jpg",
+   "gravura": "hist/commodus.jpg",
    "mov": "cima",
-   "txt": "Prato foi saqueada com uma violência terrível. Florença entrou em pânico. O chefe da república, Piero Soderini, aliado de Maquiavel, fugiu para o exílio. E os Médici voltaram à cidade."
+   "txt": "Prato foi saqueada com uma violência terrível. Florença entrou em pânico. O chefe da república, Piero Soderini, aliado de Maquiavel, fugiu para o exílio. E os Médici voltaram à cidade.",
+   "gravura_original": "acervo/pollice_verso_gerome.jpg"
   },
   {
    "gravura": "acervo/leao_x_raffaello.jpg",
@@ -213,9 +216,10 @@
    "txt": "Ele é preso e torturado com a corda. Amarravam as mãos da pessoa nas costas, erguiam o corpo pelos pulsos e soltavam de repente. Num poema, ele mesmo conta que levou seis desses golpes."
   },
   {
-   "gravura": "acervo/cesar_morte_gerome.jpg",
+   "gravura": "cesar.jpg",
    "mov": "dir",
-   "txt": "Nunca se provou que ele participava da conspiração. E ele não confessou nada. Imagina: o homem que hoje é chamado de mestre da traição ficou calado sob tortura e não entregou ninguém."
+   "txt": "Nunca se provou que ele participava da conspiração. E ele não confessou nada. Imagina: o homem que hoje é chamado de mestre da traição ficou calado sob tortura e não entregou ninguém.",
+   "gravura_original": "acervo/cesar_morte_gerome.jpg"
   },
   {
    "gravura": "acervo/botticelli_giuliano_de_medici_accademia_carrara.jpg",
@@ -242,9 +246,10 @@
    "txt": "De dia, a vida era rude. Cuidava do bosque, conversava com lenhadores, ia à taverna da estrada, jogava cartas e brigava por centavos com o açougueiro e o moleiro."
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel.jpg",
    "mov": "dir",
-   "txt": "E agora fecho a terceira pergunta. Numa carta ao amigo Francesco Vettori, em dezembro de 1513, ele conta: toda noite tirava a roupa suja de lama e vestia roupas de corte."
+   "txt": "E agora fecho a terceira pergunta. Numa carta ao amigo Francesco Vettori, em dezembro de 1513, ele conta: toda noite tirava a roupa suja de lama e vestia roupas de corte.",
+   "gravura_original": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
   },
   {
    "gravura": "hist/marcus_aurelius.jpg",
@@ -304,11 +309,12 @@
    "txt": "Os Discursos são uma longa conversa sobre Roma antiga e sobre como uma república nasce, cresce e se mantém livre. E o herói desse livro não é um príncipe. É o povo organizado com boas leis."
   },
   {
-   "gravura": "acervo/pollice_verso_gerome.jpg",
+   "gravura": "hist/commodus.jpg",
    "mov": "dir",
    "txt": "Ele chega a defender uma ideia ousada para a época: os conflitos entre o povo e os nobres de Roma não foram só bagunça. Foram eles que geraram leis a favor da liberdade.",
    "verso": "As desavenças entre a plebe e o Senado tornaram Roma livre e poderosa.",
-   "ref": "DISCURSOS, LIVRO I, CAP. 4"
+   "ref": "DISCURSOS, LIVRO I, CAP. 4",
+   "gravura_original": "acervo/pollice_verso_gerome.jpg"
   },
   {
    "gravura": "acervo/multidao_bruegel.jpg",
@@ -337,9 +343,10 @@
    "txt": "Rousseau, no século dezoito, achava que O Príncipe era quase uma denúncia. Fingindo dar lições aos reis, Maquiavel teria ensinado os povos a enxergar como os tiranos agem. Para ele, era o livro dos republicanos."
   },
   {
-   "gravura": "acervo/jean_l_on_g_r_me_the_death_of_caesar_walters_378.jpg",
+   "gravura": "cesar.jpg",
    "mov": "dir",
-   "txt": "Já Leo Strauss, no século vinte, viu nele um professor do mal. Isaiah Berlin disse que ele mostrou um choque real entre duas morais: a virtude cívica dos antigos e a moral cristã."
+   "txt": "Já Leo Strauss, no século vinte, viu nele um professor do mal. Isaiah Berlin disse que ele mostrou um choque real entre duas morais: a virtude cívica dos antigos e a moral cristã.",
+   "gravura_original": "acervo/jean_l_on_g_r_me_the_death_of_caesar_walters_378.jpg"
   },
   {
    "gravura": "acervo/ferdinand_of_aragon_isabella_of_castile.jpg",
@@ -347,9 +354,10 @@
    "txt": "E historiadores como Quentin Skinner leem Maquiavel no contexto dos humanistas do seu tempo, como um pensador republicano preocupado com a liberdade da cidade. Nenhuma dessas leituras é unânime."
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel.jpg",
    "mov": "in",
-   "txt": "O que dá para afirmar com segurança é isto: o mesmo homem que escreveu O Príncipe escreveu uma defesa longa e apaixonada da república. Reduzir ele a vilão é ler só metade da obra."
+   "txt": "O que dá para afirmar com segurança é isto: o mesmo homem que escreveu O Príncipe escreveu uma defesa longa e apaixonada da república. Reduzir ele a vilão é ler só metade da obra.",
+   "gravura_original": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
   },
   {
    "gravura": "acervo/julio_ii_raffaello.jpg",
@@ -476,14 +484,15 @@
    "txt": "Repara na lição. Muitas vezes, quem grita mais alto contra o poder é quem mais quer o poder. Maquiavel não criou esse comportamento. Ele só teve a coragem de escrever sobre ele."
   },
   {
-   "gravura": "acervo/vercingetorix_royer.jpg",
+   "gravura": "cesar.jpg",
    "mov": "out",
    "txt": "Tá comigo? O vilão foi fabricado em etapas: a proibição, a propaganda, o teatro e até um rei que o atacava em público. A fama ficou maior que o homem.",
    "interage": {
     "tipo": "checkin",
     "txt": "Fama fabricada. Faz sentido?"
    },
-   "conv": true
+   "conv": true,
+   "gravura_original": "acervo/vercingetorix_royer.jpg"
   },
   {
    "gravura": "acervo/cesar_assassinato_camuccini.jpg",
@@ -495,16 +504,18 @@
    }
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel.jpg",
    "mov": "dir",
    "txt": "Então de onde vem? Existe um trecho no capítulo dezoito de O Príncipe que deu origem à confusão. Ele diz que, nas ações dos príncipes, onde não há tribunal a quem recorrer, as pessoas olham para o resultado.",
    "verso": "Nas ações dos príncipes, onde não há tribunal a que recorrer, olha-se o resultado.",
-   "ref": "O PRÍNCIPE, CAP. XVIII"
+   "ref": "O PRÍNCIPE, CAP. XVIII",
+   "gravura_original": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
   },
   {
-   "gravura": "acervo/rendicao_granada_pradilla.jpg",
+   "gravura": "hist/ferdinand_ii_of_aragon.jpg",
    "mov": "cima",
-   "txt": "Repara: é uma descrição de como o povo julga os governantes. Se o príncipe vence e mantém o Estado, as pessoas tendem a aprovar os meios. Ele está descrevendo o mundo, não dando licença moral."
+   "txt": "Repara: é uma descrição de como o povo julga os governantes. Se o príncipe vence e mantém o Estado, as pessoas tendem a aprovar os meios. Ele está descrevendo o mundo, não dando licença moral.",
+   "gravura_original": "acervo/rendicao_granada_pradilla.jpg"
   },
   {
    "gravura": "hist/arco_severo.jpg",
@@ -519,11 +530,12 @@
    "txt": "Então sim, Maquiavel aceitava que a política às vezes exige atos duros. Isso é real e muitos estudiosos criticam. Mas a frase pronta, como um cheque em branco para qualquer maldade, foi criada depois e colada nele."
   },
   {
-   "gravura": "acervo/cesar_morte_gerome.jpg",
+   "gravura": "cesar.jpg",
    "mov": "esq",
    "txt": "E ele também alerta o príncipe contra o ódio e o desprezo. Diz que é bom ser temido, se não puder ser amado, mas que precisa evitar ser odiado. Nada de crueldade gratuita.",
    "verso": "O príncipe deve fazer-se temer de modo que, se não ganha o amor, evite o ódio.",
-   "ref": "O PRÍNCIPE, CAP. XVII"
+   "ref": "O PRÍNCIPE, CAP. XVII",
+   "gravura_original": "acervo/cesar_morte_gerome.jpg"
   },
   {
    "gravura": "borgia.jpg",
@@ -568,11 +580,12 @@
    "txt": "Hoje, em Florença, o túmulo dele fica na igreja de Santa Croce, perto de Michelangelo e Galileu. Na lápide, uma frase em latim diz que nenhum elogio está à altura de um nome tão grande."
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel.jpg",
    "mov": "cima",
    "txt": "No próximo vídeo da playlist Personagens do poder, você conhece de perto César Bórgia, o homem que Maquiavel observou por meses. Até a próxima lição, raposa.",
    "cta": "Até a próxima <b>lição</b>,<br>raposa",
-   "selo": "RAPOSA<br>E LEÃO"
+   "selo": "RAPOSA<br>E LEÃO",
+   "gravura_original": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
   }
  ]
 }

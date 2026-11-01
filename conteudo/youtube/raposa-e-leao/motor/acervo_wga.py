@@ -20,6 +20,12 @@ L={'bernardo_bellotto_the_piazza_della_signoria_in_f.jpg':('/art/b/bellotto/1/be
 'carlos_viii_florenca_bezzuoli.jpg':('/art/b/bezzuoli/charles8.jpg','Giuseppe Bezzuoli, Entrada de Carlos VIII em Florença, 1829'),
 'sermao_bruegel.jpg':('/art/b/bruegel/pieter_e/09/01baptis.jpg','Pieter Bruegel, o Velho, O Sermão de São João Batista, 1566'),
 'batalha_ponte_milvio_raffaello.jpg':('/art/r/raphael/4stanze/4constan/2battle.jpg','Oficina de Rafael, A Batalha da Ponte Mílvia, 1520-24, Vaticano'),
+# longos 12-16 (01/11): mesmas obras do roteiro; Zama e Reis Católicos em obra equivalente do mesmo tema
+'cesar_assassinato_camuccini.jpg':('/art/c/camuccin/caesar.jpg','Vincenzo Camuccini, A Morte de Júlio César, 1798, Capodimonte'),
+'romanos_decadencia_couture.jpg':('/art/c/couture/decadenc.jpg','Thomas Couture, Os Romanos da Decadência, 1847, Musée d\'Orsay'),
+'coroacao_napoleao_david.jpg':('/art/d/david_j/4/405david.jpg','Jacques-Louis David, Sagração do Imperador Napoleão I e Coroação da Imperatriz Josefina, 1805-07, Louvre'),
+'hannibal_and_scipio_africanus.jpg':('/art/g/giulio/various/zzbattle.jpg','Giulio Romano, A Batalha de Zama (Aníbal e Cipião)'),
+'ferdinand_of_aragon_isabella_of_castile.jpg':('/art/g/gallego/catholic.jpg','Fernando Gallego, Virgem dos Reis Católicos (Fernando e Isabel), c. 1490-95, Prado'),
 }
 cred=json.load(open(OUT+'/creditos.json')); por={c['arquivo']:c for c in cred}
 for arq,(p,t) in L.items():

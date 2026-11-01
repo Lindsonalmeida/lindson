@@ -48,9 +48,10 @@
    "txt": "E tem outra virada: o filho de um Médici assassinado virou papa. E foi a família dele que pagou Maquiavel para escrever a história de Florença."
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel.jpg",
    "mov": "out",
-   "txt": "E a maior pergunta eu guardo para o fim: qual foi o segredo que fez essa família voltar depois de cada queda? Fica até o final que eu te mostro."
+   "txt": "E a maior pergunta eu guardo para o fim: qual foi o segredo que fez essa família voltar depois de cada queda? Fica até o final que eu te mostro.",
+   "gravura_original": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
   },
   {
    "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
@@ -127,11 +128,12 @@
    "txt": "O grupo dele controlava quem entrava nas listas de onde saíam os nomes do sorteio. Os amigos certos iam para os postos certos. A república continuava funcionando, só que as decisões já chegavam prontas."
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel.jpg",
    "mov": "in",
    "txt": "Na História de Florença, Maquiavel registra uma frase atribuída a Cosimo. Quando reclamavam da dureza dele com os adversários, ele respondia que os Estados não se governam com o pai-nosso na mão.",
    "verso": "Os Estados não se mantêm com o pai-nosso na mão.",
-   "ref": "HISTÓRIA DE FLORENÇA, LIVRO VII"
+   "ref": "HISTÓRIA DE FLORENÇA, LIVRO VII",
+   "gravura_original": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
   },
   {
    "gravura": "acervo/multidao_bruegel.jpg",
@@ -184,11 +186,12 @@
    "txt": "Lorenzo ficou conhecido como o Magnífico. Era poeta, colecionador e protetor de artistas. Botticelli trabalhou para a família, e um jovem Michelangelo chegou a viver na casa dos Médici ainda adolescente."
   },
   {
-   "gravura": "acervo/rendicao_granada_pradilla.jpg",
+   "gravura": "hist/ferdinand_ii_of_aragon.jpg",
    "mov": "esq",
    "txt": "Isso também está em O Príncipe. No capítulo vinte e um, Maquiavel diz que quem governa deve honrar quem se destaca em cada arte e animar o povo com festas e espetáculos.",
    "verso": "O príncipe deve mostrar-se amante das virtudes e honrar quem se destaca em cada arte.",
-   "ref": "O PRÍNCIPE, CAP. XXI"
+   "ref": "O PRÍNCIPE, CAP. XXI",
+   "gravura_original": "acervo/rendicao_granada_pradilla.jpg"
   },
   {
    "gravura": "hist/bonfire_of_the_vanities.jpg",
@@ -215,9 +218,10 @@
    "txt": "O plano era matar os dois irmãos Médici ao mesmo tempo, Lorenzo e Giuliano, durante a missa, no meio do povo. Com os dois mortos, a cidade cairia antes de qualquer reação."
   },
   {
-   "gravura": "acervo/pollice_verso_gerome.jpg",
+   "gravura": "hist/commodus.jpg",
    "mov": "dir",
-   "txt": "Por trás dos Pazzi estavam nomes pesados: Girolamo Riario, sobrinho do papa Sisto quarto, e Francesco Salviati, arcebispo de Pisa. O próprio papa sabia do plano. Até onde ele aceitava o sangue, os historiadores ainda discutem."
+   "txt": "Por trás dos Pazzi estavam nomes pesados: Girolamo Riario, sobrinho do papa Sisto quarto, e Francesco Salviati, arcebispo de Pisa. O próprio papa sabia do plano. Até onde ele aceitava o sangue, os historiadores ainda discutem.",
+   "gravura_original": "acervo/pollice_verso_gerome.jpg"
   },
   {
    "gravura": "acervo/botticelli_giuliano_de_medici_accademia_carrara.jpg",
@@ -240,18 +244,20 @@
    "txt": "E a cidade se levantou, só que do lado errado para ele. O povo saiu às ruas a favor dos Médici. Salviati foi enforcado numa janela do palácio."
   },
   {
-   "gravura": "acervo/cesar_morte_gerome.jpg",
+   "gravura": "hist/arco_severo.jpg",
    "mov": "dir",
    "txt": "Maquiavel tinha nove anos nesse dia. E anos depois escreveu, no capítulo dezenove de O Príncipe, qual é um dos maiores remédios contra conspirações.",
    "verso": "Um dos remédios mais fortes contra as conspirações é não ser odiado pelo povo.",
-   "ref": "O PRÍNCIPE, CAP. XIX"
+   "ref": "O PRÍNCIPE, CAP. XIX",
+   "gravura_original": "acervo/cesar_morte_gerome.jpg"
   },
   {
-   "gravura": "acervo/jean_l_on_g_r_me_the_death_of_caesar_walters_378.jpg",
+   "gravura": "cesar.jpg",
    "mov": "cima",
    "txt": "Nos Discursos, ele dedica um capítulo inteiro às conspirações e usa os Pazzi como exemplo. Matar dois alvos ao mesmo tempo, no meio da multidão, multiplica as chances de dar errado.",
    "verso": "Nas conspirações, os perigos estão antes, durante e depois da execução.",
-   "ref": "DISCURSOS, LIVRO III, CAP. 6"
+   "ref": "DISCURSOS, LIVRO III, CAP. 6",
+   "gravura_original": "acervo/jean_l_on_g_r_me_the_death_of_caesar_walters_378.jpg"
   },
   {
    "gravura": "acervo/hannibal_and_scipio_africanus.jpg",
@@ -264,9 +270,10 @@
    "txt": "Aí Lorenzo fez uma jogada que Maquiavel narra com admiração. No fim de 1479, ele foi pessoalmente a Nápoles se colocar nas mãos do rei Ferrante, que estava em guerra com ele."
   },
   {
-   "gravura": "acervo/vercingetorix_royer.jpg",
+   "gravura": "cesar.jpg",
    "mov": "esq",
-   "txt": "Passou meses naquela corte conversando e convencendo, mostrando que a guerra contra Florença servia mais aos outros do que ao próprio rei. E voltou para casa com o caminho da paz aberto."
+   "txt": "Passou meses naquela corte conversando e convencendo, mostrando que a guerra contra Florença servia mais aos outros do que ao próprio rei. E voltou para casa com o caminho da paz aberto.",
+   "gravura_original": "acervo/vercingetorix_royer.jpg"
   },
   {
    "gravura": "acervo/castiglione_raffaello.jpg",
@@ -283,14 +290,15 @@
    }
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel.jpg",
    "mov": "in",
    "txt": "E se você está gostando de entender o poder pela história real, se inscreve no Raposa e Leão e abre a playlist Personagens do poder. Cada vídeo é um personagem que Maquiavel estudou de perto.",
    "cta": "Inscreva-se e veja a playlist<br><b>Personagens do poder</b>",
    "interage": {
     "tipo": "segue",
     "txt": "Segue o canal, raposa"
-   }
+   },
+   "gravura_original": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
   },
   {
    "gravura": "lorenzo.jpg",
@@ -307,9 +315,10 @@
    "txt": "O herdeiro era o filho dele, Piero. E em 1494 o rei da França, Carlos oitavo, desceu para a Itália com um exército enorme, a caminho de Nápoles, passando pela Toscana."
   },
   {
-   "gravura": "acervo/rendicao_granada_pradilla.jpg",
+   "gravura": "hist/ferdinand_ii_of_aragon.jpg",
    "mov": "dir",
-   "txt": "Piero entrou em pânico. Foi ao encontro do rei e, sem consultar o governo da cidade, entregou fortalezas importantes de Florença. Fez sozinho um acordo que ninguém tinha autorizado."
+   "txt": "Piero entrou em pânico. Foi ao encontro do rei e, sem consultar o governo da cidade, entregou fortalezas importantes de Florença. Fez sozinho um acordo que ninguém tinha autorizado.",
+   "gravura_original": "acervo/rendicao_granada_pradilla.jpg"
   },
   {
    "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
@@ -379,9 +388,10 @@
    "txt": "Piero Soderini, o chefe da república, fugiu. E os Médici voltaram para a cidade sem precisar travar uma grande batalha dentro dos muros. Dezoito anos de exílio desfeitos em poucas semanas."
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel.jpg",
    "mov": "esq",
-   "txt": "Para Maquiavel, foi o desastre. Em novembro ele perdeu o cargo. E no começo de 1513 o nome dele apareceu numa lista de pessoas ligadas a uma conspiração contra os Médici."
+   "txt": "Para Maquiavel, foi o desastre. Em novembro ele perdeu o cargo. E no começo de 1513 o nome dele apareceu numa lista de pessoas ligadas a uma conspiração contra os Médici.",
+   "gravura_original": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
   },
   {
    "gravura": "acervo/prisao_cristo_caravaggio.jpg",
@@ -455,13 +465,14 @@
    "txt": "E o Lorenzo leu? Ninguém sabe. Conta-se que ele deu mais atenção a uns cães de caça do que ao livro, mas não há prova disso. O certo é que o livro não devolveu o emprego a Maquiavel."
   },
   {
-   "gravura": "acervo/vercingetorix_royer.jpg",
+   "gravura": "cesar.jpg",
    "mov": "in",
    "txt": "Conhece alguém tentando ser notado por um chefe ou um cliente importante, sem conseguir? Manda esse vídeo. A história do Maquiavel com os Médici mostra que talento sozinho não abre porta.",
    "interage": {
     "tipo": "manda",
     "txt": "Manda pra quem quer ser notado"
-   }
+   },
+   "gravura_original": "acervo/vercingetorix_royer.jpg"
   },
   {
    "gravura": "acervo/leao_x_raffaello.jpg",
@@ -503,9 +514,10 @@
    "txt": "Ou seja: o elogio aparecia na voz do narrador, e a crítica ficava nos discursos. Quem lia com atenção encontrava as duas coisas. Isso é raposa pura: dizer a verdade sem ser destruído por ela."
   },
   {
-   "gravura": "acervo/cesar_morte_gerome.jpg",
+   "gravura": "cesar.jpg",
    "mov": "cima",
-   "txt": "O final tem ironia. Em 1527, Roma foi saqueada pelas tropas do imperador Carlos quinto, e os Médici foram expulsos de Florença mais uma vez. Maquiavel esperava voltar a servir a república restaurada."
+   "txt": "O final tem ironia. Em 1527, Roma foi saqueada pelas tropas do imperador Carlos quinto, e os Médici foram expulsos de Florença mais uma vez. Maquiavel esperava voltar a servir a república restaurada.",
+   "gravura_original": "acervo/cesar_morte_gerome.jpg"
   },
   {
    "gravura": "hist/hannibal.jpg",
@@ -568,11 +580,12 @@
    }
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel.jpg",
    "mov": "in",
    "txt": "No próximo vídeo da playlist Personagens do poder, você conhece de perto César Bórgia, o homem que Maquiavel observou por meses. Até a próxima lição, raposa.",
    "cta": "Até a próxima <b>lição</b>,<br>raposa",
-   "selo": "RAPOSA<br>E LEÃO"
+   "selo": "RAPOSA<br>E LEÃO",
+   "gravura_original": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
   }
  ]
 }

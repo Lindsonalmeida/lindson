@@ -8,7 +8,8 @@
   "url_commons": "https://commons.wikimedia.org/wiki/File:Portrait_of_Niccol%C3%B2_Machiavelli_by_Santi_di_Tito.jpg",
   "busca": "Niccolò Machiavelli portrait painting",
   "trocada_por": [
-   "maquiavel.jpg"
+   "maquiavel.jpg",
+   "maquiavel2.jpg"
   ],
   "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo"
  },
@@ -66,7 +67,10 @@
   "trocada_por": [
    "hist/ferdinand_ii_of_aragon.jpg"
   ],
-  "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo"
+  "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo",
+  "fonte_baixada": "https://www.wga.hu/art/g/gallego/catholic.jpg",
+  "obra": "Fernando Gallego, Virgem dos Reis Católicos (Fernando e Isabel), c. 1490-95, Prado",
+  "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)"
  },
  {
   "arquivo": "graftombes_van_ferdinand_ii_van_aragon_en_filips.jpg",
@@ -123,7 +127,10 @@
    "hist/alexander_the_great.jpg",
    "hist/hannibal.jpg"
   ],
-  "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo"
+  "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo",
+  "fonte_baixada": "https://www.wga.hu/art/g/giulio/various/zzbattle.jpg",
+  "obra": "Giulio Romano, A Batalha de Zama (Aníbal e Cipião)",
+  "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)"
  },
  {
   "arquivo": "jean_l_on_g_r_me_the_death_of_caesar_walters_378.jpg",
@@ -132,7 +139,12 @@
   "data": "between 1859 and 1867date QS:P571,+1850-00-00T00:00:00Z/7,P1319,+1859-00-00T00:00:00Z/9,P1326,+1867-00-00T00:00:00Z/9",
   "licenca": "Public domain",
   "url_commons": "https://commons.wikimedia.org/wiki/File:Jean-L%C3%A9on_G%C3%A9r%C3%B4me_-_The_Death_of_Caesar_-_Walters_37884.jpg",
-  "busca": "Death of Caesar painting"
+  "busca": "Death of Caesar painting",
+  "trocada_por": [
+   "cesar.jpg",
+   "hist/arco_severo.jpg"
+  ],
+  "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo"
  },
  {
   "arquivo": "gerome_death_of_caesar.jpg",
@@ -187,7 +199,8 @@
  {
   "arquivo": "cesar_morte_gerome.jpg",
   "trocada_por": [
-   "cesar.jpg"
+   "cesar.jpg",
+   "hist/arco_severo.jpg"
   ],
   "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo"
  },
@@ -239,7 +252,11 @@
    "hist/marcus_equestre.jpg"
   ],
   "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo",
-  "fonte_download": "Web Gallery of Art: https://www.wga.hu/html/d/david_j/4/405david.html (Wikimedia bloqueou com HTTP 429 em 31/10/2026)"
+  "fonte_download": "Web Gallery of Art: https://www.wga.hu/html/d/david_j/4/405david.html (Wikimedia bloqueou com HTTP 429 em 31/10/2026)",
+  "fonte_baixada": "https://www.wga.hu/art/d/david_j/4/405david.jpg",
+  "obra": "Jacques-Louis David, Sagração do Imperador Napoleão I e Coroação da Imperatriz Josefina, 1805-07, Louvre",
+  "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)",
+  "titulo": "Jacques-Louis David, Sagração do Imperador Napoleão I e Coroação da Imperatriz Josefina, 1805-07, Louvre"
  },
  {
   "arquivo": "julio_ii_raffaello.jpg",
@@ -256,14 +273,16 @@
  {
   "arquivo": "vercingetorix_royer.jpg",
   "trocada_por": [
-   "cesar.jpg"
+   "cesar.jpg",
+   "hist/marcus_equestre.jpg"
   ],
   "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo"
  },
  {
   "arquivo": "rendicao_granada_pradilla.jpg",
   "trocada_por": [
-   "hist/ferdinand_ii_of_aragon.jpg"
+   "hist/ferdinand_ii_of_aragon.jpg",
+   "hist/marcus_equestre.jpg"
   ],
   "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo"
  },
@@ -273,7 +292,11 @@
    "cesar.jpg"
   ],
   "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo",
-  "fonte_download": "Web Gallery of Art: https://www.wga.hu/html/c/camuccin/caesar.html (Wikimedia bloqueou com HTTP 429 em 31/10/2026)"
+  "fonte_download": "Web Gallery of Art: https://www.wga.hu/html/c/camuccin/caesar.html (Wikimedia bloqueou com HTTP 429 em 31/10/2026)",
+  "fonte_baixada": "https://www.wga.hu/art/c/camuccin/caesar.jpg",
+  "obra": "Vincenzo Camuccini, A Morte de Júlio César, 1798, Capodimonte",
+  "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)",
+  "titulo": "Vincenzo Camuccini, A Morte de Júlio César, 1798, Capodimonte"
  },
  {
   "arquivo": "multidao_bruegel.jpg",
@@ -324,7 +347,10 @@
    "hist/caracalla.jpg"
   ],
   "motivo_troca": "Wikimedia Commons bloqueou o download (HTTP 429) em 31/10/2026; usada obra em domínio público do mesmo tema já presente no acervo",
-  "fonte_download": "Web Gallery of Art: https://www.wga.hu/html/c/couture/decadenc.html (Wikimedia bloqueou com HTTP 429 em 31/10/2026)"
+  "fonte_download": "Web Gallery of Art: https://www.wga.hu/html/c/couture/decadenc.html (Wikimedia bloqueou com HTTP 429 em 31/10/2026)",
+  "fonte_baixada": "https://www.wga.hu/art/c/couture/decadenc.jpg",
+  "obra": "Thomas Couture, Os Romanos da Decadência, 1847, Musée d'Orsay",
+  "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)"
  },
  {
   "arquivo": "vercingetorix_royer.jpg",
@@ -495,18 +521,27 @@
   "arquivo": "savonarola_fra_bartolomeo.jpg",
   "titulo": "Fra Bartolomeo, Portrait of Girolamo Savonarola (c. 1498)",
   "licenca": "Public domain (obra anterior a 1900)",
-  "fonte_download": "Web Gallery of Art: https://www.wga.hu/html/b/bartolom/fra/savonaro.html (Wikimedia bloqueou com HTTP 429 em 31/10/2026)"
+  "fonte_download": "Web Gallery of Art: https://www.wga.hu/html/b/bartolom/fra/savonaro.html (Wikimedia bloqueou com HTTP 429 em 31/10/2026)",
+  "fonte_baixada": "https://www.wga.hu/art/b/bartolom/fra/savonaro.jpg",
+  "obra": "Fra Bartolomeo, Retrato de Girolamo Savonarola, c. 1498",
+  "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)"
  },
  {
   "arquivo": "carlos_viii_florenca_bezzuoli.jpg",
   "titulo": "Giuseppe Bezzuoli, Entry of Charles VIII into Florence (1829)",
   "licenca": "Public domain (obra anterior a 1900)",
-  "fonte_download": "Web Gallery of Art: https://www.wga.hu/html/b/bezzuoli/charles8.html (Wikimedia bloqueou com HTTP 429 em 31/10/2026)"
+  "fonte_download": "Web Gallery of Art: https://www.wga.hu/html/b/bezzuoli/charles8.html (Wikimedia bloqueou com HTTP 429 em 31/10/2026)",
+  "fonte_baixada": "https://www.wga.hu/art/b/bezzuoli/charles8.jpg",
+  "obra": "Giuseppe Bezzuoli, Entrada de Carlos VIII em Florença, 1829",
+  "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)"
  },
  {
   "arquivo": "sermao_bruegel.jpg",
   "titulo": "Pieter Bruegel the Elder, The Sermon of St John the Baptist (1566)",
   "licenca": "Public domain (obra anterior a 1900)",
-  "fonte_download": "Web Gallery of Art: https://www.wga.hu/html/b/bruegel/pieter_e/09/01baptis.html (Wikimedia bloqueou com HTTP 429 em 31/10/2026)"
+  "fonte_download": "Web Gallery of Art: https://www.wga.hu/html/b/bruegel/pieter_e/09/01baptis.html (Wikimedia bloqueou com HTTP 429 em 31/10/2026)",
+  "fonte_baixada": "https://www.wga.hu/art/b/bruegel/pieter_e/09/01baptis.jpg",
+  "obra": "Pieter Bruegel, o Velho, O Sermão de São João Batista, 1566",
+  "licenca_obra": "domínio público (obra anterior a 1900; reprodução fiel de obra 2D)"
  }
 ]

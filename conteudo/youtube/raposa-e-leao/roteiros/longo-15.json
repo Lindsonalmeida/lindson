@@ -43,9 +43,10 @@
    "txt": "Também vou te mostrar quem, segundo Maquiavel, é o mais perigoso para quem tem poder. E não é o inimigo declarado. A resposta surpreende muita gente."
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel.jpg",
    "mov": "esq",
-   "txt": "E no final eu te entrego o teste inteiro em uma pergunta só. Uma pergunta para fazer sobre qualquer pessoa perto de você, e sobre você mesmo. Guarda essas três promessas."
+   "txt": "E no final eu te entrego o teste inteiro em uma pergunta só. Uma pergunta para fazer sobre qualquer pessoa perto de você, e sobre você mesmo. Guarda essas três promessas.",
+   "gravura_original": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
   },
   {
    "gravura": "acervo/castiglione_raffaello.jpg",
@@ -169,11 +170,12 @@
    "txt": "Ele era fechado e não contava os planos. Na hora de agir, as pessoas em volta contestavam, e ele, sem firmeza, voltava atrás. O que fazia num dia, desfazia no outro."
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel.jpg",
    "mov": "in",
    "txt": "Daí vem a frase que fecha o capítulo. Não adianta ter os melhores conselheiros do mundo se você não tem critério próprio para escolher entre eles.",
    "verso": "Os bons conselhos nascem da prudência do príncipe, e não a prudência do príncipe dos bons conselhos.",
-   "ref": "O PRÍNCIPE, CAP. XXIII"
+   "ref": "O PRÍNCIPE, CAP. XXIII",
+   "gravura_original": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
   },
   {
    "gravura": "hist/moses.jpg",
@@ -191,13 +193,14 @@
    "conv": true
   },
   {
-   "gravura": "acervo/pollice_verso_gerome.jpg",
+   "gravura": "hist/commodus.jpg",
    "mov": "in",
    "txt": "Agora vem a parte pesada: quando quem está perto decide agir contra. Maquiavel trata disso no capítulo dezenove de O Príncipe.",
    "cap": {
     "sup": "LIÇÃO 3",
     "txt": "Quem conspira e por quê"
-   }
+   },
+   "gravura_original": "acervo/pollice_verso_gerome.jpg"
   },
   {
    "gravura": "cesar.jpg",
@@ -205,11 +208,12 @@
    "txt": "Ele diz que um governante tem dois medos. Um vem de fora, das potências estrangeiras. O outro vem de dentro, das pessoas que ele governa. E contra o perigo de dentro, o remédio principal não é muro nem guarda."
   },
   {
-   "gravura": "acervo/rendicao_granada_pradilla.jpg",
+   "gravura": "hist/ferdinand_ii_of_aragon.jpg",
    "mov": "esq",
    "txt": "É não ser odiado. Quem conspira conta com o apoio de alguém depois do golpe. Se o povo gosta do governante, o conspirador sabe que, mesmo dando certo, vai ter todo mundo contra ele.",
    "verso": "Um dos remédios mais fortes contra as conspirações é não ser odiado pelo povo.",
-   "ref": "O PRÍNCIPE, CAP. XIX"
+   "ref": "O PRÍNCIPE, CAP. XIX",
+   "gravura_original": "acervo/rendicao_granada_pradilla.jpg"
   },
   {
    "gravura": "acervo/hannibal_and_scipio_africanus.jpg",
@@ -247,13 +251,14 @@
    "conv": true
   },
   {
-   "gravura": "acervo/cesar_morte_gerome.jpg",
+   "gravura": "cesar.jpg",
    "mov": "in",
    "txt": "Agora a gente vai para outro livro. Nos Discursos sobre Tito Lívio, Maquiavel dedica às conspirações o capítulo seis do livro três. É o capítulo mais longo de toda a obra.",
    "cap": {
     "sup": "LIÇÃO 4",
     "txt": "O capítulo mais longo dos Discursos"
-   }
+   },
+   "gravura_original": "acervo/cesar_morte_gerome.jpg"
   },
   {
    "gravura": "maquiavel.jpg",
@@ -278,9 +283,10 @@
    "txt": "Giuliano morreu. Lorenzo foi ferido e escapou. E o depois foi terrível para os conspiradores: Florença ficou do lado dos Médici, e os envolvidos foram caçados. Maquiavel conta tudo na História de Florença."
   },
   {
-   "gravura": "acervo/jean_l_on_g_r_me_the_death_of_caesar_walters_378.jpg",
+   "gravura": "hist/arco_severo.jpg",
    "mov": "dir",
-   "txt": "O depois também explica o fim de quem matou César. Nos Discursos, Maquiavel lembra que o povo de Roma gostava de César. Por isso, os conspiradores foram expulsos e mortos, em lugares e momentos diferentes."
+   "txt": "O depois também explica o fim de quem matou César. Nos Discursos, Maquiavel lembra que o povo de Roma gostava de César. Por isso, os conspiradores foram expulsos e mortos, em lugares e momentos diferentes.",
+   "gravura_original": "acervo/jean_l_on_g_r_me_the_death_of_caesar_walters_378.jpg"
   },
   {
    "gravura": "cesar.jpg",
@@ -357,9 +363,10 @@
    "ref": "O PRÍNCIPE, CAP. VII"
   },
   {
-   "gravura": "acervo/cesar_morte_gerome.jpg",
+   "gravura": "cesar.jpg",
    "mov": "out",
-   "txt": "Naquela noite, Vitellozzo e Oliverotto foram estrangulados. Os dois Orsini tiveram o mesmo fim semanas depois. Maquiavel escreveu um relato só sobre esse episódio, e voltou a ele no capítulo sete de O Príncipe."
+   "txt": "Naquela noite, Vitellozzo e Oliverotto foram estrangulados. Os dois Orsini tiveram o mesmo fim semanas depois. Maquiavel escreveu um relato só sobre esse episódio, e voltou a ele no capítulo sete de O Príncipe.",
+   "gravura_original": "acervo/cesar_morte_gerome.jpg"
   },
   {
    "gravura": "acervo/romanos_decadencia_couture.jpg",
@@ -382,9 +389,10 @@
    "txt": "E tem um detalhe que Maquiavel conta no capítulo oito. Oliverotto tinha tomado o poder em Fermo matando o próprio tio num banquete. Um ano depois, foi estrangulado em Senigallia. Quem vive de traição costuma confiar mal."
   },
   {
-   "gravura": "acervo/vercingetorix_royer.jpg",
+   "gravura": "cesar.jpg",
    "mov": "out",
-   "txt": "Dos condottieri sai mais uma lição, do capítulo doze: tropas contratadas, sem vínculo, são desunidas, ambiciosas e infiéis. Lealdade que é só comprada vai embora quando aparece uma oferta melhor."
+   "txt": "Dos condottieri sai mais uma lição, do capítulo doze: tropas contratadas, sem vínculo, são desunidas, ambiciosas e infiéis. Lealdade que é só comprada vai embora quando aparece uma oferta melhor.",
+   "gravura_original": "acervo/vercingetorix_royer.jpg"
   },
   {
    "gravura": "acervo/castiglione_raffaello.jpg",
@@ -407,13 +415,14 @@
    "conv": true
   },
   {
-   "gravura": "acervo/rendicao_granada_pradilla.jpg",
+   "gravura": "hist/marcus_equestre.jpg",
    "mov": "in",
    "txt": "Agora uma lição que vai contra o instinto de muita gente. No capítulo vinte e um de O Príncipe, Maquiavel fala de alianças e diz que ficar neutro quase sempre é o pior caminho.",
    "cap": {
     "sup": "LIÇÃO 6",
     "txt": "O erro de ficar em cima do muro"
-   }
+   },
+   "gravura_original": "acervo/rendicao_granada_pradilla.jpg"
   },
   {
    "gravura": "hist/ferdinand_ii_of_aragon.jpg",
@@ -479,11 +488,12 @@
    "txt": "Mas, anos depois, quando César Bórgia atacou Forlì, o povo, que era inimigo dela, se juntou ao invasor. E a fortaleza não serviu de nada. Muro nenhum substitui ter gente do seu lado."
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel.jpg",
    "mov": "out",
    "txt": "Daí a frase mais famosa do capítulo. Você pode ter muros, contratos, senhas e câmeras. Se as pessoas à sua volta te odeiam, tudo isso cai na primeira crise.",
    "verso": "A melhor fortaleza que existe é não ser odiado pelo povo.",
-   "ref": "O PRÍNCIPE, CAP. XX"
+   "ref": "O PRÍNCIPE, CAP. XX",
+   "gravura_original": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
   },
   {
    "gravura": "hist/pope_alexander_vi.jpg",
@@ -530,11 +540,12 @@
    "txt": "Lembra: lealdade se constrói, e a melhor proteção é não ser odiado. Não basta escolher bem as pessoas. É preciso ser alguém que vale a pena não trair."
   },
   {
-   "gravura": "acervo/rendicao_granada_pradilla.jpg",
+   "gravura": "hist/ferdinand_ii_of_aragon.jpg",
    "mov": "in",
    "txt": "É aqui que a raposa e o leão se encontram. A raposa enxerga a armadilha: o acordo bom demais, o elogio vazio, o pedido para baixar a guarda. O leão sustenta a decisão e toma posição.",
    "verso": "É preciso ser raposa para conhecer as armadilhas e leão para assustar os lobos.",
-   "ref": "O PRÍNCIPE, CAP. XVIII"
+   "ref": "O PRÍNCIPE, CAP. XVIII",
+   "gravura_original": "acervo/rendicao_granada_pradilla.jpg"
   },
   {
    "gravura": "acervo/embaixadores_holbein.jpg",
@@ -557,11 +568,12 @@
    "txt": "Recapitulando: observe se a pessoa pensa mais nela do que no trabalho. Tenha poucos que te digam a verdade. Não crie ódio à toa. Não dê poder sem limite. Tome posição. E julgue pelos atos, não pelo discurso."
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel.jpg",
    "mov": "out",
    "txt": "No próximo vídeo da playlist Maquiavel na prática, a gente continua com outra lição de poder para a vida real. Te vejo lá. Até a próxima lição, raposa.",
    "cta": "Até a próxima <b>lição</b>,<br>raposa",
-   "selo": "RAPOSA<br>E LEÃO"
+   "selo": "RAPOSA<br>E LEÃO",
+   "gravura_original": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
   }
  ]
 }

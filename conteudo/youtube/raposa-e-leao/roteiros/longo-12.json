@@ -28,9 +28,10 @@
    "txt": "Esse livro é O Príncipe, de Nicolau Maquiavel. Quase todo mundo já ouviu falar. Pouca gente leu. E quem leu, muitas vezes, leu pedaços soltos, fora do contexto."
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel.jpg",
    "mov": "esq",
-   "txt": "Hoje você vai entender o livro inteiro, do capítulo um ao vinte e seis, sem enrolação. O que ele diz, por que diz e como isso te protege no trabalho, nos negócios e na família."
+   "txt": "Hoje você vai entender o livro inteiro, do capítulo um ao vinte e seis, sem enrolação. O que ele diz, por que diz e como isso te protege no trabalho, nos negócios e na família.",
+   "gravura_original": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
   },
   {
    "gravura": "borgia.jpg",
@@ -62,9 +63,10 @@
    "txt": "Em 1512, tudo desabou. Tropas espanholas, da liga de Fernando de Aragão com o papa, entraram na Toscana. A república caiu, e os Médici voltaram a mandar em Florença."
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel.jpg",
    "mov": "dir",
-   "txt": "Maquiavel perdeu o cargo. E, no começo de 1513, veio o pior. Descobriram uma conspiração contra os Médici, e numa lista de nomes estava o dele. Ele foi preso."
+   "txt": "Maquiavel perdeu o cargo. E, no começo de 1513, veio o pior. Descobriram uma conspiração contra os Médici, e numa lista de nomes estava o dele. Ele foi preso.",
+   "gravura_original": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
   },
   {
    "gravura": "acervo/prisao_cristo_caravaggio.jpg",
@@ -99,9 +101,10 @@
    "ref": "CARTA A VETTORI, 10/12/1513"
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel.jpg",
    "mov": "in",
-   "txt": "E é nessa carta que o livro aparece pela primeira vez. Ele conta que escreveu uma obrinha chamada Dos Principados. Era isso que viria a ser O Príncipe."
+   "txt": "E é nessa carta que o livro aparece pela primeira vez. Ele conta que escreveu uma obrinha chamada Dos Principados. Era isso que viria a ser O Príncipe.",
+   "gravura_original": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
   },
   {
    "gravura": "acervo/coroacao_napoleao_david.jpg",
@@ -143,9 +146,10 @@
    "txt": "Herdar é fácil, diz o capítulo dois. O povo já está acostumado com a família, e basta não mudar tudo de repente. O difícil é o novo, e é nele que o livro gasta quase toda a energia."
   },
   {
-   "gravura": "acervo/vercingetorix_royer.jpg",
+   "gravura": "cesar.jpg",
    "mov": "esq",
-   "txt": "No capítulo três, ele fala de quem conquista um território e junta ao que já tinha. O conselho: ir morar lá. De longe, você só descobre os problemas quando já não têm remédio."
+   "txt": "No capítulo três, ele fala de quem conquista um território e junta ao que já tinha. O conselho: ir morar lá. De longe, você só descobre os problemas quando já não têm remédio.",
+   "gravura_original": "acervo/vercingetorix_royer.jpg"
   },
   {
    "gravura": "acervo/hannibal_and_scipio_africanus.jpg",
@@ -180,11 +184,12 @@
    "txt": "Aí vem o capítulo seis. Quem chega ao poder pelo próprio talento e pelas próprias armas, como Moisés, Ciro, Rômulo e Teseu. A sorte só deu a eles a ocasião. O resto foi talento deles."
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel.jpg",
    "mov": "cima",
    "txt": "E ele avisa: não há nada mais difícil do que implantar uma ordem nova. Quem ganhava com a velha vira seu inimigo, e quem vai ganhar com a nova te defende sem muita vontade.",
    "verso": "Não há coisa mais difícil do que se fazer introdutor de uma nova ordem.",
-   "ref": "O PRÍNCIPE, CAP. VI"
+   "ref": "O PRÍNCIPE, CAP. VI",
+   "gravura_original": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
   },
   {
    "gravura": "hist/girolamo_savonarola.jpg",
@@ -207,9 +212,10 @@
    "txt": "Capítulo sete, o mais famoso desse bloco: quem chega ao poder com a sorte e as armas dos outros. O personagem principal é César Bórgia, filho do papa Alexandre Sexto."
   },
   {
-   "gravura": "acervo/pollice_verso_gerome.jpg",
+   "gravura": "hist/commodus.jpg",
    "mov": "dir",
-   "txt": "Exemplo duro: Bórgia pôs na Romanha um governador cruel, Remirro de Orco, que impôs ordem com mão de ferro. Quando o ódio cresceu, mandou exibir o corpo dele, partido em dois, numa praça de Cesena."
+   "txt": "Exemplo duro: Bórgia pôs na Romanha um governador cruel, Remirro de Orco, que impôs ordem com mão de ferro. Quando o ódio cresceu, mandou exibir o corpo dele, partido em dois, numa praça de Cesena.",
+   "gravura_original": "acervo/pollice_verso_gerome.jpg"
   },
   {
    "gravura": "borgia.jpg",
@@ -265,21 +271,24 @@
    }
   },
   {
-   "gravura": "acervo/pollice_verso_gerome.jpg",
+   "gravura": "hist/commodus.jpg",
    "mov": "esq",
    "txt": "E ataca os mercenários. São desunidos, ambiciosos, sem disciplina e sem lealdade. Valentes entre amigos, covardes diante do inimigo. Na paz te roubam, na guerra te abandonam.",
    "verso": "As armas mercenárias e auxiliares são inúteis e perigosas.",
-   "ref": "O PRÍNCIPE, CAP. XII"
+   "ref": "O PRÍNCIPE, CAP. XII",
+   "gravura_original": "acervo/pollice_verso_gerome.jpg"
   },
   {
-   "gravura": "acervo/rendicao_granada_pradilla.jpg",
+   "gravura": "hist/ferdinand_ii_of_aragon.jpg",
    "mov": "dir",
-   "txt": "Para ele, a Itália virou presa por confiar em soldados de aluguel. Tanto que o rei francês Carlos Oitavo tomou a Itália com giz, só marcando as casas onde suas tropas iam se hospedar."
+   "txt": "Para ele, a Itália virou presa por confiar em soldados de aluguel. Tanto que o rei francês Carlos Oitavo tomou a Itália com giz, só marcando as casas onde suas tropas iam se hospedar.",
+   "gravura_original": "acervo/rendicao_granada_pradilla.jpg"
   },
   {
-   "gravura": "acervo/vercingetorix_royer.jpg",
+   "gravura": "cesar.jpg",
    "mov": "cima",
-   "txt": "Pior ainda, no capítulo treze, são as tropas auxiliares, o exército de um aliado forte que vem te ajudar. Se ele perde, você cai junto. Se ele vence, você fica preso a quem te salvou."
+   "txt": "Pior ainda, no capítulo treze, são as tropas auxiliares, o exército de um aliado forte que vem te ajudar. Se ele perde, você cai junto. Se ele vence, você fica preso a quem te salvou.",
+   "gravura_original": "acervo/vercingetorix_royer.jpg"
   },
   {
    "gravura": "hist/marcus_aurelius.jpg",
@@ -304,7 +313,7 @@
    "ref": "O PRÍNCIPE, CAP. XIV"
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel2.jpg",
    "mov": "dir",
    "txt": "Se esse vídeo já te deu mais clareza do que anos de frase solta de Maquiavel, segue o canal e abre a playlist O Príncipe explicado. Agora vem a parte mais polêmica do livro.",
    "cta": "Segue o <b>Raposa e Leão</b><br>e veja a playlist <b>O Príncipe explicado</b>",
@@ -312,7 +321,8 @@
     "tipo": "segue",
     "txt": "Segue pra próxima lição"
    },
-   "conv": true
+   "conv": true,
+   "gravura_original": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
   },
   {
    "gravura": "maquiavel.jpg",
@@ -355,11 +365,12 @@
    }
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel.jpg",
    "mov": "in",
    "txt": "Mas, como é difícil juntar as duas, se tiver de escolher, é mais seguro ser temido. O amor é um laço que as pessoas rompem quando convém. O temor se apoia no medo do castigo, que não falha.",
    "verso": "É muito mais seguro ser temido que amado, quando falta um dos dois.",
-   "ref": "O PRÍNCIPE, CAP. XVII"
+   "ref": "O PRÍNCIPE, CAP. XVII",
+   "gravura_original": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
   },
   {
    "gravura": "acervo/cesar_assassinato_camuccini.jpg",
@@ -476,9 +487,10 @@
    "txt": "No capítulo vinte e um, como ganhar estima. O exemplo é Fernando de Aragão, que, nas palavras de Maquiavel, virou o primeiro rei dos cristãos com grandes empreitadas, como a conquista de Granada."
   },
   {
-   "gravura": "acervo/rendicao_granada_pradilla.jpg",
+   "gravura": "hist/ferdinand_ii_of_aragon.jpg",
    "mov": "in",
-   "txt": "E o conselho sobre alianças: ficar neutro quase sempre é pior. Quem fica em cima do muro vira presa do vencedor e não ganha a gratidão do perdedor. Tome partido com clareza."
+   "txt": "E o conselho sobre alianças: ficar neutro quase sempre é pior. Quem fica em cima do muro vira presa do vencedor e não ganha a gratidão do perdedor. Tome partido com clareza.",
+   "gravura_original": "acervo/rendicao_granada_pradilla.jpg"
   },
   {
    "gravura": "acervo/castiglione_raffaello.jpg",
@@ -532,11 +544,12 @@
    "txt": "Ele diz que a Itália espera um redentor, mais escrava que os hebreus e mais dispersa que os atenienses. E que a família Médici, com um papa no trono, tem a chance da história."
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel.jpg",
    "mov": "cima",
    "txt": "E o livro termina com versos de Petrarca: a virtude contra o furor pegará em armas, e o combate será curto, porque o antigo valor nos corações italianos ainda não morreu.",
    "verso": "A virtude contra o furor tomará as armas, e o combate será curto.",
-   "ref": "O PRÍNCIPE, CAP. XXVI"
+   "ref": "O PRÍNCIPE, CAP. XXVI",
+   "gravura_original": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
   },
   {
    "gravura": "hist/alexander_the_great.jpg",
@@ -559,11 +572,12 @@
    "conv": true
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel.jpg",
    "mov": "dir",
    "txt": "No próximo vídeo da playlist O Príncipe explicado, a gente mergulha no capítulo dezoito, a raposa e o leão, com exemplos de hoje. Até a próxima lição, raposa.",
    "cta": "Próximo: <b>a raposa e o leão</b><br>Até a próxima lição, raposa",
-   "selo": "RAPOSA<br>E LEÃO"
+   "selo": "RAPOSA<br>E LEÃO",
+   "gravura_original": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
   }
  ]
 }

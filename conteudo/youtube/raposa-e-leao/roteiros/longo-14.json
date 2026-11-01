@@ -38,9 +38,10 @@
    "txt": "E no final eu te entrego a lição maior: três sinais de que uma empresa, uma família ou um país está entrando no mesmo caminho de Roma. E o remédio que Maquiavel indicava para voltar atrás."
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel2.jpg",
    "mov": "cima",
-   "txt": "Antes, uma coisa honesta. Maquiavel nunca escreveu um capítulo chamado por que Roma caiu. Essa resposta está espalhada em dois livros: os Discursos sobre Tito Lívio e O Príncipe. Hoje a gente junta as peças."
+   "txt": "Antes, uma coisa honesta. Maquiavel nunca escreveu um capítulo chamado por que Roma caiu. Essa resposta está espalhada em dois livros: os Discursos sobre Tito Lívio e O Príncipe. Hoje a gente junta as peças.",
+   "gravura_original": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
   },
   {
    "gravura": "acervo/romanos_decadencia_couture.jpg",
@@ -67,11 +68,12 @@
    "txt": "Os dois lados brigavam o tempo todo. A plebe chegava a se recusar a ir para a guerra e até a sair da cidade em protesto. Muita gente olhava para isso e dizia: que bagunça."
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel.jpg",
    "mov": "in",
    "txt": "Maquiavel diz o contrário. Para ele, quem condena essas brigas está condenando a primeira causa da liberdade de Roma. Porque foi delas que saíram as leis que protegiam todo mundo.",
    "verso": "Quem condena os tumultos entre nobres e plebe condena a primeira causa da liberdade de Roma.",
-   "ref": "DISCURSOS, LIVRO I, CAP. 4"
+   "ref": "DISCURSOS, LIVRO I, CAP. 4",
+   "gravura_original": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
   },
   {
    "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
@@ -128,9 +130,10 @@
    }
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel.jpg",
    "mov": "cima",
-   "txt": "Maquiavel não tinha ilusão sobre as pessoas. No terceiro capítulo dos Discursos, ele diz que quem funda uma república precisa supor que os homens são maus, e que vão agir mal sempre que tiverem chance."
+   "txt": "Maquiavel não tinha ilusão sobre as pessoas. No terceiro capítulo dos Discursos, ele diz que quem funda uma república precisa supor que os homens são maus, e que vão agir mal sempre que tiverem chance.",
+   "gravura_original": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
   },
   {
    "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
@@ -178,21 +181,24 @@
    }
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel.jpg",
    "mov": "in",
    "txt": "Ele diz que tudo o que existe tem um tempo de vida. E que as repúblicas e as religiões só duram muito se forem trazidas de volta, com frequência, aos princípios que as fizeram nascer.",
    "verso": "Para durar muito, uma república precisa ser trazida de volta, com frequência, aos seus princípios.",
-   "ref": "DISCURSOS, LIVRO III, CAP. 1"
+   "ref": "DISCURSOS, LIVRO III, CAP. 1",
+   "gravura_original": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
   },
   {
-   "gravura": "acervo/vercingetorix_royer.jpg",
+   "gravura": "hist/marcus_equestre.jpg",
    "mov": "out",
-   "txt": "Por quê? Porque todo começo tem alguma bondade, alguma força. É por isso que a coisa cresceu. Com o tempo, essa bondade vai se gastando, e se ninguém renova, o corpo morre."
+   "txt": "Por quê? Porque todo começo tem alguma bondade, alguma força. É por isso que a coisa cresceu. Com o tempo, essa bondade vai se gastando, e se ninguém renova, o corpo morre.",
+   "gravura_original": "acervo/vercingetorix_royer.jpg"
   },
   {
-   "gravura": "acervo/cesar_morte_gerome.jpg",
+   "gravura": "cesar.jpg",
    "mov": "cima",
-   "txt": "Um exemplo que ele dá: quando os gauleses tomaram Roma, a cidade levou um susto tão grande que voltou a respeitar suas leis e sua religião. A desgraça fez Roma renascer."
+   "txt": "Um exemplo que ele dá: quando os gauleses tomaram Roma, a cidade levou um susto tão grande que voltou a respeitar suas leis e sua religião. A desgraça fez Roma renascer.",
+   "gravura_original": "acervo/cesar_morte_gerome.jpg"
   },
   {
    "gravura": "acervo/leao_x_raffaello.jpg",
@@ -224,16 +230,18 @@
    }
   },
   {
-   "gravura": "acervo/pollice_verso_gerome.jpg",
+   "gravura": "hist/commodus.jpg",
    "mov": "dir",
-   "txt": "Corrupção, para ele, não é só roubar dinheiro público. É quando os costumes se estragam e o cidadão deixa de pensar no bem comum para pensar só no próprio lado."
+   "txt": "Corrupção, para ele, não é só roubar dinheiro público. É quando os costumes se estragam e o cidadão deixa de pensar no bem comum para pensar só no próprio lado.",
+   "gravura_original": "acervo/pollice_verso_gerome.jpg"
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel.jpg",
    "mov": "cima",
    "txt": "E ele faz um alerta pesado no capítulo 17: um povo corrompido que ganha a liberdade quase não consegue mantê-la. Quando os Tarquínios caíram, Roma ainda era sadia. Por isso a república vingou.",
    "verso": "Um povo corrompido que conquista a liberdade com enorme dificuldade consegue mantê-la.",
-   "ref": "DISCURSOS, LIVRO I, CAP. 17"
+   "ref": "DISCURSOS, LIVRO I, CAP. 17",
+   "gravura_original": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
   },
   {
    "gravura": "acervo/cesar_assassinato_camuccini.jpg",
@@ -256,9 +264,10 @@
    "txt": "Daí em diante, ele conta, cada lado arranjou seu chefe armado. Mário, do lado do povo. Sila, do lado dos nobres. Depois César herdou o partido de Mário, e Pompeu, o de Sila."
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel.jpg",
    "mov": "in",
-   "txt": "Lembra da primeira lição? Por mais de trezentos anos, diz Maquiavel, a briga virava lei. Agora a briga virava exército. Esse é o ponto exato em que, para Maquiavel, a doença entrou no corpo de Roma."
+   "txt": "Lembra da primeira lição? Por mais de trezentos anos, diz Maquiavel, a briga virava lei. Agora a briga virava exército. Esse é o ponto exato em que, para Maquiavel, a doença entrou no corpo de Roma.",
+   "gravura_original": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
   },
   {
    "gravura": "acervo/prisao_cristo_caravaggio.jpg",
@@ -280,11 +289,12 @@
    "txt": "Em Roma, o ditador era um cargo legal, para emergências. Numa guerra ou numa crise, um homem recebia poder total, mas por tempo curto, no máximo seis meses, e sem poder mudar as leis da república."
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel.jpg",
    "mov": "dir",
    "txt": "E Maquiavel diz que essa ditadura fez bem a Roma, e não mal. O perigo, segundo ele, não é a autoridade dada pelo voto, com limite. É a autoridade que alguém toma por conta própria.",
    "verso": "A ditadura fez bem a Roma; o mal vem da autoridade tomada à força, não da dada pelo voto.",
-   "ref": "DISCURSOS, LIVRO I, CAP. 34"
+   "ref": "DISCURSOS, LIVRO I, CAP. 34",
+   "gravura_original": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
   },
   {
    "gravura": "acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg",
@@ -297,11 +307,12 @@
    "txt": "A conclusão dele é cirúrgica. Poder dado de graça e por muito tempo, sem ninguém para vigiar, apodrece. O problema não é ter poder em hora de crise. É o poder que não tem prazo para acabar."
   },
   {
-   "gravura": "acervo/vercingetorix_royer.jpg",
+   "gravura": "cesar.jpg",
    "mov": "cima",
    "txt": "E tem um capítulo do terceiro livro que fecha esse raciocínio. Maquiavel diz que o que tornou Roma serva foi o prolongamento dos comandos militares. Generais ficando anos e anos à frente das mesmas tropas.",
    "verso": "O prolongamento dos comandos militares tornou Roma serva.",
-   "ref": "DISCURSOS, LIVRO III, CAP. 24"
+   "ref": "DISCURSOS, LIVRO III, CAP. 24",
+   "gravura_original": "acervo/vercingetorix_royer.jpg"
   },
   {
    "gravura": "acervo/hannibal_and_scipio_africanus.jpg",
@@ -324,13 +335,14 @@
    "txt": "E aí vem o homem que juntou tudo: exército fiel, facção do povo e uma ditadura que não quis devolver. E guarda esta: mais adiante aparece um imperador que Maquiavel descreve com o nome deste canal."
   },
   {
-   "gravura": "acervo/vercingetorix_royer.jpg",
+   "gravura": "hist/marcus_equestre.jpg",
    "mov": "out",
    "txt": "César conquistou a Gália, viu Vercingetórix se render aos seus pés e voltou com um exército que seguia só ele. Cruzou o Rubicão, venceu Pompeu e virou senhor de Roma.",
    "cap": {
     "sup": "LIÇÃO 6",
     "txt": "César: a glória que enganou"
-   }
+   },
+   "gravura_original": "acervo/vercingetorix_royer.jpg"
   },
   {
    "gravura": "cesar.jpg",
@@ -343,16 +355,18 @@
    "txt": "Naquele mesmo ano, nos idos de março, César foi morto a punhaladas no senado. Os conspiradores achavam que estavam salvando a república. Mas, como você viu na lição 4, ela não voltou."
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel.jpg",
    "mov": "in",
    "txt": "E agora a frase que muita gente não conhece. No capítulo 10, Maquiavel escreve: que ninguém se deixe enganar pela glória de César. Para ele, César foi o primeiro tirano de Roma.",
    "verso": "Que ninguém se deixe enganar pela glória de César.",
-   "ref": "DISCURSOS, LIVRO I, CAP. 10"
+   "ref": "DISCURSOS, LIVRO I, CAP. 10",
+   "gravura_original": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
   },
   {
-   "gravura": "acervo/jean_l_on_g_r_me_the_death_of_caesar_walters_378.jpg",
+   "gravura": "cesar.jpg",
    "mov": "out",
-   "txt": "E ele explica por que tantos escritores elogiaram César: estavam encantados com a sorte dele e com medo do império que governava em seu nome. Não podiam falar livremente."
+   "txt": "E ele explica por que tantos escritores elogiaram César: estavam encantados com a sorte dele e com medo do império que governava em seu nome. Não podiam falar livremente.",
+   "gravura_original": "acervo/jean_l_on_g_r_me_the_death_of_caesar_walters_378.jpg"
   },
   {
    "gravura": "maquiavel.jpg",
@@ -392,9 +406,10 @@
    "ref": "O PRÍNCIPE, CAP. XIX"
   },
   {
-   "gravura": "acervo/pollice_verso_gerome.jpg",
+   "gravura": "hist/commodus.jpg",
    "mov": "dir",
-   "txt": "E ele aponta um problema que só Roma tinha. Os imperadores precisavam agradar o povo, que queria paz, e os soldados, que queriam guerra, dinheiro e liberdade para saquear. Agradar um era irritar o outro."
+   "txt": "E ele aponta um problema que só Roma tinha. Os imperadores precisavam agradar o povo, que queria paz, e os soldados, que queriam guerra, dinheiro e liberdade para saquear. Agradar um era irritar o outro.",
+   "gravura_original": "acervo/pollice_verso_gerome.jpg"
   },
   {
    "gravura": "hist/marcus_equestre.jpg",
@@ -412,14 +427,16 @@
    "txt": "E o herdeiro de Marco foi o filho, Cômodo. Tinha tudo para ser fácil: bastava seguir o pai. Mas foi cruel, entregou-se aos soldados e chegou a descer à arena para lutar com gladiadores."
   },
   {
-   "gravura": "acervo/pollice_verso_gerome.jpg",
+   "gravura": "hist/arco_severo.jpg",
    "mov": "esq",
-   "txt": "Para Maquiavel, isso o rebaixou. O imperador virou espetáculo, e os próprios soldados passaram a desprezá-lo. Odiado de um lado, desprezado do outro. Cômodo foi morto numa conspiração."
+   "txt": "Para Maquiavel, isso o rebaixou. O imperador virou espetáculo, e os próprios soldados passaram a desprezá-lo. Odiado de um lado, desprezado do outro. Cômodo foi morto numa conspiração.",
+   "gravura_original": "acervo/pollice_verso_gerome.jpg"
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel.jpg",
    "mov": "dir",
-   "txt": "Agora, o nome que eu te prometi lá no começo: Pertinax. Feito imperador contra a vontade dos soldados, que tinham se acostumado à bagunça do tempo de Cômodo. Ele quis colocar ordem."
+   "txt": "Agora, o nome que eu te prometi lá no começo: Pertinax. Feito imperador contra a vontade dos soldados, que tinham se acostumado à bagunça do tempo de Cômodo. Ele quis colocar ordem.",
+   "gravura_original": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
   },
   {
    "gravura": "hist/bonfire_of_the_vanities.jpg",
@@ -495,9 +512,10 @@
    "txt": "Segundo sinal: os costumes se gastaram. As regras continuam no papel, mas ninguém mais acredita nelas. Cada um pensa na própria vantagem. Lembra? Lei sem bom costume não é obedecida."
   },
   {
-   "gravura": "acervo/cesar_morte_gerome.jpg",
+   "gravura": "cesar.jpg",
    "mov": "out",
-   "txt": "Terceiro sinal: o poder sem prazo. Alguém que recebeu autoridade para uma crise e nunca devolveu. Uma pessoa sem a qual nada funciona, e a quem a equipe é mais fiel do que à própria casa."
+   "txt": "Terceiro sinal: o poder sem prazo. Alguém que recebeu autoridade para uma crise e nunca devolveu. Uma pessoa sem a qual nada funciona, e a quem a equipe é mais fiel do que à própria casa.",
+   "gravura_original": "acervo/cesar_morte_gerome.jpg"
   },
   {
    "gravura": "maquiavel.jpg",
@@ -515,9 +533,10 @@
    "txt": "Na família: combinado claro, discussão sem humilhação e o costume de lembrar por que vocês estão juntos. Família também vive de leis e costumes."
   },
   {
-   "gravura": "acervo/rendicao_granada_pradilla.jpg",
+   "gravura": "hist/ferdinand_ii_of_aragon.jpg",
    "mov": "in",
-   "txt": "No país: instituições que deixam o povo e os poderosos se vigiarem, e desconfiança de quem pede poder de emergência sem data para acabar. Isso não é de esquerda nem de direita. É a lição de Roma."
+   "txt": "No país: instituições que deixam o povo e os poderosos se vigiarem, e desconfiança de quem pede poder de emergência sem data para acabar. Isso não é de esquerda nem de direita. É a lição de Roma.",
+   "gravura_original": "acervo/rendicao_granada_pradilla.jpg"
   },
   {
    "gravura": "acervo/castiglione_raffaello.jpg",
@@ -540,9 +559,10 @@
    "conv": true
   },
   {
-   "gravura": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg",
+   "gravura": "maquiavel.jpg",
    "mov": "dir",
-   "txt": "Recapitulando: Roma ficou forte com briga que virava lei, com leis apoiadas em costumes e com a coragem de voltar às origens. E começou a cair quando a briga virou facção e o poder perdeu o prazo."
+   "txt": "Recapitulando: Roma ficou forte com briga que virava lei, com leis apoiadas em costumes e com a coragem de voltar às origens. E começou a cair quando a briga virou facção e o poder perdeu o prazo.",
+   "gravura_original": "acervo/portrait_of_niccol_machiavelli_by_santi_di_tito.jpg"
   },
   {
    "gravura": "cesar.jpg",
