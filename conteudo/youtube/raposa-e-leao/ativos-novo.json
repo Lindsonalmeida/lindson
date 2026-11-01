@@ -47,7 +47,6 @@
  "short-29-dur": "0:32",
  "short-30.mp4": "/_blob/98033e6d47d854aff7ff9a6fabd09f6b",
  "short-30-dur": "0:33",
-<<<<<<< Updated upstream
  "longo-07.mp4": "/_blob/010cfa0df9d769d47e97fe58ba5f99a9",
  "longo-07-A.jpg": "/_blob/1da8e2dc406ece3218090e0ae7e112ae",
  "longo-07-B.jpg": "/_blob/dc502556a235783250777ab8ee6c96e0",
@@ -67,8 +66,7 @@
  "longo-11.mp4": "/_blob/0ce060f10f3ac1c2596a5f802aa5fde9",
  "longo-11-A.jpg": "/_blob/67deeb080d3e37e9a5c1277659bb91a9",
  "longo-11-B.jpg": "/_blob/f4624fd7ea1dca1848424d8d6be81efd",
- "longo-11-dur": "17:12"
-=======
+ "longo-11-dur": "17:12",
  "short-01.jpg": "/_blob/b6450004e6f9029b6a9a527fc7691ed8",
  "short-02.jpg": "/_blob/4a915173aaab8a2b43b3ca315fb6172f",
  "short-03.jpg": "/_blob/3ae1c7b47c24feca1eab55c1b5375089",
@@ -117,5 +115,4 @@
  "longo-15-B.jpg": "/_blob/ff5b7b4d09c13a7937cd517ede51718a",
  "longo-16-A.jpg": "/_blob/0ad7d946265a1561881a0933c7397efc",
  "longo-16-B.jpg": "/_blob/cea2f45e9b19474d63b6d3dff734f1b6"
->>>>>>> Stashed changes
 }
