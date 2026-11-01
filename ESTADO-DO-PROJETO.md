@@ -84,3 +84,9 @@ Processo completo em `conteudo/youtube/passaporte/PROCESSO.md` e `conteudo/youtu
 - Passaporte: `conteudo/youtube/passaporte/pesquisa/` (estratégia, pesquisa de dores, estilos de vídeo, nomes) e `IDENTIDADE.md`.
 - Raposa e Leão: `IDENTIDADE.md`, `ROTEIROS-SHORTS.md`, `ROTEIROS-LONGOS.md`.
 - Peter (YouTube): `.claude/agents/peter.md`.
+
+## Central do Cliente (conta Lindson, 01/11/2026)
+- **No ar:** https://lindsonalmeida.pages.dev. Um sistema só: o cliente cria a conta uma vez com senha e código e depois entra com e-mail e senha; o admin vê tudo.
+- **Site montado:** repositório privado `Lindsonalmeida/CentralLindsonALmeida`.
+- **Fonte:** `agencia/sistema-clientes/` (ver `site/README.md`).
+- **Atualizar:** rode `site/montar-site.py`, copie `functions/` e o conteúdo de `publico/` para a raiz do repositório privado e faça push. A Cloudflare publica sozinha.

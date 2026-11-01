@@ -1,5 +1,7 @@
 # Central do Cliente no ar (Cloudflare Pages + Functions)
 
+**No ar desde 01/11/2026: https://lindsonalmeida.pages.dev** · repositório privado `Lindsonalmeida/CentralLindsonALmeida` · projeto Cloudflare `lindsonalmeida` (conta Cloudflare do Lindson), KV `centra-contas` ligado como `Contas` (o site aceita `CONTAS` ou `Contas`).
+
 Montado pela conta Lindson em 01/11/2026. Site da Central do Cliente: tela de acesso com e-mail e código, painel de cada cliente e painel do administrador (Lindson).
 
 ## Como funciona o acesso (um sistema só)
