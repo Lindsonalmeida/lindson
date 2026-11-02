@@ -1,5 +1,7 @@
 # Nicolau Maquiavel — vida, personalidade, cartas e pessoas
 
+**Situação:** completo (rodada 1) — seções 1 a 5 (conta Lindson, versão inicial); seção 6 "Histórias e episódios", seção 7 "Conferência das cartas no original italiano", seção 8 "Cartas que faltavam", seção 9 "Uso pelo agente (complemento)" e seção 10 "Lacunas" (conta Lindson, 02/11/2026, continuação do ponto em que a conta Zuleide parou). Cartas conferidas no it.wikisource.org (48 cartas baixadas nesta sessão); correções aplicadas no texto e listadas na seção 7.
+
 Base de referência para o agente "Maquiavel conselheiro de negócios". Objetivo: ele falar com a voz, a memória e as opiniões do Maquiavel histórico, sem inventar.
 
 ## Como ler este arquivo (regras de rigor)
@@ -8,7 +10,7 @@ Base de referência para o agente "Maquiavel conselheiro de negócios". Objetivo
 - **[Interpretação]**: leitura de um estudioso (Ridolfi, Viroli, Skinner, Lee, Najemy, Inglese etc.). Não pôr na boca do Maquiavel como fato.
 - **[Tradição]**: história contada depois da morte dele, sem prova segura.
 - Citações: tradução nossa para o português; o original italiano vem entre colchetes nos trechos mais importantes, para o agente poder usar. As datas das cartas seguem o calendário moderno (Florença começava o ano em 25 de março; algumas edições antigas datam diferente).
-- **Limite desta pesquisa (02/11/2026):** nesta sessão a busca na web funcionou, mas o acesso direto às páginas (Wikisource, Treccani, Stanford) foi bloqueado pela rede do ambiente. Os trechos das cartas vêm das edições de referência citadas abaixo, conferidos pela tradição textual conhecida, não copiados de página aberta agora. Antes de usar um trecho em material publicado (post, vídeo), conferir na edição Gaeta ou Inglese.
+- **Limite desta pesquisa (02/11/2026):** nesta sessão a busca na web funcionou, mas o acesso direto às páginas (Wikisource, Treccani, Stanford) foi bloqueado pela rede do ambiente. Os trechos das cartas vêm das edições de referência citadas abaixo, conferidos pela tradição textual conhecida, não copiados de página aberta agora. Antes de usar um trecho em material publicado (post, vídeo), conferir na edição Gaeta ou Inglese. **Atualização (conta Lindson, 02/11/2026, sessão seguinte):** o acesso ao it.wikisource.org funcionou; as 48 cartas de Maquiavel transcritas lá foram baixadas e os trechos deste arquivo foram conferidos (seção 7). A ortografia do Wikisource é a de uma edição oitocentista (com "et", "huomini", "tucto" variando); diferenças só de grafia não são registradas como erro.
 
 ### Fontes de referência
 
@@ -58,7 +60,7 @@ Base de referência para o agente "Maquiavel conselheiro de negócios". Objetivo
 - **1500, julho – 1501, janeiro** — **Primeira missão à França**, à corte de **Luís XII**, com Francesco della Casa. Florença era vista como fraca e caloteira. Conversa famosa com o cardeal de Rouen (Georges d'Amboise), contada no *Príncipe* III: o cardeal disse que os italianos não entendiam de guerra; Maquiavel respondeu que os franceses não entendiam de política (*"de lo stato"*).
 - **1501, agosto** — Casa-se com **Marietta Corsini**. Tiveram ao menos seis filhos que chegaram à idade adulta ou quase (Primerana, Bernardo, Ludovico, Guido, Piero, Bartolomea "Baccina", Totto). A única carta de Marietta que sobreviveu (24 de novembro de 1503, durante a missão em Roma) mostra afeto e saudade.
 - **1502, junho** — Missão com o bispo Francesco Soderini a **César Bórgia**, o Duque Valentino, em Urbino (22–26 de junho), logo após o duque tomar a cidade de surpresa.
-- **1502, agosto–setembro** — **Piero Soderini** é eleito *gonfaloniere* vitalício (assume em 1º de novembro). Maquiavel vira homem de confiança dele (os inimigos o chamavam de *"mannerino"* de Soderini — o "carneirinho" dele).
+- **1502, agosto–setembro** — **Piero Soderini** é eleito *gonfaloniere* vitalício (assume em 1º de novembro). Maquiavel vira homem de confiança dele (os inimigos o chamavam de *"mannerino"* de Soderini — o carneiro-guia, "homem de mão" dele; o apelido aparece em 1507, quando os "uomini da bene" vetaram o nome dele para a missão ao imperador, segundo o cronista Cerretani, citado no DBI, verbete Vettori, 2020).
 - **1502, outubro – 1503, janeiro** — **Legação junto a César Bórgia** (Ímola, Cesena, Senigália). Assiste por dentro à crise dos capitães revoltados (dieta da Magione) e à armadilha de **Senigália (31 de dezembro de 1502)**, onde o duque prende e manda estrangular Vitellozzo Vitelli e Oliverotto da Fermo (os Orsini morrem em 18 de janeiro de 1503).
 - **1503, março** — Escreve *Parole da dirle sopra la provisione del danaio* (discurso para convencer o Grande Conselho a votar impostos para um exército): "sem força as cidades não se mantêm".
 - **1503, verão** — *Del modo di trattare i popoli della Valdichiana ribellati*: "o mundo sempre foi habitado por homens que tiveram sempre as mesmas paixões".
@@ -198,13 +200,13 @@ Vettori era embaixador de Florença junto ao papa Leão X em Roma. A correspond�
 - **18 de março de 1513** — A frase da coragem: "suportei com tanta firmeza que eu mesmo gosto de mim". Também: "se estes nossos novos senhores acharem bom não me deixar no chão, ficarei contente".
 - **9 de abril de 1513** — "Não sabendo falar de seda nem de lã, nem de ganhos e perdas, preciso falar do Estado." Revela que política era a única "profissão" dele.
 - **29 de abril de 1513** — Longa análise da trégua entre França e Espanha: Fernando de Aragão como modelo de rei astuto que usa a religião como pretexto (o mesmo retrato aparece no *Príncipe* XXI).
-- **10 de agosto e 26 de agosto de 1513** — Debate com Vettori sobre o perigo dos **suíços**: Maquiavel diz que eles, "armadíssimos e libérrimos", podem virar novos romanos; Vettori acha exagero. Revela a obsessão com armas próprias.
+- **10 de agosto e 26 de agosto de 1513** — Debate com Vettori sobre o perigo dos **suíços**: Maquiavel diz que "os melhores exércitos são os dos povos armados" e que os suíços, se não fazem "um império como os romanos", podem virar "árbitros da Itália" [*"Io non credo già che faccino uno imperio come e Romani, ma io credo bene che possino diventare arbitri di Italia"*, 26/8/1513, conferido]; Vettori acha exagero. ("Armatissimi e liberissimi" é do *Príncipe* XII, não da carta.) Revela a obsessão com armas próprias.
 - **23 de novembro de 1513 (de Vettori)** — Vettori descreve sua vida tranquila em Roma (missa, passeios, leitura dos antigos, poucas visitas) e convida o amigo. Provoca a resposta famosa.
 - **10 de dezembro de 1513** — A carta do dia na taberna e da noite com os antigos (ver 2.4). Anuncia o *De principatibus*, pergunta se deve oferecê-lo a Giuliano de' Medici e se deve levá-lo pessoalmente a Roma.
 - **19 de dezembro de 1513 / janeiro de 1514** — Vettori pede para ver o livro; responde com histórias de amores romanos. Maquiavel responde no mesmo tom.
 - **10 de junho de 1514** — Desânimo: vai ficar "entre os meus piolhos", sem que ninguém se lembre do serviço dele, e diz que assim não pode continuar sem cair na miséria.
 - **3 de agosto de 1514** — Conta que se apaixonou no campo, abandonou as reflexões sobre grandes coisas e "não tenho mais prazer em ler as coisas antigas nem em discorrer sobre as modernas". Mostra o lado sensual e autoirônico.
-- **10 e 20 de dezembro de 1514** — Pareceres sobre se o papa deve tomar partido entre França e Espanha. Defende que a **neutralidade** é perigosa: "o neutro é odiado pelo vencedor e desprezado pelo vencido" (ideia que reaparece no *Príncipe* XXI). Ele sabia que Vettori mostraria a carta ao papa: é uma candidatura disfarçada.
+- **10 e 20 de dezembro de 1514** — Pareceres sobre se o papa deve tomar partido entre França e Espanha. Defende que a **neutralidade** é perigosa: "quem fica neutro é odiado por quem perde e desprezado por quem vence" [*"chi sta neutrale conviene che sia odiato da chi perde, et disprezzato da chi vince"*, 20/12/1514, conferido; versão anterior deste arquivo invertia os termos] (ideia que reaparece no *Príncipe* XXI). Ele sabia que Vettori mostraria a carta ao papa: é uma candidatura disfarçada.
 - **31 de janeiro de 1515** — "Imitamos a natureza, que é variada" (ver 2.3). Inclui um soneto sobre o amor.
 - Depois de 1515 a correspondência rareia; Vettori não conseguiu emprego para ele.
 
@@ -246,7 +248,7 @@ Guicciardini (1483–1540), aristocrata, jurista, governador papal de Módena e 
 - **Contato**: conclave de 1503; campanha de 1506 (Perúgia, Bolonha); diplomacia 1510–1511.
 - **Opinião**: homem impetuoso, que vencia porque os tempos pediam ímpeto (*Príncipe* XXV): "o papa Júlio II procedeu em todas as suas ações impetuosamente; e encontrou tanto os tempos e as coisas conformes a esse seu modo de proceder que sempre teve feliz êxito"; se os tempos pedissem cautela, "viria a sua ruína". Em *Príncipe* XI elogia que fez a Igreja grande pelas armas. Em *Discursos* I.27 conta Perúgia: Baglioni, "homem incestuoso e parricida", não ousou prender o papa desarmado, perdendo a chance de uma maldade "com grandeza".
 
-### Piero Soderini (1450–1522)
+### Piero Soderini (17/3/1451 – 13/6/1522; datas do DBI, vol. 93, 2018)
 
 - **Relação**: chefe e protetor de 1502 a 1512; Maquiavel era o "mannerino" dele.
 - **Opinião**: honesto e bom, mas fraco. *Discursos* III.3: Soderini achava que com paciência e bondade venceria a inveja dos inimigos dos Médici, e não "matou os filhos de Bruto"; "não sabia ser mau". *Discursos* III.9: perdeu porque, quando os tempos pediam romper a paciência, não soube mudar. O epigrama do limbo (ver 2.1) resume o desprezo afetuoso. Em vida Maquiavel o serviu com lealdade e escreveu a ele após a queda; Soderini, no exílio, chegou a lhe oferecer emprego em Ragusa e com Prospero Colonna (1521), que ele recusou.
@@ -292,3 +294,130 @@ Guicciardini (1483–1540), aristocrata, jurista, governador papal de Módena e 
 - Tom: franco, irônico, com regra geral + exemplo antigo + exemplo moderno; pode brincar consigo mesmo e com a fortuna.
 - Nunca atribuir a ele "os fins justificam os meios" como frase literal (ver `outras-obras.md`, seção de mitos).
 - Quando falar de fatos que estão marcados aqui como [Interpretação] ou [Tradição], dizer "dizem os que escreveram sobre mim" ou equivalente.
+
+---
+
+## 6. Histórias e episódios (com grau de certeza)
+
+Seção nova (conta Lindson, 02/11/2026). Fonte principal: `frente-lindson/historias-e-curiosidades.md`, **só com o que ainda não estava no acervo**; o que já está em outro arquivo vai por remissão. Graus: **Fato documentado**; **[Provável]** = bem fundamentado, com lacuna documental; **[Tradição]** = anedota tardia, só como "conta-se".
+
+| # | Episódio | Grau | Fonte / onde conferir |
+|---|---|---|---|
+| 6.1 | **Remirro em Cesena (26/12/1502).** No despacho do dia, Maquiavel escreve aos Dez, seco, que não se sabe bem a razão da morte, "senão que assim agradou ao príncipe, que mostra saber fazer e desfazer os homens conforme os méritos deles". No *Príncipe* VII a cena vira lição ("satisfatti e stupidi"). O DBI (Gilbert) acrescenta que o duque justificou publicamente a condenação pelas "gravi corrutele, estorsioni e rapine" do governador. | Fato documentado (o despacho existe; texto italiano **não conferido** nesta sessão) | *Legazioni*, Valentino, 26/12/1502; DBI "Borgia, Cesare" |
+| 6.2 | **A noite de Senigália (31/12/1502).** O duque chama Maquiavel e lhe diz, de rosto alegre, que fez aquilo também em favor de Florença. Vitellozzo e Oliverotto estrangulados na mesma noite; Paolo Orsini e o duque de Gravina em 18/1/1503. O detalhe "estrangulados sentados de costas um para o outro" é de narrativa posterior. | Fato documentado (o encontro); [Tradição] (o detalhe das costas) | *Legazioni*, 31/12/1502–1/1/1503; *Descrizione*. O DBI (Oliverotto, Zaccaria 1993) avisa que as versões "não são todas unívocas" e que a fonte mais confiável é uma carta do comissário Giovanni Ridolfi, três dias depois |
+| 6.3 | **"Pensei em tudo, menos em estar morrendo também."** Nos dias da eleição de Júlio II, César disse a Maquiavel que tinha previsto tudo o que aconteceria com a morte do pai, menos que ele próprio estaria à morte. | Texto (Maquiavel relata em discurso indireto) | *Príncipe* VII (ver `principe.md`) |
+| 6.4 | **Caterina Sforza na muralha (1488).** Com os filhos reféns dos assassinos do marido, sobe na fortaleza e grita que tem como fazer outros filhos; versões posteriores acrescentam um gesto obsceno. Maquiavel narra o episódio como fato, mas não foi testemunha (ele tinha 19 anos). O próprio encontro dele com Caterina (Forlì, julho de 1499), em que ela recua do acordo no último dia, é documentado. | [Tradição] o gesto; Fato documentado a missão | *Discorsi* III.6; *Istorie* VIII.34 (texto dos dois **não conferido** nesta sessão); Elizabeth Lev, *The Tigress of Forlì* (2011, en.) |
+| 6.5 | **A velha de Verona (8/12/1509).** Carta obscena a Luigi Guicciardini: uma lavadeira o leva a uma casa "mais de meio subterrânea", onde ele, no escuro, se deita com uma mulher que, à luz, se revela horrenda; ele a descreve em detalhes grotescos e vomita. | Fato documentado (a carta, **conferida**: "In Verona die VIII Decembris 1509"); [Provável] que seja exercício burlesco e não relato | Wikisource, Lettera II a Luigi Guicciardini; Atkinson e Sices (1996, en.) |
+| 6.6 | **"Procura-se" (19/2/1513).** O bando lido pelo pregoeiro mandando Maquiavel se apresentar, e o pagamento a quatro cavaleiros mandados atrás dele, foram achados em 2013 por **Stephen Milner** (Universidade de Manchester) no Archivio di Stato de Florença. | Fato documentado (anúncio da universidade; documento não visto nesta sessão) | Univ. de Manchester, fev. 2013; Villa I Tatti (Harvard), 2013 |
+| 6.7 | **O nome na lista de Boscoli.** Cerca de vinte nomes; o de Maquiavel seria o sétimo. | [Provável] (posição e número) | Ridolfi |
+| 6.8 | **Fiança de mil florins (10/11/1512)**, paga por três amigos, para o ano de confinamento. | Fato documentado | Deliberações de 7 e 10/11/1512, em Ridolfi |
+| 6.9 | **Os sonetos da cela.** Além do "Io ho, Giuliano, in gamba un paio di geti" (já citado na seção 1), um segundo soneto ("In questa notte, pregando le Muse") conta os frades cantando de madrugada para os condenados que iam morrer; e um terceiro acompanha **tordos** caçados por ele: "Io vi mando, Giuliano, alquanti tordi", para que "do pobre Maquiavel Vossa Magnificência se recorde". A carta de 10/12/1513 (conferida) confirma o hábito: "Ho insino a qui uccellato a' tordi di mia mano... pigliavo el meno dua, el più sei tordi". | Fato documentado (textos); atribuição dos sonetos aceita | Ver `literatura.md` (poesia curta); carta de 10/12/1513 |
+| 6.10 | **A dedicatória e os cães de caça.** Lorenzo teria dado mais atenção a um par de cães recebidos no mesmo dia, e Maquiavel teria saído dizendo que não era homem de conspirar, mas que, tratado assim, faria coisa pior. Vem de anotação do séc. XVI (Riccardo Riccardi). | [Tradição] | Ridolfi (desconfia); já registrado na seção 1 |
+| 6.11 | **"Il Machia".** Os colegas da chancelaria (Buonaccorsi, Vespucci) o chamavam "Machia"; as cartas deles a Maquiavel nas missões são de camaradagem, fofoca de palácio e cobrança para voltar. Inimigos faziam trocadilho com *macchia* ("mancha"). | Fato documentado (o apelido nas cartas); [Provável] o trocadilho | Cartas recebidas 1499–1512 (Atkinson e Sices); DBI Buonaccorsi (De Caro, 1972) |
+| 6.12 | **Duas horas no sol com 3 mil infantes.** Bandello conta que Maquiavel não conseguiu pôr em formação as tropas de Giovanni dalle Bande Nere e que Giovanni resolveu num instante com os tambores. | [Tradição] | Já tratado em `arte-da-guerra.md` 1.8 |
+| 6.13 | **A Mandrágora em Veneza (13/2/1522)**, com grande sucesso registrado por Marin Sanudo; e a *Clizia* no jardim do Fornaciaio (13/1/1525). | Fato documentado | Já tratado em `literatura.md` |
+| 6.14 | **As pílulas.** A carta a Guicciardini de 17/8/1525 (**conferida**) traz a receita das "pillole" que ele recomendava: aloé, *carman deos*, açafrão, mirra, betônica, pimpinela e bolo armênio. É o remédio que ele tomava nos dias antes de morrer (ver seção 1, 21/6/1527). | Fato documentado (receita); ligação com a morte = relato do filho Piero e dos biógrafos | Wikisource, Lettera VI a Francesco Guicciardini |
+| 6.15 | **"Faria de ti um homem de bem."** Na carta a Guido (2/4/1527), sobre o mulinho que enlouqueceu: os outros loucos se amarram, este deve ser solto no campo. | Fato documentado (carta **não está** no Wikisource; não conferida no original nesta sessão) | Gaeta; Atkinson e Sices |
+| 6.16 | **Confessado por frei Matteo.** Carta atribuída ao filho Piero a Francesco Nelli (22/6/1527): morreu confessado e deixou a família "em grandíssima pobreza". Alguns estudiosos questionaram a autenticidade; a maioria aceita. | [Provável] | Ridolfi; ver `recepcao-e-estudiosos.md` |
+| 6.17 | **O cão Furia.** Epigrama latino assinado "N.M." para um cão de caça do banqueiro Lorenzo Strozzi; atribuição proposta em 2013–2014. | [Provável] (atribuição debatida) | *Giornale storico della letteratura italiana* (2014), segundo a frente Lindson; não conferido |
+| 6.18 | **Os "Frammenti storici" (2020).** Fragmentos históricos de 1497 a 1515 copiados para o neto Giuliano de' Ricci, identificados na Biblioteca Nazionale Centrale de Florença. | Fato documentado a descoberta; atribuição filológica | Avvenire, 7/10/2020, segundo a frente Lindson; não conferido |
+| 6.19 | **O monumento de Santa Croce (1787)**, por subscrição do 3º conde Cowper, obra de Innocenzo Spinazzi; o lugar exato dos ossos é incerto. | Fato documentado (monumento); [Provável] (ossos) | Já tratado em `recepcao-e-estudiosos.md` |
+| 6.20 | **O sonho no leito de morte.** Ver seção 1 (morte). | [Tradição] | Busini; Binet (1629) |
+
+---
+
+## 7. Conferência das cartas no original italiano
+
+**Como foi feito (conta Lindson, 02/11/2026):** as 48 cartas de Maquiavel transcritas em it.wikisource.org ("Lettere (Machiavelli)", texto de edição oitocentista, marcado "SAL 25%", isto é, revisão incompleta) foram baixadas e cada trecho citado neste arquivo foi procurado no texto. A Edizione Nazionale (*Lettere*, Salerno) e a edição Gaeta não estavam acessíveis; quando o Wikisource diverge delas em data, isso é dito. **Não estão no Wikisource** (links vermelhos): a carta a Guido (2/4/1527), a carta a Alfonsina Orsini e a "Lettera XX a Francesco Vettori"; e também não as cartas dos *Ghiribizzi* (1506), a de 10/6/1514? (está: Lettera XVIII), a "a una gentildonna" (1512) e as cartas **recebidas** (de Vettori, Guicciardini, Marietta, Buonaccorsi).
+
+### 7.1 Datas: o problema do ano florentino
+O Wikisource conserva as datas *more florentino* (o ano começava em 25 de março). Equivalências conferidas:
+
+| Wikisource | Data moderna | Carta |
+|---|---|---|
+| "Die 13 Martii 1512" | 13/3/1513 | Lettera I a Vettori (recém-solto) |
+| "addì 18 Marzo 1512" | 18/3/1513 | Lettera II a Vettori |
+| "addì 5 di gennaio 1513" | 5/1/1514 | Lettera XIII |
+| "Addì 4 di Febbraio 1513" | 4/2/1514 | Lettera XIV |
+| "Addì 25 di Febbraio 1513" | 25/2/1514 | Lettera XV |
+| "Addì 31 di Gennaio 1514" | 31/1/1515 | Lettera XXIV ("imitiamo la natura") |
+| "Addì 3 di Gennaio 1525" | 3/1/1526 | Lettera X a Guicciardini |
+| "Addì 15 di Marzo 1525" | 15/3/1526 | Lettera XI a Guicciardini (Giovanni dalle Bande Nere) |
+| "Dabam Florentiae die 8. Martii 1497" | **8**/3/1498 | carta a Ricciardo Becchi |
+
+- **Contradição registrada:** este arquivo (seção 1 e 3.1) e a frente Lindson datam a carta a Becchi de **9/3/1498**; o Wikisource lê "die **8**. Martii 1497". A data de 9 de março é a das edições críticas modernas (Gaeta, Atkinson e Sices), segundo a frente Lindson; **não conferido** nelas nesta sessão. Manter "9/3/1498 (o Wikisource lê dia 8)".
+
+### 7.2 Trechos conferidos (batem com o original, salvo grafia)
+
+| Carta | Trecho deste arquivo | Original no Wikisource |
+|---|---|---|
+| Becchi, 8 ou 9/3/1498 | o frade "vai se adaptando aos tempos e colorindo suas mentiras" | "viene secondando e tempi, e le sua bugie colorendo" ✔ |
+| Vettori, 13/3/1513 | agradece e pede para ser empregado | "mi cominciasse a adoperare, o lui o i suoi, a qualche cosa, perché io crederei fare honore a voi ed utile a me" ✔ |
+| Vettori, 18/3/1513 | "suportei com tanta firmeza que eu mesmo gosto de mim" | "gli ho portati tanto francamente, che io stesso me ne voglio bene, e parmi essere da più che non credetti" ✔. **Ampliação:** a frase continua: se os novos senhores não o quiserem, "io mi viverò come io ci venni, che nacqui povero, ed imparai prima a stentare che a godere" [nasci pobre e aprendi a passar privação antes de aprender a gozar] |
+| Vettori, 9/4/1513 | "não sabendo falar de seda nem de lã..." | "non sapendo ragionare né dell'arte della seta, né dell'arte della lana, né dei guadagni né delle perdite, e' mi conviene ragionare dello stato, e mi bisogna o botarmi di star cheto, o ragionare di questo" ✔. Assinatura: "**Niccolò Machiavelli quondam Secret.**" (ex-secretário) |
+| Vettori, 29/4/1513 | trégua França–Espanha | ✔ (assinada "Compater N. M.") |
+| Vettori, 10 e 26/8/1513 | suíços | ✔ com **correção** (ver 7.3) |
+| Vettori, 10/12/1513 | todos os trechos da seção 2.4 | ✔ ("mi pasco di quel cibo che solum è mio e ch'io nacqui per lui"; "rinvolto in tra questi pidocchi, traggo el cervello di muffa"; "voltolare un sasso"; "della fede e bontà mia ne è testimonio la povertà mia"). Variantes só de grafia ("ritorno **a** casa" no Wikisource, "in casa" na versão anterior; "tutto"/"tucto") |
+| Vettori, 10/6/1514 | "entre os meus piolhos" | "Starommi dunque così tra' miei pidocchi, senza trovare huomo che della servitù mia si ricordi, o che creda che io possa essere buono a nulla" ✔ |
+| Vettori, 3/8/1514 | "não tenho mais prazer em ler as coisas antigas" | "non mi diletta più leggere le cose antiche, né ragionare delle moderne; tutte si sono converse in ragionamenti dolci; di che ringrazio Venere et tutta Cipri" ✔ |
+| Vettori, 10 e 20/12/1514 | neutralidade | ✔ com **correção** (ver 7.3) |
+| Vettori, 31/1/1515 | "imitamos a natureza, que é variada" | "noi imitiamo la natura, che è varia; et chi imita quella non può essere ripreso" ✔ |
+| Guicciardini, 17/5/1521 | "nunca digo o que penso..." | "da un tempo in qua, io non dico mai quello che io credo, né credo mai quel che io dico, et se pure e' mi vien detto qualche volta il vero, io lo nascondo fra tante bugie, che è difficile a ritrovarlo" ✔. O mesmo dia traz: "il vero modo ad andare in Paradiso: inparare la via dello Inferno per fuggirla" ✔. Abertura: "Io ero in sul cesso quando arrivò il vostro messo" (o tom das cartas de Carpi) |
+| Guicciardini, 18 e 19/5/1521 | mensageiros para impressionar os frades | ✔ (18/5: "il fumo ne è ito sino al cielo"; assinatura "Nicolaus Maclavellus orator pro Republica Florentina ad Fratres Minores") |
+| Guicciardini, 30/8/1524 | "se ofendo demais, exaltando ou rebaixando" | "harei bisogno di intendere da voi se offendo troppo o con lo esaltare o con lo abbassare le cose... ingegnerommi di fare in modo che, dicendo il vero, nessuno si possa dolere" ✔. Abertura: "Ho atteso et attendo in villa a scrivere la historia" |
+| Guicciardini, 1525 | "historico, comico et tragico" | ✔ — mas o Wikisource **não traz data**; 21/10/1525 é a data das edições críticas (não conferida). A mesma carta diz que recebeu aumento "insino in cento ducati per la Historia" e que "comincio hora a scrivere di nuovo, et mi sfogo accusando i principi, che hanno fatto tutti ogni cosa per condurci qui" |
+| Guicciardini, 15/3/1526 | Giovanni dalle Bande Nere | ✔ (o plano de fazer de Giovanni chefe de uma força que "farebbe aggirare il cervello agli Spagnuoli"); fecha com a Barbera: "la mi dà molto più da pensare che lo inperadore" |
+| Guicciardini, 17/5/1526 | "Liberate diuturna cura Italiam..." | ✔ ("extirpate has immanes belluas, quae hominis, preter faciem et vocem, nichil habent"); mesma carta: o plano de ele ser provveditore e chanceler das muralhas, ajudado por um filho |
+| Vettori, 16/4/1527 | "amo a minha pátria mais que a alma" | "Io amo messer Francesco Guicciardini, amo la patria mia più dell'anima; e vi dico questo per quella esperienzia che mi hanno dato sessanta anni" ✔ (assinada "in Furlì") |
+
+### 7.3 Correções feitas no texto deste arquivo
+
+1. **Neutralidade (20/12/1514):** a versão anterior dizia "o neutro é odiado pelo vencedor e desprezado pelo vencido". O original diz o contrário: "**odiato da chi perde, et disprezzato da chi vince**". Na mesma carta, outra regra que reaparece no *Príncipe* XIX: o príncipe não deve se tornar "o odioso, o contennendo, et se pure egli ha a lasciare uno di questi duoi, non stimi l'odio, ma guardisi dal disprezzo"; e Júlio II "non si curò mai di essere odiato, pure che fosse temuto et reverito".
+2. **Suíços (26/8/1513):** a versão anterior dizia que Maquiavel previa que os suíços "podem virar novos romanos". O original: "Io non credo già che faccino uno imperio come e Romani, ma io credo bene che possino diventare **arbitri di Italia**". A base do argumento: "li migliori exerciti che sieno, sono quelli delle populationi armate" (Romanos, Espartanos, Atenienses, Etólios, Aqueus, Assírios de Nino, Persas de Ciro, Macedônios de Alexandre); exceções: só "Annibale et Pirro" fizeram grandes coisas com exércitos "collettitii". "Armatissimi e liberissimi" é do *Príncipe* XII.
+3. **"Mannerino":** não é "carneirinho"; é o carneiro-guia castrado, o "homem de mão" de Soderini. O apelido aparece na eleição de 1507 para a missão ao imperador (Cerretani, citado no DBI, verbete Vettori, Simonetta 2020).
+4. **Piero Soderini:** 17/3/1451 – 13/6/1522 (DBI, vol. 93, 2018), não 1450.
+5. **Idade em 10/12/1513:** Maquiavel escreve "quarantatré anni, che io ho"; nascido em 3/5/1469, tinha na verdade **44**. Não é erro de transcrição deste arquivo: é ele que arredonda (ou conta pelo ano florentino). Ao citar, manter "quarenta e três" entre aspas.
+
+---
+
+## 8. Cartas que faltavam (ampliação, todas conferidas no Wikisource)
+
+| Data (moderna) | Para | O que diz | Trecho original | Para o agente |
+|---|---|---|---|---|
+| 16/4/1513 | Vettori | Gratidão aos Vettori | "tutto il bene mio ha ad essere sempre vostro et della casa vostra, dalla quale io riconosco tutto quello che mi è restato" | Gratidão explícita a quem ajuda na hora ruim |
+| 20/6/1513 | Vettori | Paz entre França e Espanha feita "sem participação de outros" seria perigosíssima | "la quale pace, quando la facesse, sarebbe pericolosissima, facendola senza partecipazione di altri" | Acordo entre gigantes sem você na mesa é contra você |
+| 10/8/1513 | Vettori | "Voi non volete che questo povero re di Francia rihabbi la Lombardia, et io vorrei"; ameaça brincando que, se Vettori não o deixar firme nas "materie gravi", vai receber "un testamento d'asino" | — | Discordar do amigo poderoso, com humor |
+| 25/8/1513 | Vettori | Pedido de favor para Donato del Corno | "Sono a li vostri comandi" | Usa a rede para os amigos, não só para si |
+| 19/12/1513 | Vettori | Um frade franciscano "meio eremita", que se faz de profeta para ter crédito, prega em Santa Croce o anúncio de um papa injusto e falsos profetas; Maquiavel não foi ouvir | "questa nostra città, calamita di tutti i ciurmatori del mondo"; "La predica io non la udi', perché io non uso simili pratiche, ma la ho sentita recitare così da tutto Firenze" | Ceticismo frente aos "profetas" do mercado; Florença como ímã de charlatães |
+| 5/1/1514 | Vettori | Defende Vettori das fofocas romanas: o homem bom "fa come il mosto mentre bolle, che dà del sapore suo a' vasi che sanno di muffa, et non piglia della muffa de' vasi" | "seguite gli instituti vostri" | Siga o seu método, deixe falar |
+| 25/2/1514 | Vettori | Conselho amoroso a Vettori, com Boccaccio | "è meglio fare et pentirsi, che non fare et pentirsi" | Arrependimento por agir vale mais que por omissão (frase de Boccaccio, *Decameron* III.5, que ele adota) |
+| 26/12/1521 | Vettori, gonfaloniere | Recomenda um amigo ("Parigino"); assina "Obligatissimus", "in villa" | "con il quale io ho tanti oblighi che Dio il voglia che io possa un dì pagarli" | — |
+| 3/8/1525 | Guicciardini | Foi ver a propriedade de **Colombaia**, que Guicciardini queria comprar, e relata como um corretor | — | O "consultor" que vê o negócio com olho de dono |
+| 17/8/1525 | Guicciardini | Receita das pílulas (ver 6.14) | "Recipe Aloè patico..." | — |
+| 19/12/1525 | Guicciardini | Política papal depois de Pavia; os conselheiros do papa só sabem repetir o que já se fez | "chi ha a fare consigliandosi con loro, non farà altro che quello si è fatto sino a qui" | Conselho de quem só repete o passado não muda nada |
+| 3/1/1526 | Guicciardini | Abre em luto (morte de uma parente de Guicciardini) e passa à política: o papa, se teme ser atacado, "ha a pensare di havere bisogno, et grande, di voi" | "Io credetti havere a cominciare questa mia lettera... in allegrezza, et io la ho a cominciare in dolore" | — |
+| 4/4/1526 e 2/6/1526 | Guicciardini | Fortificação de Florença (muralhas, San Miniato); três cartas "appartate" para Guicciardini usar como quiser junto ao papa | "Vi ho scritto queste 3 lettere appartate, perchè le possiate usare tutte come vi vien bene" | Escrever pensando em quem vai ler depois |
+| 5/11/1526 | Guicciardini | Discorda de quem promete ao cardeal "a vitória certa" | "dove io detto ho che questo non è possibile" | Desconfiar de promessa de resultado certo |
+| 5, 14 e 18/4/1527 | Vettori (de Forlì e Brisighella) | A trégua com os imperiais não é cumprida; "trattarlo senza farlo, sarebbe la certezza della rovina" | "come l'accordo, quando fosse observato, sarebbe al tutto la certezza della salute nostra, così, trattarlo senza farlo, sarebbe la certezza della rovina"; "chi gode della guerra, come fanno questi soldati, sarebbono pazzi se lodassino la pace" | Negociar sem fechar é o pior dos mundos; e não pedir conselho a quem lucra com o conflito |
+
+---
+
+## 9. Uso pelo agente (complemento)
+
+Complementa a seção 5 [Interpretação, conta Lindson]:
+- **Frases de voz conferidas** que o agente pode usar em primeira pessoa, sempre com a fonte: "nacqui povero, ed imparai prima a stentare che a godere" (18/3/1513); "quindici anni, che io sono stato a studio all'arte dello stato, non gli ho né dormiti né giuocati" (10/12/1513); "è meglio fare et pentirsi, che non fare et pentirsi" (25/2/1514, de Boccaccio); "trattarlo senza farlo, sarebbe la certezza della rovina" (18/4/1527); "chi sta neutrale conviene che sia odiato da chi perde, et disprezzato da chi vince" (20/12/1514).
+- **Para o Lindson:** a carta de 10/12/1513 é também um **pitch**: mostra o produto (o *De principatibus*), a prova ("quindici anni... a studio all'arte dello stato"), a garantia ("della fede e bontà mia ne è testimonio la povertà mia") e o pedido ("se dovessino cominciare a farmi voltolare un sasso"). Testado antes com um amigo (Casavecchia). E com o medo certo: "Ardinghelli" levar o crédito. Ensina a estruturar proposta e a proteger a autoria.
+- **Negociação (abril de 1527):** proposta parada é risco; ou fecha e cumpre, ou corta ("tagliate subito subito la pratica").
+- **Ceticismo (19/12/1513):** frente a "profetas" de resultado garantido, ele "não vai ao sermão"; o agente deve desconfiar de promessas de ganho certo (liga com `conteudo/referencias/dinheiro-online/golpes-e-riscos.md`).
+- **Datas:** antes de citar uma carta de janeiro a 24 de março, aplicar a tabela 7.1.
+
+---
+
+## 10. Lacunas (para a próxima rodada)
+
+- Conferir na **Edizione Nazionale** (*Lettere*, Salerno, 2022?) ou em Gaeta: data da carta a Becchi (8 ou 9/3/1498); data de 21/10/1525 da carta "historico, comico et tragico"; carta a Guido (2/4/1527); carta a Alfonsina Orsini; *Ghiribizzi* (1506); "a una gentildonna" (1512).
+- **Cartas recebidas** (Vettori 23/11/1513, Guicciardini 18/5/1521 "extravagante di opinione", Marietta 24/11/1503, Buonaccorsi, Vespucci, Casavecchia, Ardinghelli a Giuliano 14/2/1515): não estão no Wikisource; continuam "não conferidas no original".
+- **Legazioni**: despachos de Urbino (26/6/1502), Cesena (26/12/1502), Senigália (31/12/1502), Roma (nov. 1503) não conferidos no original; ver `missoes-e-escritos-politicos.md`.
+- Lettera VI a Vettori (sem fim no Wikisource: "manca il fine") e Lettera XVII a Vettori (o Wikisource junta texto de 1513 e assinatura de 16/4/1514: conferir a divisão em edição crítica).
+- Episódios 6.6, 6.17 e 6.18: ver os documentos e artigos originais (Milner 2013; *Giornale storico* 2014; Avvenire 2020).
+- Número total de cartas privadas (cerca de 340, segundo Atkinson e Sices) e quantas são dele: não conferido.
