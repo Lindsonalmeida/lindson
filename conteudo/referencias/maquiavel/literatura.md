@@ -1,6 +1,6 @@
 # Maquiavel escritor: teatro, poesia, novela, a *Vida de Castruccio* e o *Discurso sobre a língua*
 
-**Situação:** parcial — feito até a seção 7 (Decenais). Próximas: Capítulos, poesia, Castruccio, língua, perdidos, estilo e humor, uso pelo agente.
+**Situação:** parcial — feito até a seção 8 (Capítulos). Próximas: poesia, Castruccio, língua, perdidos, estilo e humor, uso pelo agente.
 
 > **Para que serve:** dar ao agente "Maquiavel" a outra metade do homem: o comediógrafo, o poeta e o contador de histórias. É daqui que vêm o riso, a ironia, a obscenidade de taberna, a autoderrisão ("historiador, comediógrafo e trágico") e muitas das frases mais citáveis. Maquiavel dizia que a comédia é "um espelho da vida privada" (*Discurso sobre a língua*). Para o agente, isso significa: a mesma lógica do *Príncipe* aplicada a casamentos, padres, maridos, clientes e sócios.
 >
@@ -444,5 +444,78 @@
 2. **Faça rápido e entregue** ("dez anos da Itália em quinze dias"): um bom resumo útil vale mais que um tratado que nunca sai.
 3. **Quem serve bem pode ser esquecido** (Giacomini): não dependa da gratidão do cliente; documente resultados e cobre por eles.
 4. **Desconfie de quem "assobia suave"**: convite amável de quem tem motivo para te prejudicar é armadilha (Senigallia).
+
+---
+
+## 8. Capitoli
+
+### 8.1 Ficha
+
+- **O que são:** poemas morais em **tercetos dantescos** (*capitoli ternari*), em forma de carta a um amigo. Três são verdadeiros "capítulos" morais, todos **anteriores a 1512**: *Di Fortuna*, *Dell'Ingratitudine*, *Dell'Ambizione*. Dois outros costumam vir junto: *Dell'Occasione* (na verdade um **epigrama** traduzido de **Ausônio**) e o chamado *Capitolo pastorale* (écloga política) [Francesco Bausi, *Enc. mach.*, "Capitoli" e "Rime sparse"].
+- **Publicação:** póstuma, na edição Giunti de **1549** (com o *Asno* e o *Belfagor*). Edição crítica: Nicoletta Marcelli (2012). Comentário clássico: Giorgio Inglese (*Capitoli*, 1981).
+
+| Capítulo | Dedicatário | Data (Bausi) | Tamanho |
+|---|---|---|---|
+| *Di Fortuna* | **Giovan Battista Soderini** (sobrinho do gonfaloneiro Piero) | **set. 1506**, junto com a carta dos ***Ghiribizzi*** ao mesmo Soderini (13–21/09/1506), durante a missão a Júlio II | 193 versos |
+| *Dell'Ingratitudine* | **Giovanni Folchi** (amigo, comissário da milícia) | depois de **jun. 1507** (alude à saída de Gonzalo de Córdoba de Nápoles) e antes de set. 1512; ocasião provável: em jun. 1507 Maquiavel foi **preterido** na embaixada ao imperador em favor de Francesco Vettori, por veto dos inimigos de Soderini | 187 versos |
+| *Dell'Ambizione* | **Luigi Guicciardini** (irmão de Francesco) | **nov.–dez. 1509**, escrito em **Verona**, durante a missão; ocasião: briga entre os Borghese e Alfonso Petrucci em Siena e a ruína de Veneza em **Agnadello** (14/05/1509) | 187 versos |
+| *Dell'Occasione* | **Filippo de' Nerli** (só na edição de 1549) | c. 1517 ou depois (edição de Ausônio em Florença, nov. 1517) | 22 versos |
+| *Capitolo pastorale* | "Iacinto" = provavelmente **Lorenzo de' Medici, o Jovem** (Martelli 2006) | 1515–1518 (antes, Martelli pensava em antes de 1494, para Giuliano) | — |
+
+### 8.2 *Di Fortuna* (texto)
+
+- Abre ao dedicatário: *"Temer, Giovan Battista, tu non puoi, / Nè debbi in alcun modo aver paura / D'altre ferite, che de' colpi suoi"* ("Não podes temer, Giovan Battista, outras feridas senão os golpes dela [da Fortuna]"). Porque *"questa volubil creatura / Spesso si suole oppor con maggior forza, / Dove più forza vede aver natura"* ("esta criatura volúvel costuma opor-se com mais força onde vê mais força na natureza"); e *"il regno suo è sempre violento, / Se virtù eccessiva non lo ammorza"* ("o seu reino é sempre violento, se uma virtude excessiva não o amortece").
+- O que ela faz: *"Spesso costei i buon sotto i piè tiene, / Gl'improbi inalza; e se mai ti promette / Cosa veruna, mai te la mantiene"* ("muitas vezes mantém os bons sob os pés, eleva os desonestos; e se alguma vez te promete algo, nunca cumpre").
+- **O palácio da Fortuna:** aberto por todos os lados, *"ed a verun non toglie / L'entrar in quel, ma è l'uscir incerto"* ("a ninguém impede a entrada, mas a saída é incerta"); ela tem **dois rostos**, *"L'un fero, e l'altro mite"*; lá dentro giram muitas **rodas**. Os homens culpam a Fortuna pelos males e atribuem os bens à própria virtude: *"tutto quel mal, che in voi procede, / S'imputa a lei, e s'alcun ben l'uom trova, / Per sua propria virtude averlo crede"*.
+- **Os moradores:** *"Audacia, e gioventù fa miglior prova"* ("a **audácia e a juventude** se saem melhor" — mesma ideia de *Príncipe* XXV, a fortuna "amiga dos jovens"); o **Medo** prostrado no chão, "tão cheio de dúvidas que não faz nada"; a **Ocasião**, "menina descabelada e simples", brinca entre as rodas; o **Ócio** e a **Necessidade** giram a roda: *"L'una racconcia il mondo, e l'altro il guasta"* ("a Necessidade conserta o mundo, o Ócio o estraga"); **Usura e Fraude** ricas, a **Liberalidade** "rasgada e rota"; nas portas, sem olhos nem ouvidos, **Caso e Sorte**.
+- **A lição central** (o trecho mais importante): *"Colui con miglior sorte si consiglia / ... / Che ruota al suo voler conforme piglia. / Perchè gli umor, che adoperar ti fanno, / Secondo che convengon con costei, / Son cagion del tuo bene, e del tuo danno"* ("tem melhor sorte quem escolhe a roda conforme a sua vontade, porque os humores que te fazem agir, conforme combinam ou não com ela, são a causa do teu bem e do teu mal"). Mas *"non potendo tu cangiar persona, / Nè lasciar l'ordin, di che il Ciel ti dota; / Nel mezzo del cammin la t'abbandona"* ("não podendo mudar de pessoa nem largar a ordem que o céu te deu, no meio do caminho ela te abandona"). Logo: *"Sarebbe un sempre felice, e beato, / Che potesse saltar di ruota in ruota"* ("seria sempre feliz quem pudesse **pular de roda em roda**"), mas isso nos é negado. Conclusão prática: *"Però si vuol lei prender per sua stella; / E quanto a noi è possibile, ognora / Accomodarsi al variar di quella"* ("por isso convém tomá-la por estrela e, quanto possível, a toda hora **acomodar-se à variação dela**").
+- **Exemplos:** Egito, Assírios, Medos, Persas, Gregos, Roma; César e Alexandre (um não chegou ao porto, o outro morreu cheio de feridas); Ciro e Pompeu; a imagem da **águia que leva a tartaruga ao alto para deixá-la cair e comê-la**: *"Così Fortuna... / Porta uno in alto, ma che rovinando / Ella sen goda, ed ei cadendo pianga"* ("assim a Fortuna leva alguém ao alto para gozar da sua queda, e ele chora caindo"); e o **rio em cheia** que tudo arrasta (a mesma imagem de *Príncipe* XXV). Fecho: *"i trapassati giorni / Pochi sono, e felici; e que' son morti / Prima che la lor ruota indietro torni"* ("poucos foram felizes, e esses morreram antes que a roda voltasse").
+- [Interpretação, consenso] É o rascunho em verso do *Príncipe* XXV e da carta dos ***Ghiribizzi*** (1506), onde aparece a ideia de que quem soubesse mudar de natureza conforme os tempos "teria sempre boa fortuna".
+
+### 8.3 *Dell'Ingratitudine* (texto)
+
+- Abertura amarga: canta *"come del servir gli anni sien persi, / Come in fra rena si semini, ed acque"* ("como se perdem os anos servindo, como se semeia em areia e água").
+- **Genealogia:** a Ingratidão nasceu quando o céu se irritou com a glória dos vivos; *"Fu d'Avarizia figlia, e di Sospetto: / Nutrita nelle braccia dell'Invidia; / De' Principi, e de' Re vive nel petto"* ("filha da Avareza e da Suspeita, criada nos braços da Inveja, vive no peito de príncipes e reis").
+- **As três flechas envenenadas:** (1) o homem **reconhece** o benefício mas **não o paga**; (2) **esquece** o benefício e o **nega**, sem ofender; (3) não lembra, não paga e ainda **dilacera e morde o benfeitor** — *"Questa terza ferita è più mortale"*.
+- **O povo é o mais ingrato quando manda:** *"trionfa nel cuore / D'ogni potente, ma più si diletta / Nel cuor del popol, quando egli è signore"*, porque *"dove men si sa, più si sospetta"* ("onde menos se sabe, mais se suspeita"). Resultado: *"un buon cittadino un frutto miete / Contrario al seme, che nel campo ha messo"* ("o bom cidadão colhe fruto contrário à semente que plantou").
+- **Exemplo máximo: Cipião, o Africano** (57 versos): salvou Roma de Aníbal e foi acusado diante do povo; preferiu exilar-se, *"Tosto ch'e vide, com'e' bisognava / Roma perdesse, o libertate, o lui"* ("assim que viu que era preciso que Roma perdesse ou a liberdade ou ele"), e não deixou à pátria "os ossos que ela não merecia". Atenas: Milcíades, Aristides, Fócion, Temístocles — prêmios: *"Prigione, esilio, vilipendio, e morte"*.
+- **A tese política:** *"l'ingiuste calunnie... tal volta fanno / Tirannico un ingegno umano, e mite. / Spesso diventa un cittadin tiranno... / Per non sentir d'Ingratitudo il danno. / A Cesare occupar fe' questa il Regno"* ("calúnias injustas às vezes tornam tirânico um espírito humano e manso; muitas vezes um cidadão vira tirano para não sofrer o dano da ingratidão: isso fez César ocupar o poder").
+- **Príncipes modernos:** Ahmed Paxá, estrangulado depois de dar o trono a Bajazet; **Gonzalo de Córdoba**, suspeito ao seu rei depois de vencer os franceses. E a regra: *"i mutator di Stati, / E donator di Regni sempre mai / Son con esilio, o morte ristorati. / Perchè, quando uno Stato mutar fai, / Dubita chi tu hai Principe fatto, / Tu non gli tolga quel che dato gli hai; / E non ti osserva poi fede, nè patto; / Perchè gli è più potente la paura / Ch'egli ha di te, che l'obligo contratto"* ("quem muda Estados e dá reinos é sempre pago com exílio ou morte, porque o príncipe que fizeste teme que lhe tires o que deste; e não te guarda fé nem pacto, **porque o medo que tem de ti é mais forte que a obrigação contraída**").
+- **Fecho:** *"Ciascun fuggir le Corti e Stati debbe"* ("todos deveriam fugir das cortes e do governo").
+- **Ligação:** é o capítulo em verso de *Discursos* I.28–32 ("por que Roma foi menos ingrata que Atenas", "quem é mais ingrato, um povo ou um príncipe", "como um capitão deve evitar a infâmia da ingratidão": Cipião e Gonzalo são os mesmos exemplos) e de *Príncipe* III ("quem é causa de outro ficar poderoso, arruína-se").
+
+### 8.4 *Dell'Ambizione* (texto)
+
+- Ao amigo que se espanta com a briga de Siena: *"Pensa un po' meglio all'umano appetito"* ("pensa melhor no apetite humano"). Ambição e Avareza existem em todo lugar, "da Cítia ao Egito, da Inglaterra à margem oposta".
+- **Mito:** um poder oculto do céu mandou à terra **duas Fúrias** nuas, belas à primeira vista, com **quatro rostos e oito mãos**, acompanhadas de Inveja, Preguiça, Ódio, Crueldade, Soberba e Engano; *"portano in mano un'urna senza fondo"* ("levam na mão uma urna sem fundo" — o desejo infinito). Foram elas que armaram **Caim** contra Abel, quando ainda não havia ricos nem pobres.
+- *"O mente umana insaziabile, altera, / Subdola, e varia, e sopra ogni altra cosa / Maligna, iniqua, impetuosa e fera!"* ("Ó mente humana insaciável, altiva, dissimulada e variável, e acima de tudo maligna, iníqua, impetuosa e feroz!").
+- **A competição:** *"Ognuno stima... / Sormontare opprimendo or quello, or questo, / Che per qualunque sua propria virtù. / A ciascun l'altrui ben sempre è molesto"* ("cada um prefere subir oprimindo este ou aquele a subir pela própria virtude; a todos o bem alheio incomoda"); *"A questo istinto natural ci mena, / ... / Se legge, o maggior forza non ci affrena"* ("a isso nos leva o instinto natural, se lei ou força maior não nos freia").
+- **Ambição boa e ambição ruinosa:** onde a ambição se junta a *"Un cuor feroce, una virtute armata"* e a boas leis, ela se volta **para fora** (conquista) e a casa fica em paz; onde se junta a **covardia e má ordem** (*"gente ambiziosa, e vile"*), vem "toda desgraça". E a Itália? *"può supplire / L'educazion, dove natura manca"* ("**a educação pode suprir onde a natureza falta**"); a Itália vive "sob a ruína que tanto mereceu o seu ócio".
+- **Cena de guerra** (Veneto saqueado em 1509): pais e filhos mortos com um golpe só, valas cheias de "crânios, pernas e mãos".
+- **A regra:** *"Da poi che l'uom da sè non può cacciarla, / Debbe il giudizio, e l'intelletto sano / Con ordine, e ferocia accompagnarla"* ("já que o homem não pode expulsar a ambição de si, deve acompanhá-la com **juízo, inteligência sã, ordem e ferocidade**"). E Veneza: *"San Marco alle sue spese, e forse invano / Tardi conosce come li bisogna / Tener la spada, e non il libro in mano"* ("São Marcos, à sua custa e talvez em vão, aprende tarde que precisa ter **a espada, e não o livro, na mão**"). **Fato documentado:** a mesma imagem está no despacho de Verona aos Dez de 07/12/1509: os venezianos "mandam pintar um São Marcos que em lugar do livro tem uma espada na mão" (citado por Bausi).
+- **Fecho:** a Ambição voa "sobre os montes da Toscana" e queimará as terras *"Se grazia, o miglior ordin non la spegne"* ("se a graça ou ordem melhor não a apagar").
+- **Ligação:** *Discursos* I.37 (a ambição e a lei agrária), I.46, II.19; *Príncipe* III ("é natural e ordinário o desejo de conquistar").
+
+### 8.5 *Dell'Occasione* (texto completo, 22 versos)
+
+Diálogo entre o poeta e a Ocasião (tradução livre de um epigrama de **Ausônio**, que por sua vez descreve a estátua do *Kairós* de Lisipo):
+- *"Chi sei tu, che non par donna mortale? / ... / Perchè non posi? Perchè a' piedi hai l'ale?"* — *"Io sono l'Occasione, a pochi nota; / E la cagion, che sempre mi travagli, / È, perchè io tengo un piè sopra una rota"* ("Sou a Ocasião, conhecida de poucos; e não paro porque tenho um pé sobre uma roda").
+- *"Gli sparsi miei capei dinanti io tengo; / Con essi mi ricopro il petto, e 'l volto, / Perch'un non mi conosca, quando vengo. / Dietro dal capo ogni capel mi è tolto; / Onde in van si affatica un, se gli avviene / Ch'io l'abbia trapassato, o s'io mi volto"* ("Tenho os cabelos soltos na frente, cobrindo o peito e o rosto, para que não me reconheçam quando chego; atrás da cabeça não tenho nenhum cabelo: em vão se cansa quem tentar me agarrar depois que passei").
+- *"Dimmi: chi è colei, che teco viene?" — "È penitenza; e però nota, e intendi: / Chi non sa prender me, costei ritiene"* ("Quem é aquela que vem contigo? — É o **Arrependimento**; nota e entende: quem não sabe me pegar fica com ela").
+- O golpe final: *"E tu mentre parlando il tempo spendi, / Occupato da molti pensier vani, / Già non t'avvedi, lasso, e non comprendi / Com'io ti son fuggita dalle mani!"* ("E tu, enquanto gastas o tempo falando, ocupado com pensamentos vãos, não percebes, coitado, **que eu já te escapei das mãos!**").
+- **Ligação:** *Príncipe* VI (Moisés, Ciro, Rômulo, Teseu: "sem a ocasião a virtude se apagaria; sem a virtude a ocasião viria em vão") e XXVI (a ocasião de libertar a Itália).
+
+### 8.6 *Capitolo pastorale*
+
+Écloga em tercetos: o pastor pede a Apolo inspiração para louvar **Iacinto**, "jovem celeste e não terreno, de modos excelsos, de costumes divinos". [Interpretação: Martelli 2006; Bausi] elogio cortesão disfarçado a um Medici, provavelmente **Lorenzo, duque de Urbino** (o dedicatário do *Príncipe*), entre 1515 e 1518. Mostra o Maquiavel que, desempregado, também sabia bajular em verso.
+
+### 8.7 Lição para negócios [Interpretação nossa]
+
+1. **Fortuna:** você não troca de "roda" quando o mercado muda, porque não troca de natureza. Então **monte uma equipe com naturezas diferentes** (o ousado e o cauteloso) — é o "pular de roda em roda" que um só homem não consegue (cf. *Discursos* III.9: a república dura mais que o príncipe porque tem homens diversos).
+2. **Necessidade conserta, ócio estraga:** empresa confortável apodrece; crie metas e pressão saudável.
+3. **Ingratidão:** cliente que você "fez crescer" pode passar a temê-lo ou a achar que não precisa mais de você. Não conte com gratidão: **contrato, entrega contínua e dependência saudável** (dados, acessos, processos documentados em seu nome).
+4. **Ambição com ordem:** ambição é inevitável (sua e da equipe); canalize para fora (concorrência, mercado) com "juízo, ordem e ferocidade"; sem ordem, ela vira briga interna.
+5. **Espada, não livro:** estudar marketing não basta; tem que ter capacidade própria de execução (equipe, ferramentas, mídia).
+6. **Ocasião careca atrás:** proposta que demora a sair perde o cliente. Decida rápido; o arrependimento anda de mãos dadas com quem hesita.
 
 ---
