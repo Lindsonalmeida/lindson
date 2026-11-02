@@ -412,5 +412,173 @@
   "trecho": "amare la patria più che l'anima",
   "decisao": "conferida à mão",
   "nota": "dito tradicional (título do artigo de Croce); o texto da carta de 16/04/1527 ('amo la patria mia più dell'anima') foi acrescentado ao lado"
+ },
+ {
+  "arquivo": "arte-da-guerra.md",
+  "trecho": "Componenti etiche nell'Arte della guerra",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": ""
+ },
+ {
+  "arquivo": "arte-da-guerra.md",
+  "trecho": "Machiavellis Kriegskunst",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": "alemão"
+ },
+ {
+  "arquivo": "historia-de-florenca.md",
+  "trecho": "Orazione de' signori al duca d'Atene",
+  "decisao": "fora: título de obra de Maquiavel ou de edição antiga (conferido como título)",
+  "nota": "título do discurso (II.34)"
+ },
+ {
+  "arquivo": "historia-de-florenca.md",
+  "trecho": "Lettere inedite di Donato Giannotti",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": ""
+ },
+ {
+  "arquivo": "historia-de-florenca.md",
+  "trecho": "tendo-lhes tirado o sono",
+  "decisao": "fora: extração errada (trecho em português/inglês)",
+  "nota": ""
+ },
+ {
+  "arquivo": "historia-de-florenca.md",
+  "trecho": "era velho e fazia empresa de jovem",
+  "decisao": "fora: extração errada (trecho em português/inglês)",
+  "nota": ""
+ },
+ {
+  "arquivo": "literatura.md",
+  "trecho": "Davo' sum, non Oedipus",
+  "decisao": "fora: texto de outro autor",
+  "nota": "Terêncio (latim), Andria I.2"
+ },
+ {
+  "arquivo": "literatura.md",
+  "trecho": "quando quiseres algo de mim, manda outro",
+  "decisao": "fora: extração errada (trecho em português/inglês)",
+  "nota": ""
+ },
+ {
+  "arquivo": "literatura.md",
+  "trecho": "e se for meio surdo, tanto melhor",
+  "decisao": "fora: extração errada (trecho em português/inglês)",
+  "nota": ""
+ },
+ {
+  "arquivo": "maquiavel-nos-negocios.md",
+  "trecho": "Machiavelli per i manager",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": ""
+ },
+ {
+  "arquivo": "missoes-e-escritos-politicos.md",
+  "trecho": "Esperienza e qualità dei tempi",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": ""
+ },
+ {
+  "arquivo": "missoes-e-escritos-politicos.md",
+  "trecho": "Raccolta di sentenze estratte",
+  "decisao": "fora: título de obra de Maquiavel ou de edição antiga (conferido como título)",
+  "nota": "folha de rosto de 'La mente di un uomo di Stato' (Wikisource)"
+ },
+ {
+  "arquivo": "missoes-e-escritos-politicos.md",
+  "trecho": "Machiavelli in gioco",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": ""
+ },
+ {
+  "arquivo": "principe.md",
+  "trecho": "de modo largo",
+  "decisao": "fora: extração errada (trecho em português/inglês)",
+  "nota": ""
+ },
+ {
+  "arquivo": "principe.md",
+  "trecho": "il moderno Principe",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": "Gramsci"
+ },
+ {
+  "arquivo": "principe.md",
+  "trecho": "Niccolò Machiavelli. Storia del suo pensiero politico",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": "Sasso"
+ },
+ {
+  "arquivo": "principe.md",
+  "trecho": "Estudios de historia del pensamiento español",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": "espanhol"
+ },
+ {
+  "arquivo": "recepcao-e-estudiosos.md",
+  "trecho": "Machiavelli e il tacitismo",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": "Toffanin"
+ },
+ {
+  "arquivo": "recepcao-e-estudiosos.md",
+  "trecho": "Der wirklich radikale",
+  "decisao": "fora: texto de outro autor",
+  "nota": "Max Weber (alemão)"
+ },
+ {
+  "arquivo": "recepcao-e-estudiosos.md",
+  "trecho": "Niccolò Machiavelli. Storia del suo pensiero politico",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": "Sasso"
+ },
+ {
+  "arquivo": "recepcao-e-estudiosos.md",
+  "trecho": "Ordine e conflitto",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": ""
+ },
+ {
+  "arquivo": "recepcao-e-estudiosos.md",
+  "trecho": "faz proveito em tempo de paz",
+  "decisao": "fora: extração errada (trecho em português/inglês)",
+  "nota": ""
+ },
+ {
+  "arquivo": "recepcao-e-estudiosos.md",
+  "trecho": "Dialoghi di Machiavelli all'inferno",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": "tradução italiana de Joly"
+ },
+ {
+  "arquivo": "recepcao-e-estudiosos.md",
+  "trecho": "Ritratto di Niccolò Machiavelli",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": "pintura (Santi di Tito)"
+ },
+ {
+  "arquivo": "frente-lindson/historias-e-curiosidades.md",
+  "trecho": "Vida de Bastiano da Sangallo",
+  "decisao": "fora: extração errada (trecho em português/inglês)",
+  "nota": "título em português (Vasari)"
+ },
+ {
+  "arquivo": "frente-lindson/historias-e-curiosidades.md",
+  "trecho": "Il Machiavelli ritrovato",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": "exposição 2014"
+ },
+ {
+  "arquivo": "frente-lindson/historias-e-curiosidades.md",
+  "trecho": "Scoperte pagine sconosciute",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": "manchete de jornal"
+ },
+ {
+  "arquivo": "frente-lindson/historias-e-curiosidades.md",
+  "trecho": "Firenze, eccezionale scoperta",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": "manchete de jornal"
  }
 ]

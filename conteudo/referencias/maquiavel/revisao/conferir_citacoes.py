@@ -247,13 +247,13 @@ def lingua(t):
     c["pt"] += 3 * len(re.findall(r"[ãõçêâôáíóú]", t.lower()))
     return c
 
-def eh_italiano(t, minimo=4):
+def eh_italiano(t, minimo=3):
     ws = re.findall(r"\w+", t)
     if len(ws) < minimo:
         return False
     c = lingua(t)
     outros = max(c["pt"], c["es"], c["la"], c["fr"], c["en"])
-    return c["it"] >= 3 and c["it"] > 1.3 * outros
+    return c["it"] >= 2 and c["it"] > outros
 
 PADROES = [
     ("«»", re.compile(r"«([^»]{3,}?)»")),

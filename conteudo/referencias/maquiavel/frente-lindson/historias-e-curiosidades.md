@@ -335,7 +335,7 @@ Já velho e com fama de comediógrafo, Maquiavel assinou uma carta a Francesco G
    Original: "io credo che questo sarebbe il vero modo di andare in Paradiso: imparare la via dello Inferno per fuggirla." — Carta a F. Guicciardini, 17/5/1521.
 
 4. **"Me pediram um pregador que ensinasse aos florentinos o caminho do céu. Eu preferia achar um que lhes ensinasse o caminho da casa do diabo."**
-   Original: "vorrebbono un predicatore che insegnassi loro la via del Paradiso, e io vorrei trovarne uno che insegnassi loro la via di andare a casa il diavolo." — Carta a F. Guicciardini, 17/5/1521.
+   Original: "eglino vorrieno un predicatore che insegnasse loro la via del Paradiso, et io vorrei trovarne uno che insegnassi loro la via di andare a casa il diavolo." — Carta a F. Guicciardini, 17/5/1521.
 
 5. **"De manhã brigo com lenhadores, de tarde xingo um moleiro no gamão. À noite tiro a roupa de lama, visto as roupas da corte e vou conversar com os antigos. Eles me respondem — e por quatro horas não temo a pobreza nem a morte."**
    Original (trecho): "Venuta la sera, mi ritorno in casa et entro nel mio scrittoio; et in su l'uscio mi spoglio quella veste cotidiana, piena di fango et di loto, et mi metto panni reali et curiali... e non sento per quattro hore di tempo alcuna noia, sdimentico ogni affanno, non temo la povertà, non mi sbigottisce la morte." — Carta a F. Vettori, 10/12/1513.
