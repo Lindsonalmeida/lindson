@@ -1,6 +1,6 @@
 # *Discursos* — fichas detalhadas do Livro II (o que faltava na seção 5)
 
-**Situação:** parcial — feito até a ficha 20 (II.25). (conta Lindson, 02/11/2026, revisão ciclo 2, pendência 1)
+**Situação:** completo — 26 fichas (Proêmio II e os 25 capítulos do Livro II que não tinham ficha na seção 5 de `discursos.md`), mais "Uso pelo agente" e "Lacunas". (conta Lindson, 02/11/2026, revisão ciclo 2, pendência 1)
 
 > **O que é este arquivo.** Completa a seção 5 de `discursos.md` ("Os 41 capítulos mais importantes, em detalhe"). A seção 5 já tem ficha de 8 capítulos do Livro II: **II.1, II.2, II.10, II.13, II.19, II.24, II.27 e II.29**. Aqui estão as fichas dos que faltavam: o **Proêmio do Livro II** e os capítulos **II.3 a II.9, II.11, II.12, II.14 a II.18, II.20 a II.23, II.25, II.26, II.28 e II.30 a II.33** (26 fichas), em ordem. Com isso, todo o Livro II tem ficha detalhada. A tabela de uma linha por capítulo continua na seção 3 de `discursos.md`; este arquivo não a substitui, aprofunda.
 >
@@ -366,3 +366,152 @@
 - **Como aplicar num negócio hoje [Interpretação]:**
   - Empresa do cliente com sócios brigando (um quer investir em Instagram, o outro não): não tome partido nem pressione. Seja o **árbitro de confiança**: proposta pequena, que agrade aos dois (o degrau Vídeo, sem fidelidade), e deixe o resultado decidir. A pressão os une contra você.
   - Concorrente com problemas internos (equipe saindo, clientes reclamando): atacá-lo em público faz a equipe dele se unir. Melhor ser a opção calma e de confiança para os clientes insatisfeitos.
+
+### 21 — II.26: o desprezo e o insulto só geram ódio
+
+- **Título original (texto):** *Il vilipendio e l'improperio genera odio contro a coloro che l'usano, sanza alcuna loro utilità.*
+- **Tese (texto):** uma das grandes prudências é **não ameaçar nem insultar** ninguém com palavras: nenhuma das duas tira força do inimigo; a ameaça o deixa mais cauteloso e o insulto lhe dá mais ódio e mais empenho em ofender você. "São todas armas que se voltam contra você." O bom capitão e o bom governante proíbem o insulto contra o inimigo e, pior ainda, **entre os seus**.
+- **Exemplos (texto):** os veientes, que além da guerra insultaram os romanos até a paliçada do acampamento e obrigaram cônsules relutantes a combater (continuação de II.25); **Gabade**, capitão persa, que já levantava o cerco de **Amida** quando os moradores, nas muralhas, o chamaram de covarde; ele voltou e tomou a cidade em poucos dias; as legiões de Cápua, perdoadas por Valério Corvino com pena gravíssima para quem lhes lembrasse a sedição; **Tibério Graco**, que, comandando escravos armados na guerra de Aníbal, decretou pena de morte para quem lhes jogasse na cara a escravidão.
+- **Citações (texto, conferidas):**
+  - *"l'una lo fa più cauto, l'altra gli fa avere maggiore odio contro di te, e pensare con maggiore industria di offenderti"* — "uma o faz mais cauteloso, a outra lhe dá maior ódio contra você e o faz pensar com mais empenho em ofendê-lo."
+  - Tácito, citado: *"Nam facetiae asperae, quando nimium ex vero traxere, acrem sui memoriam relinquunt"* — "Pois as zombarias ásperas, quando tiram demais da verdade, deixam de si uma memória amarga" (Tácito, *Anais* XV.68; indicação não conferida no latim).
+- **Fato documentado:** o cerco de Amida por Kavadh I (Cabades, "Gabade") foi em 502–503 d.C.; a história dos insultos vem de Procópio (*Guerras Persas* I.7). [Fonte provável de Maquiavel; não conferida no grego]
+- **Ligações:** II.25 (o insulto que une o inimigo); *Príncipe* XIX (não ser odiado nem desprezado); III.6 (as injúrias são causa de conjuras).
+- **Como aplicar num negócio hoje [Interpretação]:**
+  - Nunca debochar de concorrente, cliente que saiu ou ex-funcionário nos Stories, no grupo de WhatsApp ou numa legenda "indireta". Não tira nenhum cliente dele e lhe dá motivo e energia para responder.
+  - Na copy de venda (`agencia/prospeccao/PADRAO-COPY.md`): falar da dor do cliente sem humilhá-lo. Mensagem que ridiculariza o perfil da pessoa ("seu Instagram está horrível") gera ódio, não resposta.
+  - Dentro da equipe: proibir a piada com o erro do outro ("lembra quando você postou errado?"), como Graco proibiu lembrar a escravidão. Quem é ridicularizado sabota.
+
+### 22 — II.28: não vingar uma injúria é perigoso
+
+- **Título original (texto):** *Quanto sia pericoloso a una republica o a uno principe non vendicare una ingiuria fatta contro al publico o contro al privato.*
+- **Tese (texto):** Roma mandou três Fábios como embaixadores aos gauleses que atacavam Chiusi; eles, "mais aptos a fazer que a dizer", lutaram contra os gauleses, violando o **direito das gentes**. Os gauleses pediram que fossem entregues; Roma, em vez de puni-los, **elegeu-os tribunos militares com poder consular**. Os gauleses, vendo honrados os que deviam ser punidos, vieram e tomaram Roma, menos o Capitólio. Regra: quem é muito ofendido, pelo poder público ou por um particular, e não recebe reparação, numa república se vinga "mesmo com a ruína dela"; sob um príncipe, se tiver alguma generosidade, não sossega enquanto não se vingar, "ainda que veja nisso o seu próprio mal".
+- **Exemplos (texto):** os Fábios e os gauleses (Lívio V.35–36; indicação não conferida no latim); **Filipe da Macedônia e Pausânias**: Átalo humilhou e violentou Pausânias num banquete; Filipe prometeu justiça, não fez e ainda promoveu Átalo; Pausânias matou Filipe nas bodas da filha, entre os dois Alexandres (o filho e o genro, Alexandre do Épiro). (Fontes antigas do episódio: Diodoro XVI.93–94 e Aristóteles, *Política* V; não conferidas.)
+- **Citações (texto, conferidas):**
+  - *"La quale rovina nacque ai Romani solo per la inosservanza della giustizia"* — "Esta ruína nasceu aos romanos só pela inobservância da justiça."
+  - *"mai non debbe tanto poco stimare un uomo, che ei creda, aggiugnendo ingiuria sopra ingiuria, che colui che è ingiuriato non pensi di vendicarsi con ogni suo pericolo e particulare danno"* — "nunca se deve estimar tão pouco um homem a ponto de crer que, juntando injúria sobre injúria, o injuriado não pense em vingar-se, com todo o seu perigo e dano particular."
+- **Ligações:** III.6 (conjuras nascem de injúrias graves contra a pessoa, a honra; o caso de Pausânias volta lá); I.7–8 (o canal legal de acusação evita a vingança privada); *Príncipe* III ("as ofensas devem ser tais que não se tema a vingança").
+- **Como aplicar num negócio hoje [Interpretação]:**
+  - Reclamação justa do cliente (post com erro, atraso, verba de anúncio mal usada) precisa de **reparação visível**: reconhecer, corrigir, compensar. Ignorar e, pior, "premiar" quem errou (manter o mesmo editor sem conversa) faz o cliente se vingar: avaliação ruim, indicação contrária, cancelamento no pior momento.
+  - Entre equipe: se um colaborador foi desrespeitado por outro (ou por um cliente) e você não fez nada, a raiva se volta **contra você**, como a de Pausânias contra Filipe. Proteja quem trabalha com você.
+  - Ter um canal formal de reclamação (pesquisa de satisfação, WhatsApp de suporte) é o "canal de acusação" de I.7: tira a raiva do caminho da vingança.
+
+### 23 — II.30: amizade não se compra com dinheiro
+
+- **Título original (texto):** *Le republiche e gli principi veramente potenti non comperono l'amicizie con danari, ma con la virtù e con la riputazione delle forze.*
+- **Tese (texto):** cercados no Capitólio e famintos, os romanos aceitaram resgatar-se dos gauleses com ouro; enquanto se pesava o ouro, chegou Camilo, e a fortuna quis *"ut Romani auro redempti non viverent"* ("que os romanos não vivessem resgatados pelo ouro"). Roma **nunca** comprou terras nem paz com dinheiro. Sinal de Estado forte: os vizinhos **pagam** para ser seus amigos (massilienses, éduos, ródios, Hierão de Siracusa, Eumenes, Massinissa); sinal de fraqueza: os vizinhos, mesmo inferiores, **recebem** dinheiro dele. Florença pagava pensão a todo senhorzinho da Romanha, a Perugia, a Città di Castello; Veneza também; e o rei da França "vive tributário dos suíços e do rei da Inglaterra". Isso vem de ter **desarmado o próprio povo**. Estes Estados armam as extremidades e deixam o **coração desarmado**: resistem um pouco na fronteira e, passada ela, não têm remédio. Roma, ao contrário, ficava mais forte quanto mais o inimigo se aproximava: depois de Canas, Hanão perguntou aos enviados de Aníbal se algum romano pedira paz ou algum latino se rebelara; ouvindo que não, disse: "esta guerra está ainda inteira como antes". "As coisas que se adquirem com o ouro não se sabem defender com o ferro."
+- **Exemplos (texto):** os já citados; os ingleses que atacaram a França em **1513** e fizeram "tremer toda aquela província"; Veneza depois de Agnadello (1509), salva "por estar envolta nas águas"; os imperadores romanos que passaram a se resgatar dos partos e dos germanos, "princípio da ruína de tanto Império".
+- **Citações (texto, conferidas):**
+  - *"le cose che si acquistano con l'oro, non si sanno difendere con il ferro"* — "as coisas que se adquirem com o ouro não se sabem defender com o ferro."
+  - *"Perché il cuore e le parti vitali d'uno corpo si hanno a tenere armate, e non le estremità d'esso"* — "Porque o coração e as partes vitais de um corpo devem ser mantidos armados, e não as extremidades."
+  - *"dove gli uomini hanno poca virtù, la fortuna mostra assai la potenza sua"* — "onde os homens têm pouca virtù, a fortuna mostra muito a sua potência."
+- **Fato documentado:** a França pagava pensões anuais à Inglaterra desde o Tratado de Étaples (1492), renovadas em 1514, e pagava pensões aos cantões suíços. [Dado histórico geral; valores não conferidos]
+- **Ligações:** II.10 (o ouro não é o nervo da guerra); II.12 (Estado armado espera a guerra em casa); *Príncipe* XXV (a fortuna mostra sua potência onde não há virtù ordenada para resistir: os "diques"); I.21 (culpa dos príncipes que não têm armas próprias).
+- **Como aplicar num negócio hoje [Interpretação]:**
+  - Cliente comprado com desconto, brinde e mês grátis é "amizade comprada com ouro": vai embora no primeiro concorrente mais barato. Cliente que fica por resultado e reputação é o que **paga para ser seu cliente** (sobe de degrau, aceita contrato de 3 meses, paga o 1º mês antes).
+  - Sinal de força da agência: clientes e parceiros que procuram você (indicação, lista de espera). Sinal de fraqueza: você pagando a todo mundo para ter clientes (permuta, comissão alta, desconto permanente).
+  - "Coração armado": a parte vital da agência é a operação e a carteira ativa (entrega, relacionamento, caixa), não a "fronteira" (anúncio da agência, perfil bonito). Se o coração está bem, a perda de um cliente ou um mês fraco não derruba nada, como Roma depois de Canas.
+
+### 24 — II.31: não acreditar nos exilados
+
+- **Título original (texto):** *Quanto sia pericoloso credere agli sbanditi.*
+- **Tese (texto):** é perigoso acreditar nos que foram expulsos da pátria. Quanto à **fé**: sempre que puderem voltar por outro meio, deixarão você, apesar de qualquer promessa. Quanto às **promessas**: o desejo de voltar é tanto que "creem naturalmente muitas coisas falsas e acrescentam muitas por arte", e, entre o que creem e o que dizem crer, enchem você de esperança; apoiado nela, ou você gasta em vão ou faz uma empresa em que se arruína. O príncipe deve "ir devagar" ao agir pelo relato de um exilado.
+- **Exemplos (texto):** **Alexandre do Épiro**, chamado à Itália pelos exilados lucanos, que o mataram quando a cidade lhes prometeu a volta se o fizessem (Lívio VIII.24; indicação não conferida no latim); **Temístocles**, exilado, que prometeu tanto ao rei persa que este se voltou contra a Grécia; não podendo cumprir, envenenou-se.
+- **Citações (texto, conferidas):**
+  - *"Debbesi considerare, pertanto, quanto sia vana e la fede e le promesse di quelli che si truovano privi della loro patria."* — "Deve-se considerar, portanto, quão vãs são a fé e as promessas dos que se acham privados da sua pátria."
+  - *"Debbe, adunque, uno principe andare adagio a pigliare imprese sopra la relazione d'uno confinato"* — "Deve, pois, um príncipe ir devagar ao tomar empresas pelo relato de um exilado."
+- **Contradições (fato documentado):** Maquiavel diz que Temístocles fugiu "a Dario". Pelas fontes antigas, Temístocles foi recebido por **Artaxerxes I** (Tucídides I.137; Plutarco, *Temístocles* 27, registra que alguns autores diziam Xerxes). O suicídio por veneno é uma das versões ([Tradição]: Tucídides diz que morreu de doença e que "alguns dizem" que se envenenou). O erro do nome é de Maquiavel (ou da fonte que usou), não da tradução; versão mais aceita: Artaxerxes.
+- **Estudiosos:** [Interpretação nossa] o tema era vivo em Florença: os Médici exilados (1494–1512) e, depois de 1512, os republicanos exilados buscavam apoio de potências estrangeiras com promessas desse tipo; e o próprio Maquiavel, afastado da chancelaria e confinado ao território em 1513, escrevia como alguém "privado" da vida pública.
+- **Ligações:** II.32 (a seguir: tomar cidades "por inteligência" com gente de dentro raramente dá certo); III.6 (conjuras); *Príncipe* III (os que chamam o estrangeiro "por descontentamento").
+- **Como aplicar num negócio hoje [Interpretação]:**
+  - Ex-funcionário de um concorrente (ou social media que saiu brigado da agência do bairro) que promete "trazer todos os clientes de lá" exagera por vontade de se vingar ou de se recolocar. Contrate pelo que ele sabe fazer, não pela carteira prometida, e nunca invista contando com esses clientes.
+  - Cliente que chega falando mal da agência anterior e prometendo fidelidade eterna: vá devagar. Ele pode sair de você do mesmo jeito. Contrato e escopo claros desde o início.
+  - Lead que promete "fechar o pacote maior depois que você me mostrar resultado de graça": a promessa do exilado. Comece pelo degrau de entrada pago.
+
+### 25 — II.32: de quantos modos os romanos tomavam as cidades
+
+- **Título original (texto):** *In quanti modi i Romani occupavano le terre.*
+- **Tese (texto):** Roma fazia a guerra "com toda vantagem", inclusive de **custo**; por isso evitava o **cerco** (*ossidione*), caro e incômodo, que superava a utilidade do ganho: em tantas guerras há "pouquíssimos exemplos" de cercos romanos. Os modos eram dois:
+  1. **Expugnação**: por violência aberta (assalto com todo o exército em volta, *"aggredi urbem corona"*; aríetes; túnel; torres de madeira; rampas de terra) ou por força misturada com fraude (trato secreto com gente de dentro). O assalto em volta, se não dá no primeiro, não se repete, porque espalha e cansa o exército. A tomada "furtiva" quase nunca dá certo: a conjura se descobre, o horário falha, um barulho por acaso ("como os gansos do Capitólio") estraga tudo, a noite assusta. Exceção: **Arato de Sicião**, feliz nas empresas noturnas e fraudulentas, pusilânime nas abertas.
+  2. **Rendição** (*dedizione*): **voluntária** (por necessidade externa, como Cápua; ou por desejo de ser bem governado, como ródios e massilienses) ou **forçada** (por longo cerco ou por "contínua opressão de incursões, saques e maus-tratos").
+  Conclusão: "de todos os modos ditos, os romanos usaram mais este último" (a rendição forçada por incursões e derrotas): por mais de 450 anos cansaram os vizinhos com derrotas e incursões e ganharam reputação pelos acordos. "No cerco há a demora e o gasto; na expugnação, a dúvida e o perigo; nas conjuras, a incerteza." E viram que "com a derrota de um exército inimigo adquiriam um reino em um dia".
+- **Exemplos (texto):** Cartagena tomada por Cipião num assalto; Veios pelo túnel; cercos de Veios, Cápua, Cartago e Jerusalém; Útica, de que Cipião desistiu para buscar a batalha; Palépolis, tomada por trato com os de dentro.
+- **Citações (texto, conferidas):**
+  - *"Perché nella ossidione è la lunghezza e la spesa; nella espugnazione, dubbio e pericolo; nelle congiure, la incertitudine."* — "Porque no cerco há a demora e o gasto; na expugnação, dúvida e perigo; nas conjuras, a incerteza."
+  - *"E viddono che con una rotta di esercito inimico acquistavano un regno in un giorno"* — "E viram que com uma derrota do exército inimigo adquiriam um reino em um dia."
+  - *"Di questi modi, adunque, se ne pratica assai, pochi se ne conduce alla pruova, e pochissimi ne riescono."* — "Destes modos [furtivos] muitos se tentam, poucos chegam à prova e pouquíssimos dão certo."
+- **Contradições (correção da nota de `discursos.md`, seção 3):** a tabela de `discursos.md` (linha de II.32) diz que o ensinamento 169 erra ao afirmar que Roma "preferia a adesão" e que no texto a preferência é "evitar o cerco e decidir em batalha campal". Conferido o italiano, o texto diz literalmente que, **de todos os modos, Roma usou mais a rendição forçada por incursões e derrotas** (*"Di tutti i modi detti, i Romani usarono più questo ultimo che nessuno"*, sendo "este último" a *dedizione forzata* por *"continova oppressione di scorrerie"*), e que evitava o cerco. Logo: (a) a preferência pela **rendição** (*dedizione*) está no texto, como diz o ensinamento 169, mas é rendição **forçada**, não "adesão" voluntária; (b) a batalha campal aparece como o meio de forçar essa rendição ("um reino em um dia"). As duas leituras acertam em parte; a versão fiel é "rendição forçada pelo desgaste de derrotas e incursões, evitando cercos". **Não editamos `discursos.md`** (regra desta tarefa); fica registrado aqui para a próxima revisão.
+- **Ligações:** II.6 (guerras curtas e grossas; "cansar os inimigos com derrotas e incursões"); II.19 (*"domare il nimico con le scorrerie e con le giornate e non con le ossidioni"*); III.6 (as conjuras, com a mesma lista de imprevistos); *Arte da Guerra* VII (cercos e defesa).
+- **Como aplicar num negócio hoje [Interpretação]:**
+  - "Cerco" = perseguir por meses um único cliente grande e difícil (reuniões, propostas refeitas, amostras grátis). Demora e custa mais do que vale. Evite.
+  - "Assalto" = proposta direta e completa; se não deu na primeira, não insista do mesmo jeito.
+  - "Fraude/conjura" = depender de um contato de dentro ("o sobrinho do dono vai me indicar"): muitas vezes não dá certo por um detalhe.
+  - "Rendição forçada por incursões" (o modo romano), em versão limpa: presença constante e útil diante do lead (conteúdo, cases, cadência de WhatsApp com prova), até ele vir por conta própria. E "rendição voluntária por desejo de ser bem governado": o lead que vê como você atende os outros clientes (ródios e massilienses) e pede para entrar. É o melhor modo, e o mais barato.
+  - "Um reino em um dia": um único case forte num nicho (ex.: uma clínica com agenda cheia) abre o nicho inteiro.
+
+### 26 — II.33: comissões livres aos comandantes
+
+- **Título original (texto):** *Come i Romani davano agli loro capitani degli eserciti le commissioni libere.*
+- **Tese (texto):** o Senado romano só se reservava **mover novas guerras e confirmar as pazes**; todo o resto ficava ao **arbítrio do cônsul** (dar ou não batalha, atacar esta ou aquela cidade). Era "prudentíssimo" por duas razões: (1) um cônsul que tivesse de seguir ordens passo a passo seria "menos circunspecto e mais lento", porque a glória não seria toda dele; o **amor da glória** era "freio e regra" para agir bem; (2) o Senado, por mais experiente, **não estava no lugar** e não sabia "infinitos particulares" necessários para aconselhar bem. As repúblicas de hoje, Veneza e Florença, fazem o contrário: querem decidir até onde o capitão vai "plantar uma artilharia". Esse modo "merece o louvor que merecem os outros" (ironia: os mesmos modos que as levaram à situação em que estão).
+- **Exemplos (texto):** o cônsul **Fábio** (Rulliano), que, depois de vencer em Sutri, atravessou a **floresta Címia** e entrou na Etrúria sem consultar nem avisar o Senado; os legados mandados para proibi-lo chegaram depois da vitória e voltaram "embaixadores da conquista e da glória" (Lívio IX.35–38; indicação não conferida no latim).
+- **Citações (texto, conferidas):**
+  - *"il Senato non si riservare altro che l'autorità di muovere nuove guerre e di confirmare le paci; e tutte l'altre cose rimetteva nello arbitrio e potestà del Consolo"* — "o Senado não se reservava outra coisa senão a autoridade de mover novas guerras e confirmar as pazes; e todas as outras coisas deixava ao arbítrio e poder do cônsul."
+  - *"non essendo in sul luogo e non sappiendo infiniti particulari che sono necessari sapere, a volere consigliare bene, arebbono, consigliando, fatti infiniti errori"* — "não estando no lugar e não sabendo infinitos particulares que é necessário saber para aconselhar bem, teriam, aconselhando, cometido infinitos erros."
+  - *"se gli loro capitani, provveditori o commessari hanno a piantare una artiglieria, lo vogliono intendere e consigliare"* — "se os seus capitães, provedores ou comissários têm de plantar uma artilharia, querem saber e aconselhar."
+- **Fato documentado:** Maquiavel viveu isso do lado de dentro: como secretário dos Dez de Balia, escreveu muitas das cartas com instruções detalhadas aos comissários florentinos no campo (guerra de Pisa, 1499–1509). Ver `missoes-e-escritos-politicos.md`.
+- **Estudiosos:** [Interpretação nossa] o capítulo fecha o Livro II voltando ao tema do Proêmio (a diferença entre os modos antigos e os presentes) e prepara o Livro III, que trata das ações de cidadãos e capitães particulares.
+- **Ligações:** I.33–35 (a ditadura: poder amplo, mas com prazo e para um fim); III.15 (não pôr vários comandantes no mesmo comando); *Arte da Guerra* VII; *Príncipe* XIV.
+- **Como aplicar num negócio hoje [Interpretação]:**
+  - O dono da agência (o "Senado") define o **objetivo, o escopo e os limites**: que cliente entra, qual degrau, prazo, verba, padrão de qualidade (o sistema de feed aprovado, a identidade). Quem executa (editor, social media, gestor de tráfego) decide o **como**: corte, ordem dos posts, ajuste de público, horário.
+  - Não micro-gerencie "onde plantar a artilharia" (cada corte do vídeo, cada palavra da legenda): você não está "no lugar" e trava a pessoa. Cobre o resultado e dê o crédito a quem fez; o "amor da glória" é o melhor freio.
+  - Vale também com o cliente: explique no início que ele aprova a estratégia e o calendário, e que a execução fica com a agência. Cliente que quer aprovar cada post vira Veneza.
+
+---
+
+## Uso pelo agente
+
+**Lições práticas do Livro II (em uma linha cada, com a referência):**
+1. Cresça trazendo gente e deixando a porta aberta (II.3); tronco fino não sustenta galho grosso.
+2. O melhor modelo de crescimento é o de aliados sob o seu comando (II.4).
+3. O que não fica registrado some; quem chega apaga o anterior (II.5).
+4. Projetos curtos, concentrados e que enriquecem o caixa (II.6); carteira do tamanho da sua capacidade (II.7).
+5. Concorrente desesperado é o mais perigoso (II.8); disputas começam por um terceiro (II.9).
+6. Não se apoie em quem tem mais fama que força (II.11).
+7. Com casa forte, espere; com casa fraca, leve a disputa para fora (II.12).
+8. Ceder por medo só aumenta o abuso (II.14); decisão ambígua e lenta é sinal de fraqueza (II.15).
+9. Tenha reservas em camadas (II.16); ferramenta não substitui competência (II.17); o núcleo vale mais que a vitrine (II.18).
+10. Cuidado com quem trabalha para você mas responde a outro dono (II.20).
+11. Domínio que não se vê e generosidade atraem (II.21).
+12. O vencedor não sai fraco da vitória (II.22).
+13. Ou reconcilia ou encerra; nunca humilhe e mantenha (II.23).
+14. Não ataque quem está dividido; seja o árbitro de confiança (II.25); insulto só gera ódio (II.26).
+15. Injúria sem reparação vira vingança (II.28).
+16. Lealdade não se compra com desconto; arme o coração, não as extremidades (II.30).
+17. Desconfie das promessas de quem quer voltar (II.31).
+18. Evite cercos longos; o desgaste útil e um caso forte abrem mercados (II.32).
+19. Defina o objetivo, dê liberdade na execução (II.33).
+20. O mundo é sempre o mesmo: a oportunidade só muda de lugar (Proêmio II).
+
+**Frases mais fortes (texto, conferidas):**
+- *"giudico il mondo sempre essere stato ad uno medesimo modo"* (Proêmio II)
+- *"Questo si fa in due modi: per amore e per forza."* (II.3)
+- *"non è possibile né naturale che uno pedale sottile sostenga uno ramo grosso"* (II.3)
+- *"tu vieni ad arristiare tutte le forze, e non tutta la fortuna"* (II.12)
+- *"perché con la lentezza loro non si aiuta persona, e nuocesi a sé medesimo"* (II.15)
+- *"l'artiglieria essere utile in uno esercito quando vi sia mescolata l'antica virtù"* (II.17)
+- *"gli uomini tanto più ti si gettono in grembo, quanto più tu pari alieno dallo occupargli"* (II.21)
+- *"Perché uno governo non è altro che tenere in modo i sudditi che non ti possano o debbano offendere"* (II.23)
+- *"la cagione della disunione delle republiche il più delle volte è l'ozio e la pace; la cagione della unione è la paura e la guerra"* (II.25)
+- *"le cose che si acquistano con l'oro, non si sanno difendere con il ferro"* (II.30)
+- *"con una rotta di esercito inimico acquistavano un regno in un giorno"* (II.32)
+
+**Freios do agente:** onde o Livro II fala em "destruir cidades", "fraude", "extinguir", o agente traduz para decisões comerciais lícitas (encerrar contrato, posicionamento, estratégia) e nunca recomenda enganar cliente, difamar concorrente ou prejudicar pessoas (ver `discursos.md` 8.3 e 8.4).
+
+## Lacunas (para a próxima rodada)
+
+1. **Livros de Tito Lívio e de outras fontes antigas** indicados nas fichas (ex.: Lívio VII.29, VIII.4, VIII.13, IX.35–38; Procópio; Tácito, *Anais* XV.68) foram dados por nós e **não conferidos no texto latino/grego**.
+2. **II.4, "lega di Svezia":** o Wikisource traz "Svezia"; a leitura "Svevia" (liga de Suábia) das edições críticas (Inglese, Bausi) **não foi conferida** nelas. Conferir.
+3. **Estudiosos citados de memória** (Pieri, Mallett, Hale, Gilbert, Hulliung, Strauss sobre II.5, Pocock sobre II.3): conferir páginas. Faltaram leituras em francês (Ménissier, Fournel/Zancarini sobre a guerra no Livro II), alemão (Münkler) e espanhol para capítulos específicos.
+4. **Datação** sugerida por II.21 (Gênova com governador genovês, 1515) e II.22 (Marignano, 1515): conferir no comentário de Inglese ou Bausi como esses indícios são usados.
+5. **II.32 × `discursos.md` seção 3:** corrigir a nota de divergência da tabela (ver ficha 25) na próxima revisão de `discursos.md`.
+6. **II.31, Temístocles e "Dario":** conferir se as edições críticas anotam o erro e qual fonte Maquiavel usou (Justino? Plutarco?).
