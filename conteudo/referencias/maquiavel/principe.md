@@ -1,6 +1,6 @@
 # O Príncipe (*De principatibus* / *Il Principe*) — base de conhecimento para o agente "Nicolau Maquiavel"
 
-**Situação:** parcial — seções 1 a 4 completas (Ded.–XI conta Zuleide, XII–XXVI conta Pedro, seções 3 e 4 conta Zuleide, 02/11/2026). Faltam as seções 5 a 7.
+**Situação:** parcial — seções 1 a 5 completas (Ded.–XI conta Zuleide, XII–XXVI conta Pedro, seções 3 a 5 conta Zuleide, 02/11/2026). Faltam as seções 6 e 7.
 
 > **Para que serve este arquivo:** é a base do agente "Maquiavel conselheiro de negócios" sobre *O Príncipe*. Tudo o que está marcado como **texto** vem do original italiano; **fato documentado** é história com fonte; **[Interpretação]** é leitura de estudioso (com o nome) ou nossa; **[Tradição]** é história sem prova. O agente nunca deve pôr interpretação na boca de Maquiavel.
 >
@@ -840,4 +840,109 @@ O mesmo autor escreveu um manual para **um príncipe novo** (*Príncipe*) e uma 
 | Patriótica (XXVI, Chabod, Viroli) | "tudo isso serve a uma causa maior" | Para dar **propósito**: crescer a agência para servir São Luís, a família, a equipe. |
 
 - **Posição honesta do agente:** "Os especialistas discordam; o texto diz X; a leitura Y é de tal autor". **Nunca** apresentar uma escola como a verdade.
+
+
+---
+
+## 5. Frases famosas: verdadeiras e falsas
+
+> Todas as frases "verdadeiras" abaixo foram **conferidas palavra por palavra** no texto italiano de Inglese. Tradução livre nossa.
+
+### 5.1 A frase falsa mais famosa: "os fins justificam os meios"
+
+- **Veredito:** **NÃO EXISTE** em nenhuma obra de Maquiavel (nem no *Príncipe*, nem nos *Discursos*, nem nas cartas). Em italiano, *"il fine giustifica i mezzi"* é um **resumo popular** posterior.
+- **O que ele escreveu de fato (XVIII):**
+  > *"e nelle azioni di tutti li uomini, e massime de' principi, dove non è iudizio a chi reclamare, si guarda al fine. Facci dunque uno principe di vincere e mantenere lo stato: e' mezzi sempre fieno iudicati onorevoli e da ciascuno saranno laudati; perché el vulgo ne va preso con quello che pare e con lo evento della cosa"*
+  >
+  > "e nas ações de todos os homens, e sobretudo dos príncipes, **onde não há tribunal a que recorrer, olha-se para o resultado**. Trate pois um príncipe de vencer e manter o Estado: **os meios serão sempre julgados honrosos** e louvados por todos; porque o vulgo se deixa levar pelo que parece e pelo desfecho da coisa".
+- **Por que a frase verdadeira é diferente da falsa:**
+  1. É uma **descrição** de como **as pessoas julgam** ("olha-se para o resultado", "os meios **serão julgados** honrosos"), não uma **norma moral** ("os fins justificam").
+  2. *Fine* aqui é o **desfecho/resultado** (*"lo evento della cosa"*), não "a finalidade elevada".
+  3. A condição é jurídica: **"onde não há tribunal a que recorrer"** — os príncipes não respondem a um juiz; quem os julga é a opinião pública, que olha o resultado.
+  4. O mesmo livro diz que crimes **não** dão glória (VIII).
+- **Comparação de traduções (conferidas):**
+
+| Tradução | Texto | Comentário |
+|---|---|---|
+| Inglês, **W. K. Marriott**, 1908 (Gutenberg) | "and in the actions of all men, and especially of princes, **which it is not prudent to challenge, one judges by the result**" | **Erro de tradução**: *"dove non è iudizio a chi reclamare"* não é "que não é prudente contestar", é "onde não há tribunal a que apelar". Essa tradução é a mais copiada na internet. |
+| Inglês, **N. H. Thomson**, 1882 (Wikisource) | "where there is **no tribunal to which we can appeal, we look to results**" | Fiel. |
+| Inglês, **H. Mansfield**, 1985 | "where there is no court to appeal to, **one looks to the end**" | Fiel e literal (**não conferido palavra por palavra**). "the end" é ambíguo em inglês e alimenta o mito. |
+| Francês, **J.-V. Périès**, 1823 (ed. 1855, Wikisource) | "dans les actions des hommes, et surtout des princes, **qui ne peuvent être scrutées devant un tribunal, ce que l'on considère, c'est le résultat**. Que le prince songe donc uniquement à **conserver sa vie** et son État" | Fiel no ponto do tribunal; segue a vulgata *"vivere"* ("conservar a vida"). |
+| Alemão, **G. Regis**, 1842 (Wikisource) | "(wo es über Beschwerden **kein Gericht giebt**) **wird auf's Ende gesehen**" | Literal: "onde não há tribunal para queixas, olha-se para o fim". |
+| Português | — | **Lacuna:** não conferimos as traduções brasileiras nesta rodada. Tradução recomendada ao agente: **"onde não há tribunal a que recorrer, olha-se o resultado"**. |
+
+- **De onde vem "os fins justificam os meios" (fato documentado / tradição):** a ideia antiga mais próxima é de **Ovídio**, *Heroides* II.85: *"exitus acta probat"* ("o desfecho aprova os atos"). A fórmula moral **"cum finis est licitus, etiam media sunt licita"** ("quando o fim é lícito, também os meios são lícitos") aparece na teologia moral do jesuíta **Hermann Busenbaum** (*Medulla theologiae moralis*, 1650) e foi usada pelos adversários dos jesuítas; a atribuição a Maquiavel é uma colagem posterior (**fontes da colagem não conferidas nesta frente** — ver `recepcao-e-estudiosos.md`).
+- **O mais perto disso que Maquiavel escreveu mesmo** está nos *Discursos*, não no *Príncipe*: I.9, sobre Rômulo, *"accusandolo il fatto, lo effetto lo scusi"* ("se o fato o acusa, o efeito o desculpa") — e com a condição de que o efeito seja **o bem comum**, não o próprio (ver `discursos.md`).
+- **Como o agente deve responder** quando alguém disser "Maquiavel disse que os fins justificam os meios": "Não disse. No cap. XVIII do *Príncipe* eu escrevi que, onde não há tribunal, **as pessoas julgam pelo resultado**. É uma observação sobre a opinião pública, não uma licença. E no cap. VIII escrevi que trair e matar dão poder, mas não glória."
+
+### 5.2 Outras frases falsas, distorcidas ou de outra obra
+
+| Frase que circula | Veredito | O que há de verdade |
+|---|---|---|
+| **"Dividir para conquistar"** (*divide et impera*) | **Falsa** (não é dele). Máxima latina de origem incerta, atribuída a Filipe da Macedônia, a Luís XI e a outros; não está em autor antigo conhecido. | No *Príncipe* XX ele diz o **contrário** para o próprio território: *"io non credo che le divisioni facessino mai bene alcuno"* ("não creio que as divisões jamais tenham feito bem algum"); nutrir facções nas cidades súditas é sinal de **fraqueza** (exemplo dos venezianos, que perderam tudo em Vailà). Dividir **as forças do inimigo** é regra militar da *Arte da Guerra* (ver `arte-da-guerra.md`). |
+| **"É melhor ser temido que amado."** | **Cortada.** | XVII: o ideal é ser **os dois**; "é muito mais seguro ser temido que amado, **quando se tiver de abrir mão de um dos dois**", e sempre **evitando o ódio**. |
+| **"Mantenha os amigos perto e os inimigos mais perto ainda."** | **Falsa.** Vem do filme ***O Poderoso Chefão II*** (1974, roteiro de Mario Puzo e F. F. Coppola). Também atribuída a Sun Tzu, sem fonte. | O mais próximo no *Príncipe*: XX — príncipes novos acharam **mais lealdade nos que eram suspeitos** no começo (Pandolfo Petrucci). |
+| **"Nunca tente vencer pela força o que pode vencer pela fraude."** | **Não está no *Príncipe*** nessa forma. | Ideia próxima: *Discursos* II.13 ("sobe-se de baixa a grande fortuna mais pela fraude que pela força") e *Príncipe* XVIII (*"quello che ha saputo meglio usare la golpe, è meglio capitato"*). |
+| **"É um prazer duplo enganar o enganador."** | **Não localizada** em nenhuma obra de Maquiavel conferida; atribuição de internet. | — |
+| **"A política não tem relação com a moral."** | **Não está no texto.** É resumo da interpretação de **Croce** ("autonomia da política"). | XV e XVIII: aprender a "poder não ser bom" **segundo a necessidade**; "não se afastar do bem, podendo". |
+| **"Quem funda no povo funda na lama."** | **Verdadeira como citação, falsa como opinião dele.** Maquiavel cita o *"proverbio trito"* (IX) **para refutá-lo**. | Para ele, o príncipe que sabe mandar e tem ânimo *"mai si troverrà ingannato"* pelo povo. |
+| **"O príncipe não precisa ter virtudes, só parecer tê-las."** | **Meia-verdade.** | XVIII: não é necessário ter todas, mas parecer; tê-las e praticá-las **sempre** é danoso; o certo é *"parere piatoso, fedele, umano, intero, religioso, ed essere"* — **parecer e ser**, mas com o ânimo pronto para mudar se for preciso. |
+| **"O homem esquece mais rápido a morte do pai que a perda da herança."** | **Verdadeira** (XVII). | *"li uomini sdimenticano più presto la morte del padre che la perdita del patrimonio"*. |
+| **"Maquiavel ensinou os príncipes a serem maus."** | **Interpretação** (Strauss: "mestre do mal"). | Rousseau e outros dizem o contrário (ver 4.1). |
+| **"O Príncipe foi escrito para Lorenzo, o Magnífico."** | **Falsa.** | Foi dedicado a **Lorenzo di Piero de' Medici** (1492–1519), **neto** de Lorenzo, o Magnífico (1449–1492), que já estava morto em 1513. O primeiro destinatário foi Giuliano. |
+| **"Maquiavel defendia a monarquia absoluta."** | **Distorcida.** | No *Príncipe* trata de principados; nos *Discursos* defende a república como melhor forma (I.58). Ver 4.3. |
+
+### 5.3 Frases verdadeiras famosas (com capítulo)
+
+| # | Frase (italiano, Inglese) | Tradução livre | Cap. |
+|---|---|---|---|
+| 1 | *"si guarda al fine"* | "olha-se para o resultado" | XVIII |
+| 2 | *"è molto più sicuro essere temuto che amato, quando si abbi a mancare dell'uno de' dua"* | "é muito mais seguro ser temido que amado, quando se tiver de abrir mão de um dos dois" | XVII |
+| 3 | *"bisogna adunque essere golpe a conoscere e' lacci, e lione a sbigottire e' lupi"* | "é preciso ser raposa para conhecer as armadilhas e leão para assustar os lobos" | XVIII |
+| 4 | *"andare dreto alla verità effettuale della cosa che alla immaginazione di essa"* | "ir atrás da verdade efetiva da coisa, não da imaginação dela" | XV |
+| 5 | *"la fortuna sia arbitra della metà delle azioni nostre"* | "a fortuna é árbitra da metade das nossas ações" | XXV |
+| 6 | *"la fortuna è donna"* | "a fortuna é mulher" (frase polêmica; ver 5.4) | XXV |
+| 7 | *"tutti e' profeti armati vinsono ed e' disarmati ruinorno"* | "todos os profetas armados venceram e os desarmados se arruinaram" | VI |
+| 8 | *"ognuno vede quello che tu pari, pochi sentono quello che tu se'"* | "todos veem o que você parece, poucos sentem o que você é" | XVIII |
+| 9 | *"li uomini in universali iudicano più alli occhi che alle mani"* | "os homens em geral julgam mais pelos olhos que pelas mãos" | XVIII |
+| 10 | *"le iniurie si debbono fare tutte insieme (…) e' benifizi si debbono fare a poco a poco"* | "as ofensas devem ser feitas todas juntas; os benefícios, pouco a pouco" | VIII |
+| 11 | *"gli uomini si debbono o vezzeggiare o spegnere"* | "os homens devem ser afagados ou eliminados" | III |
+| 12 | *"la guerra non si lieva, ma si differisce a vantaggio di altri"* | "a guerra não se evita; adia-se, em vantagem dos outros" | III |
+| 13 | *"chi è cagione che uno diventi potente, ruina"* | "quem é causa de que outro se torne poderoso arruína-se" | III |
+| 14 | *"possono fare acquistare imperio, ma non gloria"* | "podem fazer conquistar o poder, mas não a glória" | VIII |
+| 15 | *"non può essere buone legge dove non sono buone arme"* | "não pode haver boas leis onde não há boas armas" | XII |
+| 16 | *"la prima coniettura, che si fa del cervello d'uno signore, è vedere li uomini che lui ha d'intorno"* | "a primeira avaliação da inteligência de um senhor é ver os homens que ele tem em volta" | XXII |
+| 17 | *"la prudenza consiste in sapere conoscere le qualità delli inconvenienti e pigliare el men tristo per buono"* | "a prudência consiste em conhecer a qualidade dos inconvenientes e tomar o menos ruim por bom" | XXI |
+| 18 | *"la migliore fortezza che sia è non essere odiato dal populo"* | "a melhor fortaleza que existe é não ser odiado pelo povo" | XX |
+| 19 | *"non accusino la fortuna, ma la ignavia loro"* | "não acusem a fortuna, mas a própria inércia" | XXIV |
+| 20 | *"non fare conto nella bonaccia della tempesta"* | "não contar, na bonança, com a tempestade" (o "defeito comum dos homens") | XXIV |
+
+### 5.4 Frases polêmicas: comparação de traduções
+
+**a) *"imparare a potere essere non buono"* (XV)** — "aprender a poder não ser bom"
+
+| Tradução | Texto |
+|---|---|
+| Marriott (inglês, 1908) | "to know how **to do wrong**" (força o sentido: "fazer o mal") |
+| Thomson (inglês, 1882) | "learn **how to be other than good**" (**não conferido palavra por palavra**) |
+| Mansfield (inglês, 1985) | "to learn **to be able not to be good**" (**não conferido palavra por palavra**) |
+| Périès (francês, 1823) | "apprenne **à ne pas être toujours bon**" (suaviza com "toujours") |
+| Regis (alemão, 1842) | "lerne, **nicht gut seyn zu können**" (literal) |
+| Recomendada ao agente | "aprender a **poder não ser bom**, e usar isso ou não **conforme a necessidade**" |
+
+**b) *"la fortuna è donna ed è necessario, volendola tenere sotto, batterla e urtarla"* (XXV)**
+
+| Tradução | Texto |
+|---|---|
+| Marriott | "fortune is a woman, and if you wish to keep her under it is necessary **to beat and ill-use her**" |
+| Thomson | "Fortune is a woman who to be kept under must be **beaten and roughly handled**" |
+| Périès | "la fortune est femme : pour la tenir soumise, il faut **la traiter avec rudesse**" (suaviza a violência) |
+| Regis | "das Glück ein Weib ist, und, um es sich unterwürfig zu halten, **geschlagen und bestürmt** seyn will" |
+| Comentário ([Interpretação]) | Imagem tirada da tradição da deusa Fortuna e da comédia da época (cf. *Mandrágora*); hoje lida como misógina (Hanna Pitkin, *Fortune is a Woman*, 1984). O agente **não deve repetir a imagem como conselho**; o sentido útil é: **a sorte favorece quem age com ousadia e rapidez, não quem espera friamente**. |
+
+**c) *"verità effettuale"* (XV)** — ver 3.6 (Marriott e Thomson: "real truth"; Périès: "réalité des choses"; Regis: "thatsächliche Wahrheit"; Mansfield: "effectual truth").
+
+**d) *"crudeltà (…) bene usate"* (VIII)** — Marriott troca por **"severities"** com nota; Mansfield mantém "cruelties". O italiano é *crudeltà*, sem suavizar, com a ressalva do próprio autor: *"se del male è lecito dire bene"*.
+
+**e) *"gli uomini si debbono o vezzeggiare o spegnere"* (III)** — Marriott: "either be well treated or crushed". *Spegnere* = apagar/extinguir; no contexto, inclui neutralizar (tirar o poder de vingança).
 
