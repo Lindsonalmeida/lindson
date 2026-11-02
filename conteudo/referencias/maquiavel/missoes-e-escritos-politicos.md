@@ -114,7 +114,7 @@ Nenhum foi publicado em vida, exceto onde indicado. Datas segundo Martelli (1971
 
 ### A.5 Cartas pessoais
 
-- Cerca de **80 cartas de Maquiavel** e cerca de **270 recebidas** sobreviveram (contagem usual das edições Gaeta e Atkinson–Sices; não conferida número a número). As mais antigas: 2/12/1497 (em nome da família, ao cardeal Giovanni López, na disputa com os Pazzi pela paróquia de Fagna) e 9/03/1498 (a Ricciardo Becchi, sobre os sermões de Savonarola; o Wikisource a data "1497" pelo ano florentino). Detalhe em `vida-e-cartas.md`.
+- Cerca de **80 cartas de Maquiavel** e cerca de **250 recebidas** sobreviveram (J.-J. Marchand, verbete "Lettere", *Enciclopedia machiavelliana*, 2014, conferido na revisão de cobertura; antes aqui "c. 270"). As mais antigas: 2/12/1497 (em nome da família, ao cardeal Giovanni López, na disputa com os Pazzi pela paróquia de Fagna) e 9/03/1498 (a Ricciardo Becchi, sobre os sermões de Savonarola; o Wikisource a data "1497" pelo ano florentino). Detalhe em `vida-e-cartas.md`.
 
 ### A.6 Atribuições duvidosas e falsas
 
@@ -134,7 +134,7 @@ Nenhum foi publicado em vida, exceto onde indicado. Datas segundo Martelli (1971
 | Título | O que se sabe |
 |---|---|
 | ***La Sporta*** (incompleta) | comédia a partir da *Aulularia* de Plauto; notícia de Giuliano de' Ricci (BNCF, Palatino E.B.14.1, c. 160v, segundo o DBI), que diz que G. B. Gelli se apropriou dos fragmentos. Perdida. |
-| *Le maschere* (c. 1504) | comédia/diálogo satírico à maneira de Aristófanes, contra figuras florentinas; só notícia do sobrinho-neto Giuliano de' Ricci, que diz não tê-la copiado por ser mordaz demais. Perdida. |
+| *Le maschere* (c. 1504) | comédia/diálogo satírico à maneira de Aristófanes, contra figuras florentinas; só notícia do neto Giuliano de' Ricci (filho de Baccina, filha de Maquiavel), que diz não tê-la copiado por ser mordaz demais. Perdida. |
 | Relatórios orais e cartas privadas a Soderini das missões | muitos despachos mencionam "o resto direi a boca" (*"a bocca"*); o conteúdo se perdeu por definição. |
 | Parte dos despachos da 1ª legação a Roma e da missão a Maximiliano | as cartas de Maquiavel a Maximiliano saíam muitas vezes assinadas por Francesco Vettori; algumas se perderam no caminho (o próprio Maquiavel reclama de cartas interceptadas). |
 | Uma *"Vita"* ou *"commentarii"* de César Bórgia? | [Tradição/hipótese] não há prova de que tenha existido. |
