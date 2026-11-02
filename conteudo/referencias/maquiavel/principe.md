@@ -1,6 +1,6 @@
 # O Príncipe (*De principatibus* / *Il Principe*) — base de conhecimento para o agente "Nicolau Maquiavel"
 
-**Situação:** parcial — seções 1 e 2 completas (Ded.–XXVI; Ded.–XI conta Zuleide, XII–XXVI conta Pedro, 02/11/2026). Faltam as seções 3 a 7.
+**Situação:** parcial — seções 1, 2 e 3 completas (Ded.–XI conta Zuleide, XII–XXVI conta Pedro, seção 3 conta Zuleide, 02/11/2026). Faltam as seções 4 a 7.
 
 > **Para que serve este arquivo:** é a base do agente "Maquiavel conselheiro de negócios" sobre *O Príncipe*. Tudo o que está marcado como **texto** vem do original italiano; **fato documentado** é história com fonte; **[Interpretação]** é leitura de estudioso (com o nome) ou nossa; **[Tradição]** é história sem prova. O agente nunca deve pôr interpretação na boca de Maquiavel.
 >
@@ -591,4 +591,112 @@ Conferido nas duas versões em 02/11/2026. É importante porque **as traduções
 - **Aplicação ([Interpretação]):** (1) **Crise é ocasião**: o pior momento do mercado é quando aparece espaço para quem chega com uma "forma" nova. (2) Um projeto grande precisa de **causa** que as pessoas sintam (o "domínio bárbaro" que a todos fede = a dor real do cliente) e de **ferramentas próprias** (equipe, método). (3) Talento individual sem **comando e organização** perde para equipes medianas bem organizadas. (4) **Inove na "arma"**: combine o que os concorrentes fazem bem e corrija o defeito de cada um (como a infantaria nova contra espanhóis e suíços). (5) A oportunidade vem de fora; **"o resto você deve fazer"**.
 
 ---
+
+
+---
+
+## 3. Conceitos-chave
+
+> **Contagens:** feitas por nós no texto de Inglese (BibIt), com busca automática; servem de ordem de grandeza (formas flexionadas e homônimos podem somar ou faltar). Citações conferidas palavra por palavra no mesmo texto.
+
+### 3.1 *Virtù*
+
+- **Frequência:** cerca de **60** ocorrências de *virtù* (+ 11 de *virtuoso/virtuosissimamente*).
+- **O que é (texto):** não é a "virtude" moral cristã. É a **capacidade ativa de um homem (ou de um povo, de um exército) de impor forma às circunstâncias**: energia, coragem, inteligência prática, disciplina. Aparece sempre **em par com a fortuna**: *"o per fortuna o per virtù"* (I). A fortuna dá "a matéria"; a *virtù* dá "a forma" (*"la occasione, la quale dette loro materia a potere introdurvi dentro quella forma che parse loro"*, VI).
+- **Limite moral dentro do próprio texto:** Agátocles tinha *"tanta virtù di animo e di corpo"*, mas *"Non si può ancora chiamare virtù ammazzare e' suoi cittadini, tradire gli amici, essere sanza fede, sanza piatà, sanza religione"* (VIII). Ou seja: Maquiavel **separa** *virtù* de crime em pelo menos um lugar — ponto central do debate (ver 4).
+- **Virtù coletiva:** *"qui è virtù grande nelle membra, quando la non mancassi ne' capi"* ("aqui há grande *virtù* nos membros, se não faltasse nos chefes", XXVI); a fortuna mostra sua força *"dove non è ordinata virtù a resisterle"* ("onde não há *virtù* organizada para resistir-lhe", XXV) — *virtù* institucional (diques, armas próprias, leis).
+- **Traduções (comparação):**
+  - inglês: Marriott alterna "ability", "valour", "virtue"; **Skinner/Price** deixam ***virtù*** sem traduzir e explicam no glossário; **Mansfield** traduz sempre "**virtue**", de propósito, para mostrar que Maquiavel está **redefinindo** a palavra.
+  - francês: Périès alterna "vertu", "habileté", "talents"; traduções modernas (Fournel/Zancarini, 2000) também deixam *virtù* em italiano (**não conferido palavra por palavra**).
+  - alemão: Regis (1842) usa "**Tugend**" ("entweder durch Glück, oder durch Tugend", I). Meinecke e Münkler discutem a palavra como "Tatkraft"/energia política (**não conferido**).
+  - português: as traduções brasileiras costumam usar "virtude", "valor" ou deixar *virtù* (**não conferido palavra por palavra**).
+- **Para o agente:** traduzir *virtù* por **"competência + coragem de agir"**. Nunca por "bondade".
+
+### 3.2 *Fortuna*
+
+- **Frequência:** cerca de **55** ocorrências (fortuna e derivados).
+- **O que é (texto):** a parte do mundo que não depende de nós: acaso, conjuntura, sorte, a "qualidade dos tempos". Três imagens no cap. XXV:
+  - **metade:** *"la fortuna sia arbitra della metà delle azioni nostre, ma che etiam lei ne lasci governare l'altra metà, o presso, a noi"* — "a fortuna é árbitra da metade das nossas ações, mas deixa que governemos a outra metade, ou quase";
+  - **rio:** os rios em cheia arrasam tudo, mas nos tempos calmos podem-se fazer *"ripari"* e *"argini"* (barreiras e diques);
+  - **mulher:** *"la fortuna è donna ed è necessario, volendola tenere sotto, batterla e urtarla"* (ver 5, frase polêmica).
+- **Adequação aos tempos (texto, XXV):** *"sia felice quello che riscontra il modo del procedere suo con la qualità de' tempi"* — "é feliz quem faz seu modo de agir combinar com a qualidade dos tempos"; e *"se si mutassi natura con e' tempi e con le cose, non si muterebbe fortuna"* — "se se mudasse de natureza com os tempos e as coisas, não se mudaria de fortuna". Mas ninguém consegue mudar a própria natureza: daí o "fracasso" estrutural.
+- **Desculpa proibida (texto, XXIV):** os príncipes italianos *"non accusino la fortuna, ma la ignavia loro"* — "não acusem a fortuna, mas a própria preguiça/covardia".
+- **[Interpretação]:** Maquiavel herda a deusa Fortuna dos humanistas (Petrarca, Alberti, Pontano) e a torna **parcialmente controlável**. Skinner (inglês) liga isso ao *vir virtutis* humanista; Hanna Pitkin (*Fortune is a Woman*, 1984, inglês) lê o gênero da imagem como central no pensamento dele; Gennaro Sasso (italiano) mostra a tensão: a *virtù* pede adaptação, mas a natureza humana não muda — o que torna o sucesso duradouro improvável.
+
+### 3.3 *Occasione*
+
+- **Frequência:** cerca de **22** ocorrências.
+- **Texto:** dos fundadores, *"non si vede che quelli avessino altro da la fortuna che la occasione"* (VI). Bórgia *"aspettò la occasione di spegnere e' capi Orsini (…) la quale gli venne bene, e lui la usò meglio"* (VII) — "esperou a ocasião de eliminar os chefes Orsini; ela veio bem e ele a usou melhor". O apelo final: *"Non si debba adunque lasciare passare questa occasione"* (XXVI).
+- **Para o agente:** a ocasião é **a única coisa que a fortuna dá**. A pergunta é: "você está preparado para usá-la quando vier?"
+
+### 3.4 *Necessità*
+
+- **Frequência:** cerca de **31** ocorrências (necessità, necessitato etc.).
+- **Texto:** é o critério de quando usar o "não bom": *"imparare a potere essere non buono e usarlo e non usarlo secondo la necessità"* (XV); *"non partirsi dal bene, potendo, ma sapere entrare nel male, necessitato"* (XVIII) — "não se afastar do bem, podendo, mas saber entrar no mal, quando obrigado". E sobre os homens: *"gl'uomini sempre ti riusciranno tristi, se da una necessità non sono fatti buoni"* (XXIII) — "os homens sempre se mostrarão maus, se uma necessidade não os fizer bons".
+- **[Interpretação]:** a necessidade é a ponte entre ética e política: o bem é a regra, o mal a exceção **forçada**. Croce lê aqui a "autonomia da política"; Viroli lê limites ("se possível, o bem").
+
+### 3.5 *Stato*
+
+- **Frequência:** *stato/stati* aparecem mais de **140** vezes (a contagem inclui o particípio *stati* = "sido"); *lo stato* sozinho, **59** vezes.
+- **Sentidos (texto):** (a) o **domínio** ou território (*"tutti gli stati, tutti e' dominii"*, I); (b) a **posição de poder** de alguém (*"mantenere lo stato"* — manter-se no poder); (c) o regime/governo (*"uno stato di pochi"*, V); (d) a condição social (*"uomo di basso e infimo stato"*, Ded.).
+- **[Interpretação]:** J. H. Hexter (inglês, "Il principe and lo stato", 1957) mostrou que *lo stato* no *Príncipe* é quase sempre **objeto de verbos de posse** (adquirir, manter, perder, tirar) — algo que o príncipe **tem**, não ainda o "Estado" impessoal moderno. **Skinner** (*The Foundations of Modern Political Thought*, 1978) e **Chabod** situam aqui o começo da passagem para o conceito moderno. (Dados de Hexter citados da literatura; **não conferido no original**.)
+- **Para o agente:** em negócios, *stato* = **a posição conquistada**: carteira, mercado, marca, autoridade. "Mantenere lo stato" = manter a posição.
+
+### 3.6 *Verità effettuale*
+
+- **Texto (XV):** *"mi è parso più conveniente andare dreto alla verità effettuale della cosa che alla immaginazione di essa"* — "pareceu-me mais conveniente ir atrás da verdade efetiva da coisa do que da imaginação dela"; *"molti si sono immaginati republiche e principati che non si sono mai visti né conosciuti in vero essere"* — "muitos imaginaram repúblicas e principados que nunca foram vistos nem conhecidos na realidade" (alvo provável: Platão, Cícero, os "espelhos de príncipes" e talvez More — [Interpretação]).
+- **Traduções:** Marriott "the **real truth** of the matter"; Thomson "the **real truth** of things"; Périès "la **réalité** des choses"; Regis "der **thatsächlichen Wahrheit** der Dinge"; Mansfield "the **effectual truth** of the thing" (**não conferido palavra por palavra**). *Effettuale* tem a ver com **efeitos**: a verdade que se mede pelo que produz.
+- **Para o agente:** **regra número um do método**: julgar pelo que acontece de fato (números, comportamento real do cliente), não pelo que deveria acontecer.
+
+### 3.7 *Golpe e lione* (a raposa e o leão)
+
+- **Texto (XVIII):** há dois modos de combater, **com as leis (próprio do homem)** e **com a força (próprio dos animais)**; como o primeiro muitas vezes não basta, é preciso o segundo. Os antigos ensinaram isso **"veladamente"** com **Quíron, o centauro**, mestre de Aquiles. Dos animais, tomar **a raposa e o leão**: *"el lione non si difende da' lacci, la golpe non si difende da' lupi; bisogna adunque essere golpe a conoscere e' lacci, e lione a sbigottire e' lupi"* — "o leão não se defende das armadilhas, a raposa não se defende dos lobos; é preciso ser raposa para conhecer as armadilhas e leão para assustar os lobos". O modelo vivo é **Sétimo Severo**: *"uno ferocissimo lione e una astutissima golpe"* (XIX).
+- **Fonte antiga:** **Cícero**, *De officiis* I.41 (força = leão, fraude = raposa, ambas indignas do homem). [Interpretação] (Skinner e outros): Maquiavel **inverte Cícero** de propósito.
+- **Para o agente:** o nome do canal do Lindson (Raposa e Leão) vem daqui. **Raposa** = ler armadilhas (contratos, golpes, concorrência desleal); **leão** = impor respeito (cobrar, cortar, enfrentar). Usar só um dos dois não dura: *"l'una sanza l'altra non è durabile"*.
+
+### 3.8 Crueldade bem usada e mal usada
+
+- **Texto:** VIII (*"crudeltà male usate o bene usate"*; as ofensas "todas juntas", os benefícios "pouco a pouco") e XVII (Bórgia "cruel" pacificou a Romanha; Florença, "para fugir do nome de cruel", deixou destruir **Pistoia**: *"con pochissimi esempli sarà più pietoso che quelli e' quali per troppa pietà lasciono seguire e' disordini"* — "com pouquíssimos exemplos será mais piedoso do que aqueles que por excesso de piedade deixam seguir as desordens").
+- **Limites no texto:** feitas **por necessidade**, **de uma vez**, **convertidas em utilidade** dos súditos, e nunca a ponto de gerar **ódio** (XVII, XIX).
+- **Para o agente:** dureza **rara, rápida e explicada** é mais humana que frouxidão que deixa o problema crescer. Nada de crueldade gratuita: ela gera ódio, e o ódio derruba (XIX).
+
+### 3.9 Armas próprias
+
+- **Texto:** *"E' principali fondamenti che abbino tutti li stati (…) sono le buone legge e le buone arme"* (XII) — "os principais fundamentos de todos os Estados são as boas leis e as boas armas"; mercenárias e auxiliares são *"inutile e periculose"*; *"sanza avere arme proprie, nessuno principato è sicuro"* (XIII); *"quelle difese solamente sono buone, sono certe, sono durabili, che dependono da te proprio e da la virtù tua"* (XXIV) — "só são boas, certas e duráveis as defesas que dependem de você mesmo e da sua *virtù*".
+- **Contexto:** Maquiavel criou e dirigiu a **ordenança** (milícia de cidadãos) de Florença em 1506 — derrotada em Prato (1512). Ver `arte-da-guerra.md`.
+- **Para o agente:** "armas próprias" = **equipe, processos, canais de venda, dados e caixa que são seus**. Depender de freelancer sem vínculo (mercenário) ou de uma plataforma/parceiro grande (auxiliar) é risco: *"perdendo, rimani disfatto; vincendo, resti loro prigione"* (XIII) — "perdendo, fica desfeito; vencendo, fica prisioneiro deles".
+
+### 3.10 Amado ou temido
+
+- **Texto (XVII):** o ideal é ser os dois; se for preciso escolher, *"è molto più sicuro essere temuto che amato"* — "é muito mais seguro ser temido que amado" — porque o amor depende de um vínculo de obrigação que os homens rompem por interesse, e o temor depende do medo da pena, que nunca abandona. **Mas:** *"farsi temere in modo che, se non acquista lo amore, che fugga l'odio"* — fazer-se temer de modo a fugir do ódio, e isso se consegue **não tocando nos bens e nas mulheres** dos súditos. Conclusão: os homens amam "a seu bel-prazer" e temem "ao bel-prazer do príncipe": o príncipe deve **apoiar-se no que é seu**.
+- **Para o agente:** a frase "melhor ser temido que amado" **sem o resto é falsificação**. O ponto é: **dependa do que você controla** (regras claras, consequências previsíveis), **nunca seja odiado** (não mexa no bolso nem na dignidade das pessoas).
+
+### 3.11 Parcimônia (*miseria*) × liberalidade
+
+- **Texto (XVI):** a liberalidade "para ser vista" consome os recursos e obriga a extorquir, gerando ódio; o príncipe deve aceitar a fama de *misero* (avarento, "termo toscano" para quem não gasta o seu), que é **"infâmia sem ódio"**, contra a de *rapace*, **"infâmia com ódio"**. Exceções: quem ainda está **conquistando** (César) e quem gasta **o dos outros** (Ciro, César, Alexandre). *"non ci è cosa che consumi sé stessa quanto la liberalità"* — "não há coisa que consuma a si mesma tanto quanto a liberalidade".
+- **Para o agente:** desconto, brinde e "projeto de graça" para parecer generoso **comem o caixa** e depois obrigam a cobrar caro de quem paga. Melhor fama de "firme no preço" do que de "caro e sem palavra".
+
+### 3.12 Bajuladores e conselheiros
+
+- **Texto (XXIII):** as cortes estão cheias de bajuladores; se todos podem dizer a verdade, perde-se o respeito; terceiro caminho: **escolher poucos sábios**, só a eles dar liberdade de dizer a verdade, **só sobre o que o príncipe perguntar — mas perguntar sobre tudo** —, depois **decidir sozinho** e ser firme. Contra-exemplo: o imperador **Maximiliano** (relato de "Pre' Luca"), que não consultava ninguém e depois mudava de ideia ao ser contrariado. *"e' buoni consigli, da qualunque venghino, conviene naschino da la prudenza del principe, e non la prudenza del principe da' buoni consigli"* — "os bons conselhos, venham de quem vierem, nascem da prudência do príncipe, e não a prudência do príncipe dos bons conselhos".
+- **Para o agente:** este próprio agente é um "conselheiro": o Lindson pergunta, o agente diz a verdade **mesmo desagradável**, e a decisão é do Lindson.
+
+### 3.13 Secretários / ministros
+
+- **Texto (XXII):** *"la prima coniettura, che si fa del cervello d'uno signore, è vedere li uomini che lui ha d'intorno"* — "a primeira avaliação que se faz da inteligência de um senhor é ver os homens que ele tem em volta". Três tipos de cérebro: o que entende por si, o que discerne o que os outros entendem, o que não entende nem uma coisa nem outra. Teste do ministro: se **pensa mais em si que em você**, nunca será bom. O príncipe deve **honrá-lo, enriquecê-lo e dividir com ele honras e encargos**, para que não possa ficar sem ele.
+- **Para o agente:** ao contratar gestor, social media ou vendedor: o cliente julga a agência pela equipe; e o funcionário que só busca a própria vantagem em cada ação é sinal vermelho. Pague bem quem é bom, para que **perder o emprego seja o maior risco dele**.
+
+### 3.14 Outros conceitos que o agente deve dominar
+
+| Conceito | Onde | Em uma linha (texto) |
+|---|---|---|
+| ***Umori*** (humores) | IX | povo quer não ser oprimido, grandes querem oprimir; o príncipe escolhe em quem se apoia. |
+| **Ódio e desprezo** | XIX | o príncipe deve fugir das duas coisas: ódio vem de tomar bens e mulheres; desprezo vem de parecer *"vario, leggieri, effeminato, pusillanime, irresoluto"*. |
+| **Reputação** | XXI | *"Nessuna cosa fa tanto stimare uno principe, quanto fanno le grande imprese e dare di sé rari esempli"* ("nada faz estimar tanto um príncipe quanto grandes empreendimentos e dar de si exemplos raros"). |
+| **Neutralidade** | XXI | quem não toma partido é presa do vencedor; tomar partido é quase sempre melhor. |
+| ***Prudenza*** | XXI | *"la prudenza consiste in sapere conoscere le qualità delli inconvenienti e pigliare el men tristo per buono"* ("a prudência consiste em conhecer a qualidade dos inconvenientes e tomar o menos ruim por bom"). |
+| **Parecer × ser** | XVIII | *"ognuno vede quello che tu pari, pochi sentono quello che tu se'"* ("todos veem o que você parece, poucos sentem o que você é"). |
+| **Príncipe novo** | VI–IX, XIX, XXIV | o personagem central: sem legitimidade herdada, precisa de *virtù*, armas próprias e povo. |
+| ***Ordini e modi*** | VI, XXVI | instituições e procedimentos novos; inovar é o mais difícil e o que dá mais honra. |
+| **Natureza humana** | XVII, XVIII, XXIII | os homens são *"ingrati, volubili, simulatori e dissimulatori, fuggitori de' pericoli, cupidi del guadagno"* — premissa de prudência, não descrição de cada pessoa. |
 
