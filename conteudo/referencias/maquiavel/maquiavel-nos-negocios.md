@@ -1,6 +1,6 @@
 # Maquiavel nos negócios: livros de gestão, psicologia (Mach IV) e uso fiel
 
-**Situação:** parcial — feito até a seção 4 (seção 1 complementada pela conta Zuleide)
+**Situação:** completo (seções 1 a 7; seção 1 da conta Pedro, complemento e seções 2 a 7 da conta Zuleide)
 
 > Arquivo do acervo do agente Maquiavel. Português do Brasil. Legenda: **texto** = o que Maquiavel escreveu (obra e capítulo, conferido no it.wikisource.org quando dito); **fato documentado**; **[Interpretação: autor]**; **[Tradição]** = história sem prova. Idioma/fonte de cada informação: (IT) italiano, (EN) inglês, (ES) espanhol, (FR) francês, (DE) alemão, (PT) português, (ZH) chinês.
 >
@@ -160,7 +160,7 @@ Resumo dos achados clássicos (EN: Wikipedia, com base em Christie & Geis 1970 e
 - **Deluga**, "American presidential Machiavellianism: Implications for charismatic leadership and rated performance", *The Leadership Quarterly* 12, 2001, pp. 339–363: estudo histórico-métrico de presidentes dos EUA; citado como prova de que líderes maquiavélicos podem ser vistos como **carismáticos** e bem avaliados. (EN: citações em revisões; resumo original **não conferido**.)
 - **Belschak, Den Hartog e Kalshoven**, "Leading Machiavellians: How to translate Machiavellians' selfishness into pro-organizational behavior", *Journal of Management* 41(7), 2015, pp. 1934–1956 (versão online 2013): dois estudos de campo; a **liderança transformacional** (dar autonomia, sentido e desafio) faz funcionários maquiavélicos terem mais comportamento cidadão "desafiador" (propor melhorias); parte do efeito vem da **autonomia** e da motivação intrínseca. (EN/NL: Universidade de Amsterdã; Social Science Space.)
 - Revisões citadas na Wikipedia: chefes "high Mach" conseguem cargos com mais facilidade, mas prejudicam a carreira e o bem-estar dos subordinados e podem anular o efeito de uma liderança ética.
-- **[Interpretação]** Para o Lindson como chefe: se tiver na equipe alguém calculista e ambicioso, dê autonomia com metas claras e visíveis; é o eco de *Príncipe* XXII — o bom ministro é mantido fiel "onorandolo, faccendolo ricco" (honrando-o, enriquecendo-o, dando-lhe parte nas honras e encargos) [paráfrase; ver `principe.md`, cap. XXII].
+- **[Interpretação]** Para o Lindson como chefe: se tiver na equipe alguém calculista e ambicioso, dê autonomia com metas claras e visíveis; é o eco de *Príncipe* XXII — o bom ministro é mantido fiel "onorandolo, facendolo ricco, obbligandoselo, partecipandogli gli onori e carichi" (honrando-o, enriquecendo-o, obrigando-o pela gratidão, dando-lhe parte nas honras e encargos) (conferido no it.wikisource).
 
 ### 3.4 Negociação
 - Estudos clássicos (Christie & Geis 1970) mostram "high Machs" ganhando mais em barganhas **face a face com regras ambíguas**; e estudos de ética da negociação mostram que o maquiavelismo prevê aceitar táticas **antiéticas** (blefe, mentira, promessas falsas) — p. ex. a tese de Purdue "Ethical and unethical negotiation tactic usage: Considering the role of aberrant personality": quem pontua alto na tríade escolhe mais táticas antiéticas, mas o teste face a face deu apoio só parcial. (EN: Purdue; Fairfield University "Conflict Frames and the Use of Deception".)
@@ -210,3 +210,88 @@ Resumo dos achados clássicos (EN: Wikipedia, com base em Christie & Geis 1970 e
 - **Kirkus e Jeffrey Pfeffer** sobre Greene: falta de provas e exemplos isolados (seção 1.4).
 - **Literatura psicológica** (seção 3): o "maquiavelismo" prático não melhora o desempenho e aumenta comportamentos danosos.
 - **[Interpretação: conta Zuleide]** A crítica central: o executivo **não é príncipe**. O príncipe de Maquiavel responde pela vida e liberdade de um Estado, sem tribunal acima dele ("dove non è giudizio a chi reclamare", *Príncipe* XVIII). Uma empresa vive **dentro** de um Estado de leis, com tribunal, Procon, CONAR e clientes que escolhem. Por isso, as licenças de "entrar no mal" que ele admite para a salvação da pátria **não se transferem** para o lucro de uma empresa. O que se transfere é: realismo sobre as pessoas, ordem, armas próprias, reputação por feitos, base popular, decisão rápida e não ser odiado.
+
+---
+
+## 5. Aplicação ao negócio do Lindson (agência de redes sociais em São Luís-MA) [Interpretação: conta Zuleide]
+
+> Tudo nesta seção é **interpretação** aplicada, apoiada nos textos citados. O agente deve apresentá-la como conselho, não como "o que Maquiavel escreveu".
+
+### 5.1 Regras de aplicação sem distorção (o filtro)
+Antes de transformar uma passagem de Maquiavel em conselho de negócio, o agente passa por 6 perguntas:
+1. **Qual o capítulo?** Sem obra e capítulo, não é Maquiavel (ver `recepcao-e-estudiosos.md`, 5.1).
+2. **De quem ele fala?** Príncipe novo, príncipe hereditário, república, capitão, conspirador? (*Príncipe* I–XI classifica os principados; o conselho muda conforme o caso.) Uma agência pequena é um **"principado novo" conquistado com "armas próprias e virtù"** (*Príncipe* VI), não um Estado em guerra.
+3. **O contexto é de vida ou morte do Estado?** Se o texto só vale "per la salute della patria" (*Discursos* III.41) ou para fundar um reino (*Discursos* I.9), **não** se aplica a lucro.
+4. **A versão lícita existe?** Trocar violência por concorrência, engano por sigilo estratégico, "eliminar" por "superar". Se não houver versão lícita, descartar.
+5. **Gera ódio ou desprezo?** Se gera (*Príncipe* XIX), é mau conselho mesmo para Maquiavel.
+6. **Os *Discursos* concordam?** Conferir com o livro das repúblicas (instituições, povo, renovação) — é a falha nº 1 dos manuais (Galie & Bopst 2006).
+
+### 5.2 Doze lições fiéis para uma agência pequena
+1. **Armas próprias** (*Príncipe* XII–XIII): o núcleo do serviço — estratégia, atendimento e criação — com gente própria e treinada (ou o próprio Lindson); freelancers e ferramentas de IA como "auxiliares", nunca como o exército inteiro.
+2. **O povo como fortaleza** (*Príncipe* IX e XX): carteira de muitos clientes pequenos e médios satisfeitos é mais segura que um cliente grande que dita as regras (os "grandes" querem dominar; o "povo" só quer não ser oprimido — *Príncipe* IX).
+3. **Temido sem ser odiado** (*Príncipe* XVII): contrato claro, prazos cobrados, sem descontos por pressão; e nunca tocar no "patrimônio" do cliente (perfil, senhas, dados, verba de anúncio): devolver tudo na saída.
+4. **Males de uma vez, benefícios aos poucos** (*Príncipe* VIII): reajuste anual comunicado uma vez, com motivo; melhorias e bônus entregues ao longo do contrato e mostradas no relatório.
+5. **Reputação por feitos** (*Príncipe* XXI: "Nissuna cosa fa tanto stimare un Principe, quanto fanno le grandi imprese"): um case grande e público por trimestre vale mais que posts de autopromoção.
+6. **Tomar partido** (*Príncipe* XXI): nicho e posicionamento claros (ex.: "a agência dos negócios locais de São Luís"); neutralidade = invisibilidade.
+7. **Julgam você pela equipe** (*Príncipe* XXII): mostrar quem trabalha; contratar devagar e bem.
+8. **Conselheiros verdadeiros** (*Príncipe* XXIII): 1–2 pessoas com licença para dizer a verdade, só quando perguntadas; decisão final do dono.
+9. **Prever o mal antes** (*Príncipe* III, a "tísica" que no começo é fácil de curar e difícil de ver): monitorar sinais de churn (atraso, pouca resposta, reclamação) e agir cedo.
+10. **Instituições, não só pessoa** (*Discursos* I.9–11 e I.58): processos escritos (o repositório já tem `agencia/processos/`) para o negócio durar além do fundador.
+11. **Mudar com os tempos** (*Príncipe* XXV; *Discursos* III.9): revisar a oferta quando a plataforma muda (algoritmo, IA, formatos); ter na equipe alguém de temperamento oposto.
+12. **Dinheiro não compra soldado** (*Discursos* II.10): primeiro competência e equipe, depois tráfego pago.
+
+### 5.3 Limites éticos e legais (Brasil)
+Maquiavel descreve o que **governantes** fazem sem juiz acima deles (*Príncipe* XVIII). Uma empresa no Brasil tem juiz. Linhas que o agente **nunca** recomenda cruzar:
+- **Consumidor:** publicidade enganosa ou abusiva (Código de Defesa do Consumidor, Lei 8.078/1990, art. 37); promessas de resultado garantido que não se pode cumprir; cláusulas abusivas (CDC art. 51).
+- **Publicidade:** Código Brasileiro de Autorregulamentação Publicitária (CONAR); identificação de publicidade de influenciador.
+- **Dados:** LGPD (Lei 13.709/2018) — dados de clientes e leads só com base legal; nunca "prender" o cliente retendo acesso a perfis, páginas ou contas de anúncio.
+- **Concorrência:** concorrência desleal é crime (Lei 9.279/1996, art. 195 — ex.: divulgar falsidade sobre concorrente, desviar clientela por meio fraudulento); infrações à ordem econômica (Lei 12.529/2011).
+- **Corrupção:** Lei Anticorrupção (12.846/2013) — sem "agrado" a servidor para ganhar contrato público.
+- **Trabalho:** sem "dividir para reinar" a equipe, sem assédio moral; *Príncipe* XX e a pesquisa (seção 3) mostram que isso destrói valor.
+- **Plataformas:** termos de uso de Meta/Google (sem compra de seguidores, sem perfis falsos, sem engano em anúncios).
+- **[Interpretação]** Isso não é moralismo contra Maquiavel; é a mesma conta que ele faz: o custo (ódio, desprezo, processo, perda de reputação numa cidade onde todos se conhecem) é maior que o ganho.
+
+---
+
+## 6. Uso pelo agente
+
+### 6.1 Como responder pedidos "maquiavélicos" de negócio
+- Pedido do tipo "como eu derrubo o concorrente?", "como prendo o cliente?", "como manipulo na negociação?":
+  1. Mostrar o texto real mais próximo (tabela da seção 4).
+  2. Dizer o que **não** se transfere (contexto de Estado/guerra; lei brasileira — 5.3).
+  3. Dar a versão fiel e lícita (seção 5.2) com passo prático.
+  4. Lembrar o custo de ser odiado/descoberto (*Príncipe* XIX; pesquisa de Satornino et al. 2023).
+- Quando alguém citar Greene, Bing, Ledeen ou "frases de Maquiavel" de internet: perguntar ou mostrar o capítulo; se não existir, corrigir com a origem real (seção 1.4 e `recepcao-e-estudiosos.md`, 5.1).
+- Quando falarem de "pessoa maquiavélica" (traço): explicar a diferença (2.5) e o que a pesquisa diz (3.6).
+
+### 6.2 Frases fortes para negócios (todas conferidas no it.wikisource)
+- "È necessario avere il popolo amico, altrimenti non ha nelle avversità rimedio." — *Príncipe* IX ("É necessário ter o povo como amigo; senão, na adversidade não há remédio").
+- "La migliore fortezza che sia, è non essere odiato da' popoli." — *Príncipe* XX.
+- "Le ingiurie si debbono fare tutte insieme… li beneficii si debbono fare a poco a poco, acciocchè si assaporino meglio." — *Príncipe* VIII.
+- "È molto più sicuro l'esser temuto che amato, quando s'abbi a mancare dell'un de' duoi." — *Príncipe* XVII (sempre com a frase seguinte, sobre não ser odiado).
+- "Ognuno vede quel che tu pari; pochi sentono quel che tu sei." — *Príncipe* XVIII.
+- "Non partirsi dal bene, potendo, ma sapere entrare nel male, necessitato." — *Príncipe* XVIII.
+- "La prima coniettura che si fa di un signore, e del cervel suo, è vedere gli uomini che lui ha d'intorno." — *Príncipe* XXII.
+- "Fia sempre più utile, che star neutrale." — *Príncipe* XXI.
+- "Onorare gli eccellenti in ciascuna arte… nella mercanzia, e nell'agricultura." — *Príncipe* XXI.
+- "Le armi mercenarie ed ausiliari sono inutili e pericolose." — *Príncipe* XII.
+- "Imperio, ma non gloria." — *Príncipe* VIII.
+- "I danari non sono il nervo della guerra." — *Discursos* II.10 (título; ver `discursos.md`).
+
+### 6.3 Livros para recomendar ao Lindson (ordem)
+1. *O Príncipe* (trad. Maurício Santana Dias, Penguin-Companhia; ou Diogo Pires Aurélio, bilíngue) e os *Discursos* — a fonte.
+2. Antony Jay, *Management and Machiavelli* (1967) — o mais fiel no método (seção 1.1).
+3. Erica Benner, *Seja como a raposa* / Maurizio Viroli, *O Sorriso de Nicolau* — o homem e o contexto.
+4. Phil Harris et al., *Machiavelli, Marketing and Management* (Routledge) — acadêmico.
+5. Robert Greene só **com** a tabela da seção 1.4 ao lado.
+
+---
+
+## 7. Lacunas
+1. **Artigos originais não abertos:** Christie & Geis (1970) — redação exata dos 20 itens e a afirmação sobre a origem deles; Dahling et al. (2009) — dimensões da MPS confirmadas só por literatura secundária; Deluga (2001) — resultados; Aquino & Becker (2005) — os "55%".
+2. **Números:** efeitos por traço em O'Boyle et al. (2012) (só o resumo foi lido); tamanhos de efeito de Satornino et al. (2023).
+3. **Livros não lidos por dentro:** Ledeen, McAlpine, Griffin, Tarasov, Shiono (*Ditos*), Nunno, Phillips — avaliação de fidelidade feita por resumos e resenhas.
+4. **Idiomas:** livros de gestão sobre Maquiavel em chinês, coreano, árabe, polonês e holandês não encontrados; italiano acadêmico sobre empresa não encontrado; data da 1.ª edição de *マキアヴェッリ語録* (1988?) a conferir na NDL.
+5. **Brasil:** sem livro brasileiro de gestão de peso; ano do ensaio de Fernando Nogueira (*GV-Executivo*) a conferir; pesquisas brasileiras de maquiavelismo em vendas/agências não levantadas.
+6. **Casos reais de empresas** que se declaram "maquiavélicas" (e o que aconteceu) — não levantados; útil para a próxima rodada.
+7. **Direito:** os artigos de lei citados em 5.3 vêm de conhecimento geral; conferir texto vigente antes de usar em contrato ou parecer.
