@@ -1,6 +1,6 @@
 # Missões diplomáticas e escritos políticos curtos de Maquiavel — base de conhecimento para o agente "Maquiavel"
 
-**Situação:** parcial — feito até a seção C (escritos políticos curtos; conta Lindson). Próxima: D (uso pelo agente, 30 frases, lacunas).
+**Situação:** completo (seção A pela conta Zuleide; seções B, C e D pela conta Lindson, 02/11/2026). Lacunas para a próxima rodada na seção D.5.
 
 > **Para que serve este arquivo:** é a parte do acervo sobre o Maquiavel "funcionário": os 14 anos de Segunda Chancelaria (1498–1512), as missões (*legazioni*) e os relatórios e pareceres curtos que ele escreveu para o governo, mais as missões menores de 1518–1527. É daqui que vem a experiência que ele diz ter posto no *Príncipe* e nos *Discursos* ("lunga esperienza delle cose moderne"). Também traz a **lista mestra de todas as obras**, para checar lacunas do acervo inteiro.
 >
@@ -30,7 +30,7 @@
 - [A. Lista mestra das obras](#a-lista-mestra-das-obras-de-maquiavel)
 - [B. As legações (missões), uma por uma](#b-as-legações-missões-uma-por-uma)
 - [C. Escritos da Chancelaria e políticos curtos](#c-escritos-da-chancelaria-e-políticos-curtos)
-- D. Uso pelo agente, 30 frases, lacunas — *a fazer*
+- [D. Uso pelo agente, 30 frases, lacunas](#d-uso-pelo-agente-30-frases-lacunas)
 
 ---
 
@@ -472,3 +472,99 @@ Complementa a lista de `escritos-menores.md` 1.13, agora com fonte primária:
 - ***Modo da far somma di danari per la patria*** e ***Dell'ira e de' modi di curarla***: as *Opere minori* de 1852 já os imprimem na seção **"Operette attribuite a Niccolò Machiavelli"** (conferido no índice), junto com o *Dialogo intorno alla lingua* e a *Commedia in prosa*. Ver seção A.6.
 
 ---
+
+## D. Uso pelo agente, 30 frases, lacunas
+
+**Conta Lindson (02/11/2026).**
+
+### D.1 Como o agente usa este arquivo
+
+1. **Quando citar daqui e não do *Príncipe*:** se o Lindson pergunta "como Maquiavel agia de verdade", a resposta vem das legações: ele mesmo **negociou sem dinheiro e sem exército** por 14 anos. É a voz do "secretário que ganha tempo", útil para quem negocia com clientes maiores que ele.
+2. **Primeiro a cena, depois a regra:** contar o caso (Bórgia às 3 da manhã, Pandolfo e os "mil estribos", Constantinopla e o dinheiro) e só então a lição. Dizer sempre de onde vem: "carta de Ímola, 7/10/1502".
+3. **Diferenciar o que ele viu do que ele concluiu depois:** na carta de 26/12/1502 "não se sabe a causa" da morte de Remirro; a explicação política é do *Príncipe* (1513). O agente não deve dizer "em 1502 Maquiavel entendeu que...".
+4. **Citar Pandolfo do jeito certo:** "os tempos são superiores aos nossos cérebros" é o conselho do **rei Federico** que Pandolfo repete (Siena, 21/07/1505).
+5. **Autoria mista:** a carta de Urbino (26/06/1502) é assinada por Francesco Soderini; muitas cartas da Alemanha, por Vettori. Dizer "carta da missão" ou "carta de Soderini e Maquiavel".
+6. **Tom:** os despachos são secos, rápidos, com hora marcada; os pareceres (*Parole*, *Valdichiana*) são oratória com dilemas ("o... o"). O agente pode imitar a forma: dilema, eliminação, decisão, prazo.
+
+### D.2 Situação do negócio → texto a usar [Interpretação nossa, com a fonte]
+
+| Situação do Lindson | Texto | Conselho |
+|---|---|---|
+| Cliente grande trata a agência como fornecedor qualquer | Melun, 27/08/1500 ("stimano solamente o chi è armato, o chi è parato ad dare") | Construa "armas" (resultado provado, carteira, alternativa) antes de negociar; quem não tem nenhuma das duas é ignorado |
+| Lead enrola entre sim e não | Urbino, 26/06/1502 ("non vuole stare in questa ambiguità"; 4 dias) | Proposta com prazo curto e opção clara: ou fecha, ou encerra |
+| Concorrentes se juntam contra você | Ímola, 7/10/1502 ("dieta di falliti") | Coalizão de fracos se desfaz; negocie em separado e escolha o tempo |
+| Vazar planos para equipe/cliente | Ímola, out.–nov. 1502 ("secretissimo"; comunica só quando manda fazer) | Plano se anuncia na hora de executar |
+| Sócio ou cliente que você prejudicou promete parceria | Roma, nov.–dez. 1503 ("animosa confidenza"; "sdruccioli nello avello") | Não ponha o futuro na palavra de quem você ofendeu |
+| Mercado mudando toda semana | Siena, 21/07/1505 ("questi tempi sono superiori ad e' cervelli nostri") | Ciclos curtos, revisão semanal, "pé em mil estribos" |
+| Fornecedor recusa seu dinheiro | Baglioni, abril de 1505 | Ele tem outro dono ou medo; descubra antes de insistir |
+| Gastar com status e não com reserva | *Ritratto della Magna* ("vivono come poveri"; víveres "per uno anno") | Empresa rica, dono sóbrio; caixa para meses |
+| Dono que muda de ideia toda hora | *Rapporto*, 17/06/1508 (pre' Luca); *Discorso* 1509 ("disfà la sera quello conclude la mattina") | Decida com conselho e sustente |
+| Fechar negócio com empresa grande/governo | *De natura Gallorum* ("assai danari, gran diligenza, e buona fortuna"; "li primi accordi... sono i migliori") | Recurso, follow-up e timing; feche o primeiro acordo bem amarrado |
+| Cortar custo de segurança (backup, contrato, marca) | *Parole*, 1503 ("cignersela quando el nimico è discosto"; "venti ducati... duecento") | Prevenção se paga quando o sol está aberto |
+| Problema que se repete | *Parole*, 1503 ("la fortuna non muta sentenzia, dove non si muta ordine") | Mude o processo, não a desculpa |
+| Cliente insatisfeito mantido "meio dentro" | *Valdichiana*, 1503 ("o beneficare, o spegnere") | Resolva de verdade ou encerre com respeito |
+| Querer aprender com casos | *Valdichiana* ("la istoria è la maestra delle azioni nostre") | Estude cases do setor: as paixões são as mesmas |
+| Montar equipe própria × terceirizar | *Provisione* 1506 ("insopportabili o sospette... di nessuna utilità"; "gastigare errando, e premiare meritando") | O núcleo do negócio fica com quem você pode premiar e corrigir |
+| Falar mal do ex-sócio/concorrente caído | *Ai Palleschi* ("non ha per nimico Piero Soderini, ma sì bene l'ordine vechio") | Combata o modelo antigo, não a pessoa: atacar o caído dá força a quem está dentro |
+| Estrutura de sócios e gestores | *Discursus* ("primi, mezzani e ultimi") | Dê lugar e voz a cada nível |
+| Empresa "nem uma coisa nem outra" | *Discursus* ("né republica né principato") | Defina o modelo |
+| Regras para quem tem alto desempenho e abusa | *Sommario di Lucca* (freio do conselho; falta "un magistrato di pochi") | Regra para todos + comitê pequeno que corrige rápido |
+| Mandar relatório ao cliente | *Istruzione a Girolami* ("gli uomini prudenti... giudicano") | Fatos → atores → interesses → previsão apoiada em terceiros |
+
+### D.3 As 30 frases mais fortes (conferidas no original)
+
+1. *"Questo Signore è molto splendido et magnifico; et nelle armi è tanto animoso che non è sì gran cosa che non li paia piccola"* — carta de Urbino, 26/06/1502 (Soderini e Maquiavel).
+2. *"Giugne prima in un luogo che se ne possa intendere la partita donde si lieva"* — idem.
+3. *"Non havendo ad essere amico, vuole essere inimico aperto"* — idem (palavras de Bórgia).
+4. *"Questa dieta di falliti"* — Ímola, 7/10/1502 (palavras de Bórgia).
+5. *"L'essere io stato clemente, e avere stimato poco le cose, mi ha nociuto"* — idem.
+6. *"Questo Signore è secretissimo: né credo quello si habbi ad fare lo sappi altro che lui"* — Ímola, 1502.
+7. *"Mostra di sapere fare et disfare li huomini ad sua posta, secondo e' meriti loro"* — Cesena, 26/12/1502.
+8. *"Il duca si lascia trasportare da quella sua animosa confidenza"* — Roma, nov. 1503.
+9. *"Pare che questo duca a poco a poco sdruccioli nello avello"* — Roma, 3/12/1503.
+10. *"Stimano solamente o chi è armato, o chi è parato ad dare"* — Melun, 27/08/1500.
+11. *"Questi tempi sono superiori ad e' cervelli nostri"* — Siena, 21/07/1505 (Pandolfo citando o rei Federico).
+12. *"Teneva el piè sempre in mille staffe"* — idem (sobre Pandolfo).
+13. *"Fra gli uomini privati le leggi, le scritte, e patti fanno osservare la fede, e fra e signori la fanno solo osservare l'armi"* — *Parole da dirle*, 1503.
+14. *"Ogni città, ogni stato, debbe reputare inimici tutti coloro che possono sperare di poterle occupare el suo"* — idem.
+15. *"È bene averla a lato e cignersela quando el nimico è discosto"* — idem (a espada).
+16. *"Andate a morire con cotesti danari, poi che voi non avete voluto vivere sanza essi"* — idem (Constantinopla).
+17. *"Quando vedete el sole, non credete mai che gli abbia a piovere"* — idem.
+18. *"La fortuna non muta sentenzia, dove non si muta ordine"* — idem.
+19. *"La istoria è la maestra delle azioni nostre, e massime de' principi"* — *Valdichiana*, 1503.
+20. *"I popoli ribellati si debbano o beneficare, o spegnere, e che ogni altra via sia pericolosissima"* — idem.
+21. *"Chi vuole condurre una cosa in corte gli bisognano assai danari, gran diligenza, e buona fortuna"* — *De natura Gallorum*.
+22. *"Li primi accordi con loro sono sempre i migliori"* — idem.
+23. *"Quando non ti possono far bene tel promettono"* — idem.
+24. *"Vuol fare ogni cosa da se, e nulla fa a suo modo"* — *Rapporto*, 17/06/1508 (pre' Luca).
+25. *"La sua facile e buona natura fa che ciascuno che egli ha d'intorno lo inganna"* — idem.
+26. *"Vivono come poveri; non edificano, non vestono, e non hanno masserizie in casa"* — *Ritratto delle cose della Magna*.
+27. *"Le armi mercennarie, se sono assai e reputate, sono o insopportabili o sospette"* — *Provisione della ordinanza*, 1506 (via Fournel–Zancarini).
+28. *"Questo stato non ha per nimico Piero Soderini, ma sì bene l'ordine vechio"* — *Ai Palleschi*, 1512.
+29. *"Il maggiore bene che si faccia, e il più grato a Dio, sia quello che si fa alla sua patria"* — *Discursus*, 1520–1521.
+30. *"Mettere il giudizio vostro nella bocca vostra sarebbe odioso"* — *Istruzione a Raffaello Girolami*, 1522.
+
+Bônus de Lucca: *"È molto più pericoloso... il sì che il nò"* (*Sommario*, 1520).
+
+### D.4 Correções e contradições registradas nesta rodada
+
+| Ponto | O que circulava | O que o original diz | Fonte |
+|---|---|---|---|
+| Frase de Pandolfo | regra do próprio Pandolfo: "governo o meu Estado dia a dia... os tempos são mais poderosos" | Pandolfo **cita o rei Federico de Nápoles**; a palavra é *"superiori"* | Chiappelli IV, Siena 21/07/1505 |
+| Carta de Urbino | "carta de Maquiavel" | assinada por **Francesco Soderini** | Chiappelli II, n. 103 |
+| Remirro | Maquiavel explica a morte em 1502 | em 1502 "non si sa bene la cagione"; explicação só no *Príncipe* VII | Chiappelli II, n. 257 |
+| "Ser Nihilo" | dito na corte francesa | **não achado** nas cartas (OCR) | Chiappelli I; ed. 1813 |
+| *Cagione dell'ordinanza* | 1512 (pelo título "Post res perditas") | **1506** | Falcão 2016 (Guidi, Ridolfi, Sasso) |
+| *Giribizzi d'ordinanza* | 1506? (seção A, por Martelli) | **1515** na crítica recente | Falcão 2016 |
+| Conselho de Lucca | "Conselho Geral" sem números | Signoria de 9+1, conselho de 36, **conselho geral de 72** | *Sommario* (Wikisource) |
+| Missões a Siena | "2ª missão a Siena" = 1505 | numeração varia: Chiappelli conta agosto de 1501 como I | Chiappelli II e IV; 1843 |
+
+### D.5 Lacunas (para a próxima rodada)
+
+1. **Edição Nacional** (Salerno, *Legazioni. Commissarie. Scritti di governo*, 7 tomos) não acessível: conferir numeração e datas exatas, sobretudo 1506–1527.
+2. **Chiappelli vol. III (1503–1504)** não baixou (erro no nome do arquivo no Internet Archive): Roma 1503 e França 1504 foram conferidas só na ed. 1813.
+3. Não conferidos no original: **"Ser Nihilo"**; as cartas de **Senigália** (31/12/1502–1/01/1503); os despachos de **Júlio II em Perúgia** (set. 1506); França **1510** palavra por palavra; Mântua/Verona 1509 (o São Marcos com espada só por Bausi); Gênova 1518; Veneza 1525 além da credencial; missões de 1526–1527 (Cremona, Guicciardini).
+4. Escritos sem texto conferido: ***De rebus pistoriensibus***, ***Cagione dell'ordinanza*** (a frase "justiça e armas... de armas nenhuma"), ***Notula per uno che va ambasciadore in Francia***, ***Provvisione seconda***, ***Consulto*** do capitão, ***Sul modo di ricostituire l'ordinanza***, ***Minuta di provvisione*** (1522), ***Relazione*** das muralhas e lei dos **Cinco Procuradores** (1526), continuação da ***Allocuzione***.
+5. Datas ainda debatidas: *Descrizione* (1503 × posterior), *Ritratto di Francia* (1510 × 1512–13), *Allocuzione*, *Esortazione*, *Discursus* (fim de 1520 × 1521), comissão de **Pistoia** (fev. 1500 × 1501).
+6. Estudos citados mas não abertos: Marchand 1975; Guidi 2009 (*Un segretario militante*); Black 2013; Lettieri 2018 (Veneza 1525, só resumo); Viroli (*Il Dio di Machiavelli*); traduções em português de Lívio Xavier (1973) e Renato Ambrosio (FGV, 2010).
+7. Idiomas: faltam estudos em **alemão** sobre as legações (Münkler 1982 citado na introdução, não aberto nesta rodada) e em **espanhol** (há tradução e estudos de Ana Martínez Arancón e de Luis A. Rodríguez sobre os *escritos políticos breves*? — não conferido; buscar).
