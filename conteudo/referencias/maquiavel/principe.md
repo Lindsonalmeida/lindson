@@ -1123,7 +1123,7 @@ Texto lido no OCR de *Maquiavel* (coleção **Os Pensadores**, Abril Cultural, *
 - **Francês:** Diderot, verbete "Machiavélisme" (1765); Rousseau no original francês; Ménissier (2001); Fournel/Zancarini (2002); Merleau-Ponty, "Note sur Machiavel" (1949).
 - **Inglês:** frase de Strauss ("teacher of evil", *Thoughts on Machiavelli*, 1958, introdução); Hexter, "Il principe and lo stato" (1957), dados sobre *lo stato*; Mattingly (1958); Dietz (1986).
 - **Italiano:** Croce, *"di là, o piuttosto di qua, dal bene e dal male morale"* (*Elementi di politica*, 1925); Gramsci, *Quaderni*, "il moderno Principe".
-- **Alemão:** Hegel, *Die Verfassung Deutschlands*; Weber, *Politik als Beruf* (passagem da *História de Florença* III.7); Kersting (1988).
+- **Alemão:** Hegel, *Die Verfassung Deutschlands*; Weber, *Politik als Beruf* (passagem da *História de Florença* III.7); Kersting (1988). → **Weber conferido em alemão** e **Hegel** em tradução italiana na revisão de cobertura (ver `recepcao-e-estudiosos.md` 3.2 e 2.6); Spinoza V.7 também (1.13: os três adjetivos *acutissimus*, *sapiens*, *prudentissimus* estão todos em V.7).
 - **Espanhol:** Maravall (1969), Puigdomènech (1988), Granada.
 - **Português:** ano de Lauro Escorel (1958?); títulos dos ensaios de Sérgio Cardoso; Ames (2002) e Adverse (2009) em detalhe.
 

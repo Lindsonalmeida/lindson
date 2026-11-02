@@ -419,7 +419,7 @@ Responder em 4 passos, curto:
 ---
 
 ## 8. Lacunas (para a próxima rodada)
-1. **Textos não conferidos no original:** frase exata do verbete "Machiavélisme" (Diderot, *Encyclopédie*); nota de Rousseau na edição de 1782; Bodin (prefácio); Hegel (*Verfassung Deutschlands*); Ranke 1824; Herder 1795; Spinoza *TP* V.7 em latim; Gentili *De legationibus* III.9; Montesquieu XXI.20; Pole (latim da *Apologia*); Voltaire sobre Frederico.
+1. **Revisão de cobertura (conta Zuleide, 02/11/2026):** conferidos **Montesquieu XXI.20** (francês, 2.4), **Weber** (alemão, 3.2), **Spinoza V.7** (via Visentin; corrigido o "prudentissimus em X.1", 1.13) e **Hegel** (tradução italiana via Sgarbi, 2.6). Continuam abertos os demais abaixo. **Textos não conferidos no original:** frase exata do verbete "Machiavélisme" (Diderot, *Encyclopédie*); nota de Rousseau na edição de 1782; Bodin (prefácio); Hegel (*Verfassung Deutschlands*); Ranke 1824; Herder 1795; Spinoza *TP* V.7 em latim; Gentili *De legationibus* III.9; Montesquieu XXI.20; Pole (latim da *Apologia*); Voltaire sobre Frederico.
 2. **Datas em disputa:** Ingolstadt (queima da efígie); Binet (1621 × 1629) e a origem do sonho; Lívio Xavier (1932 × 1933); Escorel (1956 × 1958); inclusão no Índex espanhol (1583).
 3. **Línguas pouco cobertas:** polonês (sem estudo de peso achado), holandês (só Tromp e van den Enden), coreano e hindi/indiano (a frase de Weber sobre Kautilya **foi conferida** em alemão na revisão de cobertura, ver 3.2), turco (tradução otomana a confirmar), árabe moderno (traduções do séc. XX não levantadas), russo pós-soviético (estudiosos atuais não levantados).
 4. **América Latina:** Bolívar e Maquiavel (sem fonte confiável); México, Chile, Colômbia; leitura gramsciana latino-americana.
