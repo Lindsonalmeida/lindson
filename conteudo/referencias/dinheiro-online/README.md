@@ -23,6 +23,7 @@ Pedido do Lindson (02/11/2026, `conteudo/referencias/maquiavel/MISSAO.md`, fase 
 | `mercados-estrangeiros-e-asia.md` | China (live commerce, tráfego privado, KOC, micro-dramas), Japão (VTubers, note.com), Coreia (Naver, Kakao Gift, webtoon), Índia (Meesho, UPI + Telegram), super-apps, Europa | Pedro |
 | `golpes-e-riscos.md` | Golpes que chegam de fora, leis lá fora sobre promessa de ganho, Pix e MED, riscos de plataforma | Pedro |
 | `receber-do-exterior.md` | AdSense e YouTube, imposto dos EUA retido, contas (Wise, Payoneer, Stripe, PayPal), câmbio e IOF, carnê-leão, MEI e Simples | Pedro |
+| `riscos-legais-e-regras.md` | MEI, Simples, Lucro Presumido, NFS-e, reforma tributária; LGPD para a Central e o app; CDC, Marco Civil, CONAR, conselhos, eleitoral, ECA Digital; contratos, autoral e imagem; checklist "começar legal" | Lindson |
 | `plano-para-o-lindson.md` | Passo a passo ligado à esteira, ao produto master e à Central; marcos de 30, 60 e 90 dias; caminho para R$ 30 mil e R$ 100 mil por mês (cenários, não promessa) | Lindson |
 
 **Ordem de leitura para quem chega agora:** `modelos.md` → `servicos-e-agencia.md` → `produtos-digitais.md` → `golpes-e-riscos.md` → `receber-do-exterior.md` → `plano-para-o-lindson.md`. Os demais, conforme o caso.
@@ -80,7 +81,7 @@ Notas de 1 (baixo) a 3 (alto) são **[Interpretação]** a partir dos arquivos c
 ## 4. Lacunas do acervo (para a próxima rodada)
 
 **Lacunas jurídicas e fiscais óbvias (não há arquivo que trate do assunto por inteiro):**
-- **Arquivo citado e inexistente:** `software-e-ia.md` §5 remete a `riscos-legais-e-regras.md`, que **não existe**. Criar na próxima rodada, cobrindo os itens abaixo.
+- ~~Arquivo citado e inexistente~~ **Feito:** [`riscos-legais-e-regras.md`](riscos-legais-e-regras.md) (conta Lindson, 02/11/2026) cobre MEI (teto de 2026 e LC 238/2026), Simples (Anexos III e V, Fator R), Lucro Presumido, NFS-e nacional, reforma tributária, LGPD para a Central e o app de prospecção, CDC, Marco Civil, CONAR, conselhos (CFM, CFO, OAB, CRECI), eleitoral, ECA Digital, contratos, direito autoral e de imagem, e o checklist "começar legal". Os itens abaixo ficam como histórico; o que ainda falta conferir está nas lacunas do arquivo novo.
 - **MEI e Simples Nacional:** só `receber-do-exterior.md` §5.2 trata (teto de R$ 81 mil/ano do MEI, Anexo III × V e Fator R, exportação de serviço). Falta: CNAEs de marketing e de produção de vídeo na lista do MEI conferidos no Portal do Empreendedor; o que acontece ao estourar o teto (desenquadramento e multa); teto do Simples e faixas dos anexos na LC 123/2006 conferidos na lei; **pró-labore e INSS**; **nota fiscal de serviço** (NFS-e no padrão nacional) para agência e infoproduto.
 - **Reforma tributária (EC 132/2023, LC 214/2025, IBS e CBS):** citada de passagem em `produtos-digitais.md` e `receber-do-exterior.md`; falta o calendário de transição (2026–2033) e o efeito para Simples, infoproduto e exportação de serviço.
 - **LGPD (Lei 13.709/2018):** só duas linhas em `software-e-ia.md`. Falta: base legal para lista de WhatsApp e de leads do app de SDR; papel de controlador × operador na Central do Cliente (que guarda dados e fotos de clientes); direitos do titular; incidente de segurança; ANPD. É **urgente** para a Central e o SDR.
