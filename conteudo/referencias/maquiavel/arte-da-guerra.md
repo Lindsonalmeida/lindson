@@ -1,6 +1,6 @@
 # A Arte da Guerra (*Dell'arte della guerra*) — base de conhecimento para o agente "Nicolau Maquiavel"
 
-**Situação:** parcial — feito até a seção 4 (seções 1–3 pela conta Zuleide; seção 4 pela conta Lindson, 02/11/2026). Faltam as seções 5 e 6.
+**Situação:** parcial — feito até a seção 5 (seções 1–3 pela conta Zuleide; seções 4–5 pela conta Lindson, 02/11/2026). Falta a seção 6.
 
 > **Para que serve este arquivo:** é a base do agente "Maquiavel conselheiro de negócios" sobre o diálogo *Dell'arte della guerra*, a **única obra política que Maquiavel publicou em vida**. **Texto** = o que ele escreveu (com livro); **fato documentado** = história com fonte; **[Interpretação]** = leitura de estudioso (com nome e idioma) ou nossa; **[Tradição]** = história sem prova. O agente nunca põe interpretação na boca de Maquiavel.
 >
@@ -429,3 +429,46 @@ Um **diálogo em sete livros** em que um general famoso, **Fabrizio Colonna**, e
 | Milícia funciona? | Hale, Mallett (ing.): milícias eram fracas; Prato 1512 confirma; Maquiavel: Prato foi milícia mal treinada (ver 1.6) | aberto; a milícia suíça e, depois, os exércitos nacionais deram razão ao princípio |
 | Fabrizio = Maquiavel? | Villari, Gilbert: porta-voz; Lynch: porta-voz criticado | porta-voz, **com ironias** |
 | República ou príncipe? | ver 4.9 | instituição republicana, reforma pedida a quem tem poder |
+
+---
+
+## 5. Ligações com *O Príncipe* XII–XIV e *Discursos* II
+
+> Conta Lindson, 02/11/2026. Citações do *Príncipe* e dos *Discursos* conferidas no Wikisource italiano (grafia modernizada). Os resumos completos desses capítulos estão em `principe.md` e `discursos.md`; aqui só o **cruzamento** com a *Arte da Guerra*.
+
+### 5.1 Ordem das obras e remissões internas (fato + texto)
+
+- *O Príncipe* (escrito 1513–1514) → *Discursos* (c. 1513–1519) → *Arte da Guerra* (c. 1519–1520). A *Arte* é a **versão técnica** do que os dois livros anteriores dizem em termos políticos.
+- **Texto:** *Discursos* II.20 começa: *"Se io non avessi lungamente trattato, in altra mia opera, quanto sia inutile la milizia mercenaria ed ausiliare, e quanto utile la propria, io mi stenderei in questo discorso assai più"* — "se eu não tivesse tratado longamente, em outra obra minha, de quanto é inútil a milícia mercenária e auxiliar e útil a própria, me estenderia mais neste discurso". A "outra obra" é **[Interpretação corrente]** *O Príncipe* XII–XIII.
+- **Fato:** a *Arte da Guerra* não remete expressamente a nenhuma das outras duas (que eram inéditas); o leitor de 1521 conhecia essas ideias **só por ela**.
+
+### 5.2 Tabela de cruzamento
+
+| Tema | *O Príncipe* | *Discursos* | *Arte da Guerra* | Nota |
+|---|---|---|---|---|
+| Leis e armas | XII: *"I principali fondamenti che abbino tutti gli Stati ... sono le buone leggi e le buone armi; e perchè non possono essere buone leggi dove non sono buone armi..."* | I.4; I.21 | Proêmio: o palácio sem telhado (ver 2.0) | mesma tese; na *Arte* em imagem |
+| Mercenários e auxiliares | XII: *"Le mercenarie ed ausiliari sono inutili e pericolose"*; XIII: *"l'armi d'altri o le ti cascono di dosso, o elle ti pesano, e le ti stringono"* (Davi e as armas de Saul) | II.20 (auxiliares) | I (a guerra não deve ser ofício de particular; Sforza, Braccio; ver 2.1 item 3) | a *Arte* dá o **porquê social**: quem vive da guerra precisa da guerra |
+| Armas próprias | XIII: *"senza avere arme proprie, nessuno Principato è sicuro"* | I.21: a culpa é de quem *"non han saputo fare i suoi uomini militari"* | I: defesa da Ordenança; VII: fazer o exército antes de comandá-lo | ver 4.1 |
+| Repúblicas armadas | XII: *"Sterono Roma e Sparta molti secoli armate e libere. I Svizzeri sono armatissimi e liberissimi"* | I.4–6 | I: *"Stette Roma libera quattrocento anni ... Sparta, ottocento"* (ver 2.1 item 9) | na *Arte* os números (400/800 anos) |
+| Ruína da Itália | XII: *"la rovina d'Italia non è ora causata da altra cosa, che per essere in spazio di molti anni riposatasi in sull'armi mercenarie"*; XXVI: exortação | I.12 (culpa da Igreja) | II: a Itália "saqueada ... por nenhum outro pecado"; VII: os príncipes "nos gabinetes" (ver 4.9) | o *Príncipe* culpa os mercenários; a *Arte* VII culpa sobretudo **os príncipes** |
+| Carlos VII e a ordenança francesa | XIII: Carlos VII *"cognobbe questa necessità di armarsi d'armi proprie, e ordinò nel suo regno l'ordinanza"*; Luís XI a desfez e contratou suíços | — | IV: Carlos VII e a "Pulzella" (uso da religião) | dois usos diferentes do mesmo rei |
+| A guerra como arte do chefe | XIV: o príncipe não deve ter *"altro oggetto, nè altro pensiero, nè prendere cosa alcuna per sua arte, fuori della guerra"* | — | I: nenhum homem bom faz da guerra sua arte; só o Estado (ver 2.1 itens 3 e 5) | **contradição aparente**: no *Príncipe* quem tem a guerra como "arte" é o chefe do Estado; na *Arte* o proibido é o **particular** fazer dela profissão. Fabrizio: *"l'arte mia è governare i miei sudditi e defendergli"*. Leitura corrente: as duas coincidem (o Estado, e quem o encarna, é o único "profissional" legítimo) |
+| Treino na paz | XIV: *"nella pace vi si deve più esercitare, che nella guerra"*, com obras (caça, conhecer o terreno) e com a mente (*"leggere le istorie"*) | — | I: o estudo da guerra *"ne' tempi di pace per esercizio"*; II: dias feriados, peso dobrado | a *Arte* detalha o programa de exercícios que o *Príncipe* só manda fazer |
+| Desarmado é desprezado | XIV: *"da uno armato a un disarmato non è proporzione alcuna"* | — | regra 26: *"Il disarmato ricco è premio del soldato povero"* | mesma ideia, versão econômica na *Arte* |
+| Dinheiro e guerra | XVI (liberalidade com o butim) | II.10: *"I danari non sono il nervo della guerra"*; vence quem estima *"non il danaio ma i buoni soldati"* | regra 25 (homens e ferro acham dinheiro e pão); V: butim para o tesouro público | coerente nas três; na *Arte* vira regra de gestão (o butim é do Estado) |
+| Comprar amigos | XVII (amizades compradas não se têm) | II.30: as potências de verdade *"non comperono l'amicizie con danari, ma con la virtù e con la riputazione delle forze"* | I: Veneza que contratou o marquês de Mântua *"tagliò loro le gambe"* | — |
+| Artilharia | — | II.17 (ver 4.3) | III; VII | a *Arte* é mais desdenhosa que os *Discursos* |
+| Infantaria × cavalaria | — | II.18 (ver 4.4) | II | idem |
+| Modo romano de guerrear | — | II.6: guerras *"corte e grosse"* | I: vencer a *giornata*; VI–VII: vencer pela fome | ver 4.5 |
+| Legião × exércitos de hoje | — | II.16 (*"Quanto i soldati de' nostri tempi si disformino dagli antichi ordini"*: três linhas romanas) | III: três linhas, *"tre volte la fortuna ti abbandoni"* (ver 2.3 item 2) | a *Arte* desenha a formação que II.16 só descreve |
+| Fortalezas | XX: *"la migliore fortezza che sia è non essere odiato dal populo"* (texto conferido em `principe.md`) | II.24: *"per tenere la patria propria, la fortezza è dannosa; per tenere le terre che si acquistono, le fortezze sono inutili"* | VII: como fortificar **cidades** contra o canhão; contra redutos internos (Forlì) | **não é contradição**: os *Discursos* condenam a *rocca* (cidadela contra o próprio povo); a *Arte* ensina o **muro da cidade** contra o inimigo de fora. As duas usam Forlì 1500 |
+| Capitão e batalha | — | III.10 (não se foge da batalha que o outro quer); III.12 (necessidade); III.40 (fraude na guerra é gloriosa) | IV (ver 2.4 itens 5 e 8); VI (astúcias) | ver `discursos.md` |
+| Reputação do capitão | XXI (príncipe estimado pelas grandes empresas) | III.33–38 (o capitão e a confiança da tropa) | VI: a reputação *"solamente nasce dalla virtù sua"* | — |
+
+### 5.3 O que só a *Arte da Guerra* tem
+
+- **Programa operacional:** idades (17–40), tamanhos (batalhas de 450, batalhão de 6.000, cabo a cada 10), exercícios, comandos de voz, acampamento, fortificação (ver 2.1–2.7).
+- **A crítica dos príncipes italianos** como culpados (VII, ver 4.9), mais dura que no *Príncipe*.
+- **As 27 regras gerais** (seção 3): o único "manual de máximas" que Maquiavel publicou.
+- **A forma de diálogo** e a figura de Fabrizio (ver 1.4).
+- **[Interpretação nossa]:** o *Príncipe* diz **o quê** (armas próprias), os *Discursos* dizem **por quê** (Roma), a *Arte da Guerra* diz **como** (o passo a passo). Para o agente, a ordem de uso é a mesma: diagnóstico com o *Príncipe*, justificativa com os *Discursos*, execução com a *Arte*.
