@@ -1,6 +1,6 @@
 # Discursos sobre a Primeira Década de Tito Lívio — base de conhecimento para o agente "Nicolau Maquiavel"
 
-**Situação:** parcial — feito até a seção 6 (seção 1 pela conta Lindson; seções 2 a 5 pela conta Zuleide; seção 6 pela conta Lindson, 02/11/2026). Faltam as seções 7 e 8.
+**Situação:** parcial — feito até a seção 7 (seção 1 pela conta Lindson; seções 2 a 5 pela conta Zuleide; seções 6 e 7 pela conta Lindson, 02/11/2026). Falta a seção 8.
 
 > **Para que serve este arquivo:** é a base do agente "Maquiavel conselheiro de negócios" no que diz respeito aos *Discorsi*. Tudo o que está marcado como **texto** vem do original italiano; tudo o que está marcado como **interpretação** é leitura nossa ou de estudiosos, e o agente deve apresentar assim.
 >
@@ -639,3 +639,53 @@ Conferidos os 142 ensinamentos daquele arquivo (números 78 a 219) contra o orig
 | Conspirações | III.6 | XIX | III.6 é o tratamento mais longo de todo Maquiavel. |
 | Promessas | III.42 | XVIII | III.42 remete ao *"nostro trattato De Principe"*. |
 | Neutralidade / meio-termo | I.26, I.38, II.15, II.23 | XXI | Mesma aversão ao meio e à demora. |
+
+---
+
+## 7. 30 frases mais fortes dos *Discursos*
+
+> **Critério:** força da frase + utilidade para conselho + frequência nos estudos. Todas **conferidas palavra por palavra** no Wikisource italiano (as que vêm de fichas da seção 5 já estavam conferidas; as marcadas ◆ foram conferidas nesta rodada pela conta Lindson, 02/11/2026). Tradução livre nossa. A coluna "Uso" é **[Interpretação]**. Para frases polêmicas (I.9, II.13, III.41), ver a comparação de traduções nas fichas 5.7, 5.28 e 5.39 antes de citar.
+
+| # | Italiano (Wikisource) | Tradução livre | Ref. | Uso pelo agente |
+|---|---|---|---|---|
+| 1 | *"è necessario a chi dispone una republica, ed ordina leggi in quella, presupporre tutti gli uomini rei"* | "quem organiza uma república e lhe dá leis precisa presumir que todos os homens são maus" | I.3 | Desenhar processo e contrato. |
+| 2 | *"tutte le leggi che si fanno in favore della libertà, nascano dalla disunione loro"* | "todas as leis feitas a favor da liberdade nascem da desunião deles" | I.4 | Conflito com canal gera regra boa. |
+| 3 | *"in questi solo desiderio di non essere dominati"* | "no povo, só o desejo de não ser dominado" | I.5 | Quem deve fiscalizar. |
+| 4 | *"a molte cose che la ragione non t'induce, t'induce la necessità"* | "a muitas coisas a que a razão não te induz, te induz a necessidade" | I.6 | Preparar-se para crescer. |
+| 5 | ◆ *"Né può essere migliore ordine, a torle via, che aprire assai luoghi alle accuse"* | "não há melhor ordem para acabar com as calúnias do que abrir muitos lugares para as acusações" | I.8 | Canal de reclamação contra fofoca. |
+| 6 | *"accusandolo il fatto, lo effetto lo scusi"* | "se o fato o acusa, que o efeito o desculpe" | I.9 | **Polêmica:** "desculpa", não "justifica"; só para quem age pelo bem comum. |
+| 7 | *"dove è religione, facilmente si possono introdurre l'armi"* | "onde há religião, facilmente se introduzem as armas" | I.11 | Valores antes de disciplina. |
+| 8 | *"così le leggi, per osservarsi, hanno bisogno de' buoni costumi"* | "as leis, para ser cumpridas, precisam dos bons costumes" | I.18 | Processo sem cultura não funciona. |
+| 9 | *"molte volte si muovono più per le cose che paiono che per quelle che sono"* | "muitas vezes se movem mais pelo que parece do que pelo que é" | I.25 | Mudar a substância, manter os símbolos. |
+| 10 | ◆ *"gli uomini pigliono certe vie del mezzo, che sono dannosissime; perché non sanno essere né tutti cattivi né tutti buoni"* | "os homens tomam certas vias do meio, danosíssimas, porque não sabem ser nem todo maus nem todo bons" | I.26 | Contra a meia-medida. |
+| 11 | *"gli uomini non sanno essere onorevolmente cattivi, o perfettamente buoni"* | "os homens não sabem ser honrosamente maus, ou perfeitamente bons" | I.27 | Hesitação no momento decisivo (sem nada ilegal). |
+| 12 | *"essendo sempre maggiore il desiderio che la potenza dello acquistare"* | "sendo o desejo sempre maior que o poder de adquirir" | I.37 | Insatisfação é estrutural; não prometer além. |
+| 13 | *"la più cattiva parte che abbiano le republiche deboli, è essere inresolute"* | "a pior parte das repúblicas fracas é serem indecisas" | I.38 | Prazo para decidir. |
+| 14 | *"è necessario o non offendere mai alcuno, o fare le offese a un tratto"* | "é necessário ou nunca ofender ninguém, ou fazer as ofensas de uma vez" | I.45 | Corte e reajuste. |
+| 15 | ◆ *"gli uomini nelle cose generali s'ingannono assai, nelle particulari non tanto"* | "os homens se enganam muito nas coisas gerais, nas particulares não tanto" | I.47 | Perguntar o caso concreto. |
+| 16 | ◆ *"non ci è cosa, dall'un canto, più formidabile che una moltitudine sciolta e sanza capo; e, dall'altra parte, non è cosa più debole"* | "nada é mais temível que uma multidão solta e sem chefe; e nada é mais fraco" | I.57 | Grupo sem líder: barulho grande, força pequena. |
+| 17 | *"non sanza cagione si assomiglia la voce d'un popolo a quella di Dio"* | "não sem razão se compara a voz de um povo à de Deus" | I.58 | Ouvir a base de clientes. |
+| 18 | ◆ *"Laudano sempre gli uomini, ma non sempre ragionevolmente, gli antichi tempi, e gli presenti accusano"* | "os homens sempre louvam, mas nem sempre com razão, os tempos antigos, e acusam os presentes" | Proêmio II | Contra a nostalgia ("antes o Instagram dava resultado"). |
+| 19 | *"non il bene particulare, ma il bene comune è quello che fa grandi le città"* | "não o bem particular, mas o bem comum é o que faz grandes as cidades" | II.2 | Ganho compartilhado na equipe. |
+| 20 | *"non l'oro… essere il nervo della guerra, ma i buoni soldati"* | "não o ouro é o nervo da guerra, mas os bons soldados" | II.10 | Time antes de verba. |
+| 21 | *"si troverrà bene che la fraude sola basterà"* | "se achará que só a fraude bastará" | II.13 | **Polêmica:** astúcia para quem começa pequeno; ler junto com III.40. |
+| 22 | ◆ *"l'umiltà non solamente non giova ma nuoce, massimamente usandola con gli uomini insolenti"* | "a humildade não só não ajuda como prejudica, sobretudo com os insolentes" | II.14 | Pôr limite em cliente abusivo. |
+| 23 | ◆ *"Non sono meno nocive ancora le diliberazioni lente e tarde, che le ambigue"* | "não são menos nocivas as deliberações lentas e tardias que as ambíguas" | II.15 | Decidir rápido e claro. |
+| 24 | *"non sanno porre termini alle speranze loro"* | "não sabem pôr limite às suas esperanças" | II.27 | Fechar o acordo quando já ganhou. |
+| 25 | *"Debbono, bene, non si abbandonare mai"* | "devem, porém, nunca se abandonar" | II.29 | Mês ruim. |
+| 26 | ◆ *"è necessario ritirarla spesso verso il suo principio"* | "é necessário trazê-la muitas vezes de volta ao seu princípio" | III.1 (título) | Revisão periódica. |
+| 27 | ◆ *"Conviene adunque fare il pazzo, come Bruto"* | "convém, pois, fazer-se de louco, como Bruto" | III.2 | Esperar com plano, sem se expor. |
+| 28 | *"la cagione della trista e della buona fortuna degli uomini è riscontrare il modo del procedere suo con i tempi"* | "a causa da má e da boa fortuna dos homens é combinar o seu modo de agir com os tempos" | III.9 | Rever o método quando o mercado muda. |
+| 29 | ◆ *"gli uomini grandi e rari in una republica, ne' tempi pacifichi, sono negletti"* | "os homens grandes e raros, numa república, em tempos de paz, são deixados de lado" | III.16 | Valorizar os melhores nos meses calmos. |
+| 30 | *"chi vuole vedere quello che ha a essere, consideri quello che è stato"* | "quem quer ver o que há de ser, considere o que foi" | III.43 | Método do agente: o caso parecido. |
+
+**Reservas (conferidas ◆, para trocar quando servir melhor):**
+- ◆ *"Facta mea, non dicta, vos, milites, sequi volo"* — "quero que sigam meus atos, não minhas palavras" (III.38, Valério Corvino em Lívio).
+- ◆ *"io non intendo quella fraude essere gloriosa, che ti fa rompere la fede data"* — "não entendo como gloriosa a fraude que te faz romper a palavra dada" (III.40). **Usar sempre junto com II.13.**
+- ◆ *"Che gli peccati de' popoli nascono dai principi"* — "os pecados dos povos nascem dos príncipes" (III.29, título).
+- ◆ *"è necessario, prima, spegnere l'invidia"* — "é necessário, antes, apagar a inveja" (III.30, título).
+- ◆ *"E' si ottiene con l'impeto e con l'audacia molte volte quello che con modi ordinarii non si otterrebbe mai"* — "com ímpeto e audácia muitas vezes se obtém o que por modos ordinários nunca se obteria" (III.44, título).
+- ◆ *"ciascuno dì in una città grande naschino accidenti che abbiano bisogno del medico"* — "todo dia, numa cidade grande, nascem acidentes que precisam de médico" (III.49).
+- ◆ *"non comperono l'amicizie con danari, ma con la virtù e con la riputazione delle forze"* — "não compram amizades com dinheiro, mas com *virtù* e reputação de força" (II.30, título).
+- ◆ *"pigliare le cose moderatamente… e dire la opinione sua sanza passione"* — "tomar as coisas com moderação e dar a opinião sem paixão" (III.35; regra para quem aconselha).
+- *"dove si dilibera al tutto della salute della patria, non vi debbe cadere alcuna considerazione né di giusto né d'ingiusto"* (III.41) — **só com o contexto** das Forcas Caudinas (ver 5.39); nunca como licença.
