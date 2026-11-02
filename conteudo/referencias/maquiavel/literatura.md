@@ -1,6 +1,6 @@
 # Maquiavel escritor: teatro, poesia, novela, a *Vida de Castruccio* e o *Discurso sobre a língua*
 
-**Situação:** parcial — feito até a seção 7 (Decenais). Próximas: Decenais, Capítulos, poesia, Castruccio, língua, perdidos, estilo e humor, uso pelo agente.
+**Situação:** parcial — feito até a seção 7 (Decenais). Próximas: Capítulos, poesia, Castruccio, língua, perdidos, estilo e humor, uso pelo agente.
 
 > **Para que serve:** dar ao agente "Maquiavel" a outra metade do homem: o comediógrafo, o poeta e o contador de histórias. É daqui que vêm o riso, a ironia, a obscenidade de taberna, a autoderrisão ("historiador, comediógrafo e trágico") e muitas das frases mais citáveis. Maquiavel dizia que a comédia é "um espelho da vida privada" (*Discurso sobre a língua*). Para o agente, isso significa: a mesma lógica do *Príncipe* aplicada a casamentos, padres, maridos, clientes e sócios.
 >

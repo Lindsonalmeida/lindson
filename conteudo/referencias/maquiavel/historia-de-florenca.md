@@ -545,3 +545,187 @@ Pontos principais (conferidos no italiano):
   - **Lorenzo em Nápoles (VIII.17–19):** quando a crise é pessoal (o cliente grande está furioso com você), **vá pessoalmente**. A coragem de se apresentar muda a negociação.
   - **"Esta cidade está cansada" (VIII.17):** ouvir quando a equipe diz que não aguenta mais uma "guerra" (um cliente tóxico, uma campanha impossível). Fazer a paz a tempo.
   - **VIII.1:** depois de sofrer uma traição (sócio que roubou cliente, funcionário que vazou dados), não endureça com todos: o medo leva a ofender, e a ofensa gera novos inimigos.
+
+---
+
+## 3. Temas transversais
+
+### 3.1 Facções ("sette") × divisões úteis — a tese central
+
+- **Texto (VII.1):** a divisão em si não é o mal. «alcune divisioni nuocono alle republiche, e alcune giovano». O que destrói é a **"setta"** (seita, facção, panelinha): um grupo que segue um homem por interesse privado.
+- **Dois caminhos para ganhar reputação (VII.1):**
+
+| Via pública (gera divisão útil) | Via privada (gera seita) |
+|---|---|
+| vencer uma batalha, conquistar uma terra | beneficiar este ou aquele cidadão |
+| fazer uma embaixada com cuidado e prudência | defendê-lo dos magistrados (da lei) |
+| aconselhar a república com sabedoria e sucesso | socorrê-lo com dinheiro |
+| — | levá-lo às honras sem mérito |
+| — | agradar a plebe com jogos e presentes |
+| **resultado:** rivais que, para vencer, precisam fazer o bem público e se vigiam mutuamente | **resultado:** partidários que seguem "por utilidade própria"; a cidade se parte |
+
+- **Por que a divisão sem seita ajuda (texto):** os rivais, «per vincere le loro pruove, si voltino alla esaltazione di quella [...] e particularmente osservino l'uno l'altro, acciò che i termini civili non si trapassino» ("quella" = a república) — "para vencer suas disputas, se voltam à exaltação da república e se vigiam um ao outro, para que os limites civis não sejam ultrapassados".
+- **Lei da facção vencedora (VII.1):** só fica unida enquanto o inimigo vive; vencido o inimigo, «la si ridivideva». Exemplos no livro: Guelfos → Brancos × Negros (II.16); Cosimo × Neri → os próprios amigos de Cosimo contra ele (VII.2); Piero × Dietisalvi/Pitti (VII.10).
+- **O caso exemplar:** Neri Capponi tinha «assai amici e pochi partigiani»; Cosimo, «amici e partigiani assai» (VII.2). Cosimo venceu — e foi por isso que Florença deixou de ser república de fato.
+- **Ligação com outras obras (texto):** *Discursos* I.4 (os tumultos entre plebe e Senado fizeram Roma livre) e I.7–8 (acusações públicas × calúnias); *Discursos* I.46 e III.28 (cuidado com os cidadãos que ganham reputação por meios privados). **[Interpretação: Najemy, Jurdjevic, Bignotto]** VII.1 é a versão "florentina" da tese de *Discursos* I.4: o conflito só é fecundo se canalizado por instituições públicas.
+- **Uso no negócio (interpretação):**
+  - Competição interna por **metas visíveis** = via pública (boa).
+  - Gerente que "protege" os seus, dá aumento por amizade, segura informação = via privada (seita).
+  - Teste rápido para o Lindson: "na minha equipe, as pessoas seguem as regras da Alkantara ou seguem uma pessoa?"
+
+### 3.2 Nobreza × povo × plebe
+
+- **Texto:** os "humores" (umori): os nobres (grandi) querem **mandar**, o povo quer **não ser mandado** / viver segundo a lei (II.12; III.1). É a mesma divisão de *O Príncipe* IX e *Discursos* I.5.
+- **Três etapas florentinas (Proêmio):** nobres × nobres (guelfos/gibelinos, Brancos/Negros) → nobres × povo (Ordenamentos de Justiça, 1293; derrota dos nobres, 1343) → povo × plebe (Ciompi, 1378).
+- **O efeito perverso (III.1, II.42):** os nobres, excluídos, tiveram de **parecer** populares (mudar brasões e sobrenomes), e assim se apagou a «virtù delle armi e generosità di animo» — Florença ficou rica e desarmada. **[Interpretação: Jurdjevic, cap. "Nobles in the Florentine Histories"]** Maquiavel não é antiaristocrático simples: lamenta a perda da virtude militar dos nobres.
+- **Contradição aparente com os *Discursos*:** nos *Discursos* I.5 o povo é o melhor guardião da liberdade; aqui o povo florentino quer governar "sozinho" e é «ingiurioso e ingiusto» (III.1). **[Interpretação: McCormick × outros]** McCormick: não há virada conservadora; o problema de Florença é não ter instituições como os tribunos romanos para canalizar o povo. Outros (leitura "conservadora", ex.: parte da crítica do séc. XX citada pela Wikipedia inglesa) veem um Maquiavel mais desconfiado do povo depois de servir aos Médici. Mais aceito hoje: o critério é o **fim** do grupo (dividir ou monopolizar o poder), não a classe.
+- **Uso no negócio:** o "humor" do dono/sócio (mandar) e o da equipe (não ser oprimida) sempre vão existir. A saída romana é uma regra que dá à equipe uma parte real (participação nos resultados, voz em processos) sem tirar do dono a direção.
+
+### 3.3 Os Ciompi (1378)
+
+- **Fatos (III.12–18):** os cardadores e operários da lã, sem corporação, sujeitos à Arte della Lana; depois dos tumultos de junho, com medo de punição, se reúnem de noite; um preso confessa o plano (Simone dalla Piazza, III.14); o levante começa «il 21 di luglio» (III.14) e a plebe toma o Palácio no dia seguinte (22 de julho de 1378, data da história geral); Michele di Lando, cardador, sobe descalço, é posto gonfaloneiro; reforma com três novas Artes; a plebe, insatisfeita, volta às armas e Michele a derrota (III.17); governo das Artes menores até 1382.
+- **O discurso (III.13):** ver 2.3. Pontos de lógica: (1) depois do primeiro crime, **dobrar** é mais seguro que parar; (2) crime coletivo não é punido; (3) a origem de toda riqueza é a força ou a fraude; (4) a consciência é luxo de quem não tem fome; (5) o inimigo está **dividido e rico**: a divisão dá a vitória, a riqueza a mantém; (6) quem ataca primeiro vence.
+- **Leituras (interpretação):**
+  - **Varotti:** radicalismo que leva as premissas às últimas consequências; "tábua rasa".
+  - **Leitura straussiana (Mansfield):** o Ciompo diz o que Maquiavel pensa sobre a origem da propriedade, mas é posto na boca de quem fracassa.
+  - **Leitura republicana/social (Najemy, McCormick):** Maquiavel leva a sério as razões dos pobres, mas mostra que, sem instituições, a revolta vira só outra facção.
+  - Em todas: Maquiavel **elogia Michele di Lando** (III.17) por ter contido a plebe; o regime da plebe é chamado de «puzzo della plebe».
+- **Erro comum:** atribuir o discurso a Michele di Lando (ver 1.11).
+- **Uso no negócio:** entender a cabeça de quem não tem nada a perder (ex.: ex-funcionário processando, cliente lesado em grupo, grupo de WhatsApp de clientes revoltados). Não humilhar, não deixar sem saída, separar os casos, resolver rápido.
+
+### 3.4 Condottieri e as batalhas "sem mortos" (Anghiari, Molinella)
+
+- **Texto:**
+  - I.39: os condottieri transformaram a guerra numa «arte» combinada, em que «l'una parte e l'altra perdeva».
+  - V.1: guerras «sanza paura [...] sanza pericolo [...] sanza danno».
+  - **Anghiari, 29/06/1440 (V.33–34):** quatro horas de combate, «non vi morì altri che uno uomo», caído do cavalo; depois, os soldados se recusam a perseguir o inimigo e vão guardar o butim em Arezzo.
+  - **Molinella / Riccardina, 25/07/1467 (VII.20):** meio dia de batalha, «non vi morì alcuno», só cavalos feridos e prisioneiros.
+  - **Zagonara, 1424 (IV.6–7):** a derrota que deixou Florença "desarmada, sem amigos e com o povo contra" os ricos que quiseram a guerra (IV.7). Maquiavel não dá número de mortos aqui.
+  - VI.1: com mercenários, os vencidos não são mortos nem presos (só despojados), voltam à guerra assim que se rearmam, e o butim vai para os soldados, não para o Estado.
+- **Fato × retórica:** os historiadores modernos consideram os números de Maquiavel **exagerados**: as crônicas da época dão para Anghiari e para a Molinella mortos na casa das dezenas a centenas (número exato **não conferido** nas fontes do séc. XV para este arquivo). O ponto dele é político (contra as armas mercenárias), não estatístico.
+- **Ligação com outras obras:** *O Príncipe* XII–XIII; *Arte da Guerra* I e VII; *Discursos* II.18 e II.20. É a mesma campanha da sua vida (a milícia florentina de 1506).
+- **Uso no negócio (interpretação):** prestador sem risco no resultado faz "guerra sem mortos": muita atividade, nenhuma vitória. Na agência e nos clientes: remuneração variável, metas de resultado, e alguém da casa que conheça o trabalho para fiscalizar.
+
+### 3.5 A ascensão dos Médici pelo favor privado
+
+- **Linha do tempo (texto):**
+  1. **Salvestro de' Medici** (1378) abre a porta aos tumultos dos Ciompi (III.9–10).
+  2. **Giovanni di Bicci** (IV.3, 10, 14, 16): rico, "benigno e humano", recusa armar golpes contra o povo, defende o catasto, nunca pede honras, «non andò mai in Palagio, se non chiamato» — e por isso o povo o vê como defensor.
+  3. **Cosimo** (IV.26–33): "liberal, humano", empresta a todos, financia até o Estado e os condottieri, favorece quem precisa de cargo; organizado por Averardo (audácia) e Puccio Pucci (prudência); preso e exilado (1433), volta em 1434 como "pai da pátria".
+  4. **1434–1464** (V.4; VII.1–6): exílio dos rivais, listas eleitorais manipuladas, *balìe* renovadas seis vezes em 21 anos, parlamento armado de 1458; "príncipe" de fato, vivendo como cidadão modesto.
+  5. **Piero** (VII.10–23): quase perde tudo ao cobrar os créditos do pai; vence em 1466.
+  6. **Lorenzo** (VII.24 – VIII.36): sucessão aceita pelos chefes (Tommaso Soderini), sobrevive aos Pazzi, ganha a guerra pela diplomacia, governa como príncipe.
+- **Mecanismo, em uma frase (texto de Uzzano, IV.27):** «perché gli serve de' suoi danari ciascuno, e non solamente i privati ma il publico, e non solo i Fiorentini ma i condottieri» — "porque serve com o seu dinheiro a todos, não só os particulares mas o Estado, não só os florentinos mas os condottieri".
+- **[Interpretação: Najemy 1982; Jurdjevic 2014]** é a história de como um poder **privado** (crédito, favores, clientela) substituiu instituições **públicas** fracas; Maquiavel mostra que esse poder é eficaz, mas depende da vida de um homem (IV.1) e por isso precisa virar ordem pública — o conselho do *Discursus* aos Médici.
+- **Uso no negócio (interpretação):**
+  - **Lado útil:** em mercado local (São Luís), reputação nasce de favores reais: indicar, ajudar, resolver. "Ninguém tem lei contra a liberalidade."
+  - **Lado perigoso:** poder baseado em favores pessoais não sobrevive ao dono se não virar **processo e marca**. A Alkantara precisa que o cliente seja da empresa, não só do Lindson.
+
+### 3.6 Conspirações
+
+- **Casos narrados:** Buondelmonte (II.3); conspirações contra o duque de Atenas (II.36: três ao mesmo tempo, descobertas umas às outras); exilados de 1397–1400 (III.27–28); Stefano Porcari em Roma, 1453 (VI.29); Bernardo Nardi em Prato, 1470 (VII.25–27); Milão, 1476 (VII.33–34); **Pazzi, 1478 (VIII.2–9)**; Frescobaldi e Baldinotto contra Lorenzo (VIII.36); Girolamo Riario em Forlì e Galeotto Manfredi em Faenza (VIII.34–35).
+- **Lições (texto):**
+  - VIII.1: conspirações quase sempre arruínam quem as faz e engrandecem o alvo; quem as sofre fica mais forte, mas o medo pode torná-lo cruel. (Ele remete ao tratamento longo de *Discursos* III.6.)
+  - VI.29 (Porcari): «simili imprese, se le hanno in sé, nel pensarle, alcuna ombra di gloria, hanno, nello esequirle, quasi sempre certissimo danno» — "tais empresas, se têm alguma sombra de glória ao pensá-las, têm ao executá-las quase sempre dano certíssimo". Porcari se inspirou num poema de Petrarca e se achou predestinado.
+  - VII.34: o erro dos conjurados de Milão foi contar com uma multidão que não os seguiu.
+  - VIII.5: a recusa de Montesecco em matar na igreja obrigou os Pazzi a usar dois padres inexperientes — por isso Lorenzo escapou. Mudança de última hora no plano = fracasso.
+  - VIII.8: o povo não responde ao grito de "liberdade" quando está satisfeito.
+- **Uso no negócio:** "golpes" internos (sócio que tenta tirar o outro, funcionários que combinam sair levando clientes) quase sempre vazam e fortalecem quem é atacado. Para o Lindson: se alguém tramar contra a agência, responder firme, mas sem caça às bruxas, para não virar "o príncipe que, por medo, fica mau".
+
+### 3.7 O papado
+
+- **Texto:**
+  - I.9: os papas cresceram pela reverência e depois pelo vácuo político; passaram a chamar estrangeiros (francos contra longobardos, Anjou contra os Hohenstaufen), o que manteve a Itália dividida (tese também em *Discursos* I.12).
+  - I.15: Henrique IV foi «il primo principe che cominciasse a sentire di quale importanza fussero le spirituali ferite» — "o primeiro príncipe a sentir a importância das feridas espirituais" (a excomunhão).
+  - III.7: os legados do papa em Avinhão, «pieni di avarizia e di superbia», provocaram a Guerra dos Oito Santos.
+  - VI.29: Porcari contra o governo dos prelados em Roma.
+  - VII.31; VIII.2–12: **Sisto IV** e seus sobrinhos (Girolamo Riario) estão por trás dos Pazzi; depois excomunga Florença: «perché, oltre alle temporali i Fiorentini ancora le spirituali ferite sentissero, gli scomunicò e maladisse» (VIII.10).
+  - VIII.17: entre o papa e o rei, Florença escolhe o rei: «la brevità della vita de' papi, la variazione della successione, il poco timore che la Chiesa ha de' principi, i pochi rispetti che la ha nel prendere i partiti» tornam o papa um aliado em quem não se pode confiar.
+- **Delicadeza:** a obra era para um papa (Clemente VII). Maquiavel fala mal dos papas **antigos** e de Sisto IV (inimigo dos Médici), não do cliente.
+- **Uso no negócio:** aliado cujo comando muda a cada pouco (empresa com gerente que troca todo ano, órgão público que muda de gestão) e que não depende de você "te acompanha na vitória e te deixa só na ruína". Não amarrar o negócio inteiro a um cliente assim.
+
+### 3.8 A fortuna das cidades e o ciclo histórico
+
+- **Texto:**
+  - V.1: o ciclo ordem → virtude → paz → ócio → desordem → ruína → ordem. É a versão das *Istorie* do ciclo de Políbio em *Discursos* I.2.
+  - Proêmio: a virtude dos cidadãos fazia Florença crescer **apesar** das divisões.
+  - II.42: «alla fortuna non mancorono modi a fare rinascere, per nuove divisioni, nuovi travagli» — "à fortuna não faltaram meios para fazer renascer, por novas divisões, novos tormentos".
+  - IV.33: Rinaldo sobre «De' giuochi della fortuna»: «come io ho poco confidato nelle prosperità, così le avversità meno mi offendono» — "como confiei pouco nas prosperidades, as adversidades me ofendem menos".
+  - VII.18: Agnolo Acciaiuoli a Piero: «Io mi rido de' giuochi della fortuna» — "eu rio dos jogos da fortuna".
+  - VIII.36: a morte de Lorenzo abre a porta à ruína da Itália (1494).
+- **[Interpretação: Salvatore Di Maria, citado na Wikipedia inglesa]** a abordagem cíclica é mais evidente nas *Istorie* do que em qualquer outra obra; a ambição é o motor das ações humanas.
+- **Uso no negócio:** o auge é o momento de maior risco (ócio). Usar os anos bons para criar "ordem" (processos, caixa, equipe treinada), porque a ruína vem do conforto.
+
+---
+
+## 4. Retratos
+
+> Os retratos fúnebres são um gênero clássico (Plutarco, Suetônio). Maquiavel avisa que, no de Cosimo, escreveu como os "biógrafos de príncipes" (VII.6). Tudo aqui é **texto**, salvo indicação.
+
+### 4.1 Giovanni di Bicci de' Medici (1360–1429) — IV.3, 10, 11, 14, 16
+
+- **Como sobe:** rico, «di natura benigno e umano»; chega ao supremo magistrado e o povo festeja, vendo nele um defensor (IV.3).
+- **O que faz:** recusa o plano de Rinaldo de tirar poder das Artes menores (IV.10); defende sozinho o **catasto** (IV.14); afasta-se dos que queriam usá-lo como chefe de facção (IV.11).
+- **Testamento aos filhos (IV.16):** "Morro contente porque vos deixo ricos, sãos e em condição de viver honrados"; «niuna cosa mi fa tanto morire contento, quanto mi ricordare di non avere mai offeso alcuno»; do poder político, peguem só o que as leis e os homens derem — «quello che l'uomo si toglie, non quello che all'uomo è dato, ci fa odiare».
+- **Retrato (IV.16):** «Non domandò mai onori, ed ebbeli tutti; non andò mai in Palagio, se non chiamato» — "Nunca pediu honras e teve todas; nunca foi ao Palácio senão quando chamado". «Amava la pace, fuggiva la guerra». «non di molta eloquenzia, ma di prudenza grandissima». «Morì ricchissimo di tesoro, ma più di buona fama e di benivolenza» — "Morreu riquíssimo de tesouro, mas mais ainda de boa fama e benevolência".
+- **Para o agente:** o modelo do **poder sem pedir poder**: servir, não ofender, deixar que te chamem. Bom para quem constrói reputação num mercado pequeno.
+
+### 4.2 Cosimo de' Medici, o Velho (1389–1464) — IV.26–33; V; VI.23; VII.1–6
+
+- **Antes do poder (IV.26):** «uomo prudentissimo, di grave e grata presenzia, tutto liberale, tutto umano»; nunca atacou o regime abertamente; ganhava partidários com liberalidade; calculava que assim ou viveria seguro, ou, se os rivais apelassem ao "extraordinário", seria superior em armas e favores.
+- **Na prisão (IV.29):** não comia por medo de veneno; o guarda Malavolti o reconforta; ele compra o gonfaloneiro com mil ducados e troca a morte pelo exílio; aceita o exílio «con vista allegra».
+- **No poder (VII.5):** gastos enormes em igrejas e conventos (San Lorenzo, San Marco, Fiesole, até um abrigo em Jerusalém); vida de cidadão modesto, porque «sapeva come le cose estraordinarie che a ogni ora si veggono e appariscono recono molto più invidia agli uomini, che quelle che sono in fatto e con onestà si ricuoprono» — "sabia que as coisas extraordinárias que se veem e aparecem a toda hora trazem muito mais inveja do que as que existem de fato e se cobrem com honestidade"; casou os filhos com florentinas, não com princesas; «cognosceva i mali discosto e per ciò era a tempo, o a non li lasciare crescere, o a prepararsi» — "via os males de longe e por isso chegava a tempo de não deixá-los crescer ou de se preparar"; com seu **crédito** "esvaziou Nápoles e Veneza de dinheiro" e os obrigou à paz; «sempre le civili discordie gli accrebbono in Firenze stato, e le guerre di fuora potenza e reputazione».
+- **Retrato físico e intelectual (VII.6):** nasceu em 1389 no dia de São Cosme e Damião; estatura média, «colore ulivigno»; «sanza dottrina, ma eloquentissimo e ripieno d'una naturale prudenza»; «nelle conversazione utile, ne' consigli cauto, nelle esecuzioni presto»; trouxe Argirópulo para ensinar grego e sustentou **Marsilio Ficino** em Careggi.
+- **Ditos (VII.6):**
+  - a Rinaldo, que mandou dizer «che la gallina covava» ("a galinha estava chocando" = preparava a volta), respondeu «che la poteva mal covare fuora del nidio» — "mal podia chocar fora do ninho";
+  - aos exilados que "não dormiam": acreditava, "tendo-lhes tirado o sono";
+  - do papa Pio II: «gli era vecchio e faceva una impresa da giovani» — "era velho e fazia empresa de jovem";
+  - aos embaixadores venezianos, mostrando a cabeça branca: "não demorará e os vossos senadores a terão branca como eu";
+  - à mulher, que perguntou por que fechava os olhos: «Per avvezzargli» — "Para acostumá-los";
+  - a quem dizia que estragava a cidade expulsando homens de bem: «gli era meglio città guasta che perduta; e come due canne di panno rosato facevono uno uomo da bene; e che gli stati non si tenevono co' paternostri in mano» — "melhor cidade estragada que perdida; duas varas de pano rosado [roupa de cidadão importante] fazem um homem de bem; e os Estados não se mantêm com o terço na mão";
+  - depois da morte do filho Giovanni: «Questa è troppa gran casa a sì poca famiglia» — "Esta é casa grande demais para família tão pequena".
+  - Ele mesmo registra que esses ditos deram aos inimigos motivo para acusá-lo de amar mais a si que à pátria, e mais este mundo que o outro.
+- **Últimos anos (VII.6):** sofreu com a morte do filho preferido, a doença de Piero e a "ingratidão" de Francesco Sforza (que prometera conquistar Lucca para Florença e, feito duque, não cumpriu); via a cidade «distrutta da' cittadini, e le sustanze da' ministri e da' figliuoli». Morreu e foi chamado por decreto **PADRE DELLA PATRIA**.
+- **[Interpretação: Varotti]** é o personagem mais importante da obra; o retrato é encômio declarado; os ditos (sobretudo os paternostri) mostram, sem comentário, a frieza política.
+- **Para o agente:** Cosimo é o modelo do **dono discreto que manda em tudo**: riqueza usada para criar lealdade, vida simples para não gerar inveja, visão de longe, crédito como arma. Citar também o custo: os amigos viraram saqueadores (VII.4) e a república deixou de existir.
+
+### 4.3 Piero di Cosimo, "il Gottoso" (1416–1469) — VII.10–23
+
+- Doente (gota), confia em Dietisalvi Neroni, que o leva a cobrar os créditos do pai e quase o derruba (VII.10–11); vence a conjura de 1466 (VII.15–17); responde com elegância à carta de Agnolo Acciaiuoli (VII.18: «Il ridere tuo costì è cagione che io non pianga» — "o teu riso aí é a causa de eu não chorar"); repreende os seus pelos abusos (VII.23); morre em 1469. **[Varotti]** o tratamento de Piero é o mais adulador, porque era avô do papa.
+- **Para o agente:** o herdeiro que mexe nas bases do antecessor (cortar favores, cobrar dívidas antigas) para "arrumar as contas" perde o capital político. E quem herda um negócio precisa de conselheiros que não queiram o seu lugar.
+
+### 4.4 Lorenzo de' Medici, o Magnífico (1449–1492) — VII.24; VIII
+
+- **Jovem:** «caldo di gioventù e di potenza» (VIII.3), quer tudo passando por ele — e isso cria os Pazzi.
+- **Depois dos Pazzi:** discurso à cidade (VIII.10); viagem a Nápoles, onde o rei se espanta com «la grandezza dello animo suo e della destrezza dello ingegno e gravità del iudizio» (VIII.19).
+- **Retrato final (VIII.36):**
+  - política: "fiel da balança" da Itália; fortalezas nas fronteiras (Firenzuola, Poggio Imperiale, Sarzana, Pietrasanta); pagava os Baglioni, os Vitelli e controlava Faenza como «propugnacoli»;
+  - família: o filho Giovanni **cardeal antes dos 14 anos** — «una scala da potere fare salire la sua casa in cielo» (o futuro Leão X);
+  - negócios: «quanto alla mercanzia, infelicissimo», porque seus administradores geriam o banco «non come privati, ma come principi», e a cidade teve de socorrê-lo com dinheiro; passou a investir em terras;
+  - cultura: festas, justas, triunfos; protegeu Poliziano, Landino, Demetrio Calcondila, Pico della Mirandola; abriu o Studio de Pisa; poeta e comentador de si mesmo;
+  - caráter: «nel discorrere le cose eloquente e arguto, nel risolverle savio, nello esequirle presto e animoso»; vícios: «nelle cose veneree maravigliosamente involto», gostava de gente zombeteira e de jogos infantis com os filhos — «si vedeva in lui essere due persone diverse, quasi con impossibile coniunzione congiunte» ("viam-se nele duas pessoas diferentes, unidas numa junção quase impossível");
+  - morte em abril de 1492, aos 44 anos; o raio na cúpula; "nenhum morreu com tanta fama de prudência".
+- **[Interpretação: Varotti]** o retrato alimenta o mito, então em formação, de Lorenzo "artífice da paz italiana".
+- **Para o agente:** Lorenzo ensina (1) coragem pessoal na negociação, (2) rede de aliados pagos como defesa, (3) o perigo de deixar a empresa de origem (o banco) nas mãos de gestores que agem "como príncipes": o império político cresceu enquanto o negócio de base quebrava. Lição direta para um dono de agência que vira "figura pública" e descuida do caixa.
+
+### 4.5 Outros retratos e perfis curtos
+
+| Personagem | Onde | Traço principal (texto) | Lição (interpretação) |
+|---|---|---|---|
+| Giano della Bella | II.13 | nobre "amante da liberdade" que fez os Ordenamentos de Justiça; exilado pela inveja dos populares ricos | quem reforma em favor dos pequenos atrai o ódio dos grandes **e** a inveja dos médios |
+| Corso Donati | II.21–23 | ambicioso, inquieto, morto em 1308 | o ambicioso sem lugar na ordem vira chefe de facção |
+| Castruccio Castracani | II.26, 29–30 | jovem, ousado, feroz, afortunado | (ver também a *Vida de Castruccio*, 1520) |
+| Duque de Atenas | II.33–37 | chamado como salvador, vira tirano, expulso em 10 meses | o "salvador" de fora com poder total |
+| Michele di Lando | III.16–17 | cardador descalço, «più alla natura che alla fortuna obligato»; contém a plebe | o líder que sai da base e tem coragem de frear a própria base |
+| Benedetto Alberti | III.23 | quis ser bom entre maus; exilado | coerência tem custo |
+| Maso degli Albizzi | III–IV | fundador do regime oligárquico (1382–1417) | — |
+| Niccolò da Uzzano | IV.3, 9, 27 | velho prudente, contra as "vias extraordinárias"; vê a força de Cosimo | medir forças antes de agir |
+| Rinaldo degli Albizzi | IV.9, 19–33; V.8 | orgulhoso, decidido no discurso, hesitante na ação; termina exilado pedindo ajuda ao inimigo da pátria | não fazer meia medida; não confiar em mediador sem força |
+| Neri di Gino Capponi | V; VI.6; VII.2 | reputação "por vias públicas": «assai amici e pochi partigiani» | o modelo alternativo a Cosimo |
+| Baldaccio d'Anghiari | VI.6–7 | o melhor soldado de infantaria da Itália, morto por medo | não destruir o talento por medo dele |
+| Francesco Sforza | V; VI | condottiere que vira duque de Milão traindo quem o contratou; depois, "quis gozar na paz o Estado conquistado na guerra" (VII.6) | o terceirizado que toma o negócio |
+| Tommaso Soderini | VII.24, 30 | prudente; recusa ser chefe e põe Lorenzo no lugar; acha Volterra "perdida" por ter sido tomada à força | saber o próprio lugar; preferir o acordo |
+| Niccolò Soderini | VII.14, 20 | aclamado com coroa de oliveira, não faz nada; «nel risolversi dubio e lento» | expectativa alta + hesitação = desonra |
+| Stefano Porcari | VI.29 | nobre romano que se achou o cavaleiro profetizado por Petrarca | a vaidade de "fazer história" sem forças |
+| Girolamo Olgiati | VII.34 | 23 anos, morre dizendo «Mors acerba, fama perpetua, stabit vetus memoria facti» | coragem não substitui apoio real |
+| Jacopo de' Pazzi | VIII.4, 8 | velho, contrário de início, entra pela autoridade do papa; grita "liberdade" para ninguém | entrar em plano dos outros por pressão |
