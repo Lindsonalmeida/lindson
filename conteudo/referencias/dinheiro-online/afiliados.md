@@ -89,7 +89,7 @@ Tabela 1 do regulamento, lida em associados.amazon.com.br (página de ajuda das 
 - **Lição 2:** use a tabela oficial (Amazon: 10% em livros, 13% em audiolivros) e não números de blog.
 - **Lição 3:** comissão é renda de quem tem audiência. Sem audiência, afiliado vira apostar dinheiro em anúncio.
 - **Lição 4:** para clientes locais, o programa de afiliados é **deles**: a Alkantara monta e opera.
-- Maquiavel: "colui che è cagione che uno diventi potente, ruina" (quem é causa de outro se tornar poderoso, se arruína) (*Príncipe* III). Afiliado que só constrói a marca alheia, sem lista própria, trabalha para fortalecer outro.
+- Maquiavel: "chi è cagione che uno diventi potente, ruina" (quem é causa de que outro se torne poderoso, se arruína) (*Príncipe* III). Afiliado que só constrói a marca alheia, sem lista própria, trabalha para fortalecer outro.
 
 ## Lacunas
 - Tabelas oficiais de Shopee, Mercado Livre e TikTok Shop para afiliados.
