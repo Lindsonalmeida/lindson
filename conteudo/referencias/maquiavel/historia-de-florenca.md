@@ -1,6 +1,6 @@
 # História de Florença (*Istorie fiorentine*) — base de conhecimento para o agente "Nicolau Maquiavel"
 
-**Situação:** parcial — feito até a seção 2 (conta Zuleide, 02/11/2026). Citações italianas conferidas por programa no texto Martelli/Sansoni.
+**Situação:** parcial — feito até a seção 4 (conta Zuleide, 02/11/2026). Citações italianas conferidas por programa no texto Martelli/Sansoni.
 
 > **Para que serve este arquivo:** é a base do agente "Maquiavel conselheiro de negócios" no que diz respeito às *Istorie fiorentine* (1520–1525), a última grande obra de Maquiavel. É o livro em que ele mostra, com casos reais da sua cidade, como facções destroem uma organização, como uma família (os Médici) chegou ao poder sem cargo formal, comprando lealdade com favores privados, e como conspirações, mercenários e falta de instituições arruínam quem depende deles.
 >
