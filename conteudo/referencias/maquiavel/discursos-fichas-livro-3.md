@@ -1,6 +1,6 @@
 # *Discursos* — fichas detalhadas do Livro III e tabela *Príncipe* × *Discursos*
 
-**Situação:** parcial — feitas as 40 fichas (III.2 a III.49). Falta a tabela Príncipe × Discursos (conta Lindson, ciclo 2 da revisão, 02/11/2026).
+**Situação:** completo — 40 fichas (III.2 a III.49), tabela *Príncipe* × *Discursos* (Ded. e I–XXVI), uso pelo agente e lacunas (conta Lindson, ciclo 2 da revisão, 02/11/2026).
 
 > **O que é este arquivo:** a pendência 1 do ciclo 2 da revisão (`REVISAO.md`). O `discursos.md` tem o Livro III em uma linha por capítulo (seção 4) e fichas detalhadas de só 9 capítulos do Livro III (seção 5: III.1, III.3, III.6, III.9, III.21, III.31, III.41, III.42, III.43). Aqui estão as fichas dos **40 capítulos que faltavam** (III.2, III.4, III.5, III.7, III.8, III.10–III.20, III.22–III.30, III.32–III.40, III.44–III.49) e, no fim, a **tabela completa *Príncipe* × *Discursos*** (Dedicatória e capítulos I–XXVI). Não repete as fichas de `discursos.md`; remete a elas ("ver `discursos.md` 5.36").
 >
@@ -390,3 +390,106 @@
 - **Leitura [Interpretação nossa]:** a decimação é exemplo histórico do **raciocínio** (como punir uma multidão sem culpado certo), não algo a imitar; para o negócio, só o raciocínio serve.
 - **Como aplicar num negócio hoje [Interpretação]:** separe os problemas que "não matam" (um post atrasado, um vídeo refeito) dos que **tocam o Estado** da agência (bloqueio da conta de anúncios, cliente principal saindo, caixa negativo): estes vão direto para o "médico mais sábio" (o dono), no mesmo dia. E faça como Fábio: quando algo novo ameaça mudar a casa por dentro (muitos clientes pequenos de outro perfil, um nicho que exige outra rotina), **organize-o num lugar próprio** (um pacote, um dia de gravação separado) em vez de deixar que mude tudo.
 
+---
+
+## 2. Tabela completa *Príncipe* × *Discursos*
+
+> **Relação com o que já existe:** `discursos.md` 6.15 tem uma tabela **por tema** com 16 linhas (natureza humana, humores, fundador, fazer tudo novo, ofender de uma vez, ingratidão, multidão, religião, armas próprias, fortalezas, fraude, amado ou temido, fortuna, conspirações, promessas, neutralidade). Ela **não se repete** aqui como está: foi **ampliada** para uma tabela **por capítulo do *Príncipe*** (Dedicatória e I–XXVI), cobrindo todos os 27 itens. **O que esta tabela acrescenta** está no fim da seção (2.1).
+>
+> **Como ler:** "Relação" é **concorda** (mesma tese), **complementa** (os *Discursos* acrescentam um lado, um freio ou o caso republicano) ou **contradiz** (em parte ou no todo). As ligações marcadas "texto" são remissões ou frases que estão nos dois livros (conferidas no Wikisource: *Discorsi* nesta rodada; *Il Principe* na edição do Wikisource com grafia modernizada, baixada nesta rodada, e nas fichas de `principe.md`). A classificação e a nota são **[Interpretação nossa]**, salvo quando se nomeia um estudioso.
+
+| *Príncipe* | Tema | *Discursos* que tratam do mesmo tema | Relação | Nota (1 linha) |
+|---|---|---|---|---|
+| **Ded.** | A quem se dedica; o método | Dedicatória dos *Discursos*; Proêmio I | Concorda (método) / contradiz (destinatário) | Mesmo método nos dois — "longa experiência das coisas modernas e contínua lição das antigas" (Pr.) / "longa prática e contínua lição das coisas do mundo" (Disc.) —, mas o *Príncipe* vai a um príncipe de fato e os *Discursos* a quem "mereceria" sê-lo (ver `discursos.md` 1.3). |
+| **I** | Tipos de Estado e modos de conquistar | I.1, I.2, II.4 | Complementa | O *Príncipe* classifica principados por origem e armas; os *Discursos* classificam governos (o "círculo" de I.2) e modos de expandir (II.4). |
+| **II** | Principado hereditário | III.5, I.19, I.10 | Concorda | Basta "não ultrapassar a ordem dos antepassados" (Pr. II); III.5 mostra o inverso: Tarquínio perdeu o reino herdado ao romper leis e costumes antigos. Pr. II também é a frase "das repúblicas falei longamente em outra ocasião" (texto; debate de datas em `discursos.md` 1.2). |
+| **III** | Principados mistos; colônias; Roma na Grécia | II.4, II.6–II.7 (colônias), II.19, II.21, II.23, III.4, III.40 | Concorda | Mesmo princípio: "os homens se devem ou acariciar ou eliminar" (Pr. III) = Roma "fugia da via do meio" com os súditos (II.23) e o conselho do pai de Pôncio (III.40); quem foi despojado continua perigoso (III.4). |
+| **IV** | Reino de Dario: fácil de manter, difícil de tomar; França o contrário | I.16–I.17, II.2, III.12 | Complementa | III.12 dá o mecanismo: povos acostumados a servir "estimam pouco mudar de patrão" (vizinhos de Veneza), os livres resistem obstinadamente (vizinhos de Florença). |
+| **V** | Cidades que viviam com suas leis | II.2, II.21, II.23, III.12, I.16 | Complementa (com tensão) | Pr. V: o mais seguro é destruí-las ou morar nelas; II.21: Roma as deixava viver com suas leis e só mandou pretor a Cápua quando pediram. A memória da liberdade é a mesma nos dois (II.2). |
+| **VI** | Príncipe novo com armas próprias e *virtù* (Moisés, Ciro, Rômulo, Teseu) | I.9, I.10, I.11, III.30, III.35, Proêmio I | Concorda | Fundar exige um só (I.9); introduzir "ordens novas" é o mais perigoso (Pr. VI; Proêmio I; III.35); Moisés teve de matar os invejosos e Savonarola, "desarmado", caiu (III.30 = Pr. VI). |
+| **VII** | Príncipe novo por armas alheias e fortuna; César Bórgia | III.29, I.26, II.20, III.4 | Complementa | A limpeza da Romanha é de Bórgia no Pr. VII e do papa Alexandre VI em III.29 (mudança de foco, não de fato); "benefícios novos não apagam injúrias velhas" está nos dois (Pr. VII, III.4). |
+| **VIII** | Os que chegam ao principado por crimes (Agátocles, Oliverotto) | I.10, II.13, I.45, I.26 | Complementa | Pr. VIII nega que matar cidadãos seja *virtù* e I.10 dá infâmia aos tiranos; II.13 põe Agátocles entre os que subiram por força e fraude; "ofender de uma vez" é igual (I.45; já na 6.15). |
+| **IX** | Principado civil: povo × grandes | I.4, I.5, I.7, I.16, I.40, I.58, III.34 | Complementa | Mesmos "dois humores" (já na 6.15); os *Discursos* acrescentam que o povo escolhe cargos melhor que o príncipe (III.34) e que o príncipe deve garantir ao povo a segurança (I.16). |
+| **X** | Como medir as forças; cidades fortificadas | II.10, II.12, II.24, III.10, III.30 | Complementa | Pr. X elogia muralhas e provisões das cidades alemãs; II.24 condena as **fortalezas** (contra o próprio povo), não as muralhas; III.30 ensina a defesa ordenada de uma cidade; III.10 lembra o custo de se trancar numa cidade. |
+| **XI** | Principados eclesiásticos | I.11–I.15, I.12, II.2, III.1, III.33 | Complementa (tom oposto) | Pr. XI fala da Igreja com ironia ("sustentados por causas superiores"); I.12 acusa a corte de Roma de deixar a Itália "sem religião e má" e dividida; III.1 e III.33 mostram a religião que funciona. |
+| **XII** | Tipos de milícia; mercenários | I.21, II.10, II.16–II.18, II.20, III.31, III.36 | Concorda | "Os principais fundamentos de todos os Estados são as boas leis e as boas armas" (Pr. XII) ≈ "o fundamento de todos os Estados é a boa milícia" (III.31); os exércitos italianos "de todo inúteis" (III.36). |
+| **XIII** | Auxiliares, mistos e próprios | II.20, I.21, III.13, III.38 | Concorda | II.20 remete expressamente ao *Príncipe* sobre os auxiliares (texto); quem tem homens e não soldados deve culpar "a sua preguiça" (III.38, como I.21). |
+| **XIV** | O príncipe e a milícia; caça; leitura das histórias | III.39, I.30, III.10, III.38 | Concorda (quase literal) | A caça ensina "a natureza dos sítios" (Pr. XIV) = III.39, com o mesmo Ciro de Xenofonte; o príncipe deve ir em pessoa à guerra (I.30; III.10 critica os que vão "por pompa"). |
+| **XV** | "Verdade efetiva"; aprender a não ser bom | I.3, I.26, I.27, I.10 | Complementa | Mesma premissa realista (I.3); os *Discursos* mostram o problema oposto: os homens "não sabem ser de todo maus nem de todo bons" (I.27) e escolhem vias do meio (I.26). |
+| **XVI** | Liberalidade e parcimônia | III.23, III.25, III.28, I.37, II.30 | Concorda | III.23 é o caso do Pr. XVI ao contrário: Camilo, ao tirar dos soldados a presa (o "alheio" que o capitão deve dar, como Ciro, César e Alexandre), atraiu ódio; III.28 avisa que a liberalidade **privada** de um cidadão (Mélio) prepara tirania; III.25 e I.37: "público rico, cidadãos pobres". |
+| **XVII** | Crueldade e piedade; amado ou temido | III.19, III.20, III.21, III.22, III.23, I.45 | Complementa / **contradiz em parte** | Mesmos casos (Aníbal temido, Cipião amado e as tropas revoltadas na Espanha) e mesma regra dos bens (III.19 remete ao "outro tratado"). Mas III.22 conclui que **para um príncipe** é melhor o modo humano de Valério (obediência e amor, como o Ciro de Xenofonte), enquanto Pr. XVII diz que "é muito mais seguro ser temido". |
+| **XVIII** | Manter a palavra; raposa e leão; parecer | II.13, III.40, III.42, I.25, III.2, I.59, III.14 | Complementa (com freio) | III.42 cita o "nosso tratado *De Principe*" (texto); III.40 limita: fraude **na guerra** é gloriosa, a que rompe a fé dada "nunca te dará glória"; o "parecer" do Pr. XVIII aparece em I.25 (sombra dos modos antigos) e em III.14 (invenções que devem ter "mais de verdade que de fingimento"). |
+| **XIX** | Fugir do desprezo e do ódio; conspirações; imperadores | III.6, III.4, III.5, III.19, III.23, III.26, I.10 | Concorda | "Não ser odiado pelo universal" é o maior remédio contra as conspirações nos dois (Pr. XIX, III.6); ódio vem de tomar bens e mulheres (Pr. XIX; III.19, III.23, III.26); bons e maus imperadores em Pr. XIX e I.10. |
+| **XX** | Fortalezas; dividir os súditos; armar os súditos | II.24, III.27, I.21 | Concorda (quase literal) | A frase dos sábios florentinos — "tener Pistoia con le parti e Pisa con le fortezze" — está nos dois (Pr. XX; III.27) e é condenada nos dois; "a melhor fortaleza é não ser odiado pelo povo" (Pr. XX) = conclusão de II.24. |
+| **XXI** | Ser estimado; feitos raros; neutralidade | III.34, II.15, II.23, I.38, III.40, III.44 | Concorda | "Dar de si exemplos raros" está nos dois (Pr. XXI; III.34); a condenação da neutralidade (Pr. XXI) é a mesma da ambiguidade e lentidão (II.15) e da via do meio (II.23; III.40). |
+| **XXII** | Os secretários (ministros) | III.34, III.35, I.30 | Complementa | O senhor é julgado pelos homens que tem ao redor (Pr. XXII) = "nenhum indício maior de um homem que as companhias" (III.34); III.35 trata do mesmo assunto do lado de quem aconselha. |
+| **XXIII** | Fugir dos bajuladores; como pedir conselho | III.35, I.58, II.15, III.34 | Complementa | O *Príncipe* ensina o príncipe a ouvir; III.35 ensina o conselheiro a falar ("sem paixão e com modéstia"); III.34 e I.58: o povo aconselhado erra menos. |
+| **XXIV** | Por que os príncipes da Itália perderam os Estados | III.31, III.36, III.10, I.21, III.38, II.30 | Concorda | "Não acusem a fortuna, mas a ignávia deles" (Pr. XXIV) = Veneza servil depois de Vailate (III.31), exércitos italianos "inúteis" (III.36), príncipes "ociosos" (III.10), "a sua preguiça" (III.38). |
+| **XXV** | Fortuna; adaptar-se aos tempos; ímpeto × cautela | III.9, II.29, II.1, III.8, III.44, III.45, III.31 | Complementa / **contradiz em parte** | Mesmo diagnóstico (III.9; III.8); mesmo caso de Júlio II em Bolonha (Pr. XXV; III.44). Mas Pr. XXV conclui que "é melhor ser impetuoso que cauteloso", e III.45 diz que o modo cauteloso de Fábio "é mais seguro e mais imitável"; e III.9 dá a saída republicana (trocar de líder conforme o tempo). |
+| **XXVI** | Exortação a libertar a Itália | III.12, I.12, II.2, III.36, III.41, I.21 | Concorda | A frase de Pôncio (Lívio IX.1) "é justa a guerra para quem é necessária, e piedosas as armas…" está nos dois (Pr. XXVI; III.12); a Itália dividida pela Igreja (I.12) e sem milícia própria (III.36); a pátria acima de tudo (III.41). |
+
+### 2.1 O que esta tabela acrescenta à 6.15 de `discursos.md`
+1. **Cobertura por capítulo:** a 6.15 cita 15 capítulos do *Príncipe* (VI, VII, VIII, IX, XI, XII, XIII, XIV, XVII, XVIII, XIX, XX, XXI, XXIII, XXV); aqui estão os **27** (Dedicatória e I–XXVI). **Novos:** Dedicatória, I, II, III, IV, V, X, XV, XVI, XXII, XXIV, XXVI.
+2. **Frases que estão nos dois livros** (texto, conferidas): "benefícios novos não apagam injúrias velhas" (Pr. VII × III.4); "Pistoia com as partes e Pisa com as fortalezas" (Pr. XX × III.27); "dar de si exemplos raros" (Pr. XXI × III.34); a caça e "a natureza dos sítios" com o Ciro de Xenofonte (Pr. XIV × III.39); a frase de Pôncio (Pr. XXVI × III.12); "boas leis e boas armas" × "boa milícia" (Pr. XII × III.31); Júlio II em Bolonha (Pr. XXV × III.44); Moisés e Savonarola (Pr. VI × III.30); a regra de deixar os bens dos súditos (Pr. XVII × III.19, que remete ao "outro tratado").
+3. **Duas contradições parciais** que a 6.15 não registrava: **Pr. XVII × III.22** (para o príncipe, temor no *Príncipe*, Valério/amor nos *Discursos*) e **Pr. XXV × III.45** (ímpeto × cautela de Fábio). A 6.15 dizia, para "amado ou temido", só que "nos *Discursos* os dois caminhos dão certo com grande *virtù*" (III.21), o que é verdade, mas III.22 vai além.
+4. **Tensões** novas: Pr. V × II.21 (destruir a cidade livre × deixá-la com suas leis); Pr. XI × I.12 (ironia × denúncia da Igreja); Pr. X × II.24 (muralhas sim, fortalezas não).
+5. **Capítulos do Livro III ligados ao *Príncipe*** que a 6.15 não tinha: III.4, III.5, III.12, III.14, III.19, III.22, III.23, III.27, III.29, III.30, III.31, III.34, III.35, III.36, III.38, III.39, III.44, III.45.
+
+**Estudiosos sobre a relação entre os dois livros (já resumidos em `discursos.md` 1.5 e `principe.md` 4.3):** leitura "republicana" de Baron, Skinner, Pocock e Viroli (os *Discursos* como pensamento "verdadeiro"); leitura de continuidade de Strauss e Mansfield; Sasso (it.) sobre a continuidade e a tensão *virtù* × natureza; Bignotto (pt., 1991) — o *Príncipe* trata da fundação e da crise, os *Discursos* da liberdade. As contradições parciais acima são **leitura nossa** a partir do texto; Miguel Saralegui (es., *Maquiavelo y la contradicción*, 2012) estuda justamente as contradições aparentes entre as duas obras (não conferido).
+
+---
+
+## 3. Uso pelo agente
+
+> Tudo o que é "no negócio" é **[Interpretação]**. Complementa `discursos.md` seção 8 (não repete).
+
+**Situações → capítulos do Livro III que agora têm ficha:**
+
+| Situação do Lindson | Capítulos | Lição em uma linha | Freio |
+|---|---|---|---|
+| Cliente quer cancelar | III.12, III.37 | Abra uma saída (descer de degrau) em vez de encurralar. | III.12 é sobre o inimigo; com cliente, nada de ameaça. |
+| Concorrente atacando o cliente principal | III.10, III.45, III.18 | Não dá para fugir; escolha o terreno; descubra a situação real dele; às vezes, deixe-o cansar. | III.10 × III.45: só esperar se a posição for forte. |
+| Vários concorrentes ou credores juntos | III.11 | Negocie em separado; ceda uma parte antes de ser obrigado. | — |
+| Contratar e formar editor | III.13, III.38, III.33 | Quem lidera forma o time; "atos, não palavras". | III.13: time bom sem líder fica insolente. |
+| Dois responsáveis pelo mesmo cliente | III.15, III.24 | Um só no comando; rodízio para o cliente não virar "do atendente". | III.24 × I.36: rodízio sem perder experiência. |
+| Melhor pessoa esquecida nos meses bons | III.16, III.17 | Valorize na calma; não dê cargo-chave a quem acabou de humilhar. | — |
+| Estilo de liderança | III.19, III.22, III.23 | Dono pode ser "Valério" se as regras fazem o papel duro; gerente "Mânlio"; nunca tirar o ganho de quem trabalhou nem ostentar. | III.22 contradiz em parte Pr. XVII (ver tabela). |
+| Marca pessoal do Lindson | III.34, III.20, III.38 | Casos notáveis renovados, boas companhias, gesto ético visível. | III.14: só mostre de perto o que é verdadeiro. |
+| Conflito na equipe ou na família do cliente | III.26, III.27, III.47 | Trate cedo; separe ou afaste quem lidera a briga; "fazer as pazes" raramente dura. | Remédio legal: afastar/desligar, nunca violência. |
+| Funcionário que cria lealdade pessoal com favores | III.28, III.22, III.24 | Feche as "vias privadas"; premie as públicas. | — |
+| Equipe que copia os maus hábitos | III.29, III.46 | O exemplo vem do dono. | — |
+| Mudança grande travada por inveja | III.30, III.8 | Desarme a inveja (crise real com transparência, ou afastamento); veja se a "matéria" aceita. | Erro de Soderini: esperar que a bondade convença. |
+| Propor o degrau 5 a um cliente | III.8, III.35, III.44 | Matéria pronta? Proponha sem paixão; prazo real destrava. | III.44: prazo falso é fraude (III.40). |
+| Oferta boa demais | III.48 | Investigue antes; 1º mês pago antes. | — |
+| Problema grave no dia | III.49 | Separe o que "não mata" do que toca o Estado da agência; o grave vai ao dono no mesmo dia. | — |
+| Errou com um cliente | III.4, III.20 | Reparação do tamanho do dano; brinde pequeno não apaga ofensa grande. | — |
+
+**Frases mais fortes do Livro III com ficha nova (conferidas):**
+- *"mai le ingiurie vecchie furono cancellate da' beneficii nuovi"* (III.4)
+- *"Sappino adunque i principi, come a quella ora ei cominciano a perdere lo stato che cominciano a rompere le leggi"* (III.5)
+- *"E non è altro questa commissione che dire: fa' la giornata a posta del nimico, e non a tua."* (III.10)
+- *"egli è meglio mandare in una ispedizione uno uomo solo di comunale prudenzia, che due valentissimi uomini insieme con la medesima autorità"* (III.15)
+- *"quello resti poi vincitore che è il primo ad intendere le necessità dello altro"* (III.18)
+- *"farsi odiare non tornò mai bene ad alcuno principe"* (III.19)
+- *"a volere essere ubbidito, è necessario saper comandare"* (III.22)
+- *"tirarsi odio addosso senza suo profitto, è al tutto partito temerario e poco prudente"* (III.23)
+- *"il tempo non si può aspettare, la bontà non basta, la fortuna varia, e la malignità non truova dono che la plachi"* (III.30)
+- *"nessuno indizio si può avere maggiore d'un uomo, che le compagnie con quali egli usa"* (III.34)
+- *"giudicando gli uomini le cose dal fine"* (III.35)
+- *"perché dall'ordine nasce il furore e la virtù"* (III.36)
+- *"non i titoli illustrono gli uomini, ma gli uomini i titoli"* (III.38)
+- *"spesso il disiderio del vincere acceca gli animi degli uomini"* (III.48)
+
+**O agente nunca:** cita III.27 ("matar os chefes dos tumultos"), III.30 (morte dos invejosos) ou III.49 (decimação) como conselho literal — no negócio, só o **raciocínio** (afastar, separar, punir com regra); cita III.32 como técnica a usar (é para reconhecer a manobra); cita III.44 sem o freio de III.40.
+
+---
+
+## 4. Lacunas
+
+1. **Edições críticas:** as citações desta rodada foram conferidas só no Wikisource (tradição de 1531). Falta conferir com **Bausi** (Edizione Nazionale, 2001) e **Inglese** (BUR, 1984), sobretudo o título truncado de III.36 e a grafia das frases da seção 3.
+2. **Treccani** (*Enciclopedia machiavelliana*, 2014): o domínio não abriu nesta sessão; faltam os verbetes das pessoas do Livro III (Camilo, Mânlio Torquato, Valério Corvino, Fábio Máximo, Papírio Cursor, Giacomini, Alfonso del Mutolo, Selim).
+3. **Estudos citados sem releitura nesta rodada:** Mansfield (1979) capítulo a capítulo do Livro III; Strauss (1958) sobre Mânlio × Valério e sobre a Bíblia "lida sensatamente" (III.30); Pocock (1975) e McCormick (2011) sobre III.24; Viroli (2005/2010) sobre III.30; Saralegui (2012) sobre as contradições *Príncipe* × *Discursos*; a nota "L. Licinio Lucullo in Cicerone e in Machiavelli. Nota ai *Discorsi* III 13, 13" (*GSLI*, 1991; autor não identificado).
+4. **Fontes antigas** citadas por Maquiavel (Lívio, Tácito, Tucídides, Xenofonte, Aristóteles *Política* V, Biondo): não conferidas no original latino/grego. Identificações nossas a conferir em Lívio: Sentino (III.45), Ápio Cláudio Cego censor (III.46), Fábio Ruliano censor em 304 a.C. (III.49), Metauro (III.17).
+5. **Ajustes encontrados na seção 4 de `discursos.md`** (não editado, por pedido; levar para a próxima rodada): III.7 (só 1494, não 1512); III.30 (dois modos de apagar a inveja, não três); III.35 (Cipião e a África não estão no capítulo); III.37 (o melhor partido é o de Mário); e a seção 1.2 (o fato de 1515 está em **III.18**, não em III.39).
+6. **Traduções:** comparada só a de Thomson (inglês) em 4 trechos. Faltam Bath (pt., UnB) e Martins Fontes (pt.) nas frases da seção 3 — prioridade para o agente que fala português — e Mansfield/Tarcov, Martínez Arancón, Fontana/Tabet, Zorn.
+7. **Príncipe na tabela:** as frases do *Príncipe* foram conferidas na edição do Wikisource com grafia modernizada (*Il Principe*), não na de Inglese; ver `principe.md` 1.9 para as variantes que mudam o sentido.
