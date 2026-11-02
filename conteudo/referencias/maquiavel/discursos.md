@@ -1,6 +1,6 @@
 # Discursos sobre a Primeira Década de Tito Lívio — base de conhecimento para o agente "Nicolau Maquiavel"
 
-**Situação:** parcial — feito até a seção 5 (seção 1 pela conta Lindson; seções 2 em diante pela conta Zuleide, 02/11/2026).
+**Situação:** parcial — feito até a seção 6 (seção 1 pela conta Lindson; seções 2 a 5 pela conta Zuleide; seção 6 pela conta Lindson, 02/11/2026). Faltam as seções 7 e 8.
 
 > **Para que serve este arquivo:** é a base do agente "Maquiavel conselheiro de negócios" no que diz respeito aos *Discorsi*. Tudo o que está marcado como **texto** vem do original italiano; tudo o que está marcado como **interpretação** é leitura nossa ou de estudiosos, e o agente deve apresentar assim.
 >
@@ -370,7 +370,7 @@ Conferidos os 142 ensinamentos daquele arquivo (números 78 a 219) contra o orig
 - **Aplicação [Interpretação]:** reposicionamento de marca e reestruturação interna: mude a substância, mantenha símbolos, nomes e rituais conhecidos. Base de toda gestão de mudança.
 
 ### 5.14 — I.26: o príncipe novo deve fazer tudo novo
-- **Citação:** *"fare i ricchi poveri, i poveri ricchi... ed in somma, non lasciare cosa niuna intatta in quella provincia"* — "fazer os ricos pobres e os pobres ricos... em suma, não deixar nada intacto naquela província". E logo depois: *"Sono questi modi crudelissimi, e nimici d'ogni vivere, non solamente cristiano, ma umano; e debbegli qualunque uomo fuggire"* — "são modos crudelíssimos e inimigos de todo viver, não só cristão, mas humano; e todo homem deve fugir deles". *(Esta segunda frase não foi conferida pela busca automática; ver lacunas.)*
+- **Citação:** *"fare i ricchi poveri, i poveri ricchi... ed in somma, non lasciare cosa niuna intatta in quella provincia"* — "fazer os ricos pobres e os pobres ricos... em suma, não deixar nada intacto naquela província". E logo depois: *"Sono questi modi crudelissimi, e nimici d'ogni vivere, non solamente cristiano, ma umano; e debbegli qualunque uomo fuggire"* — "são modos crudelíssimos e inimigos de todo viver, não só cristão, mas humano; e todo homem deve fugir deles". *(Segunda frase conferida palavra por palavra no Wikisource pela conta Lindson em 02/11/2026; o texto continua: "e volere piuttosto vivere privato, che re con tanta rovina degli uomini".)*
 - **Argumento:** quem quer poder absoluto num Estado novo e frágil tem de renovar tudo; mas o caminho do bem é melhor, e o pior é o meio-termo.
 - **Aplicação [Interpretação]:** ao assumir uma operação falida, não faça meia reforma. Porém Maquiavel mesmo chama o método de cruel; use a lição da clareza, não a da crueldade.
 
@@ -514,3 +514,128 @@ Conferidos os 142 ensinamentos daquele arquivo (números 78 a 219) contra o orig
 - **Citação:** *"chi vuole vedere quello che ha a essere, consideri quello che è stato; perché tutte le cose del mondo, in ogni tempo, hanno il proprio riscontro con gli antichi tempi"* — "quem quer ver o que há de ser, considere o que foi; porque todas as coisas do mundo, em todo tempo, têm correspondência com os tempos antigos". Mesma ideia em I.39 e no Proêmio II.
 - **Aplicação [Interpretação]:** é o método do agente: para cada decisão, buscar o caso histórico parecido. No negócio: olhe o histórico do cliente (pagamentos, agências anteriores), do setor e do seu próprio caixa antes de prever.
 
+
+---
+
+## 6. Temas transversais
+
+> **Como ler:** cada tema junta capítulos espalhados pelos três livros. Não se repetem aqui as fichas da seção 5 (que trazem as citações principais); remete-se a elas pelo número (ex.: "ver 5.3"). As citações **novas** desta seção foram conferidas palavra por palavra no Wikisource italiano (mesma edição da seção 5) pela conta Lindson em 02/11/2026. Leituras de estudiosos vêm com nome, idioma e obra; o que não foi lido na íntegra nesta rodada está marcado **(não conferido)**. Aplicações são **[Interpretação]** nossa.
+
+### 6.1 Conflito, humores e liberdade
+
+- **Capítulos:** I.4–I.8 (tumultos, guarda da liberdade, acusações, calúnias), I.37 (lei agrária), I.44, I.47, III.11; contraste com I.2 e I.6.
+- **Fio do argumento (texto):** em toda cidade há dois "humores" (I.4; ver 5.3–5.4); o conflito é útil quando passa por **canais ordinários** (acusação pública, I.7; ver 5.6) e destrutivo quando vira facção ou recorre a "modos extraordinários". A **calúnia** é o contrário da acusação: *"quanto siano nelle città libere, ed in ogni altro modo di vivere, detestabili le calunnie"* — "quanto são detestáveis, nas cidades livres e em qualquer outro modo de viver, as calúnias"; o remédio é *"aprire assai luoghi alle accuse"* — "abrir muitos lugares para as acusações" (I.8). O povo erra no geral e acerta no particular: *"gli uomini nelle cose generali s'ingannono assai, nelle particulari non tanto"* (I.47).
+- **Limite (texto):** a lei agrária mostra que o conflito, sem medida, levou à guerra civil e à ruína da república (I.37; ver 5.19).
+- **Estudiosos:** Claude Lefort (fr., 1972) e, na mesma linha, Newton Bignotto e Sérgio Cardoso (pt.); John McCormick (en., 2011); Gabriele Pedullà (it., *Machiavelli in tumulto*, 2011), que mostra como a defesa dos tumultos rompia com toda a tradição antiga e humanista; Gisela Bock (en., "Civil discord in Machiavelli's *Istorie fiorentine*", em Bock–Skinner–Viroli, *Machiavelli and Republicanism*, 1990) compara com a *História de Florença*, onde as divisões de Florença são **más** porque viram "seitas" (não conferido); Marie Gaille-Nikodimov (fr., *Conflit civil et liberté*, 2004) lê o conflito com a linguagem médica dos "humores" (não conferido). [Interpretações]
+- **No negócio [Interpretação]:** crítica e discordância têm de ter canal oficial (reunião, formulário, contrato); fofoca e "calúnia" sobre colega ou cliente se cortam pela raiz e com regra. Pergunte o caso concreto, não a opinião geral (I.47): "esse cliente específico paga?", não "clientes pagam?".
+
+### 6.2 Corrupção, renovação e o tempo
+
+- **Capítulos:** I.16–I.18 (povo acostumado à servidão; matéria corrompida), I.55 (*gentiluomini*), III.1 (voltar aos princípios), III.8 (a "matéria"), III.49 (novas providências todo dia).
+- **Fio do argumento (texto):** todo corpo político se corrompe com o tempo; leis boas para um povo honesto falham num povo corrompido (I.18; ver 5.12); a cura é **voltar aos princípios** (III.1; ver 5.33) e manter atenção diária: *"ciascuno dì in una città grande naschino accidenti che abbiano bisogno del medico; e secondo che gl'importano più, conviene trovare il medico più savio"* — "todo dia, numa cidade grande, nascem acidentes que precisam de médico; e quanto mais importam, mais sábio deve ser o médico" (III.49).
+- **Estudiosos:** J. G. A. Pocock (en., *The Machiavellian Moment*, 1975): a república luta contra o tempo e a corrupção — é o "momento maquiaveliano"; Gennaro Sasso (it.) e Giorgio Inglese (it., comentário BUR) sobre a origem médica e aristotélica de "corpi misti" (ver 5.33); Harvey Mansfield (en., *Machiavelli's New Modes and Orders*, 1979) sobre a renovação como refundação; Herfried Münkler (de., 1982) liga o tema da corrupção à experiência da crise de Florença. [Interpretações]
+- **No negócio [Interpretação]:** revisão periódica obrigatória (proposta, preço, padrões de entrega, contratos) e o hábito de tratar "acidentes" diários com o "médico" certo (o caso grave vai para quem decide, não para o estagiário).
+
+### 6.3 Religião, costumes e confiança
+
+- **Capítulos:** I.11–I.15 (Numa, religião romana, auspícios, Samnitas), II.2 (crítica ao cristianismo "ocioso"), III.1 (São Francisco e São Domingos), III.29 (os povos imitam quem manda), III.33 (confiança do exército).
+- **Fio do argumento (texto):** a religião faz cumprir juramentos e dá coragem (I.11; ver 5.9); a corte de Roma a desmoralizou (I.12; ver 5.10); o problema não é o cristianismo em si, mas a interpretação *"secondo l'ozio"* (II.2; ver 5.26). O exemplo vem de cima: o título de III.29 é *"Che gli peccati de' popoli nascono dai principi"* — "que os pecados dos povos nascem dos príncipes"; os pecados *"conviene che naschino o per la sua negligenza, o per essere lui macchiato di simili errori"* ("nascem ou da negligência dele, ou de ele estar manchado dos mesmos erros").
+- **Estudiosos:** leitura **instrumental** — Leo Strauss (en., 1958) e, em parte, Gramsci (it.); leitura de **religião civil sincera** — Maurizio Viroli (it./en., *Il Dio di Machiavelli e il problema morale dell'Italia*, 2005; *Machiavelli's God*, 2010) e Sebastian de Grazia (en., *Machiavelli in Hell*, 1989); Emanuele Cutinelli-Rèndina (it., *Chiesa e religione in Machiavelli*, 1998, não conferido); John M. Najemy (en., "Papirius and the Chickens, or Machiavelli on the Necessity of Interpreting Religion", *Journal of the History of Ideas*, 1999, sobre I.14: os auspícios eram **interpretados** pelos chefes, não obedecidos às cegas; não conferido). Rousseau cita I.11 em nota ao *Contrato social* II.7 (conferido na tradução inglesa de G. D. H. Cole, Gutenberg 46333). [Interpretações]
+- **No negócio [Interpretação]:** valores e rituais (palavra dada, prazo, padrão) só valem se o dono os vive (III.29); a equipe copia o que vê.
+
+### 6.4 O fundador, o homem só e a passagem para muitos
+
+- **Capítulos:** I.1 (fundação e lugar), I.9 (Rômulo), I.10 (glória e infâmia), I.18, I.55, III.30 (Moisés, Savonarola, Soderini).
+- **Fio do argumento (texto):** fundar ou refundar exige **um só** (I.9; ver 5.7), mas o que depende de um só não dura; o fundador prudente deixa o governo "a muitos". Para agir bem é preciso antes **apagar a inveja** (título de III.30: *"è necessario, prima, spegnere l'invidia"*): ela é *"molte volte cagione che gli uomini non possono operare bene"* ("muitas vezes causa de os homens não poderem agir bem"); apaga-se por um acidente forte ou pela morte/eliminação dos invejosos; Savonarola e Soderini não conseguiram.
+- **Estudiosos:** Mansfield e Strauss (en.) leem I.9 como a "chave" do ensino sobre o fundador; Viroli (it./en.) e Skinner (en.) destacam a condição republicana de "deixar a muitos"; Louis Althusser (fr., *Machiavel et nous*) faz do "homem só" que começa do nada o centro da obra. [Interpretações]
+- **No negócio [Interpretação]:** o Lindson decide sozinho na fundação de cada produto; depois, processos e pessoas para que a agência não dependa só dele. A inveja interna (sócio, colega) se desarma com resultado visível e regras claras, não com "paciência" (o erro de Soderini).
+
+### 6.5 Povo, grandes e príncipe
+
+- **Capítulos:** I.5, I.29–I.32 (ingratidão), I.44, I.47, I.53, I.57, I.58, III.34.
+- **Fio do argumento (texto):** o povo é melhor guardião (I.5), menos ingrato (I.29), mais prudente e constante (I.58; ver 5.24), mas pode ser seduzido por promessas (I.53; ver 5.22) e, sem chefe, é forte e fraco ao mesmo tempo: *"non ci è cosa, dall'un canto, più formidabile che una moltitudine sciolta e sanza capo; e, dall'altra parte, non è cosa più debole"* — "não há nada mais temível que uma multidão solta e sem chefe; e, por outro lado, nada mais fraco" (I.57). Ganhar o povo só no perigo não funciona: o povo julgará *"non avere quel bene da te, ma dagli avversari tuoi"* — "que não recebeu esse bem de ti, mas dos teus adversários" (I.32). Reputação mais forte é a dos **feitos próprios**: *"quella terza, essendo principiata e fondata in sul fatto ed in su la opera tua, ti dà nel principio tanto nome"* (III.34).
+- **Estudiosos:** McCormick (en.) — democracia "plebeia"; Lefort (fr.) — desejo do povo como desejo de liberdade; Miguel Vatter (en., *Between Form and Event: Machiavelli's Theory of Political Freedom*, 2000; não conferido); Strauss (en.) — o elogio do povo é estratégico; Sérgio Cardoso (pt.) e Helton Adverse (pt.) sobre o "desejo de não ser dominado" (títulos não conferidos). [Interpretações]
+- **No negócio [Interpretação]:** a base de clientes e a audiência são "o povo"; cuide dela nos meses bons, não só quando o caixa aperta (I.32). Reputação por "conhecer gente" (família, companhias) é fraca; a que dura é a do trabalho entregue (III.34).
+
+### 6.6 Fortuna, tempos e natureza
+
+- **Capítulos:** Proêmio II, II.1, II.29, III.9, III.31, III.43–III.45.
+- **Fio do argumento (texto):** Roma cresceu por *virtù* misturada à fortuna (II.1; ver 5.25); a fortuna "cega" quem deve cair, e o homem deve "tecer os fios dela" sem se abandonar (II.29; ver 5.32); sucesso é combinar o modo de agir com os tempos, e a república, com homens diferentes, se adapta melhor que um príncipe (III.9; ver 5.36); o ímpeto às vezes consegue *"quello che con modi ordinarii non si otterrebbe mai"* (título de III.44), mas Fábio venceu esperando (III.45).
+- **Estudiosos:** Hanna Pitkin (en., *Fortune is a Woman*, 1984); Sasso (it.) sobre a tensão entre *virtù* e natureza imutável; Miguel Saralegui (es., *Maquiavelo y la contradicción*, 2012, não conferido) sobre as contradições aparentes entre *Príncipe* XXV e *Discursos* III.9; Thierry Ménissier (fr., 2001, não conferido) sobre a ação no tempo histórico. [Interpretações]
+- **No negócio [Interpretação]:** ter na equipe (ou nos conselheiros) temperamentos opostos — um "Fábio" para segurar caixa, um "Cipião" para atacar; quem decide escolhe qual põe à frente conforme o momento.
+
+### 6.7 Decidir: meio-termo, lentidão e ambiguidade
+
+- **Capítulos:** I.6, I.26, I.27, I.38, II.15, II.23, III.2.
+- **Fio do argumento (texto):** *"gli uomini pigliono certe vie del mezzo, che sono dannosissime; perché non sanno essere né tutti cattivi né tutti buoni"* — "os homens tomam certas vias do meio, que são danosíssimas, porque não sabem ser nem todo maus nem todo bons" (I.26); repúblicas fracas são indecisas (I.38; ver 5.20); *"Non sono meno nocive ancora le diliberazioni lente e tarde, che le ambigue"* — "não são menos nocivas as deliberações lentas e tardias que as ambíguas" (II.15), e nascem *"o da debolezza d'animo e di forze, o da malignità"* de quem delibera; Roma fugia da via do meio ao julgar súditos (II.23). A única "ambiguidade" elogiada é a fingida e com plano: Bruto, que se fez de tolo para esperar a ocasião — *"Conviene adunque fare il pazzo, come Bruto"* (III.2).
+- **Estudiosos:** Guicciardini (it., *Considerazioni intorno ai Discorsi*, c. 1530) critica exatamente essa aversão ao meio-termo: muitas vezes a via do meio é a prudente (não conferido no original; ver `contexto-e-personagens.md`); Isaiah Berlin (en., 1972): a recusa do meio-termo vem da escolha entre duas morais. [Interpretações]
+- **No negócio [Interpretação]:** prazo para decidir (proposta, preço, corte de cliente) e decisão explícita; esperar só como **estratégia** com data (III.2), nunca por medo.
+
+### 6.8 Armas próprias, dinheiro e milícia
+
+- **Capítulos:** I.21 (vergonha de não ter soldados próprios), II.10, II.16–II.20, II.30, III.13, III.31, III.33, III.36.
+- **Fio do argumento (texto):** príncipes e repúblicas sem soldados próprios devem *"vergognarsi di loro medesime"*, porque a falta **não é de homens aptos, mas culpa deles**, *"che non han saputo fare i suoi uomini militari"* (I.21, exemplo de Tulo Hostílio); bons soldados acham ouro, não o contrário (II.10; ver 5.27); auxiliares e mercenários tomam o que deviam defender (II.20); o Estado forte não compra amizade: título de II.30, *"non comperono l'amicizie con danari, ma con la virtù e con la riputazione delle forze"*; bom capitão forma bom exército mais facilmente que o contrário (III.13).
+- **Estudiosos:** Pocock (en.) sobre o cidadão-soldado como base da *virtù* republicana; C. C. Bayley (en., *War and Society in Renaissance Florence*, 1961, não conferido) sobre a ordenança de Maquiavel; Jean-Louis Fournel e Jean-Claude Zancarini (fr.) sobre as "guerras da Itália" como fundo da obra. Ver também `arte-da-guerra.md`. [Interpretações]
+- **No negócio [Interpretação]:** a falta de gente boa é quase sempre falta de **formação** dada pelo dono (I.21). Não compre cliente nem parceiro com desconto (II.30); conquiste com resultado e reputação.
+
+### 6.9 Fraude, força e palavra dada
+
+- **Capítulos:** II.13, II.14, III.40, III.41, III.42; cf. I.9.
+- **Fio do argumento (texto):** para subir de baixo, fraude mais que força (II.13; ver 5.28); a humildade diante do insolente *"non solamente non giova ma nuoce"* (II.14); a fraude **na guerra** é gloriosa, mas *"io non intendo quella fraude essere gloriosa, che ti fa rompere la fede data"* — "não entendo como gloriosa a fraude que te faz romper a palavra dada" (III.40); na salvação da pátria não cabe pesar justo e injusto (III.41; ver 5.39); promessas forçadas não obrigam (III.42; ver 5.40).
+- **Leitura cuidadosa [Interpretação nossa]:** III.40 é o **freio** de II.13 e III.42: a astúcia contra o adversário é elogiada, a quebra da palavra dada não. É a peça que falta quando se cita só II.13.
+- **Estudiosos:** Meinecke (de., 1924) — razão de Estado; Viroli (it./en.) — o critério de III.41 é a **liberdade** da pátria; Strauss (en.) — a "fraude" é o centro do ensino novo; Erica Benner (en., *Machiavelli's Ethics*, 2009, não conferido) — Maquiavel mantém normas de justiça e de palavra dada por baixo do realismo. [Interpretações]
+- **No negócio [Interpretação]:** astúcia competitiva (surpresa, posicionamento, timing) sim; enganar cliente, não (III.40 + Código de Defesa do Consumidor). E não ceda com humildade a quem já te trata com desprezo (II.14): coloque limite.
+
+### 6.10 Inveja, ingratidão e o valor dos bons
+
+- **Capítulos:** I.29–I.30 (ingratidão), III.16, III.17, III.23 (Camilo), III.30, III.35.
+- **Fio do argumento (texto):** *"gli uomini grandi e rari in una republica, ne' tempi pacifichi, sono negletti"* — "os homens grandes e raros, numa república, em tempos de paz, são deixados de lado" (III.16), e só são chamados na crise; quem aconselha algo grande corre perigo porque os homens julgam os conselhos *"dal fine"* (pelo resultado), e a saída é *"pigliare le cose moderatamente"* e *"dire la opinione sua sanza passione"* (III.35).
+- **No negócio [Interpretação]:** reconheça o melhor da equipe também nos meses tranquilos (III.16), senão ele sai na primeira crise. Como conselheiro (e o agente é um), dê a opinião com clareza e sem paixão; a decisão e a responsabilidade são de quem decide (III.35).
+
+### 6.11 Conspirações e segurança do poder
+
+- **Capítulos:** III.3–III.7 (filhos de Bruto, herdeiros despojados, conspirações, mudanças com e sem sangue); cf. I.16.
+- **Fio do argumento (texto):** ver 5.34–5.35. Novo regime precisa neutralizar quem perdeu (III.3–III.4); conspirações quase sempre falham, e a causa é o ódio "do universal" (III.6).
+- **Fato documentado:** os próprios dedicatários (Buondelmonti) conspiraram em 1522 (ver 1.4).
+- **No negócio [Interpretação]:** acordo de sócios e cláusula de não concorrência negociados **antes** (é a "lei" que tira o motivo da conspiração); não ser odiado é a melhor defesa.
+
+### 6.12 Expansão e crescimento
+
+- **Capítulos:** II.3–II.4 (como Roma cresceu; três modos de expandir: liga, companheiros, súditos), II.6–II.7, II.19, II.21, II.27, II.32.
+- **Fio do argumento (texto):** a "receita romana" (II.19; ver 5.29): companheiros e não súditos, colônias, caixa público; não ir além do que se pode manter (II.27; ver 5.31).
+- **Estudiosos:** Mark Hulliung (en., *Citizen Machiavelli*, 1983) e Mikael Hörnqvist (en., *Machiavelli and Empire*, 2004): o republicanismo de Maquiavel é **expansionista** e voltado à grandeza, não pacífico — crítica à leitura "cívica" de Baron e Pocock (não conferidos). [Interpretações]
+- **No negócio [Interpretação]:** crescer por parceria (outros profissionais como "companheiros", com ganho para eles), um mercado por vez, com caixa antes.
+
+### 6.13 Comando e liderança
+
+- **Capítulos:** III.12 (necessidade), III.13, III.15 (um só comando), III.19–III.22 (pena ou brandura; Aníbal × Cipião; Mânlio × Valério), III.33, III.38.
+- **Fio do argumento (texto):** os capitães antigos punham **necessidade** nos seus soldados e tiravam a dos inimigos, porque ela torna os ânimos *"ostinati al combattere"* (III.12); um só comandante (III.15); amor ou temor dão o mesmo resultado com grande *virtù* (III.21; ver 5.37); o capitão confiável age junto, como Valério Corvino: *"Facta mea, non dicta, vos, milites, sequi volo"* — "quero que sigam meus atos, não minhas palavras" (III.38, citando Lívio VII.32; Lívio não conferido no original latino).
+- **No negócio [Interpretação]:** um responsável por cliente (III.15); meta que a equipe sente como necessidade real (III.12), sem ameaça; o dono faz junto nas horas críticas (III.38).
+
+### 6.14 História como método e imitação dos antigos
+
+- **Capítulos:** Proêmio I, Proêmio II, I.39, III.43.
+- **Fio do argumento (texto):** imitar os antigos na política (Proêmio I; ver 1.6); os homens têm sempre as mesmas paixões (I.39); quem quer ver o futuro considere o passado (III.43; ver 5.41). Mas também o aviso do Proêmio II: *"Laudano sempre gli uomini, ma non sempre ragionevolmente, gli antichi tempi, e gli presenti accusano"* — "os homens sempre louvam, mas nem sempre com razão, os tempos antigos, e acusam os presentes".
+- **Estudiosos:** Felix Gilbert (en., "The Composition and Structure of Machiavelli's *Discorsi*", *Journal of the History of Ideas*, 1953, não conferido) sobre como o livro passou de comentário a Lívio a tratado; Guicciardini (it.) critica o uso de Roma como modelo absoluto ("seria como querer que um asno corresse como um cavalo", forma corrente da crítica nos *Ricordi* 110, **não conferida no original**). [Interpretações]
+- **No negócio [Interpretação]:** é o método do agente (caso antigo + caso moderno + aplicação), com o cuidado de Guicciardini: o caso parecido ilumina, não decide.
+
+### 6.15 Tabela de correspondências: *Discursos* × *Príncipe*
+
+| Tema | *Discursos* | *Príncipe* | Diferença de tom (texto + [Interpretação]) |
+|---|---|---|---|
+| Natureza humana | I.3, I.37 | XVII, XVIII, XXIII | Igual premissa; nos *Discursos* é regra para **legisladores**. |
+| Dois humores | I.4, I.5 | IX | Nos *Discursos* o conflito gera **liberdade**; no *Príncipe*, o príncipe escolhe em quem se apoiar. |
+| Fundador | I.9, I.18 | VI | Nos *Discursos*, o fundador deve depois **deixar a muitos**. |
+| Fazer tudo novo | I.26 | VII, VIII | Os *Discursos* chamam o método de *"crudelissimi"* e dizem que se deve fugir dele. |
+| Ofender de uma vez | I.45 | VIII | Mesma regra. |
+| Ingratidão | I.29 | XVII (homens ingratos) | Os *Discursos* comparam **povo × príncipe** e absolvem o povo. |
+| Multidão e povo | I.57, I.58 | IX, XVIII ("il vulgo") | Os *Discursos* dão ao povo prudência e constância que o *Príncipe* não discute. |
+| Religião | I.11–I.15 | XI, XVIII ("parere religioso") | Nos *Discursos*, religião como fundamento; no *Príncipe*, como aparência necessária. |
+| Armas próprias | I.21, II.10, II.20 | XII–XIV | Mesma tese; *Discursos* acrescentam "a culpa é de quem não formou soldados". |
+| Fortalezas | II.24 | XX | Mesma conclusão: a melhor fortaleza é não ser odiado. |
+| Fraude | II.13, III.40 | XVIII | III.40 limita: fraude na guerra sim, quebrar a palavra dada não. |
+| Amado ou temido | III.21, III.22 | XVII | Nos *Discursos* os dois caminhos dão certo com grande *virtù*. |
+| Fortuna e tempos | II.29, III.9 | XXV | No *Príncipe*, ímpeto; nos *Discursos*, a república troca de líder conforme o tempo. |
+| Conspirações | III.6 | XIX | III.6 é o tratamento mais longo de todo Maquiavel. |
+| Promessas | III.42 | XVIII | III.42 remete ao *"nostro trattato De Principe"*. |
+| Neutralidade / meio-termo | I.26, I.38, II.15, II.23 | XXI | Mesma aversão ao meio e à demora. |
