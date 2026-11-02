@@ -73,5 +73,12 @@
     }
     aviso.textContent = 'Dados trazidos ✓'; setTimeout(() => aviso.remove(), 2500);
   })();
-  window.claude = { use: n => pronto.then(() => n === 'db' ? db : n === 'user' ? user : null) };
+  // assets: fotos e arquivos enviados pelo app vão para as Fotos do administrador no servidor (/api/fotos?cli=lindson); devolve {id, url}
+  const assets = { upload: async (blob, o) => {
+    const tipo = (o && o.type) || blob.type || 'image/jpeg', nome = encodeURIComponent((blob && blob.name) || 'arquivo');
+    const r = await fetch(`/api/fotos?cli=lindson&cat=${encodeURIComponent(window.__ASSETS_CAT || 'App')}&nome=${nome}`, { method: 'POST', headers: { 'Content-Type': tipo }, body: blob });
+    const j = await r.json().catch(() => ({})); if (!r.ok) throw { code: 'unavailable', message: j.erro || 'Não enviou' };
+    return { id: j.id, url: '/api/foto?cli=lindson&id=' + j.id };
+  } };
+  window.claude = { use: n => pronto.then(() => n === 'db' ? db : n === 'user' ? user : n === 'assets' ? assets : null) };
 })();

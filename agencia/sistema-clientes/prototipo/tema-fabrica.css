@@ -1,0 +1,17 @@
+/* Ajuste da Fábrica de Conteúdo à identidade da Central (só na Fábrica, depois do tema-central.css).
+   A Fábrica nasceu clara (--bg/--panel/--soft); aqui ela fica escura como a Central, com destaque amarelo.
+   As artes geradas não mudam: usam as cores da identidade salva no app. Conta Lindson, 02/11/2026. */
+:root{
+  --bg:#09090A;--panel:#121213;--soft:#18181A;--paper:#18181A;
+  --fg:#F3F0E6;--muted:#8E8B83;--line:#242427;
+  --blue:#F5C518;--sun:#F5C518;--ink:#0A0A0A;--red:#E5604D;--ok:#5CC98A;--warn:#F2A93B;
+}
+body,header{background:#09090A!important}
+.btn.blue{color:#0A0A0A!important}
+.brand,h1,h2,h3{font-family:'Big Shoulders Display','Arial Narrow',Impact,sans-serif!important;letter-spacing:.01em}
+input,select,textarea{background:#18181A!important;color:#F3F0E6!important;border-color:#242427!important}
+input::placeholder,textarea::placeholder{color:#8E8B83!important}
+nav button[aria-current="true"]{background:#F5C518!important;color:#0A0A0A!important;border-color:#F5C518!important}
+.type{background:#18181A!important;color:#F3F0E6!important}
+.type[aria-pressed="true"]{border-color:#F5C518!important;box-shadow:0 0 0 3px rgba(245,197,24,.25)!important}
+.support{display:none!important}

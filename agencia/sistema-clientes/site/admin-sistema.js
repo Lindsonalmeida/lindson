@@ -63,6 +63,8 @@ Object.assign(T, { inicio: 'Visão geral', clientes: 'Clientes', rede: 'Minha re
 const quadro = (src, titulo) => `<iframe src="${src}" title="${titulo}" style="width:100%;height:calc(100vh - 150px);min-height:560px;border:1px solid var(--linha);border-radius:16px;background:#09090A;display:block" loading="lazy"></iframe>`;
 V.recomeco = () => quadro('/painel/recomeco', 'Recomeço 90');
 T.recomeco = 'Recomeço 90';
+V.fabrica = () => quadro('/painel/fabrica', 'Fábrica de Conteúdo');
+T.fabrica = 'Fábrica de Conteúdo';
 const anterior = window.__pos;
 window.__pos = view => {
   if (anterior) anterior(view);

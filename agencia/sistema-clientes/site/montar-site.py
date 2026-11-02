@@ -83,7 +83,7 @@ IC = {'inicio': '<rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y
 lk = lambda h, ic, t, v=None, extra='': f'<a href="{h}"' + (f' data-v="{v}"' if v else '') + f'><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">{IC[ic]}</svg>{t}{extra}</a>'
 menu = ('<div class="grupo"><h4>Visão</h4>' + lk('#inicio', 'inicio', 'Visão geral', 'inicio', '<span class="n" id="n-novid"></span>') + lk('#missoes', 'missoes', 'Missões do dia', 'missoes', '<span class="n" id="n-miss"></span>') + '</div>'
         '<div class="grupo"><h4>Clientes</h4>' + lk('#clientes', 'clientes', 'Todos os clientes', 'clientes') + ''.join(lk('/painel/' + c['cliente'], 'ir', c['nome']) for c in clientes) + '</div>'
-        '<div class="grupo"><h4>Minha agência</h4>' + lk('#recomeco', 'missoes', 'Recomeço 90', 'recomeco') + lk('#rede', 'rede', 'Minha rede social', 'rede') + lk('#vendas', 'vendas', 'Vendas e CRMs', 'vendas') + lk('#canais', 'canais', 'Canais dark', 'canais') + '</div>'
+        '<div class="grupo"><h4>Minha agência</h4>' + lk('#recomeco', 'missoes', 'Recomeço 90', 'recomeco') + lk('#fabrica', 'rede', 'Fábrica de Conteúdo', 'fabrica') + lk('#legendas', 'rede', 'Legendas Top X', 'legendas') + lk('#marca', 'inicio', 'Marca e Design System', 'marca') + lk('#propostas', 'vendas', 'Gerador de propostas', 'propostas') + lk('#rede', 'rede', 'Minha rede social', 'rede') + lk('#vendas', 'vendas', 'Vendas e CRMs', 'vendas') + lk('#canais', 'canais', 'Canais dark', 'canais') + '</div>'
         '<div class="grupo"><h4>Sistema</h4>' + lk('#contas', 'contas', 'Contas de acesso', 'contas') + lk('#repetidos', 'repetidos', 'Antigos e repetidos', 'repetidos') + lk('/sair', 'sair', 'Sair') + '</div>'
         '<span id="n-aprov" hidden></span></nav>')
 a = re.sub(r'<div class="seletor">.*?</nav>', lambda m: menu, a, count=1, flags=re.S)
@@ -101,7 +101,7 @@ a = troca(a, "const V={", "const V=window.__V={"); a = troca(a, "const T={", "co
 a = troca(a, "function toast(t){", "window.__toast=t=>toast(t);function toast(t){")
 a = troca(a, "const f=$('#novo-ped');", "if(window.__pos)window.__pos(view);const f=$('#novo-ped');")
 a = troca(a, "addEventListener('hashchange',render);render();", "window.__render=render;window.__h={BASE,APROV,PEDIDOS,bomDia,chip,cli:()=>cli};addEventListener('hashchange',render);setTimeout(render,0);")
-extra = ('window.__CLIENTES=' + json.dumps(resumo, ensure_ascii=False) + ';\nwindow.__APPS=' + json.dumps(apps, ensure_ascii=False) + ';\n').replace('</', '<\\/') + open(os.path.join(D, 'admin-sistema.js')).read() + '\n' + open(os.path.join(SC, 'prototipo', 'movimento.js')).read()
+extra = ('window.__CLIENTES=' + json.dumps(resumo, ensure_ascii=False) + ';\nwindow.__APPS=' + json.dumps(apps, ensure_ascii=False) + ';\n').replace('</', '<\\/') + open(os.path.join(D, 'admin-sistema.js')).read() + '\n' + open(os.path.join(D, 'admin-apps.js')).read() + '\n' + open(os.path.join(SC, 'prototipo', 'movimento.js')).read()
 a = a.replace('</script>', '</script>\n<script>\n' + extra + '\n</script>', 1)
 open(os.path.join(OUT, 'painel', 'admin.html'), 'w').write(doc(a))
 # 3b · apps do Lindson dentro da Central (só o admin abre: ficam em /painel/, e o middleware barra quem não é admin)
@@ -109,11 +109,11 @@ open(os.path.join(OUT, 'painel', 'admin.html'), 'w').write(doc(a))
 #      Na primeira vez, traz os dados do app antigo do claude.ai (dados/importar/<app>/, repositório privado).
 VOLTA = '<a href="/painel/admin" style="position:fixed;left:12px;bottom:12px;z-index:2147483000;background:#F5C518;color:#0A0A0A;font:700 13px system-ui;padding:9px 14px;border-radius:99px;text-decoration:none;box-shadow:0 8px 24px -8px #000">← Central</a>'
 SHIM = open(os.path.join(SC, 'prototipo', 'claude-shim.js')).read()
-def app_na_central(fonte, saida, importar=None):
+def app_na_central(fonte, saida, importar=None, temas=('tema-central.css',)):
     h = open(fonte).read()
     cab = (f"<script>window.__IMPORTAR={json.dumps(importar)}</script>" if importar else '') + '<script>\n' + SHIM + '\n</script>'
     h = re.sub(r'(<head[^>]*>)', lambda m: m.group(1) + cab, h, count=1, flags=re.I) if re.search(r'<head[^>]*>', h, re.I) else cab + h
-    tema = '<style id="tema-central">' + open(os.path.join(SC, 'prototipo', 'tema-central.css')).read() + '</style>'
+    tema = ''.join('<style>' + open(os.path.join(SC, 'prototipo', t)).read() + '</style>' for t in temas)
     volta = VOLTA.replace('<a href', '<a id="volta-central" href') + '<script>if(window.top!==window){var v=document.getElementById("volta-central");if(v)v.remove()}</script>'
     h = re.sub(r'(</body>)', lambda m: tema + volta + m.group(1), h, count=1, flags=re.I) if re.search(r'</body>', h, re.I) else h + tema + volta
     open(os.path.join(OUT, 'painel', saida), 'w').write(doc(h))
@@ -123,12 +123,14 @@ def importar_js(pasta, base, saida):
         for a in arqs:
             if not a.endswith('.json'): continue
             rel = os.path.relpath(os.path.join(raiz, a), pasta)[:-5].split(os.sep)
-            docs.append({'col': '/'.join([base] + rel[:-1]), 'id': rel[-1], 'data': json.load(open(os.path.join(raiz, a)))})
+            docs.append({'col': '/'.join(([base] if base else []) + rel[:-1]), 'id': rel[-1], 'data': json.load(open(os.path.join(raiz, a)))})
     open(os.path.join(OUT, 'painel', saida), 'w').write('window.__DADOS_IMPORTAR=' + json.dumps(docs, ensure_ascii=False) + ';')
     return len(docs)
 APPS_DIR = os.path.join(SC, '..', 'app')
 app_na_central(os.path.join(APPS_DIR, 'recomeco90.html'), 'recomeco.html', {'script': '/painel/r90-importar.js', 'marca': 'data/users/lindson/progresso'})
 if os.path.isdir(os.path.join(DADOS, 'importar', 'r90')): print('recomeco: importar', importar_js(os.path.join(DADOS, 'importar', 'r90'), 'data/users/lindson', 'r90-importar.js'), 'documentos')
+app_na_central(os.path.join(APPS_DIR, 'fabrica.html'), 'fabrica.html', {'script': '/painel/fabrica-importar.js', 'marca': 'app/config'}, ('tema-central.css', 'tema-fabrica.css'))
+if os.path.isdir(os.path.join(DADOS, 'importar', 'fabrica')): print('fabrica: importar', importar_js(os.path.join(DADOS, 'importar', 'fabrica'), '', 'fabrica-importar.js'), 'documentos')
 shutil.copy(os.path.join(D, 'contas.html'), os.path.join(OUT, 'painel', 'contas.html'))
 open(os.path.join(OUT, '_headers'), 'w').write("/*\n  X-Frame-Options: SAMEORIGIN\n  Referrer-Policy: same-origin\n  X-Content-Type-Options: nosniff\n/painel/*\n  Cache-Control: private, no-store\n  X-Robots-Tag: noindex\n")
 open(os.path.join(OUT, 'robots.txt'), 'w').write("User-agent: *\nDisallow: /\n")
