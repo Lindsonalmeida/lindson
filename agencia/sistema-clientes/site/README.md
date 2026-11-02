@@ -94,6 +94,16 @@ Use `npx wrangler@3 pages dev publico --kv CONTAS` com um `.dev.vars` (fora do G
   - números que contam e barras que enchem;
   - nada disso para quem pede menos movimento no aparelho.
 
+## Apps do Lindson dentro da Central (conta Lindson, 02/11/2026)
+- **Como funciona:** o app original (ex.: `agencia/app/recomeco90.html`) roda igual em `/painel/<app>`, que só o admin abre. O `prototipo/claude-shim.js` troca o `window.claude` do claude.ai pelo banco do servidor (`functions/api/db.js`, KV `db:<coleção>`, com a mesma forma de coleções e documentos).
+- **Dados antigos:** na primeira abertura, a página traz os dados do app antigo, exportados para `CentralLindsonALmeida/dados/importar/<app>/` e servidos como `/painel/<app>-importar.js`, só para o admin.
+- **No ar:** **Recomeço 90** em `/painel/recomeco`, com 197 documentos trazidos em 02/11 (progresso, funil, listas de leads, Zé Doca, cidades e os 300 roteiros).
+- **Ainda a trazer:**
+  - **Fábrica de Conteúdo:** usa a IA do claude.ai (`sample`) para gerar conteúdo; fora dele, precisa de uma chave de API de IA.
+  - **Apps dos canais:** os vídeos são grandes e pedem o R2 da Cloudflare.
+  - **SDR, Contratos e 3 Prioridades:** conta a confirmar.
+- **Atenção:** a tarefa agendada da lista diária de leads gravava no banco do app do claude.ai. Se for religada, precisa gravar em `/api/db` (coleção `data/users/lindson/prospec/dias`).
+
 ## Dados reais dos clientes
 - **Onde ficam:** no repositório privado, em `CentralLindsonALmeida/dados/<cliente>.json`, nunca aqui.
 - **Como entram no painel:** o `montar-<cliente>.py` lê esse arquivo (clone o privado em `/home/user/centrallindsonalmeida`, ao lado deste) e o `prototipo/real.js` troca as telas de exemplo pelos dados.
