@@ -297,7 +297,7 @@ Um **diálogo em sete livros** em que um general famoso, **Fabrizio Colonna**, e
 
 - **Texto (introdução):** depois da fortificação e dos cercos, Fabrizio diz: *"Né mi pare che ci resti altro a dirvi che alcune regole generali, le quali voi averete familiarissime; che sono queste"* — "Não me parece que reste outra coisa a dizer senão algumas regras gerais, que vocês terão como familiaríssimas; que são estas". Depois delas: *"Questo è quanto mi occorre generalmente ricordarvi"* — "Isto é quanto me ocorre lembrar-lhes em geral".
 - **Quantas são:** no texto corrido são **27 frases-regra** (contagem nossa, feita na ed. Martelli e conferida no Wikisource/Cambiagi 1782 — mesmas palavras, grafia modernizada). Algumas edições e traduções as dividem de outro modo (a nº 12 tem duas partes; a nº 22 também), chegando a 28–30; o conteúdo é o mesmo. Nada foi omitido abaixo.
-- **Fonte:** muitas são adaptação das *regulae bellorum generales* de **Vegécio**, *Epitoma rei militaris* III.26 (ex.: "o que te ajuda prejudica o inimigo"; "é melhor vencer pela fome"; "a natureza faz poucos bravos, o treino faz muitos"; "consulta muitos, decide com poucos"). Paralelo apontado por Burd e Villari; **palavra por palavra de Vegécio não conferida nesta rodada**. As que falam de cavalos x infantes, de desertores e de "o rico desarmado é prêmio do soldado pobre" têm marca própria de Maquiavel [Interpretação corrente].
+- **Fonte:** muitas são adaptação das *regulae bellorum generales* de **Vegécio**, *Epitoma rei militaris* III.26 (ex.: "o que te ajuda prejudica o inimigo"; "é melhor vencer pela fome"; "a natureza faz poucos bravos, o treino faz muitos"; "consulta muitos, decide com poucos"). Paralelo apontado por Burd e Villari; **conferido palavra por palavra na revisão (ver 3.1)**. As que falam de cavalos x infantes, de desertores e de "o rico desarmado é prêmio do soldado pobre" têm marca própria de Maquiavel [Interpretação corrente].
 - **Aplicação** = sempre [Interpretação] para a Alkantara / dono de pequena empresa.
 
 | # | Italiano (ed. Martelli, conferido) | Tradução livre | Aplicação num negócio hoje [Interpretação] |
@@ -329,6 +329,38 @@ Um **diálogo em sete livros** em que um general famoso, **Fabrizio Colonna**, e
 | 25 | *"Gli uomini, il ferro, i danari e il pane sono il nervo della guerra; ma di questi quattro sono più necessarii i primi due, perché gli uomini e il ferro truovano i danari e il pane, ma il pane e i danari non truovano gli uomini e il ferro."* | Os homens, o ferro, o dinheiro e o pão são o nervo da guerra; mas dos quatro os dois primeiros são mais necessários, porque os homens e o ferro acham o dinheiro e o pão, mas o pão e o dinheiro não acham os homens e o ferro. | Gente boa e ferramenta/método próprio trazem faturamento; dinheiro sozinho não compra equipe fiel nem método. Invista primeiro em pessoas e capacidade. (Cf. *Discursos* II.10: o dinheiro não é o nervo da guerra.) |
 | 26 | *"Il disarmato ricco è premio del soldato povero."* | O rico desarmado é o prêmio do soldado pobre. | Empresa com caixa e sem defesa (sem contrato, sem marca registrada, sem equipe) é presa de quem tem fome e capacidade. Proteja o que tem. |
 | 27 | *"Avvezza i tuoi soldati a spregiare il vivere delicato e il vestire lussurioso."* | Acostume seus soldados a desprezar a vida delicada e o vestir luxuoso. | Cultura de austeridade: sem gastos de vaidade (escritório caro, carro da empresa) enquanto o caixa não sustenta. |
+
+**3.1 Confronto com Vegécio, *Epitoma rei militaris* III.26, regra por regra (revisão de cobertura, conta Zuleide, 02/11/2026).** Texto latino conferido em The Latin Library (`thelatinlibrary.com/vegetius3.html`, cap. XXVI, *"Regulae bellorum generales"*). Resultado: **21 das 27 regras** traduzem ou adaptam uma regra de Vegécio, quase na mesma ordem; **6 são de Maquiavel** (sem par em III.26). Onde ele muda o sentido, a mudança está anotada: é ali que aparece o pensamento próprio dele.
+
+| Regra (seção 3) | Vegécio III.26 (latim conferido) | O que Maquiavel mudou |
+|---|---|---|
+| 1 | *"quod tibi prodest adversarium noceat, quod illum adiuvat tibi semper officiat"* | igual; corta o resto (não imitar o que o inimigo faz para si) |
+| 2 | *"qui plus in agrariis vigilaverit, plus in exercendo milite laboraverit, minus periculum sustinebit"* | troca "vigiar os forrageadores" por "vigiar os planos do inimigo" e acrescenta "mais pode esperar a vitória" |
+| 3 | *"Numquam miles in acie producendus est, cuius antea experimenta non ceperis"* + *"Numquam ad certamen publicum produxeris militem, nisi cum eum videris sperare victoriam"* | junta duas regras numa só |
+| 4 | *"Aut inopia aut superventibus aut terrore melius est hostem domare quam proelio, in quo amplius solet fortuna potestatis habere quam virtus"* (e no fim: *"Magna dispositio est hostem fame magis urguere quam ferro"*) | fica só com a fome; mantém a frase da fortuna × virtù |
+| 5 | *"Nulla consilia meliora sunt nisi illa, quae ignoraverit adversarius, antequam facias"* | igual |
+| 6 | *"Occasio in bello amplius solet iuvare quam virtus"* | **muda**: Vegécio diz que a ocasião vale mais que a virtù; Maquiavel diz que **saber conhecer e agarrar** a ocasião vale mais que tudo (a ocasião vira competência) |
+| 7 | *"Paucos viros fortes natura procreat, bona institutione plures reddit industria"* | igual |
+| 8 | — | **de Maquiavel** ("a disciplina pode mais que o furor"; a ideia está em Vegécio I.1, não em III.26) |
+| 9 | *"si cum fide veniant, magna fiducia est, quia adversarium amplius frangunt transfugae quam perempti"* | acrescenta que o desertor é "suspeito aos novos amigos e odioso aos velhos" |
+| 10 | *"Melius est post aciem plura servare praesidia quam latius militem spargere"* | igual |
+| 11 | *"Difficile vincitur qui vere potest de suis et de adversarii copiis iudicare"* | igual |
+| 12 | *"Amplius iuvat virtus quam multitudo. Amplius prodest locus saepe quam virtus"* | igual (as duas partes que algumas edições separam) |
+| 13 | *"Subita conterrent hostes, usitata vilescunt"* | **muda**: em Vegécio a novidade assusta o **inimigo** (use surpresa); em Maquiavel ela assusta o **teu** exército, e o remédio é acostumá-lo com escaramuças antes da batalha |
+| 14 | *"Qui dispersis suis inconsulte sequitur, quam ipse acceperat, adversario vult dare victoriam"* | igual |
+| 15 | *"Qui frumentum necessariaque non praeparat, vincitur sine ferro"* | igual |
+| 16 | *"Qui confidit equitatu, aptiora loca quaerat equitibus"* | generaliza: vale também para quem confia mais na infantaria |
+| 17 | *"Cum explorator hostium latenter oberrat in castris, omnes ad tentoria sua per diem redire iubeantur"* | igual |
+| 18 | *"Cum consilium tuum cognoveris adversariis proditum, dispositionem mutare te convenit"* | igual |
+| 19 | *"Quid fieri debeat, tractato cum multis, quid vero facturus sis, cum paucissimis ac fidelissimis vel potius ipse tecum"* | corta o "ou melhor, só contigo mesmo" |
+| 20 | *"Milites timor et poena in sedibus corrigit, in expeditione spes ac praemia faciunt meliores"* | igual |
+| 21 | *"Boni duces publico certamine numquam nisi ex occasione aut nimia necessitate confligunt"* | igual (inverte a ordem: necessidade antes de ocasião) |
+| 22 | *"Quo genere depugnaturus sis, nesciant hostes"* | acrescenta a regra própria de que as primeiras linhas possam ser recebidas pelas segundas e terceiras (o sistema de recuo do Livro III) |
+| 23, 24, 25, 26, 27 | — | **de Maquiavel**: não usar um batalhão em outra função; acidentes previstos se remedeiam fácil; **homens e ferro acham dinheiro e pão, não o contrário** (a mesma tese de *Discursos* II.10, contra o "dinheiro é o nervo da guerra"); "o rico desarmado é prêmio do soldado pobre"; desprezar o luxo |
+
+**O que Maquiavel deixou de fora de Vegécio III.26:** os **sete modos de dar batalha** (frente quadrada, ala direita contra a esquerda inimiga etc.) e *"Exercitus labore proficit, otio consenescit"* ("o exército melhora com o trabalho e envelhece no ócio"; a ideia aparece em outros pontos do diálogo). A máxima *"qui desiderat pacem, praeparet bellum"* (origem do "si vis pacem, para bellum") está no **prefácio** do livro III de Vegécio, não nas regras.
+
+**[Interpretação nossa]** As mudanças das regras 6, 13, 25 e 26 mostram o padrão de Maquiavel: tirar o peso da sorte e do dinheiro e pôr na **competência e no preparo dos próprios homens**. Para o agente: quando citar estas regras, pode dizer "Maquiavel, seguindo Vegécio" nas 21 herdadas, e "regra própria dele" nas outras 6.
 
 **Outras "regras gerais" que o próprio texto chama assim, fora da lista do Livro VII:**
 - **Livro III:** *"questa è una regola generale: che a quelle cose le quali non si possono sostenere, si ha a dare la via"* — "é regra geral: ao que não se pode aguentar, deve-se dar passagem". **Negócio:** não brigue de frente com o que não pode segurar (mudança de algoritmo, crise do setor); abra caminho e ataque depois pelos flancos.
@@ -558,7 +590,7 @@ Um **diálogo em sete livros** em que um general famoso, **Fabrizio Colonna**, e
 
 - **Fontes modernas não abertas na fonte** (marcadas "não conferido" acima): Gilbert 1943/1986 (palavra por palavra), Delbrück vol. IV, Pieri 1952, Hale 1985, Mallett 1974/1990, Lynch 2003, Hörnqvist 2004, Anglo 2005, Ménissier, Fournel/Zancarini (verbete "armi" da *Enciclopedia machiavelliana*, vol. I, pp. 100–105, 2014), o verbete "Arte della guerra" de **G. Masi** na mesma enciclopédia (autor identificado por citação em volume FrancoAngeli de 2022; nome completo e páginas **não conferidos**), Carrera Díaz (es.), Bignotto (pt.).
 - **Bloqueados nesta sessão:** o artigo alemão "Machiavellis Kriegskunst: Die Lehren des *Libro dell'arte della guerra*" (*Romanistisches Jahrbuch*, 2023, De Gruyter; autor não identificado) e o estudo francês de **Pretalli**, "L'*Arte della guerra* di Machiavelli e la letteratura militare del Cinquecento" (HAL) — os sites não abriram (rede da sessão). Ler na próxima rodada.
-- **Vegécio III.26 palavra por palavra** contra as regras do Livro VII (seção 3): não conferido.
+- ~~**Vegécio III.26 palavra por palavra** contra as regras do Livro VII (seção 3)~~ — **feito** na revisão de cobertura (conta Zuleide, 02/11/2026): ver 3.1 (21 de 27 regras vêm de Vegécio; 6 são próprias).
 - **Primeiras traduções** (Charrier 1546, Salazar 1536, latim e alemão): datas e títulos não conferidos nos exemplares.
 - **Clausewitz–Fichte (1809)** e **Frederico II**: conteúdo da carta e a admiração de Frederico não conferidos.
 - ***La cagione dell'ordinanza*** (1506): a frase *"per elezione e non per corruzione"* veio via Marchand; conferir no texto (Edizione Nazionale) e cruzar com `missoes-e-escritos-politicos.md`.
