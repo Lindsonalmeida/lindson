@@ -12,8 +12,8 @@ Atualizado pela conta Zuleide em 02/11/2026. Marque [x] ao terminar e cite a con
 | `principe.md` | *Il Principe*, 26 capítulos + dedicatória | [x] Ded.–XI e seções 3 a 5 Zuleide · XII–XXVI Pedro · seções 6 e 7 (uso pelo agente, lacunas) (conta Lindson, 02/11) |
 | `arte-da-guerra.md` | *Dell'arte della guerra*, 7 livros | [x] Zuleide (seções 1–3) + Lindson (seções 4–6; lacunas em 6.4) |
 | `historia-de-florenca.md` | *Istorie fiorentine*, 8 livros | [x] Zuleide (seções 1–4) + Lindson (seção 5; lacunas em 5.6) |
-| `missoes-e-escritos-politicos.md` | legações (missões diplomáticas), escritos da Chancelaria, *Ritratti*, *Discursus*, Valdichiana, Pisa, ordenança etc. | em andamento (Zuleide) |
-| `literatura.md` | Mandrágora, Clizia, Andria, Belfagor, Asino, Decennali, Capitoli, Canti, Serenata, Castruccio, Discurso sobre a língua | em andamento (Zuleide) |
+| `missoes-e-escritos-politicos.md` | legações (missões diplomáticas), escritos da Chancelaria, *Ritratti*, *Discursus*, Valdichiana, Pisa, ordenança etc. | [x] Zuleide (seção A) + Lindson (seções B–D, 02/11; lacunas em D.5) |
+| `literatura.md` | Mandrágora, Clizia, Andria, Belfagor, Asino, Decennali, Capitoli, Canti, Serenata, Castruccio, Discurso sobre a língua | [x] Zuleide (seções 1–8) + Lindson (seções 9–14, 02/11; lacunas em 14.4) |
 | `contexto-e-personagens.md` | Itália 1494–1530, instituições de Florença, Bórgia, Médici, papas, reis, Savonarola, Soderini, Guicciardini | [x] seções 1–2 (Zuleide) · [x] seções 3–7: fichas, glossário, correções, uso, lacunas (conta Lindson, 02/11) |
 | `recepcao-e-estudiosos.md` | leituras em todos os idiomas (it, en, es, fr, de, pt e outros), antimaquiavelismo, mitos, frases falsas, curiosidades | [x] Zuleide (seções 1–8; lacunas na seção 8) |
 | `maquiavel-nos-negocios.md` | livros e estudos de gestão, escala Mach IV, uso em negócios, críticas | [x] Pedro (seção 1) + Zuleide (complemento e seções 2–7) |
