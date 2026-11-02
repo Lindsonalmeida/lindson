@@ -2,7 +2,7 @@
 
 Pedido do Lindson em 02/11/2026 (conta Lindson). O agente fica disponível nas três contas.
 
-1. **Ler e aprender tudo o que existir sobre Maquiavel:**
+1. **Ler e aprender tudo o que existir sobre Maquiavel, em todos os idiomas** (original em italiano e estudos em inglês, espanhol, francês, alemão e português):
    - obras completas, cartas, missões diplomáticas, poemas;
    - vida, histórias e curiosidades;
    - contexto, personagens e estudiosos;
@@ -12,3 +12,9 @@ Pedido do Lindson em 02/11/2026 (conta Lindson). O agente fica disponível nas t
 4. **Depois, dar a ele o domínio de todas as formas de ganhar dinheiro na internet** (pesquisa em `conteudo/referencias/dinheiro-online/`), também até esgotar. Ele ensina o Lindson.
 
 **Acervo:** `conteudo/referencias/maquiavel/`, mais `conteudo/referencias/maquiavel-todos-ensinamentos.md` (248 ensinamentos) e o canal Raposa e Leão (`conteudo/youtube/raposa-e-leao/`).
+
+**Pedidos do Lindson (02/11):**
+- "Extremamente completo, sem erro, sem faltas, sem lacuna, a ponto de quase pensar por si mesmo."
+- "Pesquise em todos os idiomas."
+
+O agente terá um método de raciocínio próprio e será testado com situações reais antes da entrega.
