@@ -1,6 +1,6 @@
 # Discursos sobre a Primeira Década de Tito Lívio — base de conhecimento para o agente "Nicolau Maquiavel"
 
-**Situação:** parcial — feito até a seção 4 (seção 1 pela conta Lindson; seções 2 em diante pela conta Zuleide, 02/11/2026).
+**Situação:** parcial — feito até a seção 5 (seção 1 pela conta Lindson; seções 2 em diante pela conta Zuleide, 02/11/2026).
 
 > **Para que serve este arquivo:** é a base do agente "Maquiavel conselheiro de negócios" no que diz respeito aos *Discorsi*. Tudo o que está marcado como **texto** vem do original italiano; tudo o que está marcado como **interpretação** é leitura nossa ou de estudiosos, e o agente deve apresentar assim.
 >
@@ -274,4 +274,243 @@ Conferidos os 142 ensinamentos daquele arquivo (números 78 a 219) contra o orig
 | 86 (I.9) | Fundar exige uma só pessoa | Correto; o arquivo omite a frase polêmica *"accusandolo il fatto, lo effetto lo scusi"* e a condição: deixar depois o governo a muitos | Leve |
 | Título da seção 2 daquele arquivo | "Discursos sobre Tito Lívio (1517)" | 1517 é data convencional; o texto só permite dizer c. 1513–1519 (ver 1.2) | Leve |
 | Divisão "Livro III — Como grandes indivíduos fazem e mantêm" | Rótulo daquele arquivo | Maquiavel diz que tratará das ações de "homens particulares" (III.1); o rótulo é aceitável | Nenhuma |
+
+
+## 5. Os 41 capítulos mais importantes, em detalhe
+
+**Critério de escolha:** capítulos que (a) os estudiosos citam como centrais (fundação, conflito, corrupção, religião, renovação, fortuna, conspirações, razão de Estado) e (b) dão lições aplicáveis a um negócio. Livro I: 24; Livro II: 8; Livro III: 9.
+
+**Padrão de cada ficha:** argumento (texto) · citação italiana **conferida palavra por palavra** no Wikisource + tradução livre nossa · exemplos que ele usa · leituras de estudiosos (com nome e idioma) · aplicação ao negócio **[Interpretação]**.
+
+**Traduções comparadas nesta seção:** inglês — Ninian Hill Thomson (1883, Gutenberg 10827, conferida) e Christian Detmold (1882, conferida no trecho de I.9 via Fordham Internet History Sourcebook); francês — Jean-Vincent Périès, ed. Charles Louandre (Charpentier, 1855, conferida no fr.wikisource). Traduções modernas citadas de memória e **não conferidas no texto**: inglês Harvey Mansfield & Nathan Tarcov (Chicago, 1996); espanhol Ana Martínez Arancón (Alianza); alemão Rudolf Zorn (Kröner); português: trad. MF (Martins Fontes, 2007) e Sérgio Bath (Ed. UnB, 1979).
+
+**Edições críticas italianas (dado bibliográfico):** Giorgio Inglese (BUR/Rizzoli, 1984, com comentário); Francesco Bausi (Edizione Nazionale delle Opere, Salerno, 2001, 2 vols.); Corrado Vivanti (Opere, Einaudi-Gallimard, 1997). O Wikisource segue a tradição da edição de 1531 e tem pequenas diferenças de grafia em relação a elas (não conferido linha a linha com Bausi: ver lacunas).
+
+---
+
+### 5.1 — I.2: os seis governos e o "círculo"
+- **Argumento (texto):** três formas boas (principado, ótimos, popular) degeneram em tirania, oligarquia e licença; os povos passam por elas num "círculo". Por isso os sábios preferem uma forma que tenha as três. Licurgo fez isso de uma vez (Esparta, 800 anos); Roma chegou lá aos poucos, "pela desunião da plebe e do senado".
+- **Citação:** *"E questo è il cerchio nel quale girando tutte le republiche si sono governate e si governano: ma rade volte ritornano ne' governi medesimi."* — "E este é o círculo no qual, girando, todas as repúblicas se governaram e se governam; mas raramente voltam aos mesmos governos."
+- **Estudiosos:** a fonte é o Livro VI de Políbio (anaciclose), que Maquiavel provavelmente leu em tradução latina ainda inédita; Gennaro Sasso (it., *Studi su Machiavelli*, 1967) estudou esse uso e a diferença: em Maquiavel o ciclo é interrompido porque um Estado fraco é conquistado antes de completar a volta. [Interpretação de Sasso]
+- **Aplicação [Interpretação]:** toda gestão degenera: o dono centralizador vira tirano, o grupo de sócios vira panelinha, a "gestão horizontal" vira bagunça. Equilibre os três polos.
+
+### 5.2 — I.3: presumir que os homens são maus
+- **Argumento:** quem faz leis deve presumir a malícia; bom comportamento sem causa visível é só malícia escondida que o tempo revela. Os nobres se portaram bem enquanto temiam os Tarquínios.
+- **Citação:** *"è necessario a chi dispone una republica, ed ordina leggi in quella, presupporre tutti gli uomini rei, e che li abbiano sempre a usare la malignità dello animo loro, qualunque volta ne abbiano libera occasione"* — "quem organiza uma república e lhe dá leis precisa presumir que todos os homens são maus e que sempre usarão a malignidade do seu ânimo quando tiverem ocasião livre."
+- **Comparação de traduções:** Thomson: *"assume that 'all men are bad'"*; Périès: *"supposer d'abord que tous les hommes sont méchants"*. As duas fiéis. Nota: é uma regra **para quem faz leis** (premissa de projeto), não uma descrição de que todos são maus.
+- **Também no texto:** *"la fame e la povertà fa gli uomini industriosi, e le leggi gli fanno buoni"* — "a fome e a pobreza fazem os homens trabalhadores, e as leis os fazem bons."
+- **Aplicação [Interpretação]:** processos de agência (acesso a contas de anúncio, aprovação de verba, senhas, contratos) desenhados para funcionar mesmo se alguém agir mal. Isso protege também os honestos.
+
+### 5.3 — I.4: o conflito que gera liberdade
+- **Argumento:** quem condena os tumultos entre nobres e plebe olha "os ruídos e os gritos" e não os bons efeitos. Em 300 anos de tumultos houve pouco exílio e quase nenhum sangue, e saíram as leis da liberdade.
+- **Citação:** *"in ogni republica due umori diversi, quello del popolo, e quello de' grandi; e come tutte le leggi che si fanno in favore della libertà, nascano dalla disunione loro"* — "em toda república há dois humores diferentes, o do povo e o dos grandes, e todas as leis feitas a favor da liberdade nascem da desunião deles." E: *"li buoni esempli nascano dalla buona educazione, la buona educazione, dalle buone leggi; e le buone leggi, da quelli tumulti che molti inconsideratamente dannano"*.
+- **Estudiosos:** é o capítulo mais original para a teoria política. Claude Lefort (fr., *Le travail de l'œuvre Machiavel*, 1972) faz dele o centro da sua leitura: a sociedade é dividida para sempre, e a liberdade vive dessa divisão. Newton Bignotto (pt., *Maquiavel republicano*, 1991) e Sérgio Cardoso (USP) seguem e discutem essa linha no Brasil. John McCormick (en., *Machiavellian Democracy*, 2011) lê I.4–I.8 como defesa de instituições populares contra as elites. Quentin Skinner lembra que o elogio do conflito chocava a tradição humanista florentina, que via a discórdia como a ruína das cidades. [Interpretações dos autores citados]
+- **Aplicação [Interpretação]:** discordância entre sócios, áreas ou com o cliente é matéria-prima de boas regras, desde que tenha canal (reunião com pauta, contrato, decisão registrada). Medo de conflito produz empresa sem regra.
+
+### 5.4 — I.5: quem guarda a liberdade
+- **Argumento:** grandes querem dominar; o povo quer não ser dominado. Por isso o povo é melhor guardião. Mas quem mais provoca tumulto, em geral, é quem já possui.
+- **Citações:** *"si vedrà in quelli desiderio grande di dominare, ed in questi solo desiderio di non essere dominati"* — "se verá nos nobres grande desejo de dominar, e no povo só desejo de não ser dominado". *"il più delle volte sono causati da chi possiede, perché la paura del perdere genera in loro le medesime voglie che sono in quelli che desiderano acquistare"* — "na maioria das vezes [os tumultos] são causados por quem possui, porque o medo de perder gera neles as mesmas vontades de quem deseja adquirir".
+- **Estudiosos:** a fórmula dos "dois desejos" também está no *Príncipe* IX; Lefort parte dela. [Interpretação de Lefort]
+- **Aplicação [Interpretação]:** dê a função de fiscalizar (financeiro, qualidade) a quem não ganha com o abuso. E cuidado com o cliente antigo ou o sócio fundador com medo de perder espaço: é dele que vem a maior crise.
+
+### 5.5 — I.6: crescer ou ficar quieto
+- **Argumento:** Esparta e Veneza ficaram em paz porque eram pequenas e fechadas; mas tudo muda e a necessidade obriga a crescer. Quem se organizou para não crescer se arruína quando é obrigado a crescer.
+- **Citação:** *"sendo tutte le cose degli uomini in moto, e non potendo stare salde, conviene che le salghino o che le scendino; e a molte cose che la ragione non t'induce, t'induce la necessità"* — "estando todas as coisas dos homens em movimento, e não podendo ficar paradas, convém que subam ou desçam; e a muitas coisas a que a razão não te induz, te induz a necessidade".
+- **Aplicação [Interpretação]:** não existe "ficar do mesmo tamanho" para sempre num mercado que se move. Decida conscientemente: modelo pequeno e enxuto (com risco de ser engolido) ou modelo de crescimento (com mais atrito interno). Prepare a estrutura para conservar o que ganhar.
+
+### 5.6 — I.7: o canal legal de acusação
+- **Argumento:** o poder de acusar diante do povo tem dois efeitos: os cidadãos temem tentar algo contra o Estado; e os humores têm por onde sair "ordinariamente". Sem isso, vão para os "modos extraordinários", que arruínam a república.
+- **Citação:** *"si dà onde sfogare a quegli omori che crescono nelle cittadi... e quando questi omori non hanno onde sfogarsi ordinariamente, ricorrono a' modi straordinari, che fanno rovinare tutta una republica"* — "dá-se por onde desafogar os humores que crescem nas cidades... e quando esses humores não têm por onde sair de modo ordinário, recorrem a modos extraordinários, que arruínam toda uma república".
+- **Exemplos:** Coriolano (salvo do linchamento pelo julgamento); Francesco Valori (Florença, 1498) e Piero Soderini, por falta desse canal.
+- **Estudiosos:** McCormick (en.) destaca este capítulo como base de "accountability" popular; artigo da USP "Instituições republicanas em Maquiavel: o caso das acusações públicas" (*Cadernos de Ética e Filosofia Política*) trata do tema em português. [não lido na íntegra]
+- **Aplicação [Interpretação]:** ouvidoria, pesquisa de satisfação, reunião de feedback, contrato com cláusula de reclamação. Cliente sem canal reclama no Google, no Instagram ou no Procon.
+
+### 5.7 — I.9: o fundador solitário e a frase "o fato o acusa, o efeito o desculpa"
+- **Argumento:** para fundar ou refundar é preciso estar só. Rômulo matou o irmão e o colega, mas merece desculpa porque agiu pelo bem comum, e prova disso é ter criado logo um Senado. O fundador prudente deixa o Estado a muitos, porque o que depende de um só não dura.
+- **Citação (frase polêmica):** *"Conviene bene, che, accusandolo il fatto, lo effetto lo scusi; e quando sia buono, come quello di Romolo, sempre lo scuserà: perché colui che è violento per guastare, non quello che è per racconciare, si debbe riprendere."* — "Convém que, se o fato o acusa, o efeito o desculpe; e quando o efeito for bom, como o de Rômulo, sempre o desculpará: porque se deve repreender quem é violento para estragar, não quem o é para consertar."
+- **Comparação de traduções (conferidas):**
+  - Detmold (en., 1882): *"when the act accuses him, the result should excuse him"* — fiel.
+  - Thomson (en., 1883): *"although the act condemn the doer, the end may justify him; and when... the end is good, it will always excuse the means"* — **acrescenta "os meios"**, que não está no italiano. É uma das fontes da frase falsa "os fins justificam os meios".
+  - Périès/Louandre (fr., 1855): *"quand les actions d'un homme l'accusent, que le résultat le justifie"* — troca "desculpar" por "justificar", mais forte.
+  - Mansfield & Tarcov (en., 1996): *"when the deed accuses him, the effect excuses him"* — citado de memória, **não conferido**.
+- **Leitura:** Maquiavel diz "desculpar" (*scusare*), não "justificar", e limita a desculpa a quem age "para consertar" e entrega depois o poder a muitos. A frase "os fins justificam os meios" **não existe** nas obras de Maquiavel. [Fato textual + interpretação nossa; ver também *Príncipe* XVIII, "si guarda al fine"]
+- **Estudiosos:** Leo Strauss (en., *Thoughts on Machiavelli*, 1958) e Mansfield (*Machiavelli's New Modes and Orders*, 1979) leem I.9 como chave do "ensino" de Maquiavel sobre o fundador; Skinner e Viroli enfatizam a condição republicana (deixar o governo a muitos). [Interpretações]
+- **Aplicação [Interpretação]:** numa virada (refundar a agência, trocar modelo de negócio), uma pessoa decide e assume o custo. Mas a decisão só se "desculpa" se servir à empresa e não ao ego, e se depois você montar uma estrutura que não dependa de você.
+
+### 5.8 — I.10: glória e infâmia
+- **Argumento:** ranking dos louvados (religiões, repúblicas e reinos, exércitos, letras) e dos infames (destruidores). Não se iluda com César: seus louvadores foram "corrompidos pela sua fortuna".
+- **Citações:** *"Né sia alcuno che s'inganni, per la gloria di Cesare"* — "Que ninguém se engane pela glória de César". *"ei sono loro preposte due vie: l'una che li fa vivere sicuri, e dopo la morte li rende gloriosi; l'altra li fa vivere in continove angustie, e, dopo la morte, lasciare di sé una sempiterna infamia"* — "há duas vias: uma faz viver seguro e, depois da morte, glorioso; a outra faz viver em contínuas angústias e deixar uma infâmia eterna".
+- **Aplicação [Interpretação]:** reputação é ativo. Ganhar dinheiro de modo que gera inimigos (clientes enganados, equipe explorada) é viver "em contínuas angústias".
+
+### 5.9 — I.11: a religião de Numa
+- **Argumento:** Roma deve mais a Numa (religião) que a Rômulo (armas), porque a religião faz obedecer e jurar.
+- **Citação:** *"dove è religione, facilmente si possono introdurre l'armi e dove sono l'armi e non religione, con difficultà si può introdurre quella"* — "onde há religião facilmente se introduzem as armas, e onde há armas e não religião, dificilmente se introduz aquela".
+- **Estudiosos:** debate grande: religião como instrumento político (leitura "instrumental": Strauss, Gramsci em parte) ou religião civil genuína (Viroli, *Machiavelli's God*, 2010; it. *Il Dio di Machiavelli*). Rousseau tirou daí a ideia de "religião civil" (*Contrato social* IV.8). [Interpretações]
+- **Aplicação [Interpretação]:** valores e rituais (palavra dada, padrão de entrega, ritos da equipe) unem mais que regulamento. Mas só funcionam se forem vividos pelo dono.
+
+### 5.10 — I.12: a Igreja e a ruína da Itália
+- **Argumento:** quanto mais perto de Roma, menos religiosos os povos. Duas dívidas dos italianos com a Igreja: ficaram "sem religião e maus", e a Igreja mantém a Itália dividida (fraca demais para unificar, forte demais para deixar outro unificar).
+- **Citações:** *"Abbiamo, adunque, con la Chiesa e con i preti noi Italiani questo primo obligo, di essere diventati sanza religione e cattivi"* — "Temos, pois, com a Igreja e com os padres, nós italianos, esta primeira dívida: termos ficado sem religião e maus." *"così come dove è religione si presuppone ogni bene, così, dove quella manca, si presuppone il contrario"*.
+- **Fato:** foi por passagens como esta que as obras de Maquiavel entraram no Índice de Livros Proibidos (1559).
+- **Aplicação [Interpretação]:** quando a liderança desmoraliza os valores que prega, a equipe fica sem fé e sem disciplina; e um centro fraco que impede a união é pior que nenhum centro.
+
+### 5.11 — I.16: o povo que não sabe ser livre e os "filhos de Bruto"
+- **Citação:** *"quel popolo è non altrimenti che un animale bruto, il quale, ancora che di natura feroce e silvestre, sia stato nutrito sempre in carcere ed in servitù; che dipoi lasciato a sorte in una campagna libero... diventa preda del primo che cerca rincatenarlo"* — "esse povo é como um animal que, embora feroz por natureza, foi criado na prisão; solto ao acaso num campo, vira presa do primeiro que tenta acorrentá-lo de novo". E: *"non ci è più potente rimedio... che ammazzare i figliuoli di Bruto"*.
+- **Argumento:** o novo regime ganha inimigos (os que lucravam antes) e não ganha amigos firmes (os beneficiados acham que só receberam o devido). O príncipe deve dar ao povo **segurança**: poucos querem mandar; a maioria quer viver segura.
+- **Aplicação [Interpretação]:** ao mudar o modelo de gestão (de chefe autoritário para autonomia), dê estrutura e segurança; e trate logo dos que perderam privilégios.
+
+### 5.12 — I.18: costumes e leis
+- **Citação:** *"così come gli buoni costumi, per mantenersi, hanno bisogno delle leggi; così le leggi, per osservarsi, hanno bisogno de' buoni costumi"* — "assim como os bons costumes precisam das leis para se manter, as leis precisam dos bons costumes para ser cumpridas".
+- **Argumento:** as instituições boas para um povo honesto ficam ruins quando ele se corrompe (em Roma, qualquer um podia propor leis e candidatar-se; com a corrupção, só os poderosos o faziam). Renovar uma cidade corrompida exige um poder quase régio; é raro um homem bom querer usar meios ruins e um homem mau usar bem o poder.
+- **Aplicação [Interpretação]:** manual de processos não salva cultura podre; cultura boa sem processo se perde quando a empresa cresce.
+
+### 5.13 — I.25: manter a sombra do antigo
+- **Citação:** *"lo universale degli uomini si pascono così di quel che pare come di quello che è: anzi, molte volte si muovono più per le cose che paiono che per quelle che sono"* — "os homens em geral se alimentam tanto do que parece quanto do que é; e muitas vezes se movem mais pelas coisas que parecem do que pelas que são".
+- **Exemplo:** o *Re Sacrificulo*, criado para que o povo não sentisse falta dos reis no sacrifício anual.
+- **Aplicação [Interpretação]:** reposicionamento de marca e reestruturação interna: mude a substância, mantenha símbolos, nomes e rituais conhecidos. Base de toda gestão de mudança.
+
+### 5.14 — I.26: o príncipe novo deve fazer tudo novo
+- **Citação:** *"fare i ricchi poveri, i poveri ricchi... ed in somma, non lasciare cosa niuna intatta in quella provincia"* — "fazer os ricos pobres e os pobres ricos... em suma, não deixar nada intacto naquela província". E logo depois: *"Sono questi modi crudelissimi, e nimici d'ogni vivere, non solamente cristiano, ma umano; e debbegli qualunque uomo fuggire"* — "são modos crudelíssimos e inimigos de todo viver, não só cristão, mas humano; e todo homem deve fugir deles". *(Esta segunda frase não foi conferida pela busca automática; ver lacunas.)*
+- **Argumento:** quem quer poder absoluto num Estado novo e frágil tem de renovar tudo; mas o caminho do bem é melhor, e o pior é o meio-termo.
+- **Aplicação [Interpretação]:** ao assumir uma operação falida, não faça meia reforma. Porém Maquiavel mesmo chama o método de cruel; use a lição da clareza, não a da crueldade.
+
+### 5.15 — I.27: "não saber ser honradamente mau"
+- **Citação:** *"gli uomini non sanno essere onorevolmente cattivi, o perfettamente buoni"* — "os homens não sabem ser honrosamente maus, ou perfeitamente bons".
+- **Fato narrado:** Giampaolo Baglioni, tirano de Perúgia, deixou o papa Júlio II entrar desarmado (Maquiavel estava lá como observador florentino, 1506; o texto diz "nel 1505") e não o prendeu.
+- **Comparação de traduções:** Thomson: *"Men... not knowing how to be wholly good or wholly bad"* (título). O "onorevolmente cattivi" (malvado com grandeza) é a parte polêmica; muitos leitores acharam que Maquiavel lamenta que Baglioni não tenha cometido o crime. [Interpretação comum] A leitura mais cuidadosa: é uma constatação sobre a indecisão humana diante de um ato que teria "grandeza".
+- **Aplicação [Interpretação]:** a hesitação no momento decisivo (fechar, demitir, investir, recusar) custa mais que a decisão. Isto não autoriza nada ilegal.
+
+### 5.16 — I.29: povo ou príncipe, quem é mais ingrato
+- **Citação:** *"questo vizio della ingratitudine nasce o dall'avarizia o da il sospetto"* — "este vício da ingratidão nasce ou da avareza ou da suspeita". Conclusão: os povos nunca o usaram por avareza e por suspeita muito menos que os príncipes.
+- **Exemplos:** Cipião acusado pelo povo (único caso romano grave); Gonzalo de Córdoba, que conquistou Nápoles e foi afastado por Fernando de Aragão; Antônio Primo e Vespasiano.
+- **Aplicação [Interpretação]:** o dono que tem medo do sucesso do gerente estrela costuma afastá-lo. Reconheça e recompense; crie regras para que o sucesso de alguém não seja ameaça (cargos claros, participação).
+
+### 5.17 — I.33: contemporizar o mal crescido
+- **Citação:** *"si comincia a corrompere una legge, la quale è il nervo e la vita del vivere libero; e lasciasi trascorrere questo errore in tanto, che gli è più dannoso partito il volere rimediare che lasciarlo seguire"* — "começa-se a corromper uma lei, que é o nervo e a vida do viver livre, e deixa-se o erro correr tanto que é mais danoso querer remediá-lo que deixá-lo seguir".
+- **Exemplo:** os inimigos de Cosimo de' Medici em Florença o exilaram (1433), e ele voltou mais forte (1434); Niccolò da Uzzano aconselhara esperar.
+- **Contraste:** no *Príncipe* III ele elogia os romanos que viam os males de longe e os curavam cedo. As duas lições se completam: **cedo, ataque; tarde, contemporize**. [Interpretação]
+- **Aplicação [Interpretação]:** problema pequeno, resolva já. Problema que já cresceu (sócio forte, cliente que domina o faturamento): não confronte de frente; ganhe tempo e se fortaleça.
+
+### 5.18 — I.34: a ditadura constitucional
+- **Argumento:** o ditador romano era nomeado por prazo curto, só para a emergência, sem poder de mudar as instituições. Repúblicas sem esse recurso, na emergência, ou se arruínam respeitando as leis, ou as rompem, e romper "por bem" abre caminho a romper "por mal".
+- **Citação:** a fórmula romana *"Videat Consul, ne Respublica quid detrimenti capiat"* ("que o cônsul cuide para que a república não sofra dano").
+- **Estudiosos:** Carl Schmitt (de., *Die Diktatur*, 1921) parte deste capítulo para distinguir "ditadura comissária" (Roma) de "ditadura soberana". [Interpretação de Schmitt]
+- **Aplicação [Interpretação]:** contrato social ou acordo de sócios com cláusula de crise: quem decide, por quanto tempo, com que limites.
+
+### 5.19 — I.37: a lei agrária, desejo maior que o poder
+- **Citação:** *"la natura ha creati gli uomini in modo che possono desiderare ogni cosa, e non possono conseguire ogni cosa: talché, essendo sempre maggiore il desiderio che la potenza dello acquistare, ne risulta la mala contentezza di quello che si possiede"* — "a natureza criou os homens de modo que podem desejar tudo e não podem conseguir tudo; assim, sendo o desejo sempre maior que o poder de adquirir, resulta o descontentamento com o que se possui". E: *"le republiche bene ordinate hanno a tenere ricco il publico e gli loro cittadini, poveri"*.
+- **Aplicação [Interpretação]:** a insatisfação é estrutural (equipe, clientes, você mesmo). Não mude regras com efeito retroativo; e mantenha a empresa capitalizada antes de distribuir lucro.
+
+### 5.20 — I.38: a indecisão dos fracos
+- **Citação:** *"la più cattiva parte che abbiano le republiche deboli, è essere inresolute; in modo che tutti i partiti che le pigliono, gli pigliono per forza"* — "a pior parte das repúblicas fracas é serem indecisas, de modo que todas as decisões que tomam, tomam-nas à força".
+- **Exemplos:** Florença diante de Luís XII e de Pisa (1500); Arezzo (1502). Maquiavel viveu esses episódios como secretário.
+- **Aplicação [Interpretação]:** o maior custo de uma agência pequena é decidir tarde (precificar, cortar cliente ruim, contratar). Defina prazo de decisão.
+
+### 5.21 — I.45: dar o exemplo e ofender de uma vez
+- **Citação:** *"è necessario o non offendere mai alcuno, o fare le offese a un tratto: e dipoi rassicurare gli uomini, e dare loro cagione di quietare e fermare l'animo"* — "é necessário ou nunca ofender ninguém, ou fazer as ofensas de uma vez, e depois tranquilizar os homens e dar-lhes razão para sossegar".
+- **Exemplo:** Savonarola, que defendeu a lei de apelação e depois não a fez valer (1497), perdeu crédito. Paralelo com *Príncipe* VIII ("as injúrias devem ser feitas todas juntas").
+- **Aplicação [Interpretação]:** cortes e demissões: um único movimento, comunicado com clareza, seguido de garantia aos que ficam. Cortes "a conta-gotas" destroem o moral.
+
+### 5.22 — I.53: o povo seduzido por promessas
+- **Argumento:** o povo é enganado por "falsa aparência de bens" e por "grandes esperanças e promessas ousadas"; quem aconselha prudência parece covarde; quem promete demais cai quando falha.
+- **Exemplos:** Fábio Máximo desacreditado; Varrão e Minúcio; Nícias contra a expedição à Sicília; Antonio Giacomini, que prometeu tomar Pisa.
+- **Aplicação [Interpretação]:** no marketing, o mercado premia a promessa grande no curto prazo e pune a promessa não cumprida no longo. Prometa o que entrega; venda o resultado provável.
+
+### 5.23 — I.55: igualdade e "gentiluomini"
+- **Citação:** *"gentiluomini sono chiamati quelli che oziosi vivono delle rendite delle loro possessioni abbondantemente, sanza avere cura alcuna o di coltivazione o di altra necessaria fatica a vivere"* — "chamam-se gentis-homens os que vivem ociosos das rendas abundantes de suas terras, sem cuidar de cultivo nem de outro trabalho". E: *"Constituisca, adunque, una republica colui dove è, o è fatta, una grande equalità; ed all'incontro ordini un principato dove è grande inequalità"*.
+- **Aplicação [Interpretação]:** entre sócios de igual peso, modelo de decisão compartilhada; onde há grande diferença de capital ou competência, liderança clara. Gente que vive de renda sem trabalhar dentro da empresa é veneno.
+
+### 5.24 — I.58: a multidão é mais sábia que o príncipe
+- **Argumento:** contra Lívio e "todos os historiadores", o povo bem ordenado é mais sábio e constante. Ele erra menos na escolha de magistrados e muda menos de opinião. Os povos são superiores para conservar; os príncipes para fundar.
+- **Citações:** *"un popolo è più prudente, più stabile e di migliore giudizio che un principe"*. *"E non sanza cagione si assomiglia la voce d'un popolo a quella di Dio"* — "não sem razão se compara a voz de um povo à de Deus". *"un principe, sciolto dalle leggi, sarà ingrato, vario ed imprudente più che un popolo"*.
+- **Comparação:** Thomson: *"a People is wiser and more constant than a Prince"*; Périès: *"la voix du peuple est la voix de Dieu"* (literaliza o provérbio *vox populi vox Dei*; Maquiavel diz "se compara").
+- **Estudiosos:** é o capítulo mais citado pela leitura republicana-democrática (McCormick, en.; Bignotto, pt.). Strauss (en.) argumenta que o elogio do povo é parcial e estratégico. [Interpretações]
+- **Aplicação [Interpretação]:** decisões de rotina (processos, escolha de líderes, prioridades) melhoram quando tomadas por um coletivo organizado e com regras. O dono funda e dá a direção; a equipe mantém.
+
+### 5.25 — II.1: virtù, não fortuna
+- **Argumento:** contra Plutarco e o próprio Lívio, o império romano veio da virtù: Roma nunca fez duas grandes guerras ao mesmo tempo e entrou em províncias novas com aliados locais.
+- **Citação:** *"vi vedrà dentro mescolate con la fortuna una virtù e prudenza grandissima"* — "verá, misturadas com a fortuna, uma virtù e uma prudência grandíssimas".
+- **Aplicação [Interpretação]:** uma frente de cada vez (não abra três serviços novos ao mesmo tempo) e entre em nichos novos por meio de parceiros que já estão lá.
+
+### 5.26 — II.2: o bem comum e a crítica ao cristianismo "ocioso"
+- **Citações:** *"non il bene particulare, ma il bene comune è quello che fa grandi le città"* — "não o bem particular, mas o bem comum é o que faz grandes as cidades". *"Questo modo di vivere, adunque, pare che abbi renduto il mondo debole, e datolo in preda agli uomini scelerati"* — "este modo de viver parece ter tornado o mundo fraco e entregue aos celerados". *"hanno interpretato la nostra religione secondo l'ozio, e non secondo la virtù"*.
+- **Estudiosos:** Isaiah Berlin (en., "The Originality of Machiavelli", 1972) parte daqui para dizer que Maquiavel opôs duas morais incompatíveis, a cristã e a cívica pagã. [Interpretação de Berlin]
+- **Aplicação [Interpretação]:** equipe e sócios crescem quando o ganho é comum (participação, metas coletivas). E bondade passiva diante de quem age mal entrega o mercado aos piores.
+
+### 5.27 — II.10: dinheiro não é o nervo da guerra
+- **Citação:** *"non l'oro, come grida la comune opinione, essere il nervo della guerra, ma i buoni soldati: perché l'oro non è sufficiente a trovare i buoni soldati, ma i buoni soldati sono bene sufficienti a trovare l'oro"*.
+- **Comparação:** Périès: *"l'argent n'est pas le nerf de la guerre"*; Thomson: *"sinews of war"*. Fiéis.
+- **Aplicação [Interpretação]:** capital não compra competência; equipe competente gera capital. Antes de buscar investimento, forme o time.
+
+### 5.28 — II.13: fraude mais que força (frase polêmica)
+- **Citação:** *"Né credo si truovi mai che la forza sola basti, ma si troverrà bene che la fraude sola basterà"* — "Nem creio que se encontre jamais que a força sozinha baste, mas se encontrará bem que a fraude sozinha bastará". E: a fraude *"è meno vituperabile quanto è più coperta"* ("é menos vituperável quanto mais encoberta").
+- **Comparação de traduções:** Périès (fr.): *"la seule fraude a cent fois réussi"* — **acrescenta "cem vezes"**, que não está no original. Thomson (en.) segue o sentido geral, com *"by fraud, and not by force"* no trecho de Xenofonte.
+- **Exemplos:** Filipe da Macedônia, Agátocles, Ciro segundo Xenofonte, Gian Galeazzo Visconti contra o tio Bernabò (1385); e Roma, que fez dos latinos "aliados" e depois súditos.
+- **Aplicação [Interpretação]:** quem começa pequeno vence por engenho (posicionamento, timing, surpresa, alianças), não por força bruta de verba. **Limite:** "fraude" aqui, para o agente, é estratégia e astúcia competitiva; enganar cliente é crime (Código de Defesa do Consumidor) e destrói o ativo principal de uma agência, a reputação.
+
+### 5.29 — II.19: crescer sem ordem é ruína
+- **Citação:** *"lo accrescere la città sua di abitatori, farsi compagni e non sudditi, mandare colonie a guardare i paesi acquistati, fare capitale delle prede, domare il nimico con le scorrerie e con le giornate e non con le ossidioni, tenere ricco il publico, povero il privato, mantenere con sommo studio gli esercizi militari, fusse la vera via a fare grande una republica"* — a "receita romana" completa de crescimento em uma frase.
+- **Também:** Veneza e Florença ficaram "muito mais fracas" quando conquistaram a Lombardia e a Toscana do que quando se contentavam com o mar e "seis milhas de fronteira".
+- **Aplicação [Interpretação]:** crescimento saudável: mais gente boa, parceiros em vez de subordinados, base local em cada mercado novo, caixa da empresa antes do luxo, treino constante.
+
+### 5.30 — II.24: fortalezas fazem mais mal que bem
+- **Citação:** *"tale fortezza, per tenere in freno i suoi cittadini, non può essere più inutile... perché la ti fa più pronto e men rispettivo a oppressargli"* — "tal fortaleza, para frear os cidadãos, não pode ser mais inútil, porque te faz mais pronto e menos cuidadoso em oprimi-los". Paralelo: *Príncipe* XX ("a melhor fortaleza é não ser odiado pelo povo").
+- **Aplicação [Interpretação]:** multas de rescisão absurdas, fidelidade forçada e cláusulas de prisão dão falsa segurança e deixam você relaxado na entrega. O que segura cliente é resultado.
+
+### 5.31 — II.27: basta vencer
+- **Citação:** *"gli uomini fanno questo errore, che non sanno porre termini alle speranze loro; ed in su quelle fondandosi, sanza misurarsi altrimenti, rovinano"* — "os homens cometem este erro: não sabem pôr limite às suas esperanças e, apoiando-se nelas sem se medir, arruínam-se".
+- **Aplicação [Interpretação]:** feche negócios quando ganhou o essencial. Ganância na renegociação perde o cliente.
+
+### 5.32 — II.29: secundar a fortuna e não se abandonar
+- **Citação:** *"gli uomini possono secondare la fortuna e non opporsegli; possono tessere gli orditi suoi, e non rompergli. Debbono, bene, non si abbandonare mai; perché, non sappiendo il fine suo... hanno sempre a sperare"* — "os homens podem secundar a fortuna e não se opor a ela; podem tecer os fios dela e não rompê-los. Devem, porém, nunca se abandonar, porque, não conhecendo o fim dela, sempre têm que esperar".
+- **Contraste:** no *Príncipe* XXV a fortuna é "árbitra de metade das nossas ações" e deve ser contida com diques. Aqui ele enfatiza a submissão. [Interpretação: os dois textos são tons diferentes do mesmo pensamento]
+- **Aplicação [Interpretação]:** em fase ruim do mercado, ajuste-se à maré, mas nunca desista: o ciclo vira.
+
+### 5.33 — III.1: voltar aos princípios
+- **Argumento:** todo corpo misto (seita, república, reino) se corrompe; para durar precisa ser "levado de volta ao seu princípio", que tem alguma bondade. A volta vem por acidente externo ou por prudência interna (instituições como tribunos e censores, ou homens de virtù exemplar). Entre uma "execução" exemplar e outra não deveriam passar mais de dez anos.
+- **Citações:** *"tutti e' principii delle sètte, e delle republiche e de' regni, conviene che abbiano in sé qualche bontà, mediante la quale ripiglino la prima riputazione ed il primo augumento loro"* (no Wikisource: *"ripiglio"*, provável erro de transcrição). *"dall'una all'altra di simili esecuzioni non vorrebbe passare, il più, dieci anni: perché, passato questo tempo, gli uomini cominciano a variare con i costumi e trapassare le leggi"*. Florença (Medici, 1434–1494): era preciso *"ripigliare ogni cinque anni lo stato"*, isto é, "pôr de novo o terror e o medo" do início.
+- **Exemplo religioso:** São Francisco e São Domingos salvaram a Igreja levando-a de volta à pobreza e ao exemplo de Cristo.
+- **Estudiosos:** Mansfield (en.) vê aqui a ideia de "renovação" como refundação contínua; Pocock (en., *The Machiavellian Moment*, 1975) liga o tema à luta da república contra o tempo e a corrupção; Sasso e Inglese (it.) discutem a origem médica e aristotélica da noção de "corpi misti". [Interpretações]
+- **Aplicação [Interpretação]:** revisão periódica (anual, no máximo a cada poucos anos): voltar à proposta original, aos padrões do começo, a regras aplicadas com exemplo visível. A agência que só cresce sem renovar vira burocracia.
+
+### 5.34 — III.3: matar os filhos de Bruto
+- **Citação:** *"Piero Soderini, il quale si credeva superare con la pazienza e bontà sua quello appetito che era ne' figliuoli di Bruto, di ritornare sotto un altro governo e se ne ingannò"* — "Piero Soderini, que acreditava superar com paciência e bondade o apetito dos filhos de Bruto de voltar a outro governo, e enganou-se". Por não saber imitar Bruto, *"perdé, insieme con la patria sua, lo stato e la riputazione"*.
+- **Fato:** Maquiavel foi o principal colaborador de Soderini (gonfaloneiro 1502–1512); a crítica é a um amigo e chefe.
+- **Aplicação [Interpretação]:** numa mudança, os que perderam poder não serão conquistados por bondade. Afaste-os da posição de sabotar.
+
+### 5.35 — III.6: das conspirações
+- **Citações:** *"si vede per quelle molti più principi avere perduta la vita e lo stato, che per guerra aperta"*. *"Di questi animi fatti così, se ne truova, credo, assai che lo vorrebbono fare, perché nel volere non è pena né pericolo alcuno; ma pochi che lo facciano"*.
+- **Argumento:** conspirações são contra a pátria ou contra o príncipe; perigosas em três tempos: na preparação (denúncia, imprudência, conjectura), na execução (mudança de plano, falta de ânimo, erro) e depois (sobrevivem vingadores). A causa principal: ser **odiado pelo universal**. O príncipe que descobre uma conspiração deve, se ela é grande, fingir e esperar a hora certa.
+- **Exemplos:** dezenas, de Nero (conspiração de Pisão) aos Pazzi (1478) e a Pandolfo Petrucci em Siena. Maquiavel conhecia o tema por dentro: foi preso e torturado em 1513 por suspeita de participar da conspiração Boscoli-Capponi.
+- **Aplicação [Interpretação]:** sócio que articula saída levando equipe e clientes: a maioria vaza antes. Como dono: o antídoto é não ser odiado (salário em dia, justiça, respeito) e ter informação.
+
+### 5.36 — III.9: variar com os tempos
+- **Citações:** *"la cagione della trista e della buona fortuna degli uomini è riscontrare il modo del procedere suo con i tempi"*. *"E che noi non ci possiamo mutare, ne sono cagioni due cose: l'una, che noi non ci possiamo opporre a quello a che c'inclina la natura; l'altra, che, avendo uno con uno modo di procedere prosperato assai, non è possibile persuadergli che possa fare bene a procedere altrimenti"*. *"E se Fabio fusse stato re di Roma, poteva facilmente perdere quella guerra"*.
+- **Leitura:** é a versão republicana de *Príncipe* XXV: um indivíduo não muda de natureza, mas uma república, com cidadãos de temperamentos diversos, troca de líder conforme o tempo (Fábio para resistir, Cipião para vencer).
+- **Aplicação [Interpretação]:** reveja o método que te fez crescer quando o mercado muda. Tenha na sociedade ou na gerência pessoas de temperamentos opostos e passe a frente a quem serve ao momento.
+
+### 5.37 — III.21: amor ou temor
+- **Citação:** *"gli uomini sono spinti da due cose principali; o dallo amore, o dal timore: talché, così gli comanda chi si fa amare, come lui che si fa temere; anzi, il più delle volte è più seguito e più ubbidito chi si fa temere che chi si fa amare"*.
+- **Leitura:** paralelo de *Príncipe* XVII, com uma diferença: aqui ele mostra que os dois caminhos chegam ao mesmo resultado se houver virtù grande, e que cada um tem um defeito a vigiar (desprezo, no amado; ódio, no temido).
+- **Aplicação [Interpretação]:** escolha o estilo de liderança que é seu, mas vigie o excesso: o chefe "amigo" vira desrespeitado; o exigente vira odiado.
+
+### 5.38 — III.31: o mesmo ânimo em qualquer fortuna
+- **Citação:** *"Nec mihi dictatura animos fecit, nec exilium ademit"* (Camilo, em Lívio: "nem a ditadura me deu ânimo, nem o exílio o tirou"). E: *"il fondamento di tutti gli stati è la buona milizia"*.
+- **Exemplo contrário:** Veneza, insolente na prosperidade e servil depois da derrota de Vailate (Agnadello, 1509).
+- **Aplicação [Interpretação]:** o mesmo comportamento com equipe e clientes no mês recorde e no mês ruim. A base disso é estrutura própria (equipe treinada, caixa), não humor.
+
+### 5.39 — III.41: a pátria se defende com glória ou ignomínia (frase polêmica)
+- **Citação:** *"dove si dilibera al tutto della salute della patria, non vi debbe cadere alcuna considerazione né di giusto né d'ingiusto, né di piatoso né di crudele, né di laudabile né d'ignominioso; anzi, posposto ogni altro rispetto, seguire al tutto quel partito che le salvi la vita e mantenghile la libertà"* — "onde se delibera inteiramente da salvação da pátria, não deve caber consideração alguma de justo ou injusto, de piedoso ou cruel, de louvável ou ignominioso; ao contrário, posto de lado qualquer outro respeito, deve-se seguir inteiramente o partido que lhe salve a vida e mantenha a liberdade".
+- **Comparação de traduções (conferidas):** Thomson: *"when the entire safety of our country is at stake, no consideration of what is just or unjust, merciful or cruel, praiseworthy or shameful, must intervene"* — fiel. Périès: *"le salut de l'État"* — troca "pátria" por "Estado", o que aproxima o texto da "razão de Estado" (termo que Maquiavel não usa).
+- **Contexto:** a frase vem do conselho de Lêntulo de aceitar a humilhação das Forcas Caudinas para salvar o exército. O exemplo é de **aceitar a vergonha**, não de cometer crimes.
+- **Estudiosos:** Friedrich Meinecke (de., *Die Idee der Staatsräson*, 1924) faz de Maquiavel o pai da "razão de Estado"; Viroli (it./en.) insiste que o critério é a **liberdade da pátria**, não o poder do governante; Herfried Münkler (de., *Machiavelli*, 1982) liga o tema à crise de Florença. [Interpretações]
+- **Aplicação [Interpretação]:** para salvar a empresa, engula o orgulho (fechar unidade, aceitar acordo ruim, pedir desculpas públicas). **Limite:** não se aplica a fraudar, sonegar ou enganar: isso destrói a própria "liberdade" que a regra quer salvar (licença, reputação, patrimônio pessoal).
+
+### 5.40 — III.42: promessas forçadas
+- **Citações:** *"non è vergognoso non osservare quelle promesse che ti sono state fatte promettere per forza"*. E: *"non si osservano ancora tutte le altre promesse, quando e' mancano le cagioni che le feciono promettere"* — "nem se observam as outras promessas quando faltam as causas que as fizeram prometer". Remete ao *"nostro trattato De Principe"* (Pr. XVIII).
+- **Aplicação [Interpretação]:** acordo assinado sob coação é anulável (Código Civil, arts. 151–155, coação); use o caminho legal. Mas, como agência, sua palavra é o produto: quebre promessa só quando a causa realmente desapareceu e com aviso e negociação.
+
+### 5.41 — III.43: o passado prevê o futuro
+- **Citação:** *"chi vuole vedere quello che ha a essere, consideri quello che è stato; perché tutte le cose del mondo, in ogni tempo, hanno il proprio riscontro con gli antichi tempi"* — "quem quer ver o que há de ser, considere o que foi; porque todas as coisas do mundo, em todo tempo, têm correspondência com os tempos antigos". Mesma ideia em I.39 e no Proêmio II.
+- **Aplicação [Interpretação]:** é o método do agente: para cada decisão, buscar o caso histórico parecido. No negócio: olhe o histórico do cliente (pagamentos, agências anteriores), do setor e do seu próprio caixa antes de prever.
 
