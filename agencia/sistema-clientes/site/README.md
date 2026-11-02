@@ -79,6 +79,21 @@ Use `npx wrangler@3 pages dev publico --kv CONTAS` com um `.dev.vars` (fora do G
 - **Ordem no montar:** `fotos.js` entra por último, porque encadeia o `__pos` dos outros scripts.
 - **Se o volume crescer muito:** passar para o R2 da Cloudflare.
 
+## Painel do administrador e animações (conta Lindson, 02/11/2026)
+- **Painel do administrador** (`/painel/admin`): é o mesmo sistema do modelo, preto e amarelo, com menu lateral. As telas ficam em `site/admin-sistema.js`:
+  - visão geral com as novidades dos clientes (pedidos e ajustes);
+  - missões do dia;
+  - clientes;
+  - minha rede social, vendas e CRMs, canais dark (apps de `dados/apps.json`);
+  - contas de acesso;
+  - antigos e repetidos.
+- **Animações** (`prototipo/movimento.js`, em todos os painéis, carregado por último):
+  - botões com elevação e onda no toque;
+  - cartões que sobem ao passar o mouse;
+  - telas que entram em cascata e cartões que aparecem ao rolar;
+  - números que contam e barras que enchem;
+  - nada disso para quem pede menos movimento no aparelho.
+
 ## Dados reais dos clientes
 - **Onde ficam:** no repositório privado, em `CentralLindsonALmeida/dados/<cliente>.json`, nunca aqui.
 - **Como entram no painel:** o `montar-<cliente>.py` lê esse arquivo (clone o privado em `/home/user/centrallindsonalmeida`, ao lado deste) e o `prototipo/real.js` troca as telas de exemplo pelos dados.

@@ -88,7 +88,7 @@ else:
     print('AVISO: sem', pj, '· o painel sai com tudo "a medir"')
     dados = {'nome': 'Vereador Leo Pinto', 'seg': 'Vereador de São João Batista/MA', 'plano': 'Comunicação do mandato', 'inicio': 'Outubro/2026', 'atualizado': '—'}
 extra = ('window.__DADOS=' + json.dumps(dados, ensure_ascii=False).replace('</', '<\\/') + ';\n' + open(os.path.join(SC, 'prototipo', 'real.js')).read()
-         + '\n' + open(os.path.join(SC, 'prototipo', 'kvdb.js')).read() + '\n' + open(os.path.join(D, 'gabinete.js')).read() + '\n' + open(os.path.join(SC, 'prototipo', 'fotos.js')).read() + '\n' + open(os.path.join(SC, 'prototipo', 'interacoes.js')).read())  # fotos.js por último: ele encadeia o __pos dos anteriores
+         + '\n' + open(os.path.join(SC, 'prototipo', 'kvdb.js')).read() + '\n' + open(os.path.join(D, 'gabinete.js')).read() + '\n' + open(os.path.join(SC, 'prototipo', 'fotos.js')).read() + '\n' + open(os.path.join(SC, 'prototipo', 'interacoes.js')).read() + '\n' + open(os.path.join(SC, 'prototipo', 'movimento.js')).read())  # fotos.js por último: ele encadeia o __pos dos anteriores
 s = s.replace('</script>', '</script>\n<script>\n' + extra + '\n</script>', 1)
 s = s.replace('<meta charset="utf-8">\n', '', 1)
 open(os.path.join(D, 'painel-leo.html'), 'w').write(s)

@@ -63,17 +63,47 @@ open(os.path.join(OUT, 'index.html'), 'w').write(doc(s))
 for cli, arq in [('jaci', os.path.join(SC, 'jaci-cunha', 'painel-jaci.html')), ('leo', os.path.join(SC, 'leo-pinto', 'painel-leo.html'))]:
     open(os.path.join(OUT, 'painel', cli + '.html'), 'w').write(doc(com_sair(open(arq).read())))
 
-# 3 · painel do administrador (Lindson): resumo com os números reais de cada cliente (dados do repositório privado)
+# 3 · painel do ADMINISTRADOR (Lindson): o mesmo sistema da Central (prototipo/painel.html), preto e amarelo, com menu lateral,
+#     e telas próprias (site/admin-sistema.js): visão geral com novidades, clientes, rede social, vendas e CRMs, canais, contas e antigos.
 import json
 DADOS = os.environ.get('CENTRAL_DADOS', os.path.join(D, '..', '..', '..', '..', 'centrallindsonalmeida', 'dados'))
 clientes = [json.load(open(os.path.join(DADOS, c + '.json'))) for c in ['jaci', 'leo'] if os.path.exists(os.path.join(DADOS, c + '.json'))]
 resumo = [{k: c.get(k) for k in ['cliente', 'nome', 'seg', 'atualizado', 'instagram']} for c in clientes]
 for r in resumo:
     if r.get('instagram'): r['instagram'] = {k: r['instagram'].get(k) for k in ['perfil', 'data', 'periodo', 'seguidores', 'visualizacoes', 'var_seguidores', 'var_visualizacoes']}
-a = open(os.path.join(D, 'admin.html')).read().replace('__CLIENTES__', json.dumps(resumo, ensure_ascii=False).replace('</', '<\\/'))
-apps = json.load(open(os.path.join(DADOS, 'apps.json'))) if os.path.exists(os.path.join(DADOS, 'apps.json')) else {'abas': [], 'repetidos': []}  # apps do Lindson (repositório privado)
-a = a.replace('__APPS__', json.dumps(apps, ensure_ascii=False).replace('</', '<\\/'))
-open(os.path.join(OUT, 'painel', 'admin.html'), 'w').write(a)
+apps = json.load(open(os.path.join(DADOS, 'apps.json'))) if os.path.exists(os.path.join(DADOS, 'apps.json')) else {'abas': [], 'repetidos': []}
+a = open(os.path.join(SC, 'prototipo', 'painel.html')).read()
+a = troca(a, '<title>Painel do Cliente</title>', '<title>Central · Administrador</title>')
+IC = {'inicio': '<rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/>',
+      'missoes': '<path d="m12 3 2.6 5.5 6 .8-4.4 4.1 1.1 6L12 16.6 6.7 19.4l1.1-6L3.4 9.3l6-.8z"/>',
+      'clientes': '<circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.8-3.6 3.4-5.5 6.5-5.5s5.7 1.9 6.5 5.5M16 4.5a3.5 3.5 0 0 1 0 7M18.5 14.8c1.7.8 2.8 2.5 3.2 5.2"/>',
+      'ir': '<path d="M7 17 17 7M9 7h8v8"/>', 'rede': '<rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5v.01"/>',
+      'vendas': '<path d="M3 4h18l-7 8v6l-4 2v-8z"/>', 'canais': '<rect x="2.5" y="5" width="19" height="14" rx="3"/><path d="m10 9 5 3-5 3z"/>',
+      'contas': '<rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/>', 'repetidos': '<path d="M4 7h16M7 7l1 13h8l1-13M10 7V4h4v3"/>', 'sair': '<path d="M15 4h4v16h-4M10 8l-4 4 4 4M6 12h10"/>'}
+lk = lambda h, ic, t, v=None, extra='': f'<a href="{h}"' + (f' data-v="{v}"' if v else '') + f'><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">{IC[ic]}</svg>{t}{extra}</a>'
+menu = ('<div class="grupo"><h4>Visão</h4>' + lk('#inicio', 'inicio', 'Visão geral', 'inicio', '<span class="n" id="n-novid"></span>') + lk('#missoes', 'missoes', 'Missões do dia', 'missoes', '<span class="n" id="n-miss"></span>') + '</div>'
+        '<div class="grupo"><h4>Clientes</h4>' + lk('#clientes', 'clientes', 'Todos os clientes', 'clientes') + ''.join(lk('/painel/' + c['cliente'], 'ir', c['nome']) for c in clientes) + '</div>'
+        '<div class="grupo"><h4>Minha agência</h4>' + lk('#rede', 'rede', 'Minha rede social', 'rede') + lk('#vendas', 'vendas', 'Vendas e CRMs', 'vendas') + lk('#canais', 'canais', 'Canais dark', 'canais') + '</div>'
+        '<div class="grupo"><h4>Sistema</h4>' + lk('#contas', 'contas', 'Contas de acesso', 'contas') + lk('#repetidos', 'repetidos', 'Antigos e repetidos', 'repetidos') + lk('/sair', 'sair', 'Sair') + '</div>'
+        '<span id="n-aprov" hidden></span></nav>')
+a = re.sub(r'<div class="seletor">.*?</nav>', lambda m: menu, a, count=1, flags=re.S)
+a = troca(a, "let cli='apple';", "let cli='admin';")
+a = troca(a, "try{cli=localStorage.getItem('painel-cliente')||'apple'}catch(e){}", '')
+a = troca(a, "$('#cliente').onchange=e=>{cli=e.target.value;try{localStorage.setItem('painel-cliente',cli)}catch(_){}render()};", '')
+a = troca(a, ";$('#cliente').value=cli;", ';')
+a = troca(a, "const BASE={", "const BASE={admin:{nome:'Lindson',seg:'Administrador da Central',plano:'',inicio:'',kpis:[],canais:[],metas:[]},")
+a = troca(a, "const FRASES={", "const FRASES={admin:['Cliente bem atendido renova e indica. Responda os pedidos de hoje.','Constância vence talento: grave um roteiro do Teste 01 hoje.','Prova vende: transforme uma entrega de cliente em post.','Quem mede, melhora. Atualize os números dos clientes esta semana.'],")
+a = troca(a, "const MISSOES={", "const MISSOES={admin:[['Responder os pedidos e ajustes dos clientes',30],['Gravar 1 roteiro do Teste 01 de Reels',25],['Postar no seu Instagram',20],['Mandar 10 mensagens da lista de leads',25],['Atualizar os números de um cliente',15]],")
+a = troca(a, '<span class="exemplo">Dados de exemplo</span>', '<span class="exemplo">Administrador</span>')
+a = troca(a, '<div class="avatar" title="Lindson Almeida (admin)">LA</div>', '<a class="avatar" href="/sair" title="Sair" style="text-decoration:none">LA</a>')
+a = troca(a, "main.innerHTML=V[view](d)+promo();", "main.innerHTML=V[view](d);")
+a = troca(a, "const V={", "const V=window.__V={"); a = troca(a, "const T={", "const T=window.__T={")
+a = troca(a, "function toast(t){", "window.__toast=t=>toast(t);function toast(t){")
+a = troca(a, "const f=$('#novo-ped');", "if(window.__pos)window.__pos(view);const f=$('#novo-ped');")
+a = troca(a, "addEventListener('hashchange',render);render();", "window.__render=render;window.__h={BASE,APROV,PEDIDOS,bomDia,chip,cli:()=>cli};addEventListener('hashchange',render);setTimeout(render,0);")
+extra = ('window.__CLIENTES=' + json.dumps(resumo, ensure_ascii=False) + ';\nwindow.__APPS=' + json.dumps(apps, ensure_ascii=False) + ';\n').replace('</', '<\\/') + open(os.path.join(D, 'admin-sistema.js')).read() + '\n' + open(os.path.join(SC, 'prototipo', 'movimento.js')).read()
+a = a.replace('</script>', '</script>\n<script>\n' + extra + '\n</script>', 1)
+open(os.path.join(OUT, 'painel', 'admin.html'), 'w').write(doc(a))
 shutil.copy(os.path.join(D, 'contas.html'), os.path.join(OUT, 'painel', 'contas.html'))
 open(os.path.join(OUT, '_headers'), 'w').write("/*\n  X-Frame-Options: DENY\n  Referrer-Policy: same-origin\n  X-Content-Type-Options: nosniff\n/painel/*\n  Cache-Control: private, no-store\n  X-Robots-Tag: noindex\n")
 open(os.path.join(OUT, 'robots.txt'), 'w').write("User-agent: *\nDisallow: /\n")
