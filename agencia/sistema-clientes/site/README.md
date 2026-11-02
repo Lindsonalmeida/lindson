@@ -102,6 +102,7 @@ Use `npx wrangler@3 pages dev publico --kv CONTAS` com um `.dev.vars` (fora do G
   - **Fábrica de Conteúdo:** usa a IA do claude.ai (`sample`) para gerar conteúdo; fora dele, precisa de uma chave de API de IA.
   - **Apps dos canais:** os vídeos são grandes e pedem o R2 da Cloudflare.
   - **SDR, Contratos e 3 Prioridades:** conta a confirmar.
+- **Apps dos canais: só link** na aba Canais dark (decisão do Lindson, 02/11). Abrem com a conta Pedro, ou se o Pedro compartilhar os apps com a conta Lindson.
 - **Atenção:** a tarefa agendada da lista diária de leads gravava no banco do app do claude.ai. Se for religada, precisa gravar em `/api/db` (coleção `data/users/lindson/prospec/dias`).
 
 ## Dados reais dos clientes
