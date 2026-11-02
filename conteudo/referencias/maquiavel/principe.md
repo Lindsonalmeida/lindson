@@ -1,6 +1,6 @@
 # O Príncipe (*De principatibus* / *Il Principe*) — base de conhecimento para o agente "Nicolau Maquiavel"
 
-**Situação:** parcial — seções 1, 2 e 3 completas (Ded.–XI conta Zuleide, XII–XXVI conta Pedro, seção 3 conta Zuleide, 02/11/2026). Faltam as seções 4 a 7.
+**Situação:** parcial — seções 1 a 4 completas (Ded.–XI conta Zuleide, XII–XXVI conta Pedro, seções 3 e 4 conta Zuleide, 02/11/2026). Faltam as seções 5 a 7.
 
 > **Para que serve este arquivo:** é a base do agente "Maquiavel conselheiro de negócios" sobre *O Príncipe*. Tudo o que está marcado como **texto** vem do original italiano; **fato documentado** é história com fonte; **[Interpretação]** é leitura de estudioso (com o nome) ou nossa; **[Tradição]** é história sem prova. O agente nunca deve pôr interpretação na boca de Maquiavel.
 >
@@ -699,4 +699,145 @@ Conferido nas duas versões em 02/11/2026. É importante porque **as traduções
 | **Príncipe novo** | VI–IX, XIX, XXIV | o personagem central: sem legitimidade herdada, precisa de *virtù*, armas próprias e povo. |
 | ***Ordini e modi*** | VI, XXVI | instituições e procedimentos novos; inovar é o mais difícil e o que dá mais honra. |
 | **Natureza humana** | XVII, XVIII, XXIII | os homens são *"ingrati, volubili, simulatori e dissimulatori, fuggitori de' pericoli, cupidi del guadagno"* — premissa de prudência, não descrição de cada pessoa. |
+
+
+---
+
+## 4. Debates de interpretação (em vários idiomas)
+
+> **Como ler:** cada leitura vem com **quem disse, em que língua, em que obra e ano**. Todas são **[Interpretação]** — nenhuma é "o que Maquiavel pensava". Citações de estudiosos foram tiradas da literatura conhecida; quando não conferimos o original palavra por palavra, está escrito. O arquivo `recepcao-e-estudiosos.md` trata a recepção geral; aqui só o que toca o *Príncipe*.
+
+### 4.0 O problema em uma linha
+
+O mesmo autor escreveu um manual para **um príncipe novo** (*Príncipe*) e uma defesa da **república livre** (*Discursos*), e no *Príncipe* elogia César Bórgia, recomenda a fraude e a crueldade "bem usada" — mas também diz que crime não é *virtù* (VIII), que o fim do povo é "mais honesto" (IX) e termina com um apelo patriótico (XXVI). **Cada escola resolve essa tensão de um jeito.**
+
+### 4.1 Leitura "satírica" ou "oblíqua": o livro ensina os povos, não os príncipes
+
+| Quem | Língua / obra / ano | O que diz |
+|---|---|---|
+| **Alberico Gentili** | latim, *De legationibus* III.9, **1585** | Primeiro a dizer que Maquiavel, "louvador da democracia", fingiu instruir o príncipe para **revelar ao povo** as artes da tirania. (**não conferido no original latino**) |
+| **Baruch Spinoza** | latim, *Tractatus politicus* V.7, **1677** | Chama-o *"acutissimus Machiavellus"* e supõe que talvez quisesse mostrar **quanto o povo deve evitar entregar sua salvação a um só homem** (paráfrase; original latino **não conferido palavra por palavra**). |
+| **Jean-Jacques Rousseau** | francês, *Du contrat social* III.6, **1762** | *"En feignant de donner des leçons aux rois, il en a donné de grandes aux peuples. Le Prince de Machiavel est le livre des républicains."* — "Fingindo dar lições aos reis, deu grandes lições aos povos. *O Príncipe* de Maquiavel é o livro dos republicanos." (Na nota acrescenta que a corte de Roma proibiu o livro porque é ela que ele pinta melhor — a Wikipédia italiana cita essa nota.) Forma do original **citada de memória, conferir**. |
+| **Denis Diderot** | francês, *Encyclopédie*, verbete "Machiavélisme", **1765** | O *Príncipe* seria uma sátira. (**não conferido**) |
+| **Vittorio Alfieri** | italiano, *Del principe e delle lettere*, **1786** | Maquiavel, "divino", ensinou a tirania para torná-la odiosa; leitura libertária. |
+| **Ugo Foscolo** | italiano, *Dei Sepolcri*, **1807**, vv. 155–158 | *"quel grande, che temprando lo scettro a' regnatori, gli allôr ne sfronda, ed alle genti svela di che lagrime grondi e di che sangue"* — "aquele grande que, temperando o cetro dos reis, lhes arranca os louros e revela aos povos de quantas lágrimas e de quanto sangue ele goteja". (Citado pela Wikipédia italiana; ver também 4.4.) |
+| **Garrett Mattingly** | inglês, "Machiavelli's *Prince*: Political Science or Political Satire?", *The American Scholar*, **1958** | O livro é **sátira**: um republicano convicto não poderia elogiar a sério Bórgia, um fracassado; o tom é irônico. |
+| **Mary G. Dietz** | inglês, "Trapping the Prince", *American Political Science Review*, **1986** | Maquiavel deu **maus conselhos de propósito** (armar o povo, morar na cidade, agir com ímpeto) para levar os Medici à ruína e restaurar a república. |
+| **Erica Benner** | inglês, *Machiavelli's Prince: A New Reading*, **2013** | Leitura **irônica e ética**: o livro mostra, por exemplos que fracassam, que a justiça e a palavra dada são, no fim, mais seguras. |
+
+- **Contra (resumo):** a carta a Vettori mostra que Maquiavel queria **emprego** com os Medici e levava o livro a sério; não há sinal de ironia nas cartas (Chabod, Skinner, Viroli). Para o agente: a leitura satírica é **minoritária** entre especialistas de hoje, mas mostra algo verdadeiro — o livro **também serve para se defender** de quem usa essas técnicas.
+
+### 4.2 "Mestre do mal" e manual de tirania
+
+| Quem | Língua / obra / ano | O que diz |
+|---|---|---|
+| **Reginald Pole** | latim, *Apologia ad Carolum Quintum*, c. **1539** | Livro escrito pelo inimigo do gênero humano; inspirador de Thomas Cromwell (paráfrase; **não conferido**). |
+| **Innocent Gentillet** | francês, *Discours… contre Nicolas Machiavel Florentin* ("Anti-Machiavel"), **1576** | Refutação ponto a ponto; liga Maquiavel aos conselheiros italianos de Catarina de' Medici e a São Bartolomeu. |
+| **Pedro de Ribadeneyra** | espanhol, *Tratado de la religión y virtudes que debe tener el príncipe cristiano*, **1595** | Contra a "razão de Estado" de Maquiavel; propõe uma "razão de Estado cristã". |
+| **Frederico II da Prússia** | francês, *Anti-Machiavel*, **1740** | Refutação capítulo por capítulo (editada por Voltaire). |
+| **Leo Strauss** | inglês, *Thoughts on Machiavelli*, **1958** | *"We shall not shock anyone, we shall merely expose ourselves to good-natured or at any rate harmless ridicule, if we profess ourselves inclined to the old-fashioned and simple opinion according to which Machiavelli was a teacher of evil."* — "Não chocaremos ninguém (…) se nos declararmos inclinados à opinião antiquada e simples segundo a qual Maquiavel foi um **mestre do mal**." (A Wikipédia italiana traz a frase em italiano; texto inglês citado de memória, **conferir**.) Para Strauss, Maquiavel é o **fundador da modernidade** que rebaixou o objetivo da política (da virtude ao poder e à segurança) e escreveu com arte esotérica: os "silêncios" e números do livro (26 capítulos etc.) teriam sentido. |
+| **Harvey C. Mansfield** | inglês, *Taming the Prince* (**1989**), *Machiavelli's Virtue* (**1996**), tradução de **1985** | Discípulo de Strauss. Maquiavel inventa uma *virtù* nova, separada do bem; das suas "ordens e modos novos" nasce o **poder executivo** moderno. A palavra-chave é *"verità effettuale"*. |
+
+- **Leitura "manual de tirania" no século XX (fato documentado):** o *Príncipe* foi lido por Mussolini ("Preludio al Machiavelli", 1924) como justificativa da força; essa apropriação é um dos motivos da reação republicana do pós-guerra.
+
+### 4.3 Leitura republicana
+
+| Quem | Língua / obra / ano | O que diz |
+|---|---|---|
+| **Antonio Gramsci** | italiano, *Quaderni del carcere*, "Note sul Machiavelli" (**1929–1935**) | O *Príncipe* é um **"manifesto político"** em forma de "mito": o príncipe de hoje não é uma pessoa, é um **organismo coletivo, o partito político** ("il moderno Principe"). Maquiavel escreve **para quem não sabe** (o povo), para educá-lo politicamente. (Formas citadas de memória; **conferir nos *Quaderni***.) |
+| **Hans Baron** | alemão/inglês, *The Crisis of the Early Italian Renaissance* (**1955**) e artigo de **1961** | Maquiavel é herdeiro do "humanismo cívico" florentino; o *Príncipe* é um desvio de circunstância. |
+| **J. G. A. Pocock** | inglês, *The Machiavellian Moment*, **1975** | Maquiavel recoloca o problema republicano de como uma república "virtuosa" dura no tempo; *virtù* × *fortuna* × corrupção. O *Príncipe* trata o caso-limite do **inovador**. |
+| **Quentin Skinner** | inglês, *The Foundations of Modern Political Thought* (**1978**), *Machiavelli* (**1981**) | Leitura **contextual**: o *Príncipe* é um "espelho de príncipes" humanista que **subverte o gênero** — mantém os objetivos (honra, glória, manter o Estado), mas nega que as virtudes cristãs levem a eles. Os *Discursos* mostram a preferência pela liberdade republicana. |
+| **Maurizio Viroli** | italiano/inglês, *Machiavelli* (**1998**), *Il sorriso di Niccolò* (**1998**), *Redeeming The Prince* (**2014**) | O *Príncipe* deve ser lido **a partir do cap. XXVI**: é um livro sobre o **"redentor"** (*redentore*) que funda um Estado justo e livre; Maquiavel é republicano e patriota; "ama a pátria mais que a alma". |
+| **John P. McCormick** | inglês, *Machiavellian Democracy*, **2011** | Maquiavel é um democrata "plebeu": o povo deve ter instituições para controlar os grandes; o cap. IX do *Príncipe* já mostra isso. |
+
+### 4.4 Leitura patriótica (cap. XXVI)
+
+- **Texto:** XXVI pede à "ilustre Casa vostra" que tome a Itália e a liberte dos "bárbaros", com armas próprias, e fecha com Petrarca (*Italia mia*, *Canzoniere* 128): *"Virtù contro a furore / prenderà l'armi, e fia el combatter corto, / che l'antico valore / nelli italici cor non è ancor morto"* — "A *virtù* contra o furor / pegará em armas, e o combate será curto, / pois o antigo valor / nos corações italianos ainda não está morto".
+- **Quem leu assim:** **Fichte** (alemão, "Über Machiavell als Schriftsteller", **1807**) e **Hegel** (alemão, *Die Verfassung Deutschlands*, **1800–1802**, inédito em vida), que viram no apelo de Maquiavel um modelo para a unificação alemã contra Napoleão; os **italianos do Risorgimento**: Foscolo, **Francesco De Sanctis** (*Storia della letteratura italiana*, **1870**: Maquiavel como fundador da consciência moderna e laica), **Pasquale Villari** (*Niccolò Machiavelli e i suoi tempi*, **1877–1882**).
+- **Debate sobre o cap. XXVI (ver 1.3):** **Chabod** — o capítulo é parte orgânica e o clímax da obra; outros (Meinecke, e de modo diferente Baron) — acréscimo retórico posterior. **Viroli** — chave do livro inteiro. **Strauss** — retórica para seduzir os leitores patriotas. Consenso: escrito por Maquiavel na mesma época (1513–1515), com registro mais elevado que o resto do livro.
+
+### 4.5 "Autonomia da política" (Croce) e razão de Estado (Meinecke)
+
+| Quem | Língua / obra / ano | O que diz |
+|---|---|---|
+| **Benedetto Croce** | italiano, *Elementi di politica*, **1925** (e ensaio "Una questione che forse non si chiuderà mai", 1949) | Maquiavel descobriu **a necessidade e a autonomia da política**, que está "além, ou antes aquém, do bem e do mal moral" (forma citada de memória: *"la politica che è di là, o piuttosto di qua, dal bene e dal male morale"*; **conferir**). Maquiavel sentia **amargura** por isso, não alegria. Croce também previu que o "enigma Maquiavel" talvez nunca se fechasse. |
+| **Friedrich Meinecke** | alemão, *Die Idee der Staatsräson in der neueren Geschichte*, **1924** | Maquiavel é o **primeiro pensador da razão de Estado**: o Estado tem uma lógica própria de conservação que pode exigir violar a moral. Viu nele o choque trágico entre *Kratos* (poder) e *Ethos*. |
+| **Federico Chabod** | italiano, *Scritti su Machiavelli*, **1964** (ensaios de 1924–1953) | Concorda com a autonomia da política, mas insiste no **contexto**: o *Príncipe* nasce da crise dos Estados italianos depois de 1494 e da esperança concreta em Leão X; é obra de **um só fôlego** (1513). |
+
+### 4.6 Isaiah Berlin: duas morais incompatíveis
+
+- **Isaiah Berlin** (inglês, "The Originality of Machiavelli", **1972**, em *Against the Current*, 1979): Maquiavel **não separa política e moral**; ele **opõe duas morais**: a **cristã** (humildade, perdão, salvação da alma) e a **pagã/cívica** (glória, força, grandeza da cidade, como em Roma). Quem escolhe fundar e manter uma pátria precisa da segunda. A originalidade está em mostrar que **os valores últimos podem ser incompatíveis** — raiz do pluralismo de valores. Berlin também lista a variedade espantosa de interpretações (mais de vinte) que o livro já recebeu.
+- **Para o agente:** é a leitura mais útil para conselho: **toda decisão séria envolve escolher entre bens que não cabem juntos** (lealdade ao cliente antigo × sobrevivência da empresa, por exemplo).
+
+### 4.7 Gennaro Sasso, Claude Lefort e as leituras filosóficas
+
+| Quem | Língua / obra / ano | O que diz |
+|---|---|---|
+| **Gennaro Sasso** | italiano, *Niccolò Machiavelli. Storia del suo pensiero politico* (**1958**; 2 vols., **1980–1993**); *Machiavelli e gli antichi* (1987–1997) | Leitura rigorosa e cronológica; destaca o **pessimismo antropológico**, a tensão insolúvel entre *virtù* (que pede adaptação) e a natureza humana (que não muda), e a continuidade entre *Príncipe* e *Discursos*. |
+| **Maurice Merleau-Ponty** | francês, "Note sur Machiavel", **1949** (em *Signes*, 1960) | Maquiavel não é cínico: descreve a política como **relação entre pessoas mediada pela aparência**; o poder é sempre "visto" pelos outros (cf. XVIII, "ognuno vede quello che tu pari"). |
+| **Claude Lefort** | francês, *Le travail de l'œuvre Machiavel*, **1972** | Leitura do **conflito**: a sociedade é dividida pelos dois "humores" (IX); o **desejo do povo de não ser oprimido** é um desejo de liberdade sem objeto, base de toda ordem legítima. O príncipe só se mantém apoiado nesse desejo. Influenciou muito os estudiosos brasileiros. |
+| **Louis Althusser** | francês, *Machiavel et nous* (escrito **1972–1986**, publicado **1994**) | O *Príncipe* é um **manifesto** que pede um "príncipe novo num principado novo", saído do nada, sem lugar predeterminado: teoria da **conjuntura** e do começo absoluto. |
+| **Raymond Aron** | francês, *Machiavel et les tyrannies modernes* (textos de 1938–1940, publicado **1993**) | Usa Maquiavel para pensar os totalitarismos; separa o Maquiavel analista do "maquiavelismo" dos tiranos. |
+| **Thierry Ménissier** | francês, *Machiavel, la politique et l'histoire*, **2001** | Maquiavel como pensador da ação histórica e do tempo político. (**não conferido em detalhe**) |
+| **Jean-Louis Fournel e Jean-Claude Zancarini** | francês, tradução *De principatibus / Le Prince*, PUF, **2000**; *La politique de l'expérience* (2002) | Tradução que preserva o vocabulário florentino; leem o livro como fruto das **"guerras da Itália"** e da experiência de chancelaria. (**não conferido em detalhe**) |
+| **Patrick Boucheron** | francês, *Un été avec Machiavel*, **2017** | Divulgação para o grande público (rádio France Inter). |
+
+### 4.8 Leitores em alemão
+
+| Quem | Obra / ano | O que diz |
+|---|---|---|
+| **Fichte** | "Über Machiavell als Schriftsteller", **1807** | Defesa de Maquiavel como pensador do Estado forte e da nação. |
+| **Hegel** | *Die Verfassung Deutschlands*, **1800–1802** | O *Príncipe* deve ser lido como resposta a uma Itália despedaçada: "medidas violentas" para uma situação extrema (paráfrase; **não conferido**). |
+| **Jacob Burckhardt** (suíço) | *Die Kultur der Renaissance in Italien*, **1860** | O Estado renascentista como "obra de arte" (*Staat als Kunstwerk*); Maquiavel como analista frio dessa política. |
+| **Friedrich Meinecke** | *Die Idee der Staatsräson*, **1924**; introdução a *Der Fürst*, **1923** | Razão de Estado; hipótese de camadas de redação. |
+| **Max Weber** | *Politik als Beruf*, **1919** | Cita Maquiavel sobre o dilema entre salvar a alma e salvar a cidade (a passagem vem da *História de Florença* III.7, não do *Príncipe*); ética da responsabilidade × ética da convicção. (**não conferido palavra por palavra**) |
+| **Herfried Münkler** | *Machiavelli. Die Begründung des politischen Denkens der Neuzeit aus der Krise der Republik Florenz*, **1982** | Maquiavel funda o pensamento político moderno a partir da crise de Florença; leitura histórico-política. |
+| **Wolfgang Kersting** | *Niccolò Machiavelli*, **1988** | Introdução filosófica; destaca o realismo antropológico e a técnica de poder. (**não conferido em detalhe**) |
+
+### 4.9 Leitores em espanhol
+
+| Quem | Obra / ano | O que diz |
+|---|---|---|
+| **Pedro de Ribadeneyra** | *Tratado del príncipe cristiano*, **1595** | Antimaquiavelismo católico. |
+| **Diego de Saavedra Fajardo** | *Idea de un príncipe político-cristiano representada en cien empresas*, **1640** | Combate Maquiavel, mas absorve muito do seu realismo (prudência, dissimulação moderada). |
+| **Baltasar Gracián** | *El político* (1640), *Oráculo manual y arte de prudencia* (**1647**) | Não cita Maquiavel como modelo, mas a arte da prudência e da dissimulação é aparentada; [Interpretação] corrente de vários estudiosos. |
+| **José Antonio Maravall** | "Maquiavelo y maquiavelismo en España", **1969** (em *Estudios de historia del pensamiento español*) | Mostra como o pensamento espanhol do Século de Ouro recebeu Maquiavel sob a capa do antimaquiavelismo. (**não conferido em detalhe**) |
+| **Helena Puigdomènech** | *Maquiavelo en España: presencia de sus obras en los siglos XVI y XVII*, **1988**; tradutora de *El Príncipe* (Tecnos/Cátedra) | Estudo das traduções e da censura na Espanha. (**não conferido em detalhe**) |
+| **Miguel Ángel Granada** | tradução e estudo de *El Príncipe* (Alianza) | Edição comentada de referência em espanhol. (**não conferido em detalhe**) |
+
+### 4.10 Leitores em português (Brasil e Portugal)
+
+| Quem | Obra / ano | O que diz |
+|---|---|---|
+| **Lauro Escorel** | *Introdução ao pensamento político de Maquiavel*, **1958** | Pioneiro brasileiro; Maquiavel como fundador da ciência política e patriota. (**ano a conferir**) |
+| **Maria Tereza Sadek** | "Nicolau Maquiavel: o cidadão sem fortuna, o intelectual de *virtù*", em F. Weffort (org.), *Os clássicos da política*, vol. 1, **1989** | Texto didático mais lido nas faculdades brasileiras: Maquiavel como fundador do pensamento político moderno, centrado em *virtù*, *fortuna* e conflito. |
+| **Newton Bignotto** | *Maquiavel republicano*, **1991**; *Maquiavel*, Zahar, **2003** | Lê Maquiavel como **republicano**; o *Príncipe* trata da fundação e da crise, os *Discursos* da liberdade; influência de Lefort. |
+| **Sérgio Cardoso** | ensaios sobre o "desejo do povo" e a liberdade (USP, anos 1990–2010) | Na linha de Lefort: a liberdade nasce do desejo popular de não ser dominado. (**títulos não conferidos**) |
+| **José Luiz Ames** | *Maquiavel: a lógica da ação política*, **2002** | A ação política como resposta à "qualidade dos tempos". (**não conferido em detalhe**) |
+| **Helton Adverse** | *Maquiavel: política e retórica*, **2009** | A retórica e a aparência como parte da política (cf. XVIII). (**não conferido em detalhe**) |
+| **Tradutores brasileiros** | Lívio Xavier (1933); Antonio D'Elia (Cultrix); Maria Júlia Goldwasser (Martins Fontes); **Maurício Santana Dias** (Penguin-Companhia, **2010**, com ensaios) | Comparação de soluções para *virtù*, *stato*, *si guarda al fine*: **lacuna** (não tivemos acesso aos textos nesta rodada). |
+
+### 4.11 Outros leitores que o agente deve conhecer
+
+- **Francis Bacon** (inglês, *The Advancement of Learning*, II, **1605**): *"We are much beholden to Machiavel and others, that write what men do, and not what they ought to do."* — "Devemos muito a Maquiavel e a outros que escrevem o que os homens fazem e não o que deveriam fazer." (Citado de memória, forma corrente; **conferir**.) É a leitura "realista" em uma frase.
+- **Francesco Guicciardini** (italiano, *Considerazioni intorno ai Discorsi del Machiavelli*, c. 1530; *Ricordi*): amigo e crítico; acha Maquiavel **absoluto demais** nas regras ("tirar regras gerais" de exemplos), defende a *discrezione* caso a caso. Ver `contexto-e-personagens.md`.
+- **Felix Gilbert** (inglês/alemão, *Machiavelli and Guicciardini*, **1965**; "The Humanist Concept of the Prince and *The Prince* of Machiavelli", 1939): o livro no contexto dos tratados humanistas.
+- **Sebastian de Grazia** (inglês, *Machiavelli in Hell*, **1989**, Pulitzer): Maquiavel como pensador **religioso e moral** à sua maneira, com um "Deus" da pátria.
+- **Carlo Dionisotti** (italiano, *Machiavellerie*, **1980**): filologia e biografia; desmonta mitos.
+- **Ezio Raimondi** (italiano, *Politica e commedia*, 1972; "Il politico e il centauro"): o centauro do cap. XVIII como chave literária.
+- **Gabriele Pedullà** (italiano, *Machiavelli in tumulto*, **2011**; edição Donzelli **2013**): a teoria dos "tumultos" (conflitos) e a leitura de Maquiavel como pensador do conflito.
+
+### 4.12 Síntese para o agente (o que usar e como)
+
+| Leitura | Frase-resumo | Quando usar no conselho |
+|---|---|---|
+| Realista / autonomia da política (Croce, Meinecke, Bacon) | "a política tem regras próprias" | Para explicar **por que** a ação certa às vezes não é a "boazinha". |
+| Duas morais (Berlin) | "às vezes é preciso escolher entre dois bens" | Em dilemas reais: sócio, cliente antigo, demissão. |
+| Republicana / do povo (Gramsci, Skinner, Viroli, Lefort, Bignotto) | "a base segura é o povo; liberdade e conflito regulado" | Para lembrar que a força do negócio é **a base ampla** de clientes e a confiança pública. |
+| Satírica (Spinoza, Rousseau, Mattingly, Dietz, Benner) | "o livro também ensina a se defender" | Para **identificar** golpes, manipulação e "príncipes" predadores no mercado. |
+| Mestre do mal (Strauss, Mansfield) | "Maquiavel muda o objetivo da política" | Para avisar quando um conselho "eficaz" custa a alma do negócio (reputação, palavra). |
+| Patriótica (XXVI, Chabod, Viroli) | "tudo isso serve a uma causa maior" | Para dar **propósito**: crescer a agência para servir São Luís, a família, a equipe. |
+
+- **Posição honesta do agente:** "Os especialistas discordam; o texto diz X; a leitura Y é de tal autor". **Nunca** apresentar uma escola como a verdade.
 
