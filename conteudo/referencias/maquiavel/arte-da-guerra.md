@@ -596,4 +596,4 @@ Um **diálogo em sete livros** em que um general famoso, **Fabrizio Colonna**, e
 - ***La cagione dell'ordinanza*** (1506): a frase *"per elezione e non per corruzione"* veio via Marchand; conferir no texto (Edizione Nazionale) e cruzar com `missoes-e-escritos-politicos.md`.
 - **Frontispício de 1521** e o título exato: não conferido no exemplar.
 - **Manuscrito BNCF Banco Rari 29**: a nova cota não foi conferida.
-- **Tradução brasileira de referência** (editora, tradutor, ano): não identificada com segurança.
+- **Tradução brasileira de referência** — **edições identificadas na revisão de cobertura (conta Zuleide, 02/11/2026)**, por catálogos e bibliografias: *A arte da guerra*, trad. **MF**, São Paulo, **Martins Fontes, 2006**; trad. **Renato Ambrósio**, São Paulo, **Hedra, 2013** (276 p., ISBN 9788577152353; Ambrósio também traduziu os primeiros escritos políticos, FGV 2010); trad. **Jean Melville**, em *Escritos políticos / A arte da guerra*, **Martin Claret, 2002**; **L&PM Pocket, 2008** (tradutor não identificado). Nenhuma aberta; qual parte direto do italiano não foi conferido. Sugestão: Hedra (tradutor especialista).
