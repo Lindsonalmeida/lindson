@@ -1,5 +1,16 @@
 # Feed v13 · Apresentação do Vereador Leo Pinto (3 primeiras artes) · conta Lindson, 02/11/2026
 
+> ## ✅ PADRÃO APROVADO pelo Lindson (02/11/2026): "ficaram ótimos"
+> A **versão 3** (`gerar3.py`) é o padrão visual do Leo. Toda arte nova parte dela:
+> - **Fundo:** degradê azul profundo (royal #2350F5 → marinho #082063), luz diagonal suave e granulação fina (10%, overlay).
+> - **Camada local:** mapa oficial de São João Batista (`mapa-sjb.json`, IBGE via geodata-br) em azul claro translúcido, com eco em linha.
+> - **Foto:** retrato grande e de perto, recortado, rosto longe das bordas, sangrando na base, sombra suave.
+> - **Nome em blocos de cor:** LEO (caixa amarela, letra marinho) + PINTO (caixa branca, letra royal), Montserrat Black.
+> - **Rótulo** fino e espaçado (Montserrat 700, caixa alta, letter-spacing .38em); **etiquetas** chapadas (laranja com letra branca; branca com letra royal).
+> - **Frase de impacto** empilhada em Montserrat Black branca, palavra-chave com degradê amarelo→laranja; **Kaushan Script** amarela ou branca para o toque humano.
+> - **Logo oficial** pequena na base (com sombra). Sem raios, faixas, ícones, fumaça ou sol.
+> - Para posts soltos (não painel), use o mesmo kit numa arte de 1080×1350 e alterne foto × só logo e a composição entre posts.
+
 Três posts 1080×1350 que formam **uma imagem só** na grade do perfil @_leonardopinto.
 Identidade nova (02/11/2026): **só fontes (Anton, Kaushan Script, Montserrat), logo e cores**, sem raios, faixas, ícones, fumaça ou sol.
 
