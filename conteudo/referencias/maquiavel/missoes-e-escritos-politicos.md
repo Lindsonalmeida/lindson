@@ -84,7 +84,7 @@ Nenhum foi publicado em vida, exceto onde indicado. Datas segundo Martelli (1971
 | 1503 (data mais aceita; há quem proponha 1514–1517) | *Descrizione del modo tenuto dal duca Valentino nello ammazzare Vitellozzo Vitelli, Oliverotto da Fermo, il signor Pagolo e il duca di Gravina Orsini* | relato de Senigália (impresso em 1532 com *O Príncipe*) |
 | março de 1503 | *Parole da dirle sopra la provisione del danaio, facto un poco di proemio et di scusa* | discurso a favor de impostos para armas |
 | 1503 (entre junho e agosto; inacabado) | *Del modo di trattare i popoli della Valdichiana ribellati* | parecer sobre Arezzo rebelde |
-| c. 1500–1503 | *De natura Gallorum* (*Della natura de' Francesi*) | notas sobre o caráter dos franceses |
+| c. 1500–1511 (notas das missões à França; ver C.6.1) | *De natura Gallorum* (*Della natura de' Francesi*) | notas sobre o caráter dos franceses |
 | c. 1503–1510? (não conferido) | *Notula per uno che va ambasciadore in Francia* | lista prática de gorjetas e cerimônias na corte francesa |
 | fim de 1506 (o autógrafo traz a nota *"Post res perditas"*; Martelli o imprime sob "1512") | *La cagione dell'ordinanza, dove la si truovi et quel che bisogni fare* | justificativa da milícia |
 | 1506 (6 de dezembro) | *Provisione della ordinanza* (*Provvisione prima per le fanterie*) | a lei que criou os Nove da Milícia (redigida por ele) |
@@ -96,8 +96,8 @@ Nenhum foi publicado em vida, exceto onde indicado. Datas segundo Martelli (1971
 | 1509 | *Discorso sopra le cose della Magna e sopra l'imperatore* | resumo |
 | c. 1510–1512 | *Ritratto delle cose della Magna* | "retrato" da Alemanha |
 | c. 1510 (depois da 3ª missão; alguns: 1512–1513) | *Ritratto di cose di Francia* | "retrato" da França |
-| fim de 1512 (depois da volta dos Médici) | *Ai Palleschi* | memorando aos partidários dos Médici |
-| 1512? | *Allocuzione fatta ad un magistrato* | discurso sobre a justiça |
+| fim de outubro – começo de novembro de 1512 (depois da volta dos Médici) | *Ai Palleschi* | memorando aos partidários dos Médici |
+| data incerta: 1512? ou c. 1519–1520 (ver C.9) | *Allocuzione fatta ad un magistrato* | discurso sobre a justiça |
 | 1520 (agosto–setembro) | *Sommario delle cose della città di Lucca* | análise da constituição de Lucca |
 | 1520 (fim de 1520 ou começo de 1521; data debatida) | *Discursus florentinarum rerum post mortem iunioris Laurentii Medices* | projeto de constituição para Florença pedido pelos Médici |
 | 1522 | *Minuta di provvisione per la riforma dello stato di Firenze l'anno 1522* | minuta de lei de reforma |
@@ -171,7 +171,7 @@ Datas conferidas nas instruções e cartas das edições citadas, salvo indicaç
 | Quando | Destino / pessoa | Quem mandou | Por quê | Fonte da data |
 |---|---|---|---|---|
 | mar. 1499 | Jacopo IV d'Appiano, senhor de **Piombino** (em Pontedera) | Dez | pagamento e lealdade do *condottiere* | Chiappelli I ("Legazione al signore di Piombino - marzo 1499") |
-| jul. 1499 | **Caterina Sforza**, Forlì | Dez | renovar a *condotta* do filho Ottaviano Riario; comprar pólvora e soldados | Chiappelli I |
+| 12–24 jul. 1499 (DBI) | **Caterina Sforza**, Forlì | Dez | renovar a *condotta* do filho Ottaviano Riario; comprar pólvora e soldados | Chiappelli I |
 | fev. 1500 (ou 1501: a patente diz "die ii februarii 1500", e Chiappelli a põe em 1500) | **Pistoia** e Carmignano (rebeldes pistoienses) | Signoria | comissário contra as facções | Chiappelli I; data não resolvida aqui |
 | jun.–jul. 1500 | **campo contra Pisa** (com o comissário Luca degli Albizzi) | Dez | acompanhar o cerco com suíços e gascões do rei; motim das tropas | 1813, vol. VI ("In campo contro i Pisani") |
 | 18 jul. 1500 – 14 jan. 1501 | **Luís XII**, corte da França (Lyon, Nevers, Montargis, Melun, Blois, Nantes, Tours) | Signoria | explicar o fracasso de Pisa, recusar o pagamento dos suíços, manter a aliança | Chiappelli I: "Discesserunt die xviii iulii"; Francesco della Casa volta em 11/03/1501; Niccolò em 14/01/1501 (o registro diz "1500", ano florentino) |
@@ -180,10 +180,10 @@ Datas conferidas nas instruções e cartas das edições citadas, salvo indicaç
 | 1º mai. 1502 | **Giovanni Bentivoglio**, Bolonha | Dez | credencial de 1/05/1502 | Chiappelli II |
 | jun. 1502 | **Arezzo** (comissão, rebelião do Val di Chiana) | Dez | — | 1843 ("Commissioni a Arezzo"); mês não conferido |
 | 22–26 jun. 1502 | **César Bórgia** em **Urbino**, como secretário do bispo **Francesco Soderini** | Signoria | o duque exige mudança de governo em Florença | Chiappelli II (carta "die 26 [ante] iunii ante lucem") |
-| 5 out. 1502 – 20 jan. 1503 | **César Bórgia**: Ímola, Cesena, Senigália, Città della Pieve | Dez | crise dos capitães (Magione), Senigália | instrução "deliberata a dì 5 Ottobre 1502" (1813 VI); 1ª carta de Ímola 7/10/1502 (Chiappelli II) |
+| 5 out. 1502 – 20 jan. 1503 (Ridolfi; DBI: 21 jan.) | **César Bórgia**: Ímola, Cesena, Senigália, Città della Pieve | Dez | crise dos capitães (Magione), Senigália | instrução "deliberata a dì 5 Ottobre 1502" (1813 VI); 1ª carta de Ímola 7/10/1502 (Chiappelli II) |
 | abr. 1503 | **Pandolfo Petrucci**, Siena (II de Chiappelli) | Dez | Montepulciano, volta de Pandolfo | Chiappelli II |
-| 24 out. – 16 dez. 1503 | **Roma**: conclave de Júlio II e queda de Bórgia | Dez | acompanhar o conclave e o novo papa | Ridolfi (datas de chegada/saída); cartas conferidas de 3/12/1503 e outras (1813 VI) |
-| jan.–fev. 1504 | **2ª missão à França** (Lyon), junto ao embaixador Niccolò Valori | Dez | depois da derrota francesa no Garigliano | instrução "deliberata die 14 Januarii 1503" (ano florentino = 1504; 1813 VI) |
+| 24 out. – 16 dez. 1503 (Ridolfi) ou 26 out. – 18 dez. 1503 (DBI) | **Roma**: conclave de Júlio II e queda de Bórgia | Dez | acompanhar o conclave e o novo papa | Ridolfi (datas de chegada/saída); cartas conferidas de 3/12/1503 e outras (1813 VI) |
+| 19 jan. – 1º mar. 1504 (DBI; instrução de 14/1/1504) | **2ª missão à França** (Lyon), junto ao embaixador Niccolò Valori | Dez | depois da derrota francesa no Garigliano | instrução "deliberata die 14 Januarii 1503" (ano florentino = 1504; 1813 VI) |
 | abr. 1504 | **Piombino** | Dez | manter Jacopo d'Appiano do lado florentino | 1843; mês: Ridolfi |
 | abr. 1505 | **Giampaolo Baglioni**, Perúgia | Dez | por que recusa a *condotta* | instrução "deliberata a dì 8 di Aprile 1505" (1813 VII) |
 | mai. 1505 | **Francesco Gonzaga**, marquês de **Mântua** | Dez | contratá-lo como capitão | instrução de 4/05/1505 (1813 VII) |
@@ -197,7 +197,7 @@ Datas conferidas nas instruções e cartas das edições citadas, salvo indicaç
 | nov.–dez. 1509 | **Mântua** e **Verona** (pagamento ao imperador) | Dez | levar uma parcela do dinheiro devido a Maximiliano | instrução de 10/11/1509 (1813 VII); o despacho de Verona de 7/12/1509 é citado em `literatura.md` 8.4 |
 | jun.–out. 1510 | **3ª missão à França** (Lyon, Blois) | Dez | Júlio II rompe com a França; Florença no meio | 1843; Ridolfi |
 | 1510–1511 | Siena; **"signore di Monaco"** (Luciano Grimaldi, 1511) | Dez | tratados menores | 1843 (títulos); datas: Ridolfi |
-| set.–nov. 1511 | **4ª missão à França** (Milão, Blois) e **Pisa** durante o Concílio | Dez | tentar transferir o "conciliábulo" de Pisa | carta "Ex Bles, die vigesimaquarta Septembris 1511" (1813 VII) |
+| 10 set. – meados de out. 1511 (França) e 2–11 nov. 1511 (Pisa) (DBI) | **4ª missão à França** (Milão, Blois) e **Pisa** durante o Concílio | Dez | tentar transferir o "conciliábulo" de Pisa | carta "Ex Bles, die vigesimaquarta Septembris 1511" (1813 VII) |
 | 1511–1512 | "commissione per far soldati" | Nove della Milizia | alistar a cavalaria da milícia | 1813 VII (patente dos Nove) |
 | mar.–abr. 1518 | **Gênova** | mercadores florentinos | cobrança de créditos | Ridolfi; não conferido no documento |
 | jul.–set. 1520 | **Lucca** | Médici / credores florentinos | falência de Michele Guinigi | ver seção C (*Sommario di Lucca*) e `literatura.md` |
@@ -253,7 +253,7 @@ A missão mais importante: **cerca de 50 despachos** (numeração das eds. antig
 - **Uso posterior (texto, *Príncipe* VII):** "quem crê que nos grandes personagens os benefícios novos façam esquecer as velhas injúrias se engana" — e o "erro" final do duque foi deixar eleger um papa a quem tinha ofendido.
 - **Lição [Interpretação nossa]:** não confie o seu futuro a quem você prejudicou, mesmo com contrato novo; e "confiança animosa" (otimismo do fundador) não é garantia.
 
-### B.7 França, 2ª missão (janeiro – fevereiro de 1504)
+### B.7 França, 2ª missão (19 de janeiro – 1º de março de 1504, DBI)
 
 - **Fato documentado:** instrução de 14/01/1504 (no documento, "1503" florentino); vai a Lyon apoiar o embaixador Niccolò Valori depois da derrota francesa no **Garigliano** (29/12/1503).
 - **Conteúdo:** trégua franco-espanhola (fevereiro de 1504); Florença teme ficar sem protetor diante da Espanha em Nápoles. **Não conferido no original** além da instrução (vol. III de Chiappelli não baixou).
@@ -450,10 +450,10 @@ Complementa a lista de `escritos-menores.md` 1.13, agora com fonte primária:
 - **Ligação:** *Príncipe* XII–XIII, *Discursos* I.21, *Arte da Guerra* I; *Decennale primo* ("se reabrísseis o templo de Marte").
 - **Lição [Interpretação nossa]:** a equipe própria se escolhe pelo critério de quem você **pode premiar e corrigir**; terceirizado famoso é "insuportável ou suspeito", terceirizado barato "não serve para nada".
 
-### C.9 *Ai Palleschi* (fim de 1512) e a *Allocuzione fatta ad un magistrato*
+### C.9 *Ai Palleschi* (fim de outubro – começo de novembro de 1512) e a *Allocuzione fatta ad un magistrato*
 
 - ***Ai Palleschi*** ("aos partidários dos Médici"; "palle" = as bolas do brasão): texto conferido (Wikisource). Contra quem queria **"descobrir os defeitos de Piero Soderini"** para tirar-lhe a reputação: isso só daria reputação aos inimigos antigos de Soderini, não aos Médici. A frase-chave: ***"questo stato non ha per nimico Piero Soderini, ma sì bene l'ordine vechio"*** ("**este governo não tem por inimigo Piero Soderini, mas a ordem antiga**"); e *"torrebbe reputatione ad uno che è di fuora, che no gli può fare male, et darebbela ad chi è in casa, che ogni dì lo può offendere"* ("tiraria reputação a quem está fora e não pode fazer mal, e a daria a quem está em casa e pode ofender todo dia"). Também o sarcasmo: os cidadãos *"che puttaneggiono infra el popolo et e Medici"* ("que se prostituem entre o povo e os Médici"). [Interpretação comum] é um Maquiavel já desempregado oferecendo análise aos novos senhores, em vão.
-- ***Allocuzione fatta ad un magistrato*** (data incerta, c. 1519–1520; não conferida): discurso de posse sobre a justiça, escrito "por expresso comando" da Signoria. Texto conferido (*Opere minori*, 1852): começa com modéstia retórica — falar de justiça "diante de homens justíssimos" parece "coisa supérflua" — e conta, "como os antigos poetas", que na primeira idade os homens eram tão bons que os deuses desciam para morar com eles; depois, "faltando as virtudes"... (a continuação não foi conferida nesta rodada). [Interpretação] é um Maquiavel "cívico-religioso" que convive com o do *Príncipe*.
+- ***Allocuzione fatta ad un magistrato*** (data incerta: c. 1519–1520 é a data mais citada, mas há quem a ponha em 1512; não conferida): discurso de posse sobre a justiça, escrito "por expresso comando" da Signoria. Texto conferido (*Opere minori*, 1852): começa com modéstia retórica — falar de justiça "diante de homens justíssimos" parece "coisa supérflua" — e conta, "como os antigos poetas", que na primeira idade os homens eram tão bons que os deuses desciam para morar com eles; depois, "faltando as virtudes"... (a continuação não foi conferida nesta rodada). [Interpretação] é um Maquiavel "cívico-religioso" que convive com o do *Príncipe*.
 
 ### C.10 Os escritos de reforma de Florença (1519–1522)
 

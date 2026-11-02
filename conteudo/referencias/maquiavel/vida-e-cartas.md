@@ -66,7 +66,7 @@ Base de referência para o agente "Maquiavel conselheiro de negócios". Objetivo
 - **1503, verão** — *Del modo di trattare i popoli della Valdichiana ribellati*: "o mundo sempre foi habitado por homens que tiveram sempre as mesmas paixões".
 - **1503, 18 de agosto** — Morre o papa Alexandre VI (pai de César). César está doente ao mesmo tempo.
 - **1503, outubro–dezembro** — Missão em Roma durante o conclave. **Júlio II** (Giuliano della Rovere, inimigo dos Bórgia) é eleito em 1º de novembro com o apoio de César, que acreditou em promessas. Maquiavel registra a queda do duque.
-- **1504, janeiro–fevereiro** — Segunda missão à França (com Niccolò Valori).
+- **1504, 19 de janeiro – 1º de março** — Segunda missão à França, em Lyon (com Niccolò Valori) (DBI).
 - **1504** — Escreve o *Decennale primo* (poema sobre os dez anos 1494–1504; impresso em 1506). Participa, como secretário, do projeto de desviar o Arno para tirar o acesso de Pisa ao mar (com consultoria de Leonardo da Vinci); o projeto fracassa no outono de 1504. Leonardo também pintava a *Batalha de Anghiari* no Palazzo Vecchio nesse período.
 - **1505** — Missões a Giampaolo Baglioni (Perúgia, abril), ao marquês de Mântua e a **Pandolfo Petrucci** em Siena (julho). **Dezembro de 1505**: começa a alistar camponeses no Mugello e no Casentino para a milícia.
 - **1506, 15 de fevereiro** — Primeira parada da milícia na Piazza della Signoria (o diarista Luca Landucci registra "a coisa mais bonita que já se viu" em Florença).

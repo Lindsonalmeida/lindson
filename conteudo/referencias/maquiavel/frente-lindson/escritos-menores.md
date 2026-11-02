@@ -109,7 +109,7 @@
   - Em mercado instável, planeje em ciclos curtos (semanas), revise sempre, e não se prenda a um plano anual por orgulho.
   - Escolher bons auxiliares é um sinal público de competência do dono (O Príncipe XXII).
 
-### 1.4 Roma, conclave e queda de Bórgia (fim de outubro a dezembro de 1503)
+### 1.4 Roma, conclave e queda de Bórgia (fim de outubro a dezembro de 1503: 24/10–16/12 segundo Ridolfi, 26/10–18/12 segundo o DBI)
 
 - **Contexto:** Alexandre VI morreu em agosto de 1503; Bórgia estava doente ao mesmo tempo. Pio III durou menos de um mês. Maquiavel foi a Roma e acompanhou a eleição de Giuliano della Rovere como **Júlio II** (1º de novembro de 1503), inimigo antigo dos Bórgia, que Bórgia apoiou em troca de promessas.
 - **Conteúdo essencial:**
@@ -124,7 +124,7 @@
   - Não confie seu futuro a quem você já prejudicou, mesmo que ele assine um acordo agora.
   - Sucesso que depende de um padrinho (sócio, cliente único, plataforma) acaba quando o padrinho sai. Diversifique a base.
 
-### 1.5 Segunda missão à França (janeiro e fevereiro de 1504)
+### 1.5 Segunda missão à França (19 de janeiro a 1º de março de 1504, segundo o DBI)
 
 - **Contexto:** depois da derrota francesa para os espanhóis no Garigliano (dezembro de 1503), Florença temia ficar sem protetor. Maquiavel foi a Lyon apoiar o embaixador Niccolò Valori e sondar se a França ainda defenderia a Toscana.
 - **Conteúdo essencial:** registra a trégua entre França e Espanha e a fragilidade de quem depende de um aliado distante.
@@ -345,7 +345,7 @@ Não é uma legação, mas foi escrita durante a missão de 1506 e é o primeiro
   - Funções essenciais (vendas, atendimento, produto) devem ter equipe própria; terceirizar o coração do negócio é viver de "mercenários".
   - Ao montar equipe, escolha de onde recrutar com critério: perfil confiável e treinado vale mais que quantidade.
 
-### 2.9 Ai Palleschi (novembro de 1512) e Lettera a una gentildonna (setembro de 1512)
+### 2.9 Ai Palleschi (fim de outubro – começo de novembro de 1512) e Lettera a una gentildonna (setembro de 1512)
 
 - **Contexto:** logo depois da volta dos Médici. A *Lettera a una gentildonna* (geralmente identificada como Alfonsina Orsini, mãe de Lorenzo de' Médici, ou Isabella d'Este: identificação discutida) narra o saque de Prato e a queda de Soderini. *Ai Palleschi* ("aos partidários dos Médici") aconselha a não atacar a memória de Soderini, porque isso só alimentaria simpatia por ele.
 - **Ideia fiel:** [paráfrase] Atacar um adversário já caído faz ele parecer vítima e ajuda os inimigos.
@@ -400,7 +400,7 @@ Não é uma legação, mas foi escrita durante a missão de 1506 e é o primeiro
   - Dar opinião apoiada em quem entende ("o mercado avalia que...", "especialistas do setor apontam...") diminui a resistência.
   - Rede de relacionamento com quem está perto das decisões é a fonte de informação mais valiosa.
 
-### 2.14 Allocuzione fatta ad un magistrato (c. 1519-1520) e Esortazione alla penitenza (data discutida, c. 1525)
+### 2.14 Allocuzione fatta ad un magistrato (data incerta: c. 1519-1520 ou 1512) e Esortazione alla penitenza (data discutida: 1526-1527 segundo o DBI, pelo autógrafo; c. 1525 segundo outros)
 
 - **Allocuzione:** discurso para a posse de um magistrado (provavelmente dos Oito de Guarda ou similar) sobre a importância da justiça para a conservação dos Estados; exemplos antigos de cidades que caíram por falta de justiça. [paráfrase] A justiça e o respeito a Deus conservam os Estados e as cidades.
 - **Esortazione alla penitenza:** sermão escrito para uma confraria religiosa leiga de Florença, sobre a ingratidão do homem para com Deus e a caridade. Mostra um Maquiavel que circulava em confrarias; o tom religioso divide os intérpretes (sincero para alguns, convencional para outros: interpretação).
