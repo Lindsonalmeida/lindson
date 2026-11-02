@@ -46,7 +46,7 @@
   - O Livro II cita **"o nosso tratado dos Principados"** (II.1: *"nel nostro trattato de' Principati"*) e o Livro III cita **"o nosso tratado De Principe"** (III.42). Ou seja, *O Príncipe* (escrito em 1513) já existia quando essas partes foram escritas.
   - O fato datável mais recente citado no texto é a **guerra de Urbino** contra Francesco Maria della Rovere, "sobrinho do papa Júlio II" (II.10), que é de **1517**. III.39 cita a descida de Francisco I da França em **1515**.
   - A dedicatória é a **Cosimo Rucellai**, que morreu em **1519**; logo, a dedicatória é anterior a essa data.
-  - A obra só foi **publicada depois da morte de Maquiavel** (ele morreu em 1527): em **1531**, em Roma (Antonio Blado) e em Florença (herdeiros de Giunta).
+  - A obra só foi **publicada depois da morte de Maquiavel** (ele morreu em 1527): em **1531**, em Roma (Antonio Blado, 18 de outubro, segundo o Instituto Warburg) e em Florença (herdeiros de Giunta, colofão de 10 de novembro de 1531).
 - **Interpretação acadêmica (debate):** no capítulo II de *O Príncipe* Maquiavel diz que deixará de lado as repúblicas "porque em outra ocasião raciocinei longamente sobre elas". Uma corrente (por exemplo, Felix Gilbert) entende que ele começou os *Discursos* em 1513, interrompeu para escrever *O Príncipe* e depois retomou; outra (Hans Baron e outros) entende que a frase foi acrescentada depois e que os *Discursos* são essencialmente de **c. 1515–1519**, ligados às reuniões dos Orti Oricellari. O consenso prático: **escrito entre 1513 e 1519, sobretudo a partir de c. 1515–1517**. A data "1517" que aparece no outro arquivo do repositório é a data convencional, não um dado do texto.
 
 ### 1.3 A dedicatória: Zanobi Buondelmonti e Cosimo Rucellai
