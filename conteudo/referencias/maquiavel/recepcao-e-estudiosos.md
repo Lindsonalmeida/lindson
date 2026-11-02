@@ -1,6 +1,6 @@
 # Recepção de Maquiavel e seus estudiosos (séc. XVI ao XXI)
 
-**Situação:** parcial — feito até a seção 5
+**Situação:** completo (seções 1 a 8; lacunas na seção 8)
 
 > Arquivo do acervo do agente Maquiavel. Escrito em português do Brasil. Legenda: **texto** = o que Maquiavel escreveu (obra e capítulo); **fato documentado**; **[Interpretação: autor]**; **[Tradição]** = história sem prova. Em cada item digo o idioma/fonte de onde veio a informação: (IT) italiano, (EN) inglês, (ES) espanhol, (FR) francês, (DE) alemão, (PT) português, (LA) latim.
 >
@@ -316,3 +316,95 @@
 - Connell também mostrou que uma carta de chancelaria de 1513 assinada "N. Mach." teve a assinatura alterada de "N. Mich." (Niccolò Michelozzi) — cuidado com documentos "de Maquiavel" que não são dele (EN: revista da Seton Hall).
 - **"Maquiavel era ateu"** é acusação de Gentillet e dos jesuítas, não fato: nos *Discursos* I.11–15 ele elogia a religião como base da ordem civil (e critica a Igreja de Roma por dividir a Itália, I.12).
 
+---
+
+## 6. Maquiavel na cultura (filmes, séries, games, música, livros, memes)
+
+> Fonte base: (EN) Wikipedia "Machiavelli in popular culture" (lida em 02/11/2026) + fontes específicas citadas em cada item.
+
+### 6.1 Séries e TV
+| Obra | Ano | Ator / papel | Observação |
+|---|---|---|---|
+| ***The Borgias*** (Showtime, EUA/Canadá, criação Neil Jordan) | 2011–2013 | **Julian Bleach** (estreia no ep. 1x04 "Lucrezia's Wedding", 17/04/2011 — TVmaze) | Maquiavel como observador frio da corte; mostra a convivência real dele com César Bórgia (missão de 1502). Datas e falas romanceadas. |
+| ***Borgia*** (Canal+/Sky Italia, criação Tom Fontana; FR/DE/IT) | 2011–2014 | personagem secundário (ator não conferido) | Série franco-alemã, mais crua. |
+| ***Medici*** (Rai/Netflix), 3.ª temporada | 2019 | **Vincenzo Crea**, um jovem Maquiavel "espião" florentino | Fantasia: o Maquiavel real não foi espião dos Médici nos anos 1480–90. |
+| ***Da Vinci's Demons*** (Starz) | 2013–2015 | **Eros Vlahos** (Nico, jovem ajudante de Leonardo) | Ficção total. |
+| ***Leonardo*** (Rai 1/Sony) | 2021 | entre os personagens (IT: *Il Sussidiario*); ator não conferido | Ficção. Não confundir com ***Leonardo*** (BBC infantil, 2011–12), em que "Mac" é um Maquiavel jovem reinventado (Akemnji Ndifornyen). |
+| ***The Tudors*** | 2007–2010 | coadjuvante | — |
+| ***The Time Tunnel***, ep. "The Death Merchant" | 1967 | Malachi Throne | — |
+| ***Dallas***, ep. "Ewings Unite!" | 2013 | — | J. R. Ewing deixa em testamento seu exemplar de *O Príncipe*. |
+| **Rádio:** *The Prince* (BBC Radio 4, texto de Jonathan Myerson) | 2013 | **Damian Lewis** | 500 anos de *O Príncipe*. |
+
+### 6.2 Cinema
+- Não há grande filme de cinema com Maquiavel como protagonista (Wikipedia EN não lista nenhum). Referências fortes: ***Desafio no Bronx*** (*A Bronx Tale*, 1993, Robert De Niro): o mafioso Sonny diz que aprendeu com Maquiavel (lido na prisão) que é melhor ser temido que amado — exatamente a versão **cortada** de *Príncipe* XVII (seção 5.1). ***O Poderoso Chefão II*** (1974) é a origem da frase "inimigos mais perto" que depois foi posta na boca de Maquiavel.
+- Somerset Maugham, *Then and Now* (1946; em PT *Maquiavel e a Dama*? — título brasileiro **não conferido**): romance sobre a missão de Maquiavel junto a César Bórgia.
+
+### 6.3 Games
+- ***Assassin's Creed II*** (2009) e ***Assassin's Creed: Brotherhood*** (2010), Ubisoft: Maquiavel (voz de Shawn Baichoo) é membro e depois líder dos Assassinos italianos, aliado de Ezio contra os Bórgia. **Não é histórico:** o Maquiavel real nunca liderou ordem secreta, admirou César Bórgia como modelo de príncipe novo (*Príncipe* VII) e serviu à república como secretário. O jogo acerta ao fazê-lo conselheiro e republicano, e cita *O Príncipe* de propósito. Consultor histórico: a especialista renascentista Marcello Simonetta (EN: *Play the Past*; *Game Informer* 2010; *LiveScience*; DE: Giga.)
+- ***Sid Meier's Civilization VII*** (2025): Maquiavel como líder jogável (EN: Wikipedia).
+- ***Machiavelli: The Prince*** (MicroProse, 1995) / *Merchant Prince* (1994): estratégia comercial em Veneza; e o jogo de tabuleiro ***Machiavelli*** (Avalon Hill, 1977), variante de *Diplomacy*.
+
+### 6.4 Música
+- **Tupac Shakur, "Makaveli"**: preso de fevereiro a outubro de 1995, Tupac leu *O Príncipe* (e *A Arte da Guerra* de Sun Tzu); ao sair, adotou o nome **Makaveli**. O álbum ***The Don Killuminati: The 7 Day Theory*** (Death Row, novembro de 1996, lançado semanas após sua morte) saiu sob esse nome. A *Salon* (dezembro de 1996) notou que, com o álbum subindo nas paradas, as livrarias viram aumentar a procura por *O Príncipe*. **Contradição:** algumas fontes dizem que ele leu o livro no hospital/prisão depois do atentado de novembro de 1994; a versão mais aceita é a prisão de 1995. A ligação com a **teoria de que Tupac "fingiu a morte"** (porque Maquiavel "teria recomendado fingir a própria morte") é **[Tradição de fãs]** — **Maquiavel nunca escreveu isso**; o mais próximo é *Discursos* III.2 (Bruto, que "fingiu-se de tolo" para sobreviver). (EN: George Fox University blog; Salon; Complex; Wikipedia.)
+- Outros: o rapper **Mobb Deep** e muitos do rap americano usam "Machiavellian" como elogio de estratégia [não conferido caso a caso].
+
+### 6.5 Livros de ficção
+- Salman Rushdie, ***A Feiticeira de Florença*** (*The Enchantress of Florence*, 2008): Maquiavel é personagem principal.
+- Michael Ennis, *The Malice of Fortune* (2012): Maquiavel protagonista ao lado de Leonardo, investigando crimes na corte de Bórgia.
+- Michael Scott, série *Os Segredos de Nicolau Flamel* (2007–2012): Maquiavel imortal e vilão.
+- Mario Puzo, *A Família* (*The Family*, 2001), sobre os Bórgia.
+- Ver `literatura.md` para as obras do próprio Maquiavel.
+
+### 6.6 Livros "de poder": Greene e companhia (resumo — detalhe no arquivo de negócios)
+- Robert Greene, ***As 48 Leis do Poder*** (1998) é hoje a principal fonte do "Maquiavel popular". A análise lei a lei (o que tem base no texto e o que não tem) está em `maquiavel-nos-negocios.md`, seção 1.4 (conta Pedro). Resumo: umas 5 leis têm base fiel (11, 18, 26, 45 e parte da 48); várias são parciais ou fora de contexto; algumas **contrariam** Maquiavel (Lei 20 "não se comprometa", contra *Príncipe* XXI) ou vêm de outras fontes (Bíblia, Castiglione, Gracián, cortes francesas).
+
+### 6.7 Memes e frases de internet
+- Os memes mais comuns repetem as frases falsas da seção 5.1 ("os fins justificam os meios", "inimigos mais perto") ou a versão cortada de "temido ou amado".
+- Variação famosa: Michael Scott, ***The Office*** (EUA): "Would I rather be feared or loved? Easy. Both. I want people to be afraid of how much they love me" (episódio não conferido) — é piada com *Príncipe* XVII, e ironicamente está **mais perto** do texto (Maquiavel diz que o ideal seria ser os dois).
+- No Brasil, "maquiavélico" é usado como xingamento político e em memes de novela (vilãs "maquiavélicas") — uso do adjetivo, não do autor.
+
+---
+
+## 7. Uso pelo agente
+
+### 7.1 Como responder a "Maquiavel era mau" [Interpretação, apoiada nas seções 1–5]
+Responder em 4 passos, curto:
+1. **Separar o homem, o livro e o adjetivo.** "Maquiavélico" é um adjetivo criado pelos inimigos dele (Gentillet 1576, teatro inglês, jesuítas). O homem foi funcionário público da república por 14 anos, preso e torturado pelos Médici em 1513, e morreu pobre (ver `vida-e-cartas.md`).
+2. **Mostrar o que ele escreveu de fato.** Ele **não** diz que o mal é bom: diz que o príncipe deve "non partirsi dal bene, potendo, ma sapere entrare nel male, necessitato" (*Príncipe* XVIII: "não se afastar do bem, podendo, mas saber entrar no mal, se forçado"). Chama de crueldade "mal usada" a que cresce com o tempo (*Príncipe* VIII) e diz que com crimes como os de Agátocles se ganha "imperio, ma non gloria" (*Príncipe* VIII).
+3. **Lembrar o outro lado da obra.** Nos *Discursos* ele prefere a república e diz que o povo é "più prudente, più stabile e di migliore giudizio che un principe" (*Discursos* I.58, conferido).
+4. **Dar o mapa das leituras.** Para Strauss ele foi "mestre do mal"; para Rousseau, "o livro dos republicanos"; para Croce, o descobridor da autonomia da política; para Skinner e Viroli, um republicano humanista; para Lefort e Bignotto, o pensador do conflito que gera liberdade (seção 3.8). O agente diz que há debate e qual é o consenso aproximado.
+
+**Frase-resumo para o agente:** "Maquiavel não ensinou a ser mau; ensinou que quem governa sem conhecer o mal é vencido por quem conhece. Ele descreve o mal, mede o custo e prefere sempre o caminho que não gera ódio."
+
+### 7.2 Como corrigir frase falsa (roteiro)
+1. Perguntar/checar: **qual obra e capítulo?**
+2. Se não existir: dizer de onde vem de verdade (tabela 5.1: Busenbaum, *O Poderoso Chefão II*, Croce, Greene etc.).
+3. Dar o texto real mais próximo, em italiano e em português, com capítulo.
+4. Tirar a lição prática **verdadeira** (ex.: "seja temido sem ser odiado: não mexa no bolso nem na honra das pessoas" — *Príncipe* XVII).
+
+### 7.3 Lições de recepção úteis para negócios [Interpretação]
+- **Reputação é escrita pelos inimigos.** Maquiavel virou sinônimo de diabo por causa de quem o leu mal e escreveu primeiro (Gentillet, teatro). Para uma agência: quem não conta a própria história deixa os concorrentes contarem.
+- **Licença hoje, proibição amanhã.** *O Príncipe* saiu com privilégio papal (1532) e foi proibido em 1559: o apoio de um poderoso não dura. Não depender de um cliente só / de uma plataforma só (eco de *Príncipe* IX: a base segura é o povo, não os grandes).
+- **O hipócrita do poder:** Frederico II escreveu o *Anti-Maquiavel* e meses depois invadiu a Silésia. Julgar parceiros pelo que **fazem**, não pelo que publicam (*Príncipe* XVIII: "ognuno vede quel che tu pari").
+- **Paródia de Machado ("Teoria do Medalhão"):** aparência sem substância rende prestígio por um tempo, mas é exatamente o que Maquiavel critica ao dizer que a reputação durável vem de "grandi imprese" (*Príncipe* XXI). Para a agência: case real > discurso.
+
+### 7.4 Frases fortes da recepção (com fonte)
+- "Le Prince de Machiavel est le livre des républicains." — Rousseau, *Du contrat social* III.6 (1762), conferido.
+- "We are much beholden to Machiavel and others, that write what men do, and not what they ought to do." — Bacon, *Advancement of Learning* II (1605).
+- "Out of his surname they have coined an epithet for a knave, and out of his Christian name a synonym for the Devil." — Macaulay, *Edinburgh Review*, março de 1827, conferido.
+- "Tanto nomini nullum par elogium." — epitáfio de Santa Croce (1787).
+- "Thucydides and perhaps Machiavelli's *principe* are most closely related to me…" — Nietzsche, *Crepúsculo dos Ídolos*, "O que devo aos antigos" §2, conferido.
+- "Una questione che forse non si chiuderà mai." — Croce, 1949.
+
+---
+
+## 8. Lacunas (para a próxima rodada)
+1. **Textos não conferidos no original:** frase exata do verbete "Machiavélisme" (Diderot, *Encyclopédie*); nota de Rousseau na edição de 1782; Bodin (prefácio); Hegel (*Verfassung Deutschlands*); Ranke 1824; Herder 1795; Spinoza *TP* V.7 em latim; Gentili *De legationibus* III.9; Montesquieu XXI.20; Pole (latim da *Apologia*); Voltaire sobre Frederico.
+2. **Datas em disputa:** Ingolstadt (queima da efígie); Binet (1621 × 1629) e a origem do sonho; Lívio Xavier (1932 × 1933); Escorel (1956 × 1958); inclusão no Índex espanhol (1583).
+3. **Línguas pouco cobertas:** polonês (sem estudo de peso achado), holandês (só Tromp e van den Enden), coreano e hindi/indiano (comparação com Kautilya só pela frase de Weber, não conferida), turco (tradução otomana a confirmar), árabe moderno (traduções do séc. XX não levantadas), russo pós-soviético (estudiosos atuais não levantados).
+4. **América Latina:** Bolívar e Maquiavel (sem fonte confiável); México, Chile, Colômbia; leitura gramsciana latino-americana.
+5. **Brasil:** obras completas de José Luiz Ames e outros; traduções da UnB (*Discursos*, Sérgio Bath) e Musa (*História de Florença*) a conferir; Maquiavel em romances/novelas brasileiras.
+6. **Cultura:** atores da série *Borgia* (Canal+) e *Leonardo* (2021); título brasileiro do romance de Maugham; episódio de *The Office*.
+7. **Túmulo:** foto/transcrição completa do epitáfio e autoria do texto latino; se os restos estão sob o monumento.
+8. **Morte:** estudo publicado de William J. Connell sobre a carta falsificada e a confissão (só o resumo do seminário foi lido).
+9. **Antimaquiavelismo alemão e protestante** (séc. XVII, Conring, Clapmarius) e **Richelieu/Mazarino** — não cobertos.
