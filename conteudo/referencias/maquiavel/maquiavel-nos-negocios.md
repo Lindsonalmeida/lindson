@@ -1,6 +1,6 @@
 # Maquiavel nos negócios: livros de gestão, psicologia (Mach IV) e uso fiel
 
-**Situação:** parcial — feito até a seção 2 (seção 1 complementada pela conta Zuleide)
+**Situação:** parcial — feito até a seção 4 (seção 1 complementada pela conta Zuleide)
 
 > Arquivo do acervo do agente Maquiavel. Português do Brasil. Legenda: **texto** = o que Maquiavel escreveu (obra e capítulo, conferido no it.wikisource.org quando dito); **fato documentado**; **[Interpretação: autor]**; **[Tradição]** = história sem prova. Idioma/fonte de cada informação: (IT) italiano, (EN) inglês, (ES) espanhol, (FR) francês, (DE) alemão, (PT) português, (ZH) chinês.
 >
@@ -139,3 +139,74 @@ Resumo dos achados clássicos (EN: Wikipedia, com base em Christie & Geis 1970 e
 | Glória | Irrelevante | Crimes dão "imperio, ma non gloria" (*Príncipe* VIII) |
 
 **Conclusão [Interpretação, apoiada na própria literatura psicológica e em Galie & Bopst 2006]:** o nome é empréstimo; um "high Mach" é mais parecido com o "Machevil" do teatro elisabetano (ver `recepcao-e-estudiosos.md`, 1.5) do que com o autor. Um Maquiavel "de verdade" no trabalho seria **realista sobre as pessoas, mas obcecado em não ser odiado, em ter base popular (clientes) e em construir reputação por feitos**.
+
+---
+
+## 3. O que as pesquisas acharam: trabalho, liderança, vendas, negociação e empreendedorismo
+
+> Todas as pesquisas abaixo medem o **traço** da psicologia (seção 2), não "seguir Maquiavel". Os resultados vêm dos resumos (abstracts) e de fontes secundárias; tamanhos de efeito só onde a fonte deu o número.
+
+### 3.1 Desempenho no trabalho: o maquiavelismo **não** dá resultado, mas dá problema
+- **O'Boyle, Forsyth, Banks e McDaniel**, "A meta-analysis of the Dark Triad and work behavior: A social exchange perspective", *Journal of Applied Psychology* 97(3), 2012, pp. 557–579 (DOI 10.1037/a0025679): 245 amostras independentes, N = 43.907, estudos de 1951 a 2011. A tríade sombria explica uma parte **moderada** dos **comportamentos contraproducentes** (roubo, sabotagem, assédio, faltas) e **praticamente nada** do **desempenho**. Os autores dizem que a relação geral é "tentativa", com muitos achados positivos, negativos e nulos. (EN: PDF dos autores na VCU; resumo.)
+- **QIN Feng e XU Fang** (Nanjing), "Machiavellians' Job Performance and Career Success in Workplaces: A Meta-Analysis", *Advances in Psychological Science* (心理科学进展) 21(9), 2013, pp. 1542–1553: 45 estudos. Maquiavelismo × desempenho: **r = 0,008** (nada); em profissões de **marketing/vendas** r = 0,104 (positivo baixo); em administração geral r = –0,030; × renda r = –0,063; × cargo r = 0,007; × satisfação no trabalho **r = –0,130**. (ZH/EN: página da revista, lida.)
+- **Leitura para o agente [Interpretação]:** ser manipulador não melhora o trabalho, não aumenta salário nem cargo em média, deixa a pessoa menos satisfeita e aumenta a chance de comportamento tóxico. O pequeno ganho em vendas/marketing é a exceção (ver 3.2).
+
+### 3.2 Vendas: o "paradoxo"
+- **Ricks e Fraedrich**, "The Paradox of Machiavellianism: Machiavellianism May Make for Productive Sales but Poor Management Reviews", *Journal of Business Ethics* 20, 1999, pp. 197–205: vendedores mais "Mach" **venderam mais**, mas foram **pior avaliados pelos gestores**; os autores sugerem algum benefício em certas condições. (EN: Springer, resumo.)
+- **Satornino, Allen, Shi e Bolander**, "Understanding the Performance Effects of 'Dark' Salesperson Traits: Machiavellianism, Narcissism, and Psychopathy", *Journal of Marketing* 87(2), 2023, pp. 298–318 (DOI 10.1177/00222429221113254): (1) estudo longitudinal com vendedores de uma seguradora nacional (EUA) com dados objetivos: narcisismo e psicopatia dão vantagem **no começo** que **cai** depois; maquiavelismo começa **devagar** e tem **ganho sustentado**; (2) estudo de rede numa empresa de venda direta: quando a informação corre rápido na rede, narcisistas e psicopatas são **descobertos** mais cedo e caem, enquanto os maquiavélicos usam a rede para manipular estrategicamente. (EN: AMA; Universidade de Kentucky; Texas A&M; Big Think.)
+- **[Interpretação: conta Zuleide]** O "Mach" que vende no longo prazo é o **calculista paciente** que evita ser pego — o que reforça, por outro caminho, a regra de Maquiavel de **não ser odiado nem desprezado** (*Príncipe* XIX). Em cidade média como São Luís, onde a "rede" é pequena e a informação corre rápido, o custo de ser descoberto é alto: o boca a boca funciona como a rede de "alto alcance" do estudo 2.
+
+### 3.3 Liderança
+- **Deluga**, "American presidential Machiavellianism: Implications for charismatic leadership and rated performance", *The Leadership Quarterly* 12, 2001, pp. 339–363: estudo histórico-métrico de presidentes dos EUA; citado como prova de que líderes maquiavélicos podem ser vistos como **carismáticos** e bem avaliados. (EN: citações em revisões; resumo original **não conferido**.)
+- **Belschak, Den Hartog e Kalshoven**, "Leading Machiavellians: How to translate Machiavellians' selfishness into pro-organizational behavior", *Journal of Management* 41(7), 2015, pp. 1934–1956 (versão online 2013): dois estudos de campo; a **liderança transformacional** (dar autonomia, sentido e desafio) faz funcionários maquiavélicos terem mais comportamento cidadão "desafiador" (propor melhorias); parte do efeito vem da **autonomia** e da motivação intrínseca. (EN/NL: Universidade de Amsterdã; Social Science Space.)
+- Revisões citadas na Wikipedia: chefes "high Mach" conseguem cargos com mais facilidade, mas prejudicam a carreira e o bem-estar dos subordinados e podem anular o efeito de uma liderança ética.
+- **[Interpretação]** Para o Lindson como chefe: se tiver na equipe alguém calculista e ambicioso, dê autonomia com metas claras e visíveis; é o eco de *Príncipe* XXII — o bom ministro é mantido fiel "onorandolo, faccendolo ricco" (honrando-o, enriquecendo-o, dando-lhe parte nas honras e encargos) [paráfrase; ver `principe.md`, cap. XXII].
+
+### 3.4 Negociação
+- Estudos clássicos (Christie & Geis 1970) mostram "high Machs" ganhando mais em barganhas **face a face com regras ambíguas**; e estudos de ética da negociação mostram que o maquiavelismo prevê aceitar táticas **antiéticas** (blefe, mentira, promessas falsas) — p. ex. a tese de Purdue "Ethical and unethical negotiation tactic usage: Considering the role of aberrant personality": quem pontua alto na tríade escolhe mais táticas antiéticas, mas o teste face a face deu apoio só parcial. (EN: Purdue; Fairfield University "Conflict Frames and the Use of Deception".)
+- Número que circula: "há engano em 55% das negociações" (Aquino & Becker, 2005) — **não conferido no original**; não usar sem conferir.
+- **[Interpretação]** O ganho do blefe é de **uma** negociação; o custo é a reputação para as próximas. Maquiavel avisa que o príncipe deve parecer "tutto pietà, tutto fede, tutto integrità" (*Príncipe* XVIII) e que quem é tido por "vario, leggiero" é desprezado (*Príncipe* XIX). Num mercado pequeno de clientes recorrentes, ser conhecido como quem cumpre vale mais que um contrato bem "espremido".
+
+### 3.5 Empreendedorismo
+- **Hmieleski e Lerner**, "The Dark Triad and Nascent Entrepreneurship: An Examination of Unproductive versus Productive Entrepreneurial Motives", *Journal of Small Business Management* 54(S1), 2016, pp. 7–32 (DOI 10.1111/jsbm.12296): com estudantes de administração (N = 508) e de MBA (N = 234), o **narcisismo** se relacionou com intenção de empreender; os **três** traços se associaram a **motivos improdutivos** de empreender (ganho pessoal às custas dos outros), com relações diferentes com motivos produtivos. (EN: Universidad del Desarrollo, Chile; Deusto; RePEc.)
+- **[Interpretação]** Maquiavel separa o "príncipe novo" que funda algo duradouro (Moisés, Ciro, Rômulo, Teseu — *Príncipe* VI) do que sobe "per scelera" (por crimes, Agátocles — *Príncipe* VIII) e ganha "imperio, ma non gloria". Os motivos "improdutivos" do estudo são o caminho de Agátocles.
+
+### 3.6 Síntese das pesquisas
+1. Maquiavelismo-traço **não** melhora o desempenho em geral (O'Boyle 2012; Qin & Xu 2013).
+2. Pode dar ganho em **vendas**, sobretudo se paciente e discreto (Ricks & Fraedrich 1999; Satornino et al. 2023) — mas com pior avaliação de quem convive e risco de ser descoberto.
+3. Aumenta comportamento contraproducente e reduz satisfação (O'Boyle; Qin & Xu).
+4. Bom líder **canaliza** o maquiavélico com autonomia e desafio (Belschak et al. 2015).
+5. Nada disso testa o **texto** de Maquiavel; só o traço com o nome dele.
+
+---
+
+## 4. Uso fiel × distorção: as ideias "maquiavélicas" mais vendidas
+
+> Texto italiano conferido no it.wikisource.org em 02/11/2026 (salvo indicação). A tabela de Greene lei a lei está na seção 1.4 (conta Pedro); aqui estão as ideias soltas que circulam em palestras, posts e livros de negócios.
+
+| Ideia que circula nos negócios | Fiel? | O que o texto diz (obra e capítulo) | Uso correto num negócio [Interpretação] |
+|---|---|---|---|
+| "Os fins justificam os meios" | **Falsa** | Não existe. *Príncipe* XVIII: "si guarda al fine" = o povo julga pelo resultado e pela aparência. *Discursos* I.9 e III.41: só a fundação de um Estado ou a salvação da pátria. | Resultado conta, mas a forma também é julgada (reputação). Nada de "vale tudo" por lucro. |
+| "Seja temido, não amado" | **Cortada** | *Príncipe* XVII: o ideal é ser os dois; se tiver de escolher, temido, **mas sem ódio** — "s'astenga dalla roba de' suoi cittadini… e dalle donne loro"; "gli uomini dimenticano piuttosto la morte del padre, che la perdita del patrimonio". | Firmeza em prazos e regras; **nunca** mexer no dinheiro, no crédito ou na dignidade de cliente e equipe. |
+| "Faça o mal de uma vez e o bem aos poucos" | **Fiel** | *Príncipe* VIII: "le ingiurie si debbono fare tutte insieme… li beneficii si debbono fare a poco a poco, acciocchè si assaporino meglio". (Fala de crueldade "bem usada" ao tomar o poder.) | Notícia ruim (reajuste, corte, demissão) num só momento, explicada; bônus e melhorias aos poucos e visíveis. Nunca crueldade real. |
+| "Elimine a concorrência" / "esmague o inimigo" | **Fora de contexto** | *Príncipe* III ("o vezzeggiare o spegnere") fala de **províncias conquistadas**; *Príncipe* VII (Bórgia) é guerra. | Concorrente se vence com qualidade e posição. "Eliminar" no Brasil = concorrência desleal (Lei 9.279/1996, art. 195) e infração à ordem econômica (Lei 12.529/2011). |
+| "Dividir para reinar" a equipe | **Falsa / contrária** | *Príncipe* XX: "io non credo che le divisioni fatte faccino mai bene alcuno". | Não jogar funcionários uns contra os outros: na crise, a casa dividida cai primeiro. |
+| "Faça os outros dependerem de você" | **Fiel (com sentido certo)** | *Príncipe* IX: que os cidadãos "abbino bisogno dello Stato di lui" em qualquer tempo — por **utilidade**, não chantagem. | Ser tão útil que o cliente não queira sair (resultado, processo, atendimento), **não** prender por contrato abusivo, senha ou dados (LGPD; CDC). |
+| "A melhor fortaleza é o povo" | **Fiel** | *Príncipe* XX: "la migliore fortezza che sia, è non essere odiato da' popoli"; IX: "è necessario avere il popolo amico". | Base de muitos clientes pequenos satisfeitos > um cliente grande que manda em você. |
+| "Escolha um lado" | **Fiel** | *Príncipe* XXI: tomar partido "fia sempre più utile, che star neutrale". | Posicionamento claro de nicho e de opinião; neutro demais não é lembrado por ninguém. |
+| "Julgam você pela equipe" | **Fiel** | *Príncipe* XXII: "la prima coniettura che si fa di un signore… è vedere gli uomini che lui ha d'intorno". | Contratar e mostrar bons profissionais é marketing. |
+| "Fuja dos bajuladores" | **Fiel** | *Príncipe* XXIII: o único modo de se guardar das adulações é que os homens saibam que não te ofendem ao dizer a verdade — mas só alguns escolhidos, quando você pergunta ("un terzo modo, eleggendo…"). | Ter 1–2 conselheiros que falam a verdade (sócio, mentor, cliente sincero), e decidir sozinho depois. |
+| "Incentive quem produz" | **Fiel** | *Príncipe* XXI: o príncipe deve "mostrarsi amatore delle virtù, e onorare gli eccellenti in ciascuna arte", animar os cidadãos a exercer "la mercanzia, e l'agricultura" sem medo de lhes tomarem o ganho, e "preparare premi" a quem amplia a cidade. | Premiar resultados da equipe e de parceiros; não "tomar" o ganho de quem traz cliente (indicação paga e honrada). |
+| "Dinheiro resolve tudo" | **Contrária** | *Discursos* II.10: "i danari non sono il nervo della guerra"; os bons soldados acham o ouro, o ouro não acha bons soldados (ver `discursos.md`). | Investir em equipe e competência antes de anúncio. |
+| "Adapte-se ou morra" | **Fiel (com ressalva)** | *Príncipe* XXV e *Discursos* III.9: a fortuna vem de ajustar o modo de agir aos tempos; mas o homem raramente muda — por isso a república, com gente diversa, se adapta melhor. | Ter sócios/funcionários de temperamentos diferentes; rever o método que "sempre deu certo". |
+| "Use a fraude para subir" | **Descrição, não conselho geral** | *Discursos* II.13: "si viene di bassa a gran fortuna più con la fraude che con la forza" (observação histórica). *Príncipe* VIII: crime dá "imperio, ma non gloria". | Astúcia lícita (surpresa estratégica, sigilo de lançamento, negociação) sim; engano ao consumidor não (CDC art. 37, publicidade enganosa; Código do CONAR). |
+| "Pareça, não precisa ser" | **Meia-verdade** | *Príncipe* XVIII: "Ognuno vede quel che tu pari; pochi sentono quel che tu sei"; é preciso **parecer** piedoso, fiel, íntegro… mas "non partirsi dal bene, potendo". | Imagem importa (portfólio, identidade, prova social), mas a imagem precisa de entrega por trás; o "medalhão" de Machado de Assis cai (ver `recepcao-e-estudiosos.md`, 4.6). |
+| "Fortuna é mulher, bata nela" | **Texto real, imagem datada** | *Príncipe* XXV. | Ler como "ousadia vence cautela excessiva em tempos de mudança". Nunca reproduzir a imagem de violência contra mulher. |
+| "Use mercenários" (terceirize tudo) | **Contrária** | *Príncipe* XII–XIII: armas mercenárias e auxiliares são "inutili e pericolose"; o príncipe sábio sempre fugiu delas e se valeu das **próprias** (ver `principe.md`). | Núcleo do serviço (estratégia, atendimento, criação) com gente própria e treinada; freelancer só como reforço. |
+
+### 4.1 Críticas éticas ao uso de Maquiavel nos negócios
+- **Galie & Bopst (2006, *Journal of Business Ethics*)**: os manuais transferem premissas que não cabem e ignoram as partes úteis (seção 1.9).
+- **Maity et al. (2024, *JBE*)**: a ética empresarial usa Maquiavel como espantalho do antiético; uma leitura completa (com os *Discursos*) é mais positiva (seção 1.9).
+- **Kirkus e Jeffrey Pfeffer** sobre Greene: falta de provas e exemplos isolados (seção 1.4).
+- **Literatura psicológica** (seção 3): o "maquiavelismo" prático não melhora o desempenho e aumenta comportamentos danosos.
+- **[Interpretação: conta Zuleide]** A crítica central: o executivo **não é príncipe**. O príncipe de Maquiavel responde pela vida e liberdade de um Estado, sem tribunal acima dele ("dove non è giudizio a chi reclamare", *Príncipe* XVIII). Uma empresa vive **dentro** de um Estado de leis, com tribunal, Procon, CONAR e clientes que escolhem. Por isso, as licenças de "entrar no mal" que ele admite para a salvação da pátria **não se transferem** para o lucro de uma empresa. O que se transfere é: realismo sobre as pessoas, ordem, armas próprias, reputação por feitos, base popular, decisão rápida e não ser odiado.
