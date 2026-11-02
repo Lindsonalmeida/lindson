@@ -1,0 +1,180 @@
+# Revisão de cobertura e lacunas — ciclo 1
+
+**Situação:** ciclo 1 concluído (conta Zuleide, 02/11/2026, ≈19h–21h UTC). Próximo ciclo: atacar as lacunas da seção 4 na ordem de prioridade indicada.
+
+Frente da revisão geral (`../REVISAO.md`). Não mexe em citações italianas (frente "Citações") nem decide contradições entre arquivos (frente "Contradições"); quando achou divergência nova, registrou na seção 5 para aquela frente.
+
+**Fontes novas abertas nesta frente (todas em 02/11/2026):** *Dizionario Biografico degli Italiani* (Treccani): "Machiavelli, Niccolò" (Giorgio Inglese, vol. 67, 2006), "Vettori, Francesco" (Simonetta, 2020), "Michelozzi, Niccolò", "Rucellai, Bernardo", "Gheri, Goro" (vol. 53, 2000), "Casavecchia, Filippo", "Buonaccorsi, Biagio"; *Enciclopedia machiavelliana* (Treccani, 2014): "Lettere" (J.-J. Marchand), "Vita di Castruccio Castracani" (A. Montevecchi), "Nature di uomini fiorentini" (Montevecchi), "Maschere" (P. Stoppelli), "Capitoli", "Apocrifi"; Vegécio, *Epitoma rei militaris* III.26 (latim, The Latin Library); Montesquieu, *Esprit des lois* XXI.20 (francês, Wikisource); Rousseau, *Contrat social* III.6 (francês, ed. 1762); Max Weber, *Politik als Beruf* (alemão, de.wikisource); S. Visentin, *Etica & Politica* 2004 (Spinoza); M. Sgarbi, *Etica & Politica* 2015 (Hegel); *O Príncipe* trad. Lívio Xavier (Os Pensadores, 3ª ed., 1983) e *Comentários sobre a primeira década* trad. Sérgio Bath (UnB, 3ª ed., 1994), OCR do Internet Archive; bibliografias de artigos acadêmicos brasileiros (edições em português).
+
+**Limites da rodada:** it.wikisource e la.wikisource recusaram acesso por excesso de pedidos (as outras frentes baixavam textos ao mesmo tempo); Edição Nacional continua fechada; os verbetes "Canti carnascialeschi" e "Rime" da *Enc. mach.* não foram achados no site.
+
+---
+
+## 1. Tabela de cobertura
+
+Níveis: **A** = capítulo por capítulo / documento por documento, com texto conferido; **B** = ficha própria com data, conteúdo e citação; **C** = menção com dado essencial; **—** = ausente. Situação: **ok** (já estava), **corrigido** (estava com erro ou nível baixo e foi completado nesta revisão), **faltava** (não estava e entrou agora), **aberto** (continua com lacuna; ver seção 4).
+
+### 1.1 Grandes obras e estrutura
+
+| Item | Arquivo | Nível | Situação |
+|---|---|---|---|
+| *O Príncipe*: dedicatória + 26 capítulos | `principe.md` 2 | A | ok (26/26 conferidos pela lista de títulos latinos) |
+| *Discursos*: dedicatória, 2 proêmios, 142 capítulos | `discursos.md` 2–4 (+ 41 fichas na 5) | A nas tabelas; B em 41 | ok (60 + 33 + 49, sem falta nem repetição; 101 capítulos só em tabela — aberto) |
+| *Arte da Guerra*: proêmio, 7 livros | `arte-da-guerra.md` 2 | A | ok |
+| *Arte da Guerra*: regras gerais do Livro VII | `arte-da-guerra.md` 3 e **3.1** | A | **corrigido**: as 27 regras agora confrontadas com Vegécio III.26 em latim (21 herdadas, 6 próprias; 3 mudanças de sentido) |
+| *História de Florença*: proêmio, 8 livros | `historia-de-florenca.md` 2 | A | ok |
+| *Vita di Castruccio* | `literatura.md` 10 | A | **corrigido**: carta de Buondelmonti (6/09/1520) e fontes de todos os ditos (Laércio/Traversari, Tegrimi, Dante) |
+| Teatro: *Mandragola*, *Clizia*, *Andria* | `literatura.md` 2–4 | A | ok |
+| *Belfagor* | `literatura.md` 5 | A | ok (folhas do autógrafo: ver seção 5) |
+| *Asino*, *Decennali*, *Capitoli* | `literatura.md` 6–8 | A | ok |
+| Poesia curta (sonetos, cantos, *Serenata*, epigramas) | `literatura.md` 9 | B | ok; atribuições dos cantos — aberto |
+| *Discorso intorno alla nostra lingua* | `literatura.md` 11 | B | ok |
+| Ensinamentos `../maquiavel-todos-ensinamentos.md` (248) | `principe.md`, `discursos.md`, `arte-da-guerra.md` | A | ok: 77 do *Príncipe* cobrem os 26 capítulos; 142 = 142 capítulos; 29 itens = 27 regras (2 divididas). **Observação:** a lista não traz lições da *História de Florença*, das legações, das cartas e dos poemas (estão nas seções "Uso pelo agente" de cada arquivo) |
+
+### 1.2 Escritos políticos curtos e de governo (lista mestra A.3)
+
+| Item | Arquivo | Nível | Situação |
+|---|---|---|---|
+| *Discorso* e *Squarcio* sobre Pisa (1499) | `missoes…` C.1 | A | ok |
+| *De rebus pistoriensibus* (1502) | C.2 | B | ok (texto não conferido — aberto) |
+| *Descrizione* de Senigália | C.3 | A | ok |
+| *Parole da dirle* (1503) | C.4 | A | ok |
+| *Valdichiana* (1503) | C.5 | A | ok |
+| *De natura Gallorum*, *Ritratto di Francia*, *Notula* | C.6 | A / A / C | ok (*Notula* sem texto — aberto) |
+| *Rapporto*, *Discorso*, *Ritratto* da Alemanha | C.7 | A | ok |
+| Ordenança: *Cagione*, *Provvisioni* 1506 e 1512, *Giribizzi*, *Consulto*, *Sul modo di ricostituire* | C.8 | B | ok (vários sem texto — aberto) |
+| *Ai Palleschi*, *Allocuzione* (= *Protestatio de iustitia*) | C.9, C.14 | A / B | **corrigido** (título do autógrafo) |
+| *Discursus*, *Frammento*, *Minuta* 1522 | C.10 | A / B / B | ok |
+| *Sommario di Lucca* | C.11 | A | ok |
+| *Istruzione a Raffaello Girolami* | C.12 | A | ok |
+| *Relazione* das muralhas e lei dos Procuradores (1526) | C.13, B.14 | B | **corrigido**: datas (5/04 e 18–19/05/1526), minuta autógrafa no ASF |
+| *Esortazione alla penitenza* | C.13 | A | **corrigido**: data 1526–1527? (DBI) |
+| *Nature di uomini fiorentini*, *Sentenze diverse*, extratos de cartas 1497–99, *Frammenti storici* | C.14 | B | **faltava** (a lista mestra os punha em L/HF, onde não estavam) |
+| Vítor de Vita, *Persecuções da África* | C.14 | B | **faltava** (lista mestra dizia "—") |
+| *Capitoli per una compagnia di piacere* | `literatura.md`; data em A.2 | B | **corrigido** (data 1519–20? pelo DBI) |
+
+### 1.3 Legações e missões
+
+| Item | Arquivo | Nível | Situação |
+|---|---|---|---|
+| Missões 1499–1512 (≈35) | `missoes…` B.1–B.13 | A nas principais, B nas outras | ok |
+| Gênova 1518 | B.1, B.14 | B | **corrigido** (março–abril, falência; DBI) |
+| Lucca 1520, Carpi 1521 | B.1, B.14, C.11 | A | ok |
+| Romanha/Faenza jun.–jul. 1525 | B.1, B.14 | B | **faltava** na tabela |
+| Veneza 1525 | B.1, B.14 | B | **corrigido** (fim de agosto; leitura corrente × Lettieri) |
+| Roma abr. 1526; campo da Liga e Cremona (9–14/09/1526); Módena (30/11–4/12/1526); Parma–Bolonha–Forlì (3/02–13/04/1527); Bracciano/Civitavecchia (mai. 1527) | B.1, B.14; `vida-e-cartas.md` 1 | B | **faltava** (antes: "1526: campo da Liga e Guicciardini", sem datas) |
+| Frase de Guicciardini, 18/07/1526: *"starassi a ridere degli errori degli uomini"* | B.14; `vida-e-cartas.md` 1 | B | **faltava** |
+
+### 1.4 Cartas
+
+| Item | Arquivo | Nível | Situação |
+|---|---|---|---|
+| 48 cartas de Maquiavel no Wikisource | `vida-e-cartas.md` 7–8 | A | ok |
+| Total do epistolário (c. 80 enviadas, c. 250 recebidas) | `vida-e-cartas.md` 8.A; `missoes…` A.5 | B | **corrigido** (era "c. 270 recebidas" sem fonte) |
+| Vettori 30/12/1514 ("non sono uomo che sappi aiutare gl'amici"); Ruffini 1502; carta "historico comico et tragico" (cem ducados); Vernacci (14 cartas); Sadoleto 6/07/1525 | `vida-e-cartas.md` 8.A | B | **faltava** |
+| Cartas recebidas não conferidas (Vettori 23/11/1513, Guicciardini 18/05/1521 etc.) | `vida-e-cartas.md` 10 | C | aberto |
+
+### 1.5 Obras perdidas, falsas e duvidosas
+
+| Item | Arquivo | Nível | Situação |
+|---|---|---|---|
+| *Le maschere* | `literatura.md` 12, 14.4; `missoes…` A.7 | B | **corrigido**: nota de Ricci transcrita; encomenda de Marcello Virgilio Adriani |
+| *La Sporta* (da *Aulularia*; Gelli) | `literatura.md` 12; `missoes…` A.2, A.7 | B | **faltava** |
+| Epigrama *"Sappi ch'io non son Argo"* (1526, duvidoso) | `missoes…` A.2, B.14 | C | **faltava** |
+| *Commedia in prosa*, *Commedia in versi*, *Dell'ira*, *Descrizione della peste*, *Mente di un uomo di Stato* | `missoes…` A.6; `literatura.md` 12 | B | ok (confirmado pelo DBI) |
+
+### 1.6 Pessoas
+
+| Item | Arquivo | Nível | Situação |
+|---|---|---|---|
+| 57 fichas/nomes de `frente-lindson/contexto-e-personagens.md` | `contexto-e-personagens.md` 3, `vida-e-cartas.md` 4 | B | ok (todos presentes) |
+| Francesco Vettori: data da morte | `contexto-e-personagens.md` 3; `vida-e-cartas.md` 4 | B | **corrigido**: **5/03/1540** (não 1539; epitáfio em estilo florentino — DBI) |
+| Niccolò Michelozzi (sucessor, 200 florins) | `contexto-e-personagens.md` 2.3 | B | **faltava** |
+| Goro Gheri | `contexto-e-personagens.md` 3 | B | **faltava** |
+| Bernardo Rucellai, Filippo Casavecchia | `contexto-e-personagens.md` 3, 7 | B | **corrigido** (datas; Casavecchia: morte desconhecida, última notícia 1/08/1520) |
+| Marcello Virgilio Adriani, Agostino Vespucci, Giovanni dalle Bande Nere, Vitellozzo Vitelli, Filippo Strozzi (1489–1538) — verbetes do DBI | `contexto-e-personagens.md` 7 | C | aberto (endereço do verbete não achado) |
+| Mulheres (Alfonsina Orsini, Clarice, Isabella d'Este etc.) | `contexto-e-personagens.md` 7 | C | aberto |
+
+### 1.7 Estudiosos e recepção por idioma
+
+| Idioma | Arquivo | Nível | Situação |
+|---|---|---|---|
+| Italiano | `recepcao…` 3.1, 3.5; todos os arquivos | A | ok; **+ Vivanti 2008, Ciliberto 2019** |
+| Inglês | `recepcao…` 1.5, 3.3, 3.6 | A | ok; **+ Celenza, Alison Brown, Zuckert, Rahe, Strathern; Kissinger** |
+| Francês | `recepcao…` 1.4, 2.2–2.4, 3.4 | A | **corrigido**: Montesquieu XXI.20 conferido em francês; **+ Barthas, Boucheron** |
+| Alemão | `recepcao…` 2.6, 3.2 | A | **corrigido**: Weber conferido em alemão (Kautilya; *Istorie* III.7); Hegel via tradução italiana |
+| Latim | `recepcao…` 1.13; `arte-da-guerra.md` 3.1 | B | **corrigido**: Spinoza V.7 (três adjetivos; X.1 = "acutissimo fiorentino"); Vegécio III.26 |
+| Espanhol | `recepcao…` 4.1–4.2 | B | ok; estudos específicos sobre *Istorie* e legações — aberto |
+| Português (traduções) | `principe.md` 7.3.1; `discursos.md` 8.5; `historia-de-florenca.md` 1.11; `arte-da-guerra.md` 6.4; `recepcao…` 4.4 | B | **corrigido**: Lívio Xavier (*Príncipe*) e Sérgio Bath (*Discursos* I.9 e III.41) conferidos; edições de *História de Florença* (Musa 1998, Martins Fontes 2007) e *Arte da Guerra* (Martins Fontes 2006, Hedra 2013, Martin Claret 2002, L&PM 2008) identificadas |
+| Português (estudiosos) | `recepcao…` 4.5 | B | ok |
+| Russo, chinês, japonês, árabe, holandês | `recepcao…` 3.7 | B/C | ok |
+| Polonês, coreano, hindi, turco | `recepcao…` 3.7, 8 | C/— | aberto |
+| Exposições e datas (2013, 2014, **500 anos da morte em 21/06/2027**) | `recepcao…` 3.9 | B | **faltava** |
+
+### 1.8 Material paralelo `frente-lindson/`
+
+Tudo comparado; o que foi levado e o que ficou de fora (e por quê) está registrado em `../frente-lindson/README.md`.
+
+---
+
+## 2. O que entrou nesta revisão (por arquivo, com commit)
+
+- `arte-da-guerra.md`: 3.1 (Vegécio × 27 regras); 6.4 (edições brasileiras).
+- `missoes-e-escritos-politicos.md`: A.2/A.5/A.7 (lista mestra completada); B.1 (7 linhas novas de 1525–1527); B.14 (Gênova e 1525–1527 em detalhe, frase de Guicciardini); C.14 (notas de trabalho do historiador, Vítor de Vita, *Protestatio*).
+- `vida-e-cartas.md`: cronologia 1526–1527; 8.A (epistolário em números e cartas que faltavam); Vettori 1540.
+- `literatura.md`: 10 (carta de Buondelmonti; fontes dos ditos); 12 (*Sporta*); 14.4 (lacunas 1, 3, 4, 6 fechadas).
+- `recepcao-e-estudiosos.md`: 1.13 (Spinoza corrigido), 2.4 (Montesquieu), 2.6 (Hegel), 3.2 (Weber), 3.9 (estudos, exposições, datas); 8 (lacunas).
+- `contexto-e-personagens.md`: Vettori 1540; Michelozzi; Gheri; 7 (lacunas).
+- `principe.md`: 7.3.1 (Lívio Xavier); 7.4.
+- `discursos.md`: 8.5 (Sérgio Bath).
+- `historia-de-florenca.md`: 1.11 e 5.6 (edições brasileiras; cartas de 1520 e 1525).
+- `frente-lindson/README.md`: registro do aproveitamento.
+
+---
+
+## 3. Lacunas fechadas nesta revisão (resumo)
+
+| Arquivo, lacuna | Como foi fechada |
+|---|---|
+| AG 6.4: Vegécio III.26 palavra por palavra | latim conferido, tabela 3.1 |
+| AG 6.4: tradução brasileira | 4 edições identificadas |
+| HF 5.6: tradução em português | Musa 1998 e Martins Fontes 2007 identificadas |
+| HF 5.6: cartas Della Palla e Zanobi (1520) | via *Enc. mach.* (Montevecchi) |
+| LIT 14.4 itens 1, 3, 4, 6 | Treccani aberta: Castruccio, Maschere |
+| VC 10: total de cartas | Marchand (*Enc. mach.*) |
+| CP 7: DBI de Rucellai, Michelozzi, Gheri; morte de Vettori e Casavecchia | DBI |
+| REC 8 item 1: Montesquieu, Spinoza, Hegel; item 3: Kautilya/Weber | originais ou estudos com o texto |
+| P 7.3: tradução portuguesa (a "mais importante") | Lívio Xavier conferido nas 5 passagens + *virtù* e *stato* |
+| D 8.5: tradução portuguesa (a "mais importante") | Sérgio Bath conferido em I.9 e III.41 |
+| M D.5 item 3: missões 1518 e 1525–1527 | datas e lugares pelo DBI |
+
+---
+
+## 4. Lacunas que ainda não dá para fechar (com motivo), em ordem de prioridade para o próximo ciclo
+
+1. **Traduções portuguesas modernas** (Maurício Santana Dias/Penguin 2010; D'Elia; Goldwasser; MF para *Discursos*, *Arte da Guerra* e *História de Florença*): texto protegido, não aberto. **Motivo:** sem acesso legal ao texto; tentar trechos em Google Books ou artigos que citem.
+2. **Edição Nacional** (*Legazioni*, *Lettere*, *Opere storiche*): fechada na rede. **Motivo:** não digitalizada. Datas e numeração das legações de 1506–1527 e cartas recebidas continuam pela tradição + DBI.
+3. **Textos curtos sem texto conferido** (*De rebus pistoriensibus*, *Notula*, *Provvisione seconda*, *Consulto*, *Sul modo di ricostituire*, *Minuta* 1522, *Relazione* das muralhas, *Sentenze diverse*, *Nature*, Vítor de Vita): **Motivo:** Wikisource bloqueou por excesso de pedidos nesta rodada; repetir com calma (um pedido por vez).
+4. **101 capítulos dos *Discursos* sem ficha detalhada** e **tabela única *Príncipe* × *Discursos*** (`discursos.md` 8.5.3; `principe.md` 7.5.4): trabalho grande, não é lacuna de fonte; fazer por prioridade (lista em `discursos.md` 8.5).
+5. **Ensinamentos fora do *Príncipe*, *Discursos* e *Arte da Guerra*** (`../maquiavel-todos-ensinamentos.md`): falta um bloco com lições da *História de Florença*, das legações, das cartas e dos poemas (o material existe nas seções "Uso pelo agente").
+6. **Verbetes da *Enc. mach.* não achados:** "Canti carnascialeschi", "Rime" (`literatura.md` 14.4 item 2 e 5). **Motivo:** endereço desconhecido; procurar pelo índice do vol. I.
+7. **DBI não achados:** Adriani, Vespucci/Nettucci, Giovanni dalle Bande Nere, Vitellozzo Vitelli (1502), Filippo Strozzi (1489–1538). **Motivo:** o endereço do verbete tem forma diferente; procurar pelo índice do DBI.
+8. **Diderot, verbete "Machiavélisme"**, Gentili, Pole, Bodin, Herder, Ranke, Hegel em alemão, Spinoza em latim: **Motivo:** páginas não encontradas ou bloqueadas (la.wikisource 429); tentar ARTFL/ENCCRE e Gallica.
+9. **Salário do segundo chanceler** (128 × 192 florins) e **lista de Boscoli** (posição do nome): só em documento de arquivo ou em Black 2013 / Marzi 1910 — não abertos.
+10. **Idiomas pouco cobertos** (polonês, coreano, hindi, turco; estudos espanhóis e alemães sobre *Istorie* e legações): sem fonte achada nesta rodada.
+11. **Cultura** (atores de *Borgia* e *Leonardo*, *The Office*, título brasileiro de Maugham) e **casos reais de empresas "maquiavélicas"** (`maquiavel-nos-negocios.md` 7): prioridade baixa para o agente.
+12. **Artigos de psicologia** (Christie & Geis 1970, O'Boyle 2012 etc., `maquiavel-nos-negocios.md` 7): pagos; só resumos.
+
+---
+
+## 5. Divergências novas achadas (passadas à frente de Contradições — não decididas aqui)
+
+| Ponto | Onde | Divergência | Fonte nova |
+|---|---|---|---|
+| Bairro do nascimento | `vida-e-cartas.md` 1 (1469) | "Santo Spirito (Oltrarno)" × DBI: "nel 'popolo' di S. Trinita" | DBI, Inglese 2006 |
+| Casamento | `vida-e-cartas.md` 1 (1501) | "agosto de 1501" × DBI: "outono de 1501" | DBI |
+| Folhas do *Belfagor* | `literatura.md` 5 | "Banco Rari 240, folhas 12v–56r" × DBI: "cc. 1r–12r" (datável 1519–20) | DBI |
+| *Mandrágora* em Veneza | `vida-e-cartas.md` 6.13 ("13/2/1522") × DBI (carnaval de 1526, carta de Manetti de 28/02/1526) | podem ser duas encenações; conferir | DBI; Marchand |
+| Data da carta de Manetti | Marchand: "28 febbraio 1525"; DBI: "28 febbr. 1526" | ano florentino provável (1525 fl. = 1526) | *Enc. mach.*; DBI |
+
+Já corrigidas por esta frente (fato novo de fonte primária ou verbete de referência): morte de Vettori (1540), contagem de cartas recebidas (c. 250), adjetivos de Spinoza (todos em V.7).
