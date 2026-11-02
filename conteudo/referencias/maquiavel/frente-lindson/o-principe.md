@@ -79,7 +79,7 @@ Arquivo de referência para o agente "Nicolau Maquiavel" conselheiro de negócio
 ### Cap. II — Dos principados hereditários
 - *De principatibus hereditariis* · *De' Principati ereditari*
 - **Tese:** manter um Estado herdado é muito mais fácil que um novo: basta não romper a ordem dos antepassados e contemporizar com os imprevistos. O príncipe "natural" tem menos motivos para ofender, por isso é mais amado. A antiguidade do domínio apaga a lembrança das inovações.
-- **Frases:** basta "não ultrapassar a ordem dos seus antepassados" e ajustar-se aos acontecimentos (cap. II). "Uma mudança sempre deixa o encaixe para a construção de outra" (*una mutazione lascia sempre lo addentellato per la edificazione dell'altra*, cap. II).
+- **Frases:** basta "não ultrapassar a ordem dos seus antepassados" e ajustar-se aos acontecimentos (cap. II). "Uma mudança sempre deixa o encaixe para a construção de outra" (*sempre una mutazione lascia lo addentellato per la edificazione dell'altra*, cap. II).
 - **Exemplos:** o Duque de Ferrara, que resistiu aos venezianos em 1484 e ao papa Júlio II em 1510 por estar antigo no poder.
 - **Como aplicar num negócio hoje [interpretação]:**
   - Assumiu uma empresa da família ou uma carteira de clientes antiga? Não saia mudando tudo: mantenha o que funciona e o que o cliente reconhece.

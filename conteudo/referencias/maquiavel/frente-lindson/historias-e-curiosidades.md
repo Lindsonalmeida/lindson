@@ -35,7 +35,7 @@ O mesmo caderno do pai registra os mestres do menino: aos 7 anos, Matteo; depois
 *Fonte:* *Libro di ricordi*; Ridolfi; S. Bertelli, "Noterelle machiavelliane", *Rivista Storica Italiana* (1961); Alison Brown, *The Return of Lucretius to Renaissance Florence* (2010).
 
 ### 1.3 O jovem que foi ouvir Savonarola (1498) [FATO]
-Em 9 de março de 1498, ainda sem cargo público, Maquiavel escreveu ao embaixador florentino em Roma, Ricciardo Becchi, descrevendo dois sermões de frei Girolamo Savonarola. O tom já é o dele: frio, irônico, atento à técnica. Diz que o frade "vai acompanhando os tempos e colorindo suas mentiras" ("va secondando e' tempi e le sue bugie colorendo"). Semanas depois Savonarola caiu e foi queimado (23 de maio de 1498). No *Príncipe* (cap. 6) ele virou o exemplo do "profeta desarmado", que se arruína porque não tem força para obrigar os que deixam de acreditar.
+Em 9 de março de 1498, ainda sem cargo público, Maquiavel escreveu ao embaixador florentino em Roma, Ricciardo Becchi, descrevendo dois sermões de frei Girolamo Savonarola. O tom já é o dele: frio, irônico, atento à técnica. Diz que o frade "vai acompanhando os tempos e colorindo suas mentiras" ("viene secondando e' tempi, et le sua bugie colorendo"). Semanas depois Savonarola caiu e foi queimado (23 de maio de 1498). No *Príncipe* (cap. 6) ele virou o exemplo do "profeta desarmado", que se arruína porque não tem força para obrigar os que deixam de acreditar.
 *Fonte:* *Lettere*, a R. Becchi, 9/3/1498; *Príncipe*, cap. 6.
 
 ### 1.4 A eleição para a Segunda Chancelaria (1498) [FATO]
@@ -338,28 +338,28 @@ Já velho e com fama de comediógrafo, Maquiavel assinou uma carta a Francesco G
    Original: "vorrebbono un predicatore che insegnassi loro la via del Paradiso, e io vorrei trovarne uno che insegnassi loro la via di andare a casa il diavolo." — Carta a F. Guicciardini, 17/5/1521.
 
 5. **"De manhã brigo com lenhadores, de tarde xingo um moleiro no gamão. À noite tiro a roupa de lama, visto as roupas da corte e vou conversar com os antigos. Eles me respondem — e por quatro horas não temo a pobreza nem a morte."**
-   Original (trecho): "Venuta la sera, mi ritorno in casa et entro nel mio scrittoio; et in su l'uscio mi spoglio quella veste cotidiana, piena di fango et di loto, et mi metto panni reali et curiali... et per quattro hore di tempo non sento alcuna noia, sdimenticho ogni affanno, non temo la povertà, non mi sbigottisce la morte." — Carta a F. Vettori, 10/12/1513.
+   Original (trecho): "Venuta la sera, mi ritorno in casa et entro nel mio scrittoio; et in su l'uscio mi spoglio quella veste cotidiana, piena di fango et di loto, et mi metto panni reali et curiali... e non sento per quattro hore di tempo alcuna noia, sdimentico ogni affanno, non temo la povertà, non mi sbigottisce la morte." — Carta a F. Vettori, 10/12/1513.
 
 6. **"Quem foi fiel e honesto por quarenta e três anos não muda de natureza agora. A prova da minha lealdade? A minha pobreza."**
    Original: "chi è stato fedele et buono quarantatré anni, che io ho, non debbe potere mutare natura; et della fede et bontà mia ne è testimonio la povertà mia." — Carta a F. Vettori, 10/12/1513.
 
 7. **"Eu aceitaria trabalhar para eles nem que fosse para começar empurrando uma pedra."**
-   Original: "il desiderio che io ho che questi signori Medici mi comincino adoperare, se dovessino cominciare a farmi voltolare un sasso." — Carta a F. Vettori, 10/12/1513.
+   Original: "Appresso al desiderio harei che questi signori Medici mi cominciassino adoperare, se dovessino cominciare a farmi voltolare un sasso." — Carta a F. Vettori, 10/12/1513.
 
 8. **"A fortuna quis que eu não soubesse falar nem de seda, nem de lã, nem de lucros e perdas. Só sei falar do Estado. Então, ou fico calado, ou falo disso."**
    Original: "la Fortuna ha fatto che, non sapendo ragionare né dell'arte della seta né dell'arte della lana, né de' guadagni né delle perdite, e' mi conviene ragionare dello stato, et mi bisogna o botarmi di stare cheto, o ragionare di questo." — Carta a F. Vettori, 9/4/1513.
 
 9. **"Fico então aqui, entre os meus piolhos, sem achar ninguém que se lembre dos meus serviços."**
-   Original: "Così adunque mi starò tra i miei pidocchi, sanza trovare uomo che della servitù mia si ricordi." — Carta a F. Vettori, 10/6/1514.
+   Original: "Starommi dunque così tra' miei pidocchi, senza trovare huomo che della servitù mia si ricordi." — Carta a F. Vettori, 10/6/1514.
 
 10. **"Seis puxões de corda nas costas. E aguentei com tanta firmeza que, confesso, fiquei gostando um pouco mais de mim."**
-    Original: "Io ho, Giuliano, in gamba un paio di geti / con sei tratti di fune in su le spalle" (soneto, 1513) + "li ho sopportati con tanta franchezza che io stesso me ne voglio bene" — Carta a F. Vettori, 18/3/1513.
+    Original: "Io ho, Giuliano, in gamba un paio di geti / con sei tratti di fune in su le spalle" (soneto, 1513) + "gli ho portati tanto francamente, che io stesso me ne voglio bene" — Carta a F. Vettori, 18/3/1513.
 
 11. **"Mandei uns tordos ao Magnífico. Não por serem bons ou bonitos: só para que ele se lembrasse do pobre Maquiavel."**
     Original: "Io vi mando, Giuliano, alquanti tordi, / non perché questo don sia buono o bello, / ma perché un po' del pover Machiavello / Vostra Magnificenza si ricordi." — Soneto a Giuliano de' Medici, 1513.
 
 12. **"Quem lesse as nossas cartas acharia que somos homens graves, só pensando em coisas sérias. Vira a página e somos levianos, inconstantes, lascivos. Não é defeito: é imitar a natureza, que é variada."**
-    Original (sentido): "Chi vedesse le nostre lettere... gli parrebbe che noi fussimo uomini gravi, tutti volti a cose grandi... Però, dipoi, voltando carta, gli parrebbe... che noi fussimo leggieri, inconstanti, lascivi... Questo modo di procedere... noi imitiamo la natura, che è varia." — Carta a F. Vettori, 31/1/1515.
+    Original: "Chi vedesse le nostre lettere... gli parrebbe hora che noi fussimo huomini gravi, tutti vòlti a cose grandi... Però dipoi, voltando carta, gli parrebbe quelli noi medesimi essere leggieri, inconstanti, lascivi, vòlti a cose vane. Questo modo di proccedere... noi imitiamo la natura, che è varia." — Carta a F. Vettori, 31/1/1515.
 
 13. **"Sempre achei que Boccaccio tinha razão: é melhor fazer e se arrepender do que não fazer e se arrepender."**
     Original: "Io credo, credetti e crederò sempre che sia vero quello che dice il Boccaccio: che gli è meglio fare e pentirsi, che non fare e pentirsi." — Carta a F. Vettori, 25/2/1514.
@@ -368,10 +368,10 @@ Já velho e com fama de comediógrafo, Maquiavel assinou uma carta a Francesco G
     Original (sentido): "...ho lasciato dunque i pensieri delle cose grandi et gravi; non mi diletta più leggere le cose antiche, né ragionare delle moderne..." — Carta a F. Vettori, 3/8/1514.
 
 15. **"Cada um se governa segundo a sua fantasia. Feliz de quem tem um temperamento que combina com o seu tempo."**
-    Original (sentido): "ciascuno secondo la sua fantasia si governi" e "colui che riscontra el modo del procedere suo con el tempo" — Carta a G. B. Soderini ("Ghiribizzi"), Perúgia, set. 1506.
+    Original: "ciascuno secondo lo ingegno et fantasia sua si governa" e "quello è felice che riscontra el modo del procedere suo con el tempo" — Carta a G. B. Soderini ("Ghiribizzi"), Perúgia, set. 1506.
 
 16. **"Mulo louco a gente trata ao contrário dos outros loucos: os outros se amarram; esse, solta."**
-    Original: "perché gli è impazzato, si vuole governarlo al contrario degli altri pazzi; perché gli altri pazzi si legano, e io voglio che tu lo sciolga." — Carta ao filho Guido, 2/4/1527.
+    Original: "El mulettino, poi che gli è impazzato, si vuole trattarlo al contrario degli altri pazzi; perchè gli altri pazzi si legano, ed io voglio che tu lo sciolga." — Carta ao filho Guido, 2/4/1527.
 
 17. **"Os frades da república dos tamancos me tratam como um príncipe — graças aos mensageiros suados que o meu amigo Guicciardini manda de propósito."**
     Original: a expressão "repubblica degli zoccoli" e o relato da chegada dos mensageiros. — Cartas a F. Guicciardini, maio de 1521. [paráfrase do relato]

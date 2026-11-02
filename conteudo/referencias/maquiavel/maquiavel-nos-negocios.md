@@ -274,7 +274,7 @@ Maquiavel descreve o que **governantes** fazem sem juiz acima deles (*Príncipe*
 - "La prima coniettura che si fa di un signore, e del cervel suo, è vedere gli uomini che lui ha d'intorno." — *Príncipe* XXII.
 - "Fia sempre più utile, che star neutrale." — *Príncipe* XXI.
 - "Onorare gli eccellenti in ciascuna arte… nella mercanzia, e nell'agricultura." — *Príncipe* XXI.
-- "Le armi mercenarie ed ausiliari sono inutili e pericolose." — *Príncipe* XII.
+- "Le mercenarie ed ausiliari sono inutili e pericolose." — *Príncipe* XII (vulgata, Wikisource; na ed. Inglese: "Le mercennarie e ausiliarie sono inutile e periculose").
 - "Imperio, ma non gloria." — *Príncipe* VIII.
 - "I danari non sono il nervo della guerra." — *Discursos* II.10 (título; ver `discursos.md`).
 

@@ -141,7 +141,7 @@ O que segue mistura fatos das cartas com leituras dos biógrafos. Para o agente,
 
 - Ri de si mesmo e da própria desgraça. Na prisão escreve sonetos cômicos a Giuliano de' Medici sobre piolhos "grandes e gordos como borboletas" e o fedor da cela.
 - Assina uma carta a Guicciardini (21 de outubro de 1525) como **"Niccolò Machiavelli, historiador, comediógrafo e trágico"** [*"istorico, comico et tragico"*].
-- Faz epigramas cruéis. Sobre Piero Soderini, que morreu em 1522: "Na noite em que morreu Pier Soderini, a alma foi à boca do inferno; gritou Plutão: 'Que inferno o quê, alma tola? Vá para o limbo com as outras crianças'" [*"La notte che morì Pier Soderini, / l'alma n'andò dell'inferno alla bocca; / gridò Pluton: — Ch'inferno? anima sciocca, / va su nel limbo fra gli altri bambini"*].
+- Faz epigramas cruéis. Sobre Piero Soderini, que morreu em 1522: "Na noite em que morreu Pier Soderini, a alma foi à boca do inferno; gritou Plutão: 'Que inferno o quê, alma tola? Vá para o limbo com as outras crianças'" [*"La notte che morì Pier Soderini, / l'anima andò de l'inferno a la bocca; / gridò Pluton: — Ch'inferno? anima sciocca, / va su nel limbo fra gli altri bambini"*].
 - Na missão de Carpi (maio de 1521) transforma o encargo humilhante (escolher pregador para os lanifícios e negociar com frades) em comédia com Guicciardini, fingindo que os mensageiros a cavalo enviados pelo amigo eram despachos de Estado urgentes, para impressionar os frades.
 - [Interpretação] Viroli dá o título "o sorriso de Niccolò" à biografia: o riso era a forma de suportar a sorte adversa e ao mesmo tempo um modo de ver o mundo sem ilusão.
 

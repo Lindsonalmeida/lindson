@@ -136,9 +136,9 @@ Pontos principais (conferidos no italiano):
 
 - **Texto (Dedicatória):** ele próprio aponta os discursos como o lugar onde se vê que não é bajulador, porque mantêm "sem reserva" o temperamento de quem fala (ver 1.5, item 6).
 - **Fato:** são cerca de **20 discursos diretos longos** (levantamento nosso no texto, contando falas com mais de ~600 caracteres): II.34 (Senhoria ao duque de Atenas), III.5 (cidadão anônimo à Senhoria), III.11 (Luigi Guicciardini às Artes), III.13 (o Ciompo anônimo), III.23 (Benedetto Alberti ao partir para o exílio), IV.16 (Giovanni di Bicci aos filhos), IV.21 (os de Seravezza aos Dez), IV.27 (Niccolò da Uzzano a Niccolò Barbadori), IV.29 (Federigo Malavolti a Cosimo preso), IV.33 (Rinaldo degli Albizzi ao papa Eugênio IV), V.8 (Rinaldo ao duque de Milão), V.11 (ancião de Lucca), V.21 (Neri Capponi ao Senado de Veneza), V.35 (Niccolò Piccinino a Neri), VI.20 (embaixador milanês a Francesco Sforza), VII.18 (troca de cartas Agnolo Acciaiuoli–Piero de' Medici), VII.23 (Piero de' Medici aos chefes do seu partido), VIII.10 (Lorenzo à Senhoria após os Pazzi). Há ainda falas em discurso indireto importantes: IV.9 (Rinaldo), IV.10 (Giovanni di Bicci), VI.21 (Sforza), VII.19 (exilados ao doge).
-- **Por que importam:** **Texto indireto (relato de Donato Giannotti)** — numa carta a Marcantonio Michiel (data dada pela literatura: 30/06/1533; **não conferida**), Giannotti, republicano antimédici, conta que Maquiavel lhe disse (citado por Varotti a partir de L. A. Ferrari, *Lettere inedite di Donato Giannotti*, 1884–85):
+- **Por que importam:** **Texto indireto (relato de Donato Giannotti)** — numa carta a Marcantonio Michiel (data dada pela literatura: 30/06/1533; **não conferida**), Giannotti, republicano antimédici, conta que Maquiavel lhe disse (citado por Varotti a partir de L. A. Ferrari, *Lettere inedite di Donato Giannotti*, 1884–85; conferido na revisão de citações na transcrição de Robert Black, prefácio aos *Scritti storici* da ed. Bompiani 2018, que traz *anco* e *ch'io*):
 
-  > "Io non posso scrivere questa Istoria da che Cosimo prese lo stato sino alla morte di Lorenzo come la scriverei se fossi libero da tutti i rispetti [...] E chi vorrà intendere questo, noti molto bene quello che io farò dire ai suoi avversari, perché quello che non vorrò dire io, come da me, lo farò dire ai suoi avversari"
+  > "Io non posso scrivere questa Istoria da che Cosimo prese lo stato sino alla morte di Lorenzo come la scriverei se fossi libero da tutti i rispetti [...] E chi vorrà anco intendere questo, noti molto bene quello ch'io farò dire ai suoi avversari, perché quello che non vorrò dire io, come da me, lo farò dire ai suoi avversari"
   >
   > "Não posso escrever esta história, de quando Cosimo tomou o poder até a morte de Lorenzo, como a escreveria se estivesse livre de todos os respeitos [...] E quem quiser entender isso, repare bem no que farei dizer os seus adversários, porque o que eu não quiser dizer como meu, farei os seus adversários dizerem."
 
@@ -697,7 +697,7 @@ Pontos principais (conferidos no italiano):
 ### 4.4 Lorenzo de' Medici, o Magnífico (1449–1492) — VII.24; VIII
 
 - **Jovem:** «caldo di gioventù e di potenza» (VIII.3), quer tudo passando por ele — e isso cria os Pazzi.
-- **Depois dos Pazzi:** discurso à cidade (VIII.10); viagem a Nápoles, onde o rei se espanta com «la grandezza dello animo suo e della destrezza dello ingegno e gravità del iudizio» (VIII.19).
+- **Depois dos Pazzi:** discurso à cidade (VIII.10); viagem a Nápoles, onde o rei se espanta com «della grandezza dello animo suo e della destrezza dello ingegno e gravità del iudizio» (VIII.19).
 - **Retrato final (VIII.36):**
   - política: "fiel da balança" da Itália; fortalezas nas fronteiras (Firenzuola, Poggio Imperiale, Sarzana, Pietrasanta); pagava os Baglioni, os Vitelli e controlava Faenza como «propugnacoli»;
   - família: o filho Giovanni **cardeal antes dos 14 anos** — «una scala da potere fare salire la sua casa in cielo» (o futuro Leão X);

@@ -214,7 +214,7 @@ Formato: **datas** · **quem foi** · **ligação com Maquiavel** · **onde apar
 **Clemente VII (Giulio de' Medici, 26/5/1478 – 25/9/1534; papa de 19/11/1523)**
 - **Fato documentado:** filho ilegítimo de Giuliano di Piero (morto na conjura dos Pazzi, 26/4/1478) e criado por Lourenço; cardeal em 1513; governa Florença de 1519 a 1523; como papa oscila entre França e Império; Liga de Cognac (1526); Saque de Roma (1527); em 1529 faz as pazes com Carlos V (Barcelona) e o coroa em Bolonha (1530); recupera Florença para a família (1530).
 - **Ligação com Maquiavel:** contratação das *Istorie fiorentine* (8/11/1520) e entrega (maio–junho de 1525; os "120 ducados" de Ridolfi não estão conferidos em documento — ver `historia-de-florenca.md` 1.4); projeto da milícia da Romanha (1525); Procuradores das Muralhas (1526).
-- **Lição [Interpretação]:** a irresolução também é uma decisão, quase sempre a pior; eco de *Discorsi* I.38 e II.15 ("le deliberazioni lente sono sempre nocive"; ver `discursos.md`).
+- **Lição [Interpretação]:** a irresolução também é uma decisão, quase sempre a pior; eco de *Discorsi* I.38 e II.15 ("sempre le diliberazioni lente sono nocive", título de II.15; ver `discursos.md`).
 
 ### 3.2 Os Médici (árvore mínima para não confundir)
 
