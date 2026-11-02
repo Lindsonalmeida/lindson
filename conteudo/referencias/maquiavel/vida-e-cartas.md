@@ -328,7 +328,7 @@ Seção nova (conta Lindson, 02/11/2026). Fonte principal: `frente-lindson/histo
 
 ## 7. Conferência das cartas no original italiano
 
-**Como foi feito (conta Lindson, 02/11/2026):** as 48 cartas de Maquiavel transcritas em it.wikisource.org ("Lettere (Machiavelli)", texto de edição oitocentista, marcado "SAL 25%", isto é, revisão incompleta) foram baixadas e cada trecho citado neste arquivo foi procurado no texto. A Edizione Nazionale (*Lettere*, Salerno) e a edição Gaeta não estavam acessíveis; quando o Wikisource diverge delas em data, isso é dito. **Não estão no Wikisource** (links vermelhos): a carta a Guido (2/4/1527), a carta a Alfonsina Orsini e a "Lettera XX a Francesco Vettori"; e também não as cartas dos *Ghiribizzi* (1506), a de 10/6/1514? (está: Lettera XVIII), a "a una gentildonna" (1512) e as cartas **recebidas** (de Vettori, Guicciardini, Marietta, Buonaccorsi).
+**Como foi feito (conta Lindson, 02/11/2026):** as 48 cartas de Maquiavel transcritas em it.wikisource.org ("Lettere (Machiavelli)", texto de edição oitocentista, marcado "SAL 25%", isto é, revisão incompleta) foram baixadas e cada trecho citado neste arquivo foi procurado no texto. A Edizione Nazionale (*Lettere*, Salerno) e a edição Gaeta não estavam acessíveis; quando o Wikisource diverge delas em data, isso é dito. **Não estão no Wikisource:** com link vermelho, a carta a Guido (2/4/1527), a carta a Alfonsina Orsini e a "Lettera XX a Francesco Vettori"; fora da lista, os *Ghiribizzi* (1506), a carta "a una gentildonna" (1512) e todas as cartas **recebidas** (de Vettori, Guicciardini, Marietta, Buonaccorsi).
 
 ### 7.1 Datas: o problema do ano florentino
 O Wikisource conserva as datas *more florentino* (o ano começava em 25 de março). Equivalências conferidas:
@@ -390,7 +390,7 @@ O Wikisource conserva as datas *more florentino* (o ano começava em 25 de març
 | 25/8/1513 | Vettori | Pedido de favor para Donato del Corno | "Sono a li vostri comandi" | Usa a rede para os amigos, não só para si |
 | 19/12/1513 | Vettori | Um frade franciscano "meio eremita", que se faz de profeta para ter crédito, prega em Santa Croce o anúncio de um papa injusto e falsos profetas; Maquiavel não foi ouvir | "questa nostra città, calamita di tutti i ciurmatori del mondo"; "La predica io non la udi', perché io non uso simili pratiche, ma la ho sentita recitare così da tutto Firenze" | Ceticismo frente aos "profetas" do mercado; Florença como ímã de charlatães |
 | 5/1/1514 | Vettori | Defende Vettori das fofocas romanas: o homem bom "fa come il mosto mentre bolle, che dà del sapore suo a' vasi che sanno di muffa, et non piglia della muffa de' vasi" | "seguite gli instituti vostri" | Siga o seu método, deixe falar |
-| 25/2/1514 | Vettori | Conselho amoroso a Vettori, com Boccaccio | "è meglio fare et pentirsi, che non fare et pentirsi" | Arrependimento por agir vale mais que por omissão (frase de Boccaccio, *Decameron* III.5, que ele adota) |
+| 25/2/1514 | Vettori | Conselho amoroso a Vettori, com Boccaccio | "è meglio fare et pentirsi, che non fare et pentirsi" | Arrependimento por agir vale mais que por omissão (ele a atribui a Boccaccio; localização no *Decameron* não conferida) |
 | 26/12/1521 | Vettori, gonfaloniere | Recomenda um amigo ("Parigino"); assina "Obligatissimus", "in villa" | "con il quale io ho tanti oblighi che Dio il voglia che io possa un dì pagarli" | — |
 | 3/8/1525 | Guicciardini | Foi ver a propriedade de **Colombaia**, que Guicciardini queria comprar, e relata como um corretor | — | O "consultor" que vê o negócio com olho de dono |
 | 17/8/1525 | Guicciardini | Receita das pílulas (ver 6.14) | "Recipe Aloè patico..." | — |
@@ -415,7 +415,7 @@ Complementa a seção 5 [Interpretação, conta Lindson]:
 
 ## 10. Lacunas (para a próxima rodada)
 
-- Conferir na **Edizione Nazionale** (*Lettere*, Salerno, 2022?) ou em Gaeta: data da carta a Becchi (8 ou 9/3/1498); data de 21/10/1525 da carta "historico, comico et tragico"; carta a Guido (2/4/1527); carta a Alfonsina Orsini; *Ghiribizzi* (1506); "a una gentildonna" (1512).
+- Conferir na **Edizione Nazionale** (volume das *Lettere*, Salerno Editrice) ou em Gaeta: data da carta a Becchi (8 ou 9/3/1498); data de 21/10/1525 da carta "historico, comico et tragico"; carta a Guido (2/4/1527); carta a Alfonsina Orsini; *Ghiribizzi* (1506); "a una gentildonna" (1512).
 - **Cartas recebidas** (Vettori 23/11/1513, Guicciardini 18/5/1521 "extravagante di opinione", Marietta 24/11/1503, Buonaccorsi, Vespucci, Casavecchia, Ardinghelli a Giuliano 14/2/1515): não estão no Wikisource; continuam "não conferidas no original".
 - **Legazioni**: despachos de Urbino (26/6/1502), Cesena (26/12/1502), Senigália (31/12/1502), Roma (nov. 1503) não conferidos no original; ver `missoes-e-escritos-politicos.md`.
 - Lettera VI a Vettori (sem fim no Wikisource: "manca il fine") e Lettera XVII a Vettori (o Wikisource junta texto de 1513 e assinatura de 16/4/1514: conferir a divisão em edição crítica).
