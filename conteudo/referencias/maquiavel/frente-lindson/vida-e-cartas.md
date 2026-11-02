@@ -56,10 +56,10 @@ Base de referência para o agente "Maquiavel conselheiro de negócios". Objetivo
 - **1499, 1º de outubro** — O condottiero Paolo Vitelli, suspeito de traição na guerra contra Pisa, é decapitado em Florença. Maquiavel defende a execução por escrito (carta a um chanceler de Lucca).
 - **1500** — O cerco de Pisa com mercenários suíços e gascões fracassa (os soldados se amotinam por pagamento). Base da raiva dele contra mercenários (*Príncipe* XII).
 - **1500, maio** — Morre o pai, Bernardo.
-- **1500, julho – 1501, janeiro** — **Primeira missão à França**, à corte de **Luís XII**, com Francesco della Casa. Florença era vista como fraca e caloteira. Conversa famosa com o cardeal de Rouen (Georges d'Amboise), contada no *Príncipe* III: o cardeal disse que os italianos não entendiam de guerra; Maquiavel respondeu que os franceses não entendiam de política (*"de lo stato"*).
-- **1501, agosto** — Casa-se com **Marietta Corsini**. Tiveram ao menos seis filhos que chegaram à idade adulta ou quase (Primerana, Bernardo, Ludovico, Guido, Piero, Bartolomea "Baccina", Totto). A única carta de Marietta que sobreviveu (24 de novembro de 1503, durante a missão em Roma) mostra afeto e saudade.
+- **1500, julho – 1501, janeiro** — **Primeira missão à França**, à corte de **Luís XII**, com Francesco della Casa. Florença era vista como fraca e caloteira. Conversa famosa com o cardeal de Rouen (Georges d'Amboise), em Nantes, no outono de 1500, contada no *Príncipe* III: o cardeal disse que os italianos não entendiam de guerra; Maquiavel respondeu que os franceses não entendiam de política (*"de lo stato"*).
+- **1501, agosto ou outono** — Casa-se com **Marietta Corsini** (o DBI, Inglese 2006, diz "no outono de 1501"; várias biografias dizem agosto). Tiveram **sete filhos conhecidos** (DBI): Primerana, Bernardo (1503), Lodovico (1504–1530), Guido (1512/13?–1567, padre), Piero (1514–1564), Bartolomea "Baccina" e Totto. A única carta de Marietta que sobreviveu (24 de novembro de 1503, durante a missão em Roma) mostra afeto e saudade.
 - **1502, junho** — Missão com o bispo Francesco Soderini a **César Bórgia**, o Duque Valentino, em Urbino (22–26 de junho), logo após o duque tomar a cidade de surpresa.
-- **1502, agosto–setembro** — **Piero Soderini** é eleito *gonfaloniere* vitalício (assume em 1º de novembro). Maquiavel vira homem de confiança dele (os inimigos o chamavam de *"mannerino"* de Soderini — o "carneirinho" dele).
+- **1502, 26 de agosto e 22 de setembro** — Lei que cria o *gonfaloniere* vitalício (26/8) e eleição de **Piero Soderini** pelo Grande Conselho (22/9, DBI); assume em 1º de novembro. Maquiavel vira homem de confiança dele (os inimigos o chamavam de *"mannerino"* de Soderini — o carneiro-guia, "homem de mão" dele; o apelido aparece em 1507, segundo o cronista Cerretani, citado no DBI, verbete Vettori, 2020).
 - **1502, outubro – 1503, janeiro** — **Legação junto a César Bórgia** (Ímola, Cesena, Senigália). Assiste por dentro à crise dos capitães revoltados (dieta da Magione) e à armadilha de **Senigália (31 de dezembro de 1502)**, onde o duque prende e manda estrangular Vitellozzo Vitelli e Oliverotto da Fermo (os Orsini morrem em 18 de janeiro de 1503).
 - **1503, março** — Escreve *Parole da dirle sopra la provisione del danaio* (discurso para convencer o Grande Conselho a votar impostos para um exército): "sem força as cidades não se mantêm".
 - **1503, verão** — *Del modo di trattare i popoli della Valdichiana ribellati*: "o mundo sempre foi habitado por homens que tiveram sempre as mesmas paixões".
@@ -76,7 +76,7 @@ Base de referência para o agente "Maquiavel conselheiro de negócios". Objetivo
 - **1509, 14 de maio** — Batalha de Agnadello: Veneza é esmagada pela Liga de Cambrai.
 - **1509, 8 de junho** — **Pisa se rende** a Florença depois de quinze anos de guerra. Maquiavel, que comandou o bloqueio com a milícia, assina a capitulação. Amigos da chancelaria (como Agostino Vespucci e Filippo Casavecchia) escrevem-lhe felicitações. Ponto alto da carreira.
 - **1509, novembro–dezembro** — Missões em Mântua e Verona.
-- **1510, junho–setembro** — Terceira missão à França (Blois). Daí o *Ritratto di cose di Francia* (c. 1510).
+- **1510, junho–outubro** — Terceira missão à França (Lyon, Blois) (DBI: "giugno-ottobre"). Daí o *Ritratto di cose di Francia* (c. 1510).
 - **1511, setembro** — Quarta missão à França, ligada ao concílio cismático de Pisa contra Júlio II, que Florença hospedou (erro político que o papa não perdoou). Organiza também a cavalaria da milícia (1511–1512).
 - **1512, 11 de abril** — Batalha de Ravena; os franceses vencem mas saem da Itália logo depois. A Liga Santa (papa + Espanha) decide restaurar os Médici.
 - **1512, 29–30 de agosto** — **Saque de Prato** pelo exército espanhol de Ramón de Cardona. A milícia florentina foge praticamente sem combater. Centenas de mortos (as fontes da época falam em milhares).
@@ -87,37 +87,37 @@ Base de referência para o agente "Maquiavel conselheiro de negócios". Objetivo
 
 ### Prisão, tortura e exílio (1513–1519)
 
-- **1513, fevereiro** — Descobre-se a conspiração de Pietro Paolo Boscoli e Agostino Capponi contra os Médici. Numa lista caída do bolso de Boscoli há cerca de vinte nomes, entre eles o de Maquiavel. **Preso** nas Stinche, é submetido ao **strappado** (*"la fune"*): mãos amarradas nas costas, içado por uma corda e solto em queda. Ele próprio conta, no soneto a Giuliano de' Medici: "tenho, Giuliano, nas pernas um par de grilhões, com **seis tratos de corda** nas costas" [*"Io ho, Giuliano, in gamba un paio di geti / con sei tratti di fune in su le spalle"*]. Não confessou nada (não havia o que confessar).
+- **1513, fevereiro** — (Datas: a prisão costuma ser posta logo depois de 18–19/2, porque o bando que mandava procurá-lo é de 19/2/1513; o DBI, Inglese 2006, dá "12 febbr. 1513", data que o bando contradiz — divergência registrada em `revisao/contradicoes.md`.) Descobre-se a conspiração de Pietro Paolo Boscoli e Agostino Capponi contra os Médici. Numa lista caída do bolso de Boscoli há cerca de vinte nomes, entre eles o de Maquiavel. **Preso** nas Stinche, é submetido ao **strappado** (*"la fune"*): mãos amarradas nas costas, içado por uma corda e solto em queda. Ele próprio conta, no soneto a Giuliano de' Medici: "tenho, Giuliano, nas pernas um par de grilhões, com **seis tratos de corda** nas costas" [*"Io ho, Giuliano, in gamba un paio di geti / con sei tratti di fune in su le spalle"*]. Não confessou nada (não havia o que confessar).
 - **1513, 19 de fevereiro — o "bando"** — Em 2013 Stephen Milner (Universidade de Manchester, então professor visitante na Villa I Tatti, Harvard) encontrou no Arquivo de Estado de Florença o **bando original** lido pelo pregoeiro Domenico di Nofri em cerca de 50 pontos da cidade em 19 de fevereiro de 1513, mandando Maquiavel se apresentar em uma hora, sob pena de rebelião; achou também os pagamentos a quatro cavaleiros que o procuraram pelas ruas. Fonte (inglês): I Tatti, "The banishment and arrest of Niccolò Machiavelli" (itatti.harvard.edu) e University of Manchester, "'Most wanted notice' marking Machiavelli's downfall found" (fev. 2013). [Interpretação de Milner] não há prova de que os Médici tenham lido *O Príncipe*.
 - **1513, 23 de fevereiro** — Boscoli e Capponi são executados.
 - **1513, 11 de março** — O cardeal Giovanni de' Medici é eleito papa **Leão X**. Anistia geral; Maquiavel é solto por volta de 12 de março.
 - **1513, 13 e 18 de março** — Cartas a Vettori (embaixador em Roma) agradecendo e pedindo ajuda para voltar a servir.
 - **1513, abril em diante** — Retira-se ao sítio de **Sant'Andrea in Percussina** (casa conhecida como *l'Albergaccio*). Correspondência intensa com Vettori sobre política europeia.
 - **1513, 23 de novembro e 10 de dezembro** — Vettori, que estava sem escrever desde agosto, manda em 23/11 uma carta longa e calorosa convidando-o a Roma. [Interpretação, hipótese] William J. Connell ("New light on Machiavelli's letter to Vettori, 10 December 1513", em *Europa e Italia. Studi in onore di Giorgio Chittolini*, Firenze UP, 2011) achou num arquivo privado uma carta dos Dez de 12/11/1513 cuja assinatura abreviada parece alterada de "N. Mich." (Niccolò Michelozzi, sucessor dele) para "N. Mach."; propõe, com cautela ("perhaps... just perhaps"), que um amigo da chancelaria avisou Vettori assim que o confinamento tinha terminado sem problema, o que explicaria a retomada da correspondência. A **carta mais famosa**: descreve o dia no campo e a noite com os antigos e anuncia que escreveu "um opúsculo *De principatibus*" (*O Príncipe*).
-- **1513–1517** — Escreve os *Discursos sobre a primeira década de Tito Lívio* (a data exata é debatida; a versão final é de c. 1517–1518, dedicada a Zanobi Buondelmonti e Cosimo Rucellai).
+- **c. 1513–1519** — Escreve os *Discursos sobre a primeira década de Tito Lívio* (data debatida: começo em 1513 segundo Gilbert, ou c. 1515–1519 segundo outros; o DBI põe a escrita em 1517; a dedicatória a Zanobi Buondelmonti e Cosimo Rucellai é anterior à morte de Cosimo, em 2/11/1519; "1517" é só data convencional — ver `discursos.md` 1.2).
 - **1514–1515** — Cartas a Vettori sobre neutralidade (dezembro de 1514), sobre amores (um caso no campo em agosto de 1514) e sobre a política dos Médici. Pede, em vão, um cargo.
 - **1515** — Plano de entrar a serviço de Giuliano de' Medici é vetado por Leão X (carta de Piero Ardinghelli a Giuliano, 14 de fevereiro de 1515, mandando "não se envolver com Niccolò").
-- **1516** — *O Príncipe* é rededicado a **Lourenço di Piero de' Medici** (duque de Urbino a partir de 1516). [Tradição] Conta-se que Lourenço deu mais atenção a uns cães de caça oferecidos no mesmo dia; a história não tem fonte da época.
+- **1515–1516** — *O Príncipe* é rededicado a **Lourenço di Piero de' Medici** (duque de Urbino a partir de 1516); a data exata da dedicatória é debatida (ver `principe.md` 1.3 e 1.4). [Tradição] Conta-se que Lourenço deu mais atenção a uns cães de caça oferecidos no mesmo dia; a história não tem fonte da época.
 - **c. 1516–1522** — Frequenta os **Orti Oricellari**, os jardins de Cosimo Rucellai, onde jovens patrícios republicanos (Zanobi Buondelmonti, Luigi Alamanni, Battista della Palla, Jacopo da Diacceto, Antonio Brucioli) discutiam política e literatura. Lê para eles os *Discursos*.
 - **1517** — Escreve o poema *L'Asino* (inacabado).
 - **1517, 17 de dezembro** — Carta a Lodovico Alamanni: elogia o *Orlando Furioso* de Ariosto e reclama, rindo, de não ter sido citado entre os poetas.
-- **1518** — Missão comercial a Gênova a serviço de mercadores florentinos. Escreve a **Mandrágora** (data provável 1518; impressa por volta de 1518–1519).
+- **1518** — Missão comercial a Gênova a serviço de mercadores florentinos. A **Mandrágora**: data tradicional 1518 (Ridolfi), mas a datação é debatida — escrita entre c. 1514 e 1519–1520 (Stoppelli; Inglese prefere fim de 1519–início de 1520); o único manuscrito é datado de 1519; a 1ª edição impressa, sem data nem nome do autor, saiu em vida (ver `literatura.md` 2.2).
 - **1519, 4 de maio** — Morre Lourenço, duque de Urbino. O cardeal Giulio de' Medici passa a governar Florença em nome de Leão X e consulta pareceres sobre a reforma do governo.
 
 ### Reabilitação parcial (1520–1527)
 
-- **1520, início** — *Discursus florentinarum rerum post mortem iunioris Laurentii Medices*: projeto de constituição pedido pelos Médici.
+- **1520, fim – 1521, começo** (data do DBI: novembro de 1520 – janeiro de 1521; biografias antigas diziam começo de 1520) — *Discursus florentinarum rerum post mortem iunioris Laurentii Medices*: projeto de constituição pedido pelos Médici.
 - **1520, julho–setembro** — Missão a Lucca (caso de credores florentinos). Escreve a *Vida de Castruccio Castracani* e o *Sumário das coisas da cidade de Lucca*.
 - **1520, 8 de novembro** — Os oficiais do Studio florentino, por vontade do cardeal Giulio, o contratam para escrever a **História de Florença** "e outras coisas", com salário de 100 florins de estúdio por ano (depois aumentado).
 - **1521, maio** — Missão "ridícula" a **Carpi**, ao capítulo geral dos frades franciscanos menores, e para encontrar um pregador de Quaresma para a Arte da Lã. Troca de cartas cômicas com **Francesco Guicciardini**, governador de Módena.
-- **1521, agosto** — Os herdeiros de Filippo Giunta imprimem em Florença a **Arte da Guerra** (*Libro della arte della guerra*), dedicada a Lorenzo di Filippo Strozzi. É a única obra política em prosa publicada em vida.
+- **1521, 16 de agosto** — Os herdeiros de Filippo Giunta imprimem em Florença a **Arte da Guerra** (*Libro della arte della guerra*), dedicada a Lorenzo di Filippo Strozzi. É a única obra política em prosa publicada em vida.
 - **1521, 1º de dezembro** — Morre Leão X.
 - **1522, maio–junho** — Descoberta a conspiração de jovens dos Orti Oricellari contra o cardeal Giulio: Jacopo da Diacceto e Luigi di Tommaso Alamanni são executados; Buondelmonti e Luigi Alamanni fogem. Fim dos Orti. Maquiavel não é acusado.
 - **1523, 19 de novembro** — Giulio de' Medici vira papa **Clemente VII**.
 - **1524–1525** — Amizade com a cantora **Barbera Salutati**, para quem escreve canções da Mandrágora e da Clízia.
 - **1525, 13 de janeiro** — Estreia da **Clízia** na casa de Jacopo Falconetti, "il Fornaciaio", em Florença, com grande festa.
 - **1525, 24 de fevereiro** — Batalha de Pavia: Carlos V captura Francisco I. A Itália fica à mercê do imperador.
-- **1525, maio–junho** — Vai a Roma e entrega pessoalmente a Clemente VII os oito livros da **História de Florença**. Recebe 120 ducados. Propõe ao papa armar uma milícia na Romanha; o papa o manda a **Guicciardini** (presidente da Romanha, em Faenza), que acha o plano inviável.
+- **1525, maio–junho** — Vai a Roma e entrega pessoalmente a Clemente VII os oito livros da **História de Florença** (mês: maio segundo Varotti, junho segundo o DBI). Segundo Ridolfi, recebe 120 ducados do papa (não conferido em documento; o que está documentado, numa carta dele a Guicciardini, é um "aumento até cem ducados" para continuar a obra — ver `historia-de-florenca.md` 1.4). Propõe ao papa armar uma milícia na Romanha; o papa o manda a **Guicciardini** (presidente da Romanha, em Faenza), que acha o plano inviável.
 - **1525, agosto** — Missão a Veneza (caso comercial).
 - **1526, maio** — Nomeado chanceler dos **Cinco Procuradores das Muralhas** (fortificação de Florença). Liga de Cognac (22 de maio) contra Carlos V. Maquiavel vai ao acampamento do exército da Liga, junto de Guicciardini (lugar-tenente do papa).
 - **1526, 30 de novembro** — Morre **Giovanni dalle Bande Nere**, o único capitão italiano em quem Maquiavel via esperança.
@@ -200,13 +200,13 @@ Vettori era embaixador de Florença junto ao papa Leão X em Roma. A correspond�
 - **18 de março de 1513** — A frase da coragem: "suportei com tanta firmeza que eu mesmo gosto de mim". Também: "se estes nossos novos senhores acharem bom não me deixar no chão, ficarei contente".
 - **9 de abril de 1513** — "Não sabendo falar de seda nem de lã, nem de ganhos e perdas, preciso falar do Estado." Revela que política era a única "profissão" dele.
 - **29 de abril de 1513** — Longa análise da trégua entre França e Espanha: Fernando de Aragão como modelo de rei astuto que usa a religião como pretexto (o mesmo retrato aparece no *Príncipe* XXI).
-- **10 de agosto e 26 de agosto de 1513** — Debate com Vettori sobre o perigo dos **suíços**: Maquiavel diz que eles, "armadíssimos e libérrimos", podem virar novos romanos; Vettori acha exagero. Revela a obsessão com armas próprias.
+- **10 de agosto e 26 de agosto de 1513** — Debate com Vettori sobre o perigo dos **suíços**: Maquiavel diz que **não** crê que eles façam "um império como os romanos", mas que podem virar "árbitros da Itália" (carta de 26/8/1513; "armatissimi e liberissimi" é do *Príncipe* XII, não da carta); Vettori acha exagero. Revela a obsessão com armas próprias.
 - **23 de novembro de 1513 (de Vettori)** — Vettori descreve sua vida tranquila em Roma (missa, passeios, leitura dos antigos, poucas visitas) e convida o amigo. Provoca a resposta famosa.
 - **10 de dezembro de 1513** — A carta do dia na taberna e da noite com os antigos (ver 2.4). Anuncia o *De principatibus*, pergunta se deve oferecê-lo a Giuliano de' Medici e se deve levá-lo pessoalmente a Roma.
 - **19 de dezembro de 1513 / janeiro de 1514** — Vettori pede para ver o livro; responde com histórias de amores romanos. Maquiavel responde no mesmo tom.
 - **10 de junho de 1514** — Desânimo: vai ficar "entre os meus piolhos", sem que ninguém se lembre do serviço dele, e diz que assim não pode continuar sem cair na miséria.
 - **3 de agosto de 1514** — Conta que se apaixonou no campo, abandonou as reflexões sobre grandes coisas e "não tenho mais prazer em ler as coisas antigas nem em discorrer sobre as modernas". Mostra o lado sensual e autoirônico.
-- **10 e 20 de dezembro de 1514** — Pareceres sobre se o papa deve tomar partido entre França e Espanha. Defende que a **neutralidade** é perigosa: "o neutro é odiado pelo vencedor e desprezado pelo vencido" (ideia que reaparece no *Príncipe* XXI). Ele sabia que Vettori mostraria a carta ao papa: é uma candidatura disfarçada.
+- **10 e 20 de dezembro de 1514** — Pareceres sobre se o papa deve tomar partido entre França e Espanha. Defende que a **neutralidade** é perigosa: "quem fica neutro é odiado por quem perde e desprezado por quem vence" (carta de 20/12/1514; a versão anterior invertia os termos) (ideia que reaparece no *Príncipe* XXI). Ele sabia que Vettori mostraria a carta ao papa: é uma candidatura disfarçada.
 - **31 de janeiro de 1515** — "Imitamos a natureza, que é variada" (ver 2.3). Inclui um soneto sobre o amor.
 - Depois de 1515 a correspondência rareia; Vettori não conseguiu emprego para ele.
 
@@ -248,7 +248,7 @@ Guicciardini (1483–1540), aristocrata, jurista, governador papal de Módena e 
 - **Contato**: conclave de 1503; campanha de 1506 (Perúgia, Bolonha); diplomacia 1510–1511.
 - **Opinião**: homem impetuoso, que vencia porque os tempos pediam ímpeto (*Príncipe* XXV): "o papa Júlio II procedeu em todas as suas ações impetuosamente; e encontrou tanto os tempos e as coisas conformes a esse seu modo de proceder que sempre teve feliz êxito"; se os tempos pedissem cautela, "viria a sua ruína". Em *Príncipe* XI elogia que fez a Igreja grande pelas armas. Em *Discursos* I.27 conta Perúgia: Baglioni, "homem incestuoso e parricida", não ousou prender o papa desarmado, perdendo a chance de uma maldade "com grandeza".
 
-### Piero Soderini (1450–1522)
+### Piero Soderini (17/3/1451 – 13/6/1522; datas do DBI, vol. 93, 2018)
 
 - **Relação**: chefe e protetor de 1502 a 1512; Maquiavel era o "mannerino" dele.
 - **Opinião**: honesto e bom, mas fraco. *Discursos* III.3: Soderini achava que com paciência e bondade venceria a inveja dos inimigos dos Médici, e não "matou os filhos de Bruto"; "não sabia ser mau". *Discursos* III.9: perdeu porque, quando os tempos pediam romper a paciência, não soube mudar. O epigrama do limbo (ver 2.1) resume o desprezo afetuoso. Em vida Maquiavel o serviu com lealdade e escreveu a ele após a queda; Soderini, no exílio, chegou a lhe oferecer emprego em Ragusa e com Prospero Colonna (1521), que ele recusou.
@@ -292,7 +292,7 @@ Guicciardini (1483–1540), aristocrata, jurista, governador papal de Módena e 
 
 - Fala em primeira pessoa como florentino do século XVI; pode citar as próprias experiências reais: a milícia, Senigália, Pisa, a corda, o Albergaccio, os amigos.
 - Tom: franco, irônico, com regra geral + exemplo antigo + exemplo moderno; pode brincar consigo mesmo e com a fortuna.
-- Nunca atribuir a ele "os fins justificam os meios" como frase literal (ver `outras-obras.md`, seção de mitos).
+- Nunca atribuir a ele "os fins justificam os meios" como frase literal (ver `recepcao-e-estudiosos.md`, seção 5, mitos e frases falsas).
 - Quando falar de fatos que estão marcados aqui como [Interpretação] ou [Tradição], dizer "dizem os que escreveram sobre mim" ou equivalente.
 
 ---
