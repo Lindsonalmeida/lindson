@@ -1,0 +1,416 @@
+[
+ {
+  "arquivo": "arte-da-guerra.md",
+  "trecho": "Il Rinascimento e la crisi militare italiana",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": "Piero Pieri"
+ },
+ {
+  "arquivo": "arte-da-guerra.md",
+  "trecho": "L'Arte della guerra di Machiavelli e la letteratura",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": ""
+ },
+ {
+  "arquivo": "contexto-e-personagens.md",
+  "trecho": "Vettori morì a Firenze",
+  "decisao": "fora: texto de outro autor",
+  "nota": "DBI (Simonetta, 2020), conferido no verbete pela conta anterior"
+ },
+ {
+  "arquivo": "contexto-e-personagens.md",
+  "trecho": "Vita di Lorenzo de' Medici duca d'Urbino",
+  "decisao": "fora: título de obra de Maquiavel ou de edição antiga (conferido como título)",
+  "nota": "título de obra de Vettori; já marcada 'não conferido'"
+ },
+ {
+  "arquivo": "contexto-e-personagens.md",
+  "trecho": "La cancelleria della Repubblica fiorentina",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": "Marzi 1910"
+ },
+ {
+  "arquivo": "discursos.md",
+  "trecho": "Il Dio di Machiavelli",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": "Viroli"
+ },
+ {
+  "arquivo": "historia-de-florenca.md",
+  "trecho": "E se sotto a quelle loro egregie opere",
+  "decisao": "conferida à mão",
+  "nota": "igual a Martelli: o arquivo traz '[comune]', inserção do editor, que o programa retira da citação"
+ },
+ {
+  "arquivo": "historia-de-florenca.md",
+  "trecho": "Historie di Nicolo Machiavegli",
+  "decisao": "não conferível (fonte fora da rede) — marcada 'não conferido no original'",
+  "nota": "frontispício da ed. Blado 1532"
+ },
+ {
+  "arquivo": "historia-de-florenca.md",
+  "trecho": "Io non posso scrivere questa Istoria",
+  "decisao": "conferida à mão",
+  "nota": "palavras de M. relatadas por Donato Giannotti; conferidas na transcrição de R. Black (prefácio Bompiani 2018); corrigido 'anco' e 'ch'io'"
+ },
+ {
+  "arquivo": "historia-de-florenca.md",
+  "trecho": "Per una valutazione delle Istorie",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": "Cabrini 1985"
+ },
+ {
+  "arquivo": "historia-de-florenca.md",
+  "trecho": "Interpretazione e stile in Machiavelli",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": ""
+ },
+ {
+  "arquivo": "literatura.md",
+  "trecho": "\"Mutazione\" e \"riscontro\"",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": ""
+ },
+ {
+  "arquivo": "literatura.md",
+  "trecho": "Come se Dio facessi le grazie del male",
+  "decisao": "conferida à mão",
+  "nota": "diálogo de três falas (Mandragola III.?), igual ao texto; a diferença é só o nome dos personagens no original"
+ },
+ {
+  "arquivo": "literatura.md",
+  "trecho": "Nel riso del Machiavelli",
+  "decisao": "fora: texto de outro autor",
+  "nota": "De Sanctis, Storia della letteratura italiana XV — conferido e corrigido no Wikisource (ed. 1912)"
+ },
+ {
+  "arquivo": "literatura.md",
+  "trecho": ". Depois da paixão",
+  "decisao": "conferida à mão",
+  "nota": "a parte italiana confere (Clizia); o programa pegou junto o português antes das aspas"
+ },
+ {
+  "arquivo": "literatura.md",
+  "trecho": "Io son Davo, non propheta vel non el frate",
+  "decisao": "não conferível (fonte fora da rede) — marcada 'não conferido no original'",
+  "nota": "1ª redação manuscrita da Andria, citada por Stoppelli; a 2ª redação ('Io son Davo, non propheta') confere com Martelli"
+ },
+ {
+  "arquivo": "literatura.md",
+  "trecho": "L'Asino d'oro di Niccolò Machiavelli",
+  "decisao": "fora: título de obra de Maquiavel ou de edição antiga (conferido como título)",
+  "nota": "título da ed. Giunti 1549 (no frontispício: 'Con alcuni altri Cap. et Novelle')"
+ },
+ {
+  "arquivo": "literatura.md",
+  "trecho": "Ancora che io, dilettissimi miei",
+  "decisao": "conferida à mão",
+  "nota": "Belfagor; a diferença é erro de OCR do Gutenberg ('nd'/'indizio'); confere com BibIt/Martelli na grafia"
+ },
+ {
+  "arquivo": "literatura.md",
+  "trecho": "Così Fortuna",
+  "decisao": "conferida à mão",
+  "nota": "Capitolo di Fortuna; diferença só de OCR ('iti' = 'in')"
+ },
+ {
+  "arquivo": "literatura.md",
+  "trecho": "). E Veneza",
+  "decisao": "conferida à mão",
+  "nota": "a parte italiana confere (Decennale/Asino); o programa pegou junto o português"
+ },
+ {
+  "arquivo": "literatura.md",
+  "trecho": "Gli sparsi miei capei",
+  "decisao": "conferida à mão",
+  "nota": "Capitolo dell'Occasione: confere com o Wikisource; diferença só nos números de verso do Wikisource"
+ },
+ {
+  "arquivo": "literatura.md",
+  "trecho": "(texto conferido)",
+  "decisao": "fora: extração errada (trecho em português/inglês)",
+  "nota": ""
+ },
+ {
+  "arquivo": "literatura.md",
+  "trecho": "sono tutti o quasi tutti gli stessissimi",
+  "decisao": "fora: texto de outro autor",
+  "nota": "Leopardi, Zibaldone 4368 — conferido no Wikisource nesta revisão (exato)"
+ },
+ {
+  "arquivo": "literatura.md",
+  "trecho": "Discorso ovvero Dialogo sopra il nome",
+  "decisao": "fora: título de obra de Maquiavel ou de edição antiga (conferido como título)",
+  "nota": "título da obra"
+ },
+ {
+  "arquivo": "literatura.md",
+  "trecho": "ad istanza di messer Virgilio",
+  "decisao": "fora: texto de outro autor",
+  "nota": "nota de Giuliano de' Ricci (ms. BNCF), transcrita por Stoppelli; manuscrito não conferido"
+ },
+ {
+  "arquivo": "literatura.md",
+  "trecho": "fragmentato et non perfetto",
+  "decisao": "fora: texto de outro autor",
+  "nota": "idem (Giuliano de' Ricci)"
+ },
+ {
+  "arquivo": "literatura.md",
+  "trecho": "et credo anche non lo volessi copiare",
+  "decisao": "fora: texto de outro autor",
+  "nota": "idem (Giuliano de' Ricci)"
+ },
+ {
+  "arquivo": "maquiavel-nos-negocios.md",
+  "trecho": "Il Principe riletto a uso dei manager",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": ""
+ },
+ {
+  "arquivo": "maquiavel-nos-negocios.md",
+  "trecho": "Lezioni di business",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": ""
+ },
+ {
+  "arquivo": "maquiavel-nos-negocios.md",
+  "trecho": "De Il Principe a Il Esecutivo",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": ""
+ },
+ {
+  "arquivo": "missoes-e-escritos-politicos.md",
+  "trecho": "Il buon geomètra di questo mondo",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": "título da introdução de Martelli"
+ },
+ {
+  "arquivo": "missoes-e-escritos-politicos.md",
+  "trecho": "Istruzione fatta per Niccolò Machiavelli",
+  "decisao": "fora: título de obra de Maquiavel ou de edição antiga (conferido como título)",
+  "nota": "título da obra (confere com 1843, diferença de OCR)"
+ },
+ {
+  "arquivo": "missoes-e-escritos-politicos.md",
+  "trecho": "). Outra carta",
+  "decisao": "conferida à mão",
+  "nota": "a parte italiana confere com Martelli ('secretissimo, e conferire'); o programa pegou junto o português"
+ },
+ {
+  "arquivo": "missoes-e-escritos-politicos.md",
+  "trecho": "Animosa confidenza",
+  "decisao": "conferida à mão",
+  "nota": "a parte italiana confere com a ed. 1813 vol. VI; o programa pegou junto o português"
+ },
+ {
+  "arquivo": "missoes-e-escritos-politicos.md",
+  "trecho": "Studi e materiali di storia delle religioni",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": "revista"
+ },
+ {
+  "arquivo": "missoes-e-escritos-politicos.md",
+  "trecho": "El Machiavello si truova qua",
+  "decisao": "fora: texto de outro autor",
+  "nota": "carta de Guicciardini (Carteggi), citada pelo DBI; já marcada 'não conferido no volume dos Carteggi'"
+ },
+ {
+  "arquivo": "missoes-e-escritos-politicos.md",
+  "trecho": "); e \"la guerra si ha a misurare",
+  "decisao": "conferida à mão",
+  "nota": "confere com o Wikisource (Discorso sopra le cose della Magna); o programa pegou junto o 'e' antes das aspas"
+ },
+ {
+  "arquivo": "missoes-e-escritos-politicos.md",
+  "trecho": "); por isso a república decide",
+  "decisao": "conferida à mão",
+  "nota": "Provisione della ordinanza: confere (após a correção) com o texto citado no prefácio Bompiani"
+ },
+ {
+  "arquivo": "missoes-e-escritos-politicos.md",
+  "trecho": "); e \"torrebbe reputatione",
+  "decisao": "conferida à mão",
+  "nota": "confere com Martelli; o programa pegou junto o 'e' antes das aspas"
+ },
+ {
+  "arquivo": "missoes-e-escritos-politicos.md",
+  "trecho": "perchè mettere il giudizio vostro",
+  "decisao": "conferida à mão",
+  "nota": "Notula per uno che va ambasciadore; diferença só de OCR da ed. 1843 ('dico'/'li')"
+ },
+ {
+  "arquivo": "missoes-e-escritos-politicos.md",
+  "trecho": "Niccolò Machiavelli, il «papista»",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": ""
+ },
+ {
+  "arquivo": "principe.md",
+  "trecho": "Stampata in Roma per Antonio Blado",
+  "decisao": "não conferível (fonte fora da rede) — marcada 'não conferido no original'",
+  "nota": "colofão da ed. Blado 1532"
+ },
+ {
+  "arquivo": "principe.md",
+  "trecho": "Il principe and lo stato",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": "Hexter 1957"
+ },
+ {
+  "arquivo": "principe.md",
+  "trecho": "la politica che è di là",
+  "decisao": "fora: texto de outro autor",
+  "nota": "Croce; o próprio arquivo diz 'citada de memória; conferir' — não conferido no original"
+ },
+ {
+  "arquivo": "principe.md",
+  "trecho": "di là, o piuttosto di qua",
+  "decisao": "fora: texto de outro autor",
+  "nota": "Croce; não conferido no original"
+ },
+ {
+  "arquivo": "principe.md",
+  "trecho": "Una questione che forse non si chiuderà mai",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": "Croce 1949"
+ },
+ {
+  "arquivo": "principe.md",
+  "trecho": "Il politico e il centauro",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": ""
+ },
+ {
+  "arquivo": "principe.md",
+  "trecho": "la necessità che mi caccia, mi fa dare",
+  "decisao": "conferida à mão",
+  "nota": "forma antiga citada só para registrar a correção (lacuna resolvida)"
+ },
+ {
+  "arquivo": "principe.md",
+  "trecho": "quel grande",
+  "decisao": "fora: texto de outro autor",
+  "nota": "Foscolo, Dei Sepolcri — confere com a citação de Villari"
+ },
+ {
+  "arquivo": "recepcao-e-estudiosos.md",
+  "trecho": "Am I politic?",
+  "decisao": "fora: extração errada (trecho em português/inglês)",
+  "nota": "Shakespeare (inglês)"
+ },
+ {
+  "arquivo": "recepcao-e-estudiosos.md",
+  "trecho": "Acutissimus o prudentissimus?",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": ""
+ },
+ {
+  "arquivo": "recepcao-e-estudiosos.md",
+  "trecho": "quel grande",
+  "decisao": "fora: texto de outro autor",
+  "nota": "Foscolo, Dei Sepolcri — confere com a citação de Villari"
+ },
+ {
+  "arquivo": "recepcao-e-estudiosos.md",
+  "trecho": "La virtù del principe. Hegel",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": ""
+ },
+ {
+  "arquivo": "recepcao-e-estudiosos.md",
+  "trecho": "La costituzione della Germania",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": "Hegel, título em italiano"
+ },
+ {
+  "arquivo": "recepcao-e-estudiosos.md",
+  "trecho": "Le scritture della modernità",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": ""
+ },
+ {
+  "arquivo": "recepcao-e-estudiosos.md",
+  "trecho": "Una questione che forse non si chiuderà mai",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": "Croce 1949"
+ },
+ {
+  "arquivo": "recepcao-e-estudiosos.md",
+  "trecho": "Il moderno Principe",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": "Gramsci"
+ },
+ {
+  "arquivo": "recepcao-e-estudiosos.md",
+  "trecho": "Il Principe di Niccolò Machiavelli e il suo tempo",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": "exposição 2013"
+ },
+ {
+  "arquivo": "recepcao-e-estudiosos.md",
+  "trecho": "La via al Principe",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": ""
+ },
+ {
+  "arquivo": "recepcao-e-estudiosos.md",
+  "trecho": "Il Machiavelli ritrovato",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": ""
+ },
+ {
+  "arquivo": "recepcao-e-estudiosos.md",
+  "trecho": "(seco) | Cortada",
+  "decisao": "conferida à mão",
+  "nota": "a parte italiana confere (Príncipe XVII); o programa pegou junto o português da tabela"
+ },
+ {
+  "arquivo": "recepcao-e-estudiosos.md",
+  "trecho": "Il «celebrato sogno»",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": ""
+ },
+ {
+  "arquivo": "vida-e-cartas.md",
+  "trecho": "Il sorriso di Niccolò",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": "Viroli"
+ },
+ {
+  "arquivo": "vida-e-cartas.md",
+  "trecho": "starassi a ridere",
+  "decisao": "fora: texto de outro autor",
+  "nota": "carta de Guicciardini, citada pelo DBI; marcada 'não conferida no original'"
+ },
+ {
+  "arquivo": "frente-lindson/contexto-e-personagens.md",
+  "trecho": "De principatibus / Il Principe",
+  "decisao": "fora: título de obra de Maquiavel ou de edição antiga (conferido como título)",
+  "nota": "títulos da obra"
+ },
+ {
+  "arquivo": "frente-lindson/escritos-menores.md",
+  "trecho": "Discorso dell'ordinare lo stato di Firenze alle armi",
+  "decisao": "fora: título de obra de Maquiavel ou de edição antiga (conferido como título)",
+  "nota": "título da obra"
+ },
+ {
+  "arquivo": "frente-lindson/historias-e-curiosidades.md",
+  "trecho": "Il Principe di Niccolò Machiavelli e il suo tempo",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": "exposição 2013"
+ },
+ {
+  "arquivo": "frente-lindson/vida-e-cartas.md",
+  "trecho": "Il sorriso di Niccolò",
+  "decisao": "fora: título de livro/artigo moderno (não é citação)",
+  "nota": "Viroli"
+ },
+ {
+  "arquivo": "frente-lindson/vida-e-cartas.md",
+  "trecho": "amare la patria più che l'anima",
+  "decisao": "conferida à mão",
+  "nota": "dito tradicional (título do artigo de Croce); o texto da carta de 16/04/1527 ('amo la patria mia più dell'anima') foi acrescentado ao lado"
+ }
+]

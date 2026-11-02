@@ -221,7 +221,7 @@ Resumo dos achados clássicos (EN: Wikipedia, com base em Christie & Geis 1970 e
 Antes de transformar uma passagem de Maquiavel em conselho de negócio, o agente passa por 6 perguntas:
 1. **Qual o capítulo?** Sem obra e capítulo, não é Maquiavel (ver `recepcao-e-estudiosos.md`, 5.1).
 2. **De quem ele fala?** Príncipe novo, príncipe hereditário, república, capitão, conspirador? (*Príncipe* I–XI classifica os principados; o conselho muda conforme o caso.) Uma agência pequena é um **"principado novo" conquistado com "armas próprias e virtù"** (*Príncipe* VI), não um Estado em guerra.
-3. **O contexto é de vida ou morte do Estado?** Se o texto só vale "per la salute della patria" (*Discursos* III.41) ou para fundar um reino (*Discursos* I.9), **não** se aplica a lucro.
+3. **O contexto é de vida ou morte do Estado?** Se o texto só vale quando "si dilibera al tutto della salute della patria" (*Discursos* III.41) ou para fundar um reino (*Discursos* I.9), **não** se aplica a lucro.
 4. **A versão lícita existe?** Trocar violência por concorrência, engano por sigilo estratégico, "eliminar" por "superar". Se não houver versão lícita, descartar.
 5. **Gera ódio ou desprezo?** Se gera (*Príncipe* XIX), é mau conselho mesmo para Maquiavel.
 6. **Os *Discursos* concordam?** Conferir com o livro das repúblicas (instituições, povo, renovação) — é a falha nº 1 dos manuais (Galie & Bopst 2006).

@@ -146,17 +146,15 @@
   "resultado_partes": [
    {
     "parte": "Impresso in Firenze per li Heredi di Philippo di Giunta, nelli anni del Signore MDXXI a dì XVI d'agosto. Leone X pontefice.",
-    "res": "aproximada (só grafia) [só em texto secundário]",
-    "score": 100.0,
+    "res": "exata [só em texto secundário]",
+    "score": 100,
     "fonte": "Villari, Machiavelli e i suoi tempi vol. 3 (secundária)",
     "obra": "Villari (cita documentos)",
-    "original": "Impresso in Firenze per li Heredi di Philippo di Giunta, nelli anni del Signore MDXXI a dì XVI d'agosto. Leone X pontefice.»",
-    "n_reais": 0,
-    "difs": []
+    "original": "Impresso in Firenze per li Heredi di Philippo di Giunta, nelli anni del Signore MDXXI a dì XVI d'agosto. Leone X pontefice.»"
    }
   ],
-  "resultado": "aproximada (só grafia) [só em texto secundário]",
-  "score_min": 100.0,
+  "resultado": "exata [só em texto secundário]",
+  "score_min": 100,
   "obra_encontrada": "Villari (cita documentos)",
   "obra_diferente": false
  },
@@ -536,17 +534,15 @@
   "resultado_partes": [
    {
     "parte": "Il libro dell'Arte della Guerra mi sembra davvero un portento, non solo per que' tempi, ma anche considerato assolutamente",
-    "res": "aproximada (só grafia) [só em texto secundário]",
-    "score": 100.0,
+    "res": "exata [só em texto secundário]",
+    "score": 100,
     "fonte": "Villari, Machiavelli e i suoi tempi vol. 3 (secundária)",
     "obra": "Villari (cita documentos)",
-    "original": "Il libro dell'_Arte della Guerra_ mi sembra davvero un portento, non solo per que' tempi, ma anche considerato assolutamente.»",
-    "n_reais": 0,
-    "difs": []
+    "original": "Il libro dell'_Arte della Guerra_ mi sembra davvero un portento, non solo per que' tempi, ma anche considerato assolutamente.»"
    }
   ],
-  "resultado": "aproximada (só grafia) [só em texto secundário]",
-  "score_min": 100.0,
+  "resultado": "exata [só em texto secundário]",
+  "score_min": 100,
   "obra_encontrada": "Villari (cita documentos)",
   "obra_diferente": false
  },
@@ -566,17 +562,15 @@
   "resultado_partes": [
    {
     "parte": "la vera milizia è il popolo armato",
-    "res": "aproximada (só grafia) [só em texto secundário]",
-    "score": 100.0,
+    "res": "exata [só em texto secundário]",
+    "score": 100,
     "fonte": "Villari, Machiavelli e i suoi tempi vol. 3 (secundária)",
     "obra": "Villari (cita documentos)",
-    "original": "la vera milizia è il popolo armato;",
-    "n_reais": 0,
-    "difs": []
+    "original": "la vera milizia è il popolo armato;"
    }
   ],
-  "resultado": "aproximada (só grafia) [só em texto secundário]",
-  "score_min": 100.0,
+  "resultado": "exata [só em texto secundário]",
+  "score_min": 100,
   "obra_encontrada": "Villari (cita documentos)",
   "obra_diferente": false
  },
@@ -616,10 +610,12 @@
     ]
    }
   ],
-  "resultado": "não encontrada",
+  "resultado": "manual: fora: título de livro/artigo moderno (não é citação)",
   "score_min": 70.5,
   "obra_encontrada": "moderno (prefácio/introdução Bompiani)",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "não encontrada",
+  "nota": "Piero Pieri"
  },
  {
   "arquivo": "arte-da-guerra.md",
@@ -4640,18 +4636,16 @@
   "resultado_partes": [
    {
     "parte": "per elezione e non per corruzione",
-    "res": "aproximada (só grafia)",
-    "score": 93.8,
-    "fonte": "Martelli (Tutte le opere, 1971; ed. Bompiani 2018, IA)",
-    "obra": "Scritti sull'ordinanza",
-    "original": "per electione et non per corruptione,",
-    "n_reais": 0,
-    "difs": []
+    "res": "exata [só em texto secundário]",
+    "score": 100,
+    "fonte": "Villari, Machiavelli e i suoi tempi vol. 1 (secundária)",
+    "obra": "Villari (cita documentos)",
+    "original": "per elezione e non per corruzione,"
    }
   ],
-  "resultado": "aproximada (só grafia)",
-  "score_min": 93.8,
-  "obra_encontrada": "Scritti sull'ordinanza",
+  "resultado": "exata [só em texto secundário]",
+  "score_min": 100,
+  "obra_encontrada": "Villari (cita documentos)",
   "obra_diferente": false
  },
  {
@@ -7065,10 +7059,12 @@
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
+  "resultado": "manual: fora: título de livro/artigo moderno (não é citação)",
   "score_min": 75.0,
   "obra_encontrada": "Arte della guerra",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (divergente)",
+  "nota": ""
  },
  {
   "arquivo": "arte-da-guerra.md",
@@ -7086,18 +7082,16 @@
   "resultado_partes": [
    {
     "parte": "per elezione e non per corruzione",
-    "res": "aproximada (só grafia)",
-    "score": 93.8,
-    "fonte": "Martelli (Tutte le opere, 1971; ed. Bompiani 2018, IA)",
-    "obra": "Scritti sull'ordinanza",
-    "original": "per electione et non per corruptione,",
-    "n_reais": 0,
-    "difs": []
+    "res": "exata [só em texto secundário]",
+    "score": 100,
+    "fonte": "Villari, Machiavelli e i suoi tempi vol. 1 (secundária)",
+    "obra": "Villari (cita documentos)",
+    "original": "per elezione e non per corruzione,"
    }
   ],
-  "resultado": "aproximada (só grafia)",
-  "score_min": 93.8,
-  "obra_encontrada": "Scritti sull'ordinanza",
+  "resultado": "exata [só em texto secundário]",
+  "score_min": 100,
+  "obra_encontrada": "Villari (cita documentos)",
   "obra_diferente": false
  },
  {
@@ -7664,17 +7658,15 @@
   "resultado_partes": [
    {
     "parte": "questo governo non mi piace",
-    "res": "aproximada (só grafia) [só em texto secundário]",
-    "score": 100.0,
+    "res": "exata [só em texto secundário]",
+    "score": 100,
     "fonte": "Villari, Machiavelli e i suoi tempi vol. 1 (secundária)",
     "obra": "Villari (cita documentos)",
-    "original": "Questo governo non mi piace,",
-    "n_reais": 0,
-    "difs": []
+    "original": "Questo governo non mi piace,"
    }
   ],
-  "resultado": "aproximada (só grafia) [só em texto secundário]",
-  "score_min": 100.0,
+  "resultado": "exata [só em texto secundário]",
+  "score_min": 100,
   "obra_encontrada": "Villari (cita documentos)",
   "obra_diferente": false
  },
@@ -7812,36 +7804,32 @@
   "arquivo": "contexto-e-personagens.md",
   "linha": 217,
   "tipo": "\"",
-  "citacao": "le deliberazioni lente sono sempre nocive",
+  "citacao": "sempre le diliberazioni lente sono nocive",
   "partes": [
-   "le deliberazioni lente sono sempre nocive"
+   "sempre le diliberazioni lente sono nocive"
   ],
   "obra_indicada": [
    "Discorsi"
   ],
-  "contexto": "- **Lição [Interpretação]:** a irresolução também é uma decisão, quase sempre a pior; eco de *Discorsi* I.38 e II.15 (\"le deliberazioni lente sono sempre nocive\"; ver `discursos.md`).",
+  "contexto": "- **Lição [Interpretação]:** a irresolução também é uma decisão, quase sempre a pior; eco de *Discorsi* I.38 e II.15 (\"sempre le diliberazioni lente sono nocive\", título de II.15; ver `discursos.md`).",
   "ja_marcada": false,
   "resultado_partes": [
    {
-    "parte": "le deliberazioni lente sono sempre nocive",
-    "res": "aproximada (divergente)",
-    "score": 82.9,
-    "fonte": "Martelli (Tutte le opere, 1971; ed. Bompiani 2018, IA)",
-    "obra": "Principe",
-    "original": "sempre le deliberazioni lente sono nocive] Da",
-    "n_reais": 1,
-    "difs": [
-     [
-      "real",
-      "sempre",
-      ""
-     ]
+    "parte": "sempre le diliberazioni lente sono nocive",
+    "res": "exata",
+    "score": 100,
+    "fonte": "BibIt bibit000747 (Discorsi)",
+    "obra": "Discorsi / Gli stati deboli sempre fiano ambigui nel risolversi: e",
+    "original": "sempre le diliberazioni lente sono nocive.",
+    "todas": [
+     "Discorsi / Gli stati deboli sempre fiano ambigui nel risolversi: e",
+     "Discorsi sopra la prima Deca di Tito Livio/Libro secondo"
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
-  "score_min": 82.9,
-  "obra_encontrada": "Principe",
+  "resultado": "exata",
+  "score_min": 100,
+  "obra_encontrada": "Discorsi / Gli stati deboli sempre fiano ambigui nel risolversi: e",
   "obra_diferente": false
  },
  {
@@ -7959,10 +7947,12 @@
     "score": 0
    }
   ],
-  "resultado": "não encontrada",
+  "resultado": "manual: fora: texto de outro autor",
   "score_min": 0,
   "obra_encontrada": "",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "não encontrada",
+  "nota": "DBI (Simonetta, 2020), conferido no verbete pela conta anterior"
  },
  {
   "arquivo": "contexto-e-personagens.md",
@@ -7995,10 +7985,12 @@
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
+  "resultado": "manual: fora: título de obra de Maquiavel ou de edição antiga (conferido como título)",
   "score_min": 84.6,
   "obra_encontrada": "Opere complete 1843",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (divergente)",
+  "nota": "título de obra de Vettori; já marcada 'não conferido'"
  },
  {
   "arquivo": "contexto-e-personagens.md",
@@ -8601,25 +8593,19 @@
   "resultado_partes": [
    {
     "parte": "La cancelleria della Repubblica fiorentina",
-    "res": "aproximada (divergente)",
-    "score": 97.4,
-    "fonte": "Martelli (Tutte le opere, 1971; ed. Bompiani 2018, IA)",
-    "obra": "Legazioni e commissarie",
-    "original": "seconda cancelleria della repubblica fiorentina",
-    "n_reais": 1,
-    "difs": [
-     [
-      "real",
-      "la",
-      "seconda"
-     ]
-    ]
+    "res": "exata [só em texto secundário]",
+    "score": 100,
+    "fonte": "Villari, Machiavelli e i suoi tempi vol. 2 (secundária)",
+    "obra": "Villari (cita documentos)",
+    "original": "La Cancelleria della Repubblica fiorentina_,"
    }
   ],
-  "resultado": "aproximada (divergente)",
-  "score_min": 97.4,
-  "obra_encontrada": "Legazioni e commissarie",
-  "obra_diferente": false
+  "resultado": "manual: fora: título de livro/artigo moderno (não é citação)",
+  "score_min": 100,
+  "obra_encontrada": "Villari (cita documentos)",
+  "obra_diferente": false,
+  "resultado_auto": "exata [só em texto secundário]",
+  "nota": "Marzi 1910"
  },
  {
   "arquivo": "discursos.md",
@@ -16169,10 +16155,12 @@
     ]
    }
   ],
-  "resultado": "aproximada (divergente) [só em texto secundário]",
+  "resultado": "manual: fora: título de livro/artigo moderno (não é citação)",
   "score_min": 98.0,
   "obra_encontrada": "moderno (prefácio/introdução Bompiani)",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (divergente) [só em texto secundário]",
+  "nota": "Viroli"
  },
  {
   "arquivo": "discursos.md",
@@ -18246,18 +18234,16 @@
   "resultado_partes": [
    {
     "parte": "scrivere gli annali ovvero la istoria delle cose fatte dallo Stato e città di Firenze, da quello tempo gli parrà più conveniente, et in quella lingua o latina o toscana, che a lui parrà",
-    "res": "aproximada (só grafia)",
-    "score": 98.2,
-    "fonte": "Lettere (IA lettere00mach)",
-    "obra": "Lettere",
-    "original": "scrivere gli Annali o vero le Istorie delle cose fatte dallo stato e città di Firenze, da quello tempo gli parrà più conveniente, ed in quella lingua, o latina o toscana, che a lui parrà.",
-    "n_reais": 0,
-    "difs": []
+    "res": "exata [só em texto secundário]",
+    "score": 100,
+    "fonte": "Villari, Machiavelli e i suoi tempi vol. 3 (secundária)",
+    "obra": "Villari (cita documentos)",
+    "original": "scrivere gli annali ovvero la istoria delle cose fatte dallo Stato e città di Firenze, da quello tempo gli parrà più conveniente, et in quella lingua o latina o toscana, che a lui parrà."
    }
   ],
-  "resultado": "aproximada (só grafia)",
-  "score_min": 98.2,
-  "obra_encontrada": "Lettere",
+  "resultado": "exata [só em texto secundário]",
+  "score_min": 100,
+  "obra_encontrada": "Villari (cita documentos)",
   "obra_diferente": false
  },
  {
@@ -18276,17 +18262,15 @@
   "resultado_partes": [
    {
     "parte": "Libro degli stipendiati per lo Studio",
-    "res": "aproximada (só grafia) [só em texto secundário]",
-    "score": 100.0,
+    "res": "exata [só em texto secundário]",
+    "score": 100,
     "fonte": "Villari, Machiavelli e i suoi tempi vol. 3 (secundária)",
     "obra": "Villari (cita documentos)",
-    "original": "Libro degli stipendiati per lo Studio,",
-    "n_reais": 0,
-    "difs": []
+    "original": "Libro degli stipendiati per lo Studio,"
    }
   ],
-  "resultado": "aproximada (só grafia) [só em texto secundário]",
-  "score_min": 100.0,
+  "resultado": "exata [só em texto secundário]",
+  "score_min": 100,
   "obra_encontrada": "Villari (cita documentos)",
   "obra_diferente": false
  },
@@ -18447,10 +18431,12 @@
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
+  "resultado": "manual: conferida à mão",
   "score_min": 95.5,
   "obra_encontrada": "Scritti storici",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (divergente)",
+  "nota": "igual a Martelli: o arquivo traz '[comune]', inserção do editor, que o programa retira da citação"
  },
  {
   "arquivo": "historia-de-florenca.md",
@@ -18559,8 +18545,8 @@
   "obra_indicada": [
    "Istorie fiorentine"
   ],
-  "contexto": "- **Roma, Antonio Blado d'Asola, 25 de março de 1532**: *Historie di Nicolo Machiavegli cittadino, et segretario fiorentino, al Santissimo et Beatissimo Padre Signor Nostro Clemente Settimo Pontefice Massimo*;",
-  "ja_marcada": false,
+  "contexto": "- **Roma, Antonio Blado d'Asola, 25 de março de 1532**: *Historie di Nicolo Machiavegli cittadino, et segretario fiorentino, al Santissimo et Beatissimo Padre Signor Nostro Clemente Settimo Pontefice Massimo* (frontispício não conferido no original);",
+  "ja_marcada": true,
   "resultado_partes": [
    {
     "parte": "Historie di Nicolo Machiavegli cittadino, et segretario fiorentino, al Santissimo et Beatissimo Padre Signor Nostro Clemente Settimo Pontefice Massimo",
@@ -18584,62 +18570,59 @@
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
+  "resultado": "manual: não conferível (fonte fora da rede) — marcada 'não conferido no original'",
   "score_min": 89.2,
   "obra_encontrada": "Istorie fiorentine/Libro primo",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (divergente)",
+  "nota": "frontispício da ed. Blado 1532"
  },
  {
   "arquivo": "historia-de-florenca.md",
   "linha": 141,
   "tipo": "\"",
-  "citacao": "Io non posso scrivere questa Istoria da che Cosimo prese lo stato sino alla morte di Lorenzo come la scriverei se fossi libero da tutti i rispetti [...] E chi vorrà intendere questo, noti molto bene quello che io farò dire ai suoi avversari, perché quello che non vorrò dire io, come da me, lo farò dire ai suoi avversari",
+  "citacao": "Io non posso scrivere questa Istoria da che Cosimo prese lo stato sino alla morte di Lorenzo come la scriverei se fossi libero da tutti i rispetti [...] E chi vorrà anco intendere questo, noti molto bene quello ch'io farò dire ai suoi avversari, perché quello che non vorrò dire io, come da me, lo farò dire ai suoi avversari",
   "partes": [
    "Io non posso scrivere questa Istoria da che Cosimo prese lo stato sino alla morte di Lorenzo come la scriverei se fossi libero da tutti i rispetti",
-   "E chi vorrà intendere questo, noti molto bene quello che io farò dire ai suoi avversari, perché quello che non vorrò dire io, come da me, lo farò dire ai suoi avversari"
+   "E chi vorrà anco intendere questo, noti molto bene quello ch'io farò dire ai suoi avversari, perché quello che non vorrò dire io, come da me, lo farò dire ai suoi avversari"
   ],
   "obra_indicada": [
    "Istorie fiorentine"
   ],
-  "contexto": "> \"Io non posso scrivere questa Istoria da che Cosimo prese lo stato sino alla morte di Lorenzo come la scriverei se fossi libero da tutti i rispetti [...] E chi vorrà intendere questo, noti molto bene quello che io farò dire ai suoi avversari, perché quello che non vorrò dire io, come da me, lo farò dire ai suoi avversari\"",
+  "contexto": "> \"Io non posso scrivere questa Istoria da che Cosimo prese lo stato sino alla morte di Lorenzo come la scriverei se fossi libero da tutti i rispetti [...] E chi vorrà anco intendere questo, noti molto bene quello ch'io farò dire ai suoi avversari, perché quello che non vorrò dire io, come da me, lo farò dire ai suoi avversari\"",
   "ja_marcada": false,
   "resultado_partes": [
    {
     "parte": "Io non posso scrivere questa Istoria da che Cosimo prese lo stato sino alla morte di Lorenzo come la scriverei se fossi libero da tutti i rispetti",
-    "res": "aproximada (só grafia) [só em texto secundário]",
-    "score": 100.0,
+    "res": "exata [só em texto secundário]",
+    "score": 100,
     "fonte": "Prefácios modernos da ed. Bompiani 2018 (secundária)",
     "obra": "moderno (prefácio/introdução Bompiani)",
-    "original": "io non posso scrivere questa Istoria da che Cosimo prese lo stato sino alla morte di Lorenzo come la scriverei se fossi libero da tutti i rispetti.",
-    "n_reais": 0,
-    "difs": []
+    "original": "io non posso scrivere questa Istoria da che Cosimo prese lo stato sino alla morte di Lorenzo come la scriverei se fossi libero da tutti i rispetti."
    },
    {
-    "parte": "E chi vorrà intendere questo, noti molto bene quello che io farò dire ai suoi avversari, perché quello che non vorrò dire io, come da me, lo farò dire ai suoi avversari",
-    "res": "não encontrada",
-    "score": 74.7,
+    "parte": "E chi vorrà anco intendere questo, noti molto bene quello ch'io farò dire ai suoi avversari, perché quello che non vorrò dire io, come da me, lo farò dire ai suoi avversari",
+    "res": "aproximada (divergente) [só em texto secundário]",
+    "score": 76.6,
     "fonte": "Prefácios modernos da ed. Bompiani 2018 (secundária)",
     "obra": "moderno (prefácio/introdução Bompiani)",
-    "original": "altezza. E chi vorrà anco intendere questo, noti molto bene quello ch’io farò dire ai suoi avversari, perché 18 RoBERTO RIDOLFI, Vita di Niccolò Machiavelli, 7° ed., Firenze 1978, pp. 284-85. !9 Vedi BLACK,",
-    "n_reais": 16,
+    "original": "E chi vorrà anco intendere questo, noti molto bene quello ch’io farò dire ai suoi avversari, perché 18 RoBERTO RIDOLFI, Vita di Niccolò Machiavelli, 7° ed., Firenze 1978, pp. 284-85. !9 Vedi BLACK, Machiavelli,",
+    "n_reais": 15,
     "difs": [
      [
       "real",
-      "",
-      "anco"
-     ],
-     [
-      "real",
       "quelo ce non uoro dire io come da me lo faro dire ai suoi auersari",
-      "roberto ridolfi uita di nicolo maciaueli e firenze p uedi black"
+      "roberto ridolfi uita di nicolo maciaueli e firenze p uedi black maciaueli"
      ]
     ]
    }
   ],
-  "resultado": "não encontrada",
-  "score_min": 74.7,
+  "resultado": "manual: conferida à mão",
+  "score_min": 76.6,
   "obra_encontrada": "moderno (prefácio/introdução Bompiani)",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (divergente) [só em texto secundário]",
+  "nota": "palavras de M. relatadas por Donato Giannotti; conferidas na transcrição de R. Black (prefácio Bompiani 2018); corrigido 'anco' e 'ch'io'"
  },
  {
   "arquivo": "historia-de-florenca.md",
@@ -18884,10 +18867,12 @@
     ]
    }
   ],
-  "resultado": "não encontrada",
+  "resultado": "manual: fora: título de livro/artigo moderno (não é citação)",
   "score_min": 65.9,
   "obra_encontrada": "Istorie fiorentine/Libro primo",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "não encontrada",
+  "nota": "Cabrini 1985"
  },
  {
   "arquivo": "historia-de-florenca.md",
@@ -18930,10 +18915,12 @@
     ]
    }
   ],
-  "resultado": "não encontrada",
+  "resultado": "manual: fora: título de livro/artigo moderno (não é citação)",
   "score_min": 67.2,
   "obra_encontrada": "moderno (prefácio/introdução Bompiani)",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "não encontrada",
+  "nota": ""
  },
  {
   "arquivo": "historia-de-florenca.md",
@@ -23949,35 +23936,33 @@
   "arquivo": "historia-de-florenca.md",
   "linha": 700,
   "tipo": "«»",
-  "citacao": "la grandezza dello animo suo e della destrezza dello ingegno e gravità del iudizio",
+  "citacao": "della grandezza dello animo suo e della destrezza dello ingegno e gravità del iudizio",
   "partes": [
-   "la grandezza dello animo suo e della destrezza dello ingegno e gravità del iudizio"
+   "della grandezza dello animo suo e della destrezza dello ingegno e gravità del iudizio"
   ],
   "obra_indicada": [
    "Istorie fiorentine"
   ],
-  "contexto": "- **Depois dos Pazzi:** discurso à cidade (VIII.10); viagem a Nápoles, onde o rei se espanta com «la grandezza dello animo suo e della destrezza dello ingegno e gravità del iudizio» (VIII.19).",
+  "contexto": "- **Depois dos Pazzi:** discurso à cidade (VIII.10); viagem a Nápoles, onde o rei se espanta com «della grandezza dello animo suo e della destrezza dello ingegno e gravità del iudizio» (VIII.19).",
   "ja_marcada": false,
   "resultado_partes": [
    {
-    "parte": "la grandezza dello animo suo e della destrezza dello ingegno e gravità del iudizio",
-    "res": "aproximada (divergente)",
-    "score": 100.0,
+    "parte": "della grandezza dello animo suo e della destrezza dello ingegno e gravità del iudizio",
+    "res": "exata",
+    "score": 100,
     "fonte": "Martelli (Tutte le opere, 1971; ed. Bompiani 2018, IA)",
     "obra": "Scritti storici",
     "original": "della grandezza dello animo suo e della destrezza dello ingegno e gravità del iudizio,",
-    "n_reais": 1,
-    "difs": [
-     [
-      "real",
-      "la",
-      "dela"
-     ]
+    "todas": [
+     "Istorie fiorentine",
+     "Istorie fiorentine / 19.",
+     "Istorie fiorentine/Libro ottavo",
+     "Scritti storici"
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
-  "score_min": 100.0,
+  "resultado": "exata",
+  "score_min": 100,
   "obra_encontrada": "Scritti storici",
   "obra_diferente": false
  },
@@ -25607,10 +25592,12 @@
     ]
    }
   ],
-  "resultado": "não encontrada",
+  "resultado": "manual: fora: título de livro/artigo moderno (não é citação)",
   "score_min": 68.9,
   "obra_encontrada": "moderno (prefácio/introdução Bompiani)",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "não encontrada",
+  "nota": ""
  },
  {
   "arquivo": "literatura.md",
@@ -25716,33 +25703,25 @@
   "arquivo": "literatura.md",
   "linha": 98,
   "tipo": "\"*",
-  "citacao": "di uno certo vechio dotor fiorentino che havea una moglie, non potea far fioli",
+  "citacao": "di uno certo vechio dotor fiorentino, che havea una moglie et non potea far fioli",
   "partes": [
-   "di uno certo vechio dotor fiorentino che havea una moglie, non potea far fioli"
+   "di uno certo vechio dotor fiorentino, che havea una moglie et non potea far fioli"
   ],
   "obra_indicada": [],
-  "contexto": "- **Veneza, 13/02/1522**: o diário de **Marin Sanudo** registra no convento dos Crociferi uma comédia \"*di uno certo vechio dotor fiorentino che havea una moglie, non potea far fioli*\" (\"de um certo velho doutor florentino que tinha uma mulher e não podia ter filhos\"). Atores: **Cherea** (Francesco de' Nobili, de Lucca, ex-ator da corte de Leão X, especialista no papel do apaixonado) e **Zuan Polo",
+  "contexto": "- **Veneza, 13/02/1522**: o diário de **Marin Sanudo** registra no convento dos Crociferi uma comédia \"*di uno certo vechio dotor fiorentino, che havea una moglie et non potea far fioli*\" (conferido na transcrição de Villari, *Machiavelli e i suoi tempi*, vol. III; diário de Sanudo não aberto) (\"de um certo velho doutor florentino que tinha uma mulher e não podia ter filhos\"). Atores: **Cherea** (",
   "ja_marcada": false,
   "resultado_partes": [
    {
-    "parte": "di uno certo vechio dotor fiorentino che havea una moglie, non potea far fioli",
-    "res": "aproximada (divergente) [só em texto secundário]",
-    "score": 97.3,
+    "parte": "di uno certo vechio dotor fiorentino, che havea una moglie et non potea far fioli",
+    "res": "exata [só em texto secundário]",
+    "score": 100,
     "fonte": "Villari, Machiavelli e i suoi tempi vol. 3 (secundária)",
     "obra": "Villari (cita documentos)",
-    "original": "di uno certo vechio dotor fiorentino, che havea una moglie et non potea far fioli",
-    "n_reais": 1,
-    "difs": [
-     [
-      "real",
-      "",
-      "e"
-     ]
-    ]
+    "original": "di uno certo vechio dotor fiorentino, che havea una moglie et non potea far fioli"
    }
   ],
-  "resultado": "aproximada (divergente) [só em texto secundário]",
-  "score_min": 97.3,
+  "resultado": "exata [só em texto secundário]",
+  "score_min": 100,
   "obra_encontrada": "Villari (cita documentos)",
   "obra_diferente": false
  },
@@ -27181,10 +27160,12 @@
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
+  "resultado": "manual: conferida à mão",
   "score_min": 94.7,
   "obra_encontrada": "Mandragola/Clizia/Belfagor",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (divergente)",
+  "nota": "diálogo de três falas (Mandragola III.?), igual ao texto; a diferença é só o nome dos personagens no original"
  },
  {
   "arquivo": "literatura.md",
@@ -27566,45 +27547,54 @@
   "arquivo": "literatura.md",
   "linha": 198,
   "tipo": "*\"",
-  "citacao": "Nel riso di Machiavelli c'è alcunché di tristo e di serio, che oltrepassa la caricatura",
+  "citacao": "Nel riso del Machiavelli ci è alcunché di tristo e di serio, che oltrepassa la caricatura",
   "partes": [
-   "Nel riso di Machiavelli c'è alcunché di tristo e di serio, che oltrepassa la caricatura"
+   "Nel riso del Machiavelli ci è alcunché di tristo e di serio, che oltrepassa la caricatura"
   ],
-  "obra_indicada": [],
-  "contexto": "- **Croce (1929)** e **De Sanctis (1870)**: comédia amarga; *\"Nel riso di Machiavelli c'è alcunché di tristo e di serio, che oltrepassa la caricatura\"* (\"no riso de Maquiavel há algo de triste e sério, que vai além da caricatura\" — De Sanctis, citado por Stoppelli).",
+  "obra_indicada": [
+   "Lettere"
+  ],
+  "contexto": "- **Croce (1929)** e **De Sanctis (1870)**: comédia amarga; *\"Nel riso del Machiavelli ci è alcunché di tristo e di serio, che oltrepassa la caricatura\"* (\"no riso de Maquiavel há algo de triste e sério, que vai além da caricatura\" — De Sanctis, *Storia della letteratura italiana*, cap. XV; citado por Stoppelli e conferido no Wikisource, ed. 1912).",
   "ja_marcada": false,
   "resultado_partes": [
    {
-    "parte": "Nel riso di Machiavelli c'è alcunché di tristo e di serio, che oltrepassa la caricatura",
+    "parte": "Nel riso del Machiavelli ci è alcunché di tristo e di serio, che oltrepassa la caricatura",
     "res": "não encontrada",
-    "score": 61.7,
-    "fonte": "Prefácios modernos da ed. Bompiani 2018 (secundária)",
-    "obra": "moderno (prefácio/introdução Bompiani)",
-    "original": "umana, propria di Machiavelli, come di Ariosto e di Bruno. Di essa erano, per Machiavelli, parte",
+    "score": 62.7,
+    "fonte": "Villari, Machiavelli e i suoi tempi vol. 2 (secundária)",
+    "obra": "Villari (cita documentos)",
+    "original": "il difetto del Machiavelli non era un eccesso di logica e di coerenza, ma il lasciarsi troppo",
     "n_reais": 12,
     "difs": [
      [
       "real",
       "nel riso",
-      "umana propria"
+      "il difeto"
      ],
      [
       "real",
-      "c e alcunce",
-      "come"
+      "ci e alcunce",
+      "non era un eceso"
+     ],
+     [
+      "real",
+      "tristo",
+      "logica"
      ],
      [
       "real",
       "serio ce oltrepasa la caricatura",
-      "bruno di esa erano per maciaueli parte"
+      "coerenza ma il lasciarsi tropo"
      ]
     ]
    }
   ],
-  "resultado": "não encontrada",
-  "score_min": 61.7,
-  "obra_encontrada": "moderno (prefácio/introdução Bompiani)",
-  "obra_diferente": false
+  "resultado": "manual: fora: texto de outro autor",
+  "score_min": 62.7,
+  "obra_encontrada": "Villari (cita documentos)",
+  "obra_diferente": false,
+  "resultado_auto": "não encontrada",
+  "nota": "De Sanctis, Storia della letteratura italiana XV — conferido e corrigido no Wikisource (ed. 1912)"
  },
  {
   "arquivo": "literatura.md",
@@ -28154,10 +28144,12 @@
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
+  "resultado": "manual: conferida à mão",
   "score_min": 90.3,
   "obra_encontrada": "Mandragola/Clizia/Belfagor",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (divergente)",
+  "nota": "a parte italiana confere (Clizia); o programa pegou junto o português antes das aspas"
  },
  {
   "arquivo": "literatura.md",
@@ -28264,8 +28256,8 @@
   "obra_indicada": [
    "Principe"
   ],
-  "contexto": "- **Pasquale Stoppelli (2005, 2014):** a 1ª redação é **juvenil, entre 1494 e 1498**: a prosa é \"acerba\", com erros de latim impensáveis depois do *Príncipe*; e uma piada aponta para **Savonarola**: o escravo Davo diz em Terêncio *\"Davo' sum, non Oedipus\"* (\"sou Davo, não Édipo\", isto é, não sou adivinho de enigmas) e Maquiavel traduz *\"Io son Davo, non propheta vel non el frate\"* (\"sou Davo, não ",
-  "ja_marcada": false,
+  "contexto": "- **Pasquale Stoppelli (2005, 2014):** a 1ª redação é **juvenil, entre 1494 e 1498**: a prosa é \"acerba\", com erros de latim impensáveis depois do *Príncipe*; e uma piada aponta para **Savonarola**: o escravo Davo diz em Terêncio *\"Davo' sum, non Oedipus\"* (\"sou Davo, não Édipo\", isto é, não sou adivinho de enigmas) e Maquiavel traduz *\"Io son Davo, non propheta vel non el frate\"* (1ª redação manu",
+  "ja_marcada": true,
   "resultado_partes": [
    {
     "parte": "Io son Davo, non propheta vel non el frate",
@@ -28284,10 +28276,12 @@
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
+  "resultado": "manual: não conferível (fonte fora da rede) — marcada 'não conferido no original'",
   "score_min": 80.0,
   "obra_encontrada": "Andria",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (divergente)",
+  "nota": "1ª redação manuscrita da Andria, citada por Stoppelli; a 2ª redação ('Io son Davo, non propheta') confere com Martelli"
  },
  {
   "arquivo": "literatura.md",
@@ -28300,8 +28294,8 @@
   "obra_indicada": [
    "Principe"
   ],
-  "contexto": "- **Pasquale Stoppelli (2005, 2014):** a 1ª redação é **juvenil, entre 1494 e 1498**: a prosa é \"acerba\", com erros de latim impensáveis depois do *Príncipe*; e uma piada aponta para **Savonarola**: o escravo Davo diz em Terêncio *\"Davo' sum, non Oedipus\"* (\"sou Davo, não Édipo\", isto é, não sou adivinho de enigmas) e Maquiavel traduz *\"Io son Davo, non propheta vel non el frate\"* (\"sou Davo, não ",
-  "ja_marcada": false,
+  "contexto": "- **Pasquale Stoppelli (2005, 2014):** a 1ª redação é **juvenil, entre 1494 e 1498**: a prosa é \"acerba\", com erros de latim impensáveis depois do *Príncipe*; e uma piada aponta para **Savonarola**: o escravo Davo diz em Terêncio *\"Davo' sum, non Oedipus\"* (\"sou Davo, não Édipo\", isto é, não sou adivinho de enigmas) e Maquiavel traduz *\"Io son Davo, non propheta vel non el frate\"* (1ª redação manu",
+  "ja_marcada": true,
   "resultado_partes": [
    {
     "parte": "Io son Davo, non propheta",
@@ -28356,10 +28350,12 @@
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
+  "resultado": "manual: fora: título de obra de Maquiavel ou de edição antiga (conferido como título)",
   "score_min": 75.0,
   "obra_encontrada": "L'Asino (Machiavelli)",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (divergente)",
+  "nota": "título da ed. Giunti 1549 (no frontispício: 'Con alcuni altri Cap. et Novelle')"
  },
  {
   "arquivo": "literatura.md",
@@ -28433,19 +28429,27 @@
   "resultado_partes": [
    {
     "parte": "Ancora che io, dilettissimi miei, per celeste disposizione e per fatale sorte al tutto irrevocabile possegga questo regno, e che per questo io non possa essere obbligato ad alcuno iudizio, o celeste o mondano, nondimeno, perché gli è maggior prudenza di quelli che possono più sottomettersi alle leggi e più stimare l'altrui iudizio, ho deliberato essere consigliato da voi",
-    "res": "aproximada (só grafia)",
+    "res": "aproximada (divergente)",
     "score": 99.4,
     "fonte": "Gutenberg 56498 Mandragola/Clizia/Belfagor",
     "obra": "Mandragola/Clizia/Belfagor",
     "original": "ra che io, dilettissimi miei, per celeste disposizione e per fatale sorte al tutto irrevocabile possegga questo regno, e che per questo io non possa essere obbligato nd alcuno indizio, o celeste o mondano, nondimeno, perché gli è maggior prudenza di quelli che possono più sottomettersi alle leggi e più stimare l'altrui iudizio, ho deliberato essere consigliato da voi come",
-    "n_reais": 0,
-    "difs": []
+    "n_reais": 1,
+    "difs": [
+     [
+      "real",
+      "ad",
+      "nd"
+     ]
+    ]
    }
   ],
-  "resultado": "aproximada (só grafia)",
+  "resultado": "manual: conferida à mão",
   "score_min": 99.4,
   "obra_encontrada": "Mandragola/Clizia/Belfagor",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (divergente)",
+  "nota": "Belfagor; a diferença é erro de OCR do Gutenberg ('nd'/'indizio'); confere com BibIt/Martelli na grafia"
  },
  {
   "arquivo": "literatura.md",
@@ -29391,16 +29395,16 @@
     "parte": "Io canterò l'Italiche fatiche / Seguite già ne' due passati lustri / Sotto le Stelle al suo bene inimiche",
     "res": "aproximada (só grafia)",
     "score": 98.9,
-    "fonte": "Wikisource Decennali",
-    "obra": "Decennali/Decennale primo",
-    "original": "IO canterò l’Italiche fatiche Seguite già ne’ due passati lustri 3Sotto le Stelle al suo bene inimiche.",
+    "fonte": "Martelli (Tutte le opere, 1971; ed. Bompiani 2018, IA)",
+    "obra": "Decennali",
+    "original": "Io canterò l’italiche fatiche, seguìte già ne’ duo passati lustri sotto le stelle al suo bene inimiche.",
     "n_reais": 0,
     "difs": []
    }
   ],
   "resultado": "aproximada (só grafia)",
   "score_min": 98.9,
-  "obra_encontrada": "Decennali/Decennale primo",
+  "obra_encontrada": "Decennali",
   "obra_diferente": false
  },
  {
@@ -29859,17 +29863,17 @@
    {
     "parte": "Spesso costei i buon sotto i piè tiene, / Gl'improbi inalza; e se mai ti promette / Cosa veruna, mai te la mantiene",
     "res": "aproximada (só grafia)",
-    "score": 99.0,
-    "fonte": "Opere (Italia 1813) vol. 05 (IA)",
-    "obra": "Prose/scritti minori",
-    "original": "Spesso costei i buon sotto i pie tiene, GÌ' improbi inalza, e se mai ti promette Cosa veruna, mai te la mantiene.",
+    "score": 98.1,
+    "fonte": "Wikisource I capitoli",
+    "obra": "I capitoli/Di Fortuna",
+    "original": "Spesso costei i buon sotto i piè tiene, Gl’improbi inalza; e se mai ti promette 30Cosa veruna, mai te la mantiene.",
     "n_reais": 0,
     "difs": []
    }
   ],
   "resultado": "aproximada (só grafia)",
-  "score_min": 99.0,
-  "obra_encontrada": "Prose/scritti minori",
+  "score_min": 98.1,
+  "obra_encontrada": "I capitoli/Di Fortuna",
   "obra_diferente": false
  },
  {
@@ -30109,19 +30113,27 @@
   "resultado_partes": [
    {
     "parte": "/ Porta uno in alto, ma che rovinando / Ella sen goda, ed ei cadendo pianga",
-    "res": "aproximada (só grafia)",
+    "res": "aproximada (divergente)",
     "score": 97.0,
-    "fonte": "Opere complete (Firenze 1843, IA)",
-    "obra": "Opere complete 1843",
-    "original": "rta uno in alto, ma che rovinando. Ella sen goda, od ei cadendo pianga.",
-    "n_reais": 0,
-    "difs": []
+    "fonte": "Opere (Italia 1813) vol. 05 (IA)",
+    "obra": "Prose/scritti minori",
+    "original": "Porta uno iti alto , ma che rovinando Ella sen goda , ed ei cadendo pianga",
+    "n_reais": 1,
+    "difs": [
+     [
+      "real",
+      "in",
+      "iti"
+     ]
+    ]
    }
   ],
-  "resultado": "aproximada (só grafia)",
+  "resultado": "manual: conferida à mão",
   "score_min": 97.0,
-  "obra_encontrada": "Opere complete 1843",
-  "obra_diferente": false
+  "obra_encontrada": "Prose/scritti minori",
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (divergente)",
+  "nota": "Capitolo di Fortuna; diferença só de OCR ('iti' = 'in')"
  },
  {
   "arquivo": "literatura.md",
@@ -30583,10 +30595,12 @@
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
+  "resultado": "manual: conferida à mão",
   "score_min": 94.8,
   "obra_encontrada": "Scritti letterari",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (divergente)",
+  "nota": "a parte italiana confere (Decennale/Asino); o programa pegou junto o português"
  },
  {
   "arquivo": "literatura.md",
@@ -30683,17 +30697,17 @@
    {
     "parte": "Io sono l'Occasione, a pochi nota; / E la cagion, che sempre mi travagli, / È, perchè io tengo un piè sopra una rota",
     "res": "aproximada (só grafia)",
-    "score": 99.0,
-    "fonte": "Wikisource I capitoli",
-    "obra": "I capitoli/Dell'Occasione",
-    "original": "Io sono l’Occasione, a pochi nota; E la cagion, che sempre mi travagli, 6È, perchè io tengo un piè sopra una rota.",
+    "score": 98.1,
+    "fonte": "Martelli (Tutte le opere, 1971; ed. Bompiani 2018, IA)",
+    "obra": "Scritti letterari",
+    "original": "lale? — — Io son l’Occasione, a pochi nota; e la cagion che sempre mi travagli, è perch’io tengo un piè sopra una rota.",
     "n_reais": 0,
     "difs": []
    }
   ],
   "resultado": "aproximada (só grafia)",
-  "score_min": 99.0,
-  "obra_encontrada": "I capitoli/Dell'Occasione",
+  "score_min": 98.1,
+  "obra_encontrada": "Scritti letterari",
   "obra_diferente": false
  },
  {
@@ -30730,10 +30744,12 @@
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
+  "resultado": "manual: conferida à mão",
   "score_min": 98.2,
   "obra_encontrada": "I capitoli/Dell'Occasione",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (divergente)",
+  "nota": "Capitolo dell'Occasione: confere com o Wikisource; diferença só nos números de verso do Wikisource"
  },
  {
   "arquivo": "literatura.md",
@@ -31530,10 +31546,12 @@
     "score": 0
    }
   ],
-  "resultado": "não encontrada",
+  "resultado": "manual: fora: extração errada (trecho em português/inglês)",
   "score_min": 0,
   "obra_encontrada": "",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "não encontrada",
+  "nota": ""
  },
  {
   "arquivo": "literatura.md",
@@ -31727,9 +31745,9 @@
   "arquivo": "literatura.md",
   "linha": 591,
   "tipo": "*\"",
-  "citacao": "perché, oltre all'essere troppi quegli suoi detti o sali, ve ne è una parte che è ad altri et antichi e moderni savi atribuita; una altra non ha quella vivacità né quella grandeza che si richiederebbe a un tanto uomo",
+  "citacao": "perché, oltre all'essere troppi quegli suoi detti o sali, ve ne è una parte che è da altri et antichi et moderni savi atribuita; una altra non ha quella vivacità né quella grandeza che si richiederebbe a un tanto uomo",
   "partes": [
-   "perché, oltre all'essere troppi quegli suoi detti o sali, ve ne è una parte che è ad altri et antichi e moderni savi atribuita; una altra non ha quella vivacità né quella grandeza che si richiederebbe a un tanto uomo"
+   "perché, oltre all'essere troppi quegli suoi detti o sali, ve ne è una parte che è da altri et antichi et moderni savi atribuita; una altra non ha quella vivacità né quella grandeza che si richiederebbe a un tanto uomo"
   ],
   "obra_indicada": [
    "Istorie fiorentine",
@@ -31740,18 +31758,19 @@
   "ja_marcada": true,
   "resultado_partes": [
    {
-    "parte": "perché, oltre all'essere troppi quegli suoi detti o sali, ve ne è una parte che è ad altri et antichi e moderni savi atribuita; una altra non ha quella vivacità né quella grandeza che si richiederebbe a un tanto uomo",
-    "res": "aproximada (só grafia)",
-    "score": 99.5,
+    "parte": "perché, oltre all'essere troppi quegli suoi detti o sali, ve ne è una parte che è da altri et antichi et moderni savi atribuita; una altra non ha quella vivacità né quella grandeza che si richiederebbe a un tanto uomo",
+    "res": "exata",
+    "score": 100,
     "fonte": "Martelli (Tutte le opere, 1971; ed. Bompiani 2018, IA)",
     "obra": "Lettere",
     "original": "essere troppi quegli suoi detti o sali, ve ne è una parte che è da altri et antichi et moderni savi atribuita; una altra non ha quella vivacità né quella grandeza che si richiederebbe a un tanto huomo. Ma ve ne resta",
-    "n_reais": 0,
-    "difs": []
+    "todas": [
+     "Lettere"
+    ]
    }
   ],
-  "resultado": "aproximada (só grafia)",
-  "score_min": 99.5,
+  "resultado": "exata",
+  "score_min": 100,
   "obra_encontrada": "Lettere",
   "obra_diferente": false
  },
@@ -32510,10 +32529,12 @@
     ]
    }
   ],
-  "resultado": "aproximada (divergente) [só em texto secundário]",
+  "resultado": "manual: fora: texto de outro autor",
   "score_min": 98.1,
   "obra_encontrada": "Villari (cita documentos)",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (divergente) [só em texto secundário]",
+  "nota": "Leopardi, Zibaldone 4368 — conferido no Wikisource nesta revisão (exato)"
  },
  {
   "arquivo": "literatura.md",
@@ -32797,10 +32818,12 @@
     ]
    }
   ],
-  "resultado": "não encontrada",
+  "resultado": "manual: fora: título de obra de Maquiavel ou de edição antiga (conferido como título)",
   "score_min": 69.6,
   "obra_encontrada": "Discorso intorno alla nostra lingua",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "não encontrada",
+  "nota": "título da obra"
  },
  {
   "arquivo": "literatura.md",
@@ -34085,10 +34108,12 @@
     "score": 0
    }
   ],
-  "resultado": "não encontrada",
+  "resultado": "manual: fora: texto de outro autor",
   "score_min": 0,
   "obra_encontrada": "",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "não encontrada",
+  "nota": "nota de Giuliano de' Ricci (ms. BNCF), transcrita por Stoppelli; manuscrito não conferido"
  },
  {
   "arquivo": "literatura.md",
@@ -34124,10 +34149,12 @@
     ]
    }
   ],
-  "resultado": "não encontrada",
+  "resultado": "manual: fora: texto de outro autor",
   "score_min": 59.1,
   "obra_encontrada": "Istorie fiorentine / 6.",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "não encontrada",
+  "nota": "idem (Giuliano de' Ricci)"
  },
  {
   "arquivo": "literatura.md",
@@ -34163,10 +34190,12 @@
     ]
    }
   ],
-  "resultado": "não encontrada",
+  "resultado": "manual: fora: texto de outro autor",
   "score_min": 68.1,
   "obra_encontrada": "Villari (cita documentos)",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "não encontrada",
+  "nota": "idem (Giuliano de' Ricci)"
  },
  {
   "arquivo": "maquiavel-nos-negocios.md",
@@ -34420,10 +34449,12 @@
     ]
    }
   ],
-  "resultado": "não encontrada",
+  "resultado": "manual: fora: título de livro/artigo moderno (não é citação)",
   "score_min": 69.4,
   "obra_encontrada": "Opere complete 1843",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "não encontrada",
+  "nota": ""
  },
  {
   "arquivo": "maquiavel-nos-negocios.md",
@@ -34456,10 +34487,12 @@
     ]
    }
   ],
-  "resultado": "não encontrada",
+  "resultado": "manual: fora: título de livro/artigo moderno (não é citação)",
   "score_min": 62.8,
   "obra_encontrada": "moderno (prefácio/introdução Bompiani)",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "não encontrada",
+  "nota": ""
  },
  {
   "arquivo": "maquiavel-nos-negocios.md",
@@ -34493,10 +34526,12 @@
     ]
    }
   ],
-  "resultado": "não encontrada",
+  "resultado": "manual: fora: título de livro/artigo moderno (não é citação)",
   "score_min": 65.4,
   "obra_encontrada": "moderno (prefácio/introdução Bompiani)",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "não encontrada",
+  "nota": ""
  },
  {
   "arquivo": "maquiavel-nos-negocios.md",
@@ -35554,36 +35589,63 @@
   "arquivo": "maquiavel-nos-negocios.md",
   "linha": 277,
   "tipo": "\"",
-  "citacao": "Le armi mercenarie ed ausiliari sono inutili e pericolose.",
+  "citacao": "Le mercenarie ed ausiliari sono inutili e pericolose.",
   "partes": [
-   "Le armi mercenarie ed ausiliari sono inutili e pericolose."
+   "Le mercenarie ed ausiliari sono inutili e pericolose."
   ],
   "obra_indicada": [
    "Principe"
   ],
-  "contexto": "- \"Le armi mercenarie ed ausiliari sono inutili e pericolose.\" — *Príncipe* XII.",
+  "contexto": "- \"Le mercenarie ed ausiliari sono inutili e pericolose.\" — *Príncipe* XII (vulgata, Wikisource; na ed. Inglese: \"Le mercennarie e ausiliarie sono inutile e periculose\").",
   "ja_marcada": false,
   "resultado_partes": [
    {
-    "parte": "Le armi mercenarie ed ausiliari sono inutili e pericolose.",
-    "res": "aproximada (divergente)",
-    "score": 91.1,
+    "parte": "Le mercenarie ed ausiliari sono inutili e pericolose.",
+    "res": "exata",
+    "score": 100,
     "fonte": "Wikisource Il Principe",
     "obra": "Il Principe/Capitolo XII",
-    "original": "miste. Le mercenarie ed ausiliari sono inutili e pericolose;",
-    "n_reais": 1,
-    "difs": [
-     [
-      "real",
-      "armi",
-      ""
-     ]
+    "original": "Le mercenarie ed ausiliari sono inutili e pericolose;",
+    "todas": [
+     "Il Principe/Capitolo XII"
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
-  "score_min": 91.1,
+  "resultado": "exata",
+  "score_min": 100,
   "obra_encontrada": "Il Principe/Capitolo XII",
+  "obra_diferente": false
+ },
+ {
+  "arquivo": "maquiavel-nos-negocios.md",
+  "linha": 277,
+  "tipo": "\"",
+  "citacao": "Le mercennarie e ausiliarie sono inutile e periculose",
+  "partes": [
+   "Le mercennarie e ausiliarie sono inutile e periculose"
+  ],
+  "obra_indicada": [
+   "Principe"
+  ],
+  "contexto": "- \"Le mercenarie ed ausiliari sono inutili e pericolose.\" — *Príncipe* XII (vulgata, Wikisource; na ed. Inglese: \"Le mercennarie e ausiliarie sono inutile e periculose\").",
+  "ja_marcada": false,
+  "resultado_partes": [
+   {
+    "parte": "Le mercennarie e ausiliarie sono inutile e periculose",
+    "res": "exata",
+    "score": 100,
+    "fonte": "BibIt bibit000214 (Il Principe (Inglese 1995))",
+    "obra": "Il Principe (Inglese 1995) / XII",
+    "original": "Le mercennarie e ausiliarie sono inutile e periculose;",
+    "todas": [
+     "Il Principe (Inglese 1995) / XII",
+     "Principe"
+    ]
+   }
+  ],
+  "resultado": "exata",
+  "score_min": 100,
+  "obra_encontrada": "Il Principe (Inglese 1995) / XII",
   "obra_diferente": false
  },
  {
@@ -35815,10 +35877,12 @@
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
+  "resultado": "manual: fora: título de livro/artigo moderno (não é citação)",
   "score_min": 75.0,
   "obra_encontrada": "Decennali",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (divergente)",
+  "nota": "título da introdução de Martelli"
  },
  {
   "arquivo": "missoes-e-escritos-politicos.md",
@@ -36262,24 +36326,16 @@
   "resultado_partes": [
    {
     "parte": "La cagione dell'ordinanza, dove la si truovi et quel che bisogni fare",
-    "res": "aproximada (divergente)",
-    "score": 80.0,
-    "fonte": "Martelli (Tutte le opere, 1971; ed. Bompiani 2018, IA)",
-    "obra": "Scritti sull'ordinanza",
-    "original": "LA CAGIONE DELL’ORDINANZA, DOVE LA SI TRUOVI, Voi mi havete richiesto",
-    "n_reais": 5,
-    "difs": [
-     [
-      "real",
-      "e quel ce bisogni fare",
-      "uoi mi auete riciesto"
-     ]
-    ]
+    "res": "exata [só em texto secundário]",
+    "score": 100,
+    "fonte": "Prefácios modernos da ed. Bompiani 2018 (secundária)",
+    "obra": "moderno (prefácio/introdução Bompiani)",
+    "original": "La cagione dell'ordinanza, dove la si truovi, et quel che bisogni fare."
    }
   ],
-  "resultado": "aproximada (divergente)",
-  "score_min": 80.0,
-  "obra_encontrada": "Scritti sull'ordinanza",
+  "resultado": "exata [só em texto secundário]",
+  "score_min": 100,
+  "obra_encontrada": "moderno (prefácio/introdução Bompiani)",
   "obra_diferente": false
  },
  {
@@ -36296,34 +36352,16 @@
   "resultado_partes": [
    {
     "parte": "Consulto per l'elezione del capitano delle fanterie di ordinanza fiorentina",
-    "res": "aproximada (divergente)",
-    "score": 75.7,
-    "fonte": "Opere complete (Firenze 1843, IA)",
-    "obra": "Opere complete 1843",
-    "original": "0 Consulto per l’elezione del comandante delle fanterie. 873 Relazione di una visita fatta",
-    "n_reais": 4,
-    "difs": [
-     [
-      "real",
-      "capitano",
-      "comandante"
-     ],
-     [
-      "real",
-      "",
-      "relazione"
-     ],
-     [
-      "real",
-      "ordinanza fiorentina",
-      "una uisita"
-     ]
-    ]
+    "res": "exata [só em texto secundário]",
+    "score": 100,
+    "fonte": "Prefácios modernos da ed. Bompiani 2018 (secundária)",
+    "obra": "moderno (prefácio/introdução Bompiani)",
+    "original": "Consulto per l'elezione del capitano delle fanterie di ordinanza fiorentina,"
    }
   ],
-  "resultado": "aproximada (divergente)",
-  "score_min": 75.7,
-  "obra_encontrada": "Opere complete 1843",
+  "resultado": "exata [só em texto secundário]",
+  "score_min": 100,
+  "obra_encontrada": "moderno (prefácio/introdução Bompiani)",
   "obra_diferente": false
  },
  {
@@ -36526,7 +36564,7 @@
     "fonte": "Opere complete (Firenze 1843, IA)",
     "obra": "Opere complete 1843",
     "original": "TRUZIONE FATTA PER NICCOLO MACHIAVELLI A RAFFAELLO G1ROLAMI QUANDO Al 23 I)’ OTTOBRE PARTI FU SPAGNA ALI.’ IMPERATORE",
-    "n_reais": 3,
+    "n_reais": 4,
     "difs": [
      [
       "real",
@@ -36537,14 +36575,21 @@
       "real",
       "per",
       "fu"
+     ],
+     [
+      "real",
+      "al",
+      "ali"
      ]
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
+  "resultado": "manual: fora: título de obra de Maquiavel ou de edição antiga (conferido como título)",
   "score_min": 94.3,
   "obra_encontrada": "Opere complete 1843",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (divergente)",
+  "nota": "título da obra (confere com 1843, diferença de OCR)"
  },
  {
   "arquivo": "missoes-e-escritos-politicos.md",
@@ -37018,10 +37063,12 @@
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
+  "resultado": "manual: conferida à mão",
   "score_min": 91.3,
   "obra_encontrada": "Legazioni e commissarie",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (divergente)",
+  "nota": "a parte italiana confere com Martelli ('secretissimo, e conferire'); o programa pegou junto o português"
  },
  {
   "arquivo": "missoes-e-escritos-politicos.md",
@@ -37148,10 +37195,12 @@
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
+  "resultado": "manual: conferida à mão",
   "score_min": 88.4,
   "obra_encontrada": "Legazioni",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (divergente)",
+  "nota": "a parte italiana confere com a ed. 1813 vol. VI; o programa pegou junto o português"
  },
  {
   "arquivo": "missoes-e-escritos-politicos.md",
@@ -37464,10 +37513,12 @@
     ]
    }
   ],
-  "resultado": "não encontrada",
+  "resultado": "manual: fora: título de livro/artigo moderno (não é citação)",
   "score_min": 73.8,
   "obra_encontrada": "Discorsi",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "não encontrada",
+  "nota": "revista"
  },
  {
   "arquivo": "missoes-e-escritos-politicos.md",
@@ -37547,10 +37598,12 @@
     "score": 0
    }
   ],
-  "resultado": "não encontrada",
+  "resultado": "manual: fora: texto de outro autor",
   "score_min": 0,
   "obra_encontrada": "",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "não encontrada",
+  "nota": "carta de Guicciardini (Carteggi), citada pelo DBI; já marcada 'não conferido no volume dos Carteggi'"
  },
  {
   "arquivo": "missoes-e-escritos-politicos.md",
@@ -39415,10 +39468,12 @@
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
+  "resultado": "manual: conferida à mão",
   "score_min": 99.3,
   "obra_encontrada": "Discorso sopra le cose della Magna e sopra l'imperatore",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (divergente)",
+  "nota": "confere com o Wikisource (Discorso sopra le cose della Magna); o programa pegou junto o 'e' antes das aspas"
  },
  {
   "arquivo": "missoes-e-escritos-politicos.md",
@@ -39509,84 +39564,63 @@
   "arquivo": "missoes-e-escritos-politicos.md",
   "linha": 446,
   "tipo": "*\"",
-  "citacao": "se sono assai e reputate, sono o insopportabili o sospette; se sono poche e senza riputazione sono di nessuna utilità",
+  "citacao": "se sono assai e reputate, sono o insopportabili o sospette; se poche e senza riputazione sono di nessuna utilità",
   "partes": [
-   "se sono assai e reputate, sono o insopportabili o sospette; se sono poche e senza riputazione sono di nessuna utilità"
+   "se sono assai e reputate, sono o insopportabili o sospette; se poche e senza riputazione sono di nessuna utilità"
   ],
   "obra_indicada": [],
   "contexto": "- ***Provisione della ordinanza*** (lei de **6/12/1506**, redigida por ele; cria os **Nove ufficiali dell'ordinanza e milizia**). **Texto conferido** pela citação de Fournel e Zancarini (*Enciclopedia machiavelliana*, verbete \"Armi\", 2014): o \"primeiro fundamento\" das repúblicas e Estados que se mantiveram foi ***\"la iustizia e le armi\"***; as armas mercenárias, *\"se sono assai e reputate, sono o ",
   "ja_marcada": false,
   "resultado_partes": [
    {
-    "parte": "se sono assai e reputate, sono o insopportabili o sospette; se sono poche e senza riputazione sono di nessuna utilità",
-    "res": "aproximada (divergente)",
-    "score": 89.1,
-    "fonte": "Opere complete (Firenze 1843, IA)",
-    "obra": "Opere complete 1843",
-    "original": "no assai o reputate, sono o insopportabili o sospette, e se sono poche o senza reputazione, non sono di alcuna utilità,",
-    "n_reais": 3,
-    "difs": [
-     [
-      "real",
-      "se",
-      ""
-     ],
-     [
-      "real",
-      "",
-      "e"
-     ],
-     [
-      "real",
-      "nesuna",
-      "alcuna"
-     ]
-    ]
+    "parte": "se sono assai e reputate, sono o insopportabili o sospette; se poche e senza riputazione sono di nessuna utilità",
+    "res": "exata [só em texto secundário]",
+    "score": 100,
+    "fonte": "Prefácios modernos da ed. Bompiani 2018 (secundária)",
+    "obra": "moderno (prefácio/introdução Bompiani)",
+    "original": "se sono assai e reputate, sono o insopportabili o sospette; se poche e senza riputazione sono di nessuna utilità;"
    }
   ],
-  "resultado": "aproximada (divergente)",
-  "score_min": 89.1,
-  "obra_encontrada": "Opere complete 1843",
+  "resultado": "exata [só em texto secundário]",
+  "score_min": 100,
+  "obra_encontrada": "moderno (prefácio/introdução Bompiani)",
   "obra_diferente": false
  },
  {
   "arquivo": "missoes-e-escritos-politicos.md",
   "linha": 446,
   "tipo": "*\"",
-  "citacao": "); por isso a república decide \"armarsi d'armi proprie; delli uomini suoi, de' quali in un momento la loro republica si possa valere, e li possa gastigare errando, e premiare meritando",
+  "citacao": "); por isso a república decide \"armarsi d'armi proprie; e delli uomini suoi, de' quali in un momento la loro republica si possa valere, e li possa gastigare errando, e premiare meritando",
   "partes": [
-   "); por isso a república decide \"armarsi d'armi proprie; delli uomini suoi, de' quali in un momento la loro republica si possa valere, e li possa gastigare errando, e premiare meritando"
+   "); por isso a república decide \"armarsi d'armi proprie; e delli uomini suoi, de' quali in un momento la loro republica si possa valere, e li possa gastigare errando, e premiare meritando"
   ],
   "obra_indicada": [],
   "contexto": "- ***Provisione della ordinanza*** (lei de **6/12/1506**, redigida por ele; cria os **Nove ufficiali dell'ordinanza e milizia**). **Texto conferido** pela citação de Fournel e Zancarini (*Enciclopedia machiavelliana*, verbete \"Armi\", 2014): o \"primeiro fundamento\" das repúblicas e Estados que se mantiveram foi ***\"la iustizia e le armi\"***; as armas mercenárias, *\"se sono assai e reputate, sono o ",
   "ja_marcada": false,
   "resultado_partes": [
    {
-    "parte": "); por isso a república decide \"armarsi d'armi proprie; delli uomini suoi, de' quali in un momento la loro republica si possa valere, e li possa gastigare errando, e premiare meritando",
+    "parte": "); por isso a república decide \"armarsi d'armi proprie; e delli uomini suoi, de' quali in un momento la loro republica si possa valere, e li possa gastigare errando, e premiare meritando",
     "res": "aproximada (divergente) [só em texto secundário]",
-    "score": 90.6,
+    "score": 91.3,
     "fonte": "Prefácios modernos da ed. Bompiani 2018 (secundária)",
     "obra": "moderno (prefácio/introdução Bompiani)",
-    "original": "uomini più cauti, essere bene armarsi d’armi proprie; e delli uomini suoi, de’ quali in un momento la loro republica si possa valere, e li possa gastigare errando, e premiare meritando; e",
-    "n_reais": 6,
+    "original": "uomini più cauti, essere bene armarsi d’armi proprie; e delli uomini suoi, de’ quali in un momento la loro republica si possa valere, e li possa gastigare errando, e premiare meritando;",
+    "n_reais": 5,
     "difs": [
      [
       "real",
       "por iso a republica decide",
       "uomini piu cauti esere bene"
-     ],
-     [
-      "real",
-      "",
-      "e"
      ]
     ]
    }
   ],
-  "resultado": "aproximada (divergente) [só em texto secundário]",
-  "score_min": 90.6,
+  "resultado": "manual: conferida à mão",
+  "score_min": 91.3,
   "obra_encontrada": "moderno (prefácio/introdução Bompiani)",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (divergente) [só em texto secundário]",
+  "nota": "Provisione della ordinanza: confere (após a correção) com o texto citado no prefácio Bompiani"
  },
  {
   "arquivo": "missoes-e-escritos-politicos.md",
@@ -39632,19 +39666,27 @@
   "resultado_partes": [
    {
     "parte": "); e \"torrebbe reputatione ad uno che è di fuora, che no gli può fare male, et darebbela ad chi è in casa, che ogni dì lo può offendere",
-    "res": "aproximada (só grafia)",
+    "res": "aproximada (divergente)",
     "score": 100.0,
     "fonte": "Martelli (Tutte le opere, 1971; ed. Bompiani 2018, IA)",
     "obra": "Scritti politici minori",
     "original": "che torrebbe reputatione ad uno che è di fuora, che no-gli può fare male, et darebbela ad chi è in casa, che ogni dì lo può offendere",
-    "n_reais": 0,
-    "difs": []
+    "n_reais": 1,
+    "difs": [
+     [
+      "real",
+      "e",
+      "ce"
+     ]
+    ]
    }
   ],
-  "resultado": "aproximada (só grafia)",
+  "resultado": "manual: conferida à mão",
   "score_min": 100.0,
   "obra_encontrada": "Scritti politici minori",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (divergente)",
+  "nota": "confere com Martelli; o programa pegou junto o 'e' antes das aspas"
  },
  {
   "arquivo": "missoes-e-escritos-politicos.md",
@@ -40052,13 +40094,11 @@
   "resultado_partes": [
    {
     "parte": "il numero grande serve a gastigare i grandi, e l'ambizione de' ricchi, il numero piccolo serve",
-    "res": "aproximada (só grafia)",
-    "score": 98.9,
-    "fonte": "Opere complete (Firenze 1843, IA)",
-    "obra": "Opere complete 1843",
-    "original": "numero grande serve a gastigare i grandi e l’ ambizione do’ ricchi; il numero piccolo serve",
-    "n_reais": 0,
-    "difs": []
+    "res": "exata [só em texto secundário]",
+    "score": 100,
+    "fonte": "Prefácios modernos da ed. Bompiani 2018 (secundária)",
+    "obra": "moderno (prefácio/introdução Bompiani)",
+    "original": "il numero grande serve a gastigare i grandi e l'ambizione de’ ricchi; il numero piccolo serve"
    },
    {
     "parte": "a frenare la insolenza de' giovani",
@@ -40073,9 +40113,9 @@
     ]
    }
   ],
-  "resultado": "aproximada (só grafia)",
-  "score_min": 98.9,
-  "obra_encontrada": "Opere complete 1843; Sommario delle cose della città di Lucca",
+  "resultado": "exata [só em texto secundário]",
+  "score_min": 100,
+  "obra_encontrada": "Sommario delle cose della città di Lucca; moderno (prefácio/introdução Bompiani)",
   "obra_diferente": false
  },
  {
@@ -40123,19 +40163,27 @@
   "resultado_partes": [
    {
     "parte": "perchè mettere il giudizio vostro nella bocca vostra sarebbe odioso, e' si usa nelle lettere questo termine, che prima si discorre le pratiche che vanno attorno, gli uomini che le maneggiano, e gli umori che le muovono, e dipoi si dice queste parole: Considerato adunque tutto quello che vi si è scritto, gli uomini prudenti che si trovano qua, giudicano che ne abbia a seguire il tale effetto",
-    "res": "aproximada (só grafia)",
+    "res": "aproximada (divergente)",
     "score": 99.2,
     "fonte": "Opere complete (Firenze 1843, IA)",
     "obra": "Opere complete 1843",
     "original": "rchè mettere il giudizio vostro nella bocca vostra sarebbe odioso, e’ si usa nelle lettere questo termine, che prima si discorre le pratiche che vanno attorno, gli uomini che le maneggiano, e gli umori che le muovono, e dipoi si dico queste parole; Considerato adunque tutto quello che vi si è icritto, gli uomini prudenti che li trovano qua, giudicano che ne abbia a seguire il tale effetto",
-    "n_reais": 0,
-    "difs": []
+    "n_reais": 1,
+    "difs": [
+     [
+      "real",
+      "si",
+      "li"
+     ]
+    ]
    }
   ],
-  "resultado": "aproximada (só grafia)",
+  "resultado": "manual: conferida à mão",
   "score_min": 99.2,
   "obra_encontrada": "Opere complete 1843",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (divergente)",
+  "nota": "Notula per uno che va ambasciadore; diferença só de OCR da ed. 1843 ('dico'/'li')"
  },
  {
   "arquivo": "missoes-e-escritos-politicos.md",
@@ -40255,10 +40303,12 @@
     ]
    }
   ],
-  "resultado": "não encontrada",
+  "resultado": "manual: fora: título de livro/artigo moderno (não é citação)",
   "score_min": 69.8,
   "obra_encontrada": "Discorsi",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "não encontrada",
+  "nota": ""
  },
  {
   "arquivo": "missoes-e-escritos-politicos.md",
@@ -40326,33 +40376,28 @@
   "arquivo": "missoes-e-escritos-politicos.md",
   "linha": 526,
   "tipo": "\"",
-  "citacao": "non vuole stare in questa ambiguità",
+  "citacao": "non può, né vuole stare in questa ambiguità",
   "partes": [
-   "non vuole stare in questa ambiguità"
+   "non può, né vuole stare in questa ambiguità"
   ],
   "obra_indicada": [],
-  "contexto": "| Lead enrola entre sim e não | Urbino, 26/06/1502 (\"non vuole stare in questa ambiguità\"; 4 dias) | Proposta com prazo curto e opção clara: ou fecha, ou encerra |",
+  "contexto": "| Lead enrola entre sim e não | Urbino, 26/06/1502 (\"non può, né vuole stare in questa ambiguità\"; 4 dias) | Proposta com prazo curto e opção clara: ou fecha, ou encerra |",
   "ja_marcada": false,
   "resultado_partes": [
    {
-    "parte": "non vuole stare in questa ambiguità",
-    "res": "aproximada (divergente)",
-    "score": 94.1,
+    "parte": "non può, né vuole stare in questa ambiguità",
+    "res": "exata",
+    "score": 100,
     "fonte": "Chiappelli, Legazioni vol. 2 (1971-85, IA)",
     "obra": "Legazioni e commissarie",
-    "original": "uò, né vuole stare in questa ambiguità,",
-    "n_reais": 2,
-    "difs": [
-     [
-      "real",
-      "non",
-      "puo ne"
-     ]
+    "original": "on può, né vuole stare in questa ambiguità,",
+    "todas": [
+     "Legazioni e commissarie"
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
-  "score_min": 94.1,
+  "resultado": "exata",
+  "score_min": 100,
   "obra_encontrada": "Legazioni e commissarie",
   "obra_diferente": false
  },
@@ -40420,46 +40465,29 @@
   "arquivo": "missoes-e-escritos-politicos.md",
   "linha": 534,
   "tipo": "\"",
-  "citacao": "li primi accordi... sono i migliori",
+  "citacao": "li primi accordi con loro sono sempre i migliori",
   "partes": [
-   "li primi accordi",
-   "sono i migliori"
+   "li primi accordi con loro sono sempre i migliori"
   ],
   "obra_indicada": [],
-  "contexto": "| Fechar negócio com empresa grande/governo | *De natura Gallorum* (\"assai danari, gran diligenza, e buona fortuna\"; \"li primi accordi... sono i migliori\") | Recurso, follow-up e timing; feche o primeiro acordo bem amarrado |",
+  "contexto": "| Fechar negócio com empresa grande/governo | *De natura Gallorum* (\"assai danari, gran diligenza, e buona fortuna\"; \"li primi accordi con loro sono sempre i migliori\") | Recurso, follow-up e timing; feche o primeiro acordo bem amarrado |",
   "ja_marcada": false,
   "resultado_partes": [
    {
-    "parte": "li primi accordi",
+    "parte": "li primi accordi con loro sono sempre i migliori",
     "res": "exata",
     "score": 100,
     "fonte": "Wikisource Della natura de' Francesi",
     "obra": "Della natura de' Francesi",
-    "original": "Li primi accordi",
+    "original": "Li primi accordi con loro sono sempre i migliori.",
     "todas": [
      "Della natura de' Francesi"
     ]
-   },
-   {
-    "parte": "sono i migliori",
-    "res": "aproximada (divergente)",
-    "score": 80.0,
-    "fonte": "BibIt bibit000305 (Istorie fiorentine)",
-    "obra": "Istorie fiorentine / 5.",
-    "original": "mediante i migliori",
-    "n_reais": 1,
-    "difs": [
-     [
-      "real",
-      "sono",
-      "mediante"
-     ]
-    ]
    }
   ],
-  "resultado": "aproximada (divergente)",
-  "score_min": 80.0,
-  "obra_encontrada": "Della natura de' Francesi; Istorie fiorentine / 5.",
+  "resultado": "exata",
+  "score_min": 100,
+  "obra_encontrada": "Della natura de' Francesi",
   "obra_diferente": false
  },
  {
@@ -41428,29 +41456,16 @@
   "resultado_partes": [
    {
     "parte": "Le armi mercennarie, se sono assai e reputate, sono o insopportabili o sospette",
-    "res": "aproximada (divergente)",
-    "score": 91.8,
-    "fonte": "Martelli (Tutte le opere, 1971; ed. Bompiani 2018, IA)",
-    "obra": "Scritti sull'ordinanza",
-    "original": "e mercenarie, perché se sono assai e reputate, sono o insopportabili o sospette,",
-    "n_reais": 3,
-    "difs": [
-     [
-      "real",
-      "le armi",
-      "e"
-     ],
-     [
-      "real",
-      "",
-      "perce"
-     ]
-    ]
+    "res": "exata [só em texto secundário]",
+    "score": 100,
+    "fonte": "Prefácios modernos da ed. Bompiani 2018 (secundária)",
+    "obra": "moderno (prefácio/introdução Bompiani)",
+    "original": "le armi mercennarie, se sono assai e reputate, sono o insopportabili o sospette;"
    }
   ],
-  "resultado": "aproximada (divergente)",
-  "score_min": 91.8,
-  "obra_encontrada": "Scritti sull'ordinanza",
+  "resultado": "exata [só em texto secundário]",
+  "score_min": 100,
+  "obra_encontrada": "moderno (prefácio/introdução Bompiani)",
   "obra_diferente": false
  },
  {
@@ -41694,7 +41709,7 @@
   "obra_indicada": [
    "Lettere"
   ],
-  "contexto": "> (Texto da carta citado na forma das edições correntes; **não conferido palavra por palavra nesta frente** — a conferência das cartas é do arquivo `vida-e-cartas.md`. A Wikipédia italiana, verbete \"Lettera a Francesco Vettori\", confirma o sentido e a frase *\"io lo indirizzo alla Magnificenza di Giuliano\"*.)",
+  "contexto": "> (Texto da carta citado na forma das edições correntes; **conferido na revisão de citações (02/11/2026) na ed. Martelli: mesmas palavras, grafia mais antiga em Martelli** — *lo havere inteso*, *conversatione*, *et composto*, *cogitationi*, *subbietto*, *spetie*. Nota original desta frente: \"não conferido palavra por palavra nesta frente\" — a conferência das cartas é do arquivo `vida-e-cartas.md`.",
   "ja_marcada": true,
   "resultado_partes": [
    {
@@ -41727,7 +41742,7 @@
    "Lettere"
   ],
   "contexto": "- **Texto (carta de 10/12/1513):** o primeiro destinatário era **Giuliano de' Medici** (1479–1516), irmão de Leão X: *\"io lo indirizzo alla Magnificenzia di Giuliano\"*. Na mesma carta Maquiavel pergunta a Vettori **se deve entregá-lo pessoalmente ou mandar**, e teme que, se não entregar, Giuliano nem o leia e que \"este Ardinghelli\" (Piero Ardinghelli, secretário do papa) tire proveito do trabalho ",
-  "ja_marcada": true,
+  "ja_marcada": false,
   "resultado_partes": [
    {
     "parte": "io lo indirizzo alla Magnificenzia di Giuliano",
@@ -41750,35 +41765,31 @@
   "arquivo": "principe.md",
   "linha": 67,
   "tipo": "*\"",
-  "citacao": "la necessità che mi caccia, mi fa dare",
+  "citacao": "El darlo mi faceva la necessità che mi caccia",
   "partes": [
-   "la necessità che mi caccia, mi fa dare"
+   "El darlo mi faceva la necessità che mi caccia"
   ],
   "obra_indicada": [
    "Lettere"
   ],
   "contexto": "- **Texto (carta de 10/12/1513):** o primeiro destinatário era **Giuliano de' Medici** (1479–1516), irmão de Leão X: *\"io lo indirizzo alla Magnificenzia di Giuliano\"*. Na mesma carta Maquiavel pergunta a Vettori **se deve entregá-lo pessoalmente ou mandar**, e teme que, se não entregar, Giuliano nem o leia e que \"este Ardinghelli\" (Piero Ardinghelli, secretário do papa) tire proveito do trabalho ",
-  "ja_marcada": true,
+  "ja_marcada": false,
   "resultado_partes": [
    {
-    "parte": "la necessità che mi caccia, mi fa dare",
-    "res": "aproximada (divergente)",
-    "score": 82.4,
-    "fonte": "Lettere (IA lettere00mach)",
+    "parte": "El darlo mi faceva la necessità che mi caccia",
+    "res": "exata",
+    "score": 100,
+    "fonte": "Martelli (Tutte le opere, 1971; ed. Bompiani 2018, IA)",
     "obra": "Lettere",
-    "original": "la necessità che mi caccia... E della fede",
-    "n_reais": 3,
-    "difs": [
-     [
-      "real",
-      "mi fa dare",
-      "e dela fede"
-     ]
+    "original": "eva la necessità che mi caccia, perché io",
+    "todas": [
+     "Lettere",
+     "Lettere (Machiavelli)/Lettera XI a Francesco Vettori"
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
-  "score_min": 82.4,
+  "resultado": "exata",
+  "score_min": 100,
   "obra_encontrada": "Lettere",
   "obra_diferente": false
  },
@@ -41857,8 +41868,8 @@
   "obra_indicada": [
    "Vita di Castruccio"
   ],
-  "contexto": "| **Antonio Blado**, Roma | **4 de janeiro de 1532** (colofão: *\"Stampata in Roma per Antonio Blado d'Asola a dì iiij de gennaio del M.D.XXXII\"*) | *Il principe di Niccholo Machiavello al magnifico Lorenzo di Piero de Medici*, junto com a *Vita di Castruccio Castracani* e a *Descrizione del modo tenuto dal duca Valentino nello ammazzare Vitellozzo Vitelli…*. Saiu com **privilégio do papa Clemente ",
-  "ja_marcada": false,
+  "contexto": "| **Antonio Blado**, Roma | **4 de janeiro de 1532** (colofão: *\"Stampata in Roma per Antonio Blado d'Asola a dì iiij de gennaio del M.D.XXXII\"*; não conferido no original) | *Il principe di Niccholo Machiavello al magnifico Lorenzo di Piero de Medici*, junto com a *Vita di Castruccio Castracani* e a *Descrizione del modo tenuto dal duca Valentino nello ammazzare Vitellozzo Vitelli…*. Saiu com **p",
+  "ja_marcada": true,
   "resultado_partes": [
    {
     "parte": "Stampata in Roma per Antonio Blado d'Asola a dì iiij de gennaio del M.D.XXXII",
@@ -41887,10 +41898,12 @@
     ]
    }
   ],
-  "resultado": "não encontrada",
+  "resultado": "manual: não conferível (fonte fora da rede) — marcada 'não conferido no original'",
   "score_min": 74.3,
   "obra_encontrada": "Opere complete 1843",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "não encontrada",
+  "nota": "colofão da ed. Blado 1532"
  },
  {
   "arquivo": "principe.md",
@@ -41903,8 +41916,8 @@
   "obra_indicada": [
    "Vita di Castruccio"
   ],
-  "contexto": "| **Antonio Blado**, Roma | **4 de janeiro de 1532** (colofão: *\"Stampata in Roma per Antonio Blado d'Asola a dì iiij de gennaio del M.D.XXXII\"*) | *Il principe di Niccholo Machiavello al magnifico Lorenzo di Piero de Medici*, junto com a *Vita di Castruccio Castracani* e a *Descrizione del modo tenuto dal duca Valentino nello ammazzare Vitellozzo Vitelli…*. Saiu com **privilégio do papa Clemente ",
-  "ja_marcada": false,
+  "contexto": "| **Antonio Blado**, Roma | **4 de janeiro de 1532** (colofão: *\"Stampata in Roma per Antonio Blado d'Asola a dì iiij de gennaio del M.D.XXXII\"*; não conferido no original) | *Il principe di Niccholo Machiavello al magnifico Lorenzo di Piero de Medici*, junto com a *Vita di Castruccio Castracani* e a *Descrizione del modo tenuto dal duca Valentino nello ammazzare Vitellozzo Vitelli…*. Saiu com **p",
+  "ja_marcada": true,
   "resultado_partes": [
    {
     "parte": "Il principe di Niccholo Machiavello al magnifico Lorenzo di Piero de Medici",
@@ -41933,8 +41946,8 @@
   "obra_indicada": [
    "Vita di Castruccio"
   ],
-  "contexto": "| **Antonio Blado**, Roma | **4 de janeiro de 1532** (colofão: *\"Stampata in Roma per Antonio Blado d'Asola a dì iiij de gennaio del M.D.XXXII\"*) | *Il principe di Niccholo Machiavello al magnifico Lorenzo di Piero de Medici*, junto com a *Vita di Castruccio Castracani* e a *Descrizione del modo tenuto dal duca Valentino nello ammazzare Vitellozzo Vitelli…*. Saiu com **privilégio do papa Clemente ",
-  "ja_marcada": false,
+  "contexto": "| **Antonio Blado**, Roma | **4 de janeiro de 1532** (colofão: *\"Stampata in Roma per Antonio Blado d'Asola a dì iiij de gennaio del M.D.XXXII\"*; não conferido no original) | *Il principe di Niccholo Machiavello al magnifico Lorenzo di Piero de Medici*, junto com a *Vita di Castruccio Castracani* e a *Descrizione del modo tenuto dal duca Valentino nello ammazzare Vitellozzo Vitelli…*. Saiu com **p",
+  "ja_marcada": true,
   "resultado_partes": [
    {
     "parte": "Descrizione del modo tenuto dal duca Valentino nello ammazzare Vitellozzo Vitelli",
@@ -41971,24 +41984,16 @@
   "resultado_partes": [
    {
     "parte": "Del \"Principe\" di Niccolò Machiavelli",
-    "res": "aproximada (divergente)",
-    "score": 95.2,
-    "fonte": "Einaudi/Martelli Il Principe (IA)",
-    "obra": "Principe",
-    "original": "Il Principe di Niccolò Machiavelli",
-    "n_reais": 1,
-    "difs": [
-     [
-      "real",
-      "del",
-      "il"
-     ]
-    ]
+    "res": "exata [só em texto secundário]",
+    "score": 100,
+    "fonte": "Villari, Machiavelli e i suoi tempi vol. 2 (secundária)",
+    "obra": "Villari (cita documentos)",
+    "original": "del_ PRINCIPE _di Niccolò Machiavelli_.[808]"
    }
   ],
-  "resultado": "aproximada (divergente)",
-  "score_min": 95.2,
-  "obra_encontrada": "Principe",
+  "resultado": "exata [só em texto secundário]",
+  "score_min": 100,
+  "obra_encontrada": "Villari (cita documentos)",
   "obra_diferente": false
  },
  {
@@ -48319,10 +48324,12 @@
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
+  "resultado": "manual: fora: título de livro/artigo moderno (não é citação)",
   "score_min": 79.2,
   "obra_encontrada": "Principe",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (divergente)",
+  "nota": "Hexter 1957"
  },
  {
   "arquivo": "principe.md",
@@ -48927,24 +48934,16 @@
   "resultado_partes": [
    {
     "parte": "Del principe e delle lettere",
-    "res": "aproximada (divergente)",
-    "score": 80.8,
-    "fonte": "Martelli (Tutte le opere, 1971; ed. Bompiani 2018, IA)",
-    "obra": "Discorsi",
-    "original": "del principe e delle ingiurie",
-    "n_reais": 1,
-    "difs": [
-     [
-      "real",
-      "letere",
-      "ingiurie"
-     ]
-    ]
+    "res": "exata [só em texto secundário]",
+    "score": 100,
+    "fonte": "Villari, Machiavelli e i suoi tempi vol. 2 (secundária)",
+    "obra": "Villari (cita documentos)",
+    "original": "Del Principe e delle Lettere_,"
    }
   ],
-  "resultado": "aproximada (divergente)",
-  "score_min": 80.8,
-  "obra_encontrada": "Discorsi",
+  "resultado": "exata [só em texto secundário]",
+  "score_min": 100,
+  "obra_encontrada": "Villari (cita documentos)",
   "obra_diferente": false
  },
  {
@@ -48972,10 +48971,12 @@
     "difs": []
    }
   ],
-  "resultado": "aproximada (só grafia) [só em texto secundário]",
+  "resultado": "manual: fora: texto de outro autor",
   "score_min": 98.3,
   "obra_encontrada": "Villari (cita documentos)",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (só grafia) [só em texto secundário]",
+  "nota": "Foscolo, Dei Sepolcri — confere com a citação de Villari"
  },
  {
   "arquivo": "principe.md",
@@ -49059,10 +49060,12 @@
     ]
    }
   ],
-  "resultado": "não encontrada",
+  "resultado": "manual: fora: texto de outro autor",
   "score_min": 58.2,
   "obra_encontrada": "Villari (cita documentos)",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "não encontrada",
+  "nota": "Croce; o próprio arquivo diz 'citada de memória; conferir' — não conferido no original"
  },
  {
   "arquivo": "principe.md",
@@ -49100,10 +49103,12 @@
     ]
    }
   ],
-  "resultado": "não encontrada",
+  "resultado": "manual: fora: título de livro/artigo moderno (não é citação)",
   "score_min": 68.3,
   "obra_encontrada": "Del modo di trattare i popoli della Valdichiana ribellati",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "não encontrada",
+  "nota": "Croce 1949"
  },
  {
   "arquivo": "principe.md",
@@ -49174,10 +49179,12 @@
     ]
    }
   ],
-  "resultado": "aproximada (divergente) [só em texto secundário]",
+  "resultado": "manual: fora: título de livro/artigo moderno (não é citação)",
   "score_min": 76.0,
   "obra_encontrada": "Villari (cita documentos)",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (divergente) [só em texto secundário]",
+  "nota": ""
  },
  {
   "arquivo": "principe.md",
@@ -49197,17 +49204,15 @@
   "resultado_partes": [
    {
     "parte": "il fine giustifica i mezzi",
-    "res": "aproximada (só grafia) [só em texto secundário]",
-    "score": 100.0,
+    "res": "exata [só em texto secundário]",
+    "score": 100,
     "fonte": "Villari, Machiavelli e i suoi tempi vol. 2 (secundária)",
     "obra": "Villari (cita documentos)",
-    "original": "il fine giustifica i mezzi.",
-    "n_reais": 0,
-    "difs": []
+    "original": "il fine giustifica i mezzi."
    }
   ],
-  "resultado": "aproximada (só grafia) [só em texto secundário]",
-  "score_min": 100.0,
+  "resultado": "exata [só em texto secundário]",
+  "score_min": 100,
   "obra_encontrada": "Villari (cita documentos)",
   "obra_diferente": false
  },
@@ -51385,6 +51390,39 @@
   "arquivo": "principe.md",
   "linha": 1085,
   "tipo": "*\"",
+  "citacao": "El darlo mi faceva la necessità che mi caccia",
+  "partes": [
+   "El darlo mi faceva la necessità che mi caccia"
+  ],
+  "obra_indicada": [
+   "Principe",
+   "Lettere"
+  ],
+  "contexto": "1. ~~**Carta a Vettori de 10/12/1513** (1.2, 1.3)~~ — **resolvido na revisão de citações (02/11/2026):** o trecho do *\"opusculo De principatibus\"* confere com a ed. Martelli; as frases corretas são *\"tuttavolta io l'ingrasso et ripulisco\"* e *\"El darlo mi faceva la necessità che mi caccia\"* (antes: \"l'ingrasso e ripulisco\" e \"la necessità che mi caccia, mi fa dare\", forma corrente). Texto antigo d",
+  "ja_marcada": false,
+  "resultado_partes": [
+   {
+    "parte": "El darlo mi faceva la necessità che mi caccia",
+    "res": "exata",
+    "score": 100,
+    "fonte": "Martelli (Tutte le opere, 1971; ed. Bompiani 2018, IA)",
+    "obra": "Lettere",
+    "original": "eva la necessità che mi caccia, perché io",
+    "todas": [
+     "Lettere",
+     "Lettere (Machiavelli)/Lettera XI a Francesco Vettori"
+    ]
+   }
+  ],
+  "resultado": "exata",
+  "score_min": 100,
+  "obra_encontrada": "Lettere",
+  "obra_diferente": false
+ },
+ {
+  "arquivo": "principe.md",
+  "linha": 1085,
+  "tipo": "\"",
   "citacao": "la necessità che mi caccia, mi fa dare",
   "partes": [
    "la necessità che mi caccia, mi fa dare"
@@ -51393,7 +51431,7 @@
    "Principe",
    "Lettere"
   ],
-  "contexto": "1. **Carta a Vettori de 10/12/1513** (1.2, 1.3): o trecho do *\"opusculo De principatibus\"* e as frases *\"l'ingrasso e ripulisco\"* e *\"la necessità che mi caccia, mi fa dare\"* vêm da forma corrente; conferir na edição das cartas (Gaeta, Feltrinelli 1961, ou Inglese, *Lettere a Francesco Vettori e a Francesco Guicciardini*, BUR 1989) — ver `vida-e-cartas.md`.",
+  "contexto": "1. ~~**Carta a Vettori de 10/12/1513** (1.2, 1.3)~~ — **resolvido na revisão de citações (02/11/2026):** o trecho do *\"opusculo De principatibus\"* confere com a ed. Martelli; as frases corretas são *\"tuttavolta io l'ingrasso et ripulisco\"* e *\"El darlo mi faceva la necessità che mi caccia\"* (antes: \"l'ingrasso e ripulisco\" e \"la necessità che mi caccia, mi fa dare\", forma corrente). Texto antigo d",
   "ja_marcada": false,
   "resultado_partes": [
    {
@@ -51413,10 +51451,12 @@
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
+  "resultado": "manual: conferida à mão",
   "score_min": 82.4,
   "obra_encontrada": "Lettere",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (divergente)",
+  "nota": "forma antiga citada só para registrar a correção (lacuna resolvida)"
  },
  {
   "arquivo": "principe.md",
@@ -51518,36 +51558,31 @@
   "arquivo": "principe.md",
   "linha": 1113,
   "tipo": "*\"",
-  "citacao": "nelle azioni di tutti li uomini, e massime de' principi, dove non è iudizio a chi reclamare, si guarda al fine. Facci dunque uno principe di vincere e mantenere lo stato: e' mezzi saranno sempre iudicati onorevoli",
+  "citacao": "nelle azioni di tutti li uomini, e massime de' principi, dove non è iudizio a chi reclamare, si guarda al fine. Facci dunque uno principe di vincere e mantenere lo stato: e' mezzi sempre fieno iudicati onorevoli",
   "partes": [
-   "nelle azioni di tutti li uomini, e massime de' principi, dove non è iudizio a chi reclamare, si guarda al fine. Facci dunque uno principe di vincere e mantenere lo stato: e' mezzi saranno sempre iudicati onorevoli"
+   "nelle azioni di tutti li uomini, e massime de' principi, dove non è iudizio a chi reclamare, si guarda al fine. Facci dunque uno principe di vincere e mantenere lo stato: e' mezzi sempre fieno iudicati onorevoli"
   ],
   "obra_indicada": [
    "Principe"
   ],
-  "contexto": "| XVIII, *si guarda al fine* | *\"nelle azioni di tutti li uomini, e massime de' principi, dove non è iudizio a chi reclamare, si guarda al fine. Facci dunque uno principe di vincere e mantenere lo stato: e' mezzi saranno sempre iudicati onorevoli\"* | \"o que importa é o **êxito** bom ou mau. Procure, pois, um príncipe, vencer e conservar o Estado. Os meios que empregar serão sempre julgados honroso",
+  "contexto": "| XVIII, *si guarda al fine* | *\"nelle azioni di tutti li uomini, e massime de' principi, dove non è iudizio a chi reclamare, si guarda al fine. Facci dunque uno principe di vincere e mantenere lo stato: e' mezzi sempre fieno iudicati onorevoli\"* | \"o que importa é o **êxito** bom ou mau. Procure, pois, um príncipe, vencer e conservar o Estado. Os meios que empregar serão sempre julgados honrosos ",
   "ja_marcada": false,
   "resultado_partes": [
    {
-    "parte": "nelle azioni di tutti li uomini, e massime de' principi, dove non è iudizio a chi reclamare, si guarda al fine. Facci dunque uno principe di vincere e mantenere lo stato: e' mezzi saranno sempre iudicati onorevoli",
-    "res": "aproximada (divergente)",
-    "score": 94.0,
-    "fonte": "Wikisource Il Principe",
-    "obra": "Il Principe/Capitolo XVIII",
-    "original": "nelle azioni di tutti gli uomini, e massime de’ Principi, dove non è giudizio a chi reclamare, si guarda al fine. Facci adunque un Principe conto di vivere e mantenere lo Stato; i mezzi saranno sempre giudicati onorevoli,",
-    "n_reais": 1,
-    "difs": [
-     [
-      "real",
-      "",
-      "conto"
-     ]
+    "parte": "nelle azioni di tutti li uomini, e massime de' principi, dove non è iudizio a chi reclamare, si guarda al fine. Facci dunque uno principe di vincere e mantenere lo stato: e' mezzi sempre fieno iudicati onorevoli",
+    "res": "exata",
+    "score": 100,
+    "fonte": "BibIt bibit000214 (Il Principe (Inglese 1995))",
+    "obra": "Il Principe (Inglese 1995) / XVIII",
+    "original": "nelle azioni di tutti li uomini, e massime de' principi, dove non è iudizio a chi reclamare, si guarda al fine. Facci dunque uno principe di vincere e mantenere lo stato: e' mezzi sempre fieno iudicati onorevoli",
+    "todas": [
+     "Il Principe (Inglese 1995) / XVIII"
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
-  "score_min": 94.0,
-  "obra_encontrada": "Il Principe/Capitolo XVIII",
+  "resultado": "exata",
+  "score_min": 100,
+  "obra_encontrada": "Il Principe (Inglese 1995) / XVIII",
   "obra_diferente": false
  },
  {
@@ -51618,10 +51653,12 @@
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
+  "resultado": "manual: fora: título de livro/artigo moderno (não é citação)",
   "score_min": 79.2,
   "obra_encontrada": "Principe",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (divergente)",
+  "nota": "Hexter 1957"
  },
  {
   "arquivo": "principe.md",
@@ -51664,10 +51701,12 @@
     ]
    }
   ],
-  "resultado": "não encontrada",
+  "resultado": "manual: fora: texto de outro autor",
   "score_min": 66.0,
   "obra_encontrada": "Villari (cita documentos)",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "não encontrada",
+  "nota": "Croce; não conferido no original"
  },
  {
   "arquivo": "recepcao-e-estudiosos.md",
@@ -51698,10 +51737,12 @@
     ]
    }
   ],
-  "resultado": "não encontrada",
+  "resultado": "manual: fora: extração errada (trecho em português/inglês)",
   "score_min": 60.0,
   "obra_encontrada": "moderno (prefácio/introdução Bompiani)",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "não encontrada",
+  "nota": "Shakespeare (inglês)"
  },
  {
   "arquivo": "recepcao-e-estudiosos.md",
@@ -51784,10 +51825,12 @@
     ]
    }
   ],
-  "resultado": "aproximada (divergente) [só em texto secundário]",
+  "resultado": "manual: fora: título de livro/artigo moderno (não é citação)",
   "score_min": 89.2,
   "obra_encontrada": "moderno (prefácio/introdução Bompiani)",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (divergente) [só em texto secundário]",
+  "nota": ""
  },
  {
   "arquivo": "recepcao-e-estudiosos.md",
@@ -51805,17 +51848,15 @@
   "resultado_partes": [
    {
     "parte": "il nostro gran Machiavelli",
-    "res": "aproximada (só grafia) [só em texto secundário]",
-    "score": 100.0,
+    "res": "exata [só em texto secundário]",
+    "score": 100,
     "fonte": "Prefácios modernos da ed. Bompiani 2018 (secundária)",
     "obra": "moderno (prefácio/introdução Bompiani)",
-    "original": "Il nostro gran Machiavelli”:",
-    "n_reais": 0,
-    "difs": []
+    "original": "Il nostro gran Machiavelli”:"
    }
   ],
-  "resultado": "aproximada (só grafia) [só em texto secundário]",
-  "score_min": 100.0,
+  "resultado": "exata [só em texto secundário]",
+  "score_min": 100,
   "obra_encontrada": "moderno (prefácio/introdução Bompiani)",
   "obra_diferente": false
  },
@@ -51835,24 +51876,16 @@
   "resultado_partes": [
    {
     "parte": "Del principe e delle lettere",
-    "res": "aproximada (divergente)",
-    "score": 80.8,
-    "fonte": "Martelli (Tutte le opere, 1971; ed. Bompiani 2018, IA)",
-    "obra": "Discorsi",
-    "original": "del principe e delle ingiurie",
-    "n_reais": 1,
-    "difs": [
-     [
-      "real",
-      "letere",
-      "ingiurie"
-     ]
-    ]
+    "res": "exata [só em texto secundário]",
+    "score": 100,
+    "fonte": "Villari, Machiavelli e i suoi tempi vol. 2 (secundária)",
+    "obra": "Villari (cita documentos)",
+    "original": "Del Principe e delle Lettere_,"
    }
   ],
-  "resultado": "aproximada (divergente)",
-  "score_min": 80.8,
-  "obra_encontrada": "Discorsi",
+  "resultado": "exata [só em texto secundário]",
+  "score_min": 100,
+  "obra_encontrada": "Villari (cita documentos)",
   "obra_diferente": false
  },
  {
@@ -51880,10 +51913,12 @@
     "difs": []
    }
   ],
-  "resultado": "aproximada (só grafia) [só em texto secundário]",
+  "resultado": "manual: fora: texto de outro autor",
   "score_min": 98.3,
   "obra_encontrada": "Villari (cita documentos)",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (só grafia) [só em texto secundário]",
+  "nota": "Foscolo, Dei Sepolcri — confere com a citação de Villari"
  },
  {
   "arquivo": "recepcao-e-estudiosos.md",
@@ -51921,10 +51956,12 @@
     ]
    }
   ],
-  "resultado": "aproximada (divergente) [só em texto secundário]",
+  "resultado": "manual: fora: título de livro/artigo moderno (não é citação)",
   "score_min": 76.1,
   "obra_encontrada": "moderno (prefácio/introdução Bompiani)",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (divergente) [só em texto secundário]",
+  "nota": ""
  },
  {
   "arquivo": "recepcao-e-estudiosos.md",
@@ -51947,8 +51984,13 @@
     "fonte": "Opere complete (Firenze 1843, IA)",
     "obra": "Opere complete 1843",
     "original": "lla costituzione della società,",
-    "n_reais": 1,
+    "n_reais": 2,
     "difs": [
+     [
+      "real",
+      "la",
+      "ala"
+     ],
      [
       "real",
       "germania",
@@ -51957,10 +51999,12 @@
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
+  "resultado": "manual: fora: título de livro/artigo moderno (não é citação)",
   "score_min": 79.3,
   "obra_encontrada": "Opere complete 1843",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (divergente)",
+  "nota": "Hegel, título em italiano"
  },
  {
   "arquivo": "recepcao-e-estudiosos.md",
@@ -51993,10 +52037,12 @@
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
+  "resultado": "manual: fora: título de livro/artigo moderno (não é citação)",
   "score_min": 80.8,
   "obra_encontrada": "Istorie fiorentine",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (divergente)",
+  "nota": ""
  },
  {
   "arquivo": "recepcao-e-estudiosos.md",
@@ -52061,10 +52107,12 @@
     ]
    }
   ],
-  "resultado": "não encontrada",
+  "resultado": "manual: fora: título de livro/artigo moderno (não é citação)",
   "score_min": 68.3,
   "obra_encontrada": "Del modo di trattare i popoli della Valdichiana ribellati",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "não encontrada",
+  "nota": "Croce 1949"
  },
  {
   "arquivo": "recepcao-e-estudiosos.md",
@@ -52102,10 +52150,12 @@
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
+  "resultado": "manual: fora: título de livro/artigo moderno (não é citação)",
   "score_min": 76.7,
   "obra_encontrada": "Principe",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (divergente)",
+  "nota": "Gramsci"
  },
  {
   "arquivo": "recepcao-e-estudiosos.md",
@@ -52123,24 +52173,16 @@
   "resultado_partes": [
    {
     "parte": "Del \"Principe\" di Niccolò Machiavelli",
-    "res": "aproximada (divergente)",
-    "score": 95.2,
-    "fonte": "Einaudi/Martelli Il Principe (IA)",
-    "obra": "Principe",
-    "original": "Il Principe di Niccolò Machiavelli",
-    "n_reais": 1,
-    "difs": [
-     [
-      "real",
-      "del",
-      "il"
-     ]
-    ]
+    "res": "exata [só em texto secundário]",
+    "score": 100,
+    "fonte": "Villari, Machiavelli e i suoi tempi vol. 2 (secundária)",
+    "obra": "Villari (cita documentos)",
+    "original": "del_ PRINCIPE _di Niccolò Machiavelli_.[808]"
    }
   ],
-  "resultado": "aproximada (divergente)",
-  "score_min": 95.2,
-  "obra_encontrada": "Principe",
+  "resultado": "exata [só em texto secundário]",
+  "score_min": 100,
+  "obra_encontrada": "Villari (cita documentos)",
   "obra_diferente": false
  },
  {
@@ -52191,24 +52233,16 @@
   "resultado_partes": [
    {
     "parte": "Niccolò Machiavelli. I tempi della politica",
-    "res": "aproximada (divergente)",
-    "score": 76.3,
-    "fonte": "Wikisource Del modo di trattare i popoli della Valdichiana ribellati",
-    "obra": "Del modo di trattare i popoli della Valdichiana ribellati",
-    "original": "Niccolò Machiavelli II.djvu Del modo di trattare",
-    "n_reais": 5,
-    "difs": [
-     [
-      "real",
-      "tempi dela politica",
-      "diu del modo di tratare"
-     ]
-    ]
+    "res": "exata [só em texto secundário]",
+    "score": 100,
+    "fonte": "Prefácios modernos da ed. Bompiani 2018 (secundária)",
+    "obra": "moderno (prefácio/introdução Bompiani)",
+    "original": "Niccolò Machiavelli. I tempi della politica,"
    }
   ],
-  "resultado": "aproximada (divergente)",
-  "score_min": 76.3,
-  "obra_encontrada": "Del modo di trattare i popoli della Valdichiana ribellati",
+  "resultado": "exata [só em texto secundário]",
+  "score_min": 100,
+  "obra_encontrada": "moderno (prefácio/introdução Bompiani)",
   "obra_diferente": false
  },
  {
@@ -52242,10 +52276,12 @@
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
+  "resultado": "manual: fora: título de livro/artigo moderno (não é citação)",
   "score_min": 85.4,
   "obra_encontrada": "Principe",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (divergente)",
+  "nota": "exposição 2013"
  },
  {
   "arquivo": "recepcao-e-estudiosos.md",
@@ -52288,10 +52324,12 @@
     ]
    }
   ],
-  "resultado": "não encontrada",
+  "resultado": "manual: fora: título de livro/artigo moderno (não é citação)",
   "score_min": 70.5,
   "obra_encontrada": "Legazioni e commissarie",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "não encontrada",
+  "nota": ""
  },
  {
   "arquivo": "recepcao-e-estudiosos.md",
@@ -52329,10 +52367,12 @@
     ]
    }
   ],
-  "resultado": "não encontrada",
+  "resultado": "manual: fora: título de livro/artigo moderno (não é citação)",
   "score_min": 61.9,
   "obra_encontrada": "Villari (cita documentos)",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "não encontrada",
+  "nota": ""
  },
  {
   "arquivo": "recepcao-e-estudiosos.md",
@@ -52350,17 +52390,15 @@
   "resultado_partes": [
    {
     "parte": "Machiavelli e il mestiere delle armi",
-    "res": "aproximada (só grafia) [só em texto secundário]",
-    "score": 100.0,
+    "res": "exata [só em texto secundário]",
+    "score": 100,
     "fonte": "Prefácios modernos da ed. Bompiani 2018 (secundária)",
     "obra": "moderno (prefácio/introdução Bompiani)",
-    "original": "Machiavelli e il mestiere delle armi.",
-    "n_reais": 0,
-    "difs": []
+    "original": "Machiavelli e il mestiere delle armi."
    }
   ],
-  "resultado": "aproximada (só grafia) [só em texto secundário]",
-  "score_min": 100.0,
+  "resultado": "exata [só em texto secundário]",
+  "score_min": 100,
   "obra_encontrada": "moderno (prefácio/introdução Bompiani)",
   "obra_diferente": false
  },
@@ -52480,17 +52518,15 @@
   "resultado_partes": [
    {
     "parte": "il fine giustifica i mezzi",
-    "res": "aproximada (só grafia) [só em texto secundário]",
-    "score": 100.0,
+    "res": "exata [só em texto secundário]",
+    "score": 100,
     "fonte": "Villari, Machiavelli e i suoi tempi vol. 2 (secundária)",
     "obra": "Villari (cita documentos)",
-    "original": "il fine giustifica i mezzi.",
-    "n_reais": 0,
-    "difs": []
+    "original": "il fine giustifica i mezzi."
    }
   ],
-  "resultado": "aproximada (só grafia) [só em texto secundário]",
-  "score_min": 100.0,
+  "resultado": "exata [só em texto secundário]",
+  "score_min": 100,
   "obra_encontrada": "Villari (cita documentos)",
   "obra_diferente": false
  },
@@ -52505,7 +52541,7 @@
   "obra_indicada": [
    "Principe"
   ],
-  "contexto": "| **\"É melhor ser temido do que amado\"** (seco) | **Cortada** | — | *Príncipe* XVII: \"è molto più sicuro l'esser temuto che amato, **quando s'abbi a mancare dell'un de' duoi**\" (\"é muito mais seguro ser temido que amado, **quando for preciso abrir mão de um dos dois**\"). Antes diz que o ideal é ser os dois. E logo depois: \"Debbe nondimanco il Principe farsi temere in modo che, se non acquista l'am",
+  "contexto": "| **\"É melhor ser temido do que amado\"** (seco) | **Cortada** | — | *Príncipe* XVII: \"è molto più sicuro l'esser temuto che amato, **quando s'abbi a mancare dell'un de' duoi**\" (\"é muito mais seguro ser temido que amado, **quando for preciso abrir mão de um dos dois**\"). Antes diz que o ideal é ser os dois. E logo depois: \"Deve nondimeno il Principe farsi temere in modo che, se non acquista l'amor",
   "ja_marcada": false,
   "resultado_partes": [
    {
@@ -52525,36 +52561,39 @@
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
+  "resultado": "manual: conferida à mão",
   "score_min": 84.8,
   "obra_encontrada": "Il Principe/Capitolo XVII",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (divergente)",
+  "nota": "a parte italiana confere (Príncipe XVII); o programa pegou junto o português da tabela"
  },
  {
   "arquivo": "recepcao-e-estudiosos.md",
   "linha": 291,
   "tipo": "\"",
-  "citacao": "Debbe nondimanco il Principe farsi temere in modo che, se non acquista l'amore, e' fugga l'odio… il che farà, semprechè s'astenga dalla roba de' suoi cittadini… e dalle donne loro",
+  "citacao": "Deve nondimeno il Principe farsi temere in modo che, se non acquista l'amore, e' fugga l'odio… il che farà, semprechè s'astenga dalla roba de' suoi cittadini… e dalle donne loro",
   "partes": [
-   "Debbe nondimanco il Principe farsi temere in modo che, se non acquista l'amore, e' fugga l'odio",
+   "Deve nondimeno il Principe farsi temere in modo che, se non acquista l'amore, e' fugga l'odio",
    "il che farà, semprechè s'astenga dalla roba de' suoi cittadini",
    "e dalle donne loro"
   ],
   "obra_indicada": [
    "Principe"
   ],
-  "contexto": "| **\"É melhor ser temido do que amado\"** (seco) | **Cortada** | — | *Príncipe* XVII: \"è molto più sicuro l'esser temuto che amato, **quando s'abbi a mancare dell'un de' duoi**\" (\"é muito mais seguro ser temido que amado, **quando for preciso abrir mão de um dos dois**\"). Antes diz que o ideal é ser os dois. E logo depois: \"Debbe nondimanco il Principe farsi temere in modo che, se non acquista l'am",
+  "contexto": "| **\"É melhor ser temido do que amado\"** (seco) | **Cortada** | — | *Príncipe* XVII: \"è molto più sicuro l'esser temuto che amato, **quando s'abbi a mancare dell'un de' duoi**\" (\"é muito mais seguro ser temido que amado, **quando for preciso abrir mão de um dos dois**\"). Antes diz que o ideal é ser os dois. E logo depois: \"Deve nondimeno il Principe farsi temere in modo che, se non acquista l'amor",
   "ja_marcada": false,
   "resultado_partes": [
    {
-    "parte": "Debbe nondimanco il Principe farsi temere in modo che, se non acquista l'amore, e' fugga l'odio",
-    "res": "aproximada (só grafia)",
-    "score": 96.6,
-    "fonte": "Martelli (Tutte le opere, 1971; ed. Bompiani 2018, IA)",
-    "obra": "Principe",
-    "original": "Debbe nondimanco el principe farsi temere in modo che se non acquista lo amore, che fugga l'odio,",
-    "n_reais": 0,
-    "difs": []
+    "parte": "Deve nondimeno il Principe farsi temere in modo che, se non acquista l'amore, e' fugga l'odio",
+    "res": "exata",
+    "score": 100,
+    "fonte": "Wikisource Il Principe",
+    "obra": "Il Principe/Capitolo XVII",
+    "original": "Deve nondimeno il Principe farsi temere in modo, che, se non acquista l’amore, e’ fugga l’odio,",
+    "todas": [
+     "Il Principe/Capitolo XVII"
+    ]
    },
    {
     "parte": "il che farà, semprechè s'astenga dalla roba de' suoi cittadini",
@@ -52580,8 +52619,8 @@
     ]
    }
   ],
-  "resultado": "aproximada (só grafia)",
-  "score_min": 96.6,
+  "resultado": "exata",
+  "score_min": 100,
   "obra_encontrada": "Il Principe/Capitolo XVII; Principe",
   "obra_diferente": false
  },
@@ -52729,18 +52768,16 @@
   "resultado_partes": [
    {
     "parte": "Ognuno vede quel che tu pari; pochi sentono quel che tu sei, e quelli pochi non ardiscono opporsi alla opinione de' molti",
-    "res": "aproximada (só grafia)",
-    "score": 99.1,
-    "fonte": "Opere complete (Firenze 1843, IA)",
-    "obra": "Opere complete 1843",
-    "original": "nuno vede quel che tu pari, pochi sentono quel che tu sei, e quelli pochi non ardiscono opporsi alla opinione de' molli",
-    "n_reais": 0,
-    "difs": []
+    "res": "exata [só em texto secundário]",
+    "score": 100,
+    "fonte": "Villari, Machiavelli e i suoi tempi vol. 2 (secundária)",
+    "obra": "Villari (cita documentos)",
+    "original": "Ognuno vede quel che tu pari, pochi sentono quel che tu sei, e quelli pochi non ardiscono opporsi alla opinione de' molti,"
    }
   ],
-  "resultado": "aproximada (só grafia)",
-  "score_min": 99.1,
-  "obra_encontrada": "Opere complete 1843",
+  "resultado": "exata [só em texto secundário]",
+  "score_min": 100,
+  "obra_encontrada": "Villari (cita documentos)",
   "obra_diferente": false
  },
  {
@@ -52864,10 +52901,12 @@
     "difs": []
    }
   ],
-  "resultado": "aproximada (só grafia) [só em texto secundário]",
+  "resultado": "manual: fora: título de livro/artigo moderno (não é citação)",
   "score_min": 96.8,
   "obra_encontrada": "moderno (prefácio/introdução Bompiani)",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (só grafia) [só em texto secundário]",
+  "nota": ""
  },
  {
   "arquivo": "recepcao-e-estudiosos.md",
@@ -52885,17 +52924,15 @@
   "resultado_partes": [
    {
     "parte": "La politica all'inferno. Rileggendo il sogno di Machiavelli",
-    "res": "aproximada (só grafia) [só em texto secundário]",
-    "score": 100.0,
+    "res": "exata [só em texto secundário]",
+    "score": 100,
     "fonte": "Prefácios modernos da ed. Bompiani 2018 (secundária)",
     "obra": "moderno (prefácio/introdução Bompiani)",
-    "original": "La politica all'inferno. Rileggendo il sogno di Machiavelli,",
-    "n_reais": 0,
-    "difs": []
+    "original": "La politica all'inferno. Rileggendo il sogno di Machiavelli,"
    }
   ],
-  "resultado": "aproximada (só grafia) [só em texto secundário]",
-  "score_min": 100.0,
+  "resultado": "exata [só em texto secundário]",
+  "score_min": 100,
   "obra_encontrada": "moderno (prefácio/introdução Bompiani)",
   "obra_diferente": false
  },
@@ -52903,31 +52940,32 @@
   "arquivo": "recepcao-e-estudiosos.md",
   "linha": 327,
   "tipo": "\"",
-  "citacao": "ho composto uno opuscolo De principatibus",
+  "citacao": "et composto uno opusculo De principatibus",
   "partes": [
-   "ho composto uno opuscolo De principatibus"
+   "et composto uno opusculo De principatibus"
   ],
   "obra_indicada": [
    "Principe",
    "Lettere"
   ],
-  "contexto": "- O título que ele mesmo usa é **De principatibus** (\"ho composto uno opuscolo *De principatibus*\", carta a Vettori, 10/12/1513). \"Il Principe\" é o título das edições de 1532.",
+  "contexto": "- O título que ele mesmo usa é **De principatibus** (\"et composto uno opusculo *De principatibus*\", carta a Vettori, 10/12/1513, ed. Martelli). \"Il Principe\" é o título das edições de 1532.",
   "ja_marcada": false,
   "resultado_partes": [
    {
-    "parte": "ho composto uno opuscolo De principatibus",
-    "res": "aproximada (só grafia)",
-    "score": 97.5,
-    "fonte": "Wikisource Lettere (Machiavelli)",
-    "obra": "Lettere (Machiavelli)/Lettera XI a Francesco Vettori",
-    "original": "e composto uno opuscolo De principatibus;",
-    "n_reais": 0,
-    "difs": []
+    "parte": "et composto uno opusculo De principatibus",
+    "res": "exata",
+    "score": 100,
+    "fonte": "Martelli (Tutte le opere, 1971; ed. Bompiani 2018, IA)",
+    "obra": "Lettere",
+    "original": "opusculo De principatibus, dove",
+    "todas": [
+     "Lettere"
+    ]
    }
   ],
-  "resultado": "aproximada (só grafia)",
-  "score_min": 97.5,
-  "obra_encontrada": "Lettere (Machiavelli)/Lettera XI a Francesco Vettori",
+  "resultado": "exata",
+  "score_min": 100,
+  "obra_encontrada": "Lettere",
   "obra_diferente": false
  },
  {
@@ -53095,10 +53133,12 @@
     ]
    }
   ],
-  "resultado": "não encontrada",
+  "resultado": "manual: fora: título de livro/artigo moderno (não é citação)",
   "score_min": 68.3,
   "obra_encontrada": "Del modo di trattare i popoli della Valdichiana ribellati",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "não encontrada",
+  "nota": "Croce 1949"
  },
  {
   "arquivo": "vida-e-cartas.md",
@@ -53123,10 +53163,12 @@
     "difs": []
    }
   ],
-  "resultado": "aproximada (só grafia) [só em texto secundário]",
+  "resultado": "manual: fora: título de livro/artigo moderno (não é citação)",
   "score_min": 97.4,
   "obra_encontrada": "moderno (prefácio/introdução Bompiani)",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (só grafia) [só em texto secundário]",
+  "nota": "Viroli"
  },
  {
   "arquivo": "vida-e-cartas.md",
@@ -53418,8 +53460,8 @@
   "obra_indicada": [
    "Lettere"
   ],
-  "contexto": "- **1526, julho–outubro** — No campo da Liga com Guicciardini; cerco de **Cremona** (9–14/09). Guicciardini escreve em 18/07: Maquiavel veio reordenar a milícia, viu como está corrompida e *\"starassi a ridere degli errori degli uomini, poi che non gli può correggere\"* (\"ficará rindo dos erros dos homens, já que não os pode corrigir\"; citado pelo DBI).",
-  "ja_marcada": false,
+  "contexto": "- **1526, julho–outubro** — No campo da Liga com Guicciardini; cerco de **Cremona** (9–14/09). Guicciardini escreve em 18/07: Maquiavel veio reordenar a milícia, viu como está corrompida e *\"starassi a ridere degli errori degli uomini, poi che non gli può correggere\"* (\"ficará rindo dos erros dos homens, já que não os pode corrigir\"; citado pelo DBI; carta de Guicciardini não conferida no original",
+  "ja_marcada": true,
   "resultado_partes": [
    {
     "parte": "starassi a ridere degli errori degli uomini, poi che non gli può correggere",
@@ -53448,42 +53490,40 @@
     ]
    }
   ],
-  "resultado": "não encontrada",
+  "resultado": "manual: fora: texto de outro autor",
   "score_min": 60.9,
   "obra_encontrada": "Discorsi",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "não encontrada",
+  "nota": "carta de Guicciardini, citada pelo DBI; marcada 'não conferida no original'"
  },
  {
   "arquivo": "vida-e-cartas.md",
   "linha": 144,
   "tipo": "*\"",
-  "citacao": "La notte che morì Pier Soderini, / l'alma n'andò dell'inferno alla bocca; / gridò Pluton: — Ch'inferno? anima sciocca, / va su nel limbo fra gli altri bambini",
+  "citacao": "La notte che morì Pier Soderini, / l'anima andò de l'inferno a la bocca; / gridò Pluton: — Ch'inferno? anima sciocca, / va su nel limbo fra gli altri bambini",
   "partes": [
-   "La notte che morì Pier Soderini, / l'alma n'andò dell'inferno alla bocca; / gridò Pluton: — Ch'inferno? anima sciocca, / va su nel limbo fra gli altri bambini"
+   "La notte che morì Pier Soderini, / l'anima andò de l'inferno a la bocca; / gridò Pluton: — Ch'inferno? anima sciocca, / va su nel limbo fra gli altri bambini"
   ],
   "obra_indicada": [],
-  "contexto": "- Faz epigramas cruéis. Sobre Piero Soderini, que morreu em 1522: \"Na noite em que morreu Pier Soderini, a alma foi à boca do inferno; gritou Plutão: 'Que inferno o quê, alma tola? Vá para o limbo com as outras crianças'\" [*\"La notte che morì Pier Soderini, / l'alma n'andò dell'inferno alla bocca; / gridò Pluton: — Ch'inferno? anima sciocca, / va su nel limbo fra gli altri bambini\"*].",
+  "contexto": "- Faz epigramas cruéis. Sobre Piero Soderini, que morreu em 1522: \"Na noite em que morreu Pier Soderini, a alma foi à boca do inferno; gritou Plutão: 'Que inferno o quê, alma tola? Vá para o limbo com as outras crianças'\" [*\"La notte che morì Pier Soderini, / l'anima andò de l'inferno a la bocca; / gridò Pluton: — Ch'inferno? anima sciocca, / va su nel limbo fra gli altri bambini\"*].",
   "ja_marcada": false,
   "resultado_partes": [
    {
-    "parte": "La notte che morì Pier Soderini, / l'alma n'andò dell'inferno alla bocca; / gridò Pluton: — Ch'inferno? anima sciocca, / va su nel limbo fra gli altri bambini",
-    "res": "aproximada (divergente)",
-    "score": 97.1,
+    "parte": "La notte che morì Pier Soderini, / l'anima andò de l'inferno a la bocca; / gridò Pluton: — Ch'inferno? anima sciocca, / va su nel limbo fra gli altri bambini",
+    "res": "exata",
+    "score": 100,
     "fonte": "Martelli (Tutte le opere, 1971; ed. Bompiani 2018, IA)",
     "obra": "Rime varie",
     "original": "La notte che morì Pier Soderini, l’anima andò de l’inferno a la bocca; gridò Pluton: — Ch’ inferno? anima sciocca, va su nel limbo fra gli altri bambini.",
-    "n_reais": 2,
-    "difs": [
-     [
-      "real",
-      "alma n",
-      "anima"
-     ]
+    "todas": [
+     "Rime varie",
+     "Rime varie/Epigrammi"
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
-  "score_min": 97.1,
+  "resultado": "exata",
+  "score_min": 100,
   "obra_encontrada": "Rime varie",
   "obra_diferente": false
  },
@@ -53491,29 +53531,30 @@
   "arquivo": "vida-e-cartas.md",
   "linha": 154,
   "tipo": "*\"",
-  "citacao": "la Fortuna ha fatto che, non sapendo ragionare né dell'arte della seta né dell'arte della lana, né de' guadagni né delle perdite, e' mi conviene ragionare dello stato, e mi bisogna o botarmi a stare cheto, o ragionare di questo",
+  "citacao": "la Fortuna ha fatto che, non sapendo ragionare né dell'arte della seta et dell'arte della lana, né de' guadagni né delle perdite, e' mi conviene ragionare dello stato, et mi bisogna o botarmi di stare cheto, o ragionare di questo",
   "partes": [
-   "la Fortuna ha fatto che, non sapendo ragionare né dell'arte della seta né dell'arte della lana, né de' guadagni né delle perdite, e' mi conviene ragionare dello stato, e mi bisogna o botarmi a stare cheto, o ragionare di questo"
+   "la Fortuna ha fatto che, non sapendo ragionare né dell'arte della seta et dell'arte della lana, né de' guadagni né delle perdite, e' mi conviene ragionare dello stato, et mi bisogna o botarmi di stare cheto, o ragionare di questo"
   ],
   "obra_indicada": [
    "Lettere"
   ],
-  "contexto": "- Admite que fala de política por falta de outro assunto (carta a Vettori, 9 de abril de 1513): \"a Fortuna fez que, não sabendo eu falar nem da arte da seda nem da arte da lã, nem de ganhos nem de perdas, convém-me falar do Estado; e preciso ou fazer voto de ficar calado, ou falar disso\" [*\"la Fortuna ha fatto che, non sapendo ragionare né dell'arte della seta né dell'arte della lana, né de' guada",
+  "contexto": "- Admite que fala de política por falta de outro assunto (carta a Vettori, 9 de abril de 1513): \"a Fortuna fez que, não sabendo eu falar nem da arte da seda nem da arte da lã, nem de ganhos nem de perdas, convém-me falar do Estado; e preciso ou fazer voto de ficar calado, ou falar disso\" [*\"la Fortuna ha fatto che, non sapendo ragionare né dell'arte della seta et dell'arte della lana, né de' guada",
   "ja_marcada": false,
   "resultado_partes": [
    {
-    "parte": "la Fortuna ha fatto che, non sapendo ragionare né dell'arte della seta né dell'arte della lana, né de' guadagni né delle perdite, e' mi conviene ragionare dello stato, e mi bisogna o botarmi a stare cheto, o ragionare di questo",
-    "res": "aproximada (só grafia)",
-    "score": 99.0,
+    "parte": "la Fortuna ha fatto che, non sapendo ragionare né dell'arte della seta et dell'arte della lana, né de' guadagni né delle perdite, e' mi conviene ragionare dello stato, et mi bisogna o botarmi di stare cheto, o ragionare di questo",
+    "res": "exata",
+    "score": 100,
     "fonte": "Martelli (Tutte le opere, 1971; ed. Bompiani 2018, IA)",
     "obra": "Lettere",
     "original": "atto che, non sapendo ragionare né dell’arte della seta et dell’arte della lana, né de’ guadagni né delle perdite, e’ mi conviene ragionare dello stato, et mi bisogna o botarmi di stare cheto, o ragionare di questo. Se io potessi",
-    "n_reais": 0,
-    "difs": []
+    "todas": [
+     "Lettere"
+    ]
    }
   ],
-  "resultado": "aproximada (só grafia)",
-  "score_min": 99.0,
+  "resultado": "exata",
+  "score_min": 100,
   "obra_encontrada": "Lettere",
   "obra_diferente": false
  },
@@ -53684,29 +53725,32 @@
   "arquivo": "vida-e-cartas.md",
   "linha": 179,
   "tipo": "*\"",
-  "citacao": "io gli ho portati tanto francamente, che io stesso me ne voglio bene, et parmi essere da più che non credetti",
+  "citacao": "gli ho portati tanto francamente, che io stesso me ne voglio bene, et parmi essere da più che non credetti",
   "partes": [
-   "io gli ho portati tanto francamente, che io stesso me ne voglio bene, et parmi essere da più che non credetti"
+   "gli ho portati tanto francamente, che io stesso me ne voglio bene, et parmi essere da più che non credetti"
   ],
   "obra_indicada": [
    "Lettere"
   ],
-  "contexto": "- **Coragem física e moral**: aguentou a tortura sem confessar, e se gaba disso (a Vettori, 18 de março de 1513): \"suportei essas aflições com tanta firmeza que eu mesmo gosto de mim por isso, e me parece que valho mais do que eu pensava\" [*\"io gli ho portati tanto francamente, che io stesso me ne voglio bene, et parmi essere da più che non credetti\"*].",
+  "contexto": "- **Coragem física e moral**: aguentou a tortura sem confessar, e se gaba disso (a Vettori, 18 de março de 1513): \"suportei essas aflições com tanta firmeza que eu mesmo gosto de mim por isso, e me parece que valho mais do que eu pensava\" [*\"gli ho portati tanto francamente, che io stesso me ne voglio bene, et parmi essere da più che non credetti\"*].",
   "ja_marcada": false,
   "resultado_partes": [
    {
-    "parte": "io gli ho portati tanto francamente, che io stesso me ne voglio bene, et parmi essere da più che non credetti",
-    "res": "aproximada (só grafia)",
-    "score": 98.0,
+    "parte": "gli ho portati tanto francamente, che io stesso me ne voglio bene, et parmi essere da più che non credetti",
+    "res": "exata",
+    "score": 100,
     "fonte": "Martelli (Tutte le opere, 1971; ed. Bompiani 2018, IA)",
     "obra": "Lettere",
-    "original": "ti tanto francamente, che io stesso me ne voglio bene, et parmi essere da più che non credetti; et se parrà",
-    "n_reais": 0,
-    "difs": []
+    "original": "anto francamente, che io stesso me ne voglio bene, et parmi essere da più che non credetti; et se parrà",
+    "todas": [
+     "Lettere",
+     "Lettere (Machiavelli)/Lettera II a Francesco Vettori",
+     "Lettere familiari"
+    ]
    }
   ],
-  "resultado": "aproximada (só grafia)",
-  "score_min": 98.0,
+  "resultado": "exata",
+  "score_min": 100,
   "obra_encontrada": "Lettere",
   "obra_diferente": false
  },
@@ -55771,10 +55815,12 @@
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
+  "resultado": "manual: fora: título de obra de Maquiavel ou de edição antiga (conferido como título)",
   "score_min": 78.6,
   "obra_encontrada": "Principe",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (divergente)",
+  "nota": "títulos da obra"
  },
  {
   "arquivo": "frente-lindson/contexto-e-personagens.md",
@@ -55824,24 +55870,16 @@
   "resultado_partes": [
    {
     "parte": "Niccolò Machiavelli: i tempi della politica",
-    "res": "aproximada (divergente)",
-    "score": 76.3,
-    "fonte": "Wikisource Del modo di trattare i popoli della Valdichiana ribellati",
-    "obra": "Del modo di trattare i popoli della Valdichiana ribellati",
-    "original": "Niccolò Machiavelli II.djvu Del modo di trattare",
-    "n_reais": 5,
-    "difs": [
-     [
-      "real",
-      "tempi dela politica",
-      "diu del modo di tratare"
-     ]
-    ]
+    "res": "exata [só em texto secundário]",
+    "score": 100,
+    "fonte": "Prefácios modernos da ed. Bompiani 2018 (secundária)",
+    "obra": "moderno (prefácio/introdução Bompiani)",
+    "original": "Niccolò Machiavelli. I tempi della politica,"
    }
   ],
-  "resultado": "aproximada (divergente)",
-  "score_min": 76.3,
-  "obra_encontrada": "Del modo di trattare i popoli della Valdichiana ribellati",
+  "resultado": "exata [só em texto secundário]",
+  "score_min": 100,
+  "obra_encontrada": "moderno (prefácio/introdução Bompiani)",
   "obra_diferente": false
  },
  {
@@ -56225,24 +56263,16 @@
   "resultado_partes": [
    {
     "parte": "Edizione Nazionale delle Opere di Niccolò Machiavelli",
-    "res": "aproximada (divergente)",
-    "score": 85.7,
-    "fonte": "Martelli (Tutte le opere, 1971; ed. Bompiani 2018, IA)",
-    "obra": "Scritti letterari",
-    "original": "Montevecchi, nell edizione Nazionale delle opere di Machiavelli",
-    "n_reais": 1,
-    "difs": [
-     [
-      "real",
-      "nicolo",
-      ""
-     ]
-    ]
+    "res": "exata [só em texto secundário]",
+    "score": 100,
+    "fonte": "Prefácios modernos da ed. Bompiani 2018 (secundária)",
+    "obra": "moderno (prefácio/introdução Bompiani)",
+    "original": "Edizione Nazionale delle Opere di Niccolò Machiavelli."
    }
   ],
-  "resultado": "aproximada (divergente)",
-  "score_min": 85.7,
-  "obra_encontrada": "Scritti letterari",
+  "resultado": "exata [só em texto secundário]",
+  "score_min": 100,
+  "obra_encontrada": "moderno (prefácio/introdução Bompiani)",
   "obra_diferente": false
  },
  {
@@ -56261,24 +56291,16 @@
   "resultado_partes": [
    {
     "parte": "Niccolò Machiavelli. I tempi della politica",
-    "res": "aproximada (divergente)",
-    "score": 76.3,
-    "fonte": "Wikisource Del modo di trattare i popoli della Valdichiana ribellati",
-    "obra": "Del modo di trattare i popoli della Valdichiana ribellati",
-    "original": "Niccolò Machiavelli II.djvu Del modo di trattare",
-    "n_reais": 5,
-    "difs": [
-     [
-      "real",
-      "tempi dela politica",
-      "diu del modo di tratare"
-     ]
-    ]
+    "res": "exata [só em texto secundário]",
+    "score": 100,
+    "fonte": "Prefácios modernos da ed. Bompiani 2018 (secundária)",
+    "obra": "moderno (prefácio/introdução Bompiani)",
+    "original": "Niccolò Machiavelli. I tempi della politica,"
    }
   ],
-  "resultado": "aproximada (divergente)",
-  "score_min": 76.3,
-  "obra_encontrada": "Del modo di trattare i popoli della Valdichiana ribellati",
+  "resultado": "exata [só em texto secundário]",
+  "score_min": 100,
+  "obra_encontrada": "moderno (prefácio/introdução Bompiani)",
   "obra_diferente": false
  },
  {
@@ -56327,24 +56349,16 @@
   "resultado_partes": [
    {
     "parte": "La cagione dell'Ordinanza, dove la si truovi e quel che bisogni fare",
-    "res": "aproximada (divergente)",
-    "score": 80.0,
-    "fonte": "Martelli (Tutte le opere, 1971; ed. Bompiani 2018, IA)",
-    "obra": "Scritti sull'ordinanza",
-    "original": "LA CAGIONE DELL’ORDINANZA, DOVE LA SI TRUOVI, Voi mi havete richiesto",
-    "n_reais": 5,
-    "difs": [
-     [
-      "real",
-      "e quel ce bisogni fare",
-      "uoi mi auete riciesto"
-     ]
-    ]
+    "res": "exata [só em texto secundário]",
+    "score": 100,
+    "fonte": "Prefácios modernos da ed. Bompiani 2018 (secundária)",
+    "obra": "moderno (prefácio/introdução Bompiani)",
+    "original": "La cagione dell'ordinanza, dove la si truovi, et quel che bisogni fare."
    }
   ],
-  "resultado": "aproximada (divergente)",
-  "score_min": 80.0,
-  "obra_encontrada": "Scritti sull'ordinanza",
+  "resultado": "exata [só em texto secundário]",
+  "score_min": 100,
+  "obra_encontrada": "moderno (prefácio/introdução Bompiani)",
   "obra_diferente": false
  },
  {
@@ -56376,75 +56390,40 @@
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
+  "resultado": "manual: fora: título de obra de Maquiavel ou de edição antiga (conferido como título)",
   "score_min": 84.0,
   "obra_encontrada": "Scritti sull'ordinanza",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (divergente)",
+  "nota": "título da obra"
  },
  {
   "arquivo": "frente-lindson/escritos-menores.md",
   "linha": 537,
   "tipo": "*",
-  "citacao": "Canto degli amanti disperati e delle donne",
+  "citacao": "Canto d'uomini che vendono le pine",
   "partes": [
-   "Canto degli amanti disperati e delle donne"
+   "Canto d'uomini che vendono le pine"
   ],
   "obra_indicada": [],
-  "contexto": "- *Canto degli amanti disperati e delle donne*; *Canto de' romiti* (eremitas); *Canto de' ciurmadori* (charlatães que vendem remédios milagrosos); *Canto di uomini che vendono le pine* (vendedores de pinhas, com duplo sentido).",
+  "contexto": "- *Canto d'amanti disperati e di dame*; *Canto de' romiti* (eremitas); *Canto de' ciurmadori* (charlatães que vendem remédios milagrosos); *Canto d'uomini che vendono le pine* (vendedores de pinhas, com duplo sentido).",
   "ja_marcada": false,
   "resultado_partes": [
    {
-    "parte": "Canto degli amanti disperati e delle donne",
-    "res": "aproximada (divergente)",
-    "score": 80.0,
-    "fonte": "Wikisource Canti carnascialeschi (Machiavelli)",
-    "obra": "Canti carnascialeschi (Machiavelli)/Canto d'amanti disperati e di dame",
-    "original": "CANTO D’AMANTI DISPERATI E DI DAME. UDite,",
-    "n_reais": 4,
-    "difs": [
-     [
-      "real",
-      "degli",
-      "d"
-     ],
-     [
-      "real",
-      "dele done",
-      "di dame udite"
-     ]
-    ]
-   }
-  ],
-  "resultado": "aproximada (divergente)",
-  "score_min": 80.0,
-  "obra_encontrada": "Canti carnascialeschi (Machiavelli)/Canto d'amanti disperati e di dame",
-  "obra_diferente": false
- },
- {
-  "arquivo": "frente-lindson/escritos-menores.md",
-  "linha": 537,
-  "tipo": "*",
-  "citacao": "Canto di uomini che vendono le pine",
-  "partes": [
-   "Canto di uomini che vendono le pine"
-  ],
-  "obra_indicada": [],
-  "contexto": "- *Canto degli amanti disperati e delle donne*; *Canto de' romiti* (eremitas); *Canto de' ciurmadori* (charlatães que vendem remédios milagrosos); *Canto di uomini che vendono le pine* (vendedores de pinhas, com duplo sentido).",
-  "ja_marcada": false,
-  "resultado_partes": [
-   {
-    "parte": "Canto di uomini che vendono le pine",
-    "res": "aproximada (só grafia)",
-    "score": 97.1,
+    "parte": "Canto d'uomini che vendono le pine",
+    "res": "exata",
+    "score": 100,
     "fonte": "Wikisource Canti carnascialeschi (Machiavelli)",
     "obra": "Canti carnascialeschi (Machiavelli)",
     "original": "Canto d'uomini che vendono le pine",
-    "n_reais": 0,
-    "difs": []
+    "todas": [
+     "Canti carnascialeschi (Machiavelli)",
+     "Prose/scritti minori"
+    ]
    }
   ],
-  "resultado": "aproximada (só grafia)",
-  "score_min": 97.1,
+  "resultado": "exata",
+  "score_min": 100,
   "obra_encontrada": "Canti carnascialeschi (Machiavelli)",
   "obra_diferente": false
  },
@@ -56492,61 +56471,49 @@
   "resultado_partes": [
    {
     "parte": "Niccolò Machiavelli. I tempi della politica",
-    "res": "aproximada (divergente)",
-    "score": 76.3,
-    "fonte": "Wikisource Del modo di trattare i popoli della Valdichiana ribellati",
-    "obra": "Del modo di trattare i popoli della Valdichiana ribellati",
-    "original": "Niccolò Machiavelli II.djvu Del modo di trattare",
-    "n_reais": 5,
-    "difs": [
-     [
-      "real",
-      "tempi dela politica",
-      "diu del modo di tratare"
-     ]
-    ]
+    "res": "exata [só em texto secundário]",
+    "score": 100,
+    "fonte": "Prefácios modernos da ed. Bompiani 2018 (secundária)",
+    "obra": "moderno (prefácio/introdução Bompiani)",
+    "original": "Niccolò Machiavelli. I tempi della politica,"
    }
   ],
-  "resultado": "aproximada (divergente)",
-  "score_min": 76.3,
-  "obra_encontrada": "Del modo di trattare i popoli della Valdichiana ribellati",
+  "resultado": "exata [só em texto secundário]",
+  "score_min": 100,
+  "obra_encontrada": "moderno (prefácio/introdução Bompiani)",
   "obra_diferente": false
  },
  {
   "arquivo": "frente-lindson/historias-e-curiosidades.md",
   "linha": 38,
   "tipo": "\"",
-  "citacao": "va secondando e' tempi e le sue bugie colorendo",
+  "citacao": "viene secondando e' tempi, et le sua bugie colorendo",
   "partes": [
-   "va secondando e' tempi e le sue bugie colorendo"
+   "viene secondando e' tempi, et le sua bugie colorendo"
   ],
   "obra_indicada": [
    "Principe"
   ],
-  "contexto": "Em 9 de março de 1498, ainda sem cargo público, Maquiavel escreveu ao embaixador florentino em Roma, Ricciardo Becchi, descrevendo dois sermões de frei Girolamo Savonarola. O tom já é o dele: frio, irônico, atento à técnica. Diz que o frade \"vai acompanhando os tempos e colorindo suas mentiras\" (\"va secondando e' tempi e le sue bugie colorendo\"). Semanas depois Savonarola caiu e foi queimado (23 d",
+  "contexto": "Em 9 de março de 1498, ainda sem cargo público, Maquiavel escreveu ao embaixador florentino em Roma, Ricciardo Becchi, descrevendo dois sermões de frei Girolamo Savonarola. O tom já é o dele: frio, irônico, atento à técnica. Diz que o frade \"vai acompanhando os tempos e colorindo suas mentiras\" (\"viene secondando e' tempi, et le sua bugie colorendo\"). Semanas depois Savonarola caiu e foi queimado ",
   "ja_marcada": false,
   "resultado_partes": [
    {
-    "parte": "va secondando e' tempi e le sue bugie colorendo",
-    "res": "aproximada (divergente)",
-    "score": 93.5,
-    "fonte": "Opere (Italia 1813) vol. 08 (IA)",
-    "obra": "Lettere familiari",
-    "original": "viene secondando i tempi , e le sue bugie colorendo.",
-    "n_reais": 1,
-    "difs": [
-     [
-      "real",
-      "ua",
-      "uiene"
-     ]
+    "parte": "viene secondando e' tempi, et le sua bugie colorendo",
+    "res": "exata",
+    "score": 100,
+    "fonte": "Martelli (Tutte le opere, 1971; ed. Bompiani 2018, IA)",
+    "obra": "Lettere",
+    "original": "iene secondando e tempi, et le sua bugie colorendo.",
+    "todas": [
+     "Lettere",
+     "Lettere (Machiavelli)/Lettera a Ricciardo Bechi"
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
-  "score_min": 93.5,
-  "obra_encontrada": "Lettere familiari",
-  "obra_diferente": false
+  "resultado": "exata",
+  "score_min": 100,
+  "obra_encontrada": "Lettere",
+  "obra_diferente": true
  },
  {
   "arquivo": "frente-lindson/historias-e-curiosidades.md",
@@ -56863,10 +56830,12 @@
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
+  "resultado": "manual: fora: título de livro/artigo moderno (não é citação)",
   "score_min": 85.4,
   "obra_encontrada": "Principe",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (divergente)",
+  "nota": "exposição 2013"
  },
  {
   "arquivo": "frente-lindson/historias-e-curiosidades.md",
@@ -56882,17 +56851,15 @@
   "resultado_partes": [
    {
     "parte": "Machiavelli e il mestiere delle armi",
-    "res": "aproximada (só grafia) [só em texto secundário]",
-    "score": 100.0,
+    "res": "exata [só em texto secundário]",
+    "score": 100,
     "fonte": "Prefácios modernos da ed. Bompiani 2018 (secundária)",
     "obra": "moderno (prefácio/introdução Bompiani)",
-    "original": "Machiavelli e il mestiere delle armi.",
-    "n_reais": 0,
-    "difs": []
+    "original": "Machiavelli e il mestiere delle armi."
    }
   ],
-  "resultado": "aproximada (só grafia) [só em texto secundário]",
-  "score_min": 100.0,
+  "resultado": "exata [só em texto secundário]",
+  "score_min": 100,
   "obra_encontrada": "moderno (prefácio/introdução Bompiani)",
   "obra_diferente": false
  },
@@ -56910,24 +56877,16 @@
   "resultado_partes": [
    {
     "parte": "Niccolò Machiavelli. I tempi della politica",
-    "res": "aproximada (divergente)",
-    "score": 76.3,
-    "fonte": "Wikisource Del modo di trattare i popoli della Valdichiana ribellati",
-    "obra": "Del modo di trattare i popoli della Valdichiana ribellati",
-    "original": "Niccolò Machiavelli II.djvu Del modo di trattare",
-    "n_reais": 5,
-    "difs": [
-     [
-      "real",
-      "tempi dela politica",
-      "diu del modo di tratare"
-     ]
-    ]
+    "res": "exata [só em texto secundário]",
+    "score": 100,
+    "fonte": "Prefácios modernos da ed. Bompiani 2018 (secundária)",
+    "obra": "moderno (prefácio/introdução Bompiani)",
+    "original": "Niccolò Machiavelli. I tempi della politica,"
    }
   ],
-  "resultado": "aproximada (divergente)",
-  "score_min": 76.3,
-  "obra_encontrada": "Del modo di trattare i popoli della Valdichiana ribellati",
+  "resultado": "exata [só em texto secundário]",
+  "score_min": 100,
+  "obra_encontrada": "moderno (prefácio/introdução Bompiani)",
   "obra_diferente": false
  },
  {
@@ -57057,52 +57016,42 @@
   "arquivo": "frente-lindson/historias-e-curiosidades.md",
   "linha": 341,
   "tipo": "\"",
-  "citacao": "Venuta la sera, mi ritorno in casa et entro nel mio scrittoio; et in su l'uscio mi spoglio quella veste cotidiana, piena di fango et di loto, et mi metto panni reali et curiali... et per quattro hore di tempo non sento alcuna noia, sdimenticho ogni affanno, non temo la povertà, non mi sbigottisce la morte.",
+  "citacao": "Venuta la sera, mi ritorno in casa et entro nel mio scrittoio; et in su l'uscio mi spoglio quella veste cotidiana, piena di fango et di loto, et mi metto panni reali et curiali... e non sento per quattro hore di tempo alcuna noia, sdimentico ogni affanno, non temo la povertà, non mi sbigottisce la morte.",
   "partes": [
    "Venuta la sera, mi ritorno in casa et entro nel mio scrittoio; et in su l'uscio mi spoglio quella veste cotidiana, piena di fango et di loto, et mi metto panni reali et curiali",
-   "et per quattro hore di tempo non sento alcuna noia, sdimenticho ogni affanno, non temo la povertà, non mi sbigottisce la morte."
+   "e non sento per quattro hore di tempo alcuna noia, sdimentico ogni affanno, non temo la povertà, non mi sbigottisce la morte."
   ],
   "obra_indicada": [
    "Lettere"
   ],
-  "contexto": "Original (trecho): \"Venuta la sera, mi ritorno in casa et entro nel mio scrittoio; et in su l'uscio mi spoglio quella veste cotidiana, piena di fango et di loto, et mi metto panni reali et curiali... et per quattro hore di tempo non sento alcuna noia, sdimenticho ogni affanno, non temo la povertà, non mi sbigottisce la morte.\" — Carta a F. Vettori, 10/12/1513.",
+  "contexto": "Original (trecho): \"Venuta la sera, mi ritorno in casa et entro nel mio scrittoio; et in su l'uscio mi spoglio quella veste cotidiana, piena di fango et di loto, et mi metto panni reali et curiali... e non sento per quattro hore di tempo alcuna noia, sdimentico ogni affanno, non temo la povertà, non mi sbigottisce la morte.\" — Carta a F. Vettori, 10/12/1513.",
   "ja_marcada": false,
   "resultado_partes": [
    {
     "parte": "Venuta la sera, mi ritorno in casa et entro nel mio scrittoio; et in su l'uscio mi spoglio quella veste cotidiana, piena di fango et di loto, et mi metto panni reali et curiali",
-    "res": "aproximada (só grafia)",
-    "score": 99.4,
-    "fonte": "Lettere (IA lettere00mach)",
-    "obra": "Lettere",
-    "original": "Venuta la sera, mi ritorno in casa, ed entro nel mio scrittoio ; ed in sull’uscio mi spoglio quella veste cotidiana, piena di fango e di loto, e mi metto panni reali e curiali;",
-    "n_reais": 0,
-    "difs": []
+    "res": "exata [só em texto secundário]",
+    "score": 100,
+    "fonte": "Prefácios modernos da ed. Bompiani 2018 (secundária)",
+    "obra": "moderno (prefácio/introdução Bompiani)",
+    "original": "Venuta la sera, mi ritorno in casa, et entro nel mio scrittoio; et in su l’uscio mi spoglio quella veste cotidiana, piena di fango et di loto, et mi metto panni reali et curiali;"
    },
    {
-    "parte": "et per quattro hore di tempo non sento alcuna noia, sdimenticho ogni affanno, non temo la povertà, non mi sbigottisce la morte.",
-    "res": "aproximada (divergente)",
-    "score": 91.4,
+    "parte": "e non sento per quattro hore di tempo alcuna noia, sdimentico ogni affanno, non temo la povertà, non mi sbigottisce la morte.",
+    "res": "exata",
+    "score": 100,
     "fonte": "Wikisource Lettere (Machiavelli)",
     "obra": "Lettere (Machiavelli)/Lettera XI a Francesco Vettori",
-    "original": "non sento per quattro hore di tempo alcuna noia, sdimentico ogni affanno, non temo la povertà, non mi sbigottisce la morte: tutto",
-    "n_reais": 4,
-    "difs": [
-     [
-      "real",
-      "e",
-      "non sento"
-     ],
-     [
-      "real",
-      "non sento",
-      ""
-     ]
+    "original": "e non sento per quattro hore di tempo alcuna noia, sdimentico ogni affanno, non temo la povertà, non mi sbigottisce la morte:",
+    "todas": [
+     "Lettere",
+     "Lettere (Machiavelli)/Lettera XI a Francesco Vettori",
+     "Lettere familiari"
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
-  "score_min": 91.4,
-  "obra_encontrada": "Lettere; Lettere (Machiavelli)/Lettera XI a Francesco Vettori",
+  "resultado": "exata [só em texto secundário]",
+  "score_min": 100,
+  "obra_encontrada": "Lettere (Machiavelli)/Lettera XI a Francesco Vettori; moderno (prefácio/introdução Bompiani)",
   "obra_diferente": false
  },
  {
@@ -57139,35 +57088,31 @@
   "arquivo": "frente-lindson/historias-e-curiosidades.md",
   "linha": 347,
   "tipo": "\"",
-  "citacao": "il desiderio che io ho che questi signori Medici mi comincino adoperare, se dovessino cominciare a farmi voltolare un sasso.",
+  "citacao": "Appresso al desiderio harei che questi signori Medici mi cominciassino adoperare, se dovessino cominciare a farmi voltolare un sasso.",
   "partes": [
-   "il desiderio che io ho che questi signori Medici mi comincino adoperare, se dovessino cominciare a farmi voltolare un sasso."
+   "Appresso al desiderio harei che questi signori Medici mi cominciassino adoperare, se dovessino cominciare a farmi voltolare un sasso."
   ],
   "obra_indicada": [
    "Lettere"
   ],
-  "contexto": "Original: \"il desiderio che io ho che questi signori Medici mi comincino adoperare, se dovessino cominciare a farmi voltolare un sasso.\" — Carta a F. Vettori, 10/12/1513.",
+  "contexto": "Original: \"Appresso al desiderio harei che questi signori Medici mi cominciassino adoperare, se dovessino cominciare a farmi voltolare un sasso.\" — Carta a F. Vettori, 10/12/1513.",
   "ja_marcada": false,
   "resultado_partes": [
    {
-    "parte": "il desiderio che io ho che questi signori Medici mi comincino adoperare, se dovessino cominciare a farmi voltolare un sasso.",
-    "res": "aproximada (divergente)",
-    "score": 94.9,
+    "parte": "Appresso al desiderio harei che questi signori Medici mi cominciassino adoperare, se dovessino cominciare a farmi voltolare un sasso.",
+    "res": "exata",
+    "score": 100,
     "fonte": "Martelli (Tutte le opere, 1971; ed. Bompiani 2018, IA)",
     "obra": "Lettere",
-    "original": "al desiderio harei che questi signori Medici mi cominciassino adoperare, se dovessino cominciare a farmi voltolare un sasso.",
-    "n_reais": 3,
-    "difs": [
-     [
-      "real",
-      "ce io o",
-      "arei"
-     ]
+    "original": "appresso al desiderio harei che questi signori Medici mi cominciassino adoperare, se dovessino cominciare a farmi voltolare un sasso.",
+    "todas": [
+     "Lettere",
+     "Lettere (Machiavelli)/Lettera XI a Francesco Vettori"
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
-  "score_min": 94.9,
+  "resultado": "exata",
+  "score_min": 100,
   "obra_encontrada": "Lettere",
   "obra_diferente": false
  },
@@ -57189,56 +57134,47 @@
     "parte": "la Fortuna ha fatto che, non sapendo ragionare né dell'arte della seta né dell'arte della lana, né de' guadagni né delle perdite, e' mi conviene ragionare dello stato, et mi bisogna o botarmi di stare cheto, o ragionare di questo.",
     "res": "aproximada (só grafia)",
     "score": 99.5,
-    "fonte": "Martelli (Tutte le opere, 1971; ed. Bompiani 2018, IA)",
-    "obra": "Lettere",
-    "original": "atto che, non sapendo ragionare né dell’arte della seta et dell’arte della lana, né de’ guadagni né delle perdite, e’ mi conviene ragionare dello stato, et mi bisogna o botarmi di stare cheto, o ragionare di questo. Se io potessi",
+    "fonte": "Wikisource Lettere (Machiavelli)",
+    "obra": "Lettere (Machiavelli)/Lettera III a Francesco Vettori",
+    "original": "la fortuna ha fatto, che non sapendo ragionare né dell'arte della seta, né dell'arte della lana, né dei guadagni né delle perdite, e' mi conviene ragionare dello stato, e mi bisogna o botarmi di star cheto, o ragionare di questo.",
     "n_reais": 0,
     "difs": []
    }
   ],
   "resultado": "aproximada (só grafia)",
   "score_min": 99.5,
-  "obra_encontrada": "Lettere",
+  "obra_encontrada": "Lettere (Machiavelli)/Lettera III a Francesco Vettori",
   "obra_diferente": false
  },
  {
   "arquivo": "frente-lindson/historias-e-curiosidades.md",
   "linha": 353,
   "tipo": "\"",
-  "citacao": "Così adunque mi starò tra i miei pidocchi, sanza trovare uomo che della servitù mia si ricordi.",
+  "citacao": "Starommi dunque così tra' miei pidocchi, senza trovare huomo che della servitù mia si ricordi.",
   "partes": [
-   "Così adunque mi starò tra i miei pidocchi, sanza trovare uomo che della servitù mia si ricordi."
+   "Starommi dunque così tra' miei pidocchi, senza trovare huomo che della servitù mia si ricordi."
   ],
   "obra_indicada": [
    "Lettere"
   ],
-  "contexto": "Original: \"Così adunque mi starò tra i miei pidocchi, sanza trovare uomo che della servitù mia si ricordi.\" — Carta a F. Vettori, 10/6/1514.",
+  "contexto": "Original: \"Starommi dunque così tra' miei pidocchi, senza trovare huomo che della servitù mia si ricordi.\" — Carta a F. Vettori, 10/6/1514.",
   "ja_marcada": false,
   "resultado_partes": [
    {
-    "parte": "Così adunque mi starò tra i miei pidocchi, sanza trovare uomo che della servitù mia si ricordi.",
-    "res": "aproximada (divergente)",
-    "score": 86.5,
+    "parte": "Starommi dunque così tra' miei pidocchi, senza trovare huomo che della servitù mia si ricordi.",
+    "res": "exata",
+    "score": 100,
     "fonte": "Martelli (Tutte le opere, 1971; ed. Bompiani 2018, IA)",
     "obra": "Lettere",
-    "original": "i dunque così tra’ miei pidocchi, senza trovare huomo che della servitù mia si ricordi, o che creda",
-    "n_reais": 4,
-    "difs": [
-     [
-      "real",
-      "adunque mi staro",
-      ""
-     ],
-     [
-      "real",
-      "i",
-      ""
-     ]
+    "original": "così tra’ miei pidocchi, senza trovare huomo che della servitù mia si ricordi, o che creda",
+    "todas": [
+     "Lettere",
+     "Lettere (Machiavelli)/Lettera XVIII a Francesco Vettori"
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
-  "score_min": 86.5,
+  "resultado": "exata",
+  "score_min": 100,
   "obra_encontrada": "Lettere",
   "obra_diferente": false
  },
@@ -57253,7 +57189,7 @@
   "obra_indicada": [
    "Lettere"
   ],
-  "contexto": "Original: \"Io ho, Giuliano, in gamba un paio di geti / con sei tratti di fune in su le spalle\" (soneto, 1513) + \"li ho sopportati con tanta franchezza che io stesso me ne voglio bene\" — Carta a F. Vettori, 18/3/1513.",
+  "contexto": "Original: \"Io ho, Giuliano, in gamba un paio di geti / con sei tratti di fune in su le spalle\" (soneto, 1513) + \"gli ho portati tanto francamente, che io stesso me ne voglio bene\" — Carta a F. Vettori, 18/3/1513.",
   "ja_marcada": false,
   "resultado_partes": [
    {
@@ -57278,36 +57214,34 @@
   "arquivo": "frente-lindson/historias-e-curiosidades.md",
   "linha": 356,
   "tipo": "\"",
-  "citacao": "li ho sopportati con tanta franchezza che io stesso me ne voglio bene",
+  "citacao": "gli ho portati tanto francamente, che io stesso me ne voglio bene",
   "partes": [
-   "li ho sopportati con tanta franchezza che io stesso me ne voglio bene"
+   "gli ho portati tanto francamente, che io stesso me ne voglio bene"
   ],
   "obra_indicada": [
    "Lettere"
   ],
-  "contexto": "Original: \"Io ho, Giuliano, in gamba un paio di geti / con sei tratti di fune in su le spalle\" (soneto, 1513) + \"li ho sopportati con tanta franchezza che io stesso me ne voglio bene\" — Carta a F. Vettori, 18/3/1513.",
+  "contexto": "Original: \"Io ho, Giuliano, in gamba un paio di geti / con sei tratti di fune in su le spalle\" (soneto, 1513) + \"gli ho portati tanto francamente, che io stesso me ne voglio bene\" — Carta a F. Vettori, 18/3/1513.",
   "ja_marcada": false,
   "resultado_partes": [
    {
-    "parte": "li ho sopportati con tanta franchezza che io stesso me ne voglio bene",
-    "res": "aproximada (divergente)",
-    "score": 85.7,
-    "fonte": "Opere complete (Firenze 1843, IA)",
-    "obra": "Opere complete 1843",
-    "original": "portati tanto francamente, che io stesso me ne voglio bene , e panni",
-    "n_reais": 4,
-    "difs": [
-     [
-      "real",
-      "soportati con tanta franceza",
-      "portati tanto francamente"
-     ]
+    "parte": "gli ho portati tanto francamente, che io stesso me ne voglio bene",
+    "res": "exata",
+    "score": 100,
+    "fonte": "Martelli (Tutte le opere, 1971; ed. Bompiani 2018, IA)",
+    "obra": "Lettere",
+    "original": "anto francamente, che io stesso me ne voglio bene, et parmi essere",
+    "todas": [
+     "Lettere",
+     "Lettere (Machiavelli)/Lettera II a Francesco Vettori",
+     "Lettere familiari",
+     "Opere complete 1843"
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
-  "score_min": 85.7,
-  "obra_encontrada": "Opere complete 1843",
+  "resultado": "exata",
+  "score_min": 100,
+  "obra_encontrada": "Lettere",
   "obra_diferente": false
  },
  {
@@ -57342,19 +57276,17 @@
   "arquivo": "frente-lindson/historias-e-curiosidades.md",
   "linha": 362,
   "tipo": "\"",
-  "citacao": "Chi vedesse le nostre lettere... gli parrebbe che noi fussimo uomini gravi, tutti volti a cose grandi... Però, dipoi, voltando carta, gli parrebbe... che noi fussimo leggieri, inconstanti, lascivi... Questo modo di procedere... noi imitiamo la natura, che è varia.",
+  "citacao": "Chi vedesse le nostre lettere... gli parrebbe hora che noi fussimo huomini gravi, tutti vòlti a cose grandi... Però dipoi, voltando carta, gli parrebbe quelli noi medesimi essere leggieri, inconstanti, lascivi, vòlti a cose vane. Questo modo di proccedere... noi imitiamo la natura, che è varia.",
   "partes": [
    "Chi vedesse le nostre lettere",
-   "gli parrebbe che noi fussimo uomini gravi, tutti volti a cose grandi",
-   "Però, dipoi, voltando carta, gli parrebbe",
-   "che noi fussimo leggieri, inconstanti, lascivi",
-   "Questo modo di procedere",
+   "gli parrebbe hora che noi fussimo huomini gravi, tutti vòlti a cose grandi",
+   "Però dipoi, voltando carta, gli parrebbe quelli noi medesimi essere leggieri, inconstanti, lascivi, vòlti a cose vane. Questo modo di proccedere",
    "noi imitiamo la natura, che è varia."
   ],
   "obra_indicada": [
    "Lettere"
   ],
-  "contexto": "Original (sentido): \"Chi vedesse le nostre lettere... gli parrebbe che noi fussimo uomini gravi, tutti volti a cose grandi... Però, dipoi, voltando carta, gli parrebbe... che noi fussimo leggieri, inconstanti, lascivi... Questo modo di procedere... noi imitiamo la natura, che è varia.\" — Carta a F. Vettori, 31/1/1515.",
+  "contexto": "Original: \"Chi vedesse le nostre lettere... gli parrebbe hora che noi fussimo huomini gravi, tutti vòlti a cose grandi... Però dipoi, voltando carta, gli parrebbe quelli noi medesimi essere leggieri, inconstanti, lascivi, vòlti a cose vane. Questo modo di proccedere... noi imitiamo la natura, che è varia.\" — Carta a F. Vettori, 31/1/1515.",
   "ja_marcada": false,
   "resultado_partes": [
    {
@@ -57370,69 +57302,27 @@
     ]
    },
    {
-    "parte": "gli parrebbe che noi fussimo uomini gravi, tutti volti a cose grandi",
-    "res": "aproximada (divergente)",
-    "score": 93.5,
+    "parte": "gli parrebbe hora che noi fussimo huomini gravi, tutti vòlti a cose grandi",
+    "res": "exata",
+    "score": 100,
     "fonte": "Martelli (Tutte le opere, 1971; ed. Bompiani 2018, IA)",
     "obra": "Lettere",
     "original": "gli parrebbe hora che noi fussimo huomini gravi, tutti vòlti a cose grandi,",
-    "n_reais": 1,
-    "difs": [
-     [
-      "real",
-      "",
-      "ora"
-     ]
+    "todas": [
+     "Lettere",
+     "Lettere (Machiavelli)/Lettera XXIV a Francesco Vettori"
     ]
    },
    {
-    "parte": "Però, dipoi, voltando carta, gli parrebbe",
+    "parte": "Però dipoi, voltando carta, gli parrebbe quelli noi medesimi essere leggieri, inconstanti, lascivi, vòlti a cose vane. Questo modo di proccedere",
     "res": "exata",
     "score": 100,
     "fonte": "Martelli (Tutte le opere, 1971; ed. Bompiani 2018, IA)",
     "obra": "Lettere",
-    "original": "Però dipoi, voltando carta, gli parrebbe",
+    "original": "Però dipoi, voltando carta, gli parrebbe quelli noi medesimi essere leggieri, inconstanti, lascivi, vòlti a cose vane. Questo modo di proccedere,",
     "todas": [
      "Lettere",
-     "Lettere (Machiavelli)/Lettera XXIV a Francesco Vettori",
-     "Lettere familiari",
-     "Opere complete 1843"
-    ]
-   },
-   {
-    "parte": "che noi fussimo leggieri, inconstanti, lascivi",
-    "res": "aproximada (divergente)",
-    "score": 78.0,
-    "fonte": "Martelli (Tutte le opere, 1971; ed. Bompiani 2018, IA)",
-    "obra": "Lettere",
-    "original": "medesimi essere leggieri, inconstanti, lascivi, vòlti",
-    "n_reais": 3,
-    "difs": [
-     [
-      "real",
-      "ce noi fusimo",
-      "medesimi esere"
-     ]
-    ]
-   },
-   {
-    "parte": "Questo modo di procedere",
-    "res": "exata",
-    "score": 100,
-    "fonte": "Martelli (Tutte le opere, 1971; ed. Bompiani 2018, IA)",
-    "obra": "Discorsi",
-    "original": "Questo modo di procedere,",
-    "todas": [
-     "Discorsi",
-     "Discorsi / Le republiche hanno tenuti tre modi circa lo ampliare.",
-     "Discorsi sopra la prima Deca di Tito Livio/Libro secondo/Capitolo 4",
-     "Istorie fiorentine",
-     "Istorie fiorentine / 3.",
-     "Istorie fiorentine/Libro terzo",
-     "Legazioni",
-     "Lettere",
-     "Lettere (Machiavelli)/Lettera XXIV a Francesco Vettori",
-     "Opere complete 1843"
+     "Lettere (Machiavelli)/Lettera XXIV a Francesco Vettori"
     ]
    },
    {
@@ -57450,9 +57340,9 @@
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
-  "score_min": 78.0,
-  "obra_encontrada": "Discorsi; Lettere",
+  "resultado": "exata",
+  "score_min": 100,
+  "obra_encontrada": "Lettere",
   "obra_diferente": false
  },
  {
@@ -57525,33 +57415,28 @@
   "arquivo": "frente-lindson/historias-e-curiosidades.md",
   "linha": 371,
   "tipo": "\"",
-  "citacao": "colui che riscontra el modo del procedere suo con el tempo",
+  "citacao": "quello è felice che riscontra el modo del procedere suo con el tempo",
   "partes": [
-   "colui che riscontra el modo del procedere suo con el tempo"
+   "quello è felice che riscontra el modo del procedere suo con el tempo"
   ],
   "obra_indicada": [],
-  "contexto": "Original (sentido): \"ciascuno secondo la sua fantasia si governi\" e \"colui che riscontra el modo del procedere suo con el tempo\" — Carta a G. B. Soderini (\"Ghiribizzi\"), Perúgia, set. 1506.",
+  "contexto": "Original: \"ciascuno secondo lo ingegno et fantasia sua si governa\" e \"quello è felice che riscontra el modo del procedere suo con el tempo\" — Carta a G. B. Soderini (\"Ghiribizzi\"), Perúgia, set. 1506.",
   "ja_marcada": false,
   "resultado_partes": [
    {
-    "parte": "colui che riscontra el modo del procedere suo con el tempo",
-    "res": "aproximada (divergente)",
-    "score": 94.7,
+    "parte": "quello è felice che riscontra el modo del procedere suo con el tempo",
+    "res": "exata",
+    "score": 100,
     "fonte": "Martelli (Tutte le opere, 1971; ed. Bompiani 2018, IA)",
     "obra": "Lettere",
-    "original": "riscontra el modo del procedere suo con el tempo, et quello,",
-    "n_reais": 1,
-    "difs": [
-     [
-      "real",
-      "colui",
-      "felice"
-     ]
+    "original": "lice che riscontra el modo del procedere suo con el tempo, et quello,",
+    "todas": [
+     "Lettere"
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
-  "score_min": 94.7,
+  "resultado": "exata",
+  "score_min": 100,
   "obra_encontrada": "Lettere",
   "obra_diferente": false
  },
@@ -57559,38 +57444,27 @@
   "arquivo": "frente-lindson/historias-e-curiosidades.md",
   "linha": 374,
   "tipo": "\"",
-  "citacao": "perché gli è impazzato, si vuole governarlo al contrario degli altri pazzi; perché gli altri pazzi si legano, e io voglio che tu lo sciolga.",
+  "citacao": "El mulettino, poi che gli è impazzato, si vuole trattarlo al contrario degli altri pazzi; perchè gli altri pazzi si legano, ed io voglio che tu lo sciolga.",
   "partes": [
-   "perché gli è impazzato, si vuole governarlo al contrario degli altri pazzi; perché gli altri pazzi si legano, e io voglio che tu lo sciolga."
+   "El mulettino, poi che gli è impazzato, si vuole trattarlo al contrario degli altri pazzi; perchè gli altri pazzi si legano, ed io voglio che tu lo sciolga."
   ],
   "obra_indicada": [],
-  "contexto": "Original: \"perché gli è impazzato, si vuole governarlo al contrario degli altri pazzi; perché gli altri pazzi si legano, e io voglio che tu lo sciolga.\" — Carta ao filho Guido, 2/4/1527.",
+  "contexto": "Original: \"El mulettino, poi che gli è impazzato, si vuole trattarlo al contrario degli altri pazzi; perchè gli altri pazzi si legano, ed io voglio che tu lo sciolga.\" — Carta ao filho Guido, 2/4/1527.",
   "ja_marcada": false,
   "resultado_partes": [
    {
-    "parte": "perché gli è impazzato, si vuole governarlo al contrario degli altri pazzi; perché gli altri pazzi si legano, e io voglio che tu lo sciolga.",
-    "res": "aproximada (divergente)",
-    "score": 93.8,
+    "parte": "El mulettino, poi che gli è impazzato, si vuole trattarlo al contrario degli altri pazzi; perchè gli altri pazzi si legano, ed io voglio che tu lo sciolga.",
+    "res": "aproximada (só grafia)",
+    "score": 98.6,
     "fonte": "Martelli (Tutte le opere, 1971; ed. Bompiani 2018, IA)",
     "obra": "Lettere",
-    "original": "i è impazato, si vuole trattarlo al contrario degli altri pazi: perché gl’altri pazi si legano, et io voglio che tu lo sciolga. Dara’lo ad Vangelo,",
-    "n_reais": 3,
-    "difs": [
-     [
-      "real",
-      "perce",
-      "muletino poice"
-     ],
-     [
-      "real",
-      "gouernarlo",
-      "tratarlo"
-     ]
-    ]
+    "original": "ino, poiché gli è impazato, si vuole trattarlo al contrario degli altri pazi: perché gl’altri pazi si legano, et io voglio che tu lo sciolga. Dara’lo ad Vangelo,",
+    "n_reais": 0,
+    "difs": []
    }
   ],
-  "resultado": "aproximada (divergente)",
-  "score_min": 93.8,
+  "resultado": "aproximada (só grafia)",
+  "score_min": 98.6,
   "obra_encontrada": "Lettere",
   "obra_diferente": false
  },
@@ -57752,35 +57626,32 @@
   "arquivo": "frente-lindson/o-principe.md",
   "linha": 82,
   "tipo": "*",
-  "citacao": "una mutazione lascia sempre lo addentellato per la edificazione dell'altra",
+  "citacao": "sempre una mutazione lascia lo addentellato per la edificazione dell'altra",
   "partes": [
-   "una mutazione lascia sempre lo addentellato per la edificazione dell'altra"
+   "sempre una mutazione lascia lo addentellato per la edificazione dell'altra"
   ],
   "obra_indicada": [
    "Principe"
   ],
-  "contexto": "- **Frases:** basta \"não ultrapassar a ordem dos seus antepassados\" e ajustar-se aos acontecimentos (cap. II). \"Uma mudança sempre deixa o encaixe para a construção de outra\" (*una mutazione lascia sempre lo addentellato per la edificazione dell'altra*, cap. II).",
+  "contexto": "- **Frases:** basta \"não ultrapassar a ordem dos seus antepassados\" e ajustar-se aos acontecimentos (cap. II). \"Uma mudança sempre deixa o encaixe para a construção de outra\" (*sempre una mutazione lascia lo addentellato per la edificazione dell'altra*, cap. II).",
   "ja_marcada": false,
   "resultado_partes": [
    {
-    "parte": "una mutazione lascia sempre lo addentellato per la edificazione dell'altra",
-    "res": "aproximada (divergente)",
-    "score": 90.1,
+    "parte": "sempre una mutazione lascia lo addentellato per la edificazione dell'altra",
+    "res": "exata",
+    "score": 100,
     "fonte": "BibIt bibit000214 (Il Principe (Inglese 1995))",
     "obra": "Il Principe (Inglese 1995) / II",
     "original": "sempre una mutazione lascia lo addentellato per la edificazione dell'altra.",
-    "n_reais": 1,
-    "difs": [
-     [
-      "real",
-      "sempre",
-      ""
-     ]
+    "todas": [
+     "Il Principe (Inglese 1995) / II",
+     "Il Principe/Capitolo II",
+     "Opere complete 1843"
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
-  "score_min": 90.1,
+  "resultado": "exata",
+  "score_min": 100,
   "obra_encontrada": "Il Principe (Inglese 1995) / II",
   "obra_diferente": false
  },
@@ -58347,29 +58218,30 @@
   "arquivo": "frente-lindson/o-principe.md",
   "linha": 352,
   "tipo": "\"",
-  "citacao": "conto de vivere e mantenere lo Stato",
+  "citacao": "conto di vivere e mantenere lo Stato",
   "partes": [
-   "conto de vivere e mantenere lo Stato"
+   "conto di vivere e mantenere lo Stato"
   ],
   "obra_indicada": [
    "Principe"
   ],
-  "contexto": "- **O que é:** no texto, oscila entre (a) o domínio/território e os súditos, (b) a posição de poder do príncipe (\"manter o Estado\" = manter-se no poder) e (c) a ordem política. **[a palavra ainda não tem o sentido moderno abstrato; leitura de Skinner e outros]** Ex.: \"Todos os Estados, todos os domínios...\" (cap. I); \"conto de vivere e mantenere lo Stato\" (cap. XVIII).",
+  "contexto": "- **O que é:** no texto, oscila entre (a) o domínio/território e os súditos, (b) a posição de poder do príncipe (\"manter o Estado\" = manter-se no poder) e (c) a ordem política. **[a palavra ainda não tem o sentido moderno abstrato; leitura de Skinner e outros]** Ex.: \"Todos os Estados, todos os domínios...\" (cap. I); \"conto di vivere e mantenere lo Stato\" (cap. XVIII).",
   "ja_marcada": false,
   "resultado_partes": [
    {
-    "parte": "conto de vivere e mantenere lo Stato",
-    "res": "aproximada (só grafia)",
-    "score": 97.2,
+    "parte": "conto di vivere e mantenere lo Stato",
+    "res": "exata",
+    "score": 100,
     "fonte": "Wikisource Il Principe",
     "obra": "Il Principe/Capitolo XVIII",
     "original": "conto di vivere e mantenere lo Stato;",
-    "n_reais": 0,
-    "difs": []
+    "todas": [
+     "Il Principe/Capitolo XVIII"
+    ]
    }
   ],
-  "resultado": "aproximada (só grafia)",
-  "score_min": 97.2,
+  "resultado": "exata",
+  "score_min": 100,
   "obra_encontrada": "Il Principe/Capitolo XVIII",
   "obra_diferente": false
  },
@@ -58396,10 +58268,12 @@
     "difs": []
    }
   ],
-  "resultado": "aproximada (só grafia) [só em texto secundário]",
+  "resultado": "manual: fora: título de livro/artigo moderno (não é citação)",
   "score_min": 97.4,
   "obra_encontrada": "moderno (prefácio/introdução Bompiani)",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (só grafia) [só em texto secundário]",
+  "nota": "Viroli"
  },
  {
   "arquivo": "frente-lindson/vida-e-cartas.md",
@@ -58667,17 +58541,15 @@
   "resultado_partes": [
    {
     "parte": "Europa e Italia. Studi in onore di Giorgio Chittolini",
-    "res": "aproximada (só grafia) [só em texto secundário]",
-    "score": 100.0,
+    "res": "exata [só em texto secundário]",
+    "score": 100,
     "fonte": "Prefácios modernos da ed. Bompiani 2018 (secundária)",
     "obra": "moderno (prefácio/introdução Bompiani)",
-    "original": "Europa e Italia. Studi in onore di Giorgio Chittolini/Europe",
-    "n_reais": 0,
-    "difs": []
+    "original": "Europa e Italia. Studi in onore di Giorgio Chittolini/Europe"
    }
   ],
-  "resultado": "aproximada (só grafia) [só em texto secundário]",
-  "score_min": 100.0,
+  "resultado": "exata [só em texto secundário]",
+  "score_min": 100,
   "obra_encontrada": "moderno (prefácio/introdução Bompiani)",
   "obra_diferente": false
  },
@@ -58715,33 +58587,29 @@
   "arquivo": "frente-lindson/vida-e-cartas.md",
   "linha": 140,
   "tipo": "*\"",
-  "citacao": "La notte che morì Pier Soderini, / l'alma n'andò dell'inferno alla bocca; / gridò Pluton: — Ch'inferno? anima sciocca, / va su nel limbo fra gli altri bambini",
+  "citacao": "La notte che morì Pier Soderini, / l'anima andò de l'inferno a la bocca; / gridò Pluton: — Ch'inferno? anima sciocca, / va su nel limbo fra gli altri bambini",
   "partes": [
-   "La notte che morì Pier Soderini, / l'alma n'andò dell'inferno alla bocca; / gridò Pluton: — Ch'inferno? anima sciocca, / va su nel limbo fra gli altri bambini"
+   "La notte che morì Pier Soderini, / l'anima andò de l'inferno a la bocca; / gridò Pluton: — Ch'inferno? anima sciocca, / va su nel limbo fra gli altri bambini"
   ],
   "obra_indicada": [],
-  "contexto": "- Faz epigramas cruéis. Sobre Piero Soderini, que morreu em 1522: \"Na noite em que morreu Pier Soderini, a alma foi à boca do inferno; gritou Plutão: 'Que inferno o quê, alma tola? Vá para o limbo com as outras crianças'\" [*\"La notte che morì Pier Soderini, / l'alma n'andò dell'inferno alla bocca; / gridò Pluton: — Ch'inferno? anima sciocca, / va su nel limbo fra gli altri bambini\"*].",
+  "contexto": "- Faz epigramas cruéis. Sobre Piero Soderini, que morreu em 1522: \"Na noite em que morreu Pier Soderini, a alma foi à boca do inferno; gritou Plutão: 'Que inferno o quê, alma tola? Vá para o limbo com as outras crianças'\" [*\"La notte che morì Pier Soderini, / l'anima andò de l'inferno a la bocca; / gridò Pluton: — Ch'inferno? anima sciocca, / va su nel limbo fra gli altri bambini\"*].",
   "ja_marcada": false,
   "resultado_partes": [
    {
-    "parte": "La notte che morì Pier Soderini, / l'alma n'andò dell'inferno alla bocca; / gridò Pluton: — Ch'inferno? anima sciocca, / va su nel limbo fra gli altri bambini",
-    "res": "aproximada (divergente)",
-    "score": 97.1,
+    "parte": "La notte che morì Pier Soderini, / l'anima andò de l'inferno a la bocca; / gridò Pluton: — Ch'inferno? anima sciocca, / va su nel limbo fra gli altri bambini",
+    "res": "exata",
+    "score": 100,
     "fonte": "Martelli (Tutte le opere, 1971; ed. Bompiani 2018, IA)",
     "obra": "Rime varie",
     "original": "La notte che morì Pier Soderini, l’anima andò de l’inferno a la bocca; gridò Pluton: — Ch’ inferno? anima sciocca, va su nel limbo fra gli altri bambini.",
-    "n_reais": 2,
-    "difs": [
-     [
-      "real",
-      "alma n",
-      "anima"
-     ]
+    "todas": [
+     "Rime varie",
+     "Rime varie/Epigrammi"
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
-  "score_min": 97.1,
+  "resultado": "exata",
+  "score_min": 100,
   "obra_encontrada": "Rime varie",
   "obra_diferente": false
  },
@@ -58749,29 +58617,30 @@
   "arquivo": "frente-lindson/vida-e-cartas.md",
   "linha": 150,
   "tipo": "*\"",
-  "citacao": "la Fortuna ha fatto che, non sapendo ragionare né dell'arte della seta né dell'arte della lana, né de' guadagni né delle perdite, e' mi conviene ragionare dello stato, e mi bisogna o botarmi a stare cheto, o ragionare di questo",
+  "citacao": "la Fortuna ha fatto che, non sapendo ragionare né dell'arte della seta et dell'arte della lana, né de' guadagni né delle perdite, e' mi conviene ragionare dello stato, et mi bisogna o botarmi di stare cheto, o ragionare di questo",
   "partes": [
-   "la Fortuna ha fatto che, non sapendo ragionare né dell'arte della seta né dell'arte della lana, né de' guadagni né delle perdite, e' mi conviene ragionare dello stato, e mi bisogna o botarmi a stare cheto, o ragionare di questo"
+   "la Fortuna ha fatto che, non sapendo ragionare né dell'arte della seta et dell'arte della lana, né de' guadagni né delle perdite, e' mi conviene ragionare dello stato, et mi bisogna o botarmi di stare cheto, o ragionare di questo"
   ],
   "obra_indicada": [
    "Lettere"
   ],
-  "contexto": "- Admite que fala de política por falta de outro assunto (carta a Vettori, 9 de abril de 1513): \"a Fortuna fez que, não sabendo eu falar nem da arte da seda nem da arte da lã, nem de ganhos nem de perdas, convém-me falar do Estado; e preciso ou fazer voto de ficar calado, ou falar disso\" [*\"la Fortuna ha fatto che, non sapendo ragionare né dell'arte della seta né dell'arte della lana, né de' guada",
+  "contexto": "- Admite que fala de política por falta de outro assunto (carta a Vettori, 9 de abril de 1513): \"a Fortuna fez que, não sabendo eu falar nem da arte da seda nem da arte da lã, nem de ganhos nem de perdas, convém-me falar do Estado; e preciso ou fazer voto de ficar calado, ou falar disso\" [*\"la Fortuna ha fatto che, non sapendo ragionare né dell'arte della seta et dell'arte della lana, né de' guada",
   "ja_marcada": false,
   "resultado_partes": [
    {
-    "parte": "la Fortuna ha fatto che, non sapendo ragionare né dell'arte della seta né dell'arte della lana, né de' guadagni né delle perdite, e' mi conviene ragionare dello stato, e mi bisogna o botarmi a stare cheto, o ragionare di questo",
-    "res": "aproximada (só grafia)",
-    "score": 99.0,
+    "parte": "la Fortuna ha fatto che, non sapendo ragionare né dell'arte della seta et dell'arte della lana, né de' guadagni né delle perdite, e' mi conviene ragionare dello stato, et mi bisogna o botarmi di stare cheto, o ragionare di questo",
+    "res": "exata",
+    "score": 100,
     "fonte": "Martelli (Tutte le opere, 1971; ed. Bompiani 2018, IA)",
     "obra": "Lettere",
     "original": "atto che, non sapendo ragionare né dell’arte della seta et dell’arte della lana, né de’ guadagni né delle perdite, e’ mi conviene ragionare dello stato, et mi bisogna o botarmi di stare cheto, o ragionare di questo. Se io potessi",
-    "n_reais": 0,
-    "difs": []
+    "todas": [
+     "Lettere"
+    ]
    }
   ],
-  "resultado": "aproximada (só grafia)",
-  "score_min": 99.0,
+  "resultado": "exata",
+  "score_min": 100,
   "obra_encontrada": "Lettere",
   "obra_diferente": false
  },
@@ -58942,29 +58811,32 @@
   "arquivo": "frente-lindson/vida-e-cartas.md",
   "linha": 175,
   "tipo": "*\"",
-  "citacao": "io gli ho portati tanto francamente, che io stesso me ne voglio bene, et parmi essere da più che non credetti",
+  "citacao": "gli ho portati tanto francamente, che io stesso me ne voglio bene, et parmi essere da più che non credetti",
   "partes": [
-   "io gli ho portati tanto francamente, che io stesso me ne voglio bene, et parmi essere da più che non credetti"
+   "gli ho portati tanto francamente, che io stesso me ne voglio bene, et parmi essere da più che non credetti"
   ],
   "obra_indicada": [
    "Lettere"
   ],
-  "contexto": "- **Coragem física e moral**: aguentou a tortura sem confessar, e se gaba disso (a Vettori, 18 de março de 1513): \"suportei essas aflições com tanta firmeza que eu mesmo gosto de mim por isso, e me parece que valho mais do que eu pensava\" [*\"io gli ho portati tanto francamente, che io stesso me ne voglio bene, et parmi essere da più che non credetti\"*].",
+  "contexto": "- **Coragem física e moral**: aguentou a tortura sem confessar, e se gaba disso (a Vettori, 18 de março de 1513): \"suportei essas aflições com tanta firmeza que eu mesmo gosto de mim por isso, e me parece que valho mais do que eu pensava\" [*\"gli ho portati tanto francamente, che io stesso me ne voglio bene, et parmi essere da più che non credetti\"*].",
   "ja_marcada": false,
   "resultado_partes": [
    {
-    "parte": "io gli ho portati tanto francamente, che io stesso me ne voglio bene, et parmi essere da più che non credetti",
-    "res": "aproximada (só grafia)",
-    "score": 98.0,
+    "parte": "gli ho portati tanto francamente, che io stesso me ne voglio bene, et parmi essere da più che non credetti",
+    "res": "exata",
+    "score": 100,
     "fonte": "Martelli (Tutte le opere, 1971; ed. Bompiani 2018, IA)",
     "obra": "Lettere",
-    "original": "ti tanto francamente, che io stesso me ne voglio bene, et parmi essere da più che non credetti; et se parrà",
-    "n_reais": 0,
-    "difs": []
+    "original": "anto francamente, che io stesso me ne voglio bene, et parmi essere da più che non credetti; et se parrà",
+    "todas": [
+     "Lettere",
+     "Lettere (Machiavelli)/Lettera II a Francesco Vettori",
+     "Lettere familiari"
+    ]
    }
   ],
-  "resultado": "aproximada (só grafia)",
-  "score_min": 98.0,
+  "resultado": "exata",
+  "score_min": 100,
   "obra_encontrada": "Lettere",
   "obra_diferente": false
  },
@@ -59128,6 +59000,38 @@
  {
   "arquivo": "frente-lindson/vida-e-cartas.md",
   "linha": 309,
+  "tipo": "*\"",
+  "citacao": "amo la patria mia più dell'anima",
+  "partes": [
+   "amo la patria mia più dell'anima"
+  ],
+  "obra_indicada": [
+   "Lettere"
+  ],
+  "contexto": "| Italiano | Artigo em *La Critica* (Croce, 1930) sobre o dito \"amare la patria più che l'anima\" | Confirma a frase como da carta a Vettori de 1527 (texto da carta de 16/04/1527, conferido no Wikisource: *\"amo la patria mia più dell'anima\"*) e o debate sobre seu sentido. |",
+  "ja_marcada": false,
+  "resultado_partes": [
+   {
+    "parte": "amo la patria mia più dell'anima",
+    "res": "exata",
+    "score": 100,
+    "fonte": "Martelli (Tutte le opere, 1971; ed. Bompiani 2018, IA)",
+    "obra": "Lettere",
+    "original": "ù dell’anima; et vi dico questo",
+    "todas": [
+     "Lettere",
+     "Lettere (Machiavelli)/Lettera XXVIII a Francesco Vettori"
+    ]
+   }
+  ],
+  "resultado": "exata",
+  "score_min": 100,
+  "obra_encontrada": "Lettere",
+  "obra_diferente": false
+ },
+ {
+  "arquivo": "frente-lindson/vida-e-cartas.md",
+  "linha": 309,
   "tipo": "\"",
   "citacao": "amare la patria più che l'anima",
   "partes": [
@@ -59136,7 +59040,7 @@
   "obra_indicada": [
    "Lettere"
   ],
-  "contexto": "| Italiano | Artigo em *La Critica* (Croce, 1930) sobre o dito \"amare la patria più che l'anima\" | Confirma a frase como da carta a Vettori de 1527 e o debate sobre seu sentido. |",
+  "contexto": "| Italiano | Artigo em *La Critica* (Croce, 1930) sobre o dito \"amare la patria più che l'anima\" | Confirma a frase como da carta a Vettori de 1527 (texto da carta de 16/04/1527, conferido no Wikisource: *\"amo la patria mia più dell'anima\"*) e o debate sobre seu sentido. |",
   "ja_marcada": false,
   "resultado_partes": [
    {
@@ -59161,9 +59065,11 @@
     ]
    }
   ],
-  "resultado": "aproximada (divergente)",
+  "resultado": "manual: conferida à mão",
   "score_min": 76.7,
   "obra_encontrada": "Istorie fiorentine / 7.",
-  "obra_diferente": false
+  "obra_diferente": false,
+  "resultado_auto": "aproximada (divergente)",
+  "nota": "dito tradicional (título do artigo de Croce); o texto da carta de 16/04/1527 ('amo la patria mia più dell'anima') foi acrescentado ao lado"
  }
 ]

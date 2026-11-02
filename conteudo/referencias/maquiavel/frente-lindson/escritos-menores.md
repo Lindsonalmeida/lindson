@@ -534,7 +534,7 @@ Datas incertas, em geral situadas entre 1506 e 1512-1517 (data discutida para ca
 - **Exemplos atribuídos:**
   - *Canto degli spiriti beati* (geralmente ligado à eleição de Leão X, 1513): espíritos do céu pedem aos príncipes cristãos que parem de lutar entre si e se unam contra o turco.
   - *Canto de' diavoli* (diabos expulsos do inferno que vêm ao mundo, onde encontram coisa pior).
-  - *Canto d'amanti disperati e di dame*; *Canto de' romiti* (eremitas); *Canto de' ciurmadori* (charlatães que vendem remédios milagrosos); *Canto di uomini che vendono le pine* (vendedores de pinhas, com duplo sentido).
+  - *Canto d'amanti disperati e di dame*; *Canto de' romiti* (eremitas); *Canto de' ciurmadori* (charlatães que vendem remédios milagrosos); *Canto d'uomini che vendono le pine* (vendedores de pinhas, com duplo sentido).
 - **Ideias fiéis:**
   - [paráfrase, Spiriti beati] Os cristãos se destroem entre si enquanto o inimigo comum avança.
   - [paráfrase, Ciurmadori] O charlatão vive da credulidade de quem quer milagre sem esforço.
