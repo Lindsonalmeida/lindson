@@ -57,14 +57,30 @@ troca("function toast(t){", "window.__toast=t=>toast(t);function toast(t){")
 troca("const f=$('#novo-ped');", "if(window.__pos)window.__pos(view);const f=$('#novo-ped');")
 troca("addEventListener('hashchange',render);render();", "window.__render=render;window.__h={BASE,APROV,PEDIDOS,bomDia,chip,cli:()=>cli};addEventListener('hashchange',render);setTimeout(render,0);")
 
-# 4 · artes reais do feed nas Aprovações e em Conteúdos > Carrosséis
-ARTES = [('v12-1-dividido', 'Post único', 'A gente não promete, volta pra mostrar'), ('v12-2-palavra', 'Post único', 'Presença'),
-         ('v12-3-frase', 'Post único', 'Frase: a gente volta pra mostrar'), ('v12-4-conversa', 'Post único', 'Fala com a gente · WhatsApp'),
-         ('v12-5-agenda', 'Post único', 'Agenda da semana'), ('v12-6-bom-dia', 'Post único', 'Bom dia, São João Batista')]
-img = {n: uri(os.path.join(IG, n + '.png'), 420, 'JPEG') for n, _, _ in ARTES}
-aprov = ','.join(f"{{t:'{t}',titulo:'{ti}',data:'Feed · semana 1',st:'{'aguardando' if i < 4 else 'aprovado'}',img:'{img[n]}'}}" for i, (n, t, ti) in enumerate(ARTES))
-s = re.sub(r"const APROV=\[.*?\];", f"const APROV=[{aprov}];", s, count=1, flags=re.S)
+# 4 · Aprovações: as 3 artes de apresentação (feed v13, versão 3) com as legendas. Os exemplos antigos (v12) saíram
+#     a pedido do Lindson (02/11/2026): usavam os grafismos eliminados da identidade.
+import json as _j
+V13 = os.path.join(D, '..', '..', 'clientes', 'leo-pinto', 'instagram-v13-apresentacao')
+def _legendas():
+    t = open(os.path.join(V13, 'TEXTOS.md')).read().split('## 3. Legendas da versão 3')[1]
+    partes = re.split(r'\n### Post \d[^\n]*\n', t)[1:]
+    return [x.split('\n---')[0].strip() for x in partes]
+LEG = _legendas()
+POSTS13 = [('leo-v13-3-direita', 'Post único', 'Apresentação 1/3 · Do povo para o povo', 'Postar 1º (painel da direita)'),
+           ('leo-v13-2-meio', 'Post único', 'Apresentação 2/3 · Leo Pinto, vereador mais bem votado', 'Postar 2º (painel do meio)'),
+           ('leo-v13-1-esquerda', 'Post único', 'Apresentação 3/3 · Prazer, eu sou o Leo', 'Postar 3º (painel da esquerda)')]
+assert len(LEG) == 3, 'legendas da versão 3 não encontradas no TEXTOS.md'
+aprov = ','.join(_j.dumps({'t': t, 'titulo': ti, 'data': da, 'st': 'aguardando', 'img': uri(os.path.join(V13, n + '.jpg'), 720, 'JPEG'), 'legenda': LEG[i]}, ensure_ascii=False)
+                 for i, (n, t, ti, da) in enumerate(POSTS13))
+PREVIA = uri(os.path.join(V13, 'previa-grade.jpg'), 1000, 'JPEG')
+s = re.sub(r"const APROV=\[.*?\];", lambda m: f"const APROV=[{aprov}];", s, count=1, flags=re.S)
 troca('<div class="post"><div class="img">${p.titulo}</div>', '<div class="post">${p.img?`<img src="${p.img}" alt="${p.titulo}" style="width:100%;aspect-ratio:4/5;object-fit:cover;display:block">`:`<div class="img">${p.titulo}</div>`}')
+troca('<div class="d" style="color:var(--apagado);font-size:12.5px">${p.data}</div>',
+      '<div class="d" style="color:var(--apagado);font-size:12.5px">${p.data}</div><div style="font-weight:700;margin:6px 0 2px">${p.titulo}</div>'
+      '${p.legenda?`<details style="margin:8px 0"><summary style="cursor:pointer;color:var(--amarelo);font-weight:700">Ver legenda</summary><pre style="white-space:pre-wrap;font:inherit;font-size:13px;line-height:1.5;margin:10px 0;max-height:320px;overflow:auto">${p.legenda.replace(/</g,"&lt;")}</pre><button class="btn lin" onclick="navigator.clipboard.writeText(this.previousElementSibling.textContent);window.__toast&&window.__toast(\'Legenda copiada\')">Copiar legenda</button></details>`:\'\'}')
+troca('<p class="sub">Aprove ou peça ajuste. A equipe é avisada na hora.</p>',
+      '<p class="sub">Aprove ou peça ajuste. A equipe é avisada na hora.</p>'
+      f'<div style="margin:6px 0 18px"><div style="font-weight:700;margin-bottom:8px">Como as 3 ficam juntas no seu perfil</div><img src="{PREVIA}" alt="Prévia das 3 artes no perfil" style="width:100%;border-radius:12px;display:block"><p class="sub" style="margin-top:8px">Elas formam uma imagem só. Postar na ordem 1º, 2º e 3º, sem outro post no meio, e fixar as três.</p></div>')
 troca("carrosseis:[['5 erros que fazem você perder clientes','aprovado'],['Antes de comprar, veja isso','em revisão'],['Perguntas que mais recebemos','em produção']]",
       "carrosseis:[['Pedimos, fizemos, entregamos: capa do carrossel','em produção'],['O que a gente já fez no mês','ideia'],['Causas do mandato: saúde, água, obras','ideia']]")
 troca("reels:[['Bastidores da semana','aprovado'],['Um dia com a equipe','em produção'],['Responda em 30 segundos: dúvida do cliente','ideia']]",
