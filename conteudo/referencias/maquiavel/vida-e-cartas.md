@@ -276,7 +276,9 @@ Guicciardini (1483–1540), aristocrata, jurista, governador papal de Módena e 
 - **Opinião de Maquiavel**: estima total ("amo messer Francesco Guicciardini", 1527); pedia-lhe conselho prático e o via como o homem capaz de agir.
 - **Opinião de Guicciardini**: admirava a originalidade, mas desconfiava das regras gerais. Nas *Considerações sobre os Discursos de Maquiavel* (c. 1530) critica que ele "louva demais os romanos" e tira regras absolutas de exemplos; nos *Ricordi* (n. 110) escreve que é um engano citar os romanos a cada passo. [Interpretação] Para estudiosos como Felix Gilbert (*Machiavelli and Guicciardini*, 1965), os dois representam o contraste entre a regra geral (Maquiavel) e a "discrição" caso a caso (Guicciardini).
 
-### Francesco Vettori (1474–1539)
+### Francesco Vettori (1474–1540)
+
+> Morte em **5/03/1540**, não 1539: o epitáfio usa o ano florentino (DBI, Simonetta, 2020; ver `contexto-e-personagens.md` 3; revisão de cobertura, 02/11/2026).
 
 - **Relação**: companheiro da missão a Maximiliano (1507–1508), embaixador em Roma (1513–1515), correspondente principal do exílio, compadre.
 - **Opinião**: confiança e intimidade; mas a ajuda prática de Vettori foi pequena. [Interpretação] Najemy vê em Vettori um cético que achava a política dominada pelo acaso, contra a confiança de Maquiavel nas regras; Viroli o vê como amigo leal mas prudente demais para arriscar-se por ele.
