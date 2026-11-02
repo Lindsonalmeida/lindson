@@ -95,7 +95,7 @@ OBRAS_MARTELLI = [  # (padrão no cabeçalho corrente da ed. Martelli/Bompiani, 
 
 def ler(p):
     s = open(p, encoding="utf-8", errors="replace").read()
-    s = s.replace("¬\n", "")
+    s = s.replace("¬\n", "").replace("¬ ", "").replace("¬", "")
     return re.sub(r"(\w)[-­]\s*\n\s*(\w)", r"\1\2", s)  # junta palavras partidas por hífen de linha
 
 class Fonte:
@@ -139,27 +139,29 @@ class Fonte:
 
 
 def carregar_martelli(p):
+    """Separa o texto de Maquiavel (com rótulo da obra) dos prefácios/introdução modernos."""
     linhas = ler(p).split("\n")
-    out, rot, atual, c = [], [], "moderno (introdução)", 0
-    rot.append((0, atual))
+    mach, mod, rot, atual, c = [], [], [], "moderno", 0
     for l in linhas:
         if CABECALHO.match(l) and re.search(r"[A-Z]{4}", l):
             h = re.sub(r"\d", "", l).strip()
             if MODERNO.search(h):
-                novo = "moderno (prefácio/notas da ed. Bompiani)"
+                atual = "moderno"
             else:
-                novo = None
                 for pad, lab in OBRAS_MARTELLI:
                     if re.search(pad, h):
-                        novo = lab; break
-            if novo and novo != atual:
-                atual = novo; rot.append((c, atual))
+                        if lab != atual:
+                            atual = lab
+                            rot.append((c, atual))
+                        break
             continue  # cabeçalho corrente não entra no texto
         if re.fullmatch(r"\s*\d{1,4}\s*", l):
             continue
-        out.append(l); c += len(l) + 1
-    texto = "\n".join(out)
-    return texto, rot
+        if atual == "moderno":
+            mod.append(l)
+        else:
+            mach.append(l); c += len(l) + 1
+    return "\n".join(mach), rot, "\n".join(mod)
 
 
 def carregar_fontes():
@@ -171,8 +173,10 @@ def carregar_fontes():
             fontes.append(Fonte(nome, ler(p), tipo, [(0, rotulo)]))
     p = os.path.join(raw, "martelli-bompiani.txt")
     if os.path.exists(p):
-        t, rot = carregar_martelli(p)
+        t, rot, mod = carregar_martelli(p)
         fontes.append(Fonte("Martelli (Tutte le opere, 1971; ed. Bompiani 2018, IA)", t, "primária", rot))
+        fontes.append(Fonte("Prefácios modernos da ed. Bompiani 2018 (secundária)", mod, "secundária",
+                            [(0, "moderno (prefácio/introdução Bompiani)")]))
     ws = os.path.join(TEXTOS, "wikisource")
     if os.path.isdir(ws):
         for f in sorted(os.listdir(ws)):
@@ -318,9 +322,10 @@ def busca_exata(qt, fontes):
     return achados
 
 def busca_aprox(qt, fontes, maxcand=6):
-    melhor = (0, None, 0, 0)
+    """Melhor alinhamento aproximado em CADA fonte: lista de (score, fonte, tok_ini, tok_fim)."""
     q = " ".join(qt)
     pares = [(qt[i], qt[i + 1]) for i in range(len(qt) - 1)] or [(qt[0], qt[0])]
+    res = []
     for f in fontes:
         idx = f.indice()
         votos = Counter()
@@ -330,6 +335,7 @@ def busca_aprox(qt, fontes, maxcand=6):
                 continue
             for p in lst:
                 votos[(p - k) // 4] += 1
+        melhor = (0, None, 0, 0)
         for bloco, v in votos.most_common(maxcand):
             if v < max(1, len(pares) // 6):
                 break
@@ -337,11 +343,42 @@ def busca_aprox(qt, fontes, maxcand=6):
             janela = " ".join(f.tok[ini:fim])
             sc, ds, de = parcial(q, janela)
             if sc > melhor[0]:
-                base = len(" ".join(f.tok[:ini])) + (1 if ini else 0)
                 ti = f.tok_de_char(f.inicio_tok[ini] + ds)
                 tf = f.tok_de_char(f.inicio_tok[ini] + max(ds, de - 1))
                 melhor = (sc, f, ti, tf)
-    return melhor
+        if melhor[1] is not None:
+            res.append(melhor)
+    return sorted(res, key=lambda r: -r[0])
+
+def _sim(a, b):
+    import difflib
+    return difflib.SequenceMatcher(None, a, b).ratio()
+
+def diferencas(qt, ot):
+    """Compara palavra a palavra (já normalizadas). Devolve (n_reais, lista de diferenças).
+    Diferença 'de grafia' = só separação de palavras ou letras parecidas (prudenza/prudenzia, dala/da la);
+    diferença 'real' = palavra trocada, faltando ou sobrando."""
+    import difflib
+    sm = difflib.SequenceMatcher(None, qt, ot, autojunk=False)
+    ops = sm.get_opcodes()
+    # palavras do original que sobram só nas pontas = alinhamento largo demais, não é erro
+    while ops and ops[0][0] == "insert":
+        ops = ops[1:]
+    while ops and ops[-1][0] == "insert":
+        ops = ops[:-1]
+    reais, lista = 0, []
+    for op, i1, i2, j1, j2 in ops:
+        if op == "equal":
+            continue
+        a, b = " ".join(qt[i1:i2]), " ".join(ot[j1:j2])
+        curtas = op == "replace" and i2 - i1 == 1 and j2 - j1 == 1 and len(a) <= 2 and len(b) <= 2
+        if curtas or op == "replace" and (a.replace(" ", "") == b.replace(" ", "") or
+                                (_sim(a.replace(" ", ""), b.replace(" ", "")) >= 0.75 and abs((i2 - i1) - (j2 - j1)) <= 1)):
+            lista.append(("grafia", a, b))
+        else:
+            reais += max(i2 - i1, j2 - j1)
+            lista.append(("real", a, b))
+    return reais, lista
 
 def conferir(cits, fontes):
     prim = [f for f in fontes if f.tipo == "primária"]
@@ -353,33 +390,45 @@ def conferir(cits, fontes):
             if len(qt) < 3:
                 continue
             ach = busca_exata(qt, prim)
-            ach_mach = [a for a in ach if not a[0].rotulo(a[0].pos[a[1]]).startswith("moderno")]
-            if ach_mach:
-                f, ti, tf = ach_mach[0]
+            if ach:
+                f, ti, tf = ach[0]
                 res_partes.append({"parte": parte, "res": "exata", "score": 100, "fonte": f.nome,
                                    "obra": f.rotulo(f.pos[ti]), "original": f.trecho(ti, tf),
-                                   "todas": sorted({a[0].rotulo(a[0].pos[a[1]]) for a in ach_mach})})
+                                   "todas": sorted({a[0].rotulo(a[0].pos[a[1]]) for a in ach})})
                 continue
-            sc, f, ti, tf = busca_aprox(qt, prim)
-            if sc < 75 and sec:
-                sc2, f2, ti2, tf2 = busca_aprox(qt, sec)
-                if sc2 > sc:
-                    sc, f, ti, tf = sc2, f2, ti2, tf2
-            if f is None:
+            cands = busca_aprox(qt, prim)
+            if (not cands or cands[0][0] < 75) and sec:
+                cands = sorted(cands + busca_aprox(qt, sec), key=lambda r: -r[0])
+            if not cands:
                 res_partes.append({"parte": parte, "res": "não encontrada", "score": 0})
                 continue
+            # entre as fontes com bom alinhamento, fica a de menos diferenças reais
+            avals = []
+            for sc, f, ti, tf in cands:
+                if sc < 75 and avals:
+                    continue
+                n, lst = diferencas(qt, f.tok[ti:tf + 1])
+                avals.append((n, -sc, f, ti, tf, lst, sc))
+            avals.sort(key=lambda r: (r[0], r[1]))
+            n, _, f, ti, tf, lst, sc = avals[0]
             obra = f.rotulo(f.pos[ti])
-            res = "aproximada" if sc >= 75 else "não encontrada"
-            if obra.startswith("moderno") or f.tipo != "primária":
-                res = res + " (só em texto moderno/secundário)" if sc >= 75 else res
+            if sc < 75:
+                res = "não encontrada"
+            elif n == 0:
+                res = "aproximada (só grafia)"
+            else:
+                res = "aproximada (divergente)"
+            if f.tipo != "primária" and sc >= 75:
+                res += " [só em texto secundário]"
             res_partes.append({"parte": parte, "res": res, "score": round(sc, 1), "fonte": f.nome,
-                               "obra": obra, "original": f.trecho(ti, tf, 0)})
+                               "obra": obra, "original": f.trecho(ti, tf, 0), "n_reais": n,
+                               "difs": [d for d in lst if d[0] == "real"][:12]})
         c["resultado_partes"] = res_partes
-        ordem = {"exata": 0, "aproximada": 1}
+        ordem = {"exata": 0, "aproximada (só grafia)": 1, "aproximada (divergente)": 2}
         if not res_partes:
             c["resultado"] = "curta demais"
         else:
-            piores = sorted(res_partes, key=lambda r: (ordem.get(r["res"], 2), -r["score"]))
+            piores = sorted(res_partes, key=lambda r: (ordem.get(r["res"], 3), -r["score"]))
             c["resultado"] = piores[-1]["res"]
             c["score_min"] = min(r["score"] for r in res_partes)
         obras = {r.get("obra", "") for r in res_partes}
