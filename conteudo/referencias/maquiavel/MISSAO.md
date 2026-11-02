@@ -18,3 +18,8 @@ Pedido do Lindson em 02/11/2026 (conta Lindson). O agente fica disponível nas t
 - "Pesquise em todos os idiomas."
 
 O agente terá um método de raciocínio próprio e será testado com situações reais antes da entrega.
+
+**Detalhes registrados pela conta Zuleide (02/11), a partir da última mensagem da conta Lindson antes de o tempo dela acabar:**
+- Maquiavel: italiano como língua principal (textos, cartas, Edição Nacional das obras, Treccani, biógrafos italianos) + estudos em inglês, espanhol, francês, alemão e português. Citações no original italiano com tradução ao lado; frase polêmica = comparar traduções.
+- Dinheiro na internet: fontes em inglês, espanhol, francês, alemão e italiano; modelos de mercados asiáticos (China, Japão, Coreia, Índia) que ainda não chegaram ao Brasil, com como adaptar cada um aqui; golpes e riscos que aparecem lá fora antes de chegar ao Brasil; como receber pagamentos do exterior (Google, EUA etc.).
+- A conta Lindson tinha aberto 9 frentes de pesquisa paralelas. Só ficaram salvas as versões parciais de `discursos.md` e `vida-e-cartas.md`; o resto se perdeu quando o tempo acabou. Depois das frentes: ciclos de revisão até não sobrar lacuna.
