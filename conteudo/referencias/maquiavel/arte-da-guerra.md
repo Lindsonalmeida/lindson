@@ -1,6 +1,6 @@
 # A Arte da Guerra (*Dell'arte della guerra*) — base de conhecimento para o agente "Nicolau Maquiavel"
 
-**Situação:** parcial — feito até a seção 5 (seções 1–3 pela conta Zuleide; seções 4–5 pela conta Lindson, 02/11/2026). Falta a seção 6.
+**Situação:** completo — seções 1–3 pela conta Zuleide; seções 4–6 pela conta Lindson (02/11/2026). Lacunas para a próxima rodada em 6.4.
 
 > **Para que serve este arquivo:** é a base do agente "Maquiavel conselheiro de negócios" sobre o diálogo *Dell'arte della guerra*, a **única obra política que Maquiavel publicou em vida**. **Texto** = o que ele escreveu (com livro); **fato documentado** = história com fonte; **[Interpretação]** = leitura de estudioso (com nome e idioma) ou nossa; **[Tradição]** = história sem prova. O agente nunca põe interpretação na boca de Maquiavel.
 >
@@ -472,3 +472,96 @@ Um **diálogo em sete livros** em que um general famoso, **Fabrizio Colonna**, e
 - **As 27 regras gerais** (seção 3): o único "manual de máximas" que Maquiavel publicou.
 - **A forma de diálogo** e a figura de Fabrizio (ver 1.4).
 - **[Interpretação nossa]:** o *Príncipe* diz **o quê** (armas próprias), os *Discursos* dizem **por quê** (Roma), a *Arte da Guerra* diz **como** (o passo a passo). Para o agente, a ordem de uso é a mesma: diagnóstico com o *Príncipe*, justificativa com os *Discursos*, execução com a *Arte*.
+
+---
+
+## 6. Uso pelo agente
+
+> Conta Lindson, 02/11/2026. Tudo o que é "aplicação" é **[Interpretação]** para o negócio do Lindson (agência Alkantara, São Luís-MA, mini sites, tráfego, conteúdo, canais dark). Maquiavel escreveu sobre exércitos, não sobre empresas.
+
+### 6.1 Como o agente deve falar desta obra
+
+1. **Dizer que é Fabrizio quem fala:** "Na *Arte da Guerra* (Livro II), Maquiavel faz Fabrizio Colonna dizer…". Fabrizio é porta-voz, mas com ironias (ver 1.4).
+2. **Nunca confundir com Sun Tzu.** Se o Lindson citar "A Arte da Guerra", perguntar ou esclarecer qual. Frase próxima (regra 11) não é empréstimo.
+3. **A anedota de Bandello é [Tradição]** (ver 1.8); pode ser contada, sempre como "conta-se".
+4. **Os números militares (6.000 homens, 450 por batalha) são projeto**, não descrição histórica (ver 1.5 e 4.8).
+5. **Sobre tecnologia nova** usar 4.3 com os dois lados: o erro (subestimou a artilharia) e o acerto (a ferramenta só rende com ordem e *virtù*).
+6. **Referência sempre** no formato *Arte da Guerra* + livro (I–VII), "Proêmio" ou "regra nº X do Livro VII" (numeração nossa, seção 3).
+
+### 6.2 Situação do negócio → o que a *Arte da Guerra* ensina
+
+| Situação do Lindson | Lição [Interpretação] | Onde está |
+|---|---|---|
+| Depender de freelancers e "parceiros" para a entrega principal | núcleo próprio que domine o essencial; terceiro só como reforço | I (2.1 item 3); 4.1; *Príncipe* XIII |
+| Contratar a primeira pessoa / montar equipe | escolher por caráter (*"onestà e vergogna"*) e treinar a técnica | I (2.1 item 8); regra 7 |
+| Equipe sem líder intermediário | um responsável a cada ~10 pessoas, que segure os outros "com o ânimo, as palavras e o exemplo" | II (4.2) |
+| Processo novo falhou na primeira vez | ver se foi aplicado como desenhado antes de abandonar ("aborto, não figura perfeita") | I e VII (1.6) |
+| Lançar oferta, nicho ou preço novo | sigilo até executar; teste pequeno antes da batalha | regras 5, 13, 19 |
+| Concorrente agressivo em preço | não guerra de preço ("ferro"); vencer "pela fome" (serviço, nicho, relacionamento); fazer você a oferta que ele quer te forçar | regras 1, 4; IV (2.4 item 4) |
+| Cliente grande demais / dependência de um só | três linhas: carteira, caixa, canal reserva | III (2.3 item 2); regra 10 |
+| Caixa apertado | reserva de pelo menos um mês; quem não tem víveres é vencido sem ferro | VI; regra 15 |
+| Bônus e comissão | o "butim" entra no caixa da empresa e se distribui por regra; parte retida até o fim | V (2.5 item 4) |
+| Disciplina na equipe | prêmio e pena juntos, à vista; pagar em dia para poder cobrar | VI (2.6 itens 2 e 6); regra 20 |
+| Ferramenta nova (IA, automação, anúncios) | adotar, mas como reforço de equipe treinada | 4.3; *Discursos* II.17 |
+| Entrar em cidade ou setor novo | é "marchar em país inimigo": mapa, várias fontes, guias confrontados | V (2.5 item 6) |
+| Mudança de algoritmo, crise do setor | dar passagem ao que não se pode segurar; reposicionar | III, regra geral (seção 3) |
+| Vaidade de estrutura (escritório, carro, ferramentas caras) | austeridade antes do caixa sustentar | regra 27; VII (4.7, 4.9) |
+| Dono que "manda pelo WhatsApp" e não forma equipe | o retrato dos príncipes "nos gabinetes" (VII): resposta aguda e carta bonita não defendem o negócio | VII (4.9) |
+| Reputação do dono | nasce da competência, não do título | VI (2.6 item 6) |
+| Momento bom do negócio | treinar mais na paz que na guerra | I; *Príncipe* XIV (5.2) |
+
+### 6.3 As 30 frases para o agente
+
+> Quinze **novas** (texto completo aqui, conferidas no Martelli) e quinze já citadas nas seções 1–5 (só o começo e onde está, para não repetir).
+
+**Novas**
+
+| # | Italiano | Tradução livre | Ref. |
+|---|---|---|---|
+| 1 | *"Il che sempre fia, quando egli scerrà uomini che sappiano vivere d'altra arte che di questa."* | Isso sempre acontecerá quando escolher homens que saibam viver de outro ofício que não este [a guerra]. | I |
+| 2 | *"Debbesi sopratutto riguardare a' costumi, e che in lui sia onestà e vergogna, altrimenti si elegge uno instrumento di scandolo e uno principio di corruzione."* | Deve-se olhar sobretudo os costumes, e que haja nele honestidade e vergonha; senão se escolhe um instrumento de escândalo e um princípio de corrupção. | I |
+| 3 | *"non sia alcuno che creda che nella educazione disonesta e nello animo brutto possa capere alcuna virtù che sia in alcuna parte lodevole."* | Que ninguém creia que numa educação desonesta e num ânimo feio possa caber alguma virtude louvável. | I |
+| 4 | *"La pruova di virtù non si può trovare negli uomini che si eleggono di nuovo e che mai più non sono stati eletti."* | A prova da virtude não se acha nos homens escolhidos pela primeira vez, que nunca foram postos à prova. | I |
+| 5 | *"chi sa bene presentare al nimico una giornata, gli altri errori che facesse ne' maneggi della guerra sarebbono sopportabili."* | Quem sabe apresentar bem a batalha ao inimigo terá toleráveis os outros erros que fizer. | I |
+| 6 | *"dove si ragiona che gli uomini abbiano a venire alle mani, ogni piccolo vantaggio è di gran momento."* | Onde os homens vão chegar às mãos, toda pequena vantagem pesa muito. | II |
+| 7 | *"la virtù d'uno solo non rimedia alla rovina discosto."* | A virtude de um só não remedeia a ruína que está longe dele. | II |
+| 8 | *"tra ogni dieci uomini, sia uno di più vita, di più cuore o almeno di più autorità, il quale con lo animo, con le parole, con lo esemplo tenga gli altri fermi."* | A cada dez homens, um de mais vida, mais coração ou mais autoridade, que com o ânimo, as palavras e o exemplo mantenha os outros firmes. | II |
+| 9 | *"saranno quegli che daranno e non riceveranno le leggi dagli altri uomini."* | Serão os que dão, e não os que recebem, as leis dos outros. | II |
+| 10 | *"dove la religione si temesse e osservasse."* (o juramento torna fácil *"ogni impresa"*) | Onde a religião fosse temida e observada [toda empresa ficaria fácil]. | IV |
+| 11 | *"Deono i capitani, sopra ogni altra cosa, mentre che camminano con l'esercito, guardarsi dagli agguati."* | Os capitães devem, acima de tudo, quando marcham com o exército, guardar-se das emboscadas. | V |
+| 12 | *"niuno capitano alloggia propinquo al nimico, se non quello che è disposto fare la giornata qualunque volta il nimico voglia."* | Nenhum capitão acampa perto do inimigo, senão o que está disposto a dar batalha quando o inimigo quiser. | VI |
+| 13 | *"Niuna cosa fece tanto onore a' Romani nella guerra di Annibale quanto la costanza loro."* | Nada honrou tanto os romanos na guerra de Aníbal quanto a sua constância. | VII |
+| 14 | *"Né si troverrà mai alcuno buono scultore che creda fare una bella statua d'un pezzo di marmo male abbozzato, ma sì bene d'uno rozzo."* | Nenhum bom escultor crê fazer bela estátua de mármore mal desbastado, mas sim de um bruto. | VII (cf. *Discursos* I.11) |
+| 15 | *"Non basta adunque in Italia il sapere governare uno esercito fatto, ma prima è necessario saperlo fare e poi saperlo comandare."* | Não basta saber governar um exército pronto; antes é preciso saber fazê-lo e depois comandá-lo. | VII |
+
+**Já citadas (procure no lugar indicado)**
+
+| # | Começo da frase | Ideia | Onde |
+|---|---|---|---|
+| 16 | *"in quale uomo debbe ricercare la patria maggiore fede..."* | fidelidade de quem promete morrer | Proêmio (2.0) |
+| 17 | o palácio *"sanza essere coperte"* | instituições sem defesa | Proêmio (2.0) |
+| 18 | *"dove manca la natura, sopperisce la 'ndustria..."* | treino supre a natureza | I (2.1) |
+| 19 | *"Stette Roma libera quattrocento anni, ed era armata..."* | armas não fazem tiranos | I (2.1) |
+| 20 | *«La guerra fa i ladri, e la pace gl'impicca»* | o soldado de ofício | I (2.1) |
+| 21 | *"gli uomini feroci e disordinati sono molto più deboli che i timidi e ordinati..."* | a ordem tira o medo | II (2.2) |
+| 22 | *"delle republiche esce più uomini eccellenti che de' regni..."* | república honra a virtude | II (2.2) |
+| 23 | *"bisogna che tre volte la fortuna ti abbandoni..."* | três linhas | III (2.3) |
+| 24 | *"a quelle cose le quali non si possono sostenere, si ha a dare la via"* | dar passagem | III (2.3; seção 3) |
+| 25 | *"il maggiore segno di perdere è quando non si crede potere vincere"* | crença na vitória | IV (2.4) |
+| 26 | *"non hai a credere mai che il nimico non sappia fare i fatti suoi"* | não subestimar | V (2.5) |
+| 27 | *"ogni altra cosa nella guerra si può col tempo vincere, questa sola col tempo vince te"* | a fome / o caixa | VI (2.6) |
+| 28 | *"la reputazione del capitano, la quale solamente nasce dalla virtù sua..."* | reputação vem da virtude | VI (2.6) |
+| 29 | *"Gli uomini, il ferro, i danari e il pane sono il nervo della guerra..."* | pessoas antes de dinheiro | VII, regra 25 (seção 3) |
+| 30 | *"Credevano i nostri principi italiani..."* | o príncipe de gabinete | VII (4.9) |
+
+### 6.4 Lacunas (para a próxima rodada)
+
+- **Fontes modernas não abertas na fonte** (marcadas "não conferido" acima): Gilbert 1943/1986 (palavra por palavra), Delbrück vol. IV, Pieri 1952, Hale 1985, Mallett 1974/1990, Lynch 2003, Hörnqvist 2004, Anglo 2005, Ménissier, Fournel/Zancarini (verbete "armi" da *Enciclopedia machiavelliana*, vol. I, pp. 100–105, 2014), o verbete "Arte della guerra" de **G. Masi** na mesma enciclopédia (autor identificado por citação em volume FrancoAngeli de 2022; nome completo e páginas **não conferidos**), Carrera Díaz (es.), Bignotto (pt.).
+- **Bloqueados nesta sessão:** o artigo alemão "Machiavellis Kriegskunst: Die Lehren des *Libro dell'arte della guerra*" (*Romanistisches Jahrbuch*, 2023, De Gruyter; autor não identificado) e o estudo francês de **Pretalli**, "L'*Arte della guerra* di Machiavelli e la letteratura militare del Cinquecento" (HAL) — os sites não abriram (rede da sessão). Ler na próxima rodada.
+- **Vegécio III.26 palavra por palavra** contra as regras do Livro VII (seção 3): não conferido.
+- **Primeiras traduções** (Charrier 1546, Salazar 1536, latim e alemão): datas e títulos não conferidos nos exemplares.
+- **Clausewitz–Fichte (1809)** e **Frederico II**: conteúdo da carta e a admiração de Frederico não conferidos.
+- ***La cagione dell'ordinanza*** (1506): a frase *"per elezione e non per corruzione"* veio via Marchand; conferir no texto (Edizione Nazionale) e cruzar com `missoes-e-escritos-politicos.md`.
+- **Frontispício de 1521** e o título exato: não conferido no exemplar.
+- **Manuscrito BNCF Banco Rari 29**: a nova cota não foi conferida.
+- **Tradução brasileira de referência** (editora, tradutor, ano): não identificada com segurança.
