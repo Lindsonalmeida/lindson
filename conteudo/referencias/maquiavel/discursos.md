@@ -1,6 +1,6 @@
 # Discursos sobre a Primeira Década de Tito Lívio — base de conhecimento para o agente "Nicolau Maquiavel"
 
-**Situação:** parcial — feito até a seção 7 (seção 1 pela conta Lindson; seções 2 a 5 pela conta Zuleide; seções 6 e 7 pela conta Lindson, 02/11/2026). Falta a seção 8.
+**Situação:** completo — seções 1 a 8 (seção 1 pela conta Lindson; seções 2 a 5 pela conta Zuleide; seções 6 a 8 pela conta Lindson, 02/11/2026). Pendências em 8.5.
 
 > **Para que serve este arquivo:** é a base do agente "Maquiavel conselheiro de negócios" no que diz respeito aos *Discorsi*. Tudo o que está marcado como **texto** vem do original italiano; tudo o que está marcado como **interpretação** é leitura nossa ou de estudiosos, e o agente deve apresentar assim.
 >
@@ -689,3 +689,87 @@ Conferidos os 142 ensinamentos daquele arquivo (números 78 a 219) contra o orig
 - ◆ *"non comperono l'amicizie con danari, ma con la virtù e con la riputazione delle forze"* — "não compram amizades com dinheiro, mas com *virtù* e reputação de força" (II.30, título).
 - ◆ *"pigliare le cose moderatamente… e dire la opinione sua sanza passione"* — "tomar as coisas com moderação e dar a opinião sem paixão" (III.35; regra para quem aconselha).
 - *"dove si dilibera al tutto della salute della patria, non vi debbe cadere alcuna considerazione né di giusto né d'ingiusto"* (III.41) — **só com o contexto** das Forcas Caudinas (ver 5.39); nunca como licença.
+
+---
+
+## 8. Guia rápido para o agente
+
+> **Uso pelo agente** (regra 8 da pesquisa) e **lacunas** (regra 9). Não repete o método geral de `.claude/agents/maquiavel.md` nem as receitas do *Príncipe* (`principe.md`, 6.1). Aqui está o que **só os *Discursos*** dão: como fazer o negócio **durar** — estrutura, equipe, sócios, renovação, crescimento. Tudo o que é "no negócio" é **[Interpretação]** (conta Lindson, 02/11/2026).
+
+### 8.1 Quando usar os *Discursos* e quando usar o *Príncipe*
+
+- **Príncipe:** conquistar e segurar — cliente novo, lançamento, crise imediata, um homem decidindo.
+- **Discursos:** fazer durar — regras internas, sociedade, equipe que funciona sem o dono, crescimento, revisão anual, conflito entre áreas.
+- Síntese que o próprio texto autoriza (I.58): os príncipes são melhores para **fundar**; os povos, para **manter**. O agente diz: "para começar, o *Príncipe*; para não acabar, os *Discursos*".
+
+### 8.2 Situações → capítulos (só o que é próprio dos *Discursos*)
+
+| Situação do Lindson | Capítulos | Lição em uma linha | Freio |
+|---|---|---|---|
+| Montar regras internas da agência (acessos, aprovações, verba de anúncio) | I.3, I.18 | Desenhe como se alguém fosse agir mal; processo + costume. | I.3 é premissa de projeto, não acusação a pessoas. |
+| Briga entre sócios ou entre áreas | I.4, I.7, I.8 | Conflito com canal vira regra; calúnia se corta. | I.37: conflito sem medida destrói. |
+| Sociedade nova: quem decide | I.9, I.55, III.15 | Um funda; depois, regra para muitos; um comandante por frente. | I.9: só "desculpa" quem age pelo bem comum. |
+| Cláusula de crise no contrato de sócios | I.34 | Poder extraordinário com prazo e limite. | Romper regra "por bem" ensina a romper "por mal". |
+| Revisão anual do negócio (proposta, preço, padrões) | III.1, III.49 | Voltar ao princípio; médico para cada acidente. | III.1: a renovação também pode vir de um choque externo — melhor provocá-la por dentro. |
+| Agência travada no "meio-termo" (nem nicho, nem generalista; nem cobra, nem corta) | I.26, I.38, II.15, II.23 | Vias do meio são danosíssimas; lentidão = ambiguidade. | III.2: esperar só com plano e data. |
+| Equipe fraca | I.21, III.13 | A culpa é de quem não formou. | — |
+| Querer comprar cliente ou parceria com desconto | II.30 | Amizade se compra com *virtù* e reputação, não com dinheiro. | — |
+| Cliente ou parceiro insolente | II.14, II.26 | Humildade com o insolente prejudica; insulto também. | Limite firme, sem desprezo nem ofensa (II.26). |
+| Melhor funcionário desvalorizado | III.16, I.29 | Os grandes são esquecidos na paz e perdidos na crise. | — |
+| Aconselhar cliente sobre decisão grande | III.35 | Opinião clara, sem paixão; a decisão é do cliente. | Não "vender" a ideia como garantia. |
+| Crescer para outra cidade ou nicho | II.4, II.19, II.27 | Companheiros, não súditos; um passo por vez; parar quando já ganhou. | II.19: crescer sem ordem enfraquece. |
+| Sócio que saiu levando clientes | III.3, III.4, III.6 | Quem perdeu com a mudança tenta desfazê-la; a maioria das conspirações vaza. | Resposta pela via legal (contrato, não concorrência); III.6: não ser odiado é a defesa. |
+| Mudança de marca/posicionamento | I.25 | Mude a substância e mantenha os símbolos. | — |
+| Lindson ausente (viagem, canais do YouTube) | I.9, III.9, I.58 | O que depende de um só não dura; ter temperamentos diversos na gestão. | — |
+| Nostalgia ("antes o mercado era melhor") | Proêmio II | Louva-se o passado sem razão; o mundo tem sempre o mesmo bem e mal, em lugares diferentes. | — |
+
+### 8.3 Freios próprios dos *Discursos*
+
+1. **I.10:** fundadores de repúblicas e reinos são louvados; destruidores e tiranos, infames — *"Né sia alcuno che s'inganni, per la gloria di Cesare"* (ver 5.8).
+2. **I.26:** o método de "fazer tudo novo" é *"crudelissimi, e nimici d'ogni vivere, non solamente cristiano, ma umano"*; deve-se preferir *"vivere privato"*.
+3. **III.40:** fraude na competição sim; quebrar a palavra dada, não.
+4. **III.41:** a regra extrema vale para a **salvação da pátria**, com o exemplo de **aceitar a vergonha** (Forcas Caudinas), não de cometer crimes (ver 5.39).
+5. **II.2:** o que faz grande é o **bem comum**, não o particular.
+6. **[Interpretação]** No negócio do Lindson, a "pátria" a salvar é a empresa e a família; nada que exija quebrar lei ou enganar cliente passa nesses freios.
+
+### 8.4 O que o agente nunca faz com os *Discursos*
+
+- Nunca cita II.13 (fraude) sem III.40 (palavra dada).
+- Nunca cita I.9 como "os fins justificam os meios" (ver 5.7).
+- Nunca usa III.41 fora do contexto das Forcas Caudinas.
+- Nunca chama os *Discursos* de "obra de 1517" como dado do texto: é data convencional (ver 1.2).
+- Nunca diz que Maquiavel usou a expressão "razão de Estado" (a tradução de Périès, "salut de l'État", em III.41, leva a esse erro).
+- Para capítulos que só estão na tabela (seções 2 a 4) e não têm ficha conferida (seção 5, 6 ou 7), cita **em paráfrase**.
+
+### 8.5 Lacunas
+
+**Resolvido nesta rodada (conta Lindson, 02/11/2026):**
+- I.26, *"Sono questi modi crudelissimi…"*: **conferida** no Wikisource (antes marcada "não conferida pela busca automática", ficha 5.14).
+- Rousseau cita os *Discursos* (I.11) em nota ao *Contrato social* II.7 e a *História de Florença* VII em nota a II.3: conferido na tradução inglesa de G. D. H. Cole (Gutenberg 46333); francês original não conferido.
+- 16 citações novas conferidas no Wikisource (seções 6 e 7, marcadas ◆).
+
+**Texto e edições:**
+1. **Edição crítica:** o Wikisource segue a tradição de 1531; falta conferir linha a linha com **Bausi** (Edizione Nazionale, 2001) e **Inglese** (BUR, 1984) as 30 frases da seção 7 (grafia e variantes).
+2. **III.1, *"ripiglio"*** (provável erro de transcrição do Wikisource por *ripiglino*): confirmar em Bausi/Inglese.
+3. **101 capítulos sem ficha detalhada** (só nas tabelas das seções 2 a 4): fazer fichas, por prioridade, de I.1, I.16 (parte final), I.40–I.42 (decênviros), I.49, I.52, II.3–II.4, II.12, II.23, III.2, III.12, III.22, III.30, III.34, III.44, III.49.
+4. **Fontes antigas** que Maquiavel cita (Lívio, Políbio VI, Tácito, Xenofonte, Plutarco): não conferidas no original grego/latino nesta frente; ex.: Lívio VII.32 (III.38), Lívio IX (Forcas Caudinas, III.41), Políbio VI (I.2).
+
+**Traduções (comparar nas frases polêmicas I.9, I.26, II.13, III.41, III.42):**
+- inglês **Mansfield & Tarcov** (Chicago, 1996) e **Julia Conaway Bondanella & Peter Bondanella** (Oxford);
+- espanhol **Ana Martínez Arancón** (Alianza);
+- francês **Toufic Fahd** (1980) e **Alessandro Fontana & Xavier Tabet** (Gallimard, 2004) — dados bibliográficos de memória, **não conferidos**;
+- alemão **Rudolf Zorn** (Kröner);
+- português **Sérgio Bath** (UnB, 1979) e Martins Fontes (2007): **lacuna mais importante** para o agente, que fala português.
+
+**Estudos citados de memória ou não lidos na íntegra (conferir):**
+- it.: Pedullà (2011); Cutinelli-Rèndina (1998); Guicciardini, *Considerazioni intorno ai Discorsi* e *Ricordi* 110 (o "asno e o cavalo");
+- en.: Gilbert (1953); Najemy (1999); Vatter (2000); Hulliung (1983); Hörnqvist (2004); Bock (1990); Benner (2009); Bayley (1961); McCormick (2011) nos capítulos I.4–I.8;
+- fr.: Gaille-Nikodimov (2004); Ménissier (2001); Fournel/Zancarini;
+- de.: Münkler (1982); Carl Schmitt, *Die Diktatur* (1921), sobre I.34;
+- es.: Saralegui (2012);
+- pt.: artigo da USP sobre as acusações públicas (I.7, *Cadernos de Ética e Filosofia Política*), Bignotto (1991), Cardoso, Adverse.
+
+**Ficou fora (próxima rodada):**
+- Leitores dos *Discursos* em outras línguas (russo, japonês, chinês, árabe) e a recepção específica dos *Discursos* (diferente da do *Príncipe*) — conferir se `recepcao-e-estudiosos.md` cobre.
+- Relação dos *Discursos* com a *Arte da Guerra* (II.16–II.18, III.10–III.15, III.36–III.39) e com a *História de Florença* (conflito bom × facções) — cruzar com `arte-da-guerra.md` e `historia-de-florenca.md`.
+- Testar o agente com 5 situações da 8.2 no `TESTES.md`.
