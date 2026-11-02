@@ -1,0 +1,16 @@
+/* Identidade da Central (preto e amarelo, Big Shoulders + Manrope + IBM Plex Mono) aplicada aos apps do Lindson trazidos para a Central.
+   Entra depois do CSS do app e troca as variáveis dele. Conta Lindson, 02/11/2026. */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&family=Manrope:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+:root{
+  --ink:#09090A;--ink-2:#121213;--ink-3:#18181A;
+  --fg:#F3F0E6;--lead:#C9C5BA;--muted:#8E8B83;
+  --line:#242427;--line-2:#34343A;
+  --signal:#F5C518;--signal-soft:#FFDD55;--violet:#F5C518;
+  --sun:#F5C518;--sun-ink:#0A0A0A;--ok:#5CC98A;--rec:#E5604D;
+  --f-display:'Big Shoulders Display','Arial Narrow',Impact,sans-serif;
+  --f-body:'Manrope',system-ui,sans-serif;
+  --f-mono:'IBM Plex Mono',ui-monospace,monospace;
+}
+html,body{background:#09090A!important;background-image:none!important}
+body::before,body::after{background:none!important;opacity:0!important}
+::selection{background:#F5C518;color:#0A0A0A}

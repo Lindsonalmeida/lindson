@@ -83,7 +83,7 @@ IC = {'inicio': '<rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y
 lk = lambda h, ic, t, v=None, extra='': f'<a href="{h}"' + (f' data-v="{v}"' if v else '') + f'><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">{IC[ic]}</svg>{t}{extra}</a>'
 menu = ('<div class="grupo"><h4>Visão</h4>' + lk('#inicio', 'inicio', 'Visão geral', 'inicio', '<span class="n" id="n-novid"></span>') + lk('#missoes', 'missoes', 'Missões do dia', 'missoes', '<span class="n" id="n-miss"></span>') + '</div>'
         '<div class="grupo"><h4>Clientes</h4>' + lk('#clientes', 'clientes', 'Todos os clientes', 'clientes') + ''.join(lk('/painel/' + c['cliente'], 'ir', c['nome']) for c in clientes) + '</div>'
-        '<div class="grupo"><h4>Minha agência</h4>' + lk('/painel/recomeco', 'missoes', 'Recomeço 90') + lk('#rede', 'rede', 'Minha rede social', 'rede') + lk('#vendas', 'vendas', 'Vendas e CRMs', 'vendas') + lk('#canais', 'canais', 'Canais dark', 'canais') + '</div>'
+        '<div class="grupo"><h4>Minha agência</h4>' + lk('#recomeco', 'missoes', 'Recomeço 90', 'recomeco') + lk('#rede', 'rede', 'Minha rede social', 'rede') + lk('#vendas', 'vendas', 'Vendas e CRMs', 'vendas') + lk('#canais', 'canais', 'Canais dark', 'canais') + '</div>'
         '<div class="grupo"><h4>Sistema</h4>' + lk('#contas', 'contas', 'Contas de acesso', 'contas') + lk('#repetidos', 'repetidos', 'Antigos e repetidos', 'repetidos') + lk('/sair', 'sair', 'Sair') + '</div>'
         '<span id="n-aprov" hidden></span></nav>')
 a = re.sub(r'<div class="seletor">.*?</nav>', lambda m: menu, a, count=1, flags=re.S)
@@ -113,7 +113,9 @@ def app_na_central(fonte, saida, importar=None):
     h = open(fonte).read()
     cab = (f"<script>window.__IMPORTAR={json.dumps(importar)}</script>" if importar else '') + '<script>\n' + SHIM + '\n</script>'
     h = re.sub(r'(<head[^>]*>)', lambda m: m.group(1) + cab, h, count=1, flags=re.I) if re.search(r'<head[^>]*>', h, re.I) else cab + h
-    h = re.sub(r'(</body>)', lambda m: VOLTA + m.group(1), h, count=1, flags=re.I) if re.search(r'</body>', h, re.I) else h + VOLTA
+    tema = '<style id="tema-central">' + open(os.path.join(SC, 'prototipo', 'tema-central.css')).read() + '</style>'
+    volta = VOLTA.replace('<a href', '<a id="volta-central" href') + '<script>if(window.top!==window){var v=document.getElementById("volta-central");if(v)v.remove()}</script>'
+    h = re.sub(r'(</body>)', lambda m: tema + volta + m.group(1), h, count=1, flags=re.I) if re.search(r'</body>', h, re.I) else h + tema + volta
     open(os.path.join(OUT, 'painel', saida), 'w').write(doc(h))
 def importar_js(pasta, base, saida):
     docs = []
@@ -128,7 +130,7 @@ APPS_DIR = os.path.join(SC, '..', 'app')
 app_na_central(os.path.join(APPS_DIR, 'recomeco90.html'), 'recomeco.html', {'script': '/painel/r90-importar.js', 'marca': 'data/users/lindson/progresso'})
 if os.path.isdir(os.path.join(DADOS, 'importar', 'r90')): print('recomeco: importar', importar_js(os.path.join(DADOS, 'importar', 'r90'), 'data/users/lindson', 'r90-importar.js'), 'documentos')
 shutil.copy(os.path.join(D, 'contas.html'), os.path.join(OUT, 'painel', 'contas.html'))
-open(os.path.join(OUT, '_headers'), 'w').write("/*\n  X-Frame-Options: DENY\n  Referrer-Policy: same-origin\n  X-Content-Type-Options: nosniff\n/painel/*\n  Cache-Control: private, no-store\n  X-Robots-Tag: noindex\n")
+open(os.path.join(OUT, '_headers'), 'w').write("/*\n  X-Frame-Options: SAMEORIGIN\n  Referrer-Policy: same-origin\n  X-Content-Type-Options: nosniff\n/painel/*\n  Cache-Control: private, no-store\n  X-Robots-Tag: noindex\n")
 open(os.path.join(OUT, 'robots.txt'), 'w').write("User-agent: *\nDisallow: /\n")
 for r, _, fs in os.walk(OUT):
     for f in fs: print(os.path.relpath(os.path.join(r, f), OUT), os.path.getsize(os.path.join(r, f)) // 1024, 'KB')

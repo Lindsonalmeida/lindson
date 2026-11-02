@@ -45,7 +45,7 @@ V.clientes = () => `<div class="grade g2">${CL.map(cartaoCli).join('')}</div>
   <div class="card"><h3>Novo cliente</h3><p class="sub" style="margin:0">Para abrir o painel de um cliente novo (ex.: Apple Black, código já reservado), peça ao Claude: ele monta o painel na identidade do cliente e gera o código de acesso.</p></div>`;
 
 const appCard = a => `<div class="card"><h3 style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">${esc(a.nome)}${a.tag === 'principal' ? ' <span class="chip am">principal</span>' : ''}</h3><p class="sub">${esc(a.faz)}</p>
-  <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap"><a class="btn am" href="${esc(a.url)}"${a.url.startsWith('/') ? '' : ' target="_blank" rel="noopener"'}>Abrir</a><span class="sub" style="margin:0;font-size:12px">${a.url.startsWith('/') ? 'aqui na Central' : 'no claude.ai · conta ' + esc(a.conta)}</span></div></div>`;
+  <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap"><a class="btn am" href="${esc(a.url)}"${/^[\/#]/.test(a.url) ? '' : ' target="_blank" rel="noopener"'}>Abrir</a><span class="sub" style="margin:0;font-size:12px">${/^[\/#]/.test(a.url) ? 'aqui na Central' : 'no claude.ai · conta ' + esc(a.conta)}</span></div></div>`;
 const aba = id => AP.abas.find(a => a.id === id) || { apps: [], sub: '' };
 V.rede = () => `<div class="grade g4">${kpi('Seguidores', 'a medir', 'mande o print do Instagram')}${kpi('Visualizações 30 dias', 'a medir', 'mande o print do Instagram')}${kpi('Teste 01 de Reels', '300', 'roteiros no Recomeço 90')}${kpi('Métricas do Teste 01', 'a medir', 'prints na aba Conteúdo')}</div>
   <p class="sub">${esc(aba('rede').sub)} Os apps abrem no claude.ai, com a conta indicada.</p><div class="grade g3">${aba('rede').apps.map(appCard).join('')}</div>`;
@@ -58,6 +58,11 @@ V.contas = () => `<div class="card"><h3>Contas de acesso</h3><p class="sub">Quem
   ${contas === null ? `<tr><td colspan="5">${carregou ? 'Não consegui carregar (entre de novo).' : 'Carregando…'}</td></tr>` : contas.map(c => `<tr><td>${esc(c.nome)}</td><td>${esc(c.email)}</td><td>${chip(NOMES[c.cli] || c.cli)}</td><td>${c.criada ? new Date(c.criada).toLocaleDateString('pt-BR') : ''}</td><td>${c.cli === 'admin' ? '' : `<button class="btn lin" type="button" data-apaga="${esc(c.email)}" style="padding:5px 10px;font-size:12px">Excluir</button>`}</td></tr>`).join('') || '<tr><td colspan="5">Nenhuma conta.</td></tr>'}</tbody></table></div></div>`;
 Object.assign(T, { inicio: 'Visão geral', clientes: 'Clientes', rede: 'Minha rede social', vendas: 'Vendas e CRMs', canais: 'Canais dark', repetidos: 'Antigos e repetidos', contas: 'Contas de acesso' });
 
+
+// apps do Lindson dentro do sistema (mesma identidade e menu lateral): a tela abre o app num quadro da própria Central
+const quadro = (src, titulo) => `<iframe src="${src}" title="${titulo}" style="width:100%;height:calc(100vh - 150px);min-height:560px;border:1px solid var(--linha);border-radius:16px;background:#09090A;display:block" loading="lazy"></iframe>`;
+V.recomeco = () => quadro('/painel/recomeco', 'Recomeço 90');
+T.recomeco = 'Recomeço 90';
 const anterior = window.__pos;
 window.__pos = view => {
   if (anterior) anterior(view);
