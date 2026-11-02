@@ -1,6 +1,6 @@
 # O Príncipe (*De principatibus* / *Il Principe*) — base de conhecimento para o agente "Nicolau Maquiavel"
 
-**Situação:** parcial — seções 1 a 5 completas (Ded.–XI conta Zuleide, XII–XXVI conta Pedro, seções 3 a 5 conta Zuleide, 02/11/2026). Faltam as seções 6 e 7.
+**Situação:** parcial — seções 1 a 6 completas (Ded.–XI conta Zuleide, XII–XXVI conta Pedro, seções 3 a 5 conta Zuleide, seção 6 conta Lindson, 02/11/2026). Falta a seção 7.
 
 > **Para que serve este arquivo:** é a base do agente "Maquiavel conselheiro de negócios" sobre *O Príncipe*. Tudo o que está marcado como **texto** vem do original italiano; **fato documentado** é história com fonte; **[Interpretação]** é leitura de estudioso (com o nome) ou nossa; **[Tradição]** é história sem prova. O agente nunca deve pôr interpretação na boca de Maquiavel.
 >
@@ -946,3 +946,121 @@ O mesmo autor escreveu um manual para **um príncipe novo** (*Príncipe*) e uma 
 
 **e) *"gli uomini si debbono o vezzeggiare o spegnere"* (III)** — Marriott: "either be well treated or crushed". *Spegnere* = apagar/extinguir; no contexto, inclui neutralizar (tirar o poder de vingança).
 
+
+---
+
+## 6. Uso pelo agente
+
+> **O que esta seção é e o que ela não repete.** O método geral de raciocínio do agente está em `.claude/agents/maquiavel.md` ("Meu método de raciocínio"); as linhas "Aplicação" de cada capítulo (seção 2) e "Para o agente" de cada conceito (seção 3) não são repetidas aqui. Esta seção faz o que faltava: **(6.1)** junta capítulos em "receitas" para as situações reais do negócio do Lindson (agência de redes sociais em São Luís, mini sites, prospecção por WhatsApp, canais do YouTube); **(6.2)** um banco de casos do próprio livro para o formato "caso antigo + caso do meu tempo"; **(6.3)** os freios que o próprio texto dá; **(6.4)** perguntas de diagnóstico tiradas do livro; **(6.5)** o que o agente nunca faz com este livro; **(6.6)** o índice das frases por situação (as frases estão conferidas nas seções 2 e 5.3 — aqui só se aponta onde usar).
+>
+> **Tudo o que é "receita" ou "no negócio" é [Interpretação] nossa (conta Lindson, 02/11/2026).** O que vem entre aspas em italiano é **texto**, já conferido no Inglese (BibIt) nas seções 2–5, salvo quando indicado "vulgata" (Wikisource italiano, ed. "Italia, 1814", conferido nesta rodada).
+
+### 6.1 Receitas: situação do negócio → capítulos que respondem → o que fazer → freio
+
+| # | Situação real | Capítulos | O que o texto diz (resumo) | Receita no negócio [Interpretação] | Freio do próprio texto |
+|---|---|---|---|---|---|
+| 1 | **Cliente novo nos primeiros 90 dias** (o "principado novo/misto") | III, VI, VII | O Estado novo é o mais difícil de manter: os que te trouxeram esperam mais do que você pode dar, e os que perderam viram inimigos (III). Um dos remédios "mais vivos" é **ir morar lá**: *"standovi, si veggono nascere i disordini, e presto vi si può rimediare"* — "estando lá, veem-se nascer as desordens e logo se pode remediá-las" (III, vulgata). | Presença intensa no começo: reunião semanal, relatório curto, uma entrega visível cedo. O cliente que "abriu as portas" (indicação, sócio dele que pediu a agência) vai cobrar o que imaginou; alinhe a expectativa por escrito no início. | VII: *"chi crede che ne' personaggi grandi e' benifizi nuovi faccino sdimenticare le iniurie vecchie, s'inganna"* (Bórgia e Júlio II). Bônus depois não apaga promessa quebrada antes. |
+| 2 | **Reajuste de preço, corte de serviço ou fim de "cortesia"** | VIII, XVI, XIX | Ofensas de uma vez, benefícios aos poucos (VIII); a generosidade "para ser visto" se consome e obriga a ser *rapace* (XVI); o ódio vem de tomar *"la roba"* (XIX). | Um aviso só, com data, motivo e o que melhora; nunca reajuste em pequenas doses mês a mês. O que é benefício (bônus de conteúdo, relatório extra) entra aos poucos e com nome. Quem nunca deu brinde "para parecer bom" não precisa tirar depois. | XVII/XIX: reajuste sem entrega correspondente é "tomar o bem" do cliente → ódio. A dureza só vale **convertida em utilidade** para quem a sofre (VIII). |
+| 3 | **Dependência de uma plataforma (Instagram/Meta, algoritmo do YouTube) ou de um cliente que é metade do faturamento** | X, XII, XIII, XXIV | Armas auxiliares: *"perdendo, rimani disfatto; vincendo, resti loro prigione"* (XIII); X: forte é quem consegue "pôr em campo um exército justo" por si; XXIV: só valem as defesas *"che dependono da te proprio"*. | Ter "armas próprias" fora da plataforma: lista de contatos no WhatsApp, site próprio do cliente (o mini site `pages.dev`), e-mail, carteira com nenhum cliente acima de uma fatia que você decida (o número é decisão do Lindson; o agente não inventa). | XIII: o perigo maior das auxiliares é quando **vencem**: crescer só dentro de uma plataforma aumenta a prisão. |
+| 4 | **Freelancer, editor de vídeo, terceirizado** | XII, XIII | Mercenárias são *"disunite, ambiziose, sanza disciplina, infedele"*; na paz te roubam, na guerra fogem. Exército "misto" (próprio + mercenário) é melhor que só mercenário, pior que só próprio (XIII). | Núcleo próprio faz o que é estratégico (atendimento, estratégia, aprovação); terceiro faz tarefa periférica com processo, prazo e checagem. Acesso a contas de cliente nunca fica só com o terceiro. | XII: quem paga mercenário não "compra" lealdade; não espere dele o que só a equipe própria dá. |
+| 5 | **Equipe frouxa, prazos estourando, chefe "bonzinho"** | XVII, XIX | Cipião, *"rarissimo"*, teve os exércitos rebelados na Espanha *"dalla sua troppa pietà"* (XVII, vulgata); Aníbal manteve a ordem com severidade. Temor sim, **ódio nunca**: não tocar nos bens e na honra. | Regra clara + consequência previsível + aplicação igual para todos. A consequência é sobre o trabalho (refazer, perder a conta, sair do projeto), nunca humilhação. | XIX: o desprezo vem de parecer *"vario, leggieri… irresoluto"*; mudar a regra toda semana destrói mais que a dureza. |
+| 6 | **Lançar algo novo** (produto "Instagram que Vende", curso, canal Raposa e Leão, nova linha da esteira) | VI | Nada é mais difícil que *"introdurre nuovi ordini"*: inimigos são todos os que ganham com o velho, defensores são *"tepidi"*. Os povos são fáceis de persuadir e difíceis de manter persuadidos: *"conviene essere ordinato in modo, che, quando non credono più, si possa far lor credere per forza"* (VI, vulgata). | O "profeta armado" de hoje: **prova** (casos, números reais do repositório), **contrato** e **entregáveis datados** que seguram a decisão do cliente quando o entusiasmo passa. Lance com caixa para aguentar o período em que só os "mornos" apoiam. | VI: "por força" aqui, no negócio, é estrutura e prova, nunca pressão sobre a pessoa. O próprio capítulo mostra que só a *virtù* (preparo) transforma a ocasião em resultado. |
+| 7 | **Posicionamento e prospecção** (perfil, portfólio, abordagem por WhatsApp) | XVIII, XXI | Todos veem o que você parece (XVIII); nada dá tanta estima quanto *"grande imprese"* e *"rari esempli"*; premiar publicamente quem *"pensa… di ampliare la sua città"* (XXI, vulgata). | Um "grande feito" visível por trimestre (caso de cliente ativo, antes/depois, resultado com número real); dar crédito público aos clientes que crescem com você. A abordagem segue `agencia/prospeccao/PADRAO-COPY.md`. | XVIII: *"parere… ed essere"* — parecer **e** ser. Promessa que a entrega não sustenta é publicidade enganosa (Código de Defesa do Consumidor, art. 37) e destrói o ativo principal. |
+| 8 | **Tomar partido** (dois clientes/parceiros em briga, escolher nicho, apoiar uma causa local) | XXI | Neutralidade: o vencedor não quer amigo suspeito, o vencido não acolhe quem não o ajudou. **Mas:** nunca se aliar a um mais poderoso que você para atacar outro, *"se non quando la necessità ti constringe"*. | Escolha nicho e lado com critério escrito; não fique "em cima do muro" com clientes do mesmo setor em conflito. Não entre em parceria com quem é muito maior para derrubar um concorrente: você vira dependente dele. | XXI: *"pigliare el men tristo per buono"* — não existe opção sem custo; escolha o menor. |
+| 9 | **Contratar ou manter o braço direito** | XXII | A primeira avaliação de um senhor é a equipe à volta dele; o ministro que pensa mais em si do que em você não serve; honrá-lo e enriquecê-lo para que não possa ficar sem você. | Pague bem quem é bom, dê nome e responsabilidade (cargo, crédito com o cliente). O cliente julga a agência pela pessoa que o atende. | XXII: o teste é o comportamento real ("pensa em si em cada ação?"), não o currículo. |
+| 10 | **Mentores, cursos, sócios conselheiros e o próprio agente** | XXIII | Poucos sábios, só sobre o que se pergunta (mas perguntar tudo), decidir sozinho e não mudar a cada opinião (Maximiliano). | O Lindson pergunta, o agente diz a verdade desagradável, a decisão é dele. Evitar "comitê" de muitos palpites sobre o mesmo assunto. | XXIII: bom conselho nasce da prudência de quem decide; nenhum agente substitui o julgamento do dono. |
+| 11 | **Sócio ou parceiro que ajudou a crescer e agora quer mandar** | III, IX | *"chi è cagione che uno diventi potente, ruina"* (III); os "grandes" querem oprimir, o povo quer não ser oprimido (IX). | Antes de dar participação ou poder, acordo escrito (o que cada um decide, como sai). A base do negócio é a carteira ampla de clientes e a equipe ("o povo"), não um único aliado forte. | IX: o príncipe que se apoia no povo e sabe mandar *"mai si troverrà ingannato"*; quem se apoia nos grandes fica refém deles. |
+| 12 | **Cliente insatisfeito ameaçando expor nas redes** | IX, XIX, XX | A melhor fortaleza é *"non essere odiato dal populo"* (XX); o príncipe deve evitar o que o torna odiado (XIX). | Resolver rápido, por escrito, com saída digna para o cliente; o canal de reclamação existe antes da crise (ver `discursos.md`, I.7). | XX: cláusula de multa e "fortaleza" contratual não substituem não ser odiado. |
+| 13 | **Mês ruim, queda de mercado, crise** | XXIV, XXV | A fortuna é rio: diques nos tempos calmos; *"non fare conto nella bonaccia della tempesta"* (XXIV); *"non accusino la fortuna, ma la ignavia loro"*. | Reserva de caixa e carteira montadas no mês bom; na crise, agir rápido (XXV: melhor *"impetuoso che respettivo"*), cortar de uma vez (receita 2). | XXV: a mesma natureza que trouxe o sucesso pode causar a queda; revise o método quando o tempo muda. |
+| 14 | **Oportunidade que aparece** (cliente grande, parceria, tendência nova) | VI, VII, XXVI | A fortuna só dá *"la occasione"*; sem *virtù* ela vem em vão (VI); Bórgia esperou a ocasião, ela *"gli venne bene, e lui la usò meglio"* (VII); *"Non si debba adunque lasciare passare questa occasione"* (XXVI). | Ter a estrutura pronta antes (proposta-modelo, equipe, processo) para usar a ocasião quando vier; a pergunta do agente é "você está pronto para usá-la?". | VII: o que vem da fortuna alheia (um padrinho, um viral) some quando ela muda; transforme a ocasião em "armas próprias". |
+| 15 | **Calote ou cliente que abusa de prazos** | III, XVII | Os homens devem ser *"vezzeggiare o spegnere"* — afagados ou neutralizados, porque se vingam das ofensas leves (III); Florença perdeu Pistoia por excesso de "piedade" (XVII). | Ou o cliente volta às regras (renegociação clara, por escrito), ou o contrato termina pela via legal (cobrança, protesto). O meio-termo — continuar entregando sem receber — é o pior. | III: "neutralizar" no negócio é encerrar a relação e cobrar por meios legais, nunca ameaça ou exposição pública. |
+
+### 6.2 Banco de casos do *Príncipe* (para o formato "caso antigo + caso do meu tempo")
+
+> Cada linha: o caso, onde está, a lição em uma frase. Os fatos históricos estão como Maquiavel os conta; a checagem histórica de cada episódio é do `contexto-e-personagens.md`.
+
+| Caso | Onde | Lição (texto) | Use quando |
+|---|---|---|---|
+| Luís XII perde Milão duas vezes e comete "seis erros" na Itália | III | Quem entra num mercado novo e fortalece os outros (o papa, a Espanha) arruína a si mesmo. | Expansão para um nicho novo; parceria que fortalece o concorrente. |
+| Romanos que "viam de longe" os males | III | Mal pequeno se cura cedo; adiar a guerra é dar vantagem ao outro. | Problema pequeno que todos ignoram. |
+| Moisés, Ciro, Rômulo, Teseu; Savonarola | VI | Profetas armados venceram; Savonarola, desarmado, caiu quando a multidão deixou de acreditar. | Lançamento, mudança interna sem estrutura. |
+| César Bórgia e Ramiro de Lorqua | VII | Bórgia pôs um ministro duro para pacificar a Romanha e depois o sacrificou para tirar de si o ódio. | Explicar a lógica de "transferir o ódio" — **e o freio**: o agente nunca recomenda culpar subordinado. |
+| Bórgia e a morte de Alexandre VI | VII | Fez quase tudo certo, mas dependia da fortuna do pai; errou ao deixar eleger Júlio II. | Negócio montado na força de um padrinho; escolha errada num momento-chave. |
+| Agátocles e Oliverotto da Fermo | VIII | Crueldade dá poder, *"non gloria"*. | Atalho antiético que "funciona". |
+| Nábis de Esparta; o provérbio "quem funda no povo funda na lama" | IX | O povo é base segura para quem sabe mandar. | Decidir em quem apoiar o negócio. |
+| Cidades da Alemanha | X | Estoque para um ano e o povo ocupado: ninguém as ataca. | Reserva de caixa e rotina de trabalho. |
+| Francesco Sforza; os Vitelli; Carmagnola | XII | Mercenário bom vira dono; mercenário ruim te faz perder. | Freelancer forte demais ou fraco demais. |
+| Davi e as armas de Saul | XIII | Armas alheias "ou caem, ou pesam, ou apertam". | Ferramenta, método ou equipe emprestados que não servem ao seu porte. |
+| Filopêmen que estudava o terreno em tempo de paz | XIV | Preparar-se na paz. | Treino, estudo e processo nos meses bons. |
+| Florença e Pistoia | XVII | Excesso de "piedade" gera desordem pior. | Chefe que evita conflito necessário. |
+| Aníbal × Cipião | XVII | Severidade manteve o exército unido; a "natureza fácil" de Cipião gerou rebelião. | Estilo de liderança. |
+| Alexandre VI, que sempre enganou e sempre achou quem acreditasse | XVIII | A aparência governa o "vulgo". | Ler golpes e promessas de terceiros — **não** para imitar. |
+| Sétimo Severo, Cômodo, Maximino, Marco Aurélio, Pertinax | XIX | Raposa e leão juntos; o ódio e o desprezo derrubaram os outros. | Reputação de líder. |
+| Pandolfo Petrucci; fortalezas de Milão e de Forlì (Caterina Sforza) | XX | Os suspeitos do começo podem ser mais leais; fortaleza não salva quem é odiado. | Desconfiança da equipe; contrato "blindado". |
+| Fernando de Aragão | XXI | Grandes empreendimentos, um atrás do outro, mantêm todos ocupados e admirados. | Plano de visibilidade. |
+| Antonio da Venafro, ministro de Pandolfo | XXII | O senhor é julgado pelo ministro. | Contratação do braço direito. |
+| Maximiliano e pre' Luca | XXIII | Quem não consulta e depois cede a cada opinião se desacredita. | Indecisão do dono. |
+| Filipe V da Macedônia | XXIV | Mesmo menor, resistiu anos porque tinha o povo e soube manter os grandes seguros. | Pequena agência diante de concorrente grande. |
+| Júlio II em Bolonha | XXV | O ímpeto venceu porque os tempos eram conformes; em outros tempos teria caído. | Decisão rápida × prudência. |
+
+### 6.3 Os freios que o próprio livro dá (o agente usa estes, não precisa inventar moral)
+
+1. **Poder sem glória** — *"possono fare acquistare imperio, ma non gloria"* (VIII): o atalho criminoso dá resultado e destrói o nome.
+2. **"Podendo, o bem"** — *"non partirsi dal bene, potendo"* (XVIII): o "não bom" é exceção **por necessidade**, não estilo.
+3. **Fugir do ódio** — XVII, XIX, XX: o que derruba é o ódio; ódio vem de tomar bens e ferir a dignidade.
+4. **O fim do povo é "mais honesto"** — IX: o povo quer não ser oprimido; quem se apoia nele está mais seguro.
+5. **Crueldade convertida em utilidade dos súditos** — VIII: dureza que não melhora a vida de quem a sofre é "mal usada".
+6. **Fundamentos = boas leis e boas armas** — XII: hoje "boas leis" incluem as leis do país. [Interpretação] Para o agente: qualquer receita que exija quebrar lei (Código de Defesa do Consumidor, Código Civil, LGPD) é, pela lógica do próprio livro, destruir um fundamento.
+7. **Os próprios exemplos falham** — Bórgia cai (VII), Agátocles não tem glória (VIII), os imperadores odiados morrem (XIX). [Interpretação de Erica Benner, en., 2013, ver 4.1] O livro mostra também o preço de cada técnica.
+
+### 6.4 Perguntas de diagnóstico tiradas do livro (o agente pode fazer ao Lindson, uma de cada vez)
+
+| Pergunta | Capítulo de onde vem |
+|---|---|
+| "Essa posição é herdada (cliente antigo, rotina) ou nova? Se nova, você está 'morando lá'?" | II, III |
+| "Se essa plataforma ou esse cliente sumir amanhã, você ainda põe um 'exército' em campo?" | X, XIII |
+| "Quem perde com essa mudança? Quem vai defender só 'morno'?" | VI |
+| "Essa dureza vai ser feita de uma vez e vai virar utilidade para quem a sofre?" | VIII |
+| "Isso toca o dinheiro ou a dignidade de alguém? Então pode gerar ódio." | XVII, XIX |
+| "As pessoas vão ver você como firme ou como 'vario, leggieri, irresoluto'?" | XIX |
+| "Você está escolhendo o menos ruim, ou esperando uma opção sem custo?" | XXI |
+| "Quem está em volta de você hoje faz o cliente pensar o quê da agência?" | XXII |
+| "O dique foi construído no mês bom?" | XXIV, XXV |
+| "Essa ocasião encontra você pronto?" | VI, XXVI |
+
+### 6.5 O que o agente nunca faz com o *Príncipe*
+
+- Nunca usa VII (Ramiro de Lorqua, Senigália), VIII (Agátocles) ou XVIII (Alexandre VI) como conselho literal; usa para **explicar** a lógica e para **reconhecer** quem age assim contra o Lindson.
+- Nunca diz "melhor ser temido que amado" sem a condição e sem "fugir do ódio" (5.2).
+- Nunca atribui a Maquiavel "os fins justificam os meios", "dividir para reinar" ou "amigos perto, inimigos mais perto" (5.1, 5.2).
+- Nunca repete a imagem da fortuna-mulher (XXV) como conselho (5.4 b).
+- Nunca apresenta uma escola de interpretação como "o que Maquiavel pensava" (4.12).
+- Nunca inventa número do negócio: preço, meta, faturamento e cliente vêm do repositório (regra 6 do agente).
+- Cita sempre do texto de Inglese desta base; se usar outra forma (vulgata, tradução inglesa), diz qual.
+
+### 6.6 Índice das frases por situação (frases conferidas em 2 e 5.3; só o "onde usar")
+
+| Situação | Frase (início, italiano) | Cap. |
+|---|---|---|
+| Decidir pelo fato, não pela esperança | *"andare dreto alla verità effettuale"* | XV |
+| Problema pequeno | *"nel principio del suo male è facile a curare"* | III |
+| Inovar | *"non è cosa più difficile a trattare"* | VI |
+| Ter estrutura própria | *"tutti e' profeti armati vinsono"* | VI |
+| Má notícia | *"le iniurie si debbono fare tutte insieme"* | VIII |
+| Atalho antiético | *"possono fare acquistare imperio, ma non gloria"* | VIII |
+| Base de clientes | *"a uno principe è necessario avere il populo amico"* | IX |
+| Equipe própria | *"non può essere buone legge dove non sono buone arme"* | XII |
+| Dependência | *"perdendo, rimani disfatto; vincendo, resti loro prigione"* | XIII |
+| Ingenuidade | *"professione di buono… ruini in fra tanti che non sono buoni"* | XV |
+| Desconto e brinde | *"la liberalità… mentre che tu usi perdi la facultà di usarla"* | XVI |
+| Liderança | *"è molto più sicuro essere temuto che amato, quando si abbi a mancare dell'uno de' dua"* | XVII |
+| Golpes e concorrência | *"essere golpe a conoscere e' lacci, e lione a sbigottire e' lupi"* | XVIII |
+| Imagem | *"ognuno vede quello che tu pari, pochi sentono quello che tu se'"* | XVIII |
+| Reputação | *"la migliore fortezza che sia è non essere odiato dal populo"* | XX |
+| Escolha difícil | *"pigliare el men tristo per buono"* | XXI |
+| Visibilidade | *"le grande imprese e dare di sé rari esempli"* | XXI |
+| Contratação | *"la prima coniettura, che si fa del cervello d'uno signore"* | XXII |
+| Conselho | *"e' buoni consigli… conviene naschino da la prudenza del principe"* | XXIII |
+| Crise | *"non fare conto nella bonaccia della tempesta"* / *"non accusino la fortuna, ma la ignavia loro"* | XXIV |
+| Sorte e esforço | *"la fortuna sia arbitra della metà delle azioni nostre"* | XXV |
+| Oportunidade | *"Non si debba adunque lasciare passare questa occasione"* | XXVI |
