@@ -177,6 +177,13 @@ def carregar_fontes():
         fontes.append(Fonte("Martelli (Tutte le opere, 1971; ed. Bompiani 2018, IA)", t, "primária", rot))
         fontes.append(Fonte("Prefácios modernos da ed. Bompiani 2018 (secundária)", mod, "secundária",
                             [(0, "moderno (prefácio/introdução Bompiani)")]))
+    bb = os.path.join(TEXTOS, "bibit")
+    if os.path.isdir(bb):
+        for f in sorted(os.listdir(bb)):
+            if f.endswith(".txt"):
+                t = open(os.path.join(bb, f), encoding="utf-8").read()
+                rot = [(m.start(), m.group(1)) for m in re.finditer(r"^### (.+)$", t, re.M)]
+                fontes.append(Fonte("BibIt " + f[:-4] + " (" + rot[0][1] + ")", t, "primária", rot))
     ws = os.path.join(TEXTOS, "wikisource")
     if os.path.isdir(ws):
         for f in sorted(os.listdir(ws)):
@@ -215,6 +222,7 @@ volta volte modo fare fatto fatta essendo avendo bisogna bisogno ragione tempo t
 PT = set("""o os a as um uma uns umas do dos da das no nos na nas em com para por pelo pela pelos pelas
 não que é são foi eram ser estar está ele ela eles elas seu sua seus suas mais muito isso isto este
 esta esse essa aquele aquela também quando como mas ou se já até depois antes então porque sobre
+ao aos à às vezes muitas muitos nada tudo há seja foram fazer feito pode deve onde quem nem
 nosso nossa você vocês tem têm ter sempre nunca coisa coisas homens homem príncipe estado cidade""".split())
 ES = set("""el los las del al y es son fue pero muy por para con sin su sus lo que una uno como más este
 esta ese esa aquel hombres hombre príncipe ciudad hay ha han sobre según también""".split())
@@ -235,6 +243,8 @@ def lingua(t):
                                            "quello", "quelli", "questo", "come", "ogni", "li", "fussi", "fusse",
                                            "di", "e'", "de'", "ne'", "cosa", "cose", "uomini", "huomini"))
     c["it"] += so_it
+    # letras que o italiano antigo não usa (ã õ ç ê â ô á í ó ú) = sinal forte de português/espanhol
+    c["pt"] += 3 * len(re.findall(r"[ãõçêâôáíóú]", t.lower()))
     return c
 
 def eh_italiano(t, minimo=4):
@@ -435,6 +445,42 @@ def conferir(cits, fontes):
         c["obra_encontrada"] = "; ".join(sorted(o for o in obras if o))
     return cits
 
+FAMILIAS = [("Principe", r"Principe|bibit000214"), ("Discorsi", r"Discorsi"), ("Arte della guerra", r"[Aa]rte della guerra"),
+            ("Istorie fiorentine", r"Istorie"), ("Mandragola", r"[Mm]andragola"), ("Clizia", r"Clizia"),
+            ("Belfagor", r"Belfagor"), ("Vita di Castruccio", r"Castruccio"), ("Asino", r"Asino"),
+            ("Decennali", r"Decennal"), ("Lettere", r"Letter"), ("Legazioni", r"Legazion|Valentino|1813\) vol. 0[67]"),
+            ("Discursus", r"Discursus|cose fiorentine dopo"), ("Andria", r"Andria"), ("Capitoli", r"[Cc]apitol")]
+
+def familia(rotulo):
+    return {f for f, pad in FAMILIAS if re.search(pad, rotulo)}
+
+def marcar_obra(cits):
+    """Marca quando o trecho só aparece numa obra diferente da que o arquivo indica na mesma linha."""
+    for c in cits:
+        ind = set(c["obra_indicada"])
+        enc = set()
+        for r in c.get("resultado_partes", []):
+            for rot in r.get("todas", [r.get("obra", "")]):
+                enc |= familia(rot)
+            enc |= familia(r.get("fonte", ""))
+        c["obra_diferente"] = bool(ind and enc and not (ind & enc) and c["resultado"] == "exata")
+
+def aplicar_manual(cits):
+    """Decisões da conferência manual (revisao/citacoes-manual.json): lista de
+    {"arquivo", "trecho" (começo da citação), "decisao", "nota"}. decisao = "fora: outro autor",
+    "fora: título", "fora: não é citação", "não conferível", "conferida à mão"."""
+    p = os.path.join(AQUI, "citacoes-manual.json")
+    if not os.path.exists(p):
+        return
+    regras = json.load(open(p, encoding="utf-8"))
+    for c in cits:
+        for r in regras:
+            if c["arquivo"] == r["arquivo"] and c["citacao"].startswith(r["trecho"]):
+                c["resultado_auto"] = c["resultado"]
+                c["resultado"] = "manual: " + r["decisao"]
+                c["nota"] = r.get("nota", "")
+                break
+
 def principal(args):
     if args:
         arqs = args
@@ -451,15 +497,18 @@ def principal(args):
     fontes = carregar_fontes()
     print(f"{len(fontes)} textos-fonte, {sum(len(f.tok) for f in fontes):,} palavras", file=sys.stderr)
     conferir(cits, fontes)
+    marcar_obra(cits)
+    aplicar_manual(cits)
     with open(os.path.join(AQUI, "citacoes-dados.json"), "w", encoding="utf-8") as fh:
         json.dump(cits, fh, ensure_ascii=False, indent=1)
     with open(os.path.join(AQUI, "citacoes-tabela.tsv"), "w", encoding="utf-8") as fh:
-        fh.write("arquivo\tlinha\tcitacao\tobra_indicada\tresultado\tsemelhanca\tobra_encontrada\tfonte\ttrecho_original\n")
+        fh.write("arquivo\tlinha\tcitacao\tobra_indicada\tobra_diferente\tresultado\tsemelhanca\tobra_encontrada\tfonte\ttrecho_original\n")
         for c in cits:
             rp = c["resultado_partes"]
             fh.write("\t".join(str(x).replace("\t", " ") for x in (
-                c["arquivo"], c["linha"], c["citacao"], ", ".join(c["obra_indicada"]), c["resultado"],
-                c.get("score_min", ""), c["obra_encontrada"], "; ".join(sorted({r.get("fonte", "") for r in rp})),
+                c["arquivo"], c["linha"], c["citacao"], ", ".join(c["obra_indicada"]),
+                "SIM" if c.get("obra_diferente") else "", c["resultado"],
+                c.get("score_min", ""), (c.get("nota", "") + " | " if c.get("nota") else "") + c["obra_encontrada"], "; ".join(sorted({r.get("fonte", "") for r in rp})),
                 " (…) ".join(r.get("original", "") for r in rp if r["res"] != "exata"))) + "\n")
     cont = Counter(c["resultado"] for c in cits)
     for k, v in cont.most_common():

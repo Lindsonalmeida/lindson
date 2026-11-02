@@ -23,7 +23,7 @@ OBRAS = [
     "Provvedimenti_per_la_riconquista_di_Pisa", "Rapporto_delle_cose_della_Magna",
     "Ritratto_delle_cose_della_Magna", "Ritratto_di_cose_di_Francia",
     "Sommario_delle_cose_della_città_di_Lucca", "Squarcio_di_un_discorso_fatto_ai_Dieci_sopra_le_cose_di_Pisa",
-    "Capitoli_(Machiavelli)", "Dell'ira_e_de'_modi_di_curarla",
+    "I_capitoli", "Dell'ira_e_de'_modi_di_curarla",
 ]
 
 def get(title):
