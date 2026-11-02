@@ -87,7 +87,7 @@ Um tratado curto (dedicatória + 26 capítulos, cerca de 27 mil palavras no ital
 
 - **Fato documentado:** cinco anos depois da morte de Maquiavel (21 de junho de 1527). Os *Discursos* saíram um ano antes (1531), a *História de Florença* também em 1532.
 - **Ironia histórica:** o livro que mais tarde a Igreja proibiu saiu **com privilégio de um papa Medici**.
-- **Primeiras traduções:** francês (**1553**, duas traduções: Guillaume Cappel e Gaspard d'Auvergne); latim (**1560**, Silvestro Tegli/Telio, Basileia — veículo da difusão europeia); inglês impresso (**1640**, Edward Dacres; traduções manuscritas circulavam antes); alemão (séc. XVII–XVIII; datas **não conferidas**); espanhol (manuscritos do séc. XVI; edições impressas tardias; **não conferido**); português (traduções impressas sobretudo dos sécs. XIX–XX; no Brasil, entre outras, Lívio Xavier, 1933, e Maurício Santana Dias, Penguin-Companhia, 2010 — **não conferido palavra por palavra**).
+- **Primeiras traduções:** francês (**1553**, duas traduções: Guillaume Cappel e Gaspard d'Auvergne); latim (**1560**, Silvestro Tegli/Telio, Basileia — veículo da difusão europeia); inglês impresso (**1640**, Edward Dacres; traduções manuscritas circulavam antes); alemão (séc. XVII–XVIII; datas **não conferidas**); espanhol (manuscritos do séc. XVI; edições impressas tardias; **não conferido**); português (traduções impressas sobretudo dos sécs. XIX–XX; no Brasil, entre outras, Lívio Xavier (1ª ed. c. 1932–1933, Unitas; reed. Athena 1938 e *Os Pensadores*, 1973; a 1ª tradução brasileira impressa é a de Elias Davidovich, Calvino Filho, 1933), e Maurício Santana Dias, Penguin-Companhia, 2010 — **não conferido palavra por palavra**).
 
 ### 1.7 Proibição: o Índex de 1559 e o antimaquiavelismo
 
@@ -816,7 +816,7 @@ O mesmo autor escreveu um manual para **um príncipe novo** (*Príncipe*) e uma 
 | **Sérgio Cardoso** | ensaios sobre o "desejo do povo" e a liberdade (USP, anos 1990–2010) | Na linha de Lefort: a liberdade nasce do desejo popular de não ser dominado. (**títulos não conferidos**) |
 | **José Luiz Ames** | *Maquiavel: a lógica da ação política*, **2002** | A ação política como resposta à "qualidade dos tempos". (**não conferido em detalhe**) |
 | **Helton Adverse** | *Maquiavel: política e retórica*, **2009** | A retórica e a aparência como parte da política (cf. XVIII). (**não conferido em detalhe**) |
-| **Tradutores brasileiros** | Lívio Xavier (1933); Antonio D'Elia (Cultrix); Maria Júlia Goldwasser (Martins Fontes); **Maurício Santana Dias** (Penguin-Companhia, **2010**, com ensaios) | Comparação de soluções para *virtù*, *stato*, *si guarda al fine*: **lacuna** (não tivemos acesso aos textos nesta rodada). |
+| **Tradutores brasileiros** | Lívio Xavier (c. 1932–1933; *Os Pensadores*, 1973); Antonio D'Elia (Cultrix); Maria Júlia Goldwasser (Martins Fontes); **Maurício Santana Dias** (Penguin-Companhia, **2010**, com ensaios) | Comparação de soluções para *virtù*, *stato*, *si guarda al fine*: **lacuna** (não tivemos acesso aos textos nesta rodada). |
 
 ### 4.11 Outros leitores que o agente deve conhecer
 
@@ -1097,7 +1097,7 @@ O mesmo autor escreveu um manual para **um príncipe novo** (*Príncipe*) e uma 
 | **Thomson** (en., 1882) | XV, "how to be other than good" (Wikisource em inglês bloqueado para nós nesta rodada). |
 | **Skinner/Price** (en., 1988), **Bondanella** (en.) | Soluções para *virtù* e *stato*. |
 | **Fournel/Zancarini** (fr., PUF 2000) | Escolhas de vocabulário florentino. |
-| **Português**: Lívio Xavier (1933), Antonio D'Elia (Cultrix), Maria Júlia Goldwasser (Martins Fontes), Maurício Santana Dias (Penguin-Companhia, 2010) | Como cada uma traduz *virtù*, *stato*, *si guarda al fine*, *verità effettuale*, *non buono* (XV) e a fortuna-mulher (XXV). **Lacuna mais importante para o agente**, que fala português. |
+| **Português**: Lívio Xavier (c. 1932–1933; *Os Pensadores*, 1973), Antonio D'Elia (Cultrix), Maria Júlia Goldwasser (Martins Fontes), Maurício Santana Dias (Penguin-Companhia, 2010) | Como cada uma traduz *virtù*, *stato*, *si guarda al fine*, *verità effettuale*, *non buono* (XV) e a fortuna-mulher (XXV). **Lacuna mais importante para o agente**, que fala português. |
 | **Espanhol**: Puigdomènech (Cátedra/Tecnos), Granada (Alianza) | Mesmas cinco passagens. |
 | **Alemão moderno**: Zorn (Kröner), Rippel (Reclam) | Idem; e "Tugend"/"Tatkraft" para *virtù* (3.1). |
 

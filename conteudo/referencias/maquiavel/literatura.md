@@ -51,9 +51,9 @@
 
 | Obra (título original) | Gênero | Data (mais aceita) | Situação do texto |
 |---|---|---|---|
-| *Andria* | tradução em prosa da comédia de Terêncio | juventude (antes de 1513?); 2 ou 3 redações, a última c. 1517–1520 | autógrafo (Bibl. Laurenziana) |
+| *Andria* | tradução em prosa da comédia de Terêncio | 1ª redação juvenil, c. 1494–1498 (Stoppelli) ou 1517–1518 (Gerber); 2ª redação até c. 1520 ou depois (ver 4.1) | dois autógrafos (Biblioteca Nazionale Centrale de Florença, Banco Rari 29 e 240) |
 | *Decennale primo* | poema histórico em tercetos (*terza rima*) | out.–nov. 1504; impresso fev. 1506 | impresso em vida |
-| *Decennale secondo* | idem, inacabado | c. 1509 (narra até 1509) | póstumo |
+| *Decennale secondo* | idem, inacabado | 1509 (data do conteúdo, que para em 1509) ou 1514 (composição, segundo Matucci; ver 7) | póstumo |
 | *Capitoli* (*Di Fortuna*, *Dell'Ingratitudine*, *Dell'Ambizione*, *Dell'Occasione*, *Pastorale*) | poemas morais em tercetos | c. 1506–1517 | póstumos (1549) |
 | Sonetos a Giuliano de' Medici | sonetos "caudati" burlescos | 1513 (prisão) | manuscritos |
 | *Serenata*, canções, estrambotes | lírica amorosa / narrativa | incerta (anos 1510?) | manuscritos / ed. 1549 |
@@ -281,7 +281,7 @@
 
 ### 3.7 Recepção
 
-- Sucesso imediato em 1525 (carta de Nerli). Bem menos encenada que a *Mandrágora* nos séculos seguintes; a crítica quase sempre a lê em comparação com ela (Perocco). Estudos: Ridolfi (*Studi sulle commedie*, 1968), Vanossi (1970), Dionisotti (1984), Perocco (ed. crítica 1979/2005), Faulkner (2000). Traduções em inglês reunidas com a *Mandrágora* (ex.: Daniel Sices e James B. Atkinson, *The Comedies of Machiavelli*, ed. bilíngue, 1985 — referência bibliográfica de memória, **não conferida**).
+- Sucesso imediato em 1525 (carta de Nerli). Bem menos encenada que a *Mandrágora* nos séculos seguintes; a crítica quase sempre a lê em comparação com ela (Perocco). Estudos: Ridolfi (*Studi sulle commedie*, 1968), Vanossi (1970), Dionisotti (1984), Perocco (ed. crítica 1979/2005), Faulkner (2000). Traduções em inglês reunidas com a *Mandrágora* (ex.: David Sices e James B. Atkinson, *The Comedies of Machiavelli*, ed. bilíngue, 1985 — referência bibliográfica de memória, **não conferida**).
 
 ### 3.8 Lição para negócios [Interpretação nossa]
 

@@ -47,19 +47,19 @@ Legenda da última coluna: `P` = `principe.md`, `D` = `discursos.md`, `AG` = `ar
 | 1513 (julho–dezembro; anunciado na carta a Vettori de 10/12/1513); retoques e dedicatória a Lorenzo di Piero de' Medici c. 1515–1516 | tratado político | *De principatibus* / *Il Principe* | **Não.** Circulou em cópias manuscritas; impresso em 1532 (Blado, Roma, janeiro; Giunta, Florença, maio) | P |
 | c. 1513–1519 (sobretudo 1515–1517) | tratado/comentário político | *Discorsi sopra la prima Deca di Tito Livio* | **Não.** Impresso em 1531 (Blado; Giunta) | D |
 | 1519–1520 (impresso agosto de 1521) | diálogo militar | *Libro della arte della guerra* (*Dell'arte della guerra*) | **Sim** (Giunta, Florença, 1521). Única obra política em prosa impressa em vida | AG |
-| 1520 (encomenda de 8/11/1520) – 1525 (entregue a Clemente VII em maio de 1525) | história | *Istorie fiorentine* (8 livros) | **Não.** Impresso em 1532 (Blado; Giunta) | HF |
+| 1520 (encomenda de 8/11/1520) – 1525 (entregue a Clemente VII em maio–junho de 1525: maio segundo Varotti, junho segundo o DBI) | história | *Istorie fiorentine* (8 livros) | **Não.** Impresso em 1532 (Blado; Giunta) | HF |
 | 1520 (julho–agosto, durante a missão a Lucca) | biografia exemplar | *La vita di Castruccio Castracani da Lucca* | **Não.** Impresso em 1532 junto com *O Príncipe* | L |
 
 ### A.2 Teatro, prosa literária e poesia (detalhe em `literatura.md`)
 
 | Data | Gênero | Título original | Em vida? | Acervo |
 |---|---|---|---|---|
-| c. 1517–1520? (data debatida; a 2ª redação é posterior) | tradução de comédia | *Andria* (de Terêncio) | Não (data da 1ª impressão não conferida) | L |
-| c. 1518 (data mais aceita; há quem proponha 1504 ou 1519–1520) | comédia | *Mandragola* (*Commedia di Callimaco e di Lucrezia*) | **Sim**, impressa c. 1518–1519 sem nome do autor e sem lugar | L |
+| 1ª redação juvenil, c. 1494–1498 (Stoppelli) ou 1517–1518 (Gerber); 2ª redação até c. 1520 ou depois (data debatida, ver `literatura.md` 4.1) | tradução de comédia | *Andria* (de Terêncio) | Não (data da 1ª impressão não conferida) | L |
+| escrita entre c. 1514 e 1519–1520 (Stoppelli); data tradicional 1518 (Ridolfi); fim de 1519–início de 1520 (Inglese); o manuscrito Redi 129 é datado 1519 (debate em `literatura.md` 2.2; a antiga hipótese 1504 está abandonada) | comédia | *Mandragola* (*Commedia di Callimaco e di Lucrezia*) | **Sim**, impressa em vida sem data, sem nome do autor e sem lugar (edição "do Centauro"; depois Bindoni, Veneza, 1522) | L |
 | 1524–1525 (estreia 13/01/1525) | comédia | *Clizia* | Não (1537) | L |
-| c. 1518–1520 | novela | *Favola* (*Belfagor arcidiavolo*) | Não (1549) | L |
+| data debatida: 1519–1520 (Gerber; DBI) ou c. 1526 (Stoppelli); fórmula do acervo: entre 1518 e 1527 | novela | *Favola* (*Belfagor arcidiavolo*) | Não (1549) | L |
 | 1504 (escrito em 15 dias, out.–nov.; dedicado a Alamanno Salviati) | poema histórico em tercetos | *Decennale primo* | **Sim** (Florença, 1506, ed. por Agostino Vespucci; há edição pirata no mesmo ano) | L |
-| 1509? (inacabado) | poema histórico | *Decennale secondo* | Não | L |
+| 1509 (data do conteúdo, que para em 1509) ou 1514 (composição, segundo Matucci; DBI "1514?") (inacabado) | poema histórico | *Decennale secondo* | Não | L |
 | c. 1517 (inacabado) | poema alegórico | *L'Asino* (*L'Asino d'oro*) | Não (1549) | L |
 | c. 1506–1512 (datas variam por peça) | poemas morais em tercetos | *Capitoli*: *Di Fortuna*, *Dell'Ingratitudine*, *Dell'Ambizione*, *Dell'Occasione* | Não | L |
 | vários (c. 1494–1525) | poesia | *Canti carnascialeschi*, *Serenata*, sonetos (inclusive os dois da prisão a Giuliano de' Medici, 1513), *strambotti*, canções para a *Mandragola* e a *Clizia*, epigramas (o de Soderini), poemas à Barbera | Não | L, VC |
@@ -598,5 +598,5 @@ Bônus de Lucca: *"È molto più pericoloso... il sì che il nò"* (*Sommario*, 
 3. Não conferidos no original: **"Ser Nihilo"**; as cartas de **Senigália** (31/12/1502–1/01/1503); os despachos de **Júlio II em Perúgia** (set. 1506); França **1510** palavra por palavra; Mântua/Verona 1509 (o São Marcos com espada só por Bausi); Gênova 1518; Veneza 1525 além da credencial; missões de 1526–1527 (Cremona, Guicciardini) — **datas e lugares de 1518 e 1525–1527 fechados pelo DBI (Inglese 2006) na revisão de cobertura (B.1 e B.14)**; os despachos em si continuam não conferidos.
 4. Escritos sem texto conferido: ***De rebus pistoriensibus***, ***Cagione dell'ordinanza*** (a frase "justiça e armas... de armas nenhuma"), ***Notula per uno che va ambasciadore in Francia***, ***Provvisione seconda***, ***Consulto*** do capitão, ***Sul modo di ricostituire l'ordinanza***, ***Minuta di provvisione*** (1522), ***Relazione*** das muralhas e lei dos **Cinco Procuradores** (1526), continuação da ***Allocuzione***.
 5. Datas ainda debatidas: *Descrizione* (1503 × posterior), *Ritratto di Francia* (1510 × 1512–13), *Allocuzione*, *Esortazione*, *Discursus* (fim de 1520 × 1521), comissão de **Pistoia** (fev. 1500 × 1501).
-6. Estudos citados mas não abertos: Marchand 1975; Guidi 2009 (*Un segretario militante*); Black 2013; Lettieri 2018 (Veneza 1525, só resumo); Viroli (*Il Dio di Machiavelli*); traduções em português de Lívio Xavier (1973) e Renato Ambrosio (FGV, 2010).
+6. Estudos citados mas não abertos: Marchand 1975; Guidi 2009 (*Un segretario militante*); Black 2013; Lettieri 2018 (Veneza 1525, só resumo); Viroli (*Il Dio di Machiavelli*); traduções em português de Lívio Xavier (1ª ed. c. 1932–1933, Unitas; reed. Athena 1938 e Abril, *Os Pensadores*, 1973) e Renato Ambrosio (FGV, 2010).
 7. Idiomas: faltam estudos em **alemão** sobre as legações (Münkler 1982 citado na introdução, não aberto nesta rodada) e em **espanhol** (procurar traduções e estudos dos *escritos políticos breves* e das *legaciones*; nada aberto nesta rodada).

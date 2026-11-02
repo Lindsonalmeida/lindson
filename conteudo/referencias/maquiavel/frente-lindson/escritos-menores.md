@@ -542,7 +542,7 @@ Datas incertas, em geral situadas entre 1506 e 1512-1517 (data discutida para ca
   - Concorrentes do mesmo setor brigando entre si abrem espaço para um entrante de fora. Às vezes vale cooperar (associação, parcerias).
   - Desconfie de soluções milagrosas (e não as venda): a reputação de "ciurmadore" mata uma marca.
 
-### 3.7 Belfagor arcidiavolo (novela; c. 1518-1520, data discutida)
+### 3.7 Belfagor arcidiavolo (novela; data discutida: 1519-1520 segundo Gerber e o DBI, c. 1526 segundo Stoppelli)
 
 - **Data e contexto:** novela em prosa, também chamada *Favola*; data provável entre 1518 e 1520 (discutida). Publicada depois da morte de Maquiavel (uma versão quase igual saiu em 1545 com o nome de Giovanni Brevio; a de Maquiavel, em 1549).
 - **Enredo:** no inferno, as almas dos maridos dizem que se condenaram por culpa das esposas. Plutão manda o arquidiabo Belfagor viver dez anos na Terra como homem, casar e verificar. Ele chega a Florença como "Roderigo de Castela", com cem mil ducados, e se casa com Onesta Donati, bela e soberba. Os luxos, as exigências e os parentes dela o arruínam; ele foge dos credores e é escondido pelo camponês Gianmatteo del Brica. Em troca, Belfagor promete enriquecê-lo: possui o corpo de mulheres ricas e só sai quando Gianmatteo "exorciza", cobrando caro. Na terceira vez (a filha do rei da França), Belfagor se recusa a sair; Gianmatteo arma um grande barulho de tambores e trombetas e diz que é a esposa Onesta chegando. Belfagor foge para o inferno, preferindo-o a voltar para a mulher.
@@ -556,7 +556,7 @@ Datas incertas, em geral situadas entre 1506 e 1512-1517 (data discutida para ca
   - Parceria baseada em "favor único" tem limite: Belfagor pagou duas vezes e cortou na terceira. Combine o escopo antes.
   - (Atenção: o humor misógino é convenção do gênero novelesco da época; não reproduzir como opinião.)
 
-### 3.8 Andria (tradução de Terêncio; c. 1517-1520)
+### 3.8 Andria (tradução de Terêncio; 1ª redação juvenil c. 1494-1498 segundo Stoppelli, ou 1517-1518 segundo Gerber; revisão posterior)
 
 - **Data e contexto:** tradução em prosa para o florentino da comédia latina *Andria*, de Terêncio; há duas redações (uma revisada, preservada em autógrafo). Feita no período das comédias (antes ou perto da Mandrágora).
 - **Conteúdo essencial:** enredo de amor juvenil, pai autoritário, escravo esperto (Davo) que arma enganos e uma reviravolta final de identidade. Maquiavel adapta o latim para a fala viva de Florença, com provérbios e expressões populares, o que liga a tradução ao *Discorso intorno alla nostra lingua*.

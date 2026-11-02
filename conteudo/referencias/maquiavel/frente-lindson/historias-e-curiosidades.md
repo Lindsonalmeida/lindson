@@ -143,7 +143,7 @@ Em 1520, ainda fora da política, Maquiavel foi a Lucca cuidar de um caso de cre
 *Fonte:* *Vita di Castruccio Castracani* (1520); carta de Zanobi Buondelmonti, 6/9/1520; Ridolfi, cap. 17.
 
 ### 1.30 Historiador pago dos Médici (1520–1525) [FATO]
-Em 8 de novembro de 1520, por intermédio do cardeal Giulio de Médici, o *Studio* florentino o contratou para escrever as *Histórias florentinas*, com salário de 100 florins *di studio* por ano. Em maio de 1525 ele levou os oito livros prontos a Roma e os entregou ao mesmo Giulio, agora papa Clemente VII, que lhe deu 120 ducados do próprio bolso. O desafio era escrever a história de uma cidade governada pela família que o pagava; ele confessou a Guicciardini que tinha de ser cuidadoso para não "exaltar nem rebaixar" os Médici demais.
+Em 8 de novembro de 1520, por intermédio do cardeal Giulio de Médici, o *Studio* florentino o contratou para escrever as *Histórias florentinas*, com salário de 100 florins *di studio* por ano. Em maio–junho de 1525 (maio segundo Varotti, junho segundo o DBI) ele levou os oito livros prontos a Roma e os entregou ao mesmo Giulio, agora papa Clemente VII, que, segundo Ridolfi, lhe deu 120 ducados do próprio bolso (não conferido em documento; documentado é o "aumento até cem ducados" para continuar, numa carta a Guicciardini). O desafio era escrever a história de uma cidade governada pela família que o pagava; ele confessou a Guicciardini que tinha de ser cuidadoso para não "exaltar nem rebaixar" os Médici demais.
 *Fonte:* contrato de 8/11/1520 (ASF); *Lettere*, a F. Guicciardini, 30/8/1524; Ridolfi, caps. 17 e 19.
 
 ### 1.31 A "república dos tamancos" de Carpi (maio de 1521) [FATO]
@@ -225,14 +225,14 @@ Já velho e com fama de comediógrafo, Maquiavel assinou uma carta a Francesco G
 | Fiança de 1512 | 1.000 florins de ouro, pagos por três amigos, para garantir o confinamento de um ano. | [FATO] Ridolfi |
 | Tortura | "Seis puxões de corda" (strappado), segundo o próprio soneto. | [FATO] soneto a Giuliano |
 | Lista de Boscoli | Cerca de 20 nomes; o de Maquiavel em 7º lugar. | [PROVÁVEL a posição] Ridolfi |
-| Histórias florentinas | Contrato de 100 florins *di studio* por ano (1520); presente de 120 ducados de Clemente VII ao receber a obra (1525); 8 livros, até 1492. | [FATO] Ridolfi |
-| Obras impressas em vida | Praticamente só a *Arte da guerra* (1521), o *Decennale primo* (1506) e a *Mandrágora* (edições sem data, c. 1518–1524). | [FATO] |
+| Histórias florentinas | Contrato de 100 florins *di studio* por ano (1520); presente de 120 ducados de Clemente VII ao receber a obra (1525, segundo Ridolfi; não conferido em documento); 8 livros, até 1492. | [FATO] Ridolfi |
+| Obras impressas em vida | Praticamente só a *Arte da guerra* (1521), o *Decennale primo* (1506) e a *Mandrágora* (1ª edição sem data; Bindoni, Veneza, 1522). | [FATO] |
 | *O Príncipe* | 26 capítulos, cerca de 30 mil palavras no original. Escrito em 1513 (com revisões até c. 1516). Impresso postumamente em 1532: Antonio Blado em Roma (janeiro) e Bernardo Giunta em Florença (maio). | [FATO] |
 | *Discursos* | 142 capítulos em 3 livros (número intencional? alguns leem como eco das 142 livros de Lívio — hipótese). Impressos em 1531. | [FATO] números; [PROVÁVEL] a intenção (Leo Strauss) |
 | Filhos | Ao menos 7 nascidos (Primerana, Bernardo, Lodovico, Piero, Guido, Bartolomea, Totto). Lodovico morreu em 1530 no cerco de Florença? (datas variam). Guido virou padre. | [FATO] os nomes; [PROVÁVEL] destinos |
 | Primeira tradução inglesa impressa do Príncipe | Edward Dacres, 1640 (antes circulava em manuscrito). | [FATO] |
 | Expressão "maquiavélico" | Em francês "machiavélique" já no século XVI; em inglês "Machiavel" como substantivo nas peças elisabetanas (anos 1590). | [FATO] OED / TLFi |
-| Escala Mach IV | Em 1970, os psicólogos Richard Christie e Florence Geis criaram uma escala de "maquiavelismo" com frases do *Príncipe* e dos *Discursos*; hoje é um dos três traços da "Tríade Sombria" (Paulhus & Williams, 2002). | [FATO] *Studies in Machiavellianism* (1970) |
+| Escala Mach IV | Os psicólogos Richard Christie e Florence Geis montaram nos anos 1960 uma escala de "maquiavelismo" inspirada em frases do *Príncipe* e dos *Discursos* (os itens foram redigidos por eles; quase nenhum é frase literal de Maquiavel), publicada em *Studies in Machiavellianism* (1970); hoje é um dos três traços da "Tríade Sombria" (Paulhus & Williams, 2002). | [FATO] *Studies in Machiavellianism* (1970) |
 | Cópias de clássicos | Copiou à mão Lucrécio (1497–1498) e o *Eunuco* de Terêncio. | [FATO] Bertelli 1961; Ridolfi |
 | Peça perdida | Escreveu (c. 1504) uma comédia "Le maschere", à imitação de Aristófanes, hoje perdida; só conhecida pelo testemunho do neto Giuliano de' Ricci. | [FATO o testemunho] Ricci |
 

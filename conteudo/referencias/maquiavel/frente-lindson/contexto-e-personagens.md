@@ -224,7 +224,7 @@ Formato: **quem foi** · **onde Maquiavel fala dele** · **lição que ele tira*
   - Defendeu uma lei de apelação e depois não a fez cumprir quando condenaram seus adversários (1497); isso destruiu sua reputação (*D.* I.45): quem cria a regra e a quebra perde a autoridade.
 - Para o agente: carisma e discurso convencem, mas sem estrutura (processos, caixa, equipe, contrato) a adesão evapora quando vem a primeira dúvida. E nunca quebrar as próprias regras públicas.
 
-**Piero Soderini (1452-1522)**
+**Piero Soderini (17/3/1451 – 13/6/1522; DBI)**
 - Quem foi: gonfaloneiro vitalício da República (1502-1512). Chefe e protetor de Maquiavel. Fugiu após o saque de Prato (1512); viveu em Ragusa e depois em Roma, perdoado pelos Médici.
 - Onde: *D.* I.7, I.52, I.56, III.3, III.9, III.30; epigrama "*La notte che morì Pier Soderini*" (Soderini vai ao limbo das crianças, porque não serve nem para o inferno). Carta *Ghiribizzi* (1506) a Giovan Battista Soderini, sobrinho dele, sobre a adaptação aos tempos.
 - Lições:
@@ -247,7 +247,7 @@ Formato: **quem foi** · **onde Maquiavel fala dele** · **lição que ele tira*
 - Lição: as cartas mostram Maquiavel pensando em voz alta, testando previsões (por exemplo, o perigo dos suíços) contra o ceticismo de Vettori, que achava que ninguém consegue prever os movimentos dos príncipes.
 - Para o agente: ter um interlocutor de confiança que discorda é parte do método (eco de *P.* XXIII).
 
-**Cosimo Rucellai (1494-1519) e os Orti Oricellari**
+**Cosimo Rucellai (8/10/1495 – 2/11/1519; DBI) e os Orti Oricellari**
 - Quem foi: jovem patrício, neto de Bernardo Rucellai, que fundou os jardins (*Orti Oricellari*) onde se reunia um círculo de humanistas e jovens republicanos (Zanobi Buondelmonti, Luigi Alamanni, Jacopo da Diacceto). Cosimo morreu jovem, em 1519.
 - Onde: os *Discursos* são dedicados a **Zanobi Buondelmonti e Cosimo Rucellai**: Maquiavel diz que dedica a quem, pelas qualidades, "mereceria ser príncipe", e não a quem é príncipe e pode dar cargos. *A arte da guerra* se passa nos jardins de Cosimo, em diálogo com o condottiero **Fabrizio Colonna**.
 - Lição: os *Discursos* nasceram de conversas e leituras em grupo; vários membros do círculo conspiraram contra os Médici em 1522.
@@ -313,7 +313,7 @@ Formato: **quem foi** · **onde Maquiavel fala dele** · **lição que ele tira*
 
 ### 2.6 Os que chegaram pelo crime e os que chegaram pela virtude
 
-**Oliverotto da Fermo (Oliverotto Euffreducci, c. 1475-1502)**
+**Oliverotto da Fermo (Oliverotto Euffreducci, provavelmente 1473 – 31/12/1502; DBI)**
 - Quem foi: órfão criado pelo tio Giovanni Fogliani; soldado sob Paolo e Vitellozzo Vitelli. Em 1501 convidou o tio e os principais de Fermo para um banquete e os mandou matar; virou senhor da cidade. Um ano depois foi estrangulado por César Bórgia em Senigallia.
 - Onde: *P.* VIII.
 - Lição: chegou ao principado "por meios celerados"; mas durou só um ano porque se deixou enganar por alguém mais astuto. Exemplo da categoria "principado pelo crime".
