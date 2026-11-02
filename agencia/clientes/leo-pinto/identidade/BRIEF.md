@@ -53,6 +53,7 @@ O Leo já está no mandato. É **identidade de mandato, não de campanha**:
 - as aplicações mudam: posts do mandato, fardamento da equipe, crachá, placa do gabinete, faixa de evento e capa das redes. Bandeira e adesivo de carro só se fizerem sentido.
 
 ## Decisões de arte (Lindson, 30/10/2026)
+- **02/11/2026 (vale acima de tudo abaixo):** elementos gráficos da identidade **eliminados** — sem raios, faixas de padrão, ícones, fumaça, sol desenhado ou bandeirinhas. A identidade do Leo agora é **só fontes, logo e cores**. As artes antigas do feed v12 usam esses elementos: não repetir; artes novas, só tipografia + logo + paleta + foto real.
 - **Bandeirinhas de São João excluídas em definitivo da identidade** (inclusive o ícone de bandeirinha nas faixas de padrão).
 - Posts: estilo-base aprovado = teste B amarelo (faixas de padrão, foto grande de um lado, título condensado empilhado, frase manuscrita com traço laranja, raios atrás da cabeça). Feed harmônico SEM artes repetidas: mesma assinatura em todas (logo principal oficial extraída do manual com fumaça marinho atrás, faixa de padrão na base, paleta) e composição diferente em cada post (dividido, palavra gigante, frase, conversa, agenda, close), alternando amarelo/azul/marinho na grade. Fotos reais do álbum, posicionadas pelo rosto. Modelo: `../instagram-v12-feed/`.
 - Nunca usar a logo vertical com o sol no lugar do "O" sozinha em post: lê-se "LE PINTO". Sempre "LEO PINTO" por extenso.

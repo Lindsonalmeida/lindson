@@ -9,3 +9,6 @@ As imagens finais (1080×1080) não vão para o GitHub (foto do cliente): foram 
 ## Como gerar de novo
 1. Recorte: `python3 ../instagram-v12-feed/recortar.py <album> <pasta> leo-23:original` (precisa de `opencv-python-headless` e `rembg`).
 2. Montagem: `python3 montar.py <pasta>` → `perfil-A-azul.jpg`, `perfil-B-marinho.jpg`, `perfil-C-sol.jpg` e `previa-perfil.jpg` (como aparece no Instagram).
+
+## Versão 2 (aprovada em andamento, 02/11/2026)
+Pedido do Lindson: fundo de cor (laranja com degradê amarelo para lembrar o sol), **sem raios**, foto de busto para cima e foto melhor. Foto: **leo-14** (retrato de perto, de frente, olhar direto). Script: `montar2.py <pasta com leo-14-original.png>` → `perfil-v2-sol.jpg` (mais próximo) e `perfil-v2-sol-aberto.jpg` (mais ombro). A versão 1 (raios e anel) foi descartada.

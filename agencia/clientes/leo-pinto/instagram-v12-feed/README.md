@@ -1,5 +1,7 @@
 # Feed do Instagram · Vereador Leo Pinto (sistema aprovado, 31/10/2026)
 
+> **Atualização 02/11/2026 (Lindson):** os elementos gráficos (raios, faixa de padrão, ícones, fumaça, sol) foram **eliminados** da identidade. Artes novas: só fontes (Anton + Kaushan Script + Montserrat), logo oficial, paleta e foto real. Composições diferentes por post continuam valendo.
+
 Seis posts com **composições diferentes e a mesma assinatura**, para o feed ficar harmônico sem repetir arte (pedido do Lindson).
 Prévia da grade: `previa-feed.jpg`. Decisões e histórico em `../identidade/BRIEF.md` (seção "Decisões de arte").
 
