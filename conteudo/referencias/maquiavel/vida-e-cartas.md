@@ -120,6 +120,10 @@ Base de referência para o agente "Maquiavel conselheiro de negócios". Objetivo
 - **1525, maio–junho** — Vai a Roma e entrega pessoalmente a Clemente VII os oito livros da **História de Florença**. Recebe 120 ducados. Propõe ao papa armar uma milícia na Romanha; o papa o manda a **Guicciardini** (presidente da Romanha, em Faenza), que acha o plano inviável.
 - **1525, agosto** — Missão a Veneza (caso comercial).
 - **1526, maio** — Nomeado chanceler dos **Cinco Procuradores das Muralhas** (fortificação de Florença). Liga de Cognac (22 de maio) contra Carlos V. Maquiavel vai ao acampamento do exército da Liga, junto de Guicciardini (lugar-tenente do papa).
+- **1526, abril** — Escreve a *Relazione* sobre as muralhas (5/04) e a leva a Roma, onde fica até 25/04 (DBI, Inglese 2006; detalhe em `missoes-e-escritos-politicos.md` B.14).
+- **1526, julho–outubro** — No campo da Liga com Guicciardini; cerco de **Cremona** (9–14/09). Guicciardini escreve em 18/07: Maquiavel veio reordenar a milícia, viu como está corrompida e *"starassi a ridere degli errori degli uomini, poi che non gli può correggere"* ("ficará rindo dos erros dos homens, já que não os pode corrigir"; citado pelo DBI).
+- **1526, 30 de novembro – 4 de dezembro** — Missão a Guicciardini em **Módena**.
+- **1527, fim de janeiro** — Passa ao filho **Bernardo** o posto na chancelaria das Muralhas e acompanha Guicciardini (Parma, Bolonha, Forlì, 3/02–13/04/1527).
 - **1526, 30 de novembro** — Morre **Giovanni dalle Bande Nere**, o único capitão italiano em quem Maquiavel via esperança.
 - **1527, abril** — Viaja com Guicciardini acompanhando o exército; carta a Vettori de 16 de abril ("amo a minha pátria mais que a alma").
 - **1527, 6 de maio** — **Saque de Roma** pelas tropas imperiais.
