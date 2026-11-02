@@ -1,6 +1,6 @@
 # Maquiavel escritor: teatro, poesia, novela, a *Vida de Castruccio* e o *Discurso sobre a língua*
 
-**Situação:** parcial — feito até a seção 8 (Capítulos). Próximas: poesia, Castruccio, língua, perdidos, estilo e humor, uso pelo agente.
+**Situação:** completo (seções 1–8 pela conta Zuleide; seções 9–14 pela conta Lindson, 02/11/2026). Lacunas para a próxima rodada em 14.4.
 
 > **Para que serve:** dar ao agente "Maquiavel" a outra metade do homem: o comediógrafo, o poeta e o contador de histórias. É daqui que vêm o riso, a ironia, a obscenidade de taberna, a autoderrisão ("historiador, comediógrafo e trágico") e muitas das frases mais citáveis. Maquiavel dizia que a comédia é "um espelho da vida privada" (*Discurso sobre a língua*). Para o agente, isso significa: a mesma lógica do *Príncipe* aplicada a casamentos, padres, maridos, clientes e sócios.
 >
@@ -519,3 +519,293 @@ Diálogo entre o poeta e a Ocasião (tradução livre de um epigrama de **Ausôn
 6. **Ocasião careca atrás:** proposta que demora a sair perde o cliente. Decida rápido; o arrependimento anda de mãos dadas com quem hesita.
 
 ---
+
+## 9. Poesia curta
+
+**Conta Lindson (02/11/2026)**, continuando a pesquisa da conta Zuleide. Textos conferidos em it.wikisource.org (*Rime varie* e *Canti carnascialeschi*, transcrição da ed. Cambiagi/1783 e outras, com notas do Wikisource). Base anterior: `frente-lindson/escritos-menores.md` 3.5, 3.6 e 3.9 (aqui conferida e ampliada). Os sonetos da prisão já estão, do ponto de vista biográfico, em `vida-e-cartas.md` (seções 1 e 6.9); aqui só o que é literário.
+
+### 9.1 Ficha geral
+
+- **O que é:** um conjunto pequeno e disperso: **6 cantos de carnaval** na edição do Wikisource (há outros atribuídos em edições modernas), a ***Serenata*** (poema narrativo em oitavas), sonetos (a Giuliano de' Medici, ao pai Bernardo, um amoroso), uma **canção**, **duas estâncias** (*strambotti*), **poemas para Barbera Salutati** e **epigramas**.
+- **Publicação:** nada em vida. Parte saiu na edição Giunti de 1549; o resto em edições dos séculos XVIII–XIX, a partir de manuscritos (inclusive o códice autógrafo Banco Rari 240, onde a *Serenata* vem depois da *Andria* e do *Belfagor*; ver 4.1 e 5.1).
+- **Atribuição:** os cantos de carnaval são o ponto mais incerto: o número aceito varia de edição para edição (Vivanti, *Opere* III, 2005, é a referência moderna; não aberta nesta rodada). Os sonetos da prisão, os poemas à Barbera e o epigrama de Soderini são aceitos.
+
+### 9.2 Cantos de carnaval (*Canti carnascialeschi*)
+
+**Gênero (fato documentado):** canções cantadas nos desfiles de carnaval de Florença por grupos fantasiados (de um ofício, de diabos, de eremitas), gênero levado ao auge por Lorenzo, o Magnífico; cada canto fala na voz do grupo ("nós, ... somos") e quase sempre se dirige às **mulheres** ("donne") com duplo sentido erótico.
+
+| Canto | Voz | O que diz (texto conferido, Wikisource) |
+|---|---|---|
+| ***Canto degli spiriti beati*** | espíritos do céu | *"Che si pongan giù l'armi, e stiasi in pace"*; o reino de Deus se perde "se pel **nuovo Pastor** non si corregge" (logo, escrito para a festa de um **papa novo**: 1513, Leão X, é a data usual; 1523, Clemente VII, também caberia — não resolvido); *"le vostre contese / Agl'inimici vostri aprin la via. / Il Signor di Turchia / Aguzza l'armi"* ("as vossas brigas abrem o caminho aos inimigos; o senhor da Turquia afia as armas"); *"Deponete, Cristiani, / Questo vostr'odio antico"* |
+| ***Canto de' diavoli*** | diabos expulsos do céu | *"Già fummo, or non siam più, Spirti beati"*; vieram a Florença e "tomaram o governo", *"Perchè qui si dimostra / Confusion, e duol più ch'in Inferno"* ("porque aqui há mais confusão e dor do que no inferno"); *"d'ogni mal far pigliam piacere"* |
+| ***Canto d'amanti disperati e di dame*** | amantes condenados × damas | os amantes vão ao inferno "para fugir delas", porque *"crudeltà fuor di lor non si trova"*; as damas respondem que amaram tanto quanto eles, mas esconderam "pela honra"; os amantes: *"chi non fa, quand'egli ha tempo, appresso / Si pente, e prega invano"* ("**quem não faz quando tem tempo depois se arrepende e pede em vão**") — a mesma lição do *Capitolo dell'Occasione* (8.5) |
+| ***Canto de' romiti*** | eremitas do Apenino | sátira dos **astrólogos** que anunciavam dilúvio para 1524 (*"Peste, diluvio, e guerra... Come se già del mondo fosse il fine"*); a "água" será o pranto dos amantes, os raios serão os olhos das mulheres; e *"chi vede il Diavol daddovero, / Lo vede con men corna, e manco nero"* ("**quem vê o diabo de verdade o vê com menos chifres e menos preto**"). [Interpretação nossa] a profecia astrológica do grande dilúvio para fevereiro de 1524 (fato conhecido da época) sugere data perto de 1523–1524; não conferido em estudo |
+| ***Canto de' ciurmadori*** | charlatães "da casa de São Paulo" (encantadores de serpentes) | todo em duplo sentido sexual (as "serpentes" que "crescem" e "saem entre os dedos"); vendem vinho e pedra contra mordida: *"quanto più grosse serpe troverrete, / tanto vi parrà aver maggior ventura"*. Edição de 1843: o canto estava em outro códice, "de mão de Maquiavel" (prefácio dos editores, conferido) |
+| ***Canto d'uomini che vendono le pine*** | vendedores de pinhas | duplo sentido do começo ao fim (*"A queste Pine, c'hanno bei pinocchi"*); conselho de vendedor: apalpem antes de comprar, *"Che qualche frappator non v'infinocchi"* ("**para que algum trapaceiro não vos engane**") |
+
+- **Ligação [Interpretação nossa]:** os *Spiriti beati* repetem em verso a tese da desunião que abre a porta ao estrangeiro (*Príncipe* XXVI; *Discursos* I.12); os *Diavoli* fazem de Florença um lugar pior que o inferno, como o *Belfagor* (5.3); os *Romiti* zombam de profecias, como a *Mandrágora* zomba de frei Timóteo.
+- **Lição para negócios [Interpretação nossa]:** (1) concorrentes que brigam entre si abrem a porta ao gigante de fora; (2) "o diabo de perto tem menos chifres": medo do mercado diminui quando você testa de verdade; (3) o canto dos charlatães é o retrato do "vendedor de milagre" — o Lindson não deve ser confundido com ele.
+
+### 9.3 *Serenata*
+
+- **Forma (texto conferido):** poema narrativo em **oitavas** (cerca de 264 versos), cantado por um amante sob a janela: *"Salve, Donna, tra le altre donne eletta, / Esemplo rado di bellezze in terra"*.
+- **Fonte:** Ovídio, *Metamorfoses* XIV: **Vertumno**, deus das estações, disfarça-se de **velha** para convencer a ninfa **Pomona**, que só amava os pomares, e conta a história de **Ífis e Anaxárete** (a moça cruel que virou pedra ao ver o amante enforcado). Pomona cede: *"Si mise volontaria nelle braccia; / E visse seco un gran tempo felice, / Se 'l ver di questo chi ne scrive dice"* (a ressalva irônica: "se quem escreve diz a verdade").
+- **A moral cantada (texto):** *"Imitate lo esemplo di Pomona, / E non la crudeltà d'Anassarete"*; e o pedido do amante: *"Non è la sua età vecchia, e matura"* ("a idade dele não é velha") e, se ela não ceder, ele morrerá "à tua porta" e Vênus se vingará "com tua vergonha e dano". O fecho é um **dilema** à Maquiavel: *"Da ogni parte dunque se' constretta / A rispondere"* — de um lado o castigo, do outro o prêmio.
+- **Data:** incerta. [Interpretação] costuma ser posta nos anos 1510–1520; a presença no autógrafo Banco Rari 240 (com o *Belfagor* e a 2ª *Andria*) favorece c. 1518–1520 (não conferido em estudo).
+- **Lição [Interpretação nossa]:** para convencer quem resiste, Vertumno muda de forma (outra abordagem) e conta o caso de um terceiro (prova social): é a técnica de case de cliente.
+
+### 9.4 Sonetos
+
+- **A Giuliano de' Medici, da prisão (fev.–mar. 1513):** *"Io ho, Giuliano, in gamba un paio di geti / con sei tratti di fune in su le spalle"* (texto conferido: "nas pernas um par de grilhões, com **seis puxões de corda** nas costas" — a tortura do *strappado*); os piolhos "grandes como borboletas", o fedor "maior que em Roncesvalles", o barulho de correntes, e o canto da madrugada pelos condenados: *"Per voi s'òra"* ("reza-se por vós"). O 2º soneto (*"In questa notte, pregando le Muse"*): a Musa o esbofeteia e diz *"Niccolò non se' ma il Dazzo"* — confunde-o com **Andrea Dazzi**, poeta medíocre da Chancelaria — e ele pede a Giuliano que testemunhe *"come io non sono il Dazzo, ma sono io"* ("que eu não sou o Dazzi, sou eu"). A Musa ainda manda "ao diabo" *"quella tua commedia in guazzeroni"* ("aquela tua comédia em frangalhos" — prova de que já escrevia comédia antes de 1513; [Interpretação] talvez *Le maschere*, seção 12).
+- **"Io vi mando, Giuliano, alquanti tordi"** (1513, depois de solto; texto conferido): manda **tordos** a Giuliano "para que Vossa Magnificência se lembre do pobre Machiavello"; se alguém morde (fala mal) por perto, "enfiai-lhe os tordos nos dentes"; e se os tordos são magros, *"ch'io son maghero anch'io"* ("eu também sou magro"); fecho: *"e palpi e tocchi, / e giudichi a le mani e non agli occhi"* ("**apalpe e toque, e julgue pelas mãos e não pelos olhos**"). Os tordos são os mesmos da carta a Vettori de 10/12/1513 ("Ho infino a qui uccellato a' tordi di mia mano", citada na nota do Wikisource).
+- **A messer Bernardo** (o pai; soneto caudato "antes de 1500", segundo a nota do Wikisource): de San Casciano, a família vive "um mês ou mais a nozes, figos, favas e carne seca", e eles estão "magros como bicos de narceja", *"mangiando sol pane e coltello"* (só pão, "pão e faca"). É o mais antigo retrato do humor da pobreza da família.
+- **Soneto amoroso** (*"Se senza a voi pensar solo un momento"*): petrarquista; a imagem política infiltrada: *"Di perdute ricchezze, o di figliuolo; / Di Stati o regni persi il fin si vede"* ("de riquezas e filhos perdidos, de **Estados e reinos perdidos**, vê-se o fim" — só a dor de amor não acaba).
+
+### 9.5 Canção, estâncias e os poemas à Barbera
+
+- **Canção "Se avessi l'arco e l'ale, / Giovanetto Giulio"** (texto conferido): louvor da beleza de um rapaz chamado Giulio (cabelo de Apolo, olhos de Medusa: *"Diventa sasso al fine / Chiunque ti guarda"*); Júpiter teria errado ao raptar Ganimedes em vez dele. Identificação de "Giulio" e data: **não conferidas**.
+- **Duas estâncias (*strambotti*)**: a primeira é toda de antíteses petrarquistas (*"Io spero, e lo sperar cresce il tormento"*); a segunda é uma pequena aula de dissimulação: *"Nasconde quel con che nuoce ogni fera; / Celasi adunque sotto l'erbe il drago; / Porta la pecchia in bocca miele e cera, / E dentro al piccol sen nasconde l'ago"* ("toda fera esconde aquilo com que fere; o dragão se esconde sob a erva; a abelha leva mel e cera na boca e esconde o ferrão no pequeno seio") — *"Tu mostri il volto tuo di pietà pieno, / Poi celi un cuor crudele"*. [Interpretação nossa] é a raposa do *Príncipe* XVIII em linguagem de amor.
+- **Barbera Salutati** (cantora; ver `vida-e-cartas.md` e 2.4 desta obra): (1) **"Alla Barbera"** (*"S'a la mia immensa voglia / fussi il valor conforme"*, texto conferido): o desejo é maior que a força, e ele confessa que *"tanta beltade / ama più verde etade"* ("tanta beleza ama idade mais verde") — o velho apaixonado, como Nicomaco na *Clizia*; (2) **"A stanza della Barbera"** (escrito para ela cantar, na voz dela: *"Amor, i' sento l'alma / arder nel foco"*): data 1524–1525 ou fim de 1526 (nota do Wikisource, que cita a hipótese de reaproximação no fim de 1526; não resolvido).
+
+### 9.6 Epigramas
+
+- **Piero Soderini** (morto em Roma em 13/06/1522; texto conferido): *"La notte che morì Pier Soderini, / l'anima andò de l'inferno a la bocca; / gridò Pluton: — Ch'inferno? anima sciocca, / va su nel limbo fra gli altri bambini"* ("Na noite em que morreu Pier Soderini, a alma foi à boca do inferno; Plutão gritou: — Que inferno o quê, alma tola? Vai para o **limbo, com as outras crianças**"). O limbo das crianças = quem não fez nem bem nem mal: o juízo de *Discursos* III.3 e III.30 (Soderini bom mas incapaz de agir) em quatro versos.
+- **"Sappi ch'io non son Argo"** (texto conferido): fala alguém de muitos olhos, que os "tirou dos príncipes cristãos"; por isso *"'l matto / Carlo re de' Romani, e 'l Viceré / per non vedere hanno lasciato il Re"* ("o tolo Carlos, rei dos romanos, e o vice-rei, por não verem, deixaram ir o Rei"). [Interpretação nossa, não conferida em estudo] parece referir-se à **libertação de Francisco I** pelo Tratado de Madri (1526), que Carlos V e o vice-rei Lannoy concederam e que a Liga de Cognac aproveitou.
+- **Epigrama latino ao cão "Furia"** (atribuição de 2013–2014): ver `frente-lindson/historias-e-curiosidades.md` 1.45 (atribuição provável, não unânime; texto não conferido).
+
+### 9.7 Lição para negócios [Interpretação nossa]
+
+1. **Humor sob pressão** (sonetos da prisão): pedir ajuda ao poderoso com graça e sem humilhação funcionou melhor que súplica — e ele não deixa de dizer quem é ("não sou o Dazzi, sou eu").
+2. **"Julgue pelas mãos, não pelos olhos"**: proposta, portfólio, teste grátis — deixe o cliente apalpar.
+3. **"Quem não faz quando tem tempo, depois se arrepende"** (*Amanti disperati*): prazo de proposta.
+4. **"O diabo de perto tem menos chifres"** (*Romiti*): enfrente o problema temido de perto antes de decidir que é impossível.
+5. **Não seja o "limbo"** (Soderini): na empresa, quem nunca erra porque nunca decide acaba no limbo.
+
+---
+
+## 10. La vita di Castruccio Castracani
+
+### 10.1 Ficha
+
+- **Título (texto conferido):** *La vita di Castruccio Castracani da Lucca descritta da Niccolò Machiavelli e mandata a Zanobi Buondelmonti ed a Luigi Alamanni suoi amicissimi* — os mesmos amigos dos Orti Oricellari a quem os *Discursos* são dedicados (Buondelmonti) e que aparecem na *Arte da Guerra* (Alamanni, Buondelmonti).
+- **Data:** escrita em **Lucca**, durante a missão de julho–setembro de 1520 (ver `missoes-e-escritos-politicos.md` B.1 e C.11); a Wikipedia italiana dá "entre 7 de julho e 29 de agosto de 1520" (fonte fraca, não conferida em estudo). **Fato documentado (não conferido aqui):** carta de Zanobi Buondelmonti a Maquiavel de 6/09/1520 com o parecer dos amigos (ver `frente-lindson/historias-e-curiosidades.md` 1.29).
+- **Publicação:** póstuma, 1532 (Blado, com o *Príncipe*).
+- **Função [Interpretação comum]:** amostra do historiador, logo antes da encomenda das *Istorie fiorentine* (8/11/1520); o tom e os discursos são os mesmos da *História de Florença*.
+
+### 10.2 Conteúdo (texto conferido)
+
+- **Abertura (a tese da fortuna):** *"E' pare... cosa maravigliosa, che tutti coloro o la maggiore parte di essi, che hanno in questo mondo operato grandissime cose... abbino avuto il principio e il nascimento loro basso e oscuro"* — expostos às feras ou filhos de pais vis que se diziam filhos de Júpiter; e a explicação: *"volendo la fortuna dimostrare al mondo di essere quella che faccia gli uomini grandi, e non la prudenza, comincia a dimostrare le sue forze in tempo che la prudenza non ci possa avere alcuna parte"* ("querendo a fortuna mostrar que é **ela que faz os homens grandes, e não a prudência**, começa a mostrar a sua força num tempo em que a prudência não pode ter parte nenhuma").
+- **O enjeitado na vinha:** madonna **Dianora**, irmã do cônego **messer Antonio Castracani**, ouve choro "sob uma videira, entre os pâmpanos" e acha um bebê "envolto nas folhas"; criam-no como filho.
+- **A carreira:** larga os estudos de padre pelas armas; é acolhido por **Francesco Guinigi**, que, ao morrer, lhe confia o filho **Pagolo**, de 13 anos; serve a **Uguccione della Faggiuola** (vitória de Montecatini), que passa a temê-lo e o prende; libertado por uma revolta, torna-se senhor de Lucca, depois de Pisa e Pistoia; vence os florentinos; morre de febre depois de uma última vitória.
+- **O discurso da morte a Pagolo Guinigi (o trecho mais "Príncipe"):** *"Se io avessi creduto, figliuolo mio, che la fortuna mi avesse voluto troncare nel mezzo del corso il cammino... io mi sarei affaticato meno e a te arei lasciato, se minore stato, meno inimici e meno invidia"*; *"la fortuna, che vuole essere arbitra di tutte le cose umane, non mi ha dato tanto giudicio che io l'abbia potuta prima conoscere, né tanto tempo che io l'abbi potuta superare"* ("a fortuna, que quer ser **árbitra de todas as coisas humanas**, não me deu juízo bastante para conhecê-la antes, nem tempo bastante para vencê-la"). Não se casou para que o amor dos filhos não o impedisse de ser grato ao sangue de quem o criou. Lista as fraquezas do Estado que deixa (Lucca descontente, Pisa "móvel e cheia de falácia", Pistoia dividida, os florentinos "ofendidos e não extintos") e manda fazer **paz** com Florença: *"È cosa in questo mondo di importanza assai cognoscere se stesso, e sapere misurare le forze dello animo e dello stato suo; e chi si cognosce non atto alla guerra, si debbe ingegnare con le arti della pace di regnare"* ("**conhecer a si mesmo e saber medir as forças do ânimo e do Estado**; quem se sabe inapto para a guerra deve reinar pelas artes da paz"). E: *"arai ad avere meco duoi oblighi: l'uno, che io ti ho lasciato questo regno; l'altro, che io te lo ho insegnato mantenere"*.
+- **O retrato:** alto, ruivo, cabelo cortado acima das orelhas, sempre de cabeça descoberta "mesmo com chuva ou neve"; *"Era grato agli amici, agli inimici terribile, giusto con i sudditi, infedele con gli esterni; né mai potette vincere per fraude, che e' cercasse di vincere per forza; perché ei diceva che la vittoria, non el modo della vittoria, ti arrecava gloria"* ("grato aos amigos, terrível aos inimigos, justo com os súditos, **infiel com os de fora**; nunca, podendo vencer pela fraude, buscou vencer pela força, porque dizia que **a vitória, não o modo da vitória, traz a glória**"); *"Niuno fu mai più audace a entrare ne' pericoli, né più cauto a uscirne"*; *"Dio è amatore degli uomini forti, perché si vede che sempre gastiga gli impotenti con i potenti"*.
+- **O fecho:** *"Visse quarantaquattro anni, e fu in ogni fortuna principe"*; guardou as algemas da prisão na torre da casa "para dar sempre fé da sua adversidade"; não foi inferior a Filipe da Macedônia nem a Cipião, morreu na idade deles, e os teria superado *"se in cambio di Lucca egli avesse avuto per sua patria Macedonia o Roma"*.
+
+### 10.3 As sentenças de Castruccio (texto conferido) e de onde vêm
+
+No fim, Maquiavel junta **cerca de trinta e cinco ditos** do herói. **Fato verificado nesta rodada:** muitos são ditos de filósofos gregos das *Vidas* de **Diógenes Laércio**, com nomes trocados. Conferido na tradução inglesa de C. D. Yonge (Projeto Gutenberg nº 57342):
+
+| Dito de Castruccio (texto) | Origem em Diógenes Laércio |
+|---|---|
+| a perdiz comprada por um ducado: *"Uno ducato mi vale molto meno"* | **Aristipo** (a perdiz de 50 dracmas), livro II |
+| o bajulador cuspido: *"I pescatori, per prendere un piccolo pesce, si lasciono tutti bagnare dal mare, io mi lascerò bene bagnare da uno sputo per pigliare una balena"* | **Aristipo** cuspido por Dionísio ("molhar-se pelo mar para pegar um peixe"), II |
+| filósofos como cães × "somos como os médicos, que vão à casa de quem mais precisa" | **Aristipo** (filósofos à porta dos ricos; médicos à porta dos doentes), II |
+| a tempestade: *"ciascuno stima l'anima sua quello che ella vale"* | **Aristipo** na tempestade a caminho de Corinto, II |
+| a amante: *"io ho preso lei, non ella me"* | **Aristipo** e Laís ("eu a possuo, não sou possuído"), II |
+| o pedinte de joelhos: *"Tu ne sei cagione, che hai gli orecchi ne' piedi"* | **Aristipo** aos pés de Dionísio ("tem os ouvidos nos pés"), II |
+| louvava quem ia casar e não casava | **Diógenes, o Cínico**, livro VI |
+| a casa que pedia a Deus "que a guardasse dos maus": *"E' bisogna ch'e' non vi entri egli"* | **Diógenes** ("que nada de mau entre" — "e o dono, por onde entra?"), VI |
+| casa pequena de porta grande: *"Quella casa si fuggirà per quella porta"* | **Diógenes** em Míndos ("fechai as portas, senão a cidade foge"), VI |
+| enterrado *"con la faccia volta in giù, perché... andrà sottosopra questo paese"* | **Diógenes** ("de bruços, porque logo tudo vai virar de cabeça para baixo"), VI |
+| ao embaixador de Nápoles: *"Perchè vuoi tu adunque che io abbi paura degli uomini buoni?"* | **Diógenes** a Alexandre ("quem teme o bom?"), VI |
+
+- **Quem descobriu:** a observação já está no ***Zibaldone* de Giacomo Leopardi** (pp. 4368–4369, setembro de 1828; conferido no Wikisource): os ditos *"sono tutti o quasi tutti gli stessissimi che il Laerzio ec. riferiscono di filosofi antichi, mutati solo i nomi"*. **Contradição registrada:** Leopardi acrescenta que Maquiavel "não sabia grego, pouco ou nada de latim, e era pouco letrado" e que teria seguido uma tradição popular; isso é **errado** quanto ao latim (Maquiavel copiou o *De rerum natura* de Lucrécio de próprio punho e lia Lívio no original) e desnecessário: Diógenes Laércio circulava em **latim**, na tradução de Ambrogio Traversari (século XV). Em inglês, **Leo Strauss** (*Thoughts on Machiavelli*, 1958) analisou os ditos e suas fontes clássicas (segundo a Wikipedia inglesa; livro não aberto).
+- **Os ditos que não achamos em Laércio** (podem ser de outras fontes ou dele): *"Non ti vergognare quando tu n'esci, ma quando tu v'entri"* (o rapaz saindo da casa da prostituta); *"Chi è tenuto savio di dì, non sarà mai tenuto pazzo di notte"*; *"la via dello andare allo inferno era facile, poiché si andava allo ingiù e a chiusi occhi"*; *"Ridi tu perché tu hai bene o perché uno altro ha male?"*; o que matou o amigo velho: *"aveva morto uno nimico nuovo"*; os vasos que se batem para testar antes de comprar, e a mulher que se escolhe só olhando; *"Se uno è ricco, quando egli ha fame; se uno è povero, quando e' può"*; o frade Lázaro no paraíso e Uguccione no inferno. **A conferir** em Laércio (a busca foi por palavras-chave, não leitura integral).
+
+### 10.4 História × invenção (contradições registradas)
+
+| Na *Vita* | Na história (fato documentado) |
+|---|---|
+| enjeitado achado numa vinha | nasceu em **29/03/1281** na família nobre **Antelminelli** (pai Gerio) |
+| "viveu 44 anos" (a idade de Filipe e Cipião) | morreu em **3/09/1328**, com **47** anos, de febre (malária), em Lucca |
+| criado por um cônego, depois protegido de Francesco Guinigi e tutor do filho dele | não corresponde à biografia real (detalhe não conferido nesta rodada) |
+| morre depois de uma grande vitória sobre Florença | as vitórias reais são **Montecatini (1315)** e **Altopascio (1325)**; a cronologia final é rearranjada |
+
+Fonte dos dados históricos: Wikipedia italiana, "Castruccio Castracani" (conferida; base fraca, mas os dados de nascimento e morte são consensuais). [Interpretação comum (Strauss; edições Inglese e Vivanti)] as mudanças são **deliberadas**: Maquiavel molda Castruccio como o "príncipe novo" que nasce do nada (*Príncipe* VI), e os discursos funcionam como os da *História de Florença*. Estudo recente: Carmelo Tramontana (2025), sobre a *Vita* como "reconstrução historiográfica e falsificação literária" (só o título foi visto).
+
+### 10.5 Lição para negócios [Interpretação nossa]
+
+1. **"Conhecer a si mesmo e medir as próprias forças"** (discurso a Pagolo): crescer além da estrutura deixa ao sucessor "mais inimigos e mais inveja".
+2. **Deixe o negócio ensinado, não só entregue** ("dois deveres: deixei-te o reino e ensinei-te a mantê-lo"): documentar processos é a herança.
+3. **"A vitória, não o modo da vitória, traz glória"**: frase forte para o agente, mas é **dita pelo personagem** e convive com a crítica de Maquiavel à fraude que mancha (*Príncipe* VIII: Agátocles "não pode ser chamado virtuoso"). O agente deve dizer isso.
+4. **Respostas curtas vencem** (os ditos): "quando quiseres algo de mim, manda outro" — objetividade com o cliente.
+5. **Até o "gênio" copia bem**: Maquiavel pegou ditos de Aristipo e Diógenes e os fez soar lucenses — adaptar referências estrangeiras ao seu público é virtude, não plágio, quando se cria algo novo.
+
+---
+
+## 11. Discorso o dialogo intorno alla nostra lingua
+
+### 11.1 Ficha
+
+- **Título:** o manuscrito do sobrinho-neto Giuliano de' Ricci chama-o *"un discorso o dialogo intorno alla nostra lingua"*; a 1ª edição (1730, apêndice ao *Ercolano* de Benedetto Varchi, ed. Bottari) chamou-o *Discorso ovvero Dialogo sopra il nome della lingua volgare*; o Wikisource o intitula *"Discorso ovvero dialogo in cui si esamina, se la lingua, in cui scrissero Dante, il Boccaccio, e il Petrarca, si debba chiamare italiana, toscana, o fiorentina"*.
+- **Manuscritos (fato documentado, Paolo Trovato, verbete da *Enciclopedia machiavelliana*, versão em PDF aberta nesta rodada):** só **4 manuscritos do século XVI**, nenhum autógrafo: Laurenziano Ashburnham 674 (A, sem nome do autor), Rinuccini 22 (B, metade, de Baccio Valori o Jovem), o **Apógrafo Ricci** (R, copiado em **1577**) e Barberiniano lat. 5368 (V, cópia de R). Todos descendem de um arquétipo perdido "cheio de erros".
+- **A nota de Giuliano de' Ricci (texto citado por Trovato):** "o estilo é um tanto diverso das outras coisas dele... não vi nem original nem rascunho... mas creio que se pode crer **indubitavelmente** que seja dele", porque "os conceitos parecem seus" e porque **Bernardo Machiavelli, filho de Niccolò, então com 74 anos, afirma lembrar-se de ouvir o pai falar dele e de vê-lo muitas vezes nas mãos dele**.
+- **Censura:** a edição de 1730 cortou o trecho contra a "corte de Roma" (§ 59), e as edições dos séculos XVIII–XIX copiaram o corte (Trovato).
+- **Edições críticas:** Sozzi (1976), Ornella Castellani Pollidori (1978, que criou a divisão em parágrafos em uso), Trovato (1982, hoje a mais seguida: Inglese 1997 e outras).
+
+### 11.2 Autoria e data (o debate, com as versões)
+
+| Posição | Quem | Argumento |
+|---|---|---|
+| **Não é dele** | Polidori (séc. XIX); Tommasini (dúvida) | estilo e "antidantismo" |
+| **Duvidoso e tardio** | **Cecil Grayson** (1970–1971) | não pode ser anterior a 1524–1525, "provavelmente mais tarde", logo a atribuição é duvidosa |
+| **Falsificação** | Sergio Bertelli (1976); **Mario Martelli** (*Una giarda fiorentina*, Roma, 1978; e 1979, 1999) | seria uma *giarda* (beffa, peça) contra os Acadêmicos Florentinos, feita **por volta de 1577** |
+| **É dele** (consenso atual) | Ridolfi, Rajna (1893), Villari; **Castellani Pollidori** (1978); **Dionisotti** (1980, que refutou Martelli); Trovato (1981, 1982, 2014); Baldelli, Folena, Gensini, Inglese | nota de Ricci + testemunho do filho; paralelos com o debate florentino de 1524 |
+
+**Datas propostas:** **1514** (Rajna, por um testemunho tardio de Gelli) ou 1515–1516 (Baron) — hoje abandonadas; **outono de 1525** (Chiappelli; Castellani Pollidori, por paralelos com a *Risposta* de Lodovico Martelli, impressa em dezembro de 1524); **outono de 1524** (Trovato, Rajna, Pozzi, Dionisotti): o texto cita os *Suppositi* de Ariosto e escritores "ferrareses, napolitanos, vicentinos e venezianos" (Trissino), não conhece as "letras novas" gregas que Trissino propôs em 1524 nem as *Prose della volgar lingua* de Bembo (setembro de 1525), e foi escrito *"in questo mio vendemmial negozio"* ("neste meu negócio da vindima" — no sítio de Sant'Andrea em Percussina, na colheita da uva). **A mais aceita hoje: outono de 1524**, por Maquiavel. Trovato observa que o texto "não exigiu pesquisas extensas" e usa noções de manual (pureza e barbarismo).
+- **Correção:** a seção 1 deste arquivo e `frente-lindson/escritos-menores.md` 2.15 dão "1524–1525" e "1514–1516 a 1524–1525": manter **1524 (mais provável) ou 1525**.
+
+### 11.3 Conteúdo (texto conferido, Wikisource)
+
+- **Abertura patriótica:** *"l'uomo non ha maggiore obbligo nella vita sua, che con quella [la patria]"*; quem se faz inimigo da pátria "pode ser chamado **parricida**, ainda que por ela tivesse sido ofendido" (dito por quem foi torturado pela pátria em 1513).
+- **A questão:** a língua de Dante, Petrarca e Boccaccio é "italiana" (os "inonestissimi"), "toscana" (os "meno inonesti") ou "florentina"? Ele escreve "para terminar a questão, ou para dar a cada um matéria de maior contenda".
+- **O método:** comparar os três com textos "puros" de cada região, "onde não há arte, mas toda natureza".
+- **O diálogo com Dante (a parte famosa):** "N." (Niccolò) chama **Dante** e o interroga sobre palavras da *Commedia*: *spingava* (de *spingare*, dar coice, uso florentino), *zanca* (as pernas de pau do São João florentino) — *"Per mia fe tu ti guardi assai bene dai vocaboli Fiorentini!"* ("Por minha fé, tu te guardas muito bem das palavras florentinas!", ironia); depois põe lado a lado o começo do *Inferno* e versos do *Morgante* de **Luigi Pulci** (florentino puro): *"che differenza è...?" — "Poca."*
+- **Como as línguas absorvem palavras de fora:** os vocábulos estrangeiros, *"riducendosi nel parlare con i modi, con i casi, con le differenze, e con gli accenti"* da língua que os recebe, *"diventano suoi... e così i vocaboli forestieri si convertono in Fiorentini, non i Fiorentini in forestieri"* ("as palavras estrangeiras **se convertem em florentinas, e não as florentinas em estrangeiras**"); assim as línguas "enriquecem"; mas em centenas de anos, com excesso de palavras novas, *"imbastardiscono"*.
+- **A comédia (a frase citada no topo deste arquivo, conferida):** *"ancora che il fine d'una commedia sia proporre uno specchio d'una vita privata, nondimeno il suo modo del farlo è con certa urbanità, e con termini che muovano riso, acciocchè gli uomini correndo a quella dilettazione, gustino poi l'esemplo utile, che vi è sotto"* ("ainda que o fim da comédia seja **propor um espelho de uma vida privada**, o modo é com urbanidade e palavras que façam rir, para que os homens, correndo a esse prazer, provem depois o exemplo útil que está por baixo"); por isso as pessoas cômicas não podem ser graves: *"non può esser gravità in un servo fraudolente, in un vecchio deriso, in un giovane impazzato d'amore"*. O exemplo negativo é **Ariosto**, nos *Suppositi*, que, por não ser florentino, usa palavras como *"bigonzoni"* e "com quanta dificuldade mantém o decoro daquela língua que tomou emprestada".
+- **Conclusão (texto):** *"non c'è lingua che si possa chiamare o comune d'Italia o curiale, perchè tutte quelle che si potessino chiamare così, hanno il fondamento loro dagli scrittori Fiorentini e dalla lingua Fiorentina"*. E o fecho cômico: *"Udito che Dante ebbe queste cose, le confessò vere, e si partì, e io mi restai tutto contento, parendomi d'averlo sgannato"* ("ouvidas essas coisas, Dante confessou que eram verdade e foi embora, e eu fiquei todo contente, parecendo-me tê-lo **desenganado**"), com a farpa final contra quem quer misturar com o florentino "Milão, Veneza e a Romanha, e todas as **blasfêmias da Lombardia**".
+- **Contexto (fato documentado):** a "questão da língua" do século XVI: **Gian Giorgio Trissino** (vicentino) defendia uma língua "cortesã" italiana comum, a partir do *De vulgari eloquentia* de Dante, que ele redescobriu; **Pietro Bembo** defendia o toscano literário do século XIV. O *Discorso* defende o **florentino vivo**.
+- **Leitura política:** Susan Meld Shell escreveu sobre o *Discorso* em Sullivan (org.), *The Comedy and Tragedy of Machiavelli* (2000); o ensaio não foi aberto nesta rodada. [Interpretação nossa] a abertura (dever para com a pátria, "parricida") e a regra da "conversão" das palavras estrangeiras ligam o texto aos *Discursos* (II.3–4, sobre como Roma crescia incorporando os de fora).
+
+### 11.4 Lição para negócios [Interpretação nossa]
+
+1. **Fale a língua do cliente**, não o jargão (é o padrão de copy do repositório, `agencia/prospeccao/PADRAO-COPY.md`).
+2. **Adapte o que vem de fora** "aos seus modos e acentos": técnica estrangeira só funciona quando "vira brasileira".
+3. **O espelho com riso**: conteúdo que faz rir e depois ensina ("gustino poi l'esemplo utile, che vi è sotto") é exatamente a fórmula de post que educa.
+4. **Quem não domina a língua do público perde o "decoro"** (Ariosto e os *bigonzoni*): copy traduzida ao pé da letra soa falsa.
+
+---
+
+## 12. Obras perdidas e falsamente atribuídas
+
+A tabela completa de atribuições duvidosas e falsas está em `missoes-e-escritos-politicos.md` A.6 e A.7 (conta Zuleide). Aqui, o que importa à obra literária, com o que foi conferido nesta rodada.
+
+| Obra | Situação | O que se sabe (com a fonte) |
+|---|---|---|
+| ***Le maschere*** (c. 1504) | **perdida** | comédia/diálogo à maneira de Aristófanes contra figuras florentinas; só a notícia de Giuliano de' Ricci, que não a copiou por ser mordaz demais (*Enc. mach.*, "Maschere", aberto pela conta Zuleide; a nota de Ricci não foi conferida nesta rodada). [Interpretação] a *"commedia in guazzeroni"* do 2º soneto da prisão (1513, seção 9.4) mostra que Maquiavel já tinha comédia antes da *Mandrágora* |
+| ***Commedia in prosa*** (*Il frate*) | **falsa** | é de Anton Francesco Grazzini, "il Lasca"; as *Opere minori* de 1852 já a imprimem entre as "operette attribuite" (índice conferido) |
+| ***Commedia in versi*** | **falsa** (só copiada por ele) | de Lorenzo di Filippo Strozzi |
+| ***Dell'ira e de' modi di curarla*** | **duvidosa/versão** | versão do diálogo de Plutarco *De cohibenda ira*; "operetta attribuita" em 1852 (índice conferido) |
+| ***Descrizione della peste*** (1527) | **duvidosa** | o prefácio das *Opere complete* (1843, conferido) diz que o códice que a contém é "de mão de Maquiavel", junto com a *Allocuzione* e os *Capitoli per una compagnia di piacere*; autógrafo de cópia ou de autor? em aberto |
+| ***Capitoli per una compagnia di piacere*** | aceita | **texto conferido** (*Opere minori*, 1852): estatuto cômico de um clube de homens (com mais de 30 anos) e mulheres (de qualquer idade); o chefe dura oito dias e é, entre os homens, quem tiver **o maior nariz** e, entre as mulheres, **o menor pé**; quem **não** contar em um dia o que se fez na companhia é punido (as chinelas dela penduradas à vista; as meias dele, do avesso); *"Debbasi sempre dire male l'uno dell'altro"* ("deve-se sempre falar mal uns dos outros"); só se confessa na Semana Santa, e o confessor deve ser **cego**, "e se for meio surdo, tanto melhor". É o regulamento invertido: paródia dos estatutos das confrarias e das magistraturas |
+| ***Discorso intorno alla lingua*** | **aceita** (debate encerrado para a maioria) | seção 11 |
+| Epigrama ao cão **Furia** | **provável** | seção 9.6 |
+| Frases "de Maquiavel" em coletâneas (*La mente di un uomo di Stato*, 1771) | **não são obras** | ver `missoes-e-escritos-politicos.md` A.6 e `recepcao-e-estudiosos.md` |
+
+---
+
+## 13. Estilo e humor
+
+### 13.1 Os traços, com exemplos conferidos
+
+1. **Autoderrisão de assinatura:** *"istorico, comico et tragico"* (a Guicciardini, 21/10/1525; seção 1); o prólogo da *Mandrágora* ("se não rirdes, ele paga o vinho"); *"non sono il Dazzo, ma sono io"* (soneto da prisão); *"ch'io son maghero anch'io"* (os tordos).
+2. **A farsa diplomática:** na missão aos frades de Carpi, *"il fumo ne è ito sino al cielo"* e a *"repubblica de' zoccoli"* (maio de 1521; `missoes-e-escritos-politicos.md` B.14).
+3. **Obscenidade de taberna em duplo sentido:** os cantos das pinhas e dos charlatães (9.2); a *Mandrágora*; as cartas a Vettori sobre amantes (`vida-e-cartas.md`).
+4. **A tirada curta que fecha o assunto:** os ditos de Castruccio (10.3), o epigrama de Soderini no limbo (9.6), *"chi vede il Diavol daddovero, / lo vede con men corna"* (9.2).
+5. **A paródia de instituições:** o inferno de Plutão que consulta o conselho como uma república (*Belfagor*, 5.3); o estatuto da *compagnia di piacere* (12); Dante "desenganado" e mandado embora (11.3).
+6. **O dilema seco ("o... o"):** até na poesia — Pomona "de todos os lados é obrigada a responder" (*Serenata*); na prosa política, "ou beneficiar ou extinguir" (*Valdichiana*).
+7. **A ironia sobre a religião de fachada:** frei Timóteo (*Mandrágora*), os eremitas do canto, "frei Lázaro no paraíso e Uguccione no inferno" (Castruccio).
+8. **Mistura de registros:** palavras do *Paraíso* de Dante para a noite de amor (*L'Asino* IV); tercetos dantescos para a crônica de guerra (*Decennali*); linguagem de lei para a piada (*Capitoli per una compagnia*).
+
+### 13.2 O que os estudiosos dizem [Interpretação]
+
+- **Riso como resposta à derrota:** o prólogo da *Mandrágora* ("fazer o seu triste tempo mais suave... porque não tem para onde voltar o rosto") é a chave mais citada; Maurizio Viroli fez disso o título da biografia (*Il sorriso di Niccolò*, 1998; *Niccolò's Smile*, 2000).
+- **Comédia e política são uma coisa só** (Raimondi, *Politica e commedia*, 1972; Sumberg 1961; Mansfield 2000): a *Mandrágora* aplica à casa a lógica do *Príncipe*.
+- **Leopardi** (1828) via nos ditos de Castruccio uma cultura "popular" de Maquiavel; a filologia moderna mostrou o contrário: ele **adapta** fontes eruditas (Laércio, Plutarco, Ovídio, Ausônio, Terêncio, Plauto, Apuleio) para a língua viva de Florença — o que o *Discorso sobre a língua* defende na teoria.
+
+### 13.3 Como o agente usa isso
+
+- **Uma ironia por resposta, no máximo**, e sempre a serviço do conselho; nunca zombar do Lindson nem do cliente dele.
+- **Obscenidade: não.** O agente sabe que existe (e pode explicá-la se perguntado), mas não a reproduz em conteúdo para clientes.
+- **A tirada curta como fecho:** terminar um conselho com uma frase de Castruccio ou de um canto, citando a fonte, funciona como "assinatura" do agente.
+- **Autoderrisão estratégica:** quando o Lindson errar, o agente pode lembrar o "não sou o Dazzi, sou eu": reconhecer a queda sem perder a identidade.
+
+---
+
+## 14. Uso pelo agente
+
+### 14.1 Situação → obra literária [Interpretação nossa, com a fonte]
+
+| Situação do Lindson | Obra e trecho | Conselho |
+|---|---|---|
+| Cliente resiste a uma proposta boa | *Mandrágora* (o plano de Ligúrio, ato por ato) | descubra o desejo e o medo de cada decisor e dê a cada um o seu motivo |
+| Sócio ou cliente apaixonado por uma ideia ruim | *Clizia* (Nicomaco e o "antes e depois", II.4; Sofronia, V.3) | não brigue: deixe o erro ficar visível diante de testemunhas e ofereça a volta digna |
+| Custos fixos de aparência | *Belfagor* (os cem mil ducados consumidos) | corte o luxo que não vende |
+| Equipe acomodada que não quer mudar | *L'Asino* VIII (o porco que não quer voltar a ser homem) | não gaste energia com quem prefere a lama |
+| Medo de agir esperando ajuda | *L'Asino* V ("crer que Deus lute por ti... de joelhos") | reze, mas escore a casa |
+| Cliente que você fez crescer e agora o despreza | *Capitolo dell'Ingratitudine* | contrato, entrega contínua e dependência saudável |
+| Ambição da equipe virando briga interna | *Capitolo dell'Ambizione* ("juízo... ordem e ferocidade") | aponte a ambição para fora (mercado) |
+| Mercado mudou e o método antigo parou | *Capitolo di Fortuna* ("pular de roda em roda") | monte equipe com naturezas diferentes |
+| Oportunidade aparecendo | *Capitolo dell'Occasione*; *Canto d'amanti disperati* | cabelo na frente, calva atrás: decida no prazo |
+| Concorrentes locais brigando | *Canto degli spiriti beati* | coopere contra o gigante de fora quando fizer sentido |
+| Medo de um problema grande | *Canto de' romiti* ("o diabo de perto tem menos chifres") | examine de perto antes de desistir |
+| Crescer além da conta | *Vita di Castruccio* (discurso a Pagolo) | "conheça a si mesmo e meça as forças" |
+| Planejar sucessão ou delegação | *Vita di Castruccio* ("ensinei-te a mantê-lo") | documente processos |
+| Escrever copy | *Discorso intorno alla lingua* | língua viva do cliente; palavras de fora "convertidas" |
+| Post educativo | *Discorso* ("espelho de uma vida privada"... "gustino poi l'esemplo utile") e prólogo da *Clizia* ("giovare e dilettare") | primeiro o riso, depois a lição |
+| Pedido de ajuda num mau momento | sonetos a Giuliano ("julgue pelas mãos, não pelos olhos") | humor, dignidade e prova concreta |
+| Gestor indeciso | epigrama de Soderini (o limbo) | quem não decide não vai nem ao inferno |
+
+### 14.2 As 30 frases mais fortes da obra literária (conferidas)
+
+1. *"Niccolò Machiavelli, istorico, comico et tragico"* — carta a Guicciardini, 21/10/1525.
+2. *"Questa è Firenze vostra. / Un'altra volta sarà Roma, o Pisa"* — *Mandrágora*, prólogo.
+3. *"Fare il suo triste tempo più suave"* — *Mandrágora*, prólogo.
+4. *"Sì suave è l'inganno / Al fin condotto desiato e caro"* — *Mandrágora*, canção depois do ato III.
+5. *"Se nel mondo tornassero i medesimi uomini, come tornano i medesimi casi..."* — *Clizia*, prólogo.
+6. *"Sono trovate le commedie per giovare, e per dilettare agli spettatori"* — *Clizia*, prólogo.
+7. *"Le faccende sue si stracurano, i poderi si guastano, i traffichi rovinano"* — *Clizia* II.4.
+8. *"Quel che rovina... i Regni, è questo, che i potenti / Di lor potenza non son mai satolli"* — *L'Asino* V.
+9. *"La virtù fa le region tranquille; / E da tranquillità poi ne risolta / L'ozio"* — *L'Asino* V.
+10. *"Creder, che senza te per te contrasti / Dio, standoti ozioso, e ginocchioni, / Ha molti Regni, e molti Stati guasti"* — *L'Asino* V.
+11. *"Quanti mi parver già Fabi, e Catoni, / ... / Mi riusciron pecore, e montoni!"* — *L'Asino* VII.
+12. *"Se voi il tempio riapriste a Marte"* — *Decennale primo*.
+13. *"Tanto a fortuna chi ben fa dispiace!"* — *Decennale secondo* (Giacomini).
+14. *"Sarebbe un sempre felice, e beato, / Che potesse saltar di ruota in ruota"* — *Di Fortuna*.
+15. *"L'una racconcia il mondo, e l'altro il guasta"* (Necessidade e Ócio) — *Di Fortuna*.
+16. *"Gli è più potente la paura / Ch'egli ha di te, che l'obligo contratto"* — *Dell'Ingratitudine*.
+17. *"Può supplire / L'educazion, dove natura manca"* — *Dell'Ambizione*.
+18. *"Tener la spada, e non il libro in mano"* — *Dell'Ambizione*.
+19. *"Chi non sa prender me, costei ritiene"* (a Penitência) — *Dell'Occasione*.
+20. *"Com'io ti son fuggita dalle mani!"* — *Dell'Occasione*.
+21. *"Chi non fa, quand'egli ha tempo, appresso / Si pente, e prega invano"* — *Canto d'amanti disperati*.
+22. *"Chi vede il Diavol daddovero, / Lo vede con men corna, e manco nero"* — *Canto de' romiti*.
+23. *"Le vostre contese / Agl'inimici vostri aprin la via"* — *Canto degli spiriti beati*.
+24. *"E giudichi a le mani e non agli occhi"* — soneto dos tordos a Giuliano, 1513.
+25. *"Va su nel limbo fra gli altri bambini"* — epigrama de Soderini, 1522.
+26. *"La fortuna... vuole essere arbitra di tutte le cose umane"* — *Vita di Castruccio* (discurso a Pagolo).
+27. *"Cognoscere se stesso, e sapere misurare le forze dello animo e dello stato suo"* — *Vita di Castruccio*.
+28. *"La vittoria, non el modo della vittoria, ti arrecava gloria"* — *Vita di Castruccio* (fala atribuída ao personagem).
+29. *"I vocaboli forestieri si convertono in Fiorentini, non i Fiorentini in forestieri"* — *Discorso intorno alla lingua*.
+30. *"Proporre uno specchio d'una vita privata... acciocchè... gustino poi l'esemplo utile, che vi è sotto"* — *Discorso intorno alla lingua*.
+
+### 14.3 Correções registradas nesta rodada
+
+| Ponto | Antes | Agora | Fonte |
+|---|---|---|---|
+| Data do *Discorso sobre a língua* | "1514–1516 a 1524–1525" (`escritos-menores.md`) | **outono de 1524** (mais provável); 1525 possível; 1514–16 abandonado | Trovato, *Enc. mach.* |
+| Autoria do *Discorso* | "contestada" | **consenso a favor**; só Martelli (1978–1999) manteve a tese da falsificação | Trovato |
+| Ditos de Castruccio | "adaptados de Diógenes Laércio" (sem prova) | conferido caso a caso (11 ditos de Aristipo e Diógenes); outros ainda sem fonte achada | Laércio, trad. Yonge |
+| Leopardi sobre Maquiavel | — | o *Zibaldone* acerta a fonte e erra sobre o latim de Maquiavel | *Zibaldone* 4368–4369 |
+| Castruccio "44 anos" | dado do texto | real: 1281–1328, 47 anos | Wikipedia it. |
+
+### 14.4 Lacunas (para a próxima rodada)
+
+1. **Treccani bloqueada nesta sessão** (www.treccani.it fora da rede permitida): não deu para reabrir os verbetes "Canti carnascialeschi", "Rime", "Vita di Castruccio", "Maschere"; usar a versão em PDF do verbete de Trovato (aberta) como modelo para buscar outros PDFs de autores.
+2. **Cantos de carnaval:** lista completa das atribuições na edição Vivanti (*Opere* III, 2005) e em Bausi; datas de cada canto (*Spiriti beati*: 1513 ou 1523?; *Romiti*: profecia do dilúvio de 1524?).
+3. **Carta de Zanobi Buondelmonti de 6/09/1520** (parecer sobre a *Vita di Castruccio*): não conferida.
+4. **Ditos de Castruccio** ainda sem fonte achada: ler Laércio inteiro (II e VI) e Plutarco (*Apophthegmata*); conferir Strauss 1958.
+5. ***Serenata***, canção a "Giulio", estâncias: datas e destinatários.
+6. **Nota de Giuliano de' Ricci** sobre *Le maschere*: conferir no Apógrafo Ricci ou em Ridolfi.
+7. **Estudos não abertos:** Vivanti; Inglese (comentários); Bausi ("Rime sparse"); Shell e Godorecci em Sullivan (2000); Tramontana (2025); Viroli (1998).
+8. **Traduções em português, espanhol, francês e alemão** dos poemas, da *Vita* e do *Discorso*: não levantadas (a seção do topo lista só as da *Mandrágora*).
