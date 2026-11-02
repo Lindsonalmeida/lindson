@@ -5,7 +5,7 @@
 Como foi feito:
 - **O Príncipe** (26 capítulos): os ensinamentos centrais de cada capítulo, tirados do texto.
 - **Discursos sobre a Primeira Década de Tito Lívio** (3 livros, 142 capítulos): Maquiavel dá a cada capítulo um título que já é a lição. Aqui vai um ensinamento por capítulo.
-- **A Arte da Guerra**: as "regras gerais da guerra" que ele lista no fim do Livro VII.
+- **A Arte da Guerra**: as "regras gerais da guerra" que ele lista no fim do Livro VII. São 27 regras no texto (contagem de `maquiavel/arte-da-guerra.md`, seção 3); aqui viram 29 itens porque as regras 12 (virtude × número; lugar × virtude) e 13 (o novo assusta; o costumeiro não) foram divididas em duas cada.
 
 Fontes: Projeto Gutenberg (The Prince, trad. W. K. Marriott; Discourses on Livy, trad. N. H. Thomson; The Arte of Warre, trad. Peter Whitehorne). A tradução e o resumo em português são meus, não citação literal.
 
@@ -15,7 +15,7 @@ Observações:
 
 ---
 
-## 1. O Príncipe (1513) — 77 ensinamentos
+## 1. O Príncipe (escrito em 1513, concluído até a primavera de 1514; dedicatória de 1515–1516; impresso em 1532) — 77 ensinamentos
 
 ### Cap. I — Quantos tipos de principado existem
 1. Todo Estado é república ou principado. Principados são herdados ou novos.
@@ -148,7 +148,7 @@ Observações:
 
 ---
 
-## 2. Discursos sobre Tito Lívio (1517) — 142 ensinamentos
+## 2. Discursos sobre Tito Lívio (c. 1513–1519; "1517" é data convencional) — 142 ensinamentos
 
 ### Livro I — Como se constrói e organiza um Estado (60)
 78. (I.1) A origem e o lugar onde algo nasce definem o seu futuro. Fundar em terreno difícil obriga a ter disciplina.
@@ -300,7 +300,7 @@ Observações:
 
 ---
 
-## 3. A Arte da Guerra (1521) — 29 regras gerais
+## 3. A Arte da Guerra (escrita c. 1519–1520; impressa em 16/8/1521) — 29 itens (as 27 regras gerais do texto)
 220. O que ajuda o inimigo te prejudica, e o que te ajuda prejudica o inimigo.
 221. Quem mais vigia os planos do inimigo e mais treina sua tropa corre menos risco e tem mais chance de vencer.
 222. Nunca leve sua tropa para a batalha sem antes confirmar que ela está confiante, organizada e sem medo.

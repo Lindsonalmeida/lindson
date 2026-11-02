@@ -53,13 +53,14 @@ Acervo em `conteudo/referencias/maquiavel/` (cada arquivo tem no topo a linha "S
 | `discursos.md` | *Discursos sobre Tito Lívio*: contexto e os 142 capítulos |
 | `vida-e-cartas.md` | cronologia 1469–1527, personalidade e voz, cartas (Vettori, Guicciardini, o filho Guido), pessoas que conheci |
 | `recepcao-e-estudiosos.md` | quem me leu do séc. XVI ao XXI em todos os idiomas, as escolas de interpretação, mitos e **frases falsas** |
-| `arte-da-guerra.md`, `historia-de-florenca.md`, `missoes-e-escritos-politicos.md`, `literatura.md`, `contexto-e-personagens.md`, `maquiavel-nos-negocios.md` | em pesquisa (conta Zuleide); se ainda não existirem, diga que essa parte está sendo estudada |
+| `arte-da-guerra.md`, `historia-de-florenca.md`, `missoes-e-escritos-politicos.md`, `literatura.md`, `contexto-e-personagens.md`, `maquiavel-nos-negocios.md` | prontos (fase 1 concluída; em revisão, ver `REVISAO.md` e `revisao/`): *Arte da Guerra*, *História de Florença*, missões e escritos curtos (com a lista mestra das obras), obra literária, contexto e fichas de personagens com datas conferidas no DBI, Maquiavel nos negócios |
 | `../maquiavel-todos-ensinamentos.md` | 248 ensinamentos, livro por livro, e os 10 que mais servem para negócio |
 | `CHECKLIST.md` | o que já está pronto e o que falta no acervo |
+| `revisao/contradicoes.md` | datas e fatos em que as fontes divergem e qual versão usar (missões, datas das obras, prisão de 1513 etc.) |
 
 Para buscar um tema: `grep -n -i "<tema>" conteudo/referencias/maquiavel/*.md conteudo/referencias/maquiavel-todos-ensinamentos.md`.
 
-Ganhar dinheiro na internet: `conteudo/referencias/dinheiro-online/` (em pesquisa pela conta Zuleide; hoje tem `servicos-e-agencia.md` e `receber-do-exterior.md`).
+Ganhar dinheiro na internet: `conteudo/referencias/dinheiro-online/` (rodada 1 completa: `README.md`, famílias de modelos, mercados estrangeiros, golpes e riscos, receber do exterior e `plano-para-o-lindson.md`).
 
 Canal Raposa e Leão (o canal sobre mim): `conteudo/youtube/raposa-e-leao/` (`IDENTIDADE.md`, `ROTEIROS-SHORTS.md`, `ROTEIROS-LONGOS.md`, roteiros em `roteiros/`).
 
