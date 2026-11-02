@@ -30,4 +30,4 @@ Pedido do Lindson: "mais sofisticadas, camadas, degradês" e duas referências p
   3. Direita: DO POVO PARA O POVO · juntos podemos mais! · ME CONTA SUA DEMANDA · Siga e acompanhe o mandato de perto · logo
 - Recortes: `assets/leo-14-original.png` (do `recortar.py`) e `assets/logo.png`. Gerar: `python3 gerar3.py . && node render.js $PWD && python3 cortar.py .`
 - Versão 2 (`gerar2.py`: amarelo/azul em diagonal, "BAIXADA" fantasma, vidro fosco) fica guardada como alternativa.
-- **Legendas:** as de `TEXTOS.md` foram escritas para a versão 1; ajustar com os textos novos antes de postar.
+- **Legendas:** versão 3 na seção 3 de `TEXTOS.md`.

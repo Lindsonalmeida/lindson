@@ -152,3 +152,91 @@ Cuidados:
 - Reels entram na grade também: nada de reels entre os três.
 - Para a apresentação ficar sempre no topo, fixar os três na mesma ordem (direita, meio, esquerda), porque o último fixado aparece primeiro. Isso substitui os 3 fixados previstos na estratégia até o vídeo "Quem é o Leo" ficar pronto; aí decidir com o Lindson qual fica.
 - Os próximos posts devem sair de 3 em 3 se quiser manter a linha alinhada; se não, a apresentação continua íntegra enquanto estiver fixada.
+
+---
+
+## 3. Legendas da versão 3 (atual, 02/11/2026, conta Lindson)
+
+Textos das artes v3: "Prazer, eu sou o Leo" · LEO PINTO, vereador mais bem votado, jovem, engenheiro, compromisso com São João Batista · DO POVO PARA O POVO, me conta sua demanda.
+"Vereador mais bem votado" foi passado pelo Lindson em 02/11: conferir no resultado oficial do TSE (2024) antes de postar.
+Ordem de postagem: direita → meio → esquerda. Hashtags diferentes em cada post; só a #tôcomléopinto (marca) se repete.
+
+### Post 1 · DIREITA · "Do povo para o povo" (postar primeiro)
+
+DO POVO PARA O POVO: O MANDATO DO VEREADOR LEO PINTO EM SÃO JOÃO BATISTA
+
+Oi, gente! Aqui é o Leo Pinto, vereador de São João Batista, no Maranhão. E este perfil agora tem uma missão: ser o lugar onde você acompanha o mandato de perto.
+
+📌 O que quer dizer "do povo para o povo"?
+Quer dizer que o mandato não é meu. É de quem acordou cedo pra votar, de quem mora no bairro e no povoado e sabe melhor do que ninguém o que está faltando. Eu sou a ponte entre você e a Câmara.
+
+🤝 Juntos podemos mais!
+Vereador nenhum resolve nada sozinho. Quando você me conta onde a rua alagou, onde falta iluminação ou onde o posto precisa de atenção, eu levo pra Câmara e corro atrás de quem tem que resolver.
+
+💬 Como mandar a demanda do seu bairro
+1. Comenta aqui o nome do seu bairro ou povoado e o que está precisando.
+2. Ou me chama no direct, com foto se puder.
+3. Eu respondo e te conto o andamento.
+
+💡 Exemplo
+"Leo, aqui no meu bairro a rua tá cheia de buraco desde o inverno." Com o lugar certinho e uma foto, fica muito mais fácil cobrar a solução.
+
+✅ Segue e acompanha
+Este post é a primeira parte da apresentação do perfil. Passa no perfil e vê as outras duas. E segue a página pra acompanhar o mandato todo dia.
+
+👇 Me conta nos comentários: qual é a demanda do seu bairro?
+
+#dopovoparaopovo #vereadorpresente #saojoaobatistama #tôcomléopinto
+
+### Post 2 · MEIO · "Leo Pinto, vereador mais bem votado"
+
+VEREADOR MAIS BEM VOTADO DE SÃO JOÃO BATISTA: JOVEM, ENGENHEIRO E COMPROMETIDO COM A CIDADE
+
+Em 2024, São João Batista me deu uma responsabilidade enorme: ser o vereador mais bem votado da cidade. Eu não encaro isso como troféu. Encaro como compromisso.
+
+📌 Quem é o Leo Pinto?
+Sou jovem, sou engenheiro e sou daqui. Cresci vendo o que a nossa cidade tem de bonito e o que ainda precisa melhorar. Hoje trabalho todo dia pra que a confiança de cada voto vire resultado.
+
+🛠 Por que ser engenheiro ajuda um vereador?
+Boa parte do que o povo pede é obra: estrada, ponte, rua, calçamento, drenagem. Quem é engenheiro olha um problema desses e entende o que precisa ser feito e o que é preciso cobrar de quem executa.
+
+💪 Por que ser jovem faz diferença?
+Energia pra estar na rua, nos povoados e nos bairros, ouvindo de perto. E vontade de ver São João Batista crescer junto com a nossa juventude.
+
+💡 Exemplo
+Sabe aquela ponte ou estrada que todo mundo do seu povoado usa? Me conta nos comentários. Eu vou até lá e explico aqui, em linguagem simples, o caminho pra resolver.
+
+✅ Compromisso com São João Batista
+Este post é a segunda parte da apresentação do perfil. Segue a página pra acompanhar o trabalho de perto.
+
+👇 Comenta aqui: qual obra do seu bairro você quer que eu explique?
+
+#vereadormaisvotado #engenheirocivil #baixadamaranhense #tôcomléopinto
+
+### Post 3 · ESQUERDA · "Prazer, eu sou o Leo" (postar por último)
+
+PRAZER, EU SOU O LEO PINTO: CONHEÇA O VEREADOR DE SÃO JOÃO BATISTA-MA
+
+Se você chegou agora no perfil, seja muito bem-vindo! Prazer, eu sou o Leo. Vereador de São João Batista, no coração da Baixada Maranhense.
+
+📌 Quem sou eu, em poucas palavras
+Jovem, engenheiro e filho desta terra. Fui o vereador mais bem votado da cidade em 2024 e levo essa confiança como o maior compromisso da minha vida.
+
+🗺 O que você vai encontrar aqui
+• A rua: visitas aos bairros e povoados, conversa com o povo.
+• A Câmara: o que eu defendo e por quê, explicado sem complicação.
+• A prestação de contas: o que foi pedido, o que andou e o que ainda falta.
+• A nossa cidade: a cultura, a fé, o futebol e as histórias de São João Batista.
+
+🤝 Do povo para o povo
+Este perfil é uma via de mão dupla. Você me conta o que o seu bairro precisa, eu levo adiante e te mostro o andamento aqui.
+
+💡 Exemplo
+Mandou a demanda no comentário ou no direct? Ela entra na minha lista e você acompanha a resposta por aqui mesmo.
+
+✅ Juntos podemos mais!
+Esta é a terceira parte da apresentação. Olha as três juntas no perfil e segue a página pra não perder nada do mandato.
+
+👇 Me conta: de qual bairro ou povoado você é?
+
+#vereadordesaojoaobatista #politicalocal #maranhao #tôcomléopinto
