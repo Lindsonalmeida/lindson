@@ -205,7 +205,7 @@ def carregar_fontes():
     for v, lab in (("05", "Prose/scritti minori"), ("06", "Legazioni"), ("07", "Legazioni"), ("08", "Lettere familiari")):
         add(f"Opere (Italia 1813) vol. {v} (IA)", f"opere1813-vol{v}.txt", "primária", lab)
     add("Opere complete (Firenze 1843, IA)", "opere-complete-1843.txt", "primária", "Opere complete 1843")
-    add("Lettere (IA lettere00mach)", "lettere00mach.txt", "primária", "Lettere")
+    add("Lettere, ed. Lesca 1929 (IA lettere00mach)", "lettere00mach.txt", "primária", "Lettere")
     for i in (1, 2, 3):
         add(f"Villari, Machiavelli e i suoi tempi vol. {i} (secundária)", f"villari-vol{i}.txt", "secundária", "Villari (cita documentos)")
     return fontes

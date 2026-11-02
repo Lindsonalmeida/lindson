@@ -1,0 +1,370 @@
+[
+ {
+  "arq": "contexto-e-personagens.md",
+  "linha": 217,
+  "antes": "(\"le deliberazioni lente sono sempre nocive\"; ver `discursos.md`)",
+  "depois": "(\"sempre le diliberazioni lente sono nocive\", título de II.15; ver `discursos.md`)",
+  "fonte": "Discorsi II.15, título (BibIt/Martelli; Wikisource)",
+  "tipo": "correção"
+ },
+ {
+  "arq": "historia-de-florenca.md",
+  "linha": 141,
+  "antes": "E chi vorrà intendere questo, noti molto bene quello che io farò dire ai suoi avversari",
+  "depois": "E chi vorrà anco intendere questo, noti molto bene quello ch'io farò dire ai suoi avversari",
+  "fonte": "carta de Giannotti transcrita por R. Black, prefácio aos Scritti storici, ed. Bompiani 2018",
+  "tipo": "correção"
+ },
+ {
+  "arq": "historia-de-florenca.md",
+  "linha": 700,
+  "antes": "o rei se espanta com «la grandezza dello animo suo",
+  "depois": "o rei se espanta com «della grandezza dello animo suo",
+  "fonte": "Istorie VIII.19 (BibIt/Martelli)",
+  "tipo": "correção"
+ },
+ {
+  "arq": "literatura.md",
+  "linha": 98,
+  "antes": "\"*di uno certo vechio dotor fiorentino che havea una moglie, non potea far fioli*\"",
+  "depois": "\"*di uno certo vechio dotor fiorentino, che havea una moglie et non potea far fioli*\" (conferido na transcrição de Villari, *Machiavelli e i suoi tempi*, vol. III; diário de Sanudo não aberto)",
+  "fonte": "Sanudo, Diarii, 13/02/1522, transcrito por Villari III",
+  "tipo": "correção"
+ },
+ {
+  "arq": "missoes-e-escritos-politicos.md",
+  "linha": 446,
+  "antes": "*\"se sono assai e reputate, sono o insopportabili o sospette; se sono poche e senza riputazione sono di nessuna utilità\"*",
+  "depois": "*\"se sono assai e reputate, sono o insopportabili o sospette; se poche e senza riputazione sono di nessuna utilità\"*",
+  "fonte": "Provisione della ordinanza (1506), texto citado no prefácio da ed. Bompiani 2018 (mesma citação de Fournel–Zancarini)",
+  "tipo": "correção"
+ },
+ {
+  "arq": "missoes-e-escritos-politicos.md",
+  "linha": 446,
+  "antes": "*\"armarsi d'armi proprie; delli uomini suoi, de' quali",
+  "depois": "*\"armarsi d'armi proprie; e delli uomini suoi, de' quali",
+  "fonte": "idem",
+  "tipo": "correção"
+ },
+ {
+  "arq": "missoes-e-escritos-politicos.md",
+  "linha": 526,
+  "antes": "(\"non vuole stare in questa ambiguità\"; 4 dias)",
+  "depois": "(\"non può, né vuole stare in questa ambiguità\"; 4 dias)",
+  "fonte": "Legação a Urbino, carta de 26/06/1502 (Chiappelli, Legazioni II)",
+  "tipo": "correção"
+ },
+ {
+  "arq": "missoes-e-escritos-politicos.md",
+  "linha": 534,
+  "antes": "\"li primi accordi... sono i migliori\"",
+  "depois": "\"li primi accordi con loro sono sempre i migliori\"",
+  "fonte": "De natura Gallorum (Martelli; Wikisource Della natura de' Francesi)",
+  "tipo": "correção"
+ },
+ {
+  "arq": "principe.md",
+  "linha": 1113,
+  "antes": "Facci dunque uno principe di vincere e mantenere lo stato: e' mezzi saranno sempre iudicati onorevoli\"*",
+  "depois": "Facci dunque uno principe di vincere e mantenere lo stato: e' mezzi sempre fieno iudicati onorevoli\"*",
+  "fonte": "Príncipe XVIII (Inglese, BibIt)",
+  "tipo": "correção"
+ },
+ {
+  "arq": "maquiavel-nos-negocios.md",
+  "linha": 277,
+  "antes": "- \"Le armi mercenarie ed ausiliari sono inutili e pericolose.\" — *Príncipe* XII.",
+  "depois": "- \"Le mercenarie ed ausiliari sono inutili e pericolose.\" — *Príncipe* XII (vulgata, Wikisource; na ed. Inglese: \"Le mercennarie e ausiliarie sono inutile e periculose\").",
+  "fonte": "Príncipe XII (Wikisource; Inglese)",
+  "tipo": "correção"
+ },
+ {
+  "arq": "frente-lindson/escritos-menores.md",
+  "linha": 537,
+  "antes": "*Canto degli amanti disperati e delle donne*",
+  "depois": "*Canto d'amanti disperati e di dame*",
+  "fonte": "Canti carnascialeschi (Wikisource)",
+  "tipo": "correção"
+ },
+ {
+  "arq": "frente-lindson/historias-e-curiosidades.md",
+  "linha": 38,
+  "antes": "(\"va secondando e' tempi e le sue bugie colorendo\")",
+  "depois": "(\"viene secondando e' tempi, et le sua bugie colorendo\")",
+  "fonte": "carta a Ricciardo Becchi, 9/3/1498 (Martelli; Wikisource)",
+  "tipo": "correção"
+ },
+ {
+  "arq": "frente-lindson/historias-e-curiosidades.md",
+  "linha": 341,
+  "antes": "et mi metto panni reali et curiali... et per quattro hore di tempo non sento alcuna noia, sdimenticho ogni affanno, non temo la povertà, non mi sbigottisce la morte.\"",
+  "depois": "et mi metto panni reali et curiali... e non sento per quattro hore di tempo alcuna noia, sdimentico ogni affanno, non temo la povertà, non mi sbigottisce la morte.\"",
+  "fonte": "carta a Vettori, 10/12/1513 (Wikisource Lettera XI; Martelli)",
+  "tipo": "correção"
+ },
+ {
+  "arq": "frente-lindson/historias-e-curiosidades.md",
+  "linha": 347,
+  "antes": "Original: \"il desiderio che io ho che questi signori Medici mi comincino adoperare, se dovessino cominciare a farmi voltolare un sasso.\"",
+  "depois": "Original: \"Appresso al desiderio harei che questi signori Medici mi cominciassino adoperare, se dovessino cominciare a farmi voltolare un sasso.\"",
+  "fonte": "carta a Vettori, 10/12/1513 (Martelli; Wikisource)",
+  "tipo": "correção"
+ },
+ {
+  "arq": "frente-lindson/historias-e-curiosidades.md",
+  "linha": 353,
+  "antes": "Original: \"Così adunque mi starò tra i miei pidocchi, sanza trovare uomo che della servitù mia si ricordi.\"",
+  "depois": "Original: \"Starommi dunque così tra' miei pidocchi, senza trovare huomo che della servitù mia si ricordi.\"",
+  "fonte": "carta a Vettori, 10/6/1514 (Martelli; Wikisource Lettera XVIII)",
+  "tipo": "correção"
+ },
+ {
+  "arq": "frente-lindson/historias-e-curiosidades.md",
+  "linha": 356,
+  "antes": "+ \"li ho sopportati con tanta franchezza che io stesso me ne voglio bene\"",
+  "depois": "+ \"gli ho portati tanto francamente, che io stesso me ne voglio bene\"",
+  "fonte": "carta a Vettori, 18/3/1513 (Martelli)",
+  "tipo": "correção"
+ },
+ {
+  "arq": "frente-lindson/historias-e-curiosidades.md",
+  "linha": 362,
+  "antes": "Original (sentido): \"Chi vedesse le nostre lettere... gli parrebbe che noi fussimo uomini gravi, tutti volti a cose grandi... Però, dipoi, voltando carta, gli parrebbe... che noi fussimo leggieri, inconstanti, lascivi... Questo modo di procedere... noi imitiamo la natura, che è varia.\"",
+  "depois": "Original: \"Chi vedesse le nostre lettere... gli parrebbe hora che noi fussimo huomini gravi, tutti vòlti a cose grandi... Però dipoi, voltando carta, gli parrebbe quelli noi medesimi essere leggieri, inconstanti, lascivi, vòlti a cose vane. Questo modo di proccedere... noi imitiamo la natura, che è varia.\"",
+  "fonte": "carta a Vettori, 31/1/1515 (Martelli; Wikisource Lettera XXIV)",
+  "tipo": "correção"
+ },
+ {
+  "arq": "frente-lindson/historias-e-curiosidades.md",
+  "linha": 371,
+  "antes": "Original (sentido): \"ciascuno secondo la sua fantasia si governi\" e \"colui che riscontra el modo del procedere suo con el tempo\"",
+  "depois": "Original: \"ciascuno secondo lo ingegno et fantasia sua si governa\" e \"quello è felice che riscontra el modo del procedere suo con el tempo\"",
+  "fonte": "Ghiribizzi al Soderino, set. 1506 (Martelli)",
+  "tipo": "correção"
+ },
+ {
+  "arq": "frente-lindson/historias-e-curiosidades.md",
+  "linha": 374,
+  "antes": "Original: \"perché gli è impazzato, si vuole governarlo al contrario degli altri pazzi; perché gli altri pazzi si legano, e io voglio che tu lo sciolga.\"",
+  "depois": "Original: \"El mulettino, poiché gli è impazzato, si vuole trattarlo al contrario degli altri pazzi: perché gli altri pazzi si legano, et io voglio che tu lo sciolga.\"",
+  "fonte": "carta ao filho Guido, 2/4/1527 (Martelli; Lettere ed. Lesca 1929)",
+  "tipo": "correção"
+ },
+ {
+  "arq": "frente-lindson/o-principe.md",
+  "linha": 82,
+  "antes": "(*una mutazione lascia sempre lo addentellato per la edificazione dell'altra*, cap. II)",
+  "depois": "(*sempre una mutazione lascia lo addentellato per la edificazione dell'altra*, cap. II)",
+  "fonte": "Príncipe II (Inglese, BibIt; Wikisource)",
+  "tipo": "correção"
+ },
+ {
+  "arq": "vida-e-cartas.md",
+  "linha": 144,
+  "antes": "[*\"La notte che morì Pier Soderini, / l'alma n'andò dell'inferno alla bocca; / gridò Pluton:",
+  "depois": "[*\"La notte che morì Pier Soderini, / l'anima andò de l'inferno a la bocca; / gridò Pluton:",
+  "fonte": "epigrama (Martelli, Rime varie)",
+  "tipo": "correção"
+ },
+ {
+  "arq": "frente-lindson/vida-e-cartas.md",
+  "linha": 140,
+  "antes": "[*\"La notte che morì Pier Soderini, / l'alma n'andò dell'inferno alla bocca; / gridò Pluton:",
+  "depois": "[*\"La notte che morì Pier Soderini, / l'anima andò de l'inferno a la bocca; / gridò Pluton:",
+  "fonte": "epigrama (Martelli, Rime varie)",
+  "tipo": "correção"
+ },
+ {
+  "arq": "frente-lindson/vida-e-cartas.md",
+  "linha": 309,
+  "antes": "sobre o dito \"amare la patria più che l'anima\" | Confirma a frase como da carta a Vettori de 1527",
+  "depois": "sobre o dito \"amare la patria più che l'anima\" | Confirma a frase como da carta a Vettori de 1527 (texto da carta de 16/04/1527, conferido no Wikisource: *\"amo la patria mia più dell'anima\"*)",
+  "fonte": "carta a Vettori, 16/4/1527 (Wikisource Lettera XXVIII)",
+  "tipo": "acréscimo"
+ },
+ {
+  "arq": "principe.md",
+  "linha": 67,
+  "antes": "(*\"la necessità che mi caccia, mi fa dare\"*; forma corrente, não conferida palavra por palavra aqui;",
+  "depois": "(*\"El darlo mi faceva la necessità che mi caccia\"*; conferido na revisão de citações no texto da carta, ed. Martelli e Wikisource;",
+  "fonte": "carta a Vettori, 10/12/1513 (Martelli; Wikisource Lettera XI)",
+  "tipo": "correção"
+ },
+ {
+  "arq": "principe.md",
+  "linha": 57,
+  "antes": "(*\"tuttavolta l'ingrasso e ripulisco\"*, forma corrente; não conferido palavra por palavra aqui)",
+  "depois": "(*\"tuttavolta io l'ingrasso et ripulisco\"*; conferido na revisão de citações, ed. Martelli)",
+  "fonte": "carta a Vettori, 10/12/1513 (Martelli)",
+  "tipo": "correção"
+ },
+ {
+  "arq": "principe.md",
+  "linha": 42,
+  "antes": "(Texto da carta citado na forma das edições correntes; **não conferido palavra por palavra nesta frente**",
+  "depois": "(Texto da carta citado na forma das edições correntes; **conferido na revisão de citações (02/11/2026) na ed. Martelli: mesmas palavras, grafia mais antiga em Martelli** — *lo havere inteso*, *conversatione*, *et composto*, *cogitationi*, *subbietto*, *spetie*. Nota original desta frente: \"não conferido palavra por palavra nesta frente\"",
+  "fonte": "carta a Vettori, 10/12/1513 (Martelli)",
+  "tipo": "nota atualizada"
+ },
+ {
+  "arq": "principe.md",
+  "linha": 1085,
+  "antes": "1. **Carta a Vettori de 10/12/1513** (1.2, 1.3): o trecho do *\"opusculo De principatibus\"* e as frases *\"l'ingrasso e ripulisco\"* e *\"la necessità che mi caccia, mi fa dare\"* vêm da forma corrente;",
+  "depois": "1. ~~**Carta a Vettori de 10/12/1513** (1.2, 1.3)~~ — **resolvido na revisão de citações (02/11/2026):** o trecho do *\"opusculo De principatibus\"* confere com a ed. Martelli; as frases corretas são *\"tuttavolta io l'ingrasso et ripulisco\"* e *\"El darlo mi faceva la necessità che mi caccia\"* (antes: \"l'ingrasso e ripulisco\" e \"la necessità che mi caccia, mi fa dare\", forma corrente). Texto antigo da lacuna: vinham da forma corrente;",
+  "fonte": "carta a Vettori, 10/12/1513 (Martelli)",
+  "tipo": "lacuna resolvida"
+ },
+ {
+  "arq": "frente-lindson/historias-e-curiosidades.md",
+  "linha": 374,
+  "antes": "Original: \"El mulettino, poiché gli è impazzato, si vuole trattarlo al contrario degli altri pazzi: perché gli altri pazzi si legano, et io voglio che tu lo sciolga.\"",
+  "depois": "Original: \"El mulettino, poi che gli è impazzato, si vuole trattarlo al contrario degli altri pazzi; perchè gli altri pazzi si legano, ed io voglio che tu lo sciolga.\"",
+  "fonte": "carta ao filho Guido, 2/4/1527 (Lettere, ed. Giuseppe Lesca, Firenze 1929, IA lettere00mach; Martelli)",
+  "tipo": "ajuste da correção"
+ },
+ {
+  "arq": "historia-de-florenca.md",
+  "linha": 139,
+  "antes": "Giannotti, republicano antimédici, conta que Maquiavel lhe disse (citado por Varotti a partir de L. A. Ferrari, *Lettere inedite di Donato Giannotti*, 1884–85):",
+  "depois": "Giannotti, republicano antimédici, conta que Maquiavel lhe disse (citado por Varotti a partir de L. A. Ferrari, *Lettere inedite di Donato Giannotti*, 1884–85; conferido na revisão de citações na transcrição de Robert Black, prefácio aos *Scritti storici* da ed. Bompiani 2018, que traz *anco* e *ch'io*):",
+  "fonte": "Black, prefácio Bompiani",
+  "tipo": "nota de conferência"
+ },
+ {
+  "arq": "literatura.md",
+  "linha": 198,
+  "antes": "*\"Nel riso di Machiavelli c'è alcunché di tristo e di serio, che oltrepassa la caricatura\"* (\"no riso de Maquiavel há algo de triste e sério, que vai além da caricatura\" — De Sanctis, citado por Stoppelli)",
+  "depois": "*\"Nel riso del Machiavelli ci è alcunché di tristo e di serio, che oltrepassa la caricatura\"* (\"no riso de Maquiavel há algo de triste e sério, que vai além da caricatura\" — De Sanctis, *Storia della letteratura italiana*, cap. XV; citado por Stoppelli e conferido no Wikisource, ed. 1912)",
+  "fonte": "De Sanctis, Storia della letteratura italiana, XV (Wikisource, ed. 1912)",
+  "tipo": "correção"
+ },
+ {
+  "arq": "literatura.md",
+  "linha": 303,
+  "antes": "Maquiavel traduz *\"Io son Davo, non propheta vel non el frate\"*",
+  "depois": "Maquiavel traduz *\"Io son Davo, non propheta vel non el frate\"* (1ª redação manuscrita, citada por Stoppelli; não conferido no original)",
+  "fonte": "—",
+  "tipo": "marca 'não conferido'"
+ },
+ {
+  "arq": "historia-de-florenca.md",
+  "linha": 108,
+  "antes": "*Historie di Nicolo Machiavegli cittadino, et segretario fiorentino, al Santissimo et Beatissimo Padre Signor Nostro Clemente Settimo Pontefice Massimo*;",
+  "depois": "*Historie di Nicolo Machiavegli cittadino, et segretario fiorentino, al Santissimo et Beatissimo Padre Signor Nostro Clemente Settimo Pontefice Massimo* (frontispício não conferido no original);",
+  "fonte": "—",
+  "tipo": "marca 'não conferido'"
+ },
+ {
+  "arq": "principe.md",
+  "linha": 85,
+  "antes": "(colofão: *\"Stampata in Roma per Antonio Blado d'Asola a dì iiij de gennaio del M.D.XXXII\"*)",
+  "depois": "(colofão: *\"Stampata in Roma per Antonio Blado d'Asola a dì iiij de gennaio del M.D.XXXII\"*; não conferido no original)",
+  "fonte": "—",
+  "tipo": "marca 'não conferido'"
+ },
+ {
+  "arq": "vida-e-cartas.md",
+  "linha": 124,
+  "antes": "(\"ficará rindo dos erros dos homens, já que não os pode corrigir\"; citado pelo DBI).",
+  "depois": "(\"ficará rindo dos erros dos homens, já que não os pode corrigir\"; citado pelo DBI; carta de Guicciardini não conferida no original).",
+  "fonte": "—",
+  "tipo": "marca 'não conferido'"
+ },
+ {
+  "arq": "vida-e-cartas.md",
+  "linha": 154,
+  "antes": "né dell'arte della seta né dell'arte della lana, né de' guadagni né delle perdite, e' mi conviene ragionare dello stato, e mi bisogna o botarmi a stare cheto, o ragionare di questo",
+  "depois": "né dell'arte della seta et dell'arte della lana, né de' guadagni né delle perdite, e' mi conviene ragionare dello stato, et mi bisogna o botarmi di stare cheto, o ragionare di questo",
+  "fonte": "carta a Vettori, 9/4/1513 (Martelli)",
+  "tipo": "correção"
+ },
+ {
+  "arq": "frente-lindson/vida-e-cartas.md",
+  "linha": 150,
+  "antes": "né dell'arte della seta né dell'arte della lana, né de' guadagni né delle perdite, e' mi conviene ragionare dello stato, e mi bisogna o botarmi a stare cheto, o ragionare di questo",
+  "depois": "né dell'arte della seta et dell'arte della lana, né de' guadagni né delle perdite, e' mi conviene ragionare dello stato, et mi bisogna o botarmi di stare cheto, o ragionare di questo",
+  "fonte": "carta a Vettori, 9/4/1513 (Martelli)",
+  "tipo": "correção"
+ },
+ {
+  "arq": "vida-e-cartas.md",
+  "linha": 179,
+  "antes": "[*\"io gli ho portati tanto francamente",
+  "depois": "[*\"gli ho portati tanto francamente",
+  "fonte": "carta a Vettori, 18/3/1513 (Martelli; Wikisource Lettera II)",
+  "tipo": "correção"
+ },
+ {
+  "arq": "frente-lindson/vida-e-cartas.md",
+  "linha": 175,
+  "antes": "[*\"io gli ho portati tanto francamente",
+  "depois": "[*\"gli ho portati tanto francamente",
+  "fonte": "carta a Vettori, 18/3/1513 (Martelli; Wikisource Lettera II)",
+  "tipo": "correção"
+ },
+ {
+  "arq": "literatura.md",
+  "linha": 591,
+  "antes": "è ad altri et antichi e moderni",
+  "depois": "è da altri et antichi et moderni",
+  "fonte": "carta de Zanobi Buondelmonti a Maquiavel, 6/9/1520 (Martelli, Lettere)",
+  "tipo": "correção"
+ },
+ {
+  "arq": "frente-lindson/o-principe.md",
+  "linha": 352,
+  "antes": "\"conto de vivere e mantene",
+  "depois": "\"conto di vivere e mantene",
+  "fonte": "Príncipe XVIII (vulgata, Wikisource)",
+  "tipo": "correção"
+ },
+ {
+  "arq": "recepcao-e-estudiosos.md",
+  "linha": 327,
+  "antes": "(\"ho composto uno opuscolo *De principatibus*\", carta a Vettori, 10/12/1513)",
+  "depois": "(\"et composto uno opusculo *De principatibus*\", carta a Vettori, 10/12/1513, ed. Martelli)",
+  "fonte": "carta a Vettori, 10/12/1513 (Martelli)",
+  "tipo": "correção"
+ },
+ {
+  "arq": "recepcao-e-estudiosos.md",
+  "linha": 291,
+  "antes": "\"Debbe nondimanco il Principe farsi temere in modo che, se non acquista l'amore, e' fugga l'odio… il che farà",
+  "depois": "\"Deve nondimeno il Principe farsi temere in modo che, se non acquista l'amore, e' fugga l'odio… il che farà",
+  "fonte": "Príncipe XVII (vulgata, Wikisource; o resto da frase já seguia a vulgata)",
+  "tipo": "correção"
+ },
+ {
+  "arq": "frente-lindson/escritos-menores.md",
+  "linha": 537,
+  "antes": "*Canto di uomini che vendono le pine*",
+  "depois": "*Canto d'uomini che vendono le pine*",
+  "fonte": "Canti carnascialeschi (Wikisource)",
+  "tipo": "correção"
+ },
+ {
+  "arq": "maquiavel-nos-negocios.md",
+  "linha": 224,
+  "antes": "Se o texto só vale \"per la salute della patria\" (*Discursos* III.41)",
+  "depois": "Se o texto só vale quando \"si dilibera al tutto della salute della patria\" (*Discursos* III.41)",
+  "fonte": "Discorsi III.41 (BibIt/Martelli): a forma 'per la salute della patria' é de I.9 e III.11, não de III.41",
+  "tipo": "correção"
+ },
+ {
+  "arq": "contexto-e-personagens.md",
+  "linha": 328,
+  "antes": "*Príncipe* XXII (os \"tre generazioni di cervelli\")",
+  "depois": "*Príncipe* XXII (as \"tre generazioni cervelli\": *\"sono di tre generazioni cervelli\"*)",
+  "fonte": "Príncipe XXII (Inglese, BibIt)",
+  "tipo": "correção"
+ },
+ {
+  "arq": "frente-lindson/historias-e-curiosidades.md",
+  "linha": 338,
+  "antes": "Original: \"vorrebbono un predicatore che insegnassi loro la via del Paradiso, e io vorrei trovarne uno che insegnassi loro la via di andare a casa il diavolo.\"",
+  "depois": "Original: \"eglino vorrieno un predicatore che insegnasse loro la via del Paradiso, et io vorrei trovarne uno che insegnassi loro la via di andare a casa il diavolo.\"",
+  "fonte": "carta a Guicciardini, 17/5/1521 (Wikisource Lettera I a Guicciardini; Martelli)",
+  "tipo": "correção"
+ }
+]
