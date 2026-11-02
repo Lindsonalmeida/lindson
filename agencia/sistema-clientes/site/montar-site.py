@@ -131,6 +131,7 @@ app_na_central(os.path.join(APPS_DIR, 'recomeco90.html'), 'recomeco.html', {'scr
 if os.path.isdir(os.path.join(DADOS, 'importar', 'r90')): print('recomeco: importar', importar_js(os.path.join(DADOS, 'importar', 'r90'), 'data/users/lindson', 'r90-importar.js'), 'documentos')
 app_na_central(os.path.join(APPS_DIR, 'fabrica.html'), 'fabrica.html', {'script': '/painel/fabrica-importar.js', 'marca': 'app/config'}, ('tema-central.css', 'tema-fabrica.css'))
 if os.path.isdir(os.path.join(DADOS, 'importar', 'fabrica')): print('fabrica: importar', importar_js(os.path.join(DADOS, 'importar', 'fabrica'), '', 'fabrica-importar.js'), 'documentos')
+if os.path.isdir(os.path.join(DADOS, 'importar', 'fabrica-blobs')): shutil.copytree(os.path.join(DADOS, 'importar', 'fabrica-blobs'), os.path.join(OUT, 'painel', 'fabrica-fotos'), dirs_exist_ok=True)  # imagens antigas (/_blob/<id>)
 shutil.copy(os.path.join(D, 'contas.html'), os.path.join(OUT, 'painel', 'contas.html'))
 open(os.path.join(OUT, '_headers'), 'w').write("/*\n  X-Frame-Options: SAMEORIGIN\n  Referrer-Policy: same-origin\n  X-Content-Type-Options: nosniff\n/painel/*\n  Cache-Control: private, no-store\n  X-Robots-Tag: noindex\n")
 open(os.path.join(OUT, 'robots.txt'), 'w').write("User-agent: *\nDisallow: /\n")
