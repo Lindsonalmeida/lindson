@@ -1,6 +1,6 @@
 # Recepção de Maquiavel e seus estudiosos (séc. XVI ao XXI)
 
-**Situação:** parcial — feito até a seção 1
+**Situação:** parcial — feito até a seção 2
 
 > Arquivo do acervo do agente Maquiavel. Escrito em português do Brasil. Legenda: **texto** = o que Maquiavel escreveu (obra e capítulo); **fato documentado**; **[Interpretação: autor]**; **[Tradição]** = história sem prova. Em cada item digo o idioma/fonte de onde veio a informação: (IT) italiano, (EN) inglês, (ES) espanhol, (FR) francês, (DE) alemão, (PT) português, (LA) latim.
 >
@@ -81,4 +81,60 @@
 - **Richelieu e Mazarino**: a tradição atribui a eles prática "maquiavélica"; o *Bréviaire des politiciens* atribuído a Mazarino é de autoria duvidosa. [Tradição.]
 
 **Síntese da seção 1 [Interpretação, apoiada em Procacci (IT), Raab (EN), Meinecke (DE)]:** nos primeiros 150 anos, quem atacou Maquiavel quase sempre o leu pouco ou por citações de Gentillet; quem o leu de fato (Bacon, Harrington, Spinoza, Gentili) o tratou como mestre de método e/ou republicano.
+
+---
+
+## 2. Séculos XVIII e XIX: do "Anti-Maquiavel" do rei ao Maquiavel patriota
+
+### 2.1 Frederico II da Prússia e Voltaire: o *Anti-Machiavel* (1740)
+- **Fato documentado:** o príncipe herdeiro Frederico da Prússia escreveu, em francês, uma refutação capítulo por capítulo de *O Príncipe*. Voltaire revisou e editou o texto na Holanda; saiu em setembro/outubro de 1740, pouco depois de Frederico virar rei. Houve uma "guerra de edições": o impressor Jean van Duren (Haia) publicou um texto que Voltaire não queria; Voltaire soltou edições revisadas (Paupie, Haia) e outras com falsos locais. (EN: Wikipedia "Anti-Machiavel"; Morgan Library; blog *Notabilia* de Princeton, 2014; Oxford "Frederick" project. Referência detalhada: Kees van Strien, *Voltaire in Holland 1736–1745*.)
+- **Ironia histórica (fato):** em dezembro de 1740, meses depois de publicar o livro contra Maquiavel, Frederico invadiu a Silésia sem declaração de guerra. Voltaire depois comentou que, se Maquiavel tivesse tido um príncipe como discípulo, a primeira coisa que lhe recomendaria seria escrever contra ele. [A frase de Voltaire circula em várias formas; não conferida no original.]
+- **Para o agente:** o caso mostra que até os "antimaquiavélicos" praticavam o que Maquiavel descreveu — exatamente a tese de *Príncipe* XVIII sobre parecer *versus* ser.
+
+### 2.2 Rousseau: "o livro dos republicanos" (1762)
+- **Texto conferido (FR, Wikisource, *Du contrat social*, ed. 1762, livro III, cap. 6):** "En feignant de donner des leçons aux rois, il en a donné de grandes aux peuples. Le Prince de Machiavel est le livre des républicains." ("Fingindo dar lições aos reis, deu grandes lições aos povos. *O Príncipe* de Maquiavel é o livro dos republicanos.")
+- Na edição de 1782 (póstuma) entra uma nota: "Machiavel était un honnête homme et un bon citoyen…" ("um homem honesto e um bom cidadão"), dizendo que, ligado à casa Médici, ele foi forçado a disfarçar seu amor pela liberdade, e que a escolha de César Bórgia como herói já mostra sua intenção oculta. (FR: Wikisource, artigo de Revue des Deux Mondes sobre Gervinus que cita a nota; EN: Britannica.) Frase exata da nota não conferida na página de 1782.
+- **[Interpretação]** É a leitura "oblíqua" ou "satírica", herdeira de Pole e Gentili. A maioria dos estudiosos atuais (Skinner, Viroli, Inglese) **não** aceita que *O Príncipe* seja sátira; Mattingly (1958) e Benner (2013) defendem versões dela. Ver seção 3.
+
+### 2.3 Diderot e a *Encyclopédie* (1765)
+- **Fato documentado:** o verbete "Machiavélisme" da *Encyclopédie* (provavelmente de Diderot) define o maquiavelismo como "espèce de politique détestable qu'on peut rendre en deux mots par l'art de tyranniser" ("espécie de política detestável que se pode resumir em duas palavras: a arte de tiranizar"), mas lê *O Príncipe* como sátira contra os tiranos. (FR: OpenEdition, "Machiavel en France au XIXe siècle"; EN: Wikipedia "Machiavellianism (politics)".) Redação exata não conferida no ARTFL.
+- [Tradição] O verbete reproduz a **lenda do sonho antes da morte** (ver seção 5). Não conferido no texto do verbete.
+
+### 2.4 Montesquieu e Voltaire
+- Montesquieu (*Esprit des lois*, 1748, XXI.20) escreve que o comércio está curando os Estados do "maquiavelismo" [FR: frase muito citada, "on commence à se guérir du machiavélisme"; não conferido no original]. Montesquieu leu Maquiavel atentamente (as *Considérations sur… les Romains*, 1734, dialogam com os *Discursos*).
+- **Para o agente (Lindson tem agência):** essa ideia — o comércio e a reputação de longo prazo tornam a fraude menos lucrativa — é ótima ponte entre Maquiavel e negócios. Ver arquivo `maquiavel-nos-negocios.md`.
+
+### 2.5 Itália: Alfieri e Foscolo, o Maquiavel patriota
+- **Vittorio Alfieri**, *Del principe e delle lettere* (escrito 1778, revisto 1785–86) e *Della tirannide* (1777): vê no Maquiavel dos *Discursos* um inimigo da tirania e chama-o "il nostro gran Machiavelli" (IT: Torrossa, artigo sobre o *Panegirico di Plinio*; Sapienza, Alfonzetti 2023). O apelido "divino Machiavelli" atribuído a Alfieri **não foi conferido**.
+- **Ugo Foscolo**, *Dei Sepolcri* (1807), versos sobre os túmulos de Santa Croce (vv. 151 ss.): vê "a urna daquele grande / que, temperando o cetro aos reis, / arranca-lhe os louros e revela aos povos / de que lágrimas escorre e de que sangue" (IT: "quel grande / che temprando lo scettro a' regnatori / gli allor ne sfronda, ed alle genti svela / di che lagrime grondi e di che sangue"). Texto citado de memória da tradição escolar italiana; o trecho está em vv. 155–158, confirmado por resumos escolares italianos que dizem que Foscolo segue a leitura de que o *Príncipe* desmascara os tiranos (IT: skuola.net; atuttarte.it). Versos não conferidos letra a letra.
+
+### 2.6 Alemanha: Herder, Fichte, Hegel, Ranke
+- **Herder**, *Briefe zu Beförderung der Humanität* (1795): defende que *O Príncipe* deve ser lido como produto do seu tempo e da situação italiana, não como manual universal. [DE: conhecido na literatura (Meinecke); não conferido no original.]
+- **Fichte**, "Ueber Machiavell, als Schriftsteller, und Stellen aus seinen Schriften" (revista *Vesta*, Königsberg, 1807), escrito com a Prússia ocupada por Napoleão: reabilita Maquiavel como guia para um povo recuperar a liberdade. (DE/EN: Universität Potsdam, Petersen; Peter Paret, "Machiavelli, Fichte and Clausewitz"; tradução inglesa em *Philosophy Today*, 2016.) Clausewitz leu esse ensaio e escreveu a Fichte em 1809.
+- **Hegel**, *Die Verfassung Deutschlands* (c. 1800–02, inédito em vida): defende *O Príncipe* como obra de "um verdadeiro cabeça política", nascida da miséria de uma Itália dividida, e acha que o remédio duro era necessário. (IT/EN: Marco Sgarbi, Università Ca' Foscari, 2015.) Citação exata não conferida.
+- **Leopold von Ranke**, *Zur Kritik neuerer Geschichtschreiber* (1824): lê *O Príncipe* como receita para uma situação concreta (a Itália de 1513), escrita para os Médici. [DE; não conferido no original.]
+
+### 2.7 Inglaterra: Macaulay (1827)
+- **Texto conferido (EN, Gutenberg, ebook 2333):** ensaio "Machiavelli", *Edinburgh Review*, março de 1827 (resenha da tradução francesa de Périès). Abre: "We doubt whether any name in literary history be so generally odious…" e: "Out of his surname they have coined an epithet for a knave, and out of his Christian name a synonym for the Devil" ("Do seu sobrenome cunharam um adjetivo para velhaco, e do seu nome de batismo um sinônimo para o Diabo"). Cita os versos de *Hudibras* e logo depois admite: "there is a schism on this subject among the antiquarians" — ou seja, o próprio Macaulay duvida da etimologia de "Old Nick".
+- **[Interpretação: Macaulay]** Maquiavel deve ser julgado pela moral da Itália do séc. XV–XVI, que admirava a astúcia; ele era patriota e republicano sincero.
+
+### 2.8 Itália do Risorgimento: De Sanctis e Villari
+- **Francesco De Sanctis**, *Storia della letteratura italiana* (1870–71), cap. XV "Machiavelli": vê nele o fundador do "homem moderno", que troca o mundo da Idade Média (teológico, imaginário) pelo mundo real, da pátria e do Estado. (IT: Toni Iermano, *Le scritture della modernità*, Università di Cassino, 2007.) Fórmula exata não conferida.
+- **Pasquale Villari**, *Niccolò Machiavelli e i suoi tempi* (Florença, Le Monnier, 3 vols., 1877–82; texto integral no Gutenberg, ebooks 61704–61706): primeira grande biografia documental, com centenas de documentos de arquivo. Quer estudá-lo "como ele realmente foi", nem apologista nem acusador. (IT/EN: Britannica 1911.)
+- **Oreste Tommasini**, *La vita e gli scritti di Niccolò Machiavelli* (1883–1911): outra biografia monumental. [IT; conhecido; não conferido.]
+
+### 2.9 Burckhardt e Nietzsche
+- **Jacob Burckhardt**, *Die Kultur der Renaissance in Italien* (1860), parte I "Der Staat als Kunstwerk" ("O Estado como obra de arte"): trata Maquiavel como o grande analista político de Florença, objetivo até o excesso, mas patriota. [DE; não conferido no original.]
+- **Friedrich Nietzsche**:
+  - *Além do Bem e do Mal* (1886), §28 (conferido em inglês, Gutenberg 4363): elogia o "tempo" da prosa de *O Príncipe*, que "nos faz respirar o ar seco e fino de Florença" e apresenta os assuntos mais sérios num "allegrissimo" turbulento.
+  - *Crepúsculo dos Ídolos* (1888), "O que devo aos antigos" §2 (conferido em inglês, Gutenberg 52263): "Tucídides e talvez o *principe* de Maquiavel são os mais próximos de mim pela vontade absoluta de não se enganar a si mesmos e de ver a razão na *realidade*".
+  - **Cuidado:** a frase "o maquiavelismo puro… é sobre-humano" vem de fragmentos póstumos (*A Vontade de Poder*, compilação controversa) — não conferido.
+
+### 2.10 Outros do século XIX (resumo)
+- **Napoleão**: circulou em 1816 uma edição de *O Príncipe* "anotada por Napoleão" — **falsificação** (do abade Aimé Guillon), não foram notas dele. [FR/EN: literatura sobre falsificações; não conferido no original.]
+- **Maurice Joly**, *Diálogo no inferno entre Maquiavel e Montesquieu* (1864): sátira contra Napoleão III; depois **plagiada** para forjar os antissemitas *Protocolos dos Sábios de Sião* (fato documentado pela investigação do *Times* de Londres, 1921). Útil para o agente: Maquiavel virou "personagem" usado para fins que ele nunca teve.
+- **Marx e Engels**: Marx elogia a *História de Florença* como "obra-prima" em carta a Engels (25/09/1857) [não conferido]; Engels, na *Dialética da Natureza*, põe Maquiavel entre os "gigantes" do Renascimento.
+- **Lord Acton**, introdução à edição Burd de *Il Principe* (Oxford, 1891): lista autores que, sem dizer, praticaram Maquiavel; Burd fez a primeira edição crítica comentada em inglês.
+
+**Síntese da seção 2 [Interpretação]:** o século XVIII o transforma em "republicano disfarçado" (Rousseau, Diderot, Alfieri); o XIX, com o nacionalismo, em profeta da unidade italiana e alemã (Fichte, Hegel, De Sanctis), e o historicismo o põe "no seu tempo" (Herder, Ranke, Macaulay, Villari).
 
