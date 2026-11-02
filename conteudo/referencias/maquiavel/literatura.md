@@ -1,6 +1,6 @@
 # Maquiavel escritor: teatro, poesia, novela, a *Vida de Castruccio* e o *Discurso sobre a língua*
 
-**Situação:** parcial — feito até a seção 2 (Mandrágora). Próximas: Clízia, Ândria, Belfagor, Asno, Decenais, Capítulos, poesia, Castruccio, língua, perdidos, estilo e humor, uso pelo agente.
+**Situação:** parcial — feito até a seção 3 (Clízia). Próximas: Ândria, Belfagor, Asno, Decenais, Capítulos, poesia, Castruccio, língua, perdidos, estilo e humor, uso pelo agente.
 
 > **Para que serve:** dar ao agente "Maquiavel" a outra metade do homem: o comediógrafo, o poeta e o contador de histórias. É daqui que vêm o riso, a ironia, a obscenidade de taberna, a autoderrisão ("historiador, comediógrafo e trágico") e muitas das frases mais citáveis. Maquiavel dizia que a comédia é "um espelho da vida privada" (*Discurso sobre a língua*). Para o agente, isso significa: a mesma lógica do *Príncipe* aplicada a casamentos, padres, maridos, clientes e sócios.
 >
@@ -217,5 +217,77 @@
 5. **Feche transformando o "golpe" em relação permanente.** O final não é uma noite: é Callimaco virar **compadre** com a chave da casa. Em agência: o primeiro projeto é a porta; o contrato recorrente é a chave.
 6. **Cuidado com o "Ligurio".** Callimaco confia nele porque o interesse dele está amarrado ao resultado ("prometi boa soma se der certo"). Remunere parceiros por resultado.
 7. **O tolo feliz** ("chi nasce sciocco ed ogni cosa crede") é o cliente que compra qualquer promessa. O agente deve alertar Lindson: não construa a agência sobre clientes "Nicia"; eles pagam, mas não sustentam reputação.
+
+---
+
+## 3. Clizia (Clízia)
+
+### 3.1 Ficha
+
+- **Gênero:** comédia em prosa, 5 atos, prólogo em prosa e canções entre os atos. Segunda e última comédia original que chegou até nós.
+- **Fonte:** a ***Casina*** de **Plauto** (velho e filho disputam uma moça; cada um apoia um criado como "marido de fachada"; sorteio; criado disfarçado de noiva na cama do velho). Maquiavel muda muito: o filho não faz acordo com nenhum criado, a mãe Sofronia é sábia (não a megera Cleustrata de Plauto) e o **perdão final** vira o centro da peça [Daria Perocco, *Enc. mach.*, "Clizia"].
+- **Estreia (fato documentado):** **13 de janeiro de 1525**, no jardim de **Jacopo di Filippo Falconetti, "il Fornaciaio"** (dono de uma grande olaria), fora da Porta San Frediano, em Florença, na festa do fim do seu exílio de cinco anos. Escrita às pressas, "**a gara col calendario**" ("correndo contra o calendário", Ridolfi). Cenário de **Bastiano ("Aristotile") da Sangallo**, elogiado por Vasari. No banquete estava o jovem **Ippolito de' Medici**. Filippo de' Nerli escreve de Módena (22/02/1525): a fama da comédia "voou" por toda a Toscana e a Lombardia, "pregada pelos viajantes", e pede o texto.
+- **Primeira edição:** só em **1537** (Florença, Mazzocchi, Gucci e Ricci). Manuscritos: Riccardiano 2824, Vaticano Boncompagni F 11 e o **códice de Colchester** (Inglaterra), luxuoso, copiado por Ludovico Arrighi, que Ridolfi acreditou ser presente de Maquiavel para o casamento de Lorenzo Ridolfi com Maria Strozzi (1525). Edição crítica: Daria Perocco (1979 e 2005).
+- **Tempo da ação (texto):** Florença, **1506**, no carnaval ("doze anos" depois da passagem de Carlos VIII em 1494). Logo, dois anos depois da *Mandrágora*, e no mesmo bairro moral.
+- **Nome do velho:** [Interpretação: Perocco e outros] **Nicomaco** = **Nic**olò **Mac**hiavelli. Maquiavel tinha quase 56 anos e estava apaixonado pela jovem cantora **Barbera Salutati**: ele se põe no papel do velho ridículo. Em 15/03/1526 escreve a Guicciardini que a Barbera "**mi dà molto più da pensare che lo imperadore**" ("me dá muito mais em que pensar do que o imperador").
+
+### 3.2 Personagens
+
+| Personagem | Papel |
+|---|---|
+| **Nicomaco** | velho rico (cerca de 70 anos), apaixonado pela pupila Clizia |
+| **Sofronia** | sua mulher; nome grego de "prudência, bom senso" (*sophrosyne*); a verdadeira estrategista |
+| **Cleandro** | filho, apaixonado por Clizia |
+| **Palamede** | amigo de Cleandro (personagem "protático": só serve para ouvir a história inicial) |
+| **Pirro** | criado, candidato de Nicomaco a "marido" (aceita deixar a primeira noite ao patrão) |
+| **Eustachio** | feitor (administrador do sítio), candidato de Sofronia |
+| **Damone** | vizinho, empresta a casa para a noite de núpcias |
+| **Sostrata** | mulher de Damone |
+| **Doria** | criada de Sofronia |
+| **Siro** | criado que se veste de noiva |
+| **Ramondo** | pai de Clizia, nobre napolitano riquíssimo; só aparece no fim |
+| **Clizia** | a moça disputada — **nunca entra em cena** ("Sofronia, que a criou, não quer, por honestidade, que ela apareça"; prólogo) |
+
+### 3.3 O prólogo (texto, o mais citado da obra literária)
+
+- **A volta das coisas:** *"Se nel mondo tornassero i medesimi uomini, come tornano i medesimi casi, non passerebbero mai cento anni, che noi non ci trovassimo un'altra volta insieme a fare le medesime cose, che ora"* ("Se no mundo voltassem os mesmos homens, como voltam os mesmos casos, nunca passariam cem anos sem que nos encontrássemos outra vez juntos fazendo as mesmas coisas que agora"). Explica por que uma história de Atenas (Plauto) "aconteceu de novo" em Florença. Mesma ideia de *Discursos* I, proêmio e I.39 ("quem considera as coisas presentes e as antigas conhece facilmente que em todas as cidades e povos há os mesmos desejos e os mesmos humores") e da carta a Guicciardini de 16–20/10/1525: *"mi pare che tutti i tempi tornino e che noi siamo sempre quelli medesimi"* (citada pela *Enc. mach.*).
+- **Por que Florença e não Atenas:** "Atenas está arruinada... e aqueles cidadãos falavam grego, e vós não entenderíeis essa língua."
+- **Para que serve a comédia:** *"Sono trovate le commedie per giovare, e per dilettare agli spettatori. Giova veramente assai a qualunque uomo, e massimamente ai giovanetti, conoscere l'avarizia d'un vecchio, il furore di uno innamorato, gl'inganni di un servo, la gola d'uno parasito, la miseria di un povero, l'ambizione di un ricco, le lusinghe di una meretrice, la poca fede di tutti gli uomini"* ("As comédias foram inventadas para serem úteis e para divertir os espectadores. É muito útil a qualquer homem, e sobretudo aos jovens, conhecer a avareza de um velho, o furor de um apaixonado, os enganos de um criado, a gula de um parasita, a miséria de um pobre, a ambição de um rico, as lisonjas de uma prostituta, **a pouca lealdade de todos os homens**").
+- **A teoria do riso (três tipos de palavra que fazem rir):** *"le parole che fanno ridere, sono, o sciocche, o ingiuriose, o amorose. È necessario pertanto rappresentare persone sciocche, malediche, o innamorate"* ("as palavras que fazem rir são tolas, ofensivas ou amorosas; é preciso, portanto, representar pessoas tolas, maledicentes ou apaixonadas"). Como "o autor desistiu de falar mal", recorre aos apaixonados.
+- **Ironia final:** *"lo autore di questa commedia è uomo molto costumato"* ("o autor desta comédia é homem muito bem-comportado") — dito pelo autor da *Mandrágora*.
+
+### 3.4 Enredo, ato por ato
+
+- **Ato I.** **I.1** Cleandro conta a Palamede a história: em 1494 um fidalgo francês, Beltramo da Gasconha, hospedado na casa, mandou-lhes uma menina de cinco anos, "presa de guerra" de Nápoles; Beltramo deve ter morrido na batalha do Taro (Fornovo, 1495). Cleandro cresceu apaixonado por ela; *"perché sempre si desidera più ciò che si può avere meno"* ("porque sempre se deseja mais o que se pode ter menos"). E o pior: **o pai também se apaixonou** ("dá vontade de rir, e dói"). O pai, avarento, nunca o deixaria casar com uma moça sem dote. Palamede, antes, faz a lista dos três tipos de homens a evitar: **cantores, velhos e apaixonados**. **I.2–I.3** Cleandro sozinho e com Eustachio; o plano de Nicomaco: casar Clizia com Pirro e usá-la; o de Sofronia: casá-la com Eustachio.
+- **Ato II.** **II.1** Nicomaco sozinho, rejuvenescido pela paixão. **II.2–II.3** briga do casal; Nicomaco propõe resolver com um religioso: **frei Timoteo**, "um santinho que já fez milagre": *"per le sue orazioni monna Lucrezia di messer Nicia Calfucci che era sterile, ingravidò"*. Sofronia, seca: *"Gran miracolo, uno frate far ingravidare una donna! Miracolo sarebbe, se una donna la facesse ingravidare ella"* ("Grande milagre, um frade engravidar uma mulher! Milagre seria se uma mulher a engravidasse"). **II.4 Monólogo de Sofronia** (ver 3.5). **II.5** Pirro e Eustachio brigam (cena tirada da *Casina*).
+- **Canção:** *"Quanto in cor giovanile è bello amore / Tanto si disconviene / In chi degli anni suoi passato ha 'l fiore"* ("quanto é belo o amor num coração jovem, tanto é impróprio em quem já passou a flor dos anos").
+- **Ato III.** Cada cônjuge tenta convencer o candidato do outro a desistir; Cleandro descobre que o pai alugou a casa do vizinho Damone para a noite. **III.7 O sorteio:** dois sacos, um com os nomes de Pirro e Eustachio, outro com "Clizia" e um papel em branco. Sofronia: *"Gli uomini sfiduciati non sono buoni"* ("homens desconfiados não prestam"). Nicomaco: *"tu sai che non è ingannato se non chi si fida"* ("sabes que só é enganado quem confia"). A sorte dá Clizia a **Pirro**. Nicomaco quer o casamento na mesma noite; Sofronia objeta que a moça pode estar "com as regras das mulheres"; ele: *"Adoperi lo straordinario degli uomini"* ("que use o extraordinário dos homens").
+- **Canção:** *"Chi giammai donna offende / A torto o a ragion, folle è se crede / Trovar per prieghi o pianti in lei mercede"* ("quem ofende uma mulher, com ou sem razão, é louco se crê achar nela piedade com rezas ou choro"): anuncia a vingança de Sofronia.
+- **Ato IV.** Nicomaco se prepara com um jantar afrodisíaco para que a sua "velhice não se reconheça no escuro". Doria inventa que Clizia pegou um **punhal** e quer matar Nicomaco e Pirro (para tirar o velho de casa enquanto montam a troca). Uma "noiva" muito alta, com o lenço no rosto, é levada ao quarto por Sofronia e Sostrata. Nicomaco não desconfia.
+- **Ato V.** **V.1** Doria conta que as mulheres passaram a noite "medindo o tempo" e rindo. **V.2 O relato de Nicomaco a Damone** (o grande número cômico): a "noiva" o recusou, deu-lhe "um par de coices", virou de bruços; quando ele cochilou, sentiu "cinco ou seis golpes" sob o cóccix e tocou "*una cosa soda ed acuta*" ("uma coisa dura e pontuda"), que pensou ser o punhal; Pirro trouxe a luz: era **Siro, nu, em pé na cama, fazendo caretas e gestos obscenos**. Nicomaco chora: *"E così ognuno rida, e Nicomaco pianga!"* ("E assim todos riam, e Nicomaco chore!"). Damone aconselha: entregue-se a Sofronia. **V.3 Sofronia** perdoa sob condição (ver 3.5); Clizia foi mandada, com as roupas de Siro, para um mosteiro. **V.4–V.6** Cleandro lamenta ainda não poder casar. **V.6–V.7** Chega **Ramondo**, nobre napolitano riquíssimo, pai de Clizia: ela é nobre, Cleandro pode casar. Sofronia fecha: as novas núpcias serão "**femininas, e não masculinas como as de Nicomaco**".
+- **Canção final:** louva o "*mastro saggio e gentile / Di nostra umana vita*" (o mestre sábio que mostrou a vida humana), "o que se deve evitar e o que seguir".
+
+### 3.5 Trechos-chave para o agente (texto)
+
+- **O antes e o depois de Nicomaco** (Sofronia, II.4): antes ele era *"un uomo grave, risoluto, rispettivo"*; acordava cedo, ia à missa, cuidava dos negócios na praça, no mercado, nas magistraturas; à noite *"se n'entrava nello scrittoio... riordinava suoi conti"*; ensinava o filho "*con qualche esempio antico e moderno*". Depois da paixão: *"le faccende sue si stracurano, i poderi si guastano, i traffichi rovinano: grida sempre, e non sa di che"* ("os negócios ficam largados, os sítios se estragam, o comércio arruína; grita o tempo todo e não sabe por quê"); *"I servi, vedendo questo, si fanno beffe di lui, e il figliuolo ha posto giù la riverenzia; ognuno fa a suo modo, e infine niuno dubita di fare quello che vede fare a lui"* ("os criados, vendo isso, zombam dele, o filho perdeu o respeito; cada um faz do seu jeito, e ninguém hesita em fazer o que o vê fazer"). **[Interpretação]** é o retrato de um príncipe que perde a reputação: a desordem do chefe vira desordem da casa (cf. *Príncipe* XIX, sobre ser desprezado; *Discursos* III.29, "os pecados dos povos nascem dos príncipes").
+- **O perdão estratégico** (Sofronia, V.3): ela confessa ter armado todos os enganos *"perché, a volerti far ravvedere, non ci era altro modo se non giugnerti in sul furto con tanti testimoni che tu te ne vergognassi, e dipoi la vergogna ti facesse fare quello che non ti avrebbe potuto fare far niuna altra cosa"* ("porque, para te fazer cair em si, não havia outro modo senão te pegar em flagrante com tantas testemunhas que te envergonhasses, e a vergonha te fizesse fazer o que nada mais te faria fazer"). E a oferta: *"Se tu vorrai ritornar al segno, ed esser quello Nicomaco che tu eri da uno anno indietro, tutti noi vi torneremo, e la cosa non si risaprà; e quando ella si risapesse, egli è usanza errare ed emendarsi"* ("Se quiseres voltar ao eixo e ser o Nicomaco de um ano atrás, todos voltaremos, e a coisa não se saberá; e se se soubesse, é costume errar e se emendar"). **[Interpretação]** é o "retorno aos princípios" de *Discursos* III.1 aplicado a uma família: a vergonha pública como choque que restaura a ordem.
+
+### 3.6 Ligação com o pensamento político [Interpretação]
+
+- **História que se repete** (prólogo) = *Discursos* I.39 e III.43: estudar o passado para prever o presente.
+- **Fortuna**: Nicomaco "põe a coisa na fortuna" (o sorteio) e ganha — e mesmo assim perde, porque Sofronia tem *virtù*: a sorte dá a ocasião, a astúcia decide (cf. *Príncipe* XXV).
+- **Governo da casa como governo do Estado**: Sofronia é o modelo de quem governa com prudência, usa o engano para um fim bom e depois **perdoa sem humilhar em público** ("a coisa não se saberá"). [Robert Faulkner, em Sullivan (org.) 2000, lê a *Clízia* como comédia "mais moderada" e doméstica que a *Mandrágora*; Carlo Dionisotti (1984), citado por Perocco: com a *Clízia* Maquiavel quis dar "prova contrária de prudência e de decoro clássico", em oposição à "temeridade" da *Mandrágora*.]
+- **Autoderrisão**: o autor de 56 anos, apaixonado por uma cantora jovem, põe-se em cena como o velho apaixonado que termina apanhando — e faz a plateia de amigos rir dele.
+
+### 3.7 Recepção
+
+- Sucesso imediato em 1525 (carta de Nerli). Bem menos encenada que a *Mandrágora* nos séculos seguintes; a crítica quase sempre a lê em comparação com ela (Perocco). Estudos: Ridolfi (*Studi sulle commedie*, 1968), Vanossi (1970), Dionisotti (1984), Perocco (ed. crítica 1979/2005), Faulkner (2000). Traduções em inglês reunidas com a *Mandrágora* (ex.: Daniel Sices e James B. Atkinson, *The Comedies of Machiavelli*, ed. bilíngue, 1985 — referência bibliográfica de memória, **não conferida**).
+
+### 3.8 Lição para negócios [Interpretação nossa]
+
+1. **O dono apaixonado por um capricho arruína a empresa** (monólogo de Sofronia): quando o chefe perde a disciplina, a equipe copia. Rotina do dono é exemplo, não detalhe.
+2. **A sorte decide a rodada; a estratégia decide o jogo.** Nicomaco ganha o sorteio e perde tudo. Não comemore um contrato ganho no acaso sem ver quem está montando o jogo.
+3. **Corrija um sócio ou funcionário de modo que ele possa voltar.** Sofronia prova o erro "com testemunhas", depois oferece retorno com sigilo: "volta a ser quem eras e ninguém fica sabendo". É a melhor forma de reter alguém valioso que errou.
+4. **"Só é enganado quem confia"** — dito pelo velho que vai ser enganado. Desconfiança não protege quem não enxerga o próprio desejo.
 
 ---
