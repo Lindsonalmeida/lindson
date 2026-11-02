@@ -25,4 +25,7 @@ Atualizado pela conta Zuleide em 02/11/2026. Marque [x] ao terminar e cite a con
 - [ ] Testes com situações reais (`TESTES.md`)
 
 ## Dinheiro online (fase 4)
-- [ ] `conteudo/referencias/dinheiro-online/`
+- [ ] `conteudo/referencias/dinheiro-online/` (README, famílias de modelos, mercados estrangeiros/Ásia, golpes e riscos, receber do exterior, plano para o Lindson) — em andamento (Zuleide)
+
+## Como retomar se o tempo desta conta acabar
+Cada frente salva o arquivo a cada seção (`COMO-SALVAR.md`) e marca no topo "Situação: parcial — feito até a seção X". Outra conta abre o arquivo, lê a linha de situação e continua da seção seguinte, com as mesmas regras (`REGRAS-DA-PESQUISA.md`). Os pedidos de cada frente estão descritos nesta tabela e na `MISSAO.md`.
