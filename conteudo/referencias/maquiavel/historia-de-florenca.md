@@ -1,6 +1,6 @@
 # História de Florença (*Istorie fiorentine*) — base de conhecimento para o agente "Nicolau Maquiavel"
 
-**Situação:** parcial — feito até a seção 1 (conta Zuleide, 02/11/2026).
+**Situação:** parcial — feito até a seção 2 (conta Zuleide, 02/11/2026). Citações italianas conferidas por programa no texto Martelli/Sansoni.
 
 > **Para que serve este arquivo:** é a base do agente "Maquiavel conselheiro de negócios" no que diz respeito às *Istorie fiorentine* (1520–1525), a última grande obra de Maquiavel. É o livro em que ele mostra, com casos reais da sua cidade, como facções destroem uma organização, como uma família (os Médici) chegou ao poder sem cargo formal, comprando lealdade com favores privados, e como conspirações, mercenários e falta de instituições arruínam quem depende deles.
 >
@@ -211,3 +211,337 @@ Pontos principais (conferidos no italiano):
 - A tradução inglesa de 1901 (Gutenberg) suaviza ou erra frases-chave: «coloro che vincono, in qualunque modo vincono, mai non ne riportono vergogna» ("os que vencem, de qualquer modo que vençam, nunca levam vergonha disso") virou "Conquerors, by what means soever, are never considered aught but glorious"; no retrato de Cosimo, «la gallina covava» ("a galinha estava chocando") virou "the hen had laid"; «uomini da bene» ("homens de bem") virou "religious persons"; e «gli stati non si tenevono co' paternostri in mano» ("os Estados não se mantêm com o terço na mão") virou "it required something more to direct a government than to play with a string of beads". Para frases polêmicas, o agente deve partir do italiano.
 
 ---
+
+## 2. Proêmio e os 8 livros, um por um
+
+> Em cada livro: **período · fatos (com capítulo) · personagens · discursos · tese política · frases conferidas (italiano + tradução livre) · como aplicar num negócio hoje [interpretação nossa]**. Abaixo, "cap." = capítulo do livro em questão.
+>
+> **Fatos e nomes:** os fatos resumidos foram lidos no texto italiano, capítulo por capítulo. Alguns **nomes de batalhas e datas exatas que Maquiavel não escreve** (ex.: Montaperti 1260, Ponza 1435, Cavriana 1441, Poggio Imperiale 1479, paz de Bagnolo 1484, dia exato da morte de Cosimo — 1/08/1464 — e de Lorenzo — 8/04/1492) vêm da história geral, para orientar; não estão no texto. Montesecco recusar-se a matar na igreja (VIII.5), Lorenzo refugiar-se no «sacrario del tempio» (VIII.6), Baldaccio jogado «per la finestra» do Palácio por ordem do gonfaloneiro Bartolomeo Orlandini (VI.6–7) e Cesare Petrucci gonfaloneiro em 1478 (VIII.7) estão no texto.
+
+### 2.0 Proêmio — a crítica a Bruni e Poggio
+
+- **Texto:** Maquiavel queria começar em **1434** (ano em que os Médici, «per i meriti di Cosimo e di Giovanni suo padre», ganharam mais autoridade que qualquer outra família), porque achava que «messer Lionardo d'Arezzo e messer Poggio, duoi eccellentissimi istorici» (Leonardo Bruni e Poggio Bracciolini, os dois chanceleres-historiadores oficiais do séc. XV) já tinham contado o período anterior.
+- Ao ler os dois, viu que eram **«diligentissimi»** nas guerras externas, mas, das **«civili discordie e delle intrinseche inimicizie»**, calaram uma parte e resumiram a outra.
+- **Duas explicações que ele dá para o silêncio deles:** acharam essas brigas indignas da memória escrita, **ou** «temessero di non offendere i discesi di coloro» — tiveram medo de ofender os descendentes dos envolvidos. Juízo dele: «mi paiono al tutto indegne di uomini grandi» ("me parecem totalmente indignas de grandes homens").
+- **A tese do livro inteiro:** «se niuna lezione è utile a cittadini che governono le repubbliche, è quella che dimostra le cagioni degli odi e delle divisioni delle città, acciò che possino con il pericolo d'altri diventati savi mantenersi uniti» — "se alguma lição é útil aos cidadãos que governam repúblicas, é a que mostra as causas dos ódios e das divisões das cidades, para que, tendo ficado sábios com o perigo dos outros, possam manter-se unidos".
+- **Florença como caso extremo:** Roma e Atenas tiveram uma divisão; Florença, «non contenta d'una ne ha fatte molte»: primeiro **nobres contra nobres**, depois **nobres contra povo**, por fim **povo contra plebe**; e cada lado vencedor se dividia de novo em dois.
+- **O paradoxo:** mesmo assim a cidade crescia — «tanta era la virtù di quelli cittadini». Se tivesse tido uma forma de governo que a mantivesse unida, «io non so quale republica, o moderna o antica, le fusse stata superiore». Prova: na guerra de Arezzo (1288) tirou de si 1.200 homens de armas e 12.000 infantes; na guerra contra Filippo Visconti gastou 3,5 milhões de florins em cinco anos.
+- **Contra o medo de ofender:** os autores se enganaram, porque os homens querem perpetuar o nome a qualquer custo; e «le azioni che hanno in sé grandezza, come hanno quelle de' governi e degli stati, comunque le si trattino, qualunque fine abbino, pare sempre portino agli uomini più onore che biasimo» — "as ações que têm grandeza, como as dos governos e dos Estados, como quer que sejam tratadas e qualquer que seja o seu fim, parecem trazer aos homens mais honra que censura".
+- **Plano anunciado (texto):** contar até 1434 só as coisas de dentro (e das de fora só o necessário); depois de 1434, as duas. Ele anuncia **quatro livros** até 1434 (I: Itália até 1434; II: das origens até a guerra contra o papa depois da expulsão do duque de Atenas; III: até 1414, morte do rei Ladislau; IV: até 1434) — e cumpre.
+- **[Interpretação: Varotti; Cabrini]** a acusação é exagerada contra Bruni, que descreveu bem as lutas internas e foi a fonte secreta de Maquiavel nos Livros II–III; vale mais contra Poggio. O exagero é programático: sem a história longa das brigas internas não se entende o poder dos Médici.
+- **Como aplicar num negócio hoje:** relatório que só mostra o placar externo (faturamento, clientes ganhos) e esconde as brigas internas (sócio contra sócio, comercial contra operação) não ensina nada. O diagnóstico de qualquer empresa começa pelas **divisões internas e suas causas**. Na Alkantara: antes de analisar o Instagram do cliente, perguntar quem manda de fato e quem briga com quem dentro da empresa dele.
+
+---
+
+### 2.1 Livro I — a Itália dos bárbaros a 1434 (39 capítulos)
+
+- **Período:** do séc. V (invasões) até c. 1434.
+- **Fatos principais:**
+  - cap. 1–8: os povos do norte transbordam e invadem o Império (cap. 1); Visigodos, Vândalos, Hunos, Átila; Odoacro; **Teodorico** traz paz por 38 anos (cap. 6); Belisário, Narses e os **Longobardos** (cap. 7–8).
+  - cap. 9: **origem do poder dos papas** — primeiro só reverência pela santidade; com Teodorico em Ravena e os longobardos dividindo a Itália, o papa vira quase chefe de Roma e começa a chamar estrangeiros (francos) contra os longobardos.
+  - cap. 10–16: Pepino, **Carlos Magno** (cap. 11), o Império passa aos alemães (cap. 12), Otão; a Itália "governada parte pelos povos, parte pelos príncipes, parte pelos enviados do imperador" (cap. 14); briga papa × imperador (Henrique IV, cap. 15: origem de **guelfos e gibelinos**); normandos fundam o reino de Nápoles (cap. 16).
+  - cap. 17–26: **cruzadas** (cap. 17, com a frase sobre Rodes usada para datar a escrita); Frederico Barbarossa e a Liga Lombarda; Frederico II; **Carlos de Anjou** chamado pelos papas (cap. 22–23); Bonifácio VIII e o jubileu de 1300 (cap. 26).
+  - cap. 27–33: Visconti em Milão; papas em Avinhão; **Cola di Rienzo** (cap. 31: Niccolò di Lorenzo, "tribuno", restaura por pouco tempo a república romana); origem de **Veneza** (cap. 29); Cisma do Ocidente.
+  - cap. 34: os primeiros **exércitos de mercenários** italianos (Alberico da Barbiano e a Companhia de São Jorge).
+  - cap. 35–38: três papas ao mesmo tempo; Concílio de Constança (cap. 36); Filippo Maria Visconti; Joana II de Nápoles, Sforza e Braccio.
+  - cap. 39: **retrato da Itália em 1434** — todos os grandes Estados "desarmados de armas próprias".
+- **Personagens:** Teodorico, Narses, Carlos Magno, Gregório VII, Frederico Barbarossa, Frederico II, Carlos de Anjou, Bonifácio VIII, Cola di Rienzo, Giangaleazzo Visconti, Ladislau de Nápoles, Sforza (Muzio Attendolo), Braccio da Montone.
+- **Discursos:** nenhum. É o livro mais "resumo".
+- **Tese política (texto):** duas causas da ruína italiana: (1) os **papas**, fortes demais para deixar alguém unificar a Itália e fracos demais para unificá-la, chamam sempre estrangeiros; (2) as **armas mercenárias**. É a mesma tese de *Discursos* I.12 e *O Príncipe* XII.
+- **Frases conferidas:**
+  - I.9 — os papas no início «non presono mai [...] altra autorità che quella che dava loro la reverenza de' loro costumi e della loro dottrina» — "não tinham outra autoridade além da que lhes dava a reverência pelos seus costumes e pela sua doutrina".
+  - I.39 — «Tutti questi principali potentati erano di proprie armi disarmati» — "Todas essas potências principais estavam desarmadas de armas próprias".
+  - I.39 — os Florentinos, «avendo per le spesse divisioni spenta la nobilità, e restando quella republica nelle mani d'uomini nutricati nella mercanzia, seguitavano gli ordini e la fortuna degli altri» — "tendo, pelas frequentes divisões, extinguido a nobreza, e ficando aquela república nas mãos de homens criados no comércio, seguiam os ordenamentos e a sorte dos outros".
+  - I.39 — os condottieri fizeram da guerra uma arte combinada entre si, tanto que «il più delle volte, di quelli che facevano guerra, l'una parte e l'altra perdeva» — "na maioria das vezes, dos que faziam a guerra, perdiam os dois lados".
+  - I.39 — «Di questi, adunque, oziosi principi e di queste vilissime armi sarà piena la mia istoria» — "Destes príncipes ociosos e destas armas vilíssimas estará cheia a minha história".
+- **Como aplicar num negócio hoje:** empresa que terceiriza o que é essencial (vendas, tráfego, atendimento) fica "desarmada de armas próprias": os terceiros combinam entre si um ritmo confortável, e "perdem os dois lados" (você e o cliente). Na agência: ter pelo menos uma pessoa da casa que domine cada função crítica, mesmo que use freelancers.
+
+---
+
+### 2.2 Livro II — das origens de Florença a 1353 (42 capítulos)
+
+- **Período:** fundação romana (com Fiesole) → 1215 (início das facções) → 1353.
+- **Fatos principais:**
+  - cap. 1: elogio das **colônias** antigas (fundar cidades novas para segurar território e distribuir população) — tese que já está em *O Príncipe* III.
+  - cap. 2: origem de Florença (citando «Dante e Giovanni Villani»).
+  - cap. 3: **1215, assassinato de Buondelmonte de' Buondelmonti** por ter rompido o noivado com uma Amidei para casar com uma Donati; o conselho de Mosca Lamberti («Cosa fatta capo ha») — início, em Florença, de **guelfos × gibelinos**.
+  - cap. 4–9: Frederico II; o "Primo Popolo" (1250, cap. 5–6, com os Anziani e as companhias armadas); **Montaperti (1260)** e o conde Giordano (cap. 7); retorno dos guelfos com Carlos de Anjou.
+  - cap. 10–11: reorganização; a nobreza guelfa se torna "insolente" e mata impunemente (cap. 11).
+  - cap. 12–15: luta **nobres × povo**; criação do **Gonfaloneiro de Justiça** (cap. 12); **Giano della Bella e os Ordenamentos de Justiça (1293)** (cap. 13), que excluem os nobres da Senhoria; Giano é exilado pela inveja dos próprios populares ricos.
+  - cap. 16–23: **Brancos × Negros** (Cerchi × Donati), vindos de Pistoia; Carlos de Valois chamado por Bonifácio VIII (cap. 19); exílio dos Brancos (é quando Dante sai, 1302); **Corso Donati**, morto em 1308 (cap. 21–23).
+  - cap. 24–31: Henrique VII; **Uguccione della Faggiuola** (cap. 25); **Castruccio Castracani** (cap. 26, 29–30: derrota florentina de Altopascio, 1325).
+  - cap. 32–33: os "poderosos" restringem as listas de cargos; guerra de Lucca.
+  - cap. 33–37: **Gualtieri de Brienne, duque de Atenas**, recebe a senhoria (1342), vira tirano e é expulso em **26/07/1343** (cap. 36–37), com cenas de canibalismo da multidão contra seus ministros.
+  - cap. 38–42: rebelião das cidades súditas; os nobres tentam voltar à Senhoria e são **esmagados pelo povo em armas** (1343, cap. 40–42); a **Peste Negra de 1348** («più che novantaseimila anime»).
+- **Personagens:** Buondelmonte, Mosca Lamberti, Farinata degli Uberti (Montaperti), Giano della Bella, Corso Donati, Vieri de' Cerchi, Carlos de Valois, Castruccio Castracani, o duque de Atenas.
+- **Discursos:** **II.34**, os Senhores ao duque de Atenas (o primeiro grande discurso do livro, escrito à parte — ver 1.3). Resposta do duque em discurso indireto (II.35).
+- **Tese política:** (1) a raiz é o choque de humores: «volendo il popolo vivere secondo le leggi, e i potenti comandare a quelle, non è possibile cappino insieme» (II.12) — "querendo o povo viver segundo as leis e os poderosos mandar nelas, não é possível que caibam juntos"; (2) Florença resolve as brigas **excluindo** o derrotado, e assim perde as virtudes militares dos nobres; (3) a tirania sobre uma cidade acostumada à liberdade não dura.
+- **Frases conferidas:**
+  - II.1 — «niuna cosa è tanto degna di uno ottimo principe e di una bene ordinata republica, né più utile ad una provincia, che lo edificare di nuovo terre» — "nada é tão digno de um ótimo príncipe e de uma república bem ordenada, nem mais útil a uma província, do que construir novas terras".
+  - II.3 — Mosca Lamberti: «chi pensava assai cose non ne concludeva mai alcuna» + «Cosa fatta capo ha» — "quem pensa em muitas coisas não conclui nenhuma"; "coisa feita tem cabeça" (= o fato consumado se impõe).
+  - II.34 — «il nome della libertà, il quale forza alcuna non doma, tempo alcuno non consuma e merito alcuno non contrappesa» — "o nome da liberdade, que nenhuma força doma, nenhum tempo consome e nenhum mérito contrabalança".
+  - II.34 — «negli universali odi non si trova mai sicurtà alcuna, perché tu non sai donde ha a nascere il male, e chi teme di ogni uomo non si può assicurare di persona» — "nos ódios universais nunca se encontra segurança alguma, porque não sabes de onde há de nascer o mal, e quem teme todo homem não pode se garantir contra ninguém".
+  - II.34 — «ad uno consueto a vivere sciolto ogni catena pesa e ogni legame lo strigne» — "a quem está acostumado a viver solto, toda corrente pesa e todo laço aperta".
+  - II.34 — «quello dominio è solo durabile che è voluntario» — "só é durável o domínio que é voluntário".
+  - II.35 (o duque, em indireto) — «solo le città disunite erano serve, e le unite libere» — "só as cidades desunidas eram servas, e as unidas livres" (a desculpa clássica de quem toma o poder).
+  - II.37 — «Appariscono senza dubbio gli sdegni maggiori, e sono le ferite più gravi, quando si recupera una libertà che quando si difende» — "As iras são maiores, e as feridas mais graves, quando se recupera uma liberdade do que quando se defende".
+  - II.42 — a derrota dos nobres «fu cagione che Firenze, non solamente di armi, ma di ogni generosità si spogliasse» — "fez Florença despojar-se não só das armas, mas de toda generosidade".
+- **Como aplicar num negócio hoje:**
+  - **"Só é durável o domínio voluntário":** cliente preso por contrato de fidelidade e multa vai embora no primeiro dia livre e fala mal. Cliente que fica porque quer é o único ativo.
+  - **"Cosa fatta capo ha":** decisões rápidas criam fato consumado — e por isso mesmo as erradas custam gerações (a briga de 1215 durou um século). Antes de um "fato consumado" com sócio ou cliente grande, medir as consequências.
+  - **Duque de Atenas:** chamar um "salvador" de fora (consultor, sócio investidor) e dar-lhe poder total para "unir a casa" é o caminho para perder a casa.
+
+---
+
+### 2.3 Livro III — de 1353 a 1414: Albizzi × Ricci, os Ciompi, a oligarquia (29 capítulos)
+
+- **Período:** 1353–1414 (morte de Ladislau de Nápoles).
+- **Fatos principais:**
+  - cap. 1: **capítulo teórico** — Roma × Florença (ver tese).
+  - cap. 2–6: briga **Albizzi × Ricci**; a **Parte Guelfa** usa as "ammonizioni" (declarar alguém gibelino para tirá-lo dos cargos) como arma de facção; o discurso de um cidadão em San Piero Scheraggio (cap. 5); a Senhoria dá poder a 56 cidadãos para reformar (cap. 6).
+  - cap. 7: **Guerra dos Oito Santos** contra o papa Gregório XI (1375–1378).
+  - cap. 8–11: a Parte Guelfa contra os "Oito"; **Salvestro de' Medici** gonfaloneiro (1378) propõe leis contra a Parte; tumultos; Lapo da Castiglionchio foge; discurso de **Luigi Guicciardini** às Artes (cap. 11).
+  - cap. 12–17: **tumulto dos Ciompi (julho de 1378)** — os trabalhadores da lã, sem corporação própria, se reúnem de noite (cap. 13, discurso do Ciompo anônimo), um deles é preso e confessa (cap. 14), a plebe toma o Palácio (cap. 15–16) e põe na Senhoria o cardador **Michele di Lando**, que reforma o governo, cria três novas Artes e depois **derrota a própria plebe** quando ela se revolta de novo (cap. 17).
+  - cap. 18–22: governo das Artes menores (1378–1382); **Giorgio Scali** e Tommaso Strozzi; Scali é decapitado (cap. 20–21); volta da oligarquia em **1382**.
+  - cap. 23: exílio de **Benedetto Alberti** (1387), com discurso.
+  - cap. 24–29: governo oligárquico de **Maso degli Albizzi**; guerras contra **Giangaleazzo Visconti** (até 1402); conspirações de exilados (cap. 27–28); compra de Pisa (1406) e guerra de Ladislau.
+- **Personagens:** Piero degli Albizzi, Uguccione de' Ricci, Lapo da Castiglionchio, Salvestro de' Medici, Luigi Guicciardini, o Ciompo anônimo, Michele di Lando, Giorgio Scali, Tommaso Strozzi, Benedetto Alberti, Maso degli Albizzi, Giangaleazzo Visconti.
+- **Discursos:** III.5 (cidadão anônimo à Senhoria, sobre a corrupção das facções); III.11 (Luigi Guicciardini, gonfaloneiro, às Artes); **III.13 (o Ciompo anônimo — o discurso mais famoso da obra)**; III.23 (Benedetto Alberti).
+- **Tese política (III.1, texto):**
+  - As inimizades de Roma entre povo e nobres se resolviam «disputando», com «una legge», e **aumentavam** a virtude militar; as de Florença se resolviam «combattendo», com «lo esilio e con la morte», e **apagavam** a virtude militar.
+  - A diferença vem dos fins: o povo romano queria **dividir** as honras com os nobres; o florentino queria governar **sozinho**. Por isso as leis florentinas eram feitas «non a comune utilità, ma tutte in favore del vincitore».
+  - Resultado: Florença "cada vez mais humilde e abjeta" — mas, por isso mesmo, chegou a um grau de igualdade em que «facilmente da uno savio datore di leggie potrebbe essere in qualunque forma di governo riordinata» (é a deixa para o *Discursus* que ele escreveu aos Médici).
+- **O discurso do Ciompo (III.13) — o que diz:** já que os crimes foram cometidos, a saída é cometer **mais** e com mais gente, porque «dove molti errano niuno si gastiga»; nobreza de sangue é roupa («Spogliateci tutti ignudi: voi ci vedrete simili»); todos os grandes ricos chegaram lá «o con frode o con forza»; quem é fiel e bom fica servo e pobre; a ocasião voa. **[Interpretação: Varotti]** é um radicalismo que "faz tábua rasa de todo princípio de autoridade". **[Interpretação corrente — Strauss, Mansfield, Najemy, com leituras opostas]** uns veem aí a voz mais crua do próprio Maquiavel; outros, uma caricatura da plebe que ele desaprova (ele chama o resultado de «puzzo della plebe» e elogia Michele di Lando por contê-la). **Para o agente:** é a fala de um personagem que Maquiavel construiu para mostrar a lógica da revolta; usar como **diagnóstico do que pensa quem não tem nada a perder**, nunca como conselho moral.
+- **Frases conferidas:**
+  - III.1 — «Le gravi e naturali nimicizie che sono intra gli uomini popolari e i nobili, causate da il volere questi comandare e quelli non ubbidire, sono cagione di tutti i mali che nascano nelle città» — "As graves e naturais inimizades entre os homens do povo e os nobres, causadas pelo querer destes mandar e daqueles não obedecer, são causa de todos os males que nascem nas cidades".
+  - III.1 — «quelle di Roma con una legge, quelle di Firenze con lo esilio e con la morte di molti cittadini terminavano» — "as de Roma terminavam com uma lei; as de Florença, com o exílio e a morte de muitos cidadãos".
+  - III.5 — «il giuramento e la fede data tanto basta quanto l'utile» — "o juramento e a palavra dada duram o quanto dura a vantagem".
+  - III.5 — «gli uomini nocivi sono come industriosi lodati e i buoni come sciocchi biasimati» — "os homens nocivos são louvados como engenhosos, e os bons censurados como tolos".
+  - III.5 — sobre as facções: «i cattivi per avarizia e per ambizione, i buoni per necessità le seguano» — "os maus as seguem por avareza e ambição; os bons, por necessidade" — e os chefes «la intenzione e fine loro con un piatoso vocabolo adonestano» — "disfarçam a intenção e o fim com uma palavra piedosa".
+  - III.9 — Lapo da Castiglionchio: «niuna cosa nuocere tanto al tempo quanto il tempo» — "nada prejudica tanto o tempo [a ocasião] quanto o tempo [a demora]".
+  - III.11 — Luigi Guicciardini: «quanto più umilmente ci portiamo, quanto più vi concediamo, tanto più insuperbite» — "quanto mais humildes somos, quanto mais vos concedemos, mais vos ensoberbeceis".
+  - III.13 — «dove molti errano niuno si gastiga, e i falli piccoli si puniscono, i grandi e gravi si premiano» — "onde muitos erram, ninguém é castigado; as faltas pequenas se punem, as grandes e graves se premiam".
+  - III.13 — «Spogliateci tutti ignudi: voi ci vedrete simili» — "Despi-nos todos: vereis que somos iguais".
+  - III.13 — «coloro che vincono, in qualunque modo vincono, mai non ne riportono vergogna» — "os que vencem, de qualquer modo que vençam, nunca levam vergonha disso".
+  - III.13 — «i fedeli servi sempre sono servi, e gli uomini buoni sempre sono poveri» — "os servos fiéis são sempre servos, e os homens bons são sempre pobres".
+  - III.13 — «dove la necessità strigne è l'audacia giudicata prudenza» — "onde a necessidade aperta, a audácia é julgada prudência".
+  - III.13 — «di uno pericolo mai si uscì sanza pericolo» — "nunca se saiu de um perigo sem perigo".
+  - III.13 — «La opportunità che dalla occasione ci è porta vola, e invano, quando la è fuggita, si cerca poi di ripigliarla» — "a oportunidade que a ocasião nos oferece voa, e é inútil, quando fugiu, tentar recuperá-la".
+  - III.16 — Michele di Lando à multidão: «Voi vedete: questo Palagio è vostro, e questa città è nelle vostre mani» — e Maquiavel o descreve como «più alla natura che alla fortuna obligato».
+  - III.17 — Michele «merita di essere annoverato intra i pochi che abbino benificata la patria loro» — "merece ser contado entre os poucos que beneficiaram a sua pátria".
+  - III.23 — Benedetto Alberti: «sempre così avvenne a coloro i quali intra molti cattivi vogliono essere buoni» — "sempre aconteceu assim aos que, entre muitos maus, querem ser bons" (eco de *O Príncipe* XV).
+- **Como aplicar num negócio hoje:**
+  - **Roma × Florença (III.1):** briga interna boa termina numa **regra nova** que vale para todos (política de comissão, processo, contrato); briga ruim termina com **alguém expulso** e a regra feita "a favor do vencedor". Se toda discussão na equipe acaba em demissão, a empresa vai ficar "humilde e abjeta": só sobra quem não discorda.
+  - **Ciompo (III.13):** quem está sem saída (funcionário ameaçado de demissão, fornecedor que não recebe, cliente lesado) raciocina como o Ciompo: dobra a aposta, junta mais gente, ataca enquanto os outros estão divididos. Não deixe ninguém "sem nada a perder"; e quando houver revolta, **divida e acalme logo**, como Michele di Lando.
+  - **Luigi Guicciardini (III.11):** concessão sem limite a cliente ou funcionário abusivo só aumenta as exigências. Defina antes até onde vai.
+
+---
+
+### 2.4 Livro IV — 1414 a 1434: a oligarquia Albizzi e a subida de Cosimo (33 capítulos)
+
+- **Período:** 1414–1434.
+- **Fatos principais:**
+  - cap. 1: **capítulo teórico** — as cidades mal ordenadas oscilam entre "servidão" (nobres) e "licença" (povo); só são livres quando um "savio, buono e potente cittadino" faz boas leis.
+  - cap. 2–3: o regime de 1382 (Maso degli Albizzi, depois Niccolò da Uzzano) se desgasta; **Giovanni di Bicci de' Medici**, riquíssimo e "benigno", chega à Senhoria e o povo o vê como defensor; Uzzano avisa que é fácil cortar os males no início e difícil depois (cap. 3).
+  - cap. 4–13: guerra contra **Filippo Maria Visconti** (1423–1428): derrota de Zagonara (1424, cap. 6–7), indignação popular contra os ricos que quiseram a guerra (cap. 7); os grandes querem mudar o regime e Rinaldo degli Albizzi propõe tirar poder das Artes menores (cap. 9); **Giovanni de' Medici recusa** (cap. 10–11) e ganha reputação.
+  - cap. 14: **o catasto (1427)** — imposto proporcional ao patrimônio, "distribuído pela lei e não pelos homens", defendido só por Giovanni.
+  - cap. 15: paz de Ferrara (1428).
+  - cap. 16: **morte de Giovanni di Bicci (1429)** — o testamento político aos filhos e o retrato.
+  - cap. 17: revolta de Volterra.
+  - cap. 18–25: **guerra de Lucca (1429–1433)** — proposta por Rinaldo (cap. 19), votada (cap. 20), crimes do comissário Astorre Gianni em Seravezza (cap. 21, com discurso dos de Seravezza), Rinaldo acusado (cap. 22), o fracasso do projeto de **Brunelleschi** de inundar Lucca desviando o Serchio, que inundou o acampamento florentino (cap. 23).
+  - cap. 26: **Cosimo**: "liberal, humano", faz "partidários" com dinheiro e favores; seus instrumentos: Averardo de' Medici e **Puccio Pucci**; os rivais são caluniados por toda derrota.
+  - cap. 27: o **discurso de Niccolò da Uzzano** a Niccolò Barbadori contra expulsar Cosimo.
+  - cap. 28–29: morte de Uzzano (1432) — a cidade fica "sem guerra e sem freio"; Rinaldo faz sair gonfaloneiro **Bernardo Guadagni** (pagando os impostos atrasados dele), prende **Cosimo** (setembro de 1433) na torre do Palácio (o "Alberghettino"); Cosimo suborna Guadagni com **1.000 ducados** (e 100 ao intermediário, o Farganaccio) e consegue exílio em **Pádua** (3/10/1433) em vez da morte.
+  - cap. 30–33: Rinaldo hesita, não age; a nova Senhoria (1434) é pró-Médici; Rinaldo pega em armas, mas aceita a mediação do **papa Eugênio IV** (exilado em Florença), desarma e é traído; **Cosimo volta em 1434**, recebido como "benfeitor do povo e pai da pátria" (cap. 33).
+- **Personagens:** Giovanni di Bicci, Cosimo, Averardo de' Medici, Puccio Pucci, Rinaldo degli Albizzi, Niccolò da Uzzano, Niccolò Barbadori, Bernardo Guadagni, Federigo Malavolti, Palla Strozzi, papa Eugênio IV, Filippo Brunelleschi.
+- **Discursos:** IV.9 (Rinaldo, indireto); IV.10 (Giovanni di Bicci, indireto e direto); IV.16 (Giovanni aos filhos); IV.21 (Seravezza); **IV.27 (Niccolò da Uzzano)**; IV.29 (Malavolti a Cosimo); **IV.33 (Rinaldo ao papa)**.
+- **Tese política:**
+  - (1) Sem leis que segurem os humores, o Estado depende da "virtude e fortuna de um só homem" (IV.1).
+  - (2) Cosimo vence não por armas, mas porque a outra parte está **dividida** e ele construiu **gratidão privada**. Uzzano diz: as obras que tornam Cosimo suspeito são as que o tornam amado — emprestar dinheiro a todos, favorecer quem precisa de cargo; e não há lei contra a "piedade, liberalidade, amor".
+  - (3) Quem hesita perde: Rinaldo queria matar Cosimo e se contentou com o exílio; depois confiou na palavra de um mediador e foi destruído.
+- **Frases conferidas:**
+  - IV.1 — as cidades variam «non mediante la libertà e la servitù, come molti credono, ma mediante la servitù e la licenza» — "não entre liberdade e servidão, como muitos creem, mas entre servidão e licença".
+  - IV.1 — o Estado fundado sobre boas leis «non ha necessità della virtù d'uno uomo, come hanno gli altri, che lo mantenga» — "não precisa da virtude de um só homem para se manter, como os outros precisam".
+  - IV.1 — nos dois regimes ruins «l'uno può fare male facilmente, l'altro può fare bene con difficultà» — "um pode fazer o mal facilmente; o outro só faz o bem com dificuldade".
+  - IV.3 — Uzzano: «era facile opporsi a' disordini ne' principii, ma lasciandogli crescere, era difficile il rimediarvi» — "era fácil opor-se às desordens no começo; deixando-as crescer, era difícil remediá-las".
+  - IV.9 — Rinaldo: «essere prudenza sapersi valere degli uomini secondo i tempi» — "é prudência saber servir-se dos homens conforme os tempos".
+  - IV.10 — Giovanni: «sendo gli uomini naturalmente più pronti alla vendetta della ingiuria che alla gratitudine del benifizio» — "sendo os homens naturalmente mais prontos à vingança da ofensa do que à gratidão pelo benefício".
+  - IV.14 — o catasto: «Avendola pertanto a distribuire la legge, e non gli uomini, venne ad aggravare assai i cittadini potenti» — "tendo de ser distribuído pela lei, e não pelos homens, pesou muito sobre os cidadãos poderosos"; e logo depois: «mai gli uomini non si sodisfanno» — "os homens nunca se satisfazem".
+  - IV.16 — Giovanni aos filhos: «quello che l'uomo si toglie, non quello che all'uomo è dato, ci fa odiare» — "o que o homem toma para si, não o que lhe é dado, é que nos faz odiar".
+  - IV.26 — Cosimo «attendeva a benificare ciascuno e, con la liberalità sua, farsi partigiani assai cittadini» — "cuidava de beneficiar a todos e, com a sua liberalidade, fazer de muitos cidadãos partidários seus".
+  - IV.27 — Uzzano: «quale legge è quella che proibisca o che biasimi e danni negli uomini la pietà, la liberalità, lo amore? E benché sieno modi tutti che tirino gli uomini volando al principato, non di meno e' non sono creduti così» — "que lei proíbe, censura ou condena nos homens a piedade, a liberalidade, o amor? E embora sejam todos modos que levam os homens voando ao principado, não são vistos assim".
+  - IV.27 — Uzzano: «voi lo aresti cacciato buono, e tornerebbeci cattivo» — "vós o teríeis expulsado bom, e ele voltaria mau".
+  - IV.27 — Uzzano: «se la si libera da Cosimo, la si fa serva a messer Rinaldo» — "se ela [a república] se livra de Cosimo, fica serva de messer Rinaldo".
+  - IV.27 — «tutti questi cittadini, parte per ignoranza, parte per malizia, sono a vendere questa republica apparecchiati; ed è in tanto la fortuna loro amica, ch'eglino hanno trovato il comperatore» — "todos esses cidadãos, parte por ignorância, parte por malícia, estão prontos a vender esta república; e a fortuna lhes é tão amiga que já acharam o comprador".
+  - IV.28 — com a cidade dividida: «niuno magistrato faceva l'ufizio suo» — "nenhum magistrado cumpria o seu ofício".
+  - IV.33 — Rinaldo: «stimerò sempre poco vivere in una città dove possino meno le leggi che gli uomini» — "sempre darei pouco valor a viver numa cidade onde as leis podem menos que os homens"; e «cosa più gloriosa reputano essere uno onorevole ribello, che uno stiavo cittadino» — "[os sábios] consideram mais glorioso ser um rebelde honrado do que um cidadão escravo".
+- **Como aplicar num negócio hoje:**
+  - **Método Cosimo (IV.26–27):** a liderança mais sólida numa organização não vem do cargo, vem de **quem deve favores a você**. Na agência: ser quem resolve o problema do cliente fora do escopo, indica fornecedor, apresenta contatos. Mas atenção ao lado sombrio: isso cria "partidários", e Maquiavel mostra que partidários dividem a cidade (VII.1).
+  - **Catasto (IV.14):** regra objetiva ("a lei, não os homens") tira o poder de quem negociava por pressão. Tabela de preços e critério de comissão públicos protegem o pequeno contra o grande.
+  - **Uzzano (IV.27):** antes de atacar um concorrente ou um sócio, **medir as forças** — quem está do seu lado de verdade e quem está dividido por inveja. Expulsar alguém amado só o devolve mais forte e com dívidas com quem o trouxe de volta.
+  - **Rinaldo (IV.29–33):** não faça meia medida contra um adversário perigoso, e não desarme confiando na palavra de um mediador que não tem força para garantir nada.
+
+---
+
+### 2.5 Livro V — 1434 a 1440: Cosimo no poder, guerras de Lombardia, Anghiari (35 capítulos)
+
+- **Período:** 1434–1440.
+- **Fatos principais:**
+  - cap. 1: **capítulo teórico** — o ciclo ordem → desordem → ordem; as letras vêm depois das armas; as guerras italianas "sem perigo".
+  - cap. 2–3: os condottieri (Sforza, Fortebraccio, Piccinino) e a guerra contra o papa Eugênio.
+  - cap. 4: **a proscrição médici depois de 1434**: exílios, confiscos, exilados devolvidos por Veneza e mortos, eleições manipuladas, magistratura dos Oito de Guarda nas mãos da facção.
+  - cap. 5–7: morte de Joana II de Nápoles; **Afonso de Aragão** preso pelos genoveses na batalha naval de Ponza (1435) e **libertado por Filippo Visconti**, que vira seu aliado; Gênova se revolta contra Milão.
+  - cap. 8–9: os exilados (Rinaldo) pedem ao duque de Milão guerra contra Florença — **discurso de Rinaldo** (cap. 8).
+  - cap. 10–14: nova **guerra de Lucca** (1436–1438), Francesco Sforza a serviço de Florença; discurso de um ancião de Lucca (cap. 11); as "cavilações" de Sforza e do duque (cap. 14).
+  - cap. 15: Florença enriquece a cidade mesmo em guerra.
+  - cap. 16: **Concílio de Florença (1439)**: união com a Igreja grega.
+  - cap. 17–25: guerra de Lombardia: Piccinino × Sforza; cerco de Brescia e Verona; **Neri Capponi** em Veneza (discurso, cap. 21); Sforza salva Verona.
+  - cap. 26–31: Piccinino desce à Toscana com Rinaldo (1440); Florença se mantém pela "benevolência que Cosimo tinha no povo" (cap. 31).
+  - cap. 32–34: **batalha de Anghiari (29/06/1440)** — "não morreu senão um homem"; os soldados não obedecem aos comissários.
+  - cap. 35: conquista do Casentino; o conde de Poppi perde o Estado (discurso a Neri).
+- **Personagens:** Cosimo, Neri di Gino Capponi, Rinaldo degli Albizzi (exilado), Filippo Maria Visconti, Francesco Sforza, Niccolò Piccinino, Afonso de Aragão, papa Eugênio IV, Micheletto Attendolo, o conde de Poppi.
+- **Discursos:** **V.8 (Rinaldo ao duque de Milão)**; V.11 (ancião de Lucca); V.21 (Neri Capponi ao Senado de Veneza); V.35 (conde de Poppi a Neri).
+- **Tese política:** (1) ciclo histórico: a virtude gera paz, a paz gera ócio, o ócio gera ruína (V.1); (2) a Itália do séc. XV é o ponto baixo do ciclo: guerras sem mortos, mantidas por "enganos, astúcias e artes" — o livro ensina pelo **exemplo negativo**; (3) uma facção vencedora se garante destruindo a outra (V.4).
+- **Frases conferidas:**
+  - V.1 — «la virtù partorisce quiete la quiete ozio, l'ozio disordine, il disordine rovina, e similmente dalla rovina nasce l'ordine, dall'ordine virtù, da questa gloria e buona fortuna» — "a virtude gera tranquilidade, a tranquilidade ócio, o ócio desordem, a desordem ruína; e da ruína nasce a ordem, da ordem a virtude, desta a glória e a boa fortuna".
+  - V.1 — «le lettere vengono drieto alle armi, e [...] nelle provincie e nelle città prima i capitani che i filosofi nascono» — "as letras vêm depois das armas; nas províncias e cidades nascem primeiro os capitães, depois os filósofos".
+  - V.1 — guerras «che le si cominciavano sanza paura, trattavansi sanza pericolo, e finivonsi sanza danno» — "começavam sem medo, conduziam-se sem perigo e terminavam sem dano".
+  - V.1 — o propósito do livro: mostrar «con quali inganni, con quali astuzie e arti, i principi, i soldati e i capi delle repubbliche, per mantenersi quella reputazione che non avevono meritata, si governavano» — "com que enganos, astúcias e artes os príncipes, os soldados e os chefes das repúblicas se governavam para manter a reputação que não tinham merecido"; e se os exemplos antigos acendem a vontade de imitar, «queste a fuggirle e spegnerle gli accenderanno» — "estes acenderão a vontade de fugir deles e apagá-los".
+  - V.4 — a proscrição de 1434 «arebbe a quella d'Ottaviano e Silla renduto similitudine» se tivesse havido sangue; e «ai cittadini non tanto l'umore delle parti noceva, ma le ricchezze, i parenti, le nimicizie private» — "aos cidadãos não prejudicava tanto o humor de partido, mas as riquezas, os parentes, as inimizades privadas".
+  - V.8 — Rinaldo: «quella patria merita di essere da tutti i cittadini amata la quale ugualmente tutti i suoi cittadini ama, non quella che, posposti tutti gli altri, pochissimi ne adora» — "merece ser amada por todos a pátria que ama igualmente todos os seus cidadãos, não a que, deixando os outros de lado, adora pouquíssimos".
+  - V.8 — «Sono solamente quelle guerre giuste che sono necessarie, e quelle armi sono pietose dove non è alcuna speranza fuora di quelle» — "só são justas as guerras necessárias, e piedosas as armas quando não há outra esperança fora delas" (frase de Tito Lívio IX.1, também usada em *O Príncipe* XXVI e *Discursos* III.12).
+  - V.11 — o ancião de Lucca: «delle cose fatte per necessità non se ne debbe né puote loda o biasimo meritare» — "das coisas feitas por necessidade não se deve nem pode merecer louvor nem censura"; e a inimizade florentina nasce «la debolezza vostra e la ambizione loro» — "da vossa fraqueza e da ambição deles".
+  - V.33 — Anghiari: «in tanta rotta e in sì lunga zuffa, che durò dalle venti alle ventiquattro ore, non vi morì altri che uno uomo; il quale, non di ferite o d'altro virtuoso colpo, ma caduto da cavallo e calpesto espirò» — "em tamanha derrota e em combate tão longo, que durou das 20 às 24 horas, não morreu senão um homem, e não de ferimentos ou de golpe valoroso, mas caído do cavalo e pisoteado".
+  - V.34 — depois da vitória, os condottieri se recusaram a perseguir o inimigo, «dicendo volere riporre la preda e medicare i feriti» — "dizendo que queriam guardar o butim e tratar os feridos".
+- **Atenção (fato × texto):** as fontes do século XV e os historiadores modernos falam em **dezenas a algumas centenas de mortos** em Anghiari; o "um só morto" é exagero retórico de Maquiavel para atacar os mercenários. (Ver 3.4.) Leonardo da Vinci pintou a batalha no Palácio da Senhoria (afresco perdido), em 1503–1505, por encomenda da república em que Maquiavel trabalhava.
+- **Como aplicar num negócio hoje:**
+  - **Ciclo de V.1:** empresa que deu certo entra em "quiete → ócio": processos frouxos, gente acomodada. É no auge que se planta a queda. Revisar processos e metas quando está tudo bem.
+  - **Anghiari:** prestador que é pago "por presença" e não por resultado faz "guerra sem mortos": entrega relatório bonito, não toma risco, não persegue a vitória. Remuneração com parte variável por resultado.
+  - **Rinaldo (V.8):** ex-sócio ou ex-funcionário rejeitado vai bater na porta do concorrente com argumentos "justos". Trate bem quem sai.
+
+---
+
+### 2.6 Livro VI — 1440 a 1463: Sforza duque, paz de Lodi, Nápoles (38 capítulos)
+
+- **Período:** 1440–1463.
+- **Fatos principais:**
+  - cap. 1: **capítulo teórico** — a guerra serve para enriquecer quem vence e empobrecer o inimigo; com mercenários, o vencedor empobrece.
+  - cap. 2–4: Piccinino se refaz em seguida; tratativas; paz de Cavriana (1441) e casamento de **Francesco Sforza com Bianca Maria Visconti**.
+  - cap. 5: Afonso de Aragão toma Nápoles (1442).
+  - cap. 6–7: **assassinato de Baldaccio d'Anghiari** (1441), capitão de infantaria amigo de Neri Capponi, jogado de uma janela do Palácio por ordem do gonfaloneiro Bartolomeo Orlandini — os cidadãos o achavam perigoso demais; reforma do regime médici (1444).
+  - cap. 8: morte de Niccolò Piccinino (1444).
+  - cap. 9–10: Bolonha: Annibale Bentivoglio assassinado (1445); os bolonheses buscam em Florença um Bentivoglio ilegítimo (Sante), com apoio de Cosimo.
+  - cap. 11–13: Filippo Visconti pede ajuda ao genro Sforza e morre (1447).
+  - cap. 13–24: **República Ambrosiana** de Milão; Sforza é seu capitão, vence os venezianos em **Caravaggio (1448)**, depois faz acordo com Veneza **contra Milão** (cap. 19–20), é acusado pelos embaixadores milaneses (cap. 20–21), cerca Milão e entra como **duque em 26/02/1450** (cap. 24).
+  - cap. 23–26: Florença (Cosimo) apoia Sforza, contra a opinião de muitos e contra Veneza; Veneza e Afonso se aliam contra Florença e Milão.
+  - cap. 27: passagem do imperador Frederico III (1452).
+  - cap. 28–31: guerra de Afonso na Toscana; Florença pede ajuda à França (René d'Anjou).
+  - cap. 29: **conspiração de Stefano Porcari** contra o papa Nicolau V (1453).
+  - cap. 32: queda de Constantinopla (1453) e **paz de Lodi (1454)**, com a liga geral italiana.
+  - cap. 33: Jacopo Piccinino contra Siena.
+  - cap. 34: o **furacão de 1456** na Toscana (página de bravura).
+  - cap. 35–38: morte de Afonso (1458); guerra de sucessão em Nápoles entre **Ferrante** e **Jean d'Anjou**; Pio II.
+- **Personagens:** Francesco Sforza, Bianca Maria Visconti, Filippo Maria Visconti, Niccolò e Jacopo Piccinino, Neri Capponi, Baldaccio d'Anghiari, Afonso de Aragão, Ferrante, Cosimo, Stefano Porcari, papas Eugênio IV, Nicolau V, Calisto III, Pio II.
+- **Discursos:** **VI.20 (embaixador milanês a Sforza: a ingratidão)**; VI.21 (resposta de Sforza, indireta).
+- **Tese política:** (1) a guerra mercenária empobrece até o vencedor (VI.1); (2) o capitão mercenário bem-sucedido acaba **tomando o Estado de quem o contratou** — Sforza é o exemplo (cf. *O Príncipe* VII, XII); (3) num governo de facção, os cidadãos matam o homem de valor por medo (Baldaccio).
+- **Frases conferidas:**
+  - VI.1 — «Fu sempre, e così è ragionevole che sia, il fine di coloro che muovono una guerra, di arricchire sé e impoverire il nimico» — "Sempre foi, e é razoável que seja, o fim de quem faz uma guerra enriquecer-se e empobrecer o inimigo".
+  - VI.1 — quem vence com mercenários «è nelle perdite infelice e nelle vittorie infelicissimo» — "é infeliz nas derrotas e infelicíssimo nas vitórias".
+  - VI.1 — as repúblicas da época «prima votavono lo erario, di poi impoverivano il popolo, e de' nimici tuoi non ti assicuravano» — "primeiro esvaziavam o tesouro, depois empobreciam o povo, e não te livravam dos inimigos".
+  - VI.6 — sobre Baldaccio: «giudicando che fussi il lasciarlo pericoloso e il tenerlo pericolosissimo» — "julgando que deixá-lo era perigoso e mantê-lo, perigosíssimo".
+  - VI.20 — embaixador milanês: «Tu per tanto ricevesti da noi uno insperato bene; e noi, per ricompenso, riceviamo da te uno insperato male» — "Recebeste de nós um bem inesperado; e nós, em troca, recebemos de ti um mal inesperado".
+  - VI.21 — Sforza (indireto): ele não ofendeu os milaneses, mas «provedutosi che non potessero iniuriare lui» — "precaveu-se para que não pudessem ofendê-lo".
+- **Como aplicar num negócio hoje:**
+  - **Sforza:** o gestor ou o parceiro a quem você entrega toda a operação e todo o relacionamento com o cliente pode virar o dono do cliente. Contratos, acesso às contas e relacionamento direto do dono com o cliente final.
+  - **VI.1:** projeto que "dá certo" mas consome caixa, equipe e margem é vitória que empobrece. Medir lucro por cliente, não só faturamento.
+  - **Baldaccio:** não elimine o melhor profissional por medo de que fique forte demais; amarre-o com sociedade e regras. Em Florença, o medo das facções matou o melhor soldado.
+
+---
+
+### 2.7 Livro VII — 1434 a 1476 (dentro de Florença): seitas, morte de Cosimo, Piero, Lorenzo jovem (34 capítulos)
+
+- **Período:** volta a 1434 para a política interna, até 1476.
+- **Fatos principais:**
+  - cap. 1: **capítulo teórico — divisões com seitas × divisões sem seitas** (o mais importante da obra para o agente; ver 3.1).
+  - cap. 2–4: Cosimo e **Neri Capponi** (Neri tinha "amigos", Cosimo "amigos e partidários"); morto Neri (1455), os próprios amigos de Cosimo resistem a renovar a *balìa*; restauram as listas abertas; depois, com **Luca Pitti** gonfaloneiro, fazem um **parlamento armado (1458)** e criam nova *balìa*; seguem oito anos de governo "insuportável e violento", em que "poucos cidadãos saqueavam a cidade" (cap. 4).
+  - cap. 5–6: **morte de Cosimo (1/08/1464)**: obras, mecenato, retrato, ditos, "Padre della patria" (ver seção 4).
+  - cap. 7–9: França (Luís XI); **Jacopo Piccinino** traído e morto por Ferrante (1465); Pio II morre em Ancona (1464).
+  - cap. 10–17: **Piero di Cosimo** pede conselho a **Dietisalvi Neroni**, que o leva a **cobrar os empréstimos** do pai — e Piero perde a popularidade; conjura de Dietisalvi, Luca Pitti, Agnolo Acciaiuoli e Niccolò Soderini (o "Poggio" × o "Piano"); festas públicas para distrair (cap. 12); Niccolò Soderini gonfaloneiro, aclamado, não faz nada (cap. 14); Pitti muda de lado; em **setembro de 1466** os Médici vencem, os rivais são exilados (cap. 15–17).
+  - cap. 18–20: os exilados (cartas Acciaiuoli–Piero) convencem Veneza; **Bartolomeo Colleoni** invade (1467); **batalha da Molinella/Riccardina**: meio dia de luta e "não morreu ninguém".
+  - cap. 21–23: os vencedores abusam; Piero repreende os seus (discurso, cap. 23) e morre (dezembro de 1469).
+  - cap. 24: **Tommaso Soderini** recusa ser o chefe e manda os cidadãos visitarem os jovens Lorenzo e Giuliano.
+  - cap. 25–27: tentativa de Bernardo Nardi em **Prato (1470)**, sufocada.
+  - cap. 28: corrupção dos jovens na paz; visita de **Galeazzo Maria Sforza** (1471) com carne na Quaresma; incêndio de Santo Spirito; leis suntuárias.
+  - cap. 29–30: **Volterra (1472)**: a disputa pela mina de **alúmen**; guerra conduzida por Lorenzo; saque da cidade; frase de Tommaso Soderini.
+  - cap. 31–32: o papa **Sisto IV** e seus sobrinhos; Città di Castello; Carlo Fortebraccio.
+  - cap. 33–34: **conjura de Milão (26/12/1476)**: Cola Montano ensina república a três jovens (Lampugnani, Visconti, Olgiati), que matam o duque Galeazzo Maria na igreja de Santo Stefano; o povo não os segue; Olgiati morre dizendo «Mors acerba, fama perpetua, stabit vetus memoria facti».
+- **Personagens:** Cosimo, Neri Capponi, Luca Pitti, Piero de' Medici ("il Gottoso"), Dietisalvi Neroni, Agnolo Acciaiuoli, Niccolò e Tommaso Soderini, Bartolomeo Colleoni, Lorenzo e Giuliano jovens, Bernardo Nardi, Galeazzo Maria Sforza, Sisto IV, Cola Montano, Girolamo Olgiati.
+- **Discursos:** VII.18 (cartas Acciaiuoli–Piero); VII.19 (exilados ao doge, indireto); **VII.23 (Piero aos chefes do seu partido)**; VII.24 (Tommaso Soderini, indireto).
+- **Tese política:** (1) é ilusão querer uma república sem divisões; o fundador deve impedir as **seitas** (VII.1); (2) uma facção vencedora só fica unida enquanto existe o inimigo; quando ele some, ela se divide (VII.1–2, 10); (3) o povo ocioso é instrumento de quem quer mudar o regime — daí as festas (VII.12); (4) o cargo assumido com expectativa extraordinária termina em desonra (VII.14); (5) conspiração sem apoio popular real fracassa (VII.34).
+- **Frases conferidas:**
+  - VII.1 — «coloro che sperano che una republica possa essere unita, assai di questa speranza s'ingannono» — "os que esperam que uma república possa ser unida enganam-se muito nessa esperança".
+  - VII.1 — «alcune divisioni nuocono alle republiche, e alcune giovano: quelle nuocono che sono dalle sette e da partigiani accompagnate; quelle giovano che senza sette e senza partigiani si mantengono» — "algumas divisões prejudicam as repúblicas e outras ajudam: prejudicam as acompanhadas de seitas e partidários; ajudam as que se mantêm sem seitas e sem partidários".
+  - VII.1 — «Non potendo adunque provedere uno fondatore di una republica che non sieno inimicizie in quella, ha a provedere almeno che non vi sieno sette» — "Não podendo o fundador de uma república impedir que haja inimizades nela, deve ao menos impedir que haja seitas".
+  - VII.1 — reputação se ganha «o per vie publiche, o per modi privati» — "por vias públicas ou por modos privados"; as públicas são vencer batalha, conquistar terra, fazer embaixada com prudência, aconselhar bem; as privadas: «benificando questo e quell'altro cittadino, defendendolo da' magistrati, suvvenendolo di danari, tirandolo immeritamente agli onori, e con giochi e doni publici gratificandosi la plebe» — "beneficiando este e aquele cidadão, defendendo-o dos magistrados, socorrendo-o com dinheiro, levando-o sem mérito às honras, e agradando a plebe com jogos e presentes públicos".
+  - VII.1 — a facção vencedora «non avendo quella che regnava più paura che la ritenesse né ordine infra sé che la frenasse, la si ridivideva» — "não tendo mais medo que a contivesse nem ordem interna que a freasse, dividia-se de novo".
+  - VII.2 — Neri tinha «assai amici e pochi partigiani»; Cosimo «amici e partigiani assai».
+  - VII.4 — «pochi cittadini predavano quella città» — "poucos cidadãos saqueavam aquela cidade".
+  - VII.12 — «il più delle volte i popoli oziosi sono strumento a chi vuole alterare» — "na maioria das vezes os povos ociosos são instrumento de quem quer mudar o regime".
+  - VII.14 — «non è cosa desiderabile prendere o uno magistrato o uno principato con estraordinaria opinione; perché, non potendosi con le opere a quella corrispondere, [...] ti partorisce, con il tempo, disonore e infamia» — "não é desejável assumir um cargo ou um principado com expectativa extraordinária, porque, não podendo corresponder a ela com as obras, isso te gera, com o tempo, desonra e infâmia".
+  - VII.20 — Molinella: «non vi morì alcuno: solo vi furno alcuni cavagli feriti, e certi prigioni da ogni parte presi» — "não morreu ninguém: só houve alguns cavalos feridos e alguns prisioneiros de cada lado"; antes disso, nos acampamentos, «ciascuno con maravigliosa viltà si governava».
+  - VII.20 — sobre Niccolò Soderini: «nel risolversi dubio e lento, il che fece che, gonfaloniere di giustizia, ei perdé quella occasione del vincere che di poi, privato, volle racquistare e non potette» — "na decisão, hesitante e lento; por isso, sendo gonfaloneiro, perdeu a ocasião de vencer que depois, como particular, quis recuperar e não pôde".
+  - VII.23 — Piero aos seus: «se voi seguiterete di portarvi in modo che io mi abbi a pentire di avere vinto, io ancora mi porterò in maniera che voi vi pentirete di avere male usata la vittoria» — "se continuardes a vos portar de modo que eu me arrependa de ter vencido, eu também me portarei de maneira que vos arrependereis de ter usado mal a vitória".
+  - VII.24 — Tommaso Soderini: «gli uomini di fare le cose che sono fare consueti mai non si dolgono» — "os homens nunca se queixam de fazer as coisas que estão acostumados a fazer".
+  - VII.28 — os jovens na paz: «quello che più destramente mordeva gli altri era più savio e da più stimato» — "quem mordia os outros com mais destreza era tido por mais sábio e mais estimado".
+  - VII.30 — Tommaso Soderini sobre Volterra: «A me pare ella perduta: perché, se voi la ricevevi d'accordo, voi ne traevi utile e securtà, ma avendola a tenere per forza, ne' tempi avversi vi porterà debolezza e noia, e ne' pacifici danno e spesa» — "Para mim ela está perdida: se a tivésseis recebido por acordo, tiraríeis dela proveito e segurança; tendo de mantê-la à força, nos tempos adversos vos trará fraqueza e aborrecimento, e nos pacíficos, dano e despesa".
+  - VII.34 — «Imparino per tanto i principi a vivere in maniera, e farsi in modo reverire e amare, che niuno speri potere, ammazzandogli, salvarsi» — "Aprendam os príncipes a viver de maneira, e a fazer-se reverenciar e amar de modo, que ninguém espere salvar-se matando-os"; e «quanto quel pensiero sia vano che ci faccia confidare troppo che una moltitudine, ancora che mal contenta, ne' pericoli tuoi ti seguiti» — "como é vã a ideia de confiar demais que uma multidão, mesmo descontente, te siga nos teus perigos".
+- **Como aplicar num negócio hoje:**
+  - **VII.1 (o mais útil):** competição interna é boa quando é por **resultado público** (quem vende mais, quem entrega melhor); é veneno quando vira **"panelinha"** (gente que segue um líder por favores pessoais). Regra prática: premiar só o que é visível e mensurável; proibir que gerentes "protejam" os seus contra as regras.
+  - **Piero e Dietisalvi (VII.10):** cuidado com o conselheiro que examina suas contas e te aconselha algo "honesto e razoável" que destrói sua base (cobrar de uma vez todos os que te devem favores). Antes de cortar benefícios de clientes antigos, calcular o custo de reputação.
+  - **VII.14:** não deixe a expectativa do cliente subir além do que você entrega. Promessa grande na venda vira "desonra e infâmia" no terceiro mês.
+  - **VII.30:** cliente "conquistado à força" (contrato com multa, desconto absurdo, briga) dá despesa na paz e fraqueza na crise. Prefira o acordo.
+
+---
+
+### 2.8 Livro VIII — 1476 a 1492: os Pazzi, Lorenzo, a paz italiana (36 capítulos)
+
+- **Período:** 1476–abril de 1492.
+- **Fatos principais:**
+  - cap. 1: **capítulo teórico** curto sobre conspirações (remete ao "outro lugar" em que tratou do tema = *Discursos* III.6); depois de 1466 o Estado se concentrou nos Médici, e quem estava descontente só tinha a conspiração.
+  - cap. 2–3: a Itália em duas ligas (Papa + Nápoles × Veneza + Milão + Florença); origem do ódio **Pazzi × Médici**: os Pazzi ricos e nobres excluídos das honras; a lei que tira a herança Borromei da mulher de Giovanni de' Pazzi; Giuliano avisa Lorenzo; **Francesco de' Pazzi** e o conde **Girolamo Riario** (sobrinho de Sisto IV) e o arcebispo **Francesco Salviati** planejam matar Lorenzo e Giuliano.
+  - cap. 4–5: preparativos; o jovem cardeal Raffaele Riario como pretexto; o condottiere **Giovan Battista da Montesecco** se recusa a matar na igreja.
+  - cap. 6: **26 de abril de 1478, missa na catedral (Santa Reparata/Santa Maria del Fiore)**: Bernardo Bandini e Francesco de' Pazzi matam **Giuliano** (Francesco se fere na própria perna); dois padres ferem Lorenzo de leve no pescoço; Lorenzo se salva na sacristia.
+  - cap. 7: o arcebispo Salviati tenta tomar o Palácio; o gonfaloneiro **Cesare Petrucci** o prende; os conjurados são enforcados nas janelas.
+  - cap. 8: **Jacopo de' Pazzi** cavalga pela praça gritando "povo e liberdade" — ninguém responde.
+  - cap. 9: a vingança: mortes, o povo arrasta os corpos; Lorenzo cercado de armados.
+  - cap. 10–12: o papa e o rei **Ferrante** declaram guerra a Florença (a Lorenzo); Sisto excomunga a cidade; **discurso de Lorenzo** aos mais de 300 cidadãos (cap. 10).
+  - cap. 13: Gênova se rebela contra Milão; **Lodovico Sforza** (o Mouro) começa a mandar em Milão.
+  - cap. 14–17: guerra; derrota de Poggio Imperiale (1479); "Esta cidade está cansada e não quer mais guerra"; a decisão de buscar o rei e não o papa.
+  - cap. 18–19: **viagem de Lorenzo a Nápoles (dezembro de 1479–março de 1480)**; Sarzana tomada pelos genoveses durante a trégua.
+  - cap. 20–21: os turcos tomam **Otranto (1480)** e o duque da Calábria sai da Toscana; Florença se salva.
+  - cap. 22–27: **guerra de Ferrara (1482–1484)** contra Veneza; paz de Bagnolo.
+  - cap. 28–31: guerra de **Sarzana e Pietrasanta** (com o Banco de São Jorge genovês).
+  - cap. 32–33: **conjura dos barões** contra Ferrante (Áquila, 1485–1486); Florença ajuda o rei e ganha a confiança do papa Inocêncio VIII.
+  - cap. 34–35: Boccolino de Osimo; assassinatos de Girolamo Riario em Forlì e de Galeotto Manfredi em Faenza (1488).
+  - cap. 36: **retrato e morte de Lorenzo (8/04/1492)**; o raio na cúpula de Santa Reparata; a ambição de Lodovico Sforza e "os maus sementes" que arruinaram a Itália.
+- **Personagens:** Lorenzo e Giuliano de' Medici, Jacopo e Francesco de' Pazzi, Bernardo Bandini, arcebispo Francesco Salviati, Girolamo Riario, Sisto IV, Ferrante de Nápoles, Giovan Battista da Montesecco, Cesare Petrucci, Lodovico Sforza, Federico da Montefeltro, Inocêncio VIII.
+- **Discursos:** **VIII.10 (Lorenzo à Senhoria e aos cidadãos)**; falas curtas em VIII.17 ("Questa città è stracca").
+- **Tese política:** (1) conspirações quase sempre destroem quem as faz e **fortalecem** quem é atacado (VIII.1; cf. *Discursos* III.6); mas o atacado, por medo, tende a se tornar cruel; (2) o poder ganho por "liberalidade, humanidade e munificência" é defendido pelo povo; o "usurpado" é odiado (VIII.10); (3) aliar-se ao papa é arriscado: na vitória ele te acompanha, na ruína te deixa só (VIII.17); (4) a coragem pessoal na negociação vale mais que exércitos (Lorenzo em Nápoles).
+- **Frases conferidas:**
+  - VIII.1 — as conjurações «partoriscono il più delle volte a chi le muove rovina, e a colui contro al quale sono mosse grandezza» — "geram na maioria das vezes ruína para quem as move e grandeza para aquele contra quem são movidas".
+  - VIII.1 — o príncipe atacado «molte volte, sendo buono, diventa cattivo; perché queste, con lo esemplo loro, gli danno cagione di temere, il temere di assicurarsi, l'assicurarsi di ingiuriare: donde ne nascono gli odii, di poi, e molte volte la sua rovina» — "muitas vezes, sendo bom, torna-se mau, porque elas lhe dão razão para temer, o temer para se garantir, o garantir-se para ofender: daí nascem os ódios e muitas vezes a sua ruína".
+  - VIII.2 — Giuliano a Lorenzo: temia que, «per volere delle cose troppo, che le non si perdessero tutte» — "por querer coisas demais, se perdessem todas".
+  - VIII.3 — Lorenzo, «caldo di gioventù e di potenza, voleva ad ogni cosa pensare, e che ciascuno da lui ogni cosa ricognoscesse» — "quente de juventude e de poder, queria pensar em tudo e que cada um reconhecesse tudo como vindo dele".
+  - VIII.8 — Jacopo de' Pazzi chama «il popolo e la libertà», mas «l'uno era dalla fortuna e liberalità de' Medici fatto sordo, l'altra in Firenze non era cognosciuta» (ver 1.9).
+  - VIII.10 — Lorenzo: «quelle autoritadi meritono di essere odiate che gli uomini si usurpano, non quelle che gli uomini per liberalità, umanità e munificenza si guadagnano» — "merecem ser odiadas as autoridades que os homens usurpam, não as que os homens ganham por liberalidade, humanidade e munificência".
+  - VIII.10 — Lorenzo: «se la esperienza mi ha fatto conoscere come io aveva in questa città più nimici che io non pensava, m'ha ancora dimostro come io ci aveva più ferventi e caldi amici che io non credeva» — "se a experiência me fez conhecer que eu tinha nesta cidade mais inimigos do que pensava, mostrou-me também que tinha mais amigos fervorosos do que acreditava".
+  - VIII.17 — um cidadão a Lorenzo: «Questa città è stracca, e non vuole più guerra» — "Esta cidade está cansada e não quer mais guerra".
+  - VIII.17 — «chi è, nelle guerre e pericoli, del papa amico, sarà nelle vittorie accompagnato e nelle rovine solo» — "quem é amigo do papa nas guerras e perigos será acompanhado nas vitórias e ficará só nas ruínas".
+  - VIII.19 — em Nápoles, «la grandezza degli inimici che gli aveva avuti lo aveva fatto grandissimo» — "a grandeza dos inimigos que tivera o tinha feito grandíssimo".
+  - VIII.36 — Lorenzo «nel discorrere le cose eloquente e arguto, nel risolverle savio, nello esequirle presto e animoso» — "eloquente e arguto ao discutir as coisas, sábio ao resolvê-las, rápido e corajoso ao executá-las".
+  - VIII.36 — final da obra: depois da morte de Lorenzo, começaram a nascer «quegli cattivi semi i quali, non dopo molto tempo, non sendo vivo chi gli sapesse spegnere, rovinorono, e ancora rovinano, la Italia» — "aquelas más sementes que, pouco tempo depois, não estando vivo quem as soubesse apagar, arruinaram, e ainda arruínam, a Itália".
+- **Como aplicar num negócio hoje:**
+  - **Pazzi (VIII.2–3):** excluir das decisões um sócio, parceiro ou funcionário rico e orgulhoso, e ainda tirar dele o que é seu por uma regra feita sob medida, cria um inimigo disposto a tudo. "Por querer demais, perde-se tudo."
+  - **Lorenzo em Nápoles (VIII.17–19):** quando a crise é pessoal (o cliente grande está furioso com você), **vá pessoalmente**. A coragem de se apresentar muda a negociação.
+  - **"Esta cidade está cansada" (VIII.17):** ouvir quando a equipe diz que não aguenta mais uma "guerra" (um cliente tóxico, uma campanha impossível). Fazer a paz a tempo.
+  - **VIII.1:** depois de sofrer uma traição (sócio que roubou cliente, funcionário que vazou dados), não endureça com todos: o medo leva a ofender, e a ofensa gera novos inimigos.
