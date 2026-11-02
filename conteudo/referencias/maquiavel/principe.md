@@ -1101,6 +1101,22 @@ O mesmo autor escreveu um manual para **um príncipe novo** (*Príncipe*) e uma 
 | **Espanhol**: Puigdomènech (Cátedra/Tecnos), Granada (Alianza) | Mesmas cinco passagens. |
 | **Alemão moderno**: Zorn (Kröner), Rippel (Reclam) | Idem; e "Tugend"/"Tatkraft" para *virtù* (3.1). |
 
+### 7.3.1 Português conferido: Lívio Xavier (revisão de cobertura, conta Zuleide, 02/11/2026)
+
+Texto lido no OCR de *Maquiavel* (coleção **Os Pensadores**, Abril Cultural, **3ª ed., 1983**; "Traduções: Lívio Xavier"; ficha CIP conferida), Internet Archive, item `colecao-os-pensadores-nicolau-maquiavel`. É a tradução que formou gerações de leitores brasileiros (1ª ed. 1933, ver `recepcao-e-estudiosos.md` 4.4). Como Xavier resolve as cinco passagens que mais importam:
+
+| Passagem | Italiano | Lívio Xavier (1983) | Observação para o agente |
+|---|---|---|---|
+| XV, *verità effettuale* | *"andare drieto alla verità effettuale della cosa, che alla immaginazione di essa"* | "procurar a **verdade pelo efeito das coisas**, do que pelo que delas se possa imaginar" | boa solução; "verdade efetiva" (forma corrente) não aparece |
+| XV, *non buono* | *"imparare a potere essere non buono"* | "que aprenda a **poder ser mau**" | **endurece** o original: Maquiavel diz "não bom" (*non buono*), não "mau" (*cattivo*). O agente deve citar "aprender a poder não ser bom" |
+| XVII, temido × amado | *"è molto più sicuro essere temuto che amato, quando si abbia a mancare dell'uno de' dua"* | "é muito mais seguro ser temido que amado, quando se tenha que falhar numa das duas" | fiel; a condição ("quando falta uma das duas") está lá |
+| XVIII, *si guarda al fine* | *"nelle azioni di tutti li uomini, e massime de' principi, dove non è iudizio a chi reclamare, si guarda al fine. Facci dunque uno principe di vincere e mantenere lo stato: e' mezzi saranno sempre iudicati onorevoli"* | "o que importa é o **êxito** bom ou mau. Procure, pois, um príncipe, vencer e conservar o Estado. Os meios que empregar serão sempre julgados honrosos e louvados por todos" | "o que importa é o êxito" é mais forte que "olha-se ao resultado": soa como norma, quando o original descreve **como o público julga**. É daqui que nasce o falso "os fins justificam os meios" em português |
+| XXV, fortuna-mulher | *"la fortuna è donna; et è necessario, volendola tenere sotto, batterla et urtarla"* | "a **sorte** é mulher e, para dominá-la, é preciso bater-lhe e contrariá-la" | Xavier traduz *fortuna* por **"sorte"** aqui; o conceito técnico de *fortuna* se perde. Melhor manter "fortuna" |
+| *virtù* | (em todo o livro) | "virtude" (ex.: "na própria virtude e prudência", cap. III) | sem distinção entre virtude moral e *virtù* (capacidade); o agente deve explicar o termo |
+| *stato* | (em todo o livro) | "Estado", com maiúscula | anacronismo útil, mas *stato* em Maquiavel é muitas vezes "o poder que alguém tem", não a instituição moderna |
+
+**Ainda não conferidas:** Maurício Santana Dias (Penguin-Companhia, 2010), Antonio D'Elia (Cultrix), Maria Júlia Goldwasser (Martins Fontes), Antonio Caruccio-Caporale (L&PM) — sem texto aberto nesta rodada.
+
 ### 7.4 Estudiosos citados de memória (conferir obra e frase)
 
 - **Latim:** Gentili, *De legationibus* III.9 (1585); Spinoza, *Tractatus politicus* V.7 (*"acutissimus Machiavellus"*); Pole, *Apologia ad Carolum Quintum* ("dedo de Satanás").
