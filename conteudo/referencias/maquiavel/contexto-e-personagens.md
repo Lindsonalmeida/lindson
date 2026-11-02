@@ -1,6 +1,6 @@
 # Contexto e personagens: o mundo de Maquiavel (Itália 1494–1530)
 
-**Situação:** parcial — feito até a seção 2 (conta Zuleide, 02/11/2026).
+**Situação:** completo — seções 1 e 2 (conta Zuleide, 02/11/2026); seções 3 a 7 (fichas, glossário, correções, uso pelo agente, lacunas) (conta Lindson, 02/11/2026).
 
 Objetivo: o agente conhecer a Itália, Florença e as pessoas do tempo de Maquiavel como quem viveu lá. Este arquivo **não repete** a cronologia pessoal e as pessoas já tratadas em `vida-e-cartas.md` (seções 1 e 4); complementa e corrige (ver seção "Correções a vida-e-cartas.md").
 
@@ -172,3 +172,308 @@ Base principal: verbetes "Firenze" (John M. Najemy), "cancelleria della Repubbli
 - **Fato documentado.** 26/4/1527, "tumulto del venerdì": jovens ottimati (Piero Salviati, Niccolò Capponi) ocupam o Palácio; é contido. 11–17/5/1527, com a notícia do Saque de Roma: o regime cai, Passerini e os jovens Médici saem (17/5), restauram-se o Consiglio Maggiore e a milícia. **Niccolò Capponi** gonfaloniere (eleito em 31/5/1527, por um ano, depois reconduzido; data não conferida em documento nesta sessão); moderado, em fevereiro de 1528 faz o Conselho proclamar **Cristo rei de Florença** (herança savonaroliana). Deposto em abril de 1529 por contatos secretos com o papa; sucede-o **Francesco Carducci** (radical). Cerco de 1529–1530; capitulação em 12/8/1530; Alessandro de' Medici duque em 1532; Cosimo I a partir de 1537.
 - Maquiavel morre em 21/6/1527, no começo dessa república, rejeitado por ela (ver `vida-e-cartas.md`). [Tradição] O relato de Giovambattista Busini (cartas a Varchi, 1549) diz que todos o odiavam: os ricos pelo *Príncipe*, que lhes parecia ensinar o duque a tirar-lhes os bens, os piagnoni porque o achavam herege, os bons por o acharem desonesto, os maus por o acharem mais esperto do que eles. É testemunho tardio e hostil, não prova.
 
+
+---
+
+## 3. Fichas de personagens
+
+Continuação pela conta Lindson (02/11/2026), a partir das seções 1 e 2 da conta Zuleide. Fonte complementar: `frente-lindson/contexto-e-personagens.md` (fichas de 30+ personagens), **conferida** contra o *Dizionario Biografico degli Italiani* (DBI, Treccani, verbetes abertos nesta sessão e citados em cada ficha) e contra o texto italiano das obras (citações já conferidas em `principe.md`, `discursos.md` e `historia-de-florenca.md`; aqui só se dá a referência). **Para não duplicar:** o que Maquiavel *pensava* de cada pessoa que conheceu (Bórgia, Júlio II, Soderini, Médici, Savonarola, Guicciardini, Vettori, Luís XII, Maximiliano, Caterina, Petrucci, Fernando, Giovanni dalle Bande Nere) está em `vida-e-cartas.md`, seção 4. Aqui ficam: quem foi, datas conferidas, ligação com Maquiavel, onde aparece na obra e a lição para o agente.
+
+Formato: **datas** · **quem foi** · **ligação com Maquiavel** · **onde aparece** · **lição** (sempre [Interpretação] quando aplicada a negócios).
+
+### 3.1 Os Bórgia e os papas
+
+**César Bórgia, "il Valentino" (set. 1475 – 12/3/1507)**
+- **Fato documentado (DBI, Felix Gilbert, vol. 12, 1971):** filho do cardeal Rodrigo Bórgia e de Vannozza Catanei; nasceu em 1475, "provavelmente em setembro" (algumas biografias dão 1476; Gilbert é a referência). Bispo de Pamplona e arcebispo de Valência ainda adolescente; cardeal em 1493; deixa o cardinalato em 17/8/1498. Recusado pela princesa Carlota de Nápoles ("o filho de um papa que era cardeal"), vira-se para a França: Luís XII lhe dá o condado de Valence elevado a **ducado de Valentinois** (daí "Valentino"), rendas de 20 mil francos-ouro mais 20 mil de subsídio e cem soldados; casa-se com **Charlotte d'Albret** (maio de 1499).
+- **Campanhas na Romanha:** Ímola (nov.–dez. 1499) e Forlì (jan. 1500, contra Caterina Sforza); Pesaro, Rímini (out. 1500), Faenza (abril de 1501; o jovem Astorre Manfredi, que se rendeu sob promessa, aparece morto no Tibre em 1502); duque da Romanha (1501); Piombino (1501); **Urbino (21/6/1502, por surpresa)** e Camerino (julho de 1502). Revolta dos capitães na **dieta da Magione** (out. 1502); **Senigália (31/12/1502)**; ameaça a Perúgia e Siena (jan. 1503).
+- **Governo:** pacifica a Romanha com o espanhol **Ramiro de Lorqua** ("Remirro de Orco"). Gilbert registra que, ao condená-lo (dezembro de 1502), o duque declarou publicamente indignação pelas "gravi corrutele, estorsioni e rapine" do governador: o espetáculo de Cesena (26/12/1502) foi apresentado como justiça para o povo.
+- **Queda:** morte de Alexandre VI (18/8/1503) com o filho também doente; Pio III (set.–out. 1503); apoia a eleição de **Júlio II** (1/11/1503) em troca de promessas; é preso; vai a Nápoles, onde Gonzalo de Córdoba o prende (1504) e o manda à Espanha (castelos de Chinchilla e Medina del Campo); foge (1506) para a corte do cunhado, o rei de Navarra; morre numa emboscada noturna diante do castelo de **Viana**, em 12/3/1507; despido pelos inimigos, que não sabiam quem tinham matado (Gilbert).
+- **Ligação com Maquiavel:** Urbino (junho de 1502, com o bispo Francesco Soderini); legação de out. 1502 a jan. 1503 (Ímola, Cesena, Senigália); Roma (out.–dez. 1503). Ver `vida-e-cartas.md` 1 e 4 e `missoes-e-escritos-politicos.md`.
+- **Onde aparece:** *Príncipe* VII (capítulo inteiro), III, VIII, XIII, XVII, XX; *Descrizione del modo tenuto dal duca Valentino* (1503); *Decennale primo*; *Discorsi* II.24 (não confiar em fortalezas), III.6.
+- **Lição [Interpretação]:** quem cresce em cima de um só padrinho (pai, plataforma, cliente-âncora, sócio rico) cai quando o padrinho cai; e "quem crê que, nos grandes, os benefícios novos fazem esquecer as injúrias velhas se engana" (*Príncipe* VII). Debate sobre o elogio: modelo (leitura tradicional) ou ironia (Mattingly 1958, Benner 2013); ver `principe.md` e `recepcao-e-estudiosos.md`.
+
+**Alexandre VI (Rodrigo de Borja, 1431 – 18/8/1503; papa de 11/8/1492)**
+- **Fato documentado:** nascido em Xàtiva (Valência); sobrinho de Calisto III, cardeal aos 25 anos, vice-chanceler da Igreja por 35 anos; eleição acusada de simonia (compra de votos) por contemporâneos; filhos César, Juan (assassinado em 1497, crime nunca esclarecido), Lucrécia e Jofre.
+- **Onde aparece:** *Príncipe* VII, XI ("mostrò quanto uno papa e con il danaio e con le forze si poteva prevalere"), XVIII (o homem que mais jurou e menos cumpriu); *Decennale primo*.
+- **Lição [Interpretação]:** quem trabalha para engrandecer só a família acaba engrandecendo a instituição (*Príncipe* XI: o Estado de César ficou para a Igreja). A mentira funciona no curto prazo "onde não há tribunal"; hoje há avaliações públicas, CDC e redes, que são o tribunal.
+
+**Pio III (Francesco Todeschini Piccolomini, 1439 – 18/10/1503; papa por 26 dias)**
+- **Fato documentado:** sobrinho de Pio II; eleito em 22/9/1503 como papa de transição, morre em menos de um mês. [Interpretação] É a breve trégua que dá a César algum tempo e não basta (contexto de *Príncipe* VII; menção no *Decennale primo* não conferida nesta sessão).
+
+**Júlio II (Giuliano della Rovere, 1443 – 21/2/1513; papa de 1/11/1503)**
+- **Fato documentado:** sobrinho de Sisto IV; inimigo dos Bórgia (passou anos exilado na França); retoma Perúgia e Bolonha (1506), forma a Liga de Cambrai (1508) e a Liga Santa (1511); patrono de Michelangelo (teto da Sistina), Rafael e Bramante (nova basílica de São Pedro, 1506).
+- **Ligação com Maquiavel:** conclave de 1503; campanha de 1506 (Maquiavel viu a entrada em Perúgia); diplomacia de 1510–1511 (o concílio de Pisa, que o papa não perdoou a Florença).
+- **Onde aparece:** *Príncipe* VII, XI, XIII, XVI, XXV; *Discorsi* I.27, III.9, III.44.
+- **Lição [Interpretação]:** ímpeto vence quando os tempos pedem ímpeto (*Príncipe* XXV); o mesmo temperamento derruba em outra fase. Saber ler a fase.
+
+**Leão X (Giovanni de' Medici, 11/12/1475 – 1/12/1521; papa de 11/3/1513)**
+- **Fato documentado:** segundo filho de Lourenço, o Magnífico; cardeal com 13 anos (nomeado em 1489, publicado em 1492); governa Florença de fato em 1512–1513; a eleição traz a anistia que solta Maquiavel (março de 1513). Pontificado de luxo e dívidas; venda de indulgências; Lutero (1517); Concordata de Bolonha (1516).
+- **Ligação:** em fevereiro de 1515 manda, por carta de Piero Ardinghelli a Giuliano, que este "não se envolva com Niccolò" (ver `vida-e-cartas.md`); por meio do cardeal Giulio, encomenda pareceres de reforma de Florença (1520, o *Discursus*).
+- **Onde aparece:** *Príncipe* XI (fim, elogio esperançoso) e XXVI ("la illustre casa vostra"); *Discursus florentinarum rerum*.
+
+**Clemente VII (Giulio de' Medici, 26/5/1478 – 25/9/1534; papa de 19/11/1523)**
+- **Fato documentado:** filho ilegítimo de Giuliano di Piero (morto na conjura dos Pazzi, 26/4/1478) e criado por Lourenço; cardeal em 1513; governa Florença de 1519 a 1523; como papa oscila entre França e Império; Liga de Cognac (1526); Saque de Roma (1527); em 1529 faz as pazes com Carlos V (Barcelona) e o coroa em Bolonha (1530); recupera Florença para a família (1530).
+- **Ligação com Maquiavel:** contratação das *Istorie fiorentine* (8/11/1520) e entrega (maio–junho de 1525, 120 ducados); projeto da milícia da Romanha (1525); Procuradores das Muralhas (1526).
+- **Lição [Interpretação]:** a irresolução também é uma decisão, quase sempre a pior; eco de *Discorsi* I.38 e II.15 ("le deliberazioni lente sono sempre nocive"; ver `discursos.md`).
+
+### 3.2 Os Médici (árvore mínima para não confundir)
+
+| Nome | Datas | Quem foi | Onde em Maquiavel |
+|---|---|---|---|
+| **Cosimo, o Velho** (*Pater patriae*) | 1389–1464 | Banqueiro; exilado em 1433, volta em 1434 e governa por meio de amigos, empréstimos e controle das bolsas eleitorais | *Istorie* IV.26–33 e VII.1–6 (poder por "modos privados"); *Discorsi* I.33 |
+| **Piero, o Gotoso** | 1416–1469 | Filho de Cosimo; enfrenta a conjura de 1466 (Luca Pitti, Dietisalvi Neroni) | *Istorie* VII.10–23 |
+| **Lourenço, o Magnífico** | 1/1/1449 – 8/4/1492 | Neto de Cosimo; sobrevive à conjura dos Pazzi (1478); viagem a Nápoles (1479–1480) | *Istorie* VIII (retrato final, VIII.36: "quanto alla mercanzia, infelicissimo"); ver `historia-de-florenca.md` |
+| **Giuliano di Piero** | 1453–1478 | Irmão de Lourenço, morto pelos Pazzi na catedral | *Istorie* VIII.6 |
+| **Piero di Lorenzo, "lo Sfortunato"** | 1472–1503 | Perde Florença em 1494; morre afogado no Garigliano (28/12/1503) lutando pelos franceses | *Decennale primo*; ver seção 1.2 |
+| **Giovanni** (Leão X) | 1475–1521 | ver 3.1 | |
+| **Giuliano, duque de Nemours** | 12/3/1479 – 17/3/1516 | Volta a Florença em 1/9/1512; destinatário dos sonetos da prisão e primeiro dedicatário previsto do *Príncipe* (carta de 10/12/1513, conferida: "io lo indirizzo alla Magnificentia di Giuliano") | ver `vida-e-cartas.md` |
+| **Giulio** (Clemente VII) | 1478–1534 | ver 3.1 | |
+| **Lorenzo di Piero, duque de Urbino** | 12/9/1492 – 4/5/1519 | Governa Florença 1513–1519; dedicatário final do *Príncipe* | Dedicatória do *Príncipe* |
+| **Alfonsina Orsini** | 1472–1520 | Viúva de Piero, mãe de Lorenzo; forte influência no governo do filho | Carta de Maquiavel a ela (1513?; não está no Wikisource, não conferida) |
+| **Ippolito** e **Alessandro** | 1511–1535; 1510–1537 | Bastardos (de Giuliano e, oficialmente, de Lorenzo); Alessandro, primeiro duque de Florença (1532), assassinado pelo primo Lorenzino (1537) | — (depois da morte de Maquiavel) |
+| **Giovanni dalle Bande Nere** | 6/4/1498 – 30/11/1526 | Do ramo "popolano" (filho de Caterina Sforza e Giovanni di Pierfrancesco); o maior capitão italiano da geração; pai de Cosimo I | Cartas a Guicciardini de 1526 (ver `vida-e-cartas.md`); [Tradição] anedota de Bandello (ver `vida-e-cartas.md`, seção 6) |
+| **Cosimo I** | 1519–1574 | Duque de Florença (1537) e grão-duque da Toscana (1569) | — |
+
+- **Para o agente:** "os Médici" não são um bloco. Maquiavel escreveu *para* Giuliano e Lorenzo, *sob* Giulio, *sobre* Cosimo e Lourenço, e foi solto graças a Giovanni. Ao citar, dizer qual.
+
+### 3.3 Florentinos do círculo de Maquiavel
+
+**Piero Soderini (17/3/1451 – 13/6/1522)**
+- **Fato documentado (DBI, Raffaella Zaccaria, vol. 93, 2018):** nasceu em Florença em **17 de março de 1451** (corrige "1450" de `vida-e-cartas.md` e "1452" da frente Lindson), filho de Tommaso e de Dianora Tornabuoni, cunhada de Piero de' Medici; herdou fortuna da seda. **Gonfaloniere vitalício** (eleito 22/9/1502, posse 1/11/1502). Apoiado pelos *piagnoni* e por Maquiavel; manteve a aliança francesa; criou a corte de apelação da **Quarantia**; "varou a milícia cidadã sobre projeto de Maquiavel" (Zaccaria). Sobreviveu a uma tentativa de assassinato tramada em dezembro de 1510 por **Prinzivalle della Stufa**, com a cumplicidade (segundo o DBI) do cardeal Giovanni de' Medici e do condottiero Marco Antonio Colonna. Deposto em 31/8/1512; em **11/10/1512** os Otto di custodia o condenaram a cinco anos de exílio em **Ragusa** (Dubrovnik). Perdoado por Leão X, viveu em Roma desde maio de 1513 sob proteção papal. Com a conjura de 1522 contra o cardeal Giulio (da qual os Soderini não pareciam alheios), adoeceu e morreu em Roma em 13/6/1522; sepultado em Santa Maria del Popolo. Casado com Argentina Malaspina (sem filhos).
+- **O epigrama** "La notte che morì Pier Soderini": o DBI o chama de "epigramma satirico... (forse fittizio)" atribuído a Maquiavel, transmitido por manuscritos da Biblioteca Nazionale (Magl. VII.271, VII.59) e da Riccardiana. Logo: **atribuído**, não autógrafo; ver `literatura.md`.
+- **Onde aparece:** *Discorsi* I.7, I.52, I.56, III.3, III.9, III.30; carta dos *Ghiribizzi* ao sobrinho Giovan Battista (1506).
+- **Lição [Interpretação]:** bondade e paciência diante de quem já declarou guerra (sócio desleal, funcionário que sabota) não são virtude: "non sapeva... che la malignità non è doma da tempo, né placata da alcuno dono" (*Discorsi* III.30; ver `discursos.md`).
+
+**Francesco Soderini (10/6/1453 – 17/5/1524)**
+- **Fato documentado (DBI, vol. 93, 2018):** irmão de Piero; bispo de Volterra (1478), cardeal (1503). Chefe da missão a César Bórgia em Urbino (junho de 1502), com Maquiavel como secretário; correspondente de Maquiavel. Inimigo dos Médici; envolvido nas conjuras de 1517 (contra Leão X) e de 1522; morreu em Roma em 17/5/1524 (o DBI corrige a versão antiga de que morreu de peste).
+
+**Francesco Vettori (8/11/1474 – 1539)**
+- **Fato documentado (DBI, Marcello Simonetta, vol. 99, 2020):** nasceu em Florença em 8/11/1474, filho de Piero e de **Caterina Rucellai**, irmã do rico Bernardo Rucellai (o dos Orti); irmãos Giovanni e **Paolo Vettori** (o que ajudou a soltar Maquiavel). Mandado ao imperador em 1507 numa eleição contestada: segundo o DBI, que cita o cronista **Bartolomeo Cerretani**, o primeiro nome indicado tinha sido Maquiavel, mas os "uomini da bene" o rejeitaram como "**mannerino**" do gonfaloniere Soderini; Vettori foi a solução de compromisso, e Maquiavel seguiu depois para juntar-se a ele. Embaixador junto a Leão X (1513–1515); muito próximo de Lorenzo duque de Urbino, foi acusado por muitos, quando Lorenzo morreu (maio de 1519), de tê-lo incentivado a se fazer "príncipe civil", isto é, tirano cidadão; retirou-se ao campo. Gonfaloniere de justiça (a carta de Maquiavel de 26/12/1521, conferida, é dirigida ao "Gonfaloniere di giustizia dignissimo"). Autor do *Sommario della istoria d'Italia* e da *Vita di Lorenzo de' Medici duca d'Urbino*. Morreu em 1539 (dia não conferido nesta sessão).
+- **Nota sobre "mannerino":** literalmente o carneiro castrado que guia o rebanho (o "carneiro de chocalho"), daí "pau-mandado", "homem de mão". `vida-e-cartas.md` traduz "carneirinho"; melhor "carneiro-guia" ou "homem de mão" de Soderini. A origem documentada do apelido é o episódio de 1507 (Cerretani, via DBI).
+
+**Francesco Guicciardini (6/3/1483 – 22/5/1540)**
+- **Fato documentado:** jurista (doutor em Pisa/Pádua), embaixador na Espanha (1512–1513), governador papal de Módena (1516) e Reggio (1517), presidente da Romanha (1524), lugar-tenente-geral do exército da Liga de Cognac (1526–1527); depois de 1530, conselheiro do duque Alessandro e de Cosimo I, que o afastou. Obras: *Storie fiorentine* (1508–1509), *Dialogo del reggimento di Firenze* (c. 1521–1525), *Considerazioni intorno ai Discorsi del Machiavelli* (c. 1530), *Ricordi* (redações até 1530), *Storia d'Italia* (1537–1540, publicada em 1561). O irmão **Luigi Guicciardini** (1478–1551) foi destinatário da carta da "velha de Verona" (8/12/1509; ver `vida-e-cartas.md` 6).
+- **Lição [Interpretação]:** usar Guicciardini como advogado do diabo do próprio Maquiavel ("discrezione" caso a caso contra a regra geral; *Ricordi* C 6 e C 110, ver `recepcao-e-estudiosos.md`).
+
+**Biagio Buonaccorsi (1472 – 1521/1522)**
+- **Fato documentado (DBI, Gaspare De Caro, vol. 15, 1972):** filho de Buonaccorso di Filippo; provável notário; na secretaria dos Dieci, subordinado a Maquiavel, desde julho de 1498 (Marzi antecipa dois anos a entrada na chancelaria); "o mais fervoroso admirador e amigo" dele, como mostram as cartas trocadas de 1499 a 1512 durante as missões. Autor de um *Diario* (1498–1512) e da *Breve narrazione*. Saiu da chancelaria com Maquiavel (novembro de 1512). Morreu em Florença em 1522 ou 1521 (em 1521 seus bens já tinham passado a outros). Copista de textos de Maquiavel (inclusive um manuscrito do *Príncipe*) e passava a limpo as atas das pratiche (ver 2.2).
+
+**Agostino Vespucci (Agostino di Matteo Nettucci, de Terricciola)**
+- Coadjutor na chancelaria; usava o sobrenome Vespucci por ligação com a família (Klein, *Enc. mach.*, ver 2.3). Autor de cartas a Maquiavel cheias de latim e de fofoca (1500–1509), entre elas a que comemora Pisa (1509). Fato documentado: uma nota marginal dele numa edição de Cícero (outubro de 1503), que compara Leonardo a Apeles e cita o retrato de Lisa del Giocondo, foi identificada em 2005 na Biblioteca Universitária de Heidelberg; é a prova mais antiga da data da *Mona Lisa*. Removido da chancelaria em 2/1/1517.
+
+**Marcello Virgilio Adriani (1464–1521)**
+- Primeiro chanceler de 13/2/1498 até a morte (1521); professor do Studio; [Interpretação, Ridolfi e Viroli] provável mestre de Maquiavel (ver `vida-e-cartas.md` 1). Ficou no posto em 1512 (adaptou-se aos Médici), ao contrário de Maquiavel. Verbete do DBI não aberto nesta sessão.
+
+**Filippo Casavecchia (1472 – ?)**
+- **Fato documentado (DBI, Paolo Malanima, vol. 21, 1978):** nasceu em 1472; família de origem alemã; tinha uma loja, talvez de seda, em Florença; amigo de Maquiavel desde antes de 1500; há cinco cartas dele a Maquiavel (1507–1509), escritas quando era comissário em Fivizzano e Barga. Na carta de 10/12/1513 (conferida): "Filippo Casavecchia l'ha visto" (o *De principatibus*), primeiro leitor conhecido do livro, com quem Maquiavel discutiu se o daria e como a Giuliano.
+
+**Donato del Corno**
+- Comerciante florentino, amigo íntimo do exílio (as cartas a Vettori de 25/8/1513, 19/12/1513 e 1514, conferidas, pedem favores para ele: um cargo nas *imborsazioni*). Em sua loja Maquiavel passava tempo em Florença. Nas cartas, aparece como "Donato nostro".
+
+**Os Orti Oricellari** (jardins dos Rucellai, na atual via della Scala)
+| Nome | Datas (DBI) | Papel |
+|---|---|---|
+| **Bernardo Rucellai** | 1448–1514 | Cunhado de Lourenço, o Magnífico (casou com Nannina de' Medici); ottimato intransigente (ver 2.5); criou os jardins e o primeiro círculo humanista (c. 1502) |
+| **Cosimo Rucellai** | **8/10/1495** – 2/11/1519 | Neto de Bernardo; batizado Bernardo, recebeu o nome do pai morto; doente (andava de liteira); anfitrião do segundo círculo; codedicatário dos *Discorsi*; anfitrião da *Arte della guerra*. Corrige "1494" da frente Lindson (DBI, Nicoletta Marcelli, vol. 89, 2017). Maquiavel lamenta sua morte no proêmio da *Arte della guerra*. |
+| **Zanobi Buondelmonti** | **5/4/1491** – nov. 1527 | Mercador e banqueiro; codedicatário dos *Discorsi* e dedicatário da *Vita di Castruccio*; segundo Iacopo Nardi, Maquiavel era por ele "amado grandemente... e também, por cortesia, socorrido" (DBI, De Caro, vol. 15). Fugiu após a conjura de 1522; voltou em 1527 e morreu de peste no mesmo ano. |
+| **Luigi Alamanni** | 6/3/1495 – 18/4/1556 | Poeta; interlocutor da *Arte della guerra* e dedicatário da *Vita di Castruccio*; fugiu em 1522; morreu em Amboise, na corte francesa (DBI, vol. 1, 1960). Não confundir com o primo **Luigi di Tommaso Alamanni**, executado em 1522, nem com **Lodovico Alamanni** (destinatário da carta de 17/12/1517). |
+| **Iacopo da Diacceto, "il Diaccettino"** | m. 1522 | Executado em junho de 1522 pela conjura (ver `vida-e-cartas.md` 1). |
+| **Battista della Palla, Antonio Brucioli, Filippo de' Nerli, Iacopo Nardi** | — | Frequentadores; Nerli e Nardi escreveram depois histórias de Florença que são fontes sobre Maquiavel. |
+
+**Os da república (1494–1512)**
+| Nome | Quem foi | Ligação |
+|---|---|---|
+| **Girolamo Savonarola** (21/9/1452 – 23/5/1498) | Frade dominicano de Ferrara, prior de San Marco | Ver seção 2 e `vida-e-cartas.md` 4; *Príncipe* VI e XII, *Discorsi* I.11, I.45, I.56, III.30 |
+| **Francesco Valori** (1439–1498) | Chefe político dos piagnoni; morto no assalto de 8/4/1498 | *Discorsi* I.7 (sem acusação legal, a cidade recorreu à violência) |
+| **Paolantonio Soderini** | Irmão de Piero; piagnone | Facção (2.5) |
+| **Alamanno Salviati** e **Iacopo Salviati** | Ottimati reformistas; Alamanno, inimigo de Soderini e de Maquiavel | Comissário na guerra de Pisa |
+| **Giovan Battista Ridolfi** | Ottimato; gonfaloniere em 1/9/1512 por 14 meses | 2.7 |
+| **Niccolò Capponi** (1473–1529) e **Francesco Carducci** | Gonfalonieri da república de 1527–1530 | 2.8 |
+| **Filippo Strozzi** (1489–1538) | Banqueiro; casou com Clarice de' Medici (1508); depositário papal; morreu preso depois de Montemurlo (1537) | *Arte della guerra* é dedicada ao irmão **Lorenzo di Filippo Strozzi** (1482–1549) |
+| **Iacopo Nardi**, **Bartolomeo Cerretani**, **Luca Landucci**, **Piero Parenti**, **Giovambattista Busini**, **Benedetto Varchi** | Cronistas e historiadores | Fontes; ver 2 |
+
+### 3.4 Reis, imperadores e capitães estrangeiros
+
+| Nome | Datas | Quem foi | Onde em Maquiavel |
+|---|---|---|---|
+| **Carlos VIII** | 30/6/1470 – 7/4/1498 (rei 1483) | Invasão de 1494 (seção 1.2) | *Príncipe* III, XI, XII; *Discorsi* I.38, II.18 |
+| **Luís XII** | 27/6/1462 – 1/1/1515 (rei 1498) | Milão 1499, Nápoles 1501–1503, Agnadello 1509, expulso 1512 | *Príncipe* III (cinco/seis erros); legações à França |
+| **Georges d'Amboise, cardeal de Rouen** | 1460 – 25/5/1510 | Primeiro-ministro de Luís XII; queria ser papa | *Príncipe* III (conversa de Nantes, 1500) |
+| **Ana da Bretanha** | 1477–1514 | Rainha de Carlos VIII e de Luís XII | *Ritratto di cose di Francia* (a Bretanha) |
+| **Francisco I** | 12/9/1494 – 31/3/1547 (rei 1515) | Marignano, Pavia, Cognac | Cartas de 1525–1527 |
+| **Fernando II de Aragão, o Católico** | 10/3/1452 – 23/1/1516 | Unificação com Isabel; Granada; Nápoles; Navarra (1512) | *Príncipe* XXI ("pietosa crudeltà"), XVIII ("principe de' presenti tempi, il quale non è bene nominare"), XIII, XVI; carta de 29/4/1513 (conferida) |
+| **Gonzalo Fernández de Córdoba, "el Gran Capitán"** | 1453–1515 | Cerignola e Garigliano (1503); vice-rei de Nápoles; prende César Bórgia (1504) | *Discorsi* I.29 (a ingratidão de Fernando com ele) |
+| **Ramón de Cardona** | c. 1467–1522 | Vice-rei de Nápoles; comanda o exército da Liga Santa em Ravena e no saque de Prato (1512) | Carta "a una gentildonna" (1512) |
+| **Gaston de Foix** | 1489 – 11/4/1512 | Comandante francês, morto na vitória de Ravena | — (Ravena: *Príncipe* XIII e XXVI) |
+| **Maximiliano I** | 22/3/1459 – 12/1/1519 | Rei dos romanos (1486), imperador eleito (1508) sem coroação papal | *Príncipe* XXIII (pela boca de "pre' Luca"); *Rapporto* e *Ritratto delle cose della Magna* |
+| **Luca Rinaldi** | — | Bispo, ministro de Maximiliano | *Príncipe* XXIII |
+| **Carlos V** | 24/2/1500 – 21/9/1558 | Rei da Espanha (1516), imperador (1519) | Cartas de 1525–1527 |
+| **Carlos III de Bourbon, condestável** | 1490 – 6/5/1527 | Traiu Francisco I; comandou o exército imperial; morto no assalto a Roma | — |
+| **Georg von Frundsberg** | 1473–1528 | Chefe dos lansquenetes que desceram em 1526–1527 | Cartas de 1526–1527 (os "tedeschi") |
+| **Henrique VIII** | 1491–1547 | Rei da Inglaterra, entra na Liga Santa (1512) | Carta de 26/8/1513 (conferida: Inglaterra e Tarroana/Thérouanne) |
+
+### 3.5 Senhores e capitães italianos
+
+| Nome | Datas (fonte) | Quem foi | Onde em Maquiavel | Lição [Interpretação] |
+|---|---|---|---|---|
+| **Francesco Sforza** | 1401–1466 | Condottiere que virou duque de Milão (1450) | *Príncipe* I, VII, XII, XIV, XX | O que se conquista com competência própria custa caro e se mantém com pouco |
+| **Ludovico il Moro** | 1452–1508 | Regente e duque de Milão; patrono de Leonardo | *Príncipe* III, XXIV | Chamar um gigante para resolver briga com o vizinho termina com o gigante dono da casa |
+| **Caterina Sforza** | 1463 – 28/5/1509 | "Madonna di Forlì"; resistiu em Ravaldino (1499–1500) | *Príncipe* XX; *Discorsi* III.6; *Istorie* VIII.34; legação de julho de 1499 | A melhor fortaleza é não ser odiado; ver a anedota da muralha em `vida-e-cartas.md` 6 |
+| **Giovanni Bentivoglio** | 1443–1508 | Senhor de Bolonha, expulso por Júlio II (1506) | *Príncipe* XIX: morto o avô Annibale pelos Canneschi (1445), o povo de Bolonha protegeu a casa até Giovanni ter idade de governar | Quem tem o povo sobrevive a conspirações |
+| **Pandolfo Petrucci** | **14/2/1452 – 21/5/1512** (DBI, vol. 82, 2015) | Senhor de Siena; morreu em San Quirico d'Orcia voltando de tratar a asma nos banhos de San Filippo | *Príncipe* XX, XXII; legação de 1505 | Saber escolher o ministro (Antonio da Venafro) é sinal de prudência |
+| **Antonio Giordani da Venafro** | 1459–1530 | Jurista, ministro de Petrucci | *Príncipe* XXII (os "tre generazioni di cervelli") | Três tipos de cabeça: entende sozinho, entende quando explicam, não entende |
+| **Giampaolo Baglioni** | c. 1470 – **11/6/1520** (DBI, De Caro, vol. 5, 1963) | Senhor de Perúgia; condottiere; atraído a Roma por Leão X com salvo-conduto, preso no Castel Sant'Angelo e **decapitado na noite de 11/6/1520** | *Discorsi* I.27; legação de 1505 (Maquiavel foi mandado para convencê-lo a cumprir a condotta enquanto ele tramava contra Florença com Petrucci e Alviano, diz o DBI) | Quem tem a ocasião e hesita perde as duas coisas: a ocasião e a cabeça |
+| **Oliverotto Euffreducci da Fermo** | **prov. 1473** – 31/12/1502 (DBI, Zaccaria, vol. 43, 1993) | Órfão criado pelo tio materno Giovanni Fogliani; mata o tio e os principais de Fermo num banquete (26/12/1501) | *Príncipe* VIII | O atalho pelo crime dura pouco: um ano depois foi estrangulado por alguém mais astuto. O DBI nota que a fonte mais confiável sobre Senigália é uma carta de **Giovanni Ridolfi**, comissário em Borgo San Sepolcro, três dias depois, e que as versões "não são todas unívocas" |
+| **Vitellozzo Vitelli** | m. 31/12/1502 | Senhor de Città di Castello; condottiere; irmão de **Paolo Vitelli** (decapitado por Florença em 1/10/1499) | *Príncipe* VIII, XII, XX | O mercenário excelente é perigoso dos dois lados |
+| **Paolo e Francesco Orsini** (duque de Gravina) | m. 18/1/1503 | Barões romanos, capitães de César | *Príncipe* VII; *Descrizione* | César "não se fiava neles" |
+| **Ramiro de Lorqua ("Remirro de Orco")** | m. 26/12/1502 | Governador da Romanha | *Príncipe* VII | Ver 3.1. [Interpretação] Hoje, pôr a culpa num subordinado em público destrói a confiança da equipe |
+| **Bartolomeo d'Alviano** | 1455–1515 | Condottiere (Orsini, Veneza); preso em Agnadello | *Príncipe* XII (indiretamente), cartas | — |
+| **Prospero Colonna** e **Fabrizio Colonna** | 1452–1523; c. 1450–1520 | Condottieri romanos; Fabrizio é o protagonista da *Arte della guerra* | *Arte della guerra* I–VII | Ver `arte-da-guerra.md` |
+| **Francesco Maria della Rovere** | 1490–1538 | Duque de Urbino (expulso por Leão X em 1516, volta em 1521); comandante lento da Liga de Cognac | Cartas de 1526 | A prudência demais também perde guerras |
+| **Iacopo IV d'Appiano** | 1459–1510 | Senhor de Piombino | Missão de março de 1499 | — |
+| **Ercole I d'Este** e **Alfonso I d'Este** | 1431–1505; 1476–1534 | Duques de Ferrara | *Príncipe* II (o duque de Ferrara resistiu a Veneza em 1484 e a Júlio II em 1510 "por ser antigo naquele domínio") | O antigo no mercado tem a vantagem do costume |
+| **Castruccio Castracani** | 1281–1328 | Senhor de Lucca | *Vita di Castruccio* (1520); ver `literatura.md` | Personagem-modelo romanceado |
+
+### 3.6 Os antigos que Maquiavel usa como personagens
+
+Não duplicar: as lições detalhadas estão em `principe.md` (capítulos VI, VIII, XIII, XIV, XVII, XIX) e `discursos.md`. Aqui, só a chave de quem é quem.
+
+| Nome | Quem foi | Onde |
+|---|---|---|
+| **Moisés, Ciro, Rômulo, Teseu** | Os quatro "fundadores" por virtude própria | *Príncipe* VI, XXVI; *Discorsi* I.1, I.9, II.13, III.30 |
+| **Hierão II de Siracusa** (c. 308–215 a.C.) | De soldado a rei; despedaçou os mercenários | *Príncipe* VI, XIII |
+| **Agátocles** (361–289 a.C.) | Oleiro que virou tirano pelo crime | *Príncipe* VIII |
+| **Nábis** (r. 207–192 a.C.) | Tirano de Esparta | *Príncipe* IX, XIX; *Discorsi* I.10, I.40, III.6 |
+| **Filopêmen** (253–183 a.C.) | General aqueu que estudava o terreno em tempo de paz | *Príncipe* XIV |
+| **Cipião Africano** (236–183 a.C.) e **Aníbal** (247–183/181 a.C.) | Os dois estilos opostos de comando | *Príncipe* XVII; *Discorsi* III.21 |
+| **Fábio Máximo, o Contemporizador** | Ditador que venceu esperando | *Discorsi* I.53, III.9 |
+| **Camilo**, **Lúcio Júnio Bruto**, **Mânlio Torquato** e **Valério Corvino** | Heróis da república | *Discorsi* III.2–3, III.22–23, III.31 |
+| **Marco Aurélio, Pertinax, Alexandre Severo, Cômodo, Sétimo Severo, Caracala, Macrino, Heliogábalo, Maximino** | Os imperadores de 161 a 238 | *Príncipe* XIX (Severo, "ferocissimo lione e astutissima golpe") |
+| **Bernabò Visconti** (1323–1385) | Senhor de Milão das punições e prêmios memoráveis | *Príncipe* XXI |
+
+---
+
+## 4. Glossário italiano-português
+
+Regra do agente: na primeira vez, **termo italiano entre parênteses** e explicação pelo contexto. Base: glossário da frente Lindson (conferido e condensado) + termos de instituições e da vida diária que aparecem nas cartas (conferidas no Wikisource nesta sessão). Termos de instituições florentinas já explicados na seção 2 vêm aqui só com remissão.
+
+### 4.1 Conceitos centrais
+
+| Termo | Tradução aproximada | Sentido em Maquiavel | Onde ver |
+|---|---|---|---|
+| **virtù** | valor, competência, energia | Capacidade prática de se impor às circunstâncias e criar ordem; não é a virtude moral cristã; pode ser coletiva (de um povo, de um exército). Maquiavel recusa chamar de *virtù* o crime puro de Agátocles. | *Príncipe* VI, VIII, XXV; *Discorsi* I.1, II.1 |
+| **fortuna** | sorte, acaso | "Árbitra da metade das nossas ações"; o rio que se contém com diques feitos no tempo calmo. A imagem da fortuna como mulher (*Príncipe* XXV) é da época e violenta: citar com contexto, nunca como conselho (Hanna Pitkin, *Fortune Is a Woman*, 1984). | *Príncipe* XXV; *Discorsi* II.29; *Di Fortuna* |
+| **occasione** | ocasião | O momento que a fortuna dá e só a *virtù* aproveita; "matéria" esperando "forma" | *Príncipe* VI, XXVI; poema *L'Occasione* |
+| **necessità** | necessidade | O que obriga a agir bem; o ócio corrompe | *Discorsi* I.1, I.3, III.12 |
+| **ordini / modi** | instituições / maneiras | "Ordini e modi nuovi" = inovação institucional | *Príncipe* VI; *Discorsi* I proêmio |
+| **stato** | Estado, poder, domínio, regime | Ambíguo de propósito: território, poder de quem manda ou regime. "Ragionare dello stato" (carta de 9/4/1513, conferida) = falar de política | *Príncipe* I, III |
+| **umori** | humores | Os dois desejos opostos dos *grandi* (comandar) e do *popolo* (não ser comandado) | *Príncipe* IX; *Discorsi* I.4–5 |
+| **grandi / popolo / plebe / universale** | elite / povo / plebe / o conjunto | Em Florença, *popolo* é o cidadão médio do Conselho; *plebe* e *popolo minuto*, os sem corporação | *Príncipe* IX; *Istorie* III |
+| **armi proprie / mercenarie / ausiliarie / miste** | armas próprias / mercenárias / auxiliares / mistas | A tipologia de *Príncipe* XII–XIII | *Príncipe* XII–XIII |
+| **verità effettuale della cosa** | verdade efetiva da coisa | A realidade como é, não como se imagina | *Príncipe* XV |
+| **golpe** | **raposa** | Toscano antigo para *volpe*. Não é "golpe de Estado" (expressão de Gabriel Naudé, 1639) | *Príncipe* XVIII, XIX |
+| **lione e golpe / lacci / lupi** | leão e raposa / laços / lobos | Força e astúcia | *Príncipe* XVIII |
+| **fede** | palavra dada, lealdade | Na carta de 10/12/1513 (conferida) ele usa a palavra para si: "havendo sempre observato la fede, io non debbo imparare hora a romperla" | *Príncipe* XVIII; *Discorsi* III.40–42 |
+| **vivere libero / civile / politico** | viver livre, vida civil | Liberdade sob leis, sem dono | *Discorsi* I.2, I.16–18 |
+| **licenza / corruzione** | licença / corrupção | Liberdade degenerada / degeneração dos costumes cívicos (não só suborno) | *Discorsi* I.16–18, I.55 |
+| **tumulti** | conflitos | Os conflitos plebe × senado que tornaram Roma livre | *Discorsi* I.4 |
+| **sette / parti** | seitas, facções | Grupos de interesse particular que dividem a cidade | *Istorie* VII.1 |
+| **ritornare ai principii** | voltar aos princípios | Renovar uma instituição voltando à origem | *Discorsi* III.1 |
+| **riscontrarsi coi tempi / qualità de' tempi** | adequar-se aos tempos | Tem sucesso quem ajusta o modo à hora | *Príncipe* XXV; *Discorsi* III.9; *Ghiribizzi* |
+| **rispetto / impeto** | cautela / ímpeto | Os dois temperamentos | *Príncipe* XXV |
+| **temporeggiare / godere el benefizio del tempo** | contemporizar / aproveitar o tempo | Às vezes certo (*Discorsi* I.33), muitas vezes desculpa dos "savi de' nostri tempi" (*Príncipe* III). Na carta de 10/12/1513 (conferida) ele aconselha Vettori: "poiché la fortuna vuol fare ogni cosa, ella si vuole lasciarla fare, stare quieto" | *Príncipe* III |
+| **odio / disprezzo** | ódio / desprezo | Os dois perigos máximos (*Príncipe* XIX). Na carta de 20/12/1514 (conferida): "non stimi l'odio, ma guardisi dal disprezzo" | *Príncipe* XIX |
+| **amato / temuto** | amado / temido | O ideal é os dois; se faltar um, temido sem ser odiado | *Príncipe* XVII |
+| **crudeltà bene / male usate** | crueldade bem/mal usada | De uma vez e convertida em benefício × crescente | *Príncipe* VIII |
+| **liberalità / parsimonia / misero** | generosidade / parcimônia / avarento | A fama de *misero* traz infâmia sem ódio | *Príncipe* XVI |
+| **vezzeggiare o spegnere** | afagar ou extinguir | "Os homens devem ser afagados ou extintos"; a ofensa pela metade cria inimigo | *Príncipe* III |
+| **patria** | pátria | "Amo la patria mia più dell'anima" (16/4/1527, conferida) | *Discorsi* III.41 |
+
+### 4.2 Palavras da vida de Maquiavel (cartas, chancelaria, cotidiano)
+
+| Termo | Sentido | Onde aparece |
+|---|---|---|
+| **ghiribizzo / ghiribizzi** | capricho, ideia extravagante, "viagem" | Carta dos *Ghiribizzi* (1506); na de 10/12/1513 (conferida) ele chama o *Príncipe* de "ghiribizzo"; a Luigi Guicciardini (1509, conferida): "vo ghiribizzando intemerate che io scrivo a' Dieci" |
+| **opuscolo / De principatibus** | livrinho / "Sobre os principados" | Título com que o *Príncipe* é anunciado (10/12/1513) |
+| **cricca, trich-trach** | jogo de cartas de apostas; gamão | Carta de 10/12/1513 |
+| **m'ingaglioffo** | "me avacalho", viro um *gaglioffo* (vagabundo) | Carta de 10/12/1513 |
+| **pidocchi** | piolhos; gente miúda (afetuoso e amargo) | Cartas de 10/12/1513 e 10/6/1514 ("tra' miei pidocchi") |
+| **panni reali e curiali** | roupas de rei e de corte | Carta de 10/12/1513 |
+| **voltolare un sasso** | rolar uma pedra (o trabalho mais humilde) | Carta de 10/12/1513 |
+| **uccellare / uccellare a' tordi / paretaio** | caçar passarinhos / caçar tordos com visgo / armadilha de pássaros | Carta de 10/12/1513 ("ho insino a qui uccellato a' tordi di mia mano"); soneto dos tordos a Giuliano |
+| **Albergaccio** | "albergue ruim": a casa de Sant'Andrea in Percussina, ao lado da hospedaria da estrada | Tradição local; a carta fala da "hosteria" |
+| **oratore / mandatario** | embaixador com poderes / enviado que só cumpre instrução | Ver 2.3; Vettori é sempre "magnifico oratore" |
+| **staffetta / cavallaro** | correio a cavalo | Cartas de Carpi (1521) |
+| **compare** | compadre; tratamento íntimo com Vettori | Cartas 1513–1515 ("Compater N. M.", 29/4/1513, conferida) |
+| **mannerino** | carneiro-guia castrado; "homem de mão" | Apelido de Maquiavel como homem de Soderini (Cerretani, via DBI Vettori) |
+| **la fune / tratti di fune** | a corda / puxões de corda (estrapada) | Soneto a Giuliano (1513) |
+| **Stinche / Bargello** | a prisão de Florença / sede do chefe de polícia e prisão | Carta de 10/12/1513 (conferida): medo de "scavalcare nel Bargiello" se fosse visitar os Soderini em Roma |
+| **imborsazione / squittinio / tratta / borse** | pôr nomes nas bolsas / escrutínio dos elegíveis / sorteio / bolsas | Ver 2.2; carta de 19/12/1513 (conferida: "l'altre imborsationi") |
+| **balìa / parlamento** | comissão com plenos poderes / assembleia popular na praça, convocada para dar a *balìa* | Ver 2.7 |
+| **pratica** | reunião consultiva | Ver 2.2 |
+| **quondam Secretarius** | "ex-secretário" | Assinatura da carta de 9/4/1513 (conferida): "Niccolò Machiavelli quondam Secret." |
+| **historico, comico et tragico** | historiador, comediógrafo e trágico | Assinatura de carta a Guicciardini de 1525 (conferida; data de 21/10/1525 nas edições críticas, sem data no Wikisource) |
+| **zoccoli / repubblica degli zoccoli** | tamancos / "república dos tamancos" (os frades menores) | Cartas de Carpi (1521) |
+| **more florentino / ab incarnatione** | "ao modo florentino": o ano começava em 25 de março | Por isso o Wikisource data "13 Martii **1512**" a carta de 13/3/**1513**, "4 di Febbraio 1513" a de 4/2/1514, "31 di Gennaio 1514" a de 31/1/1515, "15 di Marzo 1525" a de 15/3/1526. **Toda data de janeiro a 24 de março nas edições antigas precisa de +1 ano.** |
+| **fiorino largo / di suggello / ducato** | florim de ouro pleno / de conta / ducado | Ver 1.7 |
+
+### 4.3 Frases e termos que não são de Maquiavel
+Já tratados em `recepcao-e-estudiosos.md` (mitos e frases falsas). Lembrete curto: "os fins justificam os meios" (não existe; *Príncipe* XVIII diz "si guarda al fine", "olha-se o resultado"), "dividir para reinar" (máxima antiga; *Príncipe* XX: "non credo che le divisioni facessino mai bene alcuno"), "razão de Estado" (Botero, 1589; usos anteriores em Guicciardini e Giovanni della Casa), "golpe de Estado" (Naudé, 1639), "maquiavélico" (antimaquiavelismo do séc. XVI).
+
+---
+
+## 5. Correções a `vida-e-cartas.md` e à frente Lindson
+
+Conferidas nesta sessão (fonte entre parênteses). Aplicadas também em `vida-e-cartas.md`, seção "Conferência das cartas" (conta Lindson).
+
+| Onde | Estava | Correto | Fonte |
+|---|---|---|---|
+| `vida-e-cartas.md` 4 | Piero Soderini 1450–1522 | **17/3/1451 – 13/6/1522** | DBI vol. 93 (2018) |
+| frente `contexto` 2.3 | Soderini 1452 | idem | idem |
+| frente `contexto` 2.3 | Cosimo Rucellai 1494–1519 | **8/10/1495 – 2/11/1519** | DBI vol. 89 (2017) |
+| frente `contexto` 2.6 | Oliverotto c. 1475 | **provavelmente 1473** | DBI vol. 43 (1993) |
+| `vida-e-cartas.md` 1 | "mannerino" = "carneirinho" | carneiro-guia, "homem de mão"; o apelido vem da eleição de 1507 para a missão ao imperador | DBI Vettori, vol. 99 (2020), citando Cerretani |
+| `vida-e-cartas.md` 3.2 | o neutro "é odiado pelo vencedor e desprezado pelo vencido" | **o contrário:** "chi sta neutrale conviene che sia odiato da chi perde, et disprezzato da chi vince" | carta de 20/12/1514, conferida |
+| `vida-e-cartas.md` 3.2 | suíços "podem virar novos romanos" | Maquiavel diz que **não** crê que façam um império como os romanos, mas que podem virar "arbitri di Italia" | carta de 26/8/1513, conferida |
+| `vida-e-cartas.md` 1 | Lugar da conversa com Rouen não dito | Nantes, outono de 1500 | seção 1.3 acima |
+| Giampaolo Baglioni (sem data de morte no acervo) | — | decapitado em Roma, noite de 11/6/1520 | DBI vol. 5 (1963) |
+
+---
+
+## 6. Uso pelo agente
+
+**Como usar este arquivo**
+1. Antes de citar um personagem, ver a ficha (seção 3) para **datas e cargo certos** e a obra/capítulo onde Maquiavel fala dele. Para a opinião de Maquiavel sobre quem ele conheceu, ver `vida-e-cartas.md` 4.
+2. Usar o vocabulário do tempo (seção 4) para soar como florentino do século XVI, sempre com tradução: "a minha *virtù* (o meu valor de fazer)", "os *grandi* e o *popolo* do teu mercado".
+3. Ao falar de Florença, usar a regra simples da seção 2.2 (Signoria = governo; Consiglio Maggiore = parlamento; Dieci = guerra e diplomacia; Otto = polícia; pratica = conselho).
+4. Datas de cartas em janeiro, fevereiro e até 24 de março: conferir o *more florentino* (+1 ano) antes de citar.
+
+**Lições do contexto para o negócio do Lindson [Interpretação, conta Lindson]**
+- **Mosaico de cinco potências (1.1):** o mercado digital brasileiro também é um "equilíbrio de Lodi" entre poucos gigantes (Meta, Google, TikTok, marketplaces). Quem depende de um só "aliado estrangeiro" (uma só plataforma) vive a sorte de Florença em 1494. Armas próprias = lista de clientes, WhatsApp próprio, site próprio (a Central do Cliente).
+- **César Bórgia (3.1):** crescer depressa com o dinheiro do pai é possível; manter exige base própria e não confiar em quem você já prejudicou.
+- **Soderini (3.3):** paciência com quem sabota a casa não é bondade, é negligência; resolver cedo, dentro do contrato e da lei.
+- **Os Médici (3.2):** poder construído por favores, crédito e relacionamento ("modos privados", *Istorie* VII.1–6) é o modelo do agenciador local: relacionamento vira autoridade. Mas Lourenço "na mercadoria, infelicíssimo": misturar o caixa da família com o da empresa enfraquece a casa (*Istorie* VIII.36).
+- **Vettori e Casavecchia (3.3):** o *Príncipe* foi mostrado primeiro a um amigo comerciante antes de ir ao príncipe; testar a oferta com pares antes do cliente grande.
+- **Giampaolo Baglioni (3.5):** quem teve a ocasião e hesitou foi depois atraído por promessa e perdeu tudo; promessa de poderoso não é garantia (vale para contratos de parceria sem papel assinado).
+- **Petrucci e Venafro (3.5):** o dono é julgado pela qualidade das pessoas que põe ao lado (*Príncipe* XXII).
+
+**Frases mais fortes deste arquivo (com referência)**
+- "Chi è cagione che uno diventi potente, ruina" — *Príncipe* III.
+- "Corsa da Carlo, predata da Luigi, forzata da Ferrando e vituperata da' Svizzeri" — *Príncipe* XII.
+- "Pigliare la Italia col gesso" — *Príncipe* XII.
+- "Chi sta neutrale conviene che sia odiato da chi perde, et disprezzato da chi vince" — carta a Vettori de 20/12/1514.
+- "Non stimi l'odio, ma guardisi dal disprezzo" — carta a Vettori de 20/12/1514.
+- "Li migliori exerciti che sieno, sono quelli delle populationi armate" — carta a Vettori de 26/8/1513.
+- "Non si può chiamar quel Principato stabile, dove le cose si fanno secondo che vuole uno, e si deliberano con il consenso di molti" — *Discursus florentinarum rerum* (1520).
+
+---
+
+## 7. Lacunas (para a próxima rodada)
+
+- **Não conferido no original nesta sessão:** *Decennale primo* (versos sobre Piero Capponi); *Arte della guerra* VII (fim, os "grandi spaventi"); *Istorie* V.33 (Anghiari); carta a Alfonsina Orsini (link vermelho no Wikisource); carta a Guido de 2/4/1527 (link vermelho no Wikisource); *Discorsi* III.6 sobre Caterina (página do Wikisource não carregou o texto).
+- **DBI não aberto:** Marcello Virgilio Adriani, Agostino Vespucci/Nettucci, Giovanni dalle Bande Nere (URL do verbete diferente), Vitellozzo Vitelli (o verbete do vol. 99 que abriu é de um homônimo nascido em 1531), Bernardo Rucellai, Niccolò Michelozzi, Goro Gheri, Filippo Strozzi. Data exata da morte de Francesco Vettori (1539) e de Filippo Casavecchia.
+- **Salário do segundo chanceler** (128 ou 192 florins): divergência mantida (seção 2.3); conferir em Marzi, *La cancelleria della Repubblica fiorentina* (1910) ou Black, *Machiavelli* (2013).
+- **Lista de Boscoli:** posição do nome de Maquiavel (7º?) e número de nomes (cerca de 20) não conferidos em documento.
+- **Mulheres do contexto** pouco tratadas: Alfonsina Orsini, Clarice Orsini, Lucrécia Bórgia, Isabella d'Este, Marietta Corsini (ver `vida-e-cartas.md`), Barbera Salutati (ver `literatura.md`).
+- **Mundo otomano** (Bayezid II, Selim I, Solimão; Rodes 1522, Mohács 1526) e Portugal (rota do Cabo, que tirou de Veneza o monopólio das especiarias): ausentes de Maquiavel quase por completo; registrar se aparecem nas cartas (o Turco aparece nas de 1513–1514, não levantado).
+- **Leituras em outros idiomas sobre o contexto** ainda não usadas: em espanhol, Miguel Ángel Granada (*Cosmología, religión y política en el Renacimiento*, 1988); em alemão, Volker Reinhardt (*Machiavelli oder Die Kunst der Macht*, 2012) e *Die Medici* (1998); em francês, Jean-Yves Boriaud (*Machiavel*, 2015). Conferir e acrescentar.
