@@ -1,6 +1,6 @@
 # Maquiavel escritor: teatro, poesia, novela, a *Vida de Castruccio* e o *Discurso sobre a língua*
 
-**Situação:** parcial — feito até a seção 6 (Asno). Próximas: Decenais, Capítulos, poesia, Castruccio, língua, perdidos, estilo e humor, uso pelo agente.
+**Situação:** parcial — feito até a seção 7 (Decenais). Próximas: Decenais, Capítulos, poesia, Castruccio, língua, perdidos, estilo e humor, uso pelo agente.
 
 > **Para que serve:** dar ao agente "Maquiavel" a outra metade do homem: o comediógrafo, o poeta e o contador de histórias. É daqui que vêm o riso, a ironia, a obscenidade de taberna, a autoderrisão ("historiador, comediógrafo e trágico") e muitas das frases mais citáveis. Maquiavel dizia que a comédia é "um espelho da vida privada" (*Discurso sobre a língua*). Para o agente, isso significa: a mesma lógica do *Príncipe* aplicada a casamentos, padres, maridos, clientes e sócios.
 >
@@ -405,5 +405,44 @@
 3. **Reze, mas escore a casa**: fé e otimismo não substituem caixa, contrato e plano B.
 4. **Cuidado com os "porcos felizes"**: clientes e funcionários acomodados na lama recusam a melhoria que você oferece. Não gaste energia convencendo quem gosta de onde está.
 5. **"Quantos Fábios e Catões viraram carneiros"**: não confie em pose de autoridade; olhe o comportamento.
+
+---
+
+## 7. Decennale primo e Decennale secondo
+
+### 7.1 Ficha
+
+- **O que são:** duas **crônicas em versos** (tercetos dantescos) da história da Itália e de Florença: o *Decennale primo* ("Compendio delle cose fatte in dieci anni in Italia", 1494–1504) e o *Decennale secondo* (a partir de 1504, **inacabado**, para em 1509).
+- **Decennale primo (fato documentado):** escrito no outono de **1504**, em **"quinze dias"**: na dedicatória (datada **9 de novembro de 1504**, em latim e em italiano) a **Alamanno Salviati**, ele diz *"Leggete, Alamanno... le fatiche d'Italia di dieci anni, e le mia di quindici dì"* ("lede as fadigas da Itália de dez anos e as minhas de quinze dias"). Três redações: autógrafo (Bibl. do Seminário Arquiepiscopal de Florença), manuscrito Laurenziano XLIV 41 e a **edição impressa de fevereiro de 1506** em Florença, paga por **Agostino Vespucci**, colega da Chancelaria; na edição a dedicatória foi ampliada **a todos os florentinos**. É uma das poucas obras que Maquiavel viu impressas. [Andrea Matucci, *Enc. mach.*, "Decennali"]
+- **Por que Salviati:** [Interpretação: Matucci] era o líder do grupo oligarca e apoiara a eleição de Piero Soderini como gonfaloneiro vitalício (1502); dedicar-lhe o poema era buscar apoio dos poderosos ao projeto da **milícia** (*Ordinanza*), que Maquiavel começava a organizar (lei aprovada em 06/12/1506).
+- **Decennale secondo:** segundo **Matucci**, composto em **1514** (já depois da queda), como continuação; tem 222 versos e **para** no cerco de Pádua por Maximiliano (1509). [Interpretação: Matucci] parou porque em 1514 a crônica republicana "não tinha mais ouvintes"; o que Maquiavel queria dizer migrou para o *Príncipe*. (Outras referências datam a escrita de c. 1509; o cabeçalho "1509" do Wikisource é data do conteúdo, não da composição.) Póstumo.
+- **Modelos:** Dante (métrica, nomes heráldicos: Florença é "o Lírio", Milão "a Serpente", Veneza "Marco", Perugia "o Grifo"); as crônicas em tercetos dos arautos florentinos do séc. XIV (Antonio Pucci, *Centiloquio*). Tom de **"vós"**, como num discurso aos cidadãos.
+
+### 7.2 Conteúdo e trechos (texto)
+
+**Decennale primo**
+- **Início:** *"Io canterò l'Italiche fatiche / Seguite già ne' due passati lustri / Sotto le Stelle al suo bene inimiche"* ("Cantarei as fadigas italianas dos dois últimos lustros, sob estrelas inimigas do seu bem"). Data: 1494, quando *"in se discordante Italia aperse / La via a' Galli"* ("a Itália, em discórdia consigo mesma, abriu o caminho aos gauleses" — Carlos VIII).
+- **Fatos narrados:** expulsão dos Medici (o "basto", a cangalha de 60 anos), perda de Pisa, a nova república; **Savonarola**: *"Io dico di quel gran Savonarola / Il quale afflato da virtù divina / Vi tenne involti con la sua parola"* ("falo daquele grande Savonarola, que, inspirado por virtude divina, vos manteve enrolados com a sua palavra"), e a divisão que gerou até que *"il suo lume divin"* ("a sua luz divina") foi apagada *"con maggior fuoco"* ("com fogo maior" — a fogueira de 1498). [Interpretação] a ironia sobre "luz divina" apagada pelo fogo é típica.
+- **César Bórgia** (o "Valentino"), o trecho mais famoso: depois da revolta dos seus capitães (a Dieta de La Magione, 1502), *"E per pigliare i suoi nemici al vischio, / Fischiò soavemente; e per ridurli / Nella sua tana, questo bavalischio"* ("e para pegar os inimigos no visgo, **assobiou suavemente**, este **basilisco**, para atraí-los à sua toca"); *"il traditor di Fermo, e Vitellozzo, / E quelli Orsin... / Nelle sue insidie presto dier di cozzo; / Dove l'Orso lasciò più d'una zampa, / Ed al Vitel fu l'altro corno mozzo"* ("o traidor de Fermo [Oliverotto], Vitellozzo e aqueles Orsini caíram depressa nas suas ciladas, onde o Urso [Orsini] deixou mais de uma pata e ao Bezerro [Vitelli] cortaram o outro chifre"). É o episódio de **Senigallia** (31/12/1502), que ele também narra na *Descrizione del modo tenuto dal duca Valentino* e em *Príncipe* VII.
+- **A queda de Bórgia:** morto o papa Alexandre VI, *"Giulio sol lo nutrì di speme assai, / E quel Duca in altrui trovar credette / Quella pietà, che non conobbe mai"* ("só Júlio [II] o alimentou de muita esperança, e aquele duque acreditou encontrar nos outros **a piedade que ele nunca conheceu**"). Mesma lição de *Príncipe* VII: "quem crê que entre os grandes homens os benefícios novos façam esquecer as velhas injúrias se engana".
+- **Final:** a fortuna "ainda não está contente"; Papa, Imperador, França, Espanha e Veneza ("Marco, cheio de medo e de sede") preparam nova guerra, *"E voi di Pisa troppa voglia avete"* ("e vós tendes vontade demais de Pisa"). O poeta oscila entre esperança e medo, confia no "piloto" (Soderini), mas: ***"Ma sarebbe il cammin facile, e corto, / Se voi il tempio riapriste a Marte"*** ("mas o caminho seria fácil e curto **se reabrísseis o templo de Marte**" — isto é, se Florença tivesse armas próprias). É a propaganda da milícia em verso.
+
+**Decennale secondo**
+- Início: *"Gli alti accidenti, e fatti furiosi, / Che in dieci anni seguenti sono stati"*. Narra a derrota de Bartolomeo d'Alviano em San Vincenzo (1505) pela "virtude do vosso **Giacomino**" (Antonio Giacomini, comissário florentino), a liga de Cambrai, a reconquista de Pisa (1509), o imperador Maximiliano em Pádua; para em Vicenza.
+- **O elogio de Giacomini** (cinco tercetos que quebram a crônica): *"Avaro dell'onor, largo dell'oro"* ("avaro de honra, generoso de ouro") ... *"Ed or negletto, e vilipeso giace / In le sue case, pover, vecchio, e cieco: / Tanto a fortuna chi ben fa dispiace!"* ("e agora jaz esquecido e desprezado em casa, pobre, velho e cego: **tanto desagrada à fortuna quem faz o bem!**"). [Interpretação: Matucci] o desabafo pessoal invade a crônica; é também autorretrato do servidor esquecido. Liga-se ao *Capitolo dell'Ingratitudine* (seção 8).
+
+### 7.3 Ligação com o pensamento político [Interpretação]
+
+- **Armas próprias:** "reabrir o templo de Marte" é a mesma tese de *Príncipe* XII–XIII, *Arte da Guerra* e *Discursos* I.21.
+- **Bórgia** como modelo de astúcia (*Príncipe* VII) aparece aqui **antes** do *Príncipe*, com mais desprezo ("basilisco", "piedade que nunca conheceu").
+- **1494 como ano zero** da ruína da Itália: o mesmo ponto de partida da *Mandrágora*, da *Clízia* e de vários capítulos dos *Discursos*.
+- **Recepção:** obra pouco lida; estudada por Matucci, Inglese, Barbara Godorecci ("Machiavelli's *Decennali*", em Sullivan 2000). Útil sobretudo como prova de que o "Maquiavel teórico" saiu do "Maquiavel cronista".
+
+### 7.4 Lição para negócios [Interpretação nossa]
+
+1. **Use o conteúdo como ferramenta de convencimento.** Maquiavel escreveu um poema popular para vender um projeto (a milícia) aos poderosos e ao povo. Em agência: conteúdo serve para mudar a opinião de quem decide.
+2. **Faça rápido e entregue** ("dez anos da Itália em quinze dias"): um bom resumo útil vale mais que um tratado que nunca sai.
+3. **Quem serve bem pode ser esquecido** (Giacomini): não dependa da gratidão do cliente; documente resultados e cobre por eles.
+4. **Desconfie de quem "assobia suave"**: convite amável de quem tem motivo para te prejudicar é armadilha (Senigallia).
 
 ---
