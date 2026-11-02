@@ -71,6 +71,8 @@ resumo = [{k: c.get(k) for k in ['cliente', 'nome', 'seg', 'atualizado', 'instag
 for r in resumo:
     if r.get('instagram'): r['instagram'] = {k: r['instagram'].get(k) for k in ['perfil', 'data', 'periodo', 'seguidores', 'visualizacoes', 'var_seguidores', 'var_visualizacoes']}
 a = open(os.path.join(D, 'admin.html')).read().replace('__CLIENTES__', json.dumps(resumo, ensure_ascii=False).replace('</', '<\\/'))
+apps = json.load(open(os.path.join(DADOS, 'apps.json'))) if os.path.exists(os.path.join(DADOS, 'apps.json')) else {'abas': [], 'repetidos': []}  # apps do Lindson (repositório privado)
+a = a.replace('__APPS__', json.dumps(apps, ensure_ascii=False).replace('</', '<\\/'))
 open(os.path.join(OUT, 'painel', 'admin.html'), 'w').write(a)
 shutil.copy(os.path.join(D, 'contas.html'), os.path.join(OUT, 'painel', 'contas.html'))
 open(os.path.join(OUT, '_headers'), 'w').write("/*\n  X-Frame-Options: DENY\n  Referrer-Policy: same-origin\n  X-Content-Type-Options: nosniff\n/painel/*\n  Cache-Control: private, no-store\n  X-Robots-Tag: noindex\n")

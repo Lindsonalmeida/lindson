@@ -56,6 +56,8 @@ Brand book, componentes (Cover, LinkCard, StatStrip…), modelos e guia de Insta
 | Xquads (15 squads, 183 agentes) | instalados por `instalar-xquads.sh` | Oferta, copy, tráfego, marca etc. |
 
 ## Apps publicados por conta
+Todos reunidos, com os antigos e repetidos marcados, no painel do administrador da Central (https://lindsonalmeida.pages.dev/painel/admin). A lista fica em `CentralLindsonALmeida/dados/apps.json`.
+
 Cada app é privado da conta que criou. Para editar de outra conta, peça ao dono para compartilhar com edição (entre organizações diferentes, nem assim dá para publicar).
 
 **Conta Lindson:** Recomeço 90 https://claude.ai/artifact/DQFTjzVzhH2ZaHtFQwXw5N · Fábrica de Conteúdo https://claude.ai/artifact/WxeZuhrzQutLDTJ36y6EVt · Downloads Lindson https://claude.ai/artifact/VLijrTZyfqg1D53UYrKM6w · Legendas Top X https://claude.ai/artifact/PHe4b5buViTfSGqQzBc2XT · Brand Book https://claude.ai/artifact/L1959UErxHBmmtqe7gwKBS · Design System https://claude.ai/artifact/G4tLQ1bQj4JWnLiFU615oU · Gerador de propostas https://claude.ai/artifact/UV4P5h6vJS1kxVgKnXP2rB

@@ -21,12 +21,37 @@ a.bt:hover{border-color:var(--amarelo);color:var(--amarelo)}a.bt.am{background:v
 .num .r{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--apagado)}.num .v{font:800 26px/1.1 'Big Shoulders Display',sans-serif;margin-top:4px}.num .n{font-size:12px;color:var(--ok)}
 .acoes{display:flex;flex-wrap:wrap;gap:8px}
 .rod{font-size:12px;color:var(--apagado)}
+.abas{display:flex;gap:8px;overflow-x:auto;padding-bottom:6px;margin:4px 0 22px;scrollbar-width:thin}
+.abas button{flex:none;border:1px solid var(--linha);background:none;color:var(--texto);border-radius:99px;padding:9px 16px;font:700 13px Manrope,sans-serif;cursor:pointer}
+.abas button[aria-selected=true]{background:var(--amarelo);color:#0A0A0A;border-color:var(--amarelo)}
+.card.app{align-content:start}.card.app .acoes .bt{align-self:start}
+.card.app h2{font-size:22px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.tag{font:700 10px Manrope,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--amarelo);border:1px solid var(--amarelo);border-radius:99px;padding:3px 8px}
+.card.app .seg{font-size:14px;line-height:1.5;margin-top:6px}
 </style></head><body><main>
 <header><h1>Central · <b>Administrador</b></h1><div style="display:flex;gap:8px;flex-wrap:wrap"><a class="bt" href="/painel/contas">Contas de acesso</a><a class="bt" href="/sair">Sair</a></div></header>
-<p class="sub">Todos os clientes, com os números reais de cada painel. Para atualizar números, mande os prints na conversa com o Claude.</p>
-<div class="grade" id="clientes"></div>
+<nav class="abas" id="abas" role="tablist" aria-label="Áreas do administrador"></nav>
+<section data-aba="clientes"><p class="sub">Todos os clientes, com os números reais de cada painel. Para atualizar números, mande os prints na conversa com o Claude.</p>
+<div class="grade" id="clientes"></div></section>
+<div id="areas"></div>
 <script>
 const CLIENTES = __CLIENTES__;
+const APPS = __APPS__;
+// abas: Clientes + as áreas do Lindson (apps no claude.ai, abrem em outra aba com a conta indicada) + repetidos/antigos
+(() => {
+  const e = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const abas = [['clientes', 'Clientes'], ...APPS.abas.map(a => [a.id, a.nome]), ['repetidos', 'Antigos e repetidos']];
+  document.getElementById('abas').innerHTML = abas.map(([id, n]) => `<button type="button" role="tab" data-ir="${id}">${e(n)}</button>`).join('');
+  const card = a => `<div class="card app"><div><h2>${e(a.nome)} ${a.tag === 'principal' ? '<span class="tag">principal</span>' : ''}</h2><div class="seg">${e(a.faz)}</div></div>
+    <div class="acoes"><a class="bt am" href="${e(a.url)}" target="_blank" rel="noopener">Abrir</a></div><div class="rod">No claude.ai · conta ${e(a.conta)}</div></div>`;
+  document.getElementById('areas').innerHTML = APPS.abas.map(a => `<section data-aba="${a.id}" hidden><p class="sub">${e(a.sub)} Os apps abrem no claude.ai: entre com a conta indicada em cada um.</p><div class="grade">${a.apps.map(card).join('')}</div></section>`).join('')
+    + `<section data-aba="repetidos" hidden><p class="sub">Apps antigos ou com nome repetido. Não use mais: cada um mostra o que o substitui. Para apagar algum de vez, peça ao Claude.</p><div class="grade">${APPS.repetidos.map(r => `<div class="card app"><div><h2>${e(r.nome)}</h2><div class="seg">${e(r.obs)}</div></div><div class="rod">Use agora: <b style="color:var(--texto)">${e(r.troca)}</b></div><div class="acoes"><a class="bt" href="${e(r.url)}" target="_blank" rel="noopener">Ver o antigo</a></div></div>`).join('')}</div></section>`;
+  const mostra = id => { if (!abas.some(a => a[0] === id)) id = 'clientes';
+    document.querySelectorAll('[data-aba]').forEach(s => s.hidden = s.dataset.aba !== id);
+    document.querySelectorAll('[data-ir]').forEach(b => b.setAttribute('aria-selected', String(b.dataset.ir === id))); };
+  document.querySelectorAll('[data-ir]').forEach(b => b.onclick = () => { history.replaceState(null, '', '#' + b.dataset.ir); mostra(b.dataset.ir); });
+  mostra((location.hash || '#clientes').slice(1));
+})();
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const n = v => v == null || v === '' ? 'a medir' : typeof v === 'number' ? v.toLocaleString('pt-BR') : esc(v);
 document.getElementById('clientes').innerHTML = CLIENTES.map(c => { const ig = c.instagram || {};
