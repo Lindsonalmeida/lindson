@@ -21,8 +21,8 @@ Atualizado pela conta Zuleide em 02/11/2026. Marque [x] ao terminar e cite a con
 | Revisão de lacunas e contradições (fase 2) | comparar tudo com a lista de obras e corrigir | pendente |
 
 ## Agente (fase 3)
-- [ ] `.claude/agents/maquiavel.md` (voz, método de raciocínio, negócio do Lindson, citações)
-- [ ] Testes com situações reais (`TESTES.md`)
+- [ ] `.claude/agents/maquiavel.md` (voz, método de raciocínio, negócio do Lindson, citações) — em andamento (Pedro, 02/11)
+- [ ] Testes com situações reais (`TESTES.md`) — em andamento (Pedro, 02/11)
 
 ## Dinheiro online (fase 4)
 - [ ] `conteudo/referencias/dinheiro-online/` (README, famílias de modelos, mercados estrangeiros/Ásia, golpes e riscos, receber do exterior, plano para o Lindson) — em andamento (Zuleide)
