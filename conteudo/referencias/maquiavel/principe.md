@@ -1,6 +1,6 @@
 # O Príncipe (*De principatibus* / *Il Principe*) — base de conhecimento para o agente "Nicolau Maquiavel"
 
-**Situação:** parcial — seções 1 a 6 completas (Ded.–XI conta Zuleide, XII–XXVI conta Pedro, seções 3 a 5 conta Zuleide, seção 6 conta Lindson, 02/11/2026). Falta a seção 7.
+**Situação:** completo — seções 1 a 7 (Ded.–XI conta Zuleide, XII–XXVI conta Pedro, seções 3 a 5 conta Zuleide, seções 6 e 7 conta Lindson, 02/11/2026). Pendências na seção 7.
 
 > **Para que serve este arquivo:** é a base do agente "Maquiavel conselheiro de negócios" sobre *O Príncipe*. Tudo o que está marcado como **texto** vem do original italiano; **fato documentado** é história com fonte; **[Interpretação]** é leitura de estudioso (com o nome) ou nossa; **[Tradição]** é história sem prova. O agente nunca deve pôr interpretação na boca de Maquiavel.
 >
@@ -1064,3 +1064,57 @@ O mesmo autor escreveu um manual para **um príncipe novo** (*Príncipe*) e uma 
 | Crise | *"non fare conto nella bonaccia della tempesta"* / *"non accusino la fortuna, ma la ignavia loro"* | XXIV |
 | Sorte e esforço | *"la fortuna sia arbitra della metà delle azioni nostre"* | XXV |
 | Oportunidade | *"Non si debba adunque lasciare passare questa occasione"* | XXVI |
+
+---
+
+## 7. Lacunas
+
+> Levantamento feito pela conta Lindson (02/11/2026) a partir de todas as marcas "não conferido", "conferir" e "lacuna" deste arquivo, mais o que ficou fora. Serve de lista de trabalho para a revisão da fase 2 (`CHECKLIST.md`).
+
+### 7.1 Conferido nesta rodada (sai da lista)
+
+| Item | Onde estava | Resultado |
+|---|---|---|
+| Frase de **Francis Bacon** sobre Maquiavel (4.11) | "citado de memória; conferir" | **Conferida** no texto inglês (*The Advancement of Learning*, Livro II, XXI.9; Projeto Gutenberg nº 5500): *"So that we are much beholden to Machiavel and others, that write what men do, and not what they ought to do."* O contexto: conhecer as "artes más" é a melhor defesa da honestidade (imagem do basilisco: quem o vê primeiro o mata). Isso reforça a leitura "o livro também ensina a se defender" (4.12). |
+| **Rousseau**, *Contrato social* III.6 (4.1) | "citada de memória, conferir" | **Sentido e nota conferidos** na tradução inglesa de G. D. H. Cole (Gutenberg nº 46333): *"He professed to teach kings; but it was the people he really taught. His Prince is the book of Republicans."* Na nota: Maquiavel era *"a proper man and a good citizen"*, ligado à corte dos Medici, teve de "velar" seu amor à liberdade; a escolha de Bórgia, *"his detestable hero"*, mostra o objetivo escondido; a contradição entre o *Príncipe* e os *Discursos*/*História de Florença* mostra que ele só foi lido por leitores *"superficial or corrupt"*; e *"The Court of Rome sternly prohibited his book"*. A mesma tradução mostra que Rousseau cita Maquiavel também em II.3 (nota, *História de Florença* VII) e II.7 (nota, *Discursos* I.11, o legislador que recorre a Deus). **O francês original continua não conferido** (Wikisource fora do ar para nós nesta rodada). |
+| III, "ir morar lá" (6.1, receita 1) | — | Conferido na vulgata (Wikisource, ed. 1814): *"standovi, si veggono nascere i disordini, e presto vi si può rimediare"*. **Não conferido no Inglese.** |
+| VI, *"quando non credono più, si possa far lor credere per forza"*; XVII, Cipião *"rarissimo"* e a *"troppa pietà"*; XXI, *"ampliare la sua città"* | 6.1 | Conferidos na vulgata; **não conferidos no Inglese** (grafia pode variar: ex. *fare loro credere*). |
+
+### 7.2 Texto de Maquiavel ainda não conferido
+
+1. **Carta a Vettori de 10/12/1513** (1.2, 1.3): o trecho do *"opusculo De principatibus"* e as frases *"l'ingrasso e ripulisco"* e *"la necessità che mi caccia, mi fa dare"* vêm da forma corrente; conferir na edição das cartas (Gaeta, Feltrinelli 1961, ou Inglese, *Lettere a Francesco Vettori e a Francesco Guicciardini*, BUR 1989) — ver `vida-e-cartas.md`.
+2. **Manuscritos** (1.5): número exato de cópias e a árvore (*stemma*) segundo Inglese e Martelli.
+3. **Edição Blado/Giunta 1532** (1.6): data de maio de Blado não conferida em fonte primária.
+4. **Edição Nacional** (1.8): verificar se saiu edição Bausi/Edizione Nazionale do *Príncipe* depois de 2014; até lá, o texto-base segue Inglese 1995.
+5. **Fontes antigas que Maquiavel usa**, não conferidas no original: Tácito (*Anais* XIII.19, citado em XIII), Políbio (Filipe/Nábis), Lívio XXXV.28 e Plutarco, *Filopêmen* 4 (XIV), Lívio XXVIII–XXIX (Pleminius, XVII), Cícero, *De officiis* I.41 (XVIII), Herodiano na tradução de Poliziano (XIX), Ênio/Lívio XXII (XXIII), Lívio IX.1 (XXVI), Petrarca, *Canzoniere* 128, vv. 93–96 (XXVI; numeração de memória).
+6. **Uso de *marrani*** (XXI): conferir o comentário de Inglese.
+
+### 7.3 Traduções não conferidas palavra por palavra
+
+| Tradução | O que falta |
+|---|---|
+| **Mansfield** (en., 1985) | "effectual truth", "to be able not to be good", "one looks to the end". |
+| **Thomson** (en., 1882) | XV, "how to be other than good" (Wikisource em inglês bloqueado para nós nesta rodada). |
+| **Skinner/Price** (en., 1988), **Bondanella** (en.) | Soluções para *virtù* e *stato*. |
+| **Fournel/Zancarini** (fr., PUF 2000) | Escolhas de vocabulário florentino. |
+| **Português**: Lívio Xavier (1933), Antonio D'Elia (Cultrix), Maria Júlia Goldwasser (Martins Fontes), Maurício Santana Dias (Penguin-Companhia, 2010) | Como cada uma traduz *virtù*, *stato*, *si guarda al fine*, *verità effettuale*, *non buono* (XV) e a fortuna-mulher (XXV). **Lacuna mais importante para o agente**, que fala português. |
+| **Espanhol**: Puigdomènech (Cátedra/Tecnos), Granada (Alianza) | Mesmas cinco passagens. |
+| **Alemão moderno**: Zorn (Kröner), Rippel (Reclam) | Idem; e "Tugend"/"Tatkraft" para *virtù* (3.1). |
+
+### 7.4 Estudiosos citados de memória (conferir obra e frase)
+
+- **Latim:** Gentili, *De legationibus* III.9 (1585); Spinoza, *Tractatus politicus* V.7 (*"acutissimus Machiavellus"*); Pole, *Apologia ad Carolum Quintum* ("dedo de Satanás").
+- **Francês:** Diderot, verbete "Machiavélisme" (1765); Rousseau no original francês; Ménissier (2001); Fournel/Zancarini (2002); Merleau-Ponty, "Note sur Machiavel" (1949).
+- **Inglês:** frase de Strauss ("teacher of evil", *Thoughts on Machiavelli*, 1958, introdução); Hexter, "Il principe and lo stato" (1957), dados sobre *lo stato*; Mattingly (1958); Dietz (1986).
+- **Italiano:** Croce, *"di là, o piuttosto di qua, dal bene e dal male morale"* (*Elementi di politica*, 1925); Gramsci, *Quaderni*, "il moderno Principe".
+- **Alemão:** Hegel, *Die Verfassung Deutschlands*; Weber, *Politik als Beruf* (passagem da *História de Florença* III.7); Kersting (1988).
+- **Espanhol:** Maravall (1969), Puigdomènech (1988), Granada.
+- **Português:** ano de Lauro Escorel (1958?); títulos dos ensaios de Sérgio Cardoso; Ames (2002) e Adverse (2009) em detalhe.
+
+### 7.5 O que ficou fora deste arquivo (para outras frentes ou para a fase 2)
+
+1. **Leitores de outras línguas sobre o *Príncipe*:** russo, polonês, japonês, chinês, árabe, turco (traduções, datas, recepção) — ver se `recepcao-e-estudiosos.md` cobre; senão, abrir pesquisa.
+2. **Traduções históricas antigas:** primeira tradução francesa (Gaspard d'Auvergne, 1553), latina (Silvestro Telio, Basileia 1560), inglesa impressa (Edward Dacres, 1640) — datas conferidas só de memória (1.6).
+3. **Comentários linha a linha** (Inglese, Martelli/Marcelli 2006, Pedullà/Donzelli 2013): não lidos; poderiam acrescentar notas a cada capítulo.
+4. **Relação capítulo a capítulo *Príncipe* × *Discursos*** (ex.: XVII × III.21; XX × II.24; XVIII × III.42; XXV × III.9): está espalhada; uma tabela única ajudaria o agente.
+5. **Testes do agente** só com este arquivo: rodar 5 situações da 6.1 no `TESTES.md` e ver se ele cita certo e aplica os freios da 6.3.
