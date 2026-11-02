@@ -406,6 +406,21 @@ O Wikisource conserva as datas *more florentino* (o ano começava em 25 de març
 
 ---
 
+### 8.A O epistolário em números e o que faltava (revisão de cobertura, conta Zuleide, 02/11/2026)
+
+Fonte: verbete **"Lettere"** de **Jean-Jacques Marchand**, *Enciclopedia machiavelliana* (Treccani, 2014), aberto em 02/11/2026; ele cita as cartas pela edição Gaeta (*Lettere*, Feltrinelli 1961; Utet 1984). Citações abaixo **conferidas no verbete**, não no manuscrito.
+
+- **Quantas são:** cerca de **80 cartas enviadas** e cerca de **250 recebidas**, de 1497 a 1527 (Marchand). Isso corrige a "contagem usual" de cerca de 270 recebidas (lista mestra, `missoes-e-escritos-politicos.md` A.5) e fecha a lacuna do total (Atkinson e Sices, 341 cartas, contam também cartas de terceiros).
+- **Por que tão poucas dele:** Maquiavel **nunca copiou as próprias cartas** num livro de registro (como se fazia na chancelaria); as que temos sobreviveram nas mãos dos destinatários. As recebidas foram guardadas por ele e reunidas no fim do séc. XVI pelo neto **Giuliano de' Ricci** (copiário: BNCF, Palatino E.B.15.10); compradas pelo grão-duque em 1827, estão nas *Carte Machiavelli* da Biblioteca Nacional de Florença (mais os fundos Ginori Conti e Nuovi Acquisti 1004, recuperados por Ridolfi).
+- **Antes de 1498:** só um rascunho e duas cartas (ao cardeal, em nome da família, e a Ricciardo Becchi). Dos anos de chancelaria, só **cerca de uma dúzia** de cartas privadas dele; **nenhuma** carta dele aos colegas sobreviveu, só as respostas deles.
+- **O humor da chancelaria (texto, via Marchand):** Bartolomeo **Ruffini**, 23/10/1502: os ditos e piadas das cartas dele *"muovono ogni uno a smascellare delle risa, e danno gran piacere"* ("fazem todo mundo rachar de rir e dão grande prazer").
+- **Vettori, 30/12/1514 (texto, via Marchand):** as cartas de Maquiavel sobre a neutralidade foram lidas pelo **papa** e pelos cardeais **Bibbiena** e **Giulio de' Medici**, *"e tutti si sono maravigliati dello ingegno e lodato il iudicio"*; mas Vettori conclui: ***"io non sono uomo che sappi aiutare gl'amici"*** ("não sou homem que saiba ajudar os amigos"). **Lição [Interpretação nossa]:** elogio de quem decide não é contratação; quem indica precisa também querer.
+- **Carta de pouco depois de 21/10/1525 a Guicciardini (texto, via Marchand, *Lettere* p. 411):** *"Io ebbi quello augmento insino in cento ducati per la Istoria. Comincio ora a scrivere di nuovo, e mi sfogo accusando i prìncipi, che hanno fatto tutti ogni cosa per condurci qui"* ("Recebi aquele aumento de até cem ducados pela História. Começo agora a escrever de novo, e desabafo acusando os príncipes, que fizeram de tudo para nos trazer até aqui"). Na mesma carta: a **Barbera** e a **"Maliscotta"** (Mariscotta), e a *Mandrágora* que Guicciardini queria encenar em Faenza.
+- **Giovanni Vernacci** (sobrinho, mercador em **Pera**, Constantinopla): **14 cartas** de jun. 1513 a mai. 1521; é com ele que Maquiavel mais se abre sobre as próprias penas; Vernacci o chama *"onorando in luogo di padre"*. Em fev. 1515 Maquiavel diz ter escrito seis cartas recentes, das quais só duas sobreviveram. O autógrafo da carta a Vernacci de **18/08/1518** reapareceu em 1998 (Bausi e Masi, *Interpres* 17).
+- **Cartas recebidas que mostram a fama do fim da vida:** Filippo de' Nerli, 22/02/1525 (sucesso da *Clizia*, conhecido até em Módena); **Iacopo Sadoleto**, secretário de Clemente VII, **6/07/1525** (pede que suspenda o projeto da milícia da Romanha, apesar do entusiasmo do papa, esfriado pelo ceticismo de Guicciardini); Giovanni Manetti, 28/02 (1526, segundo o DBI) sobre o triunfo da *Mandrágora* em Veneza.
+- **1521:** as cartas de Carpi com Guicciardini encenam uma **peça pregada em Sigismondo Santi** (o mensageiro esbaforido; ver `missoes-e-escritos-politicos.md` B.14).
+- **Edições** (para conferir as que faltam): Alvisi 1883; Martelli 1971 (pp. 1007–1256); **Gaeta 1984**; Vivanti, *Opere* II, 1999; comentadas: **Inglese**, *Lettere a Francesco Vettori e a Francesco Guicciardini* (BUR, 1989); Bardazzi, *Dieci lettere private* (1992); **Fusetti**, *Carteggio 1521–1527* com Guicciardini (Lausanne, 1997). A **Edição Nacional das cartas** (*Lettere*, org. Marchand e outros, Salerno) **não foi aberta**.
+
 ## 9. Uso pelo agente (complemento)
 
 Complementa a seção 5 [Interpretação, conta Lindson]:
@@ -424,4 +439,4 @@ Complementa a seção 5 [Interpretação, conta Lindson]:
 - **Legazioni**: despachos de Urbino (26/6/1502), Cesena (26/12/1502), Senigália (31/12/1502), Roma (nov. 1503) não conferidos no original; ver `missoes-e-escritos-politicos.md`.
 - Lettera VI a Vettori (sem fim no Wikisource: "manca il fine") e Lettera XVII a Vettori (o Wikisource junta texto de 1513 e assinatura de 16/4/1514: conferir a divisão em edição crítica).
 - Episódios 6.6, 6.17 e 6.18: ver os documentos e artigos originais (Milner 2013; *Giornale storico* 2014; Avvenire 2020).
-- Número total de cartas privadas (cerca de 340, segundo Atkinson e Sices) e quantas são dele: não conferido.
+- ~~Número total de cartas privadas~~ — **resolvido** em 8.A (Marchand, *Enc. mach.*: c. 80 enviadas, c. 250 recebidas; revisão de cobertura, 02/11/2026).
