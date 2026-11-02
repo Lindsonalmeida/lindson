@@ -241,7 +241,7 @@ Formato: **quem foi** · **onde Maquiavel fala dele** · **lição que ele tira*
   - Ele também cunha usos de "razão de Estado" (*ragione degli stati*, no *Diálogo do regimento de Florença*), termo que não é de Maquiavel.
 - Para o agente: usar Guicciardini como "advogado do diabo" do próprio Maquiavel. Nenhuma regra antiga dispensa olhar os números e o contexto do caso concreto.
 
-**Francesco Vettori (1474-1539)**
+**Francesco Vettori (8/11/1474 – 5/3/1540)** [DBI, Simonetta, vol. 99, 2020: o "1539" dos biógrafos vem do epitáfio em estilo florentino; corrigido na revisão (conta Lindson)]
 - Quem foi: patrício florentino, embaixador junto ao imperador (1507, com Maquiavel) e em Roma junto a Leão X (1513-1515). Próximo dos Médici.
 - Relação: principal correspondente de Maquiavel em 1513-1515. Na carta de 10 de dezembro de 1513 Maquiavel descreve seu dia no exílio e anuncia *O Príncipe*. Discutem política internacional (França, suíços, papa) em longas cartas.
 - Lição: as cartas mostram Maquiavel pensando em voz alta, testando previsões (por exemplo, o perigo dos suíços) contra o ceticismo de Vettori, que achava que ninguém consegue prever os movimentos dos príncipes.

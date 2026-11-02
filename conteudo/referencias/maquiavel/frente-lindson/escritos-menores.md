@@ -51,7 +51,7 @@
 - **Data:** partiu em julho de 1500, voltou em janeiro de 1501. Ia com Francesco della Casa (que adoeceu e voltou antes; Maquiavel ficou sozinho boa parte do tempo).
 - **Contexto:** a guerra para retomar Pisa tinha fracassado em junho e julho de 1500: os mercenários suíços e gascões emprestados pelo rei da França se amotinaram diante dos muros de Pisa. O rei culpava Florença; Florença culpava as tropas do rei. Maquiavel precisava explicar o fracasso, não pagar o que o rei cobrava e manter a aliança. Seguiu a corte itinerante (Lyon, Nevers, Montargis, Melun, Blois, Nantes).
 - **Conteúdo essencial:**
-  - Descobriu que, na corte francesa, Florença não era respeitada porque não tinha exército nem pagava em dia. Nos despachos, relata que os franceses chamavam os florentinos com desprezo de **"Ser Nihilo"** ("senhor Nada").
+  - Descobriu que, na corte francesa, Florença não era respeitada porque não tinha exército nem pagava em dia. Nos despachos, relata que os franceses chamavam os florentinos com desprezo de **"Ser Nihilo"** ("senhor Nada") [**Tradição** (Villari, Ridolfi): a expressão **não foi achada** nos despachos conferidos (Chiappelli I; ed. 1813); ver `../missoes-e-escritos-politicos.md` B e D.4; nota da revisão (conta Lindson)].
   - Conversou com Georges d'Amboise, o **cardeal de Rouen**, principal ministro do rei, em Nantes. O diálogo foi contado depois em O Príncipe (cap. III): o cardeal disse que os italianos não entendiam de guerra; Maquiavel respondeu que os franceses não entendiam de Estado (*dello stato*), senão não deixariam a Igreja crescer tanto na Itália.
   - Insistiu com os Dez: mandem embaixadores de peso e dinheiro, porque palavras não bastam.
 - **Ideias fiéis:**
@@ -69,7 +69,7 @@
 - **Contexto:** César Bórgia, filho do papa Alexandre VI, tinha acabado de tomar Urbino de surpresa (com traição ao duque Guidobaldo). Florença mandou o bispo Francesco Soderini, com Maquiavel como secretário. As cartas saem em nome dos dois (redação em boa parte de Maquiavel).
 - **Conteúdo essencial:** Bórgia recebe os enviados à noite, com o palácio fechado, e exige que Florença mude de governo e se declare aliada dele: diz que não confia no governo florentino. A carta de 26 de junho de 1502 faz o retrato que ficou famoso.
 - **Ideias fiéis:**
-  - [texto, carta de 26/6/1502] "Este senhor é muito esplêndido e magnífico, e nas armas é tão corajoso que não há coisa tão grande que não lhe pareça pequena; e, pela glória e para conquistar estado, nunca descansa nem conhece cansaço ou perigo."
+  - [texto, carta de 26/6/1502, **assinada por Francesco Soderini**, Chiappelli II, n. 103: dizer "carta da missão", não "carta de Maquiavel"; nota da revisão (conta Lindson)] "Este senhor é muito esplêndido e magnífico, e nas armas é tão corajoso que não há coisa tão grande que não lhe pareça pequena; e, pela glória e para conquistar estado, nunca descansa nem conhece cansaço ou perigo."
   - [texto, mesma carta, continuação em essência] Ganhou a afeição dos seus soldados, escolheu os melhores homens da Itália, e isso, somado a uma sorte contínua, o torna vitorioso e temível.
   - [paráfrase] Bórgia diz aos enviados: "este governo não me agrada, não posso confiar nele", e pressiona por uma decisão rápida.
 
@@ -99,11 +99,11 @@
 
 - **Data:** missões curtas em 1503 e julho de 1505 (e passagens em 1507 e 1510 relacionadas).
 - **Contexto:** Pandolfo Petrucci era o senhor de fato de Siena, astuto, sobrevivente (inclusive tinha sido expulso por pressão de Bórgia em 1503 e voltado). Florença negociava com ele sobre Montepulciano e sobre os movimentos de Pisa.
-- **Conteúdo essencial:** em julho de 1505, perguntado por que mudava de posição, Pandolfo explicou a Maquiavel a sua regra de governo. Maquiavel relatou aos Dez:
-  - [texto, legação a Siena, julho de 1505] "Querendo errar o menos que posso, governo o meu Estado dia a dia, e assim decido os negócios de hora em hora; porque os tempos são mais poderosos do que os nossos cérebros."
+- **Conteúdo essencial:** em julho de 1505, perguntado por que mudava de posição, Pandolfo respondeu **citando o conselho que o rei Federico de Nápoles lhe tinha mandado**. Maquiavel relatou aos Dez:
+  - [texto conferido, carta de Siena, 21/07/1505, Chiappelli IV] *«Io ti dirò come dixe el re Federigo ad uno mio mandato in uno simile quesito; et questo fu che io mi governassi dì per dì, et giudicassi le cose hora per hora, volendo meno errare; perché questi tempi sono superiori ad e' cervelli nostri»* ("Vou te dizer o que o rei Federico disse a um enviado meu numa pergunta parecida: que eu me governasse dia a dia e julgasse as coisas hora a hora, para errar menos, porque estes tempos são superiores aos nossos cérebros"). [Antes aqui: regra do próprio Pandolfo, "governo o meu Estado dia a dia... os tempos são mais poderosos"; corrigido na revisão (conta Lindson); ver `../missoes-e-escritos-politicos.md` B e D.4.]
 - Pandolfo aparece em O Príncipe (cap. XX, sobre fortalezas e homens de confiança; cap. XXII, sobre o ministro Antonio da Venafro, que mostrava que o príncipe sabia escolher).
 - **Ideias fiéis:**
-  - [texto] "Os tempos são mais poderosos do que os nossos cérebros."
+  - [texto] "Estes tempos são superiores aos nossos cérebros" (*"questi tempi sono superiori ad e' cervelli nostri"*; conselho do rei Federico, repetido por Pandolfo).
   - [paráfrase] Quem governa em tempos instáveis decide por etapas curtas e mantém a liberdade de mudar.
 - **Lição para negócios:**
   - Em mercado instável, planeje em ciclos curtos (semanas), revise sempre, e não se prenda a um plano anual por orgulho.
@@ -174,7 +174,7 @@
 - **1510 (Blois, sozinho):** Júlio II tinha rompido com a França e formava a liga para expulsá-la da Itália. Florença, aliada da França, ficava entre o papa e o rei. Maquiavel tenta convencer Luís XII de que Florença é fiel mas não pode entrar em guerra com o papa; insiste com os Dez para tomar posição clara.
 - **1511 (Milão e Blois):** o rei convocou um concílio contra o papa em **Pisa**, território florentino (o "conciliábulo" de Pisa). Maquiavel tenta adiar ou transferir o concílio, porque sabia que o papa puniria Florença. Depois foi a Pisa convencer os cardeais a sair. Em 1512 a liga venceu, os espanhóis saquearam Prato e os Médici voltaram: o medo de Maquiavel se confirmou.
 - **Ideias fiéis:**
-  - [paráfrase] Ficar no meio entre dois poderosos, sem se decidir, faz o neutro ser odiado pelo vencedor e desprezado pelo perdedor (formulação que ele fixa em O Príncipe XXI, a partir do que viveu).
+  - [texto conferido, carta a Vettori de 20/12/1514] Quem fica neutro entre dois poderosos "conviene che sia odiato da chi perde, et disprezzato da chi vince" (é **odiado por quem perde e desprezado por quem vence**; antes aqui estava o contrário, corrigido na revisão (conta Lindson)); no *Príncipe* XXI o neutro é "preda di chi vince".
   - [paráfrase] Na corte da França, para conseguir algo é preciso muito dinheiro, muita insistência e boa sorte (ver De natura Gallorum, Parte 2).
 - **Lição para negócios:**
   - Quando dois grandes clientes ou parceiros entram em conflito, a neutralidade indecisa costuma custar os dois. Escolha cedo e com critério.
@@ -354,7 +354,7 @@ Não é uma legação, mas foi escrita durante a missão de 1506 e é o primeiro
 ### 2.10 Sommario delle cose della città di Lucca (1520)
 
 - **Data e contexto:** 1520, durante a estada em Lucca (julho a setembro) para o caso Guinigi. Maquiavel aproveita para descrever a constituição da pequena república vizinha.
-- **Conteúdo essencial:** descreve os órgãos de Lucca (os Anciãos com o Gonfaloneiro de Justiça, o Conselho dos Trinta e Seis, o Conselho Geral); elogia que os cargos rodam rápido e que ninguém concentra poder; critica que a Senhoria (Anciãos) tem pouca autoridade e que faltam mecanismos para punir os cidadãos poderosos. Mostra como uma cidade pequena se manteve livre por equilíbrio interno.
+- **Conteúdo essencial:** descreve os órgãos de Lucca (a Signoria de 9 Anciãos com o Gonfaloneiro de Justiça, o Conselho dos 36, o Conselho Geral de 72; números conferidos no *Sommario*, ver `../missoes-e-escritos-politicos.md` C); elogia que os cargos rodam rápido e que ninguém concentra poder; critica que a Senhoria (Anciãos) tem pouca autoridade e que faltam mecanismos para punir os cidadãos poderosos. Mostra como uma cidade pequena se manteve livre por equilíbrio interno.
 - **Ideias fiéis:**
   - [paráfrase] O que conserva Lucca é que os cargos duram pouco e ninguém pode crescer demais.
   - [paráfrase] Uma república precisa de um órgão com autoridade para frear os cidadãos que ficam grandes demais.
@@ -579,9 +579,9 @@ Datas incertas, em geral situadas entre 1506 e 1512-1517 (data discutida para ca
 
 Cada ideia traz a fonte. Onde a frase é paráfrase, isso está indicado.
 
-1. **Sem caixa e sem estrutura, você é "Ser Nada" na mesa de negociação.** Construa poder de barganha antes de negociar. (Legação à França, 1500.)
+1. **Sem caixa e sem estrutura, você é "Ser Nada" na mesa de negociação.** Construa poder de barganha antes de negociar. (Legação à França, 1500; o texto conferido diz que os franceses "stimano solamente o chi è armato, o chi è parato ad dare", carta de Melun, 27/08/1500; o apelido "Ser Nihilo" é tradição não achada no original.)
 2. **Ter razão não convence quem não vê vantagem.** Argumente pelo interesse do outro. (Legação à França, 1500 [paráfrase].)
-3. **Os tempos são mais poderosos do que os nossos cérebros.** Planeje em ciclos curtos e revise sempre. (Pandolfo Petrucci, legação a Siena, julho de 1505 [texto].)
+3. **Os tempos são superiores aos nossos cérebros.** Planeje em ciclos curtos e revise sempre. (Conselho do rei Federico de Nápoles que Pandolfo Petrucci repete a Maquiavel, Siena, 21/07/1505 [texto conferido; corrigido na revisão (conta Lindson)].)
 4. **Segredo de estratégia é vantagem.** Não anuncie o plano antes de executá-lo. (Cartas de Ímola sobre Bórgia, 1502.)
 5. **Coalizão de descontentes se desfaz com ofertas individuais.** Negocie em separado. (Bórgia e a "dieta de falidos", 1502.)
 6. **Velocidade e iniciativa transformam fraqueza em vitória.** (Legação a Bórgia, 1502; Descrizione de Senigália.)
