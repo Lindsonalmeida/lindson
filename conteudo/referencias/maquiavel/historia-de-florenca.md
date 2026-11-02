@@ -1,6 +1,6 @@
 # História de Florença (*Istorie fiorentine*) — base de conhecimento para o agente "Nicolau Maquiavel"
 
-**Situação:** parcial — feito até a seção 4 (conta Zuleide, 02/11/2026). Citações italianas conferidas por programa no texto Martelli/Sansoni.
+**Situação:** completo — seções 1–4 pela conta Zuleide; seção 5 (uso pelo agente, 30 frases novas, regras sobre facções, lacunas) pela conta Lindson (02/11/2026). Citações italianas conferidas por programa (Martelli/Sansoni nas seções 1–4; Wikisource na seção 5).
 
 > **Para que serve este arquivo:** é a base do agente "Maquiavel conselheiro de negócios" no que diz respeito às *Istorie fiorentine* (1520–1525), a última grande obra de Maquiavel. É o livro em que ele mostra, com casos reais da sua cidade, como facções destroem uma organização, como uma família (os Médici) chegou ao poder sem cargo formal, comprando lealdade com favores privados, e como conspirações, mercenários e falta de instituições arruínam quem depende deles.
 >
@@ -729,3 +729,119 @@ Pontos principais (conferidos no italiano):
 | Stefano Porcari | VI.29 | nobre romano que se achou o cavaleiro profetizado por Petrarca | a vaidade de "fazer história" sem forças |
 | Girolamo Olgiati | VII.34 | 23 anos, morre dizendo «Mors acerba, fama perpetua, stabit vetus memoria facti» | coragem não substitui apoio real |
 | Jacopo de' Pazzi | VIII.4, 8 | velho, contrário de início, entra pela autoridade do papa; grita "liberdade" para ninguém | entrar em plano dos outros por pressão |
+
+---
+
+## 5. Uso pelo agente
+
+> Seção escrita pela conta Lindson (02/11/2026), continuando a conta Zuleide. **Citações novas** (que não aparecem nas seções 1–4): conferidas palavra por palavra por programa no texto do **Wikisource italiano** (*Istorie fiorentine*, Livros II–VIII, baixados em 02/11/2026; cada parágrafo da página corresponde a um capítulo da divisão padrão — a contagem bateu nos sete livros: II = 42, III = 29, IV = 33, V = 35, VI = 38, VII = 34, VIII = 36). O Livro I não estava disponível nesse formato; para ele valem as frases da seção 2.1. Grafia do Wikisource (pode variar levemente da Martelli usada nas seções 1–4, ex.: apóstrofo, acentos). Tradução livre nossa. O que já foi citado antes aparece só como remissão.
+
+### 5.1 Regras para o agente falar desta obra (resumo das seções 1–4)
+
+1. **Discursos são de Maquiavel, não do personagem:** "Maquiavel põe na boca de Uzzano…" (ver 1.8). Vale também para as falas em discurso indireto.
+2. **Números e datas "segundo Maquiavel"** (ver 1.7 e 3.4: Anghiari não teve "um só morto").
+3. **Para frase polêmica, partir do italiano**, não da tradução inglesa de 1901 (ver 1.11, erros que circulam).
+4. **Erros a não repetir:** entrega em 1525 (não 1526); Ciompi no Livro III; o discurso do Ciompo é de um anônimo, não de Michele di Lando (ver 1.11).
+5. **Diferenciar a lição política da lição moral:** a *História* descreve o que funcionou (Cosimo) e o custo (a república morreu). O agente cita os dois.
+6. **Referência:** *História de Florença* livro.capítulo (ex.: VII.1). Capítulos são divisão moderna (ver nota no topo).
+
+### 5.2 Trinta frases novas (italiano + tradução + quem fala)
+
+| # | Ref. | Quem fala | Italiano (Wikisource, conferido) | Tradução livre |
+|---|---|---|---|---|
+| 1 | II.2 | autor | «gli uomini non si mantengono mai nelle difficultà, se da una necessità non vi sono mantenuti» | os homens nunca se mantêm nas dificuldades, se uma necessidade não os mantém nelas |
+| 2 | II.14 | mediadores, ao povo | «non era prudenzia volere sempre l'ultima vittoria, e come e' non fu mai savio partito fare disperare gli uomini, perché chi non spera il bene non teme il male» | não é prudência querer sempre a vitória final, nem foi nunca sábio levar os homens ao desespero, porque quem não espera o bem não teme o mal |
+| 3 | II.32 | parentes dos Bardi | «la autorità data alla moltitudine non temperata da alcuno freno non fece mai bene» | a autoridade dada à multidão sem nenhum freio nunca fez bem |
+| 4 | II.36 | autor | «i Fiorentini, i quali la libertà mantenere non sanno e la servitù patire non possono» | os florentinos, que não sabem manter a liberdade e não conseguem suportar a servidão |
+| 5 | III.5 | cidadão anônimo à Senhoria | «non siamo mai stati d'accordo a vivere liberi e di essere servi non ci contentiamo» | nunca estivemos de acordo para viver livres e não nos contentamos em ser servos |
+| 6 | III.5 | idem | «in nelle città di Italia tutto quello che può essere corrotto e che può corrompere altri si raccozza» | nas cidades da Itália junta-se tudo o que pode ser corrompido e pode corromper os outros |
+| 7 | III.11 | autor | «agli uomini non basta ricuperare il loro, che vogliono occupare quello d'altri e vendicarsi» | aos homens não basta recuperar o seu: querem tomar o dos outros e vingar-se |
+| 8 | III.13 | o Ciompo anônimo | «gli uomini mangiono l'uno l'altro, e vanne sempre col peggio chi può meno» | os homens se comem uns aos outros, e leva sempre a pior quem pode menos |
+| 9 | III.20 | autor (sobre Giorgio Scali) | «avendo confidato troppo in uno popolo il quale ogni voce, ogni atto, ogni sospizione muove e corrompe» | por ter confiado demais num povo que toda voz, todo ato, toda suspeita move e corrompe |
+| 10 | III.22 | autor (sobre o exílio de Michele di Lando) | «nel quale errore perché molte volte i principi e le republiche caggiono, ne nasce che gli uomini, sbigottiti da simili esempli prima che possino sentire la ingratitudine de' principi loro, gli offendono» | nesse erro [a ingratidão] caem muitas vezes príncipes e repúblicas; daí que os homens, assustados com tais exemplos, ofendem seus príncipes antes de sentir a ingratidão deles |
+| 11 | III.29 | autor | «la morte fu sempre più amica a' Fiorentini che niuno altro amico, e più potente a salvargli che alcuna loro virtù» | a morte [dos inimigos] foi sempre mais amiga dos florentinos que qualquer amigo, e mais capaz de salvá-los que qualquer virtude deles |
+| 12 | IV.1 | autor | «della libertà solamente il nome dai ministri della licenza, che sono i popolari, e da quelli della servitù, che sono i nobili, è celebrato» | da liberdade só o nome é celebrado pelos ministros da licença (os populares) e pelos da servidão (os nobres) |
+| 13 | IV.5 | parte do conselho | «la fortuna è amica più di chi assalta che di chi si difende» | a fortuna é mais amiga de quem ataca que de quem se defende |
+| 14 | IV.7 | Rinaldo degli Albizzi (indireto) | «non era prudenza giudicare le cose dagli effetti, perché molte volte le cose bene consigliate hanno non buono fine e le male consigliate l'hanno buono» | não é prudência julgar as coisas pelos resultados, porque muitas vezes as bem aconselhadas têm mau fim e as mal aconselhadas, bom |
+| 15 | IV.7 | idem | «se si lodano i cattivi consigli per il fine buono, non si fa altro che dare animo agli uomini di errare» | se se louvam os maus conselhos pelo bom fim, só se dá ânimo aos homens para errar |
+| 16 | IV.11 | autor (sobre Giovanni di Bicci) | «non era per nutrire sette, ma per spegnerle» | não estava ali para alimentar facções, mas para apagá-las |
+| 17 | IV.18 | autor | «tanto è più pronta la moltitudine ad occupare quello d'altri che a guardare il suo, e tanto sono mossi più gli uomini dalla speranza dello acquistare che dal timore del perdere» | a multidão é mais pronta a tomar o dos outros que a guardar o seu, e os homens se movem mais pela esperança de ganhar que pelo medo de perder |
+| 18 | IV.22 | Rinaldo aos Dez (indireto) | «servire ad un popolo sciolto e ad una città divisa [...] tanto che vincendo niuno ti loda, errando ognuno ti condanna, perdendo ognuno ti calunnia, perché la parte amica per invidia, la nimica per odio ti perseguita» | servir a um povo sem freio e a uma cidade dividida: vencendo, ninguém te louva; errando, todos te condenam; perdendo, todos te caluniam, porque o lado amigo te persegue por inveja e o inimigo por ódio |
+| 19 | IV.22 | idem | «quanta offesa agli uomini interi le false calunnie arrechino» | quanta ofensa as falsas calúnias trazem aos homens íntegros |
+| 20 | IV.27 | Niccolò da Uzzano | «io, per me, sono uno di quelli che desidero che niuno cittadino di potenza e di autorità superi l'altro» | eu sou dos que desejam que nenhum cidadão supere outro em poder e autoridade |
+| 21 | IV.30 | autor (sobre Rinaldo) | «imputando ogni cosa più a' cieli, che volevono così, che alla ignoranza e cecità degli uomini» | culpando tudo mais aos céus, que assim queriam, do que à ignorância e cegueira dos homens |
+| 22 | IV.33 | Rinaldo ao papa | «sempre agli uomini savi e buoni fu meno grave udire i mali della patria loro, che vederli» | aos homens sábios e bons sempre foi menos penoso ouvir os males da pátria do que vê-los |
+| 23 | VI.9 | autor | «infra gli uomini che aspirano ad una medesima grandezza si può facilmente fare parentado, ma non amicizia» | entre homens que aspiram à mesma grandeza pode-se facilmente fazer parentesco, mas não amizade |
+| 24 | VI.12 | autor (Sforza diante de Veneza) | ficar à discrição do aliado vencedor, «alla quale niuno prudente principe non mai, se non per necessità, si rimisse» | coisa a que nenhum príncipe prudente jamais se entregou, senão por necessidade |
+| 25 | VII.2 | autor (Cosimo e Neri unidos) | «gli era mescolata con la potenza la grazia» | estava misturada ao poder a simpatia [por isso o povo dava tudo] |
+| 26 | VII.5 | autor (Cosimo) | «tanto fu temperato dalla prudenza sua, che mai la civile modestia non trapassò» | foi tão moderado pela sua prudência que nunca ultrapassou a modéstia civil |
+| 27 | VII.7 | autor | «gli uomini fuggono sempre più volentieri quel male che è certo, ne seguita che i principi possono i minori potenti facilmente ingannare» | os homens fogem sempre de melhor vontade do mal certo; daí que os príncipes podem enganar facilmente os menos poderosos |
+| 28 | VII.16 | Piero de' Medici (indireto) | «non quello che prende prima le arme è cagione degli scandoli, ma colui che è primo a dare cagione che le si prendino» | não é quem pega primeiro nas armas a causa dos tumultos, mas quem primeiro dá motivo para que sejam pegas |
+| 29 | VII.30 | autor (saque de Volterra) | «gli uomini sono più pronti al male che al bene» | os homens são mais prontos ao mal que ao bem |
+| 30 | VIII.5 | autor (Pazzi) | «se mai in alcuna faccenda si ricerca l'animo grande e fermo [...] è necessario averlo in questa, dove si è assai volte veduto agli uomini nelle arme esperti e nel sangue intrisi lo animo mancare» | se em algum negócio se pede ânimo grande e firme, é neste [matar alguém], em que muitas vezes se viu faltar o ânimo a homens experientes nas armas e banhados em sangue |
+
+**As dez já citadas que o agente mais vai usar (procure no lugar indicado, não repetidas aqui):** Proêmio, a lição das divisões (2.0) · II.34 «quello dominio è solo durabile che è voluntario» (2.2) · III.1 Roma termina brigas com lei, Florença com exílio (2.3) · III.13 «dove molti errano niuno si gastiga» (2.3) · IV.1 servidão × licença (2.4) · IV.27 «la pietà, la liberalità, lo amore» (2.4) · V.1 o ciclo virtude → ócio → ruína (2.5) · VII.1 divisões com seitas × sem seitas (2.7; 3.1) · VII.6 «gli stati non si tenevono co' paternostri in mano» (4.2) · VIII.1 conspirações engrandecem o alvo (2.8).
+
+### 5.3 Lições sobre facções e poder — o método da *História* em doze regras
+
+> Cada regra junta passagens já resumidas (seções 2–4) e as novas (5.2). A formulação é **[Interpretação nossa]**; a base textual está na coluna "Onde".
+
+| # | Regra | Onde |
+|---|---|---|
+| 1 | **O conflito não se elimina; se canaliza.** Toda organização tem os dois humores (mandar × não ser mandado). O erro é tentar uma casa sem divergência; o acerto é proibir a **seita**. | III.1; IV.1; VII.1 (3.1) |
+| 2 | **Briga que termina em regra fortalece; briga que termina em expulsão enfraquece.** A lei feita "a favor do vencedor" prepara a próxima briga. | III.1 (2.3) |
+| 3 | **Reputação por via pública × via privada.** Resultado visível cria rivais úteis; favores pessoais criam partidários e dividem. | VII.1–2 (3.1); IV.11 (5.2 nº 16) |
+| 4 | **A facção vencedora se divide quando o inimigo some.** Planeje o "depois da vitória" antes de vencer. | VII.1; II.16; VII.10 (3.1) |
+| 5 | **Poder de favores funciona, mas é de uma pessoa.** Cosimo venceu sem cargo porque todos lhe deviam; o preço foi a república e a dependência de um homem. Transformar favor em instituição. | IV.26–27; VII.4–6 (3.5; 4.2); IV.1 |
+| 6 | **Não julgue pelo resultado.** Bom conselho pode dar errado; mau conselho pode dar certo. Premiar o acaso ensina a errar; punir o azar cala os conselheiros. | IV.7 (5.2 nº 14–15); cf. *Discursos* I.31 |
+| 7 | **Não leve ninguém ao desespero, nem queira sempre a vitória total.** Quem não espera o bem não teme o mal; o Ciompo é o retrato de quem nada tem a perder. | II.14 (5.2 nº 2); III.13 (3.3) |
+| 8 | **A ingratidão gera traição preventiva.** Quem vê o benfeitor punido ataca antes de ser punido. | III.22 (5.2 nº 10); cf. *Discursos* I.29–30 |
+| 9 | **Concessão sem limite aumenta a exigência.** Os homens querem o seu e o dos outros. | III.11 (2.3 e 5.2 nº 7); IV.14 «mai gli uomini non si sodisfanno» |
+| 10 | **Meia medida contra adversário forte é a pior.** Rinaldo nem matou nem reconciliou; desarmou confiando num mediador sem força. | IV.29–33 (2.4) |
+| 11 | **Conspiração quase sempre fortalece o alvo — e o alvo deve evitar virar tirano por medo.** | VIII.1; VIII.5–8 (2.8; 3.6) |
+| 12 | **Quem serve a uma casa dividida é sempre culpado.** Antes de assumir cargo ou cliente dividido, garantir mandato claro. | IV.22 (5.2 nº 18); VII.14 (expectativa extraordinária) |
+
+### 5.4 Situação do negócio → passagem da *História de Florença*
+
+| Situação do Lindson [Interpretação] | O que a obra ensina | Onde |
+|---|---|---|
+| Dois funcionários ou sócios em guerra | transformar a disputa em regra pública (meta, critério, papel) antes que vire "panelinha" | III.1; VII.1 |
+| Funcionário que forma grupinho e "protege os seus" | é a seita: cortar o mecanismo (favores, exceções), não necessariamente a pessoa | VII.1 (3.1) |
+| Vai cobrar dívidas antigas de clientes ou cortar benefícios de uma vez | o erro de Piero e Dietisalvi: o "correto" pode destruir a base | VII.10–11 (2.7; 4.3) |
+| Quer fechar parceria com outra agência do mesmo porte e mesmo nicho | "parentado sim, amizade não": contrato claro, sem esperar lealdade | VI.9 (5.2 nº 23) |
+| Campanha deu certo por sorte / deu errado com boa estratégia | avaliar a decisão, não só o resultado | IV.7 (5.2 nº 14–15) |
+| Cliente ou funcionário encurralado (sem pagamento, ameaçado) | não deixar sem saída; dividir e resolver rápido | II.14; III.13 (3.3) |
+| Ex-sócio ou ex-funcionário que saiu brigado | vai ao concorrente com argumentos "justos"; tratar bem quem sai | V.8 (2.5) |
+| Parceiro que controla toda a relação com o cliente | é o Sforza: o terceirizado que toma o negócio | VI.1, 20–24 (2.6) |
+| Quer ser a referência local sem pedir cargo | modelo Giovanni di Bicci e Cosimo: servir, não ofender, vida simples à vista | IV.16; VII.5 (4.1; 4.2) |
+| A agência cresceu e o dono está "dono de tudo" | lição de Lorenzo: o império político cresceu e o banco quebrou; cuidar do caixa | VIII.36 (4.4) |
+| Promessa alta na venda | expectativa extraordinária vira desonra | VII.14 (2.7) |
+| Equipe cansada de um cliente tóxico | "esta cidade está cansada": fazer a paz a tempo | VIII.17 (2.8) |
+| Assumir a gestão de um cliente cuja diretoria briga | "vencendo ninguém te louva, perdendo todos te caluniam": exigir mandato e um só interlocutor | IV.22 (5.2 nº 18) |
+| Mercado que "ataca" ou "espera" | a fortuna favorece mais quem ataca; mas só com forças medidas | IV.5 (5.2 nº 13); IV.27 |
+| Foi traído por alguém da equipe | responder firme, sem caça às bruxas | VIII.1 (2.8; 3.6) |
+| Escrever relatório para o cliente sobre o próprio cliente | método da Dedicatória: elogiar o fato, registrar a crítica "como alguns dizem" | Dedicatória (1.5) |
+
+### 5.5 Ligações com as outras obras (para o agente cruzar)
+
+| *História de Florença* | Outra obra | Ponto comum |
+|---|---|---|
+| VII.1 (seitas × divisões) | *Discursos* I.4 (tumultos fizeram Roma livre); I.7 (*"Quanto siano in una republica necessarie le accuse"*); I.8 (calúnias) | conflito útil só com via pública |
+| VII.1; IV.26–27 (via privada) | *Discursos* III.28 (*"sotto una opera pia si nasconde uno principio di tirannide"*) | o favor privado como início de tirania |
+| IV.7 (não julgar pelo resultado) | *Discursos* I.31 (*"i capitani romani per errore commesso non furano mai istraordinariamente puniti"*) | não punir o azar |
+| III.22 (ingratidão) | *Discursos* I.29 (*"Quale sia più ingrato, o uno popolo o uno principe"*) e I.30 | a ingratidão gera ofensa preventiva |
+| VIII.1 (conspirações) | *Discursos* III.6 (*"Delle congiure"*) — ele mesmo remete | teoria longa × casos |
+| I.39; V.1, 33–34; VI.1 (mercenários) | *Príncipe* XII–XIII; *Arte da Guerra* I e VII (ver `arte-da-guerra.md` 4.1 e 5.2) | armas próprias |
+| V.1 (ciclo) | *Discursos* I.2 (Políbio); *Asino* V (ver `frente-lindson/escritos-menores.md`) | ciclo de virtude e ruína |
+| II.1 (colônias) | *Príncipe* III | ocupar território com gente própria |
+| III.1 (Florença "reordenável") | *Discursus florentinarum rerum* (1520–21) | o conselho aos Médici (ver `missoes-e-escritos-politicos.md`) |
+| VII.6 (paternostri) | *Príncipe* XV e XVIII | a política não se faz com o terço na mão |
+
+### 5.6 Lacunas (para a próxima rodada)
+
+- **Livro I sem conferência nova:** o Wikisource monta o Livro I por transclusão de páginas do djvu; não foi baixado capítulo a capítulo nesta rodada. Frases do Livro I = só as da seção 2.1 (conferidas pela conta Zuleide).
+- **Correspondência Wikisource × Martelli:** as frases de 5.2 foram conferidas no Wikisource (texto das *Opere*, vol. I); não comparadas palavra por palavra com a Martelli nesta rodada (grafia pode variar).
+- **Edições do séc. XIX baixadas e não usadas como base** (Archive.org): Niccolini, Firenze, 3.ª ed. (`bub_gb_iUwIpZzmAdUC`); Morano, Napoli, 1881 (`cf-000406174-images`); Bettoni, Milano, 1823 (`bub_gb_PQiHTdVh8woC`). Úteis para a próxima rodada comparar variantes.
+- **Pendências herdadas das seções 1–4 (conta Zuleide):** cartas de Della Palla (26/04/1520), Zanobi (06/09/1520) e Vettori (08/03/1525) não conferidas no original; carta de Giannotti (30/06/1533) não conferida no manuscrito; os "120 ducados" (Ridolfi) não conferidos; privilégio de Clemente VII não conferido; número real de mortos de Anghiari e Molinella nas crônicas do séc. XV; fontes dos Livros V–VII (Simonetta) e VIII (Poliziano) não conferidas.
+- **Estudiosos não lidos na fonte:** Rubinstein 1987, Bausi 2005, Fubini 1996, Quint 2003, Marietti 1974; e em português nenhum estudo específico sobre as *Istorie* foi lido (Bignotto, Cardoso). Faltam também estudos em **espanhol** e **alemão** específicos sobre a obra (só as traduções estão registradas em 1.11).
+- **Tradução em português:** não confirmada edição brasileira ou portuguesa completa e atual (ver 1.11).
