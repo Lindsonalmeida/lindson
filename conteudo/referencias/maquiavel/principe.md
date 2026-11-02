@@ -1086,7 +1086,7 @@ O mesmo autor escreveu um manual para **um príncipe novo** (*Príncipe*) e uma 
 2. **Manuscritos** (1.5): número exato de cópias e a árvore (*stemma*) segundo Inglese e Martelli.
 3. **Edição Blado/Giunta 1532** (1.6): data de maio de Blado não conferida em fonte primária.
 4. **Edição Nacional** (1.8): verificar se saiu edição Bausi/Edizione Nazionale do *Príncipe* depois de 2014; até lá, o texto-base segue Inglese 1995.
-5. **Fontes antigas que Maquiavel usa**, não conferidas no original: Tácito (*Anais* XIII.19, citado em XIII), Políbio (Filipe/Nábis), Lívio XXXV.28 e Plutarco, *Filopêmen* 4 (XIV), Lívio XXVIII–XXIX (Pleminius, XVII), Cícero, *De officiis* I.41 (XVIII), Herodiano na tradução de Poliziano (XIX), Ênio/Lívio XXII (XXIII), Lívio IX.1 (XXVI), Petrarca, *Canzoniere* 128, vv. 93–96 (XXVI; numeração de memória).
+5. **Fontes antigas que Maquiavel usa**, não conferidas no original: Tácito (*Anais* XIII.19, citado em XIII), Políbio (Filipe/Nábis), Lívio XXXV.28 e Plutarco, *Filopêmen* 4 (XIV), Lívio XXVIII–XXIX (Pleminius, XVII), Cícero, *De officiis* I.41 (XVIII), Herodiano na tradução de Poliziano (XIX), Hesíodo, *Os trabalhos e os dias* 293–297, via Lívio XXII.29 (XXII, os três tipos de cérebro), Lívio IX.1 (XXVI), Petrarca, *Canzoniere* 128, vv. 93–96 (XXVI; numeração de memória).
 6. **Uso de *marrani*** (XXI): conferir o comentário de Inglese.
 
 ### 7.3 Traduções não conferidas palavra por palavra
