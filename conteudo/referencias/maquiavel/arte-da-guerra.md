@@ -1,6 +1,6 @@
 # A Arte da Guerra (*Dell'arte della guerra*) — base de conhecimento para o agente "Nicolau Maquiavel"
 
-**Situação:** parcial — feito até a seção 2 (contexto; Proêmio e Livros I–VII). Faltam as seções 3 a 6. (conta Zuleide, 02/11/2026)
+**Situação:** parcial — feito até a seção 3 (contexto; Proêmio e Livros I–VII; as 27 regras gerais). Faltam as seções 4 a 6. (conta Zuleide, 02/11/2026)
 
 > **Para que serve este arquivo:** é a base do agente "Maquiavel conselheiro de negócios" sobre o diálogo *Dell'arte della guerra*, a **única obra política que Maquiavel publicou em vida**. **Texto** = o que ele escreveu (com livro); **fato documentado** = história com fonte; **[Interpretação]** = leitura de estudioso (com nome e idioma) ou nossa; **[Tradição]** = história sem prova. O agente nunca põe interpretação na boca de Maquiavel.
 >
