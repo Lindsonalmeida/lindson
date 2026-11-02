@@ -1,6 +1,6 @@
 # Maquiavel escritor: teatro, poesia, novela, a *Vida de Castruccio* e o *Discurso sobre a língua*
 
-**Situação:** parcial — feito até a seção 3 (Clízia). Próximas: Ândria, Belfagor, Asno, Decenais, Capítulos, poesia, Castruccio, língua, perdidos, estilo e humor, uso pelo agente.
+**Situação:** parcial — feito até a seção 5 (Belfagor). Próximas: Asno, Decenais, Capítulos, poesia, Castruccio, língua, perdidos, estilo e humor, uso pelo agente.
 
 > **Para que serve:** dar ao agente "Maquiavel" a outra metade do homem: o comediógrafo, o poeta e o contador de histórias. É daqui que vêm o riso, a ironia, a obscenidade de taberna, a autoderrisão ("historiador, comediógrafo e trágico") e muitas das frases mais citáveis. Maquiavel dizia que a comédia é "um espelho da vida privada" (*Discurso sobre a língua*). Para o agente, isso significa: a mesma lógica do *Príncipe* aplicada a casamentos, padres, maridos, clientes e sócios.
 >
@@ -289,5 +289,75 @@
 2. **A sorte decide a rodada; a estratégia decide o jogo.** Nicomaco ganha o sorteio e perde tudo. Não comemore um contrato ganho no acaso sem ver quem está montando o jogo.
 3. **Corrija um sócio ou funcionário de modo que ele possa voltar.** Sofronia prova o erro "com testemunhas", depois oferece retorno com sigilo: "volta a ser quem eras e ninguém fica sabendo". É a melhor forma de reter alguém valioso que errou.
 4. **"Só é enganado quem confia"** — dito pelo velho que vai ser enganado. Desconfiança não protege quem não enxerga o próprio desejo.
+
+---
+
+## 4. Andria (tradução de Terêncio)
+
+### 4.1 Ficha
+
+- **O que é:** tradução (*volgarizzamento*) para o italiano, **em prosa**, da comédia ***Andria*** ("A moça de Andros") de **Terêncio** (encenada em Roma c. 166 a.C.). Fato importante: Maquiavel escolheu a **prosa** quando os comediógrafos florentinos ainda escreviam comédias em verso; a *Mandrágora* nasce dessa escolha [Stoppelli, *Enc. mach.*, "Andria"].
+- **Manuscritos (fato documentado):** dois **autógrafos** na Biblioteca Nacional de Florença: **Banco Rari 29** (1ª redação) e **Banco Rari 240** (2ª redação, no mesmo códice da novela *Belfagor* e da *Serenata*). Na juventude ele também copiou à mão o *De rerum natura* de Lucrécio e o *Eunuchus* de Terêncio (ms. Vaticano Rossiano 884).
+- **Datação (debate):**
+  - **Adolf Gerber (1912):** 1ª redação em 1517–início de 1518; 2ª até 1520 (pela grafia). Data repetida por décadas.
+  - **Pasquale Stoppelli (2005, 2014):** a 1ª redação é **juvenil, entre 1494 e 1498**: a prosa é "acerba", com erros de latim impensáveis depois do *Príncipe*; e uma piada aponta para **Savonarola**: o escravo Davo diz em Terêncio *"Davo' sum, non Oedipus"* ("sou Davo, não Édipo", isto é, não sou adivinho de enigmas) e Maquiavel traduz *"Io son Davo, non propheta vel non el frate"* ("sou Davo, não profeta, ou seja, não o Frade"). Na 2ª redação, o "frade" some: *"Io son Davo, non propheta"*. A 2ª redação seria de **1525–1527**.
+  - Para o agente: "**a primeira versão é provavelmente da juventude (anos de Savonarola); a revisão, dos últimos anos**". A data 1517–1520 é a antiga.
+- **Curiosidade de tradutor (texto):** o latim *"nodum in scirpo quaeris"* ("procuras nó no junco", i.e., pelo em ovo) virou *"tu cerchi cinque piè al montone"* ("procuras cinco patas no carneiro"): Maquiavel traduziu a **nota** do comentador francês **Guy Jouenneaux** (*Guido Juvenalis*: *"in vervece quinque pedes"*, do francês *chercher le mouton à cinq pattes*). A expressão entrou no italiano de Florença (Firenzuola, Cecchi, Varchi) e até no Vocabulário da Crusca (1612) [Stoppelli; Fumagalli 1997].
+- **Edições:** 2ª redação em Mario Martelli, "La versione machiavelliana dell'Andria" (*Rinascimento*, 1968) e *Opere* III (Vivanti, 2005); 1ª redação publicada por Stoppelli (2005). Estudos: Brian Richardson (1973), Edoardo Fumagalli (1997).
+
+### 4.2 Enredo de Terêncio (o que Maquiavel traduziu)
+
+**Personagens:** Simone (pai), Panfilo (filho), Davo (escravo esperto), Cremete (pai rico), Carino (amigo de Panfilo), Birria (escravo de Carino), Miside (criada), Lesbia (parteira), Critone (homem de Andros), Dromone (escravo), Glicerio (a moça de Andros, não aparece), Sosia (liberto, só na primeira cena).
+
+**Trama:** Simone quer casar Panfilo com Filumena, filha de Cremete; Panfilo ama Glicerio, que vive como "irmã" de uma cortesã de Andros e está grávida dele. Simone finge um casamento para testar o filho; Davo descobre o fingimento e manda Panfilo aceitar, pensando que o casamento não sairá. Mas Cremete aceita de verdade, o plano se volta contra eles; Glicerio dá à luz; Davo usa o bebê para assustar Cremete. Chega **Critone**, de Andros, e revela que **Glicerio é filha perdida de Cremete**: Panfilo casa com ela, e Carino com Filumena.
+
+**Por que importa:** [Interpretação: Stoppelli] com a *Andria* Maquiavel aprendeu "ao vivo" a técnica da comédia: divisão em atos, ação contínua, tempo da cena próximo do real, a dinâmica obstáculo–superação, a cena inicial em que um personagem conta os antecedentes a um ouvinte (Callimaco e Siro na *Mandrágora* = Simone e Sosia na *Andria*). Muitas falas da tradução reaparecem na *Mandrágora*.
+
+### 4.3 Lição para negócios [Interpretação nossa]
+
+- **Aprenda copiando os mestres, depois invente.** Maquiavel traduziu Terêncio linha a linha antes de escrever a melhor comédia do Renascimento. Para uma agência: reproduza com fidelidade os melhores modelos (anúncios, roteiros, propostas) antes de criar a sua fórmula — é o *Príncipe* VI ("os homens andam quase sempre por caminhos trilhados por outros... o prudente deve imitar os grandes, como os arqueiros que miram mais alto").
+- **Revisar é trabalhar.** Duas redações separadas por décadas: o texto melhora quando volta à mesa.
+
+---
+
+## 5. Belfagor arcidiavolo
+
+### 5.1 Ficha
+
+- **Título no autógrafo:** ***Favola*** ("Fábula"). É conhecida como *Novella di Belfagor* ou *Belfagor arcidiavolo*. **Única narrativa em prosa** de Maquiavel.
+- **Manuscrito:** autógrafo no **Banco Rari 240** (Florença), folhas 12v–56r, seguido da 2ª redação da *Andria* e da *Serenata*. Uma mão do séc. XVII (Simone Berti) mexeu no texto; cinco linhas da primeira folha foram riscadas por alguém, talvez para apagar na Contrarreforma a "visão de um santo homem" que abre a história [Stoppelli, *Enc. mach.*, "Favola"].
+- **Datação (debate):** Gerber: **1519–1520**; Stoppelli (pela grafia e pela semelhança de estilo com a *História de Florença*): **c. 1526**. Fórmula do agente: "escrita entre 1518 e 1527, provavelmente nos últimos anos".
+- **Publicação e "plágio" (fato documentado):** em **1545** o veneziano **Giovanni Brevio** publicou a mesma novela como sua (*Rime e prose volgari*), com cerca de **40% do texto idêntico**. Os florentinos se indignaram, e os Giunti publicaram em **1549** a versão de Maquiavel em *L'Asino d'oro di Niccolò Machiavelli, con alcuni altri capitoli et novelle*. [Interpretação: Stoppelli] os dois textos são independentes: ambos reescreveram uma **novela florentina anterior, hoje perdida**; logo, não houve plágio de nenhum dos dois, e a *Favola* era "um divertimento destinado a ficar entre os seus papéis".
+- **Fontes do tema:** o diabo que se casa e foge da mulher é motivo medieval (exemplo de **Jacques de Vitry**, séc. XIII; Pedro de Limoges; **Jehan Le Fèvre**, *Lamentations de Matheolus*, séc. XIV, com o diabo que foge ao ouvir que "a mulher está chegando").
+
+### 5.2 Enredo completo (texto)
+
+1. **O concílio do inferno.** Um santo homem viu em visão que quase todas as almas que chegam ao inferno se queixam de **ter ido parar ali por causa da esposa**. Minos e Radamanto estranham; **Plutão** convoca os príncipes infernais e discursa (ver 5.3). Decidem mandar alguém à terra; ninguém quer; **sorteiam: Belfagor**, arquidiabo (antes de cair do céu, arcanjo).
+2. **As condições:** recebe **100 mil ducados**, deve vir em forma de homem, **casar e viver dez anos** com a mulher, depois fingir que morre e voltar para relatar "os encargos e incômodos do matrimônio"; sujeito a todos os males humanos (pobreza, prisão, doença), "exceto se com engano ou astúcia se livrasse".
+3. **Florença.** Escolhe Florença por ser a cidade "mais apta a suportar quem com arte usurária exercitasse os seus dinheiros"; chama-se **Roderigo di Castiglia**, diz ter enriquecido em Alepo, aluga casa no Borgo Ognissanti. Bonito, aparentando 30 anos, generoso: pais nobres e pobres oferecem filhas. Casa com **Onesta**, filha de **Amerigo Donati** (família nobre e falida).
+4. **O casamento.** Sujeito às paixões humanas, gosta de honras e pompas e se apaixona "fora de medida". Onesta trouxe "tanta soberba que nunca Lúcifer teve tanta; e Roderigo, que tinha provado uma e outra, julgava a da mulher superior". Quando percebe o amor dele, manda nele sem piedade. Ele paga roupas na moda, os casamentos das cunhadas, o comércio dos cunhados; nenhum criado aguenta a casa — **até os diabos que trouxe como criados preferem voltar ao fogo do inferno**.
+5. **A falência.** Vive de crédito, "tomando câmbio"; chegam de Levante e de Poente as notícias: um cunhado perdeu tudo no jogo, o outro naufragou com a mercadoria. Roderigo foge de Florença a cavalo, perseguido por credores.
+6. **O pacto com o camponês.** No campo de Peretola, o lavrador **Gianmatteo del Brica** (empregado de Giovanni del Bene) o esconde num monte de esterco e despista os perseguidores. Roderigo revela quem é e promete enriquecê-lo: vai **possuir mulheres**, e só sairá quando Gianmatteo, pago pela família, fizer o "exorcismo".
+7. **Os exorcismos.** (a) A filha de **messer Ambrogio Amidei**, casada com Buonaiuto Tebalducci: o "demônio" fala latim, discute filosofia e revela pecados (um frade que manteve **uma mulher vestida de fradinho** quatro anos na cela); Gianmatteo cobra **500 florins** para comprar um sítio em Peretola. (b) A filha do **rei Carlos de Nápoles**: Gianmatteo ganha mais de **50 mil ducados**. Roderigo avisa: "cumpri a promessa de te enriquecer; não me apareças mais, porque, onde te fiz bem, te farei mal". (c) A filha do **rei Luís VII da França**: o rei manda buscar Gianmatteo pela Signoria e ameaça enforcá-lo se não curar. Roderigo recusa sair e ameaça mandá-lo à forca.
+8. **O golpe final.** Gianmatteo pede ao rei um palco na **praça de Notre-Dame**, missa solene, barões e clero, e **vinte músicos** com trombetas, cornos, tambores e gaitas que avancem tocando quando ele levantar o chapéu. Roderigo zomba ("estou acostumado às pompas do céu e às fúrias do inferno"). Ao barulho, pergunta o que é. Gianmatteo: ***"Ohimè, Roderigo mio, quella è la mogliera che ti viene a ritrovare"*** ("Ai de mim, meu Roderigo, é a tua mulher que vem te encontrar"). O diabo foge na hora e "preferiu voltar ao inferno a prestar contas de suas ações a submeter-se de novo ao jugo matrimonial". Final: *"e Gian Matteo, che ne seppe più che 'l diavolo, se ne ritornò tutto lieto a casa"* ("e Gianmatteo, que soube mais que o diabo, voltou todo contente para casa").
+
+### 5.3 O discurso de Plutão (texto, o trecho mais "maquiaveliano")
+
+*"Ancora che io, dilettissimi miei, per celeste disposizione e per fatale sorte al tutto irrevocabile possegga questo regno, e che per questo io non possa essere obbligato ad alcuno iudizio, o celeste o mondano, nondimeno, perché gli è maggior prudenza di quelli che possono più sottomettersi alle leggi e più stimare l'altrui iudizio, ho deliberato essere consigliato da voi"* ("Ainda que eu, meus diletíssimos, por disposição celeste e por sorte fatal de todo irrevogável possua este reino, e por isso não possa ser obrigado a juízo algum, celeste ou mundano, todavia, **porque é maior prudência dos que mais podem submeter-se às leis e estimar mais o juízo alheio**, decidi ser aconselhado por vós"). E o dilema: julgar as almas e parecer "cruéis demais", ou não julgar e parecer "pouco severos e pouco amantes da justiça"; *"l'uno peccato è da uomini leggieri, e l'altro da ingiusti"* ("um pecado é de homens levianos, o outro de injustos").
+
+[Interpretação: Stoppelli; Martelli 1990] a contribuição de Maquiavel é transformar o inferno numa **república bem ordenada, governada por um príncipe sábio que consulta o conselho** — e a Terra (Florença do luxo, da usura e da credulidade) no verdadeiro inferno, do qual até o diabo foge. A fórmula *"parlò ... in questa sentenza"* é a mesma que abre dez discursos na *História de Florença*. A ideia de que o inferno não é tão ruim aparece também na *Mandrágora* IV.1 ("estão no inferno tantos homens de bem") e numa sentença de Castruccio (ver seção 10).
+
+### 5.4 Recepção
+
+- Reescrita e imitada muitas vezes: **Giovanni Brevio** (1545); **Straparola** (*Piacevoli notti* II.4, 1550); em francês, **La Fontaine**, *Belphégor* (conto em verso, 1694); em inglês, a comédia *Grim the Collier of Croydon* (séc. XVII) e várias traduções; ópera *Belfagor* de **Ottorino Respighi** (1923); filme italiano *Belfagor il magnifico*? — **não conferido**; peça de Ennio Flaiano? — **não conferido**. A *Devil Stories* (antologia de 1921, Projeto Gutenberg nº 31754) inclui a novela em inglês. [Itens com "não conferido" são lembranças de catálogo a verificar.]
+- A crítica a vê como sátira misógina tradicional que Maquiavel transforma em sátira de Florença (luxo, crédito, credulidade religiosa) [Stoppelli].
+
+### 5.5 Lição para negócios [Interpretação nossa]
+
+1. **Gasto de reputação quebra mais empresa que concorrente.** Roderigo não cai por inimigos: cai por **custo fixo de status** (roupas, festas, família, crédito para manter a pose). Antes de "parecer grande", veja o caixa.
+2. **Crédito com prazo curto e receita incerta ("de Levante e de Poente") é a armadilha clássica.** Uma notícia ruim derruba tudo.
+3. **Todo acordo bom tem cláusula de saída.** O diabo cumpre o combinado ("prometi te enriquecer; estamos quites") e avisa que a próxima será contra. Parceria sem limite claro vira dívida eterna.
+4. **Quando o adversário é mais forte, ataque o medo dele, não a força.** Gianmatteo não vence o diabo pelo poder: descobre **o que ele mais teme** e encena isso. Em negociação: descubra o que o outro lado não quer de jeito nenhum.
+5. **Consultar o conselho é prudência de quem pode tudo** (Plutão). O dono que "pode mandar" e mesmo assim ouve a equipe erra menos.
 
 ---
