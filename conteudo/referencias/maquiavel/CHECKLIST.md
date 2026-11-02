@@ -10,8 +10,8 @@ Atualizado pela conta Zuleide em 02/11/2026. Marque [x] ao terminar e cite a con
 | `vida-e-cartas.md` | cronologia, personalidade, cartas, pessoas | [x] Lindson · conferência das cartas no original e ampliação: em andamento (Zuleide) |
 | `discursos.md` | *Discorsi*, 142 capítulos | seção 1 feita (Lindson) · seções 2 a 8 em andamento (Zuleide) |
 | `principe.md` | *Il Principe*, 26 capítulos + dedicatória | em andamento (Zuleide) |
-| `arte-da-guerra.md` | *Dell'arte della guerra*, 7 livros | em andamento (Zuleide) |
-| `historia-de-florenca.md` | *Istorie fiorentine*, 8 livros | em andamento (Zuleide) |
+| `arte-da-guerra.md` | *Dell'arte della guerra*, 7 livros | [x] Zuleide (seções 1–3) + Lindson (seções 4–6; lacunas em 6.4) |
+| `historia-de-florenca.md` | *Istorie fiorentine*, 8 livros | [x] Zuleide (seções 1–4) + Lindson (seção 5; lacunas em 5.6) |
 | `missoes-e-escritos-politicos.md` | legações (missões diplomáticas), escritos da Chancelaria, *Ritratti*, *Discursus*, Valdichiana, Pisa, ordenança etc. | em andamento (Zuleide) |
 | `literatura.md` | Mandrágora, Clizia, Andria, Belfagor, Asino, Decennali, Capitoli, Canti, Serenata, Castruccio, Discurso sobre a língua | em andamento (Zuleide) |
 | `contexto-e-personagens.md` | Itália 1494–1530, instituições de Florença, Bórgia, Médici, papas, reis, Savonarola, Soderini, Guicciardini | em andamento (Zuleide) |
