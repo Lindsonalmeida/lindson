@@ -109,7 +109,7 @@ Lição geral que Maquiavel tira: as potências italianas perderam porque eram r
 - Em Florença, o povo expulsa de novo os Médici (16-17 de maio de 1527) e restaura a república.
 - Maquiavel, associado agora aos Médici por ter trabalhado para Clemente, não é reaproveitado pela nova república. Morre em 21 de junho de 1527.
 - Ironia final [Interpretação comum, Viroli e Ridolfi]: o homem que pregou armas próprias e unidade viu a Itália cair nas mãos de estrangeiros e foi rejeitado pela república que serviu.
-- Em carta a Guicciardini (16 de abril de 1527) escreve: "amo a minha pátria mais do que a minha alma" (*amo la patria mia più dell'anima*).
+- Em carta a Francesco Vettori (16 de abril de 1527; não a Guicciardini, que é citado na mesma frase: "amo messer Francesco Guicciardini, amo la patria mia...") escreve: "amo a minha pátria mais do que a minha alma" (*amo la patria mia più dell'anima*).
 - Depois: cerco de Florença (1529-1530), fim da república e Alessandro de Médici duque (1532). *O Príncipe* é publicado em 1532; as obras de Maquiavel entram no Índice de livros proibidos em 1559.
 
 ### 1.10 Linha do tempo rápida

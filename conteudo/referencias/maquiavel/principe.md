@@ -810,7 +810,7 @@ O mesmo autor escreveu um manual para **um príncipe novo** (*Príncipe*) e uma 
 
 | Quem | Obra / ano | O que diz |
 |---|---|---|
-| **Lauro Escorel** | *Introdução ao pensamento político de Maquiavel*, **1958** | Pioneiro brasileiro; Maquiavel como fundador da ciência política e patriota. (**ano a conferir**) |
+| **Lauro Escorel** | *Introdução ao pensamento político de Maquiavel*, **1958** (há fonte que dá 1956; ver `recepcao-e-estudiosos.md`) | Pioneiro brasileiro; Maquiavel como fundador da ciência política e patriota. (**ano a conferir**) |
 | **Maria Tereza Sadek** | "Nicolau Maquiavel: o cidadão sem fortuna, o intelectual de *virtù*", em F. Weffort (org.), *Os clássicos da política*, vol. 1, **1989** | Texto didático mais lido nas faculdades brasileiras: Maquiavel como fundador do pensamento político moderno, centrado em *virtù*, *fortuna* e conflito. |
 | **Newton Bignotto** | *Maquiavel republicano*, **1991**; *Maquiavel*, Zahar, **2003** | Lê Maquiavel como **republicano**; o *Príncipe* trata da fundação e da crise, os *Discursos* da liberdade; influência de Lefort. |
 | **Sérgio Cardoso** | ensaios sobre o "desejo do povo" e a liberdade (USP, anos 1990–2010) | Na linha de Lefort: a liberdade nasce do desejo popular de não ser dominado. (**títulos não conferidos**) |
