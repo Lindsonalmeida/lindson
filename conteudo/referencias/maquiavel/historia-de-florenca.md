@@ -105,7 +105,7 @@ Pontos principais (conferidos no italiano):
 ### 1.6 Publicação (1532), manuscritos e privilégio
 
 - **Fato documentado:** publicada **depois da morte** de Maquiavel, em **1532**, em duas edições quase simultâneas:
-  - **Roma, Antonio Blado d'Asola, 25 de março de 1532**: *Historie di Nicolo Machiavegli cittadino, et segretario fiorentino, al Santissimo et Beatissimo Padre Signor Nostro Clemente Settimo Pontefice Massimo*;
+  - **Roma, Antonio Blado d'Asola, 25 de março de 1532**: *Historie di Nicolo Machiavegli cittadino, et segretario fiorentino, al Santissimo et Beatissimo Padre Signor Nostro Clemente Settimo Pontefice Massimo* (frontispício não conferido no original);
   - **Florença, Bernardo di Giunta, 27 de março de 1532** (alguns exemplares trazem **16 de março** no colofão, mas a dedicatória dos mesmos exemplares e o colofão de outros dizem 27; supõe-se que Blado saiu dois dias antes — Instituto Warburg, Morgan Library): *Historie fiorentine di Niccolo Machiavelli cittadino, et segretario fiorentino…* (Wikipedia it., com números SBN).
   - Antes delas, Clemente VII concedeu um **privilégio** (direito exclusivo de impressão) — o texto existe no Wikisource italiano como página própria ("Privilegio di Clemente VII"), mas está marcado como incompleto; **não conferido**.
   - Pelo menos **13 edições até 1555** (Varotti). Primeira tradução francesa no século XVI (*Histoire florentine*, "nouvellement traduicte d'italien", livreiros antiquários) e inglesa em 1595 (*The Florentine Historie*, de Thomas Bedingfield) — datas de catálogo, não conferidas no exemplar.

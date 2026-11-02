@@ -364,6 +364,16 @@ def _sim(a, b):
     import difflib
     return difflib.SequenceMatcher(None, a, b).ratio()
 
+# trocas de palavras curtas que são só grafia/edição (já normalizadas: sem h, letras dobradas simples)
+VARIANTES = {frozenset(x) for x in [("e", "i"), ("el", "il"), ("li", "gli"), ("li", "i"), ("gli", "i"), ("e", "gli"),
+             ("e", "li"), ("un", "uno"), ("a", "ad"), ("o", "od"), ("el", "lo"), ("il", "lo"), ("el", "l"), ("il", "l"),
+             ("lo", "l"), ("la", "l"), ("li", "l"), ("gl", "gli"), ("gl", "li"), ("ne", "n"), ("ce", "c"), ("s", "si"),
+             ("se", "si"), ("me", "mi"), ("te", "ti"), ("de", "dei"), ("de", "dei"), ("dal", "da"), ("del", "de"),
+             ("al", "a"), ("nel", "ne"), ("dua", "due"), ("duo", "due"), ("dua", "duo"), ("e", "et"), ("i", "l"),
+             ("qual", "quale"), ("al", "ala"), ("del", "dela"), ("nel", "nela"), ("dal", "dala"), ("sul", "su"),
+             ("co", "con"), ("pe", "per"), ("mo", "ora"), ("lor", "loro"), ("fu", "fue"), ("ai", "a"), ("ei", "e"),
+             ("il", "i"), ("el", "e"), ("tal", "tale"), ("ben", "bene"), ("an", "anno"), ("gran", "grande")]}
+
 def diferencas(qt, ot):
     """Compara palavra a palavra (já normalizadas). Devolve (n_reais, lista de diferenças).
     Diferença 'de grafia' = só separação de palavras ou letras parecidas (prudenza/prudenzia, dala/da la);
@@ -381,8 +391,11 @@ def diferencas(qt, ot):
         if op == "equal":
             continue
         a, b = " ".join(qt[i1:i2]), " ".join(ot[j1:j2])
-        curtas = op == "replace" and i2 - i1 == 1 and j2 - j1 == 1 and len(a) <= 2 and len(b) <= 2
-        if curtas or op == "replace" and (a.replace(" ", "") == b.replace(" ", "") or
+        curtas = op == "replace" and i2 - i1 == 1 and j2 - j1 == 1 and len(a) <= 3 and len(b) <= 3
+        if curtas and frozenset((a, b)) not in VARIANTES:
+            reais += 1
+            lista.append(("real", a, b))
+        elif curtas or op == "replace" and (a.replace(" ", "") == b.replace(" ", "") or
                                 (_sim(a.replace(" ", ""), b.replace(" ", "")) >= 0.75 and abs((i2 - i1) - (j2 - j1)) <= 1)):
             lista.append(("grafia", a, b))
         else:
@@ -405,6 +418,12 @@ def conferir(cits, fontes):
                 res_partes.append({"parte": parte, "res": "exata", "score": 100, "fonte": f.nome,
                                    "obra": f.rotulo(f.pos[ti]), "original": f.trecho(ti, tf),
                                    "todas": sorted({a[0].rotulo(a[0].pos[a[1]]) for a in ach})})
+                continue
+            ach2 = busca_exata(qt, sec)
+            if ach2:
+                f, ti, tf = ach2[0]
+                res_partes.append({"parte": parte, "res": "exata [só em texto secundário]", "score": 100,
+                                   "fonte": f.nome, "obra": f.rotulo(f.pos[ti]), "original": f.trecho(ti, tf)})
                 continue
             cands = busca_aprox(qt, prim)
             if (not cands or cands[0][0] < 75) and sec:
@@ -434,11 +453,13 @@ def conferir(cits, fontes):
                                "obra": obra, "original": f.trecho(ti, tf, 0), "n_reais": n,
                                "difs": [d for d in lst if d[0] == "real"][:12]})
         c["resultado_partes"] = res_partes
-        ordem = {"exata": 0, "aproximada (só grafia)": 1, "aproximada (divergente)": 2}
+        ordem = {"exata": 0, "exata [só em texto secundário]": 1, "aproximada (só grafia)": 2,
+                 "aproximada (só grafia) [só em texto secundário]": 3, "aproximada (divergente)": 4,
+                 "aproximada (divergente) [só em texto secundário]": 5}
         if not res_partes:
             c["resultado"] = "curta demais"
         else:
-            piores = sorted(res_partes, key=lambda r: (ordem.get(r["res"], 3), -r["score"]))
+            piores = sorted(res_partes, key=lambda r: (ordem.get(r["res"], 6), -r["score"]))
             c["resultado"] = piores[-1]["res"]
             c["score_min"] = min(r["score"] for r in res_partes)
         obras = {r.get("obra", "") for r in res_partes}

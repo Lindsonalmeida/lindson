@@ -349,7 +349,7 @@ Arquivo de referência para o agente "Nicolau Maquiavel" conselheiro de negócio
 - **Onde aparece:** cap. VI (Moisés, Ciro, Rômulo, Teseu, Hierão), VII, XIII, XXVI (a Itália oprimida como ocasião).
 
 ### Stato (Estado)
-- **O que é:** no texto, oscila entre (a) o domínio/território e os súditos, (b) a posição de poder do príncipe ("manter o Estado" = manter-se no poder) e (c) a ordem política. **[a palavra ainda não tem o sentido moderno abstrato; leitura de Skinner e outros]** Ex.: "Todos os Estados, todos os domínios..." (cap. I); "conto de vivere e mantenere lo Stato" (cap. XVIII).
+- **O que é:** no texto, oscila entre (a) o domínio/território e os súditos, (b) a posição de poder do príncipe ("manter o Estado" = manter-se no poder) e (c) a ordem política. **[a palavra ainda não tem o sentido moderno abstrato; leitura de Skinner e outros]** Ex.: "Todos os Estados, todos os domínios..." (cap. I); "conto di vivere e mantenere lo Stato" (cap. XVIII).
 - **Para o agente [interpretação]:** "o negócio e a sua posição nele".
 
 ### Ordini (ordens)

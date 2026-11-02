@@ -324,7 +324,7 @@ Dados bibliográficos conferidos pela bibliografia corrente; **livros não abert
 - **Para o agente:** o "sorriso" do retrato inspirou o título de Viroli (*Il sorriso di Niccolò*).
 
 ### 5.6 Curiosidades verificadas (rápidas)
-- O título que ele mesmo usa é **De principatibus** ("ho composto uno opuscolo *De principatibus*", carta a Vettori, 10/12/1513). "Il Principe" é o título das edições de 1532.
+- O título que ele mesmo usa é **De principatibus** ("et composto uno opusculo *De principatibus*", carta a Vettori, 10/12/1513, ed. Martelli). "Il Principe" é o título das edições de 1532.
 - *O Príncipe* foi impresso com **privilégio papal** (Clemente VII, 1532) e **proibido** por Paulo IV (1559) — seção 1.
 - Shakespeare cita "Machiavel" **3 vezes** (1 Henrique VI V.4; 3 Henrique VI III.2; Alegres Comadres III.1) — conferido.
 - O **prefácio de Kamenev** à edição soviética de 1934 foi usado contra ele no processo de Moscou de 1936 (seção 3.7).

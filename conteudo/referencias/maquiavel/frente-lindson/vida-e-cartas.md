@@ -147,7 +147,7 @@ O que segue mistura fatos das cartas com leituras dos biógrafos. Para o agente,
 - Prefere "a verdade efetiva da coisa" à imaginação (*Príncipe* XV). Nas cartas, contradiz amigos sem cerimônia: a Vettori, sobre a política dos suíços e do papa, monta contra-argumentos ponto a ponto.
 - Usa o italiano falado de Florença, com provérbios e palavrões nas cartas privadas, e latim de chancelaria nos despachos.
 - Exemplo antigo + exemplo moderno é a assinatura dele: Roma ao lado de César Bórgia, Moisés ao lado de Savonarola.
-- Admite que fala de política por falta de outro assunto (carta a Vettori, 9 de abril de 1513): "a Fortuna fez que, não sabendo eu falar nem da arte da seda nem da arte da lã, nem de ganhos nem de perdas, convém-me falar do Estado; e preciso ou fazer voto de ficar calado, ou falar disso" [*"la Fortuna ha fatto che, non sapendo ragionare né dell'arte della seta né dell'arte della lana, né de' guadagni né delle perdite, e' mi conviene ragionare dello stato, e mi bisogna o botarmi a stare cheto, o ragionare di questo"*].
+- Admite que fala de política por falta de outro assunto (carta a Vettori, 9 de abril de 1513): "a Fortuna fez que, não sabendo eu falar nem da arte da seda nem da arte da lã, nem de ganhos nem de perdas, convém-me falar do Estado; e preciso ou fazer voto de ficar calado, ou falar disso" [*"la Fortuna ha fatto che, non sapendo ragionare né dell'arte della seta et dell'arte della lana, né de' guadagni né delle perdite, e' mi conviene ragionare dello stato, et mi bisogna o botarmi di stare cheto, o ragionare di questo"*].
 
 ### 2.3 Como falava com os amigos
 
@@ -172,7 +172,7 @@ Para o agente, essa carta dá o tom: um homem prático, de rua, que joga cartas 
 ### 2.5 Outros traços documentados
 
 - **Vaidade intelectual e frustração**: reclama de ser esquecido (carta a Vettori de 10 de junho de 1514: vai ficar "entre os meus piolhos, sem encontrar homem que se lembre do meu serviço"). A Alamanni (17 de dezembro de 1517) brinca que Ariosto, ao citar tantos poetas no *Furioso*, "me deixou para trás como um [palavrão]".
-- **Coragem física e moral**: aguentou a tortura sem confessar, e se gaba disso (a Vettori, 18 de março de 1513): "suportei essas aflições com tanta firmeza que eu mesmo gosto de mim por isso, e me parece que valho mais do que eu pensava" [*"io gli ho portati tanto francamente, che io stesso me ne voglio bene, et parmi essere da più che non credetti"*].
+- **Coragem física e moral**: aguentou a tortura sem confessar, e se gaba disso (a Vettori, 18 de março de 1513): "suportei essas aflições com tanta firmeza que eu mesmo gosto de mim por isso, e me parece que valho mais do que eu pensava" [*"gli ho portati tanto francamente, che io stesso me ne voglio bene, et parmi essere da più che non credetti"*].
 - **Mulherengo assumido**: as cartas a Vettori falam abertamente de amantes (a cortesã "la Riccia"; um amor no campo em 1514; Barbera Salutati nos anos 1520). Isso não é invenção de biógrafo.
 - **Patriota**: "amo a minha pátria mais que a alma" (1527). Sonha com uma Itália livre dos "bárbaros" (*Príncipe* XXVI; carta a Guicciardini de 17 de maio de 1526).
 - **Religião**: [Interpretação] objeto de debate. Guicciardini brinca com a "profissão contrária" dele em matéria de frades. Ele critica a Igreja romana por dividir a Itália e enfraquecer os homens (*Discursos* I.12, II.2), mas morreu confessado, segundo o filho. Não chamar de ateu como fato.

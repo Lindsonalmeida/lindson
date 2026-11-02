@@ -82,7 +82,7 @@ Um tratado curto (dedicatória + 26 capítulos, cerca de 27 mil palavras no ital
 
 | Edição | Data | Dados (fatos documentados) |
 |---|---|---|
-| **Antonio Blado**, Roma | **4 de janeiro de 1532** (colofão: *"Stampata in Roma per Antonio Blado d'Asola a dì iiij de gennaio del M.D.XXXII"*) | *Il principe di Niccholo Machiavello al magnifico Lorenzo di Piero de Medici*, junto com a *Vita di Castruccio Castracani* e a *Descrizione del modo tenuto dal duca Valentino nello ammazzare Vitellozzo Vitelli…*. Saiu com **privilégio do papa Clemente VII** (Giulio de' Medici), concedido em 1531. É a **primeira edição** (*editio princeps*). |
+| **Antonio Blado**, Roma | **4 de janeiro de 1532** (colofão: *"Stampata in Roma per Antonio Blado d'Asola a dì iiij de gennaio del M.D.XXXII"*; não conferido no original) | *Il principe di Niccholo Machiavello al magnifico Lorenzo di Piero de Medici*, junto com a *Vita di Castruccio Castracani* e a *Descrizione del modo tenuto dal duca Valentino nello ammazzare Vitellozzo Vitelli…*. Saiu com **privilégio do papa Clemente VII** (Giulio de' Medici), concedido em 1531. É a **primeira edição** (*editio princeps*). |
 | **Bernardo di Giunta** (herdeiros de Filippo Giunta), Florença | **8 de maio de 1532** | Mesmo conjunto de textos; dedicatória do editor a monsenhor Giovanni Gaddi. Data de maio **não conferida em fonte primária nesta frente**. |
 
 - **Fato documentado:** cinco anos depois da morte de Maquiavel (21 de junho de 1527). Os *Discursos* saíram um ano antes (1531), a *História de Florença* também em 1532.
