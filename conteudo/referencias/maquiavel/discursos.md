@@ -525,6 +525,8 @@ Conferidos os 142 ensinamentos daquele arquivo (números 78 a 219) contra o orig
 
 **Para que serve:** com a seção 5 (41 fichas), os 142 capítulos dos *Discursos* ficam todos com ficha conferida. Aqui estão os 101 que faltavam, **na ordem do livro** (ciclo 2 da revisão, conta Zuleide, 02/11/2026).
 
+**Trabalho paralelo (ler junto):** a conta Lindson fez, ao mesmo tempo e sem saber desta seção, fichas dos mesmos capítulos em arquivos próprios: `discursos-fichas-livro-1.md`, `discursos-fichas-livro-2.md` e `discursos-fichas-livro-3.md` (com aplicações pensadas para a esteira de serviços da agência e conferência do latim de Lívio), e uma tabela *Príncipe* × *Discursos* no fim do livro-3. As duas versões foram feitas e conferidas no italiano de forma independente e **não se contradizem** nos pontos checados (Gregório Magno como tradição, Temístocles/Artaxerxes em II.31, Sentino em III.45, Conselho Grande × Pregadi em I.49–I.50). Esta 5b é a versão curta, dentro do arquivo principal; os arquivos da conta Lindson são a versão longa.
+
 **Padrão de cada ficha (igual ao da seção 5, mais curto):** argumento (**texto**, o que Maquiavel defende no capítulo) · citação italiana **conferida no original** (Wikisource, edição de 1531; conferência por programa em `revisao/conferir_citacoes.py`) + tradução livre nossa · exemplos que ele mesmo usa · aplicação a um negócio hoje, sempre **[Interpretação nossa]**. Onde a tabela das seções 2 a 4 resume de modo impreciso, a ficha avisa com **⚠ Nota**.
 
 ### 5b.1 — I.1: o lugar e as leis do começo
