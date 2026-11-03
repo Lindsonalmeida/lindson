@@ -77,3 +77,13 @@ Nascimento (3/5/1469) e morte (21/6/1527, sepultado em Santa Croce no dia 22); e
 7. Busca não exaustiva das aplicações de negócio em todos os capítulos de `discursos.md` e `historia-de-florenca.md` (só as tabelas-resumo foram lidas); fazer no ciclo 2.
 
 Fontes da web usadas nesta frente (02/11/2026): treccani.it (DBI "Machiavelli, Niccolò", Inglese 2006; "Soderini, Piero", 2018); warburg.sas.ac.uk (blog "Anatomy of a collection item: Discorsi…"); catalog.folger.edu/record/75491; themorgan.org (registros dos impressos de 1531–1532); artigos brasileiros sobre as primeiras traduções do *Príncipe* (periodicos.ufs.br; revistas.uece.br; blog dlit).
+
+---
+
+## Ciclo 2 — fatos resolvidos na fonte (conta Zuleide, 03/11/2026)
+
+**Situação:** em andamento — itens registrados um a um, com commit a cada item.
+
+| # | Tema | O que achei | Fonte (aberta nesta rodada) | Arquivos corrigidos |
+|---|---|---|---|---|
+| C2.1 | Prisão de 1513 (12 × 19/2) | **Resolvido.** Os documentos dão a ordem: lista de Boscoli achada e Boscoli/Capponi presos em **18/2/1513**; em **19/2** carta de Giuliano de' Medici ao Bibbiena com 12 suspeitos (Maquiavel entre eles) e **bando dos Otto di Guardia** "Die 19 februarii 1512" (estilo florentino = 1513: entregá-lo "intra una hora", "sotto pena di bando di ribello et confischatione"; "Bandito per Antonio di Chimenti"); sentença capital de Boscoli e Capponi em 22/2, execução na noite de 22–23/2. Logo, **prisão logo depois de 19/2/1513**. O DBI (Inglese 2006) escreve mesmo "il 12 febbr. 1513 fu arrestato" (conferido no texto on-line): data contradita pelos documentos, provável erro. Milner (2013) não descobriu o texto do bando (já impresso por Villari em 1877–82), e sim o original lido pelo pregoeiro e os pagamentos aos 4 cavaleiros; a imprensa de 2013 dá o pregoeiro como Domenico di Nofri, a cópia no registro diz Antonio di Chimenti (divergência anotada) | Villari, *Machiavelli e i suoi tempi* II, cap. X e doc. XX (Archivio di Stato, Otto di Guardia, reg. 155, c. 35v; sentença c. 36v–37); DBI vol. 67 (treccani.it); I Tatti (itatti.harvard.edu); *La Nazione* (2013) | `vida-e-cartas` (linha de 1513 e episódio 6.6), FL `vida-e-cartas` (2 lugares) |
