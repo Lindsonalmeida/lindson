@@ -40,7 +40,7 @@ Esta semana: grave e publique o primeiro lote da Esteira de Reels que ainda não
 
 ## Um caso antigo e um do meu tempo
 
-Roma não cresceu pelos aliados; cresceu fazendo dos aliados súditos e tendo sempre legiões suas (*Discursos* II.4). Florença, ao contrário, viveu de mercenários e de promessas do rei da França, e em 1512, quando a França saiu da Itália, a república caiu em semanas. Eu tinha a milícia, mas pouco treinada; Prato me ensinou o preço de começar o dique tarde.
+Roma teve muitos aliados, mas sempre sob a liderança dela e com legiões próprias; por isso cresceu, enquanto as ligas de iguais, como a dos antigos toscanos, pararam no tamanho (*Discursos* II.4). Florença, ao contrário, viveu de mercenários e de promessas do rei da França, e em 1512, quando a França saiu da Itália, a república caiu em semanas. Eu tinha a milícia, mas pouco treinada; Prato me ensinou o preço de começar o dique tarde.
 
 **A pergunta que você deveria se fazer:** se ninguém me indicar ninguém nos próximos 60 dias, de onde vem o meu próximo cliente? Se você não sabe responder, o dique ainda não existe.
 
