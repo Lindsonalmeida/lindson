@@ -9,6 +9,7 @@ from scipy.signal import butter, lfilter
 
 S = 44100
 _modelo = None
+_conds = {}          # cache da voz preparada: (amostra, data do arquivo, expressão) -> condicionais
 
 
 def ffmpeg():
@@ -31,6 +32,37 @@ def modelo():
         from chatterbox.mtl_tts import ChatterboxMultilingualTTS
         _modelo = ChatterboxMultilingualTTS.from_pretrained(device=dispositivo())
     return _modelo
+
+
+def preparar_voz(m, amostra, expressao):
+    """Prepara a identidade da voz (experimento de 03/11, conteudo/referencias/ia-video-voz/teste/EXPERIMENTO-SEMELHANCA.md):
+    1. escolhe sozinho o trecho de 10 s que mais parece a pessoa dentro da amostra inteira;
+    2. troca as duas "impressões digitais" do modelo (voice encoder e x-vector) pela MÉDIA de toda a amostra.
+    Com temperatura 0,6, a nota de semelhança subiu de 0,931 para 0,945 (voz real contra ela mesma: 0,924)."""
+    import librosa, torch
+    chave = (amostra, os.path.getmtime(amostra), round(expressao, 2))
+    if chave in _conds:
+        m.conds = _conds[chave]; return
+    w16, _ = librosa.load(amostra, sr=16000)
+    ref = amostra
+    if len(w16) > 12 * 16000:
+        janelas = [(i, w16[i:i + 160000]) for i in range(0, len(w16) - 160000, 32000)]
+        janelas = [(i, j) for i, j in janelas if (np.abs(j) > .02).mean() > .25] or janelas[:1]
+        emb = m.ve.embeds_from_wavs([j for _, j in janelas], sample_rate=16000)
+        alvo = emb.mean(0); alvo /= np.linalg.norm(alvo)
+        i = janelas[int(np.argmax(emb @ alvo))][0]
+        w, sr = sf.read(amostra)
+        if w.ndim > 1: w = w.mean(1)
+        ref = os.path.join(tempfile.mkdtemp(), 'trecho.wav')
+        sf.write(ref, w[int(i / 16000 * sr):int(i / 16000 * sr) + 10 * sr], sr)
+    m.prepare_conditionals(ref, exaggeration=expressao)
+    pedacos = [w16[i:i + 6 * 16000] for i in range(0, max(1, len(w16) - 3 * 16000), 6 * 16000)]
+    pedacos = [x for x in pedacos if len(x) > 32000 and np.sqrt((x ** 2).mean()) > .01] or [w16]
+    ve = torch.from_numpy(m.ve.embeds_from_wavs(pedacos, sample_rate=16000)).mean(0, keepdim=True)
+    xv = torch.stack([m.s3gen.speaker_encoder.inference(torch.from_numpy(x[None]).float()) for x in pedacos]).mean(0)
+    m.conds.t3.speaker_emb = ve.to(m.conds.t3.speaker_emb)
+    m.conds.gen['embedding'] = xv.to(m.conds.gen['embedding'])
+    _conds[chave] = m.conds
 
 
 def frases(txt):
@@ -89,18 +121,18 @@ def estudio(a):
     return (b / (np.abs(b).max() + 1e-9) * .95).astype(np.float32)
 
 
-def narrar(txt, amostra, expressao=0.5, semente=0, humanizar=True, progresso=None, respirar=False):
+def narrar(txt, amostra, expressao=0.45, semente=0, humanizar=True, progresso=None, respirar=False):
     """txt -> áudio float32 44,1 kHz mono com a voz da amostra (wav de 10 s a 2 min, voz limpa).
     Padrão do Lindson (03/11): voz limpa e fluida, pausas curtas entre frases, sem respiração
     artificial e sem eco. `respirar=True` volta a pôr o respiro antes de frase longa."""
-    m = modelo(); rng = np.random.default_rng(int(hashlib.md5(f'{semente}|{txt}'.encode()).hexdigest()[:8], 16))
+    m = modelo(); preparar_voz(m, amostra, expressao); rng = np.random.default_rng(int(hashlib.md5(f'{semente}|{txt}'.encode()).hexdigest()[:8], 16))
     fs = frases(txt) if humanizar else [txt.strip()]
     out = []
     for n, f in enumerate(fs):
         if progresso: progresso((n, len(fs)), desc=f'Frase {n + 1} de {len(fs)}')
-        ex = expressao + (rng.uniform(-.08, .08) if humanizar else 0)
+        ex = expressao + (rng.uniform(-.05, .05) if humanizar else 0)
         if f.endswith('!'): ex += .1
-        w = m.generate(f, language_id='pt', audio_prompt_path=amostra, exaggeration=float(np.clip(ex, .25, 1)))
+        w = m.generate(f, language_id='pt', exaggeration=float(np.clip(ex, .25, 1)), temperature=.6, cfg_weight=.5)
         a = _apara(_reamostra(w.squeeze().cpu().numpy(), m.sr))
         if respirar and n and len(f.split()) >= 12 and rng.random() < .7:
             out.append(_respiro(rng, rng.uniform(.22, .32)))

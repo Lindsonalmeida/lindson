@@ -82,7 +82,7 @@ def apagar(pid: str):
 class Pedido(BaseModel):
     id: str
     texto: str
-    emocao: float = 0.5
+    emocao: float = 0.45
     humano: bool = True
 
 
