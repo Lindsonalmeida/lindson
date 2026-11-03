@@ -92,6 +92,8 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 
 - **Carrosséis (03/11, Jaci):** telas do meio nunca repetem foto nem composição dentro do carrossel (nem a foto da capa ou do fechamento). Reprovado: as 4 telas do meio iguais (foto desfocada com véu em todas).
 
+- **Treinamento (03/11, Jaci):** vídeos para a equipe do cliente ficam na aba Treinamento do painel, **incorporados** (assiste dentro da Central) e com o botão "Abrir no YouTube" de reserva. Lista em `dados/<cliente>.json` → `treinamento`; código genérico em `prototipo/treinamento.js`.
+
 ## 4. REPROVADO: nunca repetir
 
 1. **Elementos gráficos na identidade do Leo**: raios, faixas de padrão, ícones, fumaça, sol desenhado e bandeirinhas. Motivo: "esses elementos estão feios" (02/11). A identidade do Leo é só fontes, logo e cores.
