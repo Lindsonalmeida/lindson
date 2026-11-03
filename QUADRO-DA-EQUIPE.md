@@ -11,7 +11,7 @@ Como usar:
 ## Em andamento
 | Desde | Conta | O quê | Como retomar / onde está |
 |---|---|---|---|
-| 03/11 | Pedro | Engenharia reversa do HeyGen e da ElevenLabs (pesquisa pública + versão nossa com código aberto) | `conteudo/referencias/ia-video-voz/` |
+| 03/11 | Pedro | App interno de clone de imagem e voz: pesquisa pronta (HeyGen, ElevenLabs, outras) e plano por nível de PC | `conteudo/referencias/ia-video-voz/PLANO-DO-APP.md` · **aguardando o Lindson informar a placa de vídeo e a RAM do PC**; próximo passo: protótipo de voz |
 | 03/11 | Zuleide | Agente Maquiavel, reta final: revisão do acervo concluída em 2 ciclos (`REVISAO.md`); agente **v3** salvo em `.claude/agents/maquiavel.md`; rodando os **20 testes** do `TESTES.md` (respostas em `conteudo/referencias/maquiavel/revisao/testes-v3/`). Depois: avaliar, ajustar e registrar a entrega (pedido do Lindson: "quando terminar tudo, finalize o agente") | Se parar: ver quais `teste-NN.md` existem, rodar os que faltam como o agente, avaliar pelos 6 critérios do `TESTES.md` e registrar o resultado na tabela do fim |
 | 02/11 | Pedro | Raposa longos 13-16: **pausado a pedido do Lindson** às 01:45 UTC (longo-13 em ~25.300 de 31.900 quadros, quadros salvos) | sessão `session_01XiFncfJz7NwDm3ttPeBcGd`; retomar só quando o Lindson pedir: `RETOMAR=1 setsid nohup bash conteudo/youtube/filas/lote_rl.sh &` |
 | 02/11 | Lindson | Trazer todos os apps para dentro da Central com a identidade dela (o Recomeço 90 já está no ar; em andamento: Fábrica de Conteúdo, Legendas Top X, Brand Book e Design System, Gerador de propostas; os apps dos canais ficam só como link, por decisão do Lindson) e apagar os originais do claude.ai | `agencia/sistema-clientes/site/` (README, seção Apps do Lindson) |

@@ -75,3 +75,5 @@ Todas desligadas desde 26/10 (as de 3 em 3 horas falharam por limite de uso do p
 | Captação por cidades | a cada 3 h | desligada desde 26/10 (falhou por limite de uso) |
 | Notícias BOMBOU | a cada 3 h | desligada desde 26/10 (falhou por limite de uso em 27/10) |
 | Roteiros diários de Reels | 5h41 | desligada de propósito (os 300 roteiros foram entregues de uma vez em 22/10) |
+
+- `conteudo/referencias/ia-video-voz/`: pesquisa de clone de imagem e voz (HeyGen, ElevenLabs, outras ferramentas) e plano do nosso app interno (conta Pedro, 03/11/2026).
