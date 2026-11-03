@@ -1,6 +1,6 @@
 # Discursos sobre a Primeira Década de Tito Lívio — base de conhecimento para o agente "Nicolau Maquiavel"
 
-**Situação:** completo — seções 1 a 8 (seção 1 pela conta Lindson; seções 2 a 5 pela conta Zuleide; seções 6 a 8 pela conta Lindson, 02/11/2026). Pendências em 8.5. **Ciclo 2 (conta Zuleide):** seção 5b (fichas dos 101 capítulos restantes) parcial — feito até II.12.
+**Situação:** completo — seções 1 a 8 (seção 1 pela conta Lindson; seções 2 a 5 pela conta Zuleide; seções 6 a 8 pela conta Lindson, 02/11/2026). Pendências em 8.5. **Ciclo 2 (conta Zuleide):** seção 5b (fichas dos 101 capítulos restantes) parcial — feito até II.32.
 
 > **Para que serve este arquivo:** é a base do agente "Maquiavel conselheiro de negócios" no que diz respeito aos *Discorsi*. Tudo o que está marcado como **texto** vem do original italiano; tudo o que está marcado como **interpretação** é leitura nossa ou de estudiosos, e o agente deve apresentar assim.
 >
@@ -520,7 +520,7 @@ Conferidos os 142 ensinamentos daquele arquivo (números 78 a 219) contra o orig
 
 ## 5b. Os demais 101 capítulos em detalhe
 
-**Situação da 5b:** parcial — feito até II.12 (fichas 5b.1 a 5b.45); falta de II.14 em diante.
+**Situação da 5b:** parcial — feito até II.32 (fichas 5b.1 a 5b.60); falta de II.33 em diante.
 
 **Para que serve:** com a seção 5 (41 fichas), os 142 capítulos dos *Discursos* ficam todos com ficha conferida. Aqui estão os 101 que faltavam, **na ordem do livro** (ciclo 2 da revisão, conta Zuleide, 02/11/2026).
 
@@ -799,6 +799,96 @@ Conferidos os 142 ensinamentos daquele arquivo (números 78 a 219) contra o orig
 - **Citação:** *"Conchiuggo adunque, di nuovo, che quel principe che ha i suoi popoli armati ed ordinati alla guerra, aspetti sempre in casa una guerra potente e pericolosa, e non la vadia a rincontrare: ma quello che ha i suoi sudditi disarmati, ed il paese inusitato alla guerra, se le discosti sempre da casa il più che può."* — "Concluo, portanto, de novo, que o príncipe que tem seus povos armados e preparados para a guerra espere sempre em casa uma guerra poderosa e perigosa, e não vá ao encontro dela; mas o que tem seus súditos desarmados e o país desacostumado à guerra a afaste sempre de casa o mais que puder."
 - **Exemplos:** Creso e Ciro (Tamíris); Aníbal e Antíoco; Agátocles na África; Cipião; Anteu; os suíços (fora de casa 30 a 40 mil, em casa cem mil); Fernando de Nápoles e Carlos VIII.
 - **Aplicação [Interpretação]:** se sua base de clientes é fiel e sua equipe é forte, defenda o território (atendimento, fidelização). Se é frágil, não deixe o concorrente chegar nela: vá buscar mercado fora antes que ele venha.
+
+### 5b.46 — II.14: humildade não vence a soberba
+- **Argumento (texto):** com insolentes que já te odeiam, a humildade não ajuda, prejudica. Roma, para não irritar os latinos, não os proibiu de atacar os samnitas, e a paciência romana só aumentou a arrogância latina (o pretor Ânio chegou a pedir metade do Senado). Nunca ceda por medo: se tiver de perder uma coisa, que seja tomada pela força, não entregue pelo medo da força. Exceção: com vários inimigos, devolver algo a um deles para separá-lo dos outros é prudente.
+- **Citação:** *"perché gli è meglio, quasi sempre, sendosi condotta la cosa in termine che tu non la possa lasciare nel modo detto, lasciarsela tôrre con le forze, che con la paura delle forze"* — "porque é melhor, quase sempre, tendo chegado a coisa a ponto que tu não possas deixá-la do modo dito [honradamente], deixá-la ser tomada pela força do que pelo medo da força".
+- **Exemplos:** romanos e latinos; o pretor latino Ânio.
+- **Aplicação [Interpretação]:** cliente abusivo que exige cada vez mais com ameaças (cancelar, falar mal) não se acalma com concessões: elas o encorajam. Prepare-se, mostre firmeza, e perca o cliente se for o caso, mas não por medo. Outros clientes passam a respeitar mais.
+
+### 5b.47 — II.15: os Estados fracos são ambíguos, e decisão lenta sempre prejudica
+- **Argumento (texto):** em toda deliberação é preciso ir ao ponto concreto do que se vai decidir; decidido o ânimo, as palavras se acham. A ambiguidade e a lentidão nascem de homens fracos ou de quem tem interesse em arruinar o Estado. Florença demorou a ratificar o acordo com Luís XII contra Ludovico Sforza e pagou caro.
+- **Citação:** *"Non sono meno nocive ancora le diliberazioni lente e tarde, che le ambigue; massime quelle che si hanno a diliberare in favore di alcuno amico; perché con la lentezza loro non si aiuta persona, e nuocesi a sé medesimo."* — "Não são menos nocivas as deliberações lentas e tardias que as ambíguas, sobretudo as que se devem tomar em favor de algum amigo; porque com sua lentidão não se ajuda ninguém, e prejudica-se a si mesmo."
+- **Exemplos:** o concílio dos latinos antes da guerra; Siracusa depois da morte do tirano Jerônimo (Roma ou Cartago?); Florença, Luís XII e Ludovico, o Mouro (1499).
+- **Aplicação [Interpretação]:** reunião que termina com "vamos pensar" é reunião perdida. Defina o que se vai decidir, decida e registre. A demora não agrada a ninguém: o cliente vai embora e o concorrente avança.
+
+### 5b.48 — II.16: os soldados de hoje se afastaram das ordens antigas
+- **Argumento (texto):** a batalha mais importante de Roma, contra os latinos (cônsules Torquato e Décio), mostra o segredo das três linhas romanas: hastados, príncipes e triários, cada uma podendo recolher a anterior e renovar o combate três vezes. Os exércitos modernos põem tudo numa linha só ou em blocos que correm a mesma sorte.
+- **Citação:** *"Dico, adunque, che per il testo di Livio si raccoglie come lo esercito romano aveva tre divisioni principali, le quali toscanamente si possono chiamare tre schiere"* — "Digo, portanto, que pelo texto de Lívio se percebe que o exército romano tinha três divisões principais, que em toscano se podem chamar três esquadras".
+- **Exemplos:** batalha contra os latinos perto do Vesúvio (Torquato mata o filho, Décio se sacrifica); Ravena (1512), onde morreu Gaston de Foix.
+- **Aplicação [Interpretação]:** tenha reservas: não jogue toda a equipe e todo o orçamento na primeira ação. Planeje a segunda e a terceira linha (campanha de reforço, equipe de apoio, plano B) para renovar o esforço quando a primeira cansar.
+
+### 5b.49 — II.17: quanto vale a artilharia
+- **Argumento (texto):** contra a opinião geral, a artilharia não tornou inúteis as ordens antigas. Assusta quem não está acostumado, mas um exército de virtù a supera chegando logo ao corpo a corpo. Ela serve a quem já tem virtù; sozinha, não salva ninguém.
+- **Citação:** *"Conchiuggo pertanto, venendo al fine di questo discorso, l’artiglieria essere utile in uno esercito quando vi sia mescolata l’antica virtù; ma, sanza quella, contro a uno esercito virtuoso è inutilissima."* — "Concluo, portanto, chegando ao fim deste discurso, que a artilharia é útil num exército quando nele estiver misturada a antiga virtù; mas, sem ela, contra um exército virtuoso é inutilíssima."
+- **Exemplos:** Ravena (Gaston de Foix "morreu de ferro e não de fogo"); Novara (1513, os suíços sem artilharia nem cavalos vencem os franceses); o saque de Brescia; o sultão turco contra o Sofi e o Sultão do Egito.
+- **Aplicação [Interpretação]:** ferramenta nova (IA, automação, software caro) só ajuda quem já tem bom processo e boa equipe. Sem isso, não salva a empresa. Primeiro a virtù (método, gente), depois a tecnologia.
+
+### 5b.50 — II.18: a infantaria vale mais que a cavalaria
+- **Argumento (texto):** pela autoridade romana e pelos exemplos antigos e modernos, o nervo do exército é a infantaria; a cavalaria é apoio. Os romanos às vezes desmontavam os cavaleiros para vencer. Os príncipes italianos inverteram isso e perderam tudo.
+- **Citação:** *"ma il fondamento e il nervo dello esercito, e quello che si debbe più stimare, debbano essere le fanterie"* — "mas o fundamento e o nervo do exército, e o que mais se deve estimar, devem ser as infantarias". E: *"Possono le fanterie, ordinate, facilmente rompere i cavagli, e difficilmente essere rotte da quegli."* — "As infantarias, ordenadas, podem facilmente romper as cavalarias, e dificilmente ser rompidas por elas."
+- **Exemplos:** lago Regilo; Crasso e Marco Antônio contra os partos; Novara (9 mil suíços vencem 10 mil cavalos e 10 mil infantes); Carmagnola, que desmontou seus homens de armas para vencer os suíços.
+- **Aplicação [Interpretação]:** a base da empresa é quem faz o trabalho do dia a dia (atendimento, produção), não a estrela que chama atenção. Invista primeiro na "infantaria".
+
+### 5b.51 — II.20: o perigo das tropas auxiliares e mercenárias
+- **Argumento (texto):** remete à "outra obra minha" (o *Príncipe*, XII–XIII). Das tropas, as auxiliares (mandadas por outro poder, com capitães, bandeiras e soldo dele) são as mais danosas: não te obedecem e, vendo a facilidade, tomam o que defendem. As duas legiões romanas deixadas para proteger Cápua conspiraram para tomá-la.
+- **Citação:** *"Dico pertanto, di nuovo, come di tutte l’altre qualità de’ soldati, gli ausiliari sono i più dannosi"* — "Digo portanto, de novo, que de todas as outras qualidades de soldados, os auxiliares são os mais danosos". E: *"Debbe, dunque, un principe o una republica pigliare prima ogni altro partito, che ricorrere a condurre nello stato suo per sua difesa genti ausiliarie"* — "Deve, pois, um príncipe ou uma república tomar qualquer outro partido antes de recorrer a trazer ao seu Estado, para sua defesa, gente auxiliar".
+- **Exemplos:** as legiões romanas em Cápua; os capuanos que se deram a Roma.
+- **Aplicação [Interpretação]:** entregar uma área inteira (vendas, tráfego, atendimento) a outra empresa que manda nos profissionais é arriscado: eles obedecem a ela e podem levar seus clientes. Terceirize tarefas, não o coração do negócio; e contrato com cláusula de não aliciamento.
+
+### 5b.52 — II.21: o primeiro pretor de Roma foi para Cápua, 400 anos depois
+- **Argumento (texto):** Roma deixava as terras conquistadas viverem com as próprias leis, mesmo as que se rendiam como súditas, e só mandou um pretor a Cápua depois de 400 anos de guerras, e porque Cápua pediu. Esse modo deixa o domínio leve e atrai os vizinhos. Florença, que maltratou os vizinhos, poderia ser senhora da Toscana se os tivesse "domesticado e não tornado selvagens". A força fica para o fim.
+- **Citação:** *"Non è per questo che io giudichi che non si abbia adoperare l’armi e le forze; ma si debbono riservare in ultimo luogo dove e quando gli altri modi non bastino."* — "Não é por isso que eu julgue que não se devam usar as armas e as forças; mas devem ser reservadas para o último lugar, onde e quando os outros modos não bastarem."
+- **Exemplos:** Cápua e Âncio; Pistoia, que se deu de livre vontade a Florença; Gênova sob governadores franceses.
+- **Aplicação [Interpretação]:** ao comprar uma empresa, absorver um cliente grande ou abrir parceria, deixe o outro funcionar do seu jeito o quanto possível. Impor tudo de uma vez gera resistência; quem é bem tratado indica e atrai outros.
+
+### 5b.53 — II.22: como são falsas as opiniões sobre coisas grandes
+- **Argumento (texto):** as deliberações, quando não são feitas por homens excelentes, costumam ser contrárias à verdade; e nas repúblicas corrompidas, em tempo de paz, os excelentes são afastados por inveja. Exemplos: o pretor latino Numício convenceu os latinos de que Roma estava enfraquecida, e foram destroçados; em 1515, muitos acharam que Francisco I seria derrotado em Milão, e o papa e a Espanha erraram o cálculo.
+- **Citação:** *"E perché gli eccellenti uomini nelle republiche corrotte, nei tempi quieti massime, e per invidia e per altre ambiziose cagioni, sono inimicati, si va dietro a quello che o, da uno comune inganno è giudicato bene, o, da uomini che più presto vogliono i favori che il bene dello universale, è messo innanzi."* — "E porque os homens excelentes, nas repúblicas corrompidas, sobretudo em tempos quietos, por inveja e outras razões ambiciosas, são hostilizados, segue-se aquilo que, por um engano comum, é julgado bom, ou o que é proposto por homens que querem mais os favores que o bem de todos."
+- **Exemplos:** Numício e os latinos; Francisco I, os suíços e Marignano (1515); Leão X e a Espanha.
+- **Aplicação [Interpretação]:** em fase tranquila, a empresa tende a ouvir quem agrada, não quem entende. Para decisões grandes, chame quem tem competência comprovada, mesmo que incomode, e desconfie da opinião da maioria.
+
+### 5b.54 — II.23: os romanos fugiam do meio-termo ao julgar súditos
+- **Argumento (texto):** o pior estado é não poder aceitar a paz nem sustentar a guerra. Vencidos os latinos, Camilo propôs ao Senado: ou beneficiá-los ou destruí-los; o Senado fez isso, cidade por cidade. Com os privernates, a resposta altiva de um deles valeu-lhes a cidadania. Florença errou com Arezzo e a Valdichiana em 1502, ficando no meio. O meio-termo é o erro dos samnitas nas Forcas Caudinas.
+- **Citação:** *"Di tutti gli stati infelici, è infelicissimo quello d’uno principe o d’una republica che è ridotto in termine che non può ricevere la pace o sostenere la guerra"* — "De todos os estados infelizes, o mais infeliz é o de um príncipe ou de uma república reduzido a ponto de não poder receber a paz nem sustentar a guerra". Lívio: *"Iam Latio is status erat rerum, ut neque pacem neque bellum pati possent"*.
+- **Exemplos:** Mânlio Torquato e Camilo contra os latinos; os privernates; Arezzo e a Valdichiana (1502); os samnitas que, nas Forcas Caudinas, não seguiram o conselho "daquele velho" (em III.40 ele aparece como o pai de Pôncio, capitão samnita).
+- **Aplicação [Interpretação]:** com quem te traiu (sócio, funcionário, parceiro), não fique no meio: ou reconcilia de verdade, dando motivo para lealdade, ou encerra a relação. Manter e humilhar cria inimigo de dentro. Ligação com I.26 e III.40.
+
+### 5b.55 — II.25: atacar uma cidade dividida contando com a divisão é erro
+- **Argumento (texto):** os veienses e etruscos atacaram Roma achando que a desunião entre plebe e nobreza a enfraquecia, e a guerra a uniu. A causa da desunião numa república é o ócio e a paz; a da união, o medo e a guerra. O modo certo é ganhar a confiança da cidade dividida e servir de árbitro entre as partes até que cheguem às armas.
+- **Citação:** *"E così per lo avvenire ne resterà ingannato qualunque per simile via e per simile cagione crederrà oppressare uno popolo."* — "E assim, no futuro, ficará enganado quem, por via semelhante e por causa semelhante, achar que vai oprimir um povo."
+- **Exemplos:** veienses e etruscos; Pistoia e Florença; Filippo Maria Visconti, que gastou "dois milhões de ouro" apostando nas divisões florentinas.
+- **Aplicação [Interpretação]:** atacar o concorrente que está em crise interna pode uni-lo. Mais eficaz é esperar e oferecer-se como alternativa para clientes e profissionais insatisfeitos de lá. E se sua empresa está dividida, um ataque de fora pode ser a ocasião de unir a equipe.
+
+### 5b.56 — II.26: o desprezo e o insulto geram ódio sem nenhuma utilidade
+- **Argumento (texto):** é grande prudência abster-se de ameaçar ou insultar com palavras: nenhuma das duas tira força do inimigo; uma o deixa mais cauteloso, a outra aumenta o ódio. Os romanos puniam quem insultava (Tibério Graco proibiu sob pena de morte lembrar aos escravos armados a sua servidão).
+- **Citação:** *"Io credo che sia una delle grandi prudenze che usono gli uomini, astenersi o dal minacciare o dallo ingiuriare alcuno con le parole"* — "Creio que seja uma das grandes prudências que os homens usam abster-se de ameaçar ou injuriar alguém com palavras". Tácito: *"Nam facetiae asperae, quando nimium ex vero traxere, acrem sui memoriam relinquunt"* ("as brincadeiras ásperas, quando tiram muito da verdade, deixam lembrança amarga").
+- **Exemplos:** Gabade, capitão persa, diante de Amida (irritado com os insultos dos sitiados, ficou e tomou a cidade); os veienses; Tibério Graco e os escravos armados.
+- **Aplicação [Interpretação]:** nunca ironize nem ameace concorrente, ex-funcionário ou cliente em rede social ou grupo de WhatsApp. Não ganha nada e dá motivo para revanche. Piada ofensiva com a equipe também deixa marca.
+
+### 5b.57 — II.28: o perigo de não vingar uma injúria
+- **Argumento (texto):** os três Fábios, embaixadores romanos, combateram contra os gauleses que sitiavam Chiusi; os gauleses pediram que fossem entregues, e Roma, em vez de puni-los, os fez tribunos. Os gauleses marcharam sobre Roma. Filipe da Macedônia não fez justiça a Pausânias, violentado por Átalo, e ainda promoveu Átalo; Pausânias matou Filipe.
+- **Citação:** *"che mai non debbe tanto poco stimare un uomo, che ei creda, aggiugnendo ingiuria sopra ingiuria, che colui che è ingiuriato non pensi di vendicarsi con ogni suo pericolo e particulare danno"* — "que [quem governa] nunca deve estimar tão pouco um homem a ponto de crer que, juntando injúria sobre injúria, o injuriado não pense em vingar-se com todo o perigo e dano próprio".
+- **Exemplos:** os Fábios e os gauleses (saque de Roma); Filipe, Pausânias e Átalo.
+- **Aplicação [Interpretação]:** se alguém da equipe foi desrespeitado (por colega, gestor ou cliente) e reclamou, o dono tem de agir. Ignorar, e pior, promover o agressor, transforma a raiva da vítima contra você.
+
+### 5b.58 — II.30: amizade se compra com virtù, não com dinheiro
+- **Argumento (texto):** Roma, sitiada no Capitólio, ia pagar ouro aos gauleses e Camilo chegou com o exército: Roma nunca comprou a paz. Ao contrário, os vizinhos (Marselha, os éduos, Rodes, Hierão, Eumenes, Massinissa) pagavam para ter a amizade de Roma. Florença, Veneza e o rei da França, que pagam tributo e compram terras, são fracos: desarmaram o próprio povo. Roma tinha o coração forte (o povo de Roma, os latinos, as colônias); os modernos armam as extremidades e deixam o coração sem defesa.
+- **Citação:** *"come le cose che si acquistano con l’oro, non si sanno difendere con il ferro"* — "como as coisas que se adquirem com ouro não se sabem defender com ferro". E: *"Perché, dove gli uomini hanno poca virtù, la fortuna mostra assai la potenza sua"* — "Porque, onde os homens têm pouca virtù, a fortuna mostra muito o seu poder".
+- **Exemplos:** Camilo e o ouro dos gauleses; os aliados que pagavam a Roma; Florença pagando aos senhores da Romanha; Veneza; a França tributária dos suíços e do rei da Inglaterra.
+- **Aplicação [Interpretação]:** cliente conquistado só com desconto vai embora pelo desconto do concorrente. Parceria comprada com comissão alta não defende você na crise. Fidelidade vem de entrega e reputação. E fortaleça o "coração" (equipe central, caixa), não só as pontas.
+
+### 5b.59 — II.31: como é perigoso acreditar nos exilados
+- **Argumento (texto):** quem foi expulso da pátria tem tanta vontade de voltar que acredita em muitas coisas falsas e acrescenta outras de propósito; com promessas, faz você gastar em vão ou entrar numa empresa que o arruína.
+- **Citação:** *"Debbe, adunque, uno principe andare adagio a pigliare imprese sopra la relazione d’uno confinato, perché il più delle volte se ne resta o con vergogna o con danno gravissimo."* — "Deve, pois, um príncipe ir devagar ao tomar empreitadas com base no relato de um exilado, porque na maior parte das vezes fica com vergonha ou com dano gravíssimo."
+- **Exemplos:** Alexandre de Épiro, chamado pelos exilados lucanos e morto por eles; Temístocles, que prometeu a Dario (na verdade, a Artaxerxes, segundo as fontes antigas; Maquiavel escreve "Dario") a conquista da Grécia e se envenenou por não poder cumprir.
+- **Aplicação [Interpretação]:** ex-funcionário do concorrente que promete "trazer todos os clientes de lá", ou sócio que saiu brigado de outra empresa, exageram. Confira antes de investir no que eles prometem.
+
+### 5b.60 — II.32: de quantos modos os romanos tomavam as cidades
+- **Argumento (texto):** pela força aberta (assalto ou cerco), pela força com astúcia (túneis, acordos com gente de dentro) ou pela rendição voluntária. Evitavam cercos longos e caros e desconfiavam de conspirações internas; preferiam vencer exércitos em campo, porque assim "ganhavam um reino num dia".
+- **Citação:** *"Perché nella ossidione è la lunghezza e la spesa; nella espugnazione, dubbio e pericolo; nelle congiure, la incertitudine. E viddono che con una rotta di esercito inimico acquistavano un regno in un giorno"* — "Porque no cerco há a demora e a despesa; no assalto, dúvida e perigo; nas conspirações, a incerteza. E viram que com a derrota de um exército inimigo ganhavam um reino num dia".
+- **Exemplos:** Cipião toma Cartagena num só assalto; Veios tomada por um túnel; Palépolis tomada por acordo com os de dentro; Cipião deixa Útica e busca os exércitos cartagineses.
+- **Aplicação [Interpretação]:** em vez de "sitiar" um cliente difícil por meses, ganhe o mercado vencendo onde a decisão é concentrada (um evento, um grande contrato, uma campanha decisiva). E desconfie de planos que dependem de "um contato lá dentro".
 
 <!-- fim da 5b -->
 
