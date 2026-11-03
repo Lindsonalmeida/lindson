@@ -118,8 +118,8 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 17. **Mexer na esteira de produtos** (até R$ 3.500). Motivo: "não mexa neles".
 18. **Arte criada do zero, sem modelo.** Motivo: regra "nada se cria, tudo se copia".
 19. **Rabiscos à mão, estrelas, emojis, adesivos, ícones 3D, papel rasgado e sombra 3D** nas artes do Leo. Motivo: são grafismos, proibidos desde 02/11.
-21. **Tela de app com cara de Gradio/formulário padrão** (Dublê v1, 03/11). Motivo: "o template não". Tela de app é copiada de um template premium pesquisado (régua: Sermo).
 20. **Cor da roupa trocada por edição** (deixou manchas na manga). Motivo: tem cara de amador. Realce a cor só de leve.
+21. **Tela de app com cara de Gradio/formulário padrão** (Dublê v1, 03/11). Motivo: "o template não". Tela de app é copiada de um template premium pesquisado (régua: Sermo).
 
 ## 5. Regras por cliente
 
