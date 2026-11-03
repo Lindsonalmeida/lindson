@@ -24,7 +24,7 @@ def mapa(x, y, w, cor='#BFD8FF', op=.30):
     return (f'<svg class="a" style="left:0;top:0" width="1080" height="1350"><g transform="translate({x},{y}) scale({s})">'
             f'<polygon points="{M["pts"]}" fill="{cor}" fill-opacity="{op*.5}" stroke="{cor}" stroke-opacity="{op*1.4}" stroke-width="{2/s}" stroke-linejoin="round"/></g></svg>')
 def ASSINA(fundo, pid=''):
-    lg = 'logo-marinho.png' if fundo in (AMARELO, MESH_LAR) else 'logo.png'
+    lg = 'logo-marinho-forte.png' if fundo in (AMARELO, MESH_LAR) else 'logo.png'
     return ('<div class="a pill"><img src="assets/avatar.jpg">@_leonardopinto</div>' +
             (f'<img class="a logo" src="assets/{lg}">' if pid not in ('p4-25-12', 'p6-01-01') else ''))
 def foto(arq, cx, olhos_y, olho_rec, cx_rec, esc, extra='', coberta=()):
@@ -76,14 +76,12 @@ P.append(('p3-11-12', MESH_LAR, f"""
 <div class="a" style="left:70px;top:860px">{CHIP('Cidade', MAR, 'rgba(255,255,255,.9)')}<div class="H" style="font-size:40px;color:#fff;margin-top:8px;text-shadow:0 4px 14px rgba(120,40,0,.35)">São João Batista</div></div>
 <div class="a" style="left:470px;top:1110px;width:540px;{GLASS};padding:24px 30px"><div class="K" style="font-size:46px;color:#fff">olho de engenheiro</div><div class="M" style="font-size:22px;color:#fff;margin-top:6px">a serviço do povo</div></div>"""))
 # 4 · 25/12 · AZUL · FOTO · cópia do modelo "SOU PEDRO" enviado pelo Lindson (03/11, Designi): frase repetida 3× em duas cores atrás da pessoa,
-#   pessoa no centro cortada no peito, faixa clara na base e a logo dentro da cápsula (laranja por fora, marinho por dentro)
-P.append(('p4-25-12', AZUL, f"""
+#   pessoa no centro cortada no peito, faixa clara na base; logo aplicada direto, grande, com contorno branco grosso (pedido do Lindson: sem balão) e foto de Natal quase transparente no fundo
+P.append(('p4-25-12', AZUL, f"""<img class="a" src="assets/banco-natal2.jpg" style="left:0;top:0;width:1080px;height:1010px;object-fit:cover;object-position:40% 45%;opacity:.22;mix-blend-mode:luminosity">
 <div class="a" style="left:0;width:1080px;top:160px;text-align:center">{''.join(f'<div class="H" style="font-size:228px;line-height:.86;letter-spacing:-.005em"><span style="{GRAD}">Feliz</span><span style="color:#fff">Natal</span></div>' for _ in range(3))}</div>
 <div class="a" style="left:0;top:1010px;width:1080px;height:340px;background:linear-gradient(180deg,#E9EEF8,#FFFFFF);box-shadow:0 -24px 40px -20px rgba(2,12,50,.45)"></div>
 {foto('leo-08-fino.png', 540, 600, 260, 580, .84)}
-<div class="a" style="left:190px;top:1110px;width:700px;height:170px;border-radius:999px;background:linear-gradient(90deg,#FFB020,{LAR});padding:16px;box-shadow:0 24px 40px -20px rgba(120,40,0,.6)">
- <div style="width:100%;height:100%;border-radius:999px;background:linear-gradient(90deg,{MAR},#0B3486);display:flex;align-items:center;justify-content:center;gap:26px">
-  <img src="assets/logo.png" style="height:112px"><div class="M" style="font-size:20px;line-height:1.5;color:#fff;text-align:left">Feliz Natal,<br>São João Batista</div></div></div>"""))
+<img class="a" src="assets/logo-marinho-forte.png" style="left:370px;top:1080px;width:340px;filter:drop-shadow(2.5px 0 0 #fff) drop-shadow(-2.5px 0 0 #fff) drop-shadow(0 2.5px 0 #fff) drop-shadow(0 -2.5px 0 #fff) drop-shadow(2px 2px 0 #fff) drop-shadow(-2px -2px 0 #fff) drop-shadow(0 12px 20px rgba(2,12,50,.4))">"""))
 # 5 · 31/12 · LARANJA · cópia do modelo Designi "Qual a marca da sua primeira bike?": palavra gigante atrás, cartão "Conta pra gente!" com lista numerada
 P.append(('p5-31-12', AMARELO, f"""
 <div class="a" style="left:-30px;top:880px;width:1140px;text-align:center">{H('2027', 620, 'rgba(255,255,255,.18)', 'line-height:.8')}</div>
@@ -95,16 +93,16 @@ P.append(('p5-31-12', AMARELO, f"""
 <div class="a" style="left:0;width:1080px;top:1100px;text-align:center"><span class="K" style="font-size:50px;color:#fff;text-shadow:0 4px 16px rgba(120,40,0,.4)">comenta o número aqui embaixo</span></div>"""))
 # 6 · 01/01 · AZUL · FOTO ×2 · cópia do modelo "CONTRATE · DEZEMBRO" enviado pelo Lindson (03/11, Designi): palavra repetida em pé atrás, placa emoldurada
 #   com o título no centro, duas pessoas lado a lado na frente, logo embaixo no centro. Leo "velho" (foto 30 envelhecida pelo Lindson, espelhada) olhando
-#   para 2026 e Leo "novo" (foto 19 espelhada, atrás do velho, que cobre a borda cortada) olhando para 2027: cada um para um lado.
+#   para 2026 e Leo "novo" (foto 19 espelhada) NA FRENTE e MAIOR olhando para 2027, Leo velho atrás e menor (o ano que sai): cada um para um lado.
 P.append(('p6-01-01', AZUL, f"""<img class="a" src="assets/banco-luzes.jpg" style="inset:0;width:1080px;height:1350px;object-fit:cover;opacity:.35;mix-blend-mode:screen">
 <div class="a" style="left:0;width:1080px;top:300px;text-align:center">{''.join(f'<div class="H" style="font-size:390px;line-height:.82;{GRAD}">2027</div>' for _ in range(3))}</div>
-{foto('leo-19-fino-esp.png', 780, 830, 300, 718, .53, coberta=('esquerda',))}
-{foto('leo-30-velho-fino.png', 300, 806, 300, 560, .62)}
+{foto('leo-30-velho-fino.png', 280, 760, 300, 560, .50, extra='filter:drop-shadow(0 20px 30px rgba(2,12,50,.4)) saturate(.85) brightness(.96)', coberta=('direita',))}
+{foto('leo-19-fino-esp.png', 740, 802, 300, 718, .74)}
 <div class="a" style="left:210px;top:140px;width:660px;transform:rotate(-2deg);background:#FFF6E8;border:12px solid {MAR};outline:3px solid {LAR};outline-offset:-22px;padding:30px 20px 26px;text-align:center;box-shadow:0 30px 50px -24px rgba(2,12,50,.7)">
  {H('Feliz ano novo', 104, MAR, 'line-height:.9')}<div class="L" style="font-size:19px;color:{LAR};margin-top:12px">São João Batista</div></div>
 <div class="a" style="left:70px;top:560px">{CHIP('Adeus, 2026', '#fff', 'rgba(5,49,110,.9)')}</div>
 <div class="a" style="right:70px;top:600px">{CHIP('Olá, 2027', MAR, '#FFC20E')}</div>
-<img class="a" src="assets/logo-marinho.png" style="left:410px;top:1150px;width:260px;filter:drop-shadow(0 8px 18px rgba(255,255,255,.55))">"""))
+<img class="a" src="assets/logo-marinho-forte.png" style="left:400px;top:1140px;width:280px;filter:drop-shadow(2.5px 0 0 #fff) drop-shadow(-2.5px 0 0 #fff) drop-shadow(0 2.5px 0 #fff) drop-shadow(0 -2.5px 0 #fff) drop-shadow(2px 2px 0 #fff) drop-shadow(-2px -2px 0 #fff) drop-shadow(0 12px 20px rgba(2,12,50,.4))">"""))
 secs = ''.join(f'<section class="f" id="{i}" style="background:{bg}">{c}{ASSINA(bg, i)}<div class="a" style="inset:0;background-image:url(&quot;{GRAO}&quot;);opacity:.10;mix-blend-mode:overlay;pointer-events:none"></div></section>' for i, bg, c in P)
 html = f"""<!doctype html><html><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Kaushan+Script&family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet">
