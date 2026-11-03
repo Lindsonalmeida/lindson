@@ -78,6 +78,7 @@ Três contas do Claude trabalham neste repositório como uma equipe só. Uma con
 - **Lindson** = conta `lindsonmkt`
 - **Zuleide** = conta `lindsonlopes0`
 - **Pedro** = conta `passaportedabiblia`
+- **Leandro** = conta `raposaeleaomq` (desde 03/11/2026)
 Se não der para saber, pergunte ao Lindson antes de registrar qualquer coisa.
 
 **2. Antes de qualquer pedido**, nesta ordem:

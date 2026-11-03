@@ -21,6 +21,7 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
   - **Lindson** = conta `lindsonmkt` (a primeira; tudo de 08/10 a 29/10 é dela).
   - **Zuleide** = conta `lindsonlopes0` (desde 30/10).
   - **Pedro** = conta `passaportedabiblia`.
+  - **Leandro** = conta `raposaeleaomq` (desde 03/11/2026).
 - Repositório `Lindsonalmeida/lindson`, branch principal `claude/global-agent-installation-vdyowf`.
 - O que ele vende: a esteira de produtos (5 degraus até R$ 3.500, **não mexer**) e um produto master: curso + mentoria para donos de negócio venderem no Instagram (`agencia/ofertas/`).
 - Clientes ativos: Vereador Leo Pinto, Dra. Jaci Cunha (clínica de harmonização e odontologia), Rafael Imports e Desentupidora SF (mini sites). Apple Black: só contrato, sem painel. Katje Garcez: só falas (não chamar de cliente ativa).
@@ -265,3 +266,4 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 14. **Canais dark:** faltam longos do Passaporte (01, 02, 09) e do Raposa (01, 05; 13 a 16 pausados) e subir nos apps os longos já entregues. Só retomar o Raposa quando ele mandar.
 15. **Tarefas agendadas** da conta Lindson (leads diários, cidades, notícias BOMBOU): desligadas desde 26/10. Só religar com o OK dele.
 16. **App de clone de imagem e voz** (pedido 03/11 · Pedro): uso **interno**; roda no **computador do Lindson**; clona o próprio Lindson, clientes **com termo de autorização** e personagens dos canais (domínio público). Pesquisa em `conteudo/referencias/ia-video-voz/` (HeyGen, ElevenLabs e outras ferramentas). PC: RTX 3050 4 GB, 24 GB RAM (pilha em `PLANO-DO-APP.md`). Nome e identidade (03/11): **Dublê**, grafite + violeta Eco #8B7CFF, amarelo da Central só no consentimento, fontes Geist + Manrope (`apps/clone-studio/identidade/`): **identidade APROVADA** ("a identidade visual eu gostei"). **Template Gradio REPROVADO** ("o template não"): tela v2 copiada do Sermo (Framer), `identidade/TEMPLATE.md`; aguardando OK.
+17. **Real Time, legendas v1** (03/11 · Leandro): 8 legendas do feed e figurinhas dos stories em `agencia/clientes/rt-full-jobs/instagram-v1/LEGENDAS.md`, aguardando OK. Falta confirmar a cidade e o bairro do estúdio (briefing só diz Maranhão) e conseguir falas reais de clientes para o post 05 e o story 03.

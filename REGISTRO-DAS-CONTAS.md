@@ -12,6 +12,7 @@ Toda conta ou equipe que trabalhar neste repositório acrescenta aqui uma linha 
 | Lindson | lindsonmkt (a primeira conta: tudo o que foi feito de 08/10 a 29/10/2026, antes das outras, é desta conta) |
 | Zuleide | lindsonlopes0 (sessões na nuvem do repositório `lindson`, desde 30/10/2026) |
 | Pedro | passaportedabiblia (nome dado pelo Lindson em 01/11/2026; as linhas antigas com "passaportedabiblia" são desta conta) |
+| Leandro | raposaeleaomq (conta nova; nome dado pelo Lindson em 03/11/2026) |
 
 ## Histórico antes deste registro (conta Lindson, 08/10 a 29/10/2026)
 Levantado pela conta Lindson em 01/11/2026 a partir do histórico do git e dos apps publicados. Antes de 30/10 só esta conta trabalhava no repositório.
@@ -127,3 +128,4 @@ Levantado pela conta Lindson em 01/11/2026 a partir do histórico do git e dos a
 | 03/11/2026 | Pedro | Real Time: estratégia completa 19 p. (modelo Villa, identidade da RT) e identidade v1 refeita (símbolo visor + rt + REC, wordmark realtime, 12 SVGs) com manual de marca de 20 p. no padrão premium | `agencia/clientes/rt-full-jobs/identidade/v1/` · PDF da estratégia no privado `dados/clientes-arquivos/rt-full-jobs/estrategia/` | aguardando OK |
 | 03/11/2026 | Pedro | Real Time: manual de marca refeito a partir de pesquisa de templates (VideoLab, Framer, escolhido por Alina Wheeler e Design Chief); 1ª versão com o visual do Dublê reprovada | `agencia/clientes/rt-full-jobs/identidade/v1/` (TEMPLATE.md, PDF) | aguardando OK |
 | 03/11/2026 | Pedro | Real Time: modelos de redes v1 (8 feed 4:5 + 3 stories) copiados de VideoLab, RUSHES. e LAIN/Archivr; ordem e função por Pedro Sobral | `agencia/clientes/rt-full-jobs/instagram-v1/` | aguardando OK |
+| 03/11/2026 | Leandro | Real Time: legendas blog SEO dos 8 posts do feed v1 + figurinhas e resposta pronta dos 3 stories (continuação do kit da conta Pedro) | `agencia/clientes/rt-full-jobs/instagram-v1/LEGENDAS.md` | aguardando OK; conferir cidade do estúdio |

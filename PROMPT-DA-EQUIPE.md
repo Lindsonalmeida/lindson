@@ -16,6 +16,7 @@ QUEM É QUEM
   • Lindson = conta lindsonmkt (a primeira; tudo de 08/10 a 29/10/2026 foi feito nela)
   • Zuleide = conta lindsonlopes0 (desde 30/10/2026)
   • Pedro = conta passaportedabiblia (linhas antigas com "passaportedabiblia" são do Pedro)
+  • Leandro = conta raposaeleaomq (desde 03/11/2026)
 - Descubra em qual conta você está (e-mail ou nome da conta desta sessão) e compare com a tabela "Nomes das contas" do REGISTRO-DAS-CONTAS.md. Se não der para saber, pergunte ao Lindson antes de registrar qualquer coisa.
 - As três contas são uma equipe só: uma continua o trabalho da outra ou trabalha em paralelo. Nunca refaça o que já foi feito.
 

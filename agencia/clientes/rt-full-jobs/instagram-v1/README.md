@@ -28,4 +28,4 @@ Descartados: Production House (Riana), Bake A Film (Gliff), Dei by Dani: colorid
 Regras: nunca dois posts seguidos com a mesma composição ou foto; sem preço; números só de especificação real (FX3, VESPID, STORM, Pyro 7); fotos reais (recortes dos prints; trocar por fotos em alta quando o cliente mandar).
 
 ## Como gerar
-`node gerar.js` → `artes/` (usa `modelos.html?m=1..8` e `?s=1..3`, marca e fotos de `../identidade/v1/`). Falta: legendas no padrão blog SEO (`conteudo/avaliacao-gratuita/LEGENDAS.md`).
+`node gerar.js` → `artes/` (usa `modelos.html?m=1..8` e `?s=1..3`, marca e fotos de `../identidade/v1/`). Legendas no padrão blog SEO: `LEGENDAS.md` (conta Leandro, 03/11), aguardando OK.
