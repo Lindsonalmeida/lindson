@@ -113,3 +113,4 @@ O Claude altera e publica; a Cloudflare atualiza sozinha em ~1 minuto.
 |---|---|---|
 | Rafael Imports | Lindsonalmeida/rafaelimports | https://rafaelimports.pages.dev |
 | Desentupidora SF | Lindsonalmeida/GruposSF | https://desentupidorasf.pages.dev |
+| Real Time (RT Full Jobs) | `Lindsonalmeida/realtime` | https://realtimeslz.pages.dev (site) · https://realtimeslz.pages.dev/bio/ (bio) |
