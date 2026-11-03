@@ -10,10 +10,10 @@ Pedido do Lindson (03/11): "crie nova bio, novos destaques". Parte da estratégi
 🎬 Locação de câmera, lente e luz de cinema
 🟩 Estúdio com fundo verde · Maranhão
 🎥 Produção de vídeo para marcas
-👇 Reserve seu kit no WhatsApp
+👇 Reserve seu kit pelo link
 <!-- fim -->
 
-Link: `wa.me/5598991331727` (com a mensagem "Oi! Quero reservar um kit." quando tiver o site, trocar pelo link da bio).
+Link: **https://realtimeslz.pages.dev/bio/** (mini site da bio, no ar desde 03/11; antes era `wa.me/5598991331727`).
 
 **Por que assim:** linha 1 = o que mais vende hoje (locação); linha 2 = o estúdio e onde fica; linha 3 = a frente nova (Produções); linha 4 = o próximo passo. Sem frase de efeito: as palavras que o cliente usa ("locação", "câmera", "fundo verde", "vídeo"). O emoji só marca o começo de cada linha.
 
