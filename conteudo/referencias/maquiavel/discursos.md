@@ -1,6 +1,6 @@
 # Discursos sobre a Primeira Década de Tito Lívio — base de conhecimento para o agente "Nicolau Maquiavel"
 
-**Situação:** completo — seções 1 a 8 (seção 1 pela conta Lindson; seções 2 a 5 pela conta Zuleide; seções 6 a 8 pela conta Lindson, 02/11/2026). Pendências em 8.5. **Ciclo 2 (conta Zuleide):** seção 5b (fichas dos 101 capítulos restantes) completa; tabela *Príncipe* × *Discursos* (5c) em andamento.
+**Situação:** completo — seções 1 a 8 (seção 1 pela conta Lindson; seções 2 a 5 pela conta Zuleide; seções 6 a 8 pela conta Lindson, 02/11/2026). Pendências em 8.5. **Ciclo 2 (conta Zuleide):** seção 5b (fichas dos 101 capítulos restantes) e seção 5c (tabela *Príncipe* × *Discursos*) completas.
 
 > **Para que serve este arquivo:** é a base do agente "Maquiavel conselheiro de negócios" no que diz respeito aos *Discorsi*. Tudo o que está marcado como **texto** vem do original italiano; tudo o que está marcado como **interpretação** é leitura nossa ou de estudiosos, e o agente deve apresentar assim.
 >
@@ -23,6 +23,7 @@
 4. [Livro III — capítulo por capítulo (49)](#4-livro-iii--capítulo-por-capítulo-49)
 5. [Os 41 capítulos mais importantes, em detalhe](#5-os-41-capítulos-mais-importantes-em-detalhe)
    - 5b. [Os demais 101 capítulos em detalhe](#5b-os-demais-101-capítulos-em-detalhe)
+   - 5c. [Tabela *Príncipe* × *Discursos*, capítulo por capítulo](#5c-tabela-príncipe--discursos-capítulo-por-capítulo)
 6. [Temas transversais](#6-temas-transversais)
 7. [30 frases mais fortes dos Discursos](#7-30-frases-mais-fortes-dos-discursos)
 8. [Guia rápido para o agente](#8-guia-rápido-para-o-agente)
@@ -1141,6 +1142,44 @@ Conferidos os 142 ensinamentos daquele arquivo (números 78 a 219) contra o orig
 
 <!-- fim da 5b -->
 
+## 5c. Tabela *Príncipe* × *Discursos*, capítulo por capítulo
+
+**Para que serve:** para cada capítulo do *Príncipe*, os capítulos dos *Discursos* que tratam do mesmo assunto, **onde concordam** e **onde divergem**. Complementa a tabela por temas da 6.15 (que fica como resumo). Ciclo 2 da revisão (conta Zuleide, 02/11/2026).
+
+**Como ler:** "concordam" e "divergem" resumem o **texto** dos dois livros (fichas na seção 5, 5b e em `principe.md`); a explicação da diferença, quando há, vem marcada **[Interpretação]**. Remissões explícitas de Maquiavel de um livro ao outro (conferidas no italiano): *Príncipe* II → repúblicas tratadas "em outra ocasião" (*"altra volta ne ragionai a lungo"*); *Discursos* II.1 → *"nel nostro trattato de’ Principati"* (= *Príncipe* III); II.20 → *"in altra mia opera"* (= *Príncipe* XII–XIII); III.19 → *"in altro trattato sopra questa materia"* (= *Príncipe* XVII, não ser odiado/não tocar nos bens); III.42 → *"nel nostro trattato De Principe"* (= *Príncipe* XVIII).
+
+| *Príncipe* | Tema | *Discursos* correspondentes | Onde concordam | Onde divergem |
+|---|---|---|---|---|
+| Dedicatória | A quem se oferece o livro | Dedicatória (Zanobi Buondelmonti e Cosimo Rucellai) | Os dois oferecem "o que sei" da experiência e da leitura dos antigos. | O *Príncipe* é dedicado a quem tem o poder (Lourenço de' Medici); os *Discursos*, a amigos sem poder, "que mereceriam ser príncipes" (ver 1.3). [Interpretação: um é pedido de emprego, o outro conversa entre iguais.] |
+| I | Tipos de principado e como se adquirem | I.1, I.2 | A origem (como se nasce ou se adquire) decide muito do futuro. | O *Príncipe* só classifica principados; os *Discursos* põem o principado como uma das seis formas do "círculo" e preferem a forma mista (5.1). |
+| II | Principados hereditários | III.5 | O príncipe que herda só perde o Estado se romper os modos e costumes antigos (*Discursos* III.5: Tarquínio Soberbo perdeu por quebrar as leis do reino). | Nenhuma de fundo. O *Príncipe* II remete às repúblicas tratadas "em outra ocasião", base do debate sobre a data dos *Discursos* (1.2). |
+| III | Principados mistos: colônias, ir morar, não deixar crescer estrangeiro poderoso, os romanos como modelo | II.1 (remete ao *Príncipe*), II.4, II.6, II.7, II.19, II.21, II.23, III.4 | Colônias em vez de guarnições (II.6–II.7); os romanos como modelo de quem conquista; fugir do meio-termo com os conquistados ("acariciar ou extinguir" no *Príncipe*; "beneficiar ou destruir" em II.23); quem foi despojado continua perigoso (III.4). | Os *Discursos* preferem o modo de **aliados sob sua liderança** (II.4) e deixar as cidades com suas leis (II.21); o *Príncipe* III trata do domínio direto do príncipe novo. [Interpretação: república expande por associação; príncipe, por posse.] |
+| IV | Por que o reino de Dario não se rebelou contra os sucessores de Alexandre (Turco × França) | I.16, I.17, III.8 | O hábito dos povos (servir a um senhor ou viver livre) decide se a conquista se mantém fácil ou difícil. | Sem capítulo equivalente direto nos *Discursos*: o *Príncipe* IV compara estruturas de reino (um senhor com servos × rei com barões); os *Discursos* falam de **matéria corrompida ou não** (I.17, III.8). |
+| V | Cidades que viviam com leis próprias | I.16, I.17, II.2, II.21, II.23 | A memória da liberdade torna difícil manter uma cidade livre conquistada (II.2: os povos amam a liberdade e odeiam quem a tira). | O *Príncipe* V diz que o modo mais seguro é destruí-las ou ir morar nelas; os *Discursos* elogiam Roma por deixar as cidades com suas leis (II.21) e só falam em destruir dentro da alternativa "beneficiar ou destruir" (II.23). |
+| VI | Principados novos com armas próprias e virtù (Moisés, Ciro, Rômulo, Teseu); "profetas armados" | I.1, I.9, I.10, I.11, III.30 | O fundador precisa estar só e ter força; Moisés teve de matar os que se opunham por inveja (III.30); Savonarola, "profeta desarmado", caiu (III.30 e *Príncipe* VI). | Os *Discursos* exigem que o fundador **deixe depois o Estado a muitos** (I.9) e separam glória e infâmia (I.10); Numa (fundador pela religião, I.11) não aparece no *Príncipe*. |
+| VII | Principados novos com armas e fortuna alheias (César Bórgia) | I.26, I.27, III.29, II.24 | A Romanha era cheia de crimes por culpa dos senhores (III.29); quem não sabe ser "honradamente mau" perde a ocasião (I.27, Baglioni). | Bórgia é o modelo no *Príncipe*; nos *Discursos* quase não aparece (só em II.24 e, como "duque Valentino", em I.38 e III.27). Os *Discursos* chamam o método de fazer tudo novo de *"crudelissimi"* e mandam fugir dele (I.26). |
+| VIII | Os que chegaram ao principado por crimes (Agátocles, Oliverotto); crueldade bem e mal usada | I.45, II.13, I.10, III.6 | Ofender de uma vez e beneficiar aos poucos (I.45 = VIII); Agátocles subiu de baixa fortuna com fraude (II.13). | O *Príncipe* VIII diz que crime não é virtù e não dá glória; os *Discursos* I.10 dizem o mesmo com mais força (tiranos são infames). Divergência só de ênfase. |
+| IX | Principado civil; povo × grandes | I.4, I.5, I.16, I.40, I.58 | Dois humores: os grandes querem oprimir, o povo quer não ser oprimido; o fim do povo é mais honesto (IX = I.5); quem sobe com o povo deve mantê-lo amigo (I.40, Ápio). | No *Príncipe*, o príncipe escolhe em quem se apoiar; nos *Discursos*, o conflito entre os humores **gera a liberdade** (I.4) e o povo é o melhor guardião (I.5) e mais sábio que o príncipe (I.58). |
+| X | Como medir as forças de um principado; cidade bem fortificada e povo abastecido | II.12, II.30, III.10 | Valer-se das próprias forças; quem tem povo armado espera a guerra em casa (II.12); armar o "coração" do Estado (II.30). | Nenhuma de fundo. O *Príncipe* X elogia as cidades alemãs fortificadas; os *Discursos* falam das repúblicas alemãs (I.55, II.19) pela **bondade e religião** do povo, não pelos muros. |
+| XI | Principados eclesiásticos | I.11–I.15, I.12, II.2 | A religião sustenta Estados (os principados eclesiásticos "se mantêm sozinhos"). | O *Príncipe* XI é irônico e cauteloso (Leão X, um Medici, era papa); os *Discursos* I.12 acusam a Igreja de ter arruinado a Itália e de mantê-la dividida, e II.2 critica a educação cristã "ociosa". |
+| XII–XIII | Milícias mercenárias, auxiliares, mistas e próprias | I.21, I.43, II.10, II.18, II.20 (remete ao *Príncipe*), II.30, III.13, III.38 | Mesma tese: armas próprias; auxiliares são as piores (II.20 = XIII). | Os *Discursos* acrescentam que a falta de soldados é culpa do governante (I.21, III.38), que quem luta pela própria glória é fiel (I.43), que dinheiro não é o nervo da guerra (II.10) e que a infantaria vale mais que a cavalaria (II.18). |
+| XIV | O príncipe e a arte da guerra; a caça para conhecer o terreno | III.39 | Praticamente igual: conhecer os lugares pela caça; Xenofonte e Ciro. | O *Príncipe* XIV usa Filopêmene; os *Discursos* III.39 usam Públio Décio. |
+| XV | A "verdade efetiva": vícios e virtudes | I.3, I.27, III.41 | Realismo: legislar presumindo os homens maus (I.3); na salvação da pátria não se olha justo ou injusto (III.41). | Os *Discursos* dão muito mais lugar a virtudes cívicas (religião, pobreza, amor à pátria: I.11, III.25, III.47). |
+| XVI | Liberalidade e parcimônia | I.32, I.51, II.6, III.19, III.23, III.25 | Não tirar os bens dos governados (III.19, III.23); fazer parecer generosidade o que é necessidade (I.51); não deixar o benefício para a crise (I.32). | O *Príncipe* trata da parcimônia **do príncipe**; os *Discursos* da **pobreza dos cidadãos** e do erário rico (III.25, II.6). |
+| XVII | Crueldade e piedade; ser amado ou temido | III.19 (remete a "outro tratado"), III.20, III.21, III.22, I.29 | Evitar o ódio; não tocar nos bens dos súditos (III.19); Aníbal e Cipião (III.21 = XVII). | O *Príncipe* conclui que é mais seguro ser temido; os *Discursos* III.21 dizem que os dois caminhos funcionam com grande virtù, e III.22 diz que **para um príncipe** o modo humano de Valério (amor) é melhor, e que a dureza de Mânlio é mais útil num **cidadão** de república. |
+| XVIII | A palavra dada; a raposa e o leão | II.13, III.40, III.42 (remete ao *Príncipe*) | Promessas forçadas não obrigam (III.42); sobe-se mais pela fraude que pela força (II.13). | III.40 limita: a fraude é gloriosa **na guerra**, mas não a que faz quebrar a palavra dada e os pactos; o *Príncipe* XVIII admite que o príncipe não cumpra a palavra quando isso o prejudicar. |
+| XIX | Evitar o desprezo e o ódio; conspirações; imperadores romanos | III.6, III.4, III.5, I.10, I.16 | Quem não é odiado pelo povo raramente sofre conspiração (III.6 = XIX); quem rompe leis antigas cai (III.5). | O *Príncipe* XIX elogia a virtù de Severo ("leão e raposa"); os *Discursos* I.10 o chamam de *"scelerato"*, salvo só por "grandíssima fortuna e virtù". III.6 é o tratamento mais longo das conspirações, também do ponto de vista de quem conspira. |
+| XX | Fortalezas, desarmar súditos, nutrir facções | II.24, III.27, I.16 | A melhor fortaleza é não ser odiado (II.24 = XX); dividir os próprios súditos é fraqueza (III.27 = XX). | O *Príncipe* XX admite fortalezas "conforme os tempos"; os *Discursos* II.24 concluem que fazem mais mal que bem, em geral. |
+| XXI | Como ganhar estima; contra a neutralidade | II.15, I.38, II.23, II.22 | Ambiguidade e meio-termo prejudicam; decisões lentas sempre fazem mal (II.15 = XXI). | Nenhuma de fundo. Os *Discursos* acrescentam a causa institucional: repúblicas e Estados fracos decidem devagar (I.38, II.15). |
+| XXII | Os secretários (ministros) do príncipe | III.34, I.47, I.60 | Julga-se alguém pelas companhias: o *Príncipe* XXII ("a primeira conjectura do cérebro de um senhor é ver os homens que tem ao redor") e III.34 (*"nessuno indizio si può avere maggiore d’un uomo, che le compagnie"*). | Os *Discursos* dizem que o **povo** escolhe magistrados melhor que o príncipe (I.47, III.34). |
+| XXIII | Fugir dos aduladores; pedir conselho | III.35, I.58 | Conselho deve ser dado com franqueza e cálculo dos riscos (III.35). | O *Príncipe* quer o príncipe decidindo sozinho depois de ouvir poucos sábios; os *Discursos* I.58 defendem que a multidão regrada é mais sábia e constante que o príncipe. |
+| XXIV | Por que os príncipes da Itália perderam seus Estados | I.12, I.21, II.18, II.30, III.31 | Falta de armas próprias e de amizade do povo. | O *Príncipe* culpa a "ignávia" dos príncipes; os *Discursos* culpam também a Igreja (I.12), a educação (II.2) e as ordens de cada Estado. |
+| XXV | A fortuna; adaptar-se aos tempos | II.1, II.29, II.30, III.9, III.31 | A fortuna manda onde há pouca virtù (II.30); é preciso adaptar-se aos tempos, mas os homens não mudam de natureza (III.9 = XXV). | No *Príncipe*, o remédio é o ímpeto ("a fortuna é mulher"); nos *Discursos* III.9, a república se adapta melhor porque **troca de homens** (Fábio, depois Cipião); II.1 dá a grandeza de Roma à virtù, não à fortuna. |
+| XXVI | Exortação a libertar a Itália dos bárbaros | Proêmio I, I.12, II.2, III.43 | A Itália pode se reerguer imitando os antigos e com armas próprias. | O *Príncipe* espera **um** redentor; os *Discursos* apostam em ordens, leis e repúblicas que durem além de um homem (I.9, I.11, I.20). |
+
+**Resumo [Interpretação nossa]:** os dois livros **não se contradizem nas técnicas** (armas próprias, não ser odiado, fugir do meio-termo, ofender de uma vez, adaptar-se aos tempos). Divergem no **ponto de vista e no fim**: o *Príncipe* fala a um homem que precisa conquistar e manter; os *Discursos*, a quem quer que uma ordem dure além de um homem. Onde divergem de fato (Severo, amado × temido, fraude e palavra dada, fortalezas, sabedoria do povo), os *Discursos* são mais restritivos. O agente usa o *Príncipe* para o "como agir agora" e os *Discursos* para o "como fazer durar" (ver 8.1).
+
+
 ---
 
 ## 6. Temas transversais
@@ -1246,6 +1285,8 @@ Conferidos os 142 ensinamentos daquele arquivo (números 78 a 219) contra o orig
 - **No negócio [Interpretação]:** é o método do agente (caso antigo + caso moderno + aplicação), com o cuidado de Guicciardini: o caso parecido ilumina, não decide.
 
 ### 6.15 Tabela de correspondências: *Discursos* × *Príncipe*
+
+> Resumo por temas. A tabela completa, capítulo por capítulo do *Príncipe*, com concordâncias e divergências, está na **5c** (ciclo 2).
 
 | Tema | *Discursos* | *Príncipe* | Diferença de tom (texto + [Interpretação]) |
 |---|---|---|---|
@@ -1377,7 +1418,7 @@ Conferidos os 142 ensinamentos daquele arquivo (números 78 a 219) contra o orig
 **Texto e edições:**
 1. **Edição crítica:** o Wikisource segue a tradição de 1531; falta conferir linha a linha com **Bausi** (Edizione Nazionale, 2001) e **Inglese** (BUR, 1984) as 30 frases da seção 7 (grafia e variantes).
 2. **III.1, *"ripiglio"*** (provável erro de transcrição do Wikisource por *ripiglino*): confirmar em Bausi/Inglese.
-3. **101 capítulos sem ficha detalhada** (só nas tabelas das seções 2 a 4): fazer fichas, por prioridade, de I.1, I.16 (parte final), I.40–I.42 (decênviros), I.49, I.52, II.3–II.4, II.12, II.23, III.2, III.12, III.22, III.30, III.34, III.44, III.49.
+3. ~~101 capítulos sem ficha detalhada~~ → **resolvido no ciclo 2** (conta Zuleide): seção 5b, 101 fichas com citação conferida; tabela capítulo a capítulo *Príncipe* × *Discursos* na 5c.
 4. **Fontes antigas** que Maquiavel cita (Lívio, Políbio VI, Tácito, Xenofonte, Plutarco): não conferidas no original grego/latino nesta frente; ex.: Lívio VII.32 (III.38), Lívio IX (Forcas Caudinas, III.41), Políbio VI (I.2).
 
 **Traduções (comparar nas frases polêmicas I.9, I.26, II.13, III.41, III.42):**
