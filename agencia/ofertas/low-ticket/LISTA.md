@@ -8,6 +8,8 @@ Juntei, sem repetir, as duas listas feitas pelos agentes:
 
 O detalhe de cada produto está nesses dois arquivos: público, arquivo de origem no repositório e faixa de preço sugerida. Os preços são sugestão; os da esteira não mudam. Entre colchetes vai o número do produto em cada arquivo: **M** = maquiavel.md, **H** = hormozi.md.
 
+**Ordem por grau de venda (0 a 100): `RANKING.md`.**
+
 **Total: 128 opções:** 118 produtos, 10 serviços-relâmpago e 11 kits.
 
 ## 1. Perfil e conteúdo (para dono de negócio)
