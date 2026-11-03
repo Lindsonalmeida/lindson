@@ -10,7 +10,7 @@ App do Lindson para clonar voz (e, na etapa 2, rosto) **só com autorização**.
 - **Biblioteca:** cadastra Lindson, clientes e personagens, com amostra de voz, termo assinado, vídeo de consentimento, validade e fonte.
   - **Trava:** cliente e Lindson só geram com termo + vídeo de consentimento em dia.
   - Personagem só gera com a fonte registrada.
-- **Voz:** texto → voz clonada em português (Chatterbox Multilingual, MIT), frase a frase, com a humanização do `voz_humana.py` (variação, pausas, respiração, som de estúdio). O áudio sai em `dados/saidas/`.
+- **Voz:** texto → voz clonada em português (Chatterbox Multilingual, MIT), frase a frase, no padrão **limpa e fluida** pedido pelo Lindson em 03/11 (pausas curtas, sem respiração artificial nem eco, chiado e estalos do modelo cortados, redução de ruído leve). Identidade: o motor escolhe sozinho o melhor trecho de 10 s da amostra e usa a média da voz em toda a amostra (quanto mais áudio, melhor; ver `conteudo/referencias/ia-video-voz/teste/EXPERIMENTO-SEMELHANCA.md`). O áudio sai em `dados/saidas/`.
 
 ## Próximas etapas
 1. Vídeo: boca sincronizada no vídeo base (MuseTalk 1.5, fp16, cabe nos 4 GB).
