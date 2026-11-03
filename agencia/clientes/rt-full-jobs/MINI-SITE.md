@@ -5,7 +5,7 @@ Seguiu o processo `agencia/processos/mini-site-cliente.md` e o método dos mini 
 ## Onde está
 - **Rascunho do site:** `/home/user/realtime-site` (git local, branch `main`, ainda sem repositório no GitHub). O site **não** fica neste repositório `lindson`.
 - **Cópia de segurança:** repositório privado `CentralLindsonALmeida/dados/clientes-arquivos/rt-full-jobs/mini-site/`. Prints do teste (390 e 1280 px): `.../rt-full-jobs/mini-site-prints/`.
-- **Link previsto:** https://realtime.pages.dev (confirmar quando a Cloudflare criar o projeto; se o nome mudar, trocar `realtime.pages.dev` no `index.html`, `robots.txt` e `sitemap.xml`).
+- **Link previsto:** https://realtimeslz.pages.dev (confirmar quando a Cloudflare criar o projeto; se o nome mudar, trocar `realtime.pages.dev` no `index.html`, `robots.txt` e `sitemap.xml`).
 
 ## O que tem
 - **Marca nova v1** (conta Pedro, `identidade/v1/`): assinatura e símbolo em SVG de `marca/`, cores e fontes do manual (Geist, Geist Mono, Manrope; Preto Set, Branco Luz, Azul Real, vermelho só no REC). Composição do template **VideoLab** (Framer), o mesmo do manual: foto no visor com cantos, REC, HD/4K, timecode e títulos em 2 tons. A logo recortada do print **não** é mais usada.
@@ -25,12 +25,12 @@ Seguiu o processo `agencia/processos/mini-site-cliente.md` e o método dos mini 
 
 ## Situação (03/11, conta Leandro)
 - Repositório `Lindsonalmeida/realtime` criado pelo Lindson (**público**; o processo pede privado: dá para trocar em Settings → Change visibility, a Cloudflare continua funcionando).
-- Rascunho enviado para a branch `main` pela conta Leandro, sem mudanças. **Próximo: passo 4 (Cloudflare).**
+- Rascunho enviado para a branch `main` pela conta Leandro, sem mudanças. Projeto na Cloudflare: **`realtimeslz`** (03/11, Lindson) → **https://realtimeslz.pages.dev**; links do site trocados.
 
 ## Passos do Lindson
 1. Criar o repositório vazio e **privado** em github.com/new, na conta `Lindsonalmeida`, com o nome do cliente sem espaço nem acento (sugestão: `realtime`).
 2. Liberar o app do Claude para esse repositório (All repositories).
 3. Mandar no chat: "Repositório Lindsonalmeida/realtime criado, pode publicar." O Claude envia o rascunho de `/home/user/realtime-site` (ou da cópia no privado) para a branch `main`.
-4. Cloudflare: Workers e Pages → Criar → Pages → Importar repositório → Project name `realtime` → branch `main` → framework `None` → build vazio → Save and Deploy. Se o nome já existir, usar `realtimeslz` ou `realtimefulljobs` e avisar para trocar os links.
+4. Cloudflare: Workers e Pages → Criar → Pages → Importar repositório → Project name `realtimeslz` → branch `main` → framework `None` → build vazio → Save and Deploy. Se o nome já existir, usar `realtimeslz` ou `realtimefulljobs` e avisar para trocar os links.
 5. Testar no celular (botões, mensagens, Instagram, fotos) e pôr o link na bio do Instagram (no lugar do `wa.me` da bio nova).
 6. Depois de publicado, atualizar "Clientes ativos" em `agencia/processos/mini-site-cliente.md`.
