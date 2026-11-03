@@ -178,3 +178,33 @@ Tudo comparado; o que foi levado e o que ficou de fora (e por quê) está regist
 | Data da carta de Manetti | Marchand: "28 febbraio 1525"; DBI: "28 febbr. 1526" | ano florentino provável (1525 fl. = 1526) | *Enc. mach.*; DBI |
 
 Já corrigidas por esta frente (fato novo de fonte primária ou verbete de referência): morte de Vettori (1540), contagem de cartas recebidas (c. 250), adjetivos de Spinoza (todos em V.7).
+
+---
+
+## Ciclo 2 — ensinamentos (conta Zuleide, 03/11/2026)
+
+**Situação:** partes 1 e 2 concluídas; parte 3 (índice por situação) em andamento.
+
+### Parte 1 — ensinamentos que faltavam nos 248
+- **Arquivo novo:** `../ensinamentos-complementares.md`, **392 ensinamentos (249–640)**, mesmo esquema do arquivo dos 248 ampliado: lição em uma frase, referência exata, citação italiana conferida e aplicação de negócio marcada **[Interpretação nossa]**.
+- **Cobertura:** *História de Florença* 249–411 (Proêmio + 8 livros; todos os capítulos teóricos e de discurso, e os narrativos que têm lição; a lista dos capítulos só narrativos ficou nas lacunas do arquivo); *Arte da Guerra* além das 27 regras 412–468 (Proêmio e os 7 livros); legações e escritos políticos 469–517 (Pisa, *Parole da dirle*, Valdichiana, *Descrizione*, França, Alemanha, Siena, Roma, Ímola, Urbino, *Ordinanza*, *Ai Palleschi*, *Discursus*, Lucca, *Istruzione a Girolami*, sermão); cartas 518–552 (Becchi, *Ghiribizzi*, Vettori 1513–1527, Guicciardini 1521–1526, Guido); literatura 553–625 (*Mandrágora*, *Clízia*, *Andria*, *Belfagor*, *Asno*, *Decenais*, os quatro *Capitoli*, cantos, sonetos, estâncias, epigrama, *Vida de Castruccio* e sentenças, *Discurso sobre a língua*); vida 626–640.
+- **Conferência:** `conferir_citacoes.py` rodado no arquivo a cada lote (tabelas gerais restauradas depois, para não misturar com o relatório do ciclo 1): 398 trechos exatos (5 só em texto secundário), 13 iguais salvo grafia, 0 errados. Duas grafias corrigidas antes do commit (*defende* → *difende*, II.37 e IV.5). Paráfrases não conferidas ficaram marcadas (550, 582); fonte secundária marcada (539, 640).
+
+### Parte 2 — conferência das tabelas "como aplicar num negócio"
+Lidas inteiras: `discursos.md` seções 2–4 (142 linhas) e 8.2; `historia-de-florenca.md` seções 2.0–2.8, 3.1–3.8, 4.1–4.5 e 5.3–5.4. Correções (marcadas no texto com **[Correção ciclo 2]**):
+
+| # | Arquivo e lugar | Problema | Correção |
+|---|---|---|---|
+| 1 | `discursos.md` III.12 | "equipe sem plano B" contradiz I.22–23 (não arriscar toda a fortuna) e pode virar ameaça de demissão | equipe sabe que o resultado depende dela; a empresa mantém reservas; nunca necessidade falsa (assédio moral) |
+| 2 | `discursos.md` I.57 | "trate individualmente" a revolta coletiva podia ser lido como desmontar organização de funcionários (conduta antissindical) | ouvir porta-vozes e resolver causas; respeitar Constituição arts. 8º e 9º |
+| 3 | `discursos.md` III.44 | proposta com prazo curto sem freio podia virar "só hoje" falso | prazo real; prazo falso ao consumidor é publicidade enganosa (CDC art. 37) |
+| 4 | `discursos.md` I.44 | "não revele o que fará" sem limite | boa-fé contratual (Código Civil art. 422) |
+| 5 | `discursos.md` II.25 | "ganhar os insatisfeitos" do concorrente sem limite | como árbitro, com oferta melhor, sem informação confidencial (Lei 9.279/96 art. 195) |
+| 6 | `discursos.md` III.3 | afastar sabotador sem limite | dentro da lei trabalhista e do contrato |
+| 7 | `discursos.md` I.30 | "sair e abrir o próprio negócio" sem limite | sem levar clientes nem dados |
+| 8 | `historia-de-florenca.md` 2.3 (III.13) | "divida e acalme logo, como Michele di Lando": "dividir" não está no texto (Michele deu representação às Artes novas e depois conteve a plebe) e contradiz *Discursos* III.27 | atender o justo e recusar o excesso; nunca jogar grupos uns contra os outros |
+| 9 | `historia-de-florenca.md` 3.3 | "separar os casos" (mesmo problema) | ouvir representantes; respeitar organização coletiva legal |
+| 10 | `historia-de-florenca.md` 5.4 | "dividir e resolver rápido" | "atender o justo e resolver rápido" |
+| 11 | `historia-de-florenca.md` 4.4 e 5.4 (VIII.36) | "o banco quebrava/quebrou" exagera o texto («quanto alla mercanzia, infelicissimo»; a cidade o socorreu); a quebra do banco Médici é de 1494 | "ia mal, a ponto de a cidade socorrê-lo" |
+
+Nenhuma outra aplicação contradiz o texto: as demais 135 linhas dos *Discursos* e as tabelas da *História* foram conferidas contra as teses de cada capítulo e já traziam freio onde o texto é duro (I.9, I.26, I.27, II.13, III.41, III.42). A seção 5b de `discursos.md` (fichas detalhadas, frente paralela em andamento) não foi tocada.

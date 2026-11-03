@@ -332,7 +332,7 @@ Pontos principais (conferidos no italiano):
   - III.23 — Benedetto Alberti: «sempre così avvenne a coloro i quali intra molti cattivi vogliono essere buoni» — "sempre aconteceu assim aos que, entre muitos maus, querem ser bons" (eco de *O Príncipe* XV).
 - **Como aplicar num negócio hoje:**
   - **Roma × Florença (III.1):** briga interna boa termina numa **regra nova** que vale para todos (política de comissão, processo, contrato); briga ruim termina com **alguém expulso** e a regra feita "a favor do vencedor". Se toda discussão na equipe acaba em demissão, a empresa vai ficar "humilde e abjeta": só sobra quem não discorda.
-  - **Ciompo (III.13):** quem está sem saída (funcionário ameaçado de demissão, fornecedor que não recebe, cliente lesado) raciocina como o Ciompo: dobra a aposta, junta mais gente, ataca enquanto os outros estão divididos. Não deixe ninguém "sem nada a perder"; e quando houver revolta, **divida e acalme logo**, como Michele di Lando.
+  - **Ciompo (III.13):** quem está sem saída (funcionário ameaçado de demissão, fornecedor que não recebe, cliente lesado) raciocina como o Ciompo: dobra a aposta, junta mais gente, ataca enquanto os outros estão divididos. Não deixe ninguém "sem nada a perder"; e quando houver revolta, **atenda logo o que é justo e recuse com firmeza o excesso**, como Michele di Lando (que deu representação às Artes novas e depois conteve a própria plebe, III.16–17). Nunca jogar grupos uns contra os outros (*Discursos* III.27) nem tentar desfazer organização coletiva legal de funcionários. **[Correção ciclo 2: "divida" não está no texto e soava como dividir para reinar]**
   - **Luigi Guicciardini (III.11):** concessão sem limite a cliente ou funcionário abusivo só aumenta as exigências. Defina antes até onde vai.
 
 ---
@@ -591,7 +591,7 @@ Pontos principais (conferidos no italiano):
   - **Leitura republicana/social (Najemy, McCormick):** Maquiavel leva a sério as razões dos pobres, mas mostra que, sem instituições, a revolta vira só outra facção.
   - Em todas: Maquiavel **elogia Michele di Lando** (III.17) por ter contido a plebe; o regime da plebe é chamado de «puzzo della plebe».
 - **Erro comum:** atribuir o discurso a Michele di Lando (ver 1.11).
-- **Uso no negócio:** entender a cabeça de quem não tem nada a perder (ex.: ex-funcionário processando, cliente lesado em grupo, grupo de WhatsApp de clientes revoltados). Não humilhar, não deixar sem saída, separar os casos, resolver rápido.
+- **Uso no negócio:** entender a cabeça de quem não tem nada a perder (ex.: ex-funcionário processando, cliente lesado em grupo, grupo de WhatsApp de clientes revoltados). Não humilhar, não deixar sem saída, ouvir os representantes, resolver rápido (sem tentar desfazer organização coletiva legal). **[Correção ciclo 2]**
 
 ### 3.4 Condottieri e as batalhas "sem mortos" (Anghiari, Molinella)
 
@@ -706,7 +706,7 @@ Pontos principais (conferidos no italiano):
   - caráter: «nel discorrere le cose eloquente e arguto, nel risolverle savio, nello esequirle presto e animoso»; vícios: «nelle cose veneree maravigliosamente involto», gostava de gente zombeteira e de jogos infantis com os filhos — «si vedeva in lui essere due persone diverse, quasi con impossibile coniunzione congiunte» ("viam-se nele duas pessoas diferentes, unidas numa junção quase impossível");
   - morte em abril de 1492, aos 44 anos; o raio na cúpula; "nenhum morreu com tanta fama de prudência".
 - **[Interpretação: Varotti]** o retrato alimenta o mito, então em formação, de Lorenzo "artífice da paz italiana".
-- **Para o agente:** Lorenzo ensina (1) coragem pessoal na negociação, (2) rede de aliados pagos como defesa, (3) o perigo de deixar a empresa de origem (o banco) nas mãos de gestores que agem "como príncipes": o império político cresceu enquanto o negócio de base quebrava. Lição direta para um dono de agência que vira "figura pública" e descuida do caixa.
+- **Para o agente:** Lorenzo ensina (1) coragem pessoal na negociação, (2) rede de aliados pagos como defesa, (3) o perigo de deixar a empresa de origem (o banco) nas mãos de gestores que agem "como príncipes": o império político cresceu enquanto o negócio de base ia mal (a cidade teve de socorrê-lo com dinheiro, VIII.36; o banco Médici só quebrou em 1494, depois da morte dele). **[Correção ciclo 2: "quebrava" exagerava o texto]** Lição direta para um dono de agência que vira "figura pública" e descuida do caixa.
 
 ### 4.5 Outros retratos e perfis curtos
 
@@ -810,11 +810,11 @@ Pontos principais (conferidos no italiano):
 | Vai cobrar dívidas antigas de clientes ou cortar benefícios de uma vez | o erro de Piero e Dietisalvi: o "correto" pode destruir a base | VII.10–11 (2.7; 4.3) |
 | Quer fechar parceria com outra agência do mesmo porte e mesmo nicho | "parentado sim, amizade não": contrato claro, sem esperar lealdade | VI.9 (5.2 nº 23) |
 | Campanha deu certo por sorte / deu errado com boa estratégia | avaliar a decisão, não só o resultado | IV.7 (5.2 nº 14–15) |
-| Cliente ou funcionário encurralado (sem pagamento, ameaçado) | não deixar sem saída; dividir e resolver rápido | II.14; III.13 (3.3) |
+| Cliente ou funcionário encurralado (sem pagamento, ameaçado) | não deixar sem saída; atender o justo e resolver rápido (correção ciclo 2) | II.14; III.13 (3.3) |
 | Ex-sócio ou ex-funcionário que saiu brigado | vai ao concorrente com argumentos "justos"; tratar bem quem sai | V.8 (2.5) |
 | Parceiro que controla toda a relação com o cliente | é o Sforza: o terceirizado que toma o negócio | VI.1, 20–24 (2.6) |
 | Quer ser a referência local sem pedir cargo | modelo Giovanni di Bicci e Cosimo: servir, não ofender, vida simples à vista | IV.16; VII.5 (4.1; 4.2) |
-| A agência cresceu e o dono está "dono de tudo" | lição de Lorenzo: o império político cresceu e o banco quebrou; cuidar do caixa | VIII.36 (4.4) |
+| A agência cresceu e o dono está "dono de tudo" | lição de Lorenzo: o império político cresceu e o banco ia mal, a ponto de a cidade socorrê-lo; cuidar do caixa | VIII.36 (4.4) |
 | Promessa alta na venda | expectativa extraordinária vira desonra | VII.14 (2.7) |
 | Equipe cansada de um cliente tóxico | "esta cidade está cansada": fazer a paz a tempo | VIII.17 (2.8) |
 | Assumir a gestão de um cliente cuja diretoria briga | "vencendo ninguém te louva, perdendo todos te caluniam": exigir mandato e um só interlocutor | IV.22 (5.2 nº 18) |
