@@ -1,6 +1,6 @@
 # Discursos sobre a Primeira Década de Tito Lívio — base de conhecimento para o agente "Nicolau Maquiavel"
 
-**Situação:** completo — seções 1 a 8 (seção 1 pela conta Lindson; seções 2 a 5 pela conta Zuleide; seções 6 a 8 pela conta Lindson, 02/11/2026). Pendências em 8.5. **Ciclo 2 (conta Zuleide):** seção 5b (fichas dos 101 capítulos restantes) parcial — feito até II.32.
+**Situação:** completo — seções 1 a 8 (seção 1 pela conta Lindson; seções 2 a 5 pela conta Zuleide; seções 6 a 8 pela conta Lindson, 02/11/2026). Pendências em 8.5. **Ciclo 2 (conta Zuleide):** seção 5b (fichas dos 101 capítulos restantes) parcial — feito até III.18.
 
 > **Para que serve este arquivo:** é a base do agente "Maquiavel conselheiro de negócios" no que diz respeito aos *Discorsi*. Tudo o que está marcado como **texto** vem do original italiano; tudo o que está marcado como **interpretação** é leitura nossa ou de estudiosos, e o agente deve apresentar assim.
 >
@@ -520,7 +520,7 @@ Conferidos os 142 ensinamentos daquele arquivo (números 78 a 219) contra o orig
 
 ## 5b. Os demais 101 capítulos em detalhe
 
-**Situação da 5b:** parcial — feito até II.32 (fichas 5b.1 a 5b.60); falta de II.33 em diante.
+**Situação da 5b:** parcial — feito até III.18 (fichas 5b.1 a 5b.75); falta de III.19 em diante.
 
 **Para que serve:** com a seção 5 (41 fichas), os 142 capítulos dos *Discursos* ficam todos com ficha conferida. Aqui estão os 101 que faltavam, **na ordem do livro** (ciclo 2 da revisão, conta Zuleide, 02/11/2026).
 
@@ -889,6 +889,97 @@ Conferidos os 142 ensinamentos daquele arquivo (números 78 a 219) contra o orig
 - **Citação:** *"Perché nella ossidione è la lunghezza e la spesa; nella espugnazione, dubbio e pericolo; nelle congiure, la incertitudine. E viddono che con una rotta di esercito inimico acquistavano un regno in un giorno"* — "Porque no cerco há a demora e a despesa; no assalto, dúvida e perigo; nas conspirações, a incerteza. E viram que com a derrota de um exército inimigo ganhavam um reino num dia".
 - **Exemplos:** Cipião toma Cartagena num só assalto; Veios tomada por um túnel; Palépolis tomada por acordo com os de dentro; Cipião deixa Útica e busca os exércitos cartagineses.
 - **Aplicação [Interpretação]:** em vez de "sitiar" um cliente difícil por meses, ganhe o mercado vencendo onde a decisão é concentrada (um evento, um grande contrato, uma campanha decisiva). E desconfie de planos que dependem de "um contato lá dentro".
+
+### 5b.61 — II.33: os romanos davam comissões livres aos comandantes
+- **Argumento (texto):** o Senado e o povo decidiam a guerra e a paz; todo o resto (dar ou não batalha, que cidade sitiar) ficava ao arbítrio do cônsul. Assim o comandante era mais rápido e mais responsável, porque a glória seria toda dele. Veneza e Florença fazem o contrário e querem opinar até sobre onde pôr a artilharia.
+- **Citação:** *"Perché, deliberata ch’era dal Popolo e dal Senato una guerra, verbigrazia contro a’ Latini, tutto il resto rimettevano nello arbitrio del Consolo, il quale poteva o fare una giornata o non la fare, e campeggiare questa o quell’altra terra, come a lui pareva."* — "Porque, deliberada uma guerra pelo povo e pelo Senado, por exemplo contra os latinos, todo o resto deixavam ao arbítrio do cônsul, que podia dar ou não uma batalha e sitiar esta ou aquela terra, como lhe parecesse."
+- **Exemplos:** Fábio, que venceu em Sutri e atravessou a selva Címia sem consultar o Senado (os legados que mandavam não passar chegaram depois da vitória); Veneza e Florença.
+- **Aplicação [Interpretação]:** o dono define o objetivo, o orçamento e o prazo; o gerente ou o gestor de tráfego decide o como. Microgerenciar deixa a equipe lenta e tira dela a responsabilidade pelo resultado.
+
+### 5b.62 — III.2: simular a loucura no momento certo
+- **Argumento (texto):** ninguém foi tão sábio quanto Júnio Bruto ao fingir-se de tolo: assim viveu seguro sob Tarquínio e esperou a ocasião de expulsá-lo. Quem está descontente com um príncipe deve medir suas forças: se puder, declarar-se inimigo; se não, aproximar-se dele, porque ficar no meio não é seguro (os homens de qualidade não conseguem "ficar quietos": ninguém acredita neles).
+- **Citação:** *"Conviene adunque fare il pazzo, come Bruto; ed assai si fa il matto, laudando, parlando, veggendo, faccendo cose contro allo animo tuo, per compiacere al principe."* — "Convém, portanto, fazer-se de louco, como Bruto; e muito se faz de louco quem louva, fala, vê e faz coisas contra o próprio ânimo para agradar ao príncipe."
+- **Exemplos:** Lúcio Júnio Bruto, que, ao interpretar o oráculo de Apolo, fingiu cair para beijar a terra; a morte de Lucrécia, ocasião de agir.
+- **Aplicação [Interpretação]:** às vezes o mais prudente é não mostrar o que você sabe nem o que pretende (numa negociação, diante de um cliente poderoso, num emprego antes de sair para empreender). Mas é tática temporária, à espera da ocasião, não modo de vida. [Freio: ver a nota da seção 8.4 sobre não enganar quem confia.]
+
+### 5b.63 — III.4: o príncipe não vive seguro enquanto vivem os que ele despojou
+- **Argumento (texto):** Tarquínio Prisco foi morto pelos filhos de Anco, de quem tomara o reino; Sérvio Túlio, por Tarquínio Soberbo, genro, instigado pela filha de Sérvio. Quem tira o Estado de alguém não fica seguro enquanto este vive, e benefícios novos não apagam ofensas antigas.
+- **Citação:** *"Quanto al secondo, si può ricordare ad ogni potente, che mai le ingiurie vecchie furono cancellate da’ beneficii nuovi; e, tanto meno, quanto il beneficio nuovo è minore che non è stata la ingiuria."* — "Quanto ao segundo, pode-se lembrar a todo poderoso que as injúrias velhas nunca foram apagadas por benefícios novos; e tanto menos quanto o benefício novo é menor que a injúria."
+- **Exemplos:** Tarquínio Prisco e os filhos de Anco; Sérvio Túlio, Tarquínio Soberbo e Túlia.
+- **Aplicação [Interpretação]:** quem você tirou de uma posição (sócio afastado, ex-dono de empresa comprada, gerente rebaixado) continua sendo um risco enquanto estiver por perto. Um agrado depois não apaga a perda. Faça a saída limpa, justa e com acordo claro.
+- **Ligação:** a mesma regra está no *Príncipe* III e VII (extinguir a linhagem do antigo senhor); ver também a tabela *Príncipe* × *Discursos* (seção 5c).
+
+### 5b.64 — III.5: o que faz um rei hereditário perder o reino
+- **Argumento (texto):** Tarquínio Soberbo não foi expulso por causa do estupro de Lucrécia pelo filho Sexto, mas por ter quebrado as leis do reino e governado como tirano: tirou toda a autoridade do Senado e levou para o palácio o que se fazia em público. O caso Lucrécia foi só a ocasião; se não fosse ele, outro teria sido.
+- **Citação:** *"Sappino adunque i principi, come a quella ora ei cominciano a perdere lo stato che cominciano a rompere le leggi, e quelli modi e quelle consuetudini che sono antiche, e sotto le quali lungo tempo gli uomini sono vivuti."* — "Saibam, pois, os príncipes que começam a perder o Estado na hora em que começam a quebrar as leis e os modos e costumes antigos sob os quais os homens viveram por muito tempo." E: *"Perché egli è molto più facile essere amato dai buoni che dai cattivi, ed ubidire alle leggi che volere comandare loro."* — "Porque é muito mais fácil ser amado pelos bons que pelos maus, e obedecer às leis que querer mandar nelas."
+- **Exemplos:** Tarquínio Soberbo, Sexto e Lucrécia; Timoleão de Corinto e Arato de Sícion, modelos de bons príncipes.
+- **Aplicação [Interpretação]:** o herdeiro ou sucessor que, ao assumir, ignora os combinados antigos (quem decide o quê, benefícios, rituais) perde a equipe. O escândalo que aparece depois é só a gota d'água.
+
+### 5b.65 — III.7: mudanças com e sem sangue
+- **Argumento (texto):** a queda de um governo é sangrenta quando ele nasceu ofendendo muitos (os ofendidos se vingam); é pacífica quando nasceu do consenso geral: aí, ao cair, só se atinge o chefe.
+- **Citação:** *"Ma quando quello stato è causato da uno comune consenso d’una universalità che lo ha fatto grande, non ha cagione poi, quando rovina detta universalità, di offendere altri che il capo."* — "Mas quando aquele Estado é causado por um consenso comum de todos, que o fez grande, não há razão depois, quando ele cai, para que esse todo ofenda outros além do chefe."
+- **Exemplos:** a expulsão dos Tarquínios; a queda dos Medici em Florença em 1494 ("não foram atingidos outros além deles").
+- **Aplicação [Interpretação]:** líder que subiu passando por cima de muita gente sai com briga, processo e equipe dividida. Quem subiu com apoio sai sem trauma. Construa consenso ao assumir: isso protege a empresa também na saída.
+
+### 5b.66 — III.8: quem quer alterar uma república deve olhar a matéria dela
+- **Argumento (texto):** Espúrio Cássio e Mânlio Capitolino tentaram poder extraordinário numa Roma ainda não corrompida e foram derrubados pelo próprio povo que queriam conquistar. Se Mânlio tivesse nascido no tempo de Mário e Sila, quando a matéria já estava corrompida, teria tido o sucesso deles; e Mário e Sila, no tempo de Mânlio, seriam esmagados.
+- **Citação:** *"Perché tanto è difficile e pericoloso volere fare libero uno popolo che voglia vivere servo, quanto è volere fare servo uno popolo che voglia vivere libero."* — "Porque é tão difícil e perigoso querer fazer livre um povo que queira viver servo quanto querer fazer servo um povo que queira viver livre."
+- **Exemplos:** Espúrio Cássio (terras dos hérnicos, dinheiro do trigo da Sicília); Mânlio Capitolino (o povo, "de defensor feito juiz", o condenou); Mário, Sila, César.
+- **Aplicação [Interpretação]:** antes de mudar a cultura (dar mais autonomia ou mais controle), veja o que a equipe quer e está pronta para ter. Impor autonomia a quem quer ordens, ou controle a quem está acostumado a liberdade, dá errado do mesmo jeito.
+
+### 5b.67 — III.10: não se pode fugir da batalha quando o adversário a quer
+- **Argumento (texto):** muitos acham que imitam Fábio Máximo adiando o combate, mas Fábio não fugia da batalha: queria-a com vantagem, e tinha exército tão bom que Aníbal não ousava atacá-lo nas posições fortes. Quem não tem isso e foge (Filipe da Macedônia) acaba lutando em pior condição: fugir é como ser derrotado. E quem invade ou sitia não pode evitar a batalha.
+- **Citação:** *"Perché fuggirsi, come fece Filippo, è come essere rotto"* — "Porque fugir, como fez Filipe, é como ser derrotado". Lívio: *"Cneus Sulpitius dictator adversus Gallos bellum trahebat..."*.
+- **Exemplos:** o ditador Gneo Sulpício contra os gauleses; Fábio Máximo e Aníbal; Filipe V da Macedônia e os romanos; Carlos, o Temerário, em Morat; os franceses em Novara (1513).
+- **Aplicação [Interpretação]:** adiar o confronto com o concorrente (ou com um problema interno) só funciona se você estiver bem posicionado. Se não está, a demora piora as condições: enfrente quando ainda escolhe o terreno.
+
+### 5b.68 — III.11: quem enfrenta muitos vence se aguentar os primeiros ímpetos
+- **Argumento (texto):** o poder dos tribunos da plebe ficou insolente; Ápio Cláudio mostrou o remédio: sempre havia um tribuno disposto a vetar os colegas. Assim todo príncipe atacado por uma coalizão vence, mesmo mais fraco, se resistir aos primeiros golpes e souber dividir os aliados. Veneza, em 1483, corrompeu Ludovico Sforza e se salvou; em 1509, não soube dar parte para salvar o resto.
+- **Citação:** *"così arà rimedio qualunque principe che sia assaltato da molti, qualunque volta ei saprà con prudenza usare termini convenienti a disgiungerli"* — "assim terá remédio qualquer príncipe atacado por muitos, sempre que souber usar com prudência meios convenientes para separá-los". E: *"Potevano, dunque, i Viniziani dare parte per salvare il resto"* — "Podiam, pois, os venezianos dar uma parte para salvar o resto".
+- **Exemplos:** Ápio Cláudio e os tribunos; Veneza na guerra de Ferrara (1482–84) e na de Cambrai (1508–09); Ludovico Sforza.
+- **Aplicação [Interpretação]:** quando vários concorrentes ou credores pressionam ao mesmo tempo, aguente o primeiro choque e negocie com um de cada vez; ceda um pouco a um para desfazer a frente. Coalizão de interesses diferentes não dura.
+
+### 5b.69 — III.12: impor aos seus a necessidade de lutar e tirá-la dos inimigos
+- **Argumento (texto):** as mãos e a língua do homem não teriam feito obras tão altas sem a necessidade. O capitão prudente deixa os seus soldados sem saída (para que lutem com toda força) e dá saída aos inimigos (para que não lutem desesperados). Por isso Florença, cercada de cidades livres e obstinadas, gastou mais e conquistou menos que Veneza, cercada de cidades acostumadas a príncipes.
+- **Citação:** *"le mani e la lingua degli uomini, duoi nobilissimi instrumenti a nobilitarlo, non arebbero operato perfettamente, né condotte le opere umane a quella altezza si veggono condotte, se dalla necessità non fussoro spinte"* — "as mãos e a língua dos homens, dois nobilíssimos instrumentos para enobrecê-lo, não teriam operado perfeitamente nem levado as obras humanas à altura em que as vemos se não fossem empurradas pela necessidade". Lívio: a necessidade é *"ultimum ac maximum telum"* ("a última e maior arma").
+- **Exemplos:** Cláudio Pôncio e os samnitas; Gaio Manílio morto pelos veienses encurralados; Vécio Méssio e os volscos; Camilo em Veios, que mandou não ferir os desarmados e tomou a cidade quase sem sangue; Florença × Veneza; Crasso.
+- **Aplicação [Interpretação]:** metas que importam de verdade (o projeto precisa sair) fazem a equipe render. E numa negociação ou disputa, deixe ao outro lado uma saída honrosa: quem está encurralado briga até o fim (processo, escândalo).
+
+### 5b.70 — III.13: bom capitão com exército fraco ou bom exército com capitão fraco?
+- **Argumento (texto):** exército bom sem bom chefe fica insolente e perigoso (os soldados dos Cipiões na Espanha); César desprezou Afrânio e Petreio porque ia "a um exército sem chefe". Mais vale um bom capitão com tempo para formar soldados: Lúculo, inexperiente, aprendeu e fez um bom exército; Pelópidas e Epaminondas fizeram de camponeses soldados. A glória dobra para quem forma o exército e depois vence.
+- **Citação:** *"Tanto che io credo che sia più da confidare assai in uno capitano che abbi tempo ad instruire uomini e commodità di armargli, che in uno esercito insolente con uno capo tumultuario fatto da lui."* — "Tanto que creio que se deve confiar muito mais num capitão que tenha tempo de instruir homens e meios de armá-los do que num exército insolente com um chefe improvisado por ele." E: *"perché in questi si mostra doppia virtù"* — "porque nestes se mostra dupla virtù".
+- **Exemplos:** Coriolano e os volscos; o exército dos Cipiões na Espanha; César contra Afrânio e Petreio; Lúculo contra Mitrídates; Pelópidas e Epaminondas.
+- **Aplicação [Interpretação]:** entre contratar um ótimo gestor para uma equipe fraca ou manter ótima equipe com gestor fraco, prefira o gestor, desde que tenha tempo e recursos para treinar. Equipe forte sem liderança vira bagunça ou motim.
+
+### 5b.71 — III.14: o efeito das invenções e das vozes novas no meio da batalha
+- **Argumento (texto):** uma surpresa ou um grito inesperado no combate pode decidir a batalha (uma voz falsa fez os volscos fugirem). O bom capitão prepara essas surpresas para o inimigo e se protege das que ele prepara. Mas o que é só aparência deve ser usado de longe e logo, porque, examinado de perto, a fraqueza aparece e prejudica.
+- **Citação:** *"Perché, quando vi è dentro debolezza, appressandosi, le si scuoprono tosto, e ti fanno danno, e non favore"* — "Porque, quando há fraqueza por dentro, ao se aproximarem elas logo se descobrem e te fazem dano, não favor".
+- **Exemplos:** os volscos e a falsa notícia; os Oddi em Perúgia (a voz "para trás!", passada de fila em fila, fez fugir quem já estava entrando na cidade); os falsos elefantes de Semíramis; os fidenatos com tochas, ridicularizados pelo ditador ("fugir do fumo como abelhas").
+- **Aplicação [Interpretação]:** lançamento com efeito surpresa funciona; promessa de marketing sem produto por trás se desmancha no primeiro contato do cliente e ainda queima a marca. E treine a equipe para não entrar em pânico com boatos.
+
+### 5b.72 — III.15: um só, e não muitos, deve comandar
+- **Argumento (texto):** Roma mandou três tribunos com poder consular contra Fidene, e a desunião deles quase causou derrota. Florença, em 1500, com vários comissários em Pisa, viu o mesmo. Tito Lívio: é útil que o comando supremo esteja nas mãos de um.
+- **Citação:** *"E puossi conchiudere veramente, come egli è meglio mandare in una ispedizione uno uomo solo di comunale prudenzia, che due valentissimi uomini insieme con la medesima autorità."* — "E pode-se concluir verdadeiramente que é melhor mandar numa expedição um único homem de prudência comum que dois homens valentíssimos juntos com a mesma autoridade."
+- **Exemplos:** os tribunos contra Fidene; Florença e as tropas francesas de Luís XII em Pisa (1500); os comissários múltiplos das repúblicas e príncipes de seu tempo.
+- **Aplicação [Interpretação]:** todo projeto tem um responsável só, com nome. Dois sócios "co-responsáveis" pela mesma área, ou dois gestores para o mesmo cliente, geram confusão e desculpas. Divida áreas, não o comando de uma área.
+
+### 5b.73 — III.16: nos tempos difíceis se busca a virtù; nos fáceis, os ricos e aparentados
+- **Argumento (texto):** sempre foi e sempre será que, em tempo de paz, os homens grandes e raros são deixados de lado por inveja, e sobem os que têm riqueza ou parentes. Na guerra, se volta a eles. Nícias foi vencido por Alcibíades em Atenas; Paulo Emílio só foi cônsul quando veio a guerra da Macedônia; em Florença, Antonio Giacomini, comissário competente, foi afastado em tempo de calma. Remédio: manter os cidadãos pobres e estar sempre ordenado para a guerra.
+- **Citação:** *"Egli fu sempre, e sempre sarà, che gli uomini grandi e rari in una republica, ne’ tempi pacifichi, sono negletti"* — "Sempre foi, e sempre será, que os homens grandes e raros numa república, nos tempos de paz, são negligenciados".
+- **Exemplos:** Nícias e Alcibíades (expedição à Sicília); Paulo Emílio; Antonio Giacomini (cerco de Pisa).
+- **Aplicação [Interpretação]:** quando tudo vai bem, o dono tende a promover quem é simpático ou próximo e esquecer o competente "chato". Mantenha os melhores valorizados também na calmaria, porque a crise vem e você vai precisar deles (e eles podem estar ressentidos: ver 5b.74).
+
+### 5b.74 — III.17: não ofender alguém e depois pô-lo em cargo importante
+- **Argumento (texto):** Cláudio Nero, humilhado em Roma depois da campanha da Espanha, já cônsul deixou seu posto diante de Aníbal para combater Asdrúbal, decisão perigosíssima, e disse que o fizera para recuperar a glória perdida (e, se falhasse, vingar-se de quem o ofendera). Se isso aconteceu numa Roma ainda incorrupta, imagine em outras cidades. E como não há remédio certo para essas paixões, é impossível ordenar uma república perpétua.
+- **Citação:** *"E perché a simili disordini che nascano nelle republiche non si può dare certo rimedio, ne seguita che gli è impossibile ordinare una republica perpetua, perché per mille inopinate vie si causa la sua rovina."* — "E porque a tais desordens que nascem nas repúblicas não se pode dar remédio certo, segue-se que é impossível ordenar uma república perpétua, porque por mil caminhos inesperados se causa a sua ruína."
+- **Exemplos:** Cláudio Nero, Asdrúbal (batalha do Metauro, 207 a.C.).
+- **Aplicação [Interpretação]:** não dê o projeto mais importante a quem você acabou de humilhar ou preterir; ele pode arriscar tudo para provar algo ou se vingar. Primeiro repare a relação, ou escolha outro.
+
+### 5b.75 — III.18: nada mais digno de um capitão que adivinhar os planos do inimigo
+- **Argumento (texto):** Epaminondas dizia que nada é mais necessário. E não basta conhecer os planos: é preciso interpretar bem os fatos, porque muitas vezes, depois de uma batalha, quem venceu acha que perdeu e quem perdeu acha que venceu. Quem descobre primeiro a verdade ganha.
+- **Citação:** *"Perché molte volte è accaduto che, sendo durata una zuffa infino a notte, chi ha vinto crede avere perduto, e chi ha perduto crede avere vinto."* — "Porque muitas vezes aconteceu que, durando um combate até a noite, quem venceu crê ter perdido, e quem perdeu crê ter vencido."
+- **Exemplos:** Bruto e Cássio em Filipos (Cássio se matou achando tudo perdido); o centurião Tempânio contra os équos (os dois exércitos fugiram); Francisco I e os suíços em Santa Cecília (Marignano, 1515); Florença em 1498 em Marradi e Castiglione, onde uma velha contou que os venezianos estavam partindo.
+- **Aplicação [Interpretação]:** acompanhe o concorrente e o mercado com dados (preço, anúncios, avaliações) e leia os seus próprios números com frieza: às vezes a campanha que "fracassou" deu certo e vice-versa. Quem confere primeiro decide melhor.
 
 <!-- fim da 5b -->
 
