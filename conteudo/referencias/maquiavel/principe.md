@@ -92,7 +92,7 @@ Um tratado curto (dedicatória + 26 capítulos, cerca de 27 mil palavras no ital
 ### 1.7 Proibição: o Índex de 1559 e o antimaquiavelismo
 
 - **Fato documentado:** em **1559**, o *Index librorum prohibitorum* do papa **Paulo IV** pôs **Maquiavel entre os autores de "primeira classe"**, cuja obra inteira ficava proibida. O **Índex tridentino de 1564** (Pio IV) manteve a proibição. Proibição que só caiu com o fim do Índex (1966).
-- **Antes do Índex:** o cardeal inglês **Reginald Pole** (*Apologia ad Carolum V*, c. 1539) acusou o livro de ter sido escrito "pelo dedo de Satanás" (paráfrase corrente; **não conferido no original latino**); o dominicano **Ambrogio Catarino Politi** atacou Maquiavel em 1552.
+- **Antes do Índex:** o cardeal inglês **Reginald Pole** (*Apologia ad Carolum V*, c. 1539) acusou o livro de ter sido escrito "pelo dedo de Satanás" (o latim conferido em citação é *"scriptum ab hoste humani generis"*, via Petrina 2013; o "dedo de Satanás" **não conferido no original latino**, que está no vol. I das *Epistolae* de Pole, ed. Quirini 1744, não digitalizado); o dominicano **Ambrogio Catarino Politi** atacou Maquiavel em 1552.
 - **Do lado protestante:** **Innocent Gentillet**, *Discours… contre Nicolas Machiavel* (1576), ligou Maquiavel à política de Catarina de' Medici e ao massacre de São Bartolomeu (1572) — origem do "Maquiavel diabólico" na Europa do Norte e do teatro elisabetano (Marlowe, prólogo de *O Judeu de Malta*, c. 1589–1590).
 - **Jesuítas e a "razão de Estado":** Giovanni **Botero**, *Della ragion di Stato* (1589), e o jesuíta Pedro de **Ribadeneyra**, *Tratado de la religión y virtudes que debe tener el príncipe cristiano… contra lo que Nicolás Maquiavelo… enseñan* (1595), em espanhol, criaram o "antimaquiavelismo" católico — que muitas vezes reaproveitava as ideias dele sob outro nome.
 - **Frederico II da Prússia**, *Anti-Machiavel* (1740, editado por Voltaire) — refutação capítulo por capítulo, escrita antes de ele virar rei.
@@ -715,10 +715,10 @@ O mesmo autor escreveu um manual para **um príncipe novo** (*Príncipe*) e uma 
 
 | Quem | Língua / obra / ano | O que diz |
 |---|---|---|
-| **Alberico Gentili** | latim, *De legationibus* III.9, **1585** | Primeiro a dizer que Maquiavel, "louvador da democracia", fingiu instruir o príncipe para **revelar ao povo** as artes da tirania. (**não conferido no original latino**) |
-| **Baruch Spinoza** | latim, *Tractatus politicus* V.7, **1677** | Chama-o *"acutissimus Machiavellus"* e supõe que talvez quisesse mostrar **quanto o povo deve evitar entregar sua salvação a um só homem** (paráfrase; original latino **não conferido palavra por palavra**). |
+| **Alberico Gentili** | latim, *De legationibus* III.9, **1585** | Primeiro a dizer que Maquiavel, "louvador da democracia", fingiu instruir o príncipe para **revelar ao povo** as artes da tirania: *"Machiavellus Democratiae laudator, & assertor acerrimus [...] sui propositi non est tyrannum instruere, sed arcanis eius palam factis ipsum miseris populis nudum & conspicuum exhibere"* (**conferido** na ed. de 1594, ver `recepcao-e-estudiosos.md` 1.14) |
+| **Baruch Spinoza** | latim, *Tractatus politicus* V.7, **1677** | Chama-o *"acutissimus Machiavellus"* e supõe que talvez quisesse mostrar **quanto o povo deve evitar entregar sua salvação a um só homem** (latim **conferido**: *"ostendere forsan voluit, quantum libera multitudo cavere debet, ne salutem suam uni absolute credat"*; ver `recepcao-e-estudiosos.md` 1.13). |
 | **Jean-Jacques Rousseau** | francês, *Du contrat social* III.6, **1762** | *"En feignant de donner des leçons aux rois, il en a donné de grandes aux peuples. Le Prince de Machiavel est le livre des républicains."* — "Fingindo dar lições aos reis, deu grandes lições aos povos. *O Príncipe* de Maquiavel é o livro dos republicanos." (Na nota acrescenta que a corte de Roma proibiu o livro porque é ela que ele pinta melhor — a Wikipédia italiana cita essa nota.) Forma do original **citada de memória, conferir**. |
-| **Denis Diderot** | francês, *Encyclopédie*, verbete "Machiavélisme", **1765** | O *Príncipe* seria uma sátira. (**não conferido**) |
+| **Denis Diderot** | francês, *Encyclopédie*, verbete "Machiavélisme", **1765** | *"espece de politique détestable qu'on peut rendre en deux mots, par l'art de tyranniser"*; o *Príncipe* seria uma sátira: *"ils prirent une satyre pour un éloge"* (**conferido**, *Encyclopédie* t. 9, p. 793). |
 | **Vittorio Alfieri** | italiano, *Del principe e delle lettere*, **1786** | Maquiavel, "divino", ensinou a tirania para torná-la odiosa; leitura libertária. |
 | **Ugo Foscolo** | italiano, *Dei Sepolcri*, **1807**, vv. 155–158 | *"quel grande, che temprando lo scettro a' regnatori, gli allôr ne sfronda, ed alle genti svela di che lagrime grondi e di che sangue"* — "aquele grande que, temperando o cetro dos reis, lhes arranca os louros e revela aos povos de quantas lágrimas e de quanto sangue ele goteja". (Citado pela Wikipédia italiana; ver também 4.4.) |
 | **Garrett Mattingly** | inglês, "Machiavelli's *Prince*: Political Science or Political Satire?", *The American Scholar*, **1958** | O livro é **sátira**: um republicano convicto não poderia elogiar a sério Bórgia, um fracassado; o tom é irônico. |
@@ -731,7 +731,7 @@ O mesmo autor escreveu um manual para **um príncipe novo** (*Príncipe*) e uma 
 
 | Quem | Língua / obra / ano | O que diz |
 |---|---|---|
-| **Reginald Pole** | latim, *Apologia ad Carolum Quintum*, c. **1539** | Livro escrito pelo inimigo do gênero humano; inspirador de Thomas Cromwell (paráfrase; **não conferido**). |
+| **Reginald Pole** | latim, *Apologia ad Carolum Quintum*, c. **1539** | Livro *"scriptum ab hoste humani generis"* (latim via Petrina 2013); inspirador de Thomas Cromwell (o resto em paráfrase; **original latino não aberto**). |
 | **Innocent Gentillet** | francês, *Discours… contre Nicolas Machiavel Florentin* ("Anti-Machiavel"), **1576** | Refutação ponto a ponto; liga Maquiavel aos conselheiros italianos de Catarina de' Medici e a São Bartolomeu. |
 | **Pedro de Ribadeneyra** | espanhol, *Tratado de la religión y virtudes que debe tener el príncipe cristiano*, **1595** | Contra a "razão de Estado" de Maquiavel; propõe uma "razão de Estado cristã". |
 | **Frederico II da Prússia** | francês, *Anti-Machiavel*, **1740** | Refutação capítulo por capítulo (editada por Voltaire). |
@@ -761,7 +761,7 @@ O mesmo autor escreveu um manual para **um príncipe novo** (*Príncipe*) e uma 
 
 | Quem | Língua / obra / ano | O que diz |
 |---|---|---|
-| **Benedetto Croce** | italiano, *Elementi di politica*, **1925** (e ensaio "Una questione che forse non si chiuderà mai", 1949) | Maquiavel descobriu **a necessidade e a autonomia da política**, que está "além, ou antes aquém, do bem e do mal moral" (forma citada de memória: *"la politica che è di là, o piuttosto di qua, dal bene e dal male morale"*; **conferir**). Maquiavel sentia **amargura** por isso, não alegria. Croce também previu que o "enigma Maquiavel" talvez nunca se fechasse. |
+| **Benedetto Croce** | italiano, *Elementi di politica*, **1925** (e ensaio "Una questione che forse non si chiuderà mai", 1949) | Maquiavel descobriu **a necessidade e a autonomia da política**, que está "além, ou antes aquém, do bem e do mal moral" — *"Il Machiavelli scopre la necessità e l'autonomia della politica, della politica che è di là, o piuttosto di qua, del bene e del male, che ha le sue leggi a cui è vano ribellarsi, che non si può esorcizzare e cacciare dal mondo con l'acqua benedetta"* (forma transcrita de Croce, *Etica e politica*, Bari, Laterza, 1945, p. 252, onde está reimpresso o ensaio "Machiavelli e Vico" dos *Elementi di politica*, 1925, num artigo da Univ. de Milão (air.unimi.it); a forma "dal bene e dal male morale" que circula não foi achada em fonte que cite página; livro de Croce não aberto: **variante pendente**). Maquiavel sentia **amargura** por isso, não alegria. Croce também previu que o "enigma Maquiavel" talvez nunca se fechasse. |
 | **Friedrich Meinecke** | alemão, *Die Idee der Staatsräson in der neueren Geschichte*, **1924** | Maquiavel é o **primeiro pensador da razão de Estado**: o Estado tem uma lógica própria de conservação que pode exigir violar a moral. Viu nele o choque trágico entre *Kratos* (poder) e *Ethos*. |
 | **Federico Chabod** | italiano, *Scritti su Machiavelli*, **1964** (ensaios de 1924–1953) | Concorda com a autonomia da política, mas insiste no **contexto**: o *Príncipe* nasce da crise dos Estados italianos depois de 1494 e da esperança concreta em Leão X; é obra de **um só fôlego** (1513). |
 
@@ -788,7 +788,7 @@ O mesmo autor escreveu um manual para **um príncipe novo** (*Príncipe*) e uma 
 | Quem | Obra / ano | O que diz |
 |---|---|---|
 | **Fichte** | "Über Machiavell als Schriftsteller", **1807** | Defesa de Maquiavel como pensador do Estado forte e da nação. |
-| **Hegel** | *Die Verfassung Deutschlands*, **1800–1802** | O *Príncipe* deve ser lido como resposta a uma Itália despedaçada: "medidas violentas" para uma situação extrema (paráfrase; **não conferido**). |
+| **Hegel** | *Die Verfassung Deutschlands*, **1800–1802** | O *Príncipe* deve ser lido como resposta a uma Itália despedaçada: medidas violentas para uma situação extrema: *"Brandige Glieder können nicht mit Lavendelwasser geheilt werden"* ("membros gangrenados não se curam com água de lavanda"; **conferido** em alemão, ed. Mollat 1893, p. 99). |
 | **Jacob Burckhardt** (suíço) | *Die Kultur der Renaissance in Italien*, **1860** | O Estado renascentista como "obra de arte" (*Staat als Kunstwerk*); Maquiavel como analista frio dessa política. |
 | **Friedrich Meinecke** | *Die Idee der Staatsräson*, **1924**; introdução a *Der Fürst*, **1923** | Razão de Estado; hipótese de camadas de redação. |
 | **Max Weber** | *Politik als Beruf*, **1919** | Cita Maquiavel sobre o dilema entre salvar a alma e salvar a cidade (a passagem vem da *História de Florença* III.7, não do *Príncipe*); ética da responsabilidade × ética da convicção. (**não conferido palavra por palavra**) |
@@ -1122,7 +1122,7 @@ Texto lido no OCR de *Maquiavel* (coleção **Os Pensadores**, Abril Cultural, *
 - **Latim:** Gentili, *De legationibus* III.9 (1585); Spinoza, *Tractatus politicus* V.7 (*"acutissimus Machiavellus"*); Pole, *Apologia ad Carolum Quintum* ("dedo de Satanás").
 - **Francês:** Diderot, verbete "Machiavélisme" (1765); Rousseau no original francês; Ménissier (2001); Fournel/Zancarini (2002); Merleau-Ponty, "Note sur Machiavel" (1949).
 - **Inglês:** frase de Strauss ("teacher of evil", *Thoughts on Machiavelli*, 1958, introdução); Hexter, "Il principe and lo stato" (1957), dados sobre *lo stato*; Mattingly (1958); Dietz (1986).
-- **Italiano:** Croce, *"di là, o piuttosto di qua, dal bene e dal male morale"* (*Elementi di politica*, 1925); Gramsci, *Quaderni*, "il moderno Principe".
+- **Italiano:** Croce, *"della politica che è di là, o piuttosto di qua, del bene e del male"* (*Elementi di politica*, 1925; *Etica e politica*, 1945, p. 252; ver `recepcao-e-estudiosos.md` 3.1); Gramsci, *Quaderni*, "il moderno Principe".
 - **Alemão:** Hegel, *Die Verfassung Deutschlands*; Weber, *Politik als Beruf* (passagem da *História de Florença* III.7); Kersting (1988). → **Weber conferido em alemão** e **Hegel** em tradução italiana na revisão de cobertura (ver `recepcao-e-estudiosos.md` 3.2 e 2.6); Spinoza V.7 também (1.13: os três adjetivos *acutissimus*, *sapiens*, *prudentissimus* estão todos em V.7).
 - **Espanhol:** Maravall (1969), Puigdomènech (1988), Granada.
 - **Português:** ano de Lauro Escorel (1958?); títulos dos ensaios de Sérgio Cardoso; Ames (2002) e Adverse (2009) em detalhe.
