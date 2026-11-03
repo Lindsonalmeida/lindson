@@ -18,6 +18,7 @@ Toda conta lê esta tabela antes de qualquer pedido. Recado novo: responda ao Li
 ## Em andamento
 | Desde | Conta | O quê | Como retomar / onde está |
 |---|---|---|---|
+| 03/11 | Zuleide | **5 produtos low ticket** (Kit Mês Pronto, Bio que Vende, Raio-X do Perfil, Kit WhatsApp que Fecha, Kit Prospecção), com o processo premium de templates. Produto final no privado `CentralLindsonALmeida/produtos/<produto>/`; aqui só README, TEMPLATE e OFERTA | `agencia/ofertas/low-ticket/produtos/<produto>/` |
 | 03/11 | Leandro | **Dra. Jaci:** bio v2 e 7 capas de destaques **feitas** (`instagram-perfil/`); **site oficial (SEO, 7 páginas, template Solenne) + bio com chat em /bio/ pronto como rascunho**. Falta: o Lindson criar o repositório `Lindsonalmeida/drajacicunha` e mandar o WhatsApp da clínica | rascunho em `CentralLindsonALmeida/dados/clientes-arquivos/jaci-site/` (README) · publicar: copiar para o repositório, preencher `WA` no `gerar.py`, `python3 gerar.py`, Cloudflare `drajacicunha` |
 | 03/11 | Pedro | **Marca pessoal do Lindson (@lindsonalmeida_)**: estratégia de conteúdo + linhas editoriais → calendário editorial → identidade nova preto e amarelo (v2 da `branding/`) → artes | `agencia/marca-lindson/` (pasta nova). Outras contas: combine aqui antes de mexer |
 | 03/11 | Zuleide | Desentupidora SF no Google: passos do Search Console (sitemap e indexação das 11 páginas) e textos prontos do Perfil da Empresa | `agencia/clientes/desentupidora-sf/GOOGLE.md` (tabela Situação no fim). Esperando o Lindson fazer os passos 1 e 2 e mandar prints |
