@@ -1,6 +1,6 @@
 # Feed v14 · Datas comemorativas do Leo Pinto (15/11 a 01/01) · conta Lindson, 02/11/2026
 
-**Situação (03/11):** artes prontas na **versão 2** (`gerar2.py`), modelada nas referências que o Lindson mandou em 02/11 (Marcelo Tavares, Mara Costa, Givago, Pedro Henrique e outras campanhas). A 1ª tentativa foi descartada.
+**Situação (03/11):** **versão 3** (`gerar3.py`, atual): engenharia reversa do Designi e do Behance (`ENGENHARIA-REVERSA.md`, capturas em `referencias/`) aplicada: Anton nos títulos, Leo maior, cartão na frente do peito, cenários reais com véu (obra, sala de Natal, rua, fogos). Fora do painel até o Lindson aprovar. Versão 2 (`gerar2.py`), modelada nas referências que o Lindson mandou em 02/11 (Marcelo Tavares, Mara Costa, Givago, Pedro Henrique e outras campanhas). A 1ª tentativa foi descartada.
 
 **Regras desta versão (decisões do Lindson, 02/11):**
 - **Laranja é a cor principal** (partido); fundos alternam laranja e azul em xadrez no feed.
