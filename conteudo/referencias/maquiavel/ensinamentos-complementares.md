@@ -1,6 +1,6 @@
 # Maquiavel — ensinamentos complementares (249 em diante)
 
-**Situação:** parcial — feito até a seção 4 (*História de Florença* 249–411; *Arte da Guerra* 412–468; legações e escritos 469–517; cartas 518–552). Continuar pela seção 5 (literatura). (conta Zuleide, ciclo 2 da revisão, 03/11/2026)
+**Situação:** parcial — feito até a seção 5 (*História de Florença* 249–411; *Arte da Guerra* 412–468; legações e escritos 469–517; cartas 518–552; literatura 553–625). Continuar pela seção 6 (vida). (conta Zuleide, ciclo 2 da revisão, 03/11/2026)
 
 Continua `../maquiavel-todos-ensinamentos.md` (1–248: *Príncipe*, *Discursos*, regras gerais da *Arte da Guerra*). Aqui entram os ensinamentos que faltavam: *História de Florença* (8 livros), *Arte da Guerra* além das regras gerais, legações e escritos políticos, cartas, literatura e a vida.
 
@@ -1283,3 +1283,321 @@ Negócio [Interpretação nossa]: indique parceiros e ex-alunos; a rede que voc�
 **552. Gratidão explícita a quem ajudou na hora ruim.**
 Ref.: Vettori, 16/4/1513. Texto: «tutto il bene mio ha ad essere sempre vostro et della casa vostra, dalla quale io riconosco tutto quello che mi è restato».
 Negócio [Interpretação nossa]: agradeça publicamente (com permissão) o cliente que apostou na agência no começo.
+
+---
+
+## 5. Literatura (teatro, novela, poesia, *Vida de Castruccio*, *Discurso sobre a língua*)
+
+> Falas de personagens não são conselhos de Maquiavel: o agente cita como retrato do comportamento humano. Textos conferidos no Wikisource e no Liber Liber (ver `literatura.md`).
+
+### *A Mandrágora* (*La Mandragola*, c. 1518)
+
+**553. Quem é afastado da ação procura outro campo para mostrar a sua virtude.**
+Ref.: *Mandrágora*, Prólogo. Texto: o autor se esforça «Con questi van pensieri / Fare il suo triste tempo più suave», porque «gli è stato interciso / Mostrar con altre imprese altra virtue, / Non sendo premio alle fatiche sue».
+Negócio [Interpretação nossa]: fase sem clientes grandes é hora de produzir conteúdo e portfólio; o talento achou outro palco.
+
+**554. Quem fala mal de você deve saber que você também sabe responder.**
+Ref.: Prólogo. Texto: «Io lo ammunisco, e dico a questo tale / Che sa dir male anch'egli».
+Negócio [Interpretação nossa]: diante de difamação, deixe claro (com calma e pela via certa: notificação, resposta factual) que a agência se defende.
+
+**555. Usar os desejos de cada um como alavanca: todos ganham e o plano anda.**
+Ref.: *Mandrágora* (enredo; Ligurio move Nicia, Sostrata e Timoteo pelos desejos de cada um). Texto (II.6, Ligurio): «quando una cosa fa per uno, si ha a credere ... che ti serva con fede».
+Negócio [Interpretação nossa]: numa proposta, mostre a cada decisor (dono, gerente, financeiro) o ganho dele; sempre com verdade — na peça, o método serve a um engano.
+
+**556. Nunca há coisa tão desesperada que não tenha uma saída.**
+Ref.: *Mandrágora* I.1 (Callimaco). Texto: «E' non è mai alcuna cosa sì desperata, che non vi sia qualche via da poterne sperare».
+Negócio [Interpretação nossa]: cliente perdido, conta bloqueada, prazo estourado: procure a via antes de desistir.
+
+**557. De uma coisa nasce outra, e o tempo a governa.**
+Ref.: *Mandrágora* I.1 (Ligurio). Texto: «Di cosa nasce cosa, e il tempo la governa».
+Negócio [Interpretação nossa]: um pequeno trabalho bem feito abre o próximo; comece pelo passo possível.
+
+**558. É ofício do prudente escolher, entre os maus partidos, o melhor.**
+Ref.: *Mandrágora* III.1 (Sostrata), eco de *Príncipe* XXI. Texto: «egli è uffizio d'un prudente pigliare de' cattivi partiti el migliore».
+Negócio [Interpretação nossa]: muitas decisões são entre duas perdas; escolha a menor e não espere a opção perfeita.
+
+**559. Bom é o que faz bem à maioria e a deixa contente.**
+Ref.: *Mandrágora* III.4 (frei Timoteo, personagem corrupto). Texto: «io credo che quello sia bene, che facci bene a' più, e che e' più se ne contentino».
+Negócio [Interpretação nossa]: critério útil para decisões internas, desde que nunca justifique prejudicar alguém de forma ilegal — na peça é exatamente a desculpa do frade.
+
+**560. De longe as coisas parecem terríveis; de perto, suportáveis.**
+Ref.: *Mandrágora* III.9 (Timoteo). Texto: «E' sono molte cose, che discosto paiano terribile, insopportabile, strane; e quando tu ti appressi loro, le riescono umane, sopportabile, dimestiche; e però si dice che sono maggiori li spaventi ch'e' mali».
+Negócio [Interpretação nossa]: medo de prospectar, de cobrar, de gravar vídeo: o primeiro passo mostra que é menor do que parecia.
+
+**561. Não largue um bem certo por medo de um mal incerto.**
+Ref.: *Mandrágora* III.11 (Timoteo). Texto: «dove è un ben certo e un male incerto, non si debbe mai lasciare quel bene per paura di quel male».
+Negócio [Interpretação nossa]: não recuse um bom contrato só por um risco improvável; trate o risco no contrato.
+
+**562. Em todas as coisas deve-se olhar o fim.**
+Ref.: *Mandrágora* III.11 (Timoteo), eco cômico de *Príncipe* XVIII. Texto: «el fine se ha a riguardare in tutte le cose».
+Negócio [Interpretação nossa]: defina o objetivo antes da tática; mas na boca de um frade corrupto a frase mostra o perigo de usá-la para justificar qualquer meio.
+
+**563. A fortuna e a natureza fazem as contas em balanço: todo bem traz um mal.**
+Ref.: *Mandrágora* IV.1 (Callimaco). Texto: «la fortuna e la natura tiene el conto per bilancio: la non ti fa mai un bene, che all'incontro non surga un male».
+Negócio [Interpretação nossa]: crescimento traz custo (mais gente, mais risco); planeje o lado ruim de cada vitória.
+
+**564. O desejado vale menos do que se imaginava.**
+Ref.: *Mandrágora* IV.1 (Callimaco). Texto: «Non sai tu quanto poco bene si truova nelle cose che l'uomo desidera, rispetto a quelle che l'uomo ha presupposte trovarvi?».
+Negócio [Interpretação nossa]: o cliente "dos sonhos" muitas vezes dá mais trabalho e menos margem; avalie antes de correr atrás.
+
+**565. Encare a sorte: fuja do mal ou, não podendo, suporte-o como homem.**
+Ref.: *Mandrágora* IV.1 (Callimaco). Texto: «Volgi il viso alla sorti; fuggi el male, o non lo potendo fuggire, sopportalo come uomo».
+Negócio [Interpretação nossa]: problema inevitável (imposto, perda de cliente) se enfrenta com postura; reclamar não muda.
+
+**566. Muitas vezes se cai tanto por ser bom demais quanto por ser mau demais.**
+Ref.: *Mandrágora* IV.6 (Timoteo). Texto: «E' dicono el vero quelli che dicono che le cattive compagnie conducono gli uomini alle forche; e molte volte uno capita male, così per essere troppo facile e troppo buono, come per essere troppo tristo».
+Negócio [Interpretação nossa]: escolha bem os parceiros; e não seja "fácil" demais com quem abusa.
+
+**567. Quem molha o dedo num erro acaba com o corpo inteiro dentro.**
+Ref.: *Mandrágora* IV.6 (Timoteo). Texto: «mi fece intignere el dito in uno errore, donde io vi ho messo el braccio, e tutta la persona».
+Negócio [Interpretação nossa]: a primeira pequena desonestidade (número inflado no relatório) puxa a próxima; não comece.
+
+**568. Quando uma coisa importa a muitos, muitos devem cuidar dela.**
+Ref.: *Mandrágora* IV.2 (Ligurio). Texto: «quando una cosa importa a molti, molti ne hanno avere cura».
+Negócio [Interpretação nossa]: projeto crítico tem vários responsáveis por partes, com um coordenador; não fica na mão de um só.
+
+**569. Quem não deixa que o enganem confere com as próprias mãos.**
+Ref.: *Mandrágora* V.2 (Nicia). Texto: «io non son uso ad essermi dato ad intendere lucciole per lanterne».
+Negócio [Interpretação nossa]: confira entregas de fornecedor e números de campanha diretamente na plataforma, não só no print.
+
+**570. Em terra de cego, quem tem um olho é rei.**
+Ref.: *Mandrágora* (Ligurio, ato I). Texto: «in terra di ciechi chi v'ha un occhio è signore».
+Negócio [Interpretação nossa]: num mercado local com pouca profissionalização, um método simples bem aplicado já destaca a agência.
+
+### *Clízia* (1525)
+
+**571. Os mesmos casos voltam; se voltassem os mesmos homens, faríamos as mesmas coisas.**
+Ref.: *Clízia*, Prólogo. Texto: «Se nel mondo tornassero i medesimi uomini, come tornano i medesimi casi, non passerebbero mai cento anni, che noi non ci trovassimo un'altra volta insieme a fare le medesime cose, che ora».
+Negócio [Interpretação nossa]: os problemas de clientes se repetem; mantenha um arquivo de casos e soluções.
+
+**572. Conhecer os vícios humanos (avareza, paixão, engano, pouca lealdade) é útil sobretudo aos jovens.**
+Ref.: *Clízia*, Prólogo. Texto: «Giova veramente assai a qualunque uomo, e massimamente ai giovanetti, conoscere l'avarizia d'un vecchio, il furore di uno innamorato, gl'inganni di un servo [...] la poca fede di tutti gli uomini».
+Negócio [Interpretação nossa]: treine a equipe nova com casos reais de cliente difícil, fornecedor que some, golpes; ingenuidade custa caro.
+
+**573. Deseja-se mais o que menos se pode ter.**
+Ref.: *Clízia* I.1 (Cleandro). Texto: «perché sempre si desidera più ciò che si può avere meno».
+Negócio [Interpretação nossa]: escassez real (vagas limitadas de verdade) aumenta o desejo; escassez falsa é propaganda enganosa (CDC) — nunca usar.
+
+**574. O chefe que perde o rumo arrasta a casa: todos copiam o que o veem fazer.**
+Ref.: *Clízia* II.4 (Sofronia sobre Nicomaco). Texto: «I servi, vedendo questo, si fanno beffe di lui, e il figliuolo ha posto giù la riverenzia; ognuno fa a suo modo, e infine niuno dubita di fare quello che vede fare a lui».
+Negócio [Interpretação nossa]: se o dono chega atrasado e larga os processos, a equipe faz igual; disciplina começa no topo.
+
+**575. A paixão fora de lugar arruína os negócios.**
+Ref.: *Clízia* II.4. Texto: «le faccende sue si stracurano, i poderi si guastano, i traffichi rovinano: grida sempre, e non sa di che».
+Negócio [Interpretação nossa]: quando um projeto pessoal ou uma obsessão toma o dono, os números caem; separe tempo e caixa.
+
+**576. Só é enganado quem confia — mas gente desconfiada não presta.**
+Ref.: *Clízia* III.7 (Nicomaco e Sofronia). Texto: «tu sai che non è ingannato se non chi si fida»; «Gli uomini sfiduciati non sono buoni».
+Negócio [Interpretação nossa]: confie com controle: delegue, mas confira.
+
+**577. A vergonha pública pode ser o choque que restaura a ordem; depois, ofereça a volta.**
+Ref.: *Clízia* V.3 (Sofronia). Texto: «Se tu vorrai ritornar al segno, ed esser quello Nicomaco che tu eri da uno anno indietro, tutti noi vi torneremo, e la cosa non si risaprà; e quando ella si risapesse, egli è usanza errare ed emendarsi».
+Negócio [Interpretação nossa]: diante do erro de alguém importante na equipe, mostre o fato com evidências e ofereça o caminho de volta, com discrição; nunca exponha publicamente para humilhar.
+
+### *Andria* (tradução de Terêncio)
+
+**578. "Sou Davo, não Édipo": não se peça ao comum que adivinhe enigmas.**
+Ref.: *Andria* (tradução, ato I; o verso latino de Terêncio, v. 194, diz Davus sum, non Oedipus; não conferido no original latino). Texto: «Io son Davo, non propheta».
+Negócio [Interpretação nossa]: não espere que o cliente adivinhe o que você precisa; peça briefing claro e diga claramente o que entrega.
+
+### *Belfagor arcidiavolo*
+
+**579. Quanto mais poder se tem, maior prudência é submeter-se às leis e ouvir o conselho alheio.**
+Ref.: *Belfagor*, discurso de Plutão. Texto: «perché gli è maggior prudenza di quelli che possono più sottomettersi alle leggi e più stimare l'altrui iudizio, ho deliberato essere consigliato da voi».
+Negócio [Interpretação nossa]: o dono que pode decidir sozinho e ainda assim consulta a equipe decide melhor e é mais seguido.
+
+**580. Leviandade e injustiça são os dois pecados de quem julga.**
+Ref.: *Belfagor* (Plutão). Texto: «l'uno peccato è da uomini leggieri, e l'altro da ingiusti».
+Negócio [Interpretação nossa]: ao avaliar um funcionário, não julgue sem ouvir (leviano) nem deixe de agir diante do fato (injusto).
+
+**581. Vaidade e gastos para agradar levam até o diabo à falência.**
+Ref.: *Belfagor* (enredo: Roderigo gasta com a mulher e os cunhados e foge dos credores). Texto: o final: «e Gian Matteo, che ne seppe più che 'l diavolo, se ne ritornò tutto lieto a casa».
+Negócio [Interpretação nossa]: viver de crédito para manter aparência quebra qualquer um; e o simples que sabe negociar pode sair ganhando.
+
+**582. Quem te enriqueceu avisa: não volte a abusar, ou o bem vira mal.**
+Ref.: *Belfagor* (Roderigo a Gianmatteo depois do segundo exorcismo). Texto: paráfrase em `literatura.md` 5.2 ("cumpri a promessa; não me apareças mais, porque, onde te fiz bem, te farei mal"), não conferida palavra por palavra.
+Negócio [Interpretação nossa]: não estique um favor além do combinado; o parceiro que ajudou pode virar inimigo.
+
+### *O Asno* (*L'Asino*, c. 1517)
+
+**583. Contra a própria natureza e o hábito, a mente não tem defesa.**
+Ref.: *O Asno* I. Texto: «Perchè la mente nostra, sempre intesa / Dietro al suo natural, non ci consente / Contr'abito, o natura sua difesa».
+Negócio [Interpretação nossa]: conheça seus vícios de gestão (centralizar, adiar) e crie regras externas que os contenham, porque força de vontade não basta.
+
+**584. O que mais derruba os poderosos é nunca se saciarem de poder.**
+Ref.: *O Asno* V. Texto: «Quel che rovina da' più alti colli / Più ch'altro, i Regni, è questo, che i potenti / Di lor potenza non son mai satolli»; e «ciascuno / Conosce questo error, nessun lo fugge».
+Negócio [Interpretação nossa]: crescer além da capacidade (aceitar todo cliente) derruba a agência; defina um teto até ter estrutura.
+
+**585. A força que segura um corpo pequeno não basta para um peso maior.**
+Ref.: *O Asno* V. Texto: «Perchè quella virtute, che soprasta / Un corpo a sostener quand'egli è solo, / A regger poi maggior peso non basta».
+Negócio [Interpretação nossa]: o jeito que funcionava com 5 clientes não funciona com 30; reorganize antes de crescer.
+
+**586. Boas leis com maus costumes se consomem.**
+Ref.: *O Asno* V. Texto: «Chi ha buone leggi, e cattivi costumi».
+Negócio [Interpretação nossa]: manual de processos não salva equipe sem cultura; cuide dos dois.
+
+**587. Esperar que Deus lute por você enquanto fica parado arruinou muitos.**
+Ref.: *O Asno* V. Texto: «Creder, che senza te per te contrasti / Dio, standoti ozioso, e ginocchioni, / Ha molti Regni, e molti Stati guasti».
+Negócio [Interpretação nossa]: fé e oração podem dar força, mas a casa se escora com ação: prospecção, caixa, entrega.
+
+**588. Só o homem destrói o próprio semelhante.**
+Ref.: *O Asno* VIII (o porco, personagem). Texto: «Non dà l'un porco all'altro porco doglia, / L'un cervo all'altro; solamente l'uomo / L'altr'uom ammazza, crocifigge, e spoglia».
+Negócio [Interpretação nossa]: concorrência predatória (difamar, roubar dados) é escolha humana; a agência compete por qualidade.
+
+**589. A ambição e a avareza apagam os dons da natureza.**
+Ref.: *O Asno* VIII (o porco). Texto: «Le man vi diè natura, e la favella, / E con quelle anco ambizion vi dette, / E avarizia, che quel ben cancella».
+Negócio [Interpretação nossa]: talento sem freio de ambição vira prejuízo; metas com limites éticos.
+
+### *Decenais* (1504 e 1509)
+
+**590. Quem atrai os inimigos com doçura para a toca vence os que confiam.**
+Ref.: *Decennale primo* (Bórgia em Senigália). Texto: «E per pigliare i suoi nemici al vischio, / Fischiò soavemente».
+Negócio [Interpretação nossa]: lição de defesa: convite amigável de quem você prejudicou merece cautela.
+
+**591. Quem nunca teve piedade não deve esperá-la dos outros.**
+Ref.: *Decennale primo* (queda de Bórgia). Texto: «E quel Duca in altrui trovar credette / Quella pietà, che non conobbe mai».
+Negócio [Interpretação nossa]: quem tratou mal fornecedores e funcionários não terá ajuda na crise; reputação de justo é seguro.
+
+**592. O caminho seria curto se houvesse armas próprias.**
+Ref.: *Decennale primo* (fim). Texto: «Ma sarebbe il cammin facile, e corto, / Se voi il tempio riapriste a Marte».
+Negócio [Interpretação nossa]: crescer é mais rápido com equipe própria treinada do que com eterna terceirização.
+
+**593. A fortuna desagrada a quem faz o bem: o servidor exemplar esquecido.**
+Ref.: *Decennale secondo* (Antonio Giacomini). Texto: «Ed or negletto, e vilipeso giace / In le sue case, pover, vecchio, e cieco: / Tanto a fortuna chi ben fa dispiace!».
+Negócio [Interpretação nossa]: não deixe esquecido quem fez a agência crescer; reconhecimento mantém os bons.
+
+### *Capitoli* (Fortuna, Ingratidão, Ambição, Ocasião)
+
+**594. A fortuna se opõe com mais força onde vê mais força.**
+Ref.: *Di Fortuna*. Texto: «questa volubil creatura / Spesso si suole oppor con maggior forza, / Dove più forza vede aver natura».
+Negócio [Interpretação nossa]: quanto maior a empresa, maiores os golpes externos; reserva proporcional ao tamanho.
+
+**595. Os homens culpam a fortuna pelos males e creditam a si os bens.**
+Ref.: *Di Fortuna*. Texto: «tutto quel mal, che in voi procede, / S'imputa a lei, e s'alcun ben l'uom trova, / Per sua propria virtude averlo crede».
+Negócio [Interpretação nossa]: em reunião de resultado, analise os acertos com o mesmo rigor que os erros.
+
+**596. O Ócio estraga o mundo; a Necessidade o conserta.**
+Ref.: *Di Fortuna*. Texto: «L'una racconcia il mondo, e l'altro il guasta».
+Negócio [Interpretação nossa]: metas e prazos reais fazem o time render; folga sem objetivo desorganiza.
+
+**597. Seria feliz quem pudesse pular de roda em roda; como não pode, acomode-se à variação.**
+Ref.: *Di Fortuna*. Texto: «Sarebbe un sempre felice, e beato, / Che potesse saltar di ruota in ruota»; «E quanto a noi è possibile, ognora / Accomodarsi al variar di quella».
+Negócio [Interpretação nossa]: diversifique serviços e canais para "pular de roda" quando uma parar.
+
+**598. A ingratidão é filha da avareza e da suspeita, criada pela inveja.**
+Ref.: *Dell'Ingratitudine*. Texto: «Fu d'Avarizia figlia, e di Sospetto: / Nutrita nelle braccia dell'Invidia».
+Negócio [Interpretação nossa]: quando você reluta em reconhecer alguém, verifique se é avareza (não quer pagar) ou suspeita (medo de que cresça).
+
+**599. Onde menos se sabe, mais se suspeita.**
+Ref.: *Dell'Ingratitudine*. Texto: «dove men si sa, più si sospetta».
+Negócio [Interpretação nossa]: transparência com cliente (relatórios, acesso às contas) reduz desconfiança.
+
+**600. Quem faz outro poderoso é pago com medo, não com gratidão.**
+Ref.: *Dell'Ingratitudine*. Texto: «Perchè gli è più potente la paura / Ch'egli ha di te, che l'obligo contratto».
+Negócio [Interpretação nossa]: ao fazer crescer um cliente ou um sócio, garanta por contrato o seu lugar (participação, aviso prévio); gratidão não é garantia.
+
+**601. Cada um prefere subir oprimindo os outros a subir pela própria virtude, se não houver lei ou força que freie.**
+Ref.: *Dell'Ambizione*. Texto: «A ciascun l'altrui ben sempre è molesto»; «Se legge, o maggior forza non ci affrena».
+Negócio [Interpretação nossa]: regras de convivência e de concorrência interna existem porque o instinto puxa para a rasteira.
+
+**602. A educação pode suprir o que falta à natureza.**
+Ref.: *Dell'Ambizione*. Texto: «può supplire / L'educazion, dove natura manca».
+Negócio [Interpretação nossa]: treinamento transforma gente comum em boa equipe.
+
+**603. Já que não se expulsa a ambição, acompanhe-a com juízo e ordem.**
+Ref.: *Dell'Ambizione*. Texto: «Debbe il giudizio, e l'intelletto sano / Con ordine, e ferocia accompagnarla».
+Negócio [Interpretação nossa]: canalize a ambição do time em metas e plano de carreira, em vez de reprimi-la.
+
+**604. É preciso ter a espada, não só o livro, na mão.**
+Ref.: *Dell'Ambizione* (Veneza em 1509). Texto: «Tardi conosce come li bisogna / Tener la spada, e non il libro in mano».
+Negócio [Interpretação nossa]: estudar não basta; é preciso executar e vender.
+
+**605. A ocasião passa coberta e sem cabelo atrás; quem não a pega fica com o arrependimento.**
+Ref.: *Dell'Occasione*. Texto: «Chi non sa prender me, costei ritiene»; e «Già non t'avvedi, lasso, e non comprendi / Com'io ti son fuggita dalle mani!».
+Negócio [Interpretação nossa]: oportunidade raramente se anuncia; enquanto se discute demais, ela passa.
+
+### Poesia curta
+
+**606. Brigas internas abrem o caminho aos inimigos de fora.**
+Ref.: *Canto degli spiriti beati*. Texto: «le vostre contese / Agl'inimici vostri aprin la via».
+Negócio [Interpretação nossa]: agências locais brigando entre si abrem espaço para a grande de fora; cooperação mínima no mercado vale a pena.
+
+**607. Quem não faz quando tem tempo, depois se arrepende em vão.**
+Ref.: *Canto d'amanti disperati e di dame*. Texto: «chi non fa, quand'egli ha tempo, appresso / Si pente, e prega invano».
+Negócio [Interpretação nossa]: faça o caixa, o portfólio e a prospecção enquanto há tempo.
+
+**608. O diabo visto de perto tem menos chifres.**
+Ref.: *Canto de' romiti*. Texto: «chi vede il Diavol daddovero, / Lo vede con men corna, e manco nero».
+Negócio [Interpretação nossa]: o medo do desconhecido (novo nicho, cliente grande) diminui quando você testa.
+
+**609. Apalpe antes de comprar, para que nenhum trapaceiro engane você.**
+Ref.: *Canto d'uomini che vendono le pine*. Texto: «Che qualche frappator non v'infinocchi».
+Negócio [Interpretação nossa]: peça teste, período de experiência e referências antes de contratar ferramenta ou fornecedor.
+
+**610. Julgue pelas mãos, não pelos olhos.**
+Ref.: soneto *"Io vi mando, Giuliano, alquanti tordi"* (1513). Texto: «e palpi e tocchi, / e giudichi a le mani e non agli occhi».
+Negócio [Interpretação nossa]: avalie o trabalho pelo resultado concreto, não pela apresentação bonita.
+
+**611. Toda fera esconde aquilo com que fere.**
+Ref.: *Strambotti* (segunda estância). Texto: «Nasconde quel con che nuoce ogni fera; / Celasi adunque sotto l'erbe il drago».
+Negócio [Interpretação nossa]: leia o contrato inteiro; a armadilha costuma estar na cláusula escondida.
+
+**612. Quem não faz bem nem mal vai para o limbo das crianças.**
+Ref.: epigrama sobre Piero Soderini (1522). Texto: «gridò Pluton: — Ch'inferno? anima sciocca, / va su nel limbo fra gli altri bambini».
+Negócio [Interpretação nossa]: líder bonzinho que não decide não é lembrado; bondade precisa de ação.
+
+### *Vida de Castruccio Castracani* (1520)
+
+**613. A fortuna gosta de mostrar que é ela que faz os grandes, começando quando a prudência não tem parte.**
+Ref.: *Vida de Castruccio*, abertura. Texto: «volendo la fortuna dimostrare al mondo di essere quella che faccia gli uomini grandi, e non la prudenza, comincia a dimostrare le sue forze in tempo che la prudenza non ci possa avere alcuna parte».
+Negócio [Interpretação nossa]: origem humilde não impede grandeza; o ponto de partida não decide o fim.
+
+**614. Conhecer a si mesmo e medir as próprias forças; quem não serve para a guerra reine pelas artes da paz.**
+Ref.: *Vida de Castruccio* (discurso da morte a Pagolo Guinigi). Texto: «È cosa in questo mondo di importanza assai cognoscere se stesso, e sapere misurare le forze dello animo e dello stato suo; e chi si cognosce non atto alla guerra, si debbe ingegnare con le arti della pace di regnare».
+Negócio [Interpretação nossa]: se você não tem perfil para guerra de preço e venda agressiva, cresça por parcerias, qualidade e relacionamento.
+
+**615. A fortuna é árbitra das coisas humanas; não dá juízo para conhecê-la antes nem tempo para vencê-la.**
+Ref.: *Vida de Castruccio* (discurso da morte). Texto: «la fortuna, che vuole essere arbitra di tutte le cose umane, non mi ha dato tanto giudicio che io l'abbia potuta prima conoscere, né tanto tempo che io l'abbi potuta superare».
+Negócio [Interpretação nossa]: planeje como se o tempo fosse curto: deixe sucessão e documentação prontas.
+
+**616. Deixar menos inimigos vale mais que deixar mais território.**
+Ref.: *Vida de Castruccio* (discurso da morte). Texto: «io mi sarei affaticato meno e a te arei lasciato, se minore stato, meno inimici e meno invidia».
+Negócio [Interpretação nossa]: crescer comprando briga com todos deixa herança pesada; cresça com menos inimigos.
+
+**617. Grato aos amigos, temível aos inimigos, justo com os seus.**
+Ref.: *Vida de Castruccio* (retrato). Texto: «Era grato agli amici, agli inimici terribile, giusto con i sudditi, infedele con gli esterni».
+Negócio [Interpretação nossa]: a parte útil e lícita: gratidão aos parceiros, firmeza com quem ataca, justiça com a equipe. A "infidelidade com os de fora" não se aplica: com cliente e concorrente vale a lei e a palavra dada.
+
+**618. Audaz para entrar no perigo, cauteloso para sair.**
+Ref.: *Vida de Castruccio* (retrato). Texto: «Niuno fu mai più audace a entrare ne' pericoli, né più cauto a uscirne».
+Negócio [Interpretação nossa]: arrisque num teste, mas com plano de saída definido (orçamento máximo, prazo).
+
+**619. Guardar a lembrança da adversidade.**
+Ref.: *Vida de Castruccio* (fim). Texto: as algemas guardadas na torre; «Visse quarantaquattro anni, e fu in ogni fortuna principe».
+Negócio [Interpretação nossa]: lembre-se do mês em que quase fechou; isso mantém a disciplina no mês bom.
+
+**620. Quem é tido por sábio de dia nunca será tido por louco à noite.**
+Ref.: *Vida de Castruccio*, sentenças (frase do próprio Maquiavel, repetida na carta a Vettori de 5/1/1514). Texto: «Chi è tenuto savio di dì, non sarà mai tenuto pazzo di notte».
+Negócio [Interpretação nossa]: reputação profissional sólida protege a vida pessoal da fofoca; e vice-versa: cuide do que faz em público.
+
+**621. Molhar-se de cuspe para pescar uma baleia.**
+Ref.: *Vida de Castruccio*, sentenças (de Aristipo, via Diógenes Laércio). Texto: «io mi lascerò bene bagnare da uno sputo per pigliare una balena».
+Negócio [Interpretação nossa]: tolerar uma grosseria pontual de um grande cliente pode valer o contrato — desde que não vire abuso contínuo.
+
+**622. Por que temer os homens bons?**
+Ref.: *Vida de Castruccio*, sentenças (de Diógenes). Texto: «Perchè vuoi tu adunque che io abbi paura degli uomini buoni?».
+Negócio [Interpretação nossa]: quem trabalha certo não teme fiscalização, auditoria ou concorrente honesto.
+
+### *Discurso sobre a nossa língua* (c. 1524–1525)
+
+**623. As palavras de fora se convertem na sua língua, não o contrário — enquanto você é forte.**
+Ref.: *Discorso intorno alla nostra lingua*. Texto: «e così i vocaboli forestieri si convertono in Fiorentini, non i Fiorentini in forestieri».
+Negócio [Interpretação nossa]: incorpore tendências e ferramentas novas ao seu método e à sua voz de marca, em vez de virar cópia delas.
+
+**624. O espelho útil passa melhor com riso.**
+Ref.: *Discorso intorno alla nostra lingua*. Texto: «il fine d'una commedia sia proporre uno specchio d'una vita privata, nondimeno il suo modo del farlo è con certa urbanità, e con termini che muovano riso, acciocchè gli uomini correndo a quella dilettazione, gustino poi l'esemplo utile, che vi è sotto».
+Negócio [Interpretação nossa]: conteúdo que ensina pelo humor e pela história é consumido; aula seca, não.
+
+**625. Ninguém tem obrigação maior que com a pátria.**
+Ref.: *Discorso intorno alla nostra lingua*, abertura. Texto: «l'uomo non ha maggiore obbligo nella vita sua, che con quella».
+Negócio [Interpretação nossa]: o compromisso com a cidade (São Luís) e o mercado local é um diferencial de marca para a Alkantara.
