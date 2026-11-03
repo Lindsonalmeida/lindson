@@ -1,6 +1,6 @@
 # Discursos sobre a Primeira Década de Tito Lívio — base de conhecimento para o agente "Nicolau Maquiavel"
 
-**Situação:** completo — seções 1 a 8 (seção 1 pela conta Lindson; seções 2 a 5 pela conta Zuleide; seções 6 a 8 pela conta Lindson, 02/11/2026). Pendências em 8.5. **Ciclo 2 (conta Zuleide):** seção 5b (fichas dos 101 capítulos restantes) parcial — feito até I.51.
+**Situação:** completo — seções 1 a 8 (seção 1 pela conta Lindson; seções 2 a 5 pela conta Zuleide; seções 6 a 8 pela conta Lindson, 02/11/2026). Pendências em 8.5. **Ciclo 2 (conta Zuleide):** seção 5b (fichas dos 101 capítulos restantes) parcial — feito até II.12.
 
 > **Para que serve este arquivo:** é a base do agente "Maquiavel conselheiro de negócios" no que diz respeito aos *Discorsi*. Tudo o que está marcado como **texto** vem do original italiano; tudo o que está marcado como **interpretação** é leitura nossa ou de estudiosos, e o agente deve apresentar assim.
 >
@@ -520,7 +520,7 @@ Conferidos os 142 ensinamentos daquele arquivo (números 78 a 219) contra o orig
 
 ## 5b. Os demais 101 capítulos em detalhe
 
-**Situação da 5b:** parcial — feito até I.51 (fichas 5b.1 a 5b.30); falta de I.52 em diante.
+**Situação da 5b:** parcial — feito até II.12 (fichas 5b.1 a 5b.45); falta de II.14 em diante.
 
 **Para que serve:** com a seção 5 (41 fichas), os 142 capítulos dos *Discursos* ficam todos com ficha conferida. Aqui estão os 101 que faltavam, **na ordem do livro** (ciclo 2 da revisão, conta Zuleide, 02/11/2026).
 
@@ -707,6 +707,98 @@ Conferidos os 142 ensinamentos daquele arquivo (números 78 a 219) contra o orig
 - **Citação:** *"Gli uomini prudenti si fanno grado delle cose sempre e in ogni loro azione, ancora che la necessità gli constringesse a farle in ogni modo."* — "Os homens prudentes sempre, e em toda ação, se fazem agradecer pelas coisas, ainda que a necessidade os obrigasse a fazê-las de qualquer modo."
 - **Exemplos:** a criação do soldo dos soldados romanos.
 - **Aplicação [Interpretação]:** se vai ter de mudar algo de qualquer jeito (reajuste de benefício, nova ferramenta), anuncie antes de ser cobrado e mostre o lado bom para a equipe; e comece pagando a sua parte (o dono "paga primeiro", como os nobres). [Freio: não é mentir sobre o motivo; é agir antes de ser forçado — ligar com I.32.]
+
+### 5b.31 — I.52: ocupar antes os caminhos por onde o insolente cresce
+- **Argumento (texto):** para conter um cidadão que cresce demais numa república, o modo mais seguro e menos escandaloso é ocupar antes as vias pelas quais ele ganha poder (fazer os mesmos favores ao povo), e não enfrentá-lo de frente. Os inimigos de Cosimo de' Medici deviam ter feito isso em vez de exilá-lo; Piero Soderini não podia fazer o mesmo contra os adversários sem trair a liberdade que guardava. Cícero errou ao armar Otaviano contra Antônio: Otaviano se uniu a Antônio.
+- **Citação:** *"A reprimere la insolenzia d’uno che surga in una republica potente, non vi è più sicuro e meno scandoloso modo, che preoccuparli quelle vie per le quali viene a quella potenza."* — título e tese: "Para reprimir a insolência de alguém que surge numa república poderosa, não há modo mais seguro e menos escandaloso que ocupar antes os caminhos pelos quais ele chega a esse poder." (A frase está no título do capítulo, com quebras de linha no Wikisource.) No corpo: *"era molto più facile, ed era cosa molto più onesta, meno pericolosa, e meno dannosa per la republica, preoccupargli quelle vie con le quali si faceva grande, che volere contrapporsegli"* — "era muito mais fácil, e coisa muito mais honesta, menos perigosa e menos danosa para a república, ocupar antes os caminhos pelos quais ele se fazia grande do que querer opor-se a ele".
+- **Exemplos:** a nobreza romana e as leis em favor da plebe; Cosimo de' Medici (exilado em 1433, voltou em 1434); Piero Soderini; Cícero, Otaviano e Marco Antônio.
+- **Aplicação [Interpretação]:** se um concorrente ou um funcionário cresce porque atende melhor o cliente, a resposta não é atacá-lo, é fazer o mesmo bem feito antes dele. Brigar de frente fortalece quem você quer conter.
+
+### 5b.32 — I.54: a autoridade de um homem grave freia a multidão
+- **Argumento (texto):** nada freia tanto uma multidão enfurecida quanto a presença de um homem respeitado que se põe à frente dela. Por isso o comandante de um exército ou o governante de uma cidade em tumulto deve aparecer pessoalmente, com a maior dignidade possível.
+- **Citação:** *"Conchiudo, adunque, come e’ non è il più fermo né il più necessario rimedio a frenare una moltitudine concitata, che la presenzia d’uno uomo che per presenzia paia e sia riverendo."* — "Concluo, portanto, que não há remédio mais firme nem mais necessário para frear uma multidão agitada que a presença de um homem que pela presença pareça e seja digno de reverência."
+- **Exemplos:** Virgílio, *Eneida* I (o homem de autoridade que acalma a multidão); Florença, abril de 1498: derrotados os *Frateschi*, o povo armado foi saquear a casa de Paolantonio Soderini, e seu irmão Francesco, bispo de Volterra, vestido com os paramentos, o fez parar; a plebe romana e a mudança para Veios, contida pelo Senado com "homens graves".
+- **Aplicação [Interpretação]:** numa crise (cliente furioso, equipe revoltada, boato nas redes), quem tem mais autoridade aparece em pessoa, calmo e sério. Mensagem por escrito de um assistente não segura ninguém.
+
+### 5b.33 — I.56: antes dos grandes acontecimentos vêm sinais
+- **Argumento (texto):** antes de grandes acidentes numa cidade sempre houve sinais ou pessoas que os anunciaram. Maquiavel diz não saber a causa e deixa a explicação a quem conhece as coisas naturais e sobrenaturais; arrisca a hipótese de filósofos de que o ar está cheio de "inteligências" que avisam os homens.
+- **Citação:** *"Donde ei si nasca io non so, ma ei si vede per gli antichi e per gli moderni esempli, che mai non venne alcuno grave accidente in una città o in una provincia, che non sia stato, o da indovini o da rivelazioni o da prodigi o da altri segni celesti, predetto."* — "De onde isso nasça eu não sei, mas se vê pelos exemplos antigos e modernos que nunca veio algum acidente grave numa cidade ou província que não tenha sido predito por adivinhos, revelações, prodígios ou outros sinais celestes."
+- **Exemplos:** Savonarola prevendo a vinda de Carlos VIII (1494); o raio no Duomo antes da morte de Lourenço de' Medici (1492); o raio no Palácio antes da queda de Piero Soderini (1512); a voz que avisou Marco Cedício da chegada dos gauleses a Roma.
+- **Aplicação [Interpretação]:** sem misticismo: crises de empresa costumam dar sinais (cliente grande atrasando pagamento, funcionário-chave calado, queda lenta de mensagens no WhatsApp). Crie o hábito de anotar e discutir sinais fracos.
+
+### 5b.34 — I.57: a plebe junta é forte, sozinha é fraca
+- **Argumento (texto):** os romanos que tinham ido morar em Veios contra a ordem do Senado o desafiaram enquanto juntos; quando o Senado marcou um prazo com pena, cada um, com medo, obedeceu. A multidão é ousada no ímpeto e fraca quando cada um pensa no próprio perigo; por isso, para durar, precisa fazer um chefe.
+- **Citação:** *"tutti insieme sono gagliardi, e, quando ciascuno poi comincia a pensare al proprio pericolo, diventa vile e debole"* — "todos juntos são fortes e, quando cada um começa a pensar no próprio perigo, torna-se covarde e fraco" (paráfrase de Lívio que ele faz no fim do capítulo).
+- **Exemplos:** os romanos em Veios depois do saque gaulês; a plebe que, após a morte de Virgínia, elegeu vinte tribunos.
+- **Aplicação [Interpretação]:** reclamação coletiva (equipe, grupo de clientes) assusta, mas se resolve tratando cada pessoa individualmente, com prazo e regra clara. Do outro lado: se você organiza um grupo (associação de lojistas, por exemplo), nomeie um líder, senão ele se desfaz no primeiro risco.
+
+### 5b.35 — I.59: aliança com república ou com príncipe?
+- **Argumento (texto):** por medo de perder o Estado, os dois quebram a palavra. Mas para pequenas vantagens, a república é mais fiel: decide devagar e em conjunto, e o povo recusa até vantagens grandes quando são desonestas (Atenas rejeitou o plano de Temístocles de queimar a frota grega). Príncipes como Filipe da Macedônia ganharam mais quebrando a palavra que de qualquer outro modo.
+- **Citação:** *"credo che, quando la paura dello stato venga, l’uno e l’altro, per non lo perdere, ti romperà la fede, e ti userà ingratitudine"* — "creio que, quando vier o medo de perder o Estado, um e outro, para não perdê-lo, quebrarão a palavra contigo e te serão ingratos". E a conclusão: *"il popolo facci minori errori che il principe, e per questo si possa fidar più di lui che del principe"* — "o povo comete menos erros que o príncipe, e por isso se pode confiar mais nele que no príncipe".
+- **Exemplos:** Demétrio Poliorcetes e Atenas; Pompeu morto no Egito por Ptolomeu; Sagunto (fiel a Roma até a ruína) e Florença (fiel à França em 1512); Temístocles e Aristides.
+- **Aplicação [Interpretação]:** parceria com empresa que tem sócios, conselho e processo é mais estável que acordo de boca com um dono que decide sozinho, porque este rompe por qualquer vantagem. Mas, em crise de sobrevivência, ninguém cumpre: tenha plano B.
+
+### 5b.36 — I.60: em Roma os cargos não dependiam da idade
+- **Argumento (texto):** depois que o consulado se abriu à plebe, Roma o deu sem olhar idade ou sangue. Quando um jovem se destaca por uma ação notável, seria muito danoso a cidade esperar que ele envelheça para usá-lo.
+- **Citação:** *"E quando uno giovane è di tanta virtù, che si sia fatto in qualche cosa notabile conoscere; sarebbe cosa dannosissima che la città non se ne potessi valere allora"* — "E quando um jovem tem tanta virtù que se fez conhecer por alguma coisa notável, seria coisa danosíssima que a cidade não pudesse valer-se dele naquele momento".
+- **Exemplos:** Valério Corvino, cônsul aos 23 anos; Cipião; Pompeu, que triunfaram muito jovens.
+- **Aplicação [Interpretação]:** promova por resultado comprovado, não por tempo de casa. O jovem que já mostrou um grande acerto merece a chance agora, enquanto tem energia.
+
+### 5b.37 — II.3: crescer arruinando os vizinhos e acolhendo os de fora
+- **Argumento (texto):** quem quer um grande império precisa de muita gente, e isso se faz "por amor e por força": por amor, deixando os caminhos abertos e seguros a quem quiser vir morar; por força, desfazendo as cidades vizinhas e levando os habitantes para a sua. Esparta e Atenas, fechadas aos estrangeiros, ficaram pequenas: como árvore de galho mais grosso que o tronco.
+- **Citação:** *"Per amore, tenendo le vie aperte e sicure a’ forestieri che disegnassono venire ad abitare in quella, acciocché ciascuno vi abiti volentieri"* — "Por amor, mantendo os caminhos abertos e seguros aos estrangeiros que quisessem vir morar nela, para que cada um ali more de bom grado". Lívio: *"Crescit interea Roma Albae ruinis"* ("Enquanto isso, Roma cresce com as ruínas de Alba").
+- **Exemplos:** Alba; Esparta (Licurgo) e Atenas; a imagem da árvore; a revolta de Tebas contra Esparta.
+- **Aplicação [Interpretação]:** empresa cresce trazendo gente: acolha bem profissionais de fora, parceiros e clientes de concorrentes que fecharam. Crescer com base estreita (só os fundadores) é galho grosso em tronco fino.
+
+### 5b.38 — II.4: os três modos de expandir
+- **Argumento (texto):** (1) liga de repúblicas iguais (toscanos antigos, aqueus, etólios, suíços): segura, mas limitada a 12 ou 14 membros; (2) fazer-se aliados mantendo para si a chefia, a sede do comando e o título das empresas (Roma): o melhor; (3) fazer súditos diretos (Esparta, Atenas): inútil, e inutilíssimo para quem não tem armas.
+- **Citação:** *"De’ quali tre modi, questo ultimo è al tutto inutile"* — "Desses três modos, este último é de todo inútil". E: *"E se questo modo di fare sudditi è inutile nelle republiche armate, in quelle che sono disarmate è inutilissimo"* — "E se este modo de fazer súditos é inútil nas repúblicas armadas, nas que são desarmadas é inutilíssimo".
+- **Exemplos:** os toscanos antigos (doze cidades, como Chiusi, Veios, Arezzo, Fiesole, Volterra); aqueus, etólios, suíços; Esparta e Atenas; Roma.
+- **Aplicação [Interpretação]:** para crescer, o modelo "Roma" é o de parceiros e indicadores que trabalham junto mas sob a sua marca e comando (rede de parceiros, white label). Comprar empresas e mandar em tudo exige uma força que pequena empresa não tem.
+
+### 5b.39 — II.5: mudanças de religião, de língua, dilúvios e pestes apagam a memória
+- **Argumento (texto):** contra quem diz que o mundo é eterno: as memórias se apagam por causa dos homens (cada nova religião e língua apaga a anterior, como o cristianismo fez com a memória pagã) e por causa do céu (pestes, fomes, dilúvios que "purgam" o mundo quando há gente e malícia demais). Assim se apagou a Toscana antiga.
+- **Citação:** *"E chi legge i modi tenuti da San Gregorio, e dagli altri capi della religione cristiana, vedrà con quanta ostinazione e’ perseguitarono tutte le memorie antiche, ardendo le opere de’ poeti e degli istorici, ruinando le imagini e guastando ogni altra cosa che rendesse alcun segno della antichità."* — "E quem lê os modos usados por São Gregório e pelos outros chefes da religião cristã verá com quanta obstinação perseguiram todas as memórias antigas, queimando as obras dos poetas e dos historiadores, arruinando as imagens e estragando tudo o que desse algum sinal da antiguidade."
+- **Exemplos:** São Gregório Magno; a língua latina mantida pela Igreja; Diodoro Sículo (40 ou 50 mil anos de história, "mentirosa"); a Toscana antiga.
+- **⚠ Nota:** a atribuição a São Gregório de queimar livros pagãos é tradição medieval que os historiadores modernos não confirmam [Interpretação corrente dos historiadores; não conferido nesta frente]. Maquiavel a apresenta como fato.
+- **Aplicação [Interpretação]:** marca nova que substitui outra (fusão, troca de nome, mudança de sistema) apaga a memória da anterior, inclusive a boa. Guarde de propósito histórico, casos e aprendizados antes de mudar.
+
+### 5b.40 — II.6: como os romanos faziam a guerra
+- **Argumento (texto):** os romanos faziam a guerra, como dizem os franceses, "curta e grossa": exércitos grandes, batalha logo, acordo vantajoso. Depois, para não gastar com guarnições, mandavam colônias, e com a partilha do saque enriqueciam o erário com a guerra, quando os outros empobreciam.
+- **Citação:** *"il quale fu in prima di fare le guerre, come dicano i Franciosi, corte e grosse"* — "o qual foi, primeiro, fazer as guerras, como dizem os franceses, curtas e grossas". E: *"feciono che Roma arricchiva della guerra; dove gli altri principi e republiche non savie ne impoveriscono"* — "fizeram que Roma enriquecesse com a guerra, enquanto os outros príncipes e repúblicas não sábios empobrecem com ela".
+- **Exemplos:** guerras contra latinos, samnitas e toscanos; cônsules com mandato de um ano que queriam terminar a guerra para triunfar.
+- **Aplicação [Interpretação]:** projeto, campanha ou disputa comercial: concentre recursos e resolva rápido. Guerra longa (processo, briga de preço, projeto que nunca termina) empobrece. E cada "vitória" deve deixar caixa, não só barulho.
+
+### 5b.41 — II.7: quanta terra os romanos davam a cada colono
+- **Argumento (texto):** é difícil saber a medida exata; deram pouca terra, para mandar mais homens e porque, vivendo pobres em casa, não queriam colonos ricos demais fora. Importa a terra bem cultivada, não muita terra; e cada colônia precisa de pastos e bosques comuns.
+- **Citação:** *"e’giudicavano che non lo assai terreno, ma il bene cultivato, bastasse"* — "julgavam que bastava não muita terra, mas a bem cultivada".
+- **Exemplos:** a colônia de Veios (três jeiras e sete onças por colono, segundo Lívio).
+- **⚠ Nota:** no Wikisource a conversão para a medida florentina ficou em branco (*"che sono, al modo nostro...."*); o próprio Maquiavel não preencheu.
+- **Aplicação [Interpretação]:** melhor poucos clientes bem atendidos que muitos mal atendidos. E toda equipe nova (filial, time de projeto) precisa de recursos comuns (ferramentas, modelos, banco de dados).
+
+### 5b.42 — II.8: por que os povos deixam a pátria e invadem a terra alheia
+- **Argumento (texto):** há dois tipos de guerra: por ambição de príncipes e repúblicas (quer mandar, não expulsar) e de um povo inteiro que, forçado pela fome ou pela guerra, busca nova terra e quer tudo: "crudelíssima e pavorosíssima". Esses povos, empurrados pela necessidade extrema, são temíveis, e só boas armas os detêm.
+- **Citação:** *"Questa guerra è crudelissima e paventosissima."* — "Esta guerra é crudelíssima e pavorosíssima." E: *"Sono, pertanto, questi popoli formidolosissimi, sendo cacciati da una ultima necessità"* — "São, portanto, esses povos temibilíssimos, sendo empurrados por uma necessidade extrema".
+- **Exemplos:** os gauleses de Beloveso, cimbros e teutões, godos e vândalos, Moisés na Judeia, os "maurusios" da África (inscrição citada por Procópio), tártaros contidos por húngaros e poloneses.
+- **Aplicação [Interpretação]:** o concorrente desesperado (que vai quebrar se não ganhar seus clientes) é o mais perigoso: corta preço sem limite. Não trate como concorrência normal; proteja os clientes-chave e não brigue no preço dele.
+
+### 5b.43 — II.9: o que faz nascer as guerras entre poderosos
+- **Argumento (texto):** a guerra entre poderosos nasce por acaso ou provocada por quem a deseja. Um meio comum: atacar um terceiro que o outro protege. Para a cidade que não se defende sozinha, o remédio é entregar-se a quem você quer que a defenda: quem não a defenderia como amiga a defenderá como súdita.
+- **Citação:** *"perché Annibale capitano cartaginese assaltò i Saguntini amici de’ Romani in Ispagna, non per offendere quelli, ma per muovere l’armi romane, ed avere occasione di combatterli, e passare in Italia"* — "porque Aníbal, capitão cartaginês, atacou os saguntinos, amigos dos romanos na Espanha, não para ofendê-los, mas para mover as armas romanas, ter ocasião de combatê-las e passar à Itália".
+- **Exemplos:** samnitas, sidicinos e campanos; Roma e os mamertinos de Messina (Primeira Guerra Púnica); Aníbal e Sagunto; Florença entregue ao rei Roberto de Nápoles contra Castruccio Castracani.
+- **Aplicação [Interpretação]:** concorrente grande costuma atacar pelos seus parceiros e fornecedores, não por você. Fique atento a quem mexe com eles. E o pequeno que não consegue se defender pode precisar se associar formalmente a um grande (rede, cooperativa), aceitando regras.
+
+### 5b.44 — II.11: não fazer amizade com quem tem mais fama que força
+- **Argumento (texto):** os sidicinos confiaram nos campanos, que só levaram nome, não força. Florença, em 1479, atacada pelo papa e pelo rei de Nápoles, tirou da amizade com o rei da França "mais nome que proteção"; o mesmo aconteceria a quem confiasse em Maximiliano. Os tarentinos quiseram impor paz entre romanos e samnitas e o cônsul respondeu tocando a batalha.
+- **Citação:** *"ché, essendo amici del re di Francia, trassono di quella amicizia «magis nomen, quam praesidium»"* — "pois, sendo amigos do rei da França, tiraram daquela amizade 'mais nome que proteção'". Lívio: *"Campani magis nomen in auxilium Sidicinorum, quam vires ad praesidium attulerunt"*.
+- **Exemplos:** campanos e sidicinos; Florença em 1479 (guerra da Conjura dos Pazzi) e a França; Maximiliano; os tarentinos.
+- **Aplicação [Interpretação]:** parceiro famoso (influenciador, marca grande, "investidor") que não tem estrutura para cumprir não serve de proteção. Antes de depender, veja a força real: equipe, caixa, entregas.
+
+### 5b.45 — II.12: levar a guerra ou esperá-la em casa?
+- **Argumento (texto):** Maquiavel expõe os dois lados (Creso a Ciro, Aníbal a Antíoco, Agátocles, Cipião, Anteu e Hércules) e conclui: quem tem povo armado e acostumado à guerra deve esperar em casa, onde suas forças se somam (Roma resistiu a três derrotas na Itália); quem tem súditos desarmados deve levar a guerra para longe, porque em casa perde a fonte do dinheiro.
+- **Citação:** *"Conchiuggo adunque, di nuovo, che quel principe che ha i suoi popoli armati ed ordinati alla guerra, aspetti sempre in casa una guerra potente e pericolosa, e non la vadia a rincontrare: ma quello che ha i suoi sudditi disarmati, ed il paese inusitato alla guerra, se le discosti sempre da casa il più che può."* — "Concluo, portanto, de novo, que o príncipe que tem seus povos armados e preparados para a guerra espere sempre em casa uma guerra poderosa e perigosa, e não vá ao encontro dela; mas o que tem seus súditos desarmados e o país desacostumado à guerra a afaste sempre de casa o mais que puder."
+- **Exemplos:** Creso e Ciro (Tamíris); Aníbal e Antíoco; Agátocles na África; Cipião; Anteu; os suíços (fora de casa 30 a 40 mil, em casa cem mil); Fernando de Nápoles e Carlos VIII.
+- **Aplicação [Interpretação]:** se sua base de clientes é fiel e sua equipe é forte, defenda o território (atendimento, fidelização). Se é frágil, não deixe o concorrente chegar nela: vá buscar mercado fora antes que ele venha.
 
 <!-- fim da 5b -->
 
