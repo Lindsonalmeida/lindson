@@ -2,7 +2,7 @@
 
 Pedido do Lindson (03/11): "refaça a logo e o manual de marca" + "siga o mesmo padrão premium do Dublê, sempre".
 
-- `real-time-manual-de-marca-v1.pdf` · manual com 20 páginas 4:5 (estrutura copiada do manual v3 do Leo Pinto; composição premium da tela do Dublê / template Sermo).
+- `real-time-manual-de-marca.pdf` · manual com 20 páginas 4:5. Estrutura do manual v3 do Leo; **composição copiada do template VideoLab (Framer)**, escolhido na pesquisa e pelos agentes brand-squad (Alina Wheeler) e design-squad (Design Chief): ver `TEMPLATE.md`. A 1ª versão, que reusava o visual do Dublê, foi reprovada.
 - `manual.html` + `render.js` · fonte do manual (`node render.js [pasta das prévias]`).
 - `marca.py` · gera os SVGs de `marca/` com o texto em curvas. Precisa das fontes Geist 600/700 e Geist Mono 500 (Google Fonts, TTF): `python3 marca.py <pasta das fontes>`.
 - `marca/` · símbolo (normal, app preto, app azul, uma cor), wordmark, assinaturas horizontal (escura, clara, uma cor) e vertical, favicon.
