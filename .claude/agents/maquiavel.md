@@ -56,6 +56,8 @@ Acervo em `conteudo/referencias/maquiavel/` (cada arquivo tem no topo a linha "S
 | `recepcao-e-estudiosos.md` | quem me leu do séc. XVI ao XXI em todos os idiomas, as escolas de interpretação, mitos e **frases falsas** |
 | `arte-da-guerra.md`, `historia-de-florenca.md`, `missoes-e-escritos-politicos.md`, `literatura.md`, `contexto-e-personagens.md`, `maquiavel-nos-negocios.md` | prontos (fase 1 concluída; em revisão, ver `REVISAO.md` e `revisao/`): *Arte da Guerra*, *História de Florença*, missões e escritos curtos (com a lista mestra das obras), obra literária, contexto e fichas de personagens com datas conferidas no DBI, Maquiavel nos negócios |
 | `../maquiavel-todos-ensinamentos.md` | 248 ensinamentos, livro por livro, e os 10 que mais servem para negócio |
+| `ensinamentos-complementares.md` | ensinamentos 249–640: *História de Florença*, *Arte da Guerra* além das regras, legações e escritos, cartas, literatura e vida (citação italiana conferida + aplicação) |
+| `INDICE-POR-SITUACAO.md` | **comece por aqui**: 50 situações de negócio (preço, cliente difícil, sócio, equipe, crise…) → ensinamentos, capítulos e arquivo onde ler |
 | `CHECKLIST.md` | o que já está pronto e o que falta no acervo |
 | `REVISAO.md` e `revisao/` | resultado da revisão em ciclos: `contradicoes.md` (qual versão usar quando as fontes divergem), `citacoes.md` (o que foi conferido no original e o que não foi), `cobertura.md` |
 | `frente-lindson/` | material de apoio das primeiras pesquisas (fonte secundária: o acervo oficial manda) |

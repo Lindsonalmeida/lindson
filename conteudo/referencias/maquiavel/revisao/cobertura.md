@@ -183,7 +183,7 @@ Já corrigidas por esta frente (fato novo de fonte primária ou verbete de refer
 
 ## Ciclo 2 — ensinamentos (conta Zuleide, 03/11/2026)
 
-**Situação:** partes 1 e 2 concluídas; parte 3 (índice por situação) em andamento.
+**Situação:** concluído (partes 1, 2 e 3).
 
 ### Parte 1 — ensinamentos que faltavam nos 248
 - **Arquivo novo:** `../ensinamentos-complementares.md`, **392 ensinamentos (249–640)**, mesmo esquema do arquivo dos 248 ampliado: lição em uma frase, referência exata, citação italiana conferida e aplicação de negócio marcada **[Interpretação nossa]**.
@@ -208,3 +208,20 @@ Lidas inteiras: `discursos.md` seções 2–4 (142 linhas) e 8.2; `historia-de-f
 | 11 | `historia-de-florenca.md` 4.4 e 5.4 (VIII.36) | "o banco quebrava/quebrou" exagera o texto («quanto alla mercanzia, infelicissimo»; a cidade o socorreu); a quebra do banco Médici é de 1494 | "ia mal, a ponto de a cidade socorrê-lo" |
 
 Nenhuma outra aplicação contradiz o texto: as demais 135 linhas dos *Discursos* e as tabelas da *História* foram conferidas contra as teses de cada capítulo e já traziam freio onde o texto é duro (I.9, I.26, I.27, II.13, III.41, III.42). A seção 5b de `discursos.md` (fichas detalhadas, frente paralela em andamento) não foi tocada.
+
+## Ciclo 2 — *Discursos*: fichas dos 101 capítulos e tabela *Príncipe* × *Discursos* (conta Zuleide, 02–03/11/2026)
+
+**Situação:** concluído.
+
+- **O que foi feito:** `../discursos.md` ganhou a **seção 5b** ("Os demais 101 capítulos em detalhe", fichas 5b.1 a 5b.101, na ordem do livro: 36 do Livro I, 25 do Livro II, 40 do Livro III) e a **seção 5c** (tabela *Príncipe* × *Discursos* capítulo por capítulo: dedicatória + 26 capítulos, com os capítulos dos *Discursos* correspondentes, onde concordam e onde divergem, e as 4 remissões explícitas de um livro ao outro). Com as 41 fichas da seção 5, **os 142 capítulos têm ficha**. Índice, 6.15 e 8.5 (lacuna 3 dada como resolvida) atualizados.
+- **Formato de cada ficha:** argumento (texto), citação italiana + tradução livre, exemplos que Maquiavel usa, aplicação a um negócio marcada **[Interpretação]** (com freio onde o texto é duro: I.44, I.48, I.51, III.2, III.27, III.30, III.32, III.40, III.44).
+- **Conferência:** todas as citações italianas novas passaram pelo `conferir_citacoes.py` a cada lote (7 lotes + tabela, commit e push depois de cada um; tabelas gerais do ciclo 1 restauradas depois de cada rodada): **138 citações novas, 138 exatas** no Wikisource (ed. 1531). Duas citações corrigidas antes do commit (I.56: *rivelazioni* e vírgulas; II.15: faltava *"massime quelle che si hanno a diliberare in favore di alcuno amico"* no meio do trecho). Nomes e exemplos de cada ficha conferidos no texto do capítulo; três detalhes tirados por não estarem no capítulo (Servílio Aala e Cincinato em III.28, o "gesto" em III.14, a "mãe" em III.2).
+- **Notas novas (⚠ em `discursos.md` 5b):** a frase "a fome e a pobreza fazem os homens industriosos" está em I.3, não em I.1; I.50 fala do **Conselho Grande** de Veneza, não dos Pregadi (tabela da seção 2 corrigida pela nota); III.27 não cita Veneza (o exemplo veneziano das facções é do *Príncipe* XX); II.5, Gregório Magno queimando livros é tradição; II.7, a medida florentina ficou em branco no próprio texto; II.31, "Dario" por Artaxerxes; III.26, título lido como reflexo da época.
+- **Trabalho em paralelo:** a conta Lindson fez, no mesmo período, as fichas dos mesmos capítulos em `../discursos-fichas-livro-1.md`, `-2.md` e `-3.md` (versão longa, com tabela própria *Príncipe* × *Discursos* no livro-3). As duas versões ficaram (nenhuma apagada); a 5b avisa no topo e remete aos arquivos da conta Lindson. Pontos conferidos entre as duas: sem contradição.
+- **Fica aberto:** conferir as citações de Lívio em latim usadas nas fichas (Lívio citado por Maquiavel, não conferido no latim nesta frente; a versão da conta Lindson conferiu parte na The Latin Library) e as datas/identificações marcadas como nossas (Sentino, Metauro, Marignano em III.18).
+
+
+### Parte 3 — índice para consulta rápida
+- **Arquivo novo:** `../INDICE-POR-SITUACAO.md`: **50 situações** de negócio em 9 grupos (dinheiro e preço; clientes; sócios e parceiros; equipe; concorrência e mercado; crise e risco; crescer e lançar; reputação e conteúdo; conselho e ética), cada uma com os ensinamentos (1–640), os capítulos (*Príncipe*, *Discursos*, *História*, *Arte da Guerra*, legações, cartas, literatura) e o arquivo/seção onde ler. Inclui a regra de conversão capítulo dos *Discursos* → número do ensinamento.
+- **Agente atualizado:** `.claude/agents/maquiavel.md` passa a listar `ensinamentos-complementares.md` e `INDICE-POR-SITUACAO.md` (este como ponto de partida).
+- **Observação:** durante o trabalho, `revisao/citacoes-tabela.tsv` e `citacoes-dados.json` apareceram modificados no disco por outra frente que rodava o conferidor; não foram commitados por esta frente.

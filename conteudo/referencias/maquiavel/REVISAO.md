@@ -23,7 +23,7 @@ Cada relatório tem no topo "Situação: parcial — feito até X". Continuar da
 
 ### Ciclo 2 — pendências que sobraram do ciclo 1
 1. *Discursos*: 101 capítulos sem ficha detalhada + tabela *Príncipe* × *Discursos*. **[x] Feito (conta Lindson, 02/11):** fichas em `discursos-fichas-livro-1.md`, `-2.md` e `-3.md` (36 + 26 + 40, 300+ citações conferidas no italiano), tabela completa no livro-3 e 9 correções aplicadas em `discursos.md`.
-2. Ensinamentos que faltam nos 248 (História de Florença, missões, cartas, literatura, Arte da Guerra além das regras) e conferência das aplicações de negócio nas fichas.
+2. Ensinamentos que faltam nos 248 (História de Florença, missões, cartas, literatura, Arte da Guerra além das regras) e conferência das aplicações de negócio nas fichas. **Feito (conta Zuleide, 03/11/2026):** `ensinamentos-complementares.md` (249–640), 11 correções de aplicação, `INDICE-POR-SITUACAO.md` — ver `revisao/cobertura.md`, "Ciclo 2 — ensinamentos".
 3. Fatos e fontes: prisão de 1513 (12 × 19/2), sonho em Busini, colofões das primeiras edições, "dividir para reinar" × *Arte da Guerra* VI, casamento, bairro do nascimento, folhas do *Belfagor*, *Mandrágora* em Veneza, citações de terceiros (Croce, Guicciardini 18/07/1526, Giuliano de' Ricci), 64 citações só por fonte secundária, verbetes Treccani que faltaram, Diderot/Gentili/Pole/Bodin no original, idiomas polonês, coreano, hindi, turco.
 
 
