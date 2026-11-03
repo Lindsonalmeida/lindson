@@ -1,0 +1,6 @@
+chatterbox-tts
+gradio
+imageio-ffmpeg
+soundfile
+scipy
+numpy
