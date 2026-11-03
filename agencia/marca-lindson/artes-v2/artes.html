@@ -1,0 +1,66 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<!-- Artes v2 · @lindsonalmeida_ · preto e amarelo com FOTO COLORIDA cinematográfica (conta Pedro, 03/11/2026).
+     Lindson reprovou a v1 ("não gostei, achei as fotos muito cinzas, busque referências premium, melhores").
+     Nova pesquisa no Dribbble (registro em ../identidade/TEMPLATE.md). Composições copiadas:
+     JT  = SOCIAL MEDIA JONATAS TORRES 2024 (João Romualdo, dribbble.com/shots/26315392): marca pessoal de especialista, feed escuro
+           com foto cinematográfica e luz dourada, palavra-chave em caixa de cor ("VAI [VENDER]"), aspas gigantes douradas, "arraste para o lado →".
+     INF = INFLURY (The Branded Agency, dribbble.com/shots/26551660): foto editorial quente e saturada, tipografia gigante e condensada
+           atravessando a foto, preto/branco + 1 acento.
+     MUR = Personal Brand Identity & Social Kit "Man UpRight" (Anna SHTONDA, dribbble.com/shots/27563407): letras gigantes vazadas (contorno)
+           saindo da tela, degradê âmbar → preto, cartão escuro.
+     Fotos: as do Lindson (aba Minhas fotos), em COR, tratadas por scratchpad cor.py (luz laranja do estúdio → âmbar #F5C518, pele natural). -->
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@500;600;700;800&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{--p:#0A0A0A;--s:#141414;--t:#F5F3EE;--ap:#A7A39A;--am:#F5C518;--am2:#E8A317}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#000;overflow:hidden;font-family:Manrope,sans-serif;-webkit-font-smoothing:antialiased}
+.a{position:relative;width:1080px;height:1350px;overflow:hidden;background:var(--p);color:var(--t)}
+.a.r{height:1920px}.a.am{background:var(--am);color:var(--p)}
+.abs{position:absolute}
+.marca{font:800 30px Manrope;letter-spacing:-.02em}.marca i{display:inline-block;width:12px;height:12px;border-radius:50%;background:var(--am);margin-left:4px}.a.am .marca i{background:var(--p)}
+.mono{font-family:'JetBrains Mono';font-weight:500;letter-spacing:.08em}
+.h{font:800 100px/0.96 Manrope;letter-spacing:-.045em}
+.h em{font-family:'Instrument Serif';font-style:italic;font-weight:400;letter-spacing:-.01em;color:var(--am)}
+.cx{background:var(--am);color:var(--p);padding:0 .14em;margin:0 -.04em;display:inline-block;line-height:1.02}
+.ant{font-family:Anton;text-transform:uppercase;letter-spacing:-.005em;line-height:.86}
+.foto{position:absolute;background-size:cover;background-position:center}
+.grao{position:absolute;inset:0;pointer-events:none;opacity:.10;mix-blend-mode:overlay;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.arr{font:600 22px 'JetBrains Mono';letter-spacing:.1em}
+</style></head><body><div id="x"></div>
+<script>
+const F='fotos/',A=new URLSearchParams(location.search).get('a')||'',R=A.startsWith('r');
+const topo=(rot,y)=>`<div class="abs" style="left:70px;right:70px;top:${y||(R?250:60)}px;display:flex;justify-content:space-between;align-items:center;z-index:5"><span class="marca">lindson almeida<i></i></span><span class="mono" style="font-size:21px">${rot}</span></div>`;
+const S={
+// a1 · Apresentação · INF: nome gigante condensado atravessando a foto colorida (recorte por cima da 2ª linha)
+a1:`<div class="a"><div class="abs" style="inset:0;background:radial-gradient(60% 45% at 50% 35%,#1c1a14,#0A0A0A 70%)"></div>${[[120,0,6,620],[930,90,6,520],[0,700,330,6],[760,520,320,6]].map(([x,y,w,h])=>`<div class="abs" style="left:${x}px;top:${y}px;width:${w}px;height:${h}px;background:#FFD45A;box-shadow:0 0 24px 6px rgba(245,197,24,.55);border-radius:4px;opacity:.85"></div>`).join('')}
+ <div class="abs" style="inset:0;background:linear-gradient(180deg,rgba(10,10,10,.2) 0%,rgba(10,10,10,0) 40%,rgba(10,10,10,.92) 82%)"></div>
+ <div class="abs ant" style="left:0;right:0;top:150px;text-align:center;font-size:330px;color:var(--am)">LINDSON</div>
+ <img class="abs" src="${F}c05-rec.png" style="left:50%;transform:translateX(-50%);top:150px;height:1500px">
+ <div class="abs" style="inset:0;background:linear-gradient(180deg,transparent 62%,rgba(10,10,10,.95) 86%)"></div>
+ ${topo('(20 26) · SÃO LUÍS')}
+ <div class="abs" style="left:70px;right:70px;bottom:120px"><div class="h" style="font-size:78px">Faço o seu Instagram<br>trazer <span class="cx">cliente</span>.</div></div>
+ <div class="abs mono" style="left:70px;right:70px;bottom:56px;display:flex;justify-content:space-between;font-size:21px;color:var(--ap)"><span>@LINDSONALMEIDA_</span><span>PRAZER, LINDSON</span></div><div class="grao"></div></div>`,
+// c1 · Capa de carrossel AMARELA · MUR: letras gigantes vazadas saindo da tela + foto colorida em cartão escuro
+c1:`<div class="a am"><div class="abs ant" style="left:-40px;top:110px;font-size:700px;color:transparent;-webkit-text-stroke:4px rgba(10,10,10,.85)">BIO</div>
+ ${topo('PASSO A PASSO')}
+ <div class="abs" style="left:520px;top:300px;width:490px;height:740px;background:var(--p);border-radius:28px;overflow:hidden;box-shadow:0 50px 100px rgba(0,0,0,.35)"><div class="foto" style="inset:0;background-image:url(${F}c01.jpg);background-position:50% 12%;background-size:170%"></div><div class="abs" style="inset:0;background:linear-gradient(180deg,transparent 55%,rgba(10,10,10,.85))"></div><div class="abs mono" style="left:30px;bottom:28px;font-size:20px;color:var(--am)">● PERFIL QUE VENDE</div></div>
+ <div class="abs" style="left:70px;top:820px;width:440px"><div class="h" style="font-size:86px">Arrume a sua bio em <span class="cx" style="background:var(--p);color:var(--am)">3 passos</span>.</div></div>
+ <div class="abs arr" style="left:70px;bottom:60px">ARRASTE PARA O LADO →</div><div class="abs mono" style="right:70px;bottom:60px;font-size:21px">01 / 05</div></div>`,
+// r1 · Capa de Reels · JT: foto cinematográfica inteira (luz âmbar do estúdio), palavra-chave em caixa amarela
+r1:`<div class="a r"><div class="foto" style="inset:0;background-image:url(${F}c00.jpg);background-position:50% 30%"></div>
+ <div class="abs" style="inset:0;background:linear-gradient(180deg,rgba(10,10,10,.75) 0%,rgba(10,10,10,0) 30%,rgba(10,10,10,0) 50%,rgba(10,10,10,.9) 78%)"></div>
+ ${topo('● REC 00:00:09')}
+ <div class="abs" style="left:70px;right:70px;top:1180px"><div class="mono" style="font-size:24px;color:var(--am);margin-bottom:22px">ERRO QUE CUSTA CLIENTE</div><div class="h" style="font-size:118px">Post de bom dia<br>não <span class="cx">vende</span> nada.</div></div>
+ <div class="abs mono" style="left:70px;bottom:270px;font-size:21px;color:var(--ap)">@LINDSONALMEIDA_ · COMENTA "PERFIL"</div><div class="grao"></div></div>`,
+// p1 · Post · JT: aspas gigantes douradas + citação sobre foto escurecida, cartão amarelo
+p1:`<div class="a"><div class="foto" style="left:380px;top:0;right:0;bottom:0;background-image:url(${F}c14.jpg);background-size:140%;background-position:45% 10%"></div>
+ <div class="abs" style="inset:0;background:linear-gradient(90deg,var(--p) 34%,rgba(10,10,10,.55) 58%,rgba(10,10,10,0) 80%)"></div>
+ <div class="abs" style="inset:0;background:linear-gradient(0deg,rgba(10,10,10,.9),transparent 40%)"></div>
+ ${topo('PAPO RETO')}
+ <div class="abs" style="left:60px;top:190px;font:400 360px/1 'Instrument Serif';color:var(--am)">“</div>
+ <div class="abs" style="left:70px;top:470px;width:600px"><div style="font:800 64px/1.06 Manrope;letter-spacing:-.035em">Quem trabalha bem não deveria perder cliente para quem só <span class="cx">aparece mais</span>.</div></div>
+ <div class="abs" style="left:70px;bottom:120px;display:flex;align-items:center;gap:18px"><div style="width:64px;height:4px;background:var(--am)"></div><span class="mono" style="font-size:22px">LINDSON ALMEIDA</span></div>
+ <div class="abs arr" style="right:70px;bottom:60px;color:var(--ap)">COMENTA "PERFIL" →</div><div class="grao"></div></div>`};
+document.getElementById('x').innerHTML=S[A]||'';
+Promise.all([document.fonts.ready,...[...document.images].map(i=>i.complete?1:new Promise(r=>{i.onload=i.onerror=r}))]).then(()=>setTimeout(()=>window.pronto=true,400));
+</script></body></html>

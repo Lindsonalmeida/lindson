@@ -104,6 +104,7 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 
 ## 4. REPROVADO: nunca repetir
 
+0. **Artes v1 da marca pessoal do Lindson com foto em preto e branco** (03/11 · Pedro): "não gostei, achei as fotos também muito cinzas, busque referências premium, melhores". Nunca usar foto dele P&B lavada; usar foto COLORIDA cinematográfica (v2: Jonatas Torres + INFLURY + Man UpRight, `agencia/marca-lindson/identidade/TEMPLATE.md`). Pediu também: "quero meu perfil harmônico em preto e amarelo" e subiu 17 fotos de estúdio na aba Minhas fotos do admin (criada 03/11).
 1. **Elementos gráficos na identidade do Leo**: raios, faixas de padrão, ícones, fumaça, sol desenhado e bandeirinhas. Motivo: "esses elementos estão feios" (02/11). A identidade do Leo é só fontes, logo e cores.
 2. **Foto de perfil v1 do Leo** (raios atrás da cabeça, anel, foto leo-23). Motivo: ele pediu cor sólida, sem raios e uma foto melhor.
 3. **Logo do Leo com balão, cápsula ou placa de fundo**. Motivo: "não gosto dessa logo com esse balão de fundo, prefiro ela aplicada ao post" e, de novo, no Natal.
