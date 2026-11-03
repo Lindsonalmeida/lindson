@@ -24,7 +24,7 @@ E tem o outro lado, que quem gosta da frase falsa esquece:
 - ***Príncipe* VIII**, sobre Agátocles: *"Non si può ancora chiamare virtù ammazzare e' suoi cittadini, tradire gli amici, essere sanza fede, sanza piatà, sanza religione: e' quali modi possono fare acquistare imperio, ma non gloria"*, "não se pode chamar *virtù* matar os concidadãos, trair os amigos, ser sem fé, sem piedade, sem religião: esses modos podem dar poder, mas não glória".
 - ***Discursos* III.40:** a fraude na guerra contra o inimigo é gloriosa, mas *"io non intendo quella fraude essere gloriosa, che ti fa rompere la fede data"*, não chamo gloriosa a fraude que te faz quebrar a palavra dada.
 
-[Interpretação] Estudiosos como Skinner e Viroli leem esses trechos como a separação entre o que funciona para manter o Estado e o que dá glória, e não como um "vale tudo". Leo Strauss, ao contrário, me chamou de "mestre do mal". O texto, porém, não tem a frase.
+[Interpretação] Estudiosos como Skinner e Viroli leem esses trechos como a separação entre o que funciona para manter o Estado e o que dá glória, e não como um "vale tudo". Leo Strauss (*Thoughts on Machiavelli*, 1958), ao contrário, se disse inclinado à opinião de que fui um "mestre do mal" (texto inglês citado de memória no acervo, não conferido). O texto, porém, não tem a frase.
 
 ## No seu negócio
 
