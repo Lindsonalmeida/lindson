@@ -1,0 +1,8 @@
+// HTML -> JPG (cópia do render.js do Leo v14, com o proxy do ambiente para carregar a Montserrat do Google Fonts).
+const { chromium } = require('playwright'); const path = require('path');
+(async () => { const d = process.argv[2]; const px = process.env.HTTPS_PROXY;
+ const b = await chromium.launch(px ? { proxy: { server: px } } : {}); const p = await b.newPage({ viewport: { width: 1100, height: 1400 } });
+ await p.goto('file://' + path.join(d, 'artes.html'), { waitUntil: 'networkidle' }); await p.evaluate(() => document.fonts.ready); await p.waitForTimeout(800);
+ const ok = await p.evaluate(() => document.fonts.check('900 italic 40px Montserrat')); if (!ok) console.log('AVISO: Montserrat não carregou');
+ for (const el of await p.$$('section.f')) await el.screenshot({ path: path.join(d, 'out', (await el.getAttribute('id')) + '.jpg'), type: 'jpeg', quality: 92 });
+ await b.close(); })();
