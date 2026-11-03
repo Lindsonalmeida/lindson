@@ -89,6 +89,8 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 20. **Reels de 45 s** vendendo os serviços para negócio local, com tom agressivo, gatilhos e ganchos (`conteudo/reels/vender-servicos-negocio-local-45s.md`).
 21. **Canais dark**: capas pelo `capas2.py` (Passaporte) e pela identidade do Raposa; longos de 16 a 20 min (regras no `CLAUDE.md` e no agente Peter).
 
+- **Carrosséis (03/11, Jaci):** telas do meio nunca repetem foto nem composição dentro do carrossel (nem a foto da capa ou do fechamento). Reprovado: as 4 telas do meio iguais (foto desfocada com véu em todas).
+
 ## 4. REPROVADO: nunca repetir
 
 1. **Elementos gráficos na identidade do Leo**: raios, faixas de padrão, ícones, fumaça, sol desenhado e bandeirinhas. Motivo: "esses elementos estão feios" (02/11). A identidade do Leo é só fontes, logo e cores.

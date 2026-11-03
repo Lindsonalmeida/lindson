@@ -37,18 +37,41 @@ def capa(cid, t):
           f'<div class="a" style="left:96px;top:300px;width:400px;color:{CAFE}"><div class="sans" style="font-size:40px;font-weight:700">{md(t.get("topo",""))}</div><div class="S" style="font-size:78px;line-height:1">{t["serif"]}</div></div>'
           f'<div class="a" style="right:96px;top:1010px;text-align:right">' + ''.join(f'<div><span class="fv">{md(x)}</span></div>' for x in t["sans"].split(" / ")) +
           f'<div class="arr2"><b>ARRASTE</b> PARA O LADO</div></div>' + rodape())
-BGS = {'c1': 'jaci-preto-rennova-sorrindo.jpg', 'c2': 'jaci-off-white-tablet.jpg', 'c3': 'jaci-nude-sofa-corpo-inteiro.jpg', 'c4': 'jaci-branco-cadeira-sorrindo.jpg'}
-def interna(cid, t, i, n):  # cópia de "SEU BOTOX, DIA APÓS DIA" (foto desfocada com véu claro, título sans caps, checks, nota serif)
-    base = foto(BGS[cid], '50% 30%', 'filter:blur(6px) saturate(.7);transform:scale(1.06)') + '<div class="a" style="inset:0;background:rgba(232,226,216,.72)"></div>' + topo(CAFE)
+# telas do meio: 4 composições diferentes por carrossel, sem repetir foto (nem a da capa/fechamento) dentro do carrossel.
+# A = foto nítida dividida (cópia do tríptico "a artista:"), B = creme tipográfico com faixa dourada e fio (cópia de "Bioestimulador"),
+# C = cor invertida vinho (faixas vinho de "E EU SEMPRE AVISO"), D = foto desfocada com véu e checks (cópia de "Seu botox, dia após dia").
+ORDEM = {'c1': 'ABCD', 'c2': 'BDAC', 'c3': 'CABD', 'c4': 'ACBD'}
+FOTOS = {'c1': {'A': 'jaci-branco-cadeira-sorrindo.jpg', 'D': 'jaci-preto-rennova-sorrindo.jpg'},
+         'c2': {'A': 'jaci-off-white-sofa-sorrindo.jpg', 'D': 'jaci-off-white-tablet.jpg'},
+         'c3': {'A': 'jaci-nude-sofa-corpo-inteiro.jpg', 'D': 'jaci-preto-mao-no-cabelo.jpg'},
+         'c4': {'A': 'jaci-preto-sorriso-aberto.jpg', 'D': 'jaci-nude-sofa-corpo-inteiro.jpg'}}
+def conteudo(t, cor, fv=VINHO, check='#2F5B3A'):
     if t['tipo'] == 'lista':
-        corpo = f'<div class="tit">{md(t["titulo"])}</div>' + ''.join(f'<div class="li"><i>✓</i><span>{md(x)}</span></div>' for x in t['itens'])
-    elif t['tipo'] == 'mito':
-        corpo = (f'<div class="tit">{md(t.get("titulo","MITO OU VERDADE?"))}</div><div class="mv"><span class="fv">MITO</span><p>{md(t["mito"])}</p></div>'
-                 f'<div class="mv"><span class="fv" style="background:{OURO}">VERDADE</span><p>{md(t["verdade"])}</p></div>')
-    else:
-        corpo = f'<div class="tit">{md(t["titulo"])}</div><p class="tx">{md(t.get("texto",""))}</p>'
-    nota = f'<div class="S nota">{t["nota"]}</div>' if t.get('nota') else ''
-    return base + f'<div class="a" style="left:130px;width:820px;top:200px;height:930px;display:flex;flex-direction:column;justify-content:center;color:{CAFE}"><div>{corpo}{nota}</div></div>' + pontos(i, n, CAFE) + rodape(CAFE)
+        return f'<div class="tit" style="text-align:left">{md(t["titulo"])}</div>' + ''.join(f'<div class="li"><i style="border-color:{check};color:{check}">✓</i><span>{md(x)}</span></div>' for x in t['itens'])
+    if t['tipo'] == 'mito':
+        return (f'<div class="mv"><span class="fv" style="background:{fv}">MITO</span><p>{md(t["mito"])}</p></div>'
+                f'<div class="mv"><span class="fv" style="background:{OURO}">VERDADE</span><p>{md(t["verdade"])}</p></div>')
+    return f'<p class="tx">{md(t.get("texto",""))}</p>'
+def interna(cid, t, i, n):
+    L = ORDEM[cid][i - 1]; tit = '' if t['tipo'] == 'lista' else re.sub(r'^\d+\.\s*', '', t.get('titulo', 'Mito ou verdade?'))
+    if L == 'A':   # foto nítida à direita, texto no creme à esquerda
+        return (f'<div class="a" style="inset:0;background:{CREME}"></div><img class="a" src="{F}/{FOTOS[cid]["A"]}" style="right:0;top:0;width:500px;height:1350px;object-fit:cover;object-position:50% 25%">' + topo(CAFE) +
+                f'<div class="a" style="left:88px;width:470px;top:250px;height:900px;display:flex;flex-direction:column;justify-content:center;color:{CAFE}">'
+                f'<div class="S" style="font-size:{58 if len(tit) < 28 else 46}px;line-height:1.05;margin-bottom:28px">{tit}</div><div class="esq">{conteudo(t, CAFE)}</div></div>' + pontos(i, n, CAFE) + rodape(CAFE))
+    if L == 'B':   # creme tipográfico, número grande dourado e título na faixa com fio
+        return (f'<div class="a" style="inset:0;background:{CREME}"></div>' + topo(CAFE) +
+                f'<div class="a" style="left:0;width:1080px;top:230px;text-align:center;color:{CAFE}"><div class="S" style="font-size:200px;line-height:1;color:{OURO}">{i:02d}</div>'
+                + (f'<div class="fio"><i></i><span class="S" style="font-size:54px">{tit}</span><i></i></div>' if tit else '') +
+                f'<div style="width:820px;margin:34px auto 0">{conteudo(t, CAFE)}</div></div>' + pontos(i, n, CAFE) + rodape(CAFE))
+    if L == 'C':   # cor invertida: fundo vinho, serif branca e detalhes dourados
+        return (f'<div class="a" style="inset:0;background:radial-gradient(900px 800px at 30% 20%,#86283B,{VINHO} 60%,#4A0F1B)"></div>' + topo('#F3EADD') +
+                f'<div class="a" style="left:110px;width:860px;top:250px;height:900px;display:flex;flex-direction:column;justify-content:center;color:#F7EFE6">'
+                + (f'<div class="S" style="font-size:64px;line-height:1.05;border-left:4px solid {OURO};padding-left:26px;margin-bottom:34px">{tit}</div>' if tit else '') +
+                f'<div class="inv">{conteudo(t, "#F7EFE6", fv="#2A0A10", check=OURO)}</div></div>' + pontos(i, n, '#F3EADD') + rodape('#F3EADD'))
+    # D: foto desfocada com véu claro e checks
+    return (foto(FOTOS[cid]['D'], '50% 30%', 'filter:blur(6px) saturate(.7);transform:scale(1.06)') + '<div class="a" style="inset:0;background:rgba(232,226,216,.74)"></div>' + topo(CAFE) +
+            f'<div class="a" style="left:130px;width:820px;top:200px;height:930px;display:flex;flex-direction:column;justify-content:center;color:{CAFE}"><div>'
+            + (f'<div class="tit">{md(tit)}</div>' if tit else '') + f'{conteudo(t, CAFE)}</div></div>' + pontos(i, n, CAFE) + rodape(CAFE))
 def fim(cid, t, i, n):  # cópia de "Antes de qualquer procedimento, eu observo." (faixa café com serif itálica, sans itálico com bold, pílula com seta)
     return (foto('jaci-off-white-tablet.jpg' if cid in ('c1', 'c3') else 'jaci-preto-mao-no-cabelo.jpg', '50% 25%') + '<div class="a" style="inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 45%,rgba(0,0,0,.5) 100%)"></div>' + topo() +
       f'<div class="a" style="left:0;width:1080px;top:760px;text-align:center"><span class="faixa S" style="font-size:60px;background:{CAFE};opacity:.95">{t["serif"]}</span>'
@@ -77,6 +100,6 @@ open(f'{d}/artes.html', 'w').write(f"""<!doctype html><html><head><meta charset=
 .tx{{font-family:Poppins;font-size:42px;line-height:1.35;text-align:center}} .tx b{{font-weight:700}} .nota{{font-size:30px;text-align:center;margin-top:40px;line-height:1.2}}
 .mv{{margin-bottom:38px;text-align:center}} .mv .fv{{font-size:40px}} .mv p{{font-family:Poppins;font-size:36px;line-height:1.3;margin-top:14px}} .mv b{{font-weight:700}}
 .pill{{display:inline-block;margin-top:34px;border:2px solid #fff;border-radius:999px;padding:12px 30px;font-family:Poppins;font-size:24px;color:#fff;letter-spacing:.02em}}
-.dots{{right:88px;top:1170px;display:flex;gap:8px}} .dots i{{width:12px;height:12px;border-radius:50%;display:block}}
+.esq .tx,.esq .mv,.esq .mv p{{text-align:left}} .esq .li{{font-size:31px}} .esq .tx{{font-size:34px}} .inv .tx{{text-align:left}} .inv .mv{{text-align:left}} .inv .tit{{text-align:left}} .dots{{right:88px;top:1170px;display:flex;gap:8px}} .dots i{{width:12px;height:12px;border-radius:50%;display:block}}
 </style></head><body>{''.join(secs)}</body></html>""")
 print(len(secs), 'telas')

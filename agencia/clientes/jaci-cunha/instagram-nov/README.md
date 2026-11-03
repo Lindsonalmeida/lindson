@@ -7,7 +7,7 @@
 | c2 · Biossegurança: o que você não vê | 10/11 | Autoridade | "Bioestimulador de Colágeno" (faixa dourada com fio) |
 | c3 · Mitos × verdades da harmonização | 17/11 | Dúvidas | "Preenchimento facial, por que alguns ficam artificiais…" |
 | c4 · Vem me conhecer | 24/11 | Acolhimento | "Entramos na reta final do ano… / faixas vinho" |
-Telas internas copiam "Seu botox, dia após dia" (foto desfocada com véu, título caixa alta, checks); fechamento copia "Antes de qualquer procedimento, eu observo" (faixa café + pílula).
+Telas do meio (v2, 03/11, pedido do Lindson: sem foto nem composição repetida): 4 composições diferentes por carrossel — A foto nítida dividida (cópia do tríptico "a artista:"), B creme tipográfico com número dourado e faixa com fio (cópia de "Bioestimulador"), C cor invertida vinho (faixas vinho de "E EU SEMPRE AVISO"), D foto desfocada com véu e checks (cópia de "Seu botox, dia após dia"); nenhuma foto se repete dentro do carrossel; fechamento copia "Antes de qualquer procedimento, eu observo" (faixa café + pílula).
 Gerar: `python3 gerar.py <pasta com textos.json> ../fotos && node render.js <pasta>`.
 **Confirmar com a Dra.:** c2 diz que ela usa produtos com registro na Anvisa de fornecedores autorizados e segue protocolos de biossegurança.
 No painel dela (Aprovações) com todas as telas e a legenda, aguardando aprovação no site.
