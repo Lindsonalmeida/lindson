@@ -1,5 +1,18 @@
 # Aniversário do Leo: template premium escolhido (conta Leandro, 03/11/2026)
 
+## Versão 2 (atual): combinação de 3 modelos externos
+Lindson (03/11) sobre a v1: "está muito simples… quero algo detalhado e criativo" + "busque referências em sites externos, e use a nossa identidade, não em artes nossas para ficar tudo igual". A v1 (só título + nome + foto) foi **reprovada**. Nada das artes anteriores do Leo foi reaproveitado na composição (só a identidade: cores, fontes, logo, @).
+
+| Modelo externo (Designi) | O que foi copiado |
+|---|---|
+| Feliz Aniversário Carla Silva (#76d0686381553f43) · `referencias/designi-carla-silva.jpg` | PARABÉNS repetido em camadas no fundo; nome em **caixas inclinadas empilhadas** FELIZ / NOME / ANIVERSÁRIO sobre o corpo; frase curta ao lado |
+| Feliz Aniversário Pr André Vieira (#92f01b34ad53fe9f) · `referencias/designi-lider-homenagem.jpg` | **parede tipográfica** gigante (linhas sólidas e em contorno) inclinada atrás da pessoa; textura de impressão (retícula nos cantos + grão); **contorno de luz** em volta do recorte |
+| Feliz Aniversário Pedro Sampaio (#f3bd85bfc113ec43) · `referencias/designi-pedro-sampaio.jpg` | **"parabéns" manuscrito enorme** atrás das cabeças; frase em **linhas grifadas** (fundo branco por linha); data com fio de destaque |
+
+Tirado dos modelos (proibido no Leo): balões, estrelas, chapéu de festa, emoji, ícones de contato.
+
+## Versão 1 (reprovada: simples demais)
+
 Processo do padrão premium (CLAUDE.md, modelo `apps/clone-studio/identidade/TEMPLATE.md`): pesquisar sites de templates, escolher o mais premium, copiar a composição na identidade do cliente, registrar o escolhido e os descartados. Capturas em `referencias/`.
 
 ## Pesquisa

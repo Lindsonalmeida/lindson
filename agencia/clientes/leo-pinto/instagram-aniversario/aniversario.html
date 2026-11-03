@@ -1,48 +1,74 @@
 <!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
-<!-- MODELO ÚNICO de aniversário (todos os aniversariantes) · Vereador Leo Pinto · conta Leandro, 03/11/2026.
-     Pedido do Lindson: "crie um modelo que será usado para todos os aniversariantes" + "siga a regra de sempre buscar referências premium".
-     Composição COPIADA do Designi "Feliz Aniversário Paulo André" (versões vermelha #7beb9a880084f979 e azul #207f3a863447dadf; capturas em referencias/):
-     rótulo "FELIZ" em caixa, "ANIVERSÁRIO" condensado gigante, NOME em amarelo condensado logo abaixo, selo com a data, pessoa recortada grande
-     na frente saindo pela base, assinatura na base. Adaptado às regras do Leo: sem estrelinhas/brilhos (grafismos proibidos), Anton + Kaushan + Montserrat,
-     laranja (principal) ou azul (quando a roupa da pessoa é laranja), logo LEO PINTO aplicada direto (sem placa), @ com avatar no topo.
-     Os dados entram por window.DADOS (ver gerar.js). Nada de foto de pessoa no Git. -->
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=Kaushan+Script&family=Montserrat:wght@500;700;900&display=swap" rel="stylesheet">
+<!-- MODELO ÚNICO de aniversário (todos os aniversariantes) · Vereador Leo Pinto · versão 2 · conta Leandro, 03/11/2026.
+     Lindson: "está muito simples, melhore com as referências… quero algo detalhado e criativo" + "busque referências em sites externos, e use a nossa
+     identidade, não em artes nossas". Composição combinada de 3 modelos EXTERNOS do Designi (capturas em referencias/, ver TEMPLATE.md):
+     · "Feliz Aniversário Carla Silva" (#76d0686381553f43): palavra PARABÉNS repetida em camadas ao fundo + nome em caixas inclinadas empilhadas
+       (FELIZ / NOME / ANIVERSÁRIO) sobre o corpo + frase curta na lateral;
+     · "Feliz Aniversário Pr André Vieira" (#92f01b34ad53fe9f): parede tipográfica gigante (sólida × contorno) atrás da pessoa, textura de impressão
+       e contorno de luz recortando a pessoa;
+     · "Feliz Aniversário Pedro Sampaio" (#f3bd85bfc113ec43): "parabéns" manuscrito enorme cruzando a peça e frase em linhas grifadas.
+     Identidade do Leo: laranja/azul/marinho/amarelo, Anton + Kaushan Script + Montserrat, logo LEO PINTO direto na base, @ com avatar.
+     Proibido (regras de 02/11): balões, estrelas, brilhos, emojis, ícones, raios, faixas de padrão. Dados por window.DADOS (gerar.js). -->
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Kaushan+Script&family=Montserrat:wght@500;700;800;900&display=swap" rel="stylesheet">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}body{width:1080px;height:1350px;overflow:hidden;font-family:Montserrat,sans-serif}
 .arte{position:relative;width:1080px;height:1350px;overflow:hidden}
-.azul{background:radial-gradient(1100px 1000px at 50% 30%,#4A78FF 0,#2E5BFA 26%,#2350F5 46%,#1539BE 72%,#082063 100%)}
-.laranja{background:radial-gradient(1000px 900px at 50% 25%,#FFC84A 0,#FFA526 28%,#FF8A1F 52%,#FF7A1A 74%,#E8590C 100%)}
+.azul{--f1:#2E5BFA;--f2:#082063;--tx:#fff;--dest:#FFC20E;--cx1:#fff;--cx1t:#05316E;--cx2:#FFC20E;--cx2t:#05316E;--cx3:#05316E;--cx3t:#fff;--luz:#FFC20E;
+ background:radial-gradient(900px 800px at 50% 38%,#4A78FF 0,#2E5BFA 30%,#1539BE 64%,#071A55 100%)}
+.laranja{--f1:#FF8A1F;--f2:#B83F00;--tx:#fff;--dest:#05316E;--cx1:#fff;--cx1t:#E8590C;--cx2:#05316E;--cx2t:#fff;--cx3:#FFC20E;--cx3t:#05316E;--luz:#fff;
+ background:radial-gradient(900px 800px at 50% 38%,#FFC84A 0,#FFA526 26%,#FF7A1A 60%,#C64A06 100%)}
 .a{position:absolute}
-.grao{inset:0;opacity:.10;mix-blend-mode:overlay;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>")}
-.eco{left:-40px;right:-40px;top:470px;text-align:center;font:400 330px/0.86 Anton;color:rgba(255,255,255,.07);white-space:nowrap;text-transform:uppercase}
-.pill{left:50%;transform:translateX(-50%);top:46px;display:flex;align-items:center;gap:12px;background:rgba(5,49,110,.55);color:#fff;font:700 22px Montserrat;padding:6px 22px 6px 6px;border-radius:99px;white-space:nowrap}
+/* parede tipográfica (Pr André + Carla Silva): linhas de PARABÉNS alternando sólido translúcido e contorno */
+.parede{left:-120px;top:-40px;width:1400px;transform:rotate(-8deg);transform-origin:center}
+.parede div{font:400 236px/0.84 Anton;text-transform:uppercase;white-space:nowrap;letter-spacing:-.01em}
+.parede .s{color:rgba(255,255,255,.10)}
+.parede .c{color:transparent;-webkit-text-stroke:2.5px rgba(255,255,255,.32)}
+.laranja .parede .s{color:rgba(255,255,255,.16)}.laranja .parede .c{-webkit-text-stroke:2.5px rgba(255,255,255,.45)}
+/* textura de impressão (retícula + grão), mais forte nos cantos */
+.ret{inset:0;opacity:.22;mix-blend-mode:soft-light;background-image:radial-gradient(rgba(0,0,0,.9) 1.3px,transparent 1.6px);background-size:9px 9px;
+ -webkit-mask:radial-gradient(70% 60% at 50% 45%,transparent 40%,#000 100%);mask:radial-gradient(70% 60% at 50% 45%,transparent 40%,#000 100%)}
+.grao{inset:0;opacity:.13;mix-blend-mode:overlay;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>")}
+/* halo de luz atrás das cabeças */
+.halo{width:900px;height:900px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.34) 0,rgba(255,255,255,.12) 35%,transparent 68%)}
+/* "parabéns" manuscrito gigante (Pedro Sampaio), parte atrás e parte na frente da pessoa */
+.script{font-family:'Kaushan Script';font-size:250px;line-height:1;white-space:nowrap;color:var(--dest);transform:rotate(-9deg)}
+.pessoa{left:50%;transform:translateX(-50%);filter:drop-shadow(0 0 0 var(--luz)) drop-shadow(2px 0 0 var(--luz)) drop-shadow(-2px 0 0 var(--luz)) drop-shadow(0 -2px 0 var(--luz)) drop-shadow(0 34px 50px rgba(2,12,50,.55))}
+.sombra{left:0;right:0;bottom:0;height:520px;background:linear-gradient(180deg,transparent,rgba(4,16,60,.82))}
+.laranja .sombra{background:linear-gradient(180deg,transparent,rgba(110,30,0,.62))}
+/* caixas inclinadas empilhadas (Carla Silva) */
+.pilha{left:52px;bottom:180px;display:grid;justify-items:start;gap:0;transform:rotate(-6deg);transform-origin:left bottom}
+.cx{font-family:Anton;text-transform:uppercase;line-height:1;padding:12px 26px 6px;white-space:nowrap;box-shadow:0 18px 36px -14px rgba(0,0,0,.45)}
+.cx1{background:var(--cx1);color:var(--cx1t);font-size:104px}
+.cx2{background:var(--cx2);color:var(--cx2t);margin:-6px 0 0 54px}
+.cx3{background:var(--cx3);color:var(--cx3t);font-size:96px;margin:-6px 0 0 18px}
+/* frase em linhas grifadas (Pedro Sampaio / Carla Silva) */
+.frase{right:58px;top:196px;width:330px;text-align:right;transform:rotate(-3deg)}
+.frase span{display:inline;background:#fff;color:#05316E;font:800 23px/1.82 Montserrat;padding:4px 10px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.data{right:58px;top:136px;font:900 20px Montserrat;letter-spacing:.2em;color:var(--tx);border-bottom:3px solid var(--dest);padding-bottom:6px;transform:rotate(-3deg)}
+.pill{left:52px;top:52px;display:flex;align-items:center;gap:12px;background:rgba(5,49,110,.62);color:#fff;font:700 22px Montserrat;padding:6px 22px 6px 6px;border-radius:99px}
 .pill img{width:46px;height:46px;border-radius:50%;object-fit:cover;border:2px solid #FFC20E}
-.feliz{left:50%;transform:translateX(-50%) rotate(-3deg);top:138px;background:#05316E;color:#fff;font:400 44px Anton;letter-spacing:.16em;padding:6px 22px 2px 30px}
-.tit{left:0;right:0;text-align:center;transform:rotate(-3deg);font-family:Anton;text-transform:uppercase;line-height:.9;white-space:nowrap}
-.data{background:#fff;color:#05316E;font:900 24px Montserrat;letter-spacing:.06em;padding:8px 18px;border-radius:99px;transform:rotate(-3deg);white-space:nowrap}
-.pessoa{left:50%;transform:translateX(-50%);filter:drop-shadow(0 30px 46px rgba(2,12,50,.45))}
-.base{left:0;right:0;bottom:0;height:330px;background:linear-gradient(180deg,transparent,rgba(5,20,70,.78))}
-.laranja .base{background:linear-gradient(180deg,transparent,rgba(120,40,0,.55))}
-.frase{right:60px;bottom:66px;width:430px;text-align:right;color:#fff;font:500 25px/1.4 Montserrat;text-shadow:0 2px 12px rgba(0,0,0,.35)}
-.frase .k{display:block;font:400 54px/1 'Kaushan Script';color:#FFC20E;margin-bottom:8px}
-.logo{left:56px;bottom:52px;width:250px;filter:drop-shadow(0 8px 18px rgba(0,0,0,.35))}
+.assina{left:52px;right:52px;bottom:48px;display:flex;justify-content:space-between;align-items:flex-end}
+.assina .m{font:700 20px/1.45 Montserrat;color:#fff;opacity:.92;text-align:right}
+.assina .m b{display:block;font:400 34px/1 'Kaushan Script';color:var(--dest);margin-bottom:4px}
+.laranja .assina .m b{color:#fff}
+.logo{width:228px;filter:drop-shadow(0 8px 18px rgba(0,0,0,.35))}
 </style></head><body><div id="arte"></div>
 <script>
-const d=window.DADOS, cor=d.cor||'laranja', A=d.amarelo||'#FFC20E';
-document.getElementById('arte').innerHTML=`<div class="arte ${cor}"><div class="a grao"></div>
-<div class="a eco">${d.nome1}</div>
+const d=window.DADOS,cor=d.cor||'laranja',nome=(d.nome1+' '+(d.nome2||'')).trim();
+const linhas=Array.from({length:7},(_,i)=>`<div class="${i%2?'c':'s'}" style="margin-left:${(i%3)*-160}px">PARABÉNS PARABÉNS</div>`).join('');
+const frase=(d.frase||'').split('|').map(t=>`<span>${t.trim()}</span>`).join('<br>');
+document.getElementById('arte').innerHTML=`<div class="arte ${cor}">
+<div class="a parede">${linhas}</div><div class="a ret"></div><div class="a grao"></div>
+<div class="a halo" style="left:${90+(d.dx||0)}px;top:${(d.topo||430)-200}px"></div>
+<div class="a script" id="sc1" style="left:34px;top:${(d.topo||430)-150}px;font-size:200px">parabéns</div>
+<img class="a pessoa" src="${d.foto}" style="top:${d.topo||430}px;width:${d.largura||960}px;margin-left:${d.dx||0}px">
+<div class="a sombra"></div>
 <div class="a pill"><img src="${d.avatar}">@_leonardopinto</div>
-<div class="a feliz">FELIZ</div>
-<div class="a tit" id="t1" style="top:206px;color:#fff;font-size:178px">ANIVERSÁRIO</div>
-<div class="a tit" id="t2" style="top:368px;color:${cor==='laranja'?'#05316E':A};font-size:150px">${d.nome1} ${d.nome2||''}</div>
-${d.data?`<div class="a data" id="dt">● ${d.data}</div>`:''}
-<img class="a pessoa" src="${d.foto}" style="top:${d.topo||520}px;width:${d.largura||820}px;margin-left:${d.dx||0}px">
-<div class="a base"></div>
-<img class="a logo" src="${cor==='laranja'?d.logoMarinho:d.logo}">
-<div class="a frase"><span class="k">${d.chamada||'Parabéns!'}</span>${d.frase}</div></div>`;
-// nome e título sempre cabem na largura (nome longo diminui sozinho); mede só depois de a Anton carregar
-const caber=(e,max)=>{const sp=document.createElement('span');sp.textContent=e.textContent;sp.style.cssText='font:inherit;white-space:nowrap';e.textContent='';e.appendChild(sp);let f=parseFloat(e.style.fontSize);while(sp.offsetWidth>max&&f>60){f-=3;e.style.fontSize=f+'px'}};
-document.fonts.load('150px Anton').then(()=>document.fonts.ready).then(()=>{caber(document.getElementById('t1'),900);caber(document.getElementById('t2'),960);
- const T2=document.getElementById('t2'),sp=T2.firstChild,dt=document.getElementById('dt');if(dt){dt.style.left=(540+sp.offsetWidth/2-dt.offsetWidth-6)+'px';dt.style.top=(T2.offsetTop+T2.offsetHeight-2)+'px'}
+${d.data?`<div class="a data">${d.data}</div>`:''}
+${frase?`<div class="a frase">${frase}</div>`:''}
+<div class="a pilha"><div class="cx cx1">Feliz</div><div class="cx cx2" id="nm" style="font-size:120px">${nome}</div><div class="cx cx3">Aniversário</div></div>
+<div class="a assina"><span></span><div style="display:flex;align-items:flex-end;gap:26px"><div class="m"><b>${d.chamada||'Parabéns!'}</b>${d.assinatura||'Um abraço do amigo Leo'}</div><img class="logo" src="${cor==='laranja'?d.logoMarinho:d.logo}"></div></div></div>`;
+document.fonts.load('120px Anton').then(()=>document.fonts.load('100px "Kaushan Script"')).then(()=>document.fonts.ready).then(()=>{
+ const n=document.getElementById('nm');let f=120;while(n.offsetWidth>930&&f>56){f-=3;n.style.fontSize=f+'px'}
  window.pronto=true});
 </script></body></html>

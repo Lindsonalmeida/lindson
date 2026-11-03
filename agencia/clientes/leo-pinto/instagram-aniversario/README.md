@@ -2,7 +2,7 @@
 
 Pedido do Lindson (03/11): "crie um modelo para aniversário de pessoas" + "crie um modelo que será usado para todos os aniversariantes" + "siga a regra de sempre buscar referências premium". Primeiro aniversariante: **Josef Figueiredo** (foto dele com o Leo num evento).
 
-**Um modelo só para todos:** muda só nome, data, foto, frase e cor. Template escolhido e descartados em `TEMPLATE.md`.
+**Um modelo só para todos (versão 2, detalhada):** muda só nome, data, foto, frase e cor. Composição combinada de 3 modelos externos do Designi (Carla Silva, Pr André Vieira, Pedro Sampaio): parede de PARABÉNS, "parabéns" manuscrito, pessoa com contorno de luz, nome em caixas inclinadas, frase grifada. Ver `TEMPLATE.md`. A v1 (simples) foi reprovada.
 - **Cor:** `laranja` (principal) ou `azul` (use azul quando a roupa da pessoa for laranja, como a do Josef). No feed, alternar com o post anterior (xadrez).
 - **Foto:** a pessoa (de preferência com o Leo) recortada, saindo pela base da arte. Foto de pessoa **não vai para o Git**.
 - **Assinatura fixa:** @_leonardopinto com avatar no topo, logo LEO PINTO na base esquerda (branca no azul, letras marinho no laranja), sem placa.
@@ -12,7 +12,8 @@ Pedido do Lindson (03/11): "crie um modelo para aniversário de pessoas" + "crie
 1. Peça ao Lindson a foto (uma por mensagem), o nome como deve aparecer e a data.
 2. `python3 recortar.py <foto.jpg> <pasta> [x0 y0 x1 y1]` → `<pasta>/recorte.png` (precisa de `rembg`).
 3. Na pasta: `avatar.jpg` (foto de perfil do Leo), `logo.png` (= `../instagram-v12-feed/marca/logo_principal.png`), `logo-marinho.png` (`python3 logo_marinho.py <pasta>`), e `dados.json`:
-   `{"nome1":"JOSEF","nome2":"FIGUEIREDO","data":"HOJE","cor":"azul","chamada":"Parabéns, amigo!","frase":"Que Deus abençoe sua vida com saúde, paz e muitas conquistas. Conte sempre comigo.","topo":470,"largura":900,"dx":0}`
+   `{"nome1":"JOSEF","nome2":"FIGUEIREDO","data":"HOJE · 03 DE NOVEMBRO","cor":"azul","chamada":"Parabéns, amigo!","frase":"Que Deus abençoe| sua vida com saúde,| paz e muitas| conquistas.","assinatura":"Conte sempre comigo.","topo":330,"largura":980,"dx":20}`
+   (`|` quebra a frase em linhas grifadas)
    (`topo`/`largura`/`dx` ajustam a foto: rostos logo abaixo do nome; nome longo diminui sozinho).
 4. `node gerar.js <pasta>` → `<pasta>/aniversario.jpg` (1080×1350).
 
