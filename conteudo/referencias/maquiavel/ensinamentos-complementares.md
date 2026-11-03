@@ -1,6 +1,6 @@
 # Maquiavel — ensinamentos complementares (249 em diante)
 
-**Situação:** parcial — feito até a seção 1 (*História de Florença*, completa: 249–411). Continuar pela seção 2 (*Arte da Guerra*). (conta Zuleide, ciclo 2 da revisão, 03/11/2026)
+**Situação:** parcial — feito até a seção 2 (*História de Florença* 249–411; *Arte da Guerra* 412–468). Continuar pela seção 3 (legações e escritos políticos). (conta Zuleide, ciclo 2 da revisão, 03/11/2026)
 
 Continua `../maquiavel-todos-ensinamentos.md` (1–248: *Príncipe*, *Discursos*, regras gerais da *Arte da Guerra*). Aqui entram os ensinamentos que faltavam: *História de Florença* (8 livros), *Arte da Guerra* além das regras gerais, legações e escritos políticos, cartas, literatura e a vida.
 
@@ -681,3 +681,251 @@ Negócio [Interpretação nossa]: o dono que vira figura pública e descuida do 
 **411. Morto quem sabia apagar as más sementes, elas arruinaram tudo.**
 Ref.: VIII.36 (fim da obra). Texto: começaram a nascer «quegli cattivi semi i quali, non dopo molto tempo, non sendo vivo chi gli sapesse spegnere, rovinorono, e ancora rovinano, la Italia».
 Negócio [Interpretação nossa]: se a ordem da empresa depende de uma pessoa, a saída dela solta os problemas acumulados; deixe sucessor e regras.
+
+---
+
+## 2. A Arte da Guerra (*Dell'arte della guerra*, 1519–1520; impressa em 1521) — além das 27 regras gerais
+
+> As regras gerais do Livro VII já estão em `../maquiavel-todos-ensinamentos.md` 220–248. Aqui vão as lições do Proêmio e dos sete livros. O diálogo é entre **Fabrizio Colonna** (porta-voz principal) e os jovens dos Orti Oricellari; as falas de Fabrizio são o pensamento que Maquiavel expõe, mas continuam sendo de personagem. Citações conferidas no Martelli e no Wikisource.
+
+### Proêmio e Livro I (o recrutamento)
+
+**412. Toda boa instituição é vã sem defesa preparada.**
+Ref.: *Arte da Guerra*, Proêmio. Texto: «tutte l'arti che si ordinano in una civiltà per cagione del bene comune degli uomini, tutti gli ordini fatti in quella per vivere con timore delle leggi e d'Iddio, sarebbono vani, se non fussono preparate le difese loro».
+Negócio [Interpretação nossa]: processo bonito sem caixa, contrato e backup cai na primeira crise.
+
+**413. Bons ordenamentos sem força são um palácio sem telhado.**
+Ref.: Proêmio. Texto: os bons ordenamentos sem ajuda militar «non altrimenti si disordinano che l'abitazioni d'uno superbo e regale palazzo, ancora che ornate di gemme e d'oro, quando, sanza essere coperte, non avessono cosa che dalla pioggia le difendesse».
+Negócio [Interpretação nossa]: site bonito e identidade linda sem venda e sem reserva não protegem o negócio.
+
+**414. Errar escrevendo não custa; errar agindo custa o império.**
+Ref.: Proêmio. Texto: «gli errori che io facessi, scrivendo, possono essere sanza danno d'alcuno corretti, ma quegli i quali da loro sono fatti, operando, non possono essere, se non con la rovina degli imperii, conosciuti».
+Negócio [Interpretação nossa]: teste no papel, no rascunho e no piloto; o erro em produção (campanha com verba alta) é caro.
+
+**415. Imitar os antigos nas coisas duras, não nas fáceis.**
+Ref.: Livro I. Texto: o que Fabrizio quer introduzir: «Onorare e premiare le virtù, non dispregiare la povertà, stimare i modi e gli ordini della disciplina militare, constringere i cittadini ad amare l'uno l'altro, a vivere sanza sètte, a stimare meno il privato che il publico».
+Negócio [Interpretação nossa]: copie das grandes empresas a disciplina e o mérito, não o escritório chique.
+
+**416. Quem vive só da guerra precisa da guerra: não dê o ofício essencial a quem lucra com o conflito.**
+Ref.: Livro I. Texto: a cidade bem ordenada deve querer «che questo studio di guerra si usi ne' tempi di pace per esercizio e ne' tempi di guerra per necessità e per gloria, e al publico solo lasciarla usare per arte»; e quem mantém soldados de ofício «tu sei forzato o a fare sempre mai guerra, o a pagargli sempre».
+Negócio [Interpretação nossa]: fornecedor que só ganha se houver problema (o "apagador de incêndios" eterno) não tem interesse em resolver de vez; contrate por solução.
+
+**417. O bom líder ama a paz e sabe fazer a guerra.**
+Ref.: Livro I (Fabrizio). Texto: «l'arte mia è governare i miei sudditi e defendergli, e per potergli defendere, amare la pace e saper fare la guerra».
+Negócio [Interpretação nossa]: prefira parceria, mas esteja pronto para competir e se defender (contrato, reputação, preço justo).
+
+**418. Uma batalha vencida apaga os erros; perdida, anula os acertos.**
+Ref.: Livro I. Texto: «una giornata che tu vinca, cancella ogni altra tua mala azione; così medesimamente, perdendola, restono vane tutte le cose bene da te avanti operate».
+Negócio [Interpretação nossa]: a entrega principal do mês (o lançamento do cliente) pesa mais que todo o resto; concentre nela a melhor energia.
+
+**419. Onde falta a natureza, o treino supre — e vale mais.**
+Ref.: Livro I. Texto: «dove manca la natura, sopperisce la 'ndustria, la quale in questo caso vale più che la natura».
+Negócio [Interpretação nossa]: contrate pelo caráter e treine a técnica; talento sem treino perde para treino sem talento extra.
+
+**420. Escolha gente que saiba viver de outro ofício além do conflito.**
+Ref.: Livro I. Texto: «Il che sempre fia, quando egli scerrà uomini che sappiano vivere d'altra arte che di questa».
+Negócio [Interpretação nossa]: no time, prefira quem tem vida e interesses equilibrados ao "mercenário" que vive de trocar de emprego pelo maior lance.
+
+**421. Ao escolher pessoas, olhe antes os costumes: sem honestidade e vergonha, você contrata escândalo.**
+Ref.: Livro I. Texto: «Debbesi sopratutto riguardare a' costumi, e che in lui sia onestà e vergogna, altrimenti si elegge uno instrumento di scandolo e uno principio di corruzione».
+Negócio [Interpretação nossa]: na contratação, referência de conduta pesa mais que portfólio.
+
+**422. Educação desonesta não produz virtude louvável.**
+Ref.: Livro I. Texto: «non sia alcuno che creda che nella educazione disonesta e nello animo brutto possa capere alcuna virtù che sia in alcuna parte lodevole».
+Negócio [Interpretação nossa]: quem foi formado em ambiente de trapaça precisa de muita reeducação; não conte com "ele só é esperto".
+
+**423. Quem nunca foi posto à prova ainda não provou nada.**
+Ref.: Livro I. Texto: «La pruova di virtù non si può trovare negli uomini che si eleggono di nuovo e che mai più non sono stati eletti».
+Negócio [Interpretação nossa]: dê ao novato uma tarefa real e pequena antes da conta grande.
+
+**424. Armas próprias não fazem tiranos; desarmamento é que tira a liberdade.**
+Ref.: Livro I. Texto: «Stette Roma libera quattrocento anni, ed era armata; Sparta, ottocento; molte altre città sono state disarmate, e sono state libere meno di quaranta».
+Negócio [Interpretação nossa]: ter equipe própria forte não ameaça o dono quando há regras; depender de terceiros é que tira a liberdade.
+
+**425. Quem sabe dar a batalha bem tem perdoados os outros erros.**
+Ref.: Livro I. Texto: «chi sa bene presentare al nimico una giornata, gli altri errori che facesse ne' maneggi della guerra sarebbono sopportabili; ma chi manca di questa disciplina, ancora che negli altri particolari valesse assai, non condurrà mai una guerra a onore».
+Negócio [Interpretação nossa]: saiba fechar a venda e entregar o resultado central; detalhes administrativos o cliente perdoa, a entrega não.
+
+### Livro II (armar e exercitar)
+
+**426. Não é o brilho do ouro que faz o inimigo se submeter, é o temor das armas.**
+Ref.: Livro II. Texto: «non lo splendore delle gemme e dell'oro fa che i nimici ti si sottomettono, ma solo il timore dell'armi».
+Negócio [Interpretação nossa]: concorrente respeita sua capacidade de entregar e de reter clientes, não o seu escritório.
+
+**427. Na guerra, o erro não se corrige: a pena vem na hora.**
+Ref.: Livro II. Texto: «gli errori che si fanno nell'altre cose, si possono qualche volta correggere; ma quegli che si fanno nella guerra, sopravvenendo subito la pena, non si possono emendare».
+Negócio [Interpretação nossa]: em situação de crise com cliente ou em live, não improvise: siga o roteiro combinado.
+
+**428. Ordem tira o medo; desordem tira a coragem.**
+Ref.: Livro II. Texto: «gli uomini feroci e disordinati sono molto più deboli che i timidi e ordinati; perché l'ordine caccia dagli uomini il timore, il disordine scema la ferocia».
+Negócio [Interpretação nossa]: equipe tímida com processo claro rende mais que equipe brilhante sem processo.
+
+**429. O que dá coragem é saber quem cobre você se cair.**
+Ref.: Livro II. Texto: «lo esercito animoso non lo fa per essere in quello uomini animosi, ma lo esservi ordini bene ordinati».
+Negócio [Interpretação nossa]: cada função com substituto definido; a pessoa ousa mais quando sabe que não está sozinha.
+
+**430. Onde se chega às vias de fato, toda pequena vantagem pesa.**
+Ref.: Livro II. Texto: «dove si ragiona che gli uomini abbiano a venire alle mani, ogni piccolo vantaggio è di gran momento».
+Negócio [Interpretação nossa]: na concorrência direta por um cliente, detalhes (resposta rápida, proposta clara, case parecido) decidem.
+
+**431. A virtude de um só não remedeia a ruína que está longe dele.**
+Ref.: Livro II. Texto: «la virtù d'uno solo non rimedia alla rovina discosto».
+Negócio [Interpretação nossa]: o dono não consegue salvar sozinho o que acontece longe dos olhos dele; precisa de líderes em cada frente.
+
+**432. A cada dez pessoas, uma que segure as outras pelo exemplo.**
+Ref.: Livro II. Texto: «tra ogni dieci uomini, sia uno di più vita, di più cuore o almeno di più autorità, il quale con lo animo, con le parole, con lo esemplo tenga gli altri fermi».
+Negócio [Interpretação nossa]: em cada pequeno time, um líder de referência (não precisa de cargo).
+
+**433. Muitas escoras fracas seguram melhor que poucas fortes.**
+Ref.: Livro II. Texto: um muro que pende «vuole piuttosto assai puntegli e spessi, ancora che non così forti, che pochi, ancora che gagliardi»; e o exército «conviene ch'egli abbia assai anime e, per consequente, assai vita».
+Negócio [Interpretação nossa]: carteira com muitos clientes médios é mais segura que dois gigantes; equipe com vários líderes, mais que um herói.
+
+**434. Repúblicas produzem mais gente excelente porque honram a virtude em vez de temê-la.**
+Ref.: Livro II. Texto: «delle republiche esce più uomini eccellenti che de' regni, perché in quelle il più delle volte si onora la virtù, ne' regni si teme».
+Negócio [Interpretação nossa]: empresa que dá voz e crédito aos bons atrai os bons; chefe que teme talento fica sozinho.
+
+**435. Quem tem ordem dá as leis; quem não tem, recebe.**
+Ref.: Livro II. Texto: «saranno quegli che daranno e non riceveranno le leggi dagli altri uomini».
+Negócio [Interpretação nossa]: agência organizada dita as condições (prazo, escopo); a desorganizada aceita as do cliente.
+
+**436. O nervo do exército é a infantaria: o núcleo vale mais que o brilho.**
+Ref.: Livro II. Texto: «il nervo e la importanza dello esercito è la fanteria»; e a Itália foi arruinada «non per altro peccato che per avere tenuta poca cura della milizia di piè».
+Negócio [Interpretação nossa]: invista primeiro na entrega diária (atendimento, produção), depois no marketing de vitrine.
+
+### Livro III (a batalha)
+
+**437. Nunca aposte tudo numa só frente e num só ímpeto.**
+Ref.: Livro III. Texto: «Il maggiore disordine che facciano coloro che ordinano uno esercito alla giornata, è dargli solo una fronte e obligarlo a uno impeto e una fortuna».
+Negócio [Interpretação nossa]: lançamento em ondas (pré, lançamento, recuperação), não tudo num só dia.
+
+**438. Com três linhas, a sorte precisa abandonar você três vezes.**
+Ref.: Livro III. Texto: «bisogna che tre volte la fortuna ti abbandoni e che il nimico abbia tanta virtù che tre volte ti vinca».
+Negócio [Interpretação nossa]: tenha plano B e C (caixa, segundo canal de venda, segundo fornecedor).
+
+**439. Ao que não se pode aguentar, dê passagem.**
+Ref.: Livro III (regra repetida no Livro IV). Texto: «a quelle cose le quali non si possono sostenere, si ha a dare la via».
+Negócio [Interpretação nossa]: diante de uma mudança de plataforma ou de mercado que não dá para enfrentar, adapte-se em vez de resistir.
+
+### Livro IV (o terreno, astúcias, falar à tropa)
+
+**440. Com os mesmos soldados, mudando ordem e lugar, o perdedor vira vencedor.**
+Ref.: Livro IV. Texto: «con i medesimi soldati, variando solo l'ordine e il luogo, si diventa di perdente vittorioso».
+Negócio [Interpretação nossa]: antes de trocar a equipe, troque o processo e o canal.
+
+**441. O pior sinal de derrota é não acreditar que se pode vencer.**
+Ref.: Livro IV. Texto: «il maggiore segno di perdere è quando non si crede potere vincere».
+Negócio [Interpretação nossa]: time que já entra na proposta achando que vai perder transmite isso ao cliente; prepare-o até confiar.
+
+**442. Os homens são atingidos onde menos desconfiam — inclusive o vencedor.**
+Ref.: Livro IV. Texto: «gli uomini sono offesi più dove dubitano meno».
+Negócio [Interpretação nossa]: depois de grande vitória, revise segurança, contratos e caixa; o descuido vem aí.
+
+**443. Contra o plano do adversário, faça por vontade o que ele quer obrigar você a fazer.**
+Ref.: Livro IV. Texto: «il maggiore rimedio che si usi contro a uno disegno del nimico, è fare volontario quello ch'egli disegna che tu faccia per forza».
+Negócio [Interpretação nossa]: se o concorrente quer forçar você a baixar preço, crie você um plano de entrada menor, com escopo menor, e não perca margem.
+
+**444. Melhor tentar a sorte onde ela pode ajudar do que esperar a ruína certa.**
+Ref.: Livro IV. Texto: «egli è assai meglio tentare la fortuna dov'ella ti possa favorire, che, non la tentando, vedere la tua certa rovina».
+Negócio [Interpretação nossa]: se o caixa vai acabar de qualquer jeito, faça a aposta calculada agora (nova oferta, novo nicho), enquanto há fôlego.
+
+**445. O líder precisa saber falar à equipe.**
+Ref.: Livro IV. Texto: «gli eccellenti capitani conveniva che fussono oratori»; o falar «lieva il timore, accende gli animi, cresce l'ostinazione, scuopre gl'inganni, promette premii, mostra i pericoli e la via di fuggirli».
+Negócio [Interpretação nossa]: reunião curta antes do desafio: o perigo, o caminho, o prêmio. Sem mentir.
+
+**446. A necessidade mais forte é a de vencer ou morrer.**
+Ref.: Livro IV (fim). Texto: «Le necessitadi possono essere molte, ma quella è più forte, che ti costringe o vincere o morire».
+Negócio [Interpretação nossa]: comprometimento total motiva, mas use só quando é real; criar necessidade falsa (ameaçar demissão para "motivar") é assédio e destrói a confiança.
+
+### Livro V (a marcha)
+
+**447. A disciplina é saber comandar e executar bem o básico.**
+Ref.: Livro V. Texto: «né è altro la disciplina militare che sapere bene comandare ed eseguire queste cose».
+Negócio [Interpretação nossa]: excelência é o básico bem feito todo dia (prazo, resposta, revisão).
+
+**448. Ordens claras, nunca ambíguas.**
+Ref.: Livro V. Texto: as vozes de comando devem ser «chiare e nette».
+Negócio [Interpretação nossa]: briefing escrito, com prazo e responsável; "vê aí" não é ordem.
+
+**449. O butim é do caixa comum, não de quem saqueia.**
+Ref.: Livro V. Texto: com o butim no tesouro, os soldados «attendevano a vincere e non a rubare».
+Negócio [Interpretação nossa]: comissão sobre resultado da empresa, não "cada um com seu cliente"; senão cada um caça para si e ninguém defende a casa.
+
+**450. Se o inimigo oferece uma presa, há anzol nela.**
+Ref.: Livro V. Texto: «se il nimico ti mettesse innanzi una preda, dèi credere che in quella sia l'amo».
+Negócio [Interpretação nossa]: proposta boa demais de concorrente ou de cliente desconhecido: verifique antes.
+
+**451. Nunca acredite que o adversário não sabe cuidar dos seus negócios.**
+Ref.: Livro V. Texto: «non hai a credere mai che il nimico non sappia fare i fatti suoi».
+Negócio [Interpretação nossa]: tema o concorrente no planejamento, despreze-o só no discurso (e sem deboche público).
+
+**452. Nada é mais útil que calar o que se vai fazer; o previsto fere menos.**
+Ref.: Livro V. Texto: «non è cosa nella guerra più utile che tacere le cose che si hanno a fare»; «le cose previse offendono meno».
+Negócio [Interpretação nossa]: não anuncie o lançamento antes de estar pronto; e preveja os problemas para que machuquem menos.
+
+### Livro VI (o acampamento e a disciplina)
+
+**453. Descansar sem segurança não é descanso.**
+Ref.: Livro VI. Texto: «riposarsi, e non si riposare sicuramente, non è riposo perfetto».
+Negócio [Interpretação nossa]: tirar férias sem backup, senhas e substituto é só mudar de lugar a preocupação.
+
+**454. Faça o terreno obedecer a você, não você ao terreno.**
+Ref.: Livro VI. Texto: os romanos «volevano che il sito ubbidisse a loro, non loro al sito».
+Negócio [Interpretação nossa]: tenha um método próprio que funcione em qualquer cliente, em vez de reinventar tudo a cada um.
+
+**455. Onde há punições grandes, deve haver prêmios grandes.**
+Ref.: Livro VI. Texto: «dove sono le punizioni grandi, vi deono essere ancora i premi».
+Negócio [Interpretação nossa]: se você cobra forte, premie forte; só cobrança gera medo, não empenho.
+
+**456. O exercício mantém o exército sadio.**
+Ref.: Livro VI. Texto: «niuna cosa è tanto utile a mantenere l'esercito sano quanto è l'esercizio».
+Negócio [Interpretação nossa]: treinamento contínuo (mesmo curto, semanal) mantém o time afiado.
+
+**457. A fome (o caixa) é a única coisa que o tempo vence a seu favor contra você.**
+Ref.: Livro VI. Texto: «ogni altra cosa nella guerra si può col tempo vincere, questa sola col tempo vince te».
+Negócio [Interpretação nossa]: tudo se resolve com tempo, menos falta de caixa; reserva de pelo menos três meses de custos.
+
+**458. Poucos, com ordem e arte, vencem muitos.**
+Ref.: Livro VI. Texto: a disciplina «è di tanta forza, ch'ella ha fatto che i pochi hanno potuto vincere il furore e la naturale ostinazione degli assai».
+Negócio [Interpretação nossa]: agência pequena com método vence agência grande desorganizada.
+
+**459. A reputação do líder nasce só da virtude dele.**
+Ref.: Livro VI. Texto: «quello che sopra ogni altra cosa tiene lo esercito unito, è la reputazione del capitano, la quale solamente nasce dalla virtù sua, perché né sangue né autorità la dette mai sanza la virtù».
+Negócio [Interpretação nossa]: cargo e sobrenome não seguram a equipe; competência visível segura.
+
+**460. Nem a camisa deve saber o plano.**
+Ref.: Livro VI (Metelo, via Frontino). Texto: «se la camicia sua lo sapesse, l'arderebbe».
+Negócio [Interpretação nossa]: negociação sensível (venda de carteira, troca de sócio) se fala com pouquíssimos até estar fechada.
+
+**461. Nas coisas da guerra, cometem-se todos os erros.**
+Ref.: Livro VI. Texto: «gli antichi facevano ogni cosa meglio e con maggiore prudenza di noi; e se nelle altre cose si fa qualche errore, nelle cose della guerra si fanno tutti».
+Negócio [Interpretação nossa]: na área mais crítica (no caso da agência: tráfego pago e prazos de cliente), erros se acumulam; dobre os controles.
+
+### Livro VII (fortificação e lamento final)
+
+**462. Perder o posto avançado é começo da ruína; ter sempre para onde recuar faz abandonar tudo.**
+Ref.: Livro VII. Texto: perder um bastião externo é «principio e cagione della tua rovina».
+Negócio [Interpretação nossa]: o primeiro cliente perdido para um concorrente abre caminho para outros; trate a primeira perda como alarme.
+
+**463. Ninguém foi grande no seu ofício sem invenção.**
+Ref.: Livro VII. Texto: «niuno sanza invenzione fu mai grande uomo nel mestiero suo».
+Negócio [Interpretação nossa]: copiar o que todos fazem no Instagram deixa a agência igual às outras; invente formatos.
+
+**464. Não basta comandar um time pronto: é preciso saber formá-lo.**
+Ref.: Livro VII. Texto: «Non basta adunque in Italia il sapere governare uno esercito fatto, ma prima è necessario saperlo fare e poi saperlo comandare».
+Negócio [Interpretação nossa]: num mercado sem profissionais prontos (como São Luís), quem sabe formar gente cresce.
+
+**465. Material bruto é melhor que material mal trabalhado.**
+Ref.: Livro VII. Texto: «Né si troverrà mai alcuno buono scultore che creda fare una bella statua d'un pezzo di marmo male abbozzato, ma sì bene d'uno rozzo».
+Negócio [Interpretação nossa]: às vezes é mais fácil treinar um iniciante que desfazer os vícios de um "experiente" mal formado.
+
+**466. Constância é o que mais honra na adversidade.**
+Ref.: Livro VII. Texto: «Niuna cosa fece tanto onore a' Romani nella guerra di Annibale quanto la costanza loro».
+Negócio [Interpretação nossa]: manter o padrão de entrega no mês ruim é o que faz o cliente confiar.
+
+**467. O líder de gabinete, que vive de frases e luxo, prepara-se para ser presa.**
+Ref.: Livro VII. Texto: «Credevano i nostri principi italiani [...] che a uno principe bastasse sapere negli scrittoi pensare una acuta risposta, scrivere una bella lettera [...] né si accorgevano i meschini che si preparavano ad essere preda di qualunque gli assaltava».
+Negócio [Interpretação nossa]: dono que só posta frase de efeito e não acompanha operação, venda e caixa fica vulnerável.
+
+**468. Quem despreza a preparação despreza o próprio negócio.**
+Ref.: Livro VII. Texto: «Colui adunque che dispregia questi pensieri, s'egli è principe, dispregia il principato suo; s'egli è cittadino, la sua città».
+Negócio [Interpretação nossa]: planejamento, treino e reserva não são burocracia; são o negócio.
