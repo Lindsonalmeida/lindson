@@ -23,6 +23,10 @@ Seguiu o processo `agencia/processos/mini-site-cliente.md` e o método dos mini 
 - [ ] Preços que podem ser divulgados (se houver).
 - [ ] Aprovação da marca nova v1 (o site usa a v1, que está aguardando aprovação).
 
+## Situação (03/11, conta Leandro)
+- Repositório `Lindsonalmeida/realtime` criado pelo Lindson (**público**; o processo pede privado: dá para trocar em Settings → Change visibility, a Cloudflare continua funcionando).
+- Rascunho enviado para a branch `main` pela conta Leandro, sem mudanças. **Próximo: passo 4 (Cloudflare).**
+
 ## Passos do Lindson
 1. Criar o repositório vazio e **privado** em github.com/new, na conta `Lindsonalmeida`, com o nome do cliente sem espaço nem acento (sugestão: `realtime`).
 2. Liberar o app do Claude para esse repositório (All repositories).
