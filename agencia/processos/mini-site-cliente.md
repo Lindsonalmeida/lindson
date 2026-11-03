@@ -114,3 +114,4 @@ O Claude altera e publica; a Cloudflare atualiza sozinha em ~1 minuto.
 | Rafael Imports | Lindsonalmeida/rafaelimports | https://rafaelimports.pages.dev |
 | Desentupidora SF | Lindsonalmeida/GruposSF | https://desentupidorasf.pages.dev |
 | Real Time (RT Full Jobs) | `Lindsonalmeida/realtime` | https://realtimeslz.pages.dev (site) · https://realtimeslz.pages.dev/bio/ (bio) |
+| Tribuna 98 (Thiago Azevedo) | `Lindsonalmeida/tribuna98` | https://tribuna98.pages.dev (só bio; o site principal é o tribuna98.com.br) |

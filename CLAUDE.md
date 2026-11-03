@@ -19,7 +19,7 @@ Sempre que o Lindson pedir um mini site / site bio para um cliente, **antes de c
 5. Fotos: pedir uma por mensagem (imagens enviadas no meio de uma resposta não ficam salvas). Nunca usar ilustração no lugar de foto real de produto.
 6. Depois de publicar, atualizar a tabela "Clientes ativos" no fim de `agencia/processos/mini-site-cliente.md`.
 
-Clientes ativos hoje: Rafael Imports → `Lindsonalmeida/rafaelimports` → https://rafaelimports.pages.dev · Desentupidora SF → `Lindsonalmeida/GruposSF` → https://desentupidorasf.pages.dev
+Clientes ativos hoje: Rafael Imports → `Lindsonalmeida/rafaelimports` → https://rafaelimports.pages.dev · Desentupidora SF → `Lindsonalmeida/GruposSF` → https://desentupidorasf.pages.dev, Tribuna 98 → `Lindsonalmeida/tribuna98` → https://tribuna98.pages.dev
 
 ## Demo de mini site para vender
 
