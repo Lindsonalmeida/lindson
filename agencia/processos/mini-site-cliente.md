@@ -1,5 +1,7 @@
 # Passo a passo: mini site de cliente
 
+> Depois de publicar, siga `google-mini-site.md` para colocar o site no Google (Search Console, sitemap, indexação e Perfil da Empresa).
+
 Como entregar um mini site com o nome do cliente no link (ex.: `rafaelimports.pages.dev`), sem o nome Lindson Almeida no endereço, usando GitHub + Cloudflare Pages (grátis).
 
 ---
