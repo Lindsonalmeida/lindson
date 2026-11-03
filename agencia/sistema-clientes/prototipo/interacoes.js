@@ -50,6 +50,8 @@ function abasAprov(m) {
   cards.forEach((c, i) => {
     const p = APROV[i], g = grupoDe(p); c.style.display = g === abaAp ? '' : 'none';
     const alvo = c.querySelector('.c') || c;
+    // botão de baixar a arte em todos os cards (pedido do Lindson, 03/11/2026, conta Leandro)
+    if (p.img && !c.querySelector('[data-baixar]')) alvo.insertAdjacentHTML('beforeend', `<a class="btn lin" data-baixar href="${p.img}" download="${String(p.titulo || 'arte').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^A-Za-z0-9]+/g, '-').replace(/^-|-$/g, '').toLowerCase()}.jpg" style="display:block;text-align:center;margin-top:10px">⬇ Baixar arte</a>`);
     if (g === 'apr') alvo.insertAdjacentHTML('beforeend', `<button class="btn am" type="button" data-postei="${i}" style="margin-top:10px;width:100%">✓ Marquei como postado</button>`);
     if (g === 'post') alvo.insertAdjacentHTML('beforeend', `<div style="font-size:12px;color:#4ADE80;margin-top:6px">📌 Postado${p.postadoPor ? ' por ' + esc(p.postadoPor) : ''}${p.postadoEm ? ', ' + new Date(p.postadoEm).toLocaleDateString('pt-BR') : ''}</div><button class="btn lin" type="button" data-despostei="${i}" style="margin-top:8px;width:100%;font-size:12px">Desfazer (voltar para "a postar")</button>`);
   });

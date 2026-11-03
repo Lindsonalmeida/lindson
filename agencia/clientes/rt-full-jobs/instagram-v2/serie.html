@@ -1,0 +1,65 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<!-- Real Time · série "Inventário" (um post por equipamento da lista do cliente, 20/10) · conta Leandro, 03/11/2026.
+     Lindson: "busque por todos os materiais que eles citam, e vamos criar conteúdos com todos eles".
+     3 layouts copiados de referências EXTERNAS (Dribbble, "product launch instagram post dark", capturas em referencias/), revezando A→B→C
+     para nunca repetir composição nem cor em sequência:
+     A · KKeyQik "Skin, in balance" (ficha editorial escura: número grande, cartão do produto, especificações em cartões pequenos)
+     B · Kyvroxa Creatives (cartão de produto claro e alto no centro, rótulos flutuando ao lado, pílula escura com nome e chamada)
+     C · Tejshwani Kumari / lifestyle (foto do equipamento em uso em tela cheia, painel de vidro com nome e para que serve).
+     Só dados que estão no nome do modelo ou na lista do cliente; nada de preço. Uso: serie.html?n=1..14 -->
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700;800&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--pt:#0E0E0F;--gr:#1A1A1B;--b:#F4F7FB;--cz:#8A8A8E;--az:#2E9BFF;--in:#4338F0;--rec:#FF3B3B}
+*{box-sizing:border-box;margin:0;padding:0}body{width:1080px;height:1350px;overflow:hidden;font-family:Geist,sans-serif;-webkit-font-smoothing:antialiased}
+.p{position:relative;width:1080px;height:1350px;overflow:hidden;background:var(--pt);color:var(--b)}
+.a{position:absolute}.mono{font-family:'Geist Mono',monospace;letter-spacing:.14em;text-transform:uppercase}
+.grao{inset:0;opacity:.08;mix-blend-mode:overlay;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>")}
+.topo{left:64px;right:64px;top:54px;display:flex;justify-content:space-between;align-items:center;z-index:6}
+.topo img{height:42px}.topo span{font:500 16px 'Geist Mono';letter-spacing:.16em}.topo span:before{content:"● ";color:var(--rec)}
+.cta{display:inline-flex;align-items:center;gap:12px;background:var(--az);color:#fff;border-radius:99px;padding:14px 26px;font:600 20px Geist;white-space:nowrap}.cta:after{content:"→"}
+.chip{border-radius:22px;padding:20px 22px}.chip .k{font:500 13px 'Geist Mono';letter-spacing:.14em;text-transform:uppercase;opacity:.7}.chip .v{font:600 28px/1.1 Geist;margin-top:8px;letter-spacing:-.01em}
+</style></head><body><div id="pp"></div><script>
+const M='../identidade/v1/marca/',F='../fotos-equipamentos/',R='recortes/';
+const grao='<div class="a grao"></div>';
+const topo=(r,cl)=>`<div class="a topo" style="color:${cl?'#0E0E0F':'#F4F7FB'}"><img src="${M}${cl?'assinatura-horizontal-claro':'assinatura-horizontal'}.svg"><span>${r}</span></div>`;
+// [cat, nome, linha2, para que serve, 3 atributos [k,v], imagem, layout, ajustes]
+const D=[
+ ['Kit Luz','STORM 1200x','Aputure','A luz principal da cena grande: dia, noite e externa.',[['Tipo','Bicolor'],['Uso','Luz principal'],['Set','Externa e estúdio']],F+'luz/storm-1200x-01.jpg','C',{pos:'40% 50%'}],
+ ['Lentes','FE 14mm F1.8','Sony G Master','Grande-angular para mostrar o lugar inteiro: estúdio, evento, arquitetura.',[['Distância','14 mm'],['Abertura','F1.8'],['Linha','G Master']],R+'sony14.png','A',{h:760,top:420}],
+ ['Teleprompter','Teleprompter','SmallRig + tablet','O texto passa na frente da lente: a pessoa fala olhando para a câmera.',[['Inclui','Tablet'],['Ideal','Entrevista e corporativo'],['Monta','Na câmera do kit']],R+'prompter.png','B',{w:900,top:470}],
+ ['Kit Luz','STORM 80c','Aputure · 3 unidades','Compacta e colorida: preenche, recorta e dá cor ao fundo.',[['Tipo','Colorida'],['Unidades','3'],['Uso','Preenchimento e cor']],F+'luz/storm-80c-04.jpg','C',{pos:'55% 50%'}],
+ ['Lentes','Distagon 35mm F1.4','ZEISS · ZA','O olhar natural: plano médio com fundo desfocado na medida.',[['Distância','35 mm'],['Abertura','F1.4'],['Encaixe','Sony E']],R+'zeiss35.png','A',{h:700,top:440}],
+ ['Adaptador','Metabones PL–E','Adaptador de encaixe','Leva as lentes de cinema PL para a câmera Sony do kit.',[['De','PL'],['Para','Sony E-mount'],['Combina com','VESPID Prime 2']],R+'metabones.png','B',{w:560,top:480}],
+ ['Kit Luz','STORM 400x','Aputure','Força de sobra para entrevista e set médio, até na locação.',[['Tipo','Bicolor'],['Uso','Entrevista e set médio'],['Set','Locação']],F+'luz/storm-400x-03.jpg','C',{pos:'60% 50%'}],
+ ['Lentes','FE 85mm F1.8','Sony','A lente do retrato: rosto nítido e fundo suave.',[['Distância','85 mm'],['Abertura','F1.8'],['Ideal','Entrevista e retrato']],R+'sony85.png','A',{h:600,top:520}],
+ ['Kit Cinema','Matte box Mirage','Tilta · com acessórios','Controla a luz que entra na lente e segura os filtros.',[['Para','Sony FX3 do kit'],['Segura','Filtros'],['Evita','Reflexo na lente']],R+'mirage.png','B',{w:760,top:440}],
+ ['Equipe','Intercomunicadores','Hollyland · 6 unidades','A equipe fala no set sem fio, sem gritar e sem celular.',[['Unidades','6'],['Uso','Diretor, câmera e produção'],['Sem fio','Sim']],F+'transmissao/hollyland-solidcom-01.jpg','C',{contain:1,top:150}],
+ ['Lentes','FE 24–70mm F2.8','Sony G Master · 2 unidades','Uma lente para quase tudo: do plano aberto ao close.',[['Distância','24–70 mm'],['Abertura','F2.8'],['Unidades','2']],R+'sony2470.png','A',{h:800,top:400}],
+ ['Lentes','Planar 50mm F1.4','ZEISS · ZA','O clássico 50: imagem limpa, cor fiel e fundo desfocado.',[['Distância','50 mm'],['Abertura','F1.4'],['Linha','ZEISS ZA']],R+'zeiss50.png','B',{w:720,top:440}],
+ ['Kit Luz','amaran 300c','Aputure amaran','Luz colorida para estúdio e conteúdo: rápida de montar.',[['Tipo','Colorida'],['Ideal','Estúdio e conteúdo'],['Combina com','Modificadores']],R+'amaran.png','C',{contain:1,top:130,left:60,w:1100,escuro:1}],
+ ['Lentes','FE 90mm F2.8 Macro','Sony G · OSS','Detalhe de perto: produto, textura, joia e comida.',[['Distância','90 mm'],['Tipo','Macro'],['Estabilização','OSS']],R+'sony90.png','A',{h:520,top:560,dx:220}]];
+const n=+new URLSearchParams(location.search).get('n')||1,[cat,nome,l2,uso,at,img,L,o]=D[n-1],num=String(n).padStart(2,'0'),tot=String(D.length).padStart(2,'0');
+let H='';
+if(L==='A')H=`<div class="p" style="background:#0E0E0F">${topo('INVENTÁRIO '+num+'/'+tot)}
+<div class="a" style="right:40px;top:110px;font:800 380px/0.8 Geist;letter-spacing:-.07em;color:transparent;-webkit-text-stroke:2px rgba(244,247,251,.14)">${num}</div>
+<div class="a" style="left:64px;top:150px"><div class="mono" style="font-size:17px;color:var(--az)">${cat}</div><div style="font:600 ${nome.length>14?64:80}px/0.98 Geist;letter-spacing:-.045em;margin-top:14px;width:${nome.length>14?900:640}px;white-space:nowrap">${nome}</div><div style="font:400 28px Geist;color:#9a9da4;margin-top:12px">${l2}</div></div>
+<div class="a" style="left:64px;right:64px;top:400px;height:640px;border-radius:36px;background:radial-gradient(70% 70% at 50% 55%,#24304d,#16181d);overflow:hidden">
+ <img src="${img}" style="position:absolute;left:calc(50% + ${o.dx||0}px);top:50%;height:${Math.min(o.h,560)}px;transform:translate(-50%,-50%);filter:drop-shadow(0 30px 40px rgba(0,0,0,.6))"></div>
+<div class="a" style="left:64px;right:64px;bottom:150px;display:grid;grid-template-columns:repeat(3,1fr);gap:14px">${at.map(([k,v])=>`<div class="chip" style="background:#1A1A1B"><div class="k">${k}</div><div class="v">${v}</div></div>`).join('')}</div>
+<div class="a" style="left:64px;right:64px;bottom:52px;display:flex;justify-content:space-between;align-items:center"><span style="font:400 22px/1.35 Geist;color:#9a9da4;width:560px">${uso}</span><span class="cta">Reservar</span></div>${grao}</div>`;
+if(L==='B')H=`<div class="p" style="background:radial-gradient(800px 700px at 50% 45%,#fff,#E9EEF5 70%);color:#0E0E0F">${topo('INVENTÁRIO '+num+'/'+tot,1)}
+<div class="a" style="left:0;right:0;top:140px;text-align:center"><div class="mono" style="font-size:17px;color:#4338F0">${cat}</div><div style="font:600 76px/0.98 Geist;letter-spacing:-.045em;margin-top:12px">${nome}</div><div style="font:400 26px Geist;color:#6b6e75;margin-top:8px">${l2}</div></div>
+<div class="a" style="left:190px;right:190px;top:380px;height:720px;border-radius:40px;background:#fff;box-shadow:0 50px 90px -40px rgba(14,14,15,.35)"></div>
+<img class="a" src="${img}" style="left:50%;top:${o.top+260}px;width:${o.w}px;max-height:560px;object-fit:contain;transform:translate(-50%,-50%);filter:drop-shadow(0 26px 30px rgba(14,14,15,.25))">
+${at.map(([k,v],i)=>`<div class="a chip" style="${i%2?'right':'left'}:56px;top:${[470,640,860][i]}px;background:rgba(255,255,255,.9);box-shadow:0 20px 40px -22px rgba(14,14,15,.4);border:1px solid #e3e8ef;max-width:300px"><div class="k" style="color:#4338F0;opacity:1">${k}</div><div class="v" style="font-size:24px">${v}</div></div>`).join('')}
+<div class="a" style="left:190px;right:190px;top:990px;background:#0E0E0F;color:#F4F7FB;border-radius:26px;padding:22px 26px;display:flex;justify-content:space-between;align-items:center;gap:16px"><span style="font:500 20px/1.35 Geist;color:#c9ccd3">${uso}</span><span class="cta" style="padding:12px 20px;font-size:18px">Reservar</span></div>
+<div class="a mono" style="left:0;right:0;bottom:52px;text-align:center;font-size:15px;color:#6b6e75">Locação · WhatsApp (98) 99133-1727</div>${grao}</div>`;
+if(L==='C')H=`<div class="p" style="${o.contain?(o.escuro?'background:radial-gradient(800px 700px at 60% 35%,#2b3a63,#0E0E0F 70%)':'background:radial-gradient(800px 600px at 50% 38%,#e9edf3,#9aa3b2 70%)'):''}">${o.contain?`<img class="a" src="${img}" style="left:${o.left??-60}px;top:${o.top||170}px;width:${o.w||1200}px;${o.escuro?'filter:drop-shadow(0 40px 50px rgba(0,0,0,.55))':''}">`:`<img class="a" src="${img}" style="inset:0;width:1080px;height:1350px;object-fit:cover;object-position:${o.pos};transform:scale(${o.zoom||1});transform-origin:${o.origem||'50% 50%'}">`}
+<div class="a" style="inset:0;background:linear-gradient(180deg,rgba(14,14,15,.7) 0,rgba(14,14,15,0) 22%,rgba(14,14,15,0) 50%,rgba(14,14,15,.85) 100%)"></div>${topo('INVENTÁRIO '+num+'/'+tot)}
+<div class="a" style="left:48px;right:48px;bottom:48px;border-radius:34px;padding:34px 36px;background:linear-gradient(135deg,rgba(255,255,255,.16),rgba(255,255,255,.06));border:1px solid rgba(255,255,255,.25);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px)">
+ <div style="display:flex;justify-content:space-between;align-items:flex-start"><div><div class="mono" style="font-size:16px;color:#9ecbff">${cat} · ${l2}</div><div style="font:600 80px/0.95 Geist;letter-spacing:-.045em;margin-top:12px">${nome}</div></div><div style="font:600 22px 'Geist Mono';color:rgba(244,247,251,.6)">${num}/${tot}</div></div>
+ <div style="font:400 26px/1.4 Geist;color:#e3e6ec;margin-top:16px;width:820px">${uso}</div>
+ <div style="display:flex;gap:12px;margin-top:22px;align-items:center;flex-wrap:wrap">${at.map(([k,v])=>`<span style="border:1px solid rgba(255,255,255,.3);border-radius:99px;padding:10px 18px;font:500 18px Geist">${k}: <b style="font-weight:600">${v}</b></span>`).join('')}<span class="cta" style="margin-left:auto">Reservar</span></div></div>${grao}</div>`;
+document.getElementById('pp').innerHTML=H;
+Promise.all([document.fonts.ready,...[...document.images].map(i=>i.complete?1:new Promise(r=>{i.onload=i.onerror=r}))]).then(()=>window.pronto=true);
+</script></body></html>
