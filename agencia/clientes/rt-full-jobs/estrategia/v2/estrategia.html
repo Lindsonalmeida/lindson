@@ -1,0 +1,57 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<!-- Estratégia completa Real Time v2 (conta Leandro, 03/11/2026). Estilo copiado do manual de marca v1 (template VideoLab, Framer, escolhido pela conta Pedro para este projeto: ver ../../identidade/v1/TEMPLATE.md). Páginas em paginas.js. -->
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+@page{size:1080px 1350px;margin:0}
+:root{--bg:#0E0E0F;--pn:#1A1A1B;--pn2:#222224;--fio:#2A2A2C;--b:#F4F7FB;--cz:#8A8A8E;--cz2:#5C5C60;--az:#2E9BFF;--in:#4338F0;--rec:#FF3B3B}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--b);font-family:Geist,sans-serif;-webkit-font-smoothing:antialiased}
+.pg{width:1080px;height:1350px;position:relative;overflow:hidden;page-break-after:always;background:var(--bg)}
+.pg:last-child{page-break-after:auto}
+.hd{position:absolute;left:64px;right:64px;top:44px;display:flex;justify-content:space-between;align-items:center}
+.hd img{height:44px}.hd span{font:500 17px Geist;letter-spacing:.14em;color:var(--b);display:flex;gap:14px;align-items:center}
+.hd span i{display:inline-block;width:26px;height:10px;border-top:2px solid var(--b);border-bottom:2px solid var(--b)}
+.fio{position:absolute;left:0;right:0;height:1.5px;background:var(--fio)}
+.c{position:absolute;left:64px;right:64px;top:150px;bottom:120px}
+.rot{font:500 17px Geist;letter-spacing:.16em;text-transform:uppercase;color:var(--b)}
+h1,h2{font-family:Geist;font-weight:600;text-transform:uppercase;letter-spacing:-.02em;line-height:.98}
+h1{font-size:118px}h2{font-size:84px;margin-top:22px}
+.cz{color:var(--cz)}.az{color:var(--az)}
+.txt{font-size:22px;line-height:1.55;color:var(--cz)}
+.dest{border-left:2px solid var(--fio);padding-left:26px}.dest b{display:block;font:500 30px/1.25 Geist;color:var(--b);margin-bottom:14px}
+.ft{position:absolute;left:64px;right:64px;bottom:44px;display:flex;justify-content:space-between;font:500 15px 'Geist Mono';letter-spacing:.14em;color:var(--cz2)}
+.ft .r{color:var(--b)}.ft .r:before{content:"● ";color:var(--rec)}
+/* visor: foto com cantos por fora, REC, HD | 4K e timecode */
+.visor{position:relative;padding:10px}
+.visor .f{position:relative;height:100%;background-size:cover;background-position:center;overflow:hidden}
+.visor .f:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.25),rgba(0,0,0,.05) 40%,rgba(0,0,0,.45));}
+.visor .g{position:absolute;inset:0;opacity:.18;mix-blend-mode:overlay;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");z-index:1}
+.visor:before,.visor:after,.visor .k1,.visor .k2{content:"";position:absolute;width:20px;height:20px;border-color:var(--b);border-style:solid;z-index:3}
+.visor:before{left:0;top:0;border-width:2px 0 0 2px}.visor:after{right:0;bottom:0;border-width:0 2px 2px 0}
+.visor .k1{right:0;top:0;border-width:2px 2px 0 0}.visor .k2{left:0;bottom:0;border-width:0 0 2px 2px}
+.visor .rec{position:absolute;left:30px;top:24px;font:500 19px Geist;color:var(--rec);z-index:3}.visor .rec:before{content:"● "}
+.visor .hd2{position:absolute;left:30px;bottom:24px;display:flex;gap:8px;z-index:3}.visor .hd2 i{font:500 15px Geist;font-style:normal;border:1.5px solid rgba(255,255,255,.7);padding:3px 8px;color:#fff}
+.visor .tc{position:absolute;right:30px;bottom:24px;font:500 19px Geist;color:#fff;z-index:3}
+.visor .lg{position:absolute;inset:0;display:grid;place-items:center;z-index:3;font:600 34px Geist;text-transform:uppercase;letter-spacing:.02em}
+/* lista numerada grande */
+.lista div{font:500 46px Geist;text-transform:uppercase;letter-spacing:-.01em;color:var(--cz);margin:14px 0}.lista div sup{font-size:20px;margin-right:10px;vertical-align:top;position:relative;top:6px}
+.lista div.on{color:var(--b)}
+/* 4 colunas com fios */
+.cols{display:grid;grid-template-columns:repeat(4,1fr);border-top:1.5px solid var(--fio)}
+.cols>div{padding:28px 22px 30px 0;border-right:1.5px solid var(--fio);padding-left:22px}.cols>div:first-child{padding-left:0}.cols>div:last-child{border-right:0}
+.cols .n{font:500 17px Geist;color:var(--cz)}.cols .t{font:500 26px Geist;text-transform:uppercase;margin:14px 0 16px}.cols p{font-size:18px;line-height:1.5;color:var(--cz);margin-top:14px}
+.nums{display:grid;grid-template-columns:repeat(4,1fr);border-top:1.5px solid var(--fio);border-bottom:1.5px solid var(--fio)}
+.nums>div{display:flex;gap:14px;align-items:center;padding:28px 0;border-right:1.5px solid var(--fio);padding-left:22px}.nums>div:first-child{padding-left:0}.nums>div:last-child{border-right:0}
+.nums b{font:400 50px Geist;letter-spacing:-.03em}.nums span{font:500 14px Geist;letter-spacing:.06em;text-transform:uppercase;color:var(--cz);line-height:1.35}
+.abas{display:flex;gap:34px;border-top:1.5px solid var(--fio);padding-top:16px}.abas span{font-size:17px;color:var(--cz);flex:1;border-bottom:1.5px solid var(--fio);padding-bottom:14px}
+.cartao{display:grid;grid-template-columns:1fr 1fr;background:var(--pn);min-height:400px}.cartao .p{padding:30px;display:flex;flex-direction:column;justify-content:space-between}.cartao .p .n{font:500 22px Geist;color:var(--cz)}.cartao .p .t{font:500 34px Geist;text-transform:uppercase}.cartao .p p{font-size:19px;line-height:1.5;color:#cfd3da;margin-top:12px}
+.pn{background:var(--pn);padding:30px}
+.mono{font-family:'Geist Mono'}
+.x{position:relative}.x .no{position:absolute;right:16px;top:14px;font:600 15px 'Geist Mono';color:var(--rec);letter-spacing:.1em}
+
+.ln{display:grid;grid-template-columns:70px 1fr;gap:10px;border-top:1.5px solid var(--fio);padding:20px 0}
+.ln .n{font:500 18px 'Geist Mono';color:var(--rec)}.ln .t{font-weight:500;text-transform:uppercase;letter-spacing:-.01em}.ln p{color:var(--cz);line-height:1.45;margin-top:8px}
+.tb{width:100%;border-collapse:collapse}.tb th{font:500 15px Geist;letter-spacing:.14em;text-transform:uppercase;color:var(--cz);text-align:left;padding:0 16px 14px 0;border-bottom:1.5px solid var(--fio)}
+.tb td{font-size:20px;line-height:1.4;padding:20px 16px 20px 0;border-bottom:1.5px solid var(--fio);color:var(--cz);vertical-align:top}.tb td:first-child{color:var(--b);font-weight:500;text-transform:uppercase;font-size:21px;width:30%}
+</style></head><body><div id="pp"></div>
+<script src="paginas.js"></script></body></html>
