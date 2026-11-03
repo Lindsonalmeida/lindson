@@ -14,26 +14,27 @@
 .mono{font-family:'Geist Mono',monospace;letter-spacing:.14em;text-transform:uppercase}
 .grao{inset:0;opacity:.09;mix-blend-mode:overlay;pointer-events:none;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>")}
 .topo{left:64px;right:64px;top:54px;display:flex;justify-content:space-between;align-items:center;z-index:5}
-.topo img{height:42px}.topo span{font:500 16px 'Geist Mono';letter-spacing:.16em}
+.topo img{height:46px}.topo span{font:500 20px 'Geist Mono';letter-spacing:.14em}
 .topo span:before{content:"● ";color:var(--rec)}
-.rod{left:64px;right:64px;bottom:50px;display:flex;justify-content:space-between;align-items:center;z-index:5;font:500 15px 'Geist Mono';letter-spacing:.14em;text-transform:uppercase}
-.cta{display:inline-flex;align-items:center;gap:12px;background:var(--az);color:#fff;border-radius:99px;padding:14px 26px;font:600 20px Geist;letter-spacing:0;text-transform:none}
+.rod{left:64px;right:64px;bottom:50px;display:flex;justify-content:space-between;align-items:center;z-index:5;font:500 20px 'Geist Mono';letter-spacing:.1em;text-transform:uppercase}
+.cta{display:inline-flex;align-items:center;gap:12px;background:var(--az);color:#fff;border-radius:99px;padding:16px 28px;font:600 24px Geist;letter-spacing:0;text-transform:none}
 .cta:after{content:"→"}
 .cta.cl{background:var(--b);color:var(--pt)}
 /* chamadas de especificação */
 .call{display:flex;align-items:center;gap:0}
 .call .pt{width:14px;height:14px;border-radius:50%;background:var(--az);box-shadow:0 0 0 6px rgba(46,155,255,.18)}
 .call .ln{height:1.5px;background:currentColor;opacity:.45}
-.call .tx{font:500 14px 'Geist Mono';letter-spacing:.12em;text-transform:uppercase;line-height:1.5;white-space:nowrap}
-.call .tx b{display:block;font:600 24px Geist;letter-spacing:-.01em;text-transform:none}
+.call .tx{font:500 18px 'Geist Mono';letter-spacing:.12em;text-transform:uppercase;line-height:1.5;white-space:nowrap}
+.call .tx b{display:block;font:600 30px Geist;letter-spacing:-.01em;text-transform:none}
 .tile{background:#fff;border-radius:28px;overflow:hidden;position:relative}
 .tile .lb{position:absolute;left:22px;bottom:18px;right:22px;color:var(--pt)}
-.tile .lb b{display:block;font:600 24px/1.1 Geist}.tile .lb span{font:500 13px 'Geist Mono';letter-spacing:.12em;color:#5c5c60}
+.tile .lb b{display:block;font:600 28px/1.1 Geist}.tile .lb span{font:500 17px 'Geist Mono';letter-spacing:.12em;color:#5c5c60}
 </style></head><body><div id="pp"></div>
 <script>
 const M='../identidade/v1/marca/',F='../fotos-equipamentos/',R='recortes/';
 const topo=(r,claro,mono)=>`<div class="a topo" style="color:${claro?'#0E0E0F':'#F4F7FB'}"><img src="${M}${mono?'assinatura-horizontal-mono-branco':claro?'assinatura-horizontal-claro':'assinatura-horizontal'}.svg"><span>${r}</span></div>`;
 const grao='<div class="a grao"></div>';
+const visor=(x,y,w,h,cor='#F4F7FB',tc='00:00:01:00')=>`<div class="a" style="left:${x}px;top:${y}px;width:${w}px;height:${h}px;pointer-events:none;z-index:4">${[['left:0;top:0','2.5px 0 0 2.5px'],['right:0;top:0','2.5px 2.5px 0 0'],['left:0;bottom:0','0 0 2.5px 2.5px'],['right:0;bottom:0','0 2.5px 2.5px 0']].map(([p,b])=>`<i style="position:absolute;${p};width:34px;height:34px;border:0 solid ${cor};border-width:${b}"></i>`).join('')}<span style="position:absolute;left:22px;top:18px;font:500 19px 'Geist Mono';letter-spacing:.12em;color:${cor}"><b style="color:#FF3B3B">●</b> REC</span><span style="position:absolute;right:22px;bottom:16px;font:500 19px 'Geist Mono';letter-spacing:.1em;color:${cor}">${tc}</span></div>`;
 const P={
 // 1 · FX3 lançamento (Dribbble "iPhone 17 Pro"): título centrado no alto, produto herói embaixo com brilho e reflexo
 1:()=>`<div class="p" style="background:radial-gradient(900px 600px at 50% 72%,#1b2a4a 0,#0E0E0F 60%)">
@@ -41,14 +42,14 @@ const P={
 <div class="a" style="left:0;right:0;top:470px;height:300px;background:radial-gradient(50% 60% at 50% 50%,rgba(46,155,255,.28),transparent 70%)"></div>
 ${topo('KIT CINEMA')}
 <div class="a" style="left:0;right:0;top:190px;text-align:center">
- <div class="mono" style="font-size:18px;color:var(--az)">Locação · diária</div>
+ <div class="mono" style="font-size:22px;color:var(--az)">Locação · diária</div>
  <div style="font:600 128px/0.95 Geist;letter-spacing:-.045em;margin-top:18px">Sony FX3</div>
  <div style="font:400 34px/1.3 Geist;color:#c9ccd3;margin-top:22px">Cinema full-frame<br>do tamanho da sua mão.</div></div>
-<div class="a rod" style="color:#8A8A8E"><span>Full-frame · 4K · S-Cinetone</span><span class="cta">Reserve sua diária</span></div>${grao}</div>`,
+${visor(110,610,860,560,'#F4F7FB','00:00:01:00')}<div class="a rod" style="color:#9a9da4"><span>Full-frame · 4K · S-Cinetone</span><span class="cta">Reserve sua diária</span></div>${grao}</div>`,
 // 2 · Kit Cinema peça por peça (Dribbble "Best seller", chamadas com linhas)
 2:()=>`<div class="p" style="background:radial-gradient(800px 700px at 50% 55%,#FFFFFF 0,#EEF2F8 55%,#DDE4EE 100%);color:#0E0E0F">
 ${topo('PEÇA POR PEÇA',1)}
-<div class="a" style="left:64px;top:150px"><div class="mono" style="font-size:17px;color:#4338F0">Kit Cinema</div>
+<div class="a" style="left:64px;top:150px"><div class="mono" style="font-size:22px;color:#4338F0">Kit Cinema</div>
 <div style="font:600 84px/0.98 Geist;letter-spacing:-.04em;margin-top:14px">Tudo montado.<br><span style="color:#8A8A8E">É só gravar.</span></div></div>
 <div class="a" style="left:240px;top:470px;width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(46,155,255,.22),transparent 65%)"></div>
 <img class="a" src="${R}cage.png" style="left:250px;top:450px;width:600px;filter:drop-shadow(0 40px 40px rgba(14,14,15,.28))">
@@ -57,7 +58,7 @@ ${topo('PEÇA POR PEÇA',1)}
 <div class="a call" style="left:64px;top:860px;color:#0E0E0F"><div class="tx" style="text-align:right">Estrutura<b>Cage Tilta</b></div><div class="ln" style="width:200px;margin:0 0 0 18px"></div><div class="pt"></div></div>
 <div class="a call" style="left:770px;top:780px;color:#0E0E0F"><div class="pt"></div><div class="ln" style="width:60px;margin:0 18px 0 0"></div><div class="tx">Punho lateral<b>Side handle Tilta</b></div></div>
 <div class="a" style="left:64px;right:64px;top:1110px;display:flex;gap:14px">${['+ Matte box Tilta Mirage','+ Transmissão Hollyland Pyro 7'].map(t=>`<span style="border:1.5px solid #c8cfda;border-radius:99px;padding:12px 22px;font:500 20px Geist">${t}</span>`).join('')}</div>
-<div class="a rod" style="color:#5c5c60"><span>Locação · Maranhão</span><span class="cta">Reservar o kit</span></div>${grao}</div>`,
+<div class="a rod" style="color:#5c5c60"><span>(98) 99133-1727</span><span class="cta">Reservar o kit</span></div>${grao}</div>`,
 // 3 · VESPID (Designi "Dia da Fotografia": palavra gigante atrás, produto em linha na frente, texto curto embaixo)
 3:()=>`<div class="p" style="background:#000">
 ${topo('ÓPTICAS DE CINEMA')}
@@ -66,8 +67,8 @@ ${topo('ÓPTICAS DE CINEMA')}
 <img class="a" src="${F}lentes/vespid2-01.jpg" style="left:-100px;top:420px;width:1280px;mix-blend-mode:lighten">
 <div class="a" style="left:64px;right:64px;top:1090px;display:flex;justify-content:space-between;align-items:flex-end;border-top:1.5px solid rgba(244,247,251,.2);padding-top:22px">
  <div style="font:600 44px/1.05 Geist;letter-spacing:-.03em">Kit DZOFilm<br>VESPID Prime 2</div>
- <div class="mono" style="font-size:15px;color:#8A8A8E;line-height:1.9;text-align:right">Lentes de cinema<br>por lente ou o kit</div></div>
-<div class="a rod" style="color:#8A8A8E"><span>+ Adaptador Metabones PL–E</span><span class="cta">Consultar as lentes</span></div>${grao}</div>`,
+ <div class="mono" style="font-size:20px;color:#8A8A8E;line-height:1.7;text-align:right">Lentes de cinema<br>por lente ou o kit</div></div>
+<div class="a rod" style="color:#8A8A8E"><span>(98) 99133-1727</span><span class="cta">Consultar as lentes</span></div>${grao}</div>`,
 // 4 · STORM (Dribbble "Light Leaks": foto cheia, vazamento de luz, título condensado gigante, ficha técnica)
 4:()=>`<div class="p">
 <img class="a" src="${F}luz/storm-1200x-02.jpg" style="left:-520px;top:0;height:1350px">
@@ -75,8 +76,8 @@ ${topo('ÓPTICAS DE CINEMA')}
 <div class="a" style="inset:0;background:radial-gradient(500px 700px at 100% 30%,rgba(67,56,240,.55),transparent 70%),radial-gradient(420px 520px at 0% 80%,rgba(46,155,255,.45),transparent 70%);mix-blend-mode:screen"></div>
 ${topo('KIT LUZ')}
 <div class="a" style="left:56px;top:140px;font:800 300px/0.8 Geist;letter-spacing:-.07em">LUZ</div>
-<div class="a" style="left:64px;top:390px;font:400 34px/1.25 Geist;color:#dfe3ea;width:520px">que aguenta locação,<br>chuva e diária longa.</div>
-<div class="a" style="left:64px;right:64px;top:1030px;display:grid;grid-template-columns:repeat(3,1fr);border-top:1.5px solid rgba(244,247,251,.3)">${[['STORM','1200x'],['STORM','400x'],['STORM','80c']].map(([a,b])=>`<div style="padding:20px 0"><div class="mono" style="font-size:14px;color:#8A8A8E">Aputure ${a}</div><div style="font:600 54px Geist;letter-spacing:-.03em">${b}</div></div>`).join('')}</div>
+<div class="a" style="left:40px;top:370px;width:640px;height:150px;background:radial-gradient(60% 70% at 35% 50%,rgba(14,14,15,.78),transparent 75%)"></div><div class="a" style="left:64px;top:390px;font:500 36px/1.25 Geist;color:#fff;width:560px;text-shadow:0 2px 16px rgba(0,0,0,.6)">que aguenta locação,<br>chuva e diária longa.</div>
+<div class="a" style="left:64px;right:64px;top:1030px;display:grid;grid-template-columns:repeat(3,1fr);border-top:1.5px solid rgba(244,247,251,.3)">${[['STORM','1200x'],['STORM','400x'],['STORM','80c']].map(([a,b])=>`<div style="padding:20px 0"><div class="mono" style="font-size:19px;color:#b9bcc3">Aputure ${a}</div><div style="font:600 54px Geist;letter-spacing:-.03em">${b}</div></div>`).join('')}</div>
 <div class="a rod" style="color:#8A8A8E"><span>+ amaran e modificadores</span><span class="cta">Pergunte a disponibilidade</span></div>${grao}</div>`,
 // 5 · Lentes Sony e Zeiss (Dribbble "24 hours": bento de produtos com rótulos)
 5:()=>`<div class="p" style="background:linear-gradient(160deg,#2E9BFF,#4338F0)">
@@ -90,14 +91,15 @@ ${topo('LENTES',0,1)}
 // 6 · Pyro 7 (vitrine de produto em pedestal de luz)
 6:()=>`<div class="p" style="background:radial-gradient(700px 500px at 50% 78%,#1d2440 0,#0E0E0F 65%)">
 ${topo('TRANSMISSÃO')}
-<div class="a" style="left:0;right:0;top:170px;text-align:center"><div class="mono" style="font-size:18px;color:var(--az)">Hollyland Pyro 7</div>
+<div class="a" style="left:0;right:0;top:170px;text-align:center"><div class="mono" style="font-size:22px;color:var(--az)">Hollyland Pyro 7</div>
 <div style="font:600 92px/0.98 Geist;letter-spacing:-.045em;margin-top:18px">O cliente vê<br><span style="color:#8A8A8E">o take na hora.</span></div></div>
 <div class="a" style="left:190px;top:1010px;width:700px;height:130px;border-radius:50%;background:radial-gradient(50% 50% at 50% 50%,rgba(46,155,255,.55),transparent 70%);filter:blur(8px)"></div>
 <div class="a" style="left:260px;top:1030px;width:560px;height:60px;border-radius:50%;background:linear-gradient(180deg,#2a3352,#12162a);box-shadow:0 0 0 1.5px rgba(46,155,255,.4)"></div>
-<img class="a" src="${R}pyro7.png" style="left:50%;top:520px;height:540px;transform:translateX(-50%);filter:drop-shadow(0 30px 40px rgba(0,0,0,.6))">
-<div class="a" style="left:64px;top:600px" ><div class="mono" style="font-size:14px;color:#8A8A8E;line-height:2">Monitor 7"<br>sem fio</div></div>
-<div class="a" style="right:64px;top:600px;text-align:right"><div class="mono" style="font-size:14px;color:#8A8A8E;line-height:2">Diretor e<br>cliente juntos</div></div>
-<div class="a rod" style="color:#8A8A8E"><span>Já vem no Kit Cinema</span><span class="cta">Reserve o kit</span></div>${grao}</div>`};
+<img class="a" src="${R}pyro7.png" style="left:50%;top:520px;height:540px;transform:translateX(-50%);filter:drop-shadow(0 30px 40px rgba(0,0,0,.6))"><div class="a" id="tela" style="overflow:hidden;border-radius:4px;left:358px;top:797px;width:363px;height:230px"><img src="../identidade/v1/fotos/apresentadora.jpg" style="width:100%;height:100%;object-fit:cover;object-position:50% 25%"></div>
+<div class="a" style="left:64px;top:600px" ><div class="mono" style="font-size:20px;color:#8A8A8E;line-height:1.7">Monitor 7"<br>sem fio</div></div>
+<div class="a" style="right:64px;top:600px;text-align:right"><div class="mono" style="font-size:20px;color:#8A8A8E;line-height:1.7">Diretor e<br>cliente juntos</div></div>
+<div class="a rod" style="color:#8A8A8E"><span>(98) 99133-1727</span><span class="cta">Reserve o kit</span></div>${grao}</div>`};
 const p=+new URLSearchParams(location.search).get('p')||1;document.getElementById('pp').innerHTML=P[p]();
+const T=document.getElementById('tela');if(T)T.insertAdjacentHTML('beforeend',`<span style="position:absolute;left:10px;top:8px;font:500 14px 'Geist Mono';color:#fff"><b style="color:#FF3B3B">●</b> REC</span><span style="position:absolute;right:10px;bottom:8px;font:500 14px 'Geist Mono';color:#fff">00:00:12:04</span>`);
 Promise.all([document.fonts.ready,...[...document.images].map(i=>i.complete?1:new Promise(r=>{i.onload=i.onerror=r}))]).then(()=>window.pronto=true);
 </script></body></html>

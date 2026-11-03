@@ -17,3 +17,10 @@ Prévia do feed (mais novo no topo): `previa-feed.jpg`. Legendas: `LEGENDAS.md`.
 
 **Gerar:** recortes em `recortes/` (rembg isnet + Real-ESRGAN `../../../../ferramentas/melhorar_foto.py`), depois `node gerar.js` → `artes/post-0N.jpg` (2160×2700).
 Situação: enviado ao Lindson em 03/11, aguardando OK.
+
+## Melhorias de 03/11 (conta Leandro, pedido "veja o que consegue melhorar")
+1. **Leitura no celular:** nenhum texto abaixo de ~18 px na arte de 1080 (antes havia rótulos de 13–15 px, ilegíveis no feed).
+2. **Marca mais presente:** cantos do visor + ● REC + timecode (elementos do manual v1) em volta do produto na FX3 e nos cartões da série (layouts A e B).
+3. **Pyro 7:** a tela vermelha do fabricante foi trocada por um take real da própria Real Time (vermelho só no REC, regra do manual).
+4. **STORM:** véu escuro atrás do subtítulo para ler sobre a foto de chuva.
+5. **WhatsApp (98) 99133-1727** em todas as artes.
