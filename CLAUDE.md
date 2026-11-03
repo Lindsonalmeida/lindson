@@ -3,6 +3,10 @@
 > **PRIMEIRO DE TUDO (toda conta, toda conversa, inclusive conta nova):** leia `MEMORIA-DO-LINDSON.md` antes de responder qualquer pedido. Ali está tudo o que o Lindson já pediu, mandou, **aprovou** (guardar e melhorar) e **reprovou** (nunca repetir). Ao terminar cada pedido, acrescente nela o que foi aprovado ou reprovado, com data e conta, e faça commit e push. Nunca peça ao Lindson algo que já está lá.
 >
 > **Regra do Lindson (03/11/2026): sempre que ele pedir algo, verifique o repositório e como era feito antes** (`git grep`, `git log --grep`, pasta do cliente, `agencia/processos/`, privado `CentralLindsonALmeida`). Siga o jeito que já existe e diga qual seguiu; se não existir, salve o novo como modelo em `agencia/processos/`.
+>
+> **Regra do Lindson (03/11/2026): sempre que voltar** (conversa nova, reinício da sessão, limite de uso renovado, ou antes de continuar qualquer trabalho), **verifique se o trabalho continuou com outras equipes**: `git pull`, `git log --since` de todos os branches, quadro, registro e o privado `CentralLindsonALmeida`. Se outra conta já fez ou avançou, não refaça: continue de onde ela parou e diga ao Lindson quem fez.
+>
+> **Recados para todas as contas:** ficam no topo do `QUADRO-DA-EQUIPE.md`. Ao ler um recado novo, responda ao Lindson na conversa "Entendi o recado de DD/MM: …" e marque a sua confirmação na tabela (commit e push).
 
 ## Mini site de cliente (bio)
 
@@ -85,7 +89,7 @@ Se não der para saber, pergunte ao Lindson antes de registrar qualquer coisa.
 
 **2. Antes de qualquer pedido**, nesta ordem:
 1. `git pull` no branch principal (`claude/global-agent-installation-vdyowf`) e `git fetch` dos outros branches.
-2. Leia o `QUADRO-DA-EQUIPE.md` (o que cada conta está fazendo agora), o `REGISTRO-DAS-CONTAS.md` (tudo o que já foi entregue), o `MAPA-DO-REPOSITORIO.md` (onde está cada coisa) e o `ESTADO-DO-PROJETO.md` (apps e como retomar).
+2. Leia o `QUADRO-DA-EQUIPE.md` (primeiro os **Recados para todas as contas**: confirme os novos ao Lindson e na tabela; depois o que cada conta está fazendo agora), o `REGISTRO-DAS-CONTAS.md` (tudo o que já foi entregue), o `MAPA-DO-REPOSITORIO.md` (onde está cada coisa) e o `ESTADO-DO-PROJETO.md` (apps e como retomar).
 3. Procure no repositório (`git grep`, `git log --grep`) se o pedido já existe.
 
 **3. Pedido repetido:** se já foi feito, **não refaça**. Responda: "Isso já foi feito pela conta X em DD/MM: [o que é], está em [pasta ou link]." Só faça de novo se o Lindson pedir uma versão nova; aí continue a partir da existente (versão 2, 3…) e diga o que mudou.

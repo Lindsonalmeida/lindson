@@ -54,6 +54,8 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 19. **Alterne foto e só logo** entre os posts e mantenha o feed harmonizado na ordem de postagem.
 20. **Negatividade gera mais audiência** (22/10): nas dores e nos ganchos, use o lado negativo.
 
+- **Sempre que voltar, verificar se o trabalho continuou com outras equipes** (03/11 · Pedro, para todas as contas): pull, log de todos os branches, quadro, registro e privado; nunca refazer o que outra conta já fez. Recados para as contas ficam no topo do `QUADRO-DA-EQUIPE.md`, e cada conta confirma ao Lindson "Entendi o recado".
+
 ## 3. APROVADO: guardar e melhorar
 
 **Leo Pinto**

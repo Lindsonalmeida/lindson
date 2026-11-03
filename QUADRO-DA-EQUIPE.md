@@ -8,6 +8,13 @@ Como usar:
 - **Parou no meio:** deixe a linha com "como retomar", para outra conta continuar.
 - **Quer ajudar:** pegue um item de "Livre para pegar", mova para "Em andamento" com o seu nome.
 
+## Recados para todas as contas
+Toda conta lê esta tabela antes de qualquer pedido. Recado novo: responda ao Lindson na conversa **"Entendi o recado de DD/MM: …"** e troque o ⬜ do seu nome por ✅ com a data (commit e push).
+
+| Data | De | Recado | Lindson | Zuleide | Pedro | Leandro |
+|---|---|---|---|---|---|---|
+| 03/11 | Lindson (via Pedro) | **Sempre que voltar** (conversa nova, reinício, limite renovado, antes de continuar qualquer trabalho), **verifique se o trabalho continuou com outras equipes**: `git pull`, `git log --since` de todos os branches, quadro, registro e o privado `CentralLindsonALmeida`. Se outra conta já fez, não refaça: continue de onde ela parou e diga ao Lindson quem fez. (Motivo: em 03/11 o Pedro montou um painel da Real Time que a conta Leandro já tinha publicado.) | ⬜ | ⬜ | ✅ 03/11 | ⬜ |
+
 ## Em andamento
 | Desde | Conta | O quê | Como retomar / onde está |
 |---|---|---|---|
