@@ -15,7 +15,8 @@ export async function onRequestGet({ request, env }) {
   if (!configurado(env)) return faltaConfig();
   const a = await acesso(request, env); if (a.erro) return a.erro;
   const r = await env.CONTAS.get(a.chave, 'json');
-  return json({ ...(r || { dados: null, versao: 0 }), eu: a.q.cli === 'admin' ? 'admin' : 'cliente' });
+  const conta = await env.CONTAS.get('conta:' + a.q.email, 'json');
+  return json({ ...(r || { dados: null, versao: 0 }), eu: a.q.cli === 'admin' ? 'admin' : 'cliente', nome: (conta && conta.nome) || a.q.email });
 }
 export async function onRequestPut({ request, env }) {
   if (!configurado(env)) return faltaConfig();
@@ -25,6 +26,12 @@ export async function onRequestPut({ request, env }) {
   let b; try { b = JSON.parse(txt); } catch (e) { return json({ erro: 'Dados inválidos.' }, 400); }
   const atual = (await env.CONTAS.get(a.chave, 'json')) || { dados: null, versao: 0 };
   if ((b.versao | 0) !== atual.versao) return json(atual, 409);
+  // aprovações: o nome de quem aprovou/pediu ajuste vem da conta de acesso (servidor), não do navegador (conta Lindson, 03/11/2026)
+  if (a.chave.endsWith(':aprov') && b.dados && Array.isArray(b.dados.itens)) {
+    const conta = await env.CONTAS.get('conta:' + a.q.email, 'json'), nome = (conta && conta.nome) || a.q.email;
+    const antes = {}; ((atual.dados && atual.dados.itens) || []).forEach(x => antes[x.titulo] = x);
+    b.dados.itens.forEach(x => { const o = antes[x.titulo]; if (!o || o.st !== x.st || o.em !== x.em || o.nota !== x.nota) { x.por = nome; x.email = a.q.email; } else { x.por = o.por; x.email = o.email; } });
+  }
   const novo = { dados: b.dados, versao: atual.versao + 1, por: a.q.email, em: new Date().toISOString() };
   await env.CONTAS.put(a.chave, JSON.stringify(novo));
   return json({ ok: true, versao: novo.versao });

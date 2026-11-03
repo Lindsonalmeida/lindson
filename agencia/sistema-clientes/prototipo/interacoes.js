@@ -7,11 +7,11 @@ const toast = t => window.__toast(t), render = () => window.__render();
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const WA = '5598985621808', nome = D.nome || 'cliente';
 const S = { aprov: { dados: { itens: [] }, versao: 0 }, ped: { dados: { itens: [] }, versao: 0 } };
-let remoto = false, eu = 'cliente';
+let remoto = false, eu = 'cliente', meuNome = '';
 const agora = () => new Date().toISOString(), uid = () => Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
 async function carrega(f) {
   try { const r = await fetch(`/api/dados?cli=${cli}&f=${f}`, { headers: { Accept: 'application/json' } });
-    if (r.ok && (r.headers.get('content-type') || '').includes('json')) { const j = await r.json(); S[f] = { dados: j.dados || { itens: [] }, versao: j.versao || 0 }; eu = j.eu || eu; remoto = true; } } catch (e) {}
+    if (r.ok && (r.headers.get('content-type') || '').includes('json')) { const j = await r.json(); S[f] = { dados: j.dados || { itens: [] }, versao: j.versao || 0 }; eu = j.eu || eu; meuNome = j.nome || meuNome; remoto = true; } } catch (e) {}
 }
 async function muda(f, fn) {
   if (!remoto) { fn(S[f].dados); return true; }
@@ -43,13 +43,13 @@ window.__pos = view => {
   // aprovações (sobrepõe o botão do modelo, que não salvava)
   m.querySelectorAll('[data-ap]').forEach(b => b.onclick = async () => {
     const p = APROV[+b.dataset.ap]; if (!p) return;
-    if (await muda('aprov', d => { d.itens = (d.itens || []).filter(x => x.titulo !== p.titulo); d.itens.push({ titulo: p.titulo, st: 'aprovado', em: agora(), por: eu }); })) { p.st = 'aprovado'; p.por = eu; p.em = agora(); toast('Aprovado! A equipe já vê no painel.'); render(); }
+    if (await muda('aprov', d => { d.itens = (d.itens || []).filter(x => x.titulo !== p.titulo); d.itens.push({ titulo: p.titulo, st: 'aprovado', em: agora(), por: meuNome || eu }); })) { p.st = 'aprovado'; p.por = meuNome || eu; p.em = agora(); toast('Aprovado! A equipe já vê no painel.'); render(); }
   });
   m.querySelectorAll('[data-aj]').forEach(b => b.onclick = async () => {
     const p = APROV[+b.dataset.aj]; if (!p) return;
     const nota = prompt(`O que você quer mudar em "${p.titulo}"?`); if (nota === null) return;
-    if (await muda('aprov', d => { d.itens = (d.itens || []).filter(x => x.titulo !== p.titulo); d.itens.push({ titulo: p.titulo, st: 'em revisão', nota: nota.trim().slice(0, 500), em: agora(), por: eu }); })) {
-      p.st = 'em revisão'; p.nota = nota; render(); toast('Pedido de ajuste salvo. Abrindo o WhatsApp para avisar a equipe.');
+    if (await muda('aprov', d => { d.itens = (d.itens || []).filter(x => x.titulo !== p.titulo); d.itens.push({ titulo: p.titulo, st: 'em revisão', nota: nota.trim().slice(0, 500), em: agora(), por: meuNome || eu }); })) {
+      p.st = 'em revisão'; p.nota = nota; p.por = meuNome || eu; p.em = agora(); render(); toast('Pedido de ajuste salvo. Abrindo o WhatsApp para avisar a equipe.');
       if (eu !== 'admin') abreWa(`Oi, Lindson! Pedi ajuste num post na Central (${nome}):\n"${p.titulo}"\n${nota.trim() || '(sem detalhe)'}`);
     }
   });
