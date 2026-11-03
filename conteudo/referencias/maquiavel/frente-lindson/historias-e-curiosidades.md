@@ -199,7 +199,7 @@ Diz-se em inglês que o apelido do diabo, "Old Nick", vem de Niccolò Machiavell
 *Fonte:* Samuel Butler, *Hudibras*, parte III, canto 1; T. B. Macaulay, "Machiavelli", *Edinburgh Review* (1827); *Oxford English Dictionary*, verbete "Nick".
 
 ### 1.44 "Os fins justificam os meios" — frase que ele nunca escreveu [FATO a ausência]
-A frase mais associada a ele não está em nenhuma obra sua. O mais próximo é o *Príncipe*, cap. 18: "nas ações de todos os homens, e sobretudo dos príncipes, onde não há tribunal a que reclamar, olha-se o resultado" ("si guarda al fine"), e "faça o príncipe por vencer e manter o Estado: os meios serão sempre julgados honrosos e por todos louvados". A fórmula "o fim justifica os meios" se popularizou séculos depois, em discussões morais (inclusive anti-jesuíticas), e foi colada nele.
+A frase mais associada a ele não está em nenhuma obra sua. O mais próximo é o *Príncipe*, cap. 18: "nas ações de todos os homens, e sobretudo dos príncipes, onde não há tribunal a que reclamar, olha-se o resultado" ("si guarda al fine"), e "faça o príncipe por vencer e manter o Estado: os meios serão sempre julgados honrosos e por todos louvados". A fórmula "o fim justifica os meios" se popularizou séculos depois, em discussões morais (inclusive anti-jesuíticas), e foi colada nele; a fórmula mais próxima é do jesuíta Hermann Busenbaum, *Medulla theologiae moralis*, 1650: "cum finis est licitus, etiam media sunt licita".
 *Fonte:* *Príncipe*, cap. 18; Skinner, *Machiavelli: A Very Short Introduction* (1981; 2ª ed. 2019).
 
 ### 1.45 O dono do cão Furia (epigrama atribuído) [PROVÁVEL]

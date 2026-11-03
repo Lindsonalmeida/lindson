@@ -422,7 +422,7 @@ Regra do agente: na primeira vez, **termo italiano entre parênteses** e explica
 | **fiorino largo / di suggello / ducato** | florim de ouro pleno / de conta / ducado | Ver 1.7 |
 
 ### 4.3 Frases e termos que não são de Maquiavel
-Já tratados em `recepcao-e-estudiosos.md` (mitos e frases falsas). Lembrete curto: "os fins justificam os meios" (não existe; *Príncipe* XVIII diz "si guarda al fine", "olha-se o resultado"), "dividir para reinar" (máxima antiga; *Príncipe* XX: "non credo che le divisioni facessino mai bene alcuno"; mas dividir as forças **do inimigo** ele recomenda: *Arte della guerra* VI, *Discursos* II.25), "razão de Estado" (Botero, 1589; usos anteriores em Guicciardini e Giovanni della Casa), "golpe de Estado" (Naudé, 1639), "maquiavélico" (antimaquiavelismo do séc. XVI).
+Já tratados em `recepcao-e-estudiosos.md` (mitos e frases falsas). Lembrete curto: "os fins justificam os meios" (não existe; *Príncipe* XVIII diz "si guarda al fine", "olha-se o resultado"; a fórmula mais próxima é do jesuíta Hermann Busenbaum, *Medulla theologiae moralis*, 1650: "cum finis est licitus, etiam media sunt licita"), "dividir para reinar" (máxima antiga; *Príncipe* XX: "non credo che le divisioni facessino mai bene alcuno"; mas dividir as forças **do inimigo** ele recomenda: *Arte della guerra* VI, *Discursos* II.25), "razão de Estado" (Botero, 1589; usos anteriores em Guicciardini e Giovanni della Casa), "golpe de Estado" (Naudé, 1639), "maquiavélico" (antimaquiavelismo do séc. XVI).
 
 ---
 

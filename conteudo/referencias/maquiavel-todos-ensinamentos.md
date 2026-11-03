@@ -11,7 +11,7 @@ Fontes: Projeto Gutenberg (The Prince, trad. W. K. Marriott; Discourses on Livy,
 
 Observações:
 - O número "177" do vídeo é uma contagem do próprio canal. Maquiavel não escreveu 177 regras.
-- A frase "os fins justificam os meios" **não aparece** em nenhum livro. O mais perto é O Príncipe, cap. XVIII: "nas ações dos homens, olha-se o resultado".
+- A frase "os fins justificam os meios" **não aparece** em nenhum livro. O mais perto é O Príncipe, cap. XVIII: "nas ações dos homens, olha-se o resultado". A fórmula vem do jesuíta Hermann Busenbaum (*Medulla theologiae moralis*, 1650: "quando o fim é lícito, também os meios são lícitos").
 
 ---
 
