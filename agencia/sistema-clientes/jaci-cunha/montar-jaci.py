@@ -58,13 +58,21 @@ else:
 troca(re.search(r" jaci:\{nome:'Dra\. Jaci Cunha'.*?\]\]\},", s, re.S).group(0),
       " jaci:{nome:'Clínica Dra. Jaci Cunha',seg:'',plano:'',inicio:'',kpis:[],canais:[],metas:[]},")
 
-# 4 · posts reais nas Aprovações e pautas da clínica em Conteúdos
-POSTS = [('post-botox.jpg', 'Carrossel', 'Botox: o que ninguém responde', 'aguardando'), ('post-preenchimento.jpg', 'Carrossel', 'Preenchimento facial natural', 'aguardando'),
-         ('post-bioestimulador.jpg', 'Carrossel', 'Bioestimulador: quando começar?', 'aguardando'), ('post-reta-final.jpg', 'Carrossel', 'Reta final do ano', 'aprovado'),
-         ('post-frases.jpg', 'Post único', 'Frases que eu amo ouvir', 'aprovado'), ('post-observo.jpg', 'Post único', 'Antes de qualquer procedimento, eu observo', 'aprovado')]
-aprov = ','.join(f"{{t:'{t}',titulo:'{ti}',data:'Feed · referência aprovada',st:'{st}',img:'{uri(os.path.join(IMG, f), 420)}'}}" for f, t, ti, st in POSTS)
-s = re.sub(r"const APROV=\[.*?\];", f"const APROV=[{aprov}];", s, count=1, flags=re.S)
+# 4 · Aprovações: os 4 carrosséis de novembro (cópia do estilo dela, instagram-nov/) com todas as telas e a legenda.
+#     Os posts antigos dela saíram das Aprovações (mesma regra do Leo, 03/11/2026).
+import json as _j, glob as _g
+NOV = os.path.join(CL, 'instagram-nov'); TN = _j.load(open(os.path.join(NOV, 'textos.json')))
+TIT = {'c1': '3 perguntas antes de qualquer procedimento', 'c2': 'Biossegurança: o que você não vê', 'c3': 'Mitos × verdades da harmonização', 'c4': 'Vem me conhecer: como chegar e como é a clínica'}
+itens = [{'t': 'Carrossel · 6 telas', 'titulo': f'{TN[k]["data"]} · {TIT[k]}', 'data': f'Postar em {TN[k]["data"]} (terça)', 'linha': TN[k]['linha'], 'st': 'aguardando',
+          'img': uri(os.path.join(NOV, f'{k}-1.jpg'), 720), 'telas': [uri(f, 360, 80) for f in sorted(_g.glob(os.path.join(NOV, f'{k}-*.jpg')))[1:]], 'legenda': TN[k]['legenda']} for k in ['c1', 'c2', 'c3', 'c4']]
+aprov = ','.join(_j.dumps(x, ensure_ascii=False) for x in itens)
+s = re.sub(r"const APROV=\[.*?\];", lambda m: f"const APROV=[{aprov}];", s, count=1, flags=re.S)
 troca('<div class="post"><div class="img">${p.titulo}</div>', '<div class="post">${p.img?`<img src="${p.img}" alt="${p.titulo}" style="width:100%;aspect-ratio:4/5;object-fit:cover;display:block">`:`<div class="img">${p.titulo}</div>`}')
+troca('<div class="d" style="color:var(--apagado);font-size:12.5px">${p.data}</div>',
+      '<div class="d" style="color:var(--apagado);font-size:12.5px">${p.data}</div>${p.linha?`<span style="display:inline-block;margin-top:8px;padding:3px 10px;border-radius:999px;font-size:11.5px;font-weight:800;background:var(--amarelo);color:#1a0f12">${p.linha}</span>`:\'\'}<div style="font-weight:700;margin:6px 0 2px">${p.titulo}</div>'
+      '${p.telas?`<div style="display:flex;gap:6px;overflow-x:auto;margin:8px 0;padding-bottom:4px">${p.telas.map(t=>`<img src="${t}" style="height:120px;aspect-ratio:4/5;object-fit:cover;border-radius:6px;flex:none">`).join(\'\')}</div>`:\'\'}'
+      '${p.por?`<div style="font-size:12px;color:${p.st===\'aprovado\'?\'#4ADE80\':\'var(--amarelo)\'};margin-top:2px">${p.st===\'aprovado\'?\'✓ Aprovado no site por\':\'Ajuste pedido\'}: ${p.por}${p.em?\', \'+new Date(p.em).toLocaleDateString(\'pt-BR\'):\'\'}</div>`:\'\'}'
+      '${p.legenda?`<details style="margin:8px 0"><summary style="cursor:pointer;color:var(--amarelo);font-weight:700">Ver legenda</summary><pre style="white-space:pre-wrap;font:inherit;font-size:13px;line-height:1.5;margin:10px 0;max-height:320px;overflow:auto">${p.legenda.replace(/</g,"&lt;")}</pre><button class="btn lin" onclick="navigator.clipboard.writeText(this.previousElementSibling.textContent);window.__toast&&window.__toast(\'Legenda copiada\')">Copiar legenda</button></details>`:\'\'}')
 troca("carrosseis:[['5 erros que fazem você perder clientes','aprovado'],['Antes de comprar, veja isso','em revisão'],['Perguntas que mais recebemos','em produção']]",
       "carrosseis:[['Mitos × verdades: botox deixa o rosto parado?','em produção'],['3 perguntas antes de qualquer procedimento','ideia'],['O que acontece na sua avaliação','ideia']]")
 troca("reels:[['Bastidores da semana','aprovado'],['Um dia com a equipe','em produção'],['Responda em 30 segundos: dúvida do cliente','ideia']]",

@@ -11,8 +11,8 @@ Contrato Plano Master: 26/10/2026 a 25/01/2027 (3 meses). Hoje estamos na **sema
 ## Pendências (por prioridade)
 | # | O quê | Situação | Quem |
 |---|---|---|---|
-| 1 | **Artes de novembro** copiando o estilo dela (capas de carrossel e posts do calendário; semana 1 já começou em 02/11) | não começou (esperando acabar o Leo, que acabou) | agência |
-| 2 | **Aprovações do painel**: tirar os 6 posts antigos dela que estão lá como exemplo e subir só as artes novas aprovadas pelo Lindson (mesma regra do Leo) | a fazer junto com o item 1 | agência |
+| 1 | **Artes de novembro** copiando o estilo dela | 4 carrosséis feitos e no painel (03/11); falta capas dos reels quando houver os vídeos | agência |
+| 2 | **Aprovações do painel**: posts antigos retirados, carrosséis novos no lugar (03/11) | feito | agência |
 | 3 | **Semanas 1 e 2 da estratégia**: bio nova, 6 destaques, Perfil do Google (categorias, 20 fotos, pedir avaliações), WhatsApp com etiquetas e mensagens prontas, códigos nos anúncios | atrasado (era nov sem. 1–2) | agência + clínica |
 | 4 | **Mini site com chat de avaliação** (6 perguntas → WhatsApp com tudo escrito), em repositório próprio dela e Cloudflare `drajacicunha.pages.dev` | em produção no painel, não existe ainda | Lindson cria o repositório |
 | 5 | **Campanhas A, B e C no Meta** (nov sem. 3–4, a partir de 16/11) com o gancho "quem quer estar bem nas festas começa agora" | preparar | agência (Pedro Sobral) |
