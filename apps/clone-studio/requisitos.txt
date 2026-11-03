@@ -1,5 +1,7 @@
 chatterbox-tts
-gradio
+fastapi
+uvicorn
+python-multipart
 imageio-ffmpeg
 soundfile
 scipy

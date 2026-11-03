@@ -1,92 +1,133 @@
-"""Dublê (antigo Clone Studio): o app interno de clone de voz e imagem do Lindson (conta Pedro, 03/11/2026).
-Abre no navegador (http://127.0.0.1:7860), só no computador dele. Etapa 1: Biblioteca + Voz.
-Etapa 2 (próxima): Vídeo com a boca sincronizada (MuseTalk 1.5) e Gravuras vivas (LivePortrait)."""
-import datetime as dt, os
-import gradio as gr, soundfile as sf
+"""Dublê: o app interno de clone de voz e imagem do Lindson (conta Pedro, 03/11/2026).
+Tela nova (v2) copiada da composição do template Sermo (Framer Marketplace, sermo-ai.framer.website),
+na identidade do Dublê (identidade/IDENTIDADE.md). A página fica em web/; este arquivo é o servidor local.
+Abre em http://127.0.0.1:7860, só no computador do Lindson. Motor e trava: motor_voz.py e biblioteca.py.
+A tela antiga em Gradio ficou em app_gradio_antigo.py (reprovada pelo Lindson em 03/11)."""
+import datetime as dt, os, shutil, subprocess, tempfile, threading, webbrowser
+import soundfile as sf
+import uvicorn
+from fastapi import FastAPI, File, Form, HTTPException, UploadFile
+from fastapi.responses import FileResponse
+from fastapi.staticfiles import StaticFiles
+from pydantic import BaseModel
 import biblioteca as bib, motor_voz as mv
-from identidade.tema import TEMA, CSS, CABECALHO
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
-
+WEB = os.path.join(AQUI, 'web')
 SAIDA = os.path.join(bib.RAIZ, 'saidas')
-FRASE_CONSENTIMENTO = ('Eu, [nome completo], autorizo o Lindson Almeida a usar a minha imagem e a minha voz para '
-                       'criar conteúdo com inteligência artificial para [finalidade], até [data]. Hoje é [data de hoje].')
+PORTA = int(os.environ.get('DUBLE_PORTA', '7860'))
+FRASE = ('Eu, [nome completo], autorizo o Lindson Almeida a usar a minha imagem e a minha voz para '
+         'criar conteúdo com inteligência artificial para [finalidade], até [data]. Hoje é [data de hoje].')
+
+app = FastAPI(title='Dublê', docs_url=None, redoc_url=None)
+_trava = threading.Lock()                     # uma geração por vez (a placa tem 4 GB)
+_prog = {'ativo': False, 'feito': 0, 'total': 0, 'texto': ''}
 
 
-def _tabela():
-    linhas = []
+def _saidas():
+    if not os.path.isdir(SAIDA): return []
+    arqs = sorted((f for f in os.listdir(SAIDA) if f.endswith('.wav')), reverse=True)
+    out = []
+    for f in arqs[:30]:
+        try: d = sf.info(os.path.join(SAIDA, f)).duration
+        except Exception: d = 0
+        out.append({'arquivo': f, 'duracao': round(d, 1), 'dublê': f.rsplit('-', 2)[0]})
+    return out
+
+
+@app.get('/api/estado')
+def estado():
+    dubles = []
     for pid, p in bib.lista().items():
         ok, motivo = bib.liberado(p)
-        linhas.append([p['nome'], p['tipo'], 'Liberado' if ok else 'Bloqueado', motivo, p.get('validade', '')])
-    return linhas
+        dubles.append({'id': pid, 'nome': p['nome'], 'tipo': p['tipo'], 'liberado': ok, 'motivo': motivo,
+                       'validade': p.get('validade', ''), 'atualizado': p.get('atualizado', '')})
+    s = _saidas()
+    return {'dubles': dubles, 'saidas': s, 'tipos': bib.TIPOS, 'frase': FRASE,
+            'segundos': round(sum(x['duracao'] for x in s), 1)}
 
 
-def _nomes(): return [p['nome'] for p in bib.lista().values()]
+def _tmp(up):
+    if not up or not up.filename: return None
+    d = tempfile.mkdtemp(); c = os.path.join(d, os.path.basename(up.filename))
+    with open(c, 'wb') as f: shutil.copyfileobj(up.file, f)
+    return c
 
 
-def _pid(nome):
-    for k, p in bib.lista().items():
-        if p['nome'] == nome: return k, p
-    return None, None
+def _wav(c):
+    """Amostra gravada no microfone do navegador vem em webm/ogg: vira wav para o motor de voz."""
+    if not c or os.path.splitext(c)[1].lower() in ('.wav', '.mp3', '.flac'): return c
+    o = os.path.splitext(c)[0] + '.wav'
+    subprocess.run([mv.ffmpeg(), '-y', '-loglevel', 'error', '-i', c, '-ac', '1', '-ar', '44100', o], check=True)
+    return o
 
 
-def cadastrar(nome, tipo, amostra, termo, video, validade, fonte, base):
+@app.post('/api/dubles')
+def salvar(nome: str = Form(...), tipo: str = Form(...), validade: str = Form(''), fonte: str = Form(''),
+           amostra: UploadFile = File(None), termo: UploadFile = File(None),
+           video: UploadFile = File(None), base: UploadFile = File(None)):
     try:
-        _, ok, motivo = bib.cadastra(nome, tipo, amostra, termo, video, validade, fonte, base)
-        aviso = ('✅ Dublê salvo e liberado.' if ok else '⛔ Dublê salvo, mas bloqueado: ' + motivo)
-    except Exception as e:
-        aviso = '⚠️ ' + str(e)
-    return aviso, _tabela(), gr.update(choices=_nomes())
+        pid, ok, motivo = bib.cadastra(nome, tipo, _wav(_tmp(amostra)), _tmp(termo), _tmp(video), validade, fonte, _tmp(base))
+    except ValueError as e:
+        raise HTTPException(400, str(e))
+    return {'id': pid, 'liberado': ok,
+            'aviso': 'Dublê salvo e liberado.' if ok else 'Dublê salvo, mas bloqueado: ' + motivo}
 
 
-def gerar_voz(nome, texto, expressao, humanizar, progresso=gr.Progress()):
-    pid, p = _pid(nome)
-    if not p: raise gr.Error('Escolha um dublê na Biblioteca.')
-    ok, motivo = bib.liberado(p)
-    if not ok: raise gr.Error('Esse dublê está bloqueado: ' + motivo + ' Resolva na Biblioteca.')
-    if not texto.strip(): raise gr.Error('Escreva o texto.')
-    a = mv.narrar(texto, p['amostra_voz'], expressao, humanizar=humanizar, progresso=progresso)
-    os.makedirs(SAIDA, exist_ok=True)
-    arq = os.path.join(SAIDA, f"{pid}-{dt.datetime.now():%Y%m%d-%H%M%S}.wav")
-    sf.write(arq, a, mv.S)
-    return arq, f'Pronto: {len(a) / mv.S:.1f} s de áudio, salvo em {arq}. Feito com IA: avise o público quando parecer real.'
+@app.delete('/api/dubles/{pid}')
+def apagar(pid: str):
+    bib.apaga(pid); return {'ok': True}
 
 
-with gr.Blocks(title='Dublê') as app:
-    gr.HTML(CABECALHO)
-    with gr.Tab('Biblioteca'):
-        gr.HTML('<div class="dub-consentimento"><strong>Só com autorização.</strong> Rosto e voz de gente real só entram aqui com o termo '
-                'assinado e um vídeo da própria pessoa dizendo que autoriza.</div>')
-        gr.Markdown('Cadastre cada dublê. **Lindson e clientes:** termo assinado + vídeo de consentimento. '
-                    '**Personagens:** registre a fonte (obra, autor, licença).\n\n'
-                    f'Frase do vídeo de consentimento (gravar ao vivo, a própria pessoa, sozinha, rosto visível):\n> {FRASE_CONSENTIMENTO}')
-        with gr.Row():
-            nome = gr.Textbox(label='Nome do dublê'); tipo = gr.Dropdown(bib.TIPOS, label='Quem é', value=bib.TIPOS[0])
-            validade = gr.Textbox(label='Termo vale até (AAAA-MM-DD)')
-        with gr.Row():
-            amostra = gr.Audio(label='Amostra de voz (10 s a 2 min, sem barulho)', type='filepath')
-            base = gr.Video(label='Vídeo base, para a etapa de vídeo (2 min olhando para a câmera)')
-        with gr.Row():
-            termo = gr.File(label='Termo assinado (PDF ou foto)', type='filepath')
-            video = gr.Video(label='Vídeo de consentimento')
-            fonte = gr.Textbox(label='De onde vem o personagem (obra, autor, licença)')
-        aviso = gr.Markdown(); bt = gr.Button('Salvar dublê', variant='primary')
-        tabela = gr.Dataframe(headers=['Nome', 'Tipo', 'Situação', 'Motivo', 'Validade'], value=_tabela(), interactive=False)
-    with gr.Tab('Voz'):
-        with gr.Row():
-            quem = gr.Dropdown(_nomes(), label='Voz de quem')
-            expressao = gr.Slider(.25, 1, .5, step=.05, label='Emoção (mais alto = mais emoção)')
-            humanizar = gr.Checkbox(True, label='Deixar humano (pausas, respiração, som de estúdio)')
-        texto = gr.Textbox(lines=8, label='Texto', placeholder='Escreva como se fala: frases curtas e números por extenso.')
-        gerar = gr.Button('Gerar voz', variant='primary')
-        audio = gr.Audio(label='Resultado', type='filepath'); info = gr.Markdown()
-    with gr.Tab('Vídeo (em breve)'):
-        gr.Markdown('Próxima etapa: boca sincronizada no vídeo base (MuseTalk 1.5, roda na RTX 3050) e gravuras vivas '
-                    '(LivePortrait). Corpo e gestos vão para a nuvem (Modal), só quando precisar.')
-    gr.Markdown('Uso interno. Nada sai daqui sem a autorização da pessoa.', elem_classes='dub-rodape')
-    bt.click(cadastrar, [nome, tipo, amostra, termo, video, validade, fonte, base], [aviso, tabela, quem])
-    gerar.click(gerar_voz, [quem, texto, expressao, humanizar], [audio, info])
+class Pedido(BaseModel):
+    id: str
+    texto: str
+    emocao: float = 0.5
+    humano: bool = True
+
+
+@app.get('/api/progresso')
+def progresso(): return _prog
+
+
+@app.post('/api/voz')
+def voz(p: Pedido):
+    d = bib.lista().get(p.id)
+    if not d: raise HTTPException(400, 'Escolha um dublê na Biblioteca.')
+    ok, motivo = bib.liberado(d)
+    if not ok: raise HTTPException(403, 'Esse dublê está bloqueado: ' + motivo + ' Resolva na Biblioteca.')
+    if not p.texto.strip(): raise HTTPException(400, 'Escreva o texto.')
+    if not _trava.acquire(blocking=False): raise HTTPException(409, 'Já tem uma voz sendo gerada. Espere terminar.')
+    try:
+        _prog.update(ativo=True, feito=0, total=len(mv.frases(p.texto)) or 1, texto='Carregando o modelo de voz…')
+        def cb(par, desc=''): _prog.update(feito=par[0], total=par[1], texto=desc)
+        a = mv.narrar(p.texto, d['amostra_voz'], p.emocao, humanizar=p.humano, progresso=cb)
+        os.makedirs(SAIDA, exist_ok=True)
+        nome = f"{p.id}-{dt.datetime.now():%Y%m%d-%H%M%S}.wav"
+        sf.write(os.path.join(SAIDA, nome), a, mv.S)
+        seg = round(len(a) / mv.S, 1)
+        return {'arquivo': nome, 'duracao': seg,
+                'aviso': f'Pronto: {seg:.1f} s de áudio. Feito com IA: avise o público quando parecer real.'}
+    finally:
+        _prog.update(ativo=False); _trava.release()
+
+
+@app.get('/api/saidas/{arquivo}')
+def baixar(arquivo: str):
+    c = os.path.join(SAIDA, os.path.basename(arquivo))
+    if not os.path.isfile(c): raise HTTPException(404, 'Áudio não encontrado.')
+    return FileResponse(c, media_type='audio/wav', filename=os.path.basename(c))
+
+
+@app.get('/')
+def inicio(): return FileResponse(os.path.join(WEB, 'index.html'))
+
+
+app.mount('/identidade', StaticFiles(directory=os.path.join(AQUI, 'identidade')), name='identidade')
+app.mount('/web', StaticFiles(directory=WEB), name='web')
 
 if __name__ == '__main__':
-    app.queue().launch(server_name='127.0.0.1', inbrowser=True, theme=TEMA, css=CSS,
-                       favicon_path=os.path.join(AQUI, 'identidade', 'favicon.svg'))
+    if os.environ.get('DUBLE_SEM_NAVEGADOR') != '1':
+        threading.Timer(1.5, lambda: webbrowser.open(f'http://127.0.0.1:{PORTA}')).start()
+    print(f'Dublê aberto em http://127.0.0.1:{PORTA} (feche esta janela para desligar)')
+    uvicorn.run(app, host='127.0.0.1', port=PORTA, log_level='warning')

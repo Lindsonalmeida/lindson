@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dublê</title>
+<link rel="icon" href="/identidade/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/web/duble.css">
+</head>
+<!--
+  Dublê · tela v2 (conta Pedro, 03/11/2026)
+  Composição copiada do template Sermo (Framer Marketplace · sermo-ai.framer.website):
+  menu em pílulas flutuantes, halo de raios de voz atrás do título gigante, console do app,
+  aviso flutuante com barras, cartões de números com gráfico, título em duas cores,
+  3 colunas com ícone e o "Composer" com passos numerados ao lado de um painel de vidro.
+  Cores, logo e fontes: identidade do Dublê (identidade/IDENTIDADE.md). Laranja do Sermo → violeta Eco.
+-->
+<body>
+<nav class="topo" aria-label="Menu">
+  <a class="pilula marca" href="#inicio" aria-label="Dublê, início">
+    <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M30 12 A20 20 0 0 0 30 52 Z" fill="#F2F1EC"/><g fill="#8B7CFF"><rect x="33" y="12" width="5" height="40" rx="2.5"/><rect x="41" y="17" width="5" height="30" rx="2.5"/><rect x="49" y="24" width="5" height="16" rx="2.5"/></g></svg>
+    <span>dublê</span>
+  </a>
+  <div class="pilula links">
+    <a href="#console">Console</a><a href="#numeros">Números</a><a href="#trava">Trava</a><a href="#novo">Novo dublê</a>
+  </div>
+  <div class="direita">
+    <span class="pilula fina"><i class="ponto"></i>Uso interno</span>
+    <a class="botao branco" href="#console">Gerar voz</a>
+  </div>
+</nav>
+
+<header class="heroi" id="inicio">
+  <canvas id="halo" aria-hidden="true"></canvas>
+  <div class="heroi-txt">
+    <span class="selo-topo"><svg viewBox="0 0 16 16" aria-hidden="true"><g fill="currentColor"><rect x="2" y="3" width="2" height="10" rx="1"/><rect x="6" y="5" width="2" height="6" rx="1"/><rect x="10" y="2" width="2" height="12" rx="1"/><rect x="14" y="6" width="1.6" height="4" rx=".8"/></g></svg>Dublê 1.0 · só grava quem disse sim</span>
+    <h1>Sua voz, seu rosto.<br>Só com o seu sim.</h1>
+    <p>Clone de voz e de imagem feito no seu computador. Cada dublê só fala depois do termo assinado e do vídeo da própria pessoa autorizando.</p>
+    <div class="acoes">
+      <a class="botao branco" href="#console">Gerar voz</a>
+      <a class="botao escuro" href="#novo">Cadastrar dublê</a>
+    </div>
+  </div>
+
+  <section class="console" id="console" aria-label="Console do Dublê">
+    <div class="console-barra">
+      <span><svg viewBox="0 0 16 16" aria-hidden="true"><g fill="#8B7CFF"><rect x="2" y="3" width="2" height="10" rx="1"/><rect x="6" y="5" width="2" height="6" rx="1"/><rect x="10" y="2" width="2" height="12" rx="1"/></g></svg>Dublê Console</span>
+      <span class="tres" aria-hidden="true"><i></i><i></i><i></i></span>
+    </div>
+    <div class="console-corpo">
+      <h2 class="ola">Olá, Lindson</h2>
+      <p class="sub">Qual voz vamos gravar hoje?</p>
+
+      <div class="caixa">
+        <textarea id="texto" rows="3" placeholder="Escreva como se fala: frases curtas e números por extenso."></textarea>
+        <button class="enviar" id="gerar" aria-label="Gerar voz" title="Gerar voz">
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 5l5 5-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+
+      <div class="controles">
+        <label class="pilula ctl">Voz de
+          <select id="quem" aria-label="Voz de quem"></select>
+        </label>
+        <label class="pilula ctl">Emoção
+          <input type="range" id="emocao" min="0.25" max="1" step="0.05" value="0.5" aria-label="Emoção">
+          <b id="emocao-v">0,50</b>
+        </label>
+        <label class="pilula ctl troca"><input type="checkbox" id="humano" checked><span></span>Deixar humano</label>
+      </div>
+
+      <div class="resultado" id="resultado" hidden>
+        <button class="tocar" id="tocar" aria-label="Tocar"><svg viewBox="0 0 20 20"><path d="M6 4l10 6-10 6z" fill="currentColor"/></svg></button>
+        <canvas id="onda" height="56"></canvas>
+        <span class="tempo" id="tempo">0:00</span>
+        <a class="baixar" id="baixar" download>Baixar</a>
+      </div>
+
+      <div class="abas" role="tablist">
+        <button role="tab" class="aba ativa" data-aba="audios" aria-selected="true">Áudios</button>
+        <button role="tab" class="aba" data-aba="dubles" aria-selected="false">Biblioteca</button>
+        <button role="tab" class="aba" data-aba="video" aria-selected="false">Vídeo</button>
+      </div>
+      <ul class="lista" id="lista"></ul>
+    </div>
+  </section>
+</header>
+
+<div class="aviso-voo" id="voo" hidden>
+  <span class="barras" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+  <span><b id="voo-t">Gerando a voz…</b><small id="voo-s">Frase 1 de 1</small></span>
+</div>
+
+<section class="faixa" id="numeros">
+  <p class="frase-faixa">Cadastre na segunda. Grave a voz do vídeo do canal no mesmo dia.</p>
+  <div class="cartoes">
+    <article class="cartao quente">
+      <b class="num" id="n-dubles">0</b>
+      <p>dublês na biblioteca: você, clientes autorizados e personagens dos canais.</p>
+      <div class="graf barras-g" id="g1" aria-hidden="true"></div>
+      <a class="botao escuro mini" href="#novo">Cadastrar</a>
+    </article>
+    <article class="cartao">
+      <b class="num" id="n-lib">0</b>
+      <p>liberados para gerar. Quem não tem termo e vídeo em dia fica travado.</p>
+      <div class="graf pontos" id="g2" aria-hidden="true"></div>
+      <a class="botao escuro mini" href="#trava">Ver a trava</a>
+    </article>
+    <article class="cartao">
+      <b class="num"><span id="n-seg">0</span><small>s</small></b>
+      <p>de voz gerada aqui, sem pagar crédito para ninguém.</p>
+      <div class="graf progresso" aria-hidden="true"><i id="g3"></i><i></i></div>
+      <div class="mini-num"><span>ÁUDIOS<b id="n-aud">0</b></span><span>MOTOR<b>Chatterbox</b></span></div>
+      <a class="botao escuro mini" href="#console">Ouvir</a>
+    </article>
+  </div>
+</section>
+
+<section class="trava" id="trava">
+  <span class="etiqueta"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7" fill="none" stroke="#F5C518" stroke-width="2" stroke-linecap="round"/></svg>Só com autorização</span>
+  <div class="trava-topo">
+    <h2>Só entra quem<br><span>autorizou.</span></h2>
+    <p>Rosto e voz são dados pessoais sensíveis (LGPD). O Dublê não deixa gerar nada de gente real sem o termo assinado e um vídeo da própria pessoa dizendo que autoriza.</p>
+  </div>
+  <div class="colunas">
+    <div><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z M9 12l2 2 4-4" fill="none" stroke="#8B7CFF" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>
+      <h3>Termo assinado</h3><p>PDF ou foto do termo, com finalidade e data de validade. Venceu, travou.</p></div>
+    <div><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="13" height="12" rx="2.5" fill="none" stroke="#8B7CFF" stroke-width="1.6"/><path d="M16 10l5-3v10l-5-3" fill="none" stroke="#8B7CFF" stroke-width="1.6" stroke-linejoin="round"/></svg>
+      <h3>Vídeo da própria pessoa</h3><p>Ela lê a frase de autorização olhando para a câmera, sozinha, ao vivo.</p></div>
+    <div><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h10l4 4v12H5z M15 4v4h4 M8 13h8 M8 16h5" fill="none" stroke="#8B7CFF" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>
+      <h3>Personagem com fonte</h3><p>Maquiavel, profetas e gravuras: só com a obra, o autor e a licença registrados.</p></div>
+  </div>
+</section>
+
+<section class="composer" id="novo">
+  <div class="comp-esq">
+    <h2><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M30 12 A20 20 0 0 0 30 52 Z" fill="#F2F1EC"/><g fill="#8B7CFF"><rect x="33" y="12" width="5" height="40" rx="2.5"/><rect x="41" y="17" width="5" height="30" rx="2.5"/><rect x="49" y="24" width="5" height="16" rx="2.5"/></g></svg>Novo dublê</h2>
+    <p class="sub">Cinco passos. No fim, o Dublê diz se está liberado ou o que falta.</p>
+    <ol class="passos" id="passos">
+      <li class="ativo" data-p="0"><span>01</span>Quem é<em>Nome e tipo: você, cliente ou personagem.</em></li>
+      <li data-p="1"><span>02</span>Amostra de voz<em>10 s a 2 min de fala limpa, sem música.</em></li>
+      <li data-p="2"><span>03</span>Termo assinado<em>PDF ou foto, com a validade.</em></li>
+      <li data-p="3"><span>04</span>Vídeo de consentimento<em>A pessoa lendo a frase de autorização.</em></li>
+      <li data-p="4"><span>05</span>Fonte e vídeo base<em>Personagem: obra e licença. Vídeo base: 2 min olhando a câmera.</em></li>
+    </ol>
+  </div>
+  <div class="comp-dir">
+    <canvas id="halo2" aria-hidden="true"></canvas>
+    <form class="vidro" id="form" autocomplete="off">
+      <div class="vidro-t"><i class="ponto"></i><b id="passo-t">Quem é</b><span class="cont" id="passo-n">1 de 5</span></div>
+      <div class="etapa ativa" data-e="0">
+        <label>Nome do dublê<input name="nome" required placeholder="Ex.: Lindson"></label>
+        <label>Quem é<select name="tipo" id="tipo"></select></label>
+      </div>
+      <div class="etapa" data-e="1">
+        <label class="arquivo">Amostra de voz (10 s a 2 min, sem barulho)<input type="file" name="amostra" accept="audio/*"><span>Escolher áudio</span></label>
+        <button type="button" class="botao escuro mini" id="gravar">● Gravar agora</button>
+      </div>
+      <div class="etapa" data-e="2">
+        <label class="arquivo">Termo assinado (PDF ou foto)<input type="file" name="termo" accept=".pdf,image/*"><span>Escolher arquivo</span></label>
+        <label>Termo vale até<input type="date" name="validade"></label>
+      </div>
+      <div class="etapa" data-e="3">
+        <p class="frase" id="frase"></p>
+        <label class="arquivo">Vídeo de consentimento<input type="file" name="video" accept="video/*"><span>Escolher vídeo</span></label>
+      </div>
+      <div class="etapa" data-e="4">
+        <label>De onde vem o personagem (obra, autor, licença)<input name="fonte" placeholder="Ex.: O Príncipe, Maquiavel, domínio público"></label>
+        <label class="arquivo">Vídeo base, para a etapa de vídeo (opcional)<input type="file" name="base" accept="video/*"><span>Escolher vídeo</span></label>
+      </div>
+      <div class="vidro-pe">
+        <button type="button" class="botao escuro mini" id="voltar">Voltar</button>
+        <button type="button" class="botao eco" id="seguir">Seguir</button>
+        <button type="submit" class="botao eco" id="salvar" hidden>Salvar dublê</button>
+      </div>
+      <p class="msg" id="msg" role="status"></p>
+    </form>
+  </div>
+</section>
+
+<footer class="rodape">
+  <span>Uso interno. Nada sai daqui sem a autorização da pessoa.</span>
+  <span>Feito com IA: avise o público quando parecer real.</span>
+</footer>
+
+<script src="/web/duble.js"></script>
+</body>
+</html>

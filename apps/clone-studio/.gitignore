@@ -1,3 +1,4 @@
 dados/
 venv/
 __pycache__/
+identidade/__pycache__/

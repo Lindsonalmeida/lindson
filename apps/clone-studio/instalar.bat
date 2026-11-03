@@ -1,5 +1,5 @@
 @echo off
-REM Clone Studio - instalacao no Windows (RTX 3050). Precisa do Python 3.11 instalado (python.org, marque "Add to PATH").
+REM Dublê - instalacao no Windows (RTX 3050). Precisa do Python 3.11 instalado (python.org, marque "Add to PATH").
 cd /d "%~dp0"
 if not exist venv py -3.11 -m venv venv
 call venv\Scripts\activate

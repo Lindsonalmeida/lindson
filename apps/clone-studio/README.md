@@ -1,5 +1,7 @@
 # Dublê: app interno de clone de voz e imagem (conta Pedro, 03/11/2026)
 
+> **Tela v2 (03/11):** copiada do template Sermo (Framer), ver `identidade/TEMPLATE.md`. A página fica em `web/` e o `app.py` é um servidor local (FastAPI); a tela antiga em Gradio foi reprovada e ficou em `app_gradio_antigo.py`.
+>
 > Nome e identidade visual em `identidade/` (`NOME.md`, `IDENTIDADE.md`, logo, tema do Gradio, prévias). Antigo nome provisório: Clone Studio. A pasta continua `apps/clone-studio`.
 
 App do Lindson para clonar voz (e, na etapa 2, rosto) **só com autorização**. Roda no notebook dele (Acer Nitro 5, RTX 3050 com 4 GB, 24 GB de RAM) e abre no navegador. Pesquisa e plano em `conteudo/referencias/ia-video-voz/` (`PLANO-DO-APP.md`).
@@ -25,13 +27,15 @@ App do Lindson para clonar voz (e, na etapa 2, rosto) **só com autorização**.
 Na primeira geração, o modelo de voz (cerca de 2 GB) é baixado automaticamente.
 
 ## Usar
-1. **Biblioteca:**
+Já instalou a versão antiga? Rode o `instalar.bat` de novo uma vez (entraram FastAPI e Uvicorn).
+
+1. **Novo dublê** (5 passos; a amostra de voz pode ser gravada ali mesmo no microfone):
    - nome, tipo e amostra de voz (10 s a 2 min de fala limpa, sem música);
    - para pessoa real: termo assinado (PDF ou foto), vídeo de consentimento lendo a frase da tela e validade;
    - salvar.
-2. **Voz:**
+2. **Console** (topo da tela):
    - escolha a voz e escreva o texto como se fala (frases curtas, números por extenso);
-   - clique em **Gerar voz**.
+   - toque na seta violeta. O halo pulsa enquanto gera; o áudio aparece com a onda e o botão Baixar.
 
 ## Privacidade
 A pasta `dados/` (vozes, termos, vídeos e áudios gerados) fica **só no computador do Lindson**. Ela está no `.gitignore` e nunca vai para o GitHub, que é público. Toda saída realista deve ser marcada como "feita com IA" ao publicar. O Chatterbox também grava uma marca d'água inaudível (PerTh).
@@ -39,7 +43,9 @@ A pasta `dados/` (vozes, termos, vídeos e áudios gerados) fica **só no comput
 ## Arquivos
 | Arquivo | O que faz |
 |---|---|
-| `app.py` | Interface: abas Biblioteca, Voz e Vídeo, com o tema do Dublê |
+| `app.py` | Servidor local: serve a tela e a API (biblioteca, voz, progresso, áudios) |
+| `web/` | A tela (index.html, duble.css, duble.js): herói com halo de voz, console, números, trava e cadastro em 5 passos |
+| `app_gradio_antigo.py` | Tela antiga (reprovada em 03/11), só de referência |
 | `identidade/` | Nome, logo, cores, fontes, tema (`tema.py`) e prévias |
 | `motor_voz.py` | Clonagem e humanização da voz |
 | `biblioteca.py` | Cadastro e trava de consentimento |
