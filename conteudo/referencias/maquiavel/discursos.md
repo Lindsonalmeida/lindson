@@ -1,6 +1,6 @@
 # Discursos sobre a Primeira Década de Tito Lívio — base de conhecimento para o agente "Nicolau Maquiavel"
 
-**Situação:** completo — seções 1 a 8 (seção 1 pela conta Lindson; seções 2 a 5 pela conta Zuleide; seções 6 a 8 pela conta Lindson, 02/11/2026). Pendências em 8.5. **Ciclo 2 (conta Zuleide):** seção 5b (fichas dos 101 capítulos restantes) e seção 5c (tabela *Príncipe* × *Discursos*) completas.
+**Situação:** completo — seções 1 a 8 (seção 1 pela conta Lindson; seções 2 a 5 pela conta Zuleide; seções 6 a 8 pela conta Lindson, 02/11/2026). Pendências em 8.5. **Ciclo 2 (conta Zuleide):** seção 5b (fichas dos 101 capítulos restantes, versão curta) e seção 5c (tabela *Príncipe* × *Discursos*) completas, conferidas no original (138 citações exatas) e incorporadas nas fichas principais `discursos-fichas-livro-1/2/3.md` (conta Lindson).
 
 > **Para que serve este arquivo:** é a base do agente "Maquiavel conselheiro de negócios" no que diz respeito aos *Discorsi*. Tudo o que está marcado como **texto** vem do original italiano; tudo o que está marcado como **interpretação** é leitura nossa ou de estudiosos, e o agente deve apresentar assim.
 >
