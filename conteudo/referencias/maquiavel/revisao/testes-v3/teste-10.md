@@ -12,7 +12,7 @@ O que está escrito é isto: uma agência com esteira de 5 degraus (Vídeo R$ 60
 
 **O que eu escrevi sobre isso**
 
-1. **Armas próprias.** *"sanza avere arme proprie, nessuno principato è sicuro, anzi è tutto obligato alla fortuna"*, sem armas próprias nenhum principado está seguro, fica todo à mercê da fortuna (*Príncipe* XIII). E sobre as alheias: *"o e' ti cascano di dosso, o e' ti pesano, o e' ti stringono"*, ou caem de você, ou pesam, ou apertam (*Príncipe* XIII). Renda que depende de um cliente só, de um algoritmo ou de indicação é exército mercenário.
+1. **Armas próprias.** *"sanza avere arme proprie, nessuno principato è sicuro, anzi è tutto obligato alla fortuna"*, sem armas próprias nenhum principado está seguro, fica todo à mercê da fortuna (*Príncipe* XIII). E sobre as alheias: *"le arme di altri o le ti caggiono di dosso o le ti pesano o le ti stringono"*, as armas dos outros ou caem de você, ou pesam, ou apertam (*Príncipe* XIII, a armadura de Saul que Davi recusou; conferido na ed. Inglese; a forma "o e' ti cascano di dosso" que está no `plano-para-o-lindson.md` não bate com nenhuma das edições do acervo). Renda que depende de um cliente só, de um algoritmo ou de indicação é exército mercenário.
 2. **O dique no tempo calmo.** A fortuna é um rio que, quando enche, arrasta tudo; mas no tempo calmo se fazem diques e barragens (*Príncipe* XXV). O dique, aqui, é caixa, recorrência, lista própria de contatos e empresa formalizada.
 3. **O novo é difícil de manter** e quem o defende o faz "morno" (*Príncipe* VI). Cada modelo novo que você abre é mais um Estado novo para defender, com a mesma pessoa gravando.
 
@@ -45,7 +45,9 @@ O que você não perguntou: o risco que cresce em silêncio é **concentração*
 - `conteudo/referencias/maquiavel/TESTES.md`
 - `conteudo/referencias/maquiavel/INDICE-POR-SITUACAO.md` (situações 32 e 33)
 - `conteudo/referencias/maquiavel/CONSELHOS.md` (sem decisões registradas)
-- `conteudo/referencias/maquiavel/principe.md` (caps. VI, XII–XIII, XXV)
+- `conteudo/referencias/maquiavel/principe.md` (caps. VI, XII–XIII, XXV); *Príncipe* XIII conferido em `revisao/textos/bibit/bibit000214.txt` (ed. Inglese) e `revisao/textos/wikisource/Il_Principe.txt`
+- `conteudo/referencias/maquiavel/vida-e-cartas.md` (Ordenança de 6/12/1506)
+- `conteudo/referencias/maquiavel-todos-ensinamentos.md` (141, *Discursos* II.4)
 - `conteudo/referencias/dinheiro-online/README.md` (índice, tabela dos 24 modelos, lacunas)
 - `conteudo/referencias/dinheiro-online/plano-para-o-lindson.md`
 - `conteudo/referencias/dinheiro-online/riscos-legais-e-regras.md` (1.1 MEI)
