@@ -44,13 +44,31 @@ def _reamostra(a, sr):
 
 
 def _apara(a):
-    """Tira o silêncio do começo e do fim de cada frase."""
-    fr = 441; n = len(a) // fr
+    """Tira o silêncio do começo e do fim de cada frase e as sobras do modelo: chiado e estalo
+    soltos no fim (pedaço curto de som separado da fala por um silêncio). Corrigido em 03/11 a
+    pedido do Lindson ("tem umas pausas e ruídos, deixe a voz limpa e fluida")."""
+    fr = 441; n = len(a) // fr                                  # quadros de 10 ms
     if n < 3: return a
-    e = np.sqrt(np.mean(a[:n * fr].reshape(n, fr) ** 2, axis=1)); lim = max(e.max() * 10 ** (-38 / 20), 1e-5)
-    on = np.where(e > lim)[0]
-    if not len(on): return a
-    return a[max(0, on[0] - 2) * fr:min(n, on[-1] + 4) * fr]
+    e = np.sqrt(np.mean(a[:n * fr].reshape(n, fr) ** 2, axis=1)); lim = max(e.max() * 10 ** (-32 / 20), 1e-5)
+    on = e > lim
+    trechos, i = [], 0                                          # trechos contínuos de fala
+    while i < n:
+        if on[i]:
+            j = i
+            while j < n and on[j]: j += 1
+            trechos.append([i, j]); i = j
+        else: i += 1
+    if not trechos: return a
+    juntos = [trechos[0]]                                       # junta o que tem menos de 250 ms de silêncio
+    for t in trechos[1:]:
+        if t[0] - juntos[-1][1] < 25: juntos[-1][1] = t[1]
+        else: juntos.append(t)
+    fala = [t for t in juntos if t[1] - t[0] >= 15]             # descarta estalo solto (< 150 ms)
+    if not fala: fala = [max(juntos, key=lambda t: t[1] - t[0])]
+    ini, fim = max(0, fala[0][0] - 2) * fr, min(n, fala[-1][1] + 3) * fr
+    b = a[ini:fim].copy(); f = min(len(b) // 4, int(.012 * S))  # 12 ms de entrada e saída suaves
+    if f: b[:f] *= np.linspace(0, 1, f); b[-f:] *= np.linspace(1, 0, f)
+    return b
 
 
 def _respiro(rng, dur):
@@ -61,18 +79,20 @@ def _respiro(rng, dur):
 
 
 def estudio(a):
-    """Graves e presença, de-esser, compressão leve e ambiência curta (igual ao voz_humana.py)."""
+    """Voz limpa (03/11): tira chiado, graves e presença, de-esser e compressão leve, SEM eco/ambiência."""
     d = tempfile.mkdtemp(); i, o = os.path.join(d, 'i.wav'), os.path.join(d, 'o.wav')
     sf.write(i, a, S)
-    flt = ('highpass=f=70,equalizer=f=160:t=q:w=1:g=2.2,equalizer=f=3200:t=q:w=1.4:g=1.6,deesser=i=0.35,'
-           'acompressor=threshold=-20dB:ratio=2.4:attack=6:release=140:makeup=2,aecho=0.85:0.5:23|41:0.07|0.04')
+    flt = ('highpass=f=70,afftdn=nr=12:nf=-50:tn=1,equalizer=f=160:t=q:w=1:g=2,equalizer=f=3200:t=q:w=1.4:g=1.4,'
+           'deesser=i=0.35,acompressor=threshold=-20dB:ratio=2.2:attack=6:release=140:makeup=2')
     subprocess.run([ffmpeg(), '-y', '-loglevel', 'error', '-i', i, '-af', flt, '-ar', str(S), '-ac', '1', o], check=True)
     b, _ = sf.read(o)
     return (b / (np.abs(b).max() + 1e-9) * .95).astype(np.float32)
 
 
-def narrar(txt, amostra, expressao=0.5, semente=0, humanizar=True, progresso=None):
-    """txt -> áudio float32 44,1 kHz mono com a voz da amostra (wav de 10 s a 2 min, voz limpa)."""
+def narrar(txt, amostra, expressao=0.5, semente=0, humanizar=True, progresso=None, respirar=False):
+    """txt -> áudio float32 44,1 kHz mono com a voz da amostra (wav de 10 s a 2 min, voz limpa).
+    Padrão do Lindson (03/11): voz limpa e fluida, pausas curtas entre frases, sem respiração
+    artificial e sem eco. `respirar=True` volta a pôr o respiro antes de frase longa."""
     m = modelo(); rng = np.random.default_rng(int(hashlib.md5(f'{semente}|{txt}'.encode()).hexdigest()[:8], 16))
     fs = frases(txt) if humanizar else [txt.strip()]
     out = []
@@ -82,11 +102,12 @@ def narrar(txt, amostra, expressao=0.5, semente=0, humanizar=True, progresso=Non
         if f.endswith('!'): ex += .1
         w = m.generate(f, language_id='pt', audio_prompt_path=amostra, exaggeration=float(np.clip(ex, .25, 1)))
         a = _apara(_reamostra(w.squeeze().cpu().numpy(), m.sr))
-        if humanizar and n and len(f.split()) >= 12 and rng.random() < .7:
+        if respirar and n and len(f.split()) >= 12 and rng.random() < .7:
             out.append(_respiro(rng, rng.uniform(.22, .32)))
         out.append(a)
         if humanizar and n < len(fs) - 1:
-            pa = {'?': rng.uniform(.55, .75), '!': rng.uniform(.32, .45), ':': rng.uniform(.22, .32), '…': rng.uniform(.6, .8)}.get(f[-1], rng.uniform(.3, .46))
+            pa = {'?': rng.uniform(.30, .38), '!': rng.uniform(.22, .28), ':': rng.uniform(.14, .2), '…': rng.uniform(.32, .4)}.get(f[-1], rng.uniform(.18, .26))
             out.append(np.zeros(int(pa * S), np.float32))
     a = np.concatenate(out) if out else np.zeros(1, np.float32)
-    return estudio(a) if humanizar else a
+    a = np.concatenate([np.zeros(int(.08 * S), np.float32), a, np.zeros(int(.12 * S), np.float32)])
+    return estudio(a)

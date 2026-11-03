@@ -76,7 +76,7 @@ with gr.Blocks(title='Dublê') as app:
         with gr.Row():
             quem = gr.Dropdown(_nomes(), label='Voz de quem')
             expressao = gr.Slider(.25, 1, .5, step=.05, label='Emoção (mais alto = mais emoção)')
-            humanizar = gr.Checkbox(True, label='Deixar humano (pausas, respiração, som de estúdio)')
+            humanizar = gr.Checkbox(True, label='Variar a expressão')
         texto = gr.Textbox(lines=8, label='Texto', placeholder='Escreva como se fala: frases curtas e números por extenso.')
         gerar = gr.Button('Gerar voz', variant='primary')
         audio = gr.Audio(label='Resultado', type='filepath'); info = gr.Markdown()
