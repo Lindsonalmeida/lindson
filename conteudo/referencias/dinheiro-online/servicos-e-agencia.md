@@ -94,7 +94,7 @@ Família onde o dinheiro vem de **fazer algo para alguém**. É a mais rápida p
 - **Lição 2:** produtize tudo o que se repete. Se o Lindson explica a mesma coisa para três clientes, vira pacote, roteiro ou curso.
 - **Lição 3:** recorrência acima de projeto. Mensalidade com contrato mínimo de 3 meses (já na esteira).
 - **Lição 4:** white label para agências de fora é um canal de venda que não exige ganhar o cliente final.
-- Maquiavel: quem depende de armas alheias, elas "o e' ti cascano di dosso, o e' ti pesano, o e' ti stringono" (ou caem, ou pesam, ou apertam) (*Príncipe* XIII). Não deixe a agência depender de um só cliente nem de uma só plataforma.
+- Maquiavel, sobre quem depende de armas alheias: "le arme di altri o le ti caggiono di dosso o le ti pesano o le ti stringono" (as armas dos outros ou caem de você, ou pesam, ou apertam; ed. Inglese) (*Príncipe* XIII). Não deixe a agência depender de um só cliente nem de uma só plataforma.
 
 ## Lacunas
 - Taxas oficiais atuais de Upwork, Fiverr, Workana e 99Freelas (só blogs).

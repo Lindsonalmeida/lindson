@@ -104,7 +104,7 @@
 
 - Quando o Lindson perguntar "o que faço agora?", o agente olha em que **etapa (A, B ou C)** ele está e qual **marco** (30/60/90) falta, e responde com o próximo passo concreto, ligado a um arquivo do repositório.
 - Quando ele perguntar "quanto dá para ganhar?", o agente **refaz a conta** com os números reais do Financeiro da Central e mostra o cenário, com as hipóteses, nunca uma promessa.
-- **Maquiavel, conferido:** "chi è cagione che uno diventi potente, ruina" (*Príncipe* III) — cuidado ao entregar tudo a uma agência parceira de white label que pode virar concorrente (cláusula de não aliciamento no contrato) [Interpretação]. Usar também: "o e' ti cascano di dosso, o e' ti pesano, o e' ti stringono" (*Príncipe* XIII, armas alheias) para a dependência de plataforma; e a carta a Vettori de 18/4/1527, "trattarlo senza farlo, sarebbe la certezza della rovina", para proposta comercial parada: ou fecha, ou corta.
+- **Maquiavel, conferido:** "chi è cagione che uno diventi potente, ruina" (*Príncipe* III) — cuidado ao entregar tudo a uma agência parceira de white label que pode virar concorrente (cláusula de não aliciamento no contrato) [Interpretação]. Usar também: "le arme di altri o le ti caggiono di dosso o le ti pesano o le ti stringono" (*Príncipe* XIII, ed. Inglese; armas alheias) para a dependência de plataforma; e a carta a Vettori de 18/4/1527, "trattarlo senza farlo, sarebbe la certezza della rovina", para proposta comercial parada: ou fecha, ou corta.
 
 ## Lacunas
 - Faturamento atual, clientes por degrau e custo fixo do Lindson (não estão no repositório).
