@@ -1,0 +1,128 @@
+<title>SF no Google</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;1,900&display=swap">
+<style>
+/* Layout: uma coluna de linhas de URL, cada uma com copiar e marcar como feito; textos do Perfil da Empresa embaixo */
+:root{--bg:#F3F6FC;--card:#FFFFFF;--fg:#0A1B3F;--muted:#56658A;--line:#D7E0F1;--accent:#FF6A00;--accent-fg:#FFFFFF;--navy:#0A2A6E;--ok:#16824A;--ok-bg:#E5F5EC;
+ --f-display:'Montserrat',system-ui,sans-serif;--f-body:'Montserrat',system-ui,sans-serif;--f-mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#061230;--card:#0C1E48;--fg:#EAF1FF;--muted:#9FB2D9;--line:#1E3A78;--accent:#FF8A00;--accent-fg:#1A0E00;--navy:#3FA9FF;--ok:#4ADE80;--ok-bg:#0F3324;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#061230;--card:#0C1E48;--fg:#EAF1FF;--muted:#9FB2D9;--line:#1E3A78;--accent:#FF8A00;--accent-fg:#1A0E00;--navy:#3FA9FF;--ok:#4ADE80;--ok-bg:#0F3324;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:500 15px/1.5 var(--f-body)}
+.wrap{max-width:760px;margin:0 auto;padding-block:28px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:22px}
+h1{margin:0;font:900 italic clamp(26px,6vw,36px)/1.05 var(--f-display);color:var(--navy);text-wrap:balance}
+h2{margin:0 0 4px;font:800 18px/1.2 var(--f-display);text-wrap:balance}
+.sub{margin:0;color:var(--muted)}
+.eyebrow{font:700 11px/1 var(--f-body);letter-spacing:.18em;text-transform:uppercase;color:var(--accent)}
+section{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;display:grid;gap:12px}
+.passos{margin:0;padding-left:20px;display:grid;gap:4px;color:var(--muted)}
+.passos b{color:var(--fg)}
+.lista{display:grid;gap:8px}
+.linha{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:10px;padding:10px 12px;border:1px solid var(--line);border-radius:10px}
+.linha.feito{background:var(--ok-bg);border-color:transparent}
+.linha .nome{font-weight:700;font-size:13px}
+.linha code{display:block;font:500 12.5px/1.35 var(--f-mono);color:var(--muted);overflow-wrap:anywhere;user-select:all}
+.linha>div{min-width:0}
+.prio{font:700 11px var(--f-mono);color:var(--muted);font-variant-numeric:tabular-nums}
+input[type=checkbox]{width:20px;height:20px;accent-color:var(--ok);margin:0;cursor:pointer}
+label.marca{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--muted);cursor:pointer}
+button.copiar{font:800 13px var(--f-body);background:var(--accent);color:var(--accent-fg);border:0;border-radius:999px;padding:9px 16px;cursor:pointer;white-space:nowrap}
+button.copiar.ok{background:var(--ok);color:#fff}
+button:focus-visible,input:focus-visible{outline:3px solid var(--navy);outline-offset:2px}
+.texto{display:grid;gap:6px}
+.texto .rot{font-weight:700;font-size:13px}
+.texto .caixa{display:flex;gap:10px;align-items:flex-start;padding:10px 12px;border:1px solid var(--line);border-radius:10px}
+.texto .caixa p{margin:0;flex:1;min-width:0;white-space:pre-line;user-select:all}
+.contador{font:700 13px var(--f-body);color:var(--ok)}
+@media (max-width:520px){.linha{grid-template-columns:1fr auto}.linha .prio{display:none}.linha label.marca{grid-column:1/-1;order:3}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+ <header style="display:grid;gap:8px">
+  <span class="eyebrow">Desentupidora SF · Search Console</span>
+  <h1>Pedir indexação das páginas</h1>
+  <p class="sub">Copie cada endereço, cole na barra "Inspecionar qualquer URL" do Search Console e clique em <b>Solicitar indexação</b>. O Google aceita cerca de 10 por dia.</p>
+ </header>
+
+ <section>
+  <h2>Como fazer cada uma</h2>
+  <ol class="passos">
+   <li>Toque em <b>Copiar</b> ao lado do endereço.</li>
+   <li>No Search Console, cole na barra do topo e aperte Enter.</li>
+   <li>Se aparecer <b>"O URL está no Google"</b>, já está pronta: só marque como feita.</li>
+   <li>Se não, clique em <b>Solicitar indexação</b> e espere 1 ou 2 minutos.</li>
+   <li>Marque <b>Feito</b> aqui para não repetir.</li>
+  </ol>
+  <div class="contador" id="contador"></div>
+  <div class="lista" id="lista"></div>
+ </section>
+
+ <section>
+  <h2>Sitemap</h2>
+  <p class="sub">Na tela Sitemaps, o campo já mostra o começo do endereço. Cole só isto:</p>
+  <div class="texto" id="sitemap"></div>
+ </section>
+
+ <section>
+  <h2>Perfil da Empresa no Google</h2>
+  <p class="sub">Textos para colar em business.google.com. O horário de atendimento ainda falta: confirme com o cliente.</p>
+  <div class="texto" id="perfil"></div>
+ </section>
+</div>
+
+<script>
+const BASE='https://desentupidorasf.pages.dev';
+const PAGINAS=[
+ ['Página inicial','/','indexada em 03/11'],
+ ['Desentupidora em São Luís','/desentupidora-sao-luis/'],
+ ['Desentupimento de esgoto','/desentupimento-de-esgoto/'],
+ ['Desentupimento de pia','/desentupimento-de-pia/'],
+ ['Desentupimento de vaso sanitário','/desentupimento-de-vaso-sanitario/'],
+ ['Limpeza de caixa de gordura','/limpeza-de-caixa-de-gordura/'],
+ ['Desentupimento de ralo','/desentupimento-de-ralo/'],
+ ['Desentupimento de calhas','/desentupimento-de-calhas/'],
+ ['Desentupidora em São José de Ribamar','/desentupidora-sao-jose-de-ribamar/'],
+ ['Desentupidora em Paço do Lumiar','/desentupidora-paco-do-lumiar/'],
+ ['Desentupidora na Raposa','/desentupidora-raposa/']];
+const PERFIL=[
+ ['Nome','Desentupidora SF'],
+ ['Categoria principal','Serviço de desentupimento'],
+ ['Categoria adicional','Encanador'],
+ ['Área de atendimento','São Luís, São José de Ribamar, Paço do Lumiar, Raposa'],
+ ['Telefone','(98) 98915-3929'],
+ ['Site',BASE+'/'],
+ ['Serviços','Desentupimento de pia\nDesentupimento de ralo\nDesentupimento de vaso sanitário\nDesentupimento de esgoto\nLimpeza de caixa de gordura\nDesentupimento de calhas'],
+ ['Descrição','Desentupidora em São Luís, São José de Ribamar, Paço do Lumiar e Raposa. Desentupimos pia, ralo, vaso sanitário, esgoto e calhas e fazemos a limpeza de caixa de gordura com equipamento de cabo rotativo, sem quebrar piso nem parede. O técnico testa o escoamento na hora, na sua frente. Orçamento grátis pelo WhatsApp (98) 98915-3929: mande uma foto do problema e a gente responde.']];
+
+let feitos={};try{feitos=JSON.parse(localStorage.getItem('sf-indexacao')||'{}')||{}}catch(e){}
+feitos['/']=feitos['/']??true; // a página inicial já está no Google (print de 03/11)
+const salva=()=>{try{localStorage.setItem('sf-indexacao',JSON.stringify(feitos))}catch(e){}};
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+async function copiar(texto,btn,alvo){
+ let ok=false;try{await navigator.clipboard.writeText(texto);ok=true}catch(e){}
+ if(!ok&&alvo){const r=document.createRange();r.selectNodeContents(alvo);const s=getSelection();s.removeAllRanges();s.addRange(r)}
+ const antes=btn.textContent;btn.textContent=ok?'Copiado':'Selecionado: Ctrl+C';btn.classList.add('ok');
+ setTimeout(()=>{btn.textContent=antes;btn.classList.remove('ok')},1600);
+}
+
+function desenha(){
+ const L=document.getElementById('lista');
+ L.innerHTML=PAGINAS.map(([n,c,nota],i)=>`<div class="linha${feitos[c]?' feito':''}">
+  <span class="prio">${String(i+1).padStart(2,'0')}</span>
+  <div><div class="nome">${esc(n)}${nota?` · <span style="color:var(--ok)">${esc(nota)}</span>`:''}</div><code id="u${i}">${esc(BASE+c)}</code></div>
+  <button class="copiar" type="button" data-i="${i}">Copiar</button>
+  <label class="marca" style="grid-column:2/-1"><input type="checkbox" id="f${i}" data-c="${esc(c)}" ${feitos[c]?'checked':''}> Feito</label></div>`).join('');
+ L.querySelectorAll('button.copiar').forEach(b=>b.onclick=()=>copiar(BASE+PAGINAS[b.dataset.i][1],b,document.getElementById('u'+b.dataset.i)));
+ L.querySelectorAll('input[type=checkbox]').forEach(c=>c.onchange=()=>{feitos[c.dataset.c]=c.checked;salva();desenha()});
+ const n=PAGINAS.filter(p=>feitos[p[1]]).length;
+ document.getElementById('contador').textContent=`${n} de ${PAGINAS.length} páginas prontas`;
+}
+function caixas(id,itens){
+ const el=document.getElementById(id);
+ el.innerHTML=itens.map(([r,t],i)=>`<div class="texto"><span class="rot">${esc(r)}</span><div class="caixa"><p id="${id}${i}">${esc(t)}</p><button class="copiar" type="button" data-i="${i}">Copiar</button></div></div>`).join('');
+ el.querySelectorAll('button.copiar').forEach(b=>b.onclick=()=>copiar(itens[b.dataset.i][1],b,document.getElementById(id+b.dataset.i)));
+}
+desenha();caixas('sitemap',[['Endereço do sitemap','sitemap.xml']]);caixas('perfil',PERFIL);
+</script>

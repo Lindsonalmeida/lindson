@@ -1,5 +1,7 @@
 # Desentupidora SF no Google: passo a passo e textos prontos (conta Zuleide, 03/11/2026)
 
+**Página com botão de copiar em cada endereço e texto:** https://claude.ai/artifact/CN1KaTtRGTpzCWrKk3AHi7 (fonte: `google-links.html` nesta pasta).
+
 Segue o processo `agencia/processos/google-mini-site.md`. A parte do site (SEO local, sitemap, robots, dados estruturados `Plumber` com serviços, cidades e FAQ, verificação do Search Console) foi feita em 26/10. Falta a parte na conta Google do Lindson.
 
 ## Passo 1 · Search Console (5 minutos)
