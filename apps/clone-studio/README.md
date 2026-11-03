@@ -1,4 +1,6 @@
-# Clone Studio (nome provisório): app interno de clone de voz e imagem (conta Pedro, 03/11/2026)
+# Dublê: app interno de clone de voz e imagem (conta Pedro, 03/11/2026)
+
+> Nome e identidade visual em `identidade/` (`NOME.md`, `IDENTIDADE.md`, logo, tema do Gradio, prévias). Antigo nome provisório: Clone Studio. A pasta continua `apps/clone-studio`.
 
 App do Lindson para clonar voz (e, na etapa 2, rosto) **só com autorização**. Roda no notebook dele (Acer Nitro 5, RTX 3050 com 4 GB, 24 GB de RAM) e abre no navegador. Pesquisa e plano em `conteudo/referencias/ia-video-voz/` (`PLANO-DO-APP.md`).
 
@@ -12,7 +14,7 @@ App do Lindson para clonar voz (e, na etapa 2, rosto) **só com autorização**.
 1. Vídeo: boca sincronizada no vídeo base (MuseTalk 1.5, fp16, cabe nos 4 GB).
 2. Gravuras vivas (LivePortrait) para os canais dark.
 3. O pesado (corpo e gestos) vai para o Modal (US$ 30 grátis por mês).
-4. Identidade visual e nome definitivo (`identidade/`).
+4. ~~Identidade visual e nome~~: feito, **Dublê** (`identidade/`, 03/11).
 
 ## Instalar no Windows (uma vez)
 1. Instale o **Python 3.11** em https://www.python.org/downloads/ e marque **"Add python.exe to PATH"**.
@@ -37,7 +39,8 @@ A pasta `dados/` (vozes, termos, vídeos e áudios gerados) fica **só no comput
 ## Arquivos
 | Arquivo | O que faz |
 |---|---|
-| `app.py` | Interface: abas Biblioteca, Voz e Vídeo |
+| `app.py` | Interface: abas Biblioteca, Voz e Vídeo, com o tema do Dublê |
+| `identidade/` | Nome, logo, cores, fontes, tema (`tema.py`) e prévias |
 | `motor_voz.py` | Clonagem e humanização da voz |
 | `biblioteca.py` | Cadastro e trava de consentimento |
 | `instalar.bat` | Instalação no Windows |
