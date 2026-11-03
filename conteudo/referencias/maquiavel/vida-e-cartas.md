@@ -124,7 +124,7 @@ Base de referência para o agente "Maquiavel conselheiro de negócios". Objetivo
 - **1526, julho–outubro** — No campo da Liga com Guicciardini; cerco de **Cremona** (9–14/09). Guicciardini escreve em 18/07: Maquiavel veio reordenar a milícia, viu como está corrompida e *"starassi a ridere degli errori degli uomini, poi che non gli può correggere"* ("ficará rindo dos erros dos homens, já que não os pode corrigir"; citado pelo DBI; carta de Guicciardini não conferida no original; procurada no ciclo 2 nas *Opere inedite* de Guicciardini, ed. Canestrini, vol. IV–V, Internet Archive: a carta a Acciaiuoli de 18/07/1526 não está lá; o vol. IX dos *Carteggi* (1959) não está digitalizado).
 - **1526, 30 de novembro – 4 de dezembro** — Missão a Guicciardini em **Módena**.
 - **1527, fim de janeiro** — Passa ao filho **Bernardo** o posto na chancelaria das Muralhas e acompanha Guicciardini (Parma, Bolonha, Forlì, 3/02–13/04/1527).
-- **1526, 30 de novembro** — Morre **Giovanni dalle Bande Nere**, o único capitão italiano em quem Maquiavel via esperança.
+- **1526, 30 de novembro** — Morre em Mântua (noite de 29 para 30/11, depois da amputação da perna ferida; *Enc. mach.*, Arfaioli) **Giovanni dalle Bande Nere**, o único capitão italiano em quem Maquiavel via esperança.
 - **1527, abril** — Viaja com Guicciardini acompanhando o exército; carta a Vettori de 16 de abril ("amo a minha pátria mais que a alma").
 - **1527, 6 de maio** — **Saque de Roma** pelas tropas imperiais.
 - **1527, 16–17 de maio** — Os Médici são expulsos de Florença de novo; volta a república. Os novos governantes o veem como homem dos Médici. Em 10 de junho a Segunda Chancelaria é dada a Francesco Tarugi, não a ele.
