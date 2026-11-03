@@ -28,5 +28,6 @@ Pasta criada pela conta Zuleide em 03/11/2026. Mini site feito antes (ver `agenc
 
 ## Google: verificação de 03/11/2026 (conta Zuleide)
 - **Site pronto para ser indexado:** no ar, `robots.txt` liberado, sitemap com 11 páginas (início, 6 serviços, 4 cidades), `index,follow`, canonical certo, arquivo de verificação do Search Console no ar (publicado em 26/10).
-- **Ainda não aparece nas buscas** que conseguimos fazer (busca na web para `site:desentupidorasf.pages.dev`, "desentupidora em São Luís MA" e "Desentupidora SF São Luís"): nenhum resultado do site. A busca direta no Google é bloqueada neste ambiente, então confirmar no **Google Search Console** (Inspeção de URL e Desempenho) pela conta do Lindson.
+- **Atualização 03/11 (Search Console):** a página inicial **está indexada** no Google. O que segue abaixo foi a primeira checagem, só pela busca na web.
+- **Ainda não aparecia nas buscas** que conseguimos fazer (busca na web para `site:desentupidorasf.pages.dev`, "desentupidora em São Luís MA" e "Desentupidora SF São Luís"): nenhum resultado do site. A busca direta no Google é bloqueada neste ambiente, então confirmar no **Google Search Console** (Inspeção de URL e Desempenho) pela conta do Lindson.
 - **O que fazer:** no Search Console, enviar o sitemap e pedir indexação das 11 URLs; criar o **Perfil da Empresa no Google** (Maps), que é o que mais aparece em "desentupidora perto de mim"; colocar o link do site na bio do Instagram e no perfil do Google; pedir avaliações no Google aos clientes atendidos (o CRM do painel já tem a mensagem).

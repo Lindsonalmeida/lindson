@@ -43,5 +43,6 @@ Abra **business.google.com** → Adicionar empresa. Textos prontos (só dados qu
 | Site pronto para o Google | feito (26/10) |
 | Search Console verificado | feito (26/10); confirmado em 03/11 pelo print do Lindson (propriedade `https://desentupidorasf.pages.dev/` na conta Google dele) |
 | Sitemap enviado | enviado em 26/10, mas com status **"Não foi possível buscar o sitemap"** e 0 páginas (print de 03/11). Em 03/11 o sitemap abre normal (200, application/xml, XML válido, 11 URLs, também para o Googlebot): o Google não chegou a ler. Correção: remover e enviar de novo + pedir indexação da página inicial. **03/11: reenviado pelo Lindson**; logo depois o status voltou a "Não foi possível buscar" com "Última leitura" vazia (o Google ainda não tentou: é o aviso padrão do Search Console para sitemap recém-enviado). Sitemap conferido de novo às 21h19 UTC: 200, application/xml, XML válido, também com o robô do Google. Teste definitivo: Inspeção de URL do próprio `https://desentupidorasf.pages.dev/sitemap.xml` → Testar URL publicado. Conferir de novo em 24 a 48 h |
-| Indexação pedida | a fazer (Lindson) |
+| Página inicial no Google | **indexada** (Inspeção de URL, print do Lindson de 03/11: "O URL está no Google", HTTPS ok). A busca na web feita por nós em 03/11 não mostrava o site, mas o Search Console confirma a indexação |
+| Indexação das outras 10 páginas | a pedir (Lindson): uma por uma em Inspeção de URL; conferir em Páginas |
 | Perfil da Empresa | a fazer (Lindson, com dados do cliente) |
