@@ -1,6 +1,6 @@
 # Discursos sobre a Primeira Década de Tito Lívio — base de conhecimento para o agente "Nicolau Maquiavel"
 
-**Situação:** completo — seções 1 a 8 (seção 1 pela conta Lindson; seções 2 a 5 pela conta Zuleide; seções 6 a 8 pela conta Lindson, 02/11/2026). Pendências em 8.5.
+**Situação:** completo — seções 1 a 8 (seção 1 pela conta Lindson; seções 2 a 5 pela conta Zuleide; seções 6 a 8 pela conta Lindson, 02/11/2026). Pendências em 8.5. **Ciclo 2 (conta Zuleide):** seção 5b (fichas dos 101 capítulos restantes) parcial — feito até I.31.
 
 > **Para que serve este arquivo:** é a base do agente "Maquiavel conselheiro de negócios" no que diz respeito aos *Discorsi*. Tudo o que está marcado como **texto** vem do original italiano; tudo o que está marcado como **interpretação** é leitura nossa ou de estudiosos, e o agente deve apresentar assim.
 >
@@ -22,6 +22,7 @@
 3. [Livro II — capítulo por capítulo (33)](#3-livro-ii--capítulo-por-capítulo-33)
 4. [Livro III — capítulo por capítulo (49)](#4-livro-iii--capítulo-por-capítulo-49)
 5. [Os 41 capítulos mais importantes, em detalhe](#5-os-41-capítulos-mais-importantes-em-detalhe)
+   - 5b. [Os demais 101 capítulos em detalhe](#5b-os-demais-101-capítulos-em-detalhe)
 6. [Temas transversais](#6-temas-transversais)
 7. [30 frases mais fortes dos Discursos](#7-30-frases-mais-fortes-dos-discursos)
 8. [Guia rápido para o agente](#8-guia-rápido-para-o-agente)
@@ -516,6 +517,107 @@ Conferidos os 142 ensinamentos daquele arquivo (números 78 a 219) contra o orig
 - **Citação:** *"chi vuole vedere quello che ha a essere, consideri quello che è stato; perché tutte le cose del mondo, in ogni tempo, hanno il proprio riscontro con gli antichi tempi"* — "quem quer ver o que há de ser, considere o que foi; porque todas as coisas do mundo, em todo tempo, têm correspondência com os tempos antigos". Mesma ideia em I.39 e no Proêmio II.
 - **Aplicação [Interpretação]:** é o método do agente: para cada decisão, buscar o caso histórico parecido. No negócio: olhe o histórico do cliente (pagamentos, agências anteriores), do setor e do seu próprio caixa antes de prever.
 
+
+## 5b. Os demais 101 capítulos em detalhe
+
+**Situação da 5b:** parcial — feito até I.31 (fichas 5b.1 a 5b.15); falta de I.32 em diante.
+
+**Para que serve:** com a seção 5 (41 fichas), os 142 capítulos dos *Discursos* ficam todos com ficha conferida. Aqui estão os 101 que faltavam, **na ordem do livro** (ciclo 2 da revisão, conta Zuleide, 02/11/2026).
+
+**Padrão de cada ficha (igual ao da seção 5, mais curto):** argumento (**texto**, o que Maquiavel defende no capítulo) · citação italiana **conferida no original** (Wikisource, edição de 1531; conferência por programa em `revisao/conferir_citacoes.py`) + tradução livre nossa · exemplos que ele mesmo usa · aplicação a um negócio hoje, sempre **[Interpretação nossa]**. Onde a tabela das seções 2 a 4 resume de modo impreciso, a ficha avisa com **⚠ Nota**.
+
+### 5b.1 — I.1: o lugar e as leis do começo
+- **Argumento (texto):** toda cidade nasce de nativos ou de estrangeiros, livre ou dependente de outra; a virtù de quem funda aparece na escolha do lugar e na ordem das leis. Lugar estéril obriga ao esforço, mas deixa a cidade fraca; por isso é melhor o lugar fértil, **desde que as leis imponham a necessidade** que o lugar não impõe (os egípcios, os mamelucos do sultão). Roma teve começo livre, e as leis de Rômulo e Numa a mantiveram virtuosa por séculos apesar da riqueza.
+- **Citação:** *"si debbe ordinare che a quelle necessità le leggi la costringhino, che il sito non la costrignesse"* — "deve-se ordenar que as leis a obriguem às necessidades a que o lugar não a obrigasse". E a conclusão: *"Dico, adunque, essere più prudente elezione porsi in luogo fertile, quando quella fertilità con le leggi infra i debiti termini si ristringa."* — "Digo, portanto, que é escolha mais prudente instalar-se em lugar fértil, quando essa fertilidade for contida pelas leis dentro dos devidos limites."
+- **Exemplos:** Atenas (Teseu), Veneza (fugitivos nas ilhotas do Adriático), Alexandria (Alexandre), Florença (colônia romana), Egito, os mamelucos, Roma (Enéias ou Rômulo).
+- **⚠ Nota:** a frase "a fome e a pobreza fazem os homens industriosos, e as leis os fazem bons", que a tabela da seção 2 põe em I.1, está literalmente em **I.3** (ver ficha 5.2). Em I.1 a ideia é a mesma, dita com outras palavras ("os homens agem por necessidade ou por escolha").
+- **Aplicação [Interpretação]:** negócio que nasce em mercado fácil (muito cliente, pouca concorrência) amolece. Crie de propósito a "necessidade" que o mercado não cria: metas, prazos, revisão de qualidade, treino constante.
+
+### 5b.2 — I.8: acusação sim, calúnia não
+- **Argumento (texto):** a acusação formal (com juiz, prova e defesa) é útil; a calúnia (falar mal em praça e em conversa, sem prova e sem juiz) é perniciosa, porque irrita e não castiga. Mânlio Capitolino, invejoso de Camilo, espalhou que os nobres escondiam o tesouro; levado a provar, não provou, e foi punido. Em Florença, a calúnia contra Giovanni Guicciardini, sem canal para ele se justificar, ajudou a arruinar a república.
+- **Citação:** *"Perché si debbe farli diventare accusatori; e quando l’accusa si riscontri vera, o premiarli o non punirli: ma quando la non si riscontri vera, punirli, come fu punito Manlio."* — "Porque se deve fazê-los [os caluniadores] tornarem-se acusadores; e quando a acusação se mostrar verdadeira, premiá-los ou não puni-los; mas quando não se mostrar verdadeira, puni-los, como foi punido Mânlio."
+- **Exemplos:** Mânlio Capitolino × Furio Camilo; Giovanni Guicciardini, comissário florentino na guerra de Lucca (1430).
+- **Aplicação [Interpretação]:** fofoca na equipe ou boato sobre cliente se resolve trazendo para o canal formal: "traga o fato, com prova, na reunião". Se for verdade, agradeça e corrija; se for invenção, aja contra quem inventou. Nunca deixe o boato correr solto.
+
+### 5b.3 — I.13: a religião para reorganizar, guerrear e acalmar tumultos
+- **Argumento (texto):** três casos em que o Senado romano usou a religião: (1) depois de a plebe eleger tribunos com poder consular quase todos plebeus, peste e prodígios foram lidos como sinal dos deuses, e a plebe voltou a eleger nobres; (2) no cerco de Veios, o oráculo do lago Albano manteve os soldados na campanha; (3) contra a lei Terentila, o juramento feito ao cônsul obrigou a plebe a segui-lo.
+- **Citação:** *"E così la religione fece al Senato vincere quelle difficultà, che, sanza essa, mai averebbe vinte."* — "E assim a religião fez o Senado vencer aquelas dificuldades que, sem ela, nunca teria vencido."
+- **Exemplos:** tribunos militares com poder consular; Veios e o lago Albano; Ápio Herdônio no Capitólio; o cônsul Quíncio e o juramento.
+- **Aplicação [Interpretação]:** a crença compartilhada (missão, valores, rituais da empresa) resolve conflitos que ordem nenhuma resolve. Mas tem de ser crença real da equipe, não discurso; e o dono não pode usá-la contra os próprios funcionários de forma descarada (ver 5b.4).
+
+### 5b.4 — I.14: interpretar os auspícios conforme a necessidade
+- **Argumento (texto):** os auspícios eram o fundamento da religião antiga e serviam para dar confiança ao soldado. Quando a razão mandava combater e o sinal era contrário, os chefes o "interpretavam" a favor, mostrando respeitar a religião; quem a desprezava abertamente era punido.
+- **Citação:** *"Né ad altro fine tendeva questo modo dello aruspicare, che di fare i soldati confidentemente ire alla zuffa; dalla quale confidenza quasi sempre nasce la vittoria."* — "Nem a outro fim tendia esse modo de consultar os auspícios senão o de fazer os soldados irem confiantes à luta; dessa confiança quase sempre nasce a vitória."
+- **Exemplos:** Papírio Cursor contra os samnitas (o chefe dos pulários disse que os frangos tinham comido, sem ser verdade; Papírio pôs os pulários na primeira linha e um dardo romano, por acaso, matou o mentiroso); Ápio Pulcro na Primeira Guerra Púnica jogou os frangos ao mar ("vejamos se querem beber"), perdeu e foi condenado.
+- **Aplicação [Interpretação]:** os indicadores e rituais da equipe (reunião de segunda, placar de metas) existem para dar confiança. O líder pode adaptar a leitura de um número ruim, mas nunca zombar em público das regras que ele mesmo criou: quem desmoraliza o ritual perde a equipe.
+
+### 5b.5 — I.15: os samnitas e a religião como último remédio
+- **Argumento (texto):** derrotados muitas vezes, os samnitas recorreram a um juramento terrível (sacrifício, ameaça de morte a quem fugisse) para recuperar a coragem. Perderam assim mesmo, porque a virtù romana e o medo das derrotas passadas pesaram mais; mas o caso mostra quanta confiança a religião bem usada dá.
+- **Citação:** *"Il che testifica appieno, quanta confidenza si possa avere mediante la religione bene usata."* — "O que testemunha plenamente quanta confiança se pode ter por meio da religião bem usada."
+- **Exemplos:** os samnitas, o sacerdote Ovio Paccio e o acampamento junto a Aquilônia; o cônsul Papírio.
+- **Aplicação [Interpretação]:** discurso motivacional e "ritual de virada" ajudam uma equipe abatida, mas não substituem preparo. Se o concorrente é mais forte e a equipe já perdeu várias vezes, o ritual sozinho não vence: junte motivação com mudança real de método.
+
+### 5b.6 — I.17: o povo corrompido que ganha liberdade
+- **Argumento (texto):** Roma teve sorte de expulsar os reis antes que a corrupção deles passasse "para os membros". Uma cidade corrompida sob um príncipe, mesmo que a linhagem dele se apague, não volta a ser livre; só um homem de virtù extraordinária, enquanto vive, consegue sustentar boas ordens, e quando ele morre tudo volta ao antigo.
+- **Citação:** *"E si può fare questa conclusione, che, dove la materia non è corrotta, i tumulti ed altri scandoli non nuocono: dove la è corrotta, le leggi bene ordinate non giovano, se già le non sono mosse da uno che con una estrema forza le faccia osservare, tanto che la materia diventi buona."* — "E pode-se tirar esta conclusão: onde a matéria não está corrompida, os tumultos e outros escândalos não fazem mal; onde está corrompida, as leis bem ordenadas não ajudam, a não ser que sejam movidas por alguém que, com força extrema, as faça cumprir até a matéria se tornar boa."
+- **Exemplos:** Roma após os Tarquínios × Roma após César; Milão após Filippo Maria Visconti (1447); Nápoles; Siracusa (Díon e Timoleão); Tebas (Epaminondas).
+- **Aplicação [Interpretação]:** trocar o gerente não conserta uma equipe já viciada (atraso, desculpas, cliente maltratado). Regra nova no papel não muda nada; só muda com alguém que acompanhe de perto e cobre todos os dias por tempo longo, e com troca de pessoas quando preciso.
+
+### 5b.7 — I.19: depois de um líder forte, um fraco se aguenta; dois fracos, não
+- **Argumento (texto):** Roma teve a sorte de ter um rei guerreiro (Rômulo), um pacífico (Numa) e outro guerreiro (Tulo). Um príncipe fraco vive da reputação do anterior; se vier outro fraco, o reino cai. Quem se parece com Rômulo, "armado de prudência e de armas", mantém o Estado em qualquer caso.
+- **Citação:** *"Dico pertanto con questi esempli, che, dopo uno eccellente principe, si può mantenere uno principe debole"* — "Digo portanto, com estes exemplos, que depois de um príncipe excelente pode manter-se um príncipe fraco".
+- **Exemplos:** Rômulo, Numa, Tulo, Anco; Davi, Salomão, Roboão; os sultões Maomé II, Bajazet II e Selim I.
+- **Aplicação [Interpretação]:** numa sucessão (filho que assume a loja, sócio que vira gerente), um período de gestão mais fraca é absorvido pela reputação construída. Dois seguidos, não: a marca se esgota. Planeje para que um "fraco" seja seguido por alguém forte.
+
+### 5b.8 — I.20: duas sucessões virtuosas fazem grandes coisas
+- **Argumento (texto):** dois príncipes virtuosos seguidos bastam para conquistar o mundo (Filipe e Alexandre). Uma república bem ordenada, porque elege, tem não dois, mas "infinitos príncipes virtuosíssimos" em sequência; por isso cresce mais.
+- **Citação:** *"Il che tanto più debba fare una republica, avendo per il modo dello eleggere non solamente due successioni ma infiniti principi virtuosissimi che sono l’uno dell’altro successori"* — "O que tanto mais deve fazer uma república, tendo, pelo modo de eleger, não só duas sucessões mas infinitos príncipes virtuosíssimos que sucedem um ao outro".
+- **Exemplos:** Filipe da Macedônia e Alexandre Magno; os cônsules romanos eleitos "por sufrágios livres".
+- **Aplicação [Interpretação]:** empresa que escolhe líderes por mérito (e não por parentesco ou antiguidade) tem sempre bons líderes à disposição. Sucessão é processo, não sorte.
+
+### 5b.9 — I.21: a culpa de não ter armas próprias é do governante
+- **Argumento (texto):** príncipes e repúblicas sem soldados próprios devem se envergonhar: a falta não é de homens aptos, mas de quem não os soube formar. Tulo fez soldados de um povo que vivia em paz havia 40 anos; Pelópidas e Epaminondas fizeram soldados dos tebanos.
+- **Citação:** *"Debbono i presenti principi e le moderne republiche, le quali circa le difese ed offese mancano di soldati propri, vergognarsi di loro medesime"* — "Os príncipes de hoje e as repúblicas modernas que, para defesa e ataque, não têm soldados próprios devem envergonhar-se de si mesmos".
+- **Exemplos:** Tulo; Pelópidas e Epaminondas em Tebas; Henrique VIII da Inglaterra (atacou a França com súditos sem prática de guerra, porque o reino tinha ordens militares). Virgílio: *"Desidesque movebit Tullus in arma viros"*.
+- **Aplicação [Interpretação]:** "não acho gente boa" quase sempre é falta de treino. Quem forma a própria equipe não depende de freelancer caro nem de "salvador" de fora.
+
+### 5b.10 — I.22: o que notar nos Horácios e Curiácios
+- **Argumento (texto):** Roma e Alba apostaram o domínio de um povo sobre o outro no combate de três contra três. Três lições: não arriscar toda a fortuna com parte das forças (5b.11); numa cidade bem ordenada os méritos não compensam os crimes (5b.12); e acordo em que um povo se submete por causa de três cidadãos não será cumprido.
+- **Citação:** *"Perché, gl’importa tanto a una città lo essere serva, che mai non si doveva credere che alcuno di quelli re o di quelli popoli stessero contenti che tre loro cittadini gli avessero sottomessi"* — "Porque importa tanto a uma cidade ser serva que nunca se devia crer que algum daqueles reis ou povos ficaria contente por três de seus cidadãos os terem submetido".
+- **Exemplos:** Horácios × Curiácios; Tulo e Mécio Fufécio, que traiu Roma na guerra seguinte contra Veios.
+- **Aplicação [Interpretação]:** acordo que o outro lado aceita por pressão ou por um detalhe (uma reunião, um "teste") não se sustenta. Feche contratos que a outra parte tenha interesse real em cumprir.
+
+### 5b.11 — I.23: não arriscar tudo sem usar tudo; guardar passagens costuma falhar
+- **Argumento (texto):** nunca foi prudente arriscar toda a fortuna sem empregar todas as forças. Isso acontece quase sempre com quem tenta fechar desfiladeiros e passos: não se pode fechar todos, o inimigo passa por outro caminho e, perdido o passo, o exército e o povo perdem o ânimo.
+- **Citação:** *"Non fu mai giudicato partito savio mettere a pericolo tutta la fortuna tua e non tutte le forze."* — "Nunca foi julgado partido sábio pôr em perigo toda a tua fortuna e não todas as tuas forças."
+- **Exemplos:** Tulo e Mécio (os três campeões); Aníbal passando os Alpes e os romanos sem guardar os passos; os suíços em 1515 esperando Francisco I nos montes, que passou por outra via e tomou a Lombardia.
+- **Aplicação [Interpretação]:** não aposte a empresa inteira num único cliente, num único canal de venda ou numa única "barreira" (um contrato de exclusividade, um algoritmo). Quando ela cai, cai tudo junto. Se for arriscar tudo, arrisque com tudo.
+
+### 5b.12 — I.24: prêmio e pena nunca se compensam
+- **Argumento (texto):** Horácio salvou Roma e matou a irmã; foi julgado pela vida mesmo assim. Mânlio salvou o Capitólio e recebeu um prêmio; depois, por buscar sedição, foi jogado da mesma rocha. Premiar o bem e punir o mal, sem descontar um do outro, é o que mantém a cidade livre.
+- **Citação:** *"E la ragione è questa, che nessuna republica bene ordinata non mai cancellò i demeriti con gli meriti de’ suoi cittadini"* — "E a razão é esta: nenhuma república bem ordenada jamais cancelou os deméritos com os méritos de seus cidadãos".
+- **Exemplos:** Horácio; Mânlio Capitolino (prêmio pequeno, uma medida de farina, grande para a época).
+- **Aplicação [Interpretação]:** o melhor vendedor não pode maltratar colega ou cliente "porque bate meta". Premie o resultado e corrija a falta, separadamente. Se o mérito apaga a falta, todo mundo aprende que basta ter mérito para fazer o que quiser.
+
+### 5b.13 — I.28: por que Roma foi menos ingrata que Atenas
+- **Argumento (texto):** toda república tem alguma ingratidão com seus cidadãos, mas Roma teve menos, porque, da expulsão dos reis até Sila e Mário, nenhum cidadão lhe tirou a liberdade: tinha menos motivo de suspeita. Atenas, oprimida por Pisístrato no auge, desconfiava de todos. Roma, quando ferida no começo (Colatino, Públio Valério), também foi severa.
+- **Citação:** *"E ricercando la cagione di questo, parlando di Roma e d’Atene credo accadessi perché i Romani avevano meno cagione di sospettare de’ suoi cittadini, che gli Ateniesi."* — "E buscando a causa disso, falando de Roma e de Atenas, creio que aconteceu porque os romanos tinham menos razão de suspeitar de seus cidadãos que os atenienses."
+- **Exemplos:** Atenas e Pisístrato; Colatino (exilado só pelo nome Tarquínio); Públio Valério (suspeito por construir casa no monte Célio).
+- **Aplicação [Interpretação]:** o dono que já foi traído por um sócio ou funcionário tende a desconfiar de todos e ser injusto com os bons. Reconheça a origem da sua desconfiança e crie regras (ver 5.2) em vez de suspeita pessoal.
+
+### 5b.14 — I.30: como evitar a ingratidão (e como o capitão escapa dela)
+- **Argumento (texto):** o príncipe evita ter de ser ingrato indo ele mesmo às guerras, como os primeiros imperadores e o Turco; se manda um capitão, a vitória gera suspeita. O capitão vitorioso deve escolher: ou entrega o exército logo e se põe nas mãos do príncipe, sem nenhum gesto ambicioso; ou toma o poder. O meio-termo o arruína. A república evita a ingratidão como Roma: usando muitos cidadãos na guerra, que se vigiam uns aos outros.
+- **Citação:** *"o subito dopo la vittoria lasci lo esercito, e rimettasi nelle mani del suo principe, guardandosi da ogni atto insolente o ambizioso, acciocché quello, spogliato d’ogni sospetto, abbia cagione o di premiarlo o di non lo offendere"* — "ou, logo depois da vitória, deixe o exército e ponha-se nas mãos do seu príncipe, evitando todo ato insolente ou ambicioso, para que este, livre de toda suspeita, tenha motivo de premiá-lo ou de não ofendê-lo". E: *"E così, non potendo simili modi generare sospetto, non generavano ingratitudine."* — "E assim, não podendo tais modos gerar suspeita, não geravam ingratidão."
+- **Exemplos:** os primeiros imperadores romanos; o sultão turco; os ditadores romanos que depunham o cargo cedo.
+- **Aplicação [Interpretação]:** o dono deve estar presente nos grandes projetos, para não depender de um gerente que fica maior que ele. Ao gerente que fez um projeto brilhante: entregue os resultados e o crédito ao dono, sem disputar clientes. Tenha vários líderes, não um só "insubstituível".
+
+### 5b.15 — I.31: os capitães romanos não eram punidos por erro
+- **Argumento (texto):** Roma não punia de modo extraordinário o capitão que errava. Se o erro vinha de malícia, punia com humanidade (multa, onde outra república daria a morte); se vinha de ignorância, não punia e às vezes honrava, para que o capitão decidisse com a mente livre.
+- **Citação:** *"Perché se il loro errore fusse stato per malizia, e’ lo gastigavano umanamente; se gli era per ignoranza, non che lo punissono, e’ lo premiavano ed onoravano."* — "Porque, se o erro deles tivesse sido por malícia, castigavam-no humanamente; se era por ignorância, longe de puni-lo, premiavam-no e honravam-no."
+- **Exemplos:** Sérgio e Virgínio no cerco de Veios (multados); Varrão depois de Canas (o Senado foi recebê-lo e agradeceu por não ter desesperado da república); Papírio Cursor e Fábio.
+- **Aplicação [Interpretação]:** quem erra tentando acertar (campanha que não converteu, abordagem nova que falhou) não deve ser humilhado, senão ninguém mais arrisca. Punição só para má-fé, e mesmo assim proporcional. Separe "erro de execução" de "erro de caráter".
+
+<!-- fim da 5b -->
 
 ---
 
