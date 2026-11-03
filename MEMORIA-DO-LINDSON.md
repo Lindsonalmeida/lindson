@@ -231,6 +231,7 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 | 03/11 | Calendário editorial do Leo (nov a jan) e quem aprovou cada arte (nome do cliente pela conta) | no ar | painel do Leo › Aprovações e Calendário |
 | 03/11 | Painel da Desentupidora SF na Central, com código de acesso | no ar (Zuleide) | https://lindsonalmeida.pages.dev/painel/sf |
 | 03/11 | 4 artes da Desentupidora SF | **aprovadas pelo Lindson** ("aprovado, pode subir") e no painel do cliente (Zuleide) | `agencia/clientes/desentupidora-sf/instagram-v1/` |
+| 03/11 | Real Time: reformulação do Instagram, plano de vendas, painel e mini site | Instagram, estratégia e painel feitos por Pedro e Leandro; mini site em rascunho (Zuleide), aguardando o repositório do cliente | `agencia/clientes/rt-full-jobs/` |
 | 03/11 | Lista de todos os agentes por categoria | pronto (Zuleide) | `AGENTES.md` |
 | 03/11 | Este documento de memória, compartilhado com todas as contas | pronto | `MEMORIA-DO-LINDSON.md` |
 
