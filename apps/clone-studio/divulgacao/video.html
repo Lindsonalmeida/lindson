@@ -23,7 +23,7 @@ canvas{position:absolute;inset:0}
 .foto .anel{position:absolute;inset:0;border-radius:50%;border:6px solid var(--eco)}
 .foto .anel2{position:absolute;inset:-14px;border-radius:50%;border:3px solid rgba(139,124,255,.45)}
 .clone{font:600 30px 'Geist Mono';letter-spacing:.08em;color:var(--g);background:var(--eco);border-radius:999px;padding:10px 24px}
-.voo{position:absolute;left:70px;bottom:360px;display:flex;gap:20px;align-items:center;border:2px solid var(--l);background:rgba(16,16,22,.95);border-radius:26px;padding:16px 30px 16px 16px;max-width:560px}
+.voo{position:absolute;left:50%;transform:translateX(-50%);bottom:360px;display:flex;gap:20px;align-items:center;border:2px solid var(--l);background:rgba(16,16,22,.95);border-radius:26px;padding:16px 34px 16px 16px;width:720px}
 .voo b{display:block;font-weight:600;font-size:32px}.voo small{color:var(--ap);font-size:26px;line-height:1.3;display:block}
 .barras{display:flex;gap:6px;align-items:center;height:86px;padding:0 20px;border-radius:18px;background:var(--pa2)}
 .barras i{width:7px;border-radius:4px;background:var(--eco)}
@@ -40,10 +40,10 @@ canvas{position:absolute;inset:0}
 </defs></svg>
 <div id="cena">
   <div class="marca" id="marca"><svg><use href="#logo"/></svg>dublê</div>
-  <div id="selo"><span class="pil"><svg><use href="#barr"/></svg>Voz clonada pelo Claude no Dublê</span></div>
+  <div id="selo"><span class="pil"><svg><use href="#barr"/></svg>CLONE · voz do Lindson, clonada pelo Claude</span></div>
   <div id="leg"><p id="frase"></p></div>
   <div class="voo" id="voo"><span class="barras" id="vb"></span><span><b>Essa voz não é gravada</b><small>É o clone da voz do Lindson,<br>feito com autorização dele.</small></span></div>
-  <div class="canto" id="canto"><div class="foto"><span class="anel2" id="anel2"></span><span class="anel" id="anel"></span><img src="rosto.jpg" alt=""></div><span class="clone">CLONE</span></div>
+  <div class="canto" id="canto" hidden style="display:none"><div class="foto"><span class="anel2" id="anel2"></span><span class="anel" id="anel"></span><img src="rosto.jpg" alt=""></div><span class="clone">CLONE</span></div>
   <div class="ia" id="ia">Feito com IA · voz clonada do Lindson, com autorização</div>
 </div>
 <div id="fim" style="opacity:0"><svg><use href="#logo"/></svg><h1>dublê</h1><h2>Sua voz, seu rosto.<br><span>Só com o seu sim.</span></h2><span class="pil">Feito com IA · uso interno</span></div>
@@ -52,11 +52,12 @@ canvas{position:absolute;inset:0}
 const $=id=>document.getElementById(id);
 const ATRASO=1.0, DUR=30;
 // frases com o tempo em que começam na voz (segundos, sem o atraso); "Claude" aparece escrito certo
-const F=[[0,'Fala, pessoal, aqui é o <span class="b">Lindson</span>.'],[2.2,'Quer dizer…<br>mais ou menos.'],
- [4.76,'Essa voz é minha, mas quem está falando agora é <span class="b">um clone</span>.'],
- [8.19,'Eu sou o clone do Lindson, feito pelo <span class="b">Claude</span>,'],[11.79,'dentro do <span class="b">Dublê</span>, o nosso estúdio de voz e imagem.'],
- [14.15,'O Dublê clona a sua voz e o seu rosto,'],[16.81,'mas só de quem <span class="b">autorizou</span>, com termo assinado e vídeo de consentimento.'],
- [20.96,'E aí, você teria <span class="b">um clone</span>?'],[23.13,'Me conta aqui embaixo.']];
+const F=[[0,'Fala, pessoal, aqui é o <span class="b">Lindson</span>.'],[2.0,'Quer dizer…<br>mais ou menos.'],
+ [3.6,'Essa voz é minha, mas quem está falando agora é <span class="b">um clone</span>.'],
+ [6.6,'Eu sou o clone do Lindson, feito pelo <span class="b">Claude</span>,'],[8.7,'dentro do <span class="b">Dublê</span>, o nosso estúdio de voz e imagem.'],
+ [11.2,'O Dublê clona a sua voz e o seu rosto,'],[13.8,'mas só de quem <span class="b">autorizou</span>, com termo assinado e vídeo de consentimento.'],
+ [17.6,'E aí, você teria <span class="b">um clone</span>?'],[19.3,'Me conta aqui embaixo.'],
+ [20.5,'Quer um clone de voz pra sua marca?'],[22.7,'Fala com o Lindson.<br><span class="b">O de verdade.</span>']];
 const ENV=window.ENVJ;window.pronto=true;
 let s=7;const rnd=()=>(s=(s*16807)%2147483647)/2147483647;
 const R=Array.from({length:300},(_,i)=>({a:i/300*Math.PI*2,L:.25+rnd()**1.6*.75,f:.5+rnd(),p:rnd()*6.28,b:rnd()<.2}));
@@ -71,7 +72,7 @@ $('vb').innerHTML='<i></i>'.repeat(9);
 let ultima=-1;
 window.desenha=function(t){
  const tv=t-ATRASO, k=Math.floor(tv*25), A=(tv>=0&&k<ENV.length)?ENV[k]:0;
- const fimIni=ATRASO+26.6, ef=ease((t-fimIni)/.6);
+ const fimIni=ATRASO+25.4, ef=ease((t-fimIni)/.6);
  halo(t,A,ef>0?.5:.44);
  $('cena').style.opacity=1-ef;$('fim').style.opacity=ef;$('fim').style.transform=`scale(${.96+.04*ef})`;
  const e0=ease(t/.5);$('marca').style.opacity=e0;
@@ -80,10 +81,10 @@ window.desenha=function(t){
  if(i!==ultima){$('frase').innerHTML=i>=0?F[i][1]:'';ultima=i}
  const ini=i>=0?F[i][0]:0,ef2=ease((tv-ini+.05)/.25);$('frase').style.cssText=`opacity:${i>=0?ef2:0};transform:translateY(${(1-ef2)*24}px)`;
  // selo e aviso aparecem quando ele diz que a voz é dele
- const es=ease((tv-4.6)/.4);$('selo').style.cssText=`opacity:${es};transform:translateY(${(1-es)*-16}px)`;
- const ev=ease((tv-5.2)/.4)*(1-ease((tv-13.6)/.4));$('voo').style.cssText=`opacity:${ev};transform:translateY(${(1-ev)*24}px)`;
+ const es=ease((tv-3.5)/.4);$('selo').style.cssText=`opacity:${es};transform:translateY(${(1-es)*-16}px)`;
+ const ev=ease((tv-4.0)/.4)*(1-ease((tv-11.0)/.4));$('voo').style.cssText=`opacity:${ev};transform:translate(-50%,${(1-ev)*24}px)`;
  document.querySelectorAll('#vb i').forEach((el,j)=>el.style.height=(18+70*A*(.6+.4*Math.abs(Math.sin(j*1.3+t*6))))+'%');
- const ec=ease((tv+.4)/.5);$('canto').style.cssText=`opacity:${ec};transform:scale(${.9+.1*ec})`;
+ const ec=ease((tv+.4)/.5);
  $('anel').style.transform=`scale(${1+A*.05})`;$('anel2').style.cssText=`transform:scale(${1+A*.12});opacity:${.25+A*.75}`;
  $('ia').style.opacity=ease((tv)/.5);
 };

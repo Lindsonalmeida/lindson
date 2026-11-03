@@ -65,8 +65,16 @@ def preparar_voz(m, amostra, expressao):
     _conds[chave] = m.conds
 
 
-def frases(txt):
-    return [p for p in re.split(r'(?<=[.!?…:])\s+', txt.strip()) if p.strip()]
+def frases(txt, limite=220):
+    """Blocos de fala. Desde 03/11 (Lindson: "a voz não ficou fluida") o motor junta frases seguidas
+    num bloco de até ~220 caracteres: o modelo lê o bloco de uma vez e a entonação segue natural,
+    sem recomeçar a cada ponto. Reticências e dois-pontos não quebram bloco."""
+    partes = [p for p in re.split(r'(?<=[.!?])\s+', txt.strip()) if p.strip()]
+    blocos = []
+    for p in partes:
+        if blocos and len(blocos[-1]) + 1 + len(p) <= limite: blocos[-1] += ' ' + p
+        else: blocos.append(p)
+    return blocos
 
 
 def _reamostra(a, sr):
@@ -138,7 +146,7 @@ def narrar(txt, amostra, expressao=0.45, semente=0, humanizar=True, progresso=No
             out.append(_respiro(rng, rng.uniform(.22, .32)))
         out.append(a)
         if humanizar and n < len(fs) - 1:
-            pa = {'?': rng.uniform(.30, .38), '!': rng.uniform(.22, .28), ':': rng.uniform(.14, .2), '…': rng.uniform(.32, .4)}.get(f[-1], rng.uniform(.18, .26))
+            pa = {'?': rng.uniform(.24, .3), '!': rng.uniform(.18, .22)}.get(f[-1], rng.uniform(.16, .22))
             out.append(np.zeros(int(pa * S), np.float32))
     a = np.concatenate(out) if out else np.zeros(1, np.float32)
     a = np.concatenate([np.zeros(int(.08 * S), np.float32), a, np.zeros(int(.12 * S), np.float32)])

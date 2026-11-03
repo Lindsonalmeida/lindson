@@ -16,6 +16,6 @@ Composição copiada da tela v2 aprovada ("padrão premium", template Sermo, `..
 - Para refazer: `node grava.js <cena 1-3> <segundos> 30 <pasta>` (quadros de `story.html`) e depois o ffmpeg (APNG com `palettegen`, 128 cores).
 
 ## Vídeo de 30 s com a voz clonada do Lindson
-- `video.html` + `grava_video.js`: legenda frase a frase, halo que reage à voz e foto dele no cantinho com o selo CLONE. Aviso "Feito com IA" o tempo todo.
+- `video.html` + `grava_video.js`: legenda frase a frase (tempos tirados do Whisper), halo que reage à voz, selo CLONE. v1 tinha a foto dele no cantinho: **reprovada** ("não adianta ter minha imagem sem eu falar"); v2 sem foto e com a voz em blocos (fluida). Aviso "Feito com IA" o tempo todo.
 - A voz (motor do Dublê, amostra de 4:52), a foto e o MP4 final **não vão para o GitHub**. O vídeo foi entregue ao Lindson na conversa da conta Pedro em 03/11.
 - **Boca mexendo (lip-sync):** `lipsync.py` (MuseTalk 1.5 + MediaPipe, sem mmpose) está pronto, mas **não rodou na nuvem**: a segurança da sessão bloqueou a execução de código e modelos baixados de fora. No notebook do Lindson ele roda; ou uma sessão com permissão libera. Por isso o vídeo usa a foto com anel de voz animado.
