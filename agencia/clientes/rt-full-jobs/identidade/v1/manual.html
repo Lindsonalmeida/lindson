@@ -1,0 +1,218 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<!-- Manual de marca Real Time v1 (conta Pedro, 03/11/2026).
+     Estrutura copiada do manual v3 do Leo Pinto (agencia/clientes/leo-pinto/identidade/v3/manual.html);
+     composição premium copiada da tela do Dublê (template Sermo: halo de raios, pílulas, título em dois tons,
+     console com barra, aviso flutuante, passos numerados, cartões de números). Marca gerada por marca.py. -->
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@500;600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+@page{size:1080px 1350px;margin:0}
+:root{--p:#05070B;--g:#11161F;--g2:#171E2A;--l:#232C3B;--l2:#1A212D;--b:#F4F7FB;--ap:#9AA6B8;--fr:#5E6B7E;--az:#2E9BFF;--in:#4338F0;--rec:#FF3B3B}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--p);color:var(--b);font-family:Manrope,sans-serif;-webkit-font-smoothing:antialiased}
+.pg{width:1080px;height:1350px;position:relative;overflow:hidden;page-break-after:always;background:var(--p)}
+.pg:last-child{page-break-after:auto}
+canvas.halo{position:absolute;pointer-events:none}
+.topo{position:absolute;left:64px;right:64px;top:56px;display:flex;justify-content:space-between;align-items:center;z-index:5}
+.pil{display:inline-flex;align-items:center;gap:12px;border:1.5px solid var(--l);background:rgba(17,22,31,.85);border-radius:999px;padding:10px 22px;font:500 20px Manrope;color:var(--ap)}
+.pil img{height:30px}.pil b{color:var(--b);font-weight:600}
+.dot{width:10px;height:10px;border-radius:50%;background:var(--rec);box-shadow:0 0 12px var(--rec);display:inline-block}
+.corpo{position:absolute;left:84px;right:84px;top:170px;bottom:110px;z-index:3}
+.eb{display:inline-flex;align-items:center;gap:10px;border:1.5px solid var(--l);border-radius:999px;padding:7px 18px;font:500 19px Manrope;color:var(--b);background:rgba(23,30,42,.8)}
+.eb i{width:8px;height:8px;border-radius:50%;background:var(--az);box-shadow:0 0 10px var(--az)}
+h1{font:500 132px/.98 Geist;letter-spacing:-.05em}
+h2{font:500 92px/1 Geist;letter-spacing:-.05em;margin-top:22px}
+h1 .c,h2 .c{color:var(--fr)} .az{color:var(--az)}
+.lead{font-size:26px;line-height:1.5;color:var(--ap);margin-top:24px;max-width:860px}
+.card{border:1.5px solid var(--l2);border-radius:22px;background:linear-gradient(180deg,#0f141c,#080b10);padding:30px}
+.card.q{background:radial-gradient(120% 90% at 50% 100%,rgba(46,155,255,.16),transparent 60%),linear-gradient(180deg,#0f1622,#080b10)}
+.k{font:600 16px 'Geist Mono';letter-spacing:.16em;text-transform:uppercase;color:var(--az)}
+.t3{font:500 34px/1.1 Geist;letter-spacing:-.02em;margin:10px 0 8px}
+.tx{font-size:21px;line-height:1.5;color:var(--ap)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:22px}.grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:22px}
+.passo{display:flex;gap:26px;align-items:baseline;border-top:1.5px solid var(--l2);padding:22px 0;position:relative}
+.passo:first-child:before{content:"";position:absolute;left:0;top:-1.5px;height:3px;width:46%;background:var(--az)}
+.passo .n{font:500 18px 'Geist Mono';color:var(--fr);width:44px;flex:none}.passo:first-child .n{color:var(--az)}
+.passo .t{font:500 34px Geist;letter-spacing:-.02em;flex:1}.passo .s{color:var(--fr);font-size:24px}
+.console{border:1.5px solid var(--l);border-radius:24px;background:rgba(8,11,16,.92);overflow:hidden}
+.console .bar{display:flex;justify-content:space-between;align-items:center;padding:16px 24px;border-bottom:1.5px solid var(--l2);font-size:19px}
+.console .bar span{display:flex;gap:10px;align-items:center}.tres{display:flex;gap:7px}.tres i{width:9px;height:9px;border-radius:50%;background:var(--fr)}
+.row{display:flex;gap:18px;align-items:center;padding:18px 24px;border-bottom:1.5px solid var(--l2);font-size:21px}.row:last-child{border-bottom:0}
+.voo{display:flex;gap:18px;align-items:center;border:1.5px solid var(--l);background:rgba(16,20,28,.96);border-radius:20px;padding:14px 26px 14px 14px;width:max-content}
+.barras{display:flex;gap:5px;align-items:center;height:62px;padding:0 16px;border-radius:14px;background:var(--g2)}.barras i{width:5px;border-radius:3px;background:var(--az)}
+.voo b{display:block;font-weight:600;font-size:22px}.voo small{color:var(--ap);font-size:18px}
+.rod{position:absolute;left:84px;right:84px;bottom:46px;display:flex;justify-content:space-between;font:500 16px 'Geist Mono';letter-spacing:.12em;color:var(--fr);z-index:5}
+.foto{background-size:cover;background-position:center;border-radius:18px}
+.x{position:relative}.x:after{content:"✕";position:absolute;top:14px;right:16px;width:38px;height:38px;border-radius:50%;background:var(--rec);color:#fff;display:grid;place-items:center;font:700 20px Manrope}
+.cantos{position:relative}.cantos:before,.cantos:after{content:"";position:absolute;width:44px;height:44px;border:5px solid var(--b)}
+.cantos:before{left:0;top:0;border-right:0;border-bottom:0}.cantos:after{right:0;bottom:0;border-left:0;border-top:0}
+.mono{font-family:'Geist Mono'}
+</style></head><body>
+<div id="paginas"></div>
+<script>
+const M='marca/',F='fotos/',TOTAL=20;
+const C={p:'#05070B',g:'#11161F',b:'#F4F7FB',az:'#2E9BFF',in:'#4338F0',rec:'#FF3B3B'};
+let pag=0;
+const topo=(t)=>`<div class="topo"><span class="pil"><img src="${M}simbolo.svg"><b>realtime</b></span><span class="pil">${t} · <b>${String(pag+1).padStart(2,'0')}</b></span></div>`;
+const rod=()=>`<div class="rod"><span>MANUAL DE MARCA · V1 · 2026</span><span>● REC 00:${String(pag+1).padStart(2,'0')}:00:00</span></div>`;
+const barras=(n=9)=>'<span class="barras">'+Array.from({length:n},(_,i)=>`<i style="height:${25+60*Math.abs(Math.sin(i*1.3+.6))}%"></i>`).join('')+'</span>';
+const P=[];
+function pg(html,{halo=null,cls=''}={}){pag++;P.push({html:`<section class="pg ${cls}" data-halo='${halo?JSON.stringify(halo):''}'>${html}</section>`})}
+// ícones das frentes (traço 6, cantos redondos, acento REC)
+const I={
+ cinema:'<rect x="14" y="30" width="54" height="40" rx="8"/><path d="M68 44l18-10v32l-18-10"/><circle cx="30" cy="22" r="8"/><circle cx="52" cy="22" r="8"/>',
+ luz:'<path d="M30 18h40l-8 30H38z"/><path d="M50 48v26M36 82h28"/><path d="M22 14l-6-6M78 14l6-6"/>',
+ optica:'<circle cx="50" cy="50" r="34"/><circle cx="50" cy="50" r="18"/><path d="M50 16v8M50 76v8M16 50h8M76 50h8"/>',
+ estudio:'<rect x="14" y="16" width="72" height="54" rx="6"/><path d="M14 58c20-10 52-10 72 0"/><path d="M36 86h28M50 70v16"/>',
+ conteudo:'<rect x="16" y="20" width="68" height="62" rx="8"/><path d="M16 38h68M34 12v14M66 12v14"/><path d="M44 50l14 9-14 9z"/>',
+ producao:'<rect x="14" y="40" width="72" height="44" rx="6"/><path d="M14 40l8-22 66 0-8 22"/><path d="M34 18l-8 22M54 18l-8 22M74 18l-8 22"/>'};
+const icone=(k,s=96,cor=C.b)=>`<svg viewBox="0 0 100 100" width="${s}" height="${s}"><g fill="none" stroke="${cor}" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">${I[k]}</g><circle cx="84" cy="16" r="7" fill="${C.rec}"/></svg>`;
+
+// 1 · capa
+pg(`<div style="position:absolute;left:0;right:0;top:250px;text-align:center;z-index:3">
+ <span class="eb"><i></i>Manual de marca · v1 · 2026</span>
+ <div style="margin-top:70px"><img src="${M}assinatura-vertical.svg" style="height:430px"></div>
+ <h2 style="font-size:84px;margin-top:80px">Seu job<br><span class="c">é na Real Time.</span></h2></div>${rod()}`,{halo:{y:.4,r0:250,L:330}});
+
+// 2 · sumário
+pg(topo('Sumário')+`<div class="corpo"><span class="eb"><i></i>O que tem aqui</span><h2>Um sistema<br><span class="c">para todo job.</span></h2>
+<div style="margin-top:50px">${[['A grande ideia','03'],['Símbolo e assinaturas','04'],['Versões e regras','06'],['Cores','09'],['Tipografia','10'],['Elementos de apoio','11'],['Ícones das frentes','12'],['Estilo de foto e grids','13'],['Aplicações','15'],['Tom de voz','19']].map((r,i)=>`<div class="passo" style="padding:18px 0"><span class="n">${String(i+1).padStart(2,'0')}</span><span class="t" style="font-size:30px">${r[0]}</span><span class="s mono">p. ${r[1]}</span></div>`).join('')}</div></div>${rod()}`);
+
+// 3 · a grande ideia
+pg(topo('A grande ideia')+`<div class="corpo"><span class="eb"><i></i>Conceito</span><h2 style="font-size:104px">Sempre<br>gravando.<br><span class="c">Sempre pronta.</span></h2>
+<p class="lead">A Real Time vive no set, no instante em que a câmera grava. A marca nasce de dois sinais que todo mundo que filma reconhece: o <b style="color:var(--b)">visor da câmera</b>, que já estava no logo da RT, e o <b style="color:var(--rec)">ponto vermelho de gravação</b>, que é literalmente o tempo real.</p>
+<div class="grid3" style="margin-top:46px">${[['Enquadramento','Precisão de cinema: o olhar técnico de quem monta o set.'],['REC','Agora: estrutura pronta para gravar hoje, não daqui a um mês.'],['Full jobs','Do kit à entrega: locação, estúdio, conteúdo e produção.']].map(c=>`<div class="card q"><div class="k">${c[0]}</div><p class="tx" style="margin-top:12px">${c[1]}</p></div>`).join('')}</div>
+<div class="voo" style="margin-top:40px">${barras()}<span><b>Posicionamento</b><small>A estrutura de cinema do Maranhão, pronta para o seu job.</small></span></div></div>${rod()}`,{halo:{y:.2,r0:180,L:240,x:.85}});
+
+// 4 · o símbolo explicado
+pg(topo('Símbolo')+`<div class="corpo"><span class="eb"><i></i>Um visor, duas letras, um ponto</span><h2>O símbolo</h2>
+<div style="display:flex;gap:50px;align-items:center;margin-top:60px"><div class="card q" style="padding:40px"><img src="${M}simbolo.svg" style="width:420px;display:block"></div>
+<div style="flex:1">${[['Os cantos','O visor da câmera. Herança do logo atual da RT: é o que já era reconhecido.'],['rt','As iniciais em Geist Bold. O r em branco e o t em azul, como no logo de sempre.'],['O ponto','REC: gravando agora. É o único vermelho da marca e nunca muda de cor.']].map((r,i)=>`<div class="passo"><span class="n">${String(i+1).padStart(2,'0')}</span><div><div class="t">${r[0]}</div><p class="tx" style="margin-top:6px">${r[1]}</p></div></div>`).join('')}</div></div>
+<p class="lead" style="margin-top:50px">Reconhecível em 16 px, em uma cor, bordado, gravado num case de equipamento e no canto de um vídeo.</p></div>${rod()}`);
+
+// 5 · assinaturas
+pg(topo('Assinaturas')+`<div class="corpo"><span class="eb"><i></i>Como a marca assina</span><h2>Assinatura<br><span class="c">principal</span></h2>
+<div class="card q" style="margin-top:40px;padding:56px 60px;text-align:center"><img src="${M}assinatura-horizontal.svg" style="width:760px"></div>
+<div class="grid2" style="margin-top:22px"><div class="card" style="text-align:center;padding:40px"><img src="${M}assinatura-vertical.svg" style="height:250px"><div class="k" style="margin-top:16px">Vertical</div></div>
+<div class="card" style="display:grid;place-items:center;padding:40px"><div style="text-align:center"><img src="${M}wordmark.svg" style="width:360px"><div class="k" style="margin-top:28px">Só o nome</div><p class="tx" style="margin-top:8px">O pingo do i é o ponto REC.</p></div></div></div></div>${rod()}`);
+
+// 6 · versões
+pg(topo('Versões')+`<div class="corpo"><span class="eb"><i></i>Fundo claro, escuro e uma cor</span><h2>Versões</h2>
+<div class="grid2" style="margin-top:46px">
+<div class="card" style="background:#F4F7FB;padding:50px 30px;text-align:center"><img src="${M}assinatura-horizontal-claro.svg" style="width:400px"><div class="k" style="margin-top:20px;color:#1F7BE0">Positiva</div></div>
+<div class="card" style="padding:50px 30px;text-align:center"><img src="${M}assinatura-horizontal.svg" style="width:400px"><div class="k" style="margin-top:20px">Negativa</div></div>
+<div class="card" style="background:${C.az};border:0;padding:50px 30px;text-align:center"><img src="${M}assinatura-horizontal-mono-branco.svg" style="width:400px"><div class="k" style="margin-top:20px;color:#fff">Uma cor sobre azul</div></div>
+<div class="card" style="background:linear-gradient(90deg,${C.in},#1f6bff);border:0;padding:50px 30px;text-align:center"><img src="${M}assinatura-horizontal-mono-branco.svg" style="width:400px"><div class="k" style="margin-top:20px;color:#fff">Uma cor sobre a faixa</div></div></div>
+<div style="display:flex;gap:28px;align-items:flex-end;margin-top:40px">${[200,120,72,40,24].map(s=>`<div style="text-align:center"><img src="${M}simbolo-app.svg" style="width:${s}px;border-radius:${s*.22}px"><div class="mono" style="color:var(--fr);font-size:15px;margin-top:8px">${s}px</div></div>`).join('')}
+<div style="text-align:center"><img src="${M}simbolo-azul.svg" style="width:120px;border-radius:26px"><div class="mono" style="color:var(--fr);font-size:15px;margin-top:8px">app azul</div></div></div></div>${rod()}`);
+
+// 7 · proteção e tamanho mínimo
+pg(topo('Regras')+`<div class="corpo"><span class="eb"><i></i>Respiro e tamanho</span><h2>Área de<br><span class="c">proteção</span></h2>
+<div class="card" style="margin-top:50px;padding:70px;display:grid;place-items:center"><div style="position:relative;padding:60px;border:2px dashed rgba(46,155,255,.55);border-radius:6px">
+<img src="${M}assinatura-horizontal.svg" style="width:600px;display:block"><span class="mono" style="position:absolute;top:14px;left:16px;color:var(--az);font-size:18px">x</span><span class="mono" style="position:absolute;bottom:14px;right:16px;color:var(--az);font-size:18px">x</span></div></div>
+<p class="lead">Respiro mínimo de <b style="color:var(--b)">x</b> em volta, onde x é a perna de um canto do visor. Nada entra nessa área: texto, foto ou outro logo.</p>
+<div class="grid2" style="margin-top:30px"><div class="card q"><div class="k">Assinatura</div><div class="t3">mínimo 120 px · 30 mm</div></div><div class="card q"><div class="k">Símbolo</div><div class="t3">mínimo 24 px · 8 mm</div></div></div></div>${rod()}`);
+
+// 8 · usos incorretos
+pg(topo('Regras')+`<div class="corpo"><span class="eb"><i></i>Para a marca durar</span><h2>Usos<br><span class="c">incorretos</span></h2>
+<div class="grid3" style="margin-top:46px">${[
+ ['transform:scaleX(1.5)','Esticar ou achatar'],['filter:hue-rotate(140deg)','Trocar as cores'],['transform:rotate(-14deg)','Girar'],
+ ['filter:drop-shadow(10px 10px 0 #FF3B3B)','Sombra ou efeito'],['opacity:.35','Apagar o contraste'],['','Fundo poluído']].map((u,i)=>`<div class="card x" style="height:260px;display:grid;place-items:center;${i==5?`background-image:url(${F}lentes.jpg);background-size:cover`:''}"><img src="${M}simbolo.svg" style="width:150px;${u[0]}"><div class="tx" style="position:absolute;bottom:18px;left:22px;color:var(--b)">${u[1]}</div></div>`).join('')}</div>
+<p class="lead">O ponto REC é sempre vermelho, ou some junto na versão de uma cor. Nunca azul, nunca de outra cor.</p></div>${rod()}`);
+
+// 9 · cores
+pg(topo('Cores')+`<div class="corpo"><span class="eb"><i></i>60 · 25 · 10 · 5</span><h2>Cores</h2>
+<div style="display:flex;height:34px;border-radius:12px;overflow:hidden;margin-top:40px"><i style="flex:60;background:${C.p};border:1.5px solid var(--l)"></i><i style="flex:25;background:${C.b}"></i><i style="flex:10;background:${C.az}"></i><i style="flex:5;background:${C.rec}"></i></div>
+<div class="grid2" style="margin-top:30px">${[
+ ['Preto Set','#05070B','5 7 11','75 68 67 90','Fundo, 60%. A marca mora no escuro, como um set.',C.p],
+ ['Branco Luz','#F4F7FB','244 247 251','2 1 0 0','Texto e o r do símbolo, 25%.',C.b],
+ ['Azul Real','#2E9BFF','46 155 255','70 30 0 0','O t, destaques e botões, 10%. Herança do logo atual.',C.az],
+ ['REC','#FF3B3B','255 59 59','0 85 70 0','Só o ponto de gravação e alertas, 5%.',C.rec],
+ ['Índigo Take','#4338F0','67 56 240','85 75 0 0','Faixas e gradientes (herança dos posts).',C.in],
+ ['Grafite','#11161F','17 22 31','80 70 55 75','Cartões e painéis.',C.g]].map(c=>`<div class="card" style="display:flex;gap:22px;padding:22px"><i style="width:110px;height:110px;flex:none;border-radius:16px;background:${c[5]};border:1.5px solid var(--l)"></i><div><div class="t3" style="font-size:28px;margin:0">${c[0]}</div><div class="mono" style="color:var(--ap);font-size:16px;margin-top:6px;line-height:1.6">${c[1]} · RGB ${c[2]}<br>CMYK ${c[3]}</div><p class="tx" style="font-size:17px;margin-top:6px">${c[4]}</p></div></div>`).join('')}</div>
+<p class="tx" style="margin-top:22px">Contraste: branco sobre preto 18,9:1 · azul sobre preto 7,0:1 (WCAG AA). Botão azul usa texto preto.</p></div>${rod()}`);
+
+// 10 · tipografia
+pg(topo('Tipografia')+`<div class="corpo"><span class="eb"><i></i>Geist · Manrope · Geist Mono</span><h2>Tipografia</h2>
+<div class="console" style="margin-top:44px"><div class="bar"><span><span class="dot"></span>Hierarquia</span><span class="tres"><i></i><i></i><i></i></span></div>
+<div class="row" style="display:block"><div class="k">H1 · Geist Medium · -5%</div><div style="font:500 96px/1 Geist;letter-spacing:-.05em;margin-top:10px">Seu job é aqui.</div></div>
+<div class="row" style="display:block"><div class="k">H2 · Geist Medium · 2 tons</div><div style="font:500 56px/1.05 Geist;letter-spacing:-.04em;margin-top:10px">Kit Cinema <span style="color:var(--fr)">pronto para rodar.</span></div></div>
+<div class="row" style="display:block"><div class="k">Texto · Manrope Regular e Bold</div><p style="font-size:26px;line-height:1.5;margin-top:10px;color:var(--ap)">Sony FX3 com ópticas de cinema, luz Aputure e transmissão sem fio. <b style="color:var(--b)">Reserve a data no WhatsApp.</b></p></div>
+<div class="row" style="display:block"><div class="k">Técnico · Geist Mono</div><div class="mono" style="font-size:30px;margin-top:10px;color:var(--b)">● REC 00:00:12:08 · ISO 800 · 24 fps · T2.1</div></div></div>
+<p class="lead">Títulos curtos e grandes, com a segunda parte em cinza. Dados técnicos sempre em Geist Mono. Todas grátis no Google Fonts.</p></div>${rod()}`);
+
+// 11 · elementos de apoio
+pg(topo('Elementos')+`<div class="corpo"><span class="eb"><i></i>O kit visual</span><h2>Elementos<br><span class="c">de apoio</span></h2>
+<div class="grid2" style="margin-top:44px">
+<div class="card q" style="height:300px;position:relative"><div class="cantos" style="position:absolute;inset:40px 60px 90px"></div><div class="k" style="position:absolute;bottom:26px">Visor</div><p class="tx" style="position:absolute;bottom:26px;right:26px">enquadra título ou foto</p></div>
+<div class="card" style="height:300px;display:grid;place-items:center"><span class="pil" style="font-size:30px;color:var(--b)"><span class="dot" style="width:16px;height:16px"></span>REC 00:00:12:08</span><div class="k" style="position:absolute"></div></div>
+<div class="card" style="height:300px;position:relative;overflow:hidden"><canvas class="halo" data-mini="1" width="420" height="300" style="left:0;top:0;width:100%;height:100%"></canvas><div class="k" style="position:absolute;bottom:26px;left:30px">Halo de luz</div></div>
+<div class="card" style="height:300px;display:flex;flex-direction:column;justify-content:center;gap:20px"><span style="background:linear-gradient(90deg,${C.in},#1f6bff);clip-path:polygon(0 0,94% 0,100% 50%,94% 100%,0 100%);padding:14px 60px 14px 22px;font:600 24px Manrope;width:max-content">Nitidez de cinema? Temos.</span><div class="k">Faixa take</div></div></div>
+<p class="lead">O visor e o REC vêm da câmera. O halo é a luz do set. A faixa índigo é herança dos posts atuais, agora reta e limpa.</p></div>${rod()}`);
+
+// 12 · ícones
+pg(topo('Ícones')+`<div class="corpo"><span class="eb"><i></i>Traço 6 · cantos redondos · acento REC</span><h2>Ícones<br><span class="c">das frentes</span></h2>
+<div class="grid3" style="margin-top:46px">${[['cinema','Kit Cinema'],['luz','Kit Luz'],['optica','Ópticas'],['estudio','Estúdio'],['conteudo','Realtime Conteúdo'],['producao','Realtime Produções']].map(c=>`<div class="card q" style="text-align:center;padding:40px 20px">${icone(c[0],120)}<div class="t3" style="font-size:28px;margin-top:20px">${c[1]}</div></div>`).join('')}</div>
+<div style="display:flex;gap:22px;margin-top:40px;align-items:center">${['cinema','luz','optica','estudio','conteudo','producao'].map(k=>`<div style="width:110px;height:110px;border-radius:50%;background:var(--g);border:2px solid var(--az);display:grid;place-items:center">${icone(k,62)}</div>`).join('')}</div>
+<p class="tx" style="margin-top:20px">Em círculo, viram as capas dos destaques do Instagram.</p></div>${rod()}`);
+
+// 13 · estilo de foto
+pg(topo('Fotos')+`<div class="corpo"><span class="eb"><i></i>Foto real, sempre</span><h2>Estilo<br><span class="c">de foto</span></h2>
+<div class="grid3" style="margin-top:44px">${[['kit','Equipamento em uso','Luz recortada, fundo escuro, um ponto de cor.'],['set','Bastidor real','Equipe trabalhando, sem pose de banco de imagem.'],['filme','Imagem de cinema','Cor fria com um quente, contraste de set.']].map(f=>`<div><div class="foto" style="height:520px;background-image:url(${F}${f[0]}.jpg)"></div><div class="t3" style="font-size:28px;margin-top:18px">${f[1]}</div><p class="tx">${f[2]}</p></div>`).join('')}</div>
+<div class="voo" style="margin-top:36px">${barras()}<span><b>Nunca ilustração no lugar de foto</b><small>O equipamento e o estúdio são reais. Mostre o real.</small></span></div></div>${rod()}`);
+
+// 14 · grids
+pg(topo('Grids')+`<div class="corpo"><span class="eb"><i></i>Áreas seguras</span><h2>Grids</h2>
+<div style="display:flex;gap:36px;align-items:flex-end;margin-top:50px">${[['Post 4:5','1080 × 1350',300,375],['Story','1080 × 1920',260,462],['Capa YouTube','1280 × 720',380,214]].map(g=>`<div><div class="card" style="width:${g[2]}px;height:${g[3]}px;padding:0;position:relative;background:var(--g)"><div style="position:absolute;inset:8% 8% ${g[0]=='Story'?'18%':'8%'};border:2px dashed rgba(46,155,255,.6);border-radius:6px"></div><img src="${M}simbolo.svg" style="position:absolute;width:${g[2]*.16}px;right:10%;${g[0]=='Story'?'top:10%':'bottom:10%'}"><div style="position:absolute;left:10%;top:${g[0]=='Story'?'40%':'14%'};font:500 ${g[2]*.1}px/1 Geist;letter-spacing:-.04em">Título<br><span style="color:var(--fr)">em 2 tons</span></div></div><div class="k" style="margin-top:16px">${g[0]}</div><div class="mono" style="color:var(--fr);font-size:16px">${g[1]}</div></div>`).join('')}</div>
+<p class="lead">Margem de 8%. No story, 18% livres embaixo para a barra de resposta. O símbolo fica no canto, nunca no centro da arte.</p></div>${rod()}`);
+
+// 15 · aplicações · posts
+const post=(foto,t1,t2,tag)=>`<div style="width:290px;height:362px;border-radius:18px;overflow:hidden;position:relative;background:#000"><div class="foto" style="position:absolute;inset:0;border-radius:0;background-image:url(${F}${foto}.jpg)"></div><div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,7,11,.1),rgba(5,7,11,.92) 70%)"></div><span class="pil" style="position:absolute;top:16px;left:16px;font-size:12px;padding:5px 10px;color:var(--b)"><span class="dot" style="width:7px;height:7px"></span>${tag}</span><div style="position:absolute;left:18px;right:18px;bottom:44px;font:500 31px/1 Geist;letter-spacing:-.04em">${t1}<br><span style="color:var(--az)">${t2}</span></div><img src="${M}simbolo.svg" style="position:absolute;width:36px;right:14px;bottom:10px"></div>`;
+pg(topo('Aplicações')+`<div class="corpo"><span class="eb"><i></i>Instagram</span><h2>Nas redes</h2>
+<div style="display:flex;gap:20px;margin-top:44px">${post('opticas','Ópticas de','cinema. Temos.','KIT CINEMA')}${post('apresentadora','Seu vídeo','todo mês.','CONTEÚDO')}${post('set','Do roteiro','à entrega.','PRODUÇÕES')}</div>
+<div style="display:flex;gap:26px;margin-top:34px;align-items:flex-start"><div style="width:250px;height:444px;border-radius:22px;overflow:hidden;position:relative;background:#000;flex:none"><div class="foto" style="position:absolute;inset:0;border-radius:0;background-image:url(${F}estudio.jpg)"></div><div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,7,11,.5),rgba(5,7,11,.95) 60%)"></div><div style="position:absolute;left:18px;right:18px;top:150px;font:500 30px/1 Geist;letter-spacing:-.04em">Estúdio<br><span style="color:var(--fr)">livre esta semana.</span></div><span style="position:absolute;left:18px;bottom:70px;background:${C.az};color:${C.p};border-radius:999px;padding:9px 16px;font:700 15px Manrope">Reservar data</span></div>
+<div><div class="k">Regras dos posts</div><p class="tx" style="margin-top:10px">Foto real escurecida embaixo · selo REC com a frente no topo · título em 2 linhas, a segunda em azul · símbolo no canto. Nunca dois posts seguidos com a mesma composição nem a mesma cor de destaque.</p></div></div></div>${rod()}`);
+
+// 16 · aplicações · perfil
+pg(topo('Aplicações')+`<div class="corpo"><span class="eb"><i></i>@realtime_fulljobs</span><h2>Perfil</h2>
+<div class="console" style="margin-top:44px"><div class="bar"><span><span class="dot"></span>Instagram</span><span class="tres"><i></i><i></i><i></i></span></div>
+<div style="padding:34px;display:flex;gap:34px;align-items:center"><img src="${M}simbolo-app.svg" style="width:170px;border-radius:50%;border:3px solid var(--az)"><div><div style="font:600 34px Geist">realtime_fulljobs</div><div style="font-size:22px;margin-top:6px">Real Time · Full Jobs</div><p class="tx" style="margin-top:10px">🎬 Locação de kits de cinema e luz<br>🎙️ Estúdio com fundo verde · conteúdo mensal<br>🎞️ Produções do roteiro à entrega · Maranhão<br><b style="color:var(--az)">Reserve ou peça orçamento 👇</b></p></div></div>
+<div style="display:flex;gap:26px;padding:10px 34px 34px">${[['cinema','Kits'],['luz','Luz'],['optica','Ópticas'],['estudio','Estúdio'],['conteudo','Mensal'],['producao','Jobs']].map(c=>`<div style="text-align:center"><div style="width:110px;height:110px;border-radius:50%;background:var(--g);border:2px solid var(--l);display:grid;place-items:center">${icone(c[0],58)}</div><div style="font-size:18px;margin-top:8px">${c[1]}</div></div>`).join('')}</div></div>
+<p class="lead">Avatar com o símbolo no fundo preto (lê bem pequeno). Destaques com os ícones das frentes. Bio com uma linha por frente e a chamada no fim.</p></div>${rod()}`);
+
+// 17 · aplicações · set
+pg(topo('Aplicações')+`<div class="corpo"><span class="eb"><i></i>No set</span><h2>Set de<br><span class="c">filmagem</span></h2>
+<div style="display:flex;gap:26px;margin-top:44px;align-items:flex-start">
+<div style="width:300px;height:470px;border-radius:24px;background:linear-gradient(180deg,#0f1622,#05070B);border:1.5px solid var(--l);padding:30px;position:relative;flex:none"><div style="width:70px;height:12px;border-radius:6px;background:var(--l);margin:0 auto 30px"></div><img src="${M}simbolo.svg" style="width:120px"><div style="font:600 64px/1 Geist;letter-spacing:-.04em;margin-top:30px">STAFF</div><div class="mono" style="color:var(--ap);font-size:17px;margin-top:10px">EQUIPE TÉCNICA</div><span class="pil" style="position:absolute;left:30px;bottom:30px;font-size:16px;color:var(--b)"><span class="dot"></span>REC · ACESSO AO SET</span></div>
+<div style="flex:1;display:flex;flex-direction:column;gap:26px">
+<div style="height:220px;border-radius:14px;background:#0a0d12;border:1.5px solid var(--l);position:relative;overflow:hidden"><div style="height:54px;background:repeating-linear-gradient(-45deg,${C.b} 0 26px,${C.p} 26px 52px)"></div><div style="padding:20px 26px;display:flex;justify-content:space-between;align-items:center"><img src="${M}wordmark.svg" style="width:260px"><div class="mono" style="text-align:right;font-size:18px;color:var(--ap);line-height:1.6">CENA 04 · TAKE 2<br>ROLO A012</div></div><div class="k" style="position:absolute;left:26px;bottom:14px">Claquete</div></div>
+<div style="height:224px;border-radius:14px;background:#14181f;border:1.5px solid var(--l);display:flex;align-items:center;gap:26px;padding:26px;position:relative"><div style="width:170px;height:170px;border-radius:12px;background:var(--p);display:grid;place-items:center;border:2px solid var(--l)"><img src="${M}simbolo.svg" style="width:120px"></div><div><div class="mono" style="font-size:20px;color:var(--b)">KIT CINEMA · 01</div><div class="mono" style="font-size:16px;color:var(--ap);margin-top:8px;line-height:1.7">FX3 · TILTA · HOLLYLAND<br>CONFERIR AO DEVOLVER</div></div><div class="k" style="position:absolute;right:22px;bottom:14px">Etiqueta de case</div></div></div></div></div>${rod()}`);
+
+// 18 · aplicações · papelaria
+pg(topo('Aplicações')+`<div class="corpo"><span class="eb"><i></i>Comercial</span><h2>Papelaria</h2>
+<div style="display:flex;gap:26px;margin-top:44px">
+<div style="width:440px;height:252px;border-radius:14px;background:var(--p);border:1.5px solid var(--l);display:grid;place-items:center;position:relative"><div class="cantos" style="position:absolute;inset:26px"></div><img src="${M}assinatura-horizontal.svg" style="width:300px"></div>
+<div style="width:440px;height:252px;border-radius:14px;background:#F4F7FB;color:${C.p};padding:30px;position:relative"><div style="font:600 28px Geist">Nome do responsável</div><div class="mono" style="font-size:15px;color:#5E6B7E;margin-top:6px">PRODUÇÃO · REAL TIME</div><div style="font-size:18px;margin-top:40px;line-height:1.6">(98) 99133-1727<br>@realtime_fulljobs</div><img src="${M}simbolo-mono-preto.svg" style="position:absolute;right:26px;bottom:26px;width:70px"></div></div>
+<div class="console" style="margin-top:26px"><div class="bar"><span><span class="dot"></span>Proposta · capa</span><span class="tres"><i></i><i></i><i></i></span></div><div style="padding:40px;display:flex;justify-content:space-between;align-items:center"><div><div class="k">Proposta comercial</div><div style="font:500 60px/1 Geist;letter-spacing:-.04em;margin-top:14px">Campanha de<br><span style="color:var(--fr)">fim de ano.</span></div></div><img src="${M}simbolo.svg" style="width:150px"></div></div>
+<div class="console" style="margin-top:22px"><div class="bar"><span><span class="dot"></span>Assinatura de e-mail</span></div><div style="padding:24px 30px;display:flex;gap:24px;align-items:center"><img src="${M}simbolo-app.svg" style="width:80px;border-radius:18px"><div><div style="font:600 24px Geist">Nome · Real Time</div><div class="tx" style="font-size:18px">(98) 99133-1727 · @realtime_fulljobs</div></div></div></div></div>${rod()}`);
+
+// 19 · tom de voz
+pg(topo('Tom de voz')+`<div class="corpo"><span class="eb"><i></i>Como a Real Time fala</span><h2>Tom<br><span class="c">de voz</span></h2>
+<div style="display:flex;flex-direction:column;gap:22px;margin-top:44px">${[
+ ['Técnico, mas simples','"Essa lente deixa o fundo desfocado e a pessoa nítida."','"Bokeh cremoso com abertura T1.5 e rendering orgânico."'],
+ ['Pronto para agora','"Tem data esta semana. Reserve no WhatsApp."','"Entre em contato para mais informações."'],
+ ['O cliente é o herói','"Sua campanha com cara de cinema."','"Somos a melhor produtora do Maranhão."']].map(v=>`<div class="card"><div class="t3" style="margin:0 0 16px">${v[0]}</div><div class="grid2"><div><div class="k" style="color:#5CC98A">Assim sim</div><p style="font-size:24px;margin-top:8px">${v[1]}</p></div><div><div class="k" style="color:var(--rec)">Assim não</div><p style="font-size:24px;margin-top:8px;color:var(--ap)">${v[2]}</p></div></div></div>`).join('')}</div>
+<div class="voo" style="margin-top:30px">${barras()}<span><b>Fechamento padrão</b><small>"Seu job é na Real Time."</small></span></div></div>${rod()}`);
+
+// 20 · contracapa
+pg(`<div style="position:absolute;left:0;right:0;top:380px;text-align:center;z-index:3"><img src="${M}simbolo.svg" style="width:300px"><h2 style="font-size:80px;margin-top:60px">Seu job<br><span class="c">é na Real Time.</span></h2><div style="margin-top:50px"><span class="pil" style="color:var(--b)"><span class="dot"></span>@realtime_fulljobs · (98) 99133-1727</span></div></div>`,{halo:{y:.36,r0:200,L:300}});
+
+document.getElementById('paginas').innerHTML=P.map(p=>p.html).join('');
+// halo de raios (o mesmo do Dublê), em azul
+function halo(cv,{y=.4,r0=250,L=320,x=.5}){const ctx=cv.getContext('2d');const W=cv.width,H=cv.height,x0=W*x,y0=H*y;let s=7;const rnd=()=>(s=(s*16807)%2147483647)/2147483647;
+ const g=ctx.createRadialGradient(x0,y0,0,x0,y0,r0*2.6);g.addColorStop(0,'rgba(46,155,255,.12)');g.addColorStop(1,'rgba(46,155,255,0)');ctx.fillStyle=g;ctx.fillRect(0,0,W,H);
+ for(let i=0;i<280;i++){const a=i/280*Math.PI*2,len=L*(.25+rnd()**1.6*.75)*(.75+.25*rnd()),b=rnd()<.2;const ca=Math.cos(a),sa=Math.sin(a);
+  for(let d=0;d<len;d+=10){const q=d/len,al=(1-q)**1.2*(b?.95:.6);ctx.strokeStyle=b&&q<.5?`rgba(170,210,255,${al})`:`rgba(46,155,255,${al})`;ctx.lineWidth=b?2.8:2;ctx.beginPath();ctx.moveTo(x0+ca*(r0+d),y0+sa*(r0+d));ctx.lineTo(x0+ca*(r0+d+4.5),y0+sa*(r0+d+4.5));ctx.stroke()}}}
+document.querySelectorAll('.pg').forEach(sec=>{const h=sec.dataset.halo;if(!h)return;const c=document.createElement('canvas');c.className='halo';c.width=1080;c.height=1350;c.style.cssText='left:0;top:0;width:1080px;height:1350px';sec.prepend(c);halo(c,JSON.parse(h))});
+document.querySelectorAll('canvas[data-mini]').forEach(c=>halo(c,{y:.5,r0:60,L:110}));
+window.pronto=true;
+</script></body></html>
