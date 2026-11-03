@@ -1,6 +1,6 @@
 # Maquiavel — ensinamentos complementares (249 em diante)
 
-**Situação:** parcial — feito até a seção 3 (*História de Florença* 249–411; *Arte da Guerra* 412–468; legações e escritos 469–517). Continuar pela seção 4 (cartas). (conta Zuleide, ciclo 2 da revisão, 03/11/2026)
+**Situação:** parcial — feito até a seção 4 (*História de Florença* 249–411; *Arte da Guerra* 412–468; legações e escritos 469–517; cartas 518–552). Continuar pela seção 5 (literatura). (conta Zuleide, ciclo 2 da revisão, 03/11/2026)
 
 Continua `../maquiavel-todos-ensinamentos.md` (1–248: *Príncipe*, *Discursos*, regras gerais da *Arte da Guerra*). Aqui entram os ensinamentos que faltavam: *História de Florença* (8 livros), *Arte da Guerra* além das regras gerais, legações e escritos políticos, cartas, literatura e a vida.
 
@@ -1137,3 +1137,149 @@ Negócio [Interpretação nossa]: o relatório mensal é a vitrine da agência; 
 **517. Ingratidão com Deus e com o próximo andam juntas.**
 Ref.: *Esortazione alla penitenza* (sermão, data incerta). Texto: «Questi che sono ingrati a Dio è impossibile che non siano inimici al prossimo».
 Negócio [Interpretação nossa]: quem não reconhece o que recebeu (do mentor, do primeiro cliente) também trata mal a equipe; observe a gratidão na contratação.
+
+---
+
+## 4. Cartas (1498–1527)
+
+> Datas modernas (ver `vida-e-cartas.md` 7.1 sobre o ano florentino). Trechos conferidos no Wikisource (*Lettere*). Cartas são privadas, com humor e ironia: o agente cita a lição sem transformar piada em doutrina.
+
+**518. Quem fala ao público vai se adaptando aos tempos e colorindo o discurso: observe o método, não só a mensagem.**
+Ref.: carta a Ricciardo Becchi, 9/3/1498 (sobre Savonarola). Texto: «viene secondando e tempi, e le sua bugie colorendo».
+Negócio [Interpretação nossa]: estude como os "gurus" do mercado mudam o discurso conforme a moda; e não seja um deles — conteúdo da Alkantara se baseia em fato.
+
+**519. Cada um nasce com um engenho e uma fantasia; quem não muda com os tempos tem sorte só enquanto os tempos lhe servem.**
+Ref.: carta a Giovan Battista Soderini ("Ghiribizzi"), set. 1506. Texto: «così li abbi fatto diverso ingegno et diversa fantasia».
+Negócio [Interpretação nossa]: o método que deu certo para você pode falhar no próximo ciclo; tenha na equipe temperamentos diferentes e use o que o momento pede.
+
+**520. Aguentar a adversidade com firmeza dá respeito a si mesmo.**
+Ref.: carta a Francesco Vettori, 18/3/1513 (depois da prisão e da tortura). Texto: «gli ho portati tanto francamente, che io stesso me ne voglio bene, e parmi essere da più che non credetti».
+Negócio [Interpretação nossa]: atravessar o mês ruim sem perder a postura constrói a confiança que nenhum curso dá.
+
+**521. Quem nasceu pobre e aprendeu a passar privação não teme recomeçar.**
+Ref.: Vettori, 18/3/1513. Texto: «io mi viverò come io ci venni, che nacqui povero, ed imparai prima a stentare che a godere».
+Negócio [Interpretação nossa]: custo de vida baixo e humildade dão liberdade para recusar cliente ruim.
+
+**522. Ofereça-se para servir, mesmo começando de baixo; o trabalho mostrará o valor.**
+Ref.: Vettori, 13/3/1513 e 10/12/1513. Texto: «Appresso al desiderio harei che questi signori Medici mi cominciassino adoperare, se dovessino cominciare a farmi voltolare un sasso».
+Negócio [Interpretação nossa]: para entrar num cliente grande, aceite um projeto pequeno e entregue de modo que peçam o próximo.
+
+**523. Vale contratar quem aprendeu à custa dos outros.**
+Ref.: Vettori, 10/12/1513. Texto: «doverrebbe ciascheduno haver caro servirsi di uno che alle spese di altri fussi pieno di esperienza».
+Negócio [Interpretação nossa]: profissional que já errou em outras empresas traz experiência barata; e no pitch da agência, mostre os casos que você já resolveu.
+
+**524. Cada um fala do que sabe: o especialista deve ficar no seu assunto.**
+Ref.: Vettori, 9/4/1513. Texto: «non sapendo ragionare né dell'arte della seta, né dell'arte della lana, né dei guadagni né delle perdite, e' mi conviene ragionare dello stato».
+Negócio [Interpretação nossa]: posicione-se no que domina (redes sociais, estratégia); não opine sobre tudo do cliente.
+
+**525. Quando a sorte quer fazer tudo sozinha, deixe-a fazer, fique quieto e espere a hora de agir.**
+Ref.: Vettori, 9/4/1513. Texto: «poiché la fortuna vuol fare ogni cosa, ella si vuole lasciarla fare, stare quieto e non le dare briga, e aspettar tempo che la lasci fare qualche cosa agl'huomini».
+Negócio [Interpretação nossa]: em fase sem oportunidade (mercado parado), prepare-se (portfólio, processos, estudo) para agir quando abrir.
+
+**526. Saber sem anotar o que se aprendeu não é ciência.**
+Ref.: Vettori, 10/12/1513. Texto: «perché Dante dice che non fa scienza sanza lo ritenere lo havere inteso - io ho notato quello di che per la loro conversazione ho fatto capitale».
+Negócio [Interpretação nossa]: registre o que funcionou em cada cliente (base de conhecimento); é assim que o acervo vira método.
+
+**527. Separe o tempo do trabalho bruto do tempo de pensar, e entre nele preparado.**
+Ref.: Vettori, 10/12/1513. Texto: «Venuta la sera, mi ritorno a casa ed entro nel mio scrittoio; e in sull'uscio mi spoglio quella veste cotidiana, piena di fango e di loto, e mi metto panni reali e curiali».
+Negócio [Interpretação nossa]: reserve um bloco fixo, sem WhatsApp, para estratégia e estudo; é aí que nasce o diferencial.
+
+**528. A fidelidade de uma vida inteira é provada pela pobreza de quem não roubou.**
+Ref.: Vettori, 10/12/1513. Texto: «havendo sempre observato la fede, io non debbo imparare hora a romperla; e chi è stato fedele e buono quarantatré anni, che io ho, non debbe poter mutare natura; e della fede e bontà mia ne è testimonio la povertà mia».
+Negócio [Interpretação nossa]: histórico limpo é a melhor credencial; preserve-o mesmo quando custa.
+
+**529. Quem é esquecido pelos poderosos corre o risco da miséria: não fique parado esperando ser lembrado.**
+Ref.: Vettori, 10/6/1514. Texto: «Starommi dunque così tra' miei pidocchi, senza trovare huomo che della servitù mia si ricordi, o che creda che io possa essere buono a nulla».
+Negócio [Interpretação nossa]: não dependa de um padrinho para ter trabalho; prospecção própria e conteúdo constante.
+
+**530. Ficar neutro faz você odiado por quem perde e desprezado por quem vence.**
+Ref.: Vettori, 20/12/1514. Texto: «chi sta neutrale conviene che sia odiato da chi perde, et disprezzato da chi vince».
+Negócio [Interpretação nossa]: em disputa entre dois sócios do cliente, não fique "em cima do muro" eternamente; mas a escolha certa costuma ser a do contrato (quem assina responde), não a do lado mais simpático.
+
+**531. A neutralidade nunca serve ao mais fraco que está misturado aos que brigam.**
+Ref.: Vettori, 20/12/1514. Texto: «Lo stare neutrale non credo che fosse mai ad alcuno utile, quando egli habbia queste conditioni: che sia meno potente di qualunque di quelli che conbattono, et che egli habbia gli stati mescolati con gli stati di chi conbatte».
+Negócio [Interpretação nossa]: se a briga entre dois grandes parceiros atinge seus clientes, você já está nela; posicione-se cedo e com critério.
+
+**532. Pode-se aceitar o ódio, nunca o desprezo.**
+Ref.: Vettori, 20/12/1514. Texto: o príncipe não deve se tornar «o odioso, o contennendo, et se pure egli ha a lasciare uno di questi duoi, non stimi l'odio, ma guardisi dal disprezzo».
+Negócio [Interpretação nossa]: melhor um cliente bravo com uma regra firme que um cliente que acha a agência fraca; mas não provoque ódio sem necessidade.
+
+**533. Acordo entre gigantes sem você na mesa é contra você.**
+Ref.: Vettori, 20/6/1513. Texto: a paz França–Espanha «sarebbe pericolosissima, facendola senza partecipazione di altri».
+Negócio [Interpretação nossa]: quando duas plataformas ou dois grandes do mercado fecham parceria, avalie logo o efeito sobre o seu serviço.
+
+**534. Os melhores exércitos são os de povos armados.**
+Ref.: Vettori, 26/8/1513. Texto: «Io non credo già che faccino uno imperio come e Romani, ma io credo bene che possino diventare arbitri di Italia»; base: «li migliori exerciti che sieno, sono quelli delle populationi armate».
+Negócio [Interpretação nossa]: equipe própria, formada e comprometida decide mercados.
+
+**535. O bom faz como o mosto que ferve: dá seu sabor ao barril e não pega o mofo dele.**
+Ref.: Vettori, 5/1/1514. Texto: o homem bom «fa come il mosto mentre bolle, che dà del sapore suo a' vasi che sanno di muffa, et non piglia della muffa de' vasi»; «seguite gli instituti vostri».
+Negócio [Interpretação nossa]: num mercado com práticas ruins, mantenha o seu padrão e deixe falarem.
+
+**536. Melhor agir e se arrepender do que não agir e se arrepender.**
+Ref.: Vettori, 25/2/1514 (ele atribui a Boccaccio). Texto: «io credo, credetti, et crederrò sempre che sia vero quello che dice il Boccaccio: che gli è meglio fare et pentirsi, che non fare et pentirsi».
+Negócio [Interpretação nossa]: entre testar uma oferta e ficar na dúvida, teste pequeno; mas o conselho original era amoroso — use para decisões de risco calculado.
+
+**537. Imitar a natureza, que é variada, não é defeito.**
+Ref.: Vettori, 31/1/1515. Texto: «noi imitiamo la natura, che è varia; et chi imita quella non può essere ripreso».
+Negócio [Interpretação nossa]: alternar conteúdos sérios e leves na marca pessoal é humano; incoerência é outra coisa (mudar de valores).
+
+**538. Florença é ímã de charlatães: desconfie dos profetas.**
+Ref.: Vettori, 19/12/1513. Texto: «questa nostra città, calamita di tutti i ciurmatori del mondo».
+Negócio [Interpretação nossa]: o mercado digital também atrai vendedores de milagre; a agência ganha confiança fazendo o contrário (promessa realista, resultado medido).
+
+**539. Elogio de quem decide não é contratação; quem indica precisa querer ajudar.**
+Ref.: carta recebida de Vettori, 30/12/1514 (via Marchand, *Enc. mach.*; não conferida no manuscrito). Texto: «io non sono uomo che sappi aiutare gl'amici».
+Negócio [Interpretação nossa]: depois de elogio de um cliente importante, peça a indicação concreta; elogio sozinho não paga contas.
+
+**540. A ironia como máscara: quem diz sempre o que pensa fica exposto.**
+Ref.: carta a Francesco Guicciardini, 17/5/1521 (piada entre amigos, não doutrina). Texto: «da un tempo in qua, io non dico mai quello che io credo, né credo mai quel che io dico, et se pure e' mi vien detto qualche volta il vero, io lo nascondo fra tante bugie, che è difficile a ritrovarlo».
+Negócio [Interpretação nossa]: discrição em ambiente político é prudência; com cliente, a regra é a verdade dita com tato — mentir em contrato ou relatório é fraude.
+
+**541. Para ir ao Paraíso, aprenda o caminho do Inferno para fugir dele.**
+Ref.: Guicciardini, 17/5/1521. Texto: «il vero modo ad andare in Paradiso: inparare la via dello Inferno per fuggirla».
+Negócio [Interpretação nossa]: estude os erros comuns (golpes, contas bloqueadas, clientes que quebram) para evitá-los; é o método deste acervo.
+
+**542. Aparência de prestígio abre portas: o "fumo" das cartas do governador.**
+Ref.: Guicciardini, 18/5/1521. Texto: «il fumo ne è ito sino al cielo».
+Negócio [Interpretação nossa]: sinais de reputação (depoimentos, parceiros conhecidos) aumentam a força numa negociação; só use sinais verdadeiros.
+
+**543. Quem escreve a história de poderosos deve dizer a verdade sem dar motivo de queixa.**
+Ref.: Guicciardini, 30/8/1524. Texto: «harei bisogno di intendere da voi se offendo troppo o con lo esaltare o con lo abbassare le cose... ingegnerommi di fare in modo che, dicendo il vero, nessuno si possa dolere».
+Negócio [Interpretação nossa]: antes de entregar relatório crítico a um cliente sensível, peça a um colega para ler o tom; verdade com forma cuidadosa.
+
+**544. Os tempos voltam e nós somos sempre os mesmos.**
+Ref.: carta a Guicciardini, out. 1525 (citada pela *Enc. mach.*; data não conferida). Texto: «mi pare che tutti i tempi tornino e che noi siamo sempre quelli medesimi».
+Negócio [Interpretação nossa]: crises de mercado se repetem; guarde o que fez na última.
+
+**545. Conselheiro que só repete o passado não muda nada.**
+Ref.: Guicciardini, 19/12/1525. Texto: «chi ha a fare consigliandosi con loro, non farà altro che quello si è fatto sino a qui».
+Negócio [Interpretação nossa]: se o mercado mudou, procure conselho de quem conhece o novo, não só de quem venceu no antigo.
+
+**546. Escreva pensando em quem vai ler depois.**
+Ref.: Guicciardini, 2/6/1526 (três cartas "à parte" para uso junto ao papa). Texto: «Vi ho scritto queste 3 lettere appartate, perchè le possiate usare tutte come vi vien bene».
+Negócio [Interpretação nossa]: e-mail ao cliente pode ser repassado ao chefe dele; escreva de modo que funcione para os dois.
+
+**547. Desconfie de quem promete vitória certa.**
+Ref.: Guicciardini, 5/11/1526. Texto: «dove io detto ho che questo non è possibile».
+Negócio [Interpretação nossa]: nunca garanta resultado de anúncio ou de seguidores; prometa processo e meta, não certeza.
+
+**548. Negociar sem fechar é a certeza da ruína; e não peça conselho de paz a quem lucra com a guerra.**
+Ref.: cartas a Vettori, abril de 1527 (Forlì e Brisighella). Texto: «come l'accordo, quando fosse observato, sarebbe al tutto la certezza della salute nostra, così, trattarlo senza farlo, sarebbe la certezza della rovina»; «chi gode della guerra, come fanno questi soldati, sarebbono pazzi se lodassino la pace».
+Negócio [Interpretação nossa]: renegociação que se arrasta sem acordo esgota os dois lados; e não pergunte ao advogado que cobra por hora se vale fazer acordo — pergunte também a quem não ganha com o litígio.
+
+**549. Amar a pátria mais que a alma: o ponto firme em meio ao conflito.**
+Ref.: Vettori, 16/4/1527. Texto: «Io amo messer Francesco Guicciardini, amo la patria mia più dell'anima; e vi dico questo per quella esperienzia che mi hanno dato sessanta anni».
+Negócio [Interpretação nossa]: tenha claro o que vem primeiro (a empresa, a palavra dada, a família) antes da crise; decide-se melhor.
+
+**550. Educar o filho: se você fizer a sua parte, eu faço a minha.**
+Ref.: carta ao filho Guido, 2/4/1527. Texto: paráfrase em `vida-e-cartas.md` 3.5 ("Se Deus der vida a ti e a mim, creio que farei de ti um homem de bem, se fizeres a tua parte"), não conferida palavra por palavra.
+Negócio [Interpretação nossa]: formar um júnior é um acordo de duas partes: a agência ensina, ele se esforça; deixe isso dito.
+
+**551. Use a rede também para os amigos, não só para si.**
+Ref.: cartas a Vettori, 25/8/1513 e 26/12/1521 (recomendações de Donato del Corno e do "Parigino"). Texto: «con il quale io ho tanti oblighi che Dio il voglia che io possa un dì pagarli» (26/12/1521).
+Negócio [Interpretação nossa]: indique parceiros e ex-alunos; a rede que você alimenta volta em indicação.
+
+**552. Gratidão explícita a quem ajudou na hora ruim.**
+Ref.: Vettori, 16/4/1513. Texto: «tutto il bene mio ha ad essere sempre vostro et della casa vostra, dalla quale io riconosco tutto quello che mi è restato».
+Negócio [Interpretação nossa]: agradeça publicamente (com permissão) o cliente que apostou na agência no começo.
