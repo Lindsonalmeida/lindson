@@ -104,6 +104,8 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 
 - **Artes v2 da marca pessoal do Lindson APROVADAS** (03/11 · Pedro): capa de Reels "Post de bom dia não vende nada" (foto colorida inteira com a luz do estúdio, degradê preto, manchete Manrope com a palavra-chave em caixa amarela, rótulo mono amarelo) e post "Papo reto" (foto à direita, texto à esquerda, aspas amarelas gigantes). São os 2 modelos de todas as artes dele (`agencia/marca-lindson/artes-v2/`).
 
+- **16 artes v2 da marca pessoal APROVADAS** (03/11 · Pedro): "aprovado" (`agencia/marca-lindson/artes-v2/`). Pedido junto: "não se esqueça de que quero um perfil harmônico, então use o amarelo de fundo também, encontre um jeito, busque referências" → o feed precisa alternar fundo preto e amarelo (a capa amarela "BIO" vazada continua reprovada).
+
 ## 4. REPROVADO: nunca repetir
 
 0b. **Capa de carrossel amarela com "BIO" vazado e foto em cartão** (v2, 03/11 · Pedro): "reprovado". Não usar fundo amarelo chapado com letra de contorno nem foto dentro de cartão. Aprovados: fundo escuro com a foto colorida, amarelo só no acento. Apresentação "LINDSON" atrás dele: "gostei dessa", mas o recorte do corpo (terno escuro no fundo escuro) saiu com degrau: agora o corpo vem da própria foto e o recorte só aparece na cabeça e nos ombros, onde o nome passa por trás.

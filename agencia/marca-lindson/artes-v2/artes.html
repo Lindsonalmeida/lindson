@@ -15,7 +15,7 @@
 *{box-sizing:border-box;margin:0;padding:0}
 html,body{background:#000;overflow:hidden;font-family:Manrope,sans-serif;-webkit-font-smoothing:antialiased}
 .a{position:relative;width:1080px;height:1350px;overflow:hidden;background:var(--p);color:var(--t)}
-.a.r{height:1920px}.a.am{background:var(--am);color:var(--p)}
+.a.r{height:1920px}.a.ya{color:var(--p)}.ya .marca i{background:var(--p)}.cxp{background:var(--p);color:var(--am);padding:0 .14em;margin:0 -.04em;display:inline-block;line-height:1.02}.a.am{background:var(--am);color:var(--p)}
 .abs{position:absolute}
 .marca{font:800 30px Manrope;letter-spacing:-.02em}.marca i{display:inline-block;width:12px;height:12px;border-radius:50%;background:var(--am);margin-left:4px}.a.am .marca i{background:var(--p)}
 .mono{font-family:'JetBrains Mono';font-weight:500;letter-spacing:.08em}
@@ -37,6 +37,12 @@ const inteira=f=>`<div class="foto" style="left:0;right:0;top:260px;height:2130p
 const lado=(f,l,pos,tam)=>{const t=R?260:0,d=l==='d';return `<div class="foto" style="${d?'left:380px;right:0':'left:0;right:380px'};top:${t}px;bottom:0;background-image:url(${F}${f});background-size:${tam};background-position:${pos}"></div>
  <div class="abs" style="inset:0;background:linear-gradient(${d?90:270}deg,var(--p) 34%,rgba(10,10,10,.55) 58%,rgba(10,10,10,0) 80%)"></div>
  <div class="abs" style="inset:0;background:linear-gradient(0deg,rgba(10,10,10,.9),transparent 40%)"></div>${R?`<div class="abs" style="left:0;right:0;top:0;height:560px;background:linear-gradient(180deg,#0A0A0A 0,#0A0A0A 290px,rgba(10,10,10,0))"></div>`:''}`};
+// AMARELO com textura (Surpluz): brilho no centro, borda mais quente, grão; nunca chapado
+const amarelo=()=>`<div class="abs" style="inset:0;background:radial-gradient(75% 55% at 50% 30%,#FFDB4D 0,#F5C518 55%,#DFA90B 100%)"></div><div class="abs" style="inset:0;background:repeating-linear-gradient(115deg,rgba(255,255,255,.05) 0 2px,transparent 2px 9px);mix-blend-mode:soft-light"></div>`;
+// foto escura colorida NASCENDO do amarelo (Surpluz): começa em y=topo e some em degradê para cima
+const nasce=(f,pos,y,esq=0)=>`<div class="foto" style="left:${esq}px;right:0;top:${y}px;bottom:0;background-image:url(${F}${f});background-position:${pos};-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 220px);mask-image:linear-gradient(180deg,transparent 0,#000 220px)"></div>`;
+// pessoa recortada (BiRefNet) em pé no amarelo, com sombra; o quadro é a foto inteira (largura w), encostada embaixo (b negativo corta na borda da arte)
+const pessoa=(f,x,b,w)=>`<div class="abs" style="left:${x+w*.18}px;width:${w*.64}px;bottom:${Math.max(b,0)+10}px;height:60px;border-radius:50%;background:radial-gradient(closest-side,rgba(0,0,0,.35),transparent)"></div><img class="abs" src="${F}${f}" style="left:${x}px;bottom:${b}px;width:${w}px;filter:drop-shadow(0 30px 40px rgba(60,40,0,.35))">`;
 const S={
 // a1 · Apresentação · INF: nome gigante condensado atravessando a foto colorida (recorte por cima da 2ª linha)
 a1:`<div class="a"><img class="abs" src="${F}c05.jpg" style="left:0;top:-60px;width:1080px">
@@ -111,6 +117,29 @@ c2_4:`<div class="a">${lado('c15.jpg','d','45% 10%','118%')}${topo('REC 00:00:14
  <div class="abs" style="left:70px;top:470px;width:600px"><div style="font:800 64px/1.06 Manrope;letter-spacing:-.035em">E o seu perfil, <span class="cx">passa confiança</span>?</div><p style="font:500 30px/1.4 Manrope;color:var(--ap);margin-top:28px;width:520px">Eu olho e te digo o que mudar. Sem custo.</p></div>
  <div class="abs" style="left:70px;bottom:120px"><span class="cx" style="font:800 40px Manrope;padding:14px 24px">Comenta PERFIL</span></div>
  <div class="abs mono" style="right:70px;bottom:56px;font-size:21px">04 / 04</div><div class="grao"></div></div>`,
+// ===== AMARELO (pedido 03/11: "use o amarelo de fundo também, encontre um jeito, busque referências") =====
+// Referência: Surpluz – Trader Community Social Media Campaign (Leonard Figo, dribbble.com/shots/27659627): amarelo COM textura e brilho
+// (nunca chapado), foto escura colorida nascendo do amarelo em degradê, letras pretas fortes, ícones em círculo preto.
+// Recortes BiRefNet (ferramentas/recorte.py). Nada de letra vazada nem foto em cartão (reprovados).
+a2y:`<div class="a ya">${amarelo()}${topo('O QUE EU FAÇO')}
+ <div class="abs" style="left:70px;top:200px;width:560px"><div class="h" style="font-size:84px">Do perfil ao <span class="cxp">WhatsApp</span>.</div></div>
+ <div class="abs" style="left:70px;top:520px;width:480px;display:grid;gap:26px">${[['01','Arrumo a sua vitrine'],['02','Gravo o seu mês em 1 dia'],['03','Levo o cliente pro WhatsApp']].map(x=>`<div style="display:flex;gap:20px;align-items:center"><span style="flex:none;width:74px;height:74px;border-radius:50%;background:var(--p);color:var(--am);display:grid;place-items:center;font:700 24px 'JetBrains Mono'">${x[0]}</span><b style="font:800 38px/1.1 Manrope;letter-spacing:-.025em">${x[1]}</b></div>`).join('')}</div>
+ ${pessoa('c01-full.png',470,-230,780)}
+ <div class="abs" style="left:70px;bottom:120px;display:flex;align-items:center;gap:18px"><div style="width:64px;height:4px;background:var(--p)"></div><span class="mono" style="font-size:22px">LINDSON ALMEIDA</span></div>
+ <div class="abs arr" style="left:70px;bottom:60px">DIRECT ABERTO →</div><div class="grao" style="opacity:.16"></div></div>`,
+c1y:`<div class="a ya">${amarelo()}${nasce('c12.jpg','50% 8%',470)}${topo('PASSO A PASSO')}
+ <div class="abs" style="left:70px;right:70px;top:170px;text-align:center"><div class="mono" style="font-size:24px">PERFIL QUE VENDE</div><div class="h" style="font-size:96px;margin-top:20px">Arrume a sua bio em <span class="cxp">3 passos</span>.</div></div>
+ <div class="abs arr" style="left:70px;bottom:60px;color:var(--am)">ARRASTE PARA O LADO →</div><div class="abs mono" style="right:70px;bottom:60px;font-size:21px;color:var(--t)">01 / 05</div><div class="grao" style="opacity:.16"></div></div>`,
+r3y:`<div class="a r ya">${amarelo()}${nasce('c09.jpg','50% 6%',880,-330)}${topo('CLIENTE')}
+ <div class="abs" style="left:70px;right:70px;top:400px"><div class="mono" style="font-size:24px">RAFAEL IMPORTS</div><div class="h" style="font-size:112px;margin-top:20px">Do zero ao<br><span class="cxp">link no ar</span>.</div></div>
+ <div class="abs" style="left:660px;top:1000px;width:340px;height:700px;border-radius:52px;background:#0A0A0A;padding:14px;transform:rotate(6deg);box-shadow:0 60px 120px rgba(0,0,0,.55)"><div style="width:100%;height:100%;border-radius:42px;background:url(${F}site-rafael.png) top/cover"></div></div>
+ <div class="abs mono" style="left:70px;top:800px;font-size:21px">RAFAELIMPORTS.PAGES.DEV · COMENTA "SITE"</div><div class="grao" style="opacity:.16"></div></div>`,
+c2y:`<div class="a ya">${amarelo()}${topo('ANTES × DEPOIS')}
+ <div class="abs ant" style="left:0;right:0;top:150px;text-align:center;font-size:330px;color:var(--p)">MARCA</div>
+ ${pessoa('c03-full.png',90,-250,900)}
+ <div class="abs" style="left:0;right:0;bottom:0;height:330px;background:linear-gradient(180deg,rgba(10,10,10,0),rgba(10,10,10,.92) 45%)"></div>
+ <div class="abs" style="left:70px;right:70px;bottom:120px;color:var(--t)"><div class="h" style="font-size:76px">Eu mudei a <span class="cx">minha marca</span>.</div></div>
+ <div class="abs arr" style="left:70px;bottom:56px;color:var(--am)">ARRASTE PARA O LADO →</div><div class="abs mono" style="right:70px;bottom:56px;font-size:21px;color:var(--t)">01 / 04</div><div class="grao" style="opacity:.16"></div></div>`,
 // r4 · Reels "Mito: precisa postar todo dia" · modelo r1
 r4:`<div class="a r">${inteira('c04.jpg')}${topo('● REC 00:00:15')}
  <div class="abs" style="left:70px;right:70px;top:1130px"><div class="mono" style="font-size:24px;color:var(--am);margin-bottom:22px">MITO × VERDADE</div><div style="font:800 76px/1 Manrope;letter-spacing:-.04em;color:#8a8a8a;text-decoration:line-through;text-decoration-color:var(--am);text-decoration-thickness:6px">Precisa postar todo dia.</div><div class="h" style="font-size:118px;margin-top:24px">Precisa postar <span class="cx">certo</span>.</div></div>
