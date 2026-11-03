@@ -1,0 +1,28 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<!-- Capas de destaques do Vereador Leo Pinto (conta Leandro, 03/11/2026). Pedido do Lindson: "crie os destaques e me envie cada capa".
+     Referências EXTERNAS (Dribbble, "instagram highlight covers", capturas em referencias/): Enes Gunduz (cada capa um degradê/textura diferente
+     com a palavra em tipografia forte, sem ícone) e Chanel (capas só com palavra e linha de apoio). Identidade do Leo: laranja/azul/marinho/amarelo,
+     Anton + Kaushan Script + Montserrat. Sem ícones, raios, sol desenhado, anel ou estrelas (regras de 02/11). Tudo dentro do círculo central.
+     Uso: destaques.html?d=0..5 (1080x1920). -->
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Kaushan+Script&family=Montserrat:wght@700;900&display=swap" rel="stylesheet">
+<style>*{margin:0;padding:0;box-sizing:border-box}body{width:1080px;height:1920px;overflow:hidden}
+.c{position:relative;width:1080px;height:1920px;overflow:hidden}
+.g{position:absolute;inset:0;opacity:.16;mix-blend-mode:overlay;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>")}
+.t{position:absolute;left:0;right:0;top:50%;transform:translateY(-50%);text-align:center}
+.n{font:900 34px Montserrat;letter-spacing:.4em;margin-bottom:26px;padding-left:.4em}
+.w{font:400 250px/0.88 Anton;text-transform:uppercase;letter-spacing:-.005em}
+.k{font:400 92px/1 'Kaushan Script';margin-top:18px;transform:rotate(-5deg)}
+</style></head><body><div id="pp"></div><script>
+const MAR='#05316E',ROY='#2350F5',SOL='#FFC20E',LAR='#FF7A1A';
+const D=[
+ ['01','Quem<br>sou','prazer, Leo',`radial-gradient(700px 700px at 30% 38%,#FFD25A,transparent 60%),radial-gradient(800px 800px at 75% 65%,#E8590C,transparent 62%),linear-gradient(160deg,#FF9A22,${LAR})`,'#fff',MAR,MAR],
+ ['02','Na<br>rua','de perto',`radial-gradient(700px 700px at 70% 35%,#4C7DFF,transparent 60%),radial-gradient(800px 800px at 25% 70%,#0B1F6B,transparent 62%),linear-gradient(160deg,${ROY},#082063)`,'#fff',SOL,SOL],
+ ['03','Feito','pedimos e fizemos',`radial-gradient(700px 700px at 35% 35%,#FFF1B3,transparent 58%),radial-gradient(800px 800px at 70% 70%,#FF9A22,transparent 62%),linear-gradient(160deg,${SOL},#FFA526)`,MAR,MAR,'#B83F00'],
+ ['04','Câmara','leis e sessões',`radial-gradient(700px 700px at 65% 35%,#1E4FD8,transparent 60%),radial-gradient(700px 700px at 30% 72%,rgba(255,122,26,.55),transparent 60%),linear-gradient(160deg,#0A2A7A,#041542)`,'#fff','#fff',SOL],
+ ['05','Nossa<br>Baixada','nossa gente',`radial-gradient(650px 650px at 22% 30%,#FFB347,transparent 60%),radial-gradient(700px 700px at 82% 78%,#1539BE,transparent 62%),linear-gradient(135deg,${LAR} 0%,${LAR} 38%,${ROY} 62%,#082063 100%)`,'#fff','#fff',SOL],
+ ['06','Fale<br>comigo','sua demanda',`radial-gradient(700px 700px at 40% 35%,#FFB347,transparent 58%),radial-gradient(800px 800px at 70% 70%,#C64A06,transparent 62%),linear-gradient(200deg,${LAR},#E8590C)`,'#fff','#fff',SOL]];
+const i=+new URLSearchParams(location.search).get('d')||0,[n,w,k,bg,cn,cw,ck]=D[i];
+const fs=w.includes('<br>')?(w.length>14?205:240):230;
+document.getElementById('pp').innerHTML=`<div class="c" style="background:${bg}"><div class="g"></div><div class="t"><div class="n" style="color:${cn}">${n}</div><div class="w" style="color:${cw};font-size:${fs}px">${w}</div><div class="k" style="color:${ck}">${k}</div></div></div>`;
+document.fonts.ready.then(()=>window.pronto=true);
+</script></body></html>
