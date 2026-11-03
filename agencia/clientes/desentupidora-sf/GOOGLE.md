@@ -42,6 +42,6 @@ Abra **business.google.com** → Adicionar empresa. Textos prontos (só dados qu
 |---|---|
 | Site pronto para o Google | feito (26/10) |
 | Search Console verificado | feito (26/10); confirmado em 03/11 pelo print do Lindson (propriedade `https://desentupidorasf.pages.dev/` na conta Google dele) |
-| Sitemap enviado | enviado em 26/10, mas com status **"Não foi possível buscar o sitemap"** e 0 páginas (print de 03/11). Em 03/11 o sitemap abre normal (200, application/xml, XML válido, 11 URLs, também para o Googlebot): o Google não chegou a ler. Correção: remover e enviar de novo + pedir indexação da página inicial |
+| Sitemap enviado | enviado em 26/10, mas com status **"Não foi possível buscar o sitemap"** e 0 páginas (print de 03/11). Em 03/11 o sitemap abre normal (200, application/xml, XML válido, 11 URLs, também para o Googlebot): o Google não chegou a ler. Correção: remover e enviar de novo + pedir indexação da página inicial. **03/11: reenviado pelo Lindson ("Sitemap enviado")**; conferir o status em 1 dia |
 | Indexação pedida | a fazer (Lindson) |
 | Perfil da Empresa | a fazer (Lindson, com dados do cliente) |
