@@ -26,3 +26,6 @@ Cada relatório tem no topo "Situação: parcial — feito até X". Continuar da
 2. Ensinamentos que faltam nos 248 (História de Florença, missões, cartas, literatura, Arte da Guerra além das regras) e conferência das aplicações de negócio nas fichas.
 3. Fatos e fontes: prisão de 1513 (12 × 19/2), sonho em Busini, colofões das primeiras edições, "dividir para reinar" × *Arte da Guerra* VI, casamento, bairro do nascimento, folhas do *Belfagor*, *Mandrágora* em Veneza, citações de terceiros (Croce, Guicciardini 18/07/1526, Giuliano de' Ricci), 64 citações só por fonte secundária, verbetes Treccani que faltaram, Diderot/Gentili/Pole/Bodin no original, idiomas polonês, coreano, hindi, turco.
 
+
+## Depois do ciclo 2 (pedido do Lindson, 03/11/2026)
+"Quando terminar tudo, finalize o agente." Ao fechar o ciclo 2: agente v2 em `.claude/agents/maquiavel.md` (usando `INDICE-POR-SITUACAO.md`, `ensinamentos-complementares.md`, os relatórios da revisão e `dinheiro-online/`), rodar os 12 testes do `TESTES.md`, corrigir o que falhar, registrar no `REGISTRO-DAS-CONTAS.md` e tirar do quadro.
