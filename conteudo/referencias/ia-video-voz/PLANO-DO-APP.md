@@ -34,6 +34,11 @@ Junta as três pesquisas desta pasta: `HEYGEN.md`, `ELEVENLABS.md` e `OUTRAS-FER
 
 **Não usar** (licença não comercial ou proibida): Wav2Lip, Sonic, XTTS-v2, F5-TTS pt-br, Fish S1 aberto, IndexTTS e os pesos do InsightFace. Como o uso é interno, podem servir só para comparação de qualidade.
 
+## Versão gratuita (pesquisa em `GRATUITO.md`)
+- **Custo zero no dia a dia:** tudo o que cabe nos 4 GB roda no notebook. O pesado vai para o **Modal (US$ 30 de crédito grátis por mês)**, chamado pelo próprio app.
+- **Kaggle e Colab grátis** só para testes: os termos proíbem uso comercial (Kaggle) e deepfake (Colab).
+- **Acabamento grátis:** DeepFilterNet, GFPGAN, Real-ESRGAN, RIFE e FFmpeg. CodeFormer fica fora (não comercial).
+
 ## Etapas
 1. Receber do Lindson o modelo da placa de vídeo e a RAM.
 2. Montar o protótipo de voz (VoxCPM2 ou Chatterbox + `voz_humana.py`) e testar com 2 min da voz dele, comparando com o edge-tts atual.
