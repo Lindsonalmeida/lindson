@@ -97,4 +97,6 @@ Se não der para saber, pergunte ao Lindson antes de registrar qualquer coisa.
 - Tire do "Em andamento" do quadro. Se parou no meio, deixe lá com "como retomar".
 - Se criou pasta, app ou processo novo, acrescente no `MAPA-DO-REPOSITORIO.md`. Nos READMEs e no `ESTADO-DO-PROJETO.md`, cite a conta entre parênteses, como em "(conta Pedro)".
 
+**Compartilhe tudo, sempre, sem o Lindson precisar pedir** (decisão dele em 03/11/2026, vale para sempre): linha no quadro ao começar, commit e push a cada etapa pronta com o "como retomar", e registro ao terminar, para qualquer outra conta continuar de onde parou.
+
 **Salve tudo no repositório.** Nada fica só na conversa: roteiros, decisões do Lindson, pesquisas, prompts e links dos apps publicados vão para arquivos aqui. O que não pode ir para o GitHub (dados pessoais, contratos, vídeos grandes) fica registrado com o lugar onde está.

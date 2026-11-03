@@ -40,6 +40,7 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 8. **Imagem: uma por mensagem.** Imagem enviada no meio de uma resposta não fica salva. Peça assim.
 9. **Estude só o necessário.** Pesquisa e engenharia reversa servem para aplicar no trabalho, não para virar relatório longo.
 10. **Pesquisa completa quando ele pedir "completo"**: em todos os idiomas, revisando até não ter mais o que agregar (missão Maquiavel).
+11. **Compartilhe tudo, sempre, sem ele pedir** (03/11 · Pedro: "lembre-se sempre de compartilhar tudo que está fazendo, para outras equipes continuarem. Não preciso mais pedir isso, salve pra sempre"). Toda conta, em todo pedido: ao começar, linha no `QUADRO-DA-EQUIPE.md`; durante o trabalho, commit e push a cada etapa pronta (pesquisa, decisão, roteiro, código, link publicado), com o "como retomar"; ao terminar, linha no `REGISTRO-DAS-CONTAS.md` e atualização desta memória. Nada fica só na conversa.
 11. **Trabalhe rápido e em paralelo**: ele autorizou abrir quantas sessões e agentes forem precisos ("abra quantas sessões precisar").
 12. **Permissões liberadas** ("permita tudo", `.claude/settings.json`). Ações irreversíveis, como apagar artifact, continuam pedindo o OK dele.
 13. **Use os dados reais que existem no repositório** antes de perguntar ou inventar. Nunca invente números, fatos ou resultados. Fato público não confirmado (ex.: "mais bem votado") deve ser marcado para conferir.
@@ -246,3 +247,4 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 13. **Leo:** mockups de boné e bandeira. Ainda falta o @ oficial, as entregas do mandato, as causas e os bairros.
 14. **Canais dark:** faltam longos do Passaporte (01, 02, 09) e do Raposa (01, 05; 13 a 16 pausados) e subir nos apps os longos já entregues. Só retomar o Raposa quando ele mandar.
 15. **Tarefas agendadas** da conta Lindson (leads diários, cidades, notícias BOMBOU): desligadas desde 26/10. Só religar com o OK dele.
+16. **App de clone de imagem e voz** (pedido 03/11 · Pedro): uso **interno**; roda no **computador do Lindson**; clona o próprio Lindson, clientes **com termo de autorização** e personagens dos canais (domínio público). Pesquisa em `conteudo/referencias/ia-video-voz/` (HeyGen, ElevenLabs e outras ferramentas). Falta: modelo da placa de vídeo do PC dele para escolher a pilha.
