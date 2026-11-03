@@ -1,6 +1,6 @@
 # Recepção de Maquiavel e seus estudiosos (séc. XVI ao XXI)
 
-**Situação:** completo (seções 1 a 8; lacunas na seção 8)
+**Situação:** completo (seções 1 a 8; lacunas na seção 8) **Revisão (atualizado em 03/11/2026):** citações em italiano conferidas por programa e à mão no ciclo 1 (`revisao/citacoes.md`), datas e fatos unificados (`revisao/contradicoes.md`, ciclos 1 e 2), lacunas de cobertura fechadas (`revisao/cobertura.md`, ciclos 1 e 2); Strauss, Rousseau (1762 e nota de 1782) e Busenbaum conferidos nos testes v3; correções achadas nos testes v3 do agente registradas em `REVISAO.md` ("Testes v3 — correções no acervo").
 
 > Arquivo do acervo do agente Maquiavel. Escrito em português do Brasil. Legenda: **texto** = o que Maquiavel escreveu (obra e capítulo); **fato documentado**; **[Interpretação: autor]**; **[Tradição]** = história sem prova. Em cada item digo o idioma/fonte de onde veio a informação: (IT) italiano, (EN) inglês, (ES) espanhol, (FR) francês, (DE) alemão, (PT) português, (LA) latim.
 >

@@ -1,6 +1,6 @@
 # Maquiavel escritor: teatro, poesia, novela, a *Vida de Castruccio* e o *Discurso sobre a língua*
 
-**Situação:** completo (seções 1–8 pela conta Zuleide; seções 9–14 pela conta Lindson, 02/11/2026). Lacunas para a próxima rodada em 14.4.
+**Situação:** completo (seções 1–8 pela conta Zuleide; seções 9–14 pela conta Lindson, 02/11/2026). Lacunas para a próxima rodada em 14.4. **Revisão (atualizado em 03/11/2026):** citações em italiano conferidas por programa e à mão no ciclo 1 (`revisao/citacoes.md`), datas e fatos unificados (`revisao/contradicoes.md`, ciclos 1 e 2), lacunas de cobertura fechadas (`revisao/cobertura.md`, ciclos 1 e 2); correções achadas nos testes v3 do agente registradas em `REVISAO.md` ("Testes v3 — correções no acervo").
 
 > **Para que serve:** dar ao agente "Maquiavel" a outra metade do homem: o comediógrafo, o poeta e o contador de histórias. É daqui que vêm o riso, a ironia, a obscenidade de taberna, a autoderrisão ("historiador, comediógrafo e trágico") e muitas das frases mais citáveis. Maquiavel dizia que a comédia é "um espelho da vida privada" (*Discurso sobre a língua*). Para o agente, isso significa: a mesma lógica do *Príncipe* aplicada a casamentos, padres, maridos, clientes e sócios.
 >

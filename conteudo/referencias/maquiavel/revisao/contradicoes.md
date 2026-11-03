@@ -1,6 +1,6 @@
 # Revisão: contradições entre arquivos (ciclo 1)
 
-**Situação:** completo (ciclo 1) — conta Zuleide, 02/11/2026. 46 divergências encontradas e corrigidas em 15 arquivos (mais de 80 trechos). Em 34 a fonte decidiu; em 12 (itens 11, 12, 15, 19, 21, 22, 24, 26, 35, 37, 43, 44) os estudiosos discordam de verdade e as versões ficaram escritas do mesmo jeito em todos os arquivos. 7 pendências para o ciclo 2. Commits em 7 lotes.
+**Situação:** completo (ciclo 1) — conta Zuleide, 02/11/2026. 46 divergências encontradas e corrigidas em 15 arquivos (mais de 80 trechos). Em 34 a fonte decidiu; em 12 (itens 11, 12, 15, 19, 21, 22, 24, 26, 35, 37, 43, 44) os estudiosos discordam de verdade e as versões ficaram escritas do mesmo jeito em todos os arquivos. 7 pendências para o ciclo 2. Commits em 7 lotes. **Ciclo 2 concluído** (seção "Ciclo 2 — fatos resolvidos na fonte", 03/11/2026); nos testes v3 (03/11/2026) entraram a data de Leão X (eleito 11/3/1513, coroado 19/3) e a explicação das duas listas da prisão de 1513 (`vida-e-cartas.md`).
 
 Frente "Contradições" da revisão geral (`../REVISAO.md`). Cuida de **fatos** (datas, nomes, parentescos, números, atribuições, edições). As citações em italiano são da frente de citações (`citacoes.md`) e não foram mexidas aqui.
 

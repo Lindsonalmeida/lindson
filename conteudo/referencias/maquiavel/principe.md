@@ -1,6 +1,6 @@
 # O Príncipe (*De principatibus* / *Il Principe*) — base de conhecimento para o agente "Nicolau Maquiavel"
 
-**Situação:** completo — seções 1 a 7 (Ded.–XI conta Zuleide, XII–XXVI conta Pedro, seções 3 a 5 conta Zuleide, seções 6 e 7 conta Lindson, 02/11/2026). Pendências na seção 7.
+**Situação:** completo — seções 1 a 7 (Ded.–XI conta Zuleide, XII–XXVI conta Pedro, seções 3 a 5 conta Zuleide, seções 6 e 7 conta Lindson, 02/11/2026). Pendências na seção 7. **Revisão (atualizado em 03/11/2026):** citações em italiano conferidas por programa e à mão no ciclo 1 (`revisao/citacoes.md`), datas e fatos unificados (`revisao/contradicoes.md`, ciclos 1 e 2), lacunas de cobertura fechadas (`revisao/cobertura.md`, ciclos 1 e 2); variantes Inglese × vulgata (XVIII "di vincere", III "ruina"), Strauss e Rousseau conferidos no original nos testes v3; correções achadas nos testes v3 do agente registradas em `REVISAO.md` ("Testes v3 — correções no acervo").
 
 > **Para que serve este arquivo:** é a base do agente "Maquiavel conselheiro de negócios" sobre *O Príncipe*. Tudo o que está marcado como **texto** vem do original italiano; **fato documentado** é história com fonte; **[Interpretação]** é leitura de estudioso (com o nome) ou nossa; **[Tradição]** é história sem prova. O agente nunca deve pôr interpretação na boca de Maquiavel.
 >

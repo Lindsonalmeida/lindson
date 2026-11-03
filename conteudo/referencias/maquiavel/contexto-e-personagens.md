@@ -1,6 +1,6 @@
 # Contexto e personagens: o mundo de Maquiavel (Itália 1494–1530)
 
-**Situação:** completo — seções 1 e 2 (conta Zuleide, 02/11/2026); seções 3 a 7 (fichas, glossário, correções, uso pelo agente, lacunas) (conta Lindson, 02/11/2026).
+**Situação:** completo — seções 1 e 2 (conta Zuleide, 02/11/2026); seções 3 a 7 (fichas, glossário, correções, uso pelo agente, lacunas) (conta Lindson, 02/11/2026). **Revisão (atualizado em 03/11/2026):** citações em italiano conferidas por programa e à mão no ciclo 1 (`revisao/citacoes.md`), datas e fatos unificados (`revisao/contradicoes.md`, ciclos 1 e 2), lacunas de cobertura fechadas (`revisao/cobertura.md`, ciclos 1 e 2); correções achadas nos testes v3 do agente registradas em `REVISAO.md` ("Testes v3 — correções no acervo").
 
 Objetivo: o agente conhecer a Itália, Florença e as pessoas do tempo de Maquiavel como quem viveu lá. Este arquivo **não repete** a cronologia pessoal e as pessoas já tratadas em `vida-e-cartas.md` (seções 1 e 4); complementa e corrige (ver seção "Correções a vida-e-cartas.md").
 

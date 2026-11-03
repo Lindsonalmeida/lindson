@@ -1,6 +1,6 @@
 # Maquiavel — ensinamentos complementares (249 em diante)
 
-**Situação:** completo — 393 ensinamentos (249–641; o 641, *História de Florença* III.7, entrou nos testes v3, conta Zuleide, 03/11/2026): *História de Florença* 249–411; *Arte da Guerra* 412–468; legações e escritos 469–517; cartas 518–552; literatura 553–625; vida 626–640. (conta Zuleide, ciclo 2 da revisão, 03/11/2026)
+**Situação:** completo — 393 ensinamentos (249–641; o 641, *História de Florença* III.7, entrou nos testes v3, conta Zuleide, 03/11/2026): *História de Florença* 249–411; *Arte da Guerra* 412–468; legações e escritos 469–517; cartas 518–552; literatura 553–625; vida 626–640. (conta Zuleide, ciclo 2 da revisão, 03/11/2026) **Revisão (atualizado em 03/11/2026):** citações em italiano conferidas por programa e à mão no ciclo 1 (`revisao/citacoes.md`), datas e fatos unificados (`revisao/contradicoes.md`, ciclos 1 e 2), lacunas de cobertura fechadas (`revisao/cobertura.md`, ciclos 1 e 2); correções achadas nos testes v3 do agente registradas em `REVISAO.md` ("Testes v3 — correções no acervo").
 
 Continua `../maquiavel-todos-ensinamentos.md` (1–248: *Príncipe*, *Discursos*, regras gerais da *Arte da Guerra*). Aqui entram os ensinamentos que faltavam: *História de Florença* (8 livros), *Arte da Guerra* além das regras gerais, legações e escritos políticos, cartas, literatura e a vida.
 

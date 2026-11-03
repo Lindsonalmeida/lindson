@@ -1,6 +1,6 @@
 # Índice por situação — onde o agente Maquiavel acha a resposta
 
-**Situação:** completo — 50 situações (conta Zuleide, ciclo 2 da revisão, 03/11/2026).
+**Situação:** completo — 50 situações (conta Zuleide, ciclo 2 da revisão, 03/11/2026). **Revisão (atualizado em 03/11/2026):** citações em italiano conferidas por programa e à mão no ciclo 1 (`revisao/citacoes.md`), datas e fatos unificados (`revisao/contradicoes.md`, ciclos 1 e 2), lacunas de cobertura fechadas (`revisao/cobertura.md`, ciclos 1 e 2); correções achadas nos testes v3 do agente registradas em `REVISAO.md` ("Testes v3 — correções no acervo").
 
 Consulta rápida: situação de negócio → ensinamentos e capítulos de todo o acervo → arquivo onde ler. As aplicações são sempre **[Interpretação nossa]**; o texto de Maquiavel está nos arquivos indicados.
 

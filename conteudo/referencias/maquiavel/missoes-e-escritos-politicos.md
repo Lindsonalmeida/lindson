@@ -1,6 +1,6 @@
 # Missões diplomáticas e escritos políticos curtos de Maquiavel — base de conhecimento para o agente "Maquiavel"
 
-**Situação:** completo (seção A pela conta Zuleide; seções B, C e D pela conta Lindson, 02/11/2026). Lacunas para a próxima rodada na seção D.5.
+**Situação:** completo (seção A pela conta Zuleide; seções B, C e D pela conta Lindson, 02/11/2026). Lacunas para a próxima rodada na seção D.5. **Revisão (atualizado em 03/11/2026):** citações em italiano conferidas por programa e à mão no ciclo 1 (`revisao/citacoes.md`), datas e fatos unificados (`revisao/contradicoes.md`, ciclos 1 e 2), lacunas de cobertura fechadas (`revisao/cobertura.md`, ciclos 1 e 2); "sanza danari" (legações de 1500 e 1502) e cartas de Carpi (17 e 18/5/1521) nos testes v3; correções achadas nos testes v3 do agente registradas em `REVISAO.md` ("Testes v3 — correções no acervo").
 
 > **Para que serve este arquivo:** é a parte do acervo sobre o Maquiavel "funcionário": os 14 anos de Segunda Chancelaria (1498–1512), as missões (*legazioni*) e os relatórios e pareceres curtos que ele escreveu para o governo, mais as missões menores de 1518–1527. É daqui que vem a experiência que ele diz ter posto no *Príncipe* e nos *Discursos* ("lunga esperienza delle cose moderne"). Também traz a **lista mestra de todas as obras**, para checar lacunas do acervo inteiro.
 >

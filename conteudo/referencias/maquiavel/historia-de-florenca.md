@@ -1,6 +1,6 @@
 # História de Florença (*Istorie fiorentine*) — base de conhecimento para o agente "Nicolau Maquiavel"
 
-**Situação:** completo — seções 1–4 pela conta Zuleide; seção 5 (uso pelo agente, 30 frases novas, regras sobre facções, lacunas) pela conta Lindson (02/11/2026). Citações italianas conferidas por programa (Martelli/Sansoni nas seções 1–4; Wikisource na seção 5).
+**Situação:** completo — seções 1–4 pela conta Zuleide; seção 5 (uso pelo agente, 30 frases novas, regras sobre facções, lacunas) pela conta Lindson (02/11/2026). Citações italianas conferidas por programa (Martelli/Sansoni nas seções 1–4; Wikisource na seção 5). **Revisão (atualizado em 03/11/2026):** citações em italiano conferidas por programa e à mão no ciclo 1 (`revisao/citacoes.md`), datas e fatos unificados (`revisao/contradicoes.md`, ciclos 1 e 2), lacunas de cobertura fechadas (`revisao/cobertura.md`, ciclos 1 e 2); III.7 ("più la patria che l'anima") acrescentado nos testes v3; correções achadas nos testes v3 do agente registradas em `REVISAO.md` ("Testes v3 — correções no acervo").
 
 > **Para que serve este arquivo:** é a base do agente "Maquiavel conselheiro de negócios" no que diz respeito às *Istorie fiorentine* (1520–1525), a última grande obra de Maquiavel. É o livro em que ele mostra, com casos reais da sua cidade, como facções destroem uma organização, como uma família (os Médici) chegou ao poder sem cargo formal, comprando lealdade com favores privados, e como conspirações, mercenários e falta de instituições arruínam quem depende deles.
 >

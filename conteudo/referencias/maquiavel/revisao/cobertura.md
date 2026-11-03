@@ -1,6 +1,6 @@
 # Revisão de cobertura e lacunas — ciclo 1
 
-**Situação:** ciclo 1 concluído (conta Zuleide, 02/11/2026, ≈19h–21h UTC). Próximo ciclo: atacar as lacunas da seção 4 na ordem de prioridade indicada.
+**Situação:** ciclo 1 concluído (conta Zuleide, 02/11/2026, ≈19h–21h UTC); ciclo 2 concluído (seções "Ciclo 2 — ensinamentos" e "Ciclo 2 — *Discursos*", 02–03/11/2026). O que ainda resta está nas lacunas de cada arquivo e em `REVISAO.md` ("Testes v3").
 
 Frente da revisão geral (`../REVISAO.md`). Não mexe em citações italianas (frente "Citações") nem decide contradições entre arquivos (frente "Contradições"); quando achou divergência nova, registrou na seção 5 para aquela frente.
 

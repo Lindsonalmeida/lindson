@@ -1,6 +1,6 @@
 # Maquiavel nos negócios: livros de gestão, psicologia (Mach IV) e uso fiel
 
-**Situação:** completo (seções 1 a 7; seção 1 da conta Pedro, complemento e seções 2 a 7 da conta Zuleide)
+**Situação:** completo (seções 1 a 7; seção 1 da conta Pedro, complemento e seções 2 a 7 da conta Zuleide) **Revisão (atualizado em 03/11/2026):** citações em italiano conferidas por programa e à mão no ciclo 1 (`revisao/citacoes.md`), datas e fatos unificados (`revisao/contradicoes.md`, ciclos 1 e 2), lacunas de cobertura fechadas (`revisao/cobertura.md`, ciclos 1 e 2); correções achadas nos testes v3 do agente registradas em `REVISAO.md` ("Testes v3 — correções no acervo").
 
 > Arquivo do acervo do agente Maquiavel. Português do Brasil. Legenda: **texto** = o que Maquiavel escreveu (obra e capítulo, conferido no it.wikisource.org quando dito); **fato documentado**; **[Interpretação: autor]**; **[Tradição]** = história sem prova. Idioma/fonte de cada informação: (IT) italiano, (EN) inglês, (ES) espanhol, (FR) francês, (DE) alemão, (PT) português, (ZH) chinês.
 >

@@ -1,6 +1,6 @@
 # Revisão das citações em italiano (ciclo 1)
 
-**Situação:** completo — ciclo 1 terminado (conta Zuleide, 02/11/2026). Todas as citações em italiano dos 16 arquivos `.md` do acervo (pasta principal + `frente-lindson/`) foram extraídas por programa e procuradas nos textos originais; as que não bateram foram conferidas à mão e corrigidas ou marcadas. Nenhuma ficou como "divergente" ou "não encontrada" sem decisão.
+**Situação:** completo — ciclo 1 terminado (conta Zuleide, 02/11/2026). Todas as citações em italiano dos 16 arquivos `.md` do acervo (pasta principal + `frente-lindson/`) foram extraídas por programa e procuradas nos textos originais; as que não bateram foram conferidas à mão e corrigidas ou marcadas. Nenhuma ficou como "divergente" ou "não encontrada" sem decisão. **Testes v3 (03/11/2026):** a pasta `dinheiro-online/` e os resumos `maquiavel-*ensinamentos.md` também conferidos (seção "Testes v3" no fim).
 
 ## Resultado em números
 
