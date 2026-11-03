@@ -1,19 +1,20 @@
 <!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
-<!-- Artes da semana 1 · @lindsonalmeida_ · identidade v2 preto e amarelo (conta Pedro, 03/11/2026).
-     Templates escolhidos na pesquisa (Dribbble) com os agentes do nicho:
-     SIGNAL = Signal Agency (Zywen, dribbble.com/shots/27832727): manchete com a palavra de virada em serifa itálica, tarja de cor com a frase de apoio,
-              objeto central sob foco de luz, alternância escuro/claro, um acento por peça (escolha da Alina Wheeler, brand-squad);
-     MKA    = M-KA Social Media Identity (One Week Wonders, dribbble.com/shots/27326889): letra/número gigante, recorte da pessoa, foto pequena em grid,
-              caixa alta com palavra colorida, círculos com seta, marcas "(20 26)" (escolha do Design Chief, design-squad).
-     Cores: preto #0A0A0A · superfície #161616 · papel #F5F3EE · apoio #9A9A9A · amarelo #F5C518 (texto preto em cima) · REC #FF3B30.
-     Letras: Manrope 800 (manchete) · Instrument Serif Italic (virada) · JetBrains Mono (rótulos). Uso: artes.html?a=<id>  (ids no fim). -->
+<!-- Artes do feed · @lindsonalmeida_ · identidade v2 PRETO E AMARELO (conta Pedro, 03/11/2026).
+     Pedido do Lindson (03/11): "quero meu perfil harmônico em preto e amarelo" → só 2 fundos (preto e amarelo), alternados um a um:
+     no grid de 3 colunas vira um xadrez (nunca dois posts seguidos na mesma cor). Fotos: as que ele subiu na aba Minhas fotos (recorte P&B).
+     Templates copiados (pesquisa no Dribbble com os agentes do nicho):
+     SIGNAL = Signal Agency (Zywen, dribbble.com/shots/27832727): manchete com a palavra de virada em serifa itálica, tarja de cor, objeto sob foco de luz (Alina Wheeler);
+     MKA    = M-KA Social Media Identity (One Week Wonders, dribbble.com/shots/27326889): palavra/número gigante atrás do recorte, foto-selo, círculos com seta,
+              antes × depois, caixa alta com uma palavra de cor, marcas "(20 26)" (Design Chief).
+     Tokens: preto #0A0A0A · superfície #161616 · texto #F5F3EE · apoio #9A9A9A · amarelo #F5C518 (texto preto em cima) · REC #FF3B30 (só o ponto).
+     Letras: Manrope 800 · Instrument Serif Italic (virada) · JetBrains Mono (rótulos). Uso: artes.html?a=<id>. -->
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
 <style>
-:root{--p:#0A0A0A;--s:#161616;--l:#262626;--papel:#F5F3EE;--ap:#9A9A9A;--am:#F5C518;--rec:#FF3B30}
+:root{--p:#0A0A0A;--s:#161616;--l:#262626;--t:#F5F3EE;--ap:#9A9A9A;--am:#F5C518;--rec:#FF3B30}
 *{box-sizing:border-box;margin:0;padding:0}
 html,body{background:#000;overflow:hidden;font-family:Manrope,sans-serif;-webkit-font-smoothing:antialiased}
-.a{position:relative;width:1080px;height:1350px;overflow:hidden;background:var(--p);color:var(--papel)}
-.a.r{height:1920px}.a.cl{background:var(--papel);color:var(--p)}.a.am{background:var(--am);color:var(--p)}
+.a{position:relative;width:1080px;height:1350px;overflow:hidden;background:var(--p);color:var(--t)}
+.a.r{height:1920px}.a.am{background:var(--am);color:var(--p)}
 .abs{position:absolute}
 .marca{font:800 30px Manrope;letter-spacing:-.02em}.marca i{display:inline-block;width:12px;height:12px;border-radius:50%;background:var(--am);margin-left:4px}
 .a.am .marca i{background:var(--p)}
@@ -21,76 +22,90 @@ html,body{background:#000;overflow:hidden;font-family:Manrope,sans-serif;-webkit
 .rec:before{content:"● ";color:var(--rec)}
 .h{font:800 92px/0.98 Manrope;letter-spacing:-.045em}
 .h em,.v{font-family:'Instrument Serif';font-style:italic;font-weight:400;letter-spacing:-.01em}
-.h em{color:var(--am)}.a.cl .h em,.a.am .h em{color:var(--p)}
+.h em{color:var(--am)}.a.am .h em{color:var(--p)}
 .tarja{display:inline-block;background:var(--am);color:var(--p);font:700 30px Manrope;padding:12px 22px;letter-spacing:-.01em}
 .a.am .tarja{background:var(--p);color:var(--am)}
-.foto{position:absolute;background-size:cover;background-position:center}
+.foto{position:absolute;background-size:cover}
 .grao{position:absolute;inset:0;pointer-events:none;opacity:.12;mix-blend-mode:overlay;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
 .circ{display:inline-grid;place-items:center;width:150px;height:150px;border-radius:50%;background:var(--am);color:var(--p);font:800 70px Manrope}
-.par{font:500 30px/1.4 Manrope;color:var(--ap)}.a.cl .par{color:#55524C}
-.pag{font:500 22px 'JetBrains Mono';letter-spacing:.08em}
+.a.am .circ{background:var(--p);color:var(--am)}
+.par{font:500 30px/1.4 Manrope;color:var(--ap)}.a.am .par{color:#3a3200}
 </style></head><body><div id="x"></div>
 <script>
-const F='fotos/',q=new URLSearchParams(location.search),A=q.get('a');
-const topo=(rot,cl='')=>`<div class="abs" style="left:70px;right:70px;top:${A&&A.startsWith('r')?260:64}px;display:flex;justify-content:space-between;align-items:center"><span class="marca">lindson almeida<i></i></span><span class="mono rec" style="font-size:22px">${rot}</span></div>`;
+const F='fotos/',q=new URLSearchParams(location.search),A=q.get('a')||'',R=A.startsWith('r');
+const topo=rot=>`<div class="abs" style="left:70px;right:70px;top:${R?260:64}px;display:flex;justify-content:space-between;align-items:center"><span class="marca">lindson almeida<i></i></span><span class="mono rec" style="font-size:22px">${rot}</span></div>`;
 const pe=(pag='',y)=>`<div class="abs mono" style="left:70px;right:70px;bottom:${y||56}px;display:flex;justify-content:space-between;font-size:22px"><span>@LINDSONALMEIDA_</span><span>${pag}</span></div>`;
-const rec=(f,{x,w,b=0,lado='center',sombra=true})=>`<img class="abs" src="${F}${f}-recorte.png" style="left:${x}px;bottom:${b}px;width:${w}px;${sombra?'filter:drop-shadow(0 30px 60px rgba(0,0,0,.55))':''}">`;
+// recorte encostado na borda de baixo da arte (a borda cortada nunca aparece dentro da arte)
+const rec=(f,x,w,sombra=1)=>`<img class="abs" src="${F}${f}" style="left:${x}px;bottom:0;width:${w}px;${sombra?'filter:drop-shadow(0 30px 60px rgba(0,0,0,.5))':''}">`;
+// foto-selo (MKA): quadro da foto original, recortado no rosto
+const selo=(f,x,y,w,h,pos='50% 22%')=>`<div class="foto" style="left:${x}px;top:${y}px;width:${w}px;height:${h}px;background-image:url(${F}${f});background-position:${pos};filter:grayscale(1) contrast(1.12)"></div>`;
 const S={
-// 09/11 · Reels · "Post de bom dia não vende nada" · MKA: letra gigante atrás do recorte
-r1:`<div class="a r">${topo('REC 00:00:09')}<div class="abs" style="left:-20px;right:-20px;top:560px;font:800 330px/0.82 Manrope;letter-spacing:-.07em;color:var(--am);text-align:center">BOM<br>DIA</div>
- <div class="abs" style="left:110px;right:110px;top:760px;height:22px;background:var(--p);transform:rotate(-8deg)"></div>${rec('v9_4',{x:110,w:860})}
- <div class="abs" style="left:70px;right:70px;top:360px"><div class="h" style="font-size:100px">Post de bom dia<br><em>não vende</em> nada.</div></div>
- <div class="abs" style="left:70px;bottom:400px"><span class="tarja">Comenta PERFIL que eu olho o seu</span></div><div class="grao"></div></div>`,
-// 10/11 · Carrossel "Arrume sua bio em 3 passos" (5 telas, nenhuma repete a anterior)
+// 08/11 · Apresentação 1 (fixar) · PRETO · MKA: nome gigante atrás do recorte
+a1:`<div class="a">${topo('(20 26)')}<div class="abs" style="left:-30px;right:-30px;top:140px;font:800 300px/0.8 Manrope;letter-spacing:-.07em;color:var(--am);text-align:center">LIND<br>SON</div>
+ ${rec('f09-m.png',250,500)}
+ <div class="abs mono" style="left:70px;top:860px;font-size:22px;color:var(--ap);line-height:1.6">(/QUEM SOU)<br>SÃO LUÍS · MA</div>
+ <div class="abs" style="right:70px;top:860px;text-align:right"><div class="h" style="font-size:64px">Prazer,<br><em>Lindson</em>.</div></div>
+ <div class="abs" style="left:70px;bottom:70px"><span class="tarja">Faço o seu Instagram trazer cliente</span></div><div class="grao"></div></div>`,
+// 08/11 · Apresentação 2 (fixar) · AMARELO · MKA: foto-selo + lista numerada em caixa alta
+a2:`<div class="a am">${topo('O QUE EU FAÇO')}<div class="abs" style="left:70px;right:70px;top:190px"><div class="h" style="font-size:96px">Seu Instagram,<br>do perfil ao <em>WhatsApp</em>.</div></div>
+ ${selo('f07.jpg',650,560,360,450,'50% 18%')}
+ <div class="abs" style="left:70px;top:560px;width:540px">${[['01','Arrumo a sua vitrine'],['02','Gravo o seu mês em 1 dia'],['03','Levo o cliente pro WhatsApp']].map(x=>`<div style="display:grid;grid-template-columns:80px 1fr;gap:10px;align-items:baseline;border-top:3px solid var(--p);padding:26px 0"><span class="mono" style="font-size:24px">${x[0]}</span><b style="font:800 44px/1.05 Manrope;letter-spacing:-.03em">${x[1]}</b></div>`).join('')}</div>
+ <div class="abs" style="right:70px;bottom:130px"><span class="circ">→</span></div>${pe('DIRECT ABERTO')}</div>`,
+// 09/11 · Reels "Post de bom dia não vende nada" · PRETO · conversa: post de bom dia sem resposta × manchete
+r1:`<div class="a r">${topo('REC 00:00:09')}
+ <div class="abs" style="left:70px;right:70px;top:380px"><div class="h" style="font-size:108px">Post de bom dia<br><em>não vende</em> nada.</div></div>
+ <div class="abs" style="left:70px;top:740px;width:520px;background:var(--s);border:2px solid var(--l);border-radius:30px;padding:30px 34px;transform:rotate(-4deg)"><div class="mono" style="font-size:20px;color:var(--ap)">SEU POST DE HOJE</div><div style="font:700 46px Manrope;margin-top:12px">Bom dia! ☀️ Gratidão por mais um dia.</div><div class="mono" style="font-size:22px;color:var(--ap);margin-top:20px">♡ 3 · 0 mensagens</div></div>
+ <div class="abs" style="left:110px;top:1080px;width:440px;background:var(--am);color:var(--p);border-radius:30px;padding:26px 30px;transform:rotate(3deg)"><div class="mono" style="font-size:20px">O QUE VENDE</div><div style="font:800 40px/1.1 Manrope;margin-top:10px">Mostrar o problema que você resolve.</div></div>
+ ${rec('f12-m.png',500,640)}<div class="abs" style="left:70px;bottom:300px"><span class="tarja">Comenta PERFIL</span></div><div class="grao"></div></div>`,
+// 10/11 · Carrossel "Arrume sua bio em 3 passos" · capa AMARELA · telas alternam preto/amarelo e nenhuma repete a composição
 c1_1:`<div class="a am">${topo('(20 26)')}<div class="abs" style="left:30px;top:120px;font:800 1040px/0.8 Manrope;letter-spacing:-.08em">3</div>
- <div class="abs" style="left:560px;right:70px;top:420px"><div class="h" style="font-size:86px">passos para arrumar a sua <em>bio</em></div><p class="par" style="color:#3a3200;margin-top:26px">Ela é a primeira coisa que o cliente lê. Ou ela chama, ou ela espanta.</p></div>
- <div class="abs" style="right:70px;bottom:150px;display:flex"><span class="circ" style="background:var(--p);color:var(--am)">→</span><span class="circ" style="background:var(--p);color:var(--am);margin-left:-40px">→</span></div>${pe('01 / 05')}</div>`,
-c1_2:`<div class="a cl">${topo('PASSO 01')}<div class="abs" style="left:70px;right:70px;top:220px"><div class="mono" style="font-size:26px;color:#7a776f">01 —</div><div class="h" style="margin-top:20px">Diga o que você faz e <em>para quem</em>.</div></div>
- <div class="abs" style="left:70px;right:70px;top:700px;display:grid;gap:22px"><div style="border:3px solid #d8d4cb;padding:30px"><div class="mono" style="font-size:20px;color:#9a978f">ASSIM NÃO</div><p style="font:600 36px Manrope;margin-top:10px;color:#77746c">✨ Gratidão · Fé · Família ✨</p></div>
- <div style="background:var(--p);color:var(--papel);padding:30px"><div class="mono" style="font-size:20px;color:var(--am)">ASSIM SIM</div><p style="font:700 36px Manrope;margin-top:10px">Clínica de estética em São Luís · Limpeza de pele e harmonização</p></div></div>${pe('02 / 05')}</div>`,
-c1_3:`<div class="a"><div class="abs" style="inset:0;background:radial-gradient(70% 50% at 80% 10%,rgba(245,197,24,.18),transparent 70%)"></div>${topo('PASSO 02')}
- <div class="abs" style="left:70px;top:230px;font:800 320px/0.8 Manrope;color:var(--am);letter-spacing:-.06em">02</div>
- <div class="abs" style="left:70px;right:70px;top:560px"><div class="h">Dê um motivo para <em>chamar agora</em>.</div><p class="par" style="margin-top:30px">Uma linha com o benefício e a ação: "Agende sua avaliação pelo WhatsApp 👇". Quem lê precisa saber o próximo passo.</p></div>
+ <div class="abs" style="left:560px;right:70px;top:420px"><div class="h" style="font-size:86px">passos para arrumar a sua <em>bio</em></div><p class="par" style="margin-top:26px">Ela é a primeira coisa que o cliente lê. Ou ela chama, ou ela espanta.</p></div>
+ <div class="abs" style="right:70px;bottom:150px;display:flex"><span class="circ">→</span><span class="circ" style="margin-left:-40px">→</span></div>${pe('01 / 05')}</div>`,
+c1_2:`<div class="a">${topo('PASSO 01')}<div class="abs" style="left:70px;right:70px;top:200px"><div class="mono" style="font-size:26px;color:var(--ap)">01 —</div><div class="h" style="margin-top:20px">Diga o que você faz e <em>para quem</em>.</div></div>
+ <div class="abs" style="left:70px;right:70px;top:700px;display:grid;gap:22px"><div style="border:3px solid var(--l);padding:30px"><div class="mono" style="font-size:20px;color:var(--ap)">ASSIM NÃO</div><p style="font:600 36px Manrope;margin-top:10px;color:#77746c;text-decoration:line-through;text-decoration-color:var(--rec)">✨ Gratidão · Fé · Família ✨</p></div>
+ <div style="background:var(--am);color:var(--p);padding:30px"><div class="mono" style="font-size:20px">ASSIM SIM</div><p style="font:700 36px Manrope;margin-top:10px">Clínica de estética em São Luís · Limpeza de pele e harmonização</p></div></div>${pe('02 / 05')}</div>`,
+c1_3:`<div class="a am">${topo('PASSO 02')}<div class="abs" style="left:70px;top:200px;font:800 340px/0.8 Manrope;letter-spacing:-.06em">02</div>
+ <div class="abs" style="left:70px;right:70px;top:560px"><div class="h">Dê um motivo para <em>chamar agora</em>.</div><p class="par" style="margin-top:30px">Uma linha com o benefício e a ação: "Agende sua avaliação pelo WhatsApp". Quem lê precisa saber o próximo passo.</p></div>
  <div class="abs" style="left:70px;bottom:150px"><span class="tarja">Bio boa termina com um pedido</span></div>${pe('03 / 05')}</div>`,
-c1_4:`<div class="a">${topo('PASSO 03')}<div class="abs" style="left:0;top:0;width:540px;bottom:0;background:var(--s)"></div>
+c1_4:`<div class="a"><div class="abs" style="left:0;top:0;width:540px;bottom:0;background:var(--s)"></div>${topo('PASSO 03')}
  <div class="abs" style="left:70px;top:220px;width:400px"><div class="mono" style="font-size:22px;color:var(--ap)">PROBLEMA</div><div style="font:800 60px/1.02 Manrope;letter-spacing:-.03em;margin-top:18px;text-decoration:line-through;text-decoration-color:var(--rec);color:#8a8a8a">Lista de links</div><p class="par" style="margin-top:24px">7 botões, o cliente não sabe em qual tocar e vai embora.</p></div>
  <div class="abs" style="left:610px;top:220px;width:400px"><div class="mono" style="font-size:22px;color:var(--am)">SOLUÇÃO</div><div style="font:800 60px/1.02 Manrope;letter-spacing:-.03em;margin-top:18px">Um link, <span class="v" style="color:var(--am)">um caminho</span>.</div><p class="par" style="margin-top:24px">O WhatsApp com a mensagem já escrita. Um toque e ele chama.</p></div>
- <div class="abs" style="left:70px;right:70px;top:860px"><div class="h" style="font-size:74px">03 · O link certo.</div></div>${pe('04 / 05')}</div>`,
-c1_5:`<div class="a">${topo('REC 00:00:10')}<div class="foto" style="left:70px;top:200px;width:300px;height:300px;background-image:url(${F}retrato.jpg);filter:grayscale(1) contrast(1.1)"></div><div class="abs mono" style="left:400px;top:210px;font-size:22px;color:var(--ap)">(/LINDSON)<br>14 ANOS DE CONTEÚDO</div>
- <div class="abs" style="left:70px;right:70px;top:600px"><div class="h">Quer que eu arrume <em>a sua</em>?</div><p class="par" style="margin-top:30px">Eu olho a sua bio, os destaques e o link, e te mostro o que está espantando cliente. De graça.</p></div>
- <div class="abs" style="left:70px;bottom:150px"><span class="tarja">Comenta PERFIL</span></div><div class="abs" style="right:70px;bottom:130px"><span class="circ">→</span></div>${pe('05 / 05')}</div>`,
-// 11/11 · Reels "Como gravo o mês inteiro em 1 dia" · SIGNAL: objeto central sob foco de luz (o objeto é ele)
-r2:`<div class="a r"><div class="abs" style="left:-200px;right:-200px;bottom:140px;height:420px;background:radial-gradient(50% 50% at 50% 50%,rgba(245,197,24,.75),rgba(245,197,24,.18) 45%,transparent 70%);filter:blur(10px)"></div>
- <div class="abs" style="left:240px;right:240px;bottom:250px;height:90px;border:4px solid var(--am);border-radius:50%;opacity:.9"></div>${topo('BASTIDOR')}${rec('v4_31',{x:150,w:780})}
- <div class="abs" style="left:70px;right:70px;top:380px;text-align:center"><div class="mono" style="font-size:24px;color:var(--ap)">Antes de postar, eu gravo tudo de uma vez.</div><div class="h" style="font-size:110px;margin-top:24px">Um mês de vídeos.<br><em>Um dia.</em></div><div style="margin-top:34px"><span class="tarja">Bastidor: como eu gravo</span></div></div><div class="grao"></div></div>`,
-// 12/11 · Reels "Mini site da Rafael Imports" · MKA: foto-selo + grid; celular com o site real
-r3:`<div class="a r cl">${topo('CLIENTE')}<div class="abs mono" style="left:70px;top:360px;font-size:24px;color:#7a776f">(20 26) · RAFAEL IMPORTS</div>
- <div class="abs" style="left:70px;right:70px;top:420px"><div class="h" style="font-size:104px">Do zero ao<br><em style="color:var(--p)">link no ar</em>.</div></div>
- <div class="abs" style="left:520px;top:790px;width:430px;height:880px;border-radius:64px;background:#0A0A0A;padding:16px;transform:rotate(6deg);box-shadow:0 60px 120px rgba(0,0,0,.35)"><div style="width:100%;height:100%;border-radius:50px;background:url(${F}site-rafael.png) top/cover"></div></div>
- <div class="foto" style="left:70px;top:860px;width:300px;height:300px;background-image:url(${F}retrato.jpg);filter:grayscale(1) contrast(1.1)"></div>
- <div class="abs" style="left:70px;top:1190px;width:400px"><p class="par">Mini site com o botão do WhatsApp. O cliente toca e já chama.</p><div style="margin-top:28px"><span class="tarja">rafaelimports.pages.dev</span></div></div>
- <div class="abs" style="left:70px;top:1460px;display:flex"><span class="circ">→</span></div></div>`,
-// 13/11 · Post estático "Avaliação gratuita do seu perfil" · SIGNAL: manchete escura com a virada e tarja
+ <div class="abs" style="left:70px;right:70px;top:880px"><div class="h" style="font-size:80px">03 · O link certo.</div></div>${pe('04 / 05')}</div>`,
+c1_5:`<div class="a am">${topo('REC 00:00:10')}${rec('f13-m.png',560,560,0)}
+ <div class="abs" style="left:70px;top:230px;width:560px"><div class="h" style="font-size:96px">Quer que eu arrume <em>a sua</em>?</div><p class="par" style="margin-top:30px">Eu olho a sua bio, os destaques e o link, e te mostro o que está espantando cliente. De graça.</p><div style="margin-top:40px"><span class="tarja">Comenta PERFIL</span></div></div>${pe('05 / 05')}</div>`,
+// 11/11 · Reels "Como gravo o mês inteiro em 1 dia" · PRETO · SIGNAL: foco de luz no objeto central (ele)
+r2:`<div class="a r"><div class="abs" style="left:-200px;right:-200px;bottom:-60px;height:700px;background:radial-gradient(45% 50% at 50% 70%,rgba(245,197,24,.7),rgba(245,197,24,.15) 50%,transparent 72%);filter:blur(10px)"></div>
+ ${topo('BASTIDOR')}${rec('f03-recorte.png',370,340)}
+ <div class="abs" style="left:70px;right:70px;top:380px;text-align:center"><div class="mono" style="font-size:24px;color:var(--ap)">Antes de postar, eu gravo tudo de uma vez.</div><div class="h" style="font-size:112px;margin-top:24px">Um mês de vídeos.<br><em>Um dia.</em></div><div style="margin-top:34px"><span class="tarja">Bastidor: como eu gravo</span></div></div><div class="grao"></div></div>`,
+// 12/11 · Reels "Mini site da Rafael Imports" · AMARELO · MKA: foto-selo + celular inclinado com o site real
+r3:`<div class="a r am">${topo('CLIENTE')}<div class="abs mono" style="left:70px;top:370px;font-size:24px">(20 26) · RAFAEL IMPORTS</div>
+ <div class="abs" style="left:70px;right:70px;top:430px"><div class="h" style="font-size:108px">Do zero ao<br><em>link no ar</em>.</div></div>
+ <div class="abs" style="left:520px;top:780px;width:430px;height:880px;border-radius:64px;background:#0A0A0A;padding:16px;transform:rotate(6deg);box-shadow:0 60px 120px rgba(0,0,0,.35)"><div style="width:100%;height:100%;border-radius:50px;background:url(${F}site-rafael.png) top/cover"></div></div>
+ ${selo('f10.jpg',70,820,320,380,'50% 16%')}
+ <div class="abs" style="left:70px;top:1230px;width:400px"><p class="par">Mini site com o botão do WhatsApp. O cliente toca e já chama.</p><div style="margin-top:28px"><span class="tarja">rafaelimports.pages.dev</span></div></div>
+ <div class="abs" style="left:70px;top:1500px"><span class="circ">→</span></div></div>`,
+// 13/11 · Post "Avaliação gratuita do seu perfil" · PRETO · SIGNAL: manchete com a virada + tarja + selo
 p1:`<div class="a"><div class="abs" style="inset:0;background:radial-gradient(60% 40% at 50% 100%,rgba(245,197,24,.22),transparent 70%)"></div>${topo('REC 00:00:13')}
- <div class="abs mono" style="left:70px;right:70px;top:260px;text-align:center;font-size:24px;color:var(--ap)">Antes de qualquer conversa, o cliente olha o seu perfil.</div>
- <div class="abs" style="left:70px;right:70px;top:340px;text-align:center"><div class="h" style="font-size:104px">Seu perfil espanta cliente<br><em>antes da conversa</em>?</div><div style="margin-top:44px"><span class="tarja">Avaliação gratuita · comenta PERFIL</span></div></div>
- <div class="abs" style="left:50%;bottom:150px;transform:translateX(-50%);width:230px;height:230px;border-radius:50%;border:4px dashed var(--am);display:grid;place-items:center;text-align:center;font:800 40px/1 Manrope;color:var(--am);transform:translateX(-50%) rotate(-10deg)">GRÁTIS<br><span class="mono" style="font-size:18px;color:var(--papel)">BIO · DESTAQUES · LINK</span></div>${pe('',56)}<div class="grao"></div></div>`,
-// 14/11 · Carrossel "Antes × depois: a minha marca" · MKA: dois quadros ligados por seta + faixa corrida
-c2_1:`<div class="a cl">${topo('ANTES × DEPOIS')}<div class="abs mono" style="left:0;right:0;top:170px;background:var(--p);color:var(--am);font-size:26px;padding:14px 0;white-space:nowrap;overflow:hidden">ANTES × DEPOIS · ANTES × DEPOIS · ANTES × DEPOIS · ANTES × DEPOIS · ANTES × DEPOIS</div>
- <div class="foto" style="left:70px;top:290px;width:400px;height:711px;background-image:url(${F}story-1.jpg);filter:grayscale(.4)"></div><div class="foto" style="left:610px;top:290px;width:400px;height:711px;background-image:url(__ARTE_R1__)"></div>
- <div class="abs" style="left:460px;top:560px"><span class="circ" style="width:160px;height:160px">→</span></div>
- <div class="abs mono" style="left:70px;top:1015px;font-size:20px;color:#7a776f">ANTES</div><div class="abs mono" style="left:610px;top:1015px;font-size:20px">DEPOIS</div>
- <div class="abs" style="left:70px;right:70px;top:1080px"><div class="h" style="font-size:72px">Eu mudei a <em style="color:var(--p)">minha</em> marca.</div></div>${pe('01 / 04')}</div>`,
+ <div class="abs mono" style="left:70px;right:70px;top:250px;text-align:center;font-size:24px;color:var(--ap)">Antes de qualquer conversa, o cliente olha o seu perfil.</div>
+ <div class="abs" style="left:70px;right:70px;top:330px;text-align:center"><div class="h" style="font-size:104px">Seu perfil espanta cliente<br><em>antes da conversa</em>?</div><div style="margin-top:44px"><span class="tarja">Avaliação gratuita · comenta PERFIL</span></div></div>
+ <div class="abs" style="left:50%;bottom:150px;width:240px;height:240px;border-radius:50%;border:4px dashed var(--am);display:grid;place-items:center;text-align:center;font:800 42px/1 Manrope;color:var(--am);transform:translateX(-50%) rotate(-10deg)">GRÁTIS<br><span class="mono" style="font-size:17px;color:var(--t)">BIO · DESTAQUES · LINK</span></div>${pe()}<div class="grao"></div></div>`,
+// 14/11 · Carrossel "Antes × depois: a minha marca" · capa AMARELA · MKA: dois quadros ligados por seta
+c2_1:`<div class="a am">${topo('ANTES × DEPOIS')}<div class="abs mono" style="left:0;right:0;top:160px;background:var(--p);color:var(--am);font-size:26px;padding:14px 0;white-space:nowrap;overflow:hidden">ANTES × DEPOIS · ANTES × DEPOIS · ANTES × DEPOIS · ANTES × DEPOIS · ANTES × DEPOIS</div>
+ <div class="foto" style="left:70px;top:280px;width:400px;height:711px;background-image:url(${F}story-1.jpg);background-position:center;filter:grayscale(.5)"></div><div class="foto" style="left:610px;top:280px;width:400px;height:711px;background-image:url(artes/a1.png);background-position:center"></div>
+ <div class="abs" style="left:460px;top:555px"><span class="circ" style="width:160px;height:160px">→</span></div>
+ <div class="abs mono" style="left:70px;top:1005px;font-size:20px">ANTES</div><div class="abs mono" style="left:610px;top:1005px;font-size:20px">DEPOIS</div>
+ <div class="abs" style="left:70px;right:70px;top:1070px"><div class="h" style="font-size:76px">Eu mudei a <em>minha</em> marca.</div></div>${pe('01 / 04')}</div>`,
 c2_2:`<div class="a">${topo('O QUE MUDOU')}<div class="abs" style="left:70px;right:70px;top:220px"><div class="h">Menos enfeite.<br><em>Mais clareza.</em></div></div>
- <div class="abs" style="left:70px;right:70px;top:640px;display:grid;gap:0">${[['Cor','De azul com amarelo para preto e amarelo: um acento só por peça.'],['Letra','Manchete forte e uma palavra em itálico que vira a frase.'],['Foto','Rosto real, em preto e branco, sem fundo de sala.']].map((x,i)=>`<div style="display:grid;grid-template-columns:90px 220px 1fr;gap:20px;align-items:baseline;border-top:2px solid var(--l);padding:30px 0"><span class="mono" style="font-size:22px;color:var(--am)">0${i+1}</span><b style="font-size:44px">${x[0]}</b><span class="par" style="font-size:28px">${x[1]}</span></div>`).join('')}</div>${pe('02 / 04')}</div>`,
-c2_3:`<div class="a am">${topo('POR QUÊ')}<div class="abs" style="left:70px;right:70px;top:240px"><div class="h" style="font-size:100px">O cliente decide em <em>3 segundos</em>.</div><p class="par" style="color:#3a3200;margin-top:34px;font-size:32px">Se o perfil confunde, ele passa. Uma marca clara é a primeira venda.</p></div>
- <div class="abs" style="left:70px;bottom:160px;font:800 300px/0.8 Manrope;letter-spacing:-.06em">3s</div>${pe('03 / 04')}</div>`,
-c2_4:`<div class="a">${topo('REC 00:00:14')}${rec('v6_1',{x:430,w:650,sombra:false})}<div class="abs" style="left:70px;top:250px;width:560px"><div class="h" style="font-size:88px">E o seu perfil, <em>passa confiança</em>?</div><p class="par" style="margin-top:30px">Eu olho e te digo o que mudar. Sem custo.</p><div style="margin-top:40px"><span class="tarja">Comenta PERFIL</span></div></div>${pe('04 / 04')}<div class="grao"></div></div>`,
-// 15/11 · Reels "Mito: precisa postar todo dia" · MKA manifesto tipográfico em fundo amarelo
-r4:`<div class="a r am">${topo('MITO × VERDADE')}<div class="abs" style="left:70px;top:420px;border:5px solid var(--p);padding:8px 26px;font:800 60px Manrope;transform:rotate(-6deg)">MITO</div>
- <div class="abs" style="left:70px;right:70px;top:560px"><div style="font:800 118px/0.96 Manrope;letter-spacing:-.045em;text-decoration:line-through;text-decoration-thickness:12px">Precisa postar todo dia.</div>
- <div class="h" style="font-size:118px;margin-top:40px">Precisa postar <em>certo</em>.</div></div>
- <div class="abs" style="left:70px;width:520px;bottom:420px"><p class="par" style="color:#3a3200">3 posts que vendem valem mais que 30 que só enchem o feed.</p></div>
- ${rec('v9_43',{x:560,w:560,sombra:false})}</div>`};
-document.getElementById('x').innerHTML=S[A]||'';document.fonts.ready.then(()=>window.pronto=true);
+ <div class="abs" style="left:70px;right:70px;top:640px">${[['Cor','De várias cores para preto e amarelo: um acento só por peça.'],['Letra','Manchete forte e uma palavra em itálico que vira a frase.'],['Foto','Rosto real, em preto e branco, sem fundo de sala.']].map((x,i)=>`<div style="display:grid;grid-template-columns:90px 220px 1fr;gap:20px;align-items:baseline;border-top:2px solid var(--l);padding:30px 0"><span class="mono" style="font-size:22px;color:var(--am)">0${i+1}</span><b style="font-size:44px">${x[0]}</b><span class="par" style="font-size:28px">${x[1]}</span></div>`).join('')}</div>${pe('02 / 04')}</div>`,
+c2_3:`<div class="a am">${topo('POR QUÊ')}<div class="abs" style="left:70px;right:70px;top:240px"><div class="h" style="font-size:100px">Perfil confuso o cliente <em>passa direto</em>.</div><p class="par" style="margin-top:34px;font-size:32px">Uma marca clara é a primeira venda: ele entende quem você é antes de chamar.</p></div>
+ <div class="abs" style="left:70px;right:70px;bottom:150px;display:flex;gap:18px">${['Quem é','O que faz','Como chamar'].map(t=>`<div style="flex:1;border:3px solid var(--p);padding:26px 20px;font:800 34px Manrope">✓ ${t}</div>`).join('')}</div>${pe('03 / 04')}</div>`,
+c2_4:`<div class="a">${topo('REC 00:00:14')}${rec('f08-m.png',470,620,0)}<div class="abs" style="left:70px;top:250px;width:540px"><div class="h" style="font-size:88px">E o seu perfil, <em>passa confiança</em>?</div><p class="par" style="margin-top:30px">Eu olho e te digo o que mudar. Sem custo.</p><div style="margin-top:40px"><span class="tarja">Comenta PERFIL</span></div></div>${pe('04 / 04')}<div class="grao"></div></div>`,
+// 15/11 · Reels "Mito: precisa postar todo dia" · PRETO · manifesto tipográfico (mito riscado × verdade)
+r4:`<div class="a r">${topo('MITO × VERDADE')}<div class="abs" style="left:70px;top:400px;border:5px solid var(--am);color:var(--am);padding:8px 26px;font:800 60px Manrope;transform:rotate(-6deg)">MITO</div>
+ <div class="abs" style="left:70px;right:70px;top:540px"><div style="font:800 116px/0.96 Manrope;letter-spacing:-.045em;color:#6f6f6f;text-decoration:line-through;text-decoration-thickness:12px;text-decoration-color:var(--rec)">Precisa postar todo dia.</div>
+ <div class="h" style="font-size:124px;margin-top:40px">Precisa postar <em>certo</em>.</div></div>
+ <div class="abs" style="left:70px;width:470px;bottom:430px"><p class="par">3 posts que vendem valem mais que 30 que só enchem o feed.</p></div>
+ ${rec('f15-m.png',540,560)}<div class="grao"></div></div>`};
+document.getElementById('x').innerHTML=S[A]||'';
+Promise.all([document.fonts.ready,...[...document.images].map(i=>i.complete?1:new Promise(r=>{i.onload=i.onerror=r}))]).then(()=>setTimeout(()=>window.pronto=true,300));
 </script></body></html>
