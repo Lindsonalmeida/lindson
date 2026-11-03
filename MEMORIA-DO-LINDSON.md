@@ -94,6 +94,8 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 
 - **Treinamento (03/11, Jaci):** vídeos para a equipe do cliente ficam na aba Treinamento do painel, **incorporados** (assiste dentro da Central) e com o botão "Abrir no YouTube" de reserva. Lista em `dados/<cliente>.json` → `treinamento`; código genérico em `prototipo/treinamento.js`.
 
+- **Clone de voz, teste 01** (03/11 · Pedro): Chatterbox Multilingual em português ("ficou ótimo"). Base aprovada para o app de clone. Está em `conteudo/referencias/ia-video-voz/teste/`.
+
 ## 4. REPROVADO: nunca repetir
 
 1. **Elementos gráficos na identidade do Leo**: raios, faixas de padrão, ícones, fumaça, sol desenhado e bandeirinhas. Motivo: "esses elementos estão feios" (02/11). A identidade do Leo é só fontes, logo e cores.
