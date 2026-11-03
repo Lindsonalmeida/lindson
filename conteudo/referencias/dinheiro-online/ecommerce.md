@@ -79,7 +79,7 @@ Legenda: "oficial" = página da empresa ou do governo; "blog" = terceiro; **[Int
 - **Lição 2:** regra de importação mudou três vezes em dois anos. Nenhum negócio deve depender só dela.
 - **Lição 3:** para o Lindson, e-commerce é **serviço** (vídeo, live, afiliados, operação para lojas) e **POD dos canais**, não estoque próprio.
 - **Lição 4:** a loja do cliente precisa de canal próprio (site + WhatsApp) além do marketplace, para guardar o contato do comprador.
-- Maquiavel: "le guerre non si levano, ma si differiscono a vantaggio di altri" (a guerra não se evita, só se adia em proveito dos outros) (*Príncipe* III). A concorrência chinesa voltou abaixo de US$ 50: o lojista que adiar a adaptação perde para quem já se mexeu.
+- Maquiavel: "la guerra non si lieva, ma si differisce a vantaggio di altri" (ed. Inglese; a guerra não se evita, só se adia em proveito dos outros) (*Príncipe* III). A concorrência chinesa voltou abaixo de US$ 50: o lojista que adiar a adaptação perde para quem já se mexeu.
 
 ## Lacunas
 - Tabelas oficiais de Mercado Livre, Shopee, TikTok Shop e Amazon (só blogs; a Shopee via Priceva citando o oficial).

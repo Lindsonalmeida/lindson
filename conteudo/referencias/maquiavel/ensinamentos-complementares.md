@@ -1,6 +1,6 @@
 # Maquiavel — ensinamentos complementares (249 em diante)
 
-**Situação:** completo — 392 ensinamentos (249–640): *História de Florença* 249–411; *Arte da Guerra* 412–468; legações e escritos 469–517; cartas 518–552; literatura 553–625; vida 626–640. (conta Zuleide, ciclo 2 da revisão, 03/11/2026)
+**Situação:** completo — 393 ensinamentos (249–641; o 641, *História de Florença* III.7, entrou nos testes v3, conta Zuleide, 03/11/2026): *História de Florença* 249–411; *Arte da Guerra* 412–468; legações e escritos 469–517; cartas 518–552; literatura 553–625; vida 626–640. (conta Zuleide, ciclo 2 da revisão, 03/11/2026)
 
 Continua `../maquiavel-todos-ensinamentos.md` (1–248: *Príncipe*, *Discursos*, regras gerais da *Arte da Guerra*). Aqui entram os ensinamentos que faltavam: *História de Florença* (8 livros), *Arte da Guerra* além das regras gerais, legações e escritos políticos, cartas, literatura e a vida.
 
@@ -1667,6 +1667,10 @@ Negócio [Interpretação nossa]: em mercado polarizado, a imagem pública conta
 **640. Humor salva a cabeça na adversidade.**
 Ref.: fato documentado — Bartolomeo Ruffini (23/10/1502) diz que as piadas das cartas dele «muovono ogni uno a smascellare delle risa» (via Marchand, *Enc. mach.*); as cartas de prisão e exílio são cheias de autoironia.
 Negócio [Interpretação nossa]: manter o humor com a equipe em semanas duras preserva o clima; nunca à custa de cliente.
+
+**641. Pôr a causa comum acima até da própria salvação: o povo reconhece e premia quem faz isso.**
+Ref.: *História de Florença* III.7 (Guerra dos Oito Santos, 1375–1378). Texto: «ed erano chiamati Santi, ancora che eglino avessero stimate poco le censure, e le chiese de' beni loro spogliate, e sforzato il clero a celebrare gli uffizi: tanto quelli cittadini stimavano allora più la patria che l'anima» (e eram chamados Santos, embora tivessem feito pouco caso das censuras [a excomunhão], despojado as igrejas dos seus bens e obrigado o clero a celebrar os ofícios: tanto aqueles cidadãos estimavam então mais a pátria que a alma). Conferido no texto Martelli (BibIt) e no Wikisource. Ligação: é a mesma fórmula que ele usa para si mesmo cinquenta anos de escrita depois, na carta a **Francesco Vettori** de 16/4/1527: «amo la patria mia più dell'anima» (ensinamento 549; `vida-e-cartas.md` 3.5). A ed. Lesca das *Lettere* (1929, nota 39 às cartas de 1526–1527) já faz essa aproximação com III.7. [Interpretação nossa] Na *História* a frase descreve os magistrados florentinos; na carta, é ele quem se põe no lugar deles.
+Negócio [Interpretação nossa]: quem defende o projeto comum mesmo pagando um preço pessoal ganha a confiança do grupo (os Oito tiveram o cargo renovado todo ano). Na Alkantara: defender o cliente e a equipe contra um parceiro poderoso, dentro da lei e do contrato, constrói reputação; nunca serve de desculpa para passar por cima da ética.
 
 ---
 

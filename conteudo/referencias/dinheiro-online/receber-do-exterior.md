@@ -114,7 +114,7 @@ Regras deste arquivo: cada número tem fonte e data. "Lido no oficial" = página
 - **Lição 2:** preencha o W-8BEN no AdSense. Sem ele, perde até 24% de tudo; com ele, só os 30% sobre a parte dos EUA.
 - **Lição 3:** canal no CPF acima de uns R$ 5 mil/mês paga 27,5% na margem. Leve ao contador a ideia de ME no Simples.
 - **Lição 4:** antes de 01/02/2027, aceitar os novos termos do YPP no Studio e, se der, bater as 4.000 horas antes da regra nova.
-- Maquiavel diria que o príncipe prudente "fa come gli arcieri prudenti" (faz como os arqueiros prudentes), mirando mais alto para acertar onde quer (*Príncipe* VI): calcule a sobra líquida, não o bruto.
+- Maquiavel diz que o homem prudente deve "fare come gli arcieri prudenti" (fazer como os arqueiros prudentes), mirando mais alto para acertar onde quer (*Príncipe* VI): calcule a sobra líquida, não o bruto.
 
 ## Lacunas (próxima rodada)
 - Limite e data exata de pagamento do AdSense na Central de Ajuda oficial (só blogs).

@@ -80,7 +80,7 @@ Inventário no repositório (ver `ESTADO-DO-PROJETO.md`):
 - **Lição 2:** comece como serviço com software (white label para agências) antes de SaaS aberto.
 - **Lição 3:** WhatsApp é a interface do Brasil. Ferramenta que vive no WhatsApp vende mais fácil aqui.
 - **Lição 4:** cobrança recorrente automática (Stripe Billing 0,7%, Pix Automático) desde o primeiro cliente.
-- Maquiavel: "chi non fa e' fondamenti prima, li potrebbe con una grande virtù farli poi, ancora che si faccino con disagio dello architettore e periculo dello edifizio" (quem não faz os alicerces antes poderia, com grande virtude, fazê-los depois, mas com incômodo do arquiteto e perigo do edifício) (*Príncipe* VII). Em software, os alicerces são cobrança, dados e suporte: monte antes de crescer.
+- Maquiavel: "chi non fa e' fondamenti prima, gli potrebbe con una grande virtù farli poi, ancora che si faccino con disagio dello architettore e periculo dello edifizio" (quem não faz os alicerces antes poderia, com grande virtude, fazê-los depois, mas com incômodo do arquiteto e perigo do edifício) (*Príncipe* VII). Em software, os alicerces são cobrança, dados e suporte: monte antes de crescer.
 
 ## Lacunas
 - Tabela oficial da API do WhatsApp em reais (publicada pela Meta em 2026).

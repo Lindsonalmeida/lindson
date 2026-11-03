@@ -299,7 +299,7 @@ Pontos principais (conferidos no italiano):
 - **Fatos principais:**
   - cap. 1: **capítulo teórico** — Roma × Florença (ver tese).
   - cap. 2–6: briga **Albizzi × Ricci**; a **Parte Guelfa** usa as "ammonizioni" (declarar alguém gibelino para tirá-lo dos cargos) como arma de facção; o discurso de um cidadão em San Piero Scheraggio (cap. 5); a Senhoria dá poder a 56 cidadãos para reformar (cap. 6).
-  - cap. 7: **Guerra dos Oito Santos** contra o papa Gregório XI (1375–1378).
+  - cap. 7: **Guerra dos Oito Santos** contra o papa Gregório XI (1375–1378). Os Oito da Guerra eram chamados "Santos" mesmo tendo desprezado a excomunhão, tomado bens das igrejas e obrigado o clero a celebrar: «tanto quelli cittadini stimavano allora più la patria che l'anima» (III.7; conferido no texto Martelli/BibIt e no Wikisource). É a fórmula que ele repete para si na carta a Francesco Vettori de 16/4/1527 («amo la patria mia più dell'anima»; ver `vida-e-cartas.md` 3.5 e `ensinamentos-complementares.md` 641).
   - cap. 8–11: a Parte Guelfa contra os "Oito"; **Salvestro de' Medici** gonfaloneiro (1378) propõe leis contra a Parte; tumultos; Lapo da Castiglionchio foge; discurso de **Luigi Guicciardini** às Artes (cap. 11).
   - cap. 12–17: **tumulto dos Ciompi (julho de 1378)** — os trabalhadores da lã, sem corporação própria, se reúnem de noite (cap. 13, discurso do Ciompo anônimo), um deles é preso e confessa (cap. 14), a plebe toma o Palácio (cap. 15–16) e põe na Senhoria o cardador **Michele di Lando**, que reforma o governo, cria três novas Artes e depois **derrota a própria plebe** quando ela se revolta de novo (cap. 17).
   - cap. 18–22: governo das Artes menores (1378–1382); **Giorgio Scali** e Tommaso Strozzi; Scali é decapitado (cap. 20–21); volta da oligarquia em **1382**.
@@ -637,7 +637,7 @@ Pontos principais (conferidos no italiano):
 - **Texto:**
   - I.9: os papas cresceram pela reverência e depois pelo vácuo político; passaram a chamar estrangeiros (francos contra longobardos, Anjou contra os Hohenstaufen), o que manteve a Itália dividida (tese também em *Discursos* I.12).
   - I.15: Henrique IV foi «il primo principe che cominciasse a sentire di quale importanza fussero le spirituali ferite» — "o primeiro príncipe a sentir a importância das feridas espirituais" (a excomunhão).
-  - III.7: os legados do papa em Avinhão, «pieni di avarizia e di superbia», provocaram a Guerra dos Oito Santos.
+  - III.7: os legados do papa em Avinhão, «pieni di avarizia e di superbia», provocaram a Guerra dos Oito Santos. Os Oito enfrentaram as censuras da Igreja: «tanto quelli cittadini stimavano allora più la patria che l'anima».
   - VI.29: Porcari contra o governo dos prelados em Roma.
   - VII.31; VIII.2–12: **Sisto IV** e seus sobrinhos (Girolamo Riario) estão por trás dos Pazzi; depois excomunga Florença: «perché, oltre alle temporali i Fiorentini ancora le spirituali ferite sentissero, gli scomunicò e maladisse» (VIII.10).
   - VIII.17: entre o papa e o rei, Florença escolhe o rei: «la brevità della vita de' papi, la variazione della successione, il poco timore che la Chiesa ha de' principi, i pochi rispetti che la ha nel prendere i partiti» tornam o papa um aliado em quem não se pode confiar.

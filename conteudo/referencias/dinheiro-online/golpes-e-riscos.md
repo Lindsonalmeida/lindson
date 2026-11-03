@@ -72,7 +72,7 @@ Duas partes: **(A) golpes** contra quem quer ganhar dinheiro online (e contra os
 - **Lição 2:** o golpe que hoje está nos relatórios da FTC e da ONU chega ao WhatsApp brasileiro em meses. Use este arquivo para **avisar os clientes** (vira conteúdo de autoridade para o Lindson: "3 golpes que estão chegando no seu WhatsApp"). *(Interpretação)*
 - **Lição 3:** o maior risco de quem vive de internet não é o golpe, é a **plataforma mudar a regra**. Diversificar canais e guardar os contatos.
 - **Lição 4:** vender curso de "ganhar dinheiro" com promessa de número é o terreno onde o regulador americano está mirando; no produto master, prometa **processo e entregáveis**, nunca renda.
-- Maquiavel: "gli uomini sono tanto semplici e tanto obediscono alle necessità presenti, che colui che inganna troverrà sempre chi si lascerà ingannare" (os homens são tão simples e tão obedientes às necessidades do momento que quem engana sempre achará quem se deixe enganar) (*Príncipe* XVIII). Por isso o agente presume a trapaça até a prova.
+- Maquiavel: "sono tanto semplici li òmini e tanto obediscano alle necessità presenti, che colui che inganna troverrà sempre chi si lascerà ingannare" (ed. Inglese; os homens são tão simples e tão obedientes às necessidades do momento que quem engana sempre achará quem se deixe enganar) (*Príncipe* XVIII). Por isso o agente presume a trapaça até a prova.
 
 ## Lacunas
 - Dados da FTC de 2025 por categoria (emprego e oportunidade de negócio) na fonte oficial (ftc.gov/exploredata).
