@@ -28,3 +28,5 @@ O Lindson: "crie mais dois modelos da arte de parabéns, ele não gostou dessa, 
 - Gerar: `"modelo":"b"` ou `"c"` no dados.json → `node gerar.js <pasta> dados-b.json` → `aniversario-b.jpg`.
 
 **Foto melhor:** antes de recortar, `python3 ../../../../ferramentas/melhorar_foto.py foto.jpg foto-hd.png` (Real-ESRGAN x2 + ajuste leve de cor; modelo em `~/.modelos/real_esrgan_x2.onnx`, baixar de https://huggingface.co/facefusion/models-3.0.0/resolve/main/real_esrgan_x2.onnx). O recorte é feito na foto HD.
+
+**Modelo B aprovado pelo Lindson (03/11) = padrão de aniversário.** Story: acrescente `"story":true` no dados.json → `aniversario-b-story.jpg` (1080×1920 em 2×, áreas seguras do story).

@@ -3,9 +3,9 @@
      Copiado de modelos EXTERNOS do Designi: "Feliz Aniversário João Cláudio" (#47596547d980596e: fundo claro, "Parabéns" condensado gigante atrás da cabeça,
      "FELIZ ANIVERSÁRIO" pequeno espaçado em cima, frase em linhas grifadas à esquerda, pílula com o nome no peito, rodapé de assinatura) +
      "Vereador Gustavo José" (#1abf03c331f9ccbe: palavra repetida em degradê sumindo atrás da pessoa, "Feliz Aniversário" manuscrito embaixo).
-     Identidade do Leo; sem balões, chapéu, corações ou ícones. Dados por window.DADOS (gerar.js, "modelo":"b"). -->
+     Identidade do Leo; sem balões, chapéu, corações ou ícones. Dados por window.DADOS (gerar.js, "modelo":"b"; "story":true gera 1080x1920 com áreas seguras do story). -->
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Kaushan+Script&family=Montserrat:wght@500;700;800;900&display=swap" rel="stylesheet">
-<style>*{box-sizing:border-box;margin:0;padding:0}body{width:1080px;height:1350px;overflow:hidden;font-family:Montserrat}
+<style>*{box-sizing:border-box;margin:0;padding:0}body{width:1080px;height:auto;overflow:hidden;font-family:Montserrat}
 .arte{position:relative;width:1080px;height:1350px;overflow:hidden;background:radial-gradient(900px 700px at 50% 40%,#FFFFFF 0,#FFF6EA 45%,#FFE3C4 100%)}
 .a{position:absolute}
 .grao{inset:0;opacity:.10;mix-blend-mode:multiply;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>")}
@@ -29,15 +29,19 @@
 .pill img{width:46px;height:46px;border-radius:50%;object-fit:cover}
 .rod{left:56px;right:56px;bottom:40px;display:flex;justify-content:space-between;align-items:center;font:700 19px Montserrat;color:#05316E}
 .rod img{width:170px}
+.st{height:1920px}
+.st .topo{top:300px}.st .e1{top:338px}.st .e2{top:560px}.st .e3{top:782px}.st .luz{top:500px}
+.st .frase{top:720px}.st .data{top:720px}.st .pill{top:150px}
+.st .nome{bottom:520px}.st .script{bottom:400px}.st .rod{bottom:250px}.st .chao{height:640px;background:linear-gradient(180deg,rgba(255,246,234,0),#FFF6EA 45%)}
 </style></head><body><div id="arte"></div><script>
 const d=window.DADOS,nome=(d.nome1+' '+(d.nome2||'')).trim();
 const frase=(d.frase||'').split('|').map(t=>`<span>${t.trim()}</span>`).join('<br>');
 const [dia,mes]=(d.dataCurta||'').split(' ');
-document.getElementById('arte').innerHTML=`<div class="arte"><div class="a grao"></div><div class="a luz"></div>
+document.getElementById('arte').innerHTML=`<div class="arte${d.story?' st':''}"><div class="a grao"></div><div class="a luz"></div>
 <div class="a pill"><img src="${d.avatar}">@_leonardopinto</div>
 <div class="a topo">FELIZ ANIVERSÁRIO</div>
 <div class="a eco e1">PARABÉNS</div><div class="a eco e2">PARABÉNS</div><div class="a eco e3">PARABÉNS</div>
-<img class="a pessoa" src="${d.foto}" style="top:${d.topoB||300}px;width:${d.larguraB||900}px;margin-left:${d.dx||0}px">
+<img class="a pessoa" src="${d.foto}" style="top:${d.story?(d.topoStory||520):(d.topoB||300)}px;width:${d.story?(d.larguraStory||1000):(d.larguraB||900)}px;margin-left:${d.dx||0}px">
 <div class="a chao"></div>
 ${frase?`<div class="a frase">${frase}</div>`:''}
 ${dia?`<div class="a data"><b>${dia}</b>${mes||''}</div>`:''}
