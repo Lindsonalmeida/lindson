@@ -1241,7 +1241,7 @@ Ref.: Guicciardini, 17/5/1521. Texto: «il vero modo ad andare in Paradiso: inpa
 Negócio [Interpretação nossa]: estude os erros comuns (golpes, contas bloqueadas, clientes que quebram) para evitá-los; é o método deste acervo.
 
 **542. Aparência de prestígio abre portas: o "fumo" das cartas do governador.**
-Ref.: Guicciardini, 18/5/1521. Texto: «il fumo ne è ito sino al cielo».
+Ref.: Guicciardini, 18/5/1521. Texto: «il fumo ne è ito sino al cielo». Na véspera (17/5/1521): «et io, perché la riputatione crescesse, dissi che lo imperadore si aspettava a Trento…» (inventou notícias de corte para os frades, por brincadeira; ver `missoes-e-escritos-politicos.md` B.14).
 Negócio [Interpretação nossa]: sinais de reputação (depoimentos, parceiros conhecidos) aumentam a força numa negociação; só use sinais verdadeiros.
 
 **543. Quem escreve a história de poderosos deve dizer a verdade sem dar motivo de queixa.**
