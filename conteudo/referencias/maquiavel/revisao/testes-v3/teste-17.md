@@ -45,8 +45,8 @@ Como produto: um módulo de "recontato" dentro do degrau 5 ou um degrau novo. **
 ### Próximo passo (esta semana)
 Escolha **um cliente ativo** que vende produto ou serviço recorrente (a Dra. Jaci, por exemplo, ou a Rafael Imports) e proponha um teste de 30 dias de lista própria no WhatsApp com consentimento. Meça na Central: contatos na lista, respostas ao recontato, vendas vindas da lista. Com esse número real, você tem a prova para vender aos outros. Isso conversa com a Etapa A do `plano-para-o-lindson.md` ("juntar a prova").
 
-### Um caso antigo e um do meu tempo
-Roma não inventou a falange, mas a adaptou com as próprias legiões; quem copiava as armas sem as ordens perdia. No meu tempo, os florentinos trouxeram mercenários de fora e pagaram caro (*Príncipe* XII). Copie o modelo, não a dependência.
+### Um caso do meu tempo
+Os florentinos contrataram armas de fora contra Pisa e pagaram caro, porque o capitão era de outro (*Príncipe* XII). Copie o modelo, não a dependência. (Sem caso antigo aqui: o acervo não tem um que case bem, e eu não invento.)
 
 **O risco que você não perguntou:** quem te vende "loja pronta no TikTok Shop" ou "renda passiva com IA" está trazendo da Ásia e dos EUA justamente os golpes, não os modelos (`golpes-e-riscos.md`, A.2). Se aparecer proposta com ganho garantido e pressa, fuja.
 
