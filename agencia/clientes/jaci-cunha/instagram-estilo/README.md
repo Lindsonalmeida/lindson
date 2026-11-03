@@ -1,6 +1,6 @@
 # Estilo das artes da Dra. Jaci Cunha (aprendido em 03/11/2026, conta Lindson)
 
-Fonte: 5 posts reais do perfil @clinica.drajacicunha enviados pelo Lindson ("frases que eu amo ouvir", "Entramos na reta final do ano", antes e depois de lábios, "Seu botox, dia após dia", "checklist do pós botox"). As imagens ficaram fora do Git (fotos da cliente e de paciente). **Regra: nada se cria, tudo se copia** — artes novas da Jaci copiam estas composições.
+Fonte: 12 posts reais (2 lotes em 03/11) do perfil @clinica.drajacicunha enviados pelo Lindson ("frases que eu amo ouvir", "Entramos na reta final do ano", antes e depois de lábios, "Seu botox, dia após dia", "checklist do pós botox"). As imagens ficaram fora do Git (fotos da cliente e de paciente). **Regra: nada se cria, tudo se copia** — artes novas da Jaci copiam estas composições.
 
 ## Assinatura fixa (em TODO post)
 - **Topo, 3 colunas na mesma linha** (y ≈ 90–120 px, Poppins/Montserrat ~20 px): esquerda `CLINICA.DRAJACICUNHA` (peso alternado: CLINICA bold, .DRA regular, JACI bold, CUNHA regular) + selo azul de verificado · centro `CIRURGIÃ-DENTISTA` · direita `@clinica.drajacicunha` (jaci em bold).
@@ -29,6 +29,16 @@ Fonte: 5 posts reais do perfil @clinica.drajacicunha enviados pelo Lindson ("fra
 3. **Antes e depois**: duas fotos empilhadas (antes em cima, depois embaixo), assinatura pequena "Draª Jaci Cunha / Cro: 8514" no canto da foto de depois. Sem texto extra.
 4. **Tela informativa (dentro do carrossel)**: foto de procedimento desfocada e clareada com véu branco ~60%, título sans bold caixa alta centralizado, lista com check em círculo verde-escuro, nota final em serifada itálica condensada.
 5. **Capa "checklist"**: Jaci segurando tablet, palavra gigante serifada fina sobre o tablet ("botox"), faixa vinho "checklist" + "do pós", "ARRASTE PARA O LADO".
+
+## Variações vistas no 2º lote
+- **Assinatura com 2 variações**: topo com 3 colunas (completo) ou só 2 (sem "CIRURGIÃ-DENTISTA"); rodapé às vezes **centralizado em 2 linhas** (`CLÍNICA DRA. JACI CUNHA` / `AV. MILITAR, EM FRENTE A PRAÇA DO VIVA - ZÉ DOCA/MA.`). Topo em **dourado** (#B9A27A) quando o fundo é claro e a roupa é vermelha.
+- **Faixa dourada com fio e pontos nas pontas** atrás do título serifado itálico ("Bioestimulador de Colágeno"), com pergunta em sans **sublinhada** embaixo ("QUANDO COMEÇAR?") e um pequeno selo/ícone no meio do fio.
+- **Faixa escura (marrom café)** atrás do título em serifada itálica branca + texto sans itálico com palavras em bold e trecho sublinhado ("Antes de qualquer procedimento, eu observo.") + **botão-pílula vazado com seta →** (CTA de carrossel).
+- **Balão de fala branco** ("As **PERGUNTAS** que você pensa mas não faz:") sobre a palavra gigante serifada itálica ("botox") + linha sans "O QUE **NINGUÉM** RESPONDE." + **indicador de páginas** (2 pontinhos) no canto inferior direito.
+- **Título serifado com fundo semi-transparente** (faixa cinza-quente 60%) e pergunta em sans fino com palavras em bold ("por que alguns ficam **artificiais** e outros tão **naturais**?") + "ARRASTA PARA O **LADO**" sublinhado.
+- **Tríptico narrativo em 3 faixas horizontais** ("a **tela**:" lábio antes / "a **artista**:" Jaci posando / "a **obra de arte**:" lábio depois), cada faixa com título sans em peso misto e subtítulo fino translúcido.
+- **Antes e depois lado a lado em fundo preto** com a **logo oficial** no topo (monograma JC + perfil, "DRA. JACI CUNHA · HARMONIZAÇÃO OROFACIAL E ODONTOLOGIA" em dourado) — versão "premium" do antes/depois. Também versão empilhada (antes em cima, depois embaixo) só com "Draª Jaci Cunha / Cro: 8514" no canto.
+- Roupas: off-white, branco, preto, **vermelho/bordô**, rosa-claro; joias douradas grandes sempre visíveis.
 
 ## Fotos disponíveis
 `../fotos/` (8 fotos de estúdio: off-white tablet, off-white sofá, preto, branco). Para antes e depois, usar só foto de paciente com autorização (pedir ao Lindson).
