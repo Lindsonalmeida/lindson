@@ -7,6 +7,9 @@
 //     CODIGOS = JSON {"<HMAC-SHA256(SEGREDO, código)>": "admin" | "jaci" | "leo" | "apple"}
 //   Vínculos (Bindings) → KV: variável CONTAS = namespace "central-contas" (guarda as contas, com a senha em PBKDF2)
 // Os códigos nunca ficam no código nem no GitHub: só o HMAC deles, e só na Cloudflare.
+// Códigos de clientes novos (sem mexer nos segredos da Cloudflare): _codigos.js lista {sal, hash, cli} com o hash PBKDF2 do código.
+// O _codigos.js de verdade existe SÓ no repositório privado (CentralLindsonALmeida); aqui no público ele fica vazio. Nunca copie o vazio por cima do privado.
+import { EXTRA } from './_codigos.js';
 const enc = new TextEncoder();
 const hex = b => [...new Uint8Array(b)].map(x => x.toString(16).padStart(2, '0')).join('');
 export async function hmac(segredo, texto) {
@@ -33,7 +36,10 @@ export function iguais(a, b) { if (a.length !== b.length) return false; let d = 
 export async function clienteDoCodigo(env, codigo) {
   const c = normaliza(codigo); if (c.length !== 11) return null;
   let mapa = {}; try { mapa = JSON.parse(env.CODIGOS); } catch (e) {}
-  return mapa[await hmac(env.SEGREDO, c)] || null;
+  const cli = mapa[await hmac(env.SEGREDO, c)];
+  if (cli) return cli;
+  for (const x of EXTRA || []) { const { hash } = await hashSenha(c, x.sal); if (iguais(hash, x.hash)) return x.cli; }
+  return null;
 }
 
 // cookie assinado: cli.exp.emailBase64url.sig

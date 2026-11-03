@@ -5,6 +5,8 @@
 // Conta Lindson, 01/11/2026.
 (() => {
 const F = window.__FERR; if (!F) return;
+// Palavras da tela (padrão = clínica). Outro tipo de negócio troca em F.palavras (ex.: desentupidora: cliente, visita, serviço).
+const W = Object.assign({ pac: 'paciente', Pac: 'Paciente', pacs: 'pacientes', aval: 'avaliação', Aval: 'Avaliação', avals: 'avaliações', Avals: 'Avaliações', proc: 'procedimento', Proc: 'Procedimento', procs: 'Procedimentos', fezProc: 'Fizeram procedimento', marcaram: 'Marcaram avaliação', tinhaAval: 'de quem tinha avaliação marcada', negocio: 'a clínica', crm: 'CRM de pacientes', regra: 'As mensagens seguem as regras do CFO: sem preço, sem promoção e sem promessa de resultado.' }, F.palavras || {});
 const H = window.__h, V = window.__V, T = window.__T, cli = H.cli(), chip = H.chip;
 const toast = t => window.__toast(t), render = () => window.__render();
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -146,7 +148,7 @@ function cartao(p) {
    <div class="ac">${botaoWa(p)}${prox && !['perdido'].includes(prox.id) && e.id !== 'retorno' ? `<button class="btn lin" type="button" data-avanca="${p.id}" title="Mover para ${esc(prox.nome)}">${esc(e.botao || prox.nome)} ›</button>` : ''}</div></div>`;
 }
 V.crm = () => {
-  if (!S.crm || !S.crm.pronto) return `<div class="card"><p class="sub">Carregando os pacientes…</p></div>`;
+  if (!S.crm || !S.crm.pronto) return `<div class="card"><p class="sub">Carregando os ${W.pacs}…</p></div>`;
   const R = resumoCRM(), l = filtrados(), origens = [...new Set([...F.origens, ...crm().map(p => p.origem).filter(Boolean)])];
   const kpi = (r, v, n) => `<div class="card kpi"><div class="rot">${r}</div><div class="val">${v}</div><div class="var up"><span>${n}</span></div></div>`;
   const porOrigem = origens.map(o => { const g = crm().filter(p => p.origem === o); if (!g.length) return ''; const av = g.filter(p => ['marcada', 'compareceu', 'fez', 'retorno'].includes(p.etapa)).length, fz = g.filter(p => ['fez', 'retorno'].includes(p.etapa)).length;
@@ -154,17 +156,17 @@ V.crm = () => {
   const corpo = crmModo === 'funil'
     ? `<div class="fr-funil">${ET.filter(e => e.id !== 'perdido').map(e => { const g = l.filter(p => p.etapa === e.id); return `<div class="fr-col"><h4>${esc(e.nome)} <span>${g.length}</span></h4>${g.map(cartao).join('') || '<div class="d" style="font-size:12px;color:var(--apagado)">Ninguém aqui.</div>'}</div>`; }).join('')}</div>
        <p class="sub" style="margin-top:10px">Não seguiram: ${l.filter(p => p.etapa === 'perdido').length} · <a href="#crm" data-modo="lista" style="color:var(--amarelo)">ver na lista</a></p>`
-    : `<div class="card"><div class="tab"><table><thead><tr><th>Paciente</th><th>Interesse</th><th>Origem</th><th>Etapa</th><th>Avaliação</th><th></th></tr></thead><tbody>${l.slice().sort((a, b) => (b.em || '').localeCompare(a.em || '')).map(p => `<tr data-abre="${p.id}" style="cursor:pointer"><td><b>${esc(p.nome)}</b><br><span class="d" style="font-size:12px;color:var(--apagado)">${esc(p.whats || 'sem WhatsApp')}</span></td><td>${esc(p.interesse || '')}</td><td>${esc(p.origem || '')}</td><td>${chip(etapa(p.etapa).nome)}</td><td>${esc(p.avaliacao ? quando(p.avaliacao) : '')}</td><td>${botaoWa(p)}</td></tr>`).join('') || '<tr><td colspan="6">Nenhum paciente encontrado.</td></tr>'}</tbody></table></div></div>`;
-  return `<div class="grade g4">${kpi('Contatos no mês', R.contatosMes, R.comCodigo + ' vieram de anúncio (código)')}${kpi('Avaliações marcadas', R.marcadas, 'esperando a data')}${kpi('Comparecimento', R.comparecimento, 'de quem tinha avaliação marcada')}${kpi('Procedimentos no mês', R.procedimentos, R.valorMes ? brl(R.valorMes) : 'valor a lançar')}</div>
-   ${R.retornosVencidos ? `<div class="card" style="border-color:var(--alerta)"><b>${R.retornosVencidos} paciente(s) com retorno vencido.</b> <span class="sub" style="margin:0">Toque em WhatsApp no card para chamar para a revisão.</span></div>` : ''}
-   <div class="fr-barra"><button class="btn am" type="button" data-novo-pac>+ Novo paciente</button><input type="search" id="fr-busca" placeholder="Buscar por nome, telefone ou interesse" value="${esc(crmBusca)}" aria-label="Buscar paciente">
+    : `<div class="card"><div class="tab"><table><thead><tr><th>${W.Pac}</th><th>Interesse</th><th>Origem</th><th>Etapa</th><th>${W.Aval}</th><th></th></tr></thead><tbody>${l.slice().sort((a, b) => (b.em || '').localeCompare(a.em || '')).map(p => `<tr data-abre="${p.id}" style="cursor:pointer"><td><b>${esc(p.nome)}</b><br><span class="d" style="font-size:12px;color:var(--apagado)">${esc(p.whats || 'sem WhatsApp')}</span></td><td>${esc(p.interesse || '')}</td><td>${esc(p.origem || '')}</td><td>${chip(etapa(p.etapa).nome)}</td><td>${esc(p.avaliacao ? quando(p.avaliacao) : '')}</td><td>${botaoWa(p)}</td></tr>`).join('') || `<tr><td colspan="6">Nenhum ${W.pac} encontrado.</td></tr>`}</tbody></table></div></div>`;
+  return `<div class="grade g4">${kpi('Contatos no mês', R.contatosMes, R.comCodigo + ' vieram de anúncio (código)')}${kpi(`${W.Avals} marcadas`, R.marcadas, 'esperando a data')}${kpi('Comparecimento', R.comparecimento, `${W.tinhaAval}`)}${kpi(`${W.procs} no mês`, R.procedimentos, R.valorMes ? brl(R.valorMes) : 'valor a lançar')}</div>
+   ${R.retornosVencidos ? `<div class="card" style="border-color:var(--alerta)"><b>${R.retornosVencidos} ${W.pac}(s) com retorno vencido.</b> <span class="sub" style="margin:0">Toque em WhatsApp no card para chamar para a revisão.</span></div>` : ''}
+   <div class="fr-barra"><button class="btn am" type="button" data-novo-pac>+ Novo ${W.pac}</button><input type="search" id="fr-busca" placeholder="Buscar por nome, telefone ou interesse" value="${esc(crmBusca)}" aria-label="Buscar ${W.pac}">
     <select id="fr-origem" aria-label="Filtrar por origem"><option value="">Todas as origens</option>${origens.map(o => `<option ${o === crmOrigem ? 'selected' : ''}>${esc(o)}</option>`).join('')}</select>
     <div class="fr-tog" role="group" aria-label="Modo de ver"><button type="button" data-modo="funil" aria-pressed="${crmModo === 'funil'}">Funil</button><button type="button" data-modo="lista" aria-pressed="${crmModo === 'lista'}">Lista</button></div>${statusSalvo('crm')}</div>
    ${corpo}
-   <div class="grade g2" style="margin-top:14px"><div class="card"><h3>De onde vêm os pacientes</h3><p class="sub">Cada anúncio abre o WhatsApp com um código. Aqui você vê qual traz avaliação de verdade.</p><div class="tab"><table><thead><tr><th>Origem</th><th>Contatos</th><th>Marcaram avaliação</th><th>Fizeram procedimento</th></tr></thead><tbody>${porOrigem || '<tr><td colspan="4">Os números aparecem quando os primeiros pacientes entrarem.</td></tr>'}</tbody></table></div></div>
-    <div class="card"><h3>Como usar</h3><p class="sub" style="margin:0">1. Chegou mensagem? <b>+ Novo paciente</b> com nome, WhatsApp e de onde veio.<br>2. Toque em <b>WhatsApp</b>: a mensagem da etapa já vai escrita. Ao voltar, o card anda sozinho.<br>3. Marcou a avaliação? Toque em <b>Marcou ›</b> e escolha o dia.<br>4. Fez o procedimento? Coloque o valor e ele entra no Financeiro.<br>As mensagens seguem as regras do CFO: sem preço, sem promoção e sem promessa de resultado.</p></div></div>`;
+   <div class="grade g2" style="margin-top:14px"><div class="card"><h3>De onde vêm os ${W.pacs}</h3><p class="sub">Cada anúncio abre o WhatsApp com um código. Aqui você vê qual traz ${W.aval} de verdade.</p><div class="tab"><table><thead><tr><th>Origem</th><th>Contatos</th><th>${W.marcaram}</th><th>${W.fezProc}</th></tr></thead><tbody>${porOrigem || `<tr><td colspan="4">Os números aparecem quando os primeiros ${W.pacs} entrarem.</td></tr>`}</tbody></table></div></div>
+    <div class="card"><h3>Como usar</h3><p class="sub" style="margin:0">1. Chegou mensagem? <b>+ Novo ${W.pac}</b> com nome, WhatsApp e de onde veio.<br>2. Toque em <b>WhatsApp</b>: a mensagem da etapa já vai escrita. Ao voltar, o card anda sozinho.<br>3. Marcou ${W.aval === 'avaliação' ? 'a avaliação' : 'a ' + W.aval}? Toque em <b>Marcou ›</b> e escolha o dia.<br>4. Fez o ${W.proc}? Coloque o valor e ele entra no Financeiro.<br>${W.regra}</p></div></div>`;
 };
-T.crm = 'CRM de pacientes';
+T.crm = W.crm;
 
 function mudaEtapa(p, nova, txt) {
   const antes = p.etapa; p.etapa = nova; p.em = agora(); p.hist = [...(p.hist || []), { em: agora(), txt: txt || `Etapa: ${etapa(antes).nome} → ${etapa(nova).nome}` }];
@@ -174,7 +176,7 @@ function mudaEtapa(p, nova, txt) {
 function lancaProcedimento(p) {
   if (!(+p.valor > 0) || p.finId) return false;
   const id = uid(); p.finId = id;
-  S.fin.dados.itens.push({ id, tipo: 'entrada', data: p.dataProc || hojeISO(), desc: `${p.interesse || 'Procedimento'} · ${p.nome}`, cat: (F.regexOdonto && new RegExp(F.regexOdonto, 'i').test(p.interesse || '')) ? F.catOdonto : (F.catEntradaCRM || F.catEntradas[0]), valor: +p.valor, forma: 'A definir', status: 'pago', crmId: p.id, em: agora() });
+  S.fin.dados.itens.push({ id, tipo: 'entrada', data: p.dataProc || hojeISO(), desc: `${p.interesse || W.Proc} · ${p.nome}`, cat: (F.regexOdonto && new RegExp(F.regexOdonto, 'i').test(p.interesse || '')) ? F.catOdonto : (F.catEntradaCRM || F.catEntradas[0]), valor: +p.valor, forma: 'A definir', status: 'pago', crmId: p.id, em: agora() });
   salvar('fin'); return true;
 }
 function avancar(p) {
@@ -182,22 +184,22 @@ function avancar(p) {
   if (!prox) return;
   if (prox.id === 'marcada' && !p.avaliacao) return abrirPaciente(p, 'marcada');
   if (prox.id === 'fez' && !(+p.valor > 0)) return abrirPaciente(p, 'fez');
-  mudaEtapa(p, prox.id); if (prox.id === 'fez' && lancaProcedimento(p)) toast('Procedimento lançado no Financeiro.');
+  mudaEtapa(p, prox.id); if (prox.id === 'fez' && lancaProcedimento(p)) toast(`${W.Proc} lançado no Financeiro.`);
   salvar('crm'); render();
 }
 function abrirPaciente(p, etapaNova) {
   const novo = !p; p = p ? { ...p } : { id: uid(), nome: '', whats: '', insta: '', origem: F.origens[0], interesse: F.interesses[0], etapa: 'novo', criado: agora(), hist: [] };
   if (etapaNova) p.etapa = etapaNova;
-  const pede = etapaNova === 'marcada' ? '<p class="sub" style="color:var(--amarelo)">Escolha o dia e a hora da avaliação.</p>' : etapaNova === 'fez' ? '<p class="sub" style="color:var(--amarelo)">Coloque o valor do procedimento para lançar no Financeiro (ou deixe em branco).</p>' : '';
-  modal(`<h3>${novo ? 'Novo paciente' : esc(p.nome)}</h3>${pede}<form class="fr-form" id="fr-pac">
+  const pede = etapaNova === 'marcada' ? `<p class="sub" style="color:var(--amarelo)">Escolha o dia e a hora da ${W.aval}.</p>` : etapaNova === 'fez' ? `<p class="sub" style="color:var(--amarelo)">Coloque o valor do ${W.proc} para lançar no Financeiro (ou deixe em branco).</p>` : '';
+  modal(`<h3>${novo ? 'Novo ' + W.pac : esc(p.nome)}</h3>${pede}<form class="fr-form" id="fr-pac">
     <label class="inteiro">Nome *<input name="nome" required maxlength="80" value="${esc(p.nome)}" autocomplete="off"></label>
     <label>WhatsApp *<input name="whats" inputmode="tel" placeholder="(98) 9 0000-0000" value="${esc(p.whats)}"></label>
     <label>Instagram<input name="insta" placeholder="@" value="${esc(p.insta || '')}"></label>
     <label>De onde veio<select name="origem">${opts([...new Set([...F.origens, p.origem].filter(Boolean))], p.origem)}</select></label>
     <label>Interesse<select name="interesse">${opts([...new Set([...F.interesses, p.interesse].filter(Boolean))], p.interesse)}</select></label>
     <label>Etapa<select name="etapa">${ET.map(e => `<option value="${e.id}" ${e.id === p.etapa ? 'selected' : ''}>${esc(e.nome)}</option>`).join('')}</select></label>
-    <label>Avaliação (dia e hora)<input type="datetime-local" name="avaliacao" value="${esc(p.avaliacao || '')}"></label>
-    <label>Valor do procedimento (R$)<input type="number" min="0" step="0.01" name="valor" value="${esc(p.valor || '')}"></label>
+    <label>${W.Aval} (dia e hora)<input type="datetime-local" name="avaliacao" value="${esc(p.avaliacao || '')}"></label>
+    <label>Valor do ${W.proc} (R$)<input type="number" min="0" step="0.01" name="valor" value="${esc(p.valor || '')}"></label>
     <label>Retorno em<input type="date" name="retorno" value="${esc(p.retorno || '')}"></label>
     <label class="inteiro">Anotações<textarea name="notas" maxlength="1000" placeholder="Ex.: prefere horário à tarde">${esc(p.notas || '')}</textarea></label>
    </form>
@@ -208,16 +210,16 @@ function abrirPaciente(p, etapaNova) {
       e.preventDefault(); const v = Object.fromEntries(new FormData(f));
       if (!v.nome.trim()) return toast('Coloque o nome.');
       if (!fone(v.whats)) return toast('Coloque um WhatsApp com DDD (ex.: 98 9 0000-0000).');
-      if (v.etapa === 'marcada' && !v.avaliacao) return toast('Escolha o dia e a hora da avaliação.');
+      if (v.etapa === 'marcada' && !v.avaliacao) return toast(`Escolha o dia e a hora da ${W.aval}.`);
       const lista = crm(), i = lista.findIndex(x => x.id === p.id), base = i >= 0 ? lista[i] : p, etapaAntes = i >= 0 ? base.etapa : null;
       Object.assign(base, { nome: v.nome.trim(), whats: v.whats.trim(), insta: v.insta.trim(), origem: v.origem, interesse: v.interesse, avaliacao: v.avaliacao, valor: v.valor ? +v.valor : '', retorno: v.retorno, notas: v.notas.trim(), em: agora() });
-      if (i < 0) { base.hist = [{ em: agora(), txt: 'Paciente cadastrado' }]; base.etapa = 'novo'; lista.push(base); if (v.etapa !== 'novo') mudaEtapa(base, v.etapa); }
+      if (i < 0) { base.hist = [{ em: agora(), txt: W.Pac + ' cadastrado' }]; base.etapa = 'novo'; lista.push(base); if (v.etapa !== 'novo') mudaEtapa(base, v.etapa); }
       else if (etapaAntes !== v.etapa) mudaEtapa(base, v.etapa);
       let fin = false; if (base.etapa === 'fez' || base.etapa === 'retorno') fin = lancaProcedimento(base);
-      salvar('crm'); fecha(); toast(fin ? 'Salvo. O procedimento entrou no Financeiro.' : 'Paciente salvo.'); render();
+      salvar('crm'); fecha(); toast(fin ? `Salvo. O ${W.proc} entrou no Financeiro.` : W.Pac + ' salvo.'); render();
     };
     const pe = m.querySelector('#fr-perdido'); if (pe) pe.onclick = () => { const b = crm().find(x => x.id === p.id); mudaEtapa(b, 'perdido'); salvar('crm'); fecha(); toast('Movido para "não seguiu". Dá para reativar depois.'); render(); };
-    const ap = m.querySelector('#fr-apaga'); if (ap) ap.onclick = () => { if (!confirm('Excluir ' + p.nome + '? Não dá para desfazer.')) return; S.crm.dados.itens = crm().filter(x => x.id !== p.id); S.crm.dados.apagados = [...(S.crm.dados.apagados || []), p.id]; salvar('crm'); fecha(); toast('Paciente excluído.'); render(); };
+    const ap = m.querySelector('#fr-apaga'); if (ap) ap.onclick = () => { if (!confirm('Excluir ' + p.nome + '? Não dá para desfazer.')) return; S.crm.dados.itens = crm().filter(x => x.id !== p.id); S.crm.dados.apagados = [...(S.crm.dados.apagados || []), p.id]; salvar('crm'); fecha(); toast(W.Pac + ' excluído.'); render(); };
   });
 }
 function ligaCRM(m) {
@@ -234,7 +236,7 @@ function ligaCRM(m) {
     if (e.depois) mudaEtapa(p, e.depois, `WhatsApp enviado · ${e.nome} → ${etapa(e.depois).nome}`);
     salvar('crm'); setTimeout(render, 400);
   }));
-  m.querySelectorAll('[data-copia-msg]').forEach(b => b.onclick = () => { const p = crm().find(x => x.id === b.dataset.copiaMsg); try { navigator.clipboard.writeText(mensagem(p)); } catch (e) {} toast('Mensagem copiada (paciente sem WhatsApp válido).'); });
+  m.querySelectorAll('[data-copia-msg]').forEach(b => b.onclick = () => { const p = crm().find(x => x.id === b.dataset.copiaMsg); try { navigator.clipboard.writeText(mensagem(p)); } catch (e) {} toast('Mensagem copiada (' + W.pac + ' sem WhatsApp válido).'); });
 }
 
 // =====================================================================
@@ -264,13 +266,13 @@ V.financeiro = () => {
     <form class="fr-form" id="fr-fin"><input type="hidden" name="tipo" value="${tipo}">
      <label>Data<input type="date" name="data" required value="${esc(e ? e.data : (finMes === mesISO() ? hojeISO() : finMes + '-01'))}"></label>
      <label>Valor (R$)<input type="number" name="valor" min="0.01" step="0.01" required value="${esc(e ? e.valor : '')}"></label>
-     <label class="inteiro">Descrição<input name="desc" required maxlength="120" placeholder="${tipo === 'entrada' ? 'Ex.: Botox · Maria' : 'Ex.: Aluguel da sala'}" value="${esc(e ? e.desc : '')}"></label>
+     <label class="inteiro">Descrição<input name="desc" required maxlength="120" placeholder="${esc(tipo === 'entrada' ? (F.exEntrada || 'Ex.: Botox · Maria') : (F.exSaida || 'Ex.: Aluguel da sala'))}" value="${esc(e ? e.desc : '')}"></label>
      <label>Categoria<select name="cat">${opts(cats, e ? e.cat : cats[0])}</select></label>
      <label>Forma<select name="forma">${opts(F.formas, e ? e.forma : F.formas[0])}</select></label>
      <label>Situação<select name="status"><option value="pago" ${!e || e.status === 'pago' ? 'selected' : ''}>${tipo === 'entrada' ? 'Recebido' : 'Pago'}</option><option value="pendente" ${e && e.status === 'pendente' ? 'selected' : ''}>${tipo === 'entrada' ? 'A receber' : 'A pagar'}</option></select></label>
      ${tipo === 'saida' ? `<label style="display:flex;align-items:center;gap:8px;margin-top:22px"><input type="checkbox" name="fixa" ${e && e.fixa ? 'checked' : ''} style="width:18px;height:18px"> Despesa fixa (todo mês)</label>` : ''}
     </form><div class="fr-acoes"><button class="btn am" type="submit" form="fr-fin">${e ? 'Salvar alteração' : 'Lançar'}</button>${e ? '<button class="btn lin" type="button" data-fcancela>Cancelar</button>' : ''}</div></div>
-    <div class="card"><h3>Meta de faturamento</h3><p class="sub">${meta ? `${brl(t.entTot)} de ${brl(meta)} em ${nomeMes(finMes)}` : 'Defina quanto a clínica quer faturar por mês.'}</p>${meta ? `<div class="fr-bar"><i style="width:${Math.min(100, t.entTot / meta * 100)}%"></i></div><p class="sub" style="margin-top:8px">${t.entTot >= meta ? 'Meta batida!' : 'Faltam ' + brl(meta - t.entTot)}</p>` : ''}<button class="btn lin" type="button" data-fmeta style="margin-top:8px">${meta ? 'Mudar meta' : 'Definir meta'}</button></div></div>
+    <div class="card"><h3>Meta de faturamento</h3><p class="sub">${meta ? `${brl(t.entTot)} de ${brl(meta)} em ${nomeMes(finMes)}` : `Defina quanto ${W.negocio} quer faturar por mês.`}</p>${meta ? `<div class="fr-bar"><i style="width:${Math.min(100, t.entTot / meta * 100)}%"></i></div><p class="sub" style="margin-top:8px">${t.entTot >= meta ? 'Meta batida!' : 'Faltam ' + brl(meta - t.entTot)}</p>` : ''}<button class="btn lin" type="button" data-fmeta style="margin-top:8px">${meta ? 'Mudar meta' : 'Definir meta'}</button></div></div>
    <div class="card"><h3>Lançamentos de ${nomeMes(finMes)}</h3><div class="tab"><table><thead><tr><th>Data</th><th>Descrição</th><th>Categoria</th><th>Forma</th><th>Valor</th><th>Situação</th><th></th></tr></thead><tbody>
     ${l.map(x => `<tr><td>${dataBR(x.data)}</td><td>${esc(x.desc)}${x.fixa ? ' <span class="chip ne">fixa</span>' : ''}</td><td>${esc(x.cat)}</td><td>${esc(x.forma)}</td><td class="fr-val ${x.tipo === 'entrada' ? 'e' : 's'}"><b>${x.tipo === 'entrada' ? '+' : '−'} ${brl(x.valor)}</b></td><td><button class="btn lin" type="button" data-fst="${x.id}" style="padding:5px 9px;font-size:12px">${x.status === 'pago' ? (x.tipo === 'entrada' ? 'Recebido' : 'Pago') : (x.tipo === 'entrada' ? 'A receber' : 'A pagar')}</button></td><td style="white-space:nowrap"><button class="btn lin" type="button" data-fed="${x.id}" style="padding:5px 9px;font-size:12px">Editar</button> <button class="btn lin" type="button" data-fdel="${x.id}" style="padding:5px 9px;font-size:12px" aria-label="Excluir">✕</button></td></tr>`).join('') || '<tr><td colspan="7">Nenhum lançamento neste mês.</td></tr>'}</tbody></table></div></div>
    <div class="grade g3"><div class="card"><h3>Entradas por categoria</h3><div class="lista">${porCat('entrada')}</div></div><div class="card"><h3>Saídas por categoria</h3><div class="lista">${porCat('saida')}</div></div>

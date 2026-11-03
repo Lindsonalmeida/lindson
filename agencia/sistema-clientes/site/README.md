@@ -27,6 +27,7 @@ Montado pela conta Lindson em 01/11/2026. Site da Central do Cliente: tela de ac
 | `/painel/contas` | só o Lindson | `site/contas.html` |
 | `/painel/jaci` | Dra. Jaci e admin | `../jaci-cunha/montar-jaci.py` |
 | `/painel/leo` | Leo Pinto e admin | `../leo-pinto/montar-leo.py` |
+| `/painel/sf` | Desentupidora SF e admin | `../desentupidora-sf/montar-sf.py` (conta Zuleide, 03/11) |
 
 ## Montar
 ```bash
@@ -114,7 +115,7 @@ Use `npx wrangler@3 pages dev publico --kv CONTAS` com um `.dev.vars` (fora do G
 ## Novo cliente
 1. Crie `../<cliente>/montar-<cliente>.py` a partir do `montar-jaci.py`.
 2. Acrescente o cliente nas listas do `montar-site.py`.
-3. Gere um código novo e o hash dele em `privado/codigos-acesso.json` e atualize `CODIGOS` na Cloudflare.
+3. Código de acesso: `python3 site/novo-codigo.py <cliente> <prefixo>` e cole a linha em `CentralLindsonALmeida/functions/_codigos.js` (privado; hash PBKDF2, sem mexer na Cloudflare). O jeito antigo (hash em `CODIGOS` na Cloudflare) continua valendo.
 
 ## Limites da v1
 - Ainda não há recuperação de senha por e-mail: quem esquece pede ao admin, que apaga a conta para a pessoa criar de novo.
