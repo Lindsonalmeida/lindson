@@ -80,4 +80,4 @@ Todas desligadas desde 26/10 (as de 3 em 3 horas falharam por limite de uso do p
 | Roteiros diários de Reels | 5h41 | desligada de propósito (os 300 roteiros foram entregues de uma vez em 22/10) |
 
 - `conteudo/referencias/ia-video-voz/`: pesquisa de clone de imagem e voz (HeyGen, ElevenLabs, outras ferramentas) e plano do nosso app interno (conta Pedro, 03/11/2026).
-- `apps/clone-studio/`: **Dublê**, app interno de clone de voz e imagem do Lindson (identidade em `identidade/`, tela v2 em `web/` copiada do template Sermo) (Gradio, roda no notebook dele; dados fora do Git) (conta Pedro, 03/11/2026).
+- `apps/clone-studio/`: **Dublê**, app interno de clone de voz e imagem do Lindson (identidade em `identidade/`, tela v2 em `web/` copiada do template Sermo; stories e vídeo de divulgação em `divulgacao/`) (Gradio, roda no notebook dele; dados fora do Git) (conta Pedro, 03/11/2026).
