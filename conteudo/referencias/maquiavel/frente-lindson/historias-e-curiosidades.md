@@ -51,7 +51,7 @@ Na primeira missão à corte de Luís XII (julho a dezembro de 1500), Maquiavel 
 *Fonte:* *Legazioni* (França, 1500); *Príncipe*, cap. 3; Ridolfi, cap. 4.
 
 ### 1.7 Marietta Corsini e o bebê "peludo como vós" (1501–1503) [FATO]
-Em 1501 Maquiavel casou com Marietta di Lodovico Corsini, de família florentina respeitável. Tiveram ao menos seis ou sete filhos (Primerana, Bernardo, Lodovico, Piero, Guido, Bartolomea "Baccina" e Totto; alguns morreram cedo). Em novembro de 1503, com ele em Roma, Marietta escreveu a única carta dela que sobreviveu: reclama que ele não escreve, conta que o recém-nascido Bernardo está bem e "se parece convosco: é branco como a neve, mas tem a cabeça que parece veludo preto, e é peludo como vós". O casamento durou até a morte dele, com traições conhecidas de ambos os lados das cartas (dele), mas também ternura e confiança — ela foi nomeada no testamento.
+Em 1501 (agosto ou outono; o dote dela foi pago pelo Monte delle doti em 25/8/1501) Maquiavel casou com Marietta di Lodovico Corsini, de família florentina respeitável. Tiveram sete filhos conhecidos (Primerana, Bernardo, Lodovico, Piero, Guido, Bartolomea "Baccina" e Totto; alguns morreram cedo). Em novembro de 1503, com ele em Roma, Marietta escreveu a única carta dela que sobreviveu: reclama que ele não escreve, conta que o recém-nascido Bernardo está bem e "se parece convosco: é branco como a neve, mas tem a cabeça que parece veludo preto, e é peludo como vós". O casamento durou até a morte dele, com traições conhecidas de ambos os lados das cartas (dele), mas também ternura e confiança — ela foi nomeada no testamento.
 *Fonte:* *Lettere*, Marietta a N. M., 24/11/1503; testamento de 1522 (ed. em Ridolfi); Lee, cap. 7.
 
 ### 1.8 À noite, em Urbino, diante de César Bórgia (junho de 1502) [FATO]
@@ -216,7 +216,7 @@ Já velho e com fama de comediógrafo, Maquiavel assinou uma carta a Francesco G
 
 | Tema | Dado | Certeza / Fonte |
 |---|---|---|
-| Nascimento | 3 de maio de 1469, Florença (bairro de Santo Spirito, Oltrarno). Pais: Bernardo di Niccolò Machiavelli e Bartolomea de' Nelli. Terceiro de quatro filhos. | [FATO] *Libro di ricordi*; Ridolfi |
+| Nascimento | 3 de maio de 1469, Florença (paróquia de S. Trinita segundo o DBI; casas da família no quartiere de Santo Spirito, Oltrarno, via Romana, hoje via Guicciardini 16). Pais: Bernardo di Niccolò Machiavelli e Bartolomea de' Nelli. Terceiro de quatro filhos. | [FATO] *Libro di ricordi*; Ridolfi |
 | Tempo de serviço | 14 anos e 5 meses na chancelaria (19/6/1498 a 7/11/1512). | [FATO] atos do ASF |
 | Salário de chanceler | Começou com cerca de 192 florins por ano; outra fonte fala em 128 ducados de ouro (cerca de três vezes o ganho de um artesão). A diferença é de unidade monetária e de ano. Era cargo pago e, por isso mesmo, de baixo status social. | [PROVÁVEL — números divergem] Lee; Ridolfi; biografias alemãs |
 | Missões | Mais de 30 missões diplomáticas e comissões fora de Florença, de dias a meses. Quatro à França (1500, 1504, 1510, 1511); duas junto de César Bórgia (Urbino 1502, Ímola–Senigália 1502–1503); duas à corte papal (1503, 1506); uma ao Imperador (1507–1508); várias a Siena (Pandolfo Petrucci), Forlì, Piombino, Pisa e o território. | [PROVÁVEL a contagem; FATO cada missão] *Legazioni* |
