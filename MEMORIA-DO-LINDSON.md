@@ -95,6 +95,7 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 - **Treinamento (03/11, Jaci):** vídeos para a equipe do cliente ficam na aba Treinamento do painel, **incorporados** (assiste dentro da Central) e com o botão "Abrir no YouTube" de reserva. Lista em `dados/<cliente>.json` → `treinamento`; código genérico em `prototipo/treinamento.js`.
 
 - **Clone de voz, teste 01** (03/11 · Pedro): Chatterbox Multilingual em português ("ficou ótimo"). Base aprovada para o app de clone. Está em `conteudo/referencias/ia-video-voz/teste/`.
+- **Dublê: nome, identidade e tela v2** (03/11 · Pedro): identidade aprovada ("a identidade visual eu gostei") e tela copiada do template **Sermo** (Framer) aprovada: **"isso sim é um padrão premium"**. É a **régua de "premium"** para apps e telas novas: halo animado atrás de título gigante, menu em pílulas flutuantes, console do app logo abaixo, aviso flutuante, cartões de números reais com gráfico, título em duas cores, passo a passo numerado ao lado de painel de vidro. Sempre copiado de um template de mercado e citado. Está em `apps/clone-studio/web/` e `identidade/TEMPLATE.md`.
 
 ## 4. REPROVADO: nunca repetir
 
@@ -117,6 +118,7 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 17. **Mexer na esteira de produtos** (até R$ 3.500). Motivo: "não mexa neles".
 18. **Arte criada do zero, sem modelo.** Motivo: regra "nada se cria, tudo se copia".
 19. **Rabiscos à mão, estrelas, emojis, adesivos, ícones 3D, papel rasgado e sombra 3D** nas artes do Leo. Motivo: são grafismos, proibidos desde 02/11.
+21. **Tela de app com cara de Gradio/formulário padrão** (Dublê v1, 03/11). Motivo: "o template não". Tela de app é copiada de um template premium pesquisado (régua: Sermo).
 20. **Cor da roupa trocada por edição** (deixou manchas na manga). Motivo: tem cara de amador. Realce a cor só de leve.
 
 ## 5. Regras por cliente
