@@ -58,6 +58,7 @@ Brand book, componentes (Cover, LinkCard, StatStrip…), modelos e guia de Insta
 | `agencia/clientes/desentupidora-sf/` e `agencia/sistema-clientes/desentupidora-sf/` | Desentupidora SF: artes do Instagram (`instagram-v1/`) e painel da Central (`montar-sf.py`) | (conta Zuleide, 03/11) |
 | `agencia/clientes/rt-full-jobs/` | cliente novo RT Full Jobs: prints e resumo do briefing | (conta Zuleide, 03/11) |
 | `agencia/clientes/rt-full-jobs/instagram-v1/LEGENDAS.md` e `estrategia/v2/` | Real Time: legendas do feed v1 e estratégia completa v2 com a marca nova (PDF fora do Git) | (conta Leandro, 03/11) |
+| `agencia/clientes/rt-full-jobs/fotos-equipamentos/` e `instagram-v2/` | Real Time: 56 fotos reais dos equipamentos (fontes/licenças) e 6 artes v2 com elas | (conta Leandro, 03/11) |
 | `agencia/clientes/leo-pinto/instagram-aniversario/` | Leo: modelo único de aniversário de pessoas (Designi Paulo André, laranja/azul) | (conta Leandro, 03/11) |
 | `agencia/clientes/rt-full-jobs/instagram-v1/perfil/` e `agencia/sistema-clientes/rt-full-jobs/` | Real Time: bio e capas de destaques; painel da Central (/painel/rt) | (conta Leandro, 03/11) |
 | `agencia/clientes/rt-full-jobs/fotos-equipamentos/` | Real Time: 56 fotos reais dos equipamentos (luz, lentes, câmera, transmissão, acessórios, estúdio) com fontes e licenças em `FONTES.md` | (conta Leandro, 03/11) |
