@@ -32,3 +32,5 @@ Ficha montada pela conta Lindson em 01/11/2026, juntando o que existe no reposit
 - Relatório semanal.
 - Painel real na Central do Cliente.
 - Logo original em vetor e fotos em alta resolução.
+
+**Análise completa e pendências atualizadas (03/11): `PENDENCIAS.md`.**
