@@ -15,7 +15,7 @@ Contrato Plano Master: 26/10/2026 a 25/01/2027 (3 meses). Hoje estamos na **sema
 | 2 | **Aprovações do painel**: posts antigos retirados, carrosséis novos no lugar (03/11) | feito | agência |
 | 3 | **Semanas 1 e 2 da estratégia**: bio nova, 6 destaques, Perfil do Google (categorias, 20 fotos, pedir avaliações), WhatsApp com etiquetas e mensagens prontas, códigos nos anúncios | atrasado (era nov sem. 1–2) | agência + clínica |
 | 4 | **Mini site com chat de avaliação** (6 perguntas → WhatsApp com tudo escrito), em repositório próprio dela e Cloudflare `drajacicunha.pages.dev` | em produção no painel, não existe ainda | Lindson cria o repositório |
-| 5 | **Campanhas A, B e C no Meta** (nov sem. 3–4, a partir de 16/11) com o gancho "quem quer estar bem nas festas começa agora" | preparar | agência (Pedro Sobral) |
+| 5 | **Campanhas no Meta**: plano completo e 10 criativos prontos (03/11, `meta-ads/`); falta aprovação, verba e subir no Gerenciador (teste a partir de 16/11) | aguardando Lindson | agência |
 | 6 | **Relatório semanal** (contrato): conversas por código, custo por conversa, % agendou/compareceu/fez, avaliações no Google | nenhum entregue ainda; painel sem relatórios | agência |
 | 7 | **Calendário de dezembro** (apresentar antes do mês, pelo contrato) e janeiro, com as abas de mês já prontas na Central | a fazer até fim de novembro | agência |
 | 8 | **Pagamento de 26/11** (o mês só começa após pagar) e confirmar o de 26/10 (painel mostra "a confirmar") | conferir | Lindson |
