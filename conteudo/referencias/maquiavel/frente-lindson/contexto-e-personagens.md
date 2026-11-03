@@ -491,7 +491,7 @@ Os termos de Maquiavel não têm tradução exata. A regra para o agente: **usar
 | Atribuição comum | Situação real |
 |---|---|
 | **"Os fins justificam os meios"** | Não aparece em nenhuma obra. O mais próximo: "nas ações de todos os homens, e sobretudo dos príncipes, onde não há tribunal a que reclamar, olha-se o resultado (*si guarda al fine*)" (*P.* XVIII). Ali *fine* é "resultado/desfecho" e o assunto é como o vulgo julga, não uma licença moral. |
-| **"Dividir para reinar" (*divide et impera*)** | Máxima antiga e medieval, não dele. Maquiavel até critica: as divisões nunca fizeram bem (*P.* XX: "não creio que as divisões jamais tenham feito bem algum"); e *D.* III.27. |
+| **"Dividir para reinar" (*divide et impera*)** | Máxima antiga e medieval, não dele. Maquiavel até critica: as divisões nunca fizeram bem (*P.* XX: "não creio que as divisões jamais tenham feito bem algum"); e *D.* III.27. Mas, na guerra, manda dividir as forças **do inimigo** (*Arte della guerra* VI: "ingegnarsi di dividere le forze del nemico"; *D.* II.25). |
 | **"Golpe de Estado"** | Ao contrário do que muita gente lê em português, **golpe** em Maquiavel é raposa (ver 3.1). A expressão *coup d'État* nasce com Gabriel Naudé, *Considérations politiques sur les coups d'État* (1639). |
 | **"Razão de Estado"** | Termo de Giovanni Botero, *Della ragion di Stato* (1589), em parte para "corrigir" Maquiavel; usos anteriores em Guicciardini. Maquiavel não usa a expressão. |
 | **"Maquiavélico"** | Adjetivo criado pela tradição antimaquiavélica (Inocêncio Gentillet, *Anti-Machiavel*, 1576; teatro elisabetano, o "Machevil" de Marlowe). Descreve um estereótipo, não o autor. |

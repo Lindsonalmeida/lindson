@@ -415,7 +415,7 @@ Arquivo de referência para o agente "Nicolau Maquiavel" conselheiro de negócio
 - A frase completa: seria desejável ser os dois; **se** tiver que escolher, temido é mais seguro; **e** o temor nunca pode virar ódio (cap. XVII). Tirar a condição muda o sentido.
 
 ### 4.5 "Dividir para conquistar" / "dividir para reinar"
-- Não é máxima de Maquiavel. No cap. XX ele diz que manter as cidades divididas em facções "não pode ser bom" e que, na guerra, a parte mais fraca se junta ao inimigo. Nos *Discursos* (III.27) diz que é falso que se domina mantendo dividido (item 197 do arquivo existente). O que ele recomenda no cap. III é proteger os vizinhos fracos e enfraquecer os fortes, que é outra coisa.
+- Não é máxima de Maquiavel. No cap. XX ele diz que manter as cidades divididas em facções "não pode ser bom" e que, na guerra, a parte mais fraca se junta ao inimigo. Nos *Discursos* (III.27) diz que é falso que se domina mantendo dividido (item 197 do arquivo existente). O que ele recomenda no cap. III é proteger os vizinhos fracos e enfraquecer os fortes, que é outra coisa. E na guerra ele manda, sim, dividir as forças **do inimigo**: *Arte della guerra* VI, *"Debbe uno capitano ... con ogni arte ingegnarsi di dividere le forze del nemico"*; *Discursos* II.25 (fazer-se árbitro da cidade inimiga já dividida).
 
 ### 4.6 "Maquiavel manda mentir sempre"
 - O cap. XVIII diz que não se deve manter a palavra **quando ela prejudica e os motivos da promessa acabaram**, e justifica: "se os homens fossem todos bons, este preceito não seria bom". É uma regra condicional sobre promessas, não sobre mentir em tudo. E ele lembra que quem só sabe ser raposa não se defende dos lobos.
