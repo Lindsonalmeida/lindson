@@ -9,6 +9,7 @@ Branch principal: `claude/global-agent-installation-vdyowf`. Outros branches: `e
 |---|---|
 | `CLAUDE.md` | Regras de trabalho de todas as contas |
 | `PROMPT-DA-EQUIPE.md` | Prompt para colar no começo de qualquer conversa: quem é quem, o que buscar no repositório e o que as contas já sabem |
+| `MEMORIA-DO-LINDSON.md` | **Leia primeiro:** tudo o que o Lindson pediu, aprovou (guardar e melhorar) e reprovou (nunca repetir), regras por cliente, pedidos já feitos e pendências. Toda conta atualiza ao fim de cada pedido |
 | `QUADRO-DA-EQUIPE.md` | O que cada conta está fazendo agora e o que está livre |
 | `REGISTRO-DAS-CONTAS.md` | Tudo o que já foi entregue, por conta e data |
 | `ESTADO-DO-PROJETO.md` | Apps publicados, filas de vídeo e como retomar uma renderização |
