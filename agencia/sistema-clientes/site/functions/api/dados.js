@@ -2,7 +2,7 @@
 // GET → {dados, versao}. PUT {dados, versao} → grava se a versão bate; se outra pessoa salvou antes, 409 com a versão atual (o painel junta e tenta de novo).
 // Só o próprio cliente ou o admin. Conta Lindson, 01/11/2026.
 import { json, quemE, configurado, faltaConfig } from '../_lib.js';
-const FERR = ['crm', 'fin', 'dem', 'ag', 'aprov', 'ped'];  // aprov: aprovações de posts; ped: pedidos à agência  // dem e ag: demandas e agenda do gabinete (painel do Leo)
+const FERR = ['crm', 'fin', 'dem', 'ag', 'aprov', 'ped', 'rede'];  // rede: a rede social do Lindson no painel do admin (conta Pedro, 03/11/2026)  // aprov: aprovações de posts; ped: pedidos à agência  // dem e ag: demandas e agenda do gabinete (painel do Leo)
 async function acesso(request, env) {
   const q = await quemE(request, env), u = new URL(request.url);
   const cli = (u.searchParams.get('cli') || '').toLowerCase(), f = u.searchParams.get('f');

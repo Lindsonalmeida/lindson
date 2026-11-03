@@ -1,0 +1,129 @@
+{
+ "frase": "Seu Instagram é bonito e não traz cliente? Eu faço ele trazer gente pro seu WhatsApp, sem você depender de indicação.",
+ "promessa": "Transformar o Instagram do negócio em gente pedindo orçamento no WhatsApp, sem o dono virar refém do celular.",
+ "historia": [
+  [
+   "Herói",
+   "O dono de negócio local de São Luís que quer abrir o WhatsApp de manhã e achar gente nova pedindo orçamento. O herói não é o Lindson."
+  ],
+  [
+   "Problema",
+   "Posta e não vende, sem tempo. \"Sou bom no que faço e ninguém fica sabendo.\" Vilão: o post bonito que não vende."
+  ],
+  [
+   "Guia",
+   "Lindson: \"eu sei o que é fazer tudo sozinho\" + 14 anos de conteúdo, campanha política e clientes reais daqui."
+  ],
+  [
+   "Plano",
+   "1. Arrumo sua vitrine. 2. Gravo seu mês em 1 dia. 3. Coloco na frente de quem compra e levo pro seu WhatsApp."
+  ],
+  [
+   "Chamada",
+   "Direta: \"Me chama no WhatsApp\". De transição: comentar a palavra da isca."
+  ],
+  [
+   "Fracasso evitado",
+   "Mês bom, mês ruim, sempre dependendo de indicação, vendo o concorrente pior levar o cliente."
+  ],
+  [
+   "Sucesso",
+   "Agenda previsível, perfil que dá orgulho, ser referência no bairro."
+  ]
+ ],
+ "linhas": [
+  {
+   "nome": "Erro que custa cliente",
+   "obj": "Atrair",
+   "mostra": "Um erro comum e a saída.",
+   "formatos": [
+    "Reels",
+    "Carrossel"
+   ],
+   "pautas": [
+    "Post de bom dia não vende nada",
+    "Responder só o preço faz o cliente sumir"
+   ]
+  },
+  {
+   "nome": "Bastidor de cliente",
+   "obj": "Nutrir",
+   "mostra": "O trabalho real acontecendo (prova).",
+   "formatos": [
+    "Reels",
+    "Stories"
+   ],
+   "pautas": [
+    "A diária da Desentupidora SF: o mês de vídeos em 1 dia",
+    "Mini site da Rafael Imports: do zero ao link no ar"
+   ]
+  },
+  {
+   "nome": "Papo reto do Lindson",
+   "obj": "Atrair e nutrir",
+   "mostra": "Opinião contrária, direto para a câmera.",
+   "formatos": [
+    "Reels",
+    "Post manchete"
+   ],
+   "pautas": [
+    "Dancinha não vende serviço",
+    "O que a campanha política me ensinou sobre vender no bairro"
+   ]
+  },
+  {
+   "nome": "Antes e depois",
+   "obj": "Converter",
+   "mostra": "A mudança vista em 1 segundo.",
+   "formatos": [
+    "Carrossel",
+    "Foto dividida"
+   ],
+   "pautas": [
+    "Perfil do Vereador Leo: antes × depois",
+    "Bio da Dra. Jaci: antes × depois"
+   ]
+  },
+  {
+   "nome": "Faz comigo",
+   "obj": "Nutrir",
+   "mostra": "Passo a passo para salvar.",
+   "formatos": [
+    "Carrossel",
+    "Reels de tela"
+   ],
+   "pautas": [
+    "Arrume sua bio em 3 passos",
+    "O que responder quando perguntam o preço"
+   ]
+  },
+  {
+   "nome": "Porta aberta",
+   "obj": "Converter",
+   "mostra": "Convite claro, sem preço.",
+   "formatos": [
+    "Stories",
+    "Post"
+   ],
+   "pautas": [
+    "Como é o primeiro mês comigo, em 3 passos",
+    "Comenta PERFIL e eu olho o seu"
+   ]
+  }
+ ],
+ "angulos": [
+  "\"Tenho vergonha e não tenho tempo de gravar\" → gravar o mês em 1 dia → Vídeo",
+  "\"Posto e só a família curte\" → chegar a quem compra → Tráfego",
+  "\"Já impulsionei e joguei dinheiro fora\" → vídeo novo + anúncio certo → Alcance",
+  "\"Entram no perfil e vão embora\" → perfil que passa confiança → Presença",
+  "\"Chega gente e eu não fecho\" → WhatsApp cheio e mês previsível → Instagram que Vende"
+ ],
+ "regras": [
+  "3 posts de valor para 1 de pedido; todo post de valor fecha com a palavra da isca.",
+  "Uma vez por mês, pedido direto com escassez real: atendo no máximo 4 clientes porque eu mesmo gravo e edito.",
+  "Preço nunca no feed; valores só na conversa (Conexão → Dor → Desejo → Pergunta).",
+  "Nenhum número inventado; caso de cliente só com autorização (Leo sem pedido de voto, Jaci dentro do CFO).",
+  "Nunca dois posts seguidos na mesma composição nem na mesma cor; legendas no padrão blog SEO.",
+  "Teste: o dono lê e pensa \"isso acontece comigo, e esse cara sabe resolver\"? Se não, não sai."
+ ]
+}
