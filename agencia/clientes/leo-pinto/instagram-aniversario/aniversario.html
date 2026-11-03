@@ -39,8 +39,8 @@
 .pilha{left:52px;bottom:180px;display:grid;justify-items:start;gap:0;transform:rotate(-6deg);transform-origin:left bottom}
 .cx{font-family:Anton;text-transform:uppercase;line-height:1;padding:12px 26px 6px;white-space:nowrap;box-shadow:0 18px 36px -14px rgba(0,0,0,.45)}
 .cx1{background:var(--cx1);color:var(--cx1t);font-size:104px}
-.cx2{background:var(--cx2);color:var(--cx2t);margin:-6px 0 0 54px}
-.cx3{background:var(--cx3);color:var(--cx3t);font-size:96px;margin:-6px 0 0 18px}
+.cx2{background:var(--cx2);color:var(--cx2t);margin:-6px 0 0 40px}
+.cx3{background:var(--cx3);color:var(--cx3t);font-size:96px;margin:-6px 0 0 26px}
 /* frase em linhas grifadas (Pedro Sampaio / Carla Silva) */
 .frase{right:58px;top:196px;width:330px;text-align:right;transform:rotate(-3deg)}
 .frase span{display:inline;background:#fff;color:#05316E;font:800 23px/1.82 Montserrat;padding:4px 10px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
@@ -66,7 +66,7 @@ document.getElementById('arte').innerHTML=`<div class="arte ${cor}">
 <div class="a pill"><img src="${d.avatar}">@_leonardopinto</div>
 ${d.data?`<div class="a data">${d.data}</div>`:''}
 ${frase?`<div class="a frase">${frase}</div>`:''}
-<div class="a pilha"><div class="cx cx1">Feliz</div><div class="cx cx2" id="nm" style="font-size:120px">${nome}</div><div class="cx cx3">Aniversário</div></div>
+<div class="a pilha"><div class="cx cx1">Feliz</div><div class="cx cx3">Aniversário</div><div class="cx cx2" id="nm" style="font-size:120px">${nome}</div></div>
 <div class="a assina"><span></span><div style="display:flex;align-items:flex-end;gap:26px"><div class="m"><b>${d.chamada||'Parabéns!'}</b>${d.assinatura||'Um abraço do amigo Leo'}</div><img class="logo" src="${cor==='laranja'?d.logoMarinho:d.logo}"></div></div></div>`;
 document.fonts.load('120px Anton').then(()=>document.fonts.load('100px "Kaushan Script"')).then(()=>document.fonts.ready).then(()=>{
  const n=document.getElementById('nm');let f=120;while(n.offsetWidth>930&&f>56){f-=3;n.style.fontSize=f+'px'}

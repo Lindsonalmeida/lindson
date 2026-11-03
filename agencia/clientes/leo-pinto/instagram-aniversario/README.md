@@ -11,7 +11,7 @@ Pedido do Lindson (03/11): "crie um modelo para aniversário de pessoas" + "crie
 ## Como fazer um aniversariante novo
 1. Peça ao Lindson a foto (uma por mensagem), o nome como deve aparecer e a data.
 2. `python3 recortar.py <foto.jpg> <pasta> [x0 y0 x1 y1]` → `<pasta>/recorte.png` (precisa de `rembg`).
-3. Na pasta: `avatar.jpg` (foto de perfil do Leo), `logo.png` (= `../instagram-v12-feed/marca/logo_principal.png`), `logo-marinho.png` (`python3 logo_marinho.py <pasta>`), e `dados.json`:
+3. Na pasta: `avatar.jpg` (**a foto de perfil oficial** do Leo; sem o arquivo, recorte o círculo do @ de uma arte aprovada: `p3-11-12.jpg` em (84,70,127,113)), `logo.png` (= `../instagram-v12-feed/marca/logo_principal.png`), `logo-marinho.png` (`python3 logo_marinho.py <pasta>`), e `dados.json`:
    `{"nome1":"JOSEF","nome2":"FIGUEIREDO","data":"HOJE · 03 DE NOVEMBRO","cor":"azul","chamada":"Parabéns, amigo!","frase":"Que Deus abençoe| sua vida com saúde,| paz e muitas| conquistas.","assinatura":"Conte sempre comigo.","topo":330,"largura":980,"dx":20}`
    (`|` quebra a frase em linhas grifadas)
    (`topo`/`largura`/`dx` ajustam a foto: rostos logo abaixo do nome; nome longo diminui sozinho).
@@ -19,4 +19,4 @@ Pedido do Lindson (03/11): "crie um modelo para aniversário de pessoas" + "crie
 
 **Legenda curta (padrão para aniversário):** "Hoje é dia de celebrar a vida do meu amigo <nome>! 🎉 Que Deus abençoe sua caminhada com saúde, paz e muitas conquistas. Feliz aniversário! #tôcomléopinto #SãoJoãoBatista" (sem pedir voto; marcar a pessoa).
 
-Situação: Josef feito em 03/11, aguardando o OK do Lindson (aprovação da criação); depois sobe para as Aprovações do painel do Leo.
+Situação: Josef **aprovado pelo Lindson** em 03/11 e publicado nas Aprovações do painel do Leo (arte no privado `dados/clientes-arquivos/leo/aniversarios/`). Para subir um novo: acrescente o item no começo de `APROV` em `painel/leo.html` do privado (1080×1350, qualidade 92) ou no `montar-leo.py`. Sempre mande a arte na conversa antes.
