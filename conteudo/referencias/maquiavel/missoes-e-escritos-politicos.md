@@ -143,7 +143,7 @@ Nenhum foi publicado em vida, exceto onde indicado. Datas segundo Martelli (1971
 ### A.8 Primeiras edições póstumas (para datar a circulação)
 
 - **1531:** *Discorsi* (Blado, Roma, 18 de outubro — data dada pelo Instituto Warburg, não conferida no colofão; Giunta, Florença, colofão de 10 de novembro de 1531, segundo os catálogos da Folger e da Morgan Library).
-- **1532:** *Il Principe* (Blado, Roma, 4 de janeiro, com a *Vita di Castruccio*, a *Descrizione del modo tenuto dal duca Valentino* e os *Ritratti* de França e Alemanha; Giunta, Florença, 8 de maio); *Istorie fiorentine* (Blado, 25 de março; Giunta, 27 de março — alguns exemplares Giunta trazem 16 de março no colofão; ver `historia-de-florenca.md` 1.6).
+- **1532:** *Il Principe* (Blado, Roma, 4 de janeiro, com a *Vita di Castruccio* e a *Descrizione del modo tenuto dal duca Valentino*; Giunta, Florença, 8 de maio, com os mesmos textos **e** os *Ritratti* de França e Alemanha "nuovamente aggiunti" — colofões e frontispícios conferidos em fac-símile, ver `principe.md` 1.6); *Istorie fiorentine* (Blado, 25 de março; Giunta, 27 de março — alguns exemplares Giunta trazem 16 de março no colofão; ver `historia-de-florenca.md` 1.6).
 - **1537:** *Clizia*. **1549:** *L'Asino*, *Belfagor* e poesias (edição Giunta "Le opere").
 - **1550:** a chamada "Testina" (edição de todas as obras com o retrato, impressa em Genebra com falso local e data).
 - **1559:** todas as obras no Índice dos livros proibidos (Paulo IV).
