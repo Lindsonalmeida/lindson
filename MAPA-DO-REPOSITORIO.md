@@ -60,6 +60,7 @@ Brand book, componentes (Cover, LinkCard, StatStrip…), modelos e guia de Insta
 | `agencia/clientes/rt-full-jobs/instagram-v1/LEGENDAS.md` e `estrategia/v2/` | Real Time: legendas do feed v1 e estratégia completa v2 com a marca nova (PDF fora do Git) | (conta Leandro, 03/11) |
 | `agencia/clientes/rt-full-jobs/fotos-equipamentos/` e `instagram-v2/` | Real Time: 56 fotos reais dos equipamentos (fontes/licenças) e 6 artes v2 com elas | (conta Leandro, 03/11) |
 | `agencia/clientes/jaci-cunha/instagram-perfil/`, `instagram-destaques/`, `site/` | Dra. Jaci: bio v2 e capas dos destaques, stories dos 7 destaques, pesquisa do site oficial (rascunho no privado `jaci-site/`) | (conta Leandro, 03/11) |
+| `agencia/clientes/tribuna98/` | cliente novo Tribuna 98 (Thiago Azevedo): ficha e prints dos canais | (conta Leandro, 03/11) |
 | `agencia/clientes/leo-pinto/instagram-aniversario/` | Leo: modelo único de aniversário de pessoas (Designi Paulo André, laranja/azul) | (conta Leandro, 03/11) |
 | `agencia/clientes/rt-full-jobs/instagram-v1/perfil/` e `agencia/sistema-clientes/rt-full-jobs/` | Real Time: bio e capas de destaques; painel da Central (/painel/rt) | (conta Leandro, 03/11) |
 | `agencia/clientes/rt-full-jobs/fotos-equipamentos/` | Real Time: 56 fotos reais dos equipamentos (luz, lentes, câmera, transmissão, acessórios, estúdio) com fontes e licenças em `FONTES.md` | (conta Leandro, 03/11) |
