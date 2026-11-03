@@ -75,6 +75,24 @@ Processo completo em `conteudo/youtube/passaporte/PROCESSO.md` e `conteudo/youtu
 - `RETOMAR=1 python3 pintura.py ../pintura.json <id>` continua de onde parou.
 - O vídeo final completo (1080p) fica em `passaporte/videos/<id>.mp4`, fora do Git. A versão do app (`<id>-app.mp4`) é comprimida para caber em 20 MB. **Para o YouTube, use o arquivo completo.**
 
+## Real Time (RT Full Jobs) · estado em 03/11/2026 (contas Pedro, Zuleide e Leandro)
+| O quê | Onde | Situação |
+|---|---|---|
+| **Site principal (SEO)**, 8 páginas, template GAFFER | https://realtimeslz.pages.dev · código `Lindsonalmeida/realtime` (`python3 gerar.py`) | no ar (Leandro) |
+| **Mini site da bio** | https://realtimeslz.pages.dev/bio/ (`bio/index.html`, noindex) | no ar (Zuleide, publicado pelo Leandro) |
+| Painel do cliente | https://lindsonalmeida.pages.dev/painel/rt (30 artes para aprovar, botão Baixar em todas) | no ar (Leandro; 2º código pelo Pedro) |
+| Identidade v1 + manual com rebranding (21 p.) | `agencia/clientes/rt-full-jobs/identidade/v1/` | aguardando o cliente (Pedro; rebranding Leandro) |
+| Estratégia v2 (19 p.) | `agencia/clientes/rt-full-jobs/estrategia/v2/` · PDF no painel | aguardando o cliente (Leandro; v1 do Pedro no privado) |
+| Artes v1 (Pedro), v2 e série Inventário (Leandro), legendas | `agencia/clientes/rt-full-jobs/instagram-v1/` e `instagram-v2/` | no painel |
+| Bio, foto de perfil e 6 capas de destaques | `agencia/clientes/rt-full-jobs/instagram-v1/perfil/` (BIO.md) | entregues ao Lindson |
+| 56 fotos reais dos equipamentos | `agencia/clientes/rt-full-jobs/fotos-equipamentos/` (FONTES.md) | feito |
+**Como retomar:** falta pôr o site no Google (`agencia/processos/google-mini-site.md`), confirmar a cidade (`CIDADE` no `gerar.py` do site), os modelos a confirmar (STORM 1200, 24-70 GM/GM II, Mirage, intercom, teleprompter), uma fala real de cliente e fotos do equipamento da RT.
+
+## Leo Pinto · novidades de 03/11/2026 (conta Leandro)
+- Bio v2: `agencia/clientes/leo-pinto/instagram-perfil/BIO.md`. Capas de destaques: `agencia/clientes/leo-pinto/instagram-destaques/`.
+- Modelo de aniversário (padrão = modelo B, com story): `agencia/clientes/leo-pinto/instagram-aniversario/` (README). Josef Figueiredo aprovado e no painel; fontes no privado `dados/clientes-arquivos/leo/aniversarios/`.
+- Foto melhorada antes de usar: `ferramentas/melhorar_foto.py` (Real-ESRGAN).
+
 ## Ferramentas que ficam fora do Git
 - **Agentes Xquads** (Hormozi, Donald Miller, Pedro Sobral, copy-squad…): instale com `instalar-xquads.sh` (Mac/Linux) ou `instalar-xquads.ps1` (Windows).
 - **Modelo de profundidade** (Depth Anything V2 ONNX) usado pelo motor: baixe para `<pasta temporária>/modelos/depth.onnx`.
