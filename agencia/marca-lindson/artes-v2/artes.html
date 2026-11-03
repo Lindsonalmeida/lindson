@@ -30,6 +30,13 @@ html,body{background:#000;overflow:hidden;font-family:Manrope,sans-serif;-webkit
 <script>
 const F='fotos/',A=new URLSearchParams(location.search).get('a')||'',R=A.startsWith('r');
 const topo=(rot,y)=>`<div class="abs" style="left:70px;right:70px;top:${y||(R?250:60)}px;display:flex;justify-content:space-between;align-items:center;z-index:5"><span class="marca">lindson almeida<i></i></span><span class="mono" style="font-size:21px">${rot}</span></div>`;
+// modelo r1 (aprovado): foto inteira descendo da faixa do topo (cabeça fora do corte 3:4 do grid), degradê para a manchete
+const inteira=f=>`<div class="foto" style="left:0;right:0;top:260px;height:2130px;background-image:url(${F}${f});background-position:50% 0"></div>
+ <div class="abs" style="inset:0;background:linear-gradient(180deg,#0A0A0A 0,#0A0A0A 290px,rgba(10,10,10,0) 560px,rgba(10,10,10,0) 1000px,rgba(10,10,10,.92) 1450px)"></div>`;
+// modelo p1 (aprovado): foto num lado ('d' direita, 'e' esquerda), degradê para o lado do texto; em Reels a foto desce da faixa do topo
+const lado=(f,l,pos,tam)=>{const t=R?260:0,d=l==='d';return `<div class="foto" style="${d?'left:380px;right:0':'left:0;right:380px'};top:${t}px;bottom:0;background-image:url(${F}${f});background-size:${tam};background-position:${pos}"></div>
+ <div class="abs" style="inset:0;background:linear-gradient(${d?90:270}deg,var(--p) 34%,rgba(10,10,10,.55) 58%,rgba(10,10,10,0) 80%)"></div>
+ <div class="abs" style="inset:0;background:linear-gradient(0deg,rgba(10,10,10,.9),transparent 40%)"></div>${R?`<div class="abs" style="left:0;right:0;top:0;height:560px;background:linear-gradient(180deg,#0A0A0A 0,#0A0A0A 290px,rgba(10,10,10,0))"></div>`:''}`};
 const S={
 // a1 · Apresentação · INF: nome gigante condensado atravessando a foto colorida (recorte por cima da 2ª linha)
 a1:`<div class="a"><img class="abs" src="${F}c05.jpg" style="left:0;top:-60px;width:1080px">
@@ -40,12 +47,74 @@ a1:`<div class="a"><img class="abs" src="${F}c05.jpg" style="left:0;top:-60px;wi
  ${topo('(20 26) · SÃO LUÍS')}
  <div class="abs" style="left:70px;right:70px;bottom:120px"><div class="h" style="font-size:78px">Faço o seu Instagram<br>trazer <span class="cx">cliente</span>.</div></div>
  <div class="abs mono" style="left:70px;right:70px;bottom:56px;display:flex;justify-content:space-between;font-size:21px;color:var(--ap)"><span>@LINDSONALMEIDA_</span><span>PRAZER, LINDSON</span></div><div class="grao"></div></div>`,
-// c1 · Capa de carrossel AMARELA · MUR: letras gigantes vazadas saindo da tela + foto colorida em cartão escuro
-c1:`<div class="a am"><div class="abs ant" style="left:-40px;top:150px;font-size:680px;color:transparent;-webkit-text-stroke:4px rgba(10,10,10,.85)">BIO</div>
- ${topo('PASSO A PASSO')}
- <div class="abs" style="left:520px;top:300px;width:490px;height:740px;background:var(--p);border-radius:28px;overflow:hidden;box-shadow:0 50px 100px rgba(0,0,0,.35)"><div class="foto" style="inset:0;background-image:url(${F}c01.jpg);background-position:50% 12%;background-size:170%"></div><div class="abs" style="inset:0;background:linear-gradient(180deg,transparent 55%,rgba(10,10,10,.85))"></div><div class="abs mono" style="left:30px;bottom:28px;font-size:20px;color:var(--am)">● PERFIL QUE VENDE</div></div>
- <div class="abs" style="left:70px;top:820px;width:440px"><div class="h" style="font-size:86px">Arrume a sua bio em <span class="cx" style="background:var(--p);color:var(--am)">3 passos</span>.</div></div>
- <div class="abs arr" style="left:70px;bottom:60px">ARRASTE PARA O LADO →</div><div class="abs mono" style="right:70px;bottom:60px;font-size:21px">01 / 05</div></div>`,
+// (a capa amarela "BIO" vazada foi REPROVADA em 03/11; tudo abaixo segue só os 3 modelos aprovados: a1, r1 e p1)
+// a2 · Apresentação 2 · modelo p1 espelhado: foto à esquerda, texto à direita
+a2:`<div class="a">${lado('c02.jpg','e','50% 6%','175%')}${topo('O QUE EU FAÇO')}
+ <div class="abs" style="left:560px;right:70px;top:250px"><div class="h" style="font-size:74px">Do perfil ao <span class="cx">WhatsApp</span>.</div></div>
+ <div class="abs" style="left:560px;right:70px;top:560px">${[['01','Arrumo a sua vitrine'],['02','Gravo o seu mês em 1 dia'],['03','Levo o cliente pro WhatsApp']].map(x=>`<div style="display:grid;grid-template-columns:70px 1fr;align-items:baseline;border-top:2px solid #2a2a2a;padding:24px 0"><span class="mono" style="font-size:24px;color:var(--am)">${x[0]}</span><b style="font:800 38px/1.1 Manrope;letter-spacing:-.025em">${x[1]}</b></div>`).join('')}</div>
+ <div class="abs" style="left:560px;bottom:120px;display:flex;align-items:center;gap:18px"><div style="width:64px;height:4px;background:var(--am)"></div><span class="mono" style="font-size:22px">LINDSON ALMEIDA</span></div>
+ <div class="abs arr" style="right:70px;bottom:60px;color:var(--ap)">DIRECT ABERTO →</div><div class="grao"></div></div>`,
+// c1 · Carrossel "Arrume sua bio em 3 passos" (5 telas, nenhuma repete a anterior)
+c1_1:`<div class="a">${lado('c01.jpg','d','50% 6%','175%')}${topo('PASSO A PASSO')}
+ <div class="abs ant" style="left:60px;top:170px;font-size:420px;color:var(--am)">3</div>
+ <div class="abs" style="left:70px;top:560px;width:560px"><div class="h" style="font-size:80px">Arrume a sua bio em <span class="cx">3 passos</span>.</div><p style="font:500 30px/1.4 Manrope;color:var(--ap);margin-top:28px;width:470px">Ela é a primeira coisa que o cliente lê. Ou ela chama, ou ela espanta.</p></div>
+ <div class="abs arr" style="left:70px;bottom:60px;color:var(--am)">ARRASTE PARA O LADO →</div><div class="abs mono" style="right:70px;bottom:60px;font-size:21px">01 / 05</div><div class="grao"></div></div>`,
+c1_2:`<div class="a">${topo('PASSO 01')}<div class="abs ant" style="right:60px;top:430px;font-size:240px;color:#1d1d1d">01</div>
+ <div class="abs" style="left:70px;right:70px;top:230px"><div class="mono" style="font-size:24px;color:var(--am)">PASSO 01</div><div class="h" style="font-size:88px;margin-top:20px">Diga o que você faz e <span class="cx">para quem</span>.</div></div>
+ <div class="abs" style="left:70px;right:70px;top:720px;display:grid;gap:20px"><div style="border:2px solid #2a2a2a;padding:28px 30px"><div class="mono" style="font-size:20px;color:var(--ap)">ASSIM NÃO</div><p style="font:600 38px Manrope;margin-top:10px;color:#77746c;text-decoration:line-through">Gratidão · Fé · Família</p></div>
+ <div style="border:2px solid var(--am);padding:28px 30px"><div class="mono" style="font-size:20px;color:var(--am)">ASSIM SIM</div><p style="font:700 38px/1.25 Manrope;margin-top:10px">Clínica de estética em São Luís · Limpeza de pele e harmonização</p></div></div>
+ <div class="abs mono" style="right:70px;bottom:60px;font-size:21px">02 / 05</div><div class="grao"></div></div>`,
+c1_3:`<div class="a"><div class="abs" style="inset:0;background:radial-gradient(55% 40% at 50% 62%,rgba(245,197,24,.16),transparent 70%)"></div>${topo('PASSO 02')}
+ <div class="abs" style="left:70px;right:70px;top:230px;text-align:center"><div class="mono" style="font-size:24px;color:var(--am)">PASSO 02</div><div class="h" style="font-size:92px;margin-top:20px">Dê um motivo para<br><span class="cx">chamar agora</span>.</div></div>
+ <div class="abs" style="left:150px;right:150px;top:700px;background:#141414;border:2px solid #2a2a2a;border-radius:28px;padding:40px;text-align:center"><div class="mono" style="font-size:20px;color:var(--ap)">ÚLTIMA LINHA DA BIO</div><div style="font:800 46px/1.2 Manrope;margin-top:16px">Agende sua avaliação<br>pelo <span style="color:var(--am)">WhatsApp</span></div></div>
+ <div class="abs" style="left:70px;right:70px;top:1060px;text-align:center;font:500 30px/1.4 Manrope;color:var(--ap)">Quem lê precisa saber o próximo passo.</div>
+ <div class="abs mono" style="right:70px;bottom:60px;font-size:21px">03 / 05</div><div class="grao"></div></div>`,
+c1_4:`<div class="a">${topo('PASSO 03')}<div class="abs" style="left:539px;top:200px;width:2px;height:560px;background:var(--am)"></div>
+ <div class="abs" style="left:70px;top:220px;width:420px"><div class="mono" style="font-size:22px;color:var(--ap)">PROBLEMA</div><div style="font:800 62px/1.02 Manrope;letter-spacing:-.03em;margin-top:18px;color:#77746c;text-decoration:line-through">Lista de links</div><p style="font:500 30px/1.4 Manrope;color:var(--ap);margin-top:24px">7 botões. O cliente não sabe em qual tocar e vai embora.</p></div>
+ <div class="abs" style="left:600px;top:220px;width:410px"><div class="mono" style="font-size:22px;color:var(--am)">SOLUÇÃO</div><div style="font:800 62px/1.02 Manrope;letter-spacing:-.03em;margin-top:18px">Um link só</div><p style="font:500 30px/1.4 Manrope;color:var(--ap);margin-top:24px">O WhatsApp com a mensagem já escrita. Um toque e ele chama.</p></div>
+ <div class="abs" style="left:70px;right:70px;top:900px"><div class="h" style="font-size:92px">Um link, <span class="cx">um caminho</span>.</div></div>
+ <div class="abs mono" style="right:70px;bottom:60px;font-size:21px">04 / 05</div><div class="grao"></div></div>`,
+c1_5:`<div class="a">${lado('c12.jpg','e','55% 10%','118%')}${topo('REC 00:00:10')}
+ <div class="abs" style="left:560px;right:70px;top:300px"><div class="h" style="font-size:84px">Quer que eu arrume <span class="cx">a sua</span>?</div><p style="font:500 30px/1.4 Manrope;color:var(--ap);margin-top:30px">Eu olho a sua bio, os destaques e o link e te mostro o que está espantando cliente. De graça.</p></div>
+ <div class="abs" style="left:560px;bottom:120px"><span class="cx" style="font:800 40px Manrope;padding:14px 24px">Comenta PERFIL</span></div>
+ <div class="abs mono" style="right:70px;bottom:60px;font-size:21px">05 / 05</div><div class="grao"></div></div>`,
+// r2 · Reels "Como gravo o mês inteiro em 1 dia" · modelo r1
+r2:`<div class="a r">${inteira('c03.jpg')}${topo('● REC 00:00:11')}
+ <div class="abs" style="left:70px;right:70px;top:1180px"><div class="mono" style="font-size:24px;color:var(--am);margin-bottom:22px">BASTIDOR</div><div class="h" style="font-size:112px">Um mês de vídeos.<br>Gravado em <span class="cx">um dia</span>.</div></div>
+ <div class="abs mono" style="left:70px;bottom:270px;font-size:21px;color:var(--ap)">@LINDSONALMEIDA_ · COMENTA "ROTEIRO"</div><div class="grao"></div></div>`,
+// r3 · Reels "Mini site da Rafael Imports" · modelo p1 espelhado + o site real no celular
+r3:`<div class="a r">${lado('c09.jpg','e','50% 0','cover')}${topo('CLIENTE')}
+ <div class="abs" style="left:540px;right:70px;top:420px"><div class="mono" style="font-size:22px;color:var(--am)">RAFAEL IMPORTS</div><div class="h" style="font-size:92px;margin-top:20px">Do zero ao <span class="cx">link no ar</span>.</div></div>
+ <div class="abs" style="left:600px;top:900px;width:380px;height:780px;border-radius:56px;background:#0A0A0A;padding:14px;border:2px solid #2a2a2a;transform:rotate(5deg);box-shadow:0 60px 120px rgba(0,0,0,.6)"><div style="width:100%;height:100%;border-radius:44px;background:url(${F}site-rafael.png) top/cover"></div></div>
+ <div class="abs mono" style="left:70px;bottom:270px;font-size:21px;color:var(--ap)">RAFAELIMPORTS.PAGES.DEV · COMENTA "SITE"</div><div class="grao"></div></div>`,
+// c2 · Carrossel "Eu mudei a minha marca" (4 telas)
+c2_1:`<div class="a"><img class="abs" src="${F}c06.jpg" style="left:0;top:-250px;width:1080px">
+ <div class="abs" style="inset:0;background:rgba(10,10,10,.28)"></div>
+ <div class="abs ant" style="left:0;right:0;top:160px;text-align:center;font-size:330px;color:var(--am)">MARCA</div>
+ <img class="abs" src="${F}c06-full.png" style="left:0;top:-250px;width:1080px;filter:brightness(.72);-webkit-mask-image:linear-gradient(180deg,#000 0,#000 800px,transparent 880px);mask-image:linear-gradient(180deg,#000 0,#000 800px,transparent 880px)">
+ <div class="abs" style="inset:0;background:linear-gradient(180deg,rgba(10,10,10,.35) 0,transparent 14%,transparent 58%,rgba(10,10,10,.96) 84%)"></div>
+ ${topo('ANTES × DEPOIS')}
+ <div class="abs" style="left:70px;right:70px;bottom:120px"><div class="h" style="font-size:76px">Eu mudei a <span class="cx">minha marca</span>.</div></div>
+ <div class="abs arr" style="left:70px;bottom:56px;color:var(--am)">ARRASTE PARA O LADO →</div><div class="abs mono" style="right:70px;bottom:56px;font-size:21px">01 / 04</div><div class="grao"></div></div>`,
+c2_2:`<div class="a">${topo('ANTES × DEPOIS')}
+ <div class="abs" style="left:70px;top:190px;width:430px;height:765px;border:2px solid #2a2a2a;background:url(${F}story-1.jpg) center/cover;filter:saturate(.6)"></div>
+ <div class="abs" style="left:580px;top:190px;width:430px;height:765px;border:2px solid var(--am);background:url(artes/a1.png) center/cover"></div>
+ <div class="abs" style="left:478px;top:510px;width:124px;height:124px;border-radius:50%;background:var(--am);color:var(--p);display:grid;place-items:center;font:800 56px Manrope">→</div>
+ <div class="abs mono" style="left:70px;top:975px;font-size:21px;color:var(--ap)">ANTES</div><div class="abs mono" style="left:580px;top:975px;font-size:21px;color:var(--am)">DEPOIS</div>
+ <div class="abs" style="left:70px;right:70px;top:1050px"><div class="h" style="font-size:68px">Menos enfeite. <span class="cx">Mais clareza</span>.</div></div>
+ <div class="abs mono" style="right:70px;bottom:56px;font-size:21px">02 / 04</div><div class="grao"></div></div>`,
+c2_3:`<div class="a">${topo('O QUE MUDOU')}<div class="abs" style="left:70px;right:70px;top:220px"><div class="h" style="font-size:88px">O cliente decide se chama <span class="cx">em segundos</span>.</div></div>
+ <div class="abs" style="left:70px;right:70px;top:640px">${[['Cor','Preto e amarelo: um acento só, sempre o mesmo.'],['Letra','Manchete forte e a palavra que importa em destaque.'],['Foto','Meu rosto de verdade, com luz de estúdio.']].map((x,i)=>`<div style="display:grid;grid-template-columns:80px 200px 1fr;gap:20px;align-items:baseline;border-top:2px solid #2a2a2a;padding:30px 0"><span class="mono" style="font-size:22px;color:var(--am)">0${i+1}</span><b style="font-size:46px">${x[0]}</b><span style="font:500 28px/1.4 Manrope;color:var(--ap)">${x[1]}</span></div>`).join('')}</div>
+ <div class="abs mono" style="right:70px;bottom:56px;font-size:21px">03 / 04</div><div class="grao"></div></div>`,
+c2_4:`<div class="a">${lado('c15.jpg','d','45% 10%','118%')}${topo('REC 00:00:14')}
+ <div class="abs" style="left:60px;top:190px;font:400 360px/1 'Instrument Serif';color:var(--am)">“</div>
+ <div class="abs" style="left:70px;top:470px;width:600px"><div style="font:800 64px/1.06 Manrope;letter-spacing:-.035em">E o seu perfil, <span class="cx">passa confiança</span>?</div><p style="font:500 30px/1.4 Manrope;color:var(--ap);margin-top:28px;width:520px">Eu olho e te digo o que mudar. Sem custo.</p></div>
+ <div class="abs" style="left:70px;bottom:120px"><span class="cx" style="font:800 40px Manrope;padding:14px 24px">Comenta PERFIL</span></div>
+ <div class="abs mono" style="right:70px;bottom:56px;font-size:21px">04 / 04</div><div class="grao"></div></div>`,
+// r4 · Reels "Mito: precisa postar todo dia" · modelo r1
+r4:`<div class="a r">${inteira('c04.jpg')}${topo('● REC 00:00:15')}
+ <div class="abs" style="left:70px;right:70px;top:1130px"><div class="mono" style="font-size:24px;color:var(--am);margin-bottom:22px">MITO × VERDADE</div><div style="font:800 76px/1 Manrope;letter-spacing:-.04em;color:#8a8a8a;text-decoration:line-through;text-decoration-color:var(--am);text-decoration-thickness:6px">Precisa postar todo dia.</div><div class="h" style="font-size:118px;margin-top:24px">Precisa postar <span class="cx">certo</span>.</div></div>
+ <div class="abs mono" style="left:70px;bottom:270px;font-size:21px;color:var(--ap)">@LINDSONALMEIDA_ · COMENTA "PERFIL"</div><div class="grao"></div></div>`,
 // r1 · Capa de Reels · JT: foto cinematográfica inteira (luz âmbar do estúdio), palavra-chave em caixa amarela
 r1:`<div class="a r"><div class="foto" style="left:0;right:0;top:260px;height:2130px;background-image:url(${F}c00.jpg);background-position:50% 0"></div>
  <div class="abs" style="inset:0;background:linear-gradient(180deg,#0A0A0A 0,#0A0A0A 290px,rgba(10,10,10,0) 560px,rgba(10,10,10,0) 1000px,rgba(10,10,10,.92) 1450px)"></div>

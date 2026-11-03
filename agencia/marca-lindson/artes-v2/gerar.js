@@ -1,7 +1,7 @@
 // Gera os PNGs das artes (artes.html?a=<id>) em artes/ e a prévia do perfil (grid 3 colunas). Conta Pedro, 03/11/2026.
 // Uso: node gerar.js [id ...]   (sem id = todas). Fotos em fotos/ (fora do Git).
 const { chromium } = require('playwright'), path = require('path'), fs = require('fs');
-const D = __dirname, IDS = ['a1', 'c1', 'r1', 'p1'];
+const D = __dirname, IDS = ['a1','a2','r1','c1_1','c1_2','c1_3','c1_4','c1_5','r2','r3','p1','c2_1','c2_2','c2_3','c2_4','r4'];
 (async () => {
   const b = await chromium.launch(), ids = process.argv.slice(2).length ? process.argv.slice(2) : IDS;
   fs.mkdirSync(path.join(D, 'artes'), { recursive: true });
