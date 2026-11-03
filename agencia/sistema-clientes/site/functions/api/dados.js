@@ -36,7 +36,8 @@ export async function onRequestPut({ request, env }) {
   if (a.chave.endsWith(':aprov') && b.dados && Array.isArray(b.dados.itens)) {
     const conta = await env.CONTAS.get('conta:' + a.q.email, 'json'), nome = (conta && conta.nome) || a.q.email;
     const antes = {}; ((atual.dados && atual.dados.itens) || []).forEach(x => antes[x.titulo] = x);
-    b.dados.itens.forEach(x => { const o = antes[x.titulo]; if (!o || o.st !== x.st || o.em !== x.em || o.nota !== x.nota) { x.por = nome; x.email = a.q.email; } else { x.por = o.por; x.email = o.email; } });
+    b.dados.itens.forEach(x => { const o = antes[x.titulo]; if (!o || o.st !== x.st || o.em !== x.em || o.nota !== x.nota) { x.por = nome; x.email = a.q.email; } else { x.por = o.por; x.email = o.email; }
+      if (!!x.postado !== !!(o && o.postado)) { x.postadoPor = x.postado ? nome : null; } else if (o) { x.postadoPor = o.postadoPor || null; x.postadoEm = o.postadoEm || x.postadoEm; } });
   }
   const novo = { dados: b.dados, versao: atual.versao + 1, por: a.q.email, em: new Date().toISOString() };
   await env.CONTAS.put(a.chave, JSON.stringify(novo));

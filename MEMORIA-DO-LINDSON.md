@@ -35,6 +35,7 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 5. **Salve tudo no repositório**: decisões, roteiros, pesquisas, prompts e links. Nada fica só na conversa.
 6. **Veja sempre o feed.** Toda arte é mostrada na prévia do feed, na ordem de postagem, antes de ir para aprovação.
 7. **Duas aprovações** (03/11): a do Lindson na conversa aprova só a **criação**; a aprovação da arte é do **cliente no site** (Central). No card aparece só o nome de quem aprovou no site, tirado da conta de acesso (nunca "cliente" genérico, nunca o nome do Lindson como aprovador da arte).
+7c. **Aprovações na Central têm 3 abas** (03/11): Para aprovar · Aprovados (a postar) · Postados. Depois de postar no Instagram, clicar em "Marquei como postado" muda o post de aba (fica registrado quem marcou e quando).
 7b. **Só suba para o painel o que ele aprovou.** Quando ele pedir ajuste, tire do painel e só suba de novo depois de aprovado ("tire de lá e suba só quando ajustar").
 8. **Imagem: uma por mensagem.** Imagem enviada no meio de uma resposta não fica salva. Peça assim.
 9. **Estude só o necessário.** Pesquisa e engenharia reversa servem para aplicar no trabalho, não para virar relatório longo.
