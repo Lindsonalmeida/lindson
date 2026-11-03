@@ -96,8 +96,8 @@ P.append(('p5-31-12', AMARELO, f"""
 #   para 2026 e Leo "novo" (foto 20, punho erguido, mais corpo) NA FRENTE, MAIOR e MAIS ALTO olhando para 2027, Leo velho atrás e menor (o ano que sai): cada um para um lado.
 P.append(('p6-01-01', AZUL, f"""<img class="a" src="assets/banco-luzes.jpg" style="inset:0;width:1080px;height:1350px;object-fit:cover;opacity:.35;mix-blend-mode:screen">
 <div class="a" style="left:0;width:1080px;top:300px;text-align:center">{''.join(f'<div class="H" style="font-size:390px;line-height:.82;{GRAD}">2027</div>' for _ in range(3))}</div>
-{foto('leo-19-fino-esp.png', 780, 830, 300, 718, .53, coberta=('esquerda',))}
 {foto('leo-30-velho-fino.png', 300, 830, 300, 560, .62)}
+{foto('leo-19-fino-esp.png', 780, 830, 300, 718, .53, coberta=('esquerda',))}
 <div class="a" style="left:210px;top:140px;width:660px;transform:rotate(-2deg);background:#FFF6E8;border:12px solid {MAR};outline:3px solid {LAR};outline-offset:-22px;padding:30px 20px 26px;text-align:center;box-shadow:0 30px 50px -24px rgba(2,12,50,.7)">
  {H('Feliz ano novo', 104, MAR, 'line-height:.9')}<div class="L" style="font-size:19px;color:{LAR};margin-top:12px">São João Batista</div></div>
 <div class="a" style="left:70px;top:560px">{CHIP('Adeus, 2026', '#fff', 'rgba(5,49,110,.9)')}</div>
