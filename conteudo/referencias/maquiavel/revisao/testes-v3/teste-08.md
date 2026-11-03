@@ -30,7 +30,7 @@ Agora, se a briga **entrar no seu trabalho** (um pede para você atacar o outro 
 
 **Próximo passo (esta semana)**
 
-Mande a cada um, em particular, a mesma frase curta de posição. E confira se o seu modelo de contrato (`agencia/processos/modelo-contrato/`) tem cláusula de sigilo dos dados do cliente; se não tiver, é a hora de colocar [Conferir com advogado].
+Mande a cada um, em particular, a mesma frase curta de posição. Você já tem a muralha escrita: o seu modelo de contrato (`agencia/processos/modelo-contrato/gerar.py`, obrigações da contratada) manda "manter sigilo sobre informações, estratégias e dados da CONTRATANTE e de seus clientes, mesmo após o término do contrato, nos termos da Lei nº 13.709/2018 (LGPD)". Se um deles pressionar, é a essa cláusula que você aponta: não é má vontade sua, é a palavra dada aos dois.
 
 **Um caso antigo e um do meu tempo:** os aqueus ouviram do legado romano que ficar fora da guerra entre Roma e Antíoco os faria "prêmio do vencedor, sem gratidão e sem dignidade" (*Príncipe* XXI, citando Lívio). No meu tempo, Florença ficou neutra em 1512 quando o papa e a Espanha desceram à Lombardia, e caiu; a leitura de que isso é crítica a Soderini é [Interpretação] corrente.
 
@@ -50,3 +50,4 @@ Mande a cada um, em particular, a mesma frase curta de posição. E confira se o
 - `conteudo/referencias/maquiavel/discursos-fichas-livro-2.md` (II.23, II.25)
 - `conteudo/referencias/maquiavel/maquiavel-nos-negocios.md` (5.3)
 - `PROMPT-DA-EQUIPE.md` (clientes), `agencia/ofertas/esteira-de-produtos.md`
+- `agencia/processos/modelo-contrato/gerar.py` (cláusula de sigilo e LGPD)
