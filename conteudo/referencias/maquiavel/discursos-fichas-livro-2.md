@@ -89,6 +89,8 @@
   - "Por amor": a porta de entrada da esteira (Vídeo e Tráfego, mensais e sem fidelidade) é a "estrada aberta e segura" para o cliente entrar sem medo. Quanto mais fácil entrar, mais gente na base.
   - "Tronco e galho": não tente segurar um cliente grande demais (uma rede, uma franquia com 10 lojas) com a estrutura de uma pessoa só. Primeiro engrosse o tronco: mais clientes nos degraus de baixo, editor contratado, processos. O cliente gigante numa agência pequena é o galho que quebra no primeiro vento (atraso, crise, troca de gerente).
   - Gente de fora: traga parceiros (editor, fotógrafo, social media) e dê a eles espaço de verdade ("aos seus cargos"), em vez de fechar tudo em você, como Esparta.
+- **Citação a mais (acrescentado pela conta Zuleide, ciclo 2), conferida no original:** *"Per amore, tenendo le vie aperte e sicure a’ forestieri che disegnassono venire ad abitare in quella, acciocché ciascuno vi abiti volentieri"* — "Por amor, mantendo os caminhos abertos e seguros aos estrangeiros que quisessem vir morar nela, para que cada um ali more de bom grado"
+- **Outra aplicação, para qualquer pequeno negócio [Interpretação] (acrescentado pela conta Zuleide, ciclo 2):** empresa cresce trazendo gente: acolha bem profissionais de fora, parceiros e clientes de concorrentes que fecharam. Crescer com base estreita (só os fundadores) é galho grosso em tronco fino.
 
 ### 3 — II.4: os três modos de expandir
 
@@ -109,6 +111,8 @@
   - **Modo 2 (aliados com você no comando):** é o modelo para a agência crescer: parceiros (editor, fotógrafo, gestor de tráfego terceirizado, outras agências em white label) com identidade própria, mas a **marca, o contrato e a relação com o cliente ficam com você**. Na esteira, o cliente fala com a agência, não com o editor.
   - **Modo 3 (só subordinados, à força):** contratar muita gente e controlar tudo no braço é caro e frágil para quem não tem estrutura (as "repúblicas desarmadas").
   - Limite ético: em Roma os aliados foram enganados. Num negócio, parceria em que o parceiro descobre tarde que virou empregado mal pago acaba em rompimento e fama ruim. Combine as regras às claras.
+- **Citação a mais (acrescentado pela conta Zuleide, ciclo 2), conferida no original:** *"E se questo modo di fare sudditi è inutile nelle republiche armate, in quelle che sono disarmate è inutilissimo"* — "E se este modo de fazer súditos é inútil nas repúblicas armadas, nas que são desarmadas é inutilíssimo"
+- **Outra aplicação, para qualquer pequeno negócio [Interpretação] (acrescentado pela conta Zuleide, ciclo 2):** para crescer, o modelo "Roma" é o de parceiros e indicadores que trabalham junto mas sob a sua marca e comando (rede de parceiros, white label). Comprar empresas e mandar em tudo exige uma força que pequena empresa não tem.
 
 ### 4 — II.5: o que apaga a memória das coisas
 
@@ -126,6 +130,8 @@
   - "A seita nova apaga a velha": quando o cliente troca de agência, a nova costuma apagar o que existia (arquiva posts, muda identidade). Ao assumir um perfil, **guarde a memória** do cliente: posts que funcionaram, depoimentos, fotos reais. Ao apagar tudo para "se dar reputação", você perde provas que vendiam.
   - O inverso protege a agência: o que não está escrito some. Cases, prints de resultado e roteiros aprovados ficam no repositório (como o próprio acervo faz), não só no celular.
   - "Purga": crises de mercado (mudança de algoritmo, corte de verba) limpam o excesso de concorrentes. Quem sobra, com método, vive "mais comodamente".
+- **Citação a mais (acrescentado pela conta Zuleide, ciclo 2), conferida no original:** *"E chi legge i modi tenuti da San Gregorio, e dagli altri capi della religione cristiana, vedrà con quanta ostinazione e’ perseguitarono tutte le memorie antiche, ardendo le opere de’ poeti e degli istorici, ruinando le imagini e guastando ogni altra cosa che rendesse alcun segno della antichità."* — "E quem lê os modos usados por São Gregório e pelos outros chefes da religião cristã verá com quanta obstinação perseguiram todas as memórias antigas, queimando as obras dos poetas e dos historiadores, arruinando as imagens e estragando tudo o que desse algum sinal da antiguidade."
+- **Outra aplicação, para qualquer pequeno negócio [Interpretação] (acrescentado pela conta Zuleide, ciclo 2):** marca nova que substitui outra (fusão, troca de nome, mudança de sistema) apaga a memória da anterior, inclusive a boa. Guarde de propósito histórico, casos e aprendizados antes de mudar.
 
 ### 5 — II.6: guerras "curtas e grossas"
 
@@ -140,6 +146,7 @@
   - Campanha de tráfego "curta e grossa": verba concentrada, oferta clara, prazo curto (uma promoção de 7 a 15 dias), em vez de anúncio morno rodando meses sem decidir nada.
   - A regra de ouro do capítulo: **cada projeto deve deixar o caixa mais rico**. Se um cliente consome mais horas do que paga (refação sem fim, reunião toda semana), ele empobrece a agência; reveja o pacote ou o preço.
   - "Colônias de fronteira": cada cliente fechado deve gerar a próxima entrada sem custo (indicação, depoimento, case para os anúncios da agência).
+- **Outra aplicação, para qualquer pequeno negócio [Interpretação] (acrescentado pela conta Zuleide, ciclo 2):** projeto, campanha ou disputa comercial: concentre recursos e resolva rápido. Guerra longa (processo, briga de preço, projeto que nunca termina) empobrece. E cada "vitória" deve deixar caixa, não só barulho.
 
 ### 6 — II.7: pouca terra, bem cultivada
 
@@ -152,6 +159,7 @@
 - **Como aplicar num negócio hoje [Interpretação]:**
   - Cada pessoa da equipe (ou você sozinho) deve ter a carteira de clientes que consegue **cultivar bem**. A esteira já diz isso: "cada 4 vídeos = 1 diária; antes de passar de 8 diárias, contrate um editor". Mais clientes mal atendidos é "muita terra mal cultivada".
   - "Campos públicos": recursos comuns a todos os clientes (banco de roteiros, modelos de arte, Script de Fechamento, calendário padrão) fazem a operação andar sem que cada um precise ter tudo próprio.
+- **Outra aplicação, para qualquer pequeno negócio [Interpretação] (acrescentado pela conta Zuleide, ciclo 2):** melhor poucos clientes bem atendidos que muitos mal atendidos. E toda equipe nova (filial, time de projeto) precisa de recursos comuns (ferramentas, modelos, banco de dados).
 
 ### 7 — II.8: guerras de ambição e guerras de necessidade
 
@@ -166,6 +174,7 @@
   - O concorrente **desesperado** (agência sem caixa, freelancer que perdeu o emprego) é o mais perigoso: aceita qualquer preço e quer "tudo", não só uma fatia. Não brigue com ele no preço; mostre o que ele não pode entregar (processo, mini site, relatório, prazo).
   - Use a lição a seu favor: quando você mesmo está "por necessidade" (mês fraco), essa energia faz virtù em prospecção. Só não a transforme em preço que mata a sua margem.
   - O "pequeno grupo que ocupa com arte": ao entrar num nicho novo (ex.: estética, imobiliária), entre "com arte" e com aliados locais (indicações, parcerias), não com força bruta de anúncio.
+- **Outra aplicação, para qualquer pequeno negócio [Interpretação] (acrescentado pela conta Zuleide, ciclo 2):** o concorrente desesperado (que vai quebrar se não ganhar seus clientes) é o mais perigoso: corta preço sem limite. Não trate como concorrência normal; proteja os clientes-chave e não brigue no preço dele.
 
 ### 8 — II.9: como nascem as guerras entre poderosos
 
@@ -181,6 +190,8 @@
   - Disputa com concorrente quase sempre começa por um **terceiro**: um cliente que ele atende e que pede socorro a você. Antes de "salvar" esse cliente, decida se você quer a briga e se aguenta.
   - "Defender como súdito, não como amigo": cliente que chega pedindo ajuda deve entrar **com contrato e escopo** (um degrau da esteira), não como favor. Favor não obriga ninguém; contrato dá direito de agir.
   - Para o pequeno negócio sem estrutura: "entregar-se a quem te defende" é escolher um parceiro forte (plataforma, agência maior, associação comercial) e aceitar as regras dele, em vez de ficar sozinho exposto.
+- **Citação a mais (acrescentado pela conta Zuleide, ciclo 2), conferida no original:** *"perché Annibale capitano cartaginese assaltò i Saguntini amici de’ Romani in Ispagna, non per offendere quelli, ma per muovere l’armi romane, ed avere occasione di combatterli, e passare in Italia"* — "porque Aníbal, capitão cartaginês, atacou os saguntinos, amigos dos romanos na Espanha, não para ofendê-los, mas para mover as armas romanas, ter ocasião de combatê-las e passar à Itália"
+- **Outra aplicação, para qualquer pequeno negócio [Interpretação] (acrescentado pela conta Zuleide, ciclo 2):** concorrente grande costuma atacar pelos seus parceiros e fornecedores, não por você. Fique atento a quem mexe com eles. E o pequeno que não consegue se defender pode precisar se associar formalmente a um grande (rede, cooperativa), aceitando regras.
 
 ### 9 — II.11: aliado com mais fama que força
 
@@ -192,6 +203,8 @@
 - **Como aplicar num negócio hoje [Interpretação]:**
   - Não feche parceria com quem tem **seguidores e fama, mas não entrega**: influenciador que não vende, "agência parceira" sem equipe, plataforma que promete clientes e não manda nenhum. Pergunte pelo resultado concreto (vendas, contatos no WhatsApp), não pelo nome.
   - O espelho: não prometa ao cliente o que você não consegue defender. Prometer "vamos dobrar seu faturamento" sem estrutura é ser o campano: traz o nome, não a ajuda. A regra do repositório de não inventar números vale aqui.
+- **Citação a mais (acrescentado pela conta Zuleide, ciclo 2), conferida no original:** *"ché, essendo amici del re di Francia, trassono di quella amicizia «magis nomen, quam praesidium»"* — "pois, sendo amigos do rei da França, tiraram daquela amizade 'mais nome que proteção'"
+- **Outra aplicação, para qualquer pequeno negócio [Interpretação] (acrescentado pela conta Zuleide, ciclo 2):** parceiro famoso (influenciador, marca grande, "investidor") que não tem estrutura para cumprir não serve de proteção. Antes de depender, veja a força real: equipe, caixa, entregas.
 
 ### 10 — II.12: esperar a guerra em casa ou levá-la para fora?
 
@@ -210,6 +223,8 @@
   - Um concorrente novo chegou na sua cidade e ameaça seus clientes. Se a sua "casa é armada" (clientes satisfeitos, relatórios mensais, relação próxima, contrato de 3 meses nos degraus altos), **espere em casa**: reforce a entrega e deixe ele se cansar tentando tirar clientes que gostam de você.
   - Se a sua casa é "desarmada" (poucos clientes, todos nos degraus de entrada, sem fidelidade, você depende do caixa do mês), **leve a guerra para fora**: prospecte ativamente outros nichos e cidades, para que a perda de um cliente não te derrube.
   - "Arriscar as forças, não a fortuna": nunca coloque a agência inteira numa única aposta longe de casa (um nicho novo, um cliente enorme em outra cidade). Teste com parte das forças.
+- **Citação a mais (acrescentado pela conta Zuleide, ciclo 2), conferida no original:** *"Conchiuggo adunque, di nuovo, che quel principe che ha i suoi popoli armati ed ordinati alla guerra, aspetti sempre in casa una guerra potente e pericolosa, e non la vadia a rincontrare: ma quello che ha i suoi sudditi disarmati, ed il paese inusitato alla guerra, se le discosti sempre da casa il più che può."* — "Concluo, portanto, de novo, que o príncipe que tem seus povos armados e preparados para a guerra espere sempre em casa uma guerra poderosa e perigosa, e não vá ao encontro dela; mas o que tem seus súditos desarmados e o país desacostumado à guerra a afaste sempre de casa o mais que puder."
+- **Outra aplicação, para qualquer pequeno negócio [Interpretação] (acrescentado pela conta Zuleide, ciclo 2):** se sua base de clientes é fiel e sua equipe é forte, defenda o território (atendimento, fidelização). Se é frágil, não deixe o concorrente chegar nela: vá buscar mercado fora antes que ele venha.
 
 ### 11 — II.14: humildade não vence a soberba
 
@@ -225,6 +240,7 @@
   - Cliente insolente que pede "só mais um post", "só mais uma alteração", fora do pacote: cada concessão feita **por medo de perder o cliente** gera o próximo pedido e diminui o respeito por você. Escopo da esteira escrito (quantos posts, vídeos, alterações) é a sua "arma". Fora dele, vídeo extra tem preço.
   - Desconto dado porque o cliente ameaçou cancelar raramente o segura; quase sempre ele cancela depois, e mais barato. Prefira perder o cliente "pela força" (ele sair) do que "pelo medo" (você trabalhar de graça e ele sair igual).
   - A exceção serve para negociação com vários lados: num cliente com dois sócios brigando, ceder algo pequeno a um deles para ganhá-lo pode destravar o contrato.
+- **Outra aplicação, para qualquer pequeno negócio [Interpretação] (acrescentado pela conta Zuleide, ciclo 2):** cliente abusivo que exige cada vez mais com ameaças (cancelar, falar mal) não se acalma com concessões: elas o encorajam. Prepare-se, mostre firmeza, e perca o cliente se for o caso, mas não por medo. Outros clientes passam a respeitar mais.
 
 ### 12 — II.15: os fracos são ambíguos e a decisão lenta sempre prejudica
 
@@ -241,6 +257,7 @@
   - Reunião com cliente sobre "repensar a estratégia" que não termina em decisão concreta (que post, que oferta, que verba, até quando) é sinal de fraqueza. Leve a proposta já decidida e peça um sim ou não.
   - No funil: o lead que diz "vou pensar" é o latino indeciso. O SDR e o Script de Fechamento devem levar ao ponto ("começamos segunda com o degrau Alcance?"), com prazo. A proposta com validade é o "um mês para ratificar".
   - Internamente: a decisão de contratar o editor, de subir o preço, de cortar um cliente que dá prejuízo, adiada por meses, custa mais que qualquer das duas escolhas.
+- **Outra aplicação, para qualquer pequeno negócio [Interpretação] (acrescentado pela conta Zuleide, ciclo 2):** reunião que termina com "vamos pensar" é reunião perdida. Defina o que se vai decidir, decida e registre. A demora não agrada a ninguém: o cliente vai embora e o concorrente avança.
 
 ### 13 — II.16: as três linhas romanas e o exército que só tem "o primeiro choque"
 
@@ -259,6 +276,8 @@
   - Na prospecção: cadência em várias etapas (primeira mensagem, retorno, prova, oferta), cada uma capaz de "receber" o lead que não respondeu à anterior. Uma mensagem só é exército de uma linha.
   - No caixa: reserva para ao menos três meses ruins. A agência que se refaz três vezes precisa de três azares seguidos para quebrar.
   - "Cavalaria amiga que atropela": às vezes quem derruba a entrega é o próprio parceiro (fornecedor que atrasa, cliente que muda tudo na véspera). Posicione-se para que o recuo dele não caia em cima do seu prazo.
+- **Citação a mais (acrescentado pela conta Zuleide, ciclo 2), conferida no original:** *"Dico, adunque, che per il testo di Livio si raccoglie come lo esercito romano aveva tre divisioni principali, le quali toscanamente si possono chiamare tre schiere"* — "Digo, portanto, que pelo texto de Lívio se percebe que o exército romano tinha três divisões principais, que em toscano se podem chamar três esquadras"
+- **Outra aplicação, para qualquer pequeno negócio [Interpretação] (acrescentado pela conta Zuleide, ciclo 2):** tenha reservas: não jogue toda a equipe e todo o orçamento na primeira ação. Planeje a segunda e a terceira linha (campanha de reforço, equipe de apoio, plano B) para renovar o esforço quando a primeira cansar.
 
 ### 14 — II.17: a artilharia não substitui a virtù
 
@@ -274,6 +293,7 @@
   - A "artilharia" de hoje é a ferramenta: IA para legenda, automação, app de SDR, programa de edição. Ela multiplica quem já sabe (roteiro bom, oferta clara, atendimento rápido); sem isso, é "inutilíssima".
   - Na venda: o cliente que diz "comprei um curso de tráfego e não funcionou" teve artilharia sem virtù. O que a agência vende não é a ferramenta, é o método que a usa.
   - E, como no ponto (1), a ferramenta ajuda mais quem ataca: use automação para **prospectar** (o botão de WhatsApp com a mensagem pronta), não só para se defender de reclamações.
+- **Outra aplicação, para qualquer pequeno negócio [Interpretação] (acrescentado pela conta Zuleide, ciclo 2):** ferramenta nova (IA, automação, software caro) só ajuda quem já tem bom processo e boa equipe. Sem isso, não salva a empresa. Primeiro a virtù (método, gente), depois a tecnologia.
 
 ### 15 — II.18: a infantaria vale mais que a cavalaria
 
@@ -290,6 +310,8 @@
   - A "infantaria" da agência é a **entrega recorrente**: vídeos gravados no dia, posts no calendário, relatório mensal, atendimento no WhatsApp. A "cavalaria" é o que brilha: um viral, um prêmio, um post de autoridade. A cavalaria ajuda (reconhecimento, perseguição do lead), mas o negócio se sustenta na infantaria.
   - O erro dos condottieri é o do prestador que prefere poucos "clientes vitrine" (marca famosa que paga pouco) porque dão reputação, em vez de muitos clientes nos degraus médios da esteira, que pagam as contas.
   - "Só infantaria vence infantaria": para tirar cliente de uma agência organizada, só sendo mais organizado. Promessa e estética não bastam.
+- **Citação a mais (acrescentado pela conta Zuleide, ciclo 2), conferida no original:** *"Possono le fanterie, ordinate, facilmente rompere i cavagli, e difficilmente essere rotte da quegli."* — "As infantarias, ordenadas, podem facilmente romper as cavalarias, e dificilmente ser rompidas por elas."
+- **Outra aplicação, para qualquer pequeno negócio [Interpretação] (acrescentado pela conta Zuleide, ciclo 2):** a base da empresa é quem faz o trabalho do dia a dia (atendimento, produção), não a estrela que chama atenção. Invista primeiro na "infantaria".
 
 ### 16 — II.20: o perigo das tropas auxiliares e mercenárias
 
@@ -305,6 +327,8 @@
   - "Auxiliar" é o profissional que trabalha para você mas **responde a outro dono**: gestor de tráfego de outra agência em parceria, editor exclusivo de um concorrente, plataforma que controla o contato do cliente. Ele pode ficar com o seu cliente quando a guerra acaba (o projeto entregue).
   - Proteção: contrato e relacionamento do cliente sempre no nome da agência; acesso às contas (Meta, Instagram) com o cliente e com você, não só com o terceirizado; terceirizado assina confidencialidade e não-aliciamento.
   - O lado positivo do capítulo: mostrar desinteresse e generosidade com o cliente (não prender, não esconder senha, não cobrar por tudo) faz que ele "se jogue no colo", isto é, peça para subir de degrau.
+- **Citação a mais (acrescentado pela conta Zuleide, ciclo 2), conferida no original:** *"Dico pertanto, di nuovo, come di tutte l’altre qualità de’ soldati, gli ausiliari sono i più dannosi"* — "Digo portanto, de novo, que de todas as outras qualidades de soldados, os auxiliares são os mais danosos" E: *"Debbe, dunque, un principe o una republica pigliare prima ogni altro partito, che ricorrere a condurre nello stato suo per sua difesa genti ausiliarie"* — "Deve, pois, um príncipe ou uma república tomar qualquer outro partido antes de recorrer a trazer ao seu Estado, para sua defesa, gente auxiliar"
+- **Outra aplicação, para qualquer pequeno negócio [Interpretação] (acrescentado pela conta Zuleide, ciclo 2):** entregar uma área inteira (vendas, tráfego, atendimento) a outra empresa que manda nos profissionais é arriscado: eles obedecem a ela e podem levar seus clientes. Terceirize tarefas, não o coração do negócio; e contrato com cláusula de não aliciamento.
 
 ### 17 — II.21: deixar os vencidos com as suas leis
 
@@ -322,6 +346,7 @@
   - Domínio "que não se vê": o cliente deve sentir que o perfil é dele, com a voz dele; a agência aparece no resultado, não na assinatura.
   - Não force a venda do degrau seguinte. Quanto menos você parece querer "ocupar", mais ele pede: o cliente do Vídeo que vê resultado pede o Tráfego.
   - Pistoia × Pisa: trate os clientes pequenos "como irmãos" e eles indicam outros; trate como número e eles fogem para o concorrente.
+- **Outra aplicação, para qualquer pequeno negócio [Interpretação] (acrescentado pela conta Zuleide, ciclo 2):** ao comprar uma empresa, absorver um cliente grande ou abrir parceria, deixe o outro funcionar do seu jeito o quanto possível. Impor tudo de uma vez gera resistência; quem é bem tratado indica e atrai outros.
 
 ### 18 — II.22: as opiniões falsas sobre as coisas grandes
 
@@ -336,6 +361,8 @@
   - Não ache que o concorrente "que acabou de ganhar um cliente grande" está fraco e sobrecarregado. Quase sempre a vitória dá a ele reputação, case e indicações. Aprenda com o que ele fez, em vez de esperar que ele caia.
   - O inverso vale para você: depois de um resultado forte de um cliente, **use a reputação logo** (case, depoimento, anúncio da agência). É o momento em que a vitória "aterroriza" a concorrência.
   - Em tempos bons, a equipe tende a ouvir quem agrada, não quem sabe. Guarde espaço para o conselho incômodo (o editor que diz que o roteiro está fraco).
+- **Citação a mais (acrescentado pela conta Zuleide, ciclo 2), conferida no original:** *"E perché gli eccellenti uomini nelle republiche corrotte, nei tempi quieti massime, e per invidia e per altre ambiziose cagioni, sono inimicati, si va dietro a quello che o, da uno comune inganno è giudicato bene, o, da uomini che più presto vogliono i favori che il bene dello universale, è messo innanzi."* — "E porque os homens excelentes, nas repúblicas corrompidas, sobretudo em tempos quietos, por inveja e outras razões ambiciosas, são hostilizados, segue-se aquilo que, por um engano comum, é julgado bom, ou o que é proposto por homens que querem mais os favores que o bem de todos."
+- **Outra aplicação, para qualquer pequeno negócio [Interpretação] (acrescentado pela conta Zuleide, ciclo 2):** em fase tranquila, a empresa tende a ouvir quem agrada, não quem entende. Para decisões grandes, chame quem tem competência comprovada, mesmo que incomode, e desconfie da opinião da maioria.
 
 ### 19 — II.23: fugir da via do meio
 
@@ -352,6 +379,8 @@
   - Com um cliente que deu calote, falou mal da agência ou quebrou o contrato: ou **reconcilia de verdade** (conversa franca, novo acordo bom para os dois, como os privernates), ou **encerra** com elegância e cobra pelo jurídico. Continuar atendendo de cara feia, cortando entregas e cobrando juros é a via do meio: cria um inimigo que fala mal no bairro.
   - Com funcionário ou parceiro que errou feio: ou corrige e confia de novo, ou desliga. Rebaixar e manter humilhado é Forcas Caudinas.
   - Limite: "extinguir", num negócio, é encerrar a relação, nunca prejudicar a pessoa. A frase dos privernates é a melhor regra comercial do capítulo: só dura o acordo que é bom para o outro lado.
+- **Citação a mais (acrescentado pela conta Zuleide, ciclo 2), conferida no original:** *"Di tutti gli stati infelici, è infelicissimo quello d’uno principe o d’una republica che è ridotto in termine che non può ricevere la pace o sostenere la guerra"* — "De todos os estados infelizes, o mais infeliz é o de um príncipe ou de uma república reduzido a ponto de não poder receber a paz nem sustentar a guerra" E: *"Iam Latio is status erat rerum, ut neque pacem neque bellum pati possent"*
+- **Outra aplicação, para qualquer pequeno negócio [Interpretação] (acrescentado pela conta Zuleide, ciclo 2):** com quem te traiu (sócio, funcionário, parceiro), não fique no meio: ou reconcilia de verdade, dando motivo para lealdade, ou encerra a relação. Manter e humilhar cria inimigo de dentro. Ligação com I.26 e III.40.
 
 ### 20 — II.25: não atacar a cidade dividida contando com a divisão
 
@@ -366,6 +395,8 @@
 - **Como aplicar num negócio hoje [Interpretação]:**
   - Empresa do cliente com sócios brigando (um quer investir em Instagram, o outro não): não tome partido nem pressione. Seja o **árbitro de confiança**: proposta pequena, que agrade aos dois (o degrau Vídeo, sem fidelidade), e deixe o resultado decidir. A pressão os une contra você.
   - Concorrente com problemas internos (equipe saindo, clientes reclamando): atacá-lo em público faz a equipe dele se unir. Melhor ser a opção calma e de confiança para os clientes insatisfeitos.
+- **Citação a mais (acrescentado pela conta Zuleide, ciclo 2), conferida no original:** *"E così per lo avvenire ne resterà ingannato qualunque per simile via e per simile cagione crederrà oppressare uno popolo."* — "E assim, no futuro, ficará enganado quem, por via semelhante e por causa semelhante, achar que vai oprimir um povo."
+- **Outra aplicação, para qualquer pequeno negócio [Interpretação] (acrescentado pela conta Zuleide, ciclo 2):** atacar o concorrente que está em crise interna pode uni-lo. Mais eficaz é esperar e oferecer-se como alternativa para clientes e profissionais insatisfeitos de lá. E se sua empresa está dividida, um ataque de fora pode ser a ocasião de unir a equipe.
 
 ### 21 — II.26: o desprezo e o insulto só geram ódio
 
@@ -381,6 +412,8 @@
   - Nunca debochar de concorrente, cliente que saiu ou ex-funcionário nos Stories, no grupo de WhatsApp ou numa legenda "indireta". Não tira nenhum cliente dele e lhe dá motivo e energia para responder.
   - Na copy de venda (`agencia/prospeccao/PADRAO-COPY.md`): falar da dor do cliente sem humilhá-lo. Mensagem que ridiculariza o perfil da pessoa ("seu Instagram está horrível") gera ódio, não resposta.
   - Dentro da equipe: proibir a piada com o erro do outro ("lembra quando você postou errado?"), como Graco proibiu lembrar a escravidão. Quem é ridicularizado sabota.
+- **Citação a mais (acrescentado pela conta Zuleide, ciclo 2), conferida no original:** *"Io credo che sia una delle grandi prudenze che usono gli uomini, astenersi o dal minacciare o dallo ingiuriare alcuno con le parole"* — "Creio que seja uma das grandes prudências que os homens usam abster-se de ameaçar ou injuriar alguém com palavras"
+- **Outra aplicação, para qualquer pequeno negócio [Interpretação] (acrescentado pela conta Zuleide, ciclo 2):** nunca ironize nem ameace concorrente, ex-funcionário ou cliente em rede social ou grupo de WhatsApp. Não ganha nada e dá motivo para revanche. Piada ofensiva com a equipe também deixa marca.
 
 ### 22 — II.28: não vingar uma injúria é perigoso
 
@@ -395,6 +428,7 @@
   - Reclamação justa do cliente (post com erro, atraso, verba de anúncio mal usada) precisa de **reparação visível**: reconhecer, corrigir, compensar. Ignorar e, pior, "premiar" quem errou (manter o mesmo editor sem conversa) faz o cliente se vingar: avaliação ruim, indicação contrária, cancelamento no pior momento.
   - Entre equipe: se um colaborador foi desrespeitado por outro (ou por um cliente) e você não fez nada, a raiva se volta **contra você**, como a de Pausânias contra Filipe. Proteja quem trabalha com você.
   - Ter um canal formal de reclamação (pesquisa de satisfação, WhatsApp de suporte) é o "canal de acusação" de I.7: tira a raiva do caminho da vingança.
+- **Outra aplicação, para qualquer pequeno negócio [Interpretação] (acrescentado pela conta Zuleide, ciclo 2):** se alguém da equipe foi desrespeitado (por colega, gestor ou cliente) e reclamou, o dono tem de agir. Ignorar, e pior, promover o agressor, transforma a raiva da vítima contra você.
 
 ### 23 — II.30: amizade não se compra com dinheiro
 
@@ -411,6 +445,7 @@
   - Cliente comprado com desconto, brinde e mês grátis é "amizade comprada com ouro": vai embora no primeiro concorrente mais barato. Cliente que fica por resultado e reputação é o que **paga para ser seu cliente** (sobe de degrau, aceita contrato de 3 meses, paga o 1º mês antes).
   - Sinal de força da agência: clientes e parceiros que procuram você (indicação, lista de espera). Sinal de fraqueza: você pagando a todo mundo para ter clientes (permuta, comissão alta, desconto permanente).
   - "Coração armado": a parte vital da agência é a operação e a carteira ativa (entrega, relacionamento, caixa), não a "fronteira" (anúncio da agência, perfil bonito). Se o coração está bem, a perda de um cliente ou um mês fraco não derruba nada, como Roma depois de Canas.
+- **Outra aplicação, para qualquer pequeno negócio [Interpretação] (acrescentado pela conta Zuleide, ciclo 2):** cliente conquistado só com desconto vai embora pelo desconto do concorrente. Parceria comprada com comissão alta não defende você na crise. Fidelidade vem de entrega e reputação. E fortaleça o "coração" (equipe central, caixa), não só as pontas.
 
 ### 24 — II.31: não acreditar nos exilados
 
@@ -427,6 +462,7 @@
   - Ex-funcionário de um concorrente (ou social media que saiu brigado da agência do bairro) que promete "trazer todos os clientes de lá" exagera por vontade de se vingar ou de se recolocar. Contrate pelo que ele sabe fazer, não pela carteira prometida, e nunca invista contando com esses clientes.
   - Cliente que chega falando mal da agência anterior e prometendo fidelidade eterna: vá devagar. Ele pode sair de você do mesmo jeito. Contrato e escopo claros desde o início.
   - Lead que promete "fechar o pacote maior depois que você me mostrar resultado de graça": a promessa do exilado. Comece pelo degrau de entrada pago.
+- **Outra aplicação, para qualquer pequeno negócio [Interpretação] (acrescentado pela conta Zuleide, ciclo 2):** ex-funcionário do concorrente que promete "trazer todos os clientes de lá", ou sócio que saiu brigado de outra empresa, exageram. Confira antes de investir no que eles prometem.
 
 ### 25 — II.32: de quantos modos os romanos tomavam as cidades
 
@@ -448,6 +484,7 @@
   - "Fraude/conjura" = depender de um contato de dentro ("o sobrinho do dono vai me indicar"): muitas vezes não dá certo por um detalhe.
   - "Rendição forçada por incursões" (o modo romano), em versão limpa: presença constante e útil diante do lead (conteúdo, cases, cadência de WhatsApp com prova), até ele vir por conta própria. E "rendição voluntária por desejo de ser bem governado": o lead que vê como você atende os outros clientes (ródios e massilienses) e pede para entrar. É o melhor modo, e o mais barato.
   - "Um reino em um dia": um único case forte num nicho (ex.: uma clínica com agenda cheia) abre o nicho inteiro.
+- **Outra aplicação, para qualquer pequeno negócio [Interpretação] (acrescentado pela conta Zuleide, ciclo 2):** em vez de "sitiar" um cliente difícil por meses, ganhe o mercado vencendo onde a decisão é concentrada (um evento, um grande contrato, uma campanha decisiva). E desconfie de planos que dependem de "um contato lá dentro".
 
 ### 26 — II.33: comissões livres aos comandantes
 
@@ -465,6 +502,8 @@
   - O dono da agência (o "Senado") define o **objetivo, o escopo e os limites**: que cliente entra, qual degrau, prazo, verba, padrão de qualidade (o sistema de feed aprovado, a identidade). Quem executa (editor, social media, gestor de tráfego) decide o **como**: corte, ordem dos posts, ajuste de público, horário.
   - Não micro-gerencie "onde plantar a artilharia" (cada corte do vídeo, cada palavra da legenda): você não está "no lugar" e trava a pessoa. Cobre o resultado e dê o crédito a quem fez; o "amor da glória" é o melhor freio.
   - Vale também com o cliente: explique no início que ele aprova a estratégia e o calendário, e que a execução fica com a agência. Cliente que quer aprovar cada post vira Veneza.
+- **Citação a mais (acrescentado pela conta Zuleide, ciclo 2), conferida no original:** *"Perché, deliberata ch’era dal Popolo e dal Senato una guerra, verbigrazia contro a’ Latini, tutto il resto rimettevano nello arbitrio del Consolo, il quale poteva o fare una giornata o non la fare, e campeggiare questa o quell’altra terra, come a lui pareva."* — "Porque, deliberada uma guerra pelo povo e pelo Senado, por exemplo contra os latinos, todo o resto deixavam ao arbítrio do cônsul, que podia dar ou não uma batalha e sitiar esta ou aquela terra, como lhe parecesse."
+- **Outra aplicação, para qualquer pequeno negócio [Interpretação] (acrescentado pela conta Zuleide, ciclo 2):** o dono define o objetivo, o orçamento e o prazo; o gerente ou o gestor de tráfego decide o como. Microgerenciar deixa a equipe lenta e tira dela a responsabilidade pelo resultado.
 
 ---
 
