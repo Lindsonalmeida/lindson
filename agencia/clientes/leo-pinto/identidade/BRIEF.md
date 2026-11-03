@@ -53,6 +53,7 @@ O Leo já está no mandato. É **identidade de mandato, não de campanha**:
 - as aplicações mudam: posts do mandato, fardamento da equipe, crachá, placa do gabinete, faixa de evento e capa das redes. Bandeira e adesivo de carro só se fizerem sentido.
 
 ## Decisões de arte (Lindson, 30/10/2026)
+- **02/11/2026 · cor principal = LARANJA** (partido Solidariedade); azul como apoio. Logo sempre aplicada direto no post, sem placa/balão (versão marinho em fundo laranja). Imagem de banco gratuita é permitida (com véu na cor da marca). Modelo de posts: `../instagram-v14-datas/`.
 - **02/11/2026 · padrão visual aprovado:** a apresentação v13 versão 3 (`../instagram-v13-apresentacao/`, ver o topo do README): degradê azul, mapa de São João Batista em camada, retrato grande, nome em blocos de cor, etiquetas, Montserrat Black + Kaushan. Estilo das datas comemorativas v14 (1ª tentativa) descartado; o Lindson vai mandar modelos.
 - **02/11/2026 (vale acima de tudo abaixo):** elementos gráficos da identidade **eliminados** — sem raios, faixas de padrão, ícones, fumaça, sol desenhado ou bandeirinhas. A identidade do Leo agora é **só fontes, logo e cores**. As artes antigas do feed v12 usam esses elementos: não repetir; artes novas, só tipografia + logo + paleta + foto real.
 - **Bandeirinhas de São João excluídas em definitivo da identidade** (inclusive o ícone de bandeirinha nas faixas de padrão).

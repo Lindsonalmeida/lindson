@@ -163,9 +163,7 @@ Que Deus abençoe a sua casa, dê saúde pra sua família e paz pra nossa cidade
 **Linha:** Voz do povo
 
 **Arte:** foto do Leo com o celular na mão (posicionada pelo rosto).
-- Manchete: O QUE SEU BAIRRO PRECISA?
-- Apoio: Comenta aqui o nome do bairro e a demanda. Eu leio e respondo.
-- Extra: em Kaushan, "em 2027". Logo oficial.
+- Arte final (v14.2): cartão de enquete "O QUE O SEU BAIRRO PRECISA EM 2027?" com A Saúde perto de casa · B Ruas e estradas · C Educação e juventude · D Emprego e renda, etiqueta "COMENTA A LETRA" e "eu quero ouvir você".
 
 **Legenda:**
 ```
@@ -176,10 +174,13 @@ O QUE O SEU BAIRRO PRECISA EM 2027? A CAIXINHA ESTÁ ABERTA
 📲 Por que eu quero ouvir você hoje?
 Porque quem sabe o que falta no bairro é quem mora nele. Você sabe onde a rua alaga, onde falta luz, onde a estrada do povoado fica ruim no inverno, onde o posto precisa de atenção. Eu quero começar 2027 com a lista de vocês na mão.
 
-💬 Como mandar a sua demanda
-1. Comenta aqui embaixo o nome do seu bairro ou povoado.
-2. Escreve, em poucas palavras, o que está precisando.
-3. Se puder, me manda uma foto no direct.
+💬 Como participar
+Na arte tem quatro opções. Comenta a letra do que o seu bairro mais precisa:
+A · Saúde perto de casa
+B · Ruas e estradas
+C · Educação e juventude
+D · Emprego e renda
+Escreve também o nome do seu bairro ou povoado. Se for outra coisa, pode escrever com as suas palavras.
 
 💡 Exemplo
 "Leo, aqui no meu povoado a ponte de madeira tá com as tábuas soltas." Pronto. Com o lugar e o problema, eu já consigo registrar o pedido e cobrar de quem tem a obrigação de resolver.
@@ -190,7 +191,7 @@ Eu leio, respondo e levo as demandas pra Câmara. E aqui no perfil eu vou contan
 ✅ Juntos em 2027
 Obrigado por cada mensagem, cada abraço na rua e cada conversa neste ano. Que o ano novo chegue com saúde e paz pra todos nós. Juntos podemos mais!
 
-👇 Me conta agora: o que o seu bairro precisa em 2027?
+👇 Comenta a letra e o nome do seu bairro: o que ele precisa em 2027?
 
 #vozdopovo #participacaopopular #demandadobairro #tôcomléopinto
 ```
