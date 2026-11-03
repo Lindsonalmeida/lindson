@@ -16,11 +16,11 @@ export async function onRequestGet({ request, env }) {
   const a = await acesso(request, env); if (a.erro) return a.erro;
   const r = await env.CONTAS.get(a.chave, 'json');
   const conta = await env.CONTAS.get('conta:' + a.q.email, 'json');
-  // aprovações antigas (antes de 03/11) guardaram só "cliente"/"admin": troca pelo nome da conta de acesso desse painel
-  if (r && a.chave.endsWith(':aprov') && r.dados && Array.isArray(r.dados.itens) && r.dados.itens.some(x => !x.email && (x.por === 'cliente' || x.por === 'admin'))) {
-    const cli = a.chave.split(':')[1], nomes = { cliente: [], admin: [] }; let cursor;
-    do { const l = await env.CONTAS.list({ prefix: 'conta:', cursor }); for (const k of l.keys) { const c = await env.CONTAS.get(k.name, 'json'); if (c && c.cli === cli) nomes.cliente.push(c.nome); if (c && c.cli === 'admin') nomes.admin.push(c.nome); } cursor = l.list_complete ? null : l.cursor; } while (cursor);
-    r.dados.itens.forEach(x => { if (!x.email && nomes[x.por] && nomes[x.por].length) x.por = nomes[x.por].join(' ou '); });
+  // aprovações antigas (antes de 03/11) guardaram só "cliente"/"admin": o servidor registrou o e-mail da conta que salvou (r.por);
+  // usa o nome DESSA conta (quem clicou), nunca a lista de todas
+  if (r && a.chave.endsWith(':aprov') && r.dados && Array.isArray(r.dados.itens) && r.por) {
+    const quem = await env.CONTAS.get('conta:' + r.por, 'json');
+    if (quem) r.dados.itens.forEach(x => { if (!x.email && (x.por === 'cliente' || x.por === 'admin')) { x.por = quem.nome; x.email = r.por; } });
   }
   return json({ ...(r || { dados: null, versao: 0 }), eu: a.q.cli === 'admin' ? 'admin' : 'cliente', nome: (conta && conta.nome) || a.q.email });
 }
