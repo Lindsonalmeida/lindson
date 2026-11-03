@@ -27,13 +27,13 @@ def ASSINA(fundo, pid=''):
     lg = 'logo-marinho.png' if fundo in (AMARELO, MESH_LAR) else 'logo.png'
     return ('<div class="a pill"><img src="assets/avatar.jpg">@_leonardopinto</div>' +
             (f'<img class="a logo" src="assets/{lg}">' if pid not in ('p4-25-12', 'p6-01-01') else ''))
-def foto(arq, cx, olhos_y, olho_rec, cx_rec, esc, extra=''):
+def foto(arq, cx, olhos_y, olho_rec, cx_rec, esc, extra='', coberta=()):
     im = _I.open(f'{d}/assets/{arq}'); w, h = im.size; import numpy as _n; al = _n.array(im.getchannel('A')) > 40
     x0, y0 = cx - cx_rec*esc, olhos_y - olho_rec*esc; x1, y1 = x0 + w*esc, y0 + h*esc
     def visivel(idx, ini, fim): return any(0 <= ini + k*esc <= fim for k in _n.where(idx)[0])  # algum pixel dessa borda cai dentro da arte?
     for nome, cond in [('base', y1 < 1350 and visivel(al[-1], x0, 1080)), ('direita', x1 < 1080 and visivel(al[:, -1], y0, 1350)),
                        ('esquerda', x0 > 0 and visivel(al[:, 0], y0, 1350)), ('topo', y0 > 0 and visivel(al[0], x0, 1080))]:
-        assert not cond, f'CORTE APARENTE: {arq} tem borda cortada na {nome} dentro da arte'
+        assert not cond or nome in coberta, f'CORTE APARENTE: {arq} tem borda cortada na {nome} dentro da arte'
     return (f'<img class="a" src="assets/{arq}" style="left:{int(cx - cx_rec*esc)}px;top:{int(olhos_y - olho_rec*esc)}px;width:{int(esc*w)}px;'
             f'filter:drop-shadow(0 30px 46px rgba(2,12,50,.42));{extra}">')
 def cx(txt, fundo, cor, fs, extra=''): return f'<div class="box" style="background:{fundo};color:{cor};font-size:{fs}px;{extra}">{txt}</div>'
@@ -95,11 +95,11 @@ P.append(('p5-31-12', AMARELO, f"""
 <div class="a" style="left:0;width:1080px;top:1100px;text-align:center"><span class="K" style="font-size:50px;color:#fff;text-shadow:0 4px 16px rgba(120,40,0,.4)">comenta o número aqui embaixo</span></div>"""))
 # 6 · 01/01 · AZUL · FOTO ×2 · cópia do modelo "CONTRATE · DEZEMBRO" enviado pelo Lindson (03/11, Designi): palavra repetida em pé atrás, placa emoldurada
 #   com o título no centro, duas pessoas lado a lado na frente, logo embaixo no centro. Leo "velho" (foto 30 envelhecida pelo Lindson, espelhada) olhando
-#   para 2026 e Leo "novo" (foto 19) olhando para 2027.
+#   para 2026 e Leo "novo" (foto 19 espelhada, atrás do velho, que cobre a borda cortada) olhando para 2027: cada um para um lado.
 P.append(('p6-01-01', AZUL, f"""<img class="a" src="assets/banco-luzes.jpg" style="inset:0;width:1080px;height:1350px;object-fit:cover;opacity:.35;mix-blend-mode:screen">
 <div class="a" style="left:0;width:1080px;top:300px;text-align:center">{''.join(f'<div class="H" style="font-size:390px;line-height:.82;{GRAD}">2027</div>' for _ in range(3))}</div>
+{foto('leo-19-fino-esp.png', 780, 830, 300, 718, .53, coberta=('esquerda',))}
 {foto('leo-30-velho-fino.png', 300, 806, 300, 560, .62)}
-{foto('leo-19-fino.png', 780, 830, 300, 820, .53)}
 <div class="a" style="left:210px;top:140px;width:660px;transform:rotate(-2deg);background:#FFF6E8;border:12px solid {MAR};outline:3px solid {LAR};outline-offset:-22px;padding:30px 20px 26px;text-align:center;box-shadow:0 30px 50px -24px rgba(2,12,50,.7)">
  {H('Feliz ano novo', 104, MAR, 'line-height:.9')}<div class="L" style="font-size:19px;color:{LAR};margin-top:12px">São João Batista</div></div>
 <div class="a" style="left:70px;top:560px">{CHIP('Adeus, 2026', '#fff', 'rgba(5,49,110,.9)')}</div>
