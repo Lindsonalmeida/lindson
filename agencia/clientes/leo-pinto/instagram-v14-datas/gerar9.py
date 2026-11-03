@@ -96,14 +96,13 @@ P.append(('p5-31-12', AMARELO, f"""
 #   para 2026 e Leo "novo" (foto 20, punho erguido, mais corpo) NA FRENTE, MAIOR e MAIS ALTO olhando para 2027, Leo velho atrás e menor (o ano que sai): cada um para um lado.
 P.append(('p6-01-01', AZUL, f"""<img class="a" src="assets/banco-luzes.jpg" style="inset:0;width:1080px;height:1350px;object-fit:cover;opacity:.35;mix-blend-mode:screen">
 <div class="a" style="left:0;width:1080px;top:300px;text-align:center">{''.join(f'<div class="H" style="font-size:390px;line-height:.82;{GRAD}">2027</div>' for _ in range(3))}</div>
-{foto('leo-30-velho-fino.png', 215, 880, 300, 560, .45, extra='filter:drop-shadow(0 20px 30px rgba(2,12,50,.4)) saturate(.85) brightness(.96)', coberta=('direita',))}
-{foto('leo-20-fino.png', 800, 560, 230, 725, .66)}
-<div class="a" style="left:0;top:1040px;width:1080px;height:310px;background:linear-gradient(180deg,rgba(7,26,85,0) 0,rgba(7,26,85,.88) 45%,#071A55 72%)"></div>
+{foto('leo-19-fino-esp.png', 780, 830, 300, 718, .53, coberta=('esquerda',))}
+{foto('leo-30-velho-fino.png', 300, 830, 300, 560, .62)}
 <div class="a" style="left:210px;top:140px;width:660px;transform:rotate(-2deg);background:#FFF6E8;border:12px solid {MAR};outline:3px solid {LAR};outline-offset:-22px;padding:30px 20px 26px;text-align:center;box-shadow:0 30px 50px -24px rgba(2,12,50,.7)">
  {H('Feliz ano novo', 104, MAR, 'line-height:.9')}<div class="L" style="font-size:19px;color:{LAR};margin-top:12px">São João Batista</div></div>
-<div class="a" style="left:70px;top:690px">{CHIP('Adeus, 2026', '#fff', 'rgba(5,49,110,.9)')}</div>
-<div class="a" style="right:70px;top:430px">{CHIP('Olá, 2027', MAR, '#FFC20E')}</div>
-<img class="a" src="assets/logo.png" style="left:400px;top:1140px;width:280px;filter:drop-shadow(0 10px 20px rgba(0,0,0,.45))">"""))
+<div class="a" style="left:70px;top:560px">{CHIP('Adeus, 2026', '#fff', 'rgba(5,49,110,.9)')}</div>
+<div class="a" style="right:70px;top:560px">{CHIP('Olá, 2027', MAR, '#FFC20E')}</div>
+<img class="a" src="assets/logo-marinho-forte.png" style="left:400px;top:1140px;width:280px;filter:drop-shadow(2.5px 0 0 #fff) drop-shadow(-2.5px 0 0 #fff) drop-shadow(0 2.5px 0 #fff) drop-shadow(0 -2.5px 0 #fff) drop-shadow(2px 2px 0 #fff) drop-shadow(-2px -2px 0 #fff) drop-shadow(0 12px 20px rgba(2,12,50,.4))">"""))
 secs = ''.join(f'<section class="f" id="{i}" style="background:{bg}">{c}{ASSINA(bg, i)}<div class="a" style="inset:0;background-image:url(&quot;{GRAO}&quot;);opacity:.10;mix-blend-mode:overlay;pointer-events:none"></div></section>' for i, bg, c in P)
 html = f"""<!doctype html><html><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Kaushan+Script&family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet">
