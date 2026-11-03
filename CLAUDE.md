@@ -1,5 +1,7 @@
 # Instruções do repositório (Lindson Almeida)
 
+> **PRIMEIRO DE TUDO (toda conta, toda conversa, inclusive conta nova):** leia `MEMORIA-DO-LINDSON.md` antes de responder qualquer pedido. Ali está tudo o que o Lindson já pediu, mandou, **aprovou** (guardar e melhorar) e **reprovou** (nunca repetir). Ao terminar cada pedido, acrescente nela o que foi aprovado ou reprovado, com data e conta, e faça commit e push. Nunca peça ao Lindson algo que já está lá.
+
 ## Mini site de cliente (bio)
 
 Sempre que o Lindson pedir um mini site / site bio para um cliente, **antes de começar**, lembre a ele o passo a passo de `agencia/processos/mini-site-cliente.md` e siga-o:

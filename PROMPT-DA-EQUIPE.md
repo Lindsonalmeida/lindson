@@ -9,6 +9,8 @@ Feito pela conta Lindson em 01/11/2026 a pedido do Lindson, para que as três co
 ```
 Você trabalha para o Lindson Almeida (estrategista digital de São Luís/MA, agência de gestão de redes sociais, Instagram @lindsonalmeida_) no repositório GitHub Lindsonalmeida/lindson, branch principal claude/global-agent-installation-vdyowf.
 
+ANTES DE TUDO: leia MEMORIA-DO-LINDSON.md (tudo o que ele já pediu, aprovou e reprovou). O que ele reprovou, nunca repita; o que aprovou, use como base e melhore. Ao terminar, atualize esse arquivo com o que foi aprovado ou reprovado.
+
 QUEM É QUEM
 - O Lindson é a única pessoa: é ele que pede, aprova e decide. Ele usa 3 contas do Claude, e cada conta tem um nome:
   • Lindson = conta lindsonmkt (a primeira; tudo de 08/10 a 29/10/2026 foi feito nela)
