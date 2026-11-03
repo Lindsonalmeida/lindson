@@ -74,14 +74,15 @@ assert len(LEG) == 3, 'legendas da versão 3 não encontradas no TEXTOS.md'
 V14 = os.path.join(D, '..', '..', 'clientes', 'leo-pinto', 'instagram-v14-datas')
 LEG14 = re.findall(r'\*\*Legenda:\*\*\s*```\n(.*?)\n```', open(os.path.join(V14, 'TEXTOS.md')).read(), flags=re.S)
 T14 = _j.load(open(os.path.join(V14, 'textos.json')))
+MOSTRAR_V14 = False  # 03/11: o Lindson pediu para tirar do painel até as artes serem ajustadas com as referências do Designi
 POSTS14 = [('p1-15-11', 'p1'), ('p2-20-11', 'p2'), ('p3-11-12', 'p3'), ('p4-25-12', 'p4'), ('p5-31-12', 'p5'), ('p6-01-01', 'p6')]
 assert len(LEG14) == 6, 'legendas do v14 não encontradas no TEXTOS.md'
 itens = [{'t': t, 'titulo': ti, 'data': da, 'linha': 'Apresentação', 'st': 'aguardando', 'img': uri(os.path.join(V13, n + '.jpg'), 720, 'JPEG'), 'legenda': LEG[i]}
          for i, (n, t, ti, da) in enumerate(POSTS13)]
 itens += [{'t': 'Post único', 'titulo': 'Data comemorativa · ' + T14[k]['data'], 'data': f'Postar em {T14[k]["data"].split(" ·")[0]}', 'linha': T14[k]['linha'], 'st': 'aguardando',
-           'img': uri(os.path.join(V14, n + '.jpg'), 720, 'JPEG'), 'legenda': LEG14[i]} for i, (n, k) in enumerate(POSTS14)]
+           'img': uri(os.path.join(V14, n + '.jpg'), 720, 'JPEG'), 'legenda': LEG14[i]} for i, (n, k) in enumerate(POSTS14)] if MOSTRAR_V14 else []
 aprov = ','.join(_j.dumps(x, ensure_ascii=False) for x in itens)
-PREVIA14 = uri(os.path.join(V14, 'previa-feed.jpg'), 1000, 'JPEG')
+PREVIA14 = uri(os.path.join(V14 if MOSTRAR_V14 else V13, 'previa-feed.jpg' if MOSTRAR_V14 else 'previa-grade.jpg'), 1000, 'JPEG')
 PREVIA = uri(os.path.join(V13, 'previa-grade.jpg'), 1000, 'JPEG')
 s = re.sub(r"const APROV=\[.*?\];", lambda m: f"const APROV=[{aprov}];", s, count=1, flags=re.S)
 troca('<div class="post"><div class="img">${p.titulo}</div>', '<div class="post">${p.img?`<img src="${p.img}" alt="${p.titulo}" style="width:100%;aspect-ratio:4/5;object-fit:cover;display:block">`:`<div class="img">${p.titulo}</div>`}')
@@ -90,7 +91,7 @@ troca('<div class="d" style="color:var(--apagado);font-size:12.5px">${p.data}</d
       '${p.legenda?`<details style="margin:8px 0"><summary style="cursor:pointer;color:var(--amarelo);font-weight:700">Ver legenda</summary><pre style="white-space:pre-wrap;font:inherit;font-size:13px;line-height:1.5;margin:10px 0;max-height:320px;overflow:auto">${p.legenda.replace(/</g,"&lt;")}</pre><button class="btn lin" onclick="navigator.clipboard.writeText(this.previousElementSibling.textContent);window.__toast&&window.__toast(\'Legenda copiada\')">Copiar legenda</button></details>`:\'\'}')
 troca('<p class="sub">Aprove ou peça ajuste. A equipe é avisada na hora.</p>',
       '<p class="sub">Aprove ou peça ajuste. A equipe é avisada na hora.</p>'
-      f'<div style="margin:6px 0 18px;max-width:560px"><div style="font-weight:700;margin-bottom:8px">Como o seu feed fica (ordem de postagem, mais novo no topo)</div><img src="{PREVIA14}" alt="Prévia do feed" style="width:100%;border-radius:12px;display:block"><p class="sub" style="margin-top:8px">Embaixo, a apresentação em 3 partes (postar 1º, 2º e 3º sem outro post no meio e fixar as três). Em cima, as datas comemorativas até 01/01. A etiqueta laranja em cada post mostra a linha editorial: com quem ele fala.</p></div>')
+      f'<div style="margin:6px 0 18px;max-width:560px"><div style="font-weight:700;margin-bottom:8px">{'Como o seu feed fica (ordem de postagem, mais novo no topo)' if MOSTRAR_V14 else 'Como as 3 ficam juntas no seu perfil'}</div><img src="{PREVIA14}" alt="Prévia do feed" style="width:100%;border-radius:12px;display:block"><p class="sub" style="margin-top:8px">{'Embaixo, a apresentação em 3 partes (postar 1º, 2º e 3º sem outro post no meio e fixar as três). Em cima, as datas comemorativas até 01/01. A etiqueta laranja em cada post mostra a linha editorial: com quem ele fala.' if MOSTRAR_V14 else 'Elas formam uma imagem só. Postar na ordem 1º, 2º e 3º, sem outro post no meio, e fixar as três. A etiqueta laranja mostra a linha editorial.'}</p></div>')
 troca("carrosseis:[['5 erros que fazem você perder clientes','aprovado'],['Antes de comprar, veja isso','em revisão'],['Perguntas que mais recebemos','em produção']]",
       "carrosseis:[['Pedimos, fizemos, entregamos: capa do carrossel','em produção'],['O que a gente já fez no mês','ideia'],['Causas do mandato: saúde, água, obras','ideia']]")
 troca("reels:[['Bastidores da semana','aprovado'],['Um dia com a equipe','em produção'],['Responda em 30 segundos: dúvida do cliente','ideia']]",
