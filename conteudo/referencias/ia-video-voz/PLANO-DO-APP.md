@@ -6,7 +6,9 @@ Junta as três pesquisas desta pasta: `HEYGEN.md`, `ELEVENLABS.md` e `OUTRAS-FER
 - **Uso interno** (não é para vender agora).
 - **Roda no computador do Lindson.** Este ambiente na nuvem não tem placa de vídeo; o vídeo de avatar precisa de GPU NVIDIA.
 - **De quem:** o próprio Lindson; clientes **com termo de autorização** (Leo Pinto, Dra. Jaci e outros); personagens dos canais dark (narradores e figuras em domínio público).
-- **PC do Lindson (03/11):** notebook Acer Nitro 5. As versões vêm com placa de 4 GB (GTX 1650, RTX 3050/3050 Ti), 6 GB (GTX 1660 Ti, RTX 3060, RTX 4050) ou 8 GB (RTX 4060). **Falta:** o modelo exato da placa e a RAM (pedido pelo dxdiag). Em qualquer versão a voz roda local; com 4 a 6 GB, corpo e gestos vão para a nuvem.
+- **PC do Lindson (03/11):** notebook Acer Nitro 5 com **NVIDIA GeForce RTX 3050 Laptop GPU** (normalmente 4 GB de memória de vídeo; confirmar no dxdiag se é 4 ou 6 GB) e Intel UHD integrada. **Nível do app: 4 GB.**
+  - Local: voz clonada (Qwen3-TTS 0,6B ou Chatterbox pt-br), Applio/RVC, faster-whisper, MuseTalk 1.5 (devagar) e LivePortrait.
+  - Nuvem só quando precisar: LatentSync, EchoMimic, InfiniteTalk (corpo e gestos). Duix/HeyGem não cabe (pede RTX 4070).
 
 ## O que o app faz (copiado dos melhores)
 1. **Biblioteca:** cada rosto e cada voz com dono, etiqueta (Lindson / cliente / personagem), termo assinado, vídeo de consentimento e data de vencimento. Sem termo e consentimento, não gera.
