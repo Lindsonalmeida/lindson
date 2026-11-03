@@ -115,7 +115,7 @@ Da cela, Maquiavel escreveu sonetos burlescos a Giuliano de Médici pedindo clem
 *Fonte:* *Sonetti a Giuliano de' Medici* (in *Opere*, ed. Corrado Vivanti, Einaudi-Gallimard 1997–2005); Viroli, cap. 9; Lee, cap. 14.
 
 ### 1.23 Libertado, manda tordos a Giuliano (março de 1513) [FATO]
-Em 11 de março de 1513 o cardeal Giovanni de Médici foi eleito papa (Leão X). Na festa, Florença concedeu uma anistia, e Maquiavel saiu da prisão por volta de 12 de março. Pouco depois mandou a Giuliano um terceiro soneto junto com um presente de tordos caçados por ele: "Eu vos mando, Giuliano, alguns tordos, / não porque este presente seja bom ou belo, / mas para que do pobre Maquiavel / Vossa Magnificência se recorde". A Francesco Vettori escreveu, em 18 de março, que suportou os tormentos "com tanta firmeza que eu mesmo gosto de mim por isso".
+Em 11 de março de 1513 o cardeal Giovanni de Médici foi eleito papa (Leão X; coroado em 19 de março). Na festa, Florença concedeu uma anistia, e Maquiavel saiu da prisão por volta de 12 de março. Pouco depois mandou a Giuliano um terceiro soneto junto com um presente de tordos caçados por ele: "Eu vos mando, Giuliano, alguns tordos, / não porque este presente seja bom ou belo, / mas para que do pobre Maquiavel / Vossa Magnificência se recorde". A Francesco Vettori escreveu, em 18 de março, que suportou os tormentos "com tanta firmeza que eu mesmo gosto de mim por isso".
 *Fonte:* soneto "Io vi mando, Giuliano, alquanti tordi"; *Lettere*, a F. Vettori, 18/3/1513.
 
 ### 1.24 Exílio em Sant'Andrea in Percussina: a carta de 10 de dezembro de 1513 [FATO]

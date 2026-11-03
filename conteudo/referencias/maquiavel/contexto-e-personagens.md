@@ -53,7 +53,7 @@ Objetivo: o agente conhecer a Itália, Florença e as pessoas do tempo de Maquia
 - **Virada de Júlio II (1510):** satisfeito com o que tomou de Veneza (as cidades da Romanha), o papa faz as pazes com Veneza (fevereiro de 1510) e se vira contra a França ("fuori i barbari", grito atribuído a ele; **[Tradição]**, sem fonte segura da época na forma exata). Luís XII responde com o **concílio cismático de Pisa** (1511), que Florença aceita hospedar (ver `vida-e-cartas.md`).
 - **Liga Santa (4/10/1511):** papa, Veneza e Fernando de Aragão (depois Henrique VIII e os suíços). **Ravenna (11/4/1512, domingo de Páscoa):** vitória francesa sangrenta, mas morre o jovem comandante **Gaston de Foix**; os suíços descem em maio, os franceses abandonam Milão e a Itália (junho de 1512). **Massimiliano Sforza**, filho do Moro, vira duque de Milão sob proteção suíça. Em **Mântua (agosto de 1512)** a Liga decide restaurar os Médici em Florença; seguem Prato e a queda de Soderini.
 - **Novara (6/6/1513):** os suíços derrotam de novo os franceses que tentavam voltar a Milão. É o auge do poder suíço, que Maquiavel discute com Vettori em agosto de 1513 (ver `vida-e-cartas.md`, 3.2) e em *Discorsi* II.19 e *Arte della guerra* (as ordenanças suíças imitam as romanas).
-- **Morte de Júlio II (21/2/1513); Leão X eleito (março de 1513).**
+- **Morte de Júlio II (21/2/1513); Leão X eleito em 11/3/1513 e coroado em 19/3/1513.**
 
 ### 1.5 Francisco I, Marignano e a era de Carlos V (1515–1530)
 
@@ -206,7 +206,7 @@ Formato: **datas** · **quem foi** · **ligação com Maquiavel** · **onde apar
 - **Onde aparece:** *Príncipe* VII, XI, XIII, XVI, XXV; *Discorsi* I.27, III.9, III.44.
 - **Lição [Interpretação]:** ímpeto vence quando os tempos pedem ímpeto (*Príncipe* XXV); o mesmo temperamento derruba em outra fase. Saber ler a fase.
 
-**Leão X (Giovanni de' Medici, 11/12/1475 – 1/12/1521; papa de 11/3/1513)**
+**Leão X (Giovanni de' Medici, 11/12/1475 – 1/12/1521; papa de 11/3/1513, coroado em 19/3/1513)**
 - **Fato documentado:** segundo filho de Lourenço, o Magnífico; cardeal com 13 anos (nomeado em 1489, publicado em 1492); governa Florença de fato em 1512–1513; a eleição traz a anistia que solta Maquiavel (março de 1513). Pontificado de luxo e dívidas; venda de indulgências; Lutero (1517); Concordata de Bolonha (1516).
 - **Ligação:** em fevereiro de 1515 manda, por carta de Piero Ardinghelli a Giuliano, que este "não se envolva com Niccolò" (ver `vida-e-cartas.md`); por meio do cardeal Giulio, encomenda pareceres de reforma de Florença (1520–1521, o *Discursus*).
 - **Onde aparece:** *Príncipe* XI (fim, elogio esperançoso) e XXVI ("la illustre casa vostra"); *Discursus florentinarum rerum*.

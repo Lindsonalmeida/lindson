@@ -49,7 +49,7 @@ Um tratado curto (dedicatória + 26 capítulos, cerca de 27 mil palavras no ital
 - **Fatos documentados (ver `vida-e-cartas.md`):**
   - **Setembro de 1512:** os Medici voltam a Florença com tropas espanholas; a república de Piero Soderini cai.
   - **7 de novembro de 1512:** Maquiavel é demitido da Segunda Chancelaria; dias depois, proibido de sair do território por um ano.
-  - **Fevereiro–março de 1513:** acusado de participar da conspiração de Boscoli e Capponi, é preso e torturado (corda/*strappado*); solto na anistia que celebrou a eleição de **Leão X** (Giovanni de' Medici, eleito em 11 de março de 1513).
+  - **Fevereiro–março de 1513:** acusado de participar da conspiração de Boscoli e Capponi, é preso e torturado (corda/*strappado*); solto na anistia que celebrou a eleição de **Leão X** (Giovanni de' Medici, eleito em 11 de março de 1513 e coroado em 19 de março).
   - **Abril de 1513 em diante:** retiro no sítio de Sant'Andrea in Percussina (o *Albergaccio*), correspondência intensa com Francesco Vettori, embaixador em Roma.
   - **10 de dezembro de 1513:** carta a Vettori que anuncia o opúsculo já "composto".
 - **Período de redação mais aceito:** **segundo semestre de 1513** (provavelmente entre julho e dezembro), com **retoques possíveis até 1514–1516** (sobretudo a dedicatória e talvez o cap. XXVI). Base:
