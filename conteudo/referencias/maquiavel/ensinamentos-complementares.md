@@ -1,6 +1,6 @@
 # Maquiavel — ensinamentos complementares (249 em diante)
 
-**Situação:** parcial — feito até a seção 5 (*História de Florença* 249–411; *Arte da Guerra* 412–468; legações e escritos 469–517; cartas 518–552; literatura 553–625). Continuar pela seção 6 (vida). (conta Zuleide, ciclo 2 da revisão, 03/11/2026)
+**Situação:** completo — 392 ensinamentos (249–640): *História de Florença* 249–411; *Arte da Guerra* 412–468; legações e escritos 469–517; cartas 518–552; literatura 553–625; vida 626–640. (conta Zuleide, ciclo 2 da revisão, 03/11/2026)
 
 Continua `../maquiavel-todos-ensinamentos.md` (1–248: *Príncipe*, *Discursos*, regras gerais da *Arte da Guerra*). Aqui entram os ensinamentos que faltavam: *História de Florença* (8 livros), *Arte da Guerra* além das regras gerais, legações e escritos políticos, cartas, literatura e a vida.
 
@@ -1601,3 +1601,85 @@ Negócio [Interpretação nossa]: conteúdo que ensina pelo humor e pela histór
 **625. Ninguém tem obrigação maior que com a pátria.**
 Ref.: *Discorso intorno alla nostra lingua*, abertura. Texto: «l'uomo non ha maggiore obbligo nella vita sua, che con quella».
 Negócio [Interpretação nossa]: o compromisso com a cidade (São Luís) e o mercado local é um diferencial de marca para a Alkantara.
+
+---
+
+## 6. A vida (1469–1527) — o que os fatos ensinam
+
+> Fatos documentados (fontes em `vida-e-cartas.md`, seção 1). A lição tirada de cada fato é **[Interpretação nossa]**, não frase dele.
+
+**626. Formação longa e barata: ler os clássicos muda a vida trinta anos depois.**
+Ref.: fato documentado — o *Libro di ricordi* do pai registra o Tito Lívio recebido em 1475–1476 e levado para encadernar por Niccolò em 1486; trinta anos depois, os *Discursos*.
+Negócio [Interpretação nossa]: invista em estudo de base (copy, estratégia, história); o retorno vem tarde e grande.
+
+**627. Perder a primeira candidatura não impede a seguinte.**
+Ref.: fato — em fevereiro de 1498 perde um cargo na chancelaria; em junho é eleito secretário da Segunda Chancelaria, aos 29 anos.
+Negócio [Interpretação nossa]: proposta recusada hoje é contato para a próxima oportunidade; mantenha a relação.
+
+**628. Observar o poder de perto é a melhor escola.**
+Ref.: fato — legações a Caterina Sforza (1499), Luís XII (1500), César Bórgia (1502–1503), Júlio II (1506), Maximiliano (1507–1508); despachos quase diários.
+Negócio [Interpretação nossa]: acompanhe de perto os melhores do mercado (eventos, conversas, cases); relatório escrito de cada visita vira método.
+
+**629. Ser "o homem de mão" de um único chefe cria inimigos que cobram depois.**
+Ref.: fato — o apelido *"mannerino"* de Piero Soderini (1507), usado pelos que vetaram o seu nome para missões; queda junto com Soderini em 1512.
+Negócio [Interpretação nossa]: não amarre a carreira (ou a agência) a uma única pessoa poderosa; tenha relações próprias.
+
+**630. A obra prática de que mais se orgulhava falhou no teste decisivo: armar não basta sem tempo, comando e treino.**
+Ref.: fato — a *Ordinanza* (milícia, 1506) retoma Pisa em 1509 (ponto alto da carreira), mas foge sem lutar no saque de Prato (29–30/8/1512).
+Negócio [Interpretação nossa]: equipe própria nova precisa de liderança e treino antes de enfrentar a crise grande; não a jogue no maior desafio cedo demais.
+
+**631. Quando o regime muda, o servidor do regime anterior é o primeiro a cair.**
+Ref.: fato — demitido em 7/11/1512, confinado, proibido de entrar no Palácio.
+Negócio [Interpretação nossa]: quando o cliente troca de diretoria, a agência ligada ao diretor antigo corre risco; apresente-se logo à nova gestão com resultados.
+
+**632. Aguentar a tortura sem trair: a firmeza vira reputação.**
+Ref.: fato — preso em fevereiro de 1513 (lista de Boscoli), torturado (soneto a Giuliano: «con sei tratti di fune in su le spalle»), solto na anistia de Leão X.
+Negócio [Interpretação nossa]: em crise (processo, ataque nas redes), mantenha a palavra e a discrição; a conduta na crise vira a sua marca.
+
+**633. O exílio forçado pode ser o período mais produtivo.**
+Ref.: fato — em Sant'Andrea in Percussina (1513–1519) escreve *O Príncipe*, os *Discursos*, a *Mandrágora*, o *Asno*.
+Negócio [Interpretação nossa]: mês sem clientes é hora de criar produto, método e conteúdo que vão vender depois.
+
+**634. Dedicar a obra ao poderoso não garante emprego.**
+Ref.: fato — *O Príncipe* rededicado a Lourenço de' Medici (1515–1516) sem resultado; carta de Ardinghelli (14/2/1515) manda não se envolver com Niccolò.
+Negócio [Interpretação nossa]: material gratuito para impressionar um cliente grande não substitui relacionamento e prova; tenha também um plano B.
+
+**635. Um grupo de discussão de gente boa reabre portas.**
+Ref.: fato — os Orti Oricellari (c. 1516–1522): leitura dos *Discursos*, diálogo da *Arte da Guerra*, rede que leva à encomenda da *História de Florença* (8/11/1520).
+Negócio [Interpretação nossa]: participe de grupos de empresários e criadores; a próxima contratação costuma vir dessa rede.
+
+**636. Aceitar o trabalho pequeno e até ridículo, e fazer dele uma boa história.**
+Ref.: fato — missão a Carpi (maio de 1521) para achar um pregador de Quaresma; as cartas com Guicciardini transformam a missão numa comédia.
+Negócio [Interpretação nossa]: projeto pequeno bem feito e bem contado vira conteúdo e reputação.
+
+**637. Publicar em vida o que se pode defender.**
+Ref.: fato — a *Arte da Guerra* (1521) é a única obra política em prosa impressa em vida; o *Príncipe* e os *Discursos* circulam em cópias e saem só em 1531–1532.
+Negócio [Interpretação nossa]: publique primeiro o conteúdo que você sustenta em qualquer palco; o polêmico, com cuidado e contexto.
+
+**638. Servir aos que antes o prenderam, sem perder a independência do juízo.**
+Ref.: fato — encomenda dos Médici (1520) e entrega da *História* a Clemente VII (1525), com o método de elogiar o fato e registrar a crítica (ver `historia-de-florenca.md` 1.9).
+Negócio [Interpretação nossa]: é possível voltar a trabalhar com um ex-cliente difícil, com contrato claro e sem abrir mão do padrão.
+
+**639. Quem serve a dois lados termina sem nenhum.**
+Ref.: fato — em junho de 1527 a república restaurada o vê como homem dos Médici e dá a chancelaria a Francesco Tarugi; morre em 21/6/1527.
+Negócio [Interpretação nossa]: em mercado polarizado, a imagem pública conta tanto quanto a competência; seja claro sobre o que a agência representa.
+
+**640. Humor salva a cabeça na adversidade.**
+Ref.: fato documentado — Bartolomeo Ruffini (23/10/1502) diz que as piadas das cartas dele «muovono ogni uno a smascellare delle risa» (via Marchand, *Enc. mach.*); as cartas de prisão e exílio são cheias de autoironia.
+Negócio [Interpretação nossa]: manter o humor com a equipe em semanas duras preserva o clima; nunca à custa de cliente.
+
+---
+
+## Uso pelo agente
+
+1. **Como citar:** "*História de Florença* VII.1" ou "carta a Vettori de 10/12/1513"; o número do ensinamento (ex.: "ensinamento 365") serve para achar rápido neste arquivo. Para a lista completa de situações → `INDICE-POR-SITUACAO.md`.
+2. **Personagem × autor:** os discursos da *História* (Ciompo, Uzzano, Rinaldo), as falas da *Mandrágora* e o porco do *Asno* são personagens. O agente diz "Maquiavel põe na boca de…".
+3. **Freio ético:** toda aplicação é interpretação e nunca recomenda enganar cliente, assédio, concorrência desleal ou quebra de contrato (ver `maquiavel-nos-negocios.md` 5.3). Onde o texto original fala de matar, trair ou enganar, a lição foi reduzida à parte lícita, com aviso.
+4. **Os 12 mais úteis para a Alkantara (deste arquivo):** 273 (domínio voluntário), 283 (briga termina em regra), 310 (não julgar pelo resultado), 333 (ciclo virtude → ócio), 365 (divisões com e sem seitas), 380 (expectativa extraordinária), 389 (o que se toma à força custa), 404 (a casa cansada de guerra), 457 (o caixa vence com o tempo), 477 (a sorte só muda se a ordem mudar), 486 (amigo ou inimigo declarado), 547 (desconfiar de vitória certa).
+
+## Lacunas (para o próximo ciclo)
+
+- Livro I da *História*: muitos capítulos (2–8, 10–22, 24, 26–27, 30–38) são narrativa de fatos sem lição própria; ficaram cobertos pelos ensinamentos 253–259. O mesmo vale para os capítulos só militares dos Livros V, VI e VIII (marchas e cercos).
+- Legações: os despachos das missões a Piombino (1499), Pistoia (1501), Mântua e Verona (1509) e as legações de 1518 e 1525–1527 não renderam frase nova conferida.
+- 550 (carta a Guido) e 582 (*Belfagor*) estão em paráfrase, não conferidos palavra por palavra; 539 e 640 só por fonte secundária (Marchand). *Andria*: o verso latino de Terêncio não conferido no original latino.
+- Conferência por programa (03/11/2026): 398 trechos exatos (5 deles só em texto secundário, ex.: Villari), 13 iguais salvo grafia de edição (ex.: *exerciti/eserciti*), nenhum errado.
