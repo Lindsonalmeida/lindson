@@ -6,7 +6,7 @@ Junta as três pesquisas desta pasta: `HEYGEN.md`, `ELEVENLABS.md` e `OUTRAS-FER
 - **Uso interno** (não é para vender agora).
 - **Roda no computador do Lindson.** Este ambiente na nuvem não tem placa de vídeo; o vídeo de avatar precisa de GPU NVIDIA.
 - **De quem:** o próprio Lindson; clientes **com termo de autorização** (Leo Pinto, Dra. Jaci e outros); personagens dos canais dark (narradores e figuras em domínio público).
-- **PC do Lindson (03/11):** notebook Acer Nitro 5 com **NVIDIA GeForce RTX 3050 Laptop GPU** (normalmente 4 GB de memória de vídeo; confirmar no dxdiag se é 4 ou 6 GB) e Intel UHD integrada. **Nível do app: 4 GB.** Resto do PC (print de 03/11): Intel i5-12450H (8 núcleos/12 threads), **24 GB de RAM**, 2 SSDs NVMe (C: e D:). A RAM de 24 GB permite offload (Wan2GP/ComfyUI) para modelos médios, mais devagar. Guardar modelos e vídeos no D:.
+- **PC do Lindson (03/11):** notebook Acer Nitro 5 com **NVIDIA GeForce RTX 3050 Laptop GPU** com **4,0 GB dedicados (confirmado no Gerenciador de Tarefas em 03/11; driver 32.0.16.1091 de 29/07/2026)** e Intel UHD integrada. **Nível do app: 4 GB.** Resto do PC (print de 03/11): Intel i5-12450H (8 núcleos/12 threads), **24 GB de RAM**, 2 SSDs NVMe (C: e D:). A RAM de 24 GB permite offload (Wan2GP/ComfyUI) para modelos médios, mais devagar. Guardar modelos e vídeos no D:.
   - Local: voz clonada (Qwen3-TTS 0,6B ou Chatterbox pt-br), Applio/RVC, faster-whisper, MuseTalk 1.5 (devagar) e LivePortrait.
   - Nuvem só quando precisar: LatentSync, EchoMimic, InfiniteTalk (corpo e gestos). Duix/HeyGem não cabe (pede RTX 4070).
 
