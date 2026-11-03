@@ -1,6 +1,6 @@
 # Maquiavel — ensinamentos complementares (249 em diante)
 
-**Situação:** parcial — feito até a seção 1 (*História de Florença*, Proêmio e Livros I–IV). Continuar pela seção 1, Livro V. (conta Zuleide, ciclo 2 da revisão, 03/11/2026)
+**Situação:** parcial — feito até a seção 1 (*História de Florença*, completa: 249–411). Continuar pela seção 2 (*Arte da Guerra*). (conta Zuleide, ciclo 2 da revisão, 03/11/2026)
 
 Continua `../maquiavel-todos-ensinamentos.md` (1–248: *Príncipe*, *Discursos*, regras gerais da *Arte da Guerra*). Aqui entram os ensinamentos que faltavam: *História de Florença* (8 livros), *Arte da Guerra* além das regras gerais, legações e escritos políticos, cartas, literatura e a vida.
 
@@ -357,3 +357,327 @@ Negócio [Interpretação nossa]: num conflito sério (sócio desleal), ou acord
 **332. Para quem é bom, ver os males da casa é pior que ouvi-los.**
 Ref.: IV.33 (Rinaldo ao papa). Texto: «sempre agli uomini savi e buoni fu meno grave udire i mali della patria loro, che vederli».
 Negócio [Interpretação nossa]: quem sai de uma empresa doente muitas vezes sai por isso; ouça o motivo na entrevista de saída.
+
+### Livro V (1434–1440)
+
+**333. Virtude gera paz, paz gera ócio, ócio gera desordem e ruína — e da ruína volta a ordem.**
+Ref.: V.1. Texto: «la virtù partorisce quiete la quiete ozio, l'ozio disordine, il disordine rovina, e similmente dalla rovina nasce l'ordine, dall'ordine virtù, da questa gloria e buona fortuna».
+Negócio [Interpretação nossa]: o auge é quando se planta a queda; revise processos e metas justamente no mês recorde.
+
+**334. Primeiro vêm os capitães, depois os filósofos.**
+Ref.: V.1. Texto: «le lettere vengono drieto alle armi, e [...] nelle provincie e nelle città prima i capitani che i filosofi nascono».
+Negócio [Interpretação nossa]: primeiro vender e entregar; o manual, a marca bonita e a teoria vêm depois que o caixa existe.
+
+**335. Guerra sem medo, sem perigo e sem dano é teatro, não guerra.**
+Ref.: V.1. Texto: guerras «che le si cominciavano sanza paura, trattavansi sanza pericolo, e finivonsi sanza danno».
+Negócio [Interpretação nossa]: campanha que ninguém mede, que não arrisca e que não incomoda ninguém não muda o resultado do cliente.
+
+**336. Também se aprende com o mau exemplo: para fugir dele.**
+Ref.: V.1. Texto: se os exemplos antigos acendem a vontade de imitar, «queste a fuggirle e spegnerle gli accenderanno».
+Negócio [Interpretação nossa]: guarde os casos de fracasso (seus e de outros) tanto quanto os de sucesso; eles poupam erros.
+
+**337. Na perseguição política pesam mais os interesses privados que a causa.**
+Ref.: V.4 (a proscrição de 1434). Texto: «ai cittadini non tanto l'umore delle parti noceva, ma le ricchezze, i parenti, le nimicizie private».
+Negócio [Interpretação nossa]: quando uma "reestruturação" atinge sempre os mesmos, desconfie de rixa pessoal disfarçada de critério.
+
+**338. Ficar no meio de dois gigantes é viver com medo e obedecer como servo.**
+Ref.: V.5 (Gênova e o duque de Milão, discurso indireto). Texto: «sendo in mezzo di duoi potentissimi principi, o ei perderebbe lo stato, o e' viverebbe sempre in sospetto, e come servo arebbe ad ubbidire a quelli».
+Negócio [Interpretação nossa]: agência que depende de duas plataformas gigantes (Meta e Google) sem base própria (lista de clientes, site, WhatsApp) vive à mercê delas.
+
+**339. Onde o poder se disputa com armas, um lado sempre manda e o outro sofre.**
+Ref.: V.6 (Gênova). Texto: «combattendo intra loro, non civilmente, ma il più delle volte con le armi [...] ne segue che sempre è una parte afflitta e l'altra regge».
+Negócio [Interpretação nossa]: sociedade em que as decisões saem por imposição e não por regra terá sempre um sócio ressentido.
+
+**340. A pátria (a casa) merece ser amada quando ama igualmente a todos.**
+Ref.: V.8 (Rinaldo exilado ao duque de Milão — fala de personagem). Texto: «quella patria merita di essere da tutti i cittadini amata la quale ugualmente tutti i suoi cittadini ama, non quella che, posposti tutti gli altri, pochissimi ne adora».
+Negócio [Interpretação nossa]: empresa com favoritos perde a lealdade dos demais; o ex-funcionário preterido vira argumento do concorrente.
+
+**341. Só é justa a guerra necessária.**
+Ref.: V.8 (Rinaldo, citando Lívio IX.1, frase que Maquiavel usa também em *Príncipe* XXVI). Texto: «Sono solamente quelle guerre giuste che sono necessarie, e quelle armi sono pietose dove non è alcuna speranza fuora di quelle».
+Negócio [Interpretação nossa]: entre em conflito (processo, guerra de preço) só quando não há outra saída razoável.
+
+**342. O que se faz por necessidade não merece louvor nem culpa; e a inimizade do forte nasce da fraqueza do fraco.**
+Ref.: V.11 (o ancião de Lucca). Texto: «delle cose fatte per necessità non se ne debbe né puote loda o biasimo meritare»; a inimizade nasce de «la debolezza vostra e la ambizione loro».
+Negócio [Interpretação nossa]: julgue o parceiro que rompeu por necessidade com menos raiva; e lembre que a fraqueza atrai quem quer crescer sobre você.
+
+**343. A ambição não tem limite: pague sem cobrar serviço e o próximo pedido será pior.**
+Ref.: V.14 (o que se dizia de Francesco Sforza). Texto: «gli uomini non hanno termini nella ambizione loro, e se ora fusse pagato sanza servire, domanderebbe poco di poi una cosa più disonesta e più pericolosa».
+Negócio [Interpretação nossa]: não pague fornecedor ou parceiro por entrega que não houve "para manter a relação"; o próximo pedido cresce.
+
+**344. Quem merece ser preso não merece ser solto.**
+Ref.: V.27 (resposta do castelão ao patriarca Vitelleschi). Texto: «gli uomini grandi non si pigliavano per lasciargli, e quelli che meritavano di essere presi, non meritavano di essere lasciati».
+Negócio [Interpretação nossa]: se você decidiu romper com alguém por falta grave, não volte atrás por pena no dia seguinte; decisão séria se mantém.
+
+**345. O inimigo manda o ataque para fora para tirar você da frente principal.**
+Ref.: V.29 (debate em Veneza sobre Piccinino na Toscana). Texto: o duque mandou Niccolò à Toscana «per levare il Conte da queste imprese, e la guerra che gli ha in casa farla altrove».
+Negócio [Interpretação nossa]: concorrente que provoca briga num canal secundário pode querer só desviar sua atenção da frente que importa.
+
+**346. Quem lidera bem uma vez ganha a benevolência que salva na crise.**
+Ref.: V.31. Texto (indireto): Piccinino perto de Florença fazia com que o governo não pudesse «se non con rispetto, strignere i cittadini a fare danari»; a cidade se manteve pela confiança em Cosimo.
+Negócio [Interpretação nossa]: crédito de confiança com equipe e clientes se acumula antes; na crise você só gasta o que guardou.
+
+**347. A batalha "sem mortos" é sinal de que ninguém luta pelo resultado.**
+Ref.: V.33 (Anghiari, 1440; número exagerado de propósito por Maquiavel — ver `historia-de-florenca.md` 3.4). Texto: «non vi morì altri che uno uomo; il quale, non di ferite o d'altro virtuoso colpo, ma caduto da cavallo e calpesto espirò».
+Negócio [Interpretação nossa]: prestador pago por presença entrega relatório bonito sem resultado; parte da remuneração atrelada a meta.
+
+**348. Quem não persegue a vitória a perde.**
+Ref.: V.34. Texto: os condottieri não perseguiram o inimigo, «dicendo volere riporre la preda e medicare i feriti».
+Negócio [Interpretação nossa]: fechou o primeiro contrato com um cliente grande? Entregue além e venda o próximo serviço enquanto a confiança está alta.
+
+**349. Quem já mostrou que pode trair não pode ficar num lugar de onde possa ferir.**
+Ref.: V.35 (o conde de Poppi perde o Estado). Texto: ele «aveva dato di sé tale esemplo che non poteva essere nutrito dove, in ogni variazione di fortuna, e' potesse a quella republica nuocere».
+Negócio [Interpretação nossa]: quem vazou dado ou levou cliente uma vez não volta a ter acesso às senhas — mesmo que volte.
+
+### Livro VI (1440–1463)
+
+**350. Guerra serve para enriquecer quem vence; se empobrece o vencedor, foi mal feita.**
+Ref.: VI.1. Texto: «Fu sempre, e così è ragionevole che sia, il fine di coloro che muovono una guerra, di arricchire sé e impoverire il nimico»; quem vence com mercenários «è nelle perdite infelice e nelle vittorie infelicissimo».
+Negócio [Interpretação nossa]: cliente ganho com desconto que dá prejuízo é vitória que empobrece; meça lucro por cliente, não só faturamento.
+
+**351. Esvaziar o caixa e empobrecer a equipe sem tirar o inimigo do caminho é o pior dos mundos.**
+Ref.: VI.1. Texto: as repúblicas «prima votavono lo erario, di poi impoverivano il popolo, e de' nimici tuoi non ti assicuravano».
+Negócio [Interpretação nossa]: guerra de preço longa com concorrente: gasta caixa, cansa o time e o concorrente continua lá.
+
+**352. Quando não dá para resistir pela força, ganhe tempo com engenho.**
+Ref.: VI.2 (Filippo Visconti diante de Sforza). Texto: para «temporeggiare quella fortuna con la industria, la quale non poteva con la forza sostenere».
+Negócio [Interpretação nossa]: diante de cliente ou concorrente muito maior, negocie prazos, faça propostas parciais, ganhe tempo até fortalecer-se — sem enganar ninguém.
+
+**353. Não destrua o melhor talento por medo de que fique forte; amarre-o com regras e interesse comum.**
+Ref.: VI.6–7 (assassinato de Baldaccio d'Anghiari). Texto: os cidadãos agiram «giudicando che fussi il lasciarlo pericoloso e il tenerlo pericolosissimo».
+Negócio [Interpretação nossa]: o profissional excelente que assusta pelo poder se segura com sociedade, contrato e metas, não com sabotagem.
+
+**354. Quem disputa a mesma grandeza pode fazer parentesco, mas não amizade.**
+Ref.: VI.9. Texto: «infra gli uomini che aspirano ad una medesima grandezza si può facilmente fare parentado, ma non amicizia».
+Negócio [Interpretação nossa]: parceria com agência do mesmo porte e nicho: contrato claro, sem esperar lealdade de amigo.
+
+**355. Nenhum prudente se entrega à discrição do aliado vencedor, salvo por necessidade.**
+Ref.: VI.12 (Sforza diante de Veneza). Texto: ficar à discrição do aliado, «alla quale niuno prudente principe non mai, se non per necessità, si rimisse».
+Negócio [Interpretação nossa]: não feche parceria em que o outro decide sozinho seu pagamento ou seu acesso ao cliente.
+
+**356. Agindo, revelam-se planos que, parado, ficariam escondidos.**
+Ref.: VI.13. Texto: «molte volte, operando, si scuoprono quelli consigli che, standosi, sempre si nasconderebbono».
+Negócio [Interpretação nossa]: teste no mercado revela o que nenhuma reunião revela (objeções reais, intenção do concorrente); comece pequeno e observe.
+
+**357. Para os ambiciosos, vergonha é perder, não ganhar com engano — por isso desconfie deles.**
+Ref.: VI.17 (Sforza e Milão). Texto: «gli uomini grandi chiamono vergogna il perdere, non con inganno acquistare».
+Negócio [Interpretação nossa]: é a descrição de como o oportunista pensa, não um conselho; em contrato com quem pensa assim, garantias escritas e acesso controlado.
+
+**358. Quem foi elevado por você e o trai é a ingratidão mais dura de engolir.**
+Ref.: VI.20 (embaixador milanês a Sforza). Texto: «Tu per tanto ricevesti da noi uno insperato bene; e noi, per ricompenso, riceviamo da te uno insperato male».
+Negócio [Interpretação nossa]: o gestor a quem você entregou toda a relação com o cliente pode virar o dono do cliente; mantenha contato direto do dono e acessos em nome da empresa.
+
+**359. O traidor sempre se descreve como quem só se precaveu.**
+Ref.: VI.21 (resposta de Sforza, indireta). Texto: ele não ofendeu os milaneses, mas «provedutosi che non potessero iniuriare lui».
+Negócio [Interpretação nossa]: o ex-sócio que levou clientes dirá que "só se protegeu"; registre acordos para que os fatos falem.
+
+**360. Onde os costumes e as facções são antigos, nenhuma forma de governo civil se sustenta.**
+Ref.: VI.23 (Milão depois de Filippo Visconti). Texto: «le qualità della cittadinanza, il modo del vivere loro, le sette antiquate in quella città, erano ad ogni forma di civile governo contrarie».
+Negócio [Interpretação nossa]: ao assumir cliente com cultura interna viciada, não prometa autogestão; comece com comando claro.
+
+**361. Boa intenção com julgamento ruim é censurada por todos.**
+Ref.: VI.29 (conspiração de Stefano Porcari, 1453). Texto: «puote essere da qualcuno la costui intenzione lodata, ma da ciascuno sarà sempre il giudicio biasimato».
+Negócio [Interpretação nossa]: ideia nobre sem forças nem plano (o "projeto social" que quebra a empresa) é erro, não virtude.
+
+**362. Um pequeno aviso pode bastar para lembrar quem manda de fato.**
+Ref.: VI.34 (o furacão de 1456). Texto: «Iddio volle, per allora, che bastasse questo poco di esemplo a rinfrescare infra gli uomini la memoria della potenzia sua».
+Negócio [Interpretação nossa]: susto pequeno (cliente que quase saiu, conta suspensa) é o aviso barato; aproveite para corrigir antes do grande.
+
+**363. É mais fácil pacificar mantendo quem já possui do que trocar por um novo.**
+Ref.: VI.36 (Pio II coroa Ferrante). Texto: «giudicando poter più presto mantenendo chi possedeva posare l'armi italiane».
+Negócio [Interpretação nossa]: num cliente, manter o interlocutor atual e melhorá-lo costuma dar menos guerra do que exigir troca.
+
+### Livro VII (1434–1476, dentro de Florença)
+
+**364. Quem espera uma organização sem divisões se engana.**
+Ref.: VII.1. Texto: «coloro che sperano che una republica possa essere unita, assai di questa speranza s'ingannono».
+Negócio [Interpretação nossa]: divergência na equipe é normal; o objetivo não é calar, é organizar.
+
+**365. Divisão por resultado público ajuda; divisão por panelinhas destrói.**
+Ref.: VII.1. Texto: «alcune divisioni nuocono alle republiche, e alcune giovano: quelle nuocono che sono dalle sette e da partigiani accompagnate; quelle giovano che senza sette e senza partigiani si mantengono».
+Negócio [Interpretação nossa]: competição por meta visível é boa; gerente que protege "os seus" contra as regras é veneno.
+
+**366. Se não dá para evitar inimizades, ao menos impeça as facções.**
+Ref.: VII.1. Texto: «Non potendo adunque provedere uno fondatore di una republica che non sieno inimicizie in quella, ha a provedere almeno che non vi sieno sette».
+Negócio [Interpretação nossa]: proíba exceções pessoais, aumentos por amizade e informação retida; isso corta o mecanismo da panelinha sem demitir ninguém.
+
+**367. Reputação por via pública fortalece a casa; por favores privados, divide.**
+Ref.: VII.1. Texto: reputação se ganha «o per vie publiche, o per modi privati»; os modos privados: «benificando questo e quell'altro cittadino, defendendolo da' magistrati, suvvenendolo di danari, tirandolo immeritamente agli onori».
+Negócio [Interpretação nossa]: premie entregas visíveis; desconfie de quem cresce distribuindo favores e protegendo erros.
+
+**368. Facção vencedora sem inimigo e sem regra se divide de novo.**
+Ref.: VII.1. Texto: «non avendo quella che regnava più paura che la ritenesse né ordine infra sé che la frenasse, la si ridivideva».
+Negócio [Interpretação nossa]: depois de vencer uma disputa (com sócio, com concorrente), crie regras para o grupo vencedor antes que ele brigue entre si.
+
+**369. Muitos amigos e poucos partidários: o modelo de poder limpo.**
+Ref.: VII.2 (Neri Capponi × Cosimo). Texto: Neri tinha «assai amici e pochi partigiani»; Cosimo «amici e partigiani assai».
+Negócio [Interpretação nossa]: tenha clientes e parceiros que gostam do seu trabalho, não dependentes de favores seus.
+
+**370. Poder misturado com simpatia consegue tudo.**
+Ref.: VII.2. Texto: «gli era mescolata con la potenza la grazia».
+Negócio [Interpretação nossa]: firmeza nas regras e simpatia no trato juntas fazem o cliente aceitar reajuste e cobrança.
+
+**371. Sem rival, os amigos do poder viram saqueadores.**
+Ref.: VII.4. Texto: «pochi cittadini predavano quella città».
+Negócio [Interpretação nossa]: sem fiscalização, até a equipe de confiança abusa (gastos, horas); controle é proteção, não desconfiança.
+
+**372. Mostrar riqueza gera inveja; tê-la discretamente, não.**
+Ref.: VII.5 (Cosimo). Texto: «sapeva come le cose estraordinarie che a ogni ora si veggono e appariscono recono molto più invidia agli uomini, che quelle che sono in fatto e con onestà si ricuoprono».
+Negócio [Interpretação nossa]: num mercado pequeno, ostentar faturamento atrai concorrência e pedido de desconto; mostre resultado do cliente, não o seu luxo.
+
+**373. Ver os males de longe dá tempo de impedir ou de se preparar.**
+Ref.: VII.5 (Cosimo). Texto: «cognosceva i mali discosto e per ciò era a tempo, o a non li lasciare crescere, o a prepararsi».
+Negócio [Interpretação nossa]: revisão mensal de riscos (cliente que concentra receita, mudança de plataforma, prazo de contrato).
+
+**374. Poder grande com modéstia de cidadão.**
+Ref.: VII.5. Texto: Cosimo «tanto fu temperato dalla prudenza sua, che mai la civile modestia non trapassò».
+Negócio [Interpretação nossa]: o dono que cresce e continua acessível mantém a rede que o fez crescer.
+
+**375. Útil na conversa, cauteloso no conselho, rápido na execução.**
+Ref.: VII.6 (retrato de Cosimo). Texto: «nelle conversazione utile, ne' consigli cauto, nelle esecuzioni presto».
+Negócio [Interpretação nossa]: é o perfil de gestor a buscar (e a ser): ouvir bem, decidir com calma, executar logo.
+
+**376. "Os Estados não se mantêm com o terço na mão" — a frase que mostra o custo do poder.**
+Ref.: VII.6 (dito de Cosimo; Maquiavel registra que esses ditos deram aos inimigos motivo para acusá-lo). Texto: «gli stati non si tenevono co' paternostri in mano».
+Negócio [Interpretação nossa]: boas intenções não seguram uma empresa; é preciso firmeza — mas sempre dentro da lei: o próprio texto mostra o preço (a república acabou).
+
+**377. Os homens fogem do mal certo; por isso os fortes enganam facilmente os fracos.**
+Ref.: VII.7. Texto: «gli uomini fuggono sempre più volentieri quel male che è certo, ne seguita che i principi possono i minori potenti facilmente ingannare».
+Negócio [Interpretação nossa]: defesa: quando um grande parceiro oferece "evitar um prejuízo certo" em troca de condição ruim, peça tempo e consultoria; é o momento em que o pequeno é enganado.
+
+**378. O conselho "honesto e razoável" pode ser a armadilha de quem quer o seu lugar.**
+Ref.: VII.10–11 (Dietisalvi Neroni leva Piero a cobrar os empréstimos do pai). Texto: em VII.15, Dietisalvi, «per celare meglio lo animo suo, vicitava Piero spesso, e ragionavali della unione della città, e lo consigliava».
+Negócio [Interpretação nossa]: antes de cortar benefícios antigos ou cobrar tudo de uma vez, calcule o custo de reputação e veja quem ganha com o conselho.
+
+**379. Povo ocioso é instrumento de quem quer mudar o regime.**
+Ref.: VII.12. Texto: «il più delle volte i popoli oziosi sono strumento a chi vuole alterare».
+Negócio [Interpretação nossa]: equipe sem trabalho claro vira plateia de fofoca e de quem quer derrubar a gestão; ocupe com metas.
+
+**380. Assumir um cargo com expectativa extraordinária termina em desonra.**
+Ref.: VII.14 (Niccolò Soderini aclamado). Texto: «non è cosa desiderabile prendere o uno magistrato o uno principato con estraordinaria opinione; perché, non potendosi con le opere a quella corrispondere, [...] ti partorisce, con il tempo, disonore e infamia».
+Negócio [Interpretação nossa]: venda com promessa moderada e entregue acima; promessa grande vira cancelamento no terceiro mês.
+
+**381. Não é quem pega primeiro em armas o culpado, mas quem deu motivo.**
+Ref.: VII.16 (Piero de' Medici, indireto). Texto: «non quello che prende prima le arme è cagione degli scandoli, ma colui che è primo a dare cagione che le si prendino».
+Negócio [Interpretação nossa]: ao analisar um conflito (cliente que estourou), procure quem deu o motivo, inclusive na própria agência.
+
+**382. Responder com elegância à provocação do adversário.**
+Ref.: VII.18 (Piero a Agnolo Acciaiuoli). Texto: «Il ridere tuo costì è cagione che io non pianga».
+Negócio [Interpretação nossa]: diante de deboche público de concorrente, uma resposta curta e serena vale mais que briga.
+
+**383. Hesitar no posto de comando perde a ocasião que depois não volta.**
+Ref.: VII.20 (Niccolò Soderini). Texto: «nel risolversi dubio e lento, il che fece che, gonfaloniere di giustizia, ei perdé quella occasione del vincere che di poi, privato, volle racquistare e non potette».
+Negócio [Interpretação nossa]: enquanto tem o cargo, o contrato ou a atenção do cliente, decida; depois não terá a mesma força.
+
+**384. O líder deve frear os abusos dos próprios aliados vitoriosos.**
+Ref.: VII.23 (Piero aos chefes do seu partido). Texto: «se voi seguiterete di portarvi in modo che io mi abbi a pentire di avere vinto, io ancora mi porterò in maniera che voi vi pentirete di avere male usata la vittoria».
+Negócio [Interpretação nossa]: quem ajudou a crescer não ganha licença para maltratar cliente ou colega; cobre igual.
+
+**385. Ninguém reclama de fazer o que está acostumado a fazer.**
+Ref.: VII.24 (Tommaso Soderini, indireto). Texto: «gli uomini di fare le cose che sono fare consueti mai non si dolgono».
+Negócio [Interpretação nossa]: transforme a nova exigência em rotina (mesmo dia, mesmo formato) e a resistência some.
+
+**386. Um começo fraco pode dar efeitos fortes: as pessoas seguem o que já está em movimento.**
+Ref.: VII.25 (Bernardo Nardi em Prato). Texto: «molte volte un debile principio partorisce gagliardi effetti, con ciò sia che gli uomini sieno più pronti a seguire una cosa mossa che a muoverla».
+Negócio [Interpretação nossa]: lance com os primeiros clientes e mostre o movimento; o público entra no que já anda (prova social real, nunca inventada).
+
+**387. Na paz, os jovens ociosos premiam quem morde os outros com mais graça.**
+Ref.: VII.28. Texto: «quello che più destramente mordeva gli altri era più savio e da più stimato».
+Negócio [Interpretação nossa]: cultura de deboche (no grupo da equipe, nas redes) é sintoma de ócio; corte cedo.
+
+**388. Coisa nova costuma ser subestimada no início.**
+Ref.: VII.29 (a mina de alúmen de Volterra). Texto: «Fu questa cosa nel principio, come il più delle volte delle imprese nuove interviene, dal popolo di Volterra stimata poco».
+Negócio [Interpretação nossa]: oportunidades novas (formato de vídeo, nicho) parecem pequenas; quem entende cedo leva o maior pedaço.
+
+**389. O que se toma à força custa na paz e enfraquece na crise.**
+Ref.: VII.30 (Tommaso Soderini sobre Volterra). Texto: «se voi la ricevevi d'accordo, voi ne traevi utile e securtà, ma avendola a tenere per forza, ne' tempi avversi vi porterà debolezza e noia, e ne' pacifici danno e spesa».
+Negócio [Interpretação nossa]: cliente segurado por multa ou desconto absurdo dá despesa; prefira o acordo.
+
+**390. Os homens são mais prontos ao mal que ao bem.**
+Ref.: VII.30 (o saque de Volterra). Texto: «gli uomini sono più pronti al male che al bene».
+Negócio [Interpretação nossa]: em situação sem controle (evento, acesso livre ao caixa), espere abuso; previna com regra.
+
+**391. Origem humilde não impede soberba quando o poder chega.**
+Ref.: VII.31 (o cardeal Pietro Riario). Texto: apesar de nascido de «vile sangue», «come prima al cardinalato pervenne, apparse in lui tanta superbia e tanta ambizione».
+Negócio [Interpretação nossa]: promoção revela o caráter; dê poder aos poucos e observe.
+
+**392. Repúblicas criam homens de valor; principados os apagam por medo.**
+Ref.: VII.33 (Cola Montano ensinando aos jovens milaneses). Texto: «quelle nutriscono gli uomini virtuosi, e quegli gli spengono, facendo l'una profitto dell'altrui virtù, l'altra temendone».
+Negócio [Interpretação nossa]: chefe que teme os talentosos fica com os medíocres; empresa que lucra com o talento alheio cresce.
+
+**393. Viva de modo que ninguém espere se salvar derrubando você; e não conte que a multidão descontente o seguirá.**
+Ref.: VII.34 (a conjura de Milão, 1476). Texto: «Imparino per tanto i principi a vivere in maniera, e farsi in modo reverire e amare, che niuno speri potere, ammazzandogli, salvarsi»; e «quanto quel pensiero sia vano che ci faccia confidare troppo che una moltitudine, ancora che mal contenta, ne' pericoli tuoi ti seguiti».
+Negócio [Interpretação nossa]: ser respeitado e querido é a melhor proteção; e quem planeja sair "levando todos" descobre que poucos vão junto.
+
+### Livro VIII (1476–1492)
+
+**394. Conspirações arruínam quem as faz e engrandecem quem é atacado.**
+Ref.: VIII.1. Texto: as conjurações «partoriscono il più delle volte a chi le muove rovina, e a colui contro al quale sono mosse grandezza».
+Negócio [Interpretação nossa]: armar saída secreta com clientes do patrão quase sempre dá errado (e pode ser ilícito); negocie às claras.
+
+**395. Quem é atacado, por medo, vira mau e cria novos inimigos.**
+Ref.: VIII.1. Texto: o príncipe «molte volte, sendo buono, diventa cattivo; perché queste, con lo esemplo loro, gli danno cagione di temere, il temere di assicurarsi, l'assicurarsi di ingiuriare».
+Negócio [Interpretação nossa]: depois de uma traição, não endureça com todos; puna o culpado e mantenha a confiança nos demais.
+
+**396. Querendo demais, perde-se tudo.**
+Ref.: VIII.2 (Giuliano avisa Lorenzo). Texto: «per volere delle cose troppo, che le non si perdessero tutte».
+Negócio [Interpretação nossa]: tirar de um sócio ou cliente orgulhoso o que é dele por regra feita sob medida cria inimigo disposto a tudo.
+
+**397. O jovem poderoso que quer que tudo passe por ele cria inimigos.**
+Ref.: VIII.3. Texto: Lorenzo, «caldo di gioventù e di potenza, voleva ad ogni cosa pensare, e che ciascuno da lui ogni cosa ricognoscesse».
+Negócio [Interpretação nossa]: delegue e deixe outros receberem crédito; centralizar tudo humilha os capazes.
+
+**398. Para as decisões mais duras, é preciso ânimo firme — e falta até aos experientes.**
+Ref.: VIII.5 (os Pazzi preparando o atentado). Texto: «se mai in alcuna faccenda si ricerca l'animo grande e fermo [...] è necessario averlo in questa, dove si è assai volte veduto agli uomini nelle arme esperti e nel sangue intrisi lo animo mancare».
+Negócio [Interpretação nossa]: (o contexto é um assassinato; aqui fica só a lição sobre decisões duras e legais) demitir, romper com cliente grande, mudar de nicho: quem executa precisa estar convencido, senão hesita na hora.
+
+**399. Gritar "liberdade" para quem está satisfeito é falar sozinho.**
+Ref.: VIII.8 (Jacopo de' Pazzi na praça). Texto: chamou o povo e a liberdade, mas «l'uno era dalla fortuna e liberalità de' Medici fatto sordo, l'altra in Firenze non era cognosciuta».
+Negócio [Interpretação nossa]: tentar tirar clientes satisfeitos de um concorrente com discurso não funciona; ofereça algo concreto que ele não dá.
+
+**400. Odiado é o poder usurpado; o ganho por generosidade é defendido.**
+Ref.: VIII.10 (discurso de Lorenzo). Texto: «quelle autoritadi meritono di essere odiate che gli uomini si usurpano, non quelle che gli uomini per liberalità, umanità e munificenza si guadagnano».
+Negócio [Interpretação nossa]: posição de mercado ganha servindo bem resiste a ataques; a ganha por truque, não.
+
+**401. A crise mostra mais inimigos do que se pensava e também mais amigos.**
+Ref.: VIII.10 (Lorenzo). Texto: «se la esperienza mi ha fatto conoscere come io aveva in questa città più nimici che io non pensava, m'ha ancora dimostro come io ci aveva più ferventi e caldi amici che io non credeva».
+Negócio [Interpretação nossa]: depois de uma crise, anote quem ajudou e quem sumiu; reorganize a rede por isso.
+
+**402. Quem tem o dever de proteger e não protege empurra os ofendidos para outro senhor.**
+Ref.: VIII.11 (resposta florentina ao papa). Texto: o papa devia remediar os males, «le quali cose ei debbe con ogni opportuno rimedio fare».
+Negócio [Interpretação nossa]: se a agência não resolve a reclamação do cliente, ele leva a queixa ao concorrente ou à rede social.
+
+**403. Quando os grandes se perturbam, os pequenos exilados tentam voltar.**
+Ref.: VIII.13. Texto: «sperando per gli nuovi accidenti potere trovare nuova fortuna, ruppono i confini, e ciascuno di loro tentava cose nuove».
+Negócio [Interpretação nossa]: em crise de mercado, ex-concorrentes e ex-funcionários reaparecem; fique atento a quem vem oferecer "ajuda".
+
+**404. Ouvir quando a casa está cansada de guerra.**
+Ref.: VIII.17. Texto (um cidadão a Lorenzo): «Questa città è stracca, e non vuole più guerra».
+Negócio [Interpretação nossa]: quando a equipe diz que não aguenta um cliente tóxico, faça a paz (renegocie ou encerre) a tempo.
+
+**405. Aliado que muda de comando a todo momento acompanha na vitória e abandona na ruína.**
+Ref.: VIII.17. Texto: «chi è, nelle guerre e pericoli, del papa amico, sarà nelle vittorie accompagnato e nelle rovine solo».
+Negócio [Interpretação nossa]: não amarre o negócio a um cliente cuja diretoria muda todo ano (órgão público, multinacional).
+
+**406. Ir pessoalmente ao adversário mais forte pode virar o jogo.**
+Ref.: VIII.18–19 (Lorenzo em Nápoles). Texto: «la grandezza degli inimici che gli aveva avuti lo aveva fatto grandissimo».
+Negócio [Interpretação nossa]: quando o cliente grande está furioso, vá pessoalmente; a coragem de se apresentar muda a negociação.
+
+**407. Onde muitos mandam igual, a desunião dá a vitória ao inimigo.**
+Ref.: VIII.26 (a liga na guerra de Ferrara). Texto: «come avviene spesso dove molti di uguale autorità concorrono, il più delle volte la disunione loro dà la vittoria al nimico».
+Negócio [Interpretação nossa]: projeto com três "chefes" iguais perde; um responsável final.
+
+**408. Quem ajuda todos e não é ajudado por ninguém precisa de forças próprias.**
+Ref.: VIII.33. Texto: «così i Fiorentini nelle guerre loro quasi sempre sono soli, né truovono chi con quello animo li suvvenga, che loro altri aiutano».
+Negócio [Interpretação nossa]: não conte com retribuição de favores na hora da crise; tenha caixa e equipe próprios.
+
+**409. Eloquente ao discutir, sábio ao decidir, rápido ao executar.**
+Ref.: VIII.36 (retrato de Lorenzo). Texto: «nel discorrere le cose eloquente e arguto, nel risolverle savio, nello esequirle presto e animoso».
+Negócio [Interpretação nossa]: as três fases de qualquer decisão; quem falha numa delas perde as outras duas.
+
+**410. O negócio de base afunda quando os gestores agem como donos.**
+Ref.: VIII.36 (Lorenzo). Texto: «quanto alla mercanzia, infelicissimo», porque os administradores geriam os negócios «non come privati, ma come principi»; a cidade teve de socorrê-lo com dinheiro.
+Negócio [Interpretação nossa]: o dono que vira figura pública e descuida do caixa vê a empresa de origem ir mal; acompanhe os números pessoalmente.
+
+**411. Morto quem sabia apagar as más sementes, elas arruinaram tudo.**
+Ref.: VIII.36 (fim da obra). Texto: começaram a nascer «quegli cattivi semi i quali, non dopo molto tempo, non sendo vivo chi gli sapesse spegnere, rovinorono, e ancora rovinano, la Italia».
+Negócio [Interpretação nossa]: se a ordem da empresa depende de uma pessoa, a saída dela solta os problemas acumulados; deixe sucessor e regras.
