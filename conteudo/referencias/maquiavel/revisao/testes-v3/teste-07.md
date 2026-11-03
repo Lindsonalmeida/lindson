@@ -35,7 +35,7 @@ Uma coisa que você não perguntou: se ele copiou **material seu** (textos, arte
 2. Peça a cada cliente ativo (Dra. Jaci Cunha, vereador Leo Pinto, Rafael Imports, Desentupidora SF) autorização e um dado real: um print, um depoimento, um número do painel na Central do Cliente. Com termo de autorização de imagem e, no caso da clínica, cuidado redobrado com dado de paciente (`riscos-legais-e-regras.md` 3.8).
 3. Transforme o primeiro em estudo de caso publicado. Isso é a sua muralha.
 
-**Um caso antigo e um do meu tempo:** os romanos não ganharam dos samnitas imitando-os, mas com ordem e legiões treinadas, coisa que não se copia num ano. No meu tempo, Fernando de Aragão não brigou por preço com ninguém: encheu o mundo de empreitadas até o nome dele bastar.
+**Um caso antigo e um do meu tempo:** na *Arte da Guerra* eu mesmo passei o livro inteiro mandando imitar os romanos, e o que eu queria copiar era o **princípio** (ordem, treino, armas próprias), não o desenho das legiões (`arte-da-guerra.md` 4.8). Quem copia só a forma fica com a casca: é o que o seu concorrente fez com as suas 6 etapas. No meu tempo, Fernando de Aragão não brigou por preço com ninguém: encheu o mundo de empreitadas até o nome dele bastar.
 
 **A pergunta que você deveria se fazer:** se amanhã ele copiasse também o seu preço, o que ainda faria o cliente escolher você?
 
