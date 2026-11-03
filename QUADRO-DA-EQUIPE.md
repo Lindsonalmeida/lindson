@@ -18,6 +18,7 @@ Toda conta lê esta tabela antes de qualquer pedido. Recado novo: responda ao Li
 ## Em andamento
 | Desde | Conta | O quê | Como retomar / onde está |
 |---|---|---|---|
+| 03/11 | Leandro | **Dra. Jaci: bio nova, destaques reorganizados (capas) e site oficial** (site de SEO + bio em /bio, mesmo padrão da Real Time) | `agencia/clientes/jaci-cunha/instagram-perfil/` e `site/` (README) |
 | 03/11 | Pedro | **Marca pessoal do Lindson (@lindsonalmeida_)**: estratégia de conteúdo + linhas editoriais → calendário editorial → identidade nova preto e amarelo (v2 da `branding/`) → artes | `agencia/marca-lindson/` (pasta nova). Outras contas: combine aqui antes de mexer |
 | 03/11 | Zuleide | Desentupidora SF no Google: passos do Search Console (sitemap e indexação das 11 páginas) e textos prontos do Perfil da Empresa | `agencia/clientes/desentupidora-sf/GOOGLE.md` (tabela Situação no fim). Esperando o Lindson fazer os passos 1 e 2 e mandar prints |
 | 03/11 | Zuleide · Leandro | **Real Time: site no ar** em https://realtimeslz.pages.dev (projeto Cloudflare `realtimeslz`): **site principal de SEO** com 8 páginas (template GAFFER, conta Leandro) e **mini site da bio** em `/bio/` (rascunho da Zuleide). Falta: pôr no Google (Search Console + Perfil da Empresa, processo `agencia/processos/google-mini-site.md`) e trocar o link da bio do Instagram | código em `Lindsonalmeida/realtime` (`gerar.py`, README) · `agencia/clientes/rt-full-jobs/site/TEMPLATE.md` |
