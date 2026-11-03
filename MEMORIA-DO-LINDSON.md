@@ -142,6 +142,7 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 - **Aprovação:** pelo WhatsApp em até 48 h, com 2 rodadas de ajuste (contrato).
 
 **Rafael Imports e Desentupidora SF**
+- **Desentupidora SF (03/11 · Zuleide):** artes v1 aprovadas = padrão (`agencia/clientes/desentupidora-sf/instagram-v1/`): identidade do site (marinho, royal, laranja, Montserrat itálico 900), assinatura logo + @desentupidorasf_slz + WhatsApp no rodapé, modelos do Designi, ganchos pela dor. Painel em /painel/sf.
 - Mini site no repositório privado de cada cliente, publicado na Cloudflare Pages (`nomedocliente.pages.dev`), nunca dentro do `lindson`.
 - Fotos reais, pedidas uma por mensagem.
 - Desentupidora: falta Pixel e UTM antes de medir a campanha.
@@ -221,7 +222,7 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 | 03/11 | Aprender o estilo das artes da Dra. Jaci | pronto | `jaci-cunha/instagram-estilo/README.md` |
 | 03/11 | Calendário editorial do Leo (nov a jan) e quem aprovou cada arte (nome do cliente pela conta) | no ar | painel do Leo › Aprovações e Calendário |
 | 03/11 | Painel da Desentupidora SF na Central, com código de acesso | no ar (Zuleide) | https://lindsonalmeida.pages.dev/painel/sf |
-| 03/11 | 4 artes da Desentupidora SF | prontas, aguardando aprovação (Zuleide) | `agencia/clientes/desentupidora-sf/instagram-v1/` |
+| 03/11 | 4 artes da Desentupidora SF | **aprovadas pelo Lindson** ("aprovado, pode subir") e no painel do cliente (Zuleide) | `agencia/clientes/desentupidora-sf/instagram-v1/` |
 | 03/11 | Lista de todos os agentes por categoria | pronto (Zuleide) | `AGENTES.md` |
 | 03/11 | Este documento de memória, compartilhado com todas as contas | pronto | `MEMORIA-DO-LINDSON.md` |
 

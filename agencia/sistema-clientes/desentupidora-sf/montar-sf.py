@@ -60,13 +60,14 @@ else:
     dados = {'nome': 'Desentupidora SF', 'seg': 'Desentupimento em São Luís e Grande Ilha', 'plano': '', 'inicio': 'Outubro/2026', 'atualizado': '—'}
 
 # 4 · Aprovações: só entra o que o Lindson aprovou na conversa (regra 7b da MEMORIA). As artes ficam em clientes/desentupidora-sf/instagram-v1/.
-MOSTRAR_V1 = False  # True quando o Lindson aprovar as 4 artes
+MOSTRAR_V1 = True  # aprovadas pelo Lindson em 03/11/2026 ("aprovado, pode subir")
 V1 = os.path.join(CL, 'instagram-v1'); itens = []
 if MOSTRAR_V1:
     TX = json.load(open(os.path.join(V1, 'textos.json')))
+    TIT = {'p1': 'Água voltando pelo ralo?', 'p2': 'Óleo na pia entope o cano', 'p3': 'Caixa de esgoto cheia assim?', 'p4': 'Enquete: o que já entupiu aí na sua casa?'}
     for k in sorted(TX):
         t = TX[k]; arq = os.path.join(V1, t.get('arquivo', k + '.jpg'))
-        itens.append({'t': 'Post único', 'titulo': t.get('titulo', k), 'data': 'Postar em ' + t.get('data', 'a combinar'), 'linha': t.get('linha', ''), 'st': 'aguardando', 'img': uri(arq, 720), 'legenda': t.get('legenda', '')})
+        itens.append({'t': 'Post único', 'titulo': t.get('titulo') or TIT.get(k, k), 'data': 'Postar em ' + t.get('data', 'a combinar'), 'linha': t.get('linha', ''), 'st': 'aguardando', 'img': uri(arq, 720), 'legenda': t.get('legenda', '')})
 aprov = ','.join(json.dumps(x, ensure_ascii=False) for x in itens)
 s = re.sub(r"const APROV=\[.*?\];", lambda m: f"const APROV=[{aprov}];", s, count=1, flags=re.S)
 troca('<div class="post"><div class="img">${p.titulo}</div>', '<div class="post">${p.img?`<img src="${p.img}" alt="${p.titulo}" style="width:100%;aspect-ratio:4/5;object-fit:cover;display:block">`:`<div class="img">${p.titulo}</div>`}')
