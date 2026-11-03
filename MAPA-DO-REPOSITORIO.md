@@ -55,6 +55,7 @@ Brand book, componentes (Cover, LinkCard, StatStrip…), modelos e guia de Insta
 |---|---|---|
 | Peter | `.claude/agents/peter.md` | Canal dark e monetização no YouTube |
 | Xquads (15 squads, 183 agentes) | instalados por `instalar-xquads.sh` | Oferta, copy, tráfego, marca etc. |
+| `AGENTES.md` | lista de todos os 201 agentes por categoria (nossos, Xquads, Builder Squad) e qual chamar para cada pedido | (conta Zuleide, 03/11) |
 
 ## Apps publicados por conta
 Todos reunidos, com os antigos e repetidos marcados, no painel do administrador da Central (https://lindsonalmeida.pages.dev/painel/admin). A lista fica em `CentralLindsonALmeida/dados/apps.json`.
