@@ -1,6 +1,6 @@
 # Maquiavel — ensinamentos complementares (249 em diante)
 
-**Situação:** parcial — feito até a seção 2 (*História de Florença* 249–411; *Arte da Guerra* 412–468). Continuar pela seção 3 (legações e escritos políticos). (conta Zuleide, ciclo 2 da revisão, 03/11/2026)
+**Situação:** parcial — feito até a seção 3 (*História de Florença* 249–411; *Arte da Guerra* 412–468; legações e escritos 469–517). Continuar pela seção 4 (cartas). (conta Zuleide, ciclo 2 da revisão, 03/11/2026)
 
 Continua `../maquiavel-todos-ensinamentos.md` (1–248: *Príncipe*, *Discursos*, regras gerais da *Arte da Guerra*). Aqui entram os ensinamentos que faltavam: *História de Florença* (8 livros), *Arte da Guerra* além das regras gerais, legações e escritos políticos, cartas, literatura e a vida.
 
@@ -929,3 +929,211 @@ Negócio [Interpretação nossa]: dono que só posta frase de efeito e não acom
 **468. Quem despreza a preparação despreza o próprio negócio.**
 Ref.: Livro VII. Texto: «Colui adunque che dispregia questi pensieri, s'egli è principe, dispregia il principato suo; s'egli è cittadino, la sua città».
 Negócio [Interpretação nossa]: planejamento, treino e reserva não são burocracia; são o negócio.
+
+---
+
+## 3. Legações (missões) e escritos políticos curtos (1499–1527)
+
+> Datas e contexto em `missoes-e-escritos-politicos.md` (B e C). Nos despachos, muitas frases são de quem Maquiavel ouviu (Bórgia, Pandolfo Petrucci): isso vem marcado.
+
+### Escritos da Chancelaria (1499–1503)
+
+**469. Recuperar o que é vital não se discute; discute-se só o modo: força ou amor.**
+Ref.: *Discorso fatto al magistrato dei Dieci sopra le cose di Pisa* (1499). Texto: «Che riavere Pisa sia necessario a volere mantenere la libertà, perché nessuno ne dubita, non mi pare da mostrarlo con altre ragioni»; os modos são «o la forza o l'amore».
+Negócio [Interpretação nossa]: para recuperar um cliente-chave perdido, decida o modo (oferta irrecusável ou relação reconstruída) e não perca tempo discutindo se vale.
+
+**470. Força sem prudência não conquista; prudência sem força não conserva.**
+Ref.: *Parole da dirle sopra la provisione del danaio* (1503). Texto: «Tutte le città... hanno auto per defensione loro le forze mescolate con la prudenzia; perché questa non basta sola, e quelle o non conducono le cose o, condutte, non le mantengano. Sono dunque queste due cose el nervo di tutte le signorie».
+Negócio [Interpretação nossa]: estratégia boa sem caixa e equipe não sai do papel; caixa sem estratégia se gasta.
+
+**471. Considere adversário todo aquele que pode esperar tomar o que é seu.**
+Ref.: *Parole da dirle* (1503). Texto: «ogni città, ogni stato, debbe reputare inimici tutti coloro che possono sperare di poterle occupare el suo, e da chi lei non si può difendere».
+Negócio [Interpretação nossa]: o fornecedor que tem todas as senhas do seu cliente é um risco, mesmo sendo amigo; proteja os acessos.
+
+**472. Ninguém é fiel a um senhor que não pode defendê-lo nem corrigi-lo.**
+Ref.: *Parole da dirle*. Texto: «gli uomini non possono e non debbono essere fedeli servi di quello signore da el quale e' non possono essere né difesi né corretti».
+Negócio [Interpretação nossa]: equipe que o chefe não protege diante do cliente abusivo nem orienta quando erra não fica.
+
+**473. Entre particulares, contratos fazem cumprir a palavra; entre poderosos, só a força.**
+Ref.: *Parole da dirle*. Texto: «fra gli uomini privati le leggi, le scritte, e patti fanno osservare la fede, e fra e signori la fanno solo osservare l'armi».
+Negócio [Interpretação nossa]: com cliente pequeno, contrato basta; com gigante, conta sua capacidade de sair (outros clientes, caixa) — tenha alternativas.
+
+**474. Tenha a espada ao lado quando o inimigo está longe.**
+Ref.: *Parole da dirle*. Texto: «né sempre si può metter mano in su la spada d'altri, e però è bene averla a lato e cignersela quando el nimico è discosto».
+Negócio [Interpretação nossa]: prepare reserva, contrato e plano de crise quando tudo vai bem.
+
+**475. Quem não quis gastar para viver morre com o dinheiro.**
+Ref.: *Parole da dirle* (Constantinopla, 1453). Texto: «Andate a morire con cotesti danari, poi che voi non avete voluto vivere sanza essi»; e quem não quis pagar vinte ducados perdeu duzentos.
+Negócio [Interpretação nossa]: economizar na segurança (backup, contador, contrato) sai muito mais caro depois.
+
+**476. Com sol, ninguém acredita na chuva.**
+Ref.: *Parole da dirle*. Texto: «quando vedete el sole, non credete mai che gli abbia a piovere».
+Negócio [Interpretação nossa]: no mês bom, faça o plano do mês ruim.
+
+**477. A sorte não muda de sentença enquanto você não muda de ordem.**
+Ref.: *Parole da dirle*. Texto: «la fortuna non muta sentenzia, dove non si muta ordine».
+Negócio [Interpretação nossa]: se os resultados ruins se repetem, mude o processo; esperar a maré virar não basta.
+
+**478. Com rebeldes: ou benefício de verdade ou neutralização; o meio-termo é perigosíssimo.**
+Ref.: *Del modo di trattare i popoli della Valdichiana ribellati* (1503), citando Lívio. Texto: «I Romani pensarono una volta che i popoli ribellati si debbano o beneficare, o spegnere, e che ogni altra via sia pericolosissima».
+Negócio [Interpretação nossa]: com parceiro ou cliente que traiu: reconciliação real (com novo acordo) ou encerramento formal e legal; manter humilhado é o pior.
+
+**479. A história é mestra das ações, porque os homens têm sempre as mesmas paixões.**
+Ref.: *Valdichiana*. Texto: «Io ho sentito dire, che la istoria è la maestra delle azioni nostre, e massime de' principi, e il mondo fu sempre ad un modo abitado da uomini che hanno avuto sempre le medesime passioni, e sempre fu chi serve e chi comanda».
+Negócio [Interpretação nossa]: antes de decidir, procure o caso parecido no passado (seu ou do setor).
+
+**480. Maltratar e chamar de benefício não engana ninguém.**
+Ref.: *Valdichiana*. Texto: «e' non si chiama benefizio ogni dì fargli venire a Firenze, avere tolto loro gli onori, vendere loro le possessioni, sparlarne pubblicamente».
+Negócio [Interpretação nossa]: "parceria" em que um lado só perde não é parceria; o outro lado sabe.
+
+**481. Decida rápido quando muitos estão suspensos entre esperança e medo.**
+Ref.: *Valdichiana*. Texto: «quello che si ha a deliberare, bisogna deliberare presto, avendo voi tanti popoli sospesi tra la speranza e la paura».
+Negócio [Interpretação nossa]: em reestruturação, anuncie rápido quem fica e como fica; a incerteza longa faz os bons saírem.
+
+**482. O golpe preparado com paciência e disfarce derrota quem confia demais.**
+Ref.: *Descrizione del modo tenuto dal duca Valentino* (Senigália, 1502). Texto: Bórgia, «con tutte quelle astuzie e sagacità potette, persuase a Vitelli e agli Orsini che lo aspettassino in Sinigaglia».
+Negócio [Interpretação nossa]: lição de defesa: quem já conspirou contra alguém não deve se entregar à boa-fé dele; ao negociar com quem você prejudicou, tenha garantias.
+
+**483. Nas mãos de quem se ofendeu, não se espere piedade.**
+Ref.: *Descrizione*. Texto: os capitães mortos sem que se usassem «parole degne della loro passata vita».
+Negócio [Interpretação nossa]: quem trai um parceiro forte e depois confia nele repete o erro dos capitães; cuidado com reconciliações sem garantia.
+
+### Legações (1499–1512)
+
+**484. Só se respeita quem está armado ou pronto para pagar.**
+Ref.: Legação à França, carta de Melun, 27/08/1500. Texto: «Stimano solamente o chi è armato, o chi è parato ad dare».
+Negócio [Interpretação nossa]: em negociação com grande empresa, ou você tem alternativa forte ou tem o que oferecer; boa vontade não pesa.
+
+**485. Rapidez e escolha dos melhores homens fazem a reputação.**
+Ref.: Legação a Urbino, 26/06/1502 (Soderini e Maquiavel sobre Bórgia). Texto: «Giugne prima in un luogo che se ne possa intendere la partita donde si lieva»; e «nelle armi è tanto animoso che non è sì gran cosa che non li paia piccola».
+Negócio [Interpretação nossa]: responder e entregar antes do esperado é a propaganda mais forte de uma agência pequena.
+
+**486. Obrigue o outro a sair da ambiguidade: amigo ou inimigo declarado.**
+Ref.: Urbino, 26/06/1502 (palavras de Bórgia). Texto: «Non havendo ad essere amico, vuole essere inimico aperto».
+Negócio [Interpretação nossa]: cliente que enrola meses: proposta com prazo de resposta; melhor um "não" claro que um "talvez" eterno.
+
+**487. Coalizão de descontentes sem tempo certo é "dieta de falidos".**
+Ref.: Legação a Bórgia, Ímola, 7/10/1502 (palavras de Bórgia sobre a Dieta de La Magione). Texto: «Questa dieta di falliti».
+Negócio [Interpretação nossa]: concorrentes que se juntam só por raiva de um líder raramente executam; não se assuste com a "união" deles, cuide da sua entrega.
+
+**488. Clemência e descuido podem custar o Estado.**
+Ref.: Ímola, 7/10/1502 (Bórgia). Texto: «L'essere io stato clemente, e avere stimato poco le cose, mi ha nociuto».
+Negócio [Interpretação nossa]: tolerar pequenas faltas graves (acesso indevido, desvio) por bondade abre caminho para a grande.
+
+**489. Segredo até a hora de mandar fazer.**
+Ref.: Ímola, 1502. Texto: «Questo Signore è secretissimo: né credo quello si habbi ad fare lo sappi altro che lui».
+Negócio [Interpretação nossa]: decisões estratégicas (preço novo, desligamento) só se anunciam quando prontas para execução.
+
+**490. Premiar e punir conforme o mérito dá autoridade.**
+Ref.: Cesena, 26/12/1502 (sobre Bórgia). Texto: «Mostra di sapere fare et disfare li huomini ad sua posta, secondo e' meriti loro».
+Negócio [Interpretação nossa]: promoções e cortes por desempenho comprovado, visíveis, dão respeito ao gestor.
+
+**491. Confiar que a palavra alheia será mais firme que a sua perde quem confia.**
+Ref.: Legação de Roma, nov. 1503 (Bórgia diante de Júlio II). Texto: «Il duca si lascia trasportare da quella sua animosa confidenza».
+Negócio [Interpretação nossa]: depois de perder o protetor (o cliente-âncora, o sócio forte), não confie em promessas de quem você já prejudicou; garanta por escrito.
+
+**492. Quem perde a base desliza aos poucos para a cova.**
+Ref.: Roma, 3/12/1503. Texto: «Pare che questo duca a poco a poco sdruccioli nello avello».
+Negócio [Interpretação nossa]: negócio que dependia de um só apoio cai devagar e depois de vez; diversifique antes.
+
+**493. Os tempos são superiores aos nossos cérebros: decida dia a dia.**
+Ref.: Legação a Siena, 21/07/1505 (Pandolfo Petrucci citando o rei Federico). Texto: «Questi tempi sono superiori ad e' cervelli nostri»; Pandolfo «Teneva el piè sempre in mille staffe».
+Negócio [Interpretação nossa]: em mercado instável (algoritmo, economia), planos curtos e revisão semanal; mantenha várias opções abertas.
+
+**494. Quem não sabe decidir quer fazer tudo sozinho e nada sai do seu jeito.**
+Ref.: *Rapporto delle cose della Magna*, 17/06/1508 (pre' Luca sobre Maximiliano). Texto: «L'Imperatore non chiede consiglio a persona, ed è consigliato da ciascuno; vuol fare ogni cosa da se, e nulla fa a suo modo».
+Negócio [Interpretação nossa]: o dono que não delega nem ouve ninguém, mas muda de ideia a cada conversa, trava a empresa; ouça na hora certa e decida.
+
+**495. Generosidade e facilidade sem critério arruínam o líder.**
+Ref.: *Rapporto*. Texto: «queste due parti la liberalità, e la facilità, che lo fanno laudare a molti, sono quelle che lo ruinano»; «La sua facile e buona natura fa che ciascuno che egli ha d'intorno lo inganna».
+Negócio [Interpretação nossa]: dizer sim a todo desconto e todo pedido parece simpático e quebra a empresa; regras protegem o chefe bonzinho.
+
+**496. Ganhar muito e não saber para onde vai o dinheiro é a pior pobreza.**
+Ref.: *Rapporto*. Texto: «lui con tutte le soprascritte entrate non ha mai un soldo, e ch'è peggio, e' non si vede dove e' se ne vadino».
+Negócio [Interpretação nossa]: controle financeiro mensal; faturamento alto sem saber onde o dinheiro vai é sinal de ruína.
+
+**497. Quem muda de ideia todo dia desfaz à noite o que decidiu de manhã.**
+Ref.: *Ritratto delle cose della Magna* (1508–1512). Texto: «È vario perchè oggi vuole una cosa e domani nò; non si consiglia con persona, e crede ad ognuno».
+Negócio [Interpretação nossa]: mude de estratégia por dado, não por humor; registre decisões e prazos de revisão.
+
+**498. A guerra se mede com gente, dinheiro, governo e sorte.**
+Ref.: *Ritratto delle cose della Magna*. Texto: «la guerra si ha a misurare con le genti, con il danaro, con il governo, e con la fortuna, e chi ha più di dette cose si ha a credere che vincerà».
+Negócio [Interpretação nossa]: antes de disputar um mercado, compare equipe, caixa, organização e momento com os do concorrente.
+
+**499. O povo que vive com pouco é rico no coletivo.**
+Ref.: *Ritratto delle cose della Magna*. Texto: «Perchè li popoli in privato sieno ricchi, la ragione è questa, che vivono come poveri; non edificano, non vestono, e non hanno masserizie in casa».
+Negócio [Interpretação nossa]: custo fixo baixo é liberdade; não aumente estrutura antes da receita.
+
+**500. Prever bem o futuro é a parte mais importante de quem informa.**
+Ref.: *Ritratto delle cose della Magna*. Texto: «la più importante parte che abbia un oratore... si è, conietturare bene le cose future».
+Negócio [Interpretação nossa]: relatório ao cliente não é só o que aconteceu: diga o que deve acontecer e o que fazer.
+
+**501. Com quem só pensa no ganho imediato, o primeiro acordo é o melhor.**
+Ref.: *De natura Gallorum* (c. 1503). Texto: «Stimano tanto l'utile e il danno presente, che cade in loro poca memoria delle ingiurie o benefizi passati»; «Li primi accordi con loro sono sempre i migliori».
+Negócio [Interpretação nossa]: com cliente imediatista, feche bem as condições no começo (escopo, reajuste); depois tudo é renegociação para baixo.
+
+**502. Quem promete quando não pode e demora quando pode não é parceiro.**
+Ref.: *De natura Gallorum*. Texto: «Quando non ti possono far bene tel promettono, quando te ne possono fare, lo fanno con difficultà o non mai».
+Negócio [Interpretação nossa]: avalie parceiros pelo que entregam quando podem, não pelo que prometem.
+
+**503. Para resolver algo na "corte", é preciso dinheiro, diligência e sorte.**
+Ref.: *De natura Gallorum*. Texto: «Chi vuole condurre una cosa in corte gli bisognano assai danari, gran diligenza, e buona fortuna».
+Negócio [Interpretação nossa]: vender para grandes empresas ou governo exige tempo, verba e paciência; precifique isso.
+
+**504. Humildes na má sorte, insolentes na boa: assim são muitos.**
+Ref.: *De natura Gallorum*. Texto: «Sono umilissimi nella cattiva fortuna; nella buona insolenti».
+Negócio [Interpretação nossa]: observe o cliente na fase boa; é aí que se vê como ele vai tratar você.
+
+**505. Quem vence sempre tem a atenção do rei; quem perde, quase nunca.**
+Ref.: *Ritratto di cose di Francia* (1510). Texto: «Chi vince è a tempo moltissime volte con il Re, chi perde rarissime volte».
+Negócio [Interpretação nossa]: peça aumento, indicação ou renovação logo depois de um resultado bom.
+
+**506. Mercenários ou são demais e perigosos, ou de menos e inúteis; arme-se com os seus.**
+Ref.: *Provisione della ordinanza* (1506) e escritos da milícia. Texto: «se sono assai e reputate, sono o insopportabili o sospette; se poche e senza riputazione sono di nessuna utilità»; e a solução: «armarsi d'armi proprie».
+Negócio [Interpretação nossa]: freelancers famosos dominam o seu cliente; freelancers fracos não servem; forme o núcleo próprio.
+
+**507. O inimigo do regime não é uma pessoa, é a ordem antiga.**
+Ref.: *Ai Palleschi* (1512). Texto: «questo stato non ha per nimico Piero Soderini, ma sì bene l'ordine vechio».
+Negócio [Interpretação nossa]: ao mudar a agência, o obstáculo é o costume antigo, não o ex-gerente; mude o processo.
+
+### Escritos de reforma e de governo (1520–1522)
+
+**508. Organização que nunca foi nem uma coisa nem outra muda de forma toda hora.**
+Ref.: *Discursus florentinarum rerum* (1520–1521). Texto: «La cagione perché Firenze ha sempre variato spesso nei suoi governi, è stata perché in quella non è stato mai né republica né principato che abbi avute le debite qualità sue».
+Negócio [Interpretação nossa]: defina se a agência é do dono (decisão centralizada) ou uma sociedade (decisão por regra); o meio-termo indefinido gera reorganizações sem fim.
+
+**509. Forma de governo conforme a igualdade das pessoas.**
+Ref.: *Discursus*. Texto: «in tutte le città dove è grande equalità di cittadini, non vi si può ordinare principato se non con massima difficultà, e in quelle città dove è grande inequalità di cittadini non si può ordinare republica».
+Negócio [Interpretação nossa]: entre sócios iguais, decisão colegiada; com grande diferença de capital e experiência, comando claro do principal.
+
+**510. Toda organização tem três níveis de gente, e todos precisam de lugar.**
+Ref.: *Discursus*. Texto: «Coloro che ordinano una republica debbono dare luogo a tre diverse qualità di uomini, che sono in tutte le città: cioè, primi, mezzani e ultimi».
+Negócio [Interpretação nossa]: sócios, líderes e equipe: cada um precisa de voz e interesse no resultado, ou alguém sabota.
+
+**511. O maior bem é o que se faz à própria casa, e a maior honra é a dada de boa vontade.**
+Ref.: *Discursus*. Texto: «Io credo che il maggiore onore che possono avere gli uomini sia quello che volontariamente è loro dato dalla loro patria: credo che il maggiore bene che si faccia, e il più grato a Dio, sia quello che si fa alla sua patria».
+Negócio [Interpretação nossa]: reconhecimento que o mercado local dá de livre vontade vale mais que prêmio comprado.
+
+**512. Quanto menos fica do velho viciado, menos fica do ruim.**
+Ref.: *Discursus*. Texto: «quanto meno vi resta del vecchio, tanto meno vi resta del cattivo».
+Negócio [Interpretação nossa]: numa reforma real, não deixe restos do processo antigo que causava o problema.
+
+**513. Os muitos controlam os grandes; os poucos controlam a insolência dos jovens.**
+Ref.: *Sommario delle cose della città di Lucca* (1520). Texto: «il numero grande serve a gastigare i grandi, e l'ambizione de' ricchi, il numero piccolo serve... a frenare la insolenza de' giovani».
+Negócio [Interpretação nossa]: abuso de sócio ou cliente grande se trata em instância coletiva (conselho, regra escrita); indisciplina do novato, com o líder direto.
+
+**514. Em quem tem poder de veto, o "sim" é mais perigoso que o "não".**
+Ref.: *Sommario di Lucca*. Texto: «è molto più pericoloso in quelli il sì che il nò».
+Negócio [Interpretação nossa]: aprovação fácil de gasto ou contrato é que gera prejuízo; quem aprova precisa de critério.
+
+**515. Quem informa não põe a própria opinião na boca: atribui o juízo aos "homens prudentes".**
+Ref.: *Istruzione fatta per Niccolò Machiavelli a Raffaello Girolami* (1522). Texto: «perchè mettere il giudizio vostro nella bocca vostra sarebbe odioso, e' si usa nelle lettere questo termine [...] gli uomini prudenti che si trovano qua, giudicano che ne abbia a seguire il tale effetto».
+Negócio [Interpretação nossa]: no relatório, separe fato, análise e recomendação; apresente a recomendação apoiada em dados e referências, sem arrogância.
+
+**516. Essa parte bem feita honra, mal feita desonra.**
+Ref.: *Istruzione a Raffaello Girolami*. Texto: «Questa parte fatta bene ha fatto a' miei dì grande onore a molti ambasciatori, e così fatta male gli ha disonorati».
+Negócio [Interpretação nossa]: o relatório mensal é a vitrine da agência; capriche nele.
+
+**517. Ingratidão com Deus e com o próximo andam juntas.**
+Ref.: *Esortazione alla penitenza* (sermão, data incerta). Texto: «Questi che sono ingrati a Dio è impossibile che non siano inimici al prossimo».
+Negócio [Interpretação nossa]: quem não reconhece o que recebeu (do mentor, do primeiro cliente) também trata mal a equipe; observe a gratidão na contratação.
