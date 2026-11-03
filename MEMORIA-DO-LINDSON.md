@@ -224,6 +224,8 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 
 ## 8. Pendências abertas
 
+0. **Cliente novo RT Full Jobs** (03/11 · Zuleide): produtora audiovisual @realtime_fulljobs. Ele está mandando as informações; cuidar depois da Desentupidora SF. Tudo em `agencia/clientes/rt-full-jobs/`.
+
 1. **Agente de criatividade**, criado do mesmo jeito que o Maquiavel. Ele monta as identidades das artes junto com o time, seguindo a regra "nada se cria, tudo se copia". Foi pedido para depois da aprovação das artes do Leo, que já aconteceu.
 2. **Artes da Dra. Jaci** copiando o estilo dela, depois que as do Leo acabarem.
 3. **Leo:** o Leo precisa aprovar as 9 artes no painel.

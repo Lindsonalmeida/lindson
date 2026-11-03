@@ -11,6 +11,7 @@ Como usar:
 ## Em andamento
 | Desde | Conta | O quê | Como retomar / onde está |
 |---|---|---|---|
+| 03/11 | Zuleide (próximo) | **RT Full Jobs** (@realtime_fulljobs, produtora audiovisual): cliente novo; Lindson está mandando as informações. Começar depois da Desentupidora SF | `agencia/clientes/rt-full-jobs/README.md` (prints e o que falta receber) |
 | 03/11 | Zuleide | Desentupidora SF: 4 artes (copiando modelos existentes, na identidade do site) + aba/painel na Central do Cliente com código de acesso para o Lindson mandar | `agencia/clientes/desentupidora-sf/` · painel em `agencia/sistema-clientes/` · dados em `CentralLindsonALmeida/dados/` |
 | 03/11 | Pedro | App interno de clone de imagem e voz: etapa 1 pronta (Biblioteca com trava de consentimento + Voz clonada humanizada + instalador Windows); identidade visual e nome em criação | `apps/clone-studio/` (README) · plano `conteudo/referencias/ia-video-voz/PLANO-DO-APP.md` · próximo: vídeo com MuseTalk |
 | 02/11 | Pedro | Raposa longos 13-16: **pausado a pedido do Lindson** às 01:45 UTC (longo-13 em ~25.300 de 31.900 quadros, quadros salvos) | sessão `session_01XiFncfJz7NwDm3ttPeBcGd`; retomar só quando o Lindson pedir: `RETOMAR=1 setsid nohup bash conteudo/youtube/filas/lote_rl.sh &` |
