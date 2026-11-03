@@ -1,6 +1,6 @@
 # Discursos sobre a Primeira Década de Tito Lívio — base de conhecimento para o agente "Nicolau Maquiavel"
 
-**Situação:** completo — seções 1 a 8 (seção 1 pela conta Lindson; seções 2 a 5 pela conta Zuleide; seções 6 a 8 pela conta Lindson, 02/11/2026). Pendências em 8.5. **Ciclo 2 (conta Zuleide):** seção 5b (fichas dos 101 capítulos restantes) parcial — feito até III.35.
+**Situação:** completo — seções 1 a 8 (seção 1 pela conta Lindson; seções 2 a 5 pela conta Zuleide; seções 6 a 8 pela conta Lindson, 02/11/2026). Pendências em 8.5. **Ciclo 2 (conta Zuleide):** seção 5b (fichas dos 101 capítulos restantes) completa; tabela *Príncipe* × *Discursos* (5c) em andamento.
 
 > **Para que serve este arquivo:** é a base do agente "Maquiavel conselheiro de negócios" no que diz respeito aos *Discorsi*. Tudo o que está marcado como **texto** vem do original italiano; tudo o que está marcado como **interpretação** é leitura nossa ou de estudiosos, e o agente deve apresentar assim.
 >
@@ -520,7 +520,7 @@ Conferidos os 142 ensinamentos daquele arquivo (números 78 a 219) contra o orig
 
 ## 5b. Os demais 101 capítulos em detalhe
 
-**Situação da 5b:** parcial — feito até III.35 (fichas 5b.1 a 5b.90); falta de III.36 em diante.
+**Situação da 5b:** completo — 101 fichas (5b.1 a 5b.101); com a seção 5, todos os 142 capítulos têm ficha.
 
 **Para que serve:** com a seção 5 (41 fichas), os 142 capítulos dos *Discursos* ficam todos com ficha conferida. Aqui estão os 101 que faltavam, **na ordem do livro** (ciclo 2 da revisão, conta Zuleide, 02/11/2026).
 
@@ -1072,6 +1072,72 @@ Conferidos os 142 ensinamentos daquele arquivo (números 78 a 219) contra o orig
 - **Citação:** *"non ci veggo altra via che pigliare le cose moderatamente, e non ne prendere alcuna per sua impresa, e dire la opinione sua sanza passione, e sanza passione con modestia difenderla"* — "não vejo outro caminho senão tomar as coisas com moderação, não fazer de nenhuma delas causa sua, dizer sua opinião sem paixão e, sem paixão, defendê-la com modéstia". E: *"E così colui portò la pena d’essere stato cheto quando e’ doveva parlare, e di avere parlato quando e’ doveva tacere"* — "E assim aquele pagou a pena de ter ficado calado quando devia falar e de ter falado quando devia calar".
 - **Exemplos:** o sultão Selim e o paxá que o aconselhou contra o Sofi; o amigo de Perseu, morto pelo rei por apontar seus erros só depois da derrota para Paulo Emílio.
 - **Aplicação [Interpretação]:** ao propor algo arriscado ao dono ou ao cliente, mostre prós e contras com calma, sem "vender" a ideia como sua causa pessoal. Se não for aceita e der errado o outro caminho, você ganha crédito. E fale na hora certa, não depois do desastre.
+
+### 5b.91 — III.36: por que os franceses parecem mais que homens no começo e menos que mulheres depois
+- **Argumento (texto):** há três tipos de exército: com fúria e ordem (os romanos: da ordem nasce a fúria e a virtù, e nada se fazia sem ordem do cônsul); só com fúria (os gauleses: se o primeiro ímpeto falha, desabam); sem fúria natural nem ordem (os exércitos italianos de hoje, "de todo inúteis").
+- **Citação:** *"perché dall’ordine nasce il furore e la virtù, come era quello de’ Romani"* — "porque da ordem nasce a fúria e a virtù, como era a dos romanos". E: *"Ma dove la virtù ordinata usa il furore suo con i modi e co’ tempi, né difficultà veruna lo invilisce, né li fa mancare l’animo"* — "Mas onde a virtù ordenada usa sua fúria com os modos e os tempos, nenhuma dificuldade a acovarda nem lhe faz faltar o ânimo".
+- **Exemplos:** o gaulês que desafiou os romanos junto ao rio Aniene e Tito Mânlio; o discurso de Papírio Cursor sobre a disciplina (Lívio).
+- **Aplicação [Interpretação]:** equipe só de entusiasmo (lançamento animado, sem processo) murcha no primeiro problema. Entusiasmo com método aguenta a dificuldade. Sem nenhum dos dois, não adianta nem começar.
+
+### 5b.92 — III.37: as pequenas batalhas antes da grande; como conhecer um inimigo novo
+- **Argumento (texto):** começar perdendo tira o ânimo do exército; por isso as escaramuças só se fazem com grande vantagem e certeza de vencer. Para conhecer um inimigo novo sem arriscar, o melhor é o modo de Mário contra os cimbros: pôr o exército várias vezes em lugar seguro de onde pudesse ver o inimigo passar, até os soldados perderem o medo de uma multidão desordenada.
+- **Citação:** *"Quello che gli può tôrre l’animo è cominciare a perdere; e però si debbe guardare dalle zuffe piccole, e non le permettere se non con grandissimo vantaggio, e con speranza di certa vittoria"* — "O que lhe pode tirar o ânimo é começar perdendo; e por isso [o capitão] deve evitar os pequenos combates e não permiti-los senão com grandíssima vantagem e esperança de vitória certa". E: *"o veramente fare come Mario (il che è migliore partito)"* — "ou então fazer como Mário (o que é o melhor partido)".
+- **Exemplos:** Tito Mânlio e o gaulês; Valério Corvino; Mário e os cimbros; os gauleses que fugiram "por coisa de pouco peso".
+- **Aplicação [Interpretação]:** ao entrar num mercado novo, não comece com testes que provavelmente vão falhar e desanimar a equipe. Estude o concorrente de perto, sem combate (veja como ele vende, peça orçamento), até a equipe perder o medo; depois entre com vantagem.
+
+### 5b.93 — III.38: como deve ser o capitão em quem o exército confia
+- **Argumento (texto):** Valério Corvino, contra os samnitas, disse aos soldados que seguissem seus atos e não suas palavras, lembrando seus feitos. O capitão deve dar o exemplo e treinar: Graco e Epaminondas, com exércitos novos, venceram veteranos porque os exercitaram meses em batalhas simuladas e na obediência.
+- **Citação:** Lívio, na boca de Valério: *"Facta mea, non dicta, vos, milites, sequi volo"* ("Soldados, quero que sigais os meus atos, não as minhas palavras"). E Maquiavel: *"perché quel principe, che abbonda di uomini e manca di soldati, debbe solamente, non della viltà degli uomini, ma della sua pigrizia e poca prudenza, dolersi"* — "porque o príncipe que tem homens em abundância e lhe faltam soldados deve queixar-se não da covardia dos homens, mas só da sua preguiça e pouca prudência".
+- **Exemplos:** Valério Corvino; Tibério Graco (escravos armados); Epaminondas.
+- **Aplicação [Interpretação]:** o líder convence pelo que faz (chega antes, atende o cliente difícil, cumpre prazo), não por discurso. E se a equipe é fraca, a culpa é do treino que você não deu (ligar com I.21, ficha 5b.9).
+
+### 5b.94 — III.39: o capitão deve conhecer os lugares
+- **Argumento (texto):** sem conhecimento geral e particular do terreno, o capitão não age bem. Esse conhecimento se aprende sobretudo na caça, que ensina a ler um território e é "imagem da guerra" (Xenofonte, Ciro). Públio Décio, tribuno, salvou o exército tomando um morro porque sabia ler o terreno.
+- **Citação:** *"Non si può ancora imparare questa cognizione de’ paesi in altro commodo modo, che per via di caccia, perché la caccia fa, a colui che la usa sapere come sta particularmente quel paese dove elli la esercita."* — "Não se pode aprender esse conhecimento dos lugares de outro modo cômodo senão pela caça, porque a caça faz quem a pratica saber como é em particular aquele lugar onde a exerce."
+- **Exemplos:** Ciro e o rei da Armênia (Xenofonte); Públio Décio no Sâmnio.
+- **Aplicação [Interpretação]:** conheça seu território: bairros, perfil dos clientes, concorrentes de cada rua (no caso de São Luís, por exemplo, cada região da cidade tem público diferente). A "caça" de hoje é andar pelo mercado, visitar clientes, ler dados de localização.
+
+### 5b.95 — III.40: na guerra, a fraude é gloriosa (mas não quebrar a palavra)
+- **Argumento (texto):** usar a fraude em qualquer ação é detestável; na condução da guerra, é louvável e gloriosa, e quem vence o inimigo com ela é tão louvado quanto quem vence pela força. Mas Maquiavel limita: não é gloriosa a fraude que te faz quebrar a palavra dada e os pactos feitos.
+- **Citação:** *"Ancora che lo usare la fraude in ogni azione sia detestabile, nondimanco nel maneggiare la guerra è cosa laudabile e gloriosa"* — "Embora usar a fraude em toda ação seja detestável, na condução da guerra é coisa louvável e gloriosa". E o freio: *"Dirò solo questo, che io non intendo quella fraude essere gloriosa, che ti fa rompere la fede data ed i patti fatti"* — "Direi só isto: não entendo como gloriosa aquela fraude que te faz quebrar a palavra dada e os pactos feitos".
+- **Exemplos:** Aníbal fingindo fuga "no lago de Perúgia" (Trasimeno) e acendendo tochas nos chifres do gado para escapar de Fábio Máximo; Pôncio, que com soldados disfarçados de pastores atraiu os romanos às Forcas Caudinas, e o conselho do pai dele contra a "via do meio".
+- **Aplicação [Interpretação]:** surpreender o concorrente (lançamento em segredo, campanha inesperada, não revelar sua estratégia) é legítimo. Enganar cliente, parceiro ou funcionário, ou descumprir contrato, nunca. Ver 8.4 e III.42 (ficha 5.40).
+
+### 5b.96 — III.44: com ímpeto e audácia se obtém o que por meios ordinários nunca se obteria
+- **Argumento (texto):** os samnitas, com o exército dentro da Toscana, exigiram que os toscanos pegassem em armas, e eles, que antes recusavam, aceitaram. Pedir de repente, sem dar tempo de deliberar e mostrando que a recusa provocaria indignação imediata, consegue o que a negociação lenta não conseguiria.
+- **Citação:** *"E’ si ottiene con l’impeto e con l’audacia molte volte quello che con modi ordinarii non si otterrebbe mai."* — "Obtém-se com o ímpeto e a audácia muitas vezes aquilo que por modos ordinários nunca se obteria." (título do capítulo; no Wikisource, em linhas separadas). E: *"Onde che Fois, diliberato d’andare per la più corta, e per vincere ogni difficultà né dare tempo al marchese a diliberarsi, a un tratto mosse le sue genti per quella via"* — "Por isso Foix, decidido a ir pelo caminho mais curto, e para vencer toda dificuldade e não dar tempo ao marquês de deliberar, de repente moveu sua gente por aquele caminho".
+- **Exemplos:** samnitas e toscanos; Júlio II marchando sobre Bolonha contra os Bentivoglio (1506), arrastando franceses e venezianos; Gaston de Foix e o marquês de Mântua (1512), que entregou as chaves do passo.
+- **Aplicação [Interpretação]:** às vezes a proposta firme, com prazo curto e já em movimento ("começamos segunda, só preciso do seu ok"), fecha o que meses de reunião não fecham. [Freio: pressão legítima, sem mentira nem ameaça; e só quando a recusa realmente custaria caro ao outro.]
+
+### 5b.97 — III.45: aguentar o ímpeto e depois atacar, ou atacar com fúria logo?
+- **Argumento (texto):** contra samnitas e toscanos, o cônsul Décio atacou com toda a força, cansou-se no primeiro ímpeto e, vendo os seus recuarem, sacrificou-se como o pai; Fábio aguentou o ataque, guardou as forças para o fim, quando o inimigo perdera a "foga", e venceu. O modo de Fábio é mais seguro e mais imitável.
+- **Citação:** *"Donde si vede che il modo del procedere di Fabio è più sicuro e più imitabile."* — "Por onde se vê que o modo de proceder de Fábio é mais seguro e mais imitável."
+- **Exemplos:** Décio e Fábio (batalha de Sentino, 295 a.C.; o nome do lugar é identificação nossa, não está no capítulo).
+- **Aplicação [Interpretação]:** contra um concorrente que entra com tudo (preço baixo, muita propaganda), aguente com o essencial e guarde recursos; quando o fôlego dele acabar, invista. Gastar tudo no primeiro mês é o erro de Décio.
+
+### 5b.98 — III.46: por que uma família conserva os mesmos costumes
+- **Argumento (texto):** não só as cidades, mas as famílias de uma mesma cidade têm costumes próprios por muito tempo: os Mânlios duros e obstinados, os Publícolas benignos e amigos do povo, os Ápios ambiciosos e inimigos da plebe. Isso não vem do sangue, mas da educação que cada família dá.
+- **Citação:** *"ma è necessario venga dalla diversa educazione che ha l’una famiglia dall’altra"* — "mas é necessário que venha da educação diferente que uma família tem em relação à outra".
+- **Exemplos:** Mânlios, Publícolas, Ápios (um Ápio censor que se recusou a deixar o cargo depois de 18 meses; o discurso contra ele do tribuno Públio Semprônio).
+- **Aplicação [Interpretação]:** a cultura de uma empresa (ou de uma família empresária) passa pelo exemplo diário e pelo que se ensina aos novos. Se quer outra cultura, mude o que se ensina e o que se tolera, não só o discurso.
+
+### 5b.99 — III.47: o bom cidadão esquece as injúrias privadas por amor à pátria
+- **Argumento (texto):** com o cônsul Márcio ferido contra os samnitas, o Senado precisava de Papírio Cursor como ditador, e só o cônsul Fábio podia nomeá-lo, sendo inimigo dele. Pedido pelo Senado, Fábio o nomeou "movido pela caridade da pátria", mesmo mostrando com o silêncio quanto aquilo lhe pesava.
+- **Citação:** *"Il che Fabio fece, mosso dalla carità della patria; ancora che col tacere e con molti altri modi facesse segno che tale nominazione gli premesse. Dal quale debbono pigliare esemplo tutti quelli che cercano di essere tenuti buoni cittadini."* — "O que Fábio fez, movido pelo amor à pátria, ainda que com o silêncio e de muitos outros modos mostrasse quanto aquela nomeação lhe pesava. Dele devem tomar exemplo todos os que buscam ser tidos por bons cidadãos."
+- **Exemplos:** o cônsul Márcio; Fábio e Papírio Cursor (ligação com I.31 e III.36).
+- **Aplicação [Interpretação]:** se a melhor pessoa para salvar um projeto é alguém de quem você não gosta, chame-a. A empresa vem antes da mágoa pessoal.
+
+### 5b.100 — III.48: quando o inimigo erra feio, desconfie de armadilha
+- **Argumento (texto):** os toscanos mandaram falsos pastores com gado à vista do acampamento romano para atrair o legado Fúlvio a uma emboscada; ele percebeu o engano. Em 1508, Alfonso del Mutolo, pisano preso pelos florentinos, prometeu entregar uma porta de Pisa; tratava abertamente, acompanhado de pisanos, o que mostrava o jogo duplo, mas a vontade de ter Pisa cegou os florentinos, que perderam vários chefes na porta de Lucca.
+- **Citação:** *"Ma il disiderio che si aveva di avere Pisa, accecò in modo i Fiorentini, che, condottisi con l’ordine suo alla porta a Lucca, vi lasciarono più loro capi ed altre genti, con disonore loro, per il tradimento doppio che fece detto Alfonso."* — "Mas o desejo que havia de ter Pisa cegou de tal modo os florentinos que, levados pela orientação dele à porta de Lucca, lá deixaram vários de seus chefes e outros homens, com desonra, pela traição dupla que fez o dito Alfonso."
+- **Exemplos:** Fúlvio e os falsos pastores toscanos; Alfonso del Mutolo e o cerco de Pisa (1508).
+- **Aplicação [Interpretação]:** negócio bom demais (cliente que aceita tudo sem negociar, concorrente que "deixa" um mercado de graça, proposta que chega pronta) merece checagem dupla. O desejo de ganhar cega.
+
+### 5b.101 — III.49: a república precisa todo dia de novas providências; Quinto Fábio, o "Máximo"
+- **Argumento (texto):** numa cidade grande nascem todo dia acidentes que precisam do médico, e quanto mais graves, mais sábio o médico. Roma enfrentou casos estranhos: as mulheres envenenadoras, a conjura das Bacanais, os soldados de Canas, e usou punições como a dizimação (punir um em dez por sorteio quando todos merecem: quem é punido culpa a sorte, quem não é teme a próxima vez). O censor Quinto Fábio pôs os novos cidadãos, que começavam a mudar o governo, em apenas quatro tribos, sem alteração, e ganhou o nome de "Máximo".
+- **Citação:** *"È di necessità, come altre volte si è detto, che ciascuno dì in una città grande naschino accidenti che abbiano bisogno del medico; e secondo che gl’importano più, conviene trovare il medico più savio."* — "É necessário, como outras vezes se disse, que todo dia numa cidade grande nasçam acidentes que precisem do médico; e quanto mais importam, mais sábio deve ser o médico que se procura."
+- **Exemplos:** as envenenadoras; as Bacanais (guerra macedônica); os soldados de Canas; a dizimação; Quinto Fábio censor e as quatro tribos.
+- **Aplicação [Interpretação]:** é o fecho da obra: organização nenhuma fica pronta. Todo dia surgem problemas novos (cliente, lei, tecnologia, equipe); tenha rotina de revisão e chame o especialista certo para cada tamanho de problema. Ao receber muita gente nova de uma vez (crescimento rápido, fusão), integre aos poucos para não perder a cultura.
 
 <!-- fim da 5b -->
 
