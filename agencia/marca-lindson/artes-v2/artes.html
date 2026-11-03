@@ -32,11 +32,11 @@ const F='fotos/',A=new URLSearchParams(location.search).get('a')||'',R=A.startsW
 const topo=(rot,y)=>`<div class="abs" style="left:70px;right:70px;top:${y||(R?250:60)}px;display:flex;justify-content:space-between;align-items:center;z-index:5"><span class="marca">lindson almeida<i></i></span><span class="mono" style="font-size:21px">${rot}</span></div>`;
 const S={
 // a1 · Apresentação · INF: nome gigante condensado atravessando a foto colorida (recorte por cima da 2ª linha)
-a1:`<div class="a"><div class="abs" style="inset:0;background:radial-gradient(60% 45% at 50% 35%,#1c1a14,#0A0A0A 70%)"></div>${[[120,0,6,620],[930,90,6,520],[0,700,330,6],[760,520,320,6]].map(([x,y,w,h])=>`<div class="abs" style="left:${x}px;top:${y}px;width:${w}px;height:${h}px;background:#FFD45A;box-shadow:0 0 24px 6px rgba(245,197,24,.55);border-radius:4px;opacity:.85"></div>`).join('')}
- <div class="abs" style="inset:0;background:linear-gradient(180deg,rgba(10,10,10,.2) 0%,rgba(10,10,10,0) 40%,rgba(10,10,10,.92) 82%)"></div>
+a1:`<div class="a"><img class="abs" src="${F}c05.jpg" style="left:0;top:-60px;width:1080px">
+ <div class="abs" style="inset:0;background:rgba(10,10,10,.28)"></div>
  <div class="abs ant" style="left:0;right:0;top:150px;text-align:center;font-size:330px;color:var(--am)">LINDSON</div>
- <img class="abs" src="${F}c05-rec.png" style="left:50%;transform:translateX(-50%);top:150px;height:1500px">
- <div class="abs" style="inset:0;background:linear-gradient(180deg,transparent 62%,rgba(10,10,10,.95) 86%)"></div>
+ <img class="abs" src="${F}c05-full.png" style="left:0;top:-60px;width:1080px;filter:brightness(1.0);-webkit-mask-image:linear-gradient(180deg,#000 0,#000 520px,transparent 600px);mask-image:linear-gradient(180deg,#000 0,#000 520px,transparent 600px)">
+ <div class="abs" style="inset:0;background:linear-gradient(180deg,rgba(10,10,10,.35) 0,transparent 14%,transparent 58%,rgba(10,10,10,.96) 84%)"></div>
  ${topo('(20 26) · SÃO LUÍS')}
  <div class="abs" style="left:70px;right:70px;bottom:120px"><div class="h" style="font-size:78px">Faço o seu Instagram<br>trazer <span class="cx">cliente</span>.</div></div>
  <div class="abs mono" style="left:70px;right:70px;bottom:56px;display:flex;justify-content:space-between;font-size:21px;color:var(--ap)"><span>@LINDSONALMEIDA_</span><span>PRAZER, LINDSON</span></div><div class="grao"></div></div>`,
