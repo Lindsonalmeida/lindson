@@ -220,6 +220,9 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 | 02/11 e 03/11 | 6 datas comemorativas do Leo com tag, legenda e prévia do feed | aprovadas e no painel | `leo-pinto/instagram-v14-datas/` |
 | 03/11 | Aprender o estilo das artes da Dra. Jaci | pronto | `jaci-cunha/instagram-estilo/README.md` |
 | 03/11 | Calendário editorial do Leo (nov a jan) e quem aprovou cada arte (nome do cliente pela conta) | no ar | painel do Leo › Aprovações e Calendário |
+| 03/11 | Painel da Desentupidora SF na Central, com código de acesso | no ar (Zuleide) | https://lindsonalmeida.pages.dev/painel/sf |
+| 03/11 | 4 artes da Desentupidora SF | prontas, aguardando aprovação (Zuleide) | `agencia/clientes/desentupidora-sf/instagram-v1/` |
+| 03/11 | Lista de todos os agentes por categoria | pronto (Zuleide) | `AGENTES.md` |
 | 03/11 | Este documento de memória, compartilhado com todas as contas | pronto | `MEMORIA-DO-LINDSON.md` |
 
 ## 8. Pendências abertas
