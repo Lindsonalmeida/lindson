@@ -113,7 +113,50 @@ V['rede-relatorio'] = () => { const rel = (D.relatorios || []).slice().sort((a, 
 V['rede-artes'] = () => `<div class="card"><h3>Artes do seu Instagram</h3><p class="sub">As artes saem da identidade nova (preto e amarelo) e de modelos de templates premium. Cada uma vem com a legenda no padrão blog SEO.</p>
   ${(R.artes || []).length ? `<div class="grade g3">${R.artes.map(a => `<div class="card" style="padding:10px"><img src="${a.img}" alt="${esc(a.titulo)}" style="width:100%;border-radius:10px;display:block"><b style="display:block;margin:8px 0 2px">${esc(a.titulo)}</b><div class="sub" style="margin:0">${esc(a.data || '')}</div>${a.legenda ? `<details style="margin-top:6px"><summary style="cursor:pointer;color:var(--amarelo);font-weight:700">Legenda</summary><pre style="white-space:pre-wrap;font:inherit;font-size:13px">${esc(a.legenda)}</pre></details>` : ''}<a class="btn lin" download="${esc(a.arquivo || 'arte.jpg')}" href="${a.img}" style="margin-top:8px;padding:6px 10px;font-size:12px">Baixar</a></div>`).join('')}</div>` : '<p class="sub" style="margin:0">Ainda não há artes aprovadas aqui. Elas entram assim que a identidade nova e as primeiras artes forem aprovadas.</p>'}</div>`;
 
-Object.assign(T, { rede: 'Minha rede · visão', 'rede-estrategia': 'Estratégia de conteúdo', 'rede-calendario': 'Calendário editorial', 'rede-lote': 'Gravação da semana', 'rede-leads': 'Leads das iscas', 'rede-relatorio': 'Relatório semanal', 'rede-artes': 'Artes' });
+// ---- 8 · Minhas fotos: o Lindson sobe as fotos dele para as artes (copiado do modelo prototipo/fotos.js, conta Lindson 01/11).
+// Vão para /api/fotos?cli=lindson (KV), reduzidas no aparelho para 2048 px + miniatura de 480 px. Pedido do Lindson 03/11: "não tem a aba de subir minhas fotos".
+const FCLI = 'lindson', FCATS = ['Retrato (rosto, olhando para a câmera)', 'Meio corpo / braços cruzados', 'Gravando com cliente (bastidor)', 'No computador ou no celular', 'Apontando ou fazendo gesto', 'Outras'];
+let fotos = null, fRemoto = null, fFiltro = '', fEnv = '', fCat = FCATS[0];
+async function fCarrega() {
+  try { const r = await fetch(`/api/fotos?cli=${FCLI}`, { headers: { Accept: 'application/json' } });
+    if (r.ok && (r.headers.get('content-type') || '').includes('json')) { fotos = (await r.json()).fotos; fRemoto = true; } else { fotos = []; fRemoto = false; if (r.status === 401) toast('Sua sessão expirou. Entre de novo na Central.'); } }
+  catch (e) { fotos = []; fRemoto = false; }
+  if ((location.hash || '').slice(1) === 'rede-fotos') render();
+}
+fCarrega();
+function reduz(file, max, q) { return new Promise((ok, erro) => { const url = URL.createObjectURL(file), img = new Image();
+  img.onload = () => { const k = Math.min(1, max / Math.max(img.naturalWidth, img.naturalHeight)), w = Math.round(img.naturalWidth * k), h = Math.round(img.naturalHeight * k);
+    const c = document.createElement('canvas'); c.width = w; c.height = h; c.getContext('2d').drawImage(img, 0, 0, w, h); URL.revokeObjectURL(url); c.toBlob(b => b ? ok({ b, w, h }) : erro(new Error('falhou')), 'image/jpeg', q); };
+  img.onerror = () => { URL.revokeObjectURL(url); erro(new Error('formato')); }; img.src = url; }); }
+async function fEnvia(lista) {
+  lista = [...lista].filter(f => /^image\//.test(f.type) || /\.(jpe?g|png|webp|heic|heif)$/i.test(f.name));
+  if (!lista.length) return toast('Escolha fotos (JPG, PNG ou do iPhone).');
+  let ok = 0, falha = 0;
+  for (let i = 0; i < lista.length; i++) { fEnv = `Enviando ${i + 1} de ${lista.length}…`; render();
+    try { const g = await reduz(lista[i], 2048, 0.9), m = await reduz(lista[i], 480, 0.8), nome = lista[i].name.replace(/\.[^.]+$/, '').slice(0, 60);
+      const r = await fetch(`/api/fotos?cli=${FCLI}&cat=${encodeURIComponent(fCat)}&nome=${encodeURIComponent(nome)}&w=${g.w}&h=${g.h}`, { method: 'POST', headers: { 'Content-Type': 'image/jpeg' }, body: g.b });
+      const j = await r.json().catch(() => ({})); if (!r.ok) throw new Error(j.erro || 'erro');
+      await fetch(`/api/fotos?cli=${FCLI}&id=${j.id}&thumb=1`, { method: 'POST', headers: { 'Content-Type': 'image/jpeg' }, body: m.b });
+      fotos.unshift({ id: j.id, ...j }); ok++; }
+    catch (e) { falha++; if (/sessão|Entre/.test(e.message)) { toast(e.message); break; } } }
+  fEnv = ''; render();
+  toast(falha ? `${ok} enviada(s), ${falha} não foi(ram). Tente de novo.` : `${ok} foto(s) enviada(s). Já entram nas próximas artes.`);
+}
+V['rede-fotos'] = () => {
+  if (fotos === null) return `<div class="card"><p class="sub">Carregando suas fotos…</p></div>`;
+  if (!fRemoto) return `<div class="card"><h3>Minhas fotos</h3><p class="sub" style="margin:0">O envio funciona no site da Central (lindsonalmeida.pages.dev), com o seu login de administrador.</p></div>`;
+  const l = fotos.filter(f => !fFiltro || f.cat === fFiltro), usadas = [...new Set(fotos.map(f => f.cat))];
+  return `<div class="grade g21"><div class="card"><h3>Subir minhas fotos</h3><p class="sub">Elas viram as fotos das suas artes (recortadas em preto e branco). Melhor: vertical, rosto bem iluminado, fundo simples, sem filtro. Varie: sério, sorrindo, apontando, braços cruzados, gravando.</p>
+    <div id="ft-zona" style="border:2px dashed var(--linha);border-radius:14px;padding:18px;text-align:center;display:grid;gap:10px;justify-items:center"><label class="sub" style="margin:0">Tipo de foto <select id="ft-cat" style="background:var(--painel2);color:var(--texto);border:1px solid var(--linha);border-radius:9px;padding:9px 11px;max-width:100%">${FCATS.map(c => `<option ${c === fCat ? 'selected' : ''}>${esc(c)}</option>`).join('')}</select></label>
+     <input type="file" id="ft-arq" accept="image/*" multiple hidden><button class="btn am" type="button" id="ft-escolhe" ${fEnv ? 'disabled' : ''}>${fEnv || 'Escolher fotos'}</button>
+     <span class="sub" style="margin:0;font-size:12px">Pode escolher várias de uma vez. No computador, dá para arrastar para cá.</span></div></div>
+   <div class="card"><h3>Resumo</h3><p class="sub">${fotos.length} foto(s) no banco.</p><div class="lista">${usadas.map(c => `<div style="display:flex;justify-content:space-between;font-size:13px"><span>${esc(c)}</span><b>${fotos.filter(f => f.cat === c).length}</b></div>`).join('') || '<div style="font-size:12px;color:var(--apagado)">Nenhuma foto ainda.</div>'}</div><p class="sub" style="margin-top:10px">Para a semana 1 de artes, 8 a 10 fotos já bastam.</p></div></div>
+  <div class="card"><h3>Banco de fotos</h3>${usadas.length > 1 ? `<div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px"><button class="btn lin" type="button" data-ftf="" style="padding:6px 12px;font-size:12px">Todas</button>${usadas.map(c => `<button class="btn lin" type="button" data-ftf="${esc(c)}" style="padding:6px 12px;font-size:12px">${esc(c)}</button>`).join('')}</div>` : ''}
+   ${l.length ? `<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px">${l.map(f => `<div style="background:var(--painel2);border:1px solid var(--linha);border-radius:12px;overflow:hidden"><a href="/api/foto?cli=${FCLI}&id=${f.id}" target="_blank" rel="noopener"><img loading="lazy" src="/api/foto?cli=${FCLI}&id=${f.id}&mini=1" alt="${esc(f.cat)}" style="width:100%;aspect-ratio:4/5;object-fit:cover;display:block"></a><div style="padding:8px 10px;display:grid;gap:6px;font-size:12px"><b>${esc(f.cat)}</b><span style="color:var(--apagado)">${f.em ? new Date(f.em).toLocaleDateString('pt-BR') : ''}</span><div style="display:flex;gap:6px"><a class="btn lin" style="flex:1;padding:6px;font-size:12px" href="/api/foto?cli=${FCLI}&id=${f.id}&baixar=1">Baixar</a><button class="btn lin" style="flex:1;padding:6px;font-size:12px" type="button" data-ftdel="${f.id}">Excluir</button></div></div></div>`).join('')}</div>`
+     : '<p class="sub" style="margin:0">Nenhuma foto ainda. Use "Escolher fotos" acima.</p>'}</div>`;
+};
+
+Object.assign(T, { 'rede-fotos': 'Minhas fotos', rede: 'Minha rede · visão', 'rede-estrategia': 'Estratégia de conteúdo', 'rede-calendario': 'Calendário editorial', 'rede-lote': 'Gravação da semana', 'rede-leads': 'Leads das iscas', 'rede-relatorio': 'Relatório semanal', 'rede-artes': 'Artes' });
 
 // ---- ações (depois de cada tela)
 const ant = window.__pos;
@@ -134,5 +177,10 @@ window.__pos = view => {
   $$('[data-perdeu]').forEach(b => b.onclick = () => salva(d => { const x = d.leads.find(y => y.id === b.dataset.perdeu); if (x) x.etapa = 'perdido'; }, 'Movido para "Não seguiu"'));
   const fr = $1('#f-rel'); if (fr) fr.onsubmit = e => { e.preventDefault(); const f = Object.fromEntries(new FormData(fr)); salva(d => { d.relatorios = (d.relatorios || []).filter(r => r.semana !== f.semana).concat(f); }, 'Semana salva'); };
   const fn = $1('#f-num'); if (fn) fn.onsubmit = e => { e.preventDefault(); const f = Object.fromEntries(new FormData(fn)); salva(d => { d.numeros = { seguidores: f.seguidores, visualizacoes: f.visualizacoes, data: hoje() }; }, 'Números atualizados'); };
+  if ((location.hash || '').slice(1) === 'rede-fotos') { const arq = $1('#ft-arq'), zona = $1('#ft-zona'), sel = $1('#ft-cat'), bt = $1('#ft-escolhe');
+    if (sel) sel.onchange = () => { fCat = sel.value; }; if (bt) bt.onclick = () => arq.click(); if (arq) arq.onchange = () => { if (arq.files.length) fEnvia(arq.files); };
+    if (zona) { zona.ondragover = e => { e.preventDefault(); zona.style.borderColor = 'var(--amarelo)'; }; zona.ondragleave = () => { zona.style.borderColor = ''; }; zona.ondrop = e => { e.preventDefault(); zona.style.borderColor = ''; if (!fEnv) fEnvia(e.dataTransfer.files); }; }
+    $$('[data-ftf]').forEach(b => b.onclick = () => { fFiltro = b.dataset.ftf; render(); });
+    $$('[data-ftdel]').forEach(b => b.onclick = async () => { if (!confirm('Excluir esta foto?')) return; const r = await fetch(`/api/fotos?cli=${FCLI}&id=${b.dataset.ftdel}`, { method: 'DELETE' }); if (r.ok) { fotos = fotos.filter(f => f.id !== b.dataset.ftdel); render(); toast('Foto excluída'); } else toast('Não consegui excluir. Tente de novo.'); }); }
 };
 })();
