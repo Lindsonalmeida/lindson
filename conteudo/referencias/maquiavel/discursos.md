@@ -1,6 +1,6 @@
 # Discursos sobre a Primeira Década de Tito Lívio — base de conhecimento para o agente "Nicolau Maquiavel"
 
-**Situação:** completo — seções 1 a 8 (seção 1 pela conta Lindson; seções 2 a 5 pela conta Zuleide; seções 6 a 8 pela conta Lindson, 02/11/2026). Pendências em 8.5. **Ciclo 2 (conta Zuleide):** seção 5b (fichas dos 101 capítulos restantes) parcial — feito até I.31.
+**Situação:** completo — seções 1 a 8 (seção 1 pela conta Lindson; seções 2 a 5 pela conta Zuleide; seções 6 a 8 pela conta Lindson, 02/11/2026). Pendências em 8.5. **Ciclo 2 (conta Zuleide):** seção 5b (fichas dos 101 capítulos restantes) parcial — feito até I.51.
 
 > **Para que serve este arquivo:** é a base do agente "Maquiavel conselheiro de negócios" no que diz respeito aos *Discorsi*. Tudo o que está marcado como **texto** vem do original italiano; tudo o que está marcado como **interpretação** é leitura nossa ou de estudiosos, e o agente deve apresentar assim.
 >
@@ -520,7 +520,7 @@ Conferidos os 142 ensinamentos daquele arquivo (números 78 a 219) contra o orig
 
 ## 5b. Os demais 101 capítulos em detalhe
 
-**Situação da 5b:** parcial — feito até I.31 (fichas 5b.1 a 5b.15); falta de I.32 em diante.
+**Situação da 5b:** parcial — feito até I.51 (fichas 5b.1 a 5b.30); falta de I.52 em diante.
 
 **Para que serve:** com a seção 5 (41 fichas), os 142 capítulos dos *Discursos* ficam todos com ficha conferida. Aqui estão os 101 que faltavam, **na ordem do livro** (ciclo 2 da revisão, conta Zuleide, 02/11/2026).
 
@@ -616,6 +616,97 @@ Conferidos os 142 ensinamentos daquele arquivo (números 78 a 219) contra o orig
 - **Citação:** *"Perché se il loro errore fusse stato per malizia, e’ lo gastigavano umanamente; se gli era per ignoranza, non che lo punissono, e’ lo premiavano ed onoravano."* — "Porque, se o erro deles tivesse sido por malícia, castigavam-no humanamente; se era por ignorância, longe de puni-lo, premiavam-no e honravam-no."
 - **Exemplos:** Sérgio e Virgínio no cerco de Veios (multados); Varrão depois de Canas (o Senado foi recebê-lo e agradeceu por não ter desesperado da república); Papírio Cursor e Fábio.
 - **Aplicação [Interpretação]:** quem erra tentando acertar (campanha que não converteu, abordagem nova que falhou) não deve ser humilhado, senão ninguém mais arrisca. Punição só para má-fé, e mesmo assim proporcional. Separe "erro de execução" de "erro de caráter".
+
+### 5b.16 — I.32: não deixar o benefício para a hora do aperto
+- **Argumento (texto):** quando Porsena atacou para devolver o trono aos Tarquínios, o Senado tirou da plebe o imposto do sal e outros encargos, e deu certo. Mas foi exceção: Roma tinha crédito antigo com a plebe. Em regra, o benefício dado na necessidade é visto como arrancado pelo medo e não gera obrigação.
+- **Citação:** *"Perché l’universale giudicherà non avere quel bene da te, ma dagli avversari tuoi, e dovendo temere che, passata la necessità, tu ritolga loro quello che hai forzatamente loro dato, non arà teco obligo alcuno."* — "Porque o público julgará que não recebeu aquele bem de ti, mas dos teus adversários; e, temendo que, passada a necessidade, tu lhes tires de volta o que deste à força, não terá contigo obrigação alguma." E: *"non solamente non se ne assicura, ma accelera la sua rovina"* — "não só não se garante, como acelera sua ruína".
+- **Exemplos:** o Senado e a gabela do sal na guerra contra Porsena.
+- **Aplicação [Interpretação]:** aumento dado só quando o funcionário bom já tem proposta de fora, desconto dado só quando o cliente já pediu cancelamento: ninguém agradece. Cuide de equipe e clientes antes da crise.
+
+### 5b.17 — I.35: por que o Decenvirato, eleito livremente, foi nocivo
+- **Argumento (texto):** parece contradizer I.34 (a autoridade que faz mal é a tomada à força, não a dada por votos). Mas aos Dez se deu poder absoluto, longo e sem vigilância: aboliram cônsules e tribunos e o recurso ao povo. O ditador, ao contrário, tinha prazo curto e os outros magistrados continuavam no lugar.
+- **Citação:** *"Né giova, in questo caso, che la materia non sia corrotta; perché una autorità assoluta in brevissimo tempo corrompe la materia e si fa amici e partigiani."* — "Nem adianta, neste caso, que a matéria não esteja corrompida; porque uma autoridade absoluta em pouquíssimo tempo corrompe a matéria e faz para si amigos e partidários."
+- **Exemplos:** os Decênviros; contraste com o ditador romano, os reis de Esparta e os doges de Veneza (poder longo, mas com guardas).
+- **Aplicação [Interpretação]:** dar poder total a um gerente ou sócio "para resolver" pode ser útil, mas sempre com prazo, prestação de contas e alguém que continue fiscalizando. Poder sem vigia cria panelinha rápido, mesmo em equipe boa.
+
+### 5b.18 — I.36: quem teve cargos maiores não deve desprezar os menores
+- **Argumento (texto):** em Roma, quem fora cônsul servia depois no exército de outro sem achar desonra (Quinto Fábio, cônsul no ano anterior, morreu combatendo no exército do irmão). Em Veneza, quem teve cargo grande se envergonha de aceitar um menor, e a cidade permite: honroso para o indivíduo, inútil para o público.
+- **Citação:** *"La quale cosa, quando fusse onorevole per il privato, è al tutto inutile per il publico."* — "A qual coisa, mesmo que fosse honrosa para o particular, é de todo inútil para o público."
+- **Exemplos:** Marco Fábio e Gneo Mânlio contra Veios e os etruscos; Quinto Fábio; Veneza.
+- **Aplicação [Interpretação]:** o ex-gerente que aceita voltar a executar ou apoiar o novo líder vale ouro: dá experiência a quem começa e freia erros. Crie cultura em que ajudar abaixo do "seu nível" não seja vergonha.
+
+### 5b.19 — I.39: povos diferentes, mesmos acidentes
+- **Argumento (texto):** em todas as cidades e povos há os mesmos desejos e humores; por isso quem examina bem o passado prevê o futuro e aplica os remédios dos antigos (ou inventa novos pela semelhança). Florença criou e aboliu os Dez da Guerra por ódio ao nome, e voltou a criá-los quando viu que "a causa do mal era a febre, não o médico"; Roma fez o mesmo com os cônsules.
+- **Citação:** *"In modo che gli è facil cosa, a chi esamina con diligenza le cose passate, prevedere in ogni republica le future, e farvi quegli rimedi che dagli antichi sono stati usati"* — "De modo que é fácil, para quem examina com diligência as coisas passadas, prever em toda república as futuras e aplicar os remédios que os antigos usaram". E: *"la cagione del male era la febbre e non il medico"* — "a causa do mal era a febre, e não o médico".
+- **Exemplos:** os Dez da Guerra em Florença (guerra de Pisa); Terentilo e os tribunos com poder consular em Roma.
+- **Aplicação [Interpretação]:** antes de culpar a pessoa ou o setor (o "médico"), veja se o problema não é o momento (a "febre"): crise de mercado, sazonalidade. Trocar o médico não baixa a febre.
+
+### 5b.20 — I.40: o Decenvirato: como se salva ou se oprime uma república
+- **Argumento (texto):** narrativa longa: Ápio Cláudio se fingiu popular para ser reeleito decênviro, depois virou tirano, apoiou-se nos nobres e caiu no caso Virgínia. Dois erros do povo: dar reputação a um para que bata em quem ele odeia e abrir mão de seus protetores (os tribunos). Erros de Ápio: largar o povo que o sustentava pelos nobres, que não podiam ser seus amigos.
+- **Citação:** *"E quando uno popolo si conduce a fare questo errore, di dare riputazione a uno, perché batta quelli che egli ha in odio, e che quello uno sia savio, sempre interverrà ch’e’ diventerà tiranno di quella città."* — "E quando um povo chega a cometer este erro, de dar reputação a alguém para que bata naqueles que ele odeia, e esse alguém é esperto, sempre acontecerá que ele se tornará tirano daquela cidade." E: *"a volere con violenza tenere una cosa, bisogna che sia più potente chi sforza che chi è sforzato"* — "para manter uma coisa pela violência, é preciso que quem força seja mais poderoso que quem é forçado".
+- **Exemplos:** Ápio Cláudio, os dois Decenviratos, Virgínia e o pai Virgínio; o rei Ferrante de Nápoles e a imagem das pequenas aves de rapina que, de olho na presa, não veem a ave maior acima delas.
+- **Aplicação [Interpretação]:** cuidado ao dar poder a alguém só porque ele promete "acabar" com o setor ou o sócio de que você não gosta: ele pode virar o novo problema. E quem foi promovido pelo apoio da equipe não deve trocá-la pelos "de cima".
+
+### 5b.21 — I.41: não pular da humildade para a soberba de uma vez
+- **Argumento (texto):** um dos erros de Ápio foi mudar de natureza num instante: de amigo virou inimigo da plebe, de humano soberbo, de fácil difícil, sem desculpa nenhuma. Quem quer mudar deve fazê-lo aos poucos, ganhando apoios novos antes de perder os antigos.
+- **Citação:** *"Perché chi è paruto buono un tempo, e vuole a suo proposito diventar cattivo, lo debbe fare per i debiti mezzi; ed in modo condurvisi con le occasioni, che, innanzi che la diversa natura ti tolga de’ favori vecchi, la te ne abbia dati tanti de’ nuovi, che tu non venga a diminuire la tua autorità: altrimenti, trovandoti scoperto e sanza amici, rovini."* — "Porque quem pareceu bom por um tempo e quer, por seu interesse, tornar-se mau deve fazê-lo pelos devidos passos, e conduzir-se com as ocasiões de tal modo que, antes que a natureza diferente te tire os favores antigos, ela te tenha dado tantos novos que tua autoridade não diminua; do contrário, achando-te descoberto e sem amigos, te arruínas."
+- **Exemplos:** Ápio Cláudio.
+- **Aplicação [Interpretação]:** mudança brusca de política (preço, regra da equipe, estilo do dono) faz perder a base antes de ganhar outra. Mude por etapas e explique; garanta o novo público antes de abandonar o antigo.
+
+### 5b.22 — I.42: com que facilidade os homens se corrompem
+- **Argumento (texto):** os jovens de boa família que cercavam Ápio viraram amigos da tirania por "um pouco de utilidade", e Quinto Fábio, homem ótimo, se corrompeu por um pouco de ambição. Lição para quem faz leis: frear os apetites e tirar a esperança de errar impune.
+- **Citação:** *"Il che esaminato bene, farà tanto più pronti i latori di leggi delle republiche o de’ regni a frenare gli appetiti umani, e tôrre loro ogni speranza di potere impune errare."* — "O que, bem examinado, tornará os legisladores das repúblicas ou dos reinos tanto mais prontos a frear os apetites humanos e tirar-lhes toda esperança de poder errar impunemente."
+- **Exemplos:** a juventude de Ápio; Quinto Fábio, um dos segundos Dez.
+- **Aplicação [Interpretação]:** gente boa se corrompe por pequenas vantagens (comissão por fora, "agrado" de fornecedor). Feche as brechas e deixe claro que erro descoberto tem consequência.
+
+### 5b.23 — I.43: quem luta pela própria glória é bom e fiel soldado
+- **Argumento (texto):** sob os cônsules, os exércitos romanos venciam; sob os Dez, com a mesma virtù, perdiam, porque combatiam pela ambição de outro. Só soldados que lutam pelo que é seu têm a vontade de morrer por ti; por isso é preciso armar-se com os próprios súditos.
+- **Citação:** *"Avevano gli eserciti romani sotto i Dieci quella medesima virtù; ma perché in loro non era quella medesima disposizione, non facevono gli usitati loro effetti."* — "Os exércitos romanos tinham sob os Dez a mesma virtù; mas, porque neles não havia a mesma disposição, não produziam os efeitos de costume."
+- **Exemplos:** os exércitos romanos sob o Decenvirato e depois dele.
+- **Aplicação [Interpretação]:** a mesma equipe rende muito mais quando o resultado também é dela (participação, reconhecimento, nome no projeto). Equipe que trabalha só para a vaidade do chefe entrega o mínimo.
+
+### 5b.24 — I.44: multidão sem chefe é inútil; não ameace antes de ter o poder
+- **Argumento (texto):** a plebe armada no Monte Sacro, depois do caso Virgínia, não sabia responder ao Senado porque não tinha chefes; Virgínio fez eleger vinte tribunos militares. E quando a plebe pediu que os Dez lhe fossem entregues para queimá-los vivos, Valério e Horácio a aconselharam a pedir primeiro a autoridade e calar a vingança.
+- **Citação:** *"Perché e’ basta a domandare a uno l’arme, sanza dire: io ti voglio ammazzare con esse; potendo, poi che tu hai l’arme in mano, soddisfare allo appetito tuo."* — "Porque basta pedir a alguém as armas, sem dizer: quero te matar com elas; podendo, depois que tens as armas na mão, satisfazer teu apetite."
+- **Exemplos:** a plebe no Monte Sacro; Virgínio; Valério e Horácio.
+- **Aplicação [Interpretação]:** grupo de insatisfeitos (clientes, equipe) sem porta-voz não negocia; se você lidera, organize um representante. E numa negociação, não anuncie o que vai fazer com o poder que está pedindo: primeiro o contrato, depois o plano. [Freio: o capítulo fala de estratégia de negociação, não autoriza enganar quem confia em você; ver III.40 e III.42.]
+
+### 5b.25 — I.46: os homens sobem de uma ambição a outra
+- **Argumento (texto):** depois dos Dez, cada lado, para defender a liberdade, passou a oprimir o outro: primeiro se busca não ser ofendido, depois se ofende. Os cidadãos ganham poder por vias aparentemente honestas (emprestando dinheiro, defendendo os fracos contra os poderosos) e, se não forem vigiados, ninguém mais ousa contrariá-los.
+- **Citação:** *"Donde una republica intra gli ordini suoi debbe avere questo, di vegghiare che i suoi cittadini, sotto ombra di bene non possino fare male"* — "Por isso uma república deve ter entre suas ordens esta: vigiar para que seus cidadãos, sob aparência de bem, não possam fazer mal". E: *"E così il disiderio di difendere la libertà faceva che ciascuno tanto si prevaleva ch’egli oppressava l’altro."* — "E assim o desejo de defender a liberdade fazia que cada um se fortalecesse tanto que oprimia o outro."
+- **Exemplos:** plebe e nobreza depois do Decenvirato; a frase de Salústio que ele cita sobre César.
+- **Aplicação [Interpretação]:** o funcionário que pede autonomia "para se proteger" logo quer mandar nos outros; o sócio que "ajuda todo mundo" com favores pode estar comprando lealdade pessoal. Acompanhe quem acumula influência, mesmo por bons meios.
+
+### 5b.26 — I.47: errados no geral, certos no particular
+- **Argumento (texto):** a plebe romana queria plebeus no consulado; quando pôde votar em pessoas, elegeu nobres. Em Cápua, Pacúvio Calávio deixou a plebe escolher substitutos para os senadores que queria matar, e ela, vendo os nomes, desistiu. Em Florença depois de 1494, o povo culpava os grandes em abstrato e, posto no governo, fazia como eles. O povo erra nas ideias gerais, acerta nos casos concretos, sobretudo ao distribuir cargos.
+- **Citação:** *"perché solo in questo il popolo non s’inganna; e se s’inganna qualche volta, fia sì rado, che s’inganneranno più volte i pochi uomini che avessono a fare simili distribuzioni"* — "porque só nisto o povo não se engana; e, se se engana alguma vez, será tão raro que se enganarão mais vezes os poucos homens que tivessem de fazer tais distribuições".
+- **Exemplos:** tribunos com poder consular em Roma; Pacúvio Calávio em Cápua; Florença depois de 1494.
+- **Aplicação [Interpretação]:** pesquisa genérica ("o que você acha de preço?") engana; pergunta concreta ("você pagaria R$ X por este pacote?", "quem você indicaria para coordenar?") acerta. E para promoções, ouça a equipe: ela erra menos que o dono sozinho.
+
+### 5b.27 — I.48: o truque do candidato vil ou nobilíssimo
+- **Argumento (texto):** quando o Senado temia que plebeus fossem eleitos, fazia candidatarem-se os homens mais respeitados de Roma (a plebe tinha vergonha de recusá-los) ou subornava plebeus vilíssimos para concorrer junto com os bons plebeus (a plebe tinha vergonha de eleger plebeus).
+- **Citação:** *"Questo ultimo modo faceva che la plebe si vergognava a darlo; quel primo faceva che la si vergognava a torlo."* — "Este último modo fazia que a plebe se envergonhasse de dá-lo; aquele primeiro, que se envergonhasse de tirá-lo."
+- **Exemplos:** o Senado e os tribunos com poder consular.
+- **Aplicação [Interpretação]:** é o "efeito de comparação" usado em vendas (pacote âncora caro ao lado do que se quer vender). Use com honestidade: mostrar opções reais, não inventar alternativas ruins para empurrar uma escolha. [Freio: o capítulo descreve uma manobra do Senado; Maquiavel não a elogia nem a condena aqui.]
+
+### 5b.28 — I.49: cidades de começo servil quase não conseguem leis que as mantenham
+- **Argumento (texto):** até Roma, nascida livre e organizada por tantos prudentes, precisava criar leis novas a todo momento (os censores; Mamerco reduziu o mandato deles a 18 meses e foi punido por isso). Cidades nascidas servas, como Florença, quase nunca acertam: entregaram o julgamento dos poderosos a poucos, e "os poucos foram sempre ministros dos poucos". Veneza resolveu com a Quarantia e o Conselho dos Pregadi.
+- **Citação:** *"che i pochi furono sempre ministri de’ pochi, e de’ più potenti"* — "que os poucos foram sempre ministros dos poucos e dos mais poderosos".
+- **Exemplos:** os censores e o ditador Mamerco Emílio; Florença (o juiz forasteiro mandado pelo príncipe; depois os Oito de Guarda); Veneza (Conselho dos Dez, Quarantia, Pregadi).
+- **Aplicação [Interpretação]:** empresa que nasceu "dependente" (de um único cliente, de um franqueador, do pai) terá mais dificuldade de criar regras próprias. E quem fiscaliza os poderosos não pode ser um grupinho ligado a eles.
+
+### 5b.29 — I.50: ninguém deve poder parar a cidade
+- **Argumento (texto):** em Roma, os cônsules Cincinato e Gneo Júlio Mento, brigados, paralisaram a república, e o Senado precisou de um ditador. Em Veneza, o Conselho Grande, irritado, deixou de eleger os substitutos dos magistrados e a cidade ficou sem juízes; os prudentes fizeram uma lei: nenhum cargo fica vago antes de eleito o sucessor.
+- **Citação:** *"E così si tolse la commodità a quel Consiglio di potere, con pericolo della republica, fermare le azioni publiche."* — "E assim se tirou daquele Conselho a possibilidade de, com perigo da república, parar as ações públicas."
+- **Exemplos:** Tito Quíncio Cincinato e Gneo Júlio Mento; o Conselho Grande de Veneza.
+- **⚠ Nota:** a tabela da seção 2 fala em "Conselho dos Pregadi"; no texto de I.50 é o **Conselho Grande** (*"Nella Republica viniziana il Consiglio grande distribuisce gli onori e gli utili"*). Os Pregadi aparecem em I.49.
+- **Aplicação [Interpretação]:** nenhuma pessoa, setor ou aprovação pode travar a empresa: tenha substituto para cada função crítica, regra de "quem decide se o responsável faltar" e prazos de aprovação que, vencidos, liberam o trabalho.
+
+### 5b.30 — I.51: fazer parecer generosidade o que a necessidade obriga
+- **Argumento (texto):** os prudentes sempre "se fazem agradecer" pelo que fazem, mesmo quando obrigados. O Senado, que precisava manter o exército mais tempo em campanha, instituiu o soldo pago pelo público como se fosse um presente; a plebe festejou, e os tribunos não conseguiram desfazer a impressão, sobretudo porque os impostos mais pesados caíram sobre os nobres.
+- **Citação:** *"Gli uomini prudenti si fanno grado delle cose sempre e in ogni loro azione, ancora che la necessità gli constringesse a farle in ogni modo."* — "Os homens prudentes sempre, e em toda ação, se fazem agradecer pelas coisas, ainda que a necessidade os obrigasse a fazê-las de qualquer modo."
+- **Exemplos:** a criação do soldo dos soldados romanos.
+- **Aplicação [Interpretação]:** se vai ter de mudar algo de qualquer jeito (reajuste de benefício, nova ferramenta), anuncie antes de ser cobrado e mostre o lado bom para a equipe; e comece pagando a sua parte (o dono "paga primeiro", como os nobres). [Freio: não é mentir sobre o motivo; é agir antes de ser forçado — ligar com I.32.]
 
 <!-- fim da 5b -->
 
