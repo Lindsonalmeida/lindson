@@ -72,12 +72,17 @@ if (PL && (PL.datas || []).length) {
 }
 const C = D.calendario;
 if (!C) V.calendario = () => `<div class="card"><h3>Calendário</h3><p class="sub" style="margin:0">${esc(D.semCalendario || 'O calendário do mês aparece aqui quando estiver aprovado.')}</p></div>`;
+// vários meses (D.calendarios): um mês por vez, com botões para trocar (conta Lindson, 03/11/2026)
+let mesCal = 0;
 if (C) V.calendario = () => {
+  const LC = D.calendarios || [C], C = LC[Math.min(mesCal, LC.length - 1)];
+  setTimeout(() => document.querySelectorAll('[data-mescal]').forEach(b => b.onclick = () => { mesCal = +b.dataset.mescal; window.__render && window.__render(); }), 0);
+  const abas = LC.length > 1 ? `<div class="subabas" style="margin-bottom:14px">${LC.map((x, i) => `<button data-mescal="${i}" class="${i === mesCal ? 'on' : ''}">${esc(x.mes)}</button>`).join('')}</div>` : '';
   const ini = (new Date(C.ano, C.m - 1, 1).getDay() + 6) % 7, nd = new Date(C.ano, C.m, 0).getDate();
   let h = ['Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb', 'Dom'].map(x => `<div class="cab">${x}</div>`).join('') + '<div></div>'.repeat(ini);
-  for (let d = 1; d <= nd; d++) h += `<div class="dia"><b>${d}</b>${(C.eventos[d] || []).map(([f, l, t]) => `<div class="ev" title="${esc(l + ' · ' + t)}">${esc(f)} · ${esc(l)}</div>`).join('')}</div>`;
+  for (let d = 1; d <= nd; d++) h += `<div class="dia"><b>${d}</b>${(C.eventos[d] || []).map(([f, l, t]) => `<div class="ev${/aprovado|apresentação/i.test(f) ? ' v' : ''}" title="${esc(l + ' · ' + t)}">${esc(f)} · ${esc(l)}</div>`).join('')}</div>`;
   const lista = Object.keys(C.eventos).map(Number).sort((a, b) => a - b).map(d => C.eventos[d].map(([f, l, t]) => `<tr><td>${d}</td><td>${esc(f)}</td><td>${esc(l)}</td><td>${esc(t)}</td></tr>`).join('')).join('');
-  return `<div class="card"><h3>${esc(C.mes)}</h3><p class="sub">Tema do mês: "${esc(C.tema)}". ${esc(C.fixos || '')}</p><div class="cal">${h}</div></div>
+  return abas + `<div class="card"><h3>${esc(C.mes)}</h3><p class="sub">Tema do mês: "${esc(C.tema)}". ${esc(C.fixos || '')}</p><div class="cal">${h}</div></div>
    <div class="card"><h3>Pautas do mês</h3><div class="tab"><table><thead><tr><th>Dia</th><th>Formato</th><th>Linha</th><th>Tema</th></tr></thead><tbody>${lista}</tbody></table></div></div>`;
 };
 document.querySelectorAll('.exemplo').forEach(e => e.textContent = 'Atualizado em ' + D.atualizado);

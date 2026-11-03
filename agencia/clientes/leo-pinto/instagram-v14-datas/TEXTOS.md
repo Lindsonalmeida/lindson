@@ -175,11 +175,11 @@ O QUE O SEU BAIRRO PRECISA EM 2027? A CAIXINHA ESTÁ ABERTA
 Porque quem sabe o que falta no bairro é quem mora nele. Você sabe onde a rua alaga, onde falta luz, onde a estrada do povoado fica ruim no inverno, onde o posto precisa de atenção. Eu quero começar 2027 com a lista de vocês na mão.
 
 💬 Como participar
-Na arte tem quatro opções. Comenta a letra do que o seu bairro mais precisa:
-A · Saúde perto de casa
-B · Ruas e estradas
-C · Educação e juventude
-D · Emprego e renda
+Na arte tem quatro opções. Comenta o número do que o seu bairro mais precisa:
+1 · Saúde perto de casa
+2 · Ruas e estradas
+3 · Educação e juventude
+4 · Emprego e renda
 Escreve também o nome do seu bairro ou povoado. Se for outra coisa, pode escrever com as suas palavras.
 
 💡 Exemplo
@@ -191,7 +191,7 @@ Eu leio, respondo e levo as demandas pra Câmara. E aqui no perfil eu vou contan
 ✅ Juntos em 2027
 Obrigado por cada mensagem, cada abraço na rua e cada conversa neste ano. Que o ano novo chegue com saúde e paz pra todos nós. Juntos podemos mais!
 
-👇 Comenta a letra e o nome do seu bairro: o que ele precisa em 2027?
+👇 Comenta o número e o nome do seu bairro: o que ele precisa em 2027?
 
 #vozdopovo #participacaopopular #demandadobairro #tôcomléopinto
 ```

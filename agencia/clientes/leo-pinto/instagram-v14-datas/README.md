@@ -1,6 +1,6 @@
 # Feed v14 · Datas comemorativas do Leo Pinto (15/11 a 01/01) · conta Lindson, 02/11/2026
 
-**Aprovados pelo Lindson (03/11):** 15/11, 20/11, 11/12, 25/12 e 31/12. **Aguardando:** 01/01.
+**Todos aprovados pelo Lindson (03/11)** e publicados nas Aprovações do painel do Leo (com legenda e "Arte aprovada pela agência: Lindson Almeida, 03/11/2026"). Calendário editorial nov/26 a jan/27 no painel (dados em `CentralLindsonALmeida/dados/leo.json`, campo `calendarios`).
 
 **Ajustes de 03/11 (v9):** 25/12 sem cápsula, logo grande com letras marinho cheias e contorno branco, foto de Natal quase transparente no fundo; 01/01 com o Leo novo (amarelo) na frente e maior e o velho atrás e menor, cada um olhando para um lado; versão marinho da logo corrigida (`assets/logo-marinho-forte.png`: o centro do sol continua claro, sem brilho difuso) em todas as artes.
 

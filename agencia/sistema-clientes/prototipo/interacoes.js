@@ -25,7 +25,7 @@ async function muda(f, fn) {
   return false;
 }
 // aplica as aprovações salvas nos posts do painel (pelo título)
-function aplicaAprov() { const m = {}; (S.aprov.dados.itens || []).forEach(x => m[x.titulo] = x); APROV.forEach(p => { if (m[p.titulo]) { p.st = m[p.titulo].st; p.nota = m[p.titulo].nota; } }); }
+function aplicaAprov() { const m = {}; (S.aprov.dados.itens || []).forEach(x => m[x.titulo] = x); APROV.forEach(p => { if (m[p.titulo]) { p.st = m[p.titulo].st; p.nota = m[p.titulo].nota; p.por = m[p.titulo].por; p.em = m[p.titulo].em; } }); }
 function aplicaPed() { PEDIDOS.length = 0; (S.ped.dados.itens || []).slice().sort((a, b) => (b.em || '').localeCompare(a.em || '')).forEach(p => PEDIDOS.push([p.texto, p.st, new Date(p.em).toLocaleDateString('pt-BR'), p.id, p.resposta || ''])); }
 Promise.all([carrega('aprov'), carrega('ped')]).then(() => { aplicaAprov(); aplicaPed(); render(); });
 const abreWa = txt => window.open(`https://wa.me/${WA}?text=${encodeURIComponent(txt)}`, '_blank', 'noopener');
@@ -43,7 +43,7 @@ window.__pos = view => {
   // aprovações (sobrepõe o botão do modelo, que não salvava)
   m.querySelectorAll('[data-ap]').forEach(b => b.onclick = async () => {
     const p = APROV[+b.dataset.ap]; if (!p) return;
-    if (await muda('aprov', d => { d.itens = (d.itens || []).filter(x => x.titulo !== p.titulo); d.itens.push({ titulo: p.titulo, st: 'aprovado', em: agora(), por: eu }); })) { p.st = 'aprovado'; toast('Aprovado! A equipe já vê no painel.'); render(); }
+    if (await muda('aprov', d => { d.itens = (d.itens || []).filter(x => x.titulo !== p.titulo); d.itens.push({ titulo: p.titulo, st: 'aprovado', em: agora(), por: eu }); })) { p.st = 'aprovado'; p.por = eu; p.em = agora(); toast('Aprovado! A equipe já vê no painel.'); render(); }
   });
   m.querySelectorAll('[data-aj]').forEach(b => b.onclick = async () => {
     const p = APROV[+b.dataset.aj]; if (!p) return;
