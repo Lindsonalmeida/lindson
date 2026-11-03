@@ -11,6 +11,7 @@ Como usar:
 ## Em andamento
 | Desde | Conta | O quê | Como retomar / onde está |
 |---|---|---|---|
+| 03/11 | Pedro | Engenharia reversa do HeyGen e da ElevenLabs (pesquisa pública + versão nossa com código aberto) | `conteudo/referencias/ia-video-voz/` |
 | 02/11 18h40 | Zuleide (assume da Lindson, que anunciou às 15h40 mas não salvou revisão) | Acervo Maquiavel: pesquisa concluída (Zuleide, Pedro, Lindson). Agora fase 2: revisão geral (cobertura pela lista mestra, contradições entre arquivos, citações italianas conferidas por programa) em `REVISAO.md`; depois fase 3: agente v2 + rodar os 12 testes | `conteudo/referencias/maquiavel/REVISAO.md` (linha "Situação" no topo diz até onde foi), `.claude/agents/maquiavel.md`, `TESTES.md` |
 | 02/11 | Pedro | Agente Maquiavel, **fase 3** (em paralelo à pesquisa da Zuleide): `.claude/agents/maquiavel.md` v1 montado do acervo que já existe + `conteudo/referencias/maquiavel/TESTES.md`. A pesquisa das obras continua com a Zuleide; o agente lê os arquivos do acervo, então melhora sozinho quando eles crescem | Ver `conteudo/referencias/maquiavel/CHECKLIST.md` (fase 3). Para retomar: abrir o agente, rodar os testes do TESTES.md e ajustar |
 | 02/11 | Pedro | Raposa longos 13-16: **pausado a pedido do Lindson** às 01:45 UTC (longo-13 em ~25.300 de 31.900 quadros, quadros salvos) | sessão `session_01XiFncfJz7NwDm3ttPeBcGd`; retomar só quando o Lindson pedir: `RETOMAR=1 setsid nohup bash conteudo/youtube/filas/lote_rl.sh &` |
