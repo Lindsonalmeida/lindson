@@ -1,6 +1,6 @@
 # Discursos sobre a Primeira Década de Tito Lívio — base de conhecimento para o agente "Nicolau Maquiavel"
 
-**Situação:** completo — seções 1 a 8 (seção 1 pela conta Lindson; seções 2 a 5 pela conta Zuleide; seções 6 a 8 pela conta Lindson, 02/11/2026). Pendências em 8.5. **Ciclo 2 (conta Zuleide):** seção 5b (fichas dos 101 capítulos restantes) parcial — feito até III.18.
+**Situação:** completo — seções 1 a 8 (seção 1 pela conta Lindson; seções 2 a 5 pela conta Zuleide; seções 6 a 8 pela conta Lindson, 02/11/2026). Pendências em 8.5. **Ciclo 2 (conta Zuleide):** seção 5b (fichas dos 101 capítulos restantes) parcial — feito até III.35.
 
 > **Para que serve este arquivo:** é a base do agente "Maquiavel conselheiro de negócios" no que diz respeito aos *Discorsi*. Tudo o que está marcado como **texto** vem do original italiano; tudo o que está marcado como **interpretação** é leitura nossa ou de estudiosos, e o agente deve apresentar assim.
 >
@@ -520,7 +520,7 @@ Conferidos os 142 ensinamentos daquele arquivo (números 78 a 219) contra o orig
 
 ## 5b. Os demais 101 capítulos em detalhe
 
-**Situação da 5b:** parcial — feito até III.18 (fichas 5b.1 a 5b.75); falta de III.19 em diante.
+**Situação da 5b:** parcial — feito até III.35 (fichas 5b.1 a 5b.90); falta de III.36 em diante.
 
 **Para que serve:** com a seção 5 (41 fichas), os 142 capítulos dos *Discursos* ficam todos com ficha conferida. Aqui estão os 101 que faltavam, **na ordem do livro** (ciclo 2 da revisão, conta Zuleide, 02/11/2026).
 
@@ -980,6 +980,98 @@ Conferidos os 142 ensinamentos daquele arquivo (números 78 a 219) contra o orig
 - **Citação:** *"Perché molte volte è accaduto che, sendo durata una zuffa infino a notte, chi ha vinto crede avere perduto, e chi ha perduto crede avere vinto."* — "Porque muitas vezes aconteceu que, durando um combate até a noite, quem venceu crê ter perdido, e quem perdeu crê ter vencido."
 - **Exemplos:** Bruto e Cássio em Filipos (Cássio se matou achando tudo perdido); o centurião Tempânio contra os équos (os dois exércitos fugiram); Francisco I e os suíços em Santa Cecília (Marignano, 1515); Florença em 1498 em Marradi e Castiglione, onde uma velha contou que os venezianos estavam partindo.
 - **Aplicação [Interpretação]:** acompanhe o concorrente e o mercado com dados (preço, anúncios, avaliações) e leia os seus próprios números com frieza: às vezes a campanha que "fracassou" deu certo e vice-versa. Quem confere primeiro decide melhor.
+
+### 5b.76 — III.19: para reger a multidão, brandura ou pena?
+- **Argumento (texto):** Ápio Cláudio, duro, foi desobedecido pelos soldados; Quíncio, humano, foi obedecido. Tácito diz o contrário ("para reger a multidão vale mais a pena que o obséquio"). Maquiavel concilia: com quem é seu igual (cidadãos, companheiros) não se pode usar só a pena; com súditos, para que não fiquem insolentes, deve-se pender para a pena, mas sem ódio, e o ódio se evita deixando em paz os bens dos súditos.
+- **Citação:** *"Ma chi comanda a’ sudditi, de’ quali ragiona Cornelio, acciocché non doventino insolenti, e che per troppa tua facilità non ti calpestino, debbe volgersi più tosto alla pena che all’ossequio."* — "Mas quem manda em súditos, de quem fala Cornélio [Tácito], para que não se tornem insolentes e não te pisoteiem por tua facilidade excessiva, deve voltar-se mais à pena que ao obséquio." E: *"Il modo del fuggirlo è lasciare stare la roba de’ sudditi"* — "O modo de evitá-lo [o ódio] é deixar em paz os bens dos súditos".
+- **Exemplos:** Quíncio e Ápio Cláudio; a sentença de Tácito.
+- **Aplicação [Interpretação]:** com sócios e pares, convença; com a equipe que você comanda, mantenha regras e consequências claras, para que a gentileza não vire bagunça. Nunca mexa em salário, comissão ou direitos de forma injusta: é isso que gera ódio.
+
+### 5b.77 — III.20: um exemplo de humanidade valeu mais que a força romana
+- **Argumento (texto):** Camilo sitiava Faléria; um mestre-escola lhe entregou os filhos dos nobres. Camilo mandou despi-lo, amarrá-lo e entregá-lo aos meninos para que o levassem de volta a varadas. A cidade, comovida, se rendeu. Às vezes um ato humano e generoso conquista mais que as armas.
+- **Citação:** *"ma, fatto spogliare quel maestro, e legatogli le mani di dietro, e dato a ciascuno di quegli fanciulli una verga in mano, lo fece da quegli con di molte battiture accompagnare nella terra"* — "mas, mandando despir aquele mestre, amarrar-lhe as mãos nas costas e dar a cada um dos meninos uma vara, fez que eles o acompanhassem de volta à cidade com muitas pancadas".
+- **Exemplos:** Camilo e os faliscos; Fabrício revela a Pirro a oferta de envenená-lo e Pirro deixa a Itália; Cipião devolve intacta a jovem esposa em Cartagena; Ciro, segundo Xenofonte.
+- **Aplicação [Interpretação]:** recusar uma vantagem desonesta (o funcionário do concorrente que oferece a lista de clientes, por exemplo) e avisar o concorrente pode valer mais reputação que qualquer campanha. [Ligação: o capítulo seguinte, III.21, mostra que Aníbal venceu pelo caminho oposto; ficha 5.37.]
+
+### 5b.78 — III.22: a dureza de Mânlio e a afabilidade de Valério deram a mesma glória
+- **Argumento (texto):** Mânlio Torquato comandava com toda severidade; Valério Corvino, com humanidade e familiaridade; ambos venceram. Quem manda coisas duras precisa ser duro para fazê-las cumprir; quem não tem essa força de ânimo deve evitar ordens extraordinárias e pode usar humanidade nas ordinárias. Numa república, o modo de Mânlio é mais útil (serve ao bem comum, não cria partidários); o de Valério é útil num príncipe e pernicioso num cidadão, porque cria seguidores pessoais e prepara a tirania.
+- **Citação:** *"Ed è una regola verissima, che, quando si comanda cose aspre, conviene con asprezza farle osservare"* — "E é regra verdadeiríssima que, quando se mandam coisas ásperas, convém fazê-las cumprir com aspereza". E: *"Conchiudo pertanto, il procedere di Valerio essere utile in uno principe e pernizioso in uno cittadino"* — "Concluo portanto que o proceder de Valério é útil num príncipe e pernicioso num cidadão".
+- **Exemplos:** Mânlio Torquato (que mandou executar o filho por combater contra a ordem) e Valério Corvino; Ciro em Xenofonte.
+- **Aplicação [Interpretação]:** o dono pode ser afável com a equipe (ela é "dele"). Já o gerente que conquista a equipe com favores pessoais cria um grupo leal a ele, não à empresa, e pode sair levando todos. Prefira gerentes justos e exigentes, leais às regras. Ligação com 5.37 (III.21) e *Príncipe* XVII.
+
+### 5b.79 — III.23: por que Camilo foi expulso de Roma
+- **Argumento (texto):** depois de Valério e Mânlio, o caso de Camilo, que procedia como Mânlio e acabou odiado. Três causas, segundo Lívio: aplicou ao erário o dinheiro dos bens de Veios em vez de dividi-lo; triunfou num carro puxado por quatro cavalos brancos, como se quisesse igualar-se ao Sol; e prometeu a Apolo a décima parte da presa, que teve de ser tirada dos soldados. Tirar bens e parecer soberbo são o que mais gera ódio.
+- **Citação:** *"perché tirarsi odio addosso senza suo profitto, è al tutto partito temerario e poco prudente"* — "porque atrair ódio sobre si sem proveito próprio é partido de todo temerário e pouco prudente".
+- **Exemplos:** Camilo, Veios, o triunfo com cavalos brancos, o voto a Apolo.
+- **Aplicação [Interpretação]:** mesmo o líder que acerta perde a equipe se mexe no bolso dela (cortar bônus prometido, "doar" o que já era da equipe) e se exibe (carro, viagem, ostentação nas redes). Evite ódio que não traz ganho nenhum.
+
+### 5b.80 — III.24: a prorrogação dos comandos fez Roma serva
+- **Argumento (texto):** duas coisas arruinaram a república romana: as brigas da lei agrária (I.37) e a prorrogação dos comandos. Começou com Públio Filão, primeiro procônsul, para terminar o cerco de Palépolis. O comando longo teve dois efeitos: menos homens se exercitaram no comando, e o exército se ligou ao general e esqueceu o Senado. Daí Sila, Mário e César.
+- **Citação:** *"perché quello esercito col tempo dimenticava il Senato e riconosceva quello capo. Per questo Silla e Mario poterono trovare soldati che contro al bene publico gli seguitassono: per questo, Cesare potette occupare la patria."* — "porque aquele exército, com o tempo, esquecia o Senado e reconhecia aquele chefe. Por isso Sila e Mário puderam achar soldados que os seguissem contra o bem público; por isso César pôde ocupar a pátria."
+- **Exemplos:** Públio Filão em Palépolis; Mário, Sila, César.
+- **Aplicação [Interpretação]:** o mesmo gestor à frente da mesma conta ou da mesma equipe por anos faz o cliente e a equipe serem "dele", não da empresa. Faça rodízio, divida relacionamento e prepare outros líderes.
+
+### 5b.81 — III.25: a pobreza de Cincinato
+- **Argumento (texto):** a coisa mais útil numa república é manter os cidadãos pobres, e em Roma isso durou quatrocentos anos porque a pobreza não impedia ninguém de chegar a qualquer honra. Cincinato, chamado do arado para ser ditador, salvou o exército de Minúcio, não lhe deu parte da presa, rebaixou-o a legado e voltou à sua pequena terra.
+- **Citação:** *"- Starai in questo grado tanto, che tu impari a sapere essere Consolo -."* — "Ficarás neste posto até aprenderes a saber ser cônsul." E: *"come per la povertà non ti era impedita la via a qualunque grado ed a qualunque onore, e come e’ si andava a trovare la virtù in qualunque casa l’abitasse"* — "como a pobreza não te impedia o caminho a qualquer posto e honra, e como se ia buscar a virtù em qualquer casa onde morasse".
+- **Exemplos:** Lúcio Quíncio Cincinato e Minúcio; Paulo Emílio, que enriqueceu Roma e ficou pobre e deu ao genro uma taça de prata, a primeira prata de sua casa.
+- **Aplicação [Interpretação]:** não é pregar pobreza: é não deixar o dinheiro comprar posição dentro da empresa, e buscar talento em qualquer origem. Líder que vive com simplicidade e devolve o poder depois da crise ganha autoridade moral.
+
+### 5b.82 — III.26: como um Estado se arruína por causa de mulheres
+- **Argumento (texto):** em Ardea, a disputa entre um plebeu e um nobre pela mão de uma moça rica virou guerra civil, e as partes chamaram de fora os volscos e os romanos, "princípio de servidão próxima". As ofensas a mulheres derrubaram os Tarquínios (Lucrécia) e os Dez (Virgínia). O governante deve prever essas desordens e remediá-las a tempo.
+- **Citação:** *"e, volendo riunirsi, ebbono a mandare per soccorsi esterni: il che è uno grande principio d’una propinqua servitù"* — "e, querendo reunir-se, tiveram de mandar buscar socorro de fora: o que é um grande princípio de servidão próxima".
+- **Exemplos:** Ardea; Lucrécia e os Tarquínios; Virgínia e os Decênviros; Aristóteles sobre as tiranias derrubadas por ofensas a mulheres.
+- **⚠ Nota de leitura:** o título é da época e reflete a mentalidade do século XVI; o conteúdo útil é sobre **ofensas pessoais e brigas de família** que viram crise política. O agente não reproduz o título como juízo sobre mulheres.
+- **Aplicação [Interpretação]:** assédio, ofensa pessoal ou briga familiar dentro da empresa familiar destroem negócios. Trate cedo, com regra e firmeza; se deixar crescer, vai precisar de advogado ou mediador de fora, e aí já perdeu o controle.
+
+### 5b.83 — III.27: como unir uma cidade dividida; "dividir para reinar" é falso
+- **Argumento (texto):** para pacificar uma cidade dividida há três modos: matar os chefes dos tumultos (como os cônsules fizeram em Ardea), expulsá-los ou forçá-los a fazer as pazes. O último é o mais danoso, incerto e inútil. É falsa a opinião dos "sábios" florentinos de que se devia segurar Pistoia com as facções e Pisa com fortalezas: dividir os súditos enfraquece quem governa e, na adversidade, perde as cidades.
+- **Citação:** *"Di questi tre modi, questo ultimo è più dannoso, meno certo e più inutile."* — "Destes três modos, este último é mais danoso, menos certo e mais inútil." E: *"Ma tutti questi modi e queste opinioni diverse dalla verità, nascono dalla debolezza di chi è signore"* — "Mas todos esses modos e opiniões diferentes da verdade nascem da fraqueza de quem é senhor".
+- **Exemplos:** os cônsules romanos em Ardea; Pistoia (Panciatichi e Cancellieri) e a frase "enquanto os florentinos tentavam reunir Pistoia, dividiram a si mesmos"; Arezzo em 1502 e o enviado francês Lant, que censurou os que se diziam "do partido de Marzocco".
+- **⚠ Nota:** a tabela da seção 4 cita "Veneza e as facções" neste capítulo; Veneza não aparece em III.27. O exemplo veneziano (guelfos e gibelinos nas cidades súditas) está no *Príncipe* XX. A recusa do "dividir para reinar" aparece também na *Arte da Guerra* (ver `arte-da-guerra.md`).
+- **Aplicação [Interpretação]:** dono que alimenta rivalidade entre setores ou funcionários para "controlar melhor" enfraquece a empresa. Com conflito sério entre duas pessoas, a "paz forçada" no mesmo time raramente dura: separe ou desligue quem lidera a briga. [Freio: o "matar" do texto vira, no negócio, afastar ou desligar; nunca violência.]
+
+### 5b.84 — III.28: sob uma obra pia pode esconder-se um princípio de tirania
+- **Argumento (texto):** na fome, o rico Espúrio Mélio distribuiu trigo à plebe com seu dinheiro e ganhou tanto favor que o Senado criou um ditador e o mandou matar. A república deve vigiar as obras dos cidadãos: premiar quem serve ao público, mas impedir que alguém cresça por vias privadas, com acusações e, se preciso, com o ditador.
+- **Citação:** *"Ed una che di queste cose si lasci impunita, è atta a rovinare una republica; perché difficilmente con quello esemplo si riduce dipoi in la vera via."* — "E uma só dessas coisas que se deixe impune é capaz de arruinar uma república; porque dificilmente, com aquele exemplo, se volta depois ao caminho certo."
+- **Exemplos:** Espúrio Mélio e o ditador criado para puni-lo (Lívio IV.13–14 o identifica como Cincinato, com Servílio Aala como mestre da cavalaria; Maquiavel não dá os nomes aqui).
+- **Aplicação [Interpretação]:** o funcionário que faz favores pessoais com recursos dele (empresta dinheiro, dá presentes a colegas e clientes) pode estar construindo poder próprio. Generosidade deve passar pela empresa e pelas regras.
+
+### 5b.85 — III.29: os pecados dos povos nascem dos príncipes
+- **Argumento (texto):** o governante não deve se queixar dos erros dos governados: eles nascem da negligência dele ou do mau exemplo. A Romanha, antes de Alexandre VI eliminar seus senhores, era exemplo de toda vida criminosa, porque os senhores eram assim.
+- **Citação:** *"Non si dolghino i principi di alcuno peccato che facciono i popoli ch’egli abbiano in governo; perché tali peccati conviene che naschino o per la sua negligenza, o per essere lui macchiato di simili errori."* — "Não se queixem os príncipes de nenhum pecado que cometam os povos que eles governam; porque tais pecados nascem necessariamente ou de sua negligência ou de estar ele manchado de erros semelhantes." Lourenço de' Medici: *"E quel che fa ’l signor, fanno poi molti; / Che nel signor son tutti gli occhi volti"* — "E o que faz o senhor, muitos fazem depois, porque no senhor todos os olhos estão voltados."
+- **Exemplos:** a Romanha antes de César Borgia (sob Alexandre VI); Timasiteu de Lípari, que devolveu aos legados romanos o presente para Apolo (*"multitudinem religione implevit, quae semper regenti est similis"*).
+- **Aplicação [Interpretação]:** equipe que atrasa, fala mal de cliente ou corta caminho costuma copiar o dono. Antes de cobrar, olhe o próprio exemplo e se você fiscaliza.
+
+### 5b.86 — III.30: para fazer o bem com autoridade, primeiro apagar a inveja; e como defender uma cidade
+- **Argumento (texto):** a inveja impede os bons de ter a autoridade necessária. Apaga-se de dois modos: por um grande perigo, em que todos aceitam o mais capaz (Camilo, a quem os colegas cederam o comando), ou pela morte dos invejosos (Moisés matou infinitos homens que se opunham por inveja). Savonarola sabia disso, mas não tinha autoridade para agir; Soderini achava que venceria a inveja com tempo, bondade e benefícios, e caiu. Segunda parte: para defender uma cidade atacada, não armar o povo em tumulto, mas ter listados os que se armam, a quem obedecem e aonde vão.
+- **Citação:** *"e non sapeva che il tempo non si può aspettare, la bontà non basta, la fortuna varia, e la malignità non truova dono che la plachi"* — "e não sabia que o tempo não se pode esperar, a bondade não basta, a fortuna muda, e a malignidade não encontra presente que a aplaque".
+- **Exemplos:** Camilo e os tribunos com poder consular; Moisés; Savonarola; Piero Soderini.
+- **Aplicação [Interpretação]:** para liderar uma mudança, resolva antes a oposição por inveja: aproveite uma crise em que sua competência fique evidente, ou afaste quem sabota. Esperar que o tempo e a gentileza convençam os invejosos raramente funciona. E em crise, cada um precisa saber antes qual é seu papel (plano de contingência escrito). [Freio: no negócio, "a morte dos invejosos" vira afastamento ou desligamento.]
+
+### 5b.87 — III.32: como alguns perturbaram uma paz
+- **Argumento (texto):** quem não quer que um povo faça a paz o leva a cometer um crime grave contra o inimigo, para que não espere perdão. Os mercenários revoltados contra Cartago, guiados por Mato e Espêndio, torturaram e mataram os prisioneiros cartagineses e decretaram que todos os capturados morreriam assim; com isso ficaram obrigados a lutar até o fim.
+- **Citação:** *"E veramente, quando alcuno vuole o che uno popolo o uno principe lievi al tutto l’animo da uno accordo, non ci è altro rimedio più vero né più stabile, che farli usare qualche grave sceleratezza contro a colui con il quale tu non vuoi che l’accordo si faccia"* — "E verdadeiramente, quando alguém quer que um povo ou um príncipe tire de todo o ânimo de um acordo, não há remédio mais verdadeiro nem mais estável que fazê-lo cometer alguma grave maldade contra aquele com quem não queres que o acordo se faça".
+- **Exemplos:** Circeios e Velitras, colônias rebeladas; a guerra dos mercenários contra Cartago (Mato e Espêndio).
+- **Aplicação [Interpretação]:** reconheça a manobra para se defender dela: quem quer impedir um acordo (entre sócios, entre você e um cliente) tenta provocar uma ofensa irreparável. Não caia na provocação e não deixe sua equipe ser levada a "queimar a ponte". [Freio: descrição de uma tática, não recomendação.]
+
+### 5b.88 — III.33: para vencer, o exército deve confiar em si e no capitão
+- **Argumento (texto):** para vencer é preciso que o exército creia que vai vencer. A confiança nasce de estar bem armado e ordenado, de os soldados se conhecerem (nascidos e criados juntos) e de estimarem o capitão: ordenado, solícito, corajoso, que pune os erros e não cansa os soldados à toa. Os romanos usavam a religião (auspícios) para isso; Fábio disse aos soldados que tinha razões secretas para a vitória.
+- **Citação:** *"A volere che uno esercito vinca la giornata, è necessario farlo confidente, in modo che creda dovere in ogni modo vincere."* — "Para que um exército vença a batalha, é necessário torná-lo confiante, de modo que creia que vai vencer de todo modo."
+- **Exemplos:** os auspícios romanos e as palavras de Ápio Cláudio sobre os tribunos; os prenestinos que acamparam no rio Ália; Fábio na Toscana.
+- **Aplicação [Interpretação]:** equipe confiante vende e entrega melhor. Confiança vem de preparo (ferramentas, treino), de convivência (equipe estável) e de um líder organizado e presente que corrige erros sem desgastar o time à toa.
+
+### 5b.89 — III.34: que fama faz o povo favorecer um cidadão; o povo escolhe melhor que o príncipe
+- **Argumento (texto):** a fama vem de três coisas: dos pais (a mais enganosa), das companhias (indício forte: quem anda com gente honesta ganha bom nome) e de um ato notável (a melhor, sobretudo cedo na vida). O povo, julgando por esses sinais e quando é bem aconselhado, erra menos que os príncipes ao escolher magistrados.
+- **Citação:** *"E perché nessuno indizio si può avere maggiore d’un uomo, che le compagnie con quali egli usa"* — "E porque não se pode ter maior indício de um homem que as companhias que ele frequenta". E a conclusão: *"e quando ei possono essere consigliati come i principi, errano meno de’ principi"* — "e quando [os povos] podem ser aconselhados como os príncipes, erram menos que os príncipes".
+- **Exemplos:** Tito Mânlio Torquato, que defendeu o pai; Cipião, que ainda jovem salvou o pai no Ticino; Fábio Máximo convencendo o povo a não eleger Tito Otacílio.
+- **Aplicação [Interpretação]:** reputação profissional se constrói com um resultado marcante e boas associações (parceiros, clientes de referência), não com sobrenome. Para contratar, olhe com quem a pessoa trabalhou e o que ela já entregou.
+
+### 5b.90 — III.35: os perigos de ser o primeiro a aconselhar algo
+- **Argumento (texto):** quem toma a frente de uma coisa nova que interessa a muitos corre grande perigo: se der errado, leva a culpa. O único caminho é dar a opinião com moderação, sem paixão, e defendê-la com modéstia; e não calar, porque calar também é perigoso.
+- **Citação:** *"non ci veggo altra via che pigliare le cose moderatamente, e non ne prendere alcuna per sua impresa, e dire la opinione sua sanza passione, e sanza passione con modestia difenderla"* — "não vejo outro caminho senão tomar as coisas com moderação, não fazer de nenhuma delas causa sua, dizer sua opinião sem paixão e, sem paixão, defendê-la com modéstia". E: *"E così colui portò la pena d’essere stato cheto quando e’ doveva parlare, e di avere parlato quando e’ doveva tacere"* — "E assim aquele pagou a pena de ter ficado calado quando devia falar e de ter falado quando devia calar".
+- **Exemplos:** o sultão Selim e o paxá que o aconselhou contra o Sofi; o amigo de Perseu, morto pelo rei por apontar seus erros só depois da derrota para Paulo Emílio.
+- **Aplicação [Interpretação]:** ao propor algo arriscado ao dono ou ao cliente, mostre prós e contras com calma, sem "vender" a ideia como sua causa pessoal. Se não for aceita e der errado o outro caminho, você ganha crédito. E fale na hora certa, não depois do desastre.
 
 <!-- fim da 5b -->
 
