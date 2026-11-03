@@ -18,6 +18,7 @@ Toda conta lê esta tabela antes de qualquer pedido. Recado novo: responda ao Li
 ## Em andamento
 | Desde | Conta | O quê | Como retomar / onde está |
 |---|---|---|---|
+| 03/11 | Zuleide | **Produtos low ticket do Lindson**: lista de todos os produtos possíveis a partir do que já existe nos repositórios (Maquiavel + Hormozi Squad + copy) | `agencia/ofertas/low-ticket/` (LISTA.md primeiro; depois detalhes) |
 | 03/11 | Leandro | **Dra. Jaci: bio nova, destaques reorganizados (capas) e site oficial** (site de SEO + bio em /bio, mesmo padrão da Real Time) | `agencia/clientes/jaci-cunha/instagram-perfil/` e `site/` (README) |
 | 03/11 | Pedro | **Marca pessoal do Lindson (@lindsonalmeida_)**: estratégia de conteúdo + linhas editoriais → calendário editorial → identidade nova preto e amarelo (v2 da `branding/`) → artes | `agencia/marca-lindson/` (pasta nova). Outras contas: combine aqui antes de mexer |
 | 03/11 | Zuleide | Desentupidora SF no Google: passos do Search Console (sitemap e indexação das 11 páginas) e textos prontos do Perfil da Empresa | `agencia/clientes/desentupidora-sf/GOOGLE.md` (tabela Situação no fim). Esperando o Lindson fazer os passos 1 e 2 e mandar prints |
