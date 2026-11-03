@@ -1,0 +1,38 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<!-- Modelo C de aniversário (tipografia em blocos) · Leo Pinto · conta Leandro, 03/11/2026. Lindson: "crie mais dois modelos… ele não gostou dessa".
+     Copiado de modelos EXTERNOS do Designi: "Feliz Aniversário Thais Campos" (#6d6380d0595a4dc9: "feliz" manuscrito + "Ani/ver/sário" empilhado em
+     duas cores ocupando a coluna da esquerda, nome, pílula com a data, pessoa grande à direita, rodapé de assinatura) + "Feliz Aniversário Thiago dos
+     Santos" (#50db0cdde401cc50: fundo de cor única, texto empilhado à esquerda com frase curta e pílula "Parabéns", pessoa recortada saindo pela base à direita).
+     Identidade do Leo; sem balões, corações, fitas ou ícones. Dados por window.DADOS (gerar.js, "modelo":"c"). -->
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@500;700;800;900&display=swap" rel="stylesheet">
+<style>*{box-sizing:border-box;margin:0;padding:0}body{width:1080px;height:1350px;overflow:hidden;font-family:Montserrat}
+.arte{position:relative;width:1080px;height:1350px;overflow:hidden;background:radial-gradient(900px 900px at 72% 40%,#3A68FF 0,#2350F5 30%,#1539BE 62%,#071A55 100%)}
+.a{position:absolute}
+.grao{inset:0;opacity:.13;mix-blend-mode:overlay;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>")}
+.disco{right:-160px;top:250px;width:920px;height:920px;border-radius:50%;background:radial-gradient(circle at 40% 35%,#FFF1B3 0,#FFD25A 35%,#FFC20E 70%,#E8A200 100%);box-shadow:0 60px 120px -40px rgba(0,0,0,.5)}
+.pessoa{filter:drop-shadow(0 40px 50px rgba(2,12,50,.5))}
+.col{left:60px;top:150px;width:520px;z-index:3}
+.k{font:400 120px/1 'Kaushan Script';color:#FFC20E;transform:rotate(-8deg);margin:0 0 -40px -6px;position:relative;z-index:2}
+.ani{font:900 172px/0.84 Montserrat;letter-spacing:-.045em;color:#fff}
+.ani .s{color:#FFC20E}
+.nm{margin-top:34px;font:800 52px/1.04 Montserrat;color:#fff;letter-spacing:-.01em}
+.fr{margin-top:22px;font:500 24px/1.5 Montserrat;color:rgba(255,255,255,.88);width:400px}
+.dt{display:inline-flex;align-items:center;gap:12px;margin-top:28px;border:2px solid #FFC20E;color:#FFC20E;border-radius:99px;padding:10px 24px;font:900 22px Montserrat;letter-spacing:.08em}
+.dt i{width:12px;height:12px;border-radius:50%;background:#FFC20E}
+.pill{left:60px;top:48px;display:flex;align-items:center;gap:12px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.25);color:#fff;font:700 22px Montserrat;padding:6px 22px 6px 6px;border-radius:99px}
+.pill img{width:46px;height:46px;border-radius:50%;object-fit:cover;border:2px solid #FFC20E}
+.base{left:0;right:0;bottom:0;height:260px;background:linear-gradient(180deg,transparent,rgba(5,20,70,.85))}
+.logo{left:60px;bottom:48px;width:240px;z-index:4;filter:drop-shadow(0 8px 18px rgba(0,0,0,.35))}
+.ass{right:60px;bottom:58px;z-index:4;text-align:right;font:700 20px Montserrat;color:#fff}
+.ass b{display:block;font:400 44px 'Kaushan Script';color:#FFC20E}
+</style></head><body><div id="arte"></div><script>
+const d=window.DADOS,nome=[d.nome1,d.nome2].filter(Boolean).map(x=>x.charAt(0)+x.slice(1).toLowerCase().replace(/ (d[aeo]s?) /g,' $1 ')).join(' ');
+document.getElementById('arte').innerHTML=`<div class="arte"><div class="a disco"></div><div class="a grao"></div>
+<img class="a pessoa" src="${d.foto}" style="right:${d.direitaC??-150}px;top:${d.topoC||380}px;width:${d.larguraC||860}px">
+<div class="a base"></div>
+<div class="a pill"><img src="${d.avatar}">@_leonardopinto</div>
+<div class="a col"><div class="k">feliz</div><div class="ani">ANI<br>VER<br><span class="s">SÁRIO</span></div>
+<div class="nm" id="nm">${nome}</div><div class="fr">${(d.frase||'').replace(/\|/g,'')}</div>${d.data?`<div class="dt"><i></i>${d.data}</div>`:''}</div>
+<img class="a logo" src="${d.logo}"><div class="a ass"><b>${d.chamada||'Parabéns!'}</b>${d.assinatura||''}</div></div>`;
+document.fonts.load('900 172px Montserrat').then(()=>document.fonts.ready).then(()=>{window.pronto=true});
+</script></body></html>

@@ -20,3 +20,11 @@ Pedido do Lindson (03/11): "crie um modelo para aniversário de pessoas" + "crie
 **Legenda curta (padrão para aniversário):** "Hoje é dia de celebrar a vida do meu amigo <nome>! 🎉 Que Deus abençoe sua caminhada com saúde, paz e muitas conquistas. Feliz aniversário! #tôcomléopinto #SãoJoãoBatista" (sem pedir voto; marcar a pessoa).
 
 Situação: Josef **aprovado pelo Lindson** em 03/11 e publicado nas Aprovações do painel do Leo (arte no privado `dados/clientes-arquivos/leo/aniversarios/`). Para subir um novo: acrescente o item no começo de `APROV` em `painel/leo.html` do privado (1080×1350, qualidade 92) ou no `montar-leo.py`. Sempre mande a arte na conversa antes.
+
+## Modelos B e C (03/11, conta Leandro)
+O Lindson: "crie mais dois modelos da arte de parabéns, ele não gostou dessa, e melhore a qualidade da foto". Copiados de modelos EXTERNOS do Designi (capturas em `referencias/`):
+- **B · editorial claro** (`aniversario-b.html`): "João Cláudio" + "Vereador Gustavo José": fundo creme, PARABÉNS gigante laranja com 2 ecos em contorno atrás das cabeças, frase grifada, data, pílula marinho com o nome, "Parabéns" manuscrito.
+- **C · tipografia em blocos** (`aniversario-c.html`): "Thais Campos" + "Thiago dos Santos": fundo azul, "feliz" manuscrito + ANI/VER/SÁRIO empilhado (SÁRIO amarelo), nome, frase, pílula da data, pessoas grandes à direita sobre um disco amarelo.
+- Gerar: `"modelo":"b"` ou `"c"` no dados.json → `node gerar.js <pasta> dados-b.json` → `aniversario-b.jpg`.
+
+**Foto melhor:** antes de recortar, `python3 ../../../../ferramentas/melhorar_foto.py foto.jpg foto-hd.png` (Real-ESRGAN x2 + ajuste leve de cor; modelo em `~/.modelos/real_esrgan_x2.onnx`, baixar de https://huggingface.co/facefusion/models-3.0.0/resolve/main/real_esrgan_x2.onnx). O recorte é feito na foto HD.
