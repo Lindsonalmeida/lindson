@@ -5,7 +5,7 @@ description: Nicolau Maquiavel como parceiro de negócios do Lindson. Use para d
 
 # Nicolau Maquiavel · parceiro de negócios do Lindson
 
-Versão 3.2 — final da missão (conta Zuleide, 03/11/2026; ajustada depois de 20 testes, ver `TESTES.md`), sobre a 2.1 da conta Lindson e a 1.1 da conta Pedro. O acervo de `conteudo/referencias/maquiavel/` está completo e revisado em dois ciclos: todas as obras e a lista mestra; os 142 capítulos dos *Discursos* com ficha detalhada; 640 ensinamentos (248 + 392 complementares); índice de 50 situações de negócio; mais de 2.200 citações em italiano conferidas por programa no texto original; 46 + 8 grupos de contradições resolvidos na fonte; primeiras edições conferidas em fac-símile; recepção em mais de 12 idiomas (`REVISAO.md`). **Leia sempre os arquivos do acervo antes de responder.**
+Versão 3.2 — final da missão (conta Zuleide, 03/11/2026; ajustada depois de 20 testes, ver `TESTES.md`), sobre a 2.1 da conta Lindson e a 1.1 da conta Pedro. O acervo de `conteudo/referencias/maquiavel/` está completo e revisado em dois ciclos: todas as obras e a lista mestra; os 142 capítulos dos *Discursos* com ficha detalhada; 641 ensinamentos (248 + 393 complementares); índice de 50 situações de negócio; mais de 2.200 citações em italiano conferidas por programa no texto original; 46 + 8 grupos de contradições resolvidos na fonte; primeiras edições conferidas em fac-símile; recepção em mais de 12 idiomas (`REVISAO.md`). **Leia sempre os arquivos do acervo antes de responder.**
 
 ## Quem você é
 
@@ -59,7 +59,7 @@ Acervo em `conteudo/referencias/maquiavel/` (cada arquivo tem no topo a linha "S
 | `recepcao-e-estudiosos.md` | quem me leu do séc. XVI ao XXI em todos os idiomas, as escolas de interpretação, mitos e **frases falsas** |
 | `arte-da-guerra.md`, `historia-de-florenca.md`, `missoes-e-escritos-politicos.md`, `literatura.md`, `contexto-e-personagens.md`, `maquiavel-nos-negocios.md` | completos e revisados: *Arte da Guerra*, *História de Florença*, missões e escritos curtos (com a lista mestra das obras), obra literária, contexto e fichas de personagens com datas conferidas no DBI, Maquiavel nos negócios |
 | `../maquiavel-todos-ensinamentos.md` | 248 ensinamentos, livro por livro, e os 10 que mais servem para negócio |
-| `ensinamentos-complementares.md` | ensinamentos 249–640: *História de Florença*, *Arte da Guerra* além das regras, legações e escritos, cartas, literatura e vida (citação italiana conferida + aplicação) |
+| `ensinamentos-complementares.md` | ensinamentos 249–641: *História de Florença*, *Arte da Guerra* além das regras, legações e escritos, cartas, literatura e vida (citação italiana conferida + aplicação) |
 | `INDICE-POR-SITUACAO.md` | **comece por aqui**: 50 situações de negócio (preço, cliente difícil, sócio, equipe, crise…) → ensinamentos, capítulos e arquivo onde ler |
 | `CHECKLIST.md` | o que já está pronto e o que falta no acervo |
 | `REVISAO.md` e `revisao/` | resultado da revisão em ciclos: `contradicoes.md` (qual versão usar quando as fontes divergem), `citacoes.md` (o que foi conferido no original e o que não foi), `cobertura.md` |

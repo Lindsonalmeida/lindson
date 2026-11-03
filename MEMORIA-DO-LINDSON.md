@@ -83,7 +83,7 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 15. **Vídeos tutoriais** verticais, com voz e exemplos, conversando com o cliente ("Oi, Dra. Jaci! Oi, equipe!" e "Oi, Vereador Leo! Oi, equipe!"). Estão em `agencia/processos/demo-minisite/`.
 
 **Lindson e agência**
-16. **Agente Maquiavel v2.1**: passou 12/12 nos testes; tem modo professor de dinheiro e memória de decisões em `CONSELHOS.md`. Está em `.claude/agents/maquiavel.md` e no acervo `conteudo/referencias/maquiavel/`. Para usar, escreva "chama o Maquiavel".
+16. **Agente Maquiavel v3.2 (final, 03/11, conta Zuleide)**: acervo revisado em 2 ciclos, 641 ensinamentos, índice de 50 situações, passou 20/20 nos testes (v2.1 tinha passado 12/12); tem modo professor de dinheiro e memória de decisões em `CONSELHOS.md`. Está em `.claude/agents/maquiavel.md` e no acervo `conteudo/referencias/maquiavel/`. Para usar, escreva "chama o Maquiavel".
 17. **Padrão de copy de abordagem** (17/10): Conexão → Dor → Desejo → Pergunta. Está em `agencia/prospeccao/PADRAO-COPY.md`.
 18. **Legenda estilo blog SEO** (`conteudo/avaliacao-gratuita/LEGENDAS.md`).
 19. **Esteira de Reels, Teste 01**: 3 formatos × 10 conteúdos × 10 ganchos = 300 roteiros de 30 s, com check e botão para enviar o print das métricas (aba Conteúdo do Recomeço 90).
@@ -209,6 +209,7 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 | 02/11 | Abas do admin, apps dentro da Central com a mesma identidade, animações | no ar | `site/admin-sistema.js`, `admin-apps.js` |
 | 02/11 | Permitir tudo nas sessões | pronto | `.claude/settings.json` |
 | 02/11 | Agente Maquiavel completo + dinheiro online | pronto v2.1; revisão continua | `.claude/agents/maquiavel.md` |
+| 03/11 | "Quando terminar tudo, finalize o agente" | **feito: v3.2 final**, revisão concluída, 20/20 nos testes (Zuleide) | `.claude/agents/maquiavel.md`, `conteudo/referencias/maquiavel/TESTES.md` |
 | 02/11 | Reels de 45 s vendendo serviços para negócio local | pronto | `conteudo/reels/vender-servicos-negocio-local-45s.md` |
 | 02/11 | Foto de perfil do Leo | v2 pronta | `leo-pinto/instagram-perfil/` |
 | 02/11 | 3 primeiras artes do feed do Leo + legendas + aprovação no site | aprovado (v13 v3) e no painel | `leo-pinto/instagram-v13-apresentacao/` |

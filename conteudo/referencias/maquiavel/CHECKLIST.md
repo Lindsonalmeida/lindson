@@ -18,11 +18,12 @@ Atualizado pela conta Zuleide em 02/11/2026. Marque [x] ao terminar e cite a con
 | `recepcao-e-estudiosos.md` | leituras em todos os idiomas (it, en, es, fr, de, pt e outros), antimaquiavelismo, mitos, frases falsas, curiosidades | [x] Zuleide (seções 1–8; lacunas na seção 8) |
 | `maquiavel-nos-negocios.md` | livros e estudos de gestão, escala Mach IV, uso em negócios, críticas | [x] Pedro (seção 1) + Zuleide (complemento e seções 2–7) |
 | `../maquiavel-todos-ensinamentos.md` | 248 ensinamentos (anterior) | [x] Lindson |
-| Revisão de lacunas e contradições (fase 2) | comparar tudo com a lista de obras e corrigir | pendente |
+| Revisão de lacunas e contradições (fase 2) | comparar tudo com a lista de obras e corrigir | [x] Zuleide, 2 ciclos + correções dos testes (`REVISAO.md`, `revisao/`) |
 
 ## Agente (fase 3)
 - [x] `.claude/agents/maquiavel.md` (voz, método de raciocínio, negócio do Lindson, citações) — v1 (Pedro), v2 e v2.1 (Lindson, 02/11)
-- [x] Testes com situações reais (`TESTES.md`) — v1 (Pedro); v2 passou 12/12 (Lindson, 02/11)
+- [x] Testes com situações reais (`TESTES.md`) — v1 (Pedro); v2 passou 12/12 (Lindson, 02/11); **v3/v3.2 passou 20/20** (15 sem ressalva, 5 com ressalva; Zuleide, 03/11)
+- [x] **Versão final: v3.2** (Zuleide, 03/11/2026) — `INDICE-POR-SITUACAO.md`, 641 ensinamentos, regras novas dos testes
 
 ## Dinheiro online (fase 4)
 - [x] `conteudo/referencias/dinheiro-online/` (README, famílias de modelos, mercados estrangeiros/Ásia, golpes e riscos, receber do exterior, plano para o Lindson) — rodada 1 completa: 11 arquivos (Pedro e Zuleide) + `README.md` e `plano-para-o-lindson.md` (conta Lindson, 02/11); lacunas jurídicas (MEI/Simples, LGPD, CDC, reforma tributária) no README §4
@@ -30,7 +31,7 @@ Atualizado pela conta Zuleide em 02/11/2026. Marque [x] ao terminar e cite a con
 ## Como retomar se o tempo desta conta acabar
 Cada frente salva o arquivo a cada seção (`COMO-SALVAR.md`) e marca no topo "Situação: parcial — feito até a seção X". Outra conta abre o arquivo, lê a linha de situação e continua da seção seguinte, com as mesmas regras (`REGRAS-DA-PESQUISA.md`). Os pedidos de cada frente estão descritos nesta tabela e na `MISSAO.md`.
 
-## Análise do que falta (conta Pedro, 02/11/2026, 02h UTC)
+## Análise do que falta (conta Pedro, 02/11/2026, 02h UTC) — HISTÓRICO, tudo concluído depois
 Último commit da Zuleide no acervo: 01:42 UTC. Conferido arquivo por arquivo, pela linha "Situação" e pelo índice de cada um.
 
 **Começados e incompletos**

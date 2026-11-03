@@ -1,6 +1,6 @@
 # Revisão geral do acervo Maquiavel (fase 2 da missão)
 
-**Situação:** ciclo 1 concluído (02/11/2026); ciclo 2 concluído (03/11/2026; pendências 1–3 abaixo); agente v3 testado e correções dos testes v3 aplicadas no acervo (seção "Testes v3 — correções no acervo", conta Zuleide, 03/11/2026).
+**Situação:** concluída — ciclos 1 e 2 + correções achadas nos 20 testes do agente (conta Zuleide, 03/11/2026). Agente final: v3.2. Lacunas que dependem de fontes fechadas (Edição Nacional, Ridolfi, Carteggi de Guicciardini, alguns colofões) ficam listadas em `revisao/`.
 
 A pesquisa (fase 1) terminou com 11 arquivos (≈1,2 MB) feitos pelas contas Zuleide, Pedro e Lindson, mais o material paralelo em `frente-lindson/`. A revisão roda em ciclos até não sobrar nada a corrigir ou acrescentar ("sem erro, sem faltas, sem lacuna").
 

@@ -43,7 +43,7 @@ Brand book, componentes (Cover, LinkCard, StatStrip…), modelos e guia de Insta
 | `top-x/` | Quadro Top X: pesquisa de virais e legendas |
 | `criativos-vendas/`, `ensaio-mini-site/`, `fotos/` | Criativos de venda, ensaio do mini site, registro de fotos |
 | `noticias/` | Perfil de notícias BOMBOU (identidade, padrão de foto, gerador de arte) |
-| `referencias/` | Engenharia reversa do Behance, ensinamentos de Maquiavel (248) e acervo completo em `referencias/maquiavel/` (obras, fichas dos *Discursos* `discursos-fichas-livro-1/2/3.md`, `REVISAO.md`, `TESTES.md`, memória de decisões `CONSELHOS.md`; agente `.claude/agents/maquiavel.md`); `referencias/dinheiro-online/` |
+| `referencias/` | Engenharia reversa do Behance, ensinamentos de Maquiavel (248) e acervo completo em `referencias/maquiavel/` (comece por `INDICE-POR-SITUACAO.md`; `ensinamentos-complementares.md` 249–641; revisão em `REVISAO.md` e `revisao/`, com testes do agente em `revisao/testes-v3/`; obras, fichas dos *Discursos* `discursos-fichas-livro-1/2/3.md`, `REVISAO.md`, `TESTES.md`, memória de decisões `CONSELHOS.md`; agente `.claude/agents/maquiavel.md`); `referencias/dinheiro-online/` |
 | `youtube/passaporte/` | Canal **Passaporte da Bíblia**: identidade, processo, pesquisas, roteiros, motor Pintura Viva (`motor/pintura.py`), capas (`motor/capas2.py` + `capas_v2.json`) |
 | `youtube/raposa-e-leao/` | Canal **Raposa e Leão** (Maquiavel): identidade, processo, 30 Shorts, longos, roteiros, acervo de imagens |
 | `youtube/comum/` | Voz humanizada |
