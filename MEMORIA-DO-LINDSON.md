@@ -96,6 +96,7 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 
 - **Clone de voz, teste 01** (03/11 · Pedro): Chatterbox Multilingual em português ("ficou ótimo"). Base aprovada para o app de clone. Está em `conteudo/referencias/ia-video-voz/teste/`.
 - **Dublê: nome, identidade e tela v2** (03/11 · Pedro): identidade aprovada ("a identidade visual eu gostei") e tela copiada do template **Sermo** (Framer) aprovada: **"isso sim é um padrão premium"**. É a **régua de "premium"** para apps e telas novas: halo animado atrás de título gigante, menu em pílulas flutuantes, console do app logo abaixo, aviso flutuante, cartões de números reais com gráfico, título em duas cores, passo a passo numerado ao lado de painel de vidro. Sempre copiado de um template de mercado e citado. Está em `apps/clone-studio/web/` e `identidade/TEMPLATE.md`.
+- **Voz do Lindson para o Dublê** (03/11 · Pedro): ele mandou 2 áudios de WhatsApp como "minha voz" (02/11 1:33 e 19/10 1:09, limpos, ruído ~50 dB abaixo). **Não vão para o GitHub** (dado biométrico; repositório público). Ficaram só na sessão da conta Pedro; no PC dele, cadastrar no Dublê como "Lindson" usando esses mesmos áudios. Já autorizou a própria voz ao enviar; para o app liberar falta só o termo e o vídeo de consentimento dele (trava do Dublê). Melhor trecho de referência: áudio de 02/11, de 1:06 a 1:18.
 
 ## 4. REPROVADO: nunca repetir
 
