@@ -1,27 +1,18 @@
-# Mensagem para o cliente entrar na Central (conta Leandro, 03/11/2026)
+# Mensagem OFICIAL para o cliente entrar na Central
 
-Usada pela primeira vez com a Real Time (03/11). Antes não havia modelo no repositório. **O código nunca fica salvo aqui**: gere com `agencia/sistema-clientes/site/novo-codigo.py <cliente> <prefixo>` e cole só na conversa com o Lindson.
+Modelo oficial do Lindson (03/11/2026, enviado à conta Leandro: "essa é a mensagem oficial"), o mesmo usado com o Vereador Leo Pinto.
+Curta: saudação pelo nome, o que o cliente faz no painel (com as palavras do negócio dele), o link, o código e "depois é só entrar com seu e-mail e senha".
+**O código nunca fica salvo aqui**: gere com `agencia/sistema-clientes/site/novo-codigo.py <cliente> <prefixo>` e passe só na conversa.
 
+## Modelo
 ```
-Oi! Tudo bem? 😊
-
-A Central da <CLIENTE> está pronta. É lá que vocês aprovam o que a gente cria e baixam os arquivos.
-
-👉 Acesse: https://lindsonalmeida.pages.dev
-
-Na primeira vez:
-1. Toque em "Criar conta"
-2. Coloque nome, e-mail e uma senha (mínimo 8 caracteres)
-3. No código de acesso, digite: <CÓDIGO>
-
-Das próximas vezes, é só entrar com e-mail e senha.
-
-O que já está lá esperando vocês:
-✅ <entrega 1>
-✅ <entrega 2>
-✅ <entrega 3>
-
-Na aba "Aprovações", é só tocar em aprovar ou pedir ajuste em cada um. Em "Entregas e arquivos" ficam os arquivos para baixar.
-
-Olha com calma e me diz o que achou?
+Oi, <NOME>! Sua Central está no ar. Lá você <o que ele faz no painel: 3 a 5 itens, com as palavras do negócio>.
+Acesse: https://lindsonalmeida.pages.dev
+Na primeira vez, toque em “Criar conta” e use o código <CÓDIGO>. Depois é só entrar com seu e-mail e senha.
 ```
+
+## Exemplos
+- **Leo Pinto:** "…Lá você acompanha os números do Instagram, o planejamento, as demandas do povo por bairro, a agenda do mandato e manda fotos pra equipe."
+- **Real Time (03/11):** "…Lá você aprova a marca nova, os posts e a bio, baixa o manual e a estratégia, acompanha as reservas no CRM e manda fotos do set pra equipe."
+
+Reprovado: a versão longa com passo a passo numerado e lista de entregas (03/11, conta Leandro): o Lindson mandou usar esta.
