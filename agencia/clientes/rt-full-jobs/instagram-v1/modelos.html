@@ -1,0 +1,91 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<!-- Modelos de redes da Real Time v1 (conta Pedro, 03/11/2026). Pedido do Lindson: "para as redes sociais, crie modelos novos" + "use os melhores".
+     Pesquisa (Framer, Dribbble) e escolha: A = VideoLab (Framer, foto no visor + título em 2 tons + faixa de números),
+     B = RUSHES. (Framer, palavra gigante sobre foto + frase com números em cor + etiquetas "REC:"),
+     C = LAIN / Archivr (Dribbble, manchete com celular em mockup + cartão de depoimento + pílula de chamada).
+     Ordem e função de cada modelo: Pedro Sobral (traffic-masters). Uso: modelos.html?m=1..8 (feed 4:5) ou ?s=1..3 (stories). -->
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700;800&family=Geist+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0E0E0F;--pn:#1A1A1B;--fio:#2A2A2C;--b:#F4F7FB;--cz:#8A8A8E;--az:#2E9BFF;--in:#4338F0;--rec:#FF3B3B}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:var(--bg);color:var(--b);font-family:Geist,sans-serif;-webkit-font-smoothing:antialiased;overflow:hidden}
+.art{position:relative;width:1080px;height:1350px;overflow:hidden;background:var(--bg)}
+.art.st{height:1920px}
+.abs{position:absolute}
+.rot{font:500 22px Geist;letter-spacing:.16em;text-transform:uppercase}
+.t{font-family:Geist;font-weight:700;text-transform:uppercase;letter-spacing:-.03em;line-height:.95}
+.cz{color:var(--cz)}.az{color:var(--az)}
+.mono{font-family:'Geist Mono'}
+.grain{position:absolute;inset:0;opacity:.16;mix-blend-mode:overlay;pointer-events:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.foto{position:absolute;background-size:cover;background-position:center}
+.visor{position:absolute;padding:12px}
+.visor .f{position:relative;width:100%;height:100%;background-size:cover;background-position:center;overflow:hidden}
+.visor .f:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.3),rgba(0,0,0,.05) 40%,rgba(0,0,0,.5))}
+.visor i.k{position:absolute;width:26px;height:26px;border-color:var(--b);border-style:solid}
+.visor .k1{left:0;top:0;border-width:3px 0 0 3px}.visor .k2{right:0;top:0;border-width:3px 3px 0 0}.visor .k3{left:0;bottom:0;border-width:0 0 3px 3px}.visor .k4{right:0;bottom:0;border-width:0 3px 3px 0}
+.visor .rec{position:absolute;left:36px;top:30px;font:500 24px Geist;color:var(--rec);z-index:2}.visor .rec:before{content:"● "}
+.visor .hd{position:absolute;left:36px;bottom:30px;display:flex;gap:10px;z-index:2}.visor .hd b{font:500 18px Geist;border:2px solid rgba(255,255,255,.75);padding:4px 10px}
+.visor .tc{position:absolute;right:36px;bottom:30px;font:500 24px Geist;z-index:2}
+.topo{position:absolute;left:64px;right:64px;top:56px;display:flex;justify-content:space-between;align-items:center;z-index:5}
+.topo img{height:48px}.topo span{font:500 20px Geist;letter-spacing:.16em}
+.cta{display:inline-flex;align-items:center;gap:14px;font:600 26px Geist}
+.cta:after{content:"→";color:var(--az)}
+.pil{display:inline-flex;align-items:center;gap:12px;border-radius:999px;padding:20px 36px;font:700 28px Geist;background:var(--az);color:#0E0E0F}
+.tag{display:inline-flex;align-items:center;gap:10px;font:500 22px Geist;letter-spacing:.04em}.tag:before{content:"●";color:var(--rec)}
+.fio{position:absolute;height:2px;background:var(--fio)}
+.nums{position:absolute;display:grid;grid-template-columns:repeat(4,1fr);border-top:2px solid var(--fio);border-bottom:2px solid var(--fio)}
+.nums div{padding:26px 0 26px 22px;border-right:2px solid var(--fio)}.nums div:first-child{padding-left:0}.nums div:last-child{border-right:0}
+.nums b{display:block;font:600 46px Geist;letter-spacing:-.03em}.nums span{font:500 16px Geist;letter-spacing:.08em;text-transform:uppercase;color:var(--cz)}
+.lista{font:500 24px Geist;line-height:1.75;text-align:right}
+</style></head><body><div id="a"></div>
+<script>
+const M='../identidade/v1/marca/',F='../identidade/v1/fotos/',q=new URLSearchParams(location.search),m=+q.get('m')||0,s=+q.get('s')||0;
+const V=(foto,{x=64,y=150,w=952,h=640,tc='00:00:12:08',pos='center'}={})=>`<div class="visor" style="left:${x}px;top:${y}px;width:${w}px;height:${h}px"><i class="k k1"></i><i class="k k2"></i><i class="k k3"></i><i class="k k4"></i><div class="f" style="background-image:url(${F}${foto}.jpg);background-position:${pos}"><div class="grain"></div></div><span class="rec">REC</span><span class="hd"><b>HD</b><b>4K</b></span><span class="tc">${tc}</span></div>`;
+const topo=(r,logo='assinatura-horizontal-mono-branco')=>`<div class="topo"><img src="${M}${logo}.svg"><span>${r}</span></div>`;
+const fundo=(foto,esc=.55,pos='center')=>`<div class="foto" style="inset:0;background-image:url(${F}${foto}.jpg);background-position:${pos};filter:saturate(1.05)"></div><div class="abs" style="inset:0;background:linear-gradient(180deg,rgba(14,14,15,${esc}) 0%,rgba(14,14,15,.15) 35%,rgba(14,14,15,.92) 78%)"></div><div class="grain"></div>`;
+const celular=(foto,{x,y,w=420,rot=0})=>`<div class="abs" style="left:${x}px;top:${y}px;width:${w}px;height:${w*2.05}px;border-radius:${w*.15}px;background:#050505;padding:${w*.035}px;box-shadow:0 60px 120px rgba(0,0,0,.6);transform:rotate(${rot}deg)"><div style="position:relative;width:100%;height:100%;border-radius:${w*.12}px;overflow:hidden;background:url(${F}${foto}.jpg) center/cover"><div style="position:absolute;top:${w*.04}px;left:50%;transform:translateX(-50%);width:34%;height:${w*.075}px;border-radius:99px;background:#050505"></div><div style="position:absolute;inset:auto 0 0;height:45%;background:linear-gradient(180deg,transparent,rgba(0,0,0,.85))"></div><div style="position:absolute;left:8%;bottom:7%;font:600 ${w*.06}px Geist;color:#fff">realtime_fulljobs<br><span style="font-weight:400;opacity:.8">Videocast · episódio 12</span></div><span style="position:absolute;right:8%;top:10%;font:600 ${w*.045}px Geist;color:#fff;background:rgba(0,0,0,.45);padding:4px 10px;border-radius:8px">Reels</span></div></div>`;
+let H='';
+if(m==1)H=`<div class="art">${topo('KIT CINEMA')}${V('kit',{y:150,h:660,tc:'00:00:01:00',pos:'50% 40%'})}
+<div class="abs" style="left:64px;top:860px"><div class="rot cz">Locação · Maranhão</div><div class="t" style="font-size:112px;margin-top:20px">Seu set<br><span class="cz">começa aqui.</span></div></div>
+<div class="abs mono" style="left:64px;bottom:70px;font-size:22px;letter-spacing:.1em;color:var(--cz)">FX3 · VESPID PRIME 2 · APUTURE STORM</div><div class="abs cta" style="right:64px;bottom:62px">Salva pra próxima diária</div></div>`;
+if(m==2)H=`<div class="art">${fundo('mascote',.45,'50% 25%')}${topo('ESTÚDIO')}
+<div class="abs tag" style="left:64px;top:150px">REC: ESTÚDIO · FUNDO VERDE</div>
+<div class="abs lista" style="right:64px;top:610px">01/ CAMPANHAS<br>02/ VIDEOCAST<br>03/ ENTREVISTAS<br>04/ FOTO E PRODUTO</div>
+<div class="abs t" style="left:44px;bottom:250px;font-size:285px;letter-spacing:-.06em">VERDE.</div>
+<div class="abs" style="left:64px;bottom:150px;font-size:26px;line-height:1.45;color:#d7dbe2;max-width:560px">Um estúdio pronto para gravar: fundo verde, luz e equipe.</div>
+<div class="abs cta" style="right:64px;bottom:150px">Marca quem precisa gravar</div><img class="abs" src="${M}simbolo.svg" style="right:64px;top:146px;width:70px"></div>`;
+if(m==3)H=`<div class="art" style="background:#F4F7FB;color:#0E0E0F">${topo('CONTEÚDO MENSAL','assinatura-horizontal-claro')}
+<div class="abs" style="left:64px;top:180px"><div class="t" style="font-size:66px;color:#0E0E0F;width:470px">Conteúdo<br>todo mês,<br><span style="color:#8A8A8E">sem montar<br>set.</span></div><p style="font-size:26px;line-height:1.5;color:#5C5C60;margin-top:30px;max-width:440px">A sua empresa grava no nosso estúdio e recebe os vídeos prontos para postar.</p><div class="pil" style="margin-top:44px">Chama no WhatsApp</div></div>
+<div class="abs" style="right:-40px;top:240px;width:560px;height:1000px;background:#0E0E0F;border-radius:40px;transform:rotate(-8deg)"></div>${celular('apresentadora',{x:665,y:320,w:370,rot:-8})}</div>`;
+if(m==4)H=`<div class="art">${topo('MAKING OF')}${V('set',{y:150,h:820,tc:'00:04:37:12',pos:'50% 35%'})}
+<div class="abs" style="left:64px;top:1020px"><div class="t" style="font-size:92px">Bastidor<br><span class="cz">de produção.</span></div></div>
+<div class="abs" style="right:64px;top:1030px;width:330px;border-left:2px solid var(--fio);padding-left:24px;font-size:22px;line-height:1.5;color:var(--cz)">Set real, equipe real. Do take ao corte final.<div class="cta" style="margin-top:22px;color:var(--b)">Veja como foi feito</div></div></div>`;
+if(m==5)H=`<div class="art" style="background:linear-gradient(135deg,#1b1680,#0E0E0F 70%)"><div class="grain"></div>${topo('QUEM GRAVOU COM A GENTE')}
+<div class="abs" style="left:64px;top:190px" class="t"><div class="t" style="font-size:84px">O que dizem<br><span style="color:#9CCBFF">no set.</span></div></div>
+<div class="abs" style="left:90px;right:90px;top:520px;background:#F4F7FB;color:#0E0E0F;border-radius:28px;padding:56px;transform:rotate(-3deg);box-shadow:0 50px 120px rgba(0,0,0,.5)"><div style="font:700 120px/0.6 Geist;color:var(--az)">“</div><p style="font:500 40px/1.3 Geist;margin-top:10px">[Fala real do cliente aqui. Sem fala real, este post não sai.]</p><div style="display:flex;gap:20px;align-items:center;margin-top:40px"><div style="width:84px;height:84px;border-radius:50%;background:url(${F}musico.jpg) 50% 20%/cover"></div><div><div style="font:600 26px Geist">Nome do cliente</div><div class="mono" style="font-size:18px;color:#5C5C60;margin-top:4px">EMPRESA · KIT CINEMA</div></div></div></div>
+<div class="abs" style="left:64px;bottom:90px"><div class="pil">Reserve seu kit</div></div><img class="abs" src="${M}simbolo.svg" style="right:64px;bottom:90px;width:80px"></div>`;
+if(m==6)H=`<div class="art">${fundo('estudio',.5,'60% 40%')}${topo('KIT LUZ')}
+<div class="abs tag" style="left:64px;top:150px">REC: LUZ QUE MUDA O TAKE</div>
+<div class="abs t" style="left:40px;top:330px;font-size:420px;letter-spacing:-.06em">LUZ.</div>
+<div class="abs mono" style="left:64px;bottom:250px;font-size:24px;letter-spacing:.1em;color:#d7dbe2">APUTURE STORM 1200x · 400x · 80c</div>
+<div class="fio" style="left:64px;right:64px;bottom:210px"></div>
+<div class="abs" style="left:64px;bottom:120px;font-size:26px;color:#d7dbe2">Kits por tamanho de produção.</div><div class="abs cta" style="right:64px;bottom:120px">Pergunte a disponibilidade</div></div>`;
+if(m==7)H=`<div class="art">${topo('KIT COMPLETO')}<div class="abs" style="left:64px;top:160px"><div class="rot cz">Pronto para a diária</div><div class="t" style="font-size:96px;margin-top:18px">Kit completo<br><span class="cz">pra diária.</span></div></div>
+${V('opticas',{y:470,h:500,tc:'00:00:24:00',pos:'50% 45%'})}
+<div class="nums" style="left:64px;right:64px;top:1020px"><div><b>FX3</b><span>Câmera</span></div><div><b>VESPID</b><span>Ópticas cinema</span></div><div><b>STORM</b><span>Luz Aputure</span></div><div><b>PYRO 7</b><span>Transmissão</span></div></div>
+<div class="abs cta" style="right:64px;bottom:62px">Reserve sua data</div><div class="abs mono" style="left:64px;bottom:70px;font-size:18px;color:var(--cz);letter-spacing:.12em">+ CAGE E MATTE BOX TILTA</div></div>`;
+if(m==8)H=`<div class="art">${topo('PRODUÇÕES')}<div class="abs tag" style="left:64px;top:160px">REC: DO ROTEIRO À ENTREGA</div>
+<div class="abs" style="left:64px;right:64px;top:240px;font:500 82px/1.08 Geist;letter-spacing:-.035em">Da <span class="az">ideia</span> ao <span class="az">final</span>: roteiro, set, edição e entrega com a <span class="az">mesma equipe</span>.</div>
+${V('filme',{x:64,y:830,w:300,h:330,tc:'01'})}${V('musico',{x:390,y:830,w:300,h:330,tc:'02'})}${V('set',{x:716,y:830,w:300,h:330,tc:'03'})}
+<div class="abs cta" style="right:64px;bottom:62px">Peça seu orçamento</div><div class="abs mono" style="left:64px;bottom:70px;font-size:18px;color:var(--cz);letter-spacing:.12em">CAMPANHA · CLIPE · FILME DE MARCA</div></div>`;
+if(s==1)H=`<div class="art st">${topo('AGENDA ABERTA')}${V('kit',{y:230,h:900,tc:'00:00:01:00',pos:'50% 40%'})}
+<div class="abs" style="left:64px;top:1190px"><div class="t" style="font-size:120px">Agenda<br><span class="cz">aberta.</span></div></div>
+<div class="abs" style="left:140px;right:140px;top:1480px;background:#F4F7FB;color:#0E0E0F;border-radius:30px;padding:34px;text-align:center"><div style="font:700 32px Geist">Precisa de kit essa semana?</div><div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:24px"><div style="border:2px solid #d9dde3;border-radius:18px;padding:20px;font:700 30px Geist;color:var(--az)">SIM</div><div style="border:2px solid #d9dde3;border-radius:18px;padding:20px;font:700 30px Geist">AINDA NÃO</div></div></div></div>`;
+if(s==2)H=`<div class="art st">${fundo('mascote',.4,'50% 25%')}${topo('ESTÚDIO')}<div class="abs tag" style="left:64px;top:170px">REC: FUNDO VERDE · MARANHÃO</div>
+<div class="abs t" style="left:34px;top:860px;font-size:250px;letter-spacing:-.06em">ESTÚ-<br>DIO.</div>
+<div class="abs" style="left:120px;right:120px;top:1430px;border-radius:30px;overflow:hidden;text-align:center"><div style="background:linear-gradient(90deg,#4338F0,#1f6bff);padding:30px;font:700 34px Geist">O que você quer gravar?</div><div style="background:#F4F7FB;color:#8A8A8E;padding:34px;font:500 28px Geist">Toque para responder</div></div></div>`;
+if(s==3)H=`<div class="art st" style="background:linear-gradient(160deg,#1b1680,#0E0E0F 65%)"><div class="grain"></div>${topo('QUEM GRAVOU COM A GENTE')}
+<div class="abs" style="left:80px;right:80px;top:420px;background:#F4F7FB;color:#0E0E0F;border-radius:30px;padding:60px;transform:rotate(-3deg)"><div style="font:700 130px/0.6 Geist;color:var(--az)">“</div><p style="font:500 46px/1.3 Geist;margin-top:10px">[Fala real do cliente aqui.]</p><div style="display:flex;gap:20px;align-items:center;margin-top:44px"><div style="width:90px;height:90px;border-radius:50%;background:url(${F}musico.jpg) 50% 20%/cover"></div><div><div style="font:600 28px Geist">Nome do cliente</div><div class="mono" style="font-size:19px;color:#5C5C60;margin-top:4px">EMPRESA · ESTÚDIO</div></div></div></div>
+<div class="abs" style="left:0;right:0;top:1300px;text-align:center"><div class="pil" style="font-size:34px;padding:26px 46px">Falar no WhatsApp</div><div class="mono" style="margin-top:26px;font-size:22px;color:var(--cz);letter-spacing:.12em">LINK · WA.ME/5598991331727</div></div></div>`;
+document.getElementById('a').innerHTML=H;document.fonts.ready.then(()=>window.pronto=true);
+</script></body></html>
