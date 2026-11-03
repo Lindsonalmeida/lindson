@@ -1,0 +1,44 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<!-- Capas de destaques e prévia do perfil da Real Time (conta Leandro, 03/11/2026). Composição copiada do visor do template VideoLab
+     (o mesmo do manual v1: cantos por fora, ponto REC, rótulo em caixa alta) com os ícones de traço das 6 frentes do manual (página "Elementos e ícones").
+     Uso: destaques.html?d=0..5 (capa 1080x1920) ou ?perfil=1 (prévia 1080x1350). -->
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0E0E0F;--pn:#1A1A1B;--fio:#2A2A2C;--b:#F4F7FB;--cz:#8A8A8E;--az:#2E9BFF;--rec:#FF3B3B}
+*{box-sizing:border-box;margin:0;padding:0}body{background:var(--bg);color:var(--b);font-family:Geist,sans-serif;-webkit-font-smoothing:antialiased}
+.capa{width:1080px;height:1920px;position:relative;background:radial-gradient(circle at 50% 50%,#1b1d22 0%,var(--bg) 46%)}
+.alvo{position:absolute;left:50%;top:50%;width:620px;height:620px;transform:translate(-50%,-50%)}
+.k{position:absolute;width:110px;height:110px;border:0 solid var(--b)}.k1{left:0;top:0;border-width:10px 0 0 10px}.k2{right:0;top:0;border-width:10px 10px 0 0}.k3{left:0;bottom:0;border-width:0 0 10px 10px}.k4{right:0;bottom:0;border-width:0 10px 10px 0}
+.rec{position:absolute;right:70px;top:66px;width:46px;height:46px;border-radius:50%;background:var(--rec)}
+.ic{position:absolute;inset:0;display:grid;place-items:center}
+.rot{position:absolute;left:0;right:0;top:calc(50% + 380px);text-align:center;font:600 64px Geist;letter-spacing:.14em;text-transform:uppercase}
+.tc{position:absolute;left:0;right:0;top:calc(50% - 420px);text-align:center;font:500 34px 'Geist Mono';letter-spacing:.14em;color:var(--cz)}
+/* prévia do perfil */
+.pf{width:1080px;height:1350px;padding:70px 64px;position:relative}
+.cab{display:flex;gap:56px;align-items:center}.av{width:250px;height:250px;border-radius:50%;background:#000;display:grid;place-items:center;flex:none;border:2px solid var(--fio)}
+.nums{display:flex;gap:60px}.nums b{display:block;font:700 40px Geist}.nums span{font-size:26px;color:var(--b)}
+.us{font:700 40px Geist}.nm{font:600 30px Geist;margin-top:40px}.cat{font-size:28px;color:var(--cz);margin-top:6px}
+.bio{font-size:30px;line-height:1.45;margin-top:8px;white-space:pre-line}.lnk{color:#9ecbff;font-size:30px;margin-top:8px}
+.bts{display:flex;gap:14px;margin-top:40px}.bts div{flex:1;background:#262628;border-radius:16px;text-align:center;padding:22px;font:600 28px Geist}
+.des{display:flex;gap:34px;margin-top:56px}.des div{text-align:center;font-size:24px}.des i{display:block;width:140px;height:140px;border-radius:50%;border:3px solid #3a3a3e;padding:6px;margin-bottom:12px}.des i span{display:block;width:100%;height:100%;border-radius:50%;background-size:cover;background-position:center}
+.ftag{position:absolute;left:64px;right:64px;bottom:44px;display:flex;justify-content:space-between;font:500 18px 'Geist Mono';letter-spacing:.14em;color:#5C5C60}
+</style></head><body><div id="pp"></div>
+<script>
+const I={cinema:'<rect x="14" y="30" width="54" height="40" rx="6"/><path d="M68 44l18-10v32l-18-10"/><circle cx="30" cy="22" r="8"/><circle cx="52" cy="22" r="8"/>',
+ luz:'<path d="M30 18h40l-8 30H38z"/><path d="M50 48v26M36 82h28"/>',estudio:'<rect x="14" y="16" width="72" height="54" rx="4"/><path d="M36 86h28M50 70v16"/>',
+ producao:'<rect x="14" y="40" width="72" height="44" rx="4"/><path d="M14 40l8-22 66 0-8 22M34 18l-8 22M54 18l-8 22M74 18l-8 22"/>',
+ conteudo:'<rect x="16" y="20" width="68" height="62" rx="6"/><path d="M16 38h68M34 12v14M66 12v14"/><path d="M44 50l14 9-14 9z"/>',
+ cliente:'<path d="M20 26h60v38H46l-16 14V64H20z"/><path d="M34 42h32M34 52h20"/>'};
+// ordem dos destaques = funil (estratégia v2, página 6): o que aluga → onde grava → o que produz → prova → como reservar
+const D=[['Kits','cinema','01'],['Luz','luz','02'],['Estúdio','estudio','03'],['Produções','producao','04'],['Clientes','cliente','05'],['Reservar','conteudo','06']];
+const capa=(d)=>`<div class="capa"><div class="tc">REC 00:00:${d[2]}:00</div><div class="alvo"><i class="k k1"></i><i class="k k2"></i><i class="k k3"></i><i class="k k4"></i><span class="rec"></span><div class="ic"><svg viewBox="0 0 100 100" width="330" height="330"><g fill="none" stroke="#F4F7FB" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">${I[d[1]]}</g></svg></div></div><div class="rot">${d[0]}</div></div>`;
+const q=new URLSearchParams(location.search);
+if(q.get('perfil')){const bio=window.BIO||'';
+ document.getElementById('pp').innerHTML=`<div class="pf"><div class="cab"><div class="av"><img src="../../identidade/v1/marca/simbolo.svg" style="width:150px"></div><div><div class="us">realtime_fulljobs</div><div class="nums" style="margin-top:30px"><div><b>19</b><span>posts</span></div><div><b>7.028</b><span>seguidores</span></div><div><b>7.045</b><span>seguindo</span></div></div></div></div>
+ <div class="nm">Real Time · Locação de Cinema</div><div class="cat">Produtora de vídeo</div><div class="bio">${bio}</div><div class="lnk">🔗 wa.me/5598991331727</div>
+ <div class="bts"><div>Seguir</div><div>Mensagem</div><div>WhatsApp</div></div>
+ <div class="des">${D.map(d=>`<div><i><span style="background-image:url(capa-${d[2]}.png);background-size:100% auto"></span></i>${d[0]}</div>`).join('')}</div>
+ <div class="ftag"><span>PRÉVIA DO PERFIL · REAL TIME</span><span>NÚMEROS DO PRINT DE 03/11</span></div></div>`}
+else document.getElementById('pp').innerHTML=capa(D[+q.get('d')||0]);
+window.pronto=true;
+</script></body></html>
