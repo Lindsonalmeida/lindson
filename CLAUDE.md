@@ -1,6 +1,8 @@
 # Instruções do repositório (Lindson Almeida)
 
 > **PRIMEIRO DE TUDO (toda conta, toda conversa, inclusive conta nova):** leia `MEMORIA-DO-LINDSON.md` antes de responder qualquer pedido. Ali está tudo o que o Lindson já pediu, mandou, **aprovou** (guardar e melhorar) e **reprovou** (nunca repetir). Ao terminar cada pedido, acrescente nela o que foi aprovado ou reprovado, com data e conta, e faça commit e push. Nunca peça ao Lindson algo que já está lá.
+>
+> **Regra do Lindson (03/11/2026): sempre que ele pedir algo, verifique o repositório e como era feito antes** (`git grep`, `git log --grep`, pasta do cliente, `agencia/processos/`, privado `CentralLindsonALmeida`). Siga o jeito que já existe e diga qual seguiu; se não existir, salve o novo como modelo em `agencia/processos/`.
 
 ## Mini site de cliente (bio)
 

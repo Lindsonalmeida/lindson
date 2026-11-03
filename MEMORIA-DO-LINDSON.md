@@ -29,6 +29,7 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 
 ## 2. Jeito de trabalhar que ele exige
 
+0. **Sempre que ele pedir algo, verifique o repositório e como era feito** (03/11 · Leandro: "sempre que eu pedir algo, verifique o repositório e como era feito"). Antes de qualquer entrega: `git pull`, `git grep -i` e `git log --grep` pelo assunto, pasta do cliente, `agencia/processos/` e o repositório privado `CentralLindsonALmeida`. Se já existe um jeito, siga e cite qual seguiu; se não existe, crie o modelo em `agencia/processos/` para a próxima vez.
 1. **Sempre use os agentes e o time** (Xquads: copy-squad, brand-squad, design-squad, Hormozi, Donald Miller, Pedro Sobral; Peter no YouTube; Maquiavel nos negócios; agentes de pesquisa). Ele disse em 02/11: "sempre use nossos agentes e time".
 2. **Nada se cria, tudo se copia** (03/11). Nunca crie arte do zero: copie a composição de um modelo que já existe (os que ele manda, Designi, Behance) e diga qual modelo copiou.
 3. **Nunca refaça o que já existe.** Se o pedido for repetido, diga "já foi feito pela conta X em DD/MM, está em…". Versão nova parte da anterior (v2, v3…).
