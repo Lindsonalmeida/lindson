@@ -110,6 +110,8 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 
 - **Semana 2, foto de perfil e 6 capas de destaques APROVADAS** (04/11 · Pedro): "todos aprovados" (`artes-v2/artes.html` ids s2_*, `artes-v2/perfil.html`). Pedido seguinte: "crie mais 10 modelos diferentes entre amarelo e preto buscando as referências premium".
 
+- **Produtos low ticket (04/11 · Pedro):** quer landing page de cada produto (feita pelos agentes), a melhor plataforma (recomendada Hubla) e **área de membros estilo Netflix** com as fotos dele: todos os produtos na mesma área, só libera o que comprou, e compra os outros lá dentro. Referências que ele mandou: Hubla (ai creator PRO) e Estado α. Achou o template "amador" e pediu "extremo profissionalismo e impacto, algo fora de série". **APROVOU o estilo NEXUS · Premium Movie & Series Streaming Platform (Adam Max, dribbble.com/shots/27716502)**: "esse estilo é perfeito". Capas: "use fotos do busto pra cima e preencha quase toda a arte com a minha imagem".
+
 ## 4. REPROVADO: nunca repetir
 
 0c. **Capas amarelas a2y, c1y e r3y** (03/11 · Pedro): "os outros estão reprovados". Não usar foto "nascendo" do amarelo em degradê, nem pessoa pequena no amarelo com lista ao lado. **Amarelo APROVADO = c2y**: amarelo com textura, palavra gigante preta (Anton) atrás dele, ele recortado (BiRefNet) de corpo inteiro na frente, degradê preto embaixo com a manchete branca e a palavra em caixa amarela. Pediu em seguida: "busque maneiras e técnicas para melhorar ainda mais os que já aprovei, implementar, deixar mais moderno, premium, bonito e atrativo".
