@@ -16,7 +16,7 @@ for pasta in ('conteudo-nov', 'conteudo-dez'):
     if os.path.exists(f'{pasta}/carrosseis.json'):
         for k, c in json.load(open(f'{pasta}/carrosseis.json')).items():
             n = len(c['telas'])
-            itens.append((c['pos'], {'id': 'feed-' + k, 't': f'Carrossel · {n} telas', 'titulo': f'{c["data"][4:]} · {lim(c["telas"][0]["serif"])}', 'data': f'Postar em {c["data"]}',
+            itens.append((c['pos'], {'id': 'feed-' + k, 't': f'Carrossel · {n} telas', 'titulo': f'{c["data"][4:]} · {c.get("titulo") or lim(c["telas"][0]["serif"])}', 'data': f'Postar em {c["data"]}',
                                      'linha': c['linha'], 'st': 'aguardando', 'img': copia(pasta, f'{k}-1'), 'telas': [copia(pasta, f'{k}-{j}') for j in range(2, n + 1)], 'legenda': c['legenda']}))
 a += [x for _, x in sorted(itens, key=lambda t: t[0])]
 s = s[:i] + json.dumps(a, ensure_ascii=False) + s[i + fim:]

@@ -282,7 +282,8 @@ Chame no WhatsApp para sua avaliação.
 
 ORDEM = ['c5', 'p1', 'c6', 'p2', 'c7', 'p3', 'c8', 'p4', 'p5', 'p6']   # continua a grade de novembro (23 posts): começa no 24 (par = escuro)
 for p in POST: p['pos'] = 24 + ORDEM.index(p['id']); p['tom'] = 'claro' if p['pos'] % 2 else 'escuro'
-for k, c in CARR.items(): c['pos'] = 24 + ORDEM.index(k); c['tom'] = 'claro' if c['pos'] % 2 else 'escuro'
+TIT = {'c5': 'O que fazer antes das festas', 'c6': 'Lábios: o que ninguém responde', 'c7': 'Pele e sorriso nas festas', 'c8': 'O que 2026 me ensinou'}
+for k, c in CARR.items(): c['pos'] = 24 + ORDEM.index(k); c['tom'] = 'claro' if c['pos'] % 2 else 'escuro'; c['titulo'] = TIT[k]
 json.dump(POST, open('textos.json', 'w'), ensure_ascii=False, indent=1)
 json.dump(CARR, open('carrosseis.json', 'w'), ensure_ascii=False, indent=1)
 fotos = [p['foto'] for p in POST] + [c['capa_foto'] for c in CARR.values()] + [c['fim_foto'] for c in CARR.values()]

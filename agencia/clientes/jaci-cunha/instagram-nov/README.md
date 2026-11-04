@@ -11,3 +11,5 @@ Telas do meio (v2, 03/11, pedido do Lindson: sem foto nem composição repetida)
 Gerar: `python3 gerar.py <pasta com textos.json> ../fotos && node render.js <pasta>`.
 **Confirmar com a Dra.:** c2 diz que ela usa produtos com registro na Anvisa de fornecedores autorizados e segue protocolos de biossegurança.
 No painel dela (Aprovações) com todas as telas e a legenda, aguardando aprovação no site.
+
+Alta qualidade (conta Leandro, 04/11): `node render2x.js <pasta>` gera as telas em 2160×2700 (fotos melhoradas com `ferramentas/melhorar_foto.py`); são as que estão no painel, em `painel/jaci/feed/c1-1.jpg`…

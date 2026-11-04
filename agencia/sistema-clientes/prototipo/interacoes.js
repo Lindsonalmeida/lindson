@@ -50,8 +50,12 @@ function abasAprov(m) {
   cards.forEach((c, i) => {
     const p = APROV[i], g = grupoDe(p); c.style.display = g === abaAp ? '' : 'none';
     const alvo = c.querySelector('.c') || c;
-    // botão de baixar a arte em todos os cards (pedido do Lindson, 03/11/2026, conta Leandro)
-    if (p.img && !c.querySelector('[data-baixar]')) alvo.insertAdjacentHTML('beforeend', `<a class="btn lin" data-baixar href="${p.img}" download="${String(p.titulo || 'arte').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^A-Za-z0-9]+/g, '-').replace(/^-|-$/g, '').toLowerCase()}.jpg" style="display:block;text-align:center;margin-top:10px">⬇ Baixar arte</a>`);
+    // botão de baixar a arte em todos os cards (pedido do Lindson, 03/11/2026); carrossel baixa TODAS as telas de uma vez (pedido 04/11, conta Leandro)
+    window.__APROV = APROV;
+    const nomeArq = String(p.titulo || 'arte').normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^A-Za-z0-9]+/g, '-').replace(/^-|-$/g, '').toLowerCase();
+    if (p.img && !c.querySelector('[data-baixar]')) alvo.insertAdjacentHTML('beforeend', (p.telas && p.telas.length)
+      ? `<button class="btn lin" type="button" data-baixar data-baixarcar="${i}" style="display:block;width:100%;text-align:center;margin-top:10px">⬇ Baixar carrossel (${p.telas.length + 1} telas)</button>`
+      : `<a class="btn lin" data-baixar href="${p.img}" download="${nomeArq}.jpg" style="display:block;text-align:center;margin-top:10px">⬇ Baixar arte</a>`);
     if (g === 'apr') alvo.insertAdjacentHTML('beforeend', `<button class="btn am" type="button" data-postei="${i}" style="margin-top:10px;width:100%">✓ Marquei como postado</button>`);
     if (g === 'post') alvo.insertAdjacentHTML('beforeend', `<div style="font-size:12px;color:#4ADE80;margin-top:6px">📌 Postado${p.postadoPor ? ' por ' + esc(p.postadoPor) : ''}${p.postadoEm ? ', ' + new Date(p.postadoEm).toLocaleDateString('pt-BR') : ''}</div><button class="btn lin" type="button" data-despostei="${i}" style="margin-top:8px;width:100%;font-size:12px">Desfazer (voltar para "a postar")</button>`);
   });
@@ -93,3 +97,40 @@ window.__pos = view => {
   m.querySelectorAll('[data-presp]').forEach(b => b.onclick = async () => { const r = prompt('Resposta para o cliente:'); if (!r) return; if (await muda('ped', d => { const x = d.itens.find(y => y.id === b.dataset.presp); if (x) { x.resposta = r.trim().slice(0, 500); x.atualizado = agora(); } })) { aplicaPed(); render(); toast('Resposta salva. O cliente vê no painel.'); } });
 };
 })();
+
+// Baixar carrossel inteiro: no celular abre o "Compartilhar" com todas as telas (Salvar imagens na galeria); no computador baixa um .zip
+// com as telas em ordem (01, 02…). Zip sem compressão feito aqui mesmo, sem biblioteca. Conta Leandro, 04/11/2026.
+window.__zipTelas = window.__zipTelas || (() => {
+  const T = new Uint32Array(256).map((_, n) => { let c = n; for (let k = 0; k < 8; k++) c = c & 1 ? 0xEDB88320 ^ (c >>> 1) : c >>> 1; return c >>> 0; });
+  const crc = b => { let c = 0xFFFFFFFF; for (let i = 0; i < b.length; i++) c = T[(c ^ b[i]) & 255] ^ (c >>> 8); return (c ^ 0xFFFFFFFF) >>> 0; };
+  return arqs => { const enc = new TextEncoder(), partes = [], dir = []; let pos = 0;
+    for (const { nome, dados } of arqs) { const n = enc.encode(nome), c = crc(dados), h = new DataView(new ArrayBuffer(30));
+      [[0, 0x04034b50, 4], [4, 20, 2], [8, 0, 2], [14, c, 4], [18, dados.length, 4], [22, dados.length, 4], [26, n.length, 2]].forEach(([o, v, t]) => t === 4 ? h.setUint32(o, v, true) : h.setUint16(o, v, true));
+      partes.push(new Uint8Array(h.buffer), n, dados);
+      const d = new DataView(new ArrayBuffer(46)); [[0, 0x02014b50, 4], [4, 20, 2], [6, 20, 2], [16, c, 4], [20, dados.length, 4], [24, dados.length, 4], [28, n.length, 2], [42, pos, 4]].forEach(([o, v, t]) => t === 4 ? d.setUint32(o, v, true) : d.setUint16(o, v, true));
+      dir.push(new Uint8Array(d.buffer), n); pos += 30 + n.length + dados.length; }
+    const tam = dir.reduce((s, x) => s + x.length, 0), f = new DataView(new ArrayBuffer(22));
+    [[0, 0x06054b50, 4], [8, arqs.length, 2], [10, arqs.length, 2], [12, tam, 4], [16, pos, 4]].forEach(([o, v, t]) => t === 4 ? f.setUint32(o, v, true) : f.setUint16(o, v, true));
+    return new Blob([...partes, ...dir, new Uint8Array(f.buffer)], { type: 'application/zip' }); };
+})();
+window.__telasProntas = window.__telasProntas || {};
+document.addEventListener('click', async e => {
+  const b = e.target.closest('[data-baixarcar]'); if (!b) return; e.preventDefault();
+  const idx = +b.dataset.baixarcar, p = (window.__APROV || [])[idx]; if (!p) return;
+  const base = String(p.titulo || 'carrossel').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^A-Za-z0-9]+/g, '-').replace(/^-|-$/g, '').toLowerCase();
+  const celular = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent) && !!navigator.canShare;
+  const pronto = window.__telasProntas[idx];
+  if (celular && pronto) {   // 2º toque: o Safari só abre o Compartilhar direto no toque, por isso as telas já estão carregadas
+    try { await navigator.share({ files: pronto, title: p.titulo || 'Carrossel' }); } catch (err) {}
+    return;
+  }
+  const urls = [p.img, ...(p.telas || [])], txt = b.dataset.txt || b.textContent; b.dataset.txt = txt; b.disabled = true; b.textContent = 'Preparando as telas…';
+  try {
+    const blobs = await Promise.all(urls.map(u => fetch(u).then(r => { if (!r.ok) throw new Error(r.status); return r.blob(); })));
+    const files = blobs.map((x, k) => new File([x], `${base}-${String(k + 1).padStart(2, '0')}.jpg`, { type: x.type || 'image/jpeg' }));
+    if (celular && navigator.canShare({ files })) { window.__telasProntas[idx] = files; b.disabled = false; b.textContent = `Toque de novo para salvar as ${files.length} telas`; return; }
+    const z = window.__zipTelas(await Promise.all(files.map(async f => ({ nome: f.name, dados: new Uint8Array(await f.arrayBuffer()) }))));
+    const a = document.createElement('a'); a.href = URL.createObjectURL(z); a.download = base + '.zip'; document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 4000);
+  } catch (err) { alert('Não consegui baixar agora. Tente de novo.'); }
+  b.disabled = false; b.textContent = txt;
+});
