@@ -1,0 +1,88 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Área de Membros · Lindson Almeida</title>
+<!-- Área de membros dos produtos do Lindson · v2 no estilo APROVADO (conta Pedro, 04/11/2026): "esse estilo é perfeito".
+     Template copiado: NEXUS · Premium Movie & Series Streaming Platform UI (Adam Max, dribbble.com/shots/27716502): banner de cinema com a pessoa
+     ocupando a tela, rótulo "A NEXUS ORIGINAL SERIES" espaçado, título condensado gigante em 2 linhas, slogan espaçado, linha de dados com selo,
+     botões Play + Minha lista, "Trending Now" em miniaturas 16:9 com o título na imagem, "Explore by Category", "New Releases" em pôsteres,
+     coluna "Top Rated" numerada e faixa "Take Nexus With You".
+     Regras dele: fotos do busto pra cima ocupando quase toda a arte; todos os produtos na mesma área, só o comprado liberado, os outros com
+     cadeado e "Comprar" aqui dentro. Marca v2: preto + amarelo #F5C518 no lugar do vermelho do NEXUS. Fotos dele fora do Git (artes-v1/fotos).
+     Dados de exemplo: ?tem=kit-mes-pronto,kit-whatsapp-que-fecha -->
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{--p:#07090C;--s:#0E1116;--l:#1C2028;--t:#F5F3EE;--ap:#9AA0A8;--am:#F5C518}
+*{box-sizing:border-box;margin:0;padding:0}html{background:var(--p)}body{color:var(--t);font-family:Manrope;background:var(--p)}a{color:inherit;text-decoration:none}
+.nav{position:fixed;top:0;left:0;right:0;z-index:9;display:flex;align-items:center;gap:40px;padding:22px 56px;background:linear-gradient(180deg,rgba(7,9,12,.9),transparent)}
+.logo{font:500 18px 'JetBrains Mono';letter-spacing:.5em}.logo b{color:var(--am)}
+.nav a.l{font:600 15px Manrope;color:#c9cdd3;padding-bottom:6px;border-bottom:2px solid transparent}.nav a.l.on{color:#fff;border-color:var(--am)}
+.nav .d{margin-left:auto;display:flex;gap:22px;align-items:center}.av{width:36px;height:36px;border-radius:50%;background:var(--am);color:#111;display:grid;place-items:center;font:800 13px Manrope}
+.hero{position:relative;height:92vh;min-height:640px;max-height:900px;overflow:hidden}
+.hero .ft{position:absolute;top:0;bottom:0;right:0;width:58%;background-size:cover;background-position:50% 22%;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 35%);mask-image:linear-gradient(90deg,transparent 0,#000 35%)}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(7,9,12,.96) 0%,rgba(7,9,12,.75) 30%,rgba(7,9,12,.05) 62%),linear-gradient(0deg,var(--p) 2%,rgba(7,9,12,0) 38%),radial-gradient(40% 50% at 78% 35%,rgba(245,170,20,.18),transparent 70%)}
+.mira{position:absolute;z-index:2;left:58%;top:58%;width:220px;height:220px;border-radius:50%;border:1px solid rgba(255,255,255,.16)}.mira:before,.mira:after{content:"";position:absolute;background:rgba(255,255,255,.16)}.mira:before{left:50%;top:-30px;bottom:-30px;width:1px}.mira:after{top:50%;left:-30px;right:-30px;height:1px}
+.ht{position:absolute;z-index:3;left:56px;top:22%;max-width:640px}
+.orig{font:500 14px 'JetBrains Mono';letter-spacing:.42em;color:#cfd3d8}.orig b{color:var(--am)}
+.tit{font:400 128px/.88 Anton;text-transform:uppercase;letter-spacing:.01em;margin:22px 0 14px;text-shadow:0 10px 40px rgba(0,0,0,.6)}
+.tit span{display:block;font-size:.62em}
+.slog{font:600 14px 'JetBrains Mono';letter-spacing:.42em;color:#d7dbe0}
+.meta{display:flex;gap:18px;align-items:center;margin:26px 0 18px;font:600 15px Manrope;color:#d9dde2}.meta i{width:1px;height:16px;background:#444}.hd{border:1px solid #8a8f96;border-radius:4px;padding:1px 6px;font:700 11px 'JetBrains Mono'}
+.desc{font:500 17px/1.55 Manrope;color:#c3c8ce;max-width:540px}
+.bts{display:flex;gap:14px;margin-top:30px}.bt{display:inline-flex;align-items:center;gap:10px;border-radius:99px;padding:15px 30px;font:800 16px Manrope;border:0;cursor:pointer}
+.bt.am{background:var(--am);color:#111;box-shadow:0 10px 30px rgba(245,197,24,.3)}.bt.vz{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.3);color:#fff;backdrop-filter:blur(10px)}
+.tendo{position:relative;z-index:4;margin:-170px 56px 0}
+.lin{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}.lin h2{font:700 20px Manrope}.lin a{font:600 13px Manrope;color:var(--ap)}
+.fila{display:flex;gap:16px;overflow-x:auto;padding-bottom:8px}.fila::-webkit-scrollbar{display:none}
+.th{position:relative;flex:none;width:300px;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#111 center/cover;border:2px solid transparent;transition:transform .25s,border-color .25s}
+.th:hover,.th.on{border-color:#fff;transform:translateY(-4px)}
+.th:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(7,9,12,.92),rgba(7,9,12,.1) 60%)}
+.th .n{position:absolute;z-index:2;left:16px;right:16px;bottom:12px;font:400 26px/.95 Anton;text-transform:uppercase;letter-spacing:.02em}.th .n small{display:block;font:600 11px 'JetBrains Mono';letter-spacing:.3em;color:var(--am);margin-bottom:5px}
+.cad{position:absolute;z-index:3;top:10px;right:10px;background:rgba(7,9,12,.75);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.2);border-radius:99px;padding:5px 11px;font:700 11px 'JetBrains Mono';letter-spacing:.1em}
+.th.tr{filter:saturate(.35)}.th.tr:hover{filter:none}
+.grid{display:grid;grid-template-columns:1fr 340px;gap:40px;margin:56px 56px 0}
+.cats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.cat{position:relative;aspect-ratio:4/3;border-radius:14px;overflow:hidden;background:#111 center/cover}
+.cat:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(7,9,12,.95),transparent 65%)}.cat b{position:absolute;z-index:2;left:16px;bottom:30px;font:800 18px Manrope}.cat span{position:absolute;z-index:2;left:16px;bottom:12px;font:500 12px Manrope;color:var(--ap)}
+.cat i{position:absolute;z-index:2;right:14px;bottom:14px;width:30px;height:30px;border-radius:50%;border:1px solid rgba(255,255,255,.4);display:grid;place-items:center;font-style:normal;font-size:14px}
+.pos{display:grid;grid-template-columns:repeat(5,1fr);gap:16px}.po{position:relative;aspect-ratio:2/3;border-radius:12px;overflow:hidden;background:#111 center/cover}
+.po:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(7,9,12,.95),transparent 55%)}.po .n{position:absolute;z-index:2;left:12px;right:12px;bottom:14px;font:400 22px/.95 Anton;text-transform:uppercase}.po .n small{display:block;font:500 11px Manrope;color:var(--ap);text-transform:none;margin-top:6px;font-family:Manrope}
+.lado{background:var(--s);border:1px solid var(--l);border-radius:18px;padding:20px}.top{display:grid;grid-template-columns:28px 56px 1fr auto;gap:12px;align-items:center;padding:12px 0;border-bottom:1px solid var(--l)}
+.top .nn{font:400 34px Anton;color:#3a3f47}.top .mi{width:56px;height:72px;border-radius:8px;background:#111 center/cover}.top b{font:700 14px Manrope}.top small{display:block;font:500 12px Manrope;color:var(--ap);margin-top:3px}
+.top a{font:700 11px Manrope;border:1px solid #3a3f47;border-radius:99px;padding:6px 10px;white-space:nowrap}
+.cel{display:flex;gap:18px;align-items:center;margin-top:18px;background:linear-gradient(135deg,#151a21,#0b0e12);border:1px solid var(--l);border-radius:18px;padding:22px}
+.faixa{position:relative;margin:48px 56px 60px;border-radius:20px;overflow:hidden;display:flex;align-items:center;gap:30px;padding:36px 40px;background:#0E1116;border:1px solid var(--l)}.faixa:before{content:'';position:absolute;top:0;bottom:0;right:0;width:55%;background:var(--fx) 50% 16%/cover}.faixa:after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,#0E1116 45%,rgba(14,17,22,.55) 70%,rgba(14,17,22,.1))}.faixa>div{position:relative;z-index:2}
+.faixa h3{font:800 30px Manrope;letter-spacing:-.02em}.faixa p{font:500 15px Manrope;color:var(--ap);margin:8px 0 18px;max-width:460px}
+@media(max-width:900px){.nav{padding:16px 18px;gap:18px}.nav a.l:not(.on){display:none}.ht{left:18px;right:18px;top:auto;bottom:200px}.tit{font-size:76px}.desc{font-size:15px}
+ .hero .ft{width:100%;background-position:62% 12%;-webkit-mask-image:none;mask-image:none}.hero:after{background:linear-gradient(0deg,var(--p) 18%,rgba(7,9,12,.55) 55%,rgba(7,9,12,.15))}.tendo{margin:-150px 18px 0}.th{width:240px}
+ .grid{grid-template-columns:1fr;margin:40px 18px 0}.cats{grid-template-columns:1fr 1fr}.pos{grid-template-columns:1fr 1fr 1fr}.faixa{margin:40px 18px;padding:26px;background:#0E1116}.mira{display:none}}
+</style></head><body>
+<nav class="nav"><div class="logo">LINDSON<b>.</b></div><a class="l on" href="#">Início</a><a class="l" href="#meus">Meus produtos</a><a class="l" href="#loja">Loja</a><a class="l" href="#">Minha lista</a>
+ <div class="d"><svg width="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><div class="av">CL</div></div></nav>
+<section class="hero"><div class="ft" id="hft"></div><div class="mira"></div><div class="ht" id="ht"></div></section>
+<section class="tendo" id="meus"><div class="lin"><h2>Em alta</h2><a href="#loja">Ver todos →</a></div><div class="fila" id="fila"></div></section>
+<div class="grid"><div>
+ <div class="lin" style="margin-top:4px"><h2>Explore por tema</h2><a href="#">Ver todos →</a></div><div class="cats" id="cats"></div>
+ <div class="lin" style="margin-top:40px" id="loja"><h2>Loja · compre aqui dentro</h2><a href="#">o acesso libera na hora</a></div><div class="pos" id="pos"></div>
+</div><aside><div class="lado"><div class="lin" style="margin:0"><h2>Mais acessados</h2></div><div id="top"></div></div>
+ <div class="cel"><div style="font:400 44px Anton;color:var(--am)">▶</div><div><b style="font:800 18px Manrope">Leve no celular</b><p style="font:500 13px/1.45 Manrope;color:var(--ap);margin-top:4px">Abra pelo navegador e adicione à tela inicial. Os PDFs ficam salvos no seu aparelho.</p></div></div></aside></div>
+<div class="faixa" id="faixa"><div><h3>Seu Instagram trazendo cliente</h3><p>Se você quer o mês gravado, editado e levando gente para o seu WhatsApp, eu faço com você.</p><a class="bt am" href="#">Falar com o Lindson</a></div></div>
+<script>
+const F='../../marca-lindson/artes-v1/fotos/';
+// [slug, linha 1, linha 2, slogan, dados, descrição, foto, posição do busto]
+const P=[['kit-mes-pronto','KIT MÊS','PRONTO','O SEU MÊS DE INSTAGRAM PRONTO PARA GRAVAR',['Kit','52 páginas','30 roteiros'],'30 roteiros, 50 ganchos, o calendário de 30 dias e 10 legendas. Você troca os colchetes pelo seu serviço e grava a semana inteira em uma hora.','c07','50% 14%','vb-c00','vc-c14'],
+ ['kit-whatsapp-que-fecha','WHATSAPP','QUE FECHA','DO PRIMEIRO OI ATÉ A VENDA',['Kit','24 páginas','43 atalhos'],'O script de 6 passos, 20 respostas para "quanto custa?" e as mensagens para quem some depois do preço.','c08','50% 14%','vb-c01','vc-c15'],
+ ['kit-prospeccao','KIT','PROSPECÇÃO','100 MENSAGENS QUE ABREM CONVERSA',['Kit','100 mensagens','10 nichos'],'As mensagens para chamar negócio local no WhatsApp, a cadência de 4 toques e as respostas para as objeções.','c10','50% 14%','vb-c02','vc-c09'],
+ ['raio-x-do-perfil','RAIO-X','DO PERFIL','EU OLHO O SEU PERFIL E TE MOSTRO O CAMINHO',['Serviço','Vídeo','Plano de 7 dias'],'Um vídeo meu analisando o seu Instagram e o plano de 7 dias para o seu perfil começar a vender.','c11','50% 14%','vb-c03','vc-c05'],
+ ['bio-que-vende','BIO QUE','VENDE','A SUA BIO PRONTA EM 15 MINUTOS',['Guia','Fórmula de 5 partes','Checklists'],'A fórmula da bio que diz o que você faz, para quem e como chamar, com checklists e antes e depois.','c12','50% 14%','vb-c04','vc-c06']];
+const tem=(new URLSearchParams(location.search).get('tem')||'kit-mes-pronto').split(','),ok=p=>tem.includes(p[0]);
+const bg=p=>`background-image:url(${F}${p[6]}.jpg);background-position:${p[7]}`,bp=p=>`background-image:url(${F}${p[8]}.jpg);background-position:50% 20%`,bm=p=>`background-image:url(${F}${p[9]}.jpg);background-position:50% 30%`;
+const h=P.find(ok)||P[0];
+document.getElementById('hft').style.backgroundImage=`url(${F}c16.jpg)`;
+document.getElementById('faixa').style.setProperty('--fx',`url(${F}vf-c12.jpg)`);
+document.getElementById('ht').innerHTML=`<div class="orig">UM PRODUTO <b>LINDSON ALMEIDA</b></div><h1 class="tit">${h[1]}<span>${h[2]}</span></h1><div class="slog">${h[3]}</div>
+ <div class="meta"><span>2026</span><i></i><span>${h[4][0]}</span><i></i><span>${h[4][1]}</span><span class="hd">PDF</span></div><p class="desc">${h[5]}</p>
+ <div class="bts"><a class="bt am" href="#">▶ ${ok(h)?'Acessar':'Comprar'}</a><a class="bt vz" href="#">+ Minha lista</a></div>`;
+document.getElementById('fila').innerHTML=P.map((p,i)=>`<a class="th ${i?'':'on'} ${ok(p)?'':'tr'}" href="#" style="${bg(p)}">${ok(p)?'':'<span class="cad">🔒 COMPRAR</span>'}<div class="n"><small>${ok(p)?'LIBERADO':'NA LOJA'}</small>${p[1]} ${p[2]}</div></a>`).join('');
+const C=[['Conteúdo','Roteiros, ganchos e calendário','c13','50% 14%'],['Vendas','WhatsApp e prospecção','c14','50% 12%'],['Perfil','Bio, destaques e Raio-X','c15','50% 12%'],['Bastidores','Como eu gravo e anuncio','c09','50% 10%']];
+document.getElementById('cats').innerHTML=C.map(c=>`<a class="cat" href="#" style="background-image:url(${F}${c[2]}.jpg);background-position:${c[3]}"><b>${c[0]}</b><span>${c[1]}</span><i>→</i></a>`).join('');
+document.getElementById('pos').innerHTML=P.map(p=>`<a class="po" href="#" style="${bp(p)}">${ok(p)?'':'<span class="cad">🔒</span>'}<div class="n">${p[1]} ${p[2]}<small>${ok(p)?'Liberado · continuar':'Comprar e liberar'}</small></div></a>`).join('');
+document.getElementById('top').innerHTML=P.map((p,i)=>`<div class="top"><div class="nn">${i+1}</div><div class="mi" style="${bm(p)}"></div><div><b>${p[1]} ${p[2]}</b><small>${p[4].join(' · ')}</small></div><a href="#">${ok(p)?'Abrir':'Comprar'}</a></div>`).join('');
+</script></body></html>
