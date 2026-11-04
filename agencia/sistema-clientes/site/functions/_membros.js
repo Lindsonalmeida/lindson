@@ -59,7 +59,9 @@ export const ARQUIVOS = {
     { f: 'Planilha-Cadencia-Kit-Prospeccao.xlsx', nome: 'Planilha da cadência de 4 toques · Excel', tipo: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' },
   ],
   'raio-x-do-perfil': [],
-  'bio-que-vende': [],
+  'bio-que-vende': [
+    { f: 'Bio-que-Vende-em-15-Minutos.pdf', nome: 'Bio que Vende em 15 Minutos · guia em PDF (fórmula, 15 minutos, antes × depois, checklists e 10 modelos)', tipo: 'application/pdf' },
+  ],
 };
 export const arquivoDe = (slug, f) => (ARQUIVOS[slug] || []).find(a => a.f === f) || null;
 

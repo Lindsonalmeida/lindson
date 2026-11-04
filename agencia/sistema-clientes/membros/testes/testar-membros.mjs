@@ -220,12 +220,17 @@ await caso('admin libera kit-prospeccao à mão → membro baixa a planilha', as
   espera((await baixa('kit-prospeccao', 'Planilha-Cadencia-Kit-Prospeccao.xlsx', sessao)).status === 200);
 });
 await caso('admin cria venda manual com CPF → primeiro acesso funciona', async () => {
-  let r = await admin.onRequestPost({ request: pj('/api/membros/admin', { acao: 'liberar', email: 'maria@x.com', nome: 'Maria Silva', cpf: '529.982.247-25', produto: 'bio-que-vende' }, cAdm), env }); espera(r.status === 200);
+  let r = await admin.onRequestPost({ request: pj('/api/membros/admin', { acao: 'liberar', email: 'maria@x.com', nome: 'Maria Silva', cpf: '529.982.247-25', produto: 'raio-x-do-perfil' }, cAdm), env }); espera(r.status === 200);
   r = await primeiro.onRequestPost({ request: pj('/api/membros/primeiro', { email: 'maria@x.com', cpf: '52998224725', senha: 'mariasenha1' }), env }); espera(r.status === 200, 'status ' + r.status);
   const c = cookieDe(r); const j = await (await eu.onRequestGet({ request: req('/api/membros/eu', { headers: { Cookie: c } }), env })).json();
-  espera(JSON.stringify(j.produtos) === '["bio-que-vende"]');
-  const pg = await pagina.onRequestGet({ request: req('/membros/p/bio-que-vende', { headers: { Cookie: c } }), env, params: { slug: 'bio-que-vende' } });
+  espera(JSON.stringify(j.produtos) === '["raio-x-do-perfil"]');
+  const pg = await pagina.onRequestGet({ request: req('/membros/p/raio-x-do-perfil', { headers: { Cookie: c } }), env, params: { slug: 'raio-x-do-perfil' } });
   espera(/Em produção/.test(await pg.text()));
+});
+await caso('Bio que Vende liberada → membro baixa o PDF do guia (conta Leandro, 04/11)', async () => {
+  let r = await admin.onRequestPost({ request: pj('/api/membros/admin', { acao: 'liberar', email: 'maria@x.com', produto: 'bio-que-vende' }, cAdm), env }); espera(r.status === 200, 'status ' + r.status);
+  r = await entrar.onRequestPost({ request: pj('/api/membros/entrar', { email: 'maria@x.com', senha: 'mariasenha1' }), env }); espera(r.status === 200, 'login ' + r.status);
+  espera((await baixa('bio-que-vende', 'Bio-que-Vende-em-15-Minutos.pdf', cookieDe(r))).status === 200);
 });
 await caso('admin baixa qualquer arquivo para conferir', async () => { espera((await baixa('kit-whatsapp-que-fecha', 'atalhos.txt', cAdm)).status === 200); });
 await caso('acesso removido (Hubla) → produto bloqueado na hora (download 403)', async () => {
