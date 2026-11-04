@@ -54,6 +54,7 @@ export const ARQUIVOS = {
     { f: 'atalhos.csv', nome: '43 atalhos de resposta rápida · CSV', tipo: 'text/csv; charset=utf-8' },
   ],
   'kit-prospeccao': [
+    { f: 'Kit-Prospeccao-pelo-WhatsApp.pdf', nome: 'Kit Prospecção pelo WhatsApp · PDF com o método, a cadência e as 100 mensagens', tipo: 'application/pdf' },
     { f: '100-Mensagens-Kit-Prospeccao.txt', nome: '100 mensagens de prospecção · texto', tipo: 'text/plain; charset=utf-8' },
     { f: 'Planilha-Cadencia-Kit-Prospeccao.xlsx', nome: 'Planilha da cadência de 4 toques · Excel', tipo: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' },
   ],
