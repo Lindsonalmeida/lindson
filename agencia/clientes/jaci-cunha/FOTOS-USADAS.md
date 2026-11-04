@@ -44,6 +44,11 @@ Fotos novas (IMG_30xx, 36 fotos que o Lindson subiu no painel em 04/11) no priva
 | `IMG_3048` | capa do carrossel c8 (ter 22/12) · `conteudo-dez/feed/c8-1.jpg` | 04/11/2026 | Leandro |
 | `IMG_3019` | última tela do carrossel c8 (ter 22/12) · `conteudo-dez/feed/c8-6.jpg` | 04/11/2026 | Leandro |
 
+| `IMG_3040` (recepção, braços abertos) | site v2, topo da home (`img/recepcao-jaci.webp`) | 04/11/2026 | Leandro |
+| `IMG_3018` (vermelho, mão no queixo) | site v2, seção da Dra. (`img/jaci-retrato.webp`) | 04/11/2026 | Leandro |
+| `IMG_3024` (recepção) | site v2, capa da bio (`img/recepcao.webp`) | 04/11/2026 | Leandro |
+| 8 fotos antigas (`fotos/`) | site v2, páginas de tratamento (como na v1) | 04/11/2026 | Leandro |
+
 **Não usar (cabeça cortada no original):** IMG_3010, IMG_3012.
-**Contam como usadas (quase iguais às usadas):** IMG_3018 (≈3009), IMG_3024 (≈3022), IMG_3040 (≈3038).
+**3018, 3024 e 3040** eram quase iguais a fotos do feed e foram para o site (outro canal).
 **Ainda livres:** nenhuma das 36 novas. **Janeiro precisa de fotos novas.**
