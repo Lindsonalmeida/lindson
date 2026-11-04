@@ -93,3 +93,4 @@ Todas desligadas desde 26/10 (as de 3 em 3 horas falharam por limite de uso do p
 - `apps/clone-studio/`: **Dublê**, app interno de clone de voz e imagem do Lindson (identidade em `identidade/`, tela v2 em `web/` copiada do template Sermo; stories e vídeo de divulgação em `divulgacao/`) (Gradio, roda no notebook dele; dados fora do Git) (conta Pedro, 03/11/2026).
 | `agencia/processos/fotos-usadas.md` | regra e processo para não repetir foto (aba Usadas) | (conta Leandro, 04/11) |
 | `agencia/clientes/jaci-cunha/conteudo-nov/` e `conteudo-dez/` | feed de novembro e dezembro da Dra. Jaci (textos, gerador com enquadramento pelo rosto, conferência, artes) | (conta Leandro, 04/11) |
+| `agencia/ofertas/low-ticket/venda/ESCADA.md` | escada de venda dos produtos: upsell, downsell, recuperação, reembolso e agência (Hormozi Squad) | (conta Leandro, 04/11) |

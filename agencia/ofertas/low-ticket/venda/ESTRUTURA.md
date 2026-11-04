@@ -1,5 +1,8 @@
 # Estrutura de venda dos 5 produtos low ticket: da montagem até a venda
 
+> **Atualização (04/11, conta Leandro):** já existem os PDFs do Kit Prospecção e da Bio que Vende, o Pack de capas, o README/OFERTA/roteiro/formulário do Raio-X e as 5 landing pages (rascunho, conta Pedro). **Upsells, downsells, recuperação de checkout, reembolso e a chamada para a agência de cada produto: `ESCADA.md`** (Hormozi Squad, pedido do Lindson: "nunca perca uma oportunidade de vender ou de me contratarem").
+
+
 Agente: Estrategista de Growth e Vendas do Builder Squad (Vector), com a base do Hormozi Offers e Pricing (`../hormozi.md`), do Pedro Sobral (`agencia/marca-lindson/ESTRATEGIA.md` §7) e do padrão de copy (`agencia/prospeccao/PADRAO-COPY.md`). Data: 04/11/2026.
 
 **Regras que valem para o documento inteiro:**
