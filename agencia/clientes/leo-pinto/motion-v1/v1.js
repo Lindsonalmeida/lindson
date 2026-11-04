@@ -1,4 +1,4 @@
-// Vídeo 1 · "Quem sabe o que falta no seu bairro?" (ROTEIROS.md, conta Pedro, 04/11/2026)
+// Vídeo 1 · "Quem conhece o seu bairro?" (textos revistos em 04/11: Leo é situação, nada critica a gestão) (ROTEIROS.md, conta Pedro, 04/11/2026)
 // Fotos: f07 (close, polo laranja) · f11 (meio corpo, celular na mão) · f03 (close, mão no peito).
 (() => {
 const { pop, wipe, wipeOut, words, area, blk, inOut } = H_;
@@ -11,8 +11,8 @@ window.VIDEO = { id: 'v1', shots: [
 { n: 1, t0: 0, t1: 3.5, post: .25,
   cam: { s: [[3.15, 1], [3.75, 1.35, 'inC']], o: [[3.3, 1], [3.75, 0, 'inQ']], blur: [[3.3, 0], [3.75, 14, 'inQ']] },
   layers: [ area([
-    blk(['QUEM SABE', 'O QUE FALTA'], { max: 170, extra: { parts: words(['QUEM SABE', 'O QUE FALTA'], .15, .16) } }),
-    blk(['NO SEU', '*BAIRRO?*'], { max: 210, css: { marginTop: '22px' }, extra: { parts: words(['NO SEU', 'BAIRRO?'], .95, .2, .4) } }),
+    blk(['QUEM', 'CONHECE'], { max: 190, extra: { parts: words(['QUEM', 'CONHECE'], .15, .22) } }),
+    blk(['O SEU', '*BAIRRO?*'], { max: 210, css: { marginTop: '22px' }, extra: { parts: words(['O SEU', 'BAIRRO?'], .75, .2, .4) } }),
   ], { css: { filter: 'drop-shadow(0 18px 30px rgba(2,12,50,.45))' } }) ] },
 // 2 · paralaxe 2.5D: mapa atrás, VOCÊ. no meio, Leo na frente
 { n: 2, t0: 3.5, t1: 6.5, post: .7,
@@ -29,16 +29,16 @@ window.VIDEO = { id: 'v1', shots: [
   layers: [
     { css: { left: 0, top: 0, width: '1080px', height: '960px', background: `linear-gradient(160deg,#1539BE,#0B2A8A 55%,${mar})` }, tr: { clip: wipe('l', 0, .55) } },
     { css: { left: 0, top: '960px', width: '1080px', height: '960px', background: `linear-gradient(200deg,#FF9A22,${lar} 55%,#F05A00)` }, tr: { clip: wipe('r', .2, .55) } },
-    area([blk(['ONDE A RUA', '*ALAGA.*'], { max: 180, extra: { parts: words(['ONDE A RUA', 'ALAGA.'], .45, .14) } })], { y0: 280, y1: 930, css: { filter: 'drop-shadow(0 16px 26px rgba(2,12,50,.4))' } }),
-    area([blk(['ONDE FALTA', '~LUZ.~'], { max: 200, css: { color: mar }, extra: { parts: words(['ONDE FALTA', 'LUZ.'], 1.35, .14) } })], { y0: 990, y1: 1600 }),
+    area([blk(['CADA RUA.', 'CADA *PRAÇA.*'], { max: 180, extra: { parts: words(['CADA RUA.', 'CADA PRAÇA.'], .45, .16) } })], { y0: 280, y1: 930, css: { filter: 'drop-shadow(0 16px 26px rgba(2,12,50,.4))' } }),
+    area([blk(['CADA', '~POVOADO.~'], { max: 200, css: { color: mar }, extra: { parts: words(['CADA', 'POVOADO.'], 1.35, .2) } })], { y0: 990, y1: 1600 }),
   ] },
 // 4 · máscara: o texto se revela por trás de um bloco marinho que desliza
 { n: 4, t0: 10.5, t1: 14, bg: BG, post: .3,
   cam: { clip: [[-.1, [0, 0, 0, 100]], [.35, [0, 0, 0, 0], 'ioE']], y: [[3.2, 0], [3.8, -260, 'inC']], o: [[3.4, 1], [3.8, 0, 'inQ']] },
   layers: [
     area([
-      blk(['ONDE A ESTRADA', 'DO POVOADO'], { max: 150, extra: { kids: [{ css: { inset: '-14px -10px', background: mar }, cls: 'box', tr: { x: [[.35, 0], [1.0, 1000, 'ioE']] } }] } }),
-      blk(['PARA NO', '*INVERNO.*'], { max: 190, css: { marginTop: '26px' }, extra: { kids: [{ css: { inset: '-14px -10px', background: mar }, cls: 'box', tr: { x: [[1.1, 0], [1.75, 1000, 'ioE']] } }] } }),
+      blk(['CADA CANTO', 'TEM SUA'], { max: 160, extra: { kids: [{ css: { inset: '-14px -10px', background: mar }, cls: 'box', tr: { x: [[.35, 0], [1.0, 1000, 'ioE']] } }] } }),
+      blk(['*HISTÓRIA.*'], { max: 190, css: { marginTop: '26px' }, extra: { kids: [{ css: { inset: '-14px -10px', background: mar }, cls: 'box', tr: { x: [[1.1, 0], [1.75, 1000, 'ioE']] } }] } }),
     ], { css: { overflow: 'visible' } }),
   ] },
 // 5 · morph de blocos: o bloco laranja se estica e vira um retângulo branco; o texto pousa em royal
@@ -52,7 +52,7 @@ window.VIDEO = { id: 'v1', shots: [
             bg: [[.85, lar], [1.25, '#FFFFFF', 'ioQ']] } },
     area([
       blk(['QUEM MORA LÁ'], { w: 800, max: 130, css: { color: roy }, extra: { parts: words(['QUEM MORA LÁ'], 1.15, .13) } }),
-      blk(['SABE MELHOR', 'QUE _NINGUÉM._'], { w: 800, max: 140, css: { color: roy, marginTop: '18px' }, extra: { parts: words(['SABE MELHOR', 'QUE NINGUÉM.'], 1.65, .13) } }),
+      blk(['SABE O QUE', '_IMPORTA._'], { w: 800, max: 140, css: { color: roy, marginTop: '18px' }, extra: { parts: words(['SABE O QUE', 'IMPORTA.'], 1.65, .13) } }),
     ], { y0: 640, y1: 1280 }),
   ] },
 // 6 · whip pan até a foto (celular na mão); 1ª linha em Kaushan, 2ª em Montserrat Black
@@ -65,13 +65,13 @@ window.VIDEO = { id: 'v1', shots: [
       tr: { o: [[.15, 0], [.45, 1, 'outQ']], y: [[.15, 40], [.6, 0, 'outC']], x: [[0, 0], [4, 20, 'lin']] } },
     area([blk(['EU LEVO PRA', '*CÂMARA.*'], { w: 760, max: 150, extra: { parts: words(['EU LEVO PRA', 'CÂMARA.'], 1.0, .15) } })], { y0: 470, y1: 840, css: { left: '160px', width: '760px', filter: 'drop-shadow(0 14px 26px rgba(2,12,50,.5))' } }),
   ] },
-// 7 · zoom-through: a câmera atravessa o "O" de CORRO e sai na frase seguinte
+// 7 · zoom-through: a câmera atravessa o "O" de SOMO e sai na frase seguinte
 { n: 7, t0: 21.5, t1: 25.5, post: .15,
   cam: { o: [[3.75, 1], [4.15, 0, 'inQ']], y: [[3.6, 0], [4.15, 200, 'inC']] },
   layers: [
-    area([blk(['E CORR{O}', 'ATRÁS'], { w: 860, max: 300, extra: { zo: true, zoY: .52, parts: words(['E CORRO', 'ATRÁS'], .2, .16, .38),
+    area([blk(['E S{O}MO', 'COM'], { w: 860, max: 300, extra: { zo: true, zoY: .52, parts: words(['E SOMO', 'COM'], .2, .16, .38),
       tr: { s: [[1.85, 1], [2.55, 46, 'inE']], zc: [[1.85, 0], [2.25, 1, 'ioC']], o: [[2.42, 1], [2.55, 0, 'lin']] } } })]),
-    area([blk(['DE QUEM TEM QUE'], { w: 900, max: 130 }), blk(['*RESOLVER.*'], { w: 900, max: 200, css: { marginTop: '18px' } })],
+    area([blk(['A'], { w: 900, max: 130 }), blk(['*PREFEITURA.*'], { w: 900, max: 180, css: { marginTop: '18px' } })],
       { tr: { s: [[2.3, .25], [2.85, 1, 'outE']], o: [[2.3, 0], [2.5, 1, 'lin']], blur: [[2.3, 18], [2.8, 0, 'outQ']] }, css: { filter: 'drop-shadow(0 16px 26px rgba(2,12,50,.45))' } }),
   ] },
 // 8 · mapa desenhado: contorno amarelo em 2,5 s e depois o preenchimento azul claro
@@ -91,7 +91,7 @@ window.VIDEO = { id: 'v1', shots: [
     { k: 'map', id: 'v1d', w: 1200, echo: true, stroke: '#BFD8FF', sw: 3, css: { left: '-60px', top: '820px' }, tr: { o: [[0, .7]], x: [[0, -40], [5, 30, 'lin']], s: [[0, 1.08], [5, 1, 'lin']] } },
     { k: 'photo', src: 'f03', face: { cx: 730, cy: 1000, w: 300 }, tr: { x: [[0, 70], [.7, 0, 'outC'], [5, -25, 'lin']], s: [[0, 1.0], [5, 1.06, 'lin']], o: [[0, 0], [.3, 1, 'lin']] } },
     area([blk(['COMENTA O NOME', 'DO SEU *BAIRRO*'], { w: 900, max: 120, extra: { parts: words(['COMENTA O NOME', 'DO SEU BAIRRO'], .3, .12) } }),
-          blk(['E O QUE ESTÁ', '*FALTANDO.*'], { w: 900, max: 120, css: { marginTop: '16px' }, extra: { parts: words(['E O QUE ESTÁ', 'FALTANDO.'], 1.25, .12) } })],
+          blk(['E O QUE ELE', 'MERECE *GANHAR.*'], { w: 900, max: 120, css: { marginTop: '16px' }, extra: { parts: words(['E O QUE ELE', 'MERECE GANHAR.'], 1.25, .12) } })],
       { y0: 270, y1: 760, tr: { x: [[0, -15], [5, 15, 'lin']] }, css: { filter: 'drop-shadow(0 14px 26px rgba(2,12,50,.5))' } }),
     { cls: 'B box', html: 'Comenta aqui', css: { left: '60px', top: '1040px', padding: '20px 30px', fontSize: '44px', letterSpacing: '.02em', background: `linear-gradient(90deg,${lar},#FF9A22)` },
       tr: { x: [[2.2, -500], [2.7, 0, 'outE']], s: [[3.0, 1], [3.15, 1.12, 'outQ'], [3.35, 1, 'ioQ']], bg: [[3.0, lar], [3.12, '#FFC20E', 'lin'], [3.35, lar, 'lin']] } },

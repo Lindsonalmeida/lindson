@@ -26,6 +26,11 @@ async function one(browser, v) {
   await page.goto('file://' + path.join(__dirname, 'engine.html') + `?v=${v}&a=${encodeURIComponent(ASSETS)}`);
   const info = await page.evaluate(() => window.READY);
   const stage = await page.$('#stage');
+  // deixas de som/VFX geradas dos dados do vídeo (usadas pelo audio.py)
+  const cues = await page.evaluate(() => window.CUES);
+  fs.writeFileSync(path.join(OUT, `cues-${v}.json`), JSON.stringify(cues, null, 1));
+  const cnt = {}; cues.forEach(c => cnt[c.k] = (cnt[c.k] || 0) + 1); console.log(`[${v}] deixas: ${JSON.stringify(cnt)}`);
+  if (args.includes('--so-deixas')) { await page.close(); return; }
   const shot = async (t, file) => { await page.evaluate(SET, t); return stage.screenshot({ type: 'jpeg', quality: 93, path: file }); };
   if (PREV) {
     for (const t of PREV.split(',').map(Number)) await shot(t, path.join(OUT, `${v}-t${t.toFixed(2)}.jpg`));
@@ -38,7 +43,8 @@ async function one(browser, v) {
   const mp4 = path.join(OUT, `leo-motion-${v}.mp4`);
   const ff = spawn(FFMPEG, ['-y', '-loglevel', 'error', '-f', 'image2pipe', '-framerate', String(FPS), '-c:v', 'mjpeg', '-i', '-',
     '-f', 'lavfi', '-i', 'anullsrc=r=48000:cl=stereo',
-    '-map', '0:v', '-map', '1:a', '-c:v', 'libx264', '-preset', 'slow', '-crf', '17', '-pix_fmt', 'yuv420p', '-profile:v', 'high',
+    '-map', '0:v', '-map', '1:a', '-vf', 'scale=in_range=pc:out_range=tv,format=yuv420p', '-color_range', 'tv', '-colorspace', 'bt709', '-color_primaries', 'bt709', '-color_trc', 'bt709',
+    '-c:v', 'libx264', '-preset', 'slow', '-crf', '16', '-profile:v', 'high',
     '-r', String(FPS), '-frames:v', String(N), '-c:a', 'aac', '-b:a', '96k', '-t', String(DUR), '-movflags', '+faststart', mp4], { stdio: ['pipe', 'inherit', 'inherit'] });
   const t0 = Date.now(); let k = 0;
   for (let f = 0; f < N; f++) {

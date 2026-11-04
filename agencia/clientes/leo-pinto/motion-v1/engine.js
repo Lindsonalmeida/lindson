@@ -63,15 +63,26 @@ const H_ = {
 const BG = 'radial-gradient(1500px 1300px at 560px 760px,#4A78FF 0,#2E5BFA 24%,#2350F5 42%,#1539BE 66%,#0B2A8A 86%,#082063 100%)';
 
 // ---------- montagem do DOM ----------
-let STAGE, SVGDEFS, LAYERS = [], SHOTS = [], GRAIN, LIGHT, mbN = 0, META = window.META || {};
+let STAGE, CAM, GLOW, CUES = [], SVGDEFS, LAYERS = [], SHOTS = [], GRAIN, LIGHT, mbN = 0, META = window.META || {};
 function el(tag, cls, css, html) { const e = document.createElement(tag); if (cls) e.className = cls; if (css) Object.assign(e.style, css); if (html != null) e.innerHTML = html; return e; }
 function mbFilter() {
-  const id = 'mb' + (mbN++);
-  const f = document.createElementNS('http://www.w3.org/2000/svg', 'filter');
+  // desfoque só no eixo do movimento + aberração cromática leve (vermelho e azul deslocados em sentidos opostos)
+  const id = 'mb' + (mbN++), NS = 'http://www.w3.org/2000/svg';
+  const f = document.createElementNS(NS, 'filter');
   f.setAttribute('id', id); f.setAttribute('x', '-50%'); f.setAttribute('y', '-50%'); f.setAttribute('width', '200%'); f.setAttribute('height', '200%');
   f.setAttribute('color-interpolation-filters', 'sRGB');
-  const g = document.createElementNS('http://www.w3.org/2000/svg', 'feGaussianBlur'); g.setAttribute('stdDeviation', '0 0'); f.appendChild(g); SVGDEFS.appendChild(f);
-  return { id, g };
+  f.innerHTML = `<feGaussianBlur in="SourceGraphic" stdDeviation="0 0" result="b"/>
+    <feOffset in="b" dx="0" dy="0" result="ro"/><feColorMatrix in="ro" values="1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0" result="r"/>
+    <feColorMatrix in="b" values="0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0" result="g"/>
+    <feOffset in="b" dx="0" dy="0" result="bo"/><feColorMatrix in="bo" values="0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0" result="bl"/>
+    <feBlend in="r" in2="g" mode="screen" result="rg"/><feBlend in="rg" in2="bl" mode="screen"/>`;
+  SVGDEFS.appendChild(f);
+  const [g, o1, , , o2] = f.children;
+  return { id, g, set(x, y) {
+    g.setAttribute('stdDeviation', `${x.toFixed(1)} ${y.toFixed(1)}`);
+    const k = .11, dx = Math.min(9, x * k), dy = Math.min(9, y * k);   // aberração proporcional ao desfoque
+    o1.setAttribute('dx', dx.toFixed(2)); o1.setAttribute('dy', dy.toFixed(2)); o2.setAttribute('dx', (-dx).toFixed(2)); o2.setAttribute('dy', (-dy).toFixed(2));
+  } };
 }
 // texto com marcação: *amarelo*  ^degradê amarelo→laranja^  _laranja_  ~branco~  [royal]  §marinho§  {O} = letra do zoom-through
 function mark(s) {
@@ -98,10 +109,10 @@ function photoBox(L) {
 function build(V) {
   STAGE = document.getElementById('stage');
   SVGDEFS = document.querySelector('#defs defs');
-  LIGHT = document.getElementById('light'); GRAIN = document.getElementById('grain');
+  LIGHT = document.getElementById('light'); GRAIN = document.getElementById('grain'); CAM = document.getElementById('cam'); GLOW = document.getElementById('glow');
   for (const sh of V.shots) {
     const root = el('div', 'S'); if (sh.bg) root.style.background = sh.bg;
-    STAGE.insertBefore(root, GRAIN.previousElementSibling ? GRAIN : GRAIN);
+    CAM.appendChild(root);
     const S = { def: sh, root, layers: [], mb: null }; SHOTS.push(S);
     for (const L of sh.layers) S.layers.push(makeLayer(L, root));
   }
@@ -197,7 +208,7 @@ function apply(o, t) {
   // filtros: desfoque direcional (whip pan) + desfoque comum + filtro base (sombra)
   let F = '';
   const mbx = val(tr.mbx, t) || 0, mby = val(tr.mby, t) || 0;
-  if (mbx > .3 || mby > .3) { if (!o.mb) o.mb = mbFilter(); o.mb.g.setAttribute('stdDeviation', `${mbx.toFixed(1)} ${mby.toFixed(1)}`); F += `url(#${o.mb.id}) `; }
+  if (mbx > .3 || mby > .3) { if (!o.mb) o.mb = mbFilter(); o.mb.set(mbx, mby); F += `url(#${o.mb.id}) `; }
   const bl = val(tr.blur, t) || 0; if (bl > .2) F += `blur(${bl.toFixed(1)}px) `;
   F += o.base; d.style.filter = F.trim() || 'none';
   // conteúdo dinâmico
@@ -238,6 +249,19 @@ function render(t) {
   const f = Math.round(t * FPS);
   LIGHT.style.transform = `translate(${(Math.sin(t * .35) * 60).toFixed(1)}px,${(Math.cos(t * .27) * 80).toFixed(1)}px)`;
   const g = Math.floor(f / 2); GRAIN.style.backgroundPosition = `${(g * 73) % 300}px ${(g * 151) % 300}px`;
+  // VFX 1 · tremor de câmera de 3 quadros em cada impacto (boom)
+  let sx = 0, sy = 0, ss = 1;
+  for (const c of CUES) if (c.k === 'boom') { const i = Math.floor((t - c.t) * FPS + 1e-6); if (i >= 0 && i < 3) { const a = [[1, -.8], [-.7, .6], [.35, -.3]][i], m = 13 * (c.amp || 1); sx += a[0] * m; sy += a[1] * m; ss = 1.025; } }
+  CAM.style.transform = (sx || sy) ? `translate(${sx.toFixed(1)}px,${sy.toFixed(1)}px) scale(${ss})` : 'none';
+  // VFX 2 · brilho quente suave (luz vazando em amarelo/laranja) atravessando a tela nas transições
+  let gl = null;
+  for (const c of CUES) if (c.glow) { const p = (t - c.t + .12) / .75; if (p >= 0 && p <= 1) gl = { p, d: c.dir || 'x' }; }
+  if (gl) {
+    const pos = (-30 + 160 * EASE.ioQ(gl.p)).toFixed(1), op = Math.sin(Math.PI * gl.p) * .55;
+    const ang = gl.d === 'y' ? 180 : 115;
+    GLOW.style.background = `linear-gradient(${ang}deg,rgba(255,170,30,0) ${pos - 34}%,rgba(255,190,40,.55) ${pos - 8}%,rgba(255,122,26,.45) ${pos}%,rgba(255,150,30,0) ${+pos + 30}%)`;
+    GLOW.style.opacity = op.toFixed(3); GLOW.style.display = 'block';
+  } else GLOW.style.display = 'none';
   for (const S of SHOTS) {
     const sh = S.def, lt = t - sh.t0, pre = sh.pre || 0, post = sh.post || 0;
     const on = t >= sh.t0 - pre && t < sh.t1 + post && !(t >= 40 && sh.t1 < 40);
@@ -251,13 +275,56 @@ function render(t) {
     if (cam.poly) { const p = val(cam.poly, lt); let q = []; for (let i = 0; i < p.length; i += 2) q.push(`${p[i]}% ${p[i + 1]}%`); S.root.style.clipPath = `polygon(${q.join(',')})`; }
     const mbx = val(cam.mbx, lt) || 0, mby = val(cam.mby, lt) || 0, bl = val(cam.blur, lt) || 0;
     let F = '';
-    if (mbx > .3 || mby > .3) { if (!S.mb) S.mb = mbFilter(); S.mb.g.setAttribute('stdDeviation', `${mbx.toFixed(1)} ${mby.toFixed(1)}`); F += `url(#${S.mb.id}) `; }
+    if (mbx > .3 || mby > .3) { if (!S.mb) S.mb = mbFilter(); S.mb.set(mbx, mby); F += `url(#${S.mb.id}) `; }
     if (bl > .2) F += `blur(${bl.toFixed(1)}px)`;
     S.root.style.filter = F.trim() || 'none';
     for (const o of S.layers) apply(o, lt);
   }
 }
 window.render = render;
+
+// ---------- deixas de som e VFX geradas dos próprios dados (nada à mão) ----------
+// k: whoosh (whip pan, wipe, zoom) · pop (palavra/bloco que salta) · key (tecla da máquina de escrever)
+//    boom (revelação grande: VOCÊ., 2024, TÁ FEITO., números 1–4, letras A–D) · riser (antes do cartão final) · chime (logo)
+function cueList(V) {
+  const out = [], first = tr => tr && tr.length ? tr[0][0] : null, last = tr => tr && tr.length ? tr[tr.length - 1][0] : null;
+  const peakT = tr => tr.reduce((m, k) => k[1] > m[1] ? k : m, tr[0])[0];
+  const add = (k, t, o = {}) => out.push(Object.assign({ k, t: +t.toFixed(3) }, o));
+  const fs = L => parseFloat((L.css && L.css.fontSize) || 0);
+  function walk(L, T0, sh) {
+    const tr = L.tr || {};
+    for (const ax of ['mbx', 'mby']) if (tr[ax] && tr[ax].some(k => k[1] > 20)) add('whoosh', T0 + first(tr[ax]), { d: +(last(tr[ax]) - first(tr[ax])).toFixed(3), g: .6 });
+    if (tr.clip || tr.poly) { const c = tr.clip || tr.poly; add('whoosh', T0 + first(c), { d: +(last(c) - first(c)).toFixed(3), g: .35 }); }
+    if (tr.zc || (tr.s && tr.s.some(k => k[1] >= 5))) { const t1 = tr.s.find(k => k[1] >= 5)[0]; add('whoosh', T0 + t1 - .6, { d: .75, g: 1, zoom: 1 }); }
+    if (tr.x && Math.abs(tr.x[1] ? tr.x[1][1] - tr.x[0][1] : 0) >= 700) add('whoosh', T0 + tr.x[0][0], { d: +(tr.x[1][0] - tr.x[0][0]).toFixed(3), g: .45 });
+    if (tr.dash) add('whoosh', T0 + first(tr.dash), { d: +(last(tr.dash) - first(tr.dash)).toFixed(3), g: .3, air: 1 });
+    let boomed = false;
+    const big = (/\bA\b/.test(L.cls || '') && fs(L) >= 400);
+    if (L.count) { add('boom', T0 + last(L.count)); boomed = true; }
+    else if (big) { const ent = tr.s || tr.y || tr.o; if (ent) { const k = ent.length > 1 ? ent[1][0] : ent[0][0]; add('boom', T0 + (tr.y && !tr.s ? last(tr.y) : k)); boomed = true; } }
+    if (!boomed && tr.s && tr.s.length > 1 && tr.s[0][1] >= 1.5 && tr.s[1][1] <= 1.05) { add('boom', T0 + tr.s[1][0]); boomed = true; }
+    if (!boomed && tr.s && tr.s.length > 1 && tr.s[0][1] === 0) add('pop', T0 + tr.s[0][0], { g: .8 });
+    if (tr.y && tr.y.length > 1 && tr.y[0][1] <= -1000 && tr.y[1][2] === 'outBo') add('pop', T0 + tr.y[1][0] - (tr.y[1][0] - tr.y[0][0]) * .64, { g: 1 });
+    if (L.parts) L.parts.forEach(p => { if (p && p.s) add('pop', T0 + p.s[0][0], { g: .55 }); });
+    if (L.type) { const tx = L.type.text, n = tx.length, d = L.type.t1 - L.type.t0; for (let i = 0; i < n; i++) if (!/\s/.test(tx[i])) add('key', T0 + L.type.t0 + (i + .5) / n * d); }
+    if (L.k === 'img' && /logo/.test(L.src)) { const e = tr.y || tr.clip || tr.o; add('chime', T0 + (e ? (e.length > 1 ? e[1][0] : e[0][0]) : 0)); }
+    if (L.kids) L.kids.forEach(K => walk(K, T0, sh));
+  }
+  V.shots.forEach((sh, i) => {
+    const cam = sh.cam || {};
+    for (const ax of ['mbx', 'mby']) if (cam[ax] && cam[ax].some(k => k[1] > 20)) add('whoosh', sh.t0 + first(cam[ax]), { d: +(last(cam[ax]) - first(cam[ax])).toFixed(3), g: 1, glow: 1, dir: ax === 'mbx' ? 'x' : 'y' });
+    if (cam.s && !(cam.mbx || cam.mby)) { const v = cam.s.map(k => k[1]); if (Math.max(...v) - Math.min(...v) >= .08) add('whoosh', sh.t0 + cam.s[0][0], { d: +(last(cam.s) - first(cam.s)).toFixed(3), g: .5 }); }
+    if (cam.clip || cam.poly) { const c = cam.clip || cam.poly; add('whoosh', sh.t0 + first(c), { d: +(last(c) - first(c)).toFixed(3), g: .7, glow: 1 }); }
+    sh.layers.forEach(L => walk(L, sh.t0, sh));
+    if (i === V.shots.length - 1) add('riser', sh.t0 - 1.6, { d: 1.8 });
+  });
+  // junta deixas iguais muito próximas (ex.: saída e entrada do mesmo whip pan)
+  out.sort((a, b) => a.t - b.t);
+  const res = [];
+  for (const c of out) { const p = res.findLast(r => r.k === c.k); if (p && c.t - p.t < (c.k === 'whoosh' ? .3 : .035)) { if (c.glow) p.glow = 1; continue; } res.push(c); }
+  return res.filter(c => c.t >= 0 && c.t < 40);
+}
+window.cueList = cueList;
 
 // ---------- carregamento ----------
 function loadScript(src) { return new Promise((ok, err) => { const s = document.createElement('script'); s.src = src; s.onload = ok; s.onerror = () => err(new Error('falhou ' + src)); document.head.appendChild(s); }); }
@@ -267,6 +334,7 @@ window.READY = (async () => {
   await loadScript('mapa.js');
   await loadScript(`${v}.js`);
   build(window.VIDEO);
+  CUES = cueList(window.VIDEO); window.CUES = CUES;
   await document.fonts.ready;
   await Promise.all([...document.images].map(i => i.decode().catch(e => { throw new Error('imagem ' + i.src); })));
   fitAll();

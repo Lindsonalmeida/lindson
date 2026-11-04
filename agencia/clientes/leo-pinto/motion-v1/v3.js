@@ -1,4 +1,4 @@
-// Vídeo 3 · "A gente não promete. A gente volta pra mostrar." (ROTEIROS.md, conta Pedro, 04/11/2026)
+// Vídeo 3 · "A gente ouve. A gente volta pra mostrar." (textos revistos em 04/11: Leo é situação) (ROTEIROS.md, conta Pedro, 04/11/2026)
 // Fotos: f04 (meio corpo, punho erguido) · f15 (na rua: recorte sobre rua desfocada com véu royal) · f18 (close sorrindo).
 (() => {
 const { pop, wipe, words, area, blk } = H_;
@@ -15,7 +15,7 @@ window.VIDEO = { id: 'v3', shots: [
   cam: { x: [[3.1, 0], [3.55, 1080, 'ioE']], mbx: [[3.1, 0], [3.32, 70, 'inQ'], [3.55, 0, 'outQ']] },
   layers: [
     { cls: 'box', css: { left: '60px', top: '720px', width: '960px', height: '380px', background: '#fff' }, tr: { sx: [[0, 0], [.35, 1, 'outE']], s: [[0, 1]] } },
-    { cls: 'B', type: { text: 'A GENTE\nNÃO PROMETE.', t0: .45, t1: 1.55 }, css: { left: '110px', top: '790px', width: '880px', fontSize: '106px', lineHeight: '1.1', color: mar, whiteSpace: 'nowrap' } },
+    { cls: 'B', type: { text: 'A GENTE\nOUVE.', t0: .45, t1: 1.3 }, css: { left: '110px', top: '790px', width: '880px', fontSize: '106px', lineHeight: '1.1', color: mar, whiteSpace: 'nowrap' } },
   ] },
 // 2 · whip pan para a esquerda até o fundo azul; foto em paralaxe; MOSTRAR em degradê
 { n: 2, t0: 3.5, t1: 7, pre: .35, post: .1,
@@ -58,7 +58,7 @@ window.VIDEO = { id: 'v3', shots: [
       tr: { l: [[0, 60], [.6, 70, 'ioE']], tp: [[0, 1010], [.6, 330, 'ioE']], w: [[0, 347], [.6, 940, 'ioE']], h: [[0, 549], [.6, 1220, 'ioE']], rad: [[0, 0], [.3, 40, 'outQ'], [.6, 0, 'inQ']] },
       kids: [{ css: { inset: 0, background: mar }, tr: { clip: wipe('u', .25, .45) } }] },
     Object.assign(roll(['2', '3'], .75, { left: '366px', top: '380px' }, sol, 560), { tr: { o: [[.45, 0], [.6, 1, 'lin']], y: [[.45, 40], [.7, 0, 'outC']] } }),
-    area([blk(['LEVO PRA CÂMARA'], { w: 820, max: 110 }), blk(['E *COBRO.*'], { w: 820, max: 150, css: { marginTop: '12px' } })],
+    area([blk(['LEVO PRA CÂMARA'], { w: 820, max: 100 }), blk(['E SOMO COM A'], { w: 820, max: 100, css: { marginTop: '10px' } }), blk(['*PREFEITURA.*'], { w: 820, max: 130, css: { marginTop: '10px' } })],
       { y0: 1000, y1: 1500, css: { left: '130px', width: '820px' }, tr: { clip: wipe('u', 1.1, .5) } }),
   ] },
 // 6 · máscara: um wipe diagonal laranja revela o 4 e o texto
@@ -82,8 +82,8 @@ window.VIDEO = { id: 'v3', shots: [
 { n: 8, t0: 27.5, t1: 32, bg: mar, pre: .05, post: .1,
   cam: { clip: [[-.05, [0, 0, 0, 100]], [.3, [0, 0, 0, 0], 'ioE']], o: [[4.3, 1], [4.6, 0, 'lin']] },
   layers: [
-    { cls: 'B cw', type: { text: 'E QUANDO AINDA\nNÃO DEU,', t0: .35, t1: 1.35, hide: 1.5 }, css: { left: '80px', top: '730px', width: '940px', fontSize: '84px', lineHeight: '1.08', whiteSpace: 'nowrap' } },
-    { cls: 'B cw', type: { text: 'EU TE CONTO\nPOR QUÊ.', t0: 1.6, t1: 2.45 }, css: { left: '80px', top: '960px', width: '940px', fontSize: '84px', lineHeight: '1.08', whiteSpace: 'nowrap', color: sol } },
+    { cls: 'B cw', type: { text: 'TRABALHANDO\nJUNTO,', t0: .35, t1: 1.35, hide: 1.5 }, css: { left: '80px', top: '730px', width: '940px', fontSize: '84px', lineHeight: '1.08', whiteSpace: 'nowrap' } },
+    { cls: 'B cw', type: { text: 'PRA CIDADE\nANDAR.', t0: 1.6, t1: 2.45 }, css: { left: '80px', top: '960px', width: '940px', fontSize: '84px', lineHeight: '1.08', whiteSpace: 'nowrap', color: sol } },
   ] },
 // 9 · paralaxe: foto à esquerda e etiqueta laranja à direita
 { n: 9, t0: 32, t1: 36, post: .05,

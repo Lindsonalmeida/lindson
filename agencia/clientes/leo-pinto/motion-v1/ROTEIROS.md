@@ -1,5 +1,7 @@
 # Leo Pinto · Motion v1 · 4 roteiros de 40 s que conversam com o povo
 
+> **(04/11) Leo é situação: textos revistos para não criticar a gestão.** O Leo é aliado do prefeito, então nenhum texto expõe problema da cidade, culpa alguém ou diz "cobro", "não deu", "falta", "alaga" ou "jovem vai embora". O tom é de parceria com a Prefeitura, de escuta do povo, de somar forças e de celebrar a cidade. Os textos na tela dos vídeos 1, 3 e 4 foram trocados abaixo, e o vídeo 2 fica igual. As legendas antigas ainda precisam ser revistas no mesmo tom antes de postar.
+
 Story Chief (storytelling squad), 04/11/2026: Marshall Ganz (história de mim, de nós e de agora) com a clareza de Donald Miller (o povo é o herói e o Leo é o guia). Ainda não aprovado pelo Lindson.
 
 **Formato:** Reels vertical 1080×1920, 40,0 s, 30 fps. Só texto na tela, sem locução, com trilha leve. A foto real do Leo aparece 2 ou 3 vezes em cada vídeo.
@@ -53,25 +55,25 @@ Story Chief (storytelling squad), 04/11/2026: Marshall Ganz (história de mim, d
 
 ---
 
-## Vídeo 1 · "Quem sabe o que falta no seu bairro?"
+## Vídeo 1 · "Quem conhece o seu bairro?"
 
 - **Linha editorial:** Voz do povo, com Leo na rua.
 - **Narrativa (Ganz):** história de nós. O morador é o herói que conhece o problema, e o Leo é a ponte até a Câmara.
 - **Objetivo:** abrir a escuta e gerar comentários com o nome do bairro e o problema, o que também alimenta Gabinete › Demandas na Central.
-- **CTA:** "Comenta o nome do seu bairro e o que falta."
-- **Gancho:** "Quem sabe o que falta no seu bairro?"
+- **CTA:** "Comenta o nome do seu bairro e o que ele merece ganhar."
+- **Gancho:** "Quem conhece o seu bairro?"
 
 | # | Tempo (s) | Duração | Texto na tela | Foto | Técnica |
 |---|---|---|---|---|---|
-| 1 | 0,0–3,5 | 3,5 | QUEM SABE O QUE FALTA / NO SEU BAIRRO? | NENHUMA | Tipografia cinética: cada palavra salta com escala de 0 → 110 → 100%. "BAIRRO?" em amarelo, sobre o degradê azul. |
+| 1 | 0,0–3,5 | 3,5 | QUEM CONHECE / O SEU BAIRRO? | NENHUMA | Tipografia cinética: cada palavra salta com escala de 0 → 110 → 100%. "BAIRRO?" em amarelo, sobre o degradê azul. |
 | 2 | 3,5–6,5 | 3,0 | VOCÊ. | FOTO: Leo close (busto, sorrindo, foto ainda não usada) | Paralaxe 2.5D: o Leo na frente, o mapa de SJB atrás e o "VOCÊ." gigante entre as duas camadas. |
-| 3 | 6,5–10,5 | 4,0 | ONDE A RUA ALAGA. / ONDE FALTA LUZ. | NENHUMA | Tela dividida na vertical (azul em cima, laranja embaixo): cada metade entra num wipe em sentido oposto. |
-| 4 | 10,5–14,0 | 3,5 | ONDE A ESTRADA DO POVOADO / PARA NO INVERNO. | NENHUMA | Máscara: o texto se revela por trás de um bloco marinho que desliza. "INVERNO" em amarelo. |
-| 5 | 14,0–17,5 | 3,5 | QUEM MORA LÁ / SABE MELHOR QUE NINGUÉM. | NENHUMA | Morph de blocos: o bloco laranja se estica e vira um retângulo branco, onde o texto pousa em royal. |
+| 3 | 6,5–10,5 | 4,0 | CADA RUA. CADA PRAÇA. / CADA POVOADO. | NENHUMA | Tela dividida na vertical (azul em cima, laranja embaixo): cada metade entra num wipe em sentido oposto. |
+| 4 | 10,5–14,0 | 3,5 | CADA CANTO TEM / SUA HISTÓRIA. | NENHUMA | Máscara: o texto se revela por trás de um bloco marinho que desliza. "HISTÓRIA" em amarelo. |
+| 5 | 14,0–17,5 | 3,5 | QUEM MORA LÁ / SABE O QUE IMPORTA. | NENHUMA | Morph de blocos: o bloco laranja se estica e vira um retângulo branco, onde o texto pousa em royal. |
 | 6 | 17,5–21,5 | 4,0 | VOCÊ ME CONTA. / EU LEVO PRA CÂMARA. | FOTO: meio corpo, celular na mão | Whip pan limpo para a direita até a foto, com o texto em Kaushan na 1ª linha e Montserrat Black na 2ª. |
-| 7 | 21,5–25,5 | 4,0 | E CORRO ATRÁS / DE QUEM TEM QUE RESOLVER. | NENHUMA | Zoom-through: a câmera atravessa o "O" de "CORRO" e sai na frase seguinte. |
+| 7 | 21,5–25,5 | 4,0 | E SOMO COM / A PREFEITURA. | NENHUMA | Zoom-through: a câmera atravessa o "O" de "SOMO" e sai na frase seguinte. |
 | 8 | 25,5–30,0 | 4,5 | SÃO JOÃO BATISTA / INTEIRA, BAIRRO POR BAIRRO. | NENHUMA | Mapa desenhado: o contorno de SJB se traça em linha amarela em 2,5 s e depois se preenche de azul claro translúcido. |
-| 9 | 30,0–35,0 | 5,0 | COMENTA O NOME DO SEU BAIRRO / E O QUE ESTÁ FALTANDO. | FOTO: Leo close (leo-01), mão no peito | Paralaxe leve com a foto à direita. Uma etiqueta laranja com "COMENTA AQUI" pisca uma vez. |
+| 9 | 30,0–35,0 | 5,0 | COMENTA O NOME DO SEU BAIRRO / E O QUE ELE MERECE GANHAR. | FOTO: Leo close (leo-01), mão no peito | Paralaxe leve com a foto à direita. Uma etiqueta laranja com "COMENTA AQUI" pisca uma vez. |
 | 10 | 35,0–40,0 | 5,0 | DO POVO PARA O POVO. / juntos podemos mais! | NENHUMA (logo) | Cartão final: blocos LEO (amarelo) e PINTO (branco) se montam e a logo oficial sobe na base. "juntos podemos mais!" em Kaushan. |
 
 Total: 3,5+3,0+4,0+3,5+3,5+4,0+4,0+4,5+5,0+5,0 = **40,0 s**.
@@ -159,24 +161,24 @@ Segue a página pra acompanhar o mandato de perto.
 
 ---
 
-## Vídeo 3 · "A gente não promete. A gente volta pra mostrar."
+## Vídeo 3 · "A gente ouve. A gente volta pra mostrar."
 
 - **Linha editorial:** Mandato que entrega, abrindo o quadro "Pediu? Tá feito." de `QUADROS.md`.
 - **Narrativa (Ganz e Miller):** o plano em passos. O povo vê o caminho da demanda e não precisa de uma obra inventada para isso.
 - **Objetivo:** mostrar como o mandato trabalha (ouvir, registrar, levar à Câmara, cobrar e voltar para mostrar) e criar confiança. Não cita nenhuma obra nem nenhum número de entregas, porque a lista ainda não chegou do Leo.
 - **CTA:** "Manda no direct a demanda do seu bairro, com foto."
-- **Gancho:** "A gente não promete. A gente volta pra mostrar."
+- **Gancho:** "A gente ouve. A gente volta pra mostrar."
 
 | # | Tempo (s) | Duração | Texto na tela | Foto | Técnica |
 |---|---|---|---|---|---|
-| 1 | 0,0–3,5 | 3,5 | A GENTE NÃO PROMETE. | NENHUMA | Máquina de escrever num bloco branco sobre fundo laranja, com cursor marinho. A tela segura por 1,2 s. |
+| 1 | 0,0–3,5 | 3,5 | A GENTE OUVE. | NENHUMA | Máquina de escrever num bloco branco sobre fundo laranja, com cursor marinho. A tela segura por 1,2 s. |
 | 2 | 3,5–7,0 | 3,5 | A GENTE VOLTA / PRA MOSTRAR. | FOTO: meio corpo, punho erguido | Whip pan limpo para a esquerda até o fundo azul, onde a foto entra em paralaxe. "MOSTRAR" em degradê amarelo → laranja. |
 | 3 | 7,0–11,0 | 4,0 | 1 / VOCÊ MANDA A DEMANDA. | NENHUMA | Contador: os passos rolam de 1 a 4 (ordem das etapas, não estatística). O "1" gigante em Anton, como número de fundo. |
 | 4 | 11,0–15,0 | 4,0 | 2 / EU REGISTRO E VOU ATÉ LÁ. | FOTO: na rua (recorte sobre a foto de banco de rua, com véu royal) | Tela dividida na horizontal: a foto em cima e o número com o texto embaixo. O "1" rola para "2". |
-| 5 | 15,0–19,0 | 4,0 | 3 / LEVO PRA CÂMARA E COBRO. | NENHUMA | Morph de blocos: o bloco do "2" vira um retângulo marinho e o "3" rola dentro dele, com o texto em branco. |
+| 5 | 15,0–19,0 | 4,0 | 3 / LEVO PRA CÂMARA E SOMO COM A PREFEITURA. | NENHUMA | Morph de blocos: o bloco do "2" vira um retângulo marinho e o "3" rola dentro dele, com o texto em branco. |
 | 6 | 19,0–23,0 | 4,0 | 4 / VOLTO E TE MOSTRO O ANDAMENTO. | NENHUMA | Máscara: um wipe diagonal laranja revela o "4" e o texto. |
 | 7 | 23,0–27,5 | 4,5 | PEDIU? / TÁ FEITO. | NENHUMA | Tipografia cinética: "PEDIU?" salta em branco, depois "TÁ FEITO." bate em amarelo gigante com um tremor leve de 2 frames. |
-| 8 | 27,5–32,0 | 4,5 | E QUANDO AINDA NÃO DEU, / EU TE CONTO POR QUÊ. | NENHUMA | Máquina de escrever em 2 linhas, que mostra transparência e não promessa. Fundo marinho chapado. |
+| 8 | 27,5–32,0 | 4,5 | TRABALHANDO JUNTO, / PRA CIDADE ANDAR. | NENHUMA | Máquina de escrever em 2 linhas, que mostra parceria. Fundo marinho chapado. |
 | 9 | 32,0–36,0 | 4,0 | MANDA NO DIRECT / A DEMANDA DO SEU BAIRRO. | FOTO: Leo close (celular na mão ou sorrindo) | Paralaxe: a foto à esquerda e uma etiqueta laranja "COM FOTO, SE PUDER" à direita. |
 | 10 | 36,0–40,0 | 4,0 | Pediu? Tá feito. / juntos podemos mais! | NENHUMA (logo) | Cartão final: os blocos de cor se fecham no centro, a logo oficial se monta e o nome do quadro aparece em Kaushan. |
 
@@ -209,26 +211,26 @@ Toda semana tem "Pediu? Tá feito." por aqui. Segue a página pra ver o que ando
 
 ---
 
-## Vídeo 4 · "Se você pudesse mudar uma coisa amanhã…"
+## Vídeo 4 · "Se você pudesse escolher a próxima conquista…"
 
 - **Linha editorial:** A cidade que eu sonho, com Nossa Baixada.
 - **Narrativa (Ganz):** história de agora. O sonho é de todo mundo e o convite é para participar já, comentando.
 - **Objetivo:** escuta sobre o futuro da cidade, sem promessa de obra. Usa as 4 áreas que já foram aprovadas na enquete de 31/12 (`instagram-v14-datas/TEXTOS.md`).
 - **CTA:** "Comenta a letra: A, B, C ou D."
-- **Gancho:** "Se você pudesse mudar uma coisa amanhã…"
+- **Gancho:** "Se você pudesse escolher a próxima conquista…"
 
 | # | Tempo (s) | Duração | Texto na tela | Foto | Técnica |
 |---|---|---|---|---|---|
-| 1 | 0,0–3,5 | 3,5 | SE VOCÊ PUDESSE MUDAR / UMA COISA AMANHÃ… | NENHUMA | Zoom-through: o texto vem de longe e passa pela câmera. As reticências ficam na tela. |
-| 2 | 3,5–7,0 | 3,5 | …EM SÃO JOÃO BATISTA, / O QUE SERIA? | NENHUMA | Mapa desenhado: o contorno da cidade se traça em amarelo e o texto fica dentro dele. |
+| 1 | 0,0–3,5 | 3,5 | SE VOCÊ PUDESSE / ESCOLHER A PRÓXIMA CONQUISTA… | NENHUMA | Zoom-through: o texto vem de longe e passa pela câmera. As reticências ficam na tela. |
+| 2 | 3,5–7,0 | 3,5 | …EM SÃO JOÃO BATISTA, / QUAL SERIA? | NENHUMA | Mapa desenhado: o contorno da cidade se traça em amarelo e o texto fica dentro dele. |
 | 3 | 7,0–10,5 | 3,5 | A · SAÚDE / PERTO DE CASA | NENHUMA | Morph de blocos: um bloco laranja cresce e o "A" gigante vira número de fundo. |
 | 4 | 10,5–14,0 | 3,5 | B · RUAS / E ESTRADAS | NENHUMA | Morph de blocos: o laranja vira royal e muda de forma. O "B" entra em branco. |
 | 5 | 14,0–17,5 | 3,5 | C · EDUCAÇÃO / E JUVENTUDE | FOTO: meio corpo, mão no peito | Tela dividida na diagonal: a foto de um lado e o "C" com o texto em bloco amarelo do outro. |
 | 6 | 17,5–21,0 | 3,5 | D · EMPREGO / E RENDA | NENHUMA | Morph de blocos: o amarelo vira marinho e o "D" entra em laranja. |
-| 7 | 21,0–25,5 | 4,5 | UMA CIDADE ONDE O JOVEM / TENHA MOTIVO PRA FICAR. | NENHUMA | Tipografia cinética, palavra por palavra. "FICAR" em degradê amarelo → laranja. |
+| 7 | 21,0–25,5 | 4,5 | UMA CIDADE QUE / CRESCE COM O JOVEM AQUI. | NENHUMA | Tipografia cinética, palavra por palavra. "AQUI" em degradê amarelo → laranja. |
 | 8 | 25,5–30,0 | 4,5 | ESSE SONHO NÃO É SÓ MEU. / É DA NOSSA BAIXADA. | FOTO: Leo close (busto, olhar de lado, foto ainda não usada) | Paralaxe 2.5D: o mapa atrás, o Leo no meio e "BAIXADA" em Kaushan na frente. Fim com whip pan limpo para cima. |
 | 9 | 30,0–35,0 | 5,0 | COMENTA A LETRA: / A, B, C OU D. | NENHUMA | Máquina de escrever com as 4 letras em blocos de cor (laranja, royal, amarelo e marinho), uma por vez. |
-| 10 | 35,0–40,0 | 5,0 | A CIDADE QUE EU SONHO / começa com você | FOTO: na rua (recorte sobre a foto de banco de praça ou casario, com véu laranja) | Cartão final: a foto sai, os blocos se fecham e a logo oficial se monta na base. "começa com você" em Kaushan. |
+| 10 | 35,0–40,0 | 5,0 | A CIDADE QUE / A GENTE CONSTRÓI · junto com você | FOTO: na rua (recorte sobre a foto de banco de praça ou casario, com véu laranja) | Cartão final: a foto sai, os blocos se fecham e a logo oficial se monta na base. "junto com você" em Kaushan. |
 
 Total: 3,5+3,5+3,5+3,5+3,5+3,5+4,5+4,5+5,0+5,0 = **40,0 s**.
 

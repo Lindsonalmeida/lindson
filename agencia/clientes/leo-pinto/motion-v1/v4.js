@@ -1,4 +1,4 @@
-// Vídeo 4 · "Se você pudesse mudar uma coisa amanhã…" (ROTEIROS.md, conta Pedro, 04/11/2026)
+// Vídeo 4 · "Se você pudesse escolher a próxima conquista…" (textos revistos em 04/11: Leo é situação) (ROTEIROS.md, conta Pedro, 04/11/2026)
 // Fotos: f05 (meio corpo, mão no peito) · f19 (busto, olhar de lado) · f27 (na rua: recorte sobre rua desfocada com véu laranja).
 (() => {
 const { pop, wipe, words, area, blk } = H_;
@@ -11,7 +11,7 @@ window.VIDEO = { id: 'v4', shots: [
 // 1 · zoom-through: o texto vem de longe e passa pela câmera; as reticências ficam
 { n: 1, t0: 0, t1: 3.5, post: .6,
   layers: [
-    area([blk(['SE VOCÊ PUDESSE', 'MUDAR UMA COISA', '*AMANHÃ*'], { w: 900, max: 200, extra: { rowCss: [{}, {}, { marginTop: '14px' }],
+    area([blk(['SE VOCÊ PUDESSE', 'ESCOLHER A PRÓXIMA', '*CONQUISTA*'], { w: 900, max: 200, extra: { rowCss: [{}, {}, { marginTop: '14px' }],
       tr: { s: [[0, .04], [.75, 1, 'outE'], [2.55, 1.04, 'lin'], [3.15, 9, 'inE']], o: [[0, 0], [.15, 1, 'lin'], [2.95, 1], [3.12, 0, 'lin']] } } })]),
     { cls: 'B', html: '…', css: { left: 0, width: '1080px', top: '1180px', textAlign: 'center', fontSize: '200px', color: sol, filter: SH },
       tr: { o: [[.8, 0], [1.0, 1, 'lin'], [3.45, 1], [3.7, 0, 'lin']], s: [[.8, .4], [1.1, 1, 'outB']] } },
@@ -23,7 +23,7 @@ window.VIDEO = { id: 'v4', shots: [
     { k: 'map', id: 'v4a', w: 1060, sw: 7, stroke: sol, css: { left: '10px', top: '560px' },
       tr: { dash: [[0, 0], [2.0, 1, 'ioQ']], fill: [[1.8, 0], [2.6, 1, 'outQ']], s: [[0, 1.02], [3.5, 1.07, 'lin']] } },
     area([blk(['…EM SÃO JOÃO', 'BATISTA,'], { w: 620, max: 120, extra: { parts: words(['…EM SÃO JOÃO', 'BATISTA,'], .45, .14) } }),
-          blk(['O QUE *SERIA?*'], { w: 620, max: 110, css: { marginTop: '14px' }, extra: { parts: words(['O QUE SERIA?'], 1.15, .15) } })],
+          blk(['QUAL *SERIA?*'], { w: 620, max: 110, css: { marginTop: '14px' }, extra: { parts: words(['QUAL SERIA?'], 1.15, .15) } })],
       { y0: 700, y1: 1200, css: { left: '250px', width: '640px', filter: SH } }),
   ] },
 // 3 · morph de blocos: um bloco laranja cresce e o "A" gigante vira número de fundo
@@ -71,8 +71,8 @@ window.VIDEO = { id: 'v4', shots: [
 // 7 · tipografia cinética palavra por palavra; FICAR em degradê amarelo → laranja
 { n: 7, t0: 21, t1: 25.5, post: .1,
   cam: { o: [[-.05, 0], [.1, 1, 'lin'], [4.2, 1], [4.55, 0, 'lin']] },
-  layers: [ area([blk(['UMA CIDADE', 'ONDE O JOVEM', 'TENHA MOTIVO'], { w: 900, max: 150, extra: { parts: words(['UMA CIDADE', 'ONDE O JOVEM', 'TENHA MOTIVO'], .25, .16) } }),
-    blk(['PRA ^FICAR.^'], { w: 900, max: 200, css: { marginTop: '16px' }, extra: { parts: words(['PRA FICAR.'], 1.65, .22, .42) } })], { css: { filter: SH } }) ] },
+  layers: [ area([blk(['UMA CIDADE QUE', 'CRESCE COM', 'O JOVEM'], { w: 900, max: 150, extra: { parts: words(['UMA CIDADE QUE', 'CRESCE COM', 'O JOVEM'], .25, .16) } }),
+    blk(['^AQUI.^'], { w: 900, max: 220, css: { marginTop: '16px' }, extra: { parts: words(['AQUI.'], 1.65, .22, .42) } })], { css: { filter: SH } }) ] },
 // 8 · paralaxe 2.5D: mapa atrás, Leo no meio, "Baixada" em Kaushan na frente; fim com whip pan para cima
 { n: 8, t0: 25.5, t1: 30, post: .05,
   cam: { y: [[4.1, 0], [4.55, 1920, 'ioE']], mby: [[4.1, 0], [4.33, 70, 'inQ'], [4.55, 0, 'outQ']] },
@@ -108,9 +108,9 @@ window.VIDEO = { id: 'v4', shots: [
     { css: { left: 0, top: 0, width: '1080px', height: '1920px', background: BG, clipPath: 'inset(0 50% 0 0)' }, tr: { x: [[1.75, -560], [2.2, 0, 'ioE']] } },
     { css: { left: 0, top: 0, width: '1080px', height: '1920px', background: BG, clipPath: 'inset(0 0 0 50%)' }, tr: { x: [[1.75, 560], [2.2, 0, 'ioE']] } },
     { k: 'map', id: 'v4d', w: 1100, echo: true, stroke: '#BFD8FF', sw: 3, css: { left: '-10px', top: '760px' }, tr: { o: [[2.2, 0], [2.8, .5, 'lin']] } },
-    area([blk(['A CIDADE QUE'], { w: 880, max: 130, extra: { parts: words(['A CIDADE QUE'], .25, .13) } }), blk(['EU *SONHO*'], { w: 880, max: 170, css: { marginTop: '10px' }, extra: { parts: words(['EU SONHO'], .7, .16) } })],
+    area([blk(['A CIDADE QUE'], { w: 880, max: 130, extra: { parts: words(['A CIDADE QUE'], .25, .13) } }), blk(['A GENTE *CONSTRÓI*'], { w: 880, max: 170, css: { marginTop: '10px' }, extra: { parts: words(['A GENTE CONSTRÓI'], .7, .16) } })],
       { y0: 270, y1: 760, css: { filter: SH } }),
-    { cls: 'K', html: 'começa com você', css: { left: 0, width: '1080px', top: '900px', textAlign: 'center', fontSize: '104px', color: sol, filter: SH }, tr: { clip: wipe('l', 2.35, .7, 'ioQ') } },
+    { cls: 'K', html: 'junto com você', css: { left: 0, width: '1080px', top: '900px', textAlign: 'center', fontSize: '104px', color: sol, filter: SH }, tr: { clip: wipe('l', 2.35, .7, 'ioQ') } },
     { k: 'img', src: '@logo.png', css: { left: '410px', top: '1130px', width: '420px', filter: SH },
       tr: { clip: [[2.4, [100, 0, 0, 0]], [3.0, [-5, -5, -5, -5], 'ioE']], s: [[2.4, .85], [3.2, 1, 'outC']] } },
   ] },
