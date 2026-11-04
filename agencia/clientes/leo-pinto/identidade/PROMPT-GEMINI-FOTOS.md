@@ -64,3 +64,10 @@ Troque a linha FORMAT por: `FORMAT: vertical 9:16 (1080x1920 or larger). Keep hi
 - Foto gerada por IA para comunicação política: **não use para enganar** (não colocar o Leo em lugar ou evento onde ele não esteve). Para posts de evento, use foto real.
 - Confira cada imagem ampliada: mãos, dedos, gola e botões. Descarte as que tiverem defeito.
 - Depois de usar uma foto num post, ela vai para a aba **Usadas** (regra de 04/11).
+
+## Versão 2 (pedido do Lindson, 04/11): 5 poses, fundo liso que destaca a roupa, sem equipamentos, azul da identidade
+Diferenças: polo em **azul royal da identidade #2350F5** (padrão v13 aprovado), fundo **cinza-claro quente liso #ECEAE6** (sem textura, sem sombra, sem degradê), **nenhum equipamento de estúdio visível**, 2160×2700 com espaço em volta (para recorte). O texto completo está na conversa de 04/11 e aqui:
+
+Troque no prompt principal: `WARDROBE: Plain polo shirt in royal blue, exact color #2350F5 …` · `BACKGROUND: Only a clean, seamless, perfectly smooth studio backdrop in very light warm gray (#ECEAE6), evenly lit, with no texture, no wrinkles, no seams, no shadows on the wall, no gradient. The blue polo must stand out strongly against the background. NO studio equipment visible: no lights, no softboxes, no stands, no reflectors, no cables, no floor line, no props.` · `CAMERA: 85mm at f/4 … whole body in focus` · `FORMAT: vertical 4:5 (at least 2160x2700) … he will be cut out for designs`.
+
+As 5 poses: 1. braços cruzados (meia coxa) · 2. mão no peito (cintura) · 3. acenando com a mão aberta, corpo ¾ (cintura) · 4. as duas mãos abertas na altura do peito, acolhendo (meia coxa) · 5. close de rosto e ombros, sereno.
