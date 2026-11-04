@@ -6,6 +6,8 @@
 >
 > **Regra do Lindson (03/11/2026): sempre que voltar** (conversa nova, reinício da sessão, limite de uso renovado, ou antes de continuar qualquer trabalho), **verifique se o trabalho continuou com outras equipes**: `git pull`, `git log --since` de todos os branches, quadro, registro e o privado `CentralLindsonALmeida`. Se outra conta já fez ou avançou, não refaça: continue de onde ela parou e diga ao Lindson quem fez.
 >
+> **Regra do Lindson (04/11/2026): foto usada não se repete.** Toda foto usada num conteúdo vai para a aba **Usadas** (painel do cliente → Fotos, e `agencia/clientes/<cliente>/FOTOS-USADAS.md`). Foto real vai primeiro nas capas; carrossel: foto real só na primeira e na última tela, no meio imagens realistas de banco. Processo: `agencia/processos/fotos-usadas.md`.
+>
 > **Recados para todas as contas:** ficam no topo do `QUADRO-DA-EQUIPE.md`. Ao ler um recado novo, responda ao Lindson na conversa "Entendi o recado de DD/MM: …" e marque a sua confirmação na tabela (commit e push).
 
 ## Mini site de cliente (bio)
