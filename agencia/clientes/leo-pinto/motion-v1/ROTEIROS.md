@@ -1,6 +1,6 @@
 # Leo Pinto · Motion v1 · 4 roteiros de 40 s que conversam com o povo
 
-> **(04/11) Leo é situação: textos revistos para não criticar a gestão.** O Leo é aliado do prefeito, então nenhum texto expõe problema da cidade, culpa alguém ou diz "cobro", "não deu", "falta", "alaga" ou "jovem vai embora". O tom é de parceria com a Prefeitura, de escuta do povo, de somar forças e de celebrar a cidade. Os textos na tela dos vídeos 1, 3 e 4 foram trocados abaixo, e o vídeo 2 fica igual. As legendas antigas ainda precisam ser revistas no mesmo tom antes de postar.
+> **(04/11) Leo é situação: textos revistos para não criticar a gestão.** O Leo é aliado do prefeito, então nenhum texto expõe problema da cidade, culpa alguém ou diz "cobro", "não deu", "falta", "alaga" ou "jovem vai embora". O tom é de parceria com a Prefeitura, de escuta do povo, de somar forças e de celebrar a cidade. Os textos na tela dos vídeos 1, 3 e 4 foram trocados abaixo, e o vídeo 2 fica igual. As legendas dos 4 também foram reescritas como situação (04/11) e estão no painel do Leo, aba Aprovações, com o vídeo e o crédito da música.
 
 Story Chief (storytelling squad), 04/11/2026: Marshall Ganz (história de mim, de nós e de agora) com a clareza de Donald Miller (o povo é o herói e o Leo é o guia). Ainda não aprovado pelo Lindson.
 
@@ -80,30 +80,30 @@ Total: 3,5+3,0+4,0+3,5+3,5+4,0+4,0+4,5+5,0+5,0 = **40,0 s**.
 
 ### Legenda
 
-QUEM SABE O QUE FALTA NO SEU BAIRRO? A DEMANDA DE SÃO JOÃO BATISTA COMEÇA EM VOCÊ
+QUEM CONHECE O SEU BAIRRO? SÃO JOÃO BATISTA SE CONSTRÓI BAIRRO POR BAIRRO
 
-Oi, gente! Aqui é o Leo Pinto, vereador de São João Batista, no Maranhão. Hoje eu quero fazer uma pergunta simples: quem sabe o que falta no seu bairro?
+Oi, gente! Aqui é o Leo Pinto, vereador de São João Batista, no Maranhão. Hoje eu quero fazer uma pergunta simples: quem conhece o seu bairro de verdade?
 
 📌 A resposta é você
-Não é o gabinete e não é a Câmara. É quem mora lá e passa todo dia pela rua que alaga, pelo poste apagado e pela estrada do povoado que fica ruim no inverno.
+É quem mora lá, conhece cada rua, cada praça e cada povoado, e sabe a história de cada canto.
 
-🤝 Como funciona a demanda do bairro
-Você me conta, eu levo pra Câmara e corro atrás de quem tem a obrigação de resolver. Vereador nenhum resolve nada sozinho. É do povo para o povo.
+🤝 Como a gente trabalha junto
+Você me conta, eu levo pra Câmara e somo forças com a Prefeitura. A cidade anda quando o povo, a Câmara e a Prefeitura caminham juntos. É do povo para o povo.
 
-💬 Como mandar
+💬 Como participar
 1. Comenta aqui o nome do seu bairro ou povoado.
-2. Escreve o que está faltando, com as suas palavras.
-3. Se tiver foto, manda no direct.
+2. Conta o que ele tem de melhor e o que você sonha ver nele.
+3. Se tiver foto bonita do seu bairro, manda no direct.
 
 💡 Exemplo
-"Leo, aqui no meu povoado a estrada fica atolada toda vez que chove." Com o lugar certinho, eu já consigo registrar o pedido e acompanhar o andamento.
+"Leo, sou do povoado tal. Aqui a gente tem a festa mais animada da região e sonha com uma pracinha pra criançada." Com o lugar certinho, eu levo a ideia pra conversa.
 
 ✅ Juntos podemos mais!
 Cada comentário vira um ponto no mapa da nossa cidade. Bairro por bairro, povoado por povoado.
 
-👇 Comenta aqui: qual é o seu bairro e o que está faltando nele?
+👇 Comenta aqui: qual é o seu bairro?
 
-#demandadobairro #vozdopovo #saojoaobatistama #tôcomléopinto
+#saojoaobatistama #baixadamaranhense #vereadorpresente #nossobairro
 
 ---
 
@@ -138,26 +138,26 @@ PRAZER, EU SOU O LEO PINTO: JOVEM, ENGENHEIRO E VEREADOR DE SÃO JOÃO BATISTA-M
 Se você chegou agora, seja muito bem-vindo! Prazer, eu sou o Leo. Vereador de São João Batista, no coração da Baixada Maranhense.
 
 📌 Quem sou eu, em poucas palavras
-Sou jovem, sou engenheiro e sou daqui. Cresci vendo o que a nossa cidade tem de bonito e o que ainda precisa melhorar.
+Sou jovem, sou engenheiro e sou daqui. Cresci vendo tudo o que a nossa cidade tem de bonito: a nossa gente, as nossas festas e os nossos campos.
 
 🏆 Troféu, não. Compromisso.
 Em 2024, São João Batista me deu uma responsabilidade enorme. Eu não encaro isso como troféu. Encaro como compromisso, todo dia.
 
 🛠 Por que ser engenheiro ajuda
-Boa parte do que o povo pede é obra: estrada, ponte, rua e drenagem. Quem é engenheiro olha um problema desses e entende o que precisa ser feito e o que precisa ser cobrado.
+Muita coisa que o povo conversa comigo é obra: estrada, ponte, rua e drenagem. Com o olhar de engenheiro, eu ajudo a entender cada ideia e somo com a Prefeitura pra cidade continuar avançando.
 
 💪 Por que ser jovem faz diferença
 Energia pra estar na rua, no bairro e no povoado, ouvindo de perto.
 
 💡 Exemplo
-Sabe aquela ponte que todo mundo do seu povoado usa? Me conta. Eu explico aqui, em linguagem simples, o caminho pra resolver.
+Sabe aquele lugar do seu povoado que você mais gosta? Me conta. Eu adoro conhecer cada canto da nossa terra.
 
 ✅ Juntos podemos mais!
 Segue a página pra acompanhar o mandato de perto.
 
 👇 Me conta no direct ou aqui embaixo: de qual bairro ou povoado você é?
 
-#vereadordesaojoaobatista #engenheirocivil #baixadamaranhense #tôcomléopinto
+#vereadordesaojoaobatista #engenheirocivil #baixadamaranhense #juventudequefaz
 
 ---
 
@@ -186,28 +186,28 @@ Total: 3,5+3,5+4,0+4,0+4,0+4,0+4,5+4,5+4,0+4,0 = **40,0 s**.
 
 ### Legenda
 
-PEDIU? TÁ FEITO. COMO FUNCIONA A DEMANDA DO BAIRRO NO MANDATO DO VEREADOR LEO PINTO
+PEDIU? TÁ FEITO. COMO A SUA DEMANDA CAMINHA NO MANDATO DO VEREADOR LEO PINTO
 
-Oi, gente! Aqui é o Leo Pinto, vereador de São João Batista-MA. Hoje começa um quadro novo aqui no perfil: "Pediu? Tá feito." E ele tem uma regra só: a gente não promete, a gente volta pra mostrar.
+Oi, gente! Aqui é o Leo Pinto, vereador de São João Batista-MA. Hoje começa um quadro novo aqui no perfil: "Pediu? Tá feito." E ele tem uma regra só: a gente ouve e volta pra mostrar.
 
 📌 O caminho da sua demanda, em 4 passos
 1. Você manda a demanda: no comentário ou no direct, com o nome do bairro ou povoado.
 2. Eu registro e vou até lá ver de perto.
-3. Levo pra Câmara e cobro de quem tem a obrigação de resolver.
+3. Levo pra Câmara e somo com a Prefeitura.
 4. Volto e te mostro o andamento, aqui no perfil.
 
-🤝 E quando ainda não deu?
-Eu te conto por quê. Tem coisa que depende de outros órgãos e leva tempo. Prestação de contas também é isso: falar do que andou e do que ainda falta.
+🤝 Trabalhando junto, pra cidade andar
+Mandato bom é mandato que soma. Quando o povo, a Câmara e a Prefeitura conversam, as coisas acontecem mais rápido.
 
 💡 Exemplo
-"Leo, a iluminação da minha rua tá apagada faz semanas." Com o nome da rua e uma foto, o pedido fica muito mais fácil de cobrar e de acompanhar.
+"Leo, a gente queria uma quadra pra meninada do bairro." Com o nome do lugar e uma foto, a ideia fica muito mais fácil de levar e de acompanhar.
 
 ✅ Acompanha o quadro
 Toda semana tem "Pediu? Tá feito." por aqui. Segue a página pra ver o que andou no seu bairro.
 
-👇 Manda no direct a demanda do seu bairro, com foto se puder.
+👇 Manda no direct a sua ideia pro seu bairro, com foto se puder.
 
-#prestacaodecontas #mandatoqueentrega #vereadorpresente #saojoaobatistama #tôcomléopinto
+#mandatoqueentrega #prestacaodecontas #saojoaobatistama #trabalhojunto
 
 ---
 
