@@ -118,6 +118,8 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 
 - **Nome da comunidade APROVADO: ESTADO PRÓPRIO ▲** (04/11 · Pedro, nome do Maquiavel): "amei estado próprio". Slogan "Cliente que vem de você, não da sorte." Branding (cenas de pedra/fortaleza à noite com luz âmbar, ▲ vazado = trancado, cheio = liberado) em `agencia/ofertas/low-ticket/venda/ESTADO-PROPRIO-BRANDING.md`.
 
+- **REGRA DO LEO PINTO (04/11 · Pedro): o Leo é SITUAÇÃO (aliado do prefeito), não oposição.** "Nada pode queimar o prefeito." Nunca mostrar problema da cidade como falha (rua que alaga, falta luz, estrada ruim), nunca "cobro", "não deu", "jovem vai embora". Tom: parceria com a Prefeitura, escutar o povo, somar forças, celebrar a cidade. Vale para todo conteúdo do Leo.
+
 ## 4. REPROVADO: nunca repetir
 
 0c. **Capas amarelas a2y, c1y e r3y** (03/11 · Pedro): "os outros estão reprovados". Não usar foto "nascendo" do amarelo em degradê, nem pessoa pequena no amarelo com lista ao lado. **Amarelo APROVADO = c2y**: amarelo com textura, palavra gigante preta (Anton) atrás dele, ele recortado (BiRefNet) de corpo inteiro na frente, degradê preto embaixo com a manchete branca e a palavra em caixa amarela. Pediu em seguida: "busque maneiras e técnicas para melhorar ainda mais os que já aprovei, implementar, deixar mais moderno, premium, bonito e atrativo".
