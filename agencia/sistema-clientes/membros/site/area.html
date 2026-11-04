@@ -1,5 +1,5 @@
 <!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Área de Membros · Lindson Almeida</title><meta name="robots" content="noindex">
+<title>Estado Próprio ▲ · Lindson Almeida</title><meta name="robots" content="noindex">
 <!-- Área de membros dos produtos do Lindson · v2 no estilo APROVADO (conta Pedro, 04/11/2026): "esse estilo é perfeito".
      Template copiado: NEXUS · Premium Movie & Series Streaming Platform UI (Adam Max, dribbble.com/shots/27716502): banner de cinema com a pessoa
      ocupando a tela, rótulo "A NEXUS ORIGINAL SERIES" espaçado, título condensado gigante em 2 linhas, slogan espaçado, linha de dados com selo,
@@ -14,7 +14,7 @@
 :root{--p:#07090C;--s:#0E1116;--l:#1C2028;--t:#F5F3EE;--ap:#9AA0A8;--am:#F5C518}
 *{box-sizing:border-box;margin:0;padding:0}html{background:var(--p)}body{color:var(--t);font-family:Manrope;background:var(--p)}a{color:inherit;text-decoration:none}
 .nav{position:fixed;top:0;left:0;right:0;z-index:9;display:flex;align-items:center;gap:40px;padding:22px 56px;background:linear-gradient(180deg,rgba(7,9,12,.9),transparent)}
-.logo{font:500 18px 'JetBrains Mono';letter-spacing:.5em}.logo b{color:var(--am)}
+.logo{white-space:nowrap;font:500 18px 'JetBrains Mono';letter-spacing:.5em}.logo b{color:var(--am)}
 .nav a.l{font:600 15px Manrope;color:#c9cdd3;padding-bottom:6px;border-bottom:2px solid transparent}.nav a.l.on{color:#fff;border-color:var(--am)}
 .nav .d{margin-left:auto;display:flex;gap:22px;align-items:center}.av{width:36px;height:36px;border-radius:50%;background:var(--am);color:#111;display:grid;place-items:center;font:800 13px Manrope}
 .hero{position:relative;height:92vh;min-height:640px;max-height:900px;overflow:hidden}
@@ -56,7 +56,7 @@
  .grid{grid-template-columns:1fr;margin:40px 18px 0}.cats{grid-template-columns:1fr 1fr}.pos{grid-template-columns:1fr 1fr 1fr}.faixa{margin:40px 18px;padding:26px;background:#0E1116}.mira{display:none}}
 .nav .d a.sai{font:600 13px Manrope;color:var(--ap)}.vazio{opacity:.0}body.pronto .vazio{opacity:1;transition:opacity .3s}.bt.off{opacity:.55;cursor:default}
 </style></head><body>
-<nav class="nav"><div class="logo">LINDSON<b>.</b></div><a class="l on" href="#">Início</a><a class="l" href="#meus">Meus produtos</a><a class="l" href="#loja">Loja</a>
+<nav class="nav"><div class="logo">ESTADO PRÓPRIO <b>▲</b></div><a class="l on" href="#">Início</a><a class="l" href="#meus">Meus produtos</a><a class="l" href="#loja">Loja</a>
  <div class="d"><a class="sai" href="/membros/sair">Sair</a><div class="av" id="av">··</div></div></nav>
 <section class="hero"><div class="ft" id="hft"></div><div class="mira"></div><div class="ht" id="ht"></div></section>
 <section class="tendo" id="meus"><div class="lin"><h2 id="tmeus">Seus produtos</h2><a href="#loja">Ver todos →</a></div><div class="fila" id="fila"></div></section>
@@ -65,7 +65,7 @@
  <div class="lin" style="margin-top:40px" id="loja"><h2>Loja · compre aqui dentro</h2><a href="#loja">o acesso libera na hora</a></div><div class="pos" id="pos"></div>
 </div><aside><div class="lado"><div class="lin" style="margin:0"><h2>Mais acessados</h2></div><div id="top"></div></div>
  <div class="cel"><div style="font:400 44px Anton;color:var(--am)">▶</div><div><b style="font:800 18px Manrope">Leve no celular</b><p style="font:500 13px/1.45 Manrope;color:var(--ap);margin-top:4px">Abra pelo navegador e adicione à tela inicial. Os PDFs ficam salvos no seu aparelho.</p></div></div></aside></div>
-<div class="faixa" id="faixa"><div><h3>Seu Instagram trazendo cliente</h3><p>Se você quer o mês gravado, editado e levando gente para o seu WhatsApp, eu faço com você.</p><a class="bt am" id="contato" href="#" target="_blank" rel="noopener">Falar com o Lindson</a></div></div>
+<div class="faixa" id="faixa"><div><h3>Construa o seu Estado Próprio</h3><p>O cliente já está procurando você. Se quiser que eu faça com você o seu Instagram chamar ele pro WhatsApp, me chama.</p><a class="bt am" id="contato" href="#" target="_blank" rel="noopener">Falar com o Lindson</a></div></div>
 <script>
 const F='/membros/img/';
 // [slug, linha 1, linha 2, slogan, dados, descrição, foto, posição do busto, (não usado), close da lista]
@@ -86,7 +86,7 @@ function monta(nome){
  document.getElementById('tmeus').textContent=tem.length?`Olá, ${nome||''}. Seus produtos`:'Escolha o seu primeiro produto';
  document.getElementById('hft').style.backgroundImage=`url(${F}c16.jpg)`;
  document.getElementById('faixa').style.setProperty('--fx',`url(${F}vf-c12.jpg)`);
- document.getElementById('ht').innerHTML=`<div class="orig">UM PRODUTO <b>LINDSON ALMEIDA</b></div><h1 class="tit">${h[1]}<span>${h[2]}</span></h1><div class="slog">${h[3]}</div>
+ document.getElementById('ht').innerHTML=`<div class="orig">ESTADO PRÓPRIO <b>▲</b> · LINDSON ALMEIDA</div><h1 class="tit">${h[1]}<span>${h[2]}</span></h1><div class="slog">${h[3]}</div>
   <div class="meta"><span>2026</span><i></i><span>${h[4][0]}</span><i></i><span>${h[4][1]}</span><span class="hd">${ok(h)?'LIBERADO':'PDF'}</span></div><p class="desc">${h[5]}</p>
   <div class="bts"><a class="bt am${acao==='Em breve'?' off':''}" ${href(h)}>▶ ${acao}</a><a class="bt vz" href="${ok(h)?'#meus':'#loja'}">${ok(h)?'Meus produtos':'+ Ver a loja'}</a></div>`;
  const ord=[...P.filter(ok),...P.filter(p=>!ok(p))];

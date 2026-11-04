@@ -116,6 +116,8 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 
 - **Regra (04/11 · Pedro):** "sempre que eu pedir algo ou der uma ordem, a primeira coisa que você deve fazer é buscar qual agente é melhor pra fazer aquilo; no squad pode perguntar os chefes; verifique a afinidade com os assuntos". Salva no topo do CLAUDE.md e nos recados do quadro.
 
+- **Nome da comunidade APROVADO: ESTADO PRÓPRIO ▲** (04/11 · Pedro, nome do Maquiavel): "amei estado próprio". Slogan "Cliente que vem de você, não da sorte." Branding (cenas de pedra/fortaleza à noite com luz âmbar, ▲ vazado = trancado, cheio = liberado) em `agencia/ofertas/low-ticket/venda/ESTADO-PROPRIO-BRANDING.md`.
+
 ## 4. REPROVADO: nunca repetir
 
 0c. **Capas amarelas a2y, c1y e r3y** (03/11 · Pedro): "os outros estão reprovados". Não usar foto "nascendo" do amarelo em degradê, nem pessoa pequena no amarelo com lista ao lado. **Amarelo APROVADO = c2y**: amarelo com textura, palavra gigante preta (Anton) atrás dele, ele recortado (BiRefNet) de corpo inteiro na frente, degradê preto embaixo com a manchete branca e a palavra em caixa amarela. Pediu em seguida: "busque maneiras e técnicas para melhorar ainda mais os que já aprovei, implementar, deixar mais moderno, premium, bonito e atrativo".
