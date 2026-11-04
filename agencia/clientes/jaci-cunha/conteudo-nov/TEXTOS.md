@@ -426,7 +426,7 @@ Dra. Jaci Cunha · Cirurgiã-dentista · CRO-MA 8514
 📍 Av. Militar, em frente à Praça do Viva · Zé Doca/MA
 ```
 
-## d02 · sex 20/11 · Consciência Negra · Post · foto IMG_3010
+## d02 · sex 20/11 · Consciência Negra · Post · foto jaci-branco-cadeira-sorrindo
 
 **Legenda** (1273 caracteres)
 

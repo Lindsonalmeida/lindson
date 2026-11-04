@@ -183,7 +183,7 @@ Chame no WhatsApp para sua avaliação.
 
 #bioestimuladordecolageno #preenchimentofacial #acidohialuronico #zedoca #maranhao""")
 
-R('r07', 'sex 13/11', 'Pacientes', 'IMG_3013', 'frases', 'Antes de marcar, quase todas perguntam:', '_o que elas perguntam_', 'e a resposta, **contada por quem viveu**',
+R('r07', 'sex 13/11', 'Pacientes', 'IMG_3013', 'fio', 'Antes de marcar, quase todas perguntam:', '_o que elas perguntam_', 'e a resposta, **contada por quem viveu**',
   [['0–3 s', '(Paciente, com TCLE assinado, olhando para a câmera) Eu tinha muito medo de ficar artificial.', '"Eu tinha muito medo…"'],
    ['3–15 s', '(Paciente) A Dra. Jaci conversou comigo, explicou tudo e não me empurrou nada.', 'A conversa veio primeiro'],
    ['15–28 s', '(Paciente) O que eu mais gostei foi o atendimento: calma, cuidado, cada detalhe explicado.', 'Atendimento com calma'],
@@ -213,7 +213,7 @@ Chame no WhatsApp para sua avaliação.
 
 #depoimento #experienciadopaciente #harmonizacaoorofacial #zedoca #maranhao""")
 
-R('r08', 'sáb 14/11', 'Acolhimento', 'IMG_3022', 'fio', 'Prazer, nós somos', 'a equipe', 'QUE TE **RECEBE**',
+R('r08', 'sáb 14/11', 'Acolhimento', 'IMG_3022', 'frases', 'Prazer, nós somos', 'a equipe', 'QUE TE **RECEBE**',
   [['0–3 s', '(Dra. na recepção) Quem te recebe aqui na clínica? Deixa eu te apresentar.', 'Quem te recebe aqui'],
    ['3–20 s', '(Cada pessoa da equipe diz o nome e o que faz, sorrindo para a câmera)', 'Nome e função de cada um'],
    ['20–32 s', '(Dra.) Cada pessoa aqui cuida de um detalhe para você se sentir em casa.', 'Você em casa'],
@@ -425,7 +425,7 @@ Chame no WhatsApp para sua avaliação.
 
 #depoimentodepaciente #autoestima #harmonizacaofacial #zedoca #maranhao""")
 
-R('r15', 'sex 27/11', 'Dúvidas', 'IMG_3051', 'tablet', 'A PERGUNTA DE MILHÕES', 'botox', 'quanto **tempo** dura?',
+R('r15', 'sex 27/11', 'Dúvidas', 'IMG_3051', 'fio', 'A PERGUNTA DE MILHÕES', 'botox', 'quanto **tempo** dura?',
   [['0–3 s', 'Quanto tempo dura o botox? Essa é a pergunta de milhões.', 'Quanto tempo dura o botox?'],
    ['3–16 s', 'O efeito da toxina é temporário. Em geral dura alguns meses, mas varia muito de pessoa para pessoa.', 'Temporário e varia'],
    ['16–28 s', 'Influenciam: a força do seu músculo, o seu metabolismo, os seus hábitos e a área tratada.', 'O que influencia'],
@@ -510,7 +510,7 @@ Chame no WhatsApp para sua avaliação.
 
 #novembroazul #saudedohomem #saudebucal #zedoca #maranhao""", tipo='post')
 
-R('d02', 'sex 20/11', 'Consciência Negra', 'IMG_3010', 'fio', '20 de novembro · Dia da Consciência Negra', 'Beleza não tem padrão', 'HARMONIZAR É **RESPEITAR** OS SEUS TRAÇOS',
+R('d02', 'sex 20/11', 'Consciência Negra', 'jaci-branco-cadeira-sorrindo', 'fio', '20 de novembro · Dia da Consciência Negra', 'Beleza não tem padrão', 'HARMONIZAR É **RESPEITAR** OS SEUS TRAÇOS',
   [], """
 DIA DA CONSCIÊNCIA NEGRA: BELEZA NATURAL NÃO TEM PADRÃO ÚNICO
 

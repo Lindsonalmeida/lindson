@@ -39,7 +39,7 @@ Chame no WhatsApp para sua avaliação.
 
 #harmonizacaofacial #festasdefimdeano #esteticacomseguranca #zedoca #maranhao""")
 
-car('c6', 'ter 08/12', 'Dúvidas', 'IMG_3012', 'balao', 'IMG_3011', [
+car('c6', 'ter 08/12', 'Dúvidas', 'jaci-preto-rennova-sorrindo', 'balao', 'IMG_3011', [
   dict(tipo='capa', topo='As **PERGUNTAS** que você não faz:', serif='lábios', sans='O QUE **NINGUÉM** RESPONDE.'),
   dict(tipo='texto', titulo='1. Vai ficar exagerado?', texto='O volume é planejado para o **seu rosto**. Natural é respeitar o formato da sua boca.'),
   dict(tipo='texto', titulo='2. Incha?', texto='Pode haver **inchaço passageiro**. Eu explico todos os cuidados antes, por escrito.'),

@@ -12,3 +12,10 @@ Pedido: "sempre que usar uma foto em um conteúdo, coloque essa foto em uma aba 
 ## Onde fica a aba Usadas
 - **Painel do cliente na Central** (aba Fotos → sub-abas **Disponíveis** e **Usadas**). O painel lê `window.FOTOS = {livres:[...], usadas:[{img, nome, onde, data}]}`; modelo em `agencia/sistema-clientes/prototipo/painel.html` e já aplicado nos painéis privados (leo, jaci, rt, sf, admin) em 04/11 (conta Leandro).
 - **No repositório:** `agencia/clientes/<cliente>/FOTOS-USADAS.md` (tabela: arquivo · onde foi usada · data · conta). Foto de pessoa/paciente fica no privado `CentralLindsonALmeida/dados/clientes-arquivos/<cliente>/`; no arquivo público vai só o nome e o lugar.
+
+## Rosto sempre inteiro (regra do Lindson, 04/11/2026)
+"Não corte imagem do rosto dela, sempre deixe ela bem visível, não queremos imagens cortadas."
+- Antes de montar a arte, rode `python3 ferramentas/rosto.py <pasta das fotos> > rostos.json` (acha o rosto com o YuNet, modelo em `~/.modelos/yunet.onnx`).
+- A cabeça inteira (com o cabelo) fica dentro da arte, e o texto começa abaixo do queixo. Nunca texto em cima do rosto.
+- Foto que já vem com a cabeça cortada no original não entra.
+- Exemplo pronto: função `enquadra()` em `agencia/clientes/jaci-cunha/conteudo-nov/gerar.py`.

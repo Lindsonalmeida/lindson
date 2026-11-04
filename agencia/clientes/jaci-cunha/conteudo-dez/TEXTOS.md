@@ -76,7 +76,7 @@ Dra. Jaci Cunha · Cirurgiã-dentista · CRO-MA 8514
 ```
 
 ## c6 · ter 08/12 · Dúvidas · Carrossel 6 telas · tom escuro
-Fotos: capa IMG_3012 · última tela IMG_3011 (meio sem foto, tipográfico)
+Fotos: capa jaci-preto-rennova-sorrindo · última tela IMG_3011 (meio sem foto, tipográfico)
 
 - Tela 1 (capa): As **PERGUNTAS** que você não faz: / lábios / O QUE **NINGUÉM** RESPONDE.
 - Tela 2 (texto): 1. Vai ficar exagerado? / O volume é planejado para o **seu rosto**. Natural é respeitar o formato da sua boca.
