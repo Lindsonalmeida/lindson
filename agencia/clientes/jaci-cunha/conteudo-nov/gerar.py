@@ -58,6 +58,7 @@ def arte(c, H):
     LIM = {'balao': 900, 'fio': 1030, 'faixa': 970, 'tablet': 880, 'frases': 1000, 'cafe': 890, 'faixas': 1000, 'invertido': 0}; LIM['fio'] = 990
     if k == 'invertido': FOTO, ch, CX = enquadra(f, H, 520, 560)
     else: FOTO, ch, CX = enquadra(f, H, cmax=z + LIM[k] - 40)
+    globals()['LASTCX'] = CX   # rosto na arte, para a conferência (conferir.js)
     zt = z + (max(110, ch - z + 40 - BASE[k]) if H == 1350 else max(0, ch - z + 40 - BASE[k]))  # o texto começa abaixo do queixo
     # feed harmônico (pedido do Lindson 04/11): xadrez claro/escuro na grade, mesma correção de cor em todas as fotos
     global topo, veu
@@ -84,7 +85,7 @@ def arte(c, H):
           f'<div class="sans" style="color:#fff;font-size:38px;line-height:1.25;margin:18px auto 0;width:860px;font-weight:300">{md(t["sans"])}</div></div>' + rodape(z))
     if k == 'faixas':  # cópia de "Entramos na reta final do ano... · E EU SEMPRE AVISO (faixas vinho)"
         return (FOTO + '<div class="a" style="inset:0;background:linear-gradient(0deg,rgba(0,0,0,.38) 0,rgba(0,0,0,0) 38%)"></div>' + topo(z, CAFE) +
-          f'<div class="a" style="left:96px;top:{z+250}px;width:560px"><span class="fv" style="font-weight:700;text-transform:none;font-size:40px">{md(t["topo"])}</span><div style="margin-top:8px"><span class="faixa S" style="font-size:80px;background:rgba(201,180,142,.85)">{md(t["serif"]).replace("<i class=\"S\">","").replace("</i>","")}</span></div></div>'
+          f'<div class="a" style="left:96px;top:{z+250}px;width:{max(300, min(560, CX[0] - 126)):.0f}px"><span class="fv" style="font-weight:700;text-transform:none;font-size:40px">{md(t["topo"])}</span><div style="margin-top:8px"><span class="faixa S" style="font-size:80px;background:rgba(201,180,142,.85)">{md(t["serif"]).replace("<i class=\"S\">","").replace("</i>","")}</span></div></div>'
           f'<div class="a" style="right:96px;top:{zt+880}px;text-align:right">' + ''.join(f'<div><span class="fv">{md(x)}</span></div>' for x in t["sans"].split(" / ")) + '</div>' + rodape(z, '#fff', False))
     if k == 'tablet':  # cópia de "checklist do pós botox": palavra gigante fina + faixa vinho
         return (FOTO + veu(50, .5) + topo(z) +
@@ -138,7 +139,7 @@ if __name__ == "__main__":
         H = 1350 if os.environ.get('FEED') or c['tipo'] != 'reels' else 1920
         h = arte(c, H)
         if c.get('tom') == 'claro': h = h.replace('color:#fff', 'color:#5A4033').replace('color:#F3EADD', 'color:#5A4033')
-        secs.append(f'<section class="f {c.get("tom", "")}" id="{c["id"]}" style="height:{H}px">{h}</section>')
+        secs.append(f'<section class="f {c.get("tom", "")}" id="{c["id"]}" data-rosto="{",".join(f"{v:.0f}" for v in LASTCX)}" style="height:{H}px">{h}</section>')
     open('artes.html', 'w').write(f"""<!doctype html><html><head><meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
     <style>{CSS}</style></head><body>{''.join(secs)}</body></html>""")

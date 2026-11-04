@@ -32,7 +32,7 @@ EXTRA = """.tx{font-family:Poppins;font-size:46px;line-height:1.35;text-align:ce
 .dots{right:88px;top:1170px;display:flex;gap:8px} .dots i{width:12px;height:12px;border-radius:50%;display:block}"""
 secs = []
 for p in json.load(open('textos.json')):
-    secs.append(f'<section class="f {p["tom"]}" id="{p["id"]}" style="height:1350px">{tom(N.arte(p, 1350), p["tom"])}</section>')
+    h = tom(N.arte(p, 1350), p["tom"]); secs.append(f'<section class="f {p["tom"]}" id="{p["id"]}" data-rosto="{",".join(f"{v:.0f}" for v in N.LASTCX)}" style="height:1350px">{h}</section>')
 for k, c in json.load(open('carrosseis.json')).items():
     T = c['telas']; n = len(T)
     for i, t in enumerate(T):
@@ -41,7 +41,8 @@ for k, c in json.load(open('carrosseis.json')).items():
         elif t['tipo'] == 'fim':   # cópia de "Antes de qualquer procedimento, eu observo." (faixa café + pílula), tom claro
             d = dict(id=k, foto=c['fim_foto'], comp='cafe', tom='claro', topo='', serif=t['serif'], sans=t['sans']); h = tom(N.arte(d, 1350), 'claro'); cl = 'claro'
         else: h = meio(t, i, n); cl = ''
-        secs.append(f'<section class="f {cl}" id="{k}-{i+1}" style="height:1350px">{h}</section>')
+        r = ",".join(f"{v:.0f}" for v in N.LASTCX) if t['tipo'] in ('capa', 'fim') else ''
+        secs.append(f'<section class="f {cl}" id="{k}-{i+1}" data-rosto="{r}" style="height:1350px">{h}</section>')
 open('artes.html', 'w').write(f"""<!doctype html><html><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
 <style>{N.CSS}{EXTRA}</style></head><body>{''.join(secs)}</body></html>""")

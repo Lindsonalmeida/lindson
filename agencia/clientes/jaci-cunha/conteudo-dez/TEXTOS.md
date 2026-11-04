@@ -273,7 +273,7 @@ Dra. Jaci Cunha · Cirurgiã-dentista · CRO-MA 8514
 ## p4 · sex 25/12 · Natal · Post · tom claro
 Foto: IMG_3043 · 25 de dezembro / Feliz Natal / COM **CARINHO**, DRA. JACI E EQUIPE
 
-**Legenda** (911 caracteres)
+**Legenda** (976 caracteres)
 
 ```
 FELIZ NATAL: UMA MENSAGEM DA DRA. JACI E DA EQUIPE
@@ -293,7 +293,7 @@ Se você exagerar nos doces, lembra de escovar os dentes antes de dormir. A dent
 Este ano, muitas pacientes viraram amigas. É por elas e por vocês que a gente abre as portas com carinho todos os dias.
 
 ✅ Conclusão
-Feliz Natal, com carinho, Dra. Jaci e equipe.
+Feliz Natal, com carinho, Dra. Jaci e equipe. Em janeiro, a gente se vê: chame no WhatsApp para sua avaliação.
 
 #feliznatal #natal2026 #clinicadrajacicunha #zedoca #maranhao
 

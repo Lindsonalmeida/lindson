@@ -37,7 +37,7 @@ Chame no WhatsApp para sua avaliação.
 
 #avaliacaofacial #harmonizacaofacial #primeiraconsulta #zedoca #maranhao""")
 
-R('r02', 'qua 04/11', 'Dúvidas', 'IMG_3023', 'balao', 'As **PERGUNTAS** que você não faz:', 'botox', 'deixa a cara **parada**?',
+R('r02', 'qua 04/11', 'Dúvidas', 'IMG_3023', 'tablet', 'As **PERGUNTAS** que você não faz:', 'botox', 'deixa a cara **parada**?',
   [['0–3 s', 'Botox deixa a cara parada? Essa é a pergunta que eu mais escuto.', 'Botox deixa a cara parada?'],
    ['3–15 s', 'O botox relaxa músculos específicos que formam as rugas de expressão. A dose e o ponto certo mudam tudo.', 'Dose e ponto certos'],
    ['15–27 s', 'O rosto parado costuma vir de dose acima do necessário ou de aplicação sem avaliação. Por isso eu avalio antes.', 'Avaliação antes, sempre'],
@@ -123,7 +123,7 @@ Chame no WhatsApp para sua avaliação.
 
 #zedoca #zedocama #comerciolocal #collab #maranhao""")
 
-R('r05', 'seg 09/11', 'Autoridade', 'IMG_3026', 'fio', 'O que eu mais repito na clínica:', 'Natural é fazer certo', 'NÃO É **FAZER POUCO**',
+R('r05', 'seg 09/11', 'Autoridade', 'IMG_3026', 'cafe', 'O que eu mais repito na clínica:', 'Natural é fazer certo', 'NÃO É **FAZER POUCO**',
   [['0–3 s', 'Natural não é fazer pouco. Natural é fazer certo pra você.', 'Natural ≠ pouco'],
    ['3–14 s', 'Tem gente que acha que resultado natural é colocar pouquinho produto. Não é bem assim.', 'O mito do "pouquinho"'],
    ['14–28 s', 'Natural é respeitar os seus traços, a sua idade e o seu jeito de se expressar. Às vezes é menos, às vezes é um plano em etapas.', 'Respeitar os seus traços'],
@@ -530,6 +530,8 @@ Já recebi pacientes que chegaram pedindo para "mudar" um traço e, conversando,
 
 ✅ Conclusão
 Que a beleza seja sempre a sua, com os seus traços e a sua história. Feliz Dia da Consciência Negra.
+
+Chame no WhatsApp para sua avaliação.
 
 #diadaconsciencianegra #belezanegra #belezanatural #zedoca #maranhao""", tipo='post')
 

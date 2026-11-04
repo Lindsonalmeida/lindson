@@ -428,7 +428,7 @@ Dra. Jaci Cunha · Cirurgiã-dentista · CRO-MA 8514
 
 ## d02 · sex 20/11 · Consciência Negra · Post · foto jaci-branco-cadeira-sorrindo
 
-**Legenda** (1273 caracteres)
+**Legenda** (1312 caracteres)
 
 ```
 DIA DA CONSCIÊNCIA NEGRA: BELEZA NATURAL NÃO TEM PADRÃO ÚNICO
@@ -449,6 +449,8 @@ Já recebi pacientes que chegaram pedindo para "mudar" um traço e, conversando,
 
 ✅ Conclusão
 Que a beleza seja sempre a sua, com os seus traços e a sua história. Feliz Dia da Consciência Negra.
+
+Chame no WhatsApp para sua avaliação.
 
 #diadaconsciencianegra #belezanegra #belezanatural #zedoca #maranhao
 

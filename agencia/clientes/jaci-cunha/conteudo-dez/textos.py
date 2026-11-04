@@ -228,7 +228,7 @@ Se você exagerar nos doces, lembra de escovar os dentes antes de dormir. A dent
 Este ano, muitas pacientes viraram amigas. É por elas e por vocês que a gente abre as portas com carinho todos os dias.
 
 ✅ Conclusão
-Feliz Natal, com carinho, Dra. Jaci e equipe.
+Feliz Natal, com carinho, Dra. Jaci e equipe. Em janeiro, a gente se vê: chame no WhatsApp para sua avaliação.
 
 #feliznatal #natal2026 #clinicadrajacicunha #zedoca #maranhao""")
 
