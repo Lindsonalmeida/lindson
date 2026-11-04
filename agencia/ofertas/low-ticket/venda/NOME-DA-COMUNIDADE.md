@@ -17,4 +17,4 @@ Fora: "Armas Próprias" (já usado no canal Raposa e Leão).
 Frase de abertura: "O cliente já está procurando você. Aqui dentro você aprende a fazer seu Instagram chamar ele pro WhatsApp, antes que ele vá pro concorrente."
 Avisos: nunca escassez falsa com "ocasião"; conferir INPI e @ antes de registrar.
 
-**Situação:** aguardando a escolha do Lindson.
+**Situação:** escolhido **ESTADO PRÓPRIO** (04/11, visto no print da conversa da conta Pedro, que seguia para o Maquiavel → Brand Chief → Design Chief montarem o branding da comunidade; parou no limite de uso, retoma a conta Pedro).
