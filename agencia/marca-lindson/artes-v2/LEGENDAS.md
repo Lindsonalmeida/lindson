@@ -317,3 +317,203 @@ Mostrar o problema que você resolve, o seu trabalho acontecendo e gente real qu
 👉 Comenta **PERFIL** que eu te digo o que postar no seu.
 
 #conteudoquevende #marketingdeservicos #reelsparanegocios #saoluis
+
+---
+# 10 modelos novos (23/11 a 02/12) · m1 a m10, xadrez preto/amarelo
+
+## 23/11 · m1 · Reels · "Seu concorrente pior está levando seu cliente"
+**Por que o concorrente pior leva o seu cliente no Instagram**
+
+Seu concorrente, pior que você, está levando o seu cliente. E não é por acaso.
+
+**Por que ele leva**
+Ele aparece todo dia, mostra o trabalho e deixa claro como chamar.
+
+**O que ele mostra e você não**
+Bastidor, resultado e o rosto de quem atende. Você faz melhor, mas ninguém vê.
+
+**Como virar o jogo no bairro**
+Perfil arrumado, vídeo toda semana e o WhatsApp a um toque.
+
+**Exemplo:** quem posta o serviço pronto hoje é lembrado amanhã, na hora da necessidade.
+
+👉 Comenta **PERFIL** que eu te mostro o que falta no seu.
+
+#concorrencia #marketinglocal #instagramparanegocios #saoluisma
+
+---
+## 24/11 · m2 · Carrossel · "O que responder quando perguntam o preço"
+**Script de vendas: o que responder quando perguntam o preço**
+
+O cliente pergunta o preço e some. Não precisa ser assim. Salva esse script.
+
+**1. Agradeça e pergunte**
+"Que bom que chamou! É para você ou para presente?"
+
+**2. Entenda o que ele precisa**
+Uma pergunta só, simples, para saber o que ele quer resolver.
+
+**3. Passe o valor com o motivo**
+O preço vem junto do que ele ganha, nunca sozinho.
+
+**Exemplo:** "Fica R$ X e já inclui a instalação. Quer que eu reserve o horário?"
+
+👉 Comenta **PERFIL** que eu olho o seu atendimento.
+
+#scriptdevendas #vendaspelowhatsapp #atendimento #empreendedorismo
+
+---
+## 25/11 · m3 · Reels · "Os 3 passos do primeiro mês comigo"
+**Como funciona o primeiro mês de marketing comigo**
+
+Arrumo a vitrine, gravo o mês e levo pro WhatsApp. É assim que começa.
+
+**Passo 1: a vitrine**
+Bio, destaques, foto e link. O cliente entende quem você é em segundos.
+
+**Passo 2: o mês gravado**
+Um dia de gravação com roteiro pronto. O mês de vídeos sai dali.
+
+**Passo 3: o WhatsApp**
+Anúncio para quem compra na sua região, com a conversa a um toque.
+
+**Exemplo:** no fim do mês você recebe o relatório no seu painel.
+
+👉 Comenta **PERFIL** que eu te conto como seria o seu.
+
+#gestaoderedessociais #marketingdigital #agenciadesaoluis #negociolocal
+
+---
+## 26/11 · m4 · Reels · "Como funciona o painel que meus clientes usam"
+**Painel do cliente: como você acompanha o seu marketing**
+
+Seu cliente sabe o que você fez por ele no mês? Os meus sabem.
+
+**O que tem no painel**
+Calendário, aprovação das artes, entregas, pedidos e o relatório do mês.
+
+**Por que isso importa**
+Nada fica perdido no WhatsApp. Você aprova, acompanha e vê o que foi feito.
+
+**Exemplo:** a arte chega no painel, você toca em aprovar e ela entra no calendário.
+
+👉 Comenta **PERFIL** que eu te mostro o painel por dentro.
+
+#transparencia #gestaodemarketing #relatorio #saoluis
+
+---
+## 27/11 · m5 · Post · "3 roteiros de vídeo do seu nicho, de graça"
+**Roteiro de vídeo para Instagram: 3 roteiros prontos do seu nicho**
+
+Sua vergonha de gravar está custando cliente. Com roteiro, fica fácil.
+
+**01 · O gancho**
+A primeira frase que segura quem está rolando o feed.
+
+**02 · A história**
+O problema do cliente e como você resolve, em poucas linhas.
+
+**03 · O pedido**
+O que a pessoa faz agora: comentar, chamar, salvar.
+
+**Exemplo:** "Seu cliente pergunta o preço e some? Eu te conto por quê."
+
+👉 Comenta **ROTEIRO** que eu te mando 3 do seu nicho.
+
+#roteirodevideo #reels #vergonhadegravar #marketingdeconteudo
+
+---
+## 28/11 · m6 · Carrossel · "Antes × depois: perfil sem destaques e com destaques"
+**Destaques do Instagram: o antes e depois que faz o cliente ficar**
+
+O cliente entra no seu perfil e vai embora? Pode ser a falta de destaques.
+
+**Sem destaques**
+O cliente não acha preço, endereço nem prova. Ele sai para procurar.
+
+**Com destaques**
+Comece aqui, clientes, como funciona e contato: o caminho até te chamar.
+
+**Exemplo:** "Comece aqui" responde em 15 segundos o que todo mundo pergunta.
+
+👉 Comenta **PERFIL** que eu monto a ordem dos seus.
+
+#destaquesdoinstagram #perfilprofissional #dicasdeinstagram #maranhao
+
+---
+## 29/11 · m7 · Reels · "O que a campanha política me ensinou sobre vender no bairro"
+**Marketing local: o que a campanha política ensina sobre vender**
+
+Quem é visto, é lembrado. Quem é lembrado, é chamado.
+
+**A lição**
+Em campanha, quem aparece toda semana no bairro ganha confiança antes de pedir.
+
+**No seu negócio**
+É igual: rosto, constância e presença onde o seu cliente está.
+
+**Exemplo:** o dono que aparece nos vídeos vira referência da rua.
+
+👉 Comenta **PERFIL** que eu te digo como aparecer mais.
+
+#marketinglocal #branding #presencadigital #saoluisma
+
+---
+## 30/11 · m8 · Reels · "Impulsionar não é anunciar"
+**Impulsionar ou anunciar no Instagram: a diferença que custa dinheiro**
+
+Já impulsionou e jogou dinheiro fora? A culpa não é sua.
+
+**Impulsionar**
+É empurrar um post que já existe para mais gente, sem escolher bem quem.
+
+**Anunciar**
+É escolher quem vê, o que ele vê e o que ele faz depois: chamar no WhatsApp.
+
+**Exemplo:** o mesmo valor num anúncio de mensagem traz conversa, não só curtida.
+
+👉 Comenta **ANÚNCIO** que eu reviso o seu.
+
+#trafegopago #metaads #impulsionar #anuncios
+
+---
+## 01/12 · m9 · Carrossel · "Checklist: seu Instagram está pronto para vender no Natal?"
+**Instagram para o Natal: checklist para vender em dezembro**
+
+Dezembro chega. Seu perfil está pronto para vender?
+
+**Bio com o que você vende**
+O cliente precisa saber em segundos o que tem para ele.
+
+**Destaque de presentes**
+Uma vitrine fixa com o que vender no Natal.
+
+**WhatsApp no link**
+Com a mensagem pronta. Em dezembro ninguém espera.
+
+**Exemplo:** "Presentes até R$ 100 · peça pelo WhatsApp" na primeira linha da bio.
+
+👉 Comenta **PERFIL** que eu olho o seu antes de dezembro.
+
+#vendasdenatal #instagramparaempresas #dezembro #comerciolocal
+
+---
+## 02/12 · m10 · Reels · "Bastidor: montando a estratégia de um cliente novo"
+**Estratégia de Instagram: como começa um cliente comigo**
+
+É assim que começa um cliente comigo, no dia 01.
+
+**Diagnóstico**
+Perfil, concorrentes e o que o cliente dele procura.
+
+**Linhas editoriais e calendário**
+O que postar, quando e com qual objetivo.
+
+**WhatsApp**
+O caminho do post até a conversa, com as mensagens prontas.
+
+**Exemplo:** em 90 dias, cada post tem um motivo para existir.
+
+👉 Comenta **PERFIL** que eu te mostro como seria a sua.
+
+#estrategiadeconteudo #planejamento #marketingdigital #saoluis

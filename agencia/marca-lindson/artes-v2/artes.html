@@ -37,7 +37,7 @@ html,body{background:#000;overflow:hidden;font-family:Manrope,sans-serif;-webkit
 .cx{box-shadow:0 12px 30px rgba(245,197,24,.28)}
 </style></head><body><div id="x"></div>
 <script>
-const F='fotos/',A=new URLSearchParams(location.search).get('a')||'',R=/^r|_r/.test(A);
+const F='fotos/',A=new URLSearchParams(location.search).get('a')||'',R=/^r|_r/.test(A)||['m1','m3','m4','m7','m8','m10'].includes(A);
 const topo=(rot,y)=>`<div class="abs" style="left:70px;right:70px;top:${y||(R?250:60)}px;display:flex;justify-content:space-between;align-items:center;z-index:5"><span class="marca">lindson almeida<i></i></span><span class="mono" style="font-size:21px">${rot}</span></div>`;
 // modelo r1 (aprovado): foto inteira descendo da faixa do topo (cabeça fora do corte 3:4 do grid), degradê para a manchete
 const inteira=f=>`<div class="foto" style="left:0;right:0;top:260px;height:2130px;background-image:url(${F}${f});background-position:50% 0"></div>
@@ -54,7 +54,7 @@ const nasce=(f,pos,y,esq=0)=>`<div class="foto" style="left:${esq}px;right:0;top
 const pessoa=(f,x,b,w)=>`<div class="abs" style="left:${x+w*.18}px;width:${w*.64}px;bottom:${Math.max(b,0)+10}px;height:60px;border-radius:50%;background:radial-gradient(closest-side,rgba(0,0,0,.35),transparent)"></div><img class="abs" src="${F}${f}" style="left:${x}px;bottom:${b}px;width:${w}px;filter:drop-shadow(0 30px 40px rgba(60,40,0,.35))">`;
 
 // premium: rótulo em vidro fosco (com ponto REC quando o texto começa com ●)
-const vid=t=>`<span class="vidro">${t.startsWith('●')?'<b></b>'+t.slice(1).trim():t}</span>`;
+const vid=t=>!t?'':`<span class="vidro">${t.startsWith('●')?'<b></b>'+t.slice(1).trim():t}</span>`;
 const topoP=(rot,y)=>`<div class="abs" style="left:70px;right:70px;top:${y||(R?250:60)}px;display:flex;justify-content:space-between;align-items:center;z-index:6"><span class="marca">lindson almeida<i></i></span>${vid(rot)}</div>`;
 // marcas editoriais (cantos de corte + numeração), vinheta e grão de filme
 const det=(n,cor='rgba(245,243,238,.35)')=>{const H=R?1920:1350,m=34,l=26;const c=(x,y,bx,by)=>`<div class="abs" style="left:${x}px;top:${y}px;width:${l}px;height:${l}px;border-${by}:1.5px solid ${cor};border-${bx}:1.5px solid ${cor}"></div>`;
@@ -247,6 +247,81 @@ s2_c4_4:`<div class="a">${lado('c12.jpg','e','55% 10%','118%')}${topoP('REC 00:0
  <div class="abs" style="left:560px;bottom:120px"><span class="cx" style="font:800 40px Manrope;padding:14px 24px">Comenta PERFIL</span></div>
  <div class="abs mono" style="right:70px;bottom:60px;font-size:21px">04 / 04</div>${det('(10)')}<div class="grao" style="opacity:.14"></div></div>`,
 s2_r8:heroY({p:'DANCINHA',f:'c02-full.png',x:-60,b:-520,w:1200,r:true,top:400,fs:265,rot:'PAPO RETO',n:'(11)',h:'Dancinha não vende <span class="cx">serviço</span>.',rod:'COMENTA "PERFIL"'}),
+// ===== 10 MODELOS NOVOS (04/11, "crie mais 10 modelos diferentes entre amarelo e preto buscando as referências premium") =====
+// Pautas da semana 3/4 do calendário (23/11 a 02/12). Xadrez: P A P A P A P A P A. Referências no TEMPLATE.md (v3).
+// m1 · PRETO · capa de revista (Outside Magazine Urban Cover, Nordic Division, dribbble.com/shots/25922361)
+m1:`<div class="a r"><img class="abs" src="${F}c05.jpg" style="left:0;top:260px;width:1080px">
+ <div class="abs" style="inset:0;background:rgba(10,10,10,.22)"></div>${halo(540,560,330)}
+ <div class="abs ant" style="left:0;right:0;top:330px;text-align:center;font-size:400px;letter-spacing:-.01em"><span class="ouro">VENDA</span></div>
+ <img class="abs" src="${F}c05-full.png" style="left:0;top:260px;width:1080px;filter:brightness(.78) drop-shadow(18px 26px 22px rgba(0,0,0,.55));-webkit-mask-image:linear-gradient(180deg,#000 0,#000 520px,transparent 600px);mask-image:linear-gradient(180deg,#000 0,#000 520px,transparent 600px)">
+ <div class="abs" style="inset:0;background:linear-gradient(180deg,#0A0A0A 0,#0A0A0A 270px,transparent 420px,transparent 60%,rgba(10,10,10,.95) 82%)"></div>
+ <div class="abs" style="left:0;top:760px;width:520px;height:560px;background:linear-gradient(90deg,rgba(10,10,10,.85),transparent)"></div>${topoP('Nº 03 · NOV 2026')}
+ <div class="abs" style="left:60px;top:820px;width:250px;display:grid;gap:30px">${[['01','Por que ele leva o seu cliente'],['02','O que ele mostra e você não'],['03','Como virar o jogo no bairro']].map(x=>`<div><div class="mono" style="font-size:20px;color:var(--am)">${x[0]}</div><div style="font:800 34px/1.1 Manrope;letter-spacing:-.03em;margin-top:6px">${x[1]}</div></div>`).join('')}</div>
+ <div class="abs mono" style="right:62px;top:830px;font-size:18px;letter-spacing:.3em;writing-mode:vertical-rl;color:rgba(245,243,238,.6)">EDIÇÃO SÃO LUÍS · PAPO RETO</div>
+ <div class="abs" style="left:70px;right:70px;bottom:330px"><div class="h" style="font-size:100px">Seu concorrente pior está levando <span class="cx">seu cliente</span>.</div></div>
+ <div class="abs mono" style="left:70px;bottom:270px;font-size:21px;color:var(--am)">COMENTA "PERFIL"</div>${det('(12)')}<div class="grao" style="opacity:.14"></div></div>`,
+// m2 · AMARELO · página dupla com tipografia quebrada (Kendrick Unbound Magazine Spread, nasupikchu, dribbble.com/shots/26173051)
+m2:`<div class="a ya">${amarelo()}<div class="foto" style="left:560px;top:0;right:0;bottom:0;background-image:url(${F}c12.jpg);background-size:auto 112%;background-position:50% 6%"></div>
+ <div class="abs" style="left:560px;top:0;bottom:0;width:6px;background:var(--p)"></div>${topoP('')}<div class="abs mono" style="left:70px;top:120px;font-size:20px">SCRIPT · 01 / 05</div>
+ <div class="abs ant" style="left:60px;top:150px;font-size:250px;line-height:.84;color:var(--p)"><div class="breu">QUAN</div><div class="breu" style="margin-left:140px">TO</div><div class="breu">CUS</div><div class="breu" style="margin-left:90px">TA?</div></div>
+ <div class="abs" style="left:70px;top:1000px;width:440px"><div style="font:800 44px/1.08 Manrope;letter-spacing:-.04em">O que responder quando perguntam <span class="cxp">o preço</span>.</div></div>
+ <div class="abs arr" style="left:70px;bottom:60px">ARRASTE PARA O LADO →</div>${det('(13)','rgba(10,10,10,.45)')}<div class="grao" style="opacity:.16"></div></div>`,
+// m3 · PRETO · foto dentro da palavra gigante (RUN, Blake Cale, dribbble.com/shots/15726856)
+m3:`<div class="a r">${topoP('● REC 00:00:25')}<div class="abs" style="inset:0;background:radial-gradient(60% 35% at 50% 40%,rgba(245,197,24,.12),transparent 70%)"></div>
+ <div class="abs ant" style="left:0;right:0;top:360px;text-align:center;font-size:360px;line-height:.9;letter-spacing:-.01em;-webkit-text-stroke:3px #F5C518;background:url(${F}c00.jpg) 50% 22%/1080px auto;-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 20px 40px rgba(0,0,0,.6))">1º<br>MÊS</div>
+ <div class="abs" style="left:70px;right:70px;top:1050px;height:2px;background:linear-gradient(90deg,var(--am),transparent)"></div>
+ <div class="abs" style="left:70px;right:70px;top:1085px;display:flex;justify-content:space-between">${[['01','Arrumo a vitrine'],['02','Gravo o mês'],['03','Levo pro WhatsApp']].map(x=>`<div style="width:290px"><div class="mono" style="font-size:22px;color:var(--am)">${x[0]}</div><div style="font:800 40px/1.08 Manrope;letter-spacing:-.03em;margin-top:8px">${x[1]}</div></div>`).join('')}</div>
+ <div class="abs" style="left:70px;right:70px;bottom:330px"><div class="h" style="font-size:100px">Os 3 passos do <span class="cx">primeiro mês</span> comigo.</div></div>
+ <div class="abs mono" style="left:70px;bottom:270px;font-size:21px;color:var(--am)">COMENTA "PERFIL"</div>${det('(14)')}<div class="grao" style="opacity:.14"></div></div>`,
+// m4 · AMARELO · pessoa grande + celular com a Central (pôster de produto Nike Air Max + Surpluz)
+m4:`<div class="a r ya">${amarelo()}${topoP('CENTRAL DO CLIENTE')}
+ <div class="abs" style="left:70px;right:70px;top:380px"><div class="mono" style="font-size:24px">BASTIDOR</div><div class="h" style="font-size:96px;margin-top:20px">Seu cliente sabe o que você fez por ele <span class="cxp">no mês</span>?</div></div>
+ ${halo(330,1250,420,'rgba(255,240,170,.7)')}<img class="abs" src="${F}c04-full.png" style="left:-330px;bottom:-900px;width:1300px;filter:drop-shadow(22px 24px 18px rgba(0,0,0,.35))">
+ <div class="abs" style="left:610px;top:1000px;width:380px;height:780px;border-radius:56px;background:#0A0A0A;padding:14px;transform:rotate(7deg);box-shadow:0 60px 120px rgba(40,25,0,.45)"><div style="width:100%;height:100%;border-radius:44px;background:url(${F}central.png) top/cover"></div></div>
+ <div class="abs mono" style="left:70px;bottom:120px;font-size:21px;color:var(--t);z-index:3">COMENTA "PERFIL"</div>
+ <div class="abs" style="left:0;right:0;bottom:0;height:300px;background:linear-gradient(180deg,transparent,rgba(10,10,10,.85))"></div>${det('(15)','rgba(10,10,10,.45)')}<div class="grao" style="opacity:.16"></div></div>`,
+// m5 · PRETO · tríptico (TRIPTYCH INNOVATIONS 1976, David Vicente, dribbble.com/shots/27778433)
+m5:`<div class="a">${topoP('ROTEIRO')}
+ <div class="abs" style="left:70px;right:70px;top:170px"><div class="h" style="font-size:80px">3 roteiros do seu nicho, <span class="cx">de graça</span>.</div></div>
+ ${[['c05.jpg','50% 14%','260%'],['c00.jpg','52% 28%','190%'],['c03.jpg','50% 10%','150%']].map((x,i)=>`<div class="foto" style="left:${70+i*322}px;top:450px;width:296px;height:640px;background-image:url(${F}${x[0]});background-position:${x[1]};background-size:${x[2]}"></div><div class="abs mono" style="left:${70+i*322}px;top:1110px;font-size:22px;color:var(--am)">0${i+1} —</div><div class="abs" style="left:${70+i*322}px;top:1145px;width:290px;font:800 30px/1.1 Manrope;letter-spacing:-.03em">${['O gancho','A história','O pedido'][i]}</div>`).join('')}
+ <div class="abs mono" style="right:70px;bottom:60px;font-size:21px;color:var(--ap)">SUA VERGONHA DE GRAVAR ESTÁ CUSTANDO CLIENTE · COMENTA "ROTEIRO"</div>${det('(16)')}<div class="grao" style="opacity:.14"></div></div>`,
+// m6 · AMARELO · pôster esportivo com poses em camadas (Indiana Fever SURVIVED, Andre Vazquez, dribbble.com/shots/27774615)
+m6:`<div class="a ya">${amarelo()}${topoP('ANTES × DEPOIS · 01 / 04')}
+ ${halo(540,520,380,'rgba(255,240,170,.75)')}<div class="abs ant" style="left:0;right:0;top:150px;text-align:center;font-size:350px;color:var(--p)"><span class="breu">VOLTA</span></div>
+ <img class="abs" src="${F}c01-full.png" style="left:-200px;bottom:-330px;width:820px;filter:brightness(.62) blur(1.2px)">
+ <img class="abs" src="${F}c04-full.png" style="left:460px;bottom:-330px;width:820px;filter:brightness(.62) blur(1.2px)">
+ <img class="abs" src="${F}c03-full.png" style="left:90px;bottom:-300px;width:900px;filter:drop-shadow(22px 24px 18px rgba(0,0,0,.42)) drop-shadow(0 30px 40px rgba(60,40,0,.35))">
+ <div class="abs" style="left:0;right:0;bottom:0;height:340px;background:linear-gradient(180deg,rgba(10,10,10,0),rgba(10,10,10,.94) 45%)"></div>
+ <div class="abs" style="left:70px;right:70px;bottom:120px;color:var(--t)"><div class="h" style="font-size:74px">O cliente entra no seu perfil e <span class="cx">vai embora</span>?</div></div>
+ <div class="abs arr" style="left:70px;bottom:56px;color:var(--am)">ARRASTE PARA O LADO →</div>${det('(17)','rgba(10,10,10,.45)')}<div class="grao" style="opacity:.18"></div></div>`,
+// m7 · PRETO · disco de luz atrás da pessoa (Man UpRight, Anna SHTONDA, dribbble.com/shots/27563407 + Kites Design)
+m7:`<div class="a r">${topoP('● REC 00:00:29')}
+ <div class="abs" style="left:110px;top:430px;width:860px;height:860px;border-radius:50%;background:radial-gradient(circle at 50% 38%,#FFE27A 0,#F5C518 45%,#C98C04 100%);box-shadow:0 0 140px rgba(245,197,24,.35)"></div>
+ <img class="abs" src="${F}c00-full.png" style="left:-60px;bottom:-480px;width:1200px;filter:drop-shadow(0 30px 50px rgba(0,0,0,.6))">
+ <div class="abs" style="left:0;right:0;bottom:0;height:900px;background:linear-gradient(180deg,transparent,rgba(10,10,10,.96) 55%)"></div>
+ <div class="abs" style="left:70px;right:70px;bottom:330px"><div class="mono" style="font-size:24px;color:var(--am);margin-bottom:22px">O QUE A CAMPANHA POLÍTICA ME ENSINOU</div><div class="h" style="font-size:92px">Quem é visto, é lembrado. Quem é lembrado, é <span class="cx">chamado</span>.</div></div>
+ <div class="abs mono" style="left:70px;bottom:270px;font-size:21px;color:var(--ap)">COMENTA "PERFIL"</div>${det('(18)')}<div class="grao" style="opacity:.14"></div></div>`,
+// m8 · AMARELO · manchete de jornal com a pessoa subindo pela borda (Nike Air Max poster + Outside Magazine)
+m8:`<div class="a r ya">${amarelo()}${topoP('ANÚNCIO')}
+ <div class="abs ant" style="left:60px;right:60px;top:380px;font-size:150px;line-height:.86;color:var(--p)"><div class="breu">IMPULSIONAR</div><div style="display:flex;align-items:center;gap:30px;margin:18px 0"><span style="font:800 150px Manrope;color:var(--p)">≠</span><span style="font:500 26px/1.4 Manrope;color:#3a3200;max-width:460px;text-transform:none;letter-spacing:0">Impulsionar é empurrar o post. Anunciar é escolher quem vê e o que ele faz.</span></div><div class="breu">ANUNCIAR</div></div>
+ ${halo(880,1250,380,'rgba(255,240,170,.7)')}<img class="abs" src="${F}c02-full.png" style="left:380px;bottom:-700px;width:1100px;filter:drop-shadow(22px 24px 18px rgba(0,0,0,.35))">
+ <div class="abs" style="left:0;right:0;bottom:0;height:520px;background:linear-gradient(180deg,rgba(10,10,10,0),rgba(10,10,10,.94) 50%)"></div>
+ <div class="abs" style="left:70px;right:70px;bottom:330px;color:var(--t)"><div class="h" style="font-size:80px">Já impulsionou? <span class="cx">A culpa não é sua</span>.</div></div>
+ <div class="abs mono" style="left:70px;bottom:270px;font-size:21px;color:var(--am)">COMENTA "ANÚNCIO"</div>${det('(19)','rgba(10,10,10,.45)')}<div class="grao" style="opacity:.16"></div></div>`,
+// m9 · PRETO · pôster de data (calendário) com foto de lado (Outside Magazine + Personal Brand Kit)
+m9:`<div class="a">${lado('c09.jpg','d','45% 4%','118%')}${topoP('CHECKLIST · 01 / 05')}
+ <div class="abs ant" style="left:60px;top:150px;font-size:300px;line-height:.86"><span class="ouro">DEZ</span></div>
+ <div class="abs mono" style="left:70px;top:430px;font-size:22px;color:var(--ap)">01 ——— 25 ——— 31</div>
+ <div class="abs" style="left:70px;top:520px;width:560px"><div class="h" style="font-size:72px">Seu Instagram está pronto para vender <span class="cx">no Natal</span>?</div></div>
+ <div class="abs" style="left:70px;top:900px;display:grid;gap:18px">${['Bio com o que você vende','Destaque de presentes','WhatsApp no link'].map(t=>`<div style="display:flex;gap:16px;align-items:center;font:700 30px Manrope"><span style="width:40px;height:40px;border:2px solid var(--am);border-radius:10px;display:grid;place-items:center;color:var(--am);font-size:24px">✓</span>${t}</div>`).join('')}</div>
+ <div class="abs arr" style="left:70px;bottom:60px;color:var(--am)">ARRASTE PARA O LADO →</div>${det('(20)')}<div class="grao" style="opacity:.14"></div></div>`,
+// m10 · AMARELO · faixa de cinema com close nos olhos (Playing Around the Eyes, Aran Fononi, dribbble.com/shots/27692401)
+m10:`<div class="a r ya">${amarelo()}${topoP('BASTIDOR')}
+ <div class="abs" style="left:70px;right:70px;top:400px"><div class="mono" style="font-size:24px">CLIENTE NOVO · DIA 01</div><div class="h" style="font-size:104px;margin-top:20px">É assim que começa um cliente <span class="cxp">comigo</span>.</div></div>
+ <div class="abs" style="left:0;right:0;top:960px;height:400px;background:#0A0A0A;box-shadow:0 40px 80px rgba(60,40,0,.35)"><div class="foto" style="inset:24px 0;background-image:url(${F}c05.jpg);background-size:2600px auto;background-position:-760px -560px"></div>
+ <div class="abs mono" style="left:70px;top:-36px;font-size:18px;color:var(--p)">● REC 00:00:02</div><div class="abs mono" style="right:70px;bottom:-36px;font-size:18px;color:var(--p)">ESTRATÉGIA · 90 DIAS</div></div>
+ <div class="abs" style="left:70px;right:70px;top:1460px;display:flex;gap:16px;flex-wrap:wrap">${['Diagnóstico','Linhas editoriais','Calendário','WhatsApp'].map(t=>`<span style="background:var(--p);color:var(--am);font:700 26px Manrope;padding:12px 20px;border-radius:99px">${t}</span>`).join('')}</div>
+ <div class="abs mono" style="left:70px;bottom:270px;font-size:21px">COMENTA "PERFIL"</div>${det('(21)','rgba(10,10,10,.45)')}<div class="grao" style="opacity:.16"></div></div>`,
 // r4 · Reels "Mito: precisa postar todo dia" · modelo r1
 r4:`<div class="a r">${inteira('c04.jpg')}${topo('● REC 00:00:15')}
  <div class="abs" style="left:70px;right:70px;top:1130px"><div class="mono" style="font-size:24px;color:var(--am);margin-bottom:22px">MITO × VERDADE</div><div style="font:800 76px/1 Manrope;letter-spacing:-.04em;color:#8a8a8a;text-decoration:line-through;text-decoration-color:var(--am);text-decoration-thickness:6px">Precisa postar todo dia.</div><div class="h" style="font-size:118px;margin-top:24px">Precisa postar <span class="cx">certo</span>.</div></div>
