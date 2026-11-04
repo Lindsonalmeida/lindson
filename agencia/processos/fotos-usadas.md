@@ -10,7 +10,7 @@ Pedido: "sempre que usar uma foto em um conteúdo, coloque essa foto em uma aba 
 5. Foto de banco também se anota (link de origem) para não repetir a mesma imagem de banco no mesmo cliente.
 
 ## Onde fica a aba Usadas
-- **Painel do cliente na Central** (aba Fotos → sub-abas **Disponíveis** e **Usadas**). O painel lê `window.FOTOS = {livres:[...], usadas:[{img, nome, onde, data}]}`; modelo em `agencia/sistema-clientes/prototipo/painel.html` e já aplicado nos painéis privados (leo, jaci, rt, sf, admin) em 04/11 (conta Leandro).
+- **Painel do cliente na Central** (aba Fotos → sub-abas **Disponíveis** e **Usadas**). O painel lê `window.FOTOS = {livres:[...], usadas:[{img, nome, onde, data}]}`; modelo em `agencia/sistema-clientes/prototipo/painel.html` e já aplicado nos painéis privados (leo, jaci, rt, sf, admin) em 04/11 (conta Leandro). **Nos painéis no ar** a aba Fotos é a tela real de envio (fotos do servidor): ela ganhou as abas Disponíveis e Usadas, lendo `D.fotosUsadas = {"nome do arquivo": "onde foi usada"}` no painel do cliente (exemplo: `painel/jaci.html`).
 - **No repositório:** `agencia/clientes/<cliente>/FOTOS-USADAS.md` (tabela: arquivo · onde foi usada · data · conta). Foto de pessoa/paciente fica no privado `CentralLindsonALmeida/dados/clientes-arquivos/<cliente>/`; no arquivo público vai só o nome e o lugar.
 
 ## Rosto sempre inteiro (regra do Lindson, 04/11/2026)
