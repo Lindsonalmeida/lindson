@@ -43,7 +43,7 @@
 .cat:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(7,9,12,.95),transparent 65%)}.cat b{position:absolute;z-index:2;left:16px;bottom:30px;font:800 18px Manrope}.cat span{position:absolute;z-index:2;left:16px;bottom:12px;font:500 12px Manrope;color:var(--ap)}
 .cat i{position:absolute;z-index:2;right:14px;bottom:14px;width:30px;height:30px;border-radius:50%;border:1px solid rgba(255,255,255,.4);display:grid;place-items:center;font-style:normal;font-size:14px}
 .pos{display:grid;grid-template-columns:repeat(5,1fr);gap:16px}.po{position:relative;aspect-ratio:2/3;border-radius:12px;overflow:hidden;background:#111 center/cover}
-.po:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(7,9,12,.95),transparent 55%)}.po .n{position:absolute;z-index:2;left:12px;right:12px;bottom:14px;font:400 22px/.95 Anton;text-transform:uppercase}.po .n small{display:block;font:500 11px Manrope;color:var(--ap);text-transform:none;margin-top:6px;font-family:Manrope}
+.po:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(7,9,12,.9),transparent 14%)}.po .n{position:absolute;z-index:2;left:12px;right:12px;bottom:14px;font:400 22px/.95 Anton;text-transform:uppercase}.po .n small{display:block;font:500 11px Manrope;color:var(--ap);text-transform:none;margin-top:6px;font-family:Manrope}
 .lado{background:var(--s);border:1px solid var(--l);border-radius:18px;padding:20px}.top{display:grid;grid-template-columns:28px 56px 1fr auto;gap:12px;align-items:center;padding:12px 0;border-bottom:1px solid var(--l)}
 .top .nn{font:400 34px Anton;color:#3a3f47}.top .mi{width:56px;height:72px;border-radius:8px;background:#111 center/cover}.top b{font:700 14px Manrope}.top small{display:block;font:500 12px Manrope;color:var(--ap);margin-top:3px}
 .top a{font:700 11px Manrope;border:1px solid #3a3f47;border-radius:99px;padding:6px 10px;white-space:nowrap}
@@ -73,7 +73,7 @@ const P=[['kit-mes-pronto','KIT MÊS','PRONTO','O SEU MÊS DE INSTAGRAM PRONTO P
  ['raio-x-do-perfil','RAIO-X','DO PERFIL','EU OLHO O SEU PERFIL E TE MOSTRO O CAMINHO',['Serviço','Vídeo','Plano de 7 dias'],'Um vídeo meu analisando o seu Instagram e o plano de 7 dias para o seu perfil começar a vender.','c11','50% 14%','vb-c03','vc-c05'],
  ['bio-que-vende','BIO QUE','VENDE','A SUA BIO PRONTA EM 15 MINUTOS',['Guia','Fórmula de 5 partes','Checklists'],'A fórmula da bio que diz o que você faz, para quem e como chamar, com checklists e antes e depois.','c12','50% 14%','vb-c04','vc-c06']];
 const tem=(new URLSearchParams(location.search).get('tem')||'kit-mes-pronto').split(','),ok=p=>tem.includes(p[0]);
-const bg=p=>`background-image:url(${F}${p[6]}.jpg);background-position:${p[7]}`,bp=p=>`background-image:url(${F}${p[8]}.jpg);background-position:50% 20%`,bm=p=>`background-image:url(${F}${p[9]}.jpg);background-position:50% 30%`;
+const bg=p=>`background-image:url(${F}${p[6]}.jpg);background-position:${p[7]}`,bp=p=>`background-image:url(../../marca-lindson/artes-v2/artes/membros/p-${p[0]}.jpg);background-position:center`,bm=p=>`background-image:url(${F}${p[9]}.jpg);background-position:50% 30%`;
 const h=P.find(ok)||P[0];
 document.getElementById('hft').style.backgroundImage=`url(${F}c16.jpg)`;
 document.getElementById('faixa').style.setProperty('--fx',`url(${F}vf-c12.jpg)`);
@@ -83,6 +83,6 @@ document.getElementById('ht').innerHTML=`<div class="orig">UM PRODUTO <b>LINDSON
 document.getElementById('fila').innerHTML=P.map((p,i)=>`<a class="th ${i?'':'on'} ${ok(p)?'':'tr'}" href="#" style="${bg(p)}">${ok(p)?'':'<span class="cad">🔒 COMPRAR</span>'}<div class="n"><small>${ok(p)?'LIBERADO':'NA LOJA'}</small>${p[1]} ${p[2]}</div></a>`).join('');
 const C=[['Conteúdo','Roteiros, ganchos e calendário','c13','50% 14%'],['Vendas','WhatsApp e prospecção','c14','50% 12%'],['Perfil','Bio, destaques e Raio-X','c15','50% 12%'],['Bastidores','Como eu gravo e anuncio','c09','50% 10%']];
 document.getElementById('cats').innerHTML=C.map(c=>`<a class="cat" href="#" style="background-image:url(${F}${c[2]}.jpg);background-position:${c[3]}"><b>${c[0]}</b><span>${c[1]}</span><i>→</i></a>`).join('');
-document.getElementById('pos').innerHTML=P.map(p=>`<a class="po" href="#" style="${bp(p)}">${ok(p)?'':'<span class="cad">🔒</span>'}<div class="n">${p[1]} ${p[2]}<small>${ok(p)?'Liberado · continuar':'Comprar e liberar'}</small></div></a>`).join('');
+document.getElementById('pos').innerHTML=P.map(p=>`<a class="po" href="#" style="${bp(p)}">${ok(p)?'':'<span class="cad">🔒</span>'}<div class="n" style="text-align:center;font-size:14px;font-family:Manrope;text-transform:none;bottom:10px">${ok(p)?'Liberado · continuar':'Comprar e liberar'}</div></a>`).join('');
 document.getElementById('top').innerHTML=P.map((p,i)=>`<div class="top"><div class="nn">${i+1}</div><div class="mi" style="${bm(p)}"></div><div><b>${p[1]} ${p[2]}</b><small>${p[4].join(' · ')}</small></div><a href="#">${ok(p)?'Abrir':'Comprar'}</a></div>`).join('');
 </script></body></html>
