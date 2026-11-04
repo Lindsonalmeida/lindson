@@ -82,3 +82,5 @@ Todas as da conta Lindson estão desligadas desde 26/10 (limite de uso). Só rel
 - Xquads (Hormozi, Donald Miller, Pedro Sobral, copy, brand, tráfego…), instalados por `instalar-xquads.sh`.
 - Peter (`.claude/agents/peter.md`) para YouTube.
 - Builder Squad para código.
+
+- **Desde 04/11:** em todo pedido, o primeiro passo é escolher o agente com mais afinidade com o assunto (na dúvida, o chefe do squad; Xquads Chief roteia todos) e dizer ao Lindson qual foi escolhido.

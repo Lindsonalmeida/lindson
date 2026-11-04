@@ -114,6 +114,8 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 
 - **Área de membros PRÓPRIA (04/11 · Pedro):** "quero uma área própria nossa". Fica na Central (lindsonalmeida.pages.dev/membros), visual NEXUS; venda e checkout na Hubla; webhook `customer.member_added` / `customer.member_removed` (token `x-hubla-token`) libera e tira o acesso; 1º acesso com e-mail + CPF da compra e cria a senha. Cada produto vendido separado, cada um com landing page de estilo próprio; todos dentro da mesma comunidade. Regras dele: simetria em tudo, fotos alinhadas, nunca repetir foto, pode usar imagens de cinema de banco ou IA dentro da identidade.
 
+- **Regra (04/11 · Pedro):** "sempre que eu pedir algo ou der uma ordem, a primeira coisa que você deve fazer é buscar qual agente é melhor pra fazer aquilo; no squad pode perguntar os chefes; verifique a afinidade com os assuntos". Salva no topo do CLAUDE.md e nos recados do quadro.
+
 ## 4. REPROVADO: nunca repetir
 
 0c. **Capas amarelas a2y, c1y e r3y** (03/11 · Pedro): "os outros estão reprovados". Não usar foto "nascendo" do amarelo em degradê, nem pessoa pequena no amarelo com lista ao lado. **Amarelo APROVADO = c2y**: amarelo com textura, palavra gigante preta (Anton) atrás dele, ele recortado (BiRefNet) de corpo inteiro na frente, degradê preto embaixo com a manchete branca e a palavra em caixa amarela. Pediu em seguida: "busque maneiras e técnicas para melhorar ainda mais os que já aprovei, implementar, deixar mais moderno, premium, bonito e atrativo".
