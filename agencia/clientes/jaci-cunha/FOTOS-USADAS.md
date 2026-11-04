@@ -29,5 +29,19 @@ Fotos novas (IMG_30xx, 36 fotos, enviadas pelo Lindson no painel em 04/11) ficam
 | `IMG_3053` | post de feed d01 (dom 08/11, Novembro Azul) · `conteudo-nov/feed/d01.jpg` | 04/11/2026 | Leandro |
 | `IMG_3010` | post de feed d02 (sex 20/11, Consciência Negra) · `conteudo-nov/feed/d02.jpg` | 04/11/2026 | Leandro |
 | `IMG_3037` | post de feed d03 (sex 27/11, Black Friday) · `conteudo-nov/feed/d03.jpg` | 04/11/2026 | Leandro |
+| `IMG_3027` | post de feed p1 (sáb 05/12, Época) · `conteudo-dez/feed/p1.jpg` | 04/11/2026 | Leandro |
+| `IMG_3033` | post de feed p2 (sáb 12/12, Odonto) · `conteudo-dez/feed/p2.jpg` | 04/11/2026 | Leandro |
+| `IMG_3045` | post de feed p3 (sáb 19/12, Autoridade) · `conteudo-dez/feed/p3.jpg` | 04/11/2026 | Leandro |
+| `IMG_3043` | post de feed p4 (sex 25/12, Natal) · `conteudo-dez/feed/p4.jpg` | 04/11/2026 | Leandro |
+| `IMG_3034` | post de feed p5 (qua 30/12, Acolhimento) · `conteudo-dez/feed/p5.jpg` | 04/11/2026 | Leandro |
+| `IMG_3029` | post de feed p6 (qui 31/12, Réveillon) · `conteudo-dez/feed/p6.jpg` | 04/11/2026 | Leandro |
+| `IMG_3032` | capa do carrossel c5 (ter 01/12) · `conteudo-dez/feed/c5-1.jpg` | 04/11/2026 | Leandro |
+| `IMG_3016` | última tela do carrossel c5 (ter 01/12) · `conteudo-dez/feed/c5-6.jpg` | 04/11/2026 | Leandro |
+| `IMG_3012` | capa do carrossel c6 (ter 08/12) · `conteudo-dez/feed/c6-1.jpg` | 04/11/2026 | Leandro |
+| `IMG_3011` | última tela do carrossel c6 (ter 08/12) · `conteudo-dez/feed/c6-6.jpg` | 04/11/2026 | Leandro |
+| `IMG_3015` | capa do carrossel c7 (ter 15/12) · `conteudo-dez/feed/c7-1.jpg` | 04/11/2026 | Leandro |
+| `IMG_3049` | última tela do carrossel c7 (ter 15/12) · `conteudo-dez/feed/c7-6.jpg` | 04/11/2026 | Leandro |
+| `IMG_3048` | capa do carrossel c8 (ter 22/12) · `conteudo-dez/feed/c8-1.jpg` | 04/11/2026 | Leandro |
+| `IMG_3019` | última tela do carrossel c8 (ter 22/12) · `conteudo-dez/feed/c8-6.jpg` | 04/11/2026 | Leandro |
 
-**Ainda livres:** IMG_3011, IMG_3012, IMG_3015, IMG_3016, IMG_3019, IMG_3027, IMG_3029, IMG_3032, IMG_3033, IMG_3034, IMG_3043, IMG_3045, IMG_3048, IMG_3049 · Contam como usadas por serem quase iguais às usadas: 3018 (≈3009), 3024 (≈3022), 3040 (≈3038).
+**Ainda livres:** nenhuma das 36 fotos novas (as 3 quase iguais, 3018, 3024 e 3040, contam como usadas). **Janeiro precisa de fotos novas** (gravação/ensaio).

@@ -4,7 +4,7 @@
 # Uso: python3 gerar.py <pasta das fotos hd> && node render.js
 import sys, json, re, os
 from PIL import Image, ImageStat
-F = sys.argv[1]; T = json.load(open('textos.json'))
+F = sys.argv[1] if __name__ == '__main__' else ''
 VINHO, OURO, CAFE, CREME = '#6E1A2A', '#B9A27A', '#5A4033', '#F3EADD'
 def md(s):
     s = str(s).replace('\n', '<br>'); s = re.sub(r'\*\*(.+?)\*\*', r'<b>\1</b>', s); return re.sub(r'_(.+?)_', r'<i class="S">\1</i>', s)
@@ -63,7 +63,8 @@ def arte(c, H):
         # sem depoimento inventado: frases são da própria Dra. ou dúvidas comuns (depoimento real só com TCLE)
         fr = {'r04': ['gente **daqui**', 'orgulho de **Zé Doca**', 'feito com **carinho**'],
               'r07': ['"vai ficar **natural**?"', '"dói?"', '"e se eu não **gostar**?"'],
-              'r16': ['obrigada pela **confiança**', 'cada **sorriso** conta', 'dezembro **chegando**']}.get(c['id'], [])
+              'r16': ['obrigada pela **confiança**', 'cada **sorriso** conta', 'dezembro **chegando**'],
+              'p3': ['**natural**', 'com **segurança**', 'do **seu** jeito']}.get(c['id'], [])
         pos = [(70, 520, 'left'), (640, 600, 'right'), (70, 1050, 'left')]
         return (foto(f) + veu(55, .5) + topo(z) +
           ''.join(f'<div class="a S dep" style="left:{x}px;top:{z+y}px;text-align:{al}">{md(s)}</div>' for s, (x, y, al) in zip(fr, pos)) +
@@ -84,15 +85,7 @@ def arte(c, H):
           f'<div class="S" style="font-size:{78 if len(t["serif"]) < 26 else 58}px;line-height:1.05;border-left:4px solid {OURO};padding-left:26px">{md(t["serif"]).replace("<i class=\"S\">","<span style=\"color:"+OURO+"\">").replace("</i>","</span>")}</div>'
           f'<div class="sans" style="font-size:32px;margin-top:30px;line-height:1.3">{md(t["sans"])}</div></div>' + rodape(z, '#F3EADD', False))
     raise SystemExit('composição? ' + k)
-secs = []
-for c in T:
-    H = 1350 if os.environ.get('FEED') or c['tipo'] != 'reels' else 1920
-    h = arte(c, H)
-    if c.get('tom') == 'claro': h = h.replace('color:#fff', 'color:#5A4033').replace('color:#F3EADD', 'color:#5A4033')
-    secs.append(f'<section class="f {c.get("tom", "")}" id="{c["id"]}" style="height:{H}px">{h}</section>')
-open('artes.html', 'w').write(f"""<!doctype html><html><head><meta charset="utf-8">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
-<style>*{{margin:0;padding:0;box-sizing:border-box}} body{{background:#222}} .f{{position:relative;width:1080px;overflow:hidden;margin-bottom:20px;background:#ddd}} .a{{position:absolute}}
+CSS = f"""*{{margin:0;padding:0;box-sizing:border-box}} body{{background:#222}} .f{{position:relative;width:1080px;overflow:hidden;margin-bottom:20px;background:#ddd}} .a{{position:absolute}}
 .bg{{inset:0;width:100%;height:100%;object-fit:cover}} .S{{font-family:'Playfair Display';font-style:italic}} .sans{{font-family:Poppins;font-size:30px;letter-spacing:.01em}} .sans b{{font-weight:700}}
 .topo{{left:88px;right:88px;display:flex;justify-content:space-between;font-family:Poppins;font-size:20px;letter-spacing:.02em;font-weight:400}} .topo b{{font-weight:700}} .ok{{font-style:normal;display:inline-grid;place-items:center;width:15px;height:15px;border-radius:50%;background:#3897F0;color:#fff;font-size:9px;margin-left:6px;vertical-align:4px}}
 .rod{{left:88px;right:88px;display:flex;justify-content:space-between;font-family:Poppins;font-size:17px;letter-spacing:.08em;line-height:1.25}} .rod small{{font-size:12.5px;opacity:.8;letter-spacing:.06em}} .rod.c{{display:block;text-align:center}}
@@ -103,5 +96,16 @@ open('artes.html', 'w').write(f"""<!doctype html><html><head><meta charset="utf-
 .fv{{display:inline-block;background:{VINHO};color:#fff;font-family:Poppins;font-size:44px;font-weight:400;padding:2px 16px;margin-top:6px;text-transform:uppercase}} .fv b{{font-weight:700}}
 .dep{{color:#fff;font-size:40px;width:380px;line-height:1.15;text-shadow:0 2px 6px rgba(0,0,0,.55),0 0 26px rgba(0,0,0,.45)}} .dep b{{font-weight:700}}
 .claro .pill{{color:#5A4033;border-color:#5A4033}} .claro .dep{{text-shadow:none;color:#6E1A2A!important}} .bg{{filter:saturate(.9) sepia(.07) contrast(1.03)}} .pill{{display:inline-block;margin-top:34px;border:2px solid #fff;border-radius:999px;padding:12px 30px;font-family:Poppins;font-size:24px;color:#fff}}
-</style></head><body>{''.join(secs)}</body></html>""")
-print(len(secs), 'artes')
+"""
+if __name__ == "__main__":
+    T = json.load(open("textos.json"))
+    secs = []
+    for c in T:
+        H = 1350 if os.environ.get('FEED') or c['tipo'] != 'reels' else 1920
+        h = arte(c, H)
+        if c.get('tom') == 'claro': h = h.replace('color:#fff', 'color:#5A4033').replace('color:#F3EADD', 'color:#5A4033')
+        secs.append(f'<section class="f {c.get("tom", "")}" id="{c["id"]}" style="height:{H}px">{h}</section>')
+    open('artes.html', 'w').write(f"""<!doctype html><html><head><meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+    <style>{CSS}</style></head><body>{''.join(secs)}</body></html>""")
+    print(len(secs), 'artes')
