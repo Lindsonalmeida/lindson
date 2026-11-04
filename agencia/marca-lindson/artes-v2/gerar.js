@@ -6,7 +6,7 @@ const D = __dirname, IDS = ['a2y', 'c1y', 'r3y', 'c2y', 'a1','a2','r1','c1_1','c
   const b = await chromium.launch(), ids = process.argv.slice(2).length ? process.argv.slice(2) : IDS;
   fs.mkdirSync(path.join(D, 'artes'), { recursive: true });
   for (const id of ids) {
-    const h = id.startsWith('r') ? 1920 : 1350, p = await b.newPage({ viewport: { width: 1080, height: h } });
+    const h = /^r|_r/.test(id) ? 1920 : 1350, p = await b.newPage({ viewport: { width: 1080, height: h } });
     await p.goto('file://' + path.join(D, 'artes.html') + '?a=' + id); await p.waitForFunction(() => window.pronto, null, { timeout: 30000 });
     await p.screenshot({ path: path.join(D, 'artes', id + '.png') }); await p.close(); console.log(id);
   }

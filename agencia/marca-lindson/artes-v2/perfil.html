@@ -1,0 +1,37 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<!-- Foto de perfil e capas de destaques · @lindsonalmeida_ (conta Pedro, 03/11/2026). Pedido: "crie uma foto de perfil e capas de destaques".
+     Mesma identidade aprovada: amarelo com textura + recorte BiRefNet com halo (c2yp) para a foto; preto com brilho âmbar, anel e ícone de traço
+     amarelo para os destaques (todos iguais entre si = harmonia na fileira). Uso: perfil.html?a=pf | h1..h6 -->
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>*{margin:0;padding:0;box-sizing:border-box}html,body{background:#000;overflow:hidden}
+.a{position:relative;overflow:hidden}.abs{position:absolute}
+.grao{position:absolute;inset:0;pointer-events:none;opacity:.14;mix-blend-mode:overlay;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+</style></head><body><div id="x"></div><script>
+const F='fotos/',A=new URLSearchParams(location.search).get('a')||'pf';
+const amarelo=`<div class="abs" style="inset:0;background:radial-gradient(70% 60% at 50% 38%,#FFE066 0,#F5C518 55%,#D9A20A 100%)"></div><div class="abs" style="inset:0;background:repeating-linear-gradient(115deg,rgba(255,255,255,.05) 0 2px,transparent 2px 9px);mix-blend-mode:soft-light"></div>`;
+// ícones de traço (24x24), desenhados no próprio arquivo
+const I={
+ h1:'<path d="M8 5v14l11-7z"/>',                                                        // Comece aqui (play)
+ h2:'<circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/>',                   // Avaliação (lupa)
+ h3:'<path d="m12 3 2.7 5.6 6.1.8-4.4 4.3 1 6.1L12 17l-5.4 2.8 1-6.1-4.4-4.3 6.1-.8z"/>', // Clientes (estrela)
+ h4:'<rect x="3" y="6" width="13" height="12" rx="2.5"/><path d="m16 10 5-3v10l-5-3"/>', // Bastidor (câmera)
+ h5:'<rect x="7" y="2.5" width="10" height="19" rx="2.5"/><path d="M11 18.5h2"/>',       // Mini site (celular)
+ h6:'<path d="M20 11.5a8 8 0 0 1-11.8 7L4 20l1.5-4A8 8 0 1 1 20 11.5z"/>'};              // Contato (conversa)
+const N={h1:'COMECE AQUI',h2:'AVALIAÇÃO',h3:'CLIENTES',h4:'BASTIDOR',h5:'MINI SITE',h6:'CONTATO'};
+let html;
+if(A==='pf'){ // foto de perfil 1080×1080 (o Instagram mostra em círculo)
+ html=`<div class="a" style="width:1080px;height:1080px">${amarelo}
+ <div class="abs" style="left:140px;top:60px;width:800px;height:800px;border-radius:50%;background:radial-gradient(closest-side,rgba(255,245,190,.9),transparent);filter:blur(10px)"></div>
+ <img class="abs" src="${F}c05-full.png" style="left:-760px;top:-250px;width:2600px;filter:drop-shadow(0 26px 40px rgba(70,45,0,.4))">
+ <div class="grao"></div></div>`;
+}else{ // capa de destaque 1080×1920 (o Instagram usa o círculo do centro)
+ html=`<div class="a" style="width:1080px;height:1920px;background:#0A0A0A">
+ <div class="abs" style="left:90px;top:510px;width:900px;height:900px;border-radius:50%;background:radial-gradient(closest-side,rgba(245,197,24,.30),rgba(245,197,24,.06) 70%,transparent)"></div>
+ <div class="abs" style="left:190px;top:610px;width:700px;height:700px;border-radius:50%;border:6px solid #F5C518;box-shadow:0 0 40px rgba(245,197,24,.35),inset 0 0 40px rgba(245,197,24,.18)"></div>
+ <svg class="abs" viewBox="0 0 24 24" style="left:340px;top:760px;width:400px;height:400px;filter:drop-shadow(0 0 18px rgba(245,197,24,.45))" fill="none" stroke="#F5C518" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">${I[A]}</svg>
+ 
+ <div class="grao"></div></div>`;
+}
+document.getElementById('x').innerHTML=html;
+Promise.all([document.fonts.ready,...[...document.images].map(i=>i.complete?1:new Promise(r=>{i.onload=i.onerror=r}))]).then(()=>setTimeout(()=>window.pronto=true,300));
+</script></body></html>

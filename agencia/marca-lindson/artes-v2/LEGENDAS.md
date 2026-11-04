@@ -184,3 +184,136 @@ Menos post, mais cliente.
 👉 Comenta **PERFIL** que eu te digo o que vale a pena postar no seu.
 
 #frequenciadepostagem #estrategiadeconteudo #mitosdoinstagram #negociosaoluis
+
+---
+# Semana 2 (16 a 22/11) · xadrez continua: amarelo (s2_r5, s2_r6, s2_p2, s2_r8) e preto (s2_c3, s2_r7, s2_c4)
+
+## 16/11 · s2_r5 · Reels · "Responder só o preço faz o cliente sumir"
+**Como responder quando o cliente pergunta o preço no WhatsApp**
+
+O cliente manda "quanto custa?", você responde o valor e ele some. Não foi o preço. Foi a resposta.
+
+**Por que ele some**
+Preço sozinho vira comparação. Sem entender o que está comprando, ele vai atrás do mais barato.
+
+**O que responder no lugar**
+Uma pergunta antes do valor: o que ele precisa, para quando, como é hoje. Depois o preço, já com o motivo.
+
+**Exemplo:** "Te passo agora! Só me conta: é para você ou para presente?"
+
+Quem pergunta primeiro, vende mais.
+
+👉 Comenta **PERFIL** que eu olho o seu atendimento e o seu perfil.
+
+#vendasnowhatsapp #atendimentoaocliente #comovender #saoluisma
+
+---
+## 17/11 · s2_c3 · Carrossel · "5 coisas que todo perfil que vende tem"
+**Perfil do Instagram que vende: as 5 coisas que não podem faltar**
+
+Curtida não paga boleto. Perfil que vende tem 5 coisas em comum. Salva e confere o seu.
+
+**1. Bio clara** · diz o que você faz, para quem e onde.
+**2. Rosto na foto** · gente confia em gente, não em logo.
+**3. Destaques na ordem do cliente** · comece aqui, clientes, como funciona, contato.
+**4. Link direto no WhatsApp** · com a mensagem pronta.
+**5. Post que mostra resultado** · antes e depois, bastidor, cliente real.
+
+**Exemplo:** destaque "Comece aqui" responde as 3 perguntas que todo mundo faz antes de chamar.
+
+👉 Quantas o seu tem? Comenta **PERFIL** que eu te digo o que falta.
+
+#perfilquevende #instagramparaempresas #dicasdeinstagram #marketingmaranhao
+
+---
+## 18/11 · s2_r6 · Reels · "A diária da Desentupidora SF: o mês de vídeos em 1 dia"
+**Como gravar o mês inteiro de vídeos de uma empresa em um dia**
+
+Bastidor de verdade, cliente de verdade: a diária de gravação da Desentupidora SF.
+
+**Antes do dia**
+Roteiro pronto para cada vídeo, cenário e ordem das cenas.
+
+**No dia**
+Eu dirijo, o dono só aparece. Troca de cena, troca de serviço, tudo no mesmo dia.
+
+**Depois**
+O mês inteiro editado e programado.
+
+**Exemplo:** num dia saem os vídeos de serviço, de dúvida e de bastidor do mês todo.
+
+👉 Comenta **ROTEIRO** que eu te mando 3 roteiros do seu nicho.
+
+#producaodevideo #videoparaempresa #bastidores #saoluis
+
+---
+## 19/11 · s2_r7 · Reels · "O site da Desentupidora SF: orçamento em 1 toque"
+**Mini site com WhatsApp: o orçamento que chega em um toque**
+
+Você não perde a venda no Instagram. Perde no WhatsApp, quando o cliente não sabe como pedir.
+
+**O que o site faz**
+Mostra os serviços, a região atendida e o botão que já abre a conversa com a mensagem pronta.
+
+**Por que funciona**
+Cliente com pressa não procura número. Ele toca e pede.
+
+**Exemplo:** desentupidorasf.pages.dev, com "Pedir orçamento no WhatsApp" logo no começo.
+
+👉 Comenta **SITE** que eu te mostro como ficaria o seu.
+
+#minisite #orcamentonowhatsapp #desentupidora #saoluisma
+
+---
+## 20/11 · s2_p2 · Post · "Me manda seu anúncio que eu reviso"
+**Impulsionar no Instagram: por que você jogou dinheiro fora**
+
+Já impulsionou e não chegou ninguém? O problema quase nunca é o botão. É o que vai no anúncio e para quem.
+
+**Os 3 erros mais comuns**
+Impulsionar post de bom dia, deixar o público aberto demais e não dizer o que a pessoa deve fazer.
+
+**O que eu reviso**
+O criativo, o texto, o público e o caminho até o WhatsApp.
+
+**Exemplo:** o mesmo dinheiro em um vídeo com pergunta e botão de mensagem traz conversa, não só curtida.
+
+👉 Comenta **ANÚNCIO** que eu reviso o seu.
+
+#trafegopago #anunciosnoinstagram #impulsionar #marketinglocal
+
+---
+## 21/11 · s2_c4 · Carrossel · "Antes × depois: a bio da Dra. Jaci"
+**Bio do Instagram para clínica: antes e depois de verdade**
+
+Seu perfil passa confiança em 3 segundos? A bio da Dra. Jaci mostra a diferença.
+
+**Antes**
+"Harmonização Orofacial e Odontologia · ✨ Um novo conceito em beleza, saúde e bem-estar." Bonita, mas sem profissão, sem CRO, sem cidade e sem pedido.
+
+**Depois**
+Profissão e CRO na primeira linha, o que ela faz, a frase dela, a cidade e o convite para agendar.
+
+**Exemplo:** desliza e compara as duas.
+
+👉 E a sua, passa confiança? Comenta **PERFIL**.
+
+#bioinstagram #marketingodontologico #clinicadeestetica #maranhao
+
+---
+## 22/11 · s2_r8 · Reels · "Dancinha não vende serviço"
+**Conteúdo para vender serviço: por que dancinha não funciona**
+
+Só sua família curte seus posts. E ela não vai te contratar.
+
+**O problema**
+Dancinha dá visualização de quem nunca vai comprar.
+
+**O que vende serviço**
+Mostrar o problema que você resolve, o seu trabalho acontecendo e gente real que já contratou.
+
+**Exemplo:** um vídeo de 30 segundos explicando um erro comum do seu cliente vale mais que 10 trends.
+
+👉 Comenta **PERFIL** que eu te digo o que postar no seu.
+
+#conteudoquevende #marketingdeservicos #reelsparanegocios #saoluis

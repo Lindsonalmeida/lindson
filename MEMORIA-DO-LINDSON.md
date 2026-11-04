@@ -106,6 +106,8 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 
 - **16 artes v2 da marca pessoal APROVADAS** (03/11 · Pedro): "aprovado" (`agencia/marca-lindson/artes-v2/`). Pedido junto: "não se esqueça de que quero um perfil harmônico, então use o amarelo de fundo também, encontre um jeito, busque referências" → o feed precisa alternar fundo preto e amarelo (a capa amarela "BIO" vazada continua reprovada).
 
+- **Versões premium APROVADAS** (03/11 · Pedro): a1p, r1p, p1p, c2yp (`artes-v2/artes.html`): selo de vidro fosco no rótulo, cantos de corte + numeração (01), vinheta e grão de filme, letra gigante com luz (degradê), sombra dele projetada nas letras, halo só atrás de recorte (nunca por cima do rosto), brilho anamórfico só em cima do neon. Pedido seguinte: "crie as próximas e crie uma foto de perfil e capas de destaques".
+
 ## 4. REPROVADO: nunca repetir
 
 0c. **Capas amarelas a2y, c1y e r3y** (03/11 · Pedro): "os outros estão reprovados". Não usar foto "nascendo" do amarelo em degradê, nem pessoa pequena no amarelo com lista ao lado. **Amarelo APROVADO = c2y**: amarelo com textura, palavra gigante preta (Anton) atrás dele, ele recortado (BiRefNet) de corpo inteiro na frente, degradê preto embaixo com a manchete branca e a palavra em caixa amarela. Pediu em seguida: "busque maneiras e técnicas para melhorar ainda mais os que já aprovei, implementar, deixar mais moderno, premium, bonito e atrativo".

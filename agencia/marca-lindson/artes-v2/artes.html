@@ -37,7 +37,7 @@ html,body{background:#000;overflow:hidden;font-family:Manrope,sans-serif;-webkit
 .cx{box-shadow:0 12px 30px rgba(245,197,24,.28)}
 </style></head><body><div id="x"></div>
 <script>
-const F='fotos/',A=new URLSearchParams(location.search).get('a')||'',R=A.startsWith('r');
+const F='fotos/',A=new URLSearchParams(location.search).get('a')||'',R=/^r|_r/.test(A);
 const topo=(rot,y)=>`<div class="abs" style="left:70px;right:70px;top:${y||(R?250:60)}px;display:flex;justify-content:space-between;align-items:center;z-index:5"><span class="marca">lindson almeida<i></i></span><span class="mono" style="font-size:21px">${rot}</span></div>`;
 // modelo r1 (aprovado): foto inteira descendo da faixa do topo (cabeça fora do corte 3:4 do grid), degradê para a manchete
 const inteira=f=>`<div class="foto" style="left:0;right:0;top:260px;height:2130px;background-image:url(${F}${f});background-position:50% 0"></div>
@@ -63,6 +63,22 @@ const det=(n,cor='rgba(245,243,238,.35)')=>{const H=R?1920:1350,m=34,l=26;const 
 const halo=(x,y,r,cor='rgba(245,197,24,.33)')=>`<div class="abs" style="left:${x-r}px;top:${y-r}px;width:${r*2}px;height:${r*2}px;border-radius:50%;background:radial-gradient(closest-side,${cor},transparent);filter:blur(8px)"></div>`;
 // brilho anamórfico horizontal num neon
 const flare=(y,x=540,w=900)=>`<div class="abs" style="left:${x-w/2}px;top:${y-3}px;width:${w}px;height:6px;background:linear-gradient(90deg,transparent,rgba(255,214,90,.55),transparent);filter:blur(2px);mix-blend-mode:screen"></div><div class="abs" style="left:${x-w/4}px;top:${y-14}px;width:${w/2}px;height:28px;background:radial-gradient(closest-side,rgba(255,214,90,.35),transparent);mix-blend-mode:screen"></div>`;
+// modelo AMARELO aprovado (c2yp): amarelo com textura, palavra gigante preta com luz atrás dele, recorte BiRefNet de corpo inteiro
+// com sombra projetada nas letras, halo claro atrás, degradê preto embaixo com a manchete branca + caixa amarela
+const heroY=o=>`<div class="a ya${o.r?' r':''}">${amarelo()}${topoP(o.rot)}
+ ${halo(540,o.top+o.fs*.45,330,'rgba(255,240,170,.75)')}<div class="abs ant" style="left:0;right:0;top:${o.top}px;text-align:center;font-size:${o.fs}px;color:var(--p);white-space:nowrap"><span class="breu">${o.p}</span></div>
+ ${pessoa(o.f,o.x,o.b,o.w).replace('filter:drop-shadow(0 30px 40px rgba(60,40,0,.35))','filter:drop-shadow(22px 24px 18px rgba(0,0,0,.42)) drop-shadow(0 30px 40px rgba(60,40,0,.35))')}
+ <div class="abs" style="left:0;right:0;bottom:0;height:${o.r?560:330}px;background:linear-gradient(180deg,rgba(10,10,10,0),rgba(10,10,10,.94) 45%)"></div>
+ <div class="abs" style="left:70px;right:70px;bottom:${o.r?330:120}px;color:var(--t)"><div class="h" style="font-size:${o.r?96:76}px">${o.h}</div></div>
+ <div class="abs mono" style="left:70px;bottom:${o.r?270:56}px;font-size:21px;color:var(--am)">${o.rod}</div>${o.pag?`<div class="abs mono" style="right:70px;bottom:56px;font-size:21px;color:var(--t)">${o.pag}</div>`:''}${det(o.n,'rgba(10,10,10,.45)')}<div class="grao" style="opacity:.18"></div></div>`;
+// modelo PRETO aprovado (a1p): foto inteira + palavra gigante dourada atrás da cabeça (recorte só na cabeça e ombros)
+const escuroNome=o=>`<div class="a"><img class="abs" src="${F}${o.f}.jpg" style="left:0;top:${o.topo}px;width:1080px">
+ <div class="abs" style="inset:0;background:rgba(10,10,10,.28)"></div>
+ ${halo(540,300,300)}<div class="abs ant" style="left:0;right:0;top:150px;text-align:center;font-size:330px;color:var(--am)"><span class="ouro">${o.p}</span></div>
+ <img class="abs" src="${F}${o.f}-full.png" style="left:0;top:${o.topo}px;width:1080px;filter:brightness(.72) drop-shadow(18px 26px 22px rgba(0,0,0,.55));-webkit-mask-image:linear-gradient(180deg,#000 0,#000 ${o.fade[0]}px,transparent ${o.fade[1]}px);mask-image:linear-gradient(180deg,#000 0,#000 ${o.fade[0]}px,transparent ${o.fade[1]}px)">
+ <div class="abs" style="inset:0;background:linear-gradient(180deg,rgba(10,10,10,.35) 0,transparent 14%,transparent 58%,rgba(10,10,10,.96) 84%)"></div>
+ ${topoP(o.rot)}<div class="abs" style="left:70px;right:70px;bottom:120px"><div class="h" style="font-size:78px">${o.h}</div></div>
+ <div class="abs mono" style="left:70px;bottom:56px;font-size:21px;color:var(--am)">${o.rod}</div>${o.pag?`<div class="abs mono" style="right:70px;bottom:56px;font-size:21px">${o.pag}</div>`:''}${det(o.n)}<div class="grao" style="opacity:.14"></div></div>`;
 const S={
 // a1 · Apresentação · INF: nome gigante condensado atravessando a foto colorida (recorte por cima da 2ª linha)
 a1:`<div class="a"><img class="abs" src="${F}c05.jpg" style="left:0;top:-60px;width:1080px">
@@ -188,6 +204,49 @@ c2yp:`<div class="a ya">${amarelo()}${topoP('ANTES × DEPOIS')}
  <div class="abs" style="left:0;right:0;bottom:0;height:330px;background:linear-gradient(180deg,rgba(10,10,10,0),rgba(10,10,10,.92) 45%)"></div>
  <div class="abs" style="left:70px;right:70px;bottom:120px;color:var(--t)"><div class="h" style="font-size:76px">Eu mudei a <span class="cx">minha marca</span>.</div></div>
  <div class="abs arr" style="left:70px;bottom:56px;color:var(--am)">ARRASTE PARA O LADO →</div><div class="abs mono" style="right:70px;bottom:56px;font-size:21px;color:var(--t)">01 / 04</div>${det('(04)','rgba(10,10,10,.45)')}<div class="grao" style="opacity:.18"></div></div>`,
+// ===== SEMANA 2 (16 a 22/11) · só modelos aprovados, já com as técnicas premium · xadrez: amarelo (c2yp) e preto (a1p/r1p/p1p) =====
+s2_r5:heroY({p:'PREÇO',f:'c00-full.png',x:-60,b:-520,w:1200,r:true,top:380,fs:390,rot:'● REC 00:00:16',n:'(05)',h:'Responder só o preço faz o cliente <span class="cx">sumir</span>.',rod:'COMENTA "PERFIL"'}),
+s2_c3_1:escuroNome({p:'PERFIL',f:'c02',topo:-60,fade:[520,600],rot:'FAZ COMIGO',n:'(06)',h:'<span class="cx">5 coisas</span> que todo perfil que vende tem.',rod:'ARRASTE PARA O LADO →',pag:'01 / 05'}),
+s2_c3_2:`<div class="a">${topoP('01 E 02')}<div class="abs" style="left:70px;right:70px;top:220px"><div class="mono" style="font-size:24px;color:var(--am)">CURTIDA NÃO PAGA BOLETO</div><div class="h" style="font-size:88px;margin-top:20px">O cliente entende <span class="cx">em 3 segundos</span>.</div></div>
+ <div class="abs" style="left:70px;right:70px;top:700px">${[['01','Bio clara','Diz o que você faz, para quem e onde.'],['02','Rosto na foto','Gente confia em gente, não em logo.']].map(x=>`<div style="display:grid;grid-template-columns:80px 260px 1fr;gap:20px;align-items:baseline;border-top:1px solid #2a2a2a;padding:34px 0"><span class="mono" style="font-size:22px;color:var(--am)">${x[0]}</span><b style="font-size:46px;letter-spacing:-.03em">${x[1]}</b><span style="font:500 28px/1.4 Manrope;color:var(--ap)">${x[2]}</span></div>`).join('')}</div>
+ <div class="abs mono" style="right:70px;bottom:60px;font-size:21px">02 / 05</div>${det('(06)')}<div class="grao" style="opacity:.14"></div></div>`,
+s2_c3_3:`<div class="a"><div class="abs" style="inset:0;background:radial-gradient(55% 40% at 50% 60%,rgba(245,197,24,.16),transparent 70%)"></div>${topoP('03')}
+ <div class="abs" style="left:70px;right:70px;top:230px;text-align:center"><div class="mono" style="font-size:24px;color:var(--am)">PASSO 03</div><div class="h" style="font-size:92px;margin-top:20px">Destaques na ordem<br><span class="cx">do cliente</span>.</div></div>
+ <div class="abs" style="left:110px;right:110px;top:720px;display:flex;justify-content:space-between">${['Comece aqui','Clientes','Como funciona','Contato'].map(t=>`<div style="text-align:center"><div style="width:170px;height:170px;border-radius:50%;border:2px solid var(--am);display:grid;place-items:center;font:400 46px Anton;color:var(--am);background:radial-gradient(closest-side,rgba(245,197,24,.12),transparent)">${t.split(' ')[0].slice(0,1)}</div><div class="mono" style="font-size:18px;margin-top:16px">${t.toUpperCase()}</div></div>`).join('')}</div>
+ <div class="abs" style="left:70px;right:70px;top:1060px;text-align:center;font:500 30px/1.4 Manrope;color:var(--ap)">O caminho que o cliente faz até te chamar.</div>
+ <div class="abs mono" style="right:70px;bottom:60px;font-size:21px">03 / 05</div>${det('(06)')}<div class="grao" style="opacity:.14"></div></div>`,
+s2_c3_4:`<div class="a">${topoP('04 E 05')}<div class="abs" style="left:539px;top:200px;width:1px;height:560px;background:var(--am)"></div>
+ <div class="abs" style="left:70px;top:220px;width:420px"><div class="mono" style="font-size:22px;color:var(--am)">04</div><div style="font:800 62px/1.02 Manrope;letter-spacing:-.04em;margin-top:18px">Link direto no WhatsApp</div><p style="font:500 30px/1.4 Manrope;color:var(--ap);margin-top:24px">Com a mensagem pronta. Um toque e ele chama.</p></div>
+ <div class="abs" style="left:600px;top:220px;width:410px"><div class="mono" style="font-size:22px;color:var(--am)">05</div><div style="font:800 62px/1.02 Manrope;letter-spacing:-.04em;margin-top:18px">Post que mostra resultado</div><p style="font:500 30px/1.4 Manrope;color:var(--ap);margin-top:24px">Antes e depois, bastidor, cliente real.</p></div>
+ <div class="abs" style="left:70px;right:70px;top:900px"><div class="h" style="font-size:92px">Curtida não <span class="cx">paga boleto</span>.</div></div>
+ <div class="abs mono" style="right:70px;bottom:60px;font-size:21px">04 / 05</div>${det('(06)')}<div class="grao" style="opacity:.14"></div></div>`,
+s2_c3_5:`<div class="a">${lado('c02.jpg','d','50% 6%','175%')}${topoP('REC 00:00:17')}
+ <div class="abs" style="left:60px;top:190px;font:400 360px/1 'Instrument Serif'"><span class="ouro2">“</span></div>
+ <div class="abs" style="left:70px;top:470px;width:600px"><div style="font:800 64px/1.06 Manrope;letter-spacing:-.04em">Quantas dessas o seu perfil <span class="cx">já tem</span>?</div><p style="font:500 30px/1.4 Manrope;color:var(--ap);margin-top:28px;width:520px">Comenta PERFIL que eu olho o seu e te digo o que falta.</p></div>
+ <div class="abs" style="left:70px;bottom:120px"><span class="cx" style="font:800 40px Manrope;padding:14px 24px">Comenta PERFIL</span></div>
+ <div class="abs mono" style="right:70px;bottom:60px;font-size:21px">05 / 05</div>${det('(06)')}<div class="grao" style="opacity:.14"></div></div>`,
+s2_r6:heroY({p:'1 DIA',f:'c04-full.png',x:-60,b:-520,w:1200,r:true,top:380,fs:430,rot:'CLIENTE · DESENTUPIDORA SF',n:'(07)',h:'A diária da SF: o mês de vídeos em <span class="cx">1 dia</span>.',rod:'COMENTA "ROTEIRO"'}),
+s2_r7:`<div class="a r">${lado('c14.jpg','e','50% 0','cover')}${topoP('CLIENTE')}
+ <div class="abs" style="left:540px;right:70px;top:420px"><div class="mono" style="font-size:22px;color:var(--am)">DESENTUPIDORA SF</div><div class="h" style="font-size:88px;margin-top:20px">Orçamento em <span class="cx">1 toque</span>.</div><p style="font:500 30px/1.4 Manrope;color:var(--ap);margin-top:26px">Você não perde a venda no Instagram. Perde no WhatsApp.</p></div>
+ <div class="abs" style="left:600px;top:980px;width:380px;height:720px;border-radius:56px;background:#0A0A0A;padding:14px;border:2px solid #2a2a2a;transform:rotate(5deg);box-shadow:0 60px 120px rgba(0,0,0,.6)"><div style="width:100%;height:100%;border-radius:44px;background:url(${F}site-sf.png) top/cover"></div></div>
+ <div class="abs mono" style="left:70px;bottom:270px;font-size:21px;color:var(--ap)">COMENTA "SITE"</div>${det('(08)')}<div class="grao" style="opacity:.14"></div></div>`,
+s2_p2:heroY({p:'ANÚNCIO',f:'c01-full.png',x:90,b:-330,w:900,top:150,fs:285,rot:'PORTA ABERTA',n:'(09)',h:'Já impulsionou e <span class="cx">jogou dinheiro fora</span>?',rod:'COMENTA "ANÚNCIO"'}),
+s2_c4_1:`<div class="a">${lado('c04.jpg','d','50% 6%','175%')}${topoP('ANTES × DEPOIS')}
+ <div class="abs ant" style="left:60px;top:170px;font-size:250px;line-height:.86"><span class="ouro2">BIO</span></div>
+ <div class="abs" style="left:70px;top:560px;width:560px"><div class="h" style="font-size:78px">A bio da Dra. Jaci, <span class="cx">antes e depois</span>.</div><p style="font:500 30px/1.4 Manrope;color:var(--ap);margin-top:28px;width:470px">Seu perfil passa confiança em 3 segundos?</p></div>
+ <div class="abs arr" style="left:70px;bottom:60px;color:var(--am)">ARRASTE PARA O LADO →</div><div class="abs mono" style="right:70px;bottom:60px;font-size:21px">01 / 04</div>${det('(10)')}<div class="grao" style="opacity:.14"></div></div>`,
+s2_c4_2:`<div class="a">${topoP('ANTES')}<div class="abs" style="left:70px;right:70px;top:210px"><div class="mono" style="font-size:24px;color:var(--ap)">ANTES</div><div class="h" style="font-size:84px;margin-top:20px">Bonita, mas <span class="cx">não diz nada</span>.</div></div>
+ <div class="abs" style="left:110px;right:110px;top:640px;border:1px solid #2a2a2a;border-radius:28px;padding:44px;background:#121212"><div class="mono" style="font-size:20px;color:var(--ap)">BIO</div><p style="font:600 40px/1.4 Manrope;margin-top:16px;color:#9a978f">Harmonização Orofacial e Odontologia · ✨ Um novo conceito em beleza, saúde e bem-estar</p></div>
+ <div class="abs" style="left:110px;right:110px;top:1030px;display:flex;gap:14px;flex-wrap:wrap">${['Sem a profissão','Sem CRO','Sem cidade','Sem pedido'].map(t=>`<span class="mono" style="font-size:20px;border:1px solid #3a3a3a;border-radius:99px;padding:10px 18px;color:var(--ap)">✕ ${t.toUpperCase()}</span>`).join('')}</div>
+ <div class="abs mono" style="right:70px;bottom:60px;font-size:21px">02 / 04</div>${det('(10)')}<div class="grao" style="opacity:.14"></div></div>`,
+s2_c4_3:`<div class="a"><div class="abs" style="inset:0;background:radial-gradient(55% 40% at 50% 55%,rgba(245,197,24,.14),transparent 70%)"></div>${topoP('DEPOIS')}<div class="abs" style="left:70px;right:70px;top:210px"><div class="mono" style="font-size:24px;color:var(--am)">DEPOIS</div><div class="h" style="font-size:84px;margin-top:20px">Confiança <span class="cx">na primeira linha</span>.</div></div>
+ <div class="abs" style="left:110px;right:110px;top:640px;border:2px solid var(--am);border-radius:28px;padding:44px;background:#121212"><div class="mono" style="font-size:20px;color:var(--am)">BIO</div><p style="font:700 40px/1.45 Manrope;margin-top:16px">Cirurgiã-dentista · CRO-MA 8514<br>Harmonização orofacial e odontologia<br>Natural é fazer certo pra você 🤍<br>📍 Zé Doca/MA<br>👇 Agende sua avaliação</p></div>
+ <div class="abs mono" style="right:70px;bottom:60px;font-size:21px">03 / 04</div>${det('(10)')}<div class="grao" style="opacity:.14"></div></div>`,
+s2_c4_4:`<div class="a">${lado('c12.jpg','e','55% 10%','118%')}${topoP('REC 00:00:21')}
+ <div class="abs" style="left:560px;right:70px;top:300px"><div class="h" style="font-size:80px">E a sua, passa <span class="cx">confiança</span>?</div><p style="font:500 30px/1.4 Manrope;color:var(--ap);margin-top:30px">Eu olho a sua bio e te digo o que mudar. Sem custo.</p></div>
+ <div class="abs" style="left:560px;bottom:120px"><span class="cx" style="font:800 40px Manrope;padding:14px 24px">Comenta PERFIL</span></div>
+ <div class="abs mono" style="right:70px;bottom:60px;font-size:21px">04 / 04</div>${det('(10)')}<div class="grao" style="opacity:.14"></div></div>`,
+s2_r8:heroY({p:'DANCINHA',f:'c02-full.png',x:-60,b:-520,w:1200,r:true,top:400,fs:265,rot:'PAPO RETO',n:'(11)',h:'Dancinha não vende <span class="cx">serviço</span>.',rod:'COMENTA "PERFIL"'}),
 // r4 · Reels "Mito: precisa postar todo dia" · modelo r1
 r4:`<div class="a r">${inteira('c04.jpg')}${topo('● REC 00:00:15')}
  <div class="abs" style="left:70px;right:70px;top:1130px"><div class="mono" style="font-size:24px;color:var(--am);margin-bottom:22px">MITO × VERDADE</div><div style="font:800 76px/1 Manrope;letter-spacing:-.04em;color:#8a8a8a;text-decoration:line-through;text-decoration-color:var(--am);text-decoration-thickness:6px">Precisa postar todo dia.</div><div class="h" style="font-size:118px;margin-top:24px">Precisa postar <span class="cx">certo</span>.</div></div>
