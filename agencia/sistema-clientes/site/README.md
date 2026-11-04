@@ -17,7 +17,7 @@ Montado pela conta Lindson em 01/11/2026. Site da Central do Cliente: tela de ac
 - **Quem já entrou** e abre o endereço principal vai direto para o painel (`functions/index.js`). `/sair` encerra.
 - **Códigos:** ficam só nos segredos da Cloudflare, `SEGREDO` e `CODIGOS` (HMAC de cada código → cliente). Os valores estão em `../privado/codigos-acesso.json`, fora do GitHub.
 
-**Guarda geral** (`functions/_middleware.js`): bloqueia `/publico/*`, arquivos `.md/.py/.json` e caminhos ocultos. Foi criada em 01/11, depois que uma cópia em `/publico/painel/` abriu sem login no primeiro deploy.
+**Guarda geral** (`functions/_middleware.js`): bloqueia `/publico/*`, arquivos `.md/.py/.json` e caminhos ocultos; desde 04/11 também `/membros-arquivos/*` e `/produtos/*` (menos `/produtos/landing/*`). Foi criada em 01/11, depois que uma cópia em `/publico/painel/` abriu sem login no primeiro deploy.
 
 ## Painéis no ar
 | Endereço | Quem abre | Gerado por |
@@ -29,6 +29,8 @@ Montado pela conta Lindson em 01/11/2026. Site da Central do Cliente: tela de ac
 | `/painel/leo` | Leo Pinto e admin | `../leo-pinto/montar-leo.py` |
 | `/painel/sf` | Desentupidora SF e admin | `../desentupidora-sf/montar-sf.py` (conta Zuleide, 03/11) |
 | `/painel/rt` | Real Time e admin | `../rt-full-jobs/montar-rt.py` (conta Leandro, 03/11) |
+| `/painel/membros` | só o Lindson (membros dos produtos da Hubla) | `site/membros.html` (Builder Squad, 04/11) |
+| `/membros/*` | compradores dos produtos (sessão `lm_membro`, separada) | `../membros/` (README, seção Sistema) |
 
 ## Montar
 ```bash

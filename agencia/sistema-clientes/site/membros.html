@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Central · Membros dos produtos</title><meta name="robots" content="noindex">
+<!-- /painel/membros (só o admin, protegido por functions/painel/_middleware.js). Mesmo visual da página Contas de acesso (contas.html).
+     Lista quem comprou (via webhook da Hubla) e libera/tira produto à mão (venda manual e testes). Builder Squad, 04/11/2026. -->
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--fundo:#09090A;--painel:#121213;--linha:#242427;--amarelo:#F5C518;--texto:#F3F0E6;--apagado:#8E8B83}
+*{box-sizing:border-box}body{margin:0;background:var(--fundo);color:var(--texto);font:15px/1.5 Manrope,system-ui,sans-serif}
+main{max-width:1080px;margin:0 auto;padding:32px 16px 64px}
+header{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:24px}
+h1{margin:0;font:800 30px/1 'Big Shoulders Display',Impact,sans-serif;letter-spacing:.02em;text-transform:uppercase}
+h2{font:700 16px Manrope;margin:0 0 12px}
+a.bt,button{font:600 13px Manrope,sans-serif;color:var(--texto);background:none;border:1px solid var(--linha);border-radius:99px;padding:7px 14px;text-decoration:none;cursor:pointer}
+a.bt:hover,button:hover{border-color:var(--amarelo)}button.am{background:var(--amarelo);color:#111;border-color:var(--amarelo)}
+.sub{color:var(--apagado);margin:0 0 20px}
+.card{background:var(--painel);border:1px solid var(--linha);border-radius:14px;overflow:auto;margin-bottom:20px}.pad{padding:18px}
+table{width:100%;border-collapse:collapse;min-width:720px}th,td{text-align:left;padding:12px 16px;border-bottom:1px solid var(--linha);vertical-align:top}
+th{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--apagado)}tr:last-child td{border-bottom:0}
+.tag{display:inline-block;margin:0 4px 4px 0;padding:2px 10px;border-radius:99px;background:rgba(245,197,24,.12);color:var(--amarelo);font-weight:700;font-size:12px}
+.tag.off{background:#1d1d20;color:var(--apagado);text-decoration:line-through}
+.vazio{padding:24px;color:var(--apagado)}
+form{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px;align-items:end}
+label{font-size:12px;color:var(--apagado)}input,select{width:100%;margin-top:4px;background:#0c0c0d;border:1px solid var(--linha);border-radius:10px;padding:9px 10px;color:var(--texto);font:14px Manrope}
+.acoes{display:flex;gap:6px;flex-wrap:wrap}.msg{grid-column:1/-1;color:var(--amarelo);min-height:20px;font-size:13px}
+</style></head><body><main>
+<header><h1>Membros dos produtos</h1><div style="display:flex;gap:8px"><a class="bt" href="/painel/admin">← Painel</a><a class="bt" href="/membros/" target="_blank" rel="noopener">Abrir a área</a><a class="bt" href="/sair">Sair</a></div></header>
+<p class="sub">Quem comprou na Hubla aparece aqui sozinho (webhook). Para venda manual ou teste, libere o produto abaixo: a pessoa entra em <b>/membros</b> → Primeiro acesso com o e-mail e o CPF informados.</p>
+<div class="card pad"><h2>Liberar ou tirar produto</h2>
+<form id="f"><label>E-mail<input name="email" type="email" required maxlength="120"></label><label>Nome (opcional)<input name="nome" maxlength="80"></label>
+<label>CPF (para o primeiro acesso)<input name="cpf" inputmode="numeric" maxlength="18" placeholder="só números"></label>
+<label>Produto<select name="produto" id="sel"></select></label>
+<div class="acoes"><button class="am" type="submit" data-acao="liberar">Liberar</button><button type="submit" data-acao="remover">Tirar</button></div>
+<div class="msg" id="msg"></div></form></div>
+<div class="card"><table><thead><tr><th>Nome</th><th>E-mail</th><th>Produtos</th><th>Acesso</th><th>Desde</th><th></th></tr></thead><tbody id="lista"><tr><td colspan="6" class="vazio">Carregando…</td></tr></tbody></table></div>
+<script>
+const NOMES={'kit-mes-pronto':'Kit Mês Pronto','kit-whatsapp-que-fecha':'Kit WhatsApp que Fecha','kit-prospeccao':'Kit Prospecção','raio-x-do-perfil':'Raio-X do Perfil','bio-que-vende':'Bio que Vende'};
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+document.getElementById('sel').innerHTML=Object.entries(NOMES).map(([k,v])=>`<option value="${k}">${v}</option>`).join('');
+const post=async d=>{const r=await fetch('/api/membros/admin',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(d)});const j=await r.json().catch(()=>({}));if(!r.ok)throw new Error(j.erro||'Não deu certo.');return j};
+async function carrega(){const tb=document.getElementById('lista');
+ try{const r=await fetch('/api/membros/admin');const j=await r.json();if(!r.ok)throw new Error(j.erro);
+  tb.innerHTML=j.membros.length?j.membros.map(m=>`<tr><td>${esc(m.nome)}</td><td>${esc(m.email)}${m.tel4?`<br><small style="color:var(--apagado)">tel. final ${esc(m.tel4)}</small>`:''}</td>
+   <td>${Object.entries(m.historico).map(([s,p])=>`<span class="tag ${p.ativo?'':'off'}" title="${esc(p.origem||'')}">${esc(NOMES[s]||s)}</span>`).join('')||'—'}</td>
+   <td>${m.temSenha?'Senha criada':(m.temCpf?'Falta o primeiro acesso':'Sem CPF: libere de novo com o CPF')}</td><td>${m.criado?new Date(m.criado).toLocaleDateString('pt-BR'):''}</td>
+   <td class="acoes">${m.temSenha?`<button data-zera="${esc(m.email)}">Zerar senha</button>`:''}<button data-apaga="${esc(m.email)}">Apagar</button></td></tr>`).join(''):'<tr><td colspan="6" class="vazio">Nenhum membro ainda.</td></tr>';
+  tb.querySelectorAll('[data-zera]').forEach(b=>b.onclick=async()=>{if(!confirm('Zerar a senha de '+b.dataset.zera+'? A pessoa cria outra no Primeiro acesso (e-mail + CPF).'))return;try{await post({acao:'zerar-senha',email:b.dataset.zera});carrega()}catch(e){alert(e.message)}});
+  tb.querySelectorAll('[data-apaga]').forEach(b=>b.onclick=async()=>{if(!confirm('Apagar '+b.dataset.apaga+' e todos os dados dele (LGPD)? Ele perde o acesso a tudo.'))return;try{await post({acao:'apagar',email:b.dataset.apaga});carrega()}catch(e){alert(e.message)}});
+ }catch(e){tb.innerHTML=`<tr><td colspan="6" class="vazio">${esc(e.message||'Não consegui carregar.')}</td></tr>`}}
+let acao='liberar';document.querySelectorAll('[data-acao]').forEach(b=>b.onclick=()=>acao=b.dataset.acao);
+document.getElementById('f').onsubmit=async e=>{e.preventDefault();const d=Object.fromEntries(new FormData(e.target)),m=document.getElementById('msg');d.acao=acao;if(!d.cpf)delete d.cpf;
+ try{await post(d);m.textContent=(acao==='liberar'?'Liberado: ':'Tirado: ')+NOMES[d.produto]+' para '+d.email;e.target.reset();carrega()}catch(x){m.textContent=x.message}};
+carrega();
+</script></main></body></html>
