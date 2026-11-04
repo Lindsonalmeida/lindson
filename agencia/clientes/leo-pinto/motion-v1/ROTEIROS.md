@@ -211,57 +211,52 @@ Toda semana tem "Pediu? Tá feito." por aqui. Segue a página pra ver o que ando
 
 ---
 
-## Vídeo 4 · "Se você pudesse escolher a próxima conquista…"
+## Vídeo 4 · "O que mais te enche de orgulho em São João Batista?" (v3 do roteiro, 04/11/2026)
 
-- **Linha editorial:** A cidade que eu sonho, com Nossa Baixada.
-- **Narrativa (Ganz):** história de agora. O sonho é de todo mundo e o convite é para participar já, comentando.
-- **Objetivo:** escuta sobre o futuro da cidade, sem promessa de obra. Usa as 4 áreas que já foram aprovadas na enquete de 31/12 (`instagram-v14-datas/TEXTOS.md`).
+> **Por que mudou:** o Lindson reprovou a versão "escolher a próxima conquista" (saúde perto de casa, ruas e estradas, emprego…) porque a enquete dava a entender que essas coisas faltam e podia comprometer o prefeito. Leo é **situação**: o vídeo agora é uma enquete de **orgulho da cidade**, sem apontar falta nenhuma.
+
+- **Linha editorial:** A cidade que a gente constrói, com Nossa Baixada.
+- **Objetivo:** engajar falando bem da cidade e do povo (orgulho, pertencimento), sem promessa e sem demanda.
 - **CTA:** "Comenta a letra: A, B, C ou D."
-- **Gancho:** "Se você pudesse escolher a próxima conquista…"
+- **Gancho:** "O que mais te enche de orgulho… em São João Batista?"
 
-| # | Tempo (s) | Duração | Texto na tela | Foto | Técnica |
-|---|---|---|---|---|---|
-| 1 | 0,0–3,5 | 3,5 | SE VOCÊ PUDESSE / ESCOLHER A PRÓXIMA CONQUISTA… | NENHUMA | Zoom-through: o texto vem de longe e passa pela câmera. As reticências ficam na tela. |
-| 2 | 3,5–7,0 | 3,5 | …EM SÃO JOÃO BATISTA, / QUAL SERIA? | NENHUMA | Mapa desenhado: o contorno da cidade se traça em amarelo e o texto fica dentro dele. |
-| 3 | 7,0–10,5 | 3,5 | A · SAÚDE / PERTO DE CASA | NENHUMA | Morph de blocos: um bloco laranja cresce e o "A" gigante vira número de fundo. |
-| 4 | 10,5–14,0 | 3,5 | B · RUAS / E ESTRADAS | NENHUMA | Morph de blocos: o laranja vira royal e muda de forma. O "B" entra em branco. |
-| 5 | 14,0–17,5 | 3,5 | C · EDUCAÇÃO / E JUVENTUDE | FOTO: meio corpo, mão no peito | Tela dividida na diagonal: a foto de um lado e o "C" com o texto em bloco amarelo do outro. |
-| 6 | 17,5–21,0 | 3,5 | D · EMPREGO / E RENDA | NENHUMA | Morph de blocos: o amarelo vira marinho e o "D" entra em laranja. |
-| 7 | 21,0–25,5 | 4,5 | UMA CIDADE QUE / CRESCE COM O JOVEM AQUI. | NENHUMA | Tipografia cinética, palavra por palavra. "AQUI" em degradê amarelo → laranja. |
-| 8 | 25,5–30,0 | 4,5 | ESSE SONHO NÃO É SÓ MEU. / É DA NOSSA BAIXADA. | FOTO: Leo close (busto, olhar de lado, foto ainda não usada) | Paralaxe 2.5D: o mapa atrás, o Leo no meio e "BAIXADA" em Kaushan na frente. Fim com whip pan limpo para cima. |
-| 9 | 30,0–35,0 | 5,0 | COMENTA A LETRA: / A, B, C OU D. | NENHUMA | Máquina de escrever com as 4 letras em blocos de cor (laranja, royal, amarelo e marinho), uma por vez. |
-| 10 | 35,0–40,0 | 5,0 | A CIDADE QUE / A GENTE CONSTRÓI · junto com você | FOTO: na rua (recorte sobre a foto de banco de praça ou casario, com véu laranja) | Cartão final: a foto sai, os blocos se fecham e a logo oficial se monta na base. "junto com você" em Kaushan. |
+| # | Tempo (s) | Texto na tela | Narração (IA, 3ª pessoa) |
+|---|---|---|---|
+| 1 | 0,0–3,5 | O QUE MAIS / TE ENCHE DE / ORGULHO… | O que mais te enche de orgulho… |
+| 2 | 3,5–7,0 | …EM SÃO JOÃO BATISTA? / ESCOLHE UMA! | em São João Batista? Escolhe uma. |
+| 3 | 7,0–10,5 | A · GENTE / QUE ACOLHE | A: a nossa gente que acolhe. |
+| 4 | 10,5–14,0 | B · FESTAS / E CULTURA | B: as nossas festas e a nossa cultura. |
+| 5 | 14,0–17,5 | C · CAMPOS / E POVOADOS | C: os nossos campos e povoados. |
+| 6 | 17,5–21,0 | D · NOSSA / JUVENTUDE | D: a nossa juventude. |
+| 7 | 21,0–25,5 | UMA CIDADE QUE / AVANÇA COM / TODO MUNDO / JUNTO. | Uma cidade que avança com todo mundo junto. |
+| 8 | 25,5–30,0 | ESSE ORGULHO / É DE TODOS. / É DA NOSSA Baixada. | Esse orgulho é de todos. É da nossa Baixada. |
+| 9 | 30,0–35,0 | COMENTA A LETRA: A B C ou D | Comenta a letra: A, B, C ou D. |
+| 10 | 35,0–40,0 | A CIDADE QUE / A GENTE CONSTRÓI · junto com você | A cidade que a gente constrói, junto com você. |
 
-Total: 3,5+3,5+3,5+3,5+3,5+3,5+4,5+4,5+5,0+5,0 = **40,0 s**.
+Técnicas, fotos (f05, f19, f27) e tempos iguais à versão anterior (ver `v4.js`).
 
 ### Legenda
 
-A CIDADE QUE EU SONHO: O QUE VOCÊ MUDARIA AMANHÃ EM SÃO JOÃO BATISTA?
+ORGULHO DE SÃO JOÃO BATISTA: O QUE MAIS TE ENCHE DE ORGULHO NA NOSSA CIDADE?
 
-Oi, gente! Aqui é o Leo Pinto, vereador de São João Batista, no Maranhão. Hoje eu não vim falar. Vim perguntar: se você pudesse mudar uma coisa amanhã na nossa cidade, o que seria?
-
-📌 Por que eu pergunto
-Porque quem sabe o que falta é quem vive aqui. Você sabe onde a saúde fica longe, onde a estrada do povoado para no inverno e onde o jovem não acha oportunidade.
+Oi, gente! Aqui é o Leo Pinto, vereador de São João Batista, no Maranhão. Hoje eu vim fazer uma pergunta boa: o que mais te enche de orgulho de ser daqui?
 
 🔤 Escolhe uma letra
-A · Saúde perto de casa
-B · Ruas e estradas
-C · Educação e juventude
-D · Emprego e renda
+A · A nossa gente que acolhe
+B · As nossas festas e a nossa cultura
+C · Os nossos campos e povoados
+D · A nossa juventude
 Se for outra coisa, escreve com as suas palavras.
 
-🌾 Um sonho da nossa Baixada
-Eu sonho com uma São João Batista onde o jovem tenha motivo pra ficar e onde cada bairro seja ouvido. Esse sonho não é só meu. É de quem acorda cedo e ama esta terra.
+🌾 Um orgulho da nossa Baixada
+São João Batista avança quando todo mundo trabalha junto: o povo, a Câmara e a Prefeitura. Esse orgulho não é só meu, é de quem acorda cedo e ama esta terra.
 
 💡 Exemplo
-"C, Leo. Aqui no meu povoado a meninada não tem onde aprender um ofício." Uma resposta assim já me ajuda a entender por onde começar a conversa.
-
-✅ Juntos podemos mais!
-Eu leio todos os comentários. As respostas viram pauta aqui no perfil.
+"B, Leo! Não tem festa igual à nossa." Conta pra mim também de qual bairro ou povoado você é.
 
 👇 Comenta a letra e o nome do seu bairro ou povoado.
 
-#acidadequeeusonho #juventudedabaixada #baixadamaranhense #saojoaobatistama #tôcomléopinto
+#orgulhodesaojoaobatista #baixadamaranhense #saojoaobatistama #culturamaranhense
 
 ---
 

@@ -1,4 +1,4 @@
-// Vídeo 4 · "Se você pudesse escolher a próxima conquista…" (textos revistos em 04/11: Leo é situação) (ROTEIROS.md, conta Pedro, 04/11/2026)
+// Vídeo 4 · "O que mais te enche de orgulho…" (v3 dos textos, 04/11: Leo é situação, enquete de orgulho, nada que aponte falta) (ROTEIROS.md, conta Pedro, 04/11/2026)
 // Fotos: f05 (meio corpo, mão no peito) · f19 (busto, olhar de lado) · f27 (na rua: recorte sobre rua desfocada com véu laranja).
 (() => {
 const { pop, wipe, words, area, blk } = H_;
@@ -11,7 +11,7 @@ window.VIDEO = { id: 'v4', shots: [
 // 1 · zoom-through: o texto vem de longe e passa pela câmera; as reticências ficam
 { n: 1, t0: 0, t1: 3.5, post: .6,
   layers: [
-    area([blk(['SE VOCÊ PUDESSE', 'ESCOLHER A PRÓXIMA', '*CONQUISTA*'], { w: 900, max: 200, extra: { rowCss: [{}, {}, { marginTop: '14px' }],
+    area([blk(['O QUE MAIS', 'TE ENCHE DE', '*ORGULHO*'], { w: 900, max: 200, extra: { rowCss: [{}, {}, { marginTop: '14px' }],
       tr: { s: [[0, .04], [.75, 1, 'outE'], [2.55, 1.04, 'lin'], [3.15, 9, 'inE']], o: [[0, 0], [.15, 1, 'lin'], [2.95, 1], [3.12, 0, 'lin']] } } })]),
     { cls: 'B', html: '…', css: { left: 0, width: '1080px', top: '1180px', textAlign: 'center', fontSize: '200px', color: sol, filter: SH },
       tr: { o: [[.8, 0], [1.0, 1, 'lin'], [3.45, 1], [3.7, 0, 'lin']], s: [[.8, .4], [1.1, 1, 'outB']] } },
@@ -22,8 +22,8 @@ window.VIDEO = { id: 'v4', shots: [
   layers: [
     { k: 'map', id: 'v4a', w: 1060, sw: 7, stroke: sol, css: { left: '10px', top: '560px' },
       tr: { dash: [[0, 0], [2.0, 1, 'ioQ']], fill: [[1.8, 0], [2.6, 1, 'outQ']], s: [[0, 1.02], [3.5, 1.07, 'lin']] } },
-    area([blk(['…EM SÃO JOÃO', 'BATISTA,'], { w: 620, max: 120, extra: { parts: words(['…EM SÃO JOÃO', 'BATISTA,'], .45, .14) } }),
-          blk(['QUAL *SERIA?*'], { w: 620, max: 110, css: { marginTop: '14px' }, extra: { parts: words(['QUAL SERIA?'], 1.15, .15) } })],
+    area([blk(['…EM SÃO JOÃO', 'BATISTA?'], { w: 620, max: 120, extra: { parts: words(['…EM SÃO JOÃO', 'BATISTA?'], .45, .14) } }),
+          blk(['ESCOLHE *UMA!*'], { w: 620, max: 110, css: { marginTop: '14px' }, extra: { parts: words(['ESCOLHE UMA!'], 1.15, .15) } })],
       { y0: 700, y1: 1200, css: { left: '250px', width: '640px', filter: SH } }),
   ] },
 // 3 · morph de blocos: um bloco laranja cresce e o "A" gigante vira número de fundo
@@ -32,7 +32,7 @@ window.VIDEO = { id: 'v4', shots: [
     { cls: 'box', css: { left: '490px', top: '910px', width: '100px', height: '100px', background: lar, overflow: 'hidden' },
       tr: { s: [[0, 0], [.3, 1, 'outB']], l: [[.25, 490], [.75, R0.l, 'ioE']], tp: [[.25, 910], [.75, R0.tp, 'ioE']], w: [[.25, 100], [.75, R0.w, 'ioE']], h: [[.25, 100], [.75, R0.h, 'ioE']] },
       kids: [{ cls: 'A', html: 'A', css: { left: 0, top: '-40px', width: '940px', textAlign: 'center', fontSize: '1150px', lineHeight: '1.15', color: 'rgba(255,255,255,.16)' }, tr: { s: [[.5, 1.4], [1.1, 1, 'outE']], o: [[.5, 0], [.8, 1, 'lin'], [3.2, 1], [3.5, 0, 'lin']] } }] },
-    area([blk(['A · SAÚDE'], { w: 780, max: 170 }), blk(['PERTO DE §CASA§'], { w: 780, max: 120, css: { marginTop: '16px' } })],
+    area([blk(['A · GENTE'], { w: 780, max: 170 }), blk(['QUE §ACOLHE§'], { w: 780, max: 120, css: { marginTop: '16px' } })],
       { y0: 700, y1: 1220, css: { left: '150px', width: '780px' }, tr: { clip: wipe('u', .8, .5), o: [[3.15, 1], [3.4, 0, 'lin']] } }),
   ] },
 // 4 · morph: o laranja vira royal e muda de forma; o "B" entra em branco
@@ -43,7 +43,7 @@ window.VIDEO = { id: 'v4', shots: [
       tr: { rad: [[0, 0], [.55, 470, 'ioE']], h: [[0, R0.h], [.55, 940, 'ioE']], tp: [[0, R0.tp], [.55, 490, 'ioE']], r: [[0, 0], [.55, 8, 'ioE'], [3.5, 0, 'lin']],
             o: [[3.3, 1], [3.5, 0, 'lin']] } },
     { cls: 'A', html: 'B', css: { left: 0, width: '1080px', top: '300px', textAlign: 'center', fontSize: '560px', lineHeight: '1' , filter: SH }, tr: { s: [[.5, 0], [.85, 1, 'outB']], o: [[3.2, 1], [3.45, 0, 'lin']] } },
-    area([blk(['RUAS'], { w: 520, max: 150 }), blk(['E *ESTRADAS*'], { w: 640, max: 110, css: { marginTop: '12px' } })],
+    area([blk(['FESTAS'], { w: 520, max: 150 }), blk(['E *CULTURA*'], { w: 640, max: 110, css: { marginTop: '12px' } })],
       { y0: 880, y1: 1260, tr: { clip: wipe('u', .9, .5), o: [[3.2, 1], [3.45, 0, 'lin']] }, css: { filter: SH } }),
   ] },
 // 5 · tela dividida na diagonal: foto de um lado, o "C" e o texto em bloco amarelo do outro
@@ -55,7 +55,7 @@ window.VIDEO = { id: 'v4', shots: [
     { css: { left: 0, top: 0, width: '1080px', height: '1920px', background: `linear-gradient(160deg,#FFD84A,${sol} 50%,#FFB000)` },
       tr: { poly: [[0, [0, 0, 100, 0, 100, 0, 0, 0]], [.5, [0, 0, 100, 0, 100, 44, 0, 61], 'ioE']] } },
     { cls: 'A', html: 'C', css: { left: '70px', top: '290px', width: '300px', textAlign: 'center', fontSize: '470px', lineHeight: '1', color: mar }, tr: { s: [[.45, 0], [.8, 1, 'outB']] } },
-    area([blk(['EDUCAÇÃO'], { w: 600, max: 130 }), blk(['E [JUVENTUDE]'], { w: 600, max: 110, css: { marginTop: '12px' } })],
+    area([blk(['CAMPOS'], { w: 600, max: 130 }), blk(['E [POVOADOS]'], { w: 600, max: 110, css: { marginTop: '12px' } })],
       { y0: 330, y1: 720, css: { left: '400px', width: '610px', color: mar }, tr: { clip: wipe('l', .8, .5) } }),
   ] },
 // 6 · morph de blocos: o amarelo vira marinho e o "D" entra em laranja
@@ -66,20 +66,20 @@ window.VIDEO = { id: 'v4', shots: [
       kids: [{ css: { inset: 0, background: mar }, tr: { clip: wipe('d', .05, .45) } }],
       tr: { l: [[0, 0], [.55, R0.l, 'ioE']], tp: [[0, 0], [.55, R0.tp, 'ioE']], w: [[0, 1080], [.55, R0.w, 'ioE']], h: [[0, 1170], [.55, R0.h, 'ioE']], sk: [[0, 0], [.3, -6, 'outQ'], [.6, 0, 'ioQ']] } },
     { cls: 'A', html: 'D', css: { left: 0, width: '1080px', top: '380px', textAlign: 'center', fontSize: '560px', lineHeight: '1', color: lar }, tr: { s: [[.55, 0], [.9, 1, 'outB']] } },
-    area([blk(['EMPREGO'], { w: 700, max: 150 }), blk(['E *RENDA*'], { w: 520, max: 130, css: { marginTop: '12px' } })], { y0: 980, y1: 1450, tr: { clip: wipe('u', .95, .5) } }),
+    area([blk(['NOSSA'], { w: 700, max: 150 }), blk(['*JUVENTUDE*'], { w: 520, max: 130, css: { marginTop: '12px' } })], { y0: 980, y1: 1450, tr: { clip: wipe('u', .95, .5) } }),
   ] },
 // 7 · tipografia cinética palavra por palavra; FICAR em degradê amarelo → laranja
 { n: 7, t0: 21, t1: 25.5, post: .1,
   cam: { o: [[-.05, 0], [.1, 1, 'lin'], [4.2, 1], [4.55, 0, 'lin']] },
-  layers: [ area([blk(['UMA CIDADE QUE', 'CRESCE COM', 'O JOVEM'], { w: 900, max: 150, extra: { parts: words(['UMA CIDADE QUE', 'CRESCE COM', 'O JOVEM'], .25, .16) } }),
-    blk(['^AQUI.^'], { w: 900, max: 220, css: { marginTop: '16px' }, extra: { parts: words(['AQUI.'], 1.65, .22, .42) } })], { css: { filter: SH } }) ] },
+  layers: [ area([blk(['UMA CIDADE QUE', 'AVANÇA COM', 'TODO MUNDO'], { w: 900, max: 150, extra: { parts: words(['UMA CIDADE QUE', 'AVANÇA COM', 'TODO MUNDO'], .25, .16) } }),
+    blk(['^JUNTO.^'], { w: 900, max: 220, css: { marginTop: '16px' }, extra: { parts: words(['JUNTO.'], 1.65, .22, .42) } })], { css: { filter: SH } }) ] },
 // 8 · paralaxe 2.5D: mapa atrás, Leo no meio, "Baixada" em Kaushan na frente; fim com whip pan para cima
 { n: 8, t0: 25.5, t1: 30, post: .05,
   cam: { y: [[4.1, 0], [4.55, 1920, 'ioE']], mby: [[4.1, 0], [4.33, 70, 'inQ'], [4.55, 0, 'outQ']] },
   layers: [
     { k: 'map', id: 'v4c', w: 1250, echo: true, stroke: '#BFD8FF', sw: 3, css: { left: '-80px', top: '700px' }, tr: { o: [[0, 0], [.4, .7, 'lin']], x: [[0, -50], [4.5, 50, 'lin']], s: [[0, 1.12], [4.5, 1.0, 'lin']] } },
     { k: 'photo', src: 'f19', face: { cx: 590, cy: 1245, w: 520 }, tr: { x: [[0, 60], [4.5, -30, 'lin']], s: [[0, 1.0], [4.5, 1.06, 'lin']], o: [[0, 0], [.35, 1, 'lin']] } },
-    area([blk(['ESSE SONHO', 'NÃO É SÓ MEU.'], { w: 820, max: 120, extra: { parts: words(['ESSE SONHO', 'NÃO É SÓ MEU.'], .25, .13) } }),
+    area([blk(['ESSE ORGULHO', 'É DE TODOS.'], { w: 820, max: 120, extra: { parts: words(['ESSE ORGULHO', 'É DE TODOS.'], .25, .13) } }),
           blk(['É DA NOSSA'], { w: 520, max: 80, css: { marginTop: '22px' }, extra: { parts: words(['É DA NOSSA'], 1.45, .13) } })],
       { y0: 270, y1: 690, justify: 'flex-start', tr: { x: [[0, -15], [4.5, 15, 'lin']] }, css: { filter: SH } }),
     { cls: 'K', html: 'Baixada.', css: { left: 0, width: '1080px', top: '650px', textAlign: 'center', fontSize: '200px', color: sol, filter: SH },
