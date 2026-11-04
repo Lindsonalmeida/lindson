@@ -85,7 +85,7 @@ function monta(nome){
  document.getElementById('av').textContent=(nome||'EU').slice(0,2).toUpperCase();
  document.getElementById('tmeus').textContent=tem.length?`Olá, ${nome||''}. Seus produtos`:'Escolha o seu primeiro produto';
  document.getElementById('hft').style.backgroundImage=`url(${F}c16.jpg)`;
- document.getElementById('faixa').style.setProperty('--fx',`url(${F}vf-c12.jpg)`);
+ document.getElementById('faixa').style.setProperty('--fx',`url(${F}ep-dique.jpg)`);
  document.getElementById('ht').innerHTML=`<div class="orig">ESTADO PRÓPRIO <b>▲</b> · LINDSON ALMEIDA</div><h1 class="tit">${h[1]}<span>${h[2]}</span></h1><div class="slog">${h[3]}</div>
   <div class="meta"><span>2026</span><i></i><span>${h[4][0]}</span><i></i><span>${h[4][1]}</span><span class="hd">${ok(h)?'LIBERADO':'PDF'}</span></div><p class="desc">${h[5]}</p>
   <div class="bts"><a class="bt am${acao==='Em breve'?' off':''}" ${href(h)}>▶ ${acao}</a><a class="bt vz" href="${ok(h)?'#meus':'#loja'}">${ok(h)?'Meus produtos':'+ Ver a loja'}</a></div>`;

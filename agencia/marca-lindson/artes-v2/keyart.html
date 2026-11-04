@@ -14,11 +14,11 @@
 </style></head><body><div id="x"></div><script>
 const F='../artes-v1/fotos/',A=new URLSearchParams(location.search).get('a')||'p-kit-mes-pronto';
 // produto: [linha 1, linha 2, slogan, cena, recorte]
-const P={'kit-mes-pronto':['KIT MÊS','PRONTO','O MÊS DE INSTAGRAM PRONTO','corredor','c03'],
- 'kit-whatsapp-que-fecha':['WHATSAPP','QUE FECHA','DO OI ATÉ A VENDA','celulares','c01'],
- 'kit-prospeccao':['KIT','PROSPECÇÃO','100 MENSAGENS QUE ABREM CONVERSA','rua','c00'],
- 'raio-x-do-perfil':['RAIO-X','DO PERFIL','O SEU PERFIL ANALISADO','scanner','c05'],
- 'bio-que-vende':['BIO QUE','VENDE','A SUA BIO EM 15 MINUTOS','moldura','c04']};
+const P={'kit-mes-pronto':['KIT MÊS','PRONTO','O MÊS DE INSTAGRAM PRONTO','ep-alicerce','c03'],
+ 'kit-whatsapp-que-fecha':['WHATSAPP','QUE FECHA','DO OI ATÉ A VENDA','ep-ponte','c01'],
+ 'kit-prospeccao':['KIT','PROSPECÇÃO','100 MENSAGENS QUE ABREM CONVERSA','ep-torre','c00'],
+ 'raio-x-do-perfil':['RAIO-X','DO PERFIL','O SEU PERFIL ANALISADO','ep-planta','c05'],
+ 'bio-que-vende':['BIO QUE','VENDE','A SUA BIO EM 15 MINUTOS','ep-portal','c04']};
 Promise.resolve({"c00": {"w": 1170, "h": 2048, "top": 121, "cx": 584.0, "ombro": 530, "alt": 1879}, "c01": {"w": 1170, "h": 2048, "top": 239, "cx": 600.5, "ombro": 487, "alt": 1712}, "c02": {"w": 1170, "h": 2048, "top": 179, "cx": 586.5, "ombro": 447, "alt": 1839}, "c03": {"w": 1170, "h": 2048, "top": 276, "cx": 615.5, "ombro": 429, "alt": 1719}, "c04": {"w": 1170, "h": 2048, "top": 178, "cx": 586.5, "ombro": 447, "alt": 1840}, "c05": {"w": 1170, "h": 2048, "top": 228, "cx": 604.5, "ombro": 497, "alt": 1763}, "c06": {"w": 1170, "h": 2048, "top": 498, "cx": 592.5, "ombro": 453, "alt": 1308}, "c09": {"w": 1143, "h": 2048, "top": 292, "cx": 575.5, "ombro": 285, "alt": 1756}}).then(RC=>{
  const [tipo,...k]=A.split('-'),slug=k.join('-'),[l1,l2,slo,cena,rc]=P[slug],R=RC[rc];
  const W=tipo==='p'?1000:1280,H=tipo==='p'?1500:720;
@@ -29,7 +29,7 @@ Promise.resolve({"c00": {"w": 1170, "h": 2048, "top": 121, "cx": 584.0, "ombro":
  let html;
  if(tipo==='p') html=`<div class="a" style="width:${W}px;height:${H}px"><div class="cena" style="background-image:url(${F}cenas/${cena}.png)"></div>${luz}${pessoa}
   <div class="abs" style="inset:0;background:linear-gradient(0deg,#07090C 6%,rgba(7,9,12,.85) 26%,rgba(7,9,12,0) 52%),linear-gradient(180deg,rgba(7,9,12,.75),transparent 18%)"></div>
-  <div class="abs mono" style="left:0;right:0;top:56px;text-align:center;font-size:20px;color:#F5C518">UM PRODUTO LINDSON ALMEIDA</div>
+  <div class="abs mono" style="left:0;right:0;top:56px;text-align:center;font-size:20px;color:#F5C518">ESTADO PRÓPRIO ▲</div>
   <div class="abs" style="left:0;right:0;bottom:150px;text-align:center"><div class="ant" style="font-size:150px">${l1}</div><div class="ant" style="font-size:96px;color:#F5C518">${l2}</div></div>
   <div class="abs mono" style="left:0;right:0;bottom:80px;text-align:center;font-size:18px;color:#cfd3d8">${slo}</div><div class="grao"></div></div>`;
  else html=`<div class="a" style="width:${W}px;height:${H}px"><div class="cena" style="background-image:url(${F}cenas/${cena}.png);background-position:center 40%"></div>${luz}${pessoa}
