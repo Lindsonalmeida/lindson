@@ -12,6 +12,8 @@
 >
 > **Regra do Lindson (05/11/2026): tudo o que for feito entra no portfólio, automaticamente.** Toda entrega nova (para o Lindson ou para cliente: site, arte, vídeo, app, PDF, identidade, produto) ganha um cartão no portfólio do site oficial (`CentralLindsonALmeida/site/assets/dados.js`, no ar em https://lindsonalmeida.pages.dev/site/portfolio/) com imagem ou vídeo de qualidade, categoria e link, na mesma hora, sem ele pedir. Processo: `agencia/processos/portfolio-automatico.md`. Nada reprovado, nada com dado pessoal, nada que critique a prefeitura (Leo é situação).
 >
+> **Regra do Lindson (05/11/2026): nunca entregar vídeo sem áudio.** Todo vídeo (Reels, story em vídeo, motion, demo) leva **narração fluida que não pareça IA** (voz contínua, sem pausas robóticas; na marca do Lindson, a voz clonada dele pelo Dublê com o termo dele, em blocos de até ~220 caracteres), **SFX** (whoosh, pop, impacto nos cortes) e **VFX** (luz vazando, tremor nos impactos, desfoque direcional nos cortes). Trilha com crédito quando for CC BY.
+>
 > **Recados para todas as contas:** ficam no topo do `QUADRO-DA-EQUIPE.md`. Ao ler um recado novo, responda ao Lindson na conversa "Entendi o recado de DD/MM: …" e marque a sua confirmação na tabela (commit e push).
 
 ## Mini site de cliente (bio)
