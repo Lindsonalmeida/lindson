@@ -52,7 +52,6 @@ Toda conta lê esta tabela antes de qualquer pedido. Recado novo: responda ao Li
 | 01/11 | Desentupidora SF: instalar Pixel da Meta e UTM no site e ligar o Facebook Ads no Supermetrics, antes de medir a campanha | registro da conta Zuleide |
 | 26/10 | Religar as tarefas agendadas da conta Lindson (lista diária de leads, captação por cidades, notícias BOMBOU), desligadas desde 26/10 por limite de uso. Só com o OK do Lindson | `MAPA-DO-REPOSITORIO.md` |
 | 29/10 | Passaporte: refazer com a voz nova o pv-01 e os Shorts que ainda estiverem na voz antiga | `ESTADO-DO-PROJETO.md` (fila `filas/lote8.sh`) |
-| 01/11 | Central: conferir no site se "Notícias do nicho" carrega (o ambiente de teste não acessa o Google Notícias) | conta Lindson |
 | 01/11 | Nano Banana: o Lindson ativa o faturamento do projeto no Google (chave já configurada; deu "cota do plano gratuito") | `ferramentas/nano_banana.py` |
 | 02/11 | Apagar os apps originais do claude.ai que já estão dentro da Central (Fábrica, Legendas Top X, Brand Book, Design System, Gerador de propostas, Recomeço 90 atual e antigo, protótipo da Central). Só quando o Lindson mandar; ele pediu para esperar | conta Lindson, 02/11 |
 
