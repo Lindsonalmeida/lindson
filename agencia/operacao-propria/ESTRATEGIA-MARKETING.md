@@ -58,7 +58,7 @@ Conta Leandro, 05/11/2026. Pedido do Lindson: "esse será um produto nosso. crie
 | **Pedido Direto** | O resultado (pedido no seu canal) |
 | **Fornada** | Simples, de pizzaria, fácil de lembrar |
 
-Até decidir, este documento usa **[NOME]**. A identidade visual sai da sua marca (preto e amarelo) ou ganha uma própria pelo processo premium (Brand Squad + templates), a decidir.
+**Nome recomendado em 05/11: Forno Ligado (@fornoligado), ver `NOME-E-PERFIL.md`.** Até a aprovação, este documento usa **[NOME]**. A identidade visual sai da sua marca (preto e amarelo) ou ganha uma própria pelo processo premium (Brand Squad + templates), a decidir.
 
 ## 3. Instagram, passo a passo
 ### 3.1 Arrumar o perfil (semana 0)
