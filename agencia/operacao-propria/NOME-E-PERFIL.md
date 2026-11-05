@@ -2,6 +2,47 @@
 
 Conta Leandro (Brand Squad · Naming Strategist, com o Maquiavel), 05/11/2026. Pedido do Lindson: "sugira o melhor nome pro Instagram e vamos começar por ele". Processo seguido: o mesmo do nome do Estado Próprio (`../ofertas/low-ticket/venda/NOME-DA-COMUNIDADE.md`).
 
+## Versão 2 (05/11): nomes lúdicos, sem clichê
+O Lindson pediu "nomes mais lúdicos e não clichês". **Forno Ligado e a lista da versão 1 ficam de lado** (forno, massa, fatia e pedido são as palavras que todo o nicho usa). A nova regra: som, imagem e brincadeira do universo da pizza, com um personagem possível (mascote) e um sentido escondido de crescimento.
+
+| Nome | A brincadeira | O sentido escondido | @ no Instagram | .com.br |
+|---|---|---|---|---|
+| **Orégano Turbo** | O tempero que todo mundo põe por último, com nitro | O detalhe pequeno que acelera a pizzaria inteira (é o que o marketing faz) | `@oreganoturbo` **livre** (e `@oregano.turbo`) | **livre** |
+| **Calabresa Atômica** | A calabresa mais explosiva do cardápio | Vendas que explodem, sem prometer número | `@calabresaatomica` **livre** | **livre** |
+| **Pizza Nave** | A pizza como disco voador, que chega voando na casa do cliente | Delivery rápido, alcance longe | `@pizzanave` **livre** | **livre** |
+| **Meia a Meia** | O sabor dividido da pizza | Parceria: metade você faz a pizza, metade a gente faz o pedido chegar | `@meiaameia` ocupado · `@meiaameia.mkt` livre | livre |
+| Trim Trim | O telefone do disk-pizza tocando | Pedido chegando | ocupado | ocupado |
+| Disco Voador | Igual à Pizza Nave | — | ocupado | ocupado |
+| Borda Recheada | O "a mais" da pizza | Entregar mais que o combinado | ocupado (é uma pizzaria) | ocupado |
+| Plim | O som do pedido chegando | — | ocupado | — |
+
+**Recomendado: Orégano Turbo.**
+- Ninguém espera uma assessoria com esse nome, e todo dono de pizzaria entende na hora.
+- Tem um mascote pronto: a folhinha de orégano de óculos de corrida.
+- Combina com o preto e amarelo (faixa de corrida, turbo).
+- A frase se explica sozinha: **"O toque final que acelera a sua pizzaria."**
+- Fala bem ao telefone: "Sou o Lindson, da Orégano Turbo".
+
+**2º lugar: Calabresa Atômica.** É mais escandaloso; ótimo para anúncio, mas "atômica" pode soar exagero para um dono mais tradicional.
+
+Busca na web (05/11): nenhuma marca "Orégano Turbo" ou "Calabresa Atômica" encontrada. Falta o INPI, classe 35 (Lindson).
+
+### Perfil (versão Orégano Turbo, pronto para colar)
+- **@:** `@oreganoturbo` (reserva: `@oregano.turbo`)
+- **Nome do perfil:** `Orégano Turbo · Marketing p/ Pizzarias`
+- **Bio:**
+  ```
+  O toque final que acelera a sua pizzaria 🌿🏁
+  Pedido direto no WhatsApp, todo dia da semana
+  Lindson Almeida · São Luís
+  👇 Mini Raio-X grátis da sua pizzaria
+  ```
+- Destaques, link e primeiro post: iguais aos da versão 1 abaixo.
+
+---
+
+## Versão 1 (substituída pela versão 2)
+
 ## Critérios
 1. Fala com o dono de pizzaria na primeira leitura.
 2. Diz o resultado, não o serviço ("marketing", "assessoria" ficam no subtítulo).
