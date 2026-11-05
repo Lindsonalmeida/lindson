@@ -73,3 +73,28 @@ S['A21'] = 'Comparação: no mesmo período, a franquia Alpha custaria a taxa de
 S['A22'] = 'Royalties que você deixa de pagar (12 meses):'; S['B22'] = '=SUM(B7:M7)*20%'; S['B22'].number_format = 'R$ #,##0'; S['B22'].font = B
 S['A23'] = 'Economia total sem a franquia (12 meses):'; S['B23'] = '=B22+30000'; S['B23'].number_format = 'R$ #,##0'; S['B23'].font = B
 wb.save('PROJECAO-PROPRIA.xlsx'); print('ok')
+
+# ---- Aba "Pagamentos" (05/11, pedido do Lindson: "pagamento é sempre antecipado... modelos totais ou mensais, igual à Alpha, MRR, TCV")
+T = wb.create_sheet('Pagamentos')
+T['A1'] = 'PAGAMENTO SEMPRE ANTECIPADO · MRR (mensal antecipado) ou TCV (contrato inteiro na frente)'; T['A1'].font = BW; T['A1'].fill = PR
+T['A3'] = 'Desconto no Pix à vista do TCV'; T['B3'] = 0.05; T['B3'].number_format = '0%'; T['B3'].fill = CZ; T['B3'].font = B; T['C3'] = 'DECISÃO DO LINDSON'
+T['A4'] = 'Taxa do cartão parcelado (se você absorver)'; T['B4'] = 0; T['B4'].number_format = '0.0%'; T['B4'].fill = CZ; T['B4'].font = B; T['C4'] = 'Conferir na plataforma (Hubla ou outra) e decidir se repassa ao cliente'
+cab = ['Plano', 'Prazo', 'Meses', 'MRR: mensalidade antecipada', 'TCV: valor total', 'TCV no Pix à vista', 'TCV no cartão: até', 'Parcela no cartão', 'Você recebe no cartão (líquido)']
+for c, t in enumerate(cab, 1): x = T.cell(6, c, t); x.font = BW; x.fill = PR; x.alignment = Alignment(wrap_text=True)
+precos = [('Muralha', [1997, 1797, 1597]), ('Fortaleza', [2997, 2597, 2197]), ('Cidadela ▲', [3997, 3697, 3497])]
+prazos = [('Trimestral', 3, 3), ('Semestral', 6, 6), ('Anual', 12, 12)]
+r = 7
+for nome, vals in precos:
+    for (pz, meses, parc), v in zip(prazos, vals):
+        T.cell(r, 1, nome).font = B; T.cell(r, 2, pz); T.cell(r, 3, meses)
+        m = T.cell(r, 4, v); m.fill = CZ; m.font = B
+        T.cell(r, 5, f'=D{r}*C{r}'); T.cell(r, 6, f'=E{r}*(1-$B$3)'); T.cell(r, 7, parc)
+        T.cell(r, 8, f'=E{r}/G{r}'); T.cell(r, 9, f'=E{r}*(1-$B$4)')
+        for c in (4, 5, 6, 8, 9): T.cell(r, c).number_format = 'R$ #,##0.00'
+        T.cell(r, 7).number_format = '0"x"'
+        r += 1
+for c, w in zip('ABCDEFGHI', (16, 12, 7, 18, 16, 16, 12, 16, 20)): T.column_dimensions[c].width = w
+T.row_dimensions[6].height = 45
+T.cell(r + 1, 1, 'Regras: nada começa sem pagamento. MRR = paga o mês antes de ele começar (cartão recorrente ou Pix até o dia combinado). TCV = paga o contrato inteiro antes de começar (Pix à vista com desconto, ou cartão parcelado: o limite do cartão garante o contrato).')
+T.cell(r + 2, 1, 'Receita reconhecida: o TCV recebido na frente é serviço de vários meses. Guarde e conte como receita 1/N por mês (MRR equivalente = TCV ÷ meses).')
+wb.save('PROJECAO-PROPRIA.xlsx'); print('pagamentos ok')
