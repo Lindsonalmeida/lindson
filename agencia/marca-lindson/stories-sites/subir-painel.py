@@ -15,7 +15,7 @@ for i in range(1, 11):
     telas.append(f'/painel/admin-rede/stories-sites/{n}.' + ('mp4' if i in VIDEOS else 'jpg'))
 # instruções = tabela da sequência + link + quando postar, em texto simples (vai no "Copiar legenda")
 rd = open(os.path.join(D, 'README.md')).read()
-seq = re.search(r'## A sequência.*?(?=\n## Quem responder)', rd, re.S).group(0)
+seq = re.search(r'## A sequência.*?(?=\n## )', rd, re.S).group(0)
 linhas = []
 for l in seq.splitlines():
     if l.startswith('|') and not l.startswith('|---') and not l.startswith('| #'):
@@ -24,7 +24,8 @@ for l in seq.splitlines():
 quando = re.search(r'## Quando postar\n(.*?)(?=\n## )', rd, re.S).group(1).strip()
 leg = ('Sequência de 10 stories para vender sites (isca SITE, código MS). Postar nesta ordem:\n\n' + '\n\n'.join(linhas).replace('**', '').replace('`', '')
        + '\n\nLink do WhatsApp (tela 10): https://wa.me/5598985621808?text=Oi%2C%20Lindson!%20Quero%20um%20site%20pro%20meu%20neg%C3%B3cio%20(MS)'
-       + '\n\nQuando postar:\n' + quando.replace('**', '').replace('`', ''))
+       + '\n\nQuando postar:\n' + quando.replace('**', '').replace('`', '')
+       + '\n\nVídeos 04 a 07: narração na voz do Lindson, SFX e trilha. Música: Kevin MacLeod (incompetech.com), CC BY 4.0 — pôr o crédito na legenda ou no perfil.')
 item = {'data': 'stories', 'titulo': TITULO, 'img': f'/painel/admin-rede/stories-sites/s01.jpg', 'arquivo': 's01.jpg', 'telas': telas, 'legenda': leg}
 json.dump(item, open(os.path.join(D, 'painel.json'), 'w'), ensure_ascii=False, indent=1)
 arq = os.path.join(ML, 'artes-aprovadas.json'); L = json.load(open(arq))

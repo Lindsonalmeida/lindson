@@ -42,7 +42,7 @@ html,body{background:#000;overflow:hidden;font-family:Manrope,sans-serif;-webkit
 </style></head><body><div id="x"></div>
 <script>
 const P = new URLSearchParams(location.search), S = +(P.get('s') || 1), Q = P.get('q') || '', GUIA = P.get('guia') === '1';
-const FO = '../artes-v1/fotos/', N = 210;
+const FO = '../artes-v1/fotos/', N = +(P.get('n') || 210);   // quadros do vídeo (30 fps): a duração segue a narração
 let F = P.has('f') ? +P.get('f') : N - 1;
 const pad = n => String(n).padStart(3, '0');
 const quadro = (pasta, f) => `file://${Q}/${pasta}/${pad(f + 1)}.jpg`;
@@ -53,7 +53,7 @@ const topo = (n, rot) => `<div class="abs" style="left:70px;right:70px;top:262px
 const det = (n, cor = 'rgba(245,243,238,.35)') => { const m = 34, l = 26, H = 1920; const c = (x, y, bx, by) => `<div class="abs" style="left:${x}px;top:${y}px;width:${l}px;height:${l}px;border-${by}:1.5px solid ${cor};border-${bx}:1.5px solid ${cor}"></div>`;
   return `<div class="abs" style="inset:0;background:radial-gradient(120% 90% at 50% 45%,transparent 55%,rgba(0,0,0,.42) 100%);pointer-events:none"></div>${c(m, m, 'left', 'top')}${c(1080 - m - l, m, 'right', 'top')}${c(m, H - m - l, 'left', 'bottom')}${c(1080 - m - l, H - m - l, 'right', 'bottom')}<div class="abs mono" style="right:${m + l + 10}px;top:${m - 6}px;font-size:15px;color:${cor}">[${n}]</div>`; };
 const amarelo = () => `<div class="abs" style="inset:0;background:radial-gradient(75% 55% at 50% 30%,#FFDB4D 0,#F5C518 55%,#DFA90B 100%)"></div><div class="abs" style="inset:0;background:repeating-linear-gradient(115deg,rgba(255,255,255,.05) 0 2px,transparent 2px 9px);mix-blend-mode:soft-light"></div>`;
-const halo = (x, y, r, cor = 'rgba(245,197,24,.33)') => `<div class="abs" style="left:${x - r}px;top:${y - r}px;width:${r * 2}px;height:${r * 2}px;border-radius:50%;background:radial-gradient(closest-side,${cor},transparent);filter:blur(8px)"></div>`;
+const halo = (x, y, r, cor = 'rgba(245,197,24,.33)') => `<div class="abs halo-p" style="left:${x - r}px;top:${y - r}px;width:${r * 2}px;height:${r * 2}px;border-radius:50%;background:radial-gradient(closest-side,${cor},transparent);filter:blur(8px)"></div>`;
 const neon = (x, y, w, h) => `<div class="abs" style="left:${x}px;top:${y}px;width:${w}px;height:${h}px;border-radius:9px;background:#FFE7A0;box-shadow:0 0 18px #F5C518,0 0 60px rgba(245,197,24,.6)"></div>`;
 const rod = (txt, cor = 'var(--am)', y = 1572) => `<div class="abs mono" style="left:70px;right:70px;top:${y}px;font-size:22px;color:${cor};display:flex;justify-content:space-between"><span>${txt}</span></div>`;
 // figurinha do Instagram: área livre na arte (só aparece com &guia=1)
@@ -63,7 +63,9 @@ const fone = (pasta, x, y, w, extra = '') => { const h = Math.round((w - 30) * 1
 const navegador = (pasta, url, x, y, w, extra = '') => { const h = Math.round(w * 900 / 1600);
   return `<div class="nav" style="left:${x}px;top:${y}px;width:${w}px;${extra}"><div class="barra"><i></i><i></i><i></i><span class="url">${url}</span></div><div class="tela" style="height:${h}px"><img data-q="${pasta}" alt=""></div></div>`; };
 // entrada animada (só nas telas de vídeo): sobe e aparece entre o quadro a e b
-const ent = (a, b, dy = 40) => `class="in" data-a="${a}" data-b="${b}" data-dy="${dy}"`;
+const ent = (a, b, dy = 40, som = 'pop') => `class="in" data-a="${a}" data-b="${b}" data-dy="${dy}" data-som="${som}"`;
+// impacto da palavra-chave (tremida de 3 quadros + batida leve) por tela, em quadros
+const IMPACTO = { 4: 20, 5: 16, 6: 27, 7: 18 };
 
 const T = {
 // 01 · GANCHO (preto, foto). Modelo: INFLURY (palavra gigante atrás do recorte) + Jonatas Torres (manchete com caixa amarela)
@@ -102,12 +104,12 @@ const T = {
 
 // 04 · PROVA 1 (amarelo, VÍDEO). Modelo: Framer "3D Story Mockup" (aparelho inclinado com vídeo) + INFLURY (nome condensado gigante)
 4: () => `<div class="a am">${amarelo()}${topo(4, '● PROVA 01 · 04/10')}
-  <div class="abs ant" style="left:-20px;top:330px;font-size:300px;line-height:.8;color:rgba(10,10,10,.08)">RAFAEL<br>IMPORTS</div>
+  <div class="abs ant" style="left:-20px;top:330px;font-size:300px;line-height:.8;color:rgba(10,10,10,.08);transform:translate(${-F * .25}px,${-F * .08}px)">RAFAEL<br>IMPORTS</div>
   <div ${ent(0, 18)} style="position:absolute;left:70px;top:390px;width:430px">
    <div class="mono" style="font-size:22px">MINI SITE DA BIO</div>
    <div class="ant" style="font-size:122px;margin-top:18px">RAFAEL<br>IMPORTS</div>
    <div style="font:700 38px/1.22 Manrope;letter-spacing:-.02em;margin-top:30px">Loja de celular em São Luís: <span class="cxp">ofertas, lançamentos e WhatsApp</span> num link só.</div></div>
-  <div ${ent(4, 26, 80)} style="position:absolute;left:0;top:0;width:1080px;height:1920px;perspective:2200px">
+  <div ${ent(4, 26, 80, 'whoosh')} style="position:absolute;left:0;top:0;width:1080px;height:1920px;perspective:2200px">
    ${fone('rafael-m', 490, 350, 490, 'transform:rotateY(-16deg) rotateZ(3deg);transform-origin:50% 50%')}</div>
   <div class="abs" style="left:540px;top:1420px;width:420px;height:50px;border-radius:50%;background:radial-gradient(closest-side,rgba(60,40,0,.35),transparent)"></div>
   ${fig(70, 1180, 420, 110, 'LINK: rafaelimports.pages.dev')}
@@ -115,10 +117,10 @@ const T = {
 
 // 05 · PROVA 2 (preto, VÍDEO). Modelo: Shots.so / Phonesites (janela de navegador + celular sobrepostos) + número gigante (Jonatas Torres)
 5: () => `<div class="a">${halo(540, 900, 600, 'rgba(245,197,24,.16)')}${topo(5, '● PROVA 02 · 05/10')}
-  <div ${ent(0, 16)} style="position:absolute;left:70px;top:330px;right:70px;display:flex;align-items:flex-end;gap:30px">
+  <div ${ent(0, 16, 40, 'pop')} style="position:absolute;left:70px;top:330px;right:70px;display:flex;align-items:flex-end;gap:30px">
    <div class="ant ouro" style="font-size:330px;line-height:.82">11</div>
    <div style="padding-bottom:14px"><div class="mono" style="font-size:22px;color:var(--am)">DESENTUPIDORA SF</div><div style="font:800 66px/1 Manrope;letter-spacing:-.04em;margin-top:12px">páginas feitas<br>pro Google</div></div></div>
-  <div ${ent(3, 22, 70)} style="position:absolute;inset:0">${navegador('sf-d', 'desentupidorasf.pages.dev', 70, 660, 900, 'transform:rotate(-2deg)')}
+  <div ${ent(3, 22, 70, 'whoosh')} style="position:absolute;inset:0">${navegador('sf-d', 'desentupidorasf.pages.dev', 70, 660, 900, 'transform:rotate(-2deg)')}
    ${fone('sf-m', 720, 900, 300, 'transform:rotate(4deg)')}</div>
   <div ${ent(8, 26)} style="position:absolute;left:70px;top:1260px;width:600px">
    <div class="h" style="font-size:60px">Quem procura, acha e <span class="cx">chama no WhatsApp</span>.</div></div>
@@ -128,7 +130,7 @@ const T = {
 6: () => `<div class="a am">${amarelo()}
   <div class="abs" style="left:-40px;right:-40px;top:350px">${[0, 1, 2, 3, 4].map(k => `<div class="ant" style="font-size:170px;line-height:.98;white-space:nowrap;${k % 2 ? 'color:transparent;-webkit-text-stroke:2.5px rgba(10,10,10,.55)' : 'color:rgba(10,10,10,.9)'};transform:translateX(${(k % 2 ? -1 : 1) * (F * 1.2) - (k % 2 ? 0 : 200)}px)">MANCHETES AO VIVO · MANCHETES AO VIVO</div>`).join('')}</div>
     ${topo(6, '● PROVA 03 · 06/10')}
-  <div ${ent(0, 22, 80)} style="position:absolute;inset:0">${fone('tribuna-m', 320, 340, 440)}</div>
+  <div ${ent(0, 22, 80, 'whoosh')} style="position:absolute;inset:0">${fone('tribuna-m', 320, 340, 440)}</div>
   <div class="abs" style="left:330px;top:1290px;width:420px;height:40px;border-radius:50%;background:radial-gradient(closest-side,rgba(60,40,0,.4),transparent)"></div>
   <div ${ent(8, 26)} style="position:absolute;left:70px;right:70px;top:1335px;text-align:center">
    <div class="mono" style="font-size:22px">TRIBUNA 98 · JORNALISMO</div>
@@ -138,8 +140,8 @@ const T = {
 // 07 · PROVA 4 e 5 (preto, VÍDEO). Modelo: UWarp/Product Hunt "iPhone duo" (dois aparelhos desencontrados) + legendas em cartão
 7: () => `<div class="a">${halo(300, 1000, 420, 'rgba(245,197,24,.14)')}${halo(800, 900, 420, 'rgba(245,197,24,.14)')}${topo(7, '● PROVA 04 E 05 · 07/10')}
   <div ${ent(0, 16)} style="position:absolute;left:70px;right:70px;top:340px"><div class="h" style="font-size:74px">Produtora e clínica. <span class="cx">Cada um com a sua cara.</span></div></div>
-  <div ${ent(3, 22, 90)} style="position:absolute;inset:0">${fone('realtimebio-m', 95, 600, 400, 'transform:rotate(-4deg)')}</div>
-  <div ${ent(6, 25, 90)} style="position:absolute;inset:0">${fone('jacibio-m', 585, 560, 400, 'transform:rotate(4deg)')}</div>
+  <div ${ent(3, 22, 90, 'whoosh')} style="position:absolute;inset:0">${fone('realtimebio-m', 95, 600, 400, 'transform:rotate(-4deg)')}</div>
+  <div ${ent(6, 25, 90, 'whoosh')} style="position:absolute;inset:0">${fone('jacibio-m', 585, 560, 400, 'transform:rotate(4deg)')}</div>
   <div ${ent(10, 28)} style="position:absolute;left:70px;right:70px;top:1470px;display:flex;gap:40px">
    ${[['REAL TIME', 'Site com 8 páginas + bio'], ['DRA. JACI CUNHA', 'Site oficial + bio']].map(([a, b]) => `<div style="flex:1;border-top:2px solid var(--am);padding-top:14px"><div class="mono" style="font-size:22px;color:var(--am)">${a}</div><div style="font:700 34px Manrope;letter-spacing:-.02em;margin-top:6px">${b}</div></div>`).join('')}</div>
   ${det('07')}<div class="grao"></div></div>`,
@@ -173,14 +175,33 @@ const T = {
   ${det('10')}<div class="grao"></div></div>`,
 };
 
+// VFX (regra de 05/11: vídeo sempre com VFX): vazamento de luz âmbar na entrada e na saída, tremida de 3 quadros no impacto,
+// borrão direcional (vertical) no aparelho que entra, grão que muda a cada quadro e paralaxe leve (halo, fantasma, faixas).
+const svgMB = '<svg width="0" height="0" style="position:absolute"><filter id="mb" x="-5%" y="-20%" width="110%" height="140%"><feGaussianBlur id="mbv" stdDeviation="0 0"/></filter></svg>';
+window.video = /data-q/.test(T[S]());
 async function render(f) {
-  F = f; const x = document.getElementById('x'); x.innerHTML = T[S]();
-  if (GUIA) { document.body.classList.add('guia'); x.querySelector('.a').insertAdjacentHTML('beforeend', '<div class="zona" style="top:0;height:250px">ZONA DO INSTAGRAM (250 px)</div><div class="zona" style="bottom:0;height:300px">ZONA DO INSTAGRAM (300 px)</div>'); }
+  F = f; const x = document.getElementById('x'); x.innerHTML = T[S]() + (window.video ? svgMB : '');
+  const A = x.querySelector('.a');
+  if (GUIA) { document.body.classList.add('guia'); A.insertAdjacentHTML('beforeend', '<div class="zona" style="top:0;height:250px">ZONA DO INSTAGRAM (250 px)</div><div class="zona" style="bottom:0;height:300px">ZONA DO INSTAGRAM (300 px)</div>'); }
   const imgs = [...x.querySelectorAll('img')];
   await Promise.all(imgs.map(im => new Promise(r => { if (im.dataset.q) im.src = quadro(im.dataset.q, f); if (im.complete && im.naturalWidth) return r(); im.onload = im.onerror = r; })));
-  x.querySelectorAll('.in').forEach(el => { const k = ease((f - +el.dataset.a) / (+el.dataset.b - +el.dataset.a)); el.style.opacity = k; el.style.transform = `translateY(${(1 - k) * +el.dataset.dy}px)`; });
+  let blur = 0;
+  x.querySelectorAll('.in').forEach(el => { const a = +el.dataset.a, b = +el.dataset.b, u = (f - a) / (b - a), k = ease(u); el.style.opacity = Math.min(1, k * 1.4); el.style.transform = `translateY(${(1 - k) * +el.dataset.dy}px)`;
+    if (el.dataset.som === 'whoosh' && u > 0 && u < 1) { const v = 3 * Math.pow(1 - u, 2) * +el.dataset.dy / (b - a); blur = Math.max(blur, Math.min(14, v * 2.2)); el.style.filter = 'url(#mb)'; } });
+  if (window.video) {
+    const mb = document.getElementById('mbv'); if (mb) mb.setAttribute('stdDeviation', `0 ${blur.toFixed(2)}`);
+    // tremida de câmera: 3 quadros a partir do impacto
+    const sh = [[9, -6], [-7, 5], [3, -2]][f - (IMPACTO[S] || -99)]; if (sh) A.style.transform = `translate(${sh[0]}px,${sh[1]}px) scale(1.012)`;
+    // vazamento de luz âmbar: passa da esquerda para a direita nos 18 primeiros quadros e volta nos 14 últimos
+    const leak = (u, de) => `<div class="abs" style="inset:0;pointer-events:none;mix-blend-mode:screen;opacity:${Math.sin(Math.PI * u).toFixed(3)};background:radial-gradient(60% 45% at ${(de ? -20 + 140 * u : 120 - 140 * u).toFixed(1)}% ${(30 + 30 * u).toFixed(1)}%,rgba(255,200,60,.85),rgba(245,140,20,.35) 45%,transparent 75%);z-index:40"></div>`;
+    if (f < 18) A.insertAdjacentHTML('beforeend', leak(f / 18, 1));
+    if (f > N - 15) A.insertAdjacentHTML('beforeend', leak((f - (N - 15)) / 15, 0));
+    const g = A.querySelector('.grao'); if (g) g.style.backgroundPosition = `${(f * 73) % 220}px ${(f * 151) % 220}px`;
+    A.querySelectorAll('.halo-p').forEach(h => h.style.transform = `translate(${Math.sin(f / 40) * 18}px,${-f * .12}px)`);
+    // deixas de som para o audio.py (segundos)
+    window.cues = [...x.querySelectorAll('.in')].map(el => ({ k: el.dataset.som, t: +el.dataset.a / 30 })).concat(IMPACTO[S] ? [{ k: 'impacto', t: IMPACTO[S] / 30 }] : []);
+  }
 }
 window.setF = render;
-window.video = /data-q/.test(T[S]());
 document.fonts.ready.then(() => render(F)).then(() => document.fonts.ready).then(() => { window.pronto = true; });
 </script></body></html>
