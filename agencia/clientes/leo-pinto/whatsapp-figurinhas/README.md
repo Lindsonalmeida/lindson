@@ -51,4 +51,4 @@
   - o app gera um link que qualquer pessoa toca para adicionar o pacote inteiro;
   - esse link vai no story e nos grupos.
 
-Situação: entregue em 05/11/2026, aguardando aprovação do Lindson.
+Situação: **aprovado e em uso** (Lindson, 05/11/2026).

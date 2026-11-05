@@ -345,3 +345,14 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 - **05/11/2026 (conta Leandro) — Orégano Turbo, direção visual:** depois de avaliar se dono de pizzaria compraria da identidade v2 (selo, personagem em traço, creme/serifa), o Lindson decidiu: **"prefiro coisa mais séria, imagens reais, mockups"**. REPROVADO para a marca: visual lúdico de pizzaria (selo, mascote, carimbo). Próximo: v3 séria, fotos reais e mockups, com pesquisa premium de marcas que vendem PARA restaurantes. O nome Orégano Turbo e o @oreganoturbo continuam.
 - **05/11/2026 (conta Leandro) — REGRA DO LINDSON: pensar na PERSONA sempre, antes de criar.** "É na persona que você precisa pensar sempre antes de criar. Salve isso." Persona em 5 linhas antes de qualquer criação + teste "essa pessoa compraria disso?". Topo do `CLAUDE.md`, recado no quadro, processo `agencia/processos/persona.md`; persona da Orégano Turbo no `BRIEF.md`.
 - **05/11/2026 (conta Leandro) — Orégano Turbo v3 entregue (direção séria, aguardando o Lindson):** feita a partir da persona (dono de pizzaria em São Luís, 30 a 55 anos, que confia em seriedade, foto real e número). A pesquisa nova olhou marcas que vendem PARA restaurantes: 11 referências de 8 países. Trio: Toast "Built for Busy", Owner.com e Lightspeed. Cores carvão, verde orégano, creme e brasa; letras Inter Tight, Inter e IBM Plex Mono. O símbolo é uma folha cuja nervura é uma seta subindo. Fotos reais CC com crédito. Mockups: WhatsApp, relatório de segunda, Instagram, cartão e proposta. Números dos mockups sempre marcados como ilustrativos. Pasta `agencia/operacao-propria/identidade/` (gerar3.py, pecas-v3/, TEMPLATE.md seção v3).
+- **05/11/2026 (conta Leandro) — Leo: TUDO APROVADO E POSTADO.** O Lindson informou que estão aprovados e postados:
+  - o story da Eleilde;
+  - as 10 figurinhas;
+  - as 9 saudações v15.2;
+  - as artes (apresentação v13 revisada e datas comemorativas);
+  - os 4 motions (inclusive o 3 "Pediu? Tá feito.", que não precisa mais de revisão);
+  - a bio v2;
+  - as 6 capas de destaques;
+  - os modelos de aniversário B e C.
+
+  Esses são os **padrões aprovados do Leo para repetir**. As datas futuras (15/11 a 01/01) ficaram aprovadas na aba "Aprovados (a postar)" do painel.

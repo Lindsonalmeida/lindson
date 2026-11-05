@@ -37,18 +37,16 @@ Levantamento da conta Leandro em 05/11/2026, a partir do quadro, do registro, do
 - Pedir à Jaci o **logo em vetor**, as **fotos em alta** e **fotos novas para janeiro** (as atuais acabam em dezembro).
 
 ## 5. Vereador Leo Pinto
-- Gerar as **5 fotos de estúdio no Gemini** (prompt v2 pronto em `agencia/clientes/leo-pinto/identidade/PROMPT-GEMINI-FOTOS.md`) e mandar.
-- Cobrar a aprovação do Leo no painel: 9 artes (apresentação + datas), aniversário do Josef e **4 motions**.
-- Aprovar: bio v2, 6 capas de destaques e os 2 modelos novos de aniversário (B e C).
+- ✅ 05/11: aprovados e postados:
+  - saudações, artes, 4 motions, bio, destaques;
+  - aniversários (Josef, Eleilde, modelos B e C);
+  - figurinhas.
+- As datas comemorativas de 15/11, 20/11, 11/12, 25/12, 31/12 e 01/01 estão aprovadas e esperam o dia de postar.
 - Escolher os **4 quadros fixos** do Instagram (Leo no Bairro, Pediu? Tá feito., Gente da Baixada, Olha…).
 - Mandar o que falta para a estratégia: @ certo, entregas do mandato, causas e bairros.
+- Mandar **fotos reais de São João Batista** e as **7 fotos livres do álbum** (f06, f09, f17, f21, f22, f26, f29).
+- Gerar as **5 fotos de estúdio no Gemini** (prompt v2 em `agencia/clientes/leo-pinto/identidade/PROMPT-GEMINI-FOTOS.md`).
 - Mockups de boné e bandeira: dependem do Nano Banana (item 9).
-
-- **Novos (05/11, noite):**
-  - aprovar o **story de aniversário da Eleilde Soeiro**;
-  - aprovar as **10 figurinhas de WhatsApp**;
-  - mandar **fotos reais de São João Batista** para as saudações (as de agora são neutras, sem lugar);
-  - mandar as **7 fotos livres do álbum** (f06, f09, f17, f21, f22, f26 e f29), que não estão neste computador.
 
 ## 6. Real Time (RT Full Jobs)
 - Cliente aprovar: identidade v1 + manual com rebranding, estratégia v2, artes v1 e v2, série Inventário, legendas, bio e 6 destaques (tudo no painel /painel/rt).
