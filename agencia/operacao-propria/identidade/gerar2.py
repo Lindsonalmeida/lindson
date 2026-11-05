@@ -80,6 +80,24 @@ P.append(('v2-05-aplicacoes', 1080, 1350, CREME, f'''
  <div style="width:170px;height:170px;border-radius:50%;overflow:hidden;flex:none">{selo(170)}</div>
  <div style="font:400 23px/1.45 'DM Sans';color:{TINTA}"><b style="font:700 26px 'DM Sans'">oreganoturbo</b> · Orégano Turbo | Mkt Pizzarias<br>O toque final que acelera a sua pizzaria 🌿🏁<br>Pedido direto no WhatsApp, todo dia da semana</div></div>
 <div class="a" style="left:80px;top:1010px;display:flex;gap:22px">{''.join(f'<div style="text-align:center"><div style="width:132px;height:132px;border-radius:50%;background:{bg};display:grid;place-items:center;font:900 {fs}px/1 Fraunces;font-variation-settings:\'SOFT\' 100,\'WONK\' 1;color:{c}">{t}</div><div style="font:500 17px DM Sans;color:{TINTA};margin-top:8px">{n}</div></div>' for t, n, bg, c, fs in [('raio-x', 'Raio-X', VERDE, AMARELO, 30), ('1·2·3', 'Como funciona', AMARELO, VERDE, 34), ('cases', 'Cases', VERDE, CREME, 34), ('r$', 'Planos', TOMATE, CREME, 48), ('rec', 'Bastidores', AMARELO, VERDE, 40), ('?!', 'Dúvidas', VERDE, AMARELO, 54)])}</div>'''))
+
+# 6 · padrões e adesivos (pesquisa refeita em 05/11: Monda's Fast Pizza · Antonio Golia, NYC/Itália, The Brand Identity → xadrez de bandeira de corrida + adesivos)
+def xadrez(c1, c2, tam=60):
+    return f"background-color:{c1};background-image:conic-gradient({c2} 25%, transparent 0 50%, {c2} 0 75%, transparent 0);background-size:{tam}px {tam}px"
+adesivo = lambda txt, bg, cor, rot, fs=44: f'<div style="display:inline-block;padding:18px 30px 14px;background:{bg};color:{cor};border-radius:999px;font:900 {fs}px/1 Fraunces;font-variation-settings:\'SOFT\' 100,\'WONK\' 1;transform:rotate({rot}deg);box-shadow:0 14px 26px -12px rgba(0,0,0,.45);border:4px solid {CREME}">{txt}</div>'
+P.append(('v2-06-padroes', 1080, 1350, CREME, f'''
+<div class="a" style="left:80px;top:80px">{ROT('Padrões e adesivos · o turbo da marca', VERDE)}</div>
+<div class="a" style="left:80px;top:140px;width:920px;height:420px;border-radius:6px;{xadrez(VERDE, AMARELO, 70)}"></div>
+<div class="a" style="left:330px;top:200px">{selo(300)}</div>
+<div class="a" style="left:80px;top:590px;width:445px;height:200px;border-radius:6px;{xadrez(AMARELO, VERDE, 40)}"></div>
+<div class="a" style="left:555px;top:590px;width:445px;height:200px;border-radius:6px;{xadrez(VERDE, CREME, 40)}"></div>
+<div class="a" style="left:80px;top:830px;width:920px;height:330px;background:{VERDE};border-radius:6px"></div>
+<div class="a" style="left:120px;top:870px">{adesivo('pedido todo dia', AMARELO, VERDE, -6)}</div>
+<div class="a" style="left:560px;top:880px">{adesivo('bora!', TOMATE, CREME, 8, 60)}</div>
+<div class="a" style="left:150px;top:1000px">{adesivo('terça cheia', CREME, VERDE, 4)}</div>
+<div class="a" style="left:560px;top:1010px">{adesivo('turbo ▸▸', AMARELO, TOMATE, -5)}</div>
+<div class="a" style="left:830px;top:960px;width:150px;height:150px;transform:rotate(12deg)">{selo(150, CREME, VERDE)}</div>
+<div class="a" style="left:80px;top:1190px;width:920px;font:400 21px/1.45 'DM Sans';color:{TINTA}">O <b>xadrez de bandeira de corrida</b> é o grafismo da marca (fundos, faixas, bordas de story), sempre em 2 cores do sistema. Os <b>adesivos</b> em pílula com borda creme trazem frases curtas em Fraunces e vão inclinados, como colados à mão. Referência: Monda's Fast Pizza (Antonio Golia).</div>'''))
 # avatar, destaques, post
 P.append(('v2-avatar', 1080, 1080, VERDE, f'<div class="a" style="left:90px;top:90px">{selo(900)}</div>'))
 for i, (t, n, bg, c, fs) in enumerate([('raio-x', 'raio-x', VERDE, AMARELO, 220), ('1·2·3', 'como-funciona', AMARELO, VERDE, 220), ('cases', 'cases', VERDE, CREME, 230), ('r$', 'planos', TOMATE, CREME, 330), ('rec', 'bastidores', AMARELO, VERDE, 280), ('?!', 'duvidas', VERDE, AMARELO, 380)], 1):
