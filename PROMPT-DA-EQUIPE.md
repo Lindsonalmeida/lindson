@@ -86,3 +86,4 @@ Todas as da conta Lindson estão desligadas desde 26/10 (limite de uso). Só rel
 - **Desde 04/11:** em todo pedido, o primeiro passo é escolher o agente com mais afinidade com o assunto (na dúvida, o chefe do squad; Xquads Chief roteia todos) e dizer ao Lindson qual foi escolhido.
 
 OBRIGATÓRIO em toda peça visual (post, saudação, site, identidade, PDF): pesquisa premium no mundo inteiro antes de criar, ≥ 8 referências premiadas de ≥ 3 países, 3 combinadas, TEMPLATE.md e mostrar as 3 ao Lindson (agencia/processos/pesquisa-premium.md).
+OBRIGATÓRIO antes de criar qualquer coisa: pensar na PERSONA (5 linhas: quem é, rotina, dor, o que faz confiar, o que afasta) e testar "essa pessoa compraria disso?" (agencia/processos/persona.md).

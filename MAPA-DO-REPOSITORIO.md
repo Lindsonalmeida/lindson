@@ -101,3 +101,4 @@ Todas desligadas desde 26/10 (as de 3 em 3 horas falharam por limite de uso do p
 - `agencia/operacao-propria/`: operação própria do Lindson no modelo da Alpha sem franquia: plano, playbook comercial e de entrega, equipe por gatilho e projeção de 12 meses em planilha (conta Leandro, 05/11/2026).
 - `agencia/operacao-propria/painel.py`: monta a página "Assessoria para pizzarias" da Central (/painel/pizzarias.html, só admin); chamado pelo `montar-site.py` (conta Leandro, 05/11/2026).
 - `agencia/processos/pesquisa-premium.md`: processo obrigatório de pesquisa premium mundial antes de toda peça visual (regra do Lindson, 05/11/2026, conta Leandro).
+- `agencia/processos/persona.md`: processo obrigatório de pensar na persona antes de criar (regra do Lindson, 05/11/2026, conta Leandro).
