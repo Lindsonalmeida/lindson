@@ -36,3 +36,9 @@
 - Nova direção B2B “Ritmo de balcão. Cabeça de negócio.”, pensada para o dono de pizzaria, com wordmark, símbolo, paleta, fotografia, tipografia, tom de voz e aplicações demonstrativas.
 - Prancha: marca-v4/prancha-v4.svg. Sistema: CONCEITO-V4.md. Pesquisa: TEMPLATE-V4.md.
 - **Status:** proposta em ramo separado, aguardando revisão/aprovação; não substitui a v3. A prancha é tipográfica, sem foto fictícia. Capturas novas das referências ainda precisam ser anexadas.
+
+
+## v5 · proposta digital de alto impacto (05/11/2026, revisão após feedback)
+- Direção “Marketing em modo turbo”: base noite, íon violeta, pulso lima e sinal coral; tipografia display, micro-grid e cartões de interface para presença digital imediata.
+- Prancha: marca-v5/prancha-v5.svg. Sistema: CONCEITO-V5.md. Pesquisa nova: TEMPLATE-V5.md (8 referências, 4 países).
+- **Status:** proposta em ramo separado para revisão; v3 preservada. UI é conceitual, sem métricas inventadas. Capturas novas de referência ainda não foram anexadas.
