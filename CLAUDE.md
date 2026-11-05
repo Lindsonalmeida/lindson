@@ -10,6 +10,8 @@
 >
 > **Regra do Lindson (04/11/2026): foto usada não se repete.** Toda foto usada num conteúdo vai para a aba **Usadas** (painel do cliente → Fotos, e `agencia/clientes/<cliente>/FOTOS-USADAS.md`). Foto real vai primeiro nas capas; carrossel: foto real só na primeira e na última tela, no meio imagens realistas de banco. Processo: `agencia/processos/fotos-usadas.md`.
 >
+> **Regra do Lindson (05/11/2026): tudo o que for feito entra no portfólio, automaticamente.** Toda entrega nova (para o Lindson ou para cliente: site, arte, vídeo, app, PDF, identidade, produto) ganha um cartão no portfólio do site oficial (`CentralLindsonALmeida/site/assets/dados.js`, no ar em https://lindsonalmeida.pages.dev/site/portfolio/) com imagem ou vídeo de qualidade, categoria e link, na mesma hora, sem ele pedir. Processo: `agencia/processos/portfolio-automatico.md`. Nada reprovado, nada com dado pessoal, nada que critique a prefeitura (Leo é situação).
+>
 > **Recados para todas as contas:** ficam no topo do `QUADRO-DA-EQUIPE.md`. Ao ler um recado novo, responda ao Lindson na conversa "Entendi o recado de DD/MM: …" e marque a sua confirmação na tabela (commit e push).
 
 ## Mini site de cliente (bio)
