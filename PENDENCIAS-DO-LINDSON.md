@@ -42,6 +42,12 @@ Levantamento da conta Leandro em 05/11/2026, a partir do quadro, do registro, do
 - Mandar o que falta para a estratégia: @ certo, entregas do mandato, causas e bairros.
 - Mockups de boné e bandeira: dependem do Nano Banana (item 9).
 
+- **Novos (05/11, noite):**
+  - aprovar o **story de aniversário da Eleilde Soeiro**;
+  - aprovar as **10 figurinhas de WhatsApp**;
+  - mandar **fotos reais de São João Batista** para as saudações (as de agora são neutras, sem lugar);
+  - mandar as **7 fotos livres do álbum** (f06, f09, f17, f21, f22, f26 e f29), que não estão neste computador.
+
 ## 6. Real Time (RT Full Jobs)
 - Cliente aprovar: identidade v1 + manual com rebranding, estratégia v2, artes v1 e v2, série Inventário, legendas, bio e 6 destaques (tudo no painel /painel/rt).
 - Saber **o que foi contratado** e os **preços**.
@@ -70,3 +76,26 @@ Levantamento da conta Leandro em 05/11/2026, a partir do quadro, do registro, do
   - Raposa 01, 02, 03, 05 e 06.
 - A equipe ainda precisa pô-los no app; o Raposa 13 a 16 está **pausado a seu pedido**: diga quando retomar.
 - Decidir quando retomar a fila de refazer com a voz nova (Passaporte pv-01 e Shorts; Raposa Shorts 19 a 30).
+
+## 11. Operação própria: assessoria para pizzarias (Orégano Turbo), aberta em 05/11
+- **Identidade:** aprovar a **v3 séria** (fotos reais e mockups, `agencia/operacao-propria/identidade/`, manual no privado). Depois disso a equipe faz os 3 primeiros posts.
+- **Preços:**
+  - aprovar os 3 planos (Muralha, Fortaleza e Cidadela ▲, `PRECOS-PIZZARIAS.md`);
+  - definir o raio da exclusividade, o que entra no iFood e a condição de fundador.
+- **Pagamentos:**
+  - confirmar o desconto do Pix (5%);
+  - definir em quantos dias o MRR em atraso encerra o contrato;
+  - definir a multa de saída (com advogado);
+  - escolher onde cobrar no cartão em 12x.
+- **Promessa:** aprovar "o seu anúncio se paga em pedidos, ou o mês seguinte é por minha conta" e as 4 regras de `PROMESSA.md`.
+- **Operação:**
+  - investimento mínimo do formulário;
+  - meta de clientes novos por mês;
+  - quantos clientes pagam plano mensal hoje;
+  - pró-labore;
+  - verba diária do anúncio do Raio-X.
+- **Nome:** conferir "Orégano Turbo" no INPI.
+- **Franquia Alpha:** decidir se responde à oferta de R$ 30 mil (mensagens de negociação em `agencia/ofertas/franquia-alpha/`).
+
+## 12. Stories para vender sites (conta Pedro)
+- Aprovar os **10 stories** (4 em vídeo com a sua voz clonada).
