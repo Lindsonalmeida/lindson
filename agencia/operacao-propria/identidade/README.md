@@ -30,3 +30,9 @@
 - **Manual:** `python3 manual3.py && node manual-pdf.js manual3.html oregano-turbo-manual-v3.pdf`. O PDF fica no privado `dados/agencia/oregano-turbo/`.
 - **Fotos e créditos:** `fotos-v3/`. **Símbolo em vetor:** `marca-v3/`. **Pesquisa (11 referências, 8 países):** `TEMPLATE.md`, seção v3; capturas em `referencias-v3/`.
 - A v1 (mascote) e a v2 (selo lúdico) ficam só como histórico.
+
+
+## v4 · proposta Cassandra para revisão (05/11/2026)
+- Nova direção B2B “Ritmo de balcão. Cabeça de negócio.”, pensada para o dono de pizzaria, com wordmark, símbolo, paleta, fotografia, tipografia, tom de voz e aplicações demonstrativas.
+- Prancha: marca-v4/prancha-v4.svg. Sistema: CONCEITO-V4.md. Pesquisa: TEMPLATE-V4.md.
+- **Status:** proposta em ramo separado, aguardando revisão/aprovação; não substitui a v3. A prancha é tipográfica, sem foto fictícia. Capturas novas das referências ainda precisam ser anexadas.
