@@ -47,3 +47,67 @@ Processo premium do Dublê (`apps/clone-studio/identidade/TEMPLATE.md`): pesquis
 | LEKSTE (Andstudio) | Ilustração corporativa azul e laranja |
 | Fishwife (Danbo) | Ótima, mas ilustração rica e cheia de cor, difícil de manter no dia a dia com a equipe Claude |
 | Busca Dribbble "pizza mascot" | Mascotes de pizza cartunescos, todos parecidos (clichê) |
+
+---
+
+# v3 · direção SÉRIA (05/11/2026, conta Leandro): pesquisa nova, pensada na persona
+
+O Lindson perguntou: "você acha que um dono de pizzaria vai querer comprar de uma identidade assim?" Depois decidiu: "eu acho que não. prefiro coisa mais séria, imagens reais, mockups". E completou: "é na persona que você precisa pensar sempre antes de criar".
+
+**Persona (BRIEF.md):**
+- dono de pizzaria em São Luís, de 30 a 55 anos;
+- vive no balcão e no celular, e depende do iFood;
+- confia em empresa séria, foto real, número e prova;
+- desconfia de coisa "fofinha" de designer.
+
+**Por isso a pesquisa mudou de alvo.** Antes eram marcas de pizzaria, que vendem para quem come. Agora são **marcas que vendem PARA donos de restaurante**: sistemas, pagamentos e plataformas de pedido. Teste: "essa pessoa compraria disso?"
+
+**Capturas:** `referencias-v3/`. A Square, a Slice e a sunday bloquearam a captura (Cloudflare ou 403), então ficaram conferidas só pela busca.
+
+| # | Referência | País | Reconhecimento | Nota para nós |
+|---|---|---|---|---|
+| 1 | **Toast · "Built for Busy"** (pos.toasttab.com) | EUA | Líder em sistema para restaurantes; marca feita em casa, sem agência citada nas fontes | **ESCOLHIDA**: foto real de cozinha escurecida, título curto, uma palavra circulada à mão em laranja |
+| 2 | **Owner.com** | EUA | Rebrand feito em casa (ProfitBoss virou Owner.com em 2021); 4,8★ em mais de 1.000 avaliações no próprio site | **ESCOLHIDA**: celular em close com dado real do restaurante, prova numa linha, verde de marca |
+| 3 | **Lightspeed Restaurant** | Canadá | Identidade nova (monograma LS e chama) anunciada no blog da empresa; agência não confirmada | **ESCOLHIDA**: pessoa real com o equipamento, etiqueta em versalete espaçada sobre o título |
+| 4 | Square · "Big in Restaurants" (Kit Studio, fotos de Josh & Luke Exell) | Reino Unido | OOH com donos reais fotografados em 35 mm (LBB Online); captura bloqueada | Retratos de dono real: entram quando tivermos clientes (foto do cliente, com autorização) |
+| 5 | Mews · Koto | Reino Unido / Rep. Tcheca | Rebrand de 2026 pelo Koto, destaque na Creative Boom ("o B2B mais interessante em anos") | Uma cor forte como ativo principal; plataforma de hotel, longe do balcão da pizzaria |
+| 6 | Mr Yum · Re Design (M&C Saatchi) | Austrália | Destaque no BP&O (fev/2024) | Divertida demais para a persona: o mesmo erro da v2 |
+| 7 | me&u | Austrália | Marca da fusão com o Mr Yum (2023) | Foto de clientes à mesa: serve restaurante de salão, não delivery |
+| 8 | Deliverect | Bélgica | Site e rebrand com Bejamas, Dodonut e Little Miss Robot (+34,5% de engajamento, segundo a Bejamas) | Tom de "enterprise" e integração; frio demais para o dono pequeno |
+| 9 | Goomer | Brasil | Rebrand de 2021 pela BrandGym (Meio & Mensagem) | Mockup de aparelho em cima de promoção ("BLACK 80% OFF"): poluído, cara de varejo |
+| 10 | Slice | EUA | Rebrand para pizzarias independentes, com logo amarelo "cheesy" e fotos de pizzarias reais (Food On Demand, 2022); agência não confirmada | Foto da pizzaria real de cada cliente: confirma a regra da foto do cliente |
+| 11 | sunday | França | Criado pelos donos da Big Mamma; agência não encontrada | Captura bloqueada (403) |
+
+## Escolhidas (v3)
+1. **Toast · Built for Busy:**
+   - capa: foto real escurecida com "Mais pedidos. Toda semana.";
+   - post 1: "Forno cheio na sexta. E na terça?";
+   - página de fotografia;
+   - botão laranja = Brasa.
+2. **Owner.com:**
+   - mockup do WhatsApp com o pedido chegando;
+   - mockup do relatório de segunda;
+   - post de número ("4,1×", marcado como exemplo).
+3. **Lightspeed:**
+   - etiquetas em versalete espaçada (IBM Plex Mono);
+   - papelaria e capa da proposta e do Raio-X;
+   - feed do Instagram.
+
+## Descartadas (v3)
+- **Mr Yum e a própria v2 da Orégano** (selo, personagem, letra 70s): bonitas, mas lúdicas. O dono de pizzaria não compra marketing de quem parece brincadeira.
+- **Goomer:** a promoção grita mais que a marca.
+- **Deliverect e Mews:** tom de grande empresa e tecnologia; o dono pequeno não se vê ali.
+- **me&u:** salão e experiência à mesa; o nosso cliente vive do delivery.
+
+## O que mudou da v2 para a v3
+| Item | v2 | v3 |
+|---|---|---|
+| Nome e @ | Orégano Turbo, @oreganoturbo | mesmos |
+| Cores | Verde e amarelo | Carvão (#141311), verde orégano (#1E5B3B), creme (#F3EEE6) e brasa (#E4572E) só para botão e destaque |
+| Letras | Fraunces "wonky" | Inter Tight 800 nos títulos, Inter no texto, IBM Plex Mono nos números (cara de relatório) |
+| Símbolo | Folha com óculos de corrida dentro do selo | Folha de orégano cuja nervura é a seta das vendas subindo |
+| Imagem | Ilustração | Foto real e mockups (WhatsApp, relatório, Instagram, proposta) |
+
+**Fotos:** Wikimedia Commons, CC BY / BY-SA, créditos em `fotos-v3/CREDITOS.md`. Só entram na identidade; nos posts de cliente vai a foto real da pizzaria do cliente.
+
+**Números dos mockups:** são ilustrativos e estão marcados assim. Nunca publicar como resultado.

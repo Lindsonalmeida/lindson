@@ -23,3 +23,10 @@
 **Falta:**
 - aprovação do Lindson;
 - os 3 primeiros posts.
+
+## v3 · direção séria (05/11/2026, conta Leandro), a versão atual
+- **Pedido do Lindson:** "prefiro coisa mais séria, imagens reais, mockups" e "pense na persona".
+- **Gerar:** `python3 gerar3.py && node render3.js` → `pecas-v3/` (11 pranchas).
+- **Manual:** `python3 manual3.py && node manual-pdf.js manual3.html oregano-turbo-manual-v3.pdf`. O PDF fica no privado `dados/agencia/oregano-turbo/`.
+- **Fotos e créditos:** `fotos-v3/`. **Símbolo em vetor:** `marca-v3/`. **Pesquisa (11 referências, 8 países):** `TEMPLATE.md`, seção v3; capturas em `referencias-v3/`.
+- A v1 (mascote) e a v2 (selo lúdico) ficam só como histórico.
