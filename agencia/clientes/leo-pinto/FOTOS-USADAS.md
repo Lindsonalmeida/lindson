@@ -32,3 +32,4 @@ Não usar f12 nem f13: a pose de apontar o relógio lembra número de urna.
 | (banco) barcos-baixada-maranhense5, barcos-baixada-maranhense, lago-de-viana-1, pescadores-rio-pericuma, igarape-do-engenho (Wikimedia Commons, CC BY-SA) | Saudações v15 (s01, s04, s08, s09) | 05/11/2026 | Leandro |
 | (banco) barcos-baixada-maranhense2, 3 e 4, APA Baixada Maranhense, Matinha-MA, búfalos do Rio Pericumã (Wikimedia Commons, CC BY-SA) | Saudações v15.1 (s02, s03, s05, s06, s07, s10) | 05/11/2026 | Leandro |
 | (banco, sem lugar) relógio despertador, mãos dadas, cuscuz nordestino, café (2), rede, futebol de várzea, céu estrelado, pescador com tarrafa (Wikimedia Commons, CC) | Saudações v15.2 (troca das paisagens de outras cidades) | 05/11/2026 | Leandro |
+| (enviada pelo Lindson) Leo com Eleilde Soeiro num evento (no privado `aniversarios/eleilde-soeiro-fonte/`) | Story de aniversário da Eleilde | 05/11/2026 | Leandro |
