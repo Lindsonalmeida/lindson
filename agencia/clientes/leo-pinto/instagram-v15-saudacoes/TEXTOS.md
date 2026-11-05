@@ -40,7 +40,7 @@ Pedidos e indicações do mandato aparecem **quando já viraram entrega**, com o
 ---
 
 ## Legendas das 10 saudações
-> **v15.1 (05/11):** o Lindson gostou das que têm imagem; as 10 agora têm paisagem real da Baixada (crédito em cada legenda).
+> **v15.2 (05/11):** o cliente avisou que as paisagens não eram de São João Batista. Não existe foto livre da cidade na internet, então as artes usam fotos sem lugar (relógio, mãos, cuscuz, café, rede, futebol, céu, pescador). Quando a equipe do Leo mandar fotos reais de SJB, trocar. A s07 saiu (não aprovada).
 Hashtags variadas, com tema + nicho + local; só #tôcomléopinto se repete. As fotos de paisagem têm crédito obrigatório (licença CC BY-SA), já colocado na legenda.
 
 ### 1 · Bom dia, segunda-feira (barcos da Baixada)
@@ -59,7 +59,7 @@ Boa semana pra você e pra sua família. Eu sigo aqui, trabalhando junto pela no
 
 👇 Deixa aqui o seu bom dia e o nome do seu bairro!
 
-📷 Foto: Mauricioalexandre55, Wikimedia Commons, CC BY-SA 4.0
+📷 Foto: Frederico Banana, Wikimedia Commons, CC BY-SA 4.0
 
 #bomdia #segundafeira #baixadamaranhense #saojoaobatistama #tôcomléopinto
 
@@ -81,7 +81,7 @@ Semana nova, energia nova. Conte sempre comigo!
 
 👇 Comenta a letra aqui embaixo!
 
-📷 Foto: Mauricioalexandre55, Wikimedia Commons, CC BY-SA 4.0
+📷 Foto: William Stitt, Wikimedia Commons, CC0
 
 #boasemana #enquete #familia #saojoaobatista #tôcomléopinto
 
@@ -104,29 +104,30 @@ Que o dia seja leve e produtivo, São João Batista!
 
 👇 Comenta o número do seu favorito!
 
-📷 Foto: Ticomaranhense (Matinha-MA), Wikimedia Commons, CC BY-SA 3.0
+📷 Foto: André Koehne, Wikimedia Commons, CC BY-SA 4.0
 
 #cafedamanha #cuscuz #comidamaranhense #maranhao #tôcomléopinto
 
-### 4 · Boa tarde (postais da Baixada)
-BOA TARDE! UM PEDACINHO DA NOSSA BAIXADA MARANHENSE
+### 4 · Boa tarde (postais: café ou rede?)
+BOA TARDE! PRA VOCÊ, A TARDE IDEAL É CAFÉ OU REDE?
 
-Tem paisagem que a gente vê todo dia e às vezes esquece de reparar: os barcos coloridos parados no rio, o lago calmo no fim da tarde.
+Meio da tarde chegou e cada um tem o seu jeito de recarregar a energia.
 
-📌 Orgulho da nossa terra
-A Baixada Maranhense é rio, campo, lago e gente trabalhadora. É a nossa casa.
+📌 Escolhe o seu
+☕ Um cafezinho passado na hora
+🛏 Uns minutinhos na rede
 
-💡 Me ajuda
-Qual paisagem da nossa região é a sua favorita? Pode ser o rio, o campo alagado, a praça, a igreja.
+💡 O meu
+Aqui é café, que ainda tem muito trabalho pela frente. Mas uma rede no domingo ninguém dispensa!
 
-✅ Boa tarde pra você
-Que a tarde seja tranquila e de bons encontros.
+✅ Boa tarde, São João Batista
+Que o resto do dia seja leve pra você.
 
-👇 Comenta qual é a sua paisagem favorita!
+👇 Comenta: café ou rede?
 
-📷 Fotos: Mauricioalexandre55 e Breno Damasceno, Wikimedia Commons, CC BY-SA 4.0
+📷 Fotos: Shixart1985 (CC BY 2.0) e LBM1948 (CC BY-SA 4.0), Wikimedia Commons
 
-#boatarde #baixadamaranhense #paisagem #maranhao #tôcomléopinto
+#boatarde #cafe #rede #saojoaobatistama #tôcomléopinto
 
 ### 5 · Boa noite
 BOA NOITE, SÃO JOÃO BATISTA: DESCANSA, QUE AMANHÃ TEM MAIS
@@ -144,7 +145,7 @@ Mais trabalho, mais encontro e mais São João Batista. Boa noite pra você e pr
 
 👇 Deixa um "boa noite" pra quem você gosta!
 
-📷 Foto: Nataliabeloto, Wikimedia Commons, CC BY-SA 3.0
+📷 Foto: Butterflyyyyyyyy, Wikimedia Commons, CC0
 
 #boanoite #descanso #gratidao #saojoaobatistama #tôcomléopinto
 
@@ -167,7 +168,7 @@ Descansa, curte quem você ama e volta com tudo na segunda.
 
 👇 Comenta o número!
 
-📷 Foto: Mauricioalexandre55, Wikimedia Commons, CC BY-SA 4.0
+📷 Foto: Cleber Nunes Kraus, Wikimedia Commons, CC BY-SA 4.0
 
 #fimdesemana #sabado #lazer #baixadamaranhense #tôcomléopinto
 
@@ -207,7 +208,7 @@ Obrigado a quem trabalha todo dia pela nossa terra.
 
 👇 Marca quem merece esse bom dia!
 
-📷 Foto: Jailson Moreira, Wikimedia Commons, CC BY-SA 3.0
+📷 Foto: Chrisporto, Wikimedia Commons, CC BY-SA 3.0
 
 #bomdia #pescador #lavrador #baixadamaranhense #tôcomléopinto
 
@@ -227,7 +228,7 @@ Que o resto do dia seja leve, São João Batista.
 
 👇 Comenta o seu lanche da tarde!
 
-📷 Foto: Breno Damasceno, Wikimedia Commons, CC BY-SA 4.0
+📷 Foto: Ssu, Wikimedia Commons, CC BY-SA 4.0
 
 #boatarde #cafe #lanchedatarde #maranhao #tôcomléopinto
 
@@ -247,7 +248,7 @@ Boa semana pra você e pra sua família. Conte sempre comigo.
 
 👇 Escreve aqui a sua meta da semana!
 
-📷 Foto: Mauricioalexandre55, Wikimedia Commons, CC BY-SA 4.0
+📷 Foto: Genaro35, Wikimedia Commons, CC0
 
 #boasemana #fe #uniao #saojoaobatistama #tôcomléopinto
 
