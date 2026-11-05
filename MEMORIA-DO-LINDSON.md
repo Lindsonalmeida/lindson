@@ -260,6 +260,8 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 | 03/11 | Lista de todos os agentes por categoria | pronto (Zuleide) | `AGENTES.md` |
 | 03/11 | Este documento de memória, compartilhado com todas as contas | pronto | `MEMORIA-DO-LINDSON.md` |
 
+37. **Site oficial + bio nova** (04-05/11 · Pedro): "crie um site para mim e reconstrua o meu mini site da bio [...] faça o melhor site da sua vida, páginas com vídeos rolando" + "referências de web designers premiados, uma obra de arte". Feito: https://lindsonalmeida.pages.dev/site/ (portfólio em /site/portfolio/) e https://lindsonalmeida.pages.dev/bio/, template Lando Norris (SOTY 2025) + Dennis Snellenberg + Locomotive/Aparelho (`agencia/marca-lindson/site/`). Aguardando opinião. O link antigo da bio continua no ar.
+
 ## 8. Pendências abertas
 
 0. **Cliente novo RT Full Jobs** (03/11 · Zuleide → Pedro): produtora audiovisual @realtime_fulljobs. Tudo em `agencia/clientes/rt-full-jobs/`. Pedro (03/11): estratégia completa 19 p. (modelo Villa; PDF no privado `dados/clientes-arquivos/rt-full-jobs/estrategia/`) e, a pedido ("refaça a logo e o manual de marca"), **identidade v1** premium (símbolo visor + rt + ponto REC; wordmark "realtime"; manual 20 p.) em `identidade/v1/`, aguardando aprovação. Falta: estratégia no padrão premium com a marca nova, Instagram v1, painel na Central e mini site.

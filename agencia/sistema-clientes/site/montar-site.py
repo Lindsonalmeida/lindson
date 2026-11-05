@@ -141,6 +141,6 @@ if os.path.isdir(os.path.join(DADOS, 'importar', 'fabrica-blobs')): shutil.copyt
 shutil.copy(os.path.join(D, 'contas.html'), os.path.join(OUT, 'painel', 'contas.html'))
 shutil.copy(os.path.join(D, 'membros.html'), os.path.join(OUT, 'painel', 'membros.html'))  # membros dos produtos (Hubla), só o admin (Builder Squad, 04/11/2026)
 open(os.path.join(OUT, '_headers'), 'w').write("/*\n  X-Frame-Options: SAMEORIGIN\n  Referrer-Policy: same-origin\n  X-Content-Type-Options: nosniff\n/painel/*\n  Cache-Control: private, no-store\n  X-Robots-Tag: noindex\n")
-open(os.path.join(OUT, 'robots.txt'), 'w').write("User-agent: *\nDisallow: /\n")
+open(os.path.join(OUT, 'robots.txt'), 'w').write("User-agent: *\nAllow: /site/\nAllow: /bio/\nDisallow: /\n")
 for r, _, fs in os.walk(OUT):
     for f in fs: print(os.path.relpath(os.path.join(r, f), OUT), os.path.getsize(os.path.join(r, f)) // 1024, 'KB')

@@ -90,6 +90,7 @@ Todas desligadas desde 26/10 (as de 3 em 3 horas falharam por limite de uso do p
 - `conteudo/referencias/ia-video-voz/`: pesquisa de clone de imagem e voz (HeyGen, ElevenLabs, outras ferramentas) e plano do nosso app interno (conta Pedro, 03/11/2026).
 - `agencia/clientes/rt-full-jobs/identidade/v1/`: identidade e manual de marca da Real Time (premium) (conta Pedro, 03/11/2026).
 - `agencia/marca-lindson/`: marca pessoal do Lindson (@lindsonalmeida_): estratégia, calendário (`calendario.json` alimenta as abas "Minha rede social" do admin, `site/admin-rede.js`) e, depois, identidade preto e amarelo e artes (conta Pedro, 03/11/2026).
+- `agencia/marca-lindson/site/`: site oficial do Lindson (lindsonalmeida.pages.dev/site/) e mini site da bio novo (/bio/): README e TEMPLATE da pesquisa premium; código no privado `site/` e `bio/` (conta Pedro, 05/11/2026). Fotos usadas em `agencia/marca-lindson/FOTOS-USADAS.md`.
 - `apps/clone-studio/`: **Dublê**, app interno de clone de voz e imagem do Lindson (identidade em `identidade/`, tela v2 em `web/` copiada do template Sermo; stories e vídeo de divulgação em `divulgacao/`) (Gradio, roda no notebook dele; dados fora do Git) (conta Pedro, 03/11/2026).
 | `agencia/processos/fotos-usadas.md` | regra e processo para não repetir foto (aba Usadas) | (conta Leandro, 04/11) |
 | `agencia/clientes/jaci-cunha/conteudo-nov/` e `conteudo-dez/` | feed de novembro e dezembro da Dra. Jaci (textos, gerador com enquadramento pelo rosto, conferência, artes) | (conta Leandro, 04/11) |
