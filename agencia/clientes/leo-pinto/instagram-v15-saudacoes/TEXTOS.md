@@ -40,6 +40,7 @@ Pedidos e indicações do mandato aparecem **quando já viraram entrega**, com o
 ---
 
 ## Legendas das 10 saudações
+> **v15.1 (05/11):** o Lindson gostou das que têm imagem; as 10 agora têm paisagem real da Baixada (crédito em cada legenda).
 Hashtags variadas, com tema + nicho + local; só #tôcomléopinto se repete. As fotos de paisagem têm crédito obrigatório (licença CC BY-SA), já colocado na legenda.
 
 ### 1 · Bom dia, segunda-feira (barcos da Baixada)
@@ -80,6 +81,8 @@ Semana nova, energia nova. Conte sempre comigo!
 
 👇 Comenta a letra aqui embaixo!
 
+📷 Foto: Mauricioalexandre55, Wikimedia Commons, CC BY-SA 4.0
+
 #boasemana #enquete #familia #saojoaobatista #tôcomléopinto
 
 ### 3 · Bom dia, café da manhã (enquete)
@@ -100,6 +103,8 @@ Eu não abro mão de um cuscuz com ovo e café passado na hora. E o seu?
 Que o dia seja leve e produtivo, São João Batista!
 
 👇 Comenta o número do seu favorito!
+
+📷 Foto: Ticomaranhense (Matinha-MA), Wikimedia Commons, CC BY-SA 3.0
 
 #cafedamanha #cuscuz #comidamaranhense #maranhao #tôcomléopinto
 
@@ -139,6 +144,8 @@ Mais trabalho, mais encontro e mais São João Batista. Boa noite pra você e pr
 
 👇 Deixa um "boa noite" pra quem você gosta!
 
+📷 Foto: Nataliabeloto, Wikimedia Commons, CC BY-SA 3.0
+
 #boanoite #descanso #gratidao #saojoaobatistama #tôcomléopinto
 
 ### 6 · Bom fim de semana (enquete)
@@ -160,6 +167,8 @@ Descansa, curte quem você ama e volta com tudo na segunda.
 
 👇 Comenta o número!
 
+📷 Foto: Mauricioalexandre55, Wikimedia Commons, CC BY-SA 4.0
+
 #fimdesemana #sabado #lazer #baixadamaranhense #tôcomléopinto
 
 ### 7 · Bom dia (tipográfico)
@@ -177,6 +186,8 @@ Um café, uma oração e bora. O dia é nosso.
 Que hoje seja um dia de conquistas pra você.
 
 👇 Responde com um 🙌 se você já está de pé!
+
+📷 Foto: Jailson Moreira (búfalos do Rio Pericumã), Wikimedia Commons, CC BY-SA 3.0
 
 #bomdia #motivacao #povotrabalhador #saojoaobatista #tôcomléopinto
 
@@ -235,6 +246,8 @@ Escolhe uma coisa só que você quer fazer nesta semana e capricha nela.
 Boa semana pra você e pra sua família. Conte sempre comigo.
 
 👇 Escreve aqui a sua meta da semana!
+
+📷 Foto: Mauricioalexandre55, Wikimedia Commons, CC BY-SA 4.0
 
 #boasemana #fe #uniao #saojoaobatistama #tôcomléopinto
 
