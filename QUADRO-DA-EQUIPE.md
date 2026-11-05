@@ -41,7 +41,7 @@ Toda conta lê esta tabela antes de qualquer pedido. Recado novo: responda ao Li
 |---|---|---|
 | 26/10 | Dra. Jaci Cunha: executar as semanas 1 e 2 (bio, destaques, Google, mini site, WhatsApp) e relatório semanal. Calendário de novembro já feito pela Zuleide em 01/11. Pedir logo em vetor e fotos em alta | `agencia/clientes/jaci-cunha/estrategia/LINHAS-EDITORIAIS-NOV.md` |
 | 22/10 | Carrosséis da esteira de conteúdo, no mesmo modelo dos Reels (formatos, conteúdos e ganchos em teste) | conversa do Lindson (conta Lindson) |
-| 22/10 | Produto master: roteiro da aula grátis "Os 5 erros…", plano da turma piloto da mentoria, assistentes de IA de roteiro e legenda (bônus) e o número da garantia | `agencia/ofertas/produto-master.md` |
+| 22/10 | Produto master: ~~roteiro da aula grátis~~ e ~~plano da turma piloto~~ feitos pela conta Leandro em 05/11 (`produto-master-aula-gratis.md`, `produto-master-turma-piloto.md`). Falta: assistentes de IA de roteiro e legenda (bônus, precisa de chave de API) e o número da garantia (só depois da piloto) | `agencia/ofertas/produto-master.md` |
 | 30/10 | Leo Pinto: mockups fotográficos de boné e bandeira da identidade v3 (precisam de gerador de imagem) | registro da conta Zuleide |
 | 01/11 | Desentupidora SF: instalar Pixel da Meta e UTM no site e ligar o Facebook Ads no Supermetrics, antes de medir a campanha | registro da conta Zuleide |
 | 26/10 | Religar as tarefas agendadas da conta Lindson (lista diária de leads, captação por cidades, notícias BOMBOU), desligadas desde 26/10 por limite de uso. Só com o OK do Lindson | `MAPA-DO-REPOSITORIO.md` |

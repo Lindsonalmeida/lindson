@@ -26,11 +26,12 @@ Levantamento da conta Leandro em 05/11/2026, a partir do quadro, do registro, do
   5. isca do Kit Prospecção (CLIENTE ou CHAMAR).
 - Aprovar os PDFs: **Kit Prospecção** (33 p.) e **Pack de capas** (36 capas).
 - Escolher quais dos **118 produtos** da lista da Zuleide detalhar.
-- Produto master: número da garantia (roteiro da aula grátis e turma piloto ainda a fazer pela equipe).
+- **Produto master:** aprovar o roteiro da aula grátis (`agencia/ofertas/produto-master-aula-gratis.md`) e decidir a turma piloto (`produto-master-turma-piloto.md`: tamanho, preço, formato e data). O número da garantia só sai depois da piloto.
 
 ## 4. Dra. Jaci Cunha
 - Trocar o **link da bio do Instagram** para https://drajacicunha.pages.dev/bio/.
 - Aprovar o **feed de novembro e dezembro** (no painel), os **4 carrosséis de novembro**, os **25 stories dos destaques** e a **campanha de Meta Ads**.
+- Mandar à clínica o **roteiro de gravação** dos 28 Reels (nov + dez) e marcar a manhã de gravação.
 - Pedir à Jaci o **logo em vetor**, as **fotos em alta** e **fotos novas para janeiro** (as atuais acabam em dezembro).
 
 ## 5. Vereador Leo Pinto

@@ -15,7 +15,8 @@ Pedido do Lindson (04/11): "sobrou fotos? se sim, continue conteúdos dos próxi
   | sex 25/12 | p4 · post | Natal | Feliz Natal |
   | qua 30/12 | p5 · post | Acolhimento | Recesso e agenda de janeiro |
   | qui 31/12 | p6 · post | Réveillon | Feliz 2027 |
-- **Reels de dezembro:** vêm depois (pedido: "primeiro só as artes de feed"); a capa é o próprio vídeo, não gasta foto.
+- **Reels de dezembro (05/11, conta Leandro):** 12 roteiros em `reels.py` → `reels.json` e `ROTEIROS-REELS.md` (seg/qua/sex/sáb sem post de feed; regras do CFO conferidas no script). A capa é o próprio vídeo, não gasta foto.
+- **Roteiro de gravação em PDF (nov + dez, 28 Reels):** `Roteiro-de-gravacao-Reels-Jaci-nov-dez.pdf`, gerado por `roteiro-pdf.py` (A4, identidade da Jaci, caixa "gravado/editado/postado").
 - **Feed harmônico:** continua o xadrez claro/escuro da grade de novembro (posições 24 a 33). Capas dos carrosséis no tom escuro; posts alternando.
 - **Fotos:** foto real só na 1ª e na última tela dos carrosséis (regra 04/11); as telas do meio são tipográficas, cópia das telas B (creme, número dourado, faixa com fio) e C (vinho) dos carrosséis de novembro. Uma foto por peça, lista em `../FOTOS-USADAS.md`.
 - **CFO:** sem preço, "grátis", promessa, antes e depois ou depoimento inventado; CRO-MA 8514 em todas; "Chame no WhatsApp para sua avaliação". Recesso (p5): os horários não foram inventados, o post manda conferir no WhatsApp.
