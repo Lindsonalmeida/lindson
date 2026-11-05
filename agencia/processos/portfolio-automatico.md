@@ -8,3 +8,13 @@
 4. Cite a entrega no `REGISTRO-DAS-CONTAS.md` como sempre, com "portfólio: ok".
 
 O agente do site pode deixar um script de apoio em `site/` (ver README do site, `agencia/marca-lindson/site/README.md`).
+
+## Script de apoio (conta Pedro, 05/11/2026)
+Na raiz do privado `CentralLindsonALmeida`:
+```
+node site/novo-trabalho.js --nome "Cliente X · site" --cliente "Loja de roupas" --cat sites \
+  --faz "Mini site da bio com catálogo" --img caminho/da/imagem.jpg --url https://clientex.pages.dev [--largo]
+```
+- `--cat`: sites, marca, instagram, video, youtube, apps, produtos ou estrategia (o filtro aparece sozinho na página).
+- A imagem é copiada para `site/img/pf/<id>.<ext>` (use print em alta, 1000 a 1600 px, ou a arte aprovada). Vídeo vertical já em `site/media/`: `--video nome-sem-mp4`.
+- O trabalho entra no topo da lista. Depois: `git add site && git commit && git push`.

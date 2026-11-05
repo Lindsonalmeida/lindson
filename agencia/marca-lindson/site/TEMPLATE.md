@@ -50,3 +50,6 @@ Técnicas de apoio: contador 000→100 da Lusion (só na 1ª visita da sessão),
 
 - Código no privado `CentralLindsonALmeida`: `site/` (home, `portfolio/`, `assets/site.css`, `assets/site.js`, `assets/dados.js`, `img/`, `media/`) e `bio/`. No ar: https://lindsonalmeida.pages.dev/site/ e https://lindsonalmeida.pages.dev/bio/
 - Bibliotecas com versão fixa: gsap@3.12.5 (+ ScrollTrigger) e lenis@1.1.13 (jsdelivr). Sem elas, o site funciona igual, só sem as animações.
+
+## v2 da direção de arte dos vídeos (05/11)
+O Lindson reprovou os vídeos da v1 ("sem qualidade") e pediu "vídeos e animações cinematográficas em bancos públicos que combinem com o nome que o Maquiavel deu". Pesquisa no Mixkit e no Coverr (Pexels e Pixabay bloqueiam robô; não contornamos): castle, fortress, stone wall, lighthouse, embers, fire sparks, chess, medieval, old city, torch, candle, ruins, cathedral, smoke. Só fontes em 1080p. Escolhidos e créditos em `README.md` (seção Vídeos). Descartados: castelos em dia de sol vistos de drone (720p e cara de turismo), igrejas e vitrais (religioso), cavaleiros e espadas (guerra: proibido no branding do Estado Próprio), peça de rei do xadrez (coroa: proibida), Praga e Osaka (cartão-postal reconhecível).

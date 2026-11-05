@@ -24,8 +24,19 @@ Repositório **privado** `CentralLindsonALmeida` (fotos do Lindson não entram n
 7. Sobre: quem é + o plano em 3 passos (vitrine, mês gravado em 1 dia, gente no WhatsApp) + serviços.
 8. Contato: WhatsApp com mensagem pronta, "Quero um site", "Quero um mini site", "Quero um Instagram que traz cliente", redes, projetos (Alkantara Connections, Núcleo SLZ, Meu Vereador 5.0).
 
-## Vídeos usados (todos reais, do repositório)
-Showreel `hero-d/hero-m` (Passaporte longo 01 e Raposa longo 02) · `leo-motion-1/3/4` (motions do Leo, versões de situação) · `reel-tier`, `reel-pare`, `reel-como` (Reels do Lindson) · `yt-raposa-short` (Short 03) · `yt-passaporte`, `yt-raposa` (trechos dos longos) · `site-rafael`, `site-sf`, `site-realtime`, `site-realtimebio`, `site-tribuna` (gravações de tela dos sites no ar, celular e computador, feitas com o Playwright).
+## Vídeos usados (v2, 05/11: "os vídeos não têm qualidade", pedido de vídeos cinematográficos de banco)
+**Banco (licença livre para uso comercial, sem atribuição obrigatória; créditos registrados aqui):**
+- Abertura `hero-d/hero-m`: "Fortress near the sea" (Coverr, coverr.co, 1080p) + faíscas "Fire particles on dark background" (Mixkit #3460) e "Sparks of fire on a black background" (Mixkit #3463).
+- Estado Próprio `estado-d/estado-m`: "Castle wall" (Mixkit #4236, 1080p) + faíscas (Mixkit #3463).
+- Manifesto `xadrez-d`: "Cinematic shot of a wooden chess" (Mixkit #49721, 1080p).
+- Contato `brasas-d`: "Fire particles on dark background" (Mixkit #3460, 1080p). Reserva: `mapa-d` "Ancient map of the world in the dark lit by candlelight" (Mixkit #21612).
+- Tratamento: preto profundo e âmbar (#F5C518) por ffmpeg (curvas, mistura de canais, vinheta), H.264 crf 22-25, 7 a 10 s em loop com fade, pôster .jpg. Licenças: Mixkit License (mixkit.co/license) e Coverr License (coverr.co/license).
+- Fora (regra do Estado Próprio, `ESTADO-PROPRIO-BRANDING.md`): coroa, trono, raposa, leão e retrato renascentista (a abertura v1 usava cenas do Raposa e Leão: trocada).
+
+**Trabalho real (prova):** motions do Leo (`leo-motion-1/3/4`), Reels do Lindson (`reel-tier`, `reel-pare`, `reel-como`), Short do Raposa (`yt-raposa-short`) e stories do Dublê (`duble-story`) em 720×1280 a partir dos originais 1080p; sites dos clientes (`site-*-m` 720×1558 e `site-*-d` 1600×900) feitos de **print da página inteira em 2x** com rolagem suave por ffmpeg (nítidos, sem a gravação de tela tremida da v1).
+
+## Recorte (v2, 05/11: "o recorte está mal feito")
+Foto c13 melhorada com Real-ESRGAN x2 (`ferramentas/melhorar_foto.py`), BiRefNet portrait em resolução cheia, filtro guiado na máscara (borda segue o cabelo), 1 px de erosão e **descontaminação de cor** (pymatting `estimate_foreground_ml`): sem halo bege. WebP com transparência de 1031×1800. Conferido a 200% no preto e no amarelo. Script: `agencia/marca-lindson/ferramentas/recorte2.py` (`python recorte2.py foto.jpg saida.webp [corte]`; corte -1 mantém o tamanho da foto inteira). O mesmo passo a passo serve para qualquer recorte: BiRefNet → guiado → descontaminação).
 
 ## Fotos do Lindson usadas
 Ver `../FOTOS-USADAS.md`. Uma foto por lugar, sem repetir dentro do site.
