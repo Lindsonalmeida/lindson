@@ -10,6 +10,8 @@ Levantamento da conta Leandro em 05/11/2026, a partir do quadro, do registro, do
 | Real Time · https://realtimeslz.pages.dev | Mesmo passo a passo + confirmar a **cidade do estúdio** (o site diz São Luís) | site no ar desde 03/11 |
 | Desentupidora SF · https://desentupidorasf.pages.dev | Já verificado: falta **enviar o sitemap**, **pedir indexação** das 11 páginas e criar o **Perfil da Empresa** | parado desde 03/11 |
 
+**Guias prontos (05/11, conta Leandro):** `agencia/clientes/jaci-cunha/GOOGLE.md`, `agencia/clientes/rt-full-jobs/GOOGLE.md` e `agencia/marca-lindson/site/GOOGLE.md`. Cada um tem o passo a passo, a lista de páginas para indexar e os textos do Perfil da Empresa prontos para copiar.
+
 ## 2. Lindson (marca pessoal e site)
 - Aprovar o **site oficial** e a **bio nova** (https://lindsonalmeida.pages.dev/site/ e /bio/) e **trocar o link da bio do Instagram** para `/bio/`.
 - Aprovar as **artes v2** que faltam (a1, r1 e p1 já aprovadas) e a **semana 2** (7 posts, foto de perfil, 6 capas de destaques).
