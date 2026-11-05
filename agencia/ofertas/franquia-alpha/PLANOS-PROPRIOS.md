@@ -42,6 +42,7 @@ Origem: pedido "analise e copie essa franquia" (`ANALISE-MAQUIAVEL.md`). Copiamo
 | Vídeos | 4/mês, 1 diária | 8/mês, 2 diárias | 8/mês, 2 diárias |
 | Tráfego pago (Meta) | Sim | Sim | Sim |
 | Relatório mensal (Painel de Clientes na Central) | Sim | Sim | Sim |
+| **Relatório toda segunda-feira** (ROAS, CAC, custo por conversa, conversas por código) | Não | Não | **Sim** (como o Alpha X) |
 | Mini site com botão de WhatsApp | Não (avulso R$ 497) | Sim | Sim |
 | Script de Fechamento no WhatsApp | Não | Sim | Sim |
 | Conselho do Estado Próprio ▲ (área de membros) | Sim | Sim | Sim |
@@ -49,7 +50,7 @@ Origem: pedido "analise e copie essa franquia" (`ANALISE-MAQUIAVEL.md`). Copiamo
 | Reunião estratégica individual (Meet), mensal | Não | Não | Sim |
 | Grupo de WhatsApp do cliente com o Lindson | Não | Não | Sim, em horário comercial (decisão do Lindson) |
 | **Exclusividade de nicho em São Luís** | Não | Não | Sim: não atendo concorrente direto do mesmo nicho na cidade enquanto o contrato valer |
-| **Preço/mês (base trimestral)** | **R$ 2.200** (preço atual) | **R$ 3.500** (preço atual) | **R$ 4.500 a R$ 5.500 · decisão do Lindson** |
+| **Preço/mês (base trimestral)** | **R$ 2.200** (preço atual) | **R$ 3.500** (preço atual) | **R$ 4.500 a R$ 5.500 · decisão do Lindson** (o Alpha X custa R$ 5.416,67 a R$ 6.000) |
 | Verba de anúncio (por fora, paga à Meta) | a partir de R$ 1.000/mês · decisão | a partir de R$ 1.000/mês (já registrado) | a partir de R$ 1.000/mês · decisão |
 
 Por que a Cidadela fica entre R$ 4.500 e R$ 5.500: R$ 4.500 é o "valor de mercado" mensal da entrega da Fortaleza já registrado em `instagram-que-vende-90-dias.md`; a Cidadela acrescenta reunião individual, grupo e exclusividade. O teto é escolha, não pesquisa de mercado.
@@ -180,3 +181,20 @@ Texto do site com linguagem de venda, **nunca** linguagem de contrato colada (o 
 | 8 | Exclusividade de nicho: cidade ou bairro | São Luís inteira, escrita no contrato |
 
 Depois de aprovado: oferta e preço passam pelo Hormozi Squad (Hormozi Offers e Pricing); a página, pelo Copy Squad e o Design Squad (padrão premium).
+
+## 10. Relatório de segunda-feira da Cidadela ▲ (resposta ao "ROAS, CAC e relatório toda segunda" do Alpha X · 05/11)
+
+Toda segunda, até as 10h, no painel do cliente na Central (aba Relatório) + resumo de 5 linhas no grupo de WhatsApp.
+
+| Número | Conta | De onde vem |
+|---|---|---|
+| Investimento da semana | soma do gasto | Gerenciador de Anúncios da Meta |
+| Conversas no WhatsApp | quantas chegaram, por código ([BTX01] etc.) | códigos nas mensagens (já usado nos clientes) |
+| Custo por conversa | investimento ÷ conversas | Meta + códigos |
+| **CAC** (custo por cliente) | investimento ÷ clientes que fecharam | **o cliente informa quem fechou** (planilha simples no painel) |
+| **ROAS** | faturamento vindo do anúncio ÷ investimento | **o cliente informa o valor vendido** |
+| O que muda nesta semana | 1 a 3 decisões (pausar, escalar, trocar criativo) | análise do Lindson |
+
+**Verdade efetiva:** CAC e ROAS só existem se o cliente disser quem comprou e quanto pagou. No contrato da Cidadela isso vira obrigação do cliente (preencher o painel até domingo); sem esse dado, o relatório mostra custo por conversa e diz que falta o dado. Nunca estimar venda.
+
+Nos outros planos, o relatório continua mensal: o semanal é um motivo concreto para subir para a Cidadela (upsell).

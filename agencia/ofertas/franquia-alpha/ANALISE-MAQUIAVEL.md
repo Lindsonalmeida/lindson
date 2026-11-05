@@ -121,6 +121,14 @@ E isso **antes** de qualquer royalty, que não sabemos quanto é.
 | Semestral (R$ 3.500/mês) | R$ 21.000 | 1,4 |
 | Anual (R$ 2.625/mês) | R$ 31.500 | 0,95 |
 
+| Alpha X (print 5, enviado em 05/11) | Total do contrato | Quantos contratos somam R$ 30 mil (bruto) |
+|---|---|---|
+| Trimestral (R$ 6.000/mês) | R$ 18.000 | 1,7 |
+| Semestral (R$ 5.500/mês) | R$ 33.000 | 0,9 |
+| Anual (R$ 5.416,67/mês) | R$ 65.000 | 0,46 |
+
+No Alpha X o desconto quase some (trimestral → anual: −9,7%): quem compra exclusividade paga perto da tabela. E, segundo o Lindson, o Alpha X promete **ROAS, CAC e relatório toda segunda-feira** (isso não aparece no print; veio da apresentação deles). É o argumento mais forte do plano de topo deles, e você pode entregar o mesmo com a Central do Cliente (ver `PLANOS-PROPRIOS.md`, Cidadela ▲).
+
 **O desconto por prazo deles é grande** (conta minha sobre os prints):
 
 | | Quadrimestral → Semestral | Quadrimestral → Anual |
@@ -207,7 +215,7 @@ Quem negocia com pressa compra a pressa do outro. Peça tudo por escrito e não 
 | 8 | Me passa o contato de 3 franqueados ativos e 2 que saíram, de cidades do Nordeste? | A COF já deve ter a lista [Conferir com advogado] |
 | 9 | Quantas unidades estão ativas hoje e quantas fecharam? | Confirmar as 50 do portal |
 | 10 | O que são, na prática, Alpha Partners, Growth Class e Fast Food Milionário? O que a "garantia" garante e em que condição? O que é o selo "1 captação vitalício Alpha Partners" do plano anual? | Nada disso é público |
-| 10b | Qual o preço do Alpha X? Os R$ 1.500 "em anúncios" são verba paga à Meta pelo cliente ou taxa cobrada por vocês? | Não aparece na página |
+| 10b | (Preço do Alpha X já visto: R$ 6.000 a R$ 5.416,67/mês.) O ROAS e o CAC das segundas: de onde vem o dado de venda do cliente (iFood, caixa)? Me mostra um relatório real, sem nome do cliente. Os R$ 1.500 "em anúncios" são verba paga à Meta pelo cliente ou taxa cobrada por vocês? | Não aparece na página |
 | 11 | Que treinamento de iFood e cardápio vem incluso? Em quanto tempo? | É o único saber novo para você |
 
 ### 8.3 O que exigir por escrito
@@ -261,7 +269,7 @@ Prints 1 e 2 salvos em `referencias/` (`alpha-planos.webp`, `alpha-precos-silver
 | Semestral | R$ 3.500,00 | R$ 21.000,00 | até 12x no cartão | + R$ 1.500,00 |
 | Anual (selo "1 captação vitalício Alpha Partners") | R$ 2.625,00 | R$ 31.500,00 | até 12x no cartão | + R$ 1.500,00 |
 
-**Print 4 · ALPHA X completo** ("Indicado para quem quer exclusividade"; **sem preço na página**):
+**Print 4 · ALPHA X completo** ("Indicado para quem quer exclusividade"; preço no print 5):
 - Gestão de tráfego pago.
 - Consultoria Estratégica: reuniões táticas e estratégicas via Google Meet com a equipe da CONTRATANTE, alinhamento de demandas e objetivos.
 - Suporte e Comunicação: esclarecimento de dúvidas, alinhamento de textos personalizados e grupo exclusivo no WhatsApp.
@@ -269,6 +277,8 @@ Prints 1 e 2 salvos em `referencias/` (`alpha-planos.webp`, `alpha-precos-silver
 - Captação de Conteúdo: captação BIMESTRAL de conteúdo presencial, com todo o material entregue à CONTRATANTE.
 - Edição e Validação de Mídias: edição de fotos e vídeos e validação do material através de tráfego pago nas plataformas da "Cláusula 1ª".
 - Estratégias para Redes Sociais: cronogramas de posts e estratégias para Instagram e TikTok.
+
+**Print 5 · ALPHA X preços** ("Exclusivo, premium e completo ideal para negócios que buscam o máximo"; arquivo `referencias/alpha-precos-alphax.png`): Trimestral R$ 6.000,00/mês (total R$ 18.000,00, até 6x) · Semestral R$ 5.500,00/mês (total R$ 33.000,00, até 12x) · Anual R$ 5.416,67/mês (total R$ 65.000,00, até 12x) · todos + R$ 1.500,00 em anúncios. Segundo o Lindson: ROAS, CAC e relatório toda segunda-feira.
 
 **Observação:** o texto do Alpha X usa linguagem de contrato ("CONTRATANTE", "Cláusula 1ª"), ou seja, foi colado do contrato deles na página de venda. Duas leituras: (a) a franqueadora tem contrato-padrão de cliente pronto (peça uma cópia junto com a COF; é parte do que você compraria); (b) a página foi montada com pressa, o que diz algo sobre o cuidado da marca que você levaria no peito. Os planos próprios do Lindson **não copiam esses textos** (`PLANOS-PROPRIOS.md`).
 
