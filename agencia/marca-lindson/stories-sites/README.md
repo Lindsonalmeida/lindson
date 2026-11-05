@@ -24,7 +24,7 @@ Zona segura respeitada: nada importante nos 250 px de cima nem nos 300 px de bai
 | 04 | **vídeo 10,4 s** | amarelo · celular inclinado em 3D com o site rolando | **RAFAEL IMPORTS** · mini site da bio · "Loja de celular em São Luís: ofertas, lançamentos e WhatsApp num link só." | **Link** à esquerda, abaixo do texto (y ≈ 1180): `https://rafaelimports.pages.dev` · texto do link: "Ver o site" |
 | 05 | **vídeo 10,2 s** | preto · "11" gigante + navegador com o site + celular por cima, os dois rolando | **Desentupidora SF · 11 páginas feitas pro Google** · "Quem procura, acha e chama no WhatsApp." | **Link** embaixo à esquerda (y ≈ 1460): `https://desentupidorasf.pages.dev` |
 | 06 | **vídeo 9,0 s** | amarelo · "MANCHETES AO VIVO" andando atrás, celular reto no centro | **Tribuna 98 · jornalismo** · "A bio puxa as notícias do dia sozinha." | **Link** centralizado embaixo (y ≈ 1500): `https://tribuna98.pages.dev` |
-| 07 | **vídeo 10,2 s** | preto · dois celulares desencontrados rolando | **Produtora e clínica. Cada um com a sua cara.** · Real Time: site com 8 páginas + bio · Dra. Jaci Cunha: site oficial + bio | opcional: **Link** `https://lindsonalmeida.pages.dev/site/portfolio/` ("Ver mais trabalhos") no espaço entre o título e os celulares |
+| 07 | **vídeo 11,1 s** | preto · dois celulares desencontrados rolando | **Produtora e clínica. Cada um com a sua cara.** · Real Time: site com 8 páginas + bio · Dra. Jaci Cunha: site oficial + bio | opcional: **Link** `https://lindsonalmeida.pages.dev/site/portfolio/` ("Ver mais trabalhos") no espaço entre o título e os celulares |
 | 08 | imagem | amarelo · 3 cartões numerados empilhados | **3 PASSOS.** 01 Você responde SITE aqui nos stories. · 02 Eu te mando um vídeo do site já com a cara do seu negócio. De graça. · 03 Gostou? Vai pro ar com o seu link e o seu WhatsApp. | **Caixa de pergunta** embaixo, centralizada (y ≈ 1300–1560): "Qual é o seu negócio?" |
 | 09 | imagem | preto · dois cartões de opção, o do Google em amarelo | **Dois jeitos de ter o seu site.** · MINI SITE DA BIO (link bonito da bio, botão pro WhatsApp, serviços com foto real) · SITE COMPLETO NO GOOGLE (uma página pra cada serviço, feito pra aparecer no Google, mini site da bio junto) · "Valores só na conversa" | **Enquete** embaixo, centralizada (y ≈ 1290–1540): "Qual é a sua?" · opções "Mini site da bio" / "Site no Google" |
 | 10 | imagem | amarelo · "SITE" gigante atrás dele (variação), degradê preto | **Responde SITE aqui que eu te mostro o seu.** · "ou toque no link → WhatsApp" | **Link** embaixo à esquerda (y ≈ 1470): WhatsApp com o código, texto do link "Me chama no WhatsApp" |
@@ -41,9 +41,18 @@ Link do WhatsApp (tela 10), mensagem pronta com o código MS:
 | 04 Rafael Imports | "Esse é o mini site da Rafael Imports. Ofertas, lançamentos e o WhatsApp da loja e da assistência, tudo num link só, direto na bio." | 9,0 s | 10,4 s |
 | 05 Desentupidora SF | "Agora, a Desentupidora SF. Um site com onze páginas, feito pra aparecer no Google. Quem procura, acha, e já chama no WhatsApp." | 8,9 s | 10,2 s |
 | 06 Tribuna 98 | "Esse aqui é da Tribuna 98. A bio puxa as notícias do dia sozinha: saiu no blog, já aparece ali, sem ninguém mexer." | 7,6 s | 9,0 s |
-| 07 Real Time + Dra. Jaci | "E cada negócio com a sua cara. A Real Time, produtora, com site de oito páginas. A Doutora Jaci Cunha, com site oficial e bio. Bora fazer o seu?" | 8,9 s | 10,2 s |
+| 07 Real Time + Dra. Jaci | "E cada negócio com a sua cara. A Real Time, produtora, com site de oito páginas. A Doutora Jaci Cunha, com site oficial e bio. Bora fazer o seu?" | 9,7 s | 11,1 s |
 
-Textos em `falas.json` ("SF" vai escrito "Esse Efe" para a voz ler a sigla). A amostra da voz dele **não vai para o Git** (dado biométrico).
+Textos em `falas.json`: na fala, os nomes vão escritos do jeito que se pronunciam (a tela continua com a grafia certa).
+
+**Pronúncias** (correção do Lindson, 05/11):
+| Nome na tela | Como se fala | Como vai escrito no texto da voz |
+|---|---|---|
+| Real Time | "real taime" | `Real Taime` (se a tônica sair errada: `Rial Táime`) |
+| Jaci | "jáci" (tônica na 1ª sílaba, A aberto) | `Jáci Cunha` (se sair errado: `Já-ci`) |
+| SF | "esse efe" | `Esse Efe` |
+
+s07 refeita com essas grafias (variação `SEMENTE=27` do `narra.py`, escolhida no Whisper entre 3: a única com tudo certo e pausas curtas). A amostra da voz dele **não vai para o Git** (dado biométrico).
 - **SFX** (sintetizados, mesmo sintetizador do motion do Leo): whoosh quando o aparelho entra, pop em cada texto e selo, impacto leve na palavra-chave, 3 cliques suaves quando a rolagem começa. Deixas tiradas da própria animação (`cues.json`).
 - **Trilha:** Kevin MacLeod (incompetech.com), licença CC BY 4.0 (creativecommons.org/licenses/by/4.0/): 04 e 07 "Carefree", 05 "Life of Riley", 06 "Wholesome". Baixinha (-17 dB) e abaixada para -27 dB sob a voz. **Crédito obrigatório:** se postar com a trilha, pôr em algum lugar do perfil ou da legenda: "Música: Kevin MacLeod (incompetech.com), CC BY 4.0".
 - **VFX:** vazamento de luz âmbar na entrada e na saída, tremida de câmera de 3 quadros no impacto, borrão direcional (vertical) no aparelho que entra, grão de filme que muda a cada quadro, paralaxe leve (halo, nome fantasma, faixas). Identidade v2, sem raio nem fumaça.
