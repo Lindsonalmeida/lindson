@@ -37,14 +37,14 @@ V.pedidos = () => `<div class="grade g21"><div class="card"><h3>${eu === 'admin'
  ${eu === 'admin' ? '<div class="card"><h3>Painel da agência</h3><p class="sub" style="margin:0">Você está vendo como administrador. Os pedidos chegam aqui e no seu WhatsApp.</p></div>' : `<form class="card" id="novo-ped"><h3>Fazer um pedido</h3><p class="sub">Arte, ajuste, post novo, dúvida... a equipe responde em até 1 dia útil.</p><div style="display:grid;gap:10px"><label for="ped-t" class="sub" style="margin:0">O que você precisa?</label><textarea id="ped-t" maxlength="800" placeholder="Ex.: preciso de um post sobre o horário de fim de ano" required></textarea><button class="btn am" type="submit">Enviar pedido</button><span class="sub" style="margin:0;font-size:12px">Ao enviar, o WhatsApp abre com o pedido para avisar a equipe.</span></div></form>`}</div>`;
 
 let abaAp = null;
-const grupoDe = p => p.postado ? 'post' : p.st === 'aprovado' ? 'apr' : 'pend';
+const grupoDe = p => p.postado ? 'post' : p.st === 'aprovado' ? 'apr' : p.st === 'em revisão' ? 'aj' : 'pend';  // pedido de ajuste muda a arte de aba (pedido do Lindson, 05/11/2026)
 function abasAprov(m) {
   const cards = [...m.querySelectorAll('.post')]; if (!cards.length || cards.length !== APROV.length) return;
-  const n = { pend: 0, apr: 0, post: 0 }; APROV.forEach(p => n[grupoDe(p)]++);
-  if (!abaAp) abaAp = n.pend ? 'pend' : n.apr ? 'apr' : 'post';
+  const n = { pend: 0, aj: 0, apr: 0, post: 0 }; APROV.forEach(p => n[grupoDe(p)]++);
+  if (!abaAp) abaAp = n.pend ? 'pend' : n.aj ? 'aj' : n.apr ? 'apr' : 'post';
   const box = m.querySelector('.posts'); if (!box) return;
   const ab = document.createElement('div'); ab.className = 'subabas'; ab.style.margin = '6px 0 16px';
-  ab.innerHTML = [['pend', 'Para aprovar'], ['apr', 'Aprovados · a postar'], ['post', 'Postados']].map(([k, t]) => `<button type="button" data-abaap="${k}" class="${k === abaAp ? 'on' : ''}">${t} (${n[k]})</button>`).join('');
+  ab.innerHTML = [['pend', 'Para aprovar'], ['aj', 'Em ajuste'], ['apr', 'Aprovados · a postar'], ['post', 'Postados']].map(([k, t]) => `<button type="button" data-abaap="${k}" class="${k === abaAp ? 'on' : ''}">${t} (${n[k]})</button>`).join('');
   box.parentNode.insertBefore(ab, box);
   ab.querySelectorAll('[data-abaap]').forEach(b => b.onclick = () => { abaAp = b.dataset.abaap; render(); });
   cards.forEach((c, i) => {
@@ -56,6 +56,7 @@ function abasAprov(m) {
     if (p.img && !c.querySelector('[data-baixar]')) alvo.insertAdjacentHTML('beforeend', (p.telas && p.telas.length)
       ? `<button class="btn lin" type="button" data-baixar data-baixarcar="${i}" style="display:block;width:100%;text-align:center;margin-top:10px">⬇ Baixar carrossel (${p.telas.length + 1} telas)</button>`
       : `<a class="btn lin" data-baixar href="${p.img}" download="${nomeArq}.jpg" style="display:block;text-align:center;margin-top:10px">⬇ Baixar arte</a>`);
+    if (g === 'aj') alvo.insertAdjacentHTML('beforeend', `<div style="font-size:12.5px;margin-top:10px;padding:10px 12px;border-radius:10px;background:rgba(255,194,14,.1);border:1px solid rgba(255,194,14,.35)"><b>✎ Ajuste pedido</b>${p.por ? ' por ' + esc(p.por) : ''}${p.em ? ', ' + new Date(p.em).toLocaleDateString('pt-BR') : ''}<br>${esc(p.nota || '(sem detalhe)')}</div>` + (eu === 'admin' ? `<button class="btn am" type="button" data-volta="${i}" style="margin-top:10px;width:100%">↩ Corrigida, voltar para aprovação</button>` : `<div style="font-size:12px;color:var(--apagado);margin-top:6px">A equipe está ajustando. Quando ficar pronta, ela volta para "Para aprovar".</div>`));
     if (g === 'apr') alvo.insertAdjacentHTML('beforeend', `<button class="btn am" type="button" data-postei="${i}" style="margin-top:10px;width:100%">✓ Marquei como postado</button>`);
     if (g === 'post') alvo.insertAdjacentHTML('beforeend', `<div style="font-size:12px;color:#4ADE80;margin-top:6px">📌 Postado${p.postadoPor ? ' por ' + esc(p.postadoPor) : ''}${p.postadoEm ? ', ' + new Date(p.postadoEm).toLocaleDateString('pt-BR') : ''}</div><button class="btn lin" type="button" data-despostei="${i}" style="margin-top:8px;width:100%;font-size:12px">Desfazer (voltar para "a postar")</button>`);
   });
@@ -65,6 +66,8 @@ function abasAprov(m) {
       p.postado = v; p.postadoEm = v ? agora() : null; p.postadoPor = v ? (meuNome || eu) : null; toast(v ? 'Marcado como postado. Foi para a aba Postados.' : 'Voltou para "a postar".'); render(); } };
   m.querySelectorAll('[data-postei]').forEach(b => b.onclick = marca(+b.dataset.postei, true));
   m.querySelectorAll('[data-despostei]').forEach(b => b.onclick = marca(+b.dataset.despostei, false));
+  m.querySelectorAll('[data-volta]').forEach(b => b.onclick = async () => { const p = APROV[+b.dataset.volta]; if (!p) return;
+    if (await muda('aprov', d => { d.itens = (d.itens || []).filter(x => x.titulo !== p.titulo); d.itens.push({ titulo: p.titulo, st: 'aguardando', em: agora(), por: meuNome || eu }); })) { p.st = 'aguardando'; p.nota = ''; toast('Voltou para "Para aprovar".'); render(); } });
 }
 const anterior = window.__pos;
 window.__pos = view => {
@@ -79,7 +82,7 @@ window.__pos = view => {
     const p = APROV[+b.dataset.aj]; if (!p) return;
     const nota = prompt(`O que você quer mudar em "${p.titulo}"?`); if (nota === null) return;
     if (await muda('aprov', d => { d.itens = (d.itens || []).filter(x => x.titulo !== p.titulo); d.itens.push({ titulo: p.titulo, st: 'em revisão', nota: nota.trim().slice(0, 500), em: agora(), por: meuNome || eu }); })) {
-      p.st = 'em revisão'; p.nota = nota; p.por = meuNome || eu; p.em = agora(); render(); toast('Pedido de ajuste salvo. Abrindo o WhatsApp para avisar a equipe.');
+      p.st = 'em revisão'; p.nota = nota; p.por = meuNome || eu; p.em = agora(); abaAp = 'aj'; render(); toast(eu === 'admin' ? 'Pedido de ajuste salvo. A arte foi para a aba Em ajuste.' : 'Pedido de ajuste salvo. A arte foi para a aba Em ajuste e o WhatsApp vai abrir para avisar a equipe.');
       if (eu !== 'admin') abreWa(`Oi, Lindson! Pedi ajuste num post na Central (${nome}):\n"${p.titulo}"\n${nota.trim() || '(sem detalhe)'}`);
     }
   });
