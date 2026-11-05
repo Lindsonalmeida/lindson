@@ -96,3 +96,4 @@ Todas desligadas desde 26/10 (as de 3 em 3 horas falharam por limite de uso do p
 | `agencia/clientes/jaci-cunha/conteudo-nov/` e `conteudo-dez/` | feed de novembro e dezembro da Dra. Jaci (textos, gerador com enquadramento pelo rosto, conferência, artes) | (conta Leandro, 04/11) |
 | `agencia/ofertas/low-ticket/venda/ESCADA.md` | escada de venda dos produtos: upsell, downsell, recuperação, reembolso e agência (Hormozi Squad) | (conta Leandro, 04/11) |
 - `PENDENCIAS-DO-LINDSON.md`: lista do que falta o Lindson concluir, por projeto e cliente (conta Leandro, 05/11/2026).
+- `agencia/ofertas/franquia-alpha/`: análise do Maquiavel da franquia Alpha Assessoria e planos próprios inspirados no modelo (conta Leandro, 05/11/2026).
