@@ -113,10 +113,10 @@ V['rede-relatorio'] = () => { const rel = (D.relatorios || []).slice().sort((a, 
 V['rede-artes'] = () => { const L = R.artes || [];
   return `<div class="card"><h3>Artes do seu Instagram</h3><p class="sub">${L.length} posts aprovados na ordem do feed (xadrez preto e amarelo), cada um com a legenda no padrão blog SEO. Toque em uma tela para abrir em tamanho real.</p></div>
   ${L.length ? `<div class="grade g3">${L.map((a, k) => `<div class="card" style="padding:10px"><img loading="lazy" src="${a.img}" alt="${esc(a.titulo)}" style="width:100%;border-radius:10px;display:block">
-   ${(a.telas || []).length > 1 ? `<div style="display:flex;gap:6px;overflow-x:auto;margin-top:8px">${a.telas.map(t => `<a href="${t}" target="_blank" rel="noopener"><img loading="lazy" src="${t}" alt="tela" style="height:74px;border-radius:6px;display:block"></a>`).join('')}</div>` : ''}
+   ${(a.telas || []).length > 1 ? `<div style="display:flex;gap:6px;overflow-x:auto;margin-top:8px">${a.telas.map(t => `<a href="${t}" target="_blank" rel="noopener">${/\.mp4$/.test(t) ? `<video src="${t}" muted loop autoplay playsinline preload="metadata" style="height:74px;border-radius:6px;display:block"></video>` : `<img loading="lazy" src="${t}" alt="tela" style="height:74px;border-radius:6px;display:block">`}</a>`).join('')}</div>` : ''}
    <div class="sub" style="margin:8px 0 2px">${esc(a.data || '')}</div><b style="display:block">${esc(a.titulo)}</b>
-   ${a.legenda ? `<details style="margin-top:6px"><summary style="cursor:pointer;color:var(--amarelo);font-weight:700">Legenda SEO</summary><pre style="white-space:pre-wrap;font:inherit;font-size:13px">${esc(a.legenda)}</pre></details>` : ''}
-   <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:8px">${a.legenda ? `<button class="btn am" type="button" data-copialeg="${k}" style="padding:6px 10px;font-size:12px">Copiar legenda</button>` : ''}${(a.telas || [a.img]).map((t, n) => `<a class="btn lin" download href="${t}" style="padding:6px 10px;font-size:12px">Baixar${(a.telas || []).length > 1 ? ' ' + (n + 1) : ''}</a>`).join('')}</div></div>`).join('')}</div>`
+   ${a.legenda ? `<details style="margin-top:6px"><summary style="cursor:pointer;color:var(--amarelo);font-weight:700">${a.data === 'stories' ? 'Roteiro de postagem' : 'Legenda SEO'}</summary><pre style="white-space:pre-wrap;font:inherit;font-size:13px">${esc(a.legenda)}</pre></details>` : ''}
+   <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:8px">${a.legenda ? `<button class="btn am" type="button" data-copialeg="${k}" style="padding:6px 10px;font-size:12px">Copiar legenda</button>` : ''}${(a.telas || [a.img]).map((t, n) => `<a class="btn lin" download href="${t}" style="padding:6px 10px;font-size:12px">Baixar${(a.telas || []).length > 1 ? ' ' + (n + 1) : ''}${/\.mp4$/.test(t) ? ' (vídeo)' : ''}</a>`).join('')}</div></div>`).join('')}</div>`
    : '<div class="card"><p class="sub" style="margin:0">Ainda não há artes aprovadas aqui.</p></div>'}`; };
 
 // ---- 8 · Minhas fotos: o Lindson sobe as fotos dele para as artes (copiado do modelo prototipo/fotos.js, conta Lindson 01/11).
@@ -169,7 +169,7 @@ const ant = window.__pos;
 window.__pos = view => {
   if (ant) ant(view);
   const $$ = s => document.querySelectorAll('#conteudo ' + s), $1 = s => document.querySelector('#conteudo ' + s);
-  $$('[data-copialeg]').forEach(b => b.onclick = () => { const a = (R.artes || [])[+b.dataset.copialeg]; if (a && navigator.clipboard) navigator.clipboard.writeText(a.legenda); toast('Legenda copiada'); });
+  $$('[data-copialeg]').forEach(b => b.onclick = () => { const a = (R.artes || [])[+b.dataset.copialeg]; if (a && navigator.clipboard) navigator.clipboard.writeText(a.legenda); toast(a && a.data === 'stories' ? 'Roteiro copiado' : 'Legenda copiada'); });
   $$('[data-copia]').forEach(b => b.onclick = () => { navigator.clipboard && navigator.clipboard.writeText(b.dataset.copia); toast('Gancho copiado'); });
   $$('[data-postado]').forEach(b => b.onclick = () => salva(d => { const k = b.dataset.postado; if (d.postados[k]) delete d.postados[k]; else d.postados[k] = { em: new Date().toISOString() }; }, 'Calendário atualizado'));
   $$('[data-gravado]').forEach(b => b.onclick = () => salva(d => { const k = b.dataset.gravado; if (d.gravados[k]) delete d.gravados[k]; else d.gravados[k] = { em: new Date().toISOString() }; }, 'Lote atualizado'));

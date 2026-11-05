@@ -53,5 +53,9 @@ for data, titulo, telas, chave in POSTS:
     if chave and not leg: raise SystemExit('sem legenda para ' + chave)
     saida.append({'data': data, 'titulo': titulo, 'img': '/painel/admin-rede/' + telas[0] + '.jpg', 'arquivo': telas[0] + '.jpg',
                   'telas': ['/painel/admin-rede/' + t + '.jpg' for t in telas], 'legenda': leg})
+# entradas de outras pastas (ex.: ../stories-sites/painel.json, conta Pedro 05/11) continuam na aba ao regenerar
+for extra in ['stories-sites']:
+    pj = os.path.join(ML, extra, 'painel.json')
+    if os.path.exists(pj): saida.append(json.load(open(pj)))
 json.dump(saida, open(os.path.join(ML, 'artes-aprovadas.json'), 'w'), ensure_ascii=False, indent=1)
 print(len(saida), 'posts ·', sum(len(p[2]) for p in POSTS), 'imagens')

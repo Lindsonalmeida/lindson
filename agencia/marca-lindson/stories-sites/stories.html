@@ -1,0 +1,186 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<!-- Stories · Vender sites (marca do Lindson, identidade v2 preto e amarelo). Conta Pedro, 05/11/2026.
+     Uso: stories.html?s=1..10 [&f=0..209 quadro do vídeo] [&q=/pasta/dos/quadros] [&guia=1 mostra onde vai cada figurinha]
+     Composição copiada dos modelos citados em TEMPLATE.md. As fotos do Lindson ficam em ../artes-v1/fotos/ (fora do Git). -->
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@500;600;700;800&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{--p:#0A0A0A;--s:#141414;--t:#F5F3EE;--ap:#A7A39A;--am:#F5C518;--am2:#E8A317}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#000;overflow:hidden;font-family:Manrope,sans-serif;-webkit-font-smoothing:antialiased}
+.a{position:relative;width:1080px;height:1920px;overflow:hidden;background:var(--p);color:var(--t)}
+.a.am{background:var(--am);color:var(--p)}
+.abs{position:absolute}
+.marca{font:800 30px Manrope;letter-spacing:-.02em}.marca i{display:inline-block;width:12px;height:12px;border-radius:50%;background:var(--am);margin-left:4px}.am .marca i{background:var(--p)}
+.mono{font-family:'JetBrains Mono';font-weight:500;letter-spacing:.08em}
+.h{font:800 84px/1.0 Manrope;letter-spacing:-.05em;text-wrap:balance}
+.cx{background:var(--am);color:var(--p);padding:0 .14em;margin:0 -.04em;display:inline-block;line-height:1.04;box-shadow:0 12px 30px rgba(245,197,24,.28)}
+.cxp{background:var(--p);color:var(--am);padding:0 .14em;margin:0 -.04em;display:inline-block;line-height:1.04}
+.ant{font-family:Anton;text-transform:uppercase;letter-spacing:-.005em;line-height:.86}
+.grao{position:absolute;inset:0;pointer-events:none;opacity:.12;mix-blend-mode:overlay;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.vidro{display:inline-flex;align-items:center;gap:10px;padding:11px 20px;border-radius:99px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.22);backdrop-filter:blur(14px) saturate(140%);font:500 22px 'JetBrains Mono';letter-spacing:.1em}
+.am .vidro{background:rgba(10,10,10,.06);border-color:rgba(10,10,10,.25)}
+.vidro b{width:11px;height:11px;border-radius:50%;background:#FF3B30;box-shadow:0 0 12px #FF3B30}
+.ouro{background:linear-gradient(180deg,#FFE27A 0%,#F5C518 45%,#D99A06 100%);-webkit-background-clip:text;background-clip:text;color:transparent!important;filter:drop-shadow(0 10px 30px rgba(245,197,24,.25))}
+.breu{background:linear-gradient(180deg,#2A2A2A 0%,#0A0A0A 55%,#000 100%);-webkit-background-clip:text;background-clip:text;color:transparent!important}
+/* aparelho (modelo "3D Story Mockup", Framer): moldura grafite, ilha, sombra longa */
+.fone{position:absolute;border-radius:70px;background:linear-gradient(145deg,#2b2b2b,#0c0c0c 40%,#1a1a1a);padding:15px;box-shadow:0 0 0 2px #3a3a3a,inset 0 0 0 2px #000,0 80px 120px -40px rgba(0,0,0,.75),0 30px 60px -20px rgba(0,0,0,.5)}
+.fone .tela{position:relative;width:100%;height:100%;border-radius:56px;overflow:hidden;background:#000}
+.fone .tela img{position:absolute;left:0;top:64px;width:100%;height:calc(100% - 64px);object-fit:cover;object-position:50% 0}
+.fone .tela::before{content:"";position:absolute;left:0;right:0;top:0;height:64px;background:#000;z-index:1}
+.fone .ilha{position:absolute;left:50%;top:30px;width:30%;height:34px;margin-left:-15%;border-radius:20px;background:#000;z-index:2}
+.fone .reflexo{position:absolute;inset:0;border-radius:56px;background:linear-gradient(120deg,rgba(255,255,255,.10),transparent 30%);pointer-events:none;z-index:3}
+/* janela de navegador (Shots.so) */
+.nav{position:absolute;border-radius:22px;background:#151515;overflow:hidden;box-shadow:0 0 0 1.5px #333,0 60px 100px -30px rgba(0,0,0,.8)}
+.nav .barra{height:54px;display:flex;align-items:center;gap:10px;padding:0 22px;background:#1d1d1d;border-bottom:1px solid #2a2a2a}
+.nav .barra i{width:14px;height:14px;border-radius:50%;background:#444}.nav .barra i:nth-child(1){background:#FF5F57}.nav .barra i:nth-child(2){background:#FEBC2E}.nav .barra i:nth-child(3){background:#28C840}
+.nav .url{margin-left:18px;flex:1;height:32px;border-radius:9px;background:#0f0f0f;color:#bdbdbd;font:500 18px 'JetBrains Mono';display:flex;align-items:center;padding:0 14px;letter-spacing:.02em}
+.nav .tela{position:relative;overflow:hidden}.nav .tela img{display:block;width:100%}
+.fig{position:absolute;border:3px dashed #FF2D78;border-radius:24px;color:#FF2D78;font:700 22px 'JetBrains Mono';display:none;align-items:center;justify-content:center;text-align:center;padding:10px;background:rgba(255,45,120,.08);z-index:50}
+.guia .fig{display:flex}
+.guia .zona{position:absolute;left:0;right:0;background:rgba(255,45,120,.18);z-index:49;display:flex;align-items:center;justify-content:center;font:700 22px 'JetBrains Mono';color:#FF2D78}
+.in{will-change:transform,opacity}
+</style></head><body><div id="x"></div>
+<script>
+const P = new URLSearchParams(location.search), S = +(P.get('s') || 1), Q = P.get('q') || '', GUIA = P.get('guia') === '1';
+const FO = '../artes-v1/fotos/', N = 210;
+let F = P.has('f') ? +P.get('f') : N - 1;
+const pad = n => String(n).padStart(3, '0');
+const quadro = (pasta, f) => `file://${Q}/${pasta}/${pad(f + 1)}.jpg`;
+const ease = x => 1 - Math.pow(1 - Math.min(Math.max(x, 0), 1), 3);
+
+// ---- peças da identidade v2 (copiadas de artes-v2/artes.html)
+const topo = (n, rot) => `<div class="abs" style="left:70px;right:70px;top:262px;display:flex;justify-content:space-between;align-items:center;z-index:20"><span class="marca">lindson almeida<i></i></span><span class="vidro">${rot.startsWith('●') ? '<b></b>' + rot.slice(1).trim() : rot}</span></div>`;
+const det = (n, cor = 'rgba(245,243,238,.35)') => { const m = 34, l = 26, H = 1920; const c = (x, y, bx, by) => `<div class="abs" style="left:${x}px;top:${y}px;width:${l}px;height:${l}px;border-${by}:1.5px solid ${cor};border-${bx}:1.5px solid ${cor}"></div>`;
+  return `<div class="abs" style="inset:0;background:radial-gradient(120% 90% at 50% 45%,transparent 55%,rgba(0,0,0,.42) 100%);pointer-events:none"></div>${c(m, m, 'left', 'top')}${c(1080 - m - l, m, 'right', 'top')}${c(m, H - m - l, 'left', 'bottom')}${c(1080 - m - l, H - m - l, 'right', 'bottom')}<div class="abs mono" style="right:${m + l + 10}px;top:${m - 6}px;font-size:15px;color:${cor}">[${n}]</div>`; };
+const amarelo = () => `<div class="abs" style="inset:0;background:radial-gradient(75% 55% at 50% 30%,#FFDB4D 0,#F5C518 55%,#DFA90B 100%)"></div><div class="abs" style="inset:0;background:repeating-linear-gradient(115deg,rgba(255,255,255,.05) 0 2px,transparent 2px 9px);mix-blend-mode:soft-light"></div>`;
+const halo = (x, y, r, cor = 'rgba(245,197,24,.33)') => `<div class="abs" style="left:${x - r}px;top:${y - r}px;width:${r * 2}px;height:${r * 2}px;border-radius:50%;background:radial-gradient(closest-side,${cor},transparent);filter:blur(8px)"></div>`;
+const neon = (x, y, w, h) => `<div class="abs" style="left:${x}px;top:${y}px;width:${w}px;height:${h}px;border-radius:9px;background:#FFE7A0;box-shadow:0 0 18px #F5C518,0 0 60px rgba(245,197,24,.6)"></div>`;
+const rod = (txt, cor = 'var(--am)', y = 1572) => `<div class="abs mono" style="left:70px;right:70px;top:${y}px;font-size:22px;color:${cor};display:flex;justify-content:space-between"><span>${txt}</span></div>`;
+// figurinha do Instagram: área livre na arte (só aparece com &guia=1)
+const fig = (x, y, w, h, t) => `<div class="fig" style="left:${x}px;top:${y}px;width:${w}px;height:${h}px">${t}</div>`;
+const fone = (pasta, x, y, w, extra = '') => { const h = Math.round((w - 30) * 1558 / 720) + 30;
+  return `<div class="fone" style="left:${x}px;top:${y}px;width:${w}px;height:${h}px;${extra}"><div class="tela"><div class="ilha"></div><img data-q="${pasta}" alt=""><div class="reflexo"></div></div></div>`; };
+const navegador = (pasta, url, x, y, w, extra = '') => { const h = Math.round(w * 900 / 1600);
+  return `<div class="nav" style="left:${x}px;top:${y}px;width:${w}px;${extra}"><div class="barra"><i></i><i></i><i></i><span class="url">${url}</span></div><div class="tela" style="height:${h}px"><img data-q="${pasta}" alt=""></div></div>`; };
+// entrada animada (só nas telas de vídeo): sobe e aparece entre o quadro a e b
+const ent = (a, b, dy = 40) => `class="in" data-a="${a}" data-b="${b}" data-dy="${dy}"`;
+
+const T = {
+// 01 · GANCHO (preto, foto). Modelo: INFLURY (palavra gigante atrás do recorte) + Jonatas Torres (manchete com caixa amarela)
+1: () => `<div class="a">${halo(540, 640, 520, 'rgba(245,197,24,.30)')}${neon(60, 300, 10, 520)}${neon(1010, 520, 10, 420)}
+  <div class="abs ant ouro" style="left:0;right:0;top:330px;text-align:center;font-size:430px">NADA?</div>
+  <img class="abs" src="${FO}c11-rec2-esp.png" style="left:76px;top:262px;width:928px;filter:drop-shadow(0 30px 50px rgba(0,0,0,.6))">
+  <div class="abs" style="left:0;right:0;top:980px;bottom:0;background:linear-gradient(180deg,rgba(10,10,10,0) 0,rgba(10,10,10,.85) 230px,#0A0A0A 360px)"></div>
+  ${topo(1, '● SITES · 01/10')}
+  <div class="abs mono" style="left:70px;top:1210px;font-size:24px;color:var(--am)">ERRO QUE CUSTA CLIENTE</div>
+  <div class="abs h" style="left:70px;right:70px;top:1258px;font-size:88px">Seu cliente procura você no Google e <span class="cx">não acha nada</span>.</div>
+  ${rod('TOQUE PARA VER O QUE EU FAÇO →')}${det('01')}<div class="grao"></div></div>`,
+
+// 02 · DOR (amarelo, sem foto). Modelo: Contra · text-driven story ads (eBay): uma ideia por tela, tipo gigante + "tela" do problema
+2: () => `<div class="a am">${amarelo()}${topo(2, 'O QUE ACONTECE HOJE · 02/10')}
+  <div class="abs" style="left:70px;right:70px;top:360px;border-radius:30px;background:#0A0A0A;color:var(--t);padding:34px 36px;box-shadow:0 40px 80px -30px rgba(80,50,0,.55)">
+   <div style="display:flex;align-items:center;gap:18px;height:84px;border-radius:99px;background:#1c1c1c;padding:0 30px;font:600 34px Manrope;color:#d8d5cc">
+    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#F5C518" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+    <span>seu serviço em São Luís</span><span style="width:3px;height:40px;background:#F5C518;margin-left:-8px"></span></div>
+   ${[['Concorrente', 'aparece com site, foto e WhatsApp'], ['Concorrente', 'aparece com site, foto e WhatsApp'], ['Você', 'não aparece']].map(([a, b], k) => `<div style="display:flex;align-items:center;gap:20px;padding:24px 6px;border-bottom:${k < 2 ? '1px solid #262626' : '0'}">
+     <span style="width:52px;height:52px;border-radius:14px;background:${k < 2 ? '#2a2a2a' : 'transparent'};border:${k < 2 ? '0' : '2px dashed #555'}"></span>
+     <div><div style="font:800 34px Manrope;color:${k < 2 ? '#F5F3EE' : '#8a877f'}">${a}</div><div style="font:500 26px Manrope;color:${k < 2 ? '#A7A39A' : '#FF6B5E'}">${b}</div></div></div>`).join('')}
+  </div>
+  <div class="abs ant" style="left:70px;right:70px;top:925px;font-size:150px;line-height:.9">ELE FECHA COM O <span style="display:inline-block;background:#0A0A0A;color:var(--am);padding:.02em .08em 0;line-height:.9;vertical-align:top;margin-top:.04em">OUTRO.</span></div>
+  <div class="abs" style="left:70px;right:110px;top:1290px;font:700 40px/1.22 Manrope;letter-spacing:-.02em">E quem clica no link da sua bio cai numa página bagunçada… e desiste.</div>
+  ${fig(240, 1440, 600, 140, 'FIGURINHA: CONTROLE DESLIZANTE')}${det('02', 'rgba(10,10,10,.35)')}<div class="grao" style="opacity:.16"></div></div>`,
+
+// 03 · VIRADA (preto, número gigante com luz). Modelo: Man UpRight (letra gigante vazada com degradê âmbar) + Jonatas Torres
+3: () => `<div class="a">${halo(540, 650, 560, 'rgba(245,197,24,.22)')}
+  ${[0, 1, 2, 3, 4, 5].map(k => `<div class="abs" style="left:${70 + k * 188}px;top:330px;width:1px;height:640px;background:linear-gradient(180deg,transparent,rgba(245,197,24,.25),transparent)"></div>`).join('')}
+  ${topo(3, 'A VIRADA · 03/10')}
+  <div class="abs ant ouro" style="left:0;right:0;top:330px;text-align:center;font-size:640px;line-height:.92">24H</div>
+  <div class="abs mono" style="left:70px;top:960px;font-size:24px;color:var(--am)">ENQUANTO VOCÊ TRABALHA</div>
+  <div class="abs h" style="left:70px;right:70px;top:1006px;font-size:86px">Um site que <span class="cx">vende por você</span> o dia todo.</div>
+  <div class="abs" style="left:70px;right:70px;top:1250px">${[['01', 'Aparece quando procuram no Google'], ['02', 'Mostra seu trabalho com foto de verdade'], ['03', 'Leva o cliente direto pro seu WhatsApp']].map(([n, t]) => `<div style="display:flex;align-items:baseline;gap:24px;padding:20px 0;border-top:1px solid rgba(245,243,238,.16)"><span class="mono" style="font-size:24px;color:var(--am)">${n}</span><span style="font:700 38px Manrope;letter-spacing:-.02em">${t}</span></div>`).join('')}</div>
+  ${det('03')}<div class="grao"></div></div>`,
+
+// 04 · PROVA 1 (amarelo, VÍDEO). Modelo: Framer "3D Story Mockup" (aparelho inclinado com vídeo) + INFLURY (nome condensado gigante)
+4: () => `<div class="a am">${amarelo()}${topo(4, '● PROVA 01 · 04/10')}
+  <div class="abs ant" style="left:-20px;top:330px;font-size:300px;line-height:.8;color:rgba(10,10,10,.08)">RAFAEL<br>IMPORTS</div>
+  <div ${ent(0, 18)} style="position:absolute;left:70px;top:390px;width:430px">
+   <div class="mono" style="font-size:22px">MINI SITE DA BIO</div>
+   <div class="ant" style="font-size:122px;margin-top:18px">RAFAEL<br>IMPORTS</div>
+   <div style="font:700 38px/1.22 Manrope;letter-spacing:-.02em;margin-top:30px">Loja de celular em São Luís: <span class="cxp">ofertas, lançamentos e WhatsApp</span> num link só.</div></div>
+  <div ${ent(4, 26, 80)} style="position:absolute;left:0;top:0;width:1080px;height:1920px;perspective:2200px">
+   ${fone('rafael-m', 490, 350, 490, 'transform:rotateY(-16deg) rotateZ(3deg);transform-origin:50% 50%')}</div>
+  <div class="abs" style="left:540px;top:1420px;width:420px;height:50px;border-radius:50%;background:radial-gradient(closest-side,rgba(60,40,0,.35),transparent)"></div>
+  ${fig(70, 1180, 420, 110, 'LINK: rafaelimports.pages.dev')}
+  <div class="abs mono" style="left:70px;top:1572px;font-size:22px">RAFAELIMPORTS.PAGES.DEV</div>${det('04', 'rgba(10,10,10,.35)')}<div class="grao" style="opacity:.16"></div></div>`,
+
+// 05 · PROVA 2 (preto, VÍDEO). Modelo: Shots.so / Phonesites (janela de navegador + celular sobrepostos) + número gigante (Jonatas Torres)
+5: () => `<div class="a">${halo(540, 900, 600, 'rgba(245,197,24,.16)')}${topo(5, '● PROVA 02 · 05/10')}
+  <div ${ent(0, 16)} style="position:absolute;left:70px;top:330px;right:70px;display:flex;align-items:flex-end;gap:30px">
+   <div class="ant ouro" style="font-size:330px;line-height:.82">11</div>
+   <div style="padding-bottom:14px"><div class="mono" style="font-size:22px;color:var(--am)">DESENTUPIDORA SF</div><div style="font:800 66px/1 Manrope;letter-spacing:-.04em;margin-top:12px">páginas feitas<br>pro Google</div></div></div>
+  <div ${ent(3, 22, 70)} style="position:absolute;inset:0">${navegador('sf-d', 'desentupidorasf.pages.dev', 70, 660, 900, 'transform:rotate(-2deg)')}
+   ${fone('sf-m', 720, 900, 300, 'transform:rotate(4deg)')}</div>
+  <div ${ent(8, 26)} style="position:absolute;left:70px;top:1260px;width:600px">
+   <div class="h" style="font-size:60px">Quem procura, acha e <span class="cx">chama no WhatsApp</span>.</div></div>
+  ${fig(70, 1462, 560, 96, 'LINK: desentupidorasf.pages.dev')}${det('05')}<div class="grao"></div></div>`,
+
+// 06 · PROVA 3 (amarelo, VÍDEO). Modelo: palavra repetida atrás (SOU PEDRO / Man UpRight) + aparelho reto no centro
+6: () => `<div class="a am">${amarelo()}
+  <div class="abs" style="left:-40px;right:-40px;top:350px">${[0, 1, 2, 3, 4].map(k => `<div class="ant" style="font-size:170px;line-height:.98;white-space:nowrap;${k % 2 ? 'color:transparent;-webkit-text-stroke:2.5px rgba(10,10,10,.55)' : 'color:rgba(10,10,10,.9)'};transform:translateX(${(k % 2 ? -1 : 1) * (F * 1.2) - (k % 2 ? 0 : 200)}px)">MANCHETES AO VIVO · MANCHETES AO VIVO</div>`).join('')}</div>
+    ${topo(6, '● PROVA 03 · 06/10')}
+  <div ${ent(0, 22, 80)} style="position:absolute;inset:0">${fone('tribuna-m', 320, 340, 440)}</div>
+  <div class="abs" style="left:330px;top:1290px;width:420px;height:40px;border-radius:50%;background:radial-gradient(closest-side,rgba(60,40,0,.4),transparent)"></div>
+  <div ${ent(8, 26)} style="position:absolute;left:70px;right:70px;top:1335px;text-align:center">
+   <div class="mono" style="font-size:22px">TRIBUNA 98 · JORNALISMO</div>
+   <div class="h" style="font-size:58px;margin-top:12px">A bio puxa as <span class="cxp">notícias do dia</span> sozinha.</div></div>
+  ${fig(290, 1500, 500, 96, 'LINK: tribuna98.pages.dev')}${det('06', 'rgba(10,10,10,.35)')}<div class="grao" style="opacity:.16"></div></div>`,
+
+// 07 · PROVA 4 e 5 (preto, VÍDEO). Modelo: UWarp/Product Hunt "iPhone duo" (dois aparelhos desencontrados) + legendas em cartão
+7: () => `<div class="a">${halo(300, 1000, 420, 'rgba(245,197,24,.14)')}${halo(800, 900, 420, 'rgba(245,197,24,.14)')}${topo(7, '● PROVA 04 E 05 · 07/10')}
+  <div ${ent(0, 16)} style="position:absolute;left:70px;right:70px;top:340px"><div class="h" style="font-size:74px">Produtora e clínica. <span class="cx">Cada um com a sua cara.</span></div></div>
+  <div ${ent(3, 22, 90)} style="position:absolute;inset:0">${fone('realtimebio-m', 95, 600, 400, 'transform:rotate(-4deg)')}</div>
+  <div ${ent(6, 25, 90)} style="position:absolute;inset:0">${fone('jacibio-m', 585, 560, 400, 'transform:rotate(4deg)')}</div>
+  <div ${ent(10, 28)} style="position:absolute;left:70px;right:70px;top:1470px;display:flex;gap:40px">
+   ${[['REAL TIME', 'Site com 8 páginas + bio'], ['DRA. JACI CUNHA', 'Site oficial + bio']].map(([a, b]) => `<div style="flex:1;border-top:2px solid var(--am);padding-top:14px"><div class="mono" style="font-size:22px;color:var(--am)">${a}</div><div style="font:700 34px Manrope;letter-spacing:-.02em;margin-top:6px">${b}</div></div>`).join('')}</div>
+  ${det('07')}<div class="grao"></div></div>`,
+
+// 08 · COMO FUNCIONA (amarelo). Modelo: Z1 Digital Studio · Website Process Scroll (passos numerados em cartões empilhados)
+8: () => `<div class="a am">${amarelo()}${topo(8, 'COMO FUNCIONA · 08/10')}
+  <div class="abs ant" style="left:70px;top:340px;font-size:190px">3 PASSOS.</div>
+  <div class="abs" style="left:70px;right:70px;top:540px">${[['01', 'Você responde', 'SITE aqui nos stories.'], ['02', 'Eu te mando um vídeo', 'do site já com a cara do seu negócio. De graça.'], ['03', 'Gostou? Vai pro ar', 'com o seu link e o seu WhatsApp.']].map(([n, a, b], k) => `<div style="display:flex;gap:30px;align-items:center;background:#0A0A0A;color:var(--t);border-radius:30px;padding:32px 36px;margin-bottom:22px;transform:translateX(${k * 22}px);box-shadow:0 30px 60px -30px rgba(80,50,0,.6)">
+    <div class="ant ouro" style="font-size:150px;line-height:.8;min-width:150px">${n}</div><div><div style="font:800 46px/1.05 Manrope;letter-spacing:-.03em">${a}</div><div style="font:600 32px/1.25 Manrope;color:var(--ap);margin-top:8px">${b}</div></div></div>`).join('')}</div>
+  ${fig(190, 1300, 700, 260, 'CAIXA DE PERGUNTA: Qual é o seu negócio?')}${det('08', 'rgba(10,10,10,.35)')}<div class="grao" style="opacity:.16"></div></div>`,
+
+// 09 · OFERTA (preto). Modelo: cartões de plano lado a lado (Sermo/Framer, régua premium do Dublê) com o escolhido em amarelo
+9: () => `<div class="a">${halo(780, 800, 500, 'rgba(245,197,24,.16)')}${topo(9, 'ESCOLHA O SEU · 09/10')}
+  <div class="abs h" style="left:70px;right:70px;top:340px;font-size:80px">Dois jeitos de ter o <span class="cx">seu site</span>.</div>
+  <div class="abs" style="left:70px;right:70px;top:560px;display:flex;gap:24px">
+   ${[['MINI SITE DA BIO', 'BIO', ['O link bonito da sua bio', 'Botão direto pro WhatsApp', 'Seus serviços com foto real'], 0], ['SITE COMPLETO', 'GOOGLE', ['Uma página pra cada serviço', 'Feito pra aparecer no Google', 'Mini site da bio junto'], 1]].map(([r, g, l, am]) => `<div style="flex:1;border-radius:32px;padding:36px 30px;${am ? 'background:var(--am);color:var(--p);transform:translateY(-24px);box-shadow:0 40px 90px -30px rgba(245,197,24,.45)' : 'background:#151515;border:1.5px solid #2c2c2c'}">
+    <div class="mono" style="font-size:20px">${r}</div><div class="ant" style="font-size:${am ? 128 : 150}px;margin:20px 0 26px">${g}</div>
+    ${l.map(t => `<div style="display:flex;gap:12px;font:700 29px/1.2 Manrope;letter-spacing:-.02em;padding:14px 0;border-top:1px solid ${am ? 'rgba(10,10,10,.18)' : '#2c2c2c'}"><span style="color:${am ? '#0A0A0A' : '#F5C518'}">✓</span><span>${t}</span></div>`).join('')}</div>`).join('')}</div>
+  <div class="abs mono" style="left:70px;right:70px;top:1215px;font-size:22px;color:var(--ap);text-align:center">VALORES SÓ NA CONVERSA, DE ACORDO COM O SEU NEGÓCIO</div>
+  ${fig(190, 1290, 700, 250, 'ENQUETE: Qual é a sua? · Mini site da bio · Site no Google')}${det('09')}<div class="grao"></div></div>`,
+
+// 10 · CHAMADA (amarelo, foto). Modelo: c2y aprovado (amarelo com textura, palavra gigante preta atrás, recorte na frente, degradê preto)
+10: () => `<div class="a am">${amarelo()}
+  <div class="abs ant breu" style="left:0;right:0;top:320px;text-align:center;font-size:520px">SITE</div>
+  <img class="abs" src="${FO}c16-rec2-esp.png" style="left:110px;top:300px;width:860px;filter:drop-shadow(0 30px 50px rgba(60,40,0,.45))">
+  <div class="abs" style="left:0;right:0;top:960px;bottom:0;background:linear-gradient(180deg,rgba(10,10,10,0) 0,rgba(10,10,10,.85) 220px,#0A0A0A 340px)"></div>
+  ${topo(10, '● ÚLTIMA TELA · 10/10')}
+  <div class="abs mono" style="left:70px;top:1196px;font-size:24px;color:var(--am)">QUER VER O SEU?</div>
+  <div class="abs h" style="left:70px;right:70px;top:1244px;font-size:86px;color:var(--t)">Responde <span class="cx">SITE</span> aqui que eu te mostro o seu.</div>
+  ${fig(70, 1470, 620, 96, 'LINK: WhatsApp (código MS)')}<div class="abs mono" style="left:720px;right:70px;top:1490px;font-size:20px;color:var(--ap);line-height:1.4">OU TOQUE NO LINK →<br>WHATSAPP</div>
+  ${det('10')}<div class="grao"></div></div>`,
+};
+
+async function render(f) {
+  F = f; const x = document.getElementById('x'); x.innerHTML = T[S]();
+  if (GUIA) { document.body.classList.add('guia'); x.querySelector('.a').insertAdjacentHTML('beforeend', '<div class="zona" style="top:0;height:250px">ZONA DO INSTAGRAM (250 px)</div><div class="zona" style="bottom:0;height:300px">ZONA DO INSTAGRAM (300 px)</div>'); }
+  const imgs = [...x.querySelectorAll('img')];
+  await Promise.all(imgs.map(im => new Promise(r => { if (im.dataset.q) im.src = quadro(im.dataset.q, f); if (im.complete && im.naturalWidth) return r(); im.onload = im.onerror = r; })));
+  x.querySelectorAll('.in').forEach(el => { const k = ease((f - +el.dataset.a) / (+el.dataset.b - +el.dataset.a)); el.style.opacity = k; el.style.transform = `translateY(${(1 - k) * +el.dataset.dy}px)`; });
+}
+window.setF = render;
+window.video = /data-q/.test(T[S]());
+document.fonts.ready.then(() => render(F)).then(() => document.fonts.ready).then(() => { window.pronto = true; });
+</script></body></html>
