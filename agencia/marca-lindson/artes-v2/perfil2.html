@@ -1,0 +1,27 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<!-- Foto de perfil v2 · @lindsonalmeida_ (conta Pedro, 05/11/2026). Pedido: "gere uma foto de perfil melhor, com a mesma foto que foi usada na arte do NADA"
+     (story 01 da sequência Vender sites: c11 espelhada, recorte2.py, fora do Git em ../artes-v1/fotos/c11-rec2-esp.png).
+     Composição de foto de perfil premium: rosto grande (olhos no terço de cima do círculo), ombros saindo pela base, luz de recorte âmbar,
+     fundo na identidade v2. Uso: perfil2.html?a=p1 | p2 | p3 (1080×1080). -->
+<style>*{margin:0;padding:0;box-sizing:border-box}html,body{background:#000;overflow:hidden}
+.a{position:relative;overflow:hidden;width:1080px;height:1080px}.abs{position:absolute}
+.grao{position:absolute;inset:0;pointer-events:none;opacity:.12;mix-blend-mode:overlay;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+</style></head><body><div id="x"></div><script>
+const FOTO='../artes-v1/fotos/c11-rec2-esp.png', A=new URLSearchParams(location.search).get('a')||'p1';
+// enquadramento: a foto (1143×2048) ampliada para o rosto ocupar ~42% da altura do círculo
+const W=1500, L=540-551*W/1143, T=150-253*W/1143;
+const foto=(sombra)=>`<img class="abs" src="${FOTO}" style="left:${L}px;top:${T}px;width:${W}px;filter:contrast(1.06) saturate(1.08) ${sombra}">`;
+const fundos={
+ // p1: preto com halo âmbar atrás da cabeça (mesmo clima da tela NADA?)
+ p1:`<div class="abs" style="inset:0;background:#0A0A0A"></div>
+     <div class="abs" style="left:170px;top:40px;width:740px;height:740px;border-radius:50%;background:radial-gradient(closest-side,rgba(245,197,24,.95),rgba(245,197,24,.35) 55%,transparent)"></div>`,
+ // p2: amarelo da marca com luz central (o círculo amarelo destaca na lista de stories e comentários)
+ p2:`<div class="abs" style="inset:0;background:radial-gradient(70% 60% at 50% 36%,#FFE066 0,#F5C518 55%,#D29A06 100%)"></div>
+     <div class="abs" style="inset:0;background:repeating-linear-gradient(115deg,rgba(255,255,255,.05) 0 2px,transparent 2px 9px);mix-blend-mode:soft-light"></div>`,
+ // p3: metade preta e metade amarela na diagonal, com anel amarelo fino
+ p3:`<div class="abs" style="inset:0;background:linear-gradient(135deg,#F5C518 0 50%,#0A0A0A 50% 100%)"></div>
+     <div class="abs" style="left:150px;top:30px;width:780px;height:780px;border-radius:50%;background:radial-gradient(closest-side,rgba(255,230,120,.55),transparent)"></div>`};
+const sombra={p1:'drop-shadow(0 0 26px rgba(245,197,24,.45)) drop-shadow(0 30px 40px rgba(0,0,0,.6))',p2:'drop-shadow(0 26px 40px rgba(70,45,0,.45))',p3:'drop-shadow(0 26px 40px rgba(0,0,0,.5))'}[A];
+document.getElementById('x').innerHTML=`<div class="a">${fundos[A]}${foto(sombra)}<div class="grao"></div></div>`;
+Promise.all([...document.images].map(i=>i.complete?1:new Promise(r=>{i.onload=i.onerror=r}))).then(()=>setTimeout(()=>window.pronto=true,300));
+</script></body></html>
