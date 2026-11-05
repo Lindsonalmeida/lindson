@@ -19,3 +19,5 @@
 - **Painel do Leo:** foi atualizado direto no `painel/leo.html` do privado, com 25 itens.
   - Os itens corrigidos têm "(revisado)" no título e voltaram para "aguardando".
   - **Não rode o `montar-leo.py` sem antes levar estes itens para ele**: ele apaga as saudações, as correções e os motions do Pedro.
+
+- **Aprovação do Lindson (05/11):** aprovadas s01, s02, s03, s04, s05, s06, s08, s09 e s10; a **s07 (búfalo) ficou fora** e saiu do painel.
