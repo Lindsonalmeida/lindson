@@ -97,3 +97,4 @@ Todas desligadas desde 26/10 (as de 3 em 3 horas falharam por limite de uso do p
 | `agencia/ofertas/low-ticket/venda/ESCADA.md` | escada de venda dos produtos: upsell, downsell, recuperação, reembolso e agência (Hormozi Squad) | (conta Leandro, 04/11) |
 - `PENDENCIAS-DO-LINDSON.md`: lista do que falta o Lindson concluir, por projeto e cliente (conta Leandro, 05/11/2026).
 - `agencia/ofertas/franquia-alpha/`: análise do Maquiavel da franquia Alpha Assessoria e planos próprios inspirados no modelo (conta Leandro, 05/11/2026).
+- `agencia/operacao-propria/`: operação própria do Lindson no modelo da Alpha sem franquia: plano, playbook comercial e de entrega, equipe por gatilho e projeção de 12 meses em planilha (conta Leandro, 05/11/2026).
