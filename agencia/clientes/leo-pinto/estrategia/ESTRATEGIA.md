@@ -1,5 +1,8 @@
 # Estratégia de Instagram · Leo Pinto (vereador, São João Batista/MA)
 
+> **Regra de situação (Lindson, 05/11/2026):** o Leo é da base do prefeito. Nenhum conteúdo pode abrir espaço para comentário contra a gestão: nada de "demanda", "o que falta", "o que o bairro precisa", "cobrar", "fiscalizar", problema como exemplo ou como opção de enquete. Celebrar, agradecer, mostrar entregas em parceria com a prefeitura. Detalhes e substituições: `../instagram-v15-saudacoes/TEXTOS.md`.
+
+
 Versão 1, de 01/11/2026. A identidade visual é o "Leo da Baixada", só com o nome, sem número.
 
 ## 1. Objetivo
@@ -32,10 +35,10 @@ Isso também protege o Leo de propaganda antecipada.
 |---|---|---|---|---|---|
 | 1 | **Leo na rua** | 25% | Proximidade | Visita a bairros e povoados, conversa com morador, feira, igreja, campo de futebol | Reels "um dia com o Leo", stories ao vivo |
 | 2 | **Mandato que entrega** | 20% | Autoridade | Indicação feita → resolvida (antes/depois da rua, posto, ponte), projeto de lei explicado em 30 s, prestação de contas do mês | Reels "Pediu? Tá feito.", carrossel "o mês do mandato" |
-| 3 | **Voz do povo** | 15% | Conexão | Morador conta o problema ou o agradecimento, caixinha "qual é a demanda do seu bairro?", Leo responde | Reels de entrevista de rua, stories com caixinha e enquete |
+| 3 | **Voz do povo** | 15% | Conexão | Morador conta uma conquista ou um agradecimento, caixinha "o que você mais gosta no seu bairro?", Leo responde | Reels de entrevista de rua, stories com caixinha e enquete |
 | 4 | **Nossa Baixada** | 15% | Amor pela cidade | Orgulho de São João Batista: campos, pesca, festas juninas, bumba-meu-boi, histórias de gente da terra, comida típica | Reels de cultura, collab com perfis locais |
 | 5 | **Leo de perto** | 15% | Ser amado | Família, fé, futebol, rotina, bastidores do gabinete, erros e risadas | Reels pessoais, fotos espontâneas, "pergunte ao Leo" |
-| 6 | **A cidade que eu sonho** | 10% | Preparar 2028 sem campanha | Ideias para a cidade inteira (saúde, jovens, emprego, estradas), referências de outras cidades, escuta "o que falta aqui?" | Carrossel de ideia, reels "imagina se…", lives |
+| 6 | **A cidade que eu sonho** | 10% | Preparar 2028 sem campanha | Desejos positivos para a cidade inteira (jovens, esporte, cultura, festa), entregas da gestão em parceria, "qual o seu desejo pra cidade?" | Carrossel de ideia, reels "imagina se…", lives |
 
 A linha 6 cresce aos poucos: 10% em 2027 e 20% em 2028, antes da campanha.
 
@@ -56,7 +59,7 @@ Isso dá **4 reels, 1 carrossel e 1 foto por semana, e stories todos os dias**. 
 - **Gancho (0–3 s):** o rosto do Leo e uma frase na tela.
 - **Mostrar:** o lugar e a pessoa.
 - **Provar:** o resultado ou o fato.
-- **Chamar:** "Me conta nos comentários qual é a demanda do seu bairro." É uma chamada para participar, **nunca para votar**.
+- **Chamar:** "Comenta o nome do seu bairro" / "Manda uma ideia pro seu bairro." É uma chamada para participar, **nunca para votar**.
 
 Ganchos prontos:
 1. "Me pediram isso aqui na semana passada. Olha como tá hoje."
@@ -87,13 +90,13 @@ Ganchos prontos:
   > Vereador de São João Batista-MA 🧡💙
   > Engenheiro · na rua todo dia
   > Juntos podemos mais! #tôcomléopinto
-  > 👇 Mande a demanda do seu bairro
-- **Link:** página simples com o WhatsApp do gabinete e um formulário de demanda por bairro. Os dados dos cidadãos são tratados pela LGPD.
+  > 👇 Fale comigo
+- **Link:** página simples com o WhatsApp do gabinete e um formulário de contato e sugestões por bairro. Os dados dos cidadãos são tratados pela LGPD.
 - **Destaques:** Quem sou · Na rua · Feito · Câmara · Nossa Baixada · Fale comigo
 - **3 fixados:**
   - vídeo "Quem é o Leo" (60 s, história de vida);
   - "O que eu já fiz";
-  - "Mande sua demanda".
+  - "Fale comigo".
 - **Foto de perfil:** close sorrindo, polo laranja e fundo azul.
 
 ## 7. Crescimento (sair do zero)

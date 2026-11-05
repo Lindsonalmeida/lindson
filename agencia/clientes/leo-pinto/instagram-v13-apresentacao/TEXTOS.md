@@ -1,5 +1,7 @@
 # Instagram v13 · Apresentação do Leo (3 primeiras artes do feed)
 
+> **05/11/2026 · SUBSTITUÍDO (regra de situação):** as 3 legendas abaixo e o texto "ME CONTA SUA DEMANDA" da arte 3 foram refeitos ("CONTE SEMPRE COMIGO"); use `../instagram-v15-saudacoes/TEXTOS.md`.
+
 Textos das 3 artes de 1080×1350 que, juntas na grade, formam uma imagem só e apresentam o Leo. Escritos pelo time de mensagem e copy (Donald Miller/StoryBrand + copy-squad), conta Lindson, 02/11/2026.
 
 **Regras seguidas**

@@ -1,5 +1,7 @@
 # Instagram v14 · Datas comemorativas (15/11/2026 a 01/01/2027)
 
+> **05/11/2026 · SUBSTITUÍDO (regra de situação):** as legendas do 15/11, 11/12, 31/12 e 01/01 abaixo foram refeitas; use as de `../instagram-v15-saudacoes/TEXTOS.md`. A arte do 31/12 foi vetada pela equipe do Leo e refeita ("Qual foi a sua conquista em 2026?").
+
 Textos das artes e legendas de 6 posts do Vereador Leo Pinto (@_leonardopinto). Escritos pelo time de mensagem e copy (Donald Miller/StoryBrand + copy-squad), conta Lindson, 02/11/2026.
 
 **Regras seguidas**

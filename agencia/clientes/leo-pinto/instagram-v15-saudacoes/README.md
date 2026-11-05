@@ -1,0 +1,21 @@
+# Leo Pinto · v15 · 10 saudações + correções de situação (conta Leandro, 05/11/2026)
+
+- **Pedidos do Lindson:** "crie só 10 artes de saudação" e, depois do veto da Bruna (equipe do Leo) ao 31/12, "refaça todos os conteúdos, visando que ele é situação".
+- **Regra de situação e todas as legendas:** `TEXTOS.md`. Vale para toda conta e todo conteúdo do Leo.
+- **Artes:** `artes/`
+  - `s01` a `s10` (saudações);
+  - `p1-15-11-situacao` e `p5-31-12-situacao` (datas corrigidas);
+  - `leo-v13-3-direita-situacao` (apresentação, arte 3).
+- **Como gerar:** `python3 gerar.py <pasta>` → `node ../instagram-v14-datas/render.js <pasta>`. A pasta precisa de `assets/` e `originais/`, que ficam no privado em `dados/clientes-arquivos/leo/saudacoes-v15/` e `instagram-v14-datas/` e `instagram-v13-apresentacao/`.
+- **Kit:** o `gerar.py` reaproveita o kit do `../instagram-v14-datas/gerar9.py` (padrão aprovado v13 v3 + datas v14).
+- **Modelos copiados:** cada arte cita o seu no comentário do `gerar.py`:
+  - Designi: "Bom início de semana", "Você prefere o seu café", "Praia ou montanha", "Qual a marca da sua primeira bike" e "Consciência Negra" (capturas em `../instagram-v14-datas/referencias/`);
+  - modelo "SOU PEDRO" enviado pelo Lindson;
+  - bento e minimalismo da v14;
+  - padrão v13 v3.
+- **Fotos:**
+  - Nenhuma foto do Leo: as 7 livres do álbum não estão no ambiente.
+  - Paisagens reais da Baixada Maranhense, do Wikimedia Commons (licença CC BY-SA), com crédito na arte e na legenda: barcos (Mauricioalexandre55), lago de Viana e igarapé (Breno Damasceno), pescadores do Rio Pericumã (Jailson Moreira).
+- **Painel do Leo:** foi atualizado direto no `painel/leo.html` do privado, com 25 itens.
+  - Os itens corrigidos têm "(revisado)" no título e voltaram para "aguardando".
+  - **Não rode o `montar-leo.py` sem antes levar estes itens para ele**: ele apaga as saudações, as correções e os motions do Pedro.

@@ -29,3 +29,4 @@ Não usar f12 nem f13: a pose de apontar o relógio lembra número de urna.
 
 **Ainda livres no álbum:** f06, f09, f17, f21, f22, f26, f29 (f12 e f13 bloqueadas pela pose do relógio).
 **Fundo de rua do Motion v1:** `rua.png` (imagem realista de rua que as contas anteriores deixaram no rascunho `leo-ig3/bg/`; cópia em `assets/rua.jpg` no privado), só a parte de baixo (rua e pessoas desfocadas, sem bandeirinhas), com véu royal (vídeo 3) e laranja (vídeo 4).
+| (banco) barcos-baixada-maranhense5, barcos-baixada-maranhense, lago-de-viana-1, pescadores-rio-pericuma, igarape-do-engenho (Wikimedia Commons, CC BY-SA) | Saudações v15 (s01, s04, s08, s09) | 05/11/2026 | Leandro |
