@@ -16,9 +16,9 @@
 **Também nesta pasta:** pesquisa em `TEMPLATE.md`, brief em `BRIEF.md`, prompt do Claude Design em `PROMPT-CLAUDE-DESIGN.md`.
 
 **Entregue em 05/11:**
-- `oregano-turbo-manual-de-marca.pdf` (8 páginas, de `manual.py` + `manual-pdf.js`);
+- `oregano-turbo-manual-de-marca.pdf` (8 páginas, de `manual.py` + `manual-pdf.js`). Fica no privado `CentralLindsonALmeida/dados/agencia/oregano-turbo/`, porque o GitHub deste repositório recusa arquivos grandes;
 - `marca-v2/` com 12 vetores SVG de texto em curvas (de `vetores.py`, com as fontes do Google Fonts);
-- `oregano-turbo-identidade-completa.zip` com tudo.
+- `oregano-turbo-identidade-completa.zip` com tudo (montado na hora, fora do Git).
 
 **Falta:**
 - aprovação do Lindson;
