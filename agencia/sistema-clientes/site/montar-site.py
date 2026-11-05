@@ -140,6 +140,10 @@ if os.path.isdir(os.path.join(DADOS, 'importar', 'fabrica')): print('fabrica: im
 if os.path.isdir(os.path.join(DADOS, 'importar', 'fabrica-blobs')): shutil.copytree(os.path.join(DADOS, 'importar', 'fabrica-blobs'), os.path.join(OUT, 'painel', 'fabrica-fotos'), dirs_exist_ok=True)  # imagens antigas (/_blob/<id>)
 shutil.copy(os.path.join(D, 'contas.html'), os.path.join(OUT, 'painel', 'contas.html'))
 shutil.copy(os.path.join(D, 'membros.html'), os.path.join(OUT, 'painel', 'membros.html'))  # membros dos produtos (Hubla), só o admin (Builder Squad, 04/11/2026)
+# página da assessoria para pizzarias (operação própria + estudo da franquia Alpha), só o admin (conta Leandro, 05/11/2026)
+import importlib.util as _iu
+_sp = _iu.spec_from_file_location('pizz', os.path.join(SC, '..', 'operacao-propria', 'painel.py')); _m = _iu.module_from_spec(_sp); _sp.loader.exec_module(_m)
+print('pizzarias.html', _m.montar(os.path.join(OUT, 'painel')), 'documentos')
 open(os.path.join(OUT, '_headers'), 'w').write("/*\n  X-Frame-Options: SAMEORIGIN\n  Referrer-Policy: same-origin\n  X-Content-Type-Options: nosniff\n/painel/*\n  Cache-Control: private, no-store\n  X-Robots-Tag: noindex\n")
 open(os.path.join(OUT, 'robots.txt'), 'w').write("User-agent: *\nAllow: /site/\nAllow: /bio/\nAllow: /sitemap.xml\nDisallow: /\n\nSitemap: https://lindsonalmeida.pages.dev/sitemap.xml\n")
 # sitemap só das páginas públicas (site oficial, portfólio e bio) — conta Leandro, 05/11/2026
