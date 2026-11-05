@@ -1,5 +1,8 @@
 # Modelos de pagamento: sempre antecipado (MRR ou TCV)
 
+> **05/11/2026: aprovado.** Pix 5%, Hubla, atraso de 15 dias e multa de 20%. A versão que vale está em `DECISOES-APROVADAS.md`.
+
+
 Conta Leandro (Hormozi Squad · Pricing), 05/11/2026.
 
 Pedido do Lindson: "pagamento é sempre antecipado, crie os modelos de pagamentos totais ou mensais, igual à Alpha, modelo MRR, TCV, algo assim".

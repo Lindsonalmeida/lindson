@@ -1,5 +1,8 @@
 # Promessa irresistível · assessoria para pizzarias (baseada em vender)
 
+> **⚠️ 05/11/2026: a GARANTIA DE RESULTADO deste arquivo foi RETIRADA** a pedido do Lindson ("tire as questões que podem me prejudicar"). Não usar estas frases em página, anúncio, proposta ou contrato. O que vale está em `DECISOES-APROVADAS.md`.
+
+
 Conta Leandro, 05/11/2026.
 
 - **Pedido do Lindson:** "crie uma promessa irresistível, baseado em vender".

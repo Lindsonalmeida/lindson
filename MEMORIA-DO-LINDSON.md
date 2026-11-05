@@ -356,3 +356,10 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
   - os modelos de aniversário B e C.
 
   Esses são os **padrões aprovados do Leo para repetir**. As datas futuras (15/11 a 01/01) ficaram aprovadas na aba "Aprovados (a postar)" do painel.
+- **05/11/2026 (conta Leandro) — Pizzarias: decisões APROVADAS, sem o que pode prejudicar o Lindson.** "Aprovado. Só tire as questões que podem me prejudicar."
+  - **Retirada:** a garantia de resultado ("o mês seguinte é por minha conta"), por risco de caixa e risco de propaganda enganosa.
+  - **Exclusividade:** só o bairro, enquanto o contrato estiver ativo e pago.
+  - **Garantia de entrega:** fica com condições (aprovação do cliente em 48 h, gravação liberada, pagamento em dia).
+  - **Identidade:** sem frases de garantia ("Mais pedidos. Menos achismo.").
+  - **REGRA:** nunca prometer resultado em peça, proposta ou contrato sem o Lindson pedir e sem advogado.
+  - Vale `agencia/operacao-propria/DECISOES-APROVADAS.md`.

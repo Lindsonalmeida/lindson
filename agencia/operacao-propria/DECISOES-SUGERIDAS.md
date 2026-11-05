@@ -1,5 +1,8 @@
 # Pizzarias: todas as decisões, com a sugestão de cada uma (conta Leandro, 05/11/2026)
 
+> **05/11/2026: aprovado pelo Lindson, com a retirada do que podia prejudicá-lo.** A versão que vale está em `DECISOES-APROVADAS.md`.
+
+
 Pedido do Lindson: "da pizzaria, me sugira tudo para ver se eu concordo". Agentes: Hormozi Squad (Pricing e Offers) e Maquiavel.
 
 **Como responder:** "concordo com tudo" ou "concordo, menos o item N: quero X". Quando ele responder, a equipe monta a página de planos, o formulário, o contrato, a proposta e os 3 primeiros posts.

@@ -77,25 +77,12 @@ Levantamento da conta Leandro em 05/11/2026, a partir do quadro, do registro, do
 - A equipe ainda precisa pô-los no app; o Raposa 13 a 16 está **pausado a seu pedido**: diga quando retomar.
 - Decidir quando retomar a fila de refazer com a voz nova (Passaporte pv-01 e Shorts; Raposa Shorts 19 a 30).
 
-## 11. Operação própria: assessoria para pizzarias (Orégano Turbo), aberta em 05/11
-- **Identidade:** aprovar a **v3 séria** (fotos reais e mockups, `agencia/operacao-propria/identidade/`, manual no privado). Depois disso a equipe faz os 3 primeiros posts.
-- **Preços:**
-  - aprovar os 3 planos (Muralha, Fortaleza e Cidadela ▲, `PRECOS-PIZZARIAS.md`);
-  - definir o raio da exclusividade, o que entra no iFood e a condição de fundador.
-- **Pagamentos:**
-  - confirmar o desconto do Pix (5%);
-  - definir em quantos dias o MRR em atraso encerra o contrato;
-  - definir a multa de saída (com advogado);
-  - escolher onde cobrar no cartão em 12x.
-- **Promessa:** aprovar "o seu anúncio se paga em pedidos, ou o mês seguinte é por minha conta" e as 4 regras de `PROMESSA.md`.
-- **Operação:**
-  - investimento mínimo do formulário;
-  - meta de clientes novos por mês;
-  - quantos clientes pagam plano mensal hoje;
-  - pró-labore;
-  - verba diária do anúncio do Raio-X.
-- **Nome:** conferir "Orégano Turbo" no INPI.
-- **Franquia Alpha:** decidir se responde à oferta de R$ 30 mil (mensagens de negociação em `agencia/ofertas/franquia-alpha/`).
+## 11. Operação própria: assessoria para pizzarias (Orégano Turbo)
+- ✅ 05/11: **todas as decisões aprovadas**, sem a garantia de resultado e com exclusividade só por bairro (`agencia/operacao-propria/DECISOES-APROVADAS.md`). Identidade v3 aprovada.
+- **Falta:**
+  - registrar "Orégano Turbo" no INPI (classe 35);
+  - dizer quantos clientes já pagam mensal hoje e quanto;
+  - levar o contrato a um advogado quando a equipe entregar o modelo.
 
 ## 12. Stories para vender sites (conta Pedro)
 - Aprovar os **10 stories** (4 em vídeo com a sua voz clonada).

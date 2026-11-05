@@ -1,5 +1,8 @@
 # Preços para pizzarias: sugestão (Hormozi Squad · Pricing, com o Maquiavel)
 
+> **05/11/2026: aprovado com ajustes.** Exclusividade só por bairro e garantia de entrega com condições. A versão que vale está em `DECISOES-APROVADAS.md`.
+
+
 Conta Leandro, 05/11/2026.
 
 **Decisões do Lindson nesta data:**

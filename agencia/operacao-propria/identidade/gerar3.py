@@ -56,7 +56,7 @@ P = []
 # 1 · CAPA — Toast: foto real escurecida + título com uma palavra circulada
 P.append(('v3-01-capa', 1080, 1350, CARVAO, fundo_foto('pa-no-forno', .5, '40% center') +
   A(80, 80, logo(46, CREME, VERDE, CREME, sub=False)) + A(720, 96, ETQ('Identidade visual · 2026', CREME)) +
-  A(80, 690, f'<div style="font:800 128px/.95 \'Inter Tight\';letter-spacing:-.05em;color:{CREME}">Mais {circulo("pedidos.")}<br>Toda semana.</div>', 940) +
+  A(80, 690, f'<div style="font:800 128px/.95 \'Inter Tight\';letter-spacing:-.05em;color:{CREME}">Mais {circulo("pedidos.")}<br>Menos achismo.</div>', 940) +
   A(80, 990, f'<div style="font:400 32px/1.4 \'Inter\';color:{CREME};opacity:.85;width:760px">Marketing de vendas para pizzarias. Anúncio, Instagram e WhatsApp trabalhando para o seu forno não parar.</div>') +
   A(80, 1180, f'<div style="display:inline-block;background:{BRASA};color:#fff;font:700 26px \'Inter\';padding:22px 34px;border-radius:999px">Quero mais pedidos →</div>') +
   A(700, 1205, ETQ('Foto real · luz de forno', CREME, 'opacity:.6'))))
@@ -152,7 +152,7 @@ perfil = (f'<div style="padding:16px 20px 0;font-family:Inter;color:#111">'
           f'<div style="display:flex;align-items:center;gap:22px"><div style="width:96px;height:96px;border-radius:50%;background:{VERDE};display:grid;place-items:center;flex:none">{simbolo(60, CREME, VERDE)}</div>'
           f'<div style="display:flex;gap:22px;text-align:center;font:400 14px Inter"><div><b style="font-size:18px">9</b><br>posts</div><div><b style="font-size:18px">—</b><br>seguidores</div><div><b style="font-size:18px">—</b><br>seguindo</div></div></div>'
           f'<div style="font:600 15px Inter;margin-top:12px">Orégano Turbo | Mkt Pizzarias</div>'
-          f'<div style="font:400 14px/1.4 Inter;margin-top:2px">Marketing de vendas só para pizzarias 🍕<br>Anúncio que se paga em pedidos<br>Relatório toda segunda · São Luís/MA<br><span style="color:#00376b">Diagnóstico grátis do seu delivery ↓</span></div>'
+          f'<div style="font:400 14px/1.4 Inter;margin-top:2px">Marketing de vendas só para pizzarias 🍕<br>Anúncio, Instagram e WhatsApp<br>Relatório toda segunda · São Luís/MA<br><span style="color:#00376b">Diagnóstico grátis do seu delivery ↓</span></div>'
           f'<div style="display:flex;gap:6px;margin-top:12px"><div style="flex:1;background:#efefef;border-radius:8px;padding:8px;text-align:center;font:600 14px Inter">Seguir</div><div style="flex:1;background:#efefef;border-radius:8px;padding:8px;text-align:center;font:600 14px Inter">Mensagem</div></div>'
           f'<div style="display:flex;gap:16px;margin:14px 0 10px">' + ''.join(f'<div style="text-align:center;font:400 11px Inter"><div style="width:58px;height:58px;border-radius:50%;border:2px solid #ddd;padding:3px"><div style="width:100%;height:100%;border-radius:50%;background:{c};display:grid;place-items:center;font:800 13px \'Inter Tight\';color:{CREME}">{s}</div></div>{n}</div>' for c, s, n in [(CARVAO, '01', 'Método'), (VERDE, 'R$', 'Planos'), (BRASA, '✓', 'Resultados'), (CARVAO, '?', 'Dúvidas')]) +
           f'</div></div><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:2px">{grade}</div>')
@@ -177,8 +177,8 @@ P.append(('v3-09-post-numero', 1080, 1350, VERDE,
   A(80, 330, f'<div style="font:500 30px \'Inter\';color:{CREME};opacity:.85">Para cada R$ 1 no anúncio, quanto voltou em pedido?</div>', 920) +
   A(64, 420, f'<div style="font:500 330px/1 \'IBM Plex Mono\';letter-spacing:-.06em;color:{CREME}">4,1×</div>') +
   A(80, 820, f'<div style="height:2px;background:{CREME};opacity:.3;width:920px"></div>') +
-  A(80, 860, f'<div style="font:400 30px/1.45 \'Inter\';color:{CREME};width:880px">Esse é o único número que importa no fim do mês. Se ficar abaixo de 1×, o mês seguinte é por nossa conta.</div>') +
-  A(80, 1200, f'<div style="font:400 18px \'IBM Plex Mono\';color:{CREME};opacity:.6">EXEMPLO ILUSTRATIVO · REGRAS DA GARANTIA NA BIO</div>')))
+  A(80, 860, f'<div style="font:400 30px/1.45 \'Inter\';color:{CREME};width:880px">É o número que você vê toda segunda no relatório: quanto entrou de pedido para cada real de anúncio. Sem achismo.</div>') +
+  A(80, 1200, f'<div style="font:400 18px \'IBM Plex Mono\';color:{CREME};opacity:.6">EXEMPLO ILUSTRATIVO · NÃO É PROMESSA DE RESULTADO</div>')))
 
 # 10 · CARTÃO + PROPOSTA (Lightspeed: etiqueta espaçada + título + produto na mão)
 cartao_f = f'<div style="width:420px;height:240px;border-radius:12px;background:{VERDE};padding:30px;display:flex;flex-direction:column;justify-content:space-between;box-shadow:0 30px 60px -20px rgba(0,0,0,.5)">{simbolo(64, CREME, VERDE)}<div style="font:800 34px/1 \'Inter Tight\';letter-spacing:-.04em;color:{CREME}">Orégano Turbo</div></div>'
