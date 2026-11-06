@@ -2,6 +2,9 @@
 
 Conta Leandro, 05/11/2026.
 
+
+> **ARQUIVO HISTÓRICO — NÃO USAR COMO PROMESSA COMERCIAL.** A garantia de resultado abaixo foi retirada da oferta em `DECISOES-APROVADAS.md`. Mensagem vigente: “Anúncio, Instagram e WhatsApp trabalhando para a sua pizzaria vender mais, com o número na mesa toda segunda.” A frase não garante vendas.
+
 - **Pedido do Lindson:** "crie uma promessa irresistível, baseado em vender".
 - **Agentes:**
   - Hormozi Squad · Offers: equação de valor e garantia;
