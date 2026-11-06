@@ -54,3 +54,34 @@ Ele trabalha com os outros agentes:
 - **app de prospecção:** lead.
 
 Detalhes em `.claude/agents/paollo.md`, seção "Paollo, agente de branding completo".
+
+---
+
+# Elevenmind: agência de identidade visual com IA nativa (lido em 06/11/2026)
+**Fonte:** https://elevenmind.com.br/agencia-de-identidade-visual-a-revolucao-em-branding-com-ia-nativa-da-elevenmind/
+
+**Cuidado:** é um texto de autopromoção, escrito para o Google. Os números são **declarados pela própria empresa e não conferidos**: "20 anos", "450 marcas entre Brasil e Japão", "15 mil cases em 4 continentes", "15.400 campanhas". Não servem de prova nem de comparação.
+
+## O que se aproveita
+1. **Identidade não é só estética.** Uma agência de identidade de verdade entrega:
+   - essência;
+   - posicionamento;
+   - **arquitetura de marca** (marca-mãe, linhas, produtos);
+   - estratégia;
+   - **inteligência cultural** (a marca fala a língua do lugar).
+2. **Diagnóstico antes da marca.** Primeiro análise de mercado e **diagnóstico do negócio** (o "Business Expert" deles), para achar desafios, organizar prioridades e definir o caminho. Só depois vêm o posicionamento e a identidade.
+3. **Identidade ligada à venda.** A marca precisa estar alinhada à **performance comercial**: comunicação, criação, SEO e automação trabalhando juntos, em vez de entregas soltas.
+4. **Ecossistema de ferramentas por etapa**, com o equivalente nosso:
+
+   | Deles | O que faz | Nosso equivalente |
+   |---|---|---|
+   | Creative Gen | Artes e campanhas alinhadas à identidade | Paollo + Rocco + geradores |
+   | SEO Builder | Busca e estratégia de conteúdo | sites, Search Console e legendas SEO |
+   | Social Expert e Lead Generator | Pesquisa de público e prospecção | app de prospecção e SDR |
+   | Livechat (humano + IA + CRM) | Atendimento do contato até a retenção | WhatsApp + painel da Central |
+   | OneDash | Painel que transforma métrica em decisão | relatório de segunda e painel do dono |
+
+5. **Dados com segurança:** CRM, agentes e dados em plataforma própria, com **LGPD**.
+6. **Capacitação contínua do cliente:** treinar o dono para usar o que foi entregue, com suporte, para a solução "pegar" no dia a dia.
+7. **Atendimento por segmento:** o mesmo método adaptado a cada mercado.
+

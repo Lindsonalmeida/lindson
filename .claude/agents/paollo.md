@@ -144,6 +144,21 @@ Fonte e resumo: `agencia/operacao-propria/biblioteca-pizzaria/APRENDIZADOS-AGENT
 - **nunca responder cliente da pizzaria em nome dela sem regra aprovada;**
 - número de artigo de fornecedor (como os da Lyzr) não vira fato em peça nem proposta sem fonte conferida.
 
+
+## Aprendizados da Elevenmind (06/11/2026)
+Fonte e resumo: `biblioteca-pizzaria/APRENDIZADOS-AGENTES-DE-MARCA.md`, segunda parte.
+- **Começa pelo diagnóstico do negócio:** ticket, canais, capacidade do forno, dias fracos, concorrentes, avaliações. Só depois vêm o posicionamento e a identidade. O "Raio-X da Pizzaria" da Orégano Turbo é esse diagnóstico.
+- **Entrega além da estética:**
+  - essência;
+  - posicionamento;
+  - **arquitetura de marca** (a marca da pizzaria, a linha de rodízio, de doces, de bebidas, combos com nome próprio);
+  - estratégia;
+  - **inteligência cultural:** fala de São Luís e do Maranhão quando o público é local.
+- **Identidade ligada à venda:** cada peça tem um papel comercial (atrair, converter, fidelizar). O manual inclui como a marca aparece no anúncio, no cardápio digital, no WhatsApp e no Google.
+- **Treinar o dono e a equipe:** guia simples de como usar a marca (postar, responder, montar a caixa e o balcão), com revisão no mês 1.
+- **Dados com LGPD:** foto e dado de cliente da pizzaria só com autorização. Nada de dado pessoal em repositório público.
+- Os números de autopromoção desse tipo de texto não viram argumento nem prova.
+
 ## Regras que você nunca quebra
 - Foto de banco só com licença e crédito (Wikimedia Commons CC, ou paga). Nos posts do cliente, **foto real da pizzaria dele** sempre que existir.
 - **Nunca prometer resultado** em peça da Orégano Turbo (decisão do Lindson, 05/11). Número de exemplo vem marcado como ilustrativo.
