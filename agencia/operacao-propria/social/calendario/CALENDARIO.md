@@ -64,18 +64,18 @@ Conta Leandro, 06/11/2026. Agentes: Marketing Squad, Copy Squad e Paollo (arte n
 | seg 16/11 | 19h | Feed | L3 | **RESPOSTA PRONTA: "TÁ CARO"** | Copie e cole no seu WhatsApp. | Conversa de WhatsApp + adesivo "copia e cola" | TIPO |
 | ter 17/11 | 08h | Story | L2 | **Quanto vale um cliente que volta?** | Faça a conta com a gente (ilustrativo). | Calculadora desenhada | TIPO |
 | ter 17/11 | 12h | Feed | L3 | **7 FOTOS QUE DÃO FOME** | Carrossel: luz, ângulo, queijo, vapor, mão, caixa, fundo. | Carrossel; capa com foto de queijo puxando | F2 |
-| ter 17/11 | 19h | Feed | L1 | **SEU CLIENTE SUMIU?** | Ele pediu uma vez e esqueceu de você. | Manchete em 2 tamanhos + foto de caixa vazia | F3 |
+| ter 17/11 | 19h | Feed | L1 | **SEU CLIENTE SUMIU?** | Ele pediu uma vez e esqueceu de você. | Manchete em 2 tamanhos + foto de caixa vazia | IA:B8a |
 | qua 18/11 | 08h | Story | L4 | **Dia de gravação.** | Bastidor: luz, flash, pizza saindo. | Story com foto de bastidor | F4 |
 | qua 18/11 | 12h | Feed | L4 | **A CAIXA É O ANÚNCIO QUE VOLTA.** | O cliente vê a sua marca na mesa dele. | Peça com caixa de pizza da marca | F5 |
 | qua 18/11 | 19h | Feed | L3 | **LEGENDA PRONTA PRA TERÇA** | Copie e cole. | Cartão grande com a legenda + selo | TIPO |
 | qui 19/11 | 08h | Story | L1 | **Seu iFood tem foto?** | Enquete: sim, não, mais ou menos. | Enquete | TIPO |
 | qui 19/11 | 12h | Feed | L2 | **APP × ZAP** | A mesma pizza, dois caminhos (ilustrativo). | Foto dividida ao meio | F6 |
-| qui 19/11 | 19h | Feed | L5 | **DOMINGO É DIA DE PIZZA. TERÇA TAMBÉM.** | Quem disse que não? | Grade de 4 cores com a mesma manchete | F7 |
+| qui 19/11 | 19h | Feed | L5 | **DOMINGO É DIA DE PIZZA. TERÇA TAMBÉM.** | Quem disse que não? | Grade de 4 cores com a mesma manchete | IA:B7 |
 | sex 20/11 | 08h | Story | L6 | **Raio-X na sexta.** | Fale com a gente no zap. | Story com estrela de preço | TIPO |
 | sex 20/11 | 12h | Feed | L4 | **CÓDIGO EM CADA PEDIDO.** | Assim a gente sabe qual vídeo vendeu. | Close de pedido com código PZ14 | F8 |
 | sex 20/11 | 19h | Feed | L3 | **CHECKLIST DO CARDÁPIO DIGITAL** | 6 itens que fazem pedir mais rápido. | Checklist com ícones em traço | TIPO |
 | sáb 21/11 | 08h | Story | L5 | **Qual borda você pediria?** | Enquete: catupiry, cheddar, chocolate. | Enquete com 3 bordas | F9 |
-| sáb 21/11 | 12h | Feed | L1 | **PIZZA BOA NÃO VENDE SOZINHA.** | Quem aparece mais vende mais. | Pizza gigante com texto em círculo | F10 |
+| sáb 21/11 | 12h | Feed | L1 | **PIZZA BOA NÃO VENDE SOZINHA.** | Quem aparece mais vende mais. | Pizza gigante com texto em círculo | IA:B4 |
 | sáb 21/11 | 19h | Feed | L6 | **5 VAGAS. NÃO VAI TER 6.** | Condição de fundadora. | Cartaz retrô com selo | TIPO |
 | dom 22/11 | 08h | Story | L4 | **Resumo da semana.** | O que você aprendeu aqui. | Story tipográfico com 3 itens | TIPO |
 | dom 22/11 | 12h | Feed | L5 | **PIZZAIOLO NÃO TIRA FÉRIAS.** | Mas o seu anúncio pode trabalhar por você. | Pizzaiolo de avental (de baixo) | F11 |
@@ -84,12 +84,12 @@ Conta Leandro, 06/11/2026. Agentes: Marketing Squad, Copy Squad e Paollo (arte n
 ## Semana 3
 | Data | Hora | Formato | Linha | Manchete | Apoio | Composição | Imagem |
 |---|---|---|---|---|---|---|---|
-| seg 23/11 | 08h | Story | L5 | **Bom dia, forno aceso.** | Segunda de novo. | Story com foto de forno | F12 |
+| seg 23/11 | 08h | Story | L5 | **Bom dia, forno aceso.** | Segunda de novo. | Story com foto de forno | IA:B8b |
 | seg 23/11 | 12h | Feed | L1 | **TERÇA VAZIA CUSTA CARO.** | Aluguel, gás e equipe pagam igual. | Cardápio-cartaz dos custos | TIPO |
 | seg 23/11 | 19h | Feed | L4 | **COMO FUNCIONA EM 4 PASSOS** | Carrossel do método. | Carrossel; capa com foto de mão segurando o celular | F13 |
 | ter 24/11 | 08h | Story | L3 | **Copia e cola:** | Mensagem para cliente que sumiu. | Conversa de WhatsApp | TIPO |
 | ter 24/11 | 12h | Feed | L2 | **QUANTO VALE UM CLIENTE QUE VOLTA** | A conta na tela (ilustrativo). | Número gigante atrás da pizza | F14 |
-| ter 24/11 | 19h | Feed | L5 | **PIZZA FRIA NÃO TEM PERDÃO.** | Entrega é parte da pizza. | Motoboy de baixo contra o céu | F15 |
+| ter 24/11 | 19h | Feed | L5 | **PIZZA FRIA NÃO TEM PERDÃO.** | Entrega é parte da pizza. | Motoboy de baixo contra o céu | IA:B5 |
 | qua 25/11 | 08h | Story | L1 | **Você responde em quanto tempo?** | Enquete: 1 min, 10 min, 1 hora. | Enquete | TIPO |
 | qua 25/11 | 12h | Feed | L3 | **5 COISAS NO PERFIL QUE AFASTAM** | Carrossel de erros. | Carrossel; capa com celular de perfil ruim × bom | F16 |
 | qua 25/11 | 19h | Feed | L6 | **DIAGNÓSTICO NO ZAP.** | A gente olha o seu delivery com você. | Celular na mão com o zap aberto | F17 |

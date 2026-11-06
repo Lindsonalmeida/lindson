@@ -348,7 +348,7 @@
   "manchete": "SEU CLIENTE SUMIU?",
   "apoio": "Ele pediu uma vez e esqueceu de você.",
   "composicao": "Manchete em 2 tamanhos + foto de caixa vazia",
-  "imagem": "F3"
+  "imagem": "IA:B8a"
  },
  {
   "dia": 10,
@@ -426,7 +426,7 @@
   "manchete": "DOMINGO É DIA DE PIZZA. TERÇA TAMBÉM.",
   "apoio": "Quem disse que não?",
   "composicao": "Grade de 4 cores com a mesma manchete",
-  "imagem": "F7"
+  "imagem": "IA:B7"
  },
  {
   "dia": 12,
@@ -491,7 +491,7 @@
   "manchete": "PIZZA BOA NÃO VENDE SOZINHA.",
   "apoio": "Quem aparece mais vende mais.",
   "composicao": "Pizza gigante com texto em círculo",
-  "imagem": "F10"
+  "imagem": "IA:B4"
  },
  {
   "dia": 13,
@@ -556,7 +556,7 @@
   "manchete": "Bom dia, forno aceso.",
   "apoio": "Segunda de novo.",
   "composicao": "Story com foto de forno",
-  "imagem": "F12"
+  "imagem": "IA:B8b"
  },
  {
   "dia": 15,
@@ -621,7 +621,7 @@
   "manchete": "PIZZA FRIA NÃO TEM PERDÃO.",
   "apoio": "Entrega é parte da pizza.",
   "composicao": "Motoboy de baixo contra o céu",
-  "imagem": "F15"
+  "imagem": "IA:B5"
  },
  {
   "dia": 17,
