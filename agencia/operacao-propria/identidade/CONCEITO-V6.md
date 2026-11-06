@@ -1,6 +1,6 @@
 # Orégano Turbo · identidade v6
 
-**Status:** proposta para aprovação. A versão v3 fica preservada no histórico.
+**Status:** direção v6 aprovada pelo Lindson em 05/11/2026. A v3 permanece preservada no histórico.
 
 ## Ideia
 **Mais apetite. Menos achismo.** A Orégano Turbo faz marketing para pizzarias. A comida abre a identidade; a camada digital organiza pauta, conteúdo e anúncios.
@@ -17,7 +17,7 @@ Dono ou dona de pizzaria com delivery em São Luís, 30–55 anos; alterna balc�
 - Símbolo: ramo de orégano em linha rápida. Sem fatia, forno, chama ou xadrez.
 
 ## Mensagem
-Slogan existente: “O toque final que acelera a sua pizzaria.” Campanha v6: “Mais apetite. Menos achismo.” Não é garantia de venda.
+Slogan existente: “O toque final que acelera a sua pizzaria.” Território criativo v6: “Mais apetite. Menos achismo.” Frase de venda aprovada para campanha: “Mais pedidos. Menos achismo.” Nenhuma delas garante resultado.
 
 ## Foto
 A foto-conceito deve ser substituída por foto autorizada de pizzaria atendida na produção real. Não usar imagem de banco genérica ou rosto posado.
