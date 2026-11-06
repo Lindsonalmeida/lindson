@@ -1,0 +1,72 @@
+PEDIDO PARA O GEMINI · Orégano Turbo (marca de marketing de vendas para pizzarias)
+
+Gere UMA imagem para CADA item abaixo, na ordem, uma de cada vez. Ao terminar uma, passe para a próxima sem esperar eu pedir. Se parar no meio, eu escrevo "continue".
+Regras para todas:
+- Fotos ultrarrealistas, qualidade de campanha publicitária, sem texto extra além do pedido.
+- Cores da marca: verde #1E5B3B, vermelho tomate #C8302B, creme #F3EEE6, açafrão #F2B33D, carvão #141311.
+- Onde o item pede um arquivo anexado, use EXATAMENTE o logo desse arquivo, sem redesenhar e sem mudar as letras. O logo deve parecer impresso/bordado no material, seguindo dobras, luz e textura.
+- Formato: o indicado em cada item (4:5 vertical, 9:16 ou 16:9).
+- Antes de cada imagem, escreva o código do item (ex.: "A2").
+
+Arquivos anexados nesta conversa: selo-redondo.png, simbolo-branco.png, simbolo-verde.png, logo-horizontal-creme.png, logo-horizontal-verde.png.
+
+A2 · Pilha de caixas na mão do pizzaiolo
+Usar o arquivo anexado: selo-redondo.png
+Photorealistic photo of a pizza chef's hands holding a tall stack of five white pizza boxes printed with the attached round logo, cream apron, warm pizzeria interior with wood-fired oven glow in the background, shallow depth of field, editorial food brand photography, 4:5 vertical.
+
+A4 · Avental pendurado
+Usar o arquivo anexado: simbolo-branco.png
+Photorealistic mockup of a deep green #1E5B3B canvas kitchen apron hanging on a wooden hook against a red and cream checkered tiled wall, the attached white leaf logo printed on the chest, realistic canvas texture, stitching and folds, soft daylight, premium restaurant branding photography, 4:5 vertical.
+
+A5 · Pizzaiolo de avental
+Usar o arquivo anexado: simbolo-branco.png
+Photorealistic photo of a Brazilian pizza chef stretching pizza dough with flour in the air, wearing a deep green #1E5B3B apron with the attached white leaf logo on the chest, wood-fired oven glowing behind, warm cinematic light, shot from slightly below, editorial food photography, 4:5 vertical.
+
+A9 · Cartão de visita e proposta
+Usar o arquivo anexado: logo-horizontal-creme.png
+Photorealistic stationery mockup: deep green #1E5B3B business cards with the attached cream logo, one card flipped showing the text "Lindson Almeida · Estrategista de vendas para pizzarias", next to an A4 proposal cover with a big pizza photo and the title "Raio-X do delivery", on cream textured paper, soft studio light, realistic paper thickness and shadows, 4:5 vertical.
+
+A10 · Fachada com luminoso
+Usar o arquivo anexado: logo-horizontal-creme.png
+Photorealistic night photo of a small modern office storefront on a Brazilian street, a glowing deep green #1E5B3B lightbox sign with the attached cream logo, warm interior lights, wet pavement reflections, cinematic, 4:5 vertical.
+
+A11 · Celular com o WhatsApp
+Usar o arquivo anexado: simbolo-verde.png
+Photorealistic photo of a hand holding a smartphone toward the camera, the screen shows a WhatsApp conversation with a pizza order arriving and a notification with the attached small green leaf icon, solid tomato red #C8302B background, hard direct flash, sharp shadow, bold campaign photography, 4:5 vertical.
+
+A12 · Notebook com o relatório
+Usar o arquivo anexado: logo-horizontal-verde.png
+Photorealistic photo of a laptop on a pizzeria counter showing a clean weekly sales report dashboard with green bar charts and the attached logo at the top, a pizza box and a coffee cup beside it, warm morning light, shallow depth of field, editorial business photography, 4:5 vertical.
+
+B4 · Cesta vista de cima
+Sem anexo.
+Top-down flat lay of a metal shopping basket holding an open pizza box with a margherita pizza, surrounded by tomatoes, basil and peppers, solid orange background, direct flash, hard shadows, bold packaging photography, 4:5 vertical.
+
+B5 · Motoboy com a caixa no alto
+Sem anexo.
+Delivery rider in a green #1E5B3B jacket holding a pizza box high above his head, shot from below with a wide-angle lens, deep blue sky, energetic pose, bold advertising photography, saturated colors, 4:5 vertical.
+
+B6 · Dono da pizzaria olhando o celular
+Sem anexo.
+Photorealistic photo of a Brazilian pizzeria owner in his 40s leaning on the counter early in the morning, smiling while looking at numbers on his phone, wood-fired oven and stacked pizza boxes behind him, warm natural light, candid editorial photography, 4:5 vertical.
+
+B7 · Moça rindo com a fatia
+Sem anexo.
+Young Brazilian woman with sunglasses laughing and holding a pizza slice with melting cheese out of a yellow car window, low angle wide-angle shot, deep blue sky, summer sunlight, vibrant editorial lifestyle photography, flash fill, 4:5 vertical.
+
+B8 · Terça vazia
+Sem anexo.
+Empty pizzeria at night, chairs on tables, a single pizza box on the counter under a warm lamp, the wood-fired oven still glowing, moody cinematic light, high contrast, editorial photography, 4:5 vertical.
+
+C1 · Story com fundo de campanha
+Sem anexo.
+Close-up of a hand pulling a slice from a hot pepperoni pizza with a long cheese pull, solid deep green #1E5B3B background, harsh flash, hard shadow, empty space at the top third for text, 9:16 vertical, bold food advertising photography.
+
+C2 · Topo do site
+Sem anexo.
+Wide cinematic photo of a pizza chef sliding a pizza into a glowing wood-fired oven, sparks and warm light, dark moody background, space on the left for a headline, 16:9 horizontal, editorial food photography.
+
+C3 · Avatar alternativo
+Sem anexo.
+Top-down photo of a single perfect pepperoni pizza on a solid deep green #1E5B3B background, hard flash, centered, square 1:1.
+
