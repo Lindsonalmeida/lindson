@@ -124,6 +124,7 @@ P.append(('v3-05-mockup-whatsapp', 1080, 1350, CREME,
 lin = lambda r, v, c=CREME: f'<div style="display:flex;justify-content:space-between;padding:14px 0;border-bottom:1px solid #2c2a26;font:400 17px \'Inter\';color:#bdb7ab"><span>{r}</span><span style="font:500 18px \'IBM Plex Mono\';color:{c}">{v}</span></div>'
 barras = ''.join(f'<div style="flex:1;height:{h}px;background:{VERDE_CL if i == 6 else "#3b3a35"};border-radius:6px 6px 0 0"></div>' for i, h in enumerate([40, 52, 48, 66, 74, 92, 120]))
 rel = (f'<div style="padding:26px 26px 0;color:{CREME}">'
+       f'<div style="font:700 11px \'IBM Plex Mono\';color:{BRASA};letter-spacing:.08em;margin-bottom:12px">EXEMPLO ILUSTRATIVO · DADOS FICTÍCIOS</div>'
        f'<div style="display:flex;align-items:center;gap:10px">{simbolo(30, VERDE_CL, CARVAO)}<div style="font:700 17px \'Inter\'">Relatório de segunda</div></div>'
        f'<div style="font:500 13px \'IBM Plex Mono\';color:{CINZA};margin-top:20px;letter-spacing:.12em">SEMANA 27/10 – 02/11</div>'
        f'<div style="font:800 76px/1 \'Inter Tight\';letter-spacing:-.04em;margin-top:10px">128</div><div style="font:400 16px \'Inter\';color:#bdb7ab">pedidos que vieram do anúncio</div>'
@@ -144,7 +145,7 @@ P.append(('v3-06-mockup-relatorio', 1080, 1350, CARVAO,
 mini = lambda bg, inner, foto=None: f'<div style="aspect-ratio:4/5;background:{(f"linear-gradient(180deg,rgba(20,19,17,.2),rgba(20,19,17,.85)),url({FOTO(foto)}) center/cover") if foto else bg};position:relative;overflow:hidden;padding:14px;display:flex;flex-direction:column;justify-content:flex-end">{inner}</div>'
 tt = lambda t, c=CREME, s=22: f'<div style="font:800 {s}px/1 \'Inter Tight\';letter-spacing:-.04em;color:{c}">{t}</div>'
 grade = ''.join([
-  mini(0, tt('Forno cheio na terça?'), 'brasa'), mini(VERDE, tt('4,1×', CREME, 52) + tt('de retorno (exemplo)', CREME, 14)), mini(CREME, tt('3 erros que esvaziam o seu WhatsApp', CARVAO, 20)),
+  mini(0, tt('Forno cheio na terça?'), 'brasa'), mini(VERDE, tt('Relatório', CREME, 22) + tt('toda segunda', CREME, 14)), mini(CREME, tt('3 erros que esvaziam o seu WhatsApp', CARVAO, 20)),
   mini(CARVAO, tt('Relatório de segunda', CREME, 20)), mini(0, tt('Pizza boa não vende sozinha.'), 'pizza-close'), mini(BRASA, tt('Quero mais pedidos →', '#fff', 20)),
   mini(CREME, tt('iFood ou pedido direto?', CARVAO, 22)), mini(0, tt('A caixa que sai é o anúncio que volta.'), 'caixas'), mini(VERDE, tt('5 vagas fundadoras', CREME, 22))])
 perfil = (f'<div style="padding:16px 20px 0;font-family:Inter;color:#111">'
