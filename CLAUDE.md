@@ -71,6 +71,8 @@ Pedido de identidade visual: use o modelo de prompt para o Claude Design em `age
 
 Sempre que o Lindson pedir algo, acione os agentes especialistas (Xquads em `scratchpad/xq/src`: Hormozi Offers, Donald Miller, Pedro Sobral, copy-squad, brand-squad etc., e agentes de pesquisa na internet) para fazer o trabalho, escolhendo os melhores para cada pedido.
 
+Para branding, identidade visual e artes de **pizzaria** (Orégano Turbo e pizzarias clientes), acionar o agente **Paollo** (`.claude/agents/paollo.md`), que lê antes a biblioteca `agencia/operacao-propria/biblioteca-pizzaria/`.
+
 Para canal dark e monetização no YouTube (Passaporte da Bíblia, Raposa e Leão, nichos novos), acionar o agente **Peter** (`.claude/agents/peter.md`).
 
 ## Capas dos canais dark (decisão do Lindson, 01/11/2026)
