@@ -85,8 +85,16 @@ ANTON = lambda t, s, cor=CREME, lh=.86, extra='': f'<div style="font:400 {s}px/{
 TIGHT = lambda t, s, cor=CREME, extra='': f'<div style="font:800 {s}px/.98 \'Inter Tight\';letter-spacing:-.045em;color:{cor};{extra}">{t}</div>'
 TXT = lambda t, s=24, cor=CREME, extra='': f'<div style="font:400 {s}px/1.45 Inter;color:{cor};{extra}">{t}</div>'
 def rec(n, x, y, w, rot=0, sombra=.55, extra=''):
+    """Comida recortada com a receita do Rocco: sombra DURA de flash (deslocada 12–30 px, 40%, desfoque 3 px),
+    contraste e saturação +10%, brilho de flash por cima."""
+    d = max(12, min(30, w * .03))
     return (f'<img class="a" src="{REC(n)}" style="left:{x}px;top:{y}px;width:{w}px;height:auto;transform:rotate({rot}deg);'
-            f'filter:drop-shadow(0 {w * .05:.0f}px {w * .06:.0f}px rgba(0,0,0,{sombra}));{extra}">')
+            f'filter:drop-shadow({d:.0f}px {d * 1.1:.0f}px 3px rgba(0,0,0,{min(sombra, .42)})) saturate(1.12) contrast(1.1) brightness(1.04);{extra}">')
+def voa(n, x, y, w, rot=0, blur=0):
+    """Ingrediente voando (calabresa, azeitona, manjericão), com desfoque de movimento opcional."""
+    return (f'<img class="a" src="{REC("ing-" + n)}" style="left:{x}px;top:{y}px;width:{w}px;height:auto;transform:rotate({rot}deg);'
+            f'filter:drop-shadow({w * .08:.0f}px {w * .1:.0f}px 2px rgba(0,0,0,.35)) saturate(1.15) contrast(1.08){f" blur({blur}px)" if blur else ""}">')
+FLASH = 'radial-gradient(circle at 28% 18%,rgba(255,255,255,.22),rgba(255,255,255,0) 46%)'
 def fundo_foto(n, escuro=.55, pos='center', grad=None):
     g = grad or f'linear-gradient(180deg,rgba(20,19,17,{escuro * .55}) 0%,rgba(20,19,17,{escuro}) 50%,rgba(20,19,17,.95) 100%)'
     return f'<div class="a" style="inset:0;background:{g},url({FOTO(n)}) {pos}/cover"></div>'
@@ -114,8 +122,20 @@ PAD_CREME = padrao_url(CREME, .16)
 PAD_VERDE = padrao_url(VERDE, .14)
 PAD_TOM = padrao_url('#ffffff', .14)
 
-# =================================================================== 01 · CAPA
-P.append(('v4-01-capa', 1080, 1350, CARVAO,
+# =================================================================== 01 · CAPA-CAMPANHA (Rocco: cor chapada + flash + produto enorme + ingredientes voando)
+P.append(('v4-01-capa', 1080, 1350, ACAFRAO,
+  BOX(0, 0, 1080, 1350, f'{FLASH},{ACAFRAO}') +
+  A(60, 56, logo(38, CARVAO, VERDE, ACAFRAO, sub=False)) + A(770, 70, ETQ('Identidade v4 · 2026', CARVAO)) +
+  A(44, 130, ANTON('Mais<br>pedidos.', 292, CARVAO, .84)) +
+  voa('calabresa-2', 860, 150, 150, 20, 4) + voa('manjericao-3', 900, 330, 150, -30) + voa('azeitona-1', 690, 420, 90, 10) +
+  rec('calabresa', 250, 560, 940, -14, .42) +
+  voa('calabresa-4', 40, 760, 190, -10) + voa('manjericao-1', 70, 990, 170, 25) + voa('azeitona-2', 230, 1190, 80, -20, 3) +
+  voa('calabresa-6', 900, 1130, 170, 30, 5) + voa('manjericao-4', 640, 1180, 140, 60, 2) + voa('calabresa-1', 600, 470, 110, 0, 6) +
+  A(60, 640, TIGHT(f'Menos {circulo("achismo.", TOMATE)}', 60, CARVAO), 520) +
+  A(820, 980, selo(210, 'SÓ PIZZARIAS · SÃO LUÍS · MARANHÃO · ', TOMATE, CREME, borda=CREME, fs=15.5), extra='transform:rotate(12deg)')))
+
+# =================================================================== 01b · CAPA FORNO (versão escura)
+P.append(('v4-01b-capa-forno', 1080, 1350, CARVAO,
   fundo_foto('brasa', .5, 'center', 'linear-gradient(180deg,rgba(20,19,17,.55),rgba(20,19,17,.35) 40%,rgba(20,19,17,.92) 78%)') +
   A(60, 60, logo(40, CREME, VERDE_CL, CARVAO, sub=False)) + A(760, 74, ETQ('Identidade v4 · 2026')) +
   A(48, 150, ANTON('Mais<br>pedidos.', 300, CREME, .84)) +
@@ -269,14 +289,24 @@ def avental(w, cor=VERDE, frente=''):
             f'<path d="M120 10 L280 10 L285 150 C300 190 360 200 380 210 L370 550 L30 550 L20 210 C40 200 100 190 115 150 Z" fill="url(#av)"/>'
             f'<path d="M110 370 L290 370" stroke="rgba(0,0,0,.25)" stroke-width="4"/></svg>'
             f'<div style="position:absolute;left:0;right:0;top:{w * .5}px;display:grid;place-items:center">{frente}</div></div>')
+def bone(w, cor=TOMATE):
+    h = w * .72
+    return (f'<div style="position:relative;width:{w}px;height:{h}px;filter:drop-shadow(18px 22px 3px rgba(0,0,0,.4))">'
+            f'<svg viewBox="0 0 300 216" width="{w}" height="{h}" style="position:absolute;inset:0"><defs><radialGradient id="bn" cx=".35" cy=".3" r=".8">'
+            f'<stop offset="0" stop-color="#fff" stop-opacity=".25"/><stop offset=".6" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".35"/></radialGradient></defs>'
+            f'<path d="M40 150 C 30 60 90 14 160 14 C 230 14 262 70 258 150 Z" fill="{cor}"/><path d="M40 150 C 30 60 90 14 160 14 C 230 14 262 70 258 150 Z" fill="url(#bn)"/>'
+            f'<path d="M150 16 C 140 60 138 110 146 150" stroke="rgba(0,0,0,.2)" stroke-width="3" fill="none"/><circle cx="160" cy="16" r="7" fill="{cor}"/>'
+            f'<path d="M30 146 C 80 140 230 140 290 160 C 300 176 270 196 220 196 C 150 196 60 186 26 168 C 18 160 20 150 30 146 Z" fill="{VERDE}"/>'
+            f'<path d="M30 146 C 80 140 230 140 290 160" stroke="rgba(0,0,0,.25)" stroke-width="4" fill="none"/></svg>'
+            f'<div style="position:absolute;left:{w * .33}px;top:{h * .26}px;transform:rotate(-4deg)">{simbolo(w * .26, CREME, cor)}</div></div>')
 P.append(('v4-09-mockup-uniforme', 1080, 1350, CARVAO,
   fundo_foto('bancada', .7, 'center', 'linear-gradient(180deg,rgba(20,19,17,.82),rgba(20,19,17,.7) 50%,rgba(20,19,17,.95))') +
   cabeca('09', 'Mockup · camiseta e avental') +
   A(60, 110, ANTON('Vestiu,<br>virou<br>marca.', 140, CREME, .86)) +
-  A(30, 520, camiseta(520, CREME, f'<div style="text-align:center">{simbolo(90, VERDE, CREME)}<div style="font:800 34px/.9 \'Inter Tight\';letter-spacing:-.045em;color:{CARVAO};margin-top:10px">Orégano Turbo</div><div style="font:500 10px \'IBM Plex Mono\';letter-spacing:.2em;color:{CARVAO};opacity:.7;margin-top:8px">SÓ PIZZARIAS · SÃO LUÍS</div></div>'), extra='transform:rotate(-5deg)') +
+  A(30, 520, camiseta(520, CREME, f'<div style="text-align:center;margin-top:-20px">{ANTON("Só<br>pizzarias.", 70, TOMATE, .84)}<div style="margin:10px auto 0;width:fit-content">{selo(120, "ORÉGANO TURBO · SÃO LUÍS · ", VERDE, CREME, fs=14)}</div><div style="font:500 10px \'IBM Plex Mono\';letter-spacing:.2em;color:{CARVAO};margin-top:8px">COSTAS</div></div>'), extra='transform:rotate(-5deg)') +
   A(560, 230, avental(440, VERDE, f'<div style="text-align:center">{selo(170, "MARKETING DE VENDAS PARA PIZZARIAS · ", CREME, VERDE, fs=11)}</div>'), extra='transform:rotate(4deg)') +
-  A(470, 1110, selo(170, 'EQUIPE · ORÉGANO TURBO · EQUIPE · ', ACAFRAO, CARVAO, borda=CARVAO, fs=12.5)) +
-  rodape('Camiseta creme · avental verde com bolso xadrez', CREME)))
+  A(400, 1010, bone(330, TOMATE), extra='transform:rotate(-8deg)') +
+  rodape('Camiseta (costas) · avental · boné', CREME)))
 
 # =================================================================== 10 · COPO, SACOLA, ADESIVO
 def copo(w, bg=CREME, pad=None, inner=''):
@@ -398,6 +428,7 @@ P.append(('v4-14-post-terca', 1080, 1350, TOMATE,
   rec('pepperoni-fatia', 560, 430, 500, -28, .55) +
   rec('pepperoni-fatia', 760, 120, 300, 150, .55) +
   rec('queijo-puxando', -90, 650, 640, 8, .55) +
+  voa('calabresa-2', 470, 640, 120, 10, 5) + voa('manjericao-4', 400, 1010, 120, -40) + voa('calabresa-6', 900, 1000, 150, 20) + voa('azeitona-1', 560, 960, 80, 0, 3) +
   A(60, 1090, TIGHT('Dia fraco tem conserto.', 46, CREME, 'text-shadow:0 4px 20px rgba(0,0,0,.5)'), 620) +
   A(60, 1190, f'<div style="display:inline-block;background:{CREME};color:{TOMATE};font:700 28px Inter;padding:22px 36px;border-radius:999px;box-shadow:0 12px 30px -8px rgba(0,0,0,.5)">Diagnóstico grátis →</div>') +
   A(860, 1150, selo(170, 'SÓ PIZZARIAS · SÓ PIZZARIAS · ', VERDE, CREME, borda=CREME, fs=15))))
@@ -407,7 +438,9 @@ P.append(('v4-15-post-pizza', 1080, 1350, VERDE,
   BOX(0, 0, 1080, 1350, f'{PAD_CREME},{VERDE}', 'background-size:360px 360px') +
   BOX(0, 0, 1080, 70, xadrez(VERDE, CREME, 35)) + BOX(0, 1280, 1080, 70, xadrez(VERDE, CREME, 35)) +
   A(-20, 120, ANTON('Pizza', 560, CREME, .8, 'letter-spacing:-.02em;opacity:.97')) +
+  voa('manjericao-3', 40, 420, 150, -20) + voa('calabresa-3', 900, 330, 140, 15, 4) +
   rec('calabresa', 120, 340, 840, 10, .75) +
+  voa('azeitona-3', 80, 860, 90, 30) + voa('manjericao-1', 880, 820, 150, 40) + voa('calabresa-5', 700, 300, 110, 0, 6) +
   A(60, 1010, TIGHT(f'Pizza boa<br>não vende {circulo("sozinha.", ACAFRAO)}', 84, CREME)) +
   A(60, 1205, logo(30, CREME, CREME, VERDE, sub=False)) +
   A(820, 1000, selo(190, 'MARKETING PARA PIZZARIAS · ', TOMATE, CREME, borda=CREME, fs=14.5)) +
@@ -431,7 +464,8 @@ P.append(('v4-17-campanha', 1080, 1350, CARVAO,
   A(400, 520, selo(240, 'ORÉGANO TURBO · SÓ PIZZARIAS · ', CARVAO, CREME, borda=CREME, fs=14.5))))
 
 FONTS = '<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter+Tight:wght@600;700;800&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">'
-CSS = 'body{margin:0;background:#888}section.f{position:relative;overflow:hidden;margin:0 0 40px}.a{position:absolute}*{box-sizing:border-box}img{height:auto}'
+GRAO = "url(\"data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)'/%3E%3C/svg%3E\")"
+CSS = 'body{margin:0;background:#888}section.f::after{content:"";position:absolute;inset:0;background:' + GRAO + ';opacity:.07;mix-blend-mode:overlay;pointer-events:none;z-index:50}section.f{position:relative;overflow:hidden;margin:0 0 40px}.a{position:absolute}*{box-sizing:border-box}img{height:auto}'
 d = os.path.dirname(os.path.abspath(__file__))
 so = os.environ.get('SO')
 open(os.path.join(d, 'pecas4.html'), 'w').write(

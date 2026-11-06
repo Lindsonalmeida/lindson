@@ -157,3 +157,14 @@ Base: a biblioteca do Paollo (`../biblioteca-pizzaria/`, 37 pins + favoritas do 
 ## Conferência (Paollo, antes de entregar)
 - Rodada 1 reprovada por mim: padrão de ícones quebrado (aspas no SVG), títulos cobertos por pizza e celular, rodapés encavalados, camiseta escura sumindo no fundo, tampa da caixa cobrindo o título, cedilha do "TERÇA" escondida pela fatia. Tudo refeito.
 - Rodada final: 17 pranchas sem área vazia; texto legível sobre foto (sombra ou véu); números marcados como ilustrativos; nenhuma promessa de resultado.
+
+## v4.1 · nível campanha (06/11, Paollo + Rocco, a pedido da sessão principal)
+Depois da régua do Lindson ("isso é o que chamo de identidade visual de verdade, impactante, criativa": Decaf Girl/Misato, HOTWHIZ, Mario hot sauce), apliquei a receita de montagem do Rocco (`agencia/processos/direcao-de-arte-campanha-comida.md`, seção 2):
+- **Capa-campanha nova** (`v4-01-capa`): açafrão chapado com brilho de flash, "MAIS PEDIDOS." gigante atrás, pizza ocupando mais da metade da arte, calabresa, azeitona e manjericão voando (alguns com desfoque de movimento). A capa escura de forno virou `v4-01b-capa-forno`.
+- **Em todas as pranchas:** sombra dura de flash (deslocada 12 a 30 px, 40%, desfoque 3 px), contraste e saturação +10% na comida e grão fino (7%).
+- **Ingredientes recortados** em `recortes-v4/ing-*.png` (calabresa, azeitona e manjericão, tirados das fotos CC).
+- **Merch com atitude:** camiseta com "SÓ PIZZARIAS." nas costas e boné tomate com aba verde.
+- **Paleta:** não precisou de cor nova além de tomate e açafrão; o açafrão chapado cumpre o papel do "limão/laranja" das referências sem sair do trio de cantina.
+
+**Checklist do Rocco na capa:** para a rolagem (sim) · uma cor dominante chapada (açafrão) · produto > 50% (sim) · luz de flash (sombra dura e brilho) · manchete até 5 palavras (2) · sem espaço vazio · sem promessa de resultado, fotos com licença (sim).
+**Limite honesto:** as referências do Lindson têm gente, mão e mordida fotografadas com flash. Isso não existe nas fotos licenciadas; para chegar 100% lá, usar a lista de cenas (seção 1 do processo) numa pizzaria cliente ou os prompts de IA (seção 3), sem apresentar IA como foto real.
