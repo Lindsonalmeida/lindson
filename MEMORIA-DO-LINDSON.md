@@ -363,3 +363,4 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
   - **Identidade:** sem frases de garantia ("Mais pedidos. Menos achismo.").
   - **REGRA:** nunca prometer resultado em peça, proposta ou contrato sem o Lindson pedir e sem advogado.
   - Vale `agencia/operacao-propria/DECISOES-APROVADAS.md`.
+- **06/11/2026 (conta Leandro) — Régua de identidade visual do Lindson:** "isso é o que chamo de identidade visual de verdade, impactante, criativa", sobre as páginas de Decaf Girl (Misato Studio), HOTWHIZ, Mario hot sauce e as pizzarias italianas do Pinterest (Crosta, Zestino, Pizzino). REPROVADO: coisa simplista, espaço em branco, imagem pequena. APROVADO como direção: foto de produto com atitude (cor chapada saturada, flash, mão, gente comendo, grande-angular), manchete gorda, sistema aplicado em objetos. Agente **Paollo** criado com essa régua; biblioteca em `agencia/operacao-propria/biblioteca-pizzaria/`.

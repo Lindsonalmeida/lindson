@@ -104,3 +104,19 @@ Para pizza:
 - quando o Nano Banana estiver liberado (falta o faturamento no Google), gerar as cenas com pessoa;
 - no cliente, a sessão de fotos da pizzaria segue esta lista de cenas.
 
+### A régua do Lindson (06/11)
+Ele mandou prints das páginas completas desses pins e disse: **"isso é o que chamo de identidade visual de verdade, impactante, criativa"**.
+
+**O que aparece nessas páginas e vira regra:**
+- **Campanhas de bebida com gente real em flash e grande-angular:** Sprite "Deixa o verão ferver", com o cabelo voando; "Fizz up your day", com a moça no carro laranja; Decaf Girl contra o céu.
+- **Cartaz de comida com manchete gorda inclinada e a comida na mão:** "BITE INTO THE CREAMY CRUNCH".
+- **Grade de pôsteres de hambúrguer** ("Hunger / Burger / Cravings / Catch the drop").
+- **Sistema de marca com adesivos e mascote em vermelho:** Spizzey, Gracey's Pizza na camiseta.
+- **Caixas de pizza como objeto de desejo:** Wolfe, Slice Society.
+- **Cardápio-pôster** ("MENU Burgers Shawarma Pizza").
+- **Massa com garfo** ("ciao"); cesta de produtos ("Doctor Detonate"); garrafa "Burn Baby".
+- **Uniforme e camiseta com a marca nas costas.**
+- **Pizzaria italiana:** Crosta (rapaz de boné mordendo a fatia), Zestino, La Verona, Casa Puglia, Massa, Bella Pizza, Pizzino.
+
+**Tradução para a Orégano Turbo e para os clientes:** cada entrega tem 1 imagem-campanha principal com produto, pessoa ou mão em flash sobre cor chapada; o sistema de marca (selos, padrão, mascote ou símbolo) aparece aplicado em objetos reais; e a manchete é gorda, curta e com atitude.
+
