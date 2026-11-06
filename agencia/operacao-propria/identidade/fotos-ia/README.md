@@ -11,4 +11,8 @@ Feitas pelo Lindson no Gemini com os prompts de `../kit-mockup/PROMPTS-IMAGENS.m
 | A6-bone.jpg | A6 |
 | A8-adesivo-pedido-saindo.jpg | A8 |
 
+| A10-fachada.jpg | A10 · ATENÇÃO: o Gemini redesenhou o logo (outro símbolo e "ESTRATÉGIA PARA PIZZARIAS"); usar só depois de trocar o luminoso pelo logo oficial |
+| A4-avental.jpg | A4 · o símbolo saiu numa variação em contorno; trocar pelo símbolo oficial antes de usar |
+| A9-cartao-proposta.jpg | A9 · ATENÇÃO: logo errado e e-mails inventados no cartão ("info@oregano.rrix"); corrigir antes de usar |
+
 **Faltam:** A1, A3 e A7 (anunciados como feitos, ainda não chegaram) e os 15 do `PEDIDO-UNICO-GEMINI.txt`.
