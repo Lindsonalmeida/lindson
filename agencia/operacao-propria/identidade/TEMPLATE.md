@@ -77,10 +77,11 @@ O Lindson perguntou: "você acha que um dono de pizzaria vai querer comprar de u
 | 9 | Goomer | Brasil | Rebrand de 2021 pela BrandGym (Meio & Mensagem) | Mockup de aparelho em cima de promoção ("BLACK 80% OFF"): poluído, cara de varejo |
 | 10 | Slice | EUA | Rebrand para pizzarias independentes, com logo amarelo "cheesy" e fotos de pizzarias reais (Food On Demand, 2022); agência não confirmada | Foto da pizzaria real de cada cliente: confirma a regra da foto do cliente |
 | 11 | sunday | França | Criado pelos donos da Big Mamma; agência não encontrada | Captura bloqueada (403) |
+| 12 | **Pizzaria Planetário · DN Designer + Penta House** | Brasil | Projeto de rebranding no Behance, publicado em 17/10/2026; sem prêmio alegado | Referência adicional de impacto: ideia central própria aplicada à identidade e às aplicações. Inspira consistência conceitual e fotografia com enquadramento forte; não copiar o tema espacial, órbita, logo, lettering, cores ou peças. |
 
 ## Escolhidas (v3)
 1. **Toast · Built for Busy:**
-   - capa: foto real escurecida com "Mais pedidos. Toda semana.";
+   - capa: foto real escurecida com "Mais pedidos. Menos achismo.";
    - post 1: "Forno cheio na sexta. E na terça?";
    - página de fotografia;
    - botão laranja = Brasa.
@@ -111,3 +112,8 @@ O Lindson perguntou: "você acha que um dono de pizzaria vai querer comprar de u
 **Fotos:** Wikimedia Commons, CC BY / BY-SA, créditos em `fotos-v3/CREDITOS.md`. Só entram na identidade; nos posts de cliente vai a foto real da pizzaria do cliente.
 
 **Números dos mockups:** são ilustrativos e estão marcados assim. Nunca publicar como resultado.
+
+
+## Atualização de 06/11/2026 · direção escolhida e referência de impacto
+
+Lindson escolheu a v3 séria como identidade vigente. A referência adicional é [Rebranding | Pizzaria Planetário](https://www.behance.net/gallery/257224945/Rebranding-PIZZARIA-PLANETARIO). A descrição do projeto liga o disco de acreção à fidelização; a leitura da equipe é que o impacto vem de uma ideia singular que reaparece no símbolo e nas aplicações. Para a Orégano Turbo, reforçar a ideia própria da v3 — a nervura da folha como seta de crescimento — com foto de processo, contraste carvão/creme, título forte e detalhe brasa. A captura não foi anexada; a página foi consultada visualmente e o link fica como fonte. A frase antiga “Mais pedidos. Toda semana.” foi substituída pela aprovada “Mais pedidos. Menos achismo.”; não usar a garantia de resultado retirada em `DECISOES-APROVADAS.md`.
