@@ -1,4 +1,4 @@
-# Legendas · kit de lançamento do @oreganoturbo (Paollo + Copy Squad, sessão paralela da conta Leandro, 06/11/2026)
+# Legendas · kit de lançamento do @oreganoturbo, v2 campanha (Paollo + Rocco + Copy Squad, sessão paralela da conta Leandro, 06/11/2026)
 
 Padrão do repositório (`conteudo/avaliacao-gratuita/LEGENDAS.md`): título com a palavra-chave, introdução, subtítulos, exemplo, conclusão, chamada e 3 a 5 hashtags variadas (tema + nicho + local, nunca o mesmo bloco). Até 2.200 caracteres.
 
@@ -30,7 +30,7 @@ A sua pizza já é boa. O que falta é o seu cliente lembrar de você na terça.
 
 #marketingparapizzaria #pizzariasaoluis #donodepizzaria #deliverydepizza #saoluisma
 
-## Post 02 · Delivery ON ou OFF
+## Post 02 · Terça. Seu delivery está ON?
 
 DELIVERY DE PIZZA NA TERÇA: O SEU ESTÁ LIGADO OU DESLIGADO?
 
@@ -149,9 +149,9 @@ São 5 vagas. Quando acabar, acabou.
 
 #pizzariasaoluis #marketingparapizzaria #donodepizzaria #pizzaria #slz
 
-## Post 07 · Pedido direto no seu WhatsApp
+## Post 07 · Menos app. Mais zap.
 
-PEDIDO DIRETO NO WHATSAPP: COMO A PIZZARIA VENDE SEM APLICATIVO NO MEIO
+MENOS APP, MAIS ZAP: PEDIDO DIRETO NO WHATSAPP DA PIZZARIA
 
 Aplicativo ajuda a ser encontrado. Mas o cliente que pede pelo app é do app. O que pede no seu WhatsApp é seu.
 
@@ -173,29 +173,7 @@ Não é sair do aplicativo. É ter um canal que é só seu.
 
 #pedidonowhatsapp #deliverydepizza #pizzaria #whatsappbusiness #saoluis
 
-## Post 08 · Segunda, 8h: o número na mesa
-
-RELATÓRIO DE VENDAS DA PIZZARIA: O NÚMERO NA MESA TODA SEGUNDA
-
-Quanto entrou de pedido pelo WhatsApp na semana passada? Quanto custou cada um? Qual foi o dia mais fraco? Se você não sabe, está decidindo no escuro.
-
-📌 O que tem no relatório de segunda
-Pedidos que vieram do seu canal, quanto custou cada pedido no anúncio, o movimento dia a dia e uma ação para a semana.
-
-💡 Exemplo ilustrativo (não é promessa de resultado)
-142 pedidos no WhatsApp, R$ 4,10 de anúncio por pedido, terça como dia mais fraco. Ação: combo de terça no anúncio do bairro. Os números da sua pizzaria são só seus.
-
-🧭 Por que isso muda tudo
-Com o número na mesa, você para de achar e começa a saber: qual sabor vende, qual dia precisa de força, onde vale colocar dinheiro.
-
-✅ Conclusão
-Mais pedidos começa com menos achismo.
-
-👉 Quer ver um modelo do relatório? Manda RELATÓRIO no direct.
-
-#relatoriodevendas #gestaodepizzaria #donodepizzaria #marketingparapizzaria #saoluisma
-
-## Post 09 · O mesmo forno, outro perfil
+## Post 08 · O mesmo forno, outro perfil
 
 INSTAGRAM DE PIZZARIA: ANTES E DEPOIS DE UM PERFIL QUE DÁ FOME
 
@@ -219,7 +197,29 @@ Simulação de perfil, sem números.
 
 #instagramdepizzaria #fotodepizza #pizzaria #dicasdeinstagram #slz
 
-## Post 10 · Quantos pedidos você fez na terça passada?
+## Post 09 · Segunda, 8h: o número na mesa
+
+RELATÓRIO DE VENDAS DA PIZZARIA: O NÚMERO NA MESA TODA SEGUNDA
+
+Quanto entrou de pedido pelo WhatsApp na semana passada? Quanto custou cada um? Qual foi o dia mais fraco? Se você não sabe, está decidindo no escuro.
+
+📌 O que tem no relatório de segunda
+Pedidos que vieram do seu canal, quanto custou cada pedido no anúncio, o movimento dia a dia e uma ação para a semana.
+
+💡 Exemplo ilustrativo (não é promessa de resultado)
+142 pedidos no WhatsApp, R$ 4,10 de anúncio por pedido, terça como dia mais fraco. Ação: combo de terça no anúncio do bairro. Os números da sua pizzaria são só seus.
+
+🧭 Por que isso muda tudo
+Com o número na mesa, você para de achar e começa a saber: qual sabor vende, qual dia precisa de força, onde vale colocar dinheiro.
+
+✅ Conclusão
+Mais pedidos começa com menos achismo.
+
+👉 Quer ver um modelo do relatório? Manda RELATÓRIO no direct.
+
+#relatoriodevendas #gestaodepizzaria #donodepizzaria #marketingparapizzaria #saoluisma
+
+## Post 10 · Quantos pedidos na terça?
 
 QUANTOS PEDIDOS A SUA PIZZARIA FEZ NA TERÇA PASSADA?
 

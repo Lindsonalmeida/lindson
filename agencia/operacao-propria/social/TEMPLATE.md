@@ -59,3 +59,48 @@ São mais de 8 referências de mais de 3 países (Brasil, EUA, Espanha, Banglade
 - Identidade v3 aprovada: folha com seta, carvão `#141311`, verde `#1E5B3B`, creme `#F3EEE6`, brasa `#E4572E`; Inter Tight, Inter, IBM Plex Mono.
 - Vocabulário de pizzaria (biblioteca): xadrez de cantina (creme × brasa, creme × verde), letra gorda **Bagel Fat One** e condensada **Anton** nas manchetes, manuscrito **Kaushan Script** de apoio, amarelo queijo `#F2B33D` só em etiquetas e selos, comida recortada grande (rembg, modelo isnet-general-use), grão por cima.
 - Logo da Orégano Turbo em todas as peças.
+
+## v2 · campanha de comida (06/11/2026, Paollo + Rocco)
+**Referências novas (a régua do Lindson):** `../biblioteca-pizzaria/favoritas/`:
+- HOTWHIZ (fundo limão, flash, boca suja de molho);
+- Mario hot sauce (cesta vista de cima, fundo laranja);
+- Decaf Girl / Misato Studio (grande-angular, céu);
+- Drip Riot (produto voando com ingrediente);
+- McDonald's "Here for the sauce" (grade de 4 cores);
+- "Bite into the creamy crunch".
+
+**O que mudou da v1 para a v2:**
+- **Fundos:** degradês trocados por cor chapada saturada.
+- **Sombra:** a sombra macia virou sombra dura de flash (deslocada de 18 a 30 px, opacidade 0,42, desfoque de 2 px).
+- **Produto:** passou a ocupar mais da metade da arte.
+- **Ingredientes voando:** rodelas de calabresa e azeitonas recortadas da foto CC da calabresa (`recortes/ing-*`), algumas com desfoque.
+- **Manchetes:** até 5 palavras, gordas e inclinadas (-3 a -5°), com sombra chapada:
+  - "Quantos pedidos você fez na terça passada?" virou "QUANTOS PEDIDOS NA TERÇA?";
+  - "Pedido direto no seu WhatsApp" virou "MENOS APP. MAIS ZAP." (seção 4 do processo do Rocco).
+- **Cores:** tomate #D42A1F e açafrão #F2B33D da identidade v4.
+- **Formatos do Rocco por post:**
+  - 1: produto voando (post 03 e carrossel 1);
+  - 3: mão segurando (post 07);
+  - 4: palavra gigante (post 01);
+  - 5: grade de 4 cores (post 10);
+  - 7: vista de cima (post 11);
+  - 8: cartaz da paleta em faixas (post 04);
+  - 9: produto fora do lugar (post 05).
+
+**Checklist do Rocco, conferido arte por arte na imagem:**
+- produto com mais de 50% da arte;
+- 1 cor dominante;
+- luz de flash;
+- manchete de até 5 palavras;
+- zero espaço vazio.
+
+**Exceções:**
+- Posts 08 e 09: o "produto" é o celular ou o relatório, com pizza junto.
+- Post 04: a manchete é o cardápio.
+
+**O que falta para chegar no nível das favoritas** (precisa de foto produzida):
+- gente mordendo;
+- mão segurando a caixa contra o céu;
+- motoboy em grande-angular.
+
+Para isso: prompts prontos na seção 3 do processo, quando o Nano Banana estiver liberado, ou uma manhã de fotos numa pizzaria fundadora.
