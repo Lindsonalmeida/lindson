@@ -182,7 +182,24 @@ section{position:relative}
 .preco{display:flex;align-items:baseline;gap:6px}
 .preco b{font:500 46px/1 var(--mono);letter-spacing:-.05em}
 .preco span{color:var(--cinza);font-size:15px}
-.tot{font:400 12.5px var(--mono);color:var(--cinza);margin:8px 0 24px;min-height:18px}
+.tot{font:400 12.5px var(--mono);color:var(--cinza);margin:8px 0 0;min-height:18px}
+.de{font:500 15px var(--mono);color:var(--cinza);text-decoration:line-through;min-height:22px;display:flex;gap:10px;align-items:center}
+.eco{font:600 11.5px var(--mono);letter-spacing:.04em;color:var(--carvao);background:var(--verde-cl);padding:3px 8px;border-radius:999px;text-decoration:none}
+.pag{margin:16px 0 24px;border-radius:12px;background:rgba(243,238,230,.04);box-shadow:inset 0 0 0 1px var(--linha);padding:12px 14px;font-size:13.5px;color:var(--texto2);display:grid;gap:6px}
+.pag b{color:var(--creme);font:500 14px var(--mono)}
+.pag div{display:flex;justify-content:space-between;gap:10px}
+.comp{margin-top:70px}
+.comp h3{font-size:clamp(28px,3vw,40px);letter-spacing:-.04em;margin-bottom:22px}
+.tab{width:100%;border-collapse:collapse;font-size:15px}
+.tabw{overflow-x:auto;border-radius:18px;box-shadow:inset 0 0 0 1px var(--linha);background:var(--carvao2)}
+.tab th,.tab td{padding:14px 18px;text-align:left;border-bottom:1px solid var(--linha);white-space:nowrap}
+.tab th{font:500 12px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--cinza)}
+.tab td:first-child{color:var(--texto2);white-space:normal;min-width:220px}
+.tab td.s{color:var(--verde-cl);font-weight:600}.tab td.x{color:#5f5b53}
+.tab tr:last-child td{border-bottom:0}
+.tab .col-for{background:rgba(124,197,150,.06)}
+.tab .mono{font-family:var(--mono)}
+.tab .ok{color:var(--verde-cl);font:500 12px var(--mono)}
 .pl ul{list-style:none;display:grid;gap:11px;margin-bottom:28px;flex:1}
 .pl li{display:flex;gap:10px;font-size:15px;color:var(--creme)}
 .pl li::before{content:"";flex:none;width:18px;height:18px;margin-top:2px;border-radius:50%;background:rgba(124,197,150,.15) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M6 12l4 4 8-8' fill='none' stroke='%237CC596' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/12px no-repeat}
@@ -202,9 +219,21 @@ section{position:relative}
 .fund .fo{background:url(img/pizza-close.jpg) center/cover;min-height:340px}
 .vagas{display:flex;gap:10px;margin:28px 0}
 .vagas span{width:46px;height:46px;border-radius:12px;background:rgba(243,238,230,.12);box-shadow:inset 0 0 0 1.5px rgba(243,238,230,.35);display:grid;place-items:center;font:500 15px var(--mono)}
-.fund ul{list-style:none;display:grid;gap:10px;margin:0 0 30px;color:#dce9e0}
-.fund li::before{content:"→ ";color:var(--verde-cl)}
 
+.vagas small{align-self:center;font:500 12px var(--mono);color:#cfe8d8;margin-left:6px;letter-spacing:.06em}
+.fgr{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:18px}.fgr .fcol:first-child{grid-column:1/-1}
+@media(max-width:960px){.fgr{grid-template-columns:1fr}}
+.fcol{background:var(--carvao2);border-radius:24px;padding:28px;box-shadow:inset 0 0 0 1px var(--linha)}
+.fcol .tab td,.fcol .tab th{padding:12px 12px}
+.fcol s{color:var(--cinza)}
+.fnota{color:var(--cinza);font-size:13.5px;margin-top:14px}
+.fpassos{list-style:none;counter-reset:f;margin-top:18px;display:grid;gap:16px}
+.fpassos li{counter-increment:f;display:grid;grid-template-columns:38px 1fr;gap:4px 12px;color:var(--texto2);font-size:15px}
+.fpassos li::before{content:"0" counter(f);grid-row:span 2;width:38px;height:38px;border-radius:50%;display:grid;place-items:center;box-shadow:inset 0 0 0 1.5px var(--verde-cl);color:var(--verde-cl);font:500 13px var(--mono)}
+.fpassos b,.fregras b{color:var(--creme);display:block;font-weight:600}
+.fregras{list-style:none;margin-top:18px;display:grid;gap:14px;color:var(--texto2);font-size:15px}
+.fregras li{padding-left:16px;border-left:2px solid var(--verde)}
+.de{flex-wrap:wrap;row-gap:6px}.pag b{white-space:nowrap}
 /* GARANTIA + FAQ */
 .gar{padding:110px 0}
 .gar .gr{display:grid;grid-template-columns:1fr 1fr;gap:60px}
@@ -365,20 +394,20 @@ footer a{display:block;margin:6px 0}footer a:hover{color:var(--creme)}
     <span class="etq rv">Planos</span>
     <h2 class="rv" style="margin-top:18px">Escolha o ritmo da sua pizzaria.</h2>
     <p class="sub rv" style="margin:18px auto 0">Pagamento sempre antes do mês começar. Quanto maior o prazo, menor a mensalidade.</p>
-    <div class="chave rv" id="chave"><span class="bg"></span><button data-p="tri">Trimestral</button><button data-p="sem" class="on">Semestral<em>−13%</em></button><button data-p="anu">Anual<em>−27%</em></button></div>
+    <div class="chave rv" id="chave"><span class="bg"></span><button data-p="tri">Trimestral</button><button data-p="sem" class="on">Semestral<em>até −13%</em></button><button data-p="anu">Anual<em>até −27%</em></button></div>
   </div>
   <div class="w">
     <div class="p3" style="text-align:left">
       <div class="pl rv"><h3>Muralha</h3><p class="para">Para começar a vender direto, com anúncio e cardápio digital.</p>
-        <div class="preco"><b data-plano="mur">R$ 1.797</b><span>/mês</span></div><div class="tot" data-tot="mur"></div>
+        <div class="de" data-de="mur"></div><div class="preco"><b data-plano="mur">R$ 1.797</b><span>/mês</span></div><div class="tot" data-tot="mur"></div><div class="pag" data-pag="mur"></div>
         <ul><li>4 criativos por mês, editados e narrados</li><li>Gestão de anúncios no Meta</li><li>WhatsApp e cardápio digital organizados</li><li>Gravação a cada 2 meses</li><li>Relatório mensal</li><li class="nao">Instagram e iFood</li></ul>
         <a class="btn l" href="#diagnostico" data-escolha="Muralha">Quero o Muralha</a></div>
       <div class="pl dest rv"><span class="tag">O MAIS ESCOLHIDO</span><h3>Fortaleza</h3><p class="para">Anúncio, Instagram e iFood trabalhando juntos todo mês.</p>
-        <div class="preco"><b data-plano="for">R$ 2.597</b><span>/mês</span></div><div class="tot" data-tot="for"></div>
+        <div class="de" data-de="for"></div><div class="preco"><b data-plano="for">R$ 2.597</b><span>/mês</span></div><div class="tot" data-tot="for"></div><div class="pag" data-pag="for"></div>
         <ul><li>8 criativos por mês, editados e narrados</li><li>Gestão de anúncios no Meta</li><li>WhatsApp e cardápio digital organizados</li><li>Instagram: calendário, posts e stories</li><li>Cardápio do iFood organizado</li><li>Gravação todo mês</li><li>Relatório mensal</li></ul>
         <a class="btn b" href="#diagnostico" data-escolha="Fortaleza">Quero o Fortaleza</a></div>
       <div class="pl rv"><h3>Cidadela ▲</h3><p class="para">Tudo do Fortaleza, com exclusividade no seu bairro e relatório semanal.</p>
-        <div class="preco"><b data-plano="cid">R$ 3.697</b><span>/mês</span></div><div class="tot" data-tot="cid"></div>
+        <div class="de" data-de="cid"></div><div class="preco"><b data-plano="cid">R$ 3.697</b><span>/mês</span></div><div class="tot" data-tot="cid"></div><div class="pag" data-pag="cid"></div>
         <ul><li>Tudo do Fortaleza</li><li>Relatório toda segunda</li><li>Reunião estratégica mensal</li><li>Grupo de WhatsApp com o estrategista</li><li>Exclusividade no seu bairro*</li></ul>
         <a class="btn l" href="#diagnostico" data-escolha="Cidadela">Quero a Cidadela</a></div>
     </div>
@@ -387,20 +416,69 @@ footer a{display:block;margin:6px 0}footer a:hover{color:var(--creme)}
       <div><b>Como pagar</b>Contrato inteiro no Pix com 5% de desconto, ou até 12x no cartão. Também dá para pagar mês a mês, sempre antes do mês.</div>
       <div><b>*Exclusividade</b>Na Cidadela, não atendemos outra pizzaria do seu bairro enquanto o seu contrato estiver ativo e em dia.</div>
     </div>
+    <div class="comp rv"><span class="etq">Compare os planos</span><h3 style="margin-top:14px">O que entra em cada um.</h3>
+      <div class="tabw"><table class="tab">
+        <tr><th>O que a sua pizzaria recebe</th><th>Muralha</th><th class="col-for">Fortaleza</th><th>Cidadela ▲</th></tr>
+        <tr><td>Criativos de anúncio por mês (vídeos editados e narrados)</td><td class="mono">4</td><td class="mono col-for">8</td><td class="mono">8</td></tr>
+        <tr><td>Gestão de anúncios no Instagram e Facebook, ajustada toda semana</td><td class="s">✓</td><td class="s col-for">✓</td><td class="s">✓</td></tr>
+        <tr><td>WhatsApp e cardápio digital organizados, com roteiro de atendimento</td><td class="s">✓</td><td class="s col-for">✓</td><td class="s">✓</td></tr>
+        <tr><td>Código em cada anúncio para saber o que vendeu</td><td class="s">✓</td><td class="s col-for">✓</td><td class="s">✓</td></tr>
+        <tr><td>Gravação na pizzaria (uma manhã)</td><td>a cada 2 meses</td><td class="col-for">todo mês</td><td>todo mês</td></tr>
+        <tr><td>Instagram: calendário, posts e stories</td><td class="x">—</td><td class="s col-for">✓</td><td class="s">✓</td></tr>
+        <tr><td>Cardápio do iFood: fotos, descrições, combos e destaques</td><td class="x">—</td><td class="s col-for">✓</td><td class="s">✓</td></tr>
+        <tr><td>Relatório com investido, pedidos, retorno e próximo passo</td><td>mensal</td><td class="col-for">mensal</td><td>toda segunda</td></tr>
+        <tr><td>Reunião estratégica por vídeo</td><td class="x">—</td><td class="x col-for">—</td><td>mensal</td></tr>
+        <tr><td>Grupo de WhatsApp com o estrategista</td><td class="x">—</td><td class="x col-for">—</td><td class="s">✓</td></tr>
+        <tr><td>Exclusividade: nenhuma outra pizzaria do seu bairro</td><td class="x">—</td><td class="x col-for">—</td><td class="s">✓</td></tr>
+        <tr><td>Garantia de entrega (se faltar entrega nossa, você não paga o mês)</td><td class="s">✓</td><td class="s col-for">✓</td><td class="s">✓</td></tr>
+      </table></div>
+    </div>
+    <div class="comp rv"><span class="etq">Valores e descontos</span><h3 style="margin-top:14px">Quanto maior o prazo, mais você economiza.</h3>
+      <div class="tabw"><table class="tab" id="tabprecos"></table></div>
+      <p style="color:var(--cinza);font-size:13.5px;margin-top:14px">Economia calculada contra o preço do plano trimestral. No Pix, com o contrato inteiro pago à vista, entra mais 5% de desconto. No cartão, o contrato pode ser parcelado em até 12x. A verba de anúncio é paga à parte, direto à Meta.</p>
+    </div>
   </div>
 </section>
 
-<!-- FUNDADORAS -->
+<!-- FUNDADORAS · detalhada (pedido do Lindson, 06/11): preço de fundadora por plano, troca, regras e passos -->
 <section class="fund">
   <div class="w"><div class="box rv">
     <div class="tx">
       <span class="etq" style="color:#cfe8d8">Condição de fundadora</span>
       <h2 style="margin-top:16px;font-size:clamp(34px,4.4vw,56px)">5 vagas para as primeiras pizzarias.</h2>
-      <div class="vagas" aria-label="5 vagas"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span></div>
-      <ul><li>Preço do plano anual no contrato de 6 meses</li><li>Em troca: autorização por escrito para mostrar os seus números como case</li><li>E um depoimento no 3º mês, se você estiver satisfeito</li></ul>
+      <p style="color:#dce9e0;margin-top:16px;max-width:520px">As 5 primeiras pizzarias pagam o preço do plano anual, mas assinam só 6 meses. É o nosso jeito de começar com quem acredita primeiro.</p>
+      <div class="vagas" aria-label="5 vagas"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><small>5 de 5 disponíveis</small></div>
       <a class="btn b" href="#diagnostico">Quero uma vaga de fundadora</a>
     </div>
     <div class="fo" role="img" aria-label="Pizza saindo do forno"></div>
+  </div>
+  <div class="fgr">
+    <div class="fcol rv"><span class="etq">Quanto a fundadora paga</span>
+      <div class="tabw" style="margin-top:16px"><table class="tab">
+        <tr><th>Plano · 6 meses</th><th>Preço normal</th><th>Fundadora</th><th>Economia</th></tr>
+        <tr><td><b style="color:var(--creme)">Muralha</b></td><td class="mono"><s>R$ 1.797</s>/mês</td><td class="mono" style="color:var(--verde-cl)">R$ 1.597/mês</td><td class="mono"><span class="ok">R$ 1.200</span></td></tr>
+        <tr class="col-for"><td><b style="color:var(--creme)">Fortaleza</b></td><td class="mono"><s>R$ 2.597</s>/mês</td><td class="mono" style="color:var(--verde-cl)">R$ 2.197/mês</td><td class="mono"><span class="ok">R$ 2.400</span></td></tr>
+        <tr><td><b style="color:var(--creme)">Cidadela ▲</b></td><td class="mono"><s>R$ 3.697</s>/mês</td><td class="mono" style="color:var(--verde-cl)">R$ 3.497/mês</td><td class="mono"><span class="ok">R$ 1.200</span></td></tr>
+      </table></div>
+      <p class="fnota">Total de 6 meses da fundadora: Muralha R$ 9.582, Fortaleza R$ 13.182, Cidadela R$ 20.982. No Pix à vista, mais 5% de desconto; no cartão, até 12x.</p>
+    </div>
+    <div class="fcol rv"><span class="etq">Como funciona</span>
+      <ol class="fpassos">
+        <li><b>Diagnóstico</b>Uma conversa para ver se a sua pizzaria está no momento certo.</li>
+        <li><b>Contrato de 6 meses</b>Com a condição de fundadora escrita, no plano que você escolher.</li>
+        <li><b>Gravação e campanha no ar</b>A gente grava na sua pizzaria e coloca os anúncios para rodar.</li>
+        <li><b>Relatório e ajuste</b>Você acompanha os números e a gente ajusta o que precisa.</li>
+      </ol>
+    </div>
+    <div class="fcol rv"><span class="etq">O combinado</span>
+      <ul class="fregras">
+        <li><b>Você ganha</b>Preço do anual no contrato de 6 meses, com tudo o que o plano escolhido inclui.</li>
+        <li><b>Você autoriza, por escrito</b>Mostrar os números da sua campanha como case. Sem autorização, nada é mostrado.</li>
+        <li><b>Se estiver satisfeito</b>Um depoimento em vídeo no 3º mês. Não é obrigatório.</li>
+        <li><b>Vagas de verdade</b>São só 5. Quando acabarem, vale a tabela normal.</li>
+        <li><b>Mesmas regras</b>Pagamento antes do mês, verba de anúncio a partir de R$ 1.000 paga direto à Meta e garantia de entrega.</li>
+      </ul>
+    </div>
   </div></div>
 </section>
 
@@ -503,8 +581,17 @@ addEventListener('scroll',()=>{const r=ps.getBoundingClientRect(),k=Math.min(1,M
 const P={tri:{mur:1997,for:2997,cid:3997,m:3},sem:{mur:1797,for:2597,cid:3697,m:6},anu:{mur:1597,for:2197,cid:3497,m:12}};
 const brl=v=>'R$ '+v.toLocaleString('pt-BR');
 const chave=document.getElementById('chave'),bg=chave.querySelector('.bg');
+const NOME={mur:'Muralha',for:'Fortaleza',cid:'Cidadela ▲'},PRZ={tri:'Trimestral · 3 meses',sem:'Semestral · 6 meses',anu:'Anual · 12 meses'};
 function prazo(p){chave.querySelectorAll('button').forEach(b=>b.classList.toggle('on',b.dataset.p===p));const on=chave.querySelector('.on');bg.style.left=on.offsetLeft+'px';bg.style.width=on.offsetWidth+'px';
- ['mur','for','cid'].forEach(k=>{document.querySelector(`[data-plano="${k}"]`).textContent=brl(P[p][k]);document.querySelector(`[data-tot="${k}"]`).textContent=`${P[p].m} meses · ${brl(P[p][k]*P[p].m)} no contrato`})}
+ ['mur','for','cid'].forEach(k=>{const v=P[p][k],m=P[p].m,tot=v*m,base=P.tri[k],eco=(base-v)*m,pc=Math.round((1-v/base)*100);
+  document.querySelector(`[data-plano="${k}"]`).textContent=brl(v);
+  document.querySelector(`[data-de="${k}"]`).innerHTML=p==='tri'?'<span style="text-decoration:none">Sem desconto no trimestral</span>':`${brl(base)}/mês <span class="eco">−${pc}% · economiza ${brl(eco)}</span>`;
+  document.querySelector(`[data-tot="${k}"]`).textContent=`${m} meses · ${brl(tot)} no contrato`;
+  document.querySelector(`[data-pag="${k}"]`).innerHTML=`<div><span>Pix à vista (−5%)</span><b>${brl(Math.round(tot*.95))}</b></div><div><span>ou no cartão</span><b>até 12x</b></div><div><span>ou mês a mês, antes do mês</span><b>${brl(v)}/mês</b></div>`})}
+(function(){let h='<tr><th>Plano</th><th>Prazo</th><th>Por mês</th><th>Total do contrato</th><th>Você economiza</th><th>Pix à vista (−5%)</th></tr>';
+ ['mur','for','cid'].forEach(k=>['tri','sem','anu'].forEach(p=>{const v=P[p][k],m=P[p].m,tot=v*m,eco=(P.tri[k]-v)*m,pc=Math.round((1-v/P.tri[k])*100);
+  h+=`<tr${k==='for'?' class="col-for"':''}><td>${p==='tri'?'<b style="color:var(--creme)">'+NOME[k]+'</b>':''}</td><td>${PRZ[p]}</td><td class="mono">${brl(v)}</td><td class="mono">${brl(tot)}</td><td class="mono">${eco?'<span class="ok">'+brl(eco)+' (−'+pc+'%)</span>':'—'}</td><td class="mono">${brl(Math.round(tot*.95))}</td></tr>`}));
+ document.getElementById('tabprecos').innerHTML=h})();
 chave.querySelectorAll('button').forEach(b=>b.onclick=()=>prazo(b.dataset.p));addEventListener('load',()=>prazo('sem'));addEventListener('resize',()=>prazo(chave.querySelector('.on').dataset.p));prazo('sem');
 // formulário que filtra (corte aprovado: faturamento a partir de R$ 30 mil e R$ 1.000 de anúncio)
 const R={};document.querySelectorAll('.ops').forEach(g=>g.querySelectorAll('button').forEach(b=>b.onclick=()=>{g.querySelectorAll('button').forEach(x=>x.classList.remove('on'));b.classList.add('on');R[g.dataset.campo]=b.dataset.v;progresso()}));
