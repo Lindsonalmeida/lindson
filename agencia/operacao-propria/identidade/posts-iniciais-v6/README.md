@@ -6,6 +6,10 @@ A direção visual v6 foi aprovada pelo Lindson em 05/11/2026. As peças usam a 
 
 Os SVGs são autossuficientes: cada foto conceitual está incorporada na própria arte. As imagens foram geradas para estes rascunhos; não representam clientes nem produtos reais. Antes de usar fotos de uma pizzaria atendida, substituir por imagem autorizada por escrito.
 
+## Alternativa gratuita animada
+
+Arquivo: `post-03-ritmo-animado.svg`. É uma versão em movimento do mesmo post 03: zoom suave na foto e entrada sequencial dos serviços. Não usa créditos de vídeo. O arquivo é SVG animado para navegador e site; não é um MP4 para Reels. A mesma foto aparece nas duas versões porque são formatos do mesmo conteúdo.
+
 ## 01 · Manifesto
 
 Arquivo: `post-01-manifesto.svg`
