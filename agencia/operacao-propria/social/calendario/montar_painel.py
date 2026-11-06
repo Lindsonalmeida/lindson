@@ -100,6 +100,11 @@ if os.path.exists(os.path.join(PERFIL, 'previa-perfil.jpg')):
     shutil.copy(os.path.join(PERFIL, 'previa-perfil.jpg'), os.path.join(OUT, 'perfil-previa.jpg'))
     APROV.insert(0, {"t": "Perfil", "titulo": "Perfil do Instagram · bio, foto e destaques", "data": "Fazer antes da 1ª postagem", "linha": "Perfil", "st": "aguardando",
                      "img": "/painel/oregano/artes/perfil-previa.jpg", "legenda": bio})
+    extra = [('avatar-1080.jpg', 'Perfil', 'Foto de perfil @oreganoturbo', 'Subir como foto de perfil (1080×1080)')]
+    extra += [(os.path.basename(f), 'Destaque', 'Capa de destaque · ' + os.path.basename(f)[11:-4].replace('-', ' ').title(), 'Subir nas capas dos destaques') for f in sorted(glob.glob(os.path.join(PERFIL, 'destaque-*.jpg')))]
+    for k, (arq, t, tit, quando) in enumerate(extra, 1):
+        shutil.copy(os.path.join(PERFIL, arq), os.path.join(OUT, 'perfil-' + arq))
+        APROV.insert(k, {"t": t, "titulo": tit, "data": quando, "linha": "Perfil", "st": "aguardando", "img": "/painel/oregano/artes/perfil-" + arq, "legenda": ""})
 i = s.index('const APROV=') + len('const APROV='); j = s.index('];', i) + 1
 s = s[:i] + json.dumps(APROV, ensure_ascii=False) + s[j:]
 s = s.replace('Desentupidora SF', 'Orégano Turbo')
