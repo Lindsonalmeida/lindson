@@ -366,3 +366,13 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 - **06/11/2026 (conta Leandro) — Régua de identidade visual do Lindson:** "isso é o que chamo de identidade visual de verdade, impactante, criativa", sobre as páginas de Decaf Girl (Misato Studio), HOTWHIZ, Mario hot sauce e as pizzarias italianas do Pinterest (Crosta, Zestino, Pizzino). REPROVADO: coisa simplista, espaço em branco, imagem pequena. APROVADO como direção: foto de produto com atitude (cor chapada saturada, flash, mão, gente comendo, grande-angular), manchete gorda, sistema aplicado em objetos. Agente **Paollo** criado com essa régua; biblioteca em `agencia/operacao-propria/biblioteca-pizzaria/`.
 - **06/11/2026 (conta Leandro, sessão paralela Paollo) — Orégano Turbo, kit de Instagram entregue (aguardando o Lindson):** pedido "artes mais impactantes e que chamem atenção para as vendas", "pode parecer uma pizzaria", "nunca me dê coisas simplistas", "menos espaços em branco, imagens". Feito: identidade v3 + vocabulário de pizzaria (xadrez, Bagel Fat One/Anton, selos, pizza recortada grande), 12 posts + carrossel 7 telas + 3 stories, legendas SEO. Sem promessa, números marcados ilustrativos. Em `agencia/operacao-propria/social/`.
 - **06/11/2026 (conta Leandro, sessão paralela Paollo + Rocco) — Kit de Instagram v2 campanha:** aplicada a régua "identidade visual de verdade" às 22 artes do @oreganoturbo (cor chapada, flash, produto enorme, ingredientes voando, manchete curta inclinada). Aguardando o Lindson. Falta para o nível das favoritas: foto produzida com gente (mordida, mão com caixa, céu), via Nano Banana ou sessão numa fundadora.
+- **06/11/2026 (conta Leandro) — APROVADO, É O PADRÃO:** "AGORA SIM, ESSE É O PADRÃO", sobre o kit social v3 do @oreganoturbo feito pelo agente Paollo (`agencia/operacao-propria/social/v3/`, 9 posts e 3 stories).
+  - **O padrão:**
+    - fotos de campanha geradas no Gemini (flash, cor chapada, produto enorme, gente comendo), recortadas;
+    - manchete gorda passando por trás do produto ou do rosto;
+    - sistema da marca em volta: xadrez, selos, estrela de preço, adesivos girados, faixas em loop, tarja com logo e @;
+    - cada post numa composição diferente, copiada da biblioteca;
+    - chamada para o zap em todos;
+    - zero espaço vazio.
+  - **REPROVADO antes:** foto inteira com manchete jogada no canto (`pecas-campanha/`) e o kit v1/v2 com recortes de banco.
+  - Este é o modelo para toda arte de pizzaria (Orégano Turbo e clientes).
