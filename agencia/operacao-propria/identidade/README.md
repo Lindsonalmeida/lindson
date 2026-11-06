@@ -1,6 +1,6 @@
 # Orégano Turbo · identidade visual (conta Leandro, 05/11/2026)
 
-**v2 premium (atual):** `gerar2.py` → `node render2.js` → `pecas-v2/`
+**v2 premium (histórica; sucedida pela v3):** `gerar2.py` → `node render2.js` → `pecas-v2/`
 - **Prancha da marca (5 páginas 4:5):** capa, sistema (selo, nome, personagem), cores e letras, personagem, aplicações.
 - **Instagram:** `v2-avatar.png` (foto de perfil), 6 capas de destaque (`v2-destaque-*`) e 1 post de exemplo.
 
@@ -24,7 +24,7 @@
 - aprovação do Lindson;
 - os 3 primeiros posts.
 
-## v3 · direção séria (05/11/2026, conta Leandro), a versão atual
+## v3 · direção séria (05/11/2026, conta Leandro), baseline anterior preservada
 - **Pedido do Lindson:** "prefiro coisa mais séria, imagens reais, mockups" e "pense na persona".
 - **Gerar:** `python3 gerar3.py && node render3.js` → `pecas-v3/` (11 pranchas).
 - **Manual:** `python3 manual3.py && node manual-pdf.js manual3.html oregano-turbo-manual-v3.pdf`. O PDF fica no privado `dados/agencia/oregano-turbo/`.
@@ -45,7 +45,11 @@
 
 
 ## v6 · direção centrada em comida (05/11/2026, após feedback do Lindson)
-- Proposta “Mais apetite. Menos achismo.”: fotografia de pizza primeiro, tecnologia como apoio de processo.
+- Direção “Mais apetite. Menos achismo.”: fotografia de pizza primeiro, tecnologia como apoio de processo.
 - Prancha: marca-v6/prancha-v6.svg; foto-conceito: marca-v6/foto-conceito-v6.jpg; sistema: CONCEITO-V6.md; pesquisa: TEMPLATE-V6.md (8 referências, 6 países).
 - Agentes consultados: Alina Wheeler (identidade) e Visual Generator (direção visual). Não há agente de comida instalado localmente.
-- Status: proposta para aprovação; v3 preservada. A foto é gerada para conceito, não foto de cliente. Capturas novas das referências ainda pendentes.
+- **Status:** aprovada pelo Lindson em 05/11/2026; v3 preservada no histórico. A foto da prancha é gerada para conceito, não é cliente nem produto real. Capturas novas das referências ainda pendentes.
+
+## Primeiros posts · rascunhos v6
+- Três artes e legendas em `posts-iniciais-v6/`.
+- Estão em revisão, não foram agendadas nem publicadas. Cada foto conceitual é única e não representa cliente; substituir por foto autorizada antes de mostrar um produto real.
