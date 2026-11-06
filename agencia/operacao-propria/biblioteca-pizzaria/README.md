@@ -39,3 +39,48 @@
 5. Selos e adesivos redondos para dar personalidade.
 6. Cada post usa uma composição diferente (palavra gigante, comida voando, interface, cardápio, humor, cartaz).
 7. Aplicações em mockup realista: caixa, camiseta, copo, sacola, fachada.
+
+## Atualização 06/11: mais buscas do Pinterest e as FAVORITAS do Lindson
+**Buscas novas** (o Lindson mandou), em `pinterest/img/`:
+- `busca-*` (35 imagens);
+- `italiana-*` (15);
+- `retro-*` (23);
+- `logomarca-*` (39);
+- `pizzaria-iv-*` (38);
+- `branding-pizzeria-*` (18);
+- `pizzaria-branding-*` (17).
+
+As buscas trazem também imagens fora do tema (anime, moda); ignore-as.
+
+### FAVORITAS do Lindson ("adoro esse tipo de imagem"), em `favoritas/`
+| Pin | O que é | O que ensina |
+|---|---|---|
+| `pin-1144969905302172033.jpg` (HOTWHIZ, molho de pimenta) | Rapaz com a boca suja de molho mordendo frango, segurando o frasco perto da câmera, fundo verde-limão chapado | **Foto de produto hiper-real com fundo de cor saturada, flash duro, comida "bagunçada" e mão segurando o produto para a câmera** |
+| `pin-596727019425705784.jpg` (Mario hot sauce) | 3 frascos dentro de cesta de mercado vista de cima, pimentas em volta, fundo laranja chapado; rótulos com estrela e letra gorda | **Produto visto de cima numa cesta, fundo de uma cor só, rótulo com selo de estrela** |
+| `pin-962081539173882007.jpg` (Decaf Girl, Misato Studio) | Lata vermelha listrada segurada em grande-angular contra céu azul, sol, cidade; espuma derramando | **Grande-angular de baixo, céu azul, sol forte, produto enorme na mão; direção de arte "feita para parar a rolagem"** |
+
+**Regra tirada das favoritas:** o que mais chama o Lindson é **foto de produto com atitude**:
+- cor chapada saturada no fundo (limão, laranja, vermelho, azul-céu);
+- luz dura de flash;
+- comida ou embalagem enorme na frente da câmera;
+- mão segurando;
+- gente comendo de verdade, com bagunça;
+- ângulo de baixo.
+
+Para pizza:
+- fatia com queijo puxando na mão contra fundo vermelho;
+- caixa aberta segurada para a câmera contra o céu;
+- pizza vista de cima numa cesta ou bandeja sobre cor chapada;
+- motoboy com a caixa em grande-angular;
+- pessoa mordendo a fatia com o queijo esticando.
+
+### Mais aprendizados das buscas
+- **Xadrez gingham verde e branco** (Jonny's Pizza) e listras verde e vermelho (Massa): o padrão é a marca.
+- **Letreiro americano vintage** (Millie's Pizza & Wine, Gianni's Pizza): letra de placa, mascote em traço, creme, vermelho e verde.
+- **Foto de gente real com a marca:** boné, avental, mordida (Crosta, Zestino).
+- **Cartaz de evento retrô** ("Retro Pizza National Day": mascote, selo de preço, desconto).
+- **Paletas que se repetem:**
+  - vermelho, creme e verde (italiana);
+  - vermelho, amarelo e verde (pop);
+  - verde-escuro e creme (premium).
+
