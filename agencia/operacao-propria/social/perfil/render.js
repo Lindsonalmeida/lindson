@@ -1,0 +1,11 @@
+// Renderiza cada <section class="f"> de perfil.html em <id>.jpg (qualidade 92). Paollo, 06/11/2026 (cópia de ../calendario/artes/s3-4/render.js).
+// Uso: node render.js [trecho-do-id]
+const { chromium } = require('playwright'); const path = require('path');
+(async () => { const d = __dirname;
+  const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: 1200, height: 2800 }, deviceScaleFactor: 1 });
+  await p.goto('file://' + path.join(d, 'perfil.html'), { waitUntil: 'networkidle' }); await p.evaluate(() => document.fonts.ready);
+  await p.waitForTimeout(800); await p.evaluate(() => window.fit()); await p.waitForTimeout(200);
+  const only = process.argv[2];
+  for (const el of await p.$$('section.f')) { const id = await el.getAttribute('id'); if (only && !id.includes(only)) continue;
+    await el.screenshot({ type: 'jpeg', quality: 92, path: path.join(d, id + '.jpg') }); }
+  await b.close(); })();
