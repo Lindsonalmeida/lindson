@@ -1,8 +1,8 @@
 # Orégano Turbo · primeiros posts v6
 
-**Status:** três rascunhos para revisão. Não foram agendados nem publicados.
+**Status:** arquivados após a escolha da identidade v3 em 06/11/2026. Não usar nem publicar; recriar as peças no sistema v3.
 
-A direção visual v6 foi aprovada pelo Lindson em 05/11/2026. As peças usam a paleta e o sistema aprovados. O texto segue as decisões de venda e o padrão de copy em `agencia/prospeccao/PADRAO-COPY.md`: linguagem simples, sem preço, jargão ou promessa de resultado.
+A direção visual v6 foi aprovada anteriormente, mas deixou de ser a direção vigente após a escolha da v3. As peças usam a paleta e o sistema aprovados. O texto segue as decisões de venda e o padrão de copy em `agencia/prospeccao/PADRAO-COPY.md`: linguagem simples, sem preço, jargão ou promessa de resultado.
 
 Os SVGs são autossuficientes: cada foto conceitual está incorporada na própria arte. As imagens foram geradas para estes rascunhos; não representam clientes nem produtos reais. Antes de usar fotos de uma pizzaria atendida, substituir por imagem autorizada por escrito.
 
