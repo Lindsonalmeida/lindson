@@ -1,6 +1,6 @@
 # Orégano Turbo · identidade v6
 
-**Status:** direção v6 aprovada pelo Lindson em 05/11/2026. A v3 permanece preservada no histórico.
+**Status:** proposta histórica não selecionada. Em 06/11/2026, Lindson escolheu a v3 como identidade vigente.
 
 ## Ideia
 **Mais apetite. Menos achismo.** A Orégano Turbo faz marketing para pizzarias. A comida abre a identidade; a camada digital organiza pauta, conteúdo e anúncios.
