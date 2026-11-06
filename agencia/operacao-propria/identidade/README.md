@@ -20,16 +20,15 @@
 - `marca-v2/` com 12 vetores SVG de texto em curvas (de `vetores.py`, com as fontes do Google Fonts);
 - `oregano-turbo-identidade-completa.zip` com tudo (montado na hora, fora do Git).
 
-**Falta:**
-- aprovação do Lindson;
-- os 3 primeiros posts.
+**Pendente na entrega v2 (histórico):** aprovação e os 3 primeiros posts; a v3 sucedeu essa versão.
 
-## v3 · direção séria (05/11/2026, conta Leandro), baseline anterior preservada
+## v3 · direção séria (05/11/2026), direção escolhida pelo Lindson em 06/11/2026
 - **Pedido do Lindson:** "prefiro coisa mais séria, imagens reais, mockups" e "pense na persona".
 - **Gerar:** `python3 gerar3.py && node render3.js` → `pecas-v3/` (11 pranchas).
 - **Manual:** `python3 manual3.py && node manual-pdf.js manual3.html oregano-turbo-manual-v3.pdf`. O PDF fica no privado `dados/agencia/oregano-turbo/`.
 - **Fotos e créditos:** `fotos-v3/`. **Símbolo em vetor:** `marca-v3/`. **Pesquisa (11 referências, 8 países):** `TEMPLATE.md`, seção v3; capturas em `referencias-v3/`.
 - A v1 (mascote) e a v2 (selo lúdico) ficam só como histórico.
+- **Status atual:** identidade v3 escolhida pelo Lindson; seguir o sistema descrito em `DECISAO-IDENTIDADE-V3.md`.
 
 
 ## v4 · proposta Cassandra para revisão (05/11/2026)
@@ -48,8 +47,8 @@
 - Direção “Mais apetite. Menos achismo.”: fotografia de pizza primeiro, tecnologia como apoio de processo.
 - Prancha: marca-v6/prancha-v6.svg; foto-conceito: marca-v6/foto-conceito-v6.jpg; sistema: CONCEITO-V6.md; pesquisa: TEMPLATE-V6.md (8 referências, 6 países).
 - Agentes consultados: Alina Wheeler (identidade) e Visual Generator (direção visual). Não há agente de comida instalado localmente.
-- **Status:** aprovada pelo Lindson em 05/11/2026; v3 preservada no histórico. A foto da prancha é gerada para conceito, não é cliente nem produto real. Capturas novas das referências ainda pendentes.
+- **Status:** direção alternativa preservada como histórico. A v3 é a identidade vigente desde 06/11/2026.
 
-## Primeiros posts · rascunhos v6
-- Três artes e legendas em `posts-iniciais-v6/`.
-- Estão em revisão, não foram agendadas nem publicadas. Cada foto conceitual é única e não representa cliente; substituir por foto autorizada antes de mostrar um produto real.
+## Posts v6 · arquivos históricos
+- Os três rascunhos e a animação em `posts-iniciais-v6/` foram feitos na direção v6.
+- Estão arquivados e não devem ser usados na comunicação atual. Recriar os posts seguindo a v3.
