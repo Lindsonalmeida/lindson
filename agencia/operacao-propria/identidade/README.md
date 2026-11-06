@@ -30,3 +30,13 @@
 - **Manual:** `python3 manual3.py && node manual-pdf.js manual3.html oregano-turbo-manual-v3.pdf`. O PDF fica no privado `dados/agencia/oregano-turbo/`.
 - **Fotos e créditos:** `fotos-v3/`. **Símbolo em vetor:** `marca-v3/`. **Pesquisa (11 referências, 8 países):** `TEMPLATE.md`, seção v3; capturas em `referencias-v3/`.
 - A v1 (mascote) e a v2 (selo lúdico) ficam só como histórico.
+
+## v4 · impacto (06/11/2026, Paollo · conta Leandro, sessão paralela), a versão atual
+- **Pedido do Lindson:** "identidade visual aprovada. apenas melhore para ter mais impacto, conexão, visual impactantes, imagens, menos espaços em branco" · "pode parecer uma pizzaria" · "nunca me dê coisas simplistas".
+- **O que é:** a v3 aprovada (nome, símbolo, Inter Tight/Inter/IBM Plex Mono, carvão, verde, creme, brasa) **mais** Anton nas manchetes, tomate #D42A1F e açafrão #F2B33D, xadrez de cantina, padrão de 10 ícones em traço, selos redondos e comida recortada saindo da arte.
+- **Gerar:** `python3 gerar4.py && node render4.js` → `pecas-v4/` (17 pranchas 1080×1350 + avatar 1080×1080). `SO=v4-08 python3 gerar4.py` gera só uma.
+  - 01 capa · 02 logo e versões · 03 logo sobre foto · 04 cores · 05 letras · 06 padrões e selos · 07 fotografia · 08 caixa de pizza (3D em CSS) · 09 camiseta e avental · 10 copo, sacola e adesivo · 11 cartão e proposta · 12 celular (WhatsApp e relatório) · 13 Instagram (perfil e grade) · 14 post "Terça fraca?" · 15 post "PIZZA" · 16 avatar · 17 linguagem de campanha (grade de 4 cores).
+- **Recortes:** `python3 recortar4.py fotos-v4/<foto>.jpg` (BiRefNet via rembg, um por processo) → `recortes-v4/*.png`.
+- **Manual:** `python3 manual4.py && node manual-pdf.js manual4.html oregano-turbo-manual-v4.pdf` (18 páginas: capa, ficha técnica no estilo Colletivo, 16 pranchas, créditos). O HTML e o PDF ficam fora do Git (`.gitignore`); o PDF vai para o privado `dados/agencia/oregano-turbo/`.
+- **Pesquisa e decisões:** `TEMPLATE.md`, seção v4; capturas novas em `referencias-v4/`.
+- **Situação:** aguardando aprovação do Lindson.

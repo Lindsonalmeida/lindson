@@ -111,3 +111,49 @@ O Lindson perguntou: "você acha que um dono de pizzaria vai querer comprar de u
 **Fotos:** Wikimedia Commons, CC BY / BY-SA, créditos em `fotos-v3/CREDITOS.md`. Só entram na identidade; nos posts de cliente vai a foto real da pizzaria do cliente.
 
 **Números dos mockups:** são ilustrativos e estão marcados assim. Nunca publicar como resultado.
+
+---
+
+# v4 · IMPACTO (06/11/2026, Paollo · conta Leandro, sessão paralela)
+
+**Pedido do Lindson:** "identidade visual aprovada. apenas melhore para ter mais impacto, conexão, visual impactantes, imagens, menos espaços em branco" · "pode parecer uma pizzaria" · "nunca me dê coisas simplistas. eu gosto de coisas impactantes". Régua dele (06/11, na biblioteca): "isso é o que chamo de identidade visual de verdade, impactante, criativa" (foto de produto com atitude, cor chapada, comida enorme, palavra gigante atrás).
+
+**Persona (a mesma do BRIEF):** dono de pizzaria em São Luís, 30 a 55 anos, no balcão e no celular. Confia em seriedade, foto real e número. O teste da v4: ele olha e pensa "esses entendem de pizzaria" (comida, forno, caixa) e "é empresa séria" (a marca v3 continua inteira).
+
+**O que NÃO mudou (aprovado na v3):** nome, símbolo da folha com seta, logo em Inter Tight 800, Inter no texto, IBM Plex Mono nos números, carvão, verde, creme e brasa.
+
+## Pesquisa v4
+Base: a biblioteca do Paollo (`../biblioteca-pizzaria/`, 37 pins + favoritas do Lindson + 9 projetos do Behance que ele marcou) e a pesquisa v3 (11 referências, 8 países). **Capturas novas desta sessão** (Pinterest, buscas "pizza box packaging design branding", "pizza poster typography bold", "pizzeria brand identity mockup apron cup", "pizza badge sticker design retro"): `referencias-v4/` (10 imagens + `pins-v4.json` + a página do Colletivo). O Pinterest não informa autor nem país na busca sem login; onde a peça mostra, está anotado.
+
+| # | Referência | Origem | O que tem | Situação |
+|---|---|---|---|---|
+| 1 | **Cartaz "Love at first slice"** (`pinterest-cartaz-02.jpg`) | Pinterest (autor não informado) | fatia gigante com queijo puxando cruzando a manchete condensada creme sobre vermelho | **ESCOLHIDA** |
+| 2 | **Cartaz "PULL"** (`pinterest-cartaz-04.jpg`) | Pinterest | palavra gigante + queijo puxando atravessando a letra | **ESCOLHIDA** (junto com a 1) |
+| 3 | **Caixa "agata"** com padrão de ícones em traço (`pinterest-caixa-07.jpg`) | Pinterest | caixa coberta de desenhos em traço único, tom sobre tom | **ESCOLHIDA** |
+| 4 | Selos verdes "El arte de hacer pizza" (`pinterest-selo-04.jpg`) | Pinterest (marca de língua espanhola) | selos redondos com texto em volta, verde e creme | **ESCOLHIDA** (complemento da 3) |
+| 5 | Avental verde "Flan de Lyon" (`pinterest-mockup-02.jpg`) | Pinterest (França, pelo nome) | avental verde com logo pequeno, foto escura de estúdio | Usada no mockup de uniforme |
+| 6 | Cartaz "Metto Monday" (`pinterest-cartaz-08.jpg`) | Pinterest (Luigi's Hot Pizza × Overbruggen) | letra ocupando a página inteira | Usada na régua "sem espaço vazio" |
+| 7 | Caixa xadrez verde "Bella Napoli" (`pinterest-caixa-05.jpg`) | Pinterest | caixa inteira em xadrez de cantina | Descartada: xadrez em tudo vira toalha de mesa; na v4 o xadrez é faixa/lacre |
+| 8 | Cartaz "PIZZA 19,90" (`pinterest-cartaz-03.jpg`) | Pinterest | pizza vista de cima com preço | Descartada: preço em destaque é linguagem do CLIENTE, não da Orégano |
+| 9 | Selos "Happy Pizza" (`pinterest-selo-10.jpg`) | Pinterest (EUA, "Salado, Texas") | dezenas de selos retrô | Descartada: lúdica demais para a persona (o erro da v2) |
+| 10 | Kit "Sorriso" / "Sun Spell" (`pinterest-mockup-03.jpg`) | Pinterest | mockup de loja inteira com copos, camisa e sacola | Descartada: mockup de IA genérico, sem luz real |
+| 11 | **Colletivo · case "Mostra Móbile"** (`colletivo-case.jpg`, enviado pelo Lindson) | Brasil | apresentação de case: foto sangrada, título condensado, "Ficha técnica", "Uma pitada de contextualização" | **Usada no manual** (página 2) |
+| — | Biblioteca: "PIZZA" gigante atrás da pizza, "AQUI NÃO TEM ERRO", "Delivery ON" (xadrez nas bordas), Bella Pizza (foto escura) | Pinterest (Brasil) | | Usadas nos posts 14 e 15 e nas faixas xadrez |
+
+## As 3 combinadas (mostrar ao Lindson)
+1. **"Love at first slice" + "PULL"** → comida recortada maior que a página, cruzando a manchete gigante: capa, letras, post "Terça fraca?", post "PIZZA", grade de campanha.
+2. **Caixa "agata" + selos "El arte"** → padrão de ícones em traço (10 ícones próprios: fatia, folha da marca, tomate, pá, pizza, chama, manjericão, seta, caixa, celular) + selos redondos com texto em volta: caixa, copo, sacola, uniforme, fundos das pranchas.
+3. **Bella Pizza / "Delivery ON" (biblioteca)** → foto escura de forno, xadrez de cantina como faixa e lacre: capa, logo sobre foto, caixa, cartão.
+
+## Decisões da v4 (e por quê)
+- **Tomate #D42A1F entra** (campo grande, oferta, post). Sem vermelho não "parece pizzaria"; o verde sozinho ficava "empresa de agro". A brasa #E4572E continua só em botão, para não brigar com o tomate.
+- **Açafrão #F2B33D entra** (selo, preço, palavra circulada, 5%). É a cor do queijo e do forno e dá o terceiro tom do trio verde, vermelho e amarelo da cantina sem virar bandeira da Itália.
+- **Anton** nas manchetes (1 a 4 palavras, caixa alta). Condensada e pesada, aguenta palavra gigante sem ficar infantil. **Descartadas:** Bagel Fat One e Lilita One, arredondadas demais para a persona (lembram a v1).
+- **Xadrez de cantina** verde/creme ou tomate/creme, como faixa, lacre e fundo de selo. Nunca a peça inteira.
+- **Selos:** só redondos, com texto em IBM Plex Mono em volta e o símbolo ou um ícone no centro.
+- **Foto:** comida recortada (BiRefNet), com sombra, saindo da arte; fundo de cor chapada ou foto escura de forno. Nada de foto pequena no canto.
+- **Sem espaço vazio:** toda prancha tem foto, cor, padrão ou letra ocupando o fundo.
+
+## Conferência (Paollo, antes de entregar)
+- Rodada 1 reprovada por mim: padrão de ícones quebrado (aspas no SVG), títulos cobertos por pizza e celular, rodapés encavalados, camiseta escura sumindo no fundo, tampa da caixa cobrindo o título, cedilha do "TERÇA" escondida pela fatia. Tudo refeito.
+- Rodada final: 17 pranchas sem área vazia; texto legível sobre foto (sombra ou véu); números marcados como ilustrativos; nenhuma promessa de resultado.
