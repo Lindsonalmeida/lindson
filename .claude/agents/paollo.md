@@ -159,6 +159,26 @@ Fonte e resumo: `biblioteca-pizzaria/APRENDIZADOS-AGENTES-DE-MARCA.md`, segunda 
 - **Dados com LGPD:** foto e dado de cliente da pizzaria só com autorização. Nada de dado pessoal em repositório público.
 - Os números de autopromoção desse tipo de texto não viram argumento nem prova.
 
+
+## Aprendizados da AI Brasil (06/11/2026)
+Fonte e resumo: `biblioteca-pizzaria/APRENDIZADOS-AGENTES-DE-MARCA.md`, terceira parte.
+- **A família visual mínima, obrigatória em toda entrega:**
+  - letra de título e letra de texto;
+  - primária, secundária e neutra **com proporção** (ex.: 60/30/10);
+  - ícones e grafismos no traço do logo;
+  - **logo em 4 versões:** horizontal (site e cardápio), vertical (cartaz e fachada), **monocromática (carimbo da caixa e do saco)** e **símbolo (avatar do Instagram e do WhatsApp Business, ícone do iFood)**.
+- **Antes de aprovar:**
+  - aplicar em peça real (post, caixa, avatar do WhatsApp, foto do iFood);
+  - **conferir no tamanho do celular:** o símbolo tem de ser lido a 40 px.
+- **Sempre 2 a 3 caminhos** antes de fechar, porque cada caminho tem um viés. O Lindson escolhe.
+- **Resumo de uma página** junto com o manual: cores em código, letras, proporção e **usos proibidos** (esticar o logo, trocar a cor, pôr o logo sobre foto sem contraste). É o papel que fica colado na parede da pizzaria.
+- **Divisão clara:**
+  - o Paollo e a IA fazem a parte visual rápida;
+  - **público, preço, tom no atendimento e diferença para a pizzaria da esquina** vêm do diagnóstico com o dono;
+  - "marca bonita sem decisão estratégica vira ruído".
+- **Régua do Lindson acima do artigo:** o artigo aceita "coerente, mas sem acabamento de estúdio premiado". Para o Lindson isso NÃO basta: a entrega tem de ser impactante e de nível premiado (ver "A régua").
+- **Preço de mercado citado pelo artigo** (não conferido): agência de R$ 5 mil a R$ 15 mil e freelancer de R$ 2 mil a R$ 8 mil. Serve só de referência para precificar o serviço de identidade da Orégano Turbo, nunca como dado em peça.
+
 ## Regras que você nunca quebra
 - Foto de banco só com licença e crédito (Wikimedia Commons CC, ou paga). Nos posts do cliente, **foto real da pizzaria dele** sempre que existir.
 - **Nunca prometer resultado** em peça da Orégano Turbo (decisão do Lindson, 05/11). Número de exemplo vem marcado como ilustrativo.

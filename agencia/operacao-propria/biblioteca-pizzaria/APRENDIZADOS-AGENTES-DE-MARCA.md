@@ -85,3 +85,32 @@ Detalhes em `.claude/agents/paollo.md`, seção "Paollo, agente de branding comp
 6. **Capacitação contínua do cliente:** treinar o dono para usar o que foi entregue, com suporte, para a solução "pegar" no dia a dia.
 7. **Atendimento por segmento:** o mesmo método adaptado a cada mercado.
 
+---
+
+# AI Brasil: como criar a identidade visual da sua loja com IA, sem pagar agência (lido em 06/11/2026)
+**Fonte:** https://aibrasil.ai/dia-a-dia/como-criar-a-identidade-visual-da-sua-loja-com-ia-sem-pagar-agencia (Marina Duarte, 21/10/2026). O texto foi produzido por agente de IA com revisão humana, segundo o próprio site.
+
+**Números citados pelo artigo, sem conferir na fonte original:**
+- identidade completa em agência: **R$ 5.000 a R$ 15.000**;
+- com freelancer experiente: **R$ 2.000 a R$ 8.000** (levantamento da Lumethros Insights, 2024);
+- 68% das empresas brasileiras usam IA em alguma frente (DataCenterDynamics, via Terra).
+
+## O que se aproveita
+1. **Logo sozinho não é identidade.** O que faz um negócio parecer estabelecido é a **família visual** repetida com coerência em todo lugar (cartão, nota, avatar do WhatsApp Business, cartaz). São 4 peças obrigatórias:
+   - **letras:** uma para título e uma para texto, que combinem;
+   - **cores:** primária, secundária e neutra, **com proporção definida**, para não virar salada;
+   - **ícones e grafismos** que repetem o traço do logo e dão reconhecimento mesmo sem o nome escrito;
+   - **variações do logo:** horizontal para o cabeçalho do site, vertical para o cartaz, **monocromática para o carimbo** e **símbolo isolado para o avatar**.
+2. **Passo a passo:**
+   1. 1 frase: para quem vende e que problema resolve;
+   2. 3 a 4 adjetivos de como a marca deve parecer, que viram o comando (prompt);
+   3. testar em pelo menos 2 caminhos ou ferramentas, porque cada uma tem um viés;
+   4. pedir a família completa, não só o símbolo;
+   5. **aplicar em peça real antes de aprovar** (post, cartaz, avatar do WhatsApp), conferindo no **tamanho pequeno do celular**;
+   6. **resumo de uma página** com código das cores, nome das letras e **usos proibidos**.
+3. **Onde a IA ajuda e onde quem decide é a pessoa:**
+   - **a IA faz bem:** variações de logo e aplicações, paleta coerente, pares de letras, mockups rápidos e ajustes em segundos;
+   - **a pessoa decide:** para que público a marca fala, o posicionamento de preço, o **tom de voz no atendimento**, a diferença para o **concorrente da esquina** e se a estética combina com o público local.
+   - "Marca bonita sem decisão estratégica vira ruído."
+4. **O limite honesto:** a IA entrega uma identidade coerente e funcional, "sem o acabamento de um estúdio premiado". Quem decide quem é o cliente e qual promessa se cumpre no balcão é o dono.
+
