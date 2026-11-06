@@ -88,7 +88,7 @@ O Lindson perguntou: "você acha que um dono de pizzaria vai querer comprar de u
 2. **Owner.com:**
    - mockup do WhatsApp com o pedido chegando;
    - mockup do relatório de segunda;
-   - post de número ("4,1×", marcado como exemplo).
+   - mockup de relatório com dados de demonstração claramente identificados; o post de feed não usa métrica fictícia.
 3. **Lightspeed:**
    - etiquetas em versalete espaçada (IBM Plex Mono);
    - papelaria e capa da proposta e do Raio-X;
