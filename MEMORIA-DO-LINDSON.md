@@ -377,3 +377,10 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
   - **REPROVADO antes:** foto inteira com manchete jogada no canto (`pecas-campanha/`) e o kit v1/v2 com recortes de banco.
   - Este é o modelo para toda arte de pizzaria (Orégano Turbo e clientes).
 - **06/11/2026 (conta Leandro) — REGRA DO LINDSON: imagem é usada UMA ÚNICA VEZ** nas artes da Orégano Turbo: "use imagem uma única vez, e quando acabar me peça mais". O controle fica em `agencia/operacao-propria/social/FOTOS-USADAS.md`. Quando as fotos acabam, mande a ele o próximo lote de pedidos para o Gemini (ex.: `social/calendario/PEDIDO-FOTOS-LOTE-2.txt`).
+- **06/11/2026 (conta Leandro) — Jaci: ANTES E DEPOIS AUTORIZADO, caso a caso.** O Lindson pediu a prova social de um paciente (lipo de papada com 6 meses, toxina botulínica, preenchimento de mandíbula, mento e pré-jowl, bioestimulador). Avisei do risco ético (CFO: Código de Ética art. 44, I; Res. 196/2019) e ele respondeu: "pode fazer, ela autorizou". Vale só para o material que a Jaci liberar, sempre com:
+  - CRO-MA 8514;
+  - "resultados variam de pessoa para pessoa";
+  - foto sem edição;
+  - sem preço e sem promessa.
+
+  Fotos no privado `dados/clientes-arquivos/jaci/material-2026-11-06/`.
