@@ -73,6 +73,8 @@ Sempre que o Lindson pedir algo, acione os agentes especialistas (Xquads em `scr
 
 Para branding, identidade visual e artes de **pizzaria** (Orégano Turbo e pizzarias clientes), acionar o agente **Paollo** (`.claude/agents/paollo.md`), que lê antes a biblioteca `agencia/operacao-propria/biblioteca-pizzaria/`.
 
+Para identidade, campanha, foto, embalagem e arte de **marca de comida e bebida em estilo campanha** ("impactante, criativa, de verdade": cor chapada saturada, flash, produto enorme na mão, gente comendo), acionar o agente **Rocco** (`.claude/agents/rocco.md`), com a lista de cenas e os prompts de `agencia/processos/direcao-de-arte-campanha-comida.md`. Na pizzaria, Rocco e Paollo trabalham juntos.
+
 Para canal dark e monetização no YouTube (Passaporte da Bíblia, Raposa e Leão, nichos novos), acionar o agente **Peter** (`.claude/agents/peter.md`).
 
 ## Capas dos canais dark (decisão do Lindson, 01/11/2026)

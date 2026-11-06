@@ -107,3 +107,4 @@ Todas desligadas desde 26/10 (as de 3 em 3 horas falharam por limite de uso do p
 - `agencia/operacao-propria/site/`: site principal da Orégano Turbo (`index.html`, fotos, TEMPLATE e referências). A prévia fica no privado `oreganoturbo/` (conta Leandro, 06/11/2026).
 - `.claude/agents/paollo.md`: agente **Paollo**, designer especialista em branding e identidade visual só de pizzarias (conta Leandro, 06/11/2026).
 - `agencia/operacao-propria/biblioteca-pizzaria/`: biblioteca de referências de pizzaria (Pinterest, Behance, Designi) com análise peça por peça, base do Paollo (conta Leandro, 06/11/2026).
+- `.claude/agents/rocco.md`: agente **Rocco**, diretor de arte de marca de comida e bebida em estilo campanha (Decaf Girl, HOTWHIZ, Mario hot sauce, Graza). `agencia/processos/direcao-de-arte-campanha-comida.md`: lista de cenas, receita de montagem e prompts de IA (conta Leandro, 06/11/2026).
