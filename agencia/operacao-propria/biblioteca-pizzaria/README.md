@@ -84,3 +84,23 @@ Para pizza:
   - vermelho, amarelo e verde (pop);
   - verde-escuro e creme (premium).
 
+### As páginas completas das favoritas (06/11), em `favoritas/`
+**Projetos de origem:**
+- Mario hot sauce: Instagram @valeri.graphic.
+- HOTWHIZ: Behance 257733719 (bloqueado para acesso automático).
+- Decaf Girl: Misato Studio.
+
+**Os pins relacionados** (`rel-*.jpg`, 51 imagens; `relacionados-*.json` tem os links) mostram a mesma linguagem, que é a **linguagem de campanha de comida que o Lindson ama**:
+1. **Produto voando com o ingrediente explodindo em volta**, em fundo de uma cor (Drip Rio, Mirchi). Para pizza: fatias, calabresa, tomate e manjericão voando.
+2. **Close extremo de boca mordendo**, com o molho escorrendo e frase curta num selo ("Made for every chicken lover who likes it hot"). Para pizza: mordida com o queijo esticando.
+3. **Mão entrando no quadro segurando cesta ou caixa cheia**, fundo vermelho (Peppa Please). Para pizza: mão segurando a caixa aberta.
+4. **Palavra gigante atrás do produto segurado** ("NYC" com o sanduíche na mão; "HOT SAUCE" repetido como parede; cartaz "DISOBEY.").
+5. **Grade de 4 cores com a mesma manchete** e a comida pingando (McDonald's "HERE FOR THE SAUCE").
+6. **Estilo de vida com flash e grande-angular:** gente de óculos escuros bebendo ou comendo, céu azul, carro amarelo (Misato, Pentawards).
+7. **Produto no bolso da calça jeans**, a paleta virando cartaz em faixas (Chili red / Cream / Yellow / Orange / Brown) e rótulos com mascote.
+
+**Regra:** essas imagens pedem fotografia produzida. Com o que temos:
+- recorte de pizza (BiRefNet) sobre cor chapada, com sombra dura de flash, ingredientes recortados voando e mão recortada;
+- quando o Nano Banana estiver liberado (falta o faturamento no Google), gerar as cenas com pessoa;
+- no cliente, a sessão de fotos da pizzaria segue esta lista de cenas.
+
