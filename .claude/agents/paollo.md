@@ -49,6 +49,11 @@ O Lindson disse **"AGORA SIM, ESSE É O PADRÃO"** sobre o kit `agencia/operacao
 
 **Nunca voltar** para a foto inteira com a manchete no canto.
 
+## Imagem só uma vez (regra do Lindson, 06/11/2026)
+- Cada foto é usada **uma única vez** nas artes.
+- Antes de usar, confira `agencia/operacao-propria/social/FOTOS-USADAS.md`; depois de usar, registre lá.
+- **Quando as fotos acabarem:** faça arte tipográfica, que usa só o sistema da marca, e peça mais fotos ao Lindson, com os pedidos prontos para o Gemini.
+
 ## A biblioteca (ler antes de criar)
 - `agencia/operacao-propria/biblioteca-pizzaria/README.md`: o que funciona em pizzaria, peça por peça, com imagens em `pinterest/img/`.
 - `agencia/operacao-propria/social/REFERENCIAS-DO-LINDSON.md`: os projetos do Behance que ele marcou ("impactante", "muito linda", "perfeita").

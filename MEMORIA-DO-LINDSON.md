@@ -376,3 +376,4 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
     - zero espaço vazio.
   - **REPROVADO antes:** foto inteira com manchete jogada no canto (`pecas-campanha/`) e o kit v1/v2 com recortes de banco.
   - Este é o modelo para toda arte de pizzaria (Orégano Turbo e clientes).
+- **06/11/2026 (conta Leandro) — REGRA DO LINDSON: imagem é usada UMA ÚNICA VEZ** nas artes da Orégano Turbo: "use imagem uma única vez, e quando acabar me peça mais". O controle fica em `agencia/operacao-propria/social/FOTOS-USADAS.md`. Quando as fotos acabam, mande a ele o próximo lote de pedidos para o Gemini (ex.: `social/calendario/PEDIDO-FOTOS-LOTE-2.txt`).
