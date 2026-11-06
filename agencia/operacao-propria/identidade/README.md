@@ -42,3 +42,10 @@
 - Direção “Marketing em modo turbo”: base noite, íon violeta, pulso lima e sinal coral; tipografia display, micro-grid e cartões de interface para presença digital imediata.
 - Prancha: marca-v5/prancha-v5.svg. Sistema: CONCEITO-V5.md. Pesquisa nova: TEMPLATE-V5.md (8 referências, 4 países).
 - **Status:** proposta em ramo separado para revisão; v3 preservada. UI é conceitual, sem métricas inventadas. Capturas novas de referência ainda não foram anexadas.
+
+
+## v6 · direção centrada em comida (05/11/2026, após feedback do Lindson)
+- Proposta “Mais apetite. Menos achismo.”: fotografia de pizza primeiro, tecnologia como apoio de processo.
+- Prancha: marca-v6/prancha-v6.svg; foto-conceito: marca-v6/foto-conceito-v6.jpg; sistema: CONCEITO-V6.md; pesquisa: TEMPLATE-V6.md (8 referências, 6 países).
+- Agentes consultados: Alina Wheeler (identidade) e Visual Generator (direção visual). Não há agente de comida instalado localmente.
+- Status: proposta para aprovação; v3 preservada. A foto é gerada para conceito, não foto de cliente. Capturas novas das referências ainda pendentes.
