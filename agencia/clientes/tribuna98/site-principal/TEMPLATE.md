@@ -51,3 +51,6 @@ Rota (decisão do Lindson, 07/11): site principal na RAIZ `tribuna98.pages.dev/`
 **Descartadas:** The Pudding (dados e gráficos interativos, não se encaixa no jornal de texto), Weekendavisen (impresso ilustrado, fora da fiscalização).
 
 **Fotos:** nenhuma foto nova. A foto do Thiago já está usada na bio (03/11) e não se repete. Falta uma foto nova do Thiago, enviada uma por vez, para a capa do site.
+
+## Publicado (07/11/2026, conta Leandro)
+Versão 2 (camadas tecnológicas, três fotos do Thiago, nome corrigido para Tiago Azevedo) publicada no `main` do repositório `tribuna98` (commit 6ae31a9). Ajustes a pedido do Lindson.
