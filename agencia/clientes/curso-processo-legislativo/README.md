@@ -31,3 +31,9 @@ Este curso tem **outro perfil e outra identidade**. Não usa nada do Tribuna 98.
 
 ## Não tem nada disto
 Sem promessa de resultado nas peças (ex.: "vai ganhar a votação"). Sem nome de modelo em arquivo ou mensagem.
+
+## Recorte dos sócios (pronto, conta Leandro, 07/11/2026)
+- Ferramenta: `rembg` com o modelo BiRefNet, o mesmo processo do `agencia/operacao-propria/identidade/recortar4.py`. Testado nesta sessão: o modelo baixa e roda.
+- Fluxo das fotos: o Lindson envia pela aba **Fotos dos sócios** do painel do curso (botão "Escolher fotos", envio pela Central). As fotos ficam fora do Git.
+- Depois do envio: recorta cada foto (fundo transparente, sem quadrado) e põe no espaço do instrutor da capa.
+- Pendente: as fotos limpas dos dois sócios. Os prints de vídeo não serão usados (decisão do Lindson).
