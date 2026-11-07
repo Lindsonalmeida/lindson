@@ -226,6 +226,7 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 12. **Identidade visual de cliente:** use o prompt do Claude Design (`leo-pinto/identidade/PROMPT-CLAUDE-DESIGN.md`) com o BRIEF do cliente. Se o cliente já tem identidade, documente a que existe.
 
 ## 7. Pedidos que ele já fez (responda "já foi feito")
+- **07/11/2026 · Lindson — Wagner Silva (@owagner.silva), consultório de marca pessoal:** apresentação em site com 3 planos (básico, médio, premium), no link https://claude.ai/artifact/3UqiJsrXq2KdukoNhkj8wc. Fonte e registro em `agencia/prospeccao/wagner-silva/` (conta Lindson). Pendente: pesquisa premium completa (faltam 8 referências de 3 países e capturas), preços e WhatsApp do botão QUERO.
 
 | Data | Pedido | Situação | Onde |
 |---|---|---|---|
