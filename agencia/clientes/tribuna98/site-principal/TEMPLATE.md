@@ -26,3 +26,28 @@ Faltou abrir as páginas (Awwwards, Behance, Framer bloqueados ou sem resultado 
 - O site principal é projeto novo, em rota própria (a definir com o Lindson), sem tocar a bio.
 - O site novo fica AO LADO do WordPress (tribuna98.com.br). Premissa a confirmar.
 - Cloudflare Pages, projeto `tribuna98`, branch `main`, framework None.
+
+## Rodada de 07/11 (conta Leandro): site principal construído, aguardando aprovação
+Rota: `tribuna98.pages.dev/site/` (bio da raiz intacta). Branch `site-principal` do repo `Lindsonalmeida/tribuna98`, ainda sem publicar no `main`.
+
+**Pesquisa confirmada (pela página da SND, `snd.org/snd-2026-worlds-best-designed/`, aberta e lida):**
+| Referência | País | Reconhecimento | Página do site aberta? |
+|---|---|---|---|
+| The New York Times | EUA | World's Best-Designed Digital (SND47, 2026) | Não (403) |
+| Weekendavisen | Dinamarca | World's Best-Designed Print (SND47) | Sim (aberta, com cookies) |
+| De Volkskrant | Países Baixos | Finalista, "melhor tipografia" (SND47) | Sim |
+| ProPublica | EUA | Finalista digital (SND47) | Sim |
+| The Pudding | EUA | Finalista digital (SND47) | Sim (aberta, não usada) |
+| The Washington Post | EUA | Finalista digital (SND47) | Não (tempo esgotado) |
+| DIE ZEIT | Alemanha | Finalista impresso (SND47) | Não (bloqueio) |
+
+**Faltou:** 8 referências (são 7 confirmadas). Awwwards e Behance não abriram nesta rodada.
+
+**Combinadas (3):**
+- **ProPublica** (EUA): manchete com foto ao lado e barra de temas no topo → hero e barra de editorias.
+- **De Volkskrant** (Países Baixos): manchete em tipo forte, sóbria → títulos em Anton.
+- **The New York Times** (EUA, só pelo texto da SND, página não aberta): mapas e dados de eleição → bloco de números e de "onde nos encontra". Esta é a menos conferida.
+
+**Descartadas:** The Pudding (dados e gráficos interativos, não se encaixa no jornal de texto), Weekendavisen (impresso ilustrado, fora da fiscalização).
+
+**Fotos:** nenhuma foto nova. A foto do Thiago já está usada na bio (03/11) e não se repete. Falta uma foto nova do Thiago, enviada uma por vez, para a capa do site.
