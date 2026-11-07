@@ -1,44 +1,64 @@
-# Identidade do Wagner Silva (Consultório) · pesquisa, escolhas e descartes
+# Identidade do Wagner Silva · versão 2 (tecnológica), pesquisa e escolhas
 
-Conta: Lindson (07/11/2026). Processo igual ao do Dublê (`apps/clone-studio/identidade/TEMPLATE.md`) e da Real Time (`agencia/clientes/rt-full-jobs/identidade/v1/TEMPLATE.md`): pesquisa de referências, escolha das mais fortes, cópia da **composição** (nunca marca, texto ou desenho) e registro das descartadas.
+Conta: Lindson (07/11/2026). Processo igual ao do Dublê e da Real Time: persona, pesquisa com captura, escolha de 3, cópia da composição (nunca marca, texto ou desenho) e registro das descartadas.
+
+**Substitui a versão 1** (tinta, osso, verde-floresta e cobre, com Cormorant). Reprovada pelo Lindson em 07/11/2026: "horrível, exclua essa identidade, use a construção de referências, encontre outro template, lindo e tecnológico." A versão 1 saiu do ar; o histórico está no git.
 
 ## Persona (5 linhas)
-- **Quem:** Wagner Silva, @owagner.silva, 6.165 seguidores. Fala de repertório, inteligência e comunicação; vende comunidade e mentoria.
-- **Rotina:** celular, Instagram e WhatsApp. Lê, grava e dá aulas semanais.
-- **Dor e desejo (palavras dele):** "marca pessoal", "movimento", "conteúdo que atrai oportunidade", "repertório", "cultura clássica".
-- **Confia em:** seriedade, texto com conteúdo, prova real, nada de cara de "guru" de promessa.
-- **Afasta:** visual de influenciador de promessa (neon, dinheiro, dancinha), coisa infantil, selo de curso genérico.
+- **Quem:** Wagner Silva, @owagner.silva, 6.165 seguidores. Repertório, inteligência e comunicação. Vende comunidade e mentoria.
+- **Rotina:** celular e Instagram, grava e dá aulas.
+- **Dor e desejo (palavras dele):** "marca pessoal", "movimento", "conteúdo que atrai oportunidade", "infoproduto".
+- **Confia em:** seriedade, prova real, método claro, sem promessa de guru.
+- **Afasta:** neon de promessa, cifrão, foguete, seta de crescimento, visual de curso barato.
 
-## Pesquisa (8 peças, 3 países, todas capturadas em `referencias/`)
+## Pesquisa (8 peças capturadas, 3 países, em `referencias-tech/` e no que já estava em `referencias/`)
 | # | Referência | País | Captura | Status |
 |---|---|---|---|---|
-| 1 | Pentagram, home | EUA (estúdio com escritórios em NY e Londres) | `pentagram-home-eua-reino-unido.png` | Carregou |
-| 2 | Pentagram, case Hunter | EUA (NY) | `pentagram-hunter-eua.png` | Carregou |
-| 3 | Koto, home | Reino Unido | `koto-reino-unido.png` | Carregou |
-| 4 | Studio Dumbar | Países Baixos | `studio-dumbar-paises-baixos.png` | Carregou |
-| 5 | Collins (Collins for Education) | Reino Unido | `collins-reino-unido.png` | Carregou |
-| 6 | D&AD | Reino Unido | `dandad-reino-unido.png` | Carregou |
-| 7 | VideoLab (Framer) | origem do template não confirmada | `videolab-framer.png` | Carregou (já usado na Real Time) |
-| 8 | Sermo (Framer) | origem do template não confirmada | `sermo-framer.png` | Carregou (já usado no Dublê) |
+| 1 | Lusion | Reino Unido | `referencias-tech/lusion-reino-unido.png` | Carregou (após 12 s) |
+| 2 | Locomotive | Canadá | `referencias-tech/locomotive-canada.png` | Carregou |
+| 3 | Resn | Nova Zelândia | `referencias-tech/resn-nova-zelandia.png` | Carregou (após 12 s) |
+| 4 | Obys | França | `referencias-tech/obys-franca-descartada.png` | Carregou |
+| 5 | Studio Dumbar | Países Baixos | `../referencias/studio-dumbar-paises-baixos.png` | Carregou |
+| 6 | Pentagram | EUA | `../referencias/pentagram-home-eua-reino-unido.png` | Carregou |
+| 7 | Koto | Reino Unido | `../referencias/koto-reino-unido.png` | Carregou |
+| 8 | Collins | Reino Unido | `../referencias/collins-reino-unido.png` | Carregou (institucional) |
 
-**Não entraram:** Mucho (es), Awwwards (Sunny Bonnell, Fine Thought), Behance e Dribbble (Mai business coach): a captura veio vazia ou bloqueada. Não contam.
-**Prêmios:** Pentagram e D&AD são referências de prêmio e de estúdio, mas **não conferi a premiação de cada projeto específico**. Está marcado como não conferido.
+**Não entraram:** Unit9 (ficou na tela de carregamento), Activetheory (bloqueado), Immersive Garden (fora do ar), Mucho e Behance (vazios na rodada anterior).
+**Prêmios:** não conferi a premiação de cada um. Marcado como não conferido.
 
 ## Escolhidas (3), com o que se copia
-1. **Pentagram (home):** o wordmark em serifa, o ritmo de seção clara e escura e a foto grande com legenda curta. **Copia-se:** a serifa do nome como assinatura, o ritmo editorial e a legenda pequena sob a imagem. Serve à persona porque é o jeito sério e de cultura que ele respeita.
-2. **Koto (home):** fundo preto total, texto mínimo, rótulos pequenos em caixa alta e um só ponto de cor forte. **Copia-se:** o fundo preto, a hierarquia de duas linhas (uma forte, uma cinza) e rótulos técnicos pequenos. Dá a sensação de estúdio sério, não de promessa.
-3. **Studio Dumbar (home):** um objeto tipográfico gigante em destaque na primeira tela, como peça única. **Copia-se:** a ideia de uma peça grande de tipografia como herói, sem texto em volta. Aqui o objeto é a inicial do nome, em serifa, e não uma marca de esporte.
+1. **Lusion (objeto 3D no centro, fundo escuro):** um objeto geométrico grande, no centro, com luz e brilho. **Copia-se:** a composição, com o objeto como peça principal e a tela escura em volta. Feito com um anel e esferas em CSS, sem render 3D.
+2. **Locomotive (tipografia mista e etiquetas em caixa):** títulos grandes com etiquetas pequenas em caixa com borda, como "OPS · DES · DEV". **Copia-se:** a etiqueta em caixa com borda fina e o contraste entre título grande e rótulo mono.
+3. **Resn (texto fino, fundo quase preto, muito vazio):** título em peso leve, centrado, sem nada disputando. **Copia-se:** o peso leve no título e o respiro grande em volta.
 
 ## Descartadas (e por quê)
 | Referência | Por quê |
 |---|---|
-| Hunter (Pentagram) | Camuflagem e padrão de tinta: bonito, mas fala de PR e de marca de consumo, não de repertório |
-| Collins | Educação e dicionário: grotesca de manual, não de autor |
-| D&AD | Institucional de prêmio: sério demais, sem calor para um criador |
-| VideoLab | Já foi a base da Real Time (cinema, REC e timecode): repetir seria copiar outro cliente |
-| Sermo | Já foi a base do Dublê (raios e console de IA): repetir seria copiar outro cliente |
+| Obys | Cinza demais, sem cor nem contraste. Não dá sensação de tecnologia. |
+| Studio Dumbar | Cromo 3D e número gigante: parece esporte, não repertório. |
+| Koto | Amarelo e preto: já é a marca de outro projeto do Lindson. |
+| Pentagram | Editorial de escritório: sério, mas sem tecnologia. |
+| Collins | Institucional de educação: sem alma de autor. |
 
-## Regras do Wagner (o que não entra)
-- Nada de dourado de capa de curso nem fonte de "promessa" em caixa alta gritante.
-- Nada de neon, cifrão, foguete ou seta de crescimento.
-- O cobre é o único acento. Não é um degradê.
+## Paleta (a cor de acento é uma só)
+| Nome | Hex | Uso |
+|---|---|---|
+| Noite | #07080A | fundo |
+| Gelo | #E9EEF2 | texto e títulos |
+| Cinza-frio | #8A929B | texto de apoio e rótulos |
+| Linha | #1B2026 | fios e bordas |
+| Ciano-gelo | #7FD8E6 | acento único (uma palavra ou uma etiqueta por peça) |
+
+Fora da paleta: violeta (é do Dublê), laranja (é do Leo), verde-limão ácido (clichê de design de IA), degradê roxo-azul.
+
+## Tipografia
+- **Título:** Unbounded (peso 300 para o tom de Resn, 600 para destaque). Larga e tecnológica.
+- **Texto:** Sora (400 e 600).
+- **Rótulo:** JetBrains Mono (caixa alta, 12 a 13 px, com espaçamento aberto).
+
+## Regras
+- Etiqueta com borda fina em volta de rótulos (Locomotive), no máximo uma por bloco.
+- Objeto central só em uma peça por tela (Lusion).
+- Muito vazio em volta do título (Resn).
+- Ciano só uma vez por peça.
+- Nada de número inventado. Só dado real dele.
