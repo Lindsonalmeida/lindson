@@ -25,7 +25,6 @@ Toda conta lê esta tabela antes de qualquer pedido. Recado novo: responda ao Li
 ## Em andamento
 | Desde | Conta | O quê | Como retomar / onde está |
 |---|---|---|---|
-| 07/11 | Leandro · sub-agente "Tribuna 98 - Capas de reels do curso" | **9 capas de Reels do curso de processo legislativo** (item 5 do escopo), no padrão azul royal e amarelo do Tribuna | `agencia/clientes/tribuna98/capas-reels-curso/` |
 | 07/11 | Leandro · **parado** | **Foto de perfil do curso com os sócios**: aguarda a autorização escrita de cada sócio e os nomes (item 6 do escopo). Não gera imagem com a foto dos sócios antes disso | `TRAVA-MAQUIAVEL.md`, item 6 |
 | 07/11 | Leandro | **Dia de hoje (confirmado pelo Lindson): 3 partes de pagantes.** (1) **Tribuna 98:** site principal (parte 4 do escopo), **pendente a decisão do Lindson** (substituir o WordPress ou ficar ao lado). (2) **Real Time:** agendar as postagens da semana. (3) **Leo Pinto:** agendar os posts da semana. Ainda sem acesso às ferramentas de agendamento nesta conta | `TRAVA-MAQUIAVEL.md` (escopo de cada projeto) · o que falta: decisão do Lindson e acesso às ferramentas |
 | 06/11 | Leandro → **Pedro** | **Orégano Turbo:** kit social v3 do Paollo **APROVADO** ("esse é o padrão"); identidade v4.1 com fotos de campanha do Gemini. **Pedro:** cartões no portfólio (identidade v4.1, site e kit social v3). **Leandro:** fechar a identidade v4.2 com os mockups realistas (faltam A2, A5, A11, A12, B4–B8 e C1–C3 do Gemini; A9 e A10 com logo errado) | `agencia/operacao-propria/social/v3/`, `identidade/fotos-ia/` |
