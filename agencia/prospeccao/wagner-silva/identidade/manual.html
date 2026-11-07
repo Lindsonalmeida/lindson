@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Manual · Wagner Silva</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--tinta:#0D0E0C;--osso:#EFE9DC;--floresta:#1E3B30;--cobre:#B4673F;--cinza:#8E887C;
+  --serif:"Cormorant Garamond",Georgia,serif;--sans:"Manrope",system-ui,sans-serif;--mono:"IBM Plex Mono",ui-monospace,monospace;color-scheme:dark}
+@media (prefers-color-scheme: light){:root:not([data-theme="dark"]){color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--tinta);color:var(--osso);font-family:var(--sans);line-height:1.6;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 56px}
+.wrap{max-width:980px;margin:0 auto}
+.lbl{font-family:var(--mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--cinza)}
+h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.02;margin:0;text-wrap:balance}
+h1{font-size:clamp(56px,11vw,120px);letter-spacing:-.01em}
+h2{font-size:clamp(34px,6vw,56px);margin-top:12px}
+section{padding-block:72px;border-top:1px solid #23261F}
+.assin{font-family:var(--serif);font-size:clamp(40px,8vw,84px);font-weight:600;line-height:1}
+.assin i{color:var(--cobre);font-style:italic}
+.sub{font-family:var(--mono);font-size:13px;letter-spacing:.2em;text-transform:uppercase;color:var(--osso);opacity:.8;margin-top:14px}
+.cores{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));margin-top:36px}
+.cor{border-radius:4px;overflow:hidden;border:1px solid #23261F}
+.cor div{height:120px}
+.cor p{margin:0;padding:12px 14px;font-size:14px;background:#14160F}
+.cor b{display:block;font-family:var(--mono);font-size:12px;color:var(--cinza);font-weight:400}
+.tipo{display:grid;gap:18px;margin-top:36px}
+.tipo div{padding:22px;border:1px solid #23261F;border-radius:4px;background:#11130F}
+.post{display:grid;gap:14px;grid-template-columns:1fr;margin-top:36px}
+@media(min-width:720px){.post{grid-template-columns:1fr 1fr}}
+.peca{aspect-ratio:4/5;border-radius:4px;padding:28px;display:flex;flex-direction:column;justify-content:space-between;min-width:0;overflow:hidden}
+.peca .g{font-family:var(--serif);font-size:clamp(34px,6vw,52px);line-height:1;font-weight:600}
+.peca .g i{color:var(--cobre);font-style:italic}
+.peca .rod{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;opacity:.85}
+.p1{background:var(--tinta);color:var(--osso);border:1px solid #23261F}
+.p2{background:var(--osso);color:var(--tinta)}
+.p3{background:var(--floresta);color:var(--osso)}
+.p2 .g i{color:var(--cobre)}
+.p3 .g i{color:var(--osso)}
+.p3 .rod{color:var(--osso)}
+.num{font-family:var(--serif);font-size:clamp(64px,14vw,120px);line-height:.9;font-weight:700}
+.num small{display:block;font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:400;opacity:.85;margin-top:10px}
+.regra{margin-top:30px;display:grid;gap:12px}
+.regra p{margin:0;padding-left:16px;border-left:2px solid var(--cobre);color:var(--cinza)}
+.ref{display:grid;gap:12px;margin-top:28px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.ref figure{margin:0}
+.ref img{width:100%;height:auto;border-radius:4px;border:1px solid #23261F;display:block}
+.ref figcaption{font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:var(--cinza);margin-top:8px}
+:focus-visible{outline:2px solid var(--cobre);outline-offset:3px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<section style="border-top:0;padding-top:64px">
+  <p class="lbl">Manual de identidade · versão 1 · 07/11/2026</p>
+  <h1 style="margin-top:20px">Wagner Silva</h1>
+  <p class="sub" style="margin-top:22px">Consultório · Repertório · Comunicação</p>
+  <p style="max-width:58ch;color:var(--cinza);margin-top:26px;font-size:17px">Identidade para quem vende conhecimento e quer ser levado a sério: serifa de estúdio, fundo escuro, um acento só. Feita a partir de 8 referências de 3 países e 3 delas copiadas na composição.</p>
+</section>
+
+<section>
+  <p class="lbl">01 · Assinatura</p>
+  <h2>Nome em serifa, <i style="color:var(--cobre)">uma linha</i>.</h2>
+  <div style="margin-top:36px;padding:48px 28px;border:1px solid #23261F;border-radius:4px;background:#11130F">
+    <div class="assin">Wagner <i>Silva</i></div>
+    <div class="sub">Consultório · Repertório · Comunicação</div>
+  </div>
+  <div style="margin-top:14px;display:flex;gap:14px;align-items:center;flex-wrap:wrap">
+    <div style="width:96px;height:96px;background:var(--osso);color:var(--tinta);display:grid;place-items:center;font-family:var(--serif);font-size:58px;font-weight:600;border-radius:4px">W</div>
+    <p class="lbl" style="margin:0">Monograma: avatar e selo. Nunca com outro acento.</p>
+  </div>
+</section>
+
+<section>
+  <p class="lbl">02 · Paleta</p>
+  <h2>Quatro cores. Uma de acento.</h2>
+  <div class="cores">
+    <div class="cor"><div style="background:#0D0E0C"></div><p>Tinta<b>#0D0E0C · fundo</b></p></div>
+    <div class="cor"><div style="background:#EFE9DC"></div><p>Osso<b>#EFE9DC · texto</b></p></div>
+    <div class="cor"><div style="background:#1E3B30"></div><p>Verde-floresta<b>#1E3B30 · blocos</b></p></div>
+    <div class="cor"><div style="background:#B4673F"></div><p>Cobre<b>#B4673F · acento (uma vez por peça)</b></p></div>
+  </div>
+</section>
+
+<section>
+  <p class="lbl">03 · Tipografia</p>
+  <h2>Três famílias, cada uma com um papel.</h2>
+  <div class="tipo">
+    <div><p class="lbl">Display · Cormorant Garamond 600</p><p style="font-family:var(--serif);font-size:48px;margin:10px 0 0;line-height:1.05">Repertório que <i style="color:var(--cobre)">vira</i> conversa.</p></div>
+    <div><p class="lbl">Texto · Manrope 400 / 600</p><p style="font-size:18px;margin:10px 0 0">Conteúdo com contexto, frase curta e uma ideia por parágrafo.</p></div>
+    <div><p class="lbl">Rótulo · IBM Plex Mono 500</p><p style="font-family:var(--mono);font-size:14px;letter-spacing:.14em;margin:10px 0 0;text-transform:uppercase">Consultório · Mentoria · Comunidade</p></div>
+  </div>
+</section>
+
+<section>
+  <p class="lbl">04 · Aplicação em post</p>
+  <h2>Três composições, na mesma assinatura.</h2>
+  <div class="post">
+    <div class="peca p1"><p class="lbl" style="color:var(--cinza)">Consultório · Repertório</p><div class="g">Conhecimento sem <i>caminho</i> não vira marca.</div><p class="rod">@owagner.silva · Wagner Silva</p></div>
+    <div class="peca p2"><p class="lbl" style="color:var(--tinta);opacity:.7">Comunidade</p><div class="g">Cinco pessoas <i>já</i> pensam como você.</div><p class="rod">Wagner Silva · Consultório</p></div>
+    <div class="peca p3"><p class="lbl" style="color:var(--osso);opacity:.8">Mentoria</p><div class="num">1.500<small>valor de um ciclo de mentoria, na conversa</small></div><p class="rod">Wagner Silva · Consultório</p></div>
+  </div>
+  <p class="regra" style="margin-top:20px"><small class="lbl">Textos de exemplo. O 1.500 e as "5 pessoas" são dados que ele mesmo passou; sem promessa de resultado.</small></p>
+</section>
+
+<section>
+  <p class="lbl">05 · Regras</p>
+  <h2>O que fica de fora.</h2>
+  <div class="regra">
+    <p>Neon, degradê, foguete, seta de crescimento, cifrão.</p>
+    <p>Fonte de propaganda de curso em caixa alta gritante.</p>
+    <p>Mais de um acento de cor por peça.</p>
+    <p>Número inventado. Só dado real dele.</p>
+  </div>
+</section>
+
+<section>
+  <p class="lbl">06 · Referências copiadas (captura real, carregada em 07/11/2026)</p>
+  <h2>Pentagram, Koto e Studio Dumbar.</h2>
+  <div class="ref">
+    <figure><img src="referencias/pentagram-home-eua-reino-unido.png" alt="Pentagram, página inicial"><figcaption>1 · Pentagram (EUA). Serifa no nome, ritmo claro e escuro.</figcaption></figure>
+    <figure><img src="referencias/koto-reino-unido.png" alt="Koto, página inicial"><figcaption>2 · Koto (Reino Unido). Fundo preto, rótulo pequeno, duas linhas de texto.</figcaption></figure>
+    <figure><img src="referencias/studio-dumbar-paises-baixos.png" alt="Studio Dumbar, página inicial"><figcaption>3 · Studio Dumbar (Países Baixos). Peça tipográfica grande como herói.</figcaption></figure>
+  </div>
+  <p class="lbl" style="margin-top:22px">Descartadas: Hunter, Collins, D&amp;AD, VideoLab, Sermo. Ver TEMPLATE.md.</p>
+</section>
+
+</div>
+</body>
+</html>
