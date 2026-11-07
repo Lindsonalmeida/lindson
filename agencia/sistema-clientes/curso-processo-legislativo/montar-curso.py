@@ -165,6 +165,7 @@ function render() {
   const n = D.decisoes.filter(x => x[2] === 'aguardando').length;
   const nd = $('#n-dec'); if (nd) nd.textContent = n || '';
   main.innerHTML = V[view]();
+  if (window.__pos) window.__pos(view);
   $('#menu').classList.remove('aberto'); $('#abrir').setAttribute('aria-expanded', 'false');
 }
 addEventListener('hashchange', render);
