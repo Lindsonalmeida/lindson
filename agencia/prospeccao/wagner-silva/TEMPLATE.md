@@ -56,3 +56,20 @@ Capturas em `scratchpad` da sessão (não versionadas):
 - OnePageLove, Learn UI Design e Awwwards (Julia Dziubina): capturadas, não analisadas nesta rodada.
 
 Situação: **a regra ainda não foi cumprida** (faltam 8 referências de 3 países). Pelo processo `agencia/processos/modelo-proposta-premium/README.md`, o modelo de proposta do Wagner precisa dessa pesquisa antes de ser considerado premium.
+
+## Versão 3 da proposta (07/11/2026, conta Lindson): reconstrução após reprovação
+**Reprovada:** "esse template não está premium". Problemas da versão 2: renderizava no tema claro (não tinha a cara da identidade escura), cartões de SaaS sem composição editorial e um erro de layout na seção de etapas (número e título sobre o texto).
+
+**O que mudou (composição copiada, nunca marca ou texto):**
+- Capa: nome em serifa grande + "W" gigante em contorno, no lugar de imagem (Studio Dumbar: peça tipográfica como herói).
+- Seções em duas colunas, título fixo à esquerda e conteúdo à direita (Pentagram: ritmo editorial).
+- Citações em lista com fio, sem caixas (Koto: texto mínimo, hierarquia de duas linhas).
+- Dores em índice numerado com fio, sem cartões.
+- Etapas em quatro colunas com fio no topo.
+- Conta em tabela com o total em bloco verde-floresta.
+- Plano do meio em bloco verde-floresta; os outros dois sem fundo.
+- Modo escuro fixo (a marca é escura).
+
+**Verificação:** renderizado em 1280 px (sem rolagem horizontal) e 390 px (sem rolagem horizontal).
+
+**Referência encontrada em busca, não conferida na página:** Koto tem menção honrosa no Awwwards (24/03/2026), segundo busca. Não abri a página do Awwwards.
