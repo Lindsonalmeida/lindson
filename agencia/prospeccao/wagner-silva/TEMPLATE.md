@@ -47,3 +47,12 @@ Faltam: capturas, 3 países e as 3 escolhidas. Antes de mandar para o Wagner, fa
 2. Dizer o número ou o link de WhatsApp para o botão de "QUERO".
 3. Decidir se a página sobe com preços (hoje não tem, por padrão).
 4. Se quiser que a página vá para o ar, ela sai no repositório `Lindsonalmeida/...` da conta (mini site: `agencia/processos/mini-site-cliente.md`), não aqui.
+
+## Atualização 07/11/2026 (conta Lindson): pesquisa com captura
+Capturas em `scratchpad` da sessão (não versionadas):
+- OnePageLove, KreativePro Masterclass: **útil**. Dark, tipografia grande, hierarquia clara, cartões de números. Referência para o nível visual.
+- Dribbble, MAI business coach: **não carregou** (tela vazia). Não conta.
+- Contra, Premium Personal Brand Website for Executive Business Coach: **fora do ar** (manutenção). Não conta.
+- OnePageLove, Learn UI Design e Awwwards (Julia Dziubina): capturadas, não analisadas nesta rodada.
+
+Situação: **a regra ainda não foi cumprida** (faltam 8 referências de 3 países). Pelo processo `agencia/processos/modelo-proposta-premium/README.md`, o modelo de proposta do Wagner precisa dessa pesquisa antes de ser considerado premium.
