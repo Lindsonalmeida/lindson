@@ -28,7 +28,7 @@ Faltou abrir as páginas (Awwwards, Behance, Framer bloqueados ou sem resultado 
 - Cloudflare Pages, projeto `tribuna98`, branch `main`, framework None.
 
 ## Rodada de 07/11 (conta Leandro): site principal construído, aguardando aprovação
-Rota: `tribuna98.pages.dev/site/` (bio da raiz intacta). Branch `site-principal` do repo `Lindsonalmeida/tribuna98`, ainda sem publicar no `main`.
+Rota (decisão do Lindson, 07/11): site principal na RAIZ `tribuna98.pages.dev/`, bio em `/bio/` (como a Real Time). Link do Instagram da bio precisa ser trocado pelo Lindson para `/bio/`. Branch `site-principal` do repo `Lindsonalmeida/tribuna98`, ainda sem publicar no `main`.
 
 **Pesquisa confirmada (pela página da SND, `snd.org/snd-2026-worlds-best-designed/`, aberta e lida):**
 | Referência | País | Reconhecimento | Página do site aberta? |
