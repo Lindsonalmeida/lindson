@@ -28,3 +28,20 @@ Regra: cada foto é anotada aqui com a origem e a licença, e não se repete no 
 | `fotos-banco/diversas/microfones.jpg` (mesma origem e licença) | `capas-v13/capa-v13-3.png` | **Repetida**: já usada em `capas-v8/capa-v8-01-microfone.png`. Pede OK do Lindson. |
 
 Martelo (Pexels 5668473) não foi usado: a licença da página ainda não foi conferida. Fotos novas de banco só com OK do Lindson.
+
+## Pexels advocacia (v14, 07/11, agente de design)
+Busca https://www.pexels.com/pt-br/procurar/advocacia/ bloqueada (Cloudflare "Just a moment..."): IDs coletados por pesquisa na web e baixados direto do CDN de imagens.
+
+| Arquivo | ID Pexels | Página | Fotógrafo | Licença (página) | Onde será usada |
+|---|---|---|---|---|---|
+| `fotos-banco/pexels-advocacia/pexels-37732186.jpg` | 37732186 | https://www.pexels.com/photo/37732186/ | Shox Art | "Free", link pexels.com/license (texto completo a conferir) | `capas-v14/capa-v14-1.png` (meio-tom P&B) |
+| `fotos-banco/pexels-advocacia/pexels-6077326.jpg` | 6077326 | https://www.pexels.com/photo/6077326/ | Katrin Bolovtsova | "Free", link pexels.com/license (texto completo a conferir) | `capas-v14/capa-v14-2.png` (foto escurecida) |
+| `fotos-banco/pexels-advocacia/pexels-6077447.jpg` | 6077447 | https://www.pexels.com/photo/6077447/ | Katrin Bolovtsova | "Free", link pexels.com/license (texto completo a conferir) | `capas-v14/capa-v14-3.png` (foto em caixa) |
+
+**A conferir:** o texto completo da licença não foi lido (a página mostra só o rótulo "Free"). Conferir em pexels.com/license antes da publicação.
+
+**Descartadas:**
+- 5668473 (martelo, Pexels): já usada em `capas-v5/capa-v6-martelo-quorum.png`. Não repetir.
+- 7876040 e 7876284 (cena de escritório com pessoas, certidão de divórcio à mostra): fora do tema e com pessoas reconhecíveis.
+
+**Faltou:** a meta era de 5 a 6 fotos novas. A busca só devolveu 3 IDs Pexels utilizáveis de objetos (martelo, mesa, sem rostos). Para mais, é preciso abrir a busca do Pexels no navegador (bloqueada aqui) ou pedir OK do Lindson para outra fonte.
