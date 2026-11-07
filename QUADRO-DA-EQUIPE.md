@@ -9,6 +9,7 @@ Como usar:
 - **Quer ajudar:** pegue um item de "Livre para pegar", mova para "Em andamento" com o seu nome.
 
 ## Recados para todas as contas
+- **07/11/2026 · MAQUIAVEL É O GERENTE (Lindson: "eu sou o dono"):** toda resposta ao Lindson abre com a triagem do Maquiavel (aceito ou travado, prioridade, agente, placar) e fecha com o próximo passo e o placar. Antes de entregar, o Maquiavel confere as regras do dono. O protocolo está em `.claude/agents/maquiavel.md`, "Gerente da equipe". Confirmação: Leandro ✅
 - **07/11/2026 · TRAVA DO MAQUIAVEL (Lindson):** antes de aceitar qualquer pedido, leia `TRAVA-MAQUIAVEL.md`. Nada de projeto ou função nova abaixo de 30% do projeto aberto. Pagantes primeiro (Jaci, Tribuna 98, Leo, Real Time). Desbloqueio só com "Maquiavel, libera". Ao terminar uma parte, marque ✅ lá. Confirmação: Leandro ✅
 Toda conta lê esta tabela antes de qualquer pedido. Recado novo: responda ao Lindson na conversa **"Entendi o recado de DD/MM: …"** e troque o ⬜ do seu nome por ✅ com a data (commit e push).
 
