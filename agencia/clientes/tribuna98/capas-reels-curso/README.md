@@ -1,3 +1,5 @@
+> **REPROVADO (Lindson, 07/11/2026):** estas capas usam a identidade do Tribuna 98. O curso tem Instagram e identidade próprios. Não publicar. Refazer com identidade do curso.
+
 # Capas de Reels do curso de processo legislativo · Tribuna 98
 
 Entrega da conta Leandro, 07/11/2026 (item 5 do escopo, `TRAVA-MAQUIAVEL.md`). 9 capas 1080×1920 (formato de capa de Reels).
