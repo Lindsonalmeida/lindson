@@ -64,7 +64,7 @@ Conta Leandro, 07/11/2026 · agente de design · pedido do Lindson: estudar as 5
 | Tratamento da foto | Azul-marinho escuro (quase monocromático frio); luz frontal suave sobre o rosto; fundo de escritório desfocado. |
 | Gráficos de apoio | Formas brancas de folha (2, em torno da pessoa, no meio da altura); folhas de papel em perspectiva; linha fina no rodapé; chip de pílula contornada com seta. |
 | Destaque de palavra | Não há caixa atrás do texto. A ênfase é o branco puro contra o azul escuro. |
-| Paleta medida | Azul-marinho `#1A2634`, `#111D27`, `#08171D`; preto-azulado `#051319`, `#06151A`; branco `#FFFFFF`. Sem dourado (o valor que apareceu é de pele, pouco pixel). |
+| Paleta medida | Azul-marinho `#1A2634`, `#111D27`, `#08171D`; preto-azulado `#051319`, `#06151A`; branco `#FFFFFF`. Sem dourado no fundo; o valor com cor quente que apareceu tem poucos pixels (provavelmente pele). |
 | Tipografia | Título em serifa de alto contraste (não se aplica à marca do curso, que proíbe serifa); subtítulo sans regular; rótulo em caixa alta com tracking. |
 | Barra inferior | Rodapé fino com handle e avatar à esquerda e uma linha de texto miúdo ao centro. |
 

@@ -141,7 +141,7 @@ const capa2 = doc(
   `
 <div class="c">
   <canvas id="foto2" class="full" style="width:1080px;height:1920px"></canvas>
-  <div class="abs" style="left:0;top:940px;width:1080px;height:240px;background:linear-gradient(180deg,rgba(8,8,8,0),#080808)"></div>
+  <div class="abs" style="left:0;top:960px;width:1080px;height:260px;background:linear-gradient(180deg,#080808 0%,rgba(8,8,8,0) 100%)"></div>
   <div class="leitura"></div>
   <div class="feixe" style="left:380px;top:-200px;width:900px;height:1300px;transform:rotate(-18deg)"></div>
   <div class="tarja-e" style="top:420px;height:600px"></div>
@@ -180,11 +180,11 @@ window.__task = async function(){
 );
 
 // ---------- Capa 3: "Quem pode propor?" ----------
-const FOTO3 = foto('pakutaso-v16/pakutaso-tribuna-podio-9354.jpg'); // Pakutaso (licença comercial sem atribuição), pódio com microfones
+// Capa 3 sem foto de banco: o pódio de 1600 px é igual à perguntas-podio (capa 1), e as demais candidatas tinham 800 px.
 const capa3 = doc(
   `
 <div class="c">
-  <div class="full" style="background:url(${FOTO3}) 42% 50%/cover no-repeat;filter:saturate(.35) brightness(.5) contrast(1.08)"></div>
+  <div class="deg"></div>
   <div class="leitura"></div>
   <div class="feixe" style="left:300px;top:-300px;width:560px;height:2400px;background:linear-gradient(90deg,rgba(200,168,96,0) 0%,rgba(200,168,96,.2) 50%,rgba(200,168,96,0) 100%)"></div>
   ${ARCOS(90, 300)}
@@ -217,7 +217,7 @@ const ELEMENTOS = `
     <div class="tile"><div class="tt">4 · Destaque em caixa dourada</div><div style="font-family:'Inter Display';font-weight:800;font-size:64px;line-height:1.2;padding-top:40px">sem <span class="box">quórum?</span></div></div>
     <div class="tile"><div class="tt">5 · Chips com ícone</div><div style="position:relative;height:190px"><div class="chip" style="position:absolute;left:0;top:30px">${CHECK}Regimento</div><div class="chip" style="position:absolute;left:0;top:120px">${CHECK}Presença</div></div></div>
     <div class="tile"><div class="tt">6 · Lista em cartão com marcador</div><div style="position:relative;height:190px"><div class="lista" style="position:absolute;left:0;top:10px;width:300px;padding:18px 22px">
-      <div style="font-size:24px">${TRI}Regimento interno</div><div style="font-size:24px;margin-top:16px">${TRI}Presença</div></div></div></div>
+      <div style="font-size:19px;white-space:nowrap">${TRI}Regimento interno</div><div style="font-size:19px;margin-top:16px">${TRI}Presença</div></div></div></div>
     <div class="tile"><div class="tt">7 · Barra inferior com pílula</div><div style="position:relative;height:190px"><div style="position:absolute;left:0;right:0;top:30px;display:flex;flex-direction:column;gap:18px;align-items:flex-start"><div class="handle" style="font-size:14px">${HANDLE}</div><div class="pill" style="height:60px;font-size:18px;padding:0 24px">Assista ao curso básico</div></div></div></div>
     <div class="tile"><div class="tt">8 · Tarja vertical e feixe de luz</div><div style="position:relative;height:190px;background:linear-gradient(115deg,#111 0%,#1a160c 100%);overflow:hidden"><div style="position:absolute;right:0;top:0;width:12px;height:190px;background:#A89048"></div><div class="feixe" style="left:-40px;top:-60px;width:280px;height:300px"></div></div></div>
     <div class="tile"><div class="tt">9 · Espaço do instrutor</div><div style="position:relative;height:190px"><div class="slot" style="position:absolute;left:50%;top:14px;transform:translateX(-50%);width:200px;height:160px;font-size:16px;padding:14px">Espaço do instrutor<br>(aguardando a foto)</div></div></div>

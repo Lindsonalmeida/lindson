@@ -54,3 +54,23 @@ Busca https://www.pexels.com/pt-br/procurar/advocacia/ bloqueada (Cloudflare "Ju
 | `fotos-banco/pakutaso-v15/pakutaso-diet-road-4769.jpg` | Pakutaso, "National Diet Building Road Approach, Tokyo" (https://www.pakutaso.com/en/20141021302post-4769.html) | "Commercial use, no attribution" | `capas-v15/capa-v15-3.png` (tela cheia, P&B). Sem pessoas. |
 
 Notas: as duas fotos novas são de câmaras e prédio japoneses (banco livre), não do Maranhão. Na foto da fala, o rosto do orador fica fora do quadro e o do fundo está desfocado. As duas também foram baixadas e commitadas pela sessão que fez o commit `a573aaf`; os arquivos são idênticos.
+
+## Capas v16 (07/11, agente de design, conta Leandro)
+Licença das fotos novas: Pakutaso, "Commercial use, no attribution required" (página da própria foto).
+
+| Arquivo | Origem | Licença (segundo a própria página) | Onde foi usada |
+|---|---|---|---|
+| `fotos-banco/diversas/perguntas-podio.jpg` | Pakutaso, pódio com perguntas (https://www.pakutaso.com/en/20230132023post-44851.html) | mesma licença | `capas-v16/capa-v16-1.png` (fundo) |
+| `fotos-banco/pakutaso-v16/pakutaso-politico-maos-9243.jpg` | Pakutaso, "Politician Gesturing During Council Speech" (https://www.pakutaso.com/en/20260209034post-56476.html) | mesma licença | `capas-v16/capa-v16-2.png` (faixa inferior, recorte sem o rosto) |
+
+**Atenção, repetição:** `perguntas-podio.jpg` já tinha sido usada em `capas-v13/capa-v13-1.png` (ver a seção de capas v13 acima). A v16 a usa de novo porque o pedido do Lindson a indicou. **Pede OK do Lindson.** Se ele não aprovar, a capa 1 troca o fundo por outra foto nova.
+
+**Descartadas nesta rodada:**
+- `pakutaso-tribuna-podio-9354` (página 20230132023post-44851): é o mesmo arquivo de `perguntas-podio.jpg` (md5 igual). Não usada.
+- `senkyoman-IMG_9821` (Pakutaso, cena de campanha com rosto identificável): tom de campanha eleitoral, fora do curso. Não usada.
+- `senkyoIMG_9368` (800 px) e `susigikaiPAR58249-9238` (800 px): pequenas demais para 1080x1920. Não usadas.
+- A capa 3 ficou sem foto de banco: o fundo é o degradê da marca e o espaço do instrutor é a imagem principal.
+
+Não usadas nesta rodada (lista de não repetir): martelo-pexels-5668473, 37732186, 6077326, 6077447, camara-plenario, camara-fileiras, fileiras-publico, microfones, tablet-reuniao, podio, discurso-pakutaso.
+
+**Pessoa na foto:** a foto `pakutaso-politico-maos-9243` mostra um homem de terno. O recorte da capa 2 corta o rosto e usa só as mãos, o papel e o terno. Não é retrato de advogado nem pessoa das referências.
