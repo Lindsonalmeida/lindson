@@ -53,3 +53,5 @@ Link: https://br.pinterest.com/lindsonalmeidaa/cursos/ · 34 pins no total; 12 c
 **Consequência:** a v3 precisa da foto do instrutor (recorte). Sem a foto, não há como chegar nesse padrão sem ilustração no lugar de pessoa real, o que é proibido.
 **Modelo:** `capas-v2/modelo-v3-com-foto.png` (gerador `gerar-v3-modelo.js`). O quadro tracejado é o espaço reservado para o recorte do instrutor.
 Pendência: as fotos dos dois instrutores, uma por mensagem, e o recorte com fundo transparente.
+
+**Atualização (07/11):** o Lindson mandou capturas do board completo, já logado (cerca de 40 peças). Mesmo veredito: são templates de mercado, com preço e matrícula, sem autoria, país ou prêmio confirmados, então não contam como pesquisa premium. O padrão se repete: pessoa real recortada, título gigante e faixa de cor. Mais limpas e úteis como composição: "inglês" (letras empilhadas com recorte) e "Digital marketing" (pessoas recortadas sobre fundo verde). Próximo passo para a pesquisa premium: referências de estúdios com autoria e país na própria página, como o Behance e o Dribbble, com recorte de pessoa em educação ou serviço público.
