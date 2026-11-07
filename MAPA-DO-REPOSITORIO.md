@@ -60,6 +60,7 @@ Brand book, componentes (Cover, LinkCard, StatStrip…), modelos e guia de Insta
 | `agencia/clientes/rt-full-jobs/instagram-v1/LEGENDAS.md` e `estrategia/v2/` | Real Time: legendas do feed v1 e estratégia completa v2 com a marca nova (PDF fora do Git) | (conta Leandro, 03/11) |
 | `agencia/clientes/rt-full-jobs/fotos-equipamentos/` e `instagram-v2/` | Real Time: 56 fotos reais dos equipamentos (fontes/licenças) e 6 artes v2 com elas | (conta Leandro, 03/11) |
 | `agencia/clientes/jaci-cunha/instagram-perfil/`, `instagram-destaques/`, `site/` | Dra. Jaci: bio v2 e capas dos destaques, stories dos 7 destaques, pesquisa do site oficial (rascunho no privado `jaci-site/`) | (conta Leandro, 03/11) |
+| `agencia/sistema-clientes/tribuna98/` | Painel do Tribuna 98 na Central: `montar-tribuna.py` (monta do modelo `prototipo/painel.html`) e `painel-tribuna.html` (menu, visão geral, escopo, linha do tempo, monetização, próximos passos, decisões do Lindson) | (conta Leandro, 07/11) |
 | `agencia/clientes/tribuna98/` | cliente novo Tribuna 98 (Thiago Azevedo): ficha, prints, TEMPLATE.md, instagram-perfil/ (bio e capas dos destaques); mini site no repo `Lindsonalmeida/tribuna98` | (conta Leandro, 03/11) |
 | `agencia/clientes/leo-pinto/instagram-aniversario/` | Leo: modelo único de aniversário de pessoas (Designi Paulo André, laranja/azul) | (conta Leandro, 03/11) |
 | `agencia/clientes/rt-full-jobs/instagram-v1/perfil/` e `agencia/sistema-clientes/rt-full-jobs/` | Real Time: bio e capas de destaques; painel da Central (/painel/rt) | (conta Leandro, 03/11) |

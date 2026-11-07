@@ -25,7 +25,6 @@ Toda conta lê esta tabela antes de qualquer pedido. Recado novo: responda ao Li
 ## Em andamento
 | Desde | Conta | O quê | Como retomar / onde está |
 |---|---|---|---|
-| 07/11 | Leandro · sub-agente "Tribuna 98 - Painel" | **Painel do Tribuna 98 na Central** (item 3 do escopo): menu, números, escopo da trava, análise de monetização | pasta do painel definida pelo agente; registro no fim do dia |
 | 07/11 | Leandro · sub-agente "Tribuna 98 - Capas de reels do curso" | **9 capas de Reels do curso de processo legislativo** (item 5 do escopo), no padrão azul royal e amarelo do Tribuna | `agencia/clientes/tribuna98/capas-reels-curso/` |
 | 07/11 | Leandro · **parado** | **Foto de perfil do curso com os sócios**: aguarda a autorização escrita de cada sócio e os nomes (item 6 do escopo). Não gera imagem com a foto dos sócios antes disso | `TRAVA-MAQUIAVEL.md`, item 6 |
 | 07/11 | Leandro | **Dia de hoje (confirmado pelo Lindson): 3 partes de pagantes.** (1) **Tribuna 98:** site principal (parte 4 do escopo), **pendente a decisão do Lindson** (substituir o WordPress ou ficar ao lado). (2) **Real Time:** agendar as postagens da semana. (3) **Leo Pinto:** agendar os posts da semana. Ainda sem acesso às ferramentas de agendamento nesta conta | `TRAVA-MAQUIAVEL.md` (escopo de cada projeto) · o que falta: decisão do Lindson e acesso às ferramentas |
