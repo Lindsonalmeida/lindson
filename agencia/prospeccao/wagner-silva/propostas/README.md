@@ -2,6 +2,6 @@
 
 Arquivo: `index.html` (as três propostas numa página: Básico, Médio e Premium).
 
-**Modelo de consultoria:** cada proposta tem o que está incluído, o que cabe ao cliente e as condições. Não mostra o passo a passo do método (fica para o diagnóstico).
+**Modelo de serviço:** a equipe faz o trabalho (diagnóstico, conteúdo, edição e publicação). O cliente aprova, grava o que for pedido e participa das revisões. Não há encontros em grupo, porque o serviço é prestado, não ensinado.
 
 **Campos em amarelo `[definir]`:** prazo, valor, frequência, horário e vagas. Valores não estão aprovados pelo Lindson, então não aparecem preenchidos.
