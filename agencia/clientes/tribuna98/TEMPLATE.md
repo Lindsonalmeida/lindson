@@ -11,13 +11,26 @@ Regra: referência externa premium, copiada na identidade do Tribuna (azul royal
 - **Escolhido: "Stay Informed, Stay Ahead" (Dribbble, busca "breaking news instagram")**: fundo azul royal com luz no centro, ícones de linha dentro de anel e título condensado, cara de telejornal. Mesma paleta do Tribuna.
 - Descartados: resultados de "news instagram highlight" do Dribbble (ícones genéricos coloridos, fora da identidade), "Loop News" (vermelho, de outra marca), capas com foto (no círculo pequeno a foto some).
 
-## Painel do cliente na Central (conta Leandro, 07/11/2026): pesquisa PARCIAL
-Regra: painel sai do modelo `agencia/sistema-clientes/prototipo/painel.html` (menu lateral, cartões, animações do `movimento.js`), não do zero. A parte de referências ficou **incompleta**: a meta é 8 referências de 3 países, com capturas, e 3 combinadas antes de mostrar ao Lindson.
-- **Capturas salvas (1):** `referencias/painel/dribbble-ui-collection-jian-z.png` (Dribbble, "Dashboard Collection", Jian_Z).
-- **Escolhidas nesta rodada:** nenhuma. O painel segue o modelo aprovado da Central com a identidade do Tribuna (azul royal e amarelo da logo).
-- **Descartada:** "Dashboard Collection" (Dribbble): fundo claro, cartões inclinados, sem menu lateral, fora da identidade.
-- **Candidatas achadas e sem captura** (o proxy bloqueou: Awwwards com reset de conexão, Behance com 403, Framer com 429). País ainda não verificado em nenhuma: Awwwards "Dashboard · Kiff Aarau", "Dashboard · Royal Stranger", "Dashboard · Aqtos The Boss", "Dashboard · LinkMatch"; "Retweet Dashboard" (Konrad Ksiezopolski); "Photolytics Dashboard" (Balraj Chana); "Velo Dashboard" (Jekin Gala); Framer "Dread" (escuro, SaaS) e "The NewsRoom" (editorial, sem painel).
-- **A fechar:** capturas dessas candidatas por outro caminho (navegador da equipe, ou o Lindson mandar), 8 referências de 3 países, as 3 mais fortes combinadas e a comparação com o modelo.
+## Painel do cliente na Central (conta Leandro, 07/11/2026): pesquisa PARCIAL, item 3 segue 🟡
+Regra: painel sai do modelo `agencia/sistema-clientes/prototipo/painel.html`, não do zero. Meta: 8 referências **confirmadas na própria página** (premiadas ou de estúdio identificado), de 3 países, com captura. 3 combinadas antes de aplicar.
+
+**Rodada de 07/11 (segunda tentativa):**
+- **Capturas salvas (10) em `referencias/painel/`:** 1 Dribbble Dashboard Collection (Jian_Z, da rodada anterior) + 9 shots de dashboard do Dribbble, listados como exemplos no artigo da Speckyboy "20+ Beautifully Designed Admin Dashboards" (carregado em 07/11). Autores e estúdios vistos na página: Volodymyr Gruev para OOZE (fintech, `dribbble-fintech-volodymyr-gruev-ooze.png`, `dribbble-contact-center-volodymyr-gruev.png`), Olga Staromłyńska para Merixstudio (`dribbble-cargo-olga-merixstudio.png`), Jon Moore para Innovatemap (`dribbble-card-grid-jon-moore-innovatemap.png`), Bhavna Kashyap para NICKELFOX (`dribbble-task-schedule-bhavna-kashyap.png`), Adam Ciesla para JDSolutions (`dribbble-quoting-software-adam-ciesla.png`), Tran Mau Tri Tam (`dribbble-skillalley-tran-mau-tri-tam.png`), Victor Onazi (`dribbble-commission-victor-onazi.png`), Pavel (`dribbble-dorm-home-pavel.png`).
+- **Países: nenhum confirmado.** As páginas não trazem localização nem prêmio. O nome do estúdio não prova o país. Por isso nenhuma das 10 capturas conta como "confirmada".
+- **Bloqueadas pelo proxy/site (nada capturado):** Awwwards (conexão recusada, nas buscas de "dashboard" e "data visualization"); Behance (erro HTTP, inclusive a lista de "admin panel"); Product Hunt (verificação anti-robô, prêmios do Godly); uiuxshowcase (verificação anti-robô); Contra (página em manutenção nas duas referências de analytics). Framer (429) já tinha bloqueado na rodada anterior.
+- **Sem prêmio confirmado:** o artigo da Speckyboy é uma lista de inspiração de blog, não premiação. A busca "Awwwards dashboard" listou "PhotoLytics Dashboard" (Balraj Chana), mas não foi possível abrir a página para confirmar o prêmio.
+
+**Descartadas nesta rodada:**
+- Os 9 shots do Dribbble: são telas claras e monocromáticas (fintech, contact center, card grid), sem identidade de veículo de notícia; e não há prêmio nem país confirmado na página.
+- Speckyboy como fonte de "premiado": é blog de inspiração, não prêmio.
+- Templates de Envato (NobleUI, Nexa, Slim, Rocker, Neptune): mercado de template de admin genérico, sem sinal de premiação.
+
+**Escolhidas:** nenhuma. A regra (8 referências confirmadas de 3 países, 3 combinadas) **não foi cumprida**. Por isso o painel NÃO foi alterado nesta rodada: segue como v1 (`agencia/sistema-clientes/tribuna98/painel-tribuna.html`, gerado pelo `montar-tribuna.py`, números de 03/11, identidade do Tribuna).
+
+**Para fechar o item 3 (falta):**
+1. 8 referências confirmadas na própria página (prêmio: Awwwards SOTD/SOTY, FWA, CSS Design Awards, D&AD; ou estúdio com país na página), de 3 países. Precisa de acesso que não tivemos: abrir o Awwwards e o Behance pelo navegador da equipe, ou o Lindson mandar as capturas.
+2. Combinar 3 e registrar o que se copia de cada uma aqui.
+3. Aplicar ao painel e regenerar. Depois disso, mostrar as 3 referências ao Lindson junto com a entrega.
 
 ## Capas de Reels do curso (conta Leandro, 07/11/2026)
 Pasta: `capas-reels-curso/` · pesquisa em `capas-reels-curso/referencias/` (10 capturas, feitas em 07/11).
