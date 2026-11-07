@@ -1,5 +1,7 @@
 # Processo: proposta premium, um modelo novo para cada cliente
 
+> **Regra do Lindson (07/11/2026): "sempre que eu pedir template ou identidade premium, faça o mesmo processo que fez pro dublê e real time."** Vale para proposta, template, identidade, manual e peça premium. O checklist está em `MEMORIA-DO-LINDSON.md`, seção 2, item 0b.
+
 **Regra do Lindson (07/11/2026, conta Lindson): "cada cliente, crie um modelo premium novo, sempre."**
 
 Não existe um modelo único reaproveitado. Cada cliente ganha o seu, feito do zero para a persona dele, com pesquisa nova.
