@@ -18,3 +18,14 @@ Regra: painel sai do modelo `agencia/sistema-clientes/prototipo/painel.html` (me
 - **Descartada:** "Dashboard Collection" (Dribbble): fundo claro, cartões inclinados, sem menu lateral, fora da identidade.
 - **Candidatas achadas e sem captura** (o proxy bloqueou: Awwwards com reset de conexão, Behance com 403, Framer com 429). País ainda não verificado em nenhuma: Awwwards "Dashboard · Kiff Aarau", "Dashboard · Royal Stranger", "Dashboard · Aqtos The Boss", "Dashboard · LinkMatch"; "Retweet Dashboard" (Konrad Ksiezopolski); "Photolytics Dashboard" (Balraj Chana); "Velo Dashboard" (Jekin Gala); Framer "Dread" (escuro, SaaS) e "The NewsRoom" (editorial, sem painel).
 - **A fechar:** capturas dessas candidatas por outro caminho (navegador da equipe, ou o Lindson mandar), 8 referências de 3 países, as 3 mais fortes combinadas e a comparação com o modelo.
+
+## Capas de Reels do curso (conta Leandro, 07/11/2026)
+Pasta: `capas-reels-curso/` · pesquisa em `capas-reels-curso/referencias/` (10 capturas, feitas em 07/11).
+
+**Pesquisa:** as buscas de "reels cover" e "news cover" trouxeram sobretudo guias e marketplaces. Vitrines de design lidas diretamente:
+- **Escolhido 1 · Koto (Reino Unido):** título condensado em caixa-alta enchendo o quadro, em blocos de tipo, sobre fundo escuro. Copiado na capa 04 (palavra gigante).
+- **Escolhido 2 · Brand New (EUA, UnderConsideration):** hierarquia de número grande em título condensado, com um acento de cor, sobre cartão escuro. Copiado na capa 09 (número grande).
+- **Escolhido 3 · Pentagram (Reino Unido/EUA):** tipografia forte e sóbria, bloco de cor chapada com a palavra em destaque. Copiado nas capas 06 e 08 (faixas e frase de impacto).
+- **Descartados:** Dribbble "News Cover" (são sites inteiros, não capas de 9:16; útil só como ideia de bloco de manchete); The Brand Identity, It's Nice That, Creative Boom, Designboom, The Dieline, D&AD (vitrines e notícias de design, sem capa de Reels; não servem de composição); Awwwards e Behance (páginas sem conteúdo legível nesta captura); Contra (manutenção no momento da captura).
+
+**Ponto de atenção:** nenhuma das referências acima foi confirmada como prêmio ou como capa de Reels premiada. País das vitrines é o da sede conhecida, não conferido na página. Por isso a base da assinatura é o modelo já aprovado do próprio Tribuna (`instagram-perfil/destaques.html`), e as referências externas entram só na composição.

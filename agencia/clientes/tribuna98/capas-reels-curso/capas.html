@@ -1,0 +1,195 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<!-- 9 capas de Reels do curso de processo legislativo (Tribuna 98, conta Leandro, 07/11/2026).
+Assinatura copiada de agencia/clientes/tribuna98/instagram-perfil/destaques.html: fundo azul royal em radial,
+logo oficial no topo, título em Anton amarelo, rodapé em amarelo (Inter 800). Cada capa copia uma composição
+de um modelo: ver README.md desta pasta. Sem fotos de pessoas. -->
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@700;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#000}
+:root{--azul:#0a2fa8;--azul-claro:#1d5cff;--azul-fundo:#061a5e;--amarelo:#ffd400;--branco:#fff}
+.c{width:1080px;height:1920px;position:relative;overflow:hidden;display:none;font-family:Anton,Impact,sans-serif;
+background:radial-gradient(60% 38% at 50% 50%,#1d5cff 0%,#0b3fd6 38%,#0a2fa8 62%,#061a5e 100%)}
+.c.on{display:block}
+.c::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(0deg,rgba(255,255,255,.035) 0 2px,transparent 2px 6px);pointer-events:none}
+/* assinatura comum */
+.logo{position:absolute;top:200px;left:0;right:0;text-align:center;z-index:3}
+.logo img{height:96px}
+.rod{position:absolute;bottom:200px;left:0;right:0;text-align:center;font-family:Inter,sans-serif;font-weight:800;font-size:30px;letter-spacing:.3em;color:var(--amarelo);text-transform:uppercase;z-index:3}
+.t{display:block;text-transform:uppercase;line-height:.98;letter-spacing:.005em;text-align:center;color:var(--amarelo);z-index:2}
+.k{font-family:Inter,sans-serif;font-weight:800;font-size:34px;letter-spacing:.28em;text-transform:uppercase;text-align:center;color:var(--amarelo)}
+
+/* 1 · número de fundo (modelo: destaques.html, .fundo) */
+.c1 .fundo{position:absolute;left:50%;top:50%;transform:translate(-50%,-52%);font-size:1180px;line-height:1;color:transparent;-webkit-text-stroke:3px rgba(255,255,255,.1);letter-spacing:-.04em;font-family:Anton}
+.c1 .mid{position:absolute;left:90px;right:90px;top:50%;transform:translateY(-50%);z-index:2}
+.c1 .t{color:var(--branco);font-size:200px}
+.c1 .t span{color:var(--amarelo)}
+
+/* 2 · cor invertida (modelo: carrossel "cor invertida") */
+.c2{background:var(--amarelo)}
+.c2::before{background:repeating-linear-gradient(0deg,rgba(10,47,168,.05) 0 2px,transparent 2px 6px)}
+.c2 .placa{position:absolute;top:200px;left:50%;transform:translateX(-50%);background:var(--azul);padding:26px 46px;border-radius:14px;z-index:3}
+.c2 .placa img{height:96px;display:block}
+.c2 .mid{position:absolute;left:80px;right:80px;top:50%;transform:translateY(-50%);z-index:2}
+.c2 .t{color:var(--azul);font-size:230px}
+.c2 .rod{color:var(--azul)}
+.c2 .k{color:var(--azul)}
+
+/* 3 · problema × solução (modelo: carrossel "problema × solução") */
+.c3 .top{position:absolute;left:0;right:0;top:0;height:960px;background:var(--azul);padding:230px 80px 0;z-index:1}
+.c3 .bot{position:absolute;left:0;right:0;bottom:0;height:960px;background:var(--amarelo);padding:120px 80px 0;z-index:1}
+.c3 .top .k{color:var(--amarelo)}
+.c3 .top .t{color:var(--branco);font-size:200px;margin-top:40px}
+.c3 .top .t span{color:var(--amarelo)}
+.c3 .bot .k{color:var(--azul)}
+.c3 .bot .t{color:var(--azul);font-size:190px;margin-top:40px}
+.c3 .logo{top:auto;bottom:auto;z-index:4;top:880px}
+.c3 .logo img{height:80px}
+.c3 .rod{color:var(--azul);bottom:auto;top:1820px;transform:none}
+
+/* 4 · palavra gigante (modelo: Koto "Where London" e Pentagram: tipo ocupa a tela) */
+.c4 .mid{position:absolute;left:60px;right:60px;top:600px;bottom:520px;z-index:2;display:flex;flex-direction:column;justify-content:center}
+.c4 .t{color:var(--amarelo);font-size:300px;text-align:left;line-height:.9}
+.c4 .t.w{color:var(--branco)}
+.c4 .k{text-align:left;color:var(--branco);margin-bottom:24px}
+.c4 .logo{top:200px}
+
+/* 5 · cartão (modelo: carrossel "cartão") */
+.c5 .card{position:absolute;left:90px;right:90px;top:520px;height:1000px;background:var(--branco);border-radius:28px;z-index:2;box-shadow:0 30px 80px rgba(0,0,0,.35);padding:90px 70px;display:flex;flex-direction:column;justify-content:center}
+.c5 .card .t{color:var(--azul);font-size:230px}
+.c5 .card .k{color:var(--azul);font-size:30px;margin-bottom:90px;text-align:left}
+.c5 .card .selo{position:absolute;top:-34px;left:70px;background:var(--amarelo);color:var(--azul);font-family:Inter,sans-serif;font-weight:800;font-size:30px;letter-spacing:.2em;padding:14px 26px;border-radius:10px}
+.c5 .logo{top:200px}
+
+/* 6 · faixas (modelo: carrossel "faixas") */
+.c6 .f{position:absolute;left:0;right:0;z-index:2;display:flex;align-items:center;justify-content:center;padding:0 60px}
+.c6 .f1{top:560px;height:330px;background:var(--amarelo)}
+.c6 .f2{top:890px;height:330px;background:var(--azul-fundo)}
+.c6 .f3{top:1220px;height:330px;background:var(--branco)}
+.c6 .f1 .t{color:var(--azul);font-size:240px}
+.c6 .f2 .t{color:var(--amarelo);font-size:240px}
+.c6 .f3 .t{color:var(--azul);font-size:240px}
+.c6 .k{position:absolute;top:470px;left:0;right:0;z-index:2;color:var(--branco);font-size:30px}
+.c6 .logo{top:200px}
+
+/* 7 · anel com ícone (modelo: destaques.html, .anel + ícone) */
+.c7 .anel{position:absolute;left:50%;top:700px;transform:translate(-50%,-50%);width:760px;height:760px;border-radius:50%;border:14px solid var(--amarelo);box-shadow:0 0 0 22px rgba(255,212,0,.12),0 30px 80px rgba(0,0,0,.35);display:grid;place-items:center;background:rgba(6,26,94,.35);z-index:2}
+.c7 .anel svg{width:260px;height:260px;margin-top:-170px}
+.c7 .anel .t{position:absolute;bottom:120px;left:0;right:0;font-size:96px;line-height:1;color:var(--branco)}
+.c7 .txt{position:absolute;top:1200px;left:90px;right:90px;z-index:2}
+.c7 .txt .t{font-size:150px;color:var(--branco)}
+.c7 .txt .t span{color:var(--amarelo)}
+.c7 .logo{top:200px}
+
+/* 8 · frase de impacto (modelo: carrossel "frase de impacto") */
+.c8 .aspas{position:absolute;top:360px;left:0;right:0;text-align:center;font-family:Anton;font-size:420px;line-height:1;color:var(--amarelo);z-index:2}
+.c8 .mid{position:absolute;left:90px;right:90px;top:820px;z-index:2}
+.c8 .t{color:var(--branco);font-size:200px}
+.c8 .t span{color:var(--amarelo)}
+.c8 .logo{top:200px}
+
+/* 9 · número grande (modelo: Brand New, "@20 Est. 2006": número domina a hierarquia) */
+.c9 .num{position:absolute;left:0;right:0;top:300px;text-align:center;font-family:Anton;font-size:720px;line-height:1;color:var(--amarelo);z-index:2}
+.c9 .mid{position:absolute;left:90px;right:90px;top:1080px;z-index:2}
+.c9 .t{color:var(--branco);font-size:190px}
+.c9 .t span{color:var(--amarelo)}
+.c9 .logo{top:200px}
+</style></head><body>
+
+<!-- CAPA 01 · número de fundo -->
+<div id="capa-01" class="c c1 on">
+  <div class="fundo">98</div>
+  <div class="logo"><img src="../marca/logo.png" alt="Tribuna98"></div>
+  <div class="mid"><span class="t fit" data-h="1000">O que muda no <span>regime de urgência?</span></span></div>
+  <div class="rod">Curso de processo legislativo</div>
+</div>
+
+<!-- CAPA 02 · cor invertida -->
+<div id="capa-02" class="c c2">
+  <div class="placa"><img src="../marca/logo.png" alt="Tribuna98"></div>
+  <div class="mid"><span class="t fit" data-h="1000">Pode votar sem…?</span></div>
+  <div class="rod">Curso de processo legislativo</div>
+</div>
+
+<!-- CAPA 03 · problema × solução -->
+<div id="capa-03" class="c c3">
+  <div class="top"><div class="k">Pergunta</div><span class="t fit" data-h="500">Projeto pode <span>tramitar…?</span></span></div>
+  <div class="bot"><div class="k">A regra</div><span class="t fit" data-h="700">Explicada no curso</span></div>
+  <div class="logo"><img src="../marca/logo.png" alt="Tribuna98"></div>
+  <div class="rod">Curso de processo legislativo</div>
+</div>
+
+<!-- CAPA 04 · palavra gigante -->
+<div id="capa-04" class="c c4">
+  <div class="logo"><img src="../marca/logo.png" alt="Tribuna98"></div>
+  <div class="mid">
+    <div class="k">O que é o</div>
+    <span class="t w fit" data-h="330">Devido</span>
+    <span class="t w fit" data-h="330">processo</span>
+    <span class="t fit" data-h="330">legislativo?</span>
+  </div>
+  <div class="rod">Curso de processo legislativo</div>
+</div>
+
+<!-- CAPA 05 · cartão -->
+<div id="capa-05" class="c c5">
+  <div class="logo"><img src="../marca/logo.png" alt="Tribuna98"></div>
+  <div class="card">
+    <div class="selo">CURSO</div>
+    <div class="k">Processo legislativo</div>
+    <span class="t fit" data-h="900">Sessão secreta pode…?</span>
+  </div>
+  <div class="rod">Curso de processo legislativo</div>
+</div>
+
+<!-- CAPA 06 · faixas -->
+<div id="capa-06" class="c c6">
+  <div class="logo"><img src="../marca/logo.png" alt="Tribuna98"></div>
+  <div class="k" style="top:470px;position:absolute;left:0;right:0;z-index:2">Conceito</div>
+  <div class="f f1"><span class="t fit" data-h="300">O que é o</span></div>
+  <div class="f f2"><span class="t fit" data-h="300">Princípio…?</span></div>
+  <div class="f f3"><span class="t fit" data-h="300">Curso de processo legislativo</span></div>
+  <div class="rod">Tribuna98</div>
+</div>
+
+<!-- CAPA 07 · anel com ícone -->
+<div id="capa-07" class="c c7">
+  <div class="logo"><img src="../marca/logo.png" alt="Tribuna98"></div>
+  <div class="anel">
+    <svg viewBox="0 0 120 120" fill="none" stroke="#ffd400" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"><rect x="14" y="22" width="80" height="78" rx="8"/><path d="M94 42h10a4 4 0 0 1 4 4v44a10 10 0 0 1-20 0"/><path d="M30 42h48M30 60h48M30 78h28"/></svg>
+    <span class="t">Medida provisória</span>
+  </div>
+  <div class="txt"><span class="t fit" data-h="400">O que é <span>medida</span> provisória?</span></div>
+  <div class="rod">Curso de processo legislativo</div>
+</div>
+
+<!-- CAPA 08 · frase de impacto -->
+<div id="capa-08" class="c c8">
+  <div class="logo"><img src="../marca/logo.png" alt="Tribuna98"></div>
+  <div class="aspas">“</div>
+  <div class="mid"><span class="t fit" data-h="900">O que é <span>quórum</span> de votação?</span></div>
+  <div class="rod">Curso de processo legislativo</div>
+</div>
+
+<!-- CAPA 09 · número grande -->
+<div id="capa-09" class="c c9">
+  <div class="logo"><img src="../marca/logo.png" alt="Tribuna98"></div>
+  <div class="num">01</div>
+  <div class="mid"><span class="t fit" data-h="600">Quem pode propor <span>um projeto de lei?</span></span></div>
+  <div class="rod">Curso de processo legislativo</div>
+</div>
+
+<script>
+// Ajusta o tamanho do título para caber na largura (e na altura, quando data-h existe). Mesmo princípio do gerar.js.
+function ajusta(el){
+  const pai=el.parentElement; const cs=getComputedStyle(pai);
+  const largura=(pai.clientWidth||900)-parseFloat(cs.paddingLeft)-parseFloat(cs.paddingRight); const maxH=+el.dataset.h||Infinity;
+  el.style.display='block'; el.style.width=largura+'px';
+  let fs=parseFloat(getComputedStyle(el).fontSize);
+  while((el.scrollWidth>largura+1||el.scrollHeight>maxH)&&fs>60){fs-=4;el.style.fontSize=fs+'px';}
+}
+function ajustaTudo(){document.querySelectorAll('.fit').forEach(ajusta);}
+function mostra(id){document.querySelectorAll('.c').forEach(c=>c.classList.toggle('on',c.id===id));ajustaTudo();}
+document.fonts.ready.then(()=>ajustaTudo());
+</script>
+</body></html>
