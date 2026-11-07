@@ -1,4 +1,4 @@
-"""Painel do Tribuna 98 (Thiago Azevedo) = o modelo da Central (../prototipo/painel.html), com:
+"""Painel do Tribuna 98 = o modelo da Central (../prototipo/painel.html), com:
 - o CSS e o menu lateral do modelo, na identidade do Tribuna (azul royal + amarelo da logo, Anton nos títulos);
 - as telas próprias do escopo (Visão geral, Escopo, Linha do tempo, Monetização, Próximos passos, Decisões do Lindson);
 - prototipo/movimento.js (animações do modelo) por último.
@@ -64,7 +64,7 @@ DADOS = {
     ["Insights e Analytics", "a confirmar", "sem acesso até agora (item 8)"]
   ],
   "canais": [
-    ["Instagram", "@tribuna98_", "71,5 mil seguidores", "Principal. Reels do Thiago para a câmera e cards de manchete"],
+    ["Instagram", "@tribuna98_", "71,5 mil seguidores", "Principal. Reels do apresentador para a câmera e cards de manchete"],
     ["TikTok", "@tribuna098", "7,1 mil seguidores", "Mesmos Reels, sem linha própria"],
     ["YouTube", "@tribuna098", "296 inscritos", "Entrevistas de 30 a 60 min quase sem visualização"],
     ["Kwai", "@Triibuna98", "65 seguidores", "Espelho do Instagram"],
@@ -83,7 +83,7 @@ DADOS = {
   "linha": [
     ["03/11", "Ficha do cliente com todos os canais (Instagram, TikTok, YouTube, Kwai e Linktree)", "feito"],
     ["03/11", "Bio nova, 7 capas de destaques e mini site da bio no ar (tribuna98.pages.dev)", "feito"],
-    ["07/11", "Escopo definido pelo Lindson: 8 itens e trava de projeto (Thiago Fonseca, empresa Tribuna 98)", "feito"],
+    ["07/11", "Escopo definido pelo Lindson: 8 itens e trava de projeto (contato da empresa Tribuna 98)", "feito"],
     ["07/11", "Análise das redes e 6 caminhos para monetizar (parte 2 do escopo)", "feito"],
     ["07/11", "Painel do Tribuna 98 na Central (parte 3 do escopo)", "feito"],
     ["07/11", "9 capas de Reels do curso de processo legislativo", "andamento"],
@@ -102,7 +102,7 @@ DADOS = {
     "Quem paga não escolhe a pauta nem o texto. Matéria paga disfarçada fica fora.",
     "Checar fatos e fontes nas matérias de licitação (documento público, PNCP). Direito de resposta registrado.",
     "Ano eleitoral: qualquer venda a candidato passa pelo advogado eleitoral antes.",
-    "Nenhuma promessa de receita. Valores de anúncio saem só na conversa com o Thiago e o anunciante."
+    "Nenhuma promessa de receita. Valores de anúncio saem só na conversa com o responsável pelo Tribuna e o anunciante."
   ],
   "proximos": [
     ["Lindson", "Mandar os prints de 07/11 (Instagram, YouTube e site) e o print do Insights dos últimos 90 dias"],
@@ -227,7 +227,7 @@ html = f"""<!doctype html>
   <div class="area">
     <header class="topo">
       <button class="abrir-menu" id="abrir" aria-label="Abrir menu" aria-controls="menu" aria-expanded="false">☰</button>
-      <div><h1 id="titulo">Visão geral</h1><div class="cliente">Tribuna 98 · Thiago Azevedo · jornalismo político do Maranhão</div></div>
+      <div><h1 id="titulo">Visão geral</h1><div class="cliente">Tribuna 98 · jornalismo político do Maranhão</div></div>
       <div class="dir"><span class="exemplo">Dados de 03/11/2026</span><div class="avatar" title="Tribuna 98">T98</div></div>
     </header>
     <main id="conteudo"></main>

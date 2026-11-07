@@ -2,7 +2,7 @@
   python3 montar-site.py
 Um sistema só: cria a conta uma vez (nome, e-mail, senha e código), depois entra com e-mail e senha e cai no próprio painel; o admin vê todos.
 Gera: publico/index.html (tela de acesso), publico/painel/{admin,contas,jaci,leo}.html, publico/_headers.
-Antes, gere os painéis: python3 ../jaci-cunha/montar-jaci.py, python3 ../leo-pinto/montar-leo.py python3 ../desentupidora-sf/montar-sf.py e python3 ../rt-full-jobs/montar-rt.py.
+Antes, gere os painéis: python3 ../jaci-cunha/montar-jaci.py, python3 ../leo-pinto/montar-leo.py python3 ../desentupidora-sf/montar-sf.py, python3 ../rt-full-jobs/montar-rt.py e python3 ../curso-processo-legislativo/montar-curso.py, python3 ../tribuna98/montar-tribuna.py.
 O acesso é conferido no servidor (functions/). Os códigos ficam só nas variáveis da Cloudflare (ver README)."""
 import base64, os, re, shutil
 D = os.path.dirname(os.path.abspath(__file__)); SC = os.path.join(D, '..'); OUT = os.path.join(D, 'publico')
@@ -60,14 +60,14 @@ assert '/api/entrar' in s and '/api/criar' in s and 'PAINEIS' not in s and 'resu
 open(os.path.join(OUT, 'index.html'), 'w').write(doc(s))
 
 # 2 · painéis dos clientes (gerados pelos scripts de cada cliente) com o botão Sair
-for cli, arq in [('jaci', os.path.join(SC, 'jaci-cunha', 'painel-jaci.html')), ('leo', os.path.join(SC, 'leo-pinto', 'painel-leo.html')), ('sf', os.path.join(SC, 'desentupidora-sf', 'painel-sf.html')), ('rt', os.path.join(SC, 'rt-full-jobs', 'painel-rt.html'))]:
+for cli, arq in [('jaci', os.path.join(SC, 'jaci-cunha', 'painel-jaci.html')), ('leo', os.path.join(SC, 'leo-pinto', 'painel-leo.html')), ('sf', os.path.join(SC, 'desentupidora-sf', 'painel-sf.html')), ('rt', os.path.join(SC, 'rt-full-jobs', 'painel-rt.html')), ('curso', os.path.join(SC, 'curso-processo-legislativo', 'painel-curso.html')), ('tribuna', os.path.join(SC, 'tribuna98', 'painel-tribuna.html'))]:
     open(os.path.join(OUT, 'painel', cli + '.html'), 'w').write(doc(com_sair(open(arq).read())))
 
 # 3 · painel do ADMINISTRADOR (Lindson): o mesmo sistema da Central (prototipo/painel.html), preto e amarelo, com menu lateral,
 #     e telas próprias (site/admin-sistema.js): visão geral com novidades, clientes, rede social, vendas e CRMs, canais, contas e antigos.
 import json
 DADOS = os.environ.get('CENTRAL_DADOS', os.path.join(D, '..', '..', '..', '..', 'centrallindsonalmeida', 'dados'))
-clientes = [json.load(open(os.path.join(DADOS, c + '.json'))) for c in ['jaci', 'leo', 'sf', 'rt'] if os.path.exists(os.path.join(DADOS, c + '.json'))]
+clientes = [json.load(open(os.path.join(DADOS, c + '.json'))) for c in ['jaci', 'leo', 'sf', 'rt', 'curso', 'tribuna'] if os.path.exists(os.path.join(DADOS, c + '.json'))]
 resumo = [{k: c.get(k) for k in ['cliente', 'nome', 'seg', 'atualizado', 'instagram']} for c in clientes]
 for r in resumo:
     if r.get('instagram'): r['instagram'] = {k: r['instagram'].get(k) for k in ['perfil', 'data', 'periodo', 'seguidores', 'visualizacoes', 'var_seguidores', 'var_visualizacoes']}
