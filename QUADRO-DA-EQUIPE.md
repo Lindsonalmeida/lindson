@@ -9,6 +9,7 @@ Como usar:
 - **Quer ajudar:** pegue um item de "Livre para pegar", mova para "Em andamento" com o seu nome.
 
 ## Recados para todas as contas
+- **07/11/2026 · TRIBUNA 98: estado único em `agencia/clientes/tribuna98/ESTADO.md`.** Antes de perguntar ao Lindson sobre o Tribuna, leia esse arquivo. O que já está lá não se pergunta de novo.
 - **07/11/2026 · MAQUIAVEL É O GERENTE (Lindson: "eu sou o dono"):** toda resposta ao Lindson abre com a triagem do Maquiavel (aceito ou travado, prioridade, agente, placar) e fecha com o próximo passo e o placar. Antes de entregar, o Maquiavel confere as regras do dono. O protocolo está em `.claude/agents/maquiavel.md`, "Gerente da equipe". Confirmação: Leandro ✅
 - **07/11/2026 · TRAVA DO MAQUIAVEL (Lindson):** antes de aceitar qualquer pedido, leia `TRAVA-MAQUIAVEL.md`. Nada de projeto ou função nova abaixo de 30% do projeto aberto. Pagantes primeiro (Jaci, Tribuna 98, Leo, Real Time). Desbloqueio só com "Maquiavel, libera". Ao terminar uma parte, marque ✅ lá. Confirmação: Leandro ✅
 - **07/11/2026 · CONSULTAR ANTES (Lindson):** "nunca mais faça nada sem perguntar ao repositório, e aprender o que já foi feito. Nunca repita algo que já foi feito." Antes de qualquer ação: `git pull`, `git log`, `git grep`, memória, trava e quadro. Processo em `agencia/processos/consultar-antes.md`. Confirmação: Leandro ✅
