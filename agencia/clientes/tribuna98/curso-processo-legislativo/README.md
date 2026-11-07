@@ -14,6 +14,6 @@ Conta que o Lindson entregou para este curso: perfil e identidade **próprios**,
 - Estrutura do curso (aulas, ordem, títulos).
 - Link definitivo da bio (hoje é placeholder do Canva).
 - Turma de 10 de abril: o post é de 19/03; confirmar se já passou.
-- Quem é quem entre os instrutores (post traz "Tiago Azevedo" e "Rafael Araújo Veras").
+- Quem é quem entre os dois instrutores do post (nomes sem uso até o Lindson confirmar, regra da trava).
 
 Não há capa final nem arte aprovada para o curso. As capas de 07/11 (identidade do Tribuna) foram reprovadas.

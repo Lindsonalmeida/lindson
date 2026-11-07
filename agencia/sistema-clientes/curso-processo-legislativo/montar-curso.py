@@ -77,7 +77,7 @@ DADOS = {
     ["Direção da identidade do curso", "Item 3. Precisa de persona e pesquisa premium antes. A identidade do Tribuna foi reprovada para este curso.", "aguardando"],
     ["Link definitivo da bio", "Item 5. Hoje é placeholder do Canva. Qual endereço usar (site próprio, pages.dev ou outro)?", "aguardando"],
     ["Turma de 10 de abril", "Item 8. Se já passou, o próximo post precisa de nova data. Confirmar com o Lindson.", "aguardando"],
-    ["Quem é quem entre os instrutores", "O post traz 'Tiago Azevedo' e 'Rafael Araújo Veras'. Confirmar nome legal e papel de cada um antes de usar o nome.", "aguardando"]
+    ["Quem é quem entre os instrutores", "O post traz dois nomes de instrutores. Confirmar quem são, o papel de cada um e o nome legal antes de usar qualquer nome (regra da trava: nomes antigos ficam sem uso até o Lindson confirmar).", "aguardando"]
   ],
   "proximos": [
     ["Lindson", "Escolher o nome da marca e a direção de identidade (ou aprovar o que a equipe propuser)"],
