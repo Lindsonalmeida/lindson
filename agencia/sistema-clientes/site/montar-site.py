@@ -24,7 +24,12 @@ def doc(x):
     return x if x.lower().startswith('<!doctype') else CAB + x
 
 def com_sair(s):
-    return troca(s, '<span class="exemplo">Dados de exemplo</span>', '<span class="exemplo">Dados de exemplo</span>' + SAIR)
+    # o painel publicado pode trazer outro texto no cabeçalho: aceita os dois formatos
+    if SAIR in s: return s
+    chip = '<span class="exemplo">Dados de exemplo</span>'
+    if chip in s: return troca(s, chip, chip + SAIR)
+    if s.count('</span><div class="avatar"') == 1: return s.replace('</span><div class="avatar"', '</span>' + SAIR + '<div class="avatar"')
+    return s
 
 # 1 · tela de acesso: o login aprovado (prototipo/login.html), agora com e-mail + código conferido no servidor
 s = open(os.path.join(SC, 'prototipo', 'login.html')).read()
