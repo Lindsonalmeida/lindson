@@ -3,6 +3,8 @@
 > Pedido do Lindson (07/11): arte com os sócios (item 6 da trava). Regra: pesquisa premium antes da peça (8 referências de 3 países, confirmadas na própria página, 3 combinadas, descartadas com motivo). Padrão seguido: o do Dublê e o do Real Time (`apps/clone-studio/identidade/TEMPLATE.md` e `agencia/clientes/rt-full-jobs/identidade/v1/TEMPLATE.md`).
 > Correção do Lindson (07/11): o Tribuna 98 é só do Tiago. O Rafael é sócio dele só no curso de processo legislativo.
 
+> **CANCELADO pelo Lindson (07/11/2026): não fazer artes dos sócios ainda.** Esta pesquisa fica só como registro. As artes provisórias foram apagadas.
+
 ## Pesquisa
 CSS Design Awards (https://www.cssdesignawards.com), que mostra na própria página o estúdio, o país e o status (indicado ou vencedor). Sites ao vivo abertos com o Playwright em 07/11. Capturas em `referencias/socios/`.
 **Opinião dos agentes do nicho:** pendente. Não consultei os agentes nesta rodada; a escolha acima é da conta Leandro e pode ser revista.
