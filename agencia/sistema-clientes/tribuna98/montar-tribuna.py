@@ -53,21 +53,21 @@ css += """
 
 # 2 · dados (só o que já está salvo; o que falta aparece como "a confirmar")
 DADOS = {
-  "fonte": "Instagram: print de 07/11/2026 (agencia/clientes/tribuna98/prints/instagram-07-11-2026.png). Demais canais: números de 03/11/2026 (README.md).",
+  "fonte": "Instagram, TikTok, YouTube e Kwai: prints de 07/11/2026 (agencia/clientes/tribuna98/prints/). Site: números de 03/11/2026 (README.md).",
   "escopo_total": 8,
   "kpis": [
     ["Instagram @tribuna98_", "72,1 mil", "seguidores · print de 07/11"],
     ["Posts no Instagram", "2.522", "print de 07/11"],
-    ["TikTok @tribuna098", "7,1 mil", "seguidores · 42,4 mil curtidas"],
-    ["YouTube @tribuna098", "296", "inscritos · 30 vídeos"],
+    ["TikTok @tribuna098", "7.520", "seguidores · 45,2 mil curtidas · print de 07/11"],
+    ["YouTube @tribuna098", "298", "inscritos · 32 vídeos · print de 07/11"],
     ["Site tribuna98.com.br", "3 por dia", "matérias publicadas (WordPress)"],
     ["Insights e Analytics", "a confirmar", "sem acesso até agora (item 8)"]
   ],
   "canais": [
     ["Instagram", "@tribuna98_", "72,1 mil seguidores · 2.939 seguindo", "Principal. Reels do apresentador para a câmera e cards de manchete"],
-    ["TikTok", "@tribuna098", "7,1 mil seguidores", "Mesmos Reels, sem linha própria"],
-    ["YouTube", "@tribuna098", "296 inscritos", "Entrevistas de 30 a 60 min quase sem visualização"],
-    ["Kwai", "@Triibuna98", "65 seguidores", "Espelho do Instagram"],
+    ["TikTok", "@tribuna098", "7.520 seguidores", "Mesmos Reels, sem linha própria. 16 seguindo, 45,2 mil curtidas"],
+    ["YouTube", "@tribuna098", "298 inscritos", "Entrevistas de 30 a 60 min quase sem visualização. 32 vídeos"],
+    ["Kwai", "@Triibuna98", "99 seguidores", "Espelho do Instagram. 878 curtidas"],
     ["Site", "tribuna98.com.br", "3 matérias por dia", "Blog sem página Anuncie nem mídia kit"]
   ],
   "escopo": [
