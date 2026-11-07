@@ -54,7 +54,7 @@ css += """
 # 2 · dados (só o que já está salvo; o que falta aparece como "a confirmar")
 DADOS = {
   "fonte": "Instagram, TikTok, YouTube e Kwai: prints de 07/11/2026 (agencia/clientes/tribuna98/prints/). Site: números de 03/11/2026 (README.md).",
-  "escopo_total": 8,
+  "escopo_total": 6,
   "kpis": [
     ["Instagram @tribuna98_", "72,1 mil", "seguidores · print de 07/11"],
     ["Posts no Instagram", "2.522", "print de 07/11"],
@@ -75,10 +75,8 @@ DADOS = {
     ["2", "Análise das redes + caminhos para monetizar", "feito", "Feita com os números de 03/11. Falta trocar pelos prints de 07/11"],
     ["3", "Painel do Tribuna 98 na Central", "feito", "Este painel. Dados reais entram quando o Lindson mandar os prints"],
     ["4", "Site principal (substituir o WordPress ou ficar ao lado)", "espera", "Decisão do Lindson"],
-    ["5", "Instagram do curso de processo legislativo", "andamento", "9 capas de Reels em andamento. Faltam o @ e a estrutura do curso"],
-    ["6", "Imagens de IA dos sócios (com autorização)", "espera", "Nome e 5 a 10 fotos de cada sócio, com autorização. Nenhuma imagem sem isso"],
-    ["7", "Artes do feed, calendário e roteiros do curso", "fazer", "Depois do item 5 e da estrutura do curso"],
-    ["8", "Acessos e Insights do Instagram", "espera", "Print dos últimos 90 dias. Sem isso o painel não tem números reais"]
+    ["5", "Imagens de IA dos sócios (com autorização)", "espera", "Nome e 5 a 10 fotos de cada sócio, com autorização. Nenhuma imagem sem isso"],
+    ["6", "Acessos e Insights do Instagram", "espera", "Print dos últimos 90 dias. Sem isso o painel não tem números reais"]
   ],
   "linha": [
     ["03/11", "Ficha do cliente com todos os canais (Instagram, TikTok, YouTube, Kwai e Linktree)", "feito"],
@@ -86,8 +84,6 @@ DADOS = {
     ["07/11", "Escopo definido pelo Lindson: 8 itens e trava de projeto (contato da empresa Tribuna 98)", "feito"],
     ["07/11", "Análise das redes e 6 caminhos para monetizar (parte 2 do escopo)", "feito"],
     ["07/11", "Painel do Tribuna 98 na Central (parte 3 do escopo)", "feito"],
-    ["07/11", "9 capas de Reels do curso de processo legislativo", "andamento"],
-    ["07/11", "Foto de perfil do curso com os sócios: parada até a autorização de cada sócio", "espera"]
   ],
   "caminhos": [
     ["1", "Página Anuncie e mídia kit (site e Linktree)", "Sem ela nenhum anunciante encontra o Tribuna", "Baixo", "Baixo", "Insights do IG e Analytics"],
@@ -114,7 +110,6 @@ DADOS = {
   ],
   "decisoes": [
     ["Site principal: substituir o WordPress ou ficar ao lado?", "Item 4 do escopo. Substituir é mais trabalho e mais controle; ao lado é mais rápido e não mexe no blog que já publica 3 matérias por dia.", "aguardando"],
-    ["@ do curso de processo legislativo", "Item 5. Sem o @ não dá para gerar as capas finais nem a foto de perfil do curso.", "aguardando"],
     ["Autorização dos sócios para usar a imagem", "Item 6. Precisa de nome e 5 a 10 fotos de cada sócio, com autorização escrita de cada um. Sem isso, nenhuma imagem de IA dos sócios.", "aguardando"],
     ["Insights do Instagram (últimos 90 dias)", "Item 8. É a prova de audiência para vender anúncio. Sem ela, a página Anuncie sai sem números.", "aguardando"],
     ["Vender só para comércio, ou também para candidatos?", "Venda a candidato passa pelo advogado eleitoral (Lei 9.504/97). Decisão do Lindson antes de montar a proposta.", "aguardando"]
@@ -150,7 +145,7 @@ const V = {
       </tbody></table></div></div>` + nota();
   },
   escopo() {
-    return `<div class="card"><h3>Escopo do Tribuna 98</h3><p class="sub">Os 8 itens definidos pelo Lindson em 07/11. Status conferido com TRAVA-MAQUIAVEL.md.</p>
+    return `<div class="card"><h3>Escopo do Tribuna 98</h3><p class="sub">Os 6 itens do Tribuna 98. Os itens do curso de processo legislativo estão no painel do curso.</p>
     <div style="overflow-x:auto"><table class="tb-tabela"><thead><tr><th>#</th><th>Item</th><th>Status</th><th>O que falta</th></tr></thead><tbody>
     ${D.escopo.map(x => `<tr><td>${esc(x[0])}</td><td><b>${esc(x[1])}</b></td><td>${st(x[2])}</td><td>${esc(x[3])}</td></tr>`).join('')}
     </tbody></table></div></div>` + nota();
