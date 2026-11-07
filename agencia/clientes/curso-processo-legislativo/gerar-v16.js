@@ -207,7 +207,7 @@ const capa3 = doc(
 
 // ---------- Prancha: elementos isolados (sistema-elementos.png, 1600x1100) ----------
 const ELEMENTOS = `
-<div class="c" style="width:1600px;height:1100px;padding:60px;background:#080808">
+<div class="c" style="width:1600px;height:1180px;padding:60px;background:#080808">
   <div class="logo" style="position:absolute;left:60px;top:44px;font-size:34px">PROCESSO <b>LEGISLATIVO</b></div>
   <div class="serie" style="position:absolute;right:60px;top:52px;font-size:20px">Sistema de elementos · v16</div>
   <div style="position:absolute;left:60px;top:120px;width:1480px;height:920px;display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:270px;gap:24px">
@@ -216,16 +216,16 @@ const ELEMENTOS = `
     <div class="tile"><div class="tt">3 · Selo circular com texto</div><div style="position:relative;height:190px"><div style="position:absolute;left:50%;top:0;transform:translateX(-50%);width:180px;height:180px">${SELO_CIRCULAR_FIX.replace('<svg class="abs" width="250" height="250"', '<svg width="180" height="180"')}</div></div></div>
     <div class="tile"><div class="tt">4 · Destaque em caixa dourada</div><div style="font-family:'Inter Display';font-weight:800;font-size:64px;line-height:1.2;padding-top:40px">sem <span class="box">quórum?</span></div></div>
     <div class="tile"><div class="tt">5 · Chips com ícone</div><div style="position:relative;height:190px"><div class="chip" style="position:absolute;left:0;top:30px">${CHECK}Regimento</div><div class="chip" style="position:absolute;left:0;top:120px">${CHECK}Presença</div></div></div>
-    <div class="tile"><div class="tt">6 · Lista em cartão com marcador</div><div style="position:relative;height:190px"><div class="lista" style="position:absolute;left:0;top:10px;width:400px;padding:18px 26px">
+    <div class="tile"><div class="tt">6 · Lista em cartão com marcador</div><div style="position:relative;height:190px"><div class="lista" style="position:absolute;left:0;top:10px;width:300px;padding:18px 22px">
       <div style="font-size:24px">${TRI}Regimento interno</div><div style="font-size:24px;margin-top:16px">${TRI}Presença</div></div></div></div>
-    <div class="tile"><div class="tt">7 · Barra inferior com pílula</div><div style="position:relative;height:190px"><div style="position:absolute;left:0;right:0;top:50px;display:flex;justify-content:space-between;align-items:center"><div class="handle" style="font-size:20px">${HANDLE}</div><div class="pill" style="height:70px;font-size:22px;padding:0 30px">Assista ao curso básico</div></div></div></div>
+    <div class="tile"><div class="tt">7 · Barra inferior com pílula</div><div style="position:relative;height:190px"><div style="position:absolute;left:0;right:0;top:30px;display:flex;flex-direction:column;gap:18px;align-items:flex-start"><div class="handle" style="font-size:14px">${HANDLE}</div><div class="pill" style="height:60px;font-size:18px;padding:0 24px">Assista ao curso básico</div></div></div></div>
     <div class="tile"><div class="tt">8 · Tarja vertical e feixe de luz</div><div style="position:relative;height:190px;background:linear-gradient(115deg,#111 0%,#1a160c 100%);overflow:hidden"><div style="position:absolute;right:0;top:0;width:12px;height:190px;background:#A89048"></div><div class="feixe" style="left:-40px;top:-60px;width:280px;height:300px"></div></div></div>
     <div class="tile"><div class="tt">9 · Espaço do instrutor</div><div style="position:relative;height:190px"><div class="slot" style="position:absolute;left:50%;top:14px;transform:translateX(-50%);width:200px;height:160px;font-size:16px;padding:14px">Espaço do instrutor<br>(aguardando a foto)</div></div></div>
     <div class="tile"><div class="tt">10 · Cartão de dados</div><div style="position:relative;height:190px"><div class="cartao" style="position:absolute;right:auto;left:0;top:10px;width:300px;padding:18px 22px"><div class="k" style="font-size:18px">Aula 03 / 03</div><div class="t" style="font-size:34px">Iniciativa</div><div class="s" style="font-size:19px">Quem apresenta a proposta.</div></div></div></div>
-    <div class="tile"><div class="tt">11 · Rótulo de série e filete</div><div style="position:relative;height:190px"><div class="serie" style="position:absolute;left:0;top:60px;font-size:22px">Curso básico · Aula 01 / 03</div><div style="position:absolute;left:0;top:120px;width:140px;height:3px;background:#C8A860"></div></div></div>
+    <div class="tile"><div class="tt">11 · Rótulo de série e filete</div><div style="position:relative;height:190px"><div class="serie" style="position:absolute;left:0;top:60px;font-size:15px;letter-spacing:.1em">Curso básico · Aula 01 / 03</div><div style="position:absolute;left:0;top:120px;width:140px;height:3px;background:#C8A860"></div></div></div>
     <div class="tile"><div class="tt">12 · Degradê de leitura</div><div style="position:relative;height:190px;background:linear-gradient(180deg,rgba(8,8,8,.92) 0%,rgba(8,8,8,.35) 30%,rgba(8,8,8,.25) 55%,rgba(8,8,8,.9) 80%,#080808 100%),#777671"></div></div>
   </div>
-  <div style="position:absolute;left:60px;bottom:60px;display:flex;gap:18px">
+  <div style="position:absolute;left:60px;right:60px;bottom:36px;display:flex;gap:12px">
     <div class="sw" style="background:#080808;color:#F8F8F8">#080808 preto</div>
     <div class="sw" style="background:#A89048;color:#080808">#A89048 dourado fosco</div>
     <div class="sw" style="background:#C8A860;color:#080808">#C8A860 highlight</div>
@@ -237,15 +237,15 @@ const ELEMENTOS = `
 const ELEM_CSS = `
 .tile{position:relative;background:#111;border:1px solid #2a2a2a;border-radius:14px;padding:18px 20px;overflow:hidden}
 .tt{font-weight:700;font-size:16px;letter-spacing:.1em;text-transform:uppercase;color:#A89048;margin-bottom:8px}
-.sw{padding:18px 22px;font-weight:700;font-size:20px;border-radius:12px;border:1px solid #2a2a2a}
+.sw{flex:1;padding:14px 14px;font-weight:700;font-size:16px;border-radius:12px;border:1px solid #2a2a2a}
 `;
-const elementosHtml = `<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><style>${CSS}${ELEM_CSS}html,body{width:1600px;height:1100px}</style></head><body>${ELEMENTOS}</body></html>`;
+const elementosHtml = `<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><style>${CSS}${ELEM_CSS}html,body{width:1600px;height:1180px}</style></head><body>${ELEMENTOS}</body></html>`;
 
 const CAPAS = [
   { file: 'capa-v16-1.png', html: capa1, w: 1080, h: 1920 },
   { file: 'capa-v16-2.png', html: capa2, w: 1080, h: 1920 },
   { file: 'capa-v16-3.png', html: capa3, w: 1080, h: 1920 },
-  { file: 'sistema-elementos.png', html: elementosHtml, w: 1600, h: 1100 },
+  { file: 'sistema-elementos.png', html: elementosHtml, w: 1600, h: 1180 },
 ];
 
 (async () => {
