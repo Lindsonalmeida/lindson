@@ -3,7 +3,7 @@
 const { chromium } = require('playwright');
 const path = require('path');
 const BASE = `
-:root{--bg:#0F0F10;--paper:#F2F1EC;--sinal:#FF4A1C;--mute:#8C8A84}
+:root{--bg:#00241C;--paper:#FCFCFC;--sinal:#C8B078;--mute:#9AA8A2}
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:#666}
 .c{width:1080px;height:1920px;position:relative;overflow:hidden;background:var(--bg);color:var(--paper);font-family:'Inter Display','Inter',Arial,sans-serif}
@@ -26,7 +26,7 @@ const CAPAS = [
     '<div class="h" style="top:430px;font-size:230px">Urgência</div>' +
     '<div class="h" style="top:700px;font-size:110px;letter-spacing:-.03em">o que muda<br>na votação?</div>' + FOOT)],
   ['capa-02-pode-votar', W('', BAR('02') +
-    '<div class="h sn" style="top:330px;font-size:1100px;left:0;right:0;text-align:center;line-height:1">?</div>' +
+    '<div class="h sn" style="top:250px;font-size:860px;left:0;right:0;text-align:center;line-height:1">?</div>' +
     '<div class="h" style="top:1240px;font-size:128px">Pode votar<br>sem quórum?</div>' + FOOT)],
   ['capa-03-projeto-tramitar', W('p', BAR('03') +
     '<div class="k mono" style="top:360px;color:var(--mute)">Problema</div>' +
@@ -61,18 +61,18 @@ const CAPAS = [
     '<div class="h" style="top:1270px;font-size:124px">Quem pode<br>propor um<br>projeto de lei?</div>' + FOOT)],
 ];
 const BOARD = `<section style="width:1600px;height:900px;display:flex;font-family:'Inter Display',Inter,sans-serif">
- <div style="width:800px;height:900px;background:#0F0F10;color:#F2F1EC;padding:64px;position:relative">
-  <div class="mono" style="font-family:'JetBrains Mono';font-size:22px;color:#8C8A84;letter-spacing:.06em">DIREÇÃO C · SINAL · preto + laranja</div>
+ <div style="width:800px;height:900px;background:#00241C;color:#FCFCFC;padding:64px;position:relative">
+  <div class="mono" style="font-family:'JetBrains Mono';font-size:22px;color:#9AA8A2;letter-spacing:.06em">DIREÇÃO C · CORES DO CURSO · verde + dourado</div>
   <div style="font-weight:900;font-size:100px;line-height:.86;letter-spacing:-.045em;margin-top:40px;text-transform:uppercase">Processo<br>Legislativo</div>
-  <div style="font-weight:900;font-size:120px;line-height:.86;letter-spacing:-.045em;margin-top:40px;color:#FF4A1C;text-transform:uppercase">Urgência</div>
-  <div style="display:flex;gap:16px;margin-top:60px"><div style="width:140px;height:140px;background:#0F0F10;border:2px solid #F2F1EC"></div><div style="width:140px;height:140px;background:#F2F1EC"></div><div style="width:140px;height:140px;background:#FF4A1C"></div><div style="width:140px;height:140px;background:#8C8A84"></div></div>
-  <div style="font-size:24px;line-height:1.5;margin-top:36px">Preto #0F0F10 · papel #F2F1EC · sinal #FF4A1C · cinza #8C8A84<br>Títulos: Inter Display 900, caixa alta, entrelinha curta<br>Rótulos e números: JetBrains Mono</div>
+  <div style="font-weight:900;font-size:120px;line-height:.86;letter-spacing:-.045em;margin-top:40px;color:#C8B078;text-transform:uppercase">Urgência</div>
+  <div style="display:flex;gap:16px;margin-top:60px"><div style="width:140px;height:140px;background:#00241C;border:2px solid #FCFCFC"></div><div style="width:140px;height:140px;background:#FCFCFC"></div><div style="width:140px;height:140px;background:#C8B078"></div><div style="width:140px;height:140px;background:#9AA8A2"></div></div>
+  <div style="font-size:24px;line-height:1.5;margin-top:36px">Verde-garrafa #00241C · branco #FCFCFC · dourado #C8B078 · cinza-verde #9AA8A2 (tons medidos no cartaz do curso; o cinza é derivado)<br>Títulos: Inter Display 900, caixa alta, entrelinha curta<br>Rótulos e números: JetBrains Mono</div>
  </div>
- <div style="width:800px;height:900px;background:#FF4A1C;color:#0F0F10;padding:64px;position:relative">
-  <div style="font-family:'JetBrains Mono';font-size:22px;letter-spacing:.06em">DIREÇÃO C · VARIANTE · sinal dominante</div>
+ <div style="width:800px;height:900px;background:#C8B078;color:#00241C;padding:64px;position:relative">
+  <div style="font-family:'JetBrains Mono';font-size:22px;letter-spacing:.06em">DIREÇÃO C · VARIANTE · dourado dominante</div>
   <div style="font-weight:900;font-size:100px;line-height:.86;letter-spacing:-.045em;margin-top:40px;text-transform:uppercase">Pode votar<br>sem quórum?</div>
   <div style="font-weight:900;font-size:300px;line-height:.9;letter-spacing:-.06em;margin-top:30px">?</div>
-  <div style="font-size:24px;line-height:1.5;margin-top:36px">Mesma gramática, fundo laranja para peças de destaque. Usar com moderação: no máximo uma peça de cada três.</div>
+  <div style="font-size:24px;line-height:1.5;margin-top:36px">Mesma gramática, fundo dourado para peças de destaque. Usar com moderação: no máximo uma peça de cada três.</div>
  </div></section>`;
 (async () => {
   const dir = __dirname;

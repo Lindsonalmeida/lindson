@@ -10,7 +10,7 @@ Persona: a mesma de `TEMPLATE.md` (vereador, assessor e servidor de câmara do M
 |---|---|---|---|---|---|
 | 1 | **Public School 9 Brand Identity** (K-Design Award) | EUA · 2025 · WINNER | `referencias/13-public-school-9-us.png` | **Escolhida 1** | Sans bold como voz principal, com um deslocamento de cor e um efeito de "erro de impressão" usado com moderação. Copiado: sombra deslocada da capa 05 |
 | 2 | **Soapbox · "A bold relaunch for a leading progressive magazine"** | estúdio em Sydney (página: sydney) · 2025 e 2026 | `referencias/15-progress-soapbox-au.png` | **Escolhida 2** | Hero escuro com grotesca grande, de frase em bloco, sem decoração. Copiado nas capas 01 e 04. **Atenção:** a página mostra o estúdio em Sydney, não o país da revista |
-| 3 | **The Nation redesenhado por Athletics** (GDUSA) | EUA (página: "USA") · 2025 e 2026 | `referencias/14-the-nation-us.png` | **Escolhida 3** | Cabeçalho grande com uma cor de marca forte, usada como reconhecimento. Copiado: o laranja-sinal como cor de marca. **Atenção:** a página é de notícia, lida pela captura |
+| 3 | **The Nation redesenhado por Athletics** (GDUSA) | EUA (página: "USA") · 2025 e 2026 | `referencias/14-the-nation-us.png` | **Escolhida 3** | Cabeçalho grande com uma cor de marca forte, usada como reconhecimento. Copiado: o dourado como cor de marca. **Atenção:** a página é de notícia, lida pela captura |
 | 4 | Fiasco Design · identidade da Bayswater (educação) | Reino Unido (página: london) · 2024 a 2026 | `referencias/12-fiasco-bayswater-uk.png` | Descartada | Visual não analisado nesta rodada; fica para uma próxima pesquisa |
 | 5 | Pentagram · identidade do Camden Art Centre | Reino Unido (página: london) · 2025 | `referencias/16-pentagram-camden-uk.png` | Descartada | Identidade cultural, mais serifa e patrimônio. Pouco impacto para Reels |
 | 6 | Obama Foundation · fonte nova | Não confirmado na página | (sem captura) | Descartada | O país não aparece na página |
@@ -22,7 +22,7 @@ Referências da v1 (GOV.UK, Montague, D&AD, CQUniversity, Rheinische, JKR e outr
 
 ## Escolhida final (combinação)
 - Sans bold em caixa alta, com entrelinha curta (PS9 + Soapbox).
-- Cor única de alerta, laranja-sinal `#FF4A1C`, sobre preto `#0F0F10` (The Nation).
+- Cor única de destaque, dourado `#C8B078` (tom medido no cartaz do curso), sobre verde-garrafa `#00241C`. A cor de marca do Nation virou o dourado do curso.
 - Rótulo em mono (JetBrains Mono) e moldura de série "Nº 01/09".
 
 ## Descartadas, com motivo
