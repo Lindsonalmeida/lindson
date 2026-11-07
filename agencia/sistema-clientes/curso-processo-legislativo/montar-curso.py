@@ -171,7 +171,7 @@ addEventListener('hashchange', render);
 $('#abrir').onclick = () => { const m = $('#menu'); m.classList.toggle('aberto'); $('#abrir').setAttribute('aria-expanded', m.classList.contains('aberto')); };
 window.__V = V; window.__render = render;
 window.__h = { cli: () => 'curso', BASE: {}, bomDia: () => '', chip: () => '' };
-window.__DADOS = { fotosCats: ['Sócio 1 (nome a confirmar)', 'Sócio 2 (nome a confirmar)'] };
+window.__DADOS = { fotosCats: ['Tiago Azevedo (sócio)', 'Rafael Araújo Veras (sócio)'] };
 window.__toast = t => { const d = document.createElement('div'); d.textContent = t; d.style.cssText = 'position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#A89048;color:#080808;padding:10px 16px;border-radius:99px;font:700 13px Inter,sans-serif;z-index:99'; document.body.appendChild(d); setTimeout(() => d.remove(), 2600); };
 render();
 """
