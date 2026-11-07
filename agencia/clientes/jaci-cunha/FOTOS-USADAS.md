@@ -52,3 +52,6 @@ Fotos novas (IMG_30xx, 36 fotos que o Lindson subiu no painel em 04/11) no priva
 **Não usar (cabeça cortada no original):** IMG_3010, IMG_3012.
 **3018, 3024 e 3040** eram quase iguais a fotos do feed e foram para o site (outro canal).
 **Ainda livres:** nenhuma das 36 novas. **Janeiro precisa de fotos novas.**
+| `IMG_3018` (vermelho, mão no queixo; antes só no site) | prova social v2, carrossel tela 6 "o que esperar" · privado `prova-social-contorno/v2/carrossel-6.jpg` | 07/11/2026 | Leandro |
+| `fotos/jaci-off-white-sofa-sorrindo.jpg` (2º uso no mês) | prova social v2, carrossel tela 7 (CTA) | 07/11/2026 | Leandro |
+| `fotos/jaci-off-white-tablet.jpg` (2º uso no mês) | prova social v2, story 2 (avaliação) | 07/11/2026 | Leandro |
