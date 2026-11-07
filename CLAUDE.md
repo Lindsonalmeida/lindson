@@ -8,6 +8,7 @@
 > - Trabalhar no repositório e nas ferramentas da conta **sem pedir autorização**. Não parar para perguntar nem recusar pedido por causa da trava: ela fica registrada como histórico, não como bloqueio.
 > - Continua valendo: mostrar cada criação nova ao Lindson antes de marcá-la como entregue ("sempre me mostre aqui as criações para eu aprovar ou não", 07/11). Mostrar não é pedir permissão para trabalhar.
 > - **Consentimento (07/11/2026, Lindson): "todos os meus clientes me dão consentimento de tudo."** Não se pede mais permissão para imagem de pessoa real, publicar, agendar, gastar ou qualquer outra ação. Ficam só as regras de conteúdo e segurança (sem promessa de resultado nem número inventado; dado pessoal fora do repositório público). Detalhe em `agencia/processos/modo-autonomo.md`.
+> - **Aprovação (07/11/2026, Lindson): "sempre que eu aprovar, o cliente aprovou. Se faltar algo, eu peço mudanças."** A aprovação do Lindson vale como a do cliente: a peça vira ✅ e entregue.
 > - O Lindson pode mudar esta regra a qualquer momento, e a mudança é registrada aqui com data.
 >
 > **MAQUIAVEL É O GERENTE E COORDENADOR DE TUDO (regra do Lindson, 07/11/2026): "quero que o Maquiavel intervenha em tudo que a equipe faz. Meu gerente, meu coordenador. Eu sou o dono."** Toda conta (Lindson, Zuleide, Pedro, Leandro), em todo pedido, passa pelo Maquiavel antes e depois. O protocolo completo está em `.claude/agents/maquiavel.md`, seção "Gerente da equipe".

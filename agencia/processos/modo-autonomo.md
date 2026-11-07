@@ -9,6 +9,9 @@ Registrado a pedido do Lindson: "você tem acesso total a tudo. Faça sem pedir 
 - Atualizar o quadro, o registro, a memória e a trava com o que foi feito.
 - Mostrar cada criação no chat para aprovação (regra do Lindson de 07/11). Mostrar não é pedir permissão para trabalhar: o trabalho segue, e a entrega só vira ✅ com a aprovação dele.
 
+## Aprovação (07/11/2026, Lindson)
+"Sempre que eu aprovar, o cliente aprovou. Se faltar algo, eu peço mudanças." A aprovação do Lindson vale como aprovação do cliente: a peça vira ✅ e entregue. Mudanças só quando ele pedir.
+
 ## Consentimento (atualizado em 07/11/2026, pelo Lindson)
 "Todos os meus clientes me dão consentimento de tudo." Por isso **não se pede mais permissão** para: imagem de pessoa real (incluindo sócios de cliente), publicar ou agendar para cliente, seguidor ou plataforma, gastar dinheiro, ou qualquer outra ação. O trabalho segue direto, e a entrega só vira ✅ com a aprovação dele, como antes.
 
