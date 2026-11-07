@@ -46,10 +46,10 @@ Legenda: ✅ feito · 🟡 em andamento · ⏳ depende do Lindson ou do cliente 
 9. ⏳ Search Console (arquivo de verificação) + Perfil da Empresa no Google; o guia está pronto em `agencia/clientes/jaci-cunha/GOOGLE.md`
 10. ⏳ Trocar o link da bio do Instagram
 
-### 💰 Tribuna 98 (pagante) · 3 de 8 (38%) · escopo definido pelo Lindson em 07/11
+### 💰 Tribuna 98 (pagante) · 2 de 8 (25%) · escopo definido pelo Lindson em 07/11
 1. ✅ Mini site da bio no ar + bio + 7 destaques (aprovação ⏳)
 2. ✅ Análise das redes + caminhos para monetizar (`agencia/clientes/tribuna98/ANALISE-E-MONETIZACAO.md`; falta só trocar os números pelos prints de 07/11, que o Lindson manda)
-3. ✅ Painel do Tribuna 98 na Central (v1 em `agencia/sistema-clientes/tribuna98/`, com números de 03/11; prints de 07/11 a confirmar; pesquisa premium parcial, ver `agencia/clientes/tribuna98/TEMPLATE.md`)
+3. 🟡 Painel do Tribuna 98 na Central (v1 em `agencia/sistema-clientes/tribuna98/`, com números de 03/11; prints de 07/11 a confirmar). **Não é ✅:** a pesquisa premium está incompleta (1 de 8 referências, 1 país; ver `agencia/clientes/tribuna98/TEMPLATE.md`)
 4. ⬜ Site principal (no lugar do WordPress atual ou ao lado dele; a decidir)
 5. 🟡 Reformular o Instagram do **curso de processo legislativo** (projeto confirmado pelo Lindson em 07/11, via Thiago Fonseca, da empresa Tribuna 98). Lista do Lindson (07/11): refazer as capas dos Reels dos cursos e a foto de perfil. Falta o @ do curso e a estrutura do curso
 6. ⏳ Imagens de IA dos sócios: nome e 5 a 10 fotos de cada sócio, com autorização
