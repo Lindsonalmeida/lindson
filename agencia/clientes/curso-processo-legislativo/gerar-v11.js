@@ -11,7 +11,7 @@ html,body{background:#080808}
 .corner{position:absolute;inset:0;background:radial-gradient(circle at 0% 0%,rgba(110,90,42,.30) 0%,rgba(110,90,42,.10) 35%,rgba(8,8,8,0) 62%)}
 .blob{position:absolute;background:linear-gradient(155deg,#C8A860 0%,#A89048 52%,#6E5A2A 100%)}
 .frame{position:absolute;border:3px dashed #F8F8F8;background:rgba(8,8,8,.35);display:flex;align-items:center;justify-content:center}
-.legend{background:#080808;color:#C8A860;font-weight:700;font-size:26px;letter-spacing:.08em;text-transform:uppercase;text-align:center;line-height:1.5;padding:18px 24px}
+.legend{width:max-content;max-width:88%;background:#080808;color:#C8A860;font-weight:700;font-size:26px;letter-spacing:.08em;text-transform:uppercase;text-align:center;line-height:1.5;padding:18px 24px}
 .logo{position:absolute;font-weight:900;font-size:28px;letter-spacing:.08em;color:#F8F8F8}
 .logo b{color:#A89048;font-weight:900}
 .t{position:absolute;font-weight:900;letter-spacing:-.04em;line-height:1.0;color:#F8F8F8}
@@ -29,8 +29,8 @@ const A = `
 <h1 class="t" style="left:90px;top:250px;font-size:132px">Pode votar<br><span class="g">sem quórum?</span></h1>
 <p class="body" style="left:90px;top:640px;width:430px;font-size:40px;line-height:1.35">Entenda a regra da sessão antes de votar, com clareza.</p>
 <div class="blob" style="right:-200px;top:800px;width:760px;height:880px;border-radius:46% 54% 38% 62% / 44% 40% 60% 56%"></div>
-${frame('right:90px;top:760px;width:420px;height:980px')}
-<div class="pill" style="left:90px;top:1420px">Assista ao curso básico</div>
+${frame('right:90px;top:760px;width:380px;height:980px')}
+<div class="pill" style="left:90px;top:1580px">Assista ao curso básico</div>
 <div class="handle" style="left:90px;bottom:90px">@curso_processo_legislativo_</div>`;
 
 // B: título centralizado no topo, mancha dourada ocupando a base, pílula no meio
@@ -52,9 +52,9 @@ const C = `
 <h1 class="t" style="left:90px;top:230px;font-size:124px;text-transform:uppercase">Pode votar</h1>
 <h1 class="t g" style="left:330px;top:400px;font-size:124px;text-transform:uppercase">Sem</h1>
 <h1 class="t g" style="left:90px;top:570px;font-size:124px;text-transform:uppercase">Quórum?</h1>
-<div class="blob" style="left:250px;top:880px;width:1000px;height:560px;transform:rotate(-26deg);border-radius:50% 50% 46% 54% / 60% 40% 60% 40%"></div>
-${frame('right:90px;top:960px;width:400px;height:640px')}
-<p class="body" style="left:90px;top:800px;width:470px;font-size:40px;line-height:1.35">Entenda a regra da sessão antes de votar, com clareza.</p>
+<div class="blob" style="left:300px;top:1010px;width:940px;height:500px;transform:rotate(-22deg);border-radius:50% 50% 46% 54% / 60% 40% 60% 40%"></div>
+${frame('right:90px;top:1000px;width:400px;height:600px')}
+<p class="body" style="left:90px;top:730px;width:520px;font-size:40px;line-height:1.35">Entenda a regra da sessão antes de votar, com clareza.</p>
 <div class="pill" style="left:90px;top:1600px">Assista ao curso básico</div>`;
 
 const pages = [
