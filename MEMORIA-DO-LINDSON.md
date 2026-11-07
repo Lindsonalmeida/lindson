@@ -408,3 +408,4 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 - **07/11/2026 (conta Leandro) — Sócio do Tribuna 98 / curso: "use só Tiago Fonseca".** Nome único a usar em todas as peças e textos sobre o sócio. Os outros nomes citados antes não são usados para ele.
 - **07/11/2026 (conta Leandro) — Sócios do Tribuna 98: são dois.** Um é Tiago Fonseca. O nome do segundo está pendente com o Lindson. Correção do recado "use só Tiago Fonseca", que valia para um sócio só.
 - **07/11/2026 (conta Leandro) — Correção do Lindson: "eu errei, é Tiago Azevedo".** O nome do sócio passa a ser Tiago Azevedo, no lugar de Tiago Fonseca. O segundo sócio segue pendente.
+- **07/11/2026 (conta Leandro) — Sócios do Tribuna 98: Tiago Azevedo e Rafael Araújo Veras.** Lindson confirmou o segundo sócio (Rafael Araújo Veras), com o nome do cartaz do curso. Falta confirmar a foto de cada um.
