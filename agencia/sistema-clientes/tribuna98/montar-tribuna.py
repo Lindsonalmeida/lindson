@@ -175,11 +175,11 @@ const V = {
 const T = {inicio:'Visão geral', escopo:'Escopo', linha:'Linha do tempo', monet:'Monetização', proximos:'Próximos passos', decisoes:'Decisões do Lindson'};
 
 function render() {
-  const v = (location.hash || '#inicio').slice(1), view = V[v] ? v : 'inicio';
+  const v = (location.hash || '#inicio').slice(1), view = (V[v] && v !== 'decisoes') ? v : 'inicio';
   $('#titulo').textContent = T[view];
   document.querySelectorAll('.grupo a').forEach(a => a.dataset.v === view ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current'));
   const n = D.decisoes.filter(x => x[2] === 'aguardando').length;
-  $('#n-dec').textContent = n || '';
+  const nd = $('#n-dec'); if (nd) nd.textContent = n || '';
   main.innerHTML = V[view]();
   $('#menu').classList.remove('aberto'); $('#abrir').setAttribute('aria-expanded', 'false');
 }
@@ -198,8 +198,6 @@ MENU = """<nav class="menu" id="menu" aria-label="Menu do painel">
     <div class="grupo"><h4>Negócio</h4>
       <a href="#monet" data-v="monet"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>Monetização</a>
       <a href="#proximos" data-v="proximos"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 12h14M13 6l6 6-6 6"/></svg>Próximos passos</a></div>
-    <div class="grupo"><h4>Decisões</h4>
-      <a href="#decisoes" data-v="decisoes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6M12 17h.01"/></svg>Decisões do Lindson<span class="n" id="n-dec"></span></a></div>
     <div class="rodape-menu"><b>Precisa de algo agora?</b><span>Fale direto com a equipe do Lindson.</span>
       <a class="btn am" href="https://wa.me/5598985621808?text=Oi%2C%20Lindson%21%20Vim%20pelo%20painel%20do%20Tribuna%2098." target="_blank" rel="noopener">Chamar no WhatsApp</a></div>
   </nav>"""
