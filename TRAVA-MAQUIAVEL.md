@@ -99,3 +99,4 @@ Legenda: ✅ feito · 🟡 em andamento · ⏳ depende do Lindson ou do cliente 
 ## Registro de desbloqueios ("Maquiavel, libera")
 | Data | Pedido | Liberado ou recusado | Motivo (a, b, c ou fuga) | O que ficou para trás | Conta |
 |---|---|---|---|---|---|
+| 07/11 | Lead "Thiago Fonseca \| Tribuna 98": melhorar artes, capas, perfil e site; curso de processo legislativo | Travado (aguarda o Lindson confirmar se é o Tribuna 98 e se há contrato ou prazo) | Projeto novo; Tribuna em 25%; sem critério (a) confirmado | Tribuna 98 partes 4 a 7 seguem na fila | Leandro |
