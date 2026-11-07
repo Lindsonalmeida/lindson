@@ -74,3 +74,16 @@ Licença das fotos novas: Pakutaso, "Commercial use, no attribution required" (p
 Não usadas nesta rodada (lista de não repetir): martelo-pexels-5668473, 37732186, 6077326, 6077447, camara-plenario, camara-fileiras, fileiras-publico, microfones, tablet-reuniao, podio, discurso-pakutaso.
 
 **Pessoa na foto:** a foto `pakutaso-politico-maos-9243` mostra um homem de terno. O recorte da capa 2 corta o rosto e usa só as mãos, o papel e o terno. Não é retrato de advogado nem pessoa das referências.
+
+## Capas v17 (07/11, agente de design, fotos dos sócios)
+Origem das três fotos: reel do Instagram do sócio, captura enviada pelo Lindson em 07/11. Os recortes ficam fora do repositório, em `fotos-socios-locais/` (pasta com `.gitignore` de `*`).
+
+| Capa | Comunicador | Quadro e legenda que justificam | Recorte |
+|---|---|---|---|
+| `capas-v17/capa-v17-1.png` ("Pode votar sem quórum?") | Tiago Azevedo (barba, terno azul-marinho) | Reel 17, quadro 2: "O que é procedimento abreviado ou conclusivo?" (votação sem plenário) | `tiago-azevedo-capa1-reel17-t2` (222x360 nativo) |
+| `capas-v17/capa-v17-2.png` ("Quórum é o mínimo...") | Rafael Araújo Veras (terno cinza, sem barba) | Reel 16, quadro 3: "O que é questão de ordem?" (sem pergunta sobre quórum nos prints) | `rafael-araujo-veras-capa2-reel16-t3` (210x285 nativo) |
+| `capas-v17/capa-v17-3.png` ("Quem pode propor?") | Rafael Araújo Veras (terno cinza, sem barba) | Reel 16, quadro 1: "Vereador pode aumentar despesa por emenda?" (quem pode propor) | `rafael-araujo-veras-capa3-reel16-t1` (204x300 nativo) |
+
+**Limite:** nenhum quadro das três capturas traz pergunta sobre quórum. A capa 2 usa a pergunta mais próxima e o Lindson pode trocar o quadro se houver outro reel.
+**Resolução:** os quadros são de cerca de 350 px de largura nas grades. Os recortes têm 204 a 222 px de largura e foram ampliados 2x (Lanczos) para a arte. A capa 3 é a mais ampliada (cerca de 2,3x).
+**Legenda:** só o nome, sem cargo. O cargo de cartaz não foi conferido porque o cartaz não está no repositório.
