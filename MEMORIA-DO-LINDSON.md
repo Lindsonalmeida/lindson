@@ -29,6 +29,8 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 
 ## 2. Jeito de trabalhar que ele exige
 
+0a. **Nunca faça nada sem antes consultar o repositório e aprender o que já foi feito** (07/11/2026 · Lindson: "nunca mais faça nada sem perguntar ao repositório, e aprender o que já foi feito. salve isso no repositório para todas as contas lerem"). Antes de qualquer ação, em toda conta: `git pull` e `git fetch` de todos os branches, leia o `QUADRO-DA-EQUIPE.md`, o `REGISTRO-DAS-CONTAS.md`, esta memória e o `MAPA-DO-REPOSITORIO.md`, procure o assunto (`git grep`, `git log --grep`). Só depois decida o que fazer. Se já existir, não refaça: diga "já foi feito pela conta X em DD/MM" e continue a partir daí. Se tiver dúvida sobre o que já existe, pergunte ao repositório antes de perguntar ao Lindson.
+
 0. **Sempre que ele pedir algo, verifique o repositório e como era feito** (03/11 · Leandro: "sempre que eu pedir algo, verifique o repositório e como era feito"). Antes de qualquer entrega: `git pull`, `git grep -i` e `git log --grep` pelo assunto, pasta do cliente, `agencia/processos/` e o repositório privado `CentralLindsonALmeida`. Se já existe um jeito, siga e cite qual seguiu; se não existe, crie o modelo em `agencia/processos/` para a próxima vez.
 1. **Sempre use os agentes e o time** (Xquads: copy-squad, brand-squad, design-squad, Hormozi, Donald Miller, Pedro Sobral; Peter no YouTube; Maquiavel nos negócios; agentes de pesquisa). Ele disse em 02/11: "sempre use nossos agentes e time".
 2. **Nada se cria, tudo se copia** (03/11). Nunca crie arte do zero: copie a composição de um modelo que já existe (os que ele manda, Designi, Behance) e diga qual modelo copiou.
