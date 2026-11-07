@@ -76,7 +76,7 @@ Texto puro, **sem símbolo, sem ícone, sem efeito**.
 
 - Alterar as cores (azul royal, amarelo, dourado brilhante, dourado metálico, gradiente dourado).
 - Serifa de sistema ou qualquer serifa em título.
-- Gíria, emoji no título, personagem infantil, balão de quadrinhoou carimbo lúdico.
+- Gíria, emoji no título, personagem infantil, balão de quadrinho ou carimbo lúdico.
 - Promessa de resultado nas peças ("vai ganhar a votação", "garantido", "aprovado em X dias").
 - Copiar foto, logo ou texto de terceiros. O template de referência é só base de cor e composição: o escritório, a logo e a foto do anúncio dele **não** entram no curso.
 - Mais de 2 palavras em dourado por peça.
