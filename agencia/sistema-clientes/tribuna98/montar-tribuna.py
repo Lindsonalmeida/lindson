@@ -53,18 +53,18 @@ css += """
 
 # 2 · dados (só o que já está salvo; o que falta aparece como "a confirmar")
 DADOS = {
-  "fonte": "Números de 03/11/2026 (agencia/clientes/tribuna98/README.md). Prints de 07/11 ainda não salvos: a confirmar.",
+  "fonte": "Instagram: print de 07/11/2026 (agencia/clientes/tribuna98/prints/instagram-07-11-2026.png). Demais canais: números de 03/11/2026 (README.md).",
   "escopo_total": 8,
   "kpis": [
-    ["Instagram @tribuna98_", "71,5 mil", "seguidores · verificado"],
-    ["Posts no Instagram", "2.510", "desde a criação da conta"],
+    ["Instagram @tribuna98_", "72,1 mil", "seguidores · print de 07/11"],
+    ["Posts no Instagram", "2.522", "print de 07/11"],
     ["TikTok @tribuna098", "7,1 mil", "seguidores · 42,4 mil curtidas"],
     ["YouTube @tribuna098", "296", "inscritos · 30 vídeos"],
     ["Site tribuna98.com.br", "3 por dia", "matérias publicadas (WordPress)"],
     ["Insights e Analytics", "a confirmar", "sem acesso até agora (item 8)"]
   ],
   "canais": [
-    ["Instagram", "@tribuna98_", "71,5 mil seguidores", "Principal. Reels do apresentador para a câmera e cards de manchete"],
+    ["Instagram", "@tribuna98_", "72,1 mil seguidores · 2.939 seguindo", "Principal. Reels do apresentador para a câmera e cards de manchete"],
     ["TikTok", "@tribuna098", "7,1 mil seguidores", "Mesmos Reels, sem linha própria"],
     ["YouTube", "@tribuna098", "296 inscritos", "Entrevistas de 30 a 60 min quase sem visualização"],
     ["Kwai", "@Triibuna98", "65 seguidores", "Espelho do Instagram"],
@@ -144,7 +144,7 @@ const V = {
         <p class="sub" style="margin:8px 0 0">Mínimo para abrir projeto novo: 30%. Este projeto já passou desse mínimo.</p></div>
       <div class="card"><h3>O que falta agora</h3><p class="sub">Itens abertos do escopo, com o que depende de quem.</p>${agora}</div>
     </div>
-    <div class="card" style="margin-top:16px"><h3>Canais hoje</h3><p class="sub">Números de 03/11. Prints de 07/11 e Insights: a confirmar.</p>
+    <div class="card" style="margin-top:16px"><h3>Canais hoje</h3><p class="sub">Instagram do print de 07/11; demais canais de 03/11. Insights: a confirmar.</p>
       <div style="overflow-x:auto"><table class="tb-tabela"><thead><tr><th>Canal</th><th>Endereço</th><th>Números</th><th>Leitura</th></tr></thead><tbody>
       ${D.canais.map(c => `<tr><td><b>${esc(c[0])}</b></td><td>${esc(c[1])}</td><td>${esc(c[2])}</td><td>${esc(c[3])}</td></tr>`).join('')}
       </tbody></table></div></div>` + nota();
@@ -228,7 +228,7 @@ html = f"""<!doctype html>
     <header class="topo">
       <button class="abrir-menu" id="abrir" aria-label="Abrir menu" aria-controls="menu" aria-expanded="false">☰</button>
       <div><h1 id="titulo">Visão geral</h1><div class="cliente">Tribuna 98 · jornalismo político do Maranhão</div></div>
-      <div class="dir"><span class="exemplo">Dados de 03/11/2026</span><div class="avatar" title="Tribuna 98">T98</div></div>
+      <div class="dir"><span class="exemplo">Instagram de 07/11/2026</span><div class="avatar" title="Tribuna 98">T98</div></div>
     </header>
     <main id="conteudo"></main>
   </div>
