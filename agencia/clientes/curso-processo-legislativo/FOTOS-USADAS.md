@@ -45,3 +45,12 @@ Busca https://www.pexels.com/pt-br/procurar/advocacia/ bloqueada (Cloudflare "Ju
 - 7876040 e 7876284 (cena de escritório com pessoas, certidão de divórcio à mostra): fora do tema e com pessoas reconhecíveis.
 
 **Faltou:** a meta era de 5 a 6 fotos novas. A busca só devolveu 3 IDs Pexels utilizáveis de objetos (martelo, mesa, sem rostos). Para mais, é preciso abrir a busca do Pexels no navegador (bloqueada aqui) ou pedir OK do Lindson para outra fonte.
+
+## Capas v15 (07/11, agente de design)
+| Arquivo | Origem | Licença (segundo a própria página) | Onde foi usada |
+|---|---|---|---|
+| `fotos-banco/diversas/perguntas-podio.jpg` | Pakutaso, pódio com cadeiras vazias (já anotada na v8/v13) | "free for both commercial and non-commercial use" | `capas-v15/capa-v15-1.png` (duotone dourado). **Repetida:** já estava em `capas-v13/capa-v13-1.png`. O pedido do Lindson listou como livre; confirmar antes de publicar. |
+| `fotos-banco/pakutaso-v15/pakutaso-speech-documents-58277.jpg` | Pakutaso, "City Council Member Speech with Documents" (https://www.pakutaso.com/en/20241245344post-53087.html), imagem PAR58277 | "free for commercial use without attribution"; a página diz que os modelos assinam liberação escrita | `capas-v15/capa-v15-2.png` (faixa de foto, tratamento P&B) |
+| `fotos-banco/pakutaso-v15/pakutaso-diet-road-4769.jpg` | Pakutaso, "National Diet Building Road Approach, Tokyo" (https://www.pakutaso.com/en/20141021302post-4769.html) | "Commercial use, no attribution" | `capas-v15/capa-v15-3.png` (tela cheia, P&B). Sem pessoas. |
+
+Notas: as duas fotos novas são de câmaras e prédio japoneses (banco livre), não do Maranhão. Na foto da fala, o rosto do orador fica fora do quadro e o do fundo está desfocado. As duas também foram baixadas e commitadas pela sessão que fez o commit `a573aaf`; os arquivos são idênticos.
