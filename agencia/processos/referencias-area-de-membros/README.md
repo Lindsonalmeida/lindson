@@ -18,11 +18,21 @@ Recebidas do Lindson em 07/11/2026 (conta Leandro). Usar como **referência de c
 - Marca, logo, mascote, personagens, nomes de níveis e de medalhas, textos e imagens da plataforma de origem.
 - Paleta verde escura de origem: cada cliente usa a identidade própria (Orégano Turbo, Lindson, Tribuna 98, Jaci, Real Time, Leo).
 
+
+## Capturas 4 e 5 (07/11/2026): Comunidade e Materiais
+5. **Comunidade:** lista de canais à esquerda (Avisos, Apresente-se, Geral, Mostre seu projeto, Dúvidas), com bolinha verde de "novidade" e cadeado no canal de avisos. Ao lado, um cartão de **"Combinados"** com as regras da comunidade: respeito, sem divulgação, sem telefone, e-mail ou @ de rede social, sem convite para o privado; dúvida ou crítica ao curso vai para o suporte; **cada mensagem passa por checagem automática antes de aparecer**. Serve às comunidades dos produtos e clientes com grupo.
+6. **Materiais:** grade de cartões, cada um com o tipo do arquivo (PDF ou ZIP), o nome do curso acima, o título do material, a aula de origem e os botões "Baixar material" e seta. Serve à página de downloads dos produtos (entrega de PDFs, ver `CLAUDE.md`, "Entrega de PDFs").
+
+Captura salva: `materiais-cards.png` (só a tela de materiais, sem dados de alunos). A tela da comunidade **não** foi salva: mostra nome e mensagem de outros membros, e isso não entra no repositório.
+
+## Não copiar desta captura
+- Os títulos e o conteúdo dos materiais são do curso de origem: a referência é a grade e a hierarquia, não o texto.
+
 ## Pesquisa premium
 Antes de usar em peça nova, a regra pede ≥ 8 referências de ≥ 3 países (ver `agencia/processos/pesquisa-premium.md`). Estas 3 telas são uma referência; as demais precisam ser pesquisadas no projeto que for usá-las.
 
 ## Pendente
-- As capturas em si não foram salvas como arquivos (chegaram na conversa). Para guardá-las aqui, mandar o zip das imagens, como já foi feito com as fotos do WhatsApp.
+- As 3 primeiras telas (cursos, trilha, troféus) chegaram só na conversa, sem arquivo. Para guardá-las, mandar o zip, como foi feito com as fotos do WhatsApp.
 
 ## Onde pode ser usado
 - Área de membros dos produtos low ticket (`agencia/ofertas/low-ticket/venda/`).
