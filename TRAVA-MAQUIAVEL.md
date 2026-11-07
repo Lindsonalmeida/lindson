@@ -100,3 +100,4 @@ Legenda: ✅ feito · 🟡 em andamento · ⏳ depende do Lindson ou do cliente 
 | Data | Pedido | Liberado ou recusado | Motivo (a, b, c ou fuga) | O que ficou para trás | Conta |
 |---|---|---|---|---|---|
 | 07/11 | Thiago Fonseca (empresa Tribuna 98): melhorar artes, capas, perfil e site; curso de processo legislativo | **Não é projeto novo:** entra como itens 4, 5 e 7 do Tribuna 98, já no escopo. Liberado sem "libera" | Continuação do escopo (regra 3) | Nada. Fica na fila depois do @ e da estrutura do curso | Leandro |
+| 07/11 | Painel do curso de processo legislativo ("Maquiavel, libera") | **Recusado** | Não atende (a): não há contrato, valor nem data confirmados para o curso. Não atende (b) nem (c): é um painel completo. Sinal de fuga: terceiro pedido novo no mesmo dia | Tribuna 98 segue em 2 de 8, com o item 3 (painel) em andamento; o painel do curso espera o item 3 fechar, ou um contrato ou prazo confirmado | Leandro |
