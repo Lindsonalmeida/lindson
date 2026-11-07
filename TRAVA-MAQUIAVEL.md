@@ -51,9 +51,9 @@ Legenda: ✅ feito · 🟡 em andamento · ⏳ depende do Lindson ou do cliente 
 2. ✅ Análise das redes + caminhos para monetizar (`agencia/clientes/tribuna98/ANALISE-E-MONETIZACAO.md`; falta só trocar os números pelos prints de 07/11, que o Lindson manda)
 3. 🟡 Painel do Tribuna 98 na Central (equipe)
 4. ⬜ Site principal (no lugar do WordPress atual ou ao lado dele; a decidir)
-5. ⏳ Reformular o Instagram de um dos projetos dele: qual projeto e qual @?
+5. 🟡 Reformular o Instagram do **curso de processo legislativo** (projeto confirmado pelo Lindson em 07/11, via Thiago Fonseca, da empresa Tribuna 98). Falta o @ do curso e a estrutura do curso
 6. ⏳ Imagens de IA dos sócios: nome e 5 a 10 fotos de cada sócio, com autorização
-7. ⬜ Calendário e artes do Instagram reformulado (depois do item 5)
+7. ⬜ Calendário e artes do Instagram do curso (depois do item 5 e da estrutura do curso)
 8. ⏳ Acessos e Insights do Instagram (para o painel ter números reais)
 
 ### 💰 Leo Pinto (pagante) · 5 de 9 (56%)
@@ -99,4 +99,4 @@ Legenda: ✅ feito · 🟡 em andamento · ⏳ depende do Lindson ou do cliente 
 ## Registro de desbloqueios ("Maquiavel, libera")
 | Data | Pedido | Liberado ou recusado | Motivo (a, b, c ou fuga) | O que ficou para trás | Conta |
 |---|---|---|---|---|---|
-| 07/11 | Lead "Thiago Fonseca \| Tribuna 98": melhorar artes, capas, perfil e site; curso de processo legislativo | Travado (aguarda o Lindson confirmar se é o Tribuna 98 e se há contrato ou prazo) | Projeto novo; Tribuna em 25%; sem critério (a) confirmado | Tribuna 98 partes 4 a 7 seguem na fila | Leandro |
+| 07/11 | Thiago Fonseca (empresa Tribuna 98): melhorar artes, capas, perfil e site; curso de processo legislativo | **Não é projeto novo:** entra como itens 4, 5 e 7 do Tribuna 98, já no escopo. Liberado sem "libera" | Continuação do escopo (regra 3) | Nada. Fica na fila depois do @ e da estrutura do curso | Leandro |
