@@ -44,3 +44,12 @@ Referências da v1 (GOV.UK, Montague, D&AD, CQUniversity, Rheinische, JKR e outr
 | 09 quem propõe | "PL" gigante | The Nation |
 
 Títulos continuam propostas: confirmar com a estrutura do curso antes de publicar.
+
+## Board de referência do Lindson (Pinterest · "CURSOS", pedido de 07/11)
+Link: https://br.pinterest.com/lindsonalmeidaa/cursos/ · 34 pins no total; 12 carregaram para análise (o restante exige login, e o board pede conta).
+**Veredito:** o board é de templates de mercado (artes de matrícula e de cursos com preço), **não é pesquisa premium**. Os pins não trazem estúdio, país nem prêmio confirmados, então **não contam** nas 8 referências.
+**O que ensina e entra na v3:** quase todos os pins põem uma **pessoa real recortada** ocupando boa parte do quadro, com **título gigante e pesado** sobre uma **faixa de cor**, mais um **selo (pill)** com a informação principal e ícones em lista.
+**Por que ficou fraco na v2:** as capas v2 são só tipografia, sem nenhuma pessoa. O Lindson sentiu falta disso, e a crítica está certa.
+**Consequência:** a v3 precisa da foto do instrutor (recorte). Sem a foto, não há como chegar nesse padrão sem ilustração no lugar de pessoa real, o que é proibido.
+**Modelo:** `capas-v2/modelo-v3-com-foto.png` (gerador `gerar-v3-modelo.js`). O quadro tracejado é o espaço reservado para o recorte do instrutor.
+Pendência: as fotos dos dois instrutores, uma por mensagem, e o recorte com fundo transparente.
