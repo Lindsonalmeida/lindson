@@ -46,11 +46,15 @@ Legenda: ✅ feito · 🟡 em andamento · ⏳ depende do Lindson ou do cliente 
 9. ⏳ Search Console (arquivo de verificação) + Perfil da Empresa no Google; o guia está pronto em `agencia/clientes/jaci-cunha/GOOGLE.md`
 10. ⏳ Trocar o link da bio do Instagram
 
-### 💰 Tribuna 98 (pagante) · 1 de 4 (25%)
-1. ✅ Mini site da bio no ar + bio nova + 7 capas de destaque
-2. ⏳ Aprovar o mini site, a bio e os destaques
-3. ⏳ Saber **o que foi contratado** (sem isso a equipe não sabe o próximo entregável)
-4. ⬜ Primeiro entregável do contrato (definido depois do item 3)
+### 💰 Tribuna 98 (pagante) · 1 de 8 (13%) · escopo definido pelo Lindson em 07/11
+1. ✅ Mini site da bio no ar + bio + 7 destaques (aprovação ⏳)
+2. 🟡 Análise das redes + caminhos para monetizar (equipe)
+3. 🟡 Painel do Tribuna 98 na Central (equipe)
+4. ⬜ Site principal (no lugar do WordPress atual ou ao lado dele; a decidir)
+5. ⏳ Reformular o Instagram de um dos projetos dele: qual projeto e qual @?
+6. ⏳ Imagens de IA dos sócios: nome e 5 a 10 fotos de cada sócio, com autorização
+7. ⬜ Calendário e artes do Instagram reformulado (depois do item 5)
+8. ⏳ Acessos e Insights do Instagram (para o painel ter números reais)
 
 ### 💰 Leo Pinto (pagante) · 5 de 9 (56%)
 1. ✅ Apresentação v13, datas comemorativas, bio e destaques
