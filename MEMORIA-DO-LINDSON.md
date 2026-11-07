@@ -61,6 +61,7 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 
 ## 3. APROVADO: guardar e melhorar
 
+- **07/11/2026 · Lindson (aprovado):** paleta do reel de referência para o projeto do Wagner Silva: **Limão #FFF21A** (acento principal), **Preto Carvão #171717** (fundo) e **Lavanda Elétrica #A668FF** (acento secundário). Aplicada no site fundido (`agencia/pesquisa/sites-bonitos/fusao/`).
 **Leo Pinto**
 1. **Apresentação v13, versão 3** = padrão visual do Leo ("ficaram ótimos", 02/11): degradê azul profundo, mapa de São João Batista em camada, retrato grande, nome em blocos (LEO na caixa amarela, PINTO na caixa branca), etiquetas, Montserrat Black + Kaushan Script, logo na base. Está em `agencia/clientes/leo-pinto/instagram-v13-apresentacao/` (`gerar3.py`).
 2. **Textos da apresentação** ditados por ele: "vereador mais bem votado", "do povo para o povo", "jovem, engenheiro, compromisso com São João Batista". Mesma pasta, `TEXTOS.md` (legendas da versão 3 na seção 3).
