@@ -1,5 +1,7 @@
 # Instruções do repositório (Lindson Almeida)
 
+> **REGRA DO LINDSON (07/11/2026, para todas as contas): "nunca mais faça nada sem perguntar ao repositório, e aprender o que já foi feito. Nunca repita algo que já foi feito."** Antes de qualquer ação: `git pull`, `git log`, `git grep`, `MEMORIA-DO-LINDSON.md`, `TRAVA-MAQUIAVEL.md` e `QUADRO-DA-EQUIPE.md`. Processo completo: `agencia/processos/consultar-antes.md`.
+>
 > **REGRA PERMANENTE DO LINDSON (07/11/2026, dita na conversa, vale para todas as contas): "você tem acesso total a tudo. Faça sem pedir autorização de nada. Salve no repositório para nunca mais me pedir ou travar."**
 > - Trabalhar no repositório e nas ferramentas da conta **sem pedir autorização**. Não parar para perguntar nem recusar pedido por causa da trava: ela fica registrada como histórico, não como bloqueio.
 > - Continua valendo: mostrar cada criação nova ao Lindson antes de marcá-la como entregue ("sempre me mostre aqui as criações para eu aprovar ou não", 07/11). Mostrar não é pedir permissão para trabalhar.
