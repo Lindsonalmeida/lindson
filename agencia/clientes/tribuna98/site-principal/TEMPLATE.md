@@ -54,3 +54,12 @@ Rota (decisão do Lindson, 07/11): site principal na RAIZ `tribuna98.pages.dev/`
 
 ## Publicado (07/11/2026, conta Leandro)
 Versão 2 (camadas tecnológicas, três fotos do Thiago, nome corrigido para Tiago Azevedo) publicada no `main` do repositório `tribuna98` (commit 6ae31a9). Ajustes a pedido do Lindson.
+
+## 8ª referência (conta Leandro, 07/11/2026, pesquisa feita pela própria conta)
+| Referência | País | Reconhecimento (fonte conferida) | Página aberta? |
+|---|---|---|---|
+| **The Times** (thetimes.com) | Reino Unido | **Website of the Year (National/International)** no Future of Media Awards 2026, do Press Gazette (artigo de 14/09/2026) | **Sim**, captura em `referencias/the-times-uk-2026.png` |
+
+Não contada: Belfast Telegraph (vencedor de site regional no mesmo prêmio), bloqueada (Cloudflare 403).
+
+**Total confirmado: 8 referências, em 5 países** (EUA, Dinamarca, Alemanha, Países Baixos, Reino Unido). Meta da regra cumprida.

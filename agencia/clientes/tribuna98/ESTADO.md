@@ -3,6 +3,7 @@
 Atualizado em 07/11/2026. Quem atualiza: a conta que fizer a mudança, com commit.
 
 ## Já feito e confirmado pelo Lindson (não perguntar de novo)
+- **Pesquisa premium do site principal:** 8 referências confirmadas em 5 países (`site-principal/TEMPLATE.md`).
 - **Site principal no ar:** `https://tribuna98.pages.dev/` (início, sobre, editorias, anuncie, contato). Repositório `Lindsonalmeida/tribuna98`, branch `main`.
 - **Bio no ar:** `https://tribuna98.pages.dev/bio/`. Link da bio no Instagram **já trocado pelo Lindson**.
 - **Bio com dois links:** "Site principal" (tribuna98.pages.dev) e "Blog" (tribuna98.com.br).
@@ -13,7 +14,7 @@ Atualizado em 07/11/2026. Quem atualiza: a conta que fizer a mudança, com commi
 - **Publicação:** o Lindson aprovou e pediu que eu publique direto no `main` quando houver ajuste aprovado.
 
 ## Pendente
-- **8ª referência da pesquisa premium** (estão confirmadas 7 de 8). Só o Lindson pode enviar um link novo.
+- ~~8ª referência~~: **resolvida em 07/11** (The Times, Reino Unido, Website of the Year 2026, Press Gazette). Pesquisa premium: 8 referências, 5 países.
 - **Números de YouTube, TikTok e Kwai:** só com print novo do Lindson.
 - **Fotos do Tiago não usadas:** 5 das 14 (opcional).
 - **Itens 5 a 8 da trava** (curso de processo legislativo, imagens de IA dos sócios, artes do curso, Insights): ver `TRAVA-MAQUIAVEL.md`.
