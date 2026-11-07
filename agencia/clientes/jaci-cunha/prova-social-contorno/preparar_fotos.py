@@ -14,7 +14,7 @@ PARES = {
   'tres4':  ((A + '21.38.15 (1).jpeg', (246, 645), (596, 698)), (D + '17.31.02 (2).jpeg', (253, 601), (603, 657))),
 }
 S0 = 2.0  # amplia o quadro do "antes" para manter nitidez no 1080
-def expo(im): return ImageEnhance.Contrast(ImageEnhance.Brightness(im).enhance(1.04)).enhance(1.03)  # igual nos dois lados
+def expo(im): return im  # sem ajuste de cor: foto original (regra "foto sem edição"), só escala, giro e recorte
 for nome, ((fa, a1, a2), (fd, d1, d2)) in PARES.items():
     ia, idd = Image.open(fa).convert('RGB'), Image.open(fd).convert('RGB')
     W, H = int(ia.width * S0), int(ia.height * S0)
