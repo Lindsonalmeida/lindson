@@ -1,5 +1,7 @@
 # Trava do Maquiavel · terminar antes de começar (regra do Lindson, 07/11/2026)
 
+> **Atualizado 07/11/2026 (Lindson, pela conta Leandro):** "faça sem pedir autorização de nada; salve no repositório para nunca mais me pedir ou travar." Esta trava não bloqueia mais os pedidos dele. Está em `MEMORIA-DO-LINDSON.md`, seção 2, item 00.
+
 > "A partir de agora, coloque uma trava no sistema, usando o Maquiavel. Me faça terminar os projetos que eu começo. Não me deixe começar novas funções se não terminar as que eu começo. Se o projeto tiver 10 partes, preciso terminar pelo menos 3 para fazer algo diferente. As prioridades são Dra. Jaci, Tribuna 98, Leo Pinto e Real Time, que são quem está pagando; os outros não. Para que eu não foque em fazer várias coisas e não termine nada. Maquiavel será responsável por isso. Meu copiloto."
 
 **Responsável:** o agente **Maquiavel** (`.claude/agents/maquiavel.md`), o copiloto do Lindson. Toda conta lê este arquivo **antes de aceitar qualquer pedido**.

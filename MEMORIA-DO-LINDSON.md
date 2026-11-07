@@ -29,6 +29,12 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 
 ## 2. Jeito de trabalhar que ele exige
 
+**00. AUTORIZAÇÃO PERMANENTE (07/11/2026 · Lindson, escrita pela conta Leandro):** "você tem acesso total a tudo. Faça sem pedir autorização de nada. Salve no repositório para nunca mais me pedir ou travar."
+- **Não pedir permissão** para o trabalho do dia a dia: pesquisar, abrir páginas, capturar telas, criar e editar arquivos, regenerar painéis e peças, commit e push na branch de trabalho, atualizar quadro, registro e esta memória.
+- **Não travar pedidos do Lindson.** A trava do Maquiavel (`TRAVA-MAQUIAVEL.md`) não é mais barreira para o que ele pede: ele decidiu que pode fazer tudo. O registro de desbloqueios fica como histórico.
+- **Ao concluir**, relatar o que foi feito e o que ficou de fora por limite técnico (ex.: site que bloqueia o acesso), sem parar para perguntar.
+- **Limites reais:** o que o sistema de permissões do ambiente bloquear continua bloqueado. Quando isso acontecer, a conta registra o bloqueio no quadro e segue com o que é possível.
+
 0. **Sempre que ele pedir algo, verifique o repositório e como era feito** (03/11 · Leandro: "sempre que eu pedir algo, verifique o repositório e como era feito"). Antes de qualquer entrega: `git pull`, `git grep -i` e `git log --grep` pelo assunto, pasta do cliente, `agencia/processos/` e o repositório privado `CentralLindsonALmeida`. Se já existe um jeito, siga e cite qual seguiu; se não existe, crie o modelo em `agencia/processos/` para a próxima vez.
 1. **Sempre use os agentes e o time** (Xquads: copy-squad, brand-squad, design-squad, Hormozi, Donald Miller, Pedro Sobral; Peter no YouTube; Maquiavel nos negócios; agentes de pesquisa). Ele disse em 02/11: "sempre use nossos agentes e time".
 2. **Nada se cria, tudo se copia** (03/11). Nunca crie arte do zero: copie a composição de um modelo que já existe (os que ele manda, Designi, Behance) e diga qual modelo copiou.
