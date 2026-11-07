@@ -8,3 +8,5 @@ Regra: cada foto é anotada aqui com a origem e a licença, e não se repete no 
 | `fotos-banco/discurso-pakutaso.jpg` | Pakutaso, parlamentar discursando (https://www.pakutaso.com/en/20230112025post-44948.html) | mesma licença | `capas-v5/capa-v5-02-proposta.png` |
 
 **Atenção:** são câmaras japonesas, não maranhenses. Servem como imagem de banco realista, mas não representam o Maranhão. Para ficar com a cara da câmara local, o ideal é uma foto da câmara municipal do cliente ou um instrutor real (aguardando as fotos).
+
+| `fotos-banco/martelo-pexels-5668473.jpg` | Pexels, foto 5668473 (https://www.pexels.com/photo/5668473/), martelo sobre mesa escura | Licença Pexels (uso livre). **A página bloqueou a leitura da licença nesta rodada: conferir antes da publicação.** | `capas-v5/capa-v6-martelo-quorum.png` |
