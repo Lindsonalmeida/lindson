@@ -14,7 +14,7 @@ html,body{width:1600px;height:900px;background:var(--preto)}
 .top{display:flex;justify-content:space-between;align-items:center;height:40px}
 .rot{font-weight:700;font-size:22px;letter-spacing:.14em;text-transform:uppercase;color:var(--cinza)}
 .rule{height:2px;background:var(--dourado);margin:18px 0 26px;width:100%;opacity:.9}
-.grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:56px;height:610px}
+.grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:56px;height:650px}
 .col-h{display:flex;flex-direction:column;gap:14px;min-width:0}
 .box{position:relative;display:flex;align-items:center;justify-content:center;border-radius:6px}
 .logo{font-family:'Inter Display',Inter,Arial,sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:.035em;white-space:nowrap;line-height:1}
@@ -26,16 +26,16 @@ html,body{width:1600px;height:900px;background:var(--preto)}
 .bullets b{color:var(--dourado);font-weight:700}
 .sw{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
 .card{display:flex;flex-direction:column;gap:6px;min-width:0}
-.chip{height:104px;border-radius:6px}
+.chip{height:78px;border-radius:6px}
 .hex{font-size:22px;font-weight:700;letter-spacing:.02em}
 .desc{font-size:18px;line-height:1.25;color:var(--cinza)}
-.scale{margin-top:22px;display:flex;flex-direction:column;gap:12px;border-top:1px solid rgba(248,248,248,.12);padding-top:18px}
-.srow{display:flex;align-items:baseline;justify-content:space-between;gap:24px}
-.srow .lab{font-size:18px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--cinza);width:150px;flex:none}
-.srow .s1{font-family:'Inter Display',Inter,sans-serif;font-weight:800;font-size:72px;line-height:1;letter-spacing:-.025em;white-space:nowrap}
-.srow .s2{font-family:'Inter Display',Inter,sans-serif;font-weight:800;font-size:44px;line-height:1;letter-spacing:-.02em;white-space:nowrap}
-.srow .s3{font-size:36px;line-height:1;white-space:nowrap}
-.srow .s4{font-size:28px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;white-space:nowrap}
+.scale{margin-top:18px;display:flex;flex-direction:column;gap:10px;border-top:1px solid rgba(248,248,248,.12);padding-top:18px}
+.srow{display:flex;align-items:baseline;gap:20px;min-width:0;overflow:hidden}
+.srow .lab{font-size:17px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--cinza);width:130px;flex:none}
+.srow .s1{font-family:'Inter Display',Inter,sans-serif;font-weight:800;font-size:60px;line-height:1;letter-spacing:-.025em;white-space:nowrap}
+.srow .s2{font-family:'Inter Display',Inter,sans-serif;font-weight:800;font-size:40px;line-height:1;letter-spacing:-.02em;white-space:nowrap}
+.srow .s3{font-size:30px;line-height:1;white-space:nowrap}
+.srow .s4{font-size:24px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;white-space:nowrap}
 .foot{position:absolute;left:72px;right:72px;bottom:36px;display:flex;justify-content:space-between;gap:24px}
 .foot span{font-size:20px;color:var(--cinza)}
 .foot .h{color:var(--branco);font-weight:700}
@@ -55,7 +55,6 @@ const cardsHtml = swatches.map(s => `
     <div class="chip" style="background:${s.bg};${s.border ? 'box-shadow:inset 0 0 0 2px #2b2b2b' : ''}"></div>
     <div class="hex">${s.hex}</div>
     <div class="desc" style="color:#F8F8F8">${s.name}</div>
-    <div class="desc">${s.d}</div>
   </div>`).join('');
 
 const HTML = `<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><style>${CSS}</style></head><body>
@@ -89,10 +88,10 @@ const HTML = `<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><sty
       <div class="rot">Paleta · hexadecimais</div>
       <div class="sw">${cardsHtml}</div>
       <div class="scale">
-        <div class="rot" style="margin-bottom:4px">Tipografia · Inter Display 800 (título) · Inter (texto e rótulo)</div>
+        <div class="rot" style="margin-bottom:2px">Tipografia · Inter Display 800 e Inter</div>
         <div class="srow"><div class="lab">Título</div><div class="s1">Pode votar?</div></div>
         <div class="srow"><div class="lab">Subtítulo</div><div class="s2">Quórum e votação</div></div>
-        <div class="srow"><div class="lab">Texto</div><div class="s3">Texto corrido, peso 400, com entrelinha de 1,4.</div></div>
+        <div class="srow"><div class="lab">Texto</div><div class="s3">Texto corrido, peso 400.</div></div>
         <div class="srow"><div class="lab">Rótulo</div><div class="s4">Caixa alta · tracking 0,14</div></div>
       </div>
     </div>
