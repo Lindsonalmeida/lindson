@@ -156,7 +156,7 @@ const V = {
     <div class="grade g21">${D.decisoes.map(x => `<div class="card cp-decisao"><div>${st(x[2])}</div><h4>${esc(x[0])}</h4><p>${esc(x[1])}</p></div>`).join('')}</div>` + nota();
   }
 };
-const T = {inicio:'Visão geral', escopo:'Escopo', perfil:'Perfil e números', pesquisa:'Pesquisa premium', linha:'Linha do tempo', proximos:'Próximos passos', decisoes:'Decisões do Lindson'};
+const T = {fotos:'Fotos dos sócios', inicio:'Visão geral', escopo:'Escopo', perfil:'Perfil e números', pesquisa:'Pesquisa premium', linha:'Linha do tempo', proximos:'Próximos passos', decisoes:'Decisões do Lindson'};
 
 function render() {
   const v = (location.hash || '#inicio').slice(1), view = V[v] ? v : 'inicio';
@@ -169,6 +169,10 @@ function render() {
 }
 addEventListener('hashchange', render);
 $('#abrir').onclick = () => { const m = $('#menu'); m.classList.toggle('aberto'); $('#abrir').setAttribute('aria-expanded', m.classList.contains('aberto')); };
+window.__V = V; window.__render = render;
+window.__h = { cli: () => 'curso', BASE: {}, bomDia: () => '', chip: () => '' };
+window.__DADOS = { fotosCats: ['Sócio 1 (nome a confirmar)', 'Sócio 2 (nome a confirmar)'] };
+window.__toast = t => { const d = document.createElement('div'); d.textContent = t; d.style.cssText = 'position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#A89048;color:#080808;padding:10px 16px;border-radius:99px;font:700 13px Inter,sans-serif;z-index:99'; document.body.appendChild(d); setTimeout(() => d.remove(), 2600); };
 render();
 """
 JS = JS.replace('__DADOS__', json.dumps(DADOS, ensure_ascii=False).replace('</', '<\\/'))
@@ -182,6 +186,8 @@ MENU = """<nav class="menu" id="menu" aria-label="Menu do painel">
       <a href="#linha" data-v="linha"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 6h16M4 12h10M4 18h13"/></svg>Linha do tempo</a></div>
     <div class="grupo"><h4>Pesquisa</h4>
       <a href="#pesquisa" data-v="pesquisa"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>Pesquisa premium</a></div>
+    <div class="grupo"><h4>Materiais</h4>
+      <a href="#fotos" data-v="fotos"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="12" cy="12" r="3.5"/></svg>Fotos dos sócios</a></div>
     <div class="grupo"><h4>Próximos</h4>
       <a href="#proximos" data-v="proximos"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 12h14M13 6l6 6-6 6"/></svg>Próximos passos</a></div>
     <div class="grupo"><h4>Decisões</h4>
@@ -190,6 +196,7 @@ MENU = """<nav class="menu" id="menu" aria-label="Menu do painel">
   </nav>"""
 
 movimento = open(os.path.join(SC, 'prototipo', 'movimento.js'), encoding='utf-8').read()
+FOTOS_JS = open(os.path.join(SC, 'prototipo', 'fotos.js'), encoding='utf-8').read()
 
 html = f"""<!doctype html>
 <html lang="pt-BR">
@@ -215,6 +222,10 @@ html = f"""<!doctype html>
 <script>
 {JS}
 </script>
+<script>
+{FOTOS_JS}
+</script>
+<script>window.__render && window.__render();</script>
 <script>
 {movimento}
 </script>
