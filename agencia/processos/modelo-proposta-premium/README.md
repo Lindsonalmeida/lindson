@@ -21,4 +21,4 @@ Na proposta do Wagner Silva (07/11/2026) a primeira versão foi feita sem pesqui
 ## Modelos por cliente
 | Cliente | Pasta | Estado da pesquisa |
 |---|---|---|
-| Wagner Silva (consultório de marca pessoal) | `agencia/prospeccao/wagner-silva/` | Parcial: 1 de 5 capturas útil (KreativePro, OnePageLove). Falta completar para 8 referências de 3 países. Ver o `TEMPLATE.md` da pasta. |
+| Wagner Silva | apagado do repositório em 07/11/2026 para refazer (histórico no git) | — |
