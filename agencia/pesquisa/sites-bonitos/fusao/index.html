@@ -3,9 +3,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;600&family=Sora:wght@300;400;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
-/* Paleta aprovada pelo Lindson em 07/11/2026 (reel de referência): Limão #FFF21A, Preto Carvão #171717, Lavanda Elétrica #A668FF. Composição copiada de: Lusion (objeto central em fundo escuro), Locomotive (etiqueta em caixa + título grande),
+/* Paleta aprovada pelo Lindson em 07/11/2026 (reel de referência): Limão #A668FF, Preto Carvão #171717, Lavanda Elétrica #A668FF. Composição copiada de: Lusion (objeto central em fundo escuro), Locomotive (etiqueta em caixa + título grande),
    Resn (título leve, muito vazio). Cores e letras: identidade v2 do Wagner (IDENTIDADE em identidade/TEMPLATE.md). */
-:root{--noite:#171717;--gelo:#F4F4F0;--frio:#8A929B;--linha:#2C2C2C;--ciano:#FFF21A;
+:root{--noite:#FFF21A;--gelo:#171717;--frio:#4A4A3A;--linha:#C9C200;--ciano:#A668FF;
 --disp:"Unbounded",system-ui,sans-serif;--txt:"Sora",system-ui,-apple-system,"Segoe UI",sans-serif;--mono:"JetBrains Mono",ui-monospace,monospace;color-scheme:dark}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;background:var(--noite)}
@@ -17,10 +17,10 @@ h1,h2,h3{font-family:var(--disp);font-weight:300;line-height:1.08;margin:0;text-
 em{font-style:normal;color:var(--ciano)}
 .rot{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--frio)}
 .tag{display:inline-block;font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--gelo);border:1px solid var(--gelo);padding:8px 12px}
-.tag.c{color:var(--ciano);border-color:var(--ciano)}
+.tag.c{color:#171717;border-color:#171717}
 section{padding-block:128px;border-top:1px solid var(--linha)}
 /* barra */
-.nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:rgba(23,23,23,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--linha);margin-inline:calc(-1*max(20px,env(safe-area-inset-left,0px))) calc(-1*max(20px,env(safe-area-inset-right,0px)));padding-inline:max(20px,env(safe-area-inset-left,0px))}
+.nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:rgba(255,242,26,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--linha);margin-inline:calc(-1*max(20px,env(safe-area-inset-left,0px))) calc(-1*max(20px,env(safe-area-inset-right,0px)));padding-inline:max(20px,env(safe-area-inset-left,0px))}
 .nav .wrap{display:flex;justify-content:space-between;align-items:center;gap:20px;min-height:66px}
 .nav .logo{font-family:var(--disp);font-size:16px;font-weight:400;color:var(--gelo);text-decoration:none;white-space:nowrap}
 .nav ul{display:flex;gap:26px;list-style:none;margin:0;padding:0;overflow-x:auto;scrollbar-width:none}
@@ -30,17 +30,17 @@ section{padding-block:128px;border-top:1px solid var(--linha)}
 /* capa, estilo Resn: título leve, centrado sobre o objeto */
 .capa{padding-block:70px 130px;border-top:0;position:relative;overflow:hidden}
 .orb{position:absolute;left:50%;top:4%;width:min(620px,100vw);height:min(620px,100vw);transform:translateX(-50%);pointer-events:none;opacity:.85}
-.orb i{position:absolute;inset:0;border-radius:50%;border:1px solid rgba(255,242,26,.22)}
-.orb i:nth-child(2){inset:12%;border-color:rgba(244,244,240,.12)}
-.orb i:nth-child(3){inset:26%;border-color:rgba(255,242,26,.35)}
-.orb b{position:absolute;left:50%;top:50%;width:40%;height:40%;transform:translate(-50%,-50%);border-radius:50%;background:radial-gradient(circle at 35% 30%,#F4F4F0 0%,#FFF21A 14%,#A668FF 38%,#2A1F44 62%,#171717 82%);box-shadow:0 0 90px rgba(166,104,255,.35)}
-.orb .fita{position:absolute;inset:-6% -18%;border-radius:50%;background:conic-gradient(from 200deg,transparent 0deg,rgba(255,242,26,.0) 40deg,rgba(255,242,26,.55) 110deg,rgba(166,104,255,.5) 170deg,transparent 240deg);filter:blur(18px);opacity:.7}
+.orb i{position:absolute;inset:0;border-radius:50%;border:1px solid rgba(166,104,255,.22)}
+.orb i:nth-child(2){inset:12%;border-color:rgba(23,23,23,.14)}
+.orb i:nth-child(3){inset:26%;border-color:rgba(166,104,255,.35)}
+.orb b{position:absolute;left:50%;top:50%;width:40%;height:40%;transform:translate(-50%,-50%);border-radius:50%;background:radial-gradient(circle at 35% 30%,#171717 0%,#A668FF 14%,#A668FF 38%,#FFF8B0 62%,#171717 82%);box-shadow:0 0 90px rgba(166,104,255,.35)}
+.orb .fita{position:absolute;inset:-6% -18%;border-radius:50%;background:conic-gradient(from 200deg,transparent 0deg,rgba(166,104,255,.0) 40deg,rgba(166,104,255,.55) 110deg,rgba(166,104,255,.5) 170deg,transparent 240deg);filter:blur(18px);opacity:.7}
 .capa .in{position:relative;text-align:center;display:flex;flex-direction:column;align-items:center;gap:28px;min-height:min(600px,78vh);justify-content:flex-end;padding-top:260px}
 .capa h1{font-size:clamp(40px,7.2vw,104px);max-width:14ch;margin-top:12px}
 .capa .lead{font-size:clamp(17px,1.8vw,20px);color:var(--frio);max-width:44ch}
 .capa .acoes{display:flex;gap:14px;flex-wrap:wrap;justify-content:center;margin-top:12px}
 .btn{display:inline-block;font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;padding:17px 26px;border:1px solid var(--gelo);color:var(--gelo)}
-.btn.c{background:linear-gradient(100deg,#FFF21A,#A668FF);border-color:transparent;color:#171717}
+.btn.c{background:linear-gradient(100deg,#A668FF,#A668FF);border-color:transparent;color:#171717}
 .stats{display:grid;grid-template-columns:repeat(4,1fr);margin-top:120px;position:relative;border-top:1px solid var(--linha)}
 .stats div{padding:30px 22px 0 0;text-align:left}
 .stats div+div{padding-left:22px;border-left:1px solid var(--linha)}
@@ -83,15 +83,15 @@ section{padding-block:128px;border-top:1px solid var(--linha)}
 .conta .l span:first-child{color:var(--frio)}
 .conta .l span:last-child{font-variant-numeric:tabular-nums;text-align:right}
 @media(min-width:700px){.conta .l span:last-child{white-space:nowrap}}
-.conta .t{background:#202020}
+.conta .t{background:#FFF8B0}
 .conta .t span:last-child{font-family:var(--disp);font-weight:300;font-size:clamp(26px,3.2vw,40px);color:var(--ciano)}
 .nota{margin-top:16px;font-family:var(--mono);font-size:12px;color:var(--frio)}
 /* planos */
 .planos{display:grid;gap:20px;grid-template-columns:1fr;margin-top:72px}
 @media(min-width:960px){.planos{grid-template-columns:repeat(3,1fr)}}
-.plano{display:flex;flex-direction:column;gap:16px;padding:0 34px 40px;border:1px solid var(--linha);min-width:0;background:#1E1E1E}
+.plano{display:flex;flex-direction:column;gap:16px;padding:0 34px 40px;border:1px solid var(--linha);min-width:0;background:#FFF8B0}
 .plano .jan{display:flex;gap:6px;align-items:center;padding:14px 0;margin-bottom:6px;border-bottom:1px solid var(--linha)}
-.plano .jan i{width:7px;height:7px;border-radius:50%;background:#2A2F36}
+.plano .jan i{width:7px;height:7px;border-radius:50%;background:#C9C200}
 .plano .jan span{margin-left:auto;font-family:var(--mono);font-size:10px;letter-spacing:.12em;color:var(--frio)}
 .plano.rec{border-color:var(--ciano);box-shadow:0 0 0 1px var(--ciano) inset}
 .plano .tag{align-self:flex-start}
@@ -176,10 +176,10 @@ section{padding-block:128px;border-top:1px solid var(--linha)}
 <h2 style="margin-top:22px;font-size:clamp(38px,5.4vw,80px)">Quatro etapas, <em>com você</em>.</h2>
 <p style="margin-top:20px;color:var(--frio);max-width:60ch">O passo a passo de cada etapa é apresentado na conversa de diagnóstico, porque depende do seu perfil, da sua comunidade e da sua mentoria.</p>
 <div class="metodo">
-<div class="et"><span class="tag c">Etapa 1</span><h3>Diagnóstico</h3><p>Olhamos o seu caso com os seus números.</p></div>
-<div class="et"><span class="tag c">Etapa 2</span><h3>Mensagem</h3><p>O que você defende, definido com você.</p></div>
-<div class="et"><span class="tag c">Etapa 3</span><h3>Conteúdo do mês</h3><p>Um plano para o seu mês, montado para você.</p></div>
-<div class="et"><span class="tag c">Etapa 4</span><h3>Venda</h3><p>O caminho até a venda, combinado com você.</p></div>
+<div class="et"><span class="tag">Etapa 1</span><h3>Diagnóstico</h3><p>Olhamos o seu caso com os seus números.</p></div>
+<div class="et"><span class="tag">Etapa 2</span><h3>Mensagem</h3><p>O que você defende, definido com você.</p></div>
+<div class="et"><span class="tag">Etapa 3</span><h3>Conteúdo do mês</h3><p>Um plano para o seu mês, montado para você.</p></div>
+<div class="et"><span class="tag">Etapa 4</span><h3>Venda</h3><p>O caminho até a venda, combinado com você.</p></div>
 </div>
 </div>
 </section>
