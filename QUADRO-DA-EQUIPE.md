@@ -25,6 +25,7 @@ Toda conta lê esta tabela antes de qualquer pedido. Recado novo: responda ao Li
 ## Em andamento
 | Desde | Conta | O quê | Como retomar / onde está |
 |---|---|---|---|
+| 07/11 | Leandro (Data + Hormozi Squad) | **Tribuna 98: análise das redes + monetização** (parte 2 da trava). Números novos, prints de 07/11 e plano priorizado | `agencia/clientes/tribuna98/ANALISE-E-MONETIZACAO.md`, `prints/2026-11-07/` |
 | 06/11 | Leandro → **Pedro** | **Orégano Turbo:** kit social v3 do Paollo **APROVADO** ("esse é o padrão"); identidade v4.1 com fotos de campanha do Gemini. **Pedro:** cartões no portfólio (identidade v4.1, site e kit social v3). **Leandro:** fechar a identidade v4.2 com os mockups realistas (faltam A2, A5, A11, A12, B4–B8 e C1–C3 do Gemini; A9 e A10 com logo errado) | `agencia/operacao-propria/social/v3/`, `identidade/fotos-ia/` |
 | 05/11 | Leandro → **Pedro** | **Leo: tudo aprovado e postado (05/11)**: saudações, artes, 4 motions (o motion 3 NÃO precisa mais de revisão), bio, destaques, aniversários e figurinhas. **Pedro:** só falta pôr as entregas do Leo no portfólio (`dados.js`, área dele) | `MEMORIA-DO-LINDSON.md` (05/11) · painel `leo.html` |
 | 05/11 | Leandro | **Operação própria do Lindson** (modelo da Alpha sem franquia): plano, playbook e projeção **prontos**. Esperando as 7 decisões do Lindson (README, item 8) para montar página de planos, formulário que filtra, relatório de segunda, ouvidoria, contrato com prazo e proposta | `agencia/operacao-propria/` (README, PROJECAO-PROPRIA.xlsx) |
