@@ -1,5 +1,12 @@
 # Instruções do repositório (Lindson Almeida)
 
+> **TRAVA DO MAQUIAVEL (regra do Lindson, 07/11/2026), ANTES DE ACEITAR QUALQUER PEDIDO:** o agente **Maquiavel** é o copiloto que faz o Lindson terminar o que começa. Leia `TRAVA-MAQUIAVEL.md`.
+> - **Nada de projeto ou função nova** enquanto o projeto aberto não tiver pelo menos **30% das partes concluídas** (3 de 10).
+> - **Clientes pagantes primeiro:** Dra. Jaci, Tribuna 98, Leo Pinto e Real Time. Os outros (Orégano Turbo, marca do Lindson, produtos, canais, SF) só avançam depois que não houver parte de pagante que dependa só da equipe.
+> - **Continuar o que está aberto é sempre permitido.**
+> - **Para furar a trava**, o Lindson precisa escrever "Maquiavel, libera"; registre no arquivo.
+> - **Ao concluir uma parte**, marque ✅ na tabela do arquivo.
+>
 > **PRIMEIRO DE TUDO (toda conta, toda conversa, inclusive conta nova):** leia `MEMORIA-DO-LINDSON.md` antes de responder qualquer pedido. Ali está tudo o que o Lindson já pediu, mandou, **aprovou** (guardar e melhorar) e **reprovou** (nunca repetir). Ao terminar cada pedido, acrescente nela o que foi aprovado ou reprovado, com data e conta, e faça commit e push. Nunca peça ao Lindson algo que já está lá.
 >
 > **REGRA DO LINDSON (05/11/2026), OBRIGATÓRIA, NUNCA ESQUECER: pesquisa premium no mundo inteiro ANTES de toda peça visual.** Identidade, site, app, post, carrossel, story, saudação, capa, PDF: **por menor que seja**, primeiro pesquisar estúdios, designers e templates premiados no mundo todo (Awwwards, D&AD, Cannes, Brand New, Pentagram, Koto, Behance/Dribbble em destaque, Framer, Envato…), juntar **≥ 8 referências de ≥ 3 países**, salvar as capturas, combinar as **3 mais impactantes**, registrar escolhidas e descartadas em `TEMPLATE.md` e mostrar as 3 ao Lindson junto com a entrega. Nunca só Designi, nunca reaproveitar captura antiga, nunca pular porque "é só um post". Passo a passo e checklist: `agencia/processos/pesquisa-premium.md`.

@@ -9,6 +9,7 @@ Como usar:
 - **Quer ajudar:** pegue um item de "Livre para pegar", mova para "Em andamento" com o seu nome.
 
 ## Recados para todas as contas
+- **07/11/2026 · TRAVA DO MAQUIAVEL (Lindson):** antes de aceitar qualquer pedido, leia `TRAVA-MAQUIAVEL.md`. Nada de projeto ou função nova abaixo de 30% do projeto aberto. Pagantes primeiro (Jaci, Tribuna 98, Leo, Real Time). Desbloqueio só com "Maquiavel, libera". Ao terminar uma parte, marque ✅ lá. Confirmação: Leandro ✅
 Toda conta lê esta tabela antes de qualquer pedido. Recado novo: responda ao Lindson na conversa **"Entendi o recado de DD/MM: …"** e troque o ⬜ do seu nome por ✅ com a data (commit e push).
 
 | Data | De | Recado | Lindson | Zuleide | Pedro | Leandro |
