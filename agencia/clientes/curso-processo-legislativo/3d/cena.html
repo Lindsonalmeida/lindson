@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<style>html,body{margin:0;background:#00241C}canvas{display:block}</style></head><body>
+<script>
+const W=1080,H=1920;
+const renderer=new THREE.WebGLRenderer({antialias:true,preserveDrawingBuffer:true});
+renderer.setSize(W,H);renderer.setPixelRatio(1);
+renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFSoftShadowMap;
+renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.05;
+document.body.appendChild(renderer.domElement);
+const scene=new THREE.Scene();
+scene.background=new THREE.Color(0x00241C);
+scene.fog=new THREE.Fog(0x00241C,14,30);
+const cam=new THREE.PerspectiveCamera(34,W/H,0.1,200);
+cam.position.set(0,6.5,24);cam.lookAt(0,4.6,0);
+// luzes
+scene.add(new THREE.HemisphereLight(0xfcfcfc,0x00241c,0.55));
+const key=new THREE.DirectionalLight(0xfff1cf,2.2);key.position.set(-6,12,8);key.castShadow=true;
+key.shadow.mapSize.set(2048,2048);key.shadow.camera.left=-10;key.shadow.camera.right=10;key.shadow.camera.top=14;key.shadow.camera.bottom=-4;
+scene.add(key);
+const rim=new THREE.PointLight(0xc8b078,40,30);rim.position.set(5,5,-4);scene.add(rim);
+
+// ambiente: céu de estúdio (gradiente com faixas de luz) para reflexos metálicos
+{
+  const cv=document.createElement("canvas");cv.width=1024;cv.height=512;const g=cv.getContext("2d");
+  const gr=g.createLinearGradient(0,0,0,512);gr.addColorStop(0,"#fff6e0");gr.addColorStop(0.45,"#c8b078");gr.addColorStop(0.55,"#1a3a30");gr.addColorStop(1,"#00120d");
+  g.fillStyle=gr;g.fillRect(0,0,1024,512);
+  g.fillStyle="rgba(255,255,255,0.95)";g.fillRect(180,70,140,160);g.fillRect(640,90,200,90);
+  const tex=new THREE.CanvasTexture(cv);tex.mapping=THREE.EquirectangularReflectionMapping;
+  const pm=new THREE.PMREMGenerator(renderer);scene.environment=pm.fromEquirectangular(tex).texture;
+}
+// materiais
+const gold=new THREE.MeshStandardMaterial({color:0xc8b078,metalness:1.0,roughness:0.18});
+const goldDark=new THREE.MeshStandardMaterial({color:0x8e7440,metalness:0.9,roughness:0.35});
+const marble=new THREE.MeshStandardMaterial({color:0xfcfcfc,metalness:0.0,roughness:0.55});
+const green=new THREE.MeshStandardMaterial({color:0x003a2c,metalness:0.2,roughness:0.6});
+const floorM=new THREE.MeshStandardMaterial({color:0x00241c,metalness:0.4,roughness:0.5});
+// piso
+const floor=new THREE.Mesh(new THREE.CircleGeometry(16,96),floorM);
+floor.rotation.x=-Math.PI/2;floor.receiveShadow=true;scene.add(floor);
+// base em degraus
+function box(w,h,d,m,x,y,z){const g=new THREE.Mesh(new THREE.BoxGeometry(w,h,d),m);g.position.set(x,y,z);g.castShadow=true;g.receiveShadow=true;scene.add(g);return g;}
+box(11,0.35,7.2,marble,0,0.175,0);
+box(9.6,0.35,6,marble,0,0.525,0);
+box(8.4,0.3,5,marble,0,0.85,0);
+// colunas
+const cols=7;
+for(let i=0;i<cols;i++){
+  const x=-4.2+i*(8.4/(cols-1));
+  const c=new THREE.Mesh(new THREE.CylinderGeometry(0.26,0.3,4.2,40),marble);
+  c.position.set(x,2.95,2.4);c.castShadow=true;c.receiveShadow=true;scene.add(c);
+  const cap=new THREE.Mesh(new THREE.BoxGeometry(0.8,0.22,0.8),gold);cap.position.set(x,5.15,2.4);cap.castShadow=true;scene.add(cap);
+  const base=new THREE.Mesh(new THREE.CylinderGeometry(0.36,0.36,0.22,40),gold);base.position.set(x,1.0,2.4);base.castShadow=true;scene.add(base);
+}
+// entablamento e frontão
+box(9.4,0.5,1.0,gold,0,5.42,2.4);
+box(9.8,0.22,1.2,goldDark,0,5.8,2.4);
+// cúpula
+const dome=new THREE.Mesh(new THREE.SphereGeometry(2.4,96,48,0,Math.PI*2,0,Math.PI/2),gold);
+dome.position.set(0,6.0,0);dome.castShadow=true;scene.add(dome);
+const drum=new THREE.Mesh(new THREE.CylinderGeometry(2.45,2.45,0.5,96),marble);drum.position.set(0,5.95,0);drum.castShadow=true;scene.add(drum);
+const lant=new THREE.Mesh(new THREE.CylinderGeometry(0.42,0.5,0.9,40),gold);lant.position.set(0,8.4,0);lant.castShadow=true;scene.add(lant);
+const tip=new THREE.Mesh(new THREE.ConeGeometry(0.36,0.9,40),gold);tip.position.set(0,9.25,0);tip.castShadow=true;scene.add(tip);
+// anel de luz no chão
+const ring=new THREE.Mesh(new THREE.TorusGeometry(6.8,0.02,8,160),new THREE.MeshBasicMaterial({color:0xc8b078}));
+ring.rotation.x=Math.PI/2;ring.position.y=0.02;scene.add(ring);
+// partículas douradas
+const pg=new THREE.BufferGeometry();const N=260;const pos=new Float32Array(N*3);
+for(let i=0;i<N;i++){pos[i*3]=(Math.random()-0.5)*16;pos[i*3+1]=Math.random()*12;pos[i*3+2]=(Math.random()-0.5)*10;}
+pg.setAttribute('position',new THREE.BufferAttribute(pos,3));
+scene.add(new THREE.Points(pg,new THREE.PointsMaterial({color:0xf3e2b0,size:0.05,transparent:true,opacity:0.8})));
+renderer.render(scene,cam);
+window.__done=true;
+</script></body></html>
