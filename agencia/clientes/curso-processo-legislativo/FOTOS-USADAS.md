@@ -19,3 +19,12 @@ Regra: cada foto é anotada aqui com a origem e a licença, e não se repete no 
 | `fotos-banco/diversas/podio.jpg` | Pakutaso, púlpito (https://www.pakutaso.com/en/20230123023post-44771.html) | mesma licença | `capas-v8/capa-v8-03-podio.png` |
 | `fotos-banco/diversas/fileiras-publico.jpg` | Pakutaso, plenário vermelho (https://www.pakutaso.com/en/20230128023post-44769.html) | mesma licença | `capas-v8/capa-v8-04-plenario.png` |
 | `fotos-banco/diversas/perguntas-podio.jpg` | Pakutaso, pódio com perguntas (https://www.pakutaso.com/en/20230132023post-44851.html) | mesma licença | reserva |
+
+## Capas v13 (07/11, agente de design)
+| Arquivo | Capa | Situação |
+|---|---|---|
+| `fotos-banco/diversas/perguntas-podio.jpg` (Pakutaso, pódio com perguntas, licença "free for both commercial and non-commercial use") | `capas-v13/capa-v13-1.png` | Primeiro uso no curso (reserva até aqui). |
+| `fotos-banco/camara-plenario-pakutaso.jpg` (mesma origem e licença) | `capas-v13/capa-v13-2.png` | **Repetida**: já usada em `capas-v5/capa-v5-01-plenario.png`. Pede OK do Lindson. |
+| `fotos-banco/diversas/microfones.jpg` (mesma origem e licença) | `capas-v13/capa-v13-3.png` | **Repetida**: já usada em `capas-v8/capa-v8-01-microfone.png`. Pede OK do Lindson. |
+
+Martelo (Pexels 5668473) não foi usado: a licença da página ainda não foi conferida. Fotos novas de banco só com OK do Lindson.
