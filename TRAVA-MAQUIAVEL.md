@@ -52,7 +52,7 @@ Legenda: ✅ feito · 🟡 em andamento · ⏳ depende do Lindson ou do cliente 
 3. 🟡 Painel do Tribuna 98 na Central (v1 em `agencia/sistema-clientes/tribuna98/`, com números de 03/11; prints de 07/11 a confirmar). **Não é ✅:** a pesquisa premium está incompleta (1 de 8 referências, 1 país; ver `agencia/clientes/tribuna98/TEMPLATE.md`)
 4. ⬜ Site principal (no lugar do WordPress atual ou ao lado dele; a decidir)
 5. 🟡 Reformular o Instagram do **curso de processo legislativo** (projeto confirmado pelo Lindson em 07/11, via Thiago Fonseca, da empresa Tribuna 98). Lista do Lindson (07/11): refazer as capas dos Reels dos cursos e a foto de perfil. Falta o @ do curso e a estrutura do curso
-6. ⏳ Imagens de IA dos sócios: nome e 5 a 10 fotos de cada sócio, com autorização
+6. ⏳ Imagens de IA dos sócios: nome e 5 a 10 fotos de cada sócio, com autorização. **Em 07/11 (Lindson):** 1 nome informado, "Thiago Fonseca" (o mesmo nome do contato do WhatsApp). Faltam: o nome do 2º sócio, 5 a 10 fotos de cada um e a **autorização escrita** de cada um. Nenhuma imagem gerada até lá; as fotos ficam no privado, não no repositório
 7. ⬜ Artes do feed, calendário e roteiros do curso (depois do item 5 e da estrutura do curso)
 8. ⏳ Acessos e Insights do Instagram (para o painel ter números reais)
 
