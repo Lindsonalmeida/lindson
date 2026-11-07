@@ -51,9 +51,9 @@ Legenda: ✅ feito · 🟡 em andamento · ⏳ depende do Lindson ou do cliente 
 2. ✅ Análise das redes + caminhos para monetizar (`agencia/clientes/tribuna98/ANALISE-E-MONETIZACAO.md`; falta só trocar os números pelos prints de 07/11, que o Lindson manda)
 3. 🟡 Painel do Tribuna 98 na Central (equipe)
 4. ⬜ Site principal (no lugar do WordPress atual ou ao lado dele; a decidir)
-5. 🟡 Reformular o Instagram do **curso de processo legislativo** (projeto confirmado pelo Lindson em 07/11, via Thiago Fonseca, da empresa Tribuna 98). Falta o @ do curso e a estrutura do curso
+5. 🟡 Reformular o Instagram do **curso de processo legislativo** (projeto confirmado pelo Lindson em 07/11, via Thiago Fonseca, da empresa Tribuna 98). Lista do Lindson (07/11): refazer as capas dos Reels dos cursos e a foto de perfil. Falta o @ do curso e a estrutura do curso
 6. ⏳ Imagens de IA dos sócios: nome e 5 a 10 fotos de cada sócio, com autorização
-7. ⬜ Calendário e artes do Instagram do curso (depois do item 5 e da estrutura do curso)
+7. ⬜ Artes do feed, calendário e roteiros do curso (depois do item 5 e da estrutura do curso)
 8. ⏳ Acessos e Insights do Instagram (para o painel ter números reais)
 
 ### 💰 Leo Pinto (pagante) · 5 de 9 (56%)
