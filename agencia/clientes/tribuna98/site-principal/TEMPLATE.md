@@ -22,6 +22,7 @@ Meta: 8 referências confirmadas na própria página, de 3 países, 3 combinadas
 Faltou abrir as páginas (Awwwards, Behance, Framer bloqueados ou sem resultado nas rodadas anteriores). Próximo passo: o Lindson manda capturas ou o acesso é liberado, e a pesquisa é refeita com 8 páginas abertas.
 
 ## Decisões já tomadas pelo padrão (sem mudança)
-- Site principal na raiz do `tribuna98.pages.dev`; bio em `/bio/`. Link da bio do Instagram só muda com OK do Lindson.
+- A bio JÁ EXISTE e está no ar em `tribuna98.pages.dev` (raiz, commit e0a6e01; `/bio` redireciona para a raiz). Recado do Lindson (07/11, via outra sessão): não refazer, não mover a bio, não mexer no link dela.
+- O site principal é projeto novo, em rota própria (a definir com o Lindson), sem tocar a bio.
 - O site novo fica AO LADO do WordPress (tribuna98.com.br). Premissa a confirmar.
 - Cloudflare Pages, projeto `tribuna98`, branch `main`, framework None.
