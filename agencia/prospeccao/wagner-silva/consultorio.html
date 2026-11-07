@@ -7,18 +7,19 @@
 <title>Consultório Wagner Silva</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500;1,600&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=IBM+Plex+Mono:wght@400;500&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
 <style>
 /* Direção: editorial escuro. Tinta quase preta, papel quente, ouro usado só em um ponto por seção.
    Layout: coluna de leitura central, planos em 3 cartões, uma frase grande por seção. */
 :root {
-  --ink: #0F0E0C;
-  --paper: #F1EBDF;
-  --muted: #A89F90;
+  --ink: #0D0E0C;
+  --paper: #EFE9DC;
+  --muted: #A59E8F;
   --line: #2A2722;
-  --gold: #C9A24A;
-  --card: #17150F;
+  --gold: #B4673F;
+  --card: #121510;
   --display: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
   --body: "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
   color-scheme: dark;
 }
@@ -46,7 +47,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 .wrap { max-width: 960px; margin: 0 auto; }
-.eyebrow { font-size: 12px; letter-spacing: .18em; text-transform: uppercase; color: var(--gold); font-weight: 800; }
+.eyebrow { font-family: var(--mono); font-size: 12px; letter-spacing: .16em; text-transform: uppercase; color: var(--gold); font-weight: 500; }
 h1, h2, h3 { font-family: var(--display); font-weight: 700; line-height: 1.04; text-wrap: balance; margin: 0; }
 h1 { font-size: clamp(44px, 9vw, 92px); letter-spacing: -.02em; }
 h2 { font-size: clamp(32px, 5.5vw, 56px); letter-spacing: -.01em; }
@@ -56,7 +57,8 @@ p { margin: 0; max-width: 62ch; }
 .lead { font-size: clamp(18px, 2.2vw, 21px); color: var(--muted); margin-top: 20px; }
 section { padding-block: 72px; border-top: 1px solid var(--line); }
 header.top { padding-block: 28px 0; display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; font-size: 13px; color: var(--muted); }
-header.top b { color: var(--paper); letter-spacing: .04em; }
+header.top b { color: var(--paper); font-family: var(--display); font-size: 26px; font-weight: 600; letter-spacing: 0; }
+header.top span { font-family: var(--mono); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; }
 .hero { padding-block: 64px 80px; }
 .hero .stats { display: flex; gap: 28px; flex-wrap: wrap; margin-top: 40px; }
 .stat b { display: block; font-family: var(--display); font-size: 40px; line-height: 1; }
@@ -113,8 +115,8 @@ a { color: inherit; }
 <div class="wrap">
 
 <header class="top">
-  <b>Consultório · Wagner Silva</b>
-  <span>@owagner.silva · proposta de apresentação</span>
+  <b>Wagner <em>Silva</em></b>
+  <span>Consultório · Repertório · Comunicação</span>
 </header>
 
 <section class="hero" style="border-top:0">
