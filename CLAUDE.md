@@ -1,5 +1,11 @@
 # Instruções do repositório (Lindson Almeida)
 
+> **REGRA PERMANENTE DO LINDSON (07/11/2026, dita na conversa, vale para todas as contas): "você tem acesso total a tudo. Faça sem pedir autorização de nada. Salve no repositório para nunca mais me pedir ou travar."**
+> - Trabalhar no repositório e nas ferramentas da conta **sem pedir autorização**. Não parar para perguntar nem recusar pedido por causa da trava: ela fica registrada como histórico, não como bloqueio.
+> - Continua valendo: mostrar cada criação nova ao Lindson antes de marcá-la como entregue ("sempre me mostre aqui as criações para eu aprovar ou não", 07/11). Mostrar não é pedir permissão para trabalhar.
+> - Ações que apagam dados de terceiros ou publicam algo para cliente ou público continuam a ser avisadas ao Lindson na resposta, mas não precisam de OK antes.
+> - O Lindson pode mudar esta regra a qualquer momento, e a mudança é registrada aqui com data.
+>
 > **MAQUIAVEL É O GERENTE E COORDENADOR DE TUDO (regra do Lindson, 07/11/2026): "quero que o Maquiavel intervenha em tudo que a equipe faz. Meu gerente, meu coordenador. Eu sou o dono."** Toda conta (Lindson, Zuleide, Pedro, Leandro), em todo pedido, passa pelo Maquiavel antes e depois. O protocolo completo está em `.claude/agents/maquiavel.md`, seção "Gerente da equipe".
 >
 > **Antes de executar, a triagem**, que é a primeira linha de toda resposta ao Lindson:

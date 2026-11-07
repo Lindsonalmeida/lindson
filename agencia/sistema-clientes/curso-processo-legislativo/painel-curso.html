@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Curso de processo legislativo · Painel do cliente</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&family=Manrope:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: menu lateral fixo + área de trabalho com cartões. Preto e amarelo, mesmo visual da tela de acesso. Visual único escuro, por escolha. */
+:root{
+  --fundo:#09090A;--painel:#121213;--painel2:#18181A;--linha:#242427;--amarelo:#F5C518;--amarelo2:#FFDD55;
+  --texto:#F3F0E6;--apagado:#8E8B83;--ok:#5CC98A;--alerta:#F2A93B;--erro:#E5604D;
+  --f-titulo:'Big Shoulders Display','Arial Narrow',Impact,sans-serif;--f-corpo:'Manrope',system-ui,sans-serif;--f-dado:'IBM Plex Mono',ui-monospace,monospace;
+  color-scheme:dark;
+}
+[hidden]{display:none!important}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:var(--fundo);color:var(--texto);font:500 14px/1.5 var(--f-corpo);overflow-x:clip}
+.app{display:grid;grid-template-columns:248px minmax(0,1fr);min-height:100%}
+/* menu */
+.menu{position:sticky;top:0;height:100vh;display:flex;flex-direction:column;gap:18px;padding:22px 16px;border-right:1px solid var(--linha);background:#0C0C0D;overflow-y:auto}
+.logo{display:flex;align-items:center;gap:10px;font:800 20px var(--f-titulo);letter-spacing:.04em;text-transform:uppercase}
+.logo b{width:34px;height:34px;display:grid;place-items:center;border:1.5px solid var(--amarelo);color:var(--amarelo);font-size:16px}
+.seletor{display:grid;gap:6px}
+.seletor label{font:500 10px var(--f-dado);letter-spacing:.24em;text-transform:uppercase;color:var(--apagado)}
+.seletor select{background:var(--painel2);color:var(--texto);border:1px solid var(--linha);border-radius:8px;padding:9px 10px;font:600 13px var(--f-corpo)}
+.grupo{display:grid;gap:2px}
+.grupo h4{margin:6px 8px 4px;font:500 10px var(--f-dado);letter-spacing:.24em;text-transform:uppercase;color:var(--apagado)}
+.grupo a{display:flex;align-items:center;gap:10px;padding:8px 10px;border-radius:8px;color:#C9C5BA;text-decoration:none;font-weight:600}
+.grupo a svg{width:17px;height:17px;flex:none}
+.grupo a:hover{background:var(--painel2);color:var(--texto)}
+.grupo a[aria-current="page"]{background:rgba(245,197,24,.12);color:var(--amarelo)}
+.grupo a .n{margin-left:auto;font:600 11px var(--f-dado);background:var(--amarelo);color:#0A0A0A;border-radius:99px;padding:0 7px}
+.rodape-menu{margin-top:auto;border:1px solid var(--linha);border-radius:12px;padding:14px;display:grid;gap:8px;background:var(--painel)}
+.rodape-menu b{font-size:13px}.rodape-menu span{color:var(--apagado);font-size:12px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:0;border-radius:9px;padding:9px 14px;font:700 13px var(--f-corpo);cursor:pointer;text-decoration:none}
+.btn.am{background:var(--amarelo);color:#0A0A0A}.btn.am:hover{background:var(--amarelo2)}
+.btn.lin{background:transparent;color:var(--texto);border:1px solid var(--linha)}.btn.lin:hover{border-color:var(--amarelo);color:var(--amarelo)}
+.btn:focus-visible,.grupo a:focus-visible,select:focus-visible{outline:2px solid var(--amarelo);outline-offset:2px}
+/* topo */
+.area{min-width:0;display:flex;flex-direction:column}
+.topo{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:14px;padding:14px max(20px,env(safe-area-inset-right,0px)) 14px 24px;border-bottom:1px solid var(--linha);background:rgba(9,9,10,.92);backdrop-filter:blur(8px)}
+.topo h1{margin:0;font:800 26px/1 var(--f-titulo);letter-spacing:.03em;text-transform:uppercase}
+.topo .cliente{color:var(--apagado);font-size:13px}
+.topo .dir{margin-left:auto;display:flex;align-items:center;gap:10px}
+.exemplo{font:500 10px var(--f-dado);letter-spacing:.16em;text-transform:uppercase;color:var(--amarelo);border:1px dashed rgba(245,197,24,.5);border-radius:99px;padding:4px 10px}
+.avatar{width:34px;height:34px;border-radius:50%;background:var(--amarelo);color:#0A0A0A;display:grid;place-items:center;font:800 14px var(--f-titulo)}
+.abrir-menu{display:none;background:none;border:1px solid var(--linha);color:var(--texto);border-radius:8px;padding:6px 9px;cursor:pointer}
+main{padding:24px max(20px,env(safe-area-inset-right,0px)) 48px 24px;display:grid;gap:18px}
+/* cartões */
+.grade{display:grid;gap:16px}
+.g4{grid-template-columns:repeat(4,minmax(0,1fr))}.g3{grid-template-columns:repeat(3,minmax(0,1fr))}.g2{grid-template-columns:repeat(2,minmax(0,1fr))}.g21{grid-template-columns:minmax(0,2fr) minmax(0,1fr)}
+.card{background:var(--painel);border:1px solid var(--linha);border-radius:14px;padding:18px;min-width:0}
+.card h3{margin:0 0 4px;font:700 15px var(--f-corpo)}
+.card .sub{margin:0 0 14px;color:var(--apagado);font-size:12.5px}
+.kpi .rot{color:var(--apagado);font-size:12.5px}
+.kpi .val{font:800 34px/1.1 var(--f-titulo);letter-spacing:.02em;margin:6px 0 4px;font-variant-numeric:tabular-nums}
+.var{font:600 12px var(--f-corpo)}.var.up{color:var(--ok)}.var.down{color:var(--erro)}.var span{color:var(--apagado);font-weight:500}
+.chip{display:inline-flex;align-items:center;gap:6px;font:600 11px var(--f-corpo);border-radius:99px;padding:3px 9px;white-space:nowrap}
+.chip.ok{background:rgba(92,201,138,.12);color:var(--ok)}.chip.al{background:rgba(242,169,59,.12);color:var(--alerta)}.chip.er{background:rgba(229,96,77,.12);color:var(--erro)}.chip.am{background:rgba(245,197,24,.12);color:var(--amarelo)}.chip.ne{background:var(--painel2);color:#C9C5BA}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{text-align:left;font:500 10px var(--f-dado);letter-spacing:.18em;text-transform:uppercase;color:var(--apagado);padding:8px 10px;border-bottom:1px solid var(--linha)}
+td{padding:11px 10px;border-bottom:1px solid var(--linha);vertical-align:middle}
+tr:last-child td{border-bottom:0}
+.tab{overflow-x:auto}
+.lista{display:grid;gap:10px}
+.item{display:flex;align-items:center;gap:12px;padding:12px;border:1px solid var(--linha);border-radius:10px;background:var(--painel2)}
+.item .t{font-weight:700}.item .d{color:var(--apagado);font-size:12.5px}
+.item .fim{margin-left:auto;display:flex;gap:8px;align-items:center}
+.barra{height:8px;border-radius:8px;background:var(--painel2);overflow:hidden}.barra i{display:block;height:100%;background:var(--amarelo);border-radius:8px}
+svg.graf{width:100%;height:auto;display:block}
+.legenda{display:flex;gap:14px;flex-wrap:wrap;color:var(--apagado);font-size:12px}.legenda i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+/* aprovações */
+.posts{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:14px}
+.post{border:1px solid var(--linha);border-radius:12px;overflow:hidden;background:var(--painel2);display:flex;flex-direction:column}
+.post .img{aspect-ratio:4/5;background:linear-gradient(135deg,#2a2412,#0f0f10);display:grid;place-items:center;color:var(--amarelo);font:800 22px var(--f-titulo);text-align:center;padding:16px;text-transform:uppercase}
+.post .c{padding:12px;display:grid;gap:8px}.post .acoes{display:flex;gap:8px}.post .acoes .btn{flex:1;padding:8px}
+/* calendário */
+.cal{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:6px}
+.cal .dia{min-height:86px;border:1px solid var(--linha);border-radius:8px;padding:6px;background:var(--painel2);display:grid;align-content:start;gap:4px}
+.cal .dia b{font:500 11px var(--f-dado);color:var(--apagado)}
+.cal .ev{font-size:11px;border-radius:5px;padding:2px 5px;background:rgba(245,197,24,.14);color:var(--amarelo2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cal .ev.v{background:rgba(92,201,138,.14);color:var(--ok)}.cal .ev.r{background:rgba(120,160,255,.14);color:#9DB8FF}
+.cal .cab{font:500 10px var(--f-dado);letter-spacing:.18em;color:var(--apagado);text-align:center;text-transform:uppercase}
+.vazio{color:var(--apagado);text-align:center;padding:24px}
+.form-linha{display:grid;gap:10px;grid-template-columns:minmax(0,1fr) auto}
+.form-linha input,.form-linha select,textarea{background:var(--painel2);color:var(--texto);border:1px solid var(--linha);border-radius:9px;padding:10px 12px;font:500 14px var(--f-corpo);width:100%}
+textarea{min-height:80px;resize:vertical}
+.bom-dia{display:flex;gap:18px;align-items:center;padding:22px;border-radius:16px;border:1px solid rgba(245,197,24,.35);background:radial-gradient(60% 120% at 0% 0%,rgba(245,197,24,.20),transparent 60%),var(--painel)}
+.bom-dia .sol{flex:none;width:52px;height:52px;border-radius:50%;background:var(--amarelo);display:grid;place-items:center;color:#0A0A0A;font:800 24px var(--f-titulo)}
+.bom-dia .q{font:800 clamp(20px,2.2vw,28px)/1.15 var(--f-titulo);letter-spacing:.01em}
+.bom-dia .a{color:var(--apagado);font-size:13px;margin-top:4px}
+.bom-dia .xp{margin-left:auto;text-align:right;flex:none}.bom-dia .xp b{font:800 26px var(--f-titulo);color:var(--amarelo)}
+.subabas{display:flex;gap:6px;flex-wrap:wrap}
+.subabas button{border:1px solid var(--linha);background:var(--painel2);color:#C9C5BA;border-radius:99px;padding:8px 14px;font:700 13px var(--f-corpo);cursor:pointer}
+.subabas button[aria-pressed="true"]{background:var(--amarelo);color:#0A0A0A;border-color:var(--amarelo)}
+.missao{display:flex;gap:12px;align-items:center;padding:14px;border:1px solid var(--linha);border-radius:12px;background:var(--painel2);cursor:pointer}
+.missao input{width:22px;height:22px;accent-color:#F5C518;flex:none}
+.missao.feita{opacity:.6}.missao.feita .t{text-decoration:line-through}
+.missao .pts{margin-left:auto;font:700 12px var(--f-dado);color:var(--amarelo);white-space:nowrap}
+.nivel{display:grid;gap:8px;align-content:start}.medalhas{display:flex;gap:10px;flex-wrap:wrap}
+.medalha{width:64px;text-align:center;font-size:11px;color:var(--apagado)}.medalha i{display:grid;place-items:center;width:52px;height:52px;margin:0 auto 4px;border-radius:50%;border:2px solid var(--linha);font-style:normal;font-size:22px;filter:grayscale(1);opacity:.5}
+.medalha.on i{border-color:var(--amarelo);filter:none;opacity:1;background:rgba(245,197,24,.1)}
+.fotos{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+.fotos div{aspect-ratio:4/5;border-radius:10px;border:1px dashed var(--linha);display:grid;place-items:center;text-align:center;color:var(--apagado);font-size:12px;padding:10px;background:var(--painel2)}
+.fase{border-left:3px solid var(--amarelo);padding:4px 0 4px 14px;display:grid;gap:4px}
+@media (max-width:760px){.bom-dia{flex-wrap:wrap}.bom-dia .xp{margin-left:0;text-align:left}}
+.promo{position:relative;height:230px;border:1px solid var(--linha);border-radius:14px;overflow:hidden;
+  background:radial-gradient(40% 90% at 50% 40%,rgba(245,197,24,.16),transparent 70%),
+  linear-gradient(rgba(245,197,24,.045) 1px,transparent 1px) 0 0/40px 40px,linear-gradient(90deg,rgba(245,197,24,.045) 1px,transparent 1px) 0 0/40px 40px,#070707}
+.promo .marca2{position:absolute;z-index:3;top:14px;left:18px;display:flex;align-items:center;gap:8px;font:500 10px var(--f-dado);letter-spacing:.3em;text-transform:uppercase}
+.promo .marca2 i{width:16px;height:2px;background:var(--amarelo)}
+.promo .contr{position:absolute;z-index:3;top:10px;right:12px;padding:6px 12px;font-size:11px;letter-spacing:.06em;text-transform:uppercase}
+.promo .trilho2{display:flex;height:100%;transition:transform .9s cubic-bezier(.7,0,.2,1)}
+.promo .sl{flex:0 0 100%;position:relative;box-sizing:border-box;height:100%}
+.promo .sl.eu img{position:absolute;left:50%;bottom:0;height:96%;transform:translateX(-50%);
+  -webkit-mask-image:linear-gradient(to bottom,#000 62%,transparent 100%),linear-gradient(to right,transparent 0,#000 18%,#000 82%,transparent);-webkit-mask-composite:source-in;
+  mask-image:linear-gradient(to bottom,#000 62%,transparent 100%),linear-gradient(to right,transparent 0,#000 18%,#000 82%,transparent);mask-composite:intersect}
+.promo .sl.eu .nome{position:absolute;left:0;right:0;bottom:26px;text-align:center}
+.promo .sl.eu small{display:block;font:500 9px var(--f-dado);letter-spacing:.45em;text-shadow:0 2px 8px #000}
+.promo .sl.eu b{font:900 30px/1 var(--f-titulo);letter-spacing:.02em;color:var(--amarelo);text-transform:uppercase;text-shadow:0 4px 16px #000}
+.promo .sl.caso2{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,auto);gap:20px;align-items:center;padding:40px 22px 30px}
+.promo .ey{font:500 10px var(--f-dado);letter-spacing:.24em;color:var(--amarelo);text-transform:uppercase}
+.promo h3{margin:4px 0 6px;font:800 28px/.95 var(--f-titulo);text-transform:uppercase}.promo h3 em{font-style:normal;color:var(--amarelo)}
+.promo p{margin:0;color:#C9C5BA;font-size:13px;line-height:1.45;max-width:52ch}
+.promo .mat{height:128px;margin-top:14px;aspect-ratio:16/10;border-radius:10px;background-size:cover;background-position:top center;border:1px solid rgba(245,197,24,.18);box-shadow:0 18px 40px rgba(0,0,0,.6)}
+.promo .barras{position:absolute;z-index:3;left:18px;right:18px;bottom:10px;display:flex;gap:6px}
+.promo .barras i{flex:1;height:3px;border-radius:3px;background:rgba(243,240,230,.15)}.promo .barras i.on{background:var(--amarelo)}
+@media (max-width:760px){.promo{height:250px}.promo .mat{display:none}.promo .sl.caso2{grid-template-columns:minmax(0,1fr);padding:44px 16px 26px}.promo h3{font-size:24px}.promo .contr{display:none}}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--amarelo);color:#0A0A0A;font-weight:700;padding:10px 16px;border-radius:10px;opacity:0;transition:opacity .25s;pointer-events:none;z-index:20}
+.toast.on{opacity:1}
+@media (max-width:1100px){.g4{grid-template-columns:repeat(2,minmax(0,1fr))}.g3,.g21{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:760px){
+  .app{grid-template-columns:minmax(0,1fr)}
+  .menu{position:fixed;inset:0 auto 0 0;width:270px;z-index:30;transform:translateX(-100%);transition:transform .25s;padding-top:calc(22px + env(safe-area-inset-top,0px))}
+  .menu.aberto{transform:none;box-shadow:20px 0 60px rgba(0,0,0,.6)}
+  .abrir-menu{display:block}
+  .topo{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));top:env(safe-area-inset-top,0px)}
+  .topo .exemplo{display:none}
+  main{padding:16px max(16px,env(safe-area-inset-right,0px)) 40px max(16px,env(safe-area-inset-left,0px))}
+  .g2{grid-template-columns:minmax(0,1fr)}
+  .posts{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.post .img{font-size:16px;padding:10px}.post .c{padding:9px}
+  .cal{grid-template-columns:repeat(7,minmax(0,1fr));gap:3px}.cal .dia{min-height:58px;padding:3px}.cal .ev{font-size:9px;padding:1px 3px}
+}
+
+/* Curso de processo legislativo: extras do painel (status, linha do tempo, decisões). Identidade a definir. */
+.cp-aviso{border:1px dashed var(--amarelo);border-radius:12px;padding:12px 14px;color:var(--texto);font-size:12.5px;line-height:1.5;background:rgba(245,197,24,.06)}
+.cp-status{display:inline-block;padding:3px 10px;border-radius:999px;font:600 11.5px var(--f-dado);white-space:nowrap}
+.cp-status.feito{background:rgba(92,201,138,.14);color:var(--ok)}
+.cp-status.andamento{background:rgba(245,197,24,.14);color:var(--amarelo)}
+.cp-status.espera{background:rgba(242,169,59,.14);color:var(--alerta)}
+.cp-status.fazer{background:rgba(142,139,131,.14);color:var(--apagado)}
+.cp-status.confirmar{background:rgba(120,160,255,.14);color:#9DB8FF}
+.cp-linha{display:grid;grid-template-columns:96px 1fr;gap:14px;padding:12px 0;border-bottom:1px solid var(--linha)}
+.cp-linha:last-child{border-bottom:0}
+.cp-linha b{font:500 12px var(--f-dado);color:var(--amarelo)}
+.cp-linha p{margin:0}
+.cp-barra{height:8px;border-radius:8px;background:var(--painel2);overflow:hidden;margin:10px 0 4px}
+.cp-barra i{display:block;height:100%;background:var(--amarelo);border-radius:8px}
+.cp-decisao{display:grid;gap:8px}
+.cp-decisao h4{margin:0;font:800 22px/1.1 var(--f-titulo);text-transform:uppercase}
+.cp-decisao p{margin:0;color:#D5D2C8;font-size:13.5px;line-height:1.5}
+.cp-rodape{color:var(--apagado);font-size:12px;line-height:1.5;margin-top:18px;border-top:1px solid var(--linha);padding-top:12px}
+</style>
+</head>
+<body>
+<div class="app">
+  <nav class="menu" id="menu" aria-label="Menu do painel">
+    <div class="logo" style="display:grid;gap:10px;justify-items:start"><b>CPL</b><span style="font:600 10px var(--f-dado);letter-spacing:.24em;color:var(--amarelo)">PAINEL DO CURSO</span></div>
+    <div class="grupo"><h4>Visão</h4>
+      <a href="#inicio" data-v="inicio"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="7" height="9" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/><rect x="3" y="16" width="7" height="5" rx="1.5"/></svg>Visão geral</a>
+      <a href="#escopo" data-v="escopo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 11l3 3 8-8"/><path d="M20 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h9"/></svg>Escopo</a>
+      <a href="#perfil" data-v="perfil"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>Perfil e números</a>
+      <a href="#linha" data-v="linha"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 6h16M4 12h10M4 18h13"/></svg>Linha do tempo</a></div>
+    <div class="grupo"><h4>Pesquisa</h4>
+      <a href="#pesquisa" data-v="pesquisa"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>Pesquisa premium</a></div>
+    <div class="grupo"><h4>Próximos</h4>
+      <a href="#proximos" data-v="proximos"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 12h14M13 6l6 6-6 6"/></svg>Próximos passos</a></div>
+    <div class="grupo"><h4>Decisões</h4>
+      <a href="#decisoes" data-v="decisoes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6M12 17h.01"/></svg>Decisões do Lindson<span class="n" id="n-dec"></span></a></div>
+    <div class="rodape-menu"><b>Identidade a definir</b><span>Este painel ainda não tem a marca do curso.</span></div>
+  </nav>
+  <div class="area">
+    <header class="topo">
+      <button class="abrir-menu" id="abrir" aria-label="Abrir menu" aria-controls="menu" aria-expanded="false">☰</button>
+      <div><h1 id="titulo">Visão geral</h1><div class="cliente">Curso de processo legislativo · @curso_processo_legislativo_ · conteúdos para atuação parlamentar</div></div>
+      <div class="dir"><span class="exemplo">Identidade a definir</span><div class="avatar" title="Curso de processo legislativo">CPL</div></div>
+    </header>
+    <main id="conteudo"></main>
+  </div>
+</div>
+<script>
+
+const D = {"fonte": "Print do perfil (data a confirmar): 98 posts, 4.535 seguidores, 1.628 seguindo. Fonte: TRAVA-MAQUIAVEL.md, item 5 (conta Leandro, 07/11/2026).", "escopo_total": 8, "kpis": [["Seguidores", "4.535", "@curso_processo_legislativo_ · data a confirmar"], ["Posts", "98", "print do perfil · data a confirmar"], ["Seguindo", "1.628", "print do perfil · data a confirmar"], ["Estrutura do curso", "a confirmar", "sem a lista de aulas no repositório"], ["Identidade", "a definir", "sem direção escolhida; capas de 07/11 reprovadas"]], "perfil": [["Instagram", "@curso_processo_legislativo_", "confirmado pelo print do perfil"], ["Bio", "Conteúdos práticos para atuação parlamentar", "texto do print"], ["Link da bio", "curso-processo-legislativo.my.canva.site/…", "placeholder do Canva: trocar por link definitivo"], ["Foto de perfil", "cartaz do curso com os dois instrutores", "uso da imagem: parado até a autorização (item 6)"], ["Nome da marca", "a definir", "o Lindson decide"]], "escopo": [["1", "@ do curso confirmado pelo print do perfil", "feito", "@curso_processo_legislativo_, 4.535 seguidores (data a confirmar)"], ["2", "Capas de Reels na identidade do Tribuna 98", "espera", "REPROVADAS em 07/11 (identidade do Tribuna). Não publicar"], ["3", "Identidade própria do curso (persona e pesquisa premium antes)", "fazer", "Pesquisa premium parcial (ver TEMPLATE.md). Direção a escolher"], ["4", "Nome da marca do curso", "espera", "Decisão do Lindson"], ["5", "Link da bio (hoje é placeholder do Canva)", "espera", "Link definitivo: a informar"], ["6", "Estrutura do curso (aulas, ordem e títulos)", "espera", "Sem ela as capas não viram aulas: é o que destrava o item 7"], ["7", "Artes do feed, calendário e roteiros do curso", "fazer", "Depois dos itens 3 e 6"], ["8", "Turma de 10 de abril (se ainda vale)", "confirmar", "O post é de 19/03. Hoje é 07/11/2026: confirmar se a turma já passou"]], "linha": [["19/03", "Post do curso com a turma de 10 de abril e os dois instrutores (data do post, a confirmar o ano)", "confirmar"], ["07/11", "@ confirmado pelo print do perfil (4.535 seguidores)", "feito"], ["07/11", "9 capas de Reels feitas na identidade do Tribuna 98", "espera"], ["07/11", "Capas REPROVADAS pelo Lindson: o curso tem identidade própria", "espera"], ["07/11", "Painel do curso na Central (esta tela): estrutura do modelo, identidade a definir", "andamento"]], "pesquisa": [["Referências confirmadas pela própria página", "4 de 8 (meta: 8 de 3 países)", "espera"], ["Países confirmados", "1 (Países Baixos)", "espera"], ["Fontes bloqueadas", "Awwwards (conexão recusada), Behance (erro 400/403), Framer (página fora do ar), Koto (404)", "espera"]], "decisoes": [["Nome da marca do curso", "Item 4. Sem nome, o painel e as artes ficam sem marca. Pode ser o mesmo do Tribuna ou outro: decisão do Lindson.", "aguardando"], ["Direção da identidade do curso", "Item 3. Precisa de persona e pesquisa premium antes. A identidade do Tribuna foi reprovada para este curso.", "aguardando"], ["Link definitivo da bio", "Item 5. Hoje é placeholder do Canva. Qual endereço usar (site próprio, pages.dev ou outro)?", "aguardando"], ["Turma de 10 de abril", "Item 8. Se já passou, o próximo post precisa de nova data. Confirmar com o Lindson.", "aguardando"], ["Quem é quem entre os instrutores", "O post traz 'Tiago Azevedo' e 'Rafael Araújo Veras'. Confirmar nome legal e papel de cada um antes de usar o nome.", "aguardando"]], "proximos": [["Lindson", "Escolher o nome da marca e a direção de identidade (ou aprovar o que a equipe propuser)"], ["Lindson", "Mandar a estrutura do curso (lista de aulas, ordem e títulos)"], ["Lindson", "Informar o link definitivo da bio e confirmar a turma de 10 de abril"], ["Equipe", "Completar a pesquisa premium (8 referências de 3 países) e a persona de 5 linhas"], ["Equipe", "Depois da identidade e da estrutura: artes do feed, calendário e roteiros (itens 3, 6 e 7)"]]};
+const $ = s => document.querySelector(s), main = $('#conteudo');
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const ST = {feito:['feito','✅ Feito'], andamento:['andamento','🟡 Em andamento'], espera:['espera','⏳ Depende de outro'], fazer:['fazer','⬜ A fazer'], confirmar:['confirmar','❔ A confirmar'], aguardando:['espera','⏳ Aguardando']};
+const st = k => { const [c, t] = ST[k] || ST.fazer; return `<span class="cp-status ${c}">${t}</span>`; };
+const nota = () => `<p class="cp-rodape">${esc(D.fonte)} Identidade a definir. Sem promessa de resultado.</p>`;
+const feitos = () => D.escopo.filter(x => x[2] === 'feito').length;
+const pct = () => Math.round(feitos() / D.escopo_total * 100);
+
+const V = {
+  inicio() {
+    const kpis = D.kpis.map(([r, v, n]) => `<div class="card kpi"><div class="rot">${esc(r)}</div><div class="val">${esc(v)}</div><div class="var"><span>${esc(n)}</span></div></div>`).join('');
+    const agora = D.escopo.filter(x => x[2] !== 'feito').map(x => `<div class="item" style="margin-bottom:8px"><div style="flex:1"><div class="t">${esc(x[0])}. ${esc(x[1])}</div><div class="d">${esc(x[3])}</div></div>${st(x[2])}</div>`).join('');
+    return `<div class="cp-aviso"><b>Identidade a definir.</b> Este painel usa a estrutura neutra da Central. Não é a identidade do Tribuna 98: o curso tem perfil e identidade próprios.</div>
+    <div class="grade g4">${kpis}</div>
+    <div class="grade g21" style="margin-top:16px">
+      <div class="card"><h3>Escopo do curso</h3><p class="sub">Partes concluídas do projeto (regra da trava: 30% para abrir projeto novo).</p>
+        <div class="cp-barra"><i style="width:${pct()}%"></i></div>
+        <p style="margin:0;font-weight:700">${feitos()} de ${D.escopo_total} partes concluídas (${pct()}%)</p>
+        <p class="sub" style="margin:8px 0 0">Projeto em andamento, sem novas funções até a identidade e a estrutura do curso.</p></div>
+      <div class="card"><h3>O que falta agora</h3><p class="sub">Itens abertos e quem depende de quem.</p>${agora}</div>
+    </div>` + nota();
+  },
+  escopo() {
+    return `<div class="card"><h3>Escopo do curso</h3><p class="sub">Os 8 itens do Instagram e da identidade do curso. Status conferido com TRAVA-MAQUIAVEL.md.</p>
+    <div style="overflow-x:auto"><table><thead><tr><th>#</th><th>Item</th><th>Status</th><th>O que falta</th></tr></thead><tbody>
+    ${D.escopo.map(x => `<tr><td>${esc(x[0])}</td><td><b>${esc(x[1])}</b></td><td>${st(x[2])}</td><td>${esc(x[3])}</td></tr>`).join('')}
+    </tbody></table></div></div>` + nota();
+  },
+  perfil() {
+    return `<div class="card"><h3>Perfil e números</h3><p class="sub">Números do print do perfil. Data do print: a confirmar.</p>
+    <div style="overflow-x:auto"><table><thead><tr><th>Campo</th><th>Valor</th><th>Situação</th></tr></thead><tbody>
+    ${D.perfil.map(x => `<tr><td><b>${esc(x[0])}</b></td><td>${esc(x[1])}</td><td>${esc(x[2])}</td></tr>`).join('')}
+    </tbody></table></div></div>
+    <div class="card" style="margin-top:16px"><h3>Estrutura do curso</h3><p class="sub">Aulas, ordem e títulos.</p>
+    <div class="cp-aviso">A confirmar. O repositório não tem a lista de aulas. Quando o Lindson mandar, entra aqui e nas capas de Reels.</div></div>` + nota();
+  },
+  pesquisa() {
+    return `<div class="card"><h3>Pesquisa premium (identidade)</h3><p class="sub">Regra: 8 referências de 3 países, confirmadas pela própria página, antes de qualquer peça visual.</p>
+    <div style="overflow-x:auto"><table><thead><tr><th>Ponto</th><th>Situação</th><th>Status</th></tr></thead><tbody>
+    ${D.pesquisa.map(x => `<tr><td><b>${esc(x[0])}</b></td><td>${esc(x[1])}</td><td>${st(x[2])}</td></tr>`).join('')}
+    </tbody></table></div>
+    <p class="sub" style="margin:12px 0 0">Detalhes e capturas em agencia/clientes/tribuna98/curso-processo-legislativo/TEMPLATE.md.</p></div>` + nota();
+  },
+  linha() {
+    return `<div class="card"><h3>Linha do tempo</h3><p class="sub">O que já aconteceu, em ordem.</p>
+    ${D.linha.map(x => `<div class="cp-linha"><b>${esc(x[0])}</b><p>${esc(x[1])} ${st(x[2])}</p></div>`).join('')}
+    </div>` + nota();
+  },
+  proximos() {
+    return `<div class="card"><h3>Próximos passos</h3><p class="sub">Na ordem. Quem faz está ao lado de cada passo.</p>
+    ${D.proximos.map((x, i) => `<div class="cp-linha"><b>${i + 1}. ${esc(x[0])}</b><p>${esc(x[1])}</p></div>`).join('')}
+    </div>` + nota();
+  },
+  decisoes() {
+    return `<div class="sub" style="margin:0 0 14px">Decisões que só o Lindson toma. Cada uma destrava parte do escopo.</div>
+    <div class="grade g21">${D.decisoes.map(x => `<div class="card cp-decisao"><div>${st(x[2])}</div><h4>${esc(x[0])}</h4><p>${esc(x[1])}</p></div>`).join('')}</div>` + nota();
+  }
+};
+const T = {inicio:'Visão geral', escopo:'Escopo', perfil:'Perfil e números', pesquisa:'Pesquisa premium', linha:'Linha do tempo', proximos:'Próximos passos', decisoes:'Decisões do Lindson'};
+
+function render() {
+  const v = (location.hash || '#inicio').slice(1), view = V[v] ? v : 'inicio';
+  $('#titulo').textContent = T[view];
+  document.querySelectorAll('.grupo a').forEach(a => a.dataset.v === view ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current'));
+  const n = D.decisoes.filter(x => x[2] === 'aguardando').length;
+  $('#n-dec').textContent = n || '';
+  main.innerHTML = V[view]();
+  $('#menu').classList.remove('aberto'); $('#abrir').setAttribute('aria-expanded', 'false');
+}
+addEventListener('hashchange', render);
+$('#abrir').onclick = () => { const m = $('#menu'); m.classList.toggle('aberto'); $('#abrir').setAttribute('aria-expanded', m.classList.contains('aberto')); };
+render();
+
+</script>
+<script>
+// Movimento dos painéis da Central (todos: clientes e administrador). Entra por último no montar de cada painel.
+// Botões com elevação, brilho e "onda" no toque; cartões que sobem ao passar o mouse; entrada suave de cada tela em cascata;
+// cartões que aparecem ao rolar; números dos indicadores contando; barras que enchem; topo com sombra ao rolar.
+// Usa a cor de destaque de cada cliente (--amarelo). Quem pede menos movimento no aparelho não vê animação. Conta Lindson, 02/11/2026.
+(() => {
+const calmo = matchMedia('(prefers-reduced-motion: reduce)').matches;
+document.head.insertAdjacentHTML('beforeend', `<style>
+html{scroll-behavior:smooth}
+.btn,.grupo a,.subabas button,.fr-tog button,.fr-chips button,.ft-filtros button{position:relative;overflow:hidden;transition:transform .18s cubic-bezier(.2,.8,.2,1),box-shadow .25s,background-color .2s,color .2s,border-color .2s}
+.btn:hover{transform:translateY(-2px)}
+.btn.am:hover,.btn.wa:hover{box-shadow:0 10px 24px -10px var(--amarelo)}
+.btn:active,.subabas button:active,.fr-chips button:active{transform:translateY(0) scale(.96)}
+.mv-onda{position:absolute;border-radius:50%;background:currentColor;opacity:.28;transform:scale(0);pointer-events:none;animation:mv-onda .6s ease-out forwards}
+@keyframes mv-onda{to{transform:scale(2.6);opacity:0}}
+.card{transition:transform .28s cubic-bezier(.2,.8,.2,1),border-color .28s,box-shadow .28s}
+.card:hover{transform:translateY(-3px);border-color:color-mix(in srgb,var(--amarelo) 38%,var(--linha));box-shadow:0 18px 40px -24px rgba(0,0,0,.8)}
+.grupo a svg{transition:transform .2s}
+.grupo a:hover svg{transform:translateX(3px) scale(1.08)}
+.grupo a::before{content:"";position:absolute;left:0;top:22%;bottom:22%;width:3px;border-radius:3px;background:var(--amarelo);transform:scaleY(0);transition:transform .22s}
+.grupo a:hover::before,.grupo a[aria-current="page"]::before{transform:scaleY(1)}
+.mv-entra{opacity:0;transform:translateY(14px)}
+.mv-entra.mv-vis{opacity:1;transform:none;transition:opacity .5s ease,transform .55s cubic-bezier(.2,.8,.2,1)}
+.barra i,.fr-bar i{transition:width 1s cubic-bezier(.2,.8,.2,1)}
+.topo{transition:box-shadow .25s,background-color .25s}
+.topo.mv-rolou{box-shadow:0 10px 30px -18px rgba(0,0,0,.9)}
+#toast.on{animation:mv-toast .45s cubic-bezier(.2,1.4,.4,1)}
+@keyframes mv-toast{from{transform:translate(-50%,24px) scale(.96);opacity:0}}
+.fr-modal{animation:mv-fundo .25s ease}.fr-caixa{animation:mv-caixa .35s cubic-bezier(.2,1.2,.4,1)}
+@keyframes mv-fundo{from{opacity:0}}@keyframes mv-caixa{from{transform:translateY(18px) scale(.97);opacity:0}}
+.kpi .val{font-variant-numeric:tabular-nums}
+@media (prefers-reduced-motion: reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.mv-entra{opacity:1;transform:none}}
+</style>`);
+if (calmo) return;
+
+// onda no toque
+document.addEventListener('pointerdown', e => {
+  const b = e.target.closest('.btn,.grupo a,.subabas button,.fr-tog button,.fr-chips button,.ft-filtros button'); if (!b) return;
+  const r = b.getBoundingClientRect(), d = Math.max(r.width, r.height), o = document.createElement('span');
+  o.className = 'mv-onda'; o.style.cssText = `width:${d}px;height:${d}px;left:${e.clientX - r.left - d / 2}px;top:${e.clientY - r.top - d / 2}px`;
+  b.appendChild(o); setTimeout(() => o.remove(), 650);
+}, { passive: true });
+
+// números contando (só formatos simples: 1.050 · 29,4 mil · 9.629 · 33 · +23)
+function conta(el) {
+  const t = el.textContent.trim(), m = t.match(/^([+-]?)([\d.]+)(,(\d+))?(\s*mil)?$/); if (!m || el.dataset.mvContou) return;
+  el.dataset.mvContou = '1';
+  const alvo = parseFloat(m[2].replace(/\./g, '') + (m[4] ? '.' + m[4] : '')), dec = m[4] ? m[4].length : 0, ini = performance.now(), dur = 900;
+  if (!(alvo > 0)) return;
+  const fmt = v => m[1] + (dec ? v.toFixed(dec).replace('.', ',') : Math.round(v).toLocaleString('pt-BR')) + (m[5] || '');
+  const passo = k => { const u = Math.min(1, (k - ini) / dur), e = 1 - Math.pow(1 - u, 3); el.textContent = fmt(alvo * e); if (u < 1) requestAnimationFrame(passo); else el.textContent = t; };
+  requestAnimationFrame(passo);
+}
+// barras que enchem
+function enche(i) { const w = i.style.width; if (!w || i.dataset.mvEncheu) return; i.dataset.mvEncheu = '1'; i.style.width = '0%'; requestAnimationFrame(() => requestAnimationFrame(() => { i.style.width = w; })); }
+
+// entrada da tela em cascata + revelar ao rolar
+const vis = new IntersectionObserver(es => es.forEach(en => { if (!en.isIntersecting) return; const el = en.target; vis.unobserve(el);
+  el.classList.add('mv-vis'); el.querySelectorAll('.kpi .val').forEach(conta); el.querySelectorAll('.barra i,.fr-bar i').forEach(enche); }), { rootMargin: '0px 0px -6% 0px' });
+function anima() {
+  const m = document.getElementById('conteudo'); if (!m) return;
+  const blocos = [...m.querySelectorAll(':scope > .card, :scope > .grade > *, :scope > .grade, :scope > section, :scope > p, :scope > .fr-barra, :scope > .fr-funil, :scope > div > .card')]
+    .filter((el, i, a) => !a.some(o => o !== el && o.contains(el)) && !el.classList.contains('mv-entra'));
+  blocos.forEach((el, i) => { el.classList.add('mv-entra'); el.style.transitionDelay = Math.min(i, 8) * 55 + 'ms'; vis.observe(el); setTimeout(() => { el.style.transitionDelay = ''; }, 1400); });
+}
+// só anima quando muda de tela (redesenhos da mesma tela, como digitar numa busca, não piscam)
+let ultimo = null;
+new MutationObserver(() => { const v = location.hash || '#inicio'; if (v === ultimo) return; ultimo = v; window.scrollTo({ top: 0, behavior: 'instant' }); requestAnimationFrame(anima); })
+  .observe(document.getElementById('conteudo') || document.body, { childList: true });
+
+// topo com sombra ao rolar
+const topo = document.querySelector('.topo');
+if (topo) addEventListener('scroll', () => topo.classList.toggle('mv-rolou', scrollY > 8), { passive: true });
+})();
+
+</script>
+</body>
+</html>
