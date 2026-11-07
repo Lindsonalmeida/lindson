@@ -32,6 +32,12 @@ Regra: painel sai do modelo `agencia/sistema-clientes/prototipo/painel.html`, n�
 2. Combinar 3 e registrar o que se copia de cada uma aqui.
 3. Aplicar ao painel e regenerar. Depois disso, mostrar as 3 referências ao Lindson junto com a entrega.
 
+**Rodada de 07/11 (3ª tentativa, CSS Design Awards):** o CSS Design Awards abriu sem bloqueio e mostra na própria página o estúdio, o país e o status (indicado ou vencedor). Varredura dos sites de 2026 (IDs 50200 a 50720): **299 páginas válidas** (`referencias/painel/cssda/cssda-2026-varredura.jsonl`); as outras 222 são IDs sem página.
+- **Candidatas a painel ou app, com país e status confirmados na página:** Beady AI (EUA, Special Kudos, triagem e monitoramento de risco), Ausvector (Austrália, Special Kudos, playground de dados), YOPS (Sérvia, Special Kudos, "operating system" de produção), Loopsii (Polônia, Indicado, app de gestão de projetos), Imogen (França, Special Kudos), Make Design (Espanha, Indicado), Woday (Hungria, Indicado, app Mac), Two-Do (EUA, conceito de app).
+- **Capturadas e descartadas (landing page, não painel):** Beady AI, YOPS e Ausvector são sites de venda. Loopsii não carregou a tela (ficou no splash). Capturas em `referencias/painel/cssda/`.
+- **Resultado:** **0 painéis confirmados** de 8. A maioria das entradas é landing page ou portfólio. Os produtos com tela de sistema (Loopsii, Beady) ficam atrás de login ou não abriram.
+- **Item 3 segue 🟡.** Para fechar: 8 telas de painel reais de 3 países (login de demonstração de cada produto, ou capturas do Lindson).
+
 ## Capas de Reels do curso (conta Leandro, 07/11/2026)
 Pasta: `capas-reels-curso/` · pesquisa em `capas-reels-curso/referencias/` (10 capturas, feitas em 07/11).
 
