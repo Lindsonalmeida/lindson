@@ -1,4 +1,4 @@
-# Tribuna 98 · arte dos sócios (Tiago Azevedo e Rafael Araújo Veras) · pesquisa premium (conta Leandro, 07/11/2026)
+# Tribuna 98 · arte do Tiago (dono do Tribuna) e do Rafael (sócio só do curso) · pesquisa premium (conta Leandro, 07/11/2026)
 
 Pedido do Lindson (07/11): arte com os sócios (item 6 da trava). Regra: pesquisa premium antes da peça (8 referências, 3 países, confirmadas na própria página; 3 combinadas).
 
@@ -27,9 +27,9 @@ CSS Design Awards (https://www.cssdesignawards.com), que mostra na própria pág
 - **Kenny Bass (EUA), Ksen Panchenko (Irlanda), Aleksei (Grécia), Melon (Polônia) e CRZ (Colômbia):** entram na lista de 8 confirmadas, mas não na combinação, porque o fundo ou a cor não cabe ao azul-royal e amarelo do Tribuna (Ksen e Melon são vermelhos; Aleksei é verde escuro; CRZ não tem pessoa) ou porque a composição é de site de portfólio, não de post.
 
 ## Arte feita
-- **Tiago Azevedo** (1080×1350): "QUEM FAZ O TRIBUNA", foto do Tiago em círculo com borda amarela, barra amarela com o nome e "Sócio · Tribuna 98", rodapé "Informação, política e bastidores do Maranhão." Identidade do Tribuna (azul-royal e amarelo, logo oficial).
+- **Tiago Azevedo** (1080×1350): "QUEM FAZ O TRIBUNA", foto do Tiago em círculo com borda amarela, barra amarela com o nome e "Dono · Tribuna 98". **Correção do Lindson (07/11): o Tribuna 98 é só do Tiago; o Rafael é sócio dele só no curso.**, rodapé "Informação, política e bastidores do Maranhão." Identidade do Tribuna (azul-royal e amarelo, logo oficial).
 - Arquivo fora do Git (foto de pessoa real): `scratchpad/arte-tiago/tiago-socio-v2.png` da conta Leandro. Status: **para aprovação do Lindson**, não entregue.
-- **Rafael Araújo Veras:** pendente (depois da aprovação do Tiago).
+- **Rafael Araújo Veras:** pendente. Ele é sócio só do **curso de processo legislativo**, então a arte dele vai na identidade do curso (própria, não a do Tribuna), depois da direção aprovada pelo Lindson.
 
 ## Fontes e limite
 - Anton não está instalada no ambiente. Usei Inter Display Black (mais próxima). Se o Lindson quiser a Anton exata, é preciso instalá-la no ambiente de geração.
