@@ -73,12 +73,21 @@
   if (!reduz) {
     if ('IntersectionObserver' in window) {
       var perto = new IntersectionObserver(function (es) {
-        es.forEach(function (e) { if (e.isIntersecting) { carrega(e.target); perto.unobserve(e.target); } });
+        es.forEach(function (e) {
+          if (!e.isIntersecting) return;
+          // no trilho, os vídeos fora da tela (para o lado) carregam junto com o trilho
+          var alvo = e.target.classList.contains('trilho') ? e.target.querySelectorAll('video') : [e.target];
+          Array.prototype.forEach.call(alvo, carrega); perto.unobserve(e.target);
+        });
       }, { rootMargin: '400px 0px' });
       var vis = new IntersectionObserver(function (es) {
         es.forEach(function (e) { if (e.isIntersecting) toca(e.target); else e.target.pause(); });
       }, { threshold: 0.2 });
-      videos.forEach(function (v) { if (v.hasAttribute('data-agora')) toca(v); else perto.observe(v); vis.observe(v); });
+      videos.forEach(function (v) {
+        if (v.hasAttribute('data-agora')) toca(v); else if (!v.closest('.trilho')) perto.observe(v);
+        vis.observe(v);
+      });
+      var tr = document.getElementById('trilho'); if (tr) perto.observe(tr);
     } else { videos.forEach(toca); }
   }
 

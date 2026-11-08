@@ -282,16 +282,16 @@ video{display:block;max-width:100%}
 
 /* herói: o vídeo dentro da boca do forno (moldura-arco com os 3 anéis do símbolo) */
 .heroi__palco{height:auto;min-height:0;padding:18px 0 0;display:block}
-.heroi .marquee--gigante{top:16%}
-.heroi__forno{position:relative;z-index:1;width:min(80vw,440px);margin:0 auto;aspect-ratio:4/5}
+.heroi .marquee--gigante{top:30%}
+.heroi__forno{position:relative;z-index:1;width:min(72vw,420px);margin:0 auto 0 calc(var(--g) + 14px);aspect-ratio:4/5}
 .heroi__boca{position:absolute;inset:0;border-radius:999px 999px 0 0;overflow:hidden;background:var(--carvao);box-shadow:0 40px 60px -30px rgba(60,6,0,.7)}
 .heroi__boca video{width:100%;height:100%;object-fit:cover}
 .heroi__boca::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(26,20,17,0) 55%,rgba(26,20,17,.35));pointer-events:none}
 .heroi__anel{position:absolute;border:3px solid var(--creme);border-bottom:0;border-radius:999px 999px 0 0;pointer-events:none;opacity:.9}
 .heroi__anel--1{inset:-14px -14px 0}
 .heroi__anel--2{inset:-30px -30px 0;opacity:.45}
-.heroi__forno figcaption{position:absolute;left:0;right:0;bottom:-20px;text-align:center;font-size:10px;letter-spacing:.04em;opacity:.7}
-.heroi__pizza{position:relative;z-index:2;width:min(62vw,340px);margin:-30vw 0 0 auto;margin-right:-8vw}
+.heroi__forno figcaption{position:absolute;left:0;bottom:-20px;font-size:10px;letter-spacing:.04em;opacity:.7}
+.heroi__pizza{position:relative;z-index:2;width:min(60vw,340px);margin:-44vw -10vw 0 auto}
 .heroi__pizza figcaption{right:auto;left:28%;top:auto;bottom:6%}
 .heroi__texto{margin-top:6px}
 
@@ -307,13 +307,15 @@ video{display:block;max-width:100%}
 .reel b{font:800 46px/.86 var(--titulo);font-stretch:75%;text-transform:uppercase;color:var(--creme)}
 .reel small{font-size:14.5px;color:rgba(243,231,211,.86);line-height:1.35}
 .reel::before{content:attr(data-n);position:absolute;top:14px;left:16px;z-index:2;font:800 15px/1 var(--titulo);color:var(--carvao);background:var(--chama);border-radius:999px;padding:7px 11px 6px}
-.trilho__pe{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-top:14px}
+.trilho__pe{display:flex;flex-direction:column;gap:6px;margin-top:14px}
 .trilho__pe .nota{margin-top:0}
 .arraste--claro{color:rgba(243,231,211,.6);margin:0}
 
 /* manifesto com vídeo de fundo */
-.manifesto__fundo{opacity:.5}
-.manifesto::before{background:linear-gradient(180deg,var(--carvao) 0%,rgba(26,20,17,.45) 30%,rgba(26,20,17,.5) 70%,var(--carvao) 100%)}
+.manifesto__fundo{opacity:.85}
+.manifesto{min-height:70vh}
+.manifesto::before{background:linear-gradient(180deg,var(--carvao) 0%,rgba(26,20,17,.35) 22%,rgba(26,20,17,.5) 55%,rgba(26,20,17,.35) 80%,var(--carvao) 100%)}
+.manifesto__texto{text-shadow:0 2px 24px rgba(0,0,0,.45)}
 
 /* galeria em mosaico */
 .mosaico{display:grid;gap:8px;grid-template-columns:1fr 1fr;grid-auto-rows:40vw;
@@ -338,6 +340,7 @@ video{display:block;max-width:100%}
   .trilho-sec{padding-bottom:110px}
   .trilho__pe{margin-top:64px}
   .arraste--claro{display:none}
+  .trilho__pe{flex-direction:row;justify-content:flex-end}
   .mosaico{grid-template-columns:repeat(4,1fr);grid-auto-rows:240px;gap:12px;margin:0;
     grid-template-areas:"a a b v" "a a c v" "f f m d" "q q m e"}
   .foto--a{border-radius:999px 999px 18px 18px}
@@ -346,11 +349,12 @@ video{display:block;max-width:100%}
   .heroi__palco{position:static;padding:0}
   .heroi .marquee--gigante{top:150px}
   .heroi__forno{position:absolute;right:calc(var(--g) + 70px);top:118px;width:500px;margin:0}
-  .heroi__pizza{position:absolute;right:calc(var(--g) + 430px);top:520px;width:330px;margin:0;z-index:3}
+  .heroi__pizza{position:absolute;right:calc(var(--g) + 400px);top:430px;width:440px;margin:0;z-index:3}
   .heroi__pizza figcaption{left:30%;bottom:4%}
   .heroi__texto{margin-top:420px}
   .heroi{min-height:960px}
   .mosaico{grid-auto-rows:270px;gap:14px}
+  .bairros__foto{max-width:340px}
 }
 @media (prefers-reduced-motion:reduce){
   .reel video,.foto img{transition:none}
