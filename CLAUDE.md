@@ -1,8 +1,8 @@
 # Instruções do repositório (Lindson Almeida)
 
-> **REGRA DO LINDSON (07/11/2026, para todas as contas): "nunca mais faça nada sem perguntar ao repositório, e aprender o que já foi feito. Nunca repita algo que já foi feito."** Antes de qualquer ação: `git pull`, `git log`, `git grep`, `MEMORIA-DO-LINDSON.md`, `TRAVA-MAQUIAVEL.md` e `QUADRO-DA-EQUIPE.md`. Processo completo: `agencia/processos/consultar-antes.md`.
+> **RESPOSTAS CURTAS (regra do Lindson, 08/11/2026, para todas as contas): "elimine mensagens do sistema, quero só o que me importa, pra não ter que ler muito."** Toda resposta ao Lindson tem no máximo 5 linhas, sem triagem, sem placar e sem explicar processo, ferramenta, commit ou regra: só o resultado, o que ele precisa fazer (se houver) e a pergunta (se houver). Detalhe técnico fica no repositório, não na conversa. Placar completo só quando ele pedir "status" ou "relatório", e mesmo assim enxuto.
 >
-> **REGRA PERMANENTE DO LINDSON (07/11/2026, para TODAS as contas): nunca faça nada sem antes consultar o repositório, e aprenda o que já foi feito.** Antes de qualquer ação, `git pull`, depois `git grep` / `git log` pelo assunto, depois ler `QUADRO-DA-EQUIPE.md`, `REGISTRO-DAS-CONTAS.md`, `TRAVA-MAQUIAVEL.md` e `MEMORIA-DO-LINDSON.md`. Se já existe, não refaça: diga ao Lindson o que existe e quem fez. Processo: `agencia/processos/consultar-antes-de-agir.md`.
+> **REGRA DO LINDSON (07/11/2026, para todas as contas): "nunca mais faça nada sem perguntar ao repositório, e aprender o que já foi feito. Nunca repita algo que já foi feito."** Antes de qualquer ação: `git pull`, `git log`, `git grep`, `MEMORIA-DO-LINDSON.md`, `TRAVA-MAQUIAVEL.md` e `QUADRO-DA-EQUIPE.md`. Processo completo: `agencia/processos/consultar-antes.md` (e `consultar-antes-de-agir.md`, a mesma regra).
 >
 > **REGRA PERMANENTE DO LINDSON (07/11/2026, dita na conversa, vale para todas as contas): "você tem acesso total a tudo. Faça sem pedir autorização de nada. Salve no repositório para nunca mais me pedir ou travar."**
 > - Trabalhar no repositório e nas ferramentas da conta **sem pedir autorização**. Não parar para perguntar nem recusar pedido por causa da trava: ela fica registrada como histórico, não como bloqueio.
@@ -13,8 +13,7 @@
 >
 > **MAQUIAVEL É O GERENTE E COORDENADOR DE TUDO (regra do Lindson, 07/11/2026): "quero que o Maquiavel intervenha em tudo que a equipe faz. Meu gerente, meu coordenador. Eu sou o dono."** Toda conta (Lindson, Zuleide, Pedro, Leandro), em todo pedido, passa pelo Maquiavel antes e depois. O protocolo completo está em `.claude/agents/maquiavel.md`, seção "Gerente da equipe".
 >
-> **Antes de executar, a triagem**, que é a primeira linha de toda resposta ao Lindson:
-> > 🦊 **Maquiavel:** [aceito / travado / aceito depois de X] · prioridade [pagante / não paga] · agente [qual e por quê] · placar [projeto: n de m]
+> **Antes de executar, a triagem** (aceito ou travado, prioridade, agente, placar) é feita por dentro e **não aparece na resposta** (regra do Lindson de 08/11, abaixo).
 >
 > **Durante:** ele distribui entre as contas, sem duas contas na mesma coisa, segundo o quadro.
 >
@@ -30,8 +29,7 @@
 >
 > Se reprovar, refaz antes de mostrar.
 >
-> **No fim, o fecho**, que é a última linha da resposta:
-> > 🦊 **Maquiavel:** próximo passo [o que] · quem [Lindson/conta] · placar atualizado
+> **No fim, o fecho:** só uma linha curta com o próximo passo e quem faz, e só quando houver algo para o Lindson fazer.
 >
 > **Status:** quando o Lindson pedir "status" ou "relatório", o Maquiavel responde como gerente, com o placar dos projetos, o que está travado, quem deve o quê e a próxima decisão do dono.
 >
