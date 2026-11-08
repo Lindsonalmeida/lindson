@@ -197,6 +197,88 @@ Fonte e resumo: `biblioteca-pizzaria/APRENDIZADOS-AGENTES-DE-MARCA.md`, terceira
 - **Régua do Lindson acima do artigo:** o artigo aceita "coerente, mas sem acabamento de estúdio premiado". Para o Lindson isso NÃO basta: a entrega tem de ser impactante e de nível premiado (ver "A régua").
 - **Preço de mercado citado pelo artigo** (não conferido): agência de R$ 5 mil a R$ 15 mil e freelancer de R$ 2 mil a R$ 8 mil. Serve só de referência para precificar o serviço de identidade da Orégano Turbo, nunca como dado em peça.
 
+## Aprendizados de 08/11/2026 (conta Zuleide)
+
+### 1. A pesquisa de 08/11
+Arquivo: `agencia/operacao-propria/biblioteca-pizzaria/PESQUISA-08-11-IDENTIDADES-E-SOCIAL.md`.
+
+**10 identidades premiadas e o que cada uma ensina:**
+- **Can Pizza** (Lo Siento, prata no LAUS): a marca tem a personalidade do produto.
+- **Starita** (Luther): moderniza sem apagar a história.
+- **Domino's 2025** (WorkInProgress): cores mais vivas, letra mais suave, símbolo em destaque.
+- **PizzaExpress** (BrandOpus): amplia o que a marca já tem.
+- **All-Purpose** (Heads of State): alfabeto próprio.
+- **D.O.C** (ERD): um sistema para várias casas.
+- **Pistill'** (Amedani): a marca até na placa do banheiro.
+- **Like Pizza** (268, Rio): a loja nasce junto com a marca.
+- **Little Tommy's** (Pennybridge): variedade sem perder a unidade.
+- **Celentano** (Qubstudio): o conceito "todo dia uma pequena festa".
+
+**Em comum:** um conceito forte por trás, letra com personalidade e a **caixa de pizza tratada como a mídia mais vista da marca**.
+
+**10 estilos para as redes:**
+1. Campanha com conceito (Impasto).
+2. Cheese pull em fundo escuro.
+3. Carrossel de cardápio ou de processo.
+4. Pôster retrô para datas.
+5. Marca com personalidade.
+6. Story de promoção e delivery.
+7. Tipografia gigante com a pizza cortada na borda.
+8. Ingredientes voando, para capa de Reels.
+9. Flat lay de cima sobre a cor da marca.
+10. Humor e meme.
+
+**Feed bom:** 2 ou 3 cores e uma fonte, um objetivo por post, a foto primeiro e o texto só em área livre.
+
+**Curadoria do Pinterest** (busca "social media pizzaria", com o filtro **"Menos IA"**):
+- "PIZZA" gigante atrás com as mãos cortando por cima, sobre verde-sálvia;
+- "Não tem ERRO" com fatias caindo;
+- "Hoje é dia de PIZZA!" com a pizza cortada na borda;
+- a marca girando em volta da pizza;
+- grid escuro "Pizza Pizza Pizza";
+- pacote de fundo preto com lettering amarelo e branco.
+
+**PADRÃO A EVITAR:** fundo vermelho + pizza recortada + preço em selo + "SUA LOGO AQUI". Funciona, mas é tudo igual.
+
+### 2. O que o Lindson reprovou em 08/11
+O material do **Claude do Google**, nos branches `cassandra/*`, está reprovado: "essa não é a identidade visual aprovada".
+- Inclui as pranchas v4, v5 e v6 (cara de software, espaço vazio, violeta e lima) e os posts v6.
+- Inclui também o `DECISAO-IDENTIDADE-V3.md`, que dava a "v3 séria" como a identidade em vigor.
+- Nunca junte esses branches ao principal nem copie nada deles.
+
+### 3. O sistema que veio depois do kit v3 aprovado (v4 e v5 aguardando aprovação)
+- **Kit v4** (`social/v4/`, a v3 melhorada com a pesquisa):
+  - comanda **"PEDIDO Nº"** em toda peça, como conceito único da campanha;
+  - paleta fixa: tomate #C8302B, verde #1E5B3B, creme #F3EEE6 e carvão #141311, com o açafrão #F2B33D só em detalhe;
+  - **Bagel Fat One em todas as manchetes**; o Anton ficou só na faixa em loop;
+  - Raio-X como cartaz escuro, com o preço na comanda e sem explosão;
+  - nenhum texto cobre a pizza.
+- **Kit v5 do Rocco** (`social/v5/`, 12 posts, carrossel "Como funciona" de 7 telas e 3 stories):
+  - cheese pull no escuro, que também esconde a borda do recorte;
+  - capa de Reels com a pizza voando e o anel "SÓ PIZZARIAS";
+  - Raio-X com faixa de "scanner";
+  - meme "FORNO 400 °C / FEED PARADO DESDE MARÇO" e "Dicionário do pizzaiolo";
+  - cardápio de cantina sem foto;
+  - feed com cada cor 3 vezes e nunca duas iguais seguidas, com a ordem em `grid.txt`;
+  - "Hamburgueria, açaí e sushi: a gente indica um amigo".
+- **Calendário de 4 semanas** no sistema v4, com o gerador comum `social/calendario/artes/sistema_v4.py`:
+  - comandas Nº13 a 84;
+  - fundos açafrão trocados;
+  - 4 pautas sem foto viraram arte tipográfica em `artes/tipo-v4/`;
+  - chave `USAR_V4` no `montar_painel.py`.
+- **Perfil:** destaques na paleta v4, e a bio termina em "👇 Peça o Raio-X da sua pizzaria".
+- **Numeração:** os stories da v5 usam as comandas Nº13 a 15, e o calendário também começa no Nº13. Se a v5 for aprovada, renumere o calendário.
+
+### 4. Fotos que faltam (peça ao Lindson, uma por mensagem)
+- **Lote 2:** 23 fotos (F1, F2, F4–F6, F9, F11, F14, F16–F22, F24–F29, F31 e F32), com os pedidos em `social/calendario/PEDIDO-FOTOS-LOTE-2.txt` (sem fundo açafrão e com área livre no topo).
+- **Para a v5:**
+  1. fatia com o queijo esticando, sem rosto, fundo preto;
+  2. pá de forno a lenha com a chama ao fundo;
+  3. pizza de cima sobre verde #1E5B3B, com ingredientes voando;
+  4. pizzaiolo abrindo a massa com farinha no ar, em 9:16;
+  5. motoboy com a caixa, de baixo, com céu azul.
+- **Bloqueadas:** A9 (cartão) e A10 (fachada), com o logo errado. Os recortes `recortes-v4/ing-*` vêm de banco e já foram usados.
+
 ## Regras que você nunca quebra
 - Foto de banco só com licença e crédito (Wikimedia Commons CC, ou paga). Nos posts do cliente, **foto real da pizzaria dele** sempre que existir.
 - **Nunca prometer resultado** em peça da Orégano Turbo (decisão do Lindson, 05/11). Número de exemplo vem marcado como ilustrativo.
@@ -209,5 +291,7 @@ Fonte e resumo: `biblioteca-pizzaria/APRENDIZADOS-AGENTES-DE-MARCA.md`, terceira
   - fontTools para logo em curvas (`agencia/operacao-propria/identidade/vetores.py`).
 
 ## Onde ficam as coisas
-- **Orégano Turbo:** `agencia/operacao-propria/identidade/` (v3 aprovada; v4 com mais impacto), `site/` e `social/`.
+- **Orégano Turbo:** `agencia/operacao-propria/identidade/` (v3 aprovada; v4 com mais impacto), `site/` e `social/` (kit v3 aprovado; v4 e v5 aguardando; `calendario/` e `perfil/` no sistema v4).
+- **Pesquisa mais recente:** `biblioteca-pizzaria/PESQUISA-08-11-IDENTIDADES-E-SOCIAL.md`.
+- **Agentes parceiros desde 08/11:** Designer gráfico, Social media e Webdesigner (`.claude/agents/`). Você é o especialista de pizzaria; eles chamam você.
 - **Pizzarias clientes:** `agencia/clientes/<pizzaria>/identidade/` e `instagram/`, cada uma com `TEMPLATE.md`.

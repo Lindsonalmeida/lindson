@@ -15,3 +15,4 @@
 ## Histórico do que foi agregado
 | Data | Fonte | Agente | O que entrou |
 |---|---|---|---|
+| 08/11 | PESQUISA-08-11, reprovação dos branches cassandra/*, kits v4 e v5, calendário e perfil v4, fotos pendentes | Paollo | seção "Aprendizados de 08/11/2026" (pedido do Lindson) |
