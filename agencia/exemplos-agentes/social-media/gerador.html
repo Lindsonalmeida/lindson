@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Brasa Viva · Social media (exemplo demonstrativo)</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&family=DM+Sans:opsz,wght@9..40,400..700&display=swap" rel="stylesheet">
+<style>
+:root{--farinha:#F3E7D3;--brasa:#E2431D;--carvao:#1A1411;--chama:#FFB321;--manj:#2E5B3B;--linha:#d9cbb3;--txt2:#5c4f45}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--farinha);color:var(--carvao);font-family:'DM Sans',sans-serif;width:1440px}
+.t{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-stretch:75%;font-variation-settings:'wdth' 75;text-transform:uppercase;line-height:.86;letter-spacing:-.01em}
+.eti{font-weight:700;text-transform:uppercase;letter-spacing:.18em;font-size:11px}
+.F{fill:var(--farinha)}
+/* ---------- PAINEL ---------- */
+.painel{padding:56px 64px 48px}
+.topo{display:flex;justify-content:space-between;align-items:flex-end;border-bottom:3px solid var(--carvao);padding-bottom:22px}
+.topo h1{font-size:96px}
+.topo h1 span{color:var(--brasa)}
+.topo .dir{text-align:right;font-size:14px;color:var(--txt2);line-height:1.5}
+.topo .dir b{color:var(--carvao)}
+.demo{display:inline-block;border:1.5px solid var(--txt2);border-radius:99px;padding:3px 10px;margin-bottom:8px}
+.sec{margin-top:40px}
+.sec>.cab{display:flex;align-items:baseline;gap:14px;margin-bottom:16px}
+.sec>.cab .n{font-family:'Bricolage Grotesque';font-weight:800;font-size:15px;color:#fff;background:var(--brasa);border-radius:99px;width:30px;height:30px;display:grid;place-items:center}
+.sec>.cab h2{font-size:40px}
+.sec>.cab p{font-size:14px;color:var(--txt2)}
+.duas{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.card{background:#fbf5ea;border:1.5px solid var(--linha);border-radius:18px;padding:26px 28px}
+.card.esc{background:var(--carvao);color:var(--farinha);border-color:var(--carvao)}
+.persona{display:grid;grid-template-columns:120px 1fr;gap:22px}
+.avatar{width:120px;height:150px;border-radius:999px 999px 0 0;background:var(--brasa);display:grid;place-items:end center;overflow:hidden}
+.avatar svg{width:92px;margin-bottom:-4px}
+.persona ol{list-style:none;counter-reset:p}
+.persona li{counter-increment:p;font-size:15px;line-height:1.45;padding:7px 0 7px 30px;border-bottom:1px solid rgba(243,231,211,.15);position:relative}
+.persona li:before{content:counter(p);position:absolute;left:0;top:8px;font-family:'Bricolage Grotesque';font-weight:800;color:var(--chama);font-size:17px}
+.persona li:last-child{border:0}
+.persona b{color:var(--chama)}
+.pergunta{margin-top:12px;font-size:14px;color:#cdbfa8;font-style:italic}
+.linhas .l{display:grid;grid-template-columns:62px 1fr 56px;gap:14px;align-items:center;padding:10px 0;border-bottom:1px solid var(--linha)}
+.linhas .l:last-child{border:0}
+.linhas .tag{font-family:'Bricolage Grotesque';font-weight:800;font-size:15px;color:#fff;border-radius:8px;padding:6px 0;text-align:center}
+.linhas .nome{font-weight:700;font-size:16px}
+.linhas .obj{font-size:13px;color:var(--txt2);margin-top:2px}
+.linhas .barra{height:8px;background:#eadcc4;border-radius:9px;margin-top:7px;overflow:hidden}
+.linhas .barra i{display:block;height:100%;border-radius:9px}
+.linhas .pc{font-family:'Bricolage Grotesque';font-weight:800;font-size:34px;text-align:right}
+.c1{background:var(--brasa)}.c2{background:var(--manj)}.c3{background:var(--carvao)}.c4{background:#c98a00}.c5{background:#8a3a22}
+/* calendário */
+.cal{display:grid;grid-template-columns:repeat(7,1fr);gap:12px}
+.dia{background:#fbf5ea;border:1.5px solid var(--linha);border-radius:16px;overflow:hidden;display:flex;flex-direction:column}
+.dia .d{background:var(--carvao);color:var(--farinha);padding:10px 14px;display:flex;justify-content:space-between;align-items:baseline}
+.dia .d b{font-family:'Bricolage Grotesque';font-weight:800;font-size:24px;text-transform:uppercase;font-stretch:75%}
+.dia .d span{font-size:12px;opacity:.75}
+.dia .corpo{padding:12px 14px 14px;display:flex;flex-direction:column;gap:8px;flex:1}
+.dia .h{font-family:'Bricolage Grotesque';font-weight:800;font-size:30px;color:var(--brasa)}
+.dia .fmt{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.1em}
+.dia .ideia{font-size:13.5px;line-height:1.4}
+.dia .st{margin-top:auto;font-size:12px;color:var(--txt2);border-top:1px dashed var(--linha);padding-top:8px;line-height:1.35}
+.pill{display:inline-block;font-size:11px;font-weight:700;color:#fff;border-radius:6px;padding:2px 7px;margin-right:4px}
+.ritmo{margin-top:12px;font-size:13px;color:var(--txt2)}
+/* feed + perfil */
+.feedwrap{display:grid;grid-template-columns:640px 1fr;gap:36px;align-items:start}
+.notas{display:flex;flex-direction:column;gap:14px}
+.ord{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.ord div{font-size:13px;line-height:1.35;background:#fbf5ea;border:1.5px solid var(--linha);border-radius:12px;padding:10px 12px}
+.ord b{font-family:'Bricolage Grotesque';font-weight:800;font-size:18px;color:var(--brasa);margin-right:4px}
+.regras{font-size:14px;line-height:1.55}
+.regras li{margin-left:18px}
+/* texto */
+.legenda{font-size:13px;line-height:1.5;white-space:pre-wrap}
+.legenda .tt{font-weight:700;font-size:15px}
+.roteiro .b{display:grid;grid-template-columns:70px 1fr;gap:12px;padding:9px 0;border-bottom:1px solid rgba(243,231,211,.15)}
+.roteiro .b:last-child{border:0}
+.roteiro .tm{font-family:'Bricolage Grotesque';font-weight:800;font-size:20px;color:var(--chama)}
+.roteiro .v{font-size:13.5px;line-height:1.42}
+.roteiro .v em{color:#cdbfa8;font-style:normal;font-size:12.5px;display:block;margin-top:3px}
+.roteiro .v b{color:#fff}
+.rodape{margin-top:40px;border-top:1.5px solid var(--linha);padding-top:16px;font-size:12px;color:var(--txt2);line-height:1.6}
+/* ---------- PERFIL (prévia do feed) ---------- */
+.perfil{background:#fff;color:#111;border-radius:22px;overflow:hidden;border:1.5px solid var(--linha);font-family:-apple-system,'DM Sans',sans-serif}
+.pf-top{padding:22px 22px 14px}
+.pf-l1{display:flex;align-items:center;gap:22px}
+.pf-av{width:96px;height:96px;border-radius:50%;background:var(--brasa);display:grid;place-items:center;flex:none;box-shadow:0 0 0 3px #fff,0 0 0 5px var(--chama)}
+.pf-av svg{width:62px}
+.pf-user{font-weight:700;font-size:19px}
+.pf-nums{display:flex;gap:22px;margin-top:8px;font-size:13px;color:#555}
+.pf-nums b{display:block;color:#111;font-size:16px}
+.pf-bio{margin-top:12px;font-size:14px;line-height:1.42}
+.pf-bio .nm{font-weight:700}
+.pf-bio .cat{color:#777}
+.pf-bio .lk{color:#00376b;font-weight:600}
+.pf-bt{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px}
+.pf-bt div{background:#efefef;border-radius:8px;text-align:center;font-weight:600;font-size:13px;padding:8px}
+.pf-bt div.z{background:#25D366;color:#fff}
+.dest{display:flex;gap:16px;padding:10px 22px 16px;overflow:hidden}
+.dest .h{text-align:center;font-size:12px;width:70px}
+.dest .h .r{width:66px;height:66px;border-radius:50%;margin:0 auto 6px;border:1.5px solid #ccc;padding:3px}
+.dest .h .r div{width:100%;height:100%;border-radius:50%;display:grid;place-items:center}
+.dest .h svg{width:28px;height:28px}
+.tabs{display:flex;border-top:1px solid #ddd}
+.tabs div{flex:1;text-align:center;padding:9px 0;font-size:12px;color:#999}
+.tabs div.on{color:#111;border-top:1.5px solid #111;margin-top:-1px;font-weight:600}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:3px}
+/* ---------- TILES (4:5) ---------- */
+.tile{position:relative;aspect-ratio:4/5;overflow:hidden;container-type:inline-size;background:#000}
+.tile .ph{position:absolute;inset:0;background-size:cover;background-position:center}
+.tile .num{position:absolute;top:4cqw;left:4cqw;z-index:9;background:rgba(26,20,17,.82);color:#fff;font:800 6.4cqw/1 'Bricolage Grotesque';padding:1.6cqw 2.4cqw;border-radius:2cqw}
+.tile .ln{position:absolute;top:4cqw;right:4cqw;z-index:9;background:#fff;color:#111;font:700 4.4cqw/1 'DM Sans';padding:1.6cqw 2.4cqw;border-radius:2cqw}
+.tile .ico{position:absolute;top:4cqw;right:4cqw;z-index:8;width:8cqw;height:8cqw}
+.tile .cred{position:absolute;bottom:2cqw;right:2.6cqw;z-index:8;font:500 2.9cqw/1.2 'DM Sans';color:rgba(255,255,255,.8);text-align:right}
+.tile .cred.esc{color:rgba(26,20,17,.6)}
+.tile .ia{position:absolute;bottom:2cqw;left:2.6cqw;z-index:8;font:700 2.9cqw/1 'DM Sans';color:#fff;background:rgba(0,0,0,.45);padding:1cqw 1.6cqw;border-radius:1cqw}
+.tile .assin{position:absolute;z-index:6}
+.tile .t{position:absolute;z-index:6}
+.tile .sm{position:absolute;z-index:6;font-family:'DM Sans'}
+.perfil .tile .ln,.feed-only .tile .ln{display:none}
+.mostra-tag .tile .ln{display:block}
+.mostra-tag .tile .ico{top:auto;bottom:4cqw}
+/* tile 1 cheese pull */
+.t1 .ph{background-image:url(../../operacao-propria/identidade/fotos-v4/queijo-puxando.jpg);background-size:150%;background-position:52% 40%;filter:brightness(.92) contrast(1.12) saturate(1.05)}
+.t1 .vig{position:absolute;inset:0;z-index:2;background:radial-gradient(ellipse 70% 60% at 50% 42%,transparent 30%,rgba(10,7,5,.92) 100%),linear-gradient(180deg,transparent 55%,rgba(10,7,5,.95))}
+.t1 .t{left:7cqw;bottom:11cqw;font-size:13cqw;color:var(--farinha)}
+.t1 .t span{color:var(--chama)}
+/* tile 2 PIZZA gigante */
+.t2{background:var(--brasa)}
+.t2 .arcs{position:absolute;left:-10cqw;right:-10cqw;bottom:-60cqw;height:120cqw;z-index:1}
+.t2 .t.big{left:0;right:0;top:25cqw;text-align:center;font-size:47cqw;color:var(--farinha);letter-spacing:-.02em}
+.t2 .piz{position:absolute;z-index:5;width:96cqw;height:96cqw;left:2cqw;bottom:-52cqw;border-radius:50%;background:url(../../operacao-propria/identidade/fotos-v4/pepperoni-inteira.jpg);background-size:191% auto;background-position:50% 47%;box-shadow:0 -2cqw 8cqw rgba(0,0,0,.35)}
+.t2 .sm.top{top:17cqw;left:0;right:0;text-align:center;font-size:4.2cqw;font-weight:700;letter-spacing:.2em;color:var(--farinha)}
+.t2 .sm.top span{color:var(--chama)}
+/* tile 3 carrossel cardápio */
+.t3{background:var(--farinha)}
+.t3 .fr{position:absolute;z-index:3;left:12cqw;right:12cqw;top:8cqw;height:72cqw;border-radius:999px 999px 0 0;overflow:hidden;background:url(../../operacao-propria/identidade/fotos-v4/calabresa.jpg);background-size:auto 150%;background-position:50% 55%}
+.t3 .ring{position:absolute;z-index:2;left:7cqw;right:7cqw;top:3cqw;height:77cqw;border:2.2cqw solid var(--brasa);border-bottom:0;border-radius:999px 999px 0 0}
+.t3 .base{position:absolute;z-index:4;left:4cqw;right:4cqw;top:80cqw;height:2.2cqw;background:var(--carvao)}
+.t3 .t{left:7cqw;top:88cqw;font-size:15cqw;color:var(--carvao)}
+.t3 .t span{color:var(--brasa)}
+.t3 .sm.k{left:7cqw;top:85cqw;transform:translateY(-100%);font-size:3.6cqw;font-weight:700;letter-spacing:.18em;display:none}
+.t3 .preco{position:absolute;z-index:6;right:7cqw;top:89cqw;font:800 5.4cqw/1 'Bricolage Grotesque';background:var(--chama);color:var(--carvao);padding:2cqw 2.8cqw;border-radius:99px;text-align:center}
+.t3 .preco small{display:block;font:700 2.6cqw/1.2 'DM Sans';letter-spacing:.05em}
+.t3 .dots{position:absolute;z-index:6;left:0;right:0;bottom:4cqw;display:flex;justify-content:center;gap:1.6cqw}
+.t3 .dots i{width:1.8cqw;height:1.8cqw;border-radius:50%;background:#cbbba0}
+.t3 .dots i:first-child{background:var(--brasa);width:5cqw;border-radius:2cqw}
+/* tile 4 humor */
+.t4{background:var(--chama)}
+.t4 .sm.k{left:7cqw;top:17cqw;font-size:4cqw;font-weight:700;letter-spacing:.2em;color:var(--carvao)}
+.t4 .t{left:7cqw;top:25cqw;font-size:21cqw;color:var(--carvao)}
+.t4 .sm.cl{left:7cqw;top:45cqw;font-size:4.4cqw;font-style:italic;color:#6b4a00}
+.t4 .sm.def{left:7cqw;right:8cqw;top:54cqw;font-size:7.4cqw;font-weight:500;line-height:1.22;color:var(--carvao)}
+.t4 .sm.def b{background:var(--carvao);color:var(--chama);padding:0 1.4cqw;font-weight:700}
+.t4 .sm.ex{left:7cqw;right:8cqw;bottom:9cqw;font-size:4.2cqw;line-height:1.3;color:#5a3f00;border-top:.6cqw solid var(--carvao);padding-top:3cqw}
+/* tile 5 reels forno frio */
+.t5 .ph{background-image:url(../../operacao-propria/identidade/fotos-ia/hd/B8a-pizzaria-vazia.jpg);background-position:50% 30%;filter:brightness(.85)}
+.t5 .vig{position:absolute;inset:0;z-index:2;background:linear-gradient(180deg,rgba(10,7,5,.1) 30%,rgba(10,7,5,.92) 86%)}
+.t5 .t{left:7cqw;bottom:16cqw;font-size:15cqw;color:var(--farinha)}
+.t5 .t span{color:var(--brasa)}
+.t5 .play{position:absolute;z-index:6;left:50%;top:33%;transform:translate(-50%,-50%);width:18cqw;height:18cqw;border-radius:50%;background:rgba(243,231,211,.92);display:grid;place-items:center}
+.t5 .play:after{content:'';border-left:6cqw solid var(--brasa);border-top:3.6cqw solid transparent;border-bottom:3.6cqw solid transparent;margin-left:1.4cqw}
+.t5 .sm.dur{left:7cqw;bottom:9.5cqw;font-size:3.6cqw;font-weight:700;letter-spacing:.18em;color:var(--chama)}
+/* tile 6 ingredientes voando */
+.t6 .ph{background-image:url(../../operacao-propria/identidade/fotos-ia/hd/B3-pizza-voando.jpg);background-position:50% 50%}
+.t6 .band{position:absolute;z-index:5;left:0;right:0;bottom:0;height:27cqw;background:var(--carvao)}
+.t6 .t{left:6cqw;bottom:6.5cqw;font-size:11.6cqw;color:var(--farinha)}
+.t6 .t span{color:var(--chama)}
+.t6 .ia{bottom:auto;top:auto;bottom:30cqw}
+/* tile 7 enquete */
+.t7{background:var(--farinha)}
+.t7 .sm.k{left:0;right:0;top:17cqw;text-align:center;font-size:3.8cqw;font-weight:700;letter-spacing:.2em}
+.t7 .a{position:absolute;z-index:3;top:25cqw;width:41cqw;height:50cqw;border-radius:999px 999px 0 0;background-size:cover;border:1.8cqw solid var(--carvao);border-bottom-width:3cqw}
+.t7 .a1{left:6cqw;background-image:url(../../operacao-propria/identidade/fotos-v4/calabresa-porcoes.jpg);background-position:40% 50%;background-size:auto 130%}
+.t7 .a2{right:6cqw;background-image:url(../../operacao-propria/identidade/fotos-v4/pepperoni-fatia.jpg);background-position:50% 45%;border-color:var(--brasa)}
+.t7 .vs{position:absolute;z-index:6;left:50%;top:50cqw;transform:translate(-50%,-50%);width:14cqw;height:14cqw;border-radius:50%;background:var(--chama);display:grid;place-items:center;font:800 6cqw/1 'Bricolage Grotesque';color:var(--carvao)}
+.t7 .t.n1{left:6cqw;top:80cqw;width:41cqw;text-align:center;font-size:8.6cqw;color:var(--carvao)}
+.t7 .t.n2{right:6cqw;top:80cqw;width:41cqw;text-align:center;font-size:8.6cqw;color:var(--brasa)}
+.t7 .sm.q{left:0;right:0;bottom:8cqw;text-align:center;font-size:4.4cqw;font-weight:700}
+.t7 .sm.q span{background:var(--carvao);color:var(--farinha);padding:1.2cqw 3cqw;border-radius:99px}
+/* tile 8 mordida reels */
+.t8 .ph{background-image:url(../../operacao-propria/identidade/fotos-ia/hd/B1-mordida.jpg);background-position:50% 40%}
+.t8 .t{left:6cqw;top:17cqw;font-size:10.5cqw;color:var(--carvao)}
+.t8 .t span{color:var(--brasa);display:block}
+.t8 .play{position:absolute;z-index:6;right:6cqw;bottom:16cqw;width:15cqw;height:15cqw;border-radius:50%;background:var(--carvao);display:grid;place-items:center}
+.t8 .play:after{content:'';border-left:5cqw solid var(--chama);border-top:3cqw solid transparent;border-bottom:3cqw solid transparent;margin-left:1.2cqw}
+/* tile 9 pedido */
+.t9 .ph{background-image:url(../../operacao-propria/identidade/fotos-v4/caixa-aberta.jpg);background-size:auto 100%;background-position:48% 50%;bottom:34cqw}
+.t9 .band{position:absolute;z-index:5;left:0;right:0;bottom:0;height:34cqw;background:var(--brasa)}
+.t9 .arcm{position:absolute;z-index:5;left:50%;bottom:30cqw;transform:translateX(-50%);width:30cqw}
+.t9 .t{left:6cqw;bottom:8cqw;font-size:11.4cqw;color:var(--farinha)}
+.t9 .t span{color:var(--carvao)}
+.t9 .zap{position:absolute;z-index:6;right:6cqw;bottom:24cqw;background:var(--carvao);color:var(--farinha);font:700 3.6cqw/1 'DM Sans';padding:2.4cqw 3cqw;border-radius:99px}
+.t9 .cred{bottom:36cqw}
+/* modo feed */
+body.feed{width:1080px;padding:40px;background:var(--farinha)}
+body.feed .painel{display:none}
+body:not(.feed) .feedpage{display:none}
+.feedpage .cab2{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:18px}
+.feedpage .cab2 h1{font-size:64px}
+.feedpage .cab2 h1 span{color:var(--brasa)}
+.feedpage .cab2 p{font-size:13px;color:var(--txt2);text-align:right;line-height:1.5}
+.feedpage .leg{margin-top:14px;font-size:12.5px;color:var(--txt2);line-height:1.55}
+</style>
+</head>
+<body>
+<template id="simb">
+<svg viewBox="0 0 100 86" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="currentColor" stroke-width="6"><path d="M8 82V46a42 42 0 0 1 84 0v36"/><path d="M19 82V46a31 31 0 0 1 62 0v36"/><path d="M30 82V46a20 20 0 0 1 40 0v36"/></g><path d="M2 82h96" stroke="currentColor" stroke-width="6"/><path d="M50 40c7 8 11 14 11 22a11 11 0 0 1-22 0c0-6 3-9 6-13 0 5 2 7 4 7-2-6-1-11 1-16z" fill="#FFB321"/><path d="M50 58c3 3 5 5 5 8a5 5 0 0 1-10 0c0-3 2-5 5-8z" fill="#E2431D"/></svg>
+</template>
+
+<template id="tiles">
+  <div class="tile t1" data-n="1" data-l="L1"><div class="ph"></div><div class="vig"></div>
+    <div class="t">Saiu do forno<br><span>agora.</span></div>
+    <div class="cred">Foto: Foodie Moodie · CC0</div></div>
+
+  <div class="tile t2" data-n="2" data-l="L5">
+    <svg class="arcs" viewBox="0 0 200 120" preserveAspectRatio="none"><g fill="none" stroke="#c7361a" stroke-width="5"><path d="M10 120V70a90 70 0 0 1 180 0v50"/><path d="M30 120V75a70 55 0 0 1 140 0v45"/></g></svg>
+    <div class="sm top">HOJE TEM <span>BRASA</span> · SÃO LUÍS</div>
+    <div class="t big">PIZZA</div>
+    <div class="piz"></div>
+    <div class="cred" style="bottom:auto;top:13cqw;right:auto;left:0;width:100%;text-align:center;display:none"></div>
+    <div class="cred" style="color:rgba(255,255,255,.85)">Foto: BullDawg2021 · CC BY 4.0</div></div>
+
+  <div class="tile t3" data-n="3" data-l="L2" data-car="1">
+    <div class="ring"></div><div class="fr"></div><div class="base"></div>
+    <div class="t">Sabor 01<br><span>Calabresa</span></div>
+    <div class="preco">R$ XX<small>exemplo</small></div>
+    <div class="dots"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    <div class="cred esc" style="bottom:auto;top:73cqw;right:14cqw;color:rgba(255,255,255,.85)">Foto: Horacio Cambeiro · CC BY 4.0</div></div>
+
+  <div class="tile t4" data-n="4" data-l="L4">
+    <div class="sm k">DICIONÁRIO DA BRASA · Nº 1</div>
+    <div class="t">Borda</div>
+    <div class="sm cl">(substantivo feminino)</div>
+    <div class="sm def">A parte que você jura que vai deixar. <b>E come primeiro.</b></div>
+    <div class="sm ex">Ex.: "Só vou comer o recheio hoje." · Ninguém, nunca.</div></div>
+
+  <div class="tile t5" data-n="5" data-l="L3" data-reel="1"><div class="ph"></div><div class="vig"></div>
+    <div class="play"></div>
+    <div class="t">Forno frio,<br><span>pizza murcha.</span></div>
+    <div class="sm dur">REELS · 30 S · BASTIDOR</div>
+    <div class="ia">imagem gerada por IA</div></div>
+
+  <div class="tile t6" data-n="6" data-l="L1"><div class="ph"></div>
+    <div class="band"></div>
+    <div class="t">Tudo voando<br><span>pro seu prato.</span></div>
+    <div class="ia">imagem gerada por IA</div></div>
+
+  <div class="tile t7" data-n="7" data-l="L4">
+    <div class="sm k">CLÁSSICO DE DOMINGO</div>
+    <div class="a a1"></div><div class="a a2"></div><div class="vs">×</div>
+    <div class="t n1">Time<br>Calabresa</div><div class="t n2">Time<br>Pepperoni</div>
+    <div class="sm q"><span>Vota nos stories 👆</span></div>
+    <div class="cred esc">Fotos: H. Cambeiro CC BY 4.0 · MVS9966 CC BY 3.0</div></div>
+
+  <div class="tile t8" data-n="8" data-l="L1" data-reel="1"><div class="ph"></div>
+    <div class="t">Seu queijo<span>faz isso?</span></div>
+    <div class="play"></div>
+    <div class="ia">imagem gerada por IA</div></div>
+
+  <div class="tile t9" data-n="9" data-l="L5"><div class="ph"></div>
+    <div class="band"></div>
+    <div class="t">Pede no zap.<br><span>Sai do forno.</span></div>
+    <div class="zap">Link na bio →</div>
+    <div class="cred">Foto: Cjp24 · CC BY-SA 4.0</div></div>
+</template>
+
+<template id="perfil">
+<div class="perfil">
+  <div class="pf-top">
+    <div class="pf-l1">
+      <div class="pf-av" style="color:#F3E7D3" data-simb></div>
+      <div>
+        <div class="pf-user">brasaviva.pizzaria</div>
+        <div class="pf-nums"><div><b>9</b>posts</div><div><b>—</b>seguidores</div><div><b>—</b>seguindo</div></div>
+      </div>
+    </div>
+    <div class="pf-bio">
+      <div class="nm">Brasa Viva · Pizzaria</div>
+      <div class="cat">Pizzaria</div>
+      🔥 Pizza de forno a lenha em São Luís · saiu do forno agora<br>
+      🧀 Queijo que estica, borda que estala<br>
+      🛵 Delivery e balcão · 18h às 23h (exemplo)<br>
+      👇 Peça pelo WhatsApp<br>
+      <span class="lk">🔗 wa.me/5598XXXXXXXXX</span>
+    </div>
+    <div class="pf-bt"><div class="z">Pedir no WhatsApp</div><div>Cardápio</div></div>
+  </div>
+  <div class="dest">
+    <div class="h"><div class="r"><div style="background:#E2431D"><svg viewBox="0 0 24 24" fill="none" stroke="#F3E7D3" stroke-width="2"><path d="M4 4h16v16H4zM8 9h8M8 13h8M8 17h5"/></svg></div></div>Cardápio</div>
+    <div class="h"><div class="r"><div style="background:#25D366"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M4 20l1.5-4A8 8 0 1 1 9 19z"/></svg></div></div>Como pedir</div>
+    <div class="h"><div class="r"><div style="background:#1A1411"><svg viewBox="0 0 24 24" fill="none" stroke="#FFB321" stroke-width="2"><path d="M3 20V12a9 9 0 0 1 18 0v8M2 20h20"/><path d="M12 9c2 2 3 4 3 6a3 3 0 0 1-6 0c0-2 1-4 3-6z"/></svg></div></div>Forno</div>
+    <div class="h"><div class="r"><div style="background:#FFB321"><svg viewBox="0 0 24 24" fill="none" stroke="#1A1411" stroke-width="2"><path d="M3 12l9-9 9 9-9 9z"/><path d="M12 8v8M8 12h8"/></svg></div></div>Do dia</div>
+    <div class="h"><div class="r"><div style="background:#2E5B3B"><svg viewBox="0 0 24 24" fill="none" stroke="#F3E7D3" stroke-width="2"><path d="M12 21s-7-6-7-11a7 7 0 0 1 14 0c0 5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></div></div>Onde fica</div>
+  </div>
+  <div class="tabs"><div class="on">▦ Posts</div><div>▶ Reels</div><div>☺ Marcados</div></div>
+  <div class="grid" data-grid></div>
+</div>
+</template>
+
+<!-- ================= PAINEL ================= -->
+<div class="painel">
+  <div class="topo">
+    <div>
+      <div class="eti demo">Exemplo demonstrativo · marca fictícia</div>
+      <h1 class="t">Brasa Viva <span>no Instagram</span></h1>
+    </div>
+    <div class="dir"><b>Agente Social media</b> · agência Lindson Almeida<br>Pizzaria Brasa Viva (inventada) · São Luís - MA<br>Fala com quem pede a pizza · identidade do Designer gráfico</div>
+  </div>
+
+  <div class="sec">
+    <div class="cab"><div class="n">1</div><h2 class="t">Para quem e sobre o quê</h2><p>Persona em 5 linhas e as linhas editoriais do mês</p></div>
+    <div class="duas">
+      <div class="card esc persona">
+        <div class="avatar" style="color:#F3E7D3" data-simb></div>
+        <div>
+          <ol>
+            <li><b>Quem:</b> Camila, 29 anos, trabalha no centro e mora no Cohama; divide a pizza com o marido e a filha.</li>
+            <li><b>Rotina:</b> chega cansada perto das 19h e decide a janta no sofá, rolando o Instagram e o grupo da família.</li>
+            <li><b>Dor (nas palavras dela):</b> "Pizza que chega fria, com queijo de borracha, e o motoboy perdido."</li>
+            <li><b>O que valoriza e o que faz confiar:</b> queijo que estica, borda crocante, foto de verdade, pedir no zap sem app.</li>
+            <li><b>Onde está:</b> stories e Reels entre 18h e 21h; sexta, sábado e domingo à noite.</li>
+          </ol>
+          <div class="pergunta">"Ela pediria olhando esse feed?" Só entra post que faz ela salivar ou rir e leva ao WhatsApp.</div>
+        </div>
+      </div>
+      <div class="card linhas">
+        <div class="l"><div class="tag c1">L1</div><div><div class="nome">Desejo: a pizza viva</div><div class="obj">Cheese pull, mordida, fatia saindo. Fazer salivar.</div><div class="barra"><i class="c1" style="width:100%"></i></div></div><div class="pc t">30%</div></div>
+        <div class="l"><div class="tag c2">L2</div><div><div class="nome">Cardápio e combos</div><div class="obj">Um sabor por tela, com ingrediente e preço aprovado.</div><div class="barra"><i class="c2" style="width:66%"></i></div></div><div class="pc t">20%</div></div>
+        <div class="l"><div class="tag c3">L3</div><div><div class="nome">Forno e bastidor</div><div class="obj">Massa, lenha, quem faz. Gera confiança.</div><div class="barra"><i class="c3" style="width:66%"></i></div></div><div class="pc t">20%</div></div>
+        <div class="l"><div class="tag c4">L4</div><div><div class="nome">Humor e conversa</div><div class="obj">Dicionário da Brasa, enquetes, memes do nicho. Gera compartilhamento.</div><div class="barra"><i class="c4" style="width:50%"></i></div></div><div class="pc t">15%</div></div>
+        <div class="l"><div class="tag c5">L5</div><div><div class="nome">Marca e pedido</div><div class="obj">Assinatura "Saiu do forno agora." e chamada para o zap.</div><div class="barra"><i class="c5" style="width:50%"></i></div></div><div class="pc t">15%</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <div class="cab"><div class="n">2</div><h2 class="t">Semana 1 do calendário</h2><p>Feed no fim da tarde, quando a Camila decide a janta</p></div>
+    <div class="cal">
+      <div class="dia"><div class="d"><b>Seg</b><span>post 1</span></div><div class="corpo"><div class="h t">18h30</div><div><span class="pill c1">L1</span><span class="fmt">Foto</span></div><div class="ideia">Cheese pull em fundo escuro + "Saiu do forno agora." Abre o perfil com a foto mais forte.</div><div class="st">Story 11h: enquete "Já tá pensando na janta?"</div></div></div>
+      <div class="dia"><div class="d"><b>Ter</b><span>post 2</span></div><div class="corpo"><div class="h t">18h30</div><div><span class="pill c5">L5</span><span class="fmt">Estático</span></div><div class="ideia">"PIZZA" gigante na Brasa com a pizza cortada na borda de baixo. Apresenta a marca.</div><div class="st">Story 19h: caixa saindo, "pede no zap"</div></div></div>
+      <div class="dia"><div class="d"><b>Qua</b><span>post 3</span></div><div class="corpo"><div class="h t">12h00</div><div><span class="pill c2">L2</span><span class="fmt">Carrossel 6</span></div><div class="ideia">Cardápio, um sabor por tela dentro do arco do forno; preço só o aprovado.</div><div class="st">Story 18h: "qual tela é a sua?"</div></div></div>
+      <div class="dia"><div class="d"><b>Qui</b><span>post 4</span></div><div class="corpo"><div class="h t">18h30</div><div><span class="pill c4">L4</span><span class="fmt">Meme</span></div><div class="ideia">Dicionário da Brasa nº 1: "Borda". Feito para marcar o amigo.</div><div class="st">Story 20h: caixinha "sua borda favorita"</div></div></div>
+      <div class="dia"><div class="d"><b>Sex</b><span>post 5</span></div><div class="corpo"><div class="h t">19h00</div><div><span class="pill c3">L3</span><span class="fmt">Reels 30 s</span></div><div class="ideia">"Forno frio, pizza murcha." Bastidor do forno até o cheese pull. Roteiro ao lado.</div><div class="st">Stories 19h-22h: pedidos saindo</div></div></div>
+      <div class="dia"><div class="d"><b>Sáb</b><span>post 6</span></div><div class="corpo"><div class="h t">17h30</div><div><span class="pill c1">L1</span><span class="fmt">Foto</span></div><div class="ideia">Ingredientes voando, faixa carvão embaixo. Capa de impacto para o pico de pedidos.</div><div class="st">Story 18h: série "Saiu do forno" ep. 1</div></div></div>
+      <div class="dia"><div class="d"><b>Dom</b><span>post 7</span></div><div class="corpo"><div class="h t">18h00</div><div><span class="pill c4">L4</span><span class="fmt">Estático</span></div><div class="ideia">Time Calabresa × Time Pepperoni, duas fotos em arco. Debate nos comentários.</div><div class="st">Story 18h: enquete do mesmo duelo</div></div></div>
+    </div>
+    <div class="ritmo">Ritmo: 1 feed por dia no fim da tarde · stories todo dia · 1 Reels por semana no início, 2 a partir da semana 3. Na semana 2 seguem os posts 8 (Reels "Seu queijo faz isso?") e 9 (pedido).</div>
+  </div>
+
+  <div class="sec">
+    <div class="cab"><div class="n">3</div><h2 class="t">Prévia do feed</h2><p>Como fica no perfil · nº = ordem de postagem (o 1 é o primeiro postado, embaixo à direita)</p></div>
+    <div class="feedwrap mostra-tag">
+      <div data-perfil></div>
+      <div class="notas">
+        <div class="card"><div class="eti" style="margin-bottom:10px;color:var(--brasa)">Ordem de postar e estilo (pesquisa de 08/11)</div>
+          <div class="ord">
+            <div><b>1</b>Cheese pull, fundo escuro (estilo 2)</div>
+            <div><b>2</b>Tipografia gigante, pizza cortada na borda (7)</div>
+            <div><b>3</b>Carrossel de cardápio (3)</div>
+            <div><b>4</b>Humor: Dicionário da Brasa (10)</div>
+            <div><b>5</b>Reels de bastidor, gancho negativo</div>
+            <div><b>6</b>Ingredientes voando (8)</div>
+            <div><b>7</b>Duelo de sabores em arco</div>
+            <div><b>8</b>Reels mordida, cor chapada</div>
+            <div><b>9</b>Pedido com faixa Brasa e foto real</div>
+          </div>
+        </div>
+        <div class="card regras"><div class="eti" style="margin-bottom:8px;color:var(--brasa)">Por que essa ordem</div>
+          <ul>
+            <li><b>Foto primeiro:</b> o post 1 é o mais forte; texto curto só na área livre.</li>
+            <li><b>Nunca dois seguidos iguais:</b> escuro → Brasa → Farinha → Chama → escuro → vermelho → Farinha → Chama → foto.</li>
+            <li><b>Um objetivo por post:</b> salivar (L1), escolher (L2), confiar (L3), compartilhar (L4) ou pedir (L5).</li>
+            <li><b>Campanha, não cardápio:</b> a boca do forno (arco) e "Saiu do forno agora." amarram o feed inteiro.</li>
+            <li><b>Evitado:</b> fundo vermelho + pizza recortada + preço em selo + "sua logo aqui".</li>
+          </ul>
+        </div>
+        <div class="card" style="font-size:13.5px;line-height:1.5"><div class="eti" style="margin-bottom:8px;color:var(--brasa)">Bio e 5 destaques</div>
+          <b>Bio:</b> quem é (pizza de forno a lenha em São Luís) + prova que se vê (queijo que estica, borda que estala) + horário + chamada "👇 Peça pelo WhatsApp".<br>
+          <b>Destaques na ordem da jornada:</b> Cardápio (escolher) · Como pedir (zap, taxa, bairros) · Forno (bastidor e quem faz) · Do dia (sabor ou combo da semana) · Onde fica (mapa e horário).
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <div class="cab"><div class="n">4</div><h2 class="t">Legenda e roteiro</h2><p>Legenda do post 1 no padrão blog SEO · roteiro do Reels do post 5</p></div>
+    <div class="duas">
+      <div class="card legenda" id="leg"></div>
+      <div class="card esc roteiro">
+        <div class="eti" style="color:var(--chama);margin-bottom:6px">Reels 30 s · "Forno frio, pizza murcha."</div>
+        <div class="b"><div class="tm">0-3 s</div><div class="v"><b>GANCHO:</b> close da pizza murcha numa caixa, luz fria. Narração: "Pizza murcha começa aqui: no forno frio." Texto: FORNO FRIO = PIZZA MURCHA.<em>SFX: porta de forno batendo · VFX: tremor no impacto</em></div></div>
+        <div class="b"><div class="tm">3-8 s</div><div class="v">Corte seco para a boca do forno acesa, lenha estalando. "Na Brasa Viva, o forno acende antes da casa abrir."<em>SFX: whoosh + estalo de lenha · VFX: luz vazando laranja</em></div></div>
+        <div class="b"><div class="tm">8-15 s</div><div class="v">Mão abrindo a massa, molho, muçarela ralada na hora, pá entrando. "Massa aberta na mão, queijo ralado na hora."<em>SFX: pop a cada ingrediente · cortes no ritmo da trilha</em></div></div>
+        <div class="b"><div class="tm">15-22 s</div><div class="v"><b>RECOMPRA DE ATENÇÃO:</b> "Mas o teste de verdade é outro..." Pizza saindo, corte da faca com som de crocância.<em>SFX: crocância amplificada · VFX: desfoque direcional no corte</em></div></div>
+        <div class="b"><div class="tm">22-27 s</div><div class="v">Cheese pull em câmera lenta, fundo escuro. "...é o queijo esticar até aqui."<em>SFX: impacto grave · VFX: luz quente nas bordas</em></div></div>
+        <div class="b"><div class="tm">27-30 s</div><div class="v"><b>CHAMADA:</b> caixa fechando, símbolo do forno. "Saiu do forno agora. Pede pelo zap, o link tá na bio."<em>Trilha com crédito se for CC BY · narração contínua, sem pausa robótica</em></div></div>
+        <div style="margin-top:18px;border:1.5px solid rgba(255,179,33,.5);border-radius:12px;padding:14px 16px;font-size:13px;line-height:1.5;color:#e9dcc6"><b style="color:var(--chama)">Nunca sem áudio:</b> narração fluida que não pareça IA + SFX nos cortes + VFX (luz vazando, tremor, desfoque direcional). Legenda curta do Reels: "Pizza murcha tem culpado, e não é o motoboy. 🔥 Pede a sua pelo link da bio." #fornoalenha #pizzaria #bastidor #slz</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="rodape">
+    Exemplo demonstrativo do agente Social media · Pizzaria Brasa Viva é fictícia: não publicar, sem preço real ("R$ XX · exemplo"), sem depoimento, sem promessa de resultado. Seguidores e horários são ilustrativos.<br>
+    Fotos reais (Wikimedia Commons): queijo-puxando Foodie Moodie CC0 · pepperoni-inteira BullDawg2021 CC BY 4.0 · calabresa e calabresa-porcoes Horacio Cambeiro CC BY 4.0 · pepperoni-fatia MVS9966 CC BY 3.0 · caixa-aberta Cjp24 CC BY-SA 4.0. Posts 5, 6 e 8: imagem gerada por IA. Identidade: SISTEMA.md do Designer gráfico (Farinha, Brasa, Carvão, Chama · Bricolage Grotesque + DM Sans).
+  </div>
+</div>
+
+<!-- ================= PRÉVIA DO FEED ================= -->
+<div class="feedpage">
+  <div class="cab2">
+    <div><div class="eti demo">Exemplo demonstrativo · marca fictícia</div><h1 class="t">Prévia do feed <span>· semanas 1 e 2</span></h1></div>
+    <p>nº = ordem de postagem<br>o 1 é o primeiro postado (embaixo à direita)</p>
+  </div>
+  <div class="mostra-tag" data-perfil></div>
+  <div class="leg">Fotos: Foodie Moodie CC0 · BullDawg2021 CC BY 4.0 · Horacio Cambeiro CC BY 4.0 · MVS9966 CC BY 3.0 · Cjp24 CC BY-SA 4.0 (Wikimedia Commons). Posts 5, 6 e 8: imagem gerada por IA. Agente Social media · agência Lindson Almeida.</div>
+</div>
+
+<script>
+const LEG = `__LEGENDA__`;
+document.getElementById('leg').innerHTML = '<div class="eti" style="color:var(--brasa);margin-bottom:8px">Legenda do post 1 · '+LEG.length+' caracteres</div>' +
+  LEG.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/^(.+)$/m,'<span class="tt">$1</span>');
+const tilesT = document.getElementById('tiles');
+const pfT = document.getElementById('perfil');
+const icoCar = '<svg class="ico" viewBox="0 0 24 24" fill="#fff"><rect x="7" y="3" width="14" height="14" rx="2"/><path d="M4 7v12a2 2 0 0 0 2 2h12" fill="none" stroke="#fff" stroke-width="2"/></svg>';
+const icoReel = '<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><path d="M3 8h18M8 3l3 5M14 3l3 5"/><path d="M10 11.5v5l4.5-2.5z" fill="#fff"/></svg>';
+document.querySelectorAll('[data-perfil]').forEach(host=>{
+  host.appendChild(pfT.content.cloneNode(true));
+  const grid = host.querySelector('[data-grid]');
+  const frag = tilesT.content.cloneNode(true);
+  const tiles = [...frag.querySelectorAll('.tile')].reverse(); // mais novo no topo
+  tiles.forEach(t=>{
+    t.insertAdjacentHTML('afterbegin','<div class="num">'+t.dataset.n+'</div>');
+    if(t.dataset.car) t.insertAdjacentHTML('beforeend',icoCar);
+    if(t.dataset.reel) t.insertAdjacentHTML('beforeend',icoReel);
+    t.insertAdjacentHTML('beforeend','<div class="ln">'+t.dataset.l+'</div>');
+    grid.appendChild(t);
+  });
+});
+const simb = document.getElementById('simb').innerHTML;
+document.querySelectorAll('[data-simb]').forEach(e=>e.innerHTML=simb);
+if(location.hash==='#feed') document.body.classList.add('feed');
+</script>
+</body>
+</html>

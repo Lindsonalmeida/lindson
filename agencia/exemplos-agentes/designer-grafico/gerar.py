@@ -86,22 +86,22 @@ S = simbolo
 # ================= PRANCHA =================
 h = HEAD
 # --- A · HERO (HOTWHIZ: cor chapada + manchete gigante; foto na boca do forno)
-h += f'''<section style="height:900px;background:var(--c);color:var(--f);padding:64px">
+h += f'''<section style="height:960px;background:var(--c);color:var(--f);padding:64px">
 <span class="demo" style="top:40px;left:64px;color:var(--ch)">Exemplo demonstrativo · marca fictícia</span>
 <span class="et" style="position:absolute;top:48px;right:64px;opacity:.7">Manual de identidade · v1 · 08/11/2026</span>
-<div style="position:absolute;left:64px;top:150px;width:640px">
+<div style="position:absolute;left:64px;top:130px;width:640px">
   <div style="width:150px;height:150px">{S()}</div>
   <h1 class="t" style="font-size:210px;margin-top:26px">Brasa<br><span style="color:var(--b)">Viva</span></h1>
   <div class="et" style="margin-top:22px;color:var(--ch)">Pizzaria · forno a lenha · São Luís - MA</div>
   <p style="margin-top:34px;font-size:22px;line-height:1.4;max-width:520px;opacity:.92">Conceito <b style="color:var(--ch)">“A boca do forno”</b>: tudo o que a marca mostra é visto de dentro do forno a lenha. O arco é logo, moldura, padrão e faixa.</p>
 </div>
-<div style="position:absolute;right:-60px;top:70px;width:780px;height:830px">
-  <svg viewBox="0 0 200 200" style="position:absolute;inset:0;width:780px;height:780px;top:50px" preserveAspectRatio="none">{arcos(C["brasa"],9).replace('<rect','<rect opacity="0"')}</svg>
-  <div class="arco" style="position:absolute;left:206px;top:330px;width:368px;height:510px"><img src="{P}pepperoni-cima.jpg" style="object-position:50% 50%"></div>
-  <svg viewBox="0 0 200 200" style="position:absolute;left:340px;top:690px;width:100px;height:100px"><path d="{FL_OUT}" fill="{C["chama"]}"/><path d="{FL_IN}" fill="{C["brasa"]}"/></svg>
+<div style="position:absolute;left:720px;top:212px;width:780px;height:686px">
+  <svg viewBox="0 0 200 200" style="position:absolute;left:0;top:0;width:780px;height:780px">{''.join(f'<path d="M{100-r} 176V96A{r} {r} 0 0 1 {100+r} 96V176" fill="none" stroke="{C["brasa"]}" stroke-width="9"/>' for r in (84,62))}</svg>
+  <div class="arco" style="position:absolute;left:166px;top:150px;width:448px;height:536px"><img src="{P}pepperoni-cima.jpg" style="object-position:50% 50%"></div>
+  <div style="position:absolute;left:330px;top:470px;width:120px;height:120px;filter:drop-shadow(0 8px 18px rgba(0,0,0,.5))"><svg viewBox="70 80 60 96"><path d="{FL_OUT}" fill="{C["chama"]}"/><path d="{FL_IN}" fill="{C["brasa"]}"/></svg></div>
 </div>
 <div class="faixas" style="position:absolute;left:0;right:0;bottom:0;height:62px;opacity:1"></div>
-<span style="position:absolute;right:64px;bottom:76px;font-size:11px;opacity:.55">Foto: Andy Li, CC0, Wikimedia Commons</span>
+<span style="position:absolute;left:64px;bottom:82px;font-size:11px;opacity:.55">Foto: Andy Li, CC0, Wikimedia Commons</span>
 </section>'''
 
 # --- B · PERSONA + CONCEITO
@@ -120,8 +120,8 @@ h += f'''<section style="background:var(--f);padding:80px 64px 72px">
  <div style="background:var(--b);color:var(--f);border-radius:22px;padding:34px;position:relative;overflow:hidden">
   <div class="et">Conceito</div>
   <h3 class="t" style="font-size:74px;margin-top:16px">A boca<br><span style="color:var(--ch)">do forno</span></h3>
-  <p style="font-size:16px;line-height:1.5;margin-top:18px;max-width:300px">Uma ideia só, ampliada em tudo (como as listras da PizzaExpress): 3 anéis de tijolo = ondas de calor.</p>
-  <div style="position:absolute;right:-70px;bottom:-60px;width:250px;height:250px;opacity:.95">{S(C["f"] if False else C["farinha"],C["chama"],C["carvao"])}</div></div>
+  <p style="font-size:16px;line-height:1.5;margin-top:18px;max-width:230px">Uma ideia só, ampliada em tudo (como as listras da PizzaExpress): 3 anéis de tijolo = ondas de calor.</p>
+  <div style="position:absolute;right:-40px;bottom:-34px;width:190px;height:190px;opacity:.95">{S(C["f"] if False else C["farinha"],C["chama"],C["carvao"])}</div></div>
  <div style="background:#fff8ec;border:2px solid var(--c);border-radius:22px;padding:34px;display:flex;flex-direction:column">
   <div class="et" style="color:var(--b)">Posicionamento e tom</div>
   <p style="font-size:17px;line-height:1.5;margin-top:16px">Pizzaria de bairro com acabamento de marca grande. Fala direto, quente, sem gíria de delivery barato. Diferença para a esquina: <b>forno a lenha à vista</b> e a pizza que chega como saiu.</p>
@@ -180,12 +180,12 @@ h += f'''<section style="background:var(--c);color:var(--f);padding:80px 64px">
   <div class="et">Título · Bricolage Grotesque 800 · largura 75</div>
   <div class="t" style="font-size:330px;line-height:.8;margin-top:20px;text-transform:none">Aa</div>
   <div class="t" style="font-size:40px;position:absolute;bottom:30px;left:34px;letter-spacing:.02em">ABCDEFGHIJKLMNOPQRSTUVWXYZ<br><span style="color:var(--ch)">0123456789 ÇÃÕÉ R$ & !?</span></div></div>
- <div style="display:grid;grid-template-rows:1.2fr 1fr;gap:20px">
+ <div style="display:grid;grid-template-rows:310px 140px;gap:20px;height:470px">
   <div style="background:var(--f);color:var(--c);border-radius:22px;padding:34px">
    <div class="et" style="color:var(--b)">Hierarquia na prática</div>
-   <div class="t" style="font-size:96px;margin-top:14px">Borda alta,<br><span style="color:var(--b)">massa de 48 h.</span></div>
+   <div class="t" style="font-size:86px;margin-top:14px">Borda alta,<br><span style="color:var(--b)">massa de 48 h.</span></div>
    <p style="font-size:17px;line-height:1.5;margin-top:16px;max-width:560px">Texto em DM Sans 400 a 17 px: claro no celular, sem competir com o título. Destaques em 700.</p></div>
-  <div style="border:2px solid #3a2c24;border-radius:22px;padding:30px;display:grid;grid-template-columns:repeat(3,1fr);gap:16px">
+  <div style="border:2px solid #3a2c24;border-radius:22px;padding:26px 30px;display:grid;grid-template-columns:repeat(3,1fr);gap:16px;align-items:center">
    <div><div style="font-size:46px;font-weight:400">Aa</div><div class="et" style="opacity:.6;margin-top:6px">DM Sans 400</div></div>
    <div><div style="font-size:46px;font-weight:500">Aa</div><div class="et" style="opacity:.6;margin-top:6px">DM Sans 500</div></div>
    <div><div style="font-size:46px;font-weight:700;color:var(--ch)">Aa</div><div class="et" style="opacity:.6;margin-top:6px">DM Sans 700</div></div></div>
@@ -221,7 +221,7 @@ pr = ''.join([
     proib(f'<div style="width:130px;height:130px">{S("#2a6cd6","#7be05a","#c03ad6")}</div>', 'Trocar as cores ou a chama'),
     proib(f'<div style="width:130px;height:130px;filter:drop-shadow(6px 6px 0 #000) drop-shadow(0 0 2px #000)">{S()}</div>', 'Sombra, contorno ou efeito'),
     proib(f'<img src="{P}calabresa-porcoes.jpg" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"><div style="width:120px;height:120px;position:relative">{S()}</div>', 'Logo sobre foto sem área limpa'),
-    proib('<div style="font-family:Bricolage Grotesque;font-weight:200;font-size:58px">Brasa Viva</div>', 'Título em peso fino ou outra letra'),
+    proib('<div style="font-family:Bricolage Grotesque;font-weight:200;font-size:42px">Brasa Viva</div>', 'Título em peso fino ou outra letra'),
     proib('<div style="font-size:84px;line-height:1">👨‍🍳🍕</div>', 'Chef de bigode, pizza cartum, xadrez'),
 ])
 h += f'''<section style="background:var(--f);padding:0 64px 80px">
@@ -231,9 +231,9 @@ h += f'''<section style="background:var(--f);padding:0 64px 80px">
 # --- H · REFERÊNCIAS
 refs = [('pin-962081539173882007.jpg', 'Decaf Girl · Misato Studio', 'Listras verticais na base da lata viram a base do copo e da caixa; letra gorda curta.'),
         ('pin-1144969905302172033.jpg', 'HOTWHIZ · Behance', 'Cor chapada saturada + manchete gigante + chama no rótulo: hero e post.'),
-        ('rel-2033-03.jpg', 'PizzaExpress · BrandOpus (Reino Unido)', 'Um ativo só ampliado em tudo: os 3 anéis viram faixa, padrão, moldura e recorte.')]
+        (None, 'PizzaExpress · BrandOpus (Reino Unido)', 'Um ativo só ampliado em tudo: os 3 anéis viram faixa, padrão, moldura e recorte.')]
 rc = ''.join(f'''<div style="display:grid;grid-template-columns:150px 1fr;gap:20px;align-items:center;background:#2a201b;border-radius:18px;padding:16px">
- <div style="height:150px;border-radius:12px;overflow:hidden"><img src="{FAV}{f}" style="width:100%;height:100%;object-fit:cover"></div>
+ {f'<div style="height:150px;border-radius:12px;overflow:hidden"><img src="{FAV}{f}" style="width:100%;height:100%;object-fit:cover"></div>' if f else '<div style="height:150px;border-radius:12px;background:repeating-linear-gradient(90deg,#1d3f8f 0 12px,#f3e7d3 12px 24px);display:flex;align-items:flex-end;padding:10px"><span class="et" style="background:var(--c);color:var(--f);padding:6px 8px;font-size:10px">Pesquisa 08/11 · nº 4</span></div>'}
  <div><div class="et" style="color:var(--ch)">Copiado de</div><div class="t" style="font-size:34px;margin-top:6px">{n}</div><p style="font-size:14px;line-height:1.45;margin-top:8px;opacity:.85">{d}</p></div></div>''' for f, n, d in refs)
 h += f'''<section style="background:var(--c);color:var(--f);padding:80px 64px 56px">
 {sec_titulo('07','3 referências combinadas',cor='var(--f)',sub='Composição copiada, nunca marca, desenho ou texto. Base: biblioteca de pizzaria e pesquisa de 08/11.')}
@@ -258,12 +258,12 @@ caixa = f'''<div style="position:relative;width:640px;height:640px;background:va
  <div style="position:absolute;inset:0;background:linear-gradient(135deg,rgba(255,255,255,.18),transparent 40%,rgba(0,0,0,.08))"></div></div>'''
 
 post = f'''<div style="position:relative;width:480px;height:600px;background:var(--b);overflow:hidden;border-radius:6px;box-shadow:0 30px 50px rgba(0,0,0,.35)">
- <div class="t" style="position:absolute;left:28px;top:30px;font-size:96px;color:var(--f)">Saiu do<br><span style="color:var(--ch)">forno</span><br>agora.</div>
- <div style="position:absolute;right:-80px;top:120px;width:420px;height:420px;opacity:.95">{S(C["carvao"],C["brasa"],C["brasa"]).replace(FL_OUT,"M0 0").replace(FL_IN,"M0 0")}</div>
- <div class="arco" style="position:absolute;right:24px;top:212px;width:250px;height:330px;border:8px solid var(--f)"><img src="{P}queijo-puxando.jpg" style="object-position:40% 50%"></div>
+ <div class="t" style="position:absolute;left:28px;top:30px;font-size:88px;color:var(--f)">Saiu do<br><span style="color:var(--ch)">forno</span><br>agora.</div>
+ <div style="position:absolute;right:-110px;top:240px;width:420px;height:420px;opacity:.95">{S(C["carvao"],C["brasa"],C["brasa"]).replace(FL_OUT,"M0 0").replace(FL_IN,"M0 0")}</div>
+ <div class="arco" style="position:absolute;right:20px;top:290px;width:236px;height:262px;border:8px solid var(--f)"><img src="{P}queijo-puxando.jpg" style="object-position:40% 50%"></div>
  <div style="position:absolute;left:28px;bottom:78px;width:170px;background:var(--c);color:var(--f);border-radius:12px;padding:12px 14px;font-size:12px;line-height:1.35"><b style="color:var(--ch)">Forno a lenha</b><br>Peça pelo link da bio ou no iFood.</div>
- <div class="faixas" style="position:absolute;left:0;right:0;bottom:0;height:44px;background:repeating-linear-gradient(180deg,var(--c) 0 8px,transparent 8px 13px)"></div>
- <div style="position:absolute;left:28px;top:356px;display:flex;align-items:center;gap:8px;color:var(--f)"><div style="width:34px;height:34px">{S(C["farinha"],C["chama"],C["carvao"])}</div><div class="t" style="font-size:24px">Brasa Viva</div></div>
+ <div class="faixas" style="position:absolute;left:0;right:0;bottom:0;height:44px;background:repeating-linear-gradient(180deg,var(--c) 0 8px,transparent 8px 13px),var(--b)"></div>
+ <div style="position:absolute;left:28px;top:330px;display:flex;align-items:center;gap:8px;color:var(--f)"><div style="width:34px;height:34px">{S(C["farinha"],C["chama"],C["carvao"])}</div><div class="t" style="font-size:24px">Brasa Viva</div></div>
  <span style="position:absolute;right:28px;top:548px;color:var(--f);font-size:8px;opacity:.75">Foto: Foodie Moodie, CC0</span></div>'''
 
 sacola = f'''<div style="position:relative;width:300px;height:400px;margin-top:60px">
@@ -311,7 +311,7 @@ a += f'''<section style="background:var(--c);color:var(--f);padding:56px 64px 0;
   <span style="position:absolute;left:40px;bottom:24px;font-size:12px;opacity:.6;max-width:720px">Carimbo no centro, faixa de 14 px (a mesma espessura dos anéis) e listras na base copiadas da lata Decaf Girl.</span></div>
  <div style="background:var(--ch);position:relative;display:flex;align-items:center;justify-content:center">
   <span class="et" style="position:absolute;left:36px;top:28px;color:var(--c)">Post 4:5 · feed</span>
-  {post}
+  <div style="zoom:1.1">{post}</div>
   <span style="position:absolute;left:36px;bottom:24px;font-size:12px;color:var(--c);opacity:.75">Cor chapada + manchete gigante (HOTWHIZ) e foto na boca do forno.</span></div>
 </section>
 <section style="display:grid;grid-template-columns:1fr 1fr 1.25fr;height:700px">
