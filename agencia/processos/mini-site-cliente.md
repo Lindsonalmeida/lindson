@@ -116,3 +116,5 @@ O Claude altera e publica; a Cloudflare atualiza sozinha em ~1 minuto.
 | Real Time (RT Full Jobs) | `Lindsonalmeida/realtime` | https://realtimeslz.pages.dev (site) · https://realtimeslz.pages.dev/bio/ (bio) |
 | Tribuna 98 (Thiago Azevedo) | `Lindsonalmeida/tribuna98` | https://tribuna98.pages.dev (só bio; o site principal é o tribuna98.com.br) |
 | Clínica Dra. Jaci Cunha | `Lindsonalmeida/drajacicunha` | https://drajacicunha.pages.dev (site de SEO) · https://drajacicunha.pages.dev/bio/ (bio) · no ar (05/11) |
+| Curso de Processo Legislativo (Tribuna 98) | `Lindsonalmeida/cursoprocessolegislativo` | https://cursoprocessolegislativo.pages.dev (site na raiz, bio em /bio/) | código enviado em 08/11 (conta Leandro); falta o Lindson conectar na Cloudflare |
+
