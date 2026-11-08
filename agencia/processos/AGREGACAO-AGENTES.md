@@ -10,7 +10,7 @@
 - **Fica de fora:** material reprovado (branches `cassandra/*`) e números sem fonte.
 
 ## Última verificação
-- 08/11/2026 20:10 (UTC): coleta da tarde agregada (pedido do Lindson).
+- 08/11/2026 22:25 (UTC): sem novidades desde a coleta da tarde (20:10).
 
 ## Histórico do que foi agregado
 | Data | Fonte | Agente | O que entrou |
