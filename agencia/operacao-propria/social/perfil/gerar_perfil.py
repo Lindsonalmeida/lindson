@@ -2,11 +2,13 @@
 # Gera: avatar 1080 (e 320 / prova a 40 px), 6 capas de destaque 1080×1920 e a prévia do perfil no celular.
 # Base: kit v3 aprovado (../v3/gerar.py), funções de marca CARREGADAS de lá. Avatar parte do v4-16-avatar (símbolo da folha
 # com seta, creme sobre verde) e ganha anel de xadrez de cantina, como o selo da marca.
-# Uso: python3 gerar_perfil.py && node render.js && python3 montar.py
+# v4 (conta Zuleide, 08/11/2026): funções de marca lidas do ../v4/gerar.py; destaques só na paleta v4 (tomate, verde, creme e
+# carvão; açafrão só no anel), cada capa leva "pedido nº" da campanha; a grade da prévia sai do calendário, já com o kit v4.
+# Uso: python3 gerar_perfil.py && node render.js && node render.js tela && python3 montar.py
 import os, json
 D = os.path.dirname(os.path.abspath(__file__))
-V3 = os.path.normpath(os.path.join(D, '../v3/gerar.py'))
-src = open(V3, encoding='utf-8').read()
+V4 = os.path.normpath(os.path.join(D, '../v4/gerar.py'))
+src = open(V4, encoding='utf-8').read()
 exec(src.split('# ================================================================== 01')[0])
 exec(src[src.index('FONTS = ('):src.index("open(os.path.join(D, 'pecas.html')")])
 D = os.path.dirname(os.path.abspath(__file__))
@@ -47,13 +49,13 @@ ICS = {
 def ic(n, tam, cor, w=6.5):
     return (f'<svg viewBox="0 0 100 100" width="{tam}" height="{tam}" style="display:block;overflow:visible;color:{cor}"><g fill="none" stroke="{cor}" '
             f'stroke-width="{w}" stroke-linecap="round" stroke-linejoin="round">{ICS[n]}</g></svg>')
-DEST = [('metodo', 'Método', VERDE, CREME, ACAFRAO), ('raiox', 'Raio-X', TOMATE, CREME, ACAFRAO), ('planos', 'Planos', ACAFRAO, CARVAO, TOMATE),
-        ('duvidas', 'Dúvidas', CARVAO, CREME, ACAFRAO), ('bastidor', 'Bastidor', CREME, VERDE, TOMATE), ('zap', 'Fale comigo', VERDE_ESC, CREME, ACAFRAO)]
+DEST = [('metodo', 'Método', TOMATE, CREME, ACAFRAO), ('raiox', 'Raio-X', TINTA, CREME, ACAFRAO), ('planos', 'Planos', CREME, VERDE, TOMATE),
+        ('duvidas', 'Dúvidas', VERDE, CREME, ACAFRAO), ('bastidor', 'Bastidor', TOMATE, CREME, CARVAO), ('zap', 'Fale comigo', VERDE, CREME, TOMATE)]
 for i, (n, nome, bg, fg, ac) in enumerate(DEST, 1):
     sec(f'destaque-{i}-{n}', 1080, 1920,
         BOX(0, 0, 1080, 1920, bg) + f'<div class="a" style="inset:0;background:{padrao(fg, .09, 300)}"></div>' +
-        BOX(0, 0, 1080, 150, xadrez(TOMATE if bg != TOMATE else CARVAO, CREME, 37)) + BOX(0, 1770, 1080, 150, xadrez(TOMATE if bg != TOMATE else CARVAO, CREME, 37)) +
-        A(0, 200, MONO(f'Destaque {i:02d} · @oreganoturbo', 22, fg, 'opacity:.85'), 'width:1080px;display:flex;justify-content:center') +
+        BOX(0, 0, 1080, 150, xadrez(TOMATE if bg not in (TOMATE, CREME) else (CARVAO if bg == TOMATE else VERDE), CREME, 37)) + BOX(0, 1770, 1080, 150, xadrez(TOMATE if bg not in (TOMATE, CREME) else (CARVAO if bg == TOMATE else VERDE), CREME, 37)) +
+        A(0, 200, MONO(f'Orégano Turbo · pedido nº{i:02d} · @oreganoturbo', 22, fg, 'opacity:.85'), 'width:1080px;display:flex;justify-content:center') +
         f'<div class="a" style="left:120px;top:540px;width:840px;height:840px;border-radius:50%;border:14px solid {ac};box-shadow:0 0 0 20px {bg},0 0 0 28px {fg}"></div>' +
         A(250, 670, ic(n, 580, fg, 8)) +
         A(0, 300, BAGEL(nome, 150 if len(nome) < 9 else 128, fg, .9, SH(CARVAO if bg != CARVAO else TOMATE, 8)), 'width:1080px;display:flex;justify-content:center') +
@@ -61,9 +63,15 @@ for i, (n, nome, bg, fg, ac) in enumerate(DEST, 1):
 
 # ------------------------------------------------------------------ TELA DO PERFIL (prévia, 1080 de largura)
 # Ordem do Instagram: a mais nova no canto de cima à esquerda. São as 9 primeiras do feed do calendário (dia 1 12h até dia 5 12h).
-GRADE = ['../v3/pecas/p06-cardapio-da-casa.jpg', '../calendario/artes/s1-2/d04-19h-combo-de-terca.jpg', '../v3/pecas/p04-menos-app-mais-zap.jpg',
-         '../calendario/artes/s1-2/d03-19h-a-conta-do-pedido.jpg', '../v3/pecas/p05-raio-x-cartaz.jpg', '../calendario/artes/s1-2/d02-19h-5-fotos-que-tiram-a-fome.jpg',
-         '../v3/pecas/p02-terca-tambem-tem-fome.jpg', '../v3/pecas/p03-grade-so-pizzarias.jpg', '../v3/pecas/p01-foto-que-da-fome.jpg']
+# v4: as 9 primeiras postagens de feed do calendário, a mais nova primeiro; peça aprovada v3 → equivalente do kit v4.
+CAL = json.load(open(os.path.join(D, '../calendario/calendario.json'), encoding='utf-8'))
+def arq(r):
+    if r.get('v4'): return '../v4/pecas/' + r['v4'][3:]
+    pre = f"d{r['dia']:02d}-{r['hora']}-"
+    for pasta in ['s1-2', 's3-4', 'fotos', 'tipo-v4']:
+        fs = sorted(x for x in os.listdir(os.path.join(D, '../calendario/artes', pasta)) if x.startswith(pre) and x.endswith('.jpg'))
+        if fs: return f'../calendario/artes/{pasta}/{fs[0]}'
+GRADE = [arq(r) for r in [r for r in CAL if r['formato'] == 'Feed'][:9]][::-1]
 UI = '#000000'; CIN = '#737373'; LINHA = '#DBDBDB'
 f = lambda w, s, c=UI, extra='': f'font:{w} {s}px/1.3 Inter;color:{c};{extra}'
 num = lambda n, t: f'<div style="text-align:left"><div style="{f(700, 38)}">{n}</div><div style="{f(400, 32)}">{t}</div></div>'

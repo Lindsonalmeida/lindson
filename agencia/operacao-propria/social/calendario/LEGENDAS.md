@@ -801,8 +801,6 @@ Anúncio sem medição é aposta. Com código, vira informação.
 Quer ver como isso funciona na sua pizzaria em São Luís? Manda RAIO-X no direct.
 
 #anuncioparapizzaria #marketingparapizzaria #trafegopago #saoluisma
-
-Imagem ilustrativa gerada por IA.
 ```
 
 ### Dia 12 · sex 20/11 · 19h · Feed · L3 · CHECKLIST DO CARDÁPIO DIGITAL
@@ -1037,8 +1035,6 @@ Anúncio, Instagram e WhatsApp trabalhando juntos, com o número na mesa toda se
 Quer começar pelo passo 1? Manda RAIO-X no direct.
 
 #marketingparapizzaria #assessoriademarketing #pizzariasaoluis #slz
-
-Imagem ilustrativa gerada por IA.
 ```
 
 ### Dia 16 · ter 24/11 · 08h · Story · L3 · Copia e cola:
@@ -1385,8 +1381,6 @@ Promoção é tempero. Usada todo dia, estraga o prato.
 Quer repensar as promoções da sua pizzaria em São Luís? Manda RAIO-X no direct.
 
 #promocaodepizza #gestaodepizzaria #pizzaria #saoluisma
-
-Imagem ilustrativa gerada por IA.
 ```
 
 ### Dia 21 · dom 29/11 · 08h · Story · L4 · Resumo da semana.
@@ -1885,8 +1879,6 @@ Primeiro entender, depois investir. É o caminho mais seguro para a sua pizzaria
 Quer começar? Manda RAIO-X no direct.
 
 #raioxdapizzaria #marketingparapizzaria #deliverysaoluis #slz
-
-Imagem ilustrativa gerada por IA.
 ```
 
 ### Dia 28 · dom 06/12 · 08h · Story · L5 · Domingo de pizza.

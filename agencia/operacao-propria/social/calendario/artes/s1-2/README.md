@@ -1,5 +1,7 @@
 # Artes tipográficas · semanas 1 e 2 do calendário @oreganoturbo (dias 1 a 14)
 
+> **v4 (08/11/2026, conta Zuleide):** refeitas no sistema v4 (comanda "PEDIDO Nº", paleta sem fundo açafrão, Bagel nas manchetes, Raio-X sem explosão de preço). As funções de marca agora vêm de `../sistema_v4.py`, que lê o `../../../v4/gerar.py`. O que mudou peça a peça está em `../../README.md`; a tabela abaixo descreve a composição da v3.
+
 Feito pelo Paollo (conta Leandro) em 06/11/2026. As pautas vêm de `../../calendario.json`, coluna `imagem = TIPO`, e são 19 peças.
 
 **Padrão:** o kit v3 aprovado pelo Lindson ("AGORA SIM, ESSE É O PADRÃO"), em `../../../v3/`. O gerador **lê e executa as funções do `v3/gerar.py`** sem alterar nada lá: símbolo, logo, selo, padrão de ícones, xadrez, adesivo, estrela, faixa, tarja e letras.

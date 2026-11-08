@@ -57,7 +57,7 @@ S2_4 = [
  (11,'12h','Feed','L2','APP × ZAP','A mesma pizza, dois caminhos (ilustrativo).','Foto dividida ao meio','F6'),
  (11,'19h','Feed','L5','DOMINGO É DIA DE PIZZA. TERÇA TAMBÉM.','Quem disse que não?','Grade de 4 cores com a mesma manchete','IA:B7'),
  (12,'08h','Story','L6','Raio-X na sexta.','Fale com a gente no zap.','Story com estrela de preço','TIPO'),
- (12,'12h','Feed','L4','CÓDIGO EM CADA PEDIDO.','Assim a gente sabe qual vídeo vendeu.','Close de pedido com código PZ14','F8'),
+ (12,'12h','Feed','L4','CÓDIGO EM CADA PEDIDO.','Assim a gente sabe qual vídeo vendeu.','Comanda gigante com o código PZ14 (ilustrativo)','TIPO'),
  (12,'19h','Feed','L3','CHECKLIST DO CARDÁPIO DIGITAL','6 itens que fazem pedir mais rápido.','Checklist com ícones em traço','TIPO'),
  (13,'08h','Story','L5','Qual borda você pediria?','Enquete: catupiry, cheddar, chocolate.','Enquete com 3 bordas','F9'),
  (13,'12h','Feed','L1','PIZZA BOA NÃO VENDE SOZINHA.','Quem aparece mais vende mais.','Pizza gigante com texto em círculo','IA:B4'),
@@ -67,7 +67,7 @@ S2_4 = [
  (14,'19h','Feed','L3','3 COMBOS QUE VENDEM NO FRIO','Ideias para a sua pizzaria (sem preço).','Grade de 3 cartões','TIPO'),
  (15,'08h','Story','L5','Bom dia, forno aceso.','Segunda de novo.','Story com foto de forno','IA:B8b'),
  (15,'12h','Feed','L1','TERÇA VAZIA CUSTA CARO.','Aluguel, gás e equipe pagam igual.','Cardápio-cartaz dos custos','TIPO'),
- (15,'19h','Feed','L4','COMO FUNCIONA EM 4 PASSOS','Carrossel do método.','Carrossel; capa com foto de mão segurando o celular','F13'),
+ (15,'19h','Feed','L4','COMO FUNCIONA EM 4 PASSOS','Carrossel do método.','Carrossel de 3 telas: 4 comandas, uma por passo','TIPO'),
  (16,'08h','Story','L3','Copia e cola:','Mensagem para cliente que sumiu.','Conversa de WhatsApp','TIPO'),
  (16,'12h','Feed','L2','QUANTO VALE UM CLIENTE QUE VOLTA','A conta na tela (ilustrativo).','Número gigante atrás da pizza','F14'),
  (16,'19h','Feed','L5','PIZZA FRIA NÃO TEM PERDÃO.','Entrega é parte da pizza.','Motoboy de baixo contra o céu','IA:B5'),
@@ -82,7 +82,7 @@ S2_4 = [
  (19,'19h','Feed','L5','AQUI CADA FATIA VENDE.','Orgulho de quem faz pizza.','Fatias voando + manchete em 2 tamanhos','F22'),
  (20,'08h','Story','L6','Black Friday? Aqui não tem desconto.','Tem 5 vagas de fundadora.','Story tipográfico com selo','TIPO'),
  (20,'12h','Feed','L6','BLACK FRIDAY SEM DESCONTO.','Em vez de desconto, condição de fundadora.','Cartaz preto com estrela amarela','TIPO'),
- (20,'19h','Feed','L1','PROMOÇÃO TODO DIA CANSA.','O cliente aprende a esperar o desconto.','Manchete gigante + pizza com etiqueta rasgada','F23'),
+ (20,'19h','Feed','L1','PROMOÇÃO TODO DIA CANSA.','O cliente aprende a esperar o desconto.','Manchete gigante + parede de etiquetas de desconto rasgadas','TIPO'),
  (21,'08h','Story','L4','Resumo da semana.','3 coisas para fazer hoje.','Story tipográfico','TIPO'),
  (21,'12h','Feed','L5','SÁBADO É FINAL DE CAMPEONATO.','Forno no máximo.','Pizzaiolo colocando pizza no forno','F24'),
  (21,'19h','Feed','L3','CHECKLIST DE SÁBADO','Antes de abrir: link, cardápio, foto do dia.','Checklist','TIPO'),
@@ -103,14 +103,14 @@ S2_4 = [
  (26,'19h','Feed','L5','PIZZA DE SEGUNDA TAMBÉM É PIZZA.','Bora vender a semana inteira.','Pizza voando com faixa em loop','F29'),
  (27,'08h','Story','L4','Resumo do mês.','O que mudou no seu perfil?','Story tipográfico','TIPO'),
  (27,'12h','Feed','L3','10 IDEIAS DE POST PRA PIZZARIA','Salve e use.','Carrossel tipográfico','TIPO'),
- (27,'19h','Feed','L6','PRIMEIRO PASSO: RAIO-X.','R$ 297, abatido no 1º mês se fechar em 7 dias.','Pizza com estrela de preço','F30'),
+ (27,'19h','Feed','L6','PRIMEIRO PASSO: RAIO-X.','R$ 297, abatido no 1º mês se fechar em 7 dias.','"1º" gigante + comanda do Raio-X com o preço escrito (sem estrela de preço)','TIPO'),
  (28,'08h','Story','L5','Domingo de pizza.','Bom trabalho, pizzaiolo.','Story com foto de família comendo pizza','F31'),
  (28,'12h','Feed','L5','DOMINGO É SAGRADO.','E a pizza também.','Mesa com pizza e mãos pegando fatias','F32'),
  (28,'19h','Feed','L4','SEMANA QUE VEM TEM MAIS.','Siga @oreganoturbo.','Grade de 4 cores com manchete','TIPO'),
 ]
 PROMPTS = {
  'F1': 'Close-up of a hand holding a smartphone showing a food delivery app order screen, a slice of pizza in the other hand, solid tomato red #C8302B background, harsh flash, hard shadow, bold campaign photography, 4:5',
- 'F2': 'Extreme close-up of a cheese pull from a margherita pizza slice lifted by a hand, steam rising, solid saffron yellow #F2B33D background, harsh direct flash, 4:5',
+ 'F2': 'Extreme close-up of a cheese pull from a margherita pizza slice lifted by a hand, steam rising, solid tomato red #C8302B background, harsh direct flash, 4:5',
  'F3': 'An empty open pizza box with only crumbs left, on a dark wooden table at night, single warm lamp, moody cinematic food photography, 4:5',
  'F4': 'Behind the scenes of a food photo shoot in a pizzeria kitchen: smartphone on a small tripod filming a pizza coming out of a wood-fired oven, warm light, editorial photography, 4:5',
  'F5': 'Photorealistic photo of a family table at home with an open white pizza box with a deep green lid printed with a round logo, hands grabbing slices, warm evening light, 4:5',
@@ -122,7 +122,7 @@ PROMPTS = {
  'F11': 'Brazilian pizza chef in a deep green apron seen from below, holding a pizza peel, wood-fired oven glowing, confident pose, warm cinematic light, 4:5',
  'F12': 'Wood-fired pizza oven at dawn with first flames, a pizzeria still closed, warm and blue light mix, cinematic, 4:5',
  'F13': 'A hand holding a smartphone toward the camera with a WhatsApp chat open, pizzeria counter blurred behind, hard flash, solid green background, 4:5',
- 'F14': 'A single pepperoni pizza floating on a solid saffron yellow background, slight tilt, hard flash, crisp shadow, 4:5',
+ 'F14': 'A single pepperoni pizza floating on a solid deep green #1E5B3B background, slight tilt, hard flash, crisp shadow, 4:5',
  'F15': 'Delivery rider on a motorcycle holding an insulated pizza bag, shot from low angle against deep blue sky, wide-angle, bold advertising photography, 4:5',
  'F16': 'Two smartphones side by side: one showing a dark messy pizzeria Instagram profile, the other a bright appetizing one, on solid cream background, hard flash, 4:5',
  'F17': 'Close-up of a thumb about to press send on a WhatsApp message, pizza slice in the background, solid green background, flash, 4:5',
@@ -136,24 +136,31 @@ PROMPTS = {
  'F25': 'Overhead shot of a four-cheese pizza on a wooden peel with flour around, solid cream background, hard flash, 4:5',
  'F26': 'Close-up of a pizzaiolo hands stretching dough with flour in the air, dark background, dramatic light, 4:5',
  'F27': 'Extreme close-up of a very long cheese pull from a pizza slice lifted high, solid tomato red background, harsh flash, 4:5',
- 'F28': 'Hand holding a smartphone showing a clean digital pizza menu with photos, solid saffron background, hard flash, 4:5',
- 'F29': 'A pizza and slices flying with basil and tomatoes on a solid saffron yellow background, high-speed flash, 4:5',
+ 'F28': 'Hand holding a smartphone showing a clean digital pizza menu with photos, solid cream #F3EEE6 background, hard flash, 4:5',
+ 'F29': 'A pizza and slices flying with basil and tomatoes on a solid tomato red #C8302B background, high-speed flash, 4:5',
  'F30': 'A whole pepperoni pizza with one slice lifted, solid deep green background, overhead, hard flash, 4:5',
  'F31': 'Brazilian family laughing and sharing a pizza on a Sunday at home, natural light, candid lifestyle photography, 4:5',
  'F32': 'Overhead of a table with two pizzas and many hands reaching for slices, red checkered tablecloth, flash, 4:5',
 }
 
+# peça equivalente no kit v4 (../v4/pecas/, aguardando aprovação do Lindson). A v3 continua valendo até ele aprovar.
+V3_V4 = {'p03-grade-so-pizzarias.jpg': 'p03-so-pizzarias-anel.jpg', 'p05-raio-x-cartaz.jpg': 'p05-raio-x-comanda.jpg'}
 dt0 = datetime.date(2026, 11, 9)
 DIAS = ['seg', 'ter', 'qua', 'qui', 'sex', 'sáb', 'dom']
 rows = []
 for (d, h, fmt, l, man, ap, comp, img) in S1 + S2_4:
     data = dt0 + datetime.timedelta(days=d - 1)
-    rows.append(dict(dia=d, data=data.strftime('%d/%m'), semana_dia=DIAS[data.weekday()], hora=h, formato=fmt, linha=l, linha_nome=LINHAS[l][0], manchete=man, apoio=ap, composicao=comp, imagem=img))
+    r = dict(dia=d, data=data.strftime('%d/%m'), semana_dia=DIAS[data.weekday()], hora=h, formato=fmt, linha=l, linha_nome=LINHAS[l][0], manchete=man, apoio=ap, composicao=comp, imagem=img)
+    if img.startswith('v3:'):
+        r['v4'] = 'v4:' + V3_V4.get(img[3:], img[3:])
+    rows.append(r)
 json.dump(rows, open(os.path.join(D, 'calendario.json'), 'w'), ensure_ascii=False, indent=1)
 
 md = ['# @oreganoturbo · linhas editoriais e calendário de 4 semanas (09/11 a 06/12/2026) · 3 postagens por dia',
       '',
       'Conta Leandro, 06/11/2026. Agentes: Marketing Squad, Copy Squad e Paollo (arte no padrão aprovado, `../v3/`).',
+      '',
+      '**v4 (08/11, conta Zuleide):** as artes do calendário foram refeitas no sistema v4 (`../v4/`): comanda "PEDIDO Nº" em toda arte (nº único na campanha: o kit v4 tem 01 a 12 e as outras postagens seguem de 13 a 84, na ordem de publicação), paleta tomate, verde, creme e carvão (açafrão só em detalhe), Bagel Fat One nas manchetes e Raio-X sem explosão de preço. 4 pautas que esperavam foto (F8, F13, F23 e F30) viraram tipográficas, em `artes/tipo-v4/`. Ver `README.md`.',
       '',
       '**Persona:** dono de pizzaria em São Luís, de 30 a 55 anos, que vive no balcão e no celular. Quer mais pedido no dia fraco e menos dependência do app.',
       '',
@@ -171,14 +178,16 @@ md = ['# @oreganoturbo · linhas editoriais e calendário de 4 semanas (09/11 a 
 md += [f'| **{k} · {v[0]}** | {v[2]} | {v[1]} |' for k, v in LINHAS.items()]
 md += ['', '## Legenda da coluna "imagem"',
        '- **v3:arquivo:** peça já aprovada, em `../v3/pecas/`.',
-       '- **TIPO:** arte tipográfica, sem foto. Usa só o sistema da marca: xadrez, selos, ícones, celular desenhado, cartazes.',
+       '- **v4:** a mesma peça já tem versão no kit v4 (`../v4/pecas/`), aguardando aprovação. Enquanto não aprovar, vale a v3.',
+       '- **TIPO:** arte tipográfica, sem foto. Usa só o sistema da marca: comanda, xadrez, selos, ícones, celular desenhado, cartazes. Pastas: `artes/s1-2`, `artes/s3-4` e `artes/tipo-v4`.',
+       '- **IA:código:** foto do lote do Gemini já usada (uma vez só), arte em `artes/fotos`.',
        '- **F1 a F32:** foto nova, a pedir ao Lindson no Gemini. Os pedidos estão em `PEDIDO-FOTOS-LOTE-2.txt`.', '']
 sem = 0
 for r in rows:
     s = (r['dia'] - 1) // 7 + 1
     if s != sem:
         sem = s; md += ['', f'## Semana {s}', '| Data | Hora | Formato | Linha | Manchete | Apoio | Composição | Imagem |', '|---|---|---|---|---|---|---|---|']
-    md.append(f"| {r['semana_dia']} {r['data']} | {r['hora']} | {r['formato']} | {r['linha']} | **{r['manchete']}** | {r['apoio']} | {r['composicao']} | {r['imagem']} |")
+    md.append(f"| {r['semana_dia']} {r['data']} | {r['hora']} | {r['formato']} | {r['linha']} | **{r['manchete']}** | {r['apoio']} | {r['composicao']} | {r['imagem']}{' (' + r['v4'] + ')' if 'v4' in r else ''} |")
 open(os.path.join(D, 'CALENDARIO.md'), 'w').write('\n'.join(md) + '\n')
 
 cab = ('PEDIDO PARA O GEMINI · Orégano Turbo · lote 2 (fotos para as semanas 2 a 4 do calendário)\n\n'
@@ -186,9 +195,12 @@ cab = ('PEDIDO PARA O GEMINI · Orégano Turbo · lote 2 (fotos para as semanas 
        'Regras para todas:\n'
        '- fotos ultrarrealistas de campanha de comida;\n'
        '- luz dura de flash quando o pedido diz "flash";\n'
-       '- cores da marca: verde #1E5B3B, vermelho #C8302B, creme #F3EEE6, açafrão #F2B33D;\n'
+       '- cores da marca: verde #1E5B3B, vermelho tomate #C8302B e creme #F3EEE6 (fundo chapado de uma delas); amarelo açafrão só em detalhe, nunca no fundo;\n'
+       '- o texto vai por cima depois: deixe uma área livre de fundo no topo (a pizza nunca fica embaixo do texto);\n'
        '- sem texto, sem logo e sem marca de outra empresa na imagem (o logo eu coloco depois);\n'
        '- formato 4:5 vertical.\n\n')
-open(os.path.join(D, 'PEDIDO-FOTOS-LOTE-2.txt'), 'w').write(cab + ''.join(f'{k}\n{v}\n\n' for k, v in PROMPTS.items()))
+pend = [r['imagem'] for r in rows if r['imagem'].startswith('F')]   # só as fotos que ainda faltam (v4, 08/11)
+open(os.path.join(D, 'PEDIDO-FOTOS-LOTE-2.txt'), 'w').write(cab + f'Faltam {len(pend)} fotos.\n\n' + ''.join(f'{k}\n{PROMPTS[k]}\n\n' for k in pend))
 tot = len(rows); tipo = sum(r['imagem'] == 'TIPO' for r in rows); v3 = sum(r['imagem'].startswith('v3:') for r in rows)
-print(tot, 'postagens ·', v3, 'prontas (v3) ·', tipo, 'tipográficas ·', tot - tipo - v3, 'com foto nova')
+ia = sum(r['imagem'].startswith('IA:') for r in rows)
+print(tot, 'postagens ·', v3, 'prontas (v3/v4) ·', tipo, 'tipográficas ·', ia, 'com foto do lote 1 · ', len(pend), 'esperando foto nova')

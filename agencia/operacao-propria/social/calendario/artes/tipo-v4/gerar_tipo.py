@@ -54,25 +54,25 @@ cmd12 = papel(MONO('Orégano Turbo · pedido via zap · 20/11 · 19h42', 15, CAR
               + linha_cmd('Veio do vídeo', 'Calabresa saindo do forno') + linha_cmd('Anúncio', 'Bairro Cohama · 3 km')
               + linha_cmd('Pedido', '1 grande + borda'), 820, -3)
 feed('d12-12h-codigo-em-cada-pedido',
-     BOX(0, 0, 1080, 1350, CREME) + pad(VERDE, .10) +
-     BOX(0, 0, 1080, 28, xadrez(VERDE, CREME, 14)) +
-     A(40, 60, BAGEL('Código em', 150, VERDE, .88, SH(CARVAO, 7))) +
-     A(40, 200, BAGEL('cada pedido.', 116, TOMATE, .9, SH(CARVAO, 7))) +
+     BOX(0, 0, 1080, 1350, TOMATE) + pad(CREME, .11) +
+     BOX(0, 0, 1080, 28, xadrez(CARVAO, CREME, 14)) +
+     A(40, 60, BAGEL('Código em', 150, CREME, .88, SH(CARVAO, 8))) +
+     A(40, 200, BAGEL('cada pedido.', 116, ACAFRAO, .9, SH(CARVAO, 7))) +
      A(60, 400, cmd12) +
      A(40, 1000, f'<div style="display:flex;gap:16px;align-items:center">'
-                 + adesivo('1 · vídeo', VERDE, CREME, -5, 34) + adesivo('2 · código', TOMATE, CREME, 4, 34) + adesivo('3 · relatório', CARVAO, CREME, -3, 34) + '</div>') +
-     A(44, 1120, TXT('Assim a gente sabe qual vídeo vendeu. E você vê na segunda.', 28, CARVAO, 'width:640px;line-height:1.25')) +
+                 + adesivo('1 · vídeo', VERDE, CREME, -5, 34) + adesivo('2 · código', CREME, TOMATE, 4, 34) + adesivo('3 · relatório', CARVAO, CREME, -3, 34) + '</div>') +
+     A(44, 1120, TXT('Assim a gente sabe qual vídeo vendeu. E você vê na segunda.', 28, CREME, 'width:640px;line-height:1.25')) +
      A(770, 1130, ILU()) +
-     rodape(1240),
+     rodape(1240, CARVAO, CREME, 'Chama no zap ↗', CREME, TOMATE),
      'Comanda gigante com o código PZ14 ocupando a peça (conceito "PEDIDO Nº" do v4 em tamanho de cartaz) + linhas da comanda (vídeo, anúncio, pedido) '
-     '+ 3 adesivos girados com o caminho vídeo → código → relatório; creme com padrão verde. Exemplo ilustrativo.')
+     '+ 3 adesivos girados com o caminho vídeo → código → relatório; tomate com padrão creme. Exemplo ilustrativo.')
 
 # ================================================================== d15 19h · COMO FUNCIONA EM 4 PASSOS (carrossel, 3 telas)
 # Copia: capa com número gigante (palavra gigante atrás, "10 ideias" do s3-4 e Pinterest nº3) + cada passo numa comanda (conceito v4)
 # + leque de papéis girados (Pizzino). Telas internas com composição diferente da capa e entre si.
-PASSOS = [('Gravação', 'camera', 'Uma manhã na sua pizzaria: foto e vídeo de dar fome.'),
-          ('Anúncio no bairro', 'alvo', 'O vídeo roda pra quem mora perto e pede delivery.'),
-          ('Código no pedido', 'zap', 'Cada anúncio tem um código. O pedido chega no seu zap com ele.'),
+PASSOS = [('Raio-X', 'alvo', 'A gente olha Instagram, cardápio, iFood, anúncio e Google e mostra o que ajustar primeiro.'),
+          ('Gravação', 'camera', 'Uma manhã de foto e vídeo com a sua pizza, o seu forno e a sua equipe.'),
+          ('Anúncio no bairro', 'zap', 'Pra quem mora perto, direto pro seu zap, com um código em cada pedido.'),
           ('Relatório de segunda', 'grafico', 'Toda segunda, 8h: quanto investiu, quantos pedidos, o que muda.')]
 def passo(i, w=880, rot=0, cor=TOMATE):
     t, ic, d = PASSOS[i]
@@ -95,23 +95,24 @@ feed('d15-19h-como-funciona-4-passos-1-capa',
      rodape(1240, CARVAO, CREME, 'Salva ✓', CREME, VERDE, direita='1/3 · @oreganoturbo'),
      'Capa: "4" gigante em tomate atrás das comandas + manchete em 2 cores + 4 mini comandas em leque (um passo em cada) + adesivo "arrasta"; verde')
 feed('d15-19h-como-funciona-4-passos-2',
-     BOX(0, 0, 1080, 1350, CREME) + pad(TOMATE, .10) +
-     A(40, 40, BAGEL('Passos 1 e 2', 120, VERDE, .9, SH(CARVAO, 6))) +
+     BOX(0, 0, 1080, 1350, TINTA) + pad(CREME, .06) +
+     A(40, 40, BAGEL('Passos 1 e 2', 120, CREME, .9)) +
      A(50, 200, passo(0, 980, -2, TOMATE)) +
-     A(60, 620, passo(1, 980, 2, VERDE)) +
-     A(40, 1090, adesivo('Você não precisa aparecer em vídeo', CARVAO, CREME, -3, 32)) +
+     A(60, 580, passo(1, 980, 2, VERDE)) +
+     faixa('diagnóstico ✦ foto ✦ vídeo', 960, VERDE, CREME, -3, 100, 58) +
+     A(40, 1110, adesivo('Sem palavra difícil', TOMATE, CREME, -3, 34)) +
      rodape(1240, VERDE, CREME, 'Continua →', CREME, VERDE, direita='2/3 · @oreganoturbo'),
-     'Tela 2: 2 comandas grandes empilhadas e giradas (passo 1 gravação, passo 2 anúncio) com número gordo em quadro de cor + ícone em traço; creme com padrão tomate')
+     'Tela 2: 2 comandas grandes empilhadas e giradas (passo 1 Raio-X, passo 2 gravação) com número gordo em quadro de cor + ícone em traço + faixa em loop; carvão')
 feed('d15-19h-como-funciona-4-passos-3',
      BOX(0, 0, 1080, 1350, TOMATE) + pad(CREME, .10) +
      A(40, 40, BAGEL('Passos 3 e 4', 120, CREME, .9, SH(CARVAO, 6))) +
      A(50, 190, passo(2, 980, 2, VERDE)) +
      A(50, 560, passo(3, 980, -2, CARVAO)) +
      A(40, 990, f'<div style="background:{CARVAO};border:6px solid {CREME};box-shadow:12px 12px 0 rgba(20,19,17,.35);padding:22px 28px;transform:rotate(-2deg);width:640px">'
-                + MONO('e antes de tudo', 16, ACAFRAO) + BAGEL('Começa pelo Raio-X.', 50, CREME, .95, 'margin-top:6px') + '</div>') +
+                + MONO('quer começar pelo passo 1?', 16, ACAFRAO) + BAGEL('Manda RAIO-X<br>no direct.', 50, CREME, .95, 'margin-top:6px') + '</div>') +
      A(720, 1030, ZAP(VERDE, CREME, 5, 36)) +
      rodape(1240, CARVAO, CREME, 'Chama no zap ↗', CREME, TOMATE, direita='3/3 · @oreganoturbo'),
-     'Tela 3: 2 comandas grandes (passo 3 código, passo 4 relatório) + bloco carvão "Começa pelo Raio-X" + adesivo do zap; tomate (cor invertida em relação à tela 2)')
+     'Tela 3: 2 comandas grandes (passo 3 anúncio com código, passo 4 relatório) + bloco carvão "Manda RAIO-X no direct" + adesivo do zap; tomate (cor invertida em relação à tela 2)')
 
 # ================================================================== d20 19h · PROMOÇÃO TODO DIA CANSA. (creme · etiquetas rasgadas)
 # Copia: parede de palavra repetida ("HOT SAUCE" das favoritas, usada no d23 com texto) feita de ETIQUETAS de desconto rasgadas

@@ -23,7 +23,8 @@
   "manchete": "FOTO QUE DÁ FOME.",
   "apoio": "A foto vende antes da pizza.",
   "composicao": "Peça aprovada",
-  "imagem": "v3:p01-foto-que-da-fome.jpg"
+  "imagem": "v3:p01-foto-que-da-fome.jpg",
+  "v4": "v4:p01-foto-que-da-fome.jpg"
  },
  {
   "dia": 1,
@@ -36,7 +37,8 @@
   "manchete": "SÓ PIZZARIAS.",
   "apoio": "Só fazemos isso. Por isso fazemos bem.",
   "composicao": "Peça aprovada",
-  "imagem": "v3:p03-grade-so-pizzarias.jpg"
+  "imagem": "v3:p03-grade-so-pizzarias.jpg",
+  "v4": "v4:p03-so-pizzarias-anel.jpg"
  },
  {
   "dia": 2,
@@ -49,7 +51,8 @@
   "manchete": "Dia fraco tem nome?",
   "apoio": "Enquete: segunda, terça ou quarta.",
   "composicao": "Peça aprovada",
-  "imagem": "v3:story-1-enquete.jpg"
+  "imagem": "v3:story-1-enquete.jpg",
+  "v4": "v4:story-1-enquete.jpg"
  },
  {
   "dia": 2,
@@ -62,7 +65,8 @@
   "manchete": "TERÇA também tem fome.",
   "apoio": "Dia fraco tem conserto.",
   "composicao": "Peça aprovada",
-  "imagem": "v3:p02-terca-tambem-tem-fome.jpg"
+  "imagem": "v3:p02-terca-tambem-tem-fome.jpg",
+  "v4": "v4:p02-terca-tambem-tem-fome.jpg"
  },
  {
   "dia": 2,
@@ -101,7 +105,8 @@
   "manchete": "RAIO-X DA SUA PIZZARIA",
   "apoio": "R$ 297, abatido no 1º mês se fechar em 7 dias.",
   "composicao": "Peça aprovada",
-  "imagem": "v3:p05-raio-x-cartaz.jpg"
+  "imagem": "v3:p05-raio-x-cartaz.jpg",
+  "v4": "v4:p05-raio-x-comanda.jpg"
  },
  {
   "dia": 3,
@@ -140,7 +145,8 @@
   "manchete": "MENOS APP. MAIS ZAP.",
   "apoio": "Pedido direto, cliente seu.",
   "composicao": "Peça aprovada",
-  "imagem": "v3:p04-menos-app-mais-zap.jpg"
+  "imagem": "v3:p04-menos-app-mais-zap.jpg",
+  "v4": "v4:p04-menos-app-mais-zap.jpg"
  },
  {
   "dia": 4,
@@ -166,7 +172,8 @@
   "manchete": "Raio-X R$ 297",
   "apoio": "5 vagas de fundadora abertas.",
   "composicao": "Peça aprovada",
-  "imagem": "v3:story-2-raio-x.jpg"
+  "imagem": "v3:story-2-raio-x.jpg",
+  "v4": "v4:story-2-raio-x.jpg"
  },
  {
   "dia": 5,
@@ -179,7 +186,8 @@
   "manchete": "CARDÁPIO DA CASA",
   "apoio": "O que sai da nossa cozinha, todo mês.",
   "composicao": "Peça aprovada",
-  "imagem": "v3:p06-cardapio-da-casa.jpg"
+  "imagem": "v3:p06-cardapio-da-casa.jpg",
+  "v4": "v4:p06-cardapio-da-casa.jpg"
  },
  {
   "dia": 5,
@@ -218,7 +226,8 @@
   "manchete": "5 VAGAS DE FUNDADORA.",
   "apoio": "Preço do anual no contrato de 6 meses.",
   "composicao": "Peça aprovada",
-  "imagem": "v3:p08-5-vagas-fundadoras.jpg"
+  "imagem": "v3:p08-5-vagas-fundadoras.jpg",
+  "v4": "v4:p08-5-vagas-fundadoras.jpg"
  },
  {
   "dia": 6,
@@ -244,7 +253,8 @@
   "manchete": "Pedido direto no zap.",
   "apoio": "Assim chega o pedido (exemplo ilustrativo).",
   "composicao": "Peça aprovada",
-  "imagem": "v3:story-3-pedido-no-zap.jpg"
+  "imagem": "v3:story-3-pedido-no-zap.jpg",
+  "v4": "v4:story-3-pedido-no-zap.jpg"
  },
  {
   "dia": 7,
@@ -257,7 +267,8 @@
   "manchete": "PIZZA NA CABEÇA.",
   "apoio": "Só pensamos em pizzaria. Todo dia.",
   "composicao": "Peça aprovada",
-  "imagem": "v3:p09-pizza-na-cabeca.jpg"
+  "imagem": "v3:p09-pizza-na-cabeca.jpg",
+  "v4": "v4:p09-pizza-na-cabeca.jpg"
  },
  {
   "dia": 7,
@@ -270,7 +281,8 @@
   "manchete": "SÓ PIZZARIAS.",
   "apoio": "Hamburgueria, açaí e sushi: não atendemos.",
   "composicao": "Peça aprovada",
-  "imagem": "v3:p07-so-pizzarias-avental.jpg"
+  "imagem": "v3:p07-so-pizzarias-avental.jpg",
+  "v4": "v4:p07-so-pizzarias-avental.jpg"
  },
  {
   "dia": 8,
@@ -451,8 +463,8 @@
   "linha_nome": "Método Orégano",
   "manchete": "CÓDIGO EM CADA PEDIDO.",
   "apoio": "Assim a gente sabe qual vídeo vendeu.",
-  "composicao": "Close de pedido com código PZ14",
-  "imagem": "F8"
+  "composicao": "Comanda gigante com o código PZ14 (ilustrativo)",
+  "imagem": "TIPO"
  },
  {
   "dia": 12,
@@ -581,8 +593,8 @@
   "linha_nome": "Método Orégano",
   "manchete": "COMO FUNCIONA EM 4 PASSOS",
   "apoio": "Carrossel do método.",
-  "composicao": "Carrossel; capa com foto de mão segurando o celular",
-  "imagem": "F13"
+  "composicao": "Carrossel de 3 telas: 4 comandas, uma por passo",
+  "imagem": "TIPO"
  },
  {
   "dia": 16,
@@ -776,8 +788,8 @@
   "linha_nome": "Dor do dono",
   "manchete": "PROMOÇÃO TODO DIA CANSA.",
   "apoio": "O cliente aprende a esperar o desconto.",
-  "composicao": "Manchete gigante + pizza com etiqueta rasgada",
-  "imagem": "F23"
+  "composicao": "Manchete gigante + parede de etiquetas de desconto rasgadas",
+  "imagem": "TIPO"
  },
  {
   "dia": 21,
@@ -1049,8 +1061,8 @@
   "linha_nome": "Oferta",
   "manchete": "PRIMEIRO PASSO: RAIO-X.",
   "apoio": "R$ 297, abatido no 1º mês se fechar em 7 dias.",
-  "composicao": "Pizza com estrela de preço",
-  "imagem": "F30"
+  "composicao": "\"1º\" gigante + comanda do Raio-X com o preço escrito (sem estrela de preço)",
+  "imagem": "TIPO"
  },
  {
   "dia": 28,

@@ -2,7 +2,7 @@
 # Executado (exec) no topo de s1-2/gerar_s12.py, s3-4/gerar_s34.py e fotos/gerar_fotos.py, no lugar do v3/gerar.py.
 # Lê as funções de marca de ../../v4/gerar.py SEM alterar nada lá e aplica as lições da pesquisa de 08/11
 # (../../../biblioteca-pizzaria/PESQUISA-08-11-IDENTIDADES-E-SOCIAL.md):
-#  1. Conceito único: toda arte leva a COMANDA "PEDIDO Nº" = posição da postagem no calendário (01 a 84).
+#  1. Conceito único: toda arte leva a COMANDA "PEDIDO Nº". O kit v4 tem 01 a 12; o calendário segue de 13 a 84 (nº único).
 #     A comanda se posiciona sozinha no lugar mais livre da arte (window.fit, no render), sem cobrir texto.
 #  2. Paleta fixa: tomate, verde, creme e carvão. Açafrão só em detalhe (nunca fundo inteiro).
 #  3. Bagel Fat One em todas as manchetes: ANTON passa a desenhar em Bagel (encolhe sozinho até caber).
@@ -25,8 +25,13 @@ ANTON_FAIXA = _ANTON_V3   # Anton só fica na faixa em loop (regra v4)
 _COMANDA_V4 = comanda   # os geradores usam o nome 'comanda' para outras coisas
 _CAL = json.load(open(os.path.join(_ARTES, '..', 'calendario.json'), encoding='utf-8'))
 def num_pedido(nome):
+    """Nº único na campanha: o kit v4 usa 01 a 12; as postagens do calendário que não são do kit seguem de 13 a 84, na ordem de publicação."""
     dia, hora = int(nome[1:3]), nome[4:7]
-    for k, r in enumerate(_CAL, 1):
+    k = 12
+    for r in _CAL:
+        if r['imagem'].startswith('v3:'):
+            continue
+        k += 1
         if r['dia'] == dia and r['hora'] == hora:
             return k, r['linha_nome'].lower()
     return 0, 'só pizzarias'

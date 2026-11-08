@@ -4,18 +4,18 @@ Gere UMA imagem para CADA item abaixo, na ordem, uma de cada vez, e escreva o c�
 Regras para todas:
 - fotos ultrarrealistas de campanha de comida;
 - luz dura de flash quando o pedido diz "flash";
-- cores da marca: verde #1E5B3B, vermelho #C8302B, creme #F3EEE6, açafrão #F2B33D;
+- cores da marca: verde #1E5B3B, vermelho tomate #C8302B e creme #F3EEE6 (fundo chapado de uma delas); amarelo açafrão só em detalhe, nunca no fundo;
+- o texto vai por cima depois: deixe uma área livre de fundo no topo (a pizza nunca fica embaixo do texto);
 - sem texto, sem logo e sem marca de outra empresa na imagem (o logo eu coloco depois);
 - formato 4:5 vertical.
+
+Faltam 23 fotos.
 
 F1
 Close-up of a hand holding a smartphone showing a food delivery app order screen, a slice of pizza in the other hand, solid tomato red #C8302B background, harsh flash, hard shadow, bold campaign photography, 4:5
 
 F2
-Extreme close-up of a cheese pull from a margherita pizza slice lifted by a hand, steam rising, solid saffron yellow #F2B33D background, harsh direct flash, 4:5
-
-F3
-An empty open pizza box with only crumbs left, on a dark wooden table at night, single warm lamp, moody cinematic food photography, 4:5
+Extreme close-up of a cheese pull from a margherita pizza slice lifted by a hand, steam rising, solid tomato red #C8302B background, harsh direct flash, 4:5
 
 F4
 Behind the scenes of a food photo shoot in a pizzeria kitchen: smartphone on a small tripod filming a pizza coming out of a wood-fired oven, warm light, editorial photography, 4:5
@@ -26,32 +26,14 @@ Photorealistic photo of a family table at home with an open white pizza box with
 F6
 A pepperoni pizza cut exactly in half on a split background, left half solid red, right half solid green, hard flash, overhead shot, bold campaign photography, 4:5
 
-F7
-Top-down photo of a whole calabresa pizza with sliced onions on a solid deep green #1E5B3B background, harsh flash, hard shadow, 4:5
-
-F8
-Close-up of a pizza box with a small printed order ticket taped on top showing the code "PZ14", kraft paper, hard flash, solid saffron background, 4:5
-
 F9
 Three pizza slices side by side showing stuffed crusts with creamy cheese, cheddar and chocolate, solid tomato red background, overhead, hard flash, 4:5
-
-F10
-A whole margherita pizza centered, shot from above on solid cream background, basil leaves, hard flash, sharp shadow, 4:5
 
 F11
 Brazilian pizza chef in a deep green apron seen from below, holding a pizza peel, wood-fired oven glowing, confident pose, warm cinematic light, 4:5
 
-F12
-Wood-fired pizza oven at dawn with first flames, a pizzeria still closed, warm and blue light mix, cinematic, 4:5
-
-F13
-A hand holding a smartphone toward the camera with a WhatsApp chat open, pizzeria counter blurred behind, hard flash, solid green background, 4:5
-
 F14
-A single pepperoni pizza floating on a solid saffron yellow background, slight tilt, hard flash, crisp shadow, 4:5
-
-F15
-Delivery rider on a motorcycle holding an insulated pizza bag, shot from low angle against deep blue sky, wide-angle, bold advertising photography, 4:5
+A single pepperoni pizza floating on a solid deep green #1E5B3B background, slight tilt, hard flash, crisp shadow, 4:5
 
 F16
 Two smartphones side by side: one showing a dark messy pizzeria Instagram profile, the other a bright appetizing one, on solid cream background, hard flash, 4:5
@@ -74,9 +56,6 @@ Laptop on a pizzeria counter showing a weekly sales report dashboard with green 
 F22
 Several pepperoni pizza slices flying in the air with oregano flakes, solid deep green background, high-speed flash photography, 4:5
 
-F23
-A pizza box with a torn red discount sticker, on a solid saffron background, hard flash, bold campaign photography, 4:5
-
 F24
 Pizza chef sliding a pizza into a roaring wood-fired oven, sparks, dark background, dramatic warm light, 4:5
 
@@ -90,13 +69,10 @@ F27
 Extreme close-up of a very long cheese pull from a pizza slice lifted high, solid tomato red background, harsh flash, 4:5
 
 F28
-Hand holding a smartphone showing a clean digital pizza menu with photos, solid saffron background, hard flash, 4:5
+Hand holding a smartphone showing a clean digital pizza menu with photos, solid cream #F3EEE6 background, hard flash, 4:5
 
 F29
-A pizza and slices flying with basil and tomatoes on a solid saffron yellow background, high-speed flash, 4:5
-
-F30
-A whole pepperoni pizza with one slice lifted, solid deep green background, overhead, hard flash, 4:5
+A pizza and slices flying with basil and tomatoes on a solid tomato red #C8302B background, high-speed flash, 4:5
 
 F31
 Brazilian family laughing and sharing a pizza on a Sunday at home, natural light, candid lifestyle photography, 4:5

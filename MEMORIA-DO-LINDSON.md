@@ -395,3 +395,7 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
   - paleta fixa (tomate, verde, creme, carvão) e Bagel em todas as manchetes;
   - Raio-X sem o "vermelho + pizza + selo de preço";
   - p03 nova, com o nome girando em volta da pizza.
+- **08/11/2026 (conta Zuleide, Rocco + Paollo) — Orégano Turbo, tudo no sistema da pesquisa (aguardando o Lindson):** "use pra agregar e melhorar tudo que for possível, use nossos agentes".
+  - **Rocco:** kit v5 em `social/v5/` (12 posts, carrossel "Como funciona" de 7 telas e 3 stories; cheese pull, Reels com a pizza voando, meme e "Dicionário do pizzaiolo"), substituindo a v3 e a v4.
+  - **Paollo:** 47 artes do calendário re-renderizadas no sistema v4, com a comanda Nº13 a 84; 4 pautas que esperavam foto viraram tipográficas (`calendario/artes/tipo-v4/`); perfil e destaques na paleta v4.
+  - **Faltam:** 23 fotos do lote 2 (`PEDIDO-FOTOS-LOTE-2.txt`) e as 5 fotos novas listadas no README da v5.

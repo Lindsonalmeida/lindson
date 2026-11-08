@@ -1,8 +1,8 @@
 {
- "d12-12h-codigo-em-cada-pedido": "Comanda gigante com o código PZ14 ocupando a peça (conceito \"PEDIDO Nº\" do v4 em tamanho de cartaz) + linhas da comanda (vídeo, anúncio, pedido) + 3 adesivos girados com o caminho vídeo → código → relatório; creme com padrão verde. Exemplo ilustrativo.",
+ "d12-12h-codigo-em-cada-pedido": "Comanda gigante com o código PZ14 ocupando a peça (conceito \"PEDIDO Nº\" do v4 em tamanho de cartaz) + linhas da comanda (vídeo, anúncio, pedido) + 3 adesivos girados com o caminho vídeo → código → relatório; tomate com padrão creme. Exemplo ilustrativo.",
  "d15-19h-como-funciona-4-passos-1-capa": "Capa: \"4\" gigante em tomate atrás das comandas + manchete em 2 cores + 4 mini comandas em leque (um passo em cada) + adesivo \"arrasta\"; verde",
- "d15-19h-como-funciona-4-passos-2": "Tela 2: 2 comandas grandes empilhadas e giradas (passo 1 gravação, passo 2 anúncio) com número gordo em quadro de cor + ícone em traço; creme com padrão tomate",
- "d15-19h-como-funciona-4-passos-3": "Tela 3: 2 comandas grandes (passo 3 código, passo 4 relatório) + bloco carvão \"Começa pelo Raio-X\" + adesivo do zap; tomate (cor invertida em relação à tela 2)",
+ "d15-19h-como-funciona-4-passos-2": "Tela 2: 2 comandas grandes empilhadas e giradas (passo 1 Raio-X, passo 2 gravação) com número gordo em quadro de cor + ícone em traço + faixa em loop; carvão",
+ "d15-19h-como-funciona-4-passos-3": "Tela 3: 2 comandas grandes (passo 3 anúncio com código, passo 4 relatório) + bloco carvão \"Manda RAIO-X no direct\" + adesivo do zap; tomate (cor invertida em relação à tela 2)",
  "d20-19h-promocao-todo-dia-cansa": "Parede de 7 etiquetas de desconto (−10% a −70%), algumas rasgadas, giradas em sentidos alternados + manchete em 3 tamanhos + bloco verde \"o cliente aprende a esperar o desconto\" + comanda \"em vez disso\"; creme com padrão tomate",
  "d27-19h-primeiro-passo-raio-x": "\"1º\" gigante em verde-escuro saindo pela borda + manchete em 3 linhas + comanda do Raio-X com o preço escrito (sem estrela de preço, regra v4) + selo e adesivo; verde"
 }

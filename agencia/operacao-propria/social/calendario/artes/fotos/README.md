@@ -1,5 +1,7 @@
 # Artes com foto do calendário · @oreganoturbo (Paollo, 06/11/2026)
 
+> **v4 (08/11/2026, conta Zuleide):** refeitas no sistema v4 (comanda "PEDIDO Nº", paleta sem fundo açafrão, Bagel nas manchetes, Raio-X sem explosão de preço). As funções de marca agora vêm de `../sistema_v4.py`, que lê o `../../../v4/gerar.py`. O que mudou peça a peça está em `../../README.md`; a tabela abaixo descreve a composição da v3.
+
 **Pedido:** 5 peças do calendário (`../../calendario.json`) que pediam foto, feitas com o lote novo do Gemini (`../../../../identidade/fotos-ia/hd/`). Cada foto entra **uma vez só** e está registrada em `../../../FOTOS-USADAS.md`. No `calendario.json` (e no `montar_calendario.py` e no `CALENDARIO.md`), o campo "imagem" dessas 5 entradas passou de F3/F7/F10/F12/F15 para o código da foto usada.
 
 **Padrão:** kit v3 aprovado ("AGORA SIM, ESSE É O PADRÃO"). O `gerar_fotos.py` **carrega as funções de marca de `../../../v3/gerar.py`**, do mesmo jeito que `s1-2/gerar_s12.py` e `s3-4/gerar_s34.py`. Recorte com BiRefNet (`recortar.py`, um por processo) para a letra passar **por trás** da pessoa ou do produto.

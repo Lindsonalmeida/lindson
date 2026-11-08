@@ -1,5 +1,7 @@
 # Artes tipográficas das semanas 3 e 4 · @oreganoturbo (Paollo, conta Leandro, 06/11/2026)
 
+> **v4 (08/11/2026, conta Zuleide):** refeitas no sistema v4 (comanda "PEDIDO Nº", paleta sem fundo açafrão, Bagel nas manchetes, Raio-X sem explosão de preço). As funções de marca agora vêm de `../sistema_v4.py`, que lê o `../../../v4/gerar.py`. O que mudou peça a peça está em `../../README.md`; a tabela abaixo descreve a composição da v3.
+
 **Pedido:** as 21 peças com imagem = "TIPO" dos dias 15 a 28 (23/11 a 06/12) de `../../calendario.json`. O carrossel "10 ideias" tem capa + 2 telas, então são **23 imagens**.
 
 **Padrão:** kit v3 aprovado ("AGORA SIM, ESSE É O PADRÃO"). O gerador `gerar_s34.py` **carrega as funções de marca de `../../../v3/gerar.py`** (símbolo, logo, selo, padrão de ícones, xadrez, adesivo, estrela, faixa em loop, tarja) e acrescenta peças desenhadas em HTML: celular com WhatsApp, relógio despertador, comanda, prancheta, calendário, cardápio riscado, perfil do Instagram, relatório, placar de vagas e figurinha de enquete.

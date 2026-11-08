@@ -2,8 +2,11 @@
 # (mesmo sistema: Aprovações com abas Para aprovar · Em ajuste · Aprovados · Postados, CRM, financeiro, notícias, pedidos).
 # Trocas pontuais: identidade (carvão, verde, açafrão), dados, CRM de pizzarias e as artes do calendário com legenda.
 # As artes ficam em arquivos (painel/oregano/artes/), não embutidas. Conta Leandro, 06/11/2026.
+# v4 (conta Zuleide, 08/11/2026): lê também artes/tipo-v4/ e, com USAR_V4 = True (depois que o Lindson aprovar o kit v4),
+# troca as peças 'v3:' pela equivalente do kit v4 (campo 'v4' do calendario.json).
 # Uso: python3 montar_painel.py [pasta do privado CentralLindsonALmeida]
 import json, os, re, sys, shutil, base64, io, glob
+USAR_V4 = False   # True quando o Lindson aprovar o kit v4 (../v4/)
 from PIL import Image
 D = os.path.dirname(os.path.abspath(__file__))
 OP = os.path.join(D, '..', '..')
@@ -40,7 +43,7 @@ dados = {"cliente": "oregano", "atualizado": "06/11/2026", "nome": "Orégano Tur
          "site": "https://lindsonalmeida.pages.dev/oreganoturbo/", "instagram": {"perfil": "@oreganoturbo", "data": "a medir", "periodo": "primeira medição", "visualizacoes": None},
          "kpiCrm": "Diagnósticos marcados", "kpiCrmNota": "no CRM de pizzarias", "metas": [], "semMetas": "Meta aprovada: 2 pizzarias novas por mês; as 5 fundadoras em 60 dias.",
          "entregas": [["Identidade visual v4.1 + manual (19 p.)", "Marca", "06/11", "aprovada"], ["Site principal com planos e formulário", "Site", "06/11", "no ar (prévia)"],
-                      ["Kit social v3 (9 posts, 3 stories)", "Posts", "06/11", "aprovado: é o padrão"], ["Calendário de 4 semanas, 3 postagens por dia", "Posts", "06/11", "na aba Aprovações"],
+                      ["Kit social v3 (9 posts, 3 stories)", "Posts", "06/11", "aprovado: é o padrão"], ["Calendário de 4 semanas, 3 postagens por dia", "Posts", "06/11", "na aba Aprovações"], ["Kit social v4 + calendário no sistema v4 (comanda PEDIDO Nº)", "Posts", "08/11", "aguardando aprovação"],
                       ["Bio, foto de perfil e capas de destaque", "Perfil", "06/11", "na aba Aprovações"]]}
 s = s[:i] + json.dumps(dados, ensure_ascii=False) + s[j:]
 
@@ -75,9 +78,11 @@ OUT = os.path.join(PRIV, 'painel', 'oregano', 'artes'); os.makedirs(OUT, exist_o
 def arte(r):
     im = r['imagem']
     if im.startswith('v3:'):
+        if USAR_V4 and r.get('v4'):
+            return [os.path.join(OP, 'social', 'v4', 'pecas', r['v4'][3:])]
         return [os.path.join(OP, 'social', 'v3', 'pecas', im[3:])]
     pre = f"d{r['dia']:02d}-{r['hora']}-"
-    for pasta in ['s1-2', 's3-4', 'fotos']:
+    for pasta in ['s1-2', 's3-4', 'fotos', 'tipo-v4']:
         fs = sorted(glob.glob(os.path.join(D, 'artes', pasta, pre + '*.jpg')))
         if fs: return fs
     return []
