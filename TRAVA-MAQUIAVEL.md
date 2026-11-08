@@ -99,3 +99,4 @@ Legenda: ✅ feito · 🟡 em andamento · ⏳ depende do Lindson ou do cliente 
 ## Registro de desbloqueios ("Maquiavel, libera")
 | Data | Pedido | Liberado ou recusado | Motivo (a, b, c ou fuga) | O que ficou para trás | Conta |
 |---|---|---|---|---|---|
+| 08/11 | "Usando esses 4 agentes, crie tudo da Pizzaria Brasa Viva (fictícia) para usar como portfólio" | **travado** (sem "libera") | projeto novo que não paga; a Tribuna 98 (pagante) está em 1 de 8, com partes que só dependem da equipe (análise, painel e site principal) | os 3 exemplos já em andamento serão entregues (viram a 1ª peça do portfólio) | Zuleide |
