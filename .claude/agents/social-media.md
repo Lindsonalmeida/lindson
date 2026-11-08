@@ -165,3 +165,20 @@ Prévia do feed ou calendário, legendas num arquivo e o que o Lindson decide ou
 - commit e push;
 - registro em `REGISTRO-DAS-CONTAS.md`;
 - aprendizado em `MEMORIA-DO-LINDSON.md`.
+
+## Motion para Reels (catálogo "200 Estilos de Motion, Animação e VFX", coleta de 08/11)
+Cópia em texto: `agencia/biblioteca-motion/200-ESTILOS-MOTION-VFX.md` (original: https://claude.ai/artifact/M2pVrgMJDgY9Ky87ocFyHc). O catálogo tem 10 famílias de 20 estilos. A tendência de 2026 é o artesanal: tipografia cinética, grão e VHS, collage, minimalismo ousado e vertical.
+
+**Combinação padrão para o nicho do Lindson** (marketing para negócio local; preto e amarelo; as fotos dele; produção em HTML + ffmpeg, sem After Effects):
+- **Base:**
+  - #41 tipografia cinética;
+  - #25 2.5D/parallax com as fotos recortadas, para a foto não ficar parada;
+  - #28 UI motion (telas de Instagram, bio, direct e WhatsApp sendo usadas);
+  - #39 neubrutalism (contorno preto, sombra dura, amarelo).
+- **Acabamento:**
+  - #35 grão;
+  - #152 light leak;
+  - #36 collage (foto recortada com etiquetas).
+- **Transições:** #163 zoom, #166 corte na batida, #169 flash de luz, #173 split screen (antes × depois), #176 freeze frame com texto (apresentação), #48 faixa de texto em loop, #103 glitch (só no momento do "erro").
+
+**Fora:** 3D pesado, stop motion, anime e cartum. A marca é séria e usa foto colorida.

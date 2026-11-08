@@ -17,3 +17,4 @@
 |---|---|---|---|
 | 08/11 | PESQUISA-08-11, reprovação dos branches cassandra/*, kits v4 e v5, calendário e perfil v4, fotos pendentes | Paollo | seção "Aprendizados de 08/11/2026" (pedido do Lindson) |
 | 08/11 | privado: web-design-premium, pizzaria-e-vendas, claude-code-youtube, skills landing-page/reels-viral/repurposing/salvar-referencia/arte-advocacia; biblioteca lotes 08 e 09; banco Pexels de 300 fotos | Webdesigner, Designer gráfico, Social media, Paollo | seção "Coleta de 08/11" em cada agente |
+| 08/11 | doc "200 Estilos de Motion, Animação e VFX" (conta Lindson) | Social media, Designer gráfico | seção "Motion para Reels": combinação para o nicho; cópia em `agencia/biblioteca-motion/` |
