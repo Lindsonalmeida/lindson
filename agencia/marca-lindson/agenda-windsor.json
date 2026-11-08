@@ -1,0 +1,239 @@
+{
+ "conta": "@lindsonalmeida_",
+ "instagram_id_windsor": "17841443356770777",
+ "gerado": "2026-11-08 (conta Zuleide, social media)",
+ "observacao": "Windsor não agenda: publica na hora. Disparar cada item no horário. As mídias precisam de URL pública (ex.: raw do GitHub depois do push). Ritmo pedido: 2 carrosséis + 2 posts + 2 Reels por dia; Reels bloqueados por falta de vídeo.",
+ "posts": [
+  {
+   "ordem": 1,
+   "data": "2026-11-08",
+   "hora": "20:00",
+   "fuso": "America/Fortaleza",
+   "windsor_acao": "create_image_post",
+   "formato": "Post 4:5",
+   "titulo": "Prazer, Lindson",
+   "intencao": "atrair/alcance (apresentação)",
+   "cor": "preto",
+   "composicao": "palavra gigante + foto",
+   "arquivos": [
+    "/home/user/lindson/agencia/marca-lindson/agenda/a1p.jpg"
+   ],
+   "jpeg_4x5_ate_8mb": true,
+   "precisa_converter": false,
+   "url_publica": null,
+   "legenda": "Marketing para negócio local em São Luís: prazer, eu sou o Lindson\n\nSe você chegou agora, deixa eu me apresentar. Eu sou o Lindson, de São Luís, e meu trabalho é um só: fazer o Instagram do seu negócio trazer gente pro seu WhatsApp.\n\nPara quem eu trabalho\nDono de clínica, loja, prestador de serviço. Gente que é boa no que faz, mas que posta, posta e o cliente não chama.\n\nO que você vai ver aqui\nErros que fazem o cliente ir embora, bastidores de clientes reais e passo a passo para você arrumar o seu perfil hoje.\n\nExemplo: a Rafael Imports ganhou um mini site com botão de WhatsApp. O cliente toca e já chama.\n\nQuem trabalha bem não deveria perder cliente para quem só aparece mais.\n\n👉 Comenta PERFIL que eu olho o seu, de graça.\n\n#marketingdigital #instagramparanegocios #saoluisma #negociolocal",
+   "caracteres": 820,
+   "status": "aprovado pelo Lindson (MEMORIA 03/11 e 04/11; painel admin, aba Artes)",
+   "obs": "fixar no perfil"
+  },
+  {
+   "ordem": 2,
+   "data": "2026-11-08",
+   "hora": "21:00",
+   "fuso": "America/Fortaleza",
+   "windsor_acao": "create_carousel_post",
+   "formato": "Carrossel 4 telas",
+   "titulo": "Eu mudei a minha marca",
+   "intencao": "prova/autoridade",
+   "cor": "amarelo",
+   "composicao": "palavra gigante no amarelo + recorte",
+   "arquivos": [
+    "/home/user/lindson/agencia/marca-lindson/agenda/c2yp.jpg",
+    "/home/user/lindson/agencia/marca-lindson/agenda/c2_2.jpg",
+    "/home/user/lindson/agencia/marca-lindson/agenda/c2_3.jpg",
+    "/home/user/lindson/agencia/marca-lindson/agenda/c2_4.jpg"
+   ],
+   "jpeg_4x5_ate_8mb": true,
+   "precisa_converter": false,
+   "url_publica": null,
+   "legenda": "Identidade visual no Instagram: antes e depois da minha marca\n\nEu mudei a minha marca. E mudei pelo mesmo motivo que peço para os meus clientes mudarem: clareza.\n\nO que mudou\nCor: preto e amarelo, um acento só. Letra: manchete forte com uma palavra que vira a frase. Foto: rosto real, colorida, com luz de cinema.\n\nPor que mudei\nPerfil confuso o cliente passa direto. Ele precisa entender quem é, o que faz e como chamar.\n\nExemplo: desliza e vê o antes e o depois.\n\nMarca clara é a primeira venda.\n\n👉 E o seu perfil, passa confiança? Comenta PERFIL.\n\n#identidadevisual #antesedepois #brandingpessoal #designsaoluis",
+   "caracteres": 634,
+   "status": "aprovado pelo Lindson (MEMORIA 03/11 e 04/11; painel admin, aba Artes)",
+   "obs": "legenda corrigida: \"preto e branco\" virou \"colorida\""
+  },
+  {
+   "ordem": 3,
+   "data": "2026-11-09",
+   "hora": "07:00",
+   "fuso": "America/Fortaleza",
+   "windsor_acao": "create_image_post",
+   "formato": "Post 4:5",
+   "titulo": "Avaliação gratuita do perfil",
+   "intencao": "conversão/direct (comenta PERFIL)",
+   "cor": "preto",
+   "composicao": "aspas (papo reto)",
+   "arquivos": [
+    "/home/user/lindson/agencia/marca-lindson/agenda/p1p.jpg"
+   ],
+   "jpeg_4x5_ate_8mb": true,
+   "precisa_converter": false,
+   "url_publica": null,
+   "legenda": "Avaliação de perfil do Instagram grátis: seu perfil espanta cliente?\n\nAntes de qualquer conversa, o cliente olha o seu perfil. Se ele não entende o que você faz, ele vai embora sem falar nada.\n\nO que eu olho\nBio, destaques e link. Os três lugares onde o cliente decide se chama ou não.\n\nO que você recebe\nOs erros que estão espantando cliente e o que mudar primeiro. Sem custo.\n\nExemplo: destaque com nome \"Coisas\" não diz nada. \"Preços e horários\" responde antes da pergunta.\n\n👉 Comenta PERFIL e eu faço a sua avaliação.\n\n#avaliacaodeperfil #instagramprofissional #dicasparaempreendedor #maranhao",
+   "caracteres": 617,
+   "status": "aprovado pelo Lindson (MEMORIA 03/11 e 04/11; painel admin, aba Artes)",
+   "obs": "tema parecido com o post de 20/10 (10 vagas); peça nova"
+  },
+  {
+   "ordem": 4,
+   "data": "2026-11-09",
+   "hora": "12:00",
+   "fuso": "America/Fortaleza",
+   "windsor_acao": "create_carousel_post",
+   "formato": "Carrossel 5 telas",
+   "titulo": "5 coisas que todo perfil que vende tem",
+   "intencao": "educar/salvar",
+   "cor": "preto",
+   "composicao": "palavra gigante atrás (PERFIL)",
+   "arquivos": [
+    "/home/user/lindson/agencia/marca-lindson/agenda/s2_c3_1.jpg",
+    "/home/user/lindson/agencia/marca-lindson/agenda/s2_c3_2.jpg",
+    "/home/user/lindson/agencia/marca-lindson/agenda/s2_c3_3.jpg",
+    "/home/user/lindson/agencia/marca-lindson/agenda/s2_c3_4.jpg",
+    "/home/user/lindson/agencia/marca-lindson/agenda/s2_c3_5.jpg"
+   ],
+   "jpeg_4x5_ate_8mb": true,
+   "precisa_converter": false,
+   "url_publica": null,
+   "legenda": "Perfil do Instagram que vende: as 5 coisas que não podem faltar\n\nCurtida não paga boleto. Perfil que vende tem 5 coisas em comum. Salva e confere o seu.\n\n1. Bio clara · diz o que você faz, para quem e onde.\n2. Rosto na foto · gente confia em gente, não em logo.\n3. Destaques na ordem do cliente · comece aqui, clientes, como funciona, contato.\n4. Link direto no WhatsApp · com a mensagem pronta.\n5. Post que mostra resultado · antes e depois, bastidor, cliente real.\n\nExemplo: destaque \"Comece aqui\" responde as 3 perguntas que todo mundo faz antes de chamar.\n\n👉 Quantas o seu tem? Comenta PERFIL que eu te digo o que falta.\n\n#perfilquevende #instagramparaempresas #dicasdeinstagram #empreendedorismoslz",
+   "caracteres": 735,
+   "status": "aprovado pelo Lindson (MEMORIA 03/11 e 04/11; painel admin, aba Artes)",
+   "obs": ""
+  },
+  {
+   "ordem": 5,
+   "data": "2026-11-09",
+   "hora": "19:30",
+   "fuso": "America/Fortaleza",
+   "windsor_acao": "create_image_post",
+   "formato": "Post 4:5",
+   "titulo": "Já impulsionou e jogou dinheiro fora?",
+   "intencao": "conversão/direct (comenta ANÚNCIO)",
+   "cor": "amarelo",
+   "composicao": "palavra gigante no amarelo",
+   "arquivos": [
+    "/home/user/lindson/agencia/marca-lindson/agenda/s2_p2.jpg"
+   ],
+   "jpeg_4x5_ate_8mb": true,
+   "precisa_converter": false,
+   "url_publica": null,
+   "legenda": "Impulsionar no Instagram: por que você jogou dinheiro fora\n\nJá impulsionou e não chegou ninguém? O problema quase nunca é o botão. É o que vai no anúncio e para quem.\n\nOs 3 erros mais comuns\nImpulsionar post de bom dia, deixar o público aberto demais e não dizer o que a pessoa deve fazer.\n\nO que eu reviso\nO criativo, o texto, o público e o caminho até o WhatsApp.\n\nExemplo: o mesmo dinheiro em um vídeo com pergunta e botão de mensagem traz conversa, não só curtida.\n\n👉 Comenta ANÚNCIO que eu reviso o seu.\n\n#trafegopago #impulsionarpost #anunciosnoinstagram #negociosdesaoluis",
+   "caracteres": 599,
+   "status": "aprovado pelo Lindson (MEMORIA 03/11 e 04/11; painel admin, aba Artes)",
+   "obs": ""
+  },
+  {
+   "ordem": 6,
+   "data": "2026-11-09",
+   "hora": "21:00",
+   "fuso": "America/Fortaleza",
+   "windsor_acao": "create_carousel_post",
+   "formato": "Carrossel 5 telas",
+   "titulo": "Arrume sua bio em 3 passos",
+   "intencao": "educar/salvar",
+   "cor": "preto",
+   "composicao": "número grande",
+   "arquivos": [
+    "/home/user/lindson/agencia/marca-lindson/agenda/c1_1.jpg",
+    "/home/user/lindson/agencia/marca-lindson/agenda/c1_2.jpg",
+    "/home/user/lindson/agencia/marca-lindson/agenda/c1_3.jpg",
+    "/home/user/lindson/agencia/marca-lindson/agenda/c1_4.jpg",
+    "/home/user/lindson/agencia/marca-lindson/agenda/c1_5.jpg"
+   ],
+   "jpeg_4x5_ate_8mb": true,
+   "precisa_converter": false,
+   "url_publica": null,
+   "legenda": "Bio do Instagram para empresa: como arrumar em 3 passos\n\nA bio é a primeira coisa que o cliente lê. Ou ela chama, ou ela espanta. Salva este post e arruma a sua hoje.\n\nPasso 1: diga o que você faz e para quem\nNada de \"Gratidão · Fé · Família\". Escreva o serviço e a cidade.\n\nPasso 2: dê um motivo para chamar agora\nUma linha com o benefício e a ação: \"Agende sua avaliação pelo WhatsApp\".\n\nPasso 3: um link, um caminho\nLista com 7 botões confunde. Um link direto para o WhatsApp, com a mensagem pronta.\n\nExemplo: \"Clínica de estética em São Luís · Limpeza de pele e harmonização · Agende pelo WhatsApp\".\n\n👉 Quer que eu arrume a sua? Comenta PERFIL.\n\n#bioinstagram #perfilprofissional #instagramempresa #marketingmaranhao",
+   "caracteres": 744,
+   "status": "aprovado pelo Lindson (MEMORIA 03/11 e 04/11; painel admin, aba Artes)",
+   "obs": "tema próximo do carrossel de 18/10 (bio que vende); peça nova"
+  },
+  {
+   "ordem": 7,
+   "data": "2026-11-10",
+   "hora": "07:00",
+   "fuso": "America/Fortaleza",
+   "windsor_acao": "create_image_post",
+   "formato": "Post 4:5",
+   "titulo": "Do perfil ao WhatsApp",
+   "intencao": "prova/autoridade (método)",
+   "cor": "preto",
+   "composicao": "manchete + lista numerada",
+   "arquivos": [
+    "/home/user/lindson/agencia/marca-lindson/agenda/a2.jpg"
+   ],
+   "jpeg_4x5_ate_8mb": true,
+   "precisa_converter": false,
+   "url_publica": null,
+   "legenda": "Como transformar o Instagram em clientes no WhatsApp, em 3 passos\n\nInstagram bonito não paga conta. O que paga é cliente chamando. Eu cuido do caminho inteiro.\n\n1. Arrumo a sua vitrine\nBio, destaques e link. Quem entra precisa entender em segundos o que você faz e como chamar.\n\n2. Gravo o seu mês em 1 dia\nSem vergonha de câmera e sem perder tempo: eu dirijo e você só aparece.\n\n3. Levo o cliente pro WhatsApp\nAnúncio certo para quem compra na sua região, com a mensagem já escrita.\n\nExemplo: link do WhatsApp com a mensagem pronta tira o \"e agora, o que eu escrevo?\" do cliente.\n\nSe o seu Instagram hoje só junta curtida, dá para mudar.\n\n👉 Me chama no direct ou comenta PERFIL.\n\n#gestaodeinstagram #clientesnowhatsapp #marketinglocal #empreendedorsaoluis",
+   "caracteres": 780,
+   "status": "aprovado pelo Lindson (MEMORIA 03/11 e 04/11; painel admin, aba Artes)",
+   "obs": "fixar no perfil"
+  },
+  {
+   "ordem": 8,
+   "data": "2026-11-10",
+   "hora": "12:00",
+   "fuso": "America/Fortaleza",
+   "windsor_acao": "create_carousel_post",
+   "formato": "Carrossel 4 telas",
+   "titulo": "A bio da Dra. Jaci, antes e depois",
+   "intencao": "prova/autoridade (antes × depois de cliente)",
+   "cor": "preto",
+   "composicao": "palavra + foto ao lado",
+   "arquivos": [
+    "/home/user/lindson/agencia/marca-lindson/agenda/s2_c4_1.jpg",
+    "/home/user/lindson/agencia/marca-lindson/agenda/s2_c4_2.jpg",
+    "/home/user/lindson/agencia/marca-lindson/agenda/s2_c4_3.jpg",
+    "/home/user/lindson/agencia/marca-lindson/agenda/s2_c4_4.jpg"
+   ],
+   "jpeg_4x5_ate_8mb": true,
+   "precisa_converter": false,
+   "url_publica": null,
+   "legenda": "Bio do Instagram para clínica: antes e depois de verdade\n\nSeu perfil passa confiança em 3 segundos? A bio da Dra. Jaci mostra a diferença.\n\nAntes\n\"Harmonização Orofacial e Odontologia · ✨ Um novo conceito em beleza, saúde e bem-estar.\" Bonita, mas sem profissão, sem CRO, sem cidade e sem pedido.\n\nDepois\nProfissão e CRO na primeira linha, o que ela faz, a frase dela, a cidade e o convite para agendar.\n\nExemplo: desliza e compara as duas.\n\n👉 E a sua, passa confiança? Comenta PERFIL.\n\n#biodoinstagram #marketingodontologico #clinicadeestetica #saoluisdomaranhao",
+   "caracteres": 583,
+   "status": "aprovado pelo Lindson (MEMORIA 03/11 e 04/11; painel admin, aba Artes)",
+   "obs": "mostra a bio da cliente Jaci: confirmar que ela libera"
+  }
+ ],
+ "bloqueados": [
+  {
+   "item": "Reels v2 (capas r1p, r2, r3, r4, s2_r5, s2_r6, s2_r7, s2_r8)",
+   "status": "capas aprovadas 03-04/11",
+   "motivo": "só existe a capa JPEG 9:16; o vídeo não foi gravado/editado (sem vídeo e sem áudio). Windsor create_video_post exige MP4."
+  },
+  {
+   "item": "Modelos m1 a m10 (Reels m1,m3,m4,m7,m8,m10; carrosséis m2,m6,m9 só capa; post m5)",
+   "status": "no painel, sem aprovação do Lindson registrada na memória",
+   "motivo": "aguardando aprovação; Reels sem vídeo; carrosséis m2, m6, m9 só com a capa."
+  },
+  {
+   "item": "Stories · Vender sites (s01-s10, 4 vídeos com narração)",
+   "status": "aguardando aprovação (MEMORIA 05/11)",
+   "motivo": "prontos tecnicamente (JPEG 9:16 e MP4 9-11 s com áudio); falta o \"aprovado\".",
+   "arquivos": "privado painel/admin-rede/stories-sites/"
+  },
+  {
+   "item": "Reels Tráfego v3 (POV, Tier list, Modo difícil) e Tráfego v1 (concorrente, quanto custa)",
+   "status": "identidade antiga de outubro, sem aprovação registrada; não constam como postados no Windsor",
+   "motivo": "decisão do Lindson: têm áudio, mas quebram o feed preto e amarelo v2.",
+   "arquivos": "conteudo/reels/trafego-v3/, conteudo/reels/trafego/"
+  },
+  {
+   "item": "Reels Avaliação gratuita (4, 6, 9)",
+   "status": "outubro, sem aprovação registrada; campanha já postada em out (20/10)",
+   "motivo": "identidade antiga; decisão do Lindson.",
+   "arquivos": "conteudo/avaliacao-gratuita/reels/"
+  },
+  {
+   "item": "Foto de perfil v2 (3 opções) e capas de destaques",
+   "status": "perfil-pf e destaques aprovados 04/11; perfil2 aguardando escolha",
+   "motivo": "não é post: troca manual no app (Windsor não muda foto nem destaques)."
+  }
+ ],
+ "ja_postados_nao_reagendar": [
+  "Carrosséis identidade-01 e Avaliação gratuita (13-20/10)",
+  "Reels Tráfego v2: Plantão SLZ (22/10), Câmera 02 / meio da semana (23/10), Pare de apertar (24/10)",
+  "Reels Tráfego v1 impulsionar (17/10)",
+  "Reels 5 erros (out)"
+ ]
+}
