@@ -14,3 +14,6 @@ Só o nome do arquivo e onde foi usado. As fotos ficam fora deste repositório p
 Observação: todas as fotos de estúdio (c00 a c16) já tinham sido usadas antes nas artes v2 (c00-c06, c09, c12, c14, c15) ou nos pôsteres da área de membros (c07-c16). Para os próximos conteúdos, pedir fotos novas ao Lindson.
 
 Variações (05/11, conta Pedro): o Lindson liberou "pode criar variações com IA". Variação = outro recorte, espelhada, outro enquadramento ou outro fundo/tratamento de cor. Cada variação usada entra na tabela e não se repete. Arquivos: `artes-v1/fotos/cNN-rec2-esp.png` (fora do Git).
+| c07 (recorte limpo) | Stories · Raio-X grátis, tela 01 ("REDES" atrás) | 08/11/2026 | Leandro |
+| c08 (recorte limpo) | Stories · Raio-X grátis, tela 02 ("5" gigante, fundo amarelo) | 08/11/2026 | Leandro |
+| c09 | Stories · Raio-X grátis, tela 03 (como funciona) | 08/11/2026 | Leandro |
