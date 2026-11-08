@@ -146,3 +146,49 @@ Em `pinterest/img/lote08-<tipo>-NN.jpg`. A lista com o link de cada pin, a busca
 - **story:** `story-09` ("Olhe para a borda", premium escuro); `story-07` (mulher comendo, letra cursiva).
 - **caixa:** `caixa-02` (Impasto, ilustração); `caixa-03` (Oven & Slice, preta premium); `caixa-11` (Pizzeta, azul tipográfica).
 - **fachada:** `fachada-03` (Decas, neon noturno); `fachada-08` (Gracey's, letreiro pintado).
+
+## Atualização 08/11: lote 09, com 507 referências novas do Pinterest (conta Lindson)
+Em `pinterest/img/lote09-<tipo>-NN.jpg`. A lista com o link do pin e a busca de cada imagem está em `pinterest/pins-lote-09-11.json`, e a visão geral em `pinterest/folha-lote-09-11.jpg`. Foram coletadas 579 e tiradas 72 repetidas (dentro do lote ou já na biblioteca). As imagens têm cerca de 250 a 480 px, porque foram capturadas pela tela: o servidor de imagens do Pinterest está bloqueado no ambiente.
+
+**Tipos (quantidade):**
+- **Combos e promoções:**
+  - combo (34);
+  - banner (16);
+  - criativo (13);
+  - anúncio (4);
+  - flyer (7);
+  - pôster (8);
+  - dia da pizza (14);
+  - rodízio (17);
+  - pizza doce (17).
+- **Marca:**
+  - identidade (9);
+  - logo (11);
+  - napolitana (17);
+  - branding (14);
+  - mascote (17);
+  - tipografia (16);
+  - adesivo (17).
+- **Ponto físico:**
+  - interior (9);
+  - balcão (18);
+  - neon (17);
+  - menu board (14);
+  - cardápio digital (12);
+  - uniforme (9);
+  - embalagem (9);
+  - caixa (14).
+- **Foto:**
+  - foto (8);
+  - foto napolitana (18);
+  - flash (17).
+- **Digital:**
+  - app (18);
+  - site (17);
+  - feed (11);
+  - reels (16);
+  - educativo (16);
+  - fermentação (17).
+- **Mídia:**
+  - campanha (18);
+  - outdoor (18).
