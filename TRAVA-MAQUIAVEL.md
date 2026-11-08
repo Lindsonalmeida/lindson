@@ -33,7 +33,7 @@ Curto, firme e sem sermão, citando a obra quando couber:
 
 Toda conta, ao terminar uma parte, marca ✅ na tabela e atualiza a %, com commit e push.
 
-## Projetos abertos (atualizado em 07/11/2026)
+## Projetos abertos (atualizado em 08/11/2026)
 Legenda: ✅ feito · 🟡 em andamento · ⏳ depende do Lindson ou do cliente · ⬜ a fazer pela equipe
 
 ### 💰 Dra. Jaci Cunha (pagante) · 4 de 10 (40%)
@@ -48,7 +48,7 @@ Legenda: ✅ feito · 🟡 em andamento · ⏳ depende do Lindson ou do cliente 
 9. ⏳ Search Console (arquivo de verificação) + Perfil da Empresa no Google; o guia está pronto em `agencia/clientes/jaci-cunha/GOOGLE.md`
 10. ⏳ Trocar o link da bio do Instagram
 
-### 💰 Tribuna 98 (pagante) · 2 de 8 (25%) · escopo definido pelo Lindson em 07/11
+### 💰 Tribuna 98 (pagante) · 3 de 7 (43%; item 6 cancelado) · escopo definido pelo Lindson em 07/11
 1. ✅ Mini site da bio no ar + bio + 7 destaques (aprovação ⏳)
 2. ✅ Análise das redes + caminhos para monetizar (`agencia/clientes/tribuna98/ANALISE-E-MONETIZACAO.md`; falta só trocar os números pelos prints de 07/11, que o Lindson manda)
 3. ✅ Painel do Tribuna 98 na Central: no ar em `/painel/tribuna`, com os números de Instagram, TikTok, YouTube e Kwai do print de 07/11. **Decisão do Lindson (07/11):** o painel segue sempre o mesmo padrão da Central e só recebe a identidade do cliente; a pesquisa premium é para o site, não para o painel.
