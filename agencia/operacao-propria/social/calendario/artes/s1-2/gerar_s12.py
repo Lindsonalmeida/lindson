@@ -9,15 +9,13 @@
 # Uso: python3 gerar_s12.py && node render.js && python3 previa.py
 import os, re, math
 D = os.path.dirname(os.path.abspath(__file__))
-V3 = os.path.normpath(os.path.join(D, '../../../v3/gerar.py'))
-src = open(V3, encoding='utf-8').read()
-exec(src[:src.index('# ================================================================== 01')])  # funções do v3
-exec(src[src.index('GRAO_SVG = '):src.index("open(os.path.join(D, 'pecas.html')")])  # CSS e grão do v3
+exec(open(os.path.join(D, '..', 'sistema_v4.py'), encoding='utf-8').read())   # sistema v4 (08/11, conta Zuleide): lê ../../../v4/gerar.py
 
 WA_VERDE, WA_BALAO, WA_FUNDO = '#075E54', '#D9FDD3', '#EFE7DC'
 P = []
-post = lambda i, h: P.append((i, 1080, 1350, h + GRAO))
-story = lambda i, h: P.append((i, 1080, 1920, h + GRAO))
+POS = {'d04-19h-combo-de-terca': (790, 372, 4), 'd14-19h-3-combos-que-vendem-no-frio': (600, 436, -4), 'd12-08h-raio-x-na-sexta': (800, 420, 5)}  # lugar fixo da comanda (x, y, rot) quando o automático não serve
+post = lambda i, h: P.append((i, 1080, 1350, h + COMANDA(i, POS.get(i)) + GRAO))
+story = lambda i, h: P.append((i, 1080, 1920, h + COMANDA(i, POS.get(i)) + GRAO))
 pad = lambda cor, op=.13, tam=300: f'<div class="a" style="inset:0;background:{padrao(cor, op, tam)}"></div>'
 ILU = lambda cor=CARVAO, bg=ACAFRAO, s=16: MONO('Exemplo ilustrativo', s, cor, f'background:{bg};padding:8px 12px;box-shadow:5px 5px 0 {CARVAO}')
 GIRA = lambda deg, inner: f'<div style="transform:rotate({deg}deg)">{inner}</div>'
@@ -151,11 +149,11 @@ chat_entrega = wa_tela(
     balao('Boa noite! Pro Cohatrac a entrega fica <b>R$ __</b> e chega quentinha em até <b>__ min</b>. Já quer que eu anote o seu pedido?', True, '19:41 ✓✓', 1.05) +
     balao('Quero sim! Uma calabresa grande', False, '19:42', 1.05), 1.0)
 story('d03-08h-responde-assim',
-      BOX(0, 0, 1080, 1920, ACAFRAO) + pad(CARVAO, .09) +
+      BOX(0, 0, 1080, 1920, CREME) + pad(TOMATE, .10) +
       BOX(0, 1180, 1080, 740, xadrez(TOMATE, CREME, 40)) +
       A(40, 120, MONO('Dica pronta · WhatsApp da pizzaria', 22, CREME, f'background:{VERDE};padding:10px 14px;box-shadow:6px 6px 0 {CARVAO}')) +
       A(30, 186, BAGEL('Responde', 196, TOMATE, .9, SH(CARVAO, 10))) +
-      A(34, 380, BAGEL('assim:', 196, CARVAO, .9, SH(CREME, 8))) +
+      A(34, 380, BAGEL('assim:', 196, VERDE, .9, SH(CARVAO, 8))) +
       A(470, 580, GIRA(-5, f'<div style="width:560px;background:{CREME};border:5px solid {CARVAO};box-shadow:10px 12px 0 {CARVAO};padding:18px 22px">'
                        + MONO('Pergunta que mais chega:', 15, TOMATE) + ANTON('"Qual o valor<br>da entrega?"', 56, CARVAO, .95, 'margin-top:8px') + '</div>')) +
       A(70, 800, celular(chat_entrega, 640, 900, WA_FUNDO, -3)) +
@@ -169,7 +167,7 @@ story('d03-08h-responde-assim',
 # Copia: cardápio-cartaz retrô (Jonny's Pizza retro-14, menu busca-34) com duas colunas e explosão de total (Retro Pizza retro-13).
 def coluna(titulo, cor, linhas, total, total_cor):
     li = ''.join(f'<div style="display:flex;align-items:baseline;gap:10px;padding:14px 0;border-bottom:3px dashed rgba(20,19,17,.22)">'
-                 f'<span style="font:400 34px/1 Anton;text-transform:uppercase;color:{CARVAO};white-space:nowrap">{a}</span>'
+                 f'<span style="font:400 27px/1 \'Bagel Fat One\';text-transform:uppercase;color:{CARVAO};white-space:nowrap">{a}</span>'
                  f'<span style="flex:1;border-bottom:3px dotted {CARVAO};opacity:.45;transform:translateY(-6px)"></span>'
                  f'<span style="font:600 26px \'IBM Plex Mono\';color:{c};white-space:nowrap">{b}</span></div>' for a, b, c in linhas)
     return (f'<div style="width:450px;background:{CREME};border:6px solid {CARVAO};box-shadow:14px 14px 0 {CARVAO}">'
@@ -231,7 +229,7 @@ def cartao_combo(n, titulo, sub, bg, fg, ic, rot):
             f'{MONO("Combo nº" + n, 16, fg, "margin-top:10px")}<span style="flex:1"></span>'
             f'{ANTON(titulo, 58, fg, .95, "white-space:normal")}<div style="margin-top:14px">{TXT(sub, 21, fg, "line-height:1.3")}</div></div>')
 post('d04-19h-combo-de-terca',
-     BOX(0, 0, 1080, 1350, ACAFRAO) + pad(CARVAO, .09) +
+     BOX(0, 0, 1080, 1350, CREME) + pad(VERDE, .10) +
      A(36, 30, BAGEL('Combo', 210, TOMATE, .86, SH(CARVAO, 10))) +
      A(44, 236, ANTON('de terça.', 120, CARVAO, .9)) +
      A(560, 254, MONO('3 ideias que não<br>desvalorizam a sua pizza', 17, CREME, f'line-height:1.45;background:{CARVAO};padding:12px 16px;transform:rotate(-3deg)')) +
@@ -249,7 +247,7 @@ post('d05-19h-penso-logo-peco',
      A(-20, -90, f'<div style="font:400 700px/1 \'Bagel Fat One\';color:{ACAFRAO};opacity:.95">“</div>') +
      A(46, 70, MONO('Filosofia de balcão · nº 1', 20, CREME, f'background:{CARVAO};padding:10px 14px')) +
      A(370, 150, BAGEL('Penso,', 196, CREME, .9, SH(CARVAO, 10))) +
-     A(28, 448, ANTON('logo', 124, CARVAO, .9)) +
+     A(28, 452, ANTON('logo', 104, CARVAO, .9)) +
      BOX(290, 370, 760, 320, CREME, f'border:6px solid {CARVAO};box-shadow:16px 18px 0 {CARVAO};transform:rotate(-3deg);display:grid;place-items:center',
          BAGEL('peço.', 230, TOMATE, .9, SH(CARVAO, 8))) +
      A(600, 720, MONO('— seu cliente, sexta, 19h47', 20, CREME)) +
@@ -329,10 +327,10 @@ massa = (f'<div style="position:relative;width:980px;height:820px">'
          f'<div style="position:absolute;inset:0;display:grid;place-items:center;text-align:center">'
          f'<div>{BAGEL("Massa.", 250, TOMATE, .9, SH(CARVAO, 10))}{MONO("fermentou? então bora.", 26, CARVAO, "margin-top:20px")}</div></div></div>')
 story('d08-08h-bom-dia-massa',
-      BOX(0, 0, 1080, 1920, ACAFRAO) + pad(TOMATE, .12) +
-      BOX(0, 0, 1080, 150, xadrez(TOMATE, ACAFRAO, 38), f'border-bottom:8px solid {CARVAO}') +
+      BOX(0, 0, 1080, 1920, VERDE) + pad(CREME, .10) +
+      BOX(0, 0, 1080, 150, xadrez(TOMATE, CREME, 38), f'border-bottom:8px solid {CARVAO}') +
       A(40, 196, MONO('Seg · 16/11 · 08h · semana nova', 22, CREME, f'background:{VERDE};padding:10px 14px;box-shadow:6px 6px 0 {CARVAO}')) +
-      A(30, 262, BAGEL('Bom dia,', 230, VERDE, .9, SH(CARVAO, 11))) +
+      A(30, 262, BAGEL('Bom dia,', 230, CREME, .9, SH(CARVAO, 11))) +
       BOX(0, 1150, 1080, 420, xadrez(TOMATE, CREME, 50), f'border-top:8px solid {CARVAO};border-bottom:8px solid {CARVAO}') +
       A(50, 600, massa) +
       A(780, 520, GIRA(14, selo(240, 'MASSA DESCANSADA · FORNO QUENTE · ', TOMATE, CREME, centro=icone('pa', 90, CREME, 7)))) +
@@ -401,7 +399,7 @@ comanda = (f'<div style="width:800px;background:{CREME};border:6px solid {CARVAO
            f'<div style="background:{ACAFRAO};border-bottom:6px solid {CARVAO};padding:16px 28px;display:flex;justify-content:space-between;align-items:center">'
            f'{MONO("Comanda nº 0217 · legenda", 17, CARVAO)}{MONO("ter · 19h", 17, TOMATE)}</div>'
            f'<div style="padding:28px 34px 30px;background:repeating-linear-gradient(180deg,transparent 0 55px,rgba(20,19,17,.10) 55px 57px)">'
-           f'<div style="font:400 64px/1.02 Anton;color:{TOMATE};text-transform:uppercase">Terça também é dia de pizza.</div>'
+           f'<div style="font:400 50px/1.02 \'Bagel Fat One\';color:{TOMATE};text-transform:uppercase">Terça também é dia de pizza.</div>'
            f'<div style="font:600 32px/1.5 \'IBM Plex Mono\';color:{CARVAO};margin-top:18px;letter-spacing:-.01em">Saiu do forno agora: <b style="background:{ACAFRAO}">[sabor da casa]</b>, '
            f'massa fininha e borda dourada.<br><br>Pede pelo zap que a gente já separa a sua.<br>Link na bio.</div>'
            f'<div style="margin-top:22px;display:flex;gap:10px;flex-wrap:wrap">'
@@ -441,26 +439,21 @@ story('d11-08h-seu-ifood-tem-foto',
       A(46, 1770, MONO('Tela fictícia · exemplo ilustrativo', 14, CREME, 'opacity:.85')) +
       tarja_ass(1828, CARVAO, CREME, '@oreganoturbo · só pizzarias'))
 
-# ================================================================ d12 08h · RAIO-X NA SEXTA. (story, creme cartaz + estrela de preço)
-# Copia: cartaz "Retro PIZZA National Day" (retro-13: título gordo, explosão de preço) + moldura xadrez (Jonny's retro-14) + botão de zap.
-chk_rx = ''.join(f'<div style="display:flex;gap:16px;align-items:center;margin-top:14px">{checkbox(True, 52, VERDE, CREME)}{ANTON(t, 46, CARVAO, 1)}</div>'
-                 for t in ['Instagram e Google', 'iFood e cardápio', 'WhatsApp', 'Concorrentes'])
+# ================================================================ d12 08h · RAIO-X NA SEXTA. (story, cartaz escuro + comanda com o preço) · v4 08/11
+# v4: sai a "explosão de preço" (padrão a evitar da pesquisa de 08/11). Copia: p05 do kit v4 (Pinterest nº9: fundo preto, lettering
+# creme e açafrão) + a comanda da campanha com o preço escrito + botão de zap.
 story('d12-08h-raio-x-na-sexta',
-      BOX(0, 0, 1080, 1920, xadrez(TOMATE, CREME, 36)) +
-      BOX(40, 40, 1000, 1840, CREME, f'border:7px solid {CARVAO};box-shadow:16px 16px 0 {CARVAO}') + BOX(47, 47, 986, 1826, padrao(TOMATE, .13, 260)) +
-      A(40, 150, MONO('Orégano Turbo apresenta · sexta · 20/11', 20, CARVAO), 'width:1000px;display:flex;justify-content:center') +
-      A(40, 196, BAGEL('Raio-X', 280, TOMATE, .9, SH(CARVAO, 11)), 'width:1000px;display:flex;justify-content:center') +
-      A(40, 460, ANTON('na sexta.', 150, VERDE, .9), 'width:1000px;display:flex;justify-content:center') +
-      A(610, 650, estrela(390, ACAFRAO, '<div>' + MONO('só', 26, CARVAO, 'letter-spacing:.2em') + BAGEL('R$297', 84, TOMATE, .9, SH(CARVAO, 4)) + '</div>', 10)) +
-      A(90, 680, f'<div style="width:470px">{MONO("O que a gente olha", 18, TOMATE)}{chk_rx}</div>') +
-      A(90, 1110, GIRA(-3, f'<div style="background:{VERDE};border:6px solid {CARVAO};box-shadow:12px 12px 0 {CARVAO};padding:22px 28px;width:900px">'
-                        + ANTON('Abatido no 1º mês<br>se fechar em 7 dias.', 64, CREME, .98) + '</div>')) +
-      A(110, 1320, adesivo('5 vagas de fundadora', TOMATE, CREME, 4, 46, '20px 34px')) +
-      A(140, 1480, f'<div style="width:800px;background:#25D366;border-radius:999px;padding:30px 36px;display:flex;align-items:center;justify-content:center;gap:20px;'
-                   f'box-shadow:0 0 0 8px {CARVAO},14px 16px 0 8px rgba(20,19,17,.35)">{icone("zap", 74, CARVAO, 8)}{BAGEL("Fala com a gente", 58, CARVAO, 1)}</div>') +
-      A(140, 1640, MONO('toca no link da bio · @oreganoturbo', 20, CARVAO), 'width:800px;display:flex;justify-content:center') +
-      A(110, 1730, logo(44, VERDE, VERDE, CREME)) +
-      A(800, 1650, GIRA(-10, selo(190, 'SÓ PIZZARIAS · SÃO LUÍS - MA · ', TOMATE, CREME))))
+      BOX(0, 0, 1080, 1920, TINTA) + pad(CREME, .06) +
+      BOX(0, 0, 1080, 26, xadrez(TOMATE, CREME, 13)) +
+      A(44, 96, MONO('Sexta · 20/11 · pizzarias de São Luís - MA', 20, ACAFRAO)) +
+      A(34, 140, BAGEL('Raio-X', 270, CREME, .88)) +
+      A(44, 390, BAGEL('na sexta.', 150, ACAFRAO, .9)) +
+      A(56, 610, TICKET('Comanda · o que a gente olha', ['Instagram e Google', 'iFood e cardápio', 'WhatsApp', '3 concorrentes do bairro', 'Plano de 30 dias'], 960, -2, 52, ps=130, ms=22)) +
+      A(40, 1420, adesivo('5 vagas de<br>fundadora', TOMATE, CREME, 6, 44, '20px 30px', extra='border-radius:30px;line-height:1.02;text-align:center')) +
+      A(140, 1580, f'<div style="width:800px;background:#25D366;border-radius:999px;padding:30px 36px;display:flex;align-items:center;justify-content:center;gap:20px;'
+                   f'box-shadow:0 0 0 8px {CREME},14px 16px 0 8px rgba(0,0,0,.45)">{icone("zap", 74, CARVAO, 8)}{BAGEL("Fala com a gente", 58, CARVAO, 1)}</div>') +
+      A(140, 1740, MONO('toca no link da bio · @oreganoturbo', 20, CREME, 'opacity:.85'), 'width:800px;display:flex;justify-content:center') +
+      tarja_ass(1828, VERDE, CREME, 'só pizzarias · @oreganoturbo', 92))
 
 # ================================================================ d12 19h · CHECKLIST DO CARDÁPIO DIGITAL (feed, verde escuro + ícones em traço)
 # Copia: lista de cardápio com ícones em traço (menu busca-34 + padrão de ícones da marca) + selo e manchete em 2 tamanhos.
@@ -557,6 +550,6 @@ post('d14-19h-3-combos-que-vendem-no-frio',
 FONTS = ('<link href="https://fonts.googleapis.com/css2?family=Anton&family=Bagel+Fat+One&family=Inter+Tight:wght@700;800'
          '&family=Inter:wght@500;600;700;800&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">')
 open(os.path.join(D, 'pecas.html'), 'w').write(
-    f'<!doctype html><html><head><meta charset="utf-8">{FONTS}<style>{CSS}</style></head><body>' +
+    f'<!doctype html><html><head><meta charset="utf-8">{FONTS}<style>{CSS}</style>{FIT_JS}</head><body>' +
     ''.join(f'<section class="f" id="{i}" style="width:{w}px;height:{h}px">{c}</section>' for i, w, h, c in P) + '</body></html>')
 print(len(P), 'peças')

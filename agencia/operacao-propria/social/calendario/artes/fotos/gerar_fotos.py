@@ -10,16 +10,13 @@
 # Uso: python3 recortar.py <foto> (1 por processo) && python3 gerar_fotos.py && node render.js && python3 previa.py
 import os, json
 D = os.path.dirname(os.path.abspath(__file__))
-V3 = os.path.normpath(os.path.join(D, '../../../v3/gerar.py'))
-src = open(V3, encoding='utf-8').read()
-exec(src.split('# ================================================================== 01')[0])          # marca + layout do v3
-exec(src[src.index('FONTS = ('):src.index("open(os.path.join(D, 'pecas.html')")])                  # fontes, grão e CSS do v3
+exec(open(os.path.join(D, '..', 'sistema_v4.py'), encoding='utf-8').read())   # sistema v4 (08/11, conta Zuleide): lê ../../../v4/gerar.py
 D = os.path.dirname(os.path.abspath(__file__))
 FONTS = FONTS.replace('&family=Inter:', '&family=Kaushan+Script&family=Inter:')
 FOTO = lambda n: f'../../../../identidade/fotos-ia/hd/{n}.jpg'
 REC = lambda n: f'recortes/{n}.webp'
 FIT = lambda html, w, extra='': f'<div data-w="{w}" style="width:{w}px;{extra}">{html}</div>'   # encolhe a letra até caber em w
-KAU = lambda t, s, cor, extra='': f'<div style="font:400 {s}px/1 \'Kaushan Script\';color:{cor};white-space:nowrap;{extra}">{t}</div>'
+KAU = lambda t, s, cor, extra='': BAGEL(t, s * .72, cor, 1, extra)   # v4: manuscrito saiu, Bagel em toda manchete
 SEL = lambda tam, txt, bg, fg, rot, centro=None, fs=12.5: f'<div style="transform:rotate({rot}deg)">{selo(tam, txt, bg, fg, centro, fs)}</div>'
 IAT = 'imagem gerada por IA · @oreganoturbo'
 def icone(n, tam, cor, w=6):
@@ -28,8 +25,9 @@ def icone(n, tam, cor, w=6):
 fita = lambda rot, cor='rgba(243,238,230,.78)': f'<div style="width:170px;height:46px;background:{cor};transform:rotate({rot}deg);box-shadow:0 3px 0 rgba(0,0,0,.12)"></div>'
 
 P, COMP = [], {}
-feed = lambda n, h, c: (P.append((n, 1080, 1350, h + GRAO)), COMP.__setitem__(n, c))
-stor = lambda n, h, c: (P.append((n, 1080, 1920, h + GRAO)), COMP.__setitem__(n, c))
+POS = {'d09-19h-seu-cliente-sumiu': (800, 40, 5), 'd11-19h-domingo-e-terca-tambem': (40, 560, -4), 'd13-12h-pizza-boa-nao-vende-sozinha': (30, 720, -5), 'd16-19h-pizza-fria-nao-tem-perdao': (40, 560, -4)}  # lugar fixo da comanda (x, y, rot) quando o automático não serve
+feed = lambda n, h, c: (P.append((n, 1080, 1350, h + COMANDA(n, POS.get(n)) + GRAO)), COMP.__setitem__(n, c))
+stor = lambda n, h, c: (P.append((n, 1080, 1920, h + COMANDA(n, POS.get(n)) + GRAO)), COMP.__setitem__(n, c))
 
 # ================================================================== d09 19h · SEU CLIENTE SUMIU? (B8a, cartaz de desaparecido)
 # Copia: cartaz retrô de pizzaria (retro-13: título gordo + faixa de rodapé) virado "PROCURA-SE" (humor e referência pop,
@@ -48,11 +46,11 @@ cartaz = (f'<div style="position:relative;width:860px;height:880px;background:{C
 feed('d09-19h-seu-cliente-sumiu',
      BOX(0, 0, 1080, 1350, CARVAO) + f'<div class="a" style="inset:0;background:{padrao(CREME, .07, 300)}"></div>' +
      BOX(0, 0, 1080, 30, xadrez(TOMATE, CREME, 15)) +
-     A(44, 56, ANTON('Seu cliente', 140, CREME, .9)) +
+     A(44, 60, ANTON('Seu cliente', 100, CREME, .9)) +
      A(110, 230, cartaz, 'transform:rotate(-3deg)') +
      A(140, 196, fita(-14)) + A(800, 214, fita(10)) +
      A(30, 985, FIT(BAGEL('Sumiu?', 250, TOMATE, .9, SH(CREME, 10)), 1010)) +
-     A(760, 40, SEL(230, 'ELE PEDIU UMA VEZ · E ESQUECEU DE VOCÊ · ', ACAFRAO, CARVAO, 12)) +
+     A(20, 610, SEL(210, 'ELE PEDIU UMA VEZ · E ESQUECEU DE VOCÊ · ', ACAFRAO, CARVAO, 12)) +
      A(690, 700, adesivo('Traz de volta<br>pelo zap ↗', ACAFRAO, CARVAO, -7, 34, '18px 26px', extra='border-radius:28px;line-height:1.02;text-align:center')) +
      tarja_ass(1258, TOMATE, CREME, IAT),
      'Cartaz de "DESAPARECIDO" colado com fita (cartaz retrô retro-13 + humor pop "Penso, logo PEÇO") com a foto da pizzaria vazia emoldurada; '
@@ -134,7 +132,7 @@ raios = 'repeating-conic-gradient(from 0deg at 50% 46%,#E4322B 0 7.5deg,#C5081F 
 feed('d16-19h-pizza-fria-nao-tem-perdao',
      BOX(0, 0, 1080, 1350, raios) +
      A(44, 34, ANTON('Pizza', 150, CREME, .9, SH(CARVAO, 6))) +
-     A(20, 140, FIT(BAGEL('Fria', 400, '#9FD8FF', .84, SH(CARVAO, 12)), 1040)) +
+     A(20, 140, FIT(BAGEL('Fria', 400, CREME, .84, SH(CARVAO, 12)), 1040)) +
      IMG(REC('B5-motoboy'), 150, 300, 860, 'filter:drop-shadow(-18px 22px 0 rgba(20,19,17,.30)) saturate(1.06) contrast(1.04)') +
      A(-30, 1010, f'<div style="width:1140px;background:{CARVAO};border-top:6px solid {ACAFRAO};border-bottom:6px solid {ACAFRAO};transform:rotate(-4deg);'
                   f'padding:18px 0 22px;display:flex;justify-content:center;box-shadow:0 14px 0 rgba(20,19,17,.3)">'
@@ -144,11 +142,9 @@ feed('d16-19h-pizza-fria-nao-tem-perdao',
      A(40, 1166, adesivo('Entrega é parte da pizza', CREME, TOMATE, -2, 30, borda=CARVAO)) +
      A(700, 1300, MONO(IAT, 12, CREME, 'opacity:.85')) +
      A(640, 1170, adesivo('Chama no zap ↗', ACAFRAO, CARVAO, 4, 32)),
-     'Motoboy de baixo (recorte BiRefNet) sobre raios de cartaz retrô em tomate; "FRIA" gigante em azul gelado passando POR TRÁS dele; '
+     'Motoboy de baixo (recorte BiRefNet) sobre raios de cartaz retrô em tomate; "FRIA" gigante em creme (v4: sem azul) passando POR TRÁS dele; '
      'tarja carvão girada com "não tem perdão."; selo, estrela "quente na porta" e adesivos')
 
-FIT_JS = ('<script>window.fit=()=>{document.querySelectorAll("[data-w]").forEach(el=>{const w=+el.dataset.w,c=el.firstElementChild;'
-          'let fs=parseFloat(getComputedStyle(c).fontSize);while(c.scrollWidth>w+1&&fs>12){fs-=2;c.style.fontSize=fs+"px"}})};</script>')
 open(os.path.join(D, 'pecas.html'), 'w', encoding='utf-8').write(
     f'<!doctype html><html><head><meta charset="utf-8">{FONTS}<style>{CSS}</style>{FIT_JS}</head><body>' +
     ''.join(f'<section class="f" id="{i}" style="width:{w}px;height:{h}px">{c}</section>' for i, w, h, c in P) + '</body></html>')

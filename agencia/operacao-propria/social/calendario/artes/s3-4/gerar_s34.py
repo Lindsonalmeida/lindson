@@ -6,17 +6,14 @@
 # Uso: python3 gerar_s34.py && node render.js && python3 previa.py
 import os, re, math
 D = os.path.dirname(os.path.abspath(__file__))
-V3 = os.path.normpath(os.path.join(D, '../../../v3/gerar.py'))
-src = open(V3, encoding='utf-8').read()
-exec(src.split('# ================================================================== 01')[0])          # marca + layout do v3
-exec(src[src.index('FONTS = ('):src.index("open(os.path.join(D, 'pecas.html')")])                  # fontes, grão e CSS do v3
+exec(open(os.path.join(D, '..', 'sistema_v4.py'), encoding='utf-8').read())   # sistema v4 (08/11, conta Zuleide): lê ../../../v4/gerar.py
 D = os.path.dirname(os.path.abspath(__file__))
 FONTS = FONTS.replace('&family=Inter:', '&family=Kaushan+Script&family=Inter:')
 BRANCO, ZAPV, ZAPB = '#FFFFFF', '#008069', '#D9FDD3'
 
 # ------------------------------------------------------------------ peças novas do sistema (desenhadas em HTML/SVG)
 FIT = lambda html, w, extra='': f'<div data-w="{w}" style="width:{w}px;{extra}">{html}</div>'   # encolhe a letra até caber em w
-KAU = lambda t, s, cor, extra='': f'<div style="font:400 {s}px/1 \'Kaushan Script\';color:{cor};white-space:nowrap;{extra}">{t}</div>'
+KAU = lambda t, s, cor, extra='': BAGEL(t, s * .72, cor, 1, extra)   # v4: manuscrito saiu, Bagel em toda manchete
 FUNDO = lambda bg, cor, op=.12, t=300: BOX(0, 0, 1080, 2000, bg) + f'<div class="a" style="inset:0;background:{padrao(cor, op, t)}"></div>'
 
 def celular(w, h, tela, rot=0, sombra='22px 26px 0 6px rgba(20,19,17,.38)'):
@@ -83,8 +80,9 @@ ASS = lambda y, bg=CARVAO, fg=CREME, t='chama no zap · @oreganoturbo': tarja_as
 ASS_STORY = lambda bg=CARVAO, fg=CREME, t='chama no zap · @oreganoturbo': tarja_ass(1820, bg, fg, t, 100)
 SEL = lambda tam, txt, bg, fg, rot, centro=None, fs=12.5: f'<div style="transform:rotate({rot}deg)">{selo(tam, txt, bg, fg, centro, fs)}</div>'
 
+POS = {'d16-08h-copia-e-cola': (800, 60, 4), 'd22-12h-cliente-te-esqueceu': (800, 16, 4), 'd26-08h-melhor-dia-pra-pizza': (790, 900, 4)}  # lugar fixo da comanda (x, y, rot) quando o automático não serve
 def salvar(nome, larg, alt, html):
-    P.append((nome, larg, alt, html + GRAO))
+    P.append((nome, larg, alt, html + COMANDA(nome, POS.get(nome)) + GRAO))
 feed = lambda n, h: salvar(n, 1080, 1350, h)
 stor = lambda n, h: salvar(n, 1080, 1920, h)
 COMP = {}  # nome → composição (vai para o README)
@@ -92,7 +90,7 @@ COMP = {}  # nome → composição (vai para o README)
 # ================================================================== d15 12h · TERÇA VAZIA CUSTA CARO. (tomate · comanda dos custos)
 # Copia: cardápio-cartaz (Jonny's retro-14 / "Escolha sua pizza") virado COMANDA de custos + manchete em 2 tamanhos ("AQUI / não tem / ERRO").
 lin = lambda a, b, c=TOMATE: (f'<div style="display:flex;align-items:baseline;gap:10px;padding:12px 0;border-bottom:3px dashed rgba(20,19,17,.22)">'
-                              f'<span style="font:400 38px/1 Anton;text-transform:uppercase;color:{CARVAO};white-space:nowrap">{a}</span>'
+                              f'<span style="font:400 30px/1 \'Bagel Fat One\';text-transform:uppercase;color:{CARVAO};white-space:nowrap">{a}</span>'
                               f'<span style="flex:1;border-bottom:4px dotted {CARVAO};opacity:.45;transform:translateY(-6px)"></span>'
                               f'<span style="font:600 19px \'IBM Plex Mono\';color:{c};white-space:nowrap;letter-spacing:.06em">{b}</span></div>')
 serra = 'radial-gradient(circle at 12px 0,transparent 12px,' + CREME + ' 13px) -12px 100%/24px 24px repeat-x'
@@ -127,17 +125,17 @@ conv16 = (chip('hoje') +
           bolha(f'Hoje a {marca("calabresa")} tá saindo quentinha do forno. Quer que eu separe uma pra você?', True, '17:02', 34) +
           bolha('Se preferir, te mando o cardápio aqui mesmo.', True, '17:03', 34))
 stor('d16-08h-copia-e-cola',
-     FUNDO(ACAFRAO, CARVAO, .08) +
+     FUNDO(CREME, TOMATE, .10) +
      A(44, 70, MONO('Dica pronta · cliente que sumiu', 22, CREME, f'background:{TOMATE};padding:10px 14px;box-shadow:6px 6px 0 {CARVAO}')) +
      A(36, 140, BAGEL('Copia', 250, TOMATE, .86, SH(CARVAO, 11))) +
      A(40, 360, BAGEL('e cola:', 220, VERDE, .86, SH(CARVAO, 10))) +
      A(130, 640, celular(820, 1230, wa_tela('Ana · cliente', 'último pedido há 40 dias', conv16, 1.0)), 'transform:rotate(-4deg)') +
-     A(800, 120, SEL(230, 'MENSAGEM PRA CLIENTE QUE SUMIU · ', VERDE, CREME, 12, centro=icone('celular', 80, CREME, 7))) +
+     A(800, 1330, SEL(230, 'MENSAGEM PRA CLIENTE QUE SUMIU · ', VERDE, CREME, 12, centro=icone('celular', 80, CREME, 7))) +
      A(40, 1490, adesivo('Troque o nome<br>e o sabor', TOMATE, CREME, -8, 40, '20px 30px', extra='border-radius:30px;line-height:1.02;text-align:center')) +
      A(530, 1560, adesivo('Copiou? Manda hoje ↗', VERDE, CREME, 5, 38)) +
      faixa('copia e cola ✦ manda hoje', 1660, CREME, VERDE, -3, 104, 62, x=-60, w=1240, sep='✦') +
      ASS_STORY())
-COMP['d16-08h-copia-e-cola'] = 'Celular desenhado com a conversa do WhatsApp (mensagem pronta) + manchete gorda em 2 cores + selo e adesivos + faixa em loop; açafrão'
+COMP['d16-08h-copia-e-cola'] = 'Celular desenhado com a conversa do WhatsApp (mensagem pronta) + manchete gorda em 2 cores + selo e adesivos + faixa em loop; creme'
 
 # ================================================================== d17 08h · Você responde em quanto tempo? (story tomate · relógio gigante + enquete)
 stor('d17-08h-responde-em-quanto-tempo',
@@ -146,7 +144,7 @@ stor('d17-08h-responde-em-quanto-tempo',
      A(44, 70, ANTON('Você responde', 132, CREME, .9, SH(CARVAO, 6))) +
      A(44, 200, ANTON('em quanto', 132, CREME, .9, SH(CARVAO, 6))) +
      A(36, 320, BAGEL('tempo?', 250, ACAFRAO, .86, SH(CARVAO, 11))) +
-     A(760, 92, f'<div style="transform:rotate(12deg)">{estrela(250, VERDE, MONO("seja", 20, CREME) + BAGEL("sincero", 46, ACAFRAO, .9), 0)}</div>') +
+     A(24, 560, f'<div style="transform:rotate(-12deg)">{estrela(250, VERDE, MONO("seja", 20, CREME) + BAGEL("sincero", 40, ACAFRAO, .9), 0)}</div>') +
      A(90, 1170, enquete('Cliente mandou “oi”. Você responde em:', ['1 minuto', '10 minutos', '1 hora'], 900, 42, -2)) +
      faixa('cliente com fome não espera', 1700, CARVAO, ACAFRAO, -3, 100, 56, x=-60, w=1240) +
      ASS_STORY(VERDE))
@@ -210,7 +208,7 @@ COMP['d20-12h-black-friday-cartaz'] = 'Cartaz preto de oferta: faixa em loop no 
 # ================================================================== d21 08h · Resumo da semana. (story verde · 3 cartões numerados)
 cart = lambda n, t, bg, fn, ft, rot: (f'<div style="width:980px;height:330px;background:{bg};border:6px solid {CARVAO};box-shadow:14px 14px 0 {CARVAO};transform:rotate({rot}deg);'
                                       f'display:flex;align-items:center;gap:30px;padding:0 40px">' + BAGEL(n, 250, fn, .9, SH(CARVAO, 8)) +
-                                      f'<div style="font:400 60px/1.0 Anton;text-transform:uppercase;color:{ft}">{t}</div></div>')
+                                      f'<div style="font:400 47px/1 \'Bagel Fat One\';text-transform:uppercase;color:{ft}">{t}</div></div>')
 stor('d21-08h-resumo-da-semana',
      FUNDO(VERDE, CREME, .1) +
      A(44, 70, MONO('Domingo · 3 coisas pra fazer hoje', 22, CARVAO, f'background:{ACAFRAO};padding:10px 14px;box-shadow:6px 6px 0 {CARVAO}')) +
@@ -230,7 +228,7 @@ itens21 = [('Link do zap na bio funcionando', 1), ('Cardápio com preço atualiz
 ck = ''.join(f'<div style="display:flex;align-items:center;gap:20px;padding:13px 0;border-bottom:3px dashed rgba(20,19,17,.2)">'
              f'<span style="position:relative;flex:none;width:56px;height:56px;border:5px solid {CARVAO};border-radius:10px;background:#fff">'
              + (f'<svg viewBox="0 0 60 60" width="84" height="84" style="position:absolute;left:-6px;top:-24px"><path d="M8 32 L24 48 L56 6" fill="none" stroke="{TOMATE}" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/></svg>' if f else '')
-             + f'</span><span style="font:400 44px/1.05 Anton;text-transform:uppercase;color:{CARVAO}">{t}</span></div>' for t, f in itens21)
+             + f'</span><span style="font:400 34px/1.05 \'Bagel Fat One\';text-transform:uppercase;color:{CARVAO}">{t}</span></div>' for t, f in itens21)
 prancheta = (f'<div style="position:relative;width:880px;height:1050px;background:{VERDE};border:6px solid {CARVAO};border-radius:40px;box-shadow:20px 22px 0 rgba(20,19,17,.45);padding:70px 40px 40px">'
              f'<div style="width:100%;height:100%;background:{CREME};border:5px solid {CARVAO};padding:34px 40px">'
              + f'<div style="display:flex;align-items:flex-end;gap:20px">{BAGEL("Checklist", 120, TOMATE, .9, SH(CARVAO, 6))}</div>'
@@ -253,7 +251,7 @@ conv22 = (chip('12 de agosto') +
           f'<div style="height:40px"></div>' + chip('hoje') +
           f'<div style="align-self:center;margin-top:10px;font:600 22px Inter;color:#54656F;background:#FFF3C4;padding:10px 18px;border-radius:12px">nenhuma mensagem desde agosto</div>')
 feed('d22-12h-cliente-te-esqueceu',
-     FUNDO(ACAFRAO, CARVAO, .08) +
+     FUNDO(CREME, VERDE, .10) +
      A(44, 30, ANTON('O cliente te', 112, CARVAO, .9)) +
      A(36, 136, FIT(BAGEL('esqueceu?', 210, TOMATE, .86, SH(CARVAO, 10)), 1010)) +
      A(520, 400, celular(540, 1000, wa_tela('Ana · cliente', 'visto por último em agosto', conv22, .86)), 'transform:rotate(7deg)') +
@@ -263,7 +261,7 @@ feed('d22-12h-cliente-te-esqueceu',
      A(110, 980, SEL(200, 'CLIENTE QUE SUMIU · DOR DO DONO · ', CARVAO, ACAFRAO, -10, centro=icone('caixa', 70, ACAFRAO, 7))) +
      A(60, 1210, MONO('conversa ilustrativa', 13, CARVAO)) +
      ASS(1258))
-COMP['d22-12h-cliente-te-esqueceu'] = 'Celular desenhado com conversa antiga parada desde agosto + manchete gigante + bloco "ou você esqueceu dele?" + adesivo e selo; açafrão'
+COMP['d22-12h-cliente-te-esqueceu'] = 'Celular desenhado com conversa antiga parada desde agosto + manchete gigante + bloco "ou você esqueceu dele?" + adesivo e selo; creme'
 
 # ================================================================== d22 19h · MENSAGEM DE VOLTA PRO CLIENTE (feed verde · bolhas gigantes sem celular)
 feed('d22-19h-mensagem-de-volta',
@@ -285,7 +283,7 @@ feed('d22-19h-mensagem-de-volta',
 COMP['d22-19h-mensagem-de-volta'] = 'Bolhas de WhatsApp gigantes direto no fundo (sem celular) + manchete em 3 linhas + 3 adesivos "sem spam"; verde com padrão'
 
 # ================================================================== d23 08h · Você posta todo dia? (story · parede de palavra + enquete)
-parede = ''.join(f'<div style="font:400 210px/.95 Anton;text-transform:uppercase;white-space:nowrap;color:{"transparent" if i % 2 else TOMATE};'
+parede = ''.join(f'<div style="font:400 164px/0.95 \'Bagel Fat One\';text-transform:uppercase;white-space:nowrap;color:{"transparent" if i % 2 else TOMATE};'
                  f'-webkit-text-stroke:4px {TOMATE};margin-left:{-120 * (i % 3)}px">todo dia todo dia todo dia</div>' for i in range(8))
 stor('d23-08h-voce-posta-todo-dia',
      BOX(0, 0, 1080, 1920, CREME) +
@@ -342,9 +340,9 @@ perfil = (f'<div style="position:absolute;inset:0;background:#fff"></div>'
           + ''.join(f'<div style="aspect-ratio:4/5;background:{c};display:grid;place-items:center">{icone(n, 110, f, 6)}</div>' for c, f, n in [('#E8DCC4', TOMATE, 'pizza'), ('#D8E4D6', VERDE, 'fatia'), ('#F2DDB0', CARVAO, 'chama'), ('#E6D3CF', TOMATE, 'tomate'), ('#E8DCC4', VERDE, 'caixa'), ('#D8E4D6', TOMATE, 'manjericao')])
           + '</div></div>')
 stor('d24-08h-dica-rapida-fixe-3-posts',
-     FUNDO(ACAFRAO, CARVAO, .08) +
+     FUNDO(VERDE, CREME, .10) +
      A(40, 40, BAGEL('Dica', 230, TOMATE, .86, SH(CARVAO, 10))) +
-     A(40, 250, BAGEL('rápida:', 230, VERDE, .86, SH(CARVAO, 10))) +
+     A(40, 250, BAGEL('rápida:', 230, CREME, .86, SH(CARVAO, 10))) +
      A(44, 480, ANTON('Fixe 3 posts no topo do perfil.', 76, CARVAO, .92, f'background:{CREME};padding:10px 18px 4px;transform:rotate(-2deg);box-shadow:8px 8px 0 {CARVAO}')) +
      A(150, 640, celular(780, 1300, perfil), 'transform:rotate(3deg)') +
      A(30, 1440, adesivo('1º cardápio', TOMATE, CREME, -8, 34)) +
@@ -352,26 +350,25 @@ stor('d24-08h-dica-rapida-fixe-3-posts',
      A(90, 1660, adesivo('3º avaliações', CARVAO, ACAFRAO, -6, 34)) +
      A(780, 60, f'<div style="transform:rotate(12deg)">{estrela(250, TOMATE, ANTON("leva<br>10<br>segundos", 46, CREME, .92), 0)}</div>') +
      ASS_STORY())
-COMP['d24-08h-dica-rapida-fixe-3-posts'] = 'Perfil do Instagram desenhado no celular com 3 posts fixados (pino) + adesivos numerados + estrela; açafrão'
+COMP['d24-08h-dica-rapida-fixe-3-posts'] = 'Perfil do Instagram desenhado no celular com 3 posts fixados (pino) + adesivos numerados + estrela; verde'
 
 # ================================================================== d24 19h · RAIO-X: O QUE VOCÊ RECEBE (feed creme · cartaz com 5 selos)
 def s5(t, sub, bg, fg, rot):
     return SEL(300, f'{sub} · RAIO-X · {sub} · ', bg, fg, rot, centro=BAGEL(t, 44 if len(t) < 9 else 36, fg, .95, 'text-align:center'), fs=12)
 feed('d24-19h-raio-x-o-que-recebe',
-     FUNDO(CREME, TOMATE, .13) +
-     A(40, 26, BAGEL('Raio-X:', 240, TOMATE, .86, SH(CARVAO, 10))) +
-     A(46, 262, ANTON('o que você recebe', 100, VERDE, .9)) +
+     BOX(0, 0, 1080, 1350, TINTA) + f'<div class="a" style="inset:0;background:{padrao(CREME, .06, 300)}"></div>' +
+     A(40, 26, BAGEL('Raio-X:', 240, CREME, .86)) +
+     A(46, 262, ANTON('o que você recebe', 100, ACAFRAO, .9)) +
      A(30, 410, s5('Insta-<br>gram', 'PERFIL E FOTOS', VERDE, CREME, -10)) +
      A(390, 380, s5('Cardápio', 'PREÇO E ORDEM', TOMATE, CREME, 8)) +
      A(750, 420, s5('iFood', 'NOTA E VITRINE', ACAFRAO, CARVAO, -6)) +
      A(160, 740, s5('Anúncio', 'BAIRRO E VERBA', CARVAO, ACAFRAO, 6)) +
      A(520, 760, s5('Google', 'MAPA E AVALIAÇÃO', VERDE_ESC, CREME, -8)) +
-     A(820, 160, f'<div style="transform:rotate(12deg)">{estrela(230, ACAFRAO, MONO("só", 18, CARVAO) + BAGEL("R$297", 56, TOMATE, .9), 0)}</div>') +
-     BOX(0, 1090, 1080, 260, VERDE, f'border-top:8px solid {CARVAO};padding:26px 52px 0',
-         ANTON('Abatido no 1º mês se fechar em 7 dias.', 52, CREME, 1) + MONO('Peça o seu no zap · 5 vagas de fundadora', 18, ACAFRAO, 'margin-top:12px')) +
+     BOX(0, 1090, 1080, 260, VERDE, f'border-top:8px solid {TOMATE};padding:24px 52px 0;display:flex;align-items:center;gap:26px;height:150px',
+         BAGEL('R$ 297', 92, CREME, 1, SH(CARVAO, 5)) + MONO('abatido no 1º mês<br>se fechar em 7 dias<br>5 vagas de fundadora', 17, CREME, 'line-height:1.5')) +
      A(52, 1268, logo(34, CREME)) + A(808, 1284, MONO('@oreganoturbo', 19, CREME)) +
      A(800, 930, adesivo('Chama no<br>zap ↗', TOMATE, CREME, -8, 38, '18px 26px', extra='border-radius:28px;line-height:1.02;text-align:center')))
-COMP['d24-19h-raio-x-o-que-recebe'] = 'Cartaz com 5 selos redondos girados (um por entrega do Raio-X) + estrela de preço + faixa verde; creme com padrão tomate'
+COMP['d24-19h-raio-x-o-que-recebe'] = 'v4: cartaz escuro com 5 selos redondos girados (um por entrega do Raio-X); preço escrito na faixa verde, sem estrela de preço; carvão'
 
 # ================================================================== d25 08h · Bastidor: relatório saindo. (story carvão · relatório no celular)
 barras = ''.join(f'<div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:6px"><div style="width:100%;height:{h}px;background:{c};border-radius:8px 8px 0 0"></div>'
@@ -387,8 +384,8 @@ rel = (f'<div style="position:absolute;inset:0;background:{CREME}"></div>'
        + f'<div style="grid-column:1/3;background:#fff;border-radius:18px;padding:16px 18px;border:3px solid #E7E2D8"><div style="font:600 17px Inter;color:#666;margin-bottom:10px">Pedidos por dia</div>'
        f'<div style="display:flex;align-items:flex-end;gap:10px;height:220px">{barras}</div></div>'
        f'<div style="grid-column:1/3;background:{ACAFRAO};border-radius:18px;padding:16px 18px"><div style="font:700 18px Inter;color:{CARVAO}">O que muda nesta semana</div>'
-       f'<div style="font:400 36px/1.05 Anton;color:{CARVAO};text-transform:uppercase;margin-top:6px">Combo de terça no anúncio do bairro</div></div></div>'
-       f'<div style="position:absolute;left:60px;top:900px;transform:rotate(-10deg);border:7px solid {TOMATE};color:{TOMATE};font:400 60px/1 Anton;padding:8px 18px;text-transform:uppercase;'
+       f'<div style="font:400 28px/1.05 \'Bagel Fat One\';color:{CARVAO};text-transform:uppercase;margin-top:6px">Combo de terça no anúncio do bairro</div></div></div>'
+       f'<div style="position:absolute;left:60px;top:900px;transform:rotate(-10deg);border:7px solid {TOMATE};color:{TOMATE};font:400 47px/1 \'Bagel Fat One\';padding:8px 18px;text-transform:uppercase;'
        f'background:rgba(243,238,230,.7)">Exemplo ilustrativo</div>')
 stor('d25-08h-bastidor-relatorio-saindo',
      FUNDO(CARVAO, CREME, .06) +
@@ -411,21 +408,21 @@ def it25(i):
     t, fica = sab[i], i < 8
     deco = (f'<span style="position:absolute;left:-12px;right:-12px;top:-6px;bottom:-8px;border:4px solid {VERDE};border-radius:50%;transform:rotate(-3deg)"></span>' if fica else
             f'<span style="position:absolute;left:-6px;right:-6px;top:50%;height:6px;background:{TOMATE};border-radius:6px;transform:rotate({(i * 13) % 9 - 4}deg)"></span>')
-    return (f'<div style="padding:5px 0"><span style="position:relative;display:inline-block;font:400 31px/1.1 Anton;text-transform:uppercase;'
+    return (f'<div style="padding:5px 0"><span style="position:relative;display:inline-block;font:400 24px/1.1 \'Bagel Fat One\';text-transform:uppercase;'
             f'color:{CARVAO if fica else "rgba(20,19,17,.55)"}">{t}{deco}</span></div>')
 menu = (f'<div style="width:960px;background:{CREME};border:6px solid {CARVAO};box-shadow:16px 16px 0 {CARVAO};padding:26px 40px 30px">'
         f'<div style="display:flex;justify-content:space-between;align-items:center;border-bottom:4px solid {CARVAO};padding-bottom:12px;margin-bottom:12px">'
         + BAGEL('Cardápio', 58, TOMATE, 1) + MONO('40 sabores · página 1 de 3', 16, CARVAO) + '</div>'
         + '<div style="columns:3;column-gap:34px">' + ''.join(it25(i) for i in ordem) + '</div></div>')
 feed('d25-12h-cardapio-40-sabores',
-     FUNDO(ACAFRAO, CARVAO, .08) +
+     FUNDO(CREME, TOMATE, .10) +
      A(44, 26, ANTON('Seu cardápio tem', 92, CARVAO, .9)) +
      A(36, 110, FIT(BAGEL('40 sabores?', 190, TOMATE, .86, SH(CARVAO, 10)), 1000)) +
      A(60, 330, menu, 'transform:rotate(-1.5deg)') +
      A(40, 1100, adesivo('Quem escolhe demais, desiste.', TOMATE, CREME, -3, 38)) +
      A(800, 220, f'<div style="transform:rotate(12deg)">{estrela(230, VERDE, MONO("fica com", 18, CREME) + BAGEL("os 8<br>que<br>vendem", 40, ACAFRAO, .9), 0)}</div>') +
      ASS(1258))
-COMP['d25-12h-cardapio-40-sabores'] = 'Cardápio-cartaz com 40 sabores riscados a caneta e 8 circulados + estrela "fica com os 8 que vendem" + adesivo; açafrão'
+COMP['d25-12h-cardapio-40-sabores'] = 'Cardápio-cartaz com 40 sabores riscados a caneta e 8 circulados + estrela "fica com os 8 que vendem" + adesivo; creme'
 
 # ================================================================== d26 08h · Qual o melhor dia pra pizza? (story tomate · tira da semana + enquete)
 cols = [('Seg', CREME, TOMATE), ('Ter', ACAFRAO, CARVAO), ('Qua', VERDE, CREME), ('Qui', CREME, VERDE), ('Sex', CARVAO, ACAFRAO), ('Sáb', ACAFRAO, TOMATE), ('Dom', VERDE, ACAFRAO)]
@@ -469,7 +466,7 @@ sem = lambda n, t, bg, fg, rot: (f'<div style="display:flex;align-items:center;g
                                  f'<div style="flex:none;width:150px;height:150px;border-radius:50%;background:{bg};border:6px solid {CARVAO};display:grid;place-items:center;box-shadow:8px 8px 0 {CARVAO}">'
                                  + BAGEL(n, 90, fg, 1) + '</div>'
                                  f'<div style="flex:1;background:#fff;border:5px solid {CARVAO};padding:18px 26px;box-shadow:8px 8px 0 {CARVAO}">'
-                                 + MONO(f'semana {n}', 16, TOMATE) + f'<div style="font:400 50px/1.02 Anton;text-transform:uppercase;color:{CARVAO};margin-top:4px">{t}</div></div>'
+                                 + MONO(f'semana {n}', 16, TOMATE) + f'<div style="font:400 39px/1.02 \'Bagel Fat One\';text-transform:uppercase;color:{CARVAO};margin-top:4px">{t}</div></div>'
                                  f'<div style="flex:none;width:64px;height:64px;border:6px solid {CARVAO};border-radius:12px;background:#fff"></div></div>')
 stor('d27-08h-resumo-do-mes',
      BOX(0, 0, 1080, 1920, CREME) + BOX(0, 0, 1080, 2000, padrao(VERDE, .12, 300)) +
@@ -499,7 +496,7 @@ feed('d27-12h-10-ideias-de-post-1-capa',
      tarja_ass(1258, CARVAO, CREME, '1/3 · @oreganoturbo'))
 ideia = lambda n, t, ex, bg, fg: (f'<div style="display:flex;align-items:center;gap:26px;background:{bg};border:5px solid {CARVAO};box-shadow:10px 10px 0 {CARVAO};padding:28px 26px">'
                                   + BAGEL(n, 124, fg, .9, f'width:150px;text-align:center;{SH(CARVAO, 5)}') +
-                                  f'<div><div style="font:400 64px/1 Anton;text-transform:uppercase;color:{fg if bg != CREME else CARVAO}">{t}</div>'
+                                  f'<div><div style="font:400 50px/1 \'Bagel Fat One\';text-transform:uppercase;color:{fg if bg != CREME else CARVAO}">{t}</div>'
                                   f'<div style="font:600 29px/1.3 Inter;color:{CREME if bg in (VERDE, TOMATE, CARVAO) else CARVAO};margin-top:6px">{ex}</div></div></div>')
 feed('d27-12h-10-ideias-de-post-2',
      FUNDO(CREME, VERDE, .1) +
@@ -514,7 +511,7 @@ feed('d27-12h-10-ideias-de-post-2',
 nota = lambda n, t, ex, bg, fg, rot: (f'<div style="width:470px;height:300px;background:{bg};border:5px solid {CARVAO};box-shadow:12px 12px 0 {CARVAO};transform:rotate({rot}deg);padding:22px 26px;position:relative">'
                                       f'<div style="position:absolute;left:180px;top:-22px;width:110px;height:36px;background:rgba(243,238,230,.85);border:3px solid rgba(20,19,17,.25);transform:rotate(-4deg)"></div>'
                                       + BAGEL(n, 90, fg, .9, SH(CARVAO, 5)) +
-                                      f'<div style="font:400 44px/1 Anton;text-transform:uppercase;color:{fg};margin-top:8px">{t}</div>'
+                                      f'<div style="font:400 34px/1 \'Bagel Fat One\';text-transform:uppercase;color:{fg};margin-top:8px">{t}</div>'
                                       f'<div style="font:600 22px/1.3 Inter;color:{fg};margin-top:6px;opacity:.95">{ex}</div></div>')
 feed('d27-12h-10-ideias-de-post-3',
      FUNDO(VERDE, CREME, .1) +
@@ -539,17 +536,18 @@ def q(x, y, bg, fg, palavra, rot, rotulo, ic, icx, icy, fonte=BAGEL, s=260, lx=3
                + A(22, 30, FIT(fonte(palavra, s, fg, .84, SH(CARVAO, 8)), 496, f'transform:rotate({rot}deg)'))
                + A(lx, 616, MONO(rotulo, 15, CREME, f'background:{CARVAO};padding:7px 10px')))
 feed('d28-19h-semana-que-vem-tem-mais',
-     q(0, 0, TOMATE, CREME, 'Semana', -4, 'seg · dica pronta', 'fatia', 250, 330, ANTON, 300) +
-     q(540, 0, ACAFRAO, VERDE, 'Que<br>vem', 3, 'qua · conta do delivery', 'celular', 250, 340, BAGEL, 230, 200) +
-     q(0, 675, VERDE, ACAFRAO, 'Tem', -3, 'sex · cultura de pizzaria', 'chama', 230, 330, BAGEL, 300) +
+     BOX(0, 0, 1080, 675, TOMATE, 'overflow:hidden', f'<div class="a" style="inset:0;background:{padrao(CREME, .12, 260)}"></div>'
+         + A(700, 250, f'<div style="transform:rotate(-14deg);opacity:.85">{icone("fatia", 360, CREME, 5)}</div>')) +
+     A(30, 40, FIT(BAGEL('Semana', 270, CREME, .84, SH(CARVAO, 10)), 1020)) +
+     A(40, 300, BAGEL('que vem', 150, ACAFRAO, .86, SH(CARVAO, 8))) +
+     A(44, 600, MONO('seg a dom · 3 postagens por dia', 15, CREME, f'background:{CARVAO};padding:7px 10px')) +
+     q(0, 675, VERDE, CREME, 'Tem', -3, 'dicas · contas · cultura', 'chama', 230, 330, BAGEL, 300) +
      q(540, 675, CREME, TOMATE, 'Mais.', 4, 'dom · resumo da semana', 'pizza', 250, 310, BAGEL, 230, 200) +
-     BOX(0, 668, 1080, 14, CARVAO) + BOX(533, 0, 14, 1350, CARVAO) +
+     BOX(0, 668, 1080, 14, CARVAO) + BOX(533, 675, 14, 675, CARVAO) +
      A(420, 555, selo(240, 'SIGA @OREGANOTURBO · SÓ PIZZARIAS · ', CARVAO, CREME)) +
      A(560, 1170, adesivo('Siga @oreganoturbo ↗', TOMATE, CREME, -4, 34)))
-COMP['d28-19h-semana-que-vem-tem-mais'] = 'Grade de 4 cores com a manchete quebrada em 4 quadros (SEMANA / QUE VEM / TEM / MAIS.), ícone em traço gigante em cada um + selo central (p03 v3, Drip Riot)'
+COMP['d28-19h-semana-que-vem-tem-mais'] = 'v4: faixa tomate inteira com SEMANA gigante + 2 quadros (verde TEM, creme MAIS.); antes era grade de 4 cores com a manchete quebrada em 4 quadros (SEMANA / QUE VEM / TEM / MAIS.), ícone em traço gigante em cada um + selo central (p03 v3, Drip Riot); v4: só cores da paleta (tomate, carvão, verde, creme)'
 
-FIT_JS = ('<script>window.fit=()=>{document.querySelectorAll("[data-w]").forEach(el=>{const w=+el.dataset.w,c=el.firstElementChild;'
-          'let fs=parseFloat(getComputedStyle(c).fontSize);while(c.scrollWidth>w+1&&fs>12){fs-=2;c.style.fontSize=fs+"px"}})};</script>')
 CSS2 = CSS + 'section.f>.a:first-child{}'
 open(os.path.join(D, 'pecas.html'), 'w', encoding='utf-8').write(
     f'<!doctype html><html><head><meta charset="utf-8">{FONTS}<style>{CSS2}</style>{FIT_JS}</head><body>' +
