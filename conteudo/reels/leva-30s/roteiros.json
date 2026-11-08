@@ -1,0 +1,1722 @@
+{
+ "leva": "Reels 30 s · @lindsonalmeida_",
+ "criado": "2026-11-08",
+ "conta": "Zuleide (agente Social media)",
+ "estrategia": "conteudo/reels/leva-30s/ESTRATEGIA.md",
+ "legendas": "conteudo/reels/leva-30s/LEGENDAS.md",
+ "identidade": {
+  "cores": {
+   "preto": "#0B0B0B",
+   "amarelo": "#F5C518",
+   "branco": "#FFFFFF"
+  },
+  "fontes": "Anton (palavra gigante) + Manrope (manchete e legenda) + mono (rótulo)",
+  "cards_de_impacto": "amarelo #F5C518 com texto preto (troca o verde-limão da skill reels-viral pela cor da marca)",
+  "assinatura": "@lindsonalmeida_ no canto superior direito, mono branco 60%",
+  "legenda_na_tela": "palavra por palavra com entrada em blur, sentence case, sempre abaixo do rosto e fora das margens de segurança (topo 250 px, rodapé 380 px em 1080×1920)"
+ },
+ "reels": [
+  {
+   "id": "L30-01",
+   "ordem": 1,
+   "post": {
+    "data": "10/11",
+    "hora": "08:30"
+   },
+   "titulo": "POV: o cliente entrou no seu perfil e saiu em 3 segundos",
+   "formato": "POV",
+   "linha_editorial": "Erro que custa cliente",
+   "intencao": "Alcance e conversa: fazer o dono de negócio se ver no lugar do cliente que desiste e pedir a avaliação.",
+   "duracao_s": 30,
+   "capa_cor": "amarelo",
+   "capa": "Amarelo c2y: palavra gigante preta SAIU atrás; Lindson recortado de corpo inteiro na frente, braços cruzados, olhando de lado (desconfiado); degradê preto embaixo com a manchete branca 'Ele entrou no seu perfil e' + caixa amarela SAIU.",
+   "cta_palavra": "PERFIL",
+   "entrega_no_video": "O teste dos 3 segundos: foto que mostra quem atende, bio que diz o que o cliente ganha e botão para o WhatsApp.",
+   "entregavel": {
+    "o_que": "Avaliação gratuita do perfil: 3 problemas e 1 solução prática, por DM ou WhatsApp",
+    "arquivo": "processo em conteudo/avaliacao-gratuita/PLANO.md (isca PERFIL, código AV em agencia/marca-lindson/ESTRATEGIA.md §4)",
+    "situacao": "existe"
+   },
+   "musica": "Trap/lo-fi escuro, 90 BPM, batida seca; ducking de -18 dB sob a voz; corte de batida no 'saiu'.",
+   "voz": "Voz clonada do Lindson no Dublê, gerada nos blocos abaixo (até ~220 caracteres), pausa ~0,2 s entre frases, sem respiração artificial.",
+   "narracao_palavras": 76,
+   "blocos_voz": [
+    "Ele entrou no seu perfil. E saiu em três segundos. E nem te disse por quê. Um: a foto. Escura, de longe. Ninguém sabe quem atende. Dois: a bio. Fala de você, não do que ele ganha. E o terceiro é o que mais espanta.",
+    "Nenhum caminho pro WhatsApp. Ele quer chamar e não acha onde. Comenta PERFIL que eu olho o seu e te digo o que ajustar. Antes que o próximo entre… e saia."
+   ],
+   "cenas": [
+    {
+     "tempo": "0.0–2.0",
+     "ini": 0.0,
+     "fim": 2.0,
+     "narracao": "Ele entrou no seu perfil. E saiu em três segundos.",
+     "texto_tela": "Entrou. · Saiu.",
+     "texto_tela_palavras": [
+      "Entrou.",
+      "Saiu."
+     ],
+     "visual": "Banco: 'man scrolling phone dark room close up' (Mixkit/Coverr), tela do celular trocada por perfil fictício",
+     "vfx": "zoom punch + shake no 'saiu'",
+     "sfx": "swipe + hit"
+    },
+    {
+     "tempo": "2.0–5.0",
+     "ini": 2.0,
+     "fim": 5.0,
+     "narracao": "E nem te disse por quê.",
+     "texto_tela": "Por quê?",
+     "texto_tela_palavras": [
+      "Por",
+      "quê?"
+     ],
+     "visual": "Motion: contador 3 · 2 · 1 gigante em amarelo sobre preto",
+     "vfx": "motion blur direcional na troca",
+     "sfx": "tick de relógio + whoosh"
+    },
+    {
+     "tempo": "5.0–9.0",
+     "ini": 5.0,
+     "fim": 9.0,
+     "narracao": "Um: a foto. Escura, de longe. Ninguém sabe quem atende.",
+     "texto_tela": "1 · A foto",
+     "texto_tela_palavras": [
+      "1",
+      "A",
+      "foto"
+     ],
+     "visual": "Motion: perfil fictício com a foto borrada piscando; card amarelo com o número",
+     "vfx": "light leak curto",
+     "sfx": "pop"
+    },
+    {
+     "tempo": "9.0–13.0",
+     "ini": 9.0,
+     "fim": 13.0,
+     "narracao": "Dois: a bio. Fala de você, não do que ele ganha.",
+     "texto_tela": "2 · A bio",
+     "texto_tela_palavras": [
+      "2",
+      "A",
+      "bio"
+     ],
+     "visual": "Motion: bio fictícia sendo riscada linha por linha",
+     "vfx": "zoom in lento",
+     "sfx": "click + risco (marker)"
+    },
+    {
+     "tempo": "13.0–16.0",
+     "ini": 13.0,
+     "fim": 16.0,
+     "narracao": "E o terceiro é o que mais espanta.",
+     "texto_tela": "O pior…",
+     "texto_tela_palavras": [
+      "O",
+      "pior…"
+     ],
+     "visual": "Card de impacto amarelo em tela cheia, texto preto",
+     "vfx": "glitch de 3 quadros + shake",
+     "sfx": "riser → hit"
+    },
+    {
+     "tempo": "16.0–21.0",
+     "ini": 16.0,
+     "fim": 21.0,
+     "narracao": "Nenhum caminho pro WhatsApp. Ele quer chamar e não acha onde.",
+     "texto_tela": "3 · Sem caminho pro zap",
+     "texto_tela_palavras": [
+      "3",
+      "Sem",
+      "caminho",
+      "pro",
+      "zap"
+     ],
+     "visual": "Banco: 'hand holding smartphone confused' + motion do botão de WhatsApp que some",
+     "vfx": "motion blur direcional",
+     "sfx": "whoosh + 'erro' curto"
+    },
+    {
+     "tempo": "21.0–27.5",
+     "ini": 21.0,
+     "fim": 27.5,
+     "narracao": "Comenta PERFIL que eu olho o seu e te digo o que ajustar.",
+     "texto_tela": "Comenta PERFIL",
+     "texto_tela_palavras": [
+      "Comenta",
+      "PERFIL"
+     ],
+     "visual": "Lindson em lip-sync (foto de estúdio colorida, variação nunca usada, boca sincronizada com a voz do Dublê); pose apontando para baixo, para os comentários; card amarelo 'Comenta PERFIL' na área livre abaixo do rosto",
+     "vfx": "light leak âmbar na entrada",
+     "sfx": "pop + ding"
+    },
+    {
+     "tempo": "27.5–30.0",
+     "ini": 27.5,
+     "fim": 30.0,
+     "narracao": "Antes que o próximo entre… e saia.",
+     "texto_tela": "Entrou. · Saiu.",
+     "texto_tela_palavras": [
+      "Entrou.",
+      "Saiu."
+     ],
+     "visual": "Mesma tomada da abertura (loop)",
+     "vfx": "zoom punch igual ao início",
+     "sfx": "swipe"
+    }
+   ],
+   "legenda": {
+    "titulo": "POR QUE O CLIENTE ENTRA NO SEU PERFIL DO INSTAGRAM E SAI EM 3 SEGUNDOS",
+    "corpo": "O cliente entrou no seu perfil. Olhou. E foi embora sem chamar. Isso acontece todo dia com negócio local em São Luís, e o dono quase nunca fica sabendo.\n\n📌 O que o cliente olha nos primeiros segundos\nQuem chega no seu perfil decide rápido se fica ou se sai. Ele não lê tudo. Ele bate o olho em três coisas.\n\n1️⃣ A foto\nFoto escura, de longe ou só a logo pequena. A pessoa não sabe quem vai atender e não sente segurança.\n\n2️⃣ A bio\nBio que fala de você (\"apaixonada pelo que faço\") e não diz o que o cliente ganha, pra quem é e onde fica.\n\n3️⃣ O caminho pro WhatsApp\nEsse é o que mais espanta. A pessoa quer chamar e não acha o botão, ou acha um link que não diz o que tem dentro.\n\n💡 Exemplo\nUma manicure no Cohama troca a logo por uma foto dela sorrindo, escreve na bio \"unhas em gel que duram, no Cohama · chama no zap 👇\" e coloca o link do WhatsApp com mensagem pronta. Quem entra entende em um olhar o que ela faz e como pedir.\n\n✅ Conclusão\nAntes de postar mais, confira as três coisas que o cliente olha primeiro. Perfil claro segura quem já chegou.\n\n📲 Quer que eu olhe o seu?\nComenta PERFIL que eu olho o seu perfil e te mando o que ajustar primeiro. De graça.\n\nNarração com a voz do Lindson gerada por IA (Dublê).",
+    "hashtags": [
+     "#perfilprofissional",
+     "#instagramparanegocios",
+     "#donodenegocio",
+     "#saoluisma"
+    ],
+    "texto_completo": "POR QUE O CLIENTE ENTRA NO SEU PERFIL DO INSTAGRAM E SAI EM 3 SEGUNDOS\n\nO cliente entrou no seu perfil. Olhou. E foi embora sem chamar. Isso acontece todo dia com negócio local em São Luís, e o dono quase nunca fica sabendo.\n\n📌 O que o cliente olha nos primeiros segundos\nQuem chega no seu perfil decide rápido se fica ou se sai. Ele não lê tudo. Ele bate o olho em três coisas.\n\n1️⃣ A foto\nFoto escura, de longe ou só a logo pequena. A pessoa não sabe quem vai atender e não sente segurança.\n\n2️⃣ A bio\nBio que fala de você (\"apaixonada pelo que faço\") e não diz o que o cliente ganha, pra quem é e onde fica.\n\n3️⃣ O caminho pro WhatsApp\nEsse é o que mais espanta. A pessoa quer chamar e não acha o botão, ou acha um link que não diz o que tem dentro.\n\n💡 Exemplo\nUma manicure no Cohama troca a logo por uma foto dela sorrindo, escreve na bio \"unhas em gel que duram, no Cohama · chama no zap 👇\" e coloca o link do WhatsApp com mensagem pronta. Quem entra entende em um olhar o que ela faz e como pedir.\n\n✅ Conclusão\nAntes de postar mais, confira as três coisas que o cliente olha primeiro. Perfil claro segura quem já chegou.\n\n📲 Quer que eu olhe o seu?\nComenta PERFIL que eu olho o seu perfil e te mando o que ajustar primeiro. De graça.\n\nNarração com a voz do Lindson gerada por IA (Dublê).\n\n#perfilprofissional #instagramparanegocios #donodenegocio #saoluisma",
+    "caracteres": 1362
+   }
+  },
+  {
+   "id": "L30-02",
+   "ordem": 2,
+   "post": {
+    "data": "10/11",
+    "hora": "18:00"
+   },
+   "titulo": "3 frases na bio que espantam cliente",
+   "formato": "Lista",
+   "linha_editorial": "Faz comigo",
+   "intencao": "Salvamento e conversa: entregar a fórmula da bio e puxar a Folha da Bio (porta para o Bio que Vende).",
+   "duracao_s": 30,
+   "capa_cor": "preto",
+   "capa": "Preto r1: foto colorida inteira com a luz do estúdio, Lindson de frente apontando para a lente, sério; degradê preto; manchete Manrope '3 frases na bio que' + caixa amarela ESPANTAM + 'cliente'; rótulo mono amarelo BIO.",
+   "cta_palavra": "FÓRMULA",
+   "entrega_no_video": "A fórmula da bio em uma linha: o que você faz + pra quem + onde + como chamar no WhatsApp.",
+   "entregavel": {
+    "o_que": "Folha da Bio: 1 página 4:5 com a fórmula e 6 exemplos de bio por nicho (amostra grátis do Bio que Vende)",
+    "arquivo": "a criar: produtos/bio-que-vende/amostra/Folha-da-Bio.pdf (privado), tirada do PDF Bio que Vende em 15 Minutos",
+    "situacao": "precisa criar (Designer gráfico, 1 página)"
+   },
+   "musica": "Boom bap moderno, 92 BPM, baixo marcado; ducking -18 dB; um 'drop' de silêncio antes da fórmula.",
+   "voz": "Voz clonada do Lindson no Dublê, gerada nos blocos abaixo (até ~220 caracteres), pausa ~0,2 s entre frases, sem respiração artificial.",
+   "narracao_palavras": 79,
+   "blocos_voz": [
+    "Se a sua bio tem uma dessas frases, ela tá espantando cliente. E a terceira quase todo mundo usa. Um: apaixonada pelo que faço. Não diz o que você vende. Dois: qualidade e bom atendimento. Todo concorrente diz igual.",
+    "Três: link na bio, sem dizer o que tem lá. Ninguém toca. Troca por isso: o que você faz, pra quem, onde, e como chamar. Comenta FÓRMULA que eu te mando com exemplos. Agora olha a sua bio. Tem alguma?"
+   ],
+   "cenas": [
+    {
+     "tempo": "0.0–2.0",
+     "ini": 0.0,
+     "fim": 2.0,
+     "narracao": "Se a sua bio tem uma dessas frases, ela tá espantando cliente.",
+     "texto_tela": "Sua bio · espanta",
+     "texto_tela_palavras": [
+      "Sua",
+      "bio",
+      "espanta"
+     ],
+     "visual": "Motion: bio fictícia num iPhone, palavras tremendo; fundo preto",
+     "vfx": "zoom punch + shake",
+     "sfx": "hit grave"
+    },
+    {
+     "tempo": "2.0–4.5",
+     "ini": 2.0,
+     "fim": 4.5,
+     "narracao": "E a terceira quase todo mundo usa.",
+     "texto_tela": "A 3ª…",
+     "texto_tela_palavras": [
+      "A",
+      "3ª…"
+     ],
+     "visual": "Card de impacto amarelo tela cheia",
+     "vfx": "glitch curto",
+     "sfx": "riser curto"
+    },
+    {
+     "tempo": "4.5–9.0",
+     "ini": 4.5,
+     "fim": 9.0,
+     "narracao": "Um: apaixonada pelo que faço. Não diz o que você vende.",
+     "texto_tela": "1 · Apaixonada pelo que faço",
+     "texto_tela_palavras": [
+      "1",
+      "Apaixonada",
+      "pelo",
+      "que",
+      "faço"
+     ],
+     "visual": "Motion: frase em aspas gigantes amarelas, risco preto atravessando",
+     "vfx": "motion blur na entrada do risco",
+     "sfx": "whoosh + risco"
+    },
+    {
+     "tempo": "9.0–13.0",
+     "ini": 9.0,
+     "fim": 13.0,
+     "narracao": "Dois: qualidade e bom atendimento. Todo concorrente diz igual.",
+     "texto_tela": "2 · Qualidade e bom atendimento",
+     "texto_tela_palavras": [
+      "2",
+      "Qualidade",
+      "e",
+      "bom",
+      "atendimento"
+     ],
+     "visual": "Banco: 'row of shop signs street night' (Coverr), letreiros iguais; frase riscada por cima",
+     "vfx": "light leak lateral",
+     "sfx": "click + risco"
+    },
+    {
+     "tempo": "13.0–17.5",
+     "ini": 13.0,
+     "fim": 17.5,
+     "narracao": "Três: link na bio, sem dizer o que tem lá. Ninguém toca.",
+     "texto_tela": "3 · Link na bio",
+     "texto_tela_palavras": [
+      "3",
+      "Link",
+      "na",
+      "bio"
+     ],
+     "visual": "Motion: dedo indo até o link e desistindo",
+     "vfx": "glitch + shake no 'ninguém toca'",
+     "sfx": "hit + 'erro'"
+    },
+    {
+     "tempo": "17.5–22.5",
+     "ini": 17.5,
+     "fim": 22.5,
+     "narracao": "Troca por isso: o que você faz, pra quem, onde, e como chamar.",
+     "texto_tela": "O quê + pra quem + onde + chama no zap",
+     "texto_tela_palavras": [
+      "O",
+      "quê",
+      "+",
+      "pra",
+      "quem",
+      "+",
+      "onde",
+      "+",
+      "chama",
+      "no",
+      "zap"
+     ],
+     "visual": "Card amarelo com a fórmula montando peça por peça (a entrega)",
+     "vfx": "zoom out suave, pop em cada peça",
+     "sfx": "4 pops em sequência"
+    },
+    {
+     "tempo": "22.5–28.0",
+     "ini": 22.5,
+     "fim": 28.0,
+     "narracao": "Comenta FÓRMULA que eu te mando com exemplos.",
+     "texto_tela": "Comenta FÓRMULA",
+     "texto_tela_palavras": [
+      "Comenta",
+      "FÓRMULA"
+     ],
+     "visual": "Lindson em lip-sync (foto de estúdio colorida, variação nunca usada, boca sincronizada com a voz do Dublê); pose segurando o celular virado para a câmera; card abaixo do rosto",
+     "vfx": "light leak âmbar",
+     "sfx": "pop + ding"
+    },
+    {
+     "tempo": "28.0–30.0",
+     "ini": 28.0,
+     "fim": 30.0,
+     "narracao": "Agora olha a sua bio. Tem alguma?",
+     "texto_tela": "Tem alguma?",
+     "texto_tela_palavras": [
+      "Tem",
+      "alguma?"
+     ],
+     "visual": "Volta ao iPhone da abertura (loop)",
+     "vfx": "zoom punch",
+     "sfx": "swipe"
+    }
+   ],
+   "legenda": {
+    "titulo": "BIO DO INSTAGRAM: 3 FRASES QUE ESPANTAM CLIENTE (E O QUE ESCREVER NO LUGAR)",
+    "corpo": "A bio é a primeira coisa que o cliente lê no seu perfil. E tem frase que faz ele ir embora antes de chegar no botão do WhatsApp.\n\n🚫 Frase 1: \"Apaixonada pelo que faço\"\nÉ bonita, mas não responde o que o cliente quer saber: o que você vende e se serve pra ele.\n\n🚫 Frase 2: \"Qualidade e bom atendimento\"\nTodo concorrente escreve a mesma coisa. Se todo mundo diz igual, nada te diferencia.\n\n🚫 Frase 3: \"Link na bio\"\nSem dizer o que tem no link, ninguém toca. A pessoa não arrisca sair do Instagram sem saber pra onde vai.\n\n✅ A fórmula da bio que vende\nO que você faz + pra quem + onde + como chamar.\nUma linha pra cada parte. Simples, direto, do jeito que você explicaria no balcão.\n\n💡 Exemplo\nAntes: \"Apaixonada por doces 💕 qualidade e carinho em cada detalhe · link na bio\"\nDepois: \"Bolos de festa sob encomenda · entrega no Renascença e Calhau · pede pelo zap 👇\"\nO cliente entende em um olhar e já sabe como pedir.\n\n📌 Conclusão\nBio boa não é a mais bonita. É a que faz o cliente entender e chamar.\n\n📲 Quer a fórmula completa?\nComenta FÓRMULA que eu te mando a Folha da Bio com exemplos prontos pra vários tipos de negócio.\n\nNarração com a voz do Lindson gerada por IA (Dublê).",
+    "hashtags": [
+     "#biodoinstagram",
+     "#dicasdeinstagram",
+     "#empreendedorlocal",
+     "#saoluis"
+    ],
+    "texto_completo": "BIO DO INSTAGRAM: 3 FRASES QUE ESPANTAM CLIENTE (E O QUE ESCREVER NO LUGAR)\n\nA bio é a primeira coisa que o cliente lê no seu perfil. E tem frase que faz ele ir embora antes de chegar no botão do WhatsApp.\n\n🚫 Frase 1: \"Apaixonada pelo que faço\"\nÉ bonita, mas não responde o que o cliente quer saber: o que você vende e se serve pra ele.\n\n🚫 Frase 2: \"Qualidade e bom atendimento\"\nTodo concorrente escreve a mesma coisa. Se todo mundo diz igual, nada te diferencia.\n\n🚫 Frase 3: \"Link na bio\"\nSem dizer o que tem no link, ninguém toca. A pessoa não arrisca sair do Instagram sem saber pra onde vai.\n\n✅ A fórmula da bio que vende\nO que você faz + pra quem + onde + como chamar.\nUma linha pra cada parte. Simples, direto, do jeito que você explicaria no balcão.\n\n💡 Exemplo\nAntes: \"Apaixonada por doces 💕 qualidade e carinho em cada detalhe · link na bio\"\nDepois: \"Bolos de festa sob encomenda · entrega no Renascença e Calhau · pede pelo zap 👇\"\nO cliente entende em um olhar e já sabe como pedir.\n\n📌 Conclusão\nBio boa não é a mais bonita. É a que faz o cliente entender e chamar.\n\n📲 Quer a fórmula completa?\nComenta FÓRMULA que eu te mando a Folha da Bio com exemplos prontos pra vários tipos de negócio.\n\nNarração com a voz do Lindson gerada por IA (Dublê).\n\n#biodoinstagram #dicasdeinstagram #empreendedorlocal #saoluis",
+    "caracteres": 1316
+   }
+  },
+  {
+   "id": "L30-03",
+   "ordem": 3,
+   "post": {
+    "data": "11/11",
+    "hora": "08:30"
+   },
+   "titulo": "Ninguém lê a sua legenda: antes × depois",
+   "formato": "Antes × depois",
+   "linha_editorial": "Antes e depois",
+   "intencao": "Salvamento e envio: mostrar a virada de uma legenda que ninguém lê para uma que chama no WhatsApp.",
+   "duracao_s": 30,
+   "capa_cor": "amarelo",
+   "capa": "Amarelo c2y: palavra gigante preta LEGENDA atrás; Lindson recortado de corpo inteiro segurando o celular, cara de 'nem li'; manchete branca no degradê 'Ninguém lê a sua' + caixa amarela LEGENDA.",
+   "cta_palavra": "LEGENDA",
+   "entrega_no_video": "A estrutura da legenda que chama: dor na 1ª linha → solução → próximo passo claro.",
+   "entregavel": {
+    "o_que": "5 modelos de legenda prontos, adaptados ao nicho de quem comentou (texto por DM)",
+    "arquivo": "a criar: conteudo/reels/leva-30s/entregaveis/5-modelos-de-legenda.txt (base genérica tirada de conteudo/avaliacao-gratuita/LEGENDAS.md); a equipe troca o nicho na hora",
+    "situacao": "precisa criar (Social media, texto)"
+   },
+   "musica": "Funk lo-fi/beat brasileiro leve, 100 BPM; ducking -18 dB; scratch na troca antes → depois.",
+   "voz": "Voz clonada do Lindson no Dublê, gerada nos blocos abaixo (até ~220 caracteres), pausa ~0,2 s entre frases, sem respiração artificial.",
+   "narracao_palavras": 81,
+   "blocos_voz": [
+    "Ninguém lê a sua legenda. E a culpa é da primeira linha. Olha o antes e o depois. Antes: bom dia, pessoal, hoje vim falar de um assunto importante. Passou direto. Depois: começa pela dor do cliente, numa frase só.",
+    "Mas o segredo tá no final. Termina dizendo o próximo passo: chama no WhatsApp, comenta, agenda. Sem isso, ela lê e vai embora. Comenta LEGENDA que eu te mando cinco modelos prontos pro seu negócio.",
+    "E apaga esse bom dia, pessoal."
+   ],
+   "cenas": [
+    {
+     "tempo": "0.0–2.0",
+     "ini": 0.0,
+     "fim": 2.0,
+     "narracao": "Ninguém lê a sua legenda. E a culpa é da primeira linha.",
+     "texto_tela": "Ninguém lê.",
+     "texto_tela_palavras": [
+      "Ninguém",
+      "lê."
+     ],
+     "visual": "Banco: 'fast scrolling social media phone' (Mixkit) em velocidade alta",
+     "vfx": "motion blur vertical forte + zoom punch",
+     "sfx": "whoosh longo + hit"
+    },
+    {
+     "tempo": "2.0–4.5",
+     "ini": 2.0,
+     "fim": 4.5,
+     "narracao": "Olha o antes e o depois.",
+     "texto_tela": "Antes × Depois",
+     "texto_tela_palavras": [
+      "Antes",
+      "×",
+      "Depois"
+     ],
+     "visual": "Motion: tela dividida preto | amarelo abrindo do centro",
+     "vfx": "split com light leak no meio",
+     "sfx": "scratch de vinil"
+    },
+    {
+     "tempo": "4.5–9.5",
+     "ini": 4.5,
+     "fim": 9.5,
+     "narracao": "Antes: bom dia, pessoal, hoje vim falar de um assunto importante. Passou direto.",
+     "texto_tela": "Antes: 'Bom dia, pessoal…'",
+     "texto_tela_palavras": [
+      "Antes:",
+      "'Bom",
+      "dia,",
+      "pessoal…'"
+     ],
+     "visual": "Motion: legenda fictícia num post, dedo rolando e passando",
+     "vfx": "shake leve no 'passou direto'",
+     "sfx": "swipe + 'erro'"
+    },
+    {
+     "tempo": "9.5–13.5",
+     "ini": 9.5,
+     "fim": 13.5,
+     "narracao": "Depois: começa pela dor do cliente, numa frase só.",
+     "texto_tela": "Depois: a dor na 1ª linha",
+     "texto_tela_palavras": [
+      "Depois:",
+      "a",
+      "dor",
+      "na",
+      "1ª",
+      "linha"
+     ],
+     "visual": "Motion: a mesma legenda reescrita, 1ª linha em amarelo",
+     "vfx": "zoom in na 1ª linha",
+     "sfx": "pop"
+    },
+    {
+     "tempo": "13.5–16.5",
+     "ini": 13.5,
+     "fim": 16.5,
+     "narracao": "Mas o segredo tá no final.",
+     "texto_tela": "O segredo tá no final",
+     "texto_tela_palavras": [
+      "O",
+      "segredo",
+      "tá",
+      "no",
+      "final"
+     ],
+     "visual": "Card de impacto amarelo tela cheia",
+     "vfx": "glitch + shake",
+     "sfx": "riser → hit"
+    },
+    {
+     "tempo": "16.5–22.5",
+     "ini": 16.5,
+     "fim": 22.5,
+     "narracao": "Termina dizendo o próximo passo: chama no WhatsApp, comenta, agenda. Sem isso, ela lê e vai embora.",
+     "texto_tela": "Dor → solução → próximo passo",
+     "texto_tela_palavras": [
+      "Dor",
+      "→",
+      "solução",
+      "→",
+      "próximo",
+      "passo"
+     ],
+     "visual": "Motion: 3 blocos empilhando com seta para o botão do WhatsApp (a entrega)",
+     "vfx": "motion blur direcional entre os blocos",
+     "sfx": "3 clicks + whoosh"
+    },
+    {
+     "tempo": "22.5–28.0",
+     "ini": 22.5,
+     "fim": 28.0,
+     "narracao": "Comenta LEGENDA que eu te mando cinco modelos prontos pro seu negócio.",
+     "texto_tela": "Comenta LEGENDA",
+     "texto_tela_palavras": [
+      "Comenta",
+      "LEGENDA"
+     ],
+     "visual": "Lindson em lip-sync (foto de estúdio colorida, variação nunca usada, boca sincronizada com a voz do Dublê); pose de quem mostra algo com a mão aberta; card abaixo do rosto",
+     "vfx": "light leak âmbar",
+     "sfx": "pop + ding"
+    },
+    {
+     "tempo": "28.0–30.0",
+     "ini": 28.0,
+     "fim": 30.0,
+     "narracao": "E apaga esse bom dia, pessoal.",
+     "texto_tela": "Apaga.",
+     "texto_tela_palavras": [
+      "Apaga."
+     ],
+     "visual": "Volta à rolagem da abertura (loop)",
+     "vfx": "zoom punch",
+     "sfx": "whoosh"
+    }
+   ],
+   "legenda": {
+    "titulo": "COMO ESCREVER LEGENDA PARA INSTAGRAM QUE O CLIENTE LÊ ATÉ O FIM",
+    "corpo": "Você escreve, capricha, posta… e ninguém lê a legenda. Quase sempre o problema está na primeira linha.\n\n❌ O antes\n\"Bom dia, pessoal! Hoje vim falar de um assunto muito importante…\"\nO cliente não sabe do que se trata e rola pra baixo. A legenda morre na primeira linha.\n\n✅ O depois\nComece pela dor do cliente, numa frase só, com as palavras que ele usa.\n\"Seu bolo murcha depois que sai do forno?\" prende muito mais do que \"bom dia\".\n\n📌 A estrutura que funciona\n1. Dor na primeira linha.\n2. A solução, curta e prática.\n3. O próximo passo: chama no WhatsApp, comenta, agenda.\n\nO terceiro é o que mais se esquece. Sem ele, a pessoa lê, concorda e vai embora.\n\n💡 Exemplo\nUma oficina no Turu troca \"Bom dia, clientes!\" por \"Barulho no freio não é normal. Veja o que pode ser.\" Explica em 3 linhas e termina com \"Manda um áudio do barulho no zap que a gente te fala\". A legenda vira conversa.\n\n🎯 Conclusão\nLegenda boa não é a mais longa. É a que começa pela dor e termina com um passo claro.\n\n📲 Quer modelos prontos?\nComenta LEGENDA que eu te mando 5 modelos adaptados pro seu negócio.\n\nNarração com a voz do Lindson gerada por IA (Dublê).",
+    "hashtags": [
+     "#legendaparainstagram",
+     "#copywriting",
+     "#negociolocal",
+     "#maranhao"
+    ],
+    "texto_completo": "COMO ESCREVER LEGENDA PARA INSTAGRAM QUE O CLIENTE LÊ ATÉ O FIM\n\nVocê escreve, capricha, posta… e ninguém lê a legenda. Quase sempre o problema está na primeira linha.\n\n❌ O antes\n\"Bom dia, pessoal! Hoje vim falar de um assunto muito importante…\"\nO cliente não sabe do que se trata e rola pra baixo. A legenda morre na primeira linha.\n\n✅ O depois\nComece pela dor do cliente, numa frase só, com as palavras que ele usa.\n\"Seu bolo murcha depois que sai do forno?\" prende muito mais do que \"bom dia\".\n\n📌 A estrutura que funciona\n1. Dor na primeira linha.\n2. A solução, curta e prática.\n3. O próximo passo: chama no WhatsApp, comenta, agenda.\n\nO terceiro é o que mais se esquece. Sem ele, a pessoa lê, concorda e vai embora.\n\n💡 Exemplo\nUma oficina no Turu troca \"Bom dia, clientes!\" por \"Barulho no freio não é normal. Veja o que pode ser.\" Explica em 3 linhas e termina com \"Manda um áudio do barulho no zap que a gente te fala\". A legenda vira conversa.\n\n🎯 Conclusão\nLegenda boa não é a mais longa. É a que começa pela dor e termina com um passo claro.\n\n📲 Quer modelos prontos?\nComenta LEGENDA que eu te mando 5 modelos adaptados pro seu negócio.\n\nNarração com a voz do Lindson gerada por IA (Dublê).\n\n#legendaparainstagram #copywriting #negociolocal #maranhao",
+    "caracteres": 1257
+   }
+  },
+  {
+   "id": "L30-04",
+   "ordem": 4,
+   "post": {
+    "data": "11/11",
+    "hora": "18:00"
+   },
+   "titulo": "O cliente sumiu depois do orçamento: o erro está na sua mensagem",
+   "formato": "Erro × acerto",
+   "linha_editorial": "Erro que custa cliente",
+   "intencao": "Envio e conversa: dor de quem perde venda no WhatsApp; porta para o Kit WhatsApp que Fecha.",
+   "duracao_s": 30,
+   "capa_cor": "preto",
+   "capa": "Preto r1: foto colorida com luz de estúdio, Lindson olhando o celular com a mão na testa; degradê preto; manchete 'O cliente' + caixa amarela SUMIU + 'depois do orçamento'; rótulo mono amarelo WHATSAPP.",
+   "cta_palavra": "SUMIU",
+   "entrega_no_video": "A mensagem de retomada pronta: 'Separei duas opções pro seu caso. Quer que eu te mostre a mais em conta?'",
+   "entregavel": {
+    "o_que": "5 mensagens prontas para cliente que sumiu (imagem 4:5 ou texto por DM)",
+    "arquivo": "a separar de CentralLindsonALmeida/produtos/kit-whatsapp-que-fecha/entrega/atalhos.txt (Kit WhatsApp que Fecha); salvar em conteudo/reels/leva-30s/entregaveis/5-mensagens-cliente-sumiu.txt",
+    "situacao": "conteúdo existe; precisa separar as 5 (equipe, poucos minutos)"
+   },
+   "musica": "Suspense eletrônico, 85 BPM, pulso grave; ducking -18 dB; som de notificação usado como batida.",
+   "voz": "Voz clonada do Lindson no Dublê, gerada nos blocos abaixo (até ~220 caracteres), pausa ~0,2 s entre frases, sem respiração artificial.",
+   "narracao_palavras": 82,
+   "blocos_voz": [
+    "O cliente pediu orçamento e sumiu. E você mandou: e aí, pensou? Essa mensagem afasta. Olha o erro e o acerto. Erro: cobrar resposta. A pessoa se sente pressionada e some de vez. Acerto: dar um motivo pra ela responder.",
+    "E esse motivo não é desconto. Manda assim: separei duas opções pro seu caso. Quer que eu te mostre a mais em conta? Comenta SUMIU que eu te mando cinco mensagens prontas pra cliente que sumiu.",
+    "Antes que ele feche com outro."
+   ],
+   "cenas": [
+    {
+     "tempo": "0.0–2.0",
+     "ini": 0.0,
+     "fim": 2.0,
+     "narracao": "O cliente pediu orçamento e sumiu. E você mandou: e aí, pensou?",
+     "texto_tela": "E aí, pensou?",
+     "texto_tela_palavras": [
+      "E",
+      "aí,",
+      "pensou?"
+     ],
+     "visual": "Motion: conversa de WhatsApp fictícia, visto azul e nada de resposta",
+     "vfx": "zoom punch no 'pensou?' + shake",
+     "sfx": "notificação + hit"
+    },
+    {
+     "tempo": "2.0–4.5",
+     "ini": 2.0,
+     "fim": 4.5,
+     "narracao": "Essa mensagem afasta. Olha o erro e o acerto.",
+     "texto_tela": "Erro × Acerto",
+     "texto_tela_palavras": [
+      "Erro",
+      "×",
+      "Acerto"
+     ],
+     "visual": "Motion: tela dividida preto | amarelo",
+     "vfx": "light leak no corte",
+     "sfx": "whoosh"
+    },
+    {
+     "tempo": "4.5–9.5",
+     "ini": 4.5,
+     "fim": 9.5,
+     "narracao": "Erro: cobrar resposta. A pessoa se sente pressionada e some de vez.",
+     "texto_tela": "Erro: cobrar",
+     "texto_tela_palavras": [
+      "Erro:",
+      "cobrar"
+     ],
+     "visual": "Banco: 'man ignoring phone notification couch' (Coverr)",
+     "vfx": "desfoque direcional saindo",
+     "sfx": "'erro' curto + whoosh"
+    },
+    {
+     "tempo": "9.5–13.0",
+     "ini": 9.5,
+     "fim": 13.0,
+     "narracao": "Acerto: dar um motivo pra ela responder.",
+     "texto_tela": "Acerto: dar um motivo",
+     "texto_tela_palavras": [
+      "Acerto:",
+      "dar",
+      "um",
+      "motivo"
+     ],
+     "visual": "Card amarelo com a palavra MOTIVO",
+     "vfx": "zoom in",
+     "sfx": "pop"
+    },
+    {
+     "tempo": "13.0–16.0",
+     "ini": 13.0,
+     "fim": 16.0,
+     "narracao": "E esse motivo não é desconto.",
+     "texto_tela": "Não é desconto.",
+     "texto_tela_palavras": [
+      "Não",
+      "é",
+      "desconto."
+     ],
+     "visual": "Card de impacto amarelo tela cheia, 'desconto' riscado",
+     "vfx": "glitch + shake",
+     "sfx": "riser → hit"
+    },
+    {
+     "tempo": "16.0–22.5",
+     "ini": 16.0,
+     "fim": 22.5,
+     "narracao": "Manda assim: separei duas opções pro seu caso. Quer que eu te mostre a mais em conta?",
+     "texto_tela": "Separei 2 opções pro seu caso",
+     "texto_tela_palavras": [
+      "Separei",
+      "2",
+      "opções",
+      "pro",
+      "seu",
+      "caso"
+     ],
+     "visual": "Motion: a mensagem sendo digitada e a resposta 'quero sim' chegando (ilustrativo)",
+     "vfx": "motion blur no balão que chega",
+     "sfx": "digitação + notificação"
+    },
+    {
+     "tempo": "22.5–28.0",
+     "ini": 22.5,
+     "fim": 28.0,
+     "narracao": "Comenta SUMIU que eu te mando cinco mensagens prontas pra cliente que sumiu.",
+     "texto_tela": "Comenta SUMIU",
+     "texto_tela_palavras": [
+      "Comenta",
+      "SUMIU"
+     ],
+     "visual": "Lindson em lip-sync (foto de estúdio colorida, variação nunca usada, boca sincronizada com a voz do Dublê); pose segurando o celular com a tela para fora; card abaixo do rosto",
+     "vfx": "light leak âmbar",
+     "sfx": "pop + ding"
+    },
+    {
+     "tempo": "28.0–30.0",
+     "ini": 28.0,
+     "fim": 30.0,
+     "narracao": "Antes que ele feche com outro.",
+     "texto_tela": "Antes que ele suma.",
+     "texto_tela_palavras": [
+      "Antes",
+      "que",
+      "ele",
+      "suma."
+     ],
+     "visual": "Volta à conversa da abertura (loop)",
+     "vfx": "zoom punch",
+     "sfx": "notificação"
+    }
+   ],
+   "legenda": {
+    "titulo": "CLIENTE SUMIU DEPOIS DO ORÇAMENTO NO WHATSAPP? O QUE MANDAR PARA ELE RESPONDER",
+    "corpo": "Você mandou o orçamento, ele visualizou… e sumiu. Aí vem a vontade de mandar \"e aí, pensou?\". Essa é a mensagem que mais afasta.\n\n❌ O erro: cobrar resposta\n\"E aí, pensou?\", \"Vai fechar?\", \"Conseguiu ver?\". A pessoa se sente pressionada e, em vez de responder, some de vez.\n\n✅ O acerto: dar um motivo pra ela responder\nQuem sumiu quase sempre tem uma dúvida que não falou: preço, prazo ou se serve pra ela. A mensagem certa abre essa porta sem pressão.\n\n💬 Mensagem pronta pra copiar\n\"Separei duas opções pro seu caso. Quer que eu te mostre a mais em conta?\"\nEla responde com sim ou não. E a conversa volta.\n\n⚠️ E não precisa dar desconto\nDesconto logo de cara ensina o cliente a sumir pra ganhar abatimento. Primeiro ofereça opção, não preço menor.\n\n💡 Exemplo\nUm vidraceiro no São Cristóvão manda o orçamento do box. O cliente some. Dois dias depois: \"Separei duas opções de vidro pro seu banheiro. Quer ver a mais em conta?\". A pessoa responde perguntando a diferença.\n\n🎯 Conclusão\nCobrar afasta. Oferecer opção traz de volta.\n\n📲 Quer mais mensagens assim?\nComenta SUMIU que eu te mando 5 mensagens prontas pra cliente que sumiu.\n\nNarração com a voz do Lindson gerada por IA (Dublê).",
+    "hashtags": [
+     "#vendaspelowhatsapp",
+     "#atendimentoaocliente",
+     "#pequenosnegocios",
+     "#saoluisma"
+    ],
+    "texto_completo": "CLIENTE SUMIU DEPOIS DO ORÇAMENTO NO WHATSAPP? O QUE MANDAR PARA ELE RESPONDER\n\nVocê mandou o orçamento, ele visualizou… e sumiu. Aí vem a vontade de mandar \"e aí, pensou?\". Essa é a mensagem que mais afasta.\n\n❌ O erro: cobrar resposta\n\"E aí, pensou?\", \"Vai fechar?\", \"Conseguiu ver?\". A pessoa se sente pressionada e, em vez de responder, some de vez.\n\n✅ O acerto: dar um motivo pra ela responder\nQuem sumiu quase sempre tem uma dúvida que não falou: preço, prazo ou se serve pra ela. A mensagem certa abre essa porta sem pressão.\n\n💬 Mensagem pronta pra copiar\n\"Separei duas opções pro seu caso. Quer que eu te mostre a mais em conta?\"\nEla responde com sim ou não. E a conversa volta.\n\n⚠️ E não precisa dar desconto\nDesconto logo de cara ensina o cliente a sumir pra ganhar abatimento. Primeiro ofereça opção, não preço menor.\n\n💡 Exemplo\nUm vidraceiro no São Cristóvão manda o orçamento do box. O cliente some. Dois dias depois: \"Separei duas opções de vidro pro seu banheiro. Quer ver a mais em conta?\". A pessoa responde perguntando a diferença.\n\n🎯 Conclusão\nCobrar afasta. Oferecer opção traz de volta.\n\n📲 Quer mais mensagens assim?\nComenta SUMIU que eu te mando 5 mensagens prontas pra cliente que sumiu.\n\nNarração com a voz do Lindson gerada por IA (Dublê).\n\n#vendaspelowhatsapp #atendimentoaocliente #pequenosnegocios #saoluisma",
+    "caracteres": 1335
+   }
+  },
+  {
+   "id": "L30-05",
+   "ordem": 5,
+   "post": {
+    "data": "12/11",
+    "hora": "08:30"
+   },
+   "titulo": "Mito: quem tem Instagram não precisa de site",
+   "formato": "Mito × verdade",
+   "linha_editorial": "Papo reto do Lindson",
+   "intencao": "Consideração: quebrar a crença e abrir conversa para mini site (degrau Instagram que Vende).",
+   "duracao_s": 30,
+   "capa_cor": "amarelo",
+   "capa": "Amarelo c2y: palavra gigante preta MITO atrás; Lindson recortado de corpo inteiro com o dedo em 'não'; manchete branca no degradê 'Instagram basta?' + caixa amarela MITO.",
+   "cta_palavra": "SITE",
+   "entrega_no_video": "As 3 partes de uma página que passa confiança: o que você faz, fotos reais e um botão direto pro WhatsApp.",
+   "entregavel": {
+    "o_que": "Vídeo de demonstração do mini site com o nome do negócio de quem comentou (tela de iPhone, sem publicar)",
+    "arquivo": "processo e gravador em agencia/processos/demo-minisite/ (isca SITE, código MS)",
+    "situacao": "existe; capacidade limitada: o Lindson escolhe quais leads recebem a demo"
+   },
+   "musica": "Eletrônico confiante, 110 BPM; ducking -18 dB; impacto de tambor no 'é mito'.",
+   "voz": "Voz clonada do Lindson no Dublê, gerada nos blocos abaixo (até ~220 caracteres), pausa ~0,2 s entre frases, sem respiração artificial.",
+   "narracao_palavras": 82,
+   "blocos_voz": [
+    "Tenho Instagram, não preciso de site. Isso custa cliente. É mito. E eu te mostro em três coisas. Um: no Instagram, o cliente se perde entre post e story. Dois: quem procura no Google nem sempre chega no seu perfil.",
+    "E a terceira é a que mais pesa. Uma página simples passa confiança: o que você faz, fotos reais e botão pro WhatsApp. Comenta SITE que eu monto uma demonstração com o nome do seu negócio.",
+    "Ainda acha que o Instagram basta?"
+   ],
+   "cenas": [
+    {
+     "tempo": "0.0–2.0",
+     "ini": 0.0,
+     "fim": 2.0,
+     "narracao": "Tenho Instagram, não preciso de site. Isso custa cliente.",
+     "texto_tela": "Não preciso de site.",
+     "texto_tela_palavras": [
+      "Não",
+      "preciso",
+      "de",
+      "site."
+     ],
+     "visual": "Motion: a frase em aspas gigantes, carimbo MITO amarelo batendo por cima",
+     "vfx": "shake forte no carimbo",
+     "sfx": "hit + carimbo"
+    },
+    {
+     "tempo": "2.0–4.5",
+     "ini": 2.0,
+     "fim": 4.5,
+     "narracao": "É mito. E eu te mostro em três coisas.",
+     "texto_tela": "3 coisas",
+     "texto_tela_palavras": [
+      "3",
+      "coisas"
+     ],
+     "visual": "Card de impacto amarelo tela cheia com o 3 gigante",
+     "vfx": "zoom punch",
+     "sfx": "riser curto"
+    },
+    {
+     "tempo": "4.5–9.0",
+     "ini": 4.5,
+     "fim": 9.0,
+     "narracao": "Um: no Instagram, o cliente se perde entre post e story.",
+     "texto_tela": "1 · Ele se perde",
+     "texto_tela_palavras": [
+      "1",
+      "Ele",
+      "se",
+      "perde"
+     ],
+     "visual": "Banco: 'woman scrolling phone lost confused street' (Mixkit)",
+     "vfx": "motion blur direcional",
+     "sfx": "whoosh"
+    },
+    {
+     "tempo": "9.0–13.0",
+     "ini": 9.0,
+     "fim": 13.0,
+     "narracao": "Dois: quem procura no Google nem sempre chega no seu perfil.",
+     "texto_tela": "2 · O Google",
+     "texto_tela_palavras": [
+      "2",
+      "O",
+      "Google"
+     ],
+     "visual": "Banco: 'typing search on laptop close up' (Coverr)",
+     "vfx": "light leak lateral",
+     "sfx": "teclado + click"
+    },
+    {
+     "tempo": "13.0–16.0",
+     "ini": 13.0,
+     "fim": 16.0,
+     "narracao": "E a terceira é a que mais pesa.",
+     "texto_tela": "A que mais pesa…",
+     "texto_tela_palavras": [
+      "A",
+      "que",
+      "mais",
+      "pesa…"
+     ],
+     "visual": "Card de impacto amarelo tela cheia",
+     "vfx": "glitch + shake",
+     "sfx": "riser → hit"
+    },
+    {
+     "tempo": "16.0–22.0",
+     "ini": 16.0,
+     "fim": 22.0,
+     "narracao": "Uma página simples passa confiança: o que você faz, fotos reais e botão pro WhatsApp.",
+     "texto_tela": "Faz + fotos reais + botão do zap",
+     "texto_tela_palavras": [
+      "Faz",
+      "+",
+      "fotos",
+      "reais",
+      "+",
+      "botão",
+      "do",
+      "zap"
+     ],
+     "visual": "Gravação de tela no iPhone de um mini site real de cliente (rafaelimports.pages.dev ou desentupidorasf.pages.dev), rolando até o botão (a entrega)",
+     "vfx": "zoom in no botão",
+     "sfx": "3 pops"
+    },
+    {
+     "tempo": "22.0–28.0",
+     "ini": 22.0,
+     "fim": 28.0,
+     "narracao": "Comenta SITE que eu monto uma demonstração com o nome do seu negócio.",
+     "texto_tela": "Comenta SITE",
+     "texto_tela_palavras": [
+      "Comenta",
+      "SITE"
+     ],
+     "visual": "Lindson em lip-sync (foto de estúdio colorida, variação nunca usada, boca sincronizada com a voz do Dublê); pose segurando o iPhone com o site; card abaixo do rosto",
+     "vfx": "light leak âmbar",
+     "sfx": "pop + ding"
+    },
+    {
+     "tempo": "28.0–30.0",
+     "ini": 28.0,
+     "fim": 30.0,
+     "narracao": "Ainda acha que o Instagram basta?",
+     "texto_tela": "Ainda basta?",
+     "texto_tela_palavras": [
+      "Ainda",
+      "basta?"
+     ],
+     "visual": "Volta ao carimbo MITO (loop)",
+     "vfx": "shake",
+     "sfx": "carimbo"
+    }
+   ],
+   "legenda": {
+    "titulo": "NEGÓCIO LOCAL PRECISA DE SITE SE JÁ TEM INSTAGRAM? O MITO QUE CUSTA CLIENTE",
+    "corpo": "\"Eu já tenho Instagram, não preciso de site.\" Muito dono de negócio pensa assim. E perde cliente sem perceber.\n\n🔍 Por que é mito\nO Instagram é ótimo pra mostrar o dia a dia. Mas ele não foi feito pra ser a sua vitrine principal.\n\n1️⃣ O cliente se perde\nEntre post, story, destaque e reels antigos, a pessoa não acha o que precisa: o que você faz, onde fica, como pedir.\n\n2️⃣ Nem todo mundo te procura no Instagram\nMuita gente pesquisa no Google: \"desentupidora em São Luís\", \"loja de celular no centro\". Se você só existe no Instagram, nem sempre aparece pra essa pessoa.\n\n3️⃣ Confiança\nEsse é o que mais pesa. Uma página simples, com seu nome, passa a imagem de negócio sério.\n\n✅ O que essa página precisa ter\n- O que você faz, em uma frase.\n- Fotos reais do seu trabalho.\n- Um botão que leva direto pro WhatsApp, com mensagem pronta.\n\n💡 Exemplo\nUma desentupidora coloca o link da página na bio, no Google e no adesivo do carro. Quem vê em qualquer lugar cai no mesmo lugar e toca no botão do WhatsApp.\n\n🎯 Conclusão\nInstagram mostra. A página organiza e leva pra conversa. Um ajuda o outro.\n\n📲 Quer ver como ficaria a sua?\nComenta SITE que eu monto um vídeo de demonstração com o nome do seu negócio.\n\nNarração com a voz do Lindson gerada por IA (Dublê).",
+    "hashtags": [
+     "#sitepraempresa",
+     "#minisite",
+     "#marketinglocal",
+     "#saoluis",
+     "#linkdabio"
+    ],
+    "texto_completo": "NEGÓCIO LOCAL PRECISA DE SITE SE JÁ TEM INSTAGRAM? O MITO QUE CUSTA CLIENTE\n\n\"Eu já tenho Instagram, não preciso de site.\" Muito dono de negócio pensa assim. E perde cliente sem perceber.\n\n🔍 Por que é mito\nO Instagram é ótimo pra mostrar o dia a dia. Mas ele não foi feito pra ser a sua vitrine principal.\n\n1️⃣ O cliente se perde\nEntre post, story, destaque e reels antigos, a pessoa não acha o que precisa: o que você faz, onde fica, como pedir.\n\n2️⃣ Nem todo mundo te procura no Instagram\nMuita gente pesquisa no Google: \"desentupidora em São Luís\", \"loja de celular no centro\". Se você só existe no Instagram, nem sempre aparece pra essa pessoa.\n\n3️⃣ Confiança\nEsse é o que mais pesa. Uma página simples, com seu nome, passa a imagem de negócio sério.\n\n✅ O que essa página precisa ter\n- O que você faz, em uma frase.\n- Fotos reais do seu trabalho.\n- Um botão que leva direto pro WhatsApp, com mensagem pronta.\n\n💡 Exemplo\nUma desentupidora coloca o link da página na bio, no Google e no adesivo do carro. Quem vê em qualquer lugar cai no mesmo lugar e toca no botão do WhatsApp.\n\n🎯 Conclusão\nInstagram mostra. A página organiza e leva pra conversa. Um ajuda o outro.\n\n📲 Quer ver como ficaria a sua?\nComenta SITE que eu monto um vídeo de demonstração com o nome do seu negócio.\n\nNarração com a voz do Lindson gerada por IA (Dublê).\n\n#sitepraempresa #minisite #marketinglocal #saoluis #linkdabio",
+    "caracteres": 1395
+   }
+  },
+  {
+   "id": "L30-06",
+   "ordem": 6,
+   "post": {
+    "data": "12/11",
+    "hora": "18:00"
+   },
+   "titulo": "Tier list: os posts que mais trazem cliente (e os que só ganham curtida)",
+   "formato": "Tier list",
+   "linha_editorial": "Papo reto do Lindson",
+   "intencao": "Alcance e debate nos comentários (cada um diz o nível do seu post); isca dos 3 roteiros.",
+   "duracao_s": 30,
+   "capa_cor": "preto",
+   "capa": "Preto r1: foto colorida com luz de estúdio, Lindson segurando um cartão em branco (vira o selo S na arte); degradê preto; manchete 'Do' + caixa amarela PIOR + 'ao melhor post pra vender'; rótulo mono amarelo TIER LIST.",
+   "cta_palavra": "ROTEIRO",
+   "entrega_no_video": "O ranking D → S do tipo de post e o nível S explicado: cliente real contando como foi, com botão pro WhatsApp.",
+   "entregavel": {
+    "o_que": "3 roteiros de Reels para o nicho de quem comentou (texto por DM)",
+    "arquivo": "isca ROTEIRO (código VD) de agencia/marca-lindson/ESTRATEGIA.md §4; a equipe tira da esteira de 300 roteiros (conteudo/esteira/teste-01-roteiros.json) e adapta ao nicho",
+    "situacao": "existe"
+   },
+   "musica": "Game/chiptune moderno com 808, 120 BPM; ducking -18 dB; som de 'level up' em cada nível.",
+   "voz": "Voz clonada do Lindson no Dublê, gerada nos blocos abaixo (até ~220 caracteres), pausa ~0,2 s entre frases, sem respiração artificial.",
+   "narracao_palavras": 81,
+   "blocos_voz": [
+    "Post de data comemorativa? Tá no fundo dessa lista. O primeiro lugar quase ninguém faz. Nível D: data comemorativa. Todo mundo posta igual. C: foto de produto solta, sem dizer como pedir. B: dica útil. Sozinha não vende.",
+    "A: bastidor. Mostra quem faz e como faz. E o S: cliente real contando como foi, com o botão pro WhatsApp do lado. Comenta ROTEIRO que eu te mando três roteiros pro seu negócio. E o seu último post, tá em qual nível?"
+   ],
+   "cenas": [
+    {
+     "tempo": "0.0–2.0",
+     "ini": 0.0,
+     "fim": 2.0,
+     "narracao": "Post de data comemorativa? Tá no fundo dessa lista.",
+     "texto_tela": "Fundo da lista",
+     "texto_tela_palavras": [
+      "Fundo",
+      "da",
+      "lista"
+     ],
+     "visual": "Motion: tier list D C B A S em faixas pretas e amarelas, cartão 'data comemorativa' caindo no D",
+     "vfx": "shake no impacto do cartão",
+     "sfx": "hit + queda"
+    },
+    {
+     "tempo": "2.0–4.5",
+     "ini": 2.0,
+     "fim": 4.5,
+     "narracao": "O primeiro lugar quase ninguém faz.",
+     "texto_tela": "O 1º quase ninguém faz",
+     "texto_tela_palavras": [
+      "O",
+      "1º",
+      "quase",
+      "ninguém",
+      "faz"
+     ],
+     "visual": "Mesma tier list, faixa S piscando vazia",
+     "vfx": "glitch na faixa S",
+     "sfx": "riser curto"
+    },
+    {
+     "tempo": "4.5–8.0",
+     "ini": 4.5,
+     "fim": 8.0,
+     "narracao": "Nível D: data comemorativa. Todo mundo posta igual.",
+     "texto_tela": "D · Data comemorativa",
+     "texto_tela_palavras": [
+      "D",
+      "Data",
+      "comemorativa"
+     ],
+     "visual": "Cartão entrando no D",
+     "vfx": "motion blur direcional",
+     "sfx": "whoosh + 'level down'"
+    },
+    {
+     "tempo": "8.0–11.5",
+     "ini": 8.0,
+     "fim": 11.5,
+     "narracao": "C: foto de produto solta, sem dizer como pedir.",
+     "texto_tela": "C · Produto solto",
+     "texto_tela_palavras": [
+      "C",
+      "Produto",
+      "solto"
+     ],
+     "visual": "Banco: 'product photo on table rotating' (Mixkit) dentro do cartão",
+     "vfx": "zoom punch",
+     "sfx": "pop"
+    },
+    {
+     "tempo": "11.5–15.0",
+     "ini": 11.5,
+     "fim": 15.0,
+     "narracao": "B: dica útil. Sozinha não vende.",
+     "texto_tela": "B · Dica útil",
+     "texto_tela_palavras": [
+      "B",
+      "Dica",
+      "útil"
+     ],
+     "visual": "Cartão no B",
+     "vfx": "light leak curto",
+     "sfx": "pop"
+    },
+    {
+     "tempo": "15.0–18.5",
+     "ini": 15.0,
+     "fim": 18.5,
+     "narracao": "A: bastidor. Mostra quem faz e como faz.",
+     "texto_tela": "A · Bastidor",
+     "texto_tela_palavras": [
+      "A",
+      "Bastidor"
+     ],
+     "visual": "Banco: 'barber working behind the scenes' (Coverr) dentro do cartão",
+     "vfx": "motion blur",
+     "sfx": "pop + 'level up'"
+    },
+    {
+     "tempo": "18.5–23.0",
+     "ini": 18.5,
+     "fim": 23.0,
+     "narracao": "E o S: cliente real contando como foi, com o botão pro WhatsApp do lado.",
+     "texto_tela": "S · Cliente real + botão",
+     "texto_tela_palavras": [
+      "S",
+      "Cliente",
+      "real",
+      "+",
+      "botão"
+     ],
+     "visual": "Card de impacto amarelo tela cheia, faixa S acendendo (a entrega)",
+     "vfx": "shake + flash",
+     "sfx": "hit + 'level up' longo"
+    },
+    {
+     "tempo": "23.0–28.0",
+     "ini": 23.0,
+     "fim": 28.0,
+     "narracao": "Comenta ROTEIRO que eu te mando três roteiros pro seu negócio.",
+     "texto_tela": "Comenta ROTEIRO",
+     "texto_tela_palavras": [
+      "Comenta",
+      "ROTEIRO"
+     ],
+     "visual": "Lindson em lip-sync (foto de estúdio colorida, variação nunca usada, boca sincronizada com a voz do Dublê); pose de quem conta nos dedos; card abaixo do rosto",
+     "vfx": "light leak âmbar",
+     "sfx": "pop + ding"
+    },
+    {
+     "tempo": "28.0–30.0",
+     "ini": 28.0,
+     "fim": 30.0,
+     "narracao": "E o seu último post, tá em qual nível?",
+     "texto_tela": "Qual o seu nível?",
+     "texto_tela_palavras": [
+      "Qual",
+      "o",
+      "seu",
+      "nível?"
+     ],
+     "visual": "Volta à tier list com a faixa D piscando (loop)",
+     "vfx": "zoom punch",
+     "sfx": "hit"
+    }
+   ],
+   "legenda": {
+    "titulo": "QUE TIPO DE POST TRAZ MAIS CLIENTE PARA NEGÓCIO LOCAL? TIER LIST DO PIOR AO MELHOR",
+    "corpo": "Nem todo post serve pra vender. Tem post que só ganha curtida da família. Ranqueei os tipos de post do pior ao melhor pra quem tem negócio local, pelo que eu vejo no dia a dia dos meus clientes.\n\n📉 Nível D: data comemorativa\nDia das Mães, Natal, Dia do Cliente. Todo mundo posta a mesma arte. O cliente rola sem ver.\n\n📦 Nível C: foto de produto solta\nMostra o produto, mas não diz pra quem é nem como pedir. Fica bonito e parado.\n\n💡 Nível B: dica útil\nGera confiança e salvamento. Mas, sozinha, não leva ninguém pro WhatsApp.\n\n🎬 Nível A: bastidor\nMostra quem faz e como faz. A pessoa conhece você antes de comprar.\n\n🏆 Nível S: cliente real contando como foi\nUm cliente de verdade falando da experiência, com o botão do WhatsApp do lado. É prova e convite no mesmo post. E quase ninguém faz.\n\n💡 Exemplo\nUm salão no Turu grava 20 segundos da cliente saindo do horário e dizendo o que achou. Na legenda: \"Quer marcar o seu? Chama no zap 👇\".\n\n🎯 Conclusão\nNão pare de postar dica e bastidor. Mas toda semana precisa ter pelo menos um post nível S.\n\n📲 Quer começar pelo nível S?\nComenta ROTEIRO que eu te mando 3 roteiros de Reels pro seu negócio.\n\nNarração com a voz do Lindson gerada por IA (Dublê).",
+    "hashtags": [
+     "#ideiasdepost",
+     "#reelsparanegocios",
+     "#marketingdeconteudo",
+     "#saoluisdomaranhao"
+    ],
+    "texto_completo": "QUE TIPO DE POST TRAZ MAIS CLIENTE PARA NEGÓCIO LOCAL? TIER LIST DO PIOR AO MELHOR\n\nNem todo post serve pra vender. Tem post que só ganha curtida da família. Ranqueei os tipos de post do pior ao melhor pra quem tem negócio local, pelo que eu vejo no dia a dia dos meus clientes.\n\n📉 Nível D: data comemorativa\nDia das Mães, Natal, Dia do Cliente. Todo mundo posta a mesma arte. O cliente rola sem ver.\n\n📦 Nível C: foto de produto solta\nMostra o produto, mas não diz pra quem é nem como pedir. Fica bonito e parado.\n\n💡 Nível B: dica útil\nGera confiança e salvamento. Mas, sozinha, não leva ninguém pro WhatsApp.\n\n🎬 Nível A: bastidor\nMostra quem faz e como faz. A pessoa conhece você antes de comprar.\n\n🏆 Nível S: cliente real contando como foi\nUm cliente de verdade falando da experiência, com o botão do WhatsApp do lado. É prova e convite no mesmo post. E quase ninguém faz.\n\n💡 Exemplo\nUm salão no Turu grava 20 segundos da cliente saindo do horário e dizendo o que achou. Na legenda: \"Quer marcar o seu? Chama no zap 👇\".\n\n🎯 Conclusão\nNão pare de postar dica e bastidor. Mas toda semana precisa ter pelo menos um post nível S.\n\n📲 Quer começar pelo nível S?\nComenta ROTEIRO que eu te mando 3 roteiros de Reels pro seu negócio.\n\nNarração com a voz do Lindson gerada por IA (Dublê).\n\n#ideiasdepost #reelsparanegocios #marketingdeconteudo #saoluisdomaranhao",
+    "caracteres": 1353
+   }
+  },
+  {
+   "id": "L30-07",
+   "ordem": 7,
+   "post": {
+    "data": "13/11",
+    "hora": "08:30"
+   },
+   "titulo": "Pare de colocar o link do WhatsApp sem mensagem pronta",
+   "formato": "Pare de",
+   "linha_editorial": "Faz comigo",
+   "intencao": "Salvamento e conversa: ensinar o link wa.me com texto e oferecer montar o da pessoa.",
+   "duracao_s": 30,
+   "capa_cor": "amarelo",
+   "capa": "Amarelo c2y: palavra gigante preta PARE atrás; Lindson recortado de corpo inteiro com a mão espalmada para a câmera; manchete branca no degradê 'Seu link do zap tá' + caixa amarela ERRADO.",
+   "cta_palavra": "LINK",
+   "entrega_no_video": "Como montar o link: wa.me/55 + seu número + ?text= + a mensagem ('Oi, vim pelo Instagram, quero um orçamento').",
+   "entregavel": {
+    "o_que": "O link do WhatsApp da pessoa pronto, com a mensagem certa pro nicho dela (por DM)",
+    "arquivo": "sem arquivo; a equipe monta na hora com o modelo de mensagem de agencia/prospeccao/PADRAO-COPY.md",
+    "situacao": "existe (só precisa do número que a pessoa manda no direct)"
+   },
+   "musica": "Pop eletrônico urgente, 115 BPM; ducking -18 dB; som de 'trava' no cursor piscando.",
+   "voz": "Voz clonada do Lindson no Dublê, gerada nos blocos abaixo (até ~220 caracteres), pausa ~0,2 s entre frases, sem respiração artificial.",
+   "narracao_palavras": 77,
+   "blocos_voz": [
+    "Pare de colocar o link do zap assim. Tá perdendo conversa. Ele toca, abre o zap… e trava. Não sabe o que escrever. Ele fecha e deixa pra depois. E o depois não chega. O conserto leva um minuto.",
+    "Depois do seu número, coloca interrogação, text, igual, e a mensagem: oi, vim pelo Instagram. Pronto: a mensagem já vem escrita. Comenta LINK que a minha equipe monta o seu. E para de perder conversa no primeiro toque."
+   ],
+   "cenas": [
+    {
+     "tempo": "0.0–2.0",
+     "ini": 0.0,
+     "fim": 2.0,
+     "narracao": "Pare de colocar o link do zap assim. Tá perdendo conversa.",
+     "texto_tela": "PARE.",
+     "texto_tela_palavras": [
+      "PARE."
+     ],
+     "visual": "Motion: link wa.me cru sendo carimbado com X amarelo",
+     "vfx": "zoom punch + shake",
+     "sfx": "freio + hit"
+    },
+    {
+     "tempo": "2.0–5.0",
+     "ini": 2.0,
+     "fim": 5.0,
+     "narracao": "Ele toca, abre o zap… e trava. Não sabe o que escrever.",
+     "texto_tela": "E trava.",
+     "texto_tela_palavras": [
+      "E",
+      "trava."
+     ],
+     "visual": "Motion: conversa vazia, cursor piscando",
+     "vfx": "shake leve no 'trava'",
+     "sfx": "click + 'tic tic' do cursor"
+    },
+    {
+     "tempo": "5.0–8.5",
+     "ini": 5.0,
+     "fim": 8.5,
+     "narracao": "Ele fecha e deixa pra depois. E o depois não chega.",
+     "texto_tela": "O depois não chega.",
+     "texto_tela_palavras": [
+      "O",
+      "depois",
+      "não",
+      "chega."
+     ],
+     "visual": "Banco: 'person locking phone putting it down' (Mixkit)",
+     "vfx": "desfoque direcional saindo",
+     "sfx": "whoosh descendo"
+    },
+    {
+     "tempo": "8.5–11.5",
+     "ini": 8.5,
+     "fim": 11.5,
+     "narracao": "O conserto leva um minuto.",
+     "texto_tela": "1 minuto",
+     "texto_tela_palavras": [
+      "1",
+      "minuto"
+     ],
+     "visual": "Card de impacto amarelo tela cheia",
+     "vfx": "glitch + shake",
+     "sfx": "riser → hit"
+    },
+    {
+     "tempo": "11.5–19.5",
+     "ini": 11.5,
+     "fim": 19.5,
+     "narracao": "Depois do seu número, coloca interrogação, text, igual, e a mensagem: oi, vim pelo Instagram.",
+     "texto_tela": "wa.me/55 + número · ?text= · Oi, vim pelo Instagram",
+     "texto_tela_palavras": [
+      "wa.me/55",
+      "+",
+      "número",
+      "?text=",
+      "Oi,",
+      "vim",
+      "pelo",
+      "Instagram"
+     ],
+     "visual": "Motion: o link sendo digitado peça por peça em mono amarelo (a entrega); legenda do link grande e legível para print",
+     "vfx": "zoom in em cada peça",
+     "sfx": "teclado + pop em cada peça"
+    },
+    {
+     "tempo": "19.5–23.0",
+     "ini": 19.5,
+     "fim": 23.0,
+     "narracao": "Pronto: a mensagem já vem escrita.",
+     "texto_tela": "Já vem escrito",
+     "texto_tela_palavras": [
+      "Já",
+      "vem",
+      "escrito"
+     ],
+     "visual": "Motion: toque no link abre o zap com o texto pronto e o botão enviar pulsando",
+     "vfx": "light leak",
+     "sfx": "click + whoosh + 'enviado'"
+    },
+    {
+     "tempo": "23.0–28.0",
+     "ini": 23.0,
+     "fim": 28.0,
+     "narracao": "Comenta LINK que a minha equipe monta o seu.",
+     "texto_tela": "Comenta LINK",
+     "texto_tela_palavras": [
+      "Comenta",
+      "LINK"
+     ],
+     "visual": "Lindson em lip-sync (foto de estúdio colorida, variação nunca usada, boca sincronizada com a voz do Dublê); pose apontando para o lado do card; card abaixo do rosto",
+     "vfx": "light leak âmbar",
+     "sfx": "pop + ding"
+    },
+    {
+     "tempo": "28.0–30.0",
+     "ini": 28.0,
+     "fim": 30.0,
+     "narracao": "E para de perder conversa no primeiro toque.",
+     "texto_tela": "PARE.",
+     "texto_tela_palavras": [
+      "PARE."
+     ],
+     "visual": "Volta ao carimbo da abertura (loop)",
+     "vfx": "zoom punch",
+     "sfx": "freio"
+    }
+   ],
+   "legenda": {
+    "titulo": "COMO CRIAR LINK DO WHATSAPP COM MENSAGEM PRONTA PARA A BIO DO INSTAGRAM",
+    "corpo": "O cliente tocou no seu link do WhatsApp, a conversa abriu vazia… e ele travou. Não sabia o que escrever, fechou e deixou pra depois. E o depois não chegou.\n\n📌 O problema do link sem mensagem\nConversa vazia dá trabalho pro cliente. Ele precisa pensar o que dizer. Muita gente desiste nessa hora.\n\n✅ O conserto leva um minuto\nMonte o link assim:\nwa.me/55 + DDD + seu número + ?text= + a mensagem\n\nExemplo com número fictício:\nwa.me/5598900000000?text=Oi,%20vim%20pelo%20Instagram,%20quero%20um%20orçamento\n\nO \"%20\" é o espaço. Teste no seu celular antes de colocar na bio.\n\n💬 Que mensagem colocar\nAlgo que a pessoa diria mesmo:\n- \"Oi, vim pelo Instagram, quero um orçamento.\"\n- \"Oi, quero saber os horários livres.\"\n- \"Oi, quero ver o cardápio de hoje.\"\n\n💡 Exemplo\nUma assistência de celular no Centro troca o link cru por um com \"Oi, vim pelo Instagram, meu celular tá com problema\". Quem toca já chega dizendo o que precisa, e o atendimento começa mais rápido.\n\n🎯 Conclusão\nQuanto menos o cliente precisar pensar, mais fácil ele chama.\n\n📲 Quer o seu pronto?\nComenta LINK que a minha equipe monta o seu link com a mensagem certa pro seu negócio.\n\nNarração com a voz do Lindson gerada por IA (Dublê).",
+    "hashtags": [
+     "#linkdowhatsapp",
+     "#whatsappbusiness",
+     "#dicasparaempreendedores",
+     "#saoluisma"
+    ],
+    "texto_completo": "COMO CRIAR LINK DO WHATSAPP COM MENSAGEM PRONTA PARA A BIO DO INSTAGRAM\n\nO cliente tocou no seu link do WhatsApp, a conversa abriu vazia… e ele travou. Não sabia o que escrever, fechou e deixou pra depois. E o depois não chegou.\n\n📌 O problema do link sem mensagem\nConversa vazia dá trabalho pro cliente. Ele precisa pensar o que dizer. Muita gente desiste nessa hora.\n\n✅ O conserto leva um minuto\nMonte o link assim:\nwa.me/55 + DDD + seu número + ?text= + a mensagem\n\nExemplo com número fictício:\nwa.me/5598900000000?text=Oi,%20vim%20pelo%20Instagram,%20quero%20um%20orçamento\n\nO \"%20\" é o espaço. Teste no seu celular antes de colocar na bio.\n\n💬 Que mensagem colocar\nAlgo que a pessoa diria mesmo:\n- \"Oi, vim pelo Instagram, quero um orçamento.\"\n- \"Oi, quero saber os horários livres.\"\n- \"Oi, quero ver o cardápio de hoje.\"\n\n💡 Exemplo\nUma assistência de celular no Centro troca o link cru por um com \"Oi, vim pelo Instagram, meu celular tá com problema\". Quem toca já chega dizendo o que precisa, e o atendimento começa mais rápido.\n\n🎯 Conclusão\nQuanto menos o cliente precisar pensar, mais fácil ele chama.\n\n📲 Quer o seu pronto?\nComenta LINK que a minha equipe monta o seu link com a mensagem certa pro seu negócio.\n\nNarração com a voz do Lindson gerada por IA (Dublê).\n\n#linkdowhatsapp #whatsappbusiness #dicasparaempreendedores #saoluisma",
+    "caracteres": 1342
+   }
+  },
+  {
+   "id": "L30-08",
+   "ordem": 8,
+   "post": {
+    "data": "13/11",
+    "hora": "18:00"
+   },
+   "titulo": "Bastidor: como eu decido o que um cliente vai postar na semana",
+   "formato": "Bastidor",
+   "linha_editorial": "Bastidor de cliente",
+   "intencao": "Prova de método e desejo: mostrar o processo da agência e entregar uma semana pronta (porta para o Kit Mês Pronto).",
+   "duracao_s": 30,
+   "capa_cor": "preto",
+   "capa": "Preto r1: foto colorida de estúdio, Lindson de lado olhando para um notebook/quadro com luz âmbar; degradê preto; manchete 'Como eu monto a' + caixa amarela SEMANA + 'de um cliente'; rótulo mono amarelo BASTIDOR.",
+   "cta_palavra": "CALENDÁRIO",
+   "entrega_no_video": "O método em 3 passos: perguntas do balcão viram posts → um post por objetivo (atrair, confiar, chamar) → dia fixo (segunda a dor, quarta o bastidor, sexta o convite).",
+   "entregavel": {
+    "o_que": "Semana pronta: calendário de 7 dias com tema, formato e legenda-base de cada dia (PDF de 1 a 2 páginas, amostra grátis do Kit Mês Pronto)",
+    "arquivo": "a criar: CentralLindsonALmeida/produtos/kit-mes-pronto/amostra/Semana-Pronta.pdf, tirada da 1ª semana do Kit Mês Pronto (agencia/ofertas/low-ticket/produtos/kit-mes-pronto/)",
+    "situacao": "precisa criar (Designer gráfico + Social media)"
+   },
+   "musica": "Lo-fi hip hop de estúdio, 88 BPM; ducking -18 dB; som de caneta e papel nas trocas.",
+   "voz": "Voz clonada do Lindson no Dublê, gerada nos blocos abaixo (até ~220 caracteres), pausa ~0,2 s entre frases, sem respiração artificial.",
+   "narracao_palavras": 83,
+   "blocos_voz": [
+    "Você posta o que dá na cabeça. É por isso que não vende. Olha como eu monto a semana de um cliente. Um: as perguntas que ele mais ouve no balcão. Cada uma vira post. Dois: separo em atrair, confiar e chamar.",
+    "Mas o que muda tudo é o terceiro passo. Dia e horário fixos. Segunda a dor, quarta o bastidor, sexta o convite. Comenta CALENDÁRIO que eu te mando uma semana pronta pra copiar. E amanhã você já sabe o que postar."
+   ],
+   "cenas": [
+    {
+     "tempo": "0.0–2.0",
+     "ini": 0.0,
+     "fim": 2.0,
+     "narracao": "Você posta o que dá na cabeça. É por isso que não vende.",
+     "texto_tela": "O que dá na cabeça",
+     "texto_tela_palavras": [
+      "O",
+      "que",
+      "dá",
+      "na",
+      "cabeça"
+     ],
+     "visual": "Banco: 'messy desk overhead sticky notes chaos' (Coverr)",
+     "vfx": "zoom punch + shake",
+     "sfx": "hit"
+    },
+    {
+     "tempo": "2.0–5.0",
+     "ini": 2.0,
+     "fim": 5.0,
+     "narracao": "Olha como eu monto a semana de um cliente.",
+     "texto_tela": "Bastidor",
+     "texto_tela_palavras": [
+      "Bastidor"
+     ],
+     "visual": "Gravação de tela do painel da Central do Cliente (calendário), sem dado de cliente à mostra",
+     "vfx": "light leak de abertura",
+     "sfx": "whoosh + click"
+    },
+    {
+     "tempo": "5.0–10.0",
+     "ini": 5.0,
+     "fim": 10.0,
+     "narracao": "Um: as perguntas que ele mais ouve no balcão. Cada uma vira post.",
+     "texto_tela": "1 · Perguntas do balcão",
+     "texto_tela_palavras": [
+      "1",
+      "Perguntas",
+      "do",
+      "balcão"
+     ],
+     "visual": "Banco: 'hand writing notes notebook close up' (Mixkit); perguntas surgindo em post-its amarelos",
+     "vfx": "motion blur direcional nos post-its",
+     "sfx": "caneta + pop"
+    },
+    {
+     "tempo": "10.0–13.5",
+     "ini": 10.0,
+     "fim": 13.5,
+     "narracao": "Dois: separo em atrair, confiar e chamar.",
+     "texto_tela": "2 · Atrair · Confiar · Chamar",
+     "texto_tela_palavras": [
+      "2",
+      "Atrair",
+      "Confiar",
+      "Chamar"
+     ],
+     "visual": "Motion: 3 colunas preto/amarelo/preto, post-its caindo em cada uma",
+     "vfx": "zoom out",
+     "sfx": "3 pops"
+    },
+    {
+     "tempo": "13.5–16.5",
+     "ini": 13.5,
+     "fim": 16.5,
+     "narracao": "Mas o que muda tudo é o terceiro passo.",
+     "texto_tela": "O 3º muda tudo",
+     "texto_tela_palavras": [
+      "O",
+      "3º",
+      "muda",
+      "tudo"
+     ],
+     "visual": "Card de impacto amarelo tela cheia",
+     "vfx": "glitch + shake",
+     "sfx": "riser → hit"
+    },
+    {
+     "tempo": "16.5–22.5",
+     "ini": 16.5,
+     "fim": 22.5,
+     "narracao": "Dia e horário fixos. Segunda a dor, quarta o bastidor, sexta o convite.",
+     "texto_tela": "Seg dor · Qua bastidor · Sex convite",
+     "texto_tela_palavras": [
+      "Seg",
+      "dor",
+      "Qua",
+      "bastidor",
+      "Sex",
+      "convite"
+     ],
+     "visual": "Motion: grade da semana se montando (a entrega), legível para print",
+     "vfx": "zoom in na sexta",
+     "sfx": "3 clicks + whoosh"
+    },
+    {
+     "tempo": "22.5–28.0",
+     "ini": 22.5,
+     "fim": 28.0,
+     "narracao": "Comenta CALENDÁRIO que eu te mando uma semana pronta pra copiar.",
+     "texto_tela": "Comenta CALENDÁRIO",
+     "texto_tela_palavras": [
+      "Comenta",
+      "CALENDÁRIO"
+     ],
+     "visual": "Lindson em lip-sync (foto de estúdio colorida, variação nunca usada, boca sincronizada com a voz do Dublê); pose com caderno ou tablet na mão; card abaixo do rosto",
+     "vfx": "light leak âmbar",
+     "sfx": "pop + ding"
+    },
+    {
+     "tempo": "28.0–30.0",
+     "ini": 28.0,
+     "fim": 30.0,
+     "narracao": "E amanhã você já sabe o que postar.",
+     "texto_tela": "Amanhã já sabe.",
+     "texto_tela_palavras": [
+      "Amanhã",
+      "já",
+      "sabe."
+     ],
+     "visual": "Volta à mesa bagunçada, agora arrumada (loop invertido)",
+     "vfx": "zoom punch",
+     "sfx": "whoosh"
+    }
+   ],
+   "legenda": {
+    "titulo": "CALENDÁRIO DE POSTAGEM PARA INSTAGRAM: COMO PLANEJAR A SEMANA DO SEU NEGÓCIO",
+    "corpo": "Postar o que dá na cabeça é o jeito mais rápido de ter um perfil cheio e um WhatsApp vazio. Vou te mostrar como eu monto a semana de posts de um cliente.\n\n📝 Passo 1: as perguntas do balcão\nAnoto as perguntas que o cliente mais ouve no dia a dia: \"quanto tempo demora?\", \"atende no sábado?\", \"dói?\". Cada pergunta vira um post. Assim nunca falta assunto, e todo assunto é o que o cliente quer saber.\n\n🎯 Passo 2: um post pra cada objetivo\n- Atrair: um erro ou uma dor que o público reconhece.\n- Confiar: bastidor, prova, cliente real.\n- Chamar: convite claro pro WhatsApp.\nSe a semana só tem post de atrair, ninguém chama. Se só tem convite, ninguém confia.\n\n📅 Passo 3: dia e horário fixos\nEsse é o que muda tudo. Segunda a dor, quarta o bastidor, sexta o convite. Você para de decidir todo dia o que postar, e o seguidor se acostuma com o seu ritmo.\n\n💡 Exemplo\nUma clínica de estética: segunda \"3 erros que mancham a pele no verão\", quarta \"como é uma sessão por dentro\", sexta \"agenda da próxima semana aberta, chama no zap\".\n\n✅ Conclusão\nCalendário não é burocracia. É o que faz o post de hoje levar ao convite de sexta.\n\n📲 Quer uma semana pronta?\nComenta CALENDÁRIO que eu te mando uma semana de posts pra copiar.\n\nNarração com a voz do Lindson gerada por IA (Dublê).",
+    "hashtags": [
+     "#calendariodepostagem",
+     "#planejamentodeconteudo",
+     "#socialmedia",
+     "#maranhao"
+    ],
+    "texto_completo": "CALENDÁRIO DE POSTAGEM PARA INSTAGRAM: COMO PLANEJAR A SEMANA DO SEU NEGÓCIO\n\nPostar o que dá na cabeça é o jeito mais rápido de ter um perfil cheio e um WhatsApp vazio. Vou te mostrar como eu monto a semana de posts de um cliente.\n\n📝 Passo 1: as perguntas do balcão\nAnoto as perguntas que o cliente mais ouve no dia a dia: \"quanto tempo demora?\", \"atende no sábado?\", \"dói?\". Cada pergunta vira um post. Assim nunca falta assunto, e todo assunto é o que o cliente quer saber.\n\n🎯 Passo 2: um post pra cada objetivo\n- Atrair: um erro ou uma dor que o público reconhece.\n- Confiar: bastidor, prova, cliente real.\n- Chamar: convite claro pro WhatsApp.\nSe a semana só tem post de atrair, ninguém chama. Se só tem convite, ninguém confia.\n\n📅 Passo 3: dia e horário fixos\nEsse é o que muda tudo. Segunda a dor, quarta o bastidor, sexta o convite. Você para de decidir todo dia o que postar, e o seguidor se acostuma com o seu ritmo.\n\n💡 Exemplo\nUma clínica de estética: segunda \"3 erros que mancham a pele no verão\", quarta \"como é uma sessão por dentro\", sexta \"agenda da próxima semana aberta, chama no zap\".\n\n✅ Conclusão\nCalendário não é burocracia. É o que faz o post de hoje levar ao convite de sexta.\n\n📲 Quer uma semana pronta?\nComenta CALENDÁRIO que eu te mando uma semana de posts pra copiar.\n\nNarração com a voz do Lindson gerada por IA (Dublê).\n\n#calendariodepostagem #planejamentodeconteudo #socialmedia #maranhao",
+    "caracteres": 1417
+   }
+  },
+  {
+   "id": "L30-09",
+   "ordem": 9,
+   "post": {
+    "data": "14/11",
+    "hora": "08:30"
+   },
+   "titulo": "Por que ninguém assiste o seu vídeo até o fim?",
+   "formato": "Pergunta",
+   "linha_editorial": "Faz comigo",
+   "intencao": "Retenção e salvamento: vídeo meta (mostra a técnica usando a própria técnica) e isca dos 10 ganchos.",
+   "duracao_s": 30,
+   "capa_cor": "amarelo",
+   "capa": "Amarelo c2y: palavra gigante preta PULOU atrás; Lindson recortado de corpo inteiro com a mão no queixo, cara de pergunta; manchete branca no degradê 'Por que ele' + caixa amarela PULOU + 'seu vídeo?'.",
+   "cta_palavra": "GANCHO",
+   "entrega_no_video": "A regra dos 2 primeiros segundos: começar com um erro, uma perda ou uma pergunta que incomoda, e guardar a resposta para o final.",
+   "entregavel": {
+    "o_que": "10 modelos de começo (gancho) para vídeo, com um exemplo de negócio local em cada (imagem 4:5 ou PDF de 1 página)",
+    "arquivo": "a diagramar: os 10 modelos de gancho já existem em conteudo/esteira/teste-01-reels.json (campo ganchos); salvar em conteudo/reels/leva-30s/entregaveis/10-ganchos.pdf",
+    "situacao": "conteúdo existe; precisa diagramar 1 página (Designer gráfico)"
+   },
+   "musica": "Cinematográfico tenso com pulso, 95 BPM; ducking -18 dB; rewind (fita voltando) no loop final.",
+   "voz": "Voz clonada do Lindson no Dublê, gerada nos blocos abaixo (até ~220 caracteres), pausa ~0,2 s entre frases, sem respiração artificial.",
+   "narracao_palavras": 83,
+   "blocos_voz": [
+    "Por que ninguém assiste seu vídeo até o fim? Tá nos dois primeiros segundos. E não é a qualidade da câmera. Você começa com: oi, gente, tudo bem? Ali ele já pulou.",
+    "O começo tem que doer: um erro, uma perda ou uma pergunta. Repara no que eu fiz no começo desse vídeo. Pergunta, promessa, e a resposta guardada pro fim. Por isso você ainda tá aqui.",
+    "Comenta GANCHO que eu te mando dez modelos de começo. Agora volta pro começo e repara."
+   ],
+   "cenas": [
+    {
+     "tempo": "0.0–2.0",
+     "ini": 0.0,
+     "fim": 2.0,
+     "narracao": "Por que ninguém assiste seu vídeo até o fim? Tá nos dois primeiros segundos.",
+     "texto_tela": "2 segundos",
+     "texto_tela_palavras": [
+      "2",
+      "segundos"
+     ],
+     "visual": "Motion: barra de progresso de Reels parando em 2 s, contador gigante",
+     "vfx": "zoom punch + shake",
+     "sfx": "tick + hit"
+    },
+    {
+     "tempo": "2.0–4.5",
+     "ini": 2.0,
+     "fim": 4.5,
+     "narracao": "E não é a qualidade da câmera.",
+     "texto_tela": "Não é a câmera.",
+     "texto_tela_palavras": [
+      "Não",
+      "é",
+      "a",
+      "câmera."
+     ],
+     "visual": "Banco: 'professional camera lens close up' (Mixkit) com X amarelo por cima",
+     "vfx": "glitch",
+     "sfx": "riser curto + 'erro'"
+    },
+    {
+     "tempo": "4.5–8.5",
+     "ini": 4.5,
+     "fim": 8.5,
+     "narracao": "Você começa com: oi, gente, tudo bem? Ali ele já pulou.",
+     "texto_tela": "'Oi, gente…' · pulou",
+     "texto_tela_palavras": [
+      "'Oi,",
+      "gente…'",
+      "pulou"
+     ],
+     "visual": "Banco: 'thumb swiping phone fast' (Coverr)",
+     "vfx": "motion blur vertical forte",
+     "sfx": "swipe + whoosh"
+    },
+    {
+     "tempo": "8.5–13.0",
+     "ini": 8.5,
+     "fim": 13.0,
+     "narracao": "O começo tem que doer: um erro, uma perda ou uma pergunta.",
+     "texto_tela": "Erro · Perda · Pergunta",
+     "texto_tela_palavras": [
+      "Erro",
+      "Perda",
+      "Pergunta"
+     ],
+     "visual": "Card amarelo com as 3 palavras entrando uma por uma (a entrega)",
+     "vfx": "zoom in a cada palavra",
+     "sfx": "3 hits"
+    },
+    {
+     "tempo": "13.0–16.0",
+     "ini": 13.0,
+     "fim": 16.0,
+     "narracao": "Repara no que eu fiz no começo desse vídeo.",
+     "texto_tela": "Repara.",
+     "texto_tela_palavras": [
+      "Repara."
+     ],
+     "visual": "Card de impacto amarelo tela cheia",
+     "vfx": "glitch + shake",
+     "sfx": "riser → hit"
+    },
+    {
+     "tempo": "16.0–22.0",
+     "ini": 16.0,
+     "fim": 22.0,
+     "narracao": "Pergunta, promessa, e a resposta guardada pro fim. Por isso você ainda tá aqui.",
+     "texto_tela": "Pergunta → promessa → resposta no fim",
+     "texto_tela_palavras": [
+      "Pergunta",
+      "→",
+      "promessa",
+      "→",
+      "resposta",
+      "no",
+      "fim"
+     ],
+     "visual": "Motion: linha do tempo do próprio vídeo com marcadores em 0 s, 2 s e 28 s",
+     "vfx": "motion blur direcional na linha",
+     "sfx": "3 clicks + whoosh"
+    },
+    {
+     "tempo": "22.0–28.0",
+     "ini": 22.0,
+     "fim": 28.0,
+     "narracao": "Comenta GANCHO que eu te mando dez modelos de começo.",
+     "texto_tela": "Comenta GANCHO",
+     "texto_tela_palavras": [
+      "Comenta",
+      "GANCHO"
+     ],
+     "visual": "Lindson em lip-sync (foto de estúdio colorida, variação nunca usada, boca sincronizada com a voz do Dublê); pose apontando para a própria cabeça (ideia); card abaixo do rosto",
+     "vfx": "light leak âmbar",
+     "sfx": "pop + ding"
+    },
+    {
+     "tempo": "28.0–30.0",
+     "ini": 28.0,
+     "fim": 30.0,
+     "narracao": "Agora volta pro começo e repara.",
+     "texto_tela": "Volta e repara.",
+     "texto_tela_palavras": [
+      "Volta",
+      "e",
+      "repara."
+     ],
+     "visual": "Rebobinar visual até o quadro de abertura (loop literal)",
+     "vfx": "rewind + glitch",
+     "sfx": "fita voltando"
+    }
+   ],
+   "legenda": {
+    "titulo": "COMO PRENDER A ATENÇÃO NOS PRIMEIROS SEGUNDOS DO REELS (GANCHO PARA VÍDEO)",
+    "corpo": "Você grava, edita, posta… e quase ninguém assiste até o fim. Não é a câmera, não é a luz. Quase sempre é o começo.\n\n⏱️ Os 2 primeiros segundos decidem\nÉ ali que a pessoa resolve se fica ou se rola. \"Oi, gente, tudo bem?\" não dá motivo nenhum pra ficar.\n\n🪝 O começo tem que incomodar\nTrês jeitos de abrir que seguram a atenção:\n- Um erro: \"Você tá respondendo o cliente do jeito errado.\"\n- Uma perda: \"Esse link na sua bio tá te fazendo perder conversa.\"\n- Uma pergunta que incomoda: \"Por que o cliente some depois do preço?\"\n\n🔁 Guarde a resposta pro final\nAbra a pergunta, prometa a resposta e só entregue no fim. Quem quer saber, fica. Repare: foi exatamente o que esse vídeo fez com você.\n\n💡 Exemplo\nUma barbearia troca \"E aí, rapaziada!\" por \"Esse corte deixa o rosto mais redondo. E quase todo mundo pede.\" O vídeo mostra o porquê e só no final diz qual corte usar no lugar.\n\n✅ Conclusão\nCâmera boa ajuda. Começo bom segura.\n\n📲 Quer modelos prontos?\nComenta GANCHO que eu te mando 10 modelos de começo pra usar nos seus vídeos.\n\nNarração com a voz do Lindson gerada por IA (Dublê).",
+    "hashtags": [
+     "#ganchoparareels",
+     "#comogravarreels",
+     "#criadordeconteudo",
+     "#saoluis"
+    ],
+    "texto_completo": "COMO PRENDER A ATENÇÃO NOS PRIMEIROS SEGUNDOS DO REELS (GANCHO PARA VÍDEO)\n\nVocê grava, edita, posta… e quase ninguém assiste até o fim. Não é a câmera, não é a luz. Quase sempre é o começo.\n\n⏱️ Os 2 primeiros segundos decidem\nÉ ali que a pessoa resolve se fica ou se rola. \"Oi, gente, tudo bem?\" não dá motivo nenhum pra ficar.\n\n🪝 O começo tem que incomodar\nTrês jeitos de abrir que seguram a atenção:\n- Um erro: \"Você tá respondendo o cliente do jeito errado.\"\n- Uma perda: \"Esse link na sua bio tá te fazendo perder conversa.\"\n- Uma pergunta que incomoda: \"Por que o cliente some depois do preço?\"\n\n🔁 Guarde a resposta pro final\nAbra a pergunta, prometa a resposta e só entregue no fim. Quem quer saber, fica. Repare: foi exatamente o que esse vídeo fez com você.\n\n💡 Exemplo\nUma barbearia troca \"E aí, rapaziada!\" por \"Esse corte deixa o rosto mais redondo. E quase todo mundo pede.\" O vídeo mostra o porquê e só no final diz qual corte usar no lugar.\n\n✅ Conclusão\nCâmera boa ajuda. Começo bom segura.\n\n📲 Quer modelos prontos?\nComenta GANCHO que eu te mando 10 modelos de começo pra usar nos seus vídeos.\n\nNarração com a voz do Lindson gerada por IA (Dublê).\n\n#ganchoparareels #comogravarreels #criadordeconteudo #saoluis",
+    "caracteres": 1224
+   }
+  },
+  {
+   "id": "L30-10",
+   "ordem": 10,
+   "post": {
+    "data": "14/11",
+    "hora": "18:00"
+   },
+   "titulo": "Desafio de 7 dias: seu perfil para de espantar cliente",
+   "formato": "Desafio",
+   "linha_editorial": "Porta aberta",
+   "intencao": "Comentário e comunidade: compromisso público de 7 dias; quem faz o desafio vira lead quente para a avaliação e o Raio-X.",
+   "duracao_s": 30,
+   "capa_cor": "preto",
+   "capa": "Preto r1: foto colorida de estúdio, Lindson confiante com o braço estendido para a câmera ('vem'); degradê preto; manchete 'Seu perfil espanta cliente?' + caixa amarela 7 DIAS; rótulo mono amarelo DESAFIO.",
+   "cta_palavra": "DESAFIO",
+   "entrega_no_video": "Os 7 dias, um por um: foto, bio, link com mensagem, destaques, post de prova, convite direto e resposta rápida.",
+   "entregavel": {
+    "o_que": "Checklist do Desafio de 7 dias (imagem 4:5 ou PDF de 1 página, uma tarefa por dia, com caixinha para marcar)",
+    "arquivo": "a criar: conteudo/reels/leva-30s/entregaveis/desafio-7-dias.pdf, adaptado do modelo do Plano de 7 Dias do Raio-X do Perfil (agencia/ofertas/low-ticket/produtos/raio-x-do-perfil/)",
+    "situacao": "precisa criar (Designer gráfico, 1 página)"
+   },
+   "musica": "Motivacional eletrônico com bateria crescente, 124 BPM; ducking -18 dB; build-up até o dia 7.",
+   "voz": "Voz clonada do Lindson no Dublê, gerada nos blocos abaixo (até ~220 caracteres), pausa ~0,2 s entre frases, sem respiração artificial.",
+   "narracao_palavras": 77,
+   "blocos_voz": [
+    "Seu perfil espanta cliente. Te desafio a consertar em sete dias. Uma tarefa curta por dia. Dia um: troca a foto. Rosto de frente, bem iluminado. Dia dois: bio com o que você faz e pra quem.",
+    "Dia três: link do WhatsApp com mensagem pronta. E os dias seis e sete são os que trazem conversa. Quatro: destaques. Cinco: prova. Seis: convite direto. Sete: resposta rápida. Comenta DESAFIO que eu te mando o checklist.",
+    "Dia um. Agora."
+   ],
+   "cenas": [
+    {
+     "tempo": "0.0–2.0",
+     "ini": 0.0,
+     "fim": 2.0,
+     "narracao": "Seu perfil espanta cliente. Te desafio a consertar em sete dias.",
+     "texto_tela": "7 dias",
+     "texto_tela_palavras": [
+      "7",
+      "dias"
+     ],
+     "visual": "Motion: contador de calendário 1 → 7 batendo forte, fundo preto",
+     "vfx": "zoom punch + shake",
+     "sfx": "hit + tambor"
+    },
+    {
+     "tempo": "2.0–4.5",
+     "ini": 2.0,
+     "fim": 4.5,
+     "narracao": "Uma tarefa curta por dia.",
+     "texto_tela": "1 tarefa por dia",
+     "texto_tela_palavras": [
+      "1",
+      "tarefa",
+      "por",
+      "dia"
+     ],
+     "visual": "Card de impacto amarelo tela cheia",
+     "vfx": "light leak",
+     "sfx": "whoosh"
+    },
+    {
+     "tempo": "4.5–8.0",
+     "ini": 4.5,
+     "fim": 8.0,
+     "narracao": "Dia um: troca a foto. Rosto de frente, bem iluminado.",
+     "texto_tela": "Dia 1 · Foto",
+     "texto_tela_palavras": [
+      "Dia",
+      "1",
+      "Foto"
+     ],
+     "visual": "Banco: 'man taking selfie by window light' (Mixkit)",
+     "vfx": "motion blur direcional",
+     "sfx": "pop + flash de câmera"
+    },
+    {
+     "tempo": "8.0–11.5",
+     "ini": 8.0,
+     "fim": 11.5,
+     "narracao": "Dia dois: bio com o que você faz e pra quem.",
+     "texto_tela": "Dia 2 · Bio",
+     "texto_tela_palavras": [
+      "Dia",
+      "2",
+      "Bio"
+     ],
+     "visual": "Motion: bio fictícia sendo reescrita",
+     "vfx": "zoom in",
+     "sfx": "teclado + pop"
+    },
+    {
+     "tempo": "11.5–14.5",
+     "ini": 11.5,
+     "fim": 14.5,
+     "narracao": "Dia três: link do WhatsApp com mensagem pronta.",
+     "texto_tela": "Dia 3 · Link do zap",
+     "texto_tela_palavras": [
+      "Dia",
+      "3",
+      "Link",
+      "do",
+      "zap"
+     ],
+     "visual": "Motion: link wa.me com ?text= (retoma o L30-07)",
+     "vfx": "light leak",
+     "sfx": "click"
+    },
+    {
+     "tempo": "14.5–17.0",
+     "ini": 14.5,
+     "fim": 17.0,
+     "narracao": "E os dias seis e sete são os que trazem conversa.",
+     "texto_tela": "Dia 6 e 7…",
+     "texto_tela_palavras": [
+      "Dia",
+      "6",
+      "e",
+      "7…"
+     ],
+     "visual": "Card de impacto amarelo tela cheia",
+     "vfx": "glitch + shake",
+     "sfx": "riser → hit"
+    },
+    {
+     "tempo": "17.0–22.5",
+     "ini": 17.0,
+     "fim": 22.5,
+     "narracao": "Quatro: destaques. Cinco: prova. Seis: convite direto. Sete: resposta rápida.",
+     "texto_tela": "4 Destaques · 5 Prova · 6 Convite · 7 Resposta rápida",
+     "texto_tela_palavras": [
+      "4",
+      "Destaques",
+      "5",
+      "Prova",
+      "6",
+      "Convite",
+      "7",
+      "Resposta",
+      "rápida"
+     ],
+     "visual": "Motion: checklist dos 7 dias completando (a entrega), legível para print",
+     "vfx": "zoom out, check em cada linha",
+     "sfx": "4 clicks em ritmo"
+    },
+    {
+     "tempo": "22.5–28.0",
+     "ini": 22.5,
+     "fim": 28.0,
+     "narracao": "Comenta DESAFIO que eu te mando o checklist.",
+     "texto_tela": "Comenta DESAFIO",
+     "texto_tela_palavras": [
+      "Comenta",
+      "DESAFIO"
+     ],
+     "visual": "Lindson em lip-sync (foto de estúdio colorida, variação nunca usada, boca sincronizada com a voz do Dublê); pose com o braço estendido ('vem'); card abaixo do rosto",
+     "vfx": "light leak âmbar",
+     "sfx": "pop + ding"
+    },
+    {
+     "tempo": "28.0–30.0",
+     "ini": 28.0,
+     "fim": 30.0,
+     "narracao": "Dia um. Agora.",
+     "texto_tela": "Dia 1. Agora.",
+     "texto_tela_palavras": [
+      "Dia",
+      "1.",
+      "Agora."
+     ],
+     "visual": "Volta ao contador da abertura parado no 1 (loop)",
+     "vfx": "zoom punch",
+     "sfx": "tambor"
+    }
+   ],
+   "legenda": {
+    "titulo": "DESAFIO DE 7 DIAS PARA MELHORAR O PERFIL DO INSTAGRAM DO SEU NEGÓCIO",
+    "corpo": "Se o seu perfil espanta cliente, não precisa refazer tudo de uma vez. Uma tarefa curta por dia, durante 7 dias. Topa?\n\n📸 Dia 1: a foto\nRosto de frente, bem iluminado, de preferência com luz de janela. Cliente confia em gente, não em logo pequena.\n\n✍️ Dia 2: a bio\nO que você faz, pra quem, onde e como chamar. Uma linha pra cada.\n\n🔗 Dia 3: o link do WhatsApp\nCom mensagem pronta (?text=). Quem toca já chega dizendo o que quer.\n\n⭐ Dia 4: os destaques\nPoucos e na ordem da compra: o que é, como funciona, clientes, dúvidas, como pedir.\n\n🏆 Dia 5: um post de prova\nUm cliente real, um antes e depois autorizado ou um bastidor do seu trabalho.\n\n📣 Dia 6: o convite direto\nUm post que diz, sem rodeio, como agendar ou pedir.\n\n⚡ Dia 7: responder rápido\nResponda todo comentário e direct do dia. Quem demora perde a conversa pro concorrente.\n\n💡 Exemplo\nUma confeitaria no Araçagi faz um dia por vez, no intervalo entre uma encomenda e outra. No fim da semana, o perfil diz o que ela faz, mostra prova e leva direto pro WhatsApp.\n\n✅ Conclusão\nPerfil que vende não se arruma num dia. Mas em uma semana dá pra tirar o que mais espanta.\n\n📲 Quer o checklist?\nComenta DESAFIO que eu te mando o checklist dos 7 dias. E me conta aqui em qual dia você está.\n\nNarração com a voz do Lindson gerada por IA (Dublê).",
+    "hashtags": [
+     "#desafio7dias",
+     "#instagramquevende",
+     "#empreendedorismolocal",
+     "#saoluisma"
+    ],
+    "texto_completo": "DESAFIO DE 7 DIAS PARA MELHORAR O PERFIL DO INSTAGRAM DO SEU NEGÓCIO\n\nSe o seu perfil espanta cliente, não precisa refazer tudo de uma vez. Uma tarefa curta por dia, durante 7 dias. Topa?\n\n📸 Dia 1: a foto\nRosto de frente, bem iluminado, de preferência com luz de janela. Cliente confia em gente, não em logo pequena.\n\n✍️ Dia 2: a bio\nO que você faz, pra quem, onde e como chamar. Uma linha pra cada.\n\n🔗 Dia 3: o link do WhatsApp\nCom mensagem pronta (?text=). Quem toca já chega dizendo o que quer.\n\n⭐ Dia 4: os destaques\nPoucos e na ordem da compra: o que é, como funciona, clientes, dúvidas, como pedir.\n\n🏆 Dia 5: um post de prova\nUm cliente real, um antes e depois autorizado ou um bastidor do seu trabalho.\n\n📣 Dia 6: o convite direto\nUm post que diz, sem rodeio, como agendar ou pedir.\n\n⚡ Dia 7: responder rápido\nResponda todo comentário e direct do dia. Quem demora perde a conversa pro concorrente.\n\n💡 Exemplo\nUma confeitaria no Araçagi faz um dia por vez, no intervalo entre uma encomenda e outra. No fim da semana, o perfil diz o que ela faz, mostra prova e leva direto pro WhatsApp.\n\n✅ Conclusão\nPerfil que vende não se arruma num dia. Mas em uma semana dá pra tirar o que mais espanta.\n\n📲 Quer o checklist?\nComenta DESAFIO que eu te mando o checklist dos 7 dias. E me conta aqui em qual dia você está.\n\nNarração com a voz do Lindson gerada por IA (Dublê).\n\n#desafio7dias #instagramquevende #empreendedorismolocal #saoluisma",
+    "caracteres": 1432
+   }
+  }
+ ]
+}
