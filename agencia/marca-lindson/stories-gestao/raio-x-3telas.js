@@ -35,7 +35,7 @@ const T = [
  { cls: '', html: `
    <div class="abs" style="left:-200px;top:200px;width:1100px;height:1100px;border-radius:50%;background:radial-gradient(circle,rgba(232,163,23,.45),transparent 65%)"></div>
    <div class="abs ant ouro" style="left:0;right:0;top:380px;text-align:center;font-size:400px">REDES</div>
-   <img class="abs" src="${png('cut-c07/recorte.png')}" style="left:50%;transform:translateX(-50%);bottom:520px;height:1100px;filter:drop-shadow(0 40px 50px rgba(0,0,0,.6)) saturate(1.05)">
+   <img class="abs" src="${png('cut-c07/recorte-limpo.png')}" style="left:50%;transform:translateX(-50%);bottom:400px;height:960px;filter:drop-shadow(0 40px 50px rgba(0,0,0,.6)) saturate(1.05)">
    <div class="abs" style="left:0;right:0;bottom:0;height:900px;background:linear-gradient(180deg,transparent,#0A0A0A 52%)"></div>
    <div class="abs marca" style="left:80px;top:150px">Lindson Almeida<i></i></div>
    <div class="abs" style="left:80px;top:250px"><span class="vidro"><b></b>Gestão de redes</span></div>
@@ -44,7 +44,7 @@ const T = [
  // 2 · MAN UPRIGHT: fundo amarelo, "5" gigante em breu, recorte à direita, manchete com caixa preta
  { cls: 'am', html: `
    <div class="abs ant breu" style="left:50px;top:270px;font-size:860px;line-height:1.02;padding-bottom:40px">5</div>
-   <img class="abs" src="${png('cut-c08/recorte.png')}" style="right:-190px;bottom:0;height:1180px;z-index:2;filter:drop-shadow(-20px 30px 40px rgba(80,50,0,.35))">
+   <img class="abs" src="${png('cut-c08/recorte-limpo.png')}" style="right:-300px;bottom:-60px;height:1060px;z-index:2;filter:drop-shadow(-20px 30px 40px rgba(80,50,0,.35))">
    <div class="abs marca" style="left:80px;top:150px">Lindson Almeida<i></i></div>
    <div class="abs" style="left:80px;top:250px;z-index:5"><span class="vidro">Raio-X do perfil</span></div>
    <div class="abs ant" style="left:80px;top:1170px;font-size:140px;line-height:1.02;color:#0A0A0A;z-index:5">RAIO-X<br><span class="cxp" style="padding:0 .1em">GRÁTIS</span></div>
