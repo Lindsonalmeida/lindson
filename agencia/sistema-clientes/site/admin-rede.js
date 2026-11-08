@@ -23,7 +23,7 @@ const dig = s => String(s || '').replace(/\D/g, '');
 const wa = l => { const n = dig(l.whats); return n.length >= 10 ? 'https://wa.me/55' + n.replace(/^55/, '') + '?text=' + encodeURIComponent(ET[l.etapa].msg(l)) : null; };
 
 // ---- dados vivos (KV), com junção se duas abas salvarem juntas
-let D = { postados: {}, gravados: {}, leads: [], relatorios: [], numeros: {} }, versao = 0, carregado = false;
+let D = { postados: {}, gravados: {}, leads: [], relatorios: [], numeros: {}, artes: {} }, versao = 0, carregado = false;
 async function carrega() {
   try { const r = await fetch('/api/dados?cli=admin&f=rede'); if (r.ok) { const j = await r.json(); if (j.dados) D = Object.assign(D, j.dados); versao = j.versao || 0; } } catch (e) {}
   carregado = true; render();
@@ -109,15 +109,28 @@ V['rede-relatorio'] = () => { const rel = (D.relatorios || []).slice().sort((a, 
   <h3 style="margin-top:18px">Regra de decisão</h3><div class="lista"><div>• Criativo com custo por conversa acima da média, depois de gastar o dobro dela: corta.</div><div>• Abaixo da média: aumenta a verba aos poucos, a cada 2 dias.</div><div>• Reels com mais envios a cada mil: vira anúncio.</div><div>• Isca que traz conversa e não marca avaliação em 2 semanas: troca a isca, não o público.</div></div></div></div>
   <div class="card"><h3>Semanas registradas</h3><div class="tab"><table><thead><tr><th>Semana</th>${CAMPOS.map(([, t]) => `<th>${esc(t.split(' (')[0])}</th>`).join('')}<th>Nota</th></tr></thead><tbody>${rel.map(r => `<tr><td>${br(r.semana)}</td>${CAMPOS.map(([k]) => `<td>${esc(r[k] || '—')}</td>`).join('')}<td>${esc(r.nota || '')}</td></tr>`).join('') || `<tr><td colspan="8">Nenhuma semana ainda.</td></tr>`}</tbody></table></div></div>`; };
 
-// ---- 7 · Artes
-V['rede-artes'] = () => { const L = R.artes || [];
-  return `<div class="card"><h3>Artes do seu Instagram</h3><p class="sub">${L.length} posts aprovados na ordem do feed (xadrez preto e amarelo), cada um com a legenda no padrão blog SEO. Toque em uma tela para abrir em tamanho real.</p></div>
-  ${L.length ? `<div class="grade g3">${L.map((a, k) => `<div class="card" style="padding:10px"><img loading="lazy" src="${a.img}" alt="${esc(a.titulo)}" style="width:100%;border-radius:10px;display:block">
+// ---- 7 · Artes, com as abas Para aprovar · Aprovados (a postar) · Postados (pedido do Lindson, 08/11/2026, conta Leandro).
+// Situação de cada arte fica nos dados vivos (D.artes[img] = {st, postado, em, por}); arte nova entra com "st":"aprovar" no artes-aprovadas.json.
+let abaArte = 'apr';
+const chaveArte = a => a.img || a.titulo;
+const stArte = a => { const v = (D.artes || {})[chaveArte(a)] || {}; if (v.postado) return 'post'; const st = v.st || a.st || 'aprovado'; return st === 'aprovar' ? 'pend' : st === 'ajuste' ? 'aj' : 'apr'; };
+V['rede-artes'] = () => { const T0 = R.artes || [], L = T0.map((a, k) => [a, k]).filter(([a]) => stArte(a) === abaArte);
+  const n = { pend: 0, aj: 0, apr: 0, post: 0 }; T0.forEach(a => n[stArte(a)]++);
+  const abas = [['pend', 'Para aprovar'], ['aj', 'Em ajuste'], ['apr', 'Aprovados · a postar'], ['post', 'Postados']].filter(([k]) => k !== 'aj' || n.aj);
+  const vazio = { pend: 'Nada esperando a sua aprovação.', aj: 'Nenhuma arte em ajuste.', apr: 'Nenhuma arte aprovada esperando para postar.', post: 'Nada postado ainda. Ao marcar como postado, a arte vem para cá.' }[abaArte];
+  const bt = (a, k) => { const v = (D.artes || {})[chaveArte(a)] || {}, b = (t, x, cl) => `<button class="btn ${cl}" type="button" data-arte="${k}" data-acao="${x}" style="padding:6px 10px;font-size:12px">${t}</button>`;
+    return abaArte === 'pend' ? b('Aprovar', 'aprovado', 'am') + b('Pedir ajuste', 'ajuste', 'lin')
+      : abaArte === 'aj' ? b('Aprovar', 'aprovado', 'am')
+      : abaArte === 'apr' ? b('Marcar como postado', 'postado', 'am')
+      : `<span class="sub" style="margin:0;align-self:center">Postado${v.em ? ' em ' + new Date(v.em).toLocaleDateString('pt-BR') : ''}${v.por ? ' · ' + esc(v.por) : ''}</span>` + b('Voltar para a postar', 'despostar', 'lin'); };
+  return `<div class="card"><h3>Artes do seu Instagram</h3><p class="sub">Aprove as novas e marque como postado o que já foi ao ar. Toque em uma tela para abrir em tamanho real.</p>
+   <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px">${abas.map(([k, t]) => `<button class="btn ${k === abaArte ? 'am' : 'lin'}" type="button" data-abaarte="${k}" style="padding:7px 12px;font-size:13px">${t} (${n[k]})</button>`).join('')}</div></div>
+  ${L.length ? `<div class="grade g3">${L.map(([a, k]) => `<div class="card" style="padding:10px${abaArte === 'post' ? ';opacity:.75' : ''}"><img loading="lazy" src="${a.img}" alt="${esc(a.titulo)}" style="width:100%;border-radius:10px;display:block">
    ${(a.telas || []).length > 1 ? `<div style="display:flex;gap:6px;overflow-x:auto;margin-top:8px">${a.telas.map(t => `<a href="${t}" target="_blank" rel="noopener">${/\.mp4$/.test(t) ? `<video src="${t}" muted loop autoplay playsinline preload="metadata" style="height:74px;border-radius:6px;display:block"></video>` : `<img loading="lazy" src="${t}" alt="tela" style="height:74px;border-radius:6px;display:block">`}</a>`).join('')}</div>` : ''}
    <div class="sub" style="margin:8px 0 2px">${esc(a.data || '')}</div><b style="display:block">${esc(a.titulo)}</b>
    ${a.legenda ? `<details style="margin-top:6px"><summary style="cursor:pointer;color:var(--amarelo);font-weight:700">${a.data === 'stories' ? 'Roteiro de postagem' : 'Legenda SEO'}</summary><pre style="white-space:pre-wrap;font:inherit;font-size:13px">${esc(a.legenda)}</pre></details>` : ''}
-   <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:8px">${a.legenda ? `<button class="btn am" type="button" data-copialeg="${k}" style="padding:6px 10px;font-size:12px">Copiar legenda</button>` : ''}${(a.telas || [a.img]).map((t, n) => `<a class="btn lin" download href="${t}" style="padding:6px 10px;font-size:12px">Baixar${(a.telas || []).length > 1 ? ' ' + (n + 1) : ''}${/\.mp4$/.test(t) ? ' (vídeo)' : ''}</a>`).join('')}</div></div>`).join('')}</div>`
-   : '<div class="card"><p class="sub" style="margin:0">Ainda não há artes aprovadas aqui.</p></div>'}`; };
+   <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:8px">${bt(a, k)}${a.legenda ? `<button class="btn lin" type="button" data-copialeg="${k}" style="padding:6px 10px;font-size:12px">Copiar legenda</button>` : ''}${(a.telas || [a.img]).map((t, m) => `<a class="btn lin" download href="${t}" style="padding:6px 10px;font-size:12px">Baixar${(a.telas || []).length > 1 ? ' ' + (m + 1) : ''}${/\.mp4$/.test(t) ? ' (vídeo)' : ''}</a>`).join('')}</div></div>`).join('')}</div>`
+   : `<div class="card"><p class="sub" style="margin:0">${vazio}</p></div>`}`; };
 
 // ---- 8 · Minhas fotos: o Lindson sobe as fotos dele para as artes (copiado do modelo prototipo/fotos.js, conta Lindson 01/11).
 // Vão para /api/fotos?cli=lindson (KV), reduzidas no aparelho para 2048 px + miniatura de 480 px. Pedido do Lindson 03/11: "não tem a aba de subir minhas fotos".
@@ -170,6 +183,11 @@ window.__pos = view => {
   if (ant) ant(view);
   const $$ = s => document.querySelectorAll('#conteudo ' + s), $1 = s => document.querySelector('#conteudo ' + s);
   $$('[data-copialeg]').forEach(b => b.onclick = () => { const a = (R.artes || [])[+b.dataset.copialeg]; if (a && navigator.clipboard) navigator.clipboard.writeText(a.legenda); toast(a && a.data === 'stories' ? 'Roteiro copiado' : 'Legenda copiada'); });
+  $$('[data-abaarte]').forEach(b => b.onclick = () => { abaArte = b.dataset.abaarte; render(); });
+  $$('[data-arte]').forEach(b => b.onclick = () => { const a = (R.artes || [])[+b.dataset.arte]; if (!a) return; const x = b.dataset.acao, ch = chaveArte(a);
+    salva(d => { d.artes = d.artes || {}; const v = d.artes[ch] = d.artes[ch] || {};
+      if (x === 'postado') { v.postado = true; v.em = new Date().toISOString(); v.por = 'Lindson'; } else if (x === 'despostar') { delete v.postado; delete v.em; delete v.por; v.st = 'aprovado'; } else v.st = x; },
+      { aprovado: 'Aprovada', ajuste: 'Pedido de ajuste registrado', postado: 'Marcada como postada', despostar: 'Voltou para a postar' }[x]); });
   $$('[data-copia]').forEach(b => b.onclick = () => { navigator.clipboard && navigator.clipboard.writeText(b.dataset.copia); toast('Gancho copiado'); });
   $$('[data-postado]').forEach(b => b.onclick = () => salva(d => { const k = b.dataset.postado; if (d.postados[k]) delete d.postados[k]; else d.postados[k] = { em: new Date().toISOString() }; }, 'Calendário atualizado'));
   $$('[data-gravado]').forEach(b => b.onclick = () => salva(d => { const k = b.dataset.gravado; if (d.gravados[k]) delete d.gravados[k]; else d.gravados[k] = { em: new Date().toISOString() }; }, 'Lote atualizado'));
