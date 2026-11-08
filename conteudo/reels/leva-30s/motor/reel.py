@@ -163,7 +163,11 @@ CH = os.environ.get('CHROMIUM', '/opt/pw-browsers/chromium')
 cores = (a.capa or R.get('capa_cor', 'amarelo')).split(',')
 for cor in cores:
     C = dict(P['capa'], cor=cor); C.update(P['capa'].get(cor, {}))
-    shutil.copy(os.path.join(FOTOS, C['foto']), os.path.join(W, os.path.basename(C['foto']))); C['foto'] = os.path.basename(C['foto'])
+    from PIL import Image as _I
+    _im = _I.open(os.path.join(FOTOS, C['foto'])).convert('RGBA'); _im = _im.crop(_im.getbbox())  # recorte justo: ele grande na capa
+    C['foto'] = os.path.basename(C['foto']); _im.save(os.path.join(W, C['foto']))
+    if C.get('auto', True):  # largura pelo ombro: ocupa ~100% da largura, cabeça logo abaixo do topo do miolo 4:5
+        C['fw'] = int(1080 * 1.12); C['fx'] = int((1080 - C['fw']) / 2); C['fy'] = 330
     open(W + f'/capa-{cor}.html', 'w').write(open(M + '/capa.html').read().replace('__CAPA__', json.dumps(C, ensure_ascii=False)))
 js = """const {chromium}=require('playwright');(async()=>{const b=await chromium.launch({executablePath:'%s'});const p=await b.newPage({viewport:{width:1080,height:1920}});
 for(const c of %s){await p.goto('file://%s/capa-'+c+'.html');await p.waitForFunction(()=>window.ready);await p.screenshot({path:'%s/capa-'+c+'.png'})}await b.close()})();""" % (CH, json.dumps(cores), W, W)

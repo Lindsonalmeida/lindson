@@ -121,7 +121,7 @@ B.impacto=(L,s)=>{const bg=el(`<div class="abs" style="inset:0;background:var(--
 B.cta=(L,s)=>{ // foto do Lindson em parallax 2.5D (ou o vídeo de lip-sync, quando existir)
  L.append(el(`<div class="abs" style="inset:0;background:radial-gradient(60% 40% at 50% 34%,#6b4d06 0%,#2a1f05 38%,#0B0B0B 72%)"></div>`));
  const word=el(`<div class="abs A" style="left:-40px;right:-40px;top:250px;text-align:center;font-size:420px;color:var(--y);opacity:.95;background:linear-gradient(180deg,#ffe27a,#F5C518 45%,#b88a00);-webkit-background-clip:text;color:transparent">${s.palavra||''}</div>`);L.append(word);
- word.style.whiteSpace='nowrap';document.fonts.ready.then(()=>{let f=420;while(word.scrollWidth>word.clientWidth+4&&f>160){f-=10;word.style.fontSize=f+'px'}});
+ word.style.whiteSpace='nowrap';word.style.fontSize=Math.min(420,Math.floor(1900/Math.max(1,(s.palavra||'').length)))+'px';
  let pessoa;if(s.lipsync){pessoa=el('<div class="abs" style="inset:0"></div>');L.append(pessoa);pessoa._fr=frames(pessoa,s.lipsync,{rate:1})}
  else{pessoa=el(`<img class="abs" src="${s.foto}" style="left:${s.fx??90}px;top:${s.fy??330}px;width:${s.fw??900}px;transform-origin:50% 30%">`);L.append(pessoa)}
  const tags=(s.etiquetas||[]).map((t,i)=>{const e=el(`<div class="tag" style="left:${[70,640,120][i%3]}px;top:${[960,1010,900][i%3]}px;background:${i%2?'#fff':'#F5C518'};color:#0B0B0B;transform:rotate(${[-6,5,-3][i%3]}deg)">${t}</div>`);L.append(e);return e});
