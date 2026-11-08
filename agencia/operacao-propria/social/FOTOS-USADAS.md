@@ -18,3 +18,5 @@
 **Livres:** A10-fachada e A9-cartão, que estão com o logo errado e só podem ser usadas depois de corrigir. As fotos de banco de `identidade/fotos-v3` e `fotos-v4` já foram usadas na identidade e no site; não usar de novo nos posts.
 
 **Próximo lote:** F1 a F32 (`calendario/PEDIDO-FOTOS-LOTE-2.txt`), pedido ao Lindson em 06/11.
+
+**08/11 · kit v4** (`v4/`, conta Zuleide): é a versão melhorada do kit v3 e usa as **mesmas** fotos. Ele substitui a v3 e não gasta foto nova.
