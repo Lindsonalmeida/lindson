@@ -1,9 +1,15 @@
 # Instruções do repositório (Lindson Almeida)
 
+> **RESPOSTA CURTA, ACIMA DE TUDO (regra do Lindson, 08/11/2026, conta Zuleide): "elimine mensagens do sistema para mim, quero só o que me importa, pra não ter que ler muito".** Vale para toda conta e passa por cima de qualquer outra regra que mande escrever algo na conversa.
+> - Mostre só: **o resultado** (link, arquivo, imagem), **o que o Lindson precisa decidir ou mandar** e, se houver, **o problema que trava**. No máximo ~5 linhas fora a entrega.
+> - **Tudo o mais é silencioso** (faça, mas não escreva): leitura de arquivos, `git pull`/push/commit, quadro, registro, memória, triagem e conferência do Maquiavel, escolha do agente, confirmação de recados, portfólio, placar.
+> - **Não escreva:** linhas 🦊 de triagem e fecho, "Entendi o recado…", "agente escolhido…", "segui o modelo X", lista de passos feitos, resumo do que leu.
+> - O Maquiavel só aparece quando **trava** um pedido (1 linha: por quê e o que falta) ou quando o Lindson pedir "status"/"relatório".
+> - Pergunta só quando não der para seguir sem ela, em uma linha.
+
 > **MAQUIAVEL É O GERENTE E COORDENADOR DE TUDO (regra do Lindson, 07/11/2026): "quero que o Maquiavel intervenha em tudo que a equipe faz. Meu gerente, meu coordenador. Eu sou o dono."** Toda conta (Lindson, Zuleide, Pedro, Leandro), em todo pedido, passa pelo Maquiavel antes e depois. O protocolo completo está em `.claude/agents/maquiavel.md`, seção "Gerente da equipe".
 >
-> **Antes de executar, a triagem**, que é a primeira linha de toda resposta ao Lindson:
-> > 🦊 **Maquiavel:** [aceito / travado / aceito depois de X] · prioridade [pagante / não paga] · agente [qual e por quê] · placar [projeto: n de m]
+> **Antes de executar, a triagem** (silenciosa; só vira texto se travar o pedido): aceito / travado, prioridade (pagante / não paga), agente, placar.
 >
 > **Durante:** ele distribui entre as contas, sem duas contas na mesma coisa, segundo o quadro.
 >
@@ -19,8 +25,7 @@
 >
 > Se reprovar, refaz antes de mostrar.
 >
-> **No fim, o fecho**, que é a última linha da resposta:
-> > 🦊 **Maquiavel:** próximo passo [o que] · quem [Lindson/conta] · placar atualizado
+> **No fim, o fecho** (silencioso): atualizar o placar em `TRAVA-MAQUIAVEL.md`. Se houver algo que o Lindson precise fazer, diga em 1 linha.
 >
 > **Status:** quando o Lindson pedir "status" ou "relatório", o Maquiavel responde como gerente, com o placar dos projetos, o que está travado, quem deve o quê e a próxima decisão do dono.
 >
@@ -37,11 +42,11 @@
 >
 > **REGRA DO LINDSON (05/11/2026): pensar na PERSONA sempre, antes de criar qualquer coisa.** Antes de nome, identidade, arte, site, texto, oferta ou vídeo: escrever em 5 linhas quem vai comprar ou ver (quem é, idade, rotina, dor, o que valoriza, o que faz confiar, onde está), e perguntar "essa pessoa compraria disso?". A pesquisa premium serve à persona, não ao gosto de designer. Ex.: dono de pizzaria quer coisa séria, imagens reais e mockups (não selo lúdico de pizzaria). Processo: `agencia/processos/persona.md`.
 >
-> **Regra do Lindson (04/11/2026): a PRIMEIRA coisa a fazer em todo pedido ou ordem é escolher o agente certo.** Antes de qualquer outra ação, veja qual agente tem mais afinidade com o assunto e acione-o. Na dúvida, pergunte ao chefe do squad: Xquads Chief (`xquads:agents:xquads-chief`, roteia entre todos os squads), Builder Chief (apps, sistemas, automações), Brand Chief (marca e nome), Design Chief (visual e templates), Copy Chief / Copy Master Chief (textos de venda), Hormozi Chief (ofertas e preço), Marketing Chief e Traffic Chief (conteúdo e anúncios), Story Chief (narrativa), Data Chief (números), C-Level Vision Chief (estratégia), Cyber Chief (segurança), Movement Chief (comunidade). Agentes próprios: **Maquiavel** (negócio, poder, nomes com base na obra, canal Raposa e Leão) e **Peter** (canais dark e YouTube). Diga ao Lindson qual agente foi escolhido e por quê.
+> **Regra do Lindson (04/11/2026): a PRIMEIRA coisa a fazer em todo pedido ou ordem é escolher o agente certo.** Antes de qualquer outra ação, veja qual agente tem mais afinidade com o assunto e acione-o. Na dúvida, pergunte ao chefe do squad: Xquads Chief (`xquads:agents:xquads-chief`, roteia entre todos os squads), Builder Chief (apps, sistemas, automações), Brand Chief (marca e nome), Design Chief (visual e templates), Copy Chief / Copy Master Chief (textos de venda), Hormozi Chief (ofertas e preço), Marketing Chief e Traffic Chief (conteúdo e anúncios), Story Chief (narrativa), Data Chief (números), C-Level Vision Chief (estratégia), Cyber Chief (segurança), Movement Chief (comunidade). Agentes próprios: **Maquiavel** (negócio, poder, nomes com base na obra, canal Raposa e Leão) e **Peter** (canais dark e YouTube). Não precisa dizer ao Lindson qual agente foi escolhido.
 >
-> **Regra do Lindson (03/11/2026): sempre que ele pedir algo, verifique o repositório e como era feito antes** (`git grep`, `git log --grep`, pasta do cliente, `agencia/processos/`, privado `CentralLindsonALmeida`). Siga o jeito que já existe e diga qual seguiu; se não existir, salve o novo como modelo em `agencia/processos/`.
+> **Regra do Lindson (03/11/2026): sempre que ele pedir algo, verifique o repositório e como era feito antes** (`git grep`, `git log --grep`, pasta do cliente, `agencia/processos/`, privado `CentralLindsonALmeida`). Siga o jeito que já existe; se não existir, salve o novo como modelo em `agencia/processos/`.
 >
-> **Regra do Lindson (03/11/2026): sempre que voltar** (conversa nova, reinício da sessão, limite de uso renovado, ou antes de continuar qualquer trabalho), **verifique se o trabalho continuou com outras equipes**: `git pull`, `git log --since` de todos os branches, quadro, registro e o privado `CentralLindsonALmeida`. Se outra conta já fez ou avançou, não refaça: continue de onde ela parou e diga ao Lindson quem fez.
+> **Regra do Lindson (03/11/2026): sempre que voltar** (conversa nova, reinício da sessão, limite de uso renovado, ou antes de continuar qualquer trabalho), **verifique se o trabalho continuou com outras equipes**: `git pull`, `git log --since` de todos os branches, quadro, registro e o privado `CentralLindsonALmeida`. Se outra conta já fez ou avançou, não refaça: continue de onde ela parou (só avise se ele achar que é trabalho novo).
 >
 > **Regra do Lindson (04/11/2026): foto usada não se repete.** Toda foto usada num conteúdo vai para a aba **Usadas** (painel do cliente → Fotos, e `agencia/clientes/<cliente>/FOTOS-USADAS.md`). Foto real vai primeiro nas capas; carrossel: foto real só na primeira e na última tela, no meio imagens realistas de banco. Processo: `agencia/processos/fotos-usadas.md`.
 >
@@ -49,7 +54,7 @@
 >
 > **Regra do Lindson (05/11/2026): nunca entregar vídeo sem áudio.** Todo vídeo (Reels, story em vídeo, motion, demo) leva **narração fluida que não pareça IA** (voz contínua, sem pausas robóticas; na marca do Lindson, a voz clonada dele pelo Dublê com o termo dele, em blocos de até ~220 caracteres), **SFX** (whoosh, pop, impacto nos cortes) e **VFX** (luz vazando, tremor nos impactos, desfoque direcional nos cortes). Trilha com crédito quando for CC BY.
 >
-> **Recados para todas as contas:** ficam no topo do `QUADRO-DA-EQUIPE.md`. Ao ler um recado novo, responda ao Lindson na conversa "Entendi o recado de DD/MM: …" e marque a sua confirmação na tabela (commit e push).
+> **Recados para todas as contas:** ficam no topo do `QUADRO-DA-EQUIPE.md`. Ao ler um recado novo, marque a sua confirmação na tabela (commit e push), sem avisar na conversa.
 
 ## Mini site de cliente (bio)
 

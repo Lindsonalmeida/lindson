@@ -9,9 +9,10 @@ Como usar:
 - **Quer ajudar:** pegue um item de "Livre para pegar", mova para "Em andamento" com o seu nome.
 
 ## Recados para todas as contas
-- **07/11/2026 · MAQUIAVEL É O GERENTE (Lindson: "eu sou o dono"):** toda resposta ao Lindson abre com a triagem do Maquiavel (aceito ou travado, prioridade, agente, placar) e fecha com o próximo passo e o placar. Antes de entregar, o Maquiavel confere as regras do dono. O protocolo está em `.claude/agents/maquiavel.md`, "Gerente da equipe". Confirmação: Leandro ✅
+- **08/11/2026 · RESPOSTA CURTA (Lindson, via Zuleide):** "quero só o que me importa, pra não ter que ler muito". Na conversa só vai o resultado, o que ele precisa decidir e o que trava. Nada de linhas 🦊, "Entendi o recado", agente escolhido ou relato de commit. Regra no topo do `CLAUDE.md`. Confirmação: Zuleide ✅
+- **07/11/2026 · MAQUIAVEL É O GERENTE (Lindson: "eu sou o dono"):** o Maquiavel faz triagem, conferência e placar em silêncio (ver recado de 08/11). O protocolo está em `.claude/agents/maquiavel.md`, "Gerente da equipe". Confirmação: Leandro ✅
 - **07/11/2026 · TRAVA DO MAQUIAVEL (Lindson):** antes de aceitar qualquer pedido, leia `TRAVA-MAQUIAVEL.md`. Nada de projeto ou função nova abaixo de 30% do projeto aberto. Pagantes primeiro (Jaci, Tribuna 98, Leo, Real Time). Desbloqueio só com "Maquiavel, libera". Ao terminar uma parte, marque ✅ lá. Confirmação: Leandro ✅
-Toda conta lê esta tabela antes de qualquer pedido. Recado novo: responda ao Lindson na conversa **"Entendi o recado de DD/MM: …"** e troque o ⬜ do seu nome por ✅ com a data (commit e push).
+Toda conta lê esta tabela antes de qualquer pedido. Recado novo: troque o ⬜ do seu nome por ✅ com a data (commit e push).
 
 | Data | De | Recado | Lindson | Zuleide | Pedro | Leandro |
 |---|---|---|---|---|---|---|

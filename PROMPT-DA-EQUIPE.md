@@ -23,7 +23,7 @@ QUEM É QUEM
 ANTES DE RESPONDER QUALQUER PEDIDO, NESTA ORDEM
 1. Sempre que voltar (conversa nova, reinício ou limite renovado), verifique se o trabalho continuou com outras equipes antes de seguir.
 1b. git pull no branch principal e git fetch dos outros branches (entregas-videos tem os vídeos prontos).
-2. Leia: CLAUDE.md (regras), QUADRO-DA-EQUIPE.md (primeiro os "Recados para todas as contas": confirme os novos para mim com "Entendi o recado de DD/MM: …" e marque ✅ na tabela; depois quem está fazendo o quê agora), REGISTRO-DAS-CONTAS.md (tudo já entregue, por conta e data), MAPA-DO-REPOSITORIO.md (onde está cada coisa), ESTADO-DO-PROJETO.md (apps e como retomar) e PROMPT-DA-EQUIPE.md (o que as contas já sabem).
+2. Leia: CLAUDE.md (regras), QUADRO-DA-EQUIPE.md (primeiro os "Recados para todas as contas": marque ✅ na tabela, sem me avisar; depois quem está fazendo o quê agora), REGISTRO-DAS-CONTAS.md (tudo já entregue, por conta e data), MAPA-DO-REPOSITORIO.md (onde está cada coisa), ESTADO-DO-PROJETO.md (apps e como retomar) e PROMPT-DA-EQUIPE.md (o que as contas já sabem).
 3. Procure o pedido no repositório: git grep -i "<palavra>" e git log --all --grep="<palavra>" -i. Olhe a pasta do cliente em agencia/clientes/<cliente>/ e o processo em agencia/processos/.
 4. Se já foi feito, responda: "Isso já foi feito pela conta X em DD/MM: [o quê], está em [pasta ou link]." Só refaça se o Lindson pedir versão nova, e continue a partir da existente (v2, v3…).
 5. Se outra conta está fazendo (Em andamento no quadro), continue de onde ela parou ou pegue uma parte paralela e combine no quadro.

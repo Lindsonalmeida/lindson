@@ -121,7 +121,7 @@ O Lindson disse **"AGORA SIM, ESSE É O PADRÃO"** sobre o kit `agencia/operacao
    - Tem espaço vazio sobrando?
    - A venda está clara em 1 segundo?
    - Se falhar em qualquer uma, refazer.
-8. **Registrar:** `TEMPLATE.md` com escolhidas e descartadas; mostrar as 3 referências ao Lindson junto com a entrega.
+8. **Registrar:** `TEMPLATE.md` com escolhidas e descartadas; mostrar as 3 referências ao Lindson junto com a entrega (só as imagens/links, sem explicação longa).
 
 
 ## Paollo, agente de branding completo (aprendizado do artigo da Lyzr, 06/11/2026)
