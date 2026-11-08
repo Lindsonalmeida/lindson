@@ -1,0 +1,1625 @@
+{
+ "fonte": "Galeria 'Fotos profissionais de pizzas' montada pelo Claude da outra conta em 08/11/2026 (https://claude.ai/artifact/1zT13Yi5gTQesfZvHwtY7h)",
+ "licenca": "Licença Pexels: uso gratuito, inclusive comercial; crédito opcional (damos o link); proibido revender a foto sem alteração ou sugerir endosso de pessoas retratadas",
+ "categorias": [
+  {
+   "categoria": "Margherita",
+   "emoji": "🍅",
+   "fotos": [
+    {
+     "id": "31596394",
+     "alta": "https://images.pexels.com/photos/31596394/pexels-photo-31596394.jpeg",
+     "pagina": "https://www.pexels.com/photo/31596394/"
+    },
+    {
+     "id": "8176833",
+     "alta": "https://images.pexels.com/photos/8176833/pexels-photo-8176833.jpeg",
+     "pagina": "https://www.pexels.com/photo/8176833/"
+    },
+    {
+     "id": "5638530",
+     "alta": "https://images.pexels.com/photos/5638530/pexels-photo-5638530.jpeg",
+     "pagina": "https://www.pexels.com/photo/5638530/"
+    },
+    {
+     "id": "18437686",
+     "alta": "https://images.pexels.com/photos/18437686/pexels-photo-18437686.jpeg",
+     "pagina": "https://www.pexels.com/photo/18437686/"
+    },
+    {
+     "id": "39430134",
+     "alta": "https://images.pexels.com/photos/39430134/pexels-photo-39430134.jpeg",
+     "pagina": "https://www.pexels.com/photo/39430134/"
+    },
+    {
+     "id": "35819048",
+     "alta": "https://images.pexels.com/photos/35819048/pexels-photo-35819048.jpeg",
+     "pagina": "https://www.pexels.com/photo/35819048/"
+    },
+    {
+     "id": "14538481",
+     "alta": "https://images.pexels.com/photos/14538481/pexels-photo-14538481.jpeg",
+     "pagina": "https://www.pexels.com/photo/14538481/"
+    },
+    {
+     "id": "6223186",
+     "alta": "https://images.pexels.com/photos/6223186/pexels-photo-6223186.jpeg",
+     "pagina": "https://www.pexels.com/photo/6223186/"
+    },
+    {
+     "id": "5280912",
+     "alta": "https://images.pexels.com/photos/5280912/pexels-photo-5280912.jpeg",
+     "pagina": "https://www.pexels.com/photo/5280912/"
+    },
+    {
+     "id": "31450842",
+     "alta": "https://images.pexels.com/photos/31450842/pexels-photo-31450842.jpeg",
+     "pagina": "https://www.pexels.com/photo/31450842/"
+    },
+    {
+     "id": "13310433",
+     "alta": "https://images.pexels.com/photos/13310433/pexels-photo-13310433.jpeg",
+     "pagina": "https://www.pexels.com/photo/13310433/"
+    },
+    {
+     "id": "31300969",
+     "alta": "https://images.pexels.com/photos/31300969/pexels-photo-31300969.jpeg",
+     "pagina": "https://www.pexels.com/photo/31300969/"
+    },
+    {
+     "id": "35555214",
+     "alta": "https://images.pexels.com/photos/35555214/pexels-photo-35555214.jpeg",
+     "pagina": "https://www.pexels.com/photo/35555214/"
+    },
+    {
+     "id": "5175613",
+     "alta": "https://images.pexels.com/photos/5175613/pexels-photo-5175613.jpeg",
+     "pagina": "https://www.pexels.com/photo/5175613/"
+    },
+    {
+     "id": "33457952",
+     "alta": "https://images.pexels.com/photos/33457952/pexels-photo-33457952.jpeg",
+     "pagina": "https://www.pexels.com/photo/33457952/"
+    },
+    {
+     "id": "31708263",
+     "alta": "https://images.pexels.com/photos/31708263/pexels-photo-31708263.jpeg",
+     "pagina": "https://www.pexels.com/photo/31708263/"
+    },
+    {
+     "id": "37144594",
+     "alta": "https://images.pexels.com/photos/37144594/pexels-photo-37144594.jpeg",
+     "pagina": "https://www.pexels.com/photo/37144594/"
+    }
+   ],
+   "previa": "previas/margherita.jpg"
+  },
+  {
+   "categoria": "Pepperoni",
+   "emoji": "🔴",
+   "fotos": [
+    {
+     "id": "30948829",
+     "alta": "https://images.pexels.com/photos/30948829/pexels-photo-30948829.jpeg",
+     "pagina": "https://www.pexels.com/photo/30948829/"
+    },
+    {
+     "id": "31587851",
+     "alta": "https://images.pexels.com/photos/31587851/pexels-photo-31587851.jpeg",
+     "pagina": "https://www.pexels.com/photo/31587851/"
+    },
+    {
+     "id": "6068717",
+     "alta": "https://images.pexels.com/photos/6068717/pexels-photo-6068717.jpeg",
+     "pagina": "https://www.pexels.com/photo/6068717/"
+    },
+    {
+     "id": "11710529",
+     "alta": "https://images.pexels.com/photos/11710529/pexels-photo-11710529.jpeg",
+     "pagina": "https://www.pexels.com/photo/11710529/"
+    },
+    {
+     "id": "16055182",
+     "alta": "https://images.pexels.com/photos/16055182/pexels-photo-16055182.jpeg",
+     "pagina": "https://www.pexels.com/photo/16055182/"
+    },
+    {
+     "id": "31587831",
+     "alta": "https://images.pexels.com/photos/31587831/pexels-photo-31587831.jpeg",
+     "pagina": "https://www.pexels.com/photo/31587831/"
+    },
+    {
+     "id": "15491639",
+     "alta": "https://images.pexels.com/photos/15491639/pexels-photo-15491639.jpeg",
+     "pagina": "https://www.pexels.com/photo/15491639/"
+    },
+    {
+     "id": "36365578",
+     "alta": "https://images.pexels.com/photos/36365578/pexels-photo-36365578.jpeg",
+     "pagina": "https://www.pexels.com/photo/36365578/"
+    },
+    {
+     "id": "7780261",
+     "alta": "https://images.pexels.com/photos/7780261/pexels-photo-7780261.jpeg",
+     "pagina": "https://www.pexels.com/photo/7780261/"
+    },
+    {
+     "id": "31450871",
+     "alta": "https://images.pexels.com/photos/31450871/pexels-photo-31450871.jpeg",
+     "pagina": "https://www.pexels.com/photo/31450871/"
+    },
+    {
+     "id": "9394678",
+     "alta": "https://images.pexels.com/photos/9394678/pexels-photo-9394678.jpeg",
+     "pagina": "https://www.pexels.com/photo/9394678/"
+    },
+    {
+     "id": "17429520",
+     "alta": "https://images.pexels.com/photos/17429520/pexels-photo-17429520.jpeg",
+     "pagina": "https://www.pexels.com/photo/17429520/"
+    },
+    {
+     "id": "31587843",
+     "alta": "https://images.pexels.com/photos/31587843/pexels-photo-31587843.jpeg",
+     "pagina": "https://www.pexels.com/photo/31587843/"
+    },
+    {
+     "id": "37417637",
+     "alta": "https://images.pexels.com/photos/37417637/pexels-photo-37417637.jpeg",
+     "pagina": "https://www.pexels.com/photo/37417637/"
+    },
+    {
+     "id": "5175556",
+     "alta": "https://images.pexels.com/photos/5175556/pexels-photo-5175556.jpeg",
+     "pagina": "https://www.pexels.com/photo/5175556/"
+    },
+    {
+     "id": "13730501",
+     "alta": "https://images.pexels.com/photos/13730501/pexels-photo-13730501.jpeg",
+     "pagina": "https://www.pexels.com/photo/13730501/"
+    },
+    {
+     "id": "31587842",
+     "alta": "https://images.pexels.com/photos/31587842/pexels-photo-31587842.jpeg",
+     "pagina": "https://www.pexels.com/photo/31587842/"
+    }
+   ],
+   "previa": "previas/pepperoni.jpg"
+  },
+  {
+   "categoria": "Calabresa",
+   "emoji": "🌶️",
+   "fotos": [
+    {
+     "id": "38902129",
+     "alta": "https://images.pexels.com/photos/38902129/pexels-photo-38902129.jpeg",
+     "pagina": "https://www.pexels.com/photo/38902129/"
+    },
+    {
+     "id": "32753298",
+     "alta": "https://images.pexels.com/photos/32753298/pexels-photo-32753298.jpeg",
+     "pagina": "https://www.pexels.com/photo/32753298/"
+    },
+    {
+     "id": "5903237",
+     "alta": "https://images.pexels.com/photos/5903237/pexels-photo-5903237.jpeg",
+     "pagina": "https://www.pexels.com/photo/5903237/"
+    },
+    {
+     "id": "5903232",
+     "alta": "https://images.pexels.com/photos/5903232/pexels-photo-5903232.jpeg",
+     "pagina": "https://www.pexels.com/photo/5903232/"
+    },
+    {
+     "id": "40262802",
+     "alta": "https://images.pexels.com/photos/40262802/pexels-photo-40262802.jpeg",
+     "pagina": "https://www.pexels.com/photo/40262802/"
+    },
+    {
+     "id": "5640010",
+     "alta": "https://images.pexels.com/photos/5640010/pexels-photo-5640010.jpeg",
+     "pagina": "https://www.pexels.com/photo/5640010/"
+    },
+    {
+     "id": "19786235",
+     "alta": "https://images.pexels.com/photos/19786235/pexels-photo-19786235.jpeg",
+     "pagina": "https://www.pexels.com/photo/19786235/"
+    },
+    {
+     "id": "5902965",
+     "alta": "https://images.pexels.com/photos/5902965/pexels-photo-5902965.jpeg",
+     "pagina": "https://www.pexels.com/photo/5902965/"
+    },
+    {
+     "id": "19786200",
+     "alta": "https://images.pexels.com/photos/19786200/pexels-photo-19786200.jpeg",
+     "pagina": "https://www.pexels.com/photo/19786200/"
+    },
+    {
+     "id": "29268347",
+     "alta": "https://images.pexels.com/photos/29268347/pexels-photo-29268347.jpeg",
+     "pagina": "https://www.pexels.com/photo/29268347/"
+    },
+    {
+     "id": "19786214",
+     "alta": "https://images.pexels.com/photos/19786214/pexels-photo-19786214.jpeg",
+     "pagina": "https://www.pexels.com/photo/19786214/"
+    },
+    {
+     "id": "10893995",
+     "alta": "https://images.pexels.com/photos/10893995/pexels-photo-10893995.jpeg",
+     "pagina": "https://www.pexels.com/photo/10893995/"
+    },
+    {
+     "id": "26575528",
+     "alta": "https://images.pexels.com/photos/26575528/pexels-photo-26575528.jpeg",
+     "pagina": "https://www.pexels.com/photo/26575528/"
+    },
+    {
+     "id": "17402718",
+     "alta": "https://images.pexels.com/photos/17402718/pexels-photo-17402718.jpeg",
+     "pagina": "https://www.pexels.com/photo/17402718/"
+    },
+    {
+     "id": "29268349",
+     "alta": "https://images.pexels.com/photos/29268349/pexels-photo-29268349.jpeg",
+     "pagina": "https://www.pexels.com/photo/29268349/"
+    },
+    {
+     "id": "5903276",
+     "alta": "https://images.pexels.com/photos/5903276/pexels-photo-5903276.jpeg",
+     "pagina": "https://www.pexels.com/photo/5903276/"
+    },
+    {
+     "id": "7142953",
+     "alta": "https://images.pexels.com/photos/7142953/pexels-photo-7142953.jpeg",
+     "pagina": "https://www.pexels.com/photo/7142953/"
+    }
+   ],
+   "previa": "previas/calabresa.jpg"
+  },
+  {
+   "categoria": "Queijos (Mussarela / 4 Queijos)",
+   "emoji": "🧀",
+   "fotos": [
+    {
+     "id": "36178132",
+     "alta": "https://images.pexels.com/photos/36178132/pexels-photo-36178132.jpeg",
+     "pagina": "https://www.pexels.com/photo/36178132/"
+    },
+    {
+     "id": "28272163",
+     "alta": "https://images.pexels.com/photos/28272163/pexels-photo-28272163.jpeg",
+     "pagina": "https://www.pexels.com/photo/28272163/"
+    },
+    {
+     "id": "5792318",
+     "alta": "https://images.pexels.com/photos/5792318/pexels-photo-5792318.jpeg",
+     "pagina": "https://www.pexels.com/photo/5792318/"
+    },
+    {
+     "id": "17403901",
+     "alta": "https://images.pexels.com/photos/17403901/pexels-photo-17403901.jpeg",
+     "pagina": "https://www.pexels.com/photo/17403901/"
+    },
+    {
+     "id": "19786209",
+     "alta": "https://images.pexels.com/photos/19786209/pexels-photo-19786209.jpeg",
+     "pagina": "https://www.pexels.com/photo/19786209/"
+    },
+    {
+     "id": "6493570",
+     "alta": "https://images.pexels.com/photos/6493570/pexels-photo-6493570.jpeg",
+     "pagina": "https://www.pexels.com/photo/6493570/"
+    },
+    {
+     "id": "17402721",
+     "alta": "https://images.pexels.com/photos/17402721/pexels-photo-17402721.jpeg",
+     "pagina": "https://www.pexels.com/photo/17402721/"
+    },
+    {
+     "id": "5903230",
+     "alta": "https://images.pexels.com/photos/5903230/pexels-photo-5903230.jpeg",
+     "pagina": "https://www.pexels.com/photo/5903230/"
+    },
+    {
+     "id": "5903389",
+     "alta": "https://images.pexels.com/photos/5903389/pexels-photo-5903389.jpeg",
+     "pagina": "https://www.pexels.com/photo/5903389/"
+    },
+    {
+     "id": "27819672",
+     "alta": "https://images.pexels.com/photos/27819672/pexels-photo-27819672.jpeg",
+     "pagina": "https://www.pexels.com/photo/27819672/"
+    },
+    {
+     "id": "9993754",
+     "alta": "https://images.pexels.com/photos/9993754/pexels-photo-9993754.jpeg",
+     "pagina": "https://www.pexels.com/photo/9993754/"
+    },
+    {
+     "id": "17341441",
+     "alta": "https://images.pexels.com/photos/17341441/pexels-photo-17341441.jpeg",
+     "pagina": "https://www.pexels.com/photo/17341441/"
+    },
+    {
+     "id": "20154166",
+     "alta": "https://images.pexels.com/photos/20154166/pexels-photo-20154166.jpeg",
+     "pagina": "https://www.pexels.com/photo/20154166/"
+    },
+    {
+     "id": "31094832",
+     "alta": "https://images.pexels.com/photos/31094832/pexels-photo-31094832.jpeg",
+     "pagina": "https://www.pexels.com/photo/31094832/"
+    },
+    {
+     "id": "18126737",
+     "alta": "https://images.pexels.com/photos/18126737/pexels-photo-18126737.jpeg",
+     "pagina": "https://www.pexels.com/photo/18126737/"
+    },
+    {
+     "id": "7241485",
+     "alta": "https://images.pexels.com/photos/7241485/pexels-photo-7241485.jpeg",
+     "pagina": "https://www.pexels.com/photo/7241485/"
+    },
+    {
+     "id": "17403900",
+     "alta": "https://images.pexels.com/photos/17403900/pexels-photo-17403900.jpeg",
+     "pagina": "https://www.pexels.com/photo/17403900/"
+    },
+    {
+     "id": "24513338",
+     "alta": "https://images.pexels.com/photos/24513338/pexels-photo-24513338.jpeg",
+     "pagina": "https://www.pexels.com/photo/24513338/"
+    }
+   ],
+   "previa": "previas/queijos-mussarela-4-queijos.jpg"
+  },
+  {
+   "categoria": "Frango",
+   "emoji": "🍗",
+   "fotos": [
+    {
+     "id": "5639547",
+     "alta": "https://images.pexels.com/photos/5639547/pexels-photo-5639547.jpeg",
+     "pagina": "https://www.pexels.com/photo/5639547/"
+    },
+    {
+     "id": "33458051",
+     "alta": "https://images.pexels.com/photos/33458051/pexels-photo-33458051.jpeg",
+     "pagina": "https://www.pexels.com/photo/33458051/"
+    },
+    {
+     "id": "35940570",
+     "alta": "https://images.pexels.com/photos/35940570/pexels-photo-35940570.jpeg",
+     "pagina": "https://www.pexels.com/photo/35940570/"
+    },
+    {
+     "id": "8707059",
+     "alta": "https://images.pexels.com/photos/8707059/pexels-photo-8707059.jpeg",
+     "pagina": "https://www.pexels.com/photo/8707059/"
+    },
+    {
+     "id": "5639555",
+     "alta": "https://images.pexels.com/photos/5639555/pexels-photo-5639555.jpeg",
+     "pagina": "https://www.pexels.com/photo/5639555/"
+    },
+    {
+     "id": "14525952",
+     "alta": "https://images.pexels.com/photos/14525952/pexels-photo-14525952.jpeg",
+     "pagina": "https://www.pexels.com/photo/14525952/"
+    },
+    {
+     "id": "33458049",
+     "alta": "https://images.pexels.com/photos/33458049/pexels-photo-33458049.jpeg",
+     "pagina": "https://www.pexels.com/photo/33458049/"
+    },
+    {
+     "id": "35123984",
+     "alta": "https://images.pexels.com/photos/35123984/pexels-photo-35123984.jpeg",
+     "pagina": "https://www.pexels.com/photo/35123984/"
+    },
+    {
+     "id": "11485215",
+     "alta": "https://images.pexels.com/photos/11485215/pexels-photo-11485215.jpeg",
+     "pagina": "https://www.pexels.com/photo/11485215/"
+    },
+    {
+     "id": "12089279",
+     "alta": "https://images.pexels.com/photos/12089279/pexels-photo-12089279.jpeg",
+     "pagina": "https://www.pexels.com/photo/12089279/"
+    },
+    {
+     "id": "11485225",
+     "alta": "https://images.pexels.com/photos/11485225/pexels-photo-11485225.jpeg",
+     "pagina": "https://www.pexels.com/photo/11485225/"
+    },
+    {
+     "id": "5639548",
+     "alta": "https://images.pexels.com/photos/5639548/pexels-photo-5639548.jpeg",
+     "pagina": "https://www.pexels.com/photo/5639548/"
+    },
+    {
+     "id": "31450857",
+     "alta": "https://images.pexels.com/photos/31450857/pexels-photo-31450857.jpeg",
+     "pagina": "https://www.pexels.com/photo/31450857/"
+    },
+    {
+     "id": "33592992",
+     "alta": "https://images.pexels.com/photos/33592992/pexels-photo-33592992.jpeg",
+     "pagina": "https://www.pexels.com/photo/33592992/"
+    },
+    {
+     "id": "20115307",
+     "alta": "https://images.pexels.com/photos/20115307/pexels-photo-20115307.jpeg",
+     "pagina": "https://www.pexels.com/photo/20115307/"
+    },
+    {
+     "id": "38187201",
+     "alta": "https://images.pexels.com/photos/38187201/pexels-photo-38187201.jpeg",
+     "pagina": "https://www.pexels.com/photo/38187201/"
+    },
+    {
+     "id": "11176613",
+     "alta": "https://images.pexels.com/photos/11176613/pexels-photo-11176613.jpeg",
+     "pagina": "https://www.pexels.com/photo/11176613/"
+    },
+    {
+     "id": "31587565",
+     "alta": "https://images.pexels.com/photos/31587565/pexels-photo-31587565.jpeg",
+     "pagina": "https://www.pexels.com/photo/31587565/"
+    }
+   ],
+   "previa": "previas/frango.jpg"
+  },
+  {
+   "categoria": "Portuguesa (Presunto e Ovo)",
+   "emoji": "🥚",
+   "fotos": [
+    {
+     "id": "5640037",
+     "alta": "https://images.pexels.com/photos/5640037/pexels-photo-5640037.jpeg",
+     "pagina": "https://www.pexels.com/photo/5640037/"
+    },
+    {
+     "id": "5640011",
+     "alta": "https://images.pexels.com/photos/5640011/pexels-photo-5640011.jpeg",
+     "pagina": "https://www.pexels.com/photo/5640011/"
+    },
+    {
+     "id": "5640022",
+     "alta": "https://images.pexels.com/photos/5640022/pexels-photo-5640022.jpeg",
+     "pagina": "https://www.pexels.com/photo/5640022/"
+    },
+    {
+     "id": "6151210",
+     "alta": "https://images.pexels.com/photos/6151210/pexels-photo-6151210.jpeg",
+     "pagina": "https://www.pexels.com/photo/6151210/"
+    },
+    {
+     "id": "12288359",
+     "alta": "https://images.pexels.com/photos/12288359/pexels-photo-12288359.jpeg",
+     "pagina": "https://www.pexels.com/photo/12288359/"
+    },
+    {
+     "id": "20793369",
+     "alta": "https://images.pexels.com/photos/20793369/pexels-photo-20793369.jpeg",
+     "pagina": "https://www.pexels.com/photo/20793369/"
+    },
+    {
+     "id": "5640016",
+     "alta": "https://images.pexels.com/photos/5640016/pexels-photo-5640016.jpeg",
+     "pagina": "https://www.pexels.com/photo/5640016/"
+    },
+    {
+     "id": "845812",
+     "alta": "https://images.pexels.com/photos/845812/pexels-photo-845812.jpeg",
+     "pagina": "https://www.pexels.com/photo/845812/"
+    },
+    {
+     "id": "11224312",
+     "alta": "https://images.pexels.com/photos/11224312/pexels-photo-11224312.jpeg",
+     "pagina": "https://www.pexels.com/photo/11224312/"
+    },
+    {
+     "id": "20300403",
+     "alta": "https://images.pexels.com/photos/20300403/pexels-photo-20300403.jpeg",
+     "pagina": "https://www.pexels.com/photo/20300403/"
+    },
+    {
+     "id": "33457563",
+     "alta": "https://images.pexels.com/photos/33457563/pexels-photo-33457563.jpeg",
+     "pagina": "https://www.pexels.com/photo/33457563/"
+    },
+    {
+     "id": "28807411",
+     "alta": "https://images.pexels.com/photos/28807411/pexels-photo-28807411.jpeg",
+     "pagina": "https://www.pexels.com/photo/28807411/"
+    },
+    {
+     "id": "845811",
+     "alta": "https://images.pexels.com/photos/845811/pexels-photo-845811.jpeg",
+     "pagina": "https://www.pexels.com/photo/845811/"
+    },
+    {
+     "id": "33457564",
+     "alta": "https://images.pexels.com/photos/33457564/pexels-photo-33457564.jpeg",
+     "pagina": "https://www.pexels.com/photo/33457564/"
+    },
+    {
+     "id": "845808",
+     "alta": "https://images.pexels.com/photos/845808/pexels-photo-845808.jpeg",
+     "pagina": "https://www.pexels.com/photo/845808/"
+    },
+    {
+     "id": "28484142",
+     "alta": "https://images.pexels.com/photos/28484142/pexels-photo-28484142.jpeg",
+     "pagina": "https://www.pexels.com/photo/28484142/"
+    },
+    {
+     "id": "16581000",
+     "alta": "https://images.pexels.com/photos/16581000/pexels-photo-16581000.jpeg",
+     "pagina": "https://www.pexels.com/photo/16581000/"
+    },
+    {
+     "id": "33457580",
+     "alta": "https://images.pexels.com/photos/33457580/pexels-photo-33457580.jpeg",
+     "pagina": "https://www.pexels.com/photo/33457580/"
+    }
+   ],
+   "previa": "previas/portuguesa-presunto-e-ovo.jpg"
+  },
+  {
+   "categoria": "Cogumelos",
+   "emoji": "🍄",
+   "fotos": [
+    {
+     "id": "11432059",
+     "alta": "https://images.pexels.com/photos/11432059/pexels-photo-11432059.jpeg",
+     "pagina": "https://www.pexels.com/photo/11432059/"
+    },
+    {
+     "id": "17402716",
+     "alta": "https://images.pexels.com/photos/17402716/pexels-photo-17402716.jpeg",
+     "pagina": "https://www.pexels.com/photo/17402716/"
+    },
+    {
+     "id": "38902125",
+     "alta": "https://images.pexels.com/photos/38902125/pexels-photo-38902125.jpeg",
+     "pagina": "https://www.pexels.com/photo/38902125/"
+    },
+    {
+     "id": "36375362",
+     "alta": "https://images.pexels.com/photos/36375362/pexels-photo-36375362.jpeg",
+     "pagina": "https://www.pexels.com/photo/36375362/"
+    },
+    {
+     "id": "14780766",
+     "alta": "https://images.pexels.com/photos/14780766/pexels-photo-14780766.jpeg",
+     "pagina": "https://www.pexels.com/photo/14780766/"
+    },
+    {
+     "id": "5903173",
+     "alta": "https://images.pexels.com/photos/5903173/pexels-photo-5903173.jpeg",
+     "pagina": "https://www.pexels.com/photo/5903173/"
+    },
+    {
+     "id": "5903378",
+     "alta": "https://images.pexels.com/photos/5903378/pexels-photo-5903378.jpeg",
+     "pagina": "https://www.pexels.com/photo/5903378/"
+    },
+    {
+     "id": "31063781",
+     "alta": "https://images.pexels.com/photos/31063781/pexels-photo-31063781.jpeg",
+     "pagina": "https://www.pexels.com/photo/31063781/"
+    },
+    {
+     "id": "19328844",
+     "alta": "https://images.pexels.com/photos/19328844/pexels-photo-19328844.jpeg",
+     "pagina": "https://www.pexels.com/photo/19328844/"
+    },
+    {
+     "id": "6605264",
+     "alta": "https://images.pexels.com/photos/6605264/pexels-photo-6605264.jpeg",
+     "pagina": "https://www.pexels.com/photo/6605264/"
+    },
+    {
+     "id": "5903178",
+     "alta": "https://images.pexels.com/photos/5903178/pexels-photo-5903178.jpeg",
+     "pagina": "https://www.pexels.com/photo/5903178/"
+    },
+    {
+     "id": "7175422",
+     "alta": "https://images.pexels.com/photos/7175422/pexels-photo-7175422.jpeg",
+     "pagina": "https://www.pexels.com/photo/7175422/"
+    },
+    {
+     "id": "6147824",
+     "alta": "https://images.pexels.com/photos/6147824/pexels-photo-6147824.jpeg",
+     "pagina": "https://www.pexels.com/photo/6147824/"
+    },
+    {
+     "id": "36375369",
+     "alta": "https://images.pexels.com/photos/36375369/pexels-photo-36375369.jpeg",
+     "pagina": "https://www.pexels.com/photo/36375369/"
+    },
+    {
+     "id": "22882528",
+     "alta": "https://images.pexels.com/photos/22882528/pexels-photo-22882528.jpeg",
+     "pagina": "https://www.pexels.com/photo/22882528/"
+    },
+    {
+     "id": "38868612",
+     "alta": "https://images.pexels.com/photos/38868612/pexels-photo-38868612.jpeg",
+     "pagina": "https://www.pexels.com/photo/38868612/"
+    },
+    {
+     "id": "33002473",
+     "alta": "https://images.pexels.com/photos/33002473/pexels-photo-33002473.jpeg",
+     "pagina": "https://www.pexels.com/photo/33002473/"
+    },
+    {
+     "id": "29699537",
+     "alta": "https://images.pexels.com/photos/29699537/pexels-photo-29699537.jpeg",
+     "pagina": "https://www.pexels.com/photo/29699537/"
+    }
+   ],
+   "previa": "previas/cogumelos.jpg"
+  },
+  {
+   "categoria": "Vegetariana",
+   "emoji": "🥬",
+   "fotos": [
+    {
+     "id": "33593000",
+     "alta": "https://images.pexels.com/photos/33593000/pexels-photo-33593000.jpeg",
+     "pagina": "https://www.pexels.com/photo/33593000/"
+    },
+    {
+     "id": "8609973",
+     "alta": "https://images.pexels.com/photos/8609973/pexels-photo-8609973.jpeg",
+     "pagina": "https://www.pexels.com/photo/8609973/"
+    },
+    {
+     "id": "20300404",
+     "alta": "https://images.pexels.com/photos/20300404/pexels-photo-20300404.jpeg",
+     "pagina": "https://www.pexels.com/photo/20300404/"
+    },
+    {
+     "id": "24513347",
+     "alta": "https://images.pexels.com/photos/24513347/pexels-photo-24513347.jpeg",
+     "pagina": "https://www.pexels.com/photo/24513347/"
+    },
+    {
+     "id": "8471701",
+     "alta": "https://images.pexels.com/photos/8471701/pexels-photo-8471701.jpeg",
+     "pagina": "https://www.pexels.com/photo/8471701/"
+    },
+    {
+     "id": "5175513",
+     "alta": "https://images.pexels.com/photos/5175513/pexels-photo-5175513.jpeg",
+     "pagina": "https://www.pexels.com/photo/5175513/"
+    },
+    {
+     "id": "1552635",
+     "alta": "https://images.pexels.com/photos/1552635/pexels-photo-1552635.jpeg",
+     "pagina": "https://www.pexels.com/photo/1552635/"
+    },
+    {
+     "id": "5638534",
+     "alta": "https://images.pexels.com/photos/5638534/pexels-photo-5638534.jpeg",
+     "pagina": "https://www.pexels.com/photo/5638534/"
+    },
+    {
+     "id": "1552642",
+     "alta": "https://images.pexels.com/photos/1552642/pexels-photo-1552642.jpeg",
+     "pagina": "https://www.pexels.com/photo/1552642/"
+    },
+    {
+     "id": "29327347",
+     "alta": "https://images.pexels.com/photos/29327347/pexels-photo-29327347.jpeg",
+     "pagina": "https://www.pexels.com/photo/29327347/"
+    },
+    {
+     "id": "15832906",
+     "alta": "https://images.pexels.com/photos/15832906/pexels-photo-15832906.jpeg",
+     "pagina": "https://www.pexels.com/photo/15832906/"
+    },
+    {
+     "id": "27874930",
+     "alta": "https://images.pexels.com/photos/27874930/pexels-photo-27874930.jpeg",
+     "pagina": "https://www.pexels.com/photo/27874930/"
+    },
+    {
+     "id": "5848276",
+     "alta": "https://images.pexels.com/photos/5848276/pexels-photo-5848276.jpeg",
+     "pagina": "https://www.pexels.com/photo/5848276/"
+    },
+    {
+     "id": "9353420",
+     "alta": "https://images.pexels.com/photos/9353420/pexels-photo-9353420.jpeg",
+     "pagina": "https://www.pexels.com/photo/9353420/"
+    },
+    {
+     "id": "1458426",
+     "alta": "https://images.pexels.com/photos/1458426/pexels-photo-1458426.jpeg",
+     "pagina": "https://www.pexels.com/photo/1458426/"
+    },
+    {
+     "id": "10584828",
+     "alta": "https://images.pexels.com/photos/10584828/pexels-photo-10584828.jpeg",
+     "pagina": "https://www.pexels.com/photo/10584828/"
+    },
+    {
+     "id": "10313199",
+     "alta": "https://images.pexels.com/photos/10313199/pexels-photo-10313199.jpeg",
+     "pagina": "https://www.pexels.com/photo/10313199/"
+    },
+    {
+     "id": "34425632",
+     "alta": "https://images.pexels.com/photos/34425632/pexels-photo-34425632.jpeg",
+     "pagina": "https://www.pexels.com/photo/34425632/"
+    }
+   ],
+   "previa": "previas/vegetariana.jpg"
+  },
+  {
+   "categoria": "Havaiana (Abacaxi)",
+   "emoji": "🍍",
+   "fotos": [
+    {
+     "id": "33592994",
+     "alta": "https://images.pexels.com/photos/33592994/pexels-photo-33592994.jpeg",
+     "pagina": "https://www.pexels.com/photo/33592994/"
+    },
+    {
+     "id": "20115309",
+     "alta": "https://images.pexels.com/photos/20115309/pexels-photo-20115309.jpeg",
+     "pagina": "https://www.pexels.com/photo/20115309/"
+    },
+    {
+     "id": "33592999",
+     "alta": "https://images.pexels.com/photos/33592999/pexels-photo-33592999.jpeg",
+     "pagina": "https://www.pexels.com/photo/33592999/"
+    },
+    {
+     "id": "14333991",
+     "alta": "https://images.pexels.com/photos/14333991/pexels-photo-14333991.jpeg",
+     "pagina": "https://www.pexels.com/photo/14333991/"
+    },
+    {
+     "id": "7886591",
+     "alta": "https://images.pexels.com/photos/7886591/pexels-photo-7886591.jpeg",
+     "pagina": "https://www.pexels.com/photo/7886591/"
+    },
+    {
+     "id": "14333986",
+     "alta": "https://images.pexels.com/photos/14333986/pexels-photo-14333986.jpeg",
+     "pagina": "https://www.pexels.com/photo/14333986/"
+    },
+    {
+     "id": "14333990",
+     "alta": "https://images.pexels.com/photos/14333990/pexels-photo-14333990.jpeg",
+     "pagina": "https://www.pexels.com/photo/14333990/"
+    },
+    {
+     "id": "38976313",
+     "alta": "https://images.pexels.com/photos/38976313/pexels-photo-38976313.jpeg",
+     "pagina": "https://www.pexels.com/photo/38976313/"
+    },
+    {
+     "id": "32611521",
+     "alta": "https://images.pexels.com/photos/32611521/pexels-photo-32611521.jpeg",
+     "pagina": "https://www.pexels.com/photo/32611521/"
+    },
+    {
+     "id": "38976314",
+     "alta": "https://images.pexels.com/photos/38976314/pexels-photo-38976314.jpeg",
+     "pagina": "https://www.pexels.com/photo/38976314/"
+    },
+    {
+     "id": "2005095",
+     "alta": "https://images.pexels.com/photos/2005095/pexels-photo-2005095.jpeg",
+     "pagina": "https://www.pexels.com/photo/2005095/"
+    },
+    {
+     "id": "26575540",
+     "alta": "https://images.pexels.com/photos/26575540/pexels-photo-26575540.jpeg",
+     "pagina": "https://www.pexels.com/photo/26575540/"
+    },
+    {
+     "id": "14333995",
+     "alta": "https://images.pexels.com/photos/14333995/pexels-photo-14333995.jpeg",
+     "pagina": "https://www.pexels.com/photo/14333995/"
+    },
+    {
+     "id": "14334060",
+     "alta": "https://images.pexels.com/photos/14334060/pexels-photo-14334060.jpeg",
+     "pagina": "https://www.pexels.com/photo/14334060/"
+    },
+    {
+     "id": "11710524",
+     "alta": "https://images.pexels.com/photos/11710524/pexels-photo-11710524.jpeg",
+     "pagina": "https://www.pexels.com/photo/11710524/"
+    },
+    {
+     "id": "29269192",
+     "alta": "https://images.pexels.com/photos/29269192/pexels-photo-29269192.jpeg",
+     "pagina": "https://www.pexels.com/photo/29269192/"
+    },
+    {
+     "id": "27582703",
+     "alta": "https://images.pexels.com/photos/27582703/pexels-photo-27582703.jpeg",
+     "pagina": "https://www.pexels.com/photo/27582703/"
+    },
+    {
+     "id": "32611520",
+     "alta": "https://images.pexels.com/photos/32611520/pexels-photo-32611520.jpeg",
+     "pagina": "https://www.pexels.com/photo/32611520/"
+    }
+   ],
+   "previa": "previas/havaiana-abacaxi.jpg"
+  },
+  {
+   "categoria": "Parma e Rúcula",
+   "emoji": "🥓",
+   "fotos": [
+    {
+     "id": "16677736",
+     "alta": "https://images.pexels.com/photos/16677736/pexels-photo-16677736.jpeg",
+     "pagina": "https://www.pexels.com/photo/16677736/"
+    },
+    {
+     "id": "29807155",
+     "alta": "https://images.pexels.com/photos/29807155/pexels-photo-29807155.jpeg",
+     "pagina": "https://www.pexels.com/photo/29807155/"
+    },
+    {
+     "id": "14693802",
+     "alta": "https://images.pexels.com/photos/14693802/pexels-photo-14693802.jpeg",
+     "pagina": "https://www.pexels.com/photo/14693802/"
+    },
+    {
+     "id": "5903261",
+     "alta": "https://images.pexels.com/photos/5903261/pexels-photo-5903261.jpeg",
+     "pagina": "https://www.pexels.com/photo/5903261/"
+    },
+    {
+     "id": "5903102",
+     "alta": "https://images.pexels.com/photos/5903102/pexels-photo-5903102.jpeg",
+     "pagina": "https://www.pexels.com/photo/5903102/"
+    },
+    {
+     "id": "20226301",
+     "alta": "https://images.pexels.com/photos/20226301/pexels-photo-20226301.jpeg",
+     "pagina": "https://www.pexels.com/photo/20226301/"
+    },
+    {
+     "id": "10875298",
+     "alta": "https://images.pexels.com/photos/10875298/pexels-photo-10875298.jpeg",
+     "pagina": "https://www.pexels.com/photo/10875298/"
+    },
+    {
+     "id": "10875216",
+     "alta": "https://images.pexels.com/photos/10875216/pexels-photo-10875216.jpeg",
+     "pagina": "https://www.pexels.com/photo/10875216/"
+    },
+    {
+     "id": "10875206",
+     "alta": "https://images.pexels.com/photos/10875206/pexels-photo-10875206.jpeg",
+     "pagina": "https://www.pexels.com/photo/10875206/"
+    },
+    {
+     "id": "34413630",
+     "alta": "https://images.pexels.com/photos/34413630/pexels-photo-34413630.jpeg",
+     "pagina": "https://www.pexels.com/photo/34413630/"
+    },
+    {
+     "id": "38200394",
+     "alta": "https://images.pexels.com/photos/38200394/pexels-photo-38200394.jpeg",
+     "pagina": "https://www.pexels.com/photo/38200394/"
+    },
+    {
+     "id": "16677739",
+     "alta": "https://images.pexels.com/photos/16677739/pexels-photo-16677739.jpeg",
+     "pagina": "https://www.pexels.com/photo/16677739/"
+    },
+    {
+     "id": "10875208",
+     "alta": "https://images.pexels.com/photos/10875208/pexels-photo-10875208.jpeg",
+     "pagina": "https://www.pexels.com/photo/10875208/"
+    },
+    {
+     "id": "16677741",
+     "alta": "https://images.pexels.com/photos/16677741/pexels-photo-16677741.jpeg",
+     "pagina": "https://www.pexels.com/photo/16677741/"
+    },
+    {
+     "id": "15953049",
+     "alta": "https://images.pexels.com/photos/15953049/pexels-photo-15953049.jpeg",
+     "pagina": "https://www.pexels.com/photo/15953049/"
+    },
+    {
+     "id": "5903097",
+     "alta": "https://images.pexels.com/photos/5903097/pexels-photo-5903097.jpeg",
+     "pagina": "https://www.pexels.com/photo/5903097/"
+    },
+    {
+     "id": "5903100",
+     "alta": "https://images.pexels.com/photos/5903100/pexels-photo-5903100.jpeg",
+     "pagina": "https://www.pexels.com/photo/5903100/"
+    },
+    {
+     "id": "10875297",
+     "alta": "https://images.pexels.com/photos/10875297/pexels-photo-10875297.jpeg",
+     "pagina": "https://www.pexels.com/photo/10875297/"
+    }
+   ],
+   "previa": "previas/parma-e-rcula.jpg"
+  },
+  {
+   "categoria": "Frutos do Mar / Atum",
+   "emoji": "🦐",
+   "fotos": [
+    {
+     "id": "5175516",
+     "alta": "https://images.pexels.com/photos/5175516/pexels-photo-5175516.jpeg",
+     "pagina": "https://www.pexels.com/photo/5175516/"
+    },
+    {
+     "id": "29807152",
+     "alta": "https://images.pexels.com/photos/29807152/pexels-photo-29807152.jpeg",
+     "pagina": "https://www.pexels.com/photo/29807152/"
+    },
+    {
+     "id": "20566281",
+     "alta": "https://images.pexels.com/photos/20566281/pexels-photo-20566281.jpeg",
+     "pagina": "https://www.pexels.com/photo/20566281/"
+    },
+    {
+     "id": "19130050",
+     "alta": "https://images.pexels.com/photos/19130050/pexels-photo-19130050.png",
+     "pagina": "https://www.pexels.com/photo/19130050/"
+    },
+    {
+     "id": "12314851",
+     "alta": "https://images.pexels.com/photos/12314851/pexels-photo-12314851.jpeg",
+     "pagina": "https://www.pexels.com/photo/12314851/"
+    },
+    {
+     "id": "7947152",
+     "alta": "https://images.pexels.com/photos/7947152/pexels-photo-7947152.jpeg",
+     "pagina": "https://www.pexels.com/photo/7947152/"
+    },
+    {
+     "id": "5639961",
+     "alta": "https://images.pexels.com/photos/5639961/pexels-photo-5639961.jpeg",
+     "pagina": "https://www.pexels.com/photo/5639961/"
+    },
+    {
+     "id": "12314829",
+     "alta": "https://images.pexels.com/photos/12314829/pexels-photo-12314829.jpeg",
+     "pagina": "https://www.pexels.com/photo/12314829/"
+    },
+    {
+     "id": "29807157",
+     "alta": "https://images.pexels.com/photos/29807157/pexels-photo-29807157.jpeg",
+     "pagina": "https://www.pexels.com/photo/29807157/"
+    },
+    {
+     "id": "5848290",
+     "alta": "https://images.pexels.com/photos/5848290/pexels-photo-5848290.jpeg",
+     "pagina": "https://www.pexels.com/photo/5848290/"
+    },
+    {
+     "id": "33457625",
+     "alta": "https://images.pexels.com/photos/33457625/pexels-photo-33457625.jpeg",
+     "pagina": "https://www.pexels.com/photo/33457625/"
+    },
+    {
+     "id": "4553111",
+     "alta": "https://images.pexels.com/photos/4553111/pexels-photo-4553111.jpeg",
+     "pagina": "https://www.pexels.com/photo/4553111/"
+    },
+    {
+     "id": "14966000",
+     "alta": "https://images.pexels.com/photos/14966000/pexels-photo-14966000.jpeg",
+     "pagina": "https://www.pexels.com/photo/14966000/"
+    },
+    {
+     "id": "13082261",
+     "alta": "https://images.pexels.com/photos/13082261/pexels-photo-13082261.jpeg",
+     "pagina": "https://www.pexels.com/photo/13082261/"
+    },
+    {
+     "id": "12314830",
+     "alta": "https://images.pexels.com/photos/12314830/pexels-photo-12314830.jpeg",
+     "pagina": "https://www.pexels.com/photo/12314830/"
+    },
+    {
+     "id": "15550302",
+     "alta": "https://images.pexels.com/photos/15550302/pexels-photo-15550302.jpeg",
+     "pagina": "https://www.pexels.com/photo/15550302/"
+    },
+    {
+     "id": "36374388",
+     "alta": "https://images.pexels.com/photos/36374388/pexels-photo-36374388.jpeg",
+     "pagina": "https://www.pexels.com/photo/36374388/"
+    },
+    {
+     "id": "36374391",
+     "alta": "https://images.pexels.com/photos/36374391/pexels-photo-36374391.jpeg",
+     "pagina": "https://www.pexels.com/photo/36374391/"
+    }
+   ],
+   "previa": "previas/frutos-do-mar-atum.jpg"
+  },
+  {
+   "categoria": "Napolitana",
+   "emoji": "🇮🇹",
+   "fotos": [
+    {
+     "id": "29121112",
+     "alta": "https://images.pexels.com/photos/29121112/pexels-photo-29121112.jpeg",
+     "pagina": "https://www.pexels.com/photo/29121112/"
+    },
+    {
+     "id": "10802332",
+     "alta": "https://images.pexels.com/photos/10802332/pexels-photo-10802332.jpeg",
+     "pagina": "https://www.pexels.com/photo/10802332/"
+    },
+    {
+     "id": "19602378",
+     "alta": "https://images.pexels.com/photos/19602378/pexels-photo-19602378.jpeg",
+     "pagina": "https://www.pexels.com/photo/19602378/"
+    },
+    {
+     "id": "12096782",
+     "alta": "https://images.pexels.com/photos/12096782/pexels-photo-12096782.jpeg",
+     "pagina": "https://www.pexels.com/photo/12096782/"
+    },
+    {
+     "id": "32449727",
+     "alta": "https://images.pexels.com/photos/32449727/pexels-photo-32449727.jpeg",
+     "pagina": "https://www.pexels.com/photo/32449727/"
+    },
+    {
+     "id": "19260842",
+     "alta": "https://images.pexels.com/photos/19260842/pexels-photo-19260842.jpeg",
+     "pagina": "https://www.pexels.com/photo/19260842/"
+    },
+    {
+     "id": "27647972",
+     "alta": "https://images.pexels.com/photos/27647972/pexels-photo-27647972.jpeg",
+     "pagina": "https://www.pexels.com/photo/27647972/"
+    },
+    {
+     "id": "33593005",
+     "alta": "https://images.pexels.com/photos/33593005/pexels-photo-33593005.jpeg",
+     "pagina": "https://www.pexels.com/photo/33593005/"
+    },
+    {
+     "id": "29609013",
+     "alta": "https://images.pexels.com/photos/29609013/pexels-photo-29609013.jpeg",
+     "pagina": "https://www.pexels.com/photo/29609013/"
+    },
+    {
+     "id": "17890728",
+     "alta": "https://images.pexels.com/photos/17890728/pexels-photo-17890728.jpeg",
+     "pagina": "https://www.pexels.com/photo/17890728/"
+    },
+    {
+     "id": "19260730",
+     "alta": "https://images.pexels.com/photos/19260730/pexels-photo-19260730.jpeg",
+     "pagina": "https://www.pexels.com/photo/19260730/"
+    },
+    {
+     "id": "16614145",
+     "alta": "https://images.pexels.com/photos/16614145/pexels-photo-16614145.jpeg",
+     "pagina": "https://www.pexels.com/photo/16614145/"
+    },
+    {
+     "id": "21792440",
+     "alta": "https://images.pexels.com/photos/21792440/pexels-photo-21792440.jpeg",
+     "pagina": "https://www.pexels.com/photo/21792440/"
+    },
+    {
+     "id": "19102880",
+     "alta": "https://images.pexels.com/photos/19102880/pexels-photo-19102880.jpeg",
+     "pagina": "https://www.pexels.com/photo/19102880/"
+    },
+    {
+     "id": "10673053",
+     "alta": "https://images.pexels.com/photos/10673053/pexels-photo-10673053.jpeg",
+     "pagina": "https://www.pexels.com/photo/10673053/"
+    },
+    {
+     "id": "29039072",
+     "alta": "https://images.pexels.com/photos/29039072/pexels-photo-29039072.jpeg",
+     "pagina": "https://www.pexels.com/photo/29039072/"
+    },
+    {
+     "id": "34380267",
+     "alta": "https://images.pexels.com/photos/34380267/pexels-photo-34380267.jpeg",
+     "pagina": "https://www.pexels.com/photo/34380267/"
+    },
+    {
+     "id": "19260836",
+     "alta": "https://images.pexels.com/photos/19260836/pexels-photo-19260836.jpeg",
+     "pagina": "https://www.pexels.com/photo/19260836/"
+    }
+   ],
+   "previa": "previas/napolitana.jpg"
+  },
+  {
+   "categoria": "Mediterrânea (Azeitonas)",
+   "emoji": "🫒",
+   "fotos": [
+    {
+     "id": "3763966",
+     "alta": "https://images.pexels.com/photos/3763966/pexels-photo-3763966.jpeg",
+     "pagina": "https://www.pexels.com/photo/3763966/"
+    },
+    {
+     "id": "32763320",
+     "alta": "https://images.pexels.com/photos/32763320/pexels-photo-32763320.jpeg",
+     "pagina": "https://www.pexels.com/photo/32763320/"
+    },
+    {
+     "id": "11136515",
+     "alta": "https://images.pexels.com/photos/11136515/pexels-photo-11136515.jpeg",
+     "pagina": "https://www.pexels.com/photo/11136515/"
+    },
+    {
+     "id": "5902958",
+     "alta": "https://images.pexels.com/photos/5902958/pexels-photo-5902958.jpeg",
+     "pagina": "https://www.pexels.com/photo/5902958/"
+    },
+    {
+     "id": "18832949",
+     "alta": "https://images.pexels.com/photos/18832949/pexels-photo-18832949.jpeg",
+     "pagina": "https://www.pexels.com/photo/18832949/"
+    },
+    {
+     "id": "29021734",
+     "alta": "https://images.pexels.com/photos/29021734/pexels-photo-29021734.jpeg",
+     "pagina": "https://www.pexels.com/photo/29021734/"
+    },
+    {
+     "id": "5903274",
+     "alta": "https://images.pexels.com/photos/5903274/pexels-photo-5903274.jpeg",
+     "pagina": "https://www.pexels.com/photo/5903274/"
+    },
+    {
+     "id": "5902953",
+     "alta": "https://images.pexels.com/photos/5902953/pexels-photo-5902953.jpeg",
+     "pagina": "https://www.pexels.com/photo/5902953/"
+    },
+    {
+     "id": "20313061",
+     "alta": "https://images.pexels.com/photos/20313061/pexels-photo-20313061.jpeg",
+     "pagina": "https://www.pexels.com/photo/20313061/"
+    },
+    {
+     "id": "6147817",
+     "alta": "https://images.pexels.com/photos/6147817/pexels-photo-6147817.jpeg",
+     "pagina": "https://www.pexels.com/photo/6147817/"
+    },
+    {
+     "id": "34413634",
+     "alta": "https://images.pexels.com/photos/34413634/pexels-photo-34413634.jpeg",
+     "pagina": "https://www.pexels.com/photo/34413634/"
+    },
+    {
+     "id": "5903315",
+     "alta": "https://images.pexels.com/photos/5903315/pexels-photo-5903315.jpeg",
+     "pagina": "https://www.pexels.com/photo/5903315/"
+    },
+    {
+     "id": "29021732",
+     "alta": "https://images.pexels.com/photos/29021732/pexels-photo-29021732.jpeg",
+     "pagina": "https://www.pexels.com/photo/29021732/"
+    },
+    {
+     "id": "32592737",
+     "alta": "https://images.pexels.com/photos/32592737/pexels-photo-32592737.jpeg",
+     "pagina": "https://www.pexels.com/photo/32592737/"
+    },
+    {
+     "id": "27870595",
+     "alta": "https://images.pexels.com/photos/27870595/pexels-photo-27870595.jpeg",
+     "pagina": "https://www.pexels.com/photo/27870595/"
+    },
+    {
+     "id": "5903382",
+     "alta": "https://images.pexels.com/photos/5903382/pexels-photo-5903382.jpeg",
+     "pagina": "https://www.pexels.com/photo/5903382/"
+    },
+    {
+     "id": "14865324",
+     "alta": "https://images.pexels.com/photos/14865324/pexels-photo-14865324.jpeg",
+     "pagina": "https://www.pexels.com/photo/14865324/"
+    },
+    {
+     "id": "5902960",
+     "alta": "https://images.pexels.com/photos/5902960/pexels-photo-5902960.jpeg",
+     "pagina": "https://www.pexels.com/photo/5902960/"
+    }
+   ],
+   "previa": "previas/mediterrnea-azeitonas.jpg"
+  },
+  {
+   "categoria": "Doces (Chocolate / Frutas)",
+   "emoji": "🍫",
+   "fotos": [
+    {
+     "id": "31094828",
+     "alta": "https://images.pexels.com/photos/31094828/pexels-photo-31094828.jpeg",
+     "pagina": "https://www.pexels.com/photo/31094828/"
+    },
+    {
+     "id": "31094808",
+     "alta": "https://images.pexels.com/photos/31094808/pexels-photo-31094808.jpeg",
+     "pagina": "https://www.pexels.com/photo/31094808/"
+    },
+    {
+     "id": "25185011",
+     "alta": "https://images.pexels.com/photos/25185011/pexels-photo-25185011.jpeg",
+     "pagina": "https://www.pexels.com/photo/25185011/"
+    },
+    {
+     "id": "33457611",
+     "alta": "https://images.pexels.com/photos/33457611/pexels-photo-33457611.jpeg",
+     "pagina": "https://www.pexels.com/photo/33457611/"
+    },
+    {
+     "id": "33457610",
+     "alta": "https://images.pexels.com/photos/33457610/pexels-photo-33457610.jpeg",
+     "pagina": "https://www.pexels.com/photo/33457610/"
+    },
+    {
+     "id": "34077096",
+     "alta": "https://images.pexels.com/photos/34077096/pexels-photo-34077096.jpeg",
+     "pagina": "https://www.pexels.com/photo/34077096/"
+    },
+    {
+     "id": "34077097",
+     "alta": "https://images.pexels.com/photos/34077097/pexels-photo-34077097.jpeg",
+     "pagina": "https://www.pexels.com/photo/34077097/"
+    },
+    {
+     "id": "33457587",
+     "alta": "https://images.pexels.com/photos/33457587/pexels-photo-33457587.jpeg",
+     "pagina": "https://www.pexels.com/photo/33457587/"
+    },
+    {
+     "id": "8444542",
+     "alta": "https://images.pexels.com/photos/8444542/pexels-photo-8444542.jpeg",
+     "pagina": "https://www.pexels.com/photo/8444542/"
+    },
+    {
+     "id": "8444544",
+     "alta": "https://images.pexels.com/photos/8444544/pexels-photo-8444544.jpeg",
+     "pagina": "https://www.pexels.com/photo/8444544/"
+    },
+    {
+     "id": "17637080",
+     "alta": "https://images.pexels.com/photos/17637080/pexels-photo-17637080.png",
+     "pagina": "https://www.pexels.com/photo/17637080/"
+    },
+    {
+     "id": "32592728",
+     "alta": "https://images.pexels.com/photos/32592728/pexels-photo-32592728.jpeg",
+     "pagina": "https://www.pexels.com/photo/32592728/"
+    },
+    {
+     "id": "33457595",
+     "alta": "https://images.pexels.com/photos/33457595/pexels-photo-33457595.jpeg",
+     "pagina": "https://www.pexels.com/photo/33457595/"
+    },
+    {
+     "id": "33457632",
+     "alta": "https://images.pexels.com/photos/33457632/pexels-photo-33457632.jpeg",
+     "pagina": "https://www.pexels.com/photo/33457632/"
+    },
+    {
+     "id": "6697494",
+     "alta": "https://images.pexels.com/photos/6697494/pexels-photo-6697494.jpeg",
+     "pagina": "https://www.pexels.com/photo/6697494/"
+    },
+    {
+     "id": "33457598",
+     "alta": "https://images.pexels.com/photos/33457598/pexels-photo-33457598.jpeg",
+     "pagina": "https://www.pexels.com/photo/33457598/"
+    },
+    {
+     "id": "33457637",
+     "alta": "https://images.pexels.com/photos/33457637/pexels-photo-33457637.jpeg",
+     "pagina": "https://www.pexels.com/photo/33457637/"
+    },
+    {
+     "id": "31094802",
+     "alta": "https://images.pexels.com/photos/31094802/pexels-photo-31094802.jpeg",
+     "pagina": "https://www.pexels.com/photo/31094802/"
+    }
+   ],
+   "previa": "previas/doces-chocolate-frutas.jpg"
+  },
+  {
+   "categoria": "Fatias e Puxa-queijo",
+   "emoji": "🍕",
+   "fotos": [
+    {
+     "id": "40135596",
+     "alta": "https://images.pexels.com/photos/40135596/pexels-photo-40135596.jpeg",
+     "pagina": "https://www.pexels.com/photo/40135596/"
+    },
+    {
+     "id": "13185303",
+     "alta": "https://images.pexels.com/photos/13185303/pexels-photo-13185303.jpeg",
+     "pagina": "https://www.pexels.com/photo/13185303/"
+    },
+    {
+     "id": "6068713",
+     "alta": "https://images.pexels.com/photos/6068713/pexels-photo-6068713.jpeg",
+     "pagina": "https://www.pexels.com/photo/6068713/"
+    },
+    {
+     "id": "32230550",
+     "alta": "https://images.pexels.com/photos/32230550/pexels-photo-32230550.jpeg",
+     "pagina": "https://www.pexels.com/photo/32230550/"
+    },
+    {
+     "id": "4109050",
+     "alta": "https://images.pexels.com/photos/4109050/pexels-photo-4109050.jpeg",
+     "pagina": "https://www.pexels.com/photo/4109050/"
+    },
+    {
+     "id": "1653877",
+     "alta": "https://images.pexels.com/photos/1653877/pexels-photo-1653877.jpeg",
+     "pagina": "https://www.pexels.com/photo/1653877/"
+    },
+    {
+     "id": "27927612",
+     "alta": "https://images.pexels.com/photos/27927612/pexels-photo-27927612.jpeg",
+     "pagina": "https://www.pexels.com/photo/27927612/"
+    },
+    {
+     "id": "3915857",
+     "alta": "https://images.pexels.com/photos/3915857/pexels-photo-3915857.jpeg",
+     "pagina": "https://www.pexels.com/photo/3915857/"
+    },
+    {
+     "id": "842519",
+     "alta": "https://images.pexels.com/photos/842519/pexels-photo-842519.jpeg",
+     "pagina": "https://www.pexels.com/photo/842519/"
+    },
+    {
+     "id": "30504703",
+     "alta": "https://images.pexels.com/photos/30504703/pexels-photo-30504703.jpeg",
+     "pagina": "https://www.pexels.com/photo/30504703/"
+    },
+    {
+     "id": "35181407",
+     "alta": "https://images.pexels.com/photos/35181407/pexels-photo-35181407.jpeg",
+     "pagina": "https://www.pexels.com/photo/35181407/"
+    },
+    {
+     "id": "7315016",
+     "alta": "https://images.pexels.com/photos/7315016/pexels-photo-7315016.jpeg",
+     "pagina": "https://www.pexels.com/photo/7315016/"
+    },
+    {
+     "id": "32291145",
+     "alta": "https://images.pexels.com/photos/32291145/pexels-photo-32291145.jpeg",
+     "pagina": "https://www.pexels.com/photo/32291145/"
+    },
+    {
+     "id": "34769483",
+     "alta": "https://images.pexels.com/photos/34769483/pexels-photo-34769483.jpeg",
+     "pagina": "https://www.pexels.com/photo/34769483/"
+    },
+    {
+     "id": "27359003",
+     "alta": "https://images.pexels.com/photos/27359003/pexels-photo-27359003.jpeg",
+     "pagina": "https://www.pexels.com/photo/27359003/"
+    },
+    {
+     "id": "35017349",
+     "alta": "https://images.pexels.com/photos/35017349/pexels-photo-35017349.jpeg",
+     "pagina": "https://www.pexels.com/photo/35017349/"
+    },
+    {
+     "id": "4109048",
+     "alta": "https://images.pexels.com/photos/4109048/pexels-photo-4109048.jpeg",
+     "pagina": "https://www.pexels.com/photo/4109048/"
+    },
+    {
+     "id": "31094831",
+     "alta": "https://images.pexels.com/photos/31094831/pexels-photo-31094831.jpeg",
+     "pagina": "https://www.pexels.com/photo/31094831/"
+    }
+   ],
+   "previa": "previas/fatias-e-puxa-queijo.jpg"
+  },
+  {
+   "categoria": "Forno a Lenha",
+   "emoji": "🔥",
+   "fotos": [
+    {
+     "id": "13366357",
+     "alta": "https://images.pexels.com/photos/13366357/pexels-photo-13366357.png",
+     "pagina": "https://www.pexels.com/photo/13366357/"
+    },
+    {
+     "id": "6697476",
+     "alta": "https://images.pexels.com/photos/6697476/pexels-photo-6697476.jpeg",
+     "pagina": "https://www.pexels.com/photo/6697476/"
+    },
+    {
+     "id": "3343622",
+     "alta": "https://images.pexels.com/photos/3343622/pexels-photo-3343622.jpeg",
+     "pagina": "https://www.pexels.com/photo/3343622/"
+    },
+    {
+     "id": "14978624",
+     "alta": "https://images.pexels.com/photos/14978624/pexels-photo-14978624.jpeg",
+     "pagina": "https://www.pexels.com/photo/14978624/"
+    },
+    {
+     "id": "32641694",
+     "alta": "https://images.pexels.com/photos/32641694/pexels-photo-32641694.jpeg",
+     "pagina": "https://www.pexels.com/photo/32641694/"
+    },
+    {
+     "id": "1878346",
+     "alta": "https://images.pexels.com/photos/1878346/pexels-photo-1878346.jpeg",
+     "pagina": "https://www.pexels.com/photo/1878346/"
+    },
+    {
+     "id": "29626981",
+     "alta": "https://images.pexels.com/photos/29626981/pexels-photo-29626981.jpeg",
+     "pagina": "https://www.pexels.com/photo/29626981/"
+    },
+    {
+     "id": "16386277",
+     "alta": "https://images.pexels.com/photos/16386277/pexels-photo-16386277.jpeg",
+     "pagina": "https://www.pexels.com/photo/16386277/"
+    },
+    {
+     "id": "3343627",
+     "alta": "https://images.pexels.com/photos/3343627/pexels-photo-3343627.jpeg",
+     "pagina": "https://www.pexels.com/photo/3343627/"
+    },
+    {
+     "id": "36707034",
+     "alta": "https://images.pexels.com/photos/36707034/pexels-photo-36707034.jpeg",
+     "pagina": "https://www.pexels.com/photo/36707034/"
+    },
+    {
+     "id": "9419406",
+     "alta": "https://images.pexels.com/photos/9419406/pexels-photo-9419406.jpeg",
+     "pagina": "https://www.pexels.com/photo/9419406/"
+    },
+    {
+     "id": "1093015",
+     "alta": "https://images.pexels.com/photos/1093015/pexels-photo-1093015.jpeg",
+     "pagina": "https://www.pexels.com/photo/1093015/"
+    },
+    {
+     "id": "16386532",
+     "alta": "https://images.pexels.com/photos/16386532/pexels-photo-16386532.jpeg",
+     "pagina": "https://www.pexels.com/photo/16386532/"
+    },
+    {
+     "id": "1566837",
+     "alta": "https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg",
+     "pagina": "https://www.pexels.com/photo/1566837/"
+    },
+    {
+     "id": "11447751",
+     "alta": "https://images.pexels.com/photos/11447751/pexels-photo-11447751.jpeg",
+     "pagina": "https://www.pexels.com/photo/11447751/"
+    },
+    {
+     "id": "36214726",
+     "alta": "https://images.pexels.com/photos/36214726/pexels-photo-36214726.jpeg",
+     "pagina": "https://www.pexels.com/photo/36214726/"
+    },
+    {
+     "id": "32641700",
+     "alta": "https://images.pexels.com/photos/32641700/pexels-photo-32641700.jpeg",
+     "pagina": "https://www.pexels.com/photo/32641700/"
+    },
+    {
+     "id": "29626980",
+     "alta": "https://images.pexels.com/photos/29626980/pexels-photo-29626980.jpeg",
+     "pagina": "https://www.pexels.com/photo/29626980/"
+    }
+   ],
+   "previa": "previas/forno-a-lenha.jpg"
+  },
+  {
+   "categoria": "Vista de Cima (variadas)",
+   "emoji": "📸",
+   "fotos": [
+    {
+     "id": "30737921",
+     "alta": "https://images.pexels.com/photos/30737921/pexels-photo-30737921.jpeg",
+     "pagina": "https://www.pexels.com/photo/30737921/"
+    },
+    {
+     "id": "16939093",
+     "alta": "https://images.pexels.com/photos/16939093/pexels-photo-16939093.jpeg",
+     "pagina": "https://www.pexels.com/photo/16939093/"
+    },
+    {
+     "id": "5903317",
+     "alta": "https://images.pexels.com/photos/5903317/pexels-photo-5903317.jpeg",
+     "pagina": "https://www.pexels.com/photo/5903317/"
+    },
+    {
+     "id": "33593003",
+     "alta": "https://images.pexels.com/photos/33593003/pexels-photo-33593003.jpeg",
+     "pagina": "https://www.pexels.com/photo/33593003/"
+    },
+    {
+     "id": "39808531",
+     "alta": "https://images.pexels.com/photos/39808531/pexels-photo-39808531.jpeg",
+     "pagina": "https://www.pexels.com/photo/39808531/"
+    },
+    {
+     "id": "40135592",
+     "alta": "https://images.pexels.com/photos/40135592/pexels-photo-40135592.jpeg",
+     "pagina": "https://www.pexels.com/photo/40135592/"
+    },
+    {
+     "id": "12046657",
+     "alta": "https://images.pexels.com/photos/12046657/pexels-photo-12046657.jpeg",
+     "pagina": "https://www.pexels.com/photo/12046657/"
+    },
+    {
+     "id": "33592997",
+     "alta": "https://images.pexels.com/photos/33592997/pexels-photo-33592997.jpeg",
+     "pagina": "https://www.pexels.com/photo/33592997/"
+    },
+    {
+     "id": "15832884",
+     "alta": "https://images.pexels.com/photos/15832884/pexels-photo-15832884.jpeg",
+     "pagina": "https://www.pexels.com/photo/15832884/"
+    },
+    {
+     "id": "18333716",
+     "alta": "https://images.pexels.com/photos/18333716/pexels-photo-18333716.jpeg",
+     "pagina": "https://www.pexels.com/photo/18333716/"
+    },
+    {
+     "id": "14866675",
+     "alta": "https://images.pexels.com/photos/14866675/pexels-photo-14866675.jpeg",
+     "pagina": "https://www.pexels.com/photo/14866675/"
+    },
+    {
+     "id": "40135554",
+     "alta": "https://images.pexels.com/photos/40135554/pexels-photo-40135554.jpeg",
+     "pagina": "https://www.pexels.com/photo/40135554/"
+    },
+    {
+     "id": "12529119",
+     "alta": "https://images.pexels.com/photos/12529119/pexels-photo-12529119.jpeg",
+     "pagina": "https://www.pexels.com/photo/12529119/"
+    },
+    {
+     "id": "11111603",
+     "alta": "https://images.pexels.com/photos/11111603/pexels-photo-11111603.jpeg",
+     "pagina": "https://www.pexels.com/photo/11111603/"
+    },
+    {
+     "id": "12557604",
+     "alta": "https://images.pexels.com/photos/12557604/pexels-photo-12557604.jpeg",
+     "pagina": "https://www.pexels.com/photo/12557604/"
+    }
+   ],
+   "previa": "previas/vista-de-cima-variadas.jpg"
+  }
+ ]
+}
