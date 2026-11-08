@@ -120,3 +120,9 @@ Ele mandou prints das páginas completas desses pins e disse: **"isso é o que c
 
 **Tradução para a Orégano Turbo e para os clientes:** cada entrega tem 1 imagem-campanha principal com produto, pessoa ou mão em flash sobre cor chapada; o sistema de marca (selos, padrão, mascote ou símbolo) aparece aplicado em objetos reais; e a manchete é gorda, curta e com atitude.
 
+
+## Atualização 08/11: pesquisa de identidades premiadas e artes para redes (conta Lindson)
+Em `PESQUISA-08-11-IDENTIDADES-E-SOCIAL.md`:
+- as 10 identidades de pizzaria de referência (Can Pizza, Starita, Domino's 2025, PizzaExpress, All-Purpose, D.O.C, Pistill', Like Pizza, Little Tommy's, Celentano), com estúdio e lição de cada uma;
+- 10 estilos de arte para redes sociais;
+- a curadoria do Pinterest "social media pizzaria" (10 destaques e o padrão a evitar).
