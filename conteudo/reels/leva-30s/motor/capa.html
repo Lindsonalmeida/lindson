@@ -1,0 +1,53 @@
+<!doctype html><html><head><meta charset="utf-8">
+<!-- Capa 1080×1920 dos Reels da leva de 30 s (08/11/2026). Feed xadrez: capa_cor = amarelo | preto.
+     Amarelo = modelo APROVADO c2y (amarelo com textura, palavra gigante preta atrás, Lindson recortado na frente,
+     degradê preto embaixo com manchete branca + palavra em caixa amarela). Preto = fundo escuro com a foto colorida,
+     amarelo só no acento (regra de 03/11). Tudo o que importa fica no miolo 1080×1350 (y 285–1635), que é o que o grid 4:5 mostra. -->
+<style>
+@font-face{font-family:Anton;src:url(fontes/anton.woff2)}
+@font-face{font-family:Manrope;src:url(fontes/manrope.woff2);font-weight:200 800}
+@font-face{font-family:Mono;src:url(fontes/jbmono.woff2);font-weight:700}
+*{margin:0;box-sizing:border-box}
+body{width:1080px;height:1920px;overflow:hidden;position:relative;font-family:Manrope}
+.abs{position:absolute}
+#bg{inset:0}
+#tex{inset:0;opacity:.5;mix-blend-mode:multiply}
+#word{left:-60px;right:-60px;text-align:center;font-family:Anton;text-transform:uppercase;line-height:.82;letter-spacing:-.01em;white-space:nowrap}
+#foto{transform-origin:50% 0}
+#fade{left:0;right:0;bottom:0;height:900px}
+#head{left:80px;right:80px;text-align:left;font:800 74px/1.06 Manrope;color:#fff;letter-spacing:-.02em}
+#head b{display:inline-block;background:#F5C518;color:#0B0B0B;padding:0 .16em;border-radius:.08em;font-family:Anton;font-weight:400;text-transform:uppercase;letter-spacing:.01em;font-size:1.25em;line-height:1.05;margin-top:10px}
+#tag{left:80px;font:700 24px Mono;letter-spacing:.2em;text-transform:uppercase;padding:10px 16px;border-radius:8px}
+#handle{right:80px;font:700 22px Mono;letter-spacing:.16em}
+#guia{left:0;right:0;top:285px;height:1350px;outline:3px dashed rgba(255,0,0,.8);display:none}
+#grain{inset:0;width:1080px;height:1920px;mix-blend-mode:overlay;opacity:.18}
+</style></head><body>
+<div id="bg" class="abs"></div><canvas id="tex" class="abs" width="540" height="960"></canvas>
+<div id="word" class="abs"></div><img id="foto" class="abs"><div id="fade" class="abs"></div>
+<div id="tag" class="abs"></div><div id="head" class="abs"></div><div id="handle" class="abs">@lindsonalmeida_</div>
+<canvas id="grain" class="abs" width="540" height="960"></canvas><div id="guia" class="abs"></div>
+<script>
+const C=__CAPA__;const Y='#F5C518',K='#0B0B0B';const am=C.cor==='amarelo';
+const $=id=>document.getElementById(id);
+// fundo
+$('bg').style.background=am?`radial-gradient(80% 55% at 50% 38%,#ffd84a,${Y} 55%,#d9a90a)`:`radial-gradient(60% 40% at 50% 36%,#6b4d06,#2a1f05 40%,${K} 75%)`;
+// textura (papel/granulado) só no amarelo
+{const c=$('tex').getContext('2d'),d=c.createImageData(540,960);let s=7;const r=()=>(s=(s*9301+49297)%233280)/233280;for(let i=0;i<d.data.length;i+=4){const v=200+r()*55;d.data[i]=d.data[i+1]=d.data[i+2]=v;d.data[i+3]=255}c.putImageData(d,0,0);if(!am)$('tex').style.display='none'}
+{const c=$('grain').getContext('2d'),d=c.createImageData(540,960);let s=3;const r=()=>(s=(s*9301+49297)%233280)/233280;for(let i=0;i<d.data.length;i+=4){const v=r()*255;d.data[i]=d.data[i+1]=d.data[i+2]=v;d.data[i+3]=255}c.putImageData(d,0,0)}
+// palavra gigante atrás dele
+const w=$('word');w.textContent=C.palavra;w.style.top=(C.wordTop??330)+'px';w.style.fontSize=(C.wordSize??560)+'px';
+if(am){w.style.color=K}else{w.style.background='linear-gradient(180deg,#ffe27a,#F5C518 45%,#a87c00)';w.style.webkitBackgroundClip='text';w.style.color='transparent';w.style.filter='drop-shadow(0 0 60px rgba(245,197,24,.25))'}
+// foto recortada (colorida), posicionada pelo rosto, base escondida no degradê
+const f=$('foto');f.src=C.foto;f.style.left=(C.fx??60)+'px';f.style.top=(C.fy??420)+'px';f.style.width=(C.fw??960)+'px';if(C.espelhar)f.style.transform='scaleX(-1)';
+f.style.filter=am?'drop-shadow(0 30px 50px rgba(0,0,0,.35))':'drop-shadow(0 0 80px rgba(245,197,24,.18))';
+$('fade').style.background='linear-gradient(180deg,rgba(11,11,11,0),rgba(11,11,11,.88) 34%,#0B0B0B 60%)';
+// manchete + palavra em caixa amarela (dentro do miolo 4:5)
+$('head').innerHTML=`${C.manchete} <br><b>${C.caixa}</b>`;$('head').style.top=(C.headTop??1300)+'px';
+$('tag').textContent=C.rotulo||'';$('tag').style.top=(C.tagTop??1238)+'px';$('tag').style.background=Y;$('tag').style.color=K;if(!C.rotulo)$('tag').style.display='none';
+$('handle').style.top='1580px';$('handle').style.color='rgba(255,255,255,.6)';
+if(C.guia)$('guia').style.display='block';
+// cabe sem cortar: reduz a palavra gigante até caber na largura
+document.fonts.ready.then(()=>{let s=parseFloat(w.style.fontSize);while(w.scrollWidth>1200&&s>200){s-=10;w.style.fontSize=s+'px'}
+ const h=$('head');let hs=74;while(h.offsetTop+h.offsetHeight>1620&&hs>48){hs-=2;h.style.fontSize=hs+'px'}
+ Promise.all([f.decode().catch(()=>{})]).then(()=>setTimeout(()=>window.ready=true,200))});
+</script></body></html>
