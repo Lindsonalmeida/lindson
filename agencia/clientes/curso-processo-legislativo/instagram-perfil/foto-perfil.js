@@ -14,8 +14,8 @@ const pessoas = (top, h) => { // dupla centralizada: largura do par = deslocamen
   return `<img class="abs pes" src="${R}" style="left:${x + d}px;top:${top + 20}px;height:${hR}px"><img class="abs pes" src="${T}" style="left:${x}px;top:${top}px;height:${h}px">
   <div class="abs" style="left:0;right:0;bottom:0;height:150px;background:linear-gradient(180deg,transparent,${C.v})"></div>`; };
 const OP = {
-  // v3 (Lindson: "use a foto deles maior e o nome em uma camada na frente deles, com degradê")
-  'foto-perfil-c-nome-frente.png': `<div class="a">${pessoas(150, 960)}
+  // v4: fundo com o símbolo em marca d'água (Lindson: "melhore só esse fundo, use o logo em marca d'água"). v3 (Lindson: "use a foto deles maior e o nome em uma camada na frente deles, com degradê")
+  'foto-perfil-c-nome-frente.png': `<div class="a"><div class="abs" style="left:-110px;top:-400px;opacity:.2">${simb(1300)}</div>${pessoas(150, 960)}
     <div class="abs" style="left:0;right:0;top:560px;height:520px;background:linear-gradient(180deg,rgba(10,31,23,0) 0%,rgba(10,31,23,.78) 38%,${C.v} 70%)"></div>
     <div class="abs" style="left:0;right:0;top:700px;text-align:center;line-height:.92">
       <div style="font:800 118px 'Inter Tight';letter-spacing:-.045em;color:${C.cr}">Processo</div>
