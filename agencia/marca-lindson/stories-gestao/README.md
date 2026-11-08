@@ -17,3 +17,8 @@ Publicadas no @lindsonalmeida_ em 08/11 pelo Windsor: s01, s02, s03. **s04 e s05
 ## Correção do recorte (08/11, pedido do Lindson: "a imagem tem problema no recorte da minha foto")
 - O recorte de c07 e c08 é cortado embaixo (tira as mãos e a mesa, que ficavam soltas) e a borda é limpa (erosão de 1 px e desfoque de 1,2 px no alfa), gerando `recorte-limpo.png`.
 - A borda cortada fica sempre fora da arte: na tela 1, embaixo do degradê preto; na tela 2, abaixo da borda da tela. Mesma regra do `gerar6.py` do Leo.
+
+## Publicadas (08/11/2026)
+- `publicadas/raio-x-01.jpg`, `02`, `03`: no ar no @lindsonalmeida_ pelo Windsor, aprovadas pelo Lindson ("perfeita sempre").
+- Próximas sequências: em vídeo com música (ver memória de 08/11 e `../stories-sites/README.md`, seção de vídeos).
+
