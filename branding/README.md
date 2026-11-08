@@ -1,3 +1,5 @@
+> **Decisão do Lindson (08/11/2026): só a identidade preto e amarelo vale.** Esta pasta (azul e âmbar) fica como histórico e não é mais usada em peças. A identidade oficial está em `agencia/marca-lindson/` (preto `#0A0A0A`, amarelo `#F5C518`, Anton e Manrope).
+
 Identidade visual de **Lindson Almeida**: conteudista há 14 anos, assessor político e profissional de marketing digital em São Luís, Maranhão. Ela nasceu no mini site da bio (`lindsonalmeida.github.io/lindson/links`) e nos Stories de venda desse mini site, e serve para tudo o que for publicado no Instagram.
 
 ## Essência
