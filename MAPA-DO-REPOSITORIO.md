@@ -29,7 +29,7 @@ Branch principal: `claude/global-agent-installation-vdyowf`. Outros branches: `e
 | `identidade-oferta.md` | Identidade dos posts de oferta (estilo lançamento) |
 | `contratos/`, `propostas/` | Dados pessoais e de clientes: **fora do GitHub** (peça ao Lindson) |
 
-## Marca do Lindson (`branding/`)
+## Marca do Lindson (`branding/`: **apagada em 08/11/2026 a pedido do Lindson**; a identidade oficial é a preto e amarelo em `agencia/marca-lindson/`; a pasta antiga pode ser recuperada pelo histórico do git)
 Brand book, componentes (Cover, LinkCard, StatStrip…), modelos e guia de Instagram (`instagram.md`).
 
 ## Conteúdo (`conteudo/`)

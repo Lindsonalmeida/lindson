@@ -33,7 +33,9 @@ Página de links da bio do Instagram de **Lindson Almeida** (@lindsonalmeida_).
 
 ## Identidade visual
 
-O branding book completo está em `branding/` (`README.md`, `instagram.md`, `tokens.json` e os componentes). `branding/modelos/stories.html` é o arquivo-fonte dos 4 Stories, para criar novas peças no mesmo estilo.
+> **08/11/2026:** a pasta `branding/` (identidade azul e âmbar) foi apagada a pedido do Lindson. Vale só a identidade preto e amarelo (`agencia/marca-lindson/`). O texto abaixo é histórico.
+
+O branding book completo estava em `branding/` (`README.md`, `instagram.md`, `tokens.json` e os componentes). `branding/modelos/stories.html` é o arquivo-fonte dos 4 Stories, para criar novas peças no mesmo estilo.
 
 ## Brand book
 
