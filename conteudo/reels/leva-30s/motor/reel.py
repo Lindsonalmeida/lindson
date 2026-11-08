@@ -71,8 +71,19 @@ for i in range(len(tw)):
         prv = next((tw[j][1] for j in range(i - 1, -1, -1) if tw[j]), V0)
         nxt = next((tw[j][0] for j in range(i + 1, len(tw)) if tw[j]), prv + .3)
         tw[i] = (prv + .02, max(prv + .05, (prv + nxt) / 2))
+ic = next((k for k, c in enumerate(cenas) if norm(R['cta_palavra']) in [norm(w) for w in c['narracao'].split()]), None)
 fim_voz = V0 + len(audio) / S
-TOTAL = max(P.get('total', 30.0), fim_voz + 1.0)
+CAUDA = P.get('cauda', 1.3)
+if ic is not None:  # a CTA ganha fôlego: silêncio inserido antes dela e segurado depois da palavra
+    i_cta = next(i for i, (kk, _) in enumerate(toks) if kk == ic)
+    folga = max(0.0, min(P.get('pausa_cta', 1.2), 30.0 - (fim_voz + CAUDA)))
+    i_end = next((i for i, (kk, _) in enumerate(toks) if kk == ic + 1), None)
+    if folga > .05 and i_end is not None:
+        tc = tw[i_end][0] - .12; ins = int((tc - V0) * S)
+        audio = np.concatenate([audio[:ins], np.zeros(int(folga * S), np.float32), audio[ins:]])
+        tw = [(x + folga, y + folga) if x >= tc else (x, y) for x, y in tw]
+        fim_voz += folga
+TOTAL = min(30.5, max(P.get('total_min', 20.0), fim_voz + CAUDA))
 segs = []
 for k, c in enumerate(cenas):
     idx = [i for i, (kk, _) in enumerate(toks) if kk == k]
@@ -111,11 +122,18 @@ for k, (s, c) in enumerate(zip(segs, cenas)):
     if s['tipo'] == 'cta':
         s['palavra'] = R['cta_palavra']; s['entrega'] = P.get('entrega', R['entrega_no_video'])
         s['pillAt'] = quando(R['cta_palavra'], .8)
-        if s.get('foto'): shutil.copy(os.path.join(FOTOS, s['foto']), os.path.join(W, os.path.basename(s['foto']))); s['foto'] = os.path.basename(s['foto'])
+        if s.get('foto') and not s.get('lipsync'): shutil.copy(os.path.join(FOTOS, s['foto']), os.path.join(W, os.path.basename(s['foto']))); s['foto'] = os.path.basename(s['foto'])
     if s['tipo'] == 'perfil' and s.get('modo') == 'bio':
         s['riscos'] = s.get('riscos') or [x for x in (quando(y) for y in s.get('riscar_em', [])) if x is not None] or None
-    for key in ('extraAt', 'badgeAt', 'freeze'):
+    for key in ('extraAt', 'badgeAt', 'freeze', 'riscoAt', 'carimboAt', 'cartaoAt', 'digitarAt'):
         if isinstance(s.get(key), str): s[key] = quando(s[key], None if key == 'freeze' else .3)
+    if s.get('tempos_em'):  # itens de lista/conversa entram quando a palavra é dita
+        last = .2; ts = []
+        for x in s.pop('tempos_em'):
+            t = x if isinstance(x, (int, float)) else quando(x); t = t if t is not None else last + .45; last = t; ts.append(round(t, 3))
+        s['tempos'] = ts
+    if s.get('foto') and s['tipo'] == 'foto':
+        shutil.copy(os.path.join(FOTOS, s['foto']), os.path.join(W, os.path.basename(s['foto']))); s['foto'] = os.path.basename(s['foto'])
     # SFX da ficha: [palavra|segundos, som, ganho]
     sx = []
     for at, kind, g in s.get('sons', []):
@@ -168,7 +186,8 @@ for(let f=0;f<%d;f+=%d){await p.evaluate(t=>window.render(t),f/30);await p.scree
 await b.close()})();""" % (CH, W, W, W, n, a.step, W)
 open(W + '/r.js', 'w').write(js); subprocess.run(['node', W + '/r.js'], check=True, env={**os.environ, 'NODE_PATH': NODE})
 # 6 quadros de conferência: meio das cenas principais
-alvo = P.get('conferir') or [segs[i]['s'] + (segs[i]['e'] - segs[i]['s']) * .7 for i in range(len(segs))][:6]
+ii = sorted(set(round(x * (len(segs) - 1) / 5) for x in range(6)))
+alvo = P.get('conferir') or [segs[i]['s'] + (segs[i]['e'] - segs[i]['s']) * .7 for i in ii]
 for j, t in enumerate(alvo[:6]):
     f = int(t * FPS) // a.step * a.step
     shutil.copy(W + f'/fr/{f:05d}.jpg', OUT + f'/quadros/q{j+1}-{t:05.2f}s.jpg')
