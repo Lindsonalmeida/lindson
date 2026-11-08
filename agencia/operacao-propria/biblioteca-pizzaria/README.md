@@ -126,3 +126,23 @@ Em `PESQUISA-08-11-IDENTIDADES-E-SOCIAL.md`:
 - as 10 identidades de pizzaria de referência (Can Pizza, Starita, Domino's 2025, PizzaExpress, All-Purpose, D.O.C, Pistill', Like Pizza, Little Tommy's, Celentano), com estúdio e lição de cada uma;
 - 10 estilos de arte para redes sociais;
 - a curadoria do Pinterest "social media pizzaria" (10 destaques e o padrão a evitar).
+
+## Atualização 08/11: lote de 107 referências novas do Pinterest (conta Lindson)
+Em `pinterest/img/lote08-<tipo>-NN.jpg`. A lista com o link de cada pin, a busca e o título está em `pinterest/pins-lote-08-11.json`, e a visão geral em `pinterest/folha-lote-08-11.jpg`. As repetidas, inclusive as que já estavam na biblioteca, foram tiradas.
+
+| Tipo | Busca | Qtd |
+|---|---|---|
+| `post` | post pizzaria instagram criativo | 13 |
+| `carrossel` | carrossel pizzaria instagram (feeds completos) | 15 |
+| `story` | stories pizzaria design | 16 |
+| `cardapio` | cardápio pizzaria design | 16 |
+| `caixa` | pizza box packaging design | 16 |
+| `social` | pizza social media design behance | 15 |
+| `fachada` | fachada pizzaria moderna | 16 |
+
+**Destaques:**
+- **post:** `post-06` ("Hoje eu vou comer PIZZA", foto real); `post-11` ("O segredo é tradição", forno e fermentação).
+- **carrossel:** `carrossel-04` (feed vinho "Pizza Pizza"); `carrossel-11` (Pizza Rua, urbano xadrez).
+- **story:** `story-09` ("Olhe para a borda", premium escuro); `story-07` (mulher comendo, letra cursiva).
+- **caixa:** `caixa-02` (Impasto, ilustração); `caixa-03` (Oven & Slice, preta premium); `caixa-11` (Pizzeta, azul tipográfica).
+- **fachada:** `fachada-03` (Decas, neon noturno); `fachada-08` (Gracey's, letreiro pintado).
