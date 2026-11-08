@@ -9,15 +9,17 @@ const C = { v: '#0A1F17', v2: '#123528', cr: '#EFE6D4', la: '#C8A96B', la2: '#E6
 const simb = (t) => `<svg width="${t}" height="${t}" viewBox="0 0 200 200"><path d="M 36 146 A 64 64 0 0 1 164 146" fill="none" stroke="${C.la}" stroke-width="8" stroke-linecap="round"/><path d="M 62 146 A 38 38 0 0 1 138 146" fill="none" stroke="${C.la}" stroke-opacity=".45" stroke-width="6" stroke-linecap="round"/><text x="100" y="134" text-anchor="middle" font-family="Instrument Serif" font-style="italic" font-size="100" fill="${C.la2}">§</text></svg>`;
 const base = `*{margin:0;padding:0;box-sizing:border-box}html,body{background:#000}.a{position:relative;width:1080px;height:1080px;overflow:hidden;background:radial-gradient(ellipse at 50% 30%,#1B4434,${C.v} 72%)}.abs{position:absolute}
 .pes{filter:drop-shadow(0 24px 30px rgba(0,0,0,.55)) saturate(.92) contrast(1.06) sepia(.1)}.it{font-family:'Instrument Serif';font-style:italic;color:${C.la2}}`;
-const pessoas = (top, h) => `<img class="abs pes" src="${R}" style="left:540px;top:${top + 20}px;height:${h * .95}px"><img class="abs pes" src="${T}" style="left:150px;top:${top}px;height:${h}px">
-  <div class="abs" style="left:0;right:0;bottom:0;height:150px;background:linear-gradient(180deg,transparent,${C.v})"></div>`;
+const pessoas = (top, h) => { // dupla centralizada: largura do par = deslocamento + largura do Rafael (proporções dos recortes)
+  const wT = h * 1098 / 1186, hR = h * .95, wR = hR * 797 / 1068, d = wT * .47, x = (1080 - (d + wR)) / 2;
+  return `<img class="abs pes" src="${R}" style="left:${x + d}px;top:${top + 20}px;height:${hR}px"><img class="abs pes" src="${T}" style="left:${x}px;top:${top}px;height:${h}px">
+  <div class="abs" style="left:0;right:0;bottom:0;height:150px;background:linear-gradient(180deg,transparent,${C.v})"></div>`; };
 const OP = {
-  'foto-perfil-a-nome.png': `<div class="a">${pessoas(400, 760)}
-    <div class="abs" style="left:0;right:0;top:150px;text-align:center;line-height:.95">
-      <div style="font:800 112px 'Inter Tight';letter-spacing:-.04em;color:${C.cr}">Processo</div>
+  // v3 (Lindson: "use a foto deles maior e o nome em uma camada na frente deles, com degradê")
+  'foto-perfil-c-nome-frente.png': `<div class="a">${pessoas(150, 960)}
+    <div class="abs" style="left:0;right:0;top:560px;height:520px;background:linear-gradient(180deg,rgba(10,31,23,0) 0%,rgba(10,31,23,.78) 38%,${C.v} 70%)"></div>
+    <div class="abs" style="left:0;right:0;top:700px;text-align:center;line-height:.92">
+      <div style="font:800 118px 'Inter Tight';letter-spacing:-.045em;color:${C.cr}">Processo</div>
       <div class="it" style="font-size:132px;letter-spacing:-.01em">Legislativo</div></div></div>`,
-  'foto-perfil-b-logo.png': `<div class="a">${pessoas(430, 730)}
-    <div class="abs" style="left:0;right:0;top:120px;display:flex;justify-content:center">${simb(330)}</div></div>`,
 };
 (async () => {
   const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: 1080, height: 1080 } });
