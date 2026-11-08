@@ -1,0 +1,25 @@
+{
+ "_nota": "Ficha de produção do L30-01 (piloto, 08/11/2026). Fotos em ../fotos/ (fora do Git). Estilos do catálogo agencia/biblioteca-motion: #41 #25 #28 #39 #35 #152 #36 #163 #166 #169 #173 #176 #48 #103.",
+ "trilha": "trap-electro-vibes-112bpm.mp3",
+ "trilha_ini": 4.0,
+ "beat_sync": true,
+ "voz_rate": "+8%",
+ "entrega": "O teste dos 3 segundos: foto que mostra quem atende, bio que diz o que o cliente ganha e botão pro WhatsApp.",
+ "capa": {
+  "foto": "c16-rec2.png", "fx": 0, "fy": 170, "fw": 1080,
+  "palavra": "SAIU", "wordTop": 300, "wordSize": 600,
+  "manchete": "Ele entrou no seu perfil e", "caixa": "saiu em 3 s",
+  "rotulo": "POV · seu perfil", "headTop": 1330, "tagTop": 1262,
+  "preto": {}
+ },
+ "cenas": [
+  {"tipo": "banco", "clip": "rolando-feed-cama", "texto": ["Entrou.", "Saiu."], "hl": [1], "vfx": ["punch"], "hit": ["saiu"], "drop": true, "size": 240, "top": 560},
+  {"tipo": "contador", "de": 3, "texto": ["Por", "quê?"], "passo": 0.38},
+  {"tipo": "perfil", "modo": "foto", "n": 1, "rotulo": "A foto", "texto": [], "vfx": ["leak"], "badgeAt": "Um:"},
+  {"tipo": "perfil", "modo": "bio", "n": 2, "rotulo": "A bio", "texto": [], "badgeAt": "Dois:", "riscar_em": ["bio.", "você,", "ganha."]},
+  {"tipo": "impacto", "texto": ["O", "pior…"], "vfx": ["punch"], "flash": true, "hit": ["terceiro"], "riser": true, "size": 300, "top": 660},
+  {"tipo": "banco", "clip": "maos-digitando-celular", "extra": "wa-some", "extraAt": "acha", "texto": ["3 ·", "Sem", "caminho", "pro", "zap"], "ancoras": {"3 ·": "Nenhum", "Sem": "Nenhum", "zap": "WhatsApp."}, "hl": [4], "vfx": ["glitch"], "hit": ["acha"], "som_hit": "glitch-quebra", "size": 170, "top": 520},
+  {"tipo": "cta", "foto": "c13-rec-site.png", "fx": 90, "fy": 340, "fw": 900, "etiquetas": ["Avaliação grátis", "São Luís · MA"], "faixa": "comenta PERFIL", "vfx": ["leak"]},
+  {"tipo": "banco", "clip": "rolando-feed-cama", "texto": ["Entrou.", "Saiu."], "hl": [1], "vfx": ["punch"], "hit": ["saia."], "freeze": "saia.", "size": 240, "top": 560}
+ ]
+}

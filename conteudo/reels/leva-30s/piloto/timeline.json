@@ -1,0 +1,618 @@
+{
+ "segs": [
+  {
+   "tipo": "banco",
+   "clip": "rolando-feed-cama",
+   "texto": [
+    "Entrou.",
+    "Saiu."
+   ],
+   "hl": [
+    1
+   ],
+   "vfx": [
+    "punch"
+   ],
+   "hit": [
+    "saiu"
+   ],
+   "drop": true,
+   "size": 240,
+   "top": 560,
+   "s": 0.0,
+   "words": [
+    [
+     "Ele",
+     0.25
+    ],
+    [
+     "entrou",
+     0.395
+    ],
+    [
+     "no",
+     0.73
+    ],
+    [
+     "seu",
+     0.835
+    ],
+    [
+     "perfil.",
+     1.031
+    ],
+    [
+     "E",
+     1.746
+    ],
+    [
+     "saiu",
+     1.862
+    ],
+    [
+     "em",
+     2.232
+    ],
+    [
+     "três",
+     2.359
+    ],
+    [
+     "segundos.",
+     2.637
+    ]
+   ],
+   "e": 3.228,
+   "head": [
+    [
+     "Entrou.",
+     0.395
+    ],
+    [
+     "Saiu.",
+     1.862
+    ]
+   ],
+   "hits": [
+    1.862
+   ],
+   "sfx": [
+    [
+     1.862,
+     "impacto-intro",
+     1.0
+    ]
+   ]
+  },
+  {
+   "tipo": "contador",
+   "de": 3,
+   "texto": [
+    "Por",
+    "quê?"
+   ],
+   "passo": 0.38,
+   "s": 3.228,
+   "words": [
+    [
+     "E",
+     3.491
+    ],
+    [
+     "nem",
+     3.595
+    ],
+    [
+     "te",
+     3.861
+    ],
+    [
+     "disse",
+     3.988
+    ],
+    [
+     "por",
+     4.324
+    ],
+    [
+     "quê.",
+     4.509
+    ]
+   ],
+   "e": 4.844,
+   "head": [
+    [
+     "Por",
+     1.096
+    ],
+    [
+     "quê?",
+     1.281
+    ]
+   ],
+   "hits": [],
+   "vfx": [],
+   "sfx": []
+  },
+  {
+   "tipo": "perfil",
+   "modo": "foto",
+   "n": 1,
+   "rotulo": "A foto",
+   "texto": [],
+   "vfx": [
+    "leak"
+   ],
+   "badgeAt": 0.16,
+   "s": 4.844,
+   "words": [
+    [
+     "Um:",
+     5.004
+    ],
+    [
+     "a",
+     5.455
+    ],
+    [
+     "foto.",
+     5.559
+    ],
+    [
+     "Escura,",
+     6.239
+    ],
+    [
+     "de",
+     7.023
+    ],
+    [
+     "longe.",
+     7.162
+    ],
+    [
+     "Ninguém",
+     7.853
+    ],
+    [
+     "sabe",
+     8.339
+    ],
+    [
+     "quem",
+     8.664
+    ],
+    [
+     "atende.",
+     8.849
+    ]
+   ],
+   "e": 9.265,
+   "head": [],
+   "hits": [],
+   "sfx": []
+  },
+  {
+   "tipo": "perfil",
+   "modo": "bio",
+   "n": 2,
+   "rotulo": "A bio",
+   "texto": [],
+   "badgeAt": 0.287,
+   "riscar_em": [
+    "bio.",
+    "você,",
+    "ganha."
+   ],
+   "s": 9.265,
+   "words": [
+    [
+     "Dois:",
+     9.552
+    ],
+    [
+     "a",
+     10.278
+    ],
+    [
+     "bio.",
+     10.37
+    ],
+    [
+     "Fala",
+     10.923
+    ],
+    [
+     "de",
+     11.282
+    ],
+    [
+     "você,",
+     11.386
+    ],
+    [
+     "não",
+     12.043
+    ],
+    [
+     "do",
+     12.297
+    ],
+    [
+     "que",
+     12.448
+    ],
+    [
+     "ele",
+     12.563
+    ],
+    [
+     "ganha.",
+     12.725
+    ]
+   ],
+   "e": 13.164,
+   "head": [],
+   "hits": [],
+   "vfx": [],
+   "riscos": [
+    1.105,
+    2.121,
+    3.46
+   ],
+   "sfx": []
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "O",
+    "pior…"
+   ],
+   "vfx": [
+    "punch"
+   ],
+   "flash": true,
+   "hit": [
+    "terceiro"
+   ],
+   "riser": true,
+   "size": 300,
+   "top": 660,
+   "s": 13.164,
+   "words": [
+    [
+     "E",
+     13.324
+    ],
+    [
+     "o",
+     13.452
+    ],
+    [
+     "terceiro",
+     13.521
+    ],
+    [
+     "é",
+     14.042
+    ],
+    [
+     "o",
+     14.123
+    ],
+    [
+     "que",
+     14.181
+    ],
+    [
+     "mais",
+     14.32
+    ],
+    [
+     "espanta.",
+     14.563
+    ]
+   ],
+   "e": 15.264,
+   "head": [
+    [
+     "O",
+     0.288
+    ],
+    [
+     "pior…",
+     0.588
+    ]
+   ],
+   "hits": [
+    0.357
+   ],
+   "sfx": [
+    [
+     0.357,
+     "impacto-intro",
+     1.0
+    ],
+    [
+     0.357,
+     "riser-tech",
+     0.8
+    ]
+   ]
+  },
+  {
+   "tipo": "banco",
+   "clip": "maos-digitando-celular",
+   "extra": "wa-some",
+   "extraAt": 2.916,
+   "texto": [
+    "3 ·",
+    "Sem",
+    "caminho",
+    "pro",
+    "zap"
+   ],
+   "ancoras": {
+    "3 ·": "Nenhum",
+    "Sem": "Nenhum",
+    "zap": "WhatsApp."
+   },
+   "hl": [
+    4
+   ],
+   "vfx": [
+    "glitch"
+   ],
+   "hit": [
+    "acha"
+   ],
+   "som_hit": "glitch-quebra",
+   "size": 170,
+   "top": 520,
+   "s": 15.264,
+   "words": [
+    [
+     "Nenhum",
+     15.424
+    ],
+    [
+     "caminho",
+     15.753
+    ],
+    [
+     "pro",
+     16.1
+    ],
+    [
+     "WhatsApp.",
+     16.251
+    ],
+    [
+     "Ele",
+     17.15
+    ],
+    [
+     "quer",
+     17.335
+    ],
+    [
+     "chamar",
+     17.532
+    ],
+    [
+     "e",
+     17.879
+    ],
+    [
+     "não",
+     17.937
+    ],
+    [
+     "acha",
+     18.18
+    ],
+    [
+     "onde.",
+     18.481
+    ]
+   ],
+   "e": 18.897,
+   "head": [
+    [
+     "3 ·",
+     0.16
+    ],
+    [
+     "Sem",
+     0.16
+    ],
+    [
+     "caminho",
+     0.489
+    ],
+    [
+     "pro",
+     0.836
+    ],
+    [
+     "zap",
+     0.987
+    ]
+   ],
+   "hits": [
+    2.916
+   ],
+   "sfx": [
+    [
+     2.916,
+     "glitch-quebra",
+     1.0
+    ]
+   ]
+  },
+  {
+   "tipo": "cta",
+   "foto": "c13-rec-site.png",
+   "fx": 90,
+   "fy": 340,
+   "fw": 900,
+   "etiquetas": [
+    "Avaliação grátis",
+    "São Luís · MA"
+   ],
+   "faixa": "comenta PERFIL",
+   "vfx": [
+    "leak"
+   ],
+   "s": 18.897,
+   "words": [
+    [
+     "Comenta",
+     19.057
+    ],
+    [
+     "PERFIL",
+     19.508
+    ],
+    [
+     "que",
+     19.937
+    ],
+    [
+     "eu",
+     20.029
+    ],
+    [
+     "olho",
+     20.191
+    ],
+    [
+     "o",
+     20.469
+    ],
+    [
+     "seu",
+     20.515
+    ],
+    [
+     "e",
+     20.758
+    ],
+    [
+     "te",
+     20.793
+    ],
+    [
+     "digo",
+     20.932
+    ],
+    [
+     "o",
+     21.21
+    ],
+    [
+     "que",
+     21.256
+    ],
+    [
+     "ajustar.",
+     21.36
+    ]
+   ],
+   "e": 21.926,
+   "head": [
+    [
+     "Comenta",
+     0.16
+    ],
+    [
+     "PERFIL",
+     0.611
+    ]
+   ],
+   "hits": [],
+   "palavra": "PERFIL",
+   "entrega": "O teste dos 3 segundos: foto que mostra quem atende, bio que diz o que o cliente ganha e botão pro WhatsApp.",
+   "pillAt": 0.611,
+   "sfx": []
+  },
+  {
+   "tipo": "banco",
+   "clip": "rolando-feed-cama",
+   "texto": [
+    "Entrou.",
+    "Saiu."
+   ],
+   "hl": [
+    1
+   ],
+   "vfx": [
+    "punch"
+   ],
+   "hit": [
+    "saia."
+   ],
+   "freeze": 1.758,
+   "size": 240,
+   "top": 560,
+   "s": 21.926,
+   "words": [
+    [
+     "Antes",
+     22.086
+    ],
+    [
+     "que",
+     22.457
+    ],
+    [
+     "o",
+     22.549
+    ],
+    [
+     "próximo",
+     22.607
+    ],
+    [
+     "entre…",
+     23.07
+    ],
+    [
+     "e",
+     23.614
+    ],
+    [
+     "saia.",
+     23.684
+    ]
+   ],
+   "e": 30.0,
+   "head": [
+    [
+     "Entrou.",
+     0.08
+    ],
+    [
+     "Saiu.",
+     0.38
+    ]
+   ],
+   "hits": [
+    1.758
+   ],
+   "sfx": [
+    [
+     1.758,
+     "impacto-intro",
+     1.0
+    ]
+   ]
+  }
+ ],
+ "total": 30.0,
+ "clips": {
+  "rolando-feed-cama": 150,
+  "maos-digitando-celular": 150
+ },
+ "rascunho": "RASCUNHO · VOZ PROVISÓRIA"
+}

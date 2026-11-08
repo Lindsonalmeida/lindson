@@ -80,6 +80,16 @@ for k, c in enumerate(cenas):
     pr = dict(prod[k]) if k < len(prod) else {}
     words = [[toks[i][1], round(tw[i][0], 3)] for i in idx]
     segs.append(dict(pr, s=round(s0, 3), words=words, _idx=idx))
+# #166 corte no beat: puxa cada corte para a batida mais próxima da trilha (janela -0,15 s / +0,08 s)
+if P.get('beat_sync'):
+    try:
+        import librosa
+        y, sr = librosa.load(os.path.join(BANCO, 'trilha', P['trilha']), sr=22050, offset=P.get('trilha_ini', 0), duration=40)
+        _, bt = librosa.beat.beat_track(y=y, sr=sr); beats = librosa.frames_to_time(bt, sr=sr)
+        for s in segs[1:]:
+            c = min(beats, key=lambda b: abs(b - s['s']))
+            if -.15 <= c - s['s'] <= .08: s['s'] = round(float(c), 3)
+    except Exception as ex: print('beat sync off:', ex)
 for k in range(len(segs) - 1): segs[k]['e'] = segs[k + 1]['s']
 segs[-1]['e'] = TOTAL
 for k, (s, c) in enumerate(zip(segs, cenas)):
@@ -104,7 +114,8 @@ for k, (s, c) in enumerate(zip(segs, cenas)):
         if s.get('foto'): shutil.copy(os.path.join(FOTOS, s['foto']), os.path.join(W, os.path.basename(s['foto']))); s['foto'] = os.path.basename(s['foto'])
     if s['tipo'] == 'perfil' and s.get('modo') == 'bio':
         s['riscos'] = s.get('riscos') or [x for x in (quando(y) for y in s.get('riscar_em', [])) if x is not None] or None
-    if 'extraAt' in s and isinstance(s['extraAt'], str): s['extraAt'] = quando(s['extraAt'], 1.0)
+    for key in ('extraAt', 'badgeAt', 'freeze'):
+        if isinstance(s.get(key), str): s[key] = quando(s[key], None if key == 'freeze' else .3)
     # SFX da ficha: [palavra|segundos, som, ganho]
     sx = []
     for at, kind, g in s.get('sons', []):
