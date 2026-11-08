@@ -223,3 +223,4 @@ Levantado pela conta Lindson em 01/11/2026 a partir do histórico do git e dos a
 | 08/11/2026 | Lindson | Biblioteca de pizzaria: +107 referências do Pinterest (posts, carrosséis, stories, cardápios, caixas, social media, fachadas), sem repetidas, com links e folha de contato | `agencia/operacao-propria/biblioteca-pizzaria/pinterest/` (img/lote08-*, pins-lote-08-11.json, folha-lote-08-11.jpg) | salvo |
 | 08/11/2026 | Zuleide (Rocco) | Orégano Turbo: kit social v5 (12 posts, carrossel de 7 telas e 3 stories) | `agencia/operacao-propria/social/v5/` | aguardando aprovação |
 | 08/11/2026 | Zuleide (Paollo) | Orégano Turbo: calendário de 4 semanas (47 artes) e perfil no sistema v4, mais 4 pautas tipográficas novas | `agencia/operacao-propria/social/calendario/`, `social/perfil/` | aguardando aprovação |
+| 08/11/2026 | Zuleide | Agentes Webdesigner, Designer gráfico e Social media, montados com as pesquisas do repositório | `.claude/agents/` | pronto |
