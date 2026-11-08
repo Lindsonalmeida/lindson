@@ -66,6 +66,22 @@
   }
   monta();
 
+  // vídeos: carregam só perto da tela, tocam só quando visíveis; movimento reduzido = fica o pôster
+  var videos = document.querySelectorAll('video.js-video');
+  function carrega(v) { if (!v.src && v.dataset.src) { v.src = v.dataset.src; v.preload = 'auto'; } }
+  function toca(v) { carrega(v); var p = v.play(); if (p && p.catch) p.catch(function () {}); }
+  if (!reduz) {
+    if ('IntersectionObserver' in window) {
+      var perto = new IntersectionObserver(function (es) {
+        es.forEach(function (e) { if (e.isIntersecting) { carrega(e.target); perto.unobserve(e.target); } });
+      }, { rootMargin: '400px 0px' });
+      var vis = new IntersectionObserver(function (es) {
+        es.forEach(function (e) { if (e.isIntersecting) toca(e.target); else e.target.pause(); });
+      }, { threshold: 0.2 });
+      videos.forEach(function (v) { if (v.hasAttribute('data-agora')) toca(v); else perto.observe(v); vis.observe(v); });
+    } else { videos.forEach(toca); }
+  }
+
   // revelação na rolagem
   if (!('IntersectionObserver' in window)) { document.documentElement.classList.add('semjs'); return; }
   var io = new IntersectionObserver(function (es) {

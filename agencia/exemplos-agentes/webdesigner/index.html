@@ -9,6 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&family=DM+Sans:opsz,wght@9..40,400..700&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="assets/video/heroi-forno.jpg">
 <link rel="preload" as="image" href="assets/img/ia-pizza-recorte.webp">
 <link rel="stylesheet" href="assets/estilo.css">
 </head>
@@ -41,6 +42,14 @@
     <div class="marquee marquee--gigante" aria-hidden="true">
       <div class="marquee__trilho"><span>Brasa Viva</span><span>Brasa Viva</span><span>Brasa Viva</span><span>Brasa Viva</span></div>
     </div>
+    <figure class="heroi__forno">
+      <span class="heroi__anel heroi__anel--1" aria-hidden="true"></span>
+      <span class="heroi__anel heroi__anel--2" aria-hidden="true"></span>
+      <div class="heroi__boca">
+        <video class="js-video" data-src="assets/video/heroi-forno.mp4" data-agora poster="assets/video/heroi-forno.jpg" muted loop playsinline preload="none" width="720" height="900" aria-label="Pizza entrando no forno a lenha aceso"></video>
+      </div>
+      <figcaption>vídeo ilustrativo · Mixkit</figcaption>
+    </figure>
     <figure class="heroi__pizza">
       <img id="pizzaHeroi" src="assets/img/ia-pizza-recorte.webp" width="1100" height="1366" alt="Pizza de pepperoni fatiada, com manjericão, tomate e azeitonas em volta">
       <figcaption>imagem gerada por IA</figcaption>
@@ -65,10 +74,40 @@
   </div></div>
 </div></div>
 
+<!-- DO FORNO PRA SUA PORTA (trilho de vídeos verticais) -->
+<section class="secao secao--carvao trilho-sec" id="forno" aria-label="Do forno pra sua porta">
+  <header class="secao__cab">
+    <span class="rotulo">01 · Do forno pra sua porta</span>
+    <h2>Da massa até a <mark>sua porta</mark>.</h2>
+  </header>
+  <div class="trilho" id="trilho">
+    <figure class="reel revela" data-n="01">
+      <video class="js-video" data-src="assets/video/trilho-massa.mp4" poster="assets/video/trilho-massa.jpg" muted loop playsinline preload="none" width="540" height="960" aria-label="Pizzaiolo abrindo a massa na bancada com farinha"></video>
+      <figcaption><b>Massa</b><small>Aberta na mão, descansada desde ontem.</small></figcaption>
+    </figure>
+    <figure class="reel revela" data-n="02">
+      <video class="js-video" data-src="assets/video/trilho-lenha.mp4" poster="assets/video/trilho-lenha.jpg" muted loop playsinline preload="none" width="540" height="960" aria-label="Lenha queimando dentro do forno de tijolo"></video>
+      <figcaption><b>Lenha</b><small>Forno aceso às cinco da tarde.</small></figcaption>
+    </figure>
+    <figure class="reel revela" data-n="03">
+      <video class="js-video" data-src="assets/video/trilho-queijo.mp4" poster="assets/video/trilho-queijo.jpg" muted loop playsinline preload="none" width="540" height="960" aria-label="Mão puxando uma fatia de pepperoni com queijo"></video>
+      <figcaption><b>Fatia</b><small>Queijo puxando já na primeira.</small></figcaption>
+    </figure>
+    <figure class="reel revela" data-n="04">
+      <video class="js-video" data-src="assets/video/trilho-caixa.mp4" poster="assets/video/trilho-caixa.jpg" muted loop playsinline preload="none" width="540" height="960" aria-label="Pizza de pepperoni inteira na caixa"></video>
+      <figcaption><b>Caixa</b><small>Fecha, sai e chega quente.</small></figcaption>
+    </figure>
+  </div>
+  <div class="trilho__pe">
+    <p class="arraste arraste--claro">Arraste para o lado <span aria-hidden="true">→</span></p>
+    <p class="nota nota--clara">Vídeos ilustrativos de banco (Mixkit).</p>
+  </div>
+</section>
+
 <!-- CARDÁPIO -->
 <section class="secao secao--creme" id="cardapio">
   <header class="secao__cab">
-    <span class="rotulo">01 · Cardápio</span>
+    <span class="rotulo">02 · Cardápio</span>
     <h2>As que saem <mark>primeiro</mark> do forno.</h2>
   </header>
 
@@ -135,7 +174,7 @@
 <!-- COMBOS -->
 <section class="secao secao--carvao" id="combos">
   <header class="secao__cab">
-    <span class="rotulo">02 · Combos</span>
+    <span class="rotulo">03 · Combos</span>
     <h2>Para quem vai <mark>dividir</mark>.</h2>
   </header>
   <div class="combos">
@@ -167,15 +206,35 @@
 
 <!-- MANIFESTO -->
 <section class="manifesto" aria-label="Como a pizza é feita">
-  <img class="manifesto__fundo" src="assets/img/ia-forno.webp" loading="lazy" alt="" width="1000" height="1241">
-  <span class="manifesto__credito">imagem gerada por IA</span>
+  <video class="manifesto__fundo js-video" data-src="assets/video/manifesto-lenha.mp4" poster="assets/video/manifesto-lenha.jpg" muted loop playsinline preload="none" width="1280" height="720" aria-hidden="true"></video>
+  <span class="manifesto__credito">vídeo ilustrativo · Mixkit</span>
   <p class="manifesto__texto" id="manifesto">A lenha acende às cinco da tarde. A massa descansou desde ontem. O molho é de tomate de verdade. Sai do forno, entra na caixa e vai direto para a sua mesa.</p>
+</section>
+
+<!-- GALERIA -->
+<section class="secao secao--tomate galeria-sec" id="galeria">
+  <header class="secao__cab">
+    <span class="rotulo">04 · Da lenha à mesa</span>
+    <h2>Feita no fogo, <mark>servida quente</mark>.</h2>
+  </header>
+  <div class="mosaico">
+    <figure class="foto foto--a revela"><img src="assets/img/px-11447751.webp" loading="lazy" width="1400" height="1120" alt="Pizzaiolo com a pá na boca do forno a lenha de tijolo"><figcaption>Na boca do forno</figcaption></figure>
+    <figure class="foto foto--b revela"><img src="assets/img/px-3343622.webp" loading="lazy" width="1000" height="667" alt="Pizza assando sob a brasa do forno a lenha"><figcaption>A brasa</figcaption></figure>
+    <figure class="foto foto--v revela"><img src="assets/img/px-3343627.webp" loading="lazy" width="900" height="1350" alt="Labaredas no forno de tijolo com a pizza assando"><figcaption>Fogo de lenha</figcaption></figure>
+    <figure class="foto foto--c revela"><img src="assets/img/pizza-close.webp" loading="lazy" width="1100" height="825" alt="Pizza napolitana de borda tostada com tomate e muçarela"><figcaption>Borda tostada</figcaption></figure>
+    <figure class="foto foto--f revela"><img src="assets/img/px-3915857.webp" loading="lazy" width="1200" height="800" alt="Fatia de pepperoni sendo puxada com queijo esticando"><figcaption>Pepperoni puxando</figcaption></figure>
+    <figure class="foto foto--m revela"><img src="assets/img/px-35017349.webp" loading="lazy" width="900" height="1350" alt="Fatia levantada com o queijo esticando em fios"><figcaption>O puxa-queijo</figcaption></figure>
+    <figure class="foto foto--d revela"><img src="assets/img/px-1878346.webp" loading="lazy" width="1000" height="667" alt="Pizza ao lado da lenha acesa dentro do forno"><figcaption>Ao lado da lenha</figcaption></figure>
+    <figure class="foto foto--e revela"><img src="assets/img/pepperoni-cima.webp" loading="lazy" width="1000" height="750" alt="Pizza de pepperoni vista de cima, dentro da caixa"><figcaption>Pronta pra caixa</figcaption></figure>
+    <figure class="foto foto--q revela"><img src="assets/img/queijo-puxando.webp" loading="lazy" width="1100" height="825" alt="Fatia de pizza com queijo esticando sobre prato vermelho"><figcaption>Primeira fatia</figcaption></figure>
+  </div>
+  <p class="nota nota--clara">Fotos de banco com licença livre (Pexels e Wikimedia Commons, créditos no rodapé).</p>
 </section>
 
 <!-- COMO PEDIR -->
 <section class="secao secao--creme" id="pedir">
   <header class="secao__cab">
-    <span class="rotulo">03 · Como pedir</span>
+    <span class="rotulo">05 · Como pedir</span>
     <h2>Monte aqui, <mark>envie</mark> no WhatsApp.</h2>
   </header>
 
@@ -225,7 +284,7 @@
 <!-- ENTREGA -->
 <section class="secao secao--tomate" id="entrega">
   <header class="secao__cab">
-    <span class="rotulo">04 · Horário e entrega</span>
+    <span class="rotulo">06 · Horário e entrega</span>
     <h2>Forno aceso de <mark>terça a domingo</mark>.</h2>
   </header>
   <div class="entrega">
@@ -244,7 +303,7 @@
         <span>Renascença</span><span>Jardim Renascença</span><span>Calhau</span><span>Ponta d'Areia</span><span>Ponta do Farol</span><span>São Francisco</span><span>Cohama</span><span>Cohafuma</span><span>Turu</span><span>Olho d'Água</span>
       </div>
       <p>Taxa e tempo de entrega confirmados no WhatsApp, conforme o bairro. Retirada no balcão também.</p>
-      <figure class="bairros__foto"><img src="assets/img/queijo-puxando.webp" loading="lazy" width="1100" height="825" alt="Fatia de pizza com queijo esticando"></figure>
+      <figure class="bairros__foto"><img src="assets/img/ia-moca-carro.webp" loading="lazy" width="1000" height="1241" alt="Moça sorrindo com uma fatia de pizza na janela do carro"><figcaption>imagem gerada por IA</figcaption></figure>
     </div>
   </div>
 </section>
@@ -259,7 +318,9 @@
     <div><span class="rotulo">Horário</span><p>Ter a dom · a partir das 18h</p></div>
   </div>
   <div class="rodape__creditos">
-    <p><b>Fotos:</b> Pepperoni inteira, BullDawg2021 (CC BY 4.0) · Calabresa em porções, Horacio Cambeiro (CC BY 4.0) · Borda recheada, jeffreyw (CC BY 2.0) · Queijo puxando, Foodie Moodie (CC0), via Wikimedia Commons. Pizza do topo e forno: imagens geradas por IA.</p>
+    <p><b>Fotos (Pexels, licença Pexels):</b> <a href="https://www.pexels.com/photo/11447751/">11447751</a> · <a href="https://www.pexels.com/photo/3343622/">3343622</a> · <a href="https://www.pexels.com/photo/3343627/">3343627</a> · <a href="https://www.pexels.com/photo/3915857/">3915857</a> · <a href="https://www.pexels.com/photo/35017349/">35017349</a> · <a href="https://www.pexels.com/photo/1878346/">1878346</a>.</p>
+    <p><b>Fotos (Wikimedia Commons):</b> Pepperoni inteira, BullDawg2021 (CC BY 4.0) · Calabresa em porções, Horacio Cambeiro (CC BY 4.0) · Borda recheada, jeffreyw (CC BY 2.0) · Queijo puxando, Foodie Moodie (CC0) · Pepperoni de cima, Andy Li (CC0) · Napolitana, CDibisceglia (CC BY-SA 4.0). Pizza do topo e moça no carro: imagens geradas por IA.</p>
+    <p><b>Vídeos (Mixkit, licença gratuita Mixkit, mixkit.co/license):</b> Forno vermelho com pizza entrando (#28144) · Lenha no forno tradicional (#32415) · Pizzaiolo abrindo a massa (#42469) · Fatia de pepperoni (#44014) · Pizza na caixa (#42484). Recortados e comprimidos para o site.</p>
     <p class="demo">Saiu do forno agora. · Exemplo demonstrativo · pizzaria fictícia, número e valores ilustrativos · webdesign agência Lindson Almeida</p>
   </div>
 </footer>
