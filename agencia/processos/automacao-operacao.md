@@ -37,3 +37,8 @@
 - Dado pessoal de paciente, aluno ou cliente não vai para o repositório público.
 - Nada de promessa de resultado ou número inventado.
 - Peça nova continua sendo mostrada para aprovação.
+
+## Real Time · postagem automática (08/11/2026, conta Leandro)
+- Tarefa agendada `trig_01PunAiAegefs281sWBJd77w`: 9h58, 13h58 e 17h58 (Fortaleza), a partir de 11/11. Lê `realtimeslz.pages.dev/posts/fila.json` (15 posts), confere a aba Aprovados por `/api/automacao?cli=rt`, posta 1 por vez via Windsor e marca como postado.
+- Pendente: o conector Windsor.ai precisa ser ligado à tarefa em claude.ai (Rotinas → tarefa → Conectores); a API não deixou anexar.
+- Os 2 stories aprovados (enquete e caixa de pergunta) ficam de fora: figurinha só pelo app.
