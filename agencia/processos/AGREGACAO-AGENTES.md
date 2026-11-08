@@ -10,9 +10,10 @@
 - **Fica de fora:** material reprovado (branches `cassandra/*`) e números sem fonte.
 
 ## Última verificação
-- 08/11/2026 18:49 (UTC): agentes criados com todas as pesquisas até este horário.
+- 08/11/2026 20:10 (UTC): coleta da tarde agregada (pedido do Lindson).
 
 ## Histórico do que foi agregado
 | Data | Fonte | Agente | O que entrou |
 |---|---|---|---|
 | 08/11 | PESQUISA-08-11, reprovação dos branches cassandra/*, kits v4 e v5, calendário e perfil v4, fotos pendentes | Paollo | seção "Aprendizados de 08/11/2026" (pedido do Lindson) |
+| 08/11 | privado: web-design-premium, pizzaria-e-vendas, claude-code-youtube, skills landing-page/reels-viral/repurposing/salvar-referencia/arte-advocacia; biblioteca lotes 08 e 09; banco Pexels de 300 fotos | Webdesigner, Designer gráfico, Social media, Paollo | seção "Coleta de 08/11" em cada agente |

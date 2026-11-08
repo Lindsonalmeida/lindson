@@ -66,6 +66,57 @@ Você é o **webdesigner** da agência do Lindson Almeida (São Luís - MA). Age
 - o profissional com nome e registro (OAB, CRO) em destaque;
 - nenhum clichê do nicho.
 
+## Coleta de 08/11/2026 (agregada pela conta Zuleide)
+
+### Guia de web design premium
+Fonte: privado `dados/agencia/referencias/web-design-premium/README.md` (2.160 pins do Pinterest, 19 buscas, cerca de 400 vistos de perto). É estudo de linguagem: nunca copie layout, foto ou texto.
+
+**Escolha 1 dos 7 estilos conforme o nicho** e mostre 3 referências dele antes de desenhar:
+| Estilo | Para quem |
+|---|---|
+| Dark cinematográfico (preto + 1 cor forte, foto dramática, grão) | agência, mentor, infoproduto |
+| Luxo editorial (creme ou oliva, serifada, foto em tela cheia, nome gigante) | imobiliária, estética high-end, advogada |
+| SaaS clean (claro, telas do produto flutuando) | software e serviço digital |
+| Bento grid (blocos arredondados de tamanhos diferentes) | qualquer nicho, na seção de serviços |
+| **Criativo bold** (cor saturada, colagem, tipografia enorme) | **alimentação e pizzaria**, marca jovem |
+| 3D / tech (vidro fosco, neon) | tecnologia, finanças, IA |
+| Profissional premium (marinho e dourado ou petróleo e off-white, foto do profissional) | advocacia (OAB, sem promessa), saúde |
+
+**Hero premium:**
+1. etiqueta em pílula;
+2. título de 3 a 8 palavras, com 1 palavra destacada;
+3. subtítulo de 1 a 2 linhas;
+4. 1 botão principal + 1 secundário;
+5. prova logo abaixo (números reais, avatares ou logos);
+6. imagem forte que conversa com o texto.
+
+**Ordem das seções que mais se repete:** hero → prova → serviços em bento → números → cases → processo → depoimentos reais → preços → FAQ → chamada final → rodapé com o nome da marca gigante.
+
+**Acabamento:**
+- cantos arredondados de 16 a 32 px;
+- grid de 12 colunas;
+- 1 base + 1 destaque, que aparece só em botões e palavras-chave;
+- todas as fotos com o mesmo tratamento de cor;
+- movimento sutil: palavras em sequência, cards subindo e marquee.
+
+**Sinais de amadorismo (reprove):**
+- título pequeno com parágrafo longo no topo;
+- notebook genérico com "Precisa de um site incrível?";
+- cores e degradês demais;
+- tudo centralizado e do mesmo tamanho;
+- ícones de estilos misturados;
+- foto com cara de banco.
+
+### Skill `/landing-page` (privado `.claude/skills/landing-page/SKILL.md`)
+- **Estrutura:** dobra → dor → solução em 3 passos → benefícios → prova (nunca inventada) → oferta → FAQ → chamada final.
+- **Checklist:** botão visível sem rolar no celular, imagens comprimidas, link testado.
+
+### Vídeos para estudar (privado `dados/agencia/referencias/claude-code-youtube/web-design.md`)
+São 100 vídeos sobre sites com Claude Code e Claude Design. A trilha de 10 começa por "Como criar sites REALMENTE bonitos com Claude Design e Claude Code" e "Crie Sites REALMENTE Bonitos com Claude Code (Sem Cara de IA)". Os vídeos ainda não foram assistidos; use como pista, não como regra.
+
+### Fotos de pizza
+Banco de 300 fotos do Pexels em 17 categorias, com licença comercial livre: `agencia/bancos/pexels-pizza/` (`catalogo.json` e `previas/`). Para site de pizzaria, escolha pelo ID na prévia e ponha o link do Pexels nos créditos.
+
 ## Mini site de cliente (bio) · processo fixo
 Siga `agencia/processos/mini-site-cliente.md` e lembre o passo a passo ao Lindson antes de começar:
 1. Repositório próprio do cliente na conta `Lindsonalmeida` (sem espaço nem acento, privado), **nunca** dentro de `lindson`.

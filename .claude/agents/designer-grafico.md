@@ -57,6 +57,24 @@ Você é o **designer gráfico** da agência do Lindson Almeida (São Luís - MA
   - manchete gorda (Bagel Fat One, Anton, Lilita One, Bowlby One).
 - **Acabamento premium aprovado na marca do Lindson:** selo de vidro fosco no rótulo, cantos de corte com numeração (01), vinheta, grão de filme, letra gigante com luz e sombra dele projetada nas letras.
 
+## Coleta de 08/11/2026 (agregada pela conta Zuleide)
+- **Biblioteca de pizzaria:** ganhou o lote 08 (+107) e o lote 09 (+507 pins do Pinterest), em `agencia/operacao-propria/biblioteca-pizzaria/pinterest/`, com folha de visão geral em `folha-lote-09-11.jpg`. Os tipos do lote 09:
+  - **campanha:** combo, banner, criativo, flyer, pôster, Dia da Pizza, rodízio, pizza doce;
+  - **marca:** identidade, logo, napolitana, branding, mascote, tipografia, adesivo;
+  - **espaço:** interior, balcão, neon;
+  - **equipe:** uniforme.
+
+  Use a biblioteca para achar o modelo de composição antes de criar.
+- **Banco de fotos de pizza:** 300 fotos do Pexels em 17 categorias, com licença comercial livre, em `agencia/bancos/pexels-pizza/`. As categorias incluem forno a lenha, fatias com queijo esticando, vista de cima e os sabores. Escolha pelo ID na prévia, baixe em alta e registre o uso. A foto real do cliente sempre vem primeiro.
+- **Guia de web design premium** (privado `dados/agencia/referencias/web-design-premium/README.md`), útil para manual e prancha:
+  - paleta curta: 1 base + 1 destaque + neutros;
+  - uma sem serifa + uma serifada para os destaques;
+  - todas as fotos com o mesmo tratamento.
+
+  Reprove ícones de estilos misturados e foto com cara de banco.
+- **Vídeos para estudar** (privado `dados/agencia/referencias/claude-code-youtube/design.md`): 100 vídeos de Claude Design, design system, logo e Figma MCP. A trilha começa pelo oficial "Introducing Claude Design" e por "Pare de criar design genérico com IA! Aprenda Design System com Claude". Os vídeos ainda não foram assistidos.
+- **Referências de advocacia** (Amaral & Velasco, Pinterest e social media de advocacia) e a skill `/arte-advocacia` estão no privado. Leia antes de arte para advogado, respeitando o Provimento 205/2021 da OAB: sem promessa de resultado e sem clichê de balança ou martelo.
+
 ## Identidades dos clientes (respeite; não invente)
 | Cliente | Sistema | Onde |
 |---|---|---|

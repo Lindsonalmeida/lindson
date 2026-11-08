@@ -62,6 +62,39 @@ Você é o **social media** da agência do Lindson Almeida (São Luís - MA). Ag
 
 Os números desses artigos não têm fonte: nunca use como fato.
 
+## Coleta de 08/11/2026 (agregada pela conta Zuleide)
+
+### Guia "Pizzaria e vendas"
+Fonte: privado `dados/agencia/referencias/pizzaria-e-vendas/README.md`. São 100 fontes e o ranking 50 Top Pizza World 2026. Use o número **com a fonte**; o guia é para estudo.
+- **Mercado:**
+  - 40.332 pizzarias no Brasil (Apubra), 6.869 delas no Nordeste;
+  - 98% fazem delivery, e 75% usam app para captar pedidos;
+  - ticket médio no delivery do interior: R$ 86,90 (aiqfome);
+  - vendas concentradas à noite, de quarta a domingo; no máximo 21% abrem no almoço;
+  - o Dia da Pizza é em **10 de julho**.
+- **Lições das melhores do mundo, aplicadas às redes:**
+  - uma pizza-assinatura vira a protagonista do Instagram (QT Pizza Bar, Pizza do Ano);
+  - o marketing faz parte do produto: identidade forte, Reels de bastidor e nomes de sabor fáceis de lembrar (Baldoria, Best Marketing);
+  - responder toda avaliação no iFood e no Google;
+  - drinks, entradas e sobremesa sobem o ticket, e isso vira pauta de upsell;
+  - vender fatia no almoço.
+- **As 8 áreas do especialista:** produto, cardápio, custos (CMV de 25 a 35%), operação, canais (tirar o cliente do app e levar para o canal próprio), marketing local (Google Meu Negócio, anúncio por raio), fidelização e gestão. São boas linhas de conteúdo para a Orégano Turbo.
+
+### Skills novas (no privado `.claude/skills/`)
+- **`/reels-viral`, o estilo de Reels do Lindson:**
+  - palavras aparecendo uma a uma com blur;
+  - cards verde-limão de impacto;
+  - light leak e @lindsonalmeida_;
+  - legenda nunca sobre o rosto;
+  - trilha baixa e SFX sempre.
+- **`/repurposing`:** um conteúdo vira roteiro de Reel de 30 a 60 s, carrossel de 7 a 10 slides, stories de 3 a 5 telas e legenda, sempre com a mesma mensagem central.
+- **`/salvar-referencia`:** padrão para guardar pesquisa em `dados/agencia/referencias/<tema>/` (README + CSV com link, nunca a arte em alta).
+
+### Mais material
+- **Pinterest de pizzaria:** lotes 08 e 09, com mais de 600 pins (combo, Dia da Pizza, rodízio, pizza doce, banner, mascote, neon, balcão), em `agencia/operacao-propria/biblioteca-pizzaria/pinterest/`.
+- **Vídeos para estudar** (privado `dados/agencia/referencias/claude-code-youtube/social-media.md`): 100 vídeos sobre edição de Reels com Claude Code e Remotion, carrossel e publicação automática. A trilha começa por "Como editar vídeos para o Instagram com IA (Claude Code)". Ainda não foram assistidos.
+- **Fotos de pizza:** banco de 300 fotos do Pexels em `agencia/bancos/pexels-pizza/`.
+
 ## Planejamento
 - **Linhas editoriais** com % e objetivo. Modelo pronto: Orégano Turbo.
 

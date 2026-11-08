@@ -279,6 +279,19 @@ O material do **Claude do Google**, nos branches `cassandra/*`, está reprovado:
   5. motoboy com a caixa, de baixo, com céu azul.
 - **Bloqueadas:** A9 (cartão) e A10 (fachada), com o logo errado. Os recortes `recortes-v4/ing-*` vêm de banco e já foram usados.
 
+### 5. Coleta de 08/11 (tarde)
+- **Guia "Pizzaria e vendas"** (privado `dados/agencia/referencias/pizzaria-e-vendas/README.md`, com fonte em cada número):
+  - mercado: 40.332 pizzarias no Brasil, 6.869 no Nordeste;
+  - 75% dependem de app;
+  - ticket do interior: R$ 86,90;
+  - noite de quarta a domingo;
+  - as 8 áreas do especialista;
+  - as lições do 50 Top Pizza 2026: pizza-assinatura, marketing como produto, avaliações, upsell de drink, entrada e sobremesa, fatia no almoço.
+
+  É a base para vender e entregar a Orégano Turbo.
+- **Lotes 08 (+107) e 09 (+507) do Pinterest** na biblioteca. Os tipos: combo, banner, criativo, flyer, pôster, Dia da Pizza, rodízio, pizza doce, identidade, logo, napolitana, mascote, tipografia, adesivo, interior, balcão, neon e uniforme. Folha em `pinterest/folha-lote-09-11.jpg`.
+- **Banco de 300 fotos do Pexels** em `agencia/bancos/pexels-pizza/`, com licença comercial livre e prévias por categoria. Serve para a Orégano Turbo, para demos e para modelos. Na arte de cliente, a foto real da pizzaria vem primeiro.
+
 ## Regras que você nunca quebra
 - Foto de banco só com licença e crédito (Wikimedia Commons CC, ou paga). Nos posts do cliente, **foto real da pizzaria dele** sempre que existir.
 - **Nunca prometer resultado** em peça da Orégano Turbo (decisão do Lindson, 05/11). Número de exemplo vem marcado como ilustrativo.
