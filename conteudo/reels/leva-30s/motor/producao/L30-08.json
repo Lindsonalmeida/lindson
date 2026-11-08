@@ -1,0 +1,181 @@
+{
+ "_nota": "Ficha de produção (motor v2, 08/11/2026). Estilos: #41 #25 #28 #39 + #35 #152 #36 + #163 #166 #169 #173 #176 #48 #103 (agencia/biblioteca-motion). Fotos em ../fotos/ (fora do Git).",
+ "beat_sync": true,
+ "voz_rate": "+4%",
+ "trilha": "midnight-funk-117bpm.mp3",
+ "trilha_ini": 30,
+ "capa": {
+  "foto": "c14-rec2.png",
+  "palavra": "SEMANA",
+  "manchete": "Como eu monto a",
+  "caixa": "semana",
+  "rotulo": "Bastidor",
+  "fx": 0,
+  "fy": 170,
+  "fw": 1080,
+  "espelhar": false,
+  "wordTop": 300,
+  "wordSize": 480,
+  "headTop": 1330,
+  "tagTop": 1262
+ },
+ "cenas": [
+  {
+   "tipo": "banco",
+   "clip": "trabalho-e-redes",
+   "texto": [
+    "O que dá",
+    "na cabeça"
+   ],
+   "hl": [
+    1
+   ],
+   "extra": "x",
+   "extraAt": "vende.",
+   "vfx": [
+    "punch"
+   ],
+   "hit": [
+    "vende."
+   ],
+   "size": 190,
+   "top": 440
+  },
+  {
+   "tipo": "banco",
+   "clip": "empreendedora-notebook",
+   "texto": [
+    "Bastidor"
+   ],
+   "hl": [
+    0
+   ],
+   "vfx": [
+    "leak"
+   ],
+   "size": 230,
+   "top": 600
+  },
+  {
+   "tipo": "lista",
+   "titulo": "1 · Perguntas do balcão",
+   "titSize": 90,
+   "itens": [
+    "Quanto custa?",
+    "Vocês entregam?",
+    "Tem horário hoje?"
+   ],
+   "tempos_em": [
+    "perguntas",
+    "mais",
+    "balcão."
+   ],
+   "texto": []
+  },
+  {
+   "tipo": "lista",
+   "titulo": "2 · Um objetivo",
+   "titSize": 90,
+   "itens": [
+    [
+     "A",
+     "Atrair"
+    ],
+    [
+     "C",
+     "Confiar"
+    ],
+    [
+     "C",
+     "Chamar"
+    ]
+   ],
+   "tempos_em": [
+    "separo",
+    "atrair,",
+    "confiar"
+   ],
+   "texto": []
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "O 3º",
+    "muda",
+    "tudo"
+   ],
+   "hl": [
+    2
+   ],
+   "vfx": [
+    "punch"
+   ],
+   "flash": true,
+   "hit": [
+    "terceiro"
+   ],
+   "riser": true,
+   "size": 240,
+   "top": 620
+  },
+  {
+   "tipo": "lista",
+   "titulo": "3 · Dia fixo",
+   "titSize": 90,
+   "fundo": "amarelo",
+   "itens": [
+    [
+     "SEG",
+     "A dor"
+    ],
+    [
+     "QUA",
+     "O bastidor"
+    ],
+    [
+     "SEX",
+     "O convite"
+    ]
+   ],
+   "labW": 150,
+   "tempos_em": [
+    "fixos.",
+    "Segunda",
+    "quarta"
+   ],
+   "check": true,
+   "texto": []
+  },
+  {
+   "tipo": "cta",
+   "foto": "c13-rec2.png",
+   "fx": 90,
+   "fy": 340,
+   "fw": 900,
+   "espelhar": false,
+   "etiquetas": [
+    "Semana pronta",
+    "Pra copiar"
+   ],
+   "vfx": [
+    "leak"
+   ]
+  },
+  {
+   "tipo": "banco",
+   "clip": "cafe-instagram",
+   "texto": [
+    "Amanhã",
+    "já sabe."
+   ],
+   "hl": [
+    1
+   ],
+   "vfx": [
+    "punch"
+   ],
+   "size": 210,
+   "top": 560
+  }
+ ]
+}

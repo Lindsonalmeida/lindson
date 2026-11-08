@@ -17,7 +17,7 @@ import argparse, difflib, json, os, re, shutil, subprocess, sys, unicodedata
 import numpy as np, soundfile as sf
 
 M = os.path.dirname(os.path.abspath(__file__)); LEVA = os.path.dirname(M)
-BANCO = os.path.join(LEVA, 'banco'); FOTOS = os.path.join(LEVA, 'fotos')  # fotos: FORA do Git
+BANCO = os.path.join(LEVA, 'banco'); FOTOS = os.environ.get('REEL_FOTOS', os.path.join(LEVA, 'fotos'))  # fotos: FORA do Git
 sys.path.insert(0, M); import voz
 S = 44100; FPS = 30
 
@@ -240,5 +240,5 @@ sf.write(W + '/mix.wav', mix[:int(TOTAL * S)], S)
 subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', W + '/mix.wav', '-af', 'loudnorm=I=-14:TP=-1.5:LRA=11', '-ar', '48000', W + '/mixn.wav'], check=True)
 mp4 = OUT + f'/{a.id}.mp4'
 subprocess.run(['ffmpeg', '-v', 'error', '-y', '-framerate', '30', '-i', W + '/fr/%05d.jpg', '-i', W + '/mixn.wav', '-c:v', 'libx264', '-preset', 'medium',
-                '-crf', '20', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '192k', '-shortest', '-movflags', '+faststart', mp4], check=True)
+                '-crf', '22', '-maxrate', '6M', '-bufsize', '12M', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '192k', '-shortest', '-movflags', '+faststart', mp4], check=True)
 print(mp4, round(TOTAL, 2), 's')

@@ -1,0 +1,179 @@
+{
+ "_nota": "Ficha de produção (motor v2, 08/11/2026). Estilos: #41 #25 #28 #39 + #35 #152 #36 + #163 #166 #169 #173 #176 #48 #103 (agencia/biblioteca-motion). Fotos em ../fotos/ (fora do Git).",
+ "beat_sync": true,
+ "voz_rate": "+4%",
+ "trilha": "pop-track-03-108bpm.mp3",
+ "trilha_ini": 36,
+ "capa": {
+  "foto": "c16-rec2.png",
+  "palavra": "7 DIAS",
+  "manchete": "Seu perfil espanta cliente?",
+  "caixa": "Desafio 7 dias",
+  "rotulo": "Desafio",
+  "fx": 0,
+  "fy": 170,
+  "fw": 1080,
+  "espelhar": true,
+  "wordTop": 300,
+  "wordSize": 520,
+  "headTop": 1330,
+  "tagTop": 1262
+ },
+ "cenas": [
+  {
+   "tipo": "contador",
+   "de": 7,
+   "sobe": true,
+   "passo": 0.16,
+   "texto": [
+    "dias"
+   ],
+   "vfx": [
+    "punch"
+   ],
+   "hit": [
+    "sete"
+   ]
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "1 tarefa",
+    "por dia"
+   ],
+   "hl": [
+    0
+   ],
+   "vfx": [
+    "leak"
+   ],
+   "size": 220,
+   "top": 640
+  },
+  {
+   "tipo": "banco",
+   "clip": "sorrindo-no-celular",
+   "texto": [
+    "Dia 1 ·",
+    "Foto"
+   ],
+   "hl": [
+    1
+   ],
+   "sons": [
+    [
+     "foto.",
+     "obturador",
+     1
+    ]
+   ],
+   "flash": true,
+   "size": 210,
+   "top": 480
+  },
+  {
+   "tipo": "perfil",
+   "modo": "bom",
+   "n": 2,
+   "rotulo": "Bio",
+   "nome": "Unhas da Ana · Cohama",
+   "bio": [
+    "💅 Unhas em gel que duram 21 dias",
+    "📍 Cohama · São Luís",
+    "👇 Chama no zap e agenda"
+   ],
+   "badgeAt": "Dia",
+   "texto": []
+  },
+  {
+   "tipo": "chat",
+   "nome": "Unhas da Ana",
+   "digitar": "Oi, vim pelo Instagram 👋",
+   "digitarAt": 0.3,
+   "digitarDur": 1.4,
+   "msgs": [],
+   "texto": []
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Dia 6",
+    "e 7…"
+   ],
+   "hl": [
+    1
+   ],
+   "vfx": [
+    "punch"
+   ],
+   "flash": true,
+   "hit": [
+    "seis"
+   ],
+   "riser": true,
+   "size": 260,
+   "top": 620
+  },
+  {
+   "tipo": "lista",
+   "titulo": "Checklist",
+   "compacto": true,
+   "itens": [
+    [
+     "4",
+     "Destaques"
+    ],
+    [
+     "5",
+     "Prova"
+    ],
+    [
+     "6",
+     "Convite direto"
+    ],
+    [
+     "7",
+     "Resposta rápida"
+    ]
+   ],
+   "tempos_em": [
+    "Quatro:",
+    "Cinco:",
+    "Seis:",
+    "Sete:"
+   ],
+   "check": true,
+   "texto": []
+  },
+  {
+   "tipo": "cta",
+   "foto": "c08-rec2.png",
+   "fx": 90,
+   "fy": 340,
+   "fw": 900,
+   "espelhar": true,
+   "etiquetas": [
+    "Checklist",
+    "Grátis"
+   ],
+   "vfx": [
+    "leak"
+   ]
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Dia 1.",
+    "Agora."
+   ],
+   "hl": [
+    1
+   ],
+   "vfx": [
+    "punch"
+   ],
+   "size": 260,
+   "top": 640
+  }
+ ]
+}

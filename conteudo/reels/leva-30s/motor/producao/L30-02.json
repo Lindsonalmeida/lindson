@@ -1,0 +1,178 @@
+{
+ "_nota": "Ficha de produção (motor v2, 08/11/2026). Estilos: #41 #25 #28 #39 + #35 #152 #36 + #163 #166 #169 #173 #176 #48 #103 (agencia/biblioteca-motion). Fotos em ../fotos/ (fora do Git).",
+ "beat_sync": true,
+ "voz_rate": "+4%",
+ "trilha": "pop-track-03-108bpm.mp3",
+ "trilha_ini": 2,
+ "capa": {
+  "foto": "c07-rec2.png",
+  "palavra": "BIO",
+  "manchete": "3 frases na bio que",
+  "caixa": "espantam cliente",
+  "rotulo": "Bio",
+  "fx": 0,
+  "fy": 170,
+  "fw": 1080,
+  "espelhar": false,
+  "wordTop": 300,
+  "wordSize": 600,
+  "headTop": 1330,
+  "tagTop": 1262
+ },
+ "cenas": [
+  {
+   "tipo": "banco",
+   "clip": "rolando-pagina-venda",
+   "texto": [
+    "Sua",
+    "bio",
+    "espanta"
+   ],
+   "hl": [
+    2
+   ],
+   "vfx": [
+    "punch"
+   ],
+   "hit": [
+    "espantando"
+   ],
+   "drop": true,
+   "size": 220,
+   "top": 560
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "A",
+    "3ª…"
+   ],
+   "vfx": [
+    "punch"
+   ],
+   "flash": true,
+   "hit": [
+    "terceira"
+   ],
+   "riser": true,
+   "size": 320,
+   "top": 640
+  },
+  {
+   "tipo": "frase",
+   "texto": [
+    "Apaixonada",
+    "pelo que",
+    "faço"
+   ],
+   "ancoras": {
+    "pelo que": "pelo",
+    "Apaixonada": "apaixonada"
+   },
+   "riscoAt": "Não",
+   "riscoY": 150,
+   "carimbo": "1 · GENÉRICO",
+   "carimboAt": "diz",
+   "carimboY": 1080,
+   "size": 150
+  },
+  {
+   "tipo": "banco",
+   "clip": "lojista-sorrindo",
+   "texto": [
+    "2 ·",
+    "Qualidade",
+    "e bom",
+    "atendimento"
+   ],
+   "ancoras": {
+    "2 ·": "Dois:"
+   },
+   "hl": [
+    1
+   ],
+   "extra": "x",
+   "extraAt": "igual.",
+   "xTop": 900,
+   "size": 150,
+   "top": 420
+  },
+  {
+   "tipo": "perfil",
+   "modo": "bio",
+   "n": 3,
+   "rotulo": "Link na bio",
+   "bio": [
+    "Link na bio 👇"
+   ],
+   "badgeAt": "Três:",
+   "riscar_em": [
+    "toca."
+   ],
+   "texto": []
+  },
+  {
+   "tipo": "lista",
+   "titulo": "A fórmula",
+   "fundo": "amarelo",
+   "itens": [
+    [
+     "1",
+     "O que você faz"
+    ],
+    [
+     "2",
+     "Pra quem"
+    ],
+    [
+     "3",
+     "Onde"
+    ],
+    [
+     "4",
+     "Chama no zap"
+    ]
+   ],
+   "tempos_em": [
+    "faz,",
+    "quem,",
+    "onde,",
+    "como"
+   ],
+   "check": true,
+   "texto": []
+  },
+  {
+   "tipo": "cta",
+   "foto": "kit-whatsapp-hero.png",
+   "fx": 90,
+   "fy": 340,
+   "fw": 900,
+   "espelhar": false,
+   "etiquetas": [
+    "Com exemplos",
+    "Grátis"
+   ],
+   "vfx": [
+    "leak"
+   ]
+  },
+  {
+   "tipo": "banco",
+   "clip": "rolando-pagina-venda",
+   "texto": [
+    "Tem",
+    "alguma?"
+   ],
+   "hl": [
+    1
+   ],
+   "vfx": [
+    "punch"
+   ],
+   "freeze": "alguma?",
+   "size": 230,
+   "top": 600
+  }
+ ]
+}

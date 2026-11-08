@@ -1,0 +1,166 @@
+{
+ "_nota": "Ficha de produção (motor v2, 08/11/2026). Estilos: #41 #25 #28 #39 + #35 #152 #36 + #163 #166 #169 #173 #176 #48 #103 (agencia/biblioteca-motion). Fotos em ../fotos/ (fora do Git).",
+ "beat_sync": true,
+ "voz_rate": "+4%",
+ "trilha": "midnight-funk-117bpm.mp3",
+ "trilha_ini": 0,
+ "capa": {
+  "foto": "c08-rec2.png",
+  "palavra": "LEGENDA",
+  "manchete": "Ninguém lê a sua",
+  "caixa": "legenda",
+  "rotulo": "Legenda",
+  "fx": 0,
+  "fy": 170,
+  "fw": 1080,
+  "espelhar": false,
+  "wordTop": 300,
+  "wordSize": 430,
+  "headTop": 1330,
+  "tagTop": 1262
+ },
+ "cenas": [
+  {
+   "tipo": "banco",
+   "clip": "trabalho-e-redes",
+   "mbV": true,
+   "texto": [
+    "Ninguém",
+    "lê."
+   ],
+   "hl": [
+    1
+   ],
+   "vfx": [
+    "punch"
+   ],
+   "hit": [
+    "lê"
+   ],
+   "drop": true,
+   "size": 240,
+   "top": 560
+  },
+  {
+   "tipo": "split",
+   "esq": "Antes",
+   "dir": "Depois",
+   "texto": []
+  },
+  {
+   "tipo": "frase",
+   "texto": [
+    "“Bom dia,",
+    "pessoal…”"
+   ],
+   "ancoras": {
+    "“Bom dia,": "bom",
+    "pessoal…”": "pessoal,"
+   },
+   "riscoAt": "Passou",
+   "riscoY": 110,
+   "carimbo": "PASSOU",
+   "carimboAt": "direto.",
+   "size": 170
+  },
+  {
+   "tipo": "lista",
+   "titulo": "Depois",
+   "fundo": "amarelo",
+   "itens": [
+    [
+     "1ª",
+     "A dor do cliente"
+    ],
+    [
+     "→",
+     "Numa frase só"
+    ]
+   ],
+   "labW": 120,
+   "tempos_em": [
+    "pela",
+    "dor"
+   ],
+   "texto": []
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "O segredo",
+    "tá no",
+    "final"
+   ],
+   "hl": [
+    2
+   ],
+   "vfx": [
+    "punch"
+   ],
+   "flash": true,
+   "hit": [
+    "final."
+   ],
+   "riser": true,
+   "size": 230,
+   "top": 620
+  },
+  {
+   "tipo": "lista",
+   "titulo": "A estrutura",
+   "itens": [
+    [
+     "1",
+     "Dor"
+    ],
+    [
+     "2",
+     "Solução"
+    ],
+    [
+     "3",
+     "Próximo passo"
+    ]
+   ],
+   "tempos_em": [
+    "Termina",
+    "próximo",
+    "chama"
+   ],
+   "check": true,
+   "texto": []
+  },
+  {
+   "tipo": "cta",
+   "foto": "raio-x-hero.png",
+   "fx": 90,
+   "fy": 340,
+   "fw": 900,
+   "espelhar": false,
+   "etiquetas": [
+    "5 modelos",
+    "Pro seu negócio"
+   ],
+   "vfx": [
+    "leak"
+   ]
+  },
+  {
+   "tipo": "banco",
+   "clip": "cafe-instagram",
+   "texto": [
+    "Apaga."
+   ],
+   "hl": [
+    0
+   ],
+   "extra": "x",
+   "extraAt": "apaga",
+   "vfx": [
+    "punch"
+   ],
+   "size": 260,
+   "top": 560
+  }
+ ]
+}

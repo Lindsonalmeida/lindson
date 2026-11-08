@@ -1,0 +1,132 @@
+{
+ "_nota": "Ficha de produção (motor v2, 08/11/2026). Estilos: #41 #25 #28 #39 + #35 #152 #36 + #163 #166 #169 #173 #176 #48 #103 (agencia/biblioteca-motion). Fotos em ../fotos/ (fora do Git).",
+ "beat_sync": true,
+ "voz_rate": "+4%",
+ "trilha": "trap-electro-vibes-112bpm.mp3",
+ "trilha_ini": 40,
+ "capa": {
+  "foto": "c11-rec2.png",
+  "palavra": "PIOR",
+  "manchete": "Do pior ao melhor",
+  "caixa": "post pra vender",
+  "rotulo": "Tier list",
+  "fx": 0,
+  "fy": 170,
+  "fw": 1080,
+  "espelhar": false,
+  "wordTop": 300,
+  "wordSize": 600,
+  "headTop": 1330,
+  "tagTop": 1262
+ },
+ "cenas": [
+  {
+   "tipo": "tier",
+   "nivel": "D",
+   "cartao": "Data comemorativa",
+   "cartaoAt": "Tá",
+   "hit": [
+    "fundo"
+   ],
+   "texto": []
+  },
+  {
+   "tipo": "tier",
+   "nivel": "S",
+   "texto": [],
+   "vfx": [
+    "glitch"
+   ],
+   "hit": [
+    "ninguém"
+   ]
+  },
+  {
+   "tipo": "tier",
+   "nivel": "D",
+   "cartao": "Data",
+   "cartaoAt": "D:",
+   "texto": []
+  },
+  {
+   "tipo": "tier",
+   "nivel": "C",
+   "cartao": "Produto solto",
+   "cartaoAt": "C:",
+   "ja": {
+    "D": "Data"
+   },
+   "texto": []
+  },
+  {
+   "tipo": "tier",
+   "nivel": "B",
+   "cartao": "Dica útil",
+   "cartaoAt": "B:",
+   "ja": {
+    "D": "Data",
+    "C": "Produto"
+   },
+   "texto": []
+  },
+  {
+   "tipo": "tier",
+   "nivel": "A",
+   "cartao": "Bastidor",
+   "cartaoAt": "A:",
+   "ja": {
+    "D": "Data",
+    "C": "Produto",
+    "B": "Dica"
+   },
+   "texto": []
+  },
+  {
+   "tipo": "tier",
+   "nivel": "S",
+   "cartao": "Cliente real + botão",
+   "cartaoAt": "S:",
+   "ja": {
+    "D": "Data",
+    "C": "Produto",
+    "B": "Dica",
+    "A": "Bastidor"
+   },
+   "flash": true,
+   "hit": [
+    "real"
+   ],
+   "texto": []
+  },
+  {
+   "tipo": "cta",
+   "foto": "lindson-bio-rec2.png",
+   "fx": 60,
+   "fy": 360,
+   "fw": 960,
+   "espelhar": false,
+   "etiquetas": [
+    "3 roteiros",
+    "Pro seu negócio"
+   ],
+   "vfx": [
+    "leak"
+   ]
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Qual o",
+    "seu nível?"
+   ],
+   "hl": [
+    1
+   ],
+   "vfx": [
+    "punch"
+   ],
+   "size": 220,
+   "top": 640
+  }
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "_nota": "Ficha de produção (motor v2, 08/11/2026). Estilos: #41 #25 #28 #39 + #35 #152 #36 + #163 #166 #169 #173 #176 #48 #103 (agencia/biblioteca-motion). Fotos em ../fotos/ (fora do Git).",
+ "beat_sync": true,
+ "voz_rate": "+4%",
+ "trilha": "trap-electro-vibes-112bpm.mp3",
+ "trilha_ini": 60,
+ "capa": {
+  "foto": "c15-rec2.png",
+  "palavra": "PULOU",
+  "manchete": "Por que ele",
+  "caixa": "pulou seu vídeo?",
+  "rotulo": "Gancho",
+  "fx": 0,
+  "fy": 170,
+  "fw": 1080,
+  "espelhar": false,
+  "wordTop": 300,
+  "wordSize": 520,
+  "headTop": 1330,
+  "tagTop": 1262
+ },
+ "cenas": [
+  {
+   "tipo": "contador",
+   "de": 2,
+   "texto": [
+    "segundos"
+   ],
+   "passo": 0.5,
+   "vfx": [
+    "punch"
+   ],
+   "hit": [
+    "segundos."
+   ]
+  },
+  {
+   "tipo": "banco",
+   "clip": "sorrindo-no-celular",
+   "texto": [
+    "Não é",
+    "a câmera."
+   ],
+   "hl": [
+    1
+   ],
+   "extra": "x",
+   "extraAt": "câmera.",
+   "size": 200,
+   "top": 420
+  },
+  {
+   "tipo": "banco",
+   "clip": "rolando-pagina-venda",
+   "mbV": true,
+   "texto": [
+    "“Oi, gente…”",
+    "pulou"
+   ],
+   "ancoras": {
+    "“Oi, gente…”": "oi,"
+   },
+   "hl": [
+    1
+   ],
+   "vfx": [
+    "glitch"
+   ],
+   "hit": [
+    "pulou."
+   ],
+   "som_hit": "glitch-quebra",
+   "size": 180,
+   "top": 560
+  },
+  {
+   "tipo": "lista",
+   "titulo": "O começo dói",
+   "fundo": "amarelo",
+   "itens": [
+    [
+     "1",
+     "Um erro"
+    ],
+    [
+     "2",
+     "Uma perda"
+    ],
+    [
+     "3",
+     "Uma pergunta"
+    ]
+   ],
+   "tempos_em": [
+    "doer:",
+    "erro,",
+    "perda"
+   ],
+   "texto": []
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Repara."
+   ],
+   "hl": [
+    0
+   ],
+   "vfx": [
+    "punch"
+   ],
+   "flash": true,
+   "hit": [
+    "Repara"
+   ],
+   "riser": true,
+   "size": 300,
+   "top": 660
+  },
+  {
+   "tipo": "lista",
+   "titulo": "A ordem",
+   "itens": [
+    [
+     "0 s",
+     "Pergunta"
+    ],
+    [
+     "2 s",
+     "Promessa"
+    ],
+    [
+     "FIM",
+     "Resposta"
+    ]
+   ],
+   "labW": 140,
+   "tempos_em": [
+    "Pergunta,",
+    "promessa,",
+    "resposta"
+   ],
+   "check": true,
+   "texto": []
+  },
+  {
+   "tipo": "cta",
+   "foto": "bio-que-vende-sobre-rec2.png",
+   "fx": 140,
+   "fy": 320,
+   "fw": 800,
+   "espelhar": false,
+   "etiquetas": [
+    "10 modelos",
+    "De começo"
+   ],
+   "vfx": [
+    "leak"
+   ]
+  },
+  {
+   "tipo": "banco",
+   "clip": "cidade-noite",
+   "texto": [
+    "Volta",
+    "e repara."
+   ],
+   "hl": [
+    1
+   ],
+   "vfx": [
+    "glitch",
+    "punch"
+   ],
+   "hit": [
+    "volta"
+   ],
+   "som_hit": "glitch-texto",
+   "size": 220,
+   "top": 560
+  }
+ ]
+}

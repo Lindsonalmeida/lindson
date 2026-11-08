@@ -1,0 +1,164 @@
+{
+ "_nota": "Ficha de produção (motor v2, 08/11/2026). Estilos: #41 #25 #28 #39 + #35 #152 #36 + #163 #166 #169 #173 #176 #48 #103 (agencia/biblioteca-motion). Fotos em ../fotos/ (fora do Git).",
+ "beat_sync": true,
+ "voz_rate": "+4%",
+ "trilha": "trap-electro-vibes-112bpm.mp3",
+ "trilha_ini": 20,
+ "capa": {
+  "foto": "c09-rec2.png",
+  "palavra": "SUMIU",
+  "manchete": "O cliente sumiu depois do",
+  "caixa": "orçamento?",
+  "rotulo": "WhatsApp",
+  "fx": 0,
+  "fy": 170,
+  "fw": 1080,
+  "espelhar": false,
+  "wordTop": 300,
+  "wordSize": 600,
+  "headTop": 1330,
+  "tagTop": 1262
+ },
+ "cenas": [
+  {
+   "tipo": "chat",
+   "nome": "Cliente (orçamento)",
+   "status": "visto por último hoje",
+   "msgs": [
+    [
+     "eu",
+     "Oi! Segue o orçamento 👇"
+    ],
+    [
+     "eu",
+     "E aí, pensou?"
+    ]
+   ],
+   "tempos_em": [
+    "orçamento",
+    "pensou?"
+   ],
+   "texto": [],
+   "hit": [
+    "pensou?"
+   ]
+  },
+  {
+   "tipo": "split",
+   "esq": "Erro",
+   "dir": "Acerto",
+   "texto": []
+  },
+  {
+   "tipo": "banco",
+   "clip": "escritorio-entediado",
+   "texto": [
+    "Erro:",
+    "cobrar"
+   ],
+   "hl": [
+    1
+   ],
+   "extra": "x",
+   "extraAt": "some",
+   "vfx": [
+    "glitch"
+   ],
+   "hit": [
+    "some"
+   ],
+   "som_hit": "glitch-quebra",
+   "size": 200,
+   "top": 480
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Acerto:",
+    "dar um",
+    "motivo"
+   ],
+   "hl": [
+    2
+   ],
+   "vfx": [
+    "punch"
+   ],
+   "size": 220,
+   "top": 620
+  },
+  {
+   "tipo": "frase",
+   "fundo": "amarelo",
+   "texto": [
+    "Não é",
+    "desconto."
+   ],
+   "riscoAt": "desconto.",
+   "riscoY": 250,
+   "vfx": [
+    "punch"
+   ],
+   "flash": true,
+   "size": 200,
+   "riser": true,
+   "hit": [
+    "desconto."
+   ],
+   "ancoras": {
+    "desconto.": "não"
+   }
+  },
+  {
+   "tipo": "chat",
+   "nome": "Cliente (orçamento)",
+   "msgs": [
+    [
+     "eu",
+     "Separei 2 opções pro seu caso. Quer que eu te mostre a mais em conta?"
+    ],
+    [
+     "ele",
+     "Quero sim! 🙌 (ilustrativo)"
+    ]
+   ],
+   "tempos_em": [
+    "separei",
+    "conta?"
+   ],
+   "texto": []
+  },
+  {
+   "tipo": "cta",
+   "foto": "kit-mes-pronto-sobre.png",
+   "fx": 90,
+   "fy": 340,
+   "fw": 900,
+   "espelhar": false,
+   "etiquetas": [
+    "5 mensagens",
+    "Prontas"
+   ],
+   "vfx": [
+    "leak"
+   ]
+  },
+  {
+   "tipo": "banco",
+   "clip": "empresario-mensagens",
+   "texto": [
+    "Antes que",
+    "ele",
+    "suma."
+   ],
+   "hl": [
+    2
+   ],
+   "vfx": [
+    "punch"
+   ],
+   "size": 200,
+   "top": 560
+  }
+ ]
+}

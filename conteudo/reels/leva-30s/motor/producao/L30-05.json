@@ -1,0 +1,169 @@
+{
+ "_nota": "Ficha de produção (motor v2, 08/11/2026). Estilos: #41 #25 #28 #39 + #35 #152 #36 + #163 #166 #169 #173 #176 #48 #103 (agencia/biblioteca-motion). Fotos em ../fotos/ (fora do Git).",
+ "beat_sync": true,
+ "voz_rate": "+4%",
+ "trilha": "pop-track-03-108bpm.mp3",
+ "trilha_ini": 10,
+ "capa": {
+  "foto": "c10-rec2.png",
+  "palavra": "MITO",
+  "manchete": "Instagram basta?",
+  "caixa": "Mito",
+  "rotulo": "Site",
+  "fx": 0,
+  "fy": 170,
+  "fw": 1080,
+  "espelhar": false,
+  "wordTop": 300,
+  "wordSize": 600,
+  "headTop": 1330,
+  "tagTop": 1262
+ },
+ "cenas": [
+  {
+   "tipo": "frase",
+   "texto": [
+    "Não preciso",
+    "de site."
+   ],
+   "carimbo": "MITO",
+   "carimboAt": "custa",
+   "vfx": [
+    "punch"
+   ],
+   "size": 180
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "3",
+    "coisas"
+   ],
+   "hl": [
+    0
+   ],
+   "vfx": [
+    "punch"
+   ],
+   "hit": [
+    "três"
+   ],
+   "size": 320,
+   "top": 600
+  },
+  {
+   "tipo": "banco",
+   "clip": "rolando-feed-cama",
+   "texto": [
+    "1 ·",
+    "Ele se",
+    "perde"
+   ],
+   "ancoras": {
+    "1 ·": "Um:"
+   },
+   "hl": [
+    2
+   ],
+   "vfx": [
+    "leak"
+   ],
+   "size": 200,
+   "top": 520
+  },
+  {
+   "tipo": "banco",
+   "clip": "empreendedora-notebook",
+   "texto": [
+    "2 ·",
+    "O Google"
+   ],
+   "ancoras": {
+    "2 ·": "Dois:"
+   },
+   "hl": [
+    1
+   ],
+   "sons": [
+    [
+     "Google",
+     "click",
+     0.8
+    ]
+   ],
+   "size": 200,
+   "top": 520
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "A que",
+    "mais",
+    "pesa…"
+   ],
+   "hl": [
+    1
+   ],
+   "vfx": [
+    "punch"
+   ],
+   "flash": true,
+   "hit": [
+    "pesa."
+   ],
+   "riser": true,
+   "size": 240,
+   "top": 620
+  },
+  {
+   "tipo": "lista",
+   "titulo": "Página que vende",
+   "itens": [
+    [
+     "1",
+     "O que você faz"
+    ],
+    [
+     "2",
+     "Fotos reais"
+    ],
+    [
+     "3",
+     "Botão pro zap"
+    ]
+   ],
+   "tempos_em": [
+    "simples",
+    "faz,",
+    "fotos"
+   ],
+   "check": true,
+   "texto": []
+  },
+  {
+   "tipo": "cta",
+   "foto": "kit-prospeccao-sobre.png",
+   "fx": 90,
+   "fy": 340,
+   "fw": 900,
+   "espelhar": false,
+   "etiquetas": [
+    "Demonstração",
+    "Com o seu nome"
+   ],
+   "vfx": [
+    "leak"
+   ]
+  },
+  {
+   "tipo": "frase",
+   "texto": [
+    "Ainda",
+    "basta?"
+   ],
+   "carimbo": "MITO",
+   "carimboAt": "basta?",
+   "size": 200
+  }
+ ]
+}
