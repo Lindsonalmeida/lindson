@@ -13,5 +13,5 @@ o símbolo vira grafismo e moldura de foto; storys em série com barra de progre
 - **Tipografia:** Inter Tight, de 400 a 800. Título curto, com a segunda linha em verde voto.
 - **Grafismo:** arcos com "cadeiras" (pontos), recorte diagonal, moldura de foto em arco.
 - **Peças:** `prancha.png`, `story-01/02/03.png` (série com progresso), `post-01.png`. Gerador: `gerar.js`.
-- A foto do professor fica como espaço reservado (artes com foto dos sócios suspensas pelo Lindson em 07/11).
-- Situação: **aguardando aprovação do Lindson.** Não substitui a v10 (preto e dourado, aprovada em 07/11) até ele escolher.
+- **Fotos dos sócios (08/11, pedido do Lindson):** story 2 "Quem ensina" (Tiago Azevedo e Rafael Araújo Veras no arco, com cargo e OAB/MA) e post com os dois recortados na diagonal. Fotos e peças com rosto ficam no privado `CentralLindsonALmeida/dados/clientes-arquivos/curso/` (`socios/` e `identidade-hemiciclo/`); gere com `SOCIOS=... SAIDA=... node gerar.js`.
+- Situação: **APROVADA pelo Lindson em 08/11 ("ótimo. aprovado")**: é a identidade oficial do curso a partir de agora; a v10 preto e dourado fica como histórico.

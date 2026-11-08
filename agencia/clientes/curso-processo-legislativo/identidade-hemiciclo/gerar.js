@@ -5,7 +5,11 @@
 // Evitado: serifa antiga e papel bege (identidade "Ata" reprovada em 07/11), balança, martelo e colunas.
 // Uso: node gerar.js  → prancha.png (1920x1080), story-01..03.png (1080x1920), post-01.png (1080x1350)
 const { chromium } = require('playwright'), path = require('path');
-const D = __dirname;
+const D = __dirname, fs = require('fs');
+// Fotos dos sócios ficam fora do repositório público: SOCIOS=<privado>/dados/clientes-arquivos/curso/socios · SAIDA=<pasta> (peças com rosto também ficam fora do Git)
+const SOC = process.env.SOCIOS || '/home/user/centrallindsonalmeida/dados/clientes-arquivos/curso/socios', OUT = process.env.SAIDA || D;
+const foto = f => { const p = path.join(SOC, f); return fs.existsSync(p) ? 'data:image/' + (p.endsWith('.png') ? 'png' : 'jpeg') + ';base64,' + fs.readFileSync(p).toString('base64') : null; };
+const TIAGO = foto('tiago-azevedo.jpg'), RAFAEL = foto('rafael-araujo-veras.jpg'), TIAGOc = foto('cut-tiago-azevedo/recorte-limpo.png'), RAFAELc = foto('cut-rafael-araujo-veras/recorte-limpo.png');
 const C = { esc: '#08231A', esc2: '#0E3324', viv: '#35D48A', neu: '#F2F2EE', cinza: '#9DB3A8' };
 const base = `*{box-sizing:border-box;margin:0;padding:0}html,body{background:#000}
 body{font-family:'Inter Tight',sans-serif}
@@ -54,12 +58,15 @@ const P = {
  s2: { w: 1080, h: 1920, html: `<div class="neu" style="position:relative;width:1080px;height:1920px;overflow:hidden">
    <div class="abs" style="left:80px;right:80px;top:96px;display:flex;gap:10px">${[1, 1, 0].map(f => `<div style="flex:1;height:6px;border-radius:9px;background:${f ? C.esc : 'rgba(8,35,26,.18)'}"></div>`).join('')}</div>
    <div class="abs" style="left:80px;top:170px">${logo(C.esc, '#1E9E62', .9)}</div>
-   <div class="abs" style="left:150px;right:150px;top:470px;height:900px;border-radius:390px 390px 30px 30px;overflow:hidden;background:${C.esc}">
-     <svg class="abs" style="left:0;top:0" width="780" height="900">${arcos(390, 900, 110, 8, 70, C.viv, .25, true)}</svg>
-     <div class="abs" style="left:0;right:0;top:300px;text-align:center">${simbolo(220, C.viv, C.esc)}</div>
-     <div class="abs r" style="left:0;right:0;bottom:50px;text-align:center;color:${C.viv}">Foto do professor aqui</div></div>
-   <div class="abs t" style="left:80px;right:80px;top:1420px;font-size:76px;color:${C.esc}">Tiago Azevedo</div>
-   <div class="abs" style="left:80px;right:80px;top:1510px;font:600 34px/1.3 'Inter Tight';color:${C.esc};opacity:.8">Vice-presidente da Comissão de Direito Parlamentar e Processo Legislativo · <b>OAB/MA</b></div></div>` },
+   <div class="abs r" style="left:80px;top:400px;color:#1E9E62">Quem ensina</div>
+   ${[[TIAGO, 'Tiago Azevedo', 'Vice-presidente da Comissão de Direito Parlamentar e Processo Legislativo', 80], [RAFAEL, 'Rafael Araújo Veras', 'Presidente da Comissão de Direito Parlamentar e Processo Legislativo', 560]].map(([f, n, c, x]) => `
+   <div class="abs" style="left:${x}px;top:470px;width:440px;height:700px;border-radius:220px 220px 26px 26px;overflow:hidden;background:${C.esc}">
+     ${f ? `<img src="${f}" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 12%">` : ''}
+     <div class="abs" style="left:0;right:0;bottom:0;height:200px;background:linear-gradient(180deg,transparent,rgba(8,35,26,.85))"></div>
+     <svg class="abs" style="left:0;top:0" width="440" height="700"><path d="M 14 700 L 14 220 A 206 206 0 0 1 426 220 L 426 700" fill="none" stroke="${C.viv}" stroke-width="6" stroke-opacity=".9"/></svg></div>
+   <div class="abs" style="left:${x}px;top:1205px;width:440px"><div class="t" style="font-size:50px;color:${C.esc}">${n}</div>
+     <div style="font:600 26px/1.3 'Inter Tight';color:${C.esc};opacity:.78;margin-top:12px">${c} · <b>OAB/MA</b></div></div>`).join('')}
+   <div class="abs" style="left:80px;right:80px;bottom:330px;font:700 34px 'Inter Tight';color:#1E9E62">Toque para continuar →</div></div>` },
  s3: { w: 1080, h: 1920, html: `<div class="esc" style="position:relative;width:1080px;height:1920px;overflow:hidden">
    ${progresso(3, 3)}
    <div class="abs" style="left:80px;top:170px">${logo(C.neu, C.viv, .9)}</div>
@@ -72,6 +79,9 @@ const P = {
    <div class="abs" style="left:0;top:0;width:1080px;height:640px;background:${C.viv};clip-path:polygon(0 0,100% 0,100% 72%,0 100%)"></div>
    <svg class="abs" style="left:0;top:0;clip-path:polygon(0 0,100% 0,100% 72%,0 100%)" width="1080" height="640">${arcos(540, 640, 120, 7, 64, C.esc, .18, true)}</svg>
    <div class="abs" style="left:84px;top:84px">${logo(C.esc, C.esc, .8, C.esc, C.viv)}</div>
+   <div class="abs" style="left:0;top:0;width:1080px;height:640px;clip-path:polygon(0 0,100% 0,100% 72%,0 100%)">
+   ${RAFAELc ? `<img class="abs" src="${RAFAELc}" style="left:560px;top:150px;height:560px;filter:drop-shadow(0 20px 30px rgba(0,0,0,.35))">` : ''}
+   ${TIAGOc ? `<img class="abs" src="${TIAGOc}" style="left:150px;top:170px;height:600px;filter:drop-shadow(0 20px 30px rgba(0,0,0,.35))">` : ''}</div>
    <div class="abs r" style="left:84px;top:700px;color:${C.viv}">Turma básica</div>
    <div class="abs t" style="left:84px;right:84px;top:750px;font-size:96px">Saia do improviso na <span class="viv">câmara municipal.</span></div>
    <div class="abs" style="left:84px;right:84px;bottom:90px;display:flex;justify-content:space-between;align-items:end;font:600 28px 'Inter Tight'"><span>Tiago Azevedo · Rafael Araújo Veras<br><span style="opacity:.7">OAB/MA</span></span><span class="viv">@curso_processo_legislativo_</span></div></div>` },
@@ -83,7 +93,7 @@ const P = {
     await p.setContent(`<!doctype html><html><head><meta charset="utf-8"><link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&display=swap" rel="stylesheet"><style>${base}</style></head><body>${x.html}</body></html>`, { waitUntil: 'networkidle' });
     await p.waitForTimeout(500);
     const arq = { prancha: 'prancha.png', s1: 'story-01.png', s2: 'story-02.png', s3: 'story-03.png', post: 'post-01.png' }[nome];
-    await p.screenshot({ path: path.join(D, arq) }); console.log('ok', arq);
+    await p.screenshot({ path: path.join(OUT, arq) }); console.log('ok', arq);
   }
   await b.close();
 })();

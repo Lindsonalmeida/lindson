@@ -87,3 +87,12 @@ Origem das três fotos: reel do Instagram do sócio, captura enviada pelo Lindso
 **Limite:** nenhum quadro das três capturas traz pergunta sobre quórum. A capa 2 usa a pergunta mais próxima e o Lindson pode trocar o quadro se houver outro reel.
 **Resolução:** os quadros são de cerca de 350 px de largura nas grades. Os recortes têm 204 a 222 px de largura e foram ampliados 2x (Lanczos) para a arte. A capa 3 é a mais ampliada (cerca de 2,3x).
 **Legenda:** só o nome, sem cargo. O cargo de cartaz não foi conferido porque o cartaz não está no repositório.
+
+## Fotos dos sócios (08/11, conta Leandro)
+| Arquivo (privado) | Pessoa | Onde foi usada |
+|---|---|---|
+| `socios/tiago-azevedo.jpg` | Tiago Azevedo | identidade Hemiciclo: story 2 e post 01 (recorte) |
+| `socios/rafael-araujo-veras.jpg` | Rafael Araújo Veras | identidade Hemiciclo: story 2 e post 01 (recorte) |
+
+Só há 1 foto de cada um: as duas já foram usadas. Para os próximos posts, pedir 5 a 10 fotos novas de cada sócio.
+
