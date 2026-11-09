@@ -35,7 +35,7 @@
 .st .nome{bottom:520px}.st .script{bottom:400px}.st .rod{bottom:250px}.st .chao{height:640px;background:linear-gradient(180deg,rgba(255,246,234,0),#FFF6EA 45%)}
 </style></head><body><div id="arte"></div><script>
 const d=window.DADOS,nome=(d.nome1+' '+(d.nome2||'')).trim();
-const frase=(d.frase||'').split('|').map(t=>`<span>${t.trim()}</span>`).join('<br>');
+const frase=(d.frase||'').split('|').filter(t=>t.trim()).map(t=>`<span>${t.trim()}</span>`).join('<br>');
 const [dia,mes]=(d.dataCurta||'').split(' ');
 document.getElementById('arte').innerHTML=`<div class="arte${d.story?' st':''}"><div class="a grao"></div><div class="a luz"></div>
 <div class="a pill"><img src="${d.avatar}">@_leonardopinto</div>
