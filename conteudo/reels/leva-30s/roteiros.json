@@ -543,9 +543,9 @@
    "voz": "Voz clonada do Lindson no Dublê, gerada nos blocos abaixo (até ~220 caracteres), pausa ~0,2 s entre frases, sem respiração artificial.",
    "narracao_palavras": 82,
    "blocos_voz": [
-    "O cliente pediu orçamento e sumiu. E você mandou: e aí, pensou? Essa mensagem afasta. Olha o erro e o acerto. Erro: cobrar resposta. A pessoa se sente pressionada e some de vez. Acerto: dar um motivo pra ela responder.",
-    "E esse motivo não é desconto. Manda assim: separei duas opções pro seu caso. Quer que eu te mostre a mais em conta? Comenta SUMIU que eu te mando cinco mensagens prontas pra cliente que sumiu.",
-    "Antes que ele feche com outro."
+    "O cliente pediu orçamento… e sumiu! E você mandou: “e aí, pensou?” Essa mensagem afasta! Olha o erro e o acerto. Erro: cobrar resposta. A pessoa se sente pressionada, e some de vez! Acerto: dar um motivo pra ela responder.",
+    "E esse motivo não é desconto! Manda assim: “separei duas opções pro seu caso, quer que eu te mostre a mais em conta?” Comenta SUMIU, que eu te mando cinco mensagens prontas pra cliente que sumiu!",
+    "Antes que ele feche com outro!"
    ],
    "cenas": [
     {
@@ -710,8 +710,8 @@
    "voz": "Voz clonada do Lindson no Dublê, gerada nos blocos abaixo (até ~220 caracteres), pausa ~0,2 s entre frases, sem respiração artificial.",
    "narracao_palavras": 82,
    "blocos_voz": [
-    "Tenho Instagram, não preciso de site. Isso custa cliente. É mito. E eu te mostro em três coisas. Um: no Instagram, o cliente se perde entre post e story. Dois: quem procura no Google nem sempre chega no seu perfil.",
-    "E a terceira é a que mais pesa. Uma página simples passa confiança: o que você faz, fotos reais e botão pro WhatsApp. Comenta SITE que eu monto uma demonstração com o nome do seu negócio.",
+    "“Tenho Instagram, não preciso de site.” Isso custa cliente! É mito, e eu te mostro em três coisas. Um: no Instagram, o cliente se perde entre post e story. Dois: quem procura no Google, nem sempre chega no seu perfil.",
+    "E a terceira é a que mais pesa! Uma página simples passa confiança: o que você faz, fotos reais, e botão pro WhatsApp. Comenta SITE, que eu monto uma demonstração com o nome do seu negócio!",
     "Ainda acha que o Instagram basta?"
    ],
    "cenas": [
@@ -880,8 +880,8 @@
    "voz": "Voz clonada do Lindson no Dublê, gerada nos blocos abaixo (até ~220 caracteres), pausa ~0,2 s entre frases, sem respiração artificial.",
    "narracao_palavras": 81,
    "blocos_voz": [
-    "Post de data comemorativa? Tá no fundo dessa lista. O primeiro lugar quase ninguém faz. Nível D: data comemorativa. Todo mundo posta igual. C: foto de produto solta, sem dizer como pedir. B: dica útil. Sozinha não vende.",
-    "A: bastidor. Mostra quem faz e como faz. E o S: cliente real contando como foi, com o botão pro WhatsApp do lado. Comenta ROTEIRO que eu te mando três roteiros pro seu negócio. E o seu último post, tá em qual nível?"
+    "Post de data comemorativa? Tá no fundo dessa lista! O primeiro lugar, quase ninguém faz. Nível D: data comemorativa. Todo mundo posta igual! C: foto de produto solta, sem dizer como pedir. B: dica útil. Sozinha, não vende!",
+    "A: bastidor. Mostra quem faz, e como faz! E o S: cliente real contando como foi, com o botão pro WhatsApp do lado! Comenta ROTEIRO, que eu te mando três roteiros pro seu negócio. E o seu último post, tá em qual nível?"
    ],
    "cenas": [
     {
@@ -1061,8 +1061,8 @@
    "voz": "Voz clonada do Lindson no Dublê, gerada nos blocos abaixo (até ~220 caracteres), pausa ~0,2 s entre frases, sem respiração artificial.",
    "narracao_palavras": 77,
    "blocos_voz": [
-    "Pare de colocar o link do zap assim. Tá perdendo conversa. Ele toca, abre o zap… e trava. Não sabe o que escrever. Ele fecha e deixa pra depois. E o depois não chega. O conserto leva um minuto.",
-    "Depois do seu número, coloca interrogação, text, igual, e a mensagem: oi, vim pelo Instagram. Pronto: a mensagem já vem escrita. Comenta LINK que a minha equipe monta o seu. E para de perder conversa no primeiro toque."
+    "Pare de colocar o link do zap assim! Tá perdendo conversa! Ele toca, abre o zap, e trava. Não sabe o que escrever! Ele fecha, e deixa pra depois. E o depois não chega! O conserto leva um minuto.",
+    "Depois do seu número, coloca interrogação, text, igual, e a mensagem: “oi, vim pelo Instagram.” Pronto! A mensagem já vem escrita. Comenta LINK, que a minha equipe monta o seu! E para de perder conversa no primeiro toque!"
    ],
    "cenas": [
     {
@@ -1223,8 +1223,8 @@
    "voz": "Voz clonada do Lindson no Dublê, gerada nos blocos abaixo (até ~220 caracteres), pausa ~0,2 s entre frases, sem respiração artificial.",
    "narracao_palavras": 83,
    "blocos_voz": [
-    "Você posta o que dá na cabeça. É por isso que não vende. Olha como eu monto a semana de um cliente. Um: as perguntas que ele mais ouve no balcão. Cada uma vira post. Dois: separo em atrair, confiar e chamar.",
-    "Mas o que muda tudo é o terceiro passo. Dia e horário fixos. Segunda a dor, quarta o bastidor, sexta o convite. Comenta CALENDÁRIO que eu te mando uma semana pronta pra copiar. E amanhã você já sabe o que postar."
+    "Você posta o que dá na cabeça? É por isso que não vende! Olha como eu monto a semana de um cliente. Um: as perguntas que ele mais ouve no balcão. Cada uma vira post! Dois: separo em atrair, confiar, e chamar.",
+    "Mas o que muda tudo, é o terceiro passo! Dia e horário fixos. Segunda, a dor. Quarta, o bastidor. Sexta, o convite! Comenta CALENDÁRIO, que eu te mando uma semana pronta pra copiar. E amanhã, você já sabe o que postar!"
    ],
    "cenas": [
     {
@@ -1391,9 +1391,9 @@
    "voz": "Voz clonada do Lindson no Dublê, gerada nos blocos abaixo (até ~220 caracteres), pausa ~0,2 s entre frases, sem respiração artificial.",
    "narracao_palavras": 83,
    "blocos_voz": [
-    "Por que ninguém assiste seu vídeo até o fim? Tá nos dois primeiros segundos. E não é a qualidade da câmera. Você começa com: oi, gente, tudo bem? Ali ele já pulou.",
-    "O começo tem que doer: um erro, uma perda ou uma pergunta. Repara no que eu fiz no começo desse vídeo. Pergunta, promessa, e a resposta guardada pro fim. Por isso você ainda tá aqui.",
-    "Comenta GANCHO que eu te mando dez modelos de começo. Agora volta pro começo e repara."
+    "Por que ninguém assiste seu vídeo até o fim? Tá nos dois primeiros segundos! E não é a qualidade da câmera. Você começa com: “oi, gente, tudo bem?” Ali, ele já pulou!",
+    "O começo tem que doer: um erro, uma perda, ou uma pergunta! Repara no que eu fiz no começo desse vídeo. Pergunta, promessa, e a resposta guardada pro fim. Por isso, você ainda tá aqui!",
+    "Comenta GANCHO, que eu te mando dez modelos de começo! Agora, volta pro começo, e repara."
    ],
    "cenas": [
     {
@@ -1556,9 +1556,9 @@
    "voz": "Voz clonada do Lindson no Dublê, gerada nos blocos abaixo (até ~220 caracteres), pausa ~0,2 s entre frases, sem respiração artificial.",
    "narracao_palavras": 77,
    "blocos_voz": [
-    "Seu perfil espanta cliente. Te desafio a consertar em sete dias. Uma tarefa curta por dia. Dia um: troca a foto. Rosto de frente, bem iluminado. Dia dois: bio com o que você faz e pra quem.",
-    "Dia três: link do WhatsApp com mensagem pronta. E os dias seis e sete são os que trazem conversa. Quatro: destaques. Cinco: prova. Seis: convite direto. Sete: resposta rápida. Comenta DESAFIO que eu te mando o checklist.",
-    "Dia um. Agora."
+    "Seu perfil espanta cliente! Te desafio a consertar em sete dias. Uma tarefa curta por dia! Dia um: troca a foto. Rosto de frente, bem iluminado! Dia dois: bio com o que você faz, e pra quem.",
+    "Dia três: link do WhatsApp, com mensagem pronta! E os dias seis e sete, são os que trazem conversa. Quatro: destaques. Cinco: prova. Seis: convite direto. Sete: resposta rápida! Comenta DESAFIO, que eu te mando o checklist!",
+    "Dia um. Agora!"
    ],
    "cenas": [
     {
