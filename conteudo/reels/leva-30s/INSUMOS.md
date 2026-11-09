@@ -62,9 +62,16 @@ Licença Mixkit (sem Content ID).
 
 ## 5. Narração
 
-- **Voz clonada (Dublê):** o Chatterbox Multilingual **roda aqui na CPU**. Instalado num venv separado (torch CPU + chatterbox-tts), o `apps/clone-studio/motor_voz.py` gerou 5 s de fala em 69 s, contando ~35 s de carga. Uma narração de 25 s leva ~4 a 5 min. O teste usou uma referência sintética, nunca a voz de outra pessoa. O script já está pronto: `motor/gerar_voz.py`. Ele lê `agencia/marca-lindson/voz/ref.wav` (pasta no `.gitignore`) e renderiza a leva inteira com a voz dele, em blocos de até ~220 caracteres.
-- **v1 (esta leva):** voz provisória pt-BR-AntonioNeural (edge-tts), também em blocos, com tempo de cada palavra e pausas encurtadas para ~0,24 s. Os vídeos saem com a etiqueta "RASCUNHO · VOZ PROVISÓRIA" e o nome `-v1-voz-provisoria`.
-- **Falta:** o áudio de referência do Lindson. Os 2 áudios de WhatsApp de 02/11 e 19/10 ficaram só na sessão da conta Pedro.
+- **A voz do Lindson chegou (09/11).** A referência fica em `agencia/marca-lindson/voz/ref.wav`, com as amostras, fora do Git. O `motor/gerar_voz_lindson.py` (conta Zuleide) gera cada bloco do roteiro com o Chatterbox Multilingual na CPU e grava `voz/NN-bK.wav` e `voz/NN.wav`. O teste de 10 s levou ~4 min contando a carga. A leva inteira leva ~1,5 a 2 h na CPU.
+- O motor usa os blocos com `python3 render_leva.py --voz lindson`. Para cada bloco ele:
+  - limpa as pontas;
+  - encurta pausas internas maiores que 0,26 s;
+  - cola os blocos com 0,22 s;
+  - estima o tempo das palavras pelas pausas e pelas letras.
+
+  Se a fala passar de 28,6 s, ele acelera até 15% sem mudar o tom. Saída: `render/NN-slug-v2-voz-lindson.mp4`, sem a etiqueta de rascunho.
+- A v1 (`-v1-voz-provisoria`) usou pt-BR-AntonioNeural só como rascunho, com a etiqueta "RASCUNHO · VOZ PROVISÓRIA".
+- **Atenção:** em alguns blocos o Chatterbox avisa "forcing EOS token". Quando isso acontece, ele pode cortar o fim da frase. Antes de publicar, ouça o fim de cada Reels; se faltar fala, apague o `voz/NN-bK.wav` daquele bloco e rode o gerador de novo, só para aquele NN.
 
 ## 6. Lip-sync na CPU (teste)
 

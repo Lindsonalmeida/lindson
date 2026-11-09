@@ -173,8 +173,8 @@ B.split=(L,s)=>{const a=el(`<div class="abs" style="left:0;top:0;width:540px;hei
  a.append(la);b.append(lb);const vs=el(`<div class="abs A" style="left:450px;top:900px;width:180px;height:180px;border-radius:50%;background:#fff;color:#0B0B0B;border:8px solid #0B0B0B;box-shadow:10px 10px 0 #0B0B0B;display:flex;align-items:center;justify-content:center;font-size:96px">×</div>`);
  const lk=el(`<div class="abs" style="left:500px;top:0;width:80px;height:1920px;background:linear-gradient(90deg,transparent,rgba(255,200,80,.9),transparent);mix-blend-mode:screen"></div>`);L.append(a,b,lk,vs);
  return lt=>{const k=eo(p(lt,.05,.5));a.style.transform=`translateY(${(1-k)*-1920}px)`;b.style.transform=`translateY(${(1-k)*1920}px)`;
-  la.style.opacity=p(lt,.4,.2);lb.style.opacity=p(lt,.6,.2);vs.style.transform=`scale(${eel(p(lt,.7,.6))}) rotate(${Math.sin(lt*3)*8}deg)`;lk.style.opacity=Math.sin(Math.PI*p(lt,.3,.8))}};
-B.split.sfx=s=>[[.05,'whoosh-cinematico',.8],[.7,'pop-forte',.8]];
+  la.style.opacity=p(lt,.2,.15);lb.style.opacity=p(lt,.3,.15);vs.style.transform=`scale(${eel(p(lt,.25,.45))}) rotate(${Math.sin(lt*3)*8}deg)`;lk.style.opacity=Math.sin(Math.PI*p(lt,.3,.8))}};
+B.split.sfx=s=>[[.05,'whoosh-cinematico',.8],[.25,'pop-forte',.8]];
 // conversa de WhatsApp (ilustrativa): balões entram nos tempos marcados, "digitando…" antes da resposta
 B.chat=(L,s)=>{L.append(el(`<div class="abs" style="inset:0;background:radial-gradient(70% 50% at 50% 40%,#231d08,#0B0B0B 70%)"></div>`));
  const ph=el(`<div class="phone" style="top:${s.top||300}px"><div class="s" style="background:#ECE5DD"><div class="isl"></div>
@@ -197,7 +197,7 @@ B.tier=(L,s)=>{L.append(el(`<div class="abs" style="inset:0;background:#0B0B0B">
  const card=s.cartao?el(`<div class="abs" style="left:300px;width:520px;padding:26px;background:${s.nivel==='S'?'#F5C518':'#fff'};color:#0B0B0B;border:6px solid #0B0B0B;box-shadow:12px 12px 0 #000;border-radius:14px;font:400 58px/1 Anton;text-transform:uppercase;text-align:center">${s.cartao}</div>`):null;if(card)L.append(card);
  const ri=T.indexOf(s.nivel||'D');const ca=s.cartaoAt??.3;
  return lt=>{rows.forEach((r,i)=>{r.style.opacity=p(lt,0,.15);r.firstElementChild.style.filter=i===ri&&lt>ca+.4?`brightness(${1+Math.abs(Math.sin(lt*8))*.4})`:'none'});
-  if(card){const k=eob(p(lt,ca,.5));card.style.top=lerp(-300,330+ri*205+20,k)+'px';card.style.transform=`rotate(${lerp(-14,-2,k)}deg) scale(${lerp(1.2,.82,k)})`}}};
+  if(card){const k=eo(p(lt,ca,.45));card.style.top=lerp(-300,330+ri*205+20,k)+'px';card.style.transform=`rotate(${lerp(-14,-2,k)}deg) scale(${lerp(1.2,.82,k)})`}}};
 B.tier.sfx=s=>s.cartao?[[(s.cartaoAt??.3)+.4,s.nivel==='S'?'notificacao-positiva':'pop-forte',1]]:[];
 // foto do Lindson SEM fala (#25 parallax + #36 collage): ele em cena, manchete ao lado/abaixo, etiquetas; sem legenda
 B.foto=(L,s)=>{L.append(el(`<div class="abs" style="inset:0;background:${s.fundo==='amarelo'?'#F5C518':'radial-gradient(60% 40% at 50% 34%,#6b4d06 0%,#2a1f05 38%,#0B0B0B 72%)'}"></div>`));

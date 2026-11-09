@@ -131,7 +131,34 @@ def _alinha(txt, a, t0):
     return words
 
 
+def comprime_silencios(a, maxp=0.26, lim_db=-38):
+    """Voz fluida (regra do Dublê): silêncio interno maior que maxp vira maxp."""
+    e = np.convolve(np.abs(a), np.ones(441) / 441, 'same'); on = e > e.max() * 10 ** (lim_db / 20)
+    out, i, n, keep = [], 0, len(a), int(maxp * S)
+    while i < n:
+        j = i
+        while j < n and on[j] == on[i]: j += 1
+        seg = a[i:j]
+        if not on[i] and len(seg) > keep: seg = np.concatenate([seg[:keep // 2], seg[-keep // 2:]])
+        out.append(seg); i = j
+    return np.concatenate(out)
+
+
+def arquivos(blocos, nn, pasta, pausa=0.22):
+    """Voz já gerada (gerar_voz_lindson.py: <pasta>/<nn>-bK.wav, um arquivo por bloco). Limpa as pontas,
+    encurta pausas longas, cola os blocos com ~0,22 s e estima o tempo de cada palavra."""
+    out, words, t = [], [], 0.0
+    for k, b in enumerate(blocos):
+        a = _wav(os.path.join(pasta, f'{nn}-b{k + 1}.wav')); a, _ = _apara(a); a = comprime_silencios(a)
+        a = a / (np.abs(a).max() + 1e-9) * .95
+        words += _alinha(b, a, t); out.append(a); t += len(a) / S
+        if k < len(blocos) - 1:
+            out.append(np.zeros(int(pausa * S), np.float32)); t += pausa
+    return np.concatenate(out), words
+
+
 def narrar(blocos, modo='provisoria', **k):
+    if modo == 'lindson': return arquivos(blocos, **k)
     return duble(blocos, **k) if modo == 'duble' else provisoria(blocos, **k)
 
 

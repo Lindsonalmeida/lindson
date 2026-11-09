@@ -46,9 +46,16 @@ def norm(w):
 blocos = R['blocos_voz']
 rate = P.get('voz_rate', '+10%')
 for tent in range(4):
-    audio, bw = voz.narrar(blocos, a.voz, **({'rate': rate} if a.voz == 'provisoria' else {}))
+    kw = {'rate': rate} if a.voz == 'provisoria' else {}
+    if a.voz == 'lindson': kw = {'nn': f"{R['ordem']:02d}", 'pasta': os.path.join(LEVA, 'voz')}
+    audio, bw = voz.narrar(blocos, a.voz, **kw)
     if len(audio) / S <= P.get('voz_max', 28.6) or a.voz != 'provisoria': break
     rate = f'+{int(rate.strip("+%")) + 6}%'
+if a.voz != 'provisoria' and len(audio) / S > P.get('voz_max', 28.6):  # cabe em 30 s: acelera sem mudar o tom (até 15%)
+    f = min(1.15, len(audio) / S / P.get('voz_max', 28.6)); tmpw = os.path.join(W, 'vz.wav'); sf.write(tmpw, audio, S)
+    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', tmpw, '-af', f'atempo={f:.4f}', tmpw + '.o.wav'], check=True)
+    audio, _ = sf.read(tmpw + '.o.wav', dtype='float32'); bw = [(w, s0 / f, e0 / f) for w, s0, e0 in bw]
+    print(f'voz acelerada {f:.3f}x')
 V0 = P.get('voz_ini', 0.25)
 bw = [(w, s + V0, e + V0) for w, s, e in bw]
 print(f'voz {a.voz}: {len(audio)/S:.1f} s, rate {rate}')
@@ -153,7 +160,7 @@ for s in segs:
             d = os.path.join(W, 'clips', s[key]); os.makedirs(d)
             subprocess.run(['ffmpeg', '-v', 'error', '-i', src, '-vf', 'fps=30,scale=1080:1920', '-q:v', '3', d + '/%04d.jpg'], check=True)
             clips[s[key]] = len(os.listdir(d))
-TL = dict(segs=segs, total=TOTAL, clips=clips, rascunho='RASCUNHO · VOZ PROVISÓRIA' if a.voz != 'duble' else '')
+TL = dict(segs=segs, total=TOTAL, clips=clips, rascunho='RASCUNHO · VOZ PROVISÓRIA' if a.voz == 'provisoria' else '')
 json.dump(TL, open(OUT + '/timeline.json', 'w'), ensure_ascii=False, indent=1)
 open(W + '/palco.html', 'w').write(open(M + '/palco.html').read().replace('__TL__', json.dumps(TL, ensure_ascii=False)))
 

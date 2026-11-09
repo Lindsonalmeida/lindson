@@ -12,7 +12,9 @@ python3 render_leva.py                 # os 10 com voz provisória -> ../render/
 python3 render_leva.py L30-04          # só um
 python3 reel.py L30-01 --step 15 --saida /tmp/p   # prévia rápida (só quadros), para ajustar a ficha
 python3 reel.py L30-01 --capa amarelo,preto       # capas nas duas cores (comparação)
-python3 gerar_voz.py                   # TROCA A VOZ: todos com a voz clonada do Lindson (precisa de agencia/marca-lindson/voz/ref.wav)
+python3 gerar_voz_lindson.py           # gera ../voz/NN-bK.wav com a voz clonada do Lindson (ref.wav fora do Git; ~1,5-2 h na CPU)
+python3 render_leva.py --voz lindson   # VERSÃO FINAL: usa ../voz/ -> ../render/NN-slug-v2-voz-lindson.mp4
+python3 gerar_voz.py                   # alternativa: gera e renderiza direto pelo motor do Dublê (modo duble)
 ```
 
 Dependências:
@@ -26,7 +28,7 @@ Dependências:
 | Arquivo | O que faz |
 |---|---|
 | `reel.py` | Faz um Reels inteiro: voz, tempo das cenas pela fala, capa, quadros, mixagem e mp4 |
-| `voz.py` | Narração em blocos. Modo `provisoria` (edge-tts pt-BR-AntonioNeural, com o tempo de cada palavra e pausa ~0,24 s) ou modo `duble` (voz clonada pelo `apps/clone-studio/motor_voz.py`, Chatterbox) |
+| `voz.py` | Narração em blocos. Modo `lindson` (lê os blocos já gerados em `../voz/`), modo `provisoria` (edge-tts pt-BR-AntonioNeural, com o tempo de cada palavra e pausa ~0,24 s) ou modo `duble` (voz clonada pelo `apps/clone-studio/motor_voz.py`, Chatterbox) |
 | `palco.html` | O palco. Tipos de cena: `banco`, `impacto`, `contador`, `perfil`, `frase`, `lista`, `split`, `chat`, `tier`, `foto`, `cta`. Cuida também de legenda, grão, light leak, flash, glitch, motion blur, zoom punch e shake |
 | `capa.html` | Capa 1080×1920 com o miolo 4:5 seguro (y 285–1635). O amarelo segue o modelo aprovado c2y; o preto usa fundo escuro com a foto colorida e o amarelo só no acento |
 | `producao/<id>.json` | Ficha de cada Reels: trilha, capa, e para cada cena o tipo, o clipe, a foto, as âncoras (palavra da fala que dispara cada coisa), os impactos, os VFX e os sons |

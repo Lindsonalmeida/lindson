@@ -15,7 +15,7 @@ a = ap.parse_args()
 rot = json.load(open(os.path.join(LEVA, 'roteiros.json')))['reels']
 ids = a.ids or [r['id'] for r in rot]
 os.makedirs(OUT + '/conferencia', exist_ok=True)
-SUF = '-v1-voz-provisoria' if a.voz != 'duble' else '-v2'
+SUF = {'provisoria': '-v1-voz-provisoria', 'lindson': '-v2-voz-lindson'}.get(a.voz, '-v2')
 
 
 SLUG = {'L30-01': 'pov-perfil-3-segundos', 'L30-02': 'bio-que-espanta', 'L30-03': 'ninguem-le-a-legenda', 'L30-04': 'cliente-sumiu',
