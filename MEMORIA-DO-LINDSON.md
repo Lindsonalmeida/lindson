@@ -444,3 +444,5 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 
 
 - 08/11/2026 (conta Leandro): regra do Lindson: "sempre que postar, marque como postado no painel". Vale para toda postagem (manual ou automação): marcar o item como postado na aba Aprovados (`/api/automacao?cli=<cliente>` faz isso).
+
+- 09/11/2026 (conta Leandro): regra do Lindson: "Só storys sempre pra aniversário". Aniversário do Leo (e de qualquer cliente) = só story 1080×1920 no modelo B; nada de feed.

@@ -2,6 +2,8 @@
 
 Pedido do Lindson (03/11): "crie um modelo para aniversário de pessoas" + "crie um modelo que será usado para todos os aniversariantes" + "siga a regra de sempre buscar referências premium". Primeiro aniversariante: **Josef Figueiredo** (foto dele com o Leo num evento).
 
+**REGRA (Lindson, 09/11/2026): aniversário = SÓ STORY, sempre (`"story":true`). Não fazer versão de feed.**
+
 **Um modelo só para todos (versão 2, detalhada):** muda só nome, data, foto, frase e cor. Composição combinada de 3 modelos externos do Designi (Carla Silva, Pr André Vieira, Pedro Sampaio): parede de PARABÉNS, "parabéns" manuscrito, pessoa com contorno de luz, nome em caixas inclinadas, frase grifada. Ver `TEMPLATE.md`. A v1 (simples) foi reprovada.
 - **Cor:** `laranja` (principal) ou `azul` (use azul quando a roupa da pessoa for laranja, como a do Josef). No feed, alternar com o post anterior (xadrez).
 - **Foto:** a pessoa (de preferência com o Leo) recortada, saindo pela base da arte. Foto de pessoa **não vai para o Git**.
