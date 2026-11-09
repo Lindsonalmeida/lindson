@@ -415,3 +415,4 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 
 - **09/11/2026 (Zuleide) · APROVADO:** Reels 30s 01, 02 e 03 com a voz 6 ("ficaram ótimos, pode pedir pro windsor postar"). Agenda: 01 em 09/11 16h45, 02 em 10/11 12h, 03 em 10/11 16h; carrossel "5 coisas" foi para 10/11 20h.
 - **09/11/2026 (Zuleide) · REGRA de narração:** o texto da voz leva pontuação expressiva para dar entonação: abertura com "!" ou "?", vírgulas para o ritmo, e fim com "!" ou ".". Aplicada nos roteiros 04 a 10 (`conteudo/reels/leva-30s/roteiros.json`, `blocos_voz`).
+- **09/11/2026 (Zuleide) · REGRA de agenda:** todos os posts de 4 em 4 h (08h45, 12h45, 16h45, 20h45), feed xadrez (cor alterna) e vídeo intercalado com estático.
