@@ -1,0 +1,627 @@
+<!doctype html>
+<html lang="pt-BR">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0B0B0B">
+<title>Central de Comando</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=JetBrains+Mono:wght@400;500;700&family=Manrope:wght@400;500;600;700;800&display=swap">
+<style>
+/* Central de Comando do Lindson (conta Leandro, 09/11/2026). Fonte: agencia/sistema-clientes/comando/ (repositório lindson).
+   Sistema no visual do modelo da Central: menu lateral, cartões de números, telas e animações do movimento.js.
+   Referências: Linear (grade fina e rótulos mono), Teenage Engineering OP-1 (teclas grandes de hardware) e rabbit r1 (um botão físico para falar). */
+:root{
+  --fundo:#0B0B0B;--painel:#121212;--painel2:#181818;--linha:#232323;--linha2:#2E2E2E;--amarelo:#F5C518;--amarelo2:#FFD84A;
+  --texto:#F4F1E8;--apagado:#8D8A82;--ok:#5CC98A;--alerta:#F2A93B;--erro:#E5604D;--azul:#7FB2FF;
+  --f-titulo:'Anton','Arial Narrow',Impact,sans-serif;--f-corpo:'Manrope',system-ui,sans-serif;--f-dado:'JetBrains Mono',ui-monospace,monospace;
+  color-scheme:dark;
+}
+[hidden]{display:none!important}
+*{box-sizing:border-box}
+html,body{min-height:100%}
+body{margin:0;background:var(--fundo);color:var(--texto);font:500 14px/1.5 var(--f-corpo);overflow-x:clip;-webkit-tap-highlight-color:transparent}
+/* grade fina + brilho sutil */
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
+  background:linear-gradient(var(--linha) 1px,transparent 1px) 0 0/56px 56px,linear-gradient(90deg,var(--linha) 1px,transparent 1px) 0 0/56px 56px;
+  opacity:.38;-webkit-mask:radial-gradient(ellipse 90% 70% at 60% 0%,#000 30%,transparent 80%);mask:radial-gradient(ellipse 90% 70% at 60% 0%,#000 30%,transparent 80%)}
+body::after{content:"";position:fixed;left:50%;top:-320px;width:900px;height:620px;transform:translateX(-30%);pointer-events:none;z-index:0;
+  background:radial-gradient(closest-side,rgba(245,197,24,.13),transparent);filter:blur(10px)}
+.app{position:relative;z-index:1;display:grid;grid-template-columns:252px minmax(0,1fr);min-height:100vh}
+.mono{font-family:var(--f-dado)}
+.rot{font:500 10.5px var(--f-dado);letter-spacing:.2em;text-transform:uppercase;color:var(--apagado)}
+/* menu lateral */
+.menu{position:sticky;top:0;height:100vh;display:flex;flex-direction:column;gap:18px;padding:22px 16px;border-right:1px solid var(--linha);background:rgba(10,10,10,.86);backdrop-filter:blur(8px);overflow-y:auto}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--texto)}
+.logo b{width:36px;height:36px;display:grid;place-items:center;border:1.5px solid var(--amarelo);color:var(--amarelo);font:400 16px var(--f-titulo);letter-spacing:.04em}
+.logo span{font:400 19px/1 var(--f-titulo);letter-spacing:.05em;text-transform:uppercase}
+.logo small{display:block;font:500 9.5px var(--f-dado);letter-spacing:.22em;color:var(--apagado);margin-top:4px}
+.vivo{display:inline-flex;align-items:center;gap:8px;font:500 10.5px var(--f-dado);letter-spacing:.16em;text-transform:uppercase;color:var(--texto)}
+.vivo i{width:8px;height:8px;border-radius:50%;background:var(--erro);box-shadow:0 0 0 0 rgba(229,96,77,.6);animation:rec 1.6s infinite}
+@keyframes rec{70%{box-shadow:0 0 0 8px rgba(229,96,77,0)}100%{box-shadow:0 0 0 0 rgba(229,96,77,0)}}
+.grupo{display:grid;gap:2px}
+.grupo h4{margin:6px 8px 4px;font:500 10px var(--f-dado);letter-spacing:.24em;text-transform:uppercase;color:var(--apagado)}
+.grupo a{position:relative;display:flex;align-items:center;gap:10px;padding:9px 10px;border-radius:9px;color:#C9C5BA;text-decoration:none;font-weight:600}
+.grupo a svg{width:18px;height:18px;flex:none}
+.grupo a:hover{background:var(--painel2);color:var(--texto)}
+.grupo a[aria-current="page"]{background:rgba(245,197,24,.12);color:var(--amarelo)}
+.grupo a .n{margin-left:auto;font:700 11px var(--f-dado);background:var(--amarelo);color:#0A0A0A;border-radius:99px;padding:0 7px}
+.grupo a .n:empty{display:none}
+.contas-menu{margin-top:auto;border:1px solid var(--linha);border-radius:14px;padding:14px;display:grid;gap:9px;background:var(--painel)}
+.contas-menu .c{display:flex;align-items:center;gap:8px;font-size:12.5px}
+.contas-menu .c i{width:7px;height:7px;border-radius:50%;background:var(--linha2);flex:none}
+.contas-menu .c i.on{background:var(--ok);box-shadow:0 0 8px var(--ok)}
+.contas-menu .c em{margin-left:auto;font:500 10.5px var(--f-dado);color:var(--apagado);font-style:normal}
+/* topo */
+.area{min-width:0;display:flex;flex-direction:column}
+.topo{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:14px;padding:14px max(20px,env(safe-area-inset-right,0px)) 14px 26px;border-bottom:1px solid var(--linha);background:rgba(11,11,11,.88);backdrop-filter:blur(10px)}
+.topo h1{margin:0;font:400 28px/1 var(--f-titulo);letter-spacing:.03em;text-transform:uppercase}
+.topo .dir{margin-left:auto;display:flex;align-items:center;gap:12px}
+.relogio{font:500 11px var(--f-dado);letter-spacing:.12em;color:var(--apagado)}
+.avatar{width:34px;height:34px;border-radius:50%;background:var(--amarelo);color:#0A0A0A;display:grid;place-items:center;font:400 14px var(--f-titulo);text-decoration:none}
+main{padding:24px max(20px,env(safe-area-inset-right,0px)) 56px 26px;display:grid;gap:18px;align-content:start}
+/* base dos cartões (mesmas classes do modelo, para o movimento.js) */
+.grade{display:grid;gap:16px}
+.g4{grid-template-columns:repeat(4,minmax(0,1fr))}.g3{grid-template-columns:repeat(3,minmax(0,1fr))}.g2{grid-template-columns:repeat(2,minmax(0,1fr))}.g21{grid-template-columns:minmax(0,1.6fr) minmax(0,1fr)}
+.card{position:relative;background:linear-gradient(180deg,rgba(255,255,255,.02),transparent 40%),var(--painel);border:1px solid var(--linha);border-radius:18px;padding:18px;min-width:0}
+.card h3{margin:0 0 4px;font:700 15px var(--f-corpo)}
+.card .sub{margin:0 0 14px;color:var(--apagado);font-size:12.5px}
+.card .cab{display:flex;align-items:baseline;gap:10px;justify-content:space-between;margin-bottom:12px}
+.kpi .rot{display:block}
+.kpi .val{font:400 40px/1.05 var(--f-titulo);letter-spacing:.02em;margin:8px 0 4px;font-variant-numeric:tabular-nums}
+.kpi .val.am{color:var(--amarelo)}
+.kpi .dica{color:var(--apagado);font-size:12px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:0;border-radius:11px;padding:10px 15px;font:700 13.5px var(--f-corpo);cursor:pointer;text-decoration:none;color:var(--texto);min-height:42px}
+.btn svg{width:17px;height:17px}
+.btn.am{background:var(--amarelo);color:#0A0A0A}.btn.am:hover{background:var(--amarelo2)}
+.btn.lin{background:transparent;border:1px solid var(--linha2)}.btn.lin:hover{border-color:var(--amarelo);color:var(--amarelo)}
+.btn.ok{background:var(--ok);color:#06140c}
+.btn[disabled]{opacity:.4;cursor:not-allowed;transform:none!important;box-shadow:none!important}
+.btn:focus-visible,.grupo a:focus-visible,.chipc:focus-visible,.fn:focus-visible,.mic:focus-visible,.tab:focus-visible{outline:2px solid var(--amarelo);outline-offset:3px}
+.barra{height:8px;border-radius:99px;background:var(--painel2);overflow:hidden}
+.barra i{display:block;height:100%;border-radius:99px;background:var(--amarelo)}
+.chip{display:inline-flex;align-items:center;gap:6px;font:600 11px var(--f-dado);letter-spacing:.06em;text-transform:uppercase;border-radius:99px;padding:3px 9px;white-space:nowrap;border:1px solid currentColor}
+.chip.novo{color:var(--azul)}.chip.andamento{color:var(--alerta)}.chip.pronto{color:var(--amarelo)}.chip.aprovado{color:var(--ok)}.chip.ajuste{color:var(--erro)}
+.vazio{border:1px dashed var(--linha2);border-radius:14px;padding:18px;color:var(--apagado);text-align:center;font-size:13px}
+/* tela Comando */
+.passo{display:flex;align-items:center;gap:10px;margin:0 0 12px}
+.passo b{font:700 11px var(--f-dado);color:#0A0A0A;background:var(--amarelo);border-radius:6px;padding:2px 6px}
+.passo span{font:500 10.5px var(--f-dado);letter-spacing:.2em;text-transform:uppercase;color:var(--apagado)}
+.palco{display:grid;grid-template-columns:minmax(260px,.9fr) minmax(0,1.1fr);gap:16px;align-items:stretch}
+.voz{display:grid;place-items:center;text-align:center;gap:14px;padding:26px 18px 22px;overflow:hidden}
+.voz .hud{position:absolute;left:16px;right:16px;top:14px;display:flex;justify-content:space-between}
+.mic{position:relative;width:min(188px,52vw);aspect-ratio:1;border-radius:50%;border:0;cursor:pointer;margin-top:18px;
+  background:radial-gradient(circle at 35% 30%,#FFE272,var(--amarelo) 45%,#C99A00);color:#0A0A0A;display:grid;place-items:center;
+  box-shadow:0 0 0 10px rgba(245,197,24,.08),0 0 0 22px rgba(245,197,24,.04),0 30px 60px -20px rgba(245,197,24,.45),inset 0 -8px 18px rgba(0,0,0,.18);transition:transform .2s cubic-bezier(.2,.8,.2,1)}
+.mic:active{transform:scale(.95)}
+.mic svg{width:34%;height:34%}
+.mic::after{content:"";position:absolute;inset:-14px;border-radius:50%;border:1.5px solid rgba(245,197,24,.35);opacity:0}
+.mic.ouvindo{background:radial-gradient(circle at 35% 30%,#FF8A7A,var(--erro) 50%,#A8321F);color:#fff;box-shadow:0 0 0 10px rgba(229,96,77,.12),0 0 0 22px rgba(229,96,77,.06),0 30px 60px -20px rgba(229,96,77,.6)}
+.mic.ouvindo::after{border-color:rgba(229,96,77,.5);animation:onda 1.4s infinite}
+@keyframes onda{from{transform:scale(.9);opacity:.9}to{transform:scale(1.35);opacity:0}}
+.ondas{display:flex;gap:4px;height:26px;align-items:center}
+.ondas i{width:4px;height:6px;border-radius:4px;background:var(--linha2);transition:height .2s}
+.ouvindo-on .ondas i{background:var(--amarelo);animation:barras 0.9s ease-in-out infinite}
+.ondas i:nth-child(2n){animation-delay:.15s!important}.ondas i:nth-child(3n){animation-delay:.3s!important}.ondas i:nth-child(5n){animation-delay:.45s!important}
+@keyframes barras{50%{height:24px}}
+.fala{min-height:44px;max-width:420px;font:600 16px/1.4 var(--f-corpo)}
+.fala.vazia{color:var(--apagado);font-weight:500;font-size:14px}
+.escrever{display:flex;gap:8px;width:100%;max-width:440px}
+.escrever input{flex:1;min-width:0;background:var(--painel2);border:1px solid var(--linha2);border-radius:11px;color:var(--texto);padding:11px 13px;font:500 14px var(--f-corpo)}
+.escrever input:focus{outline:none;border-color:var(--amarelo)}
+.console{display:flex;flex-direction:column;gap:12px}
+.linhas{display:grid;gap:0;border:1px solid var(--linha);border-radius:14px;overflow:hidden;background:#0E0E0E}
+.linhas div{display:grid;grid-template-columns:96px minmax(0,1fr);gap:10px;align-items:center;padding:12px 14px;border-bottom:1px solid var(--linha)}
+.linhas div:last-child{border-bottom:0}
+.linhas span{font:500 10.5px var(--f-dado);letter-spacing:.2em;text-transform:uppercase;color:var(--apagado)}
+.linhas b{font:700 15px var(--f-corpo);min-width:0;overflow-wrap:anywhere}
+.linhas b.falta{color:#5b5952;font-weight:600}
+.detalhe{width:100%;min-height:70px;resize:vertical;background:var(--painel2);border:1px solid var(--linha2);border-radius:12px;color:var(--texto);padding:12px 13px;font:500 14px/1.45 var(--f-corpo)}
+.detalhe:focus{outline:none;border-color:var(--amarelo)}
+.enviar{width:100%;min-height:58px;font-size:16px;border-radius:14px;letter-spacing:.01em}
+.aviso{border:1px solid rgba(242,169,59,.45);background:rgba(242,169,59,.07);border-radius:14px;padding:14px;display:grid;gap:10px}
+.aviso h4{margin:0;font:700 14px var(--f-corpo);color:var(--alerta);display:flex;gap:8px;align-items:center}
+.aviso p{margin:0;font-size:13px;color:#D8D2C2}
+.aviso .acoes{display:flex;gap:8px;flex-wrap:wrap}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chipc{position:relative;display:flex;flex-direction:column;align-items:flex-start;gap:2px;min-height:56px;padding:10px 16px 10px 14px;border-radius:14px;border:1px solid var(--linha2);background:var(--painel2);color:var(--texto);cursor:pointer;font:700 14.5px var(--f-corpo);text-align:left;transition:border-color .2s,background-color .2s,transform .15s}
+.chipc small{font:500 9.5px var(--f-dado);letter-spacing:.16em;text-transform:uppercase;color:var(--apagado)}
+.chipc small.pg{color:var(--amarelo)}
+.chipc:hover{border-color:#4a4a4a}
+.chipc:active{transform:scale(.97)}
+.chipc[aria-pressed="true"]{border-color:var(--amarelo);background:rgba(245,197,24,.12);box-shadow:inset 0 0 0 1px var(--amarelo)}
+.funcoes{display:grid;gap:18px}
+.fgrupo h5{margin:0 0 10px;font:500 10px var(--f-dado);letter-spacing:.24em;text-transform:uppercase;color:var(--apagado)}
+.fgrade{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px}
+.fn{position:relative;display:flex;flex-direction:column;justify-content:space-between;gap:16px;min-height:104px;padding:13px;border-radius:16px;border:1px solid var(--linha2);
+  background:linear-gradient(180deg,#1C1C1C,#141414);color:var(--texto);cursor:pointer;text-align:left;font:700 14px/1.2 var(--f-corpo);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.05),0 2px 0 #050505;transition:transform .15s,border-color .2s,background-color .2s}
+.fn:hover{border-color:#4a4a4a;transform:translateY(-2px)}
+.fn:active{transform:translateY(1px);box-shadow:inset 0 1px 0 rgba(255,255,255,.03)}
+.fn svg{width:24px;height:24px;color:var(--amarelo)}
+.fn em{position:absolute;right:11px;top:11px;font:500 9.5px var(--f-dado);font-style:normal;letter-spacing:.12em;color:#5b5952}
+.fn[aria-pressed="true"]{background:var(--amarelo);color:#0A0A0A;border-color:var(--amarelo)}
+.fn[aria-pressed="true"] svg,.fn[aria-pressed="true"] em{color:#0A0A0A}
+.fn.acao em{color:var(--azul)}
+/* fila */
+.filtros{display:flex;gap:8px;flex-wrap:wrap}
+.tab{border:1px solid var(--linha2);background:var(--painel2);color:#C9C5BA;border-radius:99px;padding:9px 14px;font:600 13px var(--f-corpo);cursor:pointer;min-height:40px}
+.tab[aria-pressed="true"]{background:var(--amarelo);border-color:var(--amarelo);color:#0A0A0A}
+.tab span{font:700 11px var(--f-dado);margin-left:6px;opacity:.75}
+.pedidos{display:grid;gap:12px}
+.ped{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:14px;align-items:start}
+.ped .topo-p{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:8px}
+.ped .id{font:500 10.5px var(--f-dado);color:var(--apagado);letter-spacing:.1em}
+.ped h3{font-size:16px}
+.ped .txt{margin:4px 0 8px;color:#D8D2C2;font-size:13.5px;overflow-wrap:anywhere}
+.ped .meta{display:flex;flex-wrap:wrap;gap:14px;font:500 11px var(--f-dado);color:var(--apagado)}
+.ped .nota{margin-top:10px;border-left:2px solid var(--erro);padding:4px 10px;font-size:13px;color:#E8C9C2}
+.ped .acoes{display:flex;flex-direction:column;gap:8px;min-width:150px}
+/* resultados */
+.proj{display:grid;gap:14px}
+.proj .l{display:grid;grid-template-columns:minmax(0,1fr) 46px;gap:6px 12px;align-items:center}
+.proj .l b{font-size:13.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.proj .l b small{color:var(--amarelo);font:500 9.5px var(--f-dado);letter-spacing:.14em;margin-left:6px}
+.proj .l span{font:700 12px var(--f-dado);text-align:right}
+.proj .l .barra{grid-column:1/-1}
+.lista{display:grid}
+.lista .it{display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 12px;padding:11px 0;border-bottom:1px solid var(--linha)}
+.lista .it:last-child{border-bottom:0}
+.lista .it .q{font:600 10.5px var(--f-dado);letter-spacing:.06em;color:var(--amarelo);white-space:nowrap}
+.lista .it .o{font-size:13px;overflow-wrap:anywhere}
+.lista .it .o small{display:block;color:var(--apagado);font-size:11.5px;margin-top:2px}
+.conta-bloco{border:1px solid var(--linha);border-radius:14px;padding:14px;background:#0F0F0F}
+.conta-bloco h4{margin:0 0 8px;display:flex;align-items:center;gap:8px;font:700 14px var(--f-corpo)}
+.conta-bloco h4 em{margin-left:auto;font:500 10.5px var(--f-dado);color:var(--apagado);font-style:normal}
+.conta-bloco ul{margin:0;padding-left:16px;display:grid;gap:6px;font-size:12.5px;color:#D8D2C2}
+.aprov{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}
+.aprov a{display:grid;gap:4px;padding:14px;border-radius:14px;border:1px solid var(--linha2);background:#0F0F0F;text-decoration:none;color:var(--texto)}
+.aprov a b{font:400 30px/1 var(--f-titulo)}
+.aprov a b.am{color:var(--amarelo)}
+.aprov a span{font-size:12.5px;font-weight:700}
+.aprov a small{color:var(--apagado);font-size:11.5px}
+.aprov a:hover{border-color:var(--amarelo)}
+.esperando li{margin-bottom:4px}
+/* janela (ajuste) e aviso */
+.modal{position:fixed;inset:0;z-index:30;background:rgba(0,0,0,.72);display:grid;place-items:end center;padding:16px}
+.caixa{width:min(520px,100%);background:var(--painel);border:1px solid var(--linha2);border-radius:20px;padding:20px;display:grid;gap:12px;margin-bottom:max(0px,env(safe-area-inset-bottom))}
+.caixa h3{margin:0;font:400 24px var(--f-titulo);letter-spacing:.03em;text-transform:uppercase}
+@media (min-width:700px){.modal{place-items:center}}
+#toast{position:fixed;left:50%;bottom:calc(92px + env(safe-area-inset-bottom));transform:translateX(-50%);z-index:40;background:#F4F1E8;color:#0A0A0A;padding:12px 16px;border-radius:12px;font:700 13.5px var(--f-corpo);box-shadow:0 20px 40px -12px #000;max-width:calc(100% - 32px);opacity:0;pointer-events:none;transition:opacity .2s}
+#toast.on{opacity:1}
+/* barra de baixo (celular) */
+.abas-cel{display:none}
+#envio-cel{display:none}
+@media (max-width:1180px){.fgrade{grid-template-columns:repeat(4,minmax(0,1fr))}.aprov{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:980px){
+  .app{grid-template-columns:1fr}
+  .menu{display:none}
+  .topo{padding:12px 16px}
+  .topo h1{font-size:23px}
+  main{padding:16px 16px calc(104px + env(safe-area-inset-bottom))}
+  .g4{grid-template-columns:repeat(2,minmax(0,1fr))}.g3,.g2,.g21,.palco{grid-template-columns:1fr}
+  .abas-cel{display:grid;grid-template-columns:repeat(3,1fr);position:fixed;left:12px;right:12px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:20;
+    background:rgba(20,20,20,.92);backdrop-filter:blur(14px);border:1px solid var(--linha2);border-radius:20px;padding:6px;box-shadow:0 20px 40px -10px #000}
+  .abas-cel a{position:relative;display:flex;flex-direction:column;align-items:center;gap:3px;padding:9px 4px;border-radius:14px;color:#C9C5BA;text-decoration:none;font:700 11.5px var(--f-corpo)}
+  .abas-cel a svg{width:22px;height:22px}
+  .abas-cel a[aria-current="page"]{background:var(--amarelo);color:#0A0A0A}
+  .abas-cel a .n{position:absolute;top:4px;right:calc(50% - 26px);font:700 10px var(--f-dado);background:var(--erro);color:#fff;border-radius:99px;padding:0 5px}
+  .abas-cel a .n:empty{display:none}
+  #envio-cel.on{display:flex;position:fixed;left:12px;right:12px;bottom:calc(84px + env(safe-area-inset-bottom));z-index:19;align-items:center;gap:10px;padding:8px 8px 8px 14px;border-radius:16px;background:#1A1A1A;border:1px solid var(--amarelo);box-shadow:0 18px 40px -12px #000}
+  #envio-cel span{flex:1;min-width:0;font:700 13px var(--f-corpo);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  #envio-cel small{display:block;font:500 9.5px var(--f-dado);letter-spacing:.16em;color:var(--apagado)}
+  #envio-cel .btn{min-height:46px}
+  body.com-envio main{padding-bottom:calc(170px + env(safe-area-inset-bottom))}
+  .ped{grid-template-columns:1fr}.ped .acoes{flex-direction:row;flex-wrap:wrap;min-width:0}.ped .acoes .btn{flex:1}
+}
+@media (max-width:560px){
+  .fgrade{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+  .fn{min-height:92px;padding:11px;font-size:13px;gap:10px}
+  .fn svg{width:22px;height:22px}
+  .chips{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  .chipc{min-height:52px}
+  .kpi .val{font-size:32px}
+  .kpi .dica{display:none}
+  .grade.g4{gap:10px}
+  .card{padding:15px;border-radius:16px}
+  .aprov{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .relogio{display:none}
+  .linhas div{grid-template-columns:78px minmax(0,1fr)}
+}
+@media (prefers-reduced-motion:reduce){.mic.ouvindo::after,.ouvindo-on .ondas i,.vivo i{animation:none}}
+</style>
+<body>
+<div class="app">
+  <aside class="menu" aria-label="Menu">
+    <a class="logo" href="#comando"><b>LA</b><div><span>Central de Comando</span><small>SISTEMA · V1</small></div></a>
+    <div class="vivo"><i></i><span>AO VIVO</span><span class="mono" id="relogio-menu" style="color:var(--apagado)"></span></div>
+    <nav class="grupo" aria-label="Telas"><h4>Comando</h4>
+      <a href="#comando" data-tela="comando"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>Comando</a>
+      <a href="#fila" data-tela="fila"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 6h16M4 12h16M4 18h10"/></svg>Fila<span class="n" data-n="abertos"></span></a>
+      <a href="#resultados" data-tela="resultados"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>Resultados e análises</a>
+    </nav>
+    <nav class="grupo" aria-label="Painéis"><h4>Painéis</h4>
+      <a href="/painel/admin"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>Painel do admin</a>
+      <div id="menu-clientes"></div>
+    </nav>
+    <div class="contas-menu" id="contas-menu"><span class="rot">As 4 contas agora</span></div>
+  </aside>
+  <div class="area">
+    <header class="topo">
+      <h1 id="titulo">Comando</h1>
+      <div class="dir"><span class="vivo"><i></i><span>AO VIVO</span></span><span class="relogio" id="relogio"></span><a class="avatar" href="/painel/admin" title="Voltar ao painel do admin">LA</a></div>
+    </header>
+    <main id="conteudo"></main>
+  </div>
+</div>
+<nav class="abas-cel" aria-label="Telas">
+  <a href="#comando" data-tela="comando"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>Comando</a>
+  <a href="#fila" data-tela="fila"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 6h16M4 12h16M4 18h10"/></svg>Fila<span class="n" data-n="prontos"></span></a>
+  <a href="#resultados" data-tela="resultados"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>Resultados</a>
+</nav>
+<div id="envio-cel" aria-live="polite"><span id="envio-cel-t"></span><button class="btn am" type="button" data-envia-cel>Enviar</button></div>
+<div id="toast" role="status" aria-live="polite"></div>
+<script>
+/* ===== Central de Comando · lógica (conta Leandro, 09/11/2026) =====
+   Fila: /api/dados?cli=admin&f=ped → {dados:{itens:[{id,cli,func,texto,st,conta,link,criado,atualizado,nota,prontoEm,ajustes}]},versao}
+   (a chave dados:admin:ped não é lida pelo admin.html, que lê o f=ped de cada cliente; formato {itens} igual ao dos painéis).
+   As contas (Lindson, Zuleide, Pedro, Leandro) leem e marcam pela /api/automacao?fila=ped (PROTOCOLO-CONTAS.md). */
+(() => {
+const E = window.__ESTADO || { placar: [], entregas: [], andamento: [], agenda: null, gerado: '' };
+const API = window.__API || '';
+const $ = (s, r = document) => r.querySelector(s), $$ = (s, r = document) => [...r.querySelectorAll(s)];
+const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const sem = s => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+const ic = p => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">${p}</svg>`;
+const I = {
+  reels: ic('<rect x="3" y="4" width="18" height="16" rx="3"/><path d="M3 9h18M8 4l3 5M14 4l3 5M10.5 12.5v5l4-2.5z"/>'),
+  carrossel: ic('<rect x="6" y="5" width="12" height="14" rx="2"/><path d="M3 7v10M21 7v10"/>'),
+  post: ic('<rect x="4" y="4" width="16" height="16" rx="3"/><circle cx="9" cy="9" r="1.6"/><path d="m4 17 5-5 4 4 2-2 5 5"/>'),
+  stories: ic('<rect x="7" y="2.5" width="10" height="19" rx="2.5"/><path d="M10 5.5h4"/><circle cx="12" cy="13" r="3" stroke-dasharray="2 1.6"/>'),
+  legenda: ic('<path d="M4 6h16M4 10h16M4 14h10M4 18h7"/><path d="m15 18 2 2 4-4"/>'),
+  data: ic('<rect x="3.5" y="5" width="17" height="15" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/><path d="m12 12.5.9 1.9 2.1.3-1.5 1.4.4 2-1.9-1-1.9 1 .4-2-1.5-1.4 2.1-.3z"/>'),
+  site: ic('<rect x="3" y="4" width="18" height="16" rx="2.5"/><path d="M3 8.5h18M6 6.3h.01M8.5 6.3h.01"/><path d="M7 12h6M7 15.5h10"/>'),
+  landing: ic('<rect x="4" y="3" width="16" height="18" rx="2.5"/><path d="M8 8h8M8 11.5h5"/><rect x="8" y="15" width="8" height="3" rx="1.5"/>'),
+  painel: ic('<rect x="3" y="4" width="18" height="16" rx="2.5"/><path d="M9 4v16M12 15l2-3 2 2 3-4"/>'),
+  estrategia: ic('<path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5M10 13h6M10 17h4"/>'),
+  proposta: ic('<path d="M4 7h16v12H4z"/><path d="m4 7 8 6 8-6"/>'),
+  contrato: ic('<path d="M6 3h9l4 4v14H6z"/><path d="M9 9h6M9 12.5h6M9 17c1.2-1.6 2.2-1.6 3 0s1.8 1.6 3 0"/>'),
+  relatorio: ic('<path d="M4 20V10M9.3 20V5M14.6 20v-7M20 20v-4"/>'),
+  status: ic('<circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/>'),
+  aprovar: ic('<circle cx="12" cy="12" r="8.5"/><path d="m8 12.2 2.7 2.7L16.2 9"/>'),
+  fotos: ic('<path d="M4 8h3l1.5-2.5h7L17 8h3v11H4z"/><circle cx="12" cy="13" r="3.4"/>'),
+  mic: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>',
+  pare: '<svg viewBox="0 0 24 24" fill="currentColor"><rect x="7" y="7" width="10" height="10" rx="2"/></svg>',
+  enviar: ic('<path d="M4 12 20 4l-6 16-3-7z"/><path d="m11 13 9-9"/>'),
+  alerta: ic('<path d="M12 3 2.5 20h19z"/><path d="M12 10v4.5M12 17.5h.01"/>')
+};
+// clientes (pagantes primeiro). painel: endereço na Central; null = sem painel próprio
+const CLIS = [
+  { id: 'jaci', nome: 'Dra. Jaci', pg: 1, painel: 'jaci', voz: ['jaci', 'clinica', 'dra jaci', 'doutora'] },
+  { id: 'tribuna', nome: 'Tribuna 98', pg: 1, painel: 'tribuna', voz: ['tribuna'] },
+  { id: 'leo', nome: 'Leo Pinto', pg: 1, painel: 'leo', voz: ['leo', 'vereador', 'leonardo'] },
+  { id: 'rt', nome: 'Real Time', pg: 1, painel: 'rt', voz: ['real time', 'realtime', 'real taime', 'rial time'] },
+  { id: 'oregano', nome: 'Orégano Turbo', pg: 0, painel: 'oregano', voz: ['oregano', 'pizzaria'] },
+  { id: 'marca', nome: 'Minha marca', pg: 0, painel: null, voz: ['minha marca', 'meu instagram', 'meu perfil', 'lindson', 'minha pagina'] },
+  { id: 'outro', nome: 'Outro', pg: 0, painel: null, voz: ['outro cliente', 'cliente novo', 'lead'] }
+];
+// funções: tipo 'pedido' vai para a fila; 'acao' faz na hora
+const GRUPOS = [
+  ['Conteúdo', [['reels', 'Reels', ['reels', 'reel', 'video curto', 'rios']], ['carrossel', 'Carrossel', ['carrossel', 'carrocel', 'carosel']], ['post', 'Post', ['post', 'poste', 'arte do feed']], ['stories', 'Stories', ['stories', 'story', 'storys', 'estoris']], ['legenda', 'Legenda SEO', ['legenda']], ['data', 'Arte de data', ['arte de data', 'data comemorativa', 'feriado', 'dia de', 'dia do', 'dia da']]]],
+  ['Sites e sistemas', [['site', 'Site / mini site', ['mini site', 'site', 'bio']], ['landing', 'Landing', ['landing', 'pagina de venda', 'pagina de captura']], ['painel', 'Painel do cliente', ['painel do cliente', 'criar painel', 'montar painel']]]],
+  ['Documentos', [['estrategia', 'Estratégia PDF', ['estrategia']], ['proposta', 'Proposta', ['proposta', 'orcamento']], ['contrato', 'Contrato', ['contrato']], ['relatorio', 'Relatório do cliente', ['relatorio']]]],
+  ['Acompanhar', [['status', 'Status do projeto', ['status', 'como esta', 'placar'], 1], ['aprovar', 'Ver aprovações', ['aprovar', 'aprovacao', 'aprovacoes'], 1], ['fotos', 'Fotos do cliente', ['fotos', 'foto'], 1]]]
+];
+const FN = {}; let k = 0; GRUPOS.forEach(g => g[1].forEach(f => { k++; FN[f[0]] = { id: f[0], nome: f[1], voz: f[2], acao: !!f[3], cod: 'F' + String(k).padStart(2, '0') }; }));
+const CONTAS = ['Lindson', 'Zuleide', 'Pedro', 'Leandro'];
+const ST = { novo: 'Novo', andamento: 'Com a conta', pronto: 'Pronto', aprovado: 'Aprovado', ajuste: 'Ajuste' };
+const ABERTOS = ['novo', 'andamento', 'pronto', 'ajuste'];
+const nomeCli = id => (CLIS.find(c => c.id === id) || { nome: id || '—' }).nome;
+const nomeFn = id => (FN[id] || { nome: id || '—' }).nome;
+
+// ---------- fila no servidor (com versão; em 409 junta e tenta de novo) ----------
+const URL_PED = API + '/api/dados?cli=admin&f=ped';
+let FILA = { itens: [] }, VERSAO = 0, CARREGOU = false, ERRO = '';
+async function carrega() {
+  try { const r = await fetch(URL_PED, { credentials: 'same-origin', cache: 'no-store' });
+    if (r.status === 401) { location.href = '/'; return; }
+    const j = await r.json(); if (!r.ok) throw new Error(j.erro || 'erro');
+    FILA = (j.dados && Array.isArray(j.dados.itens)) ? j.dados : { itens: [] }; VERSAO = j.versao || 0; CARREGOU = true; ERRO = '';
+  } catch (e) { ERRO = 'Não consegui ler a fila agora. Confira a internet e toque em atualizar.'; }
+}
+async function muda(fn) {
+  for (let i = 0; i < 4; i++) {
+    const d = JSON.parse(JSON.stringify(FILA || { itens: [] })); d.itens = d.itens || []; fn(d);
+    try {
+      const r = await fetch(URL_PED, { method: 'PUT', credentials: 'same-origin', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ dados: d, versao: VERSAO }) });
+      const j = await r.json().catch(() => ({}));
+      if (r.ok) { FILA = d; VERSAO = j.versao; return true; }
+      if (r.status === 409) { FILA = (j.dados && j.dados.itens) ? j.dados : { itens: [] }; VERSAO = j.versao || 0; continue; } // outra conta salvou: aplica de novo sobre a versão nova
+      toast(j.erro || 'Não consegui salvar.'); return false;
+    } catch (e) { toast('Sem conexão. Tente de novo.'); return false; }
+  }
+  toast('A fila mudou várias vezes seguidas. Tente de novo.'); return false;
+}
+const agora = () => new Date().toISOString();
+const novoId = () => 'p' + Date.now().toString(36) + Math.random().toString(36).slice(2, 5);
+const dt = iso => { if (!iso) return '—'; const d = new Date(iso); return isNaN(d) ? '—' : d.toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit' }) + ' ' + d.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' }); };
+const horas = ms => ms < 36e5 ? Math.max(1, Math.round(ms / 6e4)) + ' min' : ms < 864e5 ? (ms / 36e5).toFixed(1).replace('.', ',') + ' h' : (ms / 864e5).toFixed(1).replace('.', ',') + ' dias';
+
+// ---------- estado da tela Comando ----------
+const P = { cli: null, fn: null, texto: '', forcar: false };
+function toast(t) { const el = $('#toast'); el.textContent = t; el.classList.add('on'); clearTimeout(toast.t); toast.t = setTimeout(() => el.classList.remove('on'), 3200); }
+
+// ---------- voz ----------
+const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+let rec = null, ouvindo = false;
+function entende(frase, final) {
+  const s = ' ' + sem(frase).replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ') + ' ';
+  // navegação
+  if (final && /\b(abrir|abre|ir para|vai para|mostrar)\b.*\bpainel\b/.test(s)) {
+    const c = CLIS.find(c => c.voz.some(v => s.includes(' ' + v + ' ') || s.includes(' ' + v)));
+    if (c && c.painel) { toast('Abrindo o painel de ' + c.nome + '…'); setTimeout(() => location.href = '/painel/' + c.painel, 500); return 'nav'; }
+    if (/\badmin\b/.test(s)) { location.href = '/painel/admin'; return 'nav'; }
+  }
+  if (final && /\b(ver|abrir|abre|mostrar)?\s*(a )?fila\b/.test(s) && !/\b(reels|post|carrossel|site)\b/.test(s)) { location.hash = '#fila'; return 'nav'; }
+  if (final && /\b(status|resultado|resultados|analise|analises|placar|relatorio geral)\b/.test(s) && !/\brelatorio do\b/.test(s) && !/\b(reels|post|carrossel|stories|site|landing|contrato|proposta)\b/.test(s) && !P.cli) { location.hash = '#resultados'; return 'nav'; }
+  // cliente e função
+  const c = CLIS.find(c => c.voz.some(v => s.includes(' ' + v + ' ')));
+  if (c) P.cli = c.id;
+  let melhor = null, tam = 0;
+  Object.values(FN).forEach(f => f.voz.forEach(v => { if (s.includes(' ' + v + ' ') || s.includes(' ' + v + 's ')) { if (v.length > tam) { melhor = f; tam = v.length; } } }));
+  if (melhor) P.fn = melhor.id;
+  return /\b(enviar|envia|manda|mandar)\s*$/.test(s.trim()) ? 'enviar' : 'ok';
+}
+function limpaFala(t) { return t.replace(/[,.\s]*(enviar|envia|manda|mandar)[.!]?\s*$/i, '').trim(); }
+function ouvir() {
+  if (!SR) { toast('Este navegador não tem voz. Escreva no campo abaixo do botão.'); $('#escrever input') && $('#escrever input').focus(); return; }
+  if (ouvindo && rec) { rec.stop(); return; }
+  rec = new SR(); rec.lang = 'pt-BR'; rec.interimResults = true; rec.continuous = false; rec.maxAlternatives = 1;
+  let final = '';
+  rec.onstart = () => { ouvindo = true; marcaMic(); falaTxt('Ouvindo… fale o cliente, o que precisa e o detalhe.', true); };
+  rec.onresult = e => { let parcial = ''; for (let i = e.resultIndex; i < e.results.length; i++) { const t = e.results[i][0].transcript; if (e.results[i].isFinal) final += t + ' '; else parcial += t; }
+    falaTxt((final + parcial).trim()); entende(final + parcial, false); pintaEscolhas(); };
+  rec.onerror = e => { ouvindo = false; marcaMic(); falaTxt(e.error === 'not-allowed' ? 'O microfone foi bloqueado. Libere o microfone para este site nas configurações do navegador, ou escreva abaixo.' : 'Não entendi. Toque e fale de novo, ou escreva abaixo.', true); };
+  rec.onend = () => { ouvindo = false; marcaMic(); if (final.trim()) processa(final.trim()); };
+  try { rec.start(); } catch (e) { toast('Não consegui ligar o microfone.'); }
+}
+function processa(frase) {
+  const r = entende(frase, true); if (r === 'nav') return;
+  const limpo = limpaFala(frase); P.texto = limpo; const ta = $('#detalhe'); if (ta) ta.value = limpo;
+  falaTxt(limpo); pintaEscolhas();
+  if (P.fn && FN[P.fn].acao) { executaAcao(P.fn); return; }
+  if (r === 'enviar') envia();
+}
+function marcaMic() { const m = $('#mic'); if (!m) return; m.classList.toggle('ouvindo', ouvindo); m.innerHTML = ouvindo ? I.pare : I.mic; m.setAttribute('aria-label', ouvindo ? 'Parar de ouvir' : 'Falar um pedido'); $('#voz').classList.toggle('ouvindo-on', ouvindo); $('#mic-rot').textContent = ouvindo ? '● GRAVANDO' : (SR ? 'TOQUE PARA FALAR' : 'VOZ INDISPONÍVEL · ESCREVA'); }
+function falaTxt(t, vazia) { const f = $('#fala'); if (!f) return; f.textContent = t; f.classList.toggle('vazia', !!vazia); }
+
+// ---------- ações que não vão para a fila ----------
+function executaAcao(id) {
+  const c = CLIS.find(x => x.id === P.cli);
+  if (id === 'status') { location.hash = '#resultados'; return; }
+  if (id === 'aprovar') { if (c && c.painel) location.href = '/painel/' + c.painel + '#aprovacoes'; else { location.hash = '#resultados'; setTimeout(() => { const a = $('#bloco-aprov'); a && a.scrollIntoView({ behavior: 'smooth' }); }, 400); } return; }
+  if (id === 'fotos') { if (c && c.painel) location.href = '/painel/' + c.painel + '#fotos'; else toast('Escolha antes um cliente com painel (Jaci, Tribuna, Leo, Real Time ou Orégano).'); }
+}
+
+// ---------- "já existe": mesmo cliente e mesma função, aberto ou pronto, nos últimos 14 dias ----------
+function jaExiste(cli, fn) {
+  const lim = Date.now() - 14 * 864e5;
+  return (FILA.itens || []).filter(x => x.cli === cli && x.func === fn && ABERTOS.includes(x.st) && Date.parse(x.criado || 0) >= lim)
+    .sort((a, b) => (b.criado || '').localeCompare(a.criado || ''));
+}
+// também procura no registro das contas (entregas dos últimos 14 dias com o nome do cliente e da função)
+function noRegistro(cli, fn) {
+  if (!cli || !fn || cli === 'outro') return [];
+  const c = CLIS.find(x => x.id === cli), f = FN[fn], lim = Date.now() - 14 * 864e5;
+  const nomes = cli === 'marca' ? ['lindson', 'minha marca', 'marca pessoal'] : c.voz.concat(sem(c.nome));
+  return (E.entregas || []).filter(e => { const t = sem(e.oque + ' ' + e.onde), d = Date.parse(e.iso || 0);
+    return d >= lim && nomes.some(n => t.includes(n)) && f.voz.some(v => t.includes(v)); }).slice(0, 2);
+}
+async function envia() {
+  if (!P.cli || !P.fn) { toast(!P.cli ? 'Toque no cliente primeiro.' : 'Toque no que você precisa.'); return; }
+  if (FN[P.fn].acao) { executaAcao(P.fn); return; }
+  if (!CARREGOU) { toast('A fila ainda não carregou. Toque em atualizar.'); return; }
+  const dup = jaExiste(P.cli, P.fn);
+  if (dup.length && !P.forcar) { pintaAviso(dup); toast('Já existe um pedido igual. Veja antes de mandar outro.'); return; }
+  const texto = ($('#detalhe') ? $('#detalhe').value : P.texto).trim().slice(0, 500);
+  const item = { id: novoId(), cli: P.cli, func: P.fn, texto, st: 'novo', conta: '', link: '', criado: agora(), atualizado: agora(), nota: '', ajustes: 0 };
+  const b = $('#btn-enviar'); if (b) b.disabled = true;
+  const ok = await muda(d => { d.itens.unshift(item); });
+  if (b) b.disabled = false;
+  if (ok) { toast('Enviado para a equipe: ' + nomeFn(item.func) + ' · ' + nomeCli(item.cli) + '.'); P.fn = null; P.texto = ''; P.forcar = false; if ($('#detalhe')) $('#detalhe').value = ''; falaTxt('Pedido na fila. A primeira conta livre pega.', true); pintaEscolhas(); contadores(); }
+}
+
+// ---------- telas ----------
+const kpi = (rot, val, dica, am) => `<div class="card kpi"><span class="rot">${rot}</span><div class="val${am ? ' am' : ''}">${val}</div><div class="dica">${dica}</div></div>`;
+function numeros() {
+  const it = FILA.itens || [], sem7 = Date.now() - 7 * 864e5;
+  return { novo: it.filter(x => x.st === 'novo' || x.st === 'ajuste').length, andamento: it.filter(x => x.st === 'andamento').length, pronto: it.filter(x => x.st === 'pronto').length,
+    aprov7: it.filter(x => x.st === 'aprovado' && Date.parse(x.atualizado || 0) >= sem7).length };
+}
+function telaComando() {
+  const n = numeros(), v = CARREGOU ? n : { novo: '—', andamento: '—', pronto: '—', aprov7: '—' };
+  return `<div class="grade g4">${kpi('Na fila', v.novo, 'esperando uma conta pegar')}${kpi('Com as contas', v.andamento, 'sendo feitos agora')}${kpi('Pronto para você', v.pronto, 'aprovar ou pedir ajuste', true)}${kpi('Aprovados · 7 dias', v.aprov7, 'pedidos fechados')}</div>
+  ${ERRO ? `<div class="aviso"><h4>${I.alerta}${esc(ERRO)}</h4><div class="acoes"><button class="btn lin" data-atualizar>Atualizar</button></div></div>` : ''}
+  <div class="palco">
+    <section class="card voz" id="voz" aria-label="Comando por voz">
+      <div class="hud"><span class="rot" id="mic-rot">TOQUE PARA FALAR</span><span class="rot">PT-BR · VOZ</span></div>
+      <button class="mic" id="mic" type="button" aria-label="Falar um pedido">${I.mic}</button>
+      <div class="ondas" aria-hidden="true">${'<i></i>'.repeat(17)}</div>
+      <p class="fala vazia" id="fala">Ex.: “Reels da Jaci sobre clareamento, enviar”</p>
+      <form class="escrever" id="escrever"><input type="text" placeholder="ou escreva o comando aqui" aria-label="Escrever comando" enterkeyhint="send" maxlength="300"><button class="btn lin" type="submit">OK</button></form>
+    </section>
+    <section class="card console" aria-label="Montagem do pedido">
+      <div class="cab"><span class="rot">● Pedido em montagem</span><span class="rot" id="cod-ped">—</span></div>
+      <div class="linhas"><div><span>Cliente</span><b id="m-cli"></b></div><div><span>Função</span><b id="m-fn"></b></div><div><span>Vai para</span><b id="m-dest"></b></div></div>
+      <textarea class="detalhe" id="detalhe" maxlength="500" placeholder="Detalhe (opcional): tema, data, referência…">${esc(P.texto)}</textarea>
+      <div id="aviso"></div>
+      <button class="btn am enviar" id="btn-enviar" type="button">${I.enviar}Enviar para a equipe</button>
+    </section>
+  </div>
+  <section class="card"><div class="passo"><b>01</b><span>Cliente</span></div><div class="chips" id="chips">${CLIS.map(c => `<button type="button" class="chipc" data-cli="${c.id}" aria-pressed="false">${esc(c.nome)}<small class="${c.pg ? 'pg' : ''}">${c.pg ? '● pagante' : c.id === 'oregano' ? 'operação própria' : c.id === 'marca' ? '@lindsonalmeida_' : 'lead ou novo'}</small></button>`).join('')}</div></section>
+  <section class="card"><div class="passo"><b>02</b><span>O que você precisa</span></div><div class="funcoes">${GRUPOS.map(g => `<div class="fgrupo"><h5>${g[0]}</h5><div class="fgrade">${g[1].map(f => `<button type="button" class="fn${FN[f[0]].acao ? ' acao' : ''}" data-fn="${f[0]}" aria-pressed="false"><em>${FN[f[0]].cod}</em>${I[f[0]]}<span>${f[1]}</span></button>`).join('')}</div></div>`).join('')}</div></section>`;
+}
+function pintaEscolhas() {
+  $$('[data-cli]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.cli === P.cli)));
+  $$('[data-fn]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.fn === P.fn)));
+  const mc = $('#m-cli'), mf = $('#m-fn'), md = $('#m-dest'); if (!mc) return;
+  mc.textContent = P.cli ? nomeCli(P.cli) : 'toque num cliente'; mc.classList.toggle('falta', !P.cli);
+  mf.textContent = P.fn ? nomeFn(P.fn) : 'toque numa função'; mf.classList.toggle('falta', !P.fn);
+  const acao = P.fn && FN[P.fn].acao;
+  md.textContent = acao ? 'abre na hora (não vai para a fila)' : 'fila · a primeira conta livre pega'; md.classList.toggle('falta', false);
+  $('#cod-ped').textContent = (P.cli || '—').toUpperCase() + ' · ' + (P.fn ? FN[P.fn].cod : '—');
+  const b = $('#btn-enviar'); if (b) b.innerHTML = acao ? I[P.fn] + (P.fn === 'status' ? 'Abrir resultados' : P.fn === 'aprovar' ? 'Abrir aprovações' : 'Abrir fotos') : I.enviar + 'Enviar para a equipe';
+  pintaAviso(P.cli && P.fn && !acao ? jaExiste(P.cli, P.fn) : []);
+  barraCel();
+}
+function barraCel() { const el = $('#envio-cel'), on = tela() === 'comando' && !!(P.cli && P.fn); el.classList.toggle('on', on); document.body.classList.toggle('com-envio', on);
+  if (on) { $('#envio-cel-t').innerHTML = `<small>PEDIDO PRONTO PARA ENVIAR</small>${esc(nomeFn(P.fn))} · ${esc(nomeCli(P.cli))}`; $('[data-envia-cel]').textContent = FN[P.fn].acao ? 'Abrir' : 'Enviar'; } }
+function pintaAviso(dup) {
+  const a = $('#aviso'); if (!a) return;
+  const reg = P.cli && P.fn && !FN[P.fn].acao ? noRegistro(P.cli, P.fn) : [];
+  if (!dup.length && !reg.length) { a.innerHTML = ''; return; }
+  const x = dup[0];
+  a.innerHTML = `<div class="aviso"><h4>${I.alerta}Já existe</h4>
+    ${x ? `<p><b>${esc(nomeFn(x.func))} · ${esc(nomeCli(x.cli))}</b> — ${esc(ST[x.st])}${x.conta ? ' com ' + esc(x.conta) : ''}, pedido em ${dt(x.criado)}${x.texto ? ': “' + esc(x.texto.slice(0, 120)) + '”' : ''}.${dup.length > 1 ? ' (+' + (dup.length - 1) + ')' : ''}</p>` : ''}
+    ${reg.map(e => `<p class="mono" style="font-size:12px">REGISTRO ${esc(e.data)} · ${esc(e.conta)}: ${esc(e.oque.slice(0, 140))}</p>`).join('')}
+    <div class="acoes">${x ? `<a class="btn lin" href="#fila" data-ver="${x.id}">Ver na fila</a>` : ''}<button class="btn lin" type="button" data-forcar>${P.forcar ? '✓ Vai mandar mesmo assim' : 'É outro pedido, mandar mesmo assim'}</button></div></div>`;
+}
+
+let FILTRO = 'abertos';
+function telaFila() {
+  const it = FILA.itens || [], cont = { abertos: it.filter(x => ABERTOS.includes(x.st)).length, todos: it.length };
+  Object.keys(ST).forEach(s => cont[s] = it.filter(x => x.st === s).length);
+  const tabs = [['abertos', 'Abertos'], ['novo', 'Novos'], ['andamento', 'Com a conta'], ['pronto', 'Prontos'], ['ajuste', 'Ajuste'], ['aprovado', 'Aprovados'], ['todos', 'Todos']];
+  const lista = it.filter(x => FILTRO === 'todos' ? true : FILTRO === 'abertos' ? ABERTOS.includes(x.st) : x.st === FILTRO)
+    .sort((a, b) => (a.st === 'pronto') - (b.st === 'pronto') ? (b.st === 'pronto') - (a.st === 'pronto') : (b.criado || '').localeCompare(a.criado || ''));
+  return `<div class="grade g4">${kpi('Abertos', CARREGOU ? cont.abertos : '—', 'novos, com conta, prontos e ajustes')}${kpi('Prontos', CARREGOU ? cont.pronto : '—', 'esperando a sua aprovação', true)}${kpi('Com as contas', CARREGOU ? cont.andamento : '—', 'cada pedido com uma conta só')}${kpi('Aprovados', CARREGOU ? cont.aprovado : '—', 'desde o início')}</div>
+  <section class="card"><div class="cab"><div class="filtros">${tabs.map(t => `<button class="tab" type="button" data-filtro="${t[0]}" aria-pressed="${FILTRO === t[0]}">${t[1]}<span>${cont[t[0]] || 0}</span></button>`).join('')}</div><button class="btn lin" type="button" data-atualizar>Atualizar</button></div>
+  ${ERRO ? `<div class="vazio">${esc(ERRO)}</div>` : !CARREGOU ? '<div class="vazio mono">CARREGANDO A FILA…</div>' : ''}
+  <div class="pedidos">${CARREGOU && !lista.length ? `<div class="vazio">Nada aqui. Peça pela tela <a href="#comando" style="color:var(--amarelo)">Comando</a>.</div>` : lista.map(cartaoPed).join('')}</div></section>`;
+}
+function cartaoPed(x) {
+  const st = x.st in ST ? x.st : 'novo';
+  const acoes = st === 'pronto' ? `<button class="btn ok" data-aprovar="${x.id}">Aprovar</button><button class="btn lin" data-ajuste="${x.id}">Pedir ajuste</button>`
+    : st === 'aprovado' ? `<button class="btn lin" data-ajuste="${x.id}">Reabrir com ajuste</button>`
+    : st === 'novo' ? `<button class="btn lin" data-cancelar="${x.id}">Cancelar</button>` : '';
+  return `<article class="card ped" id="ped-${esc(x.id)}"><div>
+    <div class="topo-p"><span class="chip ${st}">${st === 'andamento' ? 'Com ' + esc(x.conta || 'conta') : ST[st]}</span><span class="id">${esc(x.id).toUpperCase()}</span>${x.ajustes ? `<span class="id">· ${x.ajustes} AJUSTE(S)</span>` : ''}</div>
+    <h3>${esc(nomeFn(x.func))} · ${esc(nomeCli(x.cli))}</h3>
+    ${x.texto ? `<p class="txt">${esc(x.texto)}</p>` : ''}
+    <div class="meta"><span>PEDIDO ${dt(x.criado)}</span>${x.conta ? `<span>CONTA ${esc(x.conta).toUpperCase()}</span>` : ''}${x.prontoEm ? `<span>PRONTO ${dt(x.prontoEm)}</span>` : ''}<span>ATUALIZADO ${dt(x.atualizado)}</span></div>
+    ${x.nota ? `<div class="nota"><b>Ajuste:</b> ${esc(x.nota)}</div>` : ''}
+    ${Array.isArray(x.notas) && x.notas.length ? `<div class="nota" style="border-color:var(--azul);color:#C9D9F2"><b>${esc(x.notas[x.notas.length - 1].conta)}:</b> ${esc(x.notas[x.notas.length - 1].texto)}</div>` : ''}
+  </div><div class="acoes">${x.link && /^https?:\/\//.test(x.link) ? `<a class="btn am" href="${esc(x.link)}" target="_blank" rel="noopener">Abrir resultado</a>` : ''}${acoes}</div></article>`;
+}
+
+let APROV = {};
+const APROV_CLIS = [['jaci', 'Dra. Jaci'], ['tribuna', 'Tribuna 98'], ['leo', 'Leo Pinto'], ['rt', 'Real Time'], ['oregano', 'Orégano Turbo']];
+async function carregaAprov() {
+  await Promise.all(APROV_CLIS.map(async ([c]) => { try { const r = await fetch(API + `/api/dados?cli=${c}&f=aprov`, { credentials: 'same-origin', cache: 'no-store' }); if (!r.ok) throw 0;
+    const j = await r.json(), it = (j.dados && j.dados.itens) || [];
+    APROV[c] = { ag: it.filter(i => i.st === 'aguardando').length, aj: it.filter(i => i.st === 'em revisão').length, post: it.filter(i => i.st === 'aprovado' && !i.postado).length, total: it.length };
+  } catch (e) { APROV[c] = null; } }));
+}
+function telaResultados() {
+  const it = FILA.itens || [], sem7 = Date.now() - 7 * 864e5;
+  const prontos = it.filter(x => x.prontoEm && x.criado).map(x => Date.parse(x.prontoEm) - Date.parse(x.criado)).filter(v => v > 0);
+  const medio = prontos.length ? horas(prontos.reduce((a, b) => a + b, 0) / prontos.length) : '—';
+  const ent7 = (E.entregas_semana || {}), totSem = Object.values(ent7).reduce((a, b) => a + b, 0);
+  const porSt = Object.keys(ST).map(s => [s, it.filter(x => x.st === s).length]), maxSt = Math.max(1, ...porSt.map(p => p[1]));
+  const prontosConta = {}; it.filter(x => x.prontoEm && Date.parse(x.prontoEm) >= sem7 && x.conta).forEach(x => prontosConta[x.conta] = (prontosConta[x.conta] || 0) + 1);
+  const maxC = Math.max(1, ...CONTAS.map(c => (ent7[c] || 0) + (prontosConta[c] || 0)));
+  const esperando = [];
+  const pr = it.filter(x => x.st === 'pronto'); if (pr.length) esperando.push(`<b>${pr.length}</b> pedido(s) prontos na fila para você aprovar`);
+  APROV_CLIS.forEach(([c, n]) => { const a = APROV[c]; if (a && a.ag) esperando.push(`<b>${a.ag}</b> post(s) de ${n} aguardando aprovação do cliente`); });
+  (E.placar || []).forEach(p => { if (p.dono && p.dono.length) esperando.push(`<b>${esc(p.nome)}</b>: ${p.dono.length} item(ns) dependem de você ou do cliente — ${esc(p.dono[0])}${p.dono.length > 1 ? '…' : ''}`); });
+  const ag = E.agenda;
+  return `<div class="grade g4">${kpi('Pedidos abertos', CARREGOU ? it.filter(x => ABERTOS.includes(x.st)).length : '—', 'na fila da Central')}${kpi('Tempo médio até pronto', medio, prontos.length ? 'em ' + prontos.length + ' pedido(s) feitos pela fila' : 'aparece quando o 1º ficar pronto')}${kpi('Entregas na semana', totSem, 'no registro das contas (7 dias)', true)}${kpi('Esperando você', esperando.length, 'itens parados na sua mão')}</div>
+  <div class="grade g21">
+    <section class="card"><div class="cab"><h3>Placar dos projetos</h3><span class="rot">PLACAR · ${esc(E.placar_data || '')}</span></div><div class="proj">${(E.placar || []).map(p => `<div class="l"><b title="${esc(p.nome)}">${esc(p.nome)}${p.pagante ? '<small>PAGANTE</small>' : ''}</b><span>${p.pct}%</span><div class="barra"><i style="width:${p.pct}%"></i></div></div>`).join('') || '<div class="vazio">Rode o montar-comando.py para trazer o placar.</div>'}</div></section>
+    <section class="card esperando"><div class="cab"><h3>Parado esperando você</h3><span class="rot">AÇÃO DO DONO</span></div>${esperando.length ? `<ul style="margin:0;padding-left:18px;display:grid;gap:8px;font-size:13px">${esperando.map(e => `<li>${e}</li>`).join('')}</ul>` : '<div class="vazio">Nada parado na sua mão.</div>'}</section>
+  </div>
+  <section class="card" id="bloco-aprov"><div class="cab"><h3>Aprovações dos clientes</h3><span class="rot">● AO VIVO · PAINÉIS</span></div><div class="aprov">${APROV_CLIS.map(([c, n]) => { const a = APROV[c];
+    return `<a href="/painel/${c}#aprovacoes"><span>${n}</span>${a === undefined ? '<b>…</b><small>carregando</small>' : a === null ? '<b>—</b><small>sem leitura</small>' : `<b class="${a.ag ? 'am' : ''}">${a.ag}</b><small>para aprovar · ${a.aj} ajuste(s) · ${a.post} a postar</small>`}</a>`; }).join('')}</div></section>
+  <div class="grade g2">
+    <section class="card"><div class="cab"><h3>Pedidos por status</h3><span class="rot">FILA</span></div><div class="proj">${porSt.map(([s, q]) => `<div class="l"><b>${ST[s]}</b><span>${q}</span><div class="barra"><i style="width:${Math.round(q / maxSt * 100)}%"></i></div></div>`).join('')}</div></section>
+    <section class="card"><div class="cab"><h3>Entregas por conta · 7 dias</h3><span class="rot">REGISTRO + FILA</span></div><div class="proj">${CONTAS.map(c => { const q = (ent7[c] || 0) + (prontosConta[c] || 0); return `<div class="l"><b>${c}</b><span>${q}</span><div class="barra"><i style="width:${Math.round(q / maxC * 100)}%"></i></div></div>`; }).join('')}</div></section>
+  </div>
+  <section class="card"><div class="cab"><h3>O que cada conta está fazendo agora</h3><span class="rot">QUADRO · EM ANDAMENTO</span></div><div class="grade g4">${CONTAS.map(c => { const l = (E.andamento || []).filter(a => a.contas.includes(c)), f = it.filter(x => x.st === 'andamento' && x.conta === c);
+    return `<div class="conta-bloco"><h4><i style="width:8px;height:8px;border-radius:50%;background:${l.length || f.length ? 'var(--ok)' : 'var(--linha2)'}"></i>${c}<em>${l.length + f.length} itens</em></h4><ul>${f.map(x => `<li><b>Fila:</b> ${esc(nomeFn(x.func))} · ${esc(nomeCli(x.cli))}</li>`).join('')}${l.slice(0, 5).map(a => `<li>${esc(a.oque)} <span class="mono" style="color:var(--apagado);font-size:10.5px">desde ${esc(a.desde)}</span></li>`).join('')}${!l.length && !f.length ? '<li style="color:var(--apagado)">Nada no quadro.</li>' : ''}</ul></div>`; }).join('')}</div></section>
+  <div class="grade g21">
+    <section class="card"><div class="cab"><h3>Entregas recentes</h3><span class="rot">ÚLTIMAS 15 · REGISTRO</span></div><div class="lista">${(E.entregas || []).slice(0, 15).map(e => `<div class="it"><span class="q">${esc(e.data.slice(0, 5))} · ${esc(e.conta.split(' ')[0])}</span><span class="o">${esc(e.oque)}<small>${esc(e.situacao)}</small></span></div>`).join('') || '<div class="vazio">Sem entregas lidas.</div>'}</div></section>
+    <section class="card"><div class="cab"><h3>Agenda do @lindsonalmeida_</h3><span class="rot">AGENDA-STATUS</span></div>${ag ? `<div class="proj">${Object.entries(ag.por_status).map(([s, q]) => `<div class="l"><b>${esc(s)}</b><span>${q}</span><div class="barra"><i style="width:${Math.round(q / Math.max(1, ag.total) * 100)}%"></i></div></div>`).join('')}</div>${ag.proximo ? `<p class="sub" style="margin:14px 0 0">Próximo: <b style="color:var(--texto)">${esc(ag.proximo.titulo)}</b> · ${esc(ag.proximo.quando)}</p>` : ''}` : '<div class="vazio">Sem agenda lida.</div>'}<p class="rot" style="margin:16px 0 0">Dados de ${esc(E.gerado || '—')}</p></section>
+  </div>`;
+}
+
+// ---------- roteamento ----------
+const TELAS = { comando: ['Comando', telaComando], fila: ['Fila', telaFila], resultados: ['Resultados e análises', telaResultados] };
+function tela() { const h = (location.hash || '#comando').slice(1); return TELAS[h] ? h : 'comando'; }
+function render() {
+  const t = tela(); $('#titulo').textContent = TELAS[t][0]; document.title = TELAS[t][0] + ' · Central de Comando';
+  $$('[data-tela]').forEach(a => { if (a.dataset.tela === t) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); });
+  $('#conteudo').innerHTML = TELAS[t][1]();
+  if (t === 'comando') { pintaEscolhas(); marcaMic(); }
+  barraCel(); contadores();
+}
+function redesenha() { // mesma tela, dados novos (sem refazer a animação de entrada)
+  const t = tela(); if (t === 'comando') { const d = $('#detalhe') ? $('#detalhe').value : ''; P.texto = d; }
+  $('#conteudo').innerHTML = TELAS[t][1](); if (t === 'comando') { pintaEscolhas(); marcaMic(); }
+  $$('#conteudo .kpi .val,#conteudo .barra i').forEach(el => { el.dataset.mvContou = '1'; el.dataset.mvEncheu = '1'; });
+  $$('#conteudo .mv-entra').forEach(el => el.classList.add('mv-vis')); contadores();
+}
+function contadores() {
+  const it = FILA.itens || [];
+  $$('[data-n="abertos"]').forEach(el => el.textContent = CARREGOU ? (it.filter(x => ABERTOS.includes(x.st)).length || '') : '');
+  $$('[data-n="prontos"]').forEach(el => el.textContent = CARREGOU ? (it.filter(x => x.st === 'pronto').length || '') : '');
+}
+function menuLateral() {
+  $('#menu-clientes').innerHTML = CLIS.filter(c => c.painel).map(c => `<a href="/painel/${c.painel}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M7 17 17 7M9 7h8v8"/></svg>${esc(c.nome)}${c.pg ? '<span class="mono" style="margin-left:auto;font-size:9.5px;color:var(--amarelo)">$</span>' : ''}</a>`).join('');
+  const cm = $('#contas-menu');
+  cm.innerHTML = '<span class="rot">As 4 contas agora</span>' + CONTAS.map(c => { const n = (E.andamento || []).filter(a => a.contas.includes(c)).length; return `<div class="c"><i class="${n ? 'on' : ''}"></i>${c}<em>${n} em andamento</em></div>`; }).join('');
+}
+function relogio() { const t = new Date().toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit', second: '2-digit' }); const a = $('#relogio'), b = $('#relogio-menu'); if (a) a.textContent = new Date().toLocaleDateString('pt-BR') + ' · ' + t; if (b) b.textContent = t; }
+
+// ---------- cliques ----------
+document.addEventListener('click', async e => {
+  const t = e.target.closest('button,a'); if (!t) return;
+  if (t.id === 'mic') { ouvir(); return; }
+  if (t.dataset.cli) { P.cli = P.cli === t.dataset.cli ? null : t.dataset.cli; P.forcar = false; pintaEscolhas(); return; }
+  if (t.dataset.fn) { P.fn = P.fn === t.dataset.fn ? null : t.dataset.fn; P.forcar = false; pintaEscolhas(); if (P.fn && FN[P.fn].acao && (P.fn === 'status')) executaAcao('status'); return; }
+  if ('enviaCel' in t.dataset) { if (P.fn && FN[P.fn].acao) executaAcao(P.fn); else { const d = $('#aviso'); envia().then(() => { if (d && d.innerHTML) d.scrollIntoView({ behavior: 'smooth', block: 'center' }); }); } return; }
+  if (t.id === 'btn-enviar') { if (P.fn && FN[P.fn].acao) executaAcao(P.fn); else envia(); return; }
+  if ('forcar' in t.dataset) { P.forcar = !P.forcar; pintaAviso(P.cli && P.fn ? jaExiste(P.cli, P.fn) : []); return; }
+  if (t.dataset.ver) { FILTRO = 'abertos'; setTimeout(() => { const el = document.getElementById('ped-' + t.dataset.ver); el && el.scrollIntoView({ behavior: 'smooth', block: 'center' }); }, 450); return; }
+  if (t.dataset.filtro) { FILTRO = t.dataset.filtro; redesenha(); return; }
+  if ('atualizar' in t.dataset) { t.disabled = true; await carrega(); if (tela() === 'resultados') await carregaAprov(); redesenha(); toast(ERRO || 'Atualizado.'); return; }
+  if (t.dataset.aprovar) { const id = t.dataset.aprovar; if (await muda(d => { const x = d.itens.find(y => y.id === id); if (x) { x.st = 'aprovado'; x.atualizado = agora(); x.aprovadoEm = agora(); } })) { toast('Aprovado.'); redesenha(); } return; }
+  if (t.dataset.cancelar) { const id = t.dataset.cancelar; if (!confirm('Cancelar este pedido? Ele sai da fila.')) return; if (await muda(d => { d.itens = d.itens.filter(y => y.id !== id || y.st !== 'novo'); })) { toast('Pedido cancelado.'); redesenha(); } return; }
+  if (t.dataset.ajuste) { abreAjuste(t.dataset.ajuste); return; }
+});
+document.addEventListener('submit', e => { if (e.target.id !== 'escrever') return; e.preventDefault(); const i = e.target.querySelector('input'), v = i.value.trim(); if (!v) return; i.value = ''; processa(v); });
+
+// janela "Pedir ajuste": fala ou escreve a nota; o pedido volta para a fila (st 'ajuste') e a conta que fez pega de novo
+function abreAjuste(id) {
+  const m = document.createElement('div'); m.className = 'modal'; m.innerHTML = `<div class="caixa" role="dialog" aria-modal="true" aria-label="Pedir ajuste"><h3>Pedir ajuste</h3><p class="sub" style="margin:0;color:var(--apagado)">Fale ou escreva o que mudar. O pedido volta para a fila com esta nota.</p>
+    <textarea class="detalhe" id="nota-aj" maxlength="500" placeholder="Ex.: trocar a foto da capa e deixar o título maior"></textarea>
+    <div style="display:flex;gap:8px;flex-wrap:wrap">${SR ? `<button class="btn lin" type="button" id="aj-voz">${I.mic}Falar</button>` : ''}<button class="btn lin" type="button" id="aj-sair" style="margin-left:auto">Voltar</button><button class="btn am" type="button" id="aj-ok">Pedir ajuste</button></div></div>`;
+  document.body.appendChild(m); const ta = m.querySelector('#nota-aj'); setTimeout(() => ta.focus(), 50);
+  const fecha = () => m.remove();
+  m.addEventListener('click', ev => { if (ev.target === m) fecha(); });
+  m.querySelector('#aj-sair').onclick = fecha;
+  const v = m.querySelector('#aj-voz'); if (v) v.onclick = () => { const r = new SR(); r.lang = 'pt-BR'; r.onresult = ev => { ta.value = (ta.value + ' ' + ev.results[0][0].transcript).trim(); }; r.onend = () => v.textContent = 'Falar'; v.textContent = '● ouvindo…'; r.start(); };
+  m.querySelector('#aj-ok').onclick = async () => { const nota = ta.value.trim().slice(0, 500); if (!nota) { ta.focus(); return; }
+    if (await muda(d => { const x = d.itens.find(y => y.id === id); if (x) { x.st = 'ajuste'; x.nota = nota; x.ajustes = (x.ajustes | 0) + 1; x.atualizado = agora(); } })) { fecha(); toast('Ajuste pedido. Voltou para a fila.'); redesenha(); } };
+}
+
+// ---------- início ----------
+addEventListener('hashchange', () => { render(); if (tela() === 'resultados') carregaAprov().then(() => { if (tela() === 'resultados') redesenha(); }); });
+menuLateral(); relogio(); setInterval(relogio, 1000);
+render();
+carrega().then(() => { redesenha(); if (tela() === 'resultados') carregaAprov().then(redesenha); });
+setInterval(async () => { if (document.hidden || $('.modal')) return; const antes = VERSAO; await carrega(); if (VERSAO !== antes) redesenha(); }, 45000); // a fila muda quando as contas pegam e entregam
+window.__comando = { P, FN, CLIS, entende, processa, jaExiste, fila: () => FILA };
+})();
+</script>
+<!--MOVIMENTO-->
+</body>
+</html>

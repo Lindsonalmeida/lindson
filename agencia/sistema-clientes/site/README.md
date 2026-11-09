@@ -29,6 +29,7 @@ Montado pela conta Lindson em 01/11/2026. Site da Central do Cliente: tela de ac
 | `/painel/leo` | Leo Pinto e admin | `../leo-pinto/montar-leo.py` |
 | `/painel/sf` | Desentupidora SF e admin | `../desentupidora-sf/montar-sf.py` (conta Zuleide, 03/11) |
 | `/painel/rt` | Real Time e admin | `../rt-full-jobs/montar-rt.py` (conta Leandro, 03/11) |
+| `/painel/comando` | só o Lindson (Central de Comando: pedidos por voz, fila das contas, resultados) | `../comando/montar-comando.py` (conta Leandro, 09/11) |
 | `/painel/membros` | só o Lindson (membros dos produtos da Hubla) | `site/membros.html` (Builder Squad, 04/11) |
 | `/membros/*` | compradores dos produtos (sessão `lm_membro`, separada) | `../membros/` (README, seção Sistema) |
 
