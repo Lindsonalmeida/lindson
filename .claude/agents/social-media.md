@@ -182,3 +182,5 @@ Cópia em texto: `agencia/biblioteca-motion/200-ESTILOS-MOTION-VFX.md` (original
 - **Transições:** #163 zoom, #166 corte na batida, #169 flash de luz, #173 split screen (antes × depois), #176 freeze frame com texto (apresentação), #48 faixa de texto em loop, #103 glitch (só no momento do "erro").
 
 **Fora:** 3D pesado, stop motion, anime e cartum. A marca é séria e usa foto colorida.
+
+**Regra do Lindson (09/11): horários.** Só postar entre **8h e 21h** (fuso de São Luís), com **intervalo de 4 horas** entre posts. Se um post atrasar, **reorganize os seguintes**: o atrasado sai assim que der (dentro da janela) e cada próximo fica 4 h depois do anterior. O que não couber até 21h passa para o dia seguinte a partir das 8h. Mantenha o xadrez das cores.

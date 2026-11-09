@@ -8,3 +8,5 @@ Toda tarefa programada que publica um post do @lindsonalmeida_ pelo Windsor faz,
 5. **Avisa o Lindson:** 1 linha com o link do post.
 
 O feed é sempre harmônico e em xadrez (regra do Lindson).
+
+**Regra do Lindson (09/11): horários.** Só postar entre **8h e 21h** (fuso de São Luís), com **intervalo de 4 horas** entre posts. Se um post atrasar, **reorganize os seguintes**: o atrasado sai assim que der (dentro da janela) e cada próximo fica 4 h depois do anterior. O que não couber até 21h passa para o dia seguinte a partir das 8h. Mantenha o xadrez das cores.

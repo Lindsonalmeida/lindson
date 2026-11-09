@@ -42,3 +42,7 @@
 - **Item 1:** publicado às 19h34.
 - **Seq 2 a 7:** agendados como tarefas programadas nos horários da tabela (fuso de São Luís, nova ordem de 09/11). Cada uma publica pelo Windsor e muda o item em `agenda-status.json` para "postado" (media_id, link, postado_em).
 - **Item 8 (bio da Dra. Jaci, antes e depois):** fora da agenda até a Jaci autorizar o uso da bio dela no perfil do Lindson.
+
+## Reorganização de 09/11 (regra: 8h–21h, 4 h de intervalo)
+- **Postados em 09/11:** "Eu mudei a minha marca" às 12h32, "Avaliação gratuita" às 12h34 e "Já impulsionou…" às 12h44.
+- **Agendados:** "5 coisas…" em 09/11 às 16h45 · "Arrume sua bio" em 09/11 às 20h45 · "Do perfil ao WhatsApp" em 10/11 às 8h.
