@@ -9,7 +9,7 @@ meta = {
  "legenda": "Quem foi o apóstolo Paulo de verdade? Ele perseguia cristãos, prendia famílias inteiras e aprovou a morte de Estêvão. Depois escreveu 13 cartas do Novo Testamento. Neste vídeo você conhece a vida de Paulo em ordem: Saulo de Tarso, a luz no caminho de Damasco, os anos escondidos, as viagens, a prisão em Filipos, as cartas, o espinho na carne, o naufrágio e a chegada a Roma.\n\nNo final, você entende por que ele tinha dois nomes, o que faz um homem voltar para a cidade que tentou matá-lo e por onde começar a ler as cartas de Paulo.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📖 Observação: os versículos aparecem em paráfrase curta, com a referência. Confira na sua tradução.\n\n🎫 Quer ler o Novo Testamento com um caminho certo? Baixe grátis a Rota da Primeira Viagem no link da descrição, ou comente ROTA.\n\n#ApóstoloPaulo #AtosDosApóstolos #CartasDePaulo #EstudoBíblico #PassaporteDaBíblia",
  "comentario": "📌 Qual frase de Paulo mais te sustenta hoje? \"A minha graça te basta\", \"posso todas as coisas\" ou outra? Escreve aqui, e lê a do irmão que comentou antes de você.",
  "titulo_tela": {"sup": "PASSAPORTE DA BÍBLIA", "txt": "O perseguidor<br>que mudou tudo", "dur": 3.2},
- "capa": {"A": "Ele perseguia", "B": "Caiu no caminho", "gravA": "095", "gravB": "099"},
+ "capa": {"A": "Ele perseguia", "B": "3 naufrágios", "gravA": "095", "gravB": "099"},
 }
 
 C = [
@@ -34,7 +34,7 @@ C = [
  ("095", "Perto de Damasco, ao meio-dia, uma luz do céu brilha em volta dele. Saulo cai por terra e ouve uma voz: Saulo, Saulo, por que você me persegue?",
   {"cap": {"sup": "PARADA 3", "txt": "A luz no caminho"}, "verso": "Saulo, Saulo, por que você me persegue?", "ref": "ATOS 9.4"}),
  ("046", "Ele pergunta: quem és tu, Senhor? E a resposta: eu sou Jesus, a quem você persegue. Repara: Jesus não diz que persegue os meus seguidores. Diz: me persegue. Quem toca na igreja toca nele."),
- ("056", "Agora um dado curioso, pra testar a sua memória. Em quase toda pintura, inclusive nesta de Doré, Saulo cai de um cavalo. Sabe quantas vezes o cavalo aparece na Bíblia nessa história? Nenhuma."),
+ ("056", "Agora um dado curioso, pra testar a sua memória. Em muitas pinturas famosas dessa cena, Saulo aparece caindo de um cavalo. Sabe quantas vezes o cavalo aparece na Bíblia nessa história? Nenhuma."),
  ("095", "Atos conta a cena três vezes, e em nenhuma tem cavalo. Ele pode ter estado a cavalo, ninguém sabe. Mas a imagem veio da arte, não do texto. Vale ler sempre com atenção.",
   {"interage": {"tipo": "comenta", "txt": "Você também via o cavalo?"}}),
  ("049", "Saulo se levanta, abre os olhos e não vê nada. Os companheiros levam ele pela mão até Damasco. Três dias sem enxergar, sem comer nem beber. O caçador agora precisa ser guiado."),

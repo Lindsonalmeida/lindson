@@ -46,6 +46,8 @@ Processo completo em `conteudo/youtube/passaporte/PROCESSO.md` e `conteudo/youtu
   - Em renderização: 06 Reis, depois 07 Profetas e 08 Vida de Jesus.
 - **Refazer com a voz nova e a conversa:** pv-01, Shorts 01 a 20 e longos 01 a 04 (fila `conteudo/youtube/filas/lote8.sh`, pausada para dar prioridade aos longos).
 - **Capas:** `motor/capas_pv.py`. Os longos novos têm capas claras com até 3 palavras e sem vermelho (estilo C).
+- **Longos 10 a 12 (09/11, conta Zuleide, Peter):** 10 Milagres de Jesus, 11 Êxodo e 12 Apóstolo Paulo. Roteiros em `passaporte/roteiros/` (fonte à mão em `roteiros/fonte/`) e resumo em `roteiros/LOTE-10-12.md`. Render pela fila `conteudo/youtube/filas/lote-longos-10-12.sh`, um por vez. O `pintura.py` ganhou o modo `BLOCO=1800`, que codifica a cada 1 min e apaga os quadros (disco pequeno). Nesta nuvem, o edge-tts precisa do certificado do proxy: a fila cria um `sitecustomize.py` que aponta o certifi para `/root/.ccr/ca-bundle.crt`. Capas: `capas2.py longo-10 longo-11 longo-12` (A/B/C) e a capa nova "Pintura anotada" (`motor/capas_estudo.py`, exceção pedida pelo Lindson só para 10-12; prévia em `passaporte/capas-longos-10-12/`), aguardando aprovação. Não publicar no YouTube direto: será pelo Metricool.
+- `lote3.py` aceita ids (`python3 lote3.py longo-10 longo-11`) para não regravar os outros longos.
 - **Ordem dos comandos:** `lote3.py` (longos 05-09) → `pintura.py` → `capas_pv.py` → `app_pv.py ativos.json` → publicar o app. Depois de qualquer `lote2.py`, rodar `conversa.py`.
 
 ### Raposa e Leão

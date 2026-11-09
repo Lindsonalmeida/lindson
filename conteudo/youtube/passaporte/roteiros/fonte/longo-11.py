@@ -9,7 +9,7 @@ meta = {
  "legenda": "O livro de Êxodo conta a maior libertação da Bíblia. E mesmo assim, poucas semanas depois de atravessar o mar, o povo quis voltar para o Egito. Neste vídeo você entende Êxodo do começo ao fim: a escravidão, Moisés no cesto, a sarça que não queimava, as dez pragas, a noite da Páscoa, o mar aberto, o maná, os Dez Mandamentos, o bezerro de ouro e a tenda de Deus no meio do povo.\n\nNo final, você descobre o que aconteceu com os ossos de José e por que Êxodo é tão importante para entender Jesus.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📖 Observação: os versículos aparecem em paráfrase curta, com a referência. Confira na sua tradução.\n\n🎫 Quer ler a Bíblia com um caminho certo, sem travar no deserto? Baixe grátis a Rota da Primeira Viagem no link da descrição, ou comente ROTA.\n\n#Êxodo #Moisés #DezMandamentos #EstudoBíblico #PassaporteDaBíblia",
  "comentario": "📌 Qual é o seu Egito? Aquela coisa que já te prendeu e que, às vezes, dá saudade de voltar? Se quiser, conta aqui. E qual parte de Êxodo mais te marcou?",
  "titulo_tela": {"sup": "PASSAPORTE DA BÍBLIA", "txt": "Por que Israel<br>quis voltar?", "dur": 3.2},
- "capa": {"A": "Quis voltar", "B": "O mar abriu", "gravA": "053", "gravB": "004"},
+ "capa": {"A": "Quis voltar", "B": "Tirado das águas", "gravA": "053", "gravB": "019"},
 }
 
 C = [

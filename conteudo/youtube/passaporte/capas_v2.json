@@ -444,81 +444,129 @@
   "A": {
    "estilo": "close",
    "grav": "064",
-   "zoom": 0.45,
+   "zoom": 0.7,
    "txt": "NÃO ERA <b>SHOW</b>",
    "lado": "esq",
-   "tag": "MILAGRES DE JESUS"
+   "tag": "MILAGRES DE JESUS",
+   "foco": [
+    0.45,
+    0.5
+   ]
   },
   "B": {
    "estilo": "close",
    "grav": "080",
-   "zoom": 0.45,
+   "zoom": 0.6,
    "txt": "FICA <b>CALADO</b>",
-   "lado": "dir",
-   "tag": "MILAGRES DE JESUS"
+   "lado": "esq",
+   "tag": "MILAGRES DE JESUS",
+   "foco": [
+    0.6,
+    0.33
+   ]
   },
   "C": {
    "estilo": "duelo",
    "grav": "064",
-   "zoom": 0.5,
+   "zoom": 0.7,
    "grav2": "080",
-   "zoom2": 0.5,
+   "zoom2": 0.6,
    "txt": "<b>MAR</b>",
-   "txt2": "<i>TÚMULO</i>"
+   "txt2": "<i>TÚMULO</i>",
+   "foco": [
+    0.45,
+    0.5
+   ],
+   "foco2": [
+    0.6,
+    0.35
+   ]
   }
  },
  "longo-11": {
   "A": {
    "estilo": "close",
    "grav": "053",
-   "zoom": 0.45,
+   "zoom": 0.7,
    "txt": "POR QUE <b>VOLTAR?</b>",
    "lado": "dir",
-   "tag": "ÊXODO"
+   "tag": "ÊXODO",
+   "foco": [
+    0.35,
+    0.42
+   ]
   },
   "B": {
    "estilo": "close",
-   "grav": "004",
-   "zoom": 0.45,
-   "txt": "O MAR <b>ABRIU</b>",
-   "lado": "esq",
-   "tag": "ÊXODO"
+   "grav": "019",
+   "zoom": 0.75,
+   "txt": "TIRADO DAS <b>ÁGUAS</b>",
+   "lado": "dir",
+   "tag": "ÊXODO",
+   "foco": [
+    0.3,
+    0.7
+   ]
   },
   "C": {
    "estilo": "duelo",
    "grav": "018",
-   "zoom": 0.5,
-   "grav2": "004",
-   "zoom2": 0.5,
+   "zoom": 0.6,
+   "grav2": "053",
+   "zoom2": 0.6,
    "txt": "<b>EGITO</b>",
-   "txt2": "<i>DESERTO</i>"
+   "txt2": "<i>DESERTO</i>",
+   "foco": [
+    0.55,
+    0.5
+   ],
+   "foco2": [
+    0.35,
+    0.42
+   ]
   }
  },
  "longo-12": {
   "A": {
    "estilo": "close",
    "grav": "095",
-   "zoom": 0.45,
+   "zoom": 0.7,
    "txt": "ELE <b>PERSEGUIA</b>",
-   "lado": "dir",
-   "tag": "APÓSTOLO PAULO"
+   "lado": "esq",
+   "tag": "APÓSTOLO PAULO",
+   "foco": [
+    0.6,
+    0.55
+   ]
   },
   "B": {
    "estilo": "close",
    "grav": "099",
-   "zoom": 0.45,
-   "txt": "CAIU NO <b>CAMINHO</b>",
-   "lado": "esq",
-   "tag": "APÓSTOLO PAULO"
+   "zoom": 0.7,
+   "txt": "3 <b>NAUFRÁGIOS</b>",
+   "lado": "dir",
+   "tag": "APÓSTOLO PAULO",
+   "foco": [
+    0.38,
+    0.28
+   ]
   },
   "C": {
    "estilo": "duelo",
    "grav": "094",
-   "zoom": 0.5,
+   "zoom": 0.6,
    "grav2": "095",
-   "zoom2": 0.5,
+   "zoom2": 0.6,
    "txt": "<b>PERSEGUIDOR</b>",
-   "txt2": "<i>APÓSTOLO</i>"
+   "txt2": "<i>APÓSTOLO</i>",
+   "foco": [
+    0.55,
+    0.6
+   ],
+   "foco2": [
+    0.62,
+    0.55
+   ]
   }
  }
 }

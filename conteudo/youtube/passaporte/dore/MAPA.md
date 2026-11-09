@@ -97,7 +97,7 @@ Identificado olhando as imagens (o titulos.json está desalinhado; use este mapa
 | 092 | Caminho de Emaús |
 | 093 | Ascensão |
 | 094 | Apedrejamento de Estêvão |
-| 095 | Conversão de Paulo (luz, cavalo, homem caído) |
+| 095 | Conversão de Paulo (feixe de luz do alto, homens caídos; não há cavalo visível) |
 | 096 | Pedro libertado pelo anjo |
 | 097 | Livros queimados em Éfeso |
 | 098 | Paulo resgatado da multidão |
