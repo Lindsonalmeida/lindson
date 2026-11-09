@@ -10,7 +10,7 @@
 - **Fica de fora:** material reprovado (branches `cassandra/*`) e números sem fonte.
 
 ## Última verificação
-- 09/11/2026 16:50 (UTC): sem novidades.
+- 09/11/2026 17:50 (UTC): sem novidades (no privado só entrou o Pixel Meta nas landings).
 
 ## Histórico do que foi agregado
 | Data | Fonte | Agente | O que entrou |
