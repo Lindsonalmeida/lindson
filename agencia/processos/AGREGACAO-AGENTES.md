@@ -10,7 +10,7 @@
 - **Fica de fora:** material reprovado (branches `cassandra/*`) e números sem fonte.
 
 ## Última verificação
-- 08/11/2026 22:50 (UTC): sem novidades desde a coleta da tarde (20:10).
+- 09/11/2026 03:50 (UTC): sem pesquisa nova (no privado só entraram produtos da Hubla e capas).
 
 ## Histórico do que foi agregado
 | Data | Fonte | Agente | O que entrou |

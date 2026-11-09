@@ -35,7 +35,7 @@ $('bg').style.background=am?`radial-gradient(80% 55% at 50% 38%,#ffd84a,${Y} 55%
 {const c=$('tex').getContext('2d'),d=c.createImageData(540,960);let s=7;const r=()=>(s=(s*9301+49297)%233280)/233280;for(let i=0;i<d.data.length;i+=4){const v=200+r()*55;d.data[i]=d.data[i+1]=d.data[i+2]=v;d.data[i+3]=255}c.putImageData(d,0,0);if(!am)$('tex').style.display='none'}
 {const c=$('grain').getContext('2d'),d=c.createImageData(540,960);let s=3;const r=()=>(s=(s*9301+49297)%233280)/233280;for(let i=0;i<d.data.length;i+=4){const v=r()*255;d.data[i]=d.data[i+1]=d.data[i+2]=v;d.data[i+3]=255}c.putImageData(d,0,0)}
 // palavra gigante atrás dele
-const w=$('word');w.textContent=C.palavra;w.style.top=(C.wordTop??330)+'px';w.style.fontSize=(C.wordSize??560)+'px';
+const w=$('word');w.textContent=C.palavra;w.style.top=(C.wordTop??330)+'px';w.style.fontSize=Math.min(C.wordSize??600,Math.floor(2400/Math.max(1,C.palavra.length)))+'px';
 if(am){w.style.color=K}else{w.style.background='linear-gradient(180deg,#ffe27a,#F5C518 45%,#a87c00)';w.style.webkitBackgroundClip='text';w.style.color='transparent';w.style.filter='drop-shadow(0 0 60px rgba(245,197,24,.25))'}
 // foto recortada (colorida), posicionada pelo rosto, base escondida no degradê
 const f=$('foto');f.src=C.foto;f.style.left=(C.fx??60)+'px';f.style.top=(C.fy??420)+'px';f.style.width=(C.fw??960)+'px';if(C.espelhar)f.style.transform='scaleX(-1)';
