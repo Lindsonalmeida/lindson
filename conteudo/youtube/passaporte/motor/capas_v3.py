@@ -52,7 +52,7 @@ def capa(c):
     # fundo levemente desfocado longe do foco (profundidade de campo)
     h, w = 720, 1280; yy, xx = np.mgrid[0:h, 0:w]
     r = np.clip(np.sqrt(((xx / w - c['glow'][0]) * 1.4) ** 2 + (yy / h - c['glow'][1]) ** 2) / .6, 0, 1)[..., None]
-    bl = cv2.GaussianBlur(rgb, (0, 0), 6)
+    bl = cv2.GaussianBlur(rgb, (0, 0), c.get('desfoque', 6))
     bg = (rgb * (1 - r) + bl * r).astype(np.uint8)
     return pagina(f'<img class="bg" src="{uri(Image.fromarray(bg))}">' + c['antes'] + fg + c['depois'])
 
@@ -76,11 +76,20 @@ CAPAS = {
  # Ref. EPIC HISTORY "MUTINY": palavra gigante no alto, a figura (Jesus, braço erguido diante do túmulo de Lázaro) passa na frente dela.
  'capa-10': dict(arq=DORE + '080.jpg', prof=DORE + 'prof/080.png', corte_prof=.095, rampa=.012, crop=(.60, .245, .66), glow=(.50, .48), forca=.7,
    antes='<div class="sh" style="background:linear-gradient(180deg,rgba(0,0,0,.55),rgba(0,0,0,0) 45%)"></div>'
-         '<div class="t" style="left:0;right:0;top:-6px;text-align:center;font-size:300px;letter-spacing:.03em"><b>SHOW?</b></div>',
+         '<div class="t" style="left:0;right:0;top:14px;text-align:center;font-size:290px;letter-spacing:.03em"><b>SHOW?</b></div>',
    depois='<div class="sh" style="background:linear-gradient(0deg,rgba(0,0,0,.75),rgba(0,0,0,0) 34%)"></div>'
           '<div class="t" style="left:48px;bottom:34px;font-size:128px">NÃO ERA</div>'
           '<div class="mk" style="right:44px;bottom:44px">PASSAPORTE DA BÍBLIA</div>'
           '<div class="tag" style="right:46px;bottom:86px">OS MILAGRES DE JESUS</div>'),
+ # Ref. JOHNNY HARRIS (EUA): o personagem em close de um lado, luz quente nele, fundo afundado no escuro,
+ # texto empilhado no espaço livre do outro lado. Saulo cobrindo o rosto diante da luz (Atos 9).
+ 'capa-12': dict(arq=DORE + '095.jpg', crop=(.52, .53, .70), glow=(.72, .50), forca=.5, gama=1.2, vmin=.10, desfoque=10,
+   antes='<div class="sh" style="background:linear-gradient(90deg,rgba(0,0,0,.85),rgba(0,0,0,.45) 42%,rgba(0,0,0,0) 62%)"></div>'
+         # o feixe de luz do céu (o da gravura, reforçado) caindo do alto sobre o rosto de Saulo
+         '<div class="sh" style="mix-blend-mode:screen;background:linear-gradient(118deg,rgba(0,0,0,0) 38%,rgba(255,226,160,.0) 44%,rgba(255,226,160,.55) 52%,rgba(255,240,205,.75) 56%,rgba(255,226,160,.45) 61%,rgba(0,0,0,0) 70%);filter:blur(14px)"></div>',
+   depois='<div class="mk" style="left:52px;top:44px">PASSAPORTE DA BÍBLIA</div>'
+          '<div class="tag" style="left:54px;top:92px">APÓSTOLO PAULO</div>'
+          '<div class="t" style="left:48px;top:236px;font-size:150px">ELE<br><b style="font-size:182px">PERSEGUIA</b></div>'),
 }
 
 def render(nomes):
