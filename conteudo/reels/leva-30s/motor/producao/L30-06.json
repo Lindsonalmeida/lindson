@@ -125,7 +125,8 @@
     "punch"
    ],
    "size": 220,
-   "top": 640
+   "top": 640,
+   "flash": true
   }
  ]
 }

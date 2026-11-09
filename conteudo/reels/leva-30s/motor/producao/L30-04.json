@@ -85,7 +85,8 @@
     "punch"
    ],
    "size": 220,
-   "top": 620
+   "top": 620,
+   "flash": true
   },
   {
    "tipo": "frase",

@@ -48,7 +48,8 @@
     "leak"
    ],
    "size": 220,
-   "top": 640
+   "top": 640,
+   "flash": true
   },
   {
    "tipo": "banco",
@@ -172,7 +173,8 @@
     "punch"
    ],
    "size": 260,
-   "top": 640
+   "top": 640,
+   "flash": true
   }
  ]
 }
