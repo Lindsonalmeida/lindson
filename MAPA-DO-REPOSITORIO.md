@@ -46,6 +46,7 @@ Brand book, componentes (Cover, LinkCard, StatStrip…), modelos e guia de Insta
 | `referencias/` | Engenharia reversa do Behance, ensinamentos de Maquiavel (248) e acervo completo em `referencias/maquiavel/` (comece por `INDICE-POR-SITUACAO.md`; `ensinamentos-complementares.md` 249–641; revisão em `REVISAO.md` e `revisao/`, com testes do agente em `revisao/testes-v3/`; obras, fichas dos *Discursos* `discursos-fichas-livro-1/2/3.md`, `REVISAO.md`, `TESTES.md`, memória de decisões `CONSELHOS.md`; agente `.claude/agents/maquiavel.md`); `referencias/dinheiro-online/` |
 | `youtube/passaporte/` | Canal **Passaporte da Bíblia**: identidade, processo, pesquisas, roteiros, motor Pintura Viva (`motor/pintura.py`), capas (`motor/capas2.py` + `capas_v2.json`) |
 | `youtube/raposa-e-leao/` | Canal **Raposa e Leão** (Maquiavel): identidade, processo, 30 Shorts, longos, roteiros, acervo de imagens |
+| `youtube/canais-central/` | Canais dark **dentro da Central** (`/painel/canais`): `montar-canais.py` gera a página, as capas e o `MIGRACAO.md` no privado (conta Leandro, 09/11/2026) |
 | `youtube/comum/` | Voz humanizada |
 | `youtube/filas/` | Filas de renderização e instruções para refazer os longos |
 | `youtube/pesquisa/`, `youtube/biblia/` | Top 5 canais dark, referência do canal da Bíblia |

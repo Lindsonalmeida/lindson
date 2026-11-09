@@ -172,21 +172,23 @@ def montar():
             app, blob = v['video'].pop('fonte'); v['video']['app'] = app
             rel = f"{c['id']}/videos/{v['id']}.mp4"; dest = os.path.join(base, rel); f = no_cache(blob)
             tam = os.path.getsize(dest) if os.path.exists(dest) else (os.path.getsize(f) if f else None)
-            motivo = ''
+            motivo, est = '', False
             if v['pre']: motivo = f"já {v['pre']}"
-            elif tam is None: motivo = 'não baixado'; manif.append(dict(canal=c['id'], chave=v['id'] + '.mp4', app=app, id=blob))
+            elif tam is None:  # ainda não baixado: estima pelo tamanho típico do app (longo ~19 MB, short ~5 MB) para conferir o limite
+                manif.append(dict(canal=c['id'], chave=v['id'] + '.mp4', app=app, id=blob)); tam, est = (19.5 if v['tipo'] == 'longo' else 5) * 2**20, True
             elif tam > LIMITE_VIDEO: motivo = f'{tam / 2**20:.1f} MB (passa de 20 MB)'
-            cand.append((c, v, rel, dest, f, tam, motivo, app, blob))
-    total = sum(t for _, _, _, _, _, t, m, _, _ in cand if not m)
+            cand.append((c, v, rel, dest, f, tam, motivo, app, blob, est))
+    total = sum(x[5] for x in cand if not x[6])
     copiar = total <= LIMITE_TOTAL or '--videos' in sys.argv
-    for c, v, rel, dest, f, tam, motivo, app, blob in cand:
-        if not motivo and not copiar: motivo = f'aguardando OK (total {total / 2**20:.0f} MB passa de 300 MB)'
+    for c, v, rel, dest, f, tam, motivo, app, blob, est in cand:
+        if not motivo and not copiar: motivo = f'aguardando OK (total ~{total / 2**20:.0f} MB passa de 300 MB)'
+        elif not motivo and est and not os.path.exists(dest): motivo = 'não baixado'
         if not motivo and not os.path.exists(dest):
             os.makedirs(os.path.dirname(dest), exist_ok=True); shutil.copyfile(f, dest)
         if not motivo and os.path.exists(dest): v['video']['url'] = '/painel/canais/' + rel; st = 'migrado'; tot_vid += tam
         else: v['video']['url'] = None; st = 'link antigo' + (f' ({motivo})' if motivo else '')
-        if 'aguardando' in motivo: pend.append((c['nome'], v['id'], tam))
-        linhas.append((c['nome'], v['id'], 'Vídeo', st, app, blob, tam or 0))
+        if 'aguardando' in motivo: pend.append((c['nome'], v['id'], tam, est))
+        linhas.append((c['nome'], v['id'], 'Vídeo', st, app, blob, tam if st == 'migrado' else 0))
     return linhas, pend, total, tot_vid, manif
 
 
@@ -211,7 +213,8 @@ def escrever(linhas, pend, total, tot_vid):
     if pend:
         md += ['## Vídeos aguardando o OK do Lindson (passam do limite de 300 MB juntos)', '',
                'Ficam tocando no app antigo até ele decidir. Para trazer: `python3 montar-canais.py --cache <pasta> --videos`.', '',
-               '| Canal | Vídeo | Tamanho |', '|---|---|---|'] + [f'| {a} | {b} | {t / 2**20:.1f} MB |' for a, b, t in pend] + ['']
+               'Os Shorts 11 a 30 do Raposa também estão no repositório público em `raposa-e-leao/shorts/NN/video.mp4` (versão da agenda do YouTube Studio, ~4 MB cada).', '',
+               '| Canal | Vídeo | Tamanho |', '|---|---|---|'] + [f'| {a} | {b} | {"~" if e else ""}{t / 2**20:.1f} MB{" (estimado)" if e else ""} |' for a, b, t, e in pend] + ['']
     md += ['## Cada arquivo', '', '| Canal | Item | Arquivo | Situação | App de origem | Asset | Tamanho na Central |', '|---|---|---|---|---|---|---|']
     md += [f'| {a} | {b} | {c} | {d} | {e.split("/")[-1]} | `{f}` | {(g / 1024):.0f} KB |' for a, b, c, d, e, f, g in linhas]
     # quais apps podem ser apagados
@@ -229,7 +232,7 @@ if __name__ == '__main__':
     linhas, pend, total, tot_vid, manif = montar()
     if arg('--manifesto'):
         json.dump(manif, open(arg('--manifesto'), 'w'), ensure_ascii=False, indent=0); print(len(manif), 'assets a baixar')
-        print('vídeos candidatos (não postados, ≤20 MB, já baixados):', f'{total / 2**20:.0f} MB')
+        print('vídeos candidatos (não postados, ≤20 MB; os não baixados entram pela estimativa):', f'{total / 2**20:.0f} MB')
         sys.exit()
     escrever(linhas, pend, total, tot_vid)
     print('capas migradas:', sum(1 for l in linhas if l[2] != 'Vídeo' and l[3] == 'migrado'), '· vídeos migrados:', sum(1 for l in linhas if l[2] == 'Vídeo' and l[3] == 'migrado'),

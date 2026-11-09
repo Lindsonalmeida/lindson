@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="pt-BR">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#09090A">
+<title>Canais dark · Central</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Big+Shoulders+Display:wght@700;800&family=Cinzel:wght@700;800&family=IBM+Plex+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap">
+<style>
+/* Canais dark dentro da Central (conta Leandro, 09/11/2026). Fonte: conteudo/youtube/canais-central/ (repositório lindson), montado por montar-canais.py.
+   Sistema da Central (menu lateral, topo, cartões, movimento.js). A identidade de cada canal entra só nos acentos:
+   Passaporte = âmbar de cinema + ciano da etiqueta + Cinzel; Raposa e Leão = ouro + tarja vermelha + Anton. */
+:root{
+  --fundo:#09090A;--painel:#121213;--painel2:#18181A;--linha:#242427;--amarelo:#F5C518;--amarelo2:#FFDD55;--acento2:#3FC6D1;
+  --texto:#F3F0E6;--apagado:#8E8B83;--ok:#5CC98A;--alerta:#F2A93B;--erro:#E5604D;
+  --f-titulo:'Big Shoulders Display','Arial Narrow',Impact,sans-serif;--f-corpo:'Manrope',system-ui,sans-serif;--f-dado:'IBM Plex Mono',ui-monospace,monospace;--f-canal:var(--f-titulo);
+  color-scheme:dark;
+}
+body[data-canal="passaporte"]{--amarelo:#E9B949;--amarelo2:#F6D68A;--acento2:#3FC6D1;--f-canal:'Cinzel',Georgia,serif}
+body[data-canal="raposa"]{--amarelo:#D6A24A;--amarelo2:#ECC57A;--acento2:#D2402F;--f-canal:'Anton','Arial Narrow',Impact,sans-serif}
+[hidden]{display:none!important}
+*{box-sizing:border-box}
+html,body{min-height:100%}
+body{margin:0;background:var(--fundo);color:var(--texto);font:500 14px/1.5 var(--f-corpo);overflow-x:clip;-webkit-tap-highlight-color:transparent}
+button{font:inherit;color:inherit}
+.app{display:grid;grid-template-columns:248px minmax(0,1fr);min-height:100vh}
+/* menu lateral */
+.menu{position:sticky;top:0;height:100vh;display:flex;flex-direction:column;gap:18px;padding:22px 16px;border-right:1px solid var(--linha);background:#0C0C0D;overflow-y:auto}
+.logo{display:flex;align-items:center;gap:10px;font:800 20px var(--f-titulo);letter-spacing:.04em;text-transform:uppercase;color:var(--texto);text-decoration:none}
+.logo b{width:34px;height:34px;display:grid;place-items:center;border:1.5px solid var(--amarelo);color:var(--amarelo);font-size:16px}
+.grupo{display:grid;gap:2px}
+.grupo h4{margin:6px 8px 4px;font:500 10px var(--f-dado);letter-spacing:.24em;text-transform:uppercase;color:var(--apagado)}
+.grupo a{display:flex;align-items:center;gap:10px;padding:8px 10px;border-radius:8px;color:#C9C5BA;text-decoration:none;font-weight:600}
+.grupo a svg{width:17px;height:17px;flex:none}
+.grupo a .sw{width:10px;height:10px;border-radius:3px;flex:none}
+.grupo a:hover{background:var(--painel2);color:var(--texto)}
+.grupo a[aria-current="page"]{background:color-mix(in srgb,var(--amarelo) 13%,transparent);color:var(--amarelo)}
+.grupo a .n{margin-left:auto;font:600 11px var(--f-dado);background:var(--amarelo);color:#0A0A0A;border-radius:99px;padding:0 7px}
+.rodape-menu{margin-top:auto;border:1px solid var(--linha);border-radius:12px;padding:14px;display:grid;gap:6px;background:var(--painel)}
+.rodape-menu b{font-size:13px}.rodape-menu span{color:var(--apagado);font-size:12px}
+/* botões */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:0;border-radius:9px;padding:9px 14px;font:700 13px var(--f-corpo);cursor:pointer;text-decoration:none;white-space:nowrap}
+.btn svg{width:15px;height:15px;flex:none}
+.btn.am{background:var(--amarelo);color:#0A0A0A}.btn.am:hover{background:var(--amarelo2)}
+.btn.lin{background:transparent;color:var(--texto);border:1px solid var(--linha)}.btn.lin:hover{border-color:var(--amarelo);color:var(--amarelo)}
+.btn.mini{padding:6px 10px;font-size:12px}
+.btn.ok{border-color:var(--ok)!important;color:var(--ok)!important}
+.btn:focus-visible,.grupo a:focus-visible,.subabas button:focus-visible,.carimbo:focus-within{outline:2px solid var(--amarelo);outline-offset:2px}
+/* topo */
+.area{min-width:0;display:flex;flex-direction:column}
+.topo{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:14px;padding:14px max(20px,env(safe-area-inset-right,0px)) 14px 24px;border-bottom:1px solid var(--linha);background:rgba(9,9,10,.92);backdrop-filter:blur(8px)}
+.topo h1{margin:0;font:800 26px/1 var(--f-titulo);letter-spacing:.03em;text-transform:uppercase}
+.topo .cliente{color:var(--apagado);font-size:13px}
+.topo .dir{margin-left:auto;display:flex;align-items:center;gap:10px}
+.sinc{font:500 10px var(--f-dado);letter-spacing:.14em;text-transform:uppercase;border-radius:99px;padding:4px 10px;border:1px solid var(--linha);color:var(--apagado);white-space:nowrap}
+.sinc.ok{color:var(--ok);border-color:rgba(92,201,138,.4)}.sinc.al{color:var(--alerta);border-color:rgba(242,169,59,.45)}
+.avatar{width:34px;height:34px;border-radius:50%;background:var(--amarelo);color:#0A0A0A;display:grid;place-items:center;font:800 14px var(--f-titulo);flex:none}
+.abrir-menu{display:none;background:none;border:1px solid var(--linha);color:var(--texto);border-radius:8px;padding:6px 9px;cursor:pointer}
+main{padding:24px max(20px,env(safe-area-inset-right,0px)) 56px 24px;display:grid;gap:18px;align-content:start}
+/* cartões */
+.grade{display:grid;gap:16px}.g4{grid-template-columns:repeat(4,minmax(0,1fr))}
+.card{background:var(--painel);border:1px solid var(--linha);border-radius:14px;padding:18px;min-width:0}
+.kpi .rot{color:var(--apagado);font-size:12.5px}
+.kpi .val{font:800 34px/1.1 var(--f-titulo);letter-spacing:.02em;margin:6px 0 2px;font-variant-numeric:tabular-nums}
+.kpi .d{color:var(--apagado);font-size:12px}
+.chip{display:inline-flex;align-items:center;gap:6px;font:600 11px var(--f-corpo);border-radius:99px;padding:3px 9px;white-space:nowrap}
+.chip.ok{background:rgba(92,201,138,.12);color:var(--ok)}.chip.al{background:rgba(242,169,59,.12);color:var(--alerta)}.chip.am{background:color-mix(in srgb,var(--amarelo) 14%,transparent);color:var(--amarelo)}.chip.ne{background:var(--painel2);color:#C9C5BA}
+.barra{height:8px;border-radius:8px;background:var(--painel2);overflow:hidden;margin-top:10px}.barra i{display:block;height:100%;background:var(--amarelo);border-radius:8px}
+/* cabeça do canal (identidade nos acentos) */
+.canal{position:relative;overflow:hidden;padding:26px 24px;border-color:color-mix(in srgb,var(--amarelo) 35%,var(--linha));
+  background:radial-gradient(70% 140% at 100% 0%,color-mix(in srgb,var(--amarelo) 20%,transparent),transparent 60%),radial-gradient(40% 90% at 0% 100%,color-mix(in srgb,var(--acento2) 12%,transparent),transparent 70%),var(--painel)}
+.canal .etq{display:inline-block;font:600 10.5px var(--f-dado);letter-spacing:.22em;text-transform:uppercase;padding:4px 9px;border-radius:4px;background:var(--acento2);color:#0A0A0A}
+body[data-canal="raposa"] .canal .etq{color:#fff}
+.canal h2{margin:12px 0 6px;font:800 clamp(30px,4.4vw,54px)/1 var(--f-canal);letter-spacing:.02em;color:var(--amarelo2);text-transform:uppercase;text-wrap:balance}
+body[data-canal="raposa"] .canal h2{font-weight:400;letter-spacing:.01em}
+.canal p{margin:0;color:#CFCBC0;max-width:64ch}
+.canal .acoes{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
+/* abas */
+.subabas{display:flex;gap:6px;flex-wrap:wrap}
+.subabas button{border:1px solid var(--linha);background:var(--painel);color:#C9C5BA;border-radius:99px;padding:8px 14px;font:700 13px var(--f-corpo);cursor:pointer}
+.subabas button[aria-selected="true"]{background:var(--amarelo);color:#0A0A0A;border-color:var(--amarelo)}
+.subabas button b{font:500 11px var(--f-dado);margin-left:6px;opacity:.8}
+/* cada vídeo */
+.lista{display:grid;gap:16px}
+.vid{display:grid;grid-template-columns:240px minmax(0,1fr);gap:0;padding:0;overflow:hidden}
+.vid.longo{grid-template-columns:minmax(280px,400px) minmax(0,1fr)}
+.vid.feito{border-color:rgba(92,201,138,.45)}
+.midia{background:#050506;padding:12px;display:grid;gap:10px;align-content:start;border-right:1px solid var(--linha)}
+.tela{position:relative;border-radius:10px;overflow:hidden;background:#000}
+.tela video,.tela img{display:block;width:100%;object-fit:cover;background:#000}
+.short .tela video,.short .tela img{aspect-ratio:9/16}
+.longo .tela video,.longo .tela img{aspect-ratio:16/9}
+.tela .selo{position:absolute;left:8px;right:8px;bottom:8px;display:grid;gap:6px;justify-items:start;padding:10px;border-radius:9px;background:rgba(9,9,10,.86);backdrop-filter:blur(4px);font-size:12px;color:#CFCBC0}
+.tela .selo b{color:var(--alerta);font:600 10px var(--f-dado);letter-spacing:.16em;text-transform:uppercase}
+.capas{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
+.capas figure{margin:0;display:grid;gap:4px}
+.capas img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:6px;border:1px solid var(--linha);display:block}
+.capas figcaption{font:500 10px var(--f-dado);letter-spacing:.12em;color:var(--apagado);text-transform:uppercase}
+.corpo{padding:16px 18px;display:grid;gap:12px;min-width:0;align-content:start}
+.cab{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.cab .num{font:500 11px var(--f-dado);letter-spacing:.2em;color:var(--amarelo);text-transform:uppercase}
+.cab .fim{margin-left:auto;display:flex;align-items:center;gap:10px}
+.carimbo{display:inline-flex;align-items:center;gap:8px;font:700 13px var(--f-corpo);color:#C9C5BA;cursor:pointer;border:1px solid var(--linha);border-radius:9px;padding:6px 10px;background:var(--painel2)}
+.carimbo input{width:18px;height:18px;margin:0;accent-color:var(--ok)}
+.feito .carimbo{color:var(--ok);border-color:rgba(92,201,138,.45)}
+.campo{background:var(--painel2);border:1px solid var(--linha);border-radius:11px;padding:11px 13px;display:grid;gap:6px;min-width:0}
+.campo .r{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.campo .rot{font:500 10px var(--f-dado);letter-spacing:.2em;text-transform:uppercase;color:var(--amarelo)}
+.tx{margin:0;white-space:pre-wrap;overflow-wrap:anywhere;color:#E6E2D7}
+.tit .tx{font:700 16.5px/1.35 var(--f-corpo);color:var(--texto)}
+.leg .tx{max-height:9.2em;overflow:hidden;-webkit-mask-image:linear-gradient(#000 70%,transparent)}
+.leg.aberta .tx{max-height:none;-webkit-mask-image:none}
+.mais{justify-self:start;background:none;border:0;padding:0;color:var(--amarelo);font:700 12px var(--f-corpo);cursor:pointer}
+.baixar{display:flex;flex-wrap:wrap;gap:8px}
+.vazio{color:var(--apagado);text-align:center;padding:28px;border:1px dashed var(--linha);border-radius:12px}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--amarelo);color:#0A0A0A;font-weight:700;padding:10px 16px;border-radius:10px;opacity:0;transition:opacity .25s;pointer-events:none;z-index:40}
+.toast.on{opacity:1}
+.fundo-menu{display:none}
+@media (max-width:1100px){.g4{grid-template-columns:repeat(2,minmax(0,1fr))}.vid.longo{grid-template-columns:minmax(0,1fr)}.vid.longo .midia{border-right:0;border-bottom:1px solid var(--linha)}}
+@media (max-width:760px){
+  .app{grid-template-columns:minmax(0,1fr)}
+  .menu{position:fixed;inset:0 auto 0 0;width:270px;z-index:30;transform:translateX(-100%);transition:transform .25s;padding-top:calc(22px + env(safe-area-inset-top,0px))}
+  .menu.aberto{transform:none;box-shadow:20px 0 60px rgba(0,0,0,.6)}
+  .fundo-menu.on{display:block;position:fixed;inset:0;z-index:25;background:rgba(0,0,0,.5)}
+  .abrir-menu{display:block}
+  .topo{padding:12px 16px;gap:10px}.topo h1{font-size:22px}.topo .sinc{display:none}
+  main{padding:16px 16px 48px}
+  .grade.g4{gap:10px}.kpi{padding:14px}.kpi .val{font-size:28px}
+  .canal{padding:20px 16px}
+  .vid,.vid.longo{grid-template-columns:minmax(0,1fr)}
+  .midia{border-right:0;border-bottom:1px solid var(--linha)}
+  .short .midia{justify-items:center}.short .tela{width:min(100%,250px)}.short .capas{display:none}
+  .corpo{padding:14px}
+  .cab .fim{margin-left:0;width:100%;justify-content:space-between}
+}
+@media (prefers-reduced-motion:reduce){.toast,.menu{transition:none}}
+</style>
+
+<body data-canal="passaporte">
+<div class="app">
+  <nav class="menu" id="menu" aria-label="Menu">
+    <a class="logo" href="/painel/comando"><b>LA</b>Central</a>
+    <div class="grupo"><h4>Canais dark</h4>
+      <a href="#passaporte" data-c="passaporte"><span class="sw" style="background:#E9B949;box-shadow:inset -4px 0 0 #3FC6D1"></span>Passaporte da Bíblia<span class="n" id="n-passaporte"></span></a>
+      <a href="#raposa" data-c="raposa"><span class="sw" style="background:#D6A24A;box-shadow:inset -4px 0 0 #D2402F"></span>Raposa e Leão<span class="n" id="n-raposa"></span></a></div>
+    <div class="grupo"><h4>Central</h4>
+      <a href="/painel/comando"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Central de Comando</a>
+      <a href="/painel/admin"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="7" height="9" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/><rect x="3" y="16" width="7" height="5" rx="1.5"/></svg>Painel do administrador</a></div>
+    <div class="rodape-menu"><b>Tudo num lugar só</b><span>Os apps antigos do claude.ai continuam no ar até você conferir esta página. Depois, eles podem ser apagados.</span></div>
+  </nav>
+  <div class="fundo-menu" id="fundo-menu"></div>
+  <div class="area">
+    <header class="topo">
+      <button class="abrir-menu" id="abrir" aria-label="Abrir menu" aria-controls="menu" aria-expanded="false">☰</button>
+      <div><h1 id="titulo">Canais dark</h1><div class="cliente" id="sub-topo">Postagens prontas</div></div>
+      <div class="dir"><span class="sinc" id="sinc">Conectando…</span><div class="avatar" title="Lindson Almeida (admin)">LA</div></div>
+    </header>
+    <main id="conteudo"></main>
+  </div>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="/painel/canais/dados.js"></script>
+<script>
+const D = window.__CANAIS || { canais: [], apps: {} };
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const IC = {
+  copiar: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg>',
+  baixar: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12M7 10l5 5 5-5M4 21h16"/></svg>',
+  abrir: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 4h6v6M20 4l-9 9M19 14v6H4V5h6"/></svg>'
+};
+let canal = 'passaporte', aba = 'short';
+const est = {};   // por canal: {itens:{id:{postado,postadoEm,postadoPor}}, versao, remoto}
+function toast(t) { const e = $('#toast'); e.textContent = t; e.classList.add('on'); clearTimeout(e._t); e._t = setTimeout(() => e.classList.remove('on'), 1800); }
+const C = () => D.canais.find(c => c.id === canal) || D.canais[0];
+const postado = (cid, v) => { const s = est[cid] && est[cid].itens[v.id]; return s ? !!s.postado : !!v.pre; };
+
+// ---------- status no servidor: /api/dados?cli=<canal>&f=aprov (itens por id do vídeo) ----------
+const LS = cid => 'canais-' + cid;
+async function carregar(cid) {
+  est[cid] = { itens: {}, versao: 0, remoto: false };
+  try {
+    const r = await fetch('/api/dados?cli=' + cid + '&f=aprov', { credentials: 'same-origin', cache: 'no-store' });
+    if (!r.ok) throw new Error(r.status);
+    const j = await r.json();
+    ((j.dados && j.dados.itens) || []).forEach(x => est[cid].itens[x.titulo] = x);
+    est[cid].versao = j.versao || 0; est[cid].remoto = true;
+  } catch (e) {
+    try { Object.assign(est[cid].itens, JSON.parse(localStorage.getItem(LS(cid)) || '{}')); } catch (_) {}
+  }
+}
+function lista(cid) { return Object.entries(est[cid].itens).map(([id, x]) => ({ ...x, titulo: id })); }
+async function salvar(cid, id, valor) {
+  const e = est[cid]; e.itens[id] = { ...(e.itens[id] || {}), titulo: id, postado: valor, postadoEm: valor ? new Date().toISOString() : null };
+  if (!e.remoto) { try { localStorage.setItem(LS(cid), JSON.stringify(e.itens)); } catch (_) {} sinc(); return true; }
+  for (let i = 0; i < 3; i++) {
+    try {
+      const r = await fetch('/api/dados?cli=' + cid + '&f=aprov', { method: 'PUT', credentials: 'same-origin', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ dados: { itens: lista(cid) }, versao: e.versao }) });
+      if (r.status === 409) {  // outra pessoa salvou antes: junta (o que eu mudei agora vence) e tenta de novo
+        const atual = await r.json(), meu = e.itens[id]; e.itens = {};
+        ((atual.dados && atual.dados.itens) || []).forEach(x => e.itens[x.titulo] = x); e.itens[id] = meu; e.versao = atual.versao || 0; continue;
+      }
+      if (!r.ok) throw new Error(r.status);
+      e.versao = (await r.json()).versao; sinc(); return true;
+    } catch (err) { break; }
+  }
+  toast('Não salvou no servidor. Toque de novo.'); return false;
+}
+function sinc() { const e = est[canal], s = $('#sinc'); if (!e) return; s.className = 'sinc ' + (e.remoto ? 'ok' : 'al'); s.textContent = e.remoto ? 'Salvo no servidor' : 'Sem servidor: só neste aparelho'; }
+
+// ---------- copiar ----------
+async function copiar(txt, bt) {
+  try { await navigator.clipboard.writeText(txt); }
+  catch (e) { const t = document.createElement('textarea'); t.value = txt; t.style.position = 'fixed'; t.style.opacity = '0'; document.body.append(t); t.select(); let ok = false; try { ok = document.execCommand('copy'); } catch (_) {} t.remove(); if (!ok) { toast('Segure no texto para copiar'); return; } }
+  const o = bt.innerHTML; bt.classList.add('ok'); bt.innerHTML = 'Copiado'; toast('Copiado'); setTimeout(() => { bt.classList.remove('ok'); bt.innerHTML = o; }, 1500);
+}
+
+// ---------- telas ----------
+function cartaoVideo(c, v, i) {
+  const feito = postado(c.id, v), app = (v.video && v.video.app) || (v.capas[0] && v.capas[0].app) || D.apps[c.id].novo;
+  const poster = (v.capas.find(x => x.url) || {}).url || '';
+  let tela;
+  if (v.video && v.video.url) tela = `<video controls preload="none" playsinline src="${esc(v.video.url)}"${poster ? ` poster="${esc(poster)}"` : ''}></video>`;
+  else tela = `${poster ? `<img src="${esc(poster)}" alt="Capa de ${esc(v.titulo)}" loading="lazy">` : `<img alt="" style="background:#111">`}
+    <div class="selo"><b>${v.video ? 'Arquivo ainda no app antigo' : 'Vídeo ainda não subiu'}</b>${v.video ? `<span>${v.pre ? 'Já foi postado: o vídeo ficou no YouTube/Metricool.' : 'Toque para assistir e baixar no app antigo.'}</span><a class="btn lin mini" href="${esc(app)}" target="_blank" rel="noopener">${IC.abrir}Abrir no app antigo</a>` : '<span>As capas e os textos já estão prontos.</span>'}</div>`;
+  const capas = v.tipo === 'longo' && v.capas.length > 1 ? `<div class="capas">${v.capas.map(x => x.url ? `<figure><img src="${esc(x.url)}" alt="${esc(x.nome)} de ${esc(v.titulo)}" loading="lazy"><figcaption>${esc(x.nome)}</figcaption></figure>` : '').join('')}</div>`
+    : (v.tipo === 'short' && v.video && v.video.url && poster ? `<div class="capas"><figure><img src="${esc(poster)}" alt="Capa de ${esc(v.titulo)}" loading="lazy"><figcaption>Capa</figcaption></figure></div>` : '');
+  const nome = (c.id === 'passaporte' ? 'passaporte-' : 'raposa-e-leao-');
+  const baixar = [
+    v.video && v.video.url ? `<a class="btn am" href="${esc(v.video.url)}" download="${esc(v.video.arq)}">${IC.baixar}Baixar vídeo</a>` : '',
+    ...v.capas.map(x => x.url ? `<a class="btn lin" href="${esc(x.url)}" download="${esc(nome + x.arq)}">${IC.baixar}Baixar ${esc(x.nome.toLowerCase())}</a>` : `<a class="btn lin" href="${esc(x.app || app)}" target="_blank" rel="noopener">${IC.abrir}${esc(x.nome)} no app antigo</a>`)
+  ].join('');
+  const st = feito ? (v.pre && !((est[c.id] || { itens: {} }).itens[v.id]) ? `<span class="chip ok">${esc(v.pre[0].toUpperCase() + v.pre.slice(1))}</span>` : '<span class="chip ok">Postado</span>') : (v.video && v.video.url ? '<span class="chip am">Pronto na Central</span>' : '<span class="chip al">Arquivo no app antigo</span>');
+  return `<article class="card vid ${v.tipo}${feito ? ' feito' : ''}" data-id="${esc(v.id)}">
+    <div class="midia"><div class="tela">${tela}</div>${capas}</div>
+    <div class="corpo">
+      <div class="cab"><span class="num">${v.tipo === 'longo' ? 'Vídeo longo' : 'Short'} · ${String(i + 1).padStart(2, '0')}${v.dur ? ' · ' + esc(v.dur) : ''}</span>${st}
+        <div class="fim"><label class="carimbo"><input type="checkbox" data-post="${esc(v.id)}"${feito ? ' checked' : ''}>Marquei como postado</label></div></div>
+      <div class="campo tit"><div class="r"><span class="rot">Título</span><button class="btn lin mini" data-cp="titulo">${IC.copiar}Copiar título</button></div><p class="tx">${esc(v.titulo)}</p></div>
+      <div class="campo leg"><div class="r"><span class="rot">Legenda${/\d:\d\d/.test(v.legenda) ? ' · com capítulos' : ''}</span><button class="btn lin mini" data-cp="legenda">${IC.copiar}Copiar legenda</button></div><p class="tx">${esc(v.legenda)}</p><button class="mais" data-mais>Ver legenda inteira</button></div>
+      ${v.comentario ? `<div class="campo"><div class="r"><span class="rot">Comentário para fixar</span><button class="btn lin mini" data-cp="comentario">${IC.copiar}Copiar</button></div><p class="tx">${esc(v.comentario)}</p></div>` : ''}
+      <div class="baixar">${baixar}</div>
+    </div></article>`;
+}
+function render() {
+  const c = C(); document.body.dataset.canal = c.id;
+  document.querySelectorAll('.grupo a[data-c]').forEach(a => { if (a.dataset.c === c.id) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); });
+  D.canais.forEach(k => { const n = k.itens.filter(v => !postado(k.id, v)).length; const e = $('#n-' + k.id); if (e) e.textContent = est[k.id] ? n : ''; });
+  $('#titulo').textContent = c.nome; $('#sub-topo').textContent = 'Postagens prontas · atualizado em ' + (D.atualizado || '');
+  const it = c.itens, sh = it.filter(v => v.tipo === 'short'), lo = it.filter(v => v.tipo === 'longo'), fe = it.filter(v => postado(c.id, v));
+  const naC = it.filter(v => v.video && v.video.url).length, capasC = it.reduce((s, v) => s + v.capas.filter(x => x.url).length, 0), capasT = it.reduce((s, v) => s + v.capas.length, 0);
+  const pct = it.length ? Math.round(fe.length / it.length * 100) : 0;
+  const L = aba === 'feito' ? fe : it.filter(v => v.tipo === aba && !postado(c.id, v));
+  $('#conteudo').innerHTML = `
+    <section class="card canal"><span class="etq">${c.id === 'passaporte' ? 'Estúdio · Doré' : 'Estúdio · Maquiavel'}</span><h2>${esc(c.nome)}</h2><p>${esc(c.sub)}</p>
+      <div class="acoes"><a class="btn lin mini" href="${esc(D.apps[c.id].novo)}" target="_blank" rel="noopener">${IC.abrir}App antigo (até conferir)</a></div></section>
+    <div class="grade g4">
+      <div class="card kpi"><div class="rot">A postar</div><div class="val">${it.length - fe.length}</div><div class="d">${sh.filter(v => !postado(c.id, v)).length} Shorts · ${lo.filter(v => !postado(c.id, v)).length} longos</div></div>
+      <div class="card kpi"><div class="rot">Postados</div><div class="val">${fe.length}</div><div class="barra"><i style="width:${pct}%"></i></div></div>
+      <div class="card kpi"><div class="rot">Capas na Central</div><div class="val">${capasC}</div><div class="d">de ${capasT}</div></div>
+      <div class="card kpi"><div class="rot">Vídeos na Central</div><div class="val">${naC}</div><div class="d">${it.filter(v => v.video && !v.video.url && !postado(c.id, v)).length} a postar ainda no app antigo</div></div>
+    </div>
+    <div class="subabas" role="tablist">
+      <button role="tab" data-aba="short" aria-selected="${aba === 'short'}">Shorts<b>${sh.filter(v => !postado(c.id, v)).length}</b></button>
+      <button role="tab" data-aba="longo" aria-selected="${aba === 'longo'}">Vídeos longos<b>${lo.filter(v => !postado(c.id, v)).length}</b></button>
+      <button role="tab" data-aba="feito" aria-selected="${aba === 'feito'}">Postados<b>${fe.length}</b></button>
+    </div>
+    <div class="lista">${L.length ? L.map(v => cartaoVideo(c, v, it.filter(x => x.tipo === v.tipo).indexOf(v))).join('') : `<div class="vazio">${aba === 'feito' ? 'Nada postado ainda. Marque um vídeo e ele vem para cá.' : 'Tudo desta aba já foi postado.'}</div>`}</div>`;
+  sinc();
+}
+$('#conteudo').addEventListener('click', e => {
+  const b = e.target.closest('[data-cp]'); if (b) { const v = C().itens.find(x => x.id === b.closest('.vid').dataset.id); copiar(v[b.dataset.cp], b); return; }
+  const m = e.target.closest('[data-mais]'); if (m) { const f = m.closest('.leg'); f.classList.toggle('aberta'); m.textContent = f.classList.contains('aberta') ? 'Mostrar menos' : 'Ver legenda inteira'; return; }
+  const t = e.target.closest('[data-aba]'); if (t) { aba = t.dataset.aba; try { localStorage.setItem('canais-aba', aba); } catch (_) {} render(); }
+});
+$('#conteudo').addEventListener('change', async e => {
+  const ck = e.target.closest('[data-post]'); if (!ck) return;
+  ck.disabled = true; const ok = await salvar(canal, ck.dataset.post, ck.checked);
+  if (ok) toast(ck.checked ? 'Foi para Postados' : 'Voltou para a fila'); render();
+});
+function rota() { const h = (location.hash || '').slice(1); if (D.canais.some(c => c.id === h)) canal = h; else { try { const s = localStorage.getItem('canais-canal'); if (s) canal = s; } catch (_) {} }
+  try { localStorage.setItem('canais-canal', canal); } catch (_) {} fecharMenu(); render(); }
+// menu no celular
+const menu = $('#menu'), fundo = $('#fundo-menu'), ab = $('#abrir');
+function fecharMenu() { menu.classList.remove('aberto'); fundo.classList.remove('on'); ab.setAttribute('aria-expanded', 'false'); }
+ab.onclick = () => { const on = !menu.classList.contains('aberto'); menu.classList.toggle('aberto', on); fundo.classList.toggle('on', on); ab.setAttribute('aria-expanded', on); };
+fundo.onclick = fecharMenu;
+addEventListener('hashchange', rota);
+try { aba = localStorage.getItem('canais-aba') || 'short'; } catch (_) {}
+(async () => { render(); await Promise.all(D.canais.map(c => carregar(c.id))); rota(); })();
+</script>
+<!--MOVIMENTO-->
+</body>
+</html>
