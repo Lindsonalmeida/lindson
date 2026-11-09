@@ -1,6 +1,6 @@
 # Referências dos criativos de tráfego (pesquisa premium, conta Leandro, 09/11/2026)
 
-O Behance bloqueia robô (403), então a coleta direta no Behance está sendo feita pelo Lindson com a extensão do Chrome. Quando ela chegar ao repositório, esta lista é atualizada e os criativos revistos.
+**Coleta do Lindson no Behance (09/11, extensão do Chrome): 100 modelos de lançamento, infoprodutor e expert** em `CentralLindsonALmeida/dados/agencia/referencias/lancamento-infoprodutor-expert/` (README + CSV). Regras aplicadas daqui: expert recortado ocupando 40–60% da arte com aura na cor de destaque; fundo escuro + 1 cor forte (amarelo); título enorme de 3 a 7 palavras com 1 palavra em caixa; chips e cards de interface; mockup do produto; texto nunca em cima do rosto; botão em toda peça; um KV só (a marca preto e amarelo) repetido nos 30.
 
 ## Base usada agora
 | Referência | Onde | País | O que veio dela |
