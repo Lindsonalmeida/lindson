@@ -10,7 +10,7 @@
 - **Fica de fora:** material reprovado (branches `cassandra/*`) e números sem fonte.
 
 ## Última verificação
-- 09/11/2026 19:56 (UTC): regras de agenda, narração e publicação de 09/11 agregadas ao Social media.
+- 09/11/2026 20:50 (UTC): sem novidades de outras contas (capa "Pintura anotada" do Peter aguarda aprovação, não agregada).
 
 ## Histórico do que foi agregado
 | Data | Fonte | Agente | O que entrou |
