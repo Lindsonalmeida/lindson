@@ -10,7 +10,7 @@
 - **Fica de fora:** material reprovado (branches `cassandra/*`) e números sem fonte.
 
 ## Última verificação
-- 09/11/2026 15:50 (UTC): agregada a coleta "lançamento, infoprodutor e expert".
+- 09/11/2026 16:50 (UTC): sem novidades.
 
 ## Histórico do que foi agregado
 | Data | Fonte | Agente | O que entrou |
