@@ -52,7 +52,7 @@ for tent in range(4):
     if len(audio) / S <= P.get('voz_max', 28.6) or a.voz != 'provisoria': break
     rate = f'+{int(rate.strip("+%")) + 6}%'
 if a.voz != 'provisoria' and len(audio) / S > P.get('voz_max', 28.6):  # cabe em 30 s: acelera sem mudar o tom (até 15%)
-    f = min(1.15, len(audio) / S / P.get('voz_max', 28.6)); tmpw = os.path.join(W, 'vz.wav'); sf.write(tmpw, audio, S)
+    f = min(1.18, len(audio) / S / P.get('voz_max', 28.6)); tmpw = os.path.join(W, 'vz.wav'); sf.write(tmpw, audio, S)
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', tmpw, '-af', f'atempo={f:.4f}', tmpw + '.o.wav'], check=True)
     audio, _ = sf.read(tmpw + '.o.wav', dtype='float32'); bw = [(w, s0 / f, e0 / f) for w, s0, e0 in bw]
     print(f'voz acelerada {f:.3f}x')
@@ -90,7 +90,7 @@ if ic is not None:  # a CTA ganha fôlego: silêncio inserido antes dela e segur
         audio = np.concatenate([audio[:ins], np.zeros(int(folga * S), np.float32), audio[ins:]])
         tw = [(x + folga, y + folga) if x >= tc else (x, y) for x, y in tw]
         fim_voz += folga
-TOTAL = min(30.5, max(P.get('total_min', 20.0), fim_voz + CAUDA))
+TOTAL = min(31.5, max(P.get('total_min', 20.0), fim_voz + CAUDA))
 segs = []
 for k, c in enumerate(cenas):
     idx = [i for i, (kk, _) in enumerate(toks) if kk == k]
@@ -246,7 +246,7 @@ for s in segs:  # corte de batida antes do impacto marcado ("drop")
         for h in s['hits']:
             i0, i1 = int((s['s'] + h - .32) * S), int((s['s'] + h) * S); mus[i0:i1] *= np.linspace(1, 0, max(1, i1 - i0)) ** 3 * 0 + 0.05
 fade = np.ones(N, np.float32); fo = int(1.5 * S); e = int(TOTAL * S); fade[e - fo:e] = np.linspace(1, 0, fo); fade[e:] = 0
-mix = (v * 1.0 + mus + fx * .9) * fade
+mix = v * 1.0 + (mus + fx * .9) * fade  # a voz nunca entra no fade final
 sf.write(W + '/mix.wav', mix[:int(TOTAL * S)], S)
 subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', W + '/mix.wav', '-af', 'loudnorm=I=-14:TP=-1.5:LRA=11', '-ar', '48000', W + '/mixn.wav'], check=True)
 mp4 = OUT + f'/{a.id}.mp4'
