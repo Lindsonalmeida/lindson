@@ -214,3 +214,8 @@ Fonte: privado `dados/agencia/referencias/lancamento-infoprodutor-expert/` (Beha
 
 ## Edição de vídeo gravado (EDIT.IA PRO, 09/11, conta Leandro)
 O estudo está no privado `CentralLindsonALmeida/dados/agencia/referencias/edit-ia-pro/`. Quando houver gravação real da pessoa falando, edite assim: corte as pausas e as tomadas repetidas (fica a última), legenda palavra por palavra, gancho na tela, palavra de impacto atrás da pessoa (com o recorte do vídeo), checklist no tempo da fala, HUD técnico com rótulo mono ("● EDITANDO AO VIVO") e SFX com trilha em ducking. Para o @lindsonalmeida_, a gravação dele falando resolve a voz clonada reprovada e a regra do rosto sem lip-sync.
+
+## Regras novas de 09/11/2026 (MEMORIA-DO-LINDSON.md, conta Zuleide)
+- **Agenda:** todos os posts de 4 em 4 h (08h45, 12h45, 16h45, 20h45), feed xadrez (cor alterna) e **vídeo intercalado com estático**. Quando atrasar, empurre a fila mantendo o intervalo.
+- **Narração (texto da voz):** pontuação expressiva para dar entonação: abertura com "!" ou "?", vírgulas para o ritmo e fim com "!" ou ".". Evite reticências (viram pausa).
+- **Publicação:** Instagram do Lindson e da Real Time pelo Windsor; YouTube do Passaporte pelo Metricool (marca 7990533), Shorts de 2 em 2 h.
