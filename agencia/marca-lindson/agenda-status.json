@@ -2,7 +2,7 @@
  "conta": "@lindsonalmeida_",
  "instagram_id_windsor": "17841443356770777",
  "fuso": "America/Fortaleza",
- "atualizado": "2026-11-09T16:20:00-03:00",
+ "atualizado": "2026-11-09T16:48:00-03:00",
  "regra": "Feed harmônico e xadrez: cor alterna (preto/amarelo); vídeo e estático intercalados; de 4 em 4 h, entre 8h e 21h (08h45, 12h45, 16h45, 20h45). Pedido do Lindson, 09/11.",
  "como_atualizar": "Ao publicar pelo Windsor, a tarefa automática muda o item para status \"postado\" e preenche media_id, link (permalink) e postado_em; depois monta e publica o admin (agencia/sistema-clientes/site/montar-site.py). Status possíveis: postado, agendado, aguardando aprovação, bloqueado.",
  "posts": [
@@ -146,13 +146,13 @@
    "legenda_curta": "Perfil do Instagram que vende: as 5 coisas que não podem faltar",
    "legenda": "Perfil do Instagram que vende: as 5 coisas que não podem faltar\n\nCurtida não paga boleto. Perfil que vende tem 5 coisas em comum. Salva e confere o seu.\n\n1. Bio clara · diz o que você faz, para quem e onde.\n2. Rosto na foto · gente confia em gente, não em logo.\n3. Destaques na ordem do cliente · comece aqui, clientes, como funciona, contato.\n4. Link direto no WhatsApp · com a mensagem pronta.\n5. Post que mostra resultado · antes e depois, bastidor, cliente real.\n\nExemplo: destaque \"Comece aqui\" responde as 3 perguntas que todo mundo faz antes de chamar.\n\n👉 Quantas o seu tem? Comenta PERFIL que eu te digo o que falta.\n\n#perfilquevende #instagramparaempresas #dicasdeinstagram #empreendedorismoslz",
    "data": "2026-11-09",
-   "hora": "16:45",
-   "quando": "2026-11-09T16:45:00-03:00",
+   "hora": "16:47",
+   "quando": "2026-11-09T16:47:00-03:00",
    "windsor_acao": "create_carousel_post",
-   "status": "agendado",
-   "media_id": null,
-   "link": null,
-   "postado_em": null,
+   "status": "postado",
+   "media_id": "18116611031334364",
+   "link": "https://www.instagram.com/p/DfiHc1KDa9g/",
+   "postado_em": "2026-11-09T16:47:21-03:00",
    "obs": ""
   },
   {
