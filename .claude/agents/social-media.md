@@ -211,3 +211,6 @@ Fonte: privado `dados/agencia/referencias/lancamento-infoprodutor-expert/` (Beha
   6. peças "hoje", "ao vivo" e "começa em 1 h";
   7. abertura de carrinho, prova, quebra de objeção e último dia;
   8. página de vendas e área de membros.
+
+## Edição de vídeo gravado (EDIT.IA PRO, 09/11, conta Leandro)
+O estudo está no privado `CentralLindsonALmeida/dados/agencia/referencias/edit-ia-pro/`. Quando houver gravação real da pessoa falando, edite assim: corte as pausas e as tomadas repetidas (fica a última), legenda palavra por palavra, gancho na tela, palavra de impacto atrás da pessoa (com o recorte do vídeo), checklist no tempo da fala, HUD técnico com rótulo mono ("● EDITANDO AO VIVO") e SFX com trilha em ducking. Para o @lindsonalmeida_, a gravação dele falando resolve a voz clonada reprovada e a regra do rosto sem lip-sync.

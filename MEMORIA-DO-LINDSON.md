@@ -411,3 +411,4 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
   - Chatterbox: exaggeration 0,75 · cfg 0,3 · temperatura 0,8.
   - Pós-produção: pausas cortadas, ritmo 1,06×, brilho (+3 dB em 3,5 kHz e em 8 kHz), compressor e −15 LUFS.
   - Gerador: `conteudo/reels/leva-30s/motor/gerar_voz_lindson.py`.
+- **09/11/2026 (conta Leandro) — "analise e aprenda tudo dessa página" (editiapro.com, EDIT.IA PRO):** o estudo está no privado `dados/agencia/referencias/edit-ia-pro/` e foi agregado aos agentes Social media e Webdesigner. A ideia principal para ele: gravar falando, com erros e pausas, e a edição limpar. Isso resolve a voz clonada reprovada e a regra do rosto sem lip-sync.

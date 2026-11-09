@@ -192,3 +192,16 @@ Fonte: privado `dados/agencia/referencias/lancamento-infoprodutor-expert/` (Beha
   6. peças "hoje", "ao vivo" e "começa em 1 h";
   7. abertura de carrinho, prova, quebra de objeção e último dia;
   8. página de vendas e área de membros.
+
+## Página de venda: lições do EDIT.IA PRO (09/11, conta Leandro)
+O estudo está no privado `dados/agencia/referencias/edit-ia-pro/README.md` §3. Resumo:
+- promessa em uma linha;
+- demonstração interativa em passos, mais um antes e depois que a pessoa arrasta;
+- um pedido escrito para cada estilo, em carrossel;
+- números concretos em todo bloco;
+- a seção "feito pra quem…" com 4 rotinas;
+- dizer o que o produto não é;
+- FAQ honesto, sem prometer tempo;
+- âncora de preço, garantia e prazo real.
+
+Não copiar: sorteio (precisa de autorização) nem números de prova que não sejam nossos.
