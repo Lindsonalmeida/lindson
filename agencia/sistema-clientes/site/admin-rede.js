@@ -23,7 +23,7 @@ const dig = s => String(s || '').replace(/\D/g, '');
 const wa = l => { const n = dig(l.whats); return n.length >= 10 ? 'https://wa.me/55' + n.replace(/^55/, '') + '?text=' + encodeURIComponent(ET[l.etapa].msg(l)) : null; };
 
 // ---- dados vivos (KV), com junção se duas abas salvarem juntas
-let D = { postados: {}, gravados: {}, leads: [], relatorios: [], numeros: {} }, versao = 0, carregado = false;
+let D = { postados: {}, gravados: {}, leads: [], relatorios: [], numeros: {}, artes: {} }, versao = 0, carregado = false;
 async function carrega() {
   try { const r = await fetch('/api/dados?cli=admin&f=rede'); if (r.ok) { const j = await r.json(); if (j.dados) D = Object.assign(D, j.dados); versao = j.versao || 0; } } catch (e) {}
   carregado = true; render();
@@ -109,15 +109,86 @@ V['rede-relatorio'] = () => { const rel = (D.relatorios || []).slice().sort((a, 
   <h3 style="margin-top:18px">Regra de decisão</h3><div class="lista"><div>• Criativo com custo por conversa acima da média, depois de gastar o dobro dela: corta.</div><div>• Abaixo da média: aumenta a verba aos poucos, a cada 2 dias.</div><div>• Reels com mais envios a cada mil: vira anúncio.</div><div>• Isca que traz conversa e não marca avaliação em 2 semanas: troca a isca, não o público.</div></div></div></div>
   <div class="card"><h3>Semanas registradas</h3><div class="tab"><table><thead><tr><th>Semana</th>${CAMPOS.map(([, t]) => `<th>${esc(t.split(' (')[0])}</th>`).join('')}<th>Nota</th></tr></thead><tbody>${rel.map(r => `<tr><td>${br(r.semana)}</td>${CAMPOS.map(([k]) => `<td>${esc(r[k] || '—')}</td>`).join('')}<td>${esc(r.nota || '')}</td></tr>`).join('') || `<tr><td colspan="8">Nenhuma semana ainda.</td></tr>`}</tbody></table></div></div>`; };
 
-// ---- 7 · Artes
-V['rede-artes'] = () => { const L = R.artes || [];
-  return `<div class="card"><h3>Artes do seu Instagram</h3><p class="sub">${L.length} posts aprovados na ordem do feed (xadrez preto e amarelo), cada um com a legenda no padrão blog SEO. Toque em uma tela para abrir em tamanho real.</p></div>
-  ${L.length ? `<div class="grade g3">${L.map((a, k) => `<div class="card" style="padding:10px"><img loading="lazy" src="${a.img}" alt="${esc(a.titulo)}" style="width:100%;border-radius:10px;display:block">
+// ---- 7 · Artes, com as abas Para aprovar · Aprovados (a postar) · Postados (pedido do Lindson, 08/11/2026, conta Leandro).
+// Situação de cada arte fica nos dados vivos (D.artes[img] = {st, postado, em, por}); arte nova entra com "st":"aprovar" no artes-aprovadas.json.
+// 09/11/2026 (conta Zuleide, webdesigner): a agenda do Instagram (agencia/marca-lindson/agenda-status.json, embutida em __REDE.agenda) vira a
+// fonte das abas "Aprovados · a postar" (data e hora, miniatura, legenda, cor da capa) e "Postados" (data e link), mais o "Grid do perfil" em xadrez.
+// Status do JSON (postado | agendado | aguardando aprovação | bloqueado), por cima dele o que for marcado aqui (D.artes['ag:<id>']).
+let abaArte = 'apr';
+const chaveArte = a => a.img || a.titulo;
+const AG = ((R.agenda || {}).posts) || [];
+const nomeArq = u => String(u || '').split('/').pop();
+const AGARQ = new Set(AG.flatMap(p => (p.urls || []).concat(p.arquivos || []).map(nomeArq)));
+const naAgenda = a => AGARQ.has(nomeArq(a.img));
+const stArte = a => { const v = (D.artes || {})[chaveArte(a)] || {}; if (v.postado) return 'post'; const st = v.st || a.st || 'aprovado'; return st === 'aprovar' ? 'pend' : st === 'ajuste' ? 'aj' : 'apr'; };
+const vivoAg = p => (D.artes || {})['ag:' + p.id] || {};
+const stAg = p => { const v = vivoAg(p); if (v.postado || p.status === 'postado') return 'postado'; if (v.st === 'aprovado' && p.status === 'aguardando aprovação') return 'agendado'; if (v.st === 'ajuste') return 'ajuste'; return p.status; };
+const quandoAg = p => p.status === 'postado' ? p.postado_em : vivoAg(p).postado ? vivoAg(p).em : p.quando;
+const SEM = ['dom', 'seg', 'ter', 'qua', 'qui', 'sex', 'sáb'];
+const dataHora = iso => { if (!iso) return 'sem data'; const d = new Date(iso); if (isNaN(d)) return iso;
+  const f = new Intl.DateTimeFormat('pt-BR', { timeZone: 'America/Fortaleza', weekday: 'short', day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' }).format(d);
+  return f.replace(/\.,?/, '').replace(', ', ' · ').replace(':', 'h'); };
+const COR = { amarelo: ['#F5C518', '#0A0A0A'], preto: ['#0B0B0B', '#F5C518'] };
+const corChip = c => `<span class="chip ne"><span style="width:10px;height:10px;border-radius:3px;background:${(COR[c] || COR.preto)[0]};border:1px solid var(--linha)"></span>capa ${esc(c || '—')}</span>`;
+const FMT = { post: 'Post', carrossel: 'Carrossel', reels: 'Reels' };
+const stChip = s => ({ postado: '<span class="chip ok">Postado</span>', agendado: '<span class="chip am">Agendado</span>', 'aguardando aprovação': '<span class="chip al">Aguardando aprovação</span>', ajuste: '<span class="chip al">Em ajuste</span>', bloqueado: '<span class="chip er">Bloqueado</span>' }[s] || `<span class="chip ne">${esc(s)}</span>`);
+// miniatura 4:5: a capa real; Reels ainda sem capa pública vira um bloco na cor da capa com a palavra do CTA
+const mini = (p, r = 12) => p.capa ? `<img loading="lazy" src="${esc(p.capa)}" alt="${esc(p.titulo)}" style="width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:${r}px;display:block">`
+  : `<div style="width:100%;aspect-ratio:4/5;border-radius:${r}px;background:${(COR[p.cor] || COR.preto)[0]};color:${(COR[p.cor] || COR.preto)[1]};display:grid;place-items:center;border:1px solid var(--linha);text-align:center;padding:8px"><div><div style="font:400 clamp(18px,3.4vw,34px)/1 var(--f-titulo);letter-spacing:.01em;text-transform:uppercase">${esc(p.palavra || FMT[p.formato] || '')}</div><div style="font:600 10px var(--f-corpo);opacity:.7;margin-top:6px;text-transform:uppercase;letter-spacing:.08em">${esc(FMT[p.formato] || '')} · capa a sair</div></div></div>`;
+const cardAg = (p, i) => { const s = stAg(p), v = vivoAg(p), link = v.link || p.link, atras = s === 'agendado' && p.quando && new Date(p.quando) < new Date();
+  const telas = (p.urls || []).length > 1 ? `<div style="display:flex;gap:6px;overflow-x:auto;margin-top:8px">${p.urls.map(t => `<a href="${esc(t)}" target="_blank" rel="noopener"><img loading="lazy" src="${esc(t)}" alt="tela" style="height:64px;border-radius:6px;display:block"></a>`).join('')}</div>` : '';
+  const bts = s === 'postado'
+    ? (link ? `<a class="btn am" href="${esc(link)}" target="_blank" rel="noopener" style="padding:6px 10px;font-size:12px">Abrir no Instagram</a>` : '') + (v.postado && p.status !== 'postado' ? `<button class="btn lin" type="button" data-agacao="despostar" data-ag="${i}" style="padding:6px 10px;font-size:12px">Voltar para a postar</button>` : '')
+    : s === 'aguardando aprovação' ? `<button class="btn am" type="button" data-agacao="aprovado" data-ag="${i}" style="padding:6px 10px;font-size:12px">Aprovar</button><button class="btn lin" type="button" data-agacao="ajuste" data-ag="${i}" style="padding:6px 10px;font-size:12px">Pedir ajuste</button>`
+    : s === 'ajuste' ? `<button class="btn am" type="button" data-agacao="aprovado" data-ag="${i}" style="padding:6px 10px;font-size:12px">Aprovar</button>`
+    : s === 'agendado' ? `<button class="btn am" type="button" data-agacao="postado" data-ag="${i}" style="padding:6px 10px;font-size:12px">Marcar postado</button>` : '';
+  return `<div class="card" style="padding:10px;display:grid;grid-template-columns:minmax(92px,128px) 1fr;gap:14px;align-items:start">
+   <a href="${esc(p.capa || '#')}" ${p.capa ? 'target="_blank" rel="noopener"' : ''} style="display:block">${mini(p, 10)}</a>
+   <div style="min-width:0"><div style="display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin-bottom:6px">${stChip(s)}${atras ? '<span class="chip er">Passou do horário</span>' : ''}<span class="chip ne">${esc(p.formato_rotulo || FMT[p.formato])}</span>${corChip(p.cor)}</div>
+    <div style="font:700 15px var(--f-dado);color:var(--amarelo)">${s === 'postado' ? 'Postado ' : ''}${esc(dataHora(quandoAg(p)))}${p.seq ? ` <span class="sub" style="font:500 12px var(--f-corpo)">· ${p.seq}º do feed</span>` : ''}</div>
+    <b style="display:block;margin:4px 0 2px">${esc(p.titulo)}</b><div class="sub" style="margin:0;font-size:12.5px">${esc(p.legenda_curta)}</div>
+    ${p.obs ? `<div class="sub" style="margin:4px 0 0;font-size:12px">• ${esc(p.obs)}</div>` : ''}${s === 'postado' && (v.media_id || p.media_id) ? `<div class="sub" style="margin:4px 0 0;font-size:11.5px">media ${esc(v.media_id || p.media_id)}</div>` : ''}
+    ${p.legenda ? `<details style="margin-top:6px"><summary style="cursor:pointer;color:var(--amarelo);font-weight:700;font-size:13px">Legenda completa</summary><pre style="white-space:pre-wrap;font:inherit;font-size:13px">${esc(p.legenda)}</pre></details>` : ''}
+    ${telas}<div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:8px">${bts}${p.legenda ? `<button class="btn lin" type="button" data-agleg="${i}" style="padding:6px 10px;font-size:12px">Copiar legenda</button>` : ''}</div></div></div>`; };
+const cardArte = (a, k) => { const v = (D.artes || {})[chaveArte(a)] || {}, b = (t, x, cl) => `<button class="btn ${cl}" type="button" data-arte="${k}" data-acao="${x}" style="padding:6px 10px;font-size:12px">${t}</button>`;
+  const bt = abaArte === 'pend' ? b('Aprovar', 'aprovado', 'am') + b('Pedir ajuste', 'ajuste', 'lin') : abaArte === 'aj' ? b('Aprovar', 'aprovado', 'am') : abaArte === 'apr' ? b('Marcar como postado', 'postado', 'am')
+    : `<span class="sub" style="margin:0;align-self:center">Postado${v.em ? ' em ' + new Date(v.em).toLocaleDateString('pt-BR') : ''}${v.por ? ' · ' + esc(v.por) : ''}</span>` + b('Voltar para a postar', 'despostar', 'lin');
+  return `<div class="card" style="padding:10px${abaArte === 'post' ? ';opacity:.75' : ''}"><img loading="lazy" src="${a.img}" alt="${esc(a.titulo)}" style="width:100%;border-radius:10px;display:block">
    ${(a.telas || []).length > 1 ? `<div style="display:flex;gap:6px;overflow-x:auto;margin-top:8px">${a.telas.map(t => `<a href="${t}" target="_blank" rel="noopener">${/\.mp4$/.test(t) ? `<video src="${t}" muted loop autoplay playsinline preload="metadata" style="height:74px;border-radius:6px;display:block"></video>` : `<img loading="lazy" src="${t}" alt="tela" style="height:74px;border-radius:6px;display:block">`}</a>`).join('')}</div>` : ''}
    <div class="sub" style="margin:8px 0 2px">${esc(a.data || '')}</div><b style="display:block">${esc(a.titulo)}</b>
    ${a.legenda ? `<details style="margin-top:6px"><summary style="cursor:pointer;color:var(--amarelo);font-weight:700">${a.data === 'stories' ? 'Roteiro de postagem' : 'Legenda SEO'}</summary><pre style="white-space:pre-wrap;font:inherit;font-size:13px">${esc(a.legenda)}</pre></details>` : ''}
-   <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:8px">${a.legenda ? `<button class="btn am" type="button" data-copialeg="${k}" style="padding:6px 10px;font-size:12px">Copiar legenda</button>` : ''}${(a.telas || [a.img]).map((t, n) => `<a class="btn lin" download href="${t}" style="padding:6px 10px;font-size:12px">Baixar${(a.telas || []).length > 1 ? ' ' + (n + 1) : ''}${/\.mp4$/.test(t) ? ' (vídeo)' : ''}</a>`).join('')}</div></div>`).join('')}</div>`
-   : '<div class="card"><p class="sub" style="margin:0">Ainda não há artes aprovadas aqui.</p></div>'}`; };
+   <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:8px">${bt}${a.legenda ? `<button class="btn lin" type="button" data-copialeg="${k}" style="padding:6px 10px;font-size:12px">Copiar legenda</button>` : ''}${(a.telas || [a.img]).map((t, m) => `<a class="btn lin" download href="${t}" style="padding:6px 10px;font-size:12px">Baixar${(a.telas || []).length > 1 ? ' ' + (m + 1) : ''}${/\.mp4$/.test(t) ? ' (vídeo)' : ''}</a>`).join('')}</div></div>`; };
+// prévia do grid do perfil: o mais novo no canto de cima à esquerda, 3 por linha, e a conferência do xadrez (vizinhos de cor diferente)
+const gridAg = () => { const L = AG.map((p, i) => [p, i]).filter(([p]) => p.seq && stAg(p) !== 'bloqueado').sort((a, b) => b[0].seq - a[0].seq);
+  let viz = 0, alt = 0; L.forEach(([p], k) => { [[k + 1, k % 3 < 2], [k + 3, true]].forEach(([j, ok]) => { if (ok && L[j]) { viz++; if (L[j][0].cor !== p.cor) alt++; } }); });
+  const tile = ([p]) => { const s = stAg(p); return `<div style="position:relative${s === 'postado' ? '' : ';opacity:' + (s === 'agendado' ? '.92' : '.6')}">${mini(p, 4)}
+    <span style="position:absolute;left:6px;top:6px;font:700 10px var(--f-dado);background:rgba(10,10,10,.78);color:#fff;border-radius:99px;padding:2px 7px">${p.seq}</span>
+    <span style="position:absolute;right:6px;top:6px;font:700 9.5px var(--f-corpo);border-radius:99px;padding:2px 7px;${s === 'postado' ? 'background:var(--ok);color:#0A0A0A' : s === 'agendado' ? 'background:var(--amarelo);color:#0A0A0A' : 'background:rgba(10,10,10,.78);color:#fff'}">${s === 'postado' ? 'no ar' : s === 'agendado' ? dataHora(p.quando).replace(/^\S+ /, '') : 'aprovar'}</span>
+    ${p.formato !== 'post' ? `<span style="position:absolute;right:6px;bottom:6px;font:700 9.5px var(--f-corpo);background:rgba(10,10,10,.78);color:#fff;border-radius:99px;padding:2px 7px">${FMT[p.formato]}</span>` : ''}</div>`; };
+  return `<div class="grade g21"><div class="card"><h3>Grid do perfil · @lindsonalmeida_</h3><p class="sub">Como o feed vai ficar na ordem de postagem: o mais novo no canto de cima à esquerda. Apagado = ainda não aprovado.</p>
+    <div style="max-width:460px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:3px;background:var(--fundo);padding:3px;border-radius:10px">${L.map(tile).join('')}</div></div>
+   <div class="card"><h3>Feed harmônico e xadrez</h3><p class="sub">Regra: a cor da capa alterna (preto e amarelo) e o formato também, para o grid ficar em xadrez.</p>
+    <div class="grade g2" style="margin:8px 0">${kpi('Vizinhos alternando cor', viz ? Math.round(alt / viz * 100) + '%' : '—', `${alt} de ${viz} pares no grid`)}${kpi('Capas', `${L.filter(([p]) => p.cor === 'amarelo').length} / ${L.filter(([p]) => p.cor !== 'amarelo').length}`, 'amarelas / pretas')}</div>
+    <div class="rot" style="margin:10px 0 6px">Ordem de postagem</div><div style="display:flex;gap:4px;flex-wrap:wrap">${L.slice().reverse().map(([p]) => `<span title="${esc(p.titulo)}" style="width:22px;height:22px;border-radius:5px;display:grid;place-items:center;font:700 10px var(--f-dado);background:${(COR[p.cor] || COR.preto)[0]};color:${(COR[p.cor] || COR.preto)[1]};border:1px solid var(--linha)">${p.seq}</span>`).join('')}</div>
+    <p class="sub" style="margin-top:10px">${esc((R.agenda || {}).regra || '')}</p></div></div>`; };
+V['rede-artes'] = () => { const T0 = R.artes || [], L = T0.map((a, k) => [a, k]).filter(([a]) => stArte(a) === abaArte && (abaArte === 'pend' || abaArte === 'aj' || !naAgenda(a)));
+  const ag = AG.map((p, i) => [p, i]), porSt = s => ag.filter(([p]) => stAg(p) === s);
+  const agApr = porSt('agendado').sort((a, b) => String(a[0].quando).localeCompare(String(b[0].quando))), agPost = porSt('postado').sort((a, b) => String(quandoAg(b[0])).localeCompare(String(quandoAg(a[0])))),
+    agPend = porSt('aguardando aprovação').sort((a, b) => String(a[0].quando).localeCompare(String(b[0].quando))), agAj = porSt('ajuste'), agBloq = porSt('bloqueado');
+  const n = { pend: agPend.length, aj: agAj.length, apr: agApr.length, post: agPost.length, grid: '' };
+  T0.forEach(a => { const s = stArte(a); if (s === 'pend' || s === 'aj' || !naAgenda(a)) n[s]++; });
+  const abas = [['pend', 'Para aprovar'], ['aj', 'Em ajuste'], ['apr', 'Aprovados · a postar'], ['post', 'Postados'], ['grid', 'Grid do perfil']].filter(([k]) => k !== 'aj' || n.aj);
+  const prox = agApr.find(([p]) => new Date(p.quando) >= new Date()) || agApr[0];
+  const topo = `<div class="grade g4">${kpi('Postados', agPost.length, agPost[0] ? 'último ' + dataHora(quandoAg(agPost[0][0])) : 'nenhum ainda')}${kpi('Agendados', agApr.length, prox ? 'próximo ' + dataHora(prox[0].quando) : 'sem horário')}${kpi('Aguardando aprovação', agPend.length + agAj.length, 'Reels da leva de 30 s')}${kpi('Bloqueados', agBloq.length, agBloq.length ? 'falta autorização' : 'nada travado')}</div>
+  <div class="card"><h3>Artes do seu Instagram</h3><p class="sub">A agenda do Windsor posta sozinha nos horários (fuso de São Luís) e marca aqui. Se postar pelo celular, toque em "Marcar postado".</p>
+   <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px">${abas.map(([k, t]) => `<button class="btn ${k === abaArte ? 'am' : 'lin'}" type="button" data-abaarte="${k}" style="padding:7px 12px;font-size:13px">${t}${k === 'grid' ? '' : ` (${n[k]})`}</button>`).join('')}</div></div>`;
+  if (abaArte === 'grid') return topo + gridAg();
+  const lista = { pend: agPend, aj: agAj, apr: agApr, post: agPost }[abaArte] || [];
+  const blocoAg = lista.length ? `<div class="rot" style="margin:18px 0 10px">${{ pend: 'Agenda · esperando o seu ok', aj: 'Agenda · em ajuste', apr: 'Agenda · na ordem de postagem', post: 'Agenda · já no ar' }[abaArte]}</div><div class="grade g2">${lista.map(([p, i]) => cardAg(p, i)).join('')}</div>` : '';
+  const blocoBloq = abaArte === 'apr' && agBloq.length ? `<div class="rot" style="margin:18px 0 10px">Fora da agenda</div><div class="grade g2">${agBloq.map(([p, i]) => cardAg(p, i)).join('')}</div>` : '';
+  const blocoArtes = L.length ? `<div class="rot" style="margin:18px 0 10px">${abaArte === 'apr' ? 'Outras artes aprovadas, sem horário' : abaArte === 'post' ? 'Outras artes marcadas como postadas' : 'Artes'}</div><div class="grade g3">${L.map(([a, k]) => cardArte(a, k)).join('')}</div>` : '';
+  const vazio = { pend: 'Nada esperando a sua aprovação.', aj: 'Nenhuma arte em ajuste.', apr: 'Nenhuma arte aprovada esperando para postar.', post: 'Nada postado ainda. Ao marcar como postado, a arte vem para cá.' }[abaArte];
+  return topo + (blocoAg || blocoArtes || blocoBloq ? blocoAg + blocoBloq + blocoArtes : `<div class="card"><p class="sub" style="margin:0">${vazio}</p></div>`); };
 
 // ---- 8 · Minhas fotos: o Lindson sobe as fotos dele para as artes (copiado do modelo prototipo/fotos.js, conta Lindson 01/11).
 // Vão para /api/fotos?cli=lindson (KV), reduzidas no aparelho para 2048 px + miniatura de 480 px. Pedido do Lindson 03/11: "não tem a aba de subir minhas fotos".
@@ -170,6 +241,16 @@ window.__pos = view => {
   if (ant) ant(view);
   const $$ = s => document.querySelectorAll('#conteudo ' + s), $1 = s => document.querySelector('#conteudo ' + s);
   $$('[data-copialeg]').forEach(b => b.onclick = () => { const a = (R.artes || [])[+b.dataset.copialeg]; if (a && navigator.clipboard) navigator.clipboard.writeText(a.legenda); toast(a && a.data === 'stories' ? 'Roteiro copiado' : 'Legenda copiada'); });
+  $$('[data-abaarte]').forEach(b => b.onclick = () => { abaArte = b.dataset.abaarte; render(); });
+  $$('[data-arte]').forEach(b => b.onclick = () => { const a = (R.artes || [])[+b.dataset.arte]; if (!a) return; const x = b.dataset.acao, ch = chaveArte(a);
+    salva(d => { d.artes = d.artes || {}; const v = d.artes[ch] = d.artes[ch] || {};
+      if (x === 'postado') { v.postado = true; v.em = new Date().toISOString(); v.por = 'Lindson'; } else if (x === 'despostar') { delete v.postado; delete v.em; delete v.por; v.st = 'aprovado'; } else v.st = x; },
+      { aprovado: 'Aprovada', ajuste: 'Pedido de ajuste registrado', postado: 'Marcada como postada', despostar: 'Voltou para a postar' }[x]); });
+  $$('[data-agleg]').forEach(b => b.onclick = () => { const p = AG[+b.dataset.agleg]; if (p && navigator.clipboard) navigator.clipboard.writeText(p.legenda); toast('Legenda copiada'); });
+  $$('[data-ag]').forEach(b => b.onclick = () => { const p = AG[+b.dataset.ag]; if (!p) return; const x = b.dataset.agacao, ch = 'ag:' + p.id;
+    salva(d => { d.artes = d.artes || {}; const v = d.artes[ch] = d.artes[ch] || {};
+      if (x === 'postado') { v.postado = true; v.em = new Date().toISOString(); v.por = 'Lindson'; } else if (x === 'despostar') { delete v.postado; delete v.em; delete v.por; } else v.st = x; },
+      { aprovado: 'Aprovado: entra na agenda', ajuste: 'Pedido de ajuste registrado', postado: 'Marcado como postado', despostar: 'Voltou para a postar' }[x]); });
   $$('[data-copia]').forEach(b => b.onclick = () => { navigator.clipboard && navigator.clipboard.writeText(b.dataset.copia); toast('Gancho copiado'); });
   $$('[data-postado]').forEach(b => b.onclick = () => salva(d => { const k = b.dataset.postado; if (d.postados[k]) delete d.postados[k]; else d.postados[k] = { em: new Date().toISOString() }; }, 'Calendário atualizado'));
   $$('[data-gravado]').forEach(b => b.onclick = () => salva(d => { const k = b.dataset.gravado; if (d.gravados[k]) delete d.gravados[k]; else d.gravados[k] = { em: new Date().toISOString() }; }, 'Lote atualizado'));

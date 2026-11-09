@@ -76,7 +76,9 @@ apps = json.load(open(os.path.join(DADOS, 'apps.json'))) if os.path.exists(os.pa
 ML = os.path.join(SC, '..', 'marca-lindson')
 REDE = {'est': json.load(open(os.path.join(ML, 'estrategia.json'))) if os.path.exists(os.path.join(ML, 'estrategia.json')) else {},
         'cal': json.load(open(os.path.join(ML, 'calendario.json'))) if os.path.exists(os.path.join(ML, 'calendario.json')) else {'dias': []},
-        'artes': json.load(open(os.path.join(ML, 'artes-aprovadas.json'))) if os.path.exists(os.path.join(ML, 'artes-aprovadas.json')) else []}
+        'artes': json.load(open(os.path.join(ML, 'artes-aprovadas.json'))) if os.path.exists(os.path.join(ML, 'artes-aprovadas.json')) else [],
+        # agenda do Instagram (fonte única de status: postado, agendado, aguardando aprovação, bloqueado), conta Zuleide 09/11/2026
+        'agenda': json.load(open(os.path.join(ML, 'agenda-status.json'))) if os.path.exists(os.path.join(ML, 'agenda-status.json')) else {'posts': []}}
 a = open(os.path.join(SC, 'prototipo', 'painel.html')).read()
 a = troca(a, '<title>Painel do Cliente</title>', '<title>Central · Administrador</title>')
 IC = {'inicio': '<rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/>',

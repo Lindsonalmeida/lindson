@@ -2,22 +2,23 @@
 
 > Só peças **aprovadas** pelo Lindson e sem problema. Windsor **não agenda**: publica na hora; cada linha é disparada no horário (fuso São Luís). Arquivos JPEG 1080×1350 (4:5, < 200 KB) em `agencia/marca-lindson/agenda/`. Precisam de URL pública antes de publicar. Dados completos (legendas inteiras e caminhos) em `agenda-windsor.json`; prévia em `previa-agenda.jpg`.
 
-**Ritmo pedido:** 2 carrosséis + 2 posts + 2 Reels por dia, horários 07h · 08h30 (Reels) · 12h · 18h (Reels) · 19h30 · 21h (manhã cedo, almoço, fim de tarde, noite; sem métrica, pensado na rotina do dono de negócio local). Os Reels estão bloqueados (sem vídeo). Material aprovado acaba em 10/11 às 12h.
+**Ritmo pedido:** 2 carrosséis + 2 posts + 2 Reels por dia, horários 07h · 08h30 (Reels) · 12h · 18h (Reels) · 19h30 · 21h (manhã cedo, almoço, fim de tarde, noite; sem métrica, pensado na rotina do dono de negócio local). Em 09/11 os estáticos ocupam também o 08h30 (sem Reels aprovado); os Reels entram a partir de 10/11 08h30 e 18h, quando aprovados.
 
-| # | Data | Hora | Formato | Windsor | Arquivo(s) | Intenção | Cor · composição | Legenda | Status |
-|---|---|---|---|---|---|---|---|---|---|
-| 1 | 08/11 | 20:00 | Post 4:5 | create_image_post | `agenda/a1p.jpg` | atrair/alcance (apresentação) | preto · palavra gigante + foto | Prazer, Lindson (JSON, item 1) | **postado 08/11 19h34** (media 18609781654064434) · fixar no perfil |
-| 2 | 08/11 | 21:00 | Carrossel 4 telas | create_carousel_post | `agenda/c2yp.jpg`, `agenda/c2_2.jpg`, `agenda/c2_3.jpg`, `agenda/c2_4.jpg` | prova/autoridade | amarelo · palavra gigante no amarelo + recorte | Eu mudei a minha marca (JSON, item 2) | aprovado · legenda corrigida: "preto e branco" virou "colorida" |
-| 3 | 09/11 | 07:00 | Post 4:5 | create_image_post | `agenda/p1p.jpg` | conversão/direct (comenta PERFIL) | preto · aspas (papo reto) | Avaliação gratuita do perfil (JSON, item 3) | aprovado · tema parecido com o post de 20/10 (10 vagas); peça nova |
-| 4 | 09/11 | 12:00 | Carrossel 5 telas | create_carousel_post | `agenda/s2_c3_1.jpg`, `agenda/s2_c3_2.jpg`, `agenda/s2_c3_3.jpg`, `agenda/s2_c3_4.jpg`, `agenda/s2_c3_5.jpg` | educar/salvar | preto · palavra gigante atrás (PERFIL) | 5 coisas que todo perfil que vende tem (JSON, item 4) | aprovado |
-| 5 | 09/11 | 19:30 | Post 4:5 | create_image_post | `agenda/s2_p2.jpg` | conversão/direct (comenta ANÚNCIO) | amarelo · palavra gigante no amarelo | Já impulsionou e jogou dinheiro fora? (JSON, item 5) | aprovado |
-| 6 | 09/11 | 21:00 | Carrossel 5 telas | create_carousel_post | `agenda/c1_1.jpg`, `agenda/c1_2.jpg`, `agenda/c1_3.jpg`, `agenda/c1_4.jpg`, `agenda/c1_5.jpg` | educar/salvar | preto · número grande | Arrume sua bio em 3 passos (JSON, item 6) | aprovado · tema próximo do carrossel de 18/10 (bio que vende); peça nova |
-| 7 | 10/11 | 07:00 | Post 4:5 | create_image_post | `agenda/a2.jpg` | prova/autoridade (método) | preto · manchete + lista numerada | Do perfil ao WhatsApp (JSON, item 7) | aprovado · fixar no perfil |
-| 8 | 10/11 | 12:00 | Carrossel 4 telas | create_carousel_post | `agenda/s2_c4_1.jpg`, `agenda/s2_c4_2.jpg`, `agenda/s2_c4_3.jpg`, `agenda/s2_c4_4.jpg` | prova/autoridade (antes × depois de cliente) | preto · palavra + foto ao lado | A bio da Dra. Jaci, antes e depois (JSON, item 8) | aprovado · mostra a bio da cliente Jaci: confirmar que ela libera |
+**Nova ordem em xadrez (pedido do Lindson, 08-09/11: "trabalhe sempre o feed harmônico e xadrez"; conta Zuleide):** fonte única de status em `agenda-status.json` (lido pelo painel do admin, Artes → Aprovados · a postar / Postados / Grid do perfil). As tarefas automáticas atualizam esse JSON ao publicar.
 
-Slots de Reels (08h30 e 18h de 09/11 e 10/11, e os dias seguintes): **bloqueados**, ver abaixo.
+| Seq | Data | Hora | Formato | Windsor | Arquivo(s) | Cor · composição | Legenda | Status |
+|---|---|---|---|---|---|---|---|---|
+| 1 | 08/11 | 19:34 | Post 4:5 | create_image_post | `agenda/a1p.jpg` | preto · palavra gigante + foto | Prazer, Lindson (JSON, item 1) | **postado 08/11 19h34** (media 18609781654064434, https://www.instagram.com/p/Dff1x6aAi4O/) · fixar no perfil |
+| 2 | 09/11 | 07:00 | Carrossel 4 telas | create_carousel_post | `agenda/c2yp.jpg`, `c2_2`, `c2_3`, `c2_4` | amarelo · palavra gigante no amarelo + recorte | Eu mudei a minha marca (JSON, item 2) | agendado |
+| 3 | 09/11 | 08:30 | Post 4:5 | create_image_post | `agenda/p1p.jpg` | preto · aspas (papo reto) | Avaliação gratuita do perfil (JSON, item 3) | agendado |
+| 4 | 09/11 | 12:00 | Post 4:5 | create_image_post | `agenda/s2_p2.jpg` | amarelo · palavra gigante no amarelo | Já impulsionou e jogou dinheiro fora? (JSON, item 5) | agendado |
+| 5 | 09/11 | 19:30 | Carrossel 5 telas | create_carousel_post | `agenda/s2_c3_1.jpg` a `s2_c3_5.jpg` | preto · palavra gigante atrás (PERFIL) | 5 coisas que todo perfil que vende tem (JSON, item 4) | agendado |
+| 6 | 09/11 | 21:00 | Carrossel 5 telas | create_carousel_post | `agenda/c1_1.jpg` a `c1_5.jpg` | preto · número grande | Arrume sua bio em 3 passos (JSON, item 6) | agendado |
+| 7 | 10/11 | 07:00 | Post 4:5 | create_image_post | `agenda/a2.jpg` | preto · manchete + lista numerada | Do perfil ao WhatsApp (JSON, item 7) | agendado · fixar no perfil |
+| 8 a 17 | 10/11 a 14/11 | 08:30 e 18:00 | Reels 30 s | a conferir | `conteudo/reels/leva-30s/roteiros.json` (L30-01 a L30-10) | capas alternando amarelo / preto | legenda de cada roteiro | aguardando aprovação (v1 com voz provisória em 01-04, 06 e 08; os outros sem vídeo) |
+| — | — | — | Carrossel 4 telas | create_carousel_post | `agenda/s2_c4_1.jpg` a `s2_c4_4.jpg` | preto · palavra + foto ao lado | A bio da Dra. Jaci, antes e depois (JSON, item 8) | **bloqueado** · aguarda autorização da Dra. Jaci |
 
-**Feed:** formato alterna post → carrossel em toda a sequência; cor P A P P A P P P (só 2 peças amarelas aprovadas, por isso há pretos seguidos, sempre com composição diferente). Os Reels v2 com capa amarela (s2_r5, s2_r6, s2_r8) devolvem o xadrez quando tiverem vídeo.
+**Feed:** formato alterna; cor P A P A P P P e depois os Reels A P A P… (só 2 peças amarelas estáticas aprovadas). O xadrez completo volta com as capas amarelas dos Reels.
 
 ## Inventário
 
@@ -39,5 +40,5 @@ Slots de Reels (08h30 e 18h de 09/11 e 10/11, e os dias seguintes): **bloqueados
 ## Publicação (conta Zuleide, 08/11)
 - **Imagens públicas:** https://lindsonalmeida.pages.dev/site/agenda/<arquivo> (privado `site/agenda/`).
 - **Item 1:** publicado às 19h34.
-- **Itens 2 a 7:** agendados como tarefas programadas nos horários da tabela (fuso de São Luís). Cada uma publica pelo Windsor.
+- **Seq 2 a 7:** agendados como tarefas programadas nos horários da tabela (fuso de São Luís, nova ordem de 09/11). Cada uma publica pelo Windsor e muda o item em `agenda-status.json` para "postado" (media_id, link, postado_em).
 - **Item 8 (bio da Dra. Jaci, antes e depois):** fora da agenda até a Jaci autorizar o uso da bio dela no perfil do Lindson.
