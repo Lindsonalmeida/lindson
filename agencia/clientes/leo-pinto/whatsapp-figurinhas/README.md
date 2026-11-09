@@ -3,7 +3,7 @@
 **Pedido do Lindson:** "Quero 10 figurinhas pra WhatsApp do Léo Pinto. Pense e crie com a melhor estratégia." Agentes: Marketing Squad (estratégia) e Design Squad (peças).
 
 ## Persona (quem vai usar)
-- **Quem é:** morador de São João Batista e dos povoados, de 25 a 65 anos, nos grupos de família, de bairro, de igreja e de futebol.
+- **Quem é:** morador de São João Batista e dos povoados, de 25 a 65 anos, nos grupos de família, de povoado, de igreja e de futebol.
 - **Rotina:** manda "bom dia" no grupo todo dia, agradece, parabeniza aniversariante e responde com figurinha porque é mais rápido que escrever.
 - **O que valoriza:** proximidade, gente da terra, bom humor.
 - **Do que desconfia:** propaganda.
@@ -19,7 +19,7 @@
    - a camisa não tem adesivo de campanha.
 5. **Distribuição:**
    - o Leo e a equipe usam primeiro nos grupos;
-   - o pacote vai para os grupos de bairro com "fiz umas figurinhas, pode usar à vontade";
+   - o pacote vai para os grupos de povoado com "fiz umas figurinhas, pode usar à vontade";
    - story do Leo mostrando as figurinhas com o link do pacote;
    - um "bom dia" com figurinha em grupo grande vale mais que um post.
 

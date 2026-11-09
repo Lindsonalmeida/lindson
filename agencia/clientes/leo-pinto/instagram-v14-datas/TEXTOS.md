@@ -34,7 +34,7 @@ Na cidade, o poder é dividido em dois. A prefeitura executa: cuida das obras, d
 📋 As 3 tarefas do vereador
 1. Fiscalizar a prefeitura: acompanhar como o dinheiro público é usado e analisar as contas do município.
 2. Votar as leis municipais: discutir e votar projetos de lei e o orçamento da cidade.
-3. Levar a demanda do bairro: ouvir o povo e cobrar de quem tem a obrigação de resolver.
+3. Levar a demanda do povoado: ouvir o povo e cobrar de quem tem a obrigação de resolver.
 
 💡 Exemplo
 Tem um buraco grande na sua rua. O vereador não pega a pá e tapa o buraco sozinho, porque quem executa a obra é a prefeitura. O papel dele é registrar o pedido, cobrar a solução e acompanhar até sair. Por isso a sua mensagem com o lugar certinho e uma foto faz tanta diferença.
@@ -160,29 +160,29 @@ Que Deus abençoe a sua casa, dê saúde pra sua família e paz pra nossa cidade
 
 ---
 
-### 5 · 31/12 · O que o seu bairro precisa em 2027?
+### 5 · 31/12 · O que o seu povoado precisa em 2027?
 
 **Linha:** Voz do povo
 
 **Arte:** foto do Leo com o celular na mão (posicionada pelo rosto).
-- Arte final (v14.2): cartão de enquete "O QUE O SEU BAIRRO PRECISA EM 2027?" com A Saúde perto de casa · B Ruas e estradas · C Educação e juventude · D Emprego e renda, etiqueta "COMENTA A LETRA" e "eu quero ouvir você".
+- Arte final (v14.2): cartão de enquete "O QUE O SEU POVOADO PRECISA EM 2027?" com A Saúde perto de casa · B Ruas e estradas · C Educação e juventude · D Emprego e renda, etiqueta "COMENTA A LETRA" e "eu quero ouvir você".
 
 **Legenda:**
 ```
-O QUE O SEU BAIRRO PRECISA EM 2027? A CAIXINHA ESTÁ ABERTA
+O QUE O SEU POVOADO PRECISA EM 2027? A CAIXINHA ESTÁ ABERTA
 
 Último dia do ano. Hora de olhar pra trás, agradecer e pensar no que vem. Em 2024, vocês me deram a confiança de ser o vereador mais votado de São João Batista. Eu não esqueço disso. E a melhor forma de agradecer é continuar ouvindo vocês.
 
 📲 Por que eu quero ouvir você hoje?
-Porque quem sabe o que falta no bairro é quem mora nele. Você sabe onde a rua alaga, onde falta luz, onde a estrada do povoado fica ruim no inverno, onde o posto precisa de atenção. Eu quero começar 2027 com a lista de vocês na mão.
+Porque quem sabe o que falta no povoado é quem mora nele. Você sabe onde a rua alaga, onde falta luz, onde a estrada do povoado fica ruim no inverno, onde o posto precisa de atenção. Eu quero começar 2027 com a lista de vocês na mão.
 
 💬 Como participar
-Na arte tem quatro opções. Comenta o número do que o seu bairro mais precisa:
+Na arte tem quatro opções. Comenta o número do que o seu povoado mais precisa:
 1 · Saúde perto de casa
 2 · Ruas e estradas
 3 · Educação e juventude
 4 · Emprego e renda
-Escreve também o nome do seu bairro ou povoado. Se for outra coisa, pode escrever com as suas palavras.
+Escreve também o nome do seu povoado. Se for outra coisa, pode escrever com as suas palavras.
 
 💡 Exemplo
 "Leo, aqui no meu povoado a ponte de madeira tá com as tábuas soltas." Pronto. Com o lugar e o problema, eu já consigo registrar o pedido e cobrar de quem tem a obrigação de resolver.
@@ -193,9 +193,9 @@ Eu leio, respondo e levo as demandas pra Câmara. E aqui no perfil eu vou contan
 ✅ Juntos em 2027
 Obrigado por cada mensagem, cada abraço na rua e cada conversa neste ano. Que o ano novo chegue com saúde e paz pra todos nós. Juntos podemos mais!
 
-👇 Comenta o número e o nome do seu bairro: o que ele precisa em 2027?
+👇 Comenta o número e o nome do seu povoado: o que ele precisa em 2027?
 
-#vozdopovo #participacaopopular #demandadobairro #tôcomléopinto
+#vozdopovo #participacaopopular #demandadopovoado #tôcomléopinto
 ```
 
 ---
@@ -219,7 +219,7 @@ Chegou 2027! Feliz ano novo, São João Batista! Que este ano chegue com saúde,
 Todo ano novo é um convite pra sonhar. E sonho bom é aquele que a gente sonha junto. Não é o sonho de uma pessoa só. É o sonho da mãe, do pescador, do lavrador, do estudante, do comerciante, do idoso.
 
 🏡 A cidade que eu sonho
-Eu sonho com uma São João Batista onde o jovem tenha motivo pra ficar, onde a saúde chegue perto de casa, onde a estrada do povoado não pare no inverno e onde cada bairro seja ouvido. Um sonho que só vira realidade com trabalho de todo mundo, todo dia.
+Eu sonho com uma São João Batista onde o jovem tenha motivo pra ficar, onde a saúde chegue perto de casa, onde a estrada do povoado não pare no inverno e onde cada povoado seja ouvido. Um sonho que só vira realidade com trabalho de todo mundo, todo dia.
 
 🤝 Sonho que se faz junto
 Ninguém muda uma cidade sozinho. Muda quando o morador fala, quando o vizinho ajuda, quando a gente cobra e acompanha. Por isso eu repito: juntos podemos mais.

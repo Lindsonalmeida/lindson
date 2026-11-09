@@ -1,6 +1,6 @@
 # Estratégia de Instagram · Leo Pinto (vereador, São João Batista/MA)
 
-> **Regra de situação (Lindson, 05/11/2026):** o Leo é da base do prefeito. Nenhum conteúdo pode abrir espaço para comentário contra a gestão: nada de "demanda", "o que falta", "o que o bairro precisa", "cobrar", "fiscalizar", problema como exemplo ou como opção de enquete. Celebrar, agradecer, mostrar entregas em parceria com a prefeitura. Detalhes e substituições: `../instagram-v15-saudacoes/TEXTOS.md`.
+> **Regra de situação (Lindson, 05/11/2026):** o Leo é da base do prefeito. Nenhum conteúdo pode abrir espaço para comentário contra a gestão: nada de "demanda", "o que falta", "o que o povoado precisa", "cobrar", "fiscalizar", problema como exemplo ou como opção de enquete. Celebrar, agradecer, mostrar entregas em parceria com a prefeitura. Detalhes e substituições: `../instagram-v15-saudacoes/TEXTOS.md`.
 
 
 Versão 1, de 01/11/2026. A identidade visual é o "Leo da Baixada", só com o nome, sem número.
@@ -33,9 +33,9 @@ Isso também protege o Leo de propaganda antecipada.
 
 | # | Linha | % | Objetivo | O que mostra | Formatos |
 |---|---|---|---|---|---|
-| 1 | **Leo na rua** | 25% | Proximidade | Visita a bairros e povoados, conversa com morador, feira, igreja, campo de futebol | Reels "um dia com o Leo", stories ao vivo |
+| 1 | **Leo na rua** | 25% | Proximidade | Visita a povoados, conversa com morador, feira, igreja, campo de futebol | Reels "um dia com o Leo", stories ao vivo |
 | 2 | **Mandato que entrega** | 20% | Autoridade | Indicação feita → resolvida (antes/depois da rua, posto, ponte), projeto de lei explicado em 30 s, prestação de contas do mês | Reels "Pediu? Tá feito.", carrossel "o mês do mandato" |
-| 3 | **Voz do povo** | 15% | Conexão | Morador conta uma conquista ou um agradecimento, caixinha "o que você mais gosta no seu bairro?", Leo responde | Reels de entrevista de rua, stories com caixinha e enquete |
+| 3 | **Voz do povo** | 15% | Conexão | Morador conta uma conquista ou um agradecimento, caixinha "o que você mais gosta no seu povoado?", Leo responde | Reels de entrevista de rua, stories com caixinha e enquete |
 | 4 | **Nossa Baixada** | 15% | Amor pela cidade | Orgulho de São João Batista: campos, pesca, festas juninas, bumba-meu-boi, histórias de gente da terra, comida típica | Reels de cultura, collab com perfis locais |
 | 5 | **Leo de perto** | 15% | Ser amado | Família, fé, futebol, rotina, bastidores do gabinete, erros e risadas | Reels pessoais, fotos espontâneas, "pergunte ao Leo" |
 | 6 | **A cidade que eu sonho** | 10% | Preparar 2028 sem campanha | Desejos positivos para a cidade inteira (jovens, esporte, cultura, festa), entregas da gestão em parceria, "qual o seu desejo pra cidade?" | Carrossel de ideia, reels "imagina se…", lives |
@@ -46,7 +46,7 @@ A linha 6 cresce aos poucos: 10% em 2027 e 20% em 2028, antes da campanha.
 | Dia | Feed | Stories |
 |---|---|---|
 | Seg | Reels "Leo na rua" | Agenda da semana |
-| Ter | Carrossel "Mandato que entrega" | Caixinha do bairro |
+| Ter | Carrossel "Mandato que entrega" | Caixinha do povoado |
 | Qua | Reels "Voz do povo" | Bastidor da Câmara |
 | Qui | Reels "Nossa Baixada" | Enquete |
 | Sex | Reels "Leo de perto" | Resposta às caixinhas |
@@ -59,7 +59,7 @@ Isso dá **4 reels, 1 carrossel e 1 foto por semana, e stories todos os dias**. 
 - **Gancho (0–3 s):** o rosto do Leo e uma frase na tela.
 - **Mostrar:** o lugar e a pessoa.
 - **Provar:** o resultado ou o fato.
-- **Chamar:** "Comenta o nome do seu bairro" / "Manda uma ideia pro seu bairro." É uma chamada para participar, **nunca para votar**.
+- **Chamar:** "Comenta o nome do seu povoado" / "Manda uma ideia pro seu povoado." É uma chamada para participar, **nunca para votar**.
 
 Ganchos prontos:
 1. "Me pediram isso aqui na semana passada. Olha como tá hoje."
@@ -91,7 +91,7 @@ Ganchos prontos:
   > Engenheiro · na rua todo dia
   > Juntos podemos mais! #tôcomléopinto
   > 👇 Fale comigo
-- **Link:** página simples com o WhatsApp do gabinete e um formulário de contato e sugestões por bairro. Os dados dos cidadãos são tratados pela LGPD.
+- **Link:** página simples com o WhatsApp do gabinete e um formulário de contato e sugestões por povoado. Os dados dos cidadãos são tratados pela LGPD.
 - **Destaques:** Quem sou · Na rua · Feito · Câmara · Nossa Baixada · Fale comigo
 - **3 fixados:**
   - vídeo "Quem é o Leo" (60 s, história de vida);
@@ -101,16 +101,16 @@ Ganchos prontos:
 
 ## 7. Crescimento (sair do zero)
 1. **Collabs:** posts em parceria com perfis locais (notícias da cidade, comerciantes, times, igrejas, festas). É o atalho mais rápido.
-2. **Marcar sempre** o bairro ou povoado e as pessoas do vídeo, que compartilham.
+2. **Marcar sempre** o povoado e as pessoas do vídeo, que compartilham.
 3. **Responder todo comentário e toda DM em até 24 h.** Proximidade também é resposta.
-4. **Grupos de WhatsApp dos bairros:** mandar o link do vídeo do bairro deles.
+4. **Grupos de WhatsApp dos povoados:** mandar o link do vídeo do povoado deles.
 5. **Tráfego pago (opcional, a definir):** impulsionar os melhores reels só para São João Batista e para os povoados. É publicidade institucional do mandato, sem pedir voto, e segue as regras da Justiça Eleitoral nos anos de eleição.
 
 ## 8. Plano de 90 dias
 - **Mês 1, acordar o perfil:**
   - bio e destaques;
   - vídeo "Quem é o Leo";
-  - 1 bairro por semana;
+  - 1 povoado por semana;
   - primeira prestação de contas.
 - **Mês 2, conexão:**
   - série "Voz do povo";
@@ -130,17 +130,17 @@ Ganchos prontos:
 - Compartilhamentos
 - DMs e demandas recebidas
 - Demandas resolvidas
-- Bairros visitados
+- Povoados visitados
 
 Sem metas numéricas inventadas: a primeira medição define a base.
 
 ## 10. O que precisamos do Leo
 1. Acesso ao @_leonardopinto. O perfil já foi recebido.
 2. Lista de entregas e indicações do mandato até hoje.
-3. Causas principais, bairros e povoados fortes, e onde quer crescer.
+3. Causas principais, povoados fortes, e onde quer crescer.
 4. Uma pessoa da equipe para filmar 2 vezes por semana. A agência manda o roteiro.
 5. Verba de tráfego, se houver.
 
 Pesquisa usada e a fazer:
 - **Usada:** dados de 2024 (TSE, via O Tempo) e as fotos.
-- **A fazer:** pesquisa da cidade (bairros, povoados, perfis locais para collab, datas da cidade).
+- **A fazer:** pesquisa da cidade (povoados, povoados, perfis locais para collab, datas da cidade).

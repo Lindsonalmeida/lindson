@@ -17,11 +17,11 @@ function aviso() {
   return m ? `<div class="card" style="border-color:rgba(255,194,14,.4)"><p class="sub" style="margin:0">${m}</p></div>` : '';
 }
 const item = d => `<button class="item" type="button" data-dem="${esc(d.id)}" style="width:100%;text-align:left;font:inherit;color:inherit;cursor:pointer">
-  <div style="min-width:0"><div class="t">${esc(d.titulo)}</div><div class="d">${esc(d.protocolo)} · ${esc(d.bairro || 'Sem bairro')} · ${esc(d.causa)} · ${dataBR(d.criado)}</div></div><div class="fim">${pill(d.status)}</div></button>`;
+  <div style="min-width:0"><div class="t">${esc(d.titulo)}</div><div class="d">${esc(d.protocolo)} · ${esc(d.bairro || 'Sem povoado')} · ${esc(d.causa)} · ${dataBR(d.criado)}</div></div><div class="fim">${pill(d.status)}</div></button>`;
 
 V.demandas = () => {
   const n = s => demandas.filter(d => d.status === s).length, tot = demandas.length;
-  const porB = {}; demandas.forEach(d => porB[d.bairro || 'Sem bairro'] = (porB[d.bairro || 'Sem bairro'] || 0) + 1);
+  const porB = {}; demandas.forEach(d => porB[d.bairro || 'Sem povoado'] = (porB[d.bairro || 'Sem povoado'] || 0) + 1);
   const bs = Object.entries(porB).sort((a, b) => b[1] - a[1]).slice(0, 8), mx = Math.max(1, ...bs.map(x => x[1]));
   const bairros = [...new Set(demandas.map(d => d.bairro).filter(Boolean))].sort();
   const l = demandas.filter(d => (filtro.s === 'todas' || d.status === filtro.s) && (!filtro.b || d.bairro === filtro.b) && (!filtro.c || d.causa === filtro.c));
@@ -29,19 +29,19 @@ V.demandas = () => {
   return aviso() + `<div class="grade g4">${[['Demandas recebidas', tot], ['Pedimos · aguardando', n('pedimos')], ['Fizemos · encaminhadas', n('fizemos')], ['Entregamos · resolvidas', n('entregamos')]].map(([r, v]) => `<div class="card kpi"><div class="rot">${r}</div><div class="val">${carg || v}</div><div class="var"><span>dados reais do gabinete</span></div></div>`).join('')}</div>
   <div class="grade g21"><div class="card"><h3>Demandas</h3><p class="sub">Cada pedido da população, do registro à entrega.</p>
    <div class="subabas" style="margin-bottom:10px">${[['todas', 'Todas'], ['pedimos', 'Pedimos'], ['fizemos', 'Fizemos'], ['entregamos', 'Entregamos']].map(([k, t]) => `<button type="button" aria-pressed="${filtro.s === k}" data-fs="${k}">${t}</button>`).join('')}</div>
-   <div class="form-linha" style="grid-template-columns:minmax(0,1fr) minmax(0,1fr);margin-bottom:12px"><select id="f-bairro" aria-label="Bairro"><option value="">Todos os bairros</option>${bairros.map(b => `<option ${b === filtro.b ? 'selected' : ''}>${esc(b)}</option>`).join('')}</select>
+   <div class="form-linha" style="grid-template-columns:minmax(0,1fr) minmax(0,1fr);margin-bottom:12px"><select id="f-bairro" aria-label="Povoado"><option value="">Todos os bairros</option>${bairros.map(b => `<option ${b === filtro.b ? 'selected' : ''}>${esc(b)}</option>`).join('')}</select>
    <select id="f-causa" aria-label="Causa"><option value="">Todas as causas</option>${CAUSAS.map(c => `<option ${c === filtro.c ? 'selected' : ''}>${c}</option>`).join('')}</select></div>
    <div class="lista">${l.length ? l.map(item).join('') : `<div class="vazio">${tot ? 'Nenhuma demanda com esses filtros.' : 'Nenhuma demanda registrada ainda. Use "Registrar demanda" ao lado.'}</div>`}</div></div>
   <div style="display:grid;gap:16px;align-content:start"><form class="card" id="nova-dem"><h3>Registrar demanda</h3><p class="sub">O que o povo pediu, na rua, no WhatsApp ou no gabinete.</p><div style="display:grid;gap:10px">
    <input id="nd-titulo" maxlength="90" required placeholder="Resumo (ex.: poste apagado na rua da escola)" aria-label="Resumo">
-   <input id="nd-bairro" maxlength="60" required list="nd-bairros" placeholder="Bairro ou povoado" aria-label="Bairro ou povoado"><datalist id="nd-bairros">${bairros.map(b => `<option value="${esc(b)}">`).join('')}</datalist>
+   <input id="nd-bairro" maxlength="60" required list="nd-bairros" placeholder="Povoado" aria-label="Povoado"><datalist id="nd-bairros">${bairros.map(b => `<option value="${esc(b)}">`).join('')}</datalist>
    <select id="nd-causa" aria-label="Causa">${CAUSAS.map(c => `<option>${c}</option>`).join('')}</select>
    <textarea id="nd-desc" maxlength="1200" placeholder="Detalhes e ponto de referência"></textarea>
    <input id="nd-nome" maxlength="40" placeholder="Primeiro nome (opcional)" aria-label="Primeiro nome">
    <input id="nd-contato" maxlength="40" placeholder="WhatsApp (opcional)" aria-label="Contato">
    <label class="sub" style="margin:0;display:flex;gap:8px;align-items:flex-start"><input type="checkbox" id="nd-ok" style="width:auto;margin-top:3px">A pessoa autorizou guardar nome e contato só para o retorno desta demanda (LGPD). Sem isso, nome e contato não são salvos.</label>
    <button class="btn am" type="submit" id="nd-btn">Registrar demanda</button></div></form>
-   <div class="card"><h3>Por bairro e povoado</h3><p class="sub">Onde o mandato mais é chamado.</p><div class="lista">${bs.length ? bs.map(([b, v]) => `<div><div style="display:flex;justify-content:space-between"><span>${esc(b)}</span><b>${v}</b></div><div class="barra"><i style="width:${v / mx * 100}%"></i></div></div>`).join('') : '<div class="vazio">O mapa por bairro aparece com as primeiras demandas.</div>'}</div></div></div></div>
+   <div class="card"><h3>Por bairro e povoado</h3><p class="sub">Onde o mandato mais é chamado.</p><div class="lista">${bs.length ? bs.map(([b, v]) => `<div><div style="display:flex;justify-content:space-between"><span>${esc(b)}</span><b>${v}</b></div><div class="barra"><i style="width:${v / mx * 100}%"></i></div></div>`).join('') : '<div class="vazio">O mapa por povoado aparece com as primeiras demandas.</div>'}</div></div></div></div>
   <dialog id="dlg-dem" style="border:1px solid var(--linha);border-radius:16px;background:var(--painel);color:var(--texto);max-width:560px;width:calc(100% - 32px);padding:20px"></dialog>`;
 };
 V.prestacao = () => {

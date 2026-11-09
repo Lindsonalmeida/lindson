@@ -11,7 +11,7 @@ Sou jovem, sou engenheiro e sou daqui. Cresci vendo tudo o que a nossa cidade te
 Muita coisa que a cidade constrói é obra: estrada, ponte, rua, calçamento, drenagem. Com o olho de engenheiro, eu entendo cada projeto e ajudo a explicar pro povo como ele funciona, somando com a prefeitura.
 
 💪 Por que ser jovem faz diferença?
-Energia pra estar na rua, nos povoados e nos bairros, perto do povo. E vontade de ver São João Batista crescer junto com a nossa juventude.
+Energia pra estar na rua, nos povoados, perto do povo. E vontade de ver São João Batista crescer junto com a nossa juventude.
 
 💡 Exemplo
 Sabe aquela obra nova que chegou no seu povoado? Me conta nos comentários. Pode virar um vídeo, mostrando como ela foi feita.
@@ -30,13 +30,13 @@ Se você chegou agora no perfil, seja muito bem-vindo! Prazer, eu sou o Leo. Ver
 Jovem, engenheiro e filho desta terra. Fui o vereador mais bem votado da cidade em 2024 e levo essa confiança como o maior compromisso da minha vida.
 
 🗺 O que você vai encontrar aqui
-• A rua: visitas aos bairros e povoados, conversa com o povo.
+• A rua: visitas aos povoados, conversa com o povo.
 • A Câmara: as leis e os projetos que eu defendo, explicados sem complicação.
 • As entregas: o que a nossa cidade conquistou, em parceria com a prefeitura.
 • A nossa cidade: a cultura, a fé, o futebol e as histórias de São João Batista.
 
 🤝 Do povo para o povo
-Este perfil é uma via de mão dupla. Manda um oi, uma ideia pro seu bairro ou um convite pra festa da comunidade. Eu leio e respondo.
+Este perfil é uma via de mão dupla. Manda um oi, uma ideia pro seu povoado ou um convite pra festa da comunidade. Eu leio e respondo.
 
 💡 Exemplo
 "Leo, vem conhecer a festa do nosso povoado!" Pode chamar: eu gosto de estar perto.
@@ -44,7 +44,7 @@ Este perfil é uma via de mão dupla. Manda um oi, uma ideia pro seu bairro ou u
 ✅ Juntos podemos mais!
 Esta é a terceira parte da apresentação. Olha as três juntas no perfil e segue a página pra não perder nada do mandato.
 
-👇 Me conta: de qual bairro ou povoado você é?
+👇 Me conta: de qual povoado você é?
 
 #vereadordesaojoaobatista #politicalocal #maranhao #tôcomléopinto"""
 L[11] = """DIA DO ENGENHEIRO: COMO O OLHO DE ENGENHEIRO AJUDA A CIDADE
@@ -91,9 +91,9 @@ Que 2027 seja um ano de fé, de esperança e de muita união. Do povo, pro povo.
 👇 Comenta aqui: qual é o seu desejo pra São João Batista em 2027?
 
 #anonovo #feliz2027 #saojoaobatistama #maranhao #tôcomléopinto"""
-L[0] = """QUEM CONHECE O SEU BAIRRO? SÃO JOÃO BATISTA SE CONSTRÓI BAIRRO POR BAIRRO
+L[0] = """QUEM CONHECE O SEU POVOADO? SÃO JOÃO BATISTA SE CONSTRÓI POVOADO POR POVOADO
 
-Oi, gente! Aqui é o Leo Pinto, vereador de São João Batista, no Maranhão. Hoje eu quero fazer uma pergunta simples: quem conhece o seu bairro de verdade?
+Oi, gente! Aqui é o Leo Pinto, vereador de São João Batista, no Maranhão. Hoje eu quero fazer uma pergunta simples: quem conhece o seu povoado de verdade?
 
 📌 A resposta é você
 É quem mora lá, conhece cada rua, cada praça e cada povoado, e sabe a história de cada canto.
@@ -102,27 +102,27 @@ Oi, gente! Aqui é o Leo Pinto, vereador de São João Batista, no Maranhão. Ho
 O povo, a Câmara e a Prefeitura caminhando juntos: é assim que a cidade anda. É do povo para o povo.
 
 💬 Como participar
-1. Comenta aqui o nome do seu bairro ou povoado.
+1. Comenta aqui o nome do seu povoado.
 2. Conta o que ele tem de melhor: a festa, a comida, as pessoas, a história.
-3. Se tiver foto bonita do seu bairro, manda no direct.
+3. Se tiver foto bonita do seu povoado, manda no direct.
 
 💡 Exemplo
-"Leo, sou do povoado tal. Aqui a gente tem a festa mais animada da região!" Com o lugar certinho, quem sabe o seu bairro não aparece aqui no perfil?
+"Leo, sou do povoado tal. Aqui a gente tem a festa mais animada da região!" Com o lugar certinho, quem sabe o seu povoado não aparece aqui no perfil?
 
 ✅ Juntos podemos mais!
-Cada comentário vira um ponto no mapa da nossa cidade. Bairro por bairro, povoado por povoado.
+Cada comentário vira um ponto no mapa da nossa cidade. Povoado por povoado.
 
-👇 Comenta aqui: qual é o seu bairro?
+👇 Comenta aqui: qual é o seu povoado?
 
 #saojoaobatistama #baixadamaranhense #vereadorpresente #nossobairro
 
 Música: Inspired – Kevin MacLeod (incompetech.com), licença CC BY 4.0 (creativecommons.org/licenses/by/4.0/)"""
-L[2] = """PEDIU? TÁ FEITO. COMO UMA IDEIA DO SEU BAIRRO VIRA ENTREGA
+L[2] = """PEDIU? TÁ FEITO. COMO UMA IDEIA DO SEU POVOADO VIRA ENTREGA
 
 Oi, gente! Aqui é o Leo Pinto, vereador de São João Batista-MA. Hoje começa um quadro novo aqui no perfil: "Pediu? Tá feito." E ele tem uma regra só: a gente ouve, soma e volta pra mostrar a entrega.
 
 📌 O caminho de uma ideia, em 4 passos
-1. Você manda uma ideia pro seu bairro: no comentário ou no direct.
+1. Você manda uma ideia pro seu povoado: no comentário ou no direct.
 2. Eu vou até lá conhecer de perto.
 3. Levo a indicação pra Câmara e somo com a Prefeitura.
 4. Volto e mostro a entrega, aqui no perfil.
@@ -131,12 +131,12 @@ Oi, gente! Aqui é o Leo Pinto, vereador de São João Batista-MA. Hoje começa 
 Mandato bom é mandato que soma. Quando o povo, a Câmara e a Prefeitura conversam, as coisas acontecem.
 
 💡 Exemplo
-"Leo, a meninada do bairro ia adorar um torneio de futebol." Ideia boa a gente leva junto, e quando sair, mostra aqui.
+"Leo, a meninada do povoado ia adorar um torneio de futebol." Ideia boa a gente leva junto, e quando sair, mostra aqui.
 
 ✅ Acompanha o quadro
 Toda semana tem "Pediu? Tá feito." por aqui, sempre com uma entrega da nossa cidade.
 
-👇 Manda no direct uma ideia boa pro seu bairro.
+👇 Manda no direct uma ideia boa pro seu povoado.
 
 #mandatoqueentrega #trabalhojunto #saojoaobatistama #parceria
 

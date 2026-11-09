@@ -2,7 +2,7 @@
 
 **Pedidos:**
 - Lindson: "crie só 10 artes de saudação".
-- A equipe do Leo (Bruna Abreu) vetou o 31/12 ("O que o seu bairro precisa em 2027?") porque "vai dar margem para baterem no prefeito".
+- A equipe do Leo (Bruna Abreu) vetou o 31/12 ("O que o seu povoado precisa em 2027?") porque "vai dar margem para baterem no prefeito".
 - Lindson: "refaça todos os conteúdos, visando que ele é situação".
 
 **Agentes:** Design Squad (Design Chief) nas artes, Copy Squad nas legendas.
@@ -16,20 +16,20 @@ O Leo é da base do prefeito. Nenhum post pode abrir espaço para comentário co
 
 | Nunca | Sempre |
 |---|---|
-| "O que o seu bairro precisa?", "qual a demanda?", "o que falta?" | "O que você mais gosta no seu bairro?", "qual a sua conquista?", "o que deixa você orgulhoso?" |
+| "O que o seu povoado precisa?", "qual a demanda?", "o que falta?" | "O que você mais gosta no seu povoado?", "qual a sua conquista?", "o que deixa você orgulhoso?" |
 | "Fiscaliza a prefeitura", "cobrar de quem tem a obrigação" | "Vota as leis", "aprova projetos", "trabalha junto pela cidade" |
 | Buraco, rua alagada, falta de luz, posto precisando de atenção (mesmo como exemplo) | Obra entregue, serviço funcionando, festa, gente, paisagem, fé, família |
 | "A cidade que eu sonho, onde a saúde chegue perto de casa…" (sugere que hoje não chega) | "Um 2027 de mais conquistas, juntos" |
 | Enquete com problemas como opções | Enquete com gostos, costumes e conquistas pessoais |
-| Pedir para mandar "problema" no direct | "Manda um oi", "conte sempre comigo", "manda uma sugestão/ideia pro seu bairro" (ideia, nunca reclamação) |
+| Pedir para mandar "problema" no direct | "Manda um oi", "conte sempre comigo", "manda uma sugestão/ideia pro seu povoado" (ideia, nunca reclamação) |
 
 Pedidos e indicações do mandato aparecem **quando já viraram entrega**, com o tom de parceria: "conquista em parceria com a prefeitura", "mais uma entrega para São João Batista".
 
 ## O que foi refeito
 | Conteúdo | Antes | Agora |
 |---|---|---|
-| 31/12 (arte + legenda) | "O que o seu bairro precisa em 2027?" · saúde, ruas e estradas, educação, emprego | **"Qual foi a sua conquista em 2026?"** · saúde da família, trabalho novo, estudos, casa e família · "obrigado por 2026" |
-| 15/11 (arte + legenda) | lista "Fiscaliza a prefeitura · Vota as leis · Leva a demanda do seu bairro" e legenda com buraco e "cobrar" | lista **"Vota as leis da cidade · Aprova projetos pro povo · Trabalha junto pela cidade"** |
+| 31/12 (arte + legenda) | "O que o seu povoado precisa em 2027?" · saúde, ruas e estradas, educação, emprego | **"Qual foi a sua conquista em 2026?"** · saúde da família, trabalho novo, estudos, casa e família · "obrigado por 2026" |
+| 15/11 (arte + legenda) | lista "Fiscaliza a prefeitura · Vota as leis · Leva a demanda do seu povoado" e legenda com buraco e "cobrar" | lista **"Vota as leis da cidade · Aprova projetos pro povo · Trabalha junto pela cidade"** |
 | Apresentação v13, arte 3 (arte + legenda) | "ME CONTA SUA DEMANDA" | **"CONTE SEMPRE COMIGO"** |
 | Apresentação v13, legendas 1, 2 e 3 | demanda, buraco, alagamento, "fiscaliza o dinheiro" | reescritas abaixo |
 | 11/12 Engenheiro (legenda) | "cobrar com mais clareza de quem tem a obrigação" | reescrita abaixo |
@@ -57,7 +57,7 @@ Manda um "bom dia" pra alguém que você não fala faz tempo. Custa nada e faz o
 ✅ Bora, São João Batista
 Boa semana pra você e pra sua família. Eu sigo aqui, trabalhando junto pela nossa cidade.
 
-👇 Deixa aqui o seu bom dia e o nome do seu bairro!
+👇 Deixa aqui o seu bom dia e o nome do seu povoado!
 
 📷 Foto: Frederico Banana, Wikimedia Commons, CC BY-SA 4.0
 
@@ -256,7 +256,7 @@ Boa semana pra você e pra sua família. Conte sempre comigo.
 
 ## Legendas refeitas (substituem as antigas)
 
-### 31/12 · Qual foi a sua conquista em 2026? (substitui "O que o seu bairro precisa em 2027?")
+### 31/12 · Qual foi a sua conquista em 2026? (substitui "O que o seu povoado precisa em 2027?")
 QUAL FOI A SUA CONQUISTA EM 2026? CONTA PRA GENTE!
 
 Último dia do ano é dia de olhar pra trás e agradecer. Cada um teve a sua vitória, grande ou pequena.
@@ -268,7 +268,7 @@ QUAL FOI A SUA CONQUISTA EM 2026? CONTA PRA GENTE!
 4 · A casa e a família
 
 💡 A minha
-Em 2026, a minha maior conquista foi estar perto do povo de São João Batista, em cada bairro e povoado. Obrigado pela confiança.
+Em 2026, a minha maior conquista foi estar perto do povo de São João Batista, em cada povoado e povoado. Obrigado pela confiança.
 
 ✅ Obrigado, 2026
 Que 2027 venha com mais conquistas pra todos nós, juntos.
@@ -291,7 +291,7 @@ Hoje é dia da Proclamação da República, e é um bom dia pra lembrar como a n
 A prefeitura executa as obras e os serviços; a Câmara faz as leis e aprova projetos. Quando as duas trabalham juntas, quem ganha é o povo.
 
 💡 Exemplo
-Uma ideia que nasce de uma conversa no bairro vira indicação na Câmara e, com a parceria da prefeitura, vira entrega pra comunidade.
+Uma ideia que nasce de uma conversa no povoado vira indicação na Câmara e, com a parceria da prefeitura, vira entrega pra comunidade.
 
 ✅ Na República, a voz é do povo
 Do povo, pro povo. Juntos podemos mais!
@@ -319,18 +319,18 @@ VEREADOR DE SÃO JOÃO BATISTA-MA: JUNTOS PODEMOS MAIS!
 Oi, gente! Aqui é o Leo Pinto, vereador de São João Batista, no Maranhão. Este perfil acordou, e ele é seu também.
 
 📌 Pra que serve este Instagram?
-Pra você acompanhar de perto o trabalho do seu vereador: a rua, o bairro, o povoado, a Câmara e as conquistas da nossa cidade. Sem enrolação.
+Pra você acompanhar de perto o trabalho do seu vereador: a rua, o povoado, a Câmara e as conquistas da nossa cidade. Sem enrolação.
 
 🤝 Por que "Juntos podemos mais!"?
 Porque ninguém faz uma cidade sozinho. É o povo, a Câmara e a prefeitura trabalhando lado a lado que fazem São João Batista avançar.
 
 💬 Conte sempre comigo
-Quer mandar um oi, uma ideia pro seu bairro ou convidar pra uma festa da comunidade? Comenta aqui ou me chama no direct. Eu respondo.
+Quer mandar um oi, uma ideia pro seu povoado ou convidar pra uma festa da comunidade? Comenta aqui ou me chama no direct. Eu respondo.
 
 ✅ Juntos, de verdade
 Este é o primeiro post de uma apresentação em três partes. Passa no perfil e vê os outros dois. E segue a página pra acompanhar o mandato de perto.
 
-👇 Comenta aqui o nome do seu bairro ou povoado!
+👇 Comenta aqui o nome do seu povoado!
 
 #vereadorpresente #mandatoparticipativo #saojoaobatistama #tôcomléopinto
 
@@ -348,10 +348,10 @@ Bloco novo "🏛 O que um vereador faz?":
 "O vereador vota as leis da cidade, aprova projetos e trabalha junto com a prefeitura e a comunidade. Aqui no perfil eu vou mostrar esse trabalho de perto, sem complicar."
 
 Lista nova "📲 O que você vai ver aqui":
-- Leo na rua: visitas aos bairros e povoados.
+- Leo na rua: visitas aos povoados.
 - Mandato que entrega: as conquistas da cidade, em parceria.
 - Voz do povo: morador contando uma conquista ou um agradecimento.
 - Nossa Baixada: o orgulho da nossa cidade.
 - Leo de perto: família, fé, futebol e bastidores.
 
-Exemplo novo: "Toda semana eu vou num bairro diferente encontrar o povo. Se você quer que eu vá no seu, é só chamar aqui embaixo."
+Exemplo novo: "Toda semana eu vou num povoado diferente encontrar o povo. Se você quer que eu vá no seu, é só chamar aqui embaixo."

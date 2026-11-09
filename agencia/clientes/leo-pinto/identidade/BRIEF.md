@@ -16,7 +16,7 @@
 - O 77333 tem repetição (77 e 333), o que facilita memorizar. Pode virar grafismo.
 - **A pesquisar e validar com o Lindson:**
   - símbolos de São João Batista, na Baixada Maranhense: campos alagados, lagos, pesca, São João, bumba-meu-boi, igreja matriz e bandeira do município;
-  - bairros e povoados fortes;
+  - povoados fortes;
   - causas do mandato;
   - se a campanha de 2028 usará o mesmo partido e número.
 

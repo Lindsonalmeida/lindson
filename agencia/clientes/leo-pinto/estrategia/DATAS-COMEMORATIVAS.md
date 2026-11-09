@@ -1,6 +1,6 @@
 # Datas comemorativas · novembro/2026 a outubro/2027 (Leo Pinto)
 
-> **Regra de situação (Lindson, 05/11/2026):** o Leo é da base do prefeito. Nenhum conteúdo pode abrir espaço para comentário contra a gestão: nada de "demanda", "o que falta", "o que o bairro precisa", "cobrar", "fiscalizar", problema como exemplo ou como opção de enquete. Celebrar, agradecer, mostrar entregas em parceria com a prefeitura. Detalhes e substituições: `../instagram-v15-saudacoes/TEXTOS.md`.
+> **Regra de situação (Lindson, 05/11/2026):** o Leo é da base do prefeito. Nenhum conteúdo pode abrir espaço para comentário contra a gestão: nada de "demanda", "o que falta", "o que o povoado precisa", "cobrar", "fiscalizar", problema como exemplo ou como opção de enquete. Celebrar, agradecer, mostrar entregas em parceria com a prefeitura. Detalhes e substituições: `../instagram-v15-saudacoes/TEXTOS.md`.
 
 
 Pesquisa da conta Lindson em 01/11/2026. Só entram datas que têm a ver com o cliente. As móveis de 2027 foram calculadas: Carnaval 09/02, Páscoa 28/03, Dia das Mães 09/05 e Dia dos Pais 08/08. **Regra eleitoral em todas: sem pedir voto, sem número e sem falar de 2028. Data é para mostrar o mandato, a cidade e as pessoas.**
@@ -18,7 +18,7 @@ Pesquisa da conta Lindson em 01/11/2026. Só entram datas que têm a ver com o c
 | 21/04 | Tiradentes | Conteúdo cívico curto (opcional). |
 | 01/05 | Dia do Trabalhador | Homenagem aos trabalhadores da cidade: pescador, lavrador, comerciante. |
 | 09/05 | Dia das Mães | Homenagem às mães; mãe do Leo (Leo de perto). |
-| 13/06 | Santo Antônio | Abertura do ciclo junino; festas nos bairros. |
+| 13/06 | Santo Antônio | Abertura do ciclo junino; festas nos povoados. |
 | 24/06 | São João (padroeiro do município, confirmar festejo) | Festejo, arraiais e bumba-meu-boi: "Nossa Baixada" no auge. |
 | 29/06 | São Pedro e Dia do Pescador | Pesca é identidade da Baixada: homenagem aos pescadores. |
 | 30/06 | São Marçal | Encerramento junino maranhense, boi e tradição. |
@@ -27,7 +27,7 @@ Pesquisa da conta Lindson em 01/11/2026. Só entram datas que têm a ver com o c
 | 11/08 | Dia do Estudante | Juventude e educação; escuta com estudantes. |
 | 07/09 | Independência do Brasil | Desfile cívico da cidade. |
 | 01/10 | Dia do Vereador | Prestação de contas do mandato: leis, projetos e entregas em parceria. |
-| 12/10 | Dia das Crianças e N. Sra. Aparecida | Ação com crianças nos bairros; fé. |
+| 12/10 | Dia das Crianças e N. Sra. Aparecida | Ação com crianças nos povoados; fé. |
 | 15/10 | Dia do Professor | Homenagem a professores da cidade. |
 | 28/10 | Dia do Servidor Público | Homenagem aos servidores que atendem o povo. |
 | 11/12 | Dia do Engenheiro | O Leo é engenheiro: "Olho de Engenheiro" especial. |

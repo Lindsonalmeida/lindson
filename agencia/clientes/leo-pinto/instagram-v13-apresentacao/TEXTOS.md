@@ -7,7 +7,7 @@ Textos das 3 artes de 1080×1350 que, juntas na grade, formam uma imagem só e a
 **Regras seguidas**
 - Identidade de 02/11: só tipografia (Anton caixa alta, Kaushan Script, Montserrat), logo oficial "LEO PINTO • VEREADOR", paleta e foto real. Sem raios, faixas, ícones, fumaça ou bandeirinhas.
 - É mandato, não campanha: sem número, sem partido, sem pedir voto, sem "prefeito".
-- Só fatos que estão no repositório: vereador de São João Batista-MA, eleito em 2024, engenheiro, "na rua todo dia", "Juntos podemos mais!", "Do povo, pro povo", #tôcomléopinto, demanda do bairro. Nada de obra, número ou projeto inventado.
+- Só fatos que estão no repositório: vereador de São João Batista-MA, eleito em 2024, engenheiro, "na rua todo dia", "Juntos podemos mais!", "Do povo, pro povo", #tôcomléopinto, demanda do povoado. Nada de obra, número ou projeto inventado.
 - Teste dos 3 segundos: **quem** (Leo, vereador) · **de onde** (São João Batista, Baixada) · **o que faz** (engenheiro, na rua, resolve) · **por que seguir** (acompanhar o mandato e mandar a demanda).
 
 ## 1. Texto das artes: 3 opções de conjunto
@@ -47,7 +47,7 @@ Usa a promessa do posicionamento.
 |---|---|---|---|
 | Esquerda | DO POVO | prazer, eu sou o Leo | Vereador de São João Batista-MA |
 | Meio | PRO POVO | engenheiro que entende de obra | Estrada, ponte e rua: o Leo explica |
-| Direita | TODO DIA | na rua com você | Mande a demanda do seu bairro |
+| Direita | TODO DIA | na rua com você | Mande a demanda do seu povoado |
 
 Ponto forte: reforça proximidade e trabalho. Ponto fraco: não usa o "Juntos podemos mais!", que já é conhecido, e "TODO DIA" é uma promessa de frequência que o perfil precisa cumprir.
 
@@ -67,24 +67,24 @@ VEREADOR DE SÃO JOÃO BATISTA-MA: JUNTOS PODEMOS MAIS!
 Oi, gente! Aqui é o Leo Pinto, vereador de São João Batista, no Maranhão. Este perfil acordou, e ele é seu também.
 
 📌 Pra que serve este Instagram?
-Pra você acompanhar de perto o que o seu vereador faz. Aqui vai ter a rua, o bairro, o povoado, a Câmara e a prestação de contas do mandato. Sem enrolação.
+Pra você acompanhar de perto o que o seu vereador faz. Aqui vai ter a rua, o povoado, a Câmara e a prestação de contas do mandato. Sem enrolação.
 
 🤝 Por que "Juntos podemos mais!"?
-Porque vereador nenhum resolve nada sozinho. Quem mora no bairro é quem sabe onde a rua alagou, onde falta luz, onde o posto precisa de atenção. Você me conta, eu levo pra Câmara e corro atrás.
+Porque vereador nenhum resolve nada sozinho. Quem mora no povoado é quem sabe onde a rua alagou, onde falta luz, onde o posto precisa de atenção. Você me conta, eu levo pra Câmara e corro atrás.
 
-💬 Como mandar a demanda do seu bairro
+💬 Como mandar a demanda do seu povoado
 É simples:
-1. Comenta aqui embaixo o nome do seu bairro ou povoado e o que está precisando.
+1. Comenta aqui embaixo o nome do seu povoado e o que está precisando.
 2. Ou me chama no direct, com foto se puder.
 3. Eu respondo e te conto o andamento.
 
 💡 Exemplo
-"Leo, aqui no meu bairro a rua tá cheia de buraco desde o inverno." Uma mensagem assim, com o lugar certinho e uma foto, já ajuda a pedir a solução pra quem é responsável.
+"Leo, aqui no meu povoado a rua tá cheia de buraco desde o inverno." Uma mensagem assim, com o lugar certinho e uma foto, já ajuda a pedir a solução pra quem é responsável.
 
 ✅ Juntos, de verdade
 Este é o primeiro post de uma apresentação em três partes. Passa no perfil e vê os outros dois. E segue a página pra acompanhar o mandato de perto, todo dia.
 
-👇 Me conta nos comentários: qual é a demanda do seu bairro?
+👇 Me conta nos comentários: qual é a demanda do seu povoado?
 
 #vereadorpresente #mandatoparticipativo #saojoaobatistama #tôcomléopinto
 
@@ -109,7 +109,7 @@ Sabe aquela ponte ou aquela estrada que todo mundo do seu povoado usa? Me conta 
 ✅ Da Baixada, pra Baixada
 Esse post faz parte da apresentação do perfil, em três partes. Segue a página pra não perder os vídeos da rua e da série.
 
-👇 Comenta aqui: qual obra do seu bairro você quer que eu explique?
+👇 Comenta aqui: qual obra do seu povoado você quer que eu explique?
 
 #baixadamaranhense #engenheirocivil #obrapublica #maranhao #tôcomléopinto
 
@@ -126,19 +126,19 @@ Vereador de São João Batista, no Maranhão, eleito em 2024. Engenheiro. Gente 
 O vereador leva as demandas do povo para a Câmara, faz indicações e projetos para a cidade e fiscaliza o uso do dinheiro público. Aqui no perfil eu vou mostrar esse trabalho de perto, sem complicar.
 
 📲 O que você vai ver aqui
-• Leo na rua: visitas aos bairros e povoados.
+• Leo na rua: visitas aos povoados.
 • Mandato que entrega: o que foi pedido e o andamento.
 • Voz do povo: morador contando o problema ou o agradecimento.
 • Nossa Baixada: o orgulho da nossa cidade.
 • Leo de perto: família, fé, futebol e bastidores.
 
 💡 Exemplo
-Toda semana eu vou num bairro diferente ouvir o povo. Se você quer que eu vá no seu, é só pedir aqui embaixo.
+Toda semana eu vou num povoado diferente ouvir o povo. Se você quer que eu vá no seu, é só pedir aqui embaixo.
 
 ✅ Bem-vindo
 Juntos podemos mais! Segue o perfil, ativa as notificações e chama os vizinhos pra acompanhar também.
 
-👇 Me diz nos comentários: de qual bairro ou povoado você é?
+👇 Me diz nos comentários: de qual povoado você é?
 
 #vereador #politicalocal #saojoaobatista #camaramunicipal #tôcomléopinto
 
@@ -170,23 +170,23 @@ DO POVO PARA O POVO: O MANDATO DO VEREADOR LEO PINTO EM SÃO JOÃO BATISTA
 Oi, gente! Aqui é o Leo Pinto, vereador de São João Batista, no Maranhão. E este perfil agora tem uma missão: ser o lugar onde você acompanha o mandato de perto.
 
 📌 O que quer dizer "do povo para o povo"?
-Quer dizer que o mandato não é meu. É de quem acordou cedo pra votar, de quem mora no bairro e no povoado e sabe melhor do que ninguém o que está faltando. Eu sou a ponte entre você e a Câmara.
+Quer dizer que o mandato não é meu. É de quem acordou cedo pra votar, de quem mora no povoado e sabe melhor do que ninguém o que está faltando. Eu sou a ponte entre você e a Câmara.
 
 🤝 Juntos podemos mais!
 Vereador nenhum resolve nada sozinho. Quando você me conta onde a rua alagou, onde falta iluminação ou onde o posto precisa de atenção, eu levo pra Câmara e corro atrás de quem tem que resolver.
 
-💬 Como mandar a demanda do seu bairro
-1. Comenta aqui o nome do seu bairro ou povoado e o que está precisando.
+💬 Como mandar a demanda do seu povoado
+1. Comenta aqui o nome do seu povoado e o que está precisando.
 2. Ou me chama no direct, com foto se puder.
 3. Eu respondo e te conto o andamento.
 
 💡 Exemplo
-"Leo, aqui no meu bairro a rua tá cheia de buraco desde o inverno." Com o lugar certinho e uma foto, fica muito mais fácil cobrar a solução.
+"Leo, aqui no meu povoado a rua tá cheia de buraco desde o inverno." Com o lugar certinho e uma foto, fica muito mais fácil cobrar a solução.
 
 ✅ Segue e acompanha
 Este post é a primeira parte da apresentação do perfil. Passa no perfil e vê as outras duas. E segue a página pra acompanhar o mandato todo dia.
 
-👇 Me conta nos comentários: qual é a demanda do seu bairro?
+👇 Me conta nos comentários: qual é a demanda do seu povoado?
 
 #dopovoparaopovo #vereadorpresente #saojoaobatistama #tôcomléopinto
 
@@ -203,7 +203,7 @@ Sou jovem, sou engenheiro e sou daqui. Cresci vendo o que a nossa cidade tem de 
 Boa parte do que o povo pede é obra: estrada, ponte, rua, calçamento, drenagem. Quem é engenheiro olha um problema desses e entende o que precisa ser feito e o que é preciso cobrar de quem executa.
 
 💪 Por que ser jovem faz diferença?
-Energia pra estar na rua, nos povoados e nos bairros, ouvindo de perto. E vontade de ver São João Batista crescer junto com a nossa juventude.
+Energia pra estar na rua, nos povoados, ouvindo de perto. E vontade de ver São João Batista crescer junto com a nossa juventude.
 
 💡 Exemplo
 Sabe aquela ponte ou estrada que todo mundo do seu povoado usa? Me conta nos comentários. Eu vou até lá e explico aqui, em linguagem simples, o caminho pra resolver.
@@ -211,7 +211,7 @@ Sabe aquela ponte ou estrada que todo mundo do seu povoado usa? Me conta nos com
 ✅ Compromisso com São João Batista
 Este post é a segunda parte da apresentação do perfil. Segue a página pra acompanhar o trabalho de perto.
 
-👇 Comenta aqui: qual obra do seu bairro você quer que eu explique?
+👇 Comenta aqui: qual obra do seu povoado você quer que eu explique?
 
 #vereadormaisvotado #engenheirocivil #baixadamaranhense #tôcomléopinto
 
@@ -225,13 +225,13 @@ Se você chegou agora no perfil, seja muito bem-vindo! Prazer, eu sou o Leo. Ver
 Jovem, engenheiro e filho desta terra. Fui o vereador mais bem votado da cidade em 2024 e levo essa confiança como o maior compromisso da minha vida.
 
 🗺 O que você vai encontrar aqui
-• A rua: visitas aos bairros e povoados, conversa com o povo.
+• A rua: visitas aos povoados, conversa com o povo.
 • A Câmara: o que eu defendo e por quê, explicado sem complicação.
 • A prestação de contas: o que foi pedido, o que andou e o que ainda falta.
 • A nossa cidade: a cultura, a fé, o futebol e as histórias de São João Batista.
 
 🤝 Do povo para o povo
-Este perfil é uma via de mão dupla. Você me conta o que o seu bairro precisa, eu levo adiante e te mostro o andamento aqui.
+Este perfil é uma via de mão dupla. Você me conta o que o seu povoado precisa, eu levo adiante e te mostro o andamento aqui.
 
 💡 Exemplo
 Mandou a demanda no comentário ou no direct? Ela entra na minha lista e você acompanha a resposta por aqui mesmo.
@@ -239,6 +239,6 @@ Mandou a demanda no comentário ou no direct? Ela entra na minha lista e você a
 ✅ Juntos podemos mais!
 Esta é a terceira parte da apresentação. Olha as três juntas no perfil e segue a página pra não perder nada do mandato.
 
-👇 Me conta: de qual bairro ou povoado você é?
+👇 Me conta: de qual povoado você é?
 
 #vereadordesaojoaobatista #politicalocal #maranhao #tôcomléopinto

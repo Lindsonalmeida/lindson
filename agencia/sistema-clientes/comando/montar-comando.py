@@ -187,6 +187,27 @@ def videos():
     return out
 
 
+def agenda_posts():
+    p = os.path.join(RAIZ, 'agencia', 'marca-lindson', 'agenda-status.json')
+    if not os.path.exists(p): return []
+    posts = json.load(open(p, encoding='utf-8')).get('posts') or []
+    return [{'seq': x.get('seq'), 'titulo': limpa(x.get('titulo', ''), 70), 'formato': x.get('formato_rotulo') or x.get('formato'),
+             'quando': (x.get('quando') or '')[:16].replace('T', ' '), 'status': x.get('status')} for x in posts]
+
+
+def vektor_ctx(estado):
+    # contexto compacto do VEKTOR (v4, conta Zuleide, 09/11/2026): vai para functions/_vektor_ctx.js no privado e entra no prompt de /api/vektor.
+    # Sem as peças (imagens) e sem segredo; a fila e a equipe ao vivo o servidor lê do KV na hora.
+    ctx = {'gerado': estado['gerado'],
+           'placar': [{'nome': x.get('nome'), 'pct': x.get('pct'), 'pagante': x.get('pagante'), 'falta_lindson': [limpa(d, 90) for d in (x.get('dono') or [])[:3]]} for x in estado['placar']],
+           'andamento': [{'desde': a.get('desde'), 'conta': a.get('conta'), 'oque': limpa(a.get('oque', ''), 170)} for a in estado['andamento'][:14]],
+           'entregas': [{'data': e.get('data'), 'conta': e.get('conta'), 'oque': limpa(e.get('oque', ''), 140)} for e in estado['entregas'][:14]],
+           'entregas_semana': estado['entregas_semana'], 'atividade': estado['atividade'], 'agenda_instagram': agenda_posts()}
+    js = ('// Gerado por agencia/sistema-clientes/comando/montar-comando.py (repositório lindson). Não edite à mão.\n'
+          'export const CTX = ' + json.dumps(ctx, ensure_ascii=False) + ';\n')
+    open(os.path.join(PRIV, 'functions', '_vektor_ctx.js'), 'w', encoding='utf-8').write(js)
+
+
 def main():
     if not os.path.isdir(PRIV):
         sys.exit(f'Privado não encontrado em {PRIV}. Clone CentralLindsonALmeida ao lado deste repositório ou use --privado.')
@@ -211,6 +232,10 @@ def main():
     html = html.replace('/*DISTRIBUIR*/', dist, 1)
     html = html.replace('<!--MOVIMENTO-->', '<script>\n' + mov + '\n</script>')
     open(os.path.join(PRIV, 'painel', 'comando.html'), 'w', encoding='utf-8').write(html)
+    vektor_ctx(estado)
+    app = os.path.join(AQUI, 'v4', 'app')  # ícones e manifesto do app (v4, conta Zuleide)
+    for f in (os.listdir(app) if os.path.isdir(app) else []):
+        shutil.copy(os.path.join(app, f), os.path.join(base, f))
     print(f"ok · placar {len(pl)} · {len(ent)} entregas · {len(anda)} em andamento · peças {sum(len(v) for v in estado['pecas'].values())} · atividade {list(estado['atividade'])}")
 
 
