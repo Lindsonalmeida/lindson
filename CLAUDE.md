@@ -29,6 +29,8 @@
 >
 > **Status:** quando o Lindson pedir "status" ou "relatório", o Maquiavel responde como gerente, com o placar dos projetos, o que está parado, quem deve o quê e a próxima decisão do dono.
 >
+> **CENTRAL DE COMANDO, O LUGAR ÚNICO DOS PEDIDOS (Lindson, 09/11/2026: "quero um sistema único, integrado com todas as minhas contas"):** o Lindson pede em https://lindsonalmeida.pages.dev/painel/comando. Toda conta, ao abrir a conversa e a cada hora, lê a fila (`/api/automacao?fila=ped`), **pega** um pedido "novo" (só uma conta por pedido; se der 409, outra conta já pegou), faz, marca **pronto** com o link e roda `agencia/sistema-clientes/comando/montar-comando.py`. Passo a passo: `agencia/sistema-clientes/comando/PROTOCOLO-CONTAS.md`. Pedido feito na conversa também entra na fila, para nada ser refeito.
+>
 > **PROCURE ANTES DE PERGUNTAR OU DIZER QUE FALTA (Lindson, 09/11/2026: "eu já fiz a pesquisa, procure… falo isso todo dia"):** antes de afirmar que falta pesquisa, referência, foto, voz ou decisão, procure em todos os branches (`git grep`), na memória, no quadro, no registro e no privado `CentralLindsonALmeida`, principalmente em `dados/agencia/referencias/` (as pesquisas dele: Reels sem gravar, motion, Behance de lançamento, advocacia, web, pizzaria), `dados/agencia/voz-lindson/` e `dados/clientes-arquivos/`.
 >
 > **PRIMEIRO DE TUDO (toda conta, toda conversa, inclusive conta nova):** leia `MEMORIA-DO-LINDSON.md` antes de responder qualquer pedido. Ali está tudo o que o Lindson já pediu, mandou, **aprovou** (guardar e melhorar) e **reprovou** (nunca repetir). Ao terminar cada pedido, acrescente nela o que foi aprovado ou reprovado, com data e conta, e faça commit e push. Nunca peça ao Lindson algo que já está lá.
