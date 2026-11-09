@@ -1,0 +1,542 @@
+{
+ "id": "longo-11",
+ "formato": "longo",
+ "titulo": "Êxodo explicado: por que Israel quis voltar?",
+ "legenda": "O livro de Êxodo conta a maior libertação da Bíblia. E mesmo assim, poucas semanas depois de atravessar o mar, o povo quis voltar para o Egito. Neste vídeo você entende Êxodo do começo ao fim: a escravidão, Moisés no cesto, a sarça que não queimava, as dez pragas, a noite da Páscoa, o mar aberto, o maná, os Dez Mandamentos, o bezerro de ouro e a tenda de Deus no meio do povo.\n\nNo final, você descobre o que aconteceu com os ossos de José e por que Êxodo é tão importante para entender Jesus.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📖 Observação: os versículos aparecem em paráfrase curta, com a referência. Confira na sua tradução.\n\n🎫 Quer ler a Bíblia com um caminho certo, sem travar no deserto? Baixe grátis a Rota da Primeira Viagem no link da descrição, ou comente ROTA.\n\n#Êxodo #Moisés #DezMandamentos #EstudoBíblico #PassaporteDaBíblia",
+ "comentario": "📌 Qual é o seu Egito? Aquela coisa que já te prendeu e que, às vezes, dá saudade de voltar? Se quiser, conta aqui. E qual parte de Êxodo mais te marcou?",
+ "titulo_tela": {
+  "sup": "PASSAPORTE DA BÍBLIA",
+  "txt": "Por que Israel<br>quis voltar?",
+  "dur": 3.2
+ },
+ "capa": {
+  "A": "Quis voltar",
+  "B": "O mar abriu",
+  "gravA": "053",
+  "gravB": "004"
+ },
+ "cenas": [
+  {
+   "gravura": "004",
+   "mov": "esq",
+   "txt": "Eles viram o mar se abrir! Atravessaram a pé, em terra seca. Cantaram, dançaram. E poucas semanas depois, estavam pedindo pra voltar pra escravidão. Como assim?"
+  },
+  {
+   "gravura": "043",
+   "mov": "in",
+   "txt": "Eles diziam: no Egito, a gente sentava perto das panelas de carne e comia pão até encher. Era a saudade da prisão. E esse é o retrato mais honesto do coração humano que eu conheço."
+  },
+  {
+   "gravura": "053",
+   "mov": "cima",
+   "txt": "Hoje a gente atravessa o livro de Êxodo inteiro, do tijolo ao tabernáculo. E no caminho, eu vou responder a pergunta do título: por que um povo livre quis voltar?"
+  },
+  {
+   "gravura": "012",
+   "mov": "out",
+   "txt": "Tem mais duas coisas guardadas pra você. Lembra dos ossos de José, lá do fim de Gênesis? Ele pediu pra não ficar no Egito. Esses ossos vão pegar a estrada hoje."
+  },
+  {
+   "gravura": "046",
+   "mov": "dir",
+   "txt": "E tem um nome. Na sarça, Moisés pergunta o nome de Deus, e a resposta é tão estranha que até hoje as pessoas discutem. Esse nome reaparece séculos depois, na boca de Jesus."
+  },
+  {
+   "gravura": "018",
+   "mov": "esq",
+   "txt": "Êxodo começa com uma frase que dá arrepio. Levantou-se no Egito um novo rei, que não tinha conhecido José. Num versículo, tudo o que José fez foi esquecido.",
+   "cap": {
+    "sup": "PARADA 1",
+    "txt": "Um povo esquecido"
+   },
+   "verso": "Surgiu um novo rei, que não conhecia José.",
+   "ref": "ÊXODO 1.8"
+  },
+  {
+   "gravura": "009",
+   "mov": "in",
+   "txt": "Um dado pra situar a viagem: Êxodo tem quarenta capítulos. E começa onde Gênesis parou, com a família de Jacó, umas setenta pessoas, que tinha ido morar no Egito no tempo de José."
+  },
+  {
+   "gravura": "006",
+   "mov": "cima",
+   "txt": "Os israelitas tinham crescido muito. E o faraó fica com medo. Então transforma o povo em escravo, com trabalho pesado de barro e tijolo. Tijolo, de novo, como em Babel."
+  },
+  {
+   "gravura": "017",
+   "mov": "out",
+   "txt": "Como eles continuam crescendo, o faraó dá uma ordem terrível às parteiras hebreias: se nascer menino, matem. Se for menina, deixem viver."
+  },
+  {
+   "gravura": "024",
+   "mov": "dir",
+   "txt": "E aí aparecem as primeiras heroínas do livro. Duas parteiras, Sifrá e Puá. Elas temem a Deus e desobedecem o rei mais poderoso do mundo. A Bíblia guarda o nome delas. E o nome do faraó? Nem aparece."
+  },
+  {
+   "gravura": "053",
+   "mov": "esq",
+   "txt": "Repara nisso: o livro da maior libertação começa com duas mulheres simples dizendo não. Antes do mar abrir, alguém teve coragem pequena. Isso te diz alguma coisa?"
+  },
+  {
+   "gravura": "019",
+   "mov": "in",
+   "txt": "O faraó endurece: manda jogar os meninos no rio Nilo. Uma mãe hebreia esconde o filho por três meses. Depois, coloca o bebê num cesto vedado e deixa entre os juncos do rio.",
+   "cap": {
+    "sup": "PARADA 2",
+    "txt": "O menino no cesto"
+   }
+  },
+  {
+   "gravura": "024",
+   "mov": "cima",
+   "txt": "A irmã dele fica de longe, olhando. E quem desce pra se banhar ali? A filha do faraó. Ela vê o cesto, o bebê chora, e ela tem compaixão."
+  },
+  {
+   "gravura": "019",
+   "mov": "out",
+   "txt": "A irmã chega e pergunta: quer que eu chame uma mulher hebreia pra amamentar? E chama a própria mãe. A mãe recebe o filho de volta, e ainda é paga pra criar."
+  },
+  {
+   "gravura": "018",
+   "mov": "dir",
+   "txt": "O menino cresce no palácio e recebe o nome de Moisés, porque a princesa diz: eu o tirei das águas. Ele cresce entre os dois mundos, hebreu e egípcio."
+  },
+  {
+   "gravura": "038",
+   "mov": "esq",
+   "txt": "Adulto, Moisés vê um egípcio batendo num hebreu. Olha pra um lado, olha pro outro, e mata o egípcio. No dia seguinte, descobre que todo mundo sabe. E foge."
+  },
+  {
+   "gravura": "015",
+   "mov": "in",
+   "txt": "Ele foge pra Midiã. E a primeira cena lá é junto a um poço: uns pastores expulsam as filhas de um sacerdote. Moisés se levanta, defende as moças e ainda dá água pro rebanho delas."
+  },
+  {
+   "gravura": "005",
+   "mov": "cima",
+   "txt": "Ele casa com Zípora, uma delas, tem um filho e vira pastor de ovelhas. O príncipe do Egito vira pastor no deserto. Estêvão, em Atos, diz que foram quarenta anos ali. Parecia o fim da história."
+  },
+  {
+   "gravura": "053",
+   "mov": "out",
+   "txt": "Já se sentiu assim? Como se o seu erro tivesse acabado com tudo, e agora só restasse cuidar de ovelhas no deserto? Fica comigo, porque é ali que Deus aparece.",
+   "interage": {
+    "tipo": "checkin",
+    "txt": "Já se sentiu no deserto?"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "040",
+   "mov": "dir",
+   "txt": "Moisés leva o rebanho até o monte Horebe e vê uma coisa estranha: uma sarça pegando fogo, mas que não se consumia. Ele chega perto pra ver.",
+   "cap": {
+    "sup": "PARADA 3",
+    "txt": "A sarça e o nome"
+   }
+  },
+  {
+   "gravura": "046",
+   "mov": "esq",
+   "txt": "E Deus chama: Moisés, Moisés! Não chegue mais perto. Tire as sandálias, porque o lugar onde você está é terra santa."
+  },
+  {
+   "gravura": "044",
+   "mov": "in",
+   "txt": "Deus diz que viu a aflição do povo, ouviu o clamor e desceu pra libertar. Três verbos: vi, ouvi, desci. E manda Moisés ir até o faraó.",
+   "verso": "Eu vi a aflição do meu povo e desci para livrá-lo.",
+   "ref": "ÊXODO 3.7-8"
+  },
+  {
+   "gravura": "053",
+   "mov": "cima",
+   "txt": "E a primeira resposta de Moisés é: quem sou eu? E depois vêm as desculpas, uma atrás da outra. E se não acreditarem? E eu não sei falar bem. Manda outro, por favor!"
+  },
+  {
+   "gravura": "047",
+   "mov": "out",
+   "txt": "Deus fica irado, mas não desiste dele. Manda Arão, o irmão, pra falar junto. Deus não escolheu o mais preparado. Escolheu o que dizia não sei, e foi com ele."
+  },
+  {
+   "gravura": "046",
+   "mov": "dir",
+   "txt": "E aqui o segundo segredo do começo. Moisés pergunta: se o povo perguntar o seu nome, o que eu digo? E Deus responde: Eu Sou o que Sou. Diga: Eu Sou me enviou.",
+   "verso": "Eu Sou o que Sou.",
+   "ref": "ÊXODO 3.14"
+  },
+  {
+   "gravura": "063",
+   "mov": "esq",
+   "txt": "É um nome que não cabe numa caixa. Ele não depende de nada, simplesmente é. Guarda isso. Lá no fim, você vai ver Jesus usando essas palavras, e o povo pegando pedras."
+  },
+  {
+   "gravura": "018",
+   "mov": "in",
+   "txt": "Moisés e Arão vão ao faraó e dizem: assim diz o Senhor, deixa o meu povo ir. E o faraó responde: quem é o Senhor, pra eu obedecer? Eu não conheço.",
+   "cap": {
+    "sup": "PARADA 4",
+    "txt": "As dez pragas"
+   }
+  },
+  {
+   "gravura": "006",
+   "mov": "cima",
+   "txt": "E ele faz o contrário. Manda os escravos fazerem os mesmos tijolos, mas agora sem dar a palha. O povo fica com raiva de Moisés. Libertação, às vezes, começa piorando."
+  },
+  {
+   "gravura": "017",
+   "mov": "out",
+   "txt": "Então vêm as dez pragas. A água do Nilo vira sangue. Depois rãs, piolhos, moscas, a morte do gado, as úlceras, a chuva de pedras, os gafanhotos e a escuridão."
+  },
+  {
+   "gravura": "044",
+   "mov": "dir",
+   "txt": "Pausa pra uma frase só: foram dez avisos. Dez chances pro faraó ouvir. O Deus da Bíblia não é apressado nem pra julgar."
+  },
+  {
+   "gravura": "045",
+   "mov": "esq",
+   "txt": "Por que essas pragas? O próprio texto dá a pista: Deus diz que vai executar juízo sobre todos os deuses do Egito. O Nilo, o sol, os animais, tudo era adorado ali.",
+   "verso": "Executarei juízo sobre todos os deuses do Egito.",
+   "ref": "ÊXODO 12.12"
+  },
+  {
+   "gravura": "018",
+   "mov": "in",
+   "txt": "Cada praga é um recado: aquilo que vocês adoram não tem poder. Quem manda no rio, na luz e na vida é o Senhor. É a pergunta do faraó sendo respondida: quem é o Senhor?"
+  },
+  {
+   "gravura": "037",
+   "mov": "cima",
+   "txt": "E tem uma frase que incomoda muita gente: o coração do faraó se endureceu. Às vezes o texto diz que o próprio faraó endureceu o coração, às vezes que Deus endureceu. Existem leituras diferentes sobre isso."
+  },
+  {
+   "gravura": "053",
+   "mov": "out",
+   "txt": "Uma leitura comum é essa: o faraó escolhe dizer não, várias vezes, e Deus confirma a escolha que ele fez. Qual é a sua leitura? Conta aqui embaixo, com respeito à leitura do outro.",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "Como você lê o faraó?"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "092",
+   "mov": "dir",
+   "txt": "Pausa rápida na viagem. Êxodo é onde muita gente trava, principalmente da metade pro fim. Por isso eu preparei a Rota da Primeira Viagem, grátis. Comenta ROTA ou pega no link da descrição.",
+   "cta": "Comenta <b>ROTA</b><br>e receba a rota grátis"
+  },
+  {
+   "gravura": "082",
+   "mov": "esq",
+   "txt": "Chega a décima praga, a mais pesada: a morte dos primogênitos. E Deus dá a Israel uma instrução pra aquela noite. Cada família separa um cordeiro sem defeito.",
+   "cap": {
+    "sup": "PARADA 5",
+    "txt": "A noite da Páscoa"
+   }
+  },
+  {
+   "gravura": "030",
+   "mov": "in",
+   "txt": "Eles sacrificam o cordeiro e passam o sangue nos batentes da porta. Comem a carne assada, com pão sem fermento e ervas amargas. De pé, com a sandália no pé e o cajado na mão."
+  },
+  {
+   "gravura": "045",
+   "mov": "cima",
+   "txt": "E Deus diz: quando eu vir o sangue, passarei por cima de vocês. É daí que vem a palavra Páscoa: passagem. A morte passa por cima da casa marcada.",
+   "verso": "Vendo eu o sangue, passarei por cima de vocês.",
+   "ref": "ÊXODO 12.13"
+  },
+  {
+   "gravura": "088",
+   "mov": "out",
+   "txt": "E agora pensa no Novo Testamento. Jesus morre exatamente na festa da Páscoa. E Paulo escreve: Cristo, o nosso cordeiro pascal, foi sacrificado. A noite do Egito era uma placa apontando pra cruz.",
+   "verso": "Cristo, nossa Páscoa, foi sacrificado.",
+   "ref": "1 CORÍNTIOS 5.7"
+  },
+  {
+   "gravura": "086",
+   "mov": "dir",
+   "txt": "Por isso, até hoje, quando os cristãos celebram a Ceia, estão olhando pra essa noite também. Pão, cálice, livramento. Uma refeição pra nunca esquecer de onde Deus nos tirou."
+  },
+  {
+   "gravura": "016",
+   "mov": "esq",
+   "txt": "Naquela mesma noite, o faraó chama Moisés e manda: saiam! E o povo sai às pressas, tão rápido que a massa do pão nem teve tempo de crescer."
+  },
+  {
+   "gravura": "020",
+   "mov": "in",
+   "txt": "E não sai só Israel. O texto diz que uma grande mistura de gente subiu com eles. Gente de outros povos, que viu as pragas e resolveu ir junto. A porta da libertação já estava aberta."
+  },
+  {
+   "gravura": "012",
+   "mov": "cima",
+   "txt": "E aqui o primeiro segredo fecha. Êxodo diz que Moisés levou consigo os ossos de José. Lá em Gênesis, José tinha feito os filhos de Israel jurarem: Deus vai visitar vocês, e vocês vão levar meus ossos daqui.",
+   "verso": "Moisés levou consigo os ossos de José.",
+   "ref": "ÊXODO 13.19"
+  },
+  {
+   "gravura": "014",
+   "mov": "out",
+   "txt": "Pensa nisso. Centenas de anos guardando um caixão no Egito, como uma promessa de pé: a gente não fica aqui pra sempre. Os ossos de José eram esperança que não morreu."
+  },
+  {
+   "gravura": "020",
+   "mov": "dir",
+   "txt": "Deus guia o povo com uma coluna de nuvem durante o dia e uma coluna de fogo durante a noite. E não leva pelo caminho mais curto, pra que o povo não desanime com guerra logo no começo.",
+   "cap": {
+    "sup": "PARADA 6",
+    "txt": "O mar e o medo"
+   }
+  },
+  {
+   "gravura": "033",
+   "mov": "esq",
+   "txt": "Mas o faraó se arrepende e vai atrás deles com carros de guerra. O povo está encurralado: de um lado, o exército. Do outro, o mar."
+  },
+  {
+   "gravura": "004",
+   "mov": "in",
+   "txt": "E o povo grita com Moisés: não tinha sepultura no Egito, pra você trazer a gente pra morrer no deserto? Repara: é a primeira vez que eles querem voltar. E o mar ainda nem abriu."
+  },
+  {
+   "gravura": "047",
+   "mov": "cima",
+   "txt": "Moisés responde com uma frase que serve pra muita noite da vida: não tenham medo. Fiquem firmes e vejam o livramento. O Senhor lutará por vocês. Vocês só precisam ficar em silêncio.",
+   "verso": "O Senhor lutará por vocês; fiquem tranquilos.",
+   "ref": "ÊXODO 14.14"
+  },
+  {
+   "gravura": "004",
+   "mov": "out",
+   "txt": "Moisés estende a mão sobre o mar, e um vento forte sopra a noite toda. As águas se dividem, e o povo atravessa em terra seca. O exército que vem atrás é coberto pelas águas."
+  },
+  {
+   "gravura": "041",
+   "mov": "dir",
+   "txt": "E o cântico daquele dia tem uma frase que ecoa na Bíblia inteira: o Senhor é a minha força e o meu cântico, ele é a minha salvação. Os Salmos e Isaías repetem essas palavras."
+  },
+  {
+   "gravura": "023",
+   "mov": "esq",
+   "txt": "Do outro lado, Miriã, a irmã de Moisés, pega um tamborim e as mulheres saem dançando atrás dela. O texto não dá o nome da menina que olhava o cesto de longe, mas muitos leitores acham que era ela. Agora ela canta a liberdade.",
+   "verso": "Cantem ao Senhor, que triunfou gloriosamente.",
+   "ref": "ÊXODO 15.21"
+  },
+  {
+   "gravura": "022",
+   "mov": "in",
+   "txt": "Essa é uma das canções mais antigas da Bíblia. E é cantada por quem viu o impossível com os próprios olhos. Tá comigo? Agora vem a parte que ninguém gosta de contar.",
+   "interage": {
+    "tipo": "checkin",
+    "txt": "Tá comigo nessa travessia?"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "010",
+   "mov": "cima",
+   "txt": "Três dias depois, no deserto, a água que encontram é amarga. E o povo murmura. Depois falta pão. E eles dizem: quem dera a gente tivesse morrido no Egito!",
+   "cap": {
+    "sup": "PARADA 7",
+    "txt": "Maná e murmuração"
+   }
+  },
+  {
+   "gravura": "043",
+   "mov": "out",
+   "txt": "É aqui a frase das panelas de carne. Eles lembram da comida e esquecem do chicote. A memória faz isso com a gente: deixa a prisão bonita quando o caminho fica difícil."
+  },
+  {
+   "gravura": "053",
+   "mov": "dir",
+   "txt": "E Deus responde com paciência. De manhã, aparece no chão uma coisa fina, como geada. O povo pergunta: o que é isso? Em hebraico, man hu. Daí vem o nome: maná."
+  },
+  {
+   "gravura": "029",
+   "mov": "esq",
+   "txt": "Cada um recolhia o que precisava pro dia. Quem guardava pra amanhã, encontrava estragado, com bicho. Só antes do sábado podia recolher em dobro, e aí não estragava."
+  },
+  {
+   "gravura": "044",
+   "mov": "in",
+   "txt": "Por que assim? Porque Deus estava ensinando um povo de escravos a confiar todo dia. Ninguém aprende isso numa noite. Jesus ensinou o mesmo: o pão nosso de cada dia nos dá hoje."
+  },
+  {
+   "gravura": "038",
+   "mov": "cima",
+   "txt": "Logo depois vem a primeira batalha, contra Amaleque. Enquanto Moisés mantém as mãos erguidas, Israel vence. Quando ele cansa, Arão e Hur seguram os braços dele, um de cada lado, até o pôr do sol."
+  },
+  {
+   "gravura": "047",
+   "mov": "out",
+   "txt": "Repara: até Moisés precisou de gente segurando o braço dele. Quem são os seus Arão e Hur? Aquelas pessoas que te sustentam quando você cansa? Lembra delas hoje."
+  },
+  {
+   "gravura": "010",
+   "mov": "dir",
+   "txt": "E quando falta água de novo, Deus manda Moisés bater numa rocha, e a água sai. Séculos depois, Paulo vai dizer uma coisa surpreendente sobre essa rocha. Fica pra outra parada."
+  },
+  {
+   "gravura": "053",
+   "mov": "esq",
+   "txt": "Agora me fala com sinceridade: qual é o seu Egito? Aquilo que te prendia e que, num dia difícil, dá saudade de voltar? Não precisa contar o quê. Se quiser, escreve só: eu tenho um Egito.",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "Escreve: eu tenho um Egito"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "040",
+   "mov": "in",
+   "txt": "Três meses depois de sair do Egito, o povo chega ao monte Sinai. O monte fumega, treme, tem trovão, relâmpago e som de trombeta. O povo fica de longe, tremendo.",
+   "cap": {
+    "sup": "PARADA 8",
+    "txt": "O monte e o bezerro"
+   }
+  },
+  {
+   "gravura": "047",
+   "mov": "cima",
+   "txt": "E repara como começam os Dez Mandamentos. Antes de qualquer regra, Deus diz: eu sou o Senhor, o seu Deus, que tirou você do Egito, da casa da escravidão.",
+   "verso": "Eu sou o Senhor, que tirou você da escravidão.",
+   "ref": "ÊXODO 20.2"
+  },
+  {
+   "gravura": "037",
+   "mov": "out",
+   "txt": "Primeiro vem o livramento, depois vem a lei. Deus não diz obedeça e eu te salvo. Ele diz: eu já te salvei, agora aprenda a viver como gente livre. Isso muda tudo."
+  },
+  {
+   "gravura": "063",
+   "mov": "dir",
+   "txt": "Os mandamentos são o manual da liberdade. Não ter outros deuses, não fazer ídolos, guardar o descanso, honrar os pais, não matar, não roubar. Uma vida que não volta pro Egito por dentro."
+  },
+  {
+   "gravura": "061",
+   "mov": "esq",
+   "txt": "E Jesus resumiu tudo em dois: amar a Deus de todo o coração e amar o próximo como a si mesmo. Os dez mandamentos cabem inteiros nesses dois."
+  },
+  {
+   "gravura": "044",
+   "mov": "in",
+   "txt": "Moisés sobe o monte e fica lá quarenta dias e quarenta noites. E lá embaixo, o povo se cansa de esperar. Vai até Arão e pede: faz pra nós deuses que vão na nossa frente."
+  },
+  {
+   "gravura": "006",
+   "mov": "cima",
+   "txt": "Arão recolhe as joias de ouro e faz um bezerro. E o povo diz: estes são os teus deuses, ó Israel, que te tiraram do Egito. Poucos meses depois do mar aberto."
+  },
+  {
+   "gravura": "039",
+   "mov": "out",
+   "txt": "Pensa no tamanho disso. Eles saíram do Egito, mas o Egito não saiu deles. O bezerro era a cara dos deuses que eles tinham visto a vida toda. E aqui o grande segredo começa a fechar."
+  },
+  {
+   "gravura": "046",
+   "mov": "dir",
+   "txt": "Moisés desce, vê a festa e quebra as tábuas da lei. Depois, sobe de novo e intercede pelo povo. Ele pede: se não for pra tua presença ir com a gente, não nos tira daqui."
+  },
+  {
+   "gravura": "041",
+   "mov": "esq",
+   "txt": "E Deus responde revelando quem ele é: o Senhor, Deus compassivo e misericordioso, lento pra irar-se e cheio de amor e fidelidade. Depois do bezerro! Depois da traição.",
+   "verso": "Deus compassivo, lento para se irar e cheio de amor.",
+   "ref": "ÊXODO 34.6"
+  },
+  {
+   "gravura": "053",
+   "mov": "in",
+   "txt": "Essa frase de Êxodo trinta e quatro é repetida muitas vezes no resto da Bíblia, nos Salmos e nos profetas. Se esse vídeo te ajudou a ver isso, se inscreve. Toda semana tem viagem nova.",
+   "interage": {
+    "tipo": "segue",
+    "txt": "Se inscreve e embarca"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "037",
+   "mov": "cima",
+   "txt": "E Êxodo não termina com a lei. Termina com uma tenda. Deus diz: façam um santuário, para que eu habite no meio deles. No meio! Não no alto do monte, longe.",
+   "cap": {
+    "sup": "PARADA 9",
+    "txt": "Deus no meio do acampamento"
+   },
+   "verso": "Façam um santuário, e eu habitarei no meio deles.",
+   "ref": "ÊXODO 25.8"
+  },
+  {
+   "gravura": "030",
+   "mov": "out",
+   "txt": "Por isso tantos capítulos sobre medidas, tecidos, ouro e madeira. Eu sei, é onde muita gente pula. Mas cada detalhe grita a mesma coisa: Deus quer morar perto do seu povo."
+  },
+  {
+   "gravura": "044",
+   "mov": "dir",
+   "txt": "Uma dica pra quando chegar nesses capítulos: leia com calma o começo do vinte e cinco e o final do quarenta. O meio, passe os olhos sem culpa na primeira leitura."
+  },
+  {
+   "gravura": "041",
+   "mov": "esq",
+   "txt": "E na última cena do livro, a nuvem cobre a tenda, e a glória do Senhor enche o tabernáculo. O Deus do monte agora está no meio do acampamento. É assim que Êxodo termina."
+  },
+  {
+   "gravura": "057",
+   "mov": "in",
+   "txt": "E agora as duas pontas se encontram. João começa o Evangelho dizendo que a Palavra se fez carne e habitou entre nós. A palavra grega ali lembra armar uma tenda. Deus armou a tenda dele no meio da gente.",
+   "verso": "A Palavra se fez carne e habitou entre nós.",
+   "ref": "JOÃO 1.14"
+  },
+  {
+   "gravura": "066",
+   "mov": "cima",
+   "txt": "E o nome da sarça? Em João oito, Jesus diz: antes que Abraão existisse, Eu Sou. E o povo pega pedras pra atirar nele. Eles entenderam exatamente o que ele estava dizendo.",
+   "verso": "Antes que Abraão existisse, Eu Sou.",
+   "ref": "JOÃO 8.58"
+  },
+  {
+   "gravura": "053",
+   "mov": "out",
+   "txt": "Agora a grande pergunta do começo. Por que um povo livre quis voltar? Porque sair do Egito levou uma noite. Mas tirar o Egito de dentro do povo levou o deserto inteiro."
+  },
+  {
+   "gravura": "010",
+   "mov": "dir",
+   "txt": "Medo, saudade, pressa, ídolo. O Egito volta de muitas formas. E o livro mostra que Deus não desiste no meio. Ele dá pão de manhã, água da rocha e perdão depois do bezerro."
+  },
+  {
+   "gravura": "014",
+   "mov": "esq",
+   "txt": "E os ossos de José? Eles atravessaram o mar, o deserto, os quarenta anos. Só no livro de Josué, quando o povo já está na terra, eles são enterrados em Siquém. A promessa chegou. Segredo fechado."
+  },
+  {
+   "gravura": "092",
+   "mov": "in",
+   "txt": "Talvez você esteja no meio do seu deserto agora, entre o mar que já abriu e a terra que ainda não chegou. Êxodo diz: o maná ainda cai toda manhã. Não volta pro Egito."
+  },
+  {
+   "gravura": "053",
+   "mov": "cima",
+   "txt": "Conhece alguém que saiu de uma prisão e está com vontade de voltar? Um vício, uma relação, um medo antigo? Manda esse vídeo pra essa pessoa, com carinho.",
+   "interage": {
+    "tipo": "manda",
+    "txt": "Manda pra quem quer voltar"
+   },
+   "conv": true
+  },
+  {
+   "gravura": "029",
+   "mov": "out",
+   "txt": "Pra ler hoje, sem travar: Êxodo capítulos um a quatro, depois doze a vinte. Deixa os capítulos da tenda pra depois, quando já souber pra onde eles apontam."
+  },
+  {
+   "gravura": "095",
+   "mov": "dir",
+   "txt": "E lembra da rocha que deu água? No próximo vídeo, a gente conhece o homem que escreveu sobre ela: Paulo, o perseguidor que virou apóstolo. Até a próxima parada, viajante da Palavra.",
+   "cta": "Até a próxima <b>parada</b>,<br>viajante",
+   "selo": "PASSA<br>PORTE"
+  }
+ ]
+}
