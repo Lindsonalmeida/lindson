@@ -205,3 +205,8 @@ O estudo está no privado `dados/agencia/referencias/edit-ia-pro/README.md` §3.
 - âncora de preço, garantia e prazo real.
 
 Não copiar: sorteio (precisa de autorização) nem números de prova que não sejam nossos.
+
+## Coleta de 09/11/2026 (noite) · interface futurista (Central de Comando v3, conta Leandro)
+- Fonte: `agencia/sistema-clientes/comando/TEMPLATE.md` e `v3/referencias/`. Referências: Territory Studio (Blade Runner 2049), Cantina Creative (JARVIS), GMUNK (Oblivion), Ash Thorp, Lusion, Immersive Garden, Active Theory.
+- Técnicas aprovadas para tela "mega futurista": anéis concêntricos com marcas em volta de um núcleo, holograma de partículas em canvas 2D (sem Three.js, leve no celular), dados ao vivo em órbita, rótulos mono pequenos e uma informação por vez (limpeza de HUD), reação ao volume do microfone e versão parada para movimento reduzido.
+- Reprovado pelo Lindson (v1/v2): cara de "vibe code" (cartões iguais em grade, gradiente com brilho, ícones de biblioteca, sem imagem). Na marca dele: âmbar e amarelo sobre preto, nada de azul/ciano de filme.

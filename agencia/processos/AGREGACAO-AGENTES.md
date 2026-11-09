@@ -10,7 +10,7 @@
 - **Fica de fora:** material reprovado (branches `cassandra/*`) e números sem fonte.
 
 ## Última verificação
-- 09/11/2026 21:50 (UTC): sem novidades para os agentes (entrou a Central de Comando da conta Leandro, que é regra de operação, já no CLAUDE.md).
+- 09/11/2026 23:55 (UTC): técnica de interface futurista da Central de Comando v3 (conta Leandro) agregada ao Webdesigner.
 
 ## Histórico do que foi agregado
 | Data | Fonte | Agente | O que entrou |
@@ -20,3 +20,4 @@
 | 08/11 | doc "200 Estilos de Motion, Animação e VFX" (conta Lindson) | Social media, Designer gráfico | seção "Motion para Reels": combinação para o nicho; cópia em `agencia/biblioteca-motion/` |
 | 09/11 | privado: referencias/lancamento-infoprodutor-expert (100 modelos do Behance) | Designer gráfico, Social media, Webdesigner | seção "Lançamento, infoprodutor e expert" |
 | 09/11 | MEMORIA-DO-LINDSON.md (agenda 4/4 h xadrez intercalado; pontuação da narração; Windsor/Metricool) | Social media | seção "Regras novas de 09/11/2026" |
+| 09/11 | comando/TEMPLATE.md v3 (conta Leandro) | Webdesigner | interface futurista: anéis, holograma de partículas, HUD limpo; "vibe code" reprovado |
