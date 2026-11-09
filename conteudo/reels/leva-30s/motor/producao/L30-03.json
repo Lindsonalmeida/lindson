@@ -142,7 +142,8 @@
    ],
    "vfx": [
     "leak"
-   ]
+   ],
+   "foto": "raio-x-hero.png"
   },
   {
    "tipo": "banco",

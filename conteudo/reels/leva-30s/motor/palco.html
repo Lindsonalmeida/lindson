@@ -118,23 +118,22 @@ B.impacto=(L,s)=>{const bg=el(`<div class="abs" style="inset:0;background:var(--
  const tex=el(`<div class="abs" style="inset:0;opacity:.18;background:repeating-linear-gradient(115deg,rgba(0,0,0,.25) 0 2px,transparent 2px 9px)"></div>`);L.append(tex);
  const h=headline(L,s,{top:s.top||720,size:s.size||250,color:'#0B0B0B',shadow:'none'});
  return lt=>{h(lt);tex.style.transform=`translateX(${lt*40}px)`}};
-B.cta=(L,s)=>{ // com lip-sync: o Lindson falando. Sem lip-sync: card amarelo SEM ROSTO (reprovação nº 23 de 03/11: nada de foto parada dele enquanto a voz fala)
- const semRosto=!s.lipsync;
- L.append(el(semRosto?`<div class="abs" style="inset:0;background:radial-gradient(70% 45% at 50% 30%,#ffe27a 0%,#F5C518 45%,#d9a800 100%)"></div>`:`<div class="abs" style="inset:0;background:radial-gradient(60% 40% at 50% 34%,#6b4d06 0%,#2a1f05 38%,#0B0B0B 72%)"></div>`));
- const word=el(semRosto?`<div class="abs A" style="left:-40px;right:-40px;top:330px;text-align:center;font-size:420px;color:#0B0B0B;opacity:.95">${s.palavra||''}</div>`:`<div class="abs A" style="left:-40px;right:-40px;top:250px;text-align:center;font-size:420px;color:var(--y);opacity:.95;background:linear-gradient(180deg,#ffe27a,#F5C518 45%,#b88a00);-webkit-background-clip:text;color:transparent">${s.palavra||''}</div>`);L.append(word);
+B.cta=(L,s)=>{ // foto do Lindson em parallax 2.5D (ou o vídeo de lip-sync, quando existir)
+ L.append(el(`<div class="abs" style="inset:0;background:radial-gradient(60% 40% at 50% 34%,#6b4d06 0%,#2a1f05 38%,#0B0B0B 72%)"></div>`));
+ const word=el(`<div class="abs A" style="left:-40px;right:-40px;top:250px;text-align:center;font-size:420px;color:var(--y);opacity:.95;background:linear-gradient(180deg,#ffe27a,#F5C518 45%,#b88a00);-webkit-background-clip:text;color:transparent">${s.palavra||''}</div>`);L.append(word);
  word.style.whiteSpace='nowrap';word.style.fontSize=Math.min(420,Math.floor(1900/Math.max(1,(s.palavra||'').length)))+'px';
  let pessoa;if(s.lipsync){pessoa=el('<div class="abs" style="inset:0"></div>');L.append(pessoa);pessoa._fr=frames(pessoa,s.lipsync,{rate:1})}
- else{pessoa=null}
+ else{pessoa=el(`<img class="abs" src="${s.foto}" style="left:${s.fx??90}px;top:${s.fy??330}px;width:${s.fw??900}px;transform-origin:50% 30%">`);L.append(pessoa)}
  const tags=(s.etiquetas||[]).map((t,i)=>{const e=el(`<div class="tag" style="left:${[70,640,120][i%3]}px;top:${[960,1010,900][i%3]}px;background:${i%2?'#fff':'#F5C518'};color:#0B0B0B;transform:rotate(${[-6,5,-3][i%3]}deg)">${t}</div>`);L.append(e);return e});
- const marq=el(`<div class="marq" style="top:${s.marqTop??1640}px;background:${semRosto?'#0B0B0B':'#F5C518'};color:${semRosto?'#F5C518':'#0B0B0B'};transform:rotate(-4deg);width:3400px;left:-200px">${(' '+(s.faixa||s.palavra)+' ✦').repeat(14)}</div>`);L.append(marq);
- const fade=el(`<div class="abs" style="left:0;right:0;top:1010px;height:910px;background:linear-gradient(180deg,rgba(11,11,11,0),rgba(11,11,11,.92) 30%,#0B0B0B 55%)"></div>`);if(!semRosto)L.append(fade);else{const cartao=el(`<div class="abs" style="left:70px;right:70px;top:1100px;height:520px;background:#0B0B0B;border-radius:44px;box-shadow:14px 14px 0 #0B0B0B33"></div>`);L.append(cartao)}
+ const marq=el(`<div class="marq" style="top:${s.marqTop??1640}px;background:#F5C518;color:#0B0B0B;transform:rotate(-4deg);width:3400px;left:-200px">${(' '+(s.faixa||s.palavra)+' ✦').repeat(14)}</div>`);L.append(marq);
+ const fade=el(`<div class="abs" style="left:0;right:0;top:1010px;height:910px;background:linear-gradient(180deg,rgba(11,11,11,0),rgba(11,11,11,.92) 30%,#0B0B0B 55%)"></div>`);L.append(fade);
  const pre=el(`<div class="abs A" style="left:0;right:0;top:1150px;text-align:center;font-size:96px;color:#fff">Comenta</div>`);
  const pill=el(`<div class="abs" style="left:0;right:0;top:1262px;text-align:center"><span class="pill">${s.palavra||''}</span></div>`);
  const ent=el(`<div class="abs" style="left:110px;right:110px;top:1452px;text-align:center;font:700 34px/1.3 Manrope;color:rgba(255,255,255,.88)">${s.entrega||''}</div>`);L.append(pre,pill,ent,marq);
  const tp=s.pillAt??1.0;
  return async(lt,dur)=>{const a=eo(p(lt,0,.9));
   word.style.transform=`translateX(${lerp(120,-30,eio(p(lt,0,dur)))}px) scale(${lerp(1.25,1.05,a)})`;word.style.opacity=cl(lt*3)*.95;
-  if(s.lipsync)await pessoa._fr(lt,dur);else if(pessoa){pessoa.style.transform=`${s.espelhar?'scaleX(-1) ':''}translate(${lerp(-60,25,eio(p(lt,0,dur)))}px,${lerp(260,0,eob(p(lt,0,.8)))}px) scale(${lerp(1.0,1.09,eio(p(lt,0,dur)))})`;pessoa.style.opacity=cl(lt*5)}
+  if(s.lipsync)await pessoa._fr(lt,dur);else{pessoa.style.transform=`${s.espelhar?'scaleX(-1) ':''}translate(${lerp(-60,25,eio(p(lt,0,dur)))}px,${lerp(260,0,eob(p(lt,0,.8)))}px) scale(${lerp(1.0,1.09,eio(p(lt,0,dur)))})`;pessoa.style.opacity=cl(lt*5)}
   tags.forEach((e,i)=>{const k=p(lt,.35+i*.22,.35);e.style.opacity=cl(k*4);e.style.transform=`rotate(${[-6,5,-3][i%3]}deg) scale(${eob(k)})`});
   marq.style.transform=`rotate(-4deg) translateX(${-lt*160}px)`;marq.style.opacity=cl(lt*4);
   pre.style.opacity=p(lt,tp-.35,.2);pre.style.transform=`translateY(${(1-eo(p(lt,tp-.35,.35)))*50}px)`;
