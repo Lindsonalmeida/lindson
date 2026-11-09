@@ -1,0 +1,71 @@
+{
+ "nota": "30 criativos de tráfego (6 produtos da Hubla x 5), conta Leandro, 09/11/2026. Sem preço na arte (preço só no checkout), sem promessa de resultado, sem número inventado: os números são o conteúdo do produto (copy.json das landings). Layouts: L1 especialista, L2 dor, L3 o que vem dentro, L4 número, L5 virada.",
+ "produtos": [
+  {"slug": "bio-que-vende", "nome": "Bio que Vende", "capa": "membros/img/p-bio-que-vende.jpg", "fundo": "escuro", "palavra": "BIO",
+   "itens": ["A fórmula da bio em 5 partes", "O caminho do cliente até o WhatsApp", "Teste dos 5 Segundos", "Destaques e fixados", "Exemplos de antes e depois"],
+   "criativos": [
+    {"l": "L1", "foto": 1, "tag": "Guia rápido", "titulo": "Sua bio está |espantando| cliente.", "sub": "Arrume em 15 minutos com a fórmula em 5 partes.", "cta": "Quero minha bio nova"},
+    {"l": "L2", "foto": 2, "tag": "5 segundos", "titulo": "Entrou no seu perfil e |não entendeu| o que você faz?", "sub": "Ele sai em 5 segundos. E vai pro concorrente.", "cta": "Arrumar minha bio"},
+    {"l": "L3", "tag": "O que vem dentro", "titulo": "Tudo pra sua bio |vender| hoje.", "cta": "Quero o guia"},
+    {"l": "L4", "foto": 3, "num": "15", "unid": "minutos", "tag": "Do zero ao pronto", "titulo": "pra trocar a bio que |ninguém entende|.", "cta": "Começar agora"},
+    {"l": "L5", "foto": 4, "tag": "Antes e depois", "antes": "\"Amo o que faço ✨ Atendimento com carinho\"", "depois": "\"Unhas em gel em São Luís · Agende no WhatsApp ↓\"", "titulo": "A diferença é a |fórmula|.", "cta": "Quero a fórmula"}
+   ],
+   "texto": "Quem entra no seu perfil decide em segundos se fica ou vai embora. A Bio que Vende é um guia rápido: a fórmula da bio em 5 partes, o caminho do perfil até o WhatsApp e o Teste dos 5 Segundos. Você troca pelos seus dados e pronto.",
+   "headline": "Sua bio nova em 15 minutos"},
+  {"slug": "kit-mes-pronto", "nome": "Kit Mês Pronto", "capa": "membros/img/p-kit-mes-pronto.jpg", "fundo": "amarelo", "palavra": "MÊS",
+   "itens": ["30 roteiros prontos", "Banco de 50 ganchos", "Calendário de 30 dias", "10 modelos de legenda", "3 jeitos de gravar"],
+   "criativos": [
+    {"l": "L1", "foto": 5, "tag": "Kit de conteúdo", "titulo": "Seu mês de Instagram |pronto| pra gravar.", "sub": "30 roteiros, 50 ganchos e o calendário de 30 dias.", "cta": "Quero o kit"},
+    {"l": "L2", "foto": 6, "tag": "Sem ideia?", "titulo": "Sabe que precisa postar, mas |não sabe o quê|?", "sub": "Começa animado e para em duas semanas. O kit resolve o \"e amanhã?\".", "cta": "Ver o kit"},
+    {"l": "L3", "tag": "O que vem dentro", "titulo": "Um mês inteiro, |só apertar o REC|.", "cta": "Quero o kit"},
+    {"l": "L4", "foto": 7, "num": "30", "unid": "roteiros", "tag": "Um por dia", "titulo": "com gancho, texto da tela e |chamada no fim|.", "cta": "Pegar os roteiros"},
+    {"l": "L5", "foto": 8, "tag": "Seu mês", "antes": "Abrir o celular, olhar a tela e não gravar nada.", "depois": "Abrir o calendário, trocar os colchetes e gravar.", "titulo": "Grave tudo |de uma vez|.", "cta": "Quero o kit"}
+   ],
+   "texto": "Você sabe que precisa postar, mas trava no \"o que eu falo hoje?\". O Kit Mês Pronto traz 30 roteiros, 50 ganchos, o calendário de 30 dias e 10 legendas. Você troca os colchetes pelo seu serviço e grava.",
+   "headline": "30 dias de conteúdo prontos"},
+  {"slug": "kit-whatsapp-que-fecha", "nome": "Kit WhatsApp que Fecha", "capa": "membros/img/p-kit-whatsapp-que-fecha.jpg", "fundo": "escuro", "palavra": "OI",
+   "itens": ["Passo a passo de 6 etapas", "20 respostas pra \"quanto custa?\"", "15 mensagens pra quem sumiu", "43 atalhos prontos", "PDF de 24 páginas"],
+   "criativos": [
+    {"l": "L1", "foto": 9, "tag": "Do oi à venda", "titulo": "Pergunta o preço e some? O problema é a |resposta|.", "sub": "As mensagens prontas do primeiro \"oi\" até o \"fechado\".", "cta": "Quero o kit"},
+    {"l": "L2", "foto": 10, "tag": "\"Vou pensar\"", "titulo": "Mandou o valor e a conversa |morreu ali|?", "sub": "Tem resposta pro \"tá caro\", pro \"vou pensar\" e pra quem sumiu.", "cta": "Ver as respostas"},
+    {"l": "L3", "tag": "O que vem dentro", "titulo": "Pare de escrever |do zero| no WhatsApp.", "cta": "Quero o kit"},
+    {"l": "L4", "foto": 11, "num": "20", "unid": "respostas", "tag": "Quanto custa?", "titulo": "pra pergunta que mais |trava sua venda|.", "cta": "Pegar as respostas"},
+    {"l": "L5", "foto": 12, "tag": "A mesma pergunta", "antes": "Mandar só o valor e esperar.", "depois": "Duas perguntas, a solução e o preço com convite.", "titulo": "Muda a |resposta|, muda a conversa.", "cta": "Quero o kit"}
+   ],
+   "texto": "Se a conversa morre depois que você fala o valor, o problema costuma estar na resposta. O Kit WhatsApp que Fecha traz o passo a passo de 6 etapas, 20 respostas pra \"quanto custa?\", 15 mensagens pra quem sumiu e 43 atalhos.",
+   "headline": "Respostas prontas pro seu WhatsApp"},
+  {"slug": "kit-prospeccao", "nome": "Kit Prospecção", "capa": "membros/img/p-kit-prospeccao.jpg", "fundo": "amarelo", "palavra": "100",
+   "itens": ["100 mensagens em 10 nichos", "4 toques com dia marcado", "Planilha que abre o WhatsApp", "A mensagem pra quando ele disser sim"],
+   "criativos": [
+    {"l": "L1", "foto": 13, "tag": "Para social media", "titulo": "100 mensagens pra chamar negócio local no |WhatsApp|.", "sub": "O que mandar no primeiro dia, no retorno e na despedida.", "cta": "Quero o kit"},
+    {"l": "L2", "foto": 14, "tag": "Primeira mensagem", "titulo": "Manda textão e a pessoa |só visualiza|?", "sub": "Mensagens curtas, de até 280 caracteres, em 10 nichos.", "cta": "Ver as mensagens"},
+    {"l": "L3", "tag": "O que vem dentro", "titulo": "Sua rotina de chamar |cliente novo|.", "cta": "Quero o kit"},
+    {"l": "L4", "foto": 15, "num": "10", "unid": "nichos", "tag": "Estética a restaurante", "titulo": "com 10 mensagens prontas |em cada um|.", "cta": "Pegar as mensagens"},
+    {"l": "L5", "foto": 16, "tag": "Sua prospecção", "antes": "Ficar esperando indicação.", "depois": "4 toques com dia marcado: dia 1, 2, 3 e 5.", "titulo": "Uma mensagem |por vez|.", "cta": "Quero o kit"}
+   ],
+   "texto": "Pra quem vende serviço pra clínica, loja e salão e trava na primeira mensagem. O Kit Prospecção traz 100 mensagens em 10 nichos, 4 toques com dia marcado e a planilha que abre o WhatsApp com a mensagem escrita.",
+   "headline": "100 mensagens prontas de prospecção"},
+  {"slug": "raio-x-do-perfil", "nome": "Raio-X do Perfil", "capa": "membros/img/p-raio-x-do-perfil.jpg", "fundo": "escuro", "palavra": "RAIO-X",
+   "itens": ["Vídeo com a tela do seu perfil", "11 pontos olhados", "Plano de 7 dias em PDF", "Sua bio antes e depois"],
+   "criativos": [
+    {"l": "L1", "foto": 17, "tag": "Análise em vídeo", "titulo": "Eu olho o seu perfil e mostro onde você |perde cliente|.", "sub": "Um vídeo meu, com a tela do seu Instagram.", "cta": "Quero meu Raio-X"},
+    {"l": "L2", "foto": 18, "tag": "Bio, posts ou link?", "titulo": "Posta, posta, e o perfil |não traz cliente|?", "sub": "Uma opinião de fora, direta, ponto por ponto.", "cta": "Pedir meu Raio-X"},
+    {"l": "L3", "tag": "O que você recebe", "titulo": "Seu perfil |analisado| em vídeo.", "cta": "Quero meu Raio-X"},
+    {"l": "L4", "foto": 19, "num": "11", "unid": "pontos", "tag": "OK · Ajustar · Urgente", "titulo": "do nome ao WhatsApp, |olhados por mim|.", "cta": "Quero meu Raio-X"},
+    {"l": "L5", "foto": 20, "tag": "Plano de 7 dias", "antes": "Mexer em tudo sem saber o que importa.", "depois": "Uma tarefa por dia, os urgentes primeiro.", "titulo": "Arrume o que |importa| primeiro.", "cta": "Quero meu Raio-X"}
+   ],
+   "texto": "Se o seu perfil não traz cliente e você não sabe se o problema é a bio, os posts ou o link: eu gravo um vídeo com a tela do seu Instagram passando por 11 pontos e te mando um plano de 7 dias.",
+   "headline": "Seu perfil analisado em vídeo"},
+  {"slug": "pack-capas", "nome": "Pack de Capas de Destaque", "capa": "membros/img/p-pack-capas.jpg", "fundo": "amarelo", "palavra": "CAPAS",
+   "itens": ["36 capas de destaque", "12 temas", "Preto, amarelo e branco", "Versão editável"],
+   "criativos": [
+    {"l": "L1", "foto": 21, "tag": "Destaques", "titulo": "Destaques que |organizam| o seu perfil.", "sub": "36 capas editáveis em preto, amarelo e branco.", "cta": "Quero as capas"},
+    {"l": "L2", "foto": 22, "tag": "Seu perfil", "titulo": "Destaque com |print aleatório| na capa?", "sub": "Quem chega no perfil olha os destaques antes de chamar.", "cta": "Ver as capas"},
+    {"l": "L3", "tag": "O que vem dentro", "titulo": "Capas prontas, |do Comece aqui ao Contato|.", "cta": "Quero as capas"},
+    {"l": "L4", "foto": 23, "num": "36", "unid": "capas", "tag": "12 temas x 3 cores", "titulo": "pra deixar os destaques |com cara de marca|.", "cta": "Pegar as capas"},
+    {"l": "L5", "tag": "Seus destaques", "antes": "Cada capa de um jeito, sem nome.", "depois": "Comece aqui · Serviços · Clientes · Contato.", "titulo": "Mesma |assinatura| em todas.", "cta": "Quero as capas"}
+   ],
+   "texto": "Os destaques são a vitrine do seu perfil. O Pack traz 36 capas editáveis em 12 temas (Comece aqui, Serviços, Clientes, Dúvidas, Contato e outros), em preto, amarelo e branco.",
+   "headline": "36 capas de destaque editáveis"}
+ ]
+}

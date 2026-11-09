@@ -14,14 +14,20 @@ FOTOS = [  # 24 fotos diferentes: cada criativo com foto usa uma só (regra: fot
  'site/img/lindson-contato.jpg', 'site/img/lindson-sobre.jpg', 'bio/lindson-bio.jpg',
 ] + [f'membros/img/c{n:02d}.jpg' for n in range(7, 17)]
 out = sys.argv[1]; os.makedirs(out, exist_ok=True)
-s = new_session('birefnet-portrait')
+S = None
+def sess():
+    global S
+    S = S or new_session("birefnet-portrait"); return S
+
 for i, f in enumerate(FOTOS, 1):
     dst = os.path.join(out, f'f{i:02d}.png')
     if os.path.exists(dst): continue
+    if len(sys.argv) > 2 and str(i) != sys.argv[2]: continue
     im = Image.open(C + f).convert('RGB')
-    if max(im.size) < 1400:  # sobe a resolução antes de recortar
-        k = 1400 / max(im.size); im = im.resize((round(im.width * k), round(im.height * k)), Image.LANCZOS)
-    r = remove(im, session=s)
+    if max(im.size) > 1600: im.thumbnail((1600, 1600), Image.LANCZOS)
+    if max(im.size) < 1200:  # sobe a resolução antes de recortar
+        k = 1200 / max(im.size); im = im.resize((round(im.width * k), round(im.height * k)), Image.LANCZOS)
+    r = remove(im, session=sess())
     a = r.getchannel('A').filter(ImageFilter.MinFilter(3)).filter(ImageFilter.GaussianBlur(1.2)); r.putalpha(a)
     r = r.crop(a.point(lambda v: 255 if v > 30 else 0).getbbox())
     r.save(dst); print(dst, r.size, f, flush=True)
