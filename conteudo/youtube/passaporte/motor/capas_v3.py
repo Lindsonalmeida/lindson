@@ -90,6 +90,15 @@ CAPAS = {
    depois='<div class="mk" style="left:52px;top:44px">PASSAPORTE DA BÍBLIA</div>'
           '<div class="tag" style="left:54px;top:92px">APÓSTOLO PAULO</div>'
           '<div class="t" style="left:48px;top:236px;font-size:150px">ELE<br><b style="font-size:182px">PERSEGUIA</b></div>'),
+ # Ref. CIÊNCIA TODO DIA "FLOW" (Brasil): close num só personagem, luz num ponto, palavra gigante cruzando a imagem de lado a lado.
+ # Moisés desce do Sinai com as tábuas (Doré, Bíblia inglesa 1866, placa 039, domínio público, Wikimedia Commons, 1920 px):
+ # é a cena em que ele encontra o povo que quis voltar ao Egito (o bezerro de ouro).
+ 'capa-11': dict(arq=RAIZ + '/capas-longos-10-12/fontes/dore-moises-desce-do-sinai-commons-1920.jpg', crop=(.52, .305, .74), glow=(.52, .36), forca=.75, gama=1.1, vmin=.12,
+   antes='',
+   depois='<div class="sh" style="background:linear-gradient(0deg,rgba(0,0,0,.8),rgba(0,0,0,0) 42%)"></div>'
+          '<div class="mk" style="left:44px;top:40px">PASSAPORTE DA BÍBLIA</div>'
+          '<div class="tag" style="left:46px;top:86px">ÊXODO</div>'
+          '<div class="t" style="left:0;right:0;text-align:center;bottom:26px;font-size:232px;letter-spacing:.01em">QUIS <b>VOLTAR?</b></div>'),
 }
 
 def render(nomes):
