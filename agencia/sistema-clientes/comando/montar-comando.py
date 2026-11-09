@@ -63,6 +63,24 @@ def placar():
     return out, data
 
 
+# palavras que ligam um texto do REGISTRO ou do QUADRO a um cliente e a uma função (para o distribuidor)
+CLI_KW = {'jaci': ['jaci'], 'tribuna': ['tribuna'], 'leo': ['leo pinto', 'leo:', ' leo ', 'do leo', 'vereador'], 'rt': ['real time', 'rt full', 'realtime'],
+          'oregano': ['oregano'], 'marca': ['@lindsonalmeida', 'marca pessoal', 'site do lindson', 'marca do lindson', 'marca-lindson', 'reels do lindson', 'bio do lindson']}
+FN_KW = {'reels': ['reels', 'reel '], 'carrossel': ['carross'], 'post': ['post', 'artes', 'feed'], 'stories': ['stories', 'story', 'destaque'], 'legenda': ['legenda'],
+         'data': ['data comemorativa', 'datas', 'saudac', 'aniversario'], 'site': ['site', 'mini site', ' bio'], 'landing': ['landing', 'pagina de venda'],
+         'painel': ['painel'], 'estrategia': ['estrategia'], 'proposta': ['proposta'], 'contrato': ['contrato'], 'relatorio': ['relatorio', 'analise']}
+
+
+def sem_acento(s):
+    import unicodedata
+    return ''.join(c for c in unicodedata.normalize('NFD', s.lower()) if unicodedata.category(c) != 'Mn')
+
+
+def acha(txt, kw):
+    t = ' ' + sem_acento(txt) + ' '
+    return [k for k, ws in kw.items() if any(w in t for w in ws)]
+
+
 # 2 · registro (a linha mais recente fica embaixo)
 def registro():
     linhas = []
@@ -75,10 +93,14 @@ def registro():
         linhas.append({'data': d.strftime('%d/%m/%Y'), 'iso': d.isoformat(), 'conta': limpa(c[1], 40), 'oque': limpa(c[2], 200), 'onde': limpa(c[3], 120), 'situacao': limpa(c[4] if len(c) > 4 else '', 80)})
     linhas.reverse()  # mais recente primeiro
     semana = {c: 0 for c in CONTAS}
+    esp = {c: {'cli': {}, 'func': {}} for c in CONTAS}
     for e in linhas:
+        conta = contas_em(e['conta'])[0]
         if (HOJE - dt.date.fromisoformat(e['iso'])).days <= 6:
-            semana[contas_em(e['conta'])[0]] += 1
-    return linhas[:40], semana
+            semana[conta] += 1
+        for k in acha(e['oque'] + ' ' + e['onde'], CLI_KW): esp[conta]['cli'][k] = esp[conta]['cli'].get(k, 0) + 1
+        for k in acha(e['oque'], FN_KW): esp[conta]['func'][k] = esp[conta]['func'].get(k, 0) + 1
+    return linhas[:40], semana, esp
 
 
 # 3 · quadro, seção "Em andamento"
@@ -92,7 +114,9 @@ def andamento():
         # "Leandro → **Pedro**": a conta depois da seta é quem está com o item agora
         quem = c[1].split('→')[-1] if '→' in c[1] else c[1]
         cs = contas_em(quem) or contas_em(c[1])
-        if cs: out.append({'desde': c[0], 'conta': limpa(c[1], 60), 'contas': cs, 'oque': limpa(c[2], 150)})
+        d = data_br(c[0])
+        if cs: out.append({'desde': c[0], 'conta': limpa(c[1], 60), 'contas': cs, 'oque': limpa(c[2], 150), 'clis': acha(c[2], CLI_KW),
+                           'recente': bool(d and (HOJE - d).days <= 3)})
     return out
 
 
@@ -115,22 +139,79 @@ def agenda():
     return {'total': len(posts), 'por_status': st, 'proximo': prox}
 
 
+# 5 · última atividade de cada conta (commits com "(conta X" nos dois repositórios)
+def atividade():
+    import subprocess
+    out = {}
+    for repo in (RAIZ, PRIV):
+        try:
+            log = subprocess.run(['git', '-C', repo, 'log', '--all', '--since=21 days', '--format=%cI\t%s'], capture_output=True, text=True, timeout=30).stdout
+        except Exception:
+            continue
+        for l in log.splitlines():
+            if '\t' not in l: continue
+            quando, msg = l.split('\t', 1)
+            for c in CONTAS:
+                if re.search(r'conta ' + c + r'\b', msg) and (c not in out or quando > out[c]['em']):
+                    out[c] = {'em': quando, 'msg': limpa(msg, 90)}
+    return out
+
+
+# 6 · peças de cada cliente para aprovar (lista APROV dos painéis), sem prova social/antes e depois
+def pecas():
+    out = {}
+    for cli in ('jaci', 'tribuna', 'leo', 'rt', 'oregano'):
+        p = os.path.join(PRIV, 'painel', cli + '.html')
+        if not os.path.exists(p): continue
+        s = open(p, encoding='utf-8').read()
+        i = s.find('APROV=[')
+        if i < 0: continue
+        try: lista, _ = json.JSONDecoder().raw_decode(s[i + 6:])
+        except ValueError: continue
+        itens = []
+        for x in lista:
+            t = sem_acento((x.get('titulo') or '') + ' ' + (x.get('img') or ''))
+            if any(w in t for w in ('prova', 'antes e depois', 'antes-depois', 'tcle', 'paciente')): continue
+            if not x.get('img'): continue
+            itens.append({'titulo': x.get('titulo', ''), 't': x.get('t', ''), 'img': x['img'], 'telas': (x.get('telas') or [])[:10], 'data': x.get('data', ''), 'st': x.get('st', 'aguardando')})
+        out[cli] = itens
+    return out
+
+
+# 7 · vídeos já entregues e no ar (portfólio do site), para prévia ao passar o dedo
+def videos():
+    out = []
+    for n, nome in (('leo-motion-1', 'Leo Pinto · motion 1'), ('leo-motion-3', 'Leo Pinto · motion 3'), ('leo-motion-4', 'Leo Pinto · motion 4')):
+        if os.path.exists(os.path.join(PRIV, 'site', 'media', n + '.mp4')):
+            out.append({'nome': nome, 'mp4': '/site/media/' + n + '.mp4', 'poster': '/site/media/' + n + '.jpg'})
+    return out
+
+
 def main():
-    pl, pdata = placar()
-    ent, sem = registro()
-    estado = {'gerado': dt.datetime.now().strftime('%d/%m/%Y %H:%M'), 'placar': pl, 'placar_data': pdata, 'entregas': ent,
-              'entregas_semana': sem, 'andamento': andamento(), 'agenda': agenda()}
     if not os.path.isdir(PRIV):
         sys.exit(f'Privado não encontrado em {PRIV}. Clone CentralLindsonALmeida ao lado deste repositório ou use --privado.')
-    os.makedirs(os.path.join(PRIV, 'painel', 'comando'), exist_ok=True)
+    pl, pdata = placar()
+    ent, sem, esp = registro()
+    anda = andamento()
+    perfil = {'esp': esp, 'andamento': [{'conta': a['contas'][-1], 'cli': c, 'oque': a['oque']} for a in anda if a['recente'] for c in a['clis']]}
+    estado = {'gerado': dt.datetime.now().strftime('%d/%m/%Y %H:%M'), 'placar': pl, 'placar_data': pdata, 'entregas': ent,
+              'entregas_semana': sem, 'andamento': anda, 'agenda': agenda(), 'atividade': atividade(), 'pecas': pecas(), 'videos': videos(), 'perfil': perfil}
+    base = os.path.join(PRIV, 'painel', 'comando')
+    os.makedirs(os.path.join(base, 'media'), exist_ok=True)
     js = '// Gerado por agencia/sistema-clientes/comando/montar-comando.py (repositório lindson). Não edite à mão.\nwindow.__ESTADO=' + json.dumps(estado, ensure_ascii=False).replace('</', '<\\/') + ';\n'
-    open(os.path.join(PRIV, 'painel', 'comando', 'estado.js'), 'w', encoding='utf-8').write(js)
+    open(os.path.join(base, 'estado.js'), 'w', encoding='utf-8').write(js)
+    import shutil
+    md = os.path.join(AQUI, 'v2', 'media')
+    for f in (os.listdir(md) if os.path.isdir(md) else []):
+        shutil.copy(os.path.join(md, f), os.path.join(base, 'media', f))
     html = open(os.path.join(AQUI, 'comando.html'), encoding='utf-8').read()
     mov = open(os.path.join(RAIZ, 'agencia', 'sistema-clientes', 'prototipo', 'movimento.js'), encoding='utf-8').read()
-    html = html.replace('<script>\n/* ===== Central de Comando', '<script src="/painel/comando/estado.js"></script>\n<script>\n/* ===== Central de Comando', 1)
+    dist = open(os.path.join(PRIV, 'functions', '_distribuir.js'), encoding='utf-8').read().replace('export ', '')
+    html = html.replace('<!--ESTADO-->', '<script src="/painel/comando/estado.js"></script>', 1)
+    html = html.replace('/*DISTRIBUIR*/', dist, 1)
     html = html.replace('<!--MOVIMENTO-->', '<script>\n' + mov + '\n</script>')
     open(os.path.join(PRIV, 'painel', 'comando.html'), 'w', encoding='utf-8').write(html)
-    print(f"ok · placar {len(pl)} projetos · {len(ent)} entregas · {len(estado['andamento'])} em andamento · semana {sem}")
+    print(f"ok · placar {len(pl)} · {len(ent)} entregas · {len(anda)} em andamento · peças {sum(len(v) for v in estado['pecas'].values())} · atividade {list(estado['atividade'])}")
 
 
 if __name__ == '__main__':
