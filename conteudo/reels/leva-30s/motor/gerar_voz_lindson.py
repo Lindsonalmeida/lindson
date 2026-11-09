@@ -7,7 +7,7 @@ from chatterbox.mtl_tts import ChatterboxMultilingualTTS
 
 D = os.path.dirname(os.path.abspath(__file__))
 RAIZ = os.path.abspath(os.path.join(D, '..', '..', '..', '..'))
-REF = os.path.join(RAIZ, 'agencia/marca-lindson/voz/ref.wav')
+REF = os.path.join(RAIZ, 'agencia/marca-lindson/voz/ref6.wav')  # aprovada pelo Lindson em 09/11 ("voz 6")
 SAI = os.path.join(D, '..', 'voz'); os.makedirs(SAI, exist_ok=True)
 R = json.load(open(os.path.join(D, '..', 'roteiros.json')))
 R = R if isinstance(R, list) else R.get('reels', R.get('roteiros'))
@@ -21,8 +21,8 @@ for i, r in enumerate(R, 1):
     for j, b in enumerate(r['blocos_voz'], 1):
         out = os.path.join(SAI, f'{nn}-b{j}.wav')
         if not os.path.exists(out):
-            # fluida e natural: exageração moderada e cfg baixo deixam o ritmo de conversa
-            w = m.generate(b, language_id='pt', audio_prompt_path=REF, exaggeration=0.55, cfg_weight=0.4, temperature=0.75)
+            # energética, fluida e com brilho (padrão aprovado "voz 6", 09/11)
+            w = m.generate(b, language_id='pt', audio_prompt_path=REF, exaggeration=0.75, cfg_weight=0.3, temperature=0.8)
             ta.save(out, w, m.sr)
             print('ok', out, flush=True)
         partes.append(out)
@@ -30,7 +30,7 @@ for i, r in enumerate(R, 1):
     lst = os.path.join(SAI, f'{nn}.txt')
     open(lst, 'w').write(''.join(f"file '{p}'\n" for p in partes))
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', lst,
-                    '-af', 'silenceremove=stop_periods=-1:stop_duration=0.35:stop_threshold=-42dB,loudnorm=I=-16:TP=-1.5',
+                    '-af', 'silenceremove=start_periods=1:start_threshold=-45dB:stop_periods=-1:stop_duration=0.12:stop_threshold=-45dB,atempo=1.06,highpass=f=90,equalizer=f=3500:t=q:w=1:g=3,highshelf=f=8000:g=3,acompressor=threshold=-20dB:ratio=3:attack=5:release=60:makeup=3,loudnorm=I=-15:TP=-1',
                     '-ar', '44100', os.path.join(SAI, f'{nn}.wav')], check=True)
     os.remove(lst)
     print('reels', nn, 'pronto', flush=True)
