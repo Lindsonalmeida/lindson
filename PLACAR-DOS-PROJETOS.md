@@ -65,6 +65,6 @@ Legenda: ✅ feito · 🟡 em andamento · ⏳ depende do Lindson ou do cliente 
 ### Outros abertos (não pagam)
 - **Marca e site do Lindson:** site e bio no ar; falta a aprovação, o link da bio e o Search Console.
 - **Produtos low ticket + Estado Próprio:** PDFs prontos; faltam os preços, a Hubla e as 5 decisões da escada.
-- **Canais dark (Passaporte e Raposa):** longos prontos para subir; Raposa 13 a 16 pausado.
+- **Canais dark (Passaporte e Raposa):** longos prontos para subir; Passaporte 10 a 12 (Milagres, Êxodo, Paulo) com roteiros prontos e render na fila desde 09/11 (Zuleide, Peter), capa nova aguardando aprovação; Raposa 13 a 16 pausado.
 - **Desentupidora SF:** aprovar as 4 artes, fazer o Google e o Pixel.
 - **Franquia Alpha:** decidido não comprar (encerrado).
