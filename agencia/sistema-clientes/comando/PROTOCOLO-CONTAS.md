@@ -1,51 +1,79 @@
-# Protocolo das contas · fila da Central de Comando (conta Leandro, 09/11/2026)
+# Protocolo das contas · Central de Comando (conta Leandro, 09/11/2026 · v2)
 
-Vale para as 4 contas: **Lindson, Zuleide, Pedro, Leandro**. O Lindson pede em `/painel/comando`; as contas pegam, fazem e entregam pela fila. Um pedido fica com **uma conta só**: o servidor recusa (409) a segunda que tentar pegar.
+O Lindson abre **só** https://lindsonalmeida.pages.dev/painel/comando. Ele pede, aprova, responde e vê tudo ali. As 4 contas (**Lindson, Zuleide, Pedro, Leandro**) trabalham por uma tarefa agendada de hora em hora, sem ele abrir as contas.
+
+## Configuração (uma vez por conta)
+Na tela **05 · Configurar contas**, o botão "Copiar prompt" copia o texto abaixo, já com o nome da conta. O Lindson cola **uma única vez** em cada conta:
+
+```text
+Sou o Lindson. Configure esta conta (<CONTA>) UMA VEZ para trabalhar só pela Central de Comando.
+1. No repositório Lindsonalmeida/lindson (branch claude/global-agent-installation-vdyowf), leia agencia/sistema-clientes/comando/PROTOCOLO-CONTAS.md.
+2. Se esta conta ainda não tem a credencial de rede de lindsonalmeida.pages.dev (cabeçalho Authorization: Bearer), peça com request_credential. Nunca escreva o token em arquivo ou na conversa.
+3. Crie uma tarefa agendada de hora em hora, com sessão nova a cada disparo e este repositório, chamada "Central · <CONTA>", com este prompt:
+"Você é a conta <CONTA>. Faça a RODADA do PROTOCOLO-CONTAS.md: (1) poste 'trabalhando' no quadro da equipe; (2) leia a fila e trate só os pedidos com designada = <CONTA>; (3) leia as respostas do Lindson nas suas perguntas; (4) pegue 1 pedido, faça seguindo o CLAUDE.md, e entregue com 'pronto' (midia + resumo) ou pergunte com 'pergunta' (texto + opcoes); (5) rode o montar-comando.py e faça push; (6) poste 'livre'. Se bater o limite, poste 'limite-sessao' ou 'limite-semana' com o ate do reset."
+4. Rode a primeira rodada agora e me diga só "Conta <CONTA> configurada".
+```
+
+A tela mostra "● Tarefa ativa" quando a conta bateu o ponto nas últimas 2 h.
 
 ## O token
-- O endereço `/api/automacao` só responde com o cabeçalho `Authorization: Bearer <AUTOMACAO_TOKEN>`.
-- O `AUTOMACAO_TOKEN` é um **segredo da Cloudflare** (projeto Pages `lindsonalmeida` → Configurações → Variáveis e segredos), com 24 caracteres ou mais.
-- Na sessão de cada conta ele fica como **credencial de rede** do host `lindsonalmeida.pages.dev` (o proxy põe o cabeçalho sozinho). **Nunca** no repositório, num arquivo, na conversa ou num comando com o valor escrito. Nos exemplos abaixo, `$AUT` é só um marcador: com a credencial de rede salva, o cabeçalho pode ir com um valor qualquer (o proxy troca).
-- Sem o token configurado, a rota responde 401 e a conta segue o trabalho normal (quadro e registro).
+- `/api/automacao` só responde com `Authorization: Bearer <AUTOMACAO_TOKEN>`, um **segredo da Cloudflare** (projeto Pages `lindsonalmeida` → Configurações → Variáveis e segredos, com 24 caracteres ou mais).
+- Em cada conta, o token fica como **credencial de rede** do host `lindsonalmeida.pages.dev`; o proxy põe o cabeçalho. **Nunca** em arquivo, commit, conversa ou comando com o valor escrito. Nos exemplos, `$AUT` é só um marcador.
+- Sem o token, a rota responde 401.
 
-## Ao abrir a conversa e a cada hora
-1. **Ler a fila**
-   ```bash
-   curl -s -H "Authorization: Bearer $AUT" "https://lindsonalmeida.pages.dev/api/automacao?fila=ped"
-   ```
-   Resposta: `{ itens:[{id, cli, func, texto, st, conta, link, criado, nota, ...}], versao }`.
-   Pegue o mais antigo com `st` = `novo`, ou `ajuste` que seja seu (o `ajuste` volta para a conta que fez). Pagantes primeiro (jaci, tribuna, leo, rt).
-2. **Pegar** (antes de começar; se der 409, outra conta pegou: escolha outro)
-   ```bash
-   curl -s -X POST -H "Authorization: Bearer $AUT" -H "Content-Type: application/json" \
-     -d '{"id":"<id>","acao":"pegar","conta":"Leandro"}' "https://lindsonalmeida.pages.dev/api/automacao?fila=ped"
-   ```
-3. **Fazer** seguindo o `CLAUDE.md` (memória, persona, pesquisa premium, regras de cada cliente). Linha no `QUADRO-DA-EQUIPE.md` se demorar.
-4. **Recado no pedido** (opcional, ex.: "falta a foto X do cliente")
-   ```bash
-   -d '{"id":"<id>","acao":"nota","conta":"Leandro","texto":"..."}'
-   ```
-5. **Marcar pronto** com o link do resultado (https: artifact, página no ar, painel do cliente, arquivo no GitHub). Só a conta que pegou consegue.
-   ```bash
-   -d '{"id":"<id>","acao":"pronto","conta":"Leandro","link":"https://..."}'
-   ```
-6. **Registrar e atualizar a Central:** linha no `REGISTRO-DAS-CONTAS.md`, placar no `PLACAR-DOS-PROJETOS.md`, depois `python3 agencia/sistema-clientes/comando/montar-comando.py` e push no privado (README desta pasta).
+## A RODADA (a cada hora)
+```bash
+U=https://lindsonalmeida.pages.dev/api/automacao; H=(-H "Authorization: Bearer $AUT" -H "Content-Type: application/json")
+```
+1. **Bater o ponto:** `curl -s "${H[@]}" -X POST -d '{"conta":"Pedro","estado":"trabalhando","tarefa":"rodada da fila"}' "$U?fila=equipe"`
+2. **Ler a fila:** `curl -s "${H[@]}" "$U?fila=ped"`. A leitura já **redistribui** os pedidos (ver Distribuição). Trate **só** os itens com `"designada":"<sua conta>"`, nos estados `novo` ou `ajuste`, ou que já são seus (`conta` = você, `st` = `andamento`).
+3. **Respostas do Lindson:** nos seus pedidos, a última mensagem de `conversa` com `"de":"Lindson"` é a resposta dele. Siga.
+4. **Pegar 1 pedido** (o mais antigo; pagantes primeiro): `-d '{"id":"<id>","acao":"pegar","conta":"Pedro"}'` em `$U?fila=ped`. Se der 409, não é seu: pule.
+5. **Fazer** seguindo o `CLAUDE.md` (memória, persona, pesquisa premium e as regras de cada cliente).
+   - **Precisa de algo do Lindson?** Pergunte, com respostas rápidas:
+     `-d '{"id":"<id>","acao":"pergunta","conta":"Pedro","texto":"Uso a foto 1 ou a 2?","opcoes":["Foto 1","Foto 2","Pode seguir"]}'`
+     O pedido fica "Esperando você" na página. Na próxima rodada, leia a resposta em `conversa`.
+   - **Pedido grande** (site, estratégia, leva de Reels): divida.
+     `-d '{"id":"<id>","acao":"dividir","conta":"Pedro","partes":[{"texto":"Textos do site"},{"texto":"Fotos e recortes","func":"post"}]}'`
+     Cada parte vira um subpedido designado pelo distribuidor. O pedido-mãe continua seu: junte as partes e entregue no fim.
+6. **Entregar:** os arquivos precisam de um link https que abra, como a página no ar, o artifact, `lindsonalmeida.pages.dev/...` ou o raw do GitHub.
+   `-d '{"id":"<id>","acao":"pronto","conta":"Pedro","midia":["https://.../tela1.jpg","https://.../tela2.jpg","https://.../video.mp4","https://.../estrategia.pdf"],"link":"https://site-no-ar","resumo":"7 telas + legenda SEO"}'`
+   - A página mostra a mídia **ali mesmo**, pelo tipo do arquivo: `.jpg/.png/.webp` na galeria, `.mp4/.webm` no player, `.pdf` no visualizador e qualquer outro link como prévia do site.
+   - Aceita até 10 links em `midia` e um resumo de até 300 caracteres.
+7. **Registrar:** linha no `REGISTRO-DAS-CONTAS.md` e no `PLACAR-DOS-PROJETOS.md`. Depois rode `python3 agencia/sistema-clientes/comando/montar-comando.py` e faça push nos dois repositórios.
+8. **Sair:** `-d '{"conta":"Pedro","estado":"livre"}'` em `$U?fila=equipe`.
 
-O Lindson aprova ou pede ajuste na tela Fila. Ajuste volta com `st: "ajuste"` e a `nota` dele.
+**Bateu o limite** (ou a última mensagem da sessão foi de limite): poste o estado com a hora do reset, que vem na mensagem ("resets …"):
+`-d '{"conta":"Pedro","estado":"limite-sessao","ate":"2026-11-09T23:00:00-03:00"}'`. Para a semana, use `limite-semana`.
+- Os pedidos dessa conta são redistribuídos sozinhos.
+- O Lindson também pode marcar pelo botão no quadro da equipe.
+
+## Distribuição (o Lindson não escolhe conta)
+`functions/_distribuir.js` roda **em toda leitura da fila** (`GET ?fila=ped`) e quando a página abre. Não precisa de cron. Regras, nesta ordem:
+1. **Disponível:** só contas `trabalhando` ou `livre`, com batida de ponto nas últimas 2 h. Nunca uma conta esgotada.
+2. **Continuidade:** quem já está trabalhando no mesmo cliente (um pedido em andamento na fila, ou uma linha recente do "Em andamento" do QUADRO).
+3. **Especialidade:** quem mais entregou aquela função ou aquele cliente, pelo REGISTRO (o `montar-comando.py` calcula; a página envia para o quadro da equipe).
+4. **Menor carga:** menos pedidos abertos.
+
+O pedido mostra o motivo em uma linha, por exemplo "Zuleide: já está trabalhando em Post de Leo Pinto".
+- **Redistribui sozinho** quando a designada não pega em 2 h, perde a batida ou bate o limite.
+- **Sem ninguém disponível:** o pedido fica "na espera" e mostra quando a primeira conta volta.
+- **Só a designada pega:** a API recusa as outras contas com 409.
 
 ## Regras do servidor (`functions/api/automacao.js`)
-| Campo | Regra |
+| Rota | Campos |
 |---|---|
-| `id` | 4 a 40 letras, números ou hífen; tem que existir |
-| `acao` | `pegar`, `pronto` ou `nota` |
-| `conta` | `Lindson`, `Zuleide`, `Pedro` ou `Leandro` |
-| `link` | obrigatório no `pronto`; começa com `https://`; até 500 caracteres |
-| `texto` | obrigatório na `nota`; até 500 caracteres |
-| `versao` | opcional; se mandar e a fila mudou, 409 (leia de novo) |
-- `pegar`: só com `st` `novo` (ou `ajuste` da mesma conta) → `andamento`. Senão 409 com quem está.
-- `pronto`: só com `st` `andamento` e a mesma conta → `pronto`, grava `link` e `prontoEm`.
-- Cada gravação soma 1 à versão do KV (`dados:admin:ped`), a mesma que a página usa.
+| `?fila=ped` POST | `id` (4–40), `acao` ∈ pegar · pronto · pergunta · nota · dividir, `conta` ∈ Lindson · Zuleide · Pedro · Leandro |
+| pronto | `midia` até 10 links https, `link` https (opcional), pelo menos um dos dois; `resumo` ≤ 300 |
+| pergunta | `texto` ≤ 500, `opcoes` até 6 de ≤ 40 |
+| dividir | `partes` de 1 a 6 `{texto ≤ 300, func?}` |
+| `?fila=equipe` POST | `estado` ∈ trabalhando · livre · limite-sessao · limite-semana; `ate` ISO nos próximos 8 dias (obrigatório nos limites); `tarefa` ≤ 200 |
+
+- `pronto`, `pergunta` e `dividir` só funcionam para a conta que pegou o pedido.
+- Cada gravação soma 1 à versão no KV (`dados:admin:ped` e `dados:admin:eq`). A página grava as mesmas chaves por `/api/dados?f=ped|eq`.
 - As rotas antigas `?cli=<cliente>` (aprovações e "postado") não mudaram.
 
-## Tarefa agendada (opcional)
-Uma tarefa de hora em hora pode rodar os passos 1 e 2 e avisar a conta. Só ligar com o OK do Lindson.
+## Limites: o que é verdade
+- O Claude **não tem** API de uso por conta.
+- Os limites reais são a janela de ~5 h da sessão (na tela, "Hoje") e o limite semanal ("Semana"). Não existem limites diário e mensal.
+- O "No mês" da tela conta quantas vezes cada limite foi batido, pelo histórico do quadro da equipe.

@@ -4,7 +4,33 @@ Pedido do Lindson (09/11): "quero montar um sistema único, integrado com todas 
 
 No ar em **https://lindsonalmeida.pages.dev/painel/comando** (só o admin abre). Atalho em destaque no painel do admin (menu "Visão" e cartão na Visão geral) e em `dados/apps.json`.
 
-## Telas
+## v2 (09/11/2026, conta Leandro): estação de comando, lugar único
+O Lindson disse: "não quero que pareça vibe code" e "quero abrir só essa página do sistema e nenhuma outra mais". A página virou uma rolagem só, com cinco seções:
+1. **Comando:** vídeo real em loop, camadas com parallax, grão, HUD e botão físico de falar. Abaixo, o deck com os clientes e 16 teclas de equipamento.
+2. **Fila ao vivo:** quadro de partidas, com o resultado **dentro da página** (galeria, player, PDF, prévia de site), as perguntas das contas com respostas rápidas ou por voz, e Aprovar / Ajuste.
+3. **Resultados:** números gigantes, placar, aprovações dos clientes com miniaturas reais e botões Aprovar / Ajuste (gravam no `f=aprov` do cliente), vídeos com prévia ao passar o dedo, entregas e análise.
+4. **Equipe:** um módulo por conta com o estado (trabalhando, livre, limite de hoje, limite da semana), quando volta, a barra até o reset, a carga, a última atividade e quantas vezes bateu cada limite no mês. O Lindson tem os botões "esgotou hoje até…", "esgotou a semana até…" e "liberar".
+5. **Configurar contas:** o prompt de uma vez por conta e se a tarefa horária está ativa.
+
+**Também na v2:**
+- Contador "Esperando você" no topo, com som discreto que se desliga.
+- Ferramentas (Recomeço 90 e Canais dark) abertas por dentro da página.
+
+**Distribuição automática:** `functions/_distribuir.js` (privado; cópia em `site/functions/`). Regras e API em `PROTOCOLO-CONTAS.md`. O quadro da equipe fica em `dados:admin:eq` (`f=eq`, acrescentado ao `FERR` do `dados.js`).
+
+**Arquivos da v2:**
+- `v2/media/`: vídeo e pôster do hero; o montar copia para `painel/comando/media/` no privado.
+- `v2/referencias/`: capturas da pesquisa.
+- `v2/v2-*.png` e `v2/v2-rolagem-desktop.mp4`: conferência.
+- `v2/CREDITOS.md`.
+
+**O `montar-comando.py` agora também gera:**
+- a última atividade de cada conta, pelos commits "(conta X)";
+- as peças para aprovar, tiradas dos painéis (sem prova social);
+- os vídeos entregues;
+- o perfil de especialidade.
+
+## Telas (v1)
 | Tela | O que faz |
 |---|---|
 | **Comando** | Microfone gigante (voz em pt-BR no navegador, com campo de texto de reserva), chips de cliente (Jaci, Tribuna 98, Leo e Real Time marcados como pagantes; Orégano, Minha marca, Outro) e 16 botões de função. Toca no cliente e na função, fala ou escreve um detalhe e toca em **Enviar para a equipe**. Antes de mandar, mostra **"Já existe"** se o mesmo cliente e a mesma função têm pedido aberto ou pronto nos últimos 14 dias, e também entregas parecidas do `REGISTRO-DAS-CONTAS.md`. No celular, uma barra "Enviar" aparece em cima das abas quando o pedido está montado. |
