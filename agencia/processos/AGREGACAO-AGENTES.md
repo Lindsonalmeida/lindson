@@ -10,7 +10,7 @@
 - **Fica de fora:** material reprovado (branches `cassandra/*`) e números sem fonte.
 
 ## Última verificação
-- 09/11/2026 20:50 (UTC): sem novidades de outras contas (capa "Pintura anotada" do Peter aguarda aprovação, não agregada).
+- 09/11/2026 21:50 (UTC): sem novidades para os agentes (entrou a Central de Comando da conta Leandro, que é regra de operação, já no CLAUDE.md).
 
 ## Histórico do que foi agregado
 | Data | Fonte | Agente | O que entrou |
