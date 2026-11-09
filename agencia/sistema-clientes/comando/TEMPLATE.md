@@ -1,5 +1,45 @@
 # Central de Comando · pesquisa premium e template
 
+## v3 (09/11/2026, conta Leandro): "mega futurista, com avatar", o VEKTOR
+Pedidos do Lindson:
+- "quero um visual mega futurista, com avatar";
+- "deixe ele ouvindo sempre que eu estiver na página, automático".
+
+O avatar se chama **VEKTOR**, o gerente da equipe (nome e grafia escolhidos por ele). É um holograma abstrato de partículas, sem foto de ninguém e sem cartum.
+
+### Referências: interfaces de filme e estúdios de WebGL (capturas em `v3/referencias/`)
+| # | Referência | País | Reconhecimento | Técnica |
+|---|---|---|---|---|
+| 1 | **Territory Studio**, telas de **Blade Runner 2049** | Reino Unido | o filme ganhou o Oscar de efeitos visuais de 2018; prêmio do estúdio não conferido | anéis concêntricos, âmbar sobre preto, dado como camada |
+| 2 | **Cantina Creative**, HUD do Homem de Ferro e JARVIS | EUA | não conferido | holograma em anéis que giram, dados em órbita, varredura |
+| 3 | **GMUNK**, gráficos de **Oblivion** | EUA | não conferido (a página do projeto bloqueou o robô) | HUD limpo, mono e luz |
+| 4 | Ash Thorp (Alt Creative) | EUA | não conferido | identidade em movimento, anéis e partículas |
+| 5 | Territory Studio, site | Reino Unido | não conferido | lista tipográfica de serviços |
+| 6 | Lusion | Reino Unido | não conferido (o site se diz premiado) | WebGL e partículas |
+| 7 | Immersive Garden | França | não conferido | WebGL que abre com tipografia serifada |
+| 8 | Active Theory | EUA | não conferido (o WebGL não abriu no robô) | partículas em volta de um objeto central |
+| 9 | Igloo Inc / abeto (da v2) | — | Awwwards SOTY 2024 (conferido) | camadas em profundidade |
+
+3 países: Reino Unido, EUA e França. A Perception não abriu nesta rede.
+
+### As 3 escolhidas e o que se copiou (técnica, nunca o layout)
+1. **Territory Studio · Blade Runner 2049:** **anéis concêntricos** com marcas, arcos e texto em volta do núcleo, e a paleta âmbar sobre preto (que já é a marca).
+2. **Cantina Creative · JARVIS:** o **holograma no centro**, com **dados ao vivo em órbita** (fila, para você, contas livres, placar, entregas) que passam na frente e atrás, mais varredura e glitch.
+3. **GMUNK · Oblivion:** a **limpeza do HUD**: rótulos mono pequenos, cantos de mira e uma informação por vez, para a tela futurista continuar legível.
+
+### O VEKTOR
+- **O busto:** cerca de 3.500 pontos em canvas 2D, sem biblioteca, mais leve que o Three.js no celular. Gira devagar, segue o mouse, flutua e tem glitch em faixas e linhas de varredura.
+- **Reage ao som:** pulsa e treme com o **volume real do microfone** (AnalyserNode) e mexe a boca quando **responde falando** (speechSynthesis pt-BR, com a melhor voz disponível e botão para ligar ou desligar).
+- **Escuta:** sempre ligada. Ele monta o pedido quando a frase começa com "Vektor" e só envia quando ela termina em "enviar", "manda" ou "pode mandar". Navegação ("fila", "status", "equipe") age na hora.
+- **Movimento reduzido:** quem pede menos movimento vê um quadro parado, com os anéis parados.
+
+### Descartadas na v3
+- **Three.js:** o canvas 2D faz o mesmo busto com menos peso e sem depender de CDN.
+- **Rosto humano realista e personagem 3D:** proibidos pela regra da foto e do cartum.
+- **Interfaces de filme azuis e ciano** (padrão de JARVIS e Oblivion): fogem da marca. Ficou só o âmbar e o amarelo.
+
+---
+
 ## v2 (09/11/2026, conta Leandro): "não quero que pareça vibe code"
 Pedido do Lindson: "quero um template único e tecnológico, com imagens, camadas, vídeos, rolagem etc." Também lidos no privado: `web-design-premium/README.md` (os 7 estilos, a anatomia do hero e os sinais de amadorismo), `edit-ia-pro/README.md` §5 e `motion-animacao-vfx/` (#137 HUD "● REC", #152 light leak âmbar, #35 grão, #25 parallax 2.5D, #52 tipografia gigante).
 

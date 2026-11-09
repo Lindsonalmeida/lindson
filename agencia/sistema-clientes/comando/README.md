@@ -4,6 +4,11 @@ Pedido do Lindson (09/11): "quero montar um sistema único, integrado com todas 
 
 No ar em **https://lindsonalmeida.pages.dev/painel/comando** (só o admin abre). Atalho em destaque no painel do admin (menu "Visão" e cartão na Visão geral) e em `dados/apps.json`.
 
+## v3 (09/11/2026, conta Leandro): o VEKTOR, que ouve sempre
+- **Escuta automática:** ao abrir, pede o microfone uma vez e liga a voz contínua em pt-BR. Ela reinicia sozinha quando cai, pausa com a aba escondida e mostra o estado no topo e no núcleo: ouvindo, pausado, bloqueado (com o passo a passo) ou sem voz (pede Chrome ou Edge). Se o navegador exigir um toque, o primeiro toque em qualquer lugar liga a escuta.
+- **Comandos:** "Vektor, reels da Jaci sobre clareamento" monta o pedido; "enviar", "manda" ou "pode mandar" no fim envia. Sem "Vektor", só navegação e envio.
+- **Avatar:** holograma de partículas no centro, com anéis de HUD, dados em órbita, voz própria (liga e desliga) e fio de varredura entre as seções. Pesquisa e decisões no `TEMPLATE.md`; capturas e vídeo em `v3/`.
+
 ## v2 (09/11/2026, conta Leandro): estação de comando, lugar único
 O Lindson disse: "não quero que pareça vibe code" e "quero abrir só essa página do sistema e nenhuma outra mais". A página virou uma rolagem só, com cinco seções:
 1. **Comando:** vídeo real em loop, camadas com parallax, grão, HUD e botão físico de falar. Abaixo, o deck com os clientes e 16 teclas de equipamento.

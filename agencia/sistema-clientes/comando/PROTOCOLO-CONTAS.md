@@ -1,12 +1,12 @@
 # Protocolo das contas · Central de Comando (conta Leandro, 09/11/2026 · v2)
 
-O Lindson abre **só** https://lindsonalmeida.pages.dev/painel/comando. Ele pede, aprova, responde e vê tudo ali. As 4 contas (**Lindson, Zuleide, Pedro, Leandro**) trabalham por uma tarefa agendada de hora em hora, sem ele abrir as contas.
+O Lindson abre **só** https://lindsonalmeida.pages.dev/painel/comando, a Central de Comando. A voz da página é o **VEKTOR**, o gerente da equipe (holograma que ouve o tempo todo e responde falando). Ele pede, aprova, responde e vê tudo ali. As 4 contas (**Lindson, Zuleide, Pedro, Leandro**) trabalham por uma tarefa agendada de hora em hora, sem ele abrir as contas.
 
 ## Configuração (uma vez por conta)
 Na tela **05 · Configurar contas**, o botão "Copiar prompt" copia o texto abaixo, já com o nome da conta. O Lindson cola **uma única vez** em cada conta:
 
 ```text
-Sou o Lindson. Configure esta conta (<CONTA>) UMA VEZ para trabalhar só pela Central de Comando.
+Sou o Lindson. Configure esta conta (<CONTA>) UMA VEZ para trabalhar só pela Central de Comando (a página onde eu peço tudo; a voz dela é o VEKTOR, o gerente da equipe).
 1. No repositório Lindsonalmeida/lindson (branch claude/global-agent-installation-vdyowf), leia agencia/sistema-clientes/comando/PROTOCOLO-CONTAS.md.
 2. Se esta conta ainda não tem a credencial de rede de lindsonalmeida.pages.dev (cabeçalho Authorization: Bearer), peça com request_credential. Nunca escreva o token em arquivo ou na conversa.
 3. Crie uma tarefa agendada de hora em hora, com sessão nova a cada disparo e este repositório, chamada "Central · <CONTA>", com este prompt:

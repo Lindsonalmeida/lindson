@@ -3,13 +3,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0B0B0B">
-<title>Central de Comando</title>
+<title>Central de Comando · VEKTOR</title>
 <link rel="preload" as="image" href="/painel/comando/media/hero-d.jpg" media="(min-width:761px)">
 <link rel="preload" as="image" href="/painel/comando/media/hero-m.jpg" media="(max-width:760px)">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=JetBrains+Mono:wght@400;500;700&family=Manrope:wght@400;500;600;700;800&display=swap">
 <style>
-/* Central de Comando v2 · "estação de comando" do Lindson (conta Leandro, 09/11/2026). Fonte: agencia/sistema-clientes/comando/ (repositório lindson).
+/* Central de Comando v3 · "estação de comando" com o VEKTOR do Lindson (conta Leandro, 09/11/2026). Fonte: agencia/sistema-clientes/comando/ (repositório lindson).
    Referências (TEMPLATE.md): Igloo Inc/abeto (camadas e HUD em profundidade, Awwwards SOTY 2024), Teenage Engineering OP-1 (teclas de equipamento),
    Lando Norris/OFF+BRAND (vídeo cheio + tipografia gigante + rolagem que revela, Awwwards SOTD). Um lugar só: o Lindson não abre outra página. */
 :root{
@@ -99,7 +99,7 @@ main{margin-left:var(--rail)}
 .ptt button b{font:400 clamp(22px,2.3vw,30px)/1 var(--f-t);letter-spacing:.06em}
 .ptt button small{display:block;font:500 9px var(--f-m);letter-spacing:.2em;margin-top:6px}
 .ptt.ouvindo button{background:var(--verm);color:#fff;box-shadow:inset 0 -10px 0 rgba(0,0,0,.2),0 18px 0 -6px #6b1d12,0 0 0 14px rgba(240,80,58,.18),0 0 0 30px rgba(240,80,58,.08)}
-.fala{pointer-events:auto;position:absolute;left:var(--gut);right:calc(var(--gut) + clamp(190px,22vw,280px));bottom:clamp(30px,5vh,44px);display:flex;gap:12px;align-items:center;font:500 12px var(--f-m);color:#CFCBC0;min-width:0}
+.fala{pointer-events:auto;position:absolute;left:var(--gut);right:calc(var(--gut) + min(74vh,46vw,640px));bottom:clamp(30px,5vh,44px);display:flex;gap:12px;align-items:center;font:500 12px var(--f-m);color:#CFCBC0;min-width:0}
 .fala .t{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;letter-spacing:.04em}
 .fala.ativa .t{color:var(--txt);font-size:13px}
 .ondas{display:flex;gap:3px;align-items:center;height:18px}
@@ -107,6 +107,44 @@ main{margin-left:var(--rail)}
 .fala.ativa .ondas i{background:var(--am);animation:onda .8s ease-in-out infinite}
 .ondas i:nth-child(2n){animation-delay:.12s!important}.ondas i:nth-child(3n){animation-delay:.3s!important}
 @keyframes onda{50%{height:18px}}
+/* ===== v3 · núcleo do VEKTOR: holograma, anéis de HUD e dados em órbita ===== */
+.h-titulo h1{font-size:clamp(56px,7.6vw,132px)}
+.h-titulo{max-width:min(52%,760px)}
+.h-nucleo{display:grid;place-items:center end;padding:56px var(--gut) 40px;pointer-events:none}
+.nucleo{pointer-events:auto;position:relative;width:min(74vh,46vw,640px);aspect-ratio:1;margin-right:clamp(0px,3vw,60px)}
+.nucleo canvas{position:absolute;inset:6%;width:88%;height:88%}
+.nucleo::after{content:"";position:absolute;inset:14%;border-radius:50%;pointer-events:none;background:repeating-linear-gradient(0deg,rgba(11,11,11,.38) 0 1px,transparent 1px 3px);mix-blend-mode:multiply;-webkit-mask:radial-gradient(closest-side circle,#000 60%,transparent 100%);mask:radial-gradient(closest-side circle,#000 60%,transparent 100%)}
+.aneis{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.aneis .an{transform-origin:300px 300px;transform-box:view-box}
+.aneis .a1{animation:gira 90s linear infinite}.aneis .a2{animation:gira 34s linear infinite reverse}.aneis .a3{animation:gira 60s linear infinite}
+.aneis .a4{animation:gira 14s cubic-bezier(.6,0,.4,1) infinite alternate}.aneis .a5{animation:gira 48s linear infinite reverse}
+.nucleo[data-estado="ouvindo"] .aneis .a4{animation-duration:6s}
+.nucleo[data-estado="bloqueado"] .aneis,.nucleo[data-estado="sem-voz"] .aneis{filter:grayscale(1) brightness(.6)}
+.nucleo-btn{position:absolute;left:30%;top:24%;width:40%;height:46%;border-radius:50%;border:0;background:none;cursor:pointer}
+.nucleo-rot{position:absolute;left:50%;bottom:4%;transform:translateX(-50%);text-align:center;pointer-events:none;display:grid;gap:3px}
+.nucleo-rot b{font:400 clamp(26px,2.6vw,40px)/1 var(--f-t);letter-spacing:.32em;padding-left:.32em;color:var(--am);text-shadow:0 0 18px rgba(245,197,24,.55)}
+.nucleo-rot small{font:500 9.5px var(--f-m);letter-spacing:.3em;text-transform:uppercase;color:#CFCBC0}
+.nucleo-rot span{font:700 10px var(--f-m);letter-spacing:.2em;color:var(--txt)}
+.nucleo[data-estado="ouvindo"] .nucleo-rot span{color:var(--verm)}
+.orbita{position:absolute;left:50%;top:50%;width:112%;height:0;transform:translate(-50%,0);pointer-events:none}
+.orb{position:absolute;left:50%;top:0;display:grid;gap:2px;padding:7px 10px;background:rgba(11,11,11,.72);border:1px solid rgba(245,197,24,.45);backdrop-filter:blur(4px);white-space:nowrap;will-change:transform}
+.orb::before{content:"";position:absolute;left:-1px;top:-1px;width:6px;height:6px;border-left:2px solid var(--am);border-top:2px solid var(--am)}
+.orb small{font:500 8.5px var(--f-m);letter-spacing:.2em;color:var(--apag)}
+.orb b{font:400 22px/1 var(--f-t);color:var(--txt);letter-spacing:.02em}
+.escuta{display:inline-flex;align-items:center;gap:6px}
+.escuta[data-estado="ouvindo"]{color:var(--verm);border-color:var(--verm)}
+.escuta[data-estado="bloqueado"],.escuta[data-estado="sem-voz"]{color:#fff;background:var(--verm);border-color:var(--verm)}
+.escuta[data-estado="gesto"]{color:#0A0A0A;background:var(--am);border-color:var(--am)}
+.fala.vivo .t{color:var(--am)}
+.voz-aviso{position:absolute;z-index:6;left:var(--gut);top:150px;max-width:440px;background:rgba(20,10,8,.92);border:1px solid var(--verm);padding:14px 16px;display:grid;gap:8px}
+.voz-aviso b{font:500 10.5px var(--f-m);letter-spacing:.2em;color:var(--verm);text-transform:uppercase}
+.voz-aviso p{margin:0;font-size:14px;line-height:1.45}
+/* transição entre seções: fio de varredura âmbar que atravessa ao entrar */
+.sec::before{content:"";position:absolute;left:0;right:0;top:-1px;height:2px;background:linear-gradient(90deg,transparent,var(--am) 45%,#fff3c4 50%,var(--am) 55%,transparent);transform:scaleX(0);transform-origin:left;opacity:.9;transition:transform 1.3s cubic-bezier(.2,.8,.1,1),opacity 1.6s 1.1s}
+.sec.entra::before{transform:scaleX(1);opacity:.25}
+.tec:hover .face{box-shadow:inset 0 1px 0 rgba(255,255,255,.09),inset 0 -5px 0 rgba(0,0,0,.5),0 3px 0 #050505,0 0 24px -6px rgba(245,197,24,.55)}
+.cli:hover .led{background:#6b5a1a}
+.linha{transition:background .25s}.linha:hover{background:linear-gradient(90deg,rgba(245,197,24,.05),transparent 60%)}
 /* ===== faixa inclinada com números reais ===== */
 .faixa{position:relative;z-index:3;margin:-38px -4vw 0;transform:rotate(-2.2deg);background:var(--am);color:#0A0A0A;overflow:hidden;border-block:2px solid #0A0A0A}
 .faixa .trilha{display:flex;width:max-content;animation:corre 38s linear infinite}
@@ -327,6 +365,7 @@ input.campo{width:100%;background:#0E0D0A;border:1px solid #2B2B28;color:var(--t
 @media (max-width:1100px){.teclas{grid-template-columns:repeat(6,minmax(0,1fr))}.clis{grid-template-columns:repeat(4,minmax(0,1fr))}.equipe{grid-template-columns:repeat(2,minmax(0,1fr))}.modulo:nth-child(2){border-right:0}.modulo:nth-child(-n+2){border-bottom:1px solid var(--fio2)}
   .linha{grid-template-columns:20px 90px minmax(0,1fr) minmax(0,1fr) auto}.linha .st{display:none}}
 @media (max-width:860px){
+  .h-nucleo{place-items:start center;padding-top:64px}.nucleo{width:min(60vh,70vw,460px);margin:0}.h-titulo{max-width:none;padding-bottom:110px}
   :root{--rail:0px}
   .trilho{display:none}
   .hud{padding:10px 16px;gap:10px}.hud .esq .rel{display:none}.esperando span{display:none}.esperando::before{content:'P/ VOCÊ'}.esperando{padding:6px 8px;gap:8px}
@@ -349,13 +388,18 @@ input.campo{width:100%;background:#0E0D0A;border:1px solid #2B2B28;color:var(--t
   .rodape{padding-bottom:calc(96px + env(safe-area-inset-bottom))}
 }
 @media (max-width:560px){
-  .h-titulo{padding-bottom:330px}
+  .h-titulo{padding-bottom:128px}
   .h-titulo h1{font-size:clamp(56px,16.5vw,80px)}
-  .h-titulo p{font-size:13.5px;max-width:320px;margin-top:14px}
+  .h-titulo p{display:none}
   .h-titulo .sobre{font-size:9.5px;letter-spacing:.16em;margin-bottom:12px}
-  .h-mic{place-items:end center;padding-bottom:138px}
-  .ptt{width:162px}
-  .fala{left:16px;right:16px;bottom:94px;justify-content:center}.fala .t{flex:0 1 auto}
+  .h-nucleo{place-items:start center;padding:58px 0 0}
+  .nucleo{width:min(88vw,360px);margin:0}
+  .orb{padding:5px 7px}.orb b{font-size:16px}.orb small{font-size:7.5px}
+  .orbita{width:84%}
+  .h-titulo{max-width:none}
+  .voz-aviso{left:16px;right:16px;top:auto;bottom:130px}
+  .fala{left:16px;right:16px;bottom:88px}
+  .hud .escuta{order:-1}.hud #voz-av,.hud #som{display:none}
   .h-dados{display:none}
   .h-mira i:nth-child(3),.h-mira i:nth-child(4){bottom:86px}
   .hud .som{padding:7px 8px;font-size:9.5px;letter-spacing:.1em}
@@ -399,6 +443,8 @@ input.campo{width:100%;background:#0E0D0A;border:1px solid #2B2B28;color:var(--t
   <div class="dir">
     <a class="esperando zero" id="esp-topo" href="#fila" data-filtro-ir="esperando"><span>Esperando você</span><b data-n="esperando">0</b></a>
     <span style="position:relative"><button class="som" id="ferr-btn" type="button" aria-expanded="false">FERRAMENTAS</button><div class="ferr-menu" id="ferr-menu" hidden><button type="button" data-ferr="/painel/recomeco" data-ferr-nome="Recomeço 90">Recomeço 90<small>missões, caixa e roteiros</small></button><button type="button" data-ferr="/painel/canais" data-ferr-nome="Canais dark">Canais dark<small>Passaporte e Raposa</small></button></div></span>
+    <button class="som escuta" id="escuta" type="button" data-estado="iniciando" title="Escuta do VEKTOR: toque para pausar ou ligar">… LIGANDO</button>
+    <button class="som" id="voz-av" type="button" aria-pressed="true" title="VEKTOR responde falando">VOZ VEKTOR ON</button>
     <button class="som" id="som" type="button" aria-pressed="false" title="Som quando algo fica pronto">SOM OFF</button>
   </div>
 </header>
@@ -420,15 +466,19 @@ input.campo{width:100%;background:#0E0D0A;border:1px solid #2B2B28;color:var(--t
     <div class="camada h-titulo" data-z="-5" data-sz=".14">
       <div class="sobre"><span class="rec-dot"></span> Central de Comando · Lindson Almeida</div>
       <h1><span class="l"><span>Uma voz.</span></span><span class="l"><span><span class="caixa">Quatro</span> contas.</span></span></h1>
-      <p>Fale o cliente e o que precisa. A equipe escolhe quem faz, entrega aqui e pergunta aqui.</p>
+      <p>O VEKTOR está ouvindo. Diga “Vektor”, o cliente e o que precisa; termine com “enviar”. A equipe escolhe quem faz e entrega aqui.</p>
     </div>
-    <div class="camada h-mic" data-z="16">
-      <div class="ptt" id="ptt">
-        <svg class="dial" viewBox="0 0 200 200" aria-hidden="true" id="dial"></svg>
-        <button type="button" id="mic" aria-label="Falar um pedido"><span><b>FALAR</b><small id="mic-rot">TOQUE</small></span></button>
+    <div class="camada h-nucleo" data-z="12">
+      <div class="nucleo" id="nucleo" data-estado="iniciando">
+        <svg class="aneis" viewBox="0 0 600 600" id="aneis" aria-hidden="true"></svg>
+        <canvas id="avatar" role="img" aria-label="VEKTOR, o gerente da equipe, em holograma de partículas"></canvas>
+        <div class="orbita" id="orbita" aria-hidden="true"></div>
+        <button class="nucleo-btn" id="mic" type="button" aria-label="Pausar ou ligar a escuta do VEKTOR"></button>
+        <div class="nucleo-rot"><b>VEKTOR</b><small>gerente da equipe</small><span id="mic-rot">… LIGANDO</span></div>
       </div>
     </div>
-    <div class="fala" id="fala"><span class="ondas" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="t" id="fala-t">“Reels da Jaci sobre clareamento, enviar”</span></div>
+    <div class="voz-aviso" id="voz-aviso" hidden role="alert"><b>Voz</b><p></p><button class="btn mini am" type="button" id="tentar">Tentar de novo</button></div>
+    <div class="fala" id="fala"><span class="ondas" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="t" id="fala-t">Diga: “Vektor, Reels da Jaci sobre clareamento, enviar”</span></div>
   </section>
 
   <div class="faixa" aria-hidden="true"><div class="trilha" id="faixa"></div></div>
@@ -642,14 +692,16 @@ async function envia() {
   if (!P.cli || !P.fn) { toast(!P.cli ? 'Toque no cliente primeiro.' : 'Toque no que você precisa.'); return; }
   if (FN[P.fn].acao) { executaAcao(P.fn); return; }
   if (!S.ped.ok) { toast('A fila ainda não carregou.'); return; }
-  if (jaExiste(P.cli, P.fn).length && !P.forcar) { pintaAviso(); $('#aviso').scrollIntoView({ behavior: 'smooth', block: 'center' }); toast('Já existe um pedido igual. Veja antes de mandar outro.'); return; }
+  const dupl = jaExiste(P.cli, P.fn).length && !P.forcar && !(P.dupEm && Date.now() - P.dupEm < 30000);
+  if (dupl) { P.dupEm = Date.now(); pintaAviso(); $('#aviso').scrollIntoView({ behavior: 'smooth', block: 'center' }); responde('Vektor aqui. Já existe um pedido igual na fila. Se for outro, diga enviar de novo.'); return; }
+  P.dupEm = 0;
   const texto = $('#detalhe').value.trim().slice(0, 500);
   const item = { id: novoId(), cli: P.cli, func: P.fn, texto, st: 'novo', conta: '', link: '', criado: agora(), atualizado: agora(), nota: '', ajustes: 0 };
   const b = $('#btn-enviar'); b.disabled = true;
   let escolhida = null;
   const ok = await muda('ped', d => { const r = distribuir(item, d.itens, EQ(), Date.now()); const x = Object.assign({}, item, { designada: r.designada, motivo: r.motivo, volta: r.volta || null, designadaEm: agora(), st: r.designada ? 'novo' : 'espera' }); escolhida = r; d.itens.unshift(x); });
   b.disabled = false;
-  if (ok) { toast(escolhida.designada ? `Enviado. A equipe escolheu ${escolhida.designada}.` : 'Enviado. Fica na espera até uma conta voltar.'); P.fn = null; P.forcar = false; $('#detalhe').value = ''; falaTxt('Pedido na fila.', false); pintaEscolhas(); pintaTudo(); }
+  if (ok) { responde(escolhida.designada ? `Vektor aqui. Pedido de ${nomeFn(item.func)} ${item.cli === 'marca' ? 'da sua marca' : 'de ' + nomeCli(item.cli)} enviado; ${escolhida.designada === 'Lindson' ? 'a conta Lindson' : 'o ' + escolhida.designada} pega.`.replace('o Zuleide', 'a Zuleide') : `Vektor aqui. Pedido de ${nomeFn(item.func)} enviado. Fica na espera até uma conta voltar.`); P.fn = null; P.forcar = false; $('#detalhe').value = ''; falaTxt('Pedido na fila.', false); pintaEscolhas(); pintaTudo(); }
 }
 function executaAcao(id) {
   if (id === 'status') { ir('#resultados'); return; }
@@ -658,42 +710,218 @@ function executaAcao(id) {
 }
 function ir(h) { const el = $(h); if (el) el.scrollIntoView({ behavior: calmo ? 'auto' : 'smooth', block: 'start' }); }
 
-// ---------- voz ----------
+// ---------- voz: escuta sempre ligada (v3) ----------
+// Pedido do Lindson (09/11): "não quero clicar, deixe ele ouvindo sempre que eu estiver na página".
+// Ao abrir: pede o microfone uma vez (getUserMedia), mede o volume (AnalyserNode) e liga o reconhecimento contínuo em pt-BR,
+// que reinicia sozinho no onend/onerror (com recuo curto), pausa com a aba escondida e volta quando ela aparece.
+// Segurança: só ENVIA quando a frase termina em "enviar", "manda" ou "pode mandar". Frase que começa com "Vektor" monta o pedido;
+// sem a palavra de ativação, só navegação ("fila", "status", "equipe") e "enviar" agem.
 const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
-let rec = null, ouvindo = false;
-function entende(frase, final) {
+const ESC = { quer: true, rec: null, estado: 'iniciando', recuo: 300, erro: null, falando: false, captura: null, stream: null, ctx: null, an: null, buf: null, nivel: 0, gesto: false };
+const ATIVA = /^\s*(vektor|vector|vetor|victor|vitor|vektora?)\b[\s,.:!-]*/;
+const FIM_ENVIA = /\b(enviar|envia|manda|mandar|pode mandar|pode enviar)\s*[.!]?\s*$/;
+function entende(frase, final, montar) {
   const s = ' ' + sem(frase).replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ') + ' ';
-  if (final && /\b(abrir|abre|ir para|vai para|mostrar)\b.*\bpainel\b/.test(s)) { const c = CLIS.find(c => c.voz.some(v => s.includes(' ' + v))); if (c && CLIS_APROV.includes(c.id)) { toast('Abrindo o painel de ' + c.nome + '…'); setTimeout(() => location.href = '/painel/' + c.id, 500); return 'nav'; } }
-  if (final && /\bfila\b/.test(s) && !/\b(reels|post|carrossel|site|stories)\b/.test(s)) { ir('#fila'); return 'nav'; }
-  if (final && /\bequipe\b/.test(s) && !/\b(reels|post|carrossel|site)\b/.test(s)) { ir('#equipe'); return 'nav'; }
-  if (final && /\b(status|resultado|resultados|analise|placar)\b/.test(s) && !/\b(reels|post|carrossel|stories|site|landing|contrato|proposta)\b/.test(s)) { ir('#resultados'); return 'nav'; }
-  const c = CLIS.find(c => c.voz.some(v => s.includes(' ' + v + ' '))); if (c) P.cli = c.id;
-  let melhor = null, tam = 0;
-  Object.values(FN).forEach(f => f.voz.forEach(v => { if ((s.includes(' ' + v + ' ') || s.includes(' ' + v + 's ')) && v.length > tam) { melhor = f; tam = v.length; } }));
-  if (melhor) P.fn = melhor.id;
-  return /\b(enviar|envia|manda|mandar)\s*$/.test(s.trim()) ? 'enviar' : 'ok';
+  if (final && /\b(abrir|abre|ir para|vai para|mostrar)\b.*\bpainel\b/.test(s)) { const c = CLIS.find(c => c.voz.some(v => s.includes(' ' + v))); if (c && CLIS_APROV.includes(c.id)) { responde('Abrindo o painel de ' + c.nome + '.'); setTimeout(() => location.href = '/painel/' + c.id, 900); return 'nav'; } }
+  const conteudo = /\b(reels|post|carrossel|site|stories|landing|contrato|proposta|legenda|estrategia)\b/.test(s);
+  if (final && /\bfila\b/.test(s) && !conteudo) { ir('#fila'); responde(falaFila()); return 'nav'; }
+  if (final && /\bequipe\b/.test(s) && !conteudo) { ir('#equipe'); responde(falaEquipe()); return 'nav'; }
+  if (final && /\b(status|resultado|resultados|analise|placar)\b/.test(s) && !conteudo) { ir('#resultados'); responde(falaStatus()); return 'nav'; }
+  if (final && /\b(aprovacoes|aprovar)\b/.test(s) && !conteudo && !montar) { ir('#aprovacoes'); return 'nav'; }
+  let achou = false;
+  if (montar) {
+    const c = CLIS.find(c => c.voz.some(v => s.includes(' ' + v + ' '))); if (c) { P.cli = c.id; achou = true; }
+    let melhor = null, tam = 0;
+    Object.values(FN).forEach(f => f.voz.forEach(v => { if ((s.includes(' ' + v + ' ') || s.includes(' ' + v + 's ')) && v.length > tam) { melhor = f; tam = v.length; } }));
+    if (melhor) { P.fn = melhor.id; achou = true; }
+  }
+  return FIM_ENVIA.test(s.trim()) ? 'enviar' : achou ? 'ok' : 'nada';
 }
-const limpaFala = t => t.replace(/[,.\s]*(enviar|envia|manda|mandar)[.!]?\s*$/i, '').trim();
-function processa(frase) {
-  const r = entende(frase, true); if (r === 'nav') return;
-  const limpo = limpaFala(frase); $('#detalhe').value = limpo; falaTxt(limpo, true); pintaEscolhas();
-  if (P.fn && FN[P.fn].acao) { executaAcao(P.fn); return; }
-  if (r === 'enviar') envia(); else if (P.cli && P.fn && innerWidth > 860) ir('#deck');
+const tiraNome = t => { const m = t.match(/^\s*(\S+)[\s,.:!-]*/); return m && ATIVA.test(sem(m[1])) ? t.slice(m[0].length) : t; };
+const limpaFala = t => tiraNome(t).replace(/[,.\s]*(pode mandar|pode enviar|enviar|envia|manda|mandar)[.!]?\s*$/i, '').trim();
+function processa(frase, forcarMontar) {
+  const semAc = sem(frase), comNome = ATIVA.test(semAc), montar = comNome || !!forcarMontar;
+  const r = entende(comNome ? semAc.replace(ATIVA, '') : frase, true, montar);
+  if (r === 'nav') return;
+  if (montar && r !== 'nada') { const d = limpaFala(frase); $('#detalhe').value = d; falaTxt(d, true); pintaEscolhas(); }
+  else if (montar && r === 'nada' && comNome) { const d = limpaFala(frase); if (d) { $('#detalhe').value = d; falaTxt(d, true); } }
+  if (montar && P.fn && FN[P.fn].acao && r !== 'nada') { executaAcao(P.fn); return; }
+  if (r === 'enviar') { if (P.cli && P.fn) envia(); else responde('Diga primeiro Vektor, o cliente e o que precisa.'); return; }
+  if (montar && r === 'ok' && P.cli && P.fn) responde(`${nomeFn(P.fn)} de ${nomeCli(P.cli)}. Diga enviar para mandar.`, true);
 }
-function ouvir(destino) {
-  if (!SR) { toast('Este navegador não tem voz. Escreva no campo do comando.'); return; }
-  if (ouvindo && rec) { rec.stop(); return; }
-  rec = new SR(); rec.lang = 'pt-BR'; rec.interimResults = true; rec.continuous = false;
-  let final = '';
-  rec.onstart = () => { ouvindo = true; marcaMic(); if (!destino) falaTxt('Ouvindo… diga o cliente, o que precisa e o detalhe.', true); };
-  rec.onresult = e => { let parc = ''; for (let i = e.resultIndex; i < e.results.length; i++) { const t = e.results[i][0].transcript; if (e.results[i].isFinal) final += t + ' '; else parc += t; }
-    if (destino) destino((final + parc).trim(), false); else { falaTxt((final + parc).trim(), true); entende(final + parc, false); pintaEscolhas(); } };
-  rec.onerror = e => { ouvindo = false; marcaMic(); falaTxt(e.error === 'not-allowed' ? 'Microfone bloqueado: libere nas configurações do navegador, ou escreva.' : 'Não entendi. Toque e fale de novo.', false); };
-  rec.onend = () => { ouvindo = false; marcaMic(); if (final.trim()) { if (destino) destino(final.trim(), true); else processa(final.trim()); } };
-  try { rec.start(); } catch (e) { toast('Não consegui ligar o microfone.'); }
+// volume real do microfone
+function montaVolume(stream) {
+  try { const AC = window.AudioContext || window.webkitAudioContext; ESC.ctx = ESC.ctx || new AC(); const src = ESC.ctx.createMediaStreamSource(stream);
+    ESC.an = ESC.ctx.createAnalyser(); ESC.an.fftSize = 512; ESC.an.smoothingTimeConstant = .6; src.connect(ESC.an); ESC.buf = new Uint8Array(ESC.an.fftSize); } catch (e) {}
 }
-function marcaMic() { $('#ptt').classList.toggle('ouvindo', ouvindo); $('#mic-rot').textContent = ouvindo ? '● GRAVANDO' : SR ? 'TOQUE' : 'SEM VOZ'; $('#fala').classList.toggle('ativa', ouvindo); }
-function falaTxt(t, ativa) { $('#fala-t').textContent = t; $('#fala').classList.toggle('ativa', !!ativa); }
+function lerVolume() {
+  if (!ESC.an || !ESC.buf) return 0; ESC.an.getByteTimeDomainData(ESC.buf); let s = 0;
+  for (let i = 0; i < ESC.buf.length; i++) { const v = (ESC.buf[i] - 128) / 128; s += v * v; }
+  return Math.min(1, Math.sqrt(s / ESC.buf.length) * 5);
+}
+async function pedeMic() {
+  if (ESC.stream) return true;
+  if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) return true; // sem a API: o reconhecimento pede sozinho
+  try { ESC.stream = await navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: true, noiseSuppression: true } }); montaVolume(ESC.stream); return true; }
+  catch (e) { if (e && (e.name === 'NotAllowedError' || e.name === 'SecurityError')) { bloqueado(); return false; } if (e && e.name === 'NotFoundError') { avisoVoz('Nenhum microfone encontrado. Ligue um microfone ou fone com microfone e toque em Tentar de novo.'); return false; } return true; }
+}
+function bloqueado() { ESC.quer = false; ESC.estado = 'bloqueado'; pintaEscuta();
+  avisoVoz('Microfone bloqueado. Clique no cadeado ao lado do endereço → Microfone → Permitir. Depois toque em Tentar de novo. No celular: Configurações do Chrome → Configurações do site → Microfone → Permitir.'); }
+function avisoVoz(t) { const a = $('#voz-aviso'); if (!a) return; a.hidden = !t; if (t) a.querySelector('p').textContent = t; }
+function liga() {
+  if (!SR) { ESC.estado = 'sem-voz'; pintaEscuta(); avisoVoz('Seu navegador não tem reconhecimento de voz. Use o Chrome ou o Edge (no iPhone, o Safari atualizado). Enquanto isso, escreva o comando no campo do 01.'); return; }
+  if (ESC.rec || !ESC.quer || document.hidden || ESC.falando) return;
+  const r = new SR(); r.lang = 'pt-BR'; r.continuous = true; r.interimResults = true; r.maxAlternatives = 1; ESC.rec = r;
+  r.onstart = () => { ESC.estado = 'ouvindo'; avisoVoz(''); pintaEscuta(); };
+  r.onresult = e => { ESC.recuo = 300; let parc = '';
+    for (let i = e.resultIndex; i < e.results.length; i++) { const t = e.results[i][0].transcript; if (e.results[i].isFinal) frase(t.trim()); else parc += t; }
+    if (parc) falaTxt(parc.trim(), true); };
+  r.onerror = e => { ESC.erro = e.error;
+    if (e.error === 'not-allowed' || e.error === 'service-not-allowed') { if (!ESC.gesto) { ESC.estado = 'gesto'; pintaEscuta(); } else bloqueado(); }
+    else if (e.error === 'network') avisoVoz('A voz do navegador perdeu a conexão. Tentando de novo sozinho…');
+    else if (e.error === 'audio-capture') avisoVoz('O microfone está em uso por outro programa ou desligado.'); };
+  r.onend = () => { ESC.rec = null;
+    if (ESC.quer && !document.hidden && !ESC.falando && ESC.estado !== 'gesto' && ESC.estado !== 'bloqueado') { const d = ESC.erro === 'network' ? 2500 : ESC.recuo; ESC.recuo = Math.min(ESC.recuo * 1.5, 4000); ESC.erro = null; setTimeout(liga, d); }
+    else if (ESC.estado === 'ouvindo') { ESC.estado = 'pausado'; pintaEscuta(); } };
+  try { r.start(); } catch (e) { ESC.rec = null; ESC.estado = 'gesto'; pintaEscuta(); }
+}
+function desliga() { const r = ESC.rec; ESC.rec = null; if (r) { r.onend = null; try { r.abort(); } catch (e) {} } }
+function frase(t) {
+  if (!t) return;
+  if (ESC.captura) { const f = ESC.captura; ESC.captura = null; f(t); return; }
+  falaTxt(t, false); processa(t);
+}
+// escuta para um campo (ajuste, resposta): a próxima frase vai para o campo
+const capturar = () => new Promise(res => { ESC.captura = res; toast('Fale agora…'); if (!ESC.rec) { ESC.quer = true; liga(); } });
+async function iniciaEscuta() { if (!SR) { liga(); return; } const ok = await pedeMic(); if (ok) { ESC.quer = true; liga(); } }
+function pintaEscuta() {
+  const b = $('#escuta'), r = $('#mic-rot'), n = $('#nucleo');
+  const T = { ouvindo: '● OUVINDO', pausado: 'II PAUSADO', bloqueado: '✕ MIC BLOQUEADO', 'sem-voz': '✕ SEM VOZ', gesto: '● TOQUE PARA LIGAR', iniciando: '… LIGANDO' };
+  const txt = T[ESC.estado] || ESC.estado.toUpperCase();
+  if (b) { b.textContent = txt; b.dataset.estado = ESC.estado; }
+  if (r) r.textContent = txt;
+  if (n) n.dataset.estado = ESC.estado;
+  $('#fala').classList.toggle('ativa', ESC.estado === 'ouvindo');
+}
+function falaTxt(t, vivo) { $('#fala-t').textContent = t; $('#fala').classList.toggle('vivo', !!vivo); }
+document.addEventListener('visibilitychange', () => { if (document.hidden) { desliga(); if (ESC.estado === 'ouvindo') { ESC.estado = 'pausado'; pintaEscuta(); } } else if (ESC.quer) liga(); });
+// navegador que exige gesto: o primeiro toque em qualquer lugar liga a escuta e destrava o áudio
+addEventListener('pointerdown', () => { if (ESC.gesto) return; ESC.gesto = true; if (ESC.ctx && ESC.ctx.state === 'suspended') ESC.ctx.resume();
+  if (ESC.estado === 'gesto' || ESC.estado === 'iniciando') { ESC.quer = true; iniciaEscuta(); } saudaDepoisDoGesto(); }, { capture: true });
+
+// ---------- VEKTOR responde falando (speechSynthesis pt-BR) ----------
+let VOZ_ON = true; try { VOZ_ON = localStorage.getItem('cmd-voz') !== '0'; } catch (e) {}
+let VOZ = null;
+function melhorVoz() {
+  if (!window.speechSynthesis) return null; const vs = speechSynthesis.getVoices().filter(v => /^pt(-|_)?(BR)?/i.test(v.lang));
+  const nota = v => (/pt[-_]BR/i.test(v.lang) ? 10 : 0) + (/natural|neural|online/i.test(v.name) ? 6 : 0) + (/google/i.test(v.name) ? 4 : 0) + (/antonio|francisca|thalita|luciana|daniel|felipe/i.test(v.name) ? 3 : 0);
+  return vs.sort((a, b) => nota(b) - nota(a))[0] || null;
+}
+if (window.speechSynthesis) { VOZ = melhorVoz(); speechSynthesis.onvoiceschanged = () => { VOZ = melhorVoz(); }; }
+function responde(txt, curto) {
+  if (curto !== true) toast(txt);
+  if (!VOZ_ON || !window.speechSynthesis || !ESC.gesto) return;
+  try { const u = new SpeechSynthesisUtterance(txt); u.lang = 'pt-BR'; if (VOZ) u.voice = VOZ; u.rate = 1.04; u.pitch = .85;
+    u.onstart = () => { ESC.falando = true; AV.falando = 1; desliga(); };
+    const fim = () => { ESC.falando = false; AV.falando = 0; setTimeout(liga, 280); };
+    u.onend = fim; u.onerror = fim; u.onboundary = () => { AV.silaba = 1; };
+    speechSynthesis.cancel(); speechSynthesis.speak(u); } catch (e) {}
+}
+function pintaVozAv() { const b = $('#voz-av'); if (b) { b.setAttribute('aria-pressed', String(VOZ_ON)); b.textContent = VOZ_ON ? 'VOZ VEKTOR ON' : 'VOZ VEKTOR OFF'; } }
+const falaFila = () => { const n = esperandoVoce().length, ab = itens().filter(x => ABERTOS.includes(x.st)).length; return `Vektor aqui. ${ab} pedido${ab === 1 ? '' : 's'} na fila, ${n} esperando você.`; };
+const falaEquipe = () => { const l = CONTAS.filter(c => estadoReal(EQ().contas[c], Date.now()).disponivel); return l.length ? `Vektor aqui. Disponíveis agora: ${l.join(', ')}.` : 'Vektor aqui. Nenhuma conta disponível agora. Os pedidos ficam na espera.'; };
+const falaStatus = () => { const p = (E.placar || []).filter(x => x.pagante).map(x => `${x.nome} ${x.pct} por cento`).join(', '); return `Vektor aqui. ${falaFila().replace('Vektor aqui. ', '')}${p ? ' Pagantes: ' + p + '.' : ''}`; };
+let saudou = false;
+function saudaDepoisDoGesto() { if (saudou || !S.ped.ok) return; saudou = true; const n = esperandoVoce().length; setTimeout(() => responde(n ? `Vektor aqui. Você tem ${n} ${n === 1 ? 'pedido esperando' : 'pedidos esperando'} você.` : 'Vektor aqui. Estou ouvindo. Diga Vektor, o cliente e o que precisa.', true), 300); }
+
+// ---------- VEKTOR: holograma de partículas (canvas 2D, sem biblioteca) ----------
+// Busto abstrato de ~2.900 pontos em amarelo e âmbar, girando devagar; pulsa com o volume real do microfone e mexe a "boca" quando responde.
+// Linhas de varredura, glitch em faixas, flutuação. Sem foto de ninguém e sem cartum. Quem pede menos movimento vê um quadro parado.
+const AV = { falando: 0, silaba: 0, nivel: 0, alvoX: 0, alvoY: 0 };
+function avatar() {
+  const cv = $('#avatar'); if (!cv) return; const g = cv.getContext('2d');
+  const P3 = [], R = Math.random;
+  const add = (x, y, z, t) => P3.push([x, y, z, t, R()]);
+  for (let i = 0; i < 1900; i++) { // cabeça: elipsoide com queixo afinando e nariz
+    const u = R() * 2 - 1, th = R() * Math.PI * 2, r = Math.sqrt(1 - u * u);
+    let x = r * Math.cos(th) * .72, y = u * 1.04, z = r * Math.sin(th) * .84;
+    if (y < -.15) { const k = 1 + (y + .15) * .42; x *= k; z *= Math.max(.62, k); }
+    if (z > .55 && Math.abs(x) < .1 && y > -.3 && y < .18) z += .14 * (1 - Math.abs(x) / .1) * (1 - Math.abs(y + .06) / .24);
+    if (z > .3 && Math.abs(Math.abs(x) - .27) < .13 && Math.abs(y - .14) < .07) continue; // órbitas dos olhos vazias
+    add(x, y + .1, z, 0);
+  }
+  for (const sx of [-1, 1]) for (let i = 0; i < 70; i++) { const a = i / 70 * Math.PI * 2; add(sx * .27 + Math.cos(a) * .1, .24 + Math.sin(a) * .045, .7, 1); } // olhos (anéis)
+  for (const sx of [-1, 1]) for (let i = 0; i < 18; i++) add(sx * .27 + (R() - .5) * .05, .24 + (R() - .5) * .03, .74, 1);
+  for (let i = 0; i < 90; i++) { const x = (i / 89 - .5) * .44; add(x, -.42, .62 - Math.abs(x) * .5, 2); } // boca
+  for (let i = 0; i < 300; i++) { const a = R() * Math.PI * 2, y = -.92 - R() * .36, k = .34 + (-.92 - y) * .25; add(Math.cos(a) * k, y, Math.sin(a) * k * .9, 0); } // pescoço
+  for (let i = 0; i < 1100; i++) { const x = (R() * 2 - 1) * 1.7, a = R() * Math.PI, ombro = -1.3 - .1 * x * x; add(x, ombro - Math.sin(a) * .5 * R(), Math.cos(a) * .5 - .05, 3); } // ombros e peito
+  for (let i = 0; i < 160; i++) { const a = R() * Math.PI * 2, rr = 1.25 + R() * .5; add(Math.cos(a) * rr, (R() - .5) * 2.6, Math.sin(a) * rr, 4); } // poeira
+  let W = 0, H = 0, dpr = 1, t0 = performance.now(), vis = true, glitch = 0, gy = 0, gh = 0, gx = 0, yaw = 0, pitch = 0;
+  const tam = () => { const r = cv.getBoundingClientRect(); dpr = Math.min(2, devicePixelRatio || 1); W = Math.max(10, r.width); H = Math.max(10, r.height); cv.width = W * dpr; cv.height = H * dpr; };
+  tam(); addEventListener('resize', tam);
+  new IntersectionObserver(es => vis = es[0].isIntersecting).observe(cv);
+  addEventListener('pointermove', e => { AV.alvoX = e.clientX / innerWidth - .5; AV.alvoY = e.clientY / innerHeight - .5; }, { passive: true });
+  function quadro(agora) {
+    const t = (agora - t0) / 1000;
+    const vol = Math.max(lerVolume(), 0); AV.nivel += ((ESC.estado === 'ouvindo' ? vol : 0) - AV.nivel) * .25;
+    if (AV.silaba) AV.silaba *= .86;
+    const fala = AV.falando ? (.35 + .65 * Math.abs(Math.sin(t * 11))) * (.5 + AV.silaba) : 0;
+    yaw += ((Math.sin(t * .35) * .42 + AV.alvoX * .7) - yaw) * .05; pitch += ((Math.sin(t * .23) * .06 + AV.alvoY * .25) - pitch) * .05;
+    const cy = Math.cos(yaw), sy = Math.sin(yaw), cp = Math.cos(pitch), sp = Math.sin(pitch);
+    const esca = Math.min(W, H) * .29 * (1 + AV.nivel * .07), cx = W / 2, cyy = H * .46 + Math.sin(t * .9) * H * .012;
+    if (!calmo && glitch <= 0 && R() < .012 + AV.nivel * .03) { glitch = 6 + R() * 8 | 0; gy = R() * H; gh = 8 + R() * 40; gx = (R() - .5) * 26; }
+    g.setTransform(dpr, 0, 0, dpr, 0, 0); g.clearRect(0, 0, W, H);
+    const halo = g.createRadialGradient(cx, cyy, 0, cx, cyy, Math.min(W, H) * .46); halo.addColorStop(0, `rgba(255,170,30,${.16 + AV.nivel * .2 + fala * .1})`); halo.addColorStop(1, 'rgba(255,160,20,0)');
+    g.fillStyle = halo; g.fillRect(0, 0, W, H);
+    g.globalCompositeOperation = 'lighter';
+    const varre = ((t * .35) % 1.4 - .2) * 2.6 - 1.5; // faixa de varredura que desce pelo busto
+    for (let i = 0; i < P3.length; i++) {
+      const p = P3[i]; let x = p[0], y = p[1], z = p[2];
+      if (p[3] === 2) y += (Math.cos(x * 7) * .5 + .5) * -fala * .06 * (i % 2 ? 1 : -1);
+      if (p[3] === 4) { const a = t * .12 + p[4] * 6; x = Math.cos(a) * (1.25 + p[4] * .5); z = Math.sin(a) * (1.25 + p[4] * .5); }
+      if (AV.nivel > .05 && p[3] !== 4) { const j = AV.nivel * .03; x += (R() - .5) * j; y += (R() - .5) * j; }
+      const x1 = x * cy + z * sy, z1 = -x * sy + z * cy, y1 = y * cp - z1 * sp, z2 = y * sp + z1 * cp;
+      const f = 3.2 / (3.2 - z2); let px = cx + x1 * f * esca, py = cyy - y1 * f * esca;
+      if (glitch > 0 && py > gy && py < gy + gh) px += gx;
+      const frente = (z2 + 1.2) / 2.4, perto = Math.abs(y - varre) < .07 ? 1 : 0;
+      let a = .14 + frente * .55 + perto * .5, s = 1.1 + frente * 1.1;
+      if (p[3] === 1) { a = .95; s = 1.9; g.fillStyle = `rgba(255,236,150,${a})`; }
+      else if (p[3] === 2) { a = .7 + fala * .3; s = 1.7; g.fillStyle = `rgba(255,214,90,${a})`; }
+      else if (p[3] === 4) { a = .25 + p[4] * .3; s = 1.2; g.fillStyle = `rgba(245,197,24,${a})`; }
+      else g.fillStyle = perto ? `rgba(255,228,140,${Math.min(1, a)})` : `rgba(255,${150 + (frente * 60 | 0)},30,${a})`;
+      g.fillRect(px, py, s, s);
+    }
+    g.globalCompositeOperation = 'source-over';
+    if (glitch > 0) glitch--;
+  }
+  const loop = agora => { if (vis && !document.hidden) quadro(agora); requestAnimationFrame(loop); };
+  if (calmo) quadro(performance.now()); else requestAnimationFrame(loop);
+  if (calmo) setInterval(() => quadro(performance.now()), 400); // estático, mas a "boca" ainda acompanha a fala
+}
+// anéis de HUD e dados em órbita em volta do núcleo
+function aneis() {
+  const s = $('#aneis'); if (!s) return; let h = '';
+  const tick = (r, n, lg, cor, w) => { let o = ''; for (let i = 0; i < n; i++) { const a = i / n * Math.PI * 2, l = i % lg ? 6 : 14; o += `<line x1="${300 + r * Math.sin(a)}" y1="${300 - r * Math.cos(a)}" x2="${300 + (r - l) * Math.sin(a)}" y2="${300 - (r - l) * Math.cos(a)}" stroke="${i % lg ? cor : '#F5C518'}" stroke-width="${i % lg ? w : 1.6}"/>`; } return o; };
+  h += `<g class="an a1">${tick(292, 144, 12, 'rgba(242,238,227,.28)', .8)}</g>`;
+  h += `<g class="an a2"><circle cx="300" cy="300" r="268" fill="none" stroke="rgba(245,197,24,.55)" stroke-width="1.4" stroke-dasharray="120 18 6 18 40 60"/></g>`;
+  h += `<g class="an a3"><circle cx="300" cy="300" r="246" fill="none" stroke="rgba(255,159,28,.35)" stroke-width="7" stroke-dasharray="2 9"/></g>`;
+  h += `<g class="an a4"><path d="M300 76 A224 224 0 0 1 524 300" fill="none" stroke="#F5C518" stroke-width="2.4"/><path d="M300 524 A224 224 0 0 1 76 300" fill="none" stroke="#F5C518" stroke-width="2.4"/><circle cx="300" cy="300" r="224" fill="none" stroke="rgba(242,238,227,.12)"/></g>`;
+  h += `<defs><path id="txt-anel" d="M300,300 m-206,0 a206,206 0 1,1 412,0 a206,206 0 1,1 -412,0"/></defs><g class="an a5"><text font-family="JetBrains Mono" font-size="11" letter-spacing="5" fill="rgba(245,197,24,.7)"><textPath href="#txt-anel">VEKTOR · GERENTE DA EQUIPE · CENTRAL DE COMANDO · LINDSON ALMEIDA · ESCUTA ATIVA · </textPath></text></g>`;
+  s.innerHTML = h;
+}
+function orbita() {
+  const o = $('#orbita'); if (!o) return;
+  const dados = () => { const ab = itens().filter(x => ABERTOS.includes(x.st)).length, n = esperandoVoce().length, liv = CONTAS.filter(c => estadoReal(EQ().contas[c], Date.now()).disponivel).length, pg = (E.placar || []).filter(p => p.pagante).sort((a, b) => a.pct - b.pct)[0];
+    return [['FILA', String(ab).padStart(2, '0')], ['P/ VOCÊ', String(n).padStart(2, '0')], ['CONTAS', liv + '/4'], [pg ? pg.nome.split(' ')[0].toUpperCase().slice(0, 9) : 'PLACAR', pg ? pg.pct + '%' : '—'], ['ENTREGAS 7D', Object.values(E.entregas_semana || {}).reduce((a, b) => a + b, 0)]]; };
+  let D = dados(); o.innerHTML = D.map(d => `<div class="orb"><small>${d[0]}</small><b>${d[1]}</b></div>`).join('');
+  setInterval(() => { D = dados(); [...o.children].forEach((el, i) => { el.querySelector('small').textContent = D[i][0]; el.querySelector('b').textContent = D[i][1]; }); }, 3000);
+  const els = [...o.children], t0 = performance.now();
+  const pos = agora => { const t = (agora - t0) / 1000, r = o.clientWidth * .5;
+    els.forEach((el, i) => { const a = t * (calmo ? 0 : .16) + i / els.length * Math.PI * 2, x = Math.cos(a) * r, z = Math.sin(a), y = r * .42 + z * r * .16;
+      el.style.transform = `translate(-50%,-50%) translate(${x}px,${y}px) scale(${.82 + (z + 1) * .12})`; el.style.opacity = String(z > 0 ? .55 + z * .45 : .12 + (z + 1) * .3); el.style.zIndex = z > 0 ? 4 : 1; });
+    if (!calmo) requestAnimationFrame(pos); };
+  requestAnimationFrame(pos);
+}
 
 // ---------- 02 · fila ----------
 let FILTRO = 'abertos';
@@ -811,7 +1039,7 @@ function pintaEquipe() {
 }
 
 // ---------- 05 · configurar contas ----------
-const promptConta = c => `Sou o Lindson. Configure esta conta (${c}) UMA VEZ para trabalhar só pela Central de Comando.
+const promptConta = c => `Sou o Lindson. Configure esta conta (${c}) UMA VEZ para trabalhar só pela Central de Comando (a página onde eu peço tudo; a voz dela é o VEKTOR, o gerente da equipe).
 1. No repositório Lindsonalmeida/lindson (branch claude/global-agent-installation-vdyowf), leia agencia/sistema-clientes/comando/PROTOCOLO-CONTAS.md.
 2. Se esta conta ainda não tem a credencial de rede de lindsonalmeida.pages.dev (cabeçalho Authorization: Bearer), peça com request_credential. Nunca escreva o token em arquivo ou na conversa.
 3. Crie uma tarefa agendada de hora em hora, com sessão nova a cada disparo e este repositório, chamada "Central · ${c}", com este prompt:
@@ -867,7 +1095,7 @@ function janela({ titulo, texto, campo, valor, botao, voz }) {
       <div style="display:flex;gap:8px;flex-wrap:wrap">${voz && SR ? '<button class="btn" type="button" data-v>● Falar</button>' : ''}<button class="btn" type="button" data-n style="margin-left:auto">Voltar</button><button class="btn am" type="button" data-s>${esc(botao || 'OK')}</button></div></div>`;
     document.body.appendChild(m); const inp = m.querySelector('textarea,input'); setTimeout(() => inp && inp.focus(), 50);
     const fim = v => { m.remove(); res(v); };
-    m.addEventListener('click', e => { if (e.target === m || e.target.closest('[data-n]')) fim(null); if (e.target.closest('[data-s]')) fim(campo === 'pre' ? true : inp.value.trim()); if (e.target.closest('[data-v]')) ouvir((t, fin) => { inp.value = t; }); });
+    m.addEventListener('click', e => { if (e.target === m || e.target.closest('[data-n]')) fim(null); if (e.target.closest('[data-s]')) fim(campo === 'pre' ? true : inp.value.trim()); if (e.target.closest('[data-v]')) capturar().then(t => { inp.value = (inp.value + ' ' + t).trim(); }); });
   });
 }
 const localISO = d => { const z = new Date(d.getTime() - d.getTimezoneOffset() * 6e4); return z.toISOString().slice(0, 16); };
@@ -876,7 +1104,9 @@ const localISO = d => { const z = new Date(d.getTime() - d.getTimezoneOffset() *
 document.addEventListener('click', async e => {
   if (!e.target.closest('#ferr-menu,#ferr-btn')) $('#ferr-menu').hidden = true;
   const t = e.target.closest('button,a'); if (!t) return;
-  if (t.id === 'mic') { ouvir(); return; }
+  if (t.id === 'mic' || t.id === 'escuta') { if (ESC.estado === 'ouvindo') { ESC.quer = false; desliga(); ESC.estado = 'pausado'; pintaEscuta(); responde('Escuta pausada.', true); } else { ESC.quer = true; ESC.gesto = true; iniciaEscuta(); } return; }
+  if (t.id === 'tentar') { ESC.quer = true; ESC.gesto = true; ESC.stream = null; avisoVoz(''); iniciaEscuta(); return; }
+  if (t.id === 'voz-av') { VOZ_ON = !VOZ_ON; try { localStorage.setItem('cmd-voz', VOZ_ON ? '1' : '0'); } catch (_) {} pintaVozAv(); if (VOZ_ON) responde('Vektor aqui. Voz ligada.', true); else if (window.speechSynthesis) speechSynthesis.cancel(); return; }
   if (t.id === 'ferr-btn') { const m = $('#ferr-menu'); m.hidden = !m.hidden; t.setAttribute('aria-expanded', String(!m.hidden)); return; }
   if (t.dataset.ferr) { $('#ferr-menu').hidden = true; abreFerr(t.dataset.ferr, t.dataset.ferrNome); return; }
   if (t.id === 'som') { SOM = !SOM; try { localStorage.setItem('cmd-som', SOM ? '1' : '0'); } catch (_) {} pintaSom(); if (SOM) bip(); return; }
@@ -895,10 +1125,10 @@ document.addEventListener('click', async e => {
   if (t.dataset.resp || t.dataset.respEsc || t.dataset.respVoz) {
     const id = t.dataset.resp || t.dataset.respEsc || t.dataset.respVoz;
     let txt = t.dataset.resp ? t.dataset.txt : null;
-    if (t.dataset.respVoz) { if (!SR) { toast('Sem voz neste navegador.'); return; } toast('Fale a resposta…'); txt = await new Promise(r => ouvir((tt, fin) => { if (fin) r(tt); })); }
+    if (t.dataset.respVoz) { if (!SR) { toast('Sem voz neste navegador.'); return; } txt = await capturar(); }
     if (t.dataset.respEsc) txt = await janela({ titulo: 'Responder', voz: true, botao: 'Responder' });
     if (!txt) return;
-    if (await muda('ped', d => { const x = d.itens.find(y => y.id === id); if (x) { x.conversa = (x.conversa || []).concat([{ de: 'Lindson', tipo: 'resposta', texto: String(txt).slice(0, 500), em: agora() }]).slice(-30); x.esperando = false; x.atualizado = agora(); } })) { toast('Resposta enviada. A conta lê na próxima rodada.'); pintaTudo(); } return; }
+    if (await muda('ped', d => { const x = d.itens.find(y => y.id === id); if (x) { x.conversa = (x.conversa || []).concat([{ de: 'Lindson', tipo: 'resposta', texto: String(txt).slice(0, 500), em: agora() }]).slice(-30); x.esperando = false; x.atualizado = agora(); } })) { const x = itens().find(y => y.id === id); responde(`Vektor aqui. Resposta enviada${x && x.conta ? ' para ' + (x.conta === 'Zuleide' ? 'a ' : 'o ') + x.conta : ''}.`); pintaTudo(); } return; }
   if (t.dataset.mid) { const x = itens().find(y => y.id === t.dataset.mid); if (x) abreVer(midiasDe(x), +t.dataset.i, nomeFn(x.func) + ' · ' + nomeCli(x.cli)); return; }
   if (t.dataset.peca) { const p = ((E.pecas || {})[t.dataset.peca] || []).find(y => y.titulo === t.dataset.tit); if (p) abreVer([p.img].concat(p.telas || []), 0, p.titulo); return; }
   if (t.dataset.video) { abreVer([t.dataset.video], 0, t.dataset.nome); return; }
@@ -914,7 +1144,7 @@ document.addEventListener('click', async e => {
   if (t.dataset.prompt) { const txt = promptConta(t.dataset.prompt); let ok = false; try { await navigator.clipboard.writeText(txt); ok = true; } catch (_) {}
     if (ok) toast('Prompt copiado. Cole uma vez na conta ' + t.dataset.prompt + '.'); else await janela({ titulo: 'Prompt da conta ' + t.dataset.prompt, texto: 'Selecione e copie:', campo: 'pre', valor: txt, botao: 'Fechar' }); return; }
 });
-document.addEventListener('submit', e => { if (e.target.id !== 'escrever') return; e.preventDefault(); const i = e.target.querySelector('input'), v = i.value.trim(); if (!v) return; i.value = ''; processa(v); });
+document.addEventListener('submit', e => { if (e.target.id !== 'escrever') return; e.preventDefault(); const i = e.target.querySelector('input'), v = i.value.trim(); if (!v) return; i.value = ''; falaTxt(v, false); processa(v, true); });
 // prévia de vídeo ao passar o mouse ou o dedo
 const toca = (el, on) => { const v = el.querySelector('video'); if (!v) return; if (on) { v.preload = 'auto'; v.play().catch(() => {}); } else { v.pause(); } };
 document.addEventListener('pointerover', e => { const el = e.target.closest('[data-hover]'); if (el && !el.contains(e.relatedTarget)) toca(el, true); });
@@ -936,9 +1166,6 @@ function cena() {
   const v = $('#hero-video'), cel = matchMedia('(max-width:760px)').matches, b = '/painel/comando/media/hero-' + (cel ? 'm' : 'd');
   v.poster = b + '.jpg';
   if (!calmo) { v.innerHTML = `<source src="${b}.webm" type="video/webm"><source src="${b}.mp4" type="video/mp4">`; v.load(); v.play && v.play().catch(() => {}); }
-  // dial com marcas (escala do botão físico)
-  let s = ''; for (let i = 0; i < 72; i++) { const a = i * 5 * Math.PI / 180, r1 = i % 6 ? 92 : 86, r2 = 98; s += `<line x1="${100 + r1 * Math.sin(a)}" y1="${100 - r1 * Math.cos(a)}" x2="${100 + r2 * Math.sin(a)}" y2="${100 - r2 * Math.cos(a)}" stroke="${i % 6 ? 'rgba(242,238,227,.35)' : '#F5C518'}" stroke-width="${i % 6 ? 1 : 2}"/>`; }
-  $('#dial').innerHTML = s + '<circle cx="100" cy="100" r="80" fill="rgba(11,11,11,.55)" stroke="rgba(245,197,24,.4)" stroke-dasharray="2 4"/>';
   if (calmo) return;
   const camadas = $$('.hero .camada[data-z]'); let mx = 0, my = 0, alvoX = 0, alvoY = 0, sy = 0;
   addEventListener('pointermove', e => { if (e.pointerType !== 'mouse') return; alvoX = e.clientX / innerWidth - .5; alvoY = e.clientY / innerHeight - .5; }, { passive: true });
@@ -952,6 +1179,8 @@ function cena() {
 function revelar() {
   const io = new IntersectionObserver(es => es.forEach(en => { if (!en.isIntersecting) return; en.target.classList.add('on'); io.unobserve(en.target); en.target.querySelectorAll('.tr i[data-w]').forEach(i => setTimeout(() => i.style.width = i.dataset.w + '%', 150)); }), { rootMargin: '0px 0px -8% 0px' });
   $$('[data-rv]').forEach(el => calmo ? el.classList.add('on') : io.observe(el));
+  const io3 = new IntersectionObserver(es => es.forEach(en => { if (en.isIntersecting) { en.target.classList.add('entra'); io3.unobserve(en.target); } }), { rootMargin: '0px 0px -20% 0px' });
+  $$('.sec').forEach(el => io3.observe(el));
   // seção atual no trilho e no dock
   const io2 = new IntersectionObserver(es => es.forEach(en => { if (!en.isIntersecting) return; const id = en.target.id === 'deck' ? 'comando' : en.target.id; $$('[data-sec]').forEach(a => a.dataset.sec === id ? a.setAttribute('aria-current', 'true') : a.removeAttribute('aria-current')); }), { rootMargin: '-45% 0px -50% 0px' });
   ['comando', 'deck', 'fila', 'resultados', 'equipe', 'contas'].forEach(id => io2.observe(document.getElementById(id)));
@@ -963,7 +1192,7 @@ $('#clis').innerHTML = CLIS.map(c => `<button type="button" class="cli${c.pg ? '
 $('#teclas').innerHTML = GRUPOS.map(g => `<div class="grupo-rot"><span class="rot">${g[0]}</span></div>` + g[2].map(f => `<button type="button" class="tec${LARGAS.includes(f[0]) ? ' larga' : ''}" data-fn="${f[0]}" aria-pressed="false" style="--c:${g[1]}"><span class="face"><i></i><b>${LARGAS.includes(f[0]) ? f[1] : f[2]}</b></span><span class="nome">${LARGAS.includes(f[0]) ? f[2] + ' · mais pedido' : f[1]}</span></button>`).join('')).join('');
 
 // ---------- início ----------
-cena(); revelar(); relogio(); setInterval(relogio, 1000); pintaSom(); pintaTudo(); marcaMic();
+cena(); revelar(); relogio(); setInterval(relogio, 1000); pintaSom(); pintaVozAv(); pintaTudo(); pintaEscuta(); aneis(); avatar(); orbita(); iniciaEscuta();
 let antes = -1;
 async function ciclo(primeira) {
   await Promise.all(Object.keys(S).map(carrega));
@@ -973,7 +1202,7 @@ async function ciclo(primeira) {
 }
 ciclo(true);
 setInterval(() => { if (!document.hidden) ciclo(false); }, 40000);
-window.__comando = { P, FN, CLIS, entende, processa, jaExiste, S, distribuir, ciclo };
+window.__comando = { P, FN, CLIS, entende, processa, jaExiste, S, distribuir, ciclo, AV, ESC };
 })();
 </script>
 <!--MOVIMENTO-->
