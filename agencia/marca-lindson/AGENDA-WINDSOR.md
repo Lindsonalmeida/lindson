@@ -13,6 +13,7 @@
 | 3 | 09/11 | 08:30 | Post 4:5 | create_image_post | `agenda/p1p.jpg` | preto · aspas (papo reto) | Avaliação gratuita do perfil (JSON, item 3) | **postado 09/11 12h34** (atrasado; media 18118179995095203, https://www.instagram.com/p/DfhqjQKjdO1/) |
 | 4 | 09/11 | 12:00 | Post 4:5 | create_image_post | `agenda/s2_p2.jpg` | amarelo · palavra gigante no amarelo | Já impulsionou e jogou dinheiro fora? (JSON, item 5) | **postado 09/11 12h44** (atrasado; media 18092100392702250, https://www.instagram.com/p/DfhrnYUDXpS/) |
 | 5 | 09/11 | 16:45 | Carrossel 5 telas | create_carousel_post | `agenda/s2_c3_1.jpg` a `s2_c3_5.jpg` | preto · palavra gigante atrás (PERFIL) | 5 coisas que todo perfil que vende tem (JSON, item 4) | **postado 09/11 16h47** (media 18116611031334364, https://www.instagram.com/p/DfiHc1KDa9g/) |
+| 5b | 09/11 | 20:45 | Reels 30 s | create_video_post | `site/agenda/reel-01.mp4` (capa `reel-01-capa.jpg`) | amarelo · POV | POV: o cliente entrou no seu perfil e saiu em 3 segundos (JSON, L30-01) | **postado 09/11 20h54** (media 17953645887347488, https://www.instagram.com/reel/DfijtmZA3jM/) |
 | 6 | 09/11 | 21:00 | Carrossel 5 telas | create_carousel_post | `agenda/c1_1.jpg` a `c1_5.jpg` | preto · número grande | Arrume sua bio em 3 passos (JSON, item 6) | agendado |
 | 7 | 10/11 | 07:00 | Post 4:5 | create_image_post | `agenda/a2.jpg` | preto · manchete + lista numerada | Do perfil ao WhatsApp (JSON, item 7) | agendado · fixar no perfil |
 | 8 a 17 | 10/11 a 14/11 | 08:30 e 18:00 | Reels 30 s | a conferir | `conteudo/reels/leva-30s/roteiros.json` (L30-01 a L30-10) | capas alternando amarelo / preto | legenda de cada roteiro | aguardando aprovação (v1 com voz provisória em 01-04, 06 e 08; os outros sem vídeo) |
@@ -44,5 +45,5 @@
 - **Item 8 (bio da Dra. Jaci, antes e depois):** fora da agenda até a Jaci autorizar o uso da bio dela no perfil do Lindson.
 
 ## Reorganização de 09/11 (regra: 8h–21h, 4 h de intervalo)
-- **Postados em 09/11:** "Eu mudei a minha marca" às 12h32, "Avaliação gratuita" às 12h34 e "Já impulsionou…" às 12h44.
+- **Postados em 09/11:** "Eu mudei a minha marca" às 12h32, "Avaliação gratuita" às 12h34 e "Já impulsionou…" às 12h44, "5 coisas…" às 16h47 e o Reels 01 "POV: o cliente entrou no seu perfil…" às 20h54.
 - **Agendados:** "5 coisas…" em 09/11 às 16h45 · "Arrume sua bio" em 09/11 às 20h45 · "Do perfil ao WhatsApp" em 10/11 às 8h.

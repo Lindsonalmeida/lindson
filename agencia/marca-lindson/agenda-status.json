@@ -2,7 +2,7 @@
  "conta": "@lindsonalmeida_",
  "instagram_id_windsor": "17841443356770777",
  "fuso": "America/Fortaleza",
- "atualizado": "2026-11-09T16:48:00-03:00",
+ "atualizado": "2026-11-09T20:56:00-03:00",
  "regra": "Feed harmônico e xadrez: cor alterna (preto/amarelo); vídeo e estático intercalados; de 4 em 4 h, entre 8h e 21h (08h45, 12h45, 16h45, 20h45). Pedido do Lindson, 09/11.",
  "como_atualizar": "Ao publicar pelo Windsor, a tarefa automática muda o item para status \"postado\" e preenche media_id, link (permalink) e postado_em; depois monta e publica o admin (agencia/sistema-clientes/site/montar-site.py). Status possíveis: postado, agendado, aguardando aprovação, bloqueado.",
  "posts": [
@@ -174,12 +174,12 @@
    "data": "2026-11-09",
    "hora": "20:45",
    "quando": "2026-11-09T20:45:00-03:00",
-   "windsor_acao": "create_reel_post (conferir no Windsor)",
-   "status": "agendado",
-   "media_id": null,
-   "link": null,
-   "postado_em": null,
-   "obs": "v1 renderizado com voz provisória: falta a voz clonada e a aprovação do Lindson"
+   "windsor_acao": "create_video_post",
+   "status": "postado",
+   "media_id": "17953645887347488",
+   "link": "https://www.instagram.com/reel/DfijtmZA3jM/",
+   "postado_em": "2026-11-09T20:54:38-03:00",
+   "obs": "aprovado pelo Lindson em 09/11 e publicado pelo Windsor"
   },
   {
    "id": "c1",
