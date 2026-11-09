@@ -1,5 +1,6 @@
 """Estilo "Pintura Viva": gravuras de Doré com profundidade 3D, luz de vela e narração.
-python3 pintura.py <arquivo.json> <id> [STEP=24 prévia] -> ../videos/<id>.mp4"""
+python3 pintura.py <arquivo.json> <id> [STEP=24 prévia] -> ../videos/<id>.mp4
+BLOCO=1800 (opcional): renderiza em blocos de quadros e apaga os quadros já codificados, para disco pequeno; RETOMAR continua do bloco pronto (conta Zuleide, 09/11)."""
 import json, sys, os, io, base64, subprocess, asyncio, time
 import numpy as np, soundfile as sf, edge_tts, cv2, onnxruntime as ort
 from scipy.signal import butter, lfilter
@@ -67,9 +68,27 @@ js = f"""const {{chromium}}=require('playwright');const fs=require('fs');
 (async()=>{{const b=await chromium.launch({{args:['--use-gl=angle','--use-angle=swiftshader','--enable-unsafe-swiftshader']}});const p=await b.newPage({{viewport:{{width:{W_},height:{H_}}}}});
 p.on('pageerror',e=>console.log('ERR',e.message));p.on('console',m=>console.log(m.text()));await p.goto('file://{st}');await p.waitForFunction(()=>window.ready,null,{{timeout:120000}});await p.waitForTimeout(500);
 if(!process.env.RETOMAR)fs.rmSync('{W}/fr',{{recursive:true,force:true}});fs.mkdirSync('{W}/fr',{{recursive:true}});
-const n=Math.floor({TT}*{FPS});for(let f=0;f<n;f+={STEP}){{const q='{W}/fr/'+String(f).padStart(6,'0')+'.jpg';if(process.env.RETOMAR&&fs.existsSync(q)&&fs.statSync(q).size>20000)continue;await p.evaluate(t=>render(t),f/{FPS});await p.screenshot({{path:'{W}/fr/'+String(f).padStart(6,'0')+'.jpg',type:'jpeg',quality:90}})}}
+const n=Math.floor({TT}*{FPS});const F0=+(process.env.F0||0),F1=Math.min(n,+(process.env.F1||n));for(let f=F0;f<F1;f+={STEP}){{const q='{W}/fr/'+String(f).padStart(6,'0')+'.jpg';if(process.env.RETOMAR&&fs.existsSync(q)&&fs.statSync(q).size>20000)continue;await p.evaluate(t=>render(t),f/{FPS});await p.screenshot({{path:'{W}/fr/'+String(f).padStart(6,'0')+'.jpg',type:'jpeg',quality:90}})}}
 await b.close()}})();"""
-open(W + '/r.js', 'w').write(js); subprocess.run(['node', W + '/r.js'], check=True)
+open(W + '/r.js', 'w').write(js)
+# BLOCO=<quadros>: renderiza em blocos, codifica cada bloco e apaga os quadros (disco pequeno). Retoma pelo bloco pronto.
+BLOCO = int(os.environ.get('BLOCO', '0')) if STEP == 1 else 0
+if BLOCO:
+    NQ = int(TT * FPS); os.makedirs(W + '/blk', exist_ok=True); os.makedirs(W + '/fr', exist_ok=True); partes = []
+    for k, f0 in enumerate(range(0, NQ, BLOCO)):
+        f1 = min(NQ, f0 + BLOCO); pm = f'{W}/blk/{k:03d}.mp4'; partes.append(pm)
+        if os.path.exists(pm) and os.path.getsize(pm) > 0: continue
+        subprocess.run(['node', W + '/r.js'], check=True, env=dict(os.environ, F0=str(f0), F1=str(f1), RETOMAR='1'))
+        subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-framerate', str(FPS), '-start_number', str(f0), '-i', W + '/fr/%06d.jpg', '-frames:v', str(f1 - f0),
+                        '-c:v', 'libx264', '-pix_fmt', 'yuv420p', '-crf', os.environ.get('CRF', '21'), '-preset', 'medium', pm + '.tmp.mp4'], check=True)
+        os.replace(pm + '.tmp.mp4', pm)
+        for q in range(f0, f1):
+            try: os.remove(f'{W}/fr/{q:06d}.jpg')
+            except FileNotFoundError: pass
+        print('bloco', k, f1, '/', NQ, time.strftime('%H:%M:%S'), flush=True)
+    open(W + '/blk/lista.txt', 'w').write(''.join(f"file '{p}'\n" for p in partes))
+else:
+    subprocess.run(['node', W + '/r.js'], check=True)
 if STEP != 1: print('previa', W + '/fr', TT); sys.exit()
 
 # trilha: cordas graves e coro sintético + batidas nas trocas de cena
@@ -94,6 +113,10 @@ for c in spec['cenas']:
 for at, a in vozes: i = int(at * S); mix[i:i + len(a)] += a / np.max(np.abs(a)) * .95
 mix = mix[:N]; mix = mix / np.max(np.abs(mix)) * .95; sf.write(W + '/a.wav', mix, S)
 os.makedirs(SK['saida'], exist_ok=True); out = f"{SK['saida']}/{vid}.mp4"
-subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-framerate', str(FPS), '-i', W + '/fr/%06d.jpg', '-i', W + '/a.wav', '-c:v', 'libx264', '-pix_fmt', 'yuv420p',
-                '-crf', '20', '-preset', 'medium', '-c:a', 'aac', '-b:a', '160k', '-shortest', '-movflags', '+faststart', out], check=True)
+if BLOCO:
+    subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'concat', '-safe', '0', '-i', W + '/blk/lista.txt', '-i', W + '/a.wav', '-map', '0:v', '-map', '1:a', '-c:v', 'copy',
+                    '-c:a', 'aac', '-b:a', '160k', '-shortest', '-movflags', '+faststart', out], check=True)
+else:
+    subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-framerate', str(FPS), '-i', W + '/fr/%06d.jpg', '-i', W + '/a.wav', '-c:v', 'libx264', '-pix_fmt', 'yuv420p',
+                    '-crf', '20', '-preset', 'medium', '-c:a', 'aac', '-b:a', '160k', '-shortest', '-movflags', '+faststart', out], check=True)
 print('ok', out, TT)

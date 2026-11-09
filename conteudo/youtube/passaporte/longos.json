@@ -169,5 +169,62 @@
   },
   "gravA": "073",
   "gravB": "075"
+ },
+ {
+  "id": "longo-10",
+  "titulo": "Os milagres de Jesus que ninguém te explicou",
+  "formato": "longo",
+  "legenda": "Os milagres de Jesus não eram um show de poder. Neste vídeo você entende o que os Evangelhos chamam de sinais e o que cada milagre queria mostrar: a água virando vinho em Caná, o leproso que Jesus tocou, a mulher que tocou no manto, a tempestade acalmada, a multiplicação dos pães, o cego curado em duas etapas, a filha de Jairo e Lázaro.\n\nNo final, você descobre por que Jesus mandava as pessoas ficarem caladas depois de um milagre e aprende 3 perguntas simples para ler qualquer milagre da Bíblia sozinho.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📖 Observação: os versículos aparecem em paráfrase curta, com a referência. Confira na sua tradução.\n\n🎫 Quer ler os Evangelhos com um caminho certo, sem travar? Baixe grátis a Rota da Primeira Viagem no link da descrição, ou comente ROTA.\n\n#MilagresDeJesus #EvangelhoDeMarcos #EvangelhoDeJoão #EstudoBíblico #PassaporteDaBíblia",
+  "comentario": "📌 Qual desses milagres mais falou com você hoje? E uma pergunta sincera: você está mais pra mulher que tocou no manto escondida ou pro cego que via só pela metade?",
+  "capaA": {
+   "texto": "Não era show",
+   "cor": "#FFB547",
+   "estilo": "clara"
+  },
+  "capaB": {
+   "texto": "Fica calado",
+   "cor": "#3FD0D4",
+   "estilo": "clara"
+  },
+  "gravA": "064",
+  "gravB": "080"
+ },
+ {
+  "id": "longo-11",
+  "titulo": "Êxodo explicado: por que Israel quis voltar?",
+  "formato": "longo",
+  "legenda": "O livro de Êxodo conta a maior libertação da Bíblia. E mesmo assim, poucas semanas depois de atravessar o mar, o povo quis voltar para o Egito. Neste vídeo você entende Êxodo do começo ao fim: a escravidão, Moisés no cesto, a sarça que não queimava, as dez pragas, a noite da Páscoa, o mar aberto, o maná, os Dez Mandamentos, o bezerro de ouro e a tenda de Deus no meio do povo.\n\nNo final, você descobre o que aconteceu com os ossos de José e por que Êxodo é tão importante para entender Jesus.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📖 Observação: os versículos aparecem em paráfrase curta, com a referência. Confira na sua tradução.\n\n🎫 Quer ler a Bíblia com um caminho certo, sem travar no deserto? Baixe grátis a Rota da Primeira Viagem no link da descrição, ou comente ROTA.\n\n#Êxodo #Moisés #DezMandamentos #EstudoBíblico #PassaporteDaBíblia",
+  "comentario": "📌 Qual é o seu Egito? Aquela coisa que já te prendeu e que, às vezes, dá saudade de voltar? Se quiser, conta aqui. E qual parte de Êxodo mais te marcou?",
+  "capaA": {
+   "texto": "Quis voltar",
+   "cor": "#FFB547",
+   "estilo": "clara"
+  },
+  "capaB": {
+   "texto": "O mar abriu",
+   "cor": "#3FD0D4",
+   "estilo": "clara"
+  },
+  "gravA": "053",
+  "gravB": "004"
+ },
+ {
+  "id": "longo-12",
+  "titulo": "Apóstolo Paulo: o perseguidor que mudou tudo",
+  "formato": "longo",
+  "legenda": "Quem foi o apóstolo Paulo de verdade? Ele perseguia cristãos, prendia famílias inteiras e aprovou a morte de Estêvão. Depois escreveu 13 cartas do Novo Testamento. Neste vídeo você conhece a vida de Paulo em ordem: Saulo de Tarso, a luz no caminho de Damasco, os anos escondidos, as viagens, a prisão em Filipos, as cartas, o espinho na carne, o naufrágio e a chegada a Roma.\n\nNo final, você entende por que ele tinha dois nomes, o que faz um homem voltar para a cidade que tentou matá-lo e por onde começar a ler as cartas de Paulo.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📖 Observação: os versículos aparecem em paráfrase curta, com a referência. Confira na sua tradução.\n\n🎫 Quer ler o Novo Testamento com um caminho certo? Baixe grátis a Rota da Primeira Viagem no link da descrição, ou comente ROTA.\n\n#ApóstoloPaulo #AtosDosApóstolos #CartasDePaulo #EstudoBíblico #PassaporteDaBíblia",
+  "comentario": "📌 Qual frase de Paulo mais te sustenta hoje? \"A minha graça te basta\", \"posso todas as coisas\" ou outra? Escreve aqui, e lê a do irmão que comentou antes de você.",
+  "capaA": {
+   "texto": "Ele perseguia",
+   "cor": "#FFB547",
+   "estilo": "clara"
+  },
+  "capaB": {
+   "texto": "Caiu no caminho",
+   "cor": "#3FD0D4",
+   "estilo": "clara"
+  },
+  "gravA": "095",
+  "gravB": "099"
  }
 ]

@@ -439,5 +439,86 @@
    "txt": "QUANDO ESTIVER <b>MAL</b>",
    "zoom": 0.85
   }
+ },
+ "longo-10": {
+  "A": {
+   "estilo": "close",
+   "grav": "064",
+   "zoom": 0.45,
+   "txt": "NÃO ERA <b>SHOW</b>",
+   "lado": "esq",
+   "tag": "MILAGRES DE JESUS"
+  },
+  "B": {
+   "estilo": "close",
+   "grav": "080",
+   "zoom": 0.45,
+   "txt": "FICA <b>CALADO</b>",
+   "lado": "dir",
+   "tag": "MILAGRES DE JESUS"
+  },
+  "C": {
+   "estilo": "duelo",
+   "grav": "064",
+   "zoom": 0.5,
+   "grav2": "080",
+   "zoom2": 0.5,
+   "txt": "<b>MAR</b>",
+   "txt2": "<i>TÚMULO</i>"
+  }
+ },
+ "longo-11": {
+  "A": {
+   "estilo": "close",
+   "grav": "053",
+   "zoom": 0.45,
+   "txt": "POR QUE <b>VOLTAR?</b>",
+   "lado": "dir",
+   "tag": "ÊXODO"
+  },
+  "B": {
+   "estilo": "close",
+   "grav": "004",
+   "zoom": 0.45,
+   "txt": "O MAR <b>ABRIU</b>",
+   "lado": "esq",
+   "tag": "ÊXODO"
+  },
+  "C": {
+   "estilo": "duelo",
+   "grav": "018",
+   "zoom": 0.5,
+   "grav2": "004",
+   "zoom2": 0.5,
+   "txt": "<b>EGITO</b>",
+   "txt2": "<i>DESERTO</i>"
+  }
+ },
+ "longo-12": {
+  "A": {
+   "estilo": "close",
+   "grav": "095",
+   "zoom": 0.45,
+   "txt": "ELE <b>PERSEGUIA</b>",
+   "lado": "dir",
+   "tag": "APÓSTOLO PAULO"
+  },
+  "B": {
+   "estilo": "close",
+   "grav": "099",
+   "zoom": 0.45,
+   "txt": "CAIU NO <b>CAMINHO</b>",
+   "lado": "esq",
+   "tag": "APÓSTOLO PAULO"
+  },
+  "C": {
+   "estilo": "duelo",
+   "grav": "094",
+   "zoom": 0.5,
+   "grav2": "095",
+   "zoom2": 0.5,
+   "txt": "<b>PERSEGUIDOR</b>",
+   "txt2": "<i>APÓSTOLO</i>"
+  }
  }
 }

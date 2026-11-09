@@ -6536,5 +6536,1651 @@
     "selo": "PASSA<br>PORTE"
    }
   ]
+ },
+ {
+  "id": "longo-10",
+  "formato": "longo",
+  "titulo": "Os milagres de Jesus que ninguém te explicou",
+  "legenda": "Os milagres de Jesus não eram um show de poder. Neste vídeo você entende o que os Evangelhos chamam de sinais e o que cada milagre queria mostrar: a água virando vinho em Caná, o leproso que Jesus tocou, a mulher que tocou no manto, a tempestade acalmada, a multiplicação dos pães, o cego curado em duas etapas, a filha de Jairo e Lázaro.\n\nNo final, você descobre por que Jesus mandava as pessoas ficarem caladas depois de um milagre e aprende 3 perguntas simples para ler qualquer milagre da Bíblia sozinho.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📖 Observação: os versículos aparecem em paráfrase curta, com a referência. Confira na sua tradução.\n\n🎫 Quer ler os Evangelhos com um caminho certo, sem travar? Baixe grátis a Rota da Primeira Viagem no link da descrição, ou comente ROTA.\n\n#MilagresDeJesus #EvangelhoDeMarcos #EvangelhoDeJoão #EstudoBíblico #PassaporteDaBíblia",
+  "comentario": "📌 Qual desses milagres mais falou com você hoje? E uma pergunta sincera: você está mais pra mulher que tocou no manto escondida ou pro cego que via só pela metade?",
+  "titulo_tela": {
+   "sup": "PASSAPORTE DA BÍBLIA",
+   "txt": "Milagres que ninguém<br>te explicou",
+   "dur": 3.2
+  },
+  "cenas": [
+   {
+    "gravura": "064",
+    "mov": "in",
+    "txt": "Noite no mar da Galileia! O barco está enchendo de água, os pescadores estão gritando. E Jesus? Dormindo na popa, com a cabeça num travesseiro. Como alguém dorme assim?"
+   },
+   {
+    "gravura": "068",
+    "mov": "dir",
+    "txt": "Os discípulos acordam Jesus quase com raiva: Mestre, não te importa que a gente morra? Guarda essa pergunta. Ela é a chave de todo milagre que você vai ver hoje."
+   },
+   {
+    "gravura": "062",
+    "mov": "out",
+    "txt": "Porque os milagres de Jesus não eram show de mágica pra plateia bater palma. Eram outra coisa. E quase ninguém explica o quê. Hoje a gente explica, parada por parada."
+   },
+   {
+    "gravura": "070",
+    "mov": "cima",
+    "txt": "E tem três mistérios no caminho. Primeiro: depois de curar, Jesus muitas vezes mandava a pessoa ficar calada. Não contar pra ninguém! Que estratégia estranha é essa?"
+   },
+   {
+    "gravura": "065",
+    "mov": "esq",
+    "txt": "Segundo: teve um cego que Jesus curou em duas etapas. Na primeira, o homem via gente parecendo árvore andando. Jesus errou a mão? Ou tinha um recado escondido ali?"
+   },
+   {
+    "gravura": "072",
+    "mov": "in",
+    "txt": "E terceiro: o Evangelho de João quase não usa a palavra milagre. Ele usa outra palavra, bem mais forte. Até o fim da viagem, as três perguntas vão estar respondidas."
+   },
+   {
+    "gravura": "063",
+    "mov": "dir",
+    "txt": "Antes de tudo, uma coisa importante. Os Evangelhos contam mais de trinta milagres de Jesus, dependendo de como se conta. Curas, comida no deserto, mar obedecendo, mortos voltando.",
+    "cap": {
+     "sup": "PARADA 1",
+     "txt": "Milagre não era show"
+    }
+   },
+   {
+    "gravura": "066",
+    "mov": "out",
+    "txt": "Só que, quando pediam um milagre só pra ver, Jesus recusava. No deserto, o tentador sugeriu que ele se jogasse do alto do templo. Jesus disse não."
+   },
+   {
+    "gravura": "087",
+    "mov": "cima",
+    "txt": "E lá no fim, quando Jesus foi levado a Herodes, Lucas conta que Herodes ficou contente. Esperava ver algum sinal feito por ele. Jesus não fez nada. Nem respondeu."
+   },
+   {
+    "gravura": "066",
+    "mov": "esq",
+    "txt": "E em Nazaré, a cidade dele, Marcos conta que Jesus não pôde fazer ali nenhum milagre, a não ser curar alguns poucos doentes. E se admirou da falta de fé deles. Milagre não era pra forçar ninguém a crer."
+   },
+   {
+    "gravura": "053",
+    "mov": "in",
+    "txt": "Então milagre, pra Jesus, não era pra impressionar. Era pra apontar. Como uma placa na estrada: ninguém para pra admirar a placa. A gente olha pra onde ela aponta."
+   },
+   {
+    "gravura": "046",
+    "mov": "dir",
+    "txt": "Teve um dia em que até João Batista, preso, mandou perguntar: és tu aquele que havia de vir? E Jesus respondeu: contem a João o que vocês veem. Cegos veem, coxos andam, mortos ressuscitam."
+   },
+   {
+    "gravura": "047",
+    "mov": "out",
+    "txt": "Por que essa resposta? Porque o profeta Isaías tinha escrito que, quando Deus viesse, os olhos dos cegos se abririam e o coxo saltaria como um cervo. Os milagres eram essa promessa se cumprindo.",
+    "verso": "Os olhos dos cegos se abrirão.",
+    "ref": "ISAÍAS 35.5"
+   },
+   {
+    "gravura": "061",
+    "mov": "cima",
+    "txt": "E é aí que entra a palavra do João. Ele chama os milagres de sinais. Sinal é isso: uma coisa que mostra outra. A pergunta certa nunca é só como foi. É pra onde aponta?",
+    "verso": "Estes foram escritos para que vocês creiam.",
+    "ref": "JOÃO 20.31"
+   },
+   {
+    "gravura": "070",
+    "mov": "esq",
+    "txt": "Tá comigo até aqui? Guarda essa ideia simples, porque ela muda a leitura de tudo: milagre é placa. Agora vamos pra primeira placa que o João mostra.",
+    "interage": {
+     "tipo": "checkin",
+     "txt": "Milagre é placa. Anotou?"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "071",
+    "mov": "in",
+    "txt": "Uma festa de casamento em Caná, na Galileia. E acontece o pior pesadelo de quem dá uma festa naquela época: o vinho acaba. Vergonha pra família por muito tempo.",
+    "cap": {
+     "sup": "PARADA 2",
+     "txt": "Caná: o primeiro sinal"
+    }
+   },
+   {
+    "gravura": "078",
+    "mov": "dir",
+    "txt": "Maria, a mãe de Jesus, percebe e fala com ele. E depois diz aos serventes uma frase que vale pra vida inteira: façam tudo o que ele mandar.",
+    "verso": "Façam tudo o que ele mandar.",
+    "ref": "JOÃO 2.5"
+   },
+   {
+    "gravura": "082",
+    "mov": "out",
+    "txt": "Tinha ali seis talhas de pedra, daquelas usadas na purificação dos judeus. Jesus manda encher de água até a boca. E a água vira vinho. Do melhor."
+   },
+   {
+    "gravura": "069",
+    "mov": "cima",
+    "txt": "Repara no detalhe: as talhas eram da purificação, do ritual de lavar. Jesus pega o recipiente da regra e enche de alegria. O sinal aponta pra uma festa nova chegando."
+   },
+   {
+    "gravura": "063",
+    "mov": "esq",
+    "txt": "E o mestre-sala, sem saber de nada, chama o noivo e reclama: todo mundo serve o vinho bom primeiro. Você guardou o melhor até agora! João fecha dizendo: esse foi o primeiro dos sinais."
+   },
+   {
+    "gravura": "057",
+    "mov": "in",
+    "txt": "Pensa comigo: o primeiro sinal de Jesus não foi num templo, nem diante de rei. Foi pra salvar a alegria de uma família simples. Isso diz muito sobre quem ele é."
+   },
+   {
+    "gravura": "062",
+    "mov": "dir",
+    "txt": "Agora uma cena que choca quem lê com atenção. Um leproso se aproxima de Jesus. E, pela lei da época, o leproso vivia isolado, longe de todo mundo.",
+    "cap": {
+     "sup": "PARADA 3",
+     "txt": "Tocar quem ninguém tocava"
+    }
+   },
+   {
+    "gravura": "065",
+    "mov": "out",
+    "txt": "Ele se ajoelha e diz: se quiseres, podes me purificar. Repara: ele não duvida do poder. Ele duvida se Jesus quer. Quantas vezes a gente reza exatamente assim?"
+   },
+   {
+    "gravura": "070",
+    "mov": "cima",
+    "txt": "Marcos conta que Jesus ficou cheio de compaixão, estendeu a mão e tocou nele. Tocou! Podia curar só com uma palavra, de longe. Mas escolheu tocar.",
+    "verso": "Eu quero. Fique limpo.",
+    "ref": "MARCOS 1.41"
+   },
+   {
+    "gravura": "081",
+    "mov": "esq",
+    "txt": "Fazia quanto tempo que ninguém encostava naquele homem? A Bíblia não diz. Mas dá pra imaginar. Antes de curar a pele, Jesus curou a solidão."
+   },
+   {
+    "gravura": "072",
+    "mov": "in",
+    "txt": "E aqui aparece o primeiro mistério. Logo depois, Jesus diz pra ele: olha, não conta nada pra ninguém. Só vai ao sacerdote e cumpre o que a lei manda. Segura essa, ela volta."
+   },
+   {
+    "gravura": "079",
+    "mov": "dir",
+    "txt": "Outra cena parecida, mas ao contrário. Uma mulher sofria de hemorragia havia doze anos. Tinha gastado tudo o que tinha com médicos e só piorava."
+   },
+   {
+    "gravura": "071",
+    "mov": "out",
+    "txt": "Pela lei, ela também era considerada impura. Então não podia chegar perto, muito menos tocar. Mas ela pensa: se eu tocar ao menos na roupa dele, vou ficar curada."
+   },
+   {
+    "gravura": "070",
+    "mov": "cima",
+    "txt": "Ela vai no meio do empurra-empurra, toca no manto e sente na hora que está curada. E Jesus para tudo e pergunta: quem tocou na minha roupa?"
+   },
+   {
+    "gravura": "065",
+    "mov": "esq",
+    "txt": "Os discípulos quase riem: a multidão te apertando e tu pergunta quem tocou? Mas ele queria olhar nos olhos dela. A mulher vem tremendo e conta tudo."
+   },
+   {
+    "gravura": "062",
+    "mov": "in",
+    "txt": "E Jesus não dá bronca. Ele chama ela de filha. Doze anos sendo chamada de impura, e a primeira palavra que ela ouve dele é filha.",
+    "verso": "Filha, a sua fé a salvou. Vá em paz.",
+    "ref": "MARCOS 5.34"
+   },
+   {
+    "gravura": "053",
+    "mov": "dir",
+    "txt": "Agora pensa na sua vida. Já teve alguém que te tocou quando todo mundo se afastava? Uma visita, uma ligação, um abraço na hora certa? Conta aqui nos comentários.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Quem te tocou na hora certa?"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "064",
+    "mov": "out",
+    "txt": "De volta pro barco do começo. Era a travessia do mar da Galileia, à noite, e veio uma ventania tão forte que as ondas entravam no barco.",
+    "cap": {
+     "sup": "PARADA 4",
+     "txt": "O vento e o mar"
+    }
+   },
+   {
+    "gravura": "004",
+    "mov": "cima",
+    "txt": "E muitos ali eram pescadores. Gente que conhecia aquele mar desde criança. Se eles estavam em pânico, a coisa era séria de verdade."
+   },
+   {
+    "gravura": "068",
+    "mov": "esq",
+    "txt": "Jesus acorda, repreende o vento e fala com o mar: silêncio, aquiete-se. E vem uma grande calmaria. Aí ele pergunta: por que vocês estão com tanto medo?"
+   },
+   {
+    "gravura": "063",
+    "mov": "in",
+    "txt": "E a reação deles é a parte mais importante. Eles não comemoram. Eles ficam com mais medo ainda e perguntam: quem é este, que até o vento e o mar obedecem?",
+    "verso": "Quem é este, que até o vento e o mar lhe obedecem?",
+    "ref": "MARCOS 4.41"
+   },
+   {
+    "gravura": "044",
+    "mov": "dir",
+    "txt": "Por que essa pergunta? Porque eles conheciam os Salmos. E nos Salmos, quem acalma a tempestade e aquieta as ondas é o próprio Deus. A placa estava apontando bem alto."
+   },
+   {
+    "gravura": "064",
+    "mov": "out",
+    "txt": "Uma frase pra guardar: o mesmo Jesus que dormia cansado no barco é o que acalma o mar. Humano como a gente, cansado como a gente. E Senhor do mar ao mesmo tempo."
+   },
+   {
+    "gravura": "053",
+    "mov": "cima",
+    "txt": "Respira, que foi muita coisa. Até aqui: milagre é placa, Jesus toca quem ninguém toca, e o mar obedece a ele. Agora uma pausa rápida na viagem.",
+    "interage": {
+     "tipo": "checkin",
+     "txt": "Respira. Foi muita coisa"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "092",
+    "mov": "esq",
+    "txt": "Se você quer ler os Evangelhos inteiros com um caminho certo, sem travar, eu preparei a Rota da Primeira Viagem, grátis. Comenta ROTA ou pega no link da descrição.",
+    "cta": "Comenta <b>ROTA</b><br>e receba a rota grátis"
+   },
+   {
+    "gravura": "070",
+    "mov": "in",
+    "txt": "Próxima parada, e é o único milagre de Jesus, além da ressurreição, contado nos quatro Evangelhos. Uma multidão enorme, num lugar deserto, e já ficando tarde.",
+    "cap": {
+     "sup": "PARADA 5",
+     "txt": "Pão no deserto"
+    }
+   },
+   {
+    "gravura": "067",
+    "mov": "dir",
+    "txt": "Os discípulos dizem: manda o povo embora, pra comprar comida nas aldeias. E Jesus responde: deem vocês mesmos de comer a eles. Imagina a cara deles."
+   },
+   {
+    "gravura": "082",
+    "mov": "out",
+    "txt": "João conta que tinha ali um menino com cinco pães de cevada e dois peixinhos. Pão de cevada era pão de pobre. Mas é com o pouco do menino que Jesus começa."
+   },
+   {
+    "gravura": "063",
+    "mov": "cima",
+    "txt": "Jesus manda o povo sentar, agradece, parte os pães e entrega. Comeram uns cinco mil homens, fora mulheres e crianças. E ainda sobraram doze cestos cheios."
+   },
+   {
+    "gravura": "067",
+    "mov": "esq",
+    "txt": "Doze cestos. Doze, como as tribos de Israel, e como os apóstolos. Muitos leitores veem aí mais uma placa: tem pão sobrando pra todo o povo de Deus."
+   },
+   {
+    "gravura": "019",
+    "mov": "in",
+    "txt": "Agora a placa. Quem ouvia lembrava na hora de Moisés no deserto, quando Deus mandou o maná. O próprio João faz essa ligação no capítulo seis."
+   },
+   {
+    "gravura": "040",
+    "mov": "dir",
+    "txt": "E lembrava também do profeta Eliseu, que alimentou cem homens com vinte pães, e ainda sobrou. Jesus faz o mesmo tipo de sinal, só que com milhares."
+   },
+   {
+    "gravura": "069",
+    "mov": "out",
+    "txt": "E sabe o que o povo quis fazer depois? João conta: queriam pegar Jesus à força pra fazer dele rei. E ele se retirou sozinho pro monte. Ele recusou a coroa."
+   },
+   {
+    "gravura": "093",
+    "mov": "cima",
+    "txt": "No dia seguinte, Jesus explica o sinal. Vocês estão me procurando porque comeram pão até encher. Mas eu sou o pão da vida. O pão era a placa. Ele é o destino.",
+    "verso": "Eu sou o pão da vida.",
+    "ref": "JOÃO 6.35"
+   },
+   {
+    "gravura": "053",
+    "mov": "esq",
+    "txt": "Isso te pegou? Às vezes a gente só procura Deus pelo pão. E tudo bem começar assim. Mas ele quer dar mais do que a gente veio buscar. Salva esse vídeo pra lembrar disso.",
+    "interage": {
+     "tipo": "salva",
+     "txt": "Salva pra lembrar do pão"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "065",
+    "mov": "in",
+    "txt": "Agora o segundo mistério. Em Betsaida, trazem um cego até Jesus. Ele pega o homem pela mão e leva pra fora da aldeia. Longe da plateia, de novo.",
+    "cap": {
+     "sup": "PARADA 6",
+     "txt": "Olhos pela metade"
+    }
+   },
+   {
+    "gravura": "062",
+    "mov": "dir",
+    "txt": "Jesus põe saliva nos olhos dele, impõe as mãos e pergunta: você está vendo alguma coisa? E o homem responde: vejo pessoas, mas parecem árvores andando."
+   },
+   {
+    "gravura": "070",
+    "mov": "out",
+    "txt": "Então Jesus põe as mãos de novo nos olhos dele. E agora o homem vê tudo com clareza. Duas etapas. É o único milagre assim nos Evangelhos.",
+    "verso": "Vejo pessoas, parecem árvores andando.",
+    "ref": "MARCOS 8.24"
+   },
+   {
+    "gravura": "066",
+    "mov": "cima",
+    "txt": "Jesus errou na primeira? Repara no que Marcos coloca logo depois. Jesus pergunta aos discípulos: quem vocês dizem que eu sou? E Pedro acerta: tu és o Cristo."
+   },
+   {
+    "gravura": "085",
+    "mov": "esq",
+    "txt": "Mas logo em seguida, quando Jesus fala que vai sofrer e morrer, Pedro chama Jesus de lado e repreende ele. Pedro via, mas pela metade. Como o cego da primeira etapa."
+   },
+   {
+    "gravura": "061",
+    "mov": "in",
+    "txt": "Muitos estudiosos notam essa ligação. O cego curado em duas etapas é um retrato dos discípulos: já enxergam quem Jesus é, mas ainda não entendem a cruz. Mistério dois, resolvido."
+   },
+   {
+    "gravura": "078",
+    "mov": "dir",
+    "txt": "João conta outra cura de cego, e essa é de nascença. Os discípulos perguntam: quem pecou, ele ou os pais dele, pra ele nascer cego?"
+   },
+   {
+    "gravura": "070",
+    "mov": "out",
+    "txt": "E Jesus desmonta a pergunta: nem ele, nem os pais. Ele faz lama com saliva, passa nos olhos do homem e manda lavar no tanque de Siloé. O homem volta enxergando.",
+    "verso": "Nem ele pecou, nem os pais dele.",
+    "ref": "JOÃO 9.3"
+   },
+   {
+    "gravura": "066",
+    "mov": "cima",
+    "txt": "Os líderes interrogam o homem várias vezes, porque foi num sábado. E ele responde com uma das frases mais lindas da Bíblia: uma coisa eu sei. Eu era cego e agora vejo."
+   },
+   {
+    "gravura": "053",
+    "mov": "esq",
+    "txt": "E você? Em que parte da sua fé você ainda vê gente parecendo árvore? Não precisa ter vergonha disso. Jesus pôs as mãos duas vezes. Escreve aqui: segunda etapa.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Escreve: segunda etapa"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "072",
+    "mov": "in",
+    "txt": "Agora a parte mais forte da viagem. Jairo, chefe da sinagoga, se joga aos pés de Jesus. A filhinha dele, de doze anos, está morrendo.",
+    "cap": {
+     "sup": "PARADA 7",
+     "txt": "A morte não tem a última palavra"
+    }
+   },
+   {
+    "gravura": "065",
+    "mov": "dir",
+    "txt": "Doze anos. A mesma idade da doença da mulher do manto. Marcos encaixa as duas histórias uma dentro da outra. E enquanto Jesus para pela mulher, chega a notícia: a menina morreu."
+   },
+   {
+    "gravura": "046",
+    "mov": "out",
+    "txt": "Imagina o Jairo nessa hora. Mas Jesus olha pra ele e diz: não tenha medo, apenas creia. E segue até a casa, onde todos já choravam alto.",
+    "verso": "Não tenha medo, apenas creia.",
+    "ref": "MARCOS 5.36"
+   },
+   {
+    "gravura": "072",
+    "mov": "cima",
+    "txt": "Ele entra no quarto, pega a menina pela mão e diz em aramaico: Talitá cumi. Quer dizer: menina, eu te digo, levante-se. E ela levanta e começa a andar."
+   },
+   {
+    "gravura": "062",
+    "mov": "esq",
+    "txt": "E de novo, o pedido estranho: Jesus ordena com insistência que ninguém saiba disso. E manda darem comida pra menina. Que detalhe humano, né? Ele lembra que ela está com fome."
+   },
+   {
+    "gravura": "080",
+    "mov": "in",
+    "txt": "Agora Lázaro, o amigo de Jesus, em Betânia. As irmãs, Marta e Maria, mandam avisar que ele está doente. E Jesus, em vez de correr, fica mais dois dias onde estava."
+   },
+   {
+    "gravura": "044",
+    "mov": "dir",
+    "txt": "E João faz questão de avisar antes: Jesus amava Marta, a irmã dela e Lázaro. Então a demora não era falta de amor. Às vezes, a demora de Deus na nossa vida também não é."
+   },
+   {
+    "gravura": "081",
+    "mov": "out",
+    "txt": "Quando ele chega, Lázaro já está no túmulo havia quatro dias. Marta sai ao encontro dele e diz o que muita gente diz pra Deus: se tu estivesses aqui, isso não teria acontecido."
+   },
+   {
+    "gravura": "080",
+    "mov": "cima",
+    "txt": "E Jesus responde com uma das frases centrais do Evangelho: eu sou a ressurreição e a vida. Quem crê em mim, ainda que morra, viverá.",
+    "verso": "Eu sou a ressurreição e a vida.",
+    "ref": "JOÃO 11.25"
+   },
+   {
+    "gravura": "089",
+    "mov": "esq",
+    "txt": "E aí vem o versículo mais curto de muitas Bíblias. Diante do túmulo, Jesus chorou. Ele sabia que ia ressuscitar o amigo em minutos. E mesmo assim chorou com quem chorava.",
+    "verso": "Jesus chorou.",
+    "ref": "JOÃO 11.35"
+   },
+   {
+    "gravura": "091",
+    "mov": "in",
+    "txt": "Então ele manda tirar a pedra e grita: Lázaro, vem pra fora! E o morto sai, ainda enrolado nas faixas. João fecha a série de sinais com esse, o mais forte de todos."
+   },
+   {
+    "gravura": "088",
+    "mov": "dir",
+    "txt": "Mas olha o preço. Logo depois, os líderes decidem que Jesus precisa morrer. O sinal que deu vida a Lázaro empurrou Jesus pra cruz. A placa apontava pro túmulo vazio dele mesmo."
+   },
+   {
+    "gravura": "053",
+    "mov": "out",
+    "txt": "Se esse vídeo está te ajudando a ler os Evangelhos de um jeito novo, se inscreve no canal. Toda semana tem uma viagem nova pela Bíblia, sempre com esse cuidado.",
+    "interage": {
+     "tipo": "segue",
+     "txt": "Vem viajar com a gente"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "070",
+    "mov": "cima",
+    "txt": "Agora sim, o primeiro mistério. Por que Jesus mandava ficar calado? Existem leituras diferentes entre os estudiosos, mas o próprio texto dá pistas fortes.",
+    "cap": {
+     "sup": "PARADA 8",
+     "txt": "Por que ele pedia silêncio"
+    }
+   },
+   {
+    "gravura": "069",
+    "mov": "esq",
+    "txt": "Primeira pista: o povo esperava um rei que expulsasse os romanos. Você viu, depois dos pães, queriam coroar Jesus à força. Fama de milagreiro atraía a multidão errada."
+   },
+   {
+    "gravura": "062",
+    "mov": "in",
+    "txt": "E isso atrapalhava de verdade. Depois do leproso, Marcos conta que o homem espalhou a notícia, e Jesus já não conseguia entrar abertamente nas cidades."
+   },
+   {
+    "gravura": "093",
+    "mov": "dir",
+    "txt": "Segunda pista, a mais forte. Descendo do monte, Jesus diz aos discípulos: não contem a ninguém o que viram, até que o Filho do Homem ressuscite dos mortos.",
+    "verso": "Não contem a ninguém, até que ele ressuscite.",
+    "ref": "MARCOS 9.9"
+   },
+   {
+    "gravura": "091",
+    "mov": "out",
+    "txt": "Ou seja: sem a cruz e o túmulo vazio, os milagres seriam mal entendidos. Pareceriam show. Só depois da ressurreição a placa fazia sentido inteiro. Primeiro mistério fechado."
+   },
+   {
+    "gravura": "053",
+    "mov": "cima",
+    "txt": "E sobre o João, o terceiro mistério: ele chama de sinais, não de milagres, porque quer que você olhe através deles. Ele mesmo diz: escrevi pra que você creia e tenha vida."
+   },
+   {
+    "gravura": "063",
+    "mov": "esq",
+    "txt": "Então, como ler um milagre da Bíblia sozinho, sem se perder? Três perguntas simples. Anota aí, que você vai usar em todos os Evangelhos.",
+    "cap": {
+     "sup": "PARADA 9",
+     "txt": "Como ler um milagre hoje"
+    }
+   },
+   {
+    "gravura": "070",
+    "mov": "in",
+    "txt": "Primeira: o que esse sinal mostra sobre quem Jesus é? Senhor do mar, pão da vida, ressurreição. Cada milagre revela um pedaço do rosto dele."
+   },
+   {
+    "gravura": "062",
+    "mov": "dir",
+    "txt": "Segunda: quem estava de fora e foi trazido pra dentro? O leproso, a mulher impura, o cego que culpavam. Quase todo milagre devolve alguém pra comunidade."
+   },
+   {
+    "gravura": "065",
+    "mov": "out",
+    "txt": "Terceira: qual é a resposta que esse milagre pede de mim? Às vezes é fé, às vezes é seguir, às vezes é só agradecer. E isso você responde com a sua vida."
+   },
+   {
+    "gravura": "061",
+    "mov": "cima",
+    "txt": "Uma dica prática: quando encontrar um milagre, leia também o que vem antes e o que vem depois. Marcos e João costumam deixar a explicação bem do lado, como você viu no cego e no pão."
+   },
+   {
+    "gravura": "057",
+    "mov": "esq",
+    "txt": "E uma coisa honesta, pra fechar. Jesus não curou todo mundo da Galileia. E até hoje tem oração que a gente faz e a resposta não vem do jeito que a gente quer."
+   },
+   {
+    "gravura": "083",
+    "mov": "in",
+    "txt": "Os milagres não prometem que nunca vai ter tempestade. Eles mostram quem está no barco com você. Foi isso que os discípulos descobriram naquela noite."
+   },
+   {
+    "gravura": "064",
+    "mov": "dir",
+    "txt": "E lembra da pergunta do começo? Mestre, não te importa que a gente morra? A resposta são todos esses sinais juntos. Importa, sim. Ele tocou, parou, chorou e chamou de filha."
+   },
+   {
+    "gravura": "053",
+    "mov": "out",
+    "txt": "Conhece alguém que está no meio de uma tempestade agora? Manda esse vídeo pra essa pessoa. Às vezes ela só precisa ouvir que não está sozinha no barco.",
+    "interage": {
+     "tipo": "manda",
+     "txt": "Manda pra quem está na tempestade"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "092",
+    "mov": "cima",
+    "txt": "Pra começar hoje, lê o Evangelho de Marcos, capítulos quatro e cinco. Estão ali a tempestade, a mulher do manto e a filha de Jairo. Usa as três perguntas."
+   },
+   {
+    "gravura": "019",
+    "mov": "esq",
+    "txt": "No próximo vídeo, a gente volta muitos séculos, pro sinal que Jesus mais lembrou: a saída do Egito, com Moisés, o mar e o pão no deserto. Até a próxima parada, viajante da Palavra.",
+    "cta": "Até a próxima <b>parada</b>,<br>viajante",
+    "selo": "PASSA<br>PORTE"
+   }
+  ]
+ },
+ {
+  "id": "longo-11",
+  "formato": "longo",
+  "titulo": "Êxodo explicado: por que Israel quis voltar?",
+  "legenda": "O livro de Êxodo conta a maior libertação da Bíblia. E mesmo assim, poucas semanas depois de atravessar o mar, o povo quis voltar para o Egito. Neste vídeo você entende Êxodo do começo ao fim: a escravidão, Moisés no cesto, a sarça que não queimava, as dez pragas, a noite da Páscoa, o mar aberto, o maná, os Dez Mandamentos, o bezerro de ouro e a tenda de Deus no meio do povo.\n\nNo final, você descobre o que aconteceu com os ossos de José e por que Êxodo é tão importante para entender Jesus.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📖 Observação: os versículos aparecem em paráfrase curta, com a referência. Confira na sua tradução.\n\n🎫 Quer ler a Bíblia com um caminho certo, sem travar no deserto? Baixe grátis a Rota da Primeira Viagem no link da descrição, ou comente ROTA.\n\n#Êxodo #Moisés #DezMandamentos #EstudoBíblico #PassaporteDaBíblia",
+  "comentario": "📌 Qual é o seu Egito? Aquela coisa que já te prendeu e que, às vezes, dá saudade de voltar? Se quiser, conta aqui. E qual parte de Êxodo mais te marcou?",
+  "titulo_tela": {
+   "sup": "PASSAPORTE DA BÍBLIA",
+   "txt": "Por que Israel<br>quis voltar?",
+   "dur": 3.2
+  },
+  "cenas": [
+   {
+    "gravura": "004",
+    "mov": "esq",
+    "txt": "Eles viram o mar se abrir! Atravessaram a pé, em terra seca. Cantaram, dançaram. E poucas semanas depois, estavam pedindo pra voltar pra escravidão. Como assim?"
+   },
+   {
+    "gravura": "043",
+    "mov": "in",
+    "txt": "Eles diziam: no Egito, a gente sentava perto das panelas de carne e comia pão até encher. Era a saudade da prisão. E esse é o retrato mais honesto do coração humano que eu conheço."
+   },
+   {
+    "gravura": "053",
+    "mov": "cima",
+    "txt": "Hoje a gente atravessa o livro de Êxodo inteiro, do tijolo ao tabernáculo. E no caminho, eu vou responder a pergunta do título: por que um povo livre quis voltar?"
+   },
+   {
+    "gravura": "012",
+    "mov": "out",
+    "txt": "Tem mais duas coisas guardadas pra você. Lembra dos ossos de José, lá do fim de Gênesis? Ele pediu pra não ficar no Egito. Esses ossos vão pegar a estrada hoje."
+   },
+   {
+    "gravura": "046",
+    "mov": "dir",
+    "txt": "E tem um nome. Na sarça, Moisés pergunta o nome de Deus, e a resposta é tão estranha que até hoje as pessoas discutem. Esse nome reaparece séculos depois, na boca de Jesus."
+   },
+   {
+    "gravura": "018",
+    "mov": "esq",
+    "txt": "Êxodo começa com uma frase que dá arrepio. Levantou-se no Egito um novo rei, que não tinha conhecido José. Num versículo, tudo o que José fez foi esquecido.",
+    "cap": {
+     "sup": "PARADA 1",
+     "txt": "Um povo esquecido"
+    },
+    "verso": "Surgiu um novo rei, que não conhecia José.",
+    "ref": "ÊXODO 1.8"
+   },
+   {
+    "gravura": "009",
+    "mov": "in",
+    "txt": "Um dado pra situar a viagem: Êxodo tem quarenta capítulos. E começa onde Gênesis parou, com a família de Jacó, umas setenta pessoas, que tinha ido morar no Egito no tempo de José."
+   },
+   {
+    "gravura": "006",
+    "mov": "cima",
+    "txt": "Os israelitas tinham crescido muito. E o faraó fica com medo. Então transforma o povo em escravo, com trabalho pesado de barro e tijolo. Tijolo, de novo, como em Babel."
+   },
+   {
+    "gravura": "017",
+    "mov": "out",
+    "txt": "Como eles continuam crescendo, o faraó dá uma ordem terrível às parteiras hebreias: se nascer menino, matem. Se for menina, deixem viver."
+   },
+   {
+    "gravura": "024",
+    "mov": "dir",
+    "txt": "E aí aparecem as primeiras heroínas do livro. Duas parteiras, Sifrá e Puá. Elas temem a Deus e desobedecem o rei mais poderoso do mundo. A Bíblia guarda o nome delas. E o nome do faraó? Nem aparece."
+   },
+   {
+    "gravura": "053",
+    "mov": "esq",
+    "txt": "Repara nisso: o livro da maior libertação começa com duas mulheres simples dizendo não. Antes do mar abrir, alguém teve coragem pequena. Isso te diz alguma coisa?"
+   },
+   {
+    "gravura": "019",
+    "mov": "in",
+    "txt": "O faraó endurece: manda jogar os meninos no rio Nilo. Uma mãe hebreia esconde o filho por três meses. Depois, coloca o bebê num cesto vedado e deixa entre os juncos do rio.",
+    "cap": {
+     "sup": "PARADA 2",
+     "txt": "O menino no cesto"
+    }
+   },
+   {
+    "gravura": "024",
+    "mov": "cima",
+    "txt": "A irmã dele fica de longe, olhando. E quem desce pra se banhar ali? A filha do faraó. Ela vê o cesto, o bebê chora, e ela tem compaixão."
+   },
+   {
+    "gravura": "019",
+    "mov": "out",
+    "txt": "A irmã chega e pergunta: quer que eu chame uma mulher hebreia pra amamentar? E chama a própria mãe. A mãe recebe o filho de volta, e ainda é paga pra criar."
+   },
+   {
+    "gravura": "018",
+    "mov": "dir",
+    "txt": "O menino cresce no palácio e recebe o nome de Moisés, porque a princesa diz: eu o tirei das águas. Ele cresce entre os dois mundos, hebreu e egípcio."
+   },
+   {
+    "gravura": "038",
+    "mov": "esq",
+    "txt": "Adulto, Moisés vê um egípcio batendo num hebreu. Olha pra um lado, olha pro outro, e mata o egípcio. No dia seguinte, descobre que todo mundo sabe. E foge."
+   },
+   {
+    "gravura": "015",
+    "mov": "in",
+    "txt": "Ele foge pra Midiã. E a primeira cena lá é junto a um poço: uns pastores expulsam as filhas de um sacerdote. Moisés se levanta, defende as moças e ainda dá água pro rebanho delas."
+   },
+   {
+    "gravura": "005",
+    "mov": "cima",
+    "txt": "Ele casa com Zípora, uma delas, tem um filho e vira pastor de ovelhas. O príncipe do Egito vira pastor no deserto. Estêvão, em Atos, diz que foram quarenta anos ali. Parecia o fim da história."
+   },
+   {
+    "gravura": "053",
+    "mov": "out",
+    "txt": "Já se sentiu assim? Como se o seu erro tivesse acabado com tudo, e agora só restasse cuidar de ovelhas no deserto? Fica comigo, porque é ali que Deus aparece.",
+    "interage": {
+     "tipo": "checkin",
+     "txt": "Já se sentiu no deserto?"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "040",
+    "mov": "dir",
+    "txt": "Moisés leva o rebanho até o monte Horebe e vê uma coisa estranha: uma sarça pegando fogo, mas que não se consumia. Ele chega perto pra ver.",
+    "cap": {
+     "sup": "PARADA 3",
+     "txt": "A sarça e o nome"
+    }
+   },
+   {
+    "gravura": "046",
+    "mov": "esq",
+    "txt": "E Deus chama: Moisés, Moisés! Não chegue mais perto. Tire as sandálias, porque o lugar onde você está é terra santa."
+   },
+   {
+    "gravura": "044",
+    "mov": "in",
+    "txt": "Deus diz que viu a aflição do povo, ouviu o clamor e desceu pra libertar. Três verbos: vi, ouvi, desci. E manda Moisés ir até o faraó.",
+    "verso": "Eu vi a aflição do meu povo e desci para livrá-lo.",
+    "ref": "ÊXODO 3.7-8"
+   },
+   {
+    "gravura": "053",
+    "mov": "cima",
+    "txt": "E a primeira resposta de Moisés é: quem sou eu? E depois vêm as desculpas, uma atrás da outra. E se não acreditarem? E eu não sei falar bem. Manda outro, por favor!"
+   },
+   {
+    "gravura": "047",
+    "mov": "out",
+    "txt": "Deus fica irado, mas não desiste dele. Manda Arão, o irmão, pra falar junto. Deus não escolheu o mais preparado. Escolheu o que dizia não sei, e foi com ele."
+   },
+   {
+    "gravura": "046",
+    "mov": "dir",
+    "txt": "E aqui o segundo segredo do começo. Moisés pergunta: se o povo perguntar o seu nome, o que eu digo? E Deus responde: Eu Sou o que Sou. Diga: Eu Sou me enviou.",
+    "verso": "Eu Sou o que Sou.",
+    "ref": "ÊXODO 3.14"
+   },
+   {
+    "gravura": "063",
+    "mov": "esq",
+    "txt": "É um nome que não cabe numa caixa. Ele não depende de nada, simplesmente é. Guarda isso. Lá no fim, você vai ver Jesus usando essas palavras, e o povo pegando pedras."
+   },
+   {
+    "gravura": "018",
+    "mov": "in",
+    "txt": "Moisés e Arão vão ao faraó e dizem: assim diz o Senhor, deixa o meu povo ir. E o faraó responde: quem é o Senhor, pra eu obedecer? Eu não conheço.",
+    "cap": {
+     "sup": "PARADA 4",
+     "txt": "As dez pragas"
+    }
+   },
+   {
+    "gravura": "006",
+    "mov": "cima",
+    "txt": "E ele faz o contrário. Manda os escravos fazerem os mesmos tijolos, mas agora sem dar a palha. O povo fica com raiva de Moisés. Libertação, às vezes, começa piorando."
+   },
+   {
+    "gravura": "017",
+    "mov": "out",
+    "txt": "Então vêm as dez pragas. A água do Nilo vira sangue. Depois rãs, piolhos, moscas, a morte do gado, as úlceras, a chuva de pedras, os gafanhotos e a escuridão."
+   },
+   {
+    "gravura": "044",
+    "mov": "dir",
+    "txt": "Pausa pra uma frase só: foram dez avisos. Dez chances pro faraó ouvir. O Deus da Bíblia não é apressado nem pra julgar."
+   },
+   {
+    "gravura": "045",
+    "mov": "esq",
+    "txt": "Por que essas pragas? O próprio texto dá a pista: Deus diz que vai executar juízo sobre todos os deuses do Egito. O Nilo, o sol, os animais, tudo era adorado ali.",
+    "verso": "Executarei juízo sobre todos os deuses do Egito.",
+    "ref": "ÊXODO 12.12"
+   },
+   {
+    "gravura": "018",
+    "mov": "in",
+    "txt": "Cada praga é um recado: aquilo que vocês adoram não tem poder. Quem manda no rio, na luz e na vida é o Senhor. É a pergunta do faraó sendo respondida: quem é o Senhor?"
+   },
+   {
+    "gravura": "037",
+    "mov": "cima",
+    "txt": "E tem uma frase que incomoda muita gente: o coração do faraó se endureceu. Às vezes o texto diz que o próprio faraó endureceu o coração, às vezes que Deus endureceu. Existem leituras diferentes sobre isso."
+   },
+   {
+    "gravura": "053",
+    "mov": "out",
+    "txt": "Uma leitura comum é essa: o faraó escolhe dizer não, várias vezes, e Deus confirma a escolha que ele fez. Qual é a sua leitura? Conta aqui embaixo, com respeito à leitura do outro.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Como você lê o faraó?"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "092",
+    "mov": "dir",
+    "txt": "Pausa rápida na viagem. Êxodo é onde muita gente trava, principalmente da metade pro fim. Por isso eu preparei a Rota da Primeira Viagem, grátis. Comenta ROTA ou pega no link da descrição.",
+    "cta": "Comenta <b>ROTA</b><br>e receba a rota grátis"
+   },
+   {
+    "gravura": "082",
+    "mov": "esq",
+    "txt": "Chega a décima praga, a mais pesada: a morte dos primogênitos. E Deus dá a Israel uma instrução pra aquela noite. Cada família separa um cordeiro sem defeito.",
+    "cap": {
+     "sup": "PARADA 5",
+     "txt": "A noite da Páscoa"
+    }
+   },
+   {
+    "gravura": "030",
+    "mov": "in",
+    "txt": "Eles sacrificam o cordeiro e passam o sangue nos batentes da porta. Comem a carne assada, com pão sem fermento e ervas amargas. De pé, com a sandália no pé e o cajado na mão."
+   },
+   {
+    "gravura": "045",
+    "mov": "cima",
+    "txt": "E Deus diz: quando eu vir o sangue, passarei por cima de vocês. É daí que vem a palavra Páscoa: passagem. A morte passa por cima da casa marcada.",
+    "verso": "Vendo eu o sangue, passarei por cima de vocês.",
+    "ref": "ÊXODO 12.13"
+   },
+   {
+    "gravura": "088",
+    "mov": "out",
+    "txt": "E agora pensa no Novo Testamento. Jesus morre exatamente na festa da Páscoa. E Paulo escreve: Cristo, o nosso cordeiro pascal, foi sacrificado. A noite do Egito era uma placa apontando pra cruz.",
+    "verso": "Cristo, nossa Páscoa, foi sacrificado.",
+    "ref": "1 CORÍNTIOS 5.7"
+   },
+   {
+    "gravura": "086",
+    "mov": "dir",
+    "txt": "Por isso, até hoje, quando os cristãos celebram a Ceia, estão olhando pra essa noite também. Pão, cálice, livramento. Uma refeição pra nunca esquecer de onde Deus nos tirou."
+   },
+   {
+    "gravura": "016",
+    "mov": "esq",
+    "txt": "Naquela mesma noite, o faraó chama Moisés e manda: saiam! E o povo sai às pressas, tão rápido que a massa do pão nem teve tempo de crescer."
+   },
+   {
+    "gravura": "020",
+    "mov": "in",
+    "txt": "E não sai só Israel. O texto diz que uma grande mistura de gente subiu com eles. Gente de outros povos, que viu as pragas e resolveu ir junto. A porta da libertação já estava aberta."
+   },
+   {
+    "gravura": "012",
+    "mov": "cima",
+    "txt": "E aqui o primeiro segredo fecha. Êxodo diz que Moisés levou consigo os ossos de José. Lá em Gênesis, José tinha feito os filhos de Israel jurarem: Deus vai visitar vocês, e vocês vão levar meus ossos daqui.",
+    "verso": "Moisés levou consigo os ossos de José.",
+    "ref": "ÊXODO 13.19"
+   },
+   {
+    "gravura": "014",
+    "mov": "out",
+    "txt": "Pensa nisso. Centenas de anos guardando um caixão no Egito, como uma promessa de pé: a gente não fica aqui pra sempre. Os ossos de José eram esperança que não morreu."
+   },
+   {
+    "gravura": "020",
+    "mov": "dir",
+    "txt": "Deus guia o povo com uma coluna de nuvem durante o dia e uma coluna de fogo durante a noite. E não leva pelo caminho mais curto, pra que o povo não desanime com guerra logo no começo.",
+    "cap": {
+     "sup": "PARADA 6",
+     "txt": "O mar e o medo"
+    }
+   },
+   {
+    "gravura": "033",
+    "mov": "esq",
+    "txt": "Mas o faraó se arrepende e vai atrás deles com carros de guerra. O povo está encurralado: de um lado, o exército. Do outro, o mar."
+   },
+   {
+    "gravura": "004",
+    "mov": "in",
+    "txt": "E o povo grita com Moisés: não tinha sepultura no Egito, pra você trazer a gente pra morrer no deserto? Repara: é a primeira vez que eles querem voltar. E o mar ainda nem abriu."
+   },
+   {
+    "gravura": "047",
+    "mov": "cima",
+    "txt": "Moisés responde com uma frase que serve pra muita noite da vida: não tenham medo. Fiquem firmes e vejam o livramento. O Senhor lutará por vocês. Vocês só precisam ficar em silêncio.",
+    "verso": "O Senhor lutará por vocês; fiquem tranquilos.",
+    "ref": "ÊXODO 14.14"
+   },
+   {
+    "gravura": "004",
+    "mov": "out",
+    "txt": "Moisés estende a mão sobre o mar, e um vento forte sopra a noite toda. As águas se dividem, e o povo atravessa em terra seca. O exército que vem atrás é coberto pelas águas."
+   },
+   {
+    "gravura": "041",
+    "mov": "dir",
+    "txt": "E o cântico daquele dia tem uma frase que ecoa na Bíblia inteira: o Senhor é a minha força e o meu cântico, ele é a minha salvação. Os Salmos e Isaías repetem essas palavras."
+   },
+   {
+    "gravura": "023",
+    "mov": "esq",
+    "txt": "Do outro lado, Miriã, a irmã de Moisés, pega um tamborim e as mulheres saem dançando atrás dela. O texto não dá o nome da menina que olhava o cesto de longe, mas muitos leitores acham que era ela. Agora ela canta a liberdade.",
+    "verso": "Cantem ao Senhor, que triunfou gloriosamente.",
+    "ref": "ÊXODO 15.21"
+   },
+   {
+    "gravura": "022",
+    "mov": "in",
+    "txt": "Essa é uma das canções mais antigas da Bíblia. E é cantada por quem viu o impossível com os próprios olhos. Tá comigo? Agora vem a parte que ninguém gosta de contar.",
+    "interage": {
+     "tipo": "checkin",
+     "txt": "Tá comigo nessa travessia?"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "010",
+    "mov": "cima",
+    "txt": "Três dias depois, no deserto, a água que encontram é amarga. E o povo murmura. Depois falta pão. E eles dizem: quem dera a gente tivesse morrido no Egito!",
+    "cap": {
+     "sup": "PARADA 7",
+     "txt": "Maná e murmuração"
+    }
+   },
+   {
+    "gravura": "043",
+    "mov": "out",
+    "txt": "É aqui a frase das panelas de carne. Eles lembram da comida e esquecem do chicote. A memória faz isso com a gente: deixa a prisão bonita quando o caminho fica difícil."
+   },
+   {
+    "gravura": "053",
+    "mov": "dir",
+    "txt": "E Deus responde com paciência. De manhã, aparece no chão uma coisa fina, como geada. O povo pergunta: o que é isso? Em hebraico, man hu. Daí vem o nome: maná."
+   },
+   {
+    "gravura": "029",
+    "mov": "esq",
+    "txt": "Cada um recolhia o que precisava pro dia. Quem guardava pra amanhã, encontrava estragado, com bicho. Só antes do sábado podia recolher em dobro, e aí não estragava."
+   },
+   {
+    "gravura": "044",
+    "mov": "in",
+    "txt": "Por que assim? Porque Deus estava ensinando um povo de escravos a confiar todo dia. Ninguém aprende isso numa noite. Jesus ensinou o mesmo: o pão nosso de cada dia nos dá hoje."
+   },
+   {
+    "gravura": "038",
+    "mov": "cima",
+    "txt": "Logo depois vem a primeira batalha, contra Amaleque. Enquanto Moisés mantém as mãos erguidas, Israel vence. Quando ele cansa, Arão e Hur seguram os braços dele, um de cada lado, até o pôr do sol."
+   },
+   {
+    "gravura": "047",
+    "mov": "out",
+    "txt": "Repara: até Moisés precisou de gente segurando o braço dele. Quem são os seus Arão e Hur? Aquelas pessoas que te sustentam quando você cansa? Lembra delas hoje."
+   },
+   {
+    "gravura": "010",
+    "mov": "dir",
+    "txt": "E quando falta água de novo, Deus manda Moisés bater numa rocha, e a água sai. Séculos depois, Paulo vai dizer uma coisa surpreendente sobre essa rocha. Fica pra outra parada."
+   },
+   {
+    "gravura": "053",
+    "mov": "esq",
+    "txt": "Agora me fala com sinceridade: qual é o seu Egito? Aquilo que te prendia e que, num dia difícil, dá saudade de voltar? Não precisa contar o quê. Se quiser, escreve só: eu tenho um Egito.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Escreve: eu tenho um Egito"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "040",
+    "mov": "in",
+    "txt": "Três meses depois de sair do Egito, o povo chega ao monte Sinai. O monte fumega, treme, tem trovão, relâmpago e som de trombeta. O povo fica de longe, tremendo.",
+    "cap": {
+     "sup": "PARADA 8",
+     "txt": "O monte e o bezerro"
+    }
+   },
+   {
+    "gravura": "047",
+    "mov": "cima",
+    "txt": "E repara como começam os Dez Mandamentos. Antes de qualquer regra, Deus diz: eu sou o Senhor, o seu Deus, que tirou você do Egito, da casa da escravidão.",
+    "verso": "Eu sou o Senhor, que tirou você da escravidão.",
+    "ref": "ÊXODO 20.2"
+   },
+   {
+    "gravura": "037",
+    "mov": "out",
+    "txt": "Primeiro vem o livramento, depois vem a lei. Deus não diz obedeça e eu te salvo. Ele diz: eu já te salvei, agora aprenda a viver como gente livre. Isso muda tudo."
+   },
+   {
+    "gravura": "063",
+    "mov": "dir",
+    "txt": "Os mandamentos são o manual da liberdade. Não ter outros deuses, não fazer ídolos, guardar o descanso, honrar os pais, não matar, não roubar. Uma vida que não volta pro Egito por dentro."
+   },
+   {
+    "gravura": "061",
+    "mov": "esq",
+    "txt": "E Jesus resumiu tudo em dois: amar a Deus de todo o coração e amar o próximo como a si mesmo. Os dez mandamentos cabem inteiros nesses dois."
+   },
+   {
+    "gravura": "044",
+    "mov": "in",
+    "txt": "Moisés sobe o monte e fica lá quarenta dias e quarenta noites. E lá embaixo, o povo se cansa de esperar. Vai até Arão e pede: faz pra nós deuses que vão na nossa frente."
+   },
+   {
+    "gravura": "006",
+    "mov": "cima",
+    "txt": "Arão recolhe as joias de ouro e faz um bezerro. E o povo diz: estes são os teus deuses, ó Israel, que te tiraram do Egito. Poucos meses depois do mar aberto."
+   },
+   {
+    "gravura": "039",
+    "mov": "out",
+    "txt": "Pensa no tamanho disso. Eles saíram do Egito, mas o Egito não saiu deles. O bezerro era a cara dos deuses que eles tinham visto a vida toda. E aqui o grande segredo começa a fechar."
+   },
+   {
+    "gravura": "046",
+    "mov": "dir",
+    "txt": "Moisés desce, vê a festa e quebra as tábuas da lei. Depois, sobe de novo e intercede pelo povo. Ele pede: se não for pra tua presença ir com a gente, não nos tira daqui."
+   },
+   {
+    "gravura": "041",
+    "mov": "esq",
+    "txt": "E Deus responde revelando quem ele é: o Senhor, Deus compassivo e misericordioso, lento pra irar-se e cheio de amor e fidelidade. Depois do bezerro! Depois da traição.",
+    "verso": "Deus compassivo, lento para se irar e cheio de amor.",
+    "ref": "ÊXODO 34.6"
+   },
+   {
+    "gravura": "053",
+    "mov": "in",
+    "txt": "Essa frase de Êxodo trinta e quatro é repetida muitas vezes no resto da Bíblia, nos Salmos e nos profetas. Se esse vídeo te ajudou a ver isso, se inscreve. Toda semana tem viagem nova.",
+    "interage": {
+     "tipo": "segue",
+     "txt": "Se inscreve e embarca"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "037",
+    "mov": "cima",
+    "txt": "E Êxodo não termina com a lei. Termina com uma tenda. Deus diz: façam um santuário, para que eu habite no meio deles. No meio! Não no alto do monte, longe.",
+    "cap": {
+     "sup": "PARADA 9",
+     "txt": "Deus no meio do acampamento"
+    },
+    "verso": "Façam um santuário, e eu habitarei no meio deles.",
+    "ref": "ÊXODO 25.8"
+   },
+   {
+    "gravura": "030",
+    "mov": "out",
+    "txt": "Por isso tantos capítulos sobre medidas, tecidos, ouro e madeira. Eu sei, é onde muita gente pula. Mas cada detalhe grita a mesma coisa: Deus quer morar perto do seu povo."
+   },
+   {
+    "gravura": "044",
+    "mov": "dir",
+    "txt": "Uma dica pra quando chegar nesses capítulos: leia com calma o começo do vinte e cinco e o final do quarenta. O meio, passe os olhos sem culpa na primeira leitura."
+   },
+   {
+    "gravura": "041",
+    "mov": "esq",
+    "txt": "E na última cena do livro, a nuvem cobre a tenda, e a glória do Senhor enche o tabernáculo. O Deus do monte agora está no meio do acampamento. É assim que Êxodo termina."
+   },
+   {
+    "gravura": "057",
+    "mov": "in",
+    "txt": "E agora as duas pontas se encontram. João começa o Evangelho dizendo que a Palavra se fez carne e habitou entre nós. A palavra grega ali lembra armar uma tenda. Deus armou a tenda dele no meio da gente.",
+    "verso": "A Palavra se fez carne e habitou entre nós.",
+    "ref": "JOÃO 1.14"
+   },
+   {
+    "gravura": "066",
+    "mov": "cima",
+    "txt": "E o nome da sarça? Em João oito, Jesus diz: antes que Abraão existisse, Eu Sou. E o povo pega pedras pra atirar nele. Eles entenderam exatamente o que ele estava dizendo.",
+    "verso": "Antes que Abraão existisse, Eu Sou.",
+    "ref": "JOÃO 8.58"
+   },
+   {
+    "gravura": "053",
+    "mov": "out",
+    "txt": "Agora a grande pergunta do começo. Por que um povo livre quis voltar? Porque sair do Egito levou uma noite. Mas tirar o Egito de dentro do povo levou o deserto inteiro."
+   },
+   {
+    "gravura": "010",
+    "mov": "dir",
+    "txt": "Medo, saudade, pressa, ídolo. O Egito volta de muitas formas. E o livro mostra que Deus não desiste no meio. Ele dá pão de manhã, água da rocha e perdão depois do bezerro."
+   },
+   {
+    "gravura": "014",
+    "mov": "esq",
+    "txt": "E os ossos de José? Eles atravessaram o mar, o deserto, os quarenta anos. Só no livro de Josué, quando o povo já está na terra, eles são enterrados em Siquém. A promessa chegou. Segredo fechado."
+   },
+   {
+    "gravura": "092",
+    "mov": "in",
+    "txt": "Talvez você esteja no meio do seu deserto agora, entre o mar que já abriu e a terra que ainda não chegou. Êxodo diz: o maná ainda cai toda manhã. Não volta pro Egito."
+   },
+   {
+    "gravura": "053",
+    "mov": "cima",
+    "txt": "Conhece alguém que saiu de uma prisão e está com vontade de voltar? Um vício, uma relação, um medo antigo? Manda esse vídeo pra essa pessoa, com carinho.",
+    "interage": {
+     "tipo": "manda",
+     "txt": "Manda pra quem quer voltar"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "029",
+    "mov": "out",
+    "txt": "Pra ler hoje, sem travar: Êxodo capítulos um a quatro, depois doze a vinte. Deixa os capítulos da tenda pra depois, quando já souber pra onde eles apontam."
+   },
+   {
+    "gravura": "095",
+    "mov": "dir",
+    "txt": "E lembra da rocha que deu água? No próximo vídeo, a gente conhece o homem que escreveu sobre ela: Paulo, o perseguidor que virou apóstolo. Até a próxima parada, viajante da Palavra.",
+    "cta": "Até a próxima <b>parada</b>,<br>viajante",
+    "selo": "PASSA<br>PORTE"
+   }
+  ]
+ },
+ {
+  "id": "longo-12",
+  "formato": "longo",
+  "titulo": "Apóstolo Paulo: o perseguidor que mudou tudo",
+  "legenda": "Quem foi o apóstolo Paulo de verdade? Ele perseguia cristãos, prendia famílias inteiras e aprovou a morte de Estêvão. Depois escreveu 13 cartas do Novo Testamento. Neste vídeo você conhece a vida de Paulo em ordem: Saulo de Tarso, a luz no caminho de Damasco, os anos escondidos, as viagens, a prisão em Filipos, as cartas, o espinho na carne, o naufrágio e a chegada a Roma.\n\nNo final, você entende por que ele tinha dois nomes, o que faz um homem voltar para a cidade que tentou matá-lo e por onde começar a ler as cartas de Paulo.\n\n⏱️ Capítulos\n{CAPITULOS}\n\n📖 Observação: os versículos aparecem em paráfrase curta, com a referência. Confira na sua tradução.\n\n🎫 Quer ler o Novo Testamento com um caminho certo? Baixe grátis a Rota da Primeira Viagem no link da descrição, ou comente ROTA.\n\n#ApóstoloPaulo #AtosDosApóstolos #CartasDePaulo #EstudoBíblico #PassaporteDaBíblia",
+  "comentario": "📌 Qual frase de Paulo mais te sustenta hoje? \"A minha graça te basta\", \"posso todas as coisas\" ou outra? Escreve aqui, e lê a do irmão que comentou antes de você.",
+  "titulo_tela": {
+   "sup": "PASSAPORTE DA BÍBLIA",
+   "txt": "O perseguidor<br>que mudou tudo",
+   "dur": 3.2
+  },
+  "cenas": [
+   {
+    "gravura": "094",
+    "mov": "cima",
+    "txt": "Pedras voando! Uma multidão em Listra apedreja um homem até achar que ele morreu. Arrastam o corpo pra fora da cidade e deixam lá. E então ele se levanta. E entra de novo na cidade."
+   },
+   {
+    "gravura": "098",
+    "mov": "out",
+    "txt": "Quem faz isso? Que tipo de coragem, ou de loucura, faz alguém voltar pro lugar onde acabaram de tentar matar ele? Essa é a primeira pergunta de hoje. E ela só fecha no fim."
+   },
+   {
+    "gravura": "095",
+    "mov": "dir",
+    "txt": "Esse homem é Paulo. E o mais impressionante é que, alguns anos antes, era ele quem perseguia cristãos. Hoje você conhece a vida dele inteira, em ordem, sem pular as partes difíceis."
+   },
+   {
+    "gravura": "061",
+    "mov": "in",
+    "txt": "E tem mais dois mistérios. Muita gente acha que Saulo mudou de nome pra Paulo quando se converteu. Não foi bem assim. A Bíblia conta outra coisa, e o detalhe é lindo."
+   },
+   {
+    "gravura": "044",
+    "mov": "esq",
+    "txt": "E o segundo: Paulo fala de um espinho na carne que pediu três vezes pra Deus tirar. E Deus não tirou. O que era esse espinho? Guarda essas três perguntas."
+   },
+   {
+    "gravura": "066",
+    "mov": "cima",
+    "txt": "Ele nasceu em Tarso, uma cidade importante onde hoje é a Turquia. Era judeu, da tribo de Benjamim, e também cidadão romano de nascimento. Dois mundos dentro de um homem só.",
+    "cap": {
+     "sup": "PARADA 1",
+     "txt": "Saulo de Tarso"
+    }
+   },
+   {
+    "gravura": "061",
+    "mov": "out",
+    "txt": "Jovem, ele vai estudar em Jerusalém aos pés de Gamaliel, um dos mestres mais respeitados da época. Vira fariseu, zeloso da lei. Ele mesmo diz: quanto à lei, irrepreensível."
+   },
+   {
+    "gravura": "066",
+    "mov": "dir",
+    "txt": "Isso importa porque Paulo conhecia o Antigo Testamento a fundo. Nas cartas, ele cita a Lei, os Profetas e os Salmos o tempo todo. A formação de fariseu virou ferramenta nas mãos de Deus."
+   },
+   {
+    "gravura": "036",
+    "mov": "in",
+    "txt": "E repara no nome hebraico dele: Saulo. O mesmo nome do primeiro rei de Israel, Saul, que também era da tribo de Benjamim. Um nome de rei, carregado de orgulho."
+   },
+   {
+    "gravura": "067",
+    "mov": "esq",
+    "txt": "E tem um detalhe bem pé no chão. Paulo tinha uma profissão: fazia tendas. Mesmo como apóstolo, muitas vezes trabalhou com as próprias mãos pra se sustentar."
+   },
+   {
+    "gravura": "094",
+    "mov": "cima",
+    "txt": "Agora a cena que marca tudo. Estêvão, um dos primeiros líderes da igreja, é apedrejado em Jerusalém. E as testemunhas deixam as roupas aos pés de um jovem chamado Saulo.",
+    "cap": {
+     "sup": "PARADA 2",
+     "txt": "As roupas aos pés"
+    },
+    "verso": "Deixaram as roupas aos pés de um jovem chamado Saulo.",
+    "ref": "ATOS 7.58"
+   },
+   {
+    "gravura": "088",
+    "mov": "out",
+    "txt": "E Lucas escreve: Saulo concordava com a morte dele. E Estêvão morre pedindo: Senhor, não leves em conta este pecado. Igualzinho a Jesus na cruz. Será que Saulo ouviu isso?"
+   },
+   {
+    "gravura": "060",
+    "mov": "dir",
+    "txt": "Depois disso, Saulo começa a devastar a igreja. Entra de casa em casa, arrasta homens e mulheres e manda pra prisão. Não era um opositor de longe. Era caçador."
+   },
+   {
+    "gravura": "016",
+    "mov": "in",
+    "txt": "E ele não para em Jerusalém. Pede ao sumo sacerdote cartas pra prender cristãos na cidade de Damasco, a vários dias de viagem. Lucas diz que ele respirava ameaças."
+   },
+   {
+    "gravura": "053",
+    "mov": "esq",
+    "txt": "Já conheceu alguém que parecia impossível de mudar? Tão contra Deus que você até desistiu de orar por ele? Guarda o nome dessa pessoa enquanto a gente segue a viagem.",
+    "interage": {
+     "tipo": "checkin",
+     "txt": "Pensa num nome impossível"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "095",
+    "mov": "cima",
+    "txt": "Perto de Damasco, ao meio-dia, uma luz do céu brilha em volta dele. Saulo cai por terra e ouve uma voz: Saulo, Saulo, por que você me persegue?",
+    "cap": {
+     "sup": "PARADA 3",
+     "txt": "A luz no caminho"
+    },
+    "verso": "Saulo, Saulo, por que você me persegue?",
+    "ref": "ATOS 9.4"
+   },
+   {
+    "gravura": "046",
+    "mov": "out",
+    "txt": "Ele pergunta: quem és tu, Senhor? E a resposta: eu sou Jesus, a quem você persegue. Repara: Jesus não diz que persegue os meus seguidores. Diz: me persegue. Quem toca na igreja toca nele."
+   },
+   {
+    "gravura": "056",
+    "mov": "dir",
+    "txt": "Agora um dado curioso, pra testar a sua memória. Em quase toda pintura, inclusive nesta de Doré, Saulo cai de um cavalo. Sabe quantas vezes o cavalo aparece na Bíblia nessa história? Nenhuma."
+   },
+   {
+    "gravura": "095",
+    "mov": "in",
+    "txt": "Atos conta a cena três vezes, e em nenhuma tem cavalo. Ele pode ter estado a cavalo, ninguém sabe. Mas a imagem veio da arte, não do texto. Vale ler sempre com atenção.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Você também via o cavalo?"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "049",
+    "mov": "esq",
+    "txt": "Saulo se levanta, abre os olhos e não vê nada. Os companheiros levam ele pela mão até Damasco. Três dias sem enxergar, sem comer nem beber. O caçador agora precisa ser guiado."
+   },
+   {
+    "gravura": "065",
+    "mov": "cima",
+    "txt": "E Deus fala com um cristão de Damasco chamado Ananias: vai até a rua chamada Direita e procura Saulo. E Ananias, com toda razão, responde: Senhor, esse homem fez muito mal aos teus."
+   },
+   {
+    "gravura": "070",
+    "mov": "out",
+    "txt": "E Deus diz: vai, porque esse homem é um instrumento escolhido por mim, pra levar o meu nome aos povos e aos reis. O plano de Deus era maior que o medo de Ananias.",
+    "verso": "Este homem é o instrumento que escolhi.",
+    "ref": "ATOS 9.15"
+   },
+   {
+    "gravura": "062",
+    "mov": "dir",
+    "txt": "Ananias vai. Entra na casa, põe as mãos sobre ele e a primeira palavra que diz é: irmão Saulo. Irmão! Pro homem que veio prender gente como ele. Na hora, caem dos olhos de Saulo umas coisas como escamas."
+   },
+   {
+    "gravura": "091",
+    "mov": "in",
+    "txt": "Ele é batizado, come e recupera as forças. Três dias de escuridão, e agora uma vida nova. Anos depois, ele escreveria: se alguém está em Cristo, é nova criação. Ele sabia do que estava falando.",
+    "verso": "Se alguém está em Cristo, é nova criação.",
+    "ref": "2 CORÍNTIOS 5.17"
+   },
+   {
+    "gravura": "053",
+    "mov": "esq",
+    "txt": "Pensa no tamanho da coragem de Ananias. A gente fala muito de Paulo, mas sem esse irmão medroso e obediente, a história travava. Às vezes você é o Ananias de alguém.",
+    "interage": {
+     "tipo": "comenta",
+     "txt": "Quem foi seu Ananias?"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "054",
+    "mov": "cima",
+    "txt": "Saulo começa a pregar em Damasco que Jesus é o Filho de Deus. O pessoal fica chocado: não era esse que perseguia os cristãos? E aí começam a tramar a morte dele.",
+    "cap": {
+     "sup": "PARADA 4",
+     "txt": "Os anos escondidos"
+    }
+   },
+   {
+    "gravura": "049",
+    "mov": "out",
+    "txt": "Vigiavam as portas da cidade dia e noite. Então os discípulos colocam Saulo num cesto e descem ele pela muralha, de noite. O grande perseguidor foge num cesto."
+   },
+   {
+    "gravura": "044",
+    "mov": "dir",
+    "txt": "Depois, ele mesmo conta na carta aos Gálatas, foi pra Arábia, voltou pra Damasco, e só três anos depois subiu a Jerusalém. Anos que a Bíblia quase não descreve."
+   },
+   {
+    "gravura": "069",
+    "mov": "in",
+    "txt": "Nessa visita a Jerusalém, ele passa quinze dias com Pedro. Imagina essa conversa: o pescador que negou Jesus e o fariseu que perseguiu a igreja. Dois perdoados, frente a frente."
+   },
+   {
+    "gravura": "066",
+    "mov": "esq",
+    "txt": "Em Jerusalém, todos têm medo dele. Ninguém acredita que mudou. Até que Barnabé, cujo nome quer dizer filho da consolação, pega Saulo e leva até os apóstolos. Barnabé apostou nele."
+   },
+   {
+    "gravura": "053",
+    "mov": "cima",
+    "txt": "Depois disso, Saulo volta pra Tarso. E passa um bom tempo por lá, longe dos holofotes. Até que Barnabé vai pessoalmente buscar ele e leva pra Antioquia."
+   },
+   {
+    "gravura": "070",
+    "mov": "out",
+    "txt": "E é em Antioquia que, pela primeira vez, os discípulos são chamados de cristãos. Paulo e Barnabé ensinam ali um ano inteiro. A igreja começa a olhar pro mundo.",
+    "verso": "Em Antioquia foram chamados cristãos pela primeira vez.",
+    "ref": "ATOS 11.26"
+   },
+   {
+    "gravura": "053",
+    "mov": "dir",
+    "txt": "Respira aqui. Do caçador ao irmão Saulo, do cesto na muralha ao professor em Antioquia. Repara quanto tempo de bastidor teve antes do palco. Deus não tem pressa com quem ele forma.",
+    "interage": {
+     "tipo": "checkin",
+     "txt": "Respira. Bastidor também conta"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "092",
+    "mov": "in",
+    "txt": "Uma parada técnica, rapidinho. Se você quer ler Atos e as cartas de Paulo com um caminho certo, sem se perder, eu preparei a Rota da Primeira Viagem, grátis. Comenta ROTA ou pega no link da descrição.",
+    "cta": "Comenta <b>ROTA</b><br>e receba a rota grátis"
+   },
+   {
+    "gravura": "058",
+    "mov": "esq",
+    "txt": "A igreja de Antioquia ora, jejua e envia Barnabé e Saulo pra primeira viagem missionária. Primeira parada: a ilha de Chipre.",
+    "cap": {
+     "sup": "PARADA 5",
+     "txt": "Pé na estrada"
+    }
+   },
+   {
+    "gravura": "047",
+    "mov": "cima",
+    "txt": "E é lá, em Chipre, que Lucas escreve uma frase pequena: Saulo, também chamado Paulo. Não é na conversão. É no meio da missão, entre povos que não eram judeus.",
+    "verso": "Saulo, também chamado Paulo.",
+    "ref": "ATOS 13.9"
+   },
+   {
+    "gravura": "031",
+    "mov": "out",
+    "txt": "Muitos judeus daquela época tinham dois nomes: um hebraico e um romano. Saulo era o nome de rei. Paulo, em latim, quer dizer pequeno. E a partir dali, Lucas só chama ele de Paulo."
+   },
+   {
+    "gravura": "036",
+    "mov": "dir",
+    "txt": "Pensa nisso: o homem que carregava o nome do rei passa a ser conhecido pelo nome que quer dizer pequeno. Ele mesmo escreveu: eu sou o menor dos apóstolos. Primeiro mistério, resolvido."
+   },
+   {
+    "gravura": "054",
+    "mov": "in",
+    "txt": "A viagem segue pelo interior, onde hoje é a Turquia. E é aqui, em Listra, que acontece a cena do começo. Opositores chegam de outras cidades, convencem a multidão, e Paulo é apedrejado."
+   },
+   {
+    "gravura": "094",
+    "mov": "esq",
+    "txt": "Arrastam ele pra fora da cidade, achando que está morto. Os discípulos fazem uma roda em volta dele. E Paulo se levanta e entra de novo na cidade. No dia seguinte, segue viagem."
+   },
+   {
+    "gravura": "092",
+    "mov": "cima",
+    "txt": "E tem mais. Depois, ele volta por aquelas mesmas cidades, Listra inclusive, pra fortalecer os novos cristãos. E diz a eles: é preciso passar por muitas tribulações pra entrar no Reino de Deus."
+   },
+   {
+    "gravura": "013",
+    "mov": "out",
+    "txt": "Na segunda viagem, Paulo atravessa pra Macedônia, já na Europa. Em Filipos, perto do rio, ele fala com um grupo de mulheres. Uma delas, Lídia, vendedora de púrpura, abre o coração e hospeda os missionários.",
+    "cap": {
+     "sup": "PARADA 6",
+     "txt": "Filipos: cantando na prisão"
+    }
+   },
+   {
+    "gravura": "096",
+    "mov": "dir",
+    "txt": "Ainda em Filipos, Paulo liberta uma moça escrava explorada pelos patrões. E por causa disso, ele e Silas são espancados com varas e jogados na prisão."
+   },
+   {
+    "gravura": "052",
+    "mov": "in",
+    "txt": "Prendem os pés deles no tronco, no fundo da cela. Costas abertas, escuro, frio. E Lucas conta o que eles fazem à meia-noite: oram e cantam hinos a Deus. E os presos ficam escutando."
+   },
+   {
+    "gravura": "096",
+    "mov": "esq",
+    "txt": "De repente, um terremoto. As portas se abrem e as correntes se soltam. O carcereiro acorda, acha que todos fugiram e puxa a espada pra se matar."
+   },
+   {
+    "gravura": "049",
+    "mov": "cima",
+    "txt": "E Paulo grita: não te faças nenhum mal, estamos todos aqui! O carcereiro cai tremendo e pergunta: o que eu devo fazer pra ser salvo? E Paulo responde: crê no Senhor Jesus.",
+    "verso": "Creia no Senhor Jesus, e você será salvo.",
+    "ref": "ATOS 16.31"
+   },
+   {
+    "gravura": "053",
+    "mov": "out",
+    "txt": "Naquela mesma noite, o carcereiro lava as feridas deles, e a família inteira é batizada. Quem prendia, agora cuida. Te lembra alguém? Foi exatamente a história do próprio Paulo."
+   },
+   {
+    "gravura": "054",
+    "mov": "dir",
+    "txt": "Depois, em Atenas, a cidade dos filósofos, Paulo vê um altar com uma inscrição: ao deus desconhecido. E usa isso pra pregar: esse que vocês adoram sem conhecer, eu anuncio a vocês."
+   },
+   {
+    "gravura": "047",
+    "mov": "in",
+    "txt": "Ele até cita poetas gregos: nele vivemos, nos movemos e existimos. Mas quando fala da ressurreição, uns caçoam, outros dizem: depois a gente ouve de novo. E alguns creem.",
+    "verso": "Nele vivemos, nos movemos e existimos.",
+    "ref": "ATOS 17.28"
+   },
+   {
+    "gravura": "097",
+    "mov": "esq",
+    "txt": "Em Éfeso, muita gente que praticava magia junta os livros e queima na frente de todos. Lucas calcula o valor: cinquenta mil moedas de prata. Mudança que custa caro."
+   },
+   {
+    "gravura": "037",
+    "mov": "cima",
+    "txt": "E também em Éfeso, os fabricantes de imagens da deusa Ártemis fazem um tumulto, porque estavam perdendo clientes. A multidão grita por quase duas horas: grande é a Ártemis dos efésios!"
+   },
+   {
+    "gravura": "053",
+    "mov": "out",
+    "txt": "Se você está gostando dessa viagem com Paulo, se inscreve no canal. Toda semana tem uma parada nova pela Bíblia, sempre explicada desse jeito, com as referências.",
+    "interage": {
+     "tipo": "segue",
+     "txt": "Se inscreve e segue viagem"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "044",
+    "mov": "dir",
+    "txt": "Agora, uma coisa que muda a leitura do Novo Testamento. Paulo não escrevia livros pra estante. Escrevia cartas, pra igrejas reais, com problemas reais. Briga, dúvida, saudade, dinheiro.",
+    "cap": {
+     "sup": "PARADA 7",
+     "txt": "As cartas"
+    }
+   },
+   {
+    "gravura": "082",
+    "mov": "in",
+    "txt": "Treze cartas do Novo Testamento levam o nome de Paulo, de Romanos a Filemom. Algumas foram escritas da prisão. E a ordem na Bíblia não é a ordem em que ele escreveu: é mais ou menos pelo tamanho."
+   },
+   {
+    "gravura": "063",
+    "mov": "esq",
+    "txt": "Pra Corinto, uma igreja dividida e cheia de dons, ele escreve o texto mais famoso sobre o amor: o amor é paciente, o amor é bondoso. Não era pra casamento. Era pra uma igreja brigando.",
+    "verso": "O amor é paciente, o amor é bondoso.",
+    "ref": "1 CORÍNTIOS 13.4"
+   },
+   {
+    "gravura": "004",
+    "mov": "cima",
+    "txt": "E pra essa mesma igreja ele lembra do deserto de Êxodo. Lembra da rocha que deu água no último vídeo? Paulo escreve: eles bebiam da rocha espiritual que os acompanhava. E a rocha era Cristo.",
+    "verso": "E a rocha era Cristo.",
+    "ref": "1 CORÍNTIOS 10.4"
+   },
+   {
+    "gravura": "057",
+    "mov": "out",
+    "txt": "Pros Romanos, ele escreve uma das frases mais firmes da Bíblia: nem morte, nem vida, nem anjos, nem coisa nenhuma vai poder nos separar do amor de Deus que está em Cristo Jesus."
+   },
+   {
+    "gravura": "086",
+    "mov": "dir",
+    "txt": "E pros Gálatas, ele resume a virada da vida dele: já não sou eu quem vive, mas Cristo vive em mim. O homem que se achava irrepreensível agora diz que vive de graça.",
+    "verso": "Já não sou eu quem vive, Cristo vive em mim.",
+    "ref": "GÁLATAS 2.20"
+   },
+   {
+    "gravura": "029",
+    "mov": "in",
+    "txt": "E pros Filipenses, escrevendo preso, ele diz: alegrem-se sempre no Senhor. E também: aprendi a viver contente em toda situação. Posso todas as coisas naquele que me fortalece."
+   },
+   {
+    "gravura": "053",
+    "mov": "esq",
+    "txt": "Qual dessas frases de Paulo chegou em você hoje? O amor é paciente, nada nos separa, ou Cristo vive em mim? Escreve nos comentários e lê a do irmão de cima."
+   },
+   {
+    "gravura": "050",
+    "mov": "cima",
+    "txt": "Agora o lado que pouca gente conta. Paulo faz uma lista do que sofreu. Cinco vezes levou trinta e nove chicotadas. Três vezes foi espancado com varas. Uma vez, apedrejado.",
+    "cap": {
+     "sup": "PARADA 8",
+     "txt": "Fraco e forte"
+    }
+   },
+   {
+    "gravura": "045",
+    "mov": "out",
+    "txt": "Para e pensa: o homem que mais escreveu cartas no Novo Testamento escreveu muitas delas com as costas marcadas."
+   },
+   {
+    "gravura": "064",
+    "mov": "dir",
+    "txt": "Três vezes naufragou. Passou uma noite e um dia em alto mar. Perigo de rio, de ladrão, de fome, de sede, de frio. E diz que a maior pressão era a preocupação com todas as igrejas."
+   },
+   {
+    "gravura": "044",
+    "mov": "in",
+    "txt": "E aí ele conta do espinho na carne. Um espinho, que ele chama de mensageiro de Satanás, pra que ele não se orgulhasse. Três vezes ele pediu a Deus que tirasse."
+   },
+   {
+    "gravura": "046",
+    "mov": "esq",
+    "txt": "E a resposta de Deus não foi a cura. Foi essa: a minha graça te basta, porque o meu poder se aperfeiçoa na fraqueza. E Paulo conclui: quando sou fraco, então é que sou forte.",
+    "verso": "A minha graça te basta.",
+    "ref": "2 CORÍNTIOS 12.9"
+   },
+   {
+    "gravura": "061",
+    "mov": "cima",
+    "txt": "Mas o que era o espinho? A verdade é que ninguém sabe. Uns pensam numa doença nos olhos, porque ele fala de uma fraqueza no corpo aos Gálatas e de escrever com letras grandes. Outros, em perseguição."
+   },
+   {
+    "gravura": "053",
+    "mov": "out",
+    "txt": "E talvez seja de propósito que a Bíblia não diz. Porque assim cabe o seu espinho ali também. A dor que você pediu três vezes pra Deus tirar. Segundo mistério, fechado com honestidade."
+   },
+   {
+    "gravura": "081",
+    "mov": "dir",
+    "txt": "Se você está carregando um espinho desses agora, salva esse vídeo. Volta nessa parte nos dias difíceis. A minha graça te basta não é frase bonita. É resposta pra quem pediu e não recebeu do jeito que queria.",
+    "interage": {
+     "tipo": "salva",
+     "txt": "Salva pros dias de espinho"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "098",
+    "mov": "in",
+    "txt": "No fim da terceira viagem, Paulo vai a Jerusalém. No templo, uma multidão agarra ele e tenta matar. Os soldados romanos chegam e precisam carregar Paulo nos braços, de tanta violência.",
+    "cap": {
+     "sup": "PARADA 9",
+     "txt": "Até Roma"
+    }
+   },
+   {
+    "gravura": "066",
+    "mov": "esq",
+    "txt": "Preso, ele fica anos esperando julgamento. Até que, como cidadão romano, usa o direito dele e diz: eu apelo para César. E é levado de navio pra Roma."
+   },
+   {
+    "gravura": "099",
+    "mov": "cima",
+    "txt": "No caminho, uma tempestade de catorze dias. Ninguém vê sol nem estrelas. Duzentas e setenta e seis pessoas no navio, já sem esperança. E o prisioneiro Paulo se levanta e encoraja todo mundo."
+   },
+   {
+    "gravura": "064",
+    "mov": "out",
+    "txt": "Ele diz que um anjo de Deus apareceu e garantiu: ninguém vai perder a vida, só o navio. O navio encalha e se despedaça. E todos chegam salvos à terra, na ilha de Malta."
+   },
+   {
+    "gravura": "040",
+    "mov": "dir",
+    "txt": "Lá, recolhendo gravetos pra uma fogueira, uma víbora pica a mão de Paulo. O povo da ilha espera ele cair morto. Ele sacode a cobra no fogo e não sofre nada."
+   },
+   {
+    "gravura": "062",
+    "mov": "in",
+    "txt": "Na ilha, Paulo ainda ora pelo pai do homem mais importante do lugar, que estava doente, e ele é curado. Depois disso, outros doentes da ilha vêm e também são curados."
+   },
+   {
+    "gravura": "093",
+    "mov": "esq",
+    "txt": "Finalmente, Roma. E Atos termina de um jeito surpreendente: Paulo passa dois anos inteiros numa casa alugada, recebendo todo mundo e pregando com toda a ousadia, sem impedimento."
+   },
+   {
+    "gravura": "063",
+    "mov": "cima",
+    "txt": "Sem impedimento! Em grego, essa é a última palavra do livro de Atos. Um prisioneiro acorrentado, e a mensagem livre. Os homens prendiam Paulo, mas não prendiam o Evangelho.",
+    "verso": "Pregava com toda a ousadia, sem impedimento.",
+    "ref": "ATOS 28.31"
+   },
+   {
+    "gravura": "046",
+    "mov": "out",
+    "txt": "A Bíblia não narra a morte de Paulo. A tradição antiga diz que ele morreu em Roma. Mas temos a última carta dele, pra Timóteo, escrita perto do fim."
+   },
+   {
+    "gravura": "044",
+    "mov": "dir",
+    "txt": "Ali ele pede a capa que esqueceu e os pergaminhos. Diz que só Lucas está com ele. E pede: traz o Marcos, porque ele me é útil. O mesmo Marcos que um dia tinha abandonado a missão."
+   },
+   {
+    "gravura": "092",
+    "mov": "in",
+    "txt": "Anos antes, Paulo e Barnabé brigaram e se separaram por causa desse Marcos. E agora, no fim, Paulo pede por ele. Até o grande apóstolo precisou aprender a dar segunda chance."
+   },
+   {
+    "gravura": "093",
+    "mov": "esq",
+    "txt": "E escreve: combati o bom combate, terminei a corrida, guardei a fé. Não diz que venceu sempre. Diz que não largou.",
+    "verso": "Combati o bom combate, terminei a corrida, guardei a fé.",
+    "ref": "2 TIMÓTEO 4.7"
+   },
+   {
+    "gravura": "094",
+    "mov": "cima",
+    "txt": "Agora a pergunta do começo. O que faz um homem levantar das pedras e voltar pra cidade? Paulo responde nas próprias cartas: o amor de Cristo nos constrange. E a graça basta."
+   },
+   {
+    "gravura": "095",
+    "mov": "out",
+    "txt": "Ele lembrava de onde tinha saído. Das roupas aos pés de Estêvão, do caminho de Damasco, do irmão Saulo. Quem sabe o tamanho do perdão que recebeu não tem medo de pedra."
+   },
+   {
+    "gravura": "053",
+    "mov": "dir",
+    "txt": "E aquele nome impossível que você guardou lá no começo? Paulo era o mais impossível de todos. Continua orando. Ninguém está longe demais da luz no caminho."
+   },
+   {
+    "gravura": "070",
+    "mov": "in",
+    "txt": "Conhece alguém que acha que já fez coisa errada demais pra Deus querer? Manda esse vídeo pra essa pessoa. A história de Paulo foi escrita pra ela também.",
+    "interage": {
+     "tipo": "manda",
+     "txt": "Manda pra quem se acha longe"
+    },
+    "conv": true
+   },
+   {
+    "gravura": "061",
+    "mov": "esq",
+    "txt": "Pra começar a ler Paulo sem travar: primeiro Atos, capítulos nove, dezesseis e vinte e sete. Depois a carta aos Filipenses. São só quatro capítulos, escritos da prisão, e cheios de alegria."
+   },
+   {
+    "gravura": "081",
+    "mov": "cima",
+    "txt": "No próximo vídeo, a viagem segue pelas mulheres que mudaram a história da Bíblia, de Sifrá e Puá até Lídia, a vendedora de púrpura de Filipos. Até a próxima parada, viajante da Palavra.",
+    "cta": "Até a próxima <b>parada</b>,<br>viajante",
+    "selo": "PASSA<br>PORTE"
+   }
+  ]
  }
 ]

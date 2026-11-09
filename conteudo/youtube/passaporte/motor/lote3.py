@@ -1,8 +1,9 @@
 """Lote 3 do Passaporte: longos 05 a 09 (16-20 min), roteiros em ../roteiros/<id>.json.
-python3 lote3.py -> acrescenta/atualiza em pintura.json e longos.json (capas claras, pouco texto, cores quentes/ciano, sem vermelho)"""
-import json, os, glob
+python3 lote3.py [ids] -> acrescenta/atualiza em pintura.json e longos.json (capas claras, pouco texto, cores quentes/ciano, sem vermelho)"""
+import json, os, glob, sys
 D = os.path.dirname(os.path.abspath(__file__)); RAIZ = os.path.join(D, '..')
 novos = [json.load(open(f)) for f in sorted(glob.glob(RAIZ + '/roteiros/longo-*.json'))]
+if sys.argv[1:]: novos = [v for v in novos if v['id'] in sys.argv[1:]]   # python3 lote3.py longo-10 longo-11 (só esses)
 def grava(arq, itens):
     f = f'{RAIZ}/{arq}'; d = json.load(open(f)); ids = {v['id'] for v in itens}
     json.dump([v for v in d if v['id'] not in ids] + itens, open(f, 'w'), ensure_ascii=False, indent=1)
