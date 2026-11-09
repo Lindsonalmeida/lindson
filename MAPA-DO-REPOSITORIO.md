@@ -105,6 +105,7 @@ Todas desligadas desde 26/10 (as de 3 em 3 horas falharam por limite de uso do p
 - `agencia/operacao-propria/painel.py`: monta a página "Assessoria para pizzarias" da Central (/painel/pizzarias.html, só admin); chamado pelo `montar-site.py` (conta Leandro, 05/11/2026).
 - `agencia/processos/pesquisa-premium.md`: processo obrigatório de pesquisa premium mundial antes de toda peça visual (regra do Lindson, 05/11/2026, conta Leandro).
 - `agencia/processos/persona.md`: processo obrigatório de pensar na persona antes de criar (regra do Lindson, 05/11/2026, conta Leandro).
+- `agencia/processos/influenciador-ia/`: passo a passo para criar 3 influenciadores de IA (saúde, riqueza, relacionamentos) em 7 dias e vender desafio de 30 dias na Hubla (`PASSO-A-PASSO.md`) e resumo do vídeo de origem (`TRANSCRICAO-RESUMO.md`) (conta Zuleide, Peter, 09/11/2026).
 - `agencia/clientes/leo-pinto/whatsapp-figurinhas/`: 10 figurinhas de WhatsApp do Leo: estratégia, pesquisa e geradores (`gerar.js` e `acabamento.py`); os arquivos ficam no privado (conta Leandro, 05/11/2026).
 - `agencia/operacao-propria/site/`: site principal da Orégano Turbo (`index.html`, fotos, TEMPLATE e referências). A prévia fica no privado `oreganoturbo/` (conta Leandro, 06/11/2026).
 - `.claude/agents/paollo.md`: agente **Paollo**, designer especialista em branding e identidade visual só de pizzarias (conta Leandro, 06/11/2026).
