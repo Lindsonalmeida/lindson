@@ -46,6 +46,7 @@ def capa(c):
         p = np.array(p).astype(np.float32) / 255
         a = np.clip((p - c['corte_prof']) / c.get('rampa', .03), 0, 1)
         if c.get('so_acima'): a[int(720 * c['so_acima']):] = 0
+        if c.get('so_abaixo'): a[:int(720 * c['so_abaixo'])] = 0   # o braço não cobre a palavra (leitura a 160 px)
         a = cv2.GaussianBlur(a, (0, 0), 1.6)
         rgba = np.dstack([rgb, (a * 255).astype(np.uint8)])
         fg = f'<img class="fg" src="{uri(Image.fromarray(rgba, "RGBA"), "PNG")}">'
@@ -74,7 +75,7 @@ def pagina(corpo): return '<!doctype html><html><head><meta charset="utf-8">' + 
 DORE = RAIZ + '/dore/'
 CAPAS = {
  # Ref. EPIC HISTORY "MUTINY": palavra gigante no alto, a figura (Jesus, braço erguido diante do túmulo de Lázaro) passa na frente dela.
- 'capa-10': dict(arq=DORE + '080.jpg', prof=DORE + 'prof/080.png', corte_prof=.095, rampa=.012, crop=(.60, .245, .66), glow=(.50, .48), forca=.7,
+ 'capa-10': dict(arq=DORE + '080.jpg', prof=DORE + 'prof/080.png', corte_prof=.095, rampa=.012, so_abaixo=.27, crop=(.60, .245, .66), glow=(.50, .48), forca=.7,
    antes='<div class="sh" style="background:linear-gradient(180deg,rgba(0,0,0,.55),rgba(0,0,0,0) 45%)"></div>'
          '<div class="t" style="left:0;right:0;top:14px;text-align:center;font-size:290px;letter-spacing:.03em"><b>SHOW?</b></div>',
    depois='<div class="sh" style="background:linear-gradient(0deg,rgba(0,0,0,.75),rgba(0,0,0,0) 34%)"></div>'

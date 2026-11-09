@@ -1,3 +1,59 @@
+# Capas dos longos 10 a 12 · v2 (09/11/2026, conta Zuleide, designer gráfico)
+
+Refação pedida pelo Lindson: a v1 ("Pintura anotada", mais abaixo) foi **reprovada** por 4 falhas: capturas não salvas, imagem escura e cheia de detalhe com personagem pequeno, nenhum rosto ou gesto em close, pouco contraste entre assunto e fundo.
+
+- Gerador: `motor/capas_v3.py` → `capa-10.jpg`, `capa-11.jpg`, `capa-12.jpg` (1280×720). Prévia: `motor/previa_v3.py` → `previa-v2.jpg` (as 3 capas, as 3 referências e a busca do YouTube a 320 px e a 160 px).
+- Capturas reais em `referencias/` (16 arquivos + a folha `00-folha-50-miniaturas-coletadas.jpg` com as 50 miniaturas baixadas de `i.ytimg.com`; IDs em `ids-youtube.txt`). Behance e Dribbble capturados pelo Playwright em 09/11.
+- **Status: aguardando aprovação do Lindson.**
+
+## Persona (5 linhas)
+1. Cristão brasileiro, católico ou evangélico, 25 a 60 anos, que quer entender a Bíblia e trava na leitura.
+2. Vê YouTube no celular, à noite ou no intervalo, rolando a lista; decide em menos de 1 segundo, com a miniatura do tamanho de um polegar (160 px).
+3. Dor: "leio e não entendo"; desconfia de capa sensacionalista, de "IA" ou de grito.
+4. Para a rolagem quando vê um rosto ou gesto forte, uma luz dramática e uma pergunta curta que mexe com o que ele acha que já sabe.
+5. Confia em arte clássica (Doré) e tom sério; clicaria numa cena bíblica grande e clara, com uma pergunta de 2 palavras.
+
+## Pesquisa (16 capturas, 8 países)
+Miniaturas oficiais baixadas de `i.ytimg.com/vi/<id>/maxresdefault.jpg` (vídeos recentes de cada canal, IDs em `referencias/ids-youtube.txt`). Número de visualizações não conferido.
+
+| # | Arquivo | Canal / designer | País | O que tem | Situação |
+|---|---|---|---|---|---|
+| 1 | `02-epic-history-mutiny-UK.jpg` | Epic History | Reino Unido | 1 palavra gigante no alto; o personagem fica na frente da palavra | **ESCOLHIDA → capa 10** |
+| 2 | `01-ciencia-todo-dia-flow-BR.jpg` | Ciência Todo Dia | Brasil | close extremo (olho), 1 ponto de foco, palavra gigante cruzando a imagem | **ESCOLHIDA → capa 11** |
+| 3 | `03-johnny-harris-close-US.jpg` | Johnny Harris | EUA | rosto em close de um lado, luz quente, fundo sem detalhe, espaço livre para o texto | **ESCOLHIDA → capa 12** |
+| 4 | `04-veritasium-luz-unica-AU.jpg` | Veritasium | Austrália/EUA | fundo preto, uma luz só | descartada: sem texto, depende de objeto aceso; ficou a ideia do fundo escuro |
+| 5 | `05-epic-history-waterloo-UK.jpg` | Epic History | Reino Unido | retrato à direita + palavra gigante | descartada: o mapa no meio é poluído |
+| 6 | `06-terra-x-zu-reich-DE.jpg` | Terra X History (ZDF) | Alemanha | ilustração com luz dourada, 2 palavras | descartada: ilustração digital, fora da gravura |
+| 7 | `07-historia-meia-hora-BR.jpg` | História em Meia Hora | Brasil | rosto do apresentador + texto de 2 linhas | descartada: depende de apresentador (canal dark) e tem texto demais |
+| 8 | `08-nota-bene-FR.jpg` | Nota Bene | França | apresentador em cena escura | descartada: depende de rosto do apresentador |
+| 9 | `09-fall-of-civilizations-UK.jpg` | Fall of Civilizations | Reino Unido | paisagem + título fino | descartada: sem foco e ilegível a 160 px |
+| 10 | `10-kings-and-generals.jpg` | Kings and Generals | EUA/Ucrânia (não conferido) | foto de guerra + título em faixa | descartada: muito detalhe |
+| 11 | `11-academia-play-ES.jpg` | Academia Play | Espanha | cartum colorido com mão desenhando | descartada: estilo cartum |
+| 12 | `12-bibleproject-US.jpg` | BibleProject | EUA | paisagem com título fino | descartada: pouco contraste |
+| 13 | `13-oversimplified.jpg` | OverSimplified | Canadá (não conferido) | cartum | descartada: estilo cartum |
+| 14 | `14-behance-busca-documentary.jpg` | Behance, busca "youtube thumbnail documentary" | vários | grades de capas de documentário | descartadas: colagens com muito texto |
+| 15 | `15-behance-busca-bible-egor-goncharov.jpg` | Behance, Egor Goncharov e Maya Blizniuk | não conferido | rostos em close, teal e laranja de cinema | apoio: confirma o close com cor de cinema |
+| 16 | `16-dribbble-busca-cinematic.jpg` | Dribbble, busca "youtube thumbnail cinematic" | vários | capas de cinema | descartadas: genéricas |
+
+## O que cada capa copia
+| Capa | Gravura e cena | Referência copiada | Texto |
+|---|---|---|---|
+| **10** Milagres | Doré 080, a ressurreição de Lázaro: Jesus de braço erguido em close (cerca de 55% da altura) | **Epic History "MUTINY":** palavra gigante no alto e a cabeça do personagem passando na frente dela (recorte pelo mapa de profundidade `dore/prof/080.png`; o braço não cobre a letra, para ler "SHOW?" a 160 px) | NÃO ERA **SHOW?** |
+| **11** Êxodo | Doré, Moisés desce do Sinai com as tábuas (Bíblia inglesa de 1866, domínio público, Wikimedia Commons, 1920 px, em `fontes/`): rosto, raios e mão erguida em close | **Ciência Todo Dia "FLOW":** um só personagem em close, luz num ponto, frase gigante de lado a lado | QUIS **VOLTAR?** |
+| **12** Paulo | Doré 095, a conversão: Saulo cobrindo o rosto diante da luz, em close à direita | **Johnny Harris:** personagem de um lado, luz quente nele, fundo afundado no escuro, texto empilhado no espaço livre | ELE **PERSEGUIA** |
+
+Em todas: a cor de cinema do `capas2.py` (sombra petróleo, luz âmbar) com mais contraste, um único brilho atrás do foco, vinheta forte e fundo desfocado longe do foco. Mantidos da identidade: "PASSAPORTE DA BÍBLIA" em Special Elite, a etiqueta ciano da série e a palavra-chave em amarelo (Anton com contorno preto). Nada de vermelho.
+
+## Conferência
+- Persona: cena grande, gesto claro e pergunta de 2 a 3 palavras; tom sério, sem grito.
+- A 160 px (prévia, lista do celular) as 3 frases leem; "SHOW?" só passou depois de tirar o braço da frente da letra W.
+- Gravuras: 080 e 095 já são do canal; Moisés do Sinai é gravura nova (não usada antes).
+- Teste sugerido no YouTube: v2 contra a A aprovada do `capas2.py`, por 2 semanas, ganhando a de maior tempo de exibição.
+
+---
+
+# v1 (reprovada em 09/11/2026)
+
 # Capas dos longos 10 a 12 · pesquisa premium e composição copiada
 
 Pedido do Lindson (09/11/2026, conta Zuleide, Peter): "as novas capas, faça no estilo novo também, das nossas pesquisas de designer".

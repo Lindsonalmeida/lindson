@@ -21,19 +21,21 @@ for a, t in NOVAS:
 d.text((40, 510), 'As 3 referências copiadas (capturas em referencias/)', font=f('Bold', 30), fill=TX)
 x = 40
 for a, t in REFS:
-    im.paste(th(a, 600), (x, 560)); d.text((x, 905), t, font=f('Regular', 19), fill=CINZA); x += 620
+    im.paste(th(a, 600), (x, 560)); n, r = t.split(' → ')
+    d.text((x, 902), n, font=f('SemiBold', 20), fill=TX); d.text((x, 930), r, font=f('Regular', 17), fill=CINZA); x += 620
 # simulação da busca do YouTube, miniatura a 320 px de largura
 y0 = 980; d.text((40, y0), 'Busca do YouTube · miniatura a 320 px', font=f('Bold', 30), fill=TX)
 mix = [NOVAS[0][0], OUTRAS[0], NOVAS[1][0], OUTRAS[1], NOVAS[2][0], OUTRAS[2]]
 nomes = [NOVAS[0][1], 'concorrente', NOVAS[1][1], 'concorrente', NOVAS[2][1], 'concorrente']
 for i, (a, n) in enumerate(zip(mix, nomes)):
-    x = 40 + (i % 3) * 620; y = y0 + 60 + (i // 3) * 270
-    im.paste(th(a, 320), (x, y)); d.text((x + 336, y + 4), n if n != 'concorrente' else 'Vídeo de outro canal', font=f('SemiBold', 20), fill=TX)
-    d.text((x + 336, y + 34), 'Passaporte da Bíblia' if n != 'concorrente' else 'canal de história', font=f('Regular', 17), fill=CINZA)
+    x = 40 + (i % 3) * 620; y = y0 + 60 + (i // 3) * 210
+    im.paste(th(a, 320), (x, y)); tt = n if n != 'concorrente' else 'Vídeo de outro canal'
+    import textwrap; d.multiline_text((x + 336, y + 4), '\n'.join(textwrap.wrap(tt, 22)[:3]), font=f('SemiBold', 20), fill=TX, spacing=6)
+    d.text((x + 336, y + 100), 'Passaporte da Bíblia' if n != 'concorrente' else 'canal de história', font=f('Regular', 17), fill=CINZA)
 # lista do celular, miniatura a 160 px
-y0 = 1640; d.text((40, y0), 'Lista do celular · miniatura a 160 px', font=f('Bold', 30), fill=TX)
+y0 = 1500; d.text((40, y0), 'Lista do celular · miniatura a 160 px', font=f('Bold', 30), fill=TX)
 for i, (a, n) in enumerate(zip(mix, nomes)):
     x = 40 + (i % 3) * 620; y = y0 + 60 + (i // 3) * 110
-    im.paste(th(a, 160), (x, y)); d.text((x + 172, y + 4), (n if n != 'concorrente' else 'Vídeo de outro canal')[:34], font=f('SemiBold', 17), fill=TX)
+    im.paste(th(a, 160), (x, y)); d.text((x + 172, y + 4), (n if n != 'concorrente' else 'Vídeo de outro canal')[:30] + ('…' if len(n) > 30 and n != 'concorrente' else ''), font=f('SemiBold', 17), fill=TX)
     d.text((x + 172, y + 30), 'Passaporte da Bíblia' if n != 'concorrente' else 'canal de história', font=f('Regular', 15), fill=CINZA)
-im = im.crop((0, 0, W, 1950)); im.save(os.path.join(P, 'previa-v2.jpg'), quality=88); print('ok')
+im = im.crop((0, 0, W, 1800)); im.save(os.path.join(P, 'previa-v2.jpg'), quality=88); print('ok')
