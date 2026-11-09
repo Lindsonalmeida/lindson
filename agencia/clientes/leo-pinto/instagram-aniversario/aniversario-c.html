@@ -25,10 +25,12 @@
 .logo{left:60px;bottom:48px;width:240px;z-index:4;filter:drop-shadow(0 8px 18px rgba(0,0,0,.35))}
 .ass{right:60px;bottom:58px;z-index:4;text-align:right;font:700 20px Montserrat;color:#fff}
 .ass b{display:block;font:400 44px 'Kaushan Script';color:#FFC20E}
+/* versão story 1080x1920 (conta Leandro, 09/11/2026: aniversário só em story) */
+body.st{height:1920px}.st .arte{height:1920px}.st .pill{top:150px}.st .col{top:290px}.st .disco{top:930px;right:-220px;width:1060px;height:1060px}.st .base{height:640px;z-index:3;background:linear-gradient(180deg,transparent,rgba(5,20,70,.9) 55%,rgba(5,20,70,.97))}.st .logo{bottom:150px}.st .ass{bottom:160px}
 </style></head><body><div id="arte"></div><script>
-const d=window.DADOS,nome=[d.nome1,d.nome2].filter(Boolean).map(x=>x.charAt(0)+x.slice(1).toLowerCase().replace(/ (d[aeo]s?) /g,' $1 ')).join(' ');
+const d=window.DADOS;if(d.story)document.body.classList.add('st');const nome=[d.nome1,d.nome2].filter(Boolean).map(x=>x.charAt(0)+x.slice(1).toLowerCase().replace(/ (d[aeo]s?) /g,' $1 ')).join(' ');
 document.getElementById('arte').innerHTML=`<div class="arte"><div class="a disco"></div><div class="a grao"></div>
-<img class="a pessoa" src="${d.foto}" style="right:${d.direitaC??-150}px;top:${d.topoC||380}px;width:${d.larguraC||860}px">
+<img class="a pessoa" src="${d.foto}" style="right:${d.direitaC??-150}px;top:${(d.story?d.topoCs:d.topoC)||(d.story?1000:380)}px;width:${(d.story?d.larguraCs:d.larguraC)||860}px">
 <div class="a base"></div>
 <div class="a pill"><img src="${d.avatar}">@_leonardopinto</div>
 <div class="a col"><div class="k">feliz</div><div class="ani">ANI<br>VER<br><span class="s">SÁRIO</span></div>
