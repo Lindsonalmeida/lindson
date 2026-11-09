@@ -165,3 +165,30 @@ Siga `agencia/processos/mini-site-cliente.md` e lembre o passo a passo ao Lindso
 
 ## Entrega (curta)
 Link no ar ou vídeo, as 3 referências usadas (nome, estúdio e prêmio, uma linha cada) e o que o Lindson precisa decidir. Commit e push em silêncio, registro em `REGISTRO-DAS-CONTAS.md` e aprendizado (aprovado ou reprovado) em `MEMORIA-DO-LINDSON.md`.
+
+## Lançamento, infoprodutor e expert (coleta de 09/11, agregada pela conta Zuleide)
+Fonte: privado `dados/agencia/referencias/lancamento-infoprodutor-expert/` (Behance; 100 modelos de cerca de 1.100 projetos). É estudo de linguagem: nunca copie.
+- **Um lançamento é um Key Visual (KV), não um monte de artes.** O mesmo conceito vai em tudo: anúncio, story, capa de aula, captura, obrigado, vendas e área de membros. Antes de desenhar, defina:
+  1. nome e logo do produto ou evento;
+  2. paleta curta: fundo escuro + 1 destaque + branco;
+  3. 2 fontes: uma display pesada e uma neutra;
+  4. foto de estúdio do expert;
+  5. 1 elemento gráfico próprio.
+- **O expert é o protagonista:** recortado, ocupando de 40% a 60% da arte, com luz dramática e um brilho na cor de destaque atrás dele. O texto fica no espaço livre, nunca no rosto.
+- **Paletas que dominam:**
+  - escuro + laranja: mentoria e vendas;
+  - escuro + verde-limão: tráfego e digital;
+  - escuro + vermelho: estética;
+  - roxo para rosa: fitness e público feminino;
+  - creme editorial: educação.
+- **Texto:** título de 3 a 7 palavras com 1 palavra em tarja; cards com cara de aplicativo; selos (AO VIVO, ÚLTIMO DIA, data e hora); mockups de celular e notebook.
+- **Prova:** só número real, nunca inventado.
+- **Kit completo (checklist para vender e entregar):**
+  1. KV + mini brandbook;
+  2. anúncios 4:5 e 9:16 com vários ganchos;
+  3. página de captura e de obrigado;
+  4. aquecimento com contagem regressiva;
+  5. capas de aula, thumbnail e banner do grupo;
+  6. peças "hoje", "ao vivo" e "começa em 1 h";
+  7. abertura de carrinho, prova, quebra de objeção e último dia;
+  8. página de vendas e área de membros.
