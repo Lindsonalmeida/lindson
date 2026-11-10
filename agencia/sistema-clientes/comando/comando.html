@@ -414,7 +414,7 @@ input.campo{width:100%;background:#0E0D0A;border:1px solid #2B2B28;color:var(--t
   .h-titulo{max-width:none}
   .voz-aviso{left:16px;right:16px;top:auto;bottom:130px}
   .fala{left:16px;right:16px;bottom:88px}
-  .papo{left:16px;right:16px;bottom:122px;max-height:34vh}.papo .b:nth-last-child(n+3){display:none}.hero.conversando .h-titulo{opacity:0;pointer-events:none}.papo .b{grid-template-columns:50px minmax(0,1fr);padding:7px 10px}.papo .b .x{font-size:13px}
+  .papo{left:16px;right:16px;bottom:122px;max-height:34vh}.papo .b:nth-last-child(n+3){display:none}.hero.conversando .h-titulo{opacity:0!important;pointer-events:none}.com-envio .papo{bottom:196px}.com-envio .fala{bottom:160px}.papo .b{grid-template-columns:50px minmax(0,1fr);padding:7px 10px}.papo .b .x{font-size:13px}
   .hud .escuta{order:-1}.hud #voz-av,.hud #som{display:none}
   .h-dados{display:none}
   .h-mira i:nth-child(3),.h-mira i:nth-child(4){bottom:86px}
@@ -683,7 +683,7 @@ function pintaEscolhas() {
   pintaAviso(); barraCel(pv);
 }
 function barraCel(pv) {
-  const el = $('#envio-cel'), on = !!(P.cli && P.fn); el.classList.toggle('on', on);
+  const el = $('#envio-cel'), on = !!(P.cli && P.fn); el.classList.toggle('on', on); document.body.classList.toggle('com-envio', on);
   if (on) { $('#ec-t').textContent = nomeFn(P.fn) + ' · ' + nomeCli(P.cli); $('#ec-eq').textContent = FN[P.fn].acao ? 'Abre aqui mesmo' : pv ? 'Equipe: ' + (pv.designada || 'na espera') : ''; $('[data-envia-cel]').textContent = FN[P.fn].acao ? 'Abrir' : 'Enviar'; }
 }
 function jaExiste(cli, fn) {
@@ -718,7 +718,7 @@ async function envia() {
   let escolhida = null;
   const ok = await muda('ped', d => { const r = distribuir(item, d.itens, EQ(), Date.now()); const x = Object.assign({}, item, { designada: r.designada, motivo: r.motivo, volta: r.volta || null, designadaEm: agora(), st: r.designada ? 'novo' : 'espera' }); escolhida = r; d.itens.unshift(x); });
   b.disabled = false;
-  if (ok) { responde(escolhida.designada ? `Vektor aqui. Pedido de ${nomeFn(item.func)} ${item.cli === 'marca' ? 'da sua marca' : 'de ' + nomeCli(item.cli)} enviado; ${escolhida.designada === 'Lindson' ? 'a conta Lindson' : 'o ' + escolhida.designada} pega.`.replace('o Zuleide', 'a Zuleide') : `Vektor aqui. Pedido de ${nomeFn(item.func)} enviado. Fica na espera até uma conta voltar.`); P.fn = null; P.forcar = false; $('#detalhe').value = ''; falaTxt('Pedido na fila.', false); pintaEscolhas(); pintaTudo(); }
+  if (ok) { CONV.pendente = null; guardaConv(); responde(escolhida.designada ? `Vektor aqui. Pedido de ${nomeFn(item.func)} ${item.cli === 'marca' ? 'da sua marca' : 'de ' + nomeCli(item.cli)} enviado; ${escolhida.designada === 'Lindson' ? 'a conta Lindson' : 'o ' + escolhida.designada} pega.`.replace('o Zuleide', 'a Zuleide') : `Vektor aqui. Pedido de ${nomeFn(item.func)} enviado. Fica na espera até uma conta voltar.`); P.fn = null; P.forcar = false; $('#detalhe').value = ''; falaTxt('Pedido na fila.', false); pintaEscolhas(); pintaTudo(); }
 }
 function executaAcao(id) {
   if (id === 'status') { ir('#resultados'); return; }
