@@ -161,15 +161,6 @@ main{margin-left:var(--rail)}
 .cli:hover .led{background:#6b5a1a}
 .linha{transition:background .25s}.linha:hover{background:linear-gradient(90deg,rgba(245,197,24,.05),transparent 60%)}
 /* ===== v5 (10/11): tela de ativação, balão do VEKTOR, diagnóstico e Tarefas feitas ===== */
-.ativar{position:fixed;inset:0;z-index:95;display:grid;place-items:center;background:radial-gradient(60% 60% at 50% 45%,rgba(245,197,24,.12),rgba(5,5,5,.94) 60%),rgba(5,5,5,.9);backdrop-filter:blur(6px);cursor:pointer;text-align:center;padding:24px}
-.ativar .m{display:grid;gap:18px;place-items:center}
-.ativar .anel{position:relative;width:min(260px,62vw);aspect-ratio:1;border-radius:50%;display:grid;place-items:center;border:1.5px solid rgba(245,197,24,.6);box-shadow:0 0 60px -10px rgba(245,197,24,.6),inset 0 0 40px -10px rgba(245,197,24,.5)}
-.ativar .anel::before,.ativar .anel::after{content:"";position:absolute;inset:-14px;border-radius:50%;border:1px dashed rgba(245,197,24,.45);animation:gira 18s linear infinite}
-.ativar .anel::after{inset:-30px;border-style:solid;border-color:rgba(245,197,24,.18) transparent;animation-duration:8s;animation-direction:reverse}
-.ativar .anel b{font:400 clamp(30px,6vw,44px)/1 var(--f-t);letter-spacing:.3em;padding-left:.3em;color:var(--am);text-shadow:0 0 22px rgba(245,197,24,.6)}
-.ativar .t{font:400 clamp(26px,4.4vw,46px)/1 var(--f-t);text-transform:uppercase;letter-spacing:.04em}
-.ativar .t em{font-style:normal;background:var(--am);color:#0A0A0A;padding:0 .12em}
-.ativar small{font:500 10.5px/1.7 var(--f-m);letter-spacing:.2em;color:var(--apag);text-transform:uppercase;max-width:420px}
 .balao{position:absolute;left:50%;top:-2%;transform:translateX(-50%);max-width:min(92%,420px);z-index:6;background:rgba(14,13,10,.9);border:1px solid rgba(245,197,24,.6);padding:10px 14px;font:600 14px/1.4 var(--f-c);color:var(--txt);opacity:0;transition:opacity .3s;pointer-events:none;text-align:center}
 .balao::after{content:"";position:absolute;left:50%;bottom:-7px;width:12px;height:12px;background:inherit;border-right:1px solid rgba(245,197,24,.6);border-bottom:1px solid rgba(245,197,24,.6);transform:translateX(-50%) rotate(45deg)}
 .balao.on{opacity:1}
@@ -624,7 +615,7 @@ input.campo{width:100%;background:#0E0D0A;border:1px solid #2B2B28;color:var(--t
 </nav>
 <div class="envio-cel" id="envio-cel"><div><small id="ec-eq">A equipe escolhe</small><b id="ec-t">—</b></div><button class="btn am" type="button" data-envia-cel>Enviar</button></div>
 <div id="toast" role="status" aria-live="polite"></div>
-<div class="ativar" id="ativar" role="button" tabindex="0" aria-label="Toque para ativar o VEKTOR"><div class="m"><div class="anel"><b>VEKTOR</b></div><div class="t">Toque para <em>ativar</em> o VEKTOR</div><small>Um toque libera o som, o microfone e a escuta. Depois é só falar.</small></div></div>
+
 
 <!--ESTADO-->
 <script src="/painel/comando/voz/voz.js"></script>
@@ -823,6 +814,7 @@ function montaVolume(stream) {
     ESC.an = ESC.ctx.createAnalyser(); ESC.an.fftSize = 512; ESC.an.smoothingTimeConstant = .6; src.connect(ESC.an); ESC.buf = new Uint8Array(ESC.an.fftSize); } catch (e) {}
 }
 function lerVolume() {
+  if (typeof VK !== 'undefined' && VK.tocando) return volumeClipe() || (AV.falando ? .25 + Math.random() * .2 : 0);
   if (!ESC.an || !ESC.buf) return 0; ESC.an.getByteTimeDomainData(ESC.buf); let s = 0;
   for (let i = 0; i < ESC.buf.length; i++) { const v = (ESC.buf[i] - 128) / 128; s += v * v; }
   return Math.min(1, Math.sqrt(s / ESC.buf.length) * 5);
@@ -830,7 +822,7 @@ function lerVolume() {
 async function pedeMic() {
   if (ESC.stream) return true;
   if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) return true; // sem a API: o reconhecimento pede sozinho
-  try { ESC.stream = await navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: true, noiseSuppression: true } }); montaVolume(ESC.stream); return true; }
+  try { ESC.stream = await navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: true, noiseSuppression: true, autoGainControl: true } }); montaVolume(ESC.stream); return true; }
   catch (e) { if (e && (e.name === 'NotAllowedError' || e.name === 'SecurityError')) { bloqueado(); return false; } if (e && e.name === 'NotFoundError') { avisoVoz('Nenhum microfone encontrado. Ligue um microfone ou fone com microfone e toque em Tentar de novo.'); return false; } return true; }
 }
 function bloqueado() { ESC.quer = false; ESC.estado = 'bloqueado'; pintaEscuta();
@@ -841,8 +833,8 @@ function liga() {
   if (ESC.rec || !ESC.quer || document.hidden) return; // v4: continua ouvindo enquanto o VEKTOR fala (para poder interromper)
   const r = new SR(); r.lang = 'pt-BR'; r.continuous = true; r.interimResults = true; r.maxAlternatives = 1; ESC.rec = r;
   r.onstart = () => { ESC.estado = 'ouvindo'; ESC.usado = 0; ESC.usadoLen = 0; avisoVoz(''); pintaEscuta(); };
-  r.onresult = e => { ESC.recuo = 300; ouviu(e); };
-  r.onerror = e => { ESC.erro = e.error;
+  r.onresult = e => { if (ESC.falando || VK.tocando) return; ESC.recuo = 300; ouviu(e); };
+  r.onerror = e => { ESC.erro = e.error; ESC.ultErro = e.error + ' ' + new Date().toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' }); diag();
     if (e.error === 'not-allowed' || e.error === 'service-not-allowed') { if (!ESC.gesto) { ESC.estado = 'gesto'; pintaEscuta(); } else bloqueado(); }
     else if (e.error === 'network') avisoVoz('A voz do navegador perdeu a conexão. Tentando de novo sozinho…');
     else if (e.error === 'audio-capture') avisoVoz('O microfone está em uso por outro programa ou desligado.'); };
@@ -864,11 +856,8 @@ function ouviu(e) {
   for (let i = ESC.usado; i < n; i++) { let t = e.results[i][0].transcript; if (i === ESC.usado && ESC.usadoLen) t = t.slice(ESC.usadoLen); txt += t + ' '; if (!e.results[i].isFinal) fin = false; }
   txt = txt.replace(/\s+/g, ' ').trim(); if (!txt) return;
   const ult = n - 1, lenUlt = e.results[ult][0].transcript.length, fecha = () => { clearTimeout(ESC.tPausa); ESC.tPausa = null; if (fin) { ESC.usado = n; ESC.usadoLen = 0; } else { ESC.usado = ult; ESC.usadoLen = lenUlt; } };
-  if (ESC.falando || Date.now() - VZ.ate < 1500) {
-    if (ESC.falando && PARA.test(sem(txt).replace(/[.!?,]/g, '').trim())) { fecha(); interrompe(); falaTxt(txt, false); return; }
-    if (eco(txt)) { if (fin) fecha(); return; }
-    if (ESC.falando) interrompe();
-  }
+  if (ESC.falando || VK.tocando) return; // meia-duplex: enquanto ele fala, nada do que chega é ouvido
+  if (ecoRecente(txt)) { if (fin) fecha(); return; }
   falaTxt(txt, true);
   clearTimeout(ESC.tPausa);
   if (fin) { fecha(); frase(txt); } else ESC.tPausa = setTimeout(() => { fecha(); frase(txt); }, 700);
@@ -877,7 +866,7 @@ function desliga() { const r = ESC.rec; ESC.rec = null; if (r) { r.onend = null;
 function frase(t) {
   if (!t) return;
   if (ESC.captura) { const f = ESC.captura; ESC.captura = null; f(t); return; }
-  falaTxt(t, false); roteia(t);
+  ESC.ultOuviu = t.slice(0, 80); diag(); falaTxt(t, false); roteia(t);
 }
 // escuta para um campo (ajuste, resposta): a próxima frase vai para o campo
 const capturar = () => new Promise(res => { ESC.captura = res; toast('Fale agora…'); if (!ESC.rec) { ESC.quer = true; liga(); } });
@@ -889,42 +878,106 @@ function pintaEscuta() {
   if (b) { b.textContent = txt; b.dataset.estado = ESC.estado; }
   if (r) r.textContent = txt;
   if (n) n.dataset.estado = ESC.estado;
-  $('#fala').classList.toggle('ativa', ESC.estado === 'ouvindo');
+  $('#fala').classList.toggle('ativa', ESC.estado === 'ouvindo'); diag();
 }
 function falaTxt(t, vivo) { $('#fala-t').textContent = t; $('#fala').classList.toggle('vivo', !!vivo); }
 document.addEventListener('visibilitychange', () => { if (document.hidden) { desliga(); if (ESC.estado === 'ouvindo') { ESC.estado = 'pausado'; pintaEscuta(); } } else if (ESC.quer) liga(); });
 // navegador que exige gesto: o primeiro toque em qualquer lugar liga a escuta e destrava o áudio
-addEventListener('pointerdown', () => { if (ESC.gesto) return; ESC.gesto = true; if (ESC.ctx && ESC.ctx.state === 'suspended') ESC.ctx.resume();
-  if (ESC.estado === 'gesto' || ESC.estado === 'iniciando') { ESC.quer = true; iniciaEscuta(); } saudaDepoisDoGesto(); }, { capture: true });
+// v5: sem tela de ativação; qualquer toque também libera o áudio, em silêncio
+addEventListener('pointerdown', () => { const primeiro = !ESC.gesto; ESC.gesto = true; try { if (ESC.ctx && ESC.ctx.state === 'suspended') ESC.ctx.resume(); } catch (e) {}
+  if (primeiro) { try { if (window.speechSynthesis) { const u = new SpeechSynthesisUtterance(''); u.volume = 0; speechSynthesis.speak(u); } } catch (e) {} VK.avisou = VK.avisou; }
+  if (ESC.estado === 'gesto' || ESC.estado === 'iniciando') { ESC.quer = true; iniciaEscuta(); } }, { capture: true });
 
-// ---------- VEKTOR responde falando (speechSynthesis pt-BR) ----------
+window.__PRONUNCIA = window.__PRONUNCIA || /*PRONUNCIA*/[];
+// ---------- VEKTOR responde (v5, conta Leandro, 10/11/2026) ----------
+// "Ele tá falando em looping pra tudo que eu peço" (Lindson): meia-duplex. Antes de falar, a escuta para (abort) e falando=true;
+// 600 ms depois do fim do último áudio, a escuta volta. O que for ouvido enquanto ele fala é ignorado; o que parecer a última fala
+// dele (≥ 50% das palavras, nos 8 s seguintes) é descartado como eco. Nunca repete a mesma frase em 15 s.
+// Voz: clipes pré-gravados (voz/voz.js → window.__VOZ, chave FNV-1a da frase da tela, um clipe por fala completa sempre que der);
+// frase sem clipe vai para o speechSynthesis com voz masculina pt-BR e o dicionário de pronúncia (só no que é falado).
+// Sem toque: a voz tenta tocar sozinha; se o navegador bloquear, ele responde no balão e avisa uma vez como liberar de vez.
 let VOZ_ON = true; try { VOZ_ON = localStorage.getItem('cmd-voz') !== '0'; } catch (e) {}
 let VOZ = null;
 function melhorVoz() {
   if (!window.speechSynthesis) return null; const vs = speechSynthesis.getVoices().filter(v => /^pt(-|_)?(BR)?/i.test(v.lang));
-  const nota = v => (/pt[-_]BR/i.test(v.lang) ? 10 : 0) + (/natural|neural|online/i.test(v.name) ? 6 : 0) + (/google/i.test(v.name) ? 4 : 0) + (/antonio|francisca|thalita|luciana|daniel|felipe/i.test(v.name) ? 3 : 0);
+  const nota = v => (/pt[-_]BR/i.test(v.lang) ? 10 : 0) + (/natural|neural|online/i.test(v.name) ? 6 : 0) + (/daniel|antonio|ricardo|felipe|male|masculin/i.test(v.name) ? 9 : 0)
+    - (/francisca|thalita|luciana|maria|vitoria|leticia|helena|camila|female|feminin|google/i.test(v.name) ? 7 : 0);
   return vs.sort((a, b) => nota(b) - nota(a))[0] || null;
 }
 if (window.speechSynthesis) { VOZ = melhorVoz(); speechSynthesis.onvoiceschanged = () => { VOZ = melhorVoz(); }; }
-// v4: fila de falas (frase por frase, conforme a resposta chega). VZ.falado guarda o que ele disse, para filtrar o eco.
-const VZ = { fila: 0, falado: [], ate: 0 };
-function utter(txt) {
-  const u = new SpeechSynthesisUtterance(txt); u.lang = 'pt-BR'; if (VOZ) u.voice = VOZ; u.rate = 1.06; u.pitch = .9;
-  VZ.fila++; VZ.falado = VZ.falado.concat([sem(txt)]).slice(-6);
-  u.onstart = () => { ESC.falando = true; AV.falando = 1; if (!ESC.rec) liga(); };
-  const fim = () => { VZ.fila = Math.max(0, VZ.fila - 1); if (!VZ.fila) { ESC.falando = false; AV.falando = 0; VZ.ate = Date.now(); CONV.ate = Date.now() + 60000; if (!ESC.rec) setTimeout(liga, 200); } };
-  u.onend = fim; u.onerror = fim; u.onboundary = () => { AV.silaba = 1; };
-  return u;
+const PRON = (window.__PRONUNCIA || []).map(([de, para]) => [new RegExp('(^|[^\\p{L}\\p{N}])' + de.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '(?=$|[^\\p{L}\\p{N}])', 'giu'), para]);
+const UN = ['zero', 'um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez', 'onze', 'doze', 'treze', 'catorze', 'quinze', 'dezesseis', 'dezessete', 'dezoito', 'dezenove'];
+const DZ = ['', '', 'vinte', 'trinta', 'quarenta', 'cinquenta', 'sessenta', 'setenta', 'oitenta', 'noventa'];
+const extenso = n => n < 20 ? UN[n] : n < 100 ? DZ[n / 10 | 0] + (n % 10 ? ' e ' + UN[n % 10] : '') : n === 100 ? 'cem' : String(n);
+function pronuncia(t) { let x = String(t); PRON.forEach(([re, para]) => { x = x.replace(re, (m, a) => a + para); }); return x.replace(/\b\d{1,3}\b/g, m => +m <= 100 ? extenso(+m) : m); }
+function vkNorm(t) { return String(t).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim(); }
+function vkChave(t) { let h = 0x811c9dc5; const s = vkNorm(t); for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 0x01000193) >>> 0; } return h.toString(16).padStart(8, '0'); }
+const clipe = t => (window.__VOZ || {})[vkChave(t)];
+const VK = { fila: [], tocando: false, audio: null, an: null, buf: null, ultima: '', fimEm: 0, ditas: {}, avisou: false, tReliga: null };
+const VZ = { falado: [], ate: 0 }; // compatível com a v4
+let MUDO = false;
+function balao(t) { const b = $('#balao'); if (!b) return; b.querySelector('span').textContent = t; b.classList.add('on'); clearTimeout(balao.t); balao.t = setTimeout(() => b.classList.remove('on'), 9000); }
+function inicioFala() { clearTimeout(VK.tReliga); if (!VK.tocando) { VK.tocando = true; ESC.falando = true; AV.falando = 1; desliga(); diag(); } }
+function fimFala() { VK.tocando = false; ESC.falando = false; AV.falando = 0; VK.fimEm = VZ.ate = Date.now(); if (CONV.ate > Date.now() - 2000) CONV.ate = Date.now() + 10000;
+  clearTimeout(VK.tReliga); VK.tReliga = setTimeout(() => { if (ESC.quer && !VK.tocando) liga(); }, 600); diag(); }
+function somBloqueado() {
+  VK.fila = []; if (VK.tocando) fimFala();
+  if (VK.avisou) return; VK.avisou = true;
+  papo('sis', 'Para eu falar sem toque: clique no cadeado ao lado do endereço → Configurações do site → Som: Permitir (e Microfone: Permitir).');
+  toast('O navegador bloqueou o som. Respondo por escrito até liberar (veja o aviso).');
 }
-function calaVoz() { try { if (window.speechSynthesis) speechSynthesis.cancel(); } catch (e) {} VZ.fila = 0; ESC.falando = false; AV.falando = 0; VZ.ate = Date.now(); }
-function dizParte(txt) { txt = String(txt || '').trim(); if (!txt || !VOZ_ON || !window.speechSynthesis || !ESC.gesto) return; try { speechSynthesis.speak(utter(txt)); } catch (e) {} }
+function ligaVolumeClipe(a) {
+  try { if (VK.an || !ESC.ctx || ESC.ctx.state !== 'running') return; const src = ESC.ctx.createMediaElementSource(a); VK.an = ESC.ctx.createAnalyser(); VK.an.fftSize = 512;
+    src.connect(VK.an); VK.an.connect(ESC.ctx.destination); VK.buf = new Uint8Array(VK.an.fftSize); } catch (e) {}
+}
+function volumeClipe() { if (!VK.an || !VK.tocando) return 0; VK.an.getByteTimeDomainData(VK.buf); let s = 0; for (let i = 0; i < VK.buf.length; i++) { const v = (VK.buf[i] - 128) / 128; s += v * v; } return Math.min(1, Math.sqrt(s / VK.buf.length) * 5); }
+function proxima() {
+  const t = VK.fila.shift(); if (t == null) { fimFala(); return; }
+  inicioFala(); VK.ultima = t; VZ.falado = VZ.falado.concat([sem(t)]).slice(-6);
+  const arq = clipe(t); if (arq) tocaClipe('/painel/comando/voz/' + arq, t); else falaTTS(t);
+}
+function tocaClipe(url, t) {
+  const a = VK.audio || (VK.audio = new Audio()); a.preload = 'auto'; ligaVolumeClipe(a);
+  a.onended = () => setTimeout(proxima, 60); a.onerror = () => falaTTS(t); a.src = url;
+  const p = a.play(); if (p && p.catch) p.catch(e => { if (e && e.name === 'NotAllowedError') somBloqueado(); else falaTTS(t); });
+}
+function falaTTS(t) {
+  if (!window.speechSynthesis) { setTimeout(proxima, 0); return; }
+  let comecou = false; const u = new SpeechSynthesisUtterance(pronuncia(t)); u.lang = 'pt-BR'; if (VOZ) u.voice = VOZ; u.rate = 1; u.pitch = .7;
+  u.onstart = () => { comecou = true; }; u.onboundary = () => { AV.silaba = 1; };
+  u.onend = () => setTimeout(proxima, 60);
+  u.onerror = e => { if (e && e.error === 'not-allowed') somBloqueado(); else setTimeout(proxima, 60); };
+  try { speechSynthesis.speak(u); } catch (e) { setTimeout(proxima, 0); return; }
+  setTimeout(() => { if (!comecou && VK.tocando && VK.ultima === t && !speechSynthesis.speaking) { try { speechSynthesis.cancel(); } catch (e) {} somBloqueado(); } }, 2500);
+}
+// divide em frases e junta as vizinhas que têm um clipe só (fala inteira primeiro)
+function partes(txt) {
+  if (clipe(txt)) return [txt];
+  const fr = String(txt).replace(/\bDra\.\s/g, 'Dra ').split(/(?<=[.!?;])\s+/).map(x => x.replace(/ /g, ' ')).filter(Boolean), out = [];
+  for (let i = 0; i < fr.length;) { let j = fr.length - 1; while (j > i && !clipe(fr.slice(i, j + 1).join(' '))) j--; out.push(fr.slice(i, j + 1).join(' ')); i = j + 1; }
+  return out;
+}
+function calaVoz() { VK.fila = []; try { if (VK.audio) VK.audio.pause(); } catch (e) {} try { if (window.speechSynthesis) speechSynthesis.cancel(); } catch (e) {} if (VK.tocando) fimFala(); }
+function dizParte(txt) { txt = String(txt || '').trim(); if (!txt || !VOZ_ON || MUDO) return; VK.fila.push(...partes(txt)); if (!VK.tocando) proxima(); }
 function responde(txt, curto) {
   if (curto !== true) toast(txt);
-  papo('vektor', txt);
-  if (!VOZ_ON || !window.speechSynthesis || !ESC.gesto) return;
+  papo('vektor', txt); balao(txt);
+  if (!VOZ_ON || MUDO) return;
+  const k = sem(txt), agoraMs = Date.now(); if (VK.ditas[k] && agoraMs - VK.ditas[k] < 15000) return; VK.ditas[k] = agoraMs; // antirrepetição
   calaVoz(); dizParte(txt);
 }
 function interrompe() { calaVoz(); if (CONV.ab) { CONV.ab.abort(); CONV.ab = null; } nucleoPensa(false); }
+// eco: a transcrição parece a última fala dele (≥ 50% das palavras dela, nos 8 s depois do fim)
+function ecoRecente(t) {
+  if (!VK.ultima || (Date.now() - VK.fimEm > 8000 && !VK.tocando)) return false;
+  const L = sem(VK.ultima).split(/[^a-z0-9]+/).filter(w => w.length > 2), T = new Set(sem(t).split(/[^a-z0-9]+/));
+  return L.length > 0 && L.filter(w => T.has(w)).length / L.length >= .5;
+}
+function diag() {
+  const a = $('#dg-est'), b = $('#dg-err'), c = $('#dg-ouviu'); if (!a) return;
+  a.textContent = 'ESCUTA ' + (VK.tocando ? 'PAUSADA · FALANDO' : String(ESC.estado).toUpperCase());
+  b.textContent = 'ÚLTIMO ERRO ' + (ESC.ultErro || '—'); c.textContent = 'OUVIU “' + (ESC.ultOuviu || '—') + '”';
+}
 
 // ---------- v4 (conta Zuleide): o VEKTOR conversa ----------
 // "Ele não conversa comigo… quero algo fluido, como uma pessoa real, o JARVIS do Homem de Ferro" (Lindson, 09/11).
@@ -956,13 +1009,15 @@ function semCerebro(falta) {
   papo('sis', 'Conversa livre desligada agora. Para ligar, de graça: ' + (falta || 'Cloudflare → lindsonalmeida → Configurações → Vinculações → Workers AI (nome AI)') + '.');
 }
 function roteia(t) {
-  const s = sem(t);
+  const s = sem(t), chamou = ATIVA.test(s), resto = s.replace(ATIVA, '').trim();
   if (CONV.pendente && FIM_ENVIA.test(s.trim()) && s.split(' ').length <= 4) { manda(CONV.pendente); return; }
-  if (NOME.test(s) || Date.now() < CONV.ate) {
-    if (CONV.cerebro === false && Date.now() - (CONV.checado || 0) < 60000) { semCerebroLocal(t, s); return; }
-    conversa(t); return;
-  }
-  processa(t); // fora da conversa: só navegação e "enviar", como antes
+  // só reage (e fala) quando chamado pelo nome, ou na janela de 10 s depois que ele chamou; fora disso, só mostra e navega calado
+  if (!chamou && Date.now() >= CONV.ate) { MUDO = true; try { processa(t); } finally { MUDO = false; } return; }
+  CONV.ate = Date.now() + 10000;
+  if (chamou && !resto) { responde('Pois não?', true); return; }
+  if (/^(anota\w*\s+)?(feito|fiz|terminei)\b/.test(resto)) { feitoVoz(t); return; }
+  if (CONV.cerebro === false && Date.now() - (CONV.checado || 0) < 60000) { semCerebroLocal(t, s); return; }
+  conversa(t);
 }
 // sem cérebro: ainda responde ao chamado pelo nome e entende os comandos de antes
 function semCerebroLocal(t, s) {
@@ -1055,7 +1110,7 @@ function avatar() {
   addEventListener('pointermove', e => { AV.alvoX = e.clientX / innerWidth - .5; AV.alvoY = e.clientY / innerHeight - .5; }, { passive: true });
   function quadro(agora) {
     const t = (agora - t0) / 1000;
-    const vol = Math.max(lerVolume(), 0); AV.nivel += ((ESC.estado === 'ouvindo' ? vol : 0) - AV.nivel) * .25;
+    const vol = Math.max(lerVolume(), 0); AV.nivel += ((ESC.estado === 'ouvindo' || AV.falando ? vol : 0) - AV.nivel) * .25;
     if (AV.silaba) AV.silaba *= .86;
     const fala = AV.falando ? (.35 + .65 * Math.abs(Math.sin(t * 11))) * (.5 + AV.silaba) : 0;
     yaw += ((Math.sin(t * .35) * .42 + AV.alvoX * .7) - yaw) * .05; pitch += ((Math.sin(t * .23) * .06 + AV.alvoY * .25) - pitch) * .05;
