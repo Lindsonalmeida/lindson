@@ -252,3 +252,4 @@ Levantado pela conta Lindson em 01/11/2026 a partir do histórico do git e dos a
 | 10/11/2026 | Leandro | WF Celulares v2 universo Apple (v1 reprovada): 3 caminhos, avatar, 6 destaques, 3 posts | agencia/clientes/wf-celulares/identidade/prancha-v2.jpg | aguardando aprovação |
 | 10/11/2026 | Leandro | WF Celulares: caminho B aprovado; kit final (avatar, destaques, posts, fachada, cartão) e logo SVG/PNG | agencia/clientes/wf-celulares/identidade/prancha-final.jpg e logo-b/ | aprovado |
 | 10/11/2026 | Leandro | WF Celulares: manual da marca 22 páginas 16:9 (caminho B) | privado dados/agencia/wf-celulares/manual-wf-celulares.pdf; prévia agencia/clientes/wf-celulares/identidade/manual-previa.jpg | aguardando aprovação |
+| 10/11/2026 | Leandro | WF Celulares: 9 artes do feed com legendas (ofertas reais do cliente) | agencia/clientes/wf-celulares/artes-01/ (previa-grade.jpg) | aguardando aprovação |

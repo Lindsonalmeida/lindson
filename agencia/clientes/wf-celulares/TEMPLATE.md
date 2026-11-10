@@ -13,3 +13,12 @@ Capturas em `pesquisa/capturas/` (geradas por `pesquisa/cap.js`, Playwright). 8 
 | 8 | Trocafone | Brasil | trocafone-br.jpg | descartada: é exatamente o padrão de promoção que queremos sair |
 
 Bloqueados (não contornados): Swappie (verificação anti-robô), Behance e Brand New (falha de conexão), Muse Mobile (túnel recusado).
+
+## artes-01 · 9 artes do feed (10/11/2026)
+Composições copiadas (referências da pesquisa acima + linguagem Apple da identidade final):
+- **Vitrine de produto** (fundo preto, produto central, título fino de 2 linhas com gradiente): 01 e 08.
+- **Back Market** (preço grande em bloco, produto na mão): 02 e 06.
+- **iFixit** (foto de conserto sangrada, escura): 03.
+- **Nothing** (ficha técnica numerada): 05 e 09.
+- Notificação de vidro fosco (UI de celular): 07. Banner editorial de titânio: 04.
+Descartado: o estilo dos prints do cliente (LED vermelho, tarja amarela, fogo), porque briga com a identidade aprovada.
