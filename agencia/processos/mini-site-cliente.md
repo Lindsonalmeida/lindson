@@ -116,3 +116,4 @@ O Claude altera e publica; a Cloudflare atualiza sozinha em ~1 minuto.
 | Real Time (RT Full Jobs) | `Lindsonalmeida/realtime` | https://realtimeslz.pages.dev (site) · https://realtimeslz.pages.dev/bio/ (bio) |
 | Tribuna 98 (Thiago Azevedo) | `Lindsonalmeida/tribuna98` | https://tribuna98.pages.dev (só bio; o site principal é o tribuna98.com.br) |
 | Clínica Dra. Jaci Cunha | `Lindsonalmeida/drajacicunha` | https://drajacicunha.pages.dev (site de SEO) · https://drajacicunha.pages.dev/bio/ (bio) · no ar (05/11) |
+| WF Celulares | `Lindsonalmeida/wfcelulares` | https://wfcelulares.pages.dev (bio · código pronto em 10/11, falta importar na Cloudflare) |
