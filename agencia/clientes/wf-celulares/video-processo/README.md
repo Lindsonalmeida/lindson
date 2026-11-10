@@ -6,3 +6,6 @@
 - **Voz: PROVISÓRIA.** É a voz D do VEKTOR (edge-tts pt-BR-AntonioNeural), em `voz-edge/`. A voz 6 do Lindson (Chatterbox) não pôde rodar porque a rede baixava a 350 KB/s: torch e o modelo somam cerca de 4 GB, mais de 90 min. Para trocar, numa máquina com o Chatterbox: `python3 voz.py` gera `voz/` e depois `python3 montar.py voz`. A referência fica em `agencia/marca-lindson/voz/ref6.wav`, fora do Git.
 - **Áudio:** trilha Mixkit #623 (licença Mixkit, sem crédito obrigatório; https://assets.mixkit.co/music/623/623.mp3) com ducking por sidechain. SFX Mixkit: whoosh #1489 nos cortes e impacto #1143 no logo e no CTA.
 - **Gerar:** `python3 cenas.py` → `node render.js` (cenas/) → `python3 voz.py edge` → `python3 montar.py voz-edge`.
+
+## Legenda do Reels (10/11, conta Leandro)
+REBRANDING DE LOJA DE CELULAR EM SÃO LUÍS: DO LOGO GENÉRICO À MARCA COM PROCEDÊNCIA · O que estava travando · O que eu fiz (engenharia reversa, logo, Laudo WF, manual de 22 páginas, feed de 9 artes) · O resultado · CTA no direct · #rebranding #identidadevisual #lojadecelular #saoluisma #marketingdigital (o texto completo foi enviado ao Lindson na conversa)
