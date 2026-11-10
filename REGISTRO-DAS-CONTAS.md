@@ -253,3 +253,4 @@ Levantado pela conta Lindson em 01/11/2026 a partir do histórico do git e dos a
 | 10/11/2026 | Leandro | WF Celulares: caminho B aprovado; kit final (avatar, destaques, posts, fachada, cartão) e logo SVG/PNG | agencia/clientes/wf-celulares/identidade/prancha-final.jpg e logo-b/ | aprovado |
 | 10/11/2026 | Leandro | WF Celulares: manual da marca 22 páginas 16:9 (caminho B) | privado dados/agencia/wf-celulares/manual-wf-celulares.pdf; prévia agencia/clientes/wf-celulares/identidade/manual-previa.jpg | aguardando aprovação |
 | 10/11/2026 | Leandro | WF Celulares: 9 artes do feed com legendas (ofertas reais do cliente) | agencia/clientes/wf-celulares/artes-01/ (previa-grade.jpg) | aguardando aprovação |
+| 10/11/2026 | Zuleide | Capas Reels curso v6 (8 composições diferentes) | agencia/clientes/curso-processo-legislativo/capas-reels-rafael/v6/ e painel do curso | aguardando |

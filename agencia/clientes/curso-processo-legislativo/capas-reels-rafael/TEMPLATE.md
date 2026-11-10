@@ -52,3 +52,8 @@ Capturas reais do Behance em `v5/referencias/` (prévias; capturas inteiras no s
 | R3 | Behance 166179777 · Social Media Advocacia (Igor Vinicius) | palavra serifada gigante cortada atrás da pessoa, objeto jurídico (§ em bronze, documento) |
 Descartadas: as outras 97 do `lancamento-infoprodutor-expert` (neon/laranja fora da paleta) e Dark Luxo cobre (paleta).
 Camadas (12): cena de banco desfocada (Pexels da v2, uma por capa; 04 e 06 com bancadas do plenário desenhadas) · vinheta de cor · feixe · halo · palavra gigante em degradê com sombra projetada + contorno deslocado · § gigante em relevo · documento "§ Nº" · professor recortado com rim light e sombra · brilho anamórfico · carimbo circular · vidro fosco com o tema · cantos de corte e numeração 01/08 · grão. Rosto 330 px, mesma linha para Rafael e Tiago.
+
+## v6 (10/11): "a identidade sim, mas as composições não podem ser iguais" (Lindson)
+Mesma identidade da v5 (verde/dourado/creme, Instrument Serif + Inter Tight, §, grão, vinheta, cantos 01/08, vidro fosco, rim light, mesmas fotos). Composição diferente em cada capa (`v6/gerar.py` + `v6/estilo.css`):
+01 palavra vertical à esquerda, professor à direita (Koto, UK) · 02 close de rosto + faixa com o tema (R1 Key Visual Experts, BR) · 03 meio corpo + documento em primeiro plano (R3 Social Media Advocacia, BR) · 04 tela dividida em diagonal (Studio Dumbar, NL) · 05 moldura de jornal (Harvard Law Review, US / Guardian Law, UK) · 06 carimbo gigante + professor menor (R2 Dieggo Bruno, BR) · 07 "Art. 59" gigante ao fundo (cartazes Pentagram, US/UK) · 08 centrada com aura de luz (R1, BR).
+Patamar: Rafael e Tiago têm cada um 1 capa com rosto 460 px, 1 com 260 px e 2 com 330 px. Títulos dentro do miolo 4:5.
