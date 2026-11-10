@@ -25,3 +25,15 @@ Ordem de postar: 01 Rafael A, 02 Tiago A (creme), 03 Rafael B, 04 Tiago C, 05 Ra
 
 ## Fotos
 Só existe **1 foto real de cada professor** no painel/privado. Usadas: Rafael na capa 01, Tiago na capa 02. Capas 03 a 08 saíram tipográficas: **faltam 3 fotos de cada** (6 no total).
+
+## v2 (10/11, retorno do Lindson): 01 e 02 APROVADAS; 03 a 08 refeitas com imagem de banco
+Fotos novas do painel: não deu para ler (ficam no KV `CONTAS`, chave `foto:curso:<id>`; o conector da Cloudflare só lista namespaces e a rota `/api/fotos` exige login). Usei banco Pexels (licença Pexels, uso livre, crédito opcional):
+| Capa | Pexels ID | Foto · autor |
+|---|---|---|
+| 03 questão de ordem | 32266781 | Plenário vazio com microfones · Héctor Berganza |
+| 04 sancionar | 34066105 | Mão assinando documento formal |
+| 05 moção | 36207471 | Plenário do Parlamento suíço, Berna · Christian Wasserfallen |
+| 06 procedimento | 7054510 | Pessoa escrevendo no papel |
+| 07 fases | 35013248 | Câmara dos Comuns do Canadá · Daniel Miller |
+| 08 urgência | 7224866 | Ampulheta · Dhia Eddine |
+Ordem das cores no grid: verde, creme, verde, creme, dourado, creme, dourado, verde (sem cor igual lado a lado nem em cima).

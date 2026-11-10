@@ -439,3 +439,5 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 
 - **10/11/2026 (conta Leandro) · VEKTOR v6:** "a resposta está engessada sempre… deixe ele sem erros" e depois "corrija". Modo local entende intenções (status, fila, equipe, aprovar/ajuste por voz, feitas, agenda, ferramentas, silêncio/volume/repete/cancela), varia as frases, lembra o cliente e confirma antes de gravar. Bateria 51/51. Falta o Lindson criar a vinculação Workers AI "AI" na Cloudflare para a conversa livre.
 - **10/11/2026 (Zuleide): curso legislativo, 8 capas de Reels (4 Rafael, 4 Tiago)** na identidade do curso (verde, dourado, Instrument Serif + Inter Tight, §), aguardando aprovação na aba Para aprovar do painel. Só há 1 foto de cada professor: faltam 3 de cada. Painel do curso ganhou as abas Para aprovar e Usadas.
+- **10/11/2026 (Zuleide): APROVADAS as capas de Reels 01 (Rafael, emenda) e 02 (Tiago, portaria)** do curso: foto real recortada, palavra gigante atrás, manchete embaixo. Capas 03 a 08 refeitas com imagem de banco, aguardando.
+- **REGRA PERMANENTE (Lindson, 10/11/2026): nunca capa ou arte só com texto: sempre foto real ou imagem de banco realista.**

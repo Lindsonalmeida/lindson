@@ -94,3 +94,4 @@ Origem das três fotos: reel do Instagram do sócio, captura enviada pelo Lindso
 | `rafael-araujo-veras.jpg` (recorte `cut-rafael-araujo-veras/recorte-limpo.png`) | Capa Reels 01 "Vereador pode aumentar despesa por emenda?" (antes: site e foto de perfil) | 10/11 | Zuleide |
 | `tiago-azevedo.jpg` (recorte `cut-tiago-azevedo/recorte-limpo.png`) | Capa Reels 02 "Portaria serve para quê?" (antes: site e foto de perfil) | 10/11 | Zuleide |
 Não há outra foto dos dois: faltam 3 de cada para as capas 03 a 08.
+| Pexels 32266781, 34066105, 36207471, 7054510, 35013248, 7224866 (banco, privado `capas-reels/banco/`) | Capas Reels 03 a 08, uma por capa | 10/11 | Zuleide |
