@@ -125,7 +125,7 @@ const CASOS = [
   const linhas = [], falhas = []; let n = 0, okN = 0, ultimaResp = '';
   for (const c of CASOS) {
     if (c.pausa) { await pg.waitForTimeout(c.pausa); continue; }
-    await quieto();
+    if (!c.eco) await quieto(); else await pg.waitForFunction(() => window.__falando <= 0 && window.__rec, null, { timeout: 9000 }).catch(() => {});
     if (c.eco) { // a última fala dele volta pelo microfone (sala com eco): não pode virar resposta
       const st0 = await pg.evaluate(() => ({ l: window.__vk.log.length, f: window.__vk.falas.length, u: (window.__vk.falas.slice(-1)[0] || [])[1] || '' }));
       await pg.evaluate(t => window.__diz(t), st0.u); await pg.waitForTimeout(1500); await quieto();

@@ -984,7 +984,7 @@ function interrompe() { calaVoz(); if (CONV.ab) { CONV.ab.abort(); CONV.ab = nul
 function ecoRecente(t) {
   // v6: eco = a transcrição é quase toda feita das palavras da última fala dele (2+ palavras com 75%, ou 3+ com 60%).
   // Antes bastava a fala dele estar contida no que foi ouvido, e "confirma" depois de "Confirma?" era jogado fora.
-  if (!VK.ultima || (Date.now() - VK.fimEm > 8000 && !VK.tocando)) return false;
+  if (!VK.ultima || (Date.now() - VK.fimEm > 2500 && !VK.tocando)) return false; // eco real chega logo depois da fala; mais tarde é o Lindson repetindo a dica
   if (ATIVA.test(sem(t)) && !/\bvektor\b/.test(sem(VK.ultima))) return false; // chamou pelo nome: é o Lindson, não o eco
   const VAZIA = /^(que|esta|para|voce|com|uma|tem|nao|sim|mais|isso|esse|essa|aqui|agora|tudo|pra|pro|por|dos|das|nos|nas|foi|vai|ser|sua|seu|ele|ela|como|qual|quem|onde)$/;
   const L = new Set(VZ.falado.join(' ').split(/[^a-z0-9]+/)), T = sem(t).split(/[^a-z0-9]+/).filter(w => w.length > 2 && !VAZIA.test(w) && !/^(vektor|vector|vetor|victor|vitor)$/.test(w));
