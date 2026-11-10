@@ -33,6 +33,8 @@ Link do WhatsApp (tela 10), mensagem pronta com o código MS:
 `https://wa.me/5598985621808?text=Oi%2C%20Lindson!%20Quero%20um%20site%20pro%20meu%20neg%C3%B3cio%20(MS)`
 ("Oi, Lindson! Quero um site pro meu negócio (MS)")
 
+> **10/11 (conta Pedro): os 9 vídeos (s04–s07 e os 5 por cliente) foram refeitos com a VOZ 6 APROVADA** (ref `dados/agencia/voz-lindson/ref6-aprovada.wav` no privado; exaggeration 0,75, cfg 0,3, temperatura 0,8; corta pausas, ritmo 1,06×, brilho +3 dB em 3,5 e 8 kHz, compressor, -15 LUFS) pelo `narra6.py`, que segue o gerador oficial `conteudo/reels/leva-30s/motor/gerar_voz_lindson.py`. Mesmas falas e pronúncias; conferidas no Whisper (4 falas refeitas com outra semente). As durações abaixo são da versão anterior: agora os vídeos têm 8 a 10,5 s (`duracoes.json`). O `narra.py` (método antigo) fica só como histórico.
+
 ## Vídeos: narração, SFX, trilha e VFX (regra do Lindson, 05/11: "nunca faça vídeos sem áudio, sempre narração fluida que não pareça IA, VFX e SFX")
 **Narração na voz clonada do próprio Lindson** (Dublê, Chatterbox Multilingual; ele mesmo mandou os áudios e autorizou a voz). Método aprovado do `apps/clone-studio/motor_voz.py`: melhor trecho + identidade média da amostra inteira, temperatura 0,6, voz limpa e fluida (blocos de até ~220 caracteres, pausas de ~0,2 s, sem respiração artificial, estalos aparados, estúdio leve). Sem rosto no vídeo (só as telas dos sites). Conferido com Whisper: texto certo, sem corte e sem pausa robótica (maior silêncio no meio da fala: 0,39 s, na troca de frase).
 
