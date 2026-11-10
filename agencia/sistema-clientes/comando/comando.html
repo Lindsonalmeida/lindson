@@ -160,6 +160,41 @@ main{margin-left:var(--rail)}
 .tec:hover .face{box-shadow:inset 0 1px 0 rgba(255,255,255,.09),inset 0 -5px 0 rgba(0,0,0,.5),0 3px 0 #050505,0 0 24px -6px rgba(245,197,24,.55)}
 .cli:hover .led{background:#6b5a1a}
 .linha{transition:background .25s}.linha:hover{background:linear-gradient(90deg,rgba(245,197,24,.05),transparent 60%)}
+/* ===== v5 (10/11): tela de ativação, balão do VEKTOR, diagnóstico e Tarefas feitas ===== */
+.ativar{position:fixed;inset:0;z-index:95;display:grid;place-items:center;background:radial-gradient(60% 60% at 50% 45%,rgba(245,197,24,.12),rgba(5,5,5,.94) 60%),rgba(5,5,5,.9);backdrop-filter:blur(6px);cursor:pointer;text-align:center;padding:24px}
+.ativar .m{display:grid;gap:18px;place-items:center}
+.ativar .anel{position:relative;width:min(260px,62vw);aspect-ratio:1;border-radius:50%;display:grid;place-items:center;border:1.5px solid rgba(245,197,24,.6);box-shadow:0 0 60px -10px rgba(245,197,24,.6),inset 0 0 40px -10px rgba(245,197,24,.5)}
+.ativar .anel::before,.ativar .anel::after{content:"";position:absolute;inset:-14px;border-radius:50%;border:1px dashed rgba(245,197,24,.45);animation:gira 18s linear infinite}
+.ativar .anel::after{inset:-30px;border-style:solid;border-color:rgba(245,197,24,.18) transparent;animation-duration:8s;animation-direction:reverse}
+.ativar .anel b{font:400 clamp(30px,6vw,44px)/1 var(--f-t);letter-spacing:.3em;padding-left:.3em;color:var(--am);text-shadow:0 0 22px rgba(245,197,24,.6)}
+.ativar .t{font:400 clamp(26px,4.4vw,46px)/1 var(--f-t);text-transform:uppercase;letter-spacing:.04em}
+.ativar .t em{font-style:normal;background:var(--am);color:#0A0A0A;padding:0 .12em}
+.ativar small{font:500 10.5px/1.7 var(--f-m);letter-spacing:.2em;color:var(--apag);text-transform:uppercase;max-width:420px}
+.balao{position:absolute;left:50%;top:-2%;transform:translateX(-50%);max-width:min(92%,420px);z-index:6;background:rgba(14,13,10,.9);border:1px solid rgba(245,197,24,.6);padding:10px 14px;font:600 14px/1.4 var(--f-c);color:var(--txt);opacity:0;transition:opacity .3s;pointer-events:none;text-align:center}
+.balao::after{content:"";position:absolute;left:50%;bottom:-7px;width:12px;height:12px;background:inherit;border-right:1px solid rgba(245,197,24,.6);border-bottom:1px solid rgba(245,197,24,.6);transform:translateX(-50%) rotate(45deg)}
+.balao.on{opacity:1}
+.balao b{display:block;font:500 9.5px var(--f-m);letter-spacing:.22em;color:var(--am);margin-bottom:3px}
+.diag{position:absolute;right:var(--gut);bottom:clamp(30px,5vh,44px);z-index:5;font:500 9.5px/1.6 var(--f-m);letter-spacing:.1em;color:rgba(242,238,227,.55);text-align:right;max-width:min(420px,40vw);pointer-events:none}
+.diag span{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.feitas-cab{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;margin-bottom:14px}
+.cont-cli{display:flex;flex-wrap:wrap;gap:0;border:1px solid var(--fio2);margin-bottom:22px}
+.cont-cli button{border:0;border-right:1px solid var(--fio2);background:none;padding:12px 16px;cursor:pointer;text-align:left;color:var(--apag);font:500 10px var(--f-m);letter-spacing:.14em;text-transform:uppercase;min-height:52px}
+.cont-cli button b{display:block;font:400 30px/1 var(--f-t);color:var(--txt);letter-spacing:0;margin-top:4px}
+.cont-cli button[aria-pressed="true"]{background:var(--am);color:#0A0A0A}.cont-cli button[aria-pressed="true"] b{color:#0A0A0A}
+.dia{margin-bottom:26px}
+.dia h3{margin:0 0 6px;font:400 26px/1 var(--f-t);text-transform:uppercase;display:flex;gap:12px;align-items:baseline}
+.dia h3 small{font:500 10.5px var(--f-m);letter-spacing:.16em;color:var(--apag)}
+.tf{display:grid;grid-template-columns:62px 150px minmax(0,1fr) 120px;gap:14px;align-items:baseline;padding:13px 0;border-bottom:1px solid var(--fio);font-size:14px}
+.tf .h{font:700 13px var(--f-m);color:var(--am)}
+.tf .c{font:400 18px/1.1 var(--f-t);text-transform:uppercase;letter-spacing:.02em}
+.tf .a{color:#E4DFD3;overflow-wrap:anywhere}
+.tf .a i{font-style:normal;font:700 9.5px var(--f-m);letter-spacing:.14em;color:#04150b;background:var(--ok);padding:2px 6px;margin-left:8px;vertical-align:middle}
+.tf .p{font:500 10.5px var(--f-m);letter-spacing:.12em;text-transform:uppercase;color:var(--apag);text-align:right}
+.chips-f{display:flex;flex-wrap:wrap;gap:6px}
+.chips-f button{border:1px solid var(--fio2);background:#1a1a18;color:var(--txt);padding:9px 12px;cursor:pointer;font:700 13px var(--f-c)}
+.chips-f button[aria-pressed="true"]{background:var(--am);border-color:var(--am);color:#0A0A0A}
+.lado{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+@media (max-width:860px){.tf{grid-template-columns:54px minmax(0,1fr);gap:4px 12px}.tf .a{grid-column:2}.tf .p{grid-column:2;text-align:left}.diag{display:none}}
 /* ===== faixa inclinada com números reais ===== */
 .faixa{position:relative;z-index:3;margin:-38px -4vw 0;transform:rotate(-2.2deg);background:var(--am);color:#0A0A0A;overflow:hidden;border-block:2px solid #0A0A0A}
 .faixa .trilha{display:flex;width:max-content;animation:corre 38s linear infinite}
@@ -183,7 +218,7 @@ main{margin-left:var(--rail)}
 .chassi .parafuso{position:absolute;width:7px;height:7px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#55534d,#1d1d1b);box-shadow:inset 0 0 0 1px #0a0a0a}
 .chassi .p1{left:9px;top:9px}.chassi .p2{right:30px;top:9px}.chassi .p3{left:30px;bottom:9px}.chassi .p4{right:9px;bottom:9px}
 .trilha-rot{display:flex;justify-content:space-between;gap:12px;margin:0 0 12px}
-.clis{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:6px;margin-bottom:22px}
+.clis{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));gap:6px;margin-bottom:22px}
 .cli{position:relative;text-align:left;cursor:pointer;border:0;padding:10px 10px 11px;min-height:66px;background:#232321;color:var(--txt);
   box-shadow:inset 0 1px 0 rgba(255,255,255,.07),inset 0 -3px 0 rgba(0,0,0,.45),0 2px 0 #050505;transition:transform .08s,background .15s}
 .cli:active{transform:translateY(2px);box-shadow:inset 0 1px 0 rgba(255,255,255,.05),0 0 0 #050505}
@@ -389,7 +424,7 @@ input.campo{width:100%;background:#0E0D0A;border:1px solid #2B2B28;color:var(--t
   .videos{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
   .linha{grid-template-columns:14px minmax(0,1fr) auto;gap:10px 12px}.linha .id,.linha .st{display:none}.linha .eq{grid-column:2/-1}.linha .ac{grid-column:2/-1;justify-content:flex-start}.extra{grid-column:1/-1}
   .config .c{grid-template-columns:1fr auto}.config .c .s{grid-column:1/-1;grid-row:2}
-  .dock{display:grid;grid-template-columns:repeat(5,1fr);position:fixed;left:10px;right:10px;bottom:calc(8px + env(safe-area-inset-bottom));z-index:45;background:rgba(17,17,16,.94);backdrop-filter:blur(14px);border:1px solid var(--fio2);padding:5px}
+  .dock{display:grid;grid-template-columns:repeat(6,1fr);position:fixed;left:10px;right:10px;bottom:calc(8px + env(safe-area-inset-bottom));z-index:45;background:rgba(17,17,16,.94);backdrop-filter:blur(14px);border:1px solid var(--fio2);padding:5px}
   .dock a{position:relative;display:grid;place-items:center;gap:2px;padding:8px 2px;text-decoration:none;font:500 9.5px var(--f-m);letter-spacing:.1em;text-transform:uppercase;color:#BDB9AE}
   .dock a b{font:400 18px/1 var(--f-t);letter-spacing:0;color:var(--txt)}
   .dock a[aria-current]{background:var(--am);color:#0A0A0A}.dock a[aria-current] b{color:#0A0A0A}
@@ -448,6 +483,7 @@ input.campo{width:100%;background:#0E0D0A;border:1px solid #2B2B28;color:var(--t
     <a href="#fila" data-sec="fila">02<span>Fila ao vivo</span><i data-n="esperando"></i></a>
     <a href="#resultados" data-sec="resultados">03<span>Resultados</span></a>
     <a href="#equipe" data-sec="equipe">04<span>Equipe</span></a>
+    <a href="#feitas" data-sec="feitas">06<span>Tarefas feitas</span></a>
     <a href="#contas" data-sec="contas">05<span>Configurar contas</span></a>
   </div>
   <div class="ferr-trilho"><small>FERR.</small><button type="button" data-ferr="/painel/recomeco" data-ferr-nome="Recomeço 90">R90<span>Recomeço 90</span></button><button type="button" data-ferr="/painel/canais" data-ferr-nome="Canais dark">CAN<span>Canais dark</span></button></div>
@@ -458,6 +494,7 @@ input.campo{width:100%;background:#0E0D0A;border:1px solid #2B2B28;color:var(--t
   <div class="esq"><span><span class="rec-dot"></span>&nbsp; REC</span><span class="rel" id="relogio">--:--:--</span><span class="rel">SÃO LUÍS · −03</span></div>
   <div class="dir">
     <a class="esperando zero" id="esp-topo" href="#fila" data-filtro-ir="esperando"><span>Esperando você</span><b data-n="esperando">0</b></a>
+    <button class="som" id="mais-feito" type="button" title="Anotar uma tarefa feita">+ FEITO</button>
     <span style="position:relative"><button class="som" id="ferr-btn" type="button" aria-expanded="false">FERRAMENTAS</button><div class="ferr-menu" id="ferr-menu" hidden><button type="button" data-ferr="/painel/recomeco" data-ferr-nome="Recomeço 90">Recomeço 90<small>missões, caixa e roteiros</small></button><button type="button" data-ferr="/painel/canais" data-ferr-nome="Canais dark">Canais dark<small>Passaporte e Raposa</small></button></div></span>
     <button class="som escuta" id="escuta" type="button" data-estado="iniciando" title="Escuta do VEKTOR: toque para pausar ou ligar">… LIGANDO</button>
     <button class="som" id="voz-av" type="button" aria-pressed="true" title="VEKTOR responde falando">VOZ VEKTOR ON</button>
@@ -490,9 +527,11 @@ input.campo{width:100%;background:#0E0D0A;border:1px solid #2B2B28;color:var(--t
         <canvas id="avatar" role="img" aria-label="VEKTOR, o gerente da equipe, em holograma de partículas"></canvas>
         <div class="orbita" id="orbita" aria-hidden="true"></div>
         <button class="nucleo-btn" id="mic" type="button" aria-label="Pausar ou ligar a escuta do VEKTOR"></button>
+        <div class="balao" id="balao" aria-live="polite"><b>VEKTOR</b><span></span></div>
         <div class="nucleo-rot"><b>VEKTOR</b><small>gerente da equipe</small><span id="mic-rot">… LIGANDO</span></div>
       </div>
     </div>
+    <div class="diag" id="diag" aria-hidden="true"><span id="dg-est">ESCUTA —</span><span id="dg-err">ÚLTIMO ERRO —</span><span id="dg-ouviu">OUVIU —</span></div>
     <div class="voz-aviso" id="voz-aviso" hidden role="alert"><b>Voz</b><p></p><button class="btn mini am" type="button" id="tentar">Tentar de novo</button></div>
     <div class="papo" id="papo" aria-live="polite"></div>
     <div class="fala" id="fala"><span class="ondas" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="t" id="fala-t">Diga “Vektor” e converse: “Vektor, o que está pendente?”</span></div>
@@ -552,6 +591,13 @@ input.campo{width:100%;background:#0E0D0A;border:1px solid #2B2B28;color:var(--t
   </section>
 
   <!-- 04 · equipe -->
+  <section class="sec" id="feitas" aria-label="Tarefas feitas">
+    <div class="sec-cab" data-rv><span class="num">06</span><div><span class="rot">Tarefas feitas · por cliente, data, hora e atividade</span><h2>O que já <em>foi feito.</em></h2><p>Toda entrega da fila entra sozinha. O que você fizer, anote em “+ Feito” ou diga: “Vektor, feito: Tribuna, refiz as capas dos Reels”.</p></div></div>
+    <div class="feitas-cab" data-rv><div class="abas" id="per-feitas" style="margin:0"></div><button class="btn am" type="button" data-mais-feito>+ Feito</button></div>
+    <div class="cont-cli" id="cli-feitas" data-rv></div>
+    <div id="lista-feitas" data-rv><div class="vazio">Carregando…</div></div>
+  </section>
+
   <section class="sec" id="equipe" aria-label="Quadro da equipe">
     <div class="sec-cab" data-rv><span class="num">04</span><div><span class="rot">Quadro da equipe · quem está fazendo e quem tem tempo</span><h2>Quatro contas, <em>um time.</em></h2></div></div>
     <div class="equipe" id="modulos" data-rv></div>
@@ -573,12 +619,15 @@ input.campo{width:100%;background:#0E0D0A;border:1px solid #2B2B28;color:var(--t
   <a href="#fila" data-sec="fila"><b>02</b>Fila<i data-n="esperando"></i></a>
   <a href="#resultados" data-sec="resultados"><b>03</b>Result.</a>
   <a href="#equipe" data-sec="equipe"><b>04</b>Equipe</a>
+  <a href="#feitas" data-sec="feitas"><b>06</b>Feitas</a>
   <a href="#contas" data-sec="contas"><b>05</b>Contas</a>
 </nav>
 <div class="envio-cel" id="envio-cel"><div><small id="ec-eq">A equipe escolhe</small><b id="ec-t">—</b></div><button class="btn am" type="button" data-envia-cel>Enviar</button></div>
 <div id="toast" role="status" aria-live="polite"></div>
+<div class="ativar" id="ativar" role="button" tabindex="0" aria-label="Toque para ativar o VEKTOR"><div class="m"><div class="anel"><b>VEKTOR</b></div><div class="t">Toque para <em>ativar</em> o VEKTOR</div><small>Um toque libera o som, o microfone e a escuta. Depois é só falar.</small></div></div>
 
 <!--ESTADO-->
+<script src="/painel/comando/voz/voz.js"></script>
 <script>
 /* ===== Central de Comando v2 · lógica (conta Leandro, 09/11/2026) =====
    Fila:   /api/dados?cli=admin&f=ped → {dados:{itens:[{id,cli,func,texto,st,designada,motivo,conta,link,midia,resumo,conversa,esperando,partes,mae,...}]},versao}
@@ -600,6 +649,7 @@ const CLIS = [
   { id: 'rt', nome: 'Real Time', pg: 1, voz: ['real time', 'realtime', 'real taime', 'rial time'] },
   { id: 'oregano', nome: 'Orégano Turbo', pg: 0, sub: 'operação própria', voz: ['oregano', 'pizzaria'] },
   { id: 'marca', nome: 'Minha marca', pg: 0, sub: '@lindsonalmeida_', voz: ['minha marca', 'meu instagram', 'meu perfil', 'lindson', 'minha pagina'] },
+  { id: 'sf', nome: 'Desentupidora SF', pg: 0, sub: 'mini site', voz: ['desentupidora', 'grupo sf', 'esse efe'] },
   { id: 'outro', nome: 'Outro', pg: 0, sub: 'lead ou novo', voz: ['outro cliente', 'cliente novo', 'lead'] }
 ];
 // teclas: [id, nome, código, cor do grupo, voz, ação?]
@@ -629,6 +679,7 @@ const S = {}; // chave → {url, d, v, ok, erro}
 const reg = (k, url, vazio) => S[k] = { url: API + url, d: vazio, vazio, v: 0, ok: false };
 reg('ped', '/api/dados?cli=admin&f=ped', { itens: [] });
 reg('eq', '/api/dados?cli=admin&f=eq', { contas: {}, hist: [] });
+reg('feitas', '/api/dados?cli=admin&f=feitas', { itens: [] });
 const CLIS_APROV = ['jaci', 'tribuna', 'leo', 'rt', 'oregano'];
 CLIS_APROV.forEach(c => reg('ap-' + c, `/api/dados?cli=${c}&f=aprov`, { itens: [] }));
 async function carrega(k) {
