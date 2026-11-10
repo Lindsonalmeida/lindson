@@ -256,3 +256,4 @@ Levantado pela conta Lindson em 01/11/2026 a partir do histórico do git e dos a
 | 10/11/2026 | Zuleide | Capas Reels curso v6 (8 composições diferentes) | agencia/clientes/curso-processo-legislativo/capas-reels-rafael/v6/ e painel do curso | aguardando |
 | 10/11/2026 | Leandro | WF Celulares artes-02 (escura, Apple Pro; artes-01 reprovada) | agencia/clientes/wf-celulares/artes-02/previa-grade.jpg | aguardando aprovação |
 | 10/11/2026 | Leandro | WF Celulares: 3 posts de apresentação da marca nova + legendas | agencia/clientes/wf-celulares/artes-marca/ | aguardando aprovação |
+| 10/11/2026 | Zuleide | Leo: Culto de Gratidão (carrossel 4 telas + 3 stories + legenda) | agencia/clientes/leo-pinto/culto-gratidao/ + painel › Aprovações | aguardando OK |

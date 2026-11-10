@@ -34,3 +34,7 @@ Não usar f12 nem f13: a pose de apontar o relógio lembra número de urna.
 | (banco, sem lugar) relógio despertador, mãos dadas, cuscuz nordestino, café (2), rede, futebol de várzea, céu estrelado, pescador com tarrafa (Wikimedia Commons, CC) | Saudações v15.2 (troca das paisagens de outras cidades) | 05/11/2026 | Leandro |
 | (enviada pelo Lindson) Leo com Eleilde Soeiro num evento (no privado `aniversarios/eleilde-soeiro-fonte/`) | Story de aniversário da Eleilde | 05/11/2026 | Leandro |
 | f07, f04, f05, f30, f11, f03, f19, f16, f27, f18 (quadros do Motion v1, não as fotos do álbum) | Figurinhas de WhatsApp (10), uso fora do feed | 05/11/2026 | Leandro |
+| `culto-22` (prefeito com microfone, evento Celebração de Gratidão) | Culto de Gratidão · carrossel tela 2 | 10/11/2026 | Zuleide (designer) |
+| `culto-23` (plateia na praça) | Culto de Gratidão · carrossel tela 4 + story 3 | 10/11/2026 | Zuleide (designer) |
+| `culto-24` (grupo diante do banner) | Culto de Gratidão · capa do carrossel + story 1 | 10/11/2026 | Zuleide (designer) |
+| `culto-25` (prefeito e convidada no palco) | Culto de Gratidão · carrossel tela 3 + story 2 | 10/11/2026 | Zuleide (designer) |
