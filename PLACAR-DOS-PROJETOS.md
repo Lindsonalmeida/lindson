@@ -7,7 +7,7 @@ Pagantes: Dra. Jaci, Tribuna 98, Leo Pinto e Real Time.
 ## Projetos abertos (atualizado em 07/11/2026)
 Legenda: ✅ feito · 🟡 em andamento · ⏳ depende do Lindson ou do cliente · ⬜ a fazer pela equipe
 
-### 💰 Dra. Jaci Cunha (pagante) · 4 de 10 (40%)
+### 💰 Dra. Jaci Cunha (pagante) · 5 de 11 (45%)
 1. ✅ Site v3 + bio no ar
 2. ✅ Feed de novembro e dezembro, carrosséis, 25 stories de destaque (no painel)
 3. ✅ 12 Reels de dezembro + PDF do roteiro de gravação
@@ -18,6 +18,7 @@ Legenda: ✅ feito · 🟡 em andamento · ⏳ depende do Lindson ou do cliente 
 8. ⏳ Logo em vetor, fotos em alta e fotos para janeiro
 9. ⏳ Search Console (arquivo de verificação) + Perfil da Empresa no Google; o guia está pronto em `agencia/clientes/jaci-cunha/GOOGLE.md`
 10. ⏳ Trocar o link da bio do Instagram
+11. ✅ Black Friday: 8 stories com vídeo + Meta Ads BF26 (10/11, Pedro); ⏳ aprovar e definir a condição até 18/11
 
 ### 💰 Tribuna 98 (pagante) · 1 de 8 (13%) · escopo definido pelo Lindson em 07/11
 1. ✅ Mini site da bio no ar + bio + 7 destaques (aprovação ⏳)

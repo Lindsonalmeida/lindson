@@ -55,3 +55,5 @@ Fotos novas (IMG_30xx, 36 fotos que o Lindson subiu no painel em 04/11) no priva
 | `IMG_3018` (vermelho, mão no queixo; antes só no site) | prova social v2, carrossel tela 6 "o que esperar" · privado `prova-social-contorno/v2/carrossel-6.jpg` | 07/11/2026 | Leandro |
 | `fotos/jaci-off-white-sofa-sorrindo.jpg` (2º uso no mês) | prova social v2, carrossel tela 7 (CTA) | 07/11/2026 | Leandro |
 | `fotos/jaci-off-white-tablet.jpg` (2º uso no mês) | prova social v2, story 2 (avaliação) | 07/11/2026 | Leandro |
+| `fotos/jaci-preto-mao-no-cabelo.jpg` (2º uso no mês) | Black Friday, story 1 (capa) e anúncios BF26 · `black-friday/` | 10/11/2026 | Pedro |
+| `fotos/jaci-preto-sorriso-aberto.jpg` (2º uso no mês) | Black Friday, story 8 (WhatsApp) e anúncios BF26 · `black-friday/` | 10/11/2026 | Pedro |
