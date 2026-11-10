@@ -10,7 +10,7 @@
 - **Fica de fora:** material reprovado (branches `cassandra/*`) e números sem fonte.
 
 ## Última verificação
-- 10/11/2026 08:50 (UTC): sem novidades.
+- 10/11/2026 09:50 (UTC): sem novidades.
 
 ## Histórico do que foi agregado
 | Data | Fonte | Agente | O que entrou |
