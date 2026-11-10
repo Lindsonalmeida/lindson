@@ -179,3 +179,4 @@ Fonte: privado `dados/agencia/referencias/lancamento-infoprodutor-expert/` (Beha
   6. peças "hoje", "ao vivo" e "começa em 1 h";
   7. abertura de carrinho, prova, quebra de objeção e último dia;
   8. página de vendas e área de membros.
+- **Recorte de foto:** `agencia/marca-lindson/ferramentas/recorte2.py` e conferir a 200% no escuro e no amarelo. Fonte: conta Pedro, 05/11/2026.

@@ -219,3 +219,4 @@ O estudo está no privado `CentralLindsonALmeida/dados/agencia/referencias/edit-
 - **Agenda:** todos os posts de 4 em 4 h (08h45, 12h45, 16h45, 20h45), feed xadrez (cor alterna) e **vídeo intercalado com estático**. Quando atrasar, empurre a fila mantendo o intervalo.
 - **Narração (texto da voz):** pontuação expressiva para dar entonação: abertura com "!" ou "?", vírgulas para o ritmo e fim com "!" ou ".". Evite reticências (viram pausa).
 - **Publicação:** Instagram do Lindson e da Real Time pelo Windsor; YouTube do Passaporte pelo Metricool (marca 7990533), Shorts de 2 em 2 h.
+- **Narração:** voz 6 + tabela de pronúncia (Real Taime, Jáci, Esse Efe) em `agencia/marca-lindson/stories-sites/README.md`; Whisper ouve "Quer um assim?" como "Quero", prefira "Bora fazer o seu?". Fonte: conta Pedro, 05-10/11/2026.
