@@ -236,11 +236,11 @@
    "hora": "12:45",
    "quando": "2026-11-10T12:45:00-03:00",
    "windsor_acao": "create_reel_post (conferir no Windsor)",
-   "status": "agendado",
-   "media_id": null,
-   "link": null,
-   "postado_em": null,
-   "obs": "v1 renderizado com voz provisória: falta a voz clonada e a aprovação do Lindson"
+   "status": "postado",
+   "media_id": "18121903708983040",
+   "link": "https://www.instagram.com/reel/DfkSnP9BK6D/",
+   "postado_em": "2026-11-10T13:04:01-03:00",
+   "obs": "publicado pelo Windsor (create_video_post)"
   },
   {
    "id": "a2",
