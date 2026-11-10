@@ -40,3 +40,7 @@ Motivo do Lindson: "precisa ter a ver com a Apple". O verde-limão e o visual de
 - **Gerar:** `python3 gerar3.py` → `node render3.js` → `pecas-final/` → `node logo-b/png.js` → `python3 prancha3.py` → `prancha-final.jpg`.
 - **Arquivos do logo:** `logo-b/wf-logo-b-{cor,branca,preta}.svg` e `.png` (fundo transparente). O texto CELULARES do SVG usa Inter: para gráfica, converter em contorno.
 - **Kit:** avatar (o logo B completo), 6 destaques, 3 posts, fachada (mockup) e cartão com etiqueta de laudo. Nas peças pequenas, use a marca reduzida (maçã + WF).
+
+## Manual da marca (conta Leandro, 10/11/2026)
+- 22 páginas 16:9: `python3 manual.py` → `node manual-pdf.js <saída.pdf>` → `python3 manual_previa.py`. Prévia: `manual-previa.jpg`.
+- PDF no privado: `CentralLindsonALmeida/dados/agencia/wf-celulares/manual-wf-celulares.pdf` (fora do GitHub público).
