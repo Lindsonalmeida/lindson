@@ -6,7 +6,9 @@
 //   {"t":"txt","v":"..."}  pedaço da fala (a página fala frase por frase)
 //   {"t":"fim","acao":"nenhuma|propor|criar|ir","pedido":{cli,func,texto}|null,"ir":"fila|resultados|equipe|aprovacoes|","memoria":"...","tela":"..."}
 //   {"t":"erro","v":"...","falta":"..."}
-// Modelo: Claude (API da Anthropic, segredo ANTHROPIC_API_KEY na Cloudflare). Plano B: Workers AI (binding AI). Sem nenhum: 503 com o que ativar.
+// Modelo (v4.1, 10/11: o Lindson não quer comprar nada): Workers AI da Cloudflare no plano gratuito (binding AI, 10.000 neurônios/dia,
+// zera às 21h de São Luís). Gemma 4 26B (rápido, multilíngue, barato em neurônios) e, se falhar, Llama 3.3 70B. O Claude só entra se um dia
+// existir o segredo ANTHROPIC_API_KEY. Sem nenhum dos dois: 503 com o que ativar.
 // Por que fetch e não o SDK: o site sobe na Cloudflare Pages sem build e sem package.json, então as Functions não instalam dependências.
 // Pedido na fila: o VEKTOR só PROPÕE e pergunta "posso mandar?". A página cria o pedido (mesmo caminho do botão Enviar, com o aviso
 // de "já existe") só depois do sim do Lindson, e "criar" só vale para o pedido que estava pendente.
@@ -15,14 +17,15 @@ import { NOMES_CLI, NOMES_FN, estadoReal, CONTAS_EQ } from '../_distribuir.js';
 import { CTX } from '../_vektor_ctx.js';
 
 const MODELO = 'claude-opus-5-5';
-const MODELO_AI = '@cf/meta/llama-3.3-70b-instruct-fp8-fast';
-const ATIVAR = 'na Cloudflare: Workers e Pages → lindsonalmeida → Configurações → Variáveis e segredos → adicionar o segredo ANTHROPIC_API_KEY (chave do console.anthropic.com) e fazer um novo deploy';
+const MODELOS_AI = ['@cf/google/gemma-4-26b-a4b-it', '@cf/meta/llama-3.3-70b-instruct-fp8-fast'];
+const ATIVAR = 'na Cloudflare (grátis): Workers e Pages → lindsonalmeida → Configurações → Vinculações → Adicionar → Workers AI → nome AI → Salvar';
 const IRS = ['fila', 'resultados', 'equipe', 'aprovacoes'];
 
 const PERSONA = `Você é o VEKTOR, o gerente da agência do Lindson Almeida (São Luís, MA): a voz da Central de Comando, a página onde ele pede tudo à equipe.
 Pense no JARVIS do Homem de Ferro com a cabeça do Maquiavel: leal, direto, espirituoso na medida, sempre do lado do dono. O Lindson é o dono; você é o braço direito.
 
-COMO VOCÊ FALA
+COMO VOCÊ FALA (regras de ouro)
+- Responda SEMPRE em português do Brasil. Nunca em inglês, nem uma palavra, mesmo que a pergunta tenha termos em inglês.
 - Português do Brasil coloquial e natural, como gente conversando. Chame-o de Lindson de vez em quando (não em toda frase).
 - Tudo o que você escreve antes da linha ### é FALADO em voz alta: de 1 a 3 frases curtas, no máximo umas 45 palavras. Nada de lista, markdown, emoji, sigla soletrada ou URL na fala.
 - Converse de verdade: lembre o que ele disse antes, comente, sugira o próximo passo, faça uma pergunta de volta quando fizer sentido. Não termine toda fala com pergunta.
@@ -40,6 +43,11 @@ Funções (func): ${Object.entries(NOMES_FN).map(([k, v]) => k + '=' + v).join('
 Quando ele pedir um trabalho, entenda cliente, função e o detalhe; se faltar algo essencial, pergunte. Com tudo claro, resuma em uma frase e pergunte se pode mandar para a fila (acao "propor").
 Só use acao "criar" quando houver PEDIDO PENDENTE no contexto e ele disser que sim (pode, manda, sim, envia, isso). Se ele mudar o pedido, proponha de novo.
 Para mostrar uma parte da página, use acao "ir" com ir = fila, resultados, equipe ou aprovacoes.
+
+EXEMPLOS DO SEU JEITO
+Lindson: "Vektor, o que tá pendente?" → "Fala, Lindson. Tem dois pedidos esperando você aprovar, e a Zuleide está no Reels da Jaci. Quer que eu abra a fila?"
+Lindson: "faz um carrossel do Leo pro 15 de novembro" → "Boa, carrossel do Leo sobre o 15 de novembro. Posso mandar para a fila?"
+Lindson: "valeu" → "Tamo junto. Tô por aqui."
 
 FORMATO (obrigatório)
 Primeiro a fala. Depois, numa linha sozinha, ### e em seguida um JSON numa linha só:
@@ -138,10 +146,26 @@ async function claude(env, sistema, msgs, sep) {
   return parou;
 }
 
+class Cota extends Error {}
 async function workersAI(env, sistema, msgs, sep) {
-  const st = await env.AI.run(MODELO_AI, { stream: true, max_tokens: 600, messages: [{ role: 'system', content: PERSONA + '\n\n' + sistema }].concat(msgs) });
-  await lerSSE(st, ev => { if (typeof ev.response === 'string') sep.add(ev.response); });
-  return 'end_turn';
+  let ultimo;
+  for (const m of MODELOS_AI) {
+    try {
+      const st = await env.AI.run(m, { stream: true, max_tokens: 500, temperature: 0.6, chat_template_kwargs: { enable_thinking: false },
+        messages: [{ role: 'system', content: PERSONA + '\n\n' + sistema }].concat(msgs) });
+      let algo = false;
+      await lerSSE(st, ev => {
+        const t = typeof ev.response === 'string' ? ev.response : ev.choices && ev.choices[0] && ev.choices[0].delta && typeof ev.choices[0].delta.content === 'string' ? ev.choices[0].delta.content : '';
+        if (t) { algo = true; sep.add(t); }
+      });
+      if (algo) return 'end_turn';
+    } catch (e) {
+      const msg = String((e && e.message) || e);
+      if (/3036|daily free allocation|neurons/i.test(msg)) throw new Cota(msg); // acabou a cota grátis do dia
+      ultimo = e; // modelo fora do ar ou sem capacidade: tenta o próximo
+    }
+  }
+  throw ultimo || new Error('Workers AI sem resposta');
 }
 
 export async function onRequestPost({ request, env }) {
@@ -166,7 +190,7 @@ export async function onRequestPost({ request, env }) {
       if (parou === 'refusal') enviar({ t: 'txt', v: 'Esse assunto eu não consigo tocar, Lindson. Me diz de outro jeito?' });
       enviar(validaFim(sep.acabou(), p));
     } catch (e) {
-      enviar({ t: 'erro', v: e.status === 401 ? 'A chave da Anthropic foi recusada.' : e.status === 429 ? 'Muitos pedidos seguidos. Tenta de novo em um minuto.' : 'Perdi a conexão com o meu cérebro. Tenta de novo.', falta: e.status === 401 ? ATIVAR : '' });
+      enviar({ t: 'erro', v: e instanceof Cota ? 'Lindson, gastei a cota gratuita de conversa de hoje. Volto às nove da noite. Até lá, os comandos de voz continuam valendo.' : e.status === 429 ? 'Muitos pedidos seguidos. Tenta de novo em um minuto.' : 'Perdi a conexão com o meu cérebro. Tenta de novo.', falta: '' });
     }
     try { await w.close(); } catch (e) {}
   })();
@@ -174,6 +198,7 @@ export async function onRequestPost({ request, env }) {
 }
 export const onRequestGet = async ({ request, env }) => {
   // a página pergunta se o cérebro está ligado (sem revelar nada do segredo)
+  if (new URL(request.url).searchParams.has('saude')) return json({ ligado: !!(env.AI && env.AI.run) || (typeof env.ANTHROPIC_API_KEY === 'string' && env.ANTHROPIC_API_KEY.length > 20) }); // só sim/não, para conferir o deploy
   const q = await quemE(request, env);
   if (!q || q.cli !== 'admin') return json({ erro: 'Sem acesso.' }, 401);
   const c = typeof env.ANTHROPIC_API_KEY === 'string' && env.ANTHROPIC_API_KEY.length > 20, a = !!(env.AI && env.AI.run);
