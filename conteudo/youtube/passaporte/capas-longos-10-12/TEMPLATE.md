@@ -1,3 +1,21 @@
+# Capa 12 (Paulo) · 3 opções (10/11/2026, conta Zuleide)
+
+Retorno do Lindson sobre a v3: "as duas ficaram ótimas, só o perseguidor que não". **10 e 11 APROVADAS** (padrão de capa de longo do Passaporte, ver MEMORIA). A 12 "PERSEGUIDOR" foi reprovada (palavra longa, rosto macio, cena escura) e está em `v3-reprovada/`.
+
+- Base nova: **Caravaggio, "Conversão de São Paulo"** (1600-01, Santa Maria del Popolo, Roma), domínio público, Wikimedia Commons, 1920 px (`fontes/caravaggio-conversao-de-sao-paulo-commons-1920.jpg`). Rosto grande, luz forte, manto vermelho.
+- Recorte `fontes/recorte-saulo-caravaggio.png`: BiRefNet portrait + chave de luz no braço direito, ficando só o maior pedaço, com os restos do cavalo apagados.
+- Gerador `motor/capa12_opcoes.py` → `capa-12a.jpg`, `capa-12b.jpg`, `capa-12c.jpg`. Prévia `motor/previa_capa12.py` → `previa-capa12-opcoes.jpg` (ao lado das 10 e 11 aprovadas, com teste a 160 px).
+
+| Opção | Palavra | Copia | Como ficou |
+|---|---|---|---|
+| A | **CEGO?** | Epic History "MUTINY" | fundo azul vivo com nuvens e feixe de luz, Saulo caído com os braços erguidos na frente da palavra, selo do canal |
+| B | **ELE CAIU** | Ciência Todo Dia "FLOW" | close no rosto de Saulo de olhos fechados, fundo laranja e vermelho saturado, palavra com brilho por cima |
+| C | **MUDOU** | Johnny Harris | céu aberto de fim de tarde e horizonte limpo, Saulo à direita contra o sol, palavra à esquerda |
+
+**Status: aguardando o Lindson escolher A, B ou C** (a escolhida vira `capa-12.jpg`).
+
+---
+
 # Capas dos longos 10 a 12 · v3 "jovem" (10/11/2026, conta Zuleide, designer gráfico)
 
 Pedido do Lindson ao ver a v2: "na verdade eu gosto desse estilo (as 3 referências), copie para fazer as nossas assim, mais jovens".

@@ -47,9 +47,9 @@ def b():
     # CIÊNCIA TODO DIA "FLOW": close no rosto de Saulo (olhos fechados, luz no rosto), fundo quente saturado,
     # "ELE CAIU" gigante atravessando com brilho.
     f = gradiente((255, 150, 40), (140, 14, 10), cx=.55, cy=.7, raio=1.0)
-    p = fig(1.0, (820, 420, 1920, 1100))
+    p = fig(1.08, (820, 420, 1920, 1100))
     return pagina(f'''<img class="l" style="inset:0" src="{fundo(f)}">
-<img class="l" style="left:{640 - p.width // 2 + 40}px;top:70px" src="{uri(sombra(p, .45, 22))}"><img class="l" style="left:{640 - p.width // 2 + 10}px;top:46px" src="{uri(p)}">
+<img class="l" style="left:-10px;top:-36px" src="{uri(sombra(p, .45, 22))}"><img class="l" style="left:-40px;top:-60px" src="{uri(p)}">
 <div class="t" style="left:0;right:0;top:40px;text-align:center;font-size:240px;letter-spacing:.02em;
  background:linear-gradient(180deg,#fff 55%,#d9f6ff);-webkit-background-clip:text;color:transparent;
  filter:drop-shadow(0 0 3px #FFD23F) drop-shadow(0 12px 18px rgba(0,0,0,.75)) drop-shadow(0 0 40px rgba(255,190,80,.7))">ELE CAIU</div>
