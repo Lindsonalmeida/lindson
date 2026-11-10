@@ -735,7 +735,7 @@ function ir(h) { const el = $(h); if (el) el.scrollIntoView({ behavior: calmo ? 
 // sem a palavra de ativação, só navegação ("fila", "status", "equipe") e "enviar" agem.
 const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
 const ESC = { quer: true, rec: null, estado: 'iniciando', recuo: 300, erro: null, falando: false, captura: null, stream: null, ctx: null, an: null, buf: null, nivel: 0, gesto: false, usado: 0, usadoLen: 0, tPausa: null };
-const ATIVA = /^\s*(vektor|vector|vetor|victor|vitor|vektora?)\b[\s,.:!-]*/;
+const ATIVA = /^\s*(?:(?:oi|ola|ei|eai|e ai|fala|hey|alo|bom dia|boa tarde|boa noite)[\s,.!]+)?(vektor|vector|vetor|victor|vitor|vequitor|vektora?)\b[\s,.:!-]*/; // v4.1: aceita saudação antes e as grafias que a voz pt-BR devolve
 const FIM_ENVIA = /\b(enviar|envia|manda|mandar|pode mandar|pode enviar)\s*[.!]?\s*$/;
 function entende(frase, final, montar) {
   const s = ' ' + sem(frase).replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ') + ' ';
@@ -883,7 +883,7 @@ function interrompe() { calaVoz(); if (CONV.ab) { CONV.ab.abort(); CONV.ab = nul
 const CONV = { hist: [], memoria: '', pendente: null, ate: 0, cerebro: null, ab: null, n: 0, avisou: false };
 try { const g = JSON.parse(sessionStorage.getItem('vektor-conv') || 'null'); if (g) Object.assign(CONV, { hist: g.hist || [], memoria: g.memoria || '', pendente: g.pendente || null }); } catch (e) {}
 const guardaConv = () => { try { sessionStorage.setItem('vektor-conv', JSON.stringify({ hist: CONV.hist.slice(-20), memoria: CONV.memoria, pendente: CONV.pendente })); } catch (e) {} };
-const NOME = /\b(vektor|vector|vetor|victor|vitor)\b/;
+const NOME = /\b(vektor|vector|vetor|victor|vitor|vequitor|vetora?)\b/; // em qualquer posição; sem() já tira maiúscula e acento (Véctor, Vítor)
 function papo(de, t) {
   const box = $('#papo'); if (!box) return null;
   const el = document.createElement('div'); el.className = 'b ' + de;
@@ -902,14 +902,22 @@ function tique() { if (!VOZ_ON) return; try { ctxA = ctxA || new (window.AudioCo
   o.connect(g).connect(ctxA.destination); o.start(t); o.stop(t + .18); } catch (e) {} }
 function semCerebro(falta) {
   if (CONV.avisou) return; CONV.avisou = true;
-  papo('sis', 'O VEKTOR ainda não conversa: falta o cérebro dele. ' + (falta ? 'Ative ' + falta + '.' : '') + ' Enquanto isso, ele entende os comandos: “Vektor, Reels da Jaci… enviar”.');
+  papo('sis', 'Conversa livre desligada agora. Para ligar, de graça: ' + (falta || 'Cloudflare → lindsonalmeida → Configurações → Vinculações → Workers AI (nome AI)') + '.');
 }
 function roteia(t) {
   const s = sem(t);
   if (CONV.pendente && FIM_ENVIA.test(s.trim()) && s.split(' ').length <= 4) { manda(CONV.pendente); return; }
-  if (CONV.cerebro === false) { processa(t); return; }
-  if (NOME.test(s) || Date.now() < CONV.ate) { conversa(t); return; }
+  if (NOME.test(s) || Date.now() < CONV.ate) {
+    if (CONV.cerebro === false && Date.now() - (CONV.checado || 0) < 60000) { semCerebroLocal(t, s); return; }
+    conversa(t); return;
+  }
   processa(t); // fora da conversa: só navegação e "enviar", como antes
+}
+// sem cérebro: ainda responde ao chamado pelo nome e entende os comandos de antes
+function semCerebroLocal(t, s) {
+  const pedido = CLIS.some(c => c.voz.some(v => s.includes(v))) || Object.values(FN).some(f => f.voz.some(v => s.includes(v)));
+  if (pedido) { processa(t, true); return; }
+  responde('Oi, Lindson! Tô te ouvindo, sim. Me diz o cliente e o que precisa, que eu monto o pedido.', true);
 }
 function manda(p) {
   CONV.pendente = null; guardaConv();
@@ -932,7 +940,7 @@ async function conversa(t) {
     const r = await fetch(API + '/api/vektor', { method: 'POST', credentials: 'same-origin', headers: { 'Content-Type': 'application/json' }, signal: ab.signal,
       body: JSON.stringify({ fala: t.slice(0, 500), historico: CONV.hist.slice(-16), memoria: CONV.memoria, pendente: CONV.pendente }) });
     if (r.status === 401) { location.href = '/'; return; }
-    if (!r.ok) { const j = await r.json().catch(() => ({})); if (r.status === 503) { CONV.cerebro = false; bal.remove(); semCerebro(j.falta); processa(t, true); return; } throw new Error(j.erro || 'Não consegui pensar agora. Tenta de novo.'); }
+    if (!r.ok) { const j = await r.json().catch(() => ({})); if (r.status === 503) { CONV.cerebro = false; CONV.checado = Date.now(); bal.remove(); papo.ultimo = null; semCerebro(j.falta); semCerebroLocal(t, sem(t)); return; } throw new Error(j.erro || 'Não consegui pensar agora. Tenta de novo.'); }
     CONV.cerebro = true;
     const rd = r.body.getReader(), dec = new TextDecoder(); let resto = '';
     for (;;) {
@@ -958,7 +966,7 @@ async function conversa(t) {
   guardaConv();
 }
 async function checaCerebro() {
-  try { const r = await fetch(API + '/api/vektor', { credentials: 'same-origin', cache: 'no-store' }); if (!r.ok) return; const j = await r.json(); CONV.cerebro = !!j.ligado; if (!j.ligado) semCerebro(j.falta); } catch (e) {}
+  try { const r = await fetch(API + '/api/vektor', { credentials: 'same-origin', cache: 'no-store' }); if (!r.ok) return; const j = await r.json(); CONV.cerebro = !!j.ligado; CONV.checado = Date.now(); if (!j.ligado) semCerebro(j.falta); } catch (e) {}
 }
 function pintaVozAv() { const b = $('#voz-av'); if (b) { b.setAttribute('aria-pressed', String(VOZ_ON)); b.textContent = VOZ_ON ? 'VOZ VEKTOR ON' : 'VOZ VEKTOR OFF'; } }
 const falaFila = () => { const n = esperandoVoce().length, ab = itens().filter(x => ABERTOS.includes(x.st)).length; return `Vektor aqui. ${ab} pedido${ab === 1 ? '' : 's'} na fila, ${n} esperando você.`; };
