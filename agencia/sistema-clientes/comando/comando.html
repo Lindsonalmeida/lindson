@@ -919,7 +919,7 @@ const VZ = { falado: [], ate: 0 }; // compatível com a v4
 let MUDO = false;
 function balao(t) { const b = $('#balao'); if (!b) return; b.querySelector('span').textContent = t; b.classList.add('on'); clearTimeout(balao.t); balao.t = setTimeout(() => b.classList.remove('on'), 9000); }
 function inicioFala() { clearTimeout(VK.tReliga); if (!VK.tocando) { VK.tocando = true; ESC.falando = true; AV.falando = 1; desliga(); diag(); } }
-function fimFala() { VK.tocando = false; ESC.falando = false; AV.falando = 0; VK.fimEm = VZ.ate = Date.now(); if (CONV.ate > Date.now() - 2000) CONV.ate = Date.now() + 10000;
+function fimFala() { VK.tocando = false; ESC.falando = false; AV.falando = 0; VK.fimEm = VZ.ate = Date.now();
   clearTimeout(VK.tReliga); VK.tReliga = setTimeout(() => { if (ESC.quer && !VK.tocando) liga(); }, 600); diag(); }
 function somBloqueado() {
   VK.fila = []; if (VK.tocando) fimFala();
@@ -1014,7 +1014,8 @@ function roteia(t) {
   if (CONV.pendente && FIM_ENVIA.test(s.trim()) && s.split(' ').length <= 4) { manda(CONV.pendente); return; }
   // só reage (e fala) quando chamado pelo nome, ou na janela de 10 s depois que ele chamou; fora disso, só mostra e navega calado
   if (!chamou && Date.now() >= CONV.ate) { MUDO = true; try { processa(t); } finally { MUDO = false; } return; }
-  CONV.ate = Date.now() + 10000;
+  // a janela de conversa só abre quando ele CHAMA pelo nome; uma resposta sem chamar fecha a janela (evita o looping de 10/11)
+  CONV.ate = chamou ? Date.now() + 10000 : 0;
   if (chamou && !resto) { responde('Pois não?', true); return; }
   if (/^(anota\w*\s+)?(feito|fiz|terminei)\b/.test(resto)) { feitoVoz(t); return; }
   if (CONV.cerebro === false && Date.now() - (CONV.checado || 0) < 60000) { semCerebroLocal(t, s); return; }
@@ -1024,6 +1025,9 @@ function roteia(t) {
 function semCerebroLocal(t, s) {
   const pedido = CLIS.some(c => c.voz.some(v => s.includes(v))) || Object.values(FN).some(f => f.voz.some(v => s.includes(v)));
   if (pedido) { processa(t, true); return; }
+  // sem cérebro e sem pedido: fala no máximo 1 vez por minuto; depois só escreve, calado
+  if (Date.now() - (CONV.oiEm || 0) < 60000) { papo('sis', 'Não entendi como pedido. Diga: Vektor, o cliente e o que precisa.'); CONV.ate = 0; return; }
+  CONV.oiEm = Date.now(); CONV.ate = 0;
   responde('Oi, Lindson! Tô te ouvindo, sim. Me diz o cliente e o que precisa, que eu monto o pedido.', true);
 }
 function manda(p) {
