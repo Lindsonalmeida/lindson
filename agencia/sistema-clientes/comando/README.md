@@ -26,6 +26,23 @@ Pedido do Lindson: "ele não conversa comigo"; "quero que entenda tudo que eu fa
 - **Voz:** a melhor voz pt-BR do navegador (no Edge, as vozes "Natural" são as melhores). TTS neural no servidor não sai de graça em pt-BR (os modelos de voz do Workers AI não falam português); com uma chave paga (ElevenLabs ou Azure) dá para criar `/api/voz`.
 - Conferência: `v4/v4-desktop-1440-conversa.png`, `v4/v4-celular-390-conversa.png` (conversa simulada de 6 trocas, com o servidor de teste).
 
+## v5 (10/11/2026, conta Leandro): Tarefas feitas, voz pré-gravada e fim do loop
+- **Tarefas feitas** (seção 04):
+  - linha do tempo por data, com hora, cliente, atividade e quem fez;
+  - filtros (hoje, ontem, 7 dias, mês, tudo) e contagem por cliente;
+  - o botão "+ Feito" e a voz ("Vektor, feito: Tribuna, refiz as capas dos Reels") anotam;
+  - toda entrega `pronto` da fila entra sozinha e ganha "aprovado" quando o Lindson aprova;
+  - dados em `dados:admin:feitas` (`f=feitas` no `dados.js`);
+  - as tarefas de 09/11 entraram uma vez só (marcador `semente-0911`).
+- **Fim do loop:**
+  - meia-duplex: a escuta para enquanto o VEKTOR fala e volta 600 ms depois;
+  - filtro de eco (≥ 50% das palavras da última fala, nos 8 s seguintes);
+  - só fala quando chamado pelo nome, ou nos 10 s seguintes; fora disso, só mostra e navega calado;
+  - não repete a mesma frase em 15 s.
+- **Sem tela de toque:** a voz tenta tocar sozinha. Se o navegador bloquear, ele responde no balão e avisa uma vez como liberar o som do site. "Vektor" sozinho responde "Pois não?".
+- **Diagnóstico no hero:** estado da escuta, último erro e últimas palavras ouvidas.
+- **Voz:** clipes pré-gravados da variante D, um por fala completa, com o dicionário de pronúncia. Ver `voz/README.md`.
+
 ## v3 (09/11/2026, conta Leandro): o VEKTOR, que ouve sempre
 - **Escuta automática:** ao abrir, pede o microfone uma vez e liga a voz contínua em pt-BR. Ela reinicia sozinha quando cai, pausa com a aba escondida e mostra o estado no topo e no núcleo: ouvindo, pausado, bloqueado (com o passo a passo) ou sem voz (pede Chrome ou Edge). Se o navegador exigir um toque, o primeiro toque em qualquer lugar liga a escuta.
 - **Comandos:** "Vektor, reels da Jaci sobre clareamento" monta o pedido; "enviar", "manda" ou "pode mandar" no fim envia. Sem "Vektor", só navegação e envio.

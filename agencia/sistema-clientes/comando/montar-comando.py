@@ -230,6 +230,8 @@ def main():
     dist = open(os.path.join(PRIV, 'functions', '_distribuir.js'), encoding='utf-8').read().replace('export ', '')
     html = html.replace('<!--ESTADO-->', '<script src="/painel/comando/estado.js"></script>', 1)
     html = html.replace('/*DISTRIBUIR*/', dist, 1)
+    pron = os.path.join(AQUI, 'voz', 'pronuncia.json')  # dicionário de pronúncia do VEKTOR (só no que é falado)
+    if os.path.exists(pron): html = html.replace('/*PRONUNCIA*/[]', json.dumps(json.load(open(pron, encoding='utf-8')), ensure_ascii=False), 1)
     html = html.replace('<!--MOVIMENTO-->', '<script>\n' + mov + '\n</script>')
     open(os.path.join(PRIV, 'painel', 'comando.html'), 'w', encoding='utf-8').write(html)
     vektor_ctx(estado)

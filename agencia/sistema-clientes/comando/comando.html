@@ -473,9 +473,9 @@ input.campo{width:100%;background:#0E0D0A;border:1px solid #2B2B28;color:var(--t
     <a href="#comando" data-sec="comando">01<span>Comando</span></a>
     <a href="#fila" data-sec="fila">02<span>Fila ao vivo</span><i data-n="esperando"></i></a>
     <a href="#resultados" data-sec="resultados">03<span>Resultados</span></a>
-    <a href="#equipe" data-sec="equipe">04<span>Equipe</span></a>
-    <a href="#feitas" data-sec="feitas">06<span>Tarefas feitas</span></a>
-    <a href="#contas" data-sec="contas">05<span>Configurar contas</span></a>
+    <a href="#feitas" data-sec="feitas">04<span>Tarefas feitas</span></a>
+    <a href="#equipe" data-sec="equipe">05<span>Equipe</span></a>
+    <a href="#contas" data-sec="contas">06<span>Configurar contas</span></a>
   </div>
   <div class="ferr-trilho"><small>FERR.</small><button type="button" data-ferr="/painel/recomeco" data-ferr-nome="Recomeço 90">R90<span>Recomeço 90</span></button><button type="button" data-ferr="/painel/canais" data-ferr-nome="Canais dark">CAN<span>Canais dark</span></button></div>
   <div class="rec"><span class="rec-dot"></span>&nbsp; AO VIVO</div>
@@ -583,21 +583,21 @@ input.campo{width:100%;background:#0E0D0A;border:1px solid #2B2B28;color:var(--t
 
   <!-- 04 · equipe -->
   <section class="sec" id="feitas" aria-label="Tarefas feitas">
-    <div class="sec-cab" data-rv><span class="num">06</span><div><span class="rot">Tarefas feitas · por cliente, data, hora e atividade</span><h2>O que já <em>foi feito.</em></h2><p>Toda entrega da fila entra sozinha. O que você fizer, anote em “+ Feito” ou diga: “Vektor, feito: Tribuna, refiz as capas dos Reels”.</p></div></div>
+    <div class="sec-cab" data-rv><span class="num">04</span><div><span class="rot">Tarefas feitas · por cliente, data, hora e atividade</span><h2>O que já <em>foi feito.</em></h2><p>Toda entrega da fila entra sozinha. O que você fizer, anote em “+ Feito” ou diga: “Vektor, feito: Tribuna, refiz as capas dos Reels”.</p></div></div>
     <div class="feitas-cab" data-rv><div class="abas" id="per-feitas" style="margin:0"></div><button class="btn am" type="button" data-mais-feito>+ Feito</button></div>
     <div class="cont-cli" id="cli-feitas" data-rv></div>
     <div id="lista-feitas" data-rv><div class="vazio">Carregando…</div></div>
   </section>
 
   <section class="sec" id="equipe" aria-label="Quadro da equipe">
-    <div class="sec-cab" data-rv><span class="num">04</span><div><span class="rot">Quadro da equipe · quem está fazendo e quem tem tempo</span><h2>Quatro contas, <em>um time.</em></h2></div></div>
+    <div class="sec-cab" data-rv><span class="num">05</span><div><span class="rot">Quadro da equipe · quem está fazendo e quem tem tempo</span><h2>Quatro contas, <em>um time.</em></h2></div></div>
     <div class="equipe" id="modulos" data-rv></div>
     <p class="nota-honesta">O Claude não informa o uso de cada conta. Os limites reais são a janela de ~5 h (Hoje) e o limite da Semana; o estado vem da própria conta (a mensagem de limite traz “resets …”) ou do seu botão aqui. “No mês” conta quantas vezes cada limite foi batido.</p>
   </section>
 
   <!-- 05 · configurar contas -->
   <section class="sec" id="contas" aria-label="Configurar contas">
-    <div class="sec-cab" data-rv><span class="num">05</span><div><span class="rot">Configurar contas · uma vez só</span><h2>Cole uma vez. <em>Nunca mais abra.</em></h2><p>Em cada conta, cole o prompt uma única vez. Ela cria a tarefa de hora em hora que lê a fila, faz, entrega e pergunta aqui. A tarefa está ativa quando a conta bateu o ponto nas últimas 2 h.</p></div></div>
+    <div class="sec-cab" data-rv><span class="num">06</span><div><span class="rot">Configurar contas · uma vez só</span><h2>Cole uma vez. <em>Nunca mais abra.</em></h2><p>Em cada conta, cole o prompt uma única vez. Ela cria a tarefa de hora em hora que lê a fila, faz, entrega e pergunta aqui. A tarefa está ativa quando a conta bateu o ponto nas últimas 2 h.</p></div></div>
     <div class="config" id="config" data-rv></div>
   </section>
 
@@ -609,9 +609,9 @@ input.campo{width:100%;background:#0E0D0A;border:1px solid #2B2B28;color:var(--t
   <a href="#comando" data-sec="comando"><b>01</b>Falar</a>
   <a href="#fila" data-sec="fila"><b>02</b>Fila<i data-n="esperando"></i></a>
   <a href="#resultados" data-sec="resultados"><b>03</b>Result.</a>
-  <a href="#equipe" data-sec="equipe"><b>04</b>Equipe</a>
-  <a href="#feitas" data-sec="feitas"><b>06</b>Feitas</a>
-  <a href="#contas" data-sec="contas"><b>05</b>Contas</a>
+  <a href="#feitas" data-sec="feitas"><b>04</b>Feitas</a>
+  <a href="#equipe" data-sec="equipe"><b>05</b>Equipe</a>
+  <a href="#contas" data-sec="contas"><b>06</b>Contas</a>
 </nav>
 <div class="envio-cel" id="envio-cel"><div><small id="ec-eq">A equipe escolhe</small><b id="ec-t">—</b></div><button class="btn am" type="button" data-envia-cel>Enviar</button></div>
 <div id="toast" role="status" aria-live="polite"></div>
@@ -760,7 +760,7 @@ async function envia() {
   let escolhida = null;
   const ok = await muda('ped', d => { const r = distribuir(item, d.itens, EQ(), Date.now()); const x = Object.assign({}, item, { designada: r.designada, motivo: r.motivo, volta: r.volta || null, designadaEm: agora(), st: r.designada ? 'novo' : 'espera' }); escolhida = r; d.itens.unshift(x); });
   b.disabled = false;
-  if (ok) { CONV.pendente = null; guardaConv(); responde(escolhida.designada ? `Vektor aqui. Pedido de ${nomeFn(item.func)} ${item.cli === 'marca' ? 'da sua marca' : 'de ' + nomeCli(item.cli)} enviado; ${escolhida.designada === 'Lindson' ? 'a conta Lindson' : 'o ' + escolhida.designada} pega.`.replace('o Zuleide', 'a Zuleide') : `Vektor aqui. Pedido de ${nomeFn(item.func)} enviado. Fica na espera até uma conta voltar.`); P.fn = null; P.forcar = false; $('#detalhe').value = ''; falaTxt('Pedido na fila.', false); pintaEscolhas(); pintaTudo(); }
+  if (ok) { CONV.pendente = null; guardaConv(); responde(escolhida.designada ? `Vektor aqui. Pedido de ${nomeFn(item.func)} ${deCli(item.cli)} enviado; ${artConta(escolhida.designada)} pega.` : `Vektor aqui. Pedido de ${nomeFn(item.func)} enviado. Fica na espera até uma conta voltar.`); P.fn = null; P.forcar = false; $('#detalhe').value = ''; falaTxt('Pedido na fila.', false); pintaEscolhas(); pintaTudo(); }
 }
 function executaAcao(id) {
   if (id === 'status') { ir('#resultados'); return; }
@@ -806,7 +806,7 @@ function processa(frase, forcarMontar) {
   else if (montar && r === 'nada' && comNome) { const d = limpaFala(frase); if (d) { $('#detalhe').value = d; falaTxt(d, true); } }
   if (montar && P.fn && FN[P.fn].acao && r !== 'nada') { executaAcao(P.fn); return; }
   if (r === 'enviar') { if (P.cli && P.fn) envia(); else responde('Diga primeiro Vektor, o cliente e o que precisa.'); return; }
-  if (montar && r === 'ok' && P.cli && P.fn) responde(`${nomeFn(P.fn)} de ${nomeCli(P.cli)}. Diga enviar para mandar.`, true);
+  if (montar && r === 'ok' && P.cli && P.fn) responde(`${nomeFn(P.fn)} ${deCli(P.cli)}. Diga enviar para mandar.`, true);
 }
 // volume real do microfone
 function montaVolume(stream) {
@@ -1075,9 +1075,12 @@ async function checaCerebro() {
   try { const r = await fetch(API + '/api/vektor', { credentials: 'same-origin', cache: 'no-store' }); if (!r.ok) return; const j = await r.json(); CONV.cerebro = !!j.ligado; CONV.checado = Date.now(); if (!j.ligado) semCerebro(j.falta); } catch (e) {}
 }
 function pintaVozAv() { const b = $('#voz-av'); if (b) { b.setAttribute('aria-pressed', String(VOZ_ON)); b.textContent = VOZ_ON ? 'VOZ VEKTOR ON' : 'VOZ VEKTOR OFF'; } }
-const falaFila = () => { const n = esperandoVoce().length, ab = itens().filter(x => ABERTOS.includes(x.st)).length; return `Vektor aqui. ${ab} pedido${ab === 1 ? '' : 's'} na fila, ${n} esperando você.`; };
+const falaFila = () => { const n = esperandoVoce().length, ab = itens().filter(x => ABERTOS.includes(x.st)).length; return `Vektor aqui. ${ab} ${ab === 1 ? 'pedido' : 'pedidos'} na fila, ${n} esperando você.`; };
 const falaEquipe = () => { const l = CONTAS.filter(c => estadoReal(EQ().contas[c], Date.now()).disponivel); return l.length ? `Vektor aqui. Disponíveis agora: ${l.join(', ')}.` : 'Vektor aqui. Nenhuma conta disponível agora. Os pedidos ficam na espera.'; };
-const falaStatus = () => { const p = (E.placar || []).filter(x => x.pagante).map(x => `${x.nome} ${x.pct} por cento`).join(', '); return `Vektor aqui. ${falaFila().replace('Vektor aqui. ', '')}${p ? ' Pagantes: ' + p + '.' : ''}`; };
+const falaStatus = () => falaFila() + ' Os detalhes estão na tela.';
+// frases de molde (cada fala completa tem um clipe pré-gravado em voz/; ver voz/frases.txt)
+const deCli = c => c === 'marca' ? 'da sua marca' : c === 'outro' ? 'de outro cliente' : 'de ' + nomeCli(c);
+const artConta = c => c === 'Zuleide' ? 'a Zuleide' : c === 'Lindson' ? 'a conta Lindson' : 'o ' + c;
 let saudou = false;
 function saudaDepoisDoGesto() { if (saudou || !S.ped.ok) return; saudou = true; const n = esperandoVoce().length; setTimeout(() => responde(n ? `Vektor aqui. Você tem ${n} ${n === 1 ? 'pedido esperando' : 'pedidos esperando'} você.` : 'Vektor aqui. Estou ouvindo, Lindson. É só me chamar pelo nome e falar.', true), 300); }
 
@@ -1309,7 +1312,61 @@ function contadores() {
   $('#faixa').innerHTML = f + f;
   document.title = (n ? `(${n}) ` : '') + 'Central de Comando';
 }
-function pintaTudo() { pintaFila(); pintaResultados(); pintaEquipe(); pintaConfig(); contadores(); pintaEscolhas(); }
+// ---------- 06 · Tarefas feitas (pedido do Lindson, 10/11: "quadro de tarefas feitas, por cliente, data e hora e atividade") ----------
+const SEMENTE = [['tribuna', 'Refazer capas de Reels'], ['tribuna', 'Fotos do perfil'], ['tribuna', 'Site principal'], ['tribuna', 'Bio site'], ['oregano', 'Criei o Instagram'], ['oregano', 'Criei a identidade visual'],
+  ['rt', 'Agendei duas semanas de conteúdo'], ['sf', 'Adicionei saldo na campanha e fiz a campanha'], ['sf', 'Criei cards'], ['sf', 'Criei criativos']];
+async function semente() { // o Lindson mandou as de 09/11 sem hora; entra uma vez só (marcador semente-0911)
+  if (!S.feitas.ok || (S.feitas.d.sementes || []).includes('semente-0911')) return;
+  await muda('feitas', d => { d.sementes = (d.sementes || []).concat(['semente-0911']); d.itens = (d.itens || []).concat(SEMENTE.map(([cli, atividade], i) => ({ id: 'semente-0911-' + (i + 1), data: '2026-11-09', hora: '', cli, atividade, por: 'Lindson', origem: 'lindson', em: agora() }))); });
+}
+const hojeSLZ = (dias = 0) => new Date(Date.now() - 3 * 36e5 - dias * 864e5).toISOString().slice(0, 10);
+const horaSLZ = () => new Date(Date.now() - 3 * 36e5).toISOString().slice(11, 16);
+let PER_F = '7d', CLI_F = 'todos';
+const PERIODOS = [['hoje', 'Hoje'], ['ontem', 'Ontem'], ['7d', '7 dias'], ['mes', 'Mês'], ['tudo', 'Tudo']];
+function noPeriodo(f) { const d = f.data || ''; return PER_F === 'tudo' ? true : PER_F === 'hoje' ? d === hojeSLZ() : PER_F === 'ontem' ? d === hojeSLZ(1) : PER_F === '7d' ? d >= hojeSLZ(6) : d.slice(0, 7) === hojeSLZ().slice(0, 7); }
+function pintaFeitas() {
+  const todas = (S.feitas.d.itens || []).filter(noPeriodo), lista = todas.filter(f => CLI_F === 'todos' || f.cli === CLI_F);
+  $('#per-feitas').innerHTML = PERIODOS.map(([k, n]) => `<button type="button" data-perf="${k}" aria-pressed="${PER_F === k}">${n}<b>${(S.feitas.d.itens || []).filter(f => { const o = PER_F; PER_F = k; const r = noPeriodo(f); PER_F = o; return r; }).length}</b></button>`).join('');
+  const por = {}; todas.forEach(f => por[f.cli] = (por[f.cli] || 0) + 1);
+  $('#cli-feitas').innerHTML = `<button type="button" data-clif="todos" aria-pressed="${CLI_F === 'todos'}">Todos<b>${todas.length}</b></button>` + Object.entries(por).sort((a, b) => b[1] - a[1]).map(([c, n]) => `<button type="button" data-clif="${esc(c)}" aria-pressed="${CLI_F === c}">${esc(nomeCli(c))}<b>${n}</b></button>`).join('');
+  if (!S.feitas.ok) { $('#lista-feitas').innerHTML = `<div class="vazio">${S.feitas.erro ? 'Não consegui ler as tarefas feitas.' : 'Carregando…'}</div>`; return; }
+  const dias = {}; lista.forEach(f => (dias[f.data] = dias[f.data] || []).push(f));
+  const nomeDia = d => { const [a, m, dd] = d.split('-'); const w = new Date(d + 'T12:00:00').toLocaleDateString('pt-BR', { weekday: 'long' }); return (d === hojeSLZ() ? 'Hoje' : d === hojeSLZ(1) ? 'Ontem' : w) + ` <small>${dd}/${m}/${a}</small>`; };
+  $('#lista-feitas').innerHTML = Object.keys(dias).sort().reverse().map(d => `<div class="dia"><h3>${nomeDia(d)}<small>${dias[d].length} tarefa(s)</small></h3>${dias[d].sort((a, b) => (b.hora || '').localeCompare(a.hora || '')).map(f => `<div class="tf"><span class="h">${esc(f.hora || '—')}</span><span class="c">${esc(nomeCli(f.cli))}</span><span class="a">${esc(f.atividade)}${f.aprovado ? '<i>APROVADO</i>' : ''}</span><span class="p">${esc(f.por)}${f.origem === 'fila' ? ' · fila' : ''}</span></div>`).join('')}</div>`).join('') || '<div class="vazio">Nada neste período.</div>';
+}
+async function anotaFeito(cli, atividade, data, hora, falado) {
+  const linha = { id: 'f' + Date.now().toString(36) + Math.random().toString(36).slice(2, 5), data: data || hojeSLZ(), hora: hora == null ? horaSLZ() : hora, cli: cli || 'outro', atividade: String(atividade).trim().slice(0, 300), por: 'Lindson', origem: 'lindson', em: agora() };
+  if (!linha.atividade) { toast('Diga ou escreva a atividade.'); return false; }
+  if (!(await muda('feitas', d => { d.itens = (d.itens || []).concat([linha]); }))) return false;
+  pintaFeitas(); if (falado) responde(`Vektor aqui. Anotado nas tarefas feitas ${deCli(linha.cli)}.`); else toast('Anotado em Tarefas feitas.');
+  return true;
+}
+// voz: "Vektor, feito: Tribuna, refiz as capas dos Reels"
+function feitoVoz(t) {
+  let resto = tiraNome(t).replace(/^\s*(anot\w*\s+)?(feito|fiz|terminei)\b[\s:,.-]*/i, '').trim();
+  const s0 = sem(resto); let cli = null;
+  const c = CLIS.find(c => c.voz.concat([sem(c.nome)]).some(v => s0.startsWith(v) || s0.startsWith('d' + 'a ' + v) || s0.startsWith('do ' + v) || s0.startsWith('de ' + v)));
+  if (c) { cli = c.id; const corte = resto.search(/[,:;.-]/); resto = corte > -1 && corte < 40 ? resto.slice(corte + 1).trim() : resto.split(/\s+/).slice(c.nome.split(' ').length).join(' '); }
+  else { const c2 = CLIS.find(c => c.voz.some(v => s0.includes(' ' + v + ' ') || s0.includes(' ' + v))); if (c2) cli = c2.id; }
+  if (!resto) { responde('Vektor aqui. Diga o que foi feito depois do cliente.'); return; }
+  anotaFeito(cli || 'outro', resto.charAt(0).toUpperCase() + resto.slice(1), null, null, true);
+}
+async function janelaFeito() {
+  const m = document.createElement('div'); m.className = 'janela'; let cli = P.cli || null;
+  m.innerHTML = `<div class="caixa" role="dialog" aria-modal="true" aria-label="Anotar tarefa feita"><h3>+ Feito</h3>
+    <div class="chips-f">${CLIS.map(c => `<button type="button" data-fc="${c.id}" aria-pressed="${c.id === cli}">${esc(c.nome)}</button>`).join('')}</div>
+    <textarea class="det" maxlength="300" placeholder="O que foi feito? Ex.: refiz as capas dos Reels"></textarea>
+    <div class="lado"><input class="campo" type="date" value="${hojeSLZ()}" aria-label="Data"><input class="campo" type="time" value="${horaSLZ()}" aria-label="Hora"></div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap">${SR ? '<button class="btn" type="button" data-v>● Falar</button>' : ''}<button class="btn" type="button" data-n style="margin-left:auto">Voltar</button><button class="btn am" type="button" data-s>Anotar</button></div></div>`;
+  document.body.appendChild(m); const ta = m.querySelector('textarea'), [di, hi] = m.querySelectorAll('input'); setTimeout(() => ta.focus(), 50);
+  m.addEventListener('click', async e => { const b = e.target.closest('button');
+    if (e.target === m || (b && 'n' in b.dataset)) { m.remove(); return; }
+    if (!b) return;
+    if (b.dataset.fc) { cli = b.dataset.fc; m.querySelectorAll('[data-fc]').forEach(x => x.setAttribute('aria-pressed', String(x.dataset.fc === cli))); return; }
+    if ('v' in b.dataset) { capturar().then(t => { ta.value = (ta.value + ' ' + t).trim(); }); return; }
+    if ('s' in b.dataset) { if (!cli) { toast('Toque no cliente.'); return; } if (await anotaFeito(cli, ta.value, di.value, hi.value)) m.remove(); } });
+}
+function pintaTudo() { pintaFeitas(); pintaFila(); pintaResultados(); pintaEquipe(); pintaConfig(); contadores(); pintaEscolhas(); }
 
 // ---------- visualizador (imagem, carrossel, vídeo, PDF, site) ----------
 function abreVer(lista, i, titulo) {
@@ -1351,6 +1408,9 @@ const localISO = d => { const z = new Date(d.getTime() - d.getTimezoneOffset() *
 document.addEventListener('click', async e => {
   if (!e.target.closest('#ferr-menu,#ferr-btn')) $('#ferr-menu').hidden = true;
   const t = e.target.closest('button,a'); if (!t) return;
+  if (t.id === 'mais-feito' || 'maisFeito' in t.dataset) { janelaFeito(); return; }
+  if (t.dataset.perf) { PER_F = t.dataset.perf; pintaFeitas(); return; }
+  if (t.dataset.clif) { CLI_F = t.dataset.clif; pintaFeitas(); return; }
   if (t.id === 'mic' || t.id === 'escuta') { if (ESC.estado === 'ouvindo') { ESC.quer = false; desliga(); ESC.estado = 'pausado'; pintaEscuta(); responde('Escuta pausada.', true); } else { ESC.quer = true; ESC.gesto = true; iniciaEscuta(); } return; }
   if (t.id === 'tentar') { ESC.quer = true; ESC.gesto = true; ESC.stream = null; avisoVoz(''); iniciaEscuta(); return; }
   if (t.id === 'voz-av') { VOZ_ON = !VOZ_ON; try { localStorage.setItem('cmd-voz', VOZ_ON ? '1' : '0'); } catch (_) {} pintaVozAv(); if (VOZ_ON) responde('Vektor aqui. Voz ligada.', true); else if (window.speechSynthesis) speechSynthesis.cancel(); return; }
@@ -1365,7 +1425,7 @@ document.addEventListener('click', async e => {
   if (t.dataset.filtroIr) { FILTRO = t.dataset.filtroIr; pintaFila(); return; }
   if (t.dataset.filtro) { FILTRO = t.dataset.filtro; pintaFila(); return; }
   if (t.dataset.fap) { FILTRO_AP = t.dataset.fap; pintaAprov(); return; }
-  if (t.dataset.aprovar) { const id = t.dataset.aprovar; if (await muda('ped', d => { const x = d.itens.find(y => y.id === id); if (x) { x.st = 'aprovado'; x.esperando = false; x.atualizado = agora(); x.aprovadoEm = agora(); } })) { toast('Aprovado.'); pintaTudo(); } return; }
+  if (t.dataset.aprovar) { const id = t.dataset.aprovar; if (await muda('ped', d => { const x = d.itens.find(y => y.id === id); if (x) { x.st = 'aprovado'; x.esperando = false; x.atualizado = agora(); x.aprovadoEm = agora(); } })) { toast('Aprovado.'); if ((S.feitas.d.itens || []).some(f => f.id === 'f-' + id)) await muda('feitas', d => { const f = d.itens.find(y => y.id === 'f-' + id); if (f) { f.aprovado = true; f.aprovadoEm = agora(); } }); pintaTudo(); } return; }
   if (t.dataset.cancelar) { const id = t.dataset.cancelar; if (!confirm('Cancelar este pedido? Ele sai da fila.')) return; if (await muda('ped', d => { d.itens = d.itens.filter(y => y.id !== id || !['novo', 'espera'].includes(y.st)); })) { toast('Pedido cancelado.'); pintaTudo(); } return; }
   if (t.dataset.ajuste) { const id = t.dataset.ajuste, nota = await janela({ titulo: 'Pedir ajuste', texto: 'Fale ou escreva o que mudar. Volta para a mesma conta.', voz: true, botao: 'Pedir ajuste' }); if (!nota) return;
     if (await muda('ped', d => { const x = d.itens.find(y => y.id === id); if (x) { x.st = 'ajuste'; x.nota = nota.slice(0, 500); x.ajustes = (x.ajustes | 0) + 1; x.atualizado = agora(); x.designada = x.conta || x.designada; x.designadaEm = agora(); x.esperando = false; } })) { toast('Ajuste pedido. Voltou para a fila.'); pintaTudo(); } return; }
@@ -1375,7 +1435,7 @@ document.addEventListener('click', async e => {
     if (t.dataset.respVoz) { if (!SR) { toast('Sem voz neste navegador.'); return; } txt = await capturar(); }
     if (t.dataset.respEsc) txt = await janela({ titulo: 'Responder', voz: true, botao: 'Responder' });
     if (!txt) return;
-    if (await muda('ped', d => { const x = d.itens.find(y => y.id === id); if (x) { x.conversa = (x.conversa || []).concat([{ de: 'Lindson', tipo: 'resposta', texto: String(txt).slice(0, 500), em: agora() }]).slice(-30); x.esperando = false; x.atualizado = agora(); } })) { const x = itens().find(y => y.id === id); responde(`Vektor aqui. Resposta enviada${x && x.conta ? ' para ' + (x.conta === 'Zuleide' ? 'a ' : 'o ') + x.conta : ''}.`); pintaTudo(); } return; }
+    if (await muda('ped', d => { const x = d.itens.find(y => y.id === id); if (x) { x.conversa = (x.conversa || []).concat([{ de: 'Lindson', tipo: 'resposta', texto: String(txt).slice(0, 500), em: agora() }]).slice(-30); x.esperando = false; x.atualizado = agora(); } })) { const x = itens().find(y => y.id === id); responde(`Vektor aqui. Resposta enviada${x && x.conta ? ' para ' + artConta(x.conta) : ''}.`); pintaTudo(); } return; }
   if (t.dataset.mid) { const x = itens().find(y => y.id === t.dataset.mid); if (x) abreVer(midiasDe(x), +t.dataset.i, nomeFn(x.func) + ' · ' + nomeCli(x.cli)); return; }
   if (t.dataset.peca) { const p = ((E.pecas || {})[t.dataset.peca] || []).find(y => y.titulo === t.dataset.tit); if (p) abreVer([p.img].concat(p.telas || []), 0, p.titulo); return; }
   if (t.dataset.video) { abreVer([t.dataset.video], 0, t.dataset.nome); return; }
@@ -1430,7 +1490,7 @@ function revelar() {
   $$('.sec').forEach(el => io3.observe(el));
   // seção atual no trilho e no dock
   const io2 = new IntersectionObserver(es => es.forEach(en => { if (!en.isIntersecting) return; const id = en.target.id === 'deck' ? 'comando' : en.target.id; $$('[data-sec]').forEach(a => a.dataset.sec === id ? a.setAttribute('aria-current', 'true') : a.removeAttribute('aria-current')); }), { rootMargin: '-45% 0px -50% 0px' });
-  ['comando', 'deck', 'fila', 'resultados', 'equipe', 'contas'].forEach(id => io2.observe(document.getElementById(id)));
+  ['comando', 'deck', 'fila', 'resultados', 'feitas', 'equipe', 'contas'].forEach(id => io2.observe(document.getElementById(id)));
 }
 function relogio() { $('#relogio').textContent = new Date().toLocaleTimeString('pt-BR'); }
 
@@ -1445,7 +1505,9 @@ async function ciclo(primeira) {
   await Promise.all(Object.keys(S).map(carrega));
   if (primeira) { await sobePerfil(); await redistribuiAgora(); }
   const n = esperandoVoce().length; if (antes >= 0 && n > antes) { bip(); toast('Chegou algo para você na fila.'); } antes = n;
+  if (primeira) await semente();
   if (!document.querySelector('.janela,.ver,.painel-int')) pintaTudo();
+  if (primeira) saudaDepoisDoGesto();
 }
 ciclo(true);
 setInterval(() => { if (!document.hidden) ciclo(false); }, 40000);

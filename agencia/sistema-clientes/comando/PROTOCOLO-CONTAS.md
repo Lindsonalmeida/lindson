@@ -43,8 +43,12 @@ U=https://lindsonalmeida.pages.dev/api/automacao; H=(-H "Authorization: Bearer $
    `-d '{"id":"<id>","acao":"pronto","conta":"Pedro","midia":["https://.../tela1.jpg","https://.../tela2.jpg","https://.../video.mp4","https://.../estrategia.pdf"],"link":"https://site-no-ar","resumo":"7 telas + legenda SEO"}'`
    - A página mostra a mídia **ali mesmo**, pelo tipo do arquivo: `.jpg/.png/.webp` na galeria, `.mp4/.webm` no player, `.pdf` no visualizador e qualquer outro link como prévia do site.
    - Aceita até 10 links em `midia` e um resumo de até 300 caracteres.
-7. **Registrar:** linha no `REGISTRO-DAS-CONTAS.md` e no `PLACAR-DOS-PROJETOS.md`. Depois rode `python3 agencia/sistema-clientes/comando/montar-comando.py` e faça push nos dois repositórios.
-8. **Sair:** `-d '{"conta":"Pedro","estado":"livre"}'` em `$U?fila=equipe`.
+7. **Tarefas feitas:** toda entrega `pronto` já vira uma linha em **Tarefas feitas** (cliente, função + resumo, quem fez, data e hora de São Luís). O que a conta fizer **fora da fila** também entra:
+   `-d '{"acao":"feito","conta":"Pedro","cli":"tribuna","atividade":"Refiz as capas dos Reels"}'` em `$U?fila=ped`.
+   - `cli` pode ser jaci, tribuna, leo, rt, oregano, sf, marca ou outro.
+   - `data` (AAAA-MM-DD) e `hora` (HH:MM) são opcionais; sem elas, vale agora.
+8. **Registrar:** linha no `REGISTRO-DAS-CONTAS.md` e no `PLACAR-DOS-PROJETOS.md`. Depois rode `python3 agencia/sistema-clientes/comando/montar-comando.py` e faça push nos dois repositórios.
+9. **Sair:** `-d '{"conta":"Pedro","estado":"livre"}'` em `$U?fila=equipe`.
 
 **Bateu o limite** (ou a última mensagem da sessão foi de limite): poste o estado com a hora do reset, que vem na mensagem ("resets …"):
 `-d '{"conta":"Pedro","estado":"limite-sessao","ate":"2026-11-09T23:00:00-03:00"}'`. Para a semana, use `limite-semana`.
@@ -71,6 +75,7 @@ O pedido mostra o motivo em uma linha, por exemplo "Zuleide: já está trabalhan
 | pronto | `midia` até 10 links https, `link` https (opcional), pelo menos um dos dois; `resumo` ≤ 300 |
 | pergunta | `texto` ≤ 500, `opcoes` até 6 de ≤ 40 |
 | dividir | `partes` de 1 a 6 `{texto ≤ 300, func?}` |
+| feito | sem `id`; `cli` (2–30), `atividade` ≤ 300, `data?`, `hora?` → grava em `dados:admin:feitas` |
 | `?fila=equipe` POST | `estado` ∈ trabalhando · livre · limite-sessao · limite-semana; `ate` ISO nos próximos 8 dias (obrigatório nos limites); `tarefa` ≤ 200 |
 
 - `pronto`, `pergunta` e `dividir` só funcionam para a conta que pegou o pedido.
