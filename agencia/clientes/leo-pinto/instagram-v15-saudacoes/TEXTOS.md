@@ -268,7 +268,7 @@ QUAL FOI A SUA CONQUISTA EM 2026? CONTA PRA GENTE!
 4 · A casa e a família
 
 💡 A minha
-Em 2026, a minha maior conquista foi estar perto do povo de São João Batista, em cada povoado e povoado. Obrigado pela confiança.
+Em 2026, a minha maior conquista foi estar perto do povo de São João Batista, em cada povoado. Obrigado pela confiança.
 
 ✅ Obrigado, 2026
 Que 2027 venha com mais conquistas pra todos nós, juntos.

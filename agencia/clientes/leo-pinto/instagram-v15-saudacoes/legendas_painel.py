@@ -114,7 +114,7 @@ Cada comentário vira um ponto no mapa da nossa cidade. Povoado por povoado.
 
 👇 Comenta aqui: qual é o seu povoado?
 
-#saojoaobatistama #baixadamaranhense #vereadorpresente #nossobairro
+#saojoaobatistama #baixadamaranhense #vereadorpresente #nossopovoado
 
 Música: Inspired – Kevin MacLeod (incompetech.com), licença CC BY 4.0 (creativecommons.org/licenses/by/4.0/)"""
 L[2] = """PEDIU? TÁ FEITO. COMO UMA IDEIA DO SEU POVOADO VIRA ENTREGA

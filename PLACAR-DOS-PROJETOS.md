@@ -29,7 +29,7 @@ Legenda: ✅ feito · 🟡 em andamento · ⏳ depende do Lindson ou do cliente 
 7. ⬜ Calendário e artes do Instagram reformulado (depois do item 5)
 8. ⏳ Acessos e Insights do Instagram (para o painel ter números reais)
 
-### 💰 Leo Pinto (pagante) · 5 de 9 (56%)
+### 💰 Leo Pinto (pagante) · 5 de 10 (50%)
 1. ✅ Apresentação v13, datas comemorativas, bio e destaques
 2. ✅ 4 motions
 3. ✅ 10 saudações (situação)
@@ -38,7 +38,8 @@ Legenda: ✅ feito · 🟡 em andamento · ⏳ depende do Lindson ou do cliente 
 6. ⏳ Postar as datas de 15/11, 20/11, 11/12, 25/12, 31/12 e 01/01 no dia
 7. ⏳ Escolher os 4 quadros fixos
 8. ⏳ Fotos reais de São João Batista, 7 fotos livres do álbum, 5 fotos no Gemini
-9. ⏳ @ certo, entregas do mandato, causas e bairros para a estratégia
+9. ⏳ @ certo, entregas do mandato, causas e povoados para a estratégia
+10. ⏳ v16: 10 conteúdos (pesquisa, persona e 4 legendas prontas; esperando fotos e entregas do mandato)
 
 ### 💰 Real Time (pagante) · 2 de 7 (29%)
 1. ✅ Site de SEO + bio no ar
