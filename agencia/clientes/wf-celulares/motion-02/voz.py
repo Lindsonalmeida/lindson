@@ -10,8 +10,10 @@ V = json.load(open(os.path.join(D, 'roteiros.json')))
 W = WhisperModel('small', device='cpu', compute_type='int8')
 
 def norm(s):
-    s = s.lower().replace('r$', ' ').replace('%', ' por cento')
-    s = re.sub(r'(\d)\.(\d{3})', r'\1\2', s)
+    s = s.lower().replace('%', ' por cento')
+    s = re.sub(r'(\d)\s*\.\s*(\d{3})', r'\1\2', s); s = re.sub(r'\s*,00', '', s)
+    s = re.sub(r'r\s*\$\s*(\d+)\b(?!\s*gb)', r'\1 reais', s); s = re.sub(r'r\s*\$', ' ', s)
+    s = re.sub(r'(\d+) reais reais', r'\1 reais', s); s = re.sub(r'\bgb\b', 'gigas', s)
     s = re.sub(r'\d+', lambda m: ' ' + num2words(int(m.group()), lang='pt_BR') + ' ', s)
     s = unicodedata.normalize('NFKD', s); s = ''.join(c for c in s if not unicodedata.combining(c))
     s = s.replace('i phone', 'iphone').replace('whats app', 'whatsapp').replace('w f', 'wf').replace('dabliu efe', 'wf')
@@ -24,7 +26,9 @@ def tts(texto, out, voz='pt-BR-AntonioNeural', rate='+4%'):
     raise SystemExit('edge-tts falhou')
 
 def confere(mp3, ref, chaves):
-    segs, _ = W.transcribe(mp3, language='pt', word_timestamps=True, beam_size=5)
+    import numpy as np
+    pcm = subprocess.run(['ffmpeg', '-v', 'error', '-i', mp3, '-f', 's16le', '-ac', '1', '-ar', '16000', '-'], capture_output=True).stdout
+    segs, _ = W.transcribe(np.frombuffer(pcm, np.int16).astype(np.float32) / 32768, language='pt', word_timestamps=True, beam_size=5)
     pal = [w for s in segs for w in s.words]; txt = ' '.join(w.word.strip() for w in pal)
     a, b = norm(ref), norm(txt); sim = difflib.SequenceMatcher(None, a, b).ratio()
     falta = [k for k in chaves if ' '.join(norm(k)) not in ' '.join(b)]

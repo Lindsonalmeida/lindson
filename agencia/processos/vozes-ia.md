@@ -45,3 +45,31 @@ SSL_CERT_FILE=/root/.ccr/ca-bundle.crt python -m edge_tts --proxy "$HTTPS_PROXY"
 ## Aprovadas pelo Lindson (10/11/2026)
 - Feminina: Francisca (+4%).
 - Masculinas: **04 Giuseppe Multilingual (+4%)**, sempre com pronúncia corrigida no texto, e **01 Antonio (+4%)**.
+
+## Atualização 10/11/2026 (conta Leandro) · Giuseppe REPROVADO, usar voz nativa pt-BR
+- **Giuseppe Multilingual reprovado** pelo Lindson em 10/11 ("as pronúncias estão erradas"). O padrão masculino passa a ser o **pt-BR-AntonioNeural +4%**, sem pitch e sem eco.
+- **Teste de vozes masculinas grátis** (mesma frase, Whisper small pt; amostras em `agencia/clientes/wf-celulares/motion-02/vozes-teste/`):
+
+| Voz | sim | pausas | Observação |
+|---|---|---|---|
+| **pt-BR-AntonioNeural +4% (edge-tts)** | **0,976** | 5 (pontuação) | ESCOLHIDA: nativo, acerta modelo, número e preço |
+| Piper pt_BR faber medium (local, CPU) | 0,894 | 0 | fluido, mas soa robótico e tropeça em "seminovo" |
+| Piper pt_BR edresson low (local, CPU) | 0,847 | 0 | errou "laudo" ("quando audo") |
+| gTTS pt-BR (referência) | 0,930 | 3 | voz feminina do Google, só como referência |
+| Coqui XTTS v2 / Kokoro (pm_alex) | não testados | | exigem torch e GB de download (rede ~350 KB/s) |
+
+- **Grafia que funcionou no Antonio** (conferida no Whisper, sim ≥ 0,93):
+
+| Termo | Escrever | Observação |
+|---|---|---|
+| WF | "dábliu éfe" | o Whisper devolve "WF" |
+| iPhone | "iPhone" | normal |
+| Pro Max | "Pro Max" | no 17 sai "Pro Mac": usar "Pro Max, cor silver" |
+| GB | "gigas" | |
+| preços | por extenso ("dois mil seiscentos e noventa e nove reais") | |
+| laudo | "E com laudo." (frase curta) | "com laudo" e "com o laudo" no meio da frase saem "com o Aldo" / "um áudio" |
+| seminovo | "seminovo" | "semi-novo" sai "ser um novo" |
+| loja | "Uma loja de iPhone," | depois de "a", sai "moja" |
+| premium | evitar ("prêmio"); usar "de luxo" | |
+| titânio | "cor de titânio" | "em titânio" sai "entitrâneo" |
+- **Conferência automática:** `agencia/clientes/wf-celulares/motion-02/voz.py` (gera, transcreve, compara e tenta alternativas).

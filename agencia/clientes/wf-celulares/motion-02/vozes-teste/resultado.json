@@ -1,0 +1,32 @@
+{
+ "antonio-edge-+4": {
+  "sim": 0.976,
+  "pausas": 5,
+  "faltou": [],
+  "whisper": "Tem medo de comprar seminovo bichado? Na WF, todo iPhone sai testado. E com um laudo? Esse é o iPhone 14 Pro Max, 128 GB por R $ 3 .299. Chama no WhatsApp e agora."
+ },
+ "piper-faber-medium": {
+  "sim": 0.894,
+  "pausas": 0,
+  "faltou": [],
+  "whisper": "Tem medo de comprar sem o novo bichado, na WF, todo o iPhone sai testado. E quando laudo, esse é o iPhone 14 Pro Max 128 GB por 3 .299 reais. Tchama no WhatsApp agora."
+ },
+ "piper-edresson-low": {
+  "sim": 0.847,
+  "pausas": 0,
+  "faltou": [
+   "laudo"
+  ],
+  "whisper": "Tenho medo de comprar esse em novo bichado. Na WF, todo o iPhone sai testado. E quando audo? Esse é o iPhone 14 Pro Max 128GB por 3 .299 reais. Chama no WhatsApp agora."
+ },
+ "gtts-pt-br-referencia": {
+  "sim": 0.93,
+  "pausas": 3,
+  "faltou": [],
+  "whisper": "Tem medo de comprar seminovo bichado? Na WE A100 agudo FE, todo iPhone sai testado. E com laudo, esse é o iPhone 14 Pro Max, 128 GB, por R $ 3 .299. Chama no WhatsApp agora."
+ },
+ "nao-testadas": {
+  "coqui-xtts-v2": "precisa de torch + modelo de ~1,8 GB; a rede aqui baixa a ~350 KB/s (mais de 90 min)",
+  "kokoro": "pm_alex/pm_santa existem, mas exigem torch (mesmo bloqueio de download)"
+ }
+}
