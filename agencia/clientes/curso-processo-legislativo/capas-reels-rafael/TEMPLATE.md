@@ -37,3 +37,8 @@ Fotos novas do painel: não deu para ler (ficam no KV `CONTAS`, chave `foto:curs
 | 07 fases | 35013248 | Câmara dos Comuns do Canadá · Daniel Miller |
 | 08 urgência | 7224866 | Ampulheta · Dhia Eddine |
 Ordem das cores no grid: verde, creme, verde, creme, dourado, creme, dourado, verde (sem cor igual lado a lado nem em cima).
+
+## v4 (10/11): 03 a 08 copiam o sistema APROVADO da 01/02
+Mesmo código (`A2` = função `A` da 01/02 com outra foto): recorte BiRefNet (`recorte2.py`), rosto ~360 px na mesma altura, palavra gigante em Instrument Serif itálico atrás da cabeça, manchete Inter Tight 900 com 1 destaque em itálico dourado, tag "§ PROCESSO LEGISLATIVO · Prof." no topo, "assista ao Reels ↓". Xadrez: Rafael verde, Tiago creme (grid sem cor repetida ao lado nem em cima).
+Coleta aplicada (em todas): social-media-advocacia estilo **E Black & Gold Autoridade** (retrato recortado + palavra gigante no fundo) e **F Assinatura gráfica** (§ fixo); tabela premium (hierarquia de 3 níveis, 1 palavra em itálico serifado, rodapé fixo, mesmo tratamento de foto); designer-grafico "letra passando por trás da pessoa"; motion #35 grão.
+Palavra de fundo: 03 ordem · 04 sanção · 05 moção · 06 rito · 07 fases · 08 urgência.

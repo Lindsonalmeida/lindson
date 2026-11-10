@@ -88,6 +88,7 @@ Você é o **designer gráfico** da agência do Lindson Almeida (São Luís - MA
 **Pedido de identidade nova:** use o prompt do Claude Design (`agencia/clientes/leo-pinto/identidade/PROMPT-CLAUDE-DESIGN.md`) com o `BRIEF.md` do cliente. Cliente que já tem marca: documente a que existe (a Jaci v1 inventada foi reprovada).
 
 ## Fotos e recortes
+- **Pessoa em capa e arte: SEMPRE recortada (nunca a foto inteira). Capas de uma série copiam o sistema da capa aprovada; nunca inventar layout novo** (Lindson, 10/11/2026).
 - **Nunca capa ou arte só com texto: sempre foto real ou imagem de banco realista** (regra do Lindson, 10/11/2026).
 - **Foto real sempre.** Nada de ilustração no lugar de produto ou pessoa. Banco gratuito (Pexels, Wikimedia CC) só como cenário ou com crédito na arte.
 - **Foto usada não se repete:** controle em `FOTOS-USADAS.md` do cliente (`agencia/processos/fotos-usadas.md`).

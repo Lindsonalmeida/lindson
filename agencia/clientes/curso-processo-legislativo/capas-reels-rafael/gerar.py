@@ -27,7 +27,7 @@ from PIL import Image
 PF='/home/user/centrallindsonalmeida/dados/clientes-arquivos/curso/socios/painel/'
 HC=cv2.CascadeClassifier('/root/.modelos/haar.xml')
 def rosto(path):
-  im=Image.open(path);g=cv2.cvtColor(np.asarray(im.convert('RGB')),cv2.COLOR_RGB2GRAY)
+  im=Image.open(path);b=Image.new('RGBA',im.size,(150,150,150,255));b.alpha_composite(im.convert('RGBA'));g=cv2.cvtColor(np.asarray(b.convert('RGB')),cv2.COLOR_RGB2GRAY)
   r=sorted(HC.detectMultiScale(g,1.1,6,minSize=(100,100)).tolist(),key=lambda x:-x[2])[0];return im.size,r
 def cut(f,cx,top,face=FACE):  # recorte BiRefNet, mesmo rosto (360 px) das capas aprovadas
   (w,h),(x,y,fw,fh)=rosto(f);s=face/fw
@@ -48,15 +48,19 @@ def A2(p,f,t,h,back,bg,fg,ac,face=FACE):
   return f'''<div class="c" style="background:{bg}">{tag(p,ac)}<div class="back" style="color:{ac}">{back}</div>{cut(f,540,430,face)}
   <div class="fade" style="background:linear-gradient(transparent,{bg} 55%)"></div>
   <h1 class="ha" style="color:{fg}">{t.replace(h,f'<em style="color:{ac}">{h}</em>')}</h1><div class="sw" style="color:{ac}">assista ao Reels ↓</div></div>'''
+# v4 (10/11): 03 a 08 copiam o sistema APROVADO da 01/02 (funcao A2 = A com outra foto recortada, rosto 360 px, mesma posicao).
+# Xadrez: Rafael verde (como a 01), Tiago creme (como a 02).
+RV=lambda f,t,h,b,fc=FACE:A2('rafael',f,t,h,b,V,CR,O,fc)
+TC=lambda f,t,h,b,fc=FACE:A2('tiago',f,t,h,b,CR,V,'#9C7B3E',fc)
 capas=[
  ('01-rafael-emenda',A('rafael','Vereador pode aumentar despesa por emenda?','despesa','emenda',V,CR,O)),
  ('02-tiago-portaria',A('tiago','Portaria serve para quê?','para quê?','portaria',CR,V,'#9C7B3E')),
- ('03-rafael-questao-de-ordem',H('rafael','rafael-mw6s8tkztximaf.jpg','O que é questão de ordem?','questão de ordem?',V,CR,O)),
- ('04-tiago-sancionar',H('tiago','tiago-mw6rwc95u97ywi.jpg','Prefeito pode sancionar sem falar nada?','sem falar nada?',CR,V,'#9C7B3E')),
- ('05-rafael-mocao',K('rafael-mw6s8xu06d52o9.png','rafael'=='x' or 'Moção não é projeto de lei','não é','moção') if False else K('rafael','rafael-mw6s8xu06d52o9.png','Moção não é projeto de lei','não é','moção')),
- ('06-tiago-procedimento',H('tiago','tiago-mw6rwf9inhnxgb.jpg','O que é procedimento abreviado ou conclusivo?','abreviado ou conclusivo?',CR,V,'#9C7B3E',400,320)),
- ('07-rafael-fases',K('rafael','rafael-mw6s8vb8cmafyz.png','Quais são as fases do processo legislativo?','fases','fases')),
- ('08-tiago-urgencia',A2('tiago','tiago-mw6rwhdqij2dph.png','O prefeito pode pedir urgência em qualquer projeto?','urgência','urgência',V,CR,O,310)),
+ ('03-rafael-questao-de-ordem',RV('rafael-mw6s8tkztximaf.png','O que é questão de ordem?','questão de ordem?','ordem')),
+ ('04-tiago-sancionar',TC('tiago-mw6rwc95u97ywi.png','Prefeito pode sancionar sem falar nada?','sem falar nada?','sanção',330)),
+ ('05-rafael-mocao',RV('rafael-mw6s8xu06d52o9.png','Moção não é projeto de lei','não é','moção')),
+ ('06-tiago-procedimento',TC('tiago-mw6rwf9inhnxgb.png','O que é procedimento abreviado ou conclusivo?','abreviado ou conclusivo?','rito',290)),
+ ('07-rafael-fases',RV('rafael-mw6s8vb8cmafyz.png','Quais são as fases do processo legislativo?','fases','fases')),
+ ('08-tiago-urgencia',TC('tiago-mw6rwhdqij2dph.png','O prefeito pode pedir urgência em qualquer projeto?','urgência','urgência',325)),
 ]
 css=f'''@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;600;800;900&display=swap');
 body{{margin:0}}.c{{width:1080px;height:1920px;position:relative;overflow:hidden;font-family:'Inter Tight'}}
