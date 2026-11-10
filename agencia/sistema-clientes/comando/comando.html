@@ -788,6 +788,14 @@ function entende(frase, final, montar) {
   if (final && /\bequipe\b/.test(s) && !conteudo) { ir('#equipe'); responde(falaEquipe()); return 'nav'; }
   if (final && /\b(status|resultado|resultados|analise|placar)\b/.test(s) && !conteudo) { ir('#resultados'); responde(falaStatus()); return 'nav'; }
   if (final && /\b(aprovacoes|aprovar)\b/.test(s) && !conteudo && !montar) { ir('#aprovacoes'); return 'nav'; }
+  // 10/11: "verifique os conteúdos da Dra Jaci" → abre as peças do cliente e diz quantas esperam (sem precisar de cérebro)
+  if (final && /\b(verifi\w*|ver|veja|mostr\w*|abr\w*|confer\w*|cad[eê]|quais)\b/.test(s) && /\b(conteudo\w*|pecas?|posts?|artes?|aprova\w*|materia\w*)\b/.test(s)) {
+    const c = CLIS.find(c => c.voz.some(v => s.includes(' ' + v + ' ')));
+    FILTRO_AP = c && CLIS_APROV.includes(c.id) ? c.id : 'todos'; pintaAprov(); ir('#aprovacoes');
+    const l = c ? pecasPend(c.id) : CLIS_APROV.flatMap(x => pecasPend(x)), n = l.filter(p => p.st === 'aguardando').length;
+    responde(c ? (n ? `${c.nome} tem ${n} ${n === 1 ? 'peça esperando' : 'peças esperando'} a sua aprovação. Abri aqui pra você.` : `${c.nome} não tem peça esperando aprovação agora.`) : `São ${n} peças esperando a sua aprovação.`);
+    return 'nav';
+  }
   let achou = false;
   if (montar) {
     const c = CLIS.find(c => c.voz.some(v => s.includes(' ' + v + ' '))); if (c) { P.cli = c.id; achou = true; }
@@ -1013,7 +1021,9 @@ function roteia(t) {
   const s = sem(t), chamou = ATIVA.test(s), resto = s.replace(ATIVA, '').trim();
   if (CONV.pendente && FIM_ENVIA.test(s.trim()) && s.split(' ').length <= 4) { manda(CONV.pendente); return; }
   // só reage (e fala) quando chamado pelo nome, ou na janela de 10 s depois que ele chamou; fora disso, só mostra e navega calado
-  if (!chamou && Date.now() >= CONV.ate) { MUDO = true; try { processa(t); } finally { MUDO = false; } return; }
+  const temPedido = CLIS.some(c => c.voz.some(v => (' ' + s + ' ').includes(' ' + v + ' '))) || Object.values(FN).some(f => f.voz.some(v => (' ' + s + ' ').includes(' ' + v + ' ')));
+  if (!chamou && Date.now() >= CONV.ate && !temPedido) { MUDO = true; try { processa(t); } finally { MUDO = false; } return; }
+  if (!chamou && temPedido) { processa(t, true); return; }
   // a janela de conversa só abre quando ele CHAMA pelo nome; uma resposta sem chamar fecha a janela (evita o looping de 10/11)
   CONV.ate = chamou ? Date.now() + 10000 : 0;
   if (chamou && !resto) { responde('Pois não?', true); return; }
