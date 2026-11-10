@@ -1,0 +1,112 @@
+[
+ {
+  "n": 1,
+  "slug": "13-pro-max",
+  "nome": "iPhone 13 Pro Max",
+  "linhas": 2,
+  "cap": "Grafite · 256 GB",
+  "eyebrow": "Seminovo com laudo",
+  "preco": "2.699,00",
+  "img": "13-graphite.png",
+  "x": 620,
+  "y": 560,
+  "w": 420,
+  "h": 860,
+  "pos": "100% 50%",
+  "tom": "#2a2a2e",
+  "selos": [
+   "Laudo WF",
+   "Garantia",
+   "Até 18x"
+  ],
+  "voz": "iPhone treze Pró Mécs, preto, duzentos e cinquenta e seis gigas. Por dois mil, seiscentos e noventa e nove reais, com laudo e garantia."
+ },
+ {
+  "n": 2,
+  "slug": "15-pro-max",
+  "nome": "iPhone 15 Pro Max",
+  "linhas": 2,
+  "cap": "Titânio · 256 GB",
+  "eyebrow": "Seminovo com laudo",
+  "preco": "3.950,00",
+  "img": "15-hero.jpg",
+  "x": 140,
+  "y": 560,
+  "w": 1100,
+  "h": 860,
+  "pos": "40% 50%",
+  "tom": "#3a3530",
+  "selos": [
+   "Laudo WF",
+   "Garantia",
+   "Pix com desconto"
+  ],
+  "voz": "iPhone quinze Pró Mécs, duzentos e cinquenta e seis gigas, em titânio. Por três mil, novecentos e cinquenta reais."
+ },
+ {
+  "n": 3,
+  "slug": "12-pro-max",
+  "nome": "iPhone 12 Pro Max",
+  "linhas": 2,
+  "cap": "128 GB",
+  "eyebrow": "Seminovo com laudo",
+  "preco": "2.299,00",
+  "img": "12-blue.jpg",
+  "x": 140,
+  "y": 560,
+  "w": 1100,
+  "h": 860,
+  "pos": "30% 50%",
+  "tom": "#0f2350",
+  "selos": [
+   "Laudo WF",
+   "Garantia",
+   "Até 18x"
+  ],
+  "voz": "iPhone doze Pró Mécs, cento e vinte e oito gigas. Por dois mil, duzentos e noventa e nove reais. O Pró Mécs que cabe no bolso."
+ },
+ {
+  "n": 4,
+  "slug": "14-pro-max",
+  "nome": "iPhone 14 Pro Max",
+  "linhas": 2,
+  "cap": "128 GB",
+  "eyebrow": "Seminovo com laudo",
+  "preco": "3.299,00",
+  "img": "14-black.png",
+  "x": 440,
+  "y": 560,
+  "w": 600,
+  "h": 860,
+  "tom": "#2b2633",
+  "selos": [
+   "Laudo WF",
+   "Garantia",
+   "Pix com desconto"
+  ],
+  "voz": "iPhone catorze Pró Mécs, cento e vinte e oito gigas. Por três mil, duzentos e noventa e nove reais, com laudo dábliu éfe."
+ },
+ {
+  "n": 5,
+  "slug": "17-pro-max-silver",
+  "nome": "iPhone 17 Pro Max",
+  "linhas": 2,
+  "cap": "Silver · 256 GB",
+  "eyebrow": "Seminovo · garantia Apple",
+  "preco": "6.399,00",
+  "era": "era R$ 6.499,00",
+  "img": "17-silver.jpg",
+  "x": 560,
+  "y": 560,
+  "w": 480,
+  "h": 860,
+  "pos": "0% 50%",
+  "tom": "#34363a",
+  "selos": [
+   "Laudo WF",
+   "Garantia Apple",
+   "Até 18x"
+  ],
+  "voz": "iPhone dezessete Pró Mécs, silver, duzentos e cinquenta e seis gigas. Baixou: agora por seis mil, trezentos e noventa e nove reais."
+ }
+]
