@@ -243,3 +243,4 @@ Levantado pela conta Lindson em 01/11/2026 a partir do histórico do git e dos a
 | 10/11/2026 | Zuleide | Agente da conta (`.claude/agents/zuleide.md`) e prompt para as outras contas (`PROMPT-AGENTE-DA-CONTA.md`) | raiz e .claude/agents | pronto |
 | 10/11/2026 | Pedro | Agente da conta: `.claude/agents/pedro.md` + lições agregadas a Webdesigner, Designer gráfico e Social media | `.claude/agents/` | Pronto |
 | 10/11/2026 | Leandro | Agente da conta: `.claude/agents/leandro.md` (como o Lindson ensina, regras, ferramentas, entregas e fecho) | `.claude/agents/leandro.md` | pronto |
+| 10/11/2026 | Zuleide | Curso legislativo: professores no mesmo patamar no site, bio e prévia (igualar.py, medir.js) | CentralLindsonALmeida/dados/clientes-arquivos/curso/site | pronto; falta publicar no repo cursoprocessolegislativo (sem acesso nesta sessão) |
