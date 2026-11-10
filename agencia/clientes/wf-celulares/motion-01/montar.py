@@ -1,4 +1,4 @@
-# Junta quadros + voz D (edge-tts Antonio, pitch -12 Hz) + SFX + trilha Mixkit com ducking · conta Leandro · 10/11/2026
+# Junta quadros + voz APROVADA pelo Lindson (Giuseppe Multilingual +4%, agencia/processos/vozes-ia.md) + SFX + trilha Mixkit com ducking · conta Leandro · 10/11/2026
 # Uso: python3 montar.py  (precisa de tmp/v<N>/ do render.js). SSL_CERT_FILE e HTTPS_PROXY para o edge-tts no ambiente.
 import os, json, subprocess
 D = os.path.dirname(os.path.abspath(__file__)); S = os.path.join(D, '..', 'video-processo', 'som'); T = os.path.join(D, 'tmp')
@@ -10,8 +10,8 @@ run(['-f', 'lavfi', '-i', "aevalsrc='0.25*sin(2*PI*(200+900*t*t/4)*t)*t/2.2':d=2
 for i, p in enumerate(V):
     n = p['n']; vz = os.path.join(T, f'voz{n}.wav')
     mp3 = vz.replace('.wav', '.mp3')
-    subprocess.run(['edge-tts', '--proxy', os.environ.get('HTTPS_PROXY', ''), '--voice', 'pt-BR-AntonioNeural', '--pitch=-12Hz', '--rate=+6%', '--text', p['voz'], '--write-media', mp3], check=True)
-    run(['-i', mp3, '-af', 'highpass=f=80,equalizer=f=180:t=q:w=1:g=2,acompressor=threshold=-20dB:ratio=3:makeup=2,aecho=0.8:0.5:40:0.12,loudnorm=I=-15:TP=-1', '-ar', '44100', vz])
+    subprocess.run(['edge-tts', '--proxy', os.environ.get('HTTPS_PROXY', ''), '--voice', 'it-IT-GiuseppeMultilingualNeural', '--rate=+4%', '--text', p['voz'], '--write-media', mp3], check=True)
+    run(['-i', mp3, '-af', 'highpass=f=80,equalizer=f=180:t=q:w=1:g=2,acompressor=threshold=-20dB:ratio=3:makeup=2,loudnorm=I=-15:TP=-1', '-ar', '44100', vz])
     out = os.path.join(D, f"wf-motion-{n:02d}-{p['slug']}.mp4")
     ms = lambda s: f'{int(s*1000)}|{int(s*1000)}'
     fc = (f"[0:v]tmix=frames=2,noise=alls=6:allf=t,format=yuv420p[v];"

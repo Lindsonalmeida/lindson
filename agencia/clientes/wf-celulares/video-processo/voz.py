@@ -27,7 +27,7 @@ for i, b in enumerate(BLOCOS, 1):
     bruto, out = os.path.join(SAI, f'b{i}-bruto.wav'), os.path.join(SAI, f'b{i}.wav')
     if os.path.exists(out): continue
     if edge:
-        subprocess.run(['edge-tts', '--proxy', os.environ.get('HTTPS_PROXY', ''), '--voice', 'pt-BR-AntonioNeural', '--rate', '+8%', '--text', b, '--write-media', bruto.replace('.wav', '.mp3')], check=True)
+        subprocess.run(['edge-tts', '--proxy', os.environ.get('HTTPS_PROXY', ''), '--voice', 'it-IT-GiuseppeMultilingualNeural', '--rate', '+4%', '--text', b, '--write-media', bruto.replace('.wav', '.mp3')], check=True)
         bruto = bruto.replace('.wav', '.mp3')
     else:
         w = m.generate(b, language_id='pt', audio_prompt_path=REF, exaggeration=0.75, cfg_weight=0.3, temperature=0.8)
