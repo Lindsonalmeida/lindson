@@ -31,7 +31,12 @@
       "WebSearch",
       "WebFetch",
       "ArtifactData",
-      "Artifact"
+      "Artifact",
+      "mcp__Windsor_ai",
+      "mcp__Windsor_ai_for_Social_Media",
+      "mcp__Metricool_Social_Media_Management",
+      "Agent",
+      "ToolSearch"
     ]
   }
 }
