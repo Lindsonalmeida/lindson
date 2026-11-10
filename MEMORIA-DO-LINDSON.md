@@ -442,3 +442,4 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 - **10/11/2026 (Zuleide): APROVADAS as capas de Reels 01 (Rafael, emenda) e 02 (Tiago, portaria)** do curso: foto real recortada, palavra gigante atrás, manchete embaixo. Capas 03 a 08 refeitas com imagem de banco, aguardando.
 - **REGRA PERMANENTE (Lindson, 10/11/2026): nunca capa ou arte só com texto: sempre foto real ou imagem de banco realista.**
 - **10/11/2026 (Zuleide) · FOTOS DOS PAINÉIS ACESSÍVEIS ÀS CONTAS:** `GET https://lindsonalmeida.pages.dev/api/automacao?fila=fotos&cli=<cliente>` lista e `&id=<id>` baixa a foto (token AUTOMACAO_TOKEN salvo como credencial de rede da sessão; o proxy injeta). "Eu já enviei, procure jeito": sempre puxar as fotos do painel antes de pedir ao Lindson.
+- **10/11/2026 (Zuleide):** capas 03 a 08 do curso refeitas (v3) com fotos reais do painel (pedido: "use mais fotos deles"), aguardando.

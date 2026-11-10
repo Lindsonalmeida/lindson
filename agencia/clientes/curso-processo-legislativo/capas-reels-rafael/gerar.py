@@ -22,27 +22,41 @@ def C(p,t,h):
 def D(p,linhas,dest):
   ls=''.join(f'<div class="{"dd" if i==dest else ""}">{l}</div>' for i,l in enumerate(linhas))
   return f'''<div class="c" style="background:{CA}">{tag(p,O)}<div class="hd">{ls}</div><div class="rod">§ curso de processo legislativo</div></div>'''
-def bimg(f,pos='center'):return f'background:url(banco/{f}) {pos}/cover'
-# E (verde): foto de banco em tela cheia com degradê verde, manchete embaixo (segue a 01)
-def E(p,f,t,h,pos='center'):
-  return f'''<div class="c" style="background:{V}"><div class="bg" style="{bimg(f,pos)}"></div><div class="ov" style="background:linear-gradient({V}cc 0%,{V}33 25%,{V}55 50%,{V} 72%)"></div>{tag(p,O)}
-  <h1 class="ha" style="color:{CR}">{t.replace(h,f'<em style="color:{O}">{h}</em>')}</h1><div class="sw" style="color:{O}">assista ao Reels ↓</div></div>'''
-# F (creme): foto em moldura alta com borda dourada, título serifado acima (Harvard Law Review)
-def F(p,f,n,t,h,pos='center'):
-  return f'''<div class="c" style="background:{CR}">{tag(p,V)}<div class="hr"></div><div class="vol">Nº {n} &nbsp;·&nbsp; REGIMENTO EM 1 MINUTO</div>
-  <h1 class="hf">{t.replace(h,f'<em>{h}</em>')}</h1><div class="mold" style="{bimg(f,pos)}"></div><div class="sec2">§</div></div>'''
-# G (dourado): foto em cartão verde-escuro com § gigante e tarja (Studio Dumbar)
-def G(p,f,t,h,pos='center'):
-  return f'''<div class="c" style="background:{O}">{tag(p,V)}<div class="glifo">§</div><div class="card2" style="{bimg(f,pos)}"></div><h1 class="hc">{t.replace(h,f'<span>{h}</span>')}</h1></div>'''
+import cv2,numpy as np
+from PIL import Image
+PF='/home/user/centrallindsonalmeida/dados/clientes-arquivos/curso/socios/painel/'
+HC=cv2.CascadeClassifier('/root/.modelos/haar.xml')
+def rosto(path):
+  im=Image.open(path);g=cv2.cvtColor(np.asarray(im.convert('RGB')),cv2.COLOR_RGB2GRAY)
+  r=sorted(HC.detectMultiScale(g,1.1,6,minSize=(100,100)).tolist(),key=lambda x:-x[2])[0];return im.size,r
+def cut(f,cx,top,face=FACE):  # recorte BiRefNet, mesmo rosto (360 px) das capas aprovadas
+  (w,h),(x,y,fw,fh)=rosto(f);s=face/fw
+  return f'<img class="pes" src="{f}" style="width:{w*s:.0f}px;left:{cx-(x+fw/2)*s:.0f}px;top:{top-y*s:.0f}px">'
+def inteira(f,cx,top,face=400):  # foto inteira com o cenário, rosto 400 px (ocupa a largura)
+  (w,h),(x,y,fw,fh)=rosto(PF+f);s=max(face/fw,1080/w);L=min(0,max(1080-w*s,cx-(x+fw/2)*s))
+  return f'<img class="full" src="{PF+f}" style="width:{w*s:.0f}px;left:{L:.0f}px;top:{top-y*s:.0f}px">'
+# H (verde ou creme): foto inteira do cenário + degradê + manchete embaixo (mesma composição da 01/02)
+def H(p,f,t,h,bg,fg,ac,top=360,face=400):
+  return f'''<div class="c" style="background:{bg}">{inteira(f,540,top,face)}<div class="ov" style="background:linear-gradient({bg} 0%,{bg}cc 14%,{bg}00 26%,{bg}00 45%,{bg} 68%)"></div><div style="position:absolute;top:280px;left:60px;right:60px;height:66px;background:{bg};opacity:.92;z-index:4"></div>{tag(p,ac)}
+  <h1 class="ha" style="color:{fg}">{t.replace(h,f'<em style="color:{ac}">{h}</em>')}</h1><div class="sw" style="color:{ac}">assista ao Reels ↓</div></div>'''
+# K (dourado): recorte + palavra gigante atrás em verde (A da 01, na cor dourada)
+def K(p,f,t,h,back):
+  return f'''<div class="c" style="background:{O}">{tag(p,V)}<div class="back" style="color:{V}">{back}</div>{cut(f,540,430)}
+  <div class="fade" style="background:linear-gradient({O}00,{O} 55%)"></div>
+  <h1 class="ha" style="color:{CA}">{t.replace(h,f'<em style="color:{V}">{h}</em>')}</h1><div class="sw" style="color:{V}">assista ao Reels ↓</div></div>'''
+def A2(p,f,t,h,back,bg,fg,ac,face=FACE):
+  return f'''<div class="c" style="background:{bg}">{tag(p,ac)}<div class="back" style="color:{ac}">{back}</div>{cut(f,540,430,face)}
+  <div class="fade" style="background:linear-gradient(transparent,{bg} 55%)"></div>
+  <h1 class="ha" style="color:{fg}">{t.replace(h,f'<em style="color:{ac}">{h}</em>')}</h1><div class="sw" style="color:{ac}">assista ao Reels ↓</div></div>'''
 capas=[
  ('01-rafael-emenda',A('rafael','Vereador pode aumentar despesa por emenda?','despesa','emenda',V,CR,O)),
  ('02-tiago-portaria',A('tiago','Portaria serve para quê?','para quê?','portaria',CR,V,'#9C7B3E')),
- ('03-rafael-questao-de-ordem',E('rafael','p32266781.jpg','O que é questão de ordem?','questão de ordem?')),
- ('04-tiago-sancionar',F('tiago','p34066105.jpg','04','Prefeito pode sancionar sem falar nada?','sem falar nada?','center 30%')),
- ('05-rafael-mocao',G('rafael','p36207471.jpg','Moção não é projeto de lei','não é')),
- ('06-tiago-procedimento',F('tiago','p7054510.jpg','06','O que é procedimento abreviado ou conclusivo?','abreviado ou conclusivo?')),
- ('07-rafael-fases',G('rafael','p35013248.jpg','Quais são as fases do processo legislativo?','fases')),
- ('08-tiago-urgencia',E('tiago','p7224866.jpg','O prefeito pode pedir urgência em qualquer projeto?','urgência')),
+ ('03-rafael-questao-de-ordem',H('rafael','rafael-mw6s8tkztximaf.jpg','O que é questão de ordem?','questão de ordem?',V,CR,O)),
+ ('04-tiago-sancionar',H('tiago','tiago-mw6rwc95u97ywi.jpg','Prefeito pode sancionar sem falar nada?','sem falar nada?',CR,V,'#9C7B3E')),
+ ('05-rafael-mocao',K('rafael-mw6s8xu06d52o9.png','rafael'=='x' or 'Moção não é projeto de lei','não é','moção') if False else K('rafael','rafael-mw6s8xu06d52o9.png','Moção não é projeto de lei','não é','moção')),
+ ('06-tiago-procedimento',H('tiago','tiago-mw6rwf9inhnxgb.jpg','O que é procedimento abreviado ou conclusivo?','abreviado ou conclusivo?',CR,V,'#9C7B3E',400,320)),
+ ('07-rafael-fases',K('rafael','rafael-mw6s8vb8cmafyz.png','Quais são as fases do processo legislativo?','fases','fases')),
+ ('08-tiago-urgencia',A2('tiago','tiago-mw6rwhdqij2dph.png','O prefeito pode pedir urgência em qualquer projeto?','urgência','urgência',V,CR,O,310)),
 ]
 css=f'''@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;600;800;900&display=swap');
 body{{margin:0}}.c{{width:1080px;height:1920px;position:relative;overflow:hidden;font-family:'Inter Tight'}}
@@ -50,7 +64,7 @@ body{{margin:0}}.c{{width:1080px;height:1920px;position:relative;overflow:hidden
 .tag{{position:absolute;top:300px;left:84px;right:84px;font:600 26px 'Inter Tight';letter-spacing:.14em;z-index:5}}.tag b{{font:italic 40px 'Instrument Serif';margin-right:6px}}.tag span{{opacity:.5}}
 .back{{position:absolute;top:340px;left:-20px;right:-20px;text-align:center;font:italic 330px/1 'Instrument Serif';letter-spacing:-.03em;z-index:1}}
 .pes{{position:absolute;z-index:2;-webkit-mask-image:linear-gradient(#000 70%,transparent 96%)}}
-.fade{{position:absolute;left:0;right:0;top:1000px;height:500px;z-index:3}}
+.fade{{position:absolute;left:0;right:0;top:1000px;bottom:0;z-index:3}}
 .ha{{position:absolute;left:84px;right:84px;bottom:390px;margin:0;font:900 96px/1 'Inter Tight';letter-spacing:-.03em;z-index:4}}.ha em{{font:italic 400 112px/1 'Instrument Serif'}}
 .sw{{position:absolute;left:84px;bottom:310px;font:600 26px 'Inter Tight';letter-spacing:.14em;text-transform:uppercase;z-index:4}}
 .hr{{position:absolute;top:360px;left:84px;right:84px;border-top:3px solid {V}}}.vol{{position:absolute;top:395px;left:84px;font:800 28px 'Inter Tight';color:#9C7B3E;letter-spacing:.16em}}
@@ -60,7 +74,7 @@ body{{margin:0}}.c{{width:1080px;height:1920px;position:relative;overflow:hidden
 .glifo{{position:absolute;right:-180px;top:180px;font:italic 1500px/1 'Instrument Serif';color:{V};opacity:.95}}
 .hc{{position:absolute;left:84px;right:84px;bottom:320px;margin:0;font:900 118px/.98 'Inter Tight';color:{CA};letter-spacing:-.035em;z-index:2}}.hc span{{background:{V};color:{O};padding:0 14px;box-decoration-break:clone;-webkit-box-decoration-break:clone;font:italic 400 128px/1.12 'Instrument Serif'}}
 .hd{{position:absolute;top:420px;left:70px;right:70px;font:900 168px/.9 'Inter Tight';color:{CR};letter-spacing:-.045em}}.hd .dd{{color:{CA};background:{O};display:inline-block;padding:0 16px;font:italic 400 190px/1 'Instrument Serif'}}
-.bg{{position:absolute;inset:0;filter:saturate(.75) contrast(1.05)}}.ov{{position:absolute;inset:0}}
+.full{{position:absolute;z-index:0}}.ov{{z-index:1}}.bg{{position:absolute;inset:0;filter:saturate(.75) contrast(1.05)}}.ov{{position:absolute;inset:0}}
 .hf{{position:absolute;top:470px;left:84px;right:84px;margin:0;font:400 132px/.93 'Instrument Serif';color:{V};letter-spacing:-.02em;z-index:2}}.hf em{{color:#9C7B3E}}
 .mold{{position:absolute;left:84px;right:84px;top:1010px;height:620px;border:6px solid {O};box-shadow:24px 24px 0 {V};filter:saturate(.7)}}
 .sec2{{position:absolute;right:40px;top:860px;font:italic 260px/1 'Instrument Serif';color:{O};z-index:3}}

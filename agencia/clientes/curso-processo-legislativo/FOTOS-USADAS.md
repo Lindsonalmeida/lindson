@@ -95,3 +95,17 @@ Origem das três fotos: reel do Instagram do sócio, captura enviada pelo Lindso
 | `tiago-azevedo.jpg` (recorte `cut-tiago-azevedo/recorte-limpo.png`) | Capa Reels 02 "Portaria serve para quê?" (antes: site e foto de perfil) | 10/11 | Zuleide |
 Não há outra foto dos dois: faltam 3 de cada para as capas 03 a 08.
 | Pexels 32266781, 34066105, 36207471, 7054510, 35013248, 7224866 (banco, privado `capas-reels/banco/`) | Capas Reels 03 a 08, uma por capa | 10/11 | Zuleide |
+
+## Capas de Reels v3 (10/11, conta Zuleide): fotos reais do painel (privado `dados/clientes-arquivos/curso/socios/painel/`)
+As imagens de banco da v2 (Pexels) saíram e voltam a ficar livres.
+| Foto do painel (id) | Onde foi usada |
+|---|---|
+| rafael mw6s8ufeevm56x (= rafael-araujo-veras.jpg) | Capa 01 (aprovada) |
+| tiago mw6rwo63dah3hr (= tiago-azevedo.jpg) | Capa 02 (aprovada) |
+| rafael mw6s8tkztximaf | Capa 03 questão de ordem (foto inteira, escritório) |
+| tiago mw6rwc95u97ywi | Capa 04 sancionar (foto inteira, quadro) |
+| rafael mw6s8xu06d52o9 | Capa 05 moção (recorte) |
+| tiago mw6rwf9inhnxgb | Capa 06 procedimento (foto inteira) |
+| rafael mw6s8vb8cmafyz | Capa 07 fases (recorte) |
+| tiago mw6rwhdqij2dph | Capa 08 urgência (recorte) |
+Livres: Rafael 3, Tiago 10.
