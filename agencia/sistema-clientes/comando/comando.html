@@ -136,6 +136,21 @@ main{margin-left:var(--rail)}
 .escuta[data-estado="bloqueado"],.escuta[data-estado="sem-voz"]{color:#fff;background:var(--verm);border-color:var(--verm)}
 .escuta[data-estado="gesto"]{color:#0A0A0A;background:var(--am);border-color:var(--am)}
 .fala.vivo .t{color:var(--am)}
+/* v4 (conta Zuleide): a conversa do VEKTOR em balões discretos, no visual do HUD */
+.papo{pointer-events:auto;position:absolute;left:var(--gut);right:calc(var(--gut) + min(74vh,46vw,640px));bottom:calc(clamp(30px,5vh,44px) + 38px);display:flex;flex-direction:column;justify-content:flex-end;gap:6px;max-height:36vh;overflow:hidden;opacity:0;transition:opacity .4s;z-index:3}
+.papo.on{opacity:1}
+.papo .b{display:grid;grid-template-columns:64px minmax(0,1fr);gap:4px 10px;align-items:baseline;max-width:600px;padding:8px 12px;border-left:1px solid var(--fio2);background:rgba(11,11,11,.62);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);transition:opacity .3s}
+.papo .b{background:rgba(11,11,11,.86)}.papo .b:nth-last-child(n+4){display:none}
+.h-titulo p,.h-titulo{transition:opacity .4s}.hero.conversando .h-titulo p{opacity:0}
+.papo .b .q{font:500 9.5px var(--f-m);letter-spacing:.2em;color:var(--apag)}
+.papo .b .x{font:500 13.5px/1.45 var(--f-c);color:#CFCBC0;overflow-wrap:anywhere}
+.papo .b.vektor{border-left-color:var(--am)}.papo .b.vektor .q{color:var(--am)}.papo .b.vektor .x{color:var(--txt)}
+.papo .b.sis{border-left-color:var(--laranja)}.papo .b.sis .q{color:var(--laranja)}.papo .b.sis .x{font:500 11.5px/1.5 var(--f-m)}
+.papo .b small{grid-column:2;font:500 11px/1.45 var(--f-m);color:var(--apag)}
+.papo .b:nth-last-child(n+3){opacity:.42}
+.papo .b.pensa .x::after{content:'▍';color:var(--am);animation:pisca 1s steps(1) infinite}
+@keyframes pisca{50%{opacity:0}}
+.nucleo[data-pensa="1"] .aneis{filter:drop-shadow(0 0 14px rgba(245,197,24,.55))}
 .voz-aviso{position:absolute;z-index:6;left:var(--gut);top:150px;max-width:440px;background:rgba(20,10,8,.92);border:1px solid var(--verm);padding:14px 16px;display:grid;gap:8px}
 .voz-aviso b{font:500 10.5px var(--f-m);letter-spacing:.2em;color:var(--verm);text-transform:uppercase}
 .voz-aviso p{margin:0;font-size:14px;line-height:1.45}
@@ -399,6 +414,7 @@ input.campo{width:100%;background:#0E0D0A;border:1px solid #2B2B28;color:var(--t
   .h-titulo{max-width:none}
   .voz-aviso{left:16px;right:16px;top:auto;bottom:130px}
   .fala{left:16px;right:16px;bottom:88px}
+  .papo{left:16px;right:16px;bottom:122px;max-height:34vh}.papo .b:nth-last-child(n+3){display:none}.hero.conversando .h-titulo{opacity:0;pointer-events:none}.papo .b{grid-template-columns:50px minmax(0,1fr);padding:7px 10px}.papo .b .x{font-size:13px}
   .hud .escuta{order:-1}.hud #voz-av,.hud #som{display:none}
   .h-dados{display:none}
   .h-mira i:nth-child(3),.h-mira i:nth-child(4){bottom:86px}
@@ -466,7 +482,7 @@ input.campo{width:100%;background:#0E0D0A;border:1px solid #2B2B28;color:var(--t
     <div class="camada h-titulo" data-z="-5" data-sz=".14">
       <div class="sobre"><span class="rec-dot"></span> Central de Comando · Lindson Almeida</div>
       <h1><span class="l"><span>Uma voz.</span></span><span class="l"><span><span class="caixa">Quatro</span> contas.</span></span></h1>
-      <p>O VEKTOR está ouvindo. Diga “Vektor”, o cliente e o que precisa; termine com “enviar”. A equipe escolhe quem faz e entrega aqui.</p>
+      <p>O VEKTOR está ouvindo. Diga “Vektor” e fale normalmente: ele responde, lembra o assunto e, quando for trabalho, pergunta se pode mandar para a fila. A equipe escolhe quem faz e entrega aqui.</p>
     </div>
     <div class="camada h-nucleo" data-z="12">
       <div class="nucleo" id="nucleo" data-estado="iniciando">
@@ -478,7 +494,8 @@ input.campo{width:100%;background:#0E0D0A;border:1px solid #2B2B28;color:var(--t
       </div>
     </div>
     <div class="voz-aviso" id="voz-aviso" hidden role="alert"><b>Voz</b><p></p><button class="btn mini am" type="button" id="tentar">Tentar de novo</button></div>
-    <div class="fala" id="fala"><span class="ondas" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="t" id="fala-t">Diga: “Vektor, Reels da Jaci sobre clareamento, enviar”</span></div>
+    <div class="papo" id="papo" aria-live="polite"></div>
+    <div class="fala" id="fala"><span class="ondas" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="t" id="fala-t">Diga “Vektor” e converse: “Vektor, o que está pendente?”</span></div>
   </section>
 
   <div class="faixa" aria-hidden="true"><div class="trilha" id="faixa"></div></div>
@@ -717,7 +734,7 @@ function ir(h) { const el = $(h); if (el) el.scrollIntoView({ behavior: calmo ? 
 // Segurança: só ENVIA quando a frase termina em "enviar", "manda" ou "pode mandar". Frase que começa com "Vektor" monta o pedido;
 // sem a palavra de ativação, só navegação ("fila", "status", "equipe") e "enviar" agem.
 const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
-const ESC = { quer: true, rec: null, estado: 'iniciando', recuo: 300, erro: null, falando: false, captura: null, stream: null, ctx: null, an: null, buf: null, nivel: 0, gesto: false };
+const ESC = { quer: true, rec: null, estado: 'iniciando', recuo: 300, erro: null, falando: false, captura: null, stream: null, ctx: null, an: null, buf: null, nivel: 0, gesto: false, usado: 0, usadoLen: 0, tPausa: null };
 const ATIVA = /^\s*(vektor|vector|vetor|victor|vitor|vektora?)\b[\s,.:!-]*/;
 const FIM_ENVIA = /\b(enviar|envia|manda|mandar|pode mandar|pode enviar)\s*[.!]?\s*$/;
 function entende(frase, final, montar) {
@@ -770,26 +787,46 @@ function bloqueado() { ESC.quer = false; ESC.estado = 'bloqueado'; pintaEscuta()
 function avisoVoz(t) { const a = $('#voz-aviso'); if (!a) return; a.hidden = !t; if (t) a.querySelector('p').textContent = t; }
 function liga() {
   if (!SR) { ESC.estado = 'sem-voz'; pintaEscuta(); avisoVoz('Seu navegador não tem reconhecimento de voz. Use o Chrome ou o Edge (no iPhone, o Safari atualizado). Enquanto isso, escreva o comando no campo do 01.'); return; }
-  if (ESC.rec || !ESC.quer || document.hidden || ESC.falando) return;
+  if (ESC.rec || !ESC.quer || document.hidden) return; // v4: continua ouvindo enquanto o VEKTOR fala (para poder interromper)
   const r = new SR(); r.lang = 'pt-BR'; r.continuous = true; r.interimResults = true; r.maxAlternatives = 1; ESC.rec = r;
-  r.onstart = () => { ESC.estado = 'ouvindo'; avisoVoz(''); pintaEscuta(); };
-  r.onresult = e => { ESC.recuo = 300; let parc = '';
-    for (let i = e.resultIndex; i < e.results.length; i++) { const t = e.results[i][0].transcript; if (e.results[i].isFinal) frase(t.trim()); else parc += t; }
-    if (parc) falaTxt(parc.trim(), true); };
+  r.onstart = () => { ESC.estado = 'ouvindo'; ESC.usado = 0; ESC.usadoLen = 0; avisoVoz(''); pintaEscuta(); };
+  r.onresult = e => { ESC.recuo = 300; ouviu(e); };
   r.onerror = e => { ESC.erro = e.error;
     if (e.error === 'not-allowed' || e.error === 'service-not-allowed') { if (!ESC.gesto) { ESC.estado = 'gesto'; pintaEscuta(); } else bloqueado(); }
     else if (e.error === 'network') avisoVoz('A voz do navegador perdeu a conexão. Tentando de novo sozinho…');
     else if (e.error === 'audio-capture') avisoVoz('O microfone está em uso por outro programa ou desligado.'); };
   r.onend = () => { ESC.rec = null;
-    if (ESC.quer && !document.hidden && !ESC.falando && ESC.estado !== 'gesto' && ESC.estado !== 'bloqueado') { const d = ESC.erro === 'network' ? 2500 : ESC.recuo; ESC.recuo = Math.min(ESC.recuo * 1.5, 4000); ESC.erro = null; setTimeout(liga, d); }
+    if (ESC.quer && !document.hidden && ESC.estado !== 'gesto' && ESC.estado !== 'bloqueado') { const d = ESC.erro === 'network' ? 2500 : ESC.recuo; ESC.recuo = Math.min(ESC.recuo * 1.5, 4000); ESC.erro = null; setTimeout(liga, d); }
     else if (ESC.estado === 'ouvindo') { ESC.estado = 'pausado'; pintaEscuta(); } };
   try { r.start(); } catch (e) { ESC.rec = null; ESC.estado = 'gesto'; pintaEscuta(); }
+}
+// v4 (conta Zuleide): a frase fecha numa pausa natural de ~700 ms (sem esperar "enviar"); o que já foi mandado não volta.
+// Enquanto o VEKTOR fala, o que bate com a própria fala dele é eco e é jogado fora; outra voz o interrompe na hora (barge-in).
+const PARA = /^(para|pare|chega|espera|silencio|calma|cala a boca|vektor para)$/;
+function eco(t) {
+  const ws = sem(t).split(/[^a-z0-9]+/).filter(w => w.length > 2); if (!ws.length) return true;
+  const dele = new Set(VZ.falado.join(' ').split(/[^a-z0-9]+/));
+  return ws.filter(w => dele.has(w)).length / ws.length >= .5;
+}
+function ouviu(e) {
+  let txt = '', fin = true; const n = e.results.length;
+  for (let i = ESC.usado; i < n; i++) { let t = e.results[i][0].transcript; if (i === ESC.usado && ESC.usadoLen) t = t.slice(ESC.usadoLen); txt += t + ' '; if (!e.results[i].isFinal) fin = false; }
+  txt = txt.replace(/\s+/g, ' ').trim(); if (!txt) return;
+  const ult = n - 1, lenUlt = e.results[ult][0].transcript.length, fecha = () => { clearTimeout(ESC.tPausa); ESC.tPausa = null; if (fin) { ESC.usado = n; ESC.usadoLen = 0; } else { ESC.usado = ult; ESC.usadoLen = lenUlt; } };
+  if (ESC.falando || Date.now() - VZ.ate < 1500) {
+    if (ESC.falando && PARA.test(sem(txt).replace(/[.!?,]/g, '').trim())) { fecha(); interrompe(); falaTxt(txt, false); return; }
+    if (eco(txt)) { if (fin) fecha(); return; }
+    if (ESC.falando) interrompe();
+  }
+  falaTxt(txt, true);
+  clearTimeout(ESC.tPausa);
+  if (fin) { fecha(); frase(txt); } else ESC.tPausa = setTimeout(() => { fecha(); frase(txt); }, 700);
 }
 function desliga() { const r = ESC.rec; ESC.rec = null; if (r) { r.onend = null; try { r.abort(); } catch (e) {} } }
 function frase(t) {
   if (!t) return;
   if (ESC.captura) { const f = ESC.captura; ESC.captura = null; f(t); return; }
-  falaTxt(t, false); processa(t);
+  falaTxt(t, false); roteia(t);
 }
 // escuta para um campo (ajuste, resposta): a próxima frase vai para o campo
 const capturar = () => new Promise(res => { ESC.captura = res; toast('Fale agora…'); if (!ESC.rec) { ESC.quer = true; liga(); } });
@@ -818,21 +855,117 @@ function melhorVoz() {
   return vs.sort((a, b) => nota(b) - nota(a))[0] || null;
 }
 if (window.speechSynthesis) { VOZ = melhorVoz(); speechSynthesis.onvoiceschanged = () => { VOZ = melhorVoz(); }; }
+// v4: fila de falas (frase por frase, conforme a resposta chega). VZ.falado guarda o que ele disse, para filtrar o eco.
+const VZ = { fila: 0, falado: [], ate: 0 };
+function utter(txt) {
+  const u = new SpeechSynthesisUtterance(txt); u.lang = 'pt-BR'; if (VOZ) u.voice = VOZ; u.rate = 1.06; u.pitch = .9;
+  VZ.fila++; VZ.falado = VZ.falado.concat([sem(txt)]).slice(-6);
+  u.onstart = () => { ESC.falando = true; AV.falando = 1; if (!ESC.rec) liga(); };
+  const fim = () => { VZ.fila = Math.max(0, VZ.fila - 1); if (!VZ.fila) { ESC.falando = false; AV.falando = 0; VZ.ate = Date.now(); CONV.ate = Date.now() + 60000; if (!ESC.rec) setTimeout(liga, 200); } };
+  u.onend = fim; u.onerror = fim; u.onboundary = () => { AV.silaba = 1; };
+  return u;
+}
+function calaVoz() { try { if (window.speechSynthesis) speechSynthesis.cancel(); } catch (e) {} VZ.fila = 0; ESC.falando = false; AV.falando = 0; VZ.ate = Date.now(); }
+function dizParte(txt) { txt = String(txt || '').trim(); if (!txt || !VOZ_ON || !window.speechSynthesis || !ESC.gesto) return; try { speechSynthesis.speak(utter(txt)); } catch (e) {} }
 function responde(txt, curto) {
   if (curto !== true) toast(txt);
+  papo('vektor', txt);
   if (!VOZ_ON || !window.speechSynthesis || !ESC.gesto) return;
-  try { const u = new SpeechSynthesisUtterance(txt); u.lang = 'pt-BR'; if (VOZ) u.voice = VOZ; u.rate = 1.04; u.pitch = .85;
-    u.onstart = () => { ESC.falando = true; AV.falando = 1; desliga(); };
-    const fim = () => { ESC.falando = false; AV.falando = 0; setTimeout(liga, 280); };
-    u.onend = fim; u.onerror = fim; u.onboundary = () => { AV.silaba = 1; };
-    speechSynthesis.cancel(); speechSynthesis.speak(u); } catch (e) {}
+  calaVoz(); dizParte(txt);
+}
+function interrompe() { calaVoz(); if (CONV.ab) { CONV.ab.abort(); CONV.ab = null; } nucleoPensa(false); }
+
+// ---------- v4 (conta Zuleide): o VEKTOR conversa ----------
+// "Ele não conversa comigo… quero algo fluido, como uma pessoa real, o JARVIS do Homem de Ferro" (Lindson, 09/11).
+// "Vektor" abre a conversa; depois, por 60 s desde a última fala dele, tudo o que o Lindson disser vai para /api/vektor (Claude),
+// que responde em fluxo: a página fala frase por frase. O histórico e a memória da sessão vão junto em cada chamada.
+// Pedido para a equipe: o VEKTOR propõe e pergunta; só com o sim (ou "enviar") a página cria o pedido pelo mesmo caminho do botão Enviar.
+const CONV = { hist: [], memoria: '', pendente: null, ate: 0, cerebro: null, ab: null, n: 0, avisou: false };
+try { const g = JSON.parse(sessionStorage.getItem('vektor-conv') || 'null'); if (g) Object.assign(CONV, { hist: g.hist || [], memoria: g.memoria || '', pendente: g.pendente || null }); } catch (e) {}
+const guardaConv = () => { try { sessionStorage.setItem('vektor-conv', JSON.stringify({ hist: CONV.hist.slice(-20), memoria: CONV.memoria, pendente: CONV.pendente })); } catch (e) {} };
+const NOME = /\b(vektor|vector|vetor|victor|vitor)\b/;
+function papo(de, t) {
+  const box = $('#papo'); if (!box) return null;
+  const el = document.createElement('div'); el.className = 'b ' + de;
+  el.innerHTML = `<span class="q">${de === 'eu' ? 'VOCÊ' : de === 'vektor' ? 'VEKTOR' : 'SISTEMA'}</span><span class="x"></span>`;
+  el.querySelector('.x').textContent = t; box.appendChild(el);
+  while (box.children.length > 4) box.firstChild.remove();
+  const h = $('#comando'); box.classList.add('on'); if (h) h.classList.add('conversando');
+  clearTimeout(papo.t); papo.t = setTimeout(() => { box.classList.remove('on'); if (h) h.classList.remove('conversando'); }, 90000);
+  return el;
+}
+const balTxt = (el, t) => { if (el) el.querySelector('.x').textContent = t; };
+const balTela = (el, t) => { if (!el || !t) return; const s = document.createElement('small'); s.textContent = t; el.appendChild(s); };
+function nucleoPensa(on) { const n = $('#nucleo'); if (n) n.dataset.pensa = on ? '1' : ''; const r = $('#mic-rot'); if (r && on) r.textContent = '… PENSANDO'; else if (!on) pintaEscuta(); }
+function tique() { if (!VOZ_ON) return; try { ctxA = ctxA || new (window.AudioContext || window.webkitAudioContext)(); const o = ctxA.createOscillator(), g = ctxA.createGain(), t = ctxA.currentTime;
+  o.type = 'triangle'; o.frequency.setValueAtTime(1180, t); o.frequency.exponentialRampToValueAtTime(760, t + .09); g.gain.setValueAtTime(.0001, t); g.gain.exponentialRampToValueAtTime(.05, t + .01); g.gain.exponentialRampToValueAtTime(.0001, t + .16);
+  o.connect(g).connect(ctxA.destination); o.start(t); o.stop(t + .18); } catch (e) {} }
+function semCerebro(falta) {
+  if (CONV.avisou) return; CONV.avisou = true;
+  papo('sis', 'O VEKTOR ainda não conversa: falta o cérebro dele. ' + (falta ? 'Ative ' + falta + '.' : '') + ' Enquanto isso, ele entende os comandos: “Vektor, Reels da Jaci… enviar”.');
+}
+function roteia(t) {
+  const s = sem(t);
+  if (CONV.pendente && FIM_ENVIA.test(s.trim()) && s.split(' ').length <= 4) { manda(CONV.pendente); return; }
+  if (CONV.cerebro === false) { processa(t); return; }
+  if (NOME.test(s) || Date.now() < CONV.ate) { conversa(t); return; }
+  processa(t); // fora da conversa: só navegação e "enviar", como antes
+}
+function manda(p) {
+  CONV.pendente = null; guardaConv();
+  P.cli = p.cli; P.fn = p.func; P.forcar = false; $('#detalhe').value = p.texto || ''; pintaEscolhas(); envia();
+}
+function aplica(fim, pend) {
+  if (fim.acao === 'propor' && fim.pedido) { CONV.pendente = fim.pedido; P.cli = fim.pedido.cli; P.fn = fim.pedido.func; P.forcar = false; $('#detalhe').value = fim.pedido.texto || ''; pintaEscolhas(); }
+  else if (fim.acao === 'criar' && pend) setTimeout(() => manda(pend), 900); // só o pedido que esperava o sim
+  else if (fim.acao === 'ir' && fim.ir) ir('#' + fim.ir);
+}
+async function conversa(t) {
+  interrompe();
+  const ab = new AbortController(), n = ++CONV.n, pend = CONV.pendente; CONV.ab = ab;
+  papo('eu', t); CONV.ate = Date.now() + 60000;
+  const bal = papo('vektor', ''); bal.classList.add('pensa'); nucleoPensa(true); tique();
+  let recebeu = false, tudo = '', buf = '', fim = null;
+  const enrola = setTimeout(() => { if (CONV.n === n && !recebeu) dizParte('Hum, deixa eu ver.'); }, 1500);
+  const solta = final => { for (;;) { const i = buf.search(/[.!?…](\s|$)/); if (i < 0 || (!final && i === buf.length - 1)) break; dizParte(buf.slice(0, i + 1)); buf = buf.slice(i + 1).replace(/^\s+/, ''); } if (final && buf.trim()) { dizParte(buf); buf = ''; } };
+  try {
+    const r = await fetch(API + '/api/vektor', { method: 'POST', credentials: 'same-origin', headers: { 'Content-Type': 'application/json' }, signal: ab.signal,
+      body: JSON.stringify({ fala: t.slice(0, 500), historico: CONV.hist.slice(-16), memoria: CONV.memoria, pendente: CONV.pendente }) });
+    if (r.status === 401) { location.href = '/'; return; }
+    if (!r.ok) { const j = await r.json().catch(() => ({})); if (r.status === 503) { CONV.cerebro = false; bal.remove(); semCerebro(j.falta); processa(t, true); return; } throw new Error(j.erro || 'Não consegui pensar agora. Tenta de novo.'); }
+    CONV.cerebro = true;
+    const rd = r.body.getReader(), dec = new TextDecoder(); let resto = '';
+    for (;;) {
+      const { done, value } = await rd.read(); if (done) break;
+      resto += dec.decode(value, { stream: true }); let k;
+      while ((k = resto.indexOf('\n')) >= 0) {
+        const l = resto.slice(0, k); resto = resto.slice(k + 1); let ev; try { ev = JSON.parse(l); } catch (e) { continue; }
+        if (ev.t === 'txt') { if (!recebeu) { recebeu = true; nucleoPensa(false); } tudo += ev.v; buf += ev.v; balTxt(bal, tudo.trim()); solta(false); }
+        else if (ev.t === 'fim') fim = ev;
+        else if (ev.t === 'erro') { const er = new Error(ev.v); er.falta = ev.falta; throw er; }
+      }
+    }
+    solta(true);
+  } catch (e) {
+    clearTimeout(enrola); bal.classList.remove('pensa');
+    if (e.name === 'AbortError') { if (tudo.trim()) CONV.hist.push({ de: 'eu', t }, { de: 'vektor', t: tudo.trim() + ' (interrompido)' }); else CONV.hist.push({ de: 'eu', t }); guardaConv(); return; }
+    nucleoPensa(false); balTxt(bal, e.message); dizParte(e.message); if (e.falta) { CONV.avisou = false; semCerebro(e.falta); } return;
+  }
+  clearTimeout(enrola); bal.classList.remove('pensa'); if (CONV.n === n) { nucleoPensa(false); CONV.ab = null; }
+  if (!tudo.trim()) balTxt(bal, '…');
+  CONV.hist.push({ de: 'eu', t }, { de: 'vektor', t: tudo.trim() }); CONV.hist = CONV.hist.slice(-30);
+  if (fim) { if (fim.memoria) CONV.memoria = fim.memoria; balTela(bal, fim.tela); aplica(fim, pend); }
+  guardaConv();
+}
+async function checaCerebro() {
+  try { const r = await fetch(API + '/api/vektor', { credentials: 'same-origin', cache: 'no-store' }); if (!r.ok) return; const j = await r.json(); CONV.cerebro = !!j.ligado; if (!j.ligado) semCerebro(j.falta); } catch (e) {}
 }
 function pintaVozAv() { const b = $('#voz-av'); if (b) { b.setAttribute('aria-pressed', String(VOZ_ON)); b.textContent = VOZ_ON ? 'VOZ VEKTOR ON' : 'VOZ VEKTOR OFF'; } }
 const falaFila = () => { const n = esperandoVoce().length, ab = itens().filter(x => ABERTOS.includes(x.st)).length; return `Vektor aqui. ${ab} pedido${ab === 1 ? '' : 's'} na fila, ${n} esperando você.`; };
 const falaEquipe = () => { const l = CONTAS.filter(c => estadoReal(EQ().contas[c], Date.now()).disponivel); return l.length ? `Vektor aqui. Disponíveis agora: ${l.join(', ')}.` : 'Vektor aqui. Nenhuma conta disponível agora. Os pedidos ficam na espera.'; };
 const falaStatus = () => { const p = (E.placar || []).filter(x => x.pagante).map(x => `${x.nome} ${x.pct} por cento`).join(', '); return `Vektor aqui. ${falaFila().replace('Vektor aqui. ', '')}${p ? ' Pagantes: ' + p + '.' : ''}`; };
 let saudou = false;
-function saudaDepoisDoGesto() { if (saudou || !S.ped.ok) return; saudou = true; const n = esperandoVoce().length; setTimeout(() => responde(n ? `Vektor aqui. Você tem ${n} ${n === 1 ? 'pedido esperando' : 'pedidos esperando'} você.` : 'Vektor aqui. Estou ouvindo. Diga Vektor, o cliente e o que precisa.', true), 300); }
+function saudaDepoisDoGesto() { if (saudou || !S.ped.ok) return; saudou = true; const n = esperandoVoce().length; setTimeout(() => responde(n ? `Vektor aqui. Você tem ${n} ${n === 1 ? 'pedido esperando' : 'pedidos esperando'} você.` : 'Vektor aqui. Estou ouvindo, Lindson. É só me chamar pelo nome e falar.', true), 300); }
 
 // ---------- VEKTOR: holograma de partículas (canvas 2D, sem biblioteca) ----------
 // Busto abstrato de ~2.900 pontos em amarelo e âmbar, girando devagar; pulsa com o volume real do microfone e mexe a "boca" quando responde.
@@ -1192,7 +1325,7 @@ $('#clis').innerHTML = CLIS.map(c => `<button type="button" class="cli${c.pg ? '
 $('#teclas').innerHTML = GRUPOS.map(g => `<div class="grupo-rot"><span class="rot">${g[0]}</span></div>` + g[2].map(f => `<button type="button" class="tec${LARGAS.includes(f[0]) ? ' larga' : ''}" data-fn="${f[0]}" aria-pressed="false" style="--c:${g[1]}"><span class="face"><i></i><b>${LARGAS.includes(f[0]) ? f[1] : f[2]}</b></span><span class="nome">${LARGAS.includes(f[0]) ? f[2] + ' · mais pedido' : f[1]}</span></button>`).join('')).join('');
 
 // ---------- início ----------
-cena(); revelar(); relogio(); setInterval(relogio, 1000); pintaSom(); pintaVozAv(); pintaTudo(); pintaEscuta(); aneis(); avatar(); orbita(); iniciaEscuta();
+checaCerebro(); cena(); revelar(); relogio(); setInterval(relogio, 1000); pintaSom(); pintaVozAv(); pintaTudo(); pintaEscuta(); aneis(); avatar(); orbita(); iniciaEscuta();
 let antes = -1;
 async function ciclo(primeira) {
   await Promise.all(Object.keys(S).map(carrega));
@@ -1202,7 +1335,7 @@ async function ciclo(primeira) {
 }
 ciclo(true);
 setInterval(() => { if (!document.hidden) ciclo(false); }, 40000);
-window.__comando = { P, FN, CLIS, entende, processa, jaExiste, S, distribuir, ciclo, AV, ESC };
+window.__comando = { P, FN, CLIS, entende, processa, jaExiste, S, distribuir, ciclo, AV, ESC, CONV, roteia, conversa, ouviu };
 })();
 </script>
 <!--MOVIMENTO-->
