@@ -70,5 +70,5 @@ Legenda: ✅ feito · 🟡 em andamento · ⏳ depende do Lindson ou do cliente 
 - **Produtos low ticket + Estado Próprio:** PDFs prontos; faltam os preços, a Hubla e as 5 decisões da escada.
 - **Canais dark (Passaporte e Raposa):** longos prontos para subir; Passaporte 10 a 12 (Milagres, Êxodo, Paulo) com roteiros prontos e render na fila desde 09/11 (Zuleide, Peter), capa nova aguardando aprovação; Raposa 13 a 16 pausado.
 - **Desentupidora SF:** mini site no ar; campanha com saldo, cards e criativos feitos pelo Lindson em 09/11. Falta: aprovar as 4 artes no painel (`/painel/sf`), o Google e o Pixel.
-- **WF Celulares (novo, ainda sem contrato):** engenharia reversa ✔, persona e posicionamento ✔, pesquisa premium ✔, rebranding v1 (3 caminhos, avatar, 6 destaques, 3 posts, fachada, cartão, etiqueta) ✔ aguardando escolha; faltam fotos reais da loja, @ e bio aplicados, contrato.
+- **WF Celulares (novo, ainda sem contrato):** engenharia reversa ✔, persona e posicionamento ✔, pesquisa premium ✔, v1 reprovada; v2 universo Apple (3 caminhos, avatar, 6 destaques, 3 posts) ✔ aguardando escolha; falta o documento da autorização Apple no privado; faltam fotos reais da loja, @ e bio aplicados, contrato.
 - **Franquia Alpha:** decidido não comprar (encerrado).

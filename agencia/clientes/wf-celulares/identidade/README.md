@@ -25,3 +25,13 @@ Categoria sugerida: "Loja de celulares". Link: WhatsApp com mensagem pronta.
 3. @wfcelulares.slz
 4. @wfcelularesma
 5. @lojawfcelulares
+
+## v1 REPROVADA (10/11/2026)
+Motivo do Lindson: "precisa ter a ver com a Apple". O verde-limão e o visual de marketplace fugiram do universo do iPhone.
+
+## v2 · universo Apple (conta Leandro, 10/11/2026) · aguardando aprovação
+- **Gerar:** `python3 gerar2.py` → `node render2.js` → `pecas-v2/` → `python3 prancha2.py` → `prancha-v2.jpg`.
+- **Uso da marca Apple:** o Lindson informou em 10/11/2026 que o cliente tem permissão. Guardar o documento da autorização no privado, em `dados/clientes-arquivos/wf-celulares/`.
+- **Caminhos:** A "Anel" (recomendado: o círculo do logo atual vira anel fino de titânio, maçã em cima, WF embaixo, sem 3D, lê em 110 px); B "Assinatura" (maçã + WF + CELULARES espaçado, para fachada); C "Módulo" (maçã e WF num quadrado de cantos contínuos, tipo ícone de app).
+- **Paleta:** preto #000000, grafite #1D1D1F, titânio #8E8A84 (gradiente), prata #C7C9CC, branco gelo #F5F5F7. **Letra:** Inter (nunca San Francisco).
+- **Peças no caminho A:** avatar, 6 destaques e 3 posts (produto, assistência e prova). O depoimento da prova é exemplo ilustrativo.
