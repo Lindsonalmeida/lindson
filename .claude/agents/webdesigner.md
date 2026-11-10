@@ -218,3 +218,5 @@ Não copiar: sorteio (precisa de autorização) nem números de prova que não s
 - Teste com stub de SpeechRecognition com results acumulados.
 
 - **10/11/2026 (MEMORIA, conta Zuleide):** cliente com duas ou mais pessoas (ex.: curso legislativo): todas no **mesmo patamar** em toda imagem (mesma altura de rosto, linha dos olhos, brilho e tamanho do nome, nenhuma à frente), para não dar ciumeira.
+
+- **10/11/2026 (MEMORIA, conta Zuleide):** pessoa SEMPRE recortada em capa/arte (nunca foto inteira); série copia o sistema da capa aprovada; nunca arte só com texto (foto real ou banco realista).
