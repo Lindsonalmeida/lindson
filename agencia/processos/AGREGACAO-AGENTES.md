@@ -10,7 +10,7 @@
 - **Fica de fora:** material reprovado (branches `cassandra/*`) e números sem fonte.
 
 ## Última verificação
-- 10/11/2026 14:49 (UTC): regras de recorte e série agregadas ao Social media e Webdesigner.
+- 10/11/2026 15:50 (UTC): sem novidades (regras de capa já agregadas pelo próprio designer).
 
 ## Histórico do que foi agregado
 | Data | Fonte | Agente | O que entrou |
