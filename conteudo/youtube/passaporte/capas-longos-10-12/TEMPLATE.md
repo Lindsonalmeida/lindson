@@ -1,3 +1,27 @@
+# Capas dos longos 10 a 12 · v3 "jovem" (10/11/2026, conta Zuleide, designer gráfico)
+
+Pedido do Lindson ao ver a v2: "na verdade eu gosto desse estilo (as 3 referências), copie para fazer as nossas assim, mais jovens".
+A v3 copia de perto a linguagem das 3 referências escolhidas na v2: cor viva e saturada, contraste alto, 1 palavra gigante, cara de YouTube 2025.
+A v2 (close sépia) ficou guardada em `v2/`.
+
+- Gerador: `motor/capas_jovem.py` → `capa-10.jpg`, `capa-11.jpg`, `capa-12.jpg`. Prévia: `motor/previa_jovem.py` → `previa-v3.jpg` (cada capa ao lado da referência e o teste a 160 px).
+- Recortes em `fontes/`: as gravuras foram ampliadas 2x (Real-ESRGAN, `ferramentas/melhorar_foto.py`), recortadas (BiRefNet portrait) e colorizadas com cor de cinema saturada.
+- **Status: aguardando o OK do Lindson.**
+
+| Capa | Referência copiada | Como ficou | Palavra |
+|---|---|---|---|
+| **10** Milagres | **Epic History "MUTINY"** (Reino Unido) | céu azul vivo com nuvens, palavra branca gigante de ponta a ponta no alto, Jesus (Doré 080) recortado e colorido (vermelho-terracota e creme) com o braço erguido na frente da palavra, selo do canal no canto (azul-noite) | **MILAGRE?** |
+| **11** Êxodo | **Ciência Todo Dia "FLOW"** (Brasil) | close extremo no rosto de Moisés com os raios (Doré, Sinai, 1920 px), cor quente saturada, palavra branca gigante atravessando com brilho dourado e sombra | **VOLTAR?** |
+| **12** Paulo | **Johnny Harris** (EUA) | fim de tarde, céu aberto e horizonte limpo à esquerda, sol baixo; Saulo (Doré 095) em meio corpo à direita, cobrindo os olhos contra a luz (a caminho de Damasco) | **PERSEGUIDOR** (a única em amarelo) |
+
+Identidade mínima mantida: "PASSAPORTE DA BÍBLIA" pequeno (selo ou Special Elite) e a etiqueta ciano da série.
+
+## Conferência
+- A 160 px as 3 palavras leem (prévia).
+- Limite: o rosto de Jesus (capa 10) e o de Saulo (capa 12) são pequenos na gravura original (cerca de 770 px); mesmo ampliados, ficam macios de perto. Se o Lindson quiser rosto mais nítido, o caminho é a gravura em alta do Wikimedia Commons (como o Moisés da capa 11).
+
+---
+
 # Capas dos longos 10 a 12 · v2 (09/11/2026, conta Zuleide, designer gráfico)
 
 Refação pedida pelo Lindson: a v1 ("Pintura anotada", mais abaixo) foi **reprovada** por 4 falhas: capturas não salvas, imagem escura e cheia de detalhe com personagem pequeno, nenhum rosto ou gesto em close, pouco contraste entre assunto e fundo.
