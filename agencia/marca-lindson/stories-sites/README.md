@@ -53,6 +53,11 @@ Textos em `falas.json`: na fala, os nomes vão escritos do jeito que se pronunci
 | Real Time | "real taime" | `Real Taime` (se a tônica sair errada: `Rial Táime`) |
 | Jaci | "jáci" (tônica na 1ª sílaba, A aberto) | `Jáci Cunha` (se sair errado: `Já-ci`) |
 | SF | "esse efe" | `Esse Efe` |
+| Rafael Imports | "Rafael Ímports" | `Rafael Ímports` |
+| Tribuna 98 | "Tribuna noventa e oito" | `Tribuna noventa e oito` |
+| Zé Doca | "Zé Dóca" | `Zé Doca` (saiu certo) |
+
+10/11: com a voz 6, cada fala com nome próprio foi gerada em 3 variações e escolhida a mais fluida no Whisper (texto certo, maior pausa ≤ 0,38 s). "Jáci" aparece no Whisper como "já se", que é a tônica aberta no Já.
 
 s07 refeita com essas grafias (variação `SEMENTE=27` do `narra.py`, escolhida no Whisper entre 3: a única com tudo certo e pausas curtas). A amostra da voz dele **não vai para o Git** (dado biométrico).
 - **SFX** (sintetizados, mesmo sintetizador do motion do Leo): whoosh quando o aparelho entra, pop em cada texto e selo, impacto leve na palavra-chave, 3 cliques suaves quando a rolagem começa. Deixas tiradas da própria animação (`cues.json`).
