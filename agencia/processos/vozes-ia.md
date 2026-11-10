@@ -41,3 +41,7 @@ Observação: o edge-tts hoje só oferece **um** homem nativo do Brasil (Antonio
 SSL_CERT_FILE=/root/.ccr/ca-bundle.crt python -m edge_tts --proxy "$HTTPS_PROXY" \
   -v pt-BR-AntonioNeural --rate=+4% --pitch=+0Hz -f texto.txt --write-media voz.mp3
 ```
+
+## Aprovadas pelo Lindson (10/11/2026)
+- Feminina: Francisca (+4%).
+- Masculinas: **04 Giuseppe Multilingual (+4%)**, sempre com pronúncia corrigida no texto, e **01 Antonio (+4%)**.
