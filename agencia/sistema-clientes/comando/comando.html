@@ -976,14 +976,20 @@ function responde(txt, curto) {
   papo('vektor', txt); balao(txt);
   if (!VOZ_ON || MUDO || CALADO) return;
   const k = sem(txt), agoraMs = Date.now(); if (VK.ditas[k] && agoraMs - VK.ditas[k] < 15000) return; VK.ditas[k] = agoraMs; // antirrepetição
+  String(txt).replace(/\bDra\.\s/g, 'Dra ').split(/(?<=[.!?;])\s+/).forEach(x => { VK.ditas[sem(x)] = agoraMs; }); // e por frase, para o escolhe() variar
   calaVoz(); dizParte(txt);
 }
 function interrompe() { calaVoz(); if (CONV.ab) { CONV.ab.abort(); CONV.ab = null; } nucleoPensa(false); }
 // eco: a transcrição parece a última fala dele (≥ 50% das palavras dela, nos 8 s depois do fim)
 function ecoRecente(t) {
+  // v6: eco = a transcrição é quase toda feita das palavras da última fala dele (2+ palavras com 75%, ou 3+ com 60%).
+  // Antes bastava a fala dele estar contida no que foi ouvido, e "confirma" depois de "Confirma?" era jogado fora.
   if (!VK.ultima || (Date.now() - VK.fimEm > 8000 && !VK.tocando)) return false;
-  const L = sem(VK.ultima).split(/[^a-z0-9]+/).filter(w => w.length > 2), T = new Set(sem(t).split(/[^a-z0-9]+/));
-  return L.length > 0 && L.filter(w => T.has(w)).length / L.length >= .5;
+  if (ATIVA.test(sem(t)) && !/\bvektor\b/.test(sem(VK.ultima))) return false; // chamou pelo nome: é o Lindson, não o eco
+  const VAZIA = /^(que|esta|para|voce|com|uma|tem|nao|sim|mais|isso|esse|essa|aqui|agora|tudo|pra|pro|por|dos|das|nos|nas|foi|vai|ser|sua|seu|ele|ela|como|qual|quem|onde)$/;
+  const L = new Set(VZ.falado.join(' ').split(/[^a-z0-9]+/)), T = sem(t).split(/[^a-z0-9]+/).filter(w => w.length > 2 && !VAZIA.test(w) && !/^(vektor|vector|vetor|victor|vitor)$/.test(w));
+  const r = T.length ? T.filter(w => L.has(w)).length / T.length : 0;
+  return (T.length >= 2 && r >= .75) || (T.length >= 3 && r >= .6);
 }
 function diag() {
   const a = $('#dg-est'), b = $('#dg-err'), c = $('#dg-ouviu'); if (!a) return;
@@ -1244,7 +1250,7 @@ function falaCliente(c, foco) {
   let a = p ? escolhe('st-a', [`${nome} está em ${p.pct} por cento: ${p.feito} de ${p.total} etapas feitas.`, `${nome}: ${p.pct} por cento do placar, ${p.feito} de ${p.total}.`, `No placar, ${nome} tem ${p.feito} de ${p.total} etapas, ${p.pct} por cento.`])
     : escolhe('st-sp', [`${nome} ainda não tem placar.`, `Não tenho placar de ${nome}.`]);
   const ex = []; if (ab) ex.push(pl(ab, 'pedido aberto na fila', 'pedidos abertos na fila')); if (pend) ex.push(pl(pend, 'peça para você aprovar', 'peças para você aprovar'));
-  if (ex.length) a += ' Tem ' + lista(ex) + '.';
+  if (ex.length) a += ' ' + escolhe('st-x', [`Tem ${lista(ex)}.`, `Ainda tem ${lista(ex)}.`, `Por enquanto: ${lista(ex)}.`]);
   if (p && p.dono && p.dono.length) a += ' ' + escolhe('st-f', ['Falta de você: ', 'O que depende de você: ', 'Na sua mão: ']) + curto(p.dono[0], 90) + (p.dono.length > 1 ? `, e mais ${p.dono.length - 1}.` : '.');
   else if (foco === 'falta') a += ' ' + escolhe('st-n', ['Nada depende de você agora.', 'Da sua parte, nada pendente.']);
   return a;
@@ -1266,7 +1272,7 @@ function falaFilaV(tipo) {
   if (!ab.length && !pg.length) return escolhe('fv', ['A fila está vazia.', 'Fila zerada. Nada aberto.', 'Não tem nenhum pedido na fila.']);
   const nov = ab.filter(x => x.st === 'novo' || x.st === 'espera').length, faz = ab.filter(x => x.st === 'andamento').length;
   let r = escolhe('fl', [`Na fila: ${ab.length} abertos.`, `${pl(ab.length, 'pedido aberto', 'pedidos abertos')} na fila.`, `A fila tem ${ab.length} agora.`]);
-  const d = []; if (faz) d.push(`${faz} sendo feitos`); if (nov) d.push(pl(nov, 'novo', 'novos')); if (d.length) r += ' ' + cap(lista(d)) + '.';
+  const d = []; if (faz) d.push(pl(faz, 'sendo feito', 'sendo feitos')); if (nov) d.push(pl(nov, 'novo', 'novos')); if (d.length) r += ' ' + cap(lista(d)) + '.';
   if (pr.length) { r += ` ${pl(pr.length, 'está pronto', 'estão prontos')} para você: ${lista(pr.slice(0, 2).map(nomeP))}.`; CTX.lista = pr.map(x => ({ id: x.id, cli: x.cli })); CTX.listaTipo = 'ped'; }
   if (pg.length) r += ` ${pl(pg.length, 'pergunta espera', 'perguntas esperam')} sua resposta.`;
   if (!pr.length && !pg.length) r += ' ' + vr('nadaEsperando');
@@ -1326,7 +1332,7 @@ async function executaPend(p) {
   return '';
 }
 function pedidoVoz(fn, c, orig) {
-  P.fn = fn; if (c) P.cli = c; else if (!P.cli && CTX.cli) P.cli = CTX.cli; P.forcar = false; const d = orig ? limpaFala(tiraChamado(orig)) : ''; if (d) $('#detalhe').value = d; pintaEscolhas();
+  P.fn = fn; if (c) P.cli = c; else if (!P.cli && CTX.cli && Date.now() - (CTX.cliEm || 0) < 90000) P.cli = CTX.cli; P.forcar = false; const d = orig ? limpaFala(tiraChamado(orig)) : ''; if (d) $('#detalhe').value = d; pintaEscolhas();
   CTX.intent = 'pedido'; if (P.cli) CTX.cli = P.cli;
   if (!P.cli) { CTX.espera = { tipo: 'cli', em: Date.now() }; abreJanela(15000); return escolhe('pq', [`${nomeFn(fn)} para qual cliente? Jaci, Tribuna, Leo ou Real Time?`, vr('qualCli')]); }
   if (orig && FIM_ENVIA.test(sem(orig).replace(/[^a-z0-9 ]/g, ' ').trim())) { envia(); return ''; }
@@ -1377,7 +1383,7 @@ function saudacao() {
 async function vkIntent(orig, chamou) {
   const n = vkN(orig); if (!n) return null;
   const w = n.split(' ').length, fn = fnDe(n), ord = ordDe(n), conta = contaDe(n), per = perDe(n);
-  const cli = cliDe(n, !!conta && RX.conta.test(n)), ctxCli = cli || CTX.cli, I = id => { CTX.intent = id; window.__vk.intent = id; if (cli) CTX.cli = cli; };
+  const cli = cliDe(n, !!conta && RX.conta.test(n)), ctxCli = cli || CTX.cli, I = id => { CTX.intent = id; window.__vk.intent = id; if (cli) { CTX.cli = cli; CTX.cliEm = Date.now(); } };
   // 0 · esperando um dado que o VEKTOR pediu
   if (CTX.espera && Date.now() - CTX.espera.em > 45000) CTX.espera = null;
   if (CTX.espera && !RX.cancela.test(n)) {
@@ -1411,7 +1417,7 @@ async function vkIntent(orig, chamou) {
   if (RX.obrigado.test(n) && w <= 6) { I('obrigado'); return vr('obrigado'); }
   if (RX.oi.test(n) && w <= 4 && !cli && !fn) { I('oi'); abreJanela(10000); return saudacao(); }
   // 3 · tarefas feitas
-  if (RX.feito.test(n)) { I('feito'); await feitoVoz(orig); return ''; }
+  if (RX.feito.test(n)) { I('feito'); return (await feitoVoz(orig)) || ''; }
   if (RX.feitas.test(n)) { I('feitas'); return falaFeitas(per, cli); }
   // 4 · aprovar e pedir ajuste por voz
   const fala_lista = /\b(?:o que|quais|quantas?|tem|mostr\w*|ver|veja|lista\w*|verifi\w*)\b/.test(n) && ord == null && !/\btodas?\b/.test(n);
@@ -1452,7 +1458,7 @@ async function vkIntent(orig, chamou) {
     if (/\bfotos?\b/.test(n) && ctxCli) { I('abrir'); if (!CLIS_APROV.includes(ctxCli)) return vr('semPainel'); setTimeout(() => location.href = '/painel/' + ctxCli + '#fotos', 1200); return vr('abreFotos', { cli: nomeCli(ctxCli) }); }
     if (/\bpainel\b/.test(n) || (cli && w <= 4 && !fn)) { I('abrir'); const c = cli || CTX.cli; if (!c) { CTX.espera = null; abreJanela(15000); return vr('qualCli'); } if (!CLIS_APROV.includes(c)) return vr('semPainel');
       setTimeout(() => location.href = '/painel/' + c, 1200); return vr('abrePainel', { cli: nomeCli(c) }); }
-    if (/\bfila\b/.test(n)) { I('fila'); ir('#fila'); return vr('abreFila'); }
+    if (/\bfila\b/.test(n)) { I('fila'); ir('#fila'); return falaFilaV(''); }
     if (/\bequipe\b/.test(n)) { I('equipe'); ir('#equipe'); return vr('abreEquipe'); }
     if (/\b(?:feitas?|tarefas?)\b/.test(n)) { I('feitas'); ir('#feitas'); return vr('abreFeitas'); }
     if (/\b(?:resultados|placar|analise)\b/.test(n)) { I('status'); ir('#resultados'); return vr('abreResult'); }
@@ -1772,20 +1778,20 @@ function pintaFeitas() {
 }
 async function anotaFeito(cli, atividade, data, hora, falado) {
   const linha = { id: 'f' + Date.now().toString(36) + Math.random().toString(36).slice(2, 5), data: data || hojeSLZ(), hora: hora == null ? horaSLZ() : hora, cli: cli || 'outro', atividade: String(atividade).trim().slice(0, 300), por: 'Lindson', origem: 'lindson', em: agora() };
-  if (!linha.atividade) { toast('Diga ou escreva a atividade.'); return false; }
-  if (!(await muda('feitas', d => { d.itens = (d.itens || []).concat([linha]); }))) return false;
-  pintaFeitas(); if (falado) { CTX.desfazer = { id: linha.id, em: Date.now() }; const r = vr('anotado', { de: deCli(linha.cli) }); CTX.ultResp = r; responde(r, true); abreJanela(8000); } else toast('Anotado em Tarefas feitas.');
+  if (!linha.atividade) { toast('Diga ou escreva a atividade.'); return falado ? 'Faltou a atividade.' : false; }
+  if (!(await muda('feitas', d => { d.itens = (d.itens || []).concat([linha]); }))) return falado ? vr('erroSalvar') : false;
+  pintaFeitas(); if (falado) { CTX.desfazer = { id: linha.id, em: Date.now() }; return vr('anotado', { de: deCli(linha.cli) }); } toast('Anotado em Tarefas feitas.');
   return true;
 }
 // voz: "Vektor, feito: Tribuna, refiz as capas dos Reels"
 function feitoVoz(t) {
-  let resto = tiraNome(t).replace(/^\s*(anot\w*\s+)?(feito|fiz|terminei)\b[\s:,.-]*/i, '').trim();
+  let resto = tiraChamado(t).replace(/^\s*(?:(?:anot\w*|lan[cç]\w*|registr\w*|marca)(?:\s+(?:a[ií]|que|para mim|nas?\s+tarefas?(?:\s+feitas?)?))*\s*)?(?:(?:feito|fiz|terminei|conclu[ií]|finalizei|acabei|entreguei)\b)?[\s:,.-]*/i, '').trim();
   const s0 = sem(resto); let cli = null;
   const c = CLIS.find(c => c.voz.concat([sem(c.nome)]).some(v => s0.startsWith(v) || s0.startsWith('d' + 'a ' + v) || s0.startsWith('do ' + v) || s0.startsWith('de ' + v)));
   if (c) { cli = c.id; const corte = resto.search(/[,:;.-]/); resto = corte > -1 && corte < 40 ? resto.slice(corte + 1).trim() : resto.split(/\s+/).slice(c.nome.split(' ').length).join(' '); }
   else { const c2 = CLIS.find(c => c.voz.some(v => s0.includes(' ' + v + ' ') || s0.includes(' ' + v))); if (c2) cli = c2.id; }
-  if (!resto) { responde(escolhe('fz-v', ['Diga o que foi feito depois do cliente.', 'O que foi feito? Diga o cliente e a atividade.']), true); abreJanela(12000); return; }
-  anotaFeito(cli || 'outro', resto.charAt(0).toUpperCase() + resto.slice(1), null, null, true);
+  if (!resto) { abreJanela(12000); return escolhe('fz-v', ['Diga o que foi feito depois do cliente.', 'O que foi feito? Diga o cliente e a atividade.']); }
+  return anotaFeito(cli || 'outro', resto.charAt(0).toUpperCase() + resto.slice(1), null, null, true);
 }
 async function janelaFeito() {
   const m = document.createElement('div'); m.className = 'janela'; let cli = P.cli || null;

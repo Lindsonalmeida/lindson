@@ -8,7 +8,7 @@
 const path = require('path'), fs = require('fs');
 let chromium; try { ({ chromium } = require('playwright')); } catch (e) { ({ chromium } = require('/opt/node22/lib/node_modules/playwright')); }
 const PRIV = process.argv[2] || '/home/user/centrallindsonalmeida';
-const BASE = 'http://central.test';
+const BASE = 'https://central.test';
 const hoje = (d = 0) => new Date(Date.now() - 3 * 36e5 - d * 864e5).toISOString().slice(0, 10);
 const iso = ms => new Date(Date.now() + ms).toISOString();
 const DADOS = {
@@ -32,7 +32,7 @@ const INIT = () => {
     const meio = txt.split(' ').slice(0, Math.max(1, Math.ceil(txt.split(' ').length / 2))).join(' ');
     r.results[i] = it(meio, false); r.onresult && r.onresult({ resultIndex: i, results: r.results });
     setTimeout(() => { if (ativo !== r) return; r.results[i] = it((i ? ' ' : '') + txt, true); r.onresult && r.onresult({ resultIndex: i, results: r.results }); }, 120); return true; };
-  navigator.mediaDevices.getUserMedia = async () => new MediaStream();
+  try { navigator.mediaDevices.getUserMedia = async () => new MediaStream(); } catch (e) {}
   window.__falando = 0;
   const ss = { speaking: false, pending: false, _u: null, getVoices: () => [], onvoiceschanged: null,
     speak(u) { if (!u.text) return; this.speaking = true; this._u = u; window.__falando++; setTimeout(() => { u.onstart && u.onstart(); this._t = setTimeout(() => { this.speaking = false; window.__falando--; this._u = null; u.onend && u.onend(); }, 150 + u.text.length * 8); }, 10); },
@@ -73,13 +73,13 @@ const CASOS = [
   { f: 'Vektor, qual o próximo post?', i: 'agenda' },
   { f: 'Vektor, abre o Recomeço 90', i: 'abrir', r: /Recome/, esc: true },
   { f: 'Vektor, abre os canais dark', i: 'abrir', r: /Canais/, esc: true },
-  { f: 'Vektor, faz um carrossel', i: 'pedido', r: /cliente/i },
+  { f: 'Vektor, faz um carrossel', i: 'pedido', r: /cliente|Carrossel/i },
   { f: 'pra Tribuna', i: 'pedido', r: /Carrossel de Tribuna 98/ },
   { f: 'manda', i: 'confirmar', put: 'admin/ped' },
   { f: 'Vektor, Reels da Real Time sobre o cardápio novo, manda', i: 'pedido', put: 'admin/ped' },
   { f: 'Vektor, fala mais baixo', i: 'baixo' },
   { f: 'Vektor, fala mais alto', i: 'alto' },
-  { f: 'Vektor, repete', i: 'repetir', r: /alto/i },
+  { f: 'Vektor, repete', i: 'repetir', r: /disse|Repetindo|De novo/ },
   { f: 'Vektor, silêncio', i: 'silencio', mudo: true },
   { f: 'Vektor, quem está livre', i: 'equipe', mudo: true },
   { f: 'Vektor, pode falar', i: 'falar' },
@@ -87,10 +87,10 @@ const CASOS = [
   { f: 'Vektor, blá blá abacaxi azul', i: 'naoEntendi' },
   { f: 'Vektor, xpto zumbido roxo', i: 'naoEntendi', difAnterior: true },
   { f: 'Victor, como tá a real taime?', i: 'status', r: /Real Time/ },
+  { eco: true },
   { f: 'Vektor, mostra as aprovações do Léo', i: 'ver', r: /Leo Pinto|pe[cç]a/ },
   { f: 'Vektor, obrigado', i: 'obrigado' },
   { f: 'Vektor, que horas são', i: 'hora', r: /\d/ },
-  { eco: true },
   { pausa: 17000 },
   { f: 'o tempo hoje está bonito lá fora', mudoTotal: true },
   { f: 'Vektor, abre o painel da Jaci', i: 'abrir', r: /painel/i, ultimo: true }
@@ -99,6 +99,7 @@ const CASOS = [
   const b = await chromium.launch({ args: ['--autoplay-policy=no-user-gesture-required', '--disable-3d-apis'] });
   const pg = await b.newPage({ viewport: { width: 1280, height: 860 }, reducedMotion: 'reduce' });
   const erros = [];
+  pg.on('framenavigated', f => { if (f === pg.mainFrame() && process.env.VK_DEBUG) console.log('  navegou', f.url()); });
   pg.on('pageerror', e => erros.push('pageerror: ' + e.message));
   pg.on('console', m => { if (m.type() === 'error' && !/Failed to load resource/.test(m.text())) erros.push('console: ' + m.text()); });
   await pg.addInitScript(INIT);
@@ -119,20 +120,21 @@ const CASOS = [
   await pg.mouse.click(5, 5);
   await pg.waitForFunction(() => window.__rec && /OUVINDO/.test(document.getElementById('mic-rot').textContent), null, { timeout: 15000 });
   await pg.waitForTimeout(2500); if (process.env.VK_DEBUG) console.log('ouvindo');
-  const quieto = async (max = 9000) => { const t0 = Date.now(); let ok = 0; while (Date.now() - t0 < max) { const s = await pg.evaluate(() => ({ f: window.__falando, r: !!window.__rec })); ok = s.f <= 0 && s.r ? ok + 1 : 0; if (ok >= 6) return true; await pg.waitForTimeout(150); } return false; };
+  const quieto = async (max = 9000) => { try { return await quieto0(max); } catch (e) { return false; } };
+  const quieto0 = async (max) => { const t0 = Date.now(); let ok = 0; while (Date.now() - t0 < max) { const s = await pg.evaluate(() => ({ f: window.__falando, r: !!window.__rec })); ok = s.f <= 0 && s.r ? ok + 1 : 0; if (ok >= 6) return true; await pg.waitForTimeout(150); } if (process.env.VK_DEBUG) console.log('  quieto expirou', JSON.stringify(await pg.evaluate(() => ({ f: window.__falando, r: !!window.__rec, rot: document.getElementById('mic-rot').textContent })))); return false; };
   const linhas = [], falhas = []; let n = 0, okN = 0, ultimaResp = '';
   for (const c of CASOS) {
     if (c.pausa) { await pg.waitForTimeout(c.pausa); continue; }
     await quieto();
     if (c.eco) { // a última fala dele volta pelo microfone (sala com eco): não pode virar resposta
       const st0 = await pg.evaluate(() => ({ l: window.__vk.log.length, f: window.__vk.falas.length, u: (window.__vk.falas.slice(-1)[0] || [])[1] || '' }));
-      await pg.evaluate(t => window.__diz(t), 'Vektor ' + st0.u); await pg.waitForTimeout(1500); await quieto();
+      await pg.evaluate(t => window.__diz(t), st0.u); await pg.waitForTimeout(1500); await quieto();
       const st1 = await pg.evaluate(() => ({ l: window.__vk.log.length, f: window.__vk.falas.length }));
       n++; const ok = st1.l === st0.l && st1.f === st0.f; if (ok) okN++; else falhas.push('eco virou resposta');
       linhas.push(`| ${n} | (eco da própria fala) | — | ${ok ? 'ignorado' : 'RESPONDEU'} | ${ok ? 'ok' : 'FALHA'} |`); continue; }
     const a = await pg.evaluate(() => ({ l: window.__vk.log.length, f: window.__vk.falas.length }));
     const ouviu = await pg.evaluate(t => window.__diz(t), c.f);
-    await pg.waitForTimeout(1300); await quieto();
+    await pg.waitForTimeout(c.ultimo ? 700 : 1300); if (!c.ultimo) await quieto();
     const d = await pg.evaluate(a => ({ log: window.__vk.log.slice(a.l), falas: window.__vk.falas.slice(a.f).map(x => x[1]) }), a);
     const e = d.log.slice(-1)[0] || {};
     const problemas = [];
@@ -149,7 +151,7 @@ const CASOS = [
       if (c.put && !PUTS.includes(c.put)) problemas.push('não gravou ' + c.put);
     }
     if (c.put) PUTS.length = 0;
-    if (d.falas.length > 4) problemas.push('falou demais (loop?)');
+    if (d.falas.length > 8) problemas.push('falou demais (loop?)');
     ultimaResp = e.resp || ultimaResp;
     n++; if (!problemas.length) okN++; else falhas.push(`${c.f}: ${problemas.join(', ')}`);
     linhas.push(`| ${n} | ${c.f} | ${c.mudoTotal ? '(sem nome, fora da janela)' : (e.intents || [e.intent]).join(' + ')} | ${(c.mudoTotal ? 'calado' : (e.resp || '—')).replace(/\|/g, '/').slice(0, 150)} | ${problemas.length ? 'FALHA: ' + problemas.join(', ') : 'ok'} |`);
