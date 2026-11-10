@@ -59,6 +59,29 @@ s07 refeita com essas grafias (variação `SEMENTE=27` do `narra.py`, escolhida 
 - **Mix:** -14 LUFS (loudnorm em 2 passadas), pico real ≤ -1,5 dBTP (medido no MP4 final), AAC 192k 48 kHz.
 - Os sites são gravados no ar de novo, quadro a quadro, na duração da narração (`gravar.js`: rolagem suave e exata).
 
+## Um vídeo por cliente (10/11, para marcar o cliente)
+Pedido do Lindson: "faça um vídeo de cada cliente, para eu poder marcar". 5 stories em vídeo, um por cliente, cada um com composição diferente,
+o site do cliente rolando, a ficha **Cliente · O que eu fiz · Onde** e um **espaço livre para a figurinha de MENÇÃO** (o @ do cliente).
+Pesquisa premium nova (12 referências, 6 países) e modelos copiados (Koto + Locomotive + Lusion) em `TEMPLATE.md`, seção "Vídeo por cliente".
+Narração na voz do Lindson (mesmo método, blocos, tabela de pronúncias acima), SFX, trilha Kevin MacLeod CC BY, VFX, -14 LUFS / pico ≤ -1,5 dBTP.
+Arquivos: privado `painel/admin-rede/stories-sites/clientes/` (`cliente-<nome>.mp4`, capa `.png` e `guia/` com o lugar exato do @). Admin: Artes → "Stories · Um vídeo por cliente".
+
+| Vídeo | Fala (voz do Lindson) | @ para marcar (figurinha de menção, no retângulo livre embaixo) | Duração |
+|---|---|---|---|
+| cliente-rafael | "Esse é o mini site que eu fiz pra Rafael Imports: ofertas, lançamentos e o WhatsApp da loja e da assistência, tudo num link só. Bora fazer o seu?" | **@rafael.imports.slz** | 10,6 s |
+| cliente-sf | "Pra Desentupidora SF, eu fiz um site com onze páginas, feito pra aparecer no Google. Quem procura, acha, e já chama no WhatsApp. Quer um assim?" | **@desentupidorasf_slz** | 11,4 s |
+| cliente-tribuna | "Pro Thiago, da Tribuna 98, eu fiz uma bio que puxa as notícias do dia sozinha: saiu no blog, já aparece ali. Quer um assim pro seu perfil?" | **@tribuna98_** | 10,8 s |
+| cliente-realtime | "Pra Real Time, produtora aqui do Maranhão, eu fiz um site com oito páginas e o mini site do Instagram, com equipamento, estúdio e orçamento direto no WhatsApp. Bora fazer o seu?" | **@realtime_fulljobs** | 12,8 s |
+| cliente-jaci | "Pra clínica da Doutora Jaci Cunha, em Zé Doca, eu fiz o site oficial e a bio, com a avaliação marcada direto no WhatsApp. Bora fazer o seu?" | **@clinica.drajacicunha** | 9,6 s |
+
+Os @ foram conferidos nos próprios sites no ar (link do Instagram de cada um) e nas pastas dos clientes. Na voz, os nomes vão escritos como se falam (`falas.json`: "Esse Efe", "Real Taime", "Jáci").
+
+**Como postar:** um por dia, no fim da tarde/noite (18h a 20h, depois ajustar pelo Insights), de preferência no dia em que o Reels do mesmo cliente sair no calendário. Ordem sugerida: Rafael → SF → Tribuna → Real Time → Jaci.
+No story: pôr a **figurinha de menção** com o @ no retângulo livre embaixo (veja a guia) e, se quiser, o **link** do site do cliente ao lado. Pedir ao cliente para **repostar**: a marcação chega para ele e o story dele leva gente para o perfil do Lindson.
+Na legenda ou no perfil: "Música: Kevin MacLeod (incompetech.com), CC BY 4.0".
+Gerar de novo: `VOZ=<pasta-voz> MUSICAS=<pasta-musicas> QUADROS=<pasta-temp> bash clientes.sh 11 12 13 14 15` (narração antes: `narra.py ... 11 12 13 14 15`).
+**Atenção ao subir na aba Artes:** o `painel/admin.html` do privado tem telas que outras contas acrescentaram depois (Quadro de atividades, Curso, Tribuna, Central de Comando). Não copie o `admin.html` inteiro gerado pelo `montar-site.py`: troque só a linha `window.__REDE=...;` (foi assim em 10/11).
+
 ## Quem responder (direct)
 - Respondeu **SITE**, votou na enquete ou mandou o negócio na caixa: responder no padrão `agencia/prospeccao/PADRAO-COPY.md` e seguir a isca: pedir o @ e o WhatsApp e mandar o **vídeo de demonstração do mini site no nome dele** (processo `agencia/processos/demo-minisite/`). Valores só na conversa.
 - Exemplo: "Oi, [nome]! Aqui é o Lindson. Recebi sua resposta: quer que eu monte um vídeo mostrando como ficaria o site da [negócio]? É de graça. Me manda seu WhatsApp."

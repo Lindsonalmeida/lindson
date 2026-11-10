@@ -27,8 +27,25 @@ leg = ('Sequência de 10 stories para vender sites (isca SITE, código MS). Post
        + '\n\nQuando postar:\n' + quando.replace('**', '').replace('`', '')
        + '\n\nVídeos 04 a 07: narração na voz do Lindson, SFX e trilha. Música: Kevin MacLeod (incompetech.com), CC BY 4.0 — pôr o crédito na legenda ou no perfil.')
 item = {'data': 'stories', 'titulo': TITULO, 'img': f'/painel/admin-rede/stories-sites/s01.jpg', 'arquivo': 's01.jpg', 'telas': telas, 'legenda': leg}
-json.dump(item, open(os.path.join(D, 'painel.json'), 'w'), ensure_ascii=False, indent=1)
+# 2ª entrada (10/11): um vídeo por cliente, para marcar o cliente (clientes/cliente-<nome>.mp4)
+CLI = [('rafael', 'Rafael Imports', '@rafael.imports.slz'), ('sf', 'Desentupidora SF', '@desentupidorasf_slz'), ('tribuna', 'Tribuna 98', '@tribuna98_'),
+       ('realtime', 'Real Time', '@realtime_fulljobs'), ('jaci', 'Clínica Dra. Jaci Cunha', '@clinica.drajacicunha')]
+PC = os.path.join(PRIV, 'clientes'); itens = [item]
+if all(os.path.exists(os.path.join(PC, f'cliente-{n}.mp4')) for n, _, _ in CLI):
+    Image.open(os.path.join(PC, 'cliente-rafael.png')).convert('RGB').save(os.path.join(PC, 'cliente-rafael.jpg'), quality=90, optimize=True, progressive=True)
+    seccli = re.search(r'## Um vídeo por cliente.*?(?=\n## )', rd, re.S).group(0)
+    falas = {}
+    for l in seccli.splitlines():
+        m = re.match(r'\| cliente-(\w+) \| "(.*?)" \| \*\*(@[^*]+)\*\* \| ([^|]+) \|', l)
+        if m: falas[m.group(1)] = (m.group(2), m.group(3), m.group(4).strip())
+    leg2 = ('Um vídeo por cliente, para marcar o cliente (figurinha de MENÇÃO no retângulo livre embaixo; a guia mostra o lugar).\n\n'
+            + '\n\n'.join(f'{t} · {falas[n][1]} · {falas[n][2]}\nFala: "{falas[n][0]}"' for n, t, _ in CLI)
+            + '\n\nPostar um por dia, 18h a 20h, e pedir ao cliente para repostar. Música: Kevin MacLeod (incompetech.com), CC BY 4.0 — pôr o crédito na legenda ou no perfil.')
+    itens.append({'data': 'stories', 'titulo': 'Stories · Um vídeo por cliente', 'img': '/painel/admin-rede/stories-sites/clientes/cliente-rafael.jpg', 'arquivo': 'cliente-rafael.jpg',
+                  'telas': [f'/painel/admin-rede/stories-sites/clientes/cliente-{n}.mp4' for n, _, _ in CLI], 'legenda': leg2})
+json.dump(itens, open(os.path.join(D, 'painel.json'), 'w'), ensure_ascii=False, indent=1)
 arq = os.path.join(ML, 'artes-aprovadas.json'); L = json.load(open(arq))
-L = [a for a in L if a.get('titulo') != TITULO] + [item]
+TIT = {i['titulo'] for i in itens}
+L = [a for a in L if a.get('titulo') not in TIT] + itens
 json.dump(L, open(arq, 'w'), ensure_ascii=False, indent=1)
-print(len(L), 'posts na aba Artes ·', TITULO, len(telas), 'telas')
+print(len(L), 'posts na aba Artes ·', ' + '.join(TIT))

@@ -56,6 +56,6 @@ for data, titulo, telas, chave in POSTS:
 # entradas de outras pastas (ex.: ../stories-sites/painel.json, conta Pedro 05/11) continuam na aba ao regenerar
 for extra in ['stories-sites']:
     pj = os.path.join(ML, extra, 'painel.json')
-    if os.path.exists(pj): saida.append(json.load(open(pj)))
+    if os.path.exists(pj): x = json.load(open(pj)); saida.extend(x if isinstance(x, list) else [x])
 json.dump(saida, open(os.path.join(ML, 'artes-aprovadas.json'), 'w'), ensure_ascii=False, indent=1)
 print(len(saida), 'posts ·', sum(len(p[2]) for p in POSTS), 'imagens')
