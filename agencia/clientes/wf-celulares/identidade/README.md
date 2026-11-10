@@ -35,3 +35,8 @@ Motivo do Lindson: "precisa ter a ver com a Apple". O verde-limão e o visual de
 - **Caminhos:** A "Anel" (recomendado: o círculo do logo atual vira anel fino de titânio, maçã em cima, WF embaixo, sem 3D, lê em 110 px); B "Assinatura" (maçã + WF + CELULARES espaçado, para fachada); C "Módulo" (maçã e WF num quadrado de cantos contínuos, tipo ícone de app).
 - **Paleta:** preto #000000, grafite #1D1D1F, titânio #8E8A84 (gradiente), prata #C7C9CC, branco gelo #F5F5F7. **Letra:** Inter (nunca San Francisco).
 - **Peças no caminho A:** avatar, 6 destaques e 3 posts (produto, assistência e prova). O depoimento da prova é exemplo ilustrativo.
+
+## FINAL · caminho B "Assinatura" aprovado em 10/11 (Lindson)
+- **Gerar:** `python3 gerar3.py` → `node render3.js` → `pecas-final/` → `node logo-b/png.js` → `python3 prancha3.py` → `prancha-final.jpg`.
+- **Arquivos do logo:** `logo-b/wf-logo-b-{cor,branca,preta}.svg` e `.png` (fundo transparente). O texto CELULARES do SVG usa Inter: para gráfica, converter em contorno.
+- **Kit:** avatar (o logo B completo), 6 destaques, 3 posts, fachada (mockup) e cartão com etiqueta de laudo. Nas peças pequenas, use a marca reduzida (maçã + WF).
