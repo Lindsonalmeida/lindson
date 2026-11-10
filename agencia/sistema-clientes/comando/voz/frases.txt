@@ -716,3 +716,1129 @@ Vektor aqui. Disponíveis agora: Lindson, Zuleide, Leandro.
 Vektor aqui. Disponíveis agora: Lindson, Pedro, Leandro.
 Vektor aqui. Disponíveis agora: Zuleide, Pedro, Leandro.
 Vektor aqui. Disponíveis agora: Lindson, Zuleide, Pedro, Leandro.
+Oi, Lindson. Pode falar.
+Tô aqui. O que você precisa?
+Diga, Lindson.
+Sim? Tô ouvindo.
+Por nada, Lindson.
+Tamo junto.
+Disponha.
+É pra isso que eu tô aqui.
+Sempre.
+Sou o Vektor, o gerente da sua equipe. Leio a fila, o placar e as contas, e monto os pedidos.
+Vektor, seu gerente. Cuido da fila, das aprovações e da equipe pra você.
+Eu sou o Vektor. Fico de olho na equipe e no que depende de você.
+Eu leio a fila, o placar e a equipe, aprovo peças, anoto o que foi feito e monto pedidos. Diga, por exemplo: Vektor, o que falta da Tribuna?
+Posso dizer o que chegou na fila, quem está livre e o que posta hoje. Também aprovo peças e mando pedidos. Experimente: Vektor, mostra os conteúdos da Jaci.
+Pergunte do status de um cliente, das aprovações, da agenda do Instagram ou da equipe. Para pedir trabalho: Vektor, Reels da Jaci, manda.
+Sei abrir os painéis, o Recomeço 90 e os Canais dark, ler a fila e anotar tarefas feitas. É só falar normal comigo.
+Fico quieto. Respondo só por escrito. Diga pode falar para eu voltar.
+Silêncio ligado. Escrevo aqui no balão até você dizer pode falar.
+Tudo bem, só por escrito agora.
+Voltei a falar.
+Beleza, voz de volta.
+Tô falando de novo.
+Pronto, pode contar com a minha voz.
+Falo mais baixo agora.
+Abaixei a voz.
+Certo, mais baixo.
+Falo mais alto agora.
+Aumentei a voz.
+Certo, mais alto.
+Já estou no volume mínimo.
+Mais baixo que isso eu não consigo.
+Já estou no volume máximo.
+Mais alto que isso eu não consigo.
+Cancelado.
+Tudo bem, deixei pra lá.
+Certo, não faço.
+Pronto, cancelei.
+Não tem nada para cancelar agora.
+Nada pendente para cancelar.
+Tá tudo limpo, nada para cancelar.
+Não tenho nada esperando o seu sim.
+Confirmar o quê? Não tem nada pendente.
+Nada esperando confirmação agora. Me diz o que precisa.
+Ainda não disse nada para repetir.
+Não tenho fala anterior para repetir.
+Desfiz a última anotação.
+Tirei a anotação das tarefas feitas.
+Pronto, apaguei a anotação.
+Não peguei. É sobre a fila, a equipe, as aprovações ou um pedido?
+Pode repetir de outro jeito? Por exemplo: o que falta da Tribuna.
+Não entendi direito. Quer ver o status, as peças para aprovar ou fazer um pedido?
+Hum, essa eu não peguei. Diga o cliente e o que precisa.
+Não consegui entender. Fala de novo, com calma, que eu pego.
+Para qual cliente? Jaci, Tribuna, Leo ou Real Time?
+De qual cliente: Jaci, Tribuna, Leo, Real Time ou Orégano?
+Não peguei o cliente. É para a Jaci, a Tribuna, o Leo ou a Real Time?
+Qual delas? Diga a primeira, a segunda ou a última.
+Qual peça? Pode dizer pelo número: a primeira, a segunda…
+Me diz qual: a primeira, a segunda ou a terceira?
+Primeiro me diz de qual cliente. Por exemplo: mostra os conteúdos da Jaci.
+De qual cliente são as peças? Jaci, Tribuna, Leo ou Real Time?
+O que você quer que mude?
+Qual é o ajuste? Pode falar.
+Me diz o que mudar que eu anoto.
+Não achei essa peça. Diga a primeira, a segunda ou a última.
+Esse número não existe na lista. Quer que eu leia de novo?
+Ainda estou lendo a fila. Pergunta de novo em um instante.
+A fila ainda está carregando. Tenta daqui a pouco.
+Nada pronto ainda.
+Nenhum pedido pronto por enquanto.
+Ainda não ficou nada pronto.
+Nada esperando você agora. Pode respirar.
+Nada novo para você por enquanto.
+Tudo em dia, nada esperando você.
+Ainda não tem resultado pronto para abrir.
+Não tem entrega pronta para mostrar agora.
+Abrindo o Recomeço 90.
+Recomeço 90 aberto.
+Pronto, Recomeço 90 na tela.
+Abrindo os Canais dark.
+Canais dark abertos.
+Pronto, Canais dark na tela.
+Fila na tela.
+Abri a fila.
+Aqui está a fila.
+Equipe na tela.
+Abri a equipe.
+Aqui estão as contas.
+Tarefas feitas na tela.
+Abri as tarefas feitas.
+Resultados na tela.
+Abri os resultados e o placar.
+Abri a configuração das contas.
+Configuração das contas na tela.
+Aprovações na tela.
+Abri as aprovações.
+Esse cliente não tem painel. Os painéis são da Jaci, Tribuna, Leo, Real Time e Orégano.
+Não tem painel para esse. Tenho da Jaci, Tribuna, Leo, Real Time e Orégano.
+Não achei a agenda do Instagram agora.
+A agenda do Instagram não carregou.
+Hoje não tem post agendado no seu Instagram.
+Nada para postar hoje no Instagram.
+Não tem próximo post agendado.
+A agenda está sem próximo post. Quer pedir conteúdo?
+Ninguém esgotou o limite agora.
+Todas as contas estão dentro do limite.
+Qual conta? Lindson, Zuleide, Pedro ou Leandro?
+De quem: Lindson, Zuleide, Pedro ou Leandro?
+O pedido se perdeu. Diga de novo o cliente e o que precisa.
+Não achei o pedido montado. Fala de novo, por favor.
+Não consegui salvar agora. Tenta de novo em um instante.
+Deu erro ao salvar. Confere a internet e tenta de novo.
+Dra. Jaci não tem peça esperando aprovação agora.
+Tribuna 98 não tem peça esperando aprovação agora.
+Leo Pinto não tem peça esperando aprovação agora.
+Real Time não tem peça esperando aprovação agora.
+Orégano Turbo não tem peça esperando aprovação agora.
+Desentupidora SF não tem peça esperando aprovação agora.
+Nenhuma peça de Dra. Jaci esperando você.
+Nenhuma peça de Tribuna 98 esperando você.
+Nenhuma peça de Leo Pinto esperando você.
+Nenhuma peça de Real Time esperando você.
+Nenhuma peça de Orégano Turbo esperando você.
+Nenhuma peça de Desentupidora SF esperando você.
+Dra. Jaci está em dia, nada para aprovar.
+Tribuna 98 está em dia, nada para aprovar.
+Leo Pinto está em dia, nada para aprovar.
+Real Time está em dia, nada para aprovar.
+Orégano Turbo está em dia, nada para aprovar.
+Desentupidora SF está em dia, nada para aprovar.
+Aprovado. Já aparece no painel de Dra. Jaci.
+Aprovado. Já aparece no painel de Tribuna 98.
+Aprovado. Já aparece no painel de Leo Pinto.
+Aprovado. Já aparece no painel de Real Time.
+Aprovado. Já aparece no painel de Orégano Turbo.
+Aprovado. Já aparece no painel de Desentupidora SF.
+Feito, aprovei. Dra. Jaci já vê no painel.
+Feito, aprovei. Tribuna 98 já vê no painel.
+Feito, aprovei. Leo Pinto já vê no painel.
+Feito, aprovei. Real Time já vê no painel.
+Feito, aprovei. Orégano Turbo já vê no painel.
+Feito, aprovei. Desentupidora SF já vê no painel.
+Aprovado e salvo no painel de Dra. Jaci.
+Aprovado e salvo no painel de Tribuna 98.
+Aprovado e salvo no painel de Leo Pinto.
+Aprovado e salvo no painel de Real Time.
+Aprovado e salvo no painel de Orégano Turbo.
+Aprovado e salvo no painel de Desentupidora SF.
+Ajuste pedido. A equipe de Dra. Jaci já vê.
+Ajuste pedido. A equipe de Tribuna 98 já vê.
+Ajuste pedido. A equipe de Leo Pinto já vê.
+Ajuste pedido. A equipe de Real Time já vê.
+Ajuste pedido. A equipe de Orégano Turbo já vê.
+Ajuste pedido. A equipe de Desentupidora SF já vê.
+Anotei o ajuste para Dra. Jaci.
+Anotei o ajuste para Tribuna 98.
+Anotei o ajuste para Leo Pinto.
+Anotei o ajuste para Real Time.
+Anotei o ajuste para Orégano Turbo.
+Anotei o ajuste para Desentupidora SF.
+Pronto, ajuste salvo para Dra. Jaci.
+Pronto, ajuste salvo para Tribuna 98.
+Pronto, ajuste salvo para Leo Pinto.
+Pronto, ajuste salvo para Real Time.
+Pronto, ajuste salvo para Orégano Turbo.
+Pronto, ajuste salvo para Desentupidora SF.
+O que você quer de Dra. Jaci: o status, as peças para aprovar ou um pedido novo?
+O que você quer de Tribuna 98: o status, as peças para aprovar ou um pedido novo?
+O que você quer de Leo Pinto: o status, as peças para aprovar ou um pedido novo?
+O que você quer de Real Time: o status, as peças para aprovar ou um pedido novo?
+O que você quer de Orégano Turbo: o status, as peças para aprovar ou um pedido novo?
+O que você quer de Desentupidora SF: o status, as peças para aprovar ou um pedido novo?
+O que você quer da sua marca: o status, as peças para aprovar ou um pedido novo?
+O que você quer de outro cliente: o status, as peças para aprovar ou um pedido novo?
+Sobre Dra. Jaci: quer saber o que falta ou pedir alguma coisa?
+Sobre Tribuna 98: quer saber o que falta ou pedir alguma coisa?
+Sobre Leo Pinto: quer saber o que falta ou pedir alguma coisa?
+Sobre Real Time: quer saber o que falta ou pedir alguma coisa?
+Sobre Orégano Turbo: quer saber o que falta ou pedir alguma coisa?
+Sobre Desentupidora SF: quer saber o que falta ou pedir alguma coisa?
+Dra. Jaci, certo. Status, aprovações ou pedido?
+Tribuna 98, certo. Status, aprovações ou pedido?
+Leo Pinto, certo. Status, aprovações ou pedido?
+Real Time, certo. Status, aprovações ou pedido?
+Orégano Turbo, certo. Status, aprovações ou pedido?
+Desentupidora SF, certo. Status, aprovações ou pedido?
+Anotado nas tarefas feitas de Dra. Jaci.
+Anotado nas tarefas feitas de Tribuna 98.
+Anotado nas tarefas feitas de Leo Pinto.
+Anotado nas tarefas feitas de Real Time.
+Anotado nas tarefas feitas de Orégano Turbo.
+Anotado nas tarefas feitas de Desentupidora SF.
+Anotado nas tarefas feitas da sua marca.
+Anotado nas tarefas feitas de outro cliente.
+Pronto, lancei nas tarefas feitas de Dra. Jaci.
+Pronto, lancei nas tarefas feitas de Tribuna 98.
+Pronto, lancei nas tarefas feitas de Leo Pinto.
+Pronto, lancei nas tarefas feitas de Real Time.
+Pronto, lancei nas tarefas feitas de Orégano Turbo.
+Pronto, lancei nas tarefas feitas de Desentupidora SF.
+Pronto, lancei nas tarefas feitas da sua marca.
+Pronto, lancei nas tarefas feitas de outro cliente.
+Feito. Tá nas tarefas feitas de Dra. Jaci.
+Feito. Tá nas tarefas feitas de Tribuna 98.
+Feito. Tá nas tarefas feitas de Leo Pinto.
+Feito. Tá nas tarefas feitas de Real Time.
+Feito. Tá nas tarefas feitas de Orégano Turbo.
+Feito. Tá nas tarefas feitas de Desentupidora SF.
+Feito. Tá nas tarefas feitas da sua marca.
+Feito. Tá nas tarefas feitas de outro cliente.
+Abrindo o painel de Desentupidora SF.
+Vou para o painel de Dra. Jaci.
+Vou para o painel de Tribuna 98.
+Vou para o painel de Leo Pinto.
+Vou para o painel de Real Time.
+Vou para o painel de Orégano Turbo.
+Vou para o painel de Desentupidora SF.
+Painel de Dra. Jaci, abrindo.
+Painel de Tribuna 98, abrindo.
+Painel de Leo Pinto, abrindo.
+Painel de Real Time, abrindo.
+Painel de Orégano Turbo, abrindo.
+Painel de Desentupidora SF, abrindo.
+Abrindo as fotos de Dra. Jaci.
+Abrindo as fotos de Tribuna 98.
+Abrindo as fotos de Leo Pinto.
+Abrindo as fotos de Real Time.
+Abrindo as fotos de Orégano Turbo.
+Abrindo as fotos de Desentupidora SF.
+Vou para as fotos de Dra. Jaci.
+Vou para as fotos de Tribuna 98.
+Vou para as fotos de Leo Pinto.
+Vou para as fotos de Real Time.
+Vou para as fotos de Orégano Turbo.
+Vou para as fotos de Desentupidora SF.
+Pedido de Reels de Dra. Jaci enviado; a conta Lindson pega.
+Pedido de Reels de Dra. Jaci enviado; a Zuleide pega.
+Pedido de Reels de Dra. Jaci enviado; o Pedro pega.
+Pedido de Reels de Dra. Jaci enviado; o Leandro pega.
+Mandei Reels de Dra. Jaci para a conta Lindson.
+Mandei Reels de Dra. Jaci para a Zuleide.
+Mandei Reels de Dra. Jaci para o Pedro.
+Mandei Reels de Dra. Jaci para o Leandro.
+Pedido de Reels de Tribuna 98 enviado; a conta Lindson pega.
+Pedido de Reels de Tribuna 98 enviado; a Zuleide pega.
+Pedido de Reels de Tribuna 98 enviado; o Pedro pega.
+Pedido de Reels de Tribuna 98 enviado; o Leandro pega.
+Mandei Reels de Tribuna 98 para a conta Lindson.
+Mandei Reels de Tribuna 98 para a Zuleide.
+Mandei Reels de Tribuna 98 para o Pedro.
+Mandei Reels de Tribuna 98 para o Leandro.
+Pedido de Reels de Leo Pinto enviado; a conta Lindson pega.
+Pedido de Reels de Leo Pinto enviado; a Zuleide pega.
+Pedido de Reels de Leo Pinto enviado; o Pedro pega.
+Pedido de Reels de Leo Pinto enviado; o Leandro pega.
+Mandei Reels de Leo Pinto para a conta Lindson.
+Mandei Reels de Leo Pinto para a Zuleide.
+Mandei Reels de Leo Pinto para o Pedro.
+Mandei Reels de Leo Pinto para o Leandro.
+Pedido de Reels de Real Time enviado; a conta Lindson pega.
+Pedido de Reels de Real Time enviado; a Zuleide pega.
+Pedido de Reels de Real Time enviado; o Pedro pega.
+Pedido de Reels de Real Time enviado; o Leandro pega.
+Mandei Reels de Real Time para a conta Lindson.
+Mandei Reels de Real Time para a Zuleide.
+Mandei Reels de Real Time para o Pedro.
+Mandei Reels de Real Time para o Leandro.
+Pedido de Reels de Orégano Turbo enviado; a conta Lindson pega.
+Pedido de Reels de Orégano Turbo enviado; a Zuleide pega.
+Pedido de Reels de Orégano Turbo enviado; o Pedro pega.
+Pedido de Reels de Orégano Turbo enviado; o Leandro pega.
+Mandei Reels de Orégano Turbo para a conta Lindson.
+Mandei Reels de Orégano Turbo para a Zuleide.
+Mandei Reels de Orégano Turbo para o Pedro.
+Mandei Reels de Orégano Turbo para o Leandro.
+Pedido de Reels de Desentupidora SF enviado; a conta Lindson pega.
+Pedido de Reels de Desentupidora SF enviado; a Zuleide pega.
+Pedido de Reels de Desentupidora SF enviado; o Pedro pega.
+Pedido de Reels de Desentupidora SF enviado; o Leandro pega.
+Mandei Reels de Desentupidora SF para a conta Lindson.
+Mandei Reels de Desentupidora SF para a Zuleide.
+Mandei Reels de Desentupidora SF para o Pedro.
+Mandei Reels de Desentupidora SF para o Leandro.
+Pedido de Reels da sua marca enviado; a conta Lindson pega.
+Pedido de Reels da sua marca enviado; a Zuleide pega.
+Pedido de Reels da sua marca enviado; o Pedro pega.
+Pedido de Reels da sua marca enviado; o Leandro pega.
+Mandei Reels da sua marca para a conta Lindson.
+Mandei Reels da sua marca para a Zuleide.
+Mandei Reels da sua marca para o Pedro.
+Mandei Reels da sua marca para o Leandro.
+Pedido de Reels de outro cliente enviado; a conta Lindson pega.
+Pedido de Reels de outro cliente enviado; a Zuleide pega.
+Pedido de Reels de outro cliente enviado; o Pedro pega.
+Pedido de Reels de outro cliente enviado; o Leandro pega.
+Mandei Reels de outro cliente para a conta Lindson.
+Mandei Reels de outro cliente para a Zuleide.
+Mandei Reels de outro cliente para o Pedro.
+Mandei Reels de outro cliente para o Leandro.
+Pedido de Carrossel de Dra. Jaci enviado; a conta Lindson pega.
+Pedido de Carrossel de Dra. Jaci enviado; a Zuleide pega.
+Pedido de Carrossel de Dra. Jaci enviado; o Pedro pega.
+Pedido de Carrossel de Dra. Jaci enviado; o Leandro pega.
+Mandei Carrossel de Dra. Jaci para a conta Lindson.
+Mandei Carrossel de Dra. Jaci para a Zuleide.
+Mandei Carrossel de Dra. Jaci para o Pedro.
+Mandei Carrossel de Dra. Jaci para o Leandro.
+Pedido de Carrossel de Tribuna 98 enviado; a conta Lindson pega.
+Pedido de Carrossel de Tribuna 98 enviado; a Zuleide pega.
+Pedido de Carrossel de Tribuna 98 enviado; o Pedro pega.
+Pedido de Carrossel de Tribuna 98 enviado; o Leandro pega.
+Mandei Carrossel de Tribuna 98 para a conta Lindson.
+Mandei Carrossel de Tribuna 98 para a Zuleide.
+Mandei Carrossel de Tribuna 98 para o Pedro.
+Mandei Carrossel de Tribuna 98 para o Leandro.
+Pedido de Carrossel de Leo Pinto enviado; a conta Lindson pega.
+Pedido de Carrossel de Leo Pinto enviado; a Zuleide pega.
+Pedido de Carrossel de Leo Pinto enviado; o Pedro pega.
+Pedido de Carrossel de Leo Pinto enviado; o Leandro pega.
+Mandei Carrossel de Leo Pinto para a conta Lindson.
+Mandei Carrossel de Leo Pinto para a Zuleide.
+Mandei Carrossel de Leo Pinto para o Pedro.
+Mandei Carrossel de Leo Pinto para o Leandro.
+Pedido de Carrossel de Real Time enviado; a conta Lindson pega.
+Pedido de Carrossel de Real Time enviado; a Zuleide pega.
+Pedido de Carrossel de Real Time enviado; o Pedro pega.
+Pedido de Carrossel de Real Time enviado; o Leandro pega.
+Mandei Carrossel de Real Time para a conta Lindson.
+Mandei Carrossel de Real Time para a Zuleide.
+Mandei Carrossel de Real Time para o Pedro.
+Mandei Carrossel de Real Time para o Leandro.
+Pedido de Carrossel de Orégano Turbo enviado; a conta Lindson pega.
+Pedido de Carrossel de Orégano Turbo enviado; a Zuleide pega.
+Pedido de Carrossel de Orégano Turbo enviado; o Pedro pega.
+Pedido de Carrossel de Orégano Turbo enviado; o Leandro pega.
+Mandei Carrossel de Orégano Turbo para a conta Lindson.
+Mandei Carrossel de Orégano Turbo para a Zuleide.
+Mandei Carrossel de Orégano Turbo para o Pedro.
+Mandei Carrossel de Orégano Turbo para o Leandro.
+Pedido de Carrossel de Desentupidora SF enviado; a conta Lindson pega.
+Pedido de Carrossel de Desentupidora SF enviado; a Zuleide pega.
+Pedido de Carrossel de Desentupidora SF enviado; o Pedro pega.
+Pedido de Carrossel de Desentupidora SF enviado; o Leandro pega.
+Mandei Carrossel de Desentupidora SF para a conta Lindson.
+Mandei Carrossel de Desentupidora SF para a Zuleide.
+Mandei Carrossel de Desentupidora SF para o Pedro.
+Mandei Carrossel de Desentupidora SF para o Leandro.
+Pedido de Carrossel da sua marca enviado; a conta Lindson pega.
+Pedido de Carrossel da sua marca enviado; a Zuleide pega.
+Pedido de Carrossel da sua marca enviado; o Pedro pega.
+Pedido de Carrossel da sua marca enviado; o Leandro pega.
+Mandei Carrossel da sua marca para a conta Lindson.
+Mandei Carrossel da sua marca para a Zuleide.
+Mandei Carrossel da sua marca para o Pedro.
+Mandei Carrossel da sua marca para o Leandro.
+Pedido de Carrossel de outro cliente enviado; a conta Lindson pega.
+Pedido de Carrossel de outro cliente enviado; a Zuleide pega.
+Pedido de Carrossel de outro cliente enviado; o Pedro pega.
+Pedido de Carrossel de outro cliente enviado; o Leandro pega.
+Mandei Carrossel de outro cliente para a conta Lindson.
+Mandei Carrossel de outro cliente para a Zuleide.
+Mandei Carrossel de outro cliente para o Pedro.
+Mandei Carrossel de outro cliente para o Leandro.
+Pedido de Post de Dra. Jaci enviado; a conta Lindson pega.
+Pedido de Post de Dra. Jaci enviado; a Zuleide pega.
+Pedido de Post de Dra. Jaci enviado; o Pedro pega.
+Pedido de Post de Dra. Jaci enviado; o Leandro pega.
+Mandei Post de Dra. Jaci para a conta Lindson.
+Mandei Post de Dra. Jaci para a Zuleide.
+Mandei Post de Dra. Jaci para o Pedro.
+Mandei Post de Dra. Jaci para o Leandro.
+Pedido de Post de Tribuna 98 enviado; a conta Lindson pega.
+Pedido de Post de Tribuna 98 enviado; a Zuleide pega.
+Pedido de Post de Tribuna 98 enviado; o Pedro pega.
+Pedido de Post de Tribuna 98 enviado; o Leandro pega.
+Mandei Post de Tribuna 98 para a conta Lindson.
+Mandei Post de Tribuna 98 para a Zuleide.
+Mandei Post de Tribuna 98 para o Pedro.
+Mandei Post de Tribuna 98 para o Leandro.
+Pedido de Post de Leo Pinto enviado; a conta Lindson pega.
+Pedido de Post de Leo Pinto enviado; a Zuleide pega.
+Pedido de Post de Leo Pinto enviado; o Pedro pega.
+Pedido de Post de Leo Pinto enviado; o Leandro pega.
+Mandei Post de Leo Pinto para a conta Lindson.
+Mandei Post de Leo Pinto para a Zuleide.
+Mandei Post de Leo Pinto para o Pedro.
+Mandei Post de Leo Pinto para o Leandro.
+Pedido de Post de Real Time enviado; a conta Lindson pega.
+Pedido de Post de Real Time enviado; a Zuleide pega.
+Pedido de Post de Real Time enviado; o Pedro pega.
+Pedido de Post de Real Time enviado; o Leandro pega.
+Mandei Post de Real Time para a conta Lindson.
+Mandei Post de Real Time para a Zuleide.
+Mandei Post de Real Time para o Pedro.
+Mandei Post de Real Time para o Leandro.
+Pedido de Post de Orégano Turbo enviado; a conta Lindson pega.
+Pedido de Post de Orégano Turbo enviado; a Zuleide pega.
+Pedido de Post de Orégano Turbo enviado; o Pedro pega.
+Pedido de Post de Orégano Turbo enviado; o Leandro pega.
+Mandei Post de Orégano Turbo para a conta Lindson.
+Mandei Post de Orégano Turbo para a Zuleide.
+Mandei Post de Orégano Turbo para o Pedro.
+Mandei Post de Orégano Turbo para o Leandro.
+Pedido de Post de Desentupidora SF enviado; a conta Lindson pega.
+Pedido de Post de Desentupidora SF enviado; a Zuleide pega.
+Pedido de Post de Desentupidora SF enviado; o Pedro pega.
+Pedido de Post de Desentupidora SF enviado; o Leandro pega.
+Mandei Post de Desentupidora SF para a conta Lindson.
+Mandei Post de Desentupidora SF para a Zuleide.
+Mandei Post de Desentupidora SF para o Pedro.
+Mandei Post de Desentupidora SF para o Leandro.
+Pedido de Post da sua marca enviado; a conta Lindson pega.
+Pedido de Post da sua marca enviado; a Zuleide pega.
+Pedido de Post da sua marca enviado; o Pedro pega.
+Pedido de Post da sua marca enviado; o Leandro pega.
+Mandei Post da sua marca para a conta Lindson.
+Mandei Post da sua marca para a Zuleide.
+Mandei Post da sua marca para o Pedro.
+Mandei Post da sua marca para o Leandro.
+Pedido de Post de outro cliente enviado; a conta Lindson pega.
+Pedido de Post de outro cliente enviado; a Zuleide pega.
+Pedido de Post de outro cliente enviado; o Pedro pega.
+Pedido de Post de outro cliente enviado; o Leandro pega.
+Mandei Post de outro cliente para a conta Lindson.
+Mandei Post de outro cliente para a Zuleide.
+Mandei Post de outro cliente para o Pedro.
+Mandei Post de outro cliente para o Leandro.
+Pedido de Stories de Dra. Jaci enviado; a conta Lindson pega.
+Pedido de Stories de Dra. Jaci enviado; a Zuleide pega.
+Pedido de Stories de Dra. Jaci enviado; o Pedro pega.
+Pedido de Stories de Dra. Jaci enviado; o Leandro pega.
+Mandei Stories de Dra. Jaci para a conta Lindson.
+Mandei Stories de Dra. Jaci para a Zuleide.
+Mandei Stories de Dra. Jaci para o Pedro.
+Mandei Stories de Dra. Jaci para o Leandro.
+Pedido de Stories de Tribuna 98 enviado; a conta Lindson pega.
+Pedido de Stories de Tribuna 98 enviado; a Zuleide pega.
+Pedido de Stories de Tribuna 98 enviado; o Pedro pega.
+Pedido de Stories de Tribuna 98 enviado; o Leandro pega.
+Mandei Stories de Tribuna 98 para a conta Lindson.
+Mandei Stories de Tribuna 98 para a Zuleide.
+Mandei Stories de Tribuna 98 para o Pedro.
+Mandei Stories de Tribuna 98 para o Leandro.
+Pedido de Stories de Leo Pinto enviado; a conta Lindson pega.
+Pedido de Stories de Leo Pinto enviado; a Zuleide pega.
+Pedido de Stories de Leo Pinto enviado; o Pedro pega.
+Pedido de Stories de Leo Pinto enviado; o Leandro pega.
+Mandei Stories de Leo Pinto para a conta Lindson.
+Mandei Stories de Leo Pinto para a Zuleide.
+Mandei Stories de Leo Pinto para o Pedro.
+Mandei Stories de Leo Pinto para o Leandro.
+Pedido de Stories de Real Time enviado; a conta Lindson pega.
+Pedido de Stories de Real Time enviado; a Zuleide pega.
+Pedido de Stories de Real Time enviado; o Pedro pega.
+Pedido de Stories de Real Time enviado; o Leandro pega.
+Mandei Stories de Real Time para a conta Lindson.
+Mandei Stories de Real Time para a Zuleide.
+Mandei Stories de Real Time para o Pedro.
+Mandei Stories de Real Time para o Leandro.
+Pedido de Stories de Orégano Turbo enviado; a conta Lindson pega.
+Pedido de Stories de Orégano Turbo enviado; a Zuleide pega.
+Pedido de Stories de Orégano Turbo enviado; o Pedro pega.
+Pedido de Stories de Orégano Turbo enviado; o Leandro pega.
+Mandei Stories de Orégano Turbo para a conta Lindson.
+Mandei Stories de Orégano Turbo para a Zuleide.
+Mandei Stories de Orégano Turbo para o Pedro.
+Mandei Stories de Orégano Turbo para o Leandro.
+Pedido de Stories de Desentupidora SF enviado; a conta Lindson pega.
+Pedido de Stories de Desentupidora SF enviado; a Zuleide pega.
+Pedido de Stories de Desentupidora SF enviado; o Pedro pega.
+Pedido de Stories de Desentupidora SF enviado; o Leandro pega.
+Mandei Stories de Desentupidora SF para a conta Lindson.
+Mandei Stories de Desentupidora SF para a Zuleide.
+Mandei Stories de Desentupidora SF para o Pedro.
+Mandei Stories de Desentupidora SF para o Leandro.
+Pedido de Stories da sua marca enviado; a conta Lindson pega.
+Pedido de Stories da sua marca enviado; a Zuleide pega.
+Pedido de Stories da sua marca enviado; o Pedro pega.
+Pedido de Stories da sua marca enviado; o Leandro pega.
+Mandei Stories da sua marca para a conta Lindson.
+Mandei Stories da sua marca para a Zuleide.
+Mandei Stories da sua marca para o Pedro.
+Mandei Stories da sua marca para o Leandro.
+Pedido de Stories de outro cliente enviado; a conta Lindson pega.
+Pedido de Stories de outro cliente enviado; a Zuleide pega.
+Pedido de Stories de outro cliente enviado; o Pedro pega.
+Pedido de Stories de outro cliente enviado; o Leandro pega.
+Mandei Stories de outro cliente para a conta Lindson.
+Mandei Stories de outro cliente para a Zuleide.
+Mandei Stories de outro cliente para o Pedro.
+Mandei Stories de outro cliente para o Leandro.
+Pedido de Legenda SEO de Dra. Jaci enviado; a conta Lindson pega.
+Pedido de Legenda SEO de Dra. Jaci enviado; a Zuleide pega.
+Pedido de Legenda SEO de Dra. Jaci enviado; o Pedro pega.
+Pedido de Legenda SEO de Dra. Jaci enviado; o Leandro pega.
+Mandei Legenda SEO de Dra. Jaci para a conta Lindson.
+Mandei Legenda SEO de Dra. Jaci para a Zuleide.
+Mandei Legenda SEO de Dra. Jaci para o Pedro.
+Mandei Legenda SEO de Dra. Jaci para o Leandro.
+Pedido de Legenda SEO de Tribuna 98 enviado; a conta Lindson pega.
+Pedido de Legenda SEO de Tribuna 98 enviado; a Zuleide pega.
+Pedido de Legenda SEO de Tribuna 98 enviado; o Pedro pega.
+Pedido de Legenda SEO de Tribuna 98 enviado; o Leandro pega.
+Mandei Legenda SEO de Tribuna 98 para a conta Lindson.
+Mandei Legenda SEO de Tribuna 98 para a Zuleide.
+Mandei Legenda SEO de Tribuna 98 para o Pedro.
+Mandei Legenda SEO de Tribuna 98 para o Leandro.
+Pedido de Legenda SEO de Leo Pinto enviado; a conta Lindson pega.
+Pedido de Legenda SEO de Leo Pinto enviado; a Zuleide pega.
+Pedido de Legenda SEO de Leo Pinto enviado; o Pedro pega.
+Pedido de Legenda SEO de Leo Pinto enviado; o Leandro pega.
+Mandei Legenda SEO de Leo Pinto para a conta Lindson.
+Mandei Legenda SEO de Leo Pinto para a Zuleide.
+Mandei Legenda SEO de Leo Pinto para o Pedro.
+Mandei Legenda SEO de Leo Pinto para o Leandro.
+Pedido de Legenda SEO de Real Time enviado; a conta Lindson pega.
+Pedido de Legenda SEO de Real Time enviado; a Zuleide pega.
+Pedido de Legenda SEO de Real Time enviado; o Pedro pega.
+Pedido de Legenda SEO de Real Time enviado; o Leandro pega.
+Mandei Legenda SEO de Real Time para a conta Lindson.
+Mandei Legenda SEO de Real Time para a Zuleide.
+Mandei Legenda SEO de Real Time para o Pedro.
+Mandei Legenda SEO de Real Time para o Leandro.
+Pedido de Legenda SEO de Orégano Turbo enviado; a conta Lindson pega.
+Pedido de Legenda SEO de Orégano Turbo enviado; a Zuleide pega.
+Pedido de Legenda SEO de Orégano Turbo enviado; o Pedro pega.
+Pedido de Legenda SEO de Orégano Turbo enviado; o Leandro pega.
+Mandei Legenda SEO de Orégano Turbo para a conta Lindson.
+Mandei Legenda SEO de Orégano Turbo para a Zuleide.
+Mandei Legenda SEO de Orégano Turbo para o Pedro.
+Mandei Legenda SEO de Orégano Turbo para o Leandro.
+Pedido de Legenda SEO de Desentupidora SF enviado; a conta Lindson pega.
+Pedido de Legenda SEO de Desentupidora SF enviado; a Zuleide pega.
+Pedido de Legenda SEO de Desentupidora SF enviado; o Pedro pega.
+Pedido de Legenda SEO de Desentupidora SF enviado; o Leandro pega.
+Mandei Legenda SEO de Desentupidora SF para a conta Lindson.
+Mandei Legenda SEO de Desentupidora SF para a Zuleide.
+Mandei Legenda SEO de Desentupidora SF para o Pedro.
+Mandei Legenda SEO de Desentupidora SF para o Leandro.
+Pedido de Legenda SEO da sua marca enviado; a conta Lindson pega.
+Pedido de Legenda SEO da sua marca enviado; a Zuleide pega.
+Pedido de Legenda SEO da sua marca enviado; o Pedro pega.
+Pedido de Legenda SEO da sua marca enviado; o Leandro pega.
+Mandei Legenda SEO da sua marca para a conta Lindson.
+Mandei Legenda SEO da sua marca para a Zuleide.
+Mandei Legenda SEO da sua marca para o Pedro.
+Mandei Legenda SEO da sua marca para o Leandro.
+Pedido de Legenda SEO de outro cliente enviado; a conta Lindson pega.
+Pedido de Legenda SEO de outro cliente enviado; a Zuleide pega.
+Pedido de Legenda SEO de outro cliente enviado; o Pedro pega.
+Pedido de Legenda SEO de outro cliente enviado; o Leandro pega.
+Mandei Legenda SEO de outro cliente para a conta Lindson.
+Mandei Legenda SEO de outro cliente para a Zuleide.
+Mandei Legenda SEO de outro cliente para o Pedro.
+Mandei Legenda SEO de outro cliente para o Leandro.
+Pedido de Arte de data de Dra. Jaci enviado; a conta Lindson pega.
+Pedido de Arte de data de Dra. Jaci enviado; a Zuleide pega.
+Pedido de Arte de data de Dra. Jaci enviado; o Pedro pega.
+Pedido de Arte de data de Dra. Jaci enviado; o Leandro pega.
+Mandei Arte de data de Dra. Jaci para a conta Lindson.
+Mandei Arte de data de Dra. Jaci para a Zuleide.
+Mandei Arte de data de Dra. Jaci para o Pedro.
+Mandei Arte de data de Dra. Jaci para o Leandro.
+Pedido de Arte de data de Tribuna 98 enviado; a conta Lindson pega.
+Pedido de Arte de data de Tribuna 98 enviado; a Zuleide pega.
+Pedido de Arte de data de Tribuna 98 enviado; o Pedro pega.
+Pedido de Arte de data de Tribuna 98 enviado; o Leandro pega.
+Mandei Arte de data de Tribuna 98 para a conta Lindson.
+Mandei Arte de data de Tribuna 98 para a Zuleide.
+Mandei Arte de data de Tribuna 98 para o Pedro.
+Mandei Arte de data de Tribuna 98 para o Leandro.
+Pedido de Arte de data de Leo Pinto enviado; a conta Lindson pega.
+Pedido de Arte de data de Leo Pinto enviado; a Zuleide pega.
+Pedido de Arte de data de Leo Pinto enviado; o Pedro pega.
+Pedido de Arte de data de Leo Pinto enviado; o Leandro pega.
+Mandei Arte de data de Leo Pinto para a conta Lindson.
+Mandei Arte de data de Leo Pinto para a Zuleide.
+Mandei Arte de data de Leo Pinto para o Pedro.
+Mandei Arte de data de Leo Pinto para o Leandro.
+Pedido de Arte de data de Real Time enviado; a conta Lindson pega.
+Pedido de Arte de data de Real Time enviado; a Zuleide pega.
+Pedido de Arte de data de Real Time enviado; o Pedro pega.
+Pedido de Arte de data de Real Time enviado; o Leandro pega.
+Mandei Arte de data de Real Time para a conta Lindson.
+Mandei Arte de data de Real Time para a Zuleide.
+Mandei Arte de data de Real Time para o Pedro.
+Mandei Arte de data de Real Time para o Leandro.
+Pedido de Arte de data de Orégano Turbo enviado; a conta Lindson pega.
+Pedido de Arte de data de Orégano Turbo enviado; a Zuleide pega.
+Pedido de Arte de data de Orégano Turbo enviado; o Pedro pega.
+Pedido de Arte de data de Orégano Turbo enviado; o Leandro pega.
+Mandei Arte de data de Orégano Turbo para a conta Lindson.
+Mandei Arte de data de Orégano Turbo para a Zuleide.
+Mandei Arte de data de Orégano Turbo para o Pedro.
+Mandei Arte de data de Orégano Turbo para o Leandro.
+Pedido de Arte de data de Desentupidora SF enviado; a conta Lindson pega.
+Pedido de Arte de data de Desentupidora SF enviado; a Zuleide pega.
+Pedido de Arte de data de Desentupidora SF enviado; o Pedro pega.
+Pedido de Arte de data de Desentupidora SF enviado; o Leandro pega.
+Mandei Arte de data de Desentupidora SF para a conta Lindson.
+Mandei Arte de data de Desentupidora SF para a Zuleide.
+Mandei Arte de data de Desentupidora SF para o Pedro.
+Mandei Arte de data de Desentupidora SF para o Leandro.
+Pedido de Arte de data da sua marca enviado; a conta Lindson pega.
+Pedido de Arte de data da sua marca enviado; a Zuleide pega.
+Pedido de Arte de data da sua marca enviado; o Pedro pega.
+Pedido de Arte de data da sua marca enviado; o Leandro pega.
+Mandei Arte de data da sua marca para a conta Lindson.
+Mandei Arte de data da sua marca para a Zuleide.
+Mandei Arte de data da sua marca para o Pedro.
+Mandei Arte de data da sua marca para o Leandro.
+Pedido de Arte de data de outro cliente enviado; a conta Lindson pega.
+Pedido de Arte de data de outro cliente enviado; a Zuleide pega.
+Pedido de Arte de data de outro cliente enviado; o Pedro pega.
+Pedido de Arte de data de outro cliente enviado; o Leandro pega.
+Mandei Arte de data de outro cliente para a conta Lindson.
+Mandei Arte de data de outro cliente para a Zuleide.
+Mandei Arte de data de outro cliente para o Pedro.
+Mandei Arte de data de outro cliente para o Leandro.
+Pedido de Site / mini site de Dra. Jaci enviado; a conta Lindson pega.
+Pedido de Site / mini site de Dra. Jaci enviado; a Zuleide pega.
+Pedido de Site / mini site de Dra. Jaci enviado; o Pedro pega.
+Pedido de Site / mini site de Dra. Jaci enviado; o Leandro pega.
+Mandei Site / mini site de Dra. Jaci para a conta Lindson.
+Mandei Site / mini site de Dra. Jaci para a Zuleide.
+Mandei Site / mini site de Dra. Jaci para o Pedro.
+Mandei Site / mini site de Dra. Jaci para o Leandro.
+Pedido de Site / mini site de Tribuna 98 enviado; a conta Lindson pega.
+Pedido de Site / mini site de Tribuna 98 enviado; a Zuleide pega.
+Pedido de Site / mini site de Tribuna 98 enviado; o Pedro pega.
+Pedido de Site / mini site de Tribuna 98 enviado; o Leandro pega.
+Mandei Site / mini site de Tribuna 98 para a conta Lindson.
+Mandei Site / mini site de Tribuna 98 para a Zuleide.
+Mandei Site / mini site de Tribuna 98 para o Pedro.
+Mandei Site / mini site de Tribuna 98 para o Leandro.
+Pedido de Site / mini site de Leo Pinto enviado; a conta Lindson pega.
+Pedido de Site / mini site de Leo Pinto enviado; a Zuleide pega.
+Pedido de Site / mini site de Leo Pinto enviado; o Pedro pega.
+Pedido de Site / mini site de Leo Pinto enviado; o Leandro pega.
+Mandei Site / mini site de Leo Pinto para a conta Lindson.
+Mandei Site / mini site de Leo Pinto para a Zuleide.
+Mandei Site / mini site de Leo Pinto para o Pedro.
+Mandei Site / mini site de Leo Pinto para o Leandro.
+Pedido de Site / mini site de Real Time enviado; a conta Lindson pega.
+Pedido de Site / mini site de Real Time enviado; a Zuleide pega.
+Pedido de Site / mini site de Real Time enviado; o Pedro pega.
+Pedido de Site / mini site de Real Time enviado; o Leandro pega.
+Mandei Site / mini site de Real Time para a conta Lindson.
+Mandei Site / mini site de Real Time para a Zuleide.
+Mandei Site / mini site de Real Time para o Pedro.
+Mandei Site / mini site de Real Time para o Leandro.
+Pedido de Site / mini site de Orégano Turbo enviado; a conta Lindson pega.
+Pedido de Site / mini site de Orégano Turbo enviado; a Zuleide pega.
+Pedido de Site / mini site de Orégano Turbo enviado; o Pedro pega.
+Pedido de Site / mini site de Orégano Turbo enviado; o Leandro pega.
+Mandei Site / mini site de Orégano Turbo para a conta Lindson.
+Mandei Site / mini site de Orégano Turbo para a Zuleide.
+Mandei Site / mini site de Orégano Turbo para o Pedro.
+Mandei Site / mini site de Orégano Turbo para o Leandro.
+Pedido de Site / mini site de Desentupidora SF enviado; a conta Lindson pega.
+Pedido de Site / mini site de Desentupidora SF enviado; a Zuleide pega.
+Pedido de Site / mini site de Desentupidora SF enviado; o Pedro pega.
+Pedido de Site / mini site de Desentupidora SF enviado; o Leandro pega.
+Mandei Site / mini site de Desentupidora SF para a conta Lindson.
+Mandei Site / mini site de Desentupidora SF para a Zuleide.
+Mandei Site / mini site de Desentupidora SF para o Pedro.
+Mandei Site / mini site de Desentupidora SF para o Leandro.
+Pedido de Site / mini site da sua marca enviado; a conta Lindson pega.
+Pedido de Site / mini site da sua marca enviado; a Zuleide pega.
+Pedido de Site / mini site da sua marca enviado; o Pedro pega.
+Pedido de Site / mini site da sua marca enviado; o Leandro pega.
+Mandei Site / mini site da sua marca para a conta Lindson.
+Mandei Site / mini site da sua marca para a Zuleide.
+Mandei Site / mini site da sua marca para o Pedro.
+Mandei Site / mini site da sua marca para o Leandro.
+Pedido de Site / mini site de outro cliente enviado; a conta Lindson pega.
+Pedido de Site / mini site de outro cliente enviado; a Zuleide pega.
+Pedido de Site / mini site de outro cliente enviado; o Pedro pega.
+Pedido de Site / mini site de outro cliente enviado; o Leandro pega.
+Mandei Site / mini site de outro cliente para a conta Lindson.
+Mandei Site / mini site de outro cliente para a Zuleide.
+Mandei Site / mini site de outro cliente para o Pedro.
+Mandei Site / mini site de outro cliente para o Leandro.
+Pedido de Landing de Dra. Jaci enviado; a conta Lindson pega.
+Pedido de Landing de Dra. Jaci enviado; a Zuleide pega.
+Pedido de Landing de Dra. Jaci enviado; o Pedro pega.
+Pedido de Landing de Dra. Jaci enviado; o Leandro pega.
+Mandei Landing de Dra. Jaci para a conta Lindson.
+Mandei Landing de Dra. Jaci para a Zuleide.
+Mandei Landing de Dra. Jaci para o Pedro.
+Mandei Landing de Dra. Jaci para o Leandro.
+Pedido de Landing de Tribuna 98 enviado; a conta Lindson pega.
+Pedido de Landing de Tribuna 98 enviado; a Zuleide pega.
+Pedido de Landing de Tribuna 98 enviado; o Pedro pega.
+Pedido de Landing de Tribuna 98 enviado; o Leandro pega.
+Mandei Landing de Tribuna 98 para a conta Lindson.
+Mandei Landing de Tribuna 98 para a Zuleide.
+Mandei Landing de Tribuna 98 para o Pedro.
+Mandei Landing de Tribuna 98 para o Leandro.
+Pedido de Landing de Leo Pinto enviado; a conta Lindson pega.
+Pedido de Landing de Leo Pinto enviado; a Zuleide pega.
+Pedido de Landing de Leo Pinto enviado; o Pedro pega.
+Pedido de Landing de Leo Pinto enviado; o Leandro pega.
+Mandei Landing de Leo Pinto para a conta Lindson.
+Mandei Landing de Leo Pinto para a Zuleide.
+Mandei Landing de Leo Pinto para o Pedro.
+Mandei Landing de Leo Pinto para o Leandro.
+Pedido de Landing de Real Time enviado; a conta Lindson pega.
+Pedido de Landing de Real Time enviado; a Zuleide pega.
+Pedido de Landing de Real Time enviado; o Pedro pega.
+Pedido de Landing de Real Time enviado; o Leandro pega.
+Mandei Landing de Real Time para a conta Lindson.
+Mandei Landing de Real Time para a Zuleide.
+Mandei Landing de Real Time para o Pedro.
+Mandei Landing de Real Time para o Leandro.
+Pedido de Landing de Orégano Turbo enviado; a conta Lindson pega.
+Pedido de Landing de Orégano Turbo enviado; a Zuleide pega.
+Pedido de Landing de Orégano Turbo enviado; o Pedro pega.
+Pedido de Landing de Orégano Turbo enviado; o Leandro pega.
+Mandei Landing de Orégano Turbo para a conta Lindson.
+Mandei Landing de Orégano Turbo para a Zuleide.
+Mandei Landing de Orégano Turbo para o Pedro.
+Mandei Landing de Orégano Turbo para o Leandro.
+Pedido de Landing de Desentupidora SF enviado; a conta Lindson pega.
+Pedido de Landing de Desentupidora SF enviado; a Zuleide pega.
+Pedido de Landing de Desentupidora SF enviado; o Pedro pega.
+Pedido de Landing de Desentupidora SF enviado; o Leandro pega.
+Mandei Landing de Desentupidora SF para a conta Lindson.
+Mandei Landing de Desentupidora SF para a Zuleide.
+Mandei Landing de Desentupidora SF para o Pedro.
+Mandei Landing de Desentupidora SF para o Leandro.
+Pedido de Landing da sua marca enviado; a conta Lindson pega.
+Pedido de Landing da sua marca enviado; a Zuleide pega.
+Pedido de Landing da sua marca enviado; o Pedro pega.
+Pedido de Landing da sua marca enviado; o Leandro pega.
+Mandei Landing da sua marca para a conta Lindson.
+Mandei Landing da sua marca para a Zuleide.
+Mandei Landing da sua marca para o Pedro.
+Mandei Landing da sua marca para o Leandro.
+Pedido de Landing de outro cliente enviado; a conta Lindson pega.
+Pedido de Landing de outro cliente enviado; a Zuleide pega.
+Pedido de Landing de outro cliente enviado; o Pedro pega.
+Pedido de Landing de outro cliente enviado; o Leandro pega.
+Mandei Landing de outro cliente para a conta Lindson.
+Mandei Landing de outro cliente para a Zuleide.
+Mandei Landing de outro cliente para o Pedro.
+Mandei Landing de outro cliente para o Leandro.
+Pedido de Painel do cliente de Dra. Jaci enviado; a conta Lindson pega.
+Pedido de Painel do cliente de Dra. Jaci enviado; a Zuleide pega.
+Pedido de Painel do cliente de Dra. Jaci enviado; o Pedro pega.
+Pedido de Painel do cliente de Dra. Jaci enviado; o Leandro pega.
+Mandei Painel do cliente de Dra. Jaci para a conta Lindson.
+Mandei Painel do cliente de Dra. Jaci para a Zuleide.
+Mandei Painel do cliente de Dra. Jaci para o Pedro.
+Mandei Painel do cliente de Dra. Jaci para o Leandro.
+Pedido de Painel do cliente de Tribuna 98 enviado; a conta Lindson pega.
+Pedido de Painel do cliente de Tribuna 98 enviado; a Zuleide pega.
+Pedido de Painel do cliente de Tribuna 98 enviado; o Pedro pega.
+Pedido de Painel do cliente de Tribuna 98 enviado; o Leandro pega.
+Mandei Painel do cliente de Tribuna 98 para a conta Lindson.
+Mandei Painel do cliente de Tribuna 98 para a Zuleide.
+Mandei Painel do cliente de Tribuna 98 para o Pedro.
+Mandei Painel do cliente de Tribuna 98 para o Leandro.
+Pedido de Painel do cliente de Leo Pinto enviado; a conta Lindson pega.
+Pedido de Painel do cliente de Leo Pinto enviado; a Zuleide pega.
+Pedido de Painel do cliente de Leo Pinto enviado; o Pedro pega.
+Pedido de Painel do cliente de Leo Pinto enviado; o Leandro pega.
+Mandei Painel do cliente de Leo Pinto para a conta Lindson.
+Mandei Painel do cliente de Leo Pinto para a Zuleide.
+Mandei Painel do cliente de Leo Pinto para o Pedro.
+Mandei Painel do cliente de Leo Pinto para o Leandro.
+Pedido de Painel do cliente de Real Time enviado; a conta Lindson pega.
+Pedido de Painel do cliente de Real Time enviado; a Zuleide pega.
+Pedido de Painel do cliente de Real Time enviado; o Pedro pega.
+Pedido de Painel do cliente de Real Time enviado; o Leandro pega.
+Mandei Painel do cliente de Real Time para a conta Lindson.
+Mandei Painel do cliente de Real Time para a Zuleide.
+Mandei Painel do cliente de Real Time para o Pedro.
+Mandei Painel do cliente de Real Time para o Leandro.
+Pedido de Painel do cliente de Orégano Turbo enviado; a conta Lindson pega.
+Pedido de Painel do cliente de Orégano Turbo enviado; a Zuleide pega.
+Pedido de Painel do cliente de Orégano Turbo enviado; o Pedro pega.
+Pedido de Painel do cliente de Orégano Turbo enviado; o Leandro pega.
+Mandei Painel do cliente de Orégano Turbo para a conta Lindson.
+Mandei Painel do cliente de Orégano Turbo para a Zuleide.
+Mandei Painel do cliente de Orégano Turbo para o Pedro.
+Mandei Painel do cliente de Orégano Turbo para o Leandro.
+Pedido de Painel do cliente de Desentupidora SF enviado; a conta Lindson pega.
+Pedido de Painel do cliente de Desentupidora SF enviado; a Zuleide pega.
+Pedido de Painel do cliente de Desentupidora SF enviado; o Pedro pega.
+Pedido de Painel do cliente de Desentupidora SF enviado; o Leandro pega.
+Mandei Painel do cliente de Desentupidora SF para a conta Lindson.
+Mandei Painel do cliente de Desentupidora SF para a Zuleide.
+Mandei Painel do cliente de Desentupidora SF para o Pedro.
+Mandei Painel do cliente de Desentupidora SF para o Leandro.
+Pedido de Painel do cliente da sua marca enviado; a conta Lindson pega.
+Pedido de Painel do cliente da sua marca enviado; a Zuleide pega.
+Pedido de Painel do cliente da sua marca enviado; o Pedro pega.
+Pedido de Painel do cliente da sua marca enviado; o Leandro pega.
+Mandei Painel do cliente da sua marca para a conta Lindson.
+Mandei Painel do cliente da sua marca para a Zuleide.
+Mandei Painel do cliente da sua marca para o Pedro.
+Mandei Painel do cliente da sua marca para o Leandro.
+Pedido de Painel do cliente de outro cliente enviado; a conta Lindson pega.
+Pedido de Painel do cliente de outro cliente enviado; a Zuleide pega.
+Pedido de Painel do cliente de outro cliente enviado; o Pedro pega.
+Pedido de Painel do cliente de outro cliente enviado; o Leandro pega.
+Mandei Painel do cliente de outro cliente para a conta Lindson.
+Mandei Painel do cliente de outro cliente para a Zuleide.
+Mandei Painel do cliente de outro cliente para o Pedro.
+Mandei Painel do cliente de outro cliente para o Leandro.
+Pedido de Estratégia PDF de Dra. Jaci enviado; a conta Lindson pega.
+Pedido de Estratégia PDF de Dra. Jaci enviado; a Zuleide pega.
+Pedido de Estratégia PDF de Dra. Jaci enviado; o Pedro pega.
+Pedido de Estratégia PDF de Dra. Jaci enviado; o Leandro pega.
+Mandei Estratégia PDF de Dra. Jaci para a conta Lindson.
+Mandei Estratégia PDF de Dra. Jaci para a Zuleide.
+Mandei Estratégia PDF de Dra. Jaci para o Pedro.
+Mandei Estratégia PDF de Dra. Jaci para o Leandro.
+Pedido de Estratégia PDF de Tribuna 98 enviado; a conta Lindson pega.
+Pedido de Estratégia PDF de Tribuna 98 enviado; a Zuleide pega.
+Pedido de Estratégia PDF de Tribuna 98 enviado; o Pedro pega.
+Pedido de Estratégia PDF de Tribuna 98 enviado; o Leandro pega.
+Mandei Estratégia PDF de Tribuna 98 para a conta Lindson.
+Mandei Estratégia PDF de Tribuna 98 para a Zuleide.
+Mandei Estratégia PDF de Tribuna 98 para o Pedro.
+Mandei Estratégia PDF de Tribuna 98 para o Leandro.
+Pedido de Estratégia PDF de Leo Pinto enviado; a conta Lindson pega.
+Pedido de Estratégia PDF de Leo Pinto enviado; a Zuleide pega.
+Pedido de Estratégia PDF de Leo Pinto enviado; o Pedro pega.
+Pedido de Estratégia PDF de Leo Pinto enviado; o Leandro pega.
+Mandei Estratégia PDF de Leo Pinto para a conta Lindson.
+Mandei Estratégia PDF de Leo Pinto para a Zuleide.
+Mandei Estratégia PDF de Leo Pinto para o Pedro.
+Mandei Estratégia PDF de Leo Pinto para o Leandro.
+Pedido de Estratégia PDF de Real Time enviado; a conta Lindson pega.
+Pedido de Estratégia PDF de Real Time enviado; a Zuleide pega.
+Pedido de Estratégia PDF de Real Time enviado; o Pedro pega.
+Pedido de Estratégia PDF de Real Time enviado; o Leandro pega.
+Mandei Estratégia PDF de Real Time para a conta Lindson.
+Mandei Estratégia PDF de Real Time para a Zuleide.
+Mandei Estratégia PDF de Real Time para o Pedro.
+Mandei Estratégia PDF de Real Time para o Leandro.
+Pedido de Estratégia PDF de Orégano Turbo enviado; a conta Lindson pega.
+Pedido de Estratégia PDF de Orégano Turbo enviado; a Zuleide pega.
+Pedido de Estratégia PDF de Orégano Turbo enviado; o Pedro pega.
+Pedido de Estratégia PDF de Orégano Turbo enviado; o Leandro pega.
+Mandei Estratégia PDF de Orégano Turbo para a conta Lindson.
+Mandei Estratégia PDF de Orégano Turbo para a Zuleide.
+Mandei Estratégia PDF de Orégano Turbo para o Pedro.
+Mandei Estratégia PDF de Orégano Turbo para o Leandro.
+Pedido de Estratégia PDF de Desentupidora SF enviado; a conta Lindson pega.
+Pedido de Estratégia PDF de Desentupidora SF enviado; a Zuleide pega.
+Pedido de Estratégia PDF de Desentupidora SF enviado; o Pedro pega.
+Pedido de Estratégia PDF de Desentupidora SF enviado; o Leandro pega.
+Mandei Estratégia PDF de Desentupidora SF para a conta Lindson.
+Mandei Estratégia PDF de Desentupidora SF para a Zuleide.
+Mandei Estratégia PDF de Desentupidora SF para o Pedro.
+Mandei Estratégia PDF de Desentupidora SF para o Leandro.
+Pedido de Estratégia PDF da sua marca enviado; a conta Lindson pega.
+Pedido de Estratégia PDF da sua marca enviado; a Zuleide pega.
+Pedido de Estratégia PDF da sua marca enviado; o Pedro pega.
+Pedido de Estratégia PDF da sua marca enviado; o Leandro pega.
+Mandei Estratégia PDF da sua marca para a conta Lindson.
+Mandei Estratégia PDF da sua marca para a Zuleide.
+Mandei Estratégia PDF da sua marca para o Pedro.
+Mandei Estratégia PDF da sua marca para o Leandro.
+Pedido de Estratégia PDF de outro cliente enviado; a conta Lindson pega.
+Pedido de Estratégia PDF de outro cliente enviado; a Zuleide pega.
+Pedido de Estratégia PDF de outro cliente enviado; o Pedro pega.
+Pedido de Estratégia PDF de outro cliente enviado; o Leandro pega.
+Mandei Estratégia PDF de outro cliente para a conta Lindson.
+Mandei Estratégia PDF de outro cliente para a Zuleide.
+Mandei Estratégia PDF de outro cliente para o Pedro.
+Mandei Estratégia PDF de outro cliente para o Leandro.
+Pedido de Proposta de Dra. Jaci enviado; a conta Lindson pega.
+Pedido de Proposta de Dra. Jaci enviado; a Zuleide pega.
+Pedido de Proposta de Dra. Jaci enviado; o Pedro pega.
+Pedido de Proposta de Dra. Jaci enviado; o Leandro pega.
+Mandei Proposta de Dra. Jaci para a conta Lindson.
+Mandei Proposta de Dra. Jaci para a Zuleide.
+Mandei Proposta de Dra. Jaci para o Pedro.
+Mandei Proposta de Dra. Jaci para o Leandro.
+Pedido de Proposta de Tribuna 98 enviado; a conta Lindson pega.
+Pedido de Proposta de Tribuna 98 enviado; a Zuleide pega.
+Pedido de Proposta de Tribuna 98 enviado; o Pedro pega.
+Pedido de Proposta de Tribuna 98 enviado; o Leandro pega.
+Mandei Proposta de Tribuna 98 para a conta Lindson.
+Mandei Proposta de Tribuna 98 para a Zuleide.
+Mandei Proposta de Tribuna 98 para o Pedro.
+Mandei Proposta de Tribuna 98 para o Leandro.
+Pedido de Proposta de Leo Pinto enviado; a conta Lindson pega.
+Pedido de Proposta de Leo Pinto enviado; a Zuleide pega.
+Pedido de Proposta de Leo Pinto enviado; o Pedro pega.
+Pedido de Proposta de Leo Pinto enviado; o Leandro pega.
+Mandei Proposta de Leo Pinto para a conta Lindson.
+Mandei Proposta de Leo Pinto para a Zuleide.
+Mandei Proposta de Leo Pinto para o Pedro.
+Mandei Proposta de Leo Pinto para o Leandro.
+Pedido de Proposta de Real Time enviado; a conta Lindson pega.
+Pedido de Proposta de Real Time enviado; a Zuleide pega.
+Pedido de Proposta de Real Time enviado; o Pedro pega.
+Pedido de Proposta de Real Time enviado; o Leandro pega.
+Mandei Proposta de Real Time para a conta Lindson.
+Mandei Proposta de Real Time para a Zuleide.
+Mandei Proposta de Real Time para o Pedro.
+Mandei Proposta de Real Time para o Leandro.
+Pedido de Proposta de Orégano Turbo enviado; a conta Lindson pega.
+Pedido de Proposta de Orégano Turbo enviado; a Zuleide pega.
+Pedido de Proposta de Orégano Turbo enviado; o Pedro pega.
+Pedido de Proposta de Orégano Turbo enviado; o Leandro pega.
+Mandei Proposta de Orégano Turbo para a conta Lindson.
+Mandei Proposta de Orégano Turbo para a Zuleide.
+Mandei Proposta de Orégano Turbo para o Pedro.
+Mandei Proposta de Orégano Turbo para o Leandro.
+Pedido de Proposta de Desentupidora SF enviado; a conta Lindson pega.
+Pedido de Proposta de Desentupidora SF enviado; a Zuleide pega.
+Pedido de Proposta de Desentupidora SF enviado; o Pedro pega.
+Pedido de Proposta de Desentupidora SF enviado; o Leandro pega.
+Mandei Proposta de Desentupidora SF para a conta Lindson.
+Mandei Proposta de Desentupidora SF para a Zuleide.
+Mandei Proposta de Desentupidora SF para o Pedro.
+Mandei Proposta de Desentupidora SF para o Leandro.
+Pedido de Proposta da sua marca enviado; a conta Lindson pega.
+Pedido de Proposta da sua marca enviado; a Zuleide pega.
+Pedido de Proposta da sua marca enviado; o Pedro pega.
+Pedido de Proposta da sua marca enviado; o Leandro pega.
+Mandei Proposta da sua marca para a conta Lindson.
+Mandei Proposta da sua marca para a Zuleide.
+Mandei Proposta da sua marca para o Pedro.
+Mandei Proposta da sua marca para o Leandro.
+Pedido de Proposta de outro cliente enviado; a conta Lindson pega.
+Pedido de Proposta de outro cliente enviado; a Zuleide pega.
+Pedido de Proposta de outro cliente enviado; o Pedro pega.
+Pedido de Proposta de outro cliente enviado; o Leandro pega.
+Mandei Proposta de outro cliente para a conta Lindson.
+Mandei Proposta de outro cliente para a Zuleide.
+Mandei Proposta de outro cliente para o Pedro.
+Mandei Proposta de outro cliente para o Leandro.
+Pedido de Contrato de Dra. Jaci enviado; a conta Lindson pega.
+Pedido de Contrato de Dra. Jaci enviado; a Zuleide pega.
+Pedido de Contrato de Dra. Jaci enviado; o Pedro pega.
+Pedido de Contrato de Dra. Jaci enviado; o Leandro pega.
+Mandei Contrato de Dra. Jaci para a conta Lindson.
+Mandei Contrato de Dra. Jaci para a Zuleide.
+Mandei Contrato de Dra. Jaci para o Pedro.
+Mandei Contrato de Dra. Jaci para o Leandro.
+Pedido de Contrato de Tribuna 98 enviado; a conta Lindson pega.
+Pedido de Contrato de Tribuna 98 enviado; a Zuleide pega.
+Pedido de Contrato de Tribuna 98 enviado; o Pedro pega.
+Pedido de Contrato de Tribuna 98 enviado; o Leandro pega.
+Mandei Contrato de Tribuna 98 para a conta Lindson.
+Mandei Contrato de Tribuna 98 para a Zuleide.
+Mandei Contrato de Tribuna 98 para o Pedro.
+Mandei Contrato de Tribuna 98 para o Leandro.
+Pedido de Contrato de Leo Pinto enviado; a conta Lindson pega.
+Pedido de Contrato de Leo Pinto enviado; a Zuleide pega.
+Pedido de Contrato de Leo Pinto enviado; o Pedro pega.
+Pedido de Contrato de Leo Pinto enviado; o Leandro pega.
+Mandei Contrato de Leo Pinto para a conta Lindson.
+Mandei Contrato de Leo Pinto para a Zuleide.
+Mandei Contrato de Leo Pinto para o Pedro.
+Mandei Contrato de Leo Pinto para o Leandro.
+Pedido de Contrato de Real Time enviado; a conta Lindson pega.
+Pedido de Contrato de Real Time enviado; a Zuleide pega.
+Pedido de Contrato de Real Time enviado; o Pedro pega.
+Pedido de Contrato de Real Time enviado; o Leandro pega.
+Mandei Contrato de Real Time para a conta Lindson.
+Mandei Contrato de Real Time para a Zuleide.
+Mandei Contrato de Real Time para o Pedro.
+Mandei Contrato de Real Time para o Leandro.
+Pedido de Contrato de Orégano Turbo enviado; a conta Lindson pega.
+Pedido de Contrato de Orégano Turbo enviado; a Zuleide pega.
+Pedido de Contrato de Orégano Turbo enviado; o Pedro pega.
+Pedido de Contrato de Orégano Turbo enviado; o Leandro pega.
+Mandei Contrato de Orégano Turbo para a conta Lindson.
+Mandei Contrato de Orégano Turbo para a Zuleide.
+Mandei Contrato de Orégano Turbo para o Pedro.
+Mandei Contrato de Orégano Turbo para o Leandro.
+Pedido de Contrato de Desentupidora SF enviado; a conta Lindson pega.
+Pedido de Contrato de Desentupidora SF enviado; a Zuleide pega.
+Pedido de Contrato de Desentupidora SF enviado; o Pedro pega.
+Pedido de Contrato de Desentupidora SF enviado; o Leandro pega.
+Mandei Contrato de Desentupidora SF para a conta Lindson.
+Mandei Contrato de Desentupidora SF para a Zuleide.
+Mandei Contrato de Desentupidora SF para o Pedro.
+Mandei Contrato de Desentupidora SF para o Leandro.
+Pedido de Contrato da sua marca enviado; a conta Lindson pega.
+Pedido de Contrato da sua marca enviado; a Zuleide pega.
+Pedido de Contrato da sua marca enviado; o Pedro pega.
+Pedido de Contrato da sua marca enviado; o Leandro pega.
+Mandei Contrato da sua marca para a conta Lindson.
+Mandei Contrato da sua marca para a Zuleide.
+Mandei Contrato da sua marca para o Pedro.
+Mandei Contrato da sua marca para o Leandro.
+Pedido de Contrato de outro cliente enviado; a conta Lindson pega.
+Pedido de Contrato de outro cliente enviado; a Zuleide pega.
+Pedido de Contrato de outro cliente enviado; o Pedro pega.
+Pedido de Contrato de outro cliente enviado; o Leandro pega.
+Mandei Contrato de outro cliente para a conta Lindson.
+Mandei Contrato de outro cliente para a Zuleide.
+Mandei Contrato de outro cliente para o Pedro.
+Mandei Contrato de outro cliente para o Leandro.
+Pedido de Relatório do cliente de Dra. Jaci enviado; a conta Lindson pega.
+Pedido de Relatório do cliente de Dra. Jaci enviado; a Zuleide pega.
+Pedido de Relatório do cliente de Dra. Jaci enviado; o Pedro pega.
+Pedido de Relatório do cliente de Dra. Jaci enviado; o Leandro pega.
+Mandei Relatório do cliente de Dra. Jaci para a conta Lindson.
+Mandei Relatório do cliente de Dra. Jaci para a Zuleide.
+Mandei Relatório do cliente de Dra. Jaci para o Pedro.
+Mandei Relatório do cliente de Dra. Jaci para o Leandro.
+Pedido de Relatório do cliente de Tribuna 98 enviado; a conta Lindson pega.
+Pedido de Relatório do cliente de Tribuna 98 enviado; a Zuleide pega.
+Pedido de Relatório do cliente de Tribuna 98 enviado; o Pedro pega.
+Pedido de Relatório do cliente de Tribuna 98 enviado; o Leandro pega.
+Mandei Relatório do cliente de Tribuna 98 para a conta Lindson.
+Mandei Relatório do cliente de Tribuna 98 para a Zuleide.
+Mandei Relatório do cliente de Tribuna 98 para o Pedro.
+Mandei Relatório do cliente de Tribuna 98 para o Leandro.
+Pedido de Relatório do cliente de Leo Pinto enviado; a conta Lindson pega.
+Pedido de Relatório do cliente de Leo Pinto enviado; a Zuleide pega.
+Pedido de Relatório do cliente de Leo Pinto enviado; o Pedro pega.
+Pedido de Relatório do cliente de Leo Pinto enviado; o Leandro pega.
+Mandei Relatório do cliente de Leo Pinto para a conta Lindson.
+Mandei Relatório do cliente de Leo Pinto para a Zuleide.
+Mandei Relatório do cliente de Leo Pinto para o Pedro.
+Mandei Relatório do cliente de Leo Pinto para o Leandro.
+Pedido de Relatório do cliente de Real Time enviado; a conta Lindson pega.
+Pedido de Relatório do cliente de Real Time enviado; a Zuleide pega.
+Pedido de Relatório do cliente de Real Time enviado; o Pedro pega.
+Pedido de Relatório do cliente de Real Time enviado; o Leandro pega.
+Mandei Relatório do cliente de Real Time para a conta Lindson.
+Mandei Relatório do cliente de Real Time para a Zuleide.
+Mandei Relatório do cliente de Real Time para o Pedro.
+Mandei Relatório do cliente de Real Time para o Leandro.
+Pedido de Relatório do cliente de Orégano Turbo enviado; a conta Lindson pega.
+Pedido de Relatório do cliente de Orégano Turbo enviado; a Zuleide pega.
+Pedido de Relatório do cliente de Orégano Turbo enviado; o Pedro pega.
+Pedido de Relatório do cliente de Orégano Turbo enviado; o Leandro pega.
+Mandei Relatório do cliente de Orégano Turbo para a conta Lindson.
+Mandei Relatório do cliente de Orégano Turbo para a Zuleide.
+Mandei Relatório do cliente de Orégano Turbo para o Pedro.
+Mandei Relatório do cliente de Orégano Turbo para o Leandro.
+Pedido de Relatório do cliente de Desentupidora SF enviado; a conta Lindson pega.
+Pedido de Relatório do cliente de Desentupidora SF enviado; a Zuleide pega.
+Pedido de Relatório do cliente de Desentupidora SF enviado; o Pedro pega.
+Pedido de Relatório do cliente de Desentupidora SF enviado; o Leandro pega.
+Mandei Relatório do cliente de Desentupidora SF para a conta Lindson.
+Mandei Relatório do cliente de Desentupidora SF para a Zuleide.
+Mandei Relatório do cliente de Desentupidora SF para o Pedro.
+Mandei Relatório do cliente de Desentupidora SF para o Leandro.
+Pedido de Relatório do cliente da sua marca enviado; a conta Lindson pega.
+Pedido de Relatório do cliente da sua marca enviado; a Zuleide pega.
+Pedido de Relatório do cliente da sua marca enviado; o Pedro pega.
+Pedido de Relatório do cliente da sua marca enviado; o Leandro pega.
+Mandei Relatório do cliente da sua marca para a conta Lindson.
+Mandei Relatório do cliente da sua marca para a Zuleide.
+Mandei Relatório do cliente da sua marca para o Pedro.
+Mandei Relatório do cliente da sua marca para o Leandro.
+Pedido de Relatório do cliente de outro cliente enviado; a conta Lindson pega.
+Pedido de Relatório do cliente de outro cliente enviado; a Zuleide pega.
+Pedido de Relatório do cliente de outro cliente enviado; o Pedro pega.
+Pedido de Relatório do cliente de outro cliente enviado; o Leandro pega.
+Mandei Relatório do cliente de outro cliente para a conta Lindson.
+Mandei Relatório do cliente de outro cliente para a Zuleide.
+Mandei Relatório do cliente de outro cliente para o Pedro.
+Mandei Relatório do cliente de outro cliente para o Leandro.
+Pedido de Reels enviado. Fica na espera até uma conta voltar.
+Pedido de Carrossel enviado. Fica na espera até uma conta voltar.
+Pedido de Post enviado. Fica na espera até uma conta voltar.
+Pedido de Stories enviado. Fica na espera até uma conta voltar.
+Pedido de Legenda SEO enviado. Fica na espera até uma conta voltar.
+Pedido de Arte de data enviado. Fica na espera até uma conta voltar.
+Pedido de Site / mini site enviado. Fica na espera até uma conta voltar.
+Pedido de Landing enviado. Fica na espera até uma conta voltar.
+Pedido de Painel do cliente enviado. Fica na espera até uma conta voltar.
+Pedido de Estratégia PDF enviado. Fica na espera até uma conta voltar.
+Pedido de Proposta enviado. Fica na espera até uma conta voltar.
+Pedido de Contrato enviado. Fica na espera até uma conta voltar.
+Pedido de Relatório do cliente enviado. Fica na espera até uma conta voltar.
+Bom dia, Lindson.
+Bom dia! Tudo certo por aqui.
+Bom dia, chefe.
+Boa tarde, Lindson.
+Boa tarde! Tudo certo por aqui.
+Boa tarde, chefe.
+Boa noite, Lindson.
+Boa noite! Tudo certo por aqui.
+Boa noite, chefe.
+Quer que eu abra o primeiro?
+Diga abre o primeiro para ver.
+Abro algum?
+A fila está vazia.
+Fila zerada.
+Nada aberto.
+Não tem nenhum pedido na fila.
+Pedido aprovado.
+Aprovei o pedido.
+Pronto, pedido aprovado e anotado.
+Quer aprovar?
+Aprovo esse?
+Se estiver bom, diga aprova.
+Aprovo?
+Nada depende de você agora.
+Da sua parte, nada pendente.
+Ainda espera a sua aprovação.
+Os pedidos ficam na espera.
+Nenhuma conta disponível agora.
+Nenhuma conta disponível.
+Nenhuma peça esperando a sua aprovação.
+Tudo em dia.
+Não tem nada para aprovar agora.
+Para pedir ajuste num pedido, toque em Ajuste na fila.
+Por voz eu aprovo.
+As tarefas feitas ainda estão carregando.
+Diga o que foi feito depois do cliente.
+O que foi feito? Diga o cliente e a atividade.
+Mando para a equipe?
+Posso mandar?
+Diga sim para enviar.
+Confirma que eu mando.
+Diga sim.
+Confirma?
+Mando?
+Posso?
+Diga sim para confirmar.

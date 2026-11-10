@@ -167,6 +167,8 @@ main{margin-left:var(--rail)}
 .balao.on{opacity:1}
 .balao b{display:block;font:500 9.5px var(--f-m);letter-spacing:.22em;color:var(--am);margin-bottom:3px}
 .diag{position:absolute;right:var(--gut);bottom:clamp(30px,5vh,44px);z-index:5;font:500 9.5px/1.6 var(--f-m);letter-spacing:.1em;color:rgba(242,238,227,.55);text-align:right;max-width:min(420px,40vw);pointer-events:none}
+.vk-ia{position:absolute;left:var(--gut);bottom:10px;z-index:5;margin:0;font:500 9.5px/1.4 var(--f-m);letter-spacing:.1em;text-transform:uppercase;color:rgba(242,238,227,.5);pointer-events:none;max-width:calc(100% - 2 * var(--gut))}
+.vk-ia[hidden]{display:none}
 .diag span{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .feitas-cab{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;margin-bottom:14px}
 .cont-cli{display:flex;flex-wrap:wrap;gap:0;border:1px solid var(--fio2);margin-bottom:22px}
@@ -523,6 +525,7 @@ input.campo{width:100%;background:#0E0D0A;border:1px solid #2B2B28;color:var(--t
         <div class="nucleo-rot"><b>VEKTOR</b><small>gerente da equipe</small><span id="mic-rot">… LIGANDO</span></div>
       </div>
     </div>
+    <p class="vk-ia" id="vk-ia" hidden>Conversa livre desligada: ligue o Workers AI (nome AI) na Cloudflare</p>
     <div class="diag" id="diag" aria-hidden="true"><span id="dg-est">ESCUTA —</span><span id="dg-err">ÚLTIMO ERRO —</span><span id="dg-ouviu">OUVIU —</span></div>
     <div class="voz-aviso" id="voz-aviso" hidden role="alert"><b>Voz</b><p></p><button class="btn mini am" type="button" id="tentar">Tentar de novo</button></div>
     <div class="papo" id="papo" aria-live="polite"></div>
@@ -761,7 +764,7 @@ async function envia() {
   let escolhida = null;
   const ok = await muda('ped', d => { const r = distribuir(item, d.itens, EQ(), Date.now()); const x = Object.assign({}, item, { designada: r.designada, motivo: r.motivo, volta: r.volta || null, designadaEm: agora(), st: r.designada ? 'novo' : 'espera' }); escolhida = r; d.itens.unshift(x); });
   b.disabled = false;
-  if (ok) { CONV.pendente = null; guardaConv(); responde(escolhida.designada ? `Vektor aqui. Pedido de ${nomeFn(item.func)} ${deCli(item.cli)} enviado; ${artConta(escolhida.designada)} pega.` : `Vektor aqui. Pedido de ${nomeFn(item.func)} enviado. Fica na espera até uma conta voltar.`); P.fn = null; P.forcar = false; $('#detalhe').value = ''; falaTxt('Pedido na fila.', false); pintaEscolhas(); pintaTudo(); }
+  if (ok) { CONV.pendente = null; guardaConv(); responde(escolhida.designada ? escolhe('env', [`Pedido de ${nomeFn(item.func)} ${deCli(item.cli)} enviado; ${artConta(escolhida.designada)} pega.`, `Mandei ${nomeFn(item.func)} ${deCli(item.cli)} para ${artConta(escolhida.designada)}.`]) : `Pedido de ${nomeFn(item.func)} enviado. Fica na espera até uma conta voltar.`, true); CTX.pend = null; P.fn = null; P.forcar = false; $('#detalhe').value = ''; falaTxt('Pedido na fila.', false); pintaEscolhas(); pintaTudo(); }
 }
 function executaAcao(id) {
   if (id === 'status') { ir('#resultados'); return; }
@@ -922,12 +925,12 @@ function pronuncia(t) { let x = String(t); PRON.forEach(([re, para]) => { x = x.
 function vkNorm(t) { return String(t).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim(); }
 function vkChave(t) { let h = 0x811c9dc5; const s = vkNorm(t); for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 0x01000193) >>> 0; } return h.toString(16).padStart(8, '0'); }
 const clipe = t => (window.__VOZ || {})[vkChave(t)];
-const VK = { fila: [], tocando: false, audio: null, an: null, buf: null, ultima: '', fimEm: 0, ditas: {}, avisou: false, tReliga: null };
+const VK = { fila: [], tocando: false, audio: null, an: null, buf: null, ultima: '', fimEm: 0, ditas: {}, avisou: false, tReliga: null, vol: 1 };
 const VZ = { falado: [], ate: 0 }; // compatível com a v4
 let MUDO = false;
 function balao(t) { const b = $('#balao'); if (!b) return; b.querySelector('span').textContent = t; b.classList.add('on'); clearTimeout(balao.t); balao.t = setTimeout(() => b.classList.remove('on'), 9000); }
 function inicioFala() { clearTimeout(VK.tReliga); if (!VK.tocando) { VK.tocando = true; ESC.falando = true; AV.falando = 1; desliga(); diag(); } }
-function fimFala() { VK.tocando = false; ESC.falando = false; AV.falando = 0; VK.fimEm = VZ.ate = Date.now();
+function fimFala() { VK.tocando = false; ESC.falando = false; AV.falando = 0; VK.fimEm = VZ.ate = Date.now(); if (CTX.jan) { CONV.ate = Math.max(CONV.ate, Date.now() + CTX.jan); CTX.jan = 0; }
   clearTimeout(VK.tReliga); VK.tReliga = setTimeout(() => { if (ESC.quer && !VK.tocando) liga(); }, 600); diag(); }
 function somBloqueado() {
   VK.fila = []; if (VK.tocando) fimFala();
@@ -947,12 +950,12 @@ function proxima() {
 }
 function tocaClipe(url, t) {
   const a = VK.audio || (VK.audio = new Audio()); a.preload = 'auto'; ligaVolumeClipe(a);
-  a.onended = () => setTimeout(proxima, 60); a.onerror = () => falaTTS(t); a.src = url;
+  a.onended = () => setTimeout(proxima, 60); a.onerror = () => falaTTS(t); a.src = url; a.volume = VK.vol;
   const p = a.play(); if (p && p.catch) p.catch(e => { if (e && e.name === 'NotAllowedError') somBloqueado(); else falaTTS(t); });
 }
 function falaTTS(t) {
   if (!window.speechSynthesis) { setTimeout(proxima, 0); return; }
-  let comecou = false; const u = new SpeechSynthesisUtterance(pronuncia(t)); u.lang = 'pt-BR'; if (VOZ) u.voice = VOZ; u.rate = 1; u.pitch = .7;
+  let comecou = false; const u = new SpeechSynthesisUtterance(pronuncia(t)); u.lang = 'pt-BR'; if (VOZ) u.voice = VOZ; u.rate = 1; u.pitch = .7; u.volume = VK.vol;
   u.onstart = () => { comecou = true; }; u.onboundary = () => { AV.silaba = 1; };
   u.onend = () => setTimeout(proxima, 60);
   u.onerror = e => { if (e && e.error === 'not-allowed') somBloqueado(); else setTimeout(proxima, 60); };
@@ -967,11 +970,11 @@ function partes(txt) {
   return out;
 }
 function calaVoz() { VK.fila = []; try { if (VK.audio) VK.audio.pause(); } catch (e) {} try { if (window.speechSynthesis) speechSynthesis.cancel(); } catch (e) {} if (VK.tocando) fimFala(); }
-function dizParte(txt) { txt = String(txt || '').trim(); if (!txt || !VOZ_ON || MUDO) return; VK.fila.push(...partes(txt)); if (!VK.tocando) proxima(); }
+function dizParte(txt) { txt = String(txt || '').trim(); if (!txt || !VOZ_ON || MUDO || CALADO) return; VK.fila.push(...partes(txt)); if (!VK.tocando) proxima(); }
 function responde(txt, curto) {
   if (curto !== true) toast(txt);
   papo('vektor', txt); balao(txt);
-  if (!VOZ_ON || MUDO) return;
+  if (!VOZ_ON || MUDO || CALADO) return;
   const k = sem(txt), agoraMs = Date.now(); if (VK.ditas[k] && agoraMs - VK.ditas[k] < 15000) return; VK.ditas[k] = agoraMs; // antirrepetição
   calaVoz(); dizParte(txt);
 }
@@ -1018,28 +1021,19 @@ function semCerebro(falta) {
   papo('sis', 'Conversa livre desligada agora. Para ligar, de graça: ' + (falta || 'Cloudflare → lindsonalmeida → Configurações → Vinculações → Workers AI (nome AI)') + '.');
 }
 function roteia(t) {
-  const s = sem(t), chamou = ATIVA.test(s), resto = s.replace(ATIVA, '').trim();
+  const s = sem(t), chamou = ATIVA.test(s) || chamouFim(s), resto = vkN(tiraChamado(t));
   if (CONV.pendente && FIM_ENVIA.test(s.trim()) && s.split(' ').length <= 4) { manda(CONV.pendente); return; }
-  // só reage (e fala) quando chamado pelo nome, ou na janela de 10 s depois que ele chamou; fora disso, só mostra e navega calado
+  // v6: só fala quando chamado pelo nome ou na janela curta que ele mesmo abriu (depois de responder ou perguntar);
+  // fora disso, só monta o deck e navega calado. O que não entende sem o nome não é respondido (evita looping com TV e eco).
   const temPedido = CLIS.some(c => c.voz.some(v => (' ' + s + ' ').includes(' ' + v + ' '))) || Object.values(FN).some(f => f.voz.some(v => (' ' + s + ' ').includes(' ' + v + ' ')));
-  if (!chamou && Date.now() >= CONV.ate && !temPedido) { MUDO = true; try { processa(t); } finally { MUDO = false; } return; }
-  if (!chamou && temPedido) { processa(t, true); return; }
-  // a janela de conversa só abre quando ele CHAMA pelo nome; uma resposta sem chamar fecha a janela (evita o looping de 10/11)
-  CONV.ate = chamou ? Date.now() + 10000 : 0;
-  if (chamou && !resto) { responde('Pois não?', true); return; }
-  if (/^(anota\w*\s+)?(feito|fiz|terminei)\b/.test(resto)) { feitoVoz(t); return; }
-  if (CONV.cerebro === false && Date.now() - (CONV.checado || 0) < 60000) { semCerebroLocal(t, s); return; }
-  conversa(t);
+  if (!chamou && Date.now() >= CONV.ate) { MUDO = true; try { processa(t, temPedido); } finally { MUDO = false; } return; }
+  CONV.ate = 0;
+  if (chamou && !resto) { CTX.intent = 'chamado'; window.__vk.intent = 'chamado'; const r = RX.oi.test(vkN(s)) ? saudacao() : vr('chamado'); papo('eu', t); responde(r, true); CTX.ultResp = r; abreJanela(10000); window.__vk.log.push({ fala: t, intent: 'chamado', resp: r }); return; }
+  if (CONV.cerebro !== false && !vkControle(resto)) { conversa(t); return; }
+  vkLocal(t, chamou);
 }
 // sem cérebro: ainda responde ao chamado pelo nome e entende os comandos de antes
-function semCerebroLocal(t, s) {
-  const pedido = CLIS.some(c => c.voz.some(v => s.includes(v))) || Object.values(FN).some(f => f.voz.some(v => s.includes(v)));
-  if (pedido) { processa(t, true); return; }
-  // sem cérebro e sem pedido: fala no máximo 1 vez por minuto; depois só escreve, calado
-  if (Date.now() - (CONV.oiEm || 0) < 60000) { papo('sis', 'Não entendi como pedido. Diga: Vektor, o cliente e o que precisa.'); CONV.ate = 0; return; }
-  CONV.oiEm = Date.now(); CONV.ate = 0;
-  responde('Oi, Lindson! Tô te ouvindo, sim. Me diz o cliente e o que precisa, que eu monto o pedido.', true);
-}
+function semCerebroLocal(t) { vkLocal(t, true, true); } // v6: o modo local entende intenções (ver vkIntent)
 function manda(p) {
   CONV.pendente = null; guardaConv();
   P.cli = p.cli; P.fn = p.func; P.forcar = false; $('#detalhe').value = p.texto || ''; pintaEscolhas(); envia();
@@ -1061,7 +1055,7 @@ async function conversa(t) {
     const r = await fetch(API + '/api/vektor', { method: 'POST', credentials: 'same-origin', headers: { 'Content-Type': 'application/json' }, signal: ab.signal,
       body: JSON.stringify({ fala: t.slice(0, 500), historico: CONV.hist.slice(-16), memoria: CONV.memoria, pendente: CONV.pendente }) });
     if (r.status === 401) { location.href = '/'; return; }
-    if (!r.ok) { const j = await r.json().catch(() => ({})); if (r.status === 503) { CONV.cerebro = false; CONV.checado = Date.now(); bal.remove(); papo.ultimo = null; semCerebro(j.falta); semCerebroLocal(t, sem(t)); return; } throw new Error(j.erro || 'Não consegui pensar agora. Tenta de novo.'); }
+    if (!r.ok) { const j = await r.json().catch(() => ({})); if (r.status === 503) { CONV.cerebro = false; CONV.checado = Date.now(); bal.remove(); papo.ultimo = null; semCerebro(j.falta); semCerebroLocal(t); return; } throw new Error(j.erro || 'Não consegui pensar agora. Tenta de novo.'); }
     CONV.cerebro = true;
     const rd = r.body.getReader(), dec = new TextDecoder(); let resto = '';
     for (;;) {
@@ -1087,12 +1081,439 @@ async function conversa(t) {
   guardaConv();
 }
 async function checaCerebro() {
-  try { const r = await fetch(API + '/api/vektor', { credentials: 'same-origin', cache: 'no-store' }); if (!r.ok) return; const j = await r.json(); CONV.cerebro = !!j.ligado; CONV.checado = Date.now(); if (!j.ligado) semCerebro(j.falta); } catch (e) {}
+  try { const r = await fetch(API + '/api/vektor?saude', { credentials: 'same-origin', cache: 'no-store' }); if (!r.ok) return; const j = await r.json(); CONV.cerebro = !!j.ligado; CONV.checado = Date.now(); avisoIA(j.ligado); } catch (e) {}
 }
 function pintaVozAv() { const b = $('#voz-av'); if (b) { b.setAttribute('aria-pressed', String(VOZ_ON)); b.textContent = VOZ_ON ? 'VOZ VEKTOR ON' : 'VOZ VEKTOR OFF'; } }
 const falaFila = () => { const n = esperandoVoce().length, ab = itens().filter(x => ABERTOS.includes(x.st)).length; return `Vektor aqui. ${ab} ${ab === 1 ? 'pedido' : 'pedidos'} na fila, ${n} esperando você.`; };
 const falaEquipe = () => { const l = CONTAS.filter(c => estadoReal(EQ().contas[c], Date.now()).disponivel); return l.length ? `Vektor aqui. Disponíveis agora: ${l.join(', ')}.` : 'Vektor aqui. Nenhuma conta disponível agora. Os pedidos ficam na espera.'; };
 const falaStatus = () => falaFila() + ' Os detalhes estão na tela.';
+
+// ---------- v6 (conta Leandro, 10/11/2026): VEKTOR local inteligente, sem cérebro externo ----------
+// "A resposta está engessada sempre" (Lindson). Diálogo por intenção, no padrão das diretrizes de voz (Alexa e Google):
+// frases curtas e variadas (nunca a mesma da última vez), dados reais da página, contexto curto (último cliente e última lista),
+// confirmação antes de gravar (aprovar, ajuste, enviar), desfazer no que é leve (anotar feito) e, quando não entende,
+// uma pergunta útil e diferente a cada vez. Frase longa é dividida em partes ("mostra a fila e quem está livre").
+// As frases fixas ficam em VKF e viram clipes de voz (voz/frases.py lê este bloco). {cli} e {de} são trocados pelo cliente.
+const VKF = /*VKF*/{
+  "chamado": ["Pois não?", "Oi, Lindson. Pode falar.", "Tô aqui. O que você precisa?", "Diga, Lindson.", "Sim? Tô ouvindo."],
+  "obrigado": ["Por nada, Lindson.", "Tamo junto.", "Disponha.", "É pra isso que eu tô aqui.", "Sempre."],
+  "quem": ["Sou o Vektor, o gerente da sua equipe. Leio a fila, o placar e as contas, e monto os pedidos.", "Vektor, seu gerente. Cuido da fila, das aprovações e da equipe pra você.", "Eu sou o Vektor. Fico de olho na equipe e no que depende de você."],
+  "ajuda": ["Eu leio a fila, o placar e a equipe, aprovo peças, anoto o que foi feito e monto pedidos. Diga, por exemplo: Vektor, o que falta da Tribuna?", "Posso dizer o que chegou na fila, quem está livre e o que posta hoje. Também aprovo peças e mando pedidos. Experimente: Vektor, mostra os conteúdos da Jaci.", "Pergunte do status de um cliente, das aprovações, da agenda do Instagram ou da equipe. Para pedir trabalho: Vektor, Reels da Jaci, manda.", "Sei abrir os painéis, o Recomeço 90 e os Canais dark, ler a fila e anotar tarefas feitas. É só falar normal comigo."],
+  "calado": ["Fico quieto. Respondo só por escrito. Diga pode falar para eu voltar.", "Silêncio ligado. Escrevo aqui no balão até você dizer pode falar.", "Tudo bem, só por escrito agora."],
+  "voltaFalar": ["Voltei a falar.", "Beleza, voz de volta.", "Tô falando de novo.", "Pronto, pode contar com a minha voz."],
+  "baixo": ["Falo mais baixo agora.", "Abaixei a voz.", "Certo, mais baixo."],
+  "alto": ["Falo mais alto agora.", "Aumentei a voz.", "Certo, mais alto."],
+  "volMin": ["Já estou no volume mínimo.", "Mais baixo que isso eu não consigo."],
+  "volMax": ["Já estou no volume máximo.", "Mais alto que isso eu não consigo."],
+  "cancelado": ["Cancelado.", "Tudo bem, deixei pra lá.", "Certo, não faço.", "Pronto, cancelei."],
+  "nadaCancelar": ["Não tem nada para cancelar agora.", "Nada pendente para cancelar.", "Tá tudo limpo, nada para cancelar."],
+  "semConfirmar": ["Não tenho nada esperando o seu sim.", "Confirmar o quê? Não tem nada pendente.", "Nada esperando confirmação agora. Me diz o que precisa."],
+  "repetirNada": ["Ainda não disse nada para repetir.", "Não tenho fala anterior para repetir."],
+  "repete": ["Repetindo: ", "Eu disse: ", "De novo: "],
+  "desfeito": ["Desfiz a última anotação.", "Tirei a anotação das tarefas feitas.", "Pronto, apaguei a anotação."],
+  "naoEntendi": ["Não peguei. É sobre a fila, a equipe, as aprovações ou um pedido?", "Pode repetir de outro jeito? Por exemplo: o que falta da Tribuna.", "Não entendi direito. Quer ver o status, as peças para aprovar ou fazer um pedido?", "Hum, essa eu não peguei. Diga o cliente e o que precisa.", "Não consegui entender. Fala de novo, com calma, que eu pego."],
+  "qualCli": ["Para qual cliente? Jaci, Tribuna, Leo ou Real Time?", "De qual cliente: Jaci, Tribuna, Leo, Real Time ou Orégano?", "Não peguei o cliente. É para a Jaci, a Tribuna, o Leo ou a Real Time?"],
+  "qualPeca": ["Qual delas? Diga a primeira, a segunda ou a última.", "Qual peça? Pode dizer pelo número: a primeira, a segunda…", "Me diz qual: a primeira, a segunda ou a terceira?"],
+  "semLista": ["Primeiro me diz de qual cliente. Por exemplo: mostra os conteúdos da Jaci.", "De qual cliente são as peças? Jaci, Tribuna, Leo ou Real Time?"],
+  "notaQual": ["O que você quer que mude?", "Qual é o ajuste? Pode falar.", "Me diz o que mudar que eu anoto."],
+  "pecaNao": ["Não achei essa peça. Diga a primeira, a segunda ou a última.", "Esse número não existe na lista. Quer que eu leia de novo?"],
+  "filaCarregando": ["Ainda estou lendo a fila. Pergunta de novo em um instante.", "A fila ainda está carregando. Tenta daqui a pouco."],
+  "nadaPronto": ["Nada pronto ainda.", "Nenhum pedido pronto por enquanto.", "Ainda não ficou nada pronto."],
+  "nadaEsperando": ["Nada esperando você agora. Pode respirar.", "Nada novo para você por enquanto.", "Tudo em dia, nada esperando você."],
+  "semResultado": ["Ainda não tem resultado pronto para abrir.", "Não tem entrega pronta para mostrar agora."],
+  "abreRec": ["Abrindo o Recomeço 90.", "Recomeço 90 aberto.", "Pronto, Recomeço 90 na tela."],
+  "abreCan": ["Abrindo os Canais dark.", "Canais dark abertos.", "Pronto, Canais dark na tela."],
+  "abreFila": ["Fila na tela.", "Abri a fila.", "Aqui está a fila."],
+  "abreEquipe": ["Equipe na tela.", "Abri a equipe.", "Aqui estão as contas."],
+  "abreFeitas": ["Tarefas feitas na tela.", "Abri as tarefas feitas."],
+  "abreResult": ["Resultados na tela.", "Abri os resultados e o placar."],
+  "abreContas": ["Abri a configuração das contas.", "Configuração das contas na tela."],
+  "abreAprov": ["Aprovações na tela.", "Abri as aprovações."],
+  "semPainel": ["Esse cliente não tem painel. Os painéis são da Jaci, Tribuna, Leo, Real Time e Orégano.", "Não tem painel para esse. Tenho da Jaci, Tribuna, Leo, Real Time e Orégano."],
+  "semAgenda": ["Não achei a agenda do Instagram agora.", "A agenda do Instagram não carregou."],
+  "nadaHoje": ["Hoje não tem post agendado no seu Instagram.", "Nada para postar hoje no Instagram."],
+  "semProximo": ["Não tem próximo post agendado.", "A agenda está sem próximo post. Quer pedir conteúdo?"],
+  "ninguemEsgotou": ["Ninguém esgotou o limite agora.", "Todas as contas estão dentro do limite."],
+  "contaQual": ["Qual conta? Lindson, Zuleide, Pedro ou Leandro?", "De quem: Lindson, Zuleide, Pedro ou Leandro?"],
+  "pedidoPerdido": ["O pedido se perdeu. Diga de novo o cliente e o que precisa.", "Não achei o pedido montado. Fala de novo, por favor."],
+  "erroSalvar": ["Não consegui salvar agora. Tenta de novo em um instante.", "Deu erro ao salvar. Confere a internet e tenta de novo."],
+  "semPeca": ["{cli} não tem peça esperando aprovação agora.", "Nenhuma peça de {cli} esperando você.", "{cli} está em dia, nada para aprovar."],
+  "aprovou": ["Aprovado. Já aparece no painel de {cli}.", "Feito, aprovei. {cli} já vê no painel.", "Aprovado e salvo no painel de {cli}."],
+  "ajusteFeito": ["Ajuste pedido. A equipe de {cli} já vê.", "Anotei o ajuste para {cli}.", "Pronto, ajuste salvo para {cli}."],
+  "statusOque": ["O que você quer {de}: o status, as peças para aprovar ou um pedido novo?", "Sobre {cli}: quer saber o que falta ou pedir alguma coisa?", "{cli}, certo. Status, aprovações ou pedido?"],
+  "anotado": ["Anotado nas tarefas feitas {de}.", "Pronto, lancei nas tarefas feitas {de}.", "Feito. Tá nas tarefas feitas {de}."],
+  "abrePainel": ["Abrindo o painel de {cli}.", "Vou para o painel de {cli}.", "Painel de {cli}, abrindo."],
+  "abreFotos": ["Abrindo as fotos de {cli}.", "Vou para as fotos de {cli}."]
+}/*FIM-VKF*/;
+const CTX = { cli: null, intent: null, lista: null, listaTipo: '', pend: null, espera: null, ultResp: '', desfazer: null, jan: 0, ult: {} };
+let CALADO = false;
+window.__vk = { log: [] }; // diagnóstico para a bateria de testes (testes/teste-vektor.js)
+function escolhe(k, l) {
+  const ag = Date.now(); let ix = l.map((_, i) => i); if (ix.length > 1) ix = ix.filter(i => i !== CTX.ult[k]);
+  const fresco = ix.filter(i => { const d = VK.ditas[sem(String(l[i]))]; return !(d && ag - d < 15000); }); if (fresco.length) ix = fresco;
+  const i = ix[Math.random() * ix.length | 0]; CTX.ult[k] = i; return l[i];
+}
+const vr = (k, v = {}) => escolhe(k, VKF[k] || [k]).replace(/\{(\w+)\}/g, (m, x) => v[x] != null ? v[x] : m);
+const lista = a => a.length <= 1 ? (a[0] || '') : a.slice(0, -1).join(', ') + ' e ' + a[a.length - 1];
+const cap = t => t ? t.charAt(0).toUpperCase() + t.slice(1) : t;
+const curto = (t, n = 80) => { t = String(t || '').replace(/[…\s]+$/, '').replace(/\s+/g, ' ').trim(); if (t.length <= n) return t.replace(/[.;:,]+$/, ''); const c = t.slice(0, n); return c.slice(0, Math.max(c.lastIndexOf(' '), 20)).replace(/[.;:,(\s-]+$/, ''); };
+const titFala = t => curto(String(t || '').replace(/^\s*\d{1,2}\/\d{1,2}\s*[·\-–]\s*/, ''), 60);
+const pl = (n, um, varios) => n + ' ' + (n === 1 ? um : varios);
+
+// normalização: minúsculas, sem acento, erros comuns da transcrição pt-BR, números por extenso
+const VK_NUM = { zero: 0, dois: 2, duas: 2, tres: 3, quatro: 4, cinco: 5, seis: 6, sete: 7, oito: 8, nove: 9, dez: 10, onze: 11, doze: 12, treze: 13, catorze: 14, quatorze: 14, quinze: 15, dezesseis: 16, dezessete: 17, dezoito: 18, dezenove: 19, vinte: 20, trinta: 30, quarenta: 40, cinquenta: 50, sessenta: 60, setenta: 70, oitenta: 80, noventa: 90, cem: 100 };
+const VK_CORR = [
+  [/\b(?:doutora|dra|dr|doutor)\s+(?:jaci|jacy|jaque|jasse|jaqui)(?:\s+cunha)?\b/g, 'jaci'], [/\b(?:jacy|jasse|jaqui|jacir|djaci|jaci cunha)\b/g, 'jaci'],
+  [/\btribuna(?:l)?(?:\s+(?:98|noventa e oito))?\b/g, 'tribuna'], [/\btri buna\b/g, 'tribuna'],
+  [/\b(?:real|rial|reau|reao)\s*(?:time|taime|taim|tai me|times)\b/g, 'realtime'],
+  [/\b(?:leo|leu|lio)\s+pinto\b/g, 'leo'], [/\bvereador leo\b/g, 'leo'],
+  [/\b(?:oregano|oregon|origano)(?:\s+turbo)?\b/g, 'oregano'],
+  [/\b(?:rius|riels|rils|rilis|reals|reus|reel|riu)\b/g, 'reels'],
+  [/\b(?:estoris|storys|storis|estori|story|stori|estorys)\b/g, 'stories'],
+  [/\b(?:carrocel|carosel|carossel|carrosel|carroceis|carrosseis|carrossels)\b/g, 'carrossel'],
+  [/\b(?:zuleica|zulaide|zuleidi|zuleid|zu leide)\b/g, 'zuleide'], [/\b(?:lindsom|linson|lindison|lindsson|lyndson|lindisson)\b/g, 'lindson'],
+  [/\brecomec\w*(?:\s+(?:90|noventa))?\b/g, 'recomeco'], [/\bcana(?:is|l)\s+(?:dark|darque|daque|darc|escuros?)\b/g, 'canais dark'],
+  [/\b(?:insta|instagran|istagram|instagrao)\b/g, 'instagram'], [/\b(?:landim|lendin|lending|landin|lendim)\b/g, 'landing'],
+  [/\b(?:postis|postes)\b/g, 'posts'], [/\bto\b/g, 'estou'], [/\bta\b/g, 'esta'], [/\bpra\b/g, 'para'], [/\bpro\b/g, 'para o'], [/\bvc\b/g, 'voce'], [/\bq\b/g, 'que'],
+  [/\b(?:vektor|vector|vetor|victor|vitor|vequitor|vektora|vetora)\b/g, 'vektor']
+];
+function vkN(t) {
+  let s = ' ' + sem(t).replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim() + ' ';
+  s = s.replace(/\b(vinte|trinta|quarenta|cinquenta|sessenta|setenta|oitenta|noventa) e (um|uma|dois|duas|tres|quatro|cinco|seis|sete|oito|nove)\b/g, (m, a, b) => String(VK_NUM[a] + (b === 'um' || b === 'uma' ? 1 : VK_NUM[b])));
+  s = s.replace(/\b(numero|pedido|peca|item) (um|uma)\b/g, '$1 1');
+  s = s.replace(/\b(zero|dois|duas|tres|quatro|cinco|seis|sete|oito|nove|dez|onze|doze|treze|catorze|quatorze|quinze|dezesseis|dezessete|dezoito|dezenove|vinte|trinta|quarenta|cinquenta|sessenta|setenta|oitenta|noventa|cem)\b/g, m => String(VK_NUM[m]));
+  VK_CORR.forEach(([re, p]) => { s = s.replace(re, p); });
+  s = s.replace(/\b(por favor|porfavor|tipo assim|olha so|olha|hein|mano|velho|cara)\b/g, ' ');
+  return s.replace(/\s+/g, ' ').trim();
+}
+const VK_CLI = { jaci: ['jaci', 'clinica', 'doutora'], tribuna: ['tribuna'], leo: ['leo', 'vereador', 'leonardo'], rt: ['realtime'], oregano: ['oregano', 'pizzaria'],
+  marca: ['minha marca', 'meu instagram', 'meu perfil', 'minha pagina', 'lindson'], sf: ['desentupidora', 'grupo sf', 'esse efe', 'sf'], outro: ['outro cliente', 'cliente novo', 'lead'] };
+function cliDe(n, semLindson) { const s = ' ' + n + ' '; let m = null, tam = 0;
+  Object.entries(VK_CLI).forEach(([id, l]) => l.forEach(v => { if (semLindson && v === 'lindson') return; if (s.includes(' ' + v + ' ') && v.length > tam) { m = id; tam = v.length; } })); return m; }
+function fnDe(n) { const s = ' ' + n + ' '; let m = null, tam = 0;
+  Object.values(FN).forEach(f => f.voz.forEach(v => { const x = sem(v); if ((s.includes(' ' + x + ' ') || s.includes(' ' + x + 's ')) && x.length > tam) { m = f.id; tam = x.length; } })); return m; }
+const VK_ORD = { primeir: 1, segund: 2, terceir: 3, quart: 4, quint: 5, sext: 6, setim: 7, oitav: 8, decim: 10, ultim: -1 };
+function ordDe(n) { let m = n.match(/\b(primeir|segund|terceir|quart|quint|sext|setim|oitav|decim|ultim)[ao]s?\b/); if (m) return VK_ORD[m[1]];
+  m = n.match(/\b(?:numero|peca|pedido|item|a|o)\s+(\d{1,2})\b/); return m ? +m[1] : null; }
+function contaDe(n) { const m = n.match(/\b(lindson|zuleide|pedro|leandro)\b/); return m ? cap(m[1]) : null; }
+function perDe(n) { return /\bontem\b/.test(n) ? 'ontem' : /\bhoje\b/.test(n) ? 'hoje' : /\bsemana\b/.test(n) ? '7d' : /\bmes\b/.test(n) ? 'mes' : /\b(tudo|sempre|todas?)\b/.test(n) ? 'tudo' : null; }
+
+const RX = {
+  silencio: /^(?:(?:fica|fique) (?:quieto|calado|em silencio)|silencio|cala(?: a)? boca|para de falar|nao fala mais|modo silencioso|so (?:escreve|escrito|por escrito)|sem voz|desliga a voz|muta|mudo)\b/,
+  falar: /\b(?:pode falar|volta a falar|voltar a falar|liga a voz|ligar a voz|fala comigo|sai do silencio|pode voltar a falar|com voz)\b/,
+  baixo: /\b(?:mais baixo|fala baixo|fale baixo|fala mais baixo|abaixa|abaixe|diminui|diminua|esta muito alto|muito alto|alto demais)\b/,
+  alto: /\b(?:mais alto|fala alto|fale alto|aumenta|aumente|sobe o volume|nao estou (?:te )?ouvindo|esta muito baixo|muito baixo|baixo demais)\b/,
+  para: /^(?:para|pare|chega|espera|calma|vektor para|para vektor)$/,
+  repete: /\b(?:repete|repita|repetir|fala de novo|diz de novo|o que voce (?:disse|falou)|nao (?:entendi|ouvi) o que voce)\b|^(?:como|hein|o que)$/,
+  cancela: /^(?:cancela\w*|cancele|deixa para la|esquece|esqueca|desiste|anula|desfaz\w*|nao quero mais|para tudo|nao precisa)\b/,
+  sim: /^(?:sim|isso|pode|confirm\w*|manda|pode mandar|envia|enviar|pode enviar|claro|positivo|ok|okay|beleza|fechado|bora|vai|com certeza|pode ser|isso mesmo|exato|certo|aprova|aprove|faz|faca|quero|perfeito|show)\b/,
+  nao: /^(?:nao|negativo|melhor nao|nem|agora nao)\b/,
+  ajuda: /\b(?:o que (?:voce )?(?:faz|sabe fazer|sabe|pode fazer|consegue fazer|consegue)|me ajuda|ajuda|quais (?:os )?comandos|como (?:te |eu te |eu )?(?:uso|usar|funciona)|o que (?:eu )?(?:posso|consigo) (?:falar|pedir|dizer)|o que da para (?:fazer|pedir))\b/,
+  oi: /^(?:oi|ola|bom dia|boa tarde|boa noite|tudo bem|tudo bom|e ai|eai|opa|salve|fala)\b/,
+  obrigado: /\b(?:obrigad\w*|valeu|brigad\w*|agradec\w*)\b/,
+  quem: /\b(?:quem (?:e|eh) voce|seu nome|como (?:voce )?se chama|o que (?:e )?voce e)\b/,
+  hora: /\b(?:que horas?|horas sao)\b/,
+  feito: /^(?:(?:anota\w*|lanca\w*|registra\w*|marca)(?: ai| que| para mim| nas? tarefas?(?: feitas?)?)*\s*)?(?:feito|fiz|terminei|conclui|finalizei|acabei|entreguei)\b|^(?:anota|anote|lanca|registra)\b/,
+  feitas: /\b(?:o que (?:eu |a gente |nos |voces |a equipe )?(?:fiz|fizemos|fez|fizeram|entreguei|entregamos|entregou)|o que foi (?:feito|entregue)|tarefas? feitas?|foi feito|feito (?:para|da|do|na|no|com))\b/,
+  aprov: /\b(?:aprova|aprove|aprovo|aprovar|aprovad[ao]|aprovei)\b/,
+  ajuste: /\b(?:ajust\w*|corrig\w*|corrige|refaz|refazer|refaca)\b/,
+  verPecas: /\b(?:verifi\w*|ver|veja|vejo|mostr\w*|abr\w*|confer\w*|cade|quais|tem|lista\w*|o que|quantas?|le|leia)\b/,
+  pecas: /\b(?:conteudo\w*|pecas?|posts|artes?|aprovac\w*|materia\w*|para aprovar|aprovar)\b/,
+  agenda: /\b(?:posta|postar|postamos|postado|publica\w*|agenda\w*|proximo post|post de hoje|posts de hoje|vai para o ar|sai hoje|instagram)\b/,
+  pede: /\b(?:faz|faca|fazer|cria|crie|criar|monta|monte|montar|preciso|quero|manda fazer|pede|pedir|gera|gere)\b/,
+  abrir: /\b(?:abr\w*|mostr\w*|ir para|vai para|va para|entra\w*|leva\w* para|quero ver|ver|veja|exib\w*)\b/,
+  resultado: /\b(?:resultado|entrega|o que ficou pronto|ficou pronto|pronto|pedido pronto)\b/,
+  fila: /\b(?:fila|chegou|o que esta pronto|prontos?|pendent\w*|esperando (?:por )?(?:mim|voce)|para mim|novidade\w*|tem algo|tem alguma coisa|o que tem de novo)\b/,
+  conta: /\b(?:fazendo|faz|ocupad\w*|livre|trabalh\w*|esgot\w*|limite|onde|como esta|parad\w*|disponivel|pegou|volta)\b/,
+  equipe: /\b(?:quem (?:esta )?(?:livre|disponivel|ocupad\w*|trabalhando|parad\w*)|quem esgotou|equipe|as contas|todas as contas|limite|esgot\w*|quem pode|quem (?:esta|ta) on)\b/,
+  status: /\b(?:status|placar|como (?:esta|anda|vai|estao)|andamento|o que falta|falta|situacao|resumo|progresso|por cento|porcentagem|relatorio geral)\b/
+};
+const tiraChamado = t => { const m = sem(t).match(ATIVA); let x = m ? t.slice(m[0].length) : t; return x.replace(/[\s,.!]*\b(?:v[eé][ck]tor|vetor|v[ií]c?tor)\b[\s?.!]*$/i, '').trim(); };
+const chamouFim = s => /\b(vektor|vector|vetor|victor|vitor)\s*[?.!]*\s*$/.test(s);
+function abreJanela(ms) { CTX.jan = Math.max(CTX.jan || 0, ms); CONV.ate = Math.max(CONV.ate, Date.now() + ms); }
+function quando(iso) { const d = new Date(iso); if (isNaN(d)) return ''; const h = d.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit', timeZone: 'America/Fortaleza' });
+  const dia = d.toLocaleDateString('sv', { timeZone: 'America/Fortaleza' }); return dia === hojeSLZ() ? 'hoje às ' + h : dia === hojeSLZ(-1) ? 'amanhã às ' + h : 'dia ' + dia.slice(8, 10) + '/' + dia.slice(5, 7) + ' às ' + h; }
+const horaFala = hhmm => { const [h, m] = String(hhmm).split(':').map(Number); return isNaN(h) ? hhmm : (h + (m ? ':' + String(m).padStart(2, '0') : ' horas')); };
+
+// ---- respostas com dados reais ----
+const PLK = { jaci: 'jaci', tribuna: 'tribuna', leo: 'leo pinto', rt: 'real time', oregano: 'oregano', sf: 'desentup', marca: 'lindson' };
+const placarDe = c => (E.placar || []).find(p => sem(p.nome).includes(PLK[c] || c));
+function falaCliente(c, foco) {
+  const p = placarDe(c), nome = nomeCli(c), pend = CLIS_APROV.includes(c) ? pecasPend(c).filter(x => x.st === 'aguardando').length : 0;
+  const ab = itens().filter(x => x.cli === c && ABERTOS.includes(x.st)).length;
+  let a = p ? escolhe('st-a', [`${nome} está em ${p.pct} por cento: ${p.feito} de ${p.total} etapas feitas.`, `${nome}: ${p.pct} por cento do placar, ${p.feito} de ${p.total}.`, `No placar, ${nome} tem ${p.feito} de ${p.total} etapas, ${p.pct} por cento.`])
+    : escolhe('st-sp', [`${nome} ainda não tem placar.`, `Não tenho placar de ${nome}.`]);
+  const ex = []; if (ab) ex.push(pl(ab, 'pedido aberto na fila', 'pedidos abertos na fila')); if (pend) ex.push(pl(pend, 'peça para você aprovar', 'peças para você aprovar'));
+  if (ex.length) a += ' Tem ' + lista(ex) + '.';
+  if (p && p.dono && p.dono.length) a += ' ' + escolhe('st-f', ['Falta de você: ', 'O que depende de você: ', 'Na sua mão: ']) + curto(p.dono[0], 90) + (p.dono.length > 1 ? `, e mais ${p.dono.length - 1}.` : '.');
+  else if (foco === 'falta') a += ' ' + escolhe('st-n', ['Nada depende de você agora.', 'Da sua parte, nada pendente.']);
+  return a;
+}
+function falaGeral() {
+  if (!S.ped.ok) return vr('filaCarregando');
+  const ab = itens().filter(x => ABERTOS.includes(x.st)).length, esp = esperandoVoce().length, pg = (E.placar || []).filter(p => p.pagante);
+  const pc = pg.map(p => `${p.nome.replace(/^Dra\. /, '').split(' ')[0] === 'Jaci' ? 'Jaci' : p.nome} ${p.pct}`).slice(0, 4);
+  return escolhe('geral', [`Fila com ${ab} abertos e ${esp} esperando você.`, `Agora: ${pl(ab, 'pedido aberto', 'pedidos abertos')}, ${esp} na sua mão.`, `${pl(esp, 'coisa esperando', 'coisas esperando')} você e ${ab} na fila.`])
+    + (pc.length ? ' ' + escolhe('geral-p', ['Pagantes: ', 'Placar dos pagantes: ']) + lista(pc.map(x => x + ' por cento')) + '.' : '');
+}
+function falaFilaV(tipo) {
+  if (!S.ped.ok) return vr('filaCarregando');
+  const l = itens(), ab = l.filter(x => ABERTOS.includes(x.st)), pr = l.filter(x => x.st === 'pronto'), pg = l.filter(x => x.esperando && ABERTOS.includes(x.st) && x.st !== 'pronto');
+  const nomeP = x => `${nomeFn(x.func)} ${deCli(x.cli)}`;
+  if (tipo === 'pronto') { if (!pr.length) return vr('nadaPronto') + (ab.length ? ` ${pl(ab.length, 'pedido segue', 'pedidos seguem')} na fila.` : '');
+    CTX.lista = pr.map(x => ({ id: x.id, cli: x.cli })); CTX.listaTipo = 'ped'; abreJanela(15000);
+    return `${pl(pr.length, 'pronto', 'prontos')}: ${lista(pr.slice(0, 3).map(nomeP))}. ` + escolhe('fp', ['Quer que eu abra o primeiro?', 'Diga abre o primeiro para ver.', 'Abro algum?']); }
+  if (!ab.length && !pg.length) return escolhe('fv', ['A fila está vazia.', 'Fila zerada. Nada aberto.', 'Não tem nenhum pedido na fila.']);
+  const nov = ab.filter(x => x.st === 'novo' || x.st === 'espera').length, faz = ab.filter(x => x.st === 'andamento').length;
+  let r = escolhe('fl', [`Na fila: ${ab.length} abertos.`, `${pl(ab.length, 'pedido aberto', 'pedidos abertos')} na fila.`, `A fila tem ${ab.length} agora.`]);
+  const d = []; if (faz) d.push(`${faz} sendo feitos`); if (nov) d.push(pl(nov, 'novo', 'novos')); if (d.length) r += ' ' + cap(lista(d)) + '.';
+  if (pr.length) { r += ` ${pl(pr.length, 'está pronto', 'estão prontos')} para você: ${lista(pr.slice(0, 2).map(nomeP))}.`; CTX.lista = pr.map(x => ({ id: x.id, cli: x.cli })); CTX.listaTipo = 'ped'; }
+  if (pg.length) r += ` ${pl(pg.length, 'pergunta espera', 'perguntas esperam')} sua resposta.`;
+  if (!pr.length && !pg.length) r += ' ' + vr('nadaEsperando');
+  return r;
+}
+function infoConta(c) {
+  const x = EQ().contas[c] || {}, er = estadoReal(x, Date.now()), Nome = cap(artConta(c));
+  const naFila = itens().find(i => i.conta === c && i.st === 'andamento'), q = (E.andamento || []).find(a => a.contas.includes(c) && a.recente) || (E.andamento || []).find(a => a.contas.includes(c));
+  if (er.estado.startsWith('limite')) return `${Nome} esgotou ${er.estado === 'limite-semana' ? 'o limite da semana' : 'o limite de hoje'}${er.ate ? ' e volta ' + quando(er.ate) : ''}.`;
+  if (naFila) return escolhe('ct-f', [`${Nome} está fazendo ${nomeFn(naFila.func)} ${deCli(naFila.cli)}.`, `Agora, ${artConta(c)} está em ${nomeFn(naFila.func)} ${deCli(naFila.cli)}.`, `${Nome} pegou ${nomeFn(naFila.func)} ${deCli(naFila.cli)} e está nisso.`]);
+  const oque = x.tarefa || (q && q.oque), car = carga(itens(), c);
+  let r = er.disponivel ? escolhe('ct-l', [`${Nome} está livre.`, `${Nome} está disponível.`, `${Nome} pode pegar pedido agora.`]) : `${Nome} não bateu o ponto nas últimas 2 horas.`;
+  if (car) r += ` Tem ${pl(car, 'pedido', 'pedidos')} na mão.`;
+  if (oque) r += ' ' + escolhe('ct-q', ['No quadro: ', 'Último registro: ']) + curto(oque, 80) + '.';
+  return r;
+}
+function falaEquipeV(foco) {
+  const st = CONTAS.map(c => [c, estadoReal(EQ().contas[c], Date.now())]);
+  const liv = st.filter(([, e]) => e.disponivel).map(([c]) => c), esg = st.filter(([, e]) => e.estado.startsWith('limite')), par = st.filter(([, e]) => !e.disponivel && !e.estado.startsWith('limite')).map(([c]) => c);
+  const esgT = esg.map(([c, e]) => `${c}, que volta ${quando(e.ate) || 'depois'}`);
+  if (foco === 'esgotou') return esg.length ? `Esgotaram: ${lista(esgT)}.` : vr('ninguemEsgotou');
+  if (foco === 'livre') return liv.length ? escolhe('eq-l', [`Livres agora: ${lista(liv)}.`, `Pode contar com ${lista(liv)}.`, `${lista(liv)} ${liv.length === 1 ? 'está disponível' : 'estão disponíveis'}.`]) + (esg.length ? ` ${lista(esg.map(e => e[0]))} esgotou.` : '')
+    : 'Nenhuma conta disponível agora. ' + (esg.length ? `Esgotaram: ${lista(esgT)}.` : 'Os pedidos ficam na espera.');
+  const r = []; r.push(liv.length ? `Disponíveis: ${lista(liv)}.` : 'Nenhuma conta disponível.');
+  if (esg.length) r.push(`Esgotaram: ${lista(esgT)}.`); if (par.length) r.push(`Sem bater o ponto: ${lista(par)}.`);
+  return r.join(' ');
+}
+const ORDEM_AP = ['oregano', 'leo', 'rt', 'tribuna', 'jaci'];
+function verPecas(c) {
+  if (c && !CLIS_APROV.includes(c)) return `${nomeCli(c)} não tem painel de aprovação.`;
+  FILTRO_AP = c || 'todos'; pintaAprov(); ir('#aprovacoes');
+  const l = (c ? pecasPend(c) : ORDEM_AP.flatMap(x => pecasPend(x))).filter(p => p.st === 'aguardando');
+  CTX.lista = l.map(p => ({ cli: p.cli, titulo: p.titulo })); CTX.listaTipo = 'peca';
+  if (!l.length) return c ? vr('semPeca', { cli: nomeCli(c) }) : escolhe('vp0', ['Nenhuma peça esperando a sua aprovação. Tudo em dia.', 'Não tem nada para aprovar agora.']);
+  const n = l.length, prim = titFala(l[0].titulo), quem = c ? nomeCli(c) : 'Ao todo';
+  CTX.pend = { tipo: 'aprovar', cli: l[0].cli, titulo: l[0].titulo, em: Date.now() }; abreJanela(15000);
+  return escolhe('vp', [`${quem} tem ${pl(n, 'peça esperando', 'peças esperando')} você. A primeira é “${prim}”. Quer aprovar?`,
+    `Abri aqui: ${pl(n, 'peça', 'peças')} ${c ? deCli(c) : 'no total'}. Começo pela primeira, “${prim}”. Aprovo essa?`,
+    `São ${pl(n, 'peça', 'peças')} para aprovar${c ? ' ' + deCli(c) : ''}. A primeira: “${prim}”. Posso aprovar?`]);
+}
+function itemDaLista(o) { const l = CTX.lista || []; if (!l.length) return null; const i = o === -1 ? l.length - 1 : (o || 1) - 1; return l[i] || null; }
+async function gravaAprov(cli, tit, st, nota) {
+  const ok = await muda('ap-' + cli, d => { d.itens = (d.itens || []).filter(x => x.titulo !== tit); d.itens.push(st === 'aprovado' ? { titulo: tit, st: 'aprovado', em: agora() } : { titulo: tit, st: 'em revisão', nota: String(nota || '').slice(0, 500), em: agora() }); });
+  if (ok) { if (CTX.lista) CTX.lista = CTX.lista.filter(x => x.titulo !== tit); pintaTudo(); } return ok;
+}
+async function aprovaPed(id) {
+  const ok = await muda('ped', d => { const x = d.itens.find(y => y.id === id); if (x) { x.st = 'aprovado'; x.esperando = false; x.atualizado = agora(); x.aprovadoEm = agora(); } });
+  if (ok) { if ((S.feitas.d.itens || []).some(f => f.id === 'f-' + id)) await muda('feitas', d => { const f = d.itens.find(y => y.id === 'f-' + id); if (f) { f.aprovado = true; f.aprovadoEm = agora(); } }); pintaTudo(); } return ok;
+}
+async function executaPend(p) {
+  CTX.pend = null;
+  if (p.tipo === 'enviar') { if (P.cli && P.fn) { envia(); return ''; } return vr('pedidoPerdido'); }
+  if (p.tipo === 'aprovar') return (await gravaAprov(p.cli, p.titulo, 'aprovado')) ? vr('aprovou', { cli: nomeCli(p.cli) }) : vr('erroSalvar');
+  if (p.tipo === 'aprovarTodas') { let ok = true; for (const x of p.itens) ok = (await gravaAprov(x.cli, x.titulo, 'aprovado')) && ok; return ok ? `${pl(p.itens.length, 'peça aprovada', 'peças aprovadas')}. Já aparecem nos painéis.` : vr('erroSalvar'); }
+  if (p.tipo === 'ajuste') return (await gravaAprov(p.cli, p.titulo, 'ajuste', p.nota)) ? vr('ajusteFeito', { cli: nomeCli(p.cli) }) : vr('erroSalvar');
+  if (p.tipo === 'aprovarPed') return (await aprovaPed(p.id)) ? escolhe('apd', ['Pedido aprovado.', 'Aprovei o pedido.', 'Pronto, pedido aprovado e anotado.']) : vr('erroSalvar');
+  return '';
+}
+function pedidoVoz(fn, c, orig) {
+  P.fn = fn; if (c) P.cli = c; else if (!P.cli && CTX.cli) P.cli = CTX.cli; P.forcar = false; const d = orig ? limpaFala(tiraChamado(orig)) : ''; if (d) $('#detalhe').value = d; pintaEscolhas();
+  CTX.intent = 'pedido'; if (P.cli) CTX.cli = P.cli;
+  if (!P.cli) { CTX.espera = { tipo: 'cli', em: Date.now() }; abreJanela(15000); return escolhe('pq', [`${nomeFn(fn)} para qual cliente? Jaci, Tribuna, Leo ou Real Time?`, vr('qualCli')]); }
+  if (orig && FIM_ENVIA.test(sem(orig).replace(/[^a-z0-9 ]/g, ' ').trim())) { envia(); return ''; }
+  CTX.pend = { tipo: 'enviar', em: Date.now() }; abreJanela(15000);
+  const a = nomeFn(P.fn), b = deCli(P.cli);
+  return escolhe('pd', [`${a} ${b}. Mando para a equipe?`, `Entendi: ${a} ${b}. Posso mandar?`, `Montei ${a} ${b}. Diga sim para enviar.`, `${a} ${b}, certo? Confirma que eu mando.`]);
+}
+function falaFeitas(per, c) {
+  per = per || (c ? 'tudo' : 'hoje');
+  const ok = f => (per === 'hoje' ? f.data === hojeSLZ() : per === 'ontem' ? f.data === hojeSLZ(1) : per === '7d' ? f.data >= hojeSLZ(6) : per === 'mes' ? (f.data || '').slice(0, 7) === hojeSLZ().slice(0, 7) : true) && (!c || f.cli === c);
+  PER_F = per; CLI_F = c || 'todos'; pintaFeitas(); ir('#feitas');
+  if (!S.feitas.ok) return 'As tarefas feitas ainda estão carregando.';
+  const l = (S.feitas.d.itens || []).filter(ok).sort((a, b) => ((b.data || '') + (b.hora || '')).localeCompare((a.data || '') + (a.hora || '')));
+  const quandoT = { hoje: 'Hoje', ontem: 'Ontem', '7d': 'Nos últimos 7 dias', mes: 'Neste mês', tudo: 'Até agora' }[per];
+  const para = c ? ' ' + (c === 'marca' ? 'na sua marca' : 'para ' + nomeCli(c)) : '';
+  if (!l.length) return escolhe('fz0', [`${quandoT}${para}, nada anotado nas tarefas feitas.`, `Não achei tarefa feita${para} ${quandoT.toLowerCase()}.`]);
+  const it = l.slice(0, 3).map(f => curto(f.atividade, 50).toLowerCase() + (c ? '' : ' ' + (f.cli === 'outro' ? '' : deCli(f.cli)))).map(x => x.trim());
+  return `${quandoT}${para}: ${pl(l.length, 'tarefa', 'tarefas')}. ` + cap(lista(it)) + (l.length > 3 ? ', entre outras.' : '.');
+}
+function falaAgenda(tipo) {
+  const ps = E.agenda_posts || [], ag = E.agenda; if (!ps.length && !ag) return vr('semAgenda');
+  const agoraS = hojeSLZ() + ' ' + horaSLZ(), aberto = p => p.status !== 'postado';
+  if (tipo === 'hoje') { const h = ps.filter(p => (p.quando || '').startsWith(hojeSLZ())); const fal = h.filter(aberto);
+    if (!h.length) return vr('nadaHoje'); if (!fal.length) return escolhe('ag-h0', [`Hoje já foi tudo: ${pl(h.length, 'post publicado', 'posts publicados')}.`, `O de hoje já está no ar. ${pl(h.length, 'post', 'posts')}.`]);
+    return `Hoje ${fal.length === 1 ? 'tem 1 post' : 'tem ' + fal.length + ' posts'}: ` + lista(fal.slice(0, 3).map(p => `“${curto(p.titulo, 50)}” às ${horaFala(p.quando.slice(11, 16))}${p.status === 'aguardando aprovação' ? ', esperando sua aprovação' : ''}`)) + '.'; }
+  const px = ps.filter(p => aberto(p) && (p.quando || '') > agoraS && (p.status === 'agendado' || p.status === 'aguardando aprovação')).sort((a, b) => a.quando.localeCompare(b.quando))[0];
+  if (!px) return vr('semProximo');
+  const dia = px.quando.slice(0, 10) === hojeSLZ() ? 'hoje' : px.quando.slice(0, 10) === hojeSLZ(-1) ? 'amanhã' : 'dia ' + px.quando.slice(8, 10) + '/' + px.quando.slice(5, 7);
+  return escolhe('ag-p', [`O próximo post é “${curto(px.titulo, 55)}”, ${dia} às ${horaFala(px.quando.slice(11, 16))}.`, `Próximo no Instagram: “${curto(px.titulo, 55)}”, ${dia}, ${horaFala(px.quando.slice(11, 16))}.`])
+    + (px.status === 'aguardando aprovação' ? ' Ainda espera a sua aprovação.' : '');
+}
+function abreResultado(c, o) {
+  let l = itens().filter(x => (x.st === 'pronto' || x.st === 'aprovado') && midiasDe(x).length);
+  if (c) l = l.filter(x => x.cli === c);
+  l.sort((a, b) => (b.prontoEm || b.atualizado || '').localeCompare(a.prontoEm || a.atualizado || ''));
+  let x = null; if (o != null && CTX.listaTipo === 'ped' && CTX.lista) { const r = itemDaLista(o); x = r && itens().find(y => y.id === r.id); }
+  x = x || l[0]; if (!x || !midiasDe(x).length) return c ? `Ainda não tem resultado pronto ${deCli(c)}.` : vr('semResultado');
+  abreVer(midiasDe(x), 0, nomeFn(x.func) + ' · ' + nomeCli(x.cli));
+  if (x.st === 'pronto') { CTX.pend = { tipo: 'aprovarPed', id: x.id, em: Date.now() }; abreJanela(20000); }
+  return escolhe('ar', [`Abrindo ${nomeFn(x.func)} ${deCli(x.cli)}.`, `Aqui está ${nomeFn(x.func)} ${deCli(x.cli)}.`]) + (x.st === 'pronto' ? ' ' + escolhe('ar2', ['Quer aprovar?', 'Aprovo esse?', 'Se estiver bom, diga aprova.']) : '');
+}
+function saudacao() {
+  const h = +horaSLZ().slice(0, 2), oi = h < 12 ? 'Bom dia' : h < 18 ? 'Boa tarde' : 'Boa noite', n = S.ped.ok ? esperandoVoce().length : 0;
+  return escolhe('oi', [`${oi}, Lindson.`, `${oi}! Tudo certo por aqui.`, `${oi}, chefe.`]) + ' ' + (n ? `Tem ${pl(n, 'coisa esperando', 'coisas esperando')} você.` : vr('nadaEsperando'));
+}
+
+// ---- uma parte da fala → resposta (null = não entendi) ----
+async function vkIntent(orig, chamou) {
+  const n = vkN(orig); if (!n) return null;
+  const w = n.split(' ').length, fn = fnDe(n), ord = ordDe(n), conta = contaDe(n), per = perDe(n);
+  const cli = cliDe(n, !!conta && RX.conta.test(n)), ctxCli = cli || CTX.cli, I = id => { CTX.intent = id; window.__vk.intent = id; if (cli) CTX.cli = cli; };
+  // 0 · esperando um dado que o VEKTOR pediu
+  if (CTX.espera && Date.now() - CTX.espera.em > 45000) CTX.espera = null;
+  if (CTX.espera && !RX.cancela.test(n)) {
+    const e = CTX.espera;
+    if (e.tipo === 'cli' && cli) { CTX.espera = null; I('pedido'); return pedidoVoz(P.fn, cli, ''); }
+    if (e.tipo === 'nota' && w >= 2 && !RX.aprov.test(n)) { CTX.espera = null; I('ajuste'); CTX.pend = { tipo: 'ajuste', cli: e.cli, titulo: e.titulo, nota: orig.trim(), em: Date.now() }; abreJanela(15000);
+      return escolhe('aj-c', [`Peço ajuste em “${titFala(e.titulo)}”: ${curto(orig, 70)}. Confirma?`, `Ajuste em “${titFala(e.titulo)}”: ${curto(orig, 70)}. Mando?`]); }
+  }
+  // 1 · controle da conversa
+  if (RX.falar.test(n)) { I('falar'); CALADO = false; return vr('voltaFalar'); }
+  if (RX.silencio.test(n)) { I('silencio'); CALADO = true; calaVoz(); return vr('calado'); }
+  if (/\b(?:esta|muito) baixo\b|\bbaixo demais\b|\bnao estou (?:te )?ouvindo\b/.test(n) || (RX.alto.test(n) && !/\b(?:esta|muito) alto\b|alto demais/.test(n))) { I('alto'); if (VK.vol >= 1) return vr('volMax'); VK.vol = Math.min(1, VK.vol + .25); return vr('alto'); }
+  if (RX.baixo.test(n)) { I('baixo'); if (VK.vol <= .25) return vr('volMin'); VK.vol = Math.max(.25, VK.vol - .25); return vr('baixo'); }
+  if (RX.para.test(n)) { I('parar'); calaVoz(); return ''; }
+  if (RX.repete.test(n) && w <= 6) { I('repetir'); return CTX.ultResp ? vr('repete') + CTX.ultResp : vr('repetirNada'); }
+  if (RX.cancela.test(n)) { I('cancelar');
+    if (CTX.pend || CTX.espera) { CTX.pend = null; CTX.espera = null; return vr('cancelado'); }
+    if (CTX.desfazer && Date.now() - CTX.desfazer.em < 120000) { const id = CTX.desfazer.id; CTX.desfazer = null; return (await muda('feitas', d => { d.itens = (d.itens || []).filter(f => f.id !== id); })) ? (pintaFeitas(), vr('desfeito')) : vr('erroSalvar'); }
+    if (P.fn || P.cli) { P.fn = null; P.cli = null; $('#detalhe').value = ''; pintaEscolhas(); return vr('cancelado'); }
+    return vr('nadaCancelar'); }
+  if (RX.nao.test(n) && w <= 4 && CTX.pend) { I('nao'); CTX.pend = null; return vr('cancelado'); }
+  if (RX.sim.test(n) && w <= 5 && !fn && !cli && ord == null && !RX.ajuste.test(n) && !(RX.abrir.test(n) && !/^(?:sim|pode|manda|ok|isso)\b/.test(n))) {
+    if (CTX.pend && Date.now() - CTX.pend.em < 90000) { I('confirmar'); return executaPend(CTX.pend); }
+    if (/^(?:manda|pode mandar|envia|enviar|pode enviar)\b/.test(n) && P.cli && P.fn) { I('confirmar'); envia(); return ''; }
+    if (!/^(?:aprova|aprove)\b/.test(n)) { I('confirmar'); return vr('semConfirmar'); }
+  }
+  // 2 · conversa social e ajuda
+  if (RX.ajuda.test(n)) { I('ajuda'); abreJanela(10000); return vr('ajuda'); }
+  if (RX.quem.test(n)) { I('quem'); return vr('quem'); }
+  if (RX.hora.test(n)) { I('hora'); return escolhe('hr', ['Agora são ', 'São ']) + horaFala(horaSLZ()) + '.'; }
+  if (RX.obrigado.test(n) && w <= 6) { I('obrigado'); return vr('obrigado'); }
+  if (RX.oi.test(n) && w <= 4 && !cli && !fn) { I('oi'); abreJanela(10000); return saudacao(); }
+  // 3 · tarefas feitas
+  if (RX.feito.test(n)) { I('feito'); await feitoVoz(orig); return ''; }
+  if (RX.feitas.test(n)) { I('feitas'); return falaFeitas(per, cli); }
+  // 4 · aprovar e pedir ajuste por voz
+  const fala_lista = /\b(?:o que|quais|quantas?|tem|mostr\w*|ver|veja|lista\w*|verifi\w*)\b/.test(n) && ord == null && !/\btodas?\b/.test(n);
+  if ((RX.aprov.test(n) || RX.ajuste.test(n)) && !fala_lista) {
+    const aj = RX.ajuste.test(n);
+    if (/\bpedido\b/.test(n) || (CTX.listaTipo === 'ped' && !cli)) { I('aprovarPed');
+      if (!CTX.lista || CTX.listaTipo !== 'ped') falaFilaV('pronto');
+      const r = itemDaLista(ord || 1), x = r && itens().find(y => y.id === r.id); if (!x) return vr('nadaPronto');
+      if (aj) return 'Para pedir ajuste num pedido, toque em Ajuste na fila. Por voz eu aprovo.';
+      CTX.pend = { tipo: 'aprovarPed', id: x.id, em: Date.now() }; abreJanela(15000);
+      return escolhe('apd-c', [`Aprovo ${nomeFn(x.func)} ${deCli(x.cli)}? Diga sim.`, `${nomeFn(x.func)} ${deCli(x.cli)}: aprovo?`]); }
+    if (cli || !CTX.lista || CTX.listaTipo !== 'peca') { if (cli && !CLIS_APROV.includes(cli)) return `${nomeCli(cli)} não tem painel de aprovação.`; const v = verPecas(cli || null); if (!CTX.lista || !CTX.lista.length) { I('ver'); return v; } }
+    const l = CTX.lista || [];
+    if (/\btodas?\b/.test(n) && !aj) { I('aprovarTodas'); if (!l.length) return vr('semLista'); CTX.pend = { tipo: 'aprovarTodas', itens: l.slice(), em: Date.now() }; abreJanela(15000);
+      return escolhe('apt', [`Aprovo ${pl(l.length, 'peça', 'as ' + l.length + ' peças')}${cli ? ' ' + deCli(cli) : ''}? Diga sim para confirmar.`, `São ${l.length}. Aprovo todas?`]); }
+    const it = ord != null ? itemDaLista(ord) : l.length === 1 ? l[0] : (CTX.pend && CTX.pend.tipo === 'aprovar' ? l.find(x => x.titulo === CTX.pend.titulo) : null);
+    if (!it) { I('qualPeca'); abreJanela(15000); return ord != null ? vr('pecaNao') : vr('qualPeca'); }
+    if (aj) { I('ajuste');
+      const nota = orig.replace(/^.*?\b(?:ajust\w*|corrig\w*|corrige|refaz\w*|refa[cç]a)\b(?:\s+(?:n[ao]s?|d[ao]s?|em)\s+(?:a|o)?\s*(?:primeir\w*|segund\w*|terceir\w*|quart\w*|quint\w*|[uú]ltim\w*|\d+)(?:\s+(?:pe[cç]a|post|arte|carrossel|conte[uú]do))?)?\s*[:,\-–]?\s*(?:(?:para|pra|que)\s+)?/i, '').trim();
+      if (!nota || nota.split(/\s+/).length < 2) { CTX.espera = { tipo: 'nota', cli: it.cli, titulo: it.titulo, em: Date.now() }; abreJanela(20000); return `Na peça “${titFala(it.titulo)}”. ` + vr('notaQual'); }
+      CTX.pend = { tipo: 'ajuste', cli: it.cli, titulo: it.titulo, nota, em: Date.now() }; abreJanela(15000);
+      return escolhe('aj-c', [`Peço ajuste em “${titFala(it.titulo)}”: ${curto(nota, 70)}. Confirma?`, `Ajuste em “${titFala(it.titulo)}”: ${curto(nota, 70)}. Mando?`]); }
+    I('aprovar'); CTX.pend = { tipo: 'aprovar', cli: it.cli, titulo: it.titulo, em: Date.now() }; abreJanela(15000);
+    return escolhe('ap-c', [`Aprovo “${titFala(it.titulo)}” ${deCli(it.cli)}? Diga sim.`, `“${titFala(it.titulo)}”, ${deCli(it.cli)}. Confirma a aprovação?`, `Vou aprovar “${titFala(it.titulo)}”. Posso?`]);
+  }
+  // 5 · agenda do Instagram (antes do pedido: "o que posta hoje" não é pedido de post)
+  if (RX.agenda.test(n) && !(RX.pede.test(n) && fn)) { I('agenda'); return falaAgenda(/\bhoje\b/.test(n) && !/\bproxim/.test(n) ? 'hoje' : 'proximo'); }
+  // 6 · ver conteúdos e aprovações de um cliente
+  if (RX.verPecas.test(n) && RX.pecas.test(n) && !(RX.pede.test(n) && fn && fn !== 'aprovar')) { I('ver'); return verPecas(cli); }
+  // 7 · abrir resultado de um pedido
+  if (RX.abrir.test(n) && (RX.resultado.test(n) || (ord != null && CTX.listaTipo === 'ped'))) { I('resultado'); return abreResultado(cli, ord); }
+  if (RX.abrir.test(n) && ord != null && CTX.listaTipo === 'peca') { const it = itemDaLista(ord); if (!it) return vr('pecaNao'); I('verPeca'); const p = ((E.pecas || {})[it.cli] || []).find(y => y.titulo === it.titulo);
+    if (p) abreVer([p.img].concat(p.telas || []), 0, p.titulo); CTX.pend = { tipo: 'aprovar', cli: it.cli, titulo: it.titulo, em: Date.now() }; abreJanela(20000); return `Abrindo “${titFala(it.titulo)}”. ` + escolhe('vpc', ['Aprovo?', 'Quer aprovar?']); }
+  // 8 · abrir ferramentas, painéis e seções
+  if (RX.abrir.test(n) || /^(?:recomeco|canais dark)$/.test(n)) {
+    if (/\brecomeco\b/.test(n)) { I('abrir'); abreFerr('/painel/recomeco', 'Recomeço 90'); return vr('abreRec'); }
+    if (/\bcanais dark|canais|canal dark\b/.test(n)) { I('abrir'); abreFerr('/painel/canais', 'Canais dark'); return vr('abreCan'); }
+    if (/\bfotos?\b/.test(n) && ctxCli) { I('abrir'); if (!CLIS_APROV.includes(ctxCli)) return vr('semPainel'); setTimeout(() => location.href = '/painel/' + ctxCli + '#fotos', 1200); return vr('abreFotos', { cli: nomeCli(ctxCli) }); }
+    if (/\bpainel\b/.test(n) || (cli && w <= 4 && !fn)) { I('abrir'); const c = cli || CTX.cli; if (!c) { CTX.espera = null; abreJanela(15000); return vr('qualCli'); } if (!CLIS_APROV.includes(c)) return vr('semPainel');
+      setTimeout(() => location.href = '/painel/' + c, 1200); return vr('abrePainel', { cli: nomeCli(c) }); }
+    if (/\bfila\b/.test(n)) { I('fila'); ir('#fila'); return vr('abreFila'); }
+    if (/\bequipe\b/.test(n)) { I('equipe'); ir('#equipe'); return vr('abreEquipe'); }
+    if (/\b(?:feitas?|tarefas?)\b/.test(n)) { I('feitas'); ir('#feitas'); return vr('abreFeitas'); }
+    if (/\b(?:resultados|placar|analise)\b/.test(n)) { I('status'); ir('#resultados'); return vr('abreResult'); }
+    if (/\b(?:contas|configura\w*)\b/.test(n)) { I('abrir'); ir('#contas'); return vr('abreContas'); }
+    if (/\baprovac\w*\b/.test(n)) { I('ver'); return verPecas(cli); }
+  }
+  // 9 · fila
+  if (RX.fila.test(n) && !fn) { I('fila'); ir('#fila'); return falaFilaV(/\b(?:prontos?|ficou pronto|esta pronto)\b/.test(n) && !/\bfila\b/.test(n) ? 'pronto' : ''); }
+  // 10 · contas e equipe
+  if (conta && (RX.conta.test(n) || w <= 3) && !fn) { I('conta'); ir('#equipe'); return infoConta(conta); }
+  if (RX.equipe.test(n) && !fn) { I('equipe'); ir('#equipe'); return falaEquipeV(/\besgot\w*|limite\b/.test(n) ? 'esgotou' : /\b(?:livre|disponivel|pode)\b/.test(n) ? 'livre' : ''); }
+  if (conta && !cli && !fn) { I('conta'); return infoConta(conta); }
+  // 11 · status e placar
+  if (RX.status.test(n) && (!fn || FN[fn].acao)) { I('status'); ir('#resultados'); return ctxCli && (cli || w <= 4) ? falaCliente(ctxCli, /\bfalta\b/.test(n) ? 'falta' : '') : falaGeral(); }
+  if (fn === 'aprovar') { I('ver'); return verPecas(cli); }
+  // 12 · pedido de trabalho
+  if (fn && !FN[fn].acao) { I('pedido'); return pedidoVoz(fn, cli, orig); }
+  if (fn === 'fotos' && ctxCli) { I('abrir'); if (!CLIS_APROV.includes(ctxCli)) return vr('semPainel'); setTimeout(() => location.href = '/painel/' + ctxCli + '#fotos', 1200); return vr('abreFotos', { cli: nomeCli(ctxCli) }); }
+  // 13 · continuação curta: "e da Tribuna?", "e a Jaci?"
+  if (cli && w <= 5) {
+    const ult = CTX.intent; I(ult || 'cli');
+    if (ult === 'status' || ult === 'conta') { CTX.intent = 'status'; return falaCliente(cli, ''); }
+    if (ult === 'ver' || ult === 'aprovar' || ult === 'qualPeca') { CTX.intent = 'ver'; return verPecas(cli); }
+    if (ult === 'feitas') return falaFeitas(per, cli);
+    if (ult === 'resultado') return abreResultado(cli, null);
+    if (ult === 'pedido' && P.fn) return pedidoVoz(P.fn, cli, '');
+    CTX.intent = 'cli'; abreJanela(15000); return vr('statusOque', { cli: nomeCli(cli), de: deCli(cli) });
+  }
+  if (conta) { I('conta'); return infoConta(conta); }
+  return null;
+}
+// divide a fala longa em partes (só separa no "e" quando os dois lados fazem sentido sozinhos)
+function vkPartes(t) {
+  const out = [];
+  String(t).replace(/\bDra\.\s/gi, 'Dra ').split(/\s*(?:[;!?]+|\.\s+|\s+e\s+(?:depois|tamb[eé]m|ainda)\s+|\s+depois\s+(?:disso\s+)?|\s+al[eé]m disso\s+|,\s*(?:e\s+)?(?:depois|tamb[eé]m)\s+)\s*/i).map(x => x.trim()).filter(Boolean).forEach(p => {
+    const ps = p.split(/\s+e\s+/i);
+    if (ps.length > 1) { let ini = 0; for (let i = 1; i < ps.length; i++) { const a = ps.slice(ini, i).join(' e '), b = ps.slice(i).join(' e ');
+      if (vkPode(a) && vkPode(b) && !fnDe(vkN(b)) === !fnDe(vkN(a))) { out.push(a); ini = i; } } out.push(ps.slice(ini).join(' e ')); }
+    else out.push(p);
+  });
+  return out.length ? out : [t];
+}
+const vkPode = t => { const n = vkN(t); return n.split(' ').length >= 2 && (RX.fila.test(n) || RX.equipe.test(n) || RX.status.test(n) || RX.agenda.test(n) || RX.feitas.test(n) || (RX.verPecas.test(n) && RX.pecas.test(n)) || RX.abrir.test(n) || !!contaDe(n)); };
+function naoEntendi(t) { const n = vkN(t), c = cliDe(n); if (c) { CTX.cli = c; return vr('statusOque', { cli: nomeCli(c), de: deCli(c) }); } return vr('naoEntendi'); }
+// sem cérebro (ou comando claro): responde na hora, com os dados da tela
+async function vkLocal(t, chamou, jaMostrou) {
+  const fala = tiraChamado(t) || t; if (!jaMostrou) papo('eu', fala);
+  const R = []; let entendeu = false;
+  for (const p of vkPartes(fala)) { let r = null; try { r = await vkIntent(p, chamou); } catch (e) { console.warn('VEKTOR', e); r = vr('erroSalvar'); } if (r == null) continue; entendeu = true; if (r) R.push(r); }
+  if (!entendeu) {
+    if (!chamou) { papo('sis', 'Não era comigo? Para falar comigo, comece com “Vektor”.'); CONV.ate = 0; window.__vk.intent = 'ignorado'; return; }
+    window.__vk.intent = 'naoEntendi'; R.push(naoEntendi(fala)); abreJanela(15000);
+  }
+  else abreJanela(8000); // resposta entendida: 8 s para continuar sem o nome ("e da Tribuna?")
+  window.__vk.log.push({ fala, intent: window.__vk.intent, resp: R.join(' ') });
+  if (R.length) { const txt = R.join(' '); if (window.__vk.intent !== 'repetir') CTX.ultResp = txt; responde(txt, true); }
+}
+
+// controles que valem mesmo com o cérebro ligado (respondem na hora, sem rede)
+const vkControle = n => RX.silencio.test(n) || RX.falar.test(n) || RX.baixo.test(n) || RX.alto.test(n) || RX.para.test(n) || RX.cancela.test(n) || RX.feito.test(n) || (CTX.pend && (RX.sim.test(n) || RX.nao.test(n)) && n.split(' ').length <= 5);
+function avisoIA(ligado) { const a = $('#vk-ia'); if (a) a.hidden = !!ligado; }
 // frases de molde (cada fala completa tem um clipe pré-gravado em voz/; ver voz/frases.txt)
 const deCli = c => c === 'marca' ? 'da sua marca' : c === 'outro' ? 'de outro cliente' : 'de ' + nomeCli(c);
 const artConta = c => c === 'Zuleide' ? 'a Zuleide' : c === 'Lindson' ? 'a conta Lindson' : 'o ' + c;
@@ -1353,7 +1774,7 @@ async function anotaFeito(cli, atividade, data, hora, falado) {
   const linha = { id: 'f' + Date.now().toString(36) + Math.random().toString(36).slice(2, 5), data: data || hojeSLZ(), hora: hora == null ? horaSLZ() : hora, cli: cli || 'outro', atividade: String(atividade).trim().slice(0, 300), por: 'Lindson', origem: 'lindson', em: agora() };
   if (!linha.atividade) { toast('Diga ou escreva a atividade.'); return false; }
   if (!(await muda('feitas', d => { d.itens = (d.itens || []).concat([linha]); }))) return false;
-  pintaFeitas(); if (falado) responde(`Vektor aqui. Anotado nas tarefas feitas ${deCli(linha.cli)}.`); else toast('Anotado em Tarefas feitas.');
+  pintaFeitas(); if (falado) { CTX.desfazer = { id: linha.id, em: Date.now() }; const r = vr('anotado', { de: deCli(linha.cli) }); CTX.ultResp = r; responde(r, true); abreJanela(8000); } else toast('Anotado em Tarefas feitas.');
   return true;
 }
 // voz: "Vektor, feito: Tribuna, refiz as capas dos Reels"
@@ -1363,7 +1784,7 @@ function feitoVoz(t) {
   const c = CLIS.find(c => c.voz.concat([sem(c.nome)]).some(v => s0.startsWith(v) || s0.startsWith('d' + 'a ' + v) || s0.startsWith('do ' + v) || s0.startsWith('de ' + v)));
   if (c) { cli = c.id; const corte = resto.search(/[,:;.-]/); resto = corte > -1 && corte < 40 ? resto.slice(corte + 1).trim() : resto.split(/\s+/).slice(c.nome.split(' ').length).join(' '); }
   else { const c2 = CLIS.find(c => c.voz.some(v => s0.includes(' ' + v + ' ') || s0.includes(' ' + v))); if (c2) cli = c2.id; }
-  if (!resto) { responde('Vektor aqui. Diga o que foi feito depois do cliente.'); return; }
+  if (!resto) { responde(escolhe('fz-v', ['Diga o que foi feito depois do cliente.', 'O que foi feito? Diga o cliente e a atividade.']), true); abreJanela(12000); return; }
   anotaFeito(cli || 'outro', resto.charAt(0).toUpperCase() + resto.slice(1), null, null, true);
 }
 async function janelaFeito() {
@@ -1514,7 +1935,7 @@ $('#clis').innerHTML = CLIS.map(c => `<button type="button" class="cli${c.pg ? '
 $('#teclas').innerHTML = GRUPOS.map(g => `<div class="grupo-rot"><span class="rot">${g[0]}</span></div>` + g[2].map(f => `<button type="button" class="tec${LARGAS.includes(f[0]) ? ' larga' : ''}" data-fn="${f[0]}" aria-pressed="false" style="--c:${g[1]}"><span class="face"><i></i><b>${LARGAS.includes(f[0]) ? f[1] : f[2]}</b></span><span class="nome">${LARGAS.includes(f[0]) ? f[2] + ' · mais pedido' : f[1]}</span></button>`).join('')).join('');
 
 // ---------- início ----------
-checaCerebro(); cena(); revelar(); relogio(); setInterval(relogio, 1000); pintaSom(); pintaVozAv(); pintaTudo(); pintaEscuta(); aneis(); avatar(); orbita(); iniciaEscuta();
+checaCerebro(); setInterval(checaCerebro, 5 * 6e4); cena(); revelar(); relogio(); setInterval(relogio, 1000); pintaSom(); pintaVozAv(); pintaTudo(); pintaEscuta(); aneis(); avatar(); orbita(); iniciaEscuta();
 let antes = -1;
 async function ciclo(primeira) {
   await Promise.all(Object.keys(S).map(carrega));

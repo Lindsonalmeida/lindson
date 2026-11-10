@@ -1,19 +1,74 @@
 [
-  ["Pois não?", "Pois não."],
-  ["Site / mini site", "site ou mini site"],
-  ["Tribuna 98", "Tribuna noventa e oito"],
-  ["Real Time", "Ríal Táime"],
-  ["Leo Pinto", "Léo Pinto"],
-  ["Dra.", "Doutora"],
-  ["Vektor", "Véctor"],
-  ["Reels", "Rius"],
-  ["Jaci", "Jáci"],
-  ["Zuleide", "Zulêide"],
-  ["Stories", "Stóris"],
-  ["PDF", "pê dê éfe"],
-  ["SEO", "S E O"],
-  ["Instagram", "Instagram"],
-  ["Leo", "Léo"],
-  ["SF", "Ésse Éfe"],
-  ["Landing", "Léndin"]
+ [
+  "Pois não?",
+  "Pois não."
+ ],
+ [
+  "Site / mini site",
+  "site ou mini site"
+ ],
+ [
+  "Tribuna 98",
+  "Tribuna noventa e oito"
+ ],
+ [
+  "Real Time",
+  "Ríal Táime"
+ ],
+ [
+  "Leo Pinto",
+  "Léo Pinto"
+ ],
+ [
+  "Dra.",
+  "Doutora"
+ ],
+ [
+  "Dra",
+  "Doutora"
+ ],
+ [
+  "Vektor",
+  "Véctor"
+ ],
+ [
+  "Reels",
+  "Rius"
+ ],
+ [
+  "Jaci",
+  "Jáci"
+ ],
+ [
+  "Zuleide",
+  "Zulêide"
+ ],
+ [
+  "Stories",
+  "Stóris"
+ ],
+ [
+  "PDF",
+  "pê dê éfe"
+ ],
+ [
+  "SEO",
+  "S E O"
+ ],
+ [
+  "Instagram",
+  "Instagram"
+ ],
+ [
+  "Leo",
+  "Léo"
+ ],
+ [
+  "SF",
+  "Ésse Éfe"
+ ],
+ [
+  "Landing",
+  "Léndin"
+ ]
 ]

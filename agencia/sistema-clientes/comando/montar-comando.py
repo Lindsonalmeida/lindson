@@ -216,7 +216,7 @@ def main():
     anda = andamento()
     perfil = {'esp': esp, 'andamento': [{'conta': a['contas'][-1], 'cli': c, 'oque': a['oque']} for a in anda if a['recente'] for c in a['clis']]}
     estado = {'gerado': dt.datetime.now().strftime('%d/%m/%Y %H:%M'), 'placar': pl, 'placar_data': pdata, 'entregas': ent,
-              'entregas_semana': sem, 'andamento': anda, 'agenda': agenda(), 'atividade': atividade(), 'pecas': pecas(), 'videos': videos(), 'perfil': perfil}
+              'entregas_semana': sem, 'andamento': anda, 'agenda': agenda(), 'agenda_posts': agenda_posts(), 'atividade': atividade(), 'pecas': pecas(), 'videos': videos(), 'perfil': perfil}
     base = os.path.join(PRIV, 'painel', 'comando')
     os.makedirs(os.path.join(base, 'media'), exist_ok=True)
     js = '// Gerado por agencia/sistema-clientes/comando/montar-comando.py (repositório lindson). Não edite à mão.\nwindow.__ESTADO=' + json.dumps(estado, ensure_ascii=False).replace('</', '<\\/') + ';\n'
