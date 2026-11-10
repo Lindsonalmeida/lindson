@@ -79,6 +79,8 @@ MARCA = [('03-onde-estamos', 'Marca nova 1/3 · Onde estamos', 'Postar 1º'), ('
 LMD = dict(zip(['01-nova-wf', '02-procedencia', '03-onde-estamos'], LM))
 NOTA = '\n\nImagem ilustrativa · Apple Newsroom. Uso da marca Apple autorizado ao cliente.'
 itens = [{'t': 'Post único', 'titulo': t, 'data': o + ' · abre o feed novo', 'linha': 'Marca nova', 'st': 'aguardando', 'img': f'/painel/wf/marca/{n}.jpg', 'legenda': LMD[n] + NOTA} for n, t, o in MARCA]
+itens.insert(3, {'t': 'Post fixado · panorama 3 telas', 'titulo': 'Fixados contínuos: as 3 da marca como uma arte só', 'data': 'Postar 03, 02, 01 e fixar 03, 02, 01 (último fixado fica à esquerda)', 'linha': 'Marca nova', 'st': 'aguardando',
+              'img': '/painel/wf/marca/fixados/previa-grid.jpg', 'telas': [f'/painel/wf/marca/fixados/0{i}.jpg' for i in (1, 2, 3)], 'legenda': 'Versão contínua das 3 artes da marca para os posts fixados. Baixar tudo: /painel/wf/marca/fixados/fixados-wf.zip' + NOTA})
 for i, (n, t, l) in enumerate(FEED):
     leg = L02[i] + NOTA + ('\n\nATENÇÃO: o depoimento é exemplo ilustrativo. Publicar só com print real e autorização do cliente.' if n.startswith('07') else '')
     itens.append({'t': 'Post único', 'titulo': f'Feed {i + 1}/9 · {t}', 'data': 'Postar depois dos 3 da marca nova', 'linha': l, 'st': 'aguardando', 'img': f'/painel/wf/feed/{n}.jpg', 'legenda': leg})
