@@ -1,0 +1,22 @@
+[
+ {"n":1,"slug":"13-pro-max","gancho":"preço gigante primeiro",
+  "ref":"Dois mil seiscentos e noventa e nove reais num iPhone 13 Pro Max? Preto, 256 gigas, com laudo e garantia. E o melhor vem no final: até 18 vezes no cartão. Chama no WhatsApp agora.",
+  "fala":"Dois mil seiscentos e noventa e nove reais num iPhone treze Pro Max? Preto, duzentos e cinquenta e seis gigas, com laudo e garantia. E o melhor vem no final: até dezoito vezes no cartão. Chama no WhatsApp agora.",
+  "chaves":["13","pro max","2.699"]},
+ {"n":2,"slug":"15-pro-max","gancho":"POV",
+  "ref":"Você entrando na WF com 3.950 reais no bolso e saindo com um iPhone 15 Pro Max. 256 gigas, testado e com garantia. E no Pix ainda tem desconto. Chama no WhatsApp agora.",
+  "fala":"Você entrando na dábliu éfe com três mil novecentos e cinquenta reais no bolso, e saindo com um iPhone quinze Pro Max. Duzentos e cinquenta e seis gigas, testado e com garantia. E no Pix ainda tem desconto. Chama no WhatsApp agora.",
+  "chaves":["15","pro max","3.950"]},
+ {"n":3,"slug":"12-pro-max","gancho":"pare de rolar",
+  "ref":"Pare de rolar! iPhone 12 Pro Max, 128 gigas, por 2.299 reais. Com laudo, garantia e nota. E o melhor vem no final. Chama no WhatsApp agora.",
+  "fala":"Pare de rolar! iPhone doze Pro Max, cento e vinte e oito gigas, por dois mil duzentos e noventa e nove reais. Com laudo, garantia e nota. E o melhor vem no final. Chama no WhatsApp agora.",
+  "chaves":["12","pro max","2.299"]},
+ {"n":4,"slug":"14-pro-max","gancho":"pergunta-dor",
+  "ref":"Medo de comprar seminovo bichado? Na WF todo iPhone sai com laudo. Esse é o iPhone 14 Pro Max, 128 gigas, por 3.299 reais. Chama no WhatsApp agora.",
+  "fala":"Medo de comprar seminovo bichado? Na dábliu éfe, todo iPhone sai com laudo. Esse é o iPhone catorze Pro Max, cento e vinte e oito gigas, por três mil duzentos e noventa e nove reais. Chama no WhatsApp agora.",
+  "chaves":["14","pro max","3.299"]},
+ {"n":5,"slug":"17-pro-max-silver","gancho":"antes × depois de preço (preço anterior real da própria loja)",
+  "ref":"Era 6.499. Agora é 6.399 reais. iPhone 17 Pro Max silver, 256 gigas, na garantia Apple. Chama no WhatsApp agora.",
+  "fala":"Era seis mil quatrocentos e noventa e nove. Agora é seis mil trezentos e noventa e nove reais. iPhone dezessete Pro Max silver, duzentos e cinquenta e seis gigas, na garantia Apple. Chama no WhatsApp agora.",
+  "chaves":["17","pro max","6.399"]}
+]
