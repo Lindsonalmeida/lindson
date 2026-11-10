@@ -42,3 +42,13 @@ Ordem das cores no grid: verde, creme, verde, creme, dourado, creme, dourado, ve
 Mesmo código (`A2` = função `A` da 01/02 com outra foto): recorte BiRefNet (`recorte2.py`), rosto ~360 px na mesma altura, palavra gigante em Instrument Serif itálico atrás da cabeça, manchete Inter Tight 900 com 1 destaque em itálico dourado, tag "§ PROCESSO LEGISLATIVO · Prof." no topo, "assista ao Reels ↓". Xadrez: Rafael verde, Tiago creme (grid sem cor repetida ao lado nem em cima).
 Coleta aplicada (em todas): social-media-advocacia estilo **E Black & Gold Autoridade** (retrato recortado + palavra gigante no fundo) e **F Assinatura gráfica** (§ fixo); tabela premium (hierarquia de 3 níveis, 1 palavra em itálico serifado, rodapé fixo, mesmo tratamento de foto); designer-grafico "letra passando por trás da pessoa"; motion #35 grão.
 Palavra de fundo: 03 ordem · 04 sanção · 05 moção · 06 rito · 07 fases · 08 urgência.
+
+## v5 (10/11): v4 REPROVADA ("muito simples, sem camadas, sem glamour"); v5 em camadas
+Capturas reais do Behance em `v5/referencias/` (prévias; capturas inteiras no scratch da sessão):
+| # | Referência (BR) | O que foi copiado |
+|---|---|---|
+| R1 | Behance 222952139 · Key Visual Experts (A Manada) | aura de luz atrás do expert, rim light no contorno, feixes de luz de cima |
+| R2 | Behance 144495005 · Dieggo Bruno Advogados (Isaque dsgn) | preto/verde + dourado, cena real ao fundo, selo do escritório, linha dourada na chamada |
+| R3 | Behance 166179777 · Social Media Advocacia (Igor Vinicius) | palavra serifada gigante cortada atrás da pessoa, objeto jurídico (§ em bronze, documento) |
+Descartadas: as outras 97 do `lancamento-infoprodutor-expert` (neon/laranja fora da paleta) e Dark Luxo cobre (paleta).
+Camadas (12): cena de banco desfocada (Pexels da v2, uma por capa; 04 e 06 com bancadas do plenário desenhadas) · vinheta de cor · feixe · halo · palavra gigante em degradê com sombra projetada + contorno deslocado · § gigante em relevo · documento "§ Nº" · professor recortado com rim light e sombra · brilho anamórfico · carimbo circular · vidro fosco com o tema · cantos de corte e numeração 01/08 · grão. Rosto 330 px, mesma linha para Rafael e Tiago.
