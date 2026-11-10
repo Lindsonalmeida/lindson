@@ -29,6 +29,9 @@ U=https://lindsonalmeida.pages.dev/api/automacao; H=(-H "Authorization: Bearer $
 2. **Ler a fila:** `curl -s "${H[@]}" "$U?fila=ped"`. A leitura já **redistribui** os pedidos (ver Distribuição). Trate **só** os itens com `"designada":"<sua conta>"`, nos estados `novo` ou `ajuste`, ou que já são seus (`conta` = você, `st` = `andamento`).
 3. **Respostas do Lindson:** nos seus pedidos, a última mensagem de `conversa` com `"de":"Lindson"` é a resposta dele. Siga.
 4. **Pegar 1 pedido** (o mais antigo; pagantes primeiro): `-d '{"id":"<id>","acao":"pegar","conta":"Pedro"}'` em `$U?fila=ped`. Se der 409, não é seu: pule.
+   **Pedido feito na conversa** (o Lindson pediu direto na conta): ponha na fila para nada ser refeito.
+   `-d '{"acao":"criar","conta":"Pedro","cli":"jaci","func":"reels","texto":"Reels sobre clareamento","pegar":true}'`
+   Com `pegar:true` o pedido já fica com você (`andamento`); sem ele, o distribuidor escolhe a conta. Pedido igual aberto nos últimos 14 dias dá 409 com o existente (use `forcar:true` só se for outro).
 5. **Fazer** seguindo o `CLAUDE.md` (memória, persona, pesquisa premium e as regras de cada cliente).
    - **Precisa de algo do Lindson?** Pergunte, com respostas rápidas:
      `-d '{"id":"<id>","acao":"pergunta","conta":"Pedro","texto":"Uso a foto 1 ou a 2?","opcoes":["Foto 1","Foto 2","Pode seguir"]}'`
@@ -64,6 +67,7 @@ O pedido mostra o motivo em uma linha, por exemplo "Zuleide: já está trabalhan
 | Rota | Campos |
 |---|---|
 | `?fila=ped` POST | `id` (4–40), `acao` ∈ pegar · pronto · pergunta · nota · dividir, `conta` ∈ Lindson · Zuleide · Pedro · Leandro |
+| criar (v4) | sem `id` obrigatório (o servidor gera; `id` opcional 4–40); `cli` ∈ jaci · tribuna · leo · rt · oregano · marca · outro; `func` ∈ reels · carrossel · post · stories · legenda · data · site · landing · painel · estrategia · proposta · contrato · relatorio; `texto` 1–500; `pegar?` e `forcar?` booleanos. Responde 201 com o item |
 | pronto | `midia` até 10 links https, `link` https (opcional), pelo menos um dos dois; `resumo` ≤ 300 |
 | pergunta | `texto` ≤ 500, `opcoes` até 6 de ≤ 40 |
 | dividir | `partes` de 1 a 6 `{texto ≤ 300, func?}` |

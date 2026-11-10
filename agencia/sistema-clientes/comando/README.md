@@ -4,6 +4,19 @@ Pedido do Lindson (09/11): "quero montar um sistema único, integrado com todas 
 
 No ar em **https://lindsonalmeida.pages.dev/painel/comando** (só o admin abre). Atalho em destaque no painel do admin (menu "Visão" e cartão na Visão geral) e em `dados/apps.json`.
 
+## v4 (10/11/2026, conta Zuleide, Webdesigner): o VEKTOR conversa
+Pedido do Lindson: "ele não conversa comigo"; "quero que entenda tudo que eu falo em português do Brasil e converse comigo… fluido, como uma pessoa real, o JARVIS do Homem de Ferro".
+- **Cérebro:** `functions/api/vektor.js` (privado; cópia em `site/functions/api/`), só para o admin. Usa o Claude (`claude-opus-5-5`, esforço baixo, resposta em fluxo) com o segredo **`ANTHROPIC_API_KEY`** da Cloudflare. Plano B: Workers AI (binding `AI`). Sem nenhum dos dois, a página avisa o que ativar e volta aos comandos da v3.
+- **Contexto:** fila e equipe ao vivo (KV) + placar, em andamento, últimas entregas, atividade e agenda do Instagram (`functions/_vektor_ctx.js`, gerado pelo `montar-comando.py`, sem imagens).
+- **Conversa:** "Vektor" abre; depois, por 60 s desde a última fala dele, tudo vai para ele, sem repetir o nome. A frase fecha numa pausa de ~700 ms. Histórico (16 falas) e uma memória curta vão em cada chamada e ficam na sessão do navegador.
+- **Fala frase por frase** conforme a resposta chega; "hum, deixa eu ver" se demorar; som curto do HUD ao pensar. Dá para **interromper** falando (o que bate com a fala dele é tratado como eco e descartado).
+- **Pedidos:** ele resume e pergunta "posso mandar para a fila?"; com o sim (ou "enviar"/"pode mandar") a página cria o pedido pelo mesmo caminho do botão Enviar, com o aviso de "já existe". O servidor só aceita criar o pedido que estava pendente.
+- **Tela:** balões discretos (VOCÊ / VEKTOR) no HUD, com o detalhe em letra pequena; no celular, o título some enquanto conversa.
+- **Contas criam pedido:** `acao: "criar"` na `/api/automacao` (ver `PROTOCOLO-CONTAS.md`).
+- **Preparado, ainda não ligado:** aviso no celular (`v4/app/`: service worker, manifesto e ícones, já copiados para `painel/comando/`). Foi para depois, por decisão do Lindson.
+- **Voz:** a melhor voz pt-BR do navegador (no Edge, as vozes "Natural" são as melhores). TTS neural no servidor não sai de graça em pt-BR (os modelos de voz do Workers AI não falam português); com uma chave paga (ElevenLabs ou Azure) dá para criar `/api/voz`.
+- Conferência: `v4/v4-desktop-1440-conversa.png`, `v4/v4-celular-390-conversa.png` (conversa simulada de 6 trocas, com o servidor de teste).
+
 ## v3 (09/11/2026, conta Leandro): o VEKTOR, que ouve sempre
 - **Escuta automática:** ao abrir, pede o microfone uma vez e liga a voz contínua em pt-BR. Ela reinicia sozinha quando cai, pausa com a aba escondida e mostra o estado no topo e no núcleo: ouvindo, pausado, bloqueado (com o passo a passo) ou sem voz (pede Chrome ou Edge). Se o navegador exigir um toque, o primeiro toque em qualquer lugar liga a escuta.
 - **Comandos:** "Vektor, reels da Jaci sobre clareamento" monta o pedido; "enviar", "manda" ou "pode mandar" no fim envia. Sem "Vektor", só navegação e envio.
@@ -65,6 +78,6 @@ cd /home/user/centrallindsonalmeida && git add painel/comando painel/comando.htm
 ## Proteção
 `functions/painel/_middleware.js` (cópia em `site/functions/`): `admin`, `comando`, `contas` e `membros` só abrem para o admin, mesmo se um dia existir um cliente com esse nome. `/painel/comando/estado.js` também fica atrás do login de admin.
 
-## Próximos passos (v2)
-- Notificação no celular quando um pedido ficar pronto.
-- Contas criarem pedido pela automação (hoje só pegam, entregam e anotam).
+## Próximos passos (v4)
+- Ligar o aviso no celular (arquivos prontos em `v4/app/`).
+- TTS neural pt-BR em `/api/voz`, se o Lindson quiser pagar uma chave de voz.
