@@ -945,7 +945,7 @@ function ligaVolumeClipe(a) {
 function volumeClipe() { if (!VK.an || !VK.tocando) return 0; VK.an.getByteTimeDomainData(VK.buf); let s = 0; for (let i = 0; i < VK.buf.length; i++) { const v = (VK.buf[i] - 128) / 128; s += v * v; } return Math.min(1, Math.sqrt(s / VK.buf.length) * 5); }
 function proxima() {
   const t = VK.fila.shift(); if (t == null) { fimFala(); return; }
-  inicioFala(); VK.ultima = t; VZ.falado = VZ.falado.concat([sem(t)]).slice(-6);
+  inicioFala(); VK.ultima = t; if (window.__vk) window.__vk.falas.push([Date.now(), t]); VZ.falado = VZ.falado.concat([sem(t)]).slice(-6);
   const arq = clipe(t); if (arq) tocaClipe('/painel/comando/voz/' + arq, t); else falaTTS(t);
 }
 function tocaClipe(url, t) {
@@ -1147,7 +1147,7 @@ const VKF = /*VKF*/{
 }/*FIM-VKF*/;
 const CTX = { cli: null, intent: null, lista: null, listaTipo: '', pend: null, espera: null, ultResp: '', desfazer: null, jan: 0, ult: {} };
 let CALADO = false;
-window.__vk = { log: [] }; // diagnóstico para a bateria de testes (testes/teste-vektor.js)
+window.__vk = { log: [], falas: [] }; // diagnóstico para a bateria de testes (testes/teste-vektor.js)
 function escolhe(k, l) {
   const ag = Date.now(); let ix = l.map((_, i) => i); if (ix.length > 1) ix = ix.filter(i => i !== CTX.ult[k]);
   const fresco = ix.filter(i => { const d = VK.ditas[sem(String(l[i]))]; return !(d && ag - d < 15000); }); if (fresco.length) ix = fresco;
@@ -1500,14 +1500,14 @@ function naoEntendi(t) { const n = vkN(t), c = cliDe(n); if (c) { CTX.cli = c; r
 // sem cérebro (ou comando claro): responde na hora, com os dados da tela
 async function vkLocal(t, chamou, jaMostrou) {
   const fala = tiraChamado(t) || t; if (!jaMostrou) papo('eu', fala);
-  const R = []; let entendeu = false;
-  for (const p of vkPartes(fala)) { let r = null; try { r = await vkIntent(p, chamou); } catch (e) { console.warn('VEKTOR', e); r = vr('erroSalvar'); } if (r == null) continue; entendeu = true; if (r) R.push(r); }
+  const R = [], ints = []; let entendeu = false;
+  for (const p of vkPartes(fala)) { let r = null; window.__vk.intent = null; try { r = await vkIntent(p, chamou); } catch (e) { console.warn('VEKTOR', e); r = vr('erroSalvar'); } if (r == null) continue; entendeu = true; ints.push(window.__vk.intent); if (r) R.push(r); }
   if (!entendeu) {
     if (!chamou) { papo('sis', 'Não era comigo? Para falar comigo, comece com “Vektor”.'); CONV.ate = 0; window.__vk.intent = 'ignorado'; return; }
     window.__vk.intent = 'naoEntendi'; R.push(naoEntendi(fala)); abreJanela(15000);
   }
   else abreJanela(8000); // resposta entendida: 8 s para continuar sem o nome ("e da Tribuna?")
-  window.__vk.log.push({ fala, intent: window.__vk.intent, resp: R.join(' ') });
+  window.__vk.log.push({ fala, intent: window.__vk.intent, intents: ints, resp: R.join(' ') });
   if (R.length) { const txt = R.join(' '); if (window.__vk.intent !== 'repetir') CTX.ultResp = txt; responde(txt, true); }
 }
 
