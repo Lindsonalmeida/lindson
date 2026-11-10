@@ -19,7 +19,7 @@ def cena(id, corpo):
     S.append(f'<section class="f" id="{id}" style="width:1080px;height:1920px;background:#000"><div style="position:absolute;inset:0;background:{FUNDO}"></div>{corpo}{AVISO}</section>')
 
 R = '../referencias-cliente/'; I = '../identidade/'; A = '../artes-02/'
-cena('01-antes', etq('ANTES') + tit('Uma loja boa,', 'uma marca confusa.') + cel(R + 'logo-atual.jpg', 260, 640, 560, -4))
+cena('01-antes', etq('ANTES') + tit('Uma loja boa,', 'uma marca confusa.') + cel(R + 'logo-atual.jpg', 260, 640, 560, -4, 'contain'))
 cena('02-engenharia', etq('ENGENHARIA REVERSA') + tit('Primeiro,', 'entender tudo.') +
      f'<img src="{R}perfil-instagram-10-11.png" style="position:absolute;left:40px;top:700px;width:1000px;border-radius:24px;box-shadow:0 40px 80px #000">' +
      ''.join(f'<div style="position:absolute;left:{x}px;top:{y}px;background:rgba(255,255,255,.1);backdrop-filter:blur(16px);border:1px solid rgba(255,255,255,.2);border-radius:30px;padding:16px 28px;font:300 32px Inter;color:#fff">{t}</div>'

@@ -257,3 +257,4 @@ Levantado pela conta Lindson em 01/11/2026 a partir do histórico do git e dos a
 | 10/11/2026 | Leandro | WF Celulares artes-02 (escura, Apple Pro; artes-01 reprovada) | agencia/clientes/wf-celulares/artes-02/previa-grade.jpg | aguardando aprovação |
 | 10/11/2026 | Leandro | WF Celulares: 3 posts de apresentação da marca nova + legendas | agencia/clientes/wf-celulares/artes-marca/ | aguardando aprovação |
 | 10/11/2026 | Zuleide | Leo: Culto de Gratidão (carrossel 4 telas + 3 stories + legenda) | agencia/clientes/leo-pinto/culto-gratidao/ + painel › Aprovações | aguardando OK |
+| 10/11/2026 | Leandro | WF Celulares: 5 stories de venda do case + vídeo do processo ~56 s (voz provisória edge-tts; voz 6 pendente) | agencia/clientes/wf-celulares/apresentacao-stories/ e video-processo/ (cheio no privado) | aguardando aprovação |
