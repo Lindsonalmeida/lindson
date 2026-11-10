@@ -18,7 +18,7 @@ import { CTX } from '../_vektor_ctx.js';
 
 const MODELO = 'claude-opus-5-5';
 const MODELOS_AI = ['@cf/google/gemma-4-26b-a4b-it', '@cf/meta/llama-3.3-70b-instruct-fp8-fast'];
-const ATIVAR = 'na Cloudflare (grátis): Workers e Pages → lindsonalmeida → Configurações → Vinculações → Adicionar → Workers AI → nome AI → Salvar';
+const ATIVAR = 'Cloudflare → Workers e Pages → lindsonalmeida → Configurações → Vinculações → Adicionar → Workers AI → nome AI → Salvar';
 const IRS = ['fila', 'resultados', 'equipe', 'aprovacoes'];
 
 const PERSONA = `Você é o VEKTOR, o gerente da agência do Lindson Almeida (São Luís, MA): a voz da Central de Comando, a página onde ele pede tudo à equipe.
