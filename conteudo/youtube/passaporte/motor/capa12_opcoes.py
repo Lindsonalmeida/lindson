@@ -1,79 +1,73 @@
 """Capa 12 (Paulo), 3 opções no padrão aprovado das capas 10 e 11 (conta Zuleide, 10/11/2026).
 Base: Caravaggio, "Conversão de São Paulo" (1600-01, Santa Maria del Popolo), domínio público, Wikimedia Commons, 1920 px
 (../capas-longos-10-12/fontes/caravaggio-conversao-de-sao-paulo-commons-1920.jpg). Rosto grande, luz forte, manto vermelho.
-O fundo escuro do Caravaggio (tenebrismo) é trocado por cor viva com chave de luminância: só o que está iluminado
-(Saulo, braços, manto) fica na frente da palavra gigante.
+Saulo recortado (BiRefNet portrait + chave de luz no braço direito, restos do cavalo apagados) e posto na frente da
+palavra gigante, sobre fundo de cor viva.
 - 12a "CEGO?"   copia EPIC HISTORY "MUTINY": palavra branca gigante no alto, braços erguidos de Saulo na frente dela, fundo azul vivo.
 - 12b "ELE CAIU" copia CIÊNCIA TODO DIA "FLOW": close extremo no rosto, cor quente saturada, palavra atravessando com brilho.
 - 12c "MUDOU"   copia JOHNNY HARRIS: céu aberto de fim de tarde, horizonte limpo de um lado, Saulo em meio corpo do outro.
 python3 capa12_opcoes.py -> ../capas-longos-10-12/capa-12a.jpg, capa-12b.jpg, capa-12c.jpg"""
 import json, os, subprocess, sys
 import numpy as np, cv2
-from PIL import Image, ImageEnhance
+from PIL import Image, ImageEnhance, ImageFilter
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from capas_jovem import uri, pagina, nuvens, P, FT, TMP, W, H
 
-SRC = FT + 'caravaggio-conversao-de-sao-paulo-commons-1920.jpg'
+SRC = FT + 'recorte-saulo-caravaggio.png'   # recorte 1920x1143 (faixa y 1380-2523 do quadro), BiRefNet + chave de luz no braço direito
 
-def corte(box):
-    im = Image.open(SRC).convert('RGB').crop(box).resize((W, H), Image.LANCZOS)
-    im = ImageEnhance.Color(im).enhance(1.35); im = ImageEnhance.Contrast(im).enhance(1.12)
-    return np.array(im).astype(np.float32)
+def fig(escala, box=None):
+    im = Image.open(SRC)
+    if box: im = im.crop(box)
+    im = im.resize((int(im.width * escala), int(im.height * escala)), Image.LANCZOS)
+    rgb = im.convert('RGB'); rgb = ImageEnhance.Color(rgb).enhance(1.3); rgb = ImageEnhance.Contrast(rgb).enhance(1.1); rgb = ImageEnhance.Brightness(rgb).enhance(1.12)
+    rgb.putalpha(im.getchannel('A')); return rgb
 
-def chave(rgb, a=.11, b=.24):
-    """Máscara do que está iluminado (fica na frente), pela luminância suavizada."""
-    L = cv2.GaussianBlur(cv2.cvtColor(rgb.astype(np.uint8), cv2.COLOR_RGB2GRAY), (0, 0), 2.2).astype(np.float32) / 255
-    m = np.clip((L - a) / (b - a), 0, 1); m = m * m * (3 - 2 * m)
-    m = cv2.morphologyEx(m, cv2.MORPH_CLOSE, np.ones((7, 7), np.uint8))
-    return cv2.GaussianBlur(m, (0, 0), 1.2)
-
-def comp(fundo, rgb, m, luz=1.15):
-    fg = np.dstack([np.clip(rgb * luz, 0, 255).astype(np.uint8), (m * 255).astype(np.uint8)])
-    return Image.fromarray(fundo.astype(np.uint8)), Image.fromarray(fg, 'RGBA')
+def sombra(im, alfa=.5, raio=18):
+    s = Image.new('RGBA', im.size, (5, 10, 40, 0)); s.putalpha(im.getchannel('A').filter(ImageFilter.GaussianBlur(raio)).point(lambda v: int(v * alfa))); return s
 
 def gradiente(c1, c2, cx=.5, cy=.0, raio=1.1):
     yy, xx = np.mgrid[0:H, 0:W]; r = np.clip(np.sqrt(((xx / W - cx) * 1.6) ** 2 + (yy / H - cy) ** 2) / raio, 0, 1)[..., None]
     return np.array(c1) * (1 - r) + np.array(c2) * r
 
-def html(bg, antes, fg, depois):
-    return pagina(f'<img class="l" style="inset:0" src="{uri(bg, "JPEG")}">{antes}<img class="l" style="inset:0" src="{uri(fg)}">{depois}')
+def fundo(arr): return uri(Image.fromarray(np.clip(arr, 0, 255).astype(np.uint8)), 'JPEG')
 
 def a():
-    # MUTINY: Saulo caído de braços erguidos, recortado pela luz, na frente de "CEGO?" gigante; fundo azul vivo com feixe de luz.
-    rgb = corte((80, 1290, 1920, 2325)); m = chave(rgb)
-    f = gradiente((70, 150, 255), (14, 40, 150), cx=.62, cy=-.1)
-    n = np.clip((nuvens(7) - .5) / .4, 0, 1)[..., None] ** 1.5; f = f * (1 - n * .35) + 255 * n * .35
-    bg, fg = comp(f, rgb, m)
-    return html(bg, '<div class="sh" style="mix-blend-mode:screen;background:linear-gradient(100deg,rgba(0,0,0,0) 40%,rgba(255,250,220,.55) 52%,rgba(0,0,0,0) 64%);filter:blur(16px)"></div>'
-                    '<div class="t" style="left:0;right:0;top:14px;text-align:center;font-size:300px;letter-spacing:.03em;text-shadow:0 12px 0 rgba(5,15,60,.45)">CEGO?</div>', fg,
-                '<div class="sh" style="background:linear-gradient(0deg,rgba(5,15,60,.45),rgba(0,0,0,0) 26%)"></div>'
-                '<div class="selo"><div>PASSAPORTE</div><span>DA BÍBLIA</span></div><div class="tag" style="right:36px;bottom:34px">APÓSTOLO PAULO</div>')
+    # EPIC HISTORY "MUTINY": fundo azul vivo com nuvens e feixe de luz, "CEGO?" gigante no alto, Saulo caído com os braços
+    # erguidos NA FRENTE da palavra; selo do canal no canto.
+    f = gradiente((90, 170, 255), (16, 44, 170), cx=.55, cy=-.05)
+    n = np.clip((nuvens(7) - .5) / .4, 0, 1)[..., None] ** 1.5; f = f * (1 - n * .4) + 255 * n * .4
+    p = fig(.68)
+    return pagina(f'''<img class="l" style="inset:0" src="{fundo(f)}">
+<div class="sh" style="mix-blend-mode:screen;background:linear-gradient(100deg,rgba(0,0,0,0) 38%,rgba(255,250,220,.6) 50%,rgba(0,0,0,0) 62%);filter:blur(18px)"></div>
+<div class="t" style="left:0;right:0;top:16px;text-align:center;font-size:300px;letter-spacing:.04em;text-shadow:0 12px 0 rgba(5,15,60,.4)">CEGO?</div>
+<img class="l" style="left:{580 - p.width // 2 + 26}px;top:34px" src="{uri(sombra(p))}"><img class="l" style="left:{580 - p.width // 2}px;top:8px" src="{uri(p)}">
+<div class="selo"><div>PASSAPORTE</div><span>DA BÍBLIA</span></div><div class="tag" style="right:36px;bottom:34px">APÓSTOLO PAULO</div>''')
 
 def b():
-    # FLOW: close extremo no rosto de Saulo (olhos fechados, luz no rosto), cor quente saturada, "ELE CAIU" atravessando.
-    rgb = corte((820, 1880, 1880, 2476)); m = chave(rgb, .08, .2)
-    f = gradiente((255, 120, 30), (120, 10, 10), cx=.55, cy=.75, raio=1.0)
-    bg, fg = comp(f, rgb * np.array([1.08, 1.0, .9]), m, luz=1.2)
-    return html(bg, '', fg,
-                '<div class="t" style="left:0;right:0;top:60px;text-align:center;font-size:250px;letter-spacing:.02em;'
-                'background:linear-gradient(180deg,#fff 55%,#d9f6ff);-webkit-background-clip:text;color:transparent;'
-                'filter:drop-shadow(0 0 3px #FFD23F) drop-shadow(0 12px 18px rgba(0,0,0,.7)) drop-shadow(0 0 40px rgba(255,170,60,.6))">ELE CAIU</div>'
-                '<div class="mk" style="left:40px;bottom:30px">PASSAPORTE DA BÍBLIA</div><div class="tag" style="right:40px;bottom:30px">APÓSTOLO PAULO</div>')
+    # CIÊNCIA TODO DIA "FLOW": close no rosto de Saulo (olhos fechados, luz no rosto), fundo quente saturado,
+    # "ELE CAIU" gigante atravessando com brilho.
+    f = gradiente((255, 150, 40), (140, 14, 10), cx=.55, cy=.7, raio=1.0)
+    p = fig(1.0, (820, 420, 1920, 1100))
+    return pagina(f'''<img class="l" style="inset:0" src="{fundo(f)}">
+<img class="l" style="left:{640 - p.width // 2 + 40}px;top:70px" src="{uri(sombra(p, .45, 22))}"><img class="l" style="left:{640 - p.width // 2 + 10}px;top:46px" src="{uri(p)}">
+<div class="t" style="left:0;right:0;top:40px;text-align:center;font-size:240px;letter-spacing:.02em;
+ background:linear-gradient(180deg,#fff 55%,#d9f6ff);-webkit-background-clip:text;color:transparent;
+ filter:drop-shadow(0 0 3px #FFD23F) drop-shadow(0 12px 18px rgba(0,0,0,.75)) drop-shadow(0 0 40px rgba(255,190,80,.7))">ELE CAIU</div>
+<div class="mk" style="left:40px;bottom:30px">PASSAPORTE DA BÍBLIA</div><div class="tag" style="right:40px;bottom:30px">APÓSTOLO PAULO</div>''')
 
 def c():
-    # JOHNNY HARRIS: céu de fim de tarde e horizonte limpo à esquerda; Saulo de braços erguidos em meio corpo à direita, contra o sol.
-    rgb = corte((391, 1480, 1920, 2340)); m = chave(rgb)
-    hz = 520; yy = np.arange(H)[:, None, None].astype(np.float32); xx = np.arange(W)[None, :, None].astype(np.float32)
+    # JOHNNY HARRIS: céu aberto de fim de tarde e horizonte limpo à esquerda; Saulo em meio corpo à direita, contra o sol.
+    hz = 500; yy = np.arange(H)[:, None, None].astype(np.float32); xx = np.arange(W)[None, :, None].astype(np.float32)
     t = np.clip(yy / hz, 0, 1)
-    ceu = np.array([40, 110, 220]) * (1 - t) ** 1.5 + np.array([255, 170, 80]) * (1 - (1 - t) ** 1.5)
-    ceu = ceu + np.exp(-(((xx - 760) / 300) ** 2 + ((yy - hz) / 140) ** 2)) * np.array([255, 210, 130]) * .8
-    chao = np.array([170, 96, 50]) * np.ones_like(yy)
+    ceu = np.array([40, 120, 230]) * (1 - t) ** 1.5 + np.array([255, 176, 84]) * (1 - (1 - t) ** 1.5)
+    ceu = ceu + np.exp(-(((xx - 900) / 300) ** 2 + ((yy - hz) / 140) ** 2)) * np.array([255, 214, 140]) * .8
+    chao = np.array([196, 116, 60]) * (1 - np.clip((yy - hz) / 220, 0, 1)) + np.array([120, 60, 30]) * np.clip((yy - hz) / 220, 0, 1)
     f = np.where(yy < hz, ceu, chao + 0 * xx)
-    bg, fg = comp(f, rgb, m, luz=1.2)
-    fgA = np.array(fg); xs = np.arange(W)[None, :]; fgA[..., 3] = (fgA[..., 3] * np.clip((xs - 330) / 160, 0, 1)).astype(np.uint8)
-    return html(bg, '', Image.fromarray(fgA, 'RGBA'),
-                '<div class="t" style="left:44px;top:70px;font-size:250px;text-shadow:0 10px 0 rgba(0,0,0,.45),0 0 40px rgba(0,0,0,.35)">MUDOU</div>'
-                '<div class="mk" style="left:48px;bottom:36px">PASSAPORTE DA BÍBLIA</div><div class="tag" style="left:48px;top:300px">APÓSTOLO PAULO</div>')
+    p = fig(.62)
+    return pagina(f'''<img class="l" style="inset:0" src="{fundo(f)}">
+<div class="t" style="left:44px;top:60px;font-size:270px;text-shadow:0 10px 0 rgba(0,0,0,.4),0 0 40px rgba(0,0,0,.3)">MUDOU</div>
+<img class="l" style="right:{-120 - 20}px;bottom:{-60 - 20}px" src="{uri(sombra(p, .4, 24))}"><img class="l" style="right:-120px;bottom:-60px" src="{uri(p)}">
+<div class="mk" style="left:48px;bottom:36px">PASSAPORTE DA BÍBLIA</div><div class="tag" style="left:50px;top:330px">APÓSTOLO PAULO</div>''')
 
 OPC = {'capa-12a': a, 'capa-12b': b, 'capa-12c': c}
 if __name__ == '__main__':
