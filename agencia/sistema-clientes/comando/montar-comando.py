@@ -64,7 +64,7 @@ def placar():
 
 
 # palavras que ligam um texto do REGISTRO ou do QUADRO a um cliente e a uma função (para o distribuidor)
-CLI_KW = {'jaci': ['jaci'], 'tribuna': ['tribuna'], 'leo': ['leo pinto', 'leo:', ' leo ', 'do leo', 'vereador'], 'rt': ['real time', 'rt full', 'realtime'],
+CLI_KW = {'jaci': ['jaci'], 'tribuna': ['tribuna'], 'leo': ['leo pinto', 'leo:', ' leo ', 'do leo', 'vereador'], 'rt': ['real time', 'rt full', 'realtime'], 'sf': ['desentupidora', 'grupo sf', 'gruposf'],
           'oregano': ['oregano'], 'marca': ['@lindsonalmeida', 'marca pessoal', 'site do lindson', 'marca do lindson', 'marca-lindson', 'reels do lindson', 'bio do lindson']}
 FN_KW = {'reels': ['reels', 'reel '], 'carrossel': ['carross'], 'post': ['post', 'artes', 'feed'], 'stories': ['stories', 'story', 'destaque'], 'legenda': ['legenda'],
          'data': ['data comemorativa', 'datas', 'saudac', 'aniversario'], 'site': ['site', 'mini site', ' bio'], 'landing': ['landing', 'pagina de venda'],
@@ -160,7 +160,7 @@ def atividade():
 # 6 · peças de cada cliente para aprovar (lista APROV dos painéis), sem prova social/antes e depois
 def pecas():
     out = {}
-    for cli in ('jaci', 'tribuna', 'leo', 'rt', 'oregano'):
+    for cli in ('jaci', 'tribuna', 'leo', 'rt', 'oregano', 'sf'):
         p = os.path.join(PRIV, 'painel', cli + '.html')
         if not os.path.exists(p): continue
         s = open(p, encoding='utf-8').read()
@@ -170,7 +170,8 @@ def pecas():
         except ValueError: continue
         itens = []
         for x in lista:
-            t = sem_acento((x.get('titulo') or '') + ' ' + (x.get('img') or ''))
+            img = x.get('img') or ''  # auditoria 10/11: imagem em data: (base64) não entra no filtro, senão "tcle"/"prova" sorteados no base64 somem com peças do Leo e da Real Time
+            t = sem_acento((x.get('titulo') or '') + ' ' + ('' if img.startswith('data:') else img))
             if any(w in t for w in ('prova', 'antes e depois', 'antes-depois', 'tcle', 'paciente')): continue
             if not x.get('img'): continue
             itens.append({'titulo': x.get('titulo', ''), 't': x.get('t', ''), 'img': x['img'], 'telas': (x.get('telas') or [])[:10], 'data': x.get('data', ''), 'st': x.get('st', 'aguardando')})

@@ -644,7 +644,7 @@ const CLIS = [
   { id: 'rt', nome: 'Real Time', pg: 1, voz: ['real time', 'realtime', 'real taime', 'rial time'] },
   { id: 'oregano', nome: 'Orégano Turbo', pg: 0, sub: 'operação própria', voz: ['oregano', 'pizzaria'] },
   { id: 'marca', nome: 'Minha marca', pg: 0, sub: '@lindsonalmeida_', voz: ['minha marca', 'meu instagram', 'meu perfil', 'lindson', 'minha pagina'] },
-  { id: 'sf', nome: 'Desentupidora SF', pg: 0, sub: 'mini site', voz: ['desentupidora', 'grupo sf', 'esse efe'] },
+  { id: 'sf', nome: 'Desentupidora SF', pg: 1, sub: 'mini site e campanha', voz: ['desentupidora', 'grupo sf', 'esse efe'] },
   { id: 'outro', nome: 'Outro', pg: 0, sub: 'lead ou novo', voz: ['outro cliente', 'cliente novo', 'lead'] }
 ];
 // teclas: [id, nome, código, cor do grupo, voz, ação?]
@@ -675,7 +675,7 @@ const reg = (k, url, vazio) => S[k] = { url: API + url, d: vazio, vazio, v: 0, o
 reg('ped', '/api/dados?cli=admin&f=ped', { itens: [] });
 reg('eq', '/api/dados?cli=admin&f=eq', { contas: {}, hist: [] });
 reg('feitas', '/api/dados?cli=admin&f=feitas', { itens: [] });
-const CLIS_APROV = ['jaci', 'tribuna', 'leo', 'rt', 'oregano'];
+const CLIS_APROV = ['jaci', 'tribuna', 'leo', 'rt', 'oregano', 'sf'];
 CLIS_APROV.forEach(c => reg('ap-' + c, `/api/dados?cli=${c}&f=aprov`, { itens: [] }));
 async function carrega(k) {
   const x = S[k];
@@ -769,7 +769,7 @@ async function envia() {
 function executaAcao(id) {
   if (id === 'status') { ir('#resultados'); return; }
   if (id === 'aprovar') { if (P.cli && CLIS_APROV.includes(P.cli)) FILTRO_AP = P.cli; pintaAprov(); ir('#aprovacoes'); return; }
-  if (id === 'fotos') { if (P.cli && CLIS_APROV.includes(P.cli)) location.href = '/painel/' + P.cli + '#fotos'; else toast('Escolha um cliente com painel (Jaci, Tribuna, Leo, Real Time ou Orégano).'); }
+  if (id === 'fotos') { if (P.cli && CLIS_APROV.includes(P.cli)) location.href = '/painel/' + P.cli + '#fotos'; else toast('Escolha um cliente com painel (Jaci, Tribuna, Leo, Real Time, Orégano ou Desentupidora SF).'); }
 }
 function ir(h) { const el = $(h); if (el) el.scrollIntoView({ behavior: calmo ? 'auto' : 'smooth', block: 'start' }); }
 
@@ -1135,7 +1135,7 @@ const VKF = /*VKF*/{
   "abreResult": ["Resultados na tela.", "Abri os resultados e o placar."],
   "abreContas": ["Abri a configuração das contas.", "Configuração das contas na tela."],
   "abreAprov": ["Aprovações na tela.", "Abri as aprovações."],
-  "semPainel": ["Esse cliente não tem painel. Os painéis são da Jaci, Tribuna, Leo, Real Time e Orégano.", "Não tem painel para esse. Tenho da Jaci, Tribuna, Leo, Real Time e Orégano."],
+  "semPainel": ["Esse cliente não tem painel. Os painéis são da Jaci, Tribuna, Leo, Real Time, Orégano e Desentupidora SF.", "Não tem painel para esse. Tenho da Jaci, Tribuna, Leo, Real Time, Orégano e Desentupidora SF."],
   "semAgenda": ["Não achei a agenda do Instagram agora.", "A agenda do Instagram não carregou."],
   "nadaHoje": ["Hoje não tem post agendado no seu Instagram.", "Nada para postar hoje no Instagram."],
   "semProximo": ["Não tem próximo post agendado.", "A agenda está sem próximo post. Quer pedir conteúdo?"],
@@ -1300,7 +1300,7 @@ function falaEquipeV(foco) {
   if (esg.length) r.push(`Esgotaram: ${lista(esgT)}.`); if (par.length) r.push(`Sem bater o ponto: ${lista(par)}.`);
   return r.join(' ');
 }
-const ORDEM_AP = ['oregano', 'leo', 'rt', 'tribuna', 'jaci'];
+const ORDEM_AP = ['oregano', 'leo', 'rt', 'sf', 'tribuna', 'jaci'];
 function verPecas(c) {
   if (c && !CLIS_APROV.includes(c)) return `${nomeCli(c)} não tem painel de aprovação.`;
   FILTRO_AP = c || 'todos'; pintaAprov(); ir('#aprovacoes');
@@ -1663,7 +1663,7 @@ function pecasPend(cli) { return ((E.pecas || {})[cli] || []).map(p => Object.as
 function pintaAprov() {
   const todos = CLIS_APROV.map(c => [c, pecasPend(c)]), tot = todos.reduce((a, [, l]) => a + l.filter(p => p.st === 'aguardando').length, 0);
   $('#abas-aprov').innerHTML = `<button type="button" data-fap="todos" aria-pressed="${FILTRO_AP === 'todos'}">Todos<b>${tot}</b></button>` + todos.map(([c, l]) => `<button type="button" data-fap="${c}" aria-pressed="${FILTRO_AP === c}">${esc(nomeCli(c))}<b>${S['ap-' + c].ok ? l.filter(p => p.st === 'aguardando').length : '—'}</b></button>`).join('');
-  const ordem = ['oregano', 'leo', 'rt', 'tribuna', 'jaci'];
+  const ordem = ORDEM_AP;
   const lista = (FILTRO_AP === 'todos' ? ordem.flatMap(c => pecasPend(c)) : pecasPend(FILTRO_AP));
   $('#pecas').innerHTML = lista.length ? lista.map(p => `<div class="peca"><button class="img" type="button" data-peca="${esc(p.cli)}" data-tit="${esc(p.titulo)}"><img src="${esc(p.img)}" alt="${esc(p.titulo)}" loading="lazy"><span class="tag ${p.st === 'em revisão' ? 'aj' : ''}">${esc(nomeCli(p.cli))} · ${p.st === 'em revisão' ? 'em ajuste' : 'aprovar'}</span>${p.telas && p.telas.length ? `<span class="qt">${p.telas.length + 1} telas</span>` : ''}</button>
     <h4>${esc(p.titulo)}</h4><div class="ac">${p.st === 'aguardando' ? `<button class="btn ok mini" data-ap-ok="${esc(p.cli)}" data-tit="${esc(p.titulo)}">Aprovar</button><button class="btn mini" data-ap-aj="${esc(p.cli)}" data-tit="${esc(p.titulo)}">Ajuste</button>` : `<span class="rot" style="grid-column:1/-1">Ajuste pedido · com a equipe</span>`}</div></div>`).join('')
@@ -1758,8 +1758,11 @@ function contadores() {
 const SEMENTE = [['tribuna', 'Refazer capas de Reels'], ['tribuna', 'Fotos do perfil'], ['tribuna', 'Site principal'], ['tribuna', 'Bio site'], ['oregano', 'Criei o Instagram'], ['oregano', 'Criei a identidade visual'],
   ['rt', 'Agendei duas semanas de conteúdo'], ['sf', 'Adicionei saldo na campanha e fiz a campanha'], ['sf', 'Criei cards'], ['sf', 'Criei criativos']];
 async function semente() { // o Lindson mandou as de 09/11 sem hora; entra uma vez só (marcador semente-0911)
-  if (!S.feitas.ok || (S.feitas.d.sementes || []).includes('semente-0911')) return;
-  await muda('feitas', d => { d.sementes = (d.sementes || []).concat(['semente-0911']); d.itens = (d.itens || []).concat(SEMENTE.map(([cli, atividade], i) => ({ id: 'semente-0911-' + (i + 1), data: '2026-11-09', hora: '', cli, atividade, por: 'Lindson', origem: 'lindson', em: agora() }))); });
+  // auditoria 10/11: confere item por item (id), não só o marcador; se faltar algum dos 10, repõe só o que falta
+  if (!S.feitas.ok) return;
+  const falta = d => SEMENTE.map(([cli, atividade], i) => ({ id: 'semente-0911-' + (i + 1), data: '2026-11-09', hora: '', cli, atividade, por: 'Lindson', origem: 'lindson', em: agora() })).filter(x => !(d.itens || []).some(y => y.id === x.id) && !(d.apagadas || []).includes(x.id));
+  if (!falta(S.feitas.d).length) return;
+  await muda('feitas', d => { d.sementes = [...new Set((d.sementes || []).concat(['semente-0911']))]; d.itens = (d.itens || []).concat(falta(d)); });
 }
 const hojeSLZ = (dias = 0) => new Date(Date.now() - 3 * 36e5 - dias * 864e5).toISOString().slice(0, 10);
 const horaSLZ = () => new Date(Date.now() - 3 * 36e5).toISOString().slice(11, 16);
