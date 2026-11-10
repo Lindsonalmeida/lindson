@@ -26,6 +26,24 @@ Pedido do Lindson: "ele não conversa comigo"; "quero que entenda tudo que eu fa
 - **Voz:** a melhor voz pt-BR do navegador (no Edge, as vozes "Natural" são as melhores). TTS neural no servidor não sai de graça em pt-BR (os modelos de voz do Workers AI não falam português); com uma chave paga (ElevenLabs ou Azure) dá para criar `/api/voz`.
 - Conferência: `v4/v4-desktop-1440-conversa.png`, `v4/v4-celular-390-conversa.png` (conversa simulada de 6 trocas, com o servidor de teste).
 
+## Núcleo 3D do VEKTOR (10/11/2026, conta Leandro)
+O Lindson pediu: "esse avatar dele eu também não gostei, crie algo mais bonito e 3D".
+- **O núcleo:** WebGL com Three.js 0.160.0 (jsdelivr, import map).
+  - Esfera de vidro e metal líquido com deslocamento por ruído simplex no vertex shader.
+  - Fresnel âmbar e amarelo, núcleo incandescente e reflexo de estúdio procedural.
+  - Visor com duas fendas de luz que piscam e olham, 3 anéis orbitais e partículas.
+- **O brilho fica no shader e no halo aditivo:** o UnrealBloomPass tirava a transparência do canvas e virava um quadrado sobre o vídeo.
+- **Estados:**
+  - parado, respira;
+  - ouvindo, ondula com o microfone;
+  - falando, pulsa com o clipe (AnalyserNode);
+  - pensando, os anéis aceleram;
+  - com pedidos esperando, ganha halo âmbar.
+  - O mouse e o toque giram o núcleo.
+- **Desempenho:** DPR até 1,5, pausa com a aba escondida ou fora da tela, malha mais leve no celular e quadro parado com `prefers-reduced-motion`.
+- **Sem WebGL:** volta o canvas 2D.
+- **Capturas e vídeo:** `v4/v4-*-topo.png` e `v4/v4-nucleo-reagindo.mp4`.
+
 ## v5 (10/11/2026, conta Leandro): Tarefas feitas, voz pré-gravada e fim do loop
 - **Tarefas feitas** (seção 04):
   - linha do tempo por data, com hora, cliente, atividade e quem fez;

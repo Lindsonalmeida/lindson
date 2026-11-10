@@ -113,6 +113,7 @@ main{margin-left:var(--rail)}
 .h-nucleo{display:grid;place-items:center end;padding:56px var(--gut) 40px;pointer-events:none}
 .nucleo{pointer-events:auto;position:relative;width:min(74vh,46vw,640px);aspect-ratio:1;margin-right:clamp(0px,3vw,60px)}
 .nucleo canvas{position:absolute;inset:6%;width:88%;height:88%}
+.nucleo canvas#avatar3d{inset:0;width:100%;height:100%;-webkit-mask:radial-gradient(closest-side circle,#000 78%,transparent 100%);mask:radial-gradient(closest-side circle,#000 78%,transparent 100%)}
 .nucleo::after{content:"";position:absolute;inset:14%;border-radius:50%;pointer-events:none;background:repeating-linear-gradient(0deg,rgba(11,11,11,.38) 0 1px,transparent 1px 3px);mix-blend-mode:multiply;-webkit-mask:radial-gradient(closest-side circle,#000 60%,transparent 100%);mask:radial-gradient(closest-side circle,#000 60%,transparent 100%)}
 .aneis{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
 .aneis .an{transform-origin:300px 300px;transform-box:view-box}
@@ -1511,8 +1512,100 @@ async function ciclo(primeira) {
 }
 ciclo(true);
 setInterval(() => { if (!document.hidden) ciclo(false); }, 40000);
-window.__comando = { P, FN, CLIS, entende, processa, jaExiste, S, distribuir, ciclo, AV, ESC, CONV, roteia, conversa, ouviu };
+window.__comando = { P, FN, CLIS, entende, processa, jaExiste, S, distribuir, ciclo, AV, ESC, CONV, roteia, conversa, ouviu, vol: () => lerVolume(), esperando: () => esperandoVoce().length };
 })();
+</script>
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}</script>
+<script type="module">
+// VEKTOR 3D (conta Leandro, 10/11/2026): "esse avatar dele eu também não gostei, crie algo mais bonito e 3D se for possível" (Lindson).
+// Núcleo de IA em WebGL (Three.js 0.160.0): esfera de vidro e metal líquido com deslocamento por ruído simplex (ondula com a voz),
+// fresnel âmbar e amarelo, núcleo incandescente, reflexo de estúdio procedural, visor com duas fendas de luz que piscam e olham,
+// 3 anéis orbitais finos, partículas leves e brilho em shader (fresnel + halo aditivo; o bloom do composer tirava a transparência). Parado respira; ouvindo ondula com o microfone; falando pulsa
+// com o clipe; pensando acelera os anéis; com pedidos esperando ganha halo âmbar. Sem WebGL, fica o canvas 2D.
+import * as THREE from 'three';
+const box = document.getElementById('nucleo'), c2d = document.getElementById('avatar');
+const calmo = matchMedia('(prefers-reduced-motion: reduce)').matches, cel = matchMedia('(max-width:860px)').matches;
+let r; try { const t = document.createElement('canvas'); if (!(t.getContext('webgl2') || t.getContext('webgl'))) throw 0;
+  r = new THREE.WebGLRenderer({ antialias: !cel, alpha: true, powerPreference: 'high-performance' }); } catch (e) { r = null; }
+if (box && r) {
+  const cv = r.domElement; cv.id = 'avatar3d'; cv.setAttribute('aria-hidden', 'true'); box.insertBefore(cv, c2d); c2d.style.display = 'none';
+  r.setPixelRatio(Math.min(1.5, devicePixelRatio || 1)); r.setClearColor(0x000000, 0); r.toneMapping = THREE.ACESFilmicToneMapping; r.toneMappingExposure = .9;
+  const cena = new THREE.Scene(), cam = new THREE.PerspectiveCamera(32, 1, .1, 50); cam.position.set(0, 0, 7.2);
+  const grupo = new THREE.Group(); cena.add(grupo);
+  const SIMPLEX = `vec3 m289(vec3 x){return x-floor(x*(1./289.))*289.;}vec4 m289(vec4 x){return x-floor(x*(1./289.))*289.;}vec4 perm(vec4 x){return m289(((x*34.)+1.)*x);}vec4 tis(vec4 r){return 1.79284291400159-.85373472095314*r;}
+  float snoise(vec3 v){const vec2 C=vec2(1./6.,1./3.);const vec4 D=vec4(0.,.5,1.,2.);vec3 i=floor(v+dot(v,C.yyy));vec3 x0=v-i+dot(i,C.xxx);vec3 g=step(x0.yzx,x0.xyz);vec3 l=1.-g;vec3 i1=min(g.xyz,l.zxy);vec3 i2=max(g.xyz,l.zxy);
+  vec3 x1=x0-i1+C.xxx;vec3 x2=x0-i2+C.yyy;vec3 x3=x0-D.yyy;i=m289(i);vec4 p=perm(perm(perm(i.z+vec4(0.,i1.z,i2.z,1.))+i.y+vec4(0.,i1.y,i2.y,1.))+i.x+vec4(0.,i1.x,i2.x,1.));
+  float n_=.142857142857;vec3 ns=n_*D.wyz-D.xzx;vec4 j=p-49.*floor(p*ns.z*ns.z);vec4 x_=floor(j*ns.z);vec4 y_=floor(j-7.*x_);vec4 x=x_*ns.x+ns.yyyy;vec4 y=y_*ns.x+ns.yyyy;vec4 h=1.-abs(x)-abs(y);
+  vec4 b0=vec4(x.xy,y.xy);vec4 b1=vec4(x.zw,y.zw);vec4 s0=floor(b0)*2.+1.;vec4 s1=floor(b1)*2.+1.;vec4 sh=-step(h,vec4(0.));vec4 a0=b0.xzyw+s0.xzyw*sh.xxyy;vec4 a1=b1.xzyw+s1.xzyw*sh.zzww;
+  vec3 p0=vec3(a0.xy,h.x);vec3 p1=vec3(a0.zw,h.y);vec3 p2=vec3(a1.xy,h.z);vec3 p3=vec3(a1.zw,h.w);vec4 norm=tis(vec4(dot(p0,p0),dot(p1,p1),dot(p2,p2),dot(p3,p3)));p0*=norm.x;p1*=norm.y;p2*=norm.z;p3*=norm.w;
+  vec4 m=max(.6-vec4(dot(x0,x0),dot(x1,x1),dot(x2,x2),dot(x3,x3)),0.);m=m*m;return 42.*dot(m*m,vec4(dot(p0,x0),dot(p1,x1),dot(p2,x2),dot(p3,x3)));}`;
+  const U = { t: { value: 0 }, voz: { value: 0 }, fala: { value: 0 }, halo: { value: 0 } };
+  const esfera = new THREE.Mesh(new THREE.IcosahedronGeometry(1.15, cel ? 28 : 64), new THREE.ShaderMaterial({ uniforms: U, transparent: true,
+    vertexShader: SIMPLEX + `uniform float t,voz,fala;varying vec3 vN;varying vec3 vV;varying float vD;varying vec3 vP;
+      void main(){vec3 p=position;float a=.04+voz*.11+fala*.07;float d=snoise(p*1.1+vec3(0.,t*.22,t*.12))*a+snoise(p*2.6+t*.55)*(.006+voz*.03);
+      p+=normal*d;vD=d;vP=p;vec4 mv=modelViewMatrix*vec4(p,1.);vV=normalize(-mv.xyz);
+      float e=.02;vec3 tg=normalize(cross(normal,vec3(0.,1.,.01)));vec3 bt=normalize(cross(normal,tg));
+      vec3 pa=position+tg*e;pa+=normal*(snoise(pa*1.1+vec3(0.,t*.22,t*.12))*a);vec3 pb=position+bt*e;pb+=normal*(snoise(pb*1.1+vec3(0.,t*.22,t*.12))*a);
+      vN=normalize(normalMatrix*normalize(cross(pa-p,pb-p)));gl_Position=projectionMatrix*mv;}`,
+    fragmentShader: SIMPLEX + `uniform float t,voz,fala,halo;varying vec3 vN;varying vec3 vV;varying float vD;varying vec3 vP;
+      vec3 estudio(vec3 r){float y=r.y*.5+.5;vec3 c=mix(vec3(.01,.008,.006),vec3(.16,.11,.05),smoothstep(.35,1.,y));
+        c+=vec3(1.,.85,.55)*pow(max(dot(r,normalize(vec3(-.55,.7,.45))),0.),18.)*1.6;   // caixa de luz principal (alto, à esquerda)
+        c+=vec3(1.,.55,.15)*pow(max(dot(r,normalize(vec3(.8,-.15,.3))),0.),10.)*.55;  // contraluz âmbar
+        c+=vec3(.9,.6,.25)*smoothstep(.0,.04,.04-abs(r.y+.05))*.25;                       // horizonte fino
+        return c;}
+      void main(){vec3 N=normalize(vN),V=normalize(vV);float f=pow(1.-max(dot(N,V),0.),2.6);
+        vec3 R=reflect(-V,N);vec3 env=estudio(R);
+        float face=max(dot(N,V),0.);float veio=snoise(vP*.9+t*.18)*.5+.5;
+        vec3 quente=mix(vec3(1.,.38,.04),vec3(1.,.8,.3),veio)*(.5+voz*.9+fala*.7);
+        vec3 nucleo=quente*pow(face,3.)*smoothstep(.15,.9,veio)*(.8+.2*sin(t*1.6)+vD*2.);
+        vec3 metal=env*.9;
+        vec3 rim=mix(vec3(1.,.55,.08),vec3(.96,.77,.09),f)*f*(1.25+halo*1.1);
+        vec3 col=metal*.85+nucleo+rim;float a=clamp(.78+f*.3,0.,1.);gl_FragColor=vec4(col,a);}`
+  }));
+  grupo.add(esfera);
+  // visor: duas fendas de luz que piscam e olham
+  const visor = new THREE.Group(); grupo.add(visor);
+  const fendaMat = new THREE.ShaderMaterial({ uniforms: U, transparent: true, depthWrite: false, blending: THREE.AdditiveBlending,
+    vertexShader: `varying vec2 vU;void main(){vU=uv;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}`,
+    fragmentShader: `uniform float fala;varying vec2 vU;void main(){vec2 q=abs(vU-.5)*2.;float m=smoothstep(1.,.55,q.x)*smoothstep(1.,.2,q.y);gl_FragColor=vec4(vec3(1.,.93,.7)*(2.2+fala*1.5),m);}` });
+  const fendas = [-1, 1].map(s => { const m = new THREE.Mesh(new THREE.PlaneGeometry(.4, .055), fendaMat); m.position.set(s * .26, .14, 1.33); m.rotation.y = s * .22; m.rotation.z = -s * .08; visor.add(m); return m; });
+  // anéis orbitais finos e partículas
+  const aneis = [[1.75, .55, .2], [2.05, -.35, .9], [2.35, .15, -.6]].map(([raio, rx, rz], i) => { const m = new THREE.Mesh(new THREE.TorusGeometry(raio, .006 + i * .002, 6, 220), new THREE.MeshBasicMaterial({ color: i === 1 ? 0xF5C518 : 0xFF9F1C, transparent: true, opacity: .75 - i * .15, blending: THREE.AdditiveBlending, depthWrite: false }));
+    m.rotation.set(Math.PI / 2 + rx, 0, rz); grupo.add(m); return m; });
+  const nP = cel ? 380 : 900, pos = new Float32Array(nP * 3); for (let i = 0; i < nP; i++) { const rr = 1.5 + Math.random() * 1.4, a = Math.random() * Math.PI * 2, y = (Math.random() - .5) * .9; pos.set([Math.cos(a) * rr, y, Math.sin(a) * rr], i * 3); }
+  const pg = new THREE.BufferGeometry(); pg.setAttribute('position', new THREE.BufferAttribute(pos, 3));
+  const pts = new THREE.Points(pg, new THREE.PointsMaterial({ color: 0xFFC14A, size: cel ? .022 : .016, transparent: true, opacity: .8, blending: THREE.AdditiveBlending, depthWrite: false })); pts.rotation.x = .35; grupo.add(pts);
+  // halo âmbar (pedidos esperando)
+  const hc = document.createElement('canvas'); hc.width = hc.height = 128; const hg = hc.getContext('2d'), gr = hg.createRadialGradient(64, 64, 0, 64, 64, 64); gr.addColorStop(0, 'rgba(255,170,40,.9)'); gr.addColorStop(.35, 'rgba(255,140,20,.35)'); gr.addColorStop(1, 'rgba(255,120,0,0)'); hg.fillStyle = gr; hg.fillRect(0, 0, 128, 128);
+  const halo = new THREE.Sprite(new THREE.SpriteMaterial({ map: new THREE.CanvasTexture(hc), transparent: true, opacity: .2, blending: THREE.AdditiveBlending, depthWrite: false })); halo.scale.set(5.2, 5.2, 1); halo.position.z = -1.5; cena.add(halo);
+  // brilho: o bloom do composer apaga a transparência do canvas (vira um quadrado sobre o vídeo); o glow fica no shader (fresnel) e no halo aditivo
+  const comp = { render: () => r.render(cena, cam) };
+  const tam = () => { const b = box.getBoundingClientRect(), w = Math.max(50, b.width), h = Math.max(50, b.height); r.setSize(w, h, false); cam.aspect = w / h; cam.updateProjectionMatrix(); };
+  tam(); addEventListener('resize', tam);
+  let vis = true; new IntersectionObserver(es => vis = es[0].isIntersecting).observe(box);
+  let ax = 0, ay = 0, mx = 0, my = 0, pisca = 0, proxPisca = 2, olhaX = 0, olhaY = 0, giro = 1; const t0 = performance.now();
+  addEventListener('pointermove', e => { ax = e.clientX / innerWidth - .5; ay = e.clientY / innerHeight - .5; }, { passive: true });
+  const C = () => window.__comando || {};
+  function quadro(agora) {
+    const t = (agora - t0) / 1000, c = C(), AV = c.AV || {}, ESC = c.ESC || {};
+    const vol = Math.min(1, c.vol ? c.vol() : 0), falando = AV.falando ? 1 : 0, ouvindo = ESC.estado === 'ouvindo' && !falando;
+    U.t.value = calmo ? 0 : t; U.voz.value += (((ouvindo || falando) ? vol : 0) - U.voz.value) * .2; U.fala.value += (falando * (.4 + (AV.silaba || 0) * .6) - U.fala.value) * .15;
+    const esperando = c.esperando ? c.esperando() : 0; U.halo.value += ((esperando > 0 ? 1 : 0) - U.halo.value) * .03;
+    halo.material.opacity = .18 + U.halo.value * .45 + U.voz.value * .2;
+    const pensa = box.dataset.pensa === '1'; giro += ((pensa ? 4 : 1) - giro) * .05;
+    const resp = 1 + Math.sin(t * .9) * .018; esfera.scale.setScalar(resp + U.voz.value * .05);
+    mx += (ax - mx) * .05; my += (ay - my) * .05; grupo.rotation.y = mx * .6 + Math.sin(t * .25) * .12; grupo.rotation.x = my * .35;
+    aneis.forEach((a, i) => { a.rotation.z += (.0025 + i * .0012) * giro * (i % 2 ? -1 : 1); }); pts.rotation.y += .0012 * giro;
+    if (t > proxPisca) { pisca = 1; proxPisca = t + 2.5 + Math.random() * 4; } pisca = Math.max(0, pisca - .12);
+    if (Math.random() < .006) { olhaX = (Math.random() - .5) * .12; olhaY = (Math.random() - .5) * .06; }
+    visor.position.x += (olhaX + mx * .1 - visor.position.x) * .08; visor.position.y += (olhaY - my * .05 - visor.position.y) * .08;
+    fendas.forEach(f => f.scale.y = Math.max(.08, 1 - Math.sin(pisca * Math.PI)) * (1 + U.fala.value * .6));
+    comp.render();
+  }
+  window.__AV3D = true; box.classList.add('tem3d');
+  if (calmo) { quadro(performance.now()); setInterval(() => { if (!document.hidden) quadro(performance.now()); }, 500); }
+  else { const loop = agora => { if (vis && !document.hidden) quadro(agora); requestAnimationFrame(loop); }; requestAnimationFrame(loop); }
+}
 </script>
 <!--MOVIMENTO-->
 </body>
