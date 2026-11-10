@@ -94,6 +94,11 @@ itens.append({'t': 'Vídeo · Reels ~56 s', 'titulo': 'Vídeo do processo: a nov
 itens.append({'t': 'Stories · 5 telas', 'titulo': 'Stories do case: antes e depois da marca (perfil do Lindson)', 'data': 'Para aprovar a divulgação do case', 'linha': 'Case', 'st': 'aguardando',
               'img': '/painel/wf/stories/01-antes-depois.jpg', 'telas': [f'/painel/wf/stories/{n}.jpg' for n in ['02-o-que-travava', '03-nova-marca', '04-aplicacoes', '05-cta']],
               'legenda': 'Sequência de 5 stories em que a agência mostra o trabalho da WF: 1 antes × depois · 2 o que travava · 3 nova marca e procedência · 4 aplicações (feed, avatar, fachada, manual) · 5 chamada.\nVão no perfil @lindsonalmeida_, marcando a loja. Só postamos com o seu OK aqui.'})
+# Painel fixado (pedido do Lindson com referência, conta Pedro, 10/11/2026): 3 posts que formam 1 imagem, primeiro da fila
+LPF = legendas(os.path.join(CL, 'painel-fixado', 'README.md'))
+itens.insert(1, {'t': 'Fixados · panorama 3 posts', 'titulo': 'Painel fixado: logo no centro, benefícios e produtos (3 posts, 1 imagem)', 'data': 'Postar 03, 02, 01 e fixar 03, 02, 01', 'linha': 'Marca nova', 'st': 'aguardando',
+                 'img': '/painel/wf/fixado/previa-grade.jpg', 'telas': [f'/painel/wf/fixado/0{i}.jpg' for i in (1, 2, 3)],
+                 'legenda': '\n\n'.join(f'POST {i + 1}\n' + l for i, l in enumerate(LPF)) + NOTA})
 aprov = ','.join(json.dumps(x, ensure_ascii=False) for x in itens)
 s = re.sub(r"const APROV=\[.*?\];", lambda m: f"const APROV=[{aprov}];", s, count=1, flags=re.S)
 troca('<div class="post"><div class="img">${p.titulo}</div>', '<div class="post">${p.video?`<video src="${p.video}" poster="${p.img}" controls playsinline preload="none" style="width:100%;aspect-ratio:9/16;object-fit:cover;display:block;background:#000"></video><a class="btn lin" href="${p.video}" download style="display:block;text-align:center;margin:10px 12px 0">⬇ Baixar vídeo</a>`:p.img?`<img src="${p.img}" alt="${p.titulo}" style="width:100%;aspect-ratio:4/5;object-fit:cover;display:block">`:`<div class="img">${p.titulo}</div>`}')

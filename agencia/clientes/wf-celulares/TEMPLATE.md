@@ -36,3 +36,10 @@ Descartado: o estilo dos prints do cliente (LED vermelho, tarja amarela, fogo), 
 | Google Pixel | EUA | descartada: fundo claro |
 | Dyson | Reino Unido | descartada: e-commerce claro |
 Notificações de vidro fosco (UI) → 07.
+
+## Painel fixado (conta Pedro, 10/11/2026)
+Principal: referência enviada pelo Lindson (`painel-fixado/referencias/00-referencia-lindson.webp`), só a composição.
+Escolhidas (3): 1) referência do Lindson (BR, panorama de 3 fixados: benefícios · logo · produtos); 2) apple.com/br/iphone-17-pro e apple.com/iphone (EUA/BR, palco preto, tipografia fina, produto em destaque); 3) iShop Mixup (México, produto em vitrine/pedestal) + iStyle (Emirados, faixa de benefícios com ícones).
+Também vistas: Dribbble "instagram grid tech" (vários países), panorama de fixados anterior da WF (Apple split grid, keynote).
+Descartadas: Behance e Mac Center PH (página não carregou na captura); neon azul e logo 3D cromado da referência (fora da identidade aprovada).
+Capturas: `painel-fixado/referencias/`.
