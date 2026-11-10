@@ -13,7 +13,10 @@ L = importlib.util.module_from_spec(spec); spec.loader.exec_module(L)
 SR, FF, db = L.SR, L.FF, L.db
 # trilha por vídeo: arquivo, título (crédito), início do trecho (s)
 MUSICA = {'4': ('Carefree.mp3', 'Carefree', 2.0), '5': ('Life_of_Riley.mp3', 'Life of Riley', 4.0),
-          '6': ('Wholesome.mp3', 'Wholesome', 6.0), '7': ('Carefree.mp3', 'Carefree', 38.0)}
+          '6': ('Wholesome.mp3', 'Wholesome', 6.0), '7': ('Carefree.mp3', 'Carefree', 38.0),
+          # um vídeo por cliente (10/11)
+          '11': ('Carefree.mp3', 'Carefree', 12.0), '12': ('Life_of_Riley.mp3', 'Life of Riley', 20.0), '13': ('Wholesome.mp3', 'Wholesome', 18.0),
+          '14': ('Life_of_Riley.mp3', 'Life of Riley', 40.0), '15': ('Wholesome.mp3', 'Wholesome', 32.0)}
 VOZ_EM = 0.45
 
 
@@ -34,10 +37,10 @@ def ler(path, start=0.0, dur=None, ch=2):
 
 
 def um(saida, vozes, musicas, quadros, s):
-    mp4 = os.path.join(saida, f's0{s}.mp4')
+    mp4 = os.path.join(saida, f's{int(s):02d}.mp4')
     dur = float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', mp4], capture_output=True, text=True).stdout)
     N = int(dur * SR); t = np.arange(N) / SR
-    voz = ler(os.path.join(vozes, f's0{s}.wav'), ch=1); voz = voz / (np.abs(voz).max() + 1e-9) * db(-1)
+    voz = ler(os.path.join(vozes, f's{int(s):02d}.wav'), ch=1); voz = voz / (np.abs(voz).max() + 1e-9) * db(-1)
     v = np.zeros(N); a = int(VOZ_EM * SR); b = min(N, a + len(voz)); v[a:b] = voz[:b - a]
     # trilha com fade-in 0,4 s e fade-out 0,8 s, abaixada sob a voz (envelope suavizado, ataque 60 ms, volta 350 ms)
     arq, titulo, ini = MUSICA[s]
@@ -49,7 +52,7 @@ def um(saida, vozes, musicas, quadros, s):
         alvo = fala[i]; c = at if alvo > e else rl; e = alvo + (e - alvo) * c ** 48; env[i:i + 48] = e
     trilha = m * (db(-17) + (db(-27) - db(-17)) * env)[:, None]   # -17 dB sem voz, -27 dB sob a voz
     # efeitos
-    cues = json.load(open(os.path.join(quadros, f's0{s}', 'cues.json'))); rng = np.random.default_rng(int(s) * 77); sfx = np.zeros((N, 2)); n_pop = 0
+    cues = json.load(open(os.path.join(quadros, f's{int(s):02d}', 'cues.json'))); rng = np.random.default_rng(int(s) * 77); sfx = np.zeros((N, 2)); n_pop = 0
     def poe(st, t0, lvl):
         i = max(0, int(t0 * SR)); j = min(N, i + len(st)); sfx[i:j] += st[:j - i] * db(lvl)
     for c in cues:
@@ -60,7 +63,7 @@ def um(saida, vozes, musicas, quadros, s):
     for k in range(3): poe(L.pan(L.key(rng), rng.uniform(-.25, .25)), t_rol + k * .16, -28)
     mix = v[:, None] * np.ones((1, 2)) + trilha + sfx
     mix /= max(1.0, np.abs(mix).max() / db(-1))
-    tmp, fin, nov = (os.path.join(saida, f'.s0{s}-{x}') for x in ('mix.wav', 'norm.wav', 'som.mp4'))
+    tmp, fin, nov = (os.path.join(saida, f'.s{int(s):02d}-{x}') for x in ('mix.wav', 'norm.wav', 'som.mp4'))
     L.write_wav(tmp, mix)
     for tp in (-2.3, -3.3, -4.3, -5.3):                          # se o AAC passar de -1,5 dBTP, baixa o alvo de pico e refaz
         loudnorm(tmp, fin, tp)
@@ -71,7 +74,7 @@ def um(saida, vozes, musicas, quadros, s):
         if pk <= -1.5: break
     os.replace(nov, mp4); os.remove(tmp); os.remove(fin)
     print(f'    {lufs} LUFS · pico real {pk} dBTP')
-    print(f's0{s}', round(dur, 2), 's ·', titulo, '·', len(cues), 'deixas')
+    print(f's{int(s):02d}', round(dur, 2), 's ·', titulo, '·', len(cues), 'deixas')
 
 
 if __name__ == '__main__':

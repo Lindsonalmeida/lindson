@@ -5,6 +5,7 @@ const { chromium } = require('playwright'), path = require('path'), fs = require
 const SITES = {
   'rafael-m': ['https://rafaelimports.pages.dev/', 1], 'sf-d': ['https://desentupidorasf.pages.dev/', 0], 'sf-m': ['https://desentupidorasf.pages.dev/', 1],
   'tribuna-m': ['https://tribuna98.pages.dev/', 1], 'realtimebio-m': ['https://realtimeslz.pages.dev/bio/', 1], 'jacibio-m': ['https://drajacicunha.pages.dev/bio/', 1],
+  'realtime-d': ['https://realtimeslz.pages.dev/', 0], 'jaci-d': ['https://drajacicunha.pages.dev/', 0],
 };
 const ease = x => x < .5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2;
 (async () => {

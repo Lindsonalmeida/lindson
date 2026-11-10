@@ -56,6 +56,8 @@ const amarelo = () => `<div class="abs" style="inset:0;background:radial-gradien
 const halo = (x, y, r, cor = 'rgba(245,197,24,.33)') => `<div class="abs halo-p" style="left:${x - r}px;top:${y - r}px;width:${r * 2}px;height:${r * 2}px;border-radius:50%;background:radial-gradient(closest-side,${cor},transparent);filter:blur(8px)"></div>`;
 const neon = (x, y, w, h) => `<div class="abs" style="left:${x}px;top:${y}px;width:${w}px;height:${h}px;border-radius:9px;background:#FFE7A0;box-shadow:0 0 18px #F5C518,0 0 60px rgba(245,197,24,.6)"></div>`;
 const rod = (txt, cor = 'var(--am)', y = 1572) => `<div class="abs mono" style="left:70px;right:70px;top:${y}px;font-size:22px;color:${cor};display:flex;justify-content:space-between"><span>${txt}</span></div>`;
+// ficha do cliente em colunas (Locomotive · Work): rótulo mono + valor; tom 'p' = texto preto (fundo amarelo)
+const ficha = (y, cols, tom = '', x = 70) => `<div class="abs" style="left:${x}px;right:70px;top:${y}px;display:flex;gap:26px;z-index:6">${cols.map(([r, v]) => `<div style="flex:1;border-top:2px solid ${tom === 'p' ? '#0A0A0A' : 'var(--am)'};padding-top:12px"><div class="mono" style="font-size:19px;color:${tom === 'p' ? 'rgba(10,10,10,.65)' : 'var(--am)'}">${r}</div><div style="font:700 29px/1.15 Manrope;letter-spacing:-.02em;margin-top:6px">${v}</div></div>`).join('')}</div>`;
 // figurinha do Instagram: área livre na arte (só aparece com &guia=1)
 const fig = (x, y, w, h, t) => `<div class="fig" style="left:${x}px;top:${y}px;width:${w}px;height:${h}px">${t}</div>`;
 const fone = (pasta, x, y, w, extra = '') => { const h = Math.round((w - 30) * 1558 / 720) + 30;
@@ -65,7 +67,7 @@ const navegador = (pasta, url, x, y, w, extra = '') => { const h = Math.round(w 
 // entrada animada (só nas telas de vídeo): sobe e aparece entre o quadro a e b
 const ent = (a, b, dy = 40, som = 'pop') => `class="in" data-a="${a}" data-b="${b}" data-dy="${dy}" data-som="${som}"`;
 // impacto da palavra-chave (tremida de 3 quadros + batida leve) por tela, em quadros
-const IMPACTO = { 4: 20, 5: 16, 6: 27, 7: 18 };
+const IMPACTO = { 4: 20, 5: 16, 6: 27, 7: 18, 11: 22, 12: 24, 13: 24, 14: 26, 15: 28 };
 
 const T = {
 // 01 · GANCHO (preto, foto). Modelo: INFLURY (palavra gigante atrás do recorte) + Jonatas Torres (manchete com caixa amarela)
@@ -173,6 +175,52 @@ const T = {
   <div class="abs h" style="left:70px;right:70px;top:1244px;font-size:86px;color:var(--t)">Responde <span class="cx">SITE</span> aqui que eu te mostro o seu.</div>
   ${fig(70, 1470, 620, 96, 'LINK: WhatsApp (código MS)')}<div class="abs mono" style="left:720px;right:70px;top:1490px;font-size:20px;color:var(--ap);line-height:1.4">OU TOQUE NO LINK →<br>WHATSAPP</div>
   ${det('10')}<div class="grao"></div></div>`,
+// ===== Um vídeo por cliente (10/11, para marcar o cliente com a figurinha de menção) =====
+// Modelos copiados (TEMPLATE.md, "Vídeo por cliente"): Koto (nome do cliente gigante cortado pela borda, atrás do aparelho),
+// Locomotive (ficha Cliente · O que eu fiz · Onde, em colunas), Lusion (contador gigante e cartão de cantos redondos).
+// A área da figurinha de MENÇÃO (@ do cliente) fica livre em todas; com &guia=1 aparece o @ exato.
+11: () => `<div class="a">${halo(540, 860, 560, 'rgba(245,197,24,.22)')}${topo(11, '● CLIENTE 01/05')}
+  <div ${ent(0, 14, 30, 'pop')} style="position:absolute;left:-30px;right:-30px;top:330px;text-align:center"><div class="ant ouro" style="font-size:330px;transform:translateX(${-F * .2}px)">RAFAEL</div>
+   <div class="ant" style="font-size:330px;color:transparent;-webkit-text-stroke:3px rgba(245,197,24,.55);margin-top:10px;transform:translateX(${F * .2}px)">IMPORTS</div></div>
+  <div ${ent(3, 22, 90, 'whoosh')} style="position:absolute;inset:0">${fone('rafael-m', 340, 520, 400)}</div>
+  <div class="abs" style="left:340px;top:1355px;width:400px;height:40px;border-radius:50%;background:radial-gradient(closest-side,rgba(0,0,0,.6),transparent)"></div>
+  ${ficha(1395, [['CLIENTE', 'Rafael Imports'], ['O QUE EU FIZ', 'Mini site da bio'], ['ONDE', 'São Luís']])}
+  ${fig(240, 1490, 600, 110, 'MENÇÃO: @rafael.imports.slz')}${det('C1')}<div class="grao"></div></div>`,
+
+12: () => `<div class="a am">${amarelo()}${topo(12, '● CLIENTE 02/05')}
+  <div ${ent(2, 22, 80, 'whoosh')} style="position:absolute;inset:0">${navegador('sf-d', 'desentupidorasf.pages.dev', 70, 345, 940, 'border-radius:34px')}</div>
+  <div ${ent(8, 24)} style="position:absolute;left:70px;right:70px;top:960px;display:flex;align-items:center;gap:34px">
+   <div class="ant" style="font-size:300px;line-height:.8">11</div>
+   <div><div class="mono" style="font-size:22px">DESENTUPIDORA SF</div><div style="font:800 66px/1 Manrope;letter-spacing:-.04em;margin-top:12px">páginas feitas<br><span class="cxp">pro Google</span></div></div></div>
+  ${ficha(1290, [['CLIENTE', 'Desentupidora SF'], ['O QUE EU FIZ', 'Site com 11 páginas'], ['ONDE', 'São Luís']], 'p')}
+  ${fig(240, 1430, 600, 120, 'MENÇÃO: @desentupidorasf_slz')}${det('C2', 'rgba(10,10,10,.35)')}<div class="grao" style="opacity:.16"></div></div>`,
+
+13: () => `<div class="a">${topo(13, '● CLIENTE 03/05')}
+  <div class="abs ant" style="right:-40px;top:300px;font-size:760px;line-height:.8;color:transparent;-webkit-text-stroke:3px rgba(245,197,24,.35);transform:translateY(${-F * .15}px)">03</div>
+  <div ${ent(2, 22, 90, 'whoosh')} style="position:absolute;left:0;top:0;width:1080px;height:1920px;perspective:2200px">${fone('tribuna-m', 80, 350, 450, 'transform:rotateY(16deg) rotateZ(-3deg)')}</div>
+  <div ${ent(8, 24)} style="position:absolute;left:590px;right:70px;top:430px">
+   <div class="mono" style="font-size:22px;color:var(--am)">JORNALISMO · MARANHÃO</div>
+   <div class="ant" style="font-size:150px;margin-top:16px">TRIBUNA<br><span class="ouro">98</span></div>
+   <div style="font:700 38px/1.22 Manrope;letter-spacing:-.02em;margin-top:26px">Uma bio que puxa as <span class="cx">notícias do dia</span> sozinha.</div></div>
+  ${ficha(1330, [['CLIENTE', 'Tribuna 98'], ['O QUE EU FIZ', 'Bio com notícias ao vivo'], ['ONDE', 'Maranhão']])}
+  ${fig(240, 1450, 600, 120, 'MENÇÃO: @tribuna98_')}${det('C3')}<div class="grao"></div></div>`,
+
+14: () => `<div class="a am">${amarelo()}${topo(14, '● CLIENTE 04/05')}
+  <div ${ent(0, 14, 30, 'pop')} style="position:absolute;left:50px;top:330px"><div class="ant" style="font-size:300px;line-height:.82;transform:translateX(${-F * .2}px)">REAL<br><span style="color:transparent;-webkit-text-stroke:3px #0A0A0A">TIME</span></div></div>
+  <div ${ent(3, 22, 80, 'whoosh')} style="position:absolute;inset:0">${navegador('realtime-d', 'realtimeslz.pages.dev', 70, 760, 800, 'transform:rotate(-3deg)')}</div>
+  <div ${ent(7, 26, 90, 'whoosh')} style="position:absolute;inset:0">${fone('realtimebio-m', 730, 640, 290, 'transform:rotate(5deg)')}</div>
+  ${ficha(1330, [['CLIENTE', 'Real Time · produtora'], ['O QUE EU FIZ', 'Site com 8 páginas + bio'], ['ONDE', 'Maranhão']], 'p')}
+  ${fig(240, 1450, 600, 120, 'MENÇÃO: @realtime_fulljobs')}${det('C4', 'rgba(10,10,10,.35)')}<div class="grao" style="opacity:.16"></div></div>`,
+
+15: () => `<div class="a">${halo(700, 600, 520, 'rgba(245,197,24,.18)')}${topo(15, '● CLIENTE 05/05')}
+  <div ${ent(2, 20, 70, 'whoosh')} style="position:absolute;inset:0">${navegador('jaci-d', 'drajacicunha.pages.dev', 70, 340, 940)}</div>
+  <div ${ent(6, 25, 90, 'whoosh')} style="position:absolute;inset:0">${fone('jacibio-m', 80, 700, 300, 'transform:rotate(-4deg)')}</div>
+  <div ${ent(10, 28)} style="position:absolute;left:440px;right:70px;top:960px">
+   <div class="mono" style="font-size:22px;color:var(--am)">HARMONIZAÇÃO E ODONTOLOGIA</div>
+   <div style="font:800 64px/1.02 Manrope;letter-spacing:-.045em;margin-top:14px">Clínica <span class="cx">Dra. Jaci Cunha</span></div>
+   <div style="font:600 34px/1.25 Manrope;color:var(--ap);margin-top:18px">Site oficial e bio, com a avaliação marcada pelo WhatsApp.</div></div>
+  ${ficha(1385, [['CLIENTE', 'Clínica Dra. Jaci Cunha'], ['O QUE EU FIZ', 'Site oficial + bio'], ['ONDE', 'Zé Doca/MA']], '')}
+  ${fig(240, 1490, 600, 110, 'MENÇÃO: @clinica.drajacicunha')}${det('C5')}<div class="grao"></div></div>`
 };
 
 // VFX (regra de 05/11: vídeo sempre com VFX): vazamento de luz âmbar na entrada e na saída, tremida de 3 quadros no impacto,

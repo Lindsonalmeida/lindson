@@ -13,5 +13,5 @@ ids = sys.argv[3:] or list(FALAS)
 for s in ids:
     t = time.time(); txt = FALAS[s]
     a = mv.narrar(txt, amostra, 0.45, semente=int(os.environ.get('SEMENTE', s)), humanizar=True)   # SEMENTE=n refaz com outra variação
-    sf.write(os.path.join(saida, f's0{s}.wav'), a, mv.S)
+    sf.write(os.path.join(saida, f's{int(s):02d}.wav'), a, mv.S)
     print(s, round(len(a) / mv.S, 2), 's em', round(time.time() - t), 's ·', txt, flush=True)
