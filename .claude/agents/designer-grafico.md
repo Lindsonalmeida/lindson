@@ -180,3 +180,5 @@ Fonte: privado `dados/agencia/referencias/lancamento-infoprodutor-expert/` (Beha
   7. abertura de carrinho, prova, quebra de objeção e último dia;
   8. página de vendas e área de membros.
 - **Recorte de foto:** `agencia/marca-lindson/ferramentas/recorte2.py` e conferir a 200% no escuro e no amarelo. Fonte: conta Pedro, 05/11/2026.
+
+- **10/11/2026 (MEMORIA, conta Zuleide):** cliente com duas ou mais pessoas (ex.: curso legislativo): todas no **mesmo patamar** em toda imagem (mesma altura de rosto, linha dos olhos, brilho e tamanho do nome, nenhuma à frente), para não dar ciumeira.

@@ -10,7 +10,7 @@
 - **Fica de fora:** material reprovado (branches `cassandra/*`) e números sem fonte.
 
 ## Última verificação
-- 10/11/2026 12:51 (UTC): sem novidades.
+- 10/11/2026 13:50 (UTC): regra "mesmo patamar" (curso legislativo) agregada ao Designer gráfico e ao Webdesigner.
 
 ## Histórico do que foi agregado
 | Data | Fonte | Agente | O que entrou |

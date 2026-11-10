@@ -216,3 +216,5 @@ Não copiar: sorteio (precisa de autorização) nem números de prova que não s
 - O navegador bloqueia som sem gesto. Peça ao Lindson "Som: Permitir" no site e responda também por escrito.
 - Escuta contínua só em meia-duplex: pausa enquanto fala e descarta o eco. Isso evita o looping.
 - Teste com stub de SpeechRecognition com results acumulados.
+
+- **10/11/2026 (MEMORIA, conta Zuleide):** cliente com duas ou mais pessoas (ex.: curso legislativo): todas no **mesmo patamar** em toda imagem (mesma altura de rosto, linha dos olhos, brilho e tamanho do nome, nenhuma à frente), para não dar ciumeira.
