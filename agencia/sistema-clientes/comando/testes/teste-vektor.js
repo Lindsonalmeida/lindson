@@ -96,8 +96,8 @@ const CASOS = [
   { f: 'Vektor, abre o painel da Jaci', i: 'abrir', r: /painel/i, ultimo: true }
 ];
 (async () => {
-  const b = await chromium.launch({ args: ['--autoplay-policy=no-user-gesture-required'] });
-  const pg = await b.newPage({ viewport: { width: 1280, height: 860 } });
+  const b = await chromium.launch({ args: ['--autoplay-policy=no-user-gesture-required', '--disable-3d-apis'] });
+  const pg = await b.newPage({ viewport: { width: 1280, height: 860 }, reducedMotion: 'reduce' });
   const erros = [];
   pg.on('pageerror', e => erros.push('pageerror: ' + e.message));
   pg.on('console', m => { if (m.type() === 'error' && !/Failed to load resource/.test(m.text())) erros.push('console: ' + m.text()); });
@@ -114,10 +114,11 @@ const CASOS = [
     if (fs.existsSync(f + '.html')) return rt.fulfill({ path: f + '.html' });
     return rt.fulfill({ status: 404, body: '' });
   });
+  if (process.env.VK_DEBUG) console.log('abrindo');
   await pg.goto(BASE + '/painel/comando', { waitUntil: 'domcontentloaded' });
   await pg.mouse.click(5, 5);
   await pg.waitForFunction(() => window.__rec && /OUVINDO/.test(document.getElementById('mic-rot').textContent), null, { timeout: 15000 });
-  await pg.waitForTimeout(2500);
+  await pg.waitForTimeout(2500); if (process.env.VK_DEBUG) console.log('ouvindo');
   const quieto = async (max = 9000) => { const t0 = Date.now(); let ok = 0; while (Date.now() - t0 < max) { const s = await pg.evaluate(() => ({ f: window.__falando, r: !!window.__rec })); ok = s.f <= 0 && s.r ? ok + 1 : 0; if (ok >= 6) return true; await pg.waitForTimeout(150); } return false; };
   const linhas = [], falhas = []; let n = 0, okN = 0, ultimaResp = '';
   for (const c of CASOS) {
@@ -152,6 +153,7 @@ const CASOS = [
     ultimaResp = e.resp || ultimaResp;
     n++; if (!problemas.length) okN++; else falhas.push(`${c.f}: ${problemas.join(', ')}`);
     linhas.push(`| ${n} | ${c.f} | ${c.mudoTotal ? '(sem nome, fora da janela)' : (e.intents || [e.intent]).join(' + ')} | ${(c.mudoTotal ? 'calado' : (e.resp || '—')).replace(/\|/g, '/').slice(0, 150)} | ${problemas.length ? 'FALHA: ' + problemas.join(', ') : 'ok'} |`);
+    if (process.env.VK_DEBUG) console.log(n, c.f, '→', e.intent, '|', (e.resp || '').slice(0, 90), problemas.join(','));
     if (c.esc) { await pg.keyboard.press('Escape'); await pg.waitForTimeout(200); }
     if (c.ultimo) break;
   }
