@@ -98,6 +98,7 @@ Todas desligadas desde 26/10 (as de 3 em 3 horas falharam por limite de uso do p
 | `agencia/clientes/jaci-cunha/conteudo-nov/` e `conteudo-dez/` | feed de novembro e dezembro da Dra. Jaci (textos, gerador com enquadramento pelo rosto, conferência, artes) | (conta Leandro, 04/11) |
 | `agencia/ofertas/low-ticket/venda/ESCADA.md` | escada de venda dos produtos: upsell, downsell, recuperação, reembolso e agência (Hormozi Squad) | (conta Leandro, 04/11) |
 | `agencia/sistema-clientes/comando/` | Central de Comando (`/painel/comando`): pedido por voz ou botão, fila das 4 contas, resultados; `montar-comando.py` gera o estado no privado; protocolo das contas | (conta Leandro, 09/11) |
+| `agencia/clientes/wf-celulares/` | WF Celulares (cliente novo): engenharia reversa, pesquisa premium (TEMPLATE + capturas), rebranding v1 em `identidade/` (gerar.py → render.js → prancha.py) | (conta Leandro, 10/11) |
 - `PENDENCIAS-DO-LINDSON.md`: lista do que falta o Lindson concluir, por projeto e cliente (conta Leandro, 05/11/2026).
 - `agencia/ofertas/franquia-alpha/`: análise do Maquiavel da franquia Alpha Assessoria e planos próprios inspirados no modelo (conta Leandro, 05/11/2026).
 - `agencia/operacao-propria/`: operação própria do Lindson no modelo da Alpha sem franquia: plano, playbook comercial e de entrega, equipe por gatilho e projeção de 12 meses em planilha (conta Leandro, 05/11/2026).
