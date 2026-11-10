@@ -119,3 +119,4 @@ Todas desligadas desde 26/10 (as de 3 em 3 horas falharam por limite de uso do p
 - `agencia/operacao-propria/social/calendario/`: linhas editoriais, calendário de 4 semanas (3 postagens por dia) e as artes por semana do @oreganoturbo (conta Leandro, 06/11/2026).
 - `.claude/agents/zuleide.md` · agente da conta Zuleide; `PROMPT-AGENTE-DA-CONTA.md` · prompt para cada conta virar agente (conta Zuleide, 10/11)
 | `.claude/agents/pedro.md` | Agente da conta Pedro (passaportedabiblia): site/portfólio, stories de venda, motions do Leo, marca do Lindson (conta Pedro, 10/11) |
+- `.claude/agents/leandro.md`: a conta Leandro (`raposaeleaomq`) como agente, com o que ela aprendeu e entregou (10/11, conta Leandro).

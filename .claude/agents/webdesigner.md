@@ -211,3 +211,8 @@ Não copiar: sorteio (precisa de autorização) nem números de prova que não s
 - Técnicas aprovadas para tela "mega futurista": anéis concêntricos com marcas em volta de um núcleo, holograma de partículas em canvas 2D (sem Three.js, leve no celular), dados ao vivo em órbita, rótulos mono pequenos e uma informação por vez (limpeza de HUD), reação ao volume do microfone e versão parada para movimento reduzido.
 - Reprovado pelo Lindson (v1/v2): cara de "vibe code" (cartões iguais em grade, gradiente com brilho, ícones de biblioteca, sem imagem). Na marca dele: âmbar e amarelo sobre preto, nada de azul/ciano de filme.
 - **Recorte sem halo e sombra:** usar `agencia/marca-lindson/ferramentas/recorte2.py`; nunca `filter: drop-shadow` junto com `mask-image` (desenha retângulo). Fonte: conta Pedro, 05/11/2026.
+
+## Assistente de voz na página (VEKTOR, 10/11, conta Leandro, fonte `.claude/agents/leandro.md`)
+- O navegador bloqueia som sem gesto. Peça ao Lindson "Som: Permitir" no site e responda também por escrito.
+- Escuta contínua só em meia-duplex: pausa enquanto fala e descarta o eco. Isso evita o looping.
+- Teste com stub de SpeechRecognition com results acumulados.
