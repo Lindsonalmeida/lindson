@@ -68,3 +68,18 @@ Sem preço, sem "%", sem "OFF", sem "grátis" nas peças públicas; "toxina botu
 | 04 | Linearity, Black Friday Instagram Stories | Alemanha | Não: varejo, preço gritado (só a ideia de cartões A/B) |
 | 06 | Bisma Iqbal, Luxury Aesthetic Clinic Branding | Paquistão | Não: bege genérico (já reprovado na Jaci) |
 | 08 | Marina Terenti, Regen Aesthetics | — | Não: mockup de app, sem rosto |
+
+## Pronúncia (narração v2, 10/11/2026, conta Zuleide)
+Regra do Lindson: **"Dra. Jáci Cunha", se lê Jáci** (tônica na 1ª sílaba, A aberto). O texto da voz é escrito fonético:
+
+| Termo | Fala | Escrever no texto da voz |
+|---|---|---|
+| Jaci | JÁ-ci (A aberto, paroxítona) | `Jáci` (com "Jaci" o TTS diz "Jací") |
+| Dra. | Doutora | `Doutora` |
+| Cunha | CU-nha | `Cunha` |
+| Zé Doca | ZÉ DÓ-ca | `Zé Dóca` |
+| toxina botulínica | to-KSI-na bo-tu-LÍ-ni-ca | `tocsina botulínica` se sair "toxina" com X de "xis" |
+| CRO-MA | cê erre ó, Maranhão | `cê erre ó, Maranhão` |
+| BF26 | bê efe vinte e seis | `bê efe vinte e seis` |
+
+Voz: **pt-BR-FranciscaNeural** (edge-tts, rate +4%), escolhida entre 3 testes (Francisca, Thalita Multilingual, Ava Multilingual) por ouvido + Whisper: só a Francisca transcreveu certo "Doutora Jáci Cunha", "BF-26" e "C-R-O Maranhão"; Thalita e Ava saem com sotaque ("de Torra de Aquecunha", "Moron Hall"). Chatterbox não está instalado e não há voz feminina de referência liberada no repo. Mix mantida (-14 LUFS, trilha Inspired, whoosh, zoom e flash).

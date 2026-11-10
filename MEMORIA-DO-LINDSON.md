@@ -452,3 +452,5 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 - **10/11/2026 (Leandro) · WF Celulares: caminho B (Assinatura) aprovado em 10/11.** Kit final e logo (SVG e PNG cor, branca e preta) em `agencia/clientes/wf-celulares/identidade/` (prancha-final.jpg, logo-b/).
 
 - **10/11/2026 (conta Zuleide):** capas do curso reprovadas por simples, sem camadas e sem glamour; v5 em camadas (cena, palavra gigante em degradê, halo e rim light, documento, selo, vidro fosco, cantos e grão). Refs Behance 222952139, 144495005, 166179777. Aguarda aprovação.
+
+- **10/11/2026 (conta Zuleide):** Dra. Jáci Cunha: diga **Jáci** (tônica no JÁ, A aberto). No texto da voz escreva `Jáci`; BF26 = "bê efe vinte e seis"; CRO-MA = "cê erre ó, Maranhão". Voz feminina aprovada para a Jaci: edge-tts pt-BR-FranciscaNeural. Tabela: `agencia/clientes/jaci-cunha/black-friday/README.md`.

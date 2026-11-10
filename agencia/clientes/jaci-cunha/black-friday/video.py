@@ -1,23 +1,24 @@
 # Black Friday Jaci: vídeo de cada story (9:16) com narração feminina neutra (edge-tts pt-BR-FranciscaNeural),
 # trilha Kevin MacLeod (CC BY 4.0) em ducking, SFX sintetizado (whoosh na entrada) e VFX (zoom lento + flash de luz).
+# Narração v2 (10/11, conta Zuleide): texto fonético (Jáci, bê efe) — tabela em README.md, seção Pronúncia.
 # Também gera os criativos 4:5 dos anúncios. Uso: python3 video.py <pasta com storyN-limpo.png>  (conta Pedro, 10/11/2026)
 import sys, os, asyncio, subprocess, edge_tts
 D = sys.argv[1]; A = os.path.join(D, 'audio'); os.makedirs(A, exist_ok=True)
 FALAS = {
- 1: "Black Friday na Clínica Doutora Jaci Cunha! De vinte e três a trinta de novembro, condição especial em toxina botulínica e preenchimento.",
+ 1: "Black Friday na Clínica Doutora Jáci Cunha! De vinte e três a trinta de novembro, condição especial em toxina botulínica e preenchimento.",
  2: "Antes de correr atrás da promoção mais barata, lembre: o seu rosto não é liquidação. Aqui muda a condição, não o cuidado.",
  3: "A toxina botulínica relaxa os músculos que marcam a expressão. A dose é decidida na avaliação, para suavizar sem deixar o rosto parado.",
  4: "O preenchimento com ácido hialurônico é planejado para o seu rosto: lábios, mandíbula, queixo. Só quando há indicação.",
  5: "E aí, qual te dá mais vontade? Toxina botulínica ou preenchimento? Vota aqui!",
- 6: "Funciona assim: mande BF vinte e seis no WhatsApp, marque sua avaliação de trinta minutos e, se for indicado, a condição vale até trinta de novembro.",
- 7: "Dói? Fica artificial? Quanto tempo dura? Manda a sua pergunta aqui, que a Doutora Jaci responde nos stories.",
+ 6: "Funciona assim: mande bê efe vinte e seis no WhatsApp, marque sua avaliação de trinta minutos e, se for indicado, a condição vale até trinta de novembro.",
+ 7: "Dói? Fica artificial? Quanto tempo dura? Manda a sua pergunta aqui, que a Doutora Jáci responde nos stories.",
  8: "Os horários são poucos, o cuidado, não. Chama no WhatsApp para saber a condição de Black Friday!",
 }
 MUS = os.path.join(A, 'Inspired.mp3')
 if not os.path.exists(MUS):
     subprocess.run(['curl', '-sSL', '-o', MUS, 'https://incompetech.com/music/royalty-free/mp3-royaltyfree/Inspired.mp3'], check=True)
 async def tts(i, t):
-    await edge_tts.Communicate(t, 'pt-BR-FranciscaNeural', rate='+4%', proxy=os.environ.get('HTTPS_PROXY')).save(f'{A}/n{i}.mp3')
+    await edge_tts.Communicate(t, 'pt-BR-FranciscaNeural', rate='+4%', proxy=os.environ.get('HTTPS_PROXY'), connect_timeout=30).save(f'{A}/n{i}.mp3')
 async def todas(): await asyncio.gather(*[tts(i, t) for i, t in FALAS.items()])
 asyncio.run(todas())
 def dur(f): return float(subprocess.check_output(['ffprobe','-v','0','-show_entries','format=duration','-of','csv=p=0',f]))
