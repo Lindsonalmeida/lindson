@@ -22,3 +22,17 @@ Composições copiadas (referências da pesquisa acima + linguagem Apple da iden
 - **Nothing** (ficha técnica numerada): 05 e 09.
 - Notificação de vidro fosco (UI de celular): 07. Banner editorial de titânio: 04.
 Descartado: o estilo dos prints do cliente (LED vermelho, tarja amarela, fogo), porque briga com a identidade aprovada.
+
+## artes-02 · versão Pro escura (10/11/2026) · 9 referências escuras em `pesquisa/capturas-escuras/` (EUA, Coreia, Dinamarca, Reino Unido, China, Japão)
+| Referência | País | Situação |
+|---|---|---|
+| **apple.com/iphone-17-pro** | EUA | **ESCOLHIDA**: produto central, título fino, preço embaixo → 04, 08 |
+| **Apple Newsroom (keynote)** | EUA | **ESCOLHIDA**: número gigante e close sangrado da câmera → 01, 03, 09 |
+| **Bang & Olufsen** | Dinamarca | **ESCOLHIDA**: produto sangrando de lado + texto em coluna → 02, 05 |
+| Samsung Galaxy Unpacked | Coreia | usada só no leque de cores com reflexo → 06 |
+| Nothing Phone | Reino Unido | ficha numerada → 05 |
+| OnePlus | China | descartada: muito banner de promoção |
+| Sony Xperia | Japão | descartada: frio e técnico demais |
+| Google Pixel | EUA | descartada: fundo claro |
+| Dyson | Reino Unido | descartada: e-commerce claro |
+Notificações de vidro fosco (UI) → 07.
