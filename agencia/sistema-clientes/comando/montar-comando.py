@@ -64,7 +64,7 @@ def placar():
 
 
 # palavras que ligam um texto do REGISTRO ou do QUADRO a um cliente e a uma função (para o distribuidor)
-CLI_KW = {'jaci': ['jaci'], 'tribuna': ['tribuna'], 'leo': ['leo pinto', 'leo:', ' leo ', 'do leo', 'vereador'], 'rt': ['real time', 'rt full', 'realtime'], 'sf': ['desentupidora', 'grupo sf', 'gruposf'],
+CLI_KW = {'jaci': ['jaci'], 'tribuna': ['tribuna'], 'leo': ['leo pinto', 'leo:', ' leo ', 'do leo', 'vereador'], 'rt': ['real time', 'rt full', 'realtime'], 'sf': ['desentupidora', 'grupo sf', 'gruposf'], 'wf': ['wf celulares', 'wf-celulares', ' wf '],
           'oregano': ['oregano'], 'marca': ['@lindsonalmeida', 'marca pessoal', 'site do lindson', 'marca do lindson', 'marca-lindson', 'reels do lindson', 'bio do lindson']}
 FN_KW = {'reels': ['reels', 'reel '], 'carrossel': ['carross'], 'post': ['post', 'artes', 'feed'], 'stories': ['stories', 'story', 'destaque'], 'legenda': ['legenda'],
          'data': ['data comemorativa', 'datas', 'saudac', 'aniversario'], 'site': ['site', 'mini site', ' bio'], 'landing': ['landing', 'pagina de venda'],
@@ -160,7 +160,7 @@ def atividade():
 # 6 · peças de cada cliente para aprovar (lista APROV dos painéis), sem prova social/antes e depois
 def pecas():
     out = {}
-    for cli in ('jaci', 'tribuna', 'leo', 'rt', 'oregano', 'sf'):
+    for cli in ('jaci', 'tribuna', 'leo', 'rt', 'oregano', 'sf', 'wf'):
         p = os.path.join(PRIV, 'painel', cli + '.html')
         if not os.path.exists(p): continue
         s = open(p, encoding='utf-8').read()

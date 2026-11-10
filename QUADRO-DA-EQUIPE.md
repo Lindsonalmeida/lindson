@@ -27,6 +27,7 @@ Toda conta lê esta tabela antes de qualquer pedido. Recado novo: troque o ⬜ d
 | 04/11 | Lindson (via Leandro) | **Fotos usadas não se repetem.** Sempre que usar uma foto num conteúdo, ponha a foto na aba **Usadas** (painel do cliente, aba Fotos, e `agencia/clientes/<cliente>/FOTOS-USADAS.md`). Foto real vai primeiro nas **capas**; no **carrossel**, foto real só na primeira e na última tela, e no meio imagens **realistas de banco** (nunca ilustração, nunca no lugar do produto real). Processo: `agencia/processos/fotos-usadas.md` | ⬜ | ⬜ | ✅ 04/11 | ✅ 04/11 |
 
 ## Em andamento
+<!-- 10/11 Zuleide: painel da WF Celulares no ar (/painel/wf) e conteúdos de 10/11 nos painéis; ver REGISTRO. -->
 | Desde | Conta | O quê | Como retomar / onde está |
 |---|---|---|---|
 | 10/11 | Zuleide (Designer) | **Leo Pinto v16: 10 conteúdos** (4 saudações + 6 do mandato). Persona, pesquisa premium (10 capturas, 5 países) e legendas das 4 saudações prontas; **parado esperando fotos novas do Leo (as 7 livres do álbum + 3 ou mais) e a lista do que ele fez como vereador, com fonte** | `agencia/clientes/leo-pinto/instagram-v16-conteudos/README.md` ("Como retomar") |

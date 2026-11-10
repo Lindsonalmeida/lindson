@@ -7,7 +7,7 @@
 //  d) menor carga: menos pedidos abertos.
 // eq = { contas: {Nome:{estado, ate, batida}}, perfil: {esp:{Nome:{cli:{}, func:{}}}, andamento:[{conta, cli, oque}]} }
 export const CONTAS_EQ = ['Lindson', 'Zuleide', 'Pedro', 'Leandro'];
-export const NOMES_CLI = { jaci: 'Dra. Jaci', tribuna: 'Tribuna 98', leo: 'Leo Pinto', rt: 'Real Time', oregano: 'Orégano Turbo', sf: 'Desentupidora SF', marca: 'Minha marca', outro: 'Outro' };
+export const NOMES_CLI = { jaci: 'Dra. Jaci', tribuna: 'Tribuna 98', leo: 'Leo Pinto', rt: 'Real Time', oregano: 'Orégano Turbo', sf: 'Desentupidora SF', wf: 'WF Celulares', marca: 'Minha marca', outro: 'Outro' };
 export const NOMES_FN = { reels: 'Reels', carrossel: 'Carrossel', post: 'Post', stories: 'Stories', legenda: 'Legenda SEO', data: 'Arte de data', site: 'Site', landing: 'Landing', painel: 'Painel do cliente', estrategia: 'Estratégia PDF', proposta: 'Proposta', contrato: 'Contrato', relatorio: 'Relatório' };
 const ABERTO = ['novo', 'andamento', 'ajuste', 'espera'];
 export function estadoReal(c, agora) {
