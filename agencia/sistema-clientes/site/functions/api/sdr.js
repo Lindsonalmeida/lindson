@@ -35,6 +35,7 @@ export async function onRequestPost({ request, env }) {
   at.hist = (at.hist || []).concat({ etapa, canal: b.canal || null, em, por: quem }).slice(-30);
   at.etapa = etapa; at.em = em; if (b.canal) at.canal = b.canal;
   if (etapa === 'enviado' && !at.enviadoEm) at.enviadoEm = em;
+  if (etapa === 'novo') { delete at.canal; delete at.enviadoEm; }  // voltou para a lista: limpa o envio
   st[b.id] = at;
   await env.CONTAS.put(CHAVE, JSON.stringify(st));
   return json({ ok: true, id: b.id, ...at });

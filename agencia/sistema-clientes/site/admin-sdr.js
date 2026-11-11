@@ -8,7 +8,7 @@ const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': 
 const render = () => window.__render && window.__render(), toast = t => window.__toast && window.__toast(t);
 const NOMES = { enviado: 'Enviado', respondeu: 'Respondeu', reuniao: 'Reunião marcada', proposta: 'Proposta enviada', fechado: 'Fechado', perdido: 'Perdido' };
 const ESTEIRA = ['enviado', 'respondeu', 'reuniao', 'proposta', 'fechado', 'perdido'];
-let C = [], carregou = false, aba = 'lista', busca = '';
+let C = [], carregou = false, aba = 'disparo', busca = '', feitosLote = 0;
 async function carrega() {
   try { const r = await fetch('/api/sdr'); if (r.ok) C = (await r.json()).contatos || []; else toast('Não carregou a lista do SDR.'); } catch (e) { toast('Sem conexão.'); }
   carregou = true; render();
@@ -25,7 +25,7 @@ function envia(id, canal) {
   const c = C.find(x => x.id === id); if (!c) return;
   if (canal === 'whatsapp') window.open('https://wa.me/' + c.wa + '?text=' + encodeURIComponent(c.msg), '_blank', 'noopener');
   else { copia(c.msg); window.open('https://ig.me/m/' + encodeURIComponent(c.ig), '_blank', 'noopener'); toast('Mensagem copiada: cole no Direct'); }
-  salva(id, { acao: 'enviado', canal });
+  feitosLote++; salva(id, { acao: 'enviado', canal });
 }
 const kpi = (r, v, n) => `<div class="card kpi"><div class="rot">${r}</div><div class="val">${v}</div><div class="var up"><span>${n || ''}</span></div></div>`;
 const tag = (t, bg = '#2a2a2a', cor = '#F5F3EE') => `<span style="font:600 11px system-ui;padding:3px 8px;border-radius:99px;background:${bg};color:${cor}">${esc(t)}</span>`;
@@ -46,19 +46,33 @@ V.sdr = () => {
   if (!carregou) { carrega(); return '<div class="card" style="padding:24px">Carregando contatos…</div>'; }
   const novos = C.filter(c => c.etapa === 'novo').sort((a, b) => b.nota - a.nota), fila = C.filter(c => c.etapa !== 'novo');
   const q = busca.toLowerCase(), vis = novos.filter(c => !q || (c.nome + c.ig + c.nicho + c.cidade).toLowerCase().includes(q));
+  const atual = novos[0];
+  const disparo = () => !atual ? '<div class="card" style="padding:24px">Lista vazia. 👏</div>' : `<div class="card" style="padding:26px;max-width:620px;display:grid;gap:14px">
+    <div style="display:flex;justify-content:space-between;font-size:13px;opacity:.75"><span>Lote: ${feitosLote} de 20 enviados</span><span>${novos.length} na lista</span></div>
+    <div style="height:6px;border-radius:99px;background:rgba(255,255,255,.08)"><div style="height:100%;width:${Math.min(feitosLote, 20) * 5}%;background:#F5C518;border-radius:99px"></div></div>
+    <div><b style="font-size:22px">${esc(atual.nome)}</b><div style="opacity:.7;font-size:14px;margin-top:4px">@${esc(atual.ig)} · ${esc(atual.nicho)} · ${esc(atual.cidade)} · nota ${atual.nota}</div></div>
+    <div style="font-size:15px;background:rgba(255,255,255,.04);border-left:3px solid #F5C518;padding:12px 14px;border-radius:6px;white-space:pre-line">${esc(atual.msg)}</div>
+    ${feitosLote >= 20 ? '<div style="font-weight:700;color:#F5C518">Lote de 20 concluído. Faça uma pausa antes do próximo.</div><button class="btn am" data-sdr-novolote="1" style="padding:14px">Começar próximo lote</button>' : `
+    <button class="btn" data-sdr-wa="${atual.id}" style="padding:16px;font-size:16px;background:#25D366;color:#0A0A0A">Abrir no WhatsApp e enviar</button>
+    <div style="display:flex;gap:8px"><button class="btn" data-sdr-ig="${atual.id}" style="flex:1;padding:12px">Mandar pelo Instagram</button>
+    <button class="btn" data-sdr-pula="${atual.id}" style="flex:1;padding:12px;background:#2a2a2a;color:#F5F3EE">Pular (sem WhatsApp / inativo)</button></div>
+    <a href="https://www.instagram.com/${encodeURIComponent(atual.ig)}/" target="_blank" rel="noopener" style="font-size:13px;color:#F5C518">Ver o perfil antes</a>`}
+    <p style="font-size:12px;opacity:.6;margin:0">No celular, o botão abre o app do WhatsApp com a mensagem pronta: só toque em enviar e volte aqui. O próximo contato já aparece.</p></div>`;
   const chip = (id, t) => `<button class="btn${aba === id ? ' am' : ''}" data-sdr-aba="${id}" style="padding:7px 14px;font-size:13px">${t}</button>`;
   const lote = vis.slice(0, 20);
   return `<div class="grade g4">${kpi('Na lista', novos.length, 'nota 80 ou mais')}${kpi('Enviados', fila.length, 'na esteira')}${kpi('Responderam', fila.filter(c => !['enviado', 'perdido'].includes(c.etapa)).length, '')}${kpi('Fechados', fila.filter(c => c.etapa === 'fechado').length, '')}</div>
-  <div style="display:flex;gap:8px;flex-wrap:wrap;margin:18px 0;align-items:center">${chip('lista', 'Lista (' + novos.length + ')')}${chip('esteira', 'Esteira (' + fila.length + ')')}
+  <div style="display:flex;gap:8px;flex-wrap:wrap;margin:18px 0;align-items:center">${chip('disparo', 'Modo disparo')}${chip('lista', 'Lista (' + novos.length + ')')}${chip('esteira', 'Esteira (' + fila.length + ')')}
     ${aba === 'lista' ? `<input id="sdr-busca" placeholder="Buscar nicho, cidade…" value="${esc(busca)}" style="flex:1;min-width:160px;background:#131314;color:inherit;border:1px solid rgba(255,255,255,.15);border-radius:9px;padding:8px 12px">` : ''}</div>
-  ${aba === 'lista'
+  ${aba === 'disparo' ? disparo() : aba === 'lista'
     ? `<p style="opacity:.7;font-size:13px;margin:0 0 12px">Lote de 20 (maior nota primeiro). Ao enviar, o contato vai para a esteira e o próximo sobe.</p><div class="grade g2" style="align-items:start">${lote.map(linha).join('') || '<div class="card" style="padding:24px">Lista vazia. 👏</div>'}</div>`
     : `<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;align-items:start">${ESTEIRA.map(e => { const l = fila.filter(c => c.etapa === e);
         return `<div class="card" style="padding:14px;display:grid;gap:8px"><h3 style="margin:0;font-size:14px">${NOMES[e]} <span style="opacity:.6">${l.length}</span></h3>${l.map(cartao).join('')}</div>`; }).join('')}</div>`}`;
 };
 document.addEventListener('click', e => {
-  const t = e.target.closest('[data-sdr-ig],[data-sdr-wa],[data-sdr-aba]'); if (!t) return;
-  if (t.dataset.sdrAba) { aba = t.dataset.sdrAba; render(); }
+  const t = e.target.closest('[data-sdr-ig],[data-sdr-wa],[data-sdr-aba],[data-sdr-pula],[data-sdr-novolote]'); if (!t) return;
+  if (t.dataset.sdrNovolote) { feitosLote = 0; render(); }
+  else if (t.dataset.sdrPula) salva(t.dataset.sdrPula, { acao: 'etapa', etapa: 'perdido' });
+  else if (t.dataset.sdrAba) { aba = t.dataset.sdrAba; render(); }
   else if (t.dataset.sdrIg) envia(t.dataset.sdrIg, 'instagram');
   else envia(t.dataset.sdrWa, 'whatsapp');
 });
