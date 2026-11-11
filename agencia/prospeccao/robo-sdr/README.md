@@ -6,11 +6,10 @@ Pega 20 contatos da aba SDR da Central e envia sozinho pelo WhatsApp Web, com 2 
 ## Primeira vez (no computador)
 1. Instale o Node.js 18 ou mais novo (nodejs.org).
 2. Abra o terminal nesta pasta e rode `npm install`.
-3. Pegue o token: é o segredo AUTOMACAO_TOKEN da Cloudflare (projeto lindsonalmeida → Configurações → Variáveis e segredos).
+3. Token: rode no PowerShell (nesta pasta) o comando que gera o token.txt e copie o mesmo valor para o segredo SDR_TOKEN da Cloudflare.
 
 ## Rodar um lote
-- Mac/Linux: `SDR_TOKEN=seu_token npm start`
-- Windows (PowerShell): `$env:SDR_TOKEN="seu_token"; npm start`
+- `npm.cmd start` (Windows) ou `npm start` (Mac).
 
 Na primeira vez aparece um QR code: no celular do chip, abra WhatsApp → Aparelhos conectados → Conectar e escaneie. Das próximas vezes ele entra sozinho.
 Deixe o terminal e o computador ligados até aparecer "Fim do lote" (cerca de 1 hora para 20 contatos).

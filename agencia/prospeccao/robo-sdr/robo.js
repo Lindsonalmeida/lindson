@@ -3,12 +3,13 @@
 // ATENÇÃO: automação no WhatsApp Web vai contra as regras do WhatsApp. Use um chip separado (decisão do Lindson, 11/11/2026).
 import pkg from 'whatsapp-web.js';
 import qrcode from 'qrcode-terminal';
+import { readFileSync, existsSync } from 'fs';
 const { Client, LocalAuth } = pkg;
 const CENTRAL = 'https://lindsonalmeida.pages.dev/api/sdr';
-const TOKEN = process.env.SDR_TOKEN;
+const TOKEN = process.env.SDR_TOKEN || (existsSync('token.txt') ? readFileSync('token.txt', 'utf8').trim() : '');  // token.txt fica só no PC
 const LOTE = Math.min(+process.env.LOTE || 20, 20);
 const MIN = 2, MAX = 5; // minutos entre envios
-if (!TOKEN) { console.log('Falta o token. Rode assim:  SDR_TOKEN=seu_token npm start'); process.exit(1); }
+if (!TOKEN) { console.log('Falta o arquivo token.txt nesta pasta (veja o README).'); process.exit(1); }
 const api = (corpo) => fetch(CENTRAL + (corpo ? '' : '?lote=' + LOTE), {
   method: corpo ? 'POST' : 'GET',
   headers: { Authorization: 'Bearer ' + TOKEN, 'Content-Type': 'application/json' },

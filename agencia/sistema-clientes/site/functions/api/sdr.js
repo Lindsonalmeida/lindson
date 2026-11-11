@@ -10,8 +10,8 @@ import { CONTATOS } from '../_sdr.js';
 export const ETAPAS = ['novo', 'enviado', 'respondeu', 'reuniao', 'proposta', 'fechado', 'perdido'];
 const CHAVE = 'sdr:status';
 async function pode(request, env) {
-  const t = env.AUTOMACAO_TOKEN || '', v = (request.headers.get('Authorization') || '').replace(/^Bearer\s+/i, '');
-  if (t.length >= 24 && v.length > 0 && iguais(v, t)) return 'extensao';
+  const v = (request.headers.get('Authorization') || '').replace(/^Bearer\s+/i, '');
+  for (const t of [env.SDR_TOKEN || '', env.AUTOMACAO_TOKEN || '']) if (t.length >= 24 && v.length > 0 && iguais(v, t)) return 'extensao';  // SDR_TOKEN: só do robô SDR
   const q = await quemE(request, env); return q && q.cli === 'admin' ? 'admin' : null;
 }
 const junta = st => CONTATOS.map(c => ({ ...c, etapa: 'novo', ...(st[c.id] || {}) }));
