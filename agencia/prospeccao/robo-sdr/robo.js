@@ -3,12 +3,21 @@
 // ATENÇÃO: automação no WhatsApp Web vai contra as regras do WhatsApp. Use um chip separado (decisão do Lindson, 11/11/2026).
 import pkg from 'whatsapp-web.js';
 import qrcode from 'qrcode-terminal';
-import { readFileSync, existsSync } from 'fs';
+import { readFileSync, writeFileSync, existsSync } from 'fs';
 const { Client, LocalAuth } = pkg;
 const CENTRAL = 'https://lindsonalmeida.pages.dev/api/sdr';
 const TOKEN = process.env.SDR_TOKEN || (existsSync('token.txt') ? readFileSync('token.txt', 'utf8').trim() : '');  // token.txt fica só no PC
 const LOTE = Math.min(+process.env.LOTE || 20, 20);
-const MIN = 2, MAX = 5; // minutos entre envios
+// Limites seguros (pedido do Lindson, 11/11/2026: "limite de acordo com as políticas de envio da Meta"), número principal:
+const MIN = 4, MAX = 9;             // minutos entre envios (aleatório)
+const POR_DIA = 20;                 // no máximo 20 contatos novos por dia
+const HORA_INI = 9, HORA_FIM = 18;  // só em horário comercial, segunda a sexta
+const MAX_SEM_WA = 3;               // 3 números sem WhatsApp seguidos = para (lista ruim derruba a reputação)
+const hoje = () => new Date().toLocaleDateString('sv-SE');
+const CONTA = 'enviados-hoje.json';
+const lerConta = () => { try { const j = JSON.parse(readFileSync(CONTA, 'utf8')); return j.dia === hoje() ? j.n : 0; } catch (e) { return 0; } };
+const somaConta = () => writeFileSync(CONTA, JSON.stringify({ dia: hoje(), n: lerConta() + 1 }));
+const podeAgora = () => { const d = new Date(), h = d.getHours(), w = d.getDay(); return w >= 1 && w <= 5 && h >= HORA_INI && h < HORA_FIM; };
 if (!TOKEN) { console.log('Falta o arquivo token.txt nesta pasta (veja o README).'); process.exit(1); }
 const api = (corpo) => fetch(CENTRAL + (corpo ? '' : '?lote=' + LOTE), {
   method: corpo ? 'POST' : 'GET',
@@ -27,14 +36,22 @@ wa.on('qr', qr => { console.log('Escaneie o QR na janela do Chrome que abriu (Wh
 wa.on('auth_failure', m => { console.log('Falha no login do WhatsApp:', m); process.exit(1); });
 wa.on('ready', async () => {
   console.log(hora(), 'WhatsApp conectado. Buscando o lote…');
+  if (!podeAgora()) { console.log(`Fora do horário seguro (seg a sex, ${HORA_INI}h às ${HORA_FIM}h). Rode de novo nesse horário.`); await wa.destroy(); process.exit(0); }
+  const resta = POR_DIA - lerConta();
+  if (resta <= 0) { console.log(`Limite de ${POR_DIA} por dia já atingido. Volte amanhã.`); await wa.destroy(); process.exit(0); }
   let lote; try { ({ lote } = await api()); } catch (e) { console.log('Não consegui ler a Central:', e.message); process.exit(1); }
+  lote = lote.slice(0, resta); console.log(`Hoje ainda pode enviar ${resta}. Lote de ${lote.length}.`);
   if (!lote.length) { console.log('Lista do SDR vazia.'); process.exit(0); }
-  let ok = 0, pulados = 0;
+  let ok = 0, pulados = 0, semWa = 0;
   for (const [i, c] of lote.entries()) {
     try {
       const id = await wa.getNumberId(c.wa);
-      if (!id) { await api({ id: c.id, acao: 'etapa', etapa: 'perdido' }); pulados++; console.log(hora(), `${i + 1}/${lote.length} ${c.nome}: número sem WhatsApp → Perdido`); continue; }
-      await wa.sendMessage(id._serialized, c.msg);
+      if (!podeAgora()) { console.log(hora(), 'Saiu do horário seguro. Parando.'); break; }
+      if (!id) { semWa++; await api({ id: c.id, acao: 'etapa', etapa: 'perdido' }); pulados++; if (semWa >= MAX_SEM_WA) { console.log('3 números sem WhatsApp seguidos. Parando por segurança.'); break; } console.log(hora(), `${i + 1}/${lote.length} ${c.nome}: número sem WhatsApp → Perdido`); continue; }
+      semWa = 0;
+      const chat = await wa.getChatById(id._serialized);
+      await chat.sendStateTyping(); await espera(Math.min(c.msg.length * 60, 12000) + Math.random() * 3000);  // "digitando…" como gente
+      await wa.sendMessage(id._serialized, c.msg); somaConta();
       await api({ id: c.id, acao: 'enviado', canal: 'whatsapp' }); ok++;
       console.log(hora(), `${i + 1}/${lote.length} ${c.nome}: enviado ✓`);
     } catch (e) {
