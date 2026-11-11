@@ -125,3 +125,8 @@ Use `npx wrangler@3 pages dev publico --kv CONTAS` com um `.dev.vars` (fora do G
 - Ainda não há recuperação de senha por e-mail: quem esquece pede ao admin, que apaga a conta para a pessoa criar de novo.
 - Demandas e agenda do Leo: no claude.ai usam o db do artifact; no site, o servidor da Central (`prototipo/kvdb.js`, chaves `dados:leo:dem` e `dados:leo:ag`). São dois bancos separados.
 - A foto do Lindson na tela de acesso só entra se `fotos/principal-*.webp` estiver na máquina que monta o site. Para gerar, use `prototipo/tratar-foto.py` com a foto original (fora do Git). O site montado em 01/11 já tem a foto embutida.
+
+## Aba SDR · Prospecção (conta Leandro, 11/11/2026)
+- **Tela:** `site/admin-sdr.js` (menu Minha agência → SDR · Prospecção). Lista de 20 em 20 (maior nota primeiro), botões Instagram (copia a mensagem e abre o Direct) e WhatsApp (abre `wa.me` com a mensagem). Ao enviar, o contato vai para a esteira: Enviado → Respondeu → Reunião → Proposta → Fechado / Perdido.
+- **Contatos:** `functions/_sdr.js` (54 negócios do Brasil, Instagram + WhatsApp de celular públicos, nota 82–88). Status no KV `sdr:status`.
+- **Extensão:** `GET /api/sdr?lote=20` (próximos 20 "novo") e `POST /api/sdr {id, acao:'enviado', canal:'instagram'|'whatsapp'}` com `Authorization: Bearer <AUTOMACAO_TOKEN>`. O que ela envia aparece na esteira do painel.
