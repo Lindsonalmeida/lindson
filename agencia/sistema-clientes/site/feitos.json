@@ -1,0 +1,1841 @@
+{
+"nota": "Base da aba Feitos (230 itens resumidos à mão em 10/11/2026, conta Leandro). As linhas novas do REGISTRO entram sozinhas pelo montar-feitos.py; \"vistos\" = linhas do REGISTRO já cobertas pela base.",
+"vistos": [
+"01443f9d5255",
+"0509b273d750",
+"06c181470ba3",
+"072517544cec",
+"07836bd710c8",
+"07dbb9e74e41",
+"0c7c4972a482",
+"0d2b301fa7ad",
+"0da25b147b4b",
+"0dec92cc2a42",
+"0e49ce6886f7",
+"10bf0ba706bb",
+"11b594184782",
+"1334464ac349",
+"1370ac970a92",
+"13aac1a18d8e",
+"165b718a5be0",
+"17b39bd99460",
+"182cf27735ae",
+"183f1e672897",
+"1afbd0ef5295",
+"1b0698b47903",
+"1b5e2e8aafde",
+"1e036c8e18c5",
+"1e319282f560",
+"1ea55068bba9",
+"1fe087d5fd3e",
+"1fe4b24497bb",
+"1fe6ba2dbb59",
+"20b292dd40b9",
+"2260b7ba64dd",
+"24c60f1c9414",
+"264c701dca06",
+"26700dd727bb",
+"26bf6cc7bbe1",
+"2a22ae30f1f1",
+"2a98ef17308d",
+"2cdf09185e0c",
+"2ea949288331",
+"31be98395898",
+"32b1b4d2bf88",
+"331329f3a834",
+"338fbabeabf7",
+"341a7c63f59a",
+"35bdb8901e09",
+"35f8c49f72bc",
+"365dedecf9d5",
+"3733b1aa57bd",
+"37585c08b597",
+"380c25ba8d16",
+"399c25f14e9b",
+"3e05369205f5",
+"406060ce7130",
+"4223cd888a41",
+"427c32372df4",
+"43941ca6d496",
+"44f29febfe17",
+"4562824c0485",
+"4780fbf913c9",
+"47d2478862b1",
+"48cc2c732a86",
+"4da6584fd667",
+"4f87483fe79a",
+"4fb4fb0f4440",
+"4fefbfc7d8f9",
+"50708f93dd38",
+"52047358a294",
+"53614b4b5d83",
+"53632d6db83f",
+"548e277f6999",
+"549c63da0afe",
+"5658184a44ea",
+"59504a82a560",
+"5c307e4664b1",
+"5cb976a312fe",
+"5d115ff5f481",
+"5dea4d0afb5a",
+"5eaa97aa8969",
+"5efcefea0da0",
+"5f9494c65496",
+"5fe9b9d1c48b",
+"5ffbe627dee0",
+"60b6f66506d2",
+"615e9943d774",
+"61f8e029f571",
+"62ade546363e",
+"64a0b55c0a78",
+"65b7c7b9e53c",
+"66b153d1e113",
+"67f1d442c75c",
+"6b818dc26c6c",
+"6eff44173233",
+"703df106ae93",
+"70794230bc94",
+"708fe8bc9fe9",
+"72ecc67b2f2b",
+"73f549d4e60d",
+"752282d3c3b2",
+"75642fb6b2dd",
+"794f04a40fab",
+"7a7c0f373855",
+"7abb0d95a4f1",
+"7d314a8c3afa",
+"7e60fcb92fe6",
+"7f98f5eaf397",
+"804aab587196",
+"806002183377",
+"8079a05734f9",
+"834fb1b860a8",
+"857d968fbe39",
+"85e35e2ff571",
+"86fb051c3ef2",
+"88bd59fa8c63",
+"8a9499946fa9",
+"8b3373f839f4",
+"8c8b3ba7ffa9",
+"8d20f8f92960",
+"90103fb66ad2",
+"902dcb72c46b",
+"9054262a10a2",
+"906a45f014ea",
+"916ed9e194ee",
+"918e676a8c02",
+"93572c98989a",
+"93d680eda600",
+"93ff688af517",
+"94fba462f0e5",
+"97a3dbf4c3a7",
+"97c7a984b657",
+"99737dc3266d",
+"99901dd86063",
+"99a74a0f660b",
+"9cd7a260f5d6",
+"9f82207ec272",
+"9fb4585fdc16",
+"a07320983b2f",
+"a0844e8a77f6",
+"a19f810fd5af",
+"a2c0ebdba82f",
+"a4ca87f9c025",
+"a62b9b01309b",
+"a65133ec4dc7",
+"a7274de00304",
+"ab3687fc153f",
+"abd6128c5971",
+"ac71ef0c0aea",
+"ac84a2ed43d9",
+"ade6f53a5ece",
+"af048ef4fcf7",
+"b03ea5ccf8dc",
+"b1055cb5dc04",
+"b10b7c631df8",
+"b32c8dd211c4",
+"b527a8d2ab6f",
+"b5835af0b36a",
+"b6ea73d007cb",
+"b7f9bffc529a",
+"b950d9c5e6da",
+"b9edffdc26bd",
+"ba4194471cdd",
+"bafe87cd8651",
+"bc82d970afdc",
+"bd12a8ef0a10",
+"bd6a80781540",
+"be3fc95cf1f1",
+"bee4a220ef4d",
+"bfba094beee4",
+"c0a447b3bb2d",
+"c378fce7a599",
+"c39509624dc9",
+"c71dea170ae9",
+"c7a1125c21a5",
+"c7e2f48bbdb9",
+"c979bf197c94",
+"ca0e35ec5d5d",
+"cc51387af3c7",
+"cc968f999d91",
+"ce0abf71a926",
+"cea0cce0b9dc",
+"cec0d68bf75f",
+"cff9d1e79363",
+"d19e36fc7ae9",
+"d2513e35d0f9",
+"d3bab4879fa0",
+"d629ed58c96a",
+"d65bcc43135a",
+"d7402c4030a3",
+"d8285b20d6ae",
+"da67e7f1b647",
+"db29f4f631e7",
+"dba43b16abfa",
+"de64cdc7e69c",
+"de95729f0fa1",
+"e2ce62f77a99",
+"e380ce18b99b",
+"e40379c44371",
+"e420f925caf0",
+"e450c7509eb4",
+"e716cdc8ec97",
+"e8e2d16d2584",
+"ec2802ae8682",
+"ecd7499df7c3",
+"eddbb93fc43b",
+"ef53a3fb2022",
+"f3e9fc65bd42",
+"f4045710b3fb",
+"f590f408c386",
+"f61102481e1a",
+"f624e7e835cc",
+"f64fb39cbaef",
+"f8392c212b20",
+"fab2c3055a22",
+"faeb49d71ae2",
+"fb0e4bbb9795",
+"fbfeab3e5e66",
+"fc5293c81e3c",
+"fc7c7191f3bc",
+"fcc121b8ceab",
+"fce6f14ce604",
+"fce7cfe4ff98",
+"fd00d6985374",
+"fe8fad9485dd",
+"ff17448f00c4",
+"ff7d590fc082"
+],
+"itens": [
+{
+"d": "2026-10-31",
+"h": "",
+"conta": "passaportedabiblia",
+"txt": "Painel do Vereador Leo Pinto na Central (identidade do manual do Claude Design, demandas e agenda com banco real)",
+"cli": "Leo Pinto"
+},
+{
+"d": "2026-10-30",
+"h": "",
+"conta": "Zuleide",
+"txt": "Identidade do Leo Pinto v2 (sistema de marca em 12 páginas)",
+"cli": "Leo Pinto"
+},
+{
+"d": "2026-10-30",
+"h": "",
+"conta": "Zuleide",
+"txt": "Identidade do Leo Pinto v3 \"Leo da Baixada\": monograma LP, selo de mandato, Azulejo da Baixada, 12 ícones, manual de 20 páginas 4:5",
+"cli": "Leo Pinto"
+},
+{
+"d": "2026-10-30",
+"h": "",
+"conta": "Zuleide",
+"txt": "Instalador global do Builder Squad (skills no / do Claude Code)",
+"cli": "Minha marca"
+},
+{
+"d": "2026-10-30",
+"h": "",
+"conta": "Zuleide",
+"txt": "Regra no CLAUDE.md: consultar o repositório e os outros branches antes de começar",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-01",
+"h": "12:42",
+"conta": "Zuleide",
+"txt": "Painel do Leo dentro do modelo prototipo/painel.html (tema e grupo Mandato)",
+"cli": "Leo Pinto"
+},
+{
+"d": "2026-11-01",
+"h": "12:42",
+"conta": "Zuleide",
+"txt": "Proposta comercial na identidade da Central do Cliente (preto e amarelo), sem quantidades de entregáveis",
+"cli": "Central"
+},
+{
+"d": "2026-11-01",
+"h": "12:42",
+"conta": "Zuleide",
+"txt": "Verificação da campanha de Meta Ads da Desentupidora SF",
+"cli": "Desentupidora SF"
+},
+{
+"d": "2026-11-01",
+"h": "12:42",
+"conta": "Zuleide",
+"txt": "Criou este registro e a regra de manter ele atualizado",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-01",
+"h": "13:57",
+"conta": "Pedro",
+"txt": "Raposa e Leão: acervo dos longos 12-16 (23 obras pela Web Gallery of Art, 6 trocadas por obra do mesmo tema) e render dos longos 12-16",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-01",
+"h": "13:49",
+"conta": "passaportedabiblia",
+"txt": "Longos abaixo de 16 min refeitos pela regra do Peter (15 sessões, conteudo/youtube/filas/REFAZER-LONGOS.md); no app: Passaporte 03, 04 e 08, Raposa 07 a 11",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-01",
+"h": "13:57",
+"conta": "Pedro",
+"txt": "Raposa e Leão: capas no app para baixar (Shorts 01-30 e longos 01-06 e 12-16; 07-11 já tinham)",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-01",
+"h": "14:25",
+"conta": "Zuleide",
+"txt": "Fala de 40 s para a influencer política Katje Garcez sobre a entrega de brinquedos na Vila Conceição (versão 2, citando a Vila)",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-01",
+"h": "15:22",
+"conta": "Lindson",
+"txt": "Trabalho em equipe das 3 contas: regra no CLAUDE.md (identificar a conta, nunca refazer, avisar pedido repetido, quadro de quem faz o quê), nome Lindson no registro, histórico desta conta, QUADRO-DA-EQUIPE.md e MAPA-DO-REPOSITORIO.md",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-01",
+"h": "15:27",
+"conta": "Lindson",
+"txt": "Ficha da cliente Dra. Jaci Cunha (contrato Plano Master, o que está incluído, Central do Cliente, pendências)",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-01",
+"h": "15:51",
+"conta": "Lindson",
+"txt": "Identidade da Dra. Jaci Cunha v1 (rascunho: manual de 19 páginas, símbolo JC, briefing e prompt do Claude Design)",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-01",
+"h": "15:51",
+"conta": "Lindson",
+"txt": "Manual de identidade da Clínica Dra. Jaci Cunha (16 páginas) documentando a identidade que ela já usa: logo JC com perfil, bordô e dourado, Cormorant + Montserrat, sistema de posts, anúncios, papelaria e regras do CFO. Também o resumo da estratégia premium de out/2026 e briefing e prompt do Claude Design atualizados",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-01",
+"h": "16:02",
+"conta": "Lindson",
+"txt": "Fotos de estúdio da Dra. Jaci Cunha (8, recebidas do Lindson) com guia de uso",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-01",
+"h": "19:29",
+"conta": "Lindson",
+"txt": "Central do Cliente: painel da Dra. Jaci na identidade dela (bordô e dourado, logo e posts reais, área \"Agenda cheia\" com avaliações, plano de 90 dias e pautas), código de administrador do Lindson e site publicável num sistema só: criar conta com senha e código, entrar com e-mail e senha, admin vê todos e gerencia as contas (Cloudflare Pages Functions + KV, testado)",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-01",
+"h": "16:17",
+"conta": "Zuleide",
+"txt": "Estratégia de Instagram do Leo Pinto rumo a 2028 (6 linhas editoriais, ritmo, ganchos, bio, 90 dias, sem propaganda antecipada) e linhas editoriais + calendário de novembro da Dra. Jaci (sobre a estratégia premium existente)",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-01",
+"h": "16:33",
+"conta": "Lindson",
+"txt": "Prompt da equipe (quem é quem, rotina de busca no repositório, regras de segurança) e resumo do que as contas já sabem",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-01",
+"h": "17:36",
+"conta": "Pedro",
+"txt": "Canais dark: capas dos Shorts no padrão aprovado (Passaporte 02-20 pelo capas2.py; Raposa 07-30 com shorts/NN/capa.jpg) nos dois apps; Shorts do Passaporte 02-11 e do Raposa 07-30 no app; regra das capas e da duração no CLAUDE.md",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-01",
+"h": "17:40",
+"conta": "Lindson",
+"txt": "Central do Cliente publicada: https://lindsonalmeida.pages.dev (site na raiz do repositório privado CentralLindsonALmeida, KV e segredos configurados pelo Lindson, guarda contra caminhos expostos)",
+"cli": "Central"
+},
+{
+"d": "2026-11-01",
+"h": "17:43",
+"conta": "Pedro",
+"txt": "Capas dos longos no padrão aprovado: Passaporte 01-09 pelo capas2.py; Raposa 01-11 com as thumbs da identidade (longos/NN/thumb*.png)",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-01",
+"h": "17:48",
+"conta": "Zuleide",
+"txt": "Raposa longo-06 refeito na regra do Peter: \"Como reconhecer um bajulador, segundo Maquiavel\" (94 cenas, 2.882 palavras, 16:40, 8 lições, 5 conversas, 14 citações) + capas A/B claras (Ele só concorda / Bajulador à vista)",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-01",
+"h": "17:49",
+"conta": "Zuleide",
+"txt": "Raposa longo-02 refeito (\"Por que pessoas boas perdem, segundo Maquiavel\"): roteiro novo 85 cenas, 2.867 palavras, 16:43, capas A/B (Bom demais? / Presa fácil)",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-01",
+"h": "17:49",
+"conta": "Zuleide",
+"txt": "Raposa longo-03 refeito na regra do Peter: \"César Bórgia: o único erro do príncipe de Maquiavel\" (100 cenas, 2.679 palavras, 16:08, 8 lições, 5 conversas, 12 citações; 4 imagens bloqueadas na Wikimedia trocadas por obras do mesmo tema) + capas A/B (Um só erro / Perdeu tudo)",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-01",
+"h": "17:51",
+"conta": "Lindson",
+"txt": "Painel da Dra. Jaci com dados reais: Instagram de 01/11 (1.050 seguidores, 29,4 mil visualizações, 33 novos), entregas, pagamentos e calendário de novembro; números de exemplo do modelo removidos (prototipo/real.js, genérico para outros clientes). Dados reais só no repositório privado. Datas do calendário de novembro corrigidas (dia 1º é domingo)",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-01",
+"h": "17:52",
+"conta": "Zuleide",
+"txt": "Raposa longo-04 refeito pelas regras do Peter: \"Maquiavel: 10 regras de guerra que ninguém lê\" (89 cenas, 2.741 palavras, 16:11, 8 capítulos, 5 conversas)",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-01",
+"h": "18:27",
+"conta": "Lindson",
+"txt": "Dra. Jaci: CRM de pacientes (funil com WhatsApp por etapa, relatório por origem), Financeiro (entradas/saídas, meta, fixas, CSV) e Notícias do nicho (Google Notícias, 6 temas), salvos no servidor; testado de ponta a ponta",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-01",
+"h": "18:56",
+"conta": "Pedro",
+"txt": "Passaporte longo-01 estendido pelas regras do Peter: \"Não entende a Bíblia? Comece por este mapa\" (85 cenas, 2.858 palavras, 19:42, 7 paradas, 3 loops, 6 conversas, 12 versículos) + capas A/B do capas2.py (NÃO ENTENDE? / O MAPA ESCONDIDO, já aprovadas no capas_v2.json). Versão do app recodificada com suavização, 24 fps e áudio mono para não pixelar (19,5 MB)",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-01",
+"h": "18:36",
+"conta": "Lindson",
+"txt": "Leo Pinto na Central com dados reais (Instagram 01/11: 3.161 seguidores, 9.629 visualizações +78,9%, +23 líquidos; entregas) e sem números de exemplo; Demandas e Agenda do gabinete (conta Pedro) passam a salvar no servidor do site via prototipo/kvdb.js",
+"cli": "Leo Pinto"
+},
+{
+"d": "2026-11-01",
+"h": "18:50",
+"conta": "Lindson",
+"txt": "Tela Planejamento com as linhas editoriais reais (Jaci: 5 linhas da Zuleide; Leo: 6 linhas da estratégia 2028), ritmo da semana, plano de 90 dias e regras (CFO / Lei Eleitoral); calendário de novembro do Leo montado pelo ritmo semanal da estratégia",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-01",
+"h": "18:51",
+"conta": "Lindson",
+"txt": "Sugestão de 4 quadros fixos para o Instagram do Leo (Leo no Bairro, Pediu? Tá feito., Gente da Baixada, Olho de Engenheiro)",
+"cli": "Leo Pinto"
+},
+{
+"d": "2026-11-01",
+"h": "18:54",
+"conta": "Pedro",
+"txt": "Passaporte: Shorts 02 a 20 com a voz nova e capas v2 completos no app (12-20 hoje à noite)",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-01",
+"h": "19:13",
+"conta": "Lindson",
+"txt": "Envio de fotos de verdade na Central (cliente envia pelo celular, várias de uma vez, por categoria; admin vê e baixa; reduzidas no aparelho, guardadas no servidor) nos painéis da Jaci e do Leo",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-01",
+"h": "19:15",
+"conta": "Pedro",
+"txt": "Raposa e Leão: longo-12 \"O Príncipe explicado sem enrolação\" (17:21) renderizado e no app com capítulos",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-01",
+"h": "19:17",
+"conta": "Lindson",
+"txt": "Script do Nano Banana (Gemini imagem: gerar e editar com fotos de referência)",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-01",
+"h": "19:36",
+"conta": "Lindson",
+"txt": "30 fotos do ensaio de estúdio do Leo (álbum do Google Fotos) enviadas ao sistema dele (Fotos › Ensaio de estúdio), por uma conta técnica que só abre o painel do Leo (senha em privado/contas-tecnicas.json); painel do administrador trocado por um resumo com os números reais de cada cliente (antes mostrava números de exemplo do modelo)",
+"cli": "Leo Pinto"
+},
+{
+"d": "2026-11-01",
+"h": "19:44",
+"conta": "Lindson",
+"txt": "Central: \"Aprovar\", \"Pedir ajuste\" e \"Pedidos à agência\" salvos no servidor (antes eram do modelo e não salvavam); ajuste e pedido abrem o WhatsApp do Lindson com a mensagem pronta; admin muda a situação e responde o pedido; painel do administrador mostra pedidos e ajustes em aberto",
+"cli": "Central"
+},
+{
+"d": "2026-11-01",
+"h": "20:10",
+"conta": "Lindson",
+"txt": "Correção urgente da Central: a tela de acesso e os painéis estavam sem doctype e viewport (formato de artifact), então no celular abriam como página de computador; o montar-site agora coloca o cabeçalho de celular",
+"cli": "Central"
+},
+{
+"d": "2026-11-01",
+"h": "20:12",
+"conta": "Lindson",
+"txt": "Datas comemorativas de nov/2026 a out/2027 para a Dra. Jaci (24 datas de odonto, estética e calendário) e para o Leo (25 datas cívicas, juninas e da Baixada), com ideia de conteúdo e regras (CFO / eleitoral); também na tela Planejamento do site",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-01",
+"h": "20:34",
+"conta": "Lindson",
+"txt": "Vídeos tutoriais narrados (vertical, cerca de 2 min cada) da Central: \"Oi, Dra. Jaci! Oi, equipe!\" e \"Oi, Vereador Leo! Oi, equipe!\", com exemplos em cada tela; o gravador ganhou legendas, digitação e narração",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-01",
+"h": "20:36",
+"conta": "Lindson",
+"txt": "Segurança: o código de acesso da Jaci ficou em 2 commits do repositório público (roteiro do tutorial). Removido dos arquivos, os roteiros passaram a usar {CODIGO:cliente} lido do arquivo privado, e o código da Jaci foi trocado (novo em privado/codigos-acesso.json). Falta o Lindson atualizar o segredo CODIGOS na Cloudflare",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-01",
+"h": "20:51",
+"conta": "Lindson",
+"txt": "Decisão do Lindson: manter o código original da Jaci (a troca foi desfeita no arquivo privado; nada muda na Cloudflare)",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-01",
+"h": "20:55",
+"conta": "Lindson",
+"txt": "Varredura dos sites: Central (todas as telas dos painéis da Jaci, do Leo e do admin, no celular e no computador; sem erro de script, imagem quebrada, rolagem lateral ou número de exemplo) e mini sites da Rafael Imports e da Desentupidora SF (ok, WhatsApp com números válidos). Corrigido: a aba Conteúdos › Datas comemorativas mostrava as datas genéricas do modelo",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-02",
+"h": "",
+"conta": "Lindson",
+"txt": "Central, painel do administrador com abas: Clientes, Minha rede social (Recomeço 90, Fábrica de Conteúdo, Legendas Top X, Brand Book, Design System), Vendas e CRMs (funil do Recomeço 90, SDR para Agências, propostas, contratos, Downloads, 3 Prioridades), Canais dark (apps únicos do Passaporte e do Raposa) e Antigos e repetidos (7 apps substituídos, cada um com o que usar no lugar)",
+"cli": "Central"
+},
+{
+"d": "2026-11-02",
+"h": "",
+"conta": "Lindson",
+"txt": "Painel do administrador refeito no sistema da Central (menu lateral, cartões, missões do dia, novidades dos clientes, clientes, rede social, vendas e CRMs, canais, contas, antigos) no lugar da página de cartões; animações em todos os painéis (botões, cartões, entrada em cascata, rolagem, números contando); padrão registrado no CLAUDE.md",
+"cli": "Central"
+},
+{
+"d": "2026-11-02",
+"h": "",
+"conta": "Lindson",
+"txt": "Recomeço 90 dentro da Central (/painel/recomeco, só o admin abre): o app original roda com o banco do servidor (claude-shim.js + functions/api/db.js) e traz os seus dados do claude.ai na primeira abertura (197 documentos: progresso, funil, leads, Zé Doca, cidades, 300 roteiros); entrada no menu do administrador",
+"cli": "Central"
+},
+{
+"d": "2026-11-02",
+"h": "",
+"conta": "Lindson",
+"txt": "Apps dentro da Central, com a identidade dela (frentes paralelas): Fábrica de Conteúdo (254 documentos trazidos, upload de fotos pelo servidor, tema escuro próprio), Legendas Top X, Marca e Design System (Brand Book e Design System juntos) e Gerador de propostas recriados como telas nativas; tudo no menu do administrador. O \"Lindson Almeida\" 3Umh é o mini site da bio (não é repetido)",
+"cli": "Central"
+},
+{
+"d": "2026-11-02",
+"h": "",
+"conta": "Lindson",
+"txt": "Permissões do repositório: .claude/settings.json libera os comandos e ferramentas de trabalho em todas as sessões (pedido do Lindson: \"permita tudo\" / \"crie\"). Ações irreversíveis, como apagar artifact, continuam pedindo confirmação",
+"cli": "Central"
+},
+{
+"d": "2026-11-02",
+"h": "",
+"conta": "Lindson",
+"txt": "Fábrica de Conteúdo na Central: as 165 fotos antigas (notícias, banco de fotos, capas do Maquiavel) foram recuperadas do claude.ai e são servidas pela rota /_blob/, só para o admin",
+"cli": "Central"
+},
+{
+"d": "2026-11-02",
+"h": "",
+"conta": "Zuleide",
+"txt": "Raposa longo-05 refeito pelas regras do Peter: \"O livro de Maquiavel que ninguém lê\" (Discursos sobre Tito Lívio), 86 cenas, 2.879 palavras, 9 lições, 16:44; capas A/B \"O outro livro\" / \"Ninguém leu\"",
+"cli": "Curso legislativo"
+},
+{
+"d": "2026-11-02",
+"h": "",
+"conta": "Pedro (passaportedabiblia)",
+"txt": "Passaporte longo-02 refeito na regra do Peter: \"Por onde começar a ler a Bíblia sem travar\", 91 cenas, 2.838 palavras, 18:53, 8 capítulos, 6 conversas, loops de Gênesis e Emaús; capas A/B pelo capas2.py",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-02",
+"h": "",
+"conta": "Pedro",
+"txt": "Raposa longo-01 refeito na regra do Peter: \"8 lições de Maquiavel para enxergar as pessoas\" (87 cenas, 2.872 palavras, 16:25, 8 capítulos, 3 loops, 5 conversas, 13 citações; 11 cenas com imagem trocada por obra do mesmo tema porque a Wikimedia bloqueou) + capas na identidade do canal (A: thumb.png \"O livro proibido do poder\"; B nova: thumb-b.png \"Ele pensou em tudo, menos nisso\")",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-02",
+"h": "12:39",
+"conta": "Lindson",
+"txt": "Acervo Maquiavel completado do ponto da Zuleide (frentes paralelas): Príncipe 6–7, Discursos 6–8, Arte da Guerra 4–6, História de Florença 5+, missões e escritos políticos (cerca de 35 legações), literatura 9–14, contexto e personagens 3+, cartas conferidas no italiano (2 erros de sentido corrigidos) com 20 histórias; dinheiro online: README, plano para o Lindson e riscos-legais-e-regras (impostos",
+"cli": "Curso legislativo"
+},
+{
+"d": "2026-11-02",
+"h": "12:49",
+"conta": "Lindson",
+"txt": "Roteiro de Reels de 45 s vendendo os serviços para negócio local (tom agressivo, gatilhos, recompra de atenção aos 15 s, chamada VITRINE, pedido de envio), com 5 ganchos para teste e legenda SEO",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-02",
+"h": "17:16",
+"conta": "Lindson",
+"txt": "Revisão do acervo Maquiavel, ciclo 2, pendência 1: fichas detalhadas dos 101 capítulos dos *Discursos* que faltavam (36 do Livro I, 26 do Livro II, 40 do Livro III; mais de 300 citações conferidas no italiano e latim por programa), tabela completa *Príncipe* × *Discursos* (27 linhas, contradições e tensões) e 9 correções no discursos.md",
+"cli": "Curso legislativo"
+},
+{
+"d": "2026-11-02",
+"h": "17:22",
+"conta": "Lindson",
+"txt": "Agente Maquiavel v2 e v2.1 (a partir da v1.1 do Pedro): lê o acervo completo e as fichas dos *Discursos*, correções obrigatórias, modo professor de dinheiro, iniciativa com memória de decisões (CONSELHOS.md), regra de cliente ativo e de lei a conferir. Rodou os 12 testes: passou 12/12",
+"cli": "Curso legislativo"
+},
+{
+"d": "2026-11-02",
+"h": "17:32",
+"conta": "Lindson",
+"txt": "Foto de perfil do Instagram do Vereador Leo Pinto: foto leo-23 recortada por IA, 3 versões na identidade v3 (A azul recomendada, B marinho com sol, C amarela) e prévia no círculo",
+"cli": "Leo Pinto"
+},
+{
+"d": "2026-11-02",
+"h": "17:54",
+"conta": "Lindson",
+"txt": "Leo Pinto: 3 primeiras artes do feed (apresentação em painel contínuo 1080×1350, encaixe na grade 3:4 com sangria de 34 px), só fontes, logo e cores; pesquisa de referências (Behance, campanhas premiadas) e textos e legendas SEO pelos agentes",
+"cli": "Leo Pinto"
+},
+{
+"d": "2026-11-02",
+"h": "18:31",
+"conta": "Lindson",
+"txt": "Leo Pinto: feed v13 versão 3 (sofisticada): referências do Lindson aplicadas (retrato grande, nome em blocos, etiquetas, mapa oficial de São João Batista em camada, degradê e granulação) e textos novos (vereador mais bem votado, do povo para o povo, jovem, engenheiro, compromisso com São João Batista)",
+"cli": "Leo Pinto"
+},
+{
+"d": "2026-11-02",
+"h": "18:37",
+"conta": "Lindson",
+"txt": "Painel do Leo na Central: Aprovações com as 3 artes de apresentação (v13), prévia das 3 juntas no perfil e legendas (ver e copiar); artes de exemplo (v12) retiradas a pedido do Lindson",
+"cli": "Leo Pinto"
+},
+{
+"d": "2026-11-03",
+"h": "",
+"conta": "Lindson",
+"txt": "Leo Pinto: 6 posts de datas comemorativas (15/11, 20/11, 11/12, 25/12, 31/12, 01/01) modelados nas referências do Lindson (laranja como cor principal, logo direto no post, fotos de banco no Natal e Ano Novo), com tag de linha editorial, foto × só logo alternados, feed em xadrez revisado pelo design-squad, legendas SEO do copy-squad; nas Aprovações do painel com prévia do feed",
+"cli": "Leo Pinto"
+},
+{
+"d": "2026-11-03",
+"h": "",
+"conta": "Lindson",
+"txt": "Dra. Jaci: estilo das artes do Instagram aprendido dos 5 posts reais (assinatura fixa, tipografia serifada itálica + sans, faixas vinho, 5 composições para copiar)",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-03",
+"h": "",
+"conta": "Lindson",
+"txt": "Leo Pinto: 9 artes aprovadas (apresentação + 6 datas) publicadas nas Aprovações do painel com legenda e 'quem aprovou' (agência e cliente); calendário editorial nov/26–jan/27 com abas por mês (real.js aceita calendarios)",
+"cli": "Leo Pinto"
+},
+{
+"d": "2026-11-03",
+"h": "",
+"conta": "Lindson",
+"txt": "Memória do Lindson: tudo o que ele pediu, aprovou e reprovou num documento só (regras, por cliente, pedidos feitos, pendências); CLAUDE.md e PROMPT-DA-EQUIPE mandam toda conta, inclusive nova, ler antes de tudo. Central: nome de quem aprovou a arte vem da conta de acesso do cliente",
+"cli": "Central"
+},
+{
+"d": "2026-11-03",
+"h": "",
+"conta": "Lindson",
+"txt": "Central: abas nas Aprovações (Para aprovar · Aprovados a postar · Postados) e botão 'Marquei como postado', com quem marcou e quando (servidor), em todos os painéis",
+"cli": "Central"
+},
+{
+"d": "2026-11-03",
+"h": "",
+"conta": "Lindson",
+"txt": "Dra. Jaci: 4 carrosséis de novembro (24 telas) copiando os posts reais dela, textos e legendas do copy-squad (CFO conferido), nas Aprovações do painel com as telas e a legenda; posts antigos retirados",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-03",
+"h": "10:51",
+"conta": "Lindson",
+"txt": "Dra. Jaci: campanha completa de Meta Ads (Pedro Sobral: A1 Estética, A2 Região, B1 Odonto, C Remarketing; orçamento R$ 30 e R$ 60/dia; passo a passo; 4 semanas; regras de decisão; WhatsApp por código) e 10 criativos copiando as composições dela (CFO e Meta conferidos)",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-03",
+"h": "10:53",
+"conta": "Pedro",
+"txt": "Engenharia reversa por fontes públicas do HeyGen e da ElevenLabs, pesquisa de outras ferramentas de clone e plano do app interno de clone de imagem e voz",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-03",
+"h": "11:02",
+"conta": "Zuleide",
+"txt": "Agente Maquiavel finalizado (v3.2) — missão completa. Pesquisa em todos os idiomas (com Pedro e Lindson), revisão em 2 ciclos (≈2.300 citações italianas conferidas por programa no original, 46 + 8 grupos de contradições resolvidos na fonte, cobertura pela lista mestra das obras, primeiras edições em fac-símile), 142 fichas dos *Discursos*, 641 ensinamentos (248 + 393 complementares), índice de 50 ",
+"cli": "Curso legislativo"
+},
+{
+"d": "2026-11-03",
+"h": "11:05",
+"conta": "Lindson",
+"txt": "Central: aba Treinamento (vídeos incorporados, 'Abrir no YouTube', marcar assistido) no painel da Dra. Jaci, com o vídeo 'Leads no WhatsApp: como transformar conversas em vendas'",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-03",
+"h": "11:07",
+"conta": "Lindson",
+"txt": "Treinamento da Dra. Jaci: 2º vídeo ('Como atender muitos leads no WhatsApp sem ser banido', Pai do Zap)",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-03",
+"h": "11:08",
+"conta": "Lindson",
+"txt": "Treinamento da Dra. Jaci: 3º e 4º vídeos ('Como converter leads frios pelo WhatsApp', Eproteção; 'O tipo de atendimento que os clientes adoram', Carol Iasmim)",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-03",
+"h": "11:12",
+"conta": "Lindson",
+"txt": "Treinamento do Vereador Leo: aba nova no painel com 4 vídeos de oratória e comunicação (ÓHQUEMFALA! ×2, Ernesto Reis, Metaforando)",
+"cli": "Leo Pinto"
+},
+{
+"d": "2026-11-03",
+"h": "11:33",
+"conta": "Zuleide",
+"txt": "Lista de todos os agentes por categoria (2 nossos + 183 Xquads + 16 Builder Squad = 201), conferida nos pacotes oficiais, com atalho \"qual chamar para cada pedido\"",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-03",
+"h": "12:15",
+"conta": "Pedro",
+"txt": "Nome e identidade visual do app de clone: Dublê (logo de círculo partido rosto + barras de voz, paleta grafite/violeta, amarelo só no consentimento, tema Gradio aplicado no app, textos novos)",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-03",
+"h": "12:04",
+"conta": "Zuleide",
+"txt": "Desentupidora SF: painel na Central do Cliente (CRM de chamados, Financeiro, Notícias do setor, Fotos, Aprovações; identidade do site) e código de acesso (hash PBKDF2 em functions/_codigos.js do privado; código entregue ao Lindson). CRM com palavras por cliente (ferramentas.js)",
+"cli": "Desentupidora SF"
+},
+{
+"d": "2026-11-03",
+"h": "12:07",
+"conta": "Zuleide",
+"txt": "Desentupidora SF: 4 artes de feed copiando modelos (3 do Designi + enquete aprovada do Leo), com legendas SEO, linha editorial e prévia do feed",
+"cli": "Desentupidora SF"
+},
+{
+"d": "2026-11-03",
+"h": "12:04",
+"conta": "Zuleide",
+"txt": "Cliente novo RT Full Jobs (Realtime): prints do perfil e briefing (projeto geral e equipamentos)",
+"cli": "Real Time"
+},
+{
+"d": "2026-11-03",
+"h": "12:15",
+"conta": "Pedro",
+"txt": "Dublê tela v2: pesquisa em sites de templates (Framer, Contra, Dribbble, Wix), escolhido o Sermo; tela nova em HTML (halo de voz que pulsa, console, números reais, trava, cadastro em 5 passos com microfone) e servidor FastAPI no lugar do Gradio",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-03",
+"h": "12:44",
+"conta": "Pedro",
+"txt": "Dublê: voz limpa e fluida + experimento de semelhança da voz do Lindson (juiz Resemblyzer; 0,895 → 0,935, voz real 0,924), melhor configuração aplicada no motor",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-03",
+"h": "12:48",
+"conta": "Pedro",
+"txt": "Vigia: Passaporte longo-02 (18:53) e Raposa longo-05 (16:44, texto novo) ligados nos apps; Raposa longo-01 (16:25, capas A/B na identidade, capítulos preenchidos) subido e ligado no app. Passaporte: todos os longos 01-09 no app. Raposa: falta só 13-16 (pausados pelo Lindson)",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-03",
+"h": "13:11",
+"conta": "Pedro",
+"txt": "Dublê: 3 stories (APNG + MP4) na identidade premium e vídeo de 30 s com a voz clonada do Lindson (foto no cantinho, selo CLONE, aviso de IA); lip-sync MuseTalk pronto mas bloqueado na nuvem",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-03",
+"h": "13:29",
+"conta": "Pedro",
+"txt": "Dublê: voz fluida (motor gera em blocos de ~220 caracteres, pausas menores; conferido com Whisper) e vídeo de apresentação v2 (30 s, sem foto parada)",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-03",
+"h": "13:48",
+"conta": "Pedro",
+"txt": "Real Time: estratégia completa 19 p. (modelo Villa, identidade da RT) e identidade v1 refeita (símbolo visor + rt + REC, wordmark realtime, 12 SVGs) com manual de marca de 20 p. no padrão premium",
+"cli": "Real Time"
+},
+{
+"d": "2026-11-03",
+"h": "13:57",
+"conta": "Pedro",
+"txt": "Real Time: manual de marca refeito a partir de pesquisa de templates (VideoLab, Framer, escolhido por Alina Wheeler e Design Chief); 1ª versão com o visual do Dublê reprovada",
+"cli": "Real Time"
+},
+{
+"d": "2026-11-03",
+"h": "14:07",
+"conta": "Pedro",
+"txt": "Real Time: modelos de redes v1 (8 feed 4:5 + 3 stories) copiados de VideoLab, RUSHES. e LAIN/Archivr; ordem e função por Pedro Sobral",
+"cli": "Real Time"
+},
+{
+"d": "2026-11-03",
+"h": "14:51",
+"conta": "Leandro",
+"txt": "Real Time: legendas blog SEO dos 8 posts do feed v1 + figurinhas e resposta pronta dos 3 stories (continuação do kit da conta Pedro)",
+"cli": "Real Time"
+},
+{
+"d": "2026-11-03",
+"h": "14:55",
+"conta": "Leandro",
+"txt": "Real Time: estratégia completa v2 (19 p. 4:5) com a marca nova v1 e o template VideoLab; feita a partir do modelo público, sem ver a v1 do privado",
+"cli": "Real Time"
+},
+{
+"d": "2026-11-03",
+"h": "14:59",
+"conta": "Leandro",
+"txt": "Real Time: página de rebranding (antes × depois do logo, o que fica e o que muda) no manual de marca, a pedido do Lindson (\"você não colocou o rebranding\"); manual agora com 21 p.",
+"cli": "Real Time"
+},
+{
+"d": "2026-11-03",
+"h": "15:07",
+"conta": "Leandro",
+"txt": "Real Time: bio nova e 6 capas de destaques com prévia do perfil",
+"cli": "Real Time"
+},
+{
+"d": "2026-11-03",
+"h": "15:07",
+"conta": "Leandro",
+"txt": "Real Time: painel na Central (/painel/rt) com marca nova, 10 itens para aprovar (perfil, 7 posts, 2 stories, com legendas), arquivos para baixar (manual, logo, estratégia, destaques), CRM de reservas, financeiro e notícias; código de acesso criado",
+"cli": "Real Time"
+},
+{
+"d": "2026-11-03",
+"h": "15:07",
+"conta": "Leandro",
+"txt": "Agentes Xquads (15 squads) e Builder Squad instalados na sessão da conta Leandro",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-03",
+"h": "15:11",
+"conta": "Leandro",
+"txt": "Modelo de mensagem para o cliente entrar na Central (sem o código) e regra \"sempre verificar o repositório e como era feito\" no CLAUDE.md e na memória",
+"cli": "Central"
+},
+{
+"d": "2026-11-03",
+"h": "15:34",
+"conta": "Leandro",
+"txt": "Leo Pinto: bio v2 (Leo da Baixada no lugar de \"na rua todo dia\") e modelo único de aniversário copiado do Designi \"Feliz Aniversário Paulo André\" (pesquisa premium registrada), 1º aniversariante Josef Figueiredo",
+"cli": "Leo Pinto"
+},
+{
+"d": "2026-11-03",
+"h": "15:44",
+"conta": "Leandro",
+"txt": "Real Time: fotos reais dos equipamentos para as artes (56 fotos, fontes e licenças)",
+"cli": "Real Time"
+},
+{
+"d": "2026-11-03",
+"h": "15:50",
+"conta": "Leandro",
+"txt": "Leo: aniversário do Josef Figueiredo aprovado pelo Lindson e publicado nas Aprovações do painel (alta qualidade, avatar oficial, ordem FELIZ ANIVERSÁRIO + nome)",
+"cli": "Leo Pinto"
+},
+{
+"d": "2026-11-03",
+"h": "15:57",
+"conta": "Leandro",
+"txt": "Leo: 6 capas de destaques (Quem sou, Na rua, Feito, Câmara, Nossa Baixada, Fale comigo), referências externas do Dribbble, alta qualidade",
+"cli": "Leo Pinto"
+},
+{
+"d": "2026-11-03",
+"h": "15:59",
+"conta": "Zuleide",
+"txt": "Real Time: mini site da bio (rascunho) na marca nova v1: botões de WhatsApp por assunto com os códigos da estratégia v2, kits, estúdio, Realtime Conteúdo e Produções, lista de equipamentos, SEO local; testado em 390 e 1280 px",
+"cli": "Real Time"
+},
+{
+"d": "2026-11-03",
+"h": "16:11",
+"conta": "Leandro",
+"txt": "Leo: 2 modelos novos de aniversário (B editorial claro, C tipografia em blocos; referências externas do Designi) e melhoria da foto com Real-ESRGAN (ferramentas/melhorar_foto.py)",
+"cli": "Leo Pinto"
+},
+{
+"d": "2026-11-03",
+"h": "16:30",
+"conta": "Leandro",
+"txt": "Real Time: 6 artes v2 com as fotos reais dos equipamentos (FX3, Kit Cinema com chamadas, VESPID, Sony/ZEISS, STORM, Pyro 7), cada uma copiada de uma referência externa (Dribbble/Designi), legendas SEO, alta qualidade",
+"cli": "Real Time"
+},
+{
+"d": "2026-11-03",
+"h": "16:44",
+"conta": "Pedro",
+"txt": "Real Time: a pedido do Lindson (\"crie o painel do cliente e me envie a mensagem com código\"), o painel já existia (conta Leandro, /painel/rt). Painel duplicado da conta Pedro descartado (não publicado); gerado só um 2º código de acesso para o mesmo painel (hash no privado functions/_codigos.js) e a mensagem oficial (agencia/processos/mensagem-acesso-central.md) entregue na conversa",
+"cli": "Real Time"
+},
+{
+"d": "2026-11-03",
+"h": "16:51",
+"conta": "Leandro",
+"txt": "Real Time: série Inventário (14 posts, um por equipamento da lista do cliente, 3 layouts de referências externas do Dribbble) com legendas SEO; 6 artes v2 + 14 da série nas Aprovações do painel /painel/rt",
+"cli": "Real Time"
+},
+{
+"d": "2026-11-03",
+"h": "16:51",
+"conta": "Leandro",
+"txt": "Central: botão Baixar arte em todos os cards de aprovação (pedido do Lindson) em prototipo/interacoes.js e nos painéis no ar do Leo, Dra. Jaci, Desentupidora SF e Real Time",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-03",
+"h": "16:55",
+"conta": "Zuleide",
+"txt": "Desentupidora SF: verificação no Google. Site pronto para indexar (robots, sitemap de 11 páginas, index, Search Console verificado), mas ainda não aparece nas buscas feitas; conferir no Search Console",
+"cli": "Desentupidora SF"
+},
+{
+"d": "2026-11-03",
+"h": "17:19",
+"conta": "Leandro",
+"txt": "Real Time: mini site (rascunho da Zuleide) enviado ao repositório do cliente Lindsonalmeida/realtime (main), pronto para ligar na Cloudflare Pages",
+"cli": "Real Time"
+},
+{
+"d": "2026-11-03",
+"h": "17:36",
+"conta": "Pedro",
+"txt": "Painel do administrador: grupo Minha rede social com 7 abas (visão, estratégia, calendário editorial com \"postado\", gravação da semana, leads das iscas com botão WhatsApp que avança a etapa, relatório semanal com regra de decisão, artes). Dados vivos em /api/dados?cli=admin&f=rede (tipo novo)",
+"cli": "Central"
+},
+{
+"d": "2026-11-03",
+"h": "17:36",
+"conta": "Pedro",
+"txt": "Marca pessoal do Lindson: estratégia de conteúdo com 6 linhas editoriais, iscas com código (AV, AD, VD, MS) e calendário de 09/11 a 06/12",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-03",
+"h": "17:37",
+"conta": "Leandro",
+"txt": "Real Time: site principal para o Google (8 páginas: home, Kit Cinema/FX3, Luz Aputure, Lentes, Estúdio chroma key, Produtora, Conteúdo mensal, Equipamentos; FAQ e schema em todas, sitemap), template GAFFER escolhido na pesquisa premium; mini site da bio movido para /bio/ com botão para o site",
+"cli": "Real Time"
+},
+{
+"d": "2026-11-03",
+"h": "19:26",
+"conta": "Pedro",
+"txt": "Marca pessoal do Lindson: aba Minhas fotos no admin, artes v2 (16 peças, foto colorida cinematográfica, recorte BiRefNet) e legendas SEO",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-03",
+"h": "19:43",
+"conta": "Leandro",
+"txt": "Dra. Jaci: bio v2 (CRO-MA, frase dela, CFO) e 7 destaques com capas (ref. The Ash Branding); site oficial de SEO com 7 páginas + bio com chat de avaliação (template Solenne Med Spa), rascunho",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-03",
+"h": "19:51",
+"conta": "Zuleide",
+"txt": "Produtos low ticket: lista única de 118 produtos, 10 serviços-relâmpago e 11 kits, tirados do que já existe nos repositórios, com os agentes Maquiavel e Hormozi Squad (+ Russell Brunson)",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-03",
+"h": "19:56",
+"conta": "Zuleide",
+"txt": "Low ticket: os 139 itens (118 produtos, 10 serviços e 11 kits) organizados por grau de venda, de 0 a 100 (dor, público que já chega, resultado claro, fácil de comprar)",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-03",
+"h": "20:01",
+"conta": "Leandro",
+"txt": "Dra. Jaci: 25 stories para os 7 destaques (Avaliação, Harmonização, Odonto, Dúvidas, Pacientes, A Clínica, Como chegar), composições copiadas dos carrosséis aprovados, CFO",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-03",
+"h": "20:38",
+"conta": "Leandro",
+"txt": "Cliente novo Tribuna 98 (Thiago Azevedo): levantamento de quem é e de todos os canais (Instagram 71,5 mil, site WordPress, YouTube, TikTok, Kwai, Linktree)",
+"cli": "Tribuna 98"
+},
+{
+"d": "2026-11-03",
+"h": "20:49",
+"conta": "Leandro",
+"txt": "Tribuna 98: mini site da bio no ar (template Exec Bio + números Glass + manchetes ao vivo do WordPress), bio nova (142 caracteres) e 7 capas dos destaques 2× (template \"Stay Informed\" do Dribbble)",
+"cli": "Tribuna 98"
+},
+{
+"d": "2026-11-04",
+"h": "",
+"conta": "Pedro",
+"txt": "Marca do Lindson: semana 2 (7 posts, 14 telas, xadrez preto/amarelo, premium), foto de perfil e 6 capas de destaques, legendas SEO",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-04",
+"h": "",
+"conta": "Pedro",
+"txt": "Marca do Lindson: 10 modelos novos (m1 a m10, xadrez) + todas as 28 publicações (52 telas) com legenda SEO na aba Artes do admin da Central",
+"cli": "Central"
+},
+{
+"d": "2026-11-04",
+"h": "00:53",
+"conta": "Leandro",
+"txt": "Regra nova do Lindson: foto usada não se repete (aba Usadas no painel, FOTOS-USADAS.md por cliente, foto real nas capas e na 1ª/última do carrossel, banco realista no meio). Recado no quadro, CLAUDE.md, processo e painéis",
+"cli": "Central"
+},
+{
+"d": "2026-11-04",
+"h": "01:32",
+"conta": "Pedro",
+"txt": "Área de membros própria na Central (estilo NEXUS aprovado): webhook da Hubla, 1º acesso com e-mail + CPF, PDFs protegidos, painel do admin para liberar à mão; testes 44/44; fecha /produtos/* ao público",
+"cli": "Central"
+},
+{
+"d": "2026-11-04",
+"h": "01:55",
+"conta": "Leandro",
+"txt": "Produtos low ticket (fila do Pedro): PDF do Kit Prospecção pelo WhatsApp (33 p., template Pocus da Zuleide) e PDF da Bio que Vende em 15 Minutos (30 p., template COURAGE da Zuleide, conteúdo do Copy Squad), README e OFERTA de cada, arquivos na área de membros (testes 45/45)",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-04",
+"h": "01:59",
+"conta": "Leandro",
+"txt": "Produtos low ticket (fila do Pedro): Pack de capas de destaque (bump da Bio, 36 capas 2×, template Almeria Haus, editável e zip) e Raio-X do Perfil: roteiro do vídeo de 5 min, formulário de entrada, README e OFERTA",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-04",
+"h": "02:17",
+"conta": "Leandro",
+"txt": "Dra. Jaci: feed de novembro e dezembro com as 36 fotos novas do painel: 19 posts de novembro (16 temas de Reels do calendário + Novembro Azul, Consciência Negra e Black Friday) e dezembro inteiro (4 carrosséis + 6 posts), xadrez harmônico creme/café na grade, rosto sempre inteiro (enquadramento automático), legendas SEO, CFO conferido, conferência automática (conferir.js); tudo nas Aprovações do p",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-04",
+"h": "14:27",
+"conta": "Leandro",
+"txt": "Escada de venda em todos os produtos (pedido do Lindson: upsell e downsell em todo produto, nunca perder venda nem contratação), com o Hormozi Squad: ESCADA.md (bump, upsell, downsell, checkout abandonado, reembolso e agência de cada produto, textos prontos), página \"Seu próximo passo\" com botões no fim dos 4 PDFs, card \"Quer que o Lindson faça por você?\" na área de membros (linha muda pelo produt",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-04",
+"h": "17:41",
+"conta": "Leandro",
+"txt": "Central: \"Baixar carrossel\" baixa todas as telas de uma vez (pedido do Lindson): no computador, um .zip com as telas em ordem; no celular, 1º toque prepara e 2º abre \"Salvar imagens\" com todas. Nos painéis da Jaci, Leo, Real Time e Desentupidora e no modelo. Os 4 carrosséis de novembro da Jaci trocados pela versão em alta (2160×2700)",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-04",
+"h": "18:01",
+"conta": "Pedro",
+"txt": "4 motions do Leo Pinto (40 s, trilha CC BY, SFX, VFX, narração IA sincronizada), refeitos como situação (sem criticar a gestão)",
+"cli": "Leo Pinto"
+},
+{
+"d": "2026-11-04",
+"h": "18:48",
+"conta": "Pedro",
+"txt": "4 motions do Leo na aba Aprovações do painel (vídeo tocando no cartão, capa, legenda SEO de situação com crédito da música, botão Baixar vídeo)",
+"cli": "Leo Pinto"
+},
+{
+"d": "2026-11-04",
+"h": "19:24",
+"conta": "Leandro",
+"txt": "Dra. Jaci: site oficial v2 + bio com pesquisa \"nível obra de arte\" (12 referências; top 3: Clinic Beethovenstrasse/CSSDA Website of the Day, Truekind/Awwwards Site of the Day, Aurevia/Framer): nome gigante, foto da recepção, manifesto, tratamentos em lista tipográfica com foto no hover, Dra. em arco com credenciais, chat de avaliação em bloco bordô, mapa com cartão, rodapé com nome gigante; SEO da",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-04",
+"h": "20:03",
+"conta": "Leandro",
+"txt": "Dra. Jaci: site v3 + bio (v2 reprovada): cópia fiel do acabamento de \"Seon Clinic\" (LAIN) e \"Atelier Aesthetica\" (Phenomenon Studio), os dois shots de clínica mais vistos do Dribbble; depois, a pedido, cores fortes misturadas da Jaci (bordô, vinho, dourado, rosé), selo girando, faixa em movimento, fotos flutuando; só fotos de estúdio no topo e na bio; SEO das 7 páginas, CFO",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-05",
+"h": "",
+"conta": "Leandro",
+"txt": "Dra. Jaci: site v3 no ar em https://drajacicunha.pages.dev (bio em /bio/), conferido no computador e no celular sem erros; ajuste do topo no celular (nome inteiro, frase longe do rosto)",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-05",
+"h": "",
+"conta": "Leandro",
+"txt": "Dra. Jaci: WhatsApp da clínica ligado no site (botões e chat de avaliação abrem a conversa com a mensagem pronta), testado no ar",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-05",
+"h": "",
+"conta": "Leandro",
+"txt": "Site da Dra. Jaci v3.1: correção das fotos (a regra global img não tinha height:auto e esticava fotos; cortava o rosto em \"A beleza começa\"; aparecia uma pessoa cortada na borda das fotos da recepção), botão do rodapé quebrado, mapa em branco trocado pela foto da recepção + cartão de endereço; espaços brancos preenchidos com marcas d'água (natural, cuidado, Zé Doca, dúvidas), fundos nude/rosé, ané",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-05",
+"h": "",
+"conta": "Pedro",
+"txt": "Site oficial do Lindson + mini site da bio reconstruído (Builder Squad + Design Squad; pesquisa de estúdios premiados: Lando Norris/OFF+BRAND SOTY 2025, Dennis Snellenberg, Locomotive, Aparelho Studio e mais 11). Home com showreel, manifesto, trilho de 11 vídeos, trabalhos com prévia em vídeo, Estado Próprio ▲ com os 5 produtos, sobre e contato; portfólio completo com filtros; bio nova com vídeo d",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-05",
+"h": "",
+"conta": "Leandro",
+"txt": "Bio da Dra. Jaci: botão \"Agendar avaliação\" estava quebrado (nome de classe repetido com as fotos flutuantes da home; renomeado para bf1/bf2), laterais no computador preenchidas com fundo nude, marca d'água \"Jaci Cunha\" e anéis dourados",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-05",
+"h": "",
+"conta": "Leandro",
+"txt": "Site do Lindson, parte do Leandro (divisão com o Pedro no quadro, por arquivos): QA e correções em site/assets/site.css (acentos das manchetes cortados pela máscara: PRÓPRIO, \"O QUE É\", PORTFÓLIO; manifesto com linhas encavaladas; no celular o texto do topo passava sobre o rosto), sitemap.xml novo, robots com a linha Sitemap (fonte montar-site.py), dados estruturados (Person/CollectionPage/Profile",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-05",
+"h": "",
+"conta": "Leandro",
+"txt": "Levantamento de tudo o que falta o Lindson concluir, por projeto e cliente (quadro, registro, estado, clientes, privado)",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-05",
+"h": "",
+"conta": "Leandro",
+"txt": "Dra. Jaci: 12 Reels de dezembro (roteiro, texto na tela, cena e legenda SEO; regras do CFO checadas no script) + PDF Roteiro de gravação com os 28 Reels de novembro e dezembro (9 p. A4, identidade da Jaci)",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-05",
+"h": "",
+"conta": "Leandro",
+"txt": "Produto master: roteiro da aula grátis \"Os 5 erros…\" (Perfect Webinar, 45 min, exercícios ao vivo, oferta da turma piloto, objeções, sequência pós-aula) e plano da turma piloto (6 semanas, medições para a garantia)",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-05",
+"h": "10:16",
+"conta": "Leandro (agente Maquiavel)",
+"txt": "Franquia Alpha Assessoria (oferta de R$ 30 mil): análise com veredito, contas de retorno, riscos, perguntas e mensagens de negociação; e \"cópia do modelo\" com a marca do Lindson: planos Muralha, Fortaleza e Cidadela ▲, periodicidade, verba à parte, Conselho do Estado Próprio, garantia Dique ▲, upsell e downsell",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-05",
+"h": "10:44",
+"conta": "Leandro (Maquiavel)",
+"txt": "Franquia Alpha: análise da planilha de projeção deles (6 furos: sem a taxa de R$ 30 mil, sem equipe, funil otimista, meses 8-12 vazios, ticket incoerente, custos fixos) e a conta refeita em 4 cenários",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-05",
+"h": "10:48",
+"conta": "Leandro (Maquiavel)",
+"txt": "Franquia Alpha: apanhado do site inteiro deles (18 peças do modelo) e a cópia de cada peça com a marca do Lindson, o que não copiar e a ordem de montagem",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-05",
+"h": "10:53",
+"conta": "Leandro (Hormozi Squad + Maquiavel)",
+"txt": "Operação própria do Lindson (o modelo da Alpha sem pagar a franquia): fases por gatilho, máquina de vendas com mensagens, rotina de entrega, equipe por gatilho e projeção de 12 meses em planilha com fórmulas (sem royalties: economia de R$ 120.600 em 12 meses)",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-05",
+"h": "10:55",
+"conta": "Leandro (Hormozi Pricing + Maquiavel)",
+"txt": "Operação própria ajustada às decisões do Lindson (só pizzarias, sem franquia, 15 clientes sozinho): preços sugeridos dos 3 planos por prazo, condição de fundador, garantia de entrega, Raio-X da Pizzaria, contas com 15 clientes; planilha e README atualizados",
+"cli": "Orégano Turbo"
+},
+{
+"d": "2026-11-05",
+"h": "11:01",
+"conta": "Leandro (Hormozi Pricing)",
+"txt": "Modelos de pagamento sempre antecipado: MRR (mensal antes do mês) e TCV (contrato inteiro na frente, Pix −5% ou cartão até 12x), tabela dos 9 casos, ordem de venda, regras de contrato, números do painel (MRR, TCV, caixa antecipado, receita reconhecida); aba Pagamentos na planilha",
+"cli": "Central"
+},
+{
+"d": "2026-11-05",
+"h": "11:17",
+"conta": "Leandro (Marketing Squad: Donald Miller e Pedro Sobral · Hormozi Leads · Copy Squad)",
+"txt": "Estratégia completa da assessoria para pizzarias: mensagem StoryBrand, marca e Instagram passo a passo (bio, destaques, 5 linhas, 1º mês de conteúdo, ganchos), tráfego por fases com formulário que filtra, prospecção ativa com cadência e mensagens, vendas (roteiro de diagnóstico, objeções), 90 dias e painel",
+"cli": "Orégano Turbo"
+},
+{
+"d": "2026-11-05",
+"h": "11:21",
+"conta": "Leandro (Brand Squad · Naming)",
+"txt": "Nome do produto para pizzarias: Forno Ligado recomendado (@fornoligado e fornoligado.com.br livres em 05/11; 6 candidatos checados), slogan e perfil do Instagram pronto para colar (bio, nome, destaques, link)",
+"cli": "Orégano Turbo"
+},
+{
+"d": "2026-11-05",
+"h": "11:27",
+"conta": "Leandro (Brand Squad · Naming)",
+"txt": "Nome v2 lúdico para o produto de pizzarias: Orégano Turbo (recomendado), Calabresa Atômica, Pizza Nave, Meia a Meia; @ e domínios checados; bio nova",
+"cli": "Orégano Turbo"
+},
+{
+"d": "2026-11-05",
+"h": "11:36",
+"conta": "Leandro (Hormozi Offers + Copy Squad)",
+"txt": "Promessa irresistível da assessoria para pizzarias: \"O seu anúncio se paga em pedidos, ou o mês seguinte é por minha conta\" (régua = verba do próprio cliente, sem número inventado), regras da garantia para o contrato, risco calculado, pilha de valor com bônus, 5 manchetes, fala do diagnóstico, mensagem e bio",
+"cli": "Orégano Turbo"
+},
+{
+"d": "2026-11-05",
+"h": "11:50",
+"conta": "Pedro (Copy Squad + Design Squad)",
+"txt": "Stories · Vender sites: 10 stories 1080×1920 na identidade v2 (gancho \"NADA?\", dor, \"24H\", 4 provas em vídeo de 7 s com os sites reais rolando no celular: Rafael Imports, Desentupidora SF, Tribuna 98, Real Time + Dra. Jaci; 3 passos, oferta sem preço, chamada SITE + WhatsApp com código MS), figurinhas indicadas (deslizante, link, caixa, enquete), fotos dele só em variação (c11 e c16 espelhadas). T",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-05",
+"h": "11:59",
+"conta": "Leandro (Design Squad + Copy Squad)",
+"txt": "Leo Pinto: 10 artes de saudação (todas diferentes, modelos do Designi e do Lindson, paisagens reais da Baixada com crédito) e revisão de situação de todos os conteúdos após o veto da equipe do Leo ao 31/12: 31/12 refeito (\"Qual foi a sua conquista em 2026?\"), 15/11 e apresentação corrigidos, legendas reescritas (apresentação, 11/12, 01/01, motions 1 e 3), estratégia/quadros/datas/bio sem \"demanda\"",
+"cli": "Leo Pinto"
+},
+{
+"d": "2026-11-05",
+"h": "12:06",
+"conta": "Leandro (Builder Squad)",
+"txt": "\"Suba tudo no sistema\": Central atualizada: painel do Leo (10 saudações + correções de situação, 25 itens), painel da Jaci (entregas reais com Baixar: manual de identidade, roteiro de gravação dos 28 Reels, site no ar; status atualizados), admin com a página nova Assessoria para pizzarias (/painel/pizzarias.html: operação, preços, pagamentos, promessa, estratégia, nome, estudo da franquia Alpha e ",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-05",
+"h": "12:16",
+"conta": "Leandro (Design Squad)",
+"txt": "Leo: saudações v15.1, as 6 sem imagem refeitas com paisagens reais da Baixada (barcos, APA, Matinha, búfalos do Pericumã) com véu da cor e crédito; contraste corrigido; painel atualizado",
+"cli": "Leo Pinto"
+},
+{
+"d": "2026-11-05",
+"h": "12:23",
+"conta": "Leandro",
+"txt": "Leo: painel só com as saudações aprovadas (9); s07 retirada",
+"cli": "Leo Pinto"
+},
+{
+"d": "2026-11-05",
+"h": "12:25",
+"conta": "Leandro (Builder Squad)",
+"txt": "Central: aba Em ajuste nas Aprovações (Jaci, Leo, Real Time, SF): ajuste pedido muda a arte de aba, mostra o pedido, e o admin devolve com \"Corrigida, voltar para aprovação\"; prévia do feed do Leo refeita com as artes de situação (antes mostrava o 31/12 vetado)",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-05",
+"h": "12:33",
+"conta": "Pedro (Copy Squad + Design Squad)",
+"txt": "Stories · Vender sites, vídeos v2 (regra nova: vídeo sempre com áudio): s04 a s07 refeitos com narração na voz clonada do Lindson (Dublê, Chatterbox, método aprovado do motor_voz.py, blocos de até 220 caracteres, conferido com Whisper), SFX sintetizados (whoosh, pop, impacto, cliques), trilha Kevin MacLeod CC BY abaixada sob a voz, VFX (vazamento de luz âmbar, tremida de 3 quadros, borrão direcion",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-05",
+"h": "12:42",
+"conta": "Leandro",
+"txt": "Leo: saudações v15.2: as 9 aprovadas trocaram as paisagens de outras cidades da Baixada por fotos sem lugar (o cliente avisou que não eram de SJB); legenda e título da s04 viraram \"café ou rede?\"; painel atualizado",
+"cli": "Leo Pinto"
+},
+{
+"d": "2026-11-05",
+"h": "12:52",
+"conta": "Leandro (Brand Squad + Design Squad)",
+"txt": "Orégano Turbo: identidade visual v2 premium (v1 cartum substituída após \"quero algo premium\"): selo redondo com personagem em traço único (Pentagram Happy Face Pizza + Marka Collective Paesano + Gander Graza), nome em Fraunces minúscula, verde forno + amarelo turbo; 5 pranchas 4:5, avatar, 6 destaques, post de exemplo, TEMPLATE, BRIEF, prompt do Claude Design",
+"cli": "Orégano Turbo"
+},
+{
+"d": "2026-11-05",
+"h": "12:59",
+"conta": "Leandro (Brand Squad + Design Squad)",
+"txt": "Orégano Turbo: pesquisa premium refeita no padrão da regra nova (15 referências, 9 países, capturas); a v2 se manteve e ganhou a página 6 \"padrões e adesivos\" (xadrez de bandeira de corrida + adesivos, de Monda's Fast Pizza/Antonio Golia). Trio: Pentagram + Antonio Golia + Gander",
+"cli": "Orégano Turbo"
+},
+{
+"d": "2026-11-05",
+"h": "13:06",
+"conta": "Leandro (Design Squad)",
+"txt": "Orégano Turbo: identidade completa entregue: manual de marca em PDF (8 p.), 12 vetores SVG com texto em curvas (selo em 5 versões, nome, personagem), foto de perfil, 6 capas de destaque e o pacote .zip",
+"cli": "Orégano Turbo"
+},
+{
+"d": "2026-11-05",
+"h": "13:14",
+"conta": "Pedro",
+"txt": "Stories · Vender sites: narração do s07 refeita com a pronúncia certa pedida pelo Lindson (\"Real Time\" = real taime, \"Jaci\" = jáci), escrita fonética só no texto da voz; conferida no Whisper; vídeo 11,1 s, -14 LUFS / -2,2 dBTP; tabela de pronúncias no README",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-05",
+"h": "15:14",
+"conta": "Leandro (Brand + Design Squad)",
+"txt": "Orégano Turbo v3 séria: pesquisa nova (11 refs, 8 países, marcas que vendem para restaurantes) pensada na persona; 11 pranchas com fotos reais (CC, créditos) e mockups de WhatsApp, relatório, Instagram e proposta; manual PDF de 11 p.; símbolo em SVG",
+"cli": "Orégano Turbo"
+},
+{
+"d": "2026-11-05",
+"h": "16:46",
+"conta": "Leandro (Design Squad)",
+"txt": "Leo: story de aniversário da Eleilde Soeiro no modelo B aprovado, com o adesivo de campanha e o broche \"10\" apagados da camisa",
+"cli": "Leo Pinto"
+},
+{
+"d": "2026-11-05",
+"h": "18:22",
+"conta": "Leandro (Marketing + Design Squad)",
+"txt": "Leo: 10 figurinhas de WhatsApp (estratégia pela persona, pesquisa de 9 refs em 7 países, poses tiradas do Motion v1, contorno branco, .webp 512 px de cerca de 40 KB) e ícone do pacote",
+"cli": "Leo Pinto"
+},
+{
+"d": "2026-11-05",
+"h": "19:56",
+"conta": "Leandro",
+"txt": "Rodada \"faça o que consegue sozinho\": story da Eleilde e figurinhas na aba Para aprovar do painel do Leo; guias do Google (Search Console e textos do Perfil da Empresa) para Jaci, Real Time e site do Lindson; \"Notícias do nicho\" conferida (o /api/noticias no ar exige login e responde; o Google Notícias devolve 16 notícias e o Bing de reserva 3, as duas lidas pelo código da Central); pendências atu",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-05",
+"h": "20:06",
+"conta": "Leandro",
+"txt": "Leo: painel atualizado com a aprovação informada pelo Lindson: 26 itens aprovados, 20 já na aba Postados, e as 6 datas futuras na aba Aprovados (a postar). Memória, pendências e quadro atualizados",
+"cli": "Leo Pinto"
+},
+{
+"d": "2026-11-05",
+"h": "20:21",
+"conta": "Leandro (Hormozi Squad + Maquiavel)",
+"txt": "Pizzarias: 24 decisões sugeridas e aprovadas pelo Lindson, sem os riscos para ele: garantia de resultado retirada, exclusividade só por bairro, garantia de entrega com condições, LGPD nas fundadoras. Identidade v3 sem frases de garantia e manual refeito",
+"cli": "Orégano Turbo"
+},
+{
+"d": "2026-11-06",
+"h": "",
+"conta": "Leandro (Builder Squad + Design Squad)",
+"txt": "Orégano Turbo: site principal na identidade v3, página única \"tecnológica\": WhatsApp ao vivo no topo, método com fio animado, relatório animado, planos com chave de prazo, formulário que filtra (diagnóstico ou Raio-X), sem promessa de resultado. Pesquisa nova: 10 sites de 4 países; trio Owner.com, Linear e Anota AI",
+"cli": "Orégano Turbo"
+},
+{
+"d": "2026-11-06",
+"h": "11:02",
+"conta": "Leandro",
+"txt": "Agentes novos: Paollo (branding e identidade de pizzaria) e Rocco (direção de arte de marca de comida em estilo campanha), com a biblioteca de referências (cerca de 230 imagens do Pinterest, favoritas do Lindson, Behance listado) e o processo de cenas e prompts",
+"cli": "Orégano Turbo"
+},
+{
+"d": "2026-11-06",
+"h": "11:07",
+"conta": "Leandro (sessão paralela Paollo)",
+"txt": "Orégano Turbo: identidade v4 (impacto) sobre a v3 aprovada: Anton nas manchetes, tomate e açafrão, xadrez de cantina, padrão de 10 ícones em traço, selos redondos, pizzas recortadas (BiRefNet) saindo da arte. 17 pranchas (capa, logo, cores, letras, padrões e selos, foto, caixa 3D, uniforme, copo e sacola, cartão e proposta, celular, Instagram, 2 posts, avatar, grade de campanha) e manual PDF de 19",
+"cli": "Orégano Turbo"
+},
+{
+"d": "2026-11-06",
+"h": "11:05",
+"conta": "Leandro (sessão paralela Paollo + Copy Squad)",
+"txt": "Orégano Turbo: kit de lançamento do Instagram que vende e parece pizzaria: 12 posts (FILA gigante, delivery ON/OFF, terça vazia com fatias voando, cardápio da terça vazia, Penso logo PEÇO, vagas de fundadora, pedido no WhatsApp, relatório de segunda, antes/depois, pergunta, 4 passos, Raio-X R$ 297), carrossel de 7 telas \"5 erros…\", 3 stories (enquete, caixinha, Raio-X), legendas SEO e pesquisa nov",
+"cli": "Orégano Turbo"
+},
+{
+"d": "2026-11-06",
+"h": "11:13",
+"conta": "Leandro (sessão paralela Paollo + Rocco)",
+"txt": "Orégano Turbo: kit do Instagram v2 CAMPANHA (direção nova do Lindson: \"identidade visual de verdade, impactante, criativa\"): as 22 peças refeitas em linguagem de campanha de comida (cor chapada da v4, sombra dura de flash, produto > 50%, ingredientes voando, manchete gorda inclinada até 5 palavras, formatos do Rocco). v1 guardada em artes-v1/",
+"cli": "Orégano Turbo"
+},
+{
+"d": "2026-11-06",
+"h": "12:07",
+"conta": "Leandro (Paollo + Rocco)",
+"txt": "Orégano Turbo: kit social v3 (\"não estou gostando da composição... melhore\"): 9 posts e 3 stories com as fotos IA do Gemini recortadas por BiRefNet. Letra passando por trás do produto, grade de 4 cores, chave delivery ON, manchete em 2 tamanhos, cartaz retrô Raio-X R$ 297, cardápio-cartaz, moldura xadrez com o avental corrigido (símbolo oficial), número gigante \"5 vagas\" e faixas em loop. Cada peç",
+"cli": "Orégano Turbo"
+},
+{
+"d": "2026-11-06",
+"h": "12:10",
+"conta": "Leandro (agente Paollo)",
+"txt": "Orégano Turbo: kit social v3 (9 posts, 3 stories) aprovado pelo Lindson como o padrão (\"AGORA SIM, ESSE É O PADRÃO\")",
+"cli": "Orégano Turbo"
+},
+{
+"d": "2026-11-06",
+"h": "15:34",
+"conta": "Leandro (Marketing Squad + Copy + 2 agentes Paollo)",
+"txt": "Orégano Turbo: 6 linhas editoriais e calendário de 4 semanas (09/11 a 06/12, 3 postagens por dia, 84 peças); 40 artes tipográficas no padrão v3 (semanas 1–2: 19; semanas 3–4: 21); 12 peças v3 encaixadas na semana 1; 32 dependem do lote 2 de fotos (F1–F32) pedido ao Lindson. Regra de imagem única registrada",
+"cli": "Orégano Turbo"
+},
+{
+"d": "2026-11-06",
+"h": "16:25",
+"conta": "Leandro (Paollo + Copy Squad)",
+"txt": "Orégano Turbo: painel de postagens na Central (/painel/oregano) com 57 artes prontas do calendário, 84 legendas SEO, perfil (foto, bio, nome, 6 capas de destaque); 5 artes com fotos IA; 27 postagens aguardam o lote 2 de fotos",
+"cli": "Orégano Turbo"
+},
+{
+"d": "2026-11-07",
+"h": "",
+"conta": "Leandro (Design + Copy Squad)",
+"txt": "Jaci: prova social \"Contorno facial masculino\" (antes e depois autorizado pela Jaci, segundo o Lindson): carrossel de 7 telas, post e 2 stories, fotos sem edição, e legendas. Falta arquivar o TCLE do paciente e confirmar o perfil onde postar",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-07",
+"h": "",
+"conta": "Leandro (Design Squad)",
+"txt": "Jaci: prova social \"Contorno facial masculino\" v2 no estilo dela (v1 reprovada): post premium fundo preto + logo oficial, carrossel 7 telas (capa faixas vinho, empilhado, 3/4 com faixa, tríptico, \"o que foi feito\", fio dourado \"o que esperar\", CTA faixa café) e 2 stories. Painel da Jaci atualizado",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-08",
+"h": "14:55",
+"conta": "Lindson",
+"txt": "Pesquisa: 10 identidades visuais de pizzaria premiadas, 10 estilos de arte para redes e curadoria do Pinterest \"social media pizzaria\"",
+"cli": "Orégano Turbo"
+},
+{
+"d": "2026-11-08",
+"h": "15:03",
+"conta": "Zuleide",
+"txt": "Orégano Turbo: kit social v4 (a v3 melhorada com a pesquisa de 08/11 do Google e do Pinterest), 9 posts e 3 stories",
+"cli": "Orégano Turbo"
+},
+{
+"d": "2026-11-08",
+"h": "15:08",
+"conta": "Lindson",
+"txt": "Biblioteca de pizzaria: +107 referências do Pinterest (posts, carrosséis, stories, cardápios, caixas, social media, fachadas), sem repetidas, com links e folha de contato",
+"cli": "Orégano Turbo"
+},
+{
+"d": "2026-11-08",
+"h": "15:21",
+"conta": "Zuleide (Rocco)",
+"txt": "Orégano Turbo: kit social v5 (12 posts, carrossel de 7 telas e 3 stories)",
+"cli": "Orégano Turbo"
+},
+{
+"d": "2026-11-08",
+"h": "15:21",
+"conta": "Zuleide (Paollo)",
+"txt": "Orégano Turbo: calendário de 4 semanas (47 artes) e perfil no sistema v4, mais 4 pautas tipográficas novas",
+"cli": "Orégano Turbo"
+},
+{
+"d": "2026-11-08",
+"h": "15:47",
+"conta": "Zuleide",
+"txt": "Agentes Webdesigner, Designer gráfico e Social media, montados com as pesquisas do repositório",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-08",
+"h": "15:47",
+"conta": "Lindson",
+"txt": "Biblioteca de pizzaria: lote 09, com +507 referências do Pinterest em 35 tipos (marca, mascote, caixa, fachada neon, balcão, app, site, combo, rodízio, doce, foto, campanha, outdoor...), sem repetidas, com links e folha de contato",
+"cli": "Orégano Turbo"
+},
+{
+"d": "2026-11-08",
+"h": "16:02",
+"conta": "Zuleide (Webdesigner, Designer gráfico, Social media)",
+"txt": "Exemplos dos 3 agentes novos para a Pizzaria Brasa Viva (marca fictícia): identidade e aplicações, mini site e planejamento de Instagram",
+"cli": "Orégano Turbo"
+},
+{
+"d": "2026-11-08",
+"h": "19:21",
+"conta": "Zuleide",
+"txt": "Portfólio: Brasa Viva (projeto conceitual) com 3 cartões no site do Lindson (identidade, site e Instagram), demo no ar em lindsonalmeida.pages.dev/site/demos/brasa-viva/, e seção \"Portfólio\" na página da Orégano Turbo",
+"cli": "Orégano Turbo"
+},
+{
+"d": "2026-11-09",
+"h": "16:56",
+"conta": "Zuleide",
+"txt": "Passaporte: Shorts 11 a 20 programados no Metricool de 2 em 2 h (09/11 18h a 11/11 08h); Raposa: agenda dos Shorts 11-30 para o YouTube Studio",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-09",
+"h": "17:26",
+"conta": "Zuleide (Peter)",
+"txt": "Passaporte: 3 longos novos (10 Milagres de Jesus, 11 Êxodo, 12 Apóstolo Paulo), 2.623 a 2.694 palavras cada, com título, descrição, capítulos, tags e comentário; capas A/B/C (capas2) + capa nova \"Pintura anotada\" (capas_estudo.py, pesquisa em TEMPLATE.md); fila de render com modo BLOCO",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-09",
+"h": "18:24",
+"conta": "Leandro (webdesigner)",
+"txt": "Central de Comando v1: pedido por botão ou voz (16 funções, 7 clientes, aviso \"já existe\" em 14 dias), fila integrada às 4 contas (/api/automacao?fila=ped: pegar/pronto/nota, sem duas contas no mesmo pedido), resultados e análises (placar, aprovações ao vivo, entregas por conta, o que está parado); atalho no admin e em apps.json; pesquisa premium (Linear, Teenage Engineering OP-1, rabbit r1)",
+"cli": "Central"
+},
+{
+"d": "2026-11-09",
+"h": "19:03",
+"conta": "Leandro (webdesigner)",
+"txt": "Central de Comando v2, o lugar único do Lindson: visual de estação de comando (vídeo Mixkit em loop, camadas, parallax, grão, HUD, teclas de equipamento, tipografia gigante, rolagem que revela), resultado dentro da página (galeria, player, PDF, prévia de site), perguntas das contas com resposta rápida ou por voz, aprovações dos clientes aprovadas ali mesmo, quadro da equipe com limites de hoje (5 ",
+"cli": "Central"
+},
+{
+"d": "2026-11-09",
+"h": "19:45",
+"conta": "Leandro (webdesigner)",
+"txt": "Canais dark dentro da Central: /painel/canais (só admin) com Passaporte da Bíblia e Raposa e Leão no sistema da Central (menu lateral, cartões, movimento.js, identidade de cada canal nos acentos); por vídeo: título, legenda com capítulos, comentário fixado, capas A/B/C ou do Short para baixar, player, duração, copiar e \"Marquei como postado\" salvo no servidor (/api/dados?cli=<canal>&f=aprov); 99 c",
+"cli": "Central"
+},
+{
+"d": "2026-11-09",
+"h": "20:14",
+"conta": "Leandro (webdesigner)",
+"txt": "Central de Comando v3: VEKTOR, o avatar holográfico de partículas (anéis de HUD, dados em órbita, reage ao volume do microfone e responde falando em pt-BR); escuta sempre ligada (pede o microfone ao abrir, reconhecimento contínuo que reinicia sozinho, pausa com a aba escondida, estado e erros com passo a passo); \"Vektor…\" monta o pedido e só envia com \"enviar/manda/pode mandar\"; pesquisa v3: Terri",
+"cli": "Central"
+},
+{
+"d": "2026-11-09",
+"h": "20:57",
+"conta": "Zuleide (Peter)",
+"txt": "Influenciador de IA: guia de 7 dias nos 10 passos do vídeo \"I Tried The LAZIEST Way to Make Money With AI\", com matriz nicho/formato/diferencial/dinheiro, 3 personagens brasileiros com persona, prompts de foto, folha de personagem, voz, roteiro e vídeo, custos, Hubla, 3 desafios de 30 dias, regras e medição; resumo da transcrição",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-10",
+"h": "",
+"conta": "Zuleide (Designer)",
+"txt": "Leo Pinto: \"bairro\" trocado por \"povoado\" em todos os textos, legendas, estratégia e painel (SJB só tem povoados); v16 dos 10 conteúdos iniciado: persona, pesquisa premium (TEMPLATE.md, 10 capturas), plano e legendas das 4 saudações",
+"cli": "Leo Pinto"
+},
+{
+"d": "2026-11-10",
+"h": "",
+"conta": "Zuleide (Webdesigner)",
+"txt": "Central de Comando v4: o VEKTOR conversa (Claude em fluxo por /api/vektor, só admin; contexto da fila, equipe, placar e agenda; fala frase por frase, pausa de 700 ms, 60 s sem repetir o nome, interrupção, balões no HUD; propõe pedido e só manda com o sim). /api/automacao ganhou acao: criar para as contas. Aviso no celular preparado, não ligado",
+"cli": "Central"
+},
+{
+"d": "2026-11-10",
+"h": "",
+"conta": "Zuleide (Webdesigner)",
+"txt": "VEKTOR v4.1: cérebro trocado para o Workers AI gratuito (Gemma 4 26B, reserva Llama 3.3 70B), aviso educado quando acaba a cota do dia, Claude só opcional; checagem /api/vektor?saude",
+"cli": "Central"
+},
+{
+"d": "2026-11-10",
+"h": "",
+"conta": "Leandro (webdesigner)",
+"txt": "Central de Comando v5: seção Tarefas feitas (por cliente, data, hora e atividade; \"+ Feito\" e voz \"Vektor, feito: …\"; entregas da fila entram sozinhas; 10 tarefas de 09/11 lançadas), ação feito na API; VEKTOR sem loop (meia-duplex, filtro de eco, só fala quando chamado, sem repetir em 15 s), sem tela de toque (aviso único se o som estiver bloqueado), \"Pois não?\", diagnóstico; voz pré-gravada varia",
+"cli": "Central"
+},
+{
+"d": "2026-11-10",
+"h": "",
+"conta": "Leandro (webdesigner)",
+"txt": "VEKTOR em 3D: núcleo de IA em WebGL (Three.js 0.160.0, shaders próprios: esfera de vidro e metal líquido com ruído simplex, fresnel âmbar, núcleo incandescente, visor de duas fendas que piscam, 3 anéis, partículas, halo quando há pedidos esperando), reage ao microfone e ao clipe; fallback 2D",
+"cli": "Leo Pinto"
+},
+{
+"d": "2026-11-10",
+"h": "02:18",
+"conta": "Pedro",
+"txt": "Stories \"um vídeo por cliente\": 5 vídeos para marcar (Rafael, SF, Tribuna, Real Time, Jaci)",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-10",
+"h": "10:22",
+"conta": "Leandro",
+"txt": "VEKTOR entende pedido sem dizer o nome e \"verifique os conteúdos de <cliente>\"",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-10",
+"h": "10:28",
+"conta": "Zuleide",
+"txt": "Agentes de cada conta (Zuleide, Pedro, Leandro) com as lições agregadas",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-10",
+"h": "10:51",
+"conta": "Pedro",
+"txt": "Black Friday: 8 stories + campanha Meta Ads BF26 (aguardando aprovação)",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-10",
+"h": "10:49",
+"conta": "Zuleide",
+"txt": "Os dois professores no mesmo patamar no site, bio e prévia",
+"cli": "Curso legislativo"
+},
+{
+"d": "2026-11-10",
+"h": "11:12",
+"conta": "Pedro",
+"txt": "9 vídeos de stories com a voz aprovada",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-10",
+"h": "11:17",
+"conta": "Leandro",
+"txt": "VEKTOR v6: modo local por intenção, bateria de testes 51/51",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-10",
+"h": "11:28",
+"conta": "Zuleide",
+"txt": "Capas de Reels Rafael e Tiago: 01 e 02 aprovadas",
+"cli": "Curso legislativo"
+},
+{
+"d": "2026-11-10",
+"h": "11:35",
+"conta": "Leandro",
+"txt": "Auditoria dos clientes na Central (peças, SF nas aprovações, placar)",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-10",
+"h": "11:35",
+"conta": "Leandro",
+"txt": "CRO-MA 8514 incluído em 5 legendas",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-10",
+"h": "11:49",
+"conta": "Leandro",
+"txt": "Engenharia reversa e rebranding v1",
+"cli": "WF Celulares"
+},
+{
+"d": "2026-11-10",
+"h": "11:54",
+"conta": "Leandro",
+"txt": "Identidade v2 universo Apple (v1 reprovada)",
+"cli": "WF Celulares"
+},
+{
+"d": "2026-11-10",
+"h": "12:00",
+"conta": "Leandro",
+"txt": "Caminho B aprovado: kit final e arquivos do logo",
+"cli": "WF Celulares"
+},
+{
+"d": "2026-11-10",
+"h": "12:03",
+"conta": "Leandro",
+"txt": "Manual da marca, 22 páginas (aguardando aprovação)",
+"cli": "WF Celulares"
+},
+{
+"d": "2026-11-10",
+"h": "12:09",
+"conta": "Pedro",
+"txt": "Black Friday: narração v2 com a pronúncia \"Jáci\"",
+"cli": "Dra. Jaci Cunha"
+},
+{
+"d": "2026-11-10",
+"h": "12:09",
+"conta": "Leandro",
+"txt": "9 artes do feed com legendas (ofertas reais)",
+"cli": "WF Celulares"
+},
+{
+"d": "2026-11-10",
+"h": "12:13",
+"conta": "Zuleide",
+"txt": "Capas de Reels v6: 8 composições diferentes (aguardando aprovação)",
+"cli": "Curso legislativo"
+},
+{
+"d": "2026-11-10",
+"h": "12:16",
+"conta": "Leandro",
+"txt": "Artes-02 escuras (artes-01 reprovada)",
+"cli": "WF Celulares"
+},
+{
+"d": "2026-11-10",
+"h": "12:26",
+"conta": "Leandro",
+"txt": "3 posts de apresentação da marca nova + legendas",
+"cli": "WF Celulares"
+},
+{
+"d": "2026-11-10",
+"h": "12:33",
+"conta": "Zuleide",
+"txt": "Culto de Gratidão: carrossel 4 telas, 3 stories e legenda (aguardando OK)",
+"cli": "Leo Pinto"
+},
+{
+"d": "2026-11-10",
+"h": "12:45",
+"conta": "Leandro",
+"txt": "5 stories de venda do case + vídeo do processo",
+"cli": "WF Celulares"
+},
+{
+"d": "2026-11-10",
+"h": "13:05",
+"conta": "Lindson",
+"txt": "Reels 03 (L30-03) postado",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-10",
+"h": "13:18",
+"conta": "Leandro",
+"txt": "Vozes de IA aprovadas: Giuseppe e Antonio",
+"cli": "Minha marca"
+},
+{
+"d": "2026-11-10",
+"h": "13:27",
+"conta": "Zuleide",
+"txt": "Painel da WF Celulares na Central (/painel/wf)",
+"cli": "WF Celulares"
+},
+{
+"d": "2026-11-10",
+"h": "13:45",
+"conta": "Zuleide",
+"txt": "Mini site da bio, links logo abaixo do título (falta publicar na Cloudflare)",
+"cli": "WF Celulares"
+},
+{
+"d": "2026-11-10",
+"h": "14:04",
+"conta": "Pedro",
+"txt": "Painel fixado: 3 posts formando 1 imagem + legendas (aguardando aprovação)",
+"cli": "WF Celulares"
+},
+{
+"d": "2026-11-10",
+"h": "14:59",
+"conta": "Leandro",
+"txt": "Legenda do Reels do processo",
+"cli": "WF Celulares"
+},
+{
+"d": "2026-11-10",
+"h": "15:15",
+"conta": "Leandro",
+"txt": "5 criativos em motion com preços novos; vitrine do site-bio atualizada",
+"cli": "WF Celulares"
+},
+{
+"d": "2026-11-10",
+"h": "15:36",
+"conta": "Leandro",
+"txt": "Vídeos com a voz masculina aprovada",
+"cli": "WF Celulares"
+},
+{
+"d": "2026-11-10",
+"h": "15:59",
+"conta": "Leandro",
+"txt": "Motion-02 de alta retenção (5 vídeos) e voz Antonio no vídeo do processo (aguardando aprovação)",
+"cli": "WF Celulares"
+}
+]
+}

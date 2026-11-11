@@ -1,0 +1,269 @@
+{
+ "atualizado": "10/11/2026",
+ "grupos": [
+  {
+   "id": "geral",
+   "nome": "Geral · automação",
+   "pagante": false,
+   "itens": [
+    [
+     "windsor-plano",
+     "Escolher o plano do Windsor (o Trial acaba e a publicação automática para)",
+     "voce"
+    ],
+    [
+     "windsor-contas",
+     "Conectar no Windsor o Instagram dos clientes (Leo, Tribuna, curso, Orégano, Jaci, Real Time)",
+     "voce"
+    ],
+    [
+     "modo-auto",
+     "Ligar o modo Auto no app do Claude (seletor ao lado da caixa de mensagem)",
+     "voce"
+    ]
+   ]
+  },
+  {
+   "id": "jaci",
+   "nome": "Dra. Jaci Cunha",
+   "pagante": true,
+   "itens": [
+    [
+     "jaci-aprovar",
+     "Aprovar no painel: feed, carrosséis, stories, prova social e campanha de Meta Ads",
+     "voce"
+    ],
+    [
+     "jaci-tcle",
+     "TCLE do paciente da prova social",
+     "cliente"
+    ],
+    [
+     "jaci-gravacao",
+     "Mandar o roteiro à clínica e marcar a gravação dos Reels",
+     "voce"
+    ],
+    [
+     "jaci-material",
+     "Logo em vetor, fotos em alta e fotos para janeiro",
+     "cliente"
+    ],
+    [
+     "jaci-google",
+     "Search Console e Perfil da Empresa no Google (guia pronto)",
+     "voce"
+    ],
+    [
+     "jaci-bio",
+     "Trocar o link da bio do Instagram",
+     "cliente"
+    ]
+   ]
+  },
+  {
+   "id": "tribuna",
+   "nome": "Tribuna 98 e curso de processo legislativo",
+   "pagante": true,
+   "itens": [
+    [
+     "trib-bio",
+     "Aprovar o mini site da bio, a bio e os 7 destaques",
+     "voce"
+    ],
+    [
+     "trib-analise",
+     "Atualizar a análise de monetização com os prints de 07/11",
+     "equipe"
+    ],
+    [
+     "trib-site",
+     "Site principal: fechar a pesquisa premium (falta 1 referência)",
+     "equipe"
+    ],
+    [
+     "curso-identidade",
+     "Curso: escolher a direção de identidade (A, B ou C), a marca v10 e as capas",
+     "voce",
+     "08/11"
+    ],
+    [
+     "curso-estrutura",
+     "Curso: mandar a estrutura do curso (ementa e aulas)",
+     "cliente"
+    ],
+    [
+     "curso-artes",
+     "Curso: artes do feed, calendário e roteiros (depois da identidade)",
+     "equipe"
+    ],
+    [
+     "trib-insights",
+     "Acessos e Insights do Instagram",
+     "cliente"
+    ],
+    [
+     "curso-bio-link",
+     "Curso: colocar o link cursoprocessolegislativo.pages.dev/bio/ na bio do Instagram",
+     "voce"
+    ],
+    [
+     "curso-perfil",
+     "Curso: trocar a foto de perfil, a bio e os 6 destaques no Instagram",
+     "voce"
+    ],
+    [
+     "curso-dados",
+     "Curso: confirmar o nome do professor (Tiago ou Thiago), a carga (7h ou 4h), a nova data e o WhatsApp",
+     "voce"
+    ]
+   ]
+  },
+  {
+   "id": "leo",
+   "nome": "Vereador Leo Pinto",
+   "pagante": true,
+   "itens": [
+    [
+     "leo-mecinho",
+     "Aprovar o aniversário do prefeito Mecinho (feed e story)",
+     "voce"
+    ],
+    [
+     "leo-datas",
+     "Postar as datas: 15/11, 20/11, 11/12, 25/12, 31/12 e 01/01",
+     "voce"
+    ],
+    [
+     "leo-quadros",
+     "Escolher os 4 quadros fixos",
+     "voce"
+    ],
+    [
+     "leo-fotos",
+     "Fotos reais de São João Batista, 7 fotos livres do álbum e 5 no Gemini",
+     "cliente"
+    ],
+    [
+     "leo-estrategia",
+     "@ certo, entregas do mandato, causas e bairros",
+     "cliente"
+    ]
+   ]
+  },
+  {
+   "id": "rt",
+   "nome": "Real Time",
+   "pagante": true,
+   "itens": [
+    [
+     "rt-aprovar",
+     "Cliente aprovar no painel",
+     "cliente"
+    ],
+    [
+     "rt-contrato",
+     "Saber o que foi contratado e os preços",
+     "voce"
+    ],
+    [
+     "rt-info",
+     "Cidade do estúdio, equipamentos, fala real de cliente e fotos",
+     "cliente"
+    ],
+    [
+     "rt-google",
+     "Search Console e Perfil da Empresa no Google (guia pronto)",
+     "voce"
+    ],
+    [
+     "rt-bio",
+     "Trocar o link da bio do Instagram",
+     "cliente"
+    ]
+   ]
+  },
+  {
+   "id": "oregano",
+   "nome": "Orégano Turbo",
+   "pagante": false,
+   "itens": [
+    [
+     "oreg-fotos",
+     "Lote 2 de fotos do Gemini (27 artes esperando)",
+     "voce"
+    ],
+    [
+     "oreg-contrato",
+     "Modelo de contrato e proposta em PDF",
+     "equipe"
+    ],
+    [
+     "oreg-inpi",
+     "INPI, repositório oreganoturbo e clientes atuais na planilha",
+     "voce"
+    ]
+   ]
+  },
+  {
+   "id": "marca",
+   "nome": "Minha marca (@lindsonalmeida_)",
+   "pagante": false,
+   "itens": [
+    [
+     "marca-site",
+     "Aprovar o site oficial e a bio, e trocar o link da bio para /bio/",
+     "voce"
+    ],
+    [
+     "marca-google",
+     "Search Console do site",
+     "voce"
+    ],
+    [
+     "marca-stories",
+     "Tema da próxima sequência de storys (vídeo com música)",
+     "voce"
+    ]
+   ]
+  },
+  {
+   "id": "sf",
+   "nome": "Desentupidora SF",
+   "pagante": false,
+   "itens": [
+    [
+     "sf-artes",
+     "Aprovar as 4 artes",
+     "voce"
+    ],
+    [
+     "sf-google",
+     "Enviar o sitemap, pedir indexação e criar o Perfil da Empresa",
+     "voce"
+    ],
+    [
+     "sf-pixel",
+     "Pixel da Meta e UTM no site",
+     "equipe"
+    ]
+   ]
+  },
+  {
+   "id": "produtos",
+   "nome": "Produtos low ticket",
+   "pagante": false,
+   "itens": [
+    [
+     "prod-hubla",
+     "Definir os preços e cadastrar os produtos na Hubla",
+     "voce"
+    ],
+    [
+     "prod-escada",
+     "As 5 decisões da escada de venda",
+     "voce"
+    ]
+   ]
+  }
+ ]
+}

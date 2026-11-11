@@ -67,7 +67,7 @@ for cli, arq in [('jaci', os.path.join(SC, 'jaci-cunha', 'painel-jaci.html')), (
 #     e telas próprias (site/admin-sistema.js): visão geral com novidades, clientes, rede social, vendas e CRMs, canais, contas e antigos.
 import json
 DADOS = os.environ.get('CENTRAL_DADOS', os.path.join(D, '..', '..', '..', '..', 'centrallindsonalmeida', 'dados'))
-clientes = [json.load(open(os.path.join(DADOS, c + '.json'))) for c in ['jaci', 'leo', 'sf', 'rt', 'wf'] if os.path.exists(os.path.join(DADOS, c + '.json'))]
+clientes = [json.load(open(os.path.join(DADOS, c + '.json'))) for c in ['jaci', 'leo', 'sf', 'rt', 'curso', 'tribuna', 'wf'] if os.path.exists(os.path.join(DADOS, c + '.json'))]
 resumo = [{k: c.get(k) for k in ['cliente', 'nome', 'seg', 'atualizado', 'instagram']} for c in clientes]
 for r in resumo:
     if r.get('instagram'): r['instagram'] = {k: r['instagram'].get(k) for k in ['perfil', 'data', 'periodo', 'seguidores', 'visualizacoes', 'var_seguidores', 'var_visualizacoes']}
@@ -86,12 +86,15 @@ IC = {'inicio': '<rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y
       'clientes': '<circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.8-3.6 3.4-5.5 6.5-5.5s5.7 1.9 6.5 5.5M16 4.5a3.5 3.5 0 0 1 0 7M18.5 14.8c1.7.8 2.8 2.5 3.2 5.2"/>',
       'ir': '<path d="M7 17 17 7M9 7h8v8"/>', 'rede': '<rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5v.01"/>',
       'vendas': '<path d="M3 4h18l-7 8v6l-4 2v-8z"/>', 'canais': '<rect x="2.5" y="5" width="19" height="14" rx="3"/><path d="m10 9 5 3-5 3z"/>',
-      'contas': '<rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/>', 'repetidos': '<path d="M4 7h16M7 7l1 13h8l1-13M10 7V4h4v3"/>', 'sair': '<path d="M15 4h4v16h-4M10 8l-4 4 4 4M6 12h10"/>'}
+      'contas': '<rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/>', 'repetidos': '<path d="M4 7h16M7 7l1 13h8l1-13M10 7V4h4v3"/>', 'sair': '<path d="M15 4h4v16h-4M10 8l-4 4 4 4M6 12h10"/>',
+      'quadro': '<rect x="4" y="3" width="16" height="18" rx="2.5"/><path d="m8 9 1.6 1.6L13 7.2M8 15.5l1.6 1.6L13 13.7M15.5 9H17M15.5 15.5H17"/>',
+      'contrato': '<path d="M6 2h9l5 5v15H6z"/><path d="M14 2v6h6M9 13h7M9 17h7"/>', 'baixar': '<path d="M12 3v12M7 10l5 5 5-5M4 20h16"/>'}
+fora = lambda h, ic, t: lk(h, ic, t).replace(f'<a href="{h}">', f'<a href="{h}" target="_blank" rel="noopener">', 1)  # link que abre em outra aba
 lk = lambda h, ic, t, v=None, extra='': f'<a href="{h}"' + (f' data-v="{v}"' if v else '') + f'><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">{IC[ic]}</svg>{t}{extra}</a>'
-menu = ('<div class="grupo"><h4>Visão</h4><a href="/painel/comando" style="color:var(--amarelo);background:rgba(245,197,24,.10)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>Central de Comando</a>' + lk('#inicio', 'inicio', 'Visão geral', 'inicio', '<span class="n" id="n-novid"></span>') + lk('#missoes', 'missoes', 'Missões do dia', 'missoes', '<span class="n" id="n-miss"></span>') + '</div>'
+menu = ('<div class="grupo"><h4>Visão</h4><a href="/painel/comando" style="color:var(--amarelo);background:rgba(245,197,24,.10)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>Central de Comando</a>' + lk('#inicio', 'inicio', 'Visão geral', 'inicio', '<span class="n" id="n-novid"></span>') + lk('#missoes', 'missoes', 'Missões do dia', 'missoes', '<span class="n" id="n-miss"></span>') + lk('#quadro', 'quadro', 'Quadro de atividades', 'quadro') + '</div>'
         '<div class="grupo"><h4>Minha rede social</h4>' + lk('#rede', 'rede', 'Visão da rede', 'rede') + lk('#rede-estrategia', 'missoes', 'Estratégia', 'rede-estrategia') + lk('#rede-calendario', 'inicio', 'Calendário editorial', 'rede-calendario') + lk('#rede-lote', 'canais', 'Gravação da semana', 'rede-lote') + lk('#rede-leads', 'clientes', 'Leads das iscas', 'rede-leads') + lk('#rede-relatorio', 'vendas', 'Relatório semanal', 'rede-relatorio') + lk('#rede-fotos', 'rede', 'Minhas fotos', 'rede-fotos') + lk('#rede-artes', 'rede', 'Artes', 'rede-artes') + '</div>'
-        '<div class="grupo"><h4>Clientes</h4>' + lk('#clientes', 'clientes', 'Todos os clientes', 'clientes') + ''.join(lk('/painel/' + c['cliente'], 'ir', c['nome']) for c in clientes) + '</div>'
-        '<div class="grupo"><h4>Minha agência</h4>' + lk('#recomeco', 'missoes', 'Recomeço 90', 'recomeco') + lk('#fabrica', 'rede', 'Fábrica de Conteúdo', 'fabrica') + lk('#legendas', 'rede', 'Legendas Top X', 'legendas') + lk('#marca', 'inicio', 'Marca e Design System', 'marca') + lk('#propostas', 'vendas', 'Gerador de propostas', 'propostas') + lk('#vendas', 'vendas', 'Vendas e CRMs', 'vendas') + lk('#canais', 'canais', 'Canais dark', 'canais') + '</div>'
+        '<div class="grupo"><h4>Clientes</h4>' + lk('#clientes', 'clientes', 'Todos os clientes', 'clientes') + ''.join(lk('/painel/' + c['cliente'], 'ir', c['nome']) for c in clientes) + lk('/painel/oregano.html', 'ir', 'Orégano Turbo') + '</div>'
+        '<div class="grupo"><h4>Minha agência</h4>' + lk('#recomeco', 'missoes', 'Recomeço 90 · Funil e leads', 'recomeco') + lk('#fabrica', 'rede', 'Fábrica de Conteúdo', 'fabrica') + lk('#legendas', 'rede', 'Legendas Top X', 'legendas') + lk('#marca', 'inicio', 'Marca e Design System', 'marca') + lk('#propostas', 'vendas', 'Gerador de propostas', 'propostas') + fora('https://claude.ai/artifact/B9QirY7ndLJWP9iZ61mozz', 'contrato', 'Contratos Alkantara') + fora('https://claude.ai/artifact/VLijrTZyfqg1D53UYrKM6w', 'baixar', 'Downloads Lindson') + lk('#canais', 'canais', 'Canais dark', 'canais') + '</div>'
         '<div class="grupo"><h4>Sistema</h4>' + lk('#contas', 'contas', 'Contas de acesso', 'contas') + lk('#repetidos', 'repetidos', 'Antigos e repetidos', 'repetidos') + lk('/sair', 'sair', 'Sair') + '</div>'
         '<span id="n-aprov" hidden></span></nav>')
 a = re.sub(r'<div class="seletor">.*?</nav>', lambda m: menu, a, count=1, flags=re.S)
@@ -110,7 +113,10 @@ a = troca(a, "function toast(t){", "window.__toast=t=>toast(t);function toast(t)
 a = troca(a, "const f=$('#novo-ped');", "if(window.__pos)window.__pos(view);const f=$('#novo-ped');")
 a = troca(a, "addEventListener('hashchange',render);render();", "window.__render=render;window.__h={BASE,APROV,PEDIDOS,bomDia,chip,cli:()=>cli};addEventListener('hashchange',render);setTimeout(render,0);")
 extra = ('window.__CLIENTES=' + json.dumps(resumo, ensure_ascii=False) + ';\nwindow.__APPS=' + json.dumps(apps, ensure_ascii=False) + ';\n').replace('</', '<\\/') + open(os.path.join(D, 'admin-sistema.js')).read() + '\n' + open(os.path.join(D, 'admin-apps.js')).read() + '\n' + 'window.__REDE=' + json.dumps(REDE, ensure_ascii=False).replace('</', '<\\/') + ';\n' + open(os.path.join(D, 'admin-rede.js')).read() + '\n' + open(os.path.join(SC, 'prototipo', 'movimento.js')).read()
-a = a.replace('</script>', '</script>\n<script>\n' + extra + '\n</script>', 1)
+# Quadro de atividades (site/quadro.json + admin-quadro.js) com a aba Feitos em linha do tempo (montar_feitos.py: base + linhas novas do REGISTRO com a hora do commit), conta Leandro 11/11/2026
+import sys; sys.path.insert(0, D); from montar_feitos import feitos
+quadro = ('window.__QUADRO=' + json.dumps(json.load(open(os.path.join(D, 'quadro.json'))), ensure_ascii=False) + ';\nwindow.__FEITOS=' + json.dumps(feitos(), ensure_ascii=False) + ';\n').replace('</', '<\\/') + open(os.path.join(D, 'admin-quadro.js')).read().rstrip('\n') + '\n'
+a = a.replace('</script>', '</script>\n<script>\n' + extra + '\n</script>\n<script>\n' + quadro + '\n</script>', 1)
 open(os.path.join(OUT, 'painel', 'admin.html'), 'w').write(doc(a))
 # 3b · apps do Lindson dentro da Central (só o admin abre: ficam em /painel/, e o middleware barra quem não é admin)
 #      O app original roda igual, com o "window.claude" trocado pelo banco do servidor (prototipo/claude-shim.js).

@@ -124,5 +124,8 @@ k = s.index('Como o seu feed fica'); a = s.index('<img src="', k) + 10; b = s.in
 s = s[:a] + '/painel/oregano/artes/previa-feed.jpg' + s[b:]
 for a_, b_ in [('#0A2A6E', '#1E5B3B'), ('#04102B', '#121411'), ('#1D5FD0', '#2E7A4E'), ('#030C22', '#0E100C'), ('#061639', '#181B16')]:
     s = s.replace(a_, b_)
+# Gestão: link da Assessoria para pizzarias (saiu dos cartões do admin), conta Leandro 11/11/2026
+_c = s.index('Campanhas</a>', s.index('<h4>Gestão</h4>')) + len('Campanhas</a>')
+s = s[:_c] + '\n      <a href="/painel/pizzarias.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M7 17 17 7M9 7h8v8"/></svg>Assessoria para pizzarias</a>' + s[_c:]
 open(os.path.join(PRIV, 'painel', 'oregano.html'), 'w').write(s)
 print(len(APROV), 'itens no painel ·', len(falta), 'esperando foto:', ', '.join(f"d{r['dia']} {r['hora']} ({r['imagem']})" for r in falta))
