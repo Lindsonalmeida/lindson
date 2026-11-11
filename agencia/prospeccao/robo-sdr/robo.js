@@ -45,27 +45,30 @@ async function umEnvio() {
   if (POR_DIA - lerConta() <= 0) return 'limite';
   let lote; try { ({ lote } = await api()); } catch (e) { console.log(hora(), 'Central fora do ar:', e.message); return 'erro'; }
   const c = lote[0]; if (!c) return 'vazio';
-  const id = await wa.getNumberId(c.wa);
+  etapa = 'conferir o número ' + c.wa; const id = await wa.getNumberId(c.wa);
   if (!id) { semWa++; await api({ id: c.id, acao: 'etapa', etapa: 'perdido' }); console.log(hora(), `${c.nome}: sem WhatsApp → Perdido`); return semWa >= MAX_SEM_WA ? 'semwa' : 'pulou'; }
   semWa = 0;
-  const chat = await wa.getChatById(id._serialized);
-  await chat.sendStateTyping(); await espera(Math.min(c.msg.length * 60, 12000) + Math.random() * 3000);  // "digitando…" como gente
-  await wa.sendMessage(id._serialized, c.msg); somaConta();
+  try { const chat = await wa.getChatById(id._serialized); await chat.sendStateTyping(); } catch (e) {}  // conversa nova pode não ter "digitando"
+  await espera(Math.min(c.msg.length * 60, 12000) + Math.random() * 3000);
+  etapa = 'enviar mensagem'; await wa.sendMessage(id._serialized, c.msg); somaConta();
+  etapa = 'avisar a Central';
   await api({ id: c.id, acao: 'enviado', canal: 'whatsapp' });
   console.log(hora(), `${c.nome}: enviado ✓ (${lerConta()}/${POR_DIA} hoje)`);
   return 'ok';
 }
-let semWa = 0;
+let semWa = 0, etapa = '', erros = 0;
 wa.on('ready', async () => {
+  await espera(15000);  // deixa o WhatsApp Web terminar de carregar (99%) antes do 1º envio
   console.log(hora(), 'WhatsApp conectado. Robô ligado: envia sozinho de seg a sex, das ' + HORA_INI + 'h às ' + HORA_FIM + 'h, até ' + POR_DIA + ' por dia.');
   let aviso = '';
   for (;;) {
-    let r; try { r = await umEnvio(); } catch (e) { console.log(hora(), 'Erro:', e.message, '→ pausa de 1 hora por segurança.'); r = 'erro'; }
+    let r; try { etapa = ''; r = await umEnvio(); erros = 0; } catch (e) {
+      erros++; console.log(hora(), `Erro ao ${etapa || 'buscar a lista'}: ${(e && (e.message || e)) || e}`, erros >= 3 ? '→ pausa de 1 hora.' : '→ tento de novo em 3 min.'); r = 'erro'; }
     const msg = { fora: 'Fora do horário. Aguardando…', limite: 'Limite do dia atingido. Volto amanhã às ' + HORA_INI + 'h.', vazio: 'Lista do SDR vazia. Confiro de novo a cada hora.', semwa: '3 números sem WhatsApp seguidos. Pausa de 1 dia (confira a lista).' }[r];
     if (msg && msg !== aviso) { console.log(hora(), msg); aviso = msg; } else if (!msg) aviso = '';
     if (r === 'semwa') { semWa = 0; await espera(24 * 60 * MINUTO); continue; }
     if (r === 'ok' || r === 'pulou') { await espera((MIN + Math.random() * (MAX - MIN)) * MINUTO); continue; }
-    await espera((r === 'erro' ? 60 : 10) * MINUTO);
+    await espera((r === 'erro' ? (erros >= 3 ? 60 : 3) : 10) * MINUTO);
   }
 });
 // quem responder vai sozinho para "Respondeu" na esteira
