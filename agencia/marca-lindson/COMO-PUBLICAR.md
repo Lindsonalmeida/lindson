@@ -10,3 +10,5 @@ Toda tarefa programada que publica um post do @lindsonalmeida_ pelo Windsor faz,
 O feed é sempre harmônico e em xadrez (regra do Lindson).
 
 **Regra do Lindson (09/11): horários.** Só postar entre **8h e 21h** (fuso de São Luís), com **intervalo de 4 horas** entre posts. Se um post atrasar, **reorganize os seguintes**: o atrasado sai assim que der (dentro da janela) e cada próximo fica 4 h depois do anterior. O que não couber até 21h passa para o dia seguinte a partir das 8h. Mantenha o xadrez das cores.
+
+**Robô do PC (conta Pedro, 11/11/2026): o KV do site é a fonte única.** O robô do Instagram (`robo-instagram/README.md`) posta sozinho pela fila `https://lindsonalmeida.pages.dev/api/agenda-ig`. Toda rotina do Windsor, antes de postar: `GET /api/agenda-ig` (Bearer `AUTOMACAO_TOKEN`); se o post já está `postado` no KV, não posta. Para postar, `POST {id, acao:'pegar', por:'windsor'}` (se der 409, outro já pegou: não posta); depois `POST {id, acao:'publicado', media_id, link, por:'windsor'}`. Com o robô instalado, as rotinas do Windsor só entram se ele parar (ver `robo.log`).
