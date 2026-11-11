@@ -1,0 +1,29 @@
+/* Padrão visual da Central · estilo Apple (conta Leandro, 11/11/2026)
+   Escuro elegante (preto, grafite, cinzas Apple). Amarelo da marca SÓ como acento: botão principal, foco, indicador ativo. Nunca fundo de área.
+   Fonte: Inter (livre, parecida com SF; a SF não pode ser usada). Uma família, pesos 400/500/600/700. */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+:root{
+  /* cor · superfícies (do fundo para cima) */
+  --c-fundo:#000000; --c-base:#0b0b0c; --c-sup-1:#161618; --c-sup-2:#1c1c1e; --c-sup-3:#2c2c2e;
+  --c-vidro:rgba(28,28,30,.72); --c-vidro-borda:rgba(255,255,255,.08);
+  --c-linha:rgba(255,255,255,.08); --c-linha-forte:rgba(255,255,255,.14);
+  /* cor · texto (rótulos Apple: primário, secundário, terciário) */
+  --c-texto:#f5f5f7; --c-texto-2:rgba(235,235,245,.62); --c-texto-3:rgba(235,235,245,.34);
+  /* cor · acento da marca e estados */
+  --c-acento:#F5C518; --c-acento-texto:#0a0a0a; --c-acento-suave:rgba(245,197,24,.14);
+  --c-ok:#30d158; --c-alerta:#ff9f0a; --c-erro:#ff453a; --c-info:#98989d;
+  /* tipografia · escala 1.2 (rótulo, corpo, título de seção, título de tela, número) */
+  --f:'Inter',-apple-system,system-ui,sans-serif; --f-mono:ui-monospace,'SF Mono',Menlo,monospace;
+  --t-12:12px; --t-13:13px; --t-15:15px; --t-17:17px; --t-22:22px; --t-28:28px; --t-34:34px; --t-48:48px;
+  --lh-justo:1.15; --lh-corpo:1.47; --track-titulo:-.022em; --track-rotulo:.01em;
+  /* espaço · grade de 4 */
+  --e-1:4px; --e-2:8px; --e-3:12px; --e-4:16px; --e-5:20px; --e-6:24px; --e-8:32px; --e-10:40px; --e-12:48px; --e-16:64px;
+  /* raio · cantos contínuos */
+  --r-1:8px; --r-2:12px; --r-3:18px; --r-4:24px; --r-pilula:999px;
+  /* sombra · suave, uma só direção */
+  --s-1:0 1px 2px rgba(0,0,0,.4); --s-2:0 8px 24px -8px rgba(0,0,0,.6); --s-3:0 24px 64px -16px rgba(0,0,0,.7);
+  /* movimento · spring */
+  --m-mola:cubic-bezier(.32,.72,0,1); --m-rapido:180ms; --m-medio:320ms;
+  --barra:248px; --max:1200px;
+}
+@media (prefers-reduced-motion:reduce){:root{--m-rapido:0ms;--m-medio:0ms}}
