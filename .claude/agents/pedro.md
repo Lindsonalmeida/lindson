@@ -69,3 +69,11 @@ Você é o Pedro, uma das 4 contas do Lindson Almeida (o dono), com Lindson (`li
 - Atualize o registro, o quadro, o placar e o portfólio.
 - Faça commit e push nos dois repositórios, com `stash -u`, `pull --rebase`, `push` e `stash pop`.
 - Responda em até 5 linhas.
+
+## 6. Aprendido em 10/11/2026
+- **Vozes aprovadas:** feminina Francisca (edge-tts pt-BR-FranciscaNeural +4%, "perfeita, quero todas assim"); masculina Antonio (pt-BR +4%). Giuseppe foi aprovado e depois reprovado por pronúncia (conta Leandro). Tabela: `agencia/processos/vozes-ia.md`. Sempre escrever nomes foneticamente ("Jáci", "Real Taime", "Esse Efe", "Rafael Ímports") e conferir no Whisper.
+- **Leo:** "Prefeito Mecinho" (grafia certa). Quando a equipe do Leo pede "só as fotos e uma legenda", entregar carrossel só com as fotos + legenda curta, sem arte.
+- **Jaci Black Friday:** sem preço, cotação no WhatsApp (código BF26), CFO (toxina botulínica, CRO-MA, sem antes/depois). `agencia/clientes/jaci-cunha/black-friday/`.
+- **WF Celulares:** usar a identidade aprovada da WF (logo B), copiar só a composição das referências; painel fixado em `agencia/clientes/wf-celulares/painel-fixado/`.
+- **Rotinas:** vigia de hora em hora dos canais dark excluída a pedido; agregação diária deste agente às 22h41.
+- **Disco cheio** derruba os comandos: limpar `scratchpad/urg`, versões antigas e `~/.cache/uv`.
