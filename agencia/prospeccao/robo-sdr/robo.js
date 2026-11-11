@@ -34,33 +34,36 @@ const wa = new Client({ authStrategy: new LocalAuth({ clientId: 'sdr' }), webVer
   puppeteer: { headless: false, executablePath: CHROME, args: ['--no-sandbox', '--disable-gpu'] } });
 wa.on('qr', qr => { console.log('Escaneie o QR na janela do Chrome que abriu (WhatsApp do chip → Aparelhos conectados → Conectar).'); });
 wa.on('auth_failure', m => { console.log('Falha no login do WhatsApp:', m); process.exit(1); });
+// Modo contínuo (Lindson, 11/11/2026: "não quero fazer nada manual"): fica ligado; todo dia útil, no horário seguro,
+// pega os próximos leads da aba SDR e envia até o limite do dia. Lista vazia = espera leads novos e confere de novo a cada hora.
+const MINUTO = 60e3;
+async function umEnvio() {
+  if (!podeAgora()) return 'fora';
+  if (POR_DIA - lerConta() <= 0) return 'limite';
+  let lote; try { ({ lote } = await api()); } catch (e) { console.log(hora(), 'Central fora do ar:', e.message); return 'erro'; }
+  const c = lote[0]; if (!c) return 'vazio';
+  const id = await wa.getNumberId(c.wa);
+  if (!id) { semWa++; await api({ id: c.id, acao: 'etapa', etapa: 'perdido' }); console.log(hora(), `${c.nome}: sem WhatsApp → Perdido`); return semWa >= MAX_SEM_WA ? 'semwa' : 'pulou'; }
+  semWa = 0;
+  const chat = await wa.getChatById(id._serialized);
+  await chat.sendStateTyping(); await espera(Math.min(c.msg.length * 60, 12000) + Math.random() * 3000);  // "digitando…" como gente
+  await wa.sendMessage(id._serialized, c.msg); somaConta();
+  await api({ id: c.id, acao: 'enviado', canal: 'whatsapp' });
+  console.log(hora(), `${c.nome}: enviado ✓ (${lerConta()}/${POR_DIA} hoje)`);
+  return 'ok';
+}
+let semWa = 0;
 wa.on('ready', async () => {
-  console.log(hora(), 'WhatsApp conectado. Buscando o lote…');
-  if (!podeAgora()) { console.log(`Fora do horário seguro (seg a sex, ${HORA_INI}h às ${HORA_FIM}h). Rode de novo nesse horário.`); await wa.destroy(); process.exit(0); }
-  const resta = POR_DIA - lerConta();
-  if (resta <= 0) { console.log(`Limite de ${POR_DIA} por dia já atingido. Volte amanhã.`); await wa.destroy(); process.exit(0); }
-  let lote; try { ({ lote } = await api()); } catch (e) { console.log('Não consegui ler a Central:', e.message); process.exit(1); }
-  lote = lote.slice(0, resta); console.log(`Hoje ainda pode enviar ${resta}. Lote de ${lote.length}.`);
-  if (!lote.length) { console.log('Lista do SDR vazia.'); process.exit(0); }
-  let ok = 0, pulados = 0, semWa = 0;
-  for (const [i, c] of lote.entries()) {
-    try {
-      const id = await wa.getNumberId(c.wa);
-      if (!podeAgora()) { console.log(hora(), 'Saiu do horário seguro. Parando.'); break; }
-      if (!id) { semWa++; await api({ id: c.id, acao: 'etapa', etapa: 'perdido' }); pulados++; if (semWa >= MAX_SEM_WA) { console.log('3 números sem WhatsApp seguidos. Parando por segurança.'); break; } console.log(hora(), `${i + 1}/${lote.length} ${c.nome}: número sem WhatsApp → Perdido`); continue; }
-      semWa = 0;
-      const chat = await wa.getChatById(id._serialized);
-      await chat.sendStateTyping(); await espera(Math.min(c.msg.length * 60, 12000) + Math.random() * 3000);  // "digitando…" como gente
-      await wa.sendMessage(id._serialized, c.msg); somaConta();
-      await api({ id: c.id, acao: 'enviado', canal: 'whatsapp' }); ok++;
-      console.log(hora(), `${i + 1}/${lote.length} ${c.nome}: enviado ✓`);
-    } catch (e) {
-      console.log(hora(), `${c.nome}: erro (${e.message}). Parando por segurança.`); break;
-    }
-    if (i < lote.length - 1) { const m = MIN + Math.random() * (MAX - MIN); console.log(`   próximo em ${m.toFixed(1)} min`); await espera(m * 60e3); }
+  console.log(hora(), 'WhatsApp conectado. Robô ligado: envia sozinho de seg a sex, das ' + HORA_INI + 'h às ' + HORA_FIM + 'h, até ' + POR_DIA + ' por dia.');
+  let aviso = '';
+  for (;;) {
+    let r; try { r = await umEnvio(); } catch (e) { console.log(hora(), 'Erro:', e.message, '→ pausa de 1 hora por segurança.'); r = 'erro'; }
+    const msg = { fora: 'Fora do horário. Aguardando…', limite: 'Limite do dia atingido. Volto amanhã às ' + HORA_INI + 'h.', vazio: 'Lista do SDR vazia. Confiro de novo a cada hora.', semwa: '3 números sem WhatsApp seguidos. Pausa de 1 dia (confira a lista).' }[r];
+    if (msg && msg !== aviso) { console.log(hora(), msg); aviso = msg; } else if (!msg) aviso = '';
+    if (r === 'semwa') { semWa = 0; await espera(24 * 60 * MINUTO); continue; }
+    if (r === 'ok' || r === 'pulou') { await espera((MIN + Math.random() * (MAX - MIN)) * MINUTO); continue; }
+    await espera((r === 'erro' ? 60 : 10) * MINUTO);
   }
-  console.log(hora(), `Fim do lote: ${ok} enviados, ${pulados} pulados. Rode de novo para o próximo lote.`);
-  await espera(5000); await wa.destroy(); process.exit(0);
 });
 // quem responder vai sozinho para "Respondeu" na esteira
 wa.on('message', async m => {
