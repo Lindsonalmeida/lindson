@@ -131,7 +131,7 @@ FERR = {
     {'nome': 'Serviços para casa', 'q': 'encanador OR serviços residenciais manutenção'},
     {'nome': 'Marketing para prestador de serviço', 'q': 'marketing prestador de serviços Google Meu Negócio'}],
   'notaNoticias': 'Notícias de portais públicos, atualizadas sozinhas a cada 3 horas. Antes de postar sobre uma delas, abra a fonte original.',
-  'ideiaPost': 'Gancho: "Saiu uma notícia sobre {tema} e isso pode virar dor de cabeça na sua casa. Te explico em 30 segundos."\nNotícia: {titulo}\nFonte: {link}\nFechamento: chame a SF no WhatsApp (98) 98915-3929.'}
+  'ideiaPost': 'Gancho: "Saiu uma notícia sobre {tema} e isso pode virar dor de cabeça na sua casa. Te explico em 30 segundos."\nNotícia: {titulo}\nFonte: {link}\nFechamento: chame a SF no WhatsApp (98) 92010-5710.'}
 
 # 6 · bloco de promoção do Lindson: portfólio real, sem o próprio cliente
 s = s.replace(" ['Conheça um dos nossos clientes','Desentupidora <em>SF</em>','Mini site para quem tem urgência: orçamento no WhatsApp e ligação em um toque.','__SF1__'],\n", '', 1)

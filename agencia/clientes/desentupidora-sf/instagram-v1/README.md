@@ -23,7 +23,7 @@ Alternância conferida: foto, só logo, foto, só logo; nenhum fundo nem composi
 - **Fala com a gente:** enquetes e perguntas para gerar comentário e conversa no direct.
 
 ## Identidade usada (do site e do flyer do cliente)
-Azul marinho `#061a4a`/`#0a2a6e`, royal `#1d5fd0`, céu `#3fa9ff`, laranja `#ff8a00`/`#ff6a00`, branco azulado `#f4f8ff`; Montserrat 600 a 900, itálico 900 em caixa alta nos títulos (como no flyer); logo circular oficial. **Assinatura fixa** em todas: logo + @desentupidorasf_slz + WhatsApp (98) 98915-3929 no rodapé esquerdo. Sem emojis, adesivos e ícones 3D (o selo e o escudo 3D dos modelos foram retirados).
+Azul marinho `#061a4a`/`#0a2a6e`, royal `#1d5fd0`, céu `#3fa9ff`, laranja `#ff8a00`/`#ff6a00`, branco azulado `#f4f8ff`; Montserrat 600 a 900, itálico 900 em caixa alta nos títulos (como no flyer); logo circular oficial. **Assinatura fixa** em todas: logo + @desentupidorasf_slz + WhatsApp (98) 92010-5710 no rodapé esquerdo. Sem emojis, adesivos e ícones 3D (o selo e o escudo 3D dos modelos foram retirados).
 
 ## Fotos usadas e créditos
 - `assets/pexels-6419128.jpg`: mãos de profissional no encanamento embaixo da pia, [Pexels 6419128](https://www.pexels.com/photo/plumber-installs-pipe-fittings-6419128/) (licença Pexels, uso livre). Com véu azul.
