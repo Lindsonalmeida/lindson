@@ -30,9 +30,12 @@ const hora = () => new Date().toLocaleTimeString('pt-BR');
 // usa o Chrome já instalado no PC (o navegador interno do puppeteer nem sempre baixa)
 const CHROME = [process.env.CHROME, 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe',
   (process.env.LOCALAPPDATA || '') + '\\Google\\Chrome\\Application\\chrome.exe', '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'].find(c => c && existsSync(c));
-const wa = new Client({ authStrategy: new LocalAuth({ clientId: 'sdr' }), webVersionCache: { type: 'none' },
+const wa = new Client({ authStrategy: new LocalAuth({ clientId: 'sdr' }), 
   puppeteer: { headless: false, executablePath: CHROME, args: ['--no-sandbox', '--disable-gpu'] } });
 wa.on('qr', qr => { console.log('Escaneie o QR na janela do Chrome que abriu (WhatsApp do chip → Aparelhos conectados → Conectar).'); });
+wa.on('loading_screen', (p, m) => console.log(hora(), `Carregando WhatsApp ${p}%`));
+wa.on('authenticated', () => console.log(hora(), 'Login feito. Esperando o WhatsApp abrir as conversas…'));
+wa.on('disconnected', r => { console.log(hora(), 'WhatsApp desconectou:', r); process.exit(1); });
 wa.on('auth_failure', m => { console.log('Falha no login do WhatsApp:', m); process.exit(1); });
 // Modo contínuo (Lindson, 11/11/2026: "não quero fazer nada manual"): fica ligado; todo dia útil, no horário seguro,
 // pega os próximos leads da aba SDR e envia até o limite do dia. Lista vazia = espera leads novos e confere de novo a cada hora.
@@ -70,4 +73,5 @@ wa.on('message', async m => {
   try { const n = m.from.replace(/@.*/, ''); const { contatos } = await (await fetch(CENTRAL, { headers: { Authorization: 'Bearer ' + TOKEN } })).json();
     const c = (contatos || []).find(x => x.wa === n && x.etapa === 'enviado'); if (c) { await api({ id: c.id, acao: 'etapa', etapa: 'respondeu' }); console.log(hora(), `${c.nome} RESPONDEU → esteira`); } } catch (e) {}
 });
+console.log(hora(), 'Iniciando o robô…');
 wa.initialize();
