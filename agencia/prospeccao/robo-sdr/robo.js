@@ -18,7 +18,11 @@ const api = (corpo) => fetch(CENTRAL + (corpo ? '' : '?lote=' + LOTE), {
 const espera = ms => new Promise(r => setTimeout(r, ms));
 const hora = () => new Date().toLocaleTimeString('pt-BR');
 
-const wa = new Client({ authStrategy: new LocalAuth({ clientId: 'sdr' }), puppeteer: { headless: true, args: ['--no-sandbox'] } });
+// usa o Chrome já instalado no PC (o navegador interno do puppeteer nem sempre baixa)
+const CHROME = [process.env.CHROME, 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe',
+  (process.env.LOCALAPPDATA || '') + '\\Google\\Chrome\\Application\\chrome.exe', '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'].find(c => c && existsSync(c));
+const wa = new Client({ authStrategy: new LocalAuth({ clientId: 'sdr' }), webVersionCache: { type: 'none' },
+  puppeteer: { headless: true, executablePath: CHROME, args: ['--no-sandbox', '--disable-gpu'] } });
 wa.on('qr', qr => { console.log('Escaneie com o WhatsApp do chip do SDR (Aparelhos conectados → Conectar):'); qrcode.generate(qr, { small: true }); });
 wa.on('auth_failure', m => { console.log('Falha no login do WhatsApp:', m); process.exit(1); });
 wa.on('ready', async () => {
