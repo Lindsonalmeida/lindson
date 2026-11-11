@@ -8,7 +8,7 @@ Pasta criada pela conta Zuleide em 03/11/2026. Mini site feito antes (ver `agenc
 | Site | https://desentupidorasf.pages.dev (Cloudflare Pages) |
 | Repositório do site | `Lindsonalmeida/GruposSF` (privado) |
 | Instagram | @desentupidorasf_slz |
-| WhatsApp / telefone público | (98) 98915-3929 |
+| WhatsApp / telefone público | (98) 92010-5710 |
 | Áreas | São Luís, São José de Ribamar, Paço do Lumiar e Raposa (páginas próprias no site) |
 | Serviços | pia, ralo, vaso sanitário, esgoto, caixa de gordura, calhas |
 | Promessas do site (as únicas que podemos usar) | orçamento grátis (por foto ou vídeo no WhatsApp), sem quebra-quebra na maioria dos casos, máquinas de cabo rotativo, técnicos uniformizados, agendamento no mesmo dia conforme a agenda, teste na hora, atende casas, condomínios, restaurantes e empresas |

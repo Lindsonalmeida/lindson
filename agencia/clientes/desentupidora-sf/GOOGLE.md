@@ -27,10 +27,10 @@ Abra **business.google.com** → Adicionar empresa. Textos prontos (só dados qu
 - **Nome:** Desentupidora SF
 - **Categoria principal:** Serviço de desentupimento · **Categoria adicional:** Encanador
 - **Tem local que os clientes visitam?** Não (atende na casa do cliente) → **Área de atendimento:** São Luís, São José de Ribamar, Paço do Lumiar, Raposa
-- **Telefone e WhatsApp:** (98) 98915-3929 · **Site:** https://desentupidorasf.pages.dev
+- **Telefone e WhatsApp:** (98) 92010-5710 · **Site:** https://desentupidorasf.pages.dev
 - **Serviços:** Desentupimento de pia · Desentupimento de ralo · Desentupimento de vaso sanitário · Desentupimento de esgoto · Limpeza de caixa de gordura · Desentupimento de calhas
 - **Descrição (até 750 caracteres):**
-  > Desentupidora em São Luís, São José de Ribamar, Paço do Lumiar e Raposa. Desentupimos pia, ralo, vaso sanitário, esgoto e calhas e fazemos a limpeza de caixa de gordura com equipamento de cabo rotativo, sem quebrar piso nem parede. O técnico testa o escoamento na hora, na sua frente. Orçamento grátis pelo WhatsApp (98) 98915-3929: mande uma foto do problema e a gente responde.
+  > Desentupidora em São Luís, São José de Ribamar, Paço do Lumiar e Raposa. Desentupimos pia, ralo, vaso sanitário, esgoto e calhas e fazemos a limpeza de caixa de gordura com equipamento de cabo rotativo, sem quebrar piso nem parede. O técnico testa o escoamento na hora, na sua frente. Orçamento grátis pelo WhatsApp (98) 92010-5710: mande uma foto do problema e a gente responde.
 - **Falta perguntar ao cliente:** horário de atendimento (e se atende 24 horas e fim de semana), CNPJ ou nome do responsável para a verificação do Google (por vídeo ou ligação), fotos reais da equipe, do veículo e de serviços (antes e depois).
 - **Fotos:** logo (`/home/user/GruposSF/img/logo.jpg`), capa com o flyer do cliente e fotos reais de serviço. Nada de foto de banco no perfil.
 - **Depois de verificado:** pedir avaliação a cada cliente atendido (o CRM de chamados do painel já tem a mensagem na etapa "Serviço feito"; trocar o link pelo link de avaliação do perfil em `montar-sf.py`, campo `linkGoogle`).

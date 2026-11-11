@@ -8,7 +8,7 @@
 import sys
 d = sys.argv[1] if len(sys.argv) > 1 else '.'
 NAVY, BLUE, ROY, SKY, LAR, LAR2, BG = '#061a4a', '#0a2a6e', '#1d5fd0', '#3fa9ff', '#ff6a00', '#ff8a00', '#f4f8ff'
-ARROBA, ZAP = '@desentupidorasf_slz', '(98) 98915-3929'
+ARROBA, ZAP = '@desentupidorasf_slz', '(98) 92010-5710'
 GRAO = ("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'>"
         "<filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/>"
         "<feColorMatrix values='0 0 0 0 .5  0 0 0 0 .5  0 0 0 0 .5  0 0 0 .9 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>")
@@ -74,7 +74,7 @@ P.append(('p3', f"""
  <div class="kick" style="position:absolute;left:18px;bottom:18px;background:rgba(6,26,74,.88);color:#fff;font-size:16px;letter-spacing:.14em;padding:10px 16px;border-radius:999px">Foto real de um serviço da SF</div></div>
 <div class="a" style="left:64px;top:700px;width:520px;height:118px;border-radius:60px;background:linear-gradient(90deg,{LAR2},{LAR});display:flex;align-items:center;gap:20px;padding:0 30px 0 16px;box-shadow:0 30px 50px -24px rgba(0,0,0,.7)">
  <div style="width:88px;height:88px;border-radius:50%;background:#fff3e4;display:grid;place-items:center;font:900 italic 17px Montserrat;color:{LAR};text-transform:uppercase;letter-spacing:-.01em;line-height:1;text-align:center">Whats<br>App</div>
- <div class="T" style="font-size:44px;color:{NAVY};white-space:nowrap"><span style="font-size:28px">(98)</span> 98915-3929</div></div>
+ <div class="T" style="font-size:44px;color:{NAVY};white-space:nowrap"><span style="font-size:28px">(98)</span> 92010-5710</div></div>
 <div class="a kick" style="left:64px;top:870px;color:#fff;font-size:20px;line-height:1.7">Orçamento grátis<br><span style="color:{LAR2}">Sem quebra-quebra</span></div>
 {assina(True)}"""))
 
