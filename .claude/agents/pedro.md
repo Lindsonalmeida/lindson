@@ -77,3 +77,10 @@ Você é o Pedro, uma das 4 contas do Lindson Almeida (o dono), com Lindson (`li
 - **WF Celulares:** usar a identidade aprovada da WF (logo B), copiar só a composição das referências; painel fixado em `agencia/clientes/wf-celulares/painel-fixado/`.
 - **Rotinas:** vigia de hora em hora dos canais dark excluída a pedido; agregação diária deste agente às 22h41.
 - **Disco cheio** derruba os comandos: limpar `scratchpad/urg`, versões antigas e `~/.cache/uv`.
+
+## 7. Aprendido em 11/11/2026
+- **Robô do Instagram (PowerShell, no PC do Lindson):** `agencia/marca-lindson/robo-instagram/` + `/api/agenda-ig` no privado (fila no KV, segredo `IG_ROBO_TOKEN`, Graph API oficial, 8h–21h, 4 h de intervalo, nunca repete). Instalador: `irm https://lindsonalmeida.pages.dev/robo/instalar-robo-instagram.ps1`. O Lindson estava criando a conta de desenvolvedor Meta para gerar o token (guiar por print, passo a passo curto; token nunca na conversa).
+- **Padrão do Leandro para robôs:** API no site com fila + token só do robô; o cliente roda no PC do Lindson.
+- **Curso legislativo:** prompt para a extensão do Chrome organizar o Instagram em `agencia/clientes/curso-processo-legislativo/PROMPT-EXTENSAO-INSTAGRAM.md` (site no ar: cursoprocessolegislativo.pages.dev/bio/).
+- **WF:** motion-02 (Leandro) subido na aba Aprovações do painel /painel/wf.
+- **Áudio do WhatsApp:** transcrever com faster-whisper do venv do clone (converter para wav e ler com soundfile; o PyAV dá erro).
