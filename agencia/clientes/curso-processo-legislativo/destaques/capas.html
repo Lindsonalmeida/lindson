@@ -1,0 +1,18 @@
+<!doctype html><html><head><meta charset="utf-8">
+<!-- Capas de destaque do Curso de Processo Legislativo (conta Pedro, 12/11/2026). Identidade: verde #0A1F17, dourado #CFAF6E, creme #F2EBDD, Instrument Serif. Uso: capas.html?i=0..4 (1080x1920; o ícone fica no círculo central do Instagram). -->
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@700&display=swap" rel="stylesheet">
+<style>*{margin:0}body{width:1080px;height:1920px;overflow:hidden;background:radial-gradient(60% 40% at 50% 50%,#123528,#0A1F17 70%,#06140f);display:grid;place-items:center;font-family:'Instrument Serif',serif}
+.c{width:620px;height:620px;border-radius:50%;border:3px solid #CFAF6E;display:grid;place-items:center;position:relative;box-shadow:inset 0 0 0 18px #0A1F17,inset 0 0 0 20px rgba(207,175,110,.35)}
+svg{width:250px;height:250px;stroke:#F2EBDD;fill:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
+.t{position:absolute;bottom:-150px;width:100%;text-align:center;color:#CFAF6E;font:700 34px 'Inter Tight';letter-spacing:.35em}
+.s{position:absolute;top:-160px;width:100%;text-align:center;color:rgba(242,235,221,.5);font:italic 64px 'Instrument Serif'}
+</style></head><body><div class="c"><div class="s">§</div><div id="i"></div><div class="t" id="t"></div></div>
+<script>
+const I=[['O CURSO','<svg viewBox="0 0 100 100"><path d="M50 14 12 32l38 18 38-18z"/><path d="M26 39v22c0 8 11 14 24 14s24-6 24-14V39"/><path d="M88 32v24"/></svg>'],
+['GRADE','<svg viewBox="0 0 100 100"><rect x="22" y="12" width="56" height="76" rx="5"/><path d="M34 32h32M34 46h32M34 60h22M34 74h14"/></svg>'],
+['PROFESSORES','<svg viewBox="0 0 100 100"><circle cx="36" cy="34" r="12"/><circle cx="66" cy="34" r="12"/><path d="M14 80c0-14 10-24 22-24s22 10 22 24M50 62c4-4 9-6 16-6 12 0 20 10 20 24"/></svg>'],
+['INSCRIÇÃO','<svg viewBox="0 0 100 100"><path d="M64 14 84 34 40 78H20V58z"/><path d="M56 22l20 20"/><path d="M20 88h60"/></svg>'],
+['DÚVIDAS','<svg viewBox="0 0 100 100"><path d="M16 22h68v46H46L28 84V68H16z"/><path d="M42 36c0-5 4-8 8-8s8 3 8 7c0 6-8 6-8 12"/><circle cx="50" cy="56" r="1.5" fill="#F2EBDD"/></svg>']];
+const k=+new URLSearchParams(location.search).get('i')||0;document.getElementById('i').innerHTML=I[k][1];document.getElementById('t').textContent=I[k][0];
+document.fonts.ready.then(()=>window.pronto=1);
+</script></body></html>
