@@ -63,6 +63,10 @@ wa.on('ready', async () => {
   let aviso = '';
   for (;;) {
     let r; try { etapa = ''; r = await umEnvio(); erros = 0; } catch (e) {
+      const msg = String((e && (e.message || e)) || e);
+      if (/detached Frame|Execution context was destroyed|Target closed|Session closed|Protocol error/i.test(msg)) {
+        console.log(hora(), 'A página do WhatsApp recarregou. Reiniciando o robô sozinho (volta em 1 min)...');
+        try { await wa.destroy(); } catch (x) {} process.exit(2); }
       erros++; console.log(hora(), `Erro ao ${etapa || 'buscar a lista'}: ${(e && (e.message || e)) || e}`, erros >= 3 ? '→ pausa de 1 hora.' : '→ tento de novo em 3 min.'); r = 'erro'; }
     const msg = { fora: 'Fora do horário. Aguardando…', limite: 'Limite do dia atingido. Volto amanhã às ' + HORA_INI + 'h.', vazio: 'Lista do SDR vazia. Confiro de novo a cada hora.', semwa: '3 números sem WhatsApp seguidos. Pausa de 1 dia (confira a lista).' }[r];
     if (msg && msg !== aviso) { console.log(hora(), msg); aviso = msg; } else if (!msg) aviso = '';
