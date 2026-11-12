@@ -1,6 +1,6 @@
 # Brand book premium · pesquisa e template (conta Pedro, 12/11/2026)
 
-Pedido do Lindson (12/11): "crie o branding book de todos, um por cliente, template premium completo" (5 rebrandings: Real Time, WF Celulares, Curso de Processo Legislativo, Leo Pinto, Lindson Almeida).
+Pedido do Lindson (12/11): "crie o branding book de todos, um por cliente, template premium completo" (5 rebrandings: Real Time, WF Celulares, Curso de Processo Legislativo, Leo Pinto, Lindson Almeida) + Orégano Turbo, Dublê e Pagode Fiado (pedidos seguintes, mesmo dia).
 
 ## Persona (quem lê o brand book)
 1. Dono do negócio ou do mandato, 30 a 55 anos, São Luís e interior do MA.
@@ -30,7 +30,7 @@ Capturas: não salvas nesta rodada (sessão sem navegador; sites que bloqueiam r
 
 ## Template
 - `gerar.py` (dados de cada cliente dentro do arquivo) → HTML 1920x1080 por página → PDF via Playwright + prévias e folha de contato.
-- `python3 gerar.py <cliente|todos>`; clientes: realtime, wf, curso, leo, lindson.
+- `python3 gerar.py <cliente|todos>`; clientes: realtime, wf, curso, leo, lindson, oregano, duble, pagode. Logo do Pagode Fiado: `pagode-fiado/logo.svg` (Caveat Brush + Permanent Marker; títulos em Shrikhand, texto Work Sans).
 - Saída (privado, fora do GitHub público): `CentralLindsonALmeida/dados/clientes-arquivos/<cliente>/brand-book/` e `dados/agencia/marca-lindson/brand-book/`.
 - Seções: capa, índice, essência, persona, rebranding antes x depois, logo, versões, proteção e tamanho mínimo, usos incorretos, paleta, tipografia, elementos (Leo: página "sem grafismos"), fotografia, tom de voz, aplicações (2 páginas), contracapa.
 - Cada livro usa as cores e letras do próprio cliente (nunca o visual de outro).
