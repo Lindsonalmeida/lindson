@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+<!-- Pagode Fiado · logo (conta Pedro, 12/11/2026). Fontes: Caveat Brush ("Pagode") e Permanent Marker ("FIADO"), Google Fonts. Para gráfica, converter texto em curvas. -->
+<style>@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&amp;family=Permanent+Marker&amp;display=swap');</style>
+<defs><clipPath id="c"><circle cx="300" cy="300" r="270"/></clipPath>
+<linearGradient id="beer" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F2B705"/><stop offset="1" stop-color="#C9860A"/></linearGradient></defs>
+<rect width="600" height="600" fill="#F2B705"/>
+<circle cx="306" cy="308" r="270" fill="#111" opacity=".18"/>
+<circle cx="300" cy="300" r="270" fill="#F3E9D2"/>
+<g clip-path="url(#c)" stroke="#9DB8D9" stroke-width="2.5" opacity=".75">
+<line x1="0" y1="120" x2="600" y2="120"/><line x1="0" y1="168" x2="600" y2="168"/><line x1="0" y1="216" x2="600" y2="216"/><line x1="0" y1="264" x2="600" y2="264"/><line x1="0" y1="312" x2="600" y2="312"/><line x1="0" y1="360" x2="600" y2="360"/><line x1="0" y1="408" x2="600" y2="408"/><line x1="0" y1="456" x2="600" y2="456"/><line x1="0" y1="504" x2="600" y2="504"/>
+<line x1="112" y1="0" x2="112" y2="600" stroke="#C0392B" opacity=".6"/></g>
+<text x="300" y="250" text-anchor="middle" font-family="Caveat Brush, cursive" font-size="150" fill="#C0392B" transform="rotate(-6 300 250)">Pagode</text>
+<g transform="translate(0 0)">
+<text x="96" y="400" font-family="Permanent Marker, sans-serif" font-size="128" fill="#111">FIAD</text>
+<!-- O = copo americano visto de lado -->
+<g transform="translate(418 296)">
+<path d="M0 6 L74 6 L66 108 L8 108 Z" fill="url(#beer)" stroke="#111" stroke-width="7" stroke-linejoin="round"/>
+<path d="M-2 4 Q10 -14 24 0 Q37 -16 50 -2 Q62 -14 76 4 Z" fill="#FFF8E7" stroke="#111" stroke-width="6" stroke-linejoin="round"/>
+<path d="M14 18 L18 96 M30 18 L31 98 M45 18 L44 98 M60 18 L56 96" stroke="#111" stroke-width="3" opacity=".55"/>
+<path d="M4 34 L70 34" stroke="#111" stroke-width="4"/></g>
+<path d="M98 432 C210 418 360 448 500 424" fill="none" stroke="#111" stroke-width="9" stroke-linecap="round"/>
+<path d="M150 452 C250 444 360 460 450 446" fill="none" stroke="#111" stroke-width="5" stroke-linecap="round"/></g>
+</svg>
