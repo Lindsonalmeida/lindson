@@ -62,6 +62,9 @@ wa.on('ready', async () => {
   console.log(hora(), 'WhatsApp conectado. Robô ligado: envia sozinho de seg a sex, das ' + HORA_INI + 'h às ' + HORA_FIM + 'h, até ' + POR_DIA + ' por dia.');
   let aviso = '';
   for (;;) {
+    // sinal de vida para a Central (aba SDR mostra ligado/desligado) e botão Pausar/Ligar de lá
+    let pausado = false; try { pausado = !!(await api({ acao: 'robo', estado: aviso || 'Trabalhando', enviados: lerConta() })).pausado; } catch (e) {}
+    if (pausado) { if (aviso !== 'Pausado pela Central.') { aviso = 'Pausado pela Central.'; console.log(hora(), aviso); } await espera(2 * MINUTO); continue; }
     let r; try { etapa = ''; r = await umEnvio(); erros = 0; } catch (e) {
       const msg = String((e && (e.message || e)) || e);
       if (/detached Frame|Execution context was destroyed|Target closed|Session closed|Protocol error/i.test(msg)) {
