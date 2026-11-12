@@ -80,7 +80,7 @@ Origem das três fotos: reel do Instagram do sócio, captura enviada pelo Lindso
 
 | Capa | Comunicador | Quadro e legenda que justificam | Recorte |
 |---|---|---|---|
-| `capas-v17/capa-v17-1.png` ("Pode votar sem quórum?") | Tiago Azevedo (barba, terno azul-marinho) | Reel 17, quadro 2: "O que é procedimento abreviado ou conclusivo?" (votação sem plenário) | `tiago-azevedo-capa1-reel17-t2` (222x360 nativo) |
+| `capas-v17/capa-v17-1.png` ("Pode votar sem quórum?") | Thiago Azevedo (barba, terno azul-marinho) | Reel 17, quadro 2: "O que é procedimento abreviado ou conclusivo?" (votação sem plenário) | `tiago-azevedo-capa1-reel17-t2` (222x360 nativo) |
 | `capas-v17/capa-v17-2.png` ("Quórum é o mínimo...") | Rafael Araújo Veras (terno cinza, sem barba) | Reel 16, quadro 3: "O que é questão de ordem?" (sem pergunta sobre quórum nos prints) | `rafael-araujo-veras-capa2-reel16-t3` (210x285 nativo) |
 | `capas-v17/capa-v17-3.png` ("Quem pode propor?") | Rafael Araújo Veras (terno cinza, sem barba) | Reel 16, quadro 1: "Vereador pode aumentar despesa por emenda?" (quem pode propor) | `rafael-araujo-veras-capa3-reel16-t1` (204x300 nativo) |
 

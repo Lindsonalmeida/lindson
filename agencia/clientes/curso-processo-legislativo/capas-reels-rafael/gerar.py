@@ -4,7 +4,7 @@
 import json
 V,O,CR,CA='#123528','#C8A96B','#F3EEE3','#0B2219'
 P={'rafael':dict(f='rafael-recorte.png',w=797,fx=477.5,fy=74,fw=343,nome='Prof. Rafael Araújo Veras'),
-   'tiago':dict(f='tiago-recorte.png',w=1098,fx=535.5,fy=97,fw=411,nome='Prof. Tiago Azevedo')}
+   'tiago':dict(f='tiago-recorte.png',w=1098,fx=535.5,fy=97,fw=411,nome='Prof. Thiago Azevedo')}
 FACE=360
 def foto(p,cx,top):
   d=P[p];s=FACE/d['fw'];w=d['w']*s

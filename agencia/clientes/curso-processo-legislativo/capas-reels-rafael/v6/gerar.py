@@ -23,7 +23,7 @@ def rosto(path):
 def cut(f,face,cx,top,extra=''):
   (w,h),(x,y,fw,fh)=rosto(f);s=face/fw
   return f'<img class="pes" src="{f}" style="width:{w*s:.0f}px;left:{cx-(x+fw/2)*s:.0f}px;top:{top-y*s:.0f}px;{extra}">'
-NOME={'rafael':'Prof. Rafael Araújo Veras','tiago':'Prof. Tiago Azevedo'}
+NOME={'rafael':'Prof. Rafael Araújo Veras','tiago':'Prof. Thiago Azevedo'}
 def selo(i,x,y,w,rot,txt='PROCESSO LEGISLATIVO ✦ REGIMENTO EM 1 MINUTO ✦',mid='§',cls=''):
   return f'<svg class="selo {cls}" style="left:{x}px;top:{y}px;width:{w}px;transform:rotate({rot}deg)" viewBox="0 0 200 200"><defs><path id="cc{i}{x}" d="M100,100 m-76,0 a76,76 0 1,1 152,0 a76,76 0 1,1 -152,0"/></defs><circle cx="100" cy="100" r="96"/><circle cx="100" cy="100" r="58"/><text><textPath href="#cc{i}{x}">{txt}</textPath></text><text x="100" y="124" text-anchor="middle" class="sg">{mid}</text></svg>'
 def H(t,h,cls='',st=''): return f'<h1 class="ha {cls}" style="{st}">{t.replace(h,f"<em>{h}</em>")}</h1>'

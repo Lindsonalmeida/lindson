@@ -19,7 +19,7 @@ Este curso tem **outro perfil e outra identidade**. Não usa nada do Tribuna 98.
 
 ## Foto de perfil com os dois instrutores: **bloqueada**
 - O cartaz do curso e as fotos dos instrutores **não estão no repositório**. Sem as fotos reais, não há como montar a foto de perfil com eles. Ilustração no lugar de foto real não é permitida.
-- Nomes que aparecem no cartaz, com a grafia a confirmar: **Tiago Azevedo** (também sócio do Tribuna 98) e **Rafael Araújo Veras** (credenciais OAB/MA no post de 19/03).
+- Nomes que aparecem no cartaz, com a grafia a confirmar: **Thiago Azevedo** (também sócio do Tribuna 98) e **Rafael Araújo Veras** (credenciais OAB/MA no post de 19/03).
 - Para liberar: o Lindson manda **uma foto por mensagem** de cada instrutor (nome legal confirmado). Nada de foto dos sócios sem o que foi decidido na memória (07/11: sem autorização escrita).
 
 ## Pendências

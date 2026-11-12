@@ -467,3 +467,4 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 
 - **12/11/2026 (conta Pedro):** Robô SDR roda no WhatsApp Business PRINCIPAL do Lindson (decisão dele: "sim, só seguir as regras de envio"). Manter os limites: 20/dia, 4–9 min, seg–sex 9h–18h, para após 3 sem WhatsApp. Ícone "Robô SDR" (sem PowerShell), liga com o Windows; status e Pausar/Ligar na aba SDR da Central.
 - **12/11/2026 (conta Pedro):** Curso legislativo publicado com a nova identidade (destaques, painel fixado de 3 posts, capa do livro 201/67). Lindson mandou o antes e depois: aprovado. Regra nova: nos painéis com os 2 professores, fotos equivalentes (mesmo estilo e tamanho de rosto), nunca destacar um mais que o outro.
+- **12/11/2026 (conta Pedro):** o professor do curso legislativo é **Thiago** Azevedo (com H), confirmado pelo Lindson. Corrigido no site, bio, painel, painel fixado e geradores das capas.

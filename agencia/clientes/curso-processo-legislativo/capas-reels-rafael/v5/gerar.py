@@ -14,7 +14,7 @@ FACE,TOP=330,470   # mesmo patamar: rosto 330 px, topo da cabeca na mesma linha 
 def cut(f,cx=540):
   (w,h),(x,y,fw,fh)=rosto(f);s=FACE/fw
   return f'<img class="pes" src="{f}" style="width:{w*s:.0f}px;left:{cx-(x+fw/2)*s:.0f}px;top:{TOP-y*s:.0f}px">'
-NOME={'rafael':'Prof. Rafael Araújo Veras','tiago':'Prof. Tiago Azevedo'}
+NOME={'rafael':'Prof. Rafael Araújo Veras','tiago':'Prof. Thiago Azevedo'}
 def hemi():  # cena desenhada: bancadas do plenario em arco (sem foto de banco)
   return '<div class="hemi"></div>'
 def capa(i,p,f,t,h,back,tema,cena,claro):
