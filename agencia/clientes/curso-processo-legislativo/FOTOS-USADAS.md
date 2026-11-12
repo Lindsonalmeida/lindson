@@ -110,3 +110,4 @@ As imagens de banco da v2 (Pexels) saíram e voltam a ficar livres.
 | tiago mw6rwhdqij2dph | Capa 08 urgência (recorte) |
 Livres: Rafael 3, Tiago 10.
 | v5 (10/11): Pexels 7054510, 34066105, 32266781, 36207471, 35013248, 7224866 voltam como cena desfocada (uma por capa: 01, 02, 03, 05, 07, 08) | Capas v5 | 10/11 | Zuleide |
+| rafael mw6s8sku5p5kmp + tiago mw6rwic8dfis6z | Capa do Reels lançamento do livro Decreto-Lei 201/67 (privado capas-reels/livro-201) | 12/11 | Pedro |
