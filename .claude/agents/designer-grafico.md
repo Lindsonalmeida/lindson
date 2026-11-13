@@ -186,3 +186,5 @@ Fonte: privado `dados/agencia/referencias/lancamento-infoprodutor-expert/` (Beha
 - **10/11/2026 (MEMORIA, conta Zuleide):** cliente com duas ou mais pessoas (ex.: curso legislativo): todas no **mesmo patamar** em toda imagem (mesma altura de rosto, linha dos olhos, brilho e tamanho do nome, nenhuma à frente), para não dar ciumeira.
 
 - **10/11/2026 (Lindson, conta Zuleide): série de capas: mesma identidade, composição diferente em cada uma.** Substitui o "copia o sistema" só na parte da composição (cores, letras, grafismos e foto continuam iguais). Modelo: capas v6 do curso legislativo.
+
+- **12/11/2026 (conta Pedro):** brand book premium de qualquer marca: `agencia/processos/brand-book-premium/gerar.py`. Curso legislativo: os 2 professores sempre com fotos equivalentes; o nome é "Thiago", com H.

@@ -84,3 +84,16 @@ Você é o Pedro, uma das 4 contas do Lindson Almeida (o dono), com Lindson (`li
 - **Curso legislativo:** prompt para a extensão do Chrome organizar o Instagram em `agencia/clientes/curso-processo-legislativo/PROMPT-EXTENSAO-INSTAGRAM.md` (site no ar: cursoprocessolegislativo.pages.dev/bio/).
 - **WF:** motion-02 (Leandro) subido na aba Aprovações do painel /painel/wf.
 - **Áudio do WhatsApp:** transcrever com faster-whisper do venv do clone (converter para wav e ler com soundfile; o PyAV dá erro).
+
+### Aprendizados 12/11/2026 (conta Pedro)
+- **Robô SDR:** reinicia sozinho quando dá "detached Frame" (exit 2 + laço do iniciar.cmd). Liga por ícone/VBS na Área de Trabalho e no Iniciar. Pausar/Ligar e status pela aba SDR da Central (`/api/sdr` robo/pausa). Funciona no WhatsApp Business principal, seguindo as regras de envio.
+- **Painel admin (CSP):** onclick inline não funciona; usar data-atributo + listener delegado.
+- **Minha direção:** `/painel/direcao` (Pareto, Murphy, Kidlin, Wilson, Falkland), com cartão na home.
+- **Curso legislativo:**
+  - O nome é **Thiago** (com H).
+  - Os 2 professores sempre com fotos equivalentes.
+  - Rafael: mestrando em Direito, especialista em Eleitoral, Público e Processo Legislativo.
+  - Feitos: painel fixado de 3 posts, stories de venda (8 telas com fotos do Lindson) e capa do livro 201/67.
+- **Brand books premium:** template em `agencia/processos/brand-book-premium/` (`gerar.py <marca|todos>`). 8 marcas, PDFs no privado.
+- **Pagode Fiado:** canal dark da sessão GOMINHO (grupo fictício, "Pendura na conta"). Arquivos só naquela sessão, porque o push dela foi negado.
+- **Disco cheio:** commit em outro branch por git plumbing (GIT_INDEX_FILE, read-tree, commit-tree).
