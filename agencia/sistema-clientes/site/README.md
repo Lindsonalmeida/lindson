@@ -125,3 +125,5 @@ Use `npx wrangler@3 pages dev publico --kv CONTAS` com um `.dev.vars` (fora do G
 - Ainda não há recuperação de senha por e-mail: quem esquece pede ao admin, que apaga a conta para a pessoa criar de novo.
 - Demandas e agenda do Leo: no claude.ai usam o db do artifact; no site, o servidor da Central (`prototipo/kvdb.js`, chaves `dados:leo:dem` e `dados:leo:ag`). São dois bancos separados.
 - A foto do Lindson na tela de acesso só entra se `fotos/principal-*.webp` estiver na máquina que monta o site. Para gerar, use `prototipo/tratar-foto.py` com a foto original (fora do Git). O site montado em 01/11 já tem a foto embutida.
+
+**Atenção (13/11/2026, conta Pedro):** o `painel/admin.html` no ar tem partes que não estão nesta fonte: a aba SDR com o card do robô (Pausar/Ligar) e "Minha direção" (`/painel/direcao`). Antes de remontar o admin com o `montar-site.py`, leve essas partes do privado para `admin-sistema.js`, senão elas somem. No admin, a variável do robô se chama `ROBO`: `R` já é usada pela rede social, e repetir esse nome trava o painel inteiro.
