@@ -7,11 +7,11 @@
 <meta name="description" content="Anúncio, Instagram e WhatsApp trabalhando para a sua pizzaria vender mais, com o número na mesa toda segunda. Marketing de vendas só para pizzarias, em São Luís (MA).">
 <meta property="og:title" content="Orégano Turbo · Mais pedidos. Menos achismo.">
 <meta property="og:description" content="Marketing de vendas só para pizzarias: anúncio, Instagram, WhatsApp e relatório toda segunda.">
-<meta property="og:image" content="img/og.jpg">
+<meta property="og:image" content="https://oreganoturbo.pages.dev/img/og.jpg">
 <meta name="theme-color" content="#141311">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%231E5B3B'/%3E%3Cpath d='M18 86 C 14 50, 40 18, 86 14 C 86 58, 58 88, 18 86 Z' fill='%23F3EEE6'/%3E%3Cpath d='M26 76 L44 58 L54 66 L72 40 M60 38 L74 38 L74 52' fill='none' stroke='%231E5B3B' stroke-width='7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600;700;800&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Bagel+Fat+One&family=Inter+Tight:wght@600;700;800&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <!-- Site principal da Orégano Turbo (conta Leandro, 06/11/2026). Builder Squad (frontend) + Design Squad. Identidade v3 aprovada.
      Composição copiada de (site/TEMPLATE.md):
      1. Owner.com (EUA): título central grande e celular com dado real do restaurante subindo do fim da dobra; cartões de prova.
@@ -280,12 +280,38 @@ footer a{display:block;margin:6px 0}footer a:hover{color:var(--creme)}
 .zapfixo{position:fixed;right:18px;bottom:18px;z-index:60;width:58px;height:58px;border-radius:50%;background:#25D366;display:grid;place-items:center;box-shadow:0 14px 30px -8px rgba(0,0,0,.6);transition:transform .2s}
 .zapfixo:hover{transform:scale(1.07)}
 .zapfixo svg{width:30px;height:30px;fill:#fff}
+
+/* ===== v3 kit social (Paollo, APROVADO 06/11 "esse é o padrão") aplicado ao site · conta Pedro 13/11 ===== */
+:root{--brasa:#C8302B;--tomate:#C8302B;--acafrao:#F2B33D;--verde-cl:#F2B33D;--bagel:'Bagel Fat One','Anton',system-ui,sans-serif}
+html,body{overflow-x:clip}
+h1,h2{font-family:var(--bagel);font-weight:400;letter-spacing:-.01em;line-height:.92;text-transform:uppercase}
+h2{font-size:clamp(36px,5.6vw,76px)}
+.hero h1{font-size:clamp(46px,9vw,128px);color:var(--creme);text-shadow:0 6px 0 rgba(20,19,17,.55)}
+.hero{background:var(--tomate)}
+.hero .foto{background:linear-gradient(180deg,rgba(200,48,43,.86),rgba(200,48,43,.94) 60%,var(--tomate) 92%),url(img/pa-no-forno.jpg) 40% 30%/cover;opacity:1}
+.hero .circ{color:var(--acafrao)}.hero .circ path{stroke:#F3EEE6}
+.hero .sub{color:#FBE9DF}.hero.grade::before{display:none}
+.hero .voa{position:absolute;right:-90px;top:110px;width:min(46vw,520px);transform:rotate(14deg);filter:drop-shadow(-18px 22px 0 rgba(20,19,17,.28));pointer-events:none;animation:flut 6s ease-in-out infinite}
+@keyframes flut{50%{transform:rotate(9deg) translateY(-14px)}}
+.hero .voa{z-index:0}.hero .w>*:not(.voa){position:relative;z-index:2}
+@media(min-width:701px){.hero .voa{right:-260px;top:300px;width:500px}}
+@media(max-width:700px){.hero .voa{width:210px;right:-90px;top:560px}}
+.btn.b{background:var(--acafrao);color:#141311;box-shadow:0 5px 0 #141311}
+.btn.b:hover{box-shadow:0 8px 0 #141311}
+.hero .btn.l{color:#fff;box-shadow:inset 0 0 0 2px rgba(255,255,255,.6)}
+.selo{background:#141311;color:var(--acafrao);box-shadow:none}
+.faixa{background:var(--acafrao);border:0;transform:rotate(-1.6deg);margin:-14px -10px 0;position:relative;z-index:3;box-shadow:0 0 0 0}
+.trilho{font:400 22px 'Anton',sans-serif;letter-spacing:.04em;color:#141311}
+.trilho span::before{content:"✦";color:var(--tomate)}
+.xadrez{height:26px;background:repeating-conic-gradient(var(--tomate) 0 25%,var(--creme) 0 50%) 0 0/26px 26px}
+.etq{color:var(--acafrao)}.claro .etq{color:var(--tomate)}
+.chave{max-width:100%;flex-wrap:wrap}.chave button{padding:11px 14px}
 </style>
 </head>
 <body>
 
 <header class="nav" id="nav"><div class="w">
-  <a class="logo" href="#topo" aria-label="Orégano Turbo, início"><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M18 86 C 14 50, 40 18, 86 14 C 86 58, 58 88, 18 86 Z" fill="#7CC596"/><path d="M26 76 L44 58 L54 66 L72 40 M60 38 L74 38 L74 52" fill="none" stroke="#141311" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg>Orégano Turbo</a>
+  <a class="logo" href="#topo" aria-label="Orégano Turbo, início"><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M18 86 C 14 50, 40 18, 86 14 C 86 58, 58 88, 18 86 Z" fill="#F2B33D"/><path d="M26 76 L44 58 L54 66 L72 40 M60 38 L74 38 L74 52" fill="none" stroke="#141311" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg>Orégano Turbo</a>
   <nav class="menu"><a href="#metodo">Método</a><a href="#relatorio">Relatório</a><a href="#portfolio">Portfólio</a><a href="#planos">Planos</a><a href="#duvidas">Dúvidas</a></nav>
   <a class="btn b" href="#diagnostico"><span class="lg">Quero meu </span>diagnóstico</a>
 </div></header>
@@ -299,6 +325,7 @@ footer a{display:block;margin:6px 0}footer a:hover{color:var(--creme)}
     <h1 class="rv">Mais <span class="circ">pedidos.<svg viewBox="0 0 200 80" preserveAspectRatio="none" aria-hidden="true"><path d="M30 14 C 90 0, 190 6, 194 38 C 198 70, 80 80, 20 66 C -10 56, 6 22, 60 10" fill="none" stroke="#E4572E" stroke-width="3.5" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg></span><br>Menos achismo.</h1>
     <p class="sub rv">Anúncio, Instagram e WhatsApp trabalhando para a sua pizzaria vender mais, com o número na mesa toda segunda.</p>
     <div class="acoes rv"><a class="btn b" href="#diagnostico">Quero meu diagnóstico →</a><a class="btn l" href="#metodo">Ver como funciona</a></div>
+    <img class="voa" src="img/pizza-voando.webp" alt="" aria-hidden="true" width="520" height="520">
     <div class="palco rv">
       <div class="chip a"><span class="etq">Pedidos do anúncio · semana</span><div class="n" data-conta="128">0</div><small>ilustrativo</small><div class="bar" id="barA"><span></span><span></span><span></span><span></span><span></span><span></span><span class="v"></span></div></div>
       <div class="chip b"><span class="etq c">Para cada R$ 1 no anúncio</span><div class="n" data-conta="4.1" data-dec="1" data-suf="×">0</div><small>voltou em pedido · ilustrativo</small></div>
@@ -310,7 +337,7 @@ footer a{display:block;margin:6px 0}footer a:hover{color:var(--creme)}
   </div>
 </section>
 
-<div class="faixa" aria-hidden="true"><div class="trilho" id="trilho"><span>Pedido direto no WhatsApp</span><span>Código em cada anúncio</span><span>Relatório toda segunda</span><span>Gravação na sua pizzaria</span><span>Cardápio digital</span><span>Instagram que vende</span><span>Feito só para pizzaria</span></div></div>
+<div class="xadrez" aria-hidden="true"></div><div class="faixa" aria-hidden="true"><div class="trilho" id="trilho"><span>Pedido direto no WhatsApp</span><span>Código em cada anúncio</span><span>Relatório toda segunda</span><span>Gravação na sua pizzaria</span><span>Cardápio digital</span><span>Instagram que vende</span><span>Feito só para pizzaria</span></div></div>
 
 <!-- DOR -->
 <section class="dor claro">
@@ -357,7 +384,7 @@ footer a{display:block;margin:6px 0}footer a:hover{color:var(--creme)}
       </div>
     </div>
     <div class="painel rv" id="painel">
-      <div class="cab"><b><svg viewBox="0 0 100 100"><path d="M18 86 C 14 50, 40 18, 86 14 C 86 58, 58 88, 18 86 Z" fill="#7CC596"/><path d="M26 76 L44 58 L54 66 L72 40 M60 38 L74 38 L74 52" fill="none" stroke="#1c1b18" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg>Relatório de segunda</b><span class="etq c">Semana 27/10 – 02/11</span></div>
+      <div class="cab"><b><svg viewBox="0 0 100 100"><path d="M18 86 C 14 50, 40 18, 86 14 C 86 58, 58 88, 18 86 Z" fill="#F2B33D"/><path d="M26 76 L44 58 L54 66 L72 40 M60 38 L74 38 L74 52" fill="none" stroke="#1c1b18" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg>Relatório de segunda</b><span class="etq c">Semana 27/10 – 02/11</span></div>
       <div class="kpis">
         <div class="kpi"><small>Investido</small><div data-conta="900" data-pre="R$ ">0</div></div>
         <div class="kpi v"><small>Pedidos</small><div data-conta="128">0</div></div>
@@ -571,7 +598,7 @@ footer a{display:block;margin:6px 0}footer a:hover{color:var(--creme)}
 
 <footer><div class="w">
   <div class="gr">
-    <div><a class="logo" href="#topo" style="margin:0 0 14px"><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M18 86 C 14 50, 40 18, 86 14 C 86 58, 58 88, 18 86 Z" fill="#7CC596"/><path d="M26 76 L44 58 L54 66 L72 40 M60 38 L74 38 L74 52" fill="none" stroke="#141311" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg>Orégano Turbo</a>Marketing de vendas só para pizzarias. São Luís (MA).</div>
+    <div><a class="logo" href="#topo" style="margin:0 0 14px"><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M18 86 C 14 50, 40 18, 86 14 C 86 58, 58 88, 18 86 Z" fill="#F2B33D"/><path d="M26 76 L44 58 L54 66 L72 40 M60 38 L74 38 L74 52" fill="none" stroke="#141311" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg>Orégano Turbo</a>Marketing de vendas só para pizzarias. São Luís (MA).</div>
     <div><b>Navegue</b><a href="#metodo">Método</a><a href="#relatorio">Relatório</a><a href="#planos">Planos</a><a href="#diagnostico">Diagnóstico</a></div>
     <div><b>Fale com a gente</b><a href="https://www.instagram.com/oreganoturbo/" target="_blank" rel="noopener">Instagram @oreganoturbo</a><a href="#diagnostico">WhatsApp</a></div>
   </div>

@@ -26,3 +26,8 @@
 - Por último: domínio próprio (oreganoturbo.com.br), Search Console e sitemap.
 
 **Para mudar preço:** no `<script>`, o objeto `P`. Para mudar o WhatsApp: a constante `WA`.
+
+## Revisão v2 + bio (conta Pedro, 13/11/2026)
+- Site revisado para a identidade do kit v3/v4 (tomate, açafrão, Bagel Fat One, xadrez, pizza voando).
+- Bio em `bio/` (TEMPLATE.md com referências). Prévia: https://lindsonalmeida.pages.dev/oreganoturbo/ e /oreganoturbo/bio/.
+- Endereço final: https://oreganoturbo.pages.dev (falta o repositório `Lindsonalmeida/oreganoturbo` e a Cloudflare Pages).
