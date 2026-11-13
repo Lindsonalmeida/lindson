@@ -57,3 +57,5 @@ Fotos novas (IMG_30xx, 36 fotos que o Lindson subiu no painel em 04/11) no priva
 | `fotos/jaci-off-white-tablet.jpg` (2º uso no mês) | prova social v2, story 2 (avaliação) | 07/11/2026 | Leandro |
 | `fotos/jaci-preto-mao-no-cabelo.jpg` (2º uso no mês) | Black Friday, story 1 (capa) e anúncios BF26 · `black-friday/` | 10/11/2026 | Pedro |
 | `fotos/jaci-preto-sorriso-aberto.jpg` (2º uso no mês) | Black Friday, story 8 (WhatsApp) e anúncios BF26 · `black-friday/` | 10/11/2026 | Pedro |
+
+- 13/11/2026 (Zuleide) · Meta Ads v2 (privado jaci-criativos-v2): v3-cons1, v3-t-harm, v3-dra-recorte, v3-t-odonto, v3-beleza, v3-cons3, v3-j1, v3-bio, v3-cons4, jaci-off-white-sofa-sorrindo
