@@ -381,7 +381,7 @@ if (!C) V.calendario = () => `<div class="card"><h3>Calendário</h3><p class="su
 // vários meses (D.calendarios): um mês por vez, com botões para trocar (conta Lindson, 03/11/2026)
 let mesCal = 0;
 if (C) V.calendario = () => {
-  const LC = D.calendarios || [C], C = LC[Math.min(mesCal, LC.length - 1)];
+  const LC = D.calendarios || [D.calendario], C = LC[Math.min(mesCal, LC.length - 1)];
   setTimeout(() => document.querySelectorAll('[data-mescal]').forEach(b => b.onclick = () => { mesCal = +b.dataset.mescal; window.__render && window.__render(); }), 0);
   const abas = LC.length > 1 ? `<div class="subabas" style="margin-bottom:14px">${LC.map((x, i) => `<button data-mescal="${i}" class="${i === mesCal ? 'on' : ''}">${esc(x.mes)}</button>`).join('')}</div>` : '';
   const ini = (new Date(C.ano, C.m - 1, 1).getDay() + 6) % 7, nd = new Date(C.ano, C.m, 0).getDate();
