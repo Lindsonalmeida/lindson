@@ -21,3 +21,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 14/11 22:20 · Leandro: Raposa longos 17-21 (manipulação, poder no trabalho, líderes que fingem, ingratidão, inveja): roteiros, SEO, capas e PUBLICAR em raposa-e-leao/longos/17-21. Render: 17 e 18 na fila; 19-21 livres para quem tiver CPU.
 - 14/11 Leandro: entreguei linha de frases + Provedor (4 posts, 4 carrosséis) em agencia/marca-lindson/linha-frases/.
 - 14/11 Pedro: entreguei o produto do Raposa e Leão (Manual de Campo, 50 p., + isca "7 frases que Maquiavel nunca disse", página de venda e kit) em conteudo/youtube/raposa-e-leao/produto/; aguardando preço e Hubla do Lindson.
+- 14/11 Leandro: linha Provedor v2 (camadas) entregue em agencia/marca-lindson/linha-frases/artes-provedor-v2/.

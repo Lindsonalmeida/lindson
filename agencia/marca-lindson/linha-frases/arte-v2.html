@@ -1,0 +1,112 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<!-- Linha Provedor v2 · camadas (conta Leandro, 14/11/2026). v1 reprovada: "não quero fundos lisos… imagens mais impactantes, com camadas e elementos".
+     Sistema: fundo cinematográfico (Wikimedia Commons, fontes em TEMPLATE.md) + Lindson recortado (BiRefNet) com rim light âmbar +
+     palavra gigante atrás + faixas, grade, selo, números, luz vazando e grão. Composição KV do expert (pesquisa lancamento-infoprodutor-expert)
+     e keyart.html das artes v2 (simetria, imagem de banco dentro da identidade). -->
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@500;700;800&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{--p:#0A0A0A;--g:#1B1B1B;--t:#F5F3EE;--ap:#B5B0A6;--am:#F5C518}
+*{box-sizing:border-box;margin:0;padding:0}html,body{background:#000;overflow:hidden;font-family:Manrope}
+.a{position:relative;width:1080px;height:1350px;overflow:hidden;background:var(--p);color:var(--t)}
+.abs{position:absolute}.bg{position:absolute;inset:0;background-size:cover;background-position:center;filter:grayscale(.7) contrast(1.2) brightness(.5) sepia(.35)}
+.marca{font:800 30px Manrope;letter-spacing:-.02em}.marca i{display:inline-block;width:12px;height:12px;border-radius:50%;background:var(--am);margin-left:4px}
+.mono{font-family:'JetBrains Mono';font-weight:500;letter-spacing:.12em}
+.ant{font-family:Anton;text-transform:uppercase;line-height:.88}
+.h{font:800 70px/1.02 Manrope;letter-spacing:-.045em;text-wrap:balance}
+.am{color:var(--am)}.cx{background:var(--am);color:var(--p);padding:0 .12em;display:inline-block;line-height:1.02}
+.grade{position:absolute;inset:0;background-image:linear-gradient(rgba(245,197,24,.09) 1px,transparent 1px),linear-gradient(90deg,rgba(245,197,24,.09) 1px,transparent 1px);background-size:90px 90px;-webkit-mask-image:radial-gradient(70% 60% at 50% 45%,#000,transparent);mask-image:radial-gradient(70% 60% at 50% 45%,#000,transparent)}
+.grao{position:absolute;inset:0;pointer-events:none;opacity:.2;mix-blend-mode:overlay;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.vin{position:absolute;inset:0;background:radial-gradient(90% 75% at 50% 40%,transparent 40%,rgba(0,0,0,.85))}
+.pes{position:absolute;filter:brightness(.92) contrast(1.08) drop-shadow(-3px -2px 0 rgba(255,200,60,.55)) drop-shadow(0 0 26px rgba(245,170,24,.45)) drop-shadow(0 40px 50px rgba(0,0,0,.7))}
+.esp{transform:scaleX(-1)}
+.fx{position:absolute;left:-100px;width:1400px;height:74px;background:var(--am);color:var(--p);display:flex;align-items:center;white-space:nowrap;overflow:hidden;font:400 40px Anton;letter-spacing:.06em;box-shadow:0 20px 50px rgba(0,0,0,.5)}
+.fxp{background:#0A0A0A;color:var(--am);border-top:2px solid var(--am);border-bottom:2px solid var(--am)}
+.selo{position:absolute;width:210px;height:210px}
+.vidro{background:rgba(15,15,15,.55);border:1px solid rgba(245,197,24,.35);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px)}
+.pag{position:absolute;right:70px;bottom:50px;font:500 21px 'JetBrains Mono';letter-spacing:.12em}
+</style></head><body><div id="x"></div><script>
+const F='fotos/',R='fotos/rec/',q=new URLSearchParams(location.search).get('a');
+const topo=(r,esc)=>`<div class="abs" style="left:70px;right:70px;top:60px;display:flex;justify-content:space-between;align-items:center;z-index:9;color:${esc?'#0A0A0A':'#F5F3EE'}"><span class="marca">lindson almeida<i ${esc?'style="background:#0A0A0A"':''}></i></span><span class="mono" style="font-size:20px;padding:8px 16px;border:1px solid ${esc?'#0A0A0A':'rgba(245,197,24,.6)'};border-radius:99px;color:${esc?'#0A0A0A':'#F5C518'}">${r}</span></div>`;
+const bg=(f,pos='50% 50%',ex='')=>`<div class="bg" style="background-image:url(${F}${f});background-position:${pos};${ex}"></div>`;
+const luz=(x,y,r=420,o=.55)=>`<div class="abs" style="left:${x-r}px;top:${y-r}px;width:${2*r}px;height:${2*r}px;border-radius:50%;background:radial-gradient(closest-side,rgba(245,170,24,${o}),transparent);mix-blend-mode:screen"></div>`;
+const leak=()=>`<div class="abs" style="right:-200px;top:-150px;width:700px;height:900px;background:radial-gradient(closest-side,rgba(255,140,30,.45),transparent);transform:rotate(25deg);mix-blend-mode:screen"></div>`;
+const pes=(f,x,b,w,esp)=>`<img class="pes ${esp?'esp':''}" src="${R}${f}" style="left:${x}px;bottom:${b}px;width:${w}px">`;
+const fx=(t,top,rot,p)=>`<div class="fx ${p?'fxp':''}" style="top:${top}px;transform:rotate(${rot}deg)">${(t+' ✦ ').repeat(12)}</div>`;
+const selo=(t,x,y)=>`<svg class="selo" style="left:${x}px;top:${y}px" viewBox="0 0 200 200"><defs><path id="c" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/></defs><circle cx="100" cy="100" r="96" fill="#0A0A0A" stroke="#F5C518" stroke-width="2"/><text font-family="JetBrains Mono" font-size="15" letter-spacing="4" fill="#F5C518"><textPath href="#c">${t} · ${t} · </textPath></text><text x="100" y="118" text-anchor="middle" font-family="Anton" font-size="54" fill="#F5C518">✦</text></svg>`;
+const pg=(n)=>`<div class="pag">${n} / 06</div>`;
+const fim=`<div class="grao"></div>`;
+// A · KV: fundo + palavra gigante atrás + pessoa central + manchete + faixa + selo
+const kv=o=>`<div class="a">${bg(o.bg,o.bp)}<div class="vin"></div><div class="grade"></div>${luz(540,620,520,.5)}${leak()}
+<div class="abs ant" style="left:0;right:0;top:${o.gt||150}px;text-align:center;font-size:${o.gs||300}px;color:var(--am);opacity:.92;letter-spacing:-.01em">${o.g}</div>
+${pes(o.f,o.x||90,o.b||-260,o.w||900,o.esp)}
+<div class="abs" style="left:0;right:0;bottom:0;height:560px;background:linear-gradient(0deg,#0A0A0A 30%,transparent)"></div>
+${topo(o.rot)}${o.selo?selo(o.selo,820,250):''}
+<div class="abs" style="left:70px;right:70px;bottom:${o.np?230:150}px"><div class="ant" style="font-size:${o.fs||118}px;line-height:.92">${o.h}</div></div>
+${o.np?`<div class="abs" style="left:70px;right:70px;bottom:90px;font:700 29px/1.3 Manrope"><span class="cx" style="font:700 20px 'JetBrains Mono';padding:5px 10px;margin-right:10px">NA PRÁTICA</span>${o.np}</div>`:''}
+${o.fx?fx(o.fx,o.fxt||1250,-3):''}${o.pg||''}${fim}</div>`;
+// B · LATERAL: pessoa grande à esquerda, fundo à direita, cartão de vidro com a frase
+const lat=o=>`<div class="a">${bg(o.bg,o.bp)}<div class="abs" style="inset:0;background:linear-gradient(90deg,#0A0A0A 25%,rgba(10,10,10,.3) 70%,rgba(10,10,10,.7))"></div><div class="grade"></div>${luz(260,700,480,.5)}
+<div class="abs ant" style="left:-20px;top:120px;font-size:${o.gs||260}px;color:transparent;-webkit-text-stroke:2px rgba(245,197,24,.55);writing-mode:vertical-rl;transform:rotate(180deg);height:1300px">${o.g}</div>
+${pes(o.f,o.x||-170,o.b||-300,o.w||860,o.esp)}${topo(o.rot)}
+<div class="abs vidro" style="left:500px;right:60px;top:${o.ct||300}px;padding:46px 44px"><div style="font:400 120px/.6 'Instrument Serif'" class="am">“</div><div class="h" style="font-size:${o.fs||64}px;margin-top:16px">${o.h}</div><div class="abs" style="left:44px;bottom:-26px"><span class="cx mono" style="font-size:19px;padding:8px 14px">${o.au}</span></div></div>
+<div class="abs" style="left:500px;right:60px;top:${(o.ct||300)+(o.ch||560)}px;font:700 28px/1.35 Manrope;color:var(--t)"><span class="am mono" style="font-size:19px;display:block;margin-bottom:10px">NA PRÁTICA</span>${o.np}</div>
+${fx(o.fx||'PAPO RETO',1230,0,1)}${o.pg||''}${fim}</div>`;
+// C · OBJETO: imagem de objeto em tela cheia (relógio, xadrez, leão, contrato), número gigante, citação e selo de fonte
+const obj=o=>`<div class="a">${bg(o.bg,o.bp,'filter:grayscale(.4) contrast(1.25) brightness(.55) sepia(.45)')}<div class="abs" style="inset:0;background:linear-gradient(180deg,rgba(10,10,10,.9) 0,rgba(10,10,10,.2) 35%,rgba(10,10,10,.5) 55%,#0A0A0A 85%)"></div>${luz(o.lx||800,o.ly||420,380,.4)}
+<div class="abs ant" style="right:40px;top:130px;font-size:360px;color:transparent;-webkit-text-stroke:3px #F5C518">${o.n}</div>${topo(o.rot)}
+<div class="abs" style="left:70px;right:70px;bottom:${o.bt||250}px"><div class="mono am" style="font-size:22px;margin-bottom:22px">— ${o.au}</div><div style="font:italic 400 ${o.fs||78}px/1.04 'Instrument Serif'">“${o.q}”</div></div>
+<div class="abs" style="left:70px;right:70px;bottom:90px;display:flex;gap:24px;align-items:center"><div style="width:90px;height:4px;background:var(--am)"></div><div style="font:800 32px/1.25 Manrope">${o.h}</div></div>
+<div class="abs mono" style="left:70px;top:150px;font-size:16px;color:var(--ap)">FONTE · ${o.src}</div>${o.pg||''}${fim}</div>`;
+// D · PAINEL: imagem em cima com moldura amarela deslocada, painel amarelo embaixo com a lição
+const pan=o=>`<div class="a" style="background:#141414">${topo(o.rot)}<div class="abs" style="left:96px;top:176px;width:888px;height:600px;border:3px solid var(--am)"></div>
+<div class="abs" style="left:70px;top:150px;width:888px;height:600px;overflow:hidden">${bg(o.bg,o.bp)}<div class="grade" style="-webkit-mask-image:none;mask-image:none"></div><div class="abs ant" style="left:30px;bottom:10px;font-size:220px;color:var(--am)">${o.n}</div></div>
+<div class="abs" style="left:0;right:0;top:820px;bottom:0;background:var(--am);color:#0A0A0A;padding:60px 70px"><div class="h" style="font-size:${o.fs||64}px">${o.h}</div><p style="font:700 29px/1.4 Manrope;margin-top:24px">${o.t}</p>${o.au?`<div class="mono" style="font-size:18px;margin-top:20px">${o.au}</div>`:''}</div>
+${selo(o.selo||'PROVEDOR',830,700)}${o.pg||''}${fim}</div>`;
+// E · AJUDO: fundo de aperto de mão escurecido, 3 cartões de vidro numerados
+const aj=o=>`<div class="a">${bg('b6.jpg','50% 40%')}<div class="abs" style="inset:0;background:linear-gradient(180deg,rgba(10,10,10,.92),rgba(10,10,10,.6) 50%,#0A0A0A)"></div><div class="grade"></div>${leak()}${topo('COMO EU TE AJUDO')}
+<div class="abs" style="left:70px;right:70px;top:170px"><div class="h" style="font-size:84px">Provedor precisa de negócio <span class="cx">organizado</span>.</div></div>
+<div class="abs" style="left:70px;right:70px;top:540px;display:grid;gap:22px">${[['01','Organizar','Oferta clara, perfil arrumado, atendimento com roteiro.'],['02','Atrair cliente','Conteúdo toda semana e WhatsApp pronto para fechar.'],['03','Escalar','Medir o que vende e fazer mais do que funciona.']].map((x,i)=>`<div class="vidro" style="display:grid;grid-template-columns:130px 1fr;align-items:center;padding:26px 30px;margin-left:${i*50}px"><span class="ant am" style="font-size:96px">${x[0]}</span><div><b style="font-size:46px;letter-spacing:-.03em">${x[1]}</b><p style="font:500 26px/1.4 Manrope;color:var(--ap);margin-top:6px">${x[2]}</p></div></div>`).join('')}</div>
+<div class="abs mono" style="left:70px;bottom:50px;font-size:18px;color:var(--ap)">SEM PROMESSA DE RESULTADO. COM MÉTODO.</div>${o.pg||''}${fim}</div>`;
+// F · CTA: amarelo com textura, palavra gigante atrás, pessoa recortada, faixa preta "COMENTA PROVEDOR"
+const cta=o=>`<div class="a" style="background:radial-gradient(75% 55% at 60% 35%,#FFDB4D 0,#F5C518 55%,#D89F06 100%);color:#0A0A0A">
+<div class="abs" style="inset:0;background:repeating-linear-gradient(115deg,rgba(255,255,255,.06) 0 2px,transparent 2px 9px)"></div>
+<div class="abs ant" style="left:0;right:0;top:120px;text-align:center;font-size:250px;color:rgba(10,10,10,.14)">ESCALAR</div>
+${pes(o.f,o.x||380,o.b||-330,o.w||820,o.esp)}${topo('@LINDSONALMEIDA_',1)}
+<div class="abs" style="left:70px;top:430px;width:520px"><div class="h" style="font-size:70px">Quer organizar e escalar o seu negócio?</div></div>
+${fx('COMENTA PROVEDOR',1010,-4,1)}<div class="abs mono" style="left:70px;bottom:110px;font-size:24px;background:#0A0A0A;color:#F5C518;padding:12px 18px;z-index:3">OU ME CHAMA NO DIRECT →</div>${o.pg||''}${fim}</div>`;
+// G · TIPO GIGANTE COM FAIXAS CRUZADAS sobre fundo de cidade
+const tape=o=>`<div class="a">${bg(o.bg,o.bp)}<div class="vin"></div>${luz(540,700,500,.45)}${topo(o.rot)}
+<div class="abs" style="left:70px;right:70px;top:200px"><div class="ant" style="font-size:${o.fs||150}px">${o.h}</div></div>
+${fx(o.f1,760,-6)}${fx(o.f2,880,4,1)}
+<div class="abs" style="left:70px;right:70px;top:1020px;font:700 32px/1.4 Manrope">${o.t}</div>${o.pg||''}${fim}</div>`;
+const S={
+p1:kv({bg:'b7.jpg',bp:'50% 60%',f:'c10.png',rot:'PAPO RETO',g:'FRACO',gs:340,h:'Homem fraco<br>não tem <span class="am">valor</span>.',np:'Dono que foge da decisão deixa família e equipe sem rumo.',selo:'DECISÃO'}),
+p2:lat({bg:'b3.jpg',bp:'60% 50%',f:'c11.png',rot:'DINHEIRO',g:'VALOR',h:'Homem sem <span class="cx">dinheiro</span> não tem valor.',au:'LINDSON ALMEIDA',np:'Negócio desorganizado não sustenta ninguém. Caixa sem controle é família sem segurança.',ch:470}),
+p3:kv({bg:'b4.jpg',bp:'50% 40%',f:'c13.png',rot:'PROVER',g:'PROVER',gs:270,fs:96,h:'Mulher ama o que o homem pode <span class="am">proporcionar</span>.',np:'Proporcionar começa no negócio: caixa organizado, cliente chegando, palavra cumprida.',x:120,w:840}),
+p4:tape({bg:'b1.jpg',bp:'50% 30%',rot:'MANIFESTO',h:'SEJA<br><span class="am">PROVEDOR.</span>',fs:230,f1:'DISCIPLINA · PALAVRA · LEGADO',f2:'ORGANIZAR E ESCALAR',t:'Provedor não é quem fala alto. É quem acorda cedo, cumpre a palavra e constrói um negócio que se sustenta. <span class="am">Comenta PROVEDOR.</span>'}),
+};
+const C={
+c1:[kv({bg:'b4.jpg',f:'c16.png',rot:'ARRASTE →',g:'PROVEDOR',gs:205,gt:170,fs:140,h:'Seja<br><span class="am">provedor</span>.',selo:'01 · 06',x:110,w:860}),
+ tape({bg:'b6.jpg',bp:'50% 40%',rot:'O PROBLEMA',fs:120,h:'Quem depende de você <span class="am">não come promessa</span>.',f1:'FAMÍLIA · EQUIPE · CLIENTE',f2:'PALAVRA CUMPRIDA',t:'Negócio que vive do improviso falha justo com quem conta com você.',pg:pg('02')}),
+ obj({bg:'b2.jpg',bp:'50% 50%',rot:'DISCIPLINA',n:'03',au:'SÊNECA',q:'Grande parte da vida escapa a quem faz mal; a maior parte, a quem nada faz.',src:'CARTAS A LUCÍLIO, CARTA 1, 1',h:'Esperar o momento certo é o jeito mais caro de não fazer.',pg:pg('03')}),
+ pan({bg:'b7.jpg',bp:'50% 55%',rot:'SISTEMA',n:'04',h:'“Você cai ao nível dos seus sistemas.”',t:'Provedor não vive de motivação. Vive de rotina: horário, processo, número.',au:'JAMES CLEAR · HÁBITOS ATÔMICOS (2018), CAP. 1',pg:pg('04')}),
+ aj({pg:pg('05')}),cta({f:'c07.png',pg:pg('06')})],
+c2:[lat({bg:'b3.jpg',f:'c14.png',rot:'ARRASTE →',g:'DINHEIRO',gs:220,h:'Homem sem dinheiro <span class="cx">não tem valor</span>.',au:'01 / 06',np:'Mas valor não é o que está no bolso. É o que você constrói. Arraste.',ch:470,fx:'VALOR · CAIXA · TEMPO'}),
+ obj({bg:'b2.jpg',bp:'40% 50%',rot:'VALOR',n:'02',au:'WARREN BUFFETT',q:'Preço é o que você paga. Valor é o que você leva.',src:'CARTA AOS ACIONISTAS DA BERKSHIRE, 2008',h:'Quem só fala de preço ensina o cliente a só olhar preço.',pg:pg('02')}),
+ pan({bg:'b4.jpg',rot:'COMPORTAMENTO',n:'03',fs:54,h:'“Ir bem com dinheiro tem pouco a ver com inteligência e muito com comportamento.”',t:'Faturar bem e sumir com o dinheiro todo mês não é falta de cliente. É falta de controle.',au:'MORGAN HOUSEL · A PSICOLOGIA FINANCEIRA (2020)',pg:pg('03')}),
+ tape({bg:'b3.jpg',bp:'30% 50%',rot:'TEMPO',fs:130,h:'“Tempo é <span class="am">dinheiro</span>.”',f1:'BENJAMIN FRANKLIN · 1748',f2:'COBRE O SEU TEMPO',t:'Cada hora respondendo “quanto custa?” no direct é dinheiro que você não cobrou.',pg:pg('04')}),
+ aj({pg:pg('05')}),cta({f:'c08.png',pg:pg('06')})],
+c3:[kv({bg:'b1.jpg',bp:'50% 25%',f:'c09.png',rot:'ARRASTE →',g:'FRACO',gs:340,fs:120,h:'Homem fraco<br><span class="am">não tem valor</span>.',np:'Fraco não é quem perde. É quem não decide.',selo:'01 · 06'}),
+ pan({bg:'b5.jpg',rot:'O DIA',n:'02',fs:52,h:'“De manhã, quando custar a levantar: estou acordando para o trabalho de um homem.”',t:'Ninguém vai abrir sua loja por você. Nem postar.',au:'MARCO AURÉLIO · MEDITAÇÕES, V, 1',pg:pg('02')}),
+ obj({bg:'b7.jpg',bp:'50% 50%',rot:'CULPA',n:'03',au:'MAQUIAVEL',q:'Não acusem a fortuna, mas a própria inércia.',src:'O PRÍNCIPE, CAP. XXIV (ED. INGLESE)',h:'A culpa não é do algoritmo nem da crise. É do post que você não fez.',pg:pg('03')}),
+ tape({bg:'b4.jpg',rot:'FICAR',fs:96,h:'“Os fracos morreram pelo caminho. <span class="am">Sobramos nós.</span>”',f1:'PHIL KNIGHT · A MARCA DA VITÓRIA',f2:'AGORA CONSTRÓI',t:'Se você ainda está de portas abertas, já passou por quem desistiu.',pg:pg('04')}),
+ aj({pg:pg('05')}),cta({f:'c12.png',pg:pg('06')})],
+c4:[kv({bg:'b2.jpg',bp:'50% 50%',f:'c16.png',esp:1,rot:'ARRASTE →',g:'PROVER',gs:300,fs:96,h:'Mulher ama o que o homem pode <span class="am">proporcionar</span>.',selo:'01 · 06',x:100,w:880}),
+ tape({bg:'b4.jpg',bp:'70% 50%',rot:'RESPONSABILIDADE',fs:118,h:'Proporcionar é <span class="am">responsabilidade</span>.',f1:'SEGURANÇA · TEMPO · PALAVRA',f2:'NÃO É DISCURSO',t:'Tudo isso sai de um negócio que funciona.',pg:pg('02')}),
+ obj({bg:'b3.jpg',rot:'REALIDADE',n:'03',fs:64,au:'RAY DALIO',q:'Uma compreensão precisa da realidade é a base essencial de qualquer bom resultado.',src:'PRINCÍPIOS (2017), PARTE 2',h:'Você sabe quantos clientes vieram do Instagram este mês?',pg:pg('03')}),
+ pan({bg:'b7.jpg',bp:'50% 40%',rot:'INVERTER',n:'04',h:'“Inverta, sempre inverta.”',t:'Pergunte o que faria seu negócio quebrar. Depois pare de fazer isso.',au:'CHARLIE MUNGER · HARVARD, 1995',pg:pg('04')}),
+ aj({pg:pg('05')}),cta({f:'c10.png',esp:1,pg:pg('06')})]};
+for(const k in C)C[k].forEach((h,i)=>S[k+'_'+(i+1)]=h);
+document.getElementById('x').innerHTML=S[q]||'';
+Promise.all([document.fonts.ready,...[...document.images].map(i=>i.complete?1:new Promise(r=>{i.onload=i.onerror=r}))]).then(()=>setTimeout(()=>window.pronto=true,800));
+</script></body></html>
