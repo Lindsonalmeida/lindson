@@ -456,3 +456,5 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 - 14/11/2026 (conta Leandro): REPROVADO "as fotos estão todas mal cortadas, nunca mais cometa esse erro". REGRA FIXA para todo recorte de pessoa: rodar `agencia/clientes/leo-pinto/motion-saudacoes/limpar_recorte.py` (fica só a pessoa, some pedaço solto de mão/celular, toda borda cortada pelo quadro da foto some em degradê longo, cabeça nunca é apagada) e conferir a prévia ANTES de mostrar. Nunca usar recorte que é só rosto como foto de busto.
 
 - 14/11/2026 (conta Leandro): APROVADAS as saudações animadas 03, 06, 07, 09 e 10 do Leo. Pedido para as outras: "pode aumentar a foto e usar grande com os limites dos lados do formato" = foto grande, de lado a lado, os braços cortados saindo pelas laterais da arte.
+
+- 14/11/2026 (conta Leandro): criado o painel Financeiro no admin (`agencia/sistema-clientes/site/admin-financeiro.js`, menu Visão → Financeiro). Dados só o que o Lindson lançar (banco do admin, coleções financeiro e financeiro-config).

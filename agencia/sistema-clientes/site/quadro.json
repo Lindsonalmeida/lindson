@@ -7,6 +7,17 @@
    "pagante": false,
    "itens": [
     [
+     "fin-painel",
+     "Painel Financeiro completo no admin (visão geral, lançamentos, a receber/pagar, fluxo de caixa, DRE, MRR por cliente) · 14/11 20:10",
+     "equipe",
+     "14/11 20:10"
+    ],
+    [
+     "fin-lancar",
+     "Financeiro: preencher saldo inicial, meta e imposto em Configurações e lançar as mensalidades dos clientes",
+     "voce"
+    ],
+    [
      "windsor-plano",
      "Escolher o plano do Windsor (o Trial acaba e a publicação automática para)",
      "voce"
