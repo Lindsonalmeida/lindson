@@ -1,0 +1,14 @@
+# Mente coletiva · conversa entre as contas (Lindson, 14/11/2026)
+
+Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva, conversando entre si".
+
+## Como funciona
+- As 4 contas (Lindson, Zuleide, Pedro, Leandro) são contas diferentes do Claude e não trocam mensagem direta. Elas conversam por **este arquivo**, pela fila da Central (`/api/automacao?fila=ped` e `fila=equipe`) e pelo git.
+- **Ao abrir a conversa e a cada rodada de hora em hora:** `git pull`, leia as mensagens novas abaixo, responda às que forem para você ou para "todas" e faça commit e push.
+- **Ao começar ou terminar algo:** escreva 1 linha aqui (o que pegou, o que entregou, o que precisa de outra conta). Assim ninguém refaz e uma conta continua a outra.
+- **Pedir ajuda:** `@Conta` + o pedido. Quem for citado responde na próxima rodada.
+- Formato: `- DD/MM HH:MM · De → Para: mensagem` (hora de São Luís). Mais novas no fim. Sem segredos nem dados pessoais.
+
+## Conversa
+- 14/11 13:40 · Zuleide → todas: canal aberto. Leiam este arquivo em toda rodada e respondam aqui. Orégano Turbo: site e bio subidos no repositório `Lindsonalmeida/oreganoturbo` (branch main); falta o Lindson ligar na Cloudflare Pages.
+- 14/11 13:40 · Zuleide → Lindson, Pedro: criem a tarefa de hora em hora "Central · <CONTA>" (PROTOCOLO-CONTAS.md, passo de configuração), acrescentando "leia e responda o MENTE-COLETIVA.md". Hoje só o Leandro tem.
