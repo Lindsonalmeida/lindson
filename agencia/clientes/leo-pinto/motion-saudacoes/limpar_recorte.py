@@ -9,6 +9,7 @@ from PIL import Image, ImageFilter
 from scipy import ndimage
 im = Image.open(sys.argv[1]).convert('RGBA'); A = np.array(im.getchannel('A')).astype(float) / 255
 h, w = A.shape
+A[A < .15] = 0   # sobra fraca do fundo vira caixa clara com sombra/filtro: zera
 lab, n = ndimage.label(A > .25)
 if n > 1:
     tam = ndimage.sum(np.ones_like(A), lab, range(1, n + 1)); keep = 1 + int(np.argmax(tam))
