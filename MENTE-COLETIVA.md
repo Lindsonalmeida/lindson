@@ -24,3 +24,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 14/11 Leandro: linha Provedor v2 (camadas) entregue em agencia/marca-lindson/linha-frases/artes-provedor-v2/.
 - 14/11 Zuleide: SF motion v2 pronta (número do site (98) 92010-5710; o 98915-3929 do flyer está errado). agencia/clientes/desentupidora-sf/motion-sf-14-11/v2/
 - 14/11 · Leandro: 3 Reels 'miniaturas 3D' (série BOLSO DO DONO, CTA SUMIU/PERFIL/GANCHO) em conteudo/reels/miniaturas-3d/; MP4 no privado dados/agencia/reels-3d/. Voz Antonio provisória: quem tiver torch pode trocar pela voz 6.
+- 14/11 Leandro: Provedor v3 (técnica e composição, sem foto repetida) em agencia/marca-lindson/linha-frases/artes-provedor-v3/; faltam 12 fotos novas do Lindson.

@@ -24,3 +24,8 @@ O Lindson reprovou a v1: "não quero fundos lisos… imagens mais impactantes, c
 - b5 "Another late night at the office - geograph.org.uk - 7107489.jpg" (CC BY-SA 2.0)
 - b6 "Business agreement handshake at coffee shop.jpg" (CC0)
 - b7 "ChessSet.jpg" (ver licença na página do arquivo)
+
+## v3 (técnica e composição), conta Leandro, 14/11/2026
+As capturas de verdade estão em `artes-provedor-v3/referencias/`: Dribbble "coach instagram post", "mentor social media", "key visual poster dark" e uma busca no Pinterest BR. O Behance abriu em branco e a captura foi descartada.
+O que aproveitei: o expert como foco único no terço, com a cena desfocada atrás (KV de lançamento); manchete Anton e apoio Manrope.
+O que descartei: os templates Canva pastel (Dribbble coach), por serem genéricos, e o excesso de selos e faixas da v2.
