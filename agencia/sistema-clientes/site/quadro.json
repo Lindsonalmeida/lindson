@@ -1,5 +1,5 @@
 {
- "atualizado": "08/11/2026",
+ "atualizado": "14/11/2026",
  "grupos": [
   {
    "id": "geral",
@@ -123,6 +123,17 @@
    "nome": "Vereador Leo Pinto",
    "pagante": true,
    "itens": [
+    [
+     "leo-saudacoes-motion",
+     "10 saudações animadas para Stories (motion, foto em alta) · feito pela equipe 14/11 13:37",
+     "equipe",
+     "14/11 13:37"
+    ],
+    [
+     "leo-saudacoes-motion-aprovar",
+     "Aprovar as 10 saudações animadas e postar uma por dia",
+     "voce"
+    ],
     [
      "leo-mecinho",
      "Aprovar o aniversário do prefeito Mecinho (feed e story)",
