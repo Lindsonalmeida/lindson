@@ -189,3 +189,8 @@ Fonte: privado `dados/agencia/referencias/lancamento-infoprodutor-expert/` (Beha
 
 - **12/11/2026 (conta Pedro):** brand book premium de qualquer marca: `agencia/processos/brand-book-premium/gerar.py`. Curso legislativo: os 2 professores sempre com fotos equivalentes; o nome é "Thiago", com H.
 - **Ler TUDO do cliente antes de qualquer peça (bronca do Lindson, 14/11/2026, MEMORIA):** pasta do cliente, painel, privado dados/<cli>.json e clientes-arquivos, repo do site no ar, API de fotos e criativos anteriores. Número/WhatsApp sempre o do site no ar. Fotos em que a persona se reconheça (cena real brasileira); gerar com IA onde o banco não tiver. (Motions SF v1 reprovados por número errado e fotos genéricas.)
+
+## Fotos do Lindson (regra de 14/11)
+- Nunca repita foto. Espelhar ou mudar a cor de uma foto já usada também conta como repetição.
+- Enquadre sempre do busto para cima, com a imagem em destaque na peça.
+- Confira o `agencia/marca-lindson/FOTOS-USADAS.md`. Se acabarem as fotos, peça novas.
