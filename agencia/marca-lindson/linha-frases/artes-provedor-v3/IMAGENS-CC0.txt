@@ -1,0 +1,28 @@
+p1|Roaring lion (Unsplash).jpg
+p2|Business agreement handshake at coffee shop.jpg
+p3|City office lights (Unsplash).jpg
+p4|King Of The Jungle (Unsplash).jpg
+c1_1|Born to fly (Unsplash).jpg
+c1_2|Businessman on a staircase (Unsplash).jpg
+c1_3|Wolf on snow (Unsplash).jpg
+c1_4|Lone office worker (Unsplash).jpg
+c1_5|Conference room table (Unsplash).jpg
+c1_6|Bird of Prey (Unsplash).jpg
+c2_1|Dark horse (Unsplash).jpg
+c2_2|Businessman checking the time (Unsplash).jpg
+c2_3|Warm light in office building (Unsplash).jpg
+c2_4|Businessman with a smartwatch (Unsplash).jpg
+c2_5|Businessman leaving the office (Unsplash).jpg
+c2_6|Black horse on branches (Unsplash).jpg
+c3_1|Hear me roar (Unsplash).jpg
+c3_2|Businessman on stairs (Unsplash).jpg
+c3_3|Monochrome bubbles and shark (Unsplash).jpg
+c3_4|Wolf unsplash.jpg
+c3_5|Businessman working and writing notes in office (Unsplash).jpg
+c3_6|Bengal tiger looking at the camera.jpg
+c4_1|Long-maned lion (Unsplash).jpg
+c4_2|Businessman walks from above (Unsplash).jpg
+c4_3|L'oeil de l'aigle (Unsplash).jpg
+c4_4|Vintage chess pieces (Unsplash).jpg
+c4_5|Dark staircase with sun-lit doors (Unsplash).jpg
+c4_6|Portrait of an Ape (Unsplash).jpg

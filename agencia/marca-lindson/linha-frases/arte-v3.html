@@ -83,6 +83,6 @@ c4:[hero({f:'b9.jpg',pos:'50% 50%',rot:'ARRASTE →',g:'PROVER',gs:300,fs:96,h:'
  pan({f:'b7.jpg',pos:'50% 40%',rot:'INVERTER',n:'04',h:'“Inverta, sempre inverta.”',t:'Pergunte o que faria seu negócio quebrar. Depois pare de fazer isso.',au:'Charlie Munger · Harvard, 1995',pg:pg('04')}),
  aj({pg:pg('05')}),cta({f:'b1.jpg',pos:'50% 30%',pg:pg('06')})]};
 for(const k in C)C[k].forEach((h,i)=>S[k+'_'+(i+1)]=h);
-document.getElementById('x').innerHTML=S[q]||'';
+document.getElementById('x').innerHTML=(S[q]||'').replace(/fotos\/b\d+\.jpg/g,'fotos/v3l/'+q+'.jpg'); // v3 liderança+animais: 1 imagem CC0 por peça (fotos/v3l/lista.txt)
 document.fonts.ready.then(()=>setTimeout(()=>window.pronto=true,900));
 </script></body></html>

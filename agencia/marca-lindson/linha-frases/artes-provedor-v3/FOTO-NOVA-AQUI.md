@@ -2,7 +2,7 @@
 Não sobrou nenhuma foto inédita do Lindson. Procurei em `conteudo/fotos/` (todas já usadas: fazenda, trator, pneu, cerca, caminhonete, estúdio), em `CentralLindsonALmeida/membros/img` e `site/img`, em `bio/`, nas landings (hero/sobre são c-series já usadas), em `conteudo/reels/leva-30s/fotos` (recortes das mesmas) e em `dados/agencia/marca-lindson` (só brand book).
 **Faltam 12 fotos novas**, do busto para cima, terno escuro, luz lateral âmbar, fundo escuro, olhando para a câmera, com espaço acima da cabeça:
 
-| Peça | Lugar da foto | Hoje está com |
+| Peça | Lugar da foto | Hoje está com (ver LEGENDAS.md) |
 |---|---|---|
 | p1 | foco central, 60% | xadrez |
 | p3 | foco central | cidade à noite |

@@ -52,13 +52,38 @@ Ray Dalio (*Princípios*): entender a realidade é a base de qualquer bom result
 Quer organizar e escalar o seu negócio? Comenta PROVEDOR ou me chama no direct.
 #gestao #donodenegocio #raydalio #saoluis
 
-## Créditos das imagens de fundo (pôr no fim da legenda da peça que usa)
-- Leão: "Lion (close-up face)", Wikimedia Commons, CC BY 2.0 (p4, c3_1, c4_6)
-- Contrato: "Legal Contract & Signature - Warm Tones", Wikimedia Commons, CC BY 2.0 (p2, c2_1, c4_3)
-- Relógio: "Self-winding wristwatch (transparent backside)", Wikimedia Commons, CC BY-SA 4.0 (c1_3, c2_2)
-- Cidade: "Québec city at night, view from Lévis city", Wikimedia Commons, CC BY-SA 4.0 (p3, c2_3, c4_2)
-- Escritório: "Another late night at the office", geograph.org.uk via Wikimedia Commons, CC BY-SA 2.0 (c3_2)
-- Xadrez: "ChessSet.jpg", foto de Alan Light, Wikimedia Commons, **CC BY-SA 3.0** (licença conferida em 14/11) (p1, c3_3, c4_4)
-- Aperto de mão: "Business agreement handshake at coffee shop", Wikimedia Commons, CC0 (telas "Como eu te ajudo")
-- Corredor, anel de luz e estúdio: imagens geradas por IA dos kits do Lindson (pôr "imagem gerada por IA")
-Atenção: CC BY-SA pede que a arte derivada também seja compartilhada na mesma licença. Se não quiser isso, troque esses fundos por CC0.
+## Créditos das imagens (v3 liderança + animais, 14/11/2026, conta Leandro)
+Todas são CC0 ou domínio público, via Wikimedia Commons; as "(Unsplash)" são fotos da Unsplash importadas lá. Uma imagem por peça, sem repetir. O crédito é opcional, mas recomendado: "Foto: Unsplash/Wikimedia Commons (CC0)".
+
+| Peça | Arquivo no Commons |
+|---|---|
+| p1 | Roaring lion (Unsplash).jpg |
+| p2 | Business agreement handshake at coffee shop.jpg |
+| p3 | City office lights (Unsplash).jpg |
+| p4 | King Of The Jungle (Unsplash).jpg |
+| c1_1 | Born to fly (Unsplash).jpg |
+| c1_2 | Businessman on a staircase (Unsplash).jpg |
+| c1_3 | Wolf on snow (Unsplash).jpg |
+| c1_4 | Lone office worker (Unsplash).jpg |
+| c1_5 | Conference room table (Unsplash).jpg |
+| c1_6 | Bird of Prey (Unsplash).jpg |
+| c2_1 | Dark horse (Unsplash).jpg |
+| c2_2 | Businessman checking the time (Unsplash).jpg |
+| c2_3 | Warm light in office building (Unsplash).jpg |
+| c2_4 | Businessman with a smartwatch (Unsplash).jpg |
+| c2_5 | Businessman leaving the office (Unsplash).jpg |
+| c2_6 | Black horse on branches (Unsplash).jpg |
+| c3_1 | Hear me roar (Unsplash).jpg |
+| c3_2 | Businessman on stairs (Unsplash).jpg |
+| c3_3 | Monochrome bubbles and shark (Unsplash).jpg |
+| c3_4 | Wolf unsplash.jpg |
+| c3_5 | Businessman working and writing notes in office (Unsplash).jpg |
+| c3_6 | Bengal tiger looking at the camera.jpg |
+| c4_1 | Long-maned lion (Unsplash).jpg |
+| c4_2 | Businessman walks from above (Unsplash).jpg |
+| c4_3 | L'oeil de l'aigle (Unsplash).jpg |
+| c4_4 | Vintage chess pieces (Unsplash).jpg |
+| c4_5 | Dark staircase with sun-lit doors (Unsplash).jpg |
+| c4_6 | Portrait of an Ape (Unsplash).jpg |
+
+O xadrez CC BY-SA da versão anterior saiu. Animais em cerca de metade das peças (leão = força/liderança, lobo = disciplina, águia = visão, cavalo = trabalho, tubarão = sem inércia, tigre = coragem, gorila = responsabilidade).
