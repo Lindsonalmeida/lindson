@@ -95,3 +95,8 @@ Vertical 9:16 realistic video, clean restaurant kitchen, morning light, staff ar
 
 ## Gerados (14/11/2026, conta Lindson)
 A API do Gemini desta conta não tem Veo; as 20 cenas foram geradas no **HeyGen Video 1** (9:16, 1080p, 8 s, ~7 créditos cada; IDs em `heygen-ids.txt`). Montagem com ffmpeg: gancho na tela (0–3 s), flash branco + whoosh nos cortes, cartão final com logo, "Orçamento grátis", WhatsApp e @ (36,6–40 s), -14 LUFS. Arquivos `sf-video-1..4.mp4` ficam fora do Git (pesados), nesta pasta da sessão e no HeyGen.
+
+## Versão 2 (14/11/2026, conta Lindson) · pedido: "melhore narração, pronúncia e idioma, logo da SF em tudo, português Brasil"
+- Fala antiga tirada com demucs (fica só o som da cena); narração nova em pt-BR nas vozes do HeyGen (Murilo = técnico, Lucilene = cliente/dona, Afonso = narrador, Thaís = cozinheira). "SF" falado como "Esse Efe". Textos em `falas-v2.tsv`.
+- Sincronia labial (HeyGen lipsync, precisão) nas 10 cenas com alguém falando na câmera.
+- Logo da SF no canto em todas as cenas, legendas em português, gancho e cartão final. Montagem: `montar-v2.py`. Arquivos `sf-video-N-v2.mp4` (fora do Git).
