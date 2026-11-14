@@ -19,15 +19,15 @@ const TEMA = {
 };
 // foto: w = largura em px no palco, x = esquerda; a base da foto sai pela base da arte e as laterais cortadas ficam fora do palco.
 const S = [
-  { id: '01-boa-semana',   tema: 'royal',   tipo: 'pilha', rot: 'SEGUNDA-FEIRA', l1: 'BOA', l2: 'SEMANA', frase: 'Que a semana comece com *fé e trabalho.*', foto: 'a-close-laranja', solto: 1, top: 900, w: 900, x: 90, entra: 'sobe', mapa: [430, 250, 760, 6] },
-  { id: '02-bom-dia',      tema: 'sol',     tipo: 'cruza', rot: 'BOM DIA, SÃO JOÃO BATISTA', l1: 'BOM', l2: 'DIA', frase: 'Que o seu dia *renda* e seja *leve.*', foto: 'd-bracos-cruzados-branca', w: 1140, x: -30, entra: 'zoom', mapa: [-140, 640, 720, -8] },
+  { id: '01-boa-semana',   tema: 'royal',   tipo: 'pilha', rot: 'SEGUNDA-FEIRA', l1: 'BOA', l2: 'SEMANA', frase: 'Que a semana comece com *fé e trabalho.*', foto: 'g-maos-juntas-amarela', flip: 1, solto: 1, top: 1010, w: 720, x: 180, entra: 'sobe', mapa: [430, 250, 760, 6] },
+  { id: '02-bom-dia',      tema: 'sol',     tipo: 'cruza', rot: 'BOM DIA, SÃO JOÃO BATISTA', l1: 'BOM', l2: 'DIA', frase: 'Que o seu dia *renda* e seja *leve.*', foto: 'd-bracos-cruzados-branca', solto: 1, top: 940, w: 820, x: 130, entra: 'zoom', mapa: [-140, 640, 720, -8] },
   { id: '03-boa-tarde',    tema: 'laranja', tipo: 'caixas', rot: 'PASSANDO PRA DESEJAR', l1: 'BOA', l2: 'TARDE', frase: 'Segue firme: *o dia ainda rende.*', foto: 'i-maos-abertas-branca', w: 900, x: 90, entra: 'sobe', mapa: [520, 900, 640, 10] },
-  { id: '04-boa-noite',    tema: 'noite',   tipo: 'letra', rot: 'SÃO JOÃO BATISTA', l1: 'Boa noite', l2: 'BOM DESCANSO', frase: 'Descansa. *Amanhã a gente continua.*', foto: 'h-close-amarela', solto: 1, top: 920, w: 900, x: 90, entra: 'sobe', mapa: [180, 300, 720, 0] },
-  { id: '05-sextou',       tema: 'royal',   tipo: 'eco', rot: 'SEXTA-FEIRA', l1: 'SEXTOU', l2: '', frase: 'Semana vencida. *Obrigado por cada dia.*', foto: 'b-punho', w: 1260, x: -90, entra: 'esq', mapa: [560, 1060, 560, -6] },
+  { id: '04-boa-noite',    tema: 'noite',   tipo: 'letra', rot: 'SÃO JOÃO BATISTA', l1: 'Boa noite', l2: 'BOM DESCANSO', frase: 'Descansa. *Amanhã a gente continua.*', foto: 'd-bracos-cruzados-branca', flip: 1, solto: 1, top: 990, w: 780, x: 150, entra: 'sobe', mapa: [180, 300, 720, 0] },
+  { id: '05-sextou',       tema: 'royal',   tipo: 'eco', rot: 'SEXTA-FEIRA', l1: 'SEXTOU', l2: '', frase: 'Semana vencida. *Obrigado por cada dia.*', foto: 'b-punho', solto: 1, top: 1000, w: 900, x: 120, entra: 'esq', mapa: [560, 1060, 560, -6] },
   { id: '06-bom-sabado',   tema: 'claro',   tipo: 'pilha', rot: 'SÁBADO', l1: 'BOM', l2: 'SÁBADO', frase: 'Dia de *feira, família* e descanso.', foto: 'e-celular', w: 1180, x: -50, entra: 'dir', mapa: [-120, 300, 700, 12] },
   { id: '07-bom-domingo',  tema: 'sol',     tipo: 'letra', rot: 'DOMINGO', l1: 'Abençoado', l2: 'DOMINGO', frase: 'Um domingo de *paz* na sua casa.', foto: 'c-maos-juntas-laranja', w: 980, x: 50, entra: 'sobe', mapa: [470, 640, 700, 8] },
-  { id: '08-fe-no-dia',    tema: 'claro',   tipo: 'cruza', rot: 'BOM DIA', l1: 'FÉ', l2: 'NO DIA', frase: 'Com fé, *todo dia começa bem.*', foto: 'g-maos-juntas-amarela', solto: 1, top: 940, w: 900, x: 90, entra: 'esq', mapa: [420, 300, 700, -10] },
-  { id: '09-boa-noite-paz', tema: 'noite',  tipo: 'eco', rot: 'BOA NOITE, SÃO JOÃO BATISTA', l1: 'BOA NOITE', l2: '', frase: 'Que a noite traga *paz pra sua família.*', foto: 'j-close-sorrindo', solto: 1, top: 900, w: 820, x: 130, entra: 'zoom', mapa: [-160, 980, 640, 6] },
+  { id: '08-fe-no-dia',    tema: 'claro',   tipo: 'cruza', rot: 'BOM DIA', l1: 'FÉ', l2: 'NO DIA', frase: 'Com fé, *todo dia começa bem.*', foto: 'i-maos-abertas-branca', flip: 1, top: 960, w: 860, x: 110, entra: 'esq', mapa: [420, 300, 700, -10] },
+  { id: '09-boa-noite-paz', tema: 'noite',  tipo: 'eco', rot: 'BOA NOITE, SÃO JOÃO BATISTA', l1: 'BOA NOITE', l2: '', frase: 'Que a noite traga *paz pra sua família.*', foto: 'c-maos-juntas-laranja', flip: 1, top: 960, w: 860, x: 110, entra: 'zoom', mapa: [-160, 980, 640, 6] },
   { id: '10-deus-abencoe', tema: 'laranja', tipo: 'caixas', rot: 'UMA PALAVRA PRA HOJE', l1: 'DEUS', l2: 'ABENÇOE', frase: 'Você, a sua família e *a nossa cidade.*', foto: 'f-punhos', w: 820, x: 130, entra: 'zoom', mapa: [-160, 300, 680, -6] },
 ];
 
@@ -118,7 +118,7 @@ function pagina(s) {
    <div class="luz" style="animation:varre 3.4s cubic-bezier(.45,0,.55,1) .1s both"></div>
    ${corpo}
    <div class="abs" style="left:${s.x}px;top:${s.top ?? 960}px;width:${s.w}px;z-index:2;animation:${ent} 1.1s ${EXPO} 0s both"><div style="transform-origin:50% 100%;animation:flutua 8s linear 0s both">
-     <img src="${b64(path.join(A, 'hd', s.foto + '.png'), 'png')}" style="display:block;width:100%;${s.solto ? '-webkit-mask-image:linear-gradient(180deg,#000 62%,transparent 96%);mask-image:linear-gradient(180deg,#000 62%,transparent 96%);' : ''}filter:drop-shadow(0 30px 60px rgba(${t.base},.55)) saturate(1.06) contrast(1.03)"></div></div>
+     <img src="${b64(path.join(A, 'hd', s.foto + '.png'), 'png')}" style="display:block;width:100%;${s.flip ? 'transform:scaleX(-1);' : ''}${s.solto ? '-webkit-mask-image:linear-gradient(180deg,#000 62%,transparent 96%);mask-image:linear-gradient(180deg,#000 62%,transparent 96%);' : ''}filter:drop-shadow(0 30px 60px rgba(${t.base},.55)) saturate(1.06) contrast(1.03)"></div></div>
    <div class="abs" style="left:0;right:0;bottom:0;height:520px;z-index:3;background:linear-gradient(180deg,rgba(${t.base},0) 0,rgba(${t.base},.82) 58%,rgba(${t.base},.96) 100%)"></div>
    <div class="abs" style="left:64px;top:150px;z-index:5;${an('desce', .6, .15)}"><div class="pill" style="background:${t.claro ? 'rgba(8,32,99,.08)' : 'rgba(255,255,255,.14)'};border:1.5px solid ${t.claro ? 'rgba(8,32,99,.22)' : 'rgba(255,255,255,.3)'};color:${t.tx}"><img src="${b64(path.join(A, 'avatar.jpg'), 'jpeg')}">@_leonardopinto</div></div>
    <div class="abs rot" style="left:64px;top:246px;z-index:5;color:${t.tx};opacity:.9;font-size:${s.rot.length > 22 ? 20 : 24}px;animation:larga .9s ${EXPO} .35s both">${esc(s.rot)}</div>

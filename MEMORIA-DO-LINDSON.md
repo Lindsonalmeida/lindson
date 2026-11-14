@@ -450,3 +450,5 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 - 09/11/2026 (conta Leandro): REPROVADAS as 2 artes de aniversário da Nadyanna com o Leo (B com a dupla deslocada e C azul). Pedido: "no mesmo padrão da antiga" = modelo B com as pessoas grandes e centralizadas, como a primeira. Nunca texto em cima de rosto.
 
 - 14/11/2026 (conta Leandro): REGRA do Lindson: "no final de cada trabalho, adicione ao quadro de tarefas feitas, por data e cliente e horário". Todo trabalho terminado entra na aba Feitos do Quadro de atividades do painel (`agencia/sistema-clientes/site/quadro.json` + bloco `window.__QUADRO` do `painel/admin.html` na Central), com cliente, data e hora (America/Fortaleza). Vale para todas as contas.
+
+- 14/11/2026 (conta Leandro): saudações animadas do Leo: REPROVADO "só a cabeça, desproporcional". Foto de busto = cabeça + ombros + peito em proporção; recorte que é só rosto (close) não serve para arte de busto.
