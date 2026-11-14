@@ -87,7 +87,7 @@ def cenas(n):
               linhas=[('PODE SER A', 7, 'm'), ('CAIXA DE', 10, 'g'), ('GORDURA CHEIA', 12, 'g tarja')], punch=[T(13)]),
          dict(t=T(14) - .08, foto='10949030.jpg', pos='90% 50%', z=(2.4, 2.6), pan=(10, 0), escuro=.72, desfoque=10,
               gigante='SF', rec='32588559-rec.png', recpos=(600, 760, 1150), chips=[('ATENDE COMÉRCIO', T(16))]),
-         dict(t=T(17) - .08, bg=ROYAL, linhas=[('RESTAURANTES', 17, 'g'), ('CONDOMÍNIOS', 18, 'g ceu2'), ('EMPRESAS', 20, 'g laranja')], vfx=['grade']),
+         dict(t=T(18) - .08, bg=ROYAL, linhas=[('RESTAURANTES', 17, 'g'), ('CONDOMÍNIOS', 18, 'g ceu2'), ('EMPRESAS', 20, 'g laranja')], vfx=['grade']),
          dict(t=T(21) - .08, bg=NAVY, linhas=[('EM', 21, 'm'), ('SÃO LUÍS', 22, 'xg laranja')], vfx=['pin']),
          dict(t=T(24) - .08, bg=LAR2, linhas=[('LIMPEZA E', 24, 'g branco'), ('DESENTUPIMENTO', 26, 'g escuro'), ('COM MÁQUINA', 28, 'm branco')], punch=[T(28)]),
          dict(t=T(30) - .08, bg=NAVY2, linhas=[('AGENDAMENTO', 30, 'g'), ('CONFORME', 31, 'm ceu'), ('A AGENDA', 33, 'g laranja')], vfx=['relogio']),
@@ -180,7 +180,7 @@ def cena_html(i, c, w, dur_cena):
         a.append(f'<div class="lf" data-d="1">{foto_layer(c)}</div>')
     if c.get('split'):
         f1, f2 = c['split']
-        a.append(f'<div class="sp1" style="position:absolute;left:0;top:0;width:1080px;height:960px;overflow:hidden"><img class="ft zf" src="{F}{f1}" style="filter:grayscale(.85) brightness(.55)"><div class="et" style="top:330px">ANTES</div></div>')
+        a.append(f'<div class="sp1" style="position:absolute;left:0;top:0;width:1080px;height:960px;overflow:hidden"><img class="ft zf" src="{F}{f1}" style="filter:grayscale(.85) brightness(.55)"><div class="et" style="top:440px">ANTES</div></div>')
         a.append(f'<div class="sp2" style="position:absolute;left:0;top:960px;width:1080px;height:960px;overflow:hidden"><img class="ft zf" src="{F}{f2}" style="object-position:50% 30%;filter:saturate(1.2) brightness(.8)"><div style="position:absolute;inset:0;background:linear-gradient(0deg,rgba(6,26,74,.75),transparent 60%)"></div><div class="et" style="top:60px;background:{LAR2};border-color:{LAR2}">DEPOIS</div></div>')
         a.append(f'<div class="spl" style="position:absolute;left:0;top:952px;height:16px;width:1080px;background:{LAR}"></div>')
     for v in c.get('vfx', []): a.append(f'<div class="vx" data-v="{v}">{vfx_html(v)}</div>')
