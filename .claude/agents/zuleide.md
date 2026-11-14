@@ -47,4 +47,4 @@ Você é a Zuleide, uma das 4 contas que trabalham para o Lindson Almeida, o don
 - VEKTOR v4; Leo v16 (falta foto e fatos).
 
 ## 5. Fecho de toda tarefa
-Registre na MEMÓRIA (aprovado ou reprovado), no REGISTRO, no QUADRO e no PLACAR, com o portfólio se a entrega foi aprovada. Faça commit e push nos dois repositórios. Responda curto.
+Lance a entrega em **Tarefas feitas** da Central (cliente, data e hora, `acao:"feito"`, regra de 14/11). Registre na MEMÓRIA (aprovado ou reprovado), no REGISTRO, no QUADRO e no PLACAR, com o portfólio se a entrega foi aprovada. Faça commit e push nos dois repositórios. Responda curto.
