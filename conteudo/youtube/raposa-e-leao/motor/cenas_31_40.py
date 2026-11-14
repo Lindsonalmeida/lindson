@@ -32,7 +32,7 @@ S['32']=[St([I('Todo mundo jura',340,120),I('estar do seu lado',520,100,f='cg',w
  Duo('Quando#2',D('Fase boa','todos prometem',G,w='quando#2'),D('Crise','todos somem',R,w='somem')),
  St([I('Conte apoio',400,130,w='conte'),I('pelo que fizeram',580,110,c='gold',w='fizeram'),I('quando custou',760,110,box='gold',w='custou',a='slam')],w='Não'),FIM('coisa')]
 S['33']=[St([I('O erro que',320,110),I('quebra',450,240,c='red',w='quebra',a='slam'),I('acontece quando<br>tudo vai bem',780,90,f='cg',w='bem')],bg='glow:rgba(142,27,27,.3):45'),
- St([I('Na bonança,',380,130,c='gold',w='bonança'),I('conte com a',560,90,f='cg',w='com#2'),I('tempestade',700,170,c='red',w='tempestade',a='slam')],w='Maquiavel',bg='num:XXIV'),
+ St([I('Na bonança,',380,130,c='gold',w='bonança'),I('conte com a',560,90,f='cg',w='com'),I('tempestade',700,170,c='red',w='tempestade',a='slam')],w='Maquiavel',bg='num:XXIV'),
  Duo('O#2',D('Caixa cheio','cliente compra',G,w='caixa'),D('Ninguém guarda','nada',R,w='ninguém'),dir='h'),
  St([I('A reserva se faz',400,110,w='reserva'),I('no sol',580,230,c='gold',w='sol',a='slam'),I('e não na chuva',880,90,f='cg',c='dim',w='chuva')],w='Quando#2',bg=FOTO),FIM('chuva')]
 S['34']=[St([I('O mercado caiu.',340,110,w='mercado'),I('O algoritmo mudou.',500,110,w='algoritmo'),I('A economia piorou.',660,110,w='economia')],bg='glow:rgba(142,27,27,.3):40'),

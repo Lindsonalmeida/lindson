@@ -1,0 +1,148 @@
+{
+ "tom": 69.3,
+ "cenas": [
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Ele foi odiado",
+     "y": 340,
+     "s": 130,
+     "f": "ant",
+     "c": "",
+     "d": 0
+    },
+    {
+     "h": "por um motivo",
+     "y": 520,
+     "s": 100,
+     "f": "cg",
+     "c": "",
+     "w": "motivo#1"
+    },
+    {
+     "h": "falava a verdade",
+     "y": 720,
+     "s": 150,
+     "f": "ant",
+     "c": "gold",
+     "w": "como#1",
+     "a": "slam"
+    }
+   ],
+   "bg": "foto:top:640px;bottom:-320px"
+  },
+  {
+   "t": "duo",
+   "w": "Escreveu#1",
+   "dir": "v",
+   "a": {
+    "k": "Verdade efetiva",
+    "s": "o que acontece",
+    "c": "#E2BE4A",
+    "w": "verdade#1"
+   },
+   "b": {
+    "k": "Imaginação",
+    "s": "o que você queria",
+    "c": "#E0453C",
+    "w": "imaginação#1"
+   }
+  },
+  {
+   "t": "conversa",
+   "w": "Você#1",
+   "img": "../img/hist/pope_julius_ii.jpg",
+   "h": "Real ou<br>imaginado?",
+   "interage": {
+    "tipo": "checkin",
+    "txt": "IMAGINADO"
+   }
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "O negócio imaginado",
+     "y": 400,
+     "s": 90,
+     "f": "cg",
+     "c": "dim",
+     "w": "negócio#1"
+    },
+    {
+     "h": "A carreira imaginada",
+     "y": 540,
+     "s": 90,
+     "f": "cg",
+     "c": "dim",
+     "w": "carreira#1"
+    },
+    {
+     "h": "O casamento imaginado",
+     "y": 680,
+     "s": 90,
+     "f": "cg",
+     "c": "dim",
+     "w": "casamento#1"
+    }
+   ],
+   "w": "Muita#1",
+   "bg": "num:XV"
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Decisão boa nasce do",
+     "y": 380,
+     "s": 100,
+     "f": "ant",
+     "c": "",
+     "w": "Decisão#1"
+    },
+    {
+     "h": "mundo real",
+     "y": 560,
+     "s": 210,
+     "f": "ant",
+     "c": "gold",
+     "w": "real#1",
+     "a": "slam"
+    },
+    {
+     "h": "e não do ideal",
+     "y": 860,
+     "s": 90,
+     "f": "cg",
+     "c": "dim",
+     "w": "ideal#1"
+    }
+   ],
+   "w": "Ele#2"
+  },
+  {
+   "t": "conversa",
+   "w": "Manda#1",
+   "img": "../img/hist/arco_severo.jpg",
+   "h": "Aquele<br>amigo",
+   "interage": {
+    "tipo": "manda",
+    "txt": "MANDA PRA ELE"
+   }
+  },
+  {
+   "t": "assinatura",
+   "apos": "recado#1",
+   "frase": "Olhe o real.",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "DEIXA SUA RESPOSTA",
+    "digita": ""
+   }
+  }
+ ],
+ "abre": "flash",
+ "pulso": 1.6,
+ "batida": "reto"
+}

@@ -1,0 +1,137 @@
+{
+ "tom": 73.42,
+ "cenas": [
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Odiado",
+     "y": 340,
+     "s": 230,
+     "f": "ant",
+     "c": "red",
+     "d": 0
+    },
+    {
+     "h": "fazendo tudo certo?",
+     "y": 640,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "w": "certo#1"
+    }
+   ],
+   "bg": "glow:rgba(142,27,27,.35):40"
+  },
+  {
+   "t": "pagina",
+   "w": "Maquiavel#1",
+   "tag": "O PRÍNCIPE · CAP. XIX",
+   "titulo": "O aviso",
+   "ty": 300,
+   "de": "o#1",
+   "ate": "más#1",
+   "hl": [
+    "boas#1",
+    "más#1"
+   ],
+   "y": 760,
+   "s": 80
+  },
+  {
+   "t": "conversa",
+   "w": "Já#1",
+   "img": "../img/maquiavel2.jpg",
+   "h": "Já te<br>criticaram?",
+   "interage": {
+    "tipo": "checkin",
+    "txt": "JÁ"
+   }
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "<span class='gold'>01</span> Quem cresce",
+     "y": 400,
+     "s": 95,
+     "f": "ant",
+     "c": "",
+     "w": "cresce#1",
+     "x": "l"
+    },
+    {
+     "h": "<span class='gold'>02</span> Quem se destaca",
+     "y": 560,
+     "s": 95,
+     "f": "ant",
+     "c": "",
+     "w": "destaca#1",
+     "x": "l"
+    },
+    {
+     "h": "<span class='gold'>03</span> Quem muda as regras",
+     "y": 720,
+     "s": 95,
+     "f": "ant",
+     "c": "",
+     "w": "muda#1",
+     "x": "l"
+    },
+    {
+     "h": "incomoda alguém",
+     "y": 920,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "w": "incomoda#1",
+     "box": "red"
+    }
+   ],
+   "w": "Quem#1"
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Faça o bem.",
+     "y": 400,
+     "s": 150,
+     "f": "ant",
+     "c": "gold",
+     "w": "Faça#1"
+    },
+    {
+     "h": "Mas saiba de quem<br>se proteger",
+     "y": 640,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "w": "proteger#1",
+     "a": "slam"
+    }
+   ],
+   "w": "Não#1",
+   "bg": "foto:top:900px;bottom:-320px"
+  },
+  {
+   "t": "conversa",
+   "w": "Qual#1",
+   "img": "../img/hist/caracalla.jpg",
+   "h": "Sua<br>história",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "RESPONDE NOS COMENTÁRIOS",
+    "digita": "MUDEI DE CARREIRA"
+   }
+  },
+  {
+   "t": "assinatura",
+   "apos": "isso#2",
+   "frase": "Faça o bem com olhos abertos."
+  }
+ ],
+ "abre": "zoom",
+ "pulso": 1.1,
+ "batida": "espacado"
+}

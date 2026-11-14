@@ -1,0 +1,145 @@
+{
+ "tom": 82.41,
+ "cenas": [
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "O erro que",
+     "y": 320,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "d": 0
+    },
+    {
+     "h": "quebra",
+     "y": 450,
+     "s": 240,
+     "f": "ant",
+     "c": "red",
+     "w": "quebra#1",
+     "a": "slam"
+    },
+    {
+     "h": "acontece quando<br>tudo vai bem",
+     "y": 780,
+     "s": 90,
+     "f": "cg",
+     "c": "",
+     "w": "bem#1"
+    }
+   ],
+   "bg": "glow:rgba(142,27,27,.3):45"
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Na bonança,",
+     "y": 380,
+     "s": 130,
+     "f": "ant",
+     "c": "gold",
+     "w": "bonança#1"
+    },
+    {
+     "h": "conte com a",
+     "y": 560,
+     "s": 90,
+     "f": "cg",
+     "c": "",
+     "w": "com#1"
+    },
+    {
+     "h": "tempestade",
+     "y": 700,
+     "s": 170,
+     "f": "ant",
+     "c": "red",
+     "w": "tempestade#1",
+     "a": "slam"
+    }
+   ],
+   "w": "Maquiavel#1",
+   "bg": "num:XXIV"
+  },
+  {
+   "t": "conversa",
+   "w": "Seja#1",
+   "img": "../img/hist/commodus.jpg",
+   "h": "Você<br>guarda?",
+   "interage": {
+    "tipo": "checkin",
+    "txt": "GUARDO POUCO"
+   }
+  },
+  {
+   "t": "duo",
+   "w": "O#3",
+   "dir": "h",
+   "a": {
+    "k": "Caixa cheio",
+    "s": "cliente compra",
+    "c": "#E2BE4A",
+    "w": "caixa#1"
+   },
+   "b": {
+    "k": "Ninguém guarda",
+    "s": "nada",
+    "c": "#E0453C",
+    "w": "ninguém#1"
+   }
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "A reserva se faz",
+     "y": 400,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "w": "reserva#1"
+    },
+    {
+     "h": "no sol",
+     "y": 580,
+     "s": 230,
+     "f": "ant",
+     "c": "gold",
+     "w": "sol#1",
+     "a": "slam"
+    },
+    {
+     "h": "e não na chuva",
+     "y": 880,
+     "s": 90,
+     "f": "cg",
+     "c": "dim",
+     "w": "chuva#1"
+    }
+   ],
+   "w": "Quando#3",
+   "bg": "foto:top:640px;bottom:-320px"
+  },
+  {
+   "t": "conversa",
+   "w": "Salva#1",
+   "img": "../img/hist/moses.jpg",
+   "h": "Pro próximo<br>mês bom",
+   "interage": {
+    "tipo": "salva",
+    "txt": "SALVA ESSE"
+   }
+  },
+  {
+   "t": "assinatura",
+   "apos": "isso#1",
+   "frase": "Guarde no sol."
+  }
+ ],
+ "abre": "tremor",
+ "pulso": 1.6,
+ "batida": "duplo"
+}

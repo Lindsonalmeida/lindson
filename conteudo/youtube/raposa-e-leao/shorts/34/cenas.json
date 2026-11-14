@@ -1,0 +1,156 @@
+{
+ "tom": 58.27,
+ "cenas": [
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "O mercado caiu.",
+     "y": 340,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "w": "mercado#1"
+    },
+    {
+     "h": "O algoritmo mudou.",
+     "y": 500,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "w": "algoritmo#1"
+    },
+    {
+     "h": "A economia piorou.",
+     "y": 660,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "w": "economia#1"
+    }
+   ],
+   "bg": "glow:rgba(142,27,27,.3):40"
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Não acusem",
+     "y": 360,
+     "s": 130,
+     "f": "ant",
+     "c": "",
+     "w": "acusem#1"
+    },
+    {
+     "h": "a sorte",
+     "y": 520,
+     "s": 130,
+     "f": "ant",
+     "c": "dim",
+     "w": "fortuna#1",
+     "riscar": "fortuna#1"
+    },
+    {
+     "h": "a própria",
+     "y": 720,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "w": "própria#1"
+    },
+    {
+     "h": "inércia",
+     "y": 860,
+     "s": 220,
+     "f": "ant",
+     "c": "gold",
+     "w": "inércia#1",
+     "a": "slam"
+    }
+   ],
+   "w": "Maquiavel#1",
+   "bg": "num:XXIV"
+  },
+  {
+   "t": "conversa",
+   "w": "Dói#1",
+   "img": "../img/hist/girolamo_savonarola.jpg",
+   "h": "Dói, né?",
+   "interage": {
+    "tipo": "checkin",
+    "txt": "DÓI"
+   }
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Tiveram tempos calmos",
+     "y": 420,
+     "s": 100,
+     "f": "ant",
+     "c": "",
+     "w": "tiveram#1"
+    },
+    {
+     "h": "e não se prepararam",
+     "y": 600,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "w": "prepararam#1",
+     "box": "red"
+    }
+   ],
+   "w": "Eles#1",
+   "bg": "foto:top:900px;bottom:-320px"
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "O que eu deixei<br>de fazer",
+     "y": 400,
+     "s": 130,
+     "f": "ant",
+     "c": "gold",
+     "w": "deixei#1"
+    },
+    {
+     "h": "quando dava<br>para fazer?",
+     "y": 720,
+     "s": 110,
+     "f": "cg",
+     "c": "",
+     "w": "dava#1"
+    }
+   ],
+   "w": "Antes#1"
+  },
+  {
+   "t": "conversa",
+   "w": "O#5",
+   "img": "../img/hist/ponte_vecchio.jpg",
+   "h": "O que você<br>deixou?",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "RESPONDE NOS COMENTÁRIOS",
+    "digita": "ESTUDAR"
+   }
+  },
+  {
+   "t": "assinatura",
+   "apos": "julgar#1",
+   "frase": "Prepare-se na calma.",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "DEIXA SUA RESPOSTA",
+    "digita": ""
+   }
+  }
+ ],
+ "abre": "flash",
+ "pulso": 1.1,
+ "batida": "espacado"
+}

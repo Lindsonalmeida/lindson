@@ -1,0 +1,161 @@
+{
+ "tom": 65.41,
+ "cenas": [
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Quando você deveria",
+     "y": 340,
+     "s": 100,
+     "f": "ant",
+     "c": "",
+     "d": 0
+    },
+    {
+     "h": "treinar",
+     "y": 500,
+     "s": 240,
+     "f": "ant",
+     "c": "gold",
+     "w": "treinar#1",
+     "a": "slam"
+    },
+    {
+     "h": "mais?",
+     "y": 780,
+     "s": 130,
+     "f": "ant",
+     "c": "",
+     "w": "mais#1"
+    }
+   ],
+   "bg": "glow:rgba(201,162,39,.25):40"
+  },
+  {
+   "t": "conversa",
+   "w": "Você#2",
+   "img": "../img/hist/piazza_della_signoria.jpg",
+   "h": "Calma ou<br>aperto?",
+   "interage": {
+    "tipo": "checkin",
+    "txt": "SÓ NO APERTO"
+   }
+  },
+  {
+   "t": "pagina",
+   "w": "Maquiavel#1",
+   "tag": "O PRÍNCIPE · CAP. XIV",
+   "titulo": "Regra do príncipe",
+   "ty": 300,
+   "de": "na#2",
+   "ate": "guerra#1",
+   "hl": [
+    "paz#1",
+    "guerra#1"
+   ],
+   "y": 760,
+   "s": 80
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Quem só estuda na crise",
+     "y": 400,
+     "s": 90,
+     "f": "cg",
+     "c": "",
+     "w": "Quem#1"
+    },
+    {
+     "h": "já chega",
+     "y": 580,
+     "s": 120,
+     "f": "ant",
+     "c": "",
+     "w": "chega#2"
+    },
+    {
+     "h": "atrasado",
+     "y": 740,
+     "s": 200,
+     "f": "ant",
+     "c": "",
+     "w": "atrasado#1",
+     "a": "slam",
+     "box": "red"
+    }
+   ],
+   "w": "Quem#1",
+   "bg": "num:XIV"
+  },
+  {
+   "t": "duo",
+   "w": "o#1",
+   "dir": "v",
+   "a": {
+    "k": "Vendedor",
+    "s": "treina antes da venda",
+    "c": "#E2BE4A",
+    "w": "vendedor#1"
+   },
+   "b": {
+    "k": "Atleta",
+    "s": "treina fora do jogo",
+    "c": "#EFE6D2",
+    "w": "atleta#1"
+   }
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "A calma é tempo de",
+     "y": 400,
+     "s": 100,
+     "f": "ant",
+     "c": "",
+     "w": "calma#2"
+    },
+    {
+     "h": "se preparar",
+     "y": 560,
+     "s": 170,
+     "f": "ant",
+     "c": "gold",
+     "w": "preparar#1",
+     "a": "slam"
+    },
+    {
+     "h": "e não de descansar",
+     "y": 800,
+     "s": 90,
+     "f": "cg",
+     "c": "dim",
+     "w": "descansar#1"
+    }
+   ],
+   "w": "calma#2"
+  },
+  {
+   "t": "conversa",
+   "w": "O#5",
+   "img": "../img/borgia.jpg",
+   "h": "Seu treino<br>da semana",
+   "interage": {
+    "tipo": "comenta",
+    "txt": "RESPONDE NOS COMENTÁRIOS",
+    "digita": "FALAR EM PÚBLICO"
+   }
+  },
+  {
+   "t": "assinatura",
+   "apos": "cumpre#1",
+   "frase": "Treine na paz."
+  }
+ ],
+ "abre": "tremor",
+ "pulso": 0.95,
+ "batida": "reto"
+}

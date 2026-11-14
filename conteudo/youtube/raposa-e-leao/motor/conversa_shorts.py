@@ -102,8 +102,8 @@ C['31'] = dict(meio=(2, 'checkin', 'Pensa agora: do que você depende que não �
 C['32'] = dict(meio=(2, 'checkin', 'Você já passou por isso? Quem prometeu e sumiu? Guarda o nome dela.', 'Já passou<br>por isso?', 'JÁ PASSEI'),
                fim=('manda', 'Manda pra aquela pessoa que esteve do seu lado quando custou. Ela merece saber. E segue o canal pra mais lições como essa.', 'Quem ficou<br>do seu lado?', 'MANDA PRA ELA'),
                fecho=('seguir', 'Conte pelos fatos.'), abre='zoom', pulso=.95, batida='espacado')
-C['33'] = dict(meio=(2, 'checkin', 'Seja sincero: você guarda alguma coisa quando o mês vai bem? Guarda essa resposta.', 'Você<br>guarda?', 'GUARDO POUCO'),
-               fim=('salva', 'Salva esse vídeo pra lembrar no próximo mês bom. Seu eu do futuro vai agradecer.', 'Pro próximo<br>mês bom', 'SALVA ESSE'),
+C['33'] = dict(meio=(2, 'checkin', 'Seja sincero: você guarda alguma coisa quando o mês vai bem? Guarda essa resposta com você.', 'Você<br>guarda?', 'GUARDO POUCO'),
+               fim=('salva', 'Salva esse vídeo pra lembrar no próximo mês bom. O seu eu do futuro vai te agradecer muito por isso.', 'Pro próximo<br>mês bom', 'SALVA ESSE'),
                fecho=('classico', 'Guarde no sol.'), abre='tremor', pulso=1.6, batida='duplo')
 C['34'] = dict(meio=(2, 'checkin', 'Dói ouvir isso, né? Mas fica comigo. Agora vem a parte boa.', 'Dói, né?', 'DÓI'),
                fim=('comenta', 'O que você deixou de fazer quando dava? Escreve aqui, sem vergonha. Ninguém aqui vai julgar.', 'O que você<br>deixou?', 'ESTUDAR'),
@@ -117,8 +117,8 @@ C['36'] = dict(meio=(3, 'checkin', 'Você treina mais na calma ou só quando ape
 C['37'] = dict(meio=(2, 'checkin', 'Você planeja pelo que é ou pelo que gostaria que fosse? Pensa com calma.', 'Real ou<br>imaginado?', 'IMAGINADO'),
                fim=('manda', 'Manda pra aquele amigo que vive de plano e nunca olha os números. Ele vai entender o recado.', 'Aquele<br>amigo', 'MANDA PRA ELE'),
                fecho=('pergunta', 'Olhe o real.'), abre='flash', pulso=1.6, batida='reto')
-C['38'] = dict(meio=(2, 'checkin', 'Já te criticaram justo quando você fez a coisa certa? Então escuta isso.', 'Já te<br>criticaram?', 'JÁ'),
-               fim=('comenta', 'Qual foi a coisa certa que mais te trouxe crítica? Conta aqui. Quero saber como você lidou.', 'Sua<br>história', 'MUDEI DE CARREIRA'),
+C['38'] = dict(meio=(2, 'checkin', 'Já te criticaram justo quando você fez a coisa certa? Então escuta isso com atenção.', 'Já te<br>criticaram?', 'JÁ'),
+               fim=('comenta', 'Qual foi a coisa certa que mais te trouxe crítica? Conta aqui. Quero saber como você lidou com isso.', 'Sua<br>história', 'MUDEI DE CARREIRA'),
                fecho=('classico', 'Faça o bem com olhos abertos.'), abre='zoom', pulso=1.1, batida='espacado')
 C['39'] = dict(meio=(2, 'checkin', 'Curioso, né? Pensa em quem você já ajudou muito. Agora presta atenção.', 'Quem você<br>já ajudou?', 'PENSEI'),
                fim=('salva', 'Salva pra usar na próxima vez que precisar de um aliado. E manda pra quem sempre te ajudou.', 'Pra criar<br>um aliado', 'SALVA ESSE'),

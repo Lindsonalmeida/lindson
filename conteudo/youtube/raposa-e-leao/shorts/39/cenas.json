@@ -1,0 +1,139 @@
+{
+ "tom": 77.78,
+ "cenas": [
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Quem vai ser",
+     "y": 340,
+     "s": 120,
+     "f": "ant",
+     "c": "",
+     "d": 0
+    },
+    {
+     "h": "leal",
+     "y": 500,
+     "s": 260,
+     "f": "ant",
+     "c": "gold",
+     "w": "leal#1",
+     "a": "slam"
+    },
+    {
+     "h": "a você?",
+     "y": 820,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "w": "você#1"
+    }
+   ],
+   "bg": "foto:top:640px;bottom:-320px"
+  },
+  {
+   "t": "duo",
+   "w": "Maquiavel#1",
+   "dir": "h",
+   "a": {
+    "k": "Benefício que recebe",
+    "s": "prende",
+    "c": "#EFE6D2",
+    "w": "recebem#1"
+   },
+   "b": {
+    "k": "Benefício que faz",
+    "s": "prende também",
+    "c": "#E2BE4A",
+    "w": "fazem#1"
+   }
+  },
+  {
+   "t": "conversa",
+   "w": "Curioso#1",
+   "img": "../img/hist/alexander_the_great.jpg",
+   "h": "Quem você<br>já ajudou?",
+   "interage": {
+    "tipo": "checkin",
+    "txt": "PENSEI"
+   }
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Quem já te ajudou",
+     "y": 400,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "w": "ajudou#2"
+    },
+    {
+     "h": "investiu em você",
+     "y": 580,
+     "s": 130,
+     "f": "ant",
+     "c": "gold",
+     "w": "investiu#1",
+     "a": "slam"
+    }
+   ],
+   "w": "Quem#3",
+   "bg": "num:X"
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Peça um",
+     "y": 380,
+     "s": 120,
+     "f": "ant",
+     "c": "",
+     "w": "peça#1"
+    },
+    {
+     "h": "favor pequeno",
+     "y": 540,
+     "s": 150,
+     "f": "ant",
+     "c": "gold",
+     "w": "favor#1"
+    },
+    {
+     "h": "e honre o que<br>ele fez",
+     "y": 800,
+     "s": 100,
+     "f": "cg",
+     "c": "",
+     "w": "honre#1"
+    }
+   ],
+   "w": "Às#1"
+  },
+  {
+   "t": "conversa",
+   "w": "Salva#1",
+   "img": "../img/hist/florence.jpg",
+   "h": "Pra criar<br>um aliado",
+   "interage": {
+    "tipo": "salva",
+    "txt": "SALVA ESSE"
+   }
+  },
+  {
+   "t": "assinatura",
+   "apos": "ajudou#3",
+   "frase": "Ajudar prende.",
+   "interage": {
+    "tipo": "segue",
+    "txt": "NÃO PERCA A PRÓXIMA"
+   }
+  }
+ ],
+ "abre": "tremor",
+ "pulso": 1.25,
+ "batida": "duplo"
+}

@@ -1,0 +1,148 @@
+{
+ "tom": 61.74,
+ "cenas": [
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "O bom líder",
+     "y": 340,
+     "s": 120,
+     "f": "ant",
+     "c": "",
+     "d": 0
+    },
+    {
+     "h": "quase nunca",
+     "y": 500,
+     "s": 100,
+     "f": "cg",
+     "c": "",
+     "w": "quase#1"
+    },
+    {
+     "h": "dá a notícia ruim",
+     "y": 680,
+     "s": 150,
+     "f": "ant",
+     "c": "red",
+     "w": "ruim#1",
+     "a": "slam"
+    }
+   ],
+   "bg": "foto:top:640px;bottom:-320px"
+  },
+  {
+   "t": "duo",
+   "w": "os#1",
+   "dir": "h",
+   "a": {
+    "k": "O que pesa",
+    "s": "deixa com outros",
+    "c": "#E0453C",
+    "w": "pesam#1"
+   },
+   "b": {
+    "k": "O que é favor",
+    "s": "faça você",
+    "c": "#E2BE4A",
+    "w": "favor#1"
+   }
+  },
+  {
+   "t": "conversa",
+   "w": "Faz#1",
+   "img": "../img/hist/marcus_equestre.jpg",
+   "h": "Lembrou<br>dele?",
+   "interage": {
+    "tipo": "checkin",
+    "txt": "LEMBREI"
+   }
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Cobrança e corte",
+     "y": 380,
+     "s": 110,
+     "f": "ant",
+     "c": "dim",
+     "w": "cobrança#1"
+    },
+    {
+     "h": "= regra clara",
+     "y": 540,
+     "s": 90,
+     "f": "cg",
+     "c": "",
+     "w": "regra#1"
+    },
+    {
+     "h": "Elogio e prêmio",
+     "y": 760,
+     "s": 110,
+     "f": "ant",
+     "c": "gold",
+     "w": "elogio#1"
+    },
+    {
+     "h": "= da sua boca",
+     "y": 920,
+     "s": 90,
+     "f": "cg",
+     "c": "",
+     "w": "boca#1",
+     "a": "slam"
+    }
+   ],
+   "w": "A#2",
+   "bg": "num:XIX"
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "O respeito",
+     "y": 420,
+     "s": 130,
+     "f": "ant",
+     "c": "",
+     "w": "respeito#1"
+    },
+    {
+     "h": "fica com você",
+     "y": 620,
+     "s": 150,
+     "f": "ant",
+     "c": "gold",
+     "w": "fica#1",
+     "a": "slam"
+    }
+   ],
+   "w": "Assim#1"
+  },
+  {
+   "t": "conversa",
+   "w": "Se#1",
+   "img": "../img/lorenzo.jpg",
+   "h": "Liderar com<br>respeito",
+   "interage": {
+    "tipo": "segue",
+    "txt": "GOSTOU? ENTÃO…"
+   }
+  },
+  {
+   "t": "assinatura",
+   "apos": "nova#1",
+   "frase": "O favor é seu.",
+   "interage": {
+    "tipo": "segue",
+    "txt": "NÃO PERCA A PRÓXIMA"
+   }
+  }
+ ],
+ "abre": "zoom",
+ "pulso": 1.25,
+ "batida": "duplo"
+}
