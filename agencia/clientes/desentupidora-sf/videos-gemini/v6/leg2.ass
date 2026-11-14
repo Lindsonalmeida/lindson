@@ -1,0 +1,50 @@
+[Script Info]
+PlayResX: 1080
+PlayResY: 1920
+ScriptType: v4.00+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: L,Montserrat,92,&H00FFFFFF,&H00FFFFFF,&H1A4A1A06,&H1A4A1A06,-1,0,0,0,100,100,0,0,3,14,0,2,60,60,640,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.30,0:00:00.68,L,,0,0,0,,{\c&H00008AFF&}Jogar{\c&H00FFFFFF&} óleo na
+Dialogue: 0,0:00:00.68,0:00:00.98,L,,0,0,0,,Jogar {\c&H00008AFF&}óleo{\c&H00FFFFFF&} na
+Dialogue: 0,0:00:00.98,0:00:01.15,L,,0,0,0,,Jogar óleo {\c&H00008AFF&}na{\c&H00FFFFFF&}
+Dialogue: 0,0:00:01.15,0:00:01.45,L,,0,0,0,,{\c&H00008AFF&}pia{\c&H00FFFFFF&} parece inofensivo.
+Dialogue: 0,0:00:01.45,0:00:01.88,L,,0,0,0,,pia {\c&H00008AFF&}parece{\c&H00FFFFFF&} inofensivo.
+Dialogue: 0,0:00:01.88,0:00:02.77,L,,0,0,0,,pia parece {\c&H00008AFF&}inofensivo.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:03.20,0:00:03.41,L,,0,0,0,,{\c&H00008AFF&}Mas{\c&H00FFFFFF&} o óleo
+Dialogue: 0,0:00:03.41,0:00:03.54,L,,0,0,0,,Mas {\c&H00008AFF&}o{\c&H00FFFFFF&} óleo
+Dialogue: 0,0:00:03.54,0:00:03.88,L,,0,0,0,,Mas o {\c&H00008AFF&}óleo{\c&H00FFFFFF&}
+Dialogue: 0,0:00:03.88,0:00:04.44,L,,0,0,0,,{\c&H00008AFF&}endurece{\c&H00FFFFFF&} dentro do
+Dialogue: 0,0:00:04.44,0:00:04.78,L,,0,0,0,,endurece {\c&H00008AFF&}dentro{\c&H00FFFFFF&} do
+Dialogue: 0,0:00:04.78,0:00:04.91,L,,0,0,0,,endurece dentro {\c&H00008AFF&}do{\c&H00FFFFFF&}
+Dialogue: 0,0:00:04.91,0:00:05.37,L,,0,0,0,,{\c&H00008AFF&}cano.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:05.50,0:00:05.63,L,,0,0,0,,{\c&H00008AFF&}E{\c&H00FFFFFF&} um dia,
+Dialogue: 0,0:00:05.63,0:00:05.76,L,,0,0,0,,E {\c&H00008AFF&}um{\c&H00FFFFFF&} dia,
+Dialogue: 0,0:00:05.76,0:00:06.22,L,,0,0,0,,E um {\c&H00008AFF&}dia,{\c&H00FFFFFF&}
+Dialogue: 0,0:00:06.23,0:00:06.36,L,,0,0,0,,{\c&H00008AFF&}a{\c&H00FFFFFF&} pia para
+Dialogue: 0,0:00:06.36,0:00:06.66,L,,0,0,0,,a {\c&H00008AFF&}pia{\c&H00FFFFFF&} para
+Dialogue: 0,0:00:06.66,0:00:07.00,L,,0,0,0,,a pia {\c&H00008AFF&}para{\c&H00FFFFFF&}
+Dialogue: 0,0:00:07.00,0:00:07.08,L,,0,0,0,,{\c&H00008AFF&}de{\c&H00FFFFFF&} escoar.
+Dialogue: 0,0:00:07.08,0:00:07.72,L,,0,0,0,,de {\c&H00008AFF&}escoar.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:07.98,0:00:08.40,L,,0,0,0,,{\c&H00008AFF&}Guarde{\c&H00FFFFFF&} o óleo
+Dialogue: 0,0:00:08.40,0:00:08.49,L,,0,0,0,,Guarde {\c&H00008AFF&}o{\c&H00FFFFFF&} óleo
+Dialogue: 0,0:00:08.49,0:00:08.70,L,,0,0,0,,Guarde o {\c&H00008AFF&}óleo{\c&H00FFFFFF&}
+Dialogue: 0,0:00:08.70,0:00:09.09,L,,0,0,0,,{\c&H00008AFF&}frio{\c&H00FFFFFF&} numa garrafa
+Dialogue: 0,0:00:09.09,0:00:09.30,L,,0,0,0,,frio {\c&H00008AFF&}numa{\c&H00FFFFFF&} garrafa
+Dialogue: 0,0:00:09.30,0:00:09.94,L,,0,0,0,,frio numa {\c&H00008AFF&}garrafa{\c&H00FFFFFF&}
+Dialogue: 0,0:00:09.94,0:00:10.32,L,,0,0,0,,{\c&H00008AFF&}e{\c&H00FFFFFF&} leve para
+Dialogue: 0,0:00:10.32,0:00:10.62,L,,0,0,0,,e {\c&H00008AFF&}leve{\c&H00FFFFFF&} para
+Dialogue: 0,0:00:10.62,0:00:10.79,L,,0,0,0,,e leve {\c&H00008AFF&}para{\c&H00FFFFFF&}
+Dialogue: 0,0:00:10.79,0:00:10.84,L,,0,0,0,,{\c&H00008AFF&}a{\c&H00FFFFFF&} reciclagem.
+Dialogue: 0,0:00:10.84,0:00:11.69,L,,0,0,0,,a {\c&H00008AFF&}reciclagem.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:11.73,0:00:11.90,L,,0,0,0,,{\c&H00008AFF&}Se{\c&H00FFFFFF&} já entupiu,
+Dialogue: 0,0:00:11.90,0:00:12.07,L,,0,0,0,,Se {\c&H00008AFF&}já{\c&H00FFFFFF&} entupiu,
+Dialogue: 0,0:00:12.07,0:00:12.67,L,,0,0,0,,Se já {\c&H00008AFF&}entupiu,{\c&H00FFFFFF&}
+Dialogue: 0,0:00:12.67,0:00:12.93,L,,0,0,0,,{\c&H00008AFF&}a{\c&H00FFFFFF&} Desentupidora SF
+Dialogue: 0,0:00:12.93,0:00:13.65,L,,0,0,0,,a {\c&H00008AFF&}Desentupidora{\c&H00FFFFFF&} SF
+Dialogue: 0,0:00:13.65,0:00:14.25,L,,0,0,0,,a Desentupidora {\c&H00008AFF&}SF{\c&H00FFFFFF&}
+Dialogue: 0,0:00:14.25,0:00:14.93,L,,0,0,0,,{\c&H00008AFF&}resolve,{\c&H00FFFFFF&}
+Dialogue: 0,0:00:15.02,0:00:15.36,L,,0,0,0,,{\c&H00008AFF&}sem{\c&H00FFFFFF&} quebra-quebra.
+Dialogue: 0,0:00:15.36,0:00:16.12,L,,0,0,0,,sem {\c&H00008AFF&}quebra-quebra.{\c&H00FFFFFF&}

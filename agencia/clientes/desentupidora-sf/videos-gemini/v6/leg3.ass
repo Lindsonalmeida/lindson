@@ -1,0 +1,46 @@
+[Script Info]
+PlayResX: 1080
+PlayResY: 1920
+ScriptType: v4.00+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: L,Montserrat,92,&H00FFFFFF,&H00FFFFFF,&H1A4A1A06,&H1A4A1A06,-1,0,0,0,100,100,0,0,3,14,0,2,60,60,640,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.30,0:00:00.64,L,,0,0,0,,{\c&H00008AFF&}Caixa{\c&H00FFFFFF&} de esgoto
+Dialogue: 0,0:00:00.64,0:00:00.77,L,,0,0,0,,Caixa {\c&H00008AFF&}de{\c&H00FFFFFF&} esgoto
+Dialogue: 0,0:00:00.77,0:00:01.07,L,,0,0,0,,Caixa de {\c&H00008AFF&}esgoto{\c&H00FFFFFF&}
+Dialogue: 0,0:00:01.07,0:00:01.57,L,,0,0,0,,{\c&H00008AFF&}cheia?{\c&H00FFFFFF&}
+Dialogue: 0,0:00:01.79,0:00:01.96,L,,0,0,0,,{\c&H00008AFF&}A{\c&H00FFFFFF&} Desentupidora SF
+Dialogue: 0,0:00:01.96,0:00:02.69,L,,0,0,0,,A {\c&H00008AFF&}Desentupidora{\c&H00FFFFFF&} SF
+Dialogue: 0,0:00:02.69,0:00:03.29,L,,0,0,0,,A Desentupidora {\c&H00008AFF&}SF{\c&H00FFFFFF&}
+Dialogue: 0,0:00:03.29,0:00:03.92,L,,0,0,0,,{\c&H00008AFF&}resolve.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:03.97,0:00:04.22,L,,0,0,0,,{\c&H00008AFF&}O{\c&H00FFFFFF&} cabo rotativo
+Dialogue: 0,0:00:04.22,0:00:04.52,L,,0,0,0,,O {\c&H00008AFF&}cabo{\c&H00FFFFFF&} rotativo
+Dialogue: 0,0:00:04.52,0:00:05.08,L,,0,0,0,,O cabo {\c&H00008AFF&}rotativo{\c&H00FFFFFF&}
+Dialogue: 0,0:00:05.08,0:00:05.38,L,,0,0,0,,{\c&H00008AFF&}entra{\c&H00FFFFFF&} pelo cano
+Dialogue: 0,0:00:05.38,0:00:05.59,L,,0,0,0,,entra {\c&H00008AFF&}pelo{\c&H00FFFFFF&} cano
+Dialogue: 0,0:00:05.59,0:00:05.97,L,,0,0,0,,entra pelo {\c&H00008AFF&}cano{\c&H00FFFFFF&}
+Dialogue: 0,0:00:05.97,0:00:06.06,L,,0,0,0,,{\c&H00008AFF&}e{\c&H00FFFFFF&} vai até
+Dialogue: 0,0:00:06.06,0:00:06.23,L,,0,0,0,,e {\c&H00008AFF&}vai{\c&H00FFFFFF&} até
+Dialogue: 0,0:00:06.23,0:00:06.53,L,,0,0,0,,e vai {\c&H00008AFF&}até{\c&H00FFFFFF&}
+Dialogue: 0,0:00:06.53,0:00:06.61,L,,0,0,0,,{\c&H00008AFF&}o{\c&H00FFFFFF&} entupimento.
+Dialogue: 0,0:00:06.61,0:00:07.38,L,,0,0,0,,o {\c&H00008AFF&}entupimento.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:07.51,0:00:07.72,L,,0,0,0,,{\c&H00008AFF&}Tudo{\c&H00FFFFFF&} com máquina,
+Dialogue: 0,0:00:07.72,0:00:07.85,L,,0,0,0,,Tudo {\c&H00008AFF&}com{\c&H00FFFFFF&} máquina,
+Dialogue: 0,0:00:07.85,0:00:08.44,L,,0,0,0,,Tudo com {\c&H00008AFF&}máquina,{\c&H00FFFFFF&}
+Dialogue: 0,0:00:08.45,0:00:08.70,L,,0,0,0,,{\c&H00008AFF&}sem{\c&H00FFFFFF&} quebra-quebra.
+Dialogue: 0,0:00:08.70,0:00:09.59,L,,0,0,0,,sem {\c&H00008AFF&}quebra-quebra.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:09.73,0:00:10.54,L,,0,0,0,,{\c&H00008AFF&}Desentupiu:{\c&H00FFFFFF&}
+Dialogue: 0,0:00:10.54,0:00:10.79,L,,0,0,0,,{\c&H00008AFF&}a{\c&H00FFFFFF&} água volta
+Dialogue: 0,0:00:10.79,0:00:11.09,L,,0,0,0,,a {\c&H00008AFF&}água{\c&H00FFFFFF&} volta
+Dialogue: 0,0:00:11.09,0:00:11.44,L,,0,0,0,,a água {\c&H00008AFF&}volta{\c&H00FFFFFF&}
+Dialogue: 0,0:00:11.44,0:00:11.52,L,,0,0,0,,{\c&H00008AFF&}a{\c&H00FFFFFF&} correr.
+Dialogue: 0,0:00:11.52,0:00:11.98,L,,0,0,0,,a {\c&H00008AFF&}correr.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:12.11,0:00:12.20,L,,0,0,0,,{\c&H00008AFF&}E{\c&H00FFFFFF&} o serviço
+Dialogue: 0,0:00:12.20,0:00:12.33,L,,0,0,0,,E {\c&H00008AFF&}o{\c&H00FFFFFF&} serviço
+Dialogue: 0,0:00:12.33,0:00:12.75,L,,0,0,0,,E o {\c&H00008AFF&}serviço{\c&H00FFFFFF&}
+Dialogue: 0,0:00:12.75,0:00:12.84,L,,0,0,0,,{\c&H00008AFF&}é{\c&H00FFFFFF&} testado na
+Dialogue: 0,0:00:12.84,0:00:13.35,L,,0,0,0,,é {\c&H00008AFF&}testado{\c&H00FFFFFF&} na
+Dialogue: 0,0:00:13.35,0:00:13.52,L,,0,0,0,,é testado {\c&H00008AFF&}na{\c&H00FFFFFF&}
+Dialogue: 0,0:00:13.52,0:00:13.98,L,,0,0,0,,{\c&H00008AFF&}hora.{\c&H00FFFFFF&}

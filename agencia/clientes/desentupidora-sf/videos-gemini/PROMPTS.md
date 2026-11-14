@@ -117,3 +117,10 @@ A API do Gemini desta conta não tem Veo; as 20 cenas foram geradas no **HeyGen 
 - **Vídeo 2 (v4) aprovado pelo Lindson.** Modelo que funcionou: só narrador (voz Afonso), ninguém falando para a câmera.
 - Vídeos 1, 3 e 4 refeitos no mesmo modelo: 11 cenas geradas de novo sem fala (bocas fechadas), narração única (`falas-v5-narrador.tsv`), logo original no peito (`logo-no-peito.py`), 24 fps, áudio numa faixa só. Transcrição conferida (Whisper). Montagem: `montar-v5.py` → `sf-video-N-v5.mp4`.
 - Lição: vídeo com IA para cliente = narrador em off; nunca personagem falando para a câmera (a sincronia labial não fica boa).
+
+## Versão 6, do zero (14/11/2026, conta Lindson) · "faça todos do zero, todos estão com defeito de sincronia"
+- **A narração manda no corte:** uma narração contínua por vídeo (voz Afonso, pt-BR) com o tempo de cada palavra; cada cena entra exatamente quando a frase dela começa.
+- **Legenda palavra por palavra** gerada dos tempos da própria narração (palavra falada acende em laranja), Montserrat, caixa marinho.
+- **Número falado no fim** ("noventa e oito, nove dois zero um zero, cinco sete um zero") com o cartão grande do WhatsApp na tela; fundo desfocado em movimento.
+- Ninguém fala para a câmera; na cena da dona do restaurante o enquadramento fecha nas mãos e no celular.
+- Duração: 22 a 26 s (o tempo da narração). Arquivos: `sf-video-N-v6.mp4` (fora do Git); montagem em `v6/final.py`.

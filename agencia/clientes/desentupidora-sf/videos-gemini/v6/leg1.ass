@@ -1,0 +1,49 @@
+[Script Info]
+PlayResX: 1080
+PlayResY: 1920
+ScriptType: v4.00+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: L,Montserrat,92,&H00FFFFFF,&H00FFFFFF,&H1A4A1A06,&H1A4A1A06,-1,0,0,0,100,100,0,0,3,14,0,2,60,60,640,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.26,0:00:00.56,L,,0,0,0,,{\c&H00008AFF&}Água{\c&H00FFFFFF&} voltando pelo
+Dialogue: 0,0:00:00.56,0:00:00.94,L,,0,0,0,,Água {\c&H00008AFF&}voltando{\c&H00FFFFFF&} pelo
+Dialogue: 0,0:00:00.94,0:00:01.15,L,,0,0,0,,Água voltando {\c&H00008AFF&}pelo{\c&H00FFFFFF&}
+Dialogue: 0,0:00:01.15,0:00:01.66,L,,0,0,0,,{\c&H00008AFF&}ralo?{\c&H00FFFFFF&}
+Dialogue: 0,0:00:01.79,0:00:02.38,L,,0,0,0,,{\c&H00008AFF&}Calma,{\c&H00FFFFFF&}
+Dialogue: 0,0:00:02.43,0:00:02.73,L,,0,0,0,,{\c&H00008AFF&}isso{\c&H00FFFFFF&} tem solução.
+Dialogue: 0,0:00:02.73,0:00:02.90,L,,0,0,0,,isso {\c&H00008AFF&}tem{\c&H00FFFFFF&} solução.
+Dialogue: 0,0:00:02.90,0:00:03.66,L,,0,0,0,,isso tem {\c&H00008AFF&}solução.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:03.80,0:00:04.05,L,,0,0,0,,{\c&H00008AFF&}Mande{\c&H00FFFFFF&} uma foto
+Dialogue: 0,0:00:04.05,0:00:04.22,L,,0,0,0,,Mande {\c&H00008AFF&}uma{\c&H00FFFFFF&} foto
+Dialogue: 0,0:00:04.22,0:00:04.57,L,,0,0,0,,Mande uma {\c&H00008AFF&}foto{\c&H00FFFFFF&}
+Dialogue: 0,0:00:04.57,0:00:04.65,L,,0,0,0,,{\c&H00008AFF&}no{\c&H00FFFFFF&} WhatsApp da
+Dialogue: 0,0:00:04.65,0:00:05.16,L,,0,0,0,,no {\c&H00008AFF&}WhatsApp{\c&H00FFFFFF&} da
+Dialogue: 0,0:00:05.16,0:00:05.29,L,,0,0,0,,no WhatsApp {\c&H00008AFF&}da{\c&H00FFFFFF&}
+Dialogue: 0,0:00:05.29,0:00:06.06,L,,0,0,0,,{\c&H00008AFF&}Desentupidora{\c&H00FFFFFF&} SF.
+Dialogue: 0,0:00:06.06,0:00:06.82,L,,0,0,0,,Desentupidora {\c&H00008AFF&}SF.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:06.96,0:00:07.25,L,,0,0,0,,{\c&H00008AFF&}O{\c&H00FFFFFF&} técnico chega
+Dialogue: 0,0:00:07.25,0:00:07.64,L,,0,0,0,,O {\c&H00008AFF&}técnico{\c&H00FFFFFF&} chega
+Dialogue: 0,0:00:07.64,0:00:07.98,L,,0,0,0,,O técnico {\c&H00008AFF&}chega{\c&H00FFFFFF&}
+Dialogue: 0,0:00:07.98,0:00:08.88,L,,0,0,0,,{\c&H00008AFF&}uniformizado{\c&H00FFFFFF&} e usa
+Dialogue: 0,0:00:08.88,0:00:09.26,L,,0,0,0,,uniformizado {\c&H00008AFF&}e{\c&H00FFFFFF&} usa
+Dialogue: 0,0:00:09.26,0:00:09.52,L,,0,0,0,,uniformizado e {\c&H00008AFF&}usa{\c&H00FFFFFF&}
+Dialogue: 0,0:00:09.52,0:00:09.60,L,,0,0,0,,{\c&H00008AFF&}a{\c&H00FFFFFF&} máquina de
+Dialogue: 0,0:00:09.60,0:00:09.98,L,,0,0,0,,a {\c&H00008AFF&}máquina{\c&H00FFFFFF&} de
+Dialogue: 0,0:00:09.98,0:00:10.11,L,,0,0,0,,a máquina {\c&H00008AFF&}de{\c&H00FFFFFF&}
+Dialogue: 0,0:00:10.11,0:00:10.45,L,,0,0,0,,{\c&H00008AFF&}cabo{\c&H00FFFFFF&} rotativo,
+Dialogue: 0,0:00:10.45,0:00:11.26,L,,0,0,0,,cabo {\c&H00008AFF&}rotativo,{\c&H00FFFFFF&}
+Dialogue: 0,0:00:11.31,0:00:11.56,L,,0,0,0,,{\c&H00008AFF&}sem{\c&H00FFFFFF&} quebrar o
+Dialogue: 0,0:00:11.56,0:00:11.95,L,,0,0,0,,sem {\c&H00008AFF&}quebrar{\c&H00FFFFFF&} o
+Dialogue: 0,0:00:11.95,0:00:12.03,L,,0,0,0,,sem quebrar {\c&H00008AFF&}o{\c&H00FFFFFF&}
+Dialogue: 0,0:00:12.03,0:00:12.54,L,,0,0,0,,{\c&H00008AFF&}piso.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:12.66,0:00:12.83,L,,0,0,0,,{\c&H00008AFF&}No{\c&H00FFFFFF&} final,
+Dialogue: 0,0:00:12.83,0:00:13.38,L,,0,0,0,,No {\c&H00008AFF&}final,{\c&H00FFFFFF&}
+Dialogue: 0,0:00:13.38,0:00:13.60,L,,0,0,0,,{\c&H00008AFF&}o{\c&H00FFFFFF&} escoamento é
+Dialogue: 0,0:00:13.60,0:00:14.20,L,,0,0,0,,o {\c&H00008AFF&}escoamento{\c&H00FFFFFF&} é
+Dialogue: 0,0:00:14.20,0:00:14.28,L,,0,0,0,,o escoamento {\c&H00008AFF&}é{\c&H00FFFFFF&}
+Dialogue: 0,0:00:14.28,0:00:14.92,L,,0,0,0,,{\c&H00008AFF&}testado{\c&H00FFFFFF&} na sua
+Dialogue: 0,0:00:14.92,0:00:15.05,L,,0,0,0,,testado {\c&H00008AFF&}na{\c&H00FFFFFF&} sua
+Dialogue: 0,0:00:15.05,0:00:15.26,L,,0,0,0,,testado na {\c&H00008AFF&}sua{\c&H00FFFFFF&}
+Dialogue: 0,0:00:15.26,0:00:15.81,L,,0,0,0,,{\c&H00008AFF&}frente.{\c&H00FFFFFF&}
