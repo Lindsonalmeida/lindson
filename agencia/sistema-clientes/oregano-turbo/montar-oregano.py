@@ -40,5 +40,6 @@ s = s.replace(a, '<div class="post">${p.video?`<video src="${p.video}" poster="$
               ':p.img?`<img src="${p.img}"', 1)
 s = s.replace('<summary style="cursor:pointer;color:var(--amarelo);font-weight:700">Ver legenda</summary>',
               '<summary style="cursor:pointer;color:var(--amarelo);font-weight:700">${p.video?\'Legenda completa\':\'Ver legenda\'}</summary>', 1)
+s = s.replace('</style>', '@media(max-width:600px){.posts{grid-template-columns:1fr}}</style>', 1)
 open(p, 'w').write(s)
 print(len(itens), 'Reels no painel ·', round(sum(os.path.getsize(os.path.join(OUT, f)) for f in os.listdir(OUT)) / 1e6), 'MB em painel/oregano/reels/')
