@@ -7,3 +7,8 @@
 | 14/11 | motion-sf-14-11/03 | Pexels 5768318, 16509869 | Pexels |
 | 14/11 | motion-sf-14-11/04 | Pexels 87299, 20661422 | Pexels |
 | 14/11 | motion-sf-14-11/05 | Pexels 39618021, 10949030, 32588559 (recortado) | Pexels |
+| 14/11 | motion-sf-14-11/v2/01 | IA: v1-banheiro-transbordando, v1-morador-preocupado (recortado), v1-tecnico-vaso | Stable Horde · Juggernaut XL (imagem gerada por IA) |
+| 14/11 | motion-sf-14-11/v2/02 | IA: v2-vaso-cheio, v2-mulher-porta (recortada), v2-tecnico-chegando (recortado) | IA |
+| 14/11 | motion-sf-14-11/v2/03 | IA: v3-box-alagado, v3-tecnico-ralo | IA |
+| 14/11 | motion-sf-14-11/v2/04 | IA: v4-pia-cheia, v4-pia-escoando, v4-mulher-cozinha (recortada) | IA |
+| 14/11 | motion-sf-14-11/v2/05 | IA: v5-caixa-gordura, v5-dono-restaurante (recortado), v5-tecnico-gordura | IA |
