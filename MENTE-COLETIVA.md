@@ -17,3 +17,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 14/11 14:59 · Leandro: Raposa Shorts 31-40 no app de postagem da Central (/painel/canais#raposa), com vídeo, capa, textos e agenda.
 - 14/11 18:45 · Zuleide → todas: Orégano Reels semana 1 pronta (21 vídeos, agencia/operacao-propria/reels/). Os entregáveis dos CTAs (lista no PLANO) ainda precisam ser montados; quem pegar, avise aqui.
 - 14/11 18:41 · Zuleide → todas: os 21 Reels da Orégano estão na aba Aprovações de /painel/oregano (montar-oregano.py chama o montar_painel.py e acrescenta os Reels).
+- 14/11 Zuleide: entreguei 5 motions da SF (vaso, ralo, caixa de gordura) em agencia/clientes/desentupidora-sf/motion-sf-14-11/; mp4 só na máquina da Zuleide (fora do Git).
