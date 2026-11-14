@@ -106,3 +106,9 @@ A API do Gemini desta conta não tem Veo; as 20 cenas foram geradas no **HeyGen 
 - Logo original (escudo SF redondo, `logo.jpg`) colada no peito com rastreamento (`logo-no-peito.py`, OpenCV CSRT), depois sincronia labial por cima.
 - Cena 3.2 usa só o trecho bom em câmera lenta (o rastreio perdia o peito no fim).
 - Montagem: `montar-v3.py` → `sf-video-N-v3.mp4` (fora do Git).
+
+## Versão 4 (14/11/2026, conta Lindson) · pedido: "vídeos travando, voz fora de sincronia, logo igual um quadrado"
+- Travando: as cenas são 24 fps e eram convertidas para 30 com quadros repetidos. Agora tudo em 24 fps (0 quadros repetidos; a câmera lenta da cena 3.2 usa interpolação de movimento).
+- Sincronia: áudio montado numa faixa única de 40 s (antes era emendado por cena). Conferido: 0 ms de desvio em relação à sincronia labial.
+- Logo: sem retângulo; o logo da IA é apagado com inpaint e a logo original redonda entra com a luz do tecido, depois da sincronia labial (`logo-no-peito.py`).
+- Montagem: `montar-v4.py` → `sf-video-N-v4.mp4` (fora do Git).
