@@ -118,7 +118,7 @@ C['37'] = dict(meio=(2, 'checkin', 'Você planeja pelo que é ou pelo que gostar
                fim=('manda', 'Manda pra aquele amigo que vive de plano e nunca olha os números. Ele vai entender o recado.', 'Aquele<br>amigo', 'MANDA PRA ELE'),
                fecho=('pergunta', 'Olhe o real.'), abre='flash', pulso=1.6, batida='reto')
 C['38'] = dict(meio=(2, 'checkin', 'Já te criticaram justo quando você fez a coisa certa? Então escuta isso com atenção.', 'Já te<br>criticaram?', 'JÁ'),
-               fim=('comenta', 'Qual foi a coisa certa que mais te trouxe crítica? Conta aqui. Quero saber como você lidou com isso.', 'Sua<br>história', 'MUDEI DE CARREIRA'),
+               fim=('comenta', 'Qual foi a coisa certa que mais te trouxe crítica? Conta aqui. Quero muito saber como você lidou com isso na época.', 'Sua<br>história', 'MUDEI DE CARREIRA'),
                fecho=('classico', 'Faça o bem com olhos abertos.'), abre='zoom', pulso=1.1, batida='espacado')
 C['39'] = dict(meio=(2, 'checkin', 'Curioso, né? Pensa em quem você já ajudou muito. Agora presta atenção.', 'Quem você<br>já ajudou?', 'PENSEI'),
                fim=('salva', 'Salva pra usar na próxima vez que precisar de um aliado. E manda pra quem sempre te ajudou.', 'Pra criar<br>um aliado', 'SALVA ESSE'),

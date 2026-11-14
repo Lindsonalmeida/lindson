@@ -5,28 +5,29 @@
    "t": "stack",
    "items": [
     {
-     "h": "O mercado caiu.",
+     "h": "Não foi o mercado",
      "y": 340,
      "s": 110,
      "f": "ant",
      "c": "",
-     "w": "mercado#1"
+     "d": 0
     },
     {
-     "h": "O algoritmo mudou.",
+     "h": "que te quebrou",
      "y": 500,
-     "s": 110,
+     "s": 150,
      "f": "ant",
-     "c": "",
-     "w": "algoritmo#1"
+     "c": "red",
+     "w": "quebrou#1",
+     "a": "slam"
     },
     {
-     "h": "A economia piorou.",
-     "y": 660,
-     "s": 110,
-     "f": "ant",
-     "c": "",
-     "w": "economia#1"
+     "h": "caiu · mudou · piorou",
+     "y": 760,
+     "s": 90,
+     "f": "cg",
+     "c": "dim",
+     "w": "caiu#1"
     }
    ],
    "bg": "glow:rgba(142,27,27,.3):40"
@@ -130,7 +131,7 @@
   },
   {
    "t": "conversa",
-   "w": "O#5",
+   "w": "O#6",
    "img": "../img/hist/ponte_vecchio.jpg",
    "h": "O que você<br>deixou?",
    "interage": {

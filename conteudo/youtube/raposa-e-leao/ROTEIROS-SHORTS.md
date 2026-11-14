@@ -169,7 +169,7 @@ Citações conferidas no original italiano em `conteudo/referencias/maquiavel/pr
 
 ### 32 — A promessa de longe
 **Na tela:** PROMESSA DE LONGE NÃO VALE
-**Narração:** Todo mundo jura que vai estar do seu lado. Até o dia em que precisa estar. Maquiavel viu isso de perto: quando a morte está longe, todos correm, todos prometem, e cada um quer morrer por você. Quando a crise chega, somem. Não conte apoio pelas promessas da fase boa. Conte pelo que as pessoas fizeram quando custou alguma coisa.
+**Narração:** Todo mundo jura que vai estar do seu lado. Até o dia em que precisa estar. Maquiavel escreveu: quando a morte está longe, todos correm, todos prometem, e cada um quer morrer por você. Quando a crise chega, somem. Não conte apoio pelas promessas da fase boa. Conte pelo que as pessoas fizeram quando custou alguma coisa.
 **Fonte:** O Príncipe, cap. IX
 **Original:** “allora ognun corre, ognuno promette e ciascuno vuole morire per lui, quando la morte è discosto”
 
@@ -181,37 +181,37 @@ Citações conferidas no original italiano em `conteudo/referencias/maquiavel/pr
 
 ### 34 — Não culpe a sorte
 **Na tela:** A CULPA NÃO É DA SORTE
-**Narração:** O mercado caiu. O algoritmo mudou. A economia piorou. Maquiavel tinha um recado para os príncipes que perderam seus Estados: não acusem a fortuna, mas a própria inércia. Eles tiveram tempos calmos e não se prepararam. Antes de culpar o azar, pergunte: o que eu deixei de fazer quando dava para fazer?
+**Narração:** Não foi o mercado que te quebrou! O mercado caiu, o algoritmo mudou, a economia piorou. Maquiavel tinha um recado para os príncipes que perderam seus Estados: não acusem a fortuna, mas a própria inércia. Eles tiveram tempos calmos e não se prepararam. Antes de culpar o azar, pergunte: o que eu deixei de fazer quando dava para fazer?
 **Fonte:** O Príncipe, cap. XXIV
 **Original:** “non accusino la fortuna, ma la ignavia loro”
 
 ### 35 — A notícia ruim
 **Na tela:** O FAVOR É SEU. O PESO, NÃO.
-**Narração:** Por que o bom líder quase nunca é quem dá a notícia ruim? Maquiavel explicou: os príncipes devem deixar com outros as coisas que pesam, e fazer eles mesmos as coisas de favor. A cobrança e o corte passam por uma regra clara ou por um processo. O elogio, o prêmio e a boa notícia saem da sua boca. Assim o respeito fica com você.
+**Narração:** Por que o bom líder quase nunca é quem dá a notícia ruim? Maquiavel explicou: os príncipes devem mandar outros executarem as coisas que pesam, e fazer eles mesmos as coisas de favor. A cobrança e o corte passam por uma regra clara ou por um processo. O elogio, o prêmio e a boa notícia saem da sua boca. Assim o respeito fica com você. Mas a decisão continua sendo sua.
 **Fonte:** O Príncipe, cap. XIX
 **Original:** “e' principi le cose di carico debbono fare sumministrare ad altri, quelle di grazia loro medesimi”
 
 ### 36 — Treine na paz
 **Na tela:** TREINE NA PAZ
-**Narração:** Quando você deveria treinar mais? Maquiavel respondeu algo que pouca gente faz: na paz, o príncipe deve se exercitar mais do que na guerra. Quem só estuda quando a crise chega já chega atrasado. O vendedor treina antes da venda difícil. O atleta treina fora do jogo. A calma é o tempo de se preparar, e não de descansar.
+**Narração:** Quem só treina na crise já perdeu! Maquiavel escreveu algo que pouca gente faz: na paz, o príncipe deve se exercitar mais do que na guerra. Quem só estuda quando a crise chega já chega atrasado. O vendedor treina antes da venda difícil. O atleta treina fora do jogo. A calma é o tempo de se preparar, e não de descansar.
 **Fonte:** O Príncipe, cap. XIV
 **Original:** “nella pace vi si debbe più esercitare che nella guerra”
 
 ### 37 — O mundo como ele é
 **Na tela:** O MUNDO COMO ELE É
-**Narração:** Maquiavel foi odiado por um motivo: ele falava das coisas como elas são. Escreveu que preferia ir atrás da verdade efetiva da coisa do que da imaginação dela. Muita gente planeja o negócio, a carreira e o casamento que imagina. Ele dizia: olhe o que acontece de verdade. Decisão boa nasce do mundo real, e não do mundo ideal.
+**Narração:** Ele ficou malvisto por um único motivo: falar das coisas como elas são! Maquiavel escreveu que preferia ir atrás da verdade efetiva da coisa do que da imaginação dela. Muita gente planeja o negócio, a carreira e o casamento que imagina. Ele dizia: olhe o que acontece de verdade. Decisão boa nasce do mundo real, e não do mundo ideal.
 **Fonte:** O Príncipe, cap. XV
 **Original:** “mi è parso più conveniente andare dreto alla verità effettuale della cosa che alla immaginazione di essa”
 
 ### 38 — Odiado por fazer o bem
 **Na tela:** FAZER O BEM TAMBÉM GERA ÓDIO
-**Narração:** Você pode ser odiado mesmo fazendo tudo certo. Maquiavel avisou: o ódio se adquire tanto pelas boas obras quanto pelas más. Quem cresce, quem se destaca, quem muda as regras para melhor também incomoda alguém. Não espere que todos te aplaudam por fazer o bem. Faça, mas saiba de quem você precisa se proteger.
+**Narração:** Você pode ser odiado mesmo fazendo tudo certo. Maquiavel avisou: o ódio se adquire tanto pelas boas obras quanto pelas más. Quem muda as regras para melhor incomoda quem vivia do jeito errado. Não espere que todos te aplaudam por fazer o bem. Faça, mas saiba de quem você precisa se proteger.
 **Fonte:** O Príncipe, cap. XIX
 **Original:** “l'odio si acquista così mediante le buone opere, come le triste”
 
 ### 39 — Quem te ajuda fica
 **Na tela:** QUEM TE AJUDA, FICA
-**Narração:** Quer saber quem vai ser leal a você? Maquiavel percebeu uma coisa curiosa: a natureza dos homens é se obrigar tanto pelos benefícios que fazem quanto pelos que recebem. Quem já te ajudou tende a continuar ajudando, porque investiu em você. Às vezes, para criar um aliado, peça um favor pequeno. E depois honre o que ele fez.
+**Narração:** Quer saber quem vai ser leal a você? Maquiavel percebeu uma coisa curiosa: a natureza dos homens é se obrigar tanto pelos benefícios que fazem quanto pelos que recebem. Quem já te ajudou tende a continuar ajudando, porque investiu em você. Quem se sacrificou por você fica mais ligado a você. Então honre quem já investiu na sua causa.
 **Fonte:** O Príncipe, cap. X
 **Original:** “la natura delli uomini è così obligarsi per li benefizi che si fanno, come per quelli che si ricevano”
 

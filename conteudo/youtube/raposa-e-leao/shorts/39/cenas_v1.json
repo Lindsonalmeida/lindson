@@ -77,35 +77,37 @@
    "t": "stack",
    "items": [
     {
-     "h": "Peça um",
+     "h": "Quem se sacrificou",
      "y": 380,
-     "s": 120,
+     "s": 110,
      "f": "ant",
      "c": "",
-     "w": "peça"
+     "w": "sacrificou"
     },
     {
-     "h": "favor pequeno",
-     "y": 540,
-     "s": 150,
+     "h": "fica mais ligado",
+     "y": 560,
+     "s": 110,
      "f": "ant",
      "c": "gold",
-     "w": "favor"
+     "w": "ligado"
     },
     {
-     "h": "e honre o que<br>ele fez",
-     "y": 800,
-     "s": 100,
-     "f": "cg",
+     "h": "Honre quem<br>investiu",
+     "y": 780,
+     "s": 150,
+     "f": "ant",
      "c": "",
-     "w": "honre"
+     "w": "honre",
+     "a": "slam",
+     "box": "gold"
     }
    ],
-   "w": "Às"
+   "w": "Quem#3"
   },
   {
    "t": "assinatura",
-   "apos": "fez"
+   "apos": "causa"
   }
  ]
 }

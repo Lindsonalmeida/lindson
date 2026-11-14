@@ -5,36 +5,36 @@
    "t": "stack",
    "items": [
     {
-     "h": "Quando você deveria",
+     "h": "Quem só treina",
      "y": 340,
-     "s": 100,
+     "s": 120,
      "f": "ant",
      "c": "",
      "d": 0
     },
     {
-     "h": "treinar",
+     "h": "na crise",
      "y": 500,
-     "s": 240,
-     "f": "ant",
-     "c": "gold",
-     "w": "treinar#1",
-     "a": "slam"
-    },
-    {
-     "h": "mais?",
-     "y": 780,
      "s": 130,
      "f": "ant",
      "c": "",
-     "w": "mais#1"
+     "w": "crise#1"
+    },
+    {
+     "h": "já perdeu",
+     "y": 700,
+     "s": 220,
+     "f": "ant",
+     "c": "red",
+     "w": "perdeu#1",
+     "a": "slam"
     }
    ],
    "bg": "glow:rgba(201,162,39,.25):40"
   },
   {
    "t": "conversa",
-   "w": "Você#2",
+   "w": "Você#1",
    "img": "../img/hist/piazza_della_signoria.jpg",
    "h": "Calma ou<br>aperto?",
    "interage": {
@@ -48,7 +48,7 @@
    "tag": "O PRÍNCIPE · CAP. XIV",
    "titulo": "Regra do príncipe",
    "ty": 300,
-   "de": "na#2",
+   "de": "na#3",
    "ate": "guerra#1",
    "hl": [
     "paz#1",
@@ -66,7 +66,7 @@
      "s": 90,
      "f": "cg",
      "c": "",
-     "w": "Quem#1"
+     "w": "Quem#2"
     },
     {
      "h": "já chega",
@@ -87,7 +87,7 @@
      "box": "red"
     }
    ],
-   "w": "Quem#1",
+   "w": "Quem#2",
    "bg": "num:XIV"
   },
   {

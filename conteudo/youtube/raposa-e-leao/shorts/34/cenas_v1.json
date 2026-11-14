@@ -5,28 +5,29 @@
    "t": "stack",
    "items": [
     {
-     "h": "O mercado caiu.",
+     "h": "Não foi o mercado",
      "y": 340,
      "s": 110,
      "f": "ant",
      "c": "",
-     "w": "mercado"
+     "d": 0
     },
     {
-     "h": "O algoritmo mudou.",
+     "h": "que te quebrou",
      "y": 500,
-     "s": 110,
+     "s": 150,
      "f": "ant",
-     "c": "",
-     "w": "algoritmo"
+     "c": "red",
+     "w": "quebrou",
+     "a": "slam"
     },
     {
-     "h": "A economia piorou.",
-     "y": 660,
-     "s": 110,
-     "f": "ant",
-     "c": "",
-     "w": "economia"
+     "h": "caiu · mudou · piorou",
+     "y": 760,
+     "s": 90,
+     "f": "cg",
+     "c": "dim",
+     "w": "caiu"
     }
    ],
    "bg": "glow:rgba(142,27,27,.3):40"

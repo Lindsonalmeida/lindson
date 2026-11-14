@@ -52,39 +52,29 @@
    "t": "stack",
    "items": [
     {
-     "h": "<span class='gold'>01</span> Quem cresce",
+     "h": "Quem muda as regras",
      "y": 400,
-     "s": 95,
-     "f": "ant",
-     "c": "",
-     "w": "cresce#1",
-     "x": "l"
-    },
-    {
-     "h": "<span class='gold'>02</span> Quem se destaca",
-     "y": 560,
-     "s": 95,
-     "f": "ant",
-     "c": "",
-     "w": "destaca#1",
-     "x": "l"
-    },
-    {
-     "h": "<span class='gold'>03</span> Quem muda as regras",
-     "y": 720,
-     "s": 95,
-     "f": "ant",
-     "c": "",
-     "w": "muda#1",
-     "x": "l"
-    },
-    {
-     "h": "incomoda alguém",
-     "y": 920,
      "s": 110,
      "f": "ant",
      "c": "",
-     "w": "incomoda#1",
+     "w": "muda#1"
+    },
+    {
+     "h": "incomoda quem vivia",
+     "y": 600,
+     "s": 100,
+     "f": "cg",
+     "c": "",
+     "w": "incomoda#1"
+    },
+    {
+     "h": "do jeito errado",
+     "y": 780,
+     "s": 150,
+     "f": "ant",
+     "c": "",
+     "w": "errado#1",
+     "a": "slam",
      "box": "red"
     }
    ],
@@ -127,7 +117,7 @@
   },
   {
    "t": "assinatura",
-   "apos": "isso#2",
+   "apos": "época#1",
    "frase": "Faça o bem com olhos abertos."
   }
  ],

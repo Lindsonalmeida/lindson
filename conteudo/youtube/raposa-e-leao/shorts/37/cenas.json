@@ -5,11 +5,11 @@
    "t": "stack",
    "items": [
     {
-     "h": "Ele foi odiado",
+     "h": "Malvisto",
      "y": 340,
-     "s": 130,
+     "s": 170,
      "f": "ant",
-     "c": "",
+     "c": "red",
      "d": 0
     },
     {
@@ -34,7 +34,7 @@
   },
   {
    "t": "duo",
-   "w": "Escreveu#1",
+   "w": "escreveu#1",
    "dir": "v",
    "a": {
     "k": "Verdade efetiva",

@@ -42,39 +42,29 @@
    "t": "stack",
    "items": [
     {
-     "h": "<span class='gold'>01</span> Quem cresce",
+     "h": "Quem muda as regras",
      "y": 400,
-     "s": 95,
-     "f": "ant",
-     "c": "",
-     "w": "cresce",
-     "x": "l"
-    },
-    {
-     "h": "<span class='gold'>02</span> Quem se destaca",
-     "y": 560,
-     "s": 95,
-     "f": "ant",
-     "c": "",
-     "w": "destaca",
-     "x": "l"
-    },
-    {
-     "h": "<span class='gold'>03</span> Quem muda as regras",
-     "y": 720,
-     "s": 95,
-     "f": "ant",
-     "c": "",
-     "w": "muda",
-     "x": "l"
-    },
-    {
-     "h": "incomoda alguém",
-     "y": 920,
      "s": 110,
      "f": "ant",
      "c": "",
-     "w": "incomoda",
+     "w": "muda"
+    },
+    {
+     "h": "incomoda quem vivia",
+     "y": 600,
+     "s": 100,
+     "f": "cg",
+     "c": "",
+     "w": "incomoda"
+    },
+    {
+     "h": "do jeito errado",
+     "y": 780,
+     "s": 150,
+     "f": "ant",
+     "c": "",
+     "w": "errado",
+     "a": "slam",
      "box": "red"
     }
    ],

@@ -80,13 +80,13 @@ L3(29,'jul',DI+'III.9','↻','O que te trouxe<br><em>não</em> te <b>leva</b>',5
 L1(30,'maq',DI+'III.1','Volte à<br><b>origem</b>'),
 L1(31,'fer',P+'13','Quem depende<br>dos outros<br><em>cai</em>'),
 L6(32,'ces',P+'9','Todos prometem quando a morte está longe','Promessa de<br>longe não<br><b>vale</b>'),
-L3(33,'arn',P+'24','☀','Guarde<br>no <b>sol</b>',520),
-L4(34,'pap',P+'24','Foi azar','A culpa é<br>da sua <b>inércia</b>'),
+L1(33,'jul',P+'24','Guarde<br>no <b>sol</b>'),
+L4(34,'pap',P+'24','Foi azar','A culpa é<br>da sua <b>inércia</b>').replace('top:340px;font:italic','top:390px;font:italic').replace("opacity:.55","opacity:.85;filter:grayscale(1) contrast(1.15) brightness(1.15)"),
 L2(35,'lor',P+'19','O favor<br>é <b>seu</b>.<br>O peso, não.'),
 L1(36,'han',P+'14','Treine<br>na <b>paz</b>'),
-L5(37,'maq','mar','REAL','IDEAL',P+'15','O mundo<br>como ele <b>é</b>'),
+L5(37,'maq','mar','REAL','IDEAL',P+'15','O mundo<br>como ele é'),
 L6(38,'sav',P+'19','O ódio se adquire também pelas boas obras','Odiado por<br>fazer o <b>bem</b>'),
 L2(39,'mar',P+'10','Quem te<br>ajuda<br><b>fica</b>'),
-L3(40,'bor',P+'6','?','Sorte ou<br><b>preparo</b>?',620),
+L3(40,'ale',P+'6','?','Sorte ou<br><b>preparo</b>?',620),
 ]
 open('shorts-thumbs.html','w').write(head.replace('</style></head>','</style>'+css+'</head>')+''.join(T)+script)
