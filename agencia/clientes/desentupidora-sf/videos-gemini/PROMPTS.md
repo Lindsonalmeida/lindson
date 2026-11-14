@@ -92,3 +92,6 @@ Vertical 9:16 realistic close-up video, commercial kitchen. The technician in a 
 ```
 Vertical 9:16 realistic video, clean restaurant kitchen, morning light, staff arriving to work. The owner, a Brazilian woman in her 40s with an apron, shakes hands with the technician in a navy-blue uniform with orange shoulder stripes. She says in Brazilian Portuguese: "Agora a cozinha volta a funcionar." He answers: "A gente atende restaurante, condomínio e empresa." Audio: warm kitchen ambience. Leave empty space at the bottom of the frame. No on-screen text, no logos.
 ```
+
+## Gerados (14/11/2026, conta Lindson)
+A API do Gemini desta conta não tem Veo; as 20 cenas foram geradas no **HeyGen Video 1** (9:16, 1080p, 8 s, ~7 créditos cada; IDs em `heygen-ids.txt`). Montagem com ffmpeg: gancho na tela (0–3 s), flash branco + whoosh nos cortes, cartão final com logo, "Orçamento grátis", WhatsApp e @ (36,6–40 s), -14 LUFS. Arquivos `sf-video-1..4.mp4` ficam fora do Git (pesados), nesta pasta da sessão e no HeyGen.
