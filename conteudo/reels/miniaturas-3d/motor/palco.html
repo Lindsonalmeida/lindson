@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><title>Palco Miniaturas 3D</title>
+<!-- Conta Leandro, 14/11/2026. Visual próprio: mesa preta com aro amarelo, bonecos low-poly, objetos gigantes. -->
+<style>
+@font-face{font-family:Anton;src:url(anton.woff2)}
+@font-face{font-family:Manrope;src:url(manrope.woff2);font-weight:200 800}
+@font-face{font-family:JB;src:url(jbmono.woff2)}
+:root{--am:#FFD400;--pr:#0A0A0B;--br:#F4F1E8}
+html,body{margin:0;width:540px;height:960px;overflow:hidden;background:#000}
+#c{position:absolute;inset:0;width:540px;height:960px}
+.ov{position:absolute;inset:0;pointer-events:none;font-family:Manrope}
+#vin{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 45%,transparent 45%,rgba(0,0,0,.75) 100%)}
+#leak{position:absolute;inset:0;background:radial-gradient(circle at 85% 15%,rgba(255,212,0,.55),transparent 55%);mix-blend-mode:screen;opacity:0}
+#hud{position:absolute;top:62px;left:22px;right:22px;display:flex;align-items:center;gap:8px;font-family:JB;font-size:10.5px;letter-spacing:.12em;color:var(--br)}
+#hud .s{background:var(--am);color:#000;padding:4px 7px;font-weight:700}
+#hud .t{opacity:.8}
+#hud .c{margin-left:auto;display:flex;align-items:center;gap:6px}
+#hud .c i{width:7px;height:7px;border-radius:50%;background:var(--am);box-shadow:0 0 8px var(--am)}
+#prog{position:absolute;top:90px;left:22px;right:22px;display:flex;gap:4px}
+#prog b{flex:1;height:3px;background:rgba(255,255,255,.18);position:relative;overflow:hidden}
+#prog b u{position:absolute;inset:0;background:var(--am);transform-origin:left;transform:scaleX(0)}
+#selo{position:absolute;top:112px;right:26px;width:104px;height:104px;opacity:0}
+#selo .in{position:absolute;inset:22px;border-radius:50%;background:var(--am);display:flex;align-items:center;justify-content:center;text-align:center;font-family:Anton;font-size:12px;line-height:1.05;color:#000;padding:6px;box-sizing:border-box}
+#num{position:absolute;left:30px;right:30px;top:250px;background:rgba(10,10,11,.92);border:1px solid rgba(255,212,0,.35);padding:16px 20px 18px;opacity:0;box-shadow:0 20px 60px rgba(0,0,0,.6)}
+#num .n{font-family:Anton;font-size:96px;line-height:1;color:var(--am)}
+#num .d{font-family:JB;font-size:11px;letter-spacing:.1em;color:var(--br);margin-top:8px}
+#tag{position:absolute;left:30px;top:200px;background:var(--am);color:#000;font-family:JB;font-weight:700;font-size:13px;letter-spacing:.1em;padding:6px 10px;opacity:0}
+#leg{position:absolute;left:24px;right:70px;bottom:250px;text-align:left;font-family:Anton;font-size:44px;line-height:1.02;color:#fff;text-transform:uppercase;text-shadow:0 4px 18px rgba(0,0,0,.8)}
+#leg span{display:inline-block;margin-right:10px;opacity:.28}
+#leg span.on{opacity:1}
+#leg span.k{color:#000;background:var(--am);padding:0 6px;opacity:1}
+#leg span.k.off{opacity:.28;background:transparent;color:#fff}
+#marca{position:absolute;bottom:212px;left:24px;font-family:JB;font-size:10px;letter-spacing:.14em;color:var(--am);opacity:.85}
+#stamp{position:absolute;left:50%;top:44%;width:190px;height:190px;margin:-95px;opacity:0}
+#enq{position:absolute;left:40px;right:40px;top:270px;background:#fff;border-radius:18px;padding:18px;opacity:0;font-family:Manrope;color:#111}
+#enq h4{margin:0 0 12px;font-size:17px;font-weight:800}
+#enq p{margin:8px 0 0;padding:11px 14px;border-radius:12px;background:#eee;font-weight:700;font-size:14px;position:relative;overflow:hidden}
+#enq p u{position:absolute;inset:0;background:var(--am);transform-origin:left;transform:scaleX(0);opacity:.9}
+#enq p s{position:relative;text-decoration:none}
+#cta{position:absolute;left:30px;right:30px;top:250px;text-align:center;opacity:0;background:rgba(10,10,11,.92);border:1px solid rgba(255,212,0,.4);padding:20px 10px}
+#cta .a{font-family:JB;font-size:14px;letter-spacing:.2em;color:var(--br)}
+#cta .b{display:inline-block;margin-top:10px;font-family:Anton;font-size:84px;line-height:1;background:var(--am);color:#000;padding:6px 18px}
+#capa{position:absolute;inset:0;display:none;background:linear-gradient(transparent 35%,rgba(0,0,0,.85) 75%)}
+#capa .l{position:absolute;left:28px;right:28px;bottom:250px;font-family:Anton;color:#fff;font-size:84px;line-height:1.08;text-transform:uppercase}
+#capa .l em{font-style:normal;background:var(--am);color:#000;padding:2px 10px;display:inline-block;margin-top:8px;line-height:1}
+#capa .r{position:absolute;left:28px;bottom:215px;font-family:JB;font-size:12px;letter-spacing:.16em;color:var(--am)}
+body.capa #capa{display:block}
+body.capa #leg,body.capa #marca,body.capa #num,body.capa #tag,body.capa #enq,body.capa #cta,body.capa #stamp{display:none}
+</style></head><body>
+<canvas id="c"></canvas>
+<div class="ov">
+  <div id="vin"></div><div id="leak"></div>
+  <div id="hud"><span class="s" id="hs"></span><span class="t" id="ht"></span><span class="c"><i></i><span id="hc"></span></span></div>
+  <div id="prog"></div>
+  <div id="selo"><svg viewBox="0 0 104 104" width="104" height="104"><defs><path id="cp" d="M52,52 m-44,0 a44,44 0 1,1 88,0 a44,44 0 1,1 -88,0"/></defs>
+    <circle cx="52" cy="52" r="50" fill="rgba(10,10,11,.85)" stroke="#FFD400" stroke-width="1.2"/>
+    <g id="rot"><text font-family="JB" font-size="8.4" letter-spacing="2" fill="#F4F1E8"><textPath href="#cp">FONTE · FONTE · FONTE · FONTE · FONTE · FONTE · </textPath></text></g></svg>
+    <div class="in" id="si"></div></div>
+  <div id="tag"></div>
+  <div id="num"><div class="n" id="nn"></div><div class="d" id="nd"></div></div>
+  <div id="enq"><h4 id="eh">Enquete</h4><p><u></u><s id="e1"></s></p><p><u></u><s id="e2"></s></p></div>
+  <div id="cta"><div class="a">COMENTA A PALAVRA</div><div class="b" id="cb"></div><div class="a" style="margin-top:12px">QUE EU TE MANDO NO DIRECT</div></div>
+  <svg id="stamp" viewBox="0 0 100 100"></svg>
+  <div id="leg"></div>
+  <div id="marca">@LINDSONALMEIDA_</div>
+  <div id="capa"><div class="l" id="cl"></div><div class="r" id="cr"></div></div>
+</div>
+<script type="module">
+import * as THREE from './three.module.js';
+const AM = 0xFFD400;
+const cv = document.getElementById('c');
+const R = new THREE.WebGLRenderer({canvas: cv, antialias: true, preserveDrawingBuffer: true});
+R.setPixelRatio(2); R.setSize(540, 960, false); R.shadowMap.enabled = true; R.shadowMap.type = THREE.PCFSoftShadowMap;
+R.toneMapping = THREE.ACESFilmicToneMapping; R.outputColorSpace = THREE.SRGBColorSpace;
+const S = new THREE.Scene(); S.background = new THREE.Color(0x070708); S.fog = new THREE.Fog(0x070708, 14, 30);
+const C = new THREE.PerspectiveCamera(38, 540 / 960, 0.1, 100);
+S.add(new THREE.HemisphereLight(0xfff3d0, 0x111111, 0.55));
+const key = new THREE.DirectionalLight(0xfff0cc, 2.2); key.position.set(5, 11, 6); key.castShadow = true;
+key.shadow.mapSize.set(1024, 1024); Object.assign(key.shadow.camera, {left: -9, right: 9, top: 9, bottom: -9}); S.add(key);
+const rim = new THREE.PointLight(AM, 30, 18); rim.position.set(-5, 3, -5); S.add(rim);
+
+const M = (c, r = .6, m = 0, e) => new THREE.MeshStandardMaterial({color: c, roughness: r, metalness: m, emissive: e || 0x000000});
+const cinza = M(0xb9b6ae, .7), preto = M(0x161617, .55), amarelo = M(AM, .35, .1), branco = M(0xf4f1e8, .5);
+function mesh(g, m, x = 0, y = 0, z = 0) { const o = new THREE.Mesh(g, m); o.position.set(x, y, z); o.castShadow = o.receiveShadow = true; return o; }
+
+// MESA: tampo preto com aro amarelo e grade fina
+const mesa = new THREE.Group(); S.add(mesa);
+mesa.add(mesh(new THREE.CylinderGeometry(7.2, 7.4, .5, 64), M(0x121213, .8), 0, -.25, 0));
+const aro = new THREE.Mesh(new THREE.TorusGeometry(7.22, .05, 8, 128), new THREE.MeshBasicMaterial({color: AM})); aro.rotation.x = Math.PI / 2; mesa.add(aro);
+const grade = new THREE.GridHelper(14, 28, AM, AM); grade.material.transparent = true; grade.material.opacity = .07; grade.position.y = .01; mesa.add(grade);
+const chao = mesh(new THREE.CircleGeometry(40, 32), M(0x050505, 1), 0, -.5, 0); chao.rotation.x = -Math.PI / 2; S.add(chao);
+
+// poeira amarela
+const NP = 260, pg = new THREE.BufferGeometry(), pp = new Float32Array(NP * 3), seed = [];
+for (let i = 0; i < NP; i++) seed.push([Math.random() * 30 - 15, Math.random() * 9, Math.random() * 30 - 15, Math.random()]);
+pg.setAttribute('position', new THREE.BufferAttribute(pp, 3));
+S.add(new THREE.Points(pg, new THREE.PointsMaterial({color: AM, size: .05, transparent: true, opacity: .6})));
+
+// BONECO de manequim low-poly
+function boneco(pose = 0) {
+  const g = new THREE.Group();
+  const tronco = mesh(new THREE.CapsuleGeometry(.16, .42, 3, 8), cinza, 0, 1.0, 0); g.add(tronco);
+  g.add(mesh(new THREE.IcosahedronGeometry(.15, 1), cinza, 0, 1.47, 0));
+  g.add(mesh(new THREE.CapsuleGeometry(.07, .5, 2, 6), cinza, -.09, .36, 0), mesh(new THREE.CapsuleGeometry(.07, .5, 2, 6), cinza, .09, .36, 0));
+  const ba = mesh(new THREE.CapsuleGeometry(.055, .42, 2, 6), cinza, -.24, 1.02, 0), bb = mesh(new THREE.CapsuleGeometry(.055, .42, 2, 6), cinza, .24, 1.02, 0);
+  ba.rotation.z = .25; bb.rotation.z = -.25 - pose; if (pose) bb.position.set(.3, 1.2, .1); g.add(ba, bb); g.userData.braco = bb;
+  return g;
+}
+// tela de celular desenhada em canvas
+function telaTex(linhas) {
+  const c = document.createElement('canvas'); c.width = 360; c.height = 720; const x = c.getContext('2d');
+  x.fillStyle = '#0b141a'; x.fillRect(0, 0, 360, 720); x.fillStyle = '#1f2c34'; x.fillRect(0, 0, 360, 80);
+  x.fillStyle = '#FFD400'; x.beginPath(); x.arc(44, 40, 20, 0, 7); x.fill(); x.fillStyle = '#e9edef'; x.font = 'bold 22px Manrope'; x.fillText('Cliente', 76, 48);
+  let y = 130;
+  for (const [lado, txt] of linhas) {
+    x.font = 'bold 24px Manrope'; const w = Math.min(280, x.measureText(txt).width + 36);
+    x.fillStyle = lado ? '#005c4b' : '#202c33'; const bx = lado ? 340 - w : 20;
+    x.beginPath(); x.roundRect(bx, y, w, 56, 14); x.fill(); x.fillStyle = '#e9edef'; x.fillText(txt, bx + 18, y + 36); y += 76;
+  }
+  const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; return t;
+}
+const OBJ = {}, ANG = {celular: 0, relogio: 1.25, balcao: 2.5, caixa: 3.75, moedas: 5.0, pizza: 1.9, coracao: 4.4, aviao: .62, bonecos: 3.1};
+function poe(nome, g, raio = 3.6) { const a = ANG[nome]; g.position.set(Math.sin(a) * raio, 0, Math.cos(a) * raio); g.rotation.y = a; S.add(g); OBJ[nome] = g; return g; }
+// celular gigante em pé
+{ const g = new THREE.Group(); const corpo = mesh(new THREE.BoxGeometry(1.5, 3, .16), preto, 0, 1.6, 0); g.add(corpo);
+  const tela = new THREE.Mesh(new THREE.PlaneGeometry(1.36, 2.8), new THREE.MeshBasicMaterial({map: telaTex([[0, 'Quanto custa?']])})); tela.position.set(0, 1.6, .085); g.add(tela); g.userData.tela = tela;
+  const b = new THREE.Mesh(new THREE.BoxGeometry(1.56, 3.06, .12), amarelo); b.position.set(0, 1.6, -.03); g.add(b);
+  const p = boneco(.9); p.position.set(1.15, 0, .5); p.rotation.y = -.6; g.add(p); const q = boneco(); q.position.set(-1.1, 0, .7); q.rotation.y = .5; g.add(q);
+  poe('celular', g); }
+// relógio gigante
+{ const g = new THREE.Group(); const f = mesh(new THREE.CylinderGeometry(1.3, 1.3, .25, 48), amarelo, 0, 1.5, 0); f.rotation.x = Math.PI / 2; g.add(f);
+  const fc = mesh(new THREE.CylinderGeometry(1.15, 1.15, .27, 48), branco, 0, 1.5, 0); fc.rotation.x = Math.PI / 2; g.add(fc);
+  for (let i = 0; i < 12; i++) { const m = mesh(new THREE.BoxGeometry(.05, .18, .05), preto, Math.sin(i / 12 * 6.283) * .98, 1.5 + Math.cos(i / 12 * 6.283) * .98, .15); m.rotation.z = -i / 12 * 6.283; g.add(m); }
+  const pH = new THREE.Group(), pM = new THREE.Group(); pH.position.set(0, 1.5, .17); pM.position.set(0, 1.5, .19);
+  pH.add(mesh(new THREE.BoxGeometry(.08, .55, .04), preto, 0, .25, 0)); pM.add(mesh(new THREE.BoxGeometry(.05, .85, .04), preto, 0, .4, 0)); g.add(pH, pM); g.userData.p = [pH, pM];
+  g.add(mesh(new THREE.BoxGeometry(.25, .3, .25), preto, 0, .15, 0));
+  for (let i = 0; i < 3; i++) { const b = boneco(); b.position.set(-1.2 + i * 1.2, 0, 1.1); b.scale.setScalar(.8); g.add(b); }
+  poe('relogio', g); }
+// balcão
+{ const g = new THREE.Group(); g.add(mesh(new THREE.BoxGeometry(2.6, 1, .9), preto, 0, .5, 0), mesh(new THREE.BoxGeometry(2.7, .08, 1), amarelo, 0, 1.03, 0));
+  const pl = mesh(new THREE.BoxGeometry(1, .5, .05), branco, 0, 1.5, 0); g.add(pl);
+  const c = document.createElement('canvas'); c.width = 256; c.height = 128; const x = c.getContext('2d'); x.fillStyle = '#F4F1E8'; x.fillRect(0, 0, 256, 128); x.fillStyle = '#000'; x.font = '64px Anton'; x.fillText('R$ 50', 40, 92);
+  const t = new THREE.CanvasTexture(c); const lb = new THREE.Mesh(new THREE.PlaneGeometry(.96, .46), new THREE.MeshBasicMaterial({map: t})); lb.position.set(0, 1.5, .03); g.add(lb);
+  const v = boneco(); v.position.set(0, 0, -.9); g.add(v); const cl = boneco(.4); cl.position.set(.6, 0, 1.1); cl.rotation.y = Math.PI; g.add(cl);
+  poe('balcao', g); }
+// caixa registradora
+{ const g = new THREE.Group(); g.add(mesh(new THREE.BoxGeometry(2, .7, 1.6), preto, 0, .35, 0), mesh(new THREE.BoxGeometry(1.9, .35, .3), amarelo, 0, .6, .85));
+  const tp = mesh(new THREE.BoxGeometry(1.7, .5, 1), preto, 0, .95, -.15); tp.rotation.x = -.35; g.add(tp);
+  for (let i = 0; i < 12; i++) g.add(mesh(new THREE.BoxGeometry(.22, .08, .22), branco, -.55 + (i % 4) * .37, 1.18 + (i / 4 | 0) * .1, .05 - (i / 4 | 0) * .25));
+  const vis = mesh(new THREE.BoxGeometry(1, .5, .1), amarelo, 0, 1.75, -.55); g.add(vis);
+  poe('caixa', g); }
+// moedas
+{ const g = new THREE.Group(); const ouro = M(AM, .3, .7);
+  [[-.9, 6], [0, 10], [.9, 4], [.4, 2]].forEach(([x, n], k) => { for (let i = 0; i < n; i++) g.add(mesh(new THREE.CylinderGeometry(.38, .38, .12, 28), ouro, x, .07 + i * .13, k == 3 ? .8 : 0)); });
+  for (let i = 0; i < 4; i++) { const b = boneco(); b.scale.setScalar(.6); b.position.set(-1.5 + i, 0, 1.3); g.add(b); }
+  poe('moedas', g); }
+// pizza
+{ const g = new THREE.Group(); const base = mesh(new THREE.CylinderGeometry(1.6, 1.6, .2, 48, 1, false, 0, Math.PI * 1.65), M(0xd99a4e, .8), 0, .3, 0);
+  const molho = mesh(new THREE.CylinderGeometry(1.45, 1.45, .22, 48, 1, false, 0, Math.PI * 1.65), M(AM, .6), 0, .32, 0); g.add(base, molho);
+  for (let i = 0; i < 9; i++) { const a = i / 9 * Math.PI * 1.6 + .1, r = .5 + (i % 3) * .3; g.add(mesh(new THREE.CylinderGeometry(.17, .17, .06, 20), M(0xb32418, .6), Math.sin(a) * r, .45, Math.cos(a) * r)); }
+  const fat = mesh(new THREE.CylinderGeometry(1.6, 1.6, .2, 24, 1, false, Math.PI * 1.67, Math.PI * .33), M(0xd99a4e, .8), 0, .3, 0); g.add(fat); g.userData.fat = fat;
+  g.add(mesh(new THREE.CylinderGeometry(.3, .4, .2, 16), preto, 0, .1, 0));
+  const b = boneco(.9); b.position.set(1.6, 0, 1.1); g.add(b); poe('pizza', g, 4.8); }
+// coração
+{ const g = new THREE.Group(); const sh = new THREE.Shape(); sh.moveTo(0, -.9); sh.bezierCurveTo(-1.4, .1, -.8, 1.1, 0, .45); sh.bezierCurveTo(.8, 1.1, 1.4, .1, 0, -.9);
+  const h = mesh(new THREE.ExtrudeGeometry(sh, {depth: .35, bevelEnabled: true, bevelSize: .08, bevelThickness: .08}), branco, 0, 1.6, 0); g.add(h); g.userData.h = h;
+  const b = boneco(.9); b.position.set(-1, 0, .8); g.add(b); poe('coracao', g, 4.6); }
+// avião de papel (envio)
+{ const g = new THREE.Group(); const geo = new THREE.BufferGeometry();
+  geo.setAttribute('position', new THREE.Float32BufferAttribute([0, 0, 1.6, -1, 0, -1, 0, -.3, -.8, 0, 0, 1.6, 0, -.3, -.8, 1, 0, -1, 0, 0, 1.6, 0, .02, -1, 0, -.3, -.8], 3)); geo.computeVertexNormals();
+  const av = new THREE.Mesh(geo, new THREE.MeshStandardMaterial({color: AM, side: THREE.DoubleSide, roughness: .5})); av.castShadow = true; av.position.y = 1.8; g.add(av); g.userData.av = av;
+  for (let i = 0; i < 2; i++) { const b = boneco(.9); b.position.set(i ? 1.5 : -1.5, 0, 0); b.rotation.y = i ? -1.2 : 1.2; g.add(b); }
+  poe('aviao', g, 4.4); }
+// grupo de bonecos
+{ const g = new THREE.Group(); for (let i = 0; i < 9; i++) { const b = boneco(i % 3 == 0 ? .9 : 0); b.position.set((i % 3 - 1) * .8, 0, ((i / 3 | 0) - 1) * .8); g.add(b); }
+  const pl = mesh(new THREE.CylinderGeometry(1.6, 1.6, .06, 40), amarelo, 0, .03, 0); g.add(pl); poe('bonecos', g, 3.8); }
+
+// ===== linha do tempo =====
+let D = null; const $ = id => document.getElementById(id);
+const ease = x => x < 0 ? 0 : x > 1 ? 1 : x * x * (3 - 2 * x), back = x => { x = Math.min(1, Math.max(0, x)); const c = 1.7; return 1 + (c + 1) * (x - 1) ** 3 + c * (x - 1) ** 2; };
+const TEL = {celular: null};
+window.carregar = d => {
+  D = d; const r = d.r; $('hs').textContent = r.serie; $('ht').textContent = '· ' + r.tema;
+  $('prog').innerHTML = r.falas.map(() => '<b><u></u></b>').join('');
+  $('cl').innerHTML = r.capa[0] + '<br><em>' + r.capa[1] + '</em>'; $('cr').textContent = r.serie + ' · ' + r.tema;
+  const chats = {'01': [[0, 'Quanto custa?'], [1, 'R$ 50'], [0, '...']], '02': [[0, 'Oi, tem pizza hoje?'], [1, 'Tem sim! Pra agora?']], '03': [[0, 'Olha isso 👇'], [0, 'Manda pro teu sócio']]};
+  TEL.a = telaTex(chats[r.id]); TEL.b = telaTex([[0, 'Comenta ' + r.palavra], [1, 'Te mandei no direct 👊']]);
+};
+function camPara(nome, k) { const o = OBJ[nome], a = ANG[nome] + .35 * Math.sin(k * 1.3), dist = 8.6 - k * 1.6;
+  return {p: new THREE.Vector3(o.position.x + Math.sin(a) * dist, 3.4 + 1.0 * (1 - k), o.position.z + Math.cos(a) * dist), t: new THREE.Vector3(o.position.x, 1.15, o.position.z)}; }
+function stampSvg(x) { return x ? '<circle cx="50" cy="50" r="44" fill="none" stroke="#E5231B" stroke-width="7"/><path d="M28 28L72 72M72 28L28 72" stroke="#E5231B" stroke-width="11" stroke-linecap="round"/>'
+  : '<circle cx="50" cy="50" r="44" fill="#FFD400"/><path d="M28 52L44 67L74 35" stroke="#000" stroke-width="11" fill="none" stroke-linecap="round" stroke-linejoin="round"/>'; }
+let ultFala = -1;
+window.seek = t => {
+  const r = D.r, tl = D.tl; let i = tl.findIndex((s, j) => t < (tl[j + 1] ? tl[j + 1].ini : 1e9)); if (i < 0) i = tl.length - 1;
+  const f = r.falas[i], s = tl[i], dt = t - s.ini, k = ease((t - s.ini) / Math.max(1, s.fim - s.ini));
+  // câmera: viaja da fala anterior (0,7 s) e passeia
+  let cam = camPara(f.obj, k);
+  if (i > 0 && dt < .7) { const pr = camPara(r.falas[i - 1].obj, 1), e = ease(dt / .7); cam.p = pr.p.lerp(cam.p, e); cam.t = pr.t.lerp(cam.t, e); }
+  if (i == 0) { const e = ease(t / 1.6); cam.p.y += (1 - e) * 4; cam.p.multiplyScalar(1 + (1 - e) * .5); }
+  let shake = 0; if (f.num && dt > .6 && dt < 1.0) shake = (1 - (dt - .6) / .4) * .08;
+  C.position.copy(cam.p).add(new THREE.Vector3(Math.sin(t * 90) * shake, Math.cos(t * 77) * shake, 0)); C.lookAt(cam.t);
+  // objeto da fala salta
+  for (const n in OBJ) { const g = OBJ[n]; const on = n == f.obj; g.scale.setScalar(on ? .9 + .1 * back(dt / .5) : 1); }
+  const rel = OBJ.relogio.userData.p; rel[1].rotation.z = -t * 2.2; rel[0].rotation.z = -t * .18;
+  OBJ.aviao.userData.av.position.set(Math.sin(t * 1.4) * .4, 1.8 + Math.sin(t * 2) * .2, 0); OBJ.aviao.userData.av.rotation.z = Math.sin(t * 1.4) * .3;
+  OBJ.coracao.userData.h.rotation.y = Math.sin(t) * .4; OBJ.pizza.userData.fat.position.set(.4 + Math.sin(t * 1.5) * .15, .3 + Math.max(0, Math.sin(t * 1.5)) * .5, -.4);
+  if (ultFala != i) { OBJ.celular.userData.tela.material.map = f.cta ? TEL.b : TEL.a; OBJ.celular.userData.tela.material.needsUpdate = true; ultFala = i; }
+  for (let j = 0; j < NP; j++) { const q = seed[j]; pp[j * 3] = q[0] + Math.sin(t * .3 + q[3] * 9) * .6; pp[j * 3 + 1] = (q[1] + t * .25 * (q[3] + .3)) % 9; pp[j * 3 + 2] = q[2] + Math.cos(t * .25 + q[3] * 7) * .6; }
+  pg.attributes.position.needsUpdate = true;
+  R.render(S, C);
+  // HUD e cartões
+  $('hc').textContent = String(i + 1).padStart(2, '0') + ' · ' + f.cap;
+  [...$('prog').children].forEach((b, j) => b.firstChild.style.transform = `scaleX(${j < i ? 1 : j > i ? 0 : Math.min(1, dt / (s.fim - s.ini))})`);
+  const fade = (el, on, d0 = 0) => { const a = on ? ease((dt - d0) / .25) : 0; el.style.opacity = a; return a; };
+  if (fade($('selo'), !!f.selo, .2)) { $('si').textContent = f.selo; $('rot').setAttribute('transform', `rotate(${t * 40} 52 52)`); }
+  const ta = fade($('tag'), !!f.tag, .1); if (ta) { $('tag').textContent = f.tag; $('tag').style.transform = `translateX(${(1 - ta) * -30}px)`; }
+  const na = fade($('num'), !!f.num, .5); if (na) { $('nn').textContent = f.num; $('nd').textContent = f.numsub; $('num').style.transform = `scale(${.85 + .15 * back((dt - .5) / .35)})`; }
+  const ea = fade($('enq'), !!f.enquete, .2); if (ea) { $('eh').textContent = 'ENQUETE'; $('e1').textContent = f.enquete[0]; $('e2').textContent = f.enquete[1];
+    $('enq').querySelectorAll('u').forEach((u, j) => u.style.transform = `scaleX(${ease((dt - 1.2) / 1) * (j ? .38 : .62)})`); }
+  const ca = fade($('cta'), !!f.cta, .2); if (ca) { $('cb').textContent = f.cta; $('cb').style.transform = `scale(${.6 + .4 * back((dt - .2) / .4)})`; }
+  const st = $('stamp'); const sOn = (f.x || f.ok) && !f.num && !f.enquete && !f.cta; const sa = sOn ? ease((dt - 1.4) / .2) : 0; st.style.opacity = sa;
+  if (sa) { st.innerHTML = stampSvg(f.x); st.style.transform = `scale(${1.6 - .6 * back((dt - 1.4) / .3)}) rotate(-12deg)`; }
+  // legenda palavra por palavra (3 a 4 palavras por tela)
+  const ws = D.ws; let w = ws.findIndex(x => t < x.b); if (w < 0) w = ws.length - 1; if (t < ws[w].a && w > 0 && ws[w - 1].f == ws[w].f) w--;
+  const ini = w - (w % 4) , blk = ws.slice(ini, ini + 4).filter(x => x.f == ws[w].f);
+  $('leg').innerHTML = t < ws[0].a - .2 ? '' : blk.map(x => `<span class="${x.k ? 'k' : ''}${t >= x.a ? ' on' : x.k ? ' off' : ''}">${x.w.replace(/[.,:?!]+$/, '')}</span>`).join('');
+  // VFX: luz vazando e desfoque direcional na troca de fala
+  $('leak').style.opacity = i > 0 && dt < .5 ? .7 * (1 - dt / .5) : .12 + .06 * Math.sin(t * 2);
+  cv.style.filter = i > 0 && dt < .25 ? `blur(${(1 - dt / .25) * 3}px)` : 'none';
+};
+window.modoCapa = () => { document.body.classList.add('capa'); $('hc').textContent = '01 · ' + D.r.falas[0].cap; [...$('prog').children].forEach(b => b.firstChild.style.transform = 'scaleX(0)'); $('selo').style.opacity = 0; OBJ.celular.userData.tela.material.map = TEL.a; OBJ.celular.userData.tela.material.needsUpdate = true; $('leak').style.opacity = .35; cv.style.filter = 'none';
+  const nome = D.r.falas[0].obj, cam = camPara(nome, .6); C.position.copy(cam.p); C.lookAt(cam.t); for (const n in OBJ) OBJ[n].scale.setScalar(1); R.render(S, C); };
+document.fonts.ready.then(() => window.pronto = true);
+</script></body></html>

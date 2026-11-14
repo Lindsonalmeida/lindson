@@ -1,0 +1,32 @@
+[
+ {"id":"01","serie":"BOLSO DO DONO","tema":"WHATSAPP","titulo":"O erro que faz o cliente sumir no WhatsApp","palavra":"SUMIU","capa":["O CLIENTE","SUMIU?"],
+  "falas":[
+   {"cap":"O GANCHO","obj":"celular","t":"O cliente mandou: quanto custa? No seu WhatsApp. E sumiu. A culpa não é do preço.","chave":["sumiu","preço"],"tag":"VISUALIZADO 14:02"},
+   {"cap":"O RELÓGIO","obj":"relogio","t":"O problema é o relógio. Ele mandou a mesma pergunta pra três lojas ao mesmo tempo.","chave":["relógio","três"],"tag":"3 LOJAS"},
+   {"cap":"A PESQUISA","obj":"relogio","t":"Uma pesquisa da Harvard Business Review mostrou: quem respondia em até uma hora tinha quase sete vezes mais chance de avançar com o cliente.","chave":["uma","hora","sete"],"num":"7×","numsub":"MAIS CHANCE RESPONDENDO EM ATÉ 1 HORA","selo":"HARVARD BUSINESS REVIEW · 2011"},
+   {"cap":"O PREÇO SECO","obj":"balcao","t":"E o segundo erro: responder só o preço. Cinquenta reais, ponto. Sem pergunta, a conversa morre ali.","chave":["só","preço","morre"],"tag":"SEM PERGUNTA","x":true},
+   {"cap":"A SAÍDA","obj":"celular","t":"Faz assim: responde rápido, passa o preço e termina com uma pergunta. Por exemplo: é pra hoje ou pra amanhã? Quem pergunta, conduz.","chave":["pergunta","conduz"],"tag":"EXEMPLO","ok":true},
+   {"cap":"ENQUETE","obj":"bonecos","t":"E você? Quanto tempo demora pra responder? Vota aí na enquete.","chave":["enquete"],"enquete":["MENOS DE 1 HORA","MAIS DE 1 HORA"]},
+   {"cap":"PRESENTE","obj":"celular","t":"Comenta SUMIU, que eu te mando cinco mensagens prontas pra cliente que sumiu.","chave":["SUMIU"],"cta":"SUMIU"}
+  ]},
+ {"id":"02","serie":"BOLSO DO DONO","tema":"CUSTO","titulo":"Quanto custa um cliente? (a pegadinha)","palavra":"PERFIL","capa":["QUANTO CUSTA","1 CLIENTE?"],
+  "falas":[
+   {"cap":"O GANCHO","obj":"caixa","t":"Você sabe quanto paga por cada cliente que entra no seu negócio? A pegadinha: não é o valor do anúncio.","chave":["cliente","pegadinha"],"tag":"PEGADINHA"},
+   {"cap":"A CONTA","obj":"caixa","t":"A conta tem nome: custo de aquisição. Soma tudo o que gastou pra atrair cliente no mês e divide pelos clientes novos.","chave":["custo","divide"],"num":"CAC","numsub":"GASTO PRA ATRAIR ÷ CLIENTES NOVOS","selo":"FÓRMULA · CUSTO DE AQUISIÇÃO"},
+   {"cap":"O EXEMPLO","obj":"moedas","t":"Exemplo: gastou trezentos reais e vieram dez clientes novos. Cada um custou trinta reais.","chave":["trezentos","dez","trinta"],"num":"R$ 30","numsub":"R$ 300 ÷ 10 CLIENTES · EXEMPLO","tag":"EXEMPLO"},
+   {"cap":"A PEGADINHA","obj":"pizza","t":"Agora, se o lucro de uma pizza é vinte reais, o primeiro pedido dá prejuízo. O dinheiro está na segunda, na terceira, na décima pizza.","chave":["prejuízo","décima"],"tag":"EXEMPLO","x":true},
+   {"cap":"A VOLTA","obj":"bonecos","t":"Por isso, o cliente que volta vale mais que o anúncio novo. Mande mensagem pra quem já comprou.","chave":["volta","comprou"],"ok":true},
+   {"cap":"ENQUETE","obj":"caixa","t":"Você já fez essa conta no seu negócio? Responde na enquete.","chave":["enquete"],"enquete":["JÁ FIZ","NUNCA FIZ"]},
+   {"cap":"PRESENTE","obj":"celular","t":"Comenta PERFIL, que eu analiso o seu Instagram e te mostro três pontos pra melhorar.","chave":["PERFIL"],"cta":"PERFIL"}
+  ]},
+ {"id":"03","serie":"BOLSO DO DONO","tema":"INSTAGRAM","titulo":"A regra do Instagram que pouca gente entendeu","palavra":"GANCHO","capa":["CURTIDA","NÃO BASTA"],
+  "falas":[
+   {"cap":"O GANCHO","obj":"coracao","t":"Curtida não faz o seu post crescer como você pensa. A regra é outra, e tem uma pegadinha.","chave":["curtida","pegadinha"],"x":true},
+   {"cap":"O SINAL","obj":"aviao","t":"O chefe do Instagram, Adam Mosseri, disse que um dos sinais mais fortes hoje é o envio: quando alguém manda o seu post pra outra pessoa.","chave":["envio","manda"],"selo":"ADAM MOSSERI · CHEFE DO INSTAGRAM"},
+   {"cap":"A PROVA","obj":"aviao","t":"Um Reels que estudamos teve seis mil e quinhentos reposts. E setenta e um mil envios.","chave":["setenta","envios"],"num":"71 MIL","numsub":"ENVIOS × 6.510 REPOSTS","selo":"PRINT DO REELS · 14/11"},
+   {"cap":"O QUE SE ENVIA","obj":"pizza","t":"Ninguém envia propaganda. A pessoa envia o que é útil pro amigo: o cardápio da semana, a promoção de terça, uma dica que resolve.","chave":["útil","amigo"],"tag":"ÚTIL > BONITO"},
+   {"cap":"A SAÍDA","obj":"celular","t":"Antes de postar, pergunte: alguém mandaria isso pra um amigo? Se não, mude o post.","chave":["mandaria","mude"],"ok":true},
+   {"cap":"ENQUETE","obj":"bonecos","t":"E você, o que mais faz: curtir ou enviar? Vota na enquete.","chave":["enquete"],"enquete":["CURTIR","ENVIAR"]},
+   {"cap":"PRESENTE","obj":"celular","t":"Comenta GANCHO, que eu te mando dez começos de vídeo que fazem a pessoa parar.","chave":["GANCHO"],"cta":"GANCHO"}
+  ]}
+]
