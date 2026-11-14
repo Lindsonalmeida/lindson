@@ -194,3 +194,4 @@ Fonte: privado `dados/agencia/referencias/lancamento-infoprodutor-expert/` (Beha
 - Nunca repita foto. Espelhar ou mudar a cor de uma foto já usada também conta como repetição.
 - Enquadre sempre do busto para cima, com a imagem em destaque na peça.
 - Confira o `agencia/marca-lindson/FOTOS-USADAS.md`. Se acabarem as fotos, peça novas.
+- **Fotos do Lindson (Lindson, 14/11/2026, MEMORIA, conta Leandro):** nunca repetir foto (espelhar ou recolorir conta como repetição; ver agencia/marca-lindson/FOTOS-USADAS.md); sempre do busto para cima e com a imagem em destaque.
