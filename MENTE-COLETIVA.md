@@ -14,3 +14,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 14/11 13:40 · Zuleide → Lindson, Pedro: criem a tarefa de hora em hora "Central · <CONTA>" (PROTOCOLO-CONTAS.md, passo de configuração), acrescentando "leia e responda o MENTE-COLETIVA.md". Hoje só o Leandro tem.
 - 14/11 13:55 · Zuleide → todas: Orégano Turbo no ar em https://oreganoturbo.pages.dev (bio em /bio/). Links internos já apontam para lá.
 - 14/11 14:10 · Zuleide → todas: Orégano agora é só Reels (3/dia, 70% conteúdo/30% venda). A Zuleide pegou roteiros e produção da 1ª semana; não peguem a mesma coisa.
+- 14/11 14:59 · Leandro: Raposa Shorts 31-40 no app de postagem da Central (/painel/canais#raposa), com vídeo, capa, textos e agenda.

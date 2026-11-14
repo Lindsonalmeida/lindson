@@ -235,7 +235,7 @@ function cartaoVideo(c, v, i) {
   return `<article class="card vid ${v.tipo}${feito ? ' feito' : ''}" data-id="${esc(v.id)}">
     <div class="midia"><div class="tela">${tela}</div>${capas}</div>
     <div class="corpo">
-      <div class="cab"><span class="num">${v.tipo === 'longo' ? 'Vídeo longo' : 'Short'} · ${String(i + 1).padStart(2, '0')}${v.dur ? ' · ' + esc(v.dur) : ''}</span>${st}
+      <div class="cab"><span class="num">${v.tipo === 'longo' ? 'Vídeo longo' : 'Short'} · ${String(i + 1).padStart(2, '0')}${v.dur ? ' · ' + esc(v.dur) : ''}${v.agenda ? ' · Programar ' + esc(v.agenda) : ''}</span>${st}
         <div class="fim"><label class="carimbo"><input type="checkbox" data-post="${esc(v.id)}"${feito ? ' checked' : ''}>Marquei como postado</label></div></div>
       <div class="campo tit"><div class="r"><span class="rot">Título</span><button class="btn lin mini" data-cp="titulo">${IC.copiar}Copiar título</button></div><p class="tx">${esc(v.titulo)}</p></div>
       <div class="campo leg"><div class="r"><span class="rot">Legenda${/\d:\d\d/.test(v.legenda) ? ' · com capítulos' : ''}</span><button class="btn lin mini" data-cp="legenda">${IC.copiar}Copiar legenda</button></div><p class="tx">${esc(v.legenda)}</p><button class="mais" data-mais>Ver legenda inteira</button></div>

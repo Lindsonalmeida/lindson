@@ -100,6 +100,9 @@ def itens_raposa():
         desc = re.search(r'\*\*Descrição:\*\*\n(.*?)\n\*\*Na hora', s, re.S).group(1).strip()
         com = re.search(r'Comentário fixado: "(.+?)"\s*$', s, re.M)
         return tit, desc, com.group(1) if com else ''
+    agenda = {}  # Shorts 31+ (14/11/2026): agenda e arquivos finais no próprio repositório
+    for f in glob.glob(R + '/shorts/PUBLICAR-*.md'):
+        for m in re.finditer(r'^\| (\d\d) \| (\d\d/\d\d) \| (\d\dh) \|', open(f, encoding='utf-8').read(), re.M): agenda[m.group(1)] = f'{m.group(2)} às {m.group(3)}'
     out = []
     for d in sorted(glob.glob(R + '/shorts/[0-9][0-9]')):
         n = d.split('/')[-1]; k = f'short-{n}'
@@ -110,6 +113,10 @@ def itens_raposa():
         out.append(dict(id=k, tipo='short', titulo=tit, legenda=desc, comentario=com, dur=dur(at, k),
                         capas=[dict(nome='Capa', arq=f'{k}.jpg', fonte=at.get(f'{k}.jpg'))] if at.get(f'{k}.jpg') else [],
                         video=dict(arq=f'raposa-e-leao-{k}.mp4', fonte=vid) if vid else None))
+        if int(n) >= 31:
+            it = out[-1]; it['agenda'] = agenda.get(n, '')
+            if not it['capas'] and os.path.exists(d + '/capa.jpg'): it['capas'] = [dict(nome='Capa', arq=f'{k}.jpg', fonte=(APPS['raposa']['novo'], ''), local=d + '/capa.jpg')]
+            if not it['video'] and os.path.exists(d + '/video.mp4'): it['video'] = dict(arq=f'raposa-e-leao-{k}.mp4', fonte=(APPS['raposa']['novo'], ''), local=d + '/video.mp4')
     tp_all = jl(os.path.join(R, 'tempos.json'), {})
     for d in sorted(glob.glob(R + '/longos/[0-9][0-9]'), key=lambda x: (not os.path.exists(x + '/publicar_novo.json'), x)):
         n = d.split('/')[-1]; k = f'longo-{n}'; rot = jl(d + '/roteiro.json', {})
@@ -159,7 +166,8 @@ def montar():
         for v in c['itens']:
             v['pre'] = JA.get(c['id'], {}).get(v['id'], '')
             for cp in v['capas']:
-                app, blob = cp.pop('fonte'); rel = f"{c['id']}/capas/{cp['arq']}"; dest = os.path.join(base, rel)
+                app, blob = cp.pop('fonte'); rel = f"{c['id']}/capas/{cp['arq']}"; dest = os.path.join(base, rel); loc = cp.pop('local', None)
+                if loc and (not os.path.exists(dest) or os.path.getmtime(loc) > os.path.getmtime(dest)): capa_jpeg(loc, dest)
                 if not os.path.exists(dest) and no_cache(blob): capa_jpeg(no_cache(blob), dest)
                 if os.path.exists(dest): cp['url'] = '/painel/canais/' + rel; st = 'migrado'
                 else: cp['url'] = None; cp['app'] = app; st = 'link antigo'; manif.append(dict(canal=c['id'], chave=cp['arq'], app=app, id=blob))
@@ -170,7 +178,12 @@ def montar():
         for v in c['itens']:
             if not v['video']: continue
             app, blob = v['video'].pop('fonte'); v['video']['app'] = app
-            rel = f"{c['id']}/videos/{v['id']}.mp4"; dest = os.path.join(base, rel); f = no_cache(blob)
+            rel = f"{c['id']}/videos/{v['id']}.mp4"; dest = os.path.join(base, rel); loc = v['video'].pop('local', None)
+            if loc:  # arquivo final no repositório (Shorts 31+): sempre vem para a Central, fora do limite de 300 MB
+                if not os.path.exists(dest) or os.path.getsize(dest) != os.path.getsize(loc): os.makedirs(os.path.dirname(dest), exist_ok=True); shutil.copyfile(loc, dest)
+                v['video']['url'] = '/painel/canais/' + rel; tot_vid += os.path.getsize(dest)
+                linhas.append((c['nome'], v['id'], 'Vídeo', 'migrado', app, 'repositório', os.path.getsize(dest))); continue
+            f = no_cache(blob)
             tam = os.path.getsize(dest) if os.path.exists(dest) else (os.path.getsize(f) if f else None)
             motivo, est = '', False
             if v['pre']: motivo = f"já {v['pre']}"
