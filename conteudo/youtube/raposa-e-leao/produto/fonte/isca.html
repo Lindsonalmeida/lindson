@@ -1,0 +1,190 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>isca</title><style>
+@font-face{font-family:Anton;src:url(../fonts/Anton-Regular.ttf)}
+@font-face{font-family:Cinzel;src:url(../fonts/Cinzel.ttf);font-weight:400 900}
+@font-face{font-family:Cormorant;src:url(../fonts/CormorantGaramond.ttf);font-weight:300 700}
+@font-face{font-family:Cormorant;src:url(../fonts/CormorantGaramond-Italic.ttf);font-weight:300 700;font-style:italic}
+@font-face{font-family:Inter;src:url(../fonts/Inter.ttf);font-weight:100 900}
+:root{--noite:#0B0A08;--carvao:#17140F;--ouro:#C9A227;--ouro2:#E2BE4A;--brasa:#D9622B;--perg:#EFE6D2;--sangue:#8E1B1B;--cinza:#9c937f}
+*{box-sizing:border-box;margin:0;padding:0}
+@page{size:1080px 1350px;margin:0}
+body{background:#000;font-family:Inter,sans-serif;color:var(--perg);-webkit-font-smoothing:antialiased}
+.pg{width:1080px;height:1350px;position:relative;overflow:hidden;background:var(--noite);page-break-after:always;break-after:page;padding:64px 76px 0}
+.pg:before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 50% 30%,rgba(60,46,24,.35),transparent 62%);pointer-events:none}
+.pg>*{position:relative}
+.top{display:flex;justify-content:space-between;font:600 15px Cinzel;letter-spacing:.22em;color:var(--ouro);border-bottom:1px solid rgba(201,162,39,.35);padding-bottom:16px}
+.top span:last-child{color:var(--cinza)}
+.rod{position:absolute;left:76px;right:76px;bottom:38px;display:flex;justify-content:space-between;align-items:center;font:500 14px Inter;letter-spacing:.08em;color:#7d7462;border-top:1px solid rgba(239,230,210,.12);padding-top:14px}
+.rod b{font:400 22px Anton;color:var(--ouro);letter-spacing:.04em}
+h1,h2,.anton{font-family:Anton;font-weight:400;text-transform:uppercase;line-height:1.02;letter-spacing:.005em}
+.rot{font:700 15px Cinzel;letter-spacing:.24em;color:var(--ouro);text-transform:uppercase}
+p{font-size:24px;line-height:1.45}
+em.o{font-style:normal;color:var(--ouro2)}
+/* ---------- situação */
+.cab{display:flex;gap:30px;align-items:flex-start;margin-top:34px}
+.num{font:400 150px/0.86 Anton;color:transparent;-webkit-text-stroke:2px var(--ouro);min-width:170px}
+.cab h2{font-size:55px;margin-top:14px;color:var(--perg)}
+.modo{display:inline-block;font:700 14px Cinzel;letter-spacing:.24em;padding:7px 14px 6px;border:1px solid var(--ouro);color:var(--ouro2);border-radius:2px}
+.modo.r{border-color:var(--brasa);color:#f08a52}
+.modo.rl{border-image:linear-gradient(90deg,var(--brasa),var(--ouro)) 1;color:var(--perg)}
+.cena{margin-top:26px;font-size:25px;color:#d9cfb9}
+.cit{margin-top:26px;background:var(--carvao);border-left:5px solid var(--ouro);padding:26px 32px 24px}
+.cit blockquote{font:italic 500 33px/1.22 Cormorant;color:var(--ouro2)}
+.cit .trad{font-size:23px;line-height:1.4;margin-top:14px;color:var(--perg)}
+.cit figcaption{font:700 14px Cinzel;letter-spacing:.22em;color:var(--cinza);margin-top:16px;text-transform:uppercase}
+.vB .cab{flex-direction:row-reverse;justify-content:space-between}
+.vB .num{text-align:right;color:var(--ouro);-webkit-text-stroke:0}
+.vB .cit{background:var(--perg);border-left:0;border-top:5px solid var(--brasa)}
+.vB .cit blockquote{color:#2a2012}.vB .cit .trad{color:#3b3222}.vB .cit figcaption{color:#7a5a1a}
+.duas{display:grid;grid-template-columns:1fr 1.08fr;gap:36px;margin-top:28px}
+.duas h3,.freio h3{font:700 15px Cinzel;letter-spacing:.24em;color:var(--ouro);margin-bottom:10px}
+.duas p,.duas li{font-size:21.5px;line-height:1.42;color:#ded4bf}
+.duas ol{list-style:none;counter-reset:n}
+.duas li{counter-increment:n;position:relative;padding-left:40px;margin-bottom:10px}
+.duas li:before{content:counter(n);position:absolute;left:0;top:-2px;font:400 27px Anton;color:var(--ouro)}
+.freio{margin-top:22px;border:1px solid rgba(217,98,43,.55);padding:16px 22px 17px;display:grid;grid-template-columns:118px 1fr;gap:10px;align-items:start}
+.freio h3{color:#f08a52;margin:4px 0 0}
+.freio p{font-size:21px;line-height:1.4;color:#e6dcc8}
+/* ---------- capa */
+.capa{padding:0}
+.capa .foto{position:absolute;right:-70px;top:150px;width:800px;height:1050px;background:center 12%/cover;filter:contrast(1.12) brightness(.92);-webkit-mask-image:linear-gradient(90deg,transparent 2%,#000 46%),linear-gradient(0deg,transparent 0,#000 30%);-webkit-mask-composite:source-in;mask-composite:intersect}
+.brilho{position:absolute;border-radius:50%;background:radial-gradient(circle,rgba(217,98,43,.5),transparent 65%);mix-blend-mode:screen}
+.capa .et{position:absolute;left:76px;top:70px;font:700 17px Cinzel;letter-spacing:.26em;color:var(--noite);background:var(--ouro);padding:11px 18px 9px}
+.capa .canal{position:absolute;right:76px;top:76px;font:700 17px Cinzel;letter-spacing:.3em;color:var(--perg)}
+.capa h1{position:absolute;left:70px;bottom:330px;font-size:236px;line-height:.86;color:var(--perg)}
+.capa h1 em{font-style:normal;color:var(--ouro2);display:block}
+.capa h1 small{display:block;font-size:92px;line-height:1;margin-bottom:14px;letter-spacing:.01em}
+.capa .sub{position:absolute;left:76px;bottom:178px;width:700px;font:italic 500 37px/1.18 Cormorant;color:var(--perg)}
+.capa .pe{position:absolute;left:76px;right:76px;bottom:56px;display:flex;align-items:center;gap:18px;border-top:1px solid rgba(201,162,39,.4);padding-top:22px;font:700 15px Cinzel;letter-spacing:.24em;color:var(--ouro)}
+.capa .pe img{width:62px;height:62px;border-radius:50%}
+.capa .pe span:last-child{margin-left:auto;color:var(--cinza)}
+.tarja{background:var(--sangue);color:var(--perg);padding:0 14px}
+/* ---------- abertura de parte */
+.parte{padding:0}
+.parte .foto{position:absolute;inset:0;background:center 15%/cover;filter:contrast(1.15) brightness(.62)}
+.parte .veu{position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,10,8,.55) 0,rgba(11,10,8,.1) 30%,rgba(11,10,8,.93) 62%,var(--noite) 100%)}
+.parte .rom{position:absolute;left:70px;top:52px;font:400 250px/1 Anton;color:transparent;-webkit-text-stroke:2px var(--ouro2)}
+.parte .cx{position:absolute;left:76px;right:76px;bottom:96px}
+.parte h1{font-size:104px;color:var(--perg);margin:14px 0 14px}
+.parte .lin{font:italic 500 36px/1.2 Cormorant;color:var(--ouro2);margin-bottom:30px}
+.parte ol{list-style:none;border-top:1px solid rgba(201,162,39,.4)}
+.parte li{display:flex;gap:22px;align-items:baseline;padding:13px 0;border-bottom:1px solid rgba(239,230,210,.14);font-size:25px}
+.parte li b{font:400 27px Anton;color:var(--ouro);min-width:44px}
+/* ---------- páginas de texto */
+.txt h1{font-size:92px;margin:44px 0 26px}
+.txt h1.m{font-size:76px}
+.txt p{margin-bottom:20px;color:#e2d8c3}
+.txt .gr{font:italic 500 40px/1.2 Cormorant;color:var(--ouro2);margin-bottom:26px}
+.anat{margin-top:8px;border-top:1px solid rgba(201,162,39,.4)}
+.anat div{display:grid;grid-template-columns:210px 1fr;gap:24px;padding:19px 0;border-bottom:1px solid rgba(239,230,210,.14)}
+.anat b{font:700 16px Cinzel;letter-spacing:.22em;color:var(--ouro);padding-top:6px}
+.anat span{font-size:23.5px;line-height:1.4}
+.dois{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:26px}
+.cartao{background:var(--carvao);padding:26px 28px;border-top:4px solid var(--ouro)}
+.cartao.r{border-color:var(--brasa)}
+.cartao h3{font:400 46px Anton;text-transform:uppercase;margin-bottom:10px}
+.cartao p{font-size:22px;line-height:1.4;margin:0}
+.lei{background:var(--perg);color:#241b0e;padding:36px 40px;margin:8px 0 28px;border-top:6px solid var(--brasa)}
+.lei blockquote{font:italic 600 45px/1.15 Cormorant}
+.lei p{font-size:25px;margin:16px 0 0;color:#3b3222}
+.lei cite{display:block;font:700 15px Cinzel;font-style:normal;letter-spacing:.22em;color:#7a5a1a;margin-top:16px}
+.sum{columns:2;column-gap:44px;margin-top:6px}
+.sum section{break-inside:avoid;margin-bottom:22px}
+.sum h3{font:700 15px Cinzel;letter-spacing:.2em;color:var(--ouro);border-bottom:1px solid rgba(201,162,39,.4);padding-bottom:8px;margin-bottom:8px}
+.sum li{list-style:none;display:flex;gap:12px;font-size:19.5px;line-height:1.3;padding:4.5px 0;color:#e2d8c3}
+.sum li b{font:400 20px Anton;color:var(--ouro);min-width:30px}
+.perg{margin-top:4px;border-top:1px solid rgba(201,162,39,.4)}
+.perg div{display:grid;grid-template-columns:74px 1fr;gap:10px;padding:15px 0 14px;border-bottom:1px solid rgba(239,230,210,.14)}
+.perg i{font:400 52px/1 Anton;font-style:normal;color:var(--ouro)}
+.perg h3{font:400 29px Anton;text-transform:uppercase;letter-spacing:.01em}
+.perg p{font-size:22px;line-height:1.36;margin:4px 0 4px}
+.perg small{font:700 12.5px Cinzel;letter-spacing:.2em;color:var(--cinza);text-transform:uppercase}
+.folha{background:var(--perg);color:#241b0e}
+.folha:before{display:none}
+.folha .top{color:#7a5a1a;border-color:rgba(36,27,14,.3)}.folha .top span:last-child{color:#6b6252}
+.folha h1{font-size:76px;margin:36px 0 8px}
+.folha p{font-size:21px;color:#3b3222}
+.folha .campo{margin-top:18px}
+.folha .campo b{font:700 14px Cinzel;letter-spacing:.2em;color:#7a5a1a;display:block}
+.folha .campo i{display:block;border-bottom:1px solid rgba(36,27,14,.45);height:42px}
+.folha .g2{display:grid;grid-template-columns:1fr 1fr;gap:0 34px}
+.folha .rod{color:#6b6252;border-color:rgba(36,27,14,.25)}.folha .rod b{color:#7a5a1a}
+.l26{margin-top:2px;border-top:1px solid rgba(201,162,39,.4)}
+.l26 div{display:grid;grid-template-columns:86px 250px 1fr;gap:14px;align-items:baseline;padding:13.5px 0;border-bottom:1px solid rgba(239,230,210,.14)}
+.l26 i{font:400 30px Anton;font-style:normal;color:var(--ouro)}
+.l26 b{font:700 14.5px Cinzel;letter-spacing:.12em;text-transform:uppercase;color:var(--perg);line-height:1.3}
+.l26 span{font-size:21px;line-height:1.34;color:#ded4bf}
+.ff{margin-top:2px;border-top:1px solid rgba(201,162,39,.4)}
+.ff div{padding:15px 0 14px;border-bottom:1px solid rgba(239,230,210,.14);display:grid;grid-template-columns:1fr 220px;gap:6px 20px}
+.ff h3{font:italic 600 31px/1.15 Cormorant;color:var(--perg)}
+.ff .v{font:700 13px Cinzel;letter-spacing:.18em;text-align:right;color:#f08a52;padding-top:8px}
+.ff p{grid-column:1/3;font-size:20.5px;line-height:1.36;color:#cfc5b0;margin:0}
+.cred{columns:2;column-gap:40px;margin-top:8px}
+.cred li{list-style:none;font-size:19px;line-height:1.35;padding:5px 0;color:#cfc5b0;break-inside:avoid}
+.cred li b{color:var(--perg);font-weight:600}
+.txt h3.sec{font:700 15px Cinzel;letter-spacing:.24em;color:var(--ouro);margin:26px 0 12px}
+.passos div{display:grid;grid-template-columns:96px 1fr;gap:18px;padding:22px 0;border-bottom:1px solid rgba(239,230,210,.14)}
+.passos i{font:400 84px/0.9 Anton;font-style:normal;color:transparent;-webkit-text-stroke:2px var(--ouro)}
+.passos h3{font:400 36px Anton;text-transform:uppercase;margin-bottom:6px}
+.passos p{font-size:23px;margin:0}
+/* ---------- isca */
+.fr .ver{display:inline-block;font:400 46px Anton;letter-spacing:.02em;padding:6px 20px 4px;margin-top:40px;background:var(--sangue);color:var(--perg)}
+.fr .ver.ouro{background:var(--ouro);color:var(--noite)}
+.fr .n{position:absolute;right:76px;top:120px;font:400 200px/1 Anton;color:transparent;-webkit-text-stroke:2px rgba(201,162,39,.7)}
+.fr h1{font:italic 600 74px/1.04 Cormorant;text-transform:none;margin:24px 0 22px;max-width:800px;color:var(--perg)}
+.fr h1:before{content:"“"}.fr h1:after{content:"”"}
+.fr .pq{font-size:24px;color:#d9cfb9;max-width:900px}
+.fr .cit{margin-top:26px}
+.fr h3{font:700 15px Cinzel;letter-spacing:.24em;color:var(--ouro);margin:26px 0 8px}
+.fr .certo{font-size:24px;color:#e6dcc8}
+</style></head><body><section class="pg capa"><div class="brilho" style="left:-80px;top:120px;width:760px;height:760px;background:radial-gradient(circle,rgba(201,162,39,.42),transparent 65%)"></div>
+<div class="foto" style="background-image:url(../img/maquiavel.jpg);right:auto;left:-150px;top:60px;transform:scaleX(-1)"></div>
+<div class="et">CONFERIDO NO ORIGINAL</div><div class="canal">RAPOSA E LEÃO</div>
+<h1 style="font-size:150px;bottom:290px;left:auto;right:70px;text-align:right"><small style="font-size:64px">7 FRASES QUE</small>MAQUIAVEL<em>NUNCA <span class="tarja">DISSE</span></em></h1>
+<p class="sub" style="left:auto;right:76px;text-align:right;width:640px;bottom:170px">E o que ele escreveu de verdade, com obra e capítulo.</p>
+<div class="pe"><img src="../img/selo.jpg"><span>GUIA GRATUITO DO CANAL</span><span>2026</span></div></section><section class="pg txt"><header class="top"><span>RAPOSA E LEÃO</span><span>POR QUE ISTO IMPORTA</span></header><h1 class="m">A frase mais famosa dele <em class="o">não é dele</em></h1>
+<p class="gr">"Os fins justificam os meios." Você já leu, já ouviu, talvez já tenha repetido. Maquiavel nunca escreveu isso.</p>
+<p>Ele é um dos autores mais citados do mundo, e um dos menos lidos. O resultado é que a maior parte do "Maquiavel" que circula em vídeo, em post e em palestra é de outra pessoa, de um filme, ou foi cortada no meio.</p>
+<p>Isso tem custo. Quem aprende poder por frase falsa aprende errado: acha que ele mandou ser cruel, mentir e pisar nos outros. O texto diz coisa bem diferente, e bem mais útil.</p>
+<p>Nas próximas páginas estão as sete mais repetidas. Em cada uma:</p>
+<div class="anat">
+<div><b>O VEREDITO</b><span>Falsa, cortada, de filme ou de outro autor.</span></div>
+<div><b>O TEXTO</b><span>O que ele escreveu, em italiano e em português.</span></div>
+<div><b>A FONTE</b><span>Obra e capítulo, para você conferir.</span></div>
+<div><b>O USO CERTO</b><span>O que a ideia verdadeira ensina.</span></div>
+</div><footer class="rod"><span>Raposa e Leão · 7 frases que Maquiavel nunca disse</span><b>02</b></footer></section><section class="pg fr"><header class="top"><span>RAPOSA E LEÃO</span><span>FRASE 1 DE 7</span></header><div class="n">1</div><span class="ver ">NÃO EXISTE</span>
+<h1>Os fins justificam os meios.</h1><p class="pq">Não está em nenhum livro nem em nenhuma carta dele. A fórmula moral mais antiga parecida é do jesuíta Hermann Busenbaum (1650): &quot;quando o fim é lícito, também os meios são lícitos&quot;.</p>
+<figure class="cit"><blockquote lang="it">«e nelle azioni di tutti li uomini, e massime de&#x27; principi, dove non è iudizio a chi reclamare, si guarda al fine»</blockquote><p class="trad">"e nas ações de todos os homens, e sobretudo dos príncipes, onde não há tribunal a que recorrer, olha-se para o resultado"</p><figcaption>O Príncipe, cap. XVIII</figcaption></figure>
+<h3>O USO CERTO</h3><p class="certo">Ele descreve como as pessoas julgam (pelo resultado e pela aparência). Não dá licença a ninguém. No capítulo VIII, escreve que o crime pode dar poder, mas não glória.</p><footer class="rod"><span>Raposa e Leão · 7 frases que Maquiavel nunca disse</span><b>03</b></footer></section><section class="pg fr"><header class="top"><span>RAPOSA E LEÃO</span><span>FRASE 2 DE 7</span></header><div class="n">2</div><span class="ver ouro">CORTADA</span>
+<h1>É melhor ser temido do que amado.</h1><p class="pq">Cortaram o começo e o fim. O texto diz que o ideal é ser os dois, que a escolha só existe quando não dá para juntar, e que o limite é nunca ser odiado.</p>
+<figure class="cit"><blockquote lang="it">«è molto più sicuro essere temuto che amato, quando si abbi a mancare dell&#x27;uno de&#x27; dua»</blockquote><p class="trad">"é muito mais seguro ser temido que amado, quando se tiver de abrir mão de um dos dois"</p><figcaption>O Príncipe, cap. XVII</figcaption></figure>
+<h3>O USO CERTO</h3><p class="certo">Temido, no texto, é ser levado a sério. Odiado é quem mexe no dinheiro e na honra dos outros. Ele separa as duas coisas na mesma página.</p><footer class="rod"><span>Raposa e Leão · 7 frases que Maquiavel nunca disse</span><b>04</b></footer></section><section class="pg fr"><header class="top"><span>RAPOSA E LEÃO</span><span>FRASE 3 DE 7</span></header><div class="n">3</div><span class="ver ">É DE FILME</span>
+<h1>Mantenha os amigos perto e os inimigos mais perto ainda.</h1><p class="pq">A frase vem de O Poderoso Chefão II (1974), roteiro de Mario Puzo e Francis Ford Coppola. Também circula como sendo de Sun Tzu, sem fonte.</p>
+<figure class="cit"><blockquote lang="it">«la migliore fortezza che sia è non essere odiato dal populo»</blockquote><p class="trad">"a melhor fortaleza que existe é não ser odiado pelo povo"</p><figcaption>O Príncipe, cap. XX</figcaption></figure>
+<h3>O USO CERTO</h3><p class="certo">O mais perto que ele chega está no capítulo XX: príncipes novos acharam mais lealdade em quem era suspeito no começo do que em quem parecia confiável.</p><footer class="rod"><span>Raposa e Leão · 7 frases que Maquiavel nunca disse</span><b>05</b></footer></section><section class="pg fr"><header class="top"><span>RAPOSA E LEÃO</span><span>FRASE 4 DE 7</span></header><div class="n">4</div><span class="ver ">NÃO É DELE</span>
+<h1>Dividir para reinar.</h1><p class="pq">É uma máxima latina de origem incerta, atribuída a vários reis. Sobre a própria casa, ele escreve o contrário.</p>
+<figure class="cit"><blockquote lang="it">«io non credo che le divisioni facessino mai bene alcuno»</blockquote><p class="trad">"não creio que as divisões jamais tenham feito bem algum"</p><figcaption>O Príncipe, cap. XX</figcaption></figure>
+<h3>O USO CERTO</h3><p class="certo">Dividir os seus é sinal de fraqueza: na primeira crise, a parte mais fraca passa para o inimigo. Na guerra, sim, ele manda dividir as forças do adversário (Arte da Guerra, livro VI).</p><footer class="rod"><span>Raposa e Leão · 7 frases que Maquiavel nunca disse</span><b>06</b></footer></section><section class="pg fr"><header class="top"><span>RAPOSA E LEÃO</span><span>FRASE 5 DE 7</span></header><div class="n">5</div><span class="ver ouro">MEIA-VERDADE</span>
+<h1>Basta parecer bom. Não precisa ser.</h1><p class="pq">Ele diz que parecer é necessário, porque todos julgam pelos olhos. Mas a lista dele termina com duas palavras que somem na internet: &quot;e ser&quot;.</p>
+<figure class="cit"><blockquote lang="it">«ognuno vede quello che tu pari, pochi sentono quello che tu se&#x27;»</blockquote><p class="trad">"todos veem o que você parece, poucos sentem o que você é"</p><figcaption>O Príncipe, cap. XVIII</figcaption></figure>
+<h3>O USO CERTO</h3><p class="certo">O texto pede parecer piedoso, fiel, humano, íntegro, e ser. E pede não se afastar do bem, podendo. O &quot;não bom&quot; é exceção por necessidade, nunca estilo de vida.</p><footer class="rod"><span>Raposa e Leão · 7 frases que Maquiavel nunca disse</span><b>07</b></footer></section><section class="pg fr"><header class="top"><span>RAPOSA E LEÃO</span><span>FRASE 6 DE 7</span></header><div class="n">6</div><span class="ver ouro">ELE CITA PARA NEGAR</span>
+<h1>Quem se apoia no povo constrói na lama.</h1><p class="pq">A frase está no livro, mas como um provérbio gasto que ele derruba logo em seguida.</p>
+<figure class="cit"><blockquote lang="it">«a uno principe è necessario avere il populo amico, altrimenti non ha nelle avversità remedio»</blockquote><p class="trad">"ao príncipe é necessário ter o povo amigo; do contrário, não tem remédio nas adversidades"</p><figcaption>O Príncipe, cap. IX</figcaption></figure>
+<h3>O USO CERTO</h3><p class="certo">Para ele, quem se apoia no povo e sabe comandar nunca se verá enganado. Quem se apoia só nos poderosos vira refém deles.</p><footer class="rod"><span>Raposa e Leão · 7 frases que Maquiavel nunca disse</span><b>08</b></footer></section><section class="pg fr"><header class="top"><span>RAPOSA E LEÃO</span><span>FRASE 7 DE 7</span></header><div class="n">7</div><span class="ver ">É DE OUTRO</span>
+<h1>A política não tem nada a ver com a moral.</h1><p class="pq">É o resumo de uma interpretação do filósofo Benedetto Croce (a &quot;autonomia da política&quot;), quatro séculos depois. Não é texto de Maquiavel.</p>
+<figure class="cit"><blockquote lang="it">«è necessario, volendosi uno principe mantenere, imparare a potere essere non buono e usarlo e non usarlo secondo la necessità»</blockquote><p class="trad">"é necessário, para um príncipe se manter, aprender a poder não ser bom, e usar ou não usar isso segundo a necessidade"</p><figcaption>O Príncipe, cap. XV</figcaption></figure>
+<h3>O USO CERTO</h3><p class="certo">&quot;Poder não ser bom&quot; quando a necessidade obriga é diferente de &quot;a moral não importa&quot;. O mesmo livro condena quem ganha poder pelo crime.</p><footer class="rod"><span>Raposa e Leão · 7 frases que Maquiavel nunca disse</span><b>09</b></footer></section><section class="pg txt"><header class="top"><span>RAPOSA E LEÃO</span><span>FERRAMENTA</span></header><h1 class="m">Como conferir uma frase em <em class="o">30 segundos</em></h1>
+<p>Serve para Maquiavel e para qualquer autor antigo.</p>
+<div class="passos">
+<div><i>1</i><span><h3>Peça obra e capítulo</h3><p>Frase verdadeira tem endereço: "O Príncipe, capítulo XVII". Se a fonte é só o nome do autor, desconfie.</p></span></div>
+<div><i>2</i><span><h3>Leia a linha de cima e a de baixo</h3><p>Quase toda distorção é um corte. O "temido ou amado" muda de sentido com a frase inteira.</p></span></div>
+<div><i>3</i><span><h3>Veja quem está falando</h3><p>Às vezes o autor cita uma ideia para derrubá-la, como no provérbio da lama. E em peça de teatro, quem fala é o personagem.</p></span></div>
+<div><i>4</i><span><h3>Desconfie da frase perfeita</h3><p>Texto de 1513 não soa como legenda de rede social. Se está redonda demais, alguém arredondou.</p></span></div>
+</div><footer class="rod"><span>Raposa e Leão · 7 frases que Maquiavel nunca disse</span><b>10</b></footer></section><section class="pg txt"><header class="top"><span>RAPOSA E LEÃO</span><span>O PRÓXIMO PASSO</span></header><h1 class="m">Agora o que ele <em class="o">escreveu de fato</em></h1>
+<p class="gr">Saber o que é falso é metade. A outra metade é usar o verdadeiro.</p>
+<p>O <b>Manual de Campo</b> do canal pega 30 situações que se repetem no trabalho, nos negócios e na vida, e mostra em cada uma o que Maquiavel escreveu, com obra e capítulo, e como aplicar hoje.</p>
+<div class="anat">
+<div><b>30 SITUAÇÕES</b><span>Chefe, sócio, cliente, rival, dinheiro, crise e recomeço. Uma página para cada.</span></div>
+<div><b>CADA FRASE COM A FONTE</b><span>Em italiano e em português, conferida no original.</span></div>
+<div><b>3 PASSOS E 1 FREIO</b><span>O que fazer hoje, e onde a ideia vira distorção.</span></div>
+<div><b>3 FERRAMENTAS</b><span>As 13 perguntas, a folha de decisão e O Príncipe em 26 linhas.</span></div>
+</div><p style="margin-top:22px"><b>Para ver o manual:</b> o link está na descrição dos vídeos e no comentário fixado do canal Raposa e Leão.</p><p style="margin-top:14px;color:var(--cinza);font-size:20px">As citações em italiano deste guia seguem a edição crítica de Giorgio Inglese (Einaudi, 1995). Traduções livres. Retrato da capa: Santi di Tito, séc. XVI, domínio público.</p><footer class="rod"><span>Raposa e Leão · 7 frases que Maquiavel nunca disse</span><b>11</b></footer></section></body></html>
