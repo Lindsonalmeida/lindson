@@ -274,3 +274,4 @@ Levantado pela conta Lindson em 01/11/2026 a partir do histórico do git e dos a
 | 13/11/2026 | Pedro | Leo Pinto: aniversário Ezequias Diniz (feed e story, modelo B) | privado leo/aniversarios/ | aguardando aprovação |
 | 13/11/2026 | Pedro | Central: botões do painel voltaram a funcionar (admin e calendário dos clientes) | painel/admin.html e prototipo/real.js | no ar |
 | 14/11/2026 | Leandro | Raposa: Shorts 31-40 no app de postagem da Central (vídeo, capa, textos, agenda; montar-canais.py lê arquivos finais do repo) | /painel/canais#raposa | pronto |
+| 14/11/2026 | Pedro | Dra. Jaci: 5 criativos premium de Black Friday (feed e story) | privado dados/clientes-arquivos/jaci-criativos-bf/ | aguardando aprovação |

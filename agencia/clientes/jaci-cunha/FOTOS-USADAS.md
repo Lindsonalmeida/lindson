@@ -60,3 +60,4 @@ Fotos novas (IMG_30xx, 36 fotos que o Lindson subiu no painel em 04/11) no priva
 
 - 13/11/2026 (Zuleide) · Meta Ads v2 (privado jaci-criativos-v2): v3-cons1, v3-t-harm, v3-dra-recorte, v3-t-odonto, v3-beleza, v3-cons3, v3-j1, v3-bio, v3-cons4, jaci-off-white-sofa-sorrindo
 - 13/11/2026 (Pedro) · Meta Ads v3 (privado `jaci-criativos-v3/`, recortadas, 2º uso em contexto de anúncio): IMG_3013 (01), IMG_3051 (02), IMG_3035 (03), IMG_3014 (04), IMG_3026 (05), IMG_3033 (06), IMG_3028 (07), IMG_3009 (08), IMG_3020 (09), IMG_3019 (10). Recortes em `jaci-criativos-v3/recortes/`.
+- 14/11/2026 (Pedro) · Meta Ads Black Friday (privado `jaci-criativos-bf/`, recortadas): IMG_3018 (01), IMG_3052 (02), IMG_3043 (03), IMG_3015 (04), IMG_3029 (05). Primeiro uso em anúncio.
