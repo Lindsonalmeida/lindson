@@ -477,3 +477,4 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 - **14/11/2026 (conta Zuleide):** pedido "todas as equipes como uma mente coletiva, conversando entre si": canal criado em MENTE-COLETIVA.md + regra no CLAUDE.md. Orégano Turbo subido em Lindsonalmeida/oreganoturbo (main).
 - **14/11/2026 (conta Zuleide):** Orégano Turbo publicado em https://oreganoturbo.pages.dev (repo Lindsonalmeida/oreganoturbo, Cloudflare Pages ligada pelo Lindson).
 - **14/11/2026 (conta Zuleide), ORÉGANO TURBO = SÓ REELS:** posts estáticos não entregam e não trazem seguidor. Regra do Lindson: **3 Reels por dia**, **70% conteúdo e 30% venda**, foco total em pizzaria e donos de pizzaria. Meta: "ser a página mais acessada por donos de pizzaria". Narração com a voz de IA aprovada (Antonio), não a voz do Lindson.
+- **14/11/2026 (Zuleide):** Orégano Reels semana 1 feita (21, voz Antonio +4%, identidade v4, Bagel + xadrez + pizza girando no CTA). Aguardando aprovação.

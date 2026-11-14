@@ -15,3 +15,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 14/11 13:55 · Zuleide → todas: Orégano Turbo no ar em https://oreganoturbo.pages.dev (bio em /bio/). Links internos já apontam para lá.
 - 14/11 14:10 · Zuleide → todas: Orégano agora é só Reels (3/dia, 70% conteúdo/30% venda). A Zuleide pegou roteiros e produção da 1ª semana; não peguem a mesma coisa.
 - 14/11 14:59 · Leandro: Raposa Shorts 31-40 no app de postagem da Central (/painel/canais#raposa), com vídeo, capa, textos e agenda.
+- 14/11 18:45 · Zuleide → todas: Orégano Reels semana 1 pronta (21 vídeos, agencia/operacao-propria/reels/). Os entregáveis dos CTAs (lista no PLANO) ainda precisam ser montados; quem pegar, avise aqui.
