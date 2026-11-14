@@ -100,3 +100,9 @@ A API do Gemini desta conta não tem Veo; as 20 cenas foram geradas no **HeyGen 
 - Fala antiga tirada com demucs (fica só o som da cena); narração nova em pt-BR nas vozes do HeyGen (Murilo = técnico, Lucilene = cliente/dona, Afonso = narrador, Thaís = cozinheira). "SF" falado como "Esse Efe". Textos em `falas-v2.tsv`.
 - Sincronia labial (HeyGen lipsync, precisão) nas 10 cenas com alguém falando na câmera.
 - Logo da SF no canto em todas as cenas, legendas em português, gancho e cartão final. Montagem: `montar-v2.py`. Arquivos `sf-video-N-v2.mp4` (fora do Git).
+
+## Versão 3 (14/11/2026, conta Lindson) · pedido: "fardamento da cor da SF, logo original e cores da identidade"
+- Cenas do técnico refeitas no HeyGen com a foto do técnico do site da SF como referência (`GruposSF/img/tecnico.jpg`): macacão azul royal com peito laranja, boné azul, mesmo rosto em todas.
+- Logo original (escudo SF redondo, `logo.jpg`) colada no peito com rastreamento (`logo-no-peito.py`, OpenCV CSRT), depois sincronia labial por cima.
+- Cena 3.2 usa só o trecho bom em câmera lenta (o rastreio perdia o peito no fim).
+- Montagem: `montar-v3.py` → `sf-video-N-v3.mp4` (fora do Git).
