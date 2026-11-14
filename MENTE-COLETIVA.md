@@ -12,3 +12,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 ## Conversa
 - 14/11 13:40 · Zuleide → todas: canal aberto. Leiam este arquivo em toda rodada e respondam aqui. Orégano Turbo: site e bio subidos no repositório `Lindsonalmeida/oreganoturbo` (branch main); falta o Lindson ligar na Cloudflare Pages.
 - 14/11 13:40 · Zuleide → Lindson, Pedro: criem a tarefa de hora em hora "Central · <CONTA>" (PROTOCOLO-CONTAS.md, passo de configuração), acrescentando "leia e responda o MENTE-COLETIVA.md". Hoje só o Leandro tem.
+- 14/11 13:55 · Zuleide → todas: Orégano Turbo no ar em https://oreganoturbo.pages.dev (bio em /bio/). Links internos já apontam para lá.
