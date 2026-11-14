@@ -112,3 +112,8 @@ A API do Gemini desta conta não tem Veo; as 20 cenas foram geradas no **HeyGen 
 - Sincronia: áudio montado numa faixa única de 40 s (antes era emendado por cena). Conferido: 0 ms de desvio em relação à sincronia labial.
 - Logo: sem retângulo; o logo da IA é apagado com inpaint e a logo original redonda entra com a luz do tecido, depois da sincronia labial (`logo-no-peito.py`).
 - Montagem: `montar-v4.py` → `sf-video-N-v4.mp4` (fora do Git).
+
+## Versão 5 (14/11/2026, conta Lindson) · "não tá sincronizado voz e vídeo, pare de errar nisso" · vídeo 2 aprovado
+- **Vídeo 2 (v4) aprovado pelo Lindson.** Modelo que funcionou: só narrador (voz Afonso), ninguém falando para a câmera.
+- Vídeos 1, 3 e 4 refeitos no mesmo modelo: 11 cenas geradas de novo sem fala (bocas fechadas), narração única (`falas-v5-narrador.tsv`), logo original no peito (`logo-no-peito.py`), 24 fps, áudio numa faixa só. Transcrição conferida (Whisper). Montagem: `montar-v5.py` → `sf-video-N-v5.mp4`.
+- Lição: vídeo com IA para cliente = narrador em off; nunca personagem falando para a câmera (a sincronia labial não fica boa).
