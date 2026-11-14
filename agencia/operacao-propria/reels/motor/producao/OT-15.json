@@ -1,0 +1,136 @@
+{
+ "_nota": "Ficha OT (14/11/2026). Fotos Pexels (licença livre) em ../fotos/.",
+ "beat_sync": true,
+ "voz_rate": "+4%",
+ "voz_max": 27.5,
+ "trilha": "midnight-funk-117bpm.mp3",
+ "trilha_ini": 8,
+ "capa": {
+  "foto": "29807152.jpg",
+  "palavra": "SEGUNDA",
+  "manchete": "O relatório que",
+  "caixa": "chega toda segunda",
+  "rotulo": "Método",
+  "wordTop": 330,
+  "wordSize": 420,
+  "headTop": 1290,
+  "tagTop": 1225,
+  "auto": false,
+  "fx": 0,
+  "fy": 0,
+  "fw": 1080
+ },
+ "cenas": [
+  {
+   "tipo": "fotofull",
+   "texto": [
+    "Toda",
+    "segunda"
+   ],
+   "hl": [
+    1
+   ],
+   "hit": [
+    "segunda"
+   ],
+   "vfx": [
+    "punch"
+   ],
+   "foto": "29807152.jpg",
+   "_cred": "https://www.pexels.com/photo/29807152/",
+   "top": 470,
+   "size": 180
+  },
+  {
+   "tipo": "lista",
+   "texto": [],
+   "titulo": "O relatório",
+   "itens": [
+    [
+     "R$",
+     "Investimento"
+    ],
+    [
+     "Nº",
+     "Pedidos por anúncio"
+    ],
+    [
+     "→",
+     "O que muda"
+    ]
+   ],
+   "tempos_em": [
+    "investiu",
+    "pedidos",
+    "muda"
+   ]
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "1 página"
+   ],
+   "hl": [
+    0
+   ],
+   "hit": [
+    "página"
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  },
+  {
+   "tipo": "frase",
+   "texto": [
+    "Você decide"
+   ],
+   "carimbo": "TRANSPARENTE",
+   "carimboAt": "número",
+   "size": 170,
+   "top": 560
+  },
+  {
+   "tipo": "banco",
+   "texto": [
+    "Só com",
+    "pizzaria"
+   ],
+   "clip": "empreendedora-notebook",
+   "hl": [
+    1
+   ],
+   "size": 170,
+   "top": 560,
+   "vfx": [
+    "punch"
+   ]
+  },
+  {
+   "tipo": "cta",
+   "texto": [],
+   "etiquetas": [
+    "Modelo",
+    "Ilustrativo"
+   ],
+   "vfx": [
+    "leak"
+   ],
+   "foto": "10802332.jpg",
+   "_cred": "https://www.pexels.com/photo/10802332/"
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Sem",
+    "achismo"
+   ],
+   "hl": [
+    1
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  }
+ ]
+}

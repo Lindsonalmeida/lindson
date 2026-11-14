@@ -1,0 +1,137 @@
+{
+ "_nota": "Ficha OT (14/11/2026). Fotos Pexels (licença livre) em ../fotos/.",
+ "beat_sync": true,
+ "voz_rate": "+4%",
+ "voz_max": 27.5,
+ "trilha": "pop-track-03-108bpm.mp3",
+ "trilha_ini": 2,
+ "capa": {
+  "foto": "8176833.jpg",
+  "palavra": "CMV",
+  "manchete": "Você sabe quanto",
+  "caixa": "custa sua pizza?",
+  "rotulo": "Gestão",
+  "wordTop": 330,
+  "wordSize": 420,
+  "headTop": 1290,
+  "tagTop": 1225,
+  "auto": false,
+  "fx": 0,
+  "fy": 0,
+  "fw": 1080
+ },
+ "cenas": [
+  {
+   "tipo": "fotofull",
+   "texto": [
+    "Quanto custa",
+    "sua pizza?"
+   ],
+   "hl": [
+    1
+   ],
+   "hit": [
+    "calabresa"
+   ],
+   "vfx": [
+    "punch"
+   ],
+   "foto": "8176833.jpg",
+   "_cred": "https://www.pexels.com/photo/8176833/",
+   "top": 470,
+   "size": 180
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "CMV"
+   ],
+   "hl": [
+    0
+   ],
+   "hit": [
+    "CMV"
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  },
+  {
+   "tipo": "frase",
+   "texto": [
+    "25% a 35%",
+    "do preço"
+   ],
+   "carimbo": "REFERÊNCIA",
+   "carimboAt": "preço",
+   "size": 170,
+   "top": 560
+  },
+  {
+   "tipo": "lista",
+   "texto": [],
+   "titulo": "Ficha técnica",
+   "itens": [
+    [
+     "1",
+     "Massa e molho"
+    ],
+    [
+     "2",
+     "Queijo e recheio"
+    ],
+    [
+     "3",
+     "Caixa"
+    ]
+   ],
+   "tempos_em": [
+    "massa",
+    "queijo",
+    "caixa"
+   ]
+  },
+  {
+   "tipo": "banco",
+   "texto": [
+    "Preço",
+    "no chute"
+   ],
+   "clip": "empreendedora-notebook",
+   "hl": [
+    1
+   ],
+   "size": 170,
+   "top": 560,
+   "vfx": [
+    "punch"
+   ]
+  },
+  {
+   "tipo": "cta",
+   "texto": [],
+   "etiquetas": [
+    "Planilha",
+    "Grátis"
+   ],
+   "vfx": [
+    "leak"
+   ],
+   "foto": "31587851.jpg",
+   "_cred": "https://www.pexels.com/photo/31587851/"
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Faz a conta",
+    "hoje"
+   ],
+   "hl": [
+    1
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  }
+ ]
+}

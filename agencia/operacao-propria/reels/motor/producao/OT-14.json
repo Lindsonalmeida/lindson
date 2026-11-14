@@ -1,0 +1,141 @@
+{
+ "_nota": "Ficha OT (14/11/2026). Fotos Pexels (licença livre) em ../fotos/.",
+ "beat_sync": true,
+ "voz_rate": "+4%",
+ "voz_max": 27.5,
+ "trilha": "trap-electro-vibes-112bpm.mp3",
+ "trilha_ini": 20,
+ "capa": {
+  "foto": "20115309.jpg",
+  "palavra": "1 HORA",
+  "manchete": "O que dá pra gravar",
+  "caixa": "na sua cozinha",
+  "rotulo": "Bastidor",
+  "wordTop": 330,
+  "wordSize": 420,
+  "headTop": 1290,
+  "tagTop": 1225,
+  "auto": false,
+  "fx": 0,
+  "fy": 0,
+  "fw": 1080
+ },
+ "cenas": [
+  {
+   "tipo": "fotofull",
+   "texto": [
+    "1 hora",
+    "= 1 mês"
+   ],
+   "hl": [
+    0
+   ],
+   "hit": [
+    "mês"
+   ],
+   "vfx": [
+    "punch",
+    "leak"
+   ],
+   "foto": "20115309.jpg",
+   "_cred": "https://www.pexels.com/photo/20115309/",
+   "top": 470,
+   "size": 180
+  },
+  {
+   "tipo": "lista",
+   "texto": [],
+   "titulo": "As cenas",
+   "itens": [
+    [
+     "1",
+     "Massa abrindo"
+    ],
+    [
+     "2",
+     "Queijo puxando"
+    ],
+    [
+     "3",
+     "Forno"
+    ],
+    [
+     "4",
+     "Caixa fechando"
+    ]
+   ],
+   "tempos_em": [
+    "massa",
+    "queijo",
+    "forno",
+    "caixa"
+   ],
+   "compacto": true
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Vertical",
+    "luz de frente"
+   ],
+   "hl": [
+    0
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  },
+  {
+   "tipo": "frase",
+   "texto": [
+    "A pizza",
+    "fala"
+   ],
+   "carimbo": "SEM ROSTO",
+   "carimboAt": "fala",
+   "size": 170,
+   "top": 560
+  },
+  {
+   "tipo": "banco",
+   "texto": [
+    "Um por dia"
+   ],
+   "clip": "trabalho-e-redes",
+   "hl": [
+    0
+   ],
+   "size": 170,
+   "top": 560,
+   "vfx": [
+    "punch"
+   ]
+  },
+  {
+   "tipo": "cta",
+   "texto": [],
+   "etiquetas": [
+    "10 cenas",
+    "No celular"
+   ],
+   "vfx": [
+    "leak"
+   ],
+   "foto": "29807155.jpg",
+   "_cred": "https://www.pexels.com/photo/29807155/"
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Grava no",
+    "sábado"
+   ],
+   "hl": [
+    1
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  }
+ ]
+}

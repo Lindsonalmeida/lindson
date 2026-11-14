@@ -1,0 +1,133 @@
+{
+ "_nota": "Ficha OT (14/11/2026). Fotos Pexels (licença livre) em ../fotos/.",
+ "beat_sync": true,
+ "voz_rate": "+4%",
+ "voz_max": 27.5,
+ "trilha": "trap-electro-vibes-112bpm.mp3",
+ "trilha_ini": 20,
+ "capa": {
+  "foto": "13185303.jpg",
+  "palavra": "JÁ OUVI",
+  "manchete": "Coisas que todo",
+  "caixa": "pizzaiolo já ouviu",
+  "rotulo": "Humor de dono",
+  "wordTop": 330,
+  "wordSize": 420,
+  "headTop": 1290,
+  "tagTop": 1225,
+  "auto": false,
+  "fx": 0,
+  "fy": 0,
+  "fw": 1080
+ },
+ "cenas": [
+  {
+   "tipo": "chat",
+   "texto": [],
+   "nome": "Clientes",
+   "msgs": [
+    [
+     "ele",
+     "Dá pra fazer meia calabresa, meia doce e borda de outra?"
+    ],
+    [
+     "ele",
+     "Faz um desconto que eu divulgo pros amigos 😅"
+    ]
+   ],
+   "tempos_em": [
+    "ouviu",
+    "pizzaria"
+   ]
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Meia",
+    "meia meia"
+   ],
+   "hl": [
+    1
+   ],
+   "hit": [
+    "chocolate"
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Eu divulgo"
+   ],
+   "hl": [
+    0
+   ],
+   "hit": [
+    "divulgo"
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Tá",
+    "chegando?"
+   ],
+   "hl": [
+    1
+   ],
+   "hit": [
+    "chegando"
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  },
+  {
+   "tipo": "banco",
+   "texto": [
+    "Forno",
+    "a mil"
+   ],
+   "clip": "sorrindo-no-celular",
+   "hl": [
+    1
+   ],
+   "size": 170,
+   "top": 560,
+   "vfx": [
+    "punch"
+   ]
+  },
+  {
+   "tipo": "cta",
+   "texto": [],
+   "etiquetas": [
+    "Conta aqui",
+    "A pior"
+   ],
+   "vfx": [
+    "leak"
+   ],
+   "foto": "13185303.jpg",
+   "_cred": "https://www.pexels.com/photo/13185303/"
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Marca seu",
+    "pizzaiolo"
+   ],
+   "hl": [
+    1
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "_nota": "Ficha OT (14/11/2026). Fotos Pexels (licença livre) em ../fotos/.",
+ "beat_sync": true,
+ "voz_rate": "+4%",
+ "voz_max": 27.5,
+ "trilha": "pop-track-03-108bpm.mp3",
+ "trilha_ini": 2,
+ "capa": {
+  "foto": "11432059.jpg",
+  "palavra": "40 MIL",
+  "manchete": "Pizzarias no Brasil.",
+  "caixa": "E a sua?",
+  "rotulo": "Dados do setor",
+  "wordTop": 330,
+  "wordSize": 420,
+  "headTop": 1290,
+  "tagTop": 1225,
+  "auto": false,
+  "fx": 0,
+  "fy": 0,
+  "fw": 1080
+ },
+ "cenas": [
+  {
+   "tipo": "fotofull",
+   "texto": [
+    "40.332",
+    "pizzarias"
+   ],
+   "hl": [
+    0
+   ],
+   "hit": [
+    "quarenta"
+   ],
+   "vfx": [
+    "punch"
+   ],
+   "foto": "11432059.jpg",
+   "_cred": "https://www.pexels.com/photo/11432059/",
+   "top": 470,
+   "size": 180
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "98%",
+    "fazem delivery"
+   ],
+   "hl": [
+    0
+   ],
+   "hit": [
+    "oito"
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "75%",
+    "usam app"
+   ],
+   "hl": [
+    0
+   ],
+   "hit": [
+    "cinco"
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  },
+  {
+   "tipo": "frase",
+   "texto": [
+    "Muita opção",
+    "na mesma tela"
+   ],
+   "carimbo": "CONCORRÊNCIA",
+   "carimboAt": "tela",
+   "size": 170,
+   "top": 560
+  },
+  {
+   "tipo": "banco",
+   "texto": [
+    "Foto, sabor",
+    "e confiança"
+   ],
+   "clip": "maos-digitando-celular",
+   "hl": [
+    0
+   ],
+   "size": 170,
+   "top": 560,
+   "vfx": [
+    "punch"
+   ]
+  },
+  {
+   "tipo": "cta",
+   "texto": [],
+   "etiquetas": [
+    "Fonte: Apubra",
+    "Galunion"
+   ],
+   "vfx": [
+    "leak"
+   ],
+   "foto": "33593000.jpg",
+   "_cred": "https://www.pexels.com/photo/33593000/"
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Salva",
+    "pro sócio"
+   ],
+   "hl": [
+    0
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  }
+ ]
+}

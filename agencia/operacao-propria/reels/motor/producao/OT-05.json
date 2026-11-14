@@ -1,0 +1,138 @@
+{
+ "_nota": "Ficha OT (14/11/2026). Fotos Pexels (licença livre) em ../fotos/.",
+ "beat_sync": true,
+ "voz_rate": "+4%",
+ "voz_max": 27.5,
+ "trilha": "trap-electro-vibes-112bpm.mp3",
+ "trilha_ini": 20,
+ "capa": {
+  "foto": "33592994.jpg",
+  "palavra": "MASSA",
+  "manchete": "Sua massa encolhe",
+  "caixa": "quando abre?",
+  "rotulo": "Técnica de massa",
+  "wordTop": 330,
+  "wordSize": 420,
+  "headTop": 1290,
+  "tagTop": 1225,
+  "auto": false,
+  "fx": 0,
+  "fy": 0,
+  "fw": 1080
+ },
+ "cenas": [
+  {
+   "tipo": "fotofull",
+   "texto": [
+    "A massa",
+    "encolhe?"
+   ],
+   "hl": [
+    1
+   ],
+   "hit": [
+    "encolhe"
+   ],
+   "vfx": [
+    "punch"
+   ],
+   "foto": "33592994.jpg",
+   "_cred": "https://www.pexels.com/photo/33592994/",
+   "top": 470,
+   "size": 180
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Glúten",
+    "tenso"
+   ],
+   "hl": [
+    1
+   ],
+   "hit": [
+    "tenso"
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  },
+  {
+   "tipo": "lista",
+   "texto": [],
+   "titulo": "3 motivos",
+   "itens": [
+    [
+     "1",
+     "Pouco descanso"
+    ],
+    [
+     "2",
+     "Massa gelada"
+    ],
+    [
+     "3",
+     "Sova demais"
+    ]
+   ],
+   "tempos_em": [
+    "descanso",
+    "gelada",
+    "sova"
+   ]
+  },
+  {
+   "tipo": "frase",
+   "texto": [
+    "Temperatura",
+    "ambiente"
+   ],
+   "carimbo": "DESCANSO",
+   "carimboAt": "abrir",
+   "size": 170,
+   "top": 560
+  },
+  {
+   "tipo": "banco",
+   "texto": [
+    "Do centro",
+    "pra borda"
+   ],
+   "clip": "maos-digitando-celular",
+   "hl": [
+    1
+   ],
+   "size": 170,
+   "top": 560,
+   "vfx": [
+    "punch"
+   ]
+  },
+  {
+   "tipo": "cta",
+   "texto": [],
+   "etiquetas": [
+    "Checklist",
+    "Massa"
+   ],
+   "vfx": [
+    "leak"
+   ],
+   "foto": "16677736.jpg",
+   "_cred": "https://www.pexels.com/photo/16677736/"
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Manda pro",
+    "pizzaiolo"
+   ],
+   "hl": [
+    1
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  }
+ ]
+}

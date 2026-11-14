@@ -1,0 +1,138 @@
+{
+ "_nota": "Ficha OT (14/11/2026). Fotos Pexels (licença livre) em ../fotos/.",
+ "beat_sync": true,
+ "voz_rate": "+4%",
+ "voz_max": 27.5,
+ "trilha": "pop-track-03-108bpm.mp3",
+ "trilha_ini": 2,
+ "capa": {
+  "foto": "31596394.jpg",
+  "palavra": "1889",
+  "manchete": "A pizza que nasceu",
+  "caixa": "pra uma rainha",
+  "rotulo": "História da pizza",
+  "wordTop": 330,
+  "wordSize": 420,
+  "headTop": 1290,
+  "tagTop": 1225,
+  "auto": false,
+  "fx": 0,
+  "fy": 0,
+  "fw": 1080
+ },
+ "cenas": [
+  {
+   "tipo": "fotofull",
+   "texto": [
+    "Nome de",
+    "rainha"
+   ],
+   "hl": [
+    1
+   ],
+   "hit": [
+    "rainha"
+   ],
+   "vfx": [
+    "punch"
+   ],
+   "foto": "31596394.jpg",
+   "_cred": "https://www.pexels.com/photo/31596394/",
+   "top": 470,
+   "size": 180
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Nápoles",
+    "1889"
+   ],
+   "hl": [
+    1
+   ],
+   "hit": [
+    "1889"
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  },
+  {
+   "tipo": "lista",
+   "texto": [],
+   "titulo": "As 3 cores",
+   "itens": [
+    [
+     "1",
+     "Tomate"
+    ],
+    [
+     "2",
+     "Mussarela"
+    ],
+    [
+     "3",
+     "Manjericão"
+    ]
+   ],
+   "tempos_em": [
+    "tomate",
+    "mussarela",
+    "manjericão"
+   ]
+  },
+  {
+   "tipo": "frase",
+   "texto": [
+    "A história",
+    "vende"
+   ],
+   "carimbo": "LENDA OU FATO",
+   "carimboAt": "prova",
+   "size": 170,
+   "top": 560
+  },
+  {
+   "tipo": "banco",
+   "texto": [
+    "Sua pizza",
+    "tem história?"
+   ],
+   "clip": "celular-noite-digitando",
+   "hl": [
+    1
+   ],
+   "size": 170,
+   "top": 560,
+   "vfx": [
+    "punch"
+   ]
+  },
+  {
+   "tipo": "cta",
+   "texto": [],
+   "etiquetas": [
+    "5 histórias",
+    "Cardápio"
+   ],
+   "vfx": [
+    "leak"
+   ],
+   "foto": "30948829.jpg",
+   "_cred": "https://www.pexels.com/photo/30948829/"
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Cliente lembra",
+    "de história"
+   ],
+   "hl": [
+    1
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  }
+ ]
+}

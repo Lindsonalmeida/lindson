@@ -1,0 +1,1548 @@
+{
+ "leva": "Reels Orégano Turbo · semana 1",
+ "criado": "2026-11-14",
+ "conta": "Zuleide (Paollo)",
+ "reels": [
+  {
+   "id": "OT-01",
+   "ordem": 1,
+   "post": {
+    "data": "16/11",
+    "hora": "12:10"
+   },
+   "titulo": "A pizza Margherita nasceu de um pedido da rainha (ou quase)",
+   "tipo": "conteudo",
+   "linha_editorial": "História da pizza",
+   "capa_cor": "preto",
+   "cta_palavra": "RAINHA",
+   "entrega_no_video": "Te mando 5 histórias de sabores pra usar no seu cardápio.",
+   "blocos_voz": [
+    "Essa pizza tem nome de rainha. Conta a história que em 1889, em Nápoles, um pizzaiolo fez uma pizza pra rainha Margherita. Tomate, mussarela e manjericão. As cores da bandeira da Itália.",
+    "Se é lenda ou fato, ninguém prova. Mas a história vende até hoje. Seu sabor da casa também pode ter uma história. Comenta RAINHA que eu te mando cinco histórias de sabores pra usar no cardápio.",
+    "Cliente lembra de história."
+   ],
+   "cenas": [
+    {
+     "narracao": "Essa pizza tem nome de rainha.",
+     "texto_tela": "Nome de rainha",
+     "texto_tela_palavras": [
+      "Nome de",
+      "rainha"
+     ]
+    },
+    {
+     "narracao": "Conta a história que em 1889, em Nápoles, um pizzaiolo fez uma pizza pra rainha Margherita.",
+     "texto_tela": "Nápoles 1889",
+     "texto_tela_palavras": [
+      "Nápoles",
+      "1889"
+     ]
+    },
+    {
+     "narracao": "Tomate, mussarela e manjericão. As cores da bandeira da Itália.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Se é lenda ou fato, ninguém prova. Mas a história vende até hoje.",
+     "texto_tela": "A história vende",
+     "texto_tela_palavras": [
+      "A história",
+      "vende"
+     ]
+    },
+    {
+     "narracao": "Seu sabor da casa também pode ter uma história.",
+     "texto_tela": "Sua pizza tem história?",
+     "texto_tela_palavras": [
+      "Sua pizza",
+      "tem história?"
+     ]
+    },
+    {
+     "narracao": "Comenta RAINHA que eu te mando cinco histórias de sabores pra usar no cardápio.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Cliente lembra de história.",
+     "texto_tela": "Cliente lembra de história",
+     "texto_tela_palavras": [
+      "Cliente lembra",
+      "de história"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "OT-02",
+   "ordem": 2,
+   "post": {
+    "data": "16/11",
+    "hora": "19:10"
+   },
+   "titulo": "POV: é terça-feira e a pizzaria está parada",
+   "tipo": "conteudo",
+   "linha_editorial": "Humor de dono",
+   "capa_cor": "preto",
+   "cta_palavra": "TERÇA",
+   "entrega_no_video": "Te mando 3 ideias de ação para dia fraco (sem desconto).",
+   "blocos_voz": [
+    "POV: é terça-feira. O forno tá quente e o telefone tá mudo. Você abre o iFood de cinco em cinco minutos. E pensa: fim de semana eu compenso. Só que dia fraco não se resolve no sábado.",
+    "Se resolve com motivo pra pedir na terça. Sabor da semana, combo da família, pizza do dia na lista do WhatsApp. Comenta TERÇA que eu te mando três ideias pra dia fraco sem dar desconto. Marca quem conhece essa terça."
+   ],
+   "cenas": [
+    {
+     "narracao": "POV: é terça-feira. O forno tá quente e o telefone tá mudo.",
+     "texto_tela": "POV: terça-feira",
+     "texto_tela_palavras": [
+      "POV:",
+      "terça-feira"
+     ]
+    },
+    {
+     "narracao": "Você abre o iFood de cinco em cinco minutos.",
+     "texto_tela": "De 5 em 5 minutos",
+     "texto_tela_palavras": [
+      "De 5 em 5",
+      "minutos"
+     ]
+    },
+    {
+     "narracao": "E pensa: fim de semana eu compenso.",
+     "texto_tela": "Fim de semana eu compenso",
+     "texto_tela_palavras": [
+      "Fim de semana",
+      "eu compenso"
+     ]
+    },
+    {
+     "narracao": "Só que dia fraco não se resolve no sábado. Se resolve com motivo pra pedir na terça.",
+     "texto_tela": "Motivo pra pedir na terça",
+     "texto_tela_palavras": [
+      "Motivo pra",
+      "pedir na terça"
+     ]
+    },
+    {
+     "narracao": "Sabor da semana, combo da família, pizza do dia na lista do WhatsApp.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Comenta TERÇA que eu te mando três ideias pra dia fraco sem dar desconto.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Marca quem conhece essa terça.",
+     "texto_tela": "Marca quem conhece",
+     "texto_tela_palavras": [
+      "Marca quem",
+      "conhece"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "OT-03",
+   "ordem": 3,
+   "post": {
+    "data": "16/11",
+    "hora": "23:40"
+   },
+   "titulo": "O Raio-X da pizzaria: o que a gente olha em 10 minutos",
+   "tipo": "venda",
+   "linha_editorial": "Raio-X",
+   "capa_cor": "preto",
+   "cta_palavra": "RAIO-X",
+   "entrega_no_video": "Te mando como pedir o Raio-X da sua pizzaria.",
+   "blocos_voz": [
+    "Antes de falar em anúncio, eu olho três coisas na sua pizzaria. A foto do cardápio. O caminho até o pedido. E quanto tempo o cliente espera resposta no WhatsApp. Se uma delas trava, o anúncio vira dinheiro jogado fora.",
+    "Por isso o primeiro passo é o Raio-X, e não o anúncio. Você recebe o que mudar, em ordem, sem enrolação. Comenta RAIO-X que eu te explico como pedir o da sua pizzaria. Só trabalhamos com pizzaria."
+   ],
+   "cenas": [
+    {
+     "narracao": "Antes de falar em anúncio, eu olho três coisas na sua pizzaria.",
+     "texto_tela": "3 coisas antes do anúncio",
+     "texto_tela_palavras": [
+      "3 coisas",
+      "antes do anúncio"
+     ]
+    },
+    {
+     "narracao": "A foto do cardápio. O caminho até o pedido. E quanto tempo o cliente espera resposta no WhatsApp.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Se uma delas trava, o anúncio vira dinheiro jogado fora.",
+     "texto_tela": "Dinheiro jogado fora",
+     "texto_tela_palavras": [
+      "Dinheiro",
+      "jogado fora"
+     ]
+    },
+    {
+     "narracao": "Por isso o primeiro passo é o Raio-X, e não o anúncio.",
+     "texto_tela": "Primeiro o Raio-X",
+     "texto_tela_palavras": [
+      "Primeiro",
+      "o Raio-X"
+     ]
+    },
+    {
+     "narracao": "Você recebe o que mudar, em ordem, sem enrolação.",
+     "texto_tela": "O que mudar, em ordem",
+     "texto_tela_palavras": [
+      "O que mudar,",
+      "em ordem"
+     ]
+    },
+    {
+     "narracao": "Comenta RAIO-X que eu te explico como pedir o da sua pizzaria.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Só trabalhamos com pizzaria.",
+     "texto_tela": "Só pizzaria",
+     "texto_tela_palavras": [
+      "Só",
+      "pizzaria"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "OT-04",
+   "ordem": 4,
+   "post": {
+    "data": "17/11",
+    "hora": "12:10"
+   },
+   "titulo": "40 mil pizzarias no Brasil: o que esse número diz para você",
+   "tipo": "conteudo",
+   "linha_editorial": "Dados do setor",
+   "capa_cor": "preto",
+   "cta_palavra": "MERCADO",
+   "entrega_no_video": "Te mando as fontes e os números do setor numa imagem.",
+   "blocos_voz": [
+    "O Brasil tem mais de quarenta mil pizzarias. Segundo a Apubra, quase todas fazem delivery: noventa e oito por cento. E setenta e cinco por cento usam aplicativo pra pegar pedido.",
+    "Ou seja: o cliente tem muita opção na mesma tela. O que faz ele escolher você é foto, nome do sabor e confiança. Comenta MERCADO que eu te mando os números com as fontes. Salva pra mostrar pro sócio."
+   ],
+   "cenas": [
+    {
+     "narracao": "O Brasil tem mais de quarenta mil pizzarias.",
+     "texto_tela": "40.332 pizzarias",
+     "texto_tela_palavras": [
+      "40.332",
+      "pizzarias"
+     ]
+    },
+    {
+     "narracao": "Segundo a Apubra, quase todas fazem delivery: noventa e oito por cento.",
+     "texto_tela": "98% fazem delivery",
+     "texto_tela_palavras": [
+      "98%",
+      "fazem delivery"
+     ]
+    },
+    {
+     "narracao": "E setenta e cinco por cento usam aplicativo pra pegar pedido.",
+     "texto_tela": "75% usam app",
+     "texto_tela_palavras": [
+      "75%",
+      "usam app"
+     ]
+    },
+    {
+     "narracao": "Ou seja: o cliente tem muita opção na mesma tela.",
+     "texto_tela": "Muita opção na mesma tela",
+     "texto_tela_palavras": [
+      "Muita opção",
+      "na mesma tela"
+     ]
+    },
+    {
+     "narracao": "O que faz ele escolher você é foto, nome do sabor e confiança.",
+     "texto_tela": "Foto, sabor e confiança",
+     "texto_tela_palavras": [
+      "Foto, sabor",
+      "e confiança"
+     ]
+    },
+    {
+     "narracao": "Comenta MERCADO que eu te mando os números com as fontes.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Salva pra mostrar pro sócio.",
+     "texto_tela": "Salva pro sócio",
+     "texto_tela_palavras": [
+      "Salva",
+      "pro sócio"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "OT-05",
+   "ordem": 5,
+   "post": {
+    "data": "17/11",
+    "hora": "19:10"
+   },
+   "titulo": "Massa que encolhe no disco: 3 motivos",
+   "tipo": "conteudo",
+   "linha_editorial": "Técnica de massa",
+   "capa_cor": "preto",
+   "cta_palavra": "MASSA",
+   "entrega_no_video": "Te mando o checklist da massa que não encolhe.",
+   "blocos_voz": [
+    "Sua massa encolhe quando você abre no disco? Quase sempre é o glúten tenso. Pouco descanso depois de bolear. Massa gelada demais. Ou sova longa demais. Deixa a bolinha voltar pra temperatura ambiente antes de abrir.",
+    "E abre com a ponta dos dedos, do centro pra borda. Comenta MASSA que eu te mando o checklist da massa que não encolhe. Manda pro seu pizzaiolo."
+   ],
+   "cenas": [
+    {
+     "narracao": "Sua massa encolhe quando você abre no disco?",
+     "texto_tela": "A massa encolhe?",
+     "texto_tela_palavras": [
+      "A massa",
+      "encolhe?"
+     ]
+    },
+    {
+     "narracao": "Quase sempre é o glúten tenso.",
+     "texto_tela": "Glúten tenso",
+     "texto_tela_palavras": [
+      "Glúten",
+      "tenso"
+     ]
+    },
+    {
+     "narracao": "Pouco descanso depois de bolear. Massa gelada demais. Ou sova longa demais.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Deixa a bolinha voltar pra temperatura ambiente antes de abrir.",
+     "texto_tela": "Temperatura ambiente",
+     "texto_tela_palavras": [
+      "Temperatura",
+      "ambiente"
+     ]
+    },
+    {
+     "narracao": "E abre com a ponta dos dedos, do centro pra borda.",
+     "texto_tela": "Do centro pra borda",
+     "texto_tela_palavras": [
+      "Do centro",
+      "pra borda"
+     ]
+    },
+    {
+     "narracao": "Comenta MASSA que eu te mando o checklist da massa que não encolhe.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Manda pro seu pizzaiolo.",
+     "texto_tela": "Manda pro pizzaiolo",
+     "texto_tela_palavras": [
+      "Manda pro",
+      "pizzaiolo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "OT-06",
+   "ordem": 6,
+   "post": {
+    "data": "17/11",
+    "hora": "23:40"
+   },
+   "titulo": "Pedido direto no WhatsApp: como funciona o método Orégano Turbo",
+   "tipo": "venda",
+   "linha_editorial": "Método",
+   "capa_cor": "preto",
+   "cta_palavra": "MÉTODO",
+   "entrega_no_video": "Te mando o passo a passo do método em 4 telas.",
+   "blocos_voz": [
+    "Imagina o pedido chegando direto no seu WhatsApp, sem taxa de aplicativo. São quatro passos. Anúncio gravado na sua pizzaria. Pedido no WhatsApp. Um código em cada anúncio. E relatório toda segunda.",
+    "O código mostra de qual anúncio veio cada pedido. Exemplo de pedido com código. Sem achismo. Você vê o que funcionou. Comenta MÉTODO que eu te mando o passo a passo. Feito só pra pizzaria."
+   ],
+   "cenas": [
+    {
+     "narracao": "Imagina o pedido chegando direto no seu WhatsApp, sem taxa de aplicativo.",
+     "texto_tela": "Direto no seu zap",
+     "texto_tela_palavras": [
+      "Direto",
+      "no seu zap"
+     ]
+    },
+    {
+     "narracao": "São quatro passos. Anúncio gravado na sua pizzaria. Pedido no WhatsApp. Um código em cada anúncio. E relatório toda segunda.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "O código mostra de qual anúncio veio cada pedido.",
+     "texto_tela": "De onde veio cada pedido",
+     "texto_tela_palavras": [
+      "De onde veio",
+      "cada pedido"
+     ]
+    },
+    {
+     "narracao": "Exemplo de pedido com código.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Sem achismo. Você vê o que funcionou.",
+     "texto_tela": "Sem achismo",
+     "texto_tela_palavras": [
+      "Sem",
+      "achismo"
+     ]
+    },
+    {
+     "narracao": "Comenta MÉTODO que eu te mando o passo a passo.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Feito só pra pizzaria.",
+     "texto_tela": "Só pra pizzaria",
+     "texto_tela_palavras": [
+      "Só pra",
+      "pizzaria"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "OT-07",
+   "ordem": 7,
+   "post": {
+    "data": "18/11",
+    "hora": "12:10"
+   },
+   "titulo": "Por que a pizza napolitana assa em 90 segundos",
+   "tipo": "conteudo",
+   "linha_editorial": "Forno",
+   "capa_cor": "preto",
+   "cta_palavra": "FORNO",
+   "entrega_no_video": "Te mando a tabela de temperatura e tempo por tipo de forno.",
+   "blocos_voz": [
+    "Tem pizza que assa em noventa segundos. A napolitana tradicional assa em forno a lenha acima de quatrocentos graus. Por isso a borda fica alta e com aquelas pintinhas pretas.",
+    "Em forno elétrico ou a gás, a temperatura é menor e o tempo aumenta. O segredo é ajustar a massa ao forno que você tem. Comenta FORNO que eu te mando a tabela de temperatura e tempo. Qual é o seu forno?"
+   ],
+   "cenas": [
+    {
+     "narracao": "Tem pizza que assa em noventa segundos.",
+     "texto_tela": "90 segundos",
+     "texto_tela_palavras": [
+      "90",
+      "segundos"
+     ]
+    },
+    {
+     "narracao": "A napolitana tradicional assa em forno a lenha acima de quatrocentos graus.",
+     "texto_tela": "+400 °C",
+     "texto_tela_palavras": [
+      "+400 °C"
+     ]
+    },
+    {
+     "narracao": "Por isso a borda fica alta e com aquelas pintinhas pretas.",
+     "texto_tela": "Borda alta e pintada",
+     "texto_tela_palavras": [
+      "Borda alta",
+      "e pintada"
+     ]
+    },
+    {
+     "narracao": "Em forno elétrico ou a gás, a temperatura é menor e o tempo aumenta.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "O segredo é ajustar a massa ao forno que você tem.",
+     "texto_tela": "Massa certa pro seu forno",
+     "texto_tela_palavras": [
+      "Massa certa",
+      "pro seu forno"
+     ]
+    },
+    {
+     "narracao": "Comenta FORNO que eu te mando a tabela de temperatura e tempo.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Qual é o seu forno?",
+     "texto_tela": "Qual é seu forno?",
+     "texto_tela_palavras": [
+      "Qual é",
+      "seu forno?"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "OT-08",
+   "ordem": 8,
+   "post": {
+    "data": "18/11",
+    "hora": "19:10"
+   },
+   "titulo": "Cliente reclamou da demora: a resposta que acalma",
+   "tipo": "conteudo",
+   "linha_editorial": "Resposta pronta",
+   "capa_cor": "preto",
+   "cta_palavra": "DEMORA",
+   "entrega_no_video": "Te mando 5 respostas prontas para reclamação.",
+   "blocos_voz": [
+    "O cliente mandou: cadê minha pizza? Já faz uma hora! A pior resposta é: tá saindo. Ele quer três coisas: desculpa, tempo real e uma atenção. Manda assim: desculpa a demora, sua pizza saiu agora e chega em quinze minutos.",
+    "Vai um refri por nossa conta. Resposta boa vira avaliação boa. Comenta DEMORA que eu te mando cinco respostas prontas pra reclamação. Salva e manda pro atendimento."
+   ],
+   "cenas": [
+    {
+     "narracao": "O cliente mandou: cadê minha pizza? Já faz uma hora!",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "A pior resposta é: tá saindo.",
+     "texto_tela": "Tá saindo",
+     "texto_tela_palavras": [
+      "Tá saindo"
+     ]
+    },
+    {
+     "narracao": "Ele quer três coisas: desculpa, tempo real e uma atenção.",
+     "texto_tela": "Desculpa e tempo real",
+     "texto_tela_palavras": [
+      "Desculpa e",
+      "tempo real"
+     ]
+    },
+    {
+     "narracao": "Manda assim: desculpa a demora, sua pizza saiu agora e chega em quinze minutos. Vai um refri por nossa conta.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Resposta boa vira avaliação boa.",
+     "texto_tela": "Vira avaliação",
+     "texto_tela_palavras": [
+      "Vira",
+      "avaliação"
+     ]
+    },
+    {
+     "narracao": "Comenta DEMORA que eu te mando cinco respostas prontas pra reclamação.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Salva e manda pro atendimento.",
+     "texto_tela": "Manda pro atendimento",
+     "texto_tela_palavras": [
+      "Manda pro",
+      "atendimento"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "OT-09",
+   "ordem": 9,
+   "post": {
+    "data": "18/11",
+    "hora": "23:40"
+   },
+   "titulo": "3 sinais de que sua pizzaria precisa de um diagnóstico",
+   "tipo": "venda",
+   "linha_editorial": "Chamada para diagnóstico",
+   "capa_cor": "preto",
+   "cta_palavra": "SINAIS",
+   "entrega_no_video": "Te mando como pedir o Raio-X da sua pizzaria.",
+   "blocos_voz": [
+    "Três sinais de que sua pizzaria precisa de um diagnóstico. Um: você posta e o pedido não muda. Dois: quase todo pedido vem do aplicativo. Três: você não sabe de onde veio o cliente da semana. Não é falta de esforço.",
+    "É falta de olhar de fora. Comenta SINAIS que eu te explico como pedir o Raio-X da sua pizzaria. Quantos sinais você tem?"
+   ],
+   "cenas": [
+    {
+     "narracao": "Três sinais de que sua pizzaria precisa de um diagnóstico.",
+     "texto_tela": "3 sinais",
+     "texto_tela_palavras": [
+      "3 sinais"
+     ]
+    },
+    {
+     "narracao": "Um: você posta e o pedido não muda.",
+     "texto_tela": "Posta e nada muda",
+     "texto_tela_palavras": [
+      "Posta e",
+      "nada muda"
+     ]
+    },
+    {
+     "narracao": "Dois: quase todo pedido vem do aplicativo.",
+     "texto_tela": "Tudo vem do app",
+     "texto_tela_palavras": [
+      "Tudo vem",
+      "do app"
+     ]
+    },
+    {
+     "narracao": "Três: você não sabe de onde veio o cliente da semana.",
+     "texto_tela": "De onde ele veio?",
+     "texto_tela_palavras": [
+      "De onde",
+      "ele veio?"
+     ]
+    },
+    {
+     "narracao": "Não é falta de esforço. É falta de olhar de fora.",
+     "texto_tela": "Olhar de fora",
+     "texto_tela_palavras": [
+      "Olhar",
+      "de fora"
+     ]
+    },
+    {
+     "narracao": "Comenta SINAIS que eu te explico como pedir o Raio-X da sua pizzaria.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Quantos sinais você tem?",
+     "texto_tela": "Quantos você tem?",
+     "texto_tela_palavras": [
+      "Quantos",
+      "você tem?"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "OT-10",
+   "ordem": 10,
+   "post": {
+    "data": "19/11",
+    "hora": "12:10"
+   },
+   "titulo": "CMV de pizzaria: a conta que muita gente não faz",
+   "tipo": "conteudo",
+   "linha_editorial": "Gestão",
+   "capa_cor": "preto",
+   "cta_palavra": "CMV",
+   "entrega_no_video": "Te mando a planilha simples de ficha técnica.",
+   "blocos_voz": [
+    "Você sabe quanto custa a sua pizza de calabresa? Isso é o CMV: o custo da mercadoria vendida. Em food service, a meta costuma ficar entre vinte e cinco e trinta e cinco por cento do preço.",
+    "Pesa massa, molho, queijo, recheio e caixa. Soma tudo. Sem ficha técnica, o preço é chute. Comenta CMV que eu te mando a planilha de ficha técnica. Faz a conta hoje."
+   ],
+   "cenas": [
+    {
+     "narracao": "Você sabe quanto custa a sua pizza de calabresa?",
+     "texto_tela": "Quanto custa sua pizza?",
+     "texto_tela_palavras": [
+      "Quanto custa",
+      "sua pizza?"
+     ]
+    },
+    {
+     "narracao": "Isso é o CMV: o custo da mercadoria vendida.",
+     "texto_tela": "CMV",
+     "texto_tela_palavras": [
+      "CMV"
+     ]
+    },
+    {
+     "narracao": "Em food service, a meta costuma ficar entre vinte e cinco e trinta e cinco por cento do preço.",
+     "texto_tela": "25% a 35% do preço",
+     "texto_tela_palavras": [
+      "25% a 35%",
+      "do preço"
+     ]
+    },
+    {
+     "narracao": "Pesa massa, molho, queijo, recheio e caixa. Soma tudo.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Sem ficha técnica, o preço é chute.",
+     "texto_tela": "Preço no chute",
+     "texto_tela_palavras": [
+      "Preço",
+      "no chute"
+     ]
+    },
+    {
+     "narracao": "Comenta CMV que eu te mando a planilha de ficha técnica.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Faz a conta hoje.",
+     "texto_tela": "Faz a conta hoje",
+     "texto_tela_palavras": [
+      "Faz a conta",
+      "hoje"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "OT-11",
+   "ordem": 11,
+   "post": {
+    "data": "19/11",
+    "hora": "19:10"
+   },
+   "titulo": "A pizza napolitana é patrimônio da humanidade",
+   "tipo": "conteudo",
+   "linha_editorial": "Curiosidade",
+   "capa_cor": "preto",
+   "cta_palavra": "UNESCO",
+   "entrega_no_video": "Te mando 5 curiosidades de pizza para postar.",
+   "blocos_voz": [
+    "A arte do pizzaiolo napolitano é patrimônio da humanidade. A Unesco reconheceu em dois mil e dezessete. Não é a pizza em si. É o gesto: abrir, girar e assar. E isso diz muito: cliente gosta de ver a mão do pizzaiolo.",
+    "Bastidor é conteúdo. Comenta UNESCO que eu te mando cinco curiosidades pra postar. Mostra seu pizzaiolo."
+   ],
+   "cenas": [
+    {
+     "narracao": "A arte do pizzaiolo napolitano é patrimônio da humanidade.",
+     "texto_tela": "Patrimônio da humanidade",
+     "texto_tela_palavras": [
+      "Patrimônio",
+      "da humanidade"
+     ]
+    },
+    {
+     "narracao": "A Unesco reconheceu em dois mil e dezessete.",
+     "texto_tela": "UNESCO 2017",
+     "texto_tela_palavras": [
+      "UNESCO",
+      "2017"
+     ]
+    },
+    {
+     "narracao": "Não é a pizza em si. É o gesto: abrir, girar e assar.",
+     "texto_tela": "O gesto do pizzaiolo",
+     "texto_tela_palavras": [
+      "O gesto",
+      "do pizzaiolo"
+     ]
+    },
+    {
+     "narracao": "E isso diz muito: cliente gosta de ver a mão do pizzaiolo.",
+     "texto_tela": "A mão do pizzaiolo",
+     "texto_tela_palavras": [
+      "A mão do",
+      "pizzaiolo"
+     ]
+    },
+    {
+     "narracao": "Bastidor é conteúdo.",
+     "texto_tela": "Bastidor é conteúdo",
+     "texto_tela_palavras": [
+      "Bastidor",
+      "é conteúdo"
+     ]
+    },
+    {
+     "narracao": "Comenta UNESCO que eu te mando cinco curiosidades pra postar.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Mostra seu pizzaiolo.",
+     "texto_tela": "Mostra seu pizzaiolo",
+     "texto_tela_palavras": [
+      "Mostra seu",
+      "pizzaiolo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "OT-12",
+   "ordem": 12,
+   "post": {
+    "data": "19/11",
+    "hora": "23:40"
+   },
+   "titulo": "Taxa do aplicativo: como trazer o cliente pro seu canal",
+   "tipo": "venda",
+   "linha_editorial": "Raio-X",
+   "capa_cor": "preto",
+   "cta_palavra": "TAXA",
+   "entrega_no_video": "Te mando como pedir o Raio-X e ver o seu caso.",
+   "blocos_voz": [
+    "Cada pedido no aplicativo leva um pedaço da sua margem. O app traz cliente novo. Isso é bom. O erro é deixar o cliente que voltou pedindo só pelo app.",
+    "Cartão na caixa, cardápio digital e lista do WhatsApp trazem ele pro seu canal. No Raio-X a gente mostra por onde começar no seu caso. Comenta TAXA que eu te explico como pedir o Raio-X. O cliente é seu."
+   ],
+   "cenas": [
+    {
+     "narracao": "Cada pedido no aplicativo leva um pedaço da sua margem.",
+     "texto_tela": "Um pedaço da margem",
+     "texto_tela_palavras": [
+      "Um pedaço",
+      "da margem"
+     ]
+    },
+    {
+     "narracao": "O app traz cliente novo. Isso é bom.",
+     "texto_tela": "App traz cliente novo",
+     "texto_tela_palavras": [
+      "App traz",
+      "cliente novo"
+     ]
+    },
+    {
+     "narracao": "O erro é deixar o cliente que voltou pedindo só pelo app.",
+     "texto_tela": "O cliente que voltou",
+     "texto_tela_palavras": [
+      "O cliente",
+      "que voltou"
+     ]
+    },
+    {
+     "narracao": "Cartão na caixa, cardápio digital e lista do WhatsApp trazem ele pro seu canal.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "No Raio-X a gente mostra por onde começar no seu caso.",
+     "texto_tela": "Por onde começar",
+     "texto_tela_palavras": [
+      "Por onde",
+      "começar"
+     ]
+    },
+    {
+     "narracao": "Comenta TAXA que eu te explico como pedir o Raio-X.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "O cliente é seu.",
+     "texto_tela": "O cliente é seu",
+     "texto_tela_palavras": [
+      "O cliente",
+      "é seu"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "OT-13",
+   "ordem": 13,
+   "post": {
+    "data": "20/11",
+    "hora": "12:10"
+   },
+   "titulo": "Google Meu Negócio: a vitrine grátis da pizzaria",
+   "tipo": "conteudo",
+   "linha_editorial": "Ferramenta grátis",
+   "capa_cor": "preto",
+   "cta_palavra": "GOOGLE",
+   "entrega_no_video": "Te mando o checklist do perfil no Google.",
+   "blocos_voz": [
+    "Quando alguém pesquisa pizzaria perto de mim, quem aparece? É o Google Meu Negócio. E é grátis. Horário certo, fotos reais das pizzas, link do cardápio e resposta em toda avaliação.",
+    "Horário errado faz o cliente desistir antes de ligar. Leva dez minutos pra arrumar. Comenta GOOGLE que eu te mando o checklist do perfil. Arruma hoje à noite."
+   ],
+   "cenas": [
+    {
+     "narracao": "Quando alguém pesquisa pizzaria perto de mim, quem aparece?",
+     "texto_tela": "Pizzaria perto de mim",
+     "texto_tela_palavras": [
+      "Pizzaria",
+      "perto de mim"
+     ]
+    },
+    {
+     "narracao": "É o Google Meu Negócio. E é grátis.",
+     "texto_tela": "Grátis",
+     "texto_tela_palavras": [
+      "Grátis"
+     ]
+    },
+    {
+     "narracao": "Horário certo, fotos reais das pizzas, link do cardápio e resposta em toda avaliação.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Horário errado faz o cliente desistir antes de ligar.",
+     "texto_tela": "Horário errado",
+     "texto_tela_palavras": [
+      "Horário",
+      "errado"
+     ]
+    },
+    {
+     "narracao": "Leva dez minutos pra arrumar.",
+     "texto_tela": "10 minutos",
+     "texto_tela_palavras": [
+      "10 minutos"
+     ]
+    },
+    {
+     "narracao": "Comenta GOOGLE que eu te mando o checklist do perfil.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Arruma hoje à noite.",
+     "texto_tela": "Arruma hoje",
+     "texto_tela_palavras": [
+      "Arruma",
+      "hoje"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "OT-14",
+   "ordem": 14,
+   "post": {
+    "data": "20/11",
+    "hora": "19:10"
+   },
+   "titulo": "Bastidor: o que a gente grava numa pizzaria em 1 hora",
+   "tipo": "conteudo",
+   "linha_editorial": "Bastidor",
+   "capa_cor": "preto",
+   "cta_palavra": "GRAVAR",
+   "entrega_no_video": "Te mando a lista de 10 cenas para gravar no celular.",
+   "blocos_voz": [
+    "Com uma hora na cozinha dá pra gravar conteúdo de um mês. Massa sendo aberta. Queijo puxando. Pizza entrando no forno. E a caixa fechando. Grava sempre na vertical, com luz de frente. Não precisa aparecer falando.",
+    "A pizza fala. Corta em vídeos de dez segundos e posta um por dia. Comenta GRAVAR que eu te mando a lista de dez cenas. Grava no sábado."
+   ],
+   "cenas": [
+    {
+     "narracao": "Com uma hora na cozinha dá pra gravar conteúdo de um mês.",
+     "texto_tela": "1 hora = 1 mês",
+     "texto_tela_palavras": [
+      "1 hora",
+      "= 1 mês"
+     ]
+    },
+    {
+     "narracao": "Massa sendo aberta. Queijo puxando. Pizza entrando no forno. E a caixa fechando.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Grava sempre na vertical, com luz de frente.",
+     "texto_tela": "Vertical luz de frente",
+     "texto_tela_palavras": [
+      "Vertical",
+      "luz de frente"
+     ]
+    },
+    {
+     "narracao": "Não precisa aparecer falando. A pizza fala.",
+     "texto_tela": "A pizza fala",
+     "texto_tela_palavras": [
+      "A pizza",
+      "fala"
+     ]
+    },
+    {
+     "narracao": "Corta em vídeos de dez segundos e posta um por dia.",
+     "texto_tela": "Um por dia",
+     "texto_tela_palavras": [
+      "Um por dia"
+     ]
+    },
+    {
+     "narracao": "Comenta GRAVAR que eu te mando a lista de dez cenas.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Grava no sábado.",
+     "texto_tela": "Grava no sábado",
+     "texto_tela_palavras": [
+      "Grava no",
+      "sábado"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "OT-15",
+   "ordem": 15,
+   "post": {
+    "data": "20/11",
+    "hora": "23:40"
+   },
+   "titulo": "O relatório de segunda: o que o dono recebe toda semana",
+   "tipo": "venda",
+   "linha_editorial": "Método",
+   "capa_cor": "preto",
+   "cta_palavra": "RELATÓRIO",
+   "entrega_no_video": "Te mando um modelo do relatório (com números ilustrativos).",
+   "blocos_voz": [
+    "Toda segunda o dono da pizzaria recebe uma página. Quanto investiu. Quantos pedidos vieram de cada anúncio. E o que muda na semana. Uma página. Sem gráfico difícil. Quem decide é você, olhando o número.",
+    "É assim que trabalhamos com pizzaria. Comenta RELATÓRIO que eu te mando um modelo com números ilustrativos. Sem achismo."
+   ],
+   "cenas": [
+    {
+     "narracao": "Toda segunda o dono da pizzaria recebe uma página.",
+     "texto_tela": "Toda segunda",
+     "texto_tela_palavras": [
+      "Toda",
+      "segunda"
+     ]
+    },
+    {
+     "narracao": "Quanto investiu. Quantos pedidos vieram de cada anúncio. E o que muda na semana.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Uma página. Sem gráfico difícil.",
+     "texto_tela": "1 página",
+     "texto_tela_palavras": [
+      "1 página"
+     ]
+    },
+    {
+     "narracao": "Quem decide é você, olhando o número.",
+     "texto_tela": "Você decide",
+     "texto_tela_palavras": [
+      "Você decide"
+     ]
+    },
+    {
+     "narracao": "É assim que trabalhamos com pizzaria.",
+     "texto_tela": "Só com pizzaria",
+     "texto_tela_palavras": [
+      "Só com",
+      "pizzaria"
+     ]
+    },
+    {
+     "narracao": "Comenta RELATÓRIO que eu te mando um modelo com números ilustrativos.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Sem achismo.",
+     "texto_tela": "Sem achismo",
+     "texto_tela_palavras": [
+      "Sem",
+      "achismo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "OT-16",
+   "ordem": 16,
+   "post": {
+    "data": "21/11",
+    "hora": "12:10"
+   },
+   "titulo": "Mussarela que solta água: o que fazer",
+   "tipo": "conteudo",
+   "linha_editorial": "Insumo",
+   "capa_cor": "preto",
+   "cta_palavra": "QUEIJO",
+   "entrega_no_video": "Te mando o guia rápido de queijo para pizza.",
+   "blocos_voz": [
+    "Pizza encharcada no meio? Pode ser o queijo. Queijo com muita umidade solta água no forno. Escorre bem, rala ou fatia antes, e guarda gelado e seco. E não exagera no molho por baixo.",
+    "Pizza que chega mole vira avaliação ruim. Comenta QUEIJO que eu te mando o guia rápido de queijo. Manda pra cozinha."
+   ],
+   "cenas": [
+    {
+     "narracao": "Pizza encharcada no meio? Pode ser o queijo.",
+     "texto_tela": "Pizza encharcada?",
+     "texto_tela_palavras": [
+      "Pizza",
+      "encharcada?"
+     ]
+    },
+    {
+     "narracao": "Queijo com muita umidade solta água no forno.",
+     "texto_tela": "Solta água",
+     "texto_tela_palavras": [
+      "Solta água"
+     ]
+    },
+    {
+     "narracao": "Escorre bem, rala ou fatia antes, e guarda gelado e seco.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "E não exagera no molho por baixo.",
+     "texto_tela": "Menos molho",
+     "texto_tela_palavras": [
+      "Menos",
+      "molho"
+     ]
+    },
+    {
+     "narracao": "Pizza que chega mole vira avaliação ruim.",
+     "texto_tela": "Avaliação ruim",
+     "texto_tela_palavras": [
+      "Avaliação",
+      "ruim"
+     ]
+    },
+    {
+     "narracao": "Comenta QUEIJO que eu te mando o guia rápido de queijo.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Manda pra cozinha.",
+     "texto_tela": "Manda pra cozinha",
+     "texto_tela_palavras": [
+      "Manda pra",
+      "cozinha"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "OT-17",
+   "ordem": 17,
+   "post": {
+    "data": "21/11",
+    "hora": "19:10"
+   },
+   "titulo": "Coisas que todo dono de pizzaria já ouviu",
+   "tipo": "conteudo",
+   "linha_editorial": "Humor de dono",
+   "capa_cor": "preto",
+   "cta_palavra": "OUVI",
+   "entrega_no_video": "Te mando o meme em alta para postar no seu perfil.",
+   "blocos_voz": [
+    "Coisas que todo dono de pizzaria já ouviu. Meia calabresa, meia chocolate, e borda de outra. Faz um desconto que eu divulgo. E o clássico: tá chegando? E você ali, sorrindo, com o forno a mil.",
+    "Comenta OUVI e me conta a pior que você já ouviu. Marca seu pizzaiolo."
+   ],
+   "cenas": [
+    {
+     "narracao": "Coisas que todo dono de pizzaria já ouviu.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Meia calabresa, meia chocolate, e borda de outra.",
+     "texto_tela": "Meia meia meia",
+     "texto_tela_palavras": [
+      "Meia",
+      "meia meia"
+     ]
+    },
+    {
+     "narracao": "Faz um desconto que eu divulgo.",
+     "texto_tela": "Eu divulgo",
+     "texto_tela_palavras": [
+      "Eu divulgo"
+     ]
+    },
+    {
+     "narracao": "E o clássico: tá chegando?",
+     "texto_tela": "Tá chegando?",
+     "texto_tela_palavras": [
+      "Tá",
+      "chegando?"
+     ]
+    },
+    {
+     "narracao": "E você ali, sorrindo, com o forno a mil.",
+     "texto_tela": "Forno a mil",
+     "texto_tela_palavras": [
+      "Forno",
+      "a mil"
+     ]
+    },
+    {
+     "narracao": "Comenta OUVI e me conta a pior que você já ouviu.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Marca seu pizzaiolo.",
+     "texto_tela": "Marca seu pizzaiolo",
+     "texto_tela_palavras": [
+      "Marca seu",
+      "pizzaiolo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "OT-18",
+   "ordem": 18,
+   "post": {
+    "data": "21/11",
+    "hora": "23:40"
+   },
+   "titulo": "Raio-X ao vivo: o perfil de pizzaria que não vende",
+   "tipo": "venda",
+   "linha_editorial": "Chamada para diagnóstico",
+   "capa_cor": "preto",
+   "cta_palavra": "PERFIL",
+   "entrega_no_video": "Te mando como pedir o Raio-X do seu perfil.",
+   "blocos_voz": [
+    "Seu perfil chama pedido ou espanta cliente? Bio sem link de pedido. Foto escura. E nenhum sabor com preço. O cliente decide em segundos. E ele não volta pra dar segunda chance.",
+    "No Raio-X eu te mostro o que corrigir primeiro. Comenta PERFIL que eu te explico como pedir o Raio-X. Só pizzarias."
+   ],
+   "cenas": [
+    {
+     "narracao": "Seu perfil chama pedido ou espanta cliente?",
+     "texto_tela": "Chama pedido ou espanta?",
+     "texto_tela_palavras": [
+      "Chama pedido",
+      "ou espanta?"
+     ]
+    },
+    {
+     "narracao": "Bio sem link de pedido. Foto escura. E nenhum sabor com preço.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "O cliente decide em segundos.",
+     "texto_tela": "Em segundos",
+     "texto_tela_palavras": [
+      "Em",
+      "segundos"
+     ]
+    },
+    {
+     "narracao": "E ele não volta pra dar segunda chance.",
+     "texto_tela": "Sem segunda chance",
+     "texto_tela_palavras": [
+      "Sem segunda",
+      "chance"
+     ]
+    },
+    {
+     "narracao": "No Raio-X eu te mostro o que corrigir primeiro.",
+     "texto_tela": "O que corrigir",
+     "texto_tela_palavras": [
+      "O que",
+      "corrigir"
+     ]
+    },
+    {
+     "narracao": "Comenta PERFIL que eu te explico como pedir o Raio-X.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Só pizzarias.",
+     "texto_tela": "Só pizzarias",
+     "texto_tela_palavras": [
+      "Só",
+      "pizzarias"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "OT-19",
+   "ordem": 19,
+   "post": {
+    "data": "22/11",
+    "hora": "12:10"
+   },
+   "titulo": "As melhores pizzarias do mundo em 2026 têm isto em comum",
+   "tipo": "conteudo",
+   "linha_editorial": "Dados do setor",
+   "capa_cor": "preto",
+   "cta_palavra": "RANKING",
+   "entrega_no_video": "Te mando as 5 lições do ranking 50 Top Pizza.",
+   "blocos_voz": [
+    "O ranking 50 Top Pizza avalia a pizzaria inteira, não só a pizza. Em 2026, o Brasil tem seis pizzarias na lista mundial. Pizza assinatura, marketing forte, nota do cliente, bebida e sobremesa.",
+    "Você não precisa estar no ranking pra copiar o método. Começa pela sua pizza assinatura. Comenta RANKING que eu te mando as cinco lições. Qual é a sua assinatura?"
+   ],
+   "cenas": [
+    {
+     "narracao": "O ranking 50 Top Pizza avalia a pizzaria inteira, não só a pizza.",
+     "texto_tela": "50 Top Pizza",
+     "texto_tela_palavras": [
+      "50 Top",
+      "Pizza"
+     ]
+    },
+    {
+     "narracao": "Em 2026, o Brasil tem seis pizzarias na lista mundial.",
+     "texto_tela": "6 do Brasil",
+     "texto_tela_palavras": [
+      "6 do Brasil"
+     ]
+    },
+    {
+     "narracao": "Pizza assinatura, marketing forte, nota do cliente, bebida e sobremesa.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Você não precisa estar no ranking pra copiar o método.",
+     "texto_tela": "Copia o método",
+     "texto_tela_palavras": [
+      "Copia o",
+      "método"
+     ]
+    },
+    {
+     "narracao": "Começa pela sua pizza assinatura.",
+     "texto_tela": "Sua pizza assinatura",
+     "texto_tela_palavras": [
+      "Sua pizza",
+      "assinatura"
+     ]
+    },
+    {
+     "narracao": "Comenta RANKING que eu te mando as cinco lições.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Qual é a sua assinatura?",
+     "texto_tela": "Qual é a sua?",
+     "texto_tela_palavras": [
+      "Qual é a",
+      "sua?"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "OT-20",
+   "ordem": 20,
+   "post": {
+    "data": "22/11",
+    "hora": "19:10"
+   },
+   "titulo": "Upsell no WhatsApp: a pergunta que aumenta o pedido",
+   "tipo": "conteudo",
+   "linha_editorial": "Gestão",
+   "capa_cor": "preto",
+   "cta_palavra": "UPSELL",
+   "entrega_no_video": "Te mando 5 frases de upsell para o atendimento.",
+   "blocos_voz": [
+    "O cliente pediu uma calabresa grande no WhatsApp. A maioria responde só anotado e pronto. Tenta assim: quer colocar borda de catupiry? Ou um refri gelado junto? Uma opção clara. Sem empurrar. É atenção, não insistência.",
+    "Comenta UPSELL que eu te mando cinco frases prontas. Testa no sábado."
+   ],
+   "cenas": [
+    {
+     "narracao": "O cliente pediu uma calabresa grande no WhatsApp.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "A maioria responde só anotado e pronto.",
+     "texto_tela": "Anotado e pronto",
+     "texto_tela_palavras": [
+      "Anotado",
+      "e pronto"
+     ]
+    },
+    {
+     "narracao": "Tenta assim: quer colocar borda de catupiry? Ou um refri gelado junto?",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Uma opção clara. Sem empurrar.",
+     "texto_tela": "Sem empurrar",
+     "texto_tela_palavras": [
+      "Sem",
+      "empurrar"
+     ]
+    },
+    {
+     "narracao": "É atenção, não insistência.",
+     "texto_tela": "Atenção",
+     "texto_tela_palavras": [
+      "Atenção"
+     ]
+    },
+    {
+     "narracao": "Comenta UPSELL que eu te mando cinco frases prontas.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Testa no sábado.",
+     "texto_tela": "Testa no sábado",
+     "texto_tela_palavras": [
+      "Testa no",
+      "sábado"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "OT-21",
+   "ordem": 21,
+   "post": {
+    "data": "22/11",
+    "hora": "23:40"
+   },
+   "titulo": "Dia da Pizza é 10 de julho: comece a planejar agora",
+   "tipo": "conteudo",
+   "linha_editorial": "Dia da Pizza",
+   "capa_cor": "preto",
+   "cta_palavra": "CALENDÁRIO",
+   "entrega_no_video": "Te mando o calendário de datas da pizzaria.",
+   "blocos_voz": [
+    "Toda pizzaria precisa de um calendário de datas. A maior é o Dia da Pizza, dez de julho. Mas tem Copa, final de campeonato, Dia dos Pais e a noite da sexta. Data boa se prepara com duas semanas de antecedência.",
+    "Estoque, equipe e conteúdo prontos antes. Comenta CALENDÁRIO que eu te mando o calendário de datas. Salva esse vídeo."
+   ],
+   "cenas": [
+    {
+     "narracao": "Toda pizzaria precisa de um calendário de datas.",
+     "texto_tela": "Calendário de datas",
+     "texto_tela_palavras": [
+      "Calendário",
+      "de datas"
+     ]
+    },
+    {
+     "narracao": "A maior é o Dia da Pizza, dez de julho.",
+     "texto_tela": "10 de julho",
+     "texto_tela_palavras": [
+      "10 de julho"
+     ]
+    },
+    {
+     "narracao": "Mas tem Copa, final de campeonato, Dia dos Pais e a noite da sexta.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Data boa se prepara com duas semanas de antecedência.",
+     "texto_tela": "2 semanas antes",
+     "texto_tela_palavras": [
+      "2 semanas",
+      "antes"
+     ]
+    },
+    {
+     "narracao": "Estoque, equipe e conteúdo prontos antes.",
+     "texto_tela": "Tudo pronto antes",
+     "texto_tela_palavras": [
+      "Tudo pronto",
+      "antes"
+     ]
+    },
+    {
+     "narracao": "Comenta CALENDÁRIO que eu te mando o calendário de datas.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Salva esse vídeo.",
+     "texto_tela": "Salva esse vídeo",
+     "texto_tela_palavras": [
+      "Salva",
+      "esse vídeo"
+     ]
+    }
+   ]
+  }
+ ]
+}

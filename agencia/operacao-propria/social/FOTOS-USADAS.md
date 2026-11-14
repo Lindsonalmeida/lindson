@@ -20,3 +20,6 @@
 **Próximo lote:** F1 a F32 (`calendario/PEDIDO-FOTOS-LOTE-2.txt`), pedido ao Lindson em 06/11.
 
 **08/11 · kit v4** (`v4/`, conta Zuleide): é a versão melhorada do kit v3 e usa as **mesmas** fotos. Ele substitui a v3 e não gasta foto nova.
+
+## Reels semana 1 (14/11/2026, Zuleide/Paollo)
+Fotos Pexels do banco `agencia/bancos/pexels-pizza/` (39 fotos, uma por cena/capa), lista em `agencia/operacao-propria/reels/CREDITOS.md`. Não reusar nas próximas semanas.

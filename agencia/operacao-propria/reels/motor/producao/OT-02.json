@@ -1,0 +1,138 @@
+{
+ "_nota": "Ficha OT (14/11/2026). Fotos Pexels (licença livre) em ../fotos/.",
+ "beat_sync": true,
+ "voz_rate": "+4%",
+ "voz_max": 27.5,
+ "trilha": "trap-electro-vibes-112bpm.mp3",
+ "trilha_ini": 20,
+ "capa": {
+  "foto": "38902129.jpg",
+  "palavra": "TERÇA",
+  "manchete": "POV: terça-feira",
+  "caixa": "e o forno ligado",
+  "rotulo": "Humor de dono",
+  "wordTop": 330,
+  "wordSize": 420,
+  "headTop": 1290,
+  "tagTop": 1225,
+  "auto": false,
+  "fx": 0,
+  "fy": 0,
+  "fw": 1080
+ },
+ "cenas": [
+  {
+   "tipo": "fotofull",
+   "texto": [
+    "POV:",
+    "terça-feira"
+   ],
+   "hl": [
+    1
+   ],
+   "hit": [
+    "mudo"
+   ],
+   "vfx": [
+    "punch"
+   ],
+   "foto": "38902129.jpg",
+   "_cred": "https://www.pexels.com/photo/38902129/",
+   "top": 470,
+   "size": 180
+  },
+  {
+   "tipo": "banco",
+   "texto": [
+    "De 5 em 5",
+    "minutos"
+   ],
+   "clip": "rolando-feed-cama",
+   "hl": [
+    1
+   ],
+   "size": 170,
+   "top": 560,
+   "vfx": [
+    "punch"
+   ]
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Fim de semana",
+    "eu compenso"
+   ],
+   "hl": [
+    1
+   ],
+   "hit": [
+    "compenso"
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  },
+  {
+   "tipo": "frase",
+   "texto": [
+    "Motivo pra",
+    "pedir na terça"
+   ],
+   "carimbo": "DIA FRACO",
+   "carimboAt": "terça",
+   "size": 170,
+   "top": 560
+  },
+  {
+   "tipo": "lista",
+   "texto": [],
+   "titulo": "Motivos",
+   "itens": [
+    [
+     "1",
+     "Sabor da semana"
+    ],
+    [
+     "2",
+     "Combo família"
+    ],
+    [
+     "3",
+     "Lista do zap"
+    ]
+   ],
+   "tempos_em": [
+    "sabor",
+    "combo",
+    "lista"
+   ]
+  },
+  {
+   "tipo": "cta",
+   "texto": [],
+   "etiquetas": [
+    "3 ideias",
+    "Sem desconto"
+   ],
+   "vfx": [
+    "leak"
+   ],
+   "foto": "36178132.jpg",
+   "_cred": "https://www.pexels.com/photo/36178132/"
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Marca quem",
+    "conhece"
+   ],
+   "hl": [
+    1
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  }
+ ]
+}

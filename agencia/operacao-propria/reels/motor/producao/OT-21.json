@@ -1,0 +1,137 @@
+{
+ "_nota": "Ficha OT (14/11/2026). Fotos Pexels (licença livre) em ../fotos/.",
+ "beat_sync": true,
+ "voz_rate": "+4%",
+ "voz_max": 27.5,
+ "trilha": "midnight-funk-117bpm.mp3",
+ "trilha_ini": 8,
+ "capa": {
+  "foto": "5792318.jpg",
+  "palavra": "10/07",
+  "manchete": "As datas que",
+  "caixa": "vendem pizza",
+  "rotulo": "Dia da Pizza",
+  "wordTop": 330,
+  "wordSize": 420,
+  "headTop": 1290,
+  "tagTop": 1225,
+  "auto": false,
+  "fx": 0,
+  "fy": 0,
+  "fw": 1080
+ },
+ "cenas": [
+  {
+   "tipo": "fotofull",
+   "texto": [
+    "Calendário",
+    "de datas"
+   ],
+   "hl": [
+    0
+   ],
+   "hit": [
+    "calendário"
+   ],
+   "vfx": [
+    "punch"
+   ],
+   "foto": "5792318.jpg",
+   "_cred": "https://www.pexels.com/photo/5792318/",
+   "top": 470,
+   "size": 180
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "10 de julho"
+   ],
+   "hl": [
+    0
+   ],
+   "hit": [
+    "julho"
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  },
+  {
+   "tipo": "lista",
+   "texto": [],
+   "titulo": "Outras datas",
+   "itens": [
+    [
+     "⚽",
+     "Jogo e final"
+    ],
+    [
+     "♥",
+     "Dia dos Pais"
+    ],
+    [
+     "★",
+     "Sexta à noite"
+    ]
+   ],
+   "tempos_em": [
+    "Copa",
+    "Pais",
+    "sexta"
+   ]
+  },
+  {
+   "tipo": "frase",
+   "texto": [
+    "2 semanas",
+    "antes"
+   ],
+   "carimbo": "PLANEJA",
+   "carimboAt": "antecedência",
+   "size": 170,
+   "top": 560
+  },
+  {
+   "tipo": "banco",
+   "texto": [
+    "Tudo pronto",
+    "antes"
+   ],
+   "clip": "cidade-noite",
+   "hl": [
+    0
+   ],
+   "size": 170,
+   "top": 560,
+   "vfx": [
+    "punch"
+   ]
+  },
+  {
+   "tipo": "cta",
+   "texto": [],
+   "etiquetas": [
+    "Calendário",
+    "Pizzaria"
+   ],
+   "vfx": [
+    "leak"
+   ],
+   "foto": "35940570.jpg",
+   "_cred": "https://www.pexels.com/photo/35940570/"
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Salva",
+    "esse vídeo"
+   ],
+   "hl": [
+    0
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  }
+ ]
+}

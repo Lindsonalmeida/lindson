@@ -1,0 +1,137 @@
+{
+ "_nota": "Ficha OT (14/11/2026). Fotos Pexels (licença livre) em ../fotos/.",
+ "beat_sync": true,
+ "voz_rate": "+4%",
+ "voz_max": 27.5,
+ "trilha": "pop-track-03-108bpm.mp3",
+ "trilha_ini": 2,
+ "capa": {
+  "foto": "32763320.jpg",
+  "palavra": "QUEIJO",
+  "manchete": "Pizza encharcada",
+  "caixa": "tem solução",
+  "rotulo": "Insumo",
+  "wordTop": 330,
+  "wordSize": 420,
+  "headTop": 1290,
+  "tagTop": 1225,
+  "auto": false,
+  "fx": 0,
+  "fy": 0,
+  "fw": 1080
+ },
+ "cenas": [
+  {
+   "tipo": "fotofull",
+   "texto": [
+    "Pizza",
+    "encharcada?"
+   ],
+   "hl": [
+    1
+   ],
+   "hit": [
+    "queijo"
+   ],
+   "vfx": [
+    "punch"
+   ],
+   "foto": "32763320.jpg",
+   "_cred": "https://www.pexels.com/photo/32763320/",
+   "top": 470,
+   "size": 180
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Solta água"
+   ],
+   "hl": [
+    0
+   ],
+   "hit": [
+    "forno"
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  },
+  {
+   "tipo": "lista",
+   "texto": [],
+   "titulo": "O que fazer",
+   "itens": [
+    [
+     "1",
+     "Escorrer"
+    ],
+    [
+     "2",
+     "Ralar antes"
+    ],
+    [
+     "3",
+     "Guardar seco"
+    ]
+   ],
+   "tempos_em": [
+    "escorre",
+    "rala",
+    "guarda"
+   ]
+  },
+  {
+   "tipo": "frase",
+   "texto": [
+    "Menos",
+    "molho"
+   ],
+   "carimbo": "EQUILÍBRIO",
+   "carimboAt": "baixo",
+   "size": 170,
+   "top": 560
+  },
+  {
+   "tipo": "banco",
+   "texto": [
+    "Avaliação",
+    "ruim"
+   ],
+   "clip": "rolando-feed-cama",
+   "hl": [
+    1
+   ],
+   "size": 170,
+   "top": 560,
+   "vfx": [
+    "punch"
+   ]
+  },
+  {
+   "tipo": "cta",
+   "texto": [],
+   "etiquetas": [
+    "Guia",
+    "Queijo"
+   ],
+   "vfx": [
+    "leak"
+   ],
+   "foto": "31094808.jpg",
+   "_cred": "https://www.pexels.com/photo/31094808/"
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Manda pra",
+    "cozinha"
+   ],
+   "hl": [
+    1
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  }
+ ]
+}

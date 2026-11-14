@@ -1,0 +1,135 @@
+{
+ "_nota": "Ficha OT (14/11/2026). Fotos Pexels (licença livre) em ../fotos/.",
+ "beat_sync": true,
+ "voz_rate": "+4%",
+ "voz_max": 27.5,
+ "trilha": "midnight-funk-117bpm.mp3",
+ "trilha_ini": 8,
+ "capa": {
+  "foto": "33458051.jpg",
+  "palavra": "TAXA",
+  "manchete": "Quanto o app",
+  "caixa": "leva de você?",
+  "rotulo": "Raio-X",
+  "wordTop": 330,
+  "wordSize": 420,
+  "headTop": 1290,
+  "tagTop": 1225,
+  "auto": false,
+  "fx": 0,
+  "fy": 0,
+  "fw": 1080
+ },
+ "cenas": [
+  {
+   "tipo": "fotofull",
+   "texto": [
+    "Um pedaço",
+    "da margem"
+   ],
+   "hl": [
+    0
+   ],
+   "hit": [
+    "margem"
+   ],
+   "vfx": [
+    "punch"
+   ],
+   "foto": "33458051.jpg",
+   "_cred": "https://www.pexels.com/photo/33458051/",
+   "top": 470,
+   "size": 180
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "App traz",
+    "cliente novo"
+   ],
+   "hl": [
+    1
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  },
+  {
+   "tipo": "frase",
+   "texto": [
+    "O cliente",
+    "que voltou"
+   ],
+   "carimbo": "ERRO",
+   "carimboAt": "app",
+   "size": 170,
+   "top": 560
+  },
+  {
+   "tipo": "lista",
+   "texto": [],
+   "titulo": "Seu canal",
+   "itens": [
+    [
+     "1",
+     "Cartão na caixa"
+    ],
+    [
+     "2",
+     "Cardápio digital"
+    ],
+    [
+     "3",
+     "Lista do zap"
+    ]
+   ],
+   "tempos_em": [
+    "cartão",
+    "cardápio",
+    "lista"
+   ]
+  },
+  {
+   "tipo": "banco",
+   "texto": [
+    "Por onde",
+    "começar"
+   ],
+   "clip": "empresario-mensagens",
+   "hl": [
+    1
+   ],
+   "size": 170,
+   "top": 560,
+   "vfx": [
+    "punch"
+   ]
+  },
+  {
+   "tipo": "cta",
+   "texto": [],
+   "etiquetas": [
+    "Raio-X",
+    "Seu canal"
+   ],
+   "vfx": [
+    "leak"
+   ],
+   "foto": "5640011.jpg",
+   "_cred": "https://www.pexels.com/photo/5640011/"
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "O cliente",
+    "é seu"
+   ],
+   "hl": [
+    1
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  }
+ ]
+}

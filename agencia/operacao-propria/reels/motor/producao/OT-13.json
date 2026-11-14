@@ -1,0 +1,142 @@
+{
+ "_nota": "Ficha OT (14/11/2026). Fotos Pexels (licença livre) em ../fotos/.",
+ "beat_sync": true,
+ "voz_rate": "+4%",
+ "voz_max": 27.5,
+ "trilha": "pop-track-03-108bpm.mp3",
+ "trilha_ini": 2,
+ "capa": {
+  "foto": "17402716.jpg",
+  "palavra": "GOOGLE",
+  "manchete": "Pizzaria perto",
+  "caixa": "de mim",
+  "rotulo": "Ferramenta grátis",
+  "wordTop": 330,
+  "wordSize": 420,
+  "headTop": 1290,
+  "tagTop": 1225,
+  "auto": false,
+  "fx": 0,
+  "fy": 0,
+  "fw": 1080
+ },
+ "cenas": [
+  {
+   "tipo": "fotofull",
+   "texto": [
+    "Pizzaria",
+    "perto de mim"
+   ],
+   "hl": [
+    1
+   ],
+   "hit": [
+    "mim"
+   ],
+   "vfx": [
+    "punch"
+   ],
+   "foto": "17402716.jpg",
+   "_cred": "https://www.pexels.com/photo/17402716/",
+   "top": 470,
+   "size": 180
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Grátis"
+   ],
+   "hl": [
+    0
+   ],
+   "hit": [
+    "grátis"
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  },
+  {
+   "tipo": "lista",
+   "texto": [],
+   "titulo": "Checklist",
+   "itens": [
+    [
+     "1",
+     "Horário certo"
+    ],
+    [
+     "2",
+     "Fotos reais"
+    ],
+    [
+     "3",
+     "Link do cardápio"
+    ],
+    [
+     "4",
+     "Responder avaliação"
+    ]
+   ],
+   "tempos_em": [
+    "horário",
+    "fotos",
+    "link",
+    "resposta"
+   ],
+   "compacto": true
+  },
+  {
+   "tipo": "frase",
+   "texto": [
+    "Horário",
+    "errado"
+   ],
+   "carimbo": "CUIDADO",
+   "carimboAt": "desistir",
+   "size": 170,
+   "top": 560
+  },
+  {
+   "tipo": "banco",
+   "texto": [
+    "10 minutos"
+   ],
+   "clip": "maos-digitando-celular",
+   "hl": [
+    0
+   ],
+   "size": 170,
+   "top": 560,
+   "vfx": [
+    "punch"
+   ]
+  },
+  {
+   "tipo": "cta",
+   "texto": [],
+   "etiquetas": [
+    "Checklist",
+    "Grátis"
+   ],
+   "vfx": [
+    "leak"
+   ],
+   "foto": "8609973.jpg",
+   "_cred": "https://www.pexels.com/photo/8609973/"
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Arruma",
+    "hoje"
+   ],
+   "hl": [
+    1
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  }
+ ]
+}

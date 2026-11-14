@@ -1,0 +1,134 @@
+{
+ "_nota": "Ficha OT (14/11/2026). Fotos Pexels (licença livre) em ../fotos/.",
+ "beat_sync": true,
+ "voz_rate": "+4%",
+ "voz_max": 27.5,
+ "trilha": "midnight-funk-117bpm.mp3",
+ "trilha_ini": 8,
+ "capa": {
+  "foto": "13366357.jpg",
+  "palavra": "SINAIS",
+  "manchete": "3 sinais de que",
+  "caixa": "sua pizzaria travou",
+  "rotulo": "Chamada para diagnóstico",
+  "wordTop": 330,
+  "wordSize": 420,
+  "headTop": 1290,
+  "tagTop": 1225,
+  "auto": false,
+  "fx": 0,
+  "fy": 0,
+  "fw": 1080
+ },
+ "cenas": [
+  {
+   "tipo": "fotofull",
+   "texto": [
+    "3 sinais"
+   ],
+   "hl": [
+    0
+   ],
+   "hit": [
+    "três"
+   ],
+   "vfx": [
+    "punch"
+   ],
+   "foto": "13366357.jpg",
+   "_cred": "https://www.pexels.com/photo/13366357/",
+   "top": 470,
+   "size": 180
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Posta e",
+    "nada muda"
+   ],
+   "hl": [
+    1
+   ],
+   "hit": [
+    "muda"
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Tudo vem",
+    "do app"
+   ],
+   "hl": [
+    1
+   ],
+   "hit": [
+    "aplicativo"
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "De onde",
+    "ele veio?"
+   ],
+   "hl": [
+    1
+   ],
+   "hit": [
+    "semana"
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  },
+  {
+   "tipo": "banco",
+   "texto": [
+    "Olhar",
+    "de fora"
+   ],
+   "clip": "escritorio-entediado",
+   "hl": [
+    1
+   ],
+   "size": 170,
+   "top": 560,
+   "vfx": [
+    "punch"
+   ]
+  },
+  {
+   "tipo": "cta",
+   "texto": [],
+   "etiquetas": [
+    "Raio-X",
+    "Diagnóstico"
+   ],
+   "vfx": [
+    "leak"
+   ],
+   "foto": "30737921.jpg",
+   "_cred": "https://www.pexels.com/photo/30737921/"
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Quantos",
+    "você tem?"
+   ],
+   "hl": [
+    1
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  }
+ ]
+}

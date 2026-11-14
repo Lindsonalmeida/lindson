@@ -1,0 +1,135 @@
+{
+ "_nota": "Ficha OT (14/11/2026). Fotos Pexels (licença livre) em ../fotos/.",
+ "beat_sync": true,
+ "voz_rate": "+4%",
+ "voz_max": 27.5,
+ "trilha": "trap-electro-vibes-112bpm.mp3",
+ "trilha_ini": 20,
+ "capa": {
+  "foto": "40135596.jpg",
+  "palavra": "DEMORA",
+  "manchete": "Cliente reclamou",
+  "caixa": "da demora?",
+  "rotulo": "Resposta pronta",
+  "wordTop": 330,
+  "wordSize": 420,
+  "headTop": 1290,
+  "tagTop": 1225,
+  "auto": false,
+  "fx": 0,
+  "fy": 0,
+  "fw": 1080
+ },
+ "cenas": [
+  {
+   "tipo": "chat",
+   "texto": [],
+   "nome": "Cliente",
+   "msgs": [
+    [
+     "ele",
+     "Cadê minha pizza?? Já faz 1 hora!"
+    ],
+    [
+     "ele",
+     "😡"
+    ]
+   ],
+   "tempos_em": [
+    "cadê",
+    "hora"
+   ]
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Tá saindo"
+   ],
+   "hl": [
+    0
+   ],
+   "hit": [
+    "saindo"
+   ],
+   "vfx": [
+    "glitch"
+   ],
+   "som_hit": "glitch-quebra",
+   "size": 200,
+   "top": 640,
+   "flash": true
+  },
+  {
+   "tipo": "frase",
+   "texto": [
+    "Desculpa e",
+    "tempo real"
+   ],
+   "carimbo": "3 COISAS",
+   "carimboAt": "atenção",
+   "size": 170,
+   "top": 560
+  },
+  {
+   "tipo": "chat",
+   "texto": [],
+   "nome": "Cliente",
+   "msgs": [
+    [
+     "eu",
+     "Desculpa a demora! Sua pizza saiu agora e chega em 15 min. Vai um refri por nossa conta 🥤"
+    ],
+    [
+     "ele",
+     "Ah, beleza, obrigado! (ilustrativo)"
+    ]
+   ],
+   "tempos_em": [
+    "desculpa",
+    "refri"
+   ]
+  },
+  {
+   "tipo": "banco",
+   "texto": [
+    "Vira",
+    "avaliação"
+   ],
+   "clip": "respondendo-whatsapp",
+   "hl": [
+    1
+   ],
+   "size": 170,
+   "top": 560,
+   "vfx": [
+    "punch"
+   ]
+  },
+  {
+   "tipo": "cta",
+   "texto": [],
+   "etiquetas": [
+    "5 respostas",
+    "Prontas"
+   ],
+   "vfx": [
+    "leak"
+   ],
+   "foto": "40135596.jpg",
+   "_cred": "https://www.pexels.com/photo/40135596/"
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Manda pro",
+    "atendimento"
+   ],
+   "hl": [
+    1
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  }
+ ]
+}

@@ -1,0 +1,152 @@
+{
+ "_nota": "Ficha OT (14/11/2026). Fotos Pexels (licença livre) em ../fotos/.",
+ "beat_sync": true,
+ "voz_rate": "+4%",
+ "voz_max": 27.5,
+ "trilha": "midnight-funk-117bpm.mp3",
+ "trilha_ini": 8,
+ "capa": {
+  "foto": "5175516.jpg",
+  "palavra": "ZAP",
+  "manchete": "Pedido direto",
+  "caixa": "no seu WhatsApp",
+  "rotulo": "Método",
+  "wordTop": 330,
+  "wordSize": 420,
+  "headTop": 1290,
+  "tagTop": 1225,
+  "auto": false,
+  "fx": 0,
+  "fy": 0,
+  "fw": 1080
+ },
+ "cenas": [
+  {
+   "tipo": "fotofull",
+   "texto": [
+    "Direto",
+    "no seu zap"
+   ],
+   "hl": [
+    1
+   ],
+   "hit": [
+    "WhatsApp"
+   ],
+   "vfx": [
+    "punch"
+   ],
+   "foto": "5175516.jpg",
+   "_cred": "https://www.pexels.com/photo/5175516/",
+   "top": 470,
+   "size": 180
+  },
+  {
+   "tipo": "lista",
+   "texto": [],
+   "titulo": "4 passos",
+   "itens": [
+    [
+     "1",
+     "Anúncio na pizzaria"
+    ],
+    [
+     "2",
+     "Pedido no zap"
+    ],
+    [
+     "3",
+     "Código no anúncio"
+    ],
+    [
+     "4",
+     "Relatório segunda"
+    ]
+   ],
+   "tempos_em": [
+    "anúncio",
+    "pedido",
+    "código",
+    "relatório"
+   ],
+   "compacto": true
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "De onde veio",
+    "cada pedido"
+   ],
+   "hl": [
+    1
+   ],
+   "hit": [
+    "pedido"
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  },
+  {
+   "tipo": "chat",
+   "texto": [],
+   "nome": "Cliente (exemplo)",
+   "msgs": [
+    [
+     "ele",
+     "Quero a calabresa grande. Código TERÇA10 (ilustrativo)"
+    ],
+    [
+     "eu",
+     "Anotado! Sai em 40 min 🍕"
+    ]
+   ],
+   "tempos_em": [
+    "exemplo",
+    "código"
+   ]
+  },
+  {
+   "tipo": "banco",
+   "texto": [
+    "Sem",
+    "achismo"
+   ],
+   "clip": "empresario-mensagens",
+   "hl": [
+    1
+   ],
+   "size": 170,
+   "top": 560,
+   "vfx": [
+    "punch"
+   ]
+  },
+  {
+   "tipo": "cta",
+   "texto": [],
+   "etiquetas": [
+    "4 passos",
+    "Só pizzarias"
+   ],
+   "vfx": [
+    "leak"
+   ],
+   "foto": "29121112.jpg",
+   "_cred": "https://www.pexels.com/photo/29121112/"
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Só pra",
+    "pizzaria"
+   ],
+   "hl": [
+    1
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  }
+ ]
+}

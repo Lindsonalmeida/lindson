@@ -1,0 +1,144 @@
+{
+ "_nota": "Ficha OT (14/11/2026). Fotos Pexels (licença livre) em ../fotos/.",
+ "beat_sync": true,
+ "voz_rate": "+4%",
+ "voz_max": 27.5,
+ "trilha": "pop-track-03-108bpm.mp3",
+ "trilha_ini": 2,
+ "capa": {
+  "foto": "5638530.jpg",
+  "palavra": "TOP 50",
+  "manchete": "O que as melhores",
+  "caixa": "do mundo fazem",
+  "rotulo": "Dados do setor",
+  "wordTop": 330,
+  "wordSize": 420,
+  "headTop": 1290,
+  "tagTop": 1225,
+  "auto": false,
+  "fx": 0,
+  "fy": 0,
+  "fw": 1080
+ },
+ "cenas": [
+  {
+   "tipo": "fotofull",
+   "texto": [
+    "50 Top",
+    "Pizza"
+   ],
+   "hl": [
+    1
+   ],
+   "hit": [
+    "inteira"
+   ],
+   "vfx": [
+    "punch",
+    "leak"
+   ],
+   "foto": "5638530.jpg",
+   "_cred": "https://www.pexels.com/photo/5638530/",
+   "top": 470,
+   "size": 180
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "6 do Brasil"
+   ],
+   "hl": [
+    0
+   ],
+   "hit": [
+    "seis"
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  },
+  {
+   "tipo": "lista",
+   "texto": [],
+   "titulo": "Em comum",
+   "itens": [
+    [
+     "1",
+     "Pizza assinatura"
+    ],
+    [
+     "2",
+     "Marketing"
+    ],
+    [
+     "3",
+     "Nota do cliente"
+    ],
+    [
+     "4",
+     "Bebida e doce"
+    ]
+   ],
+   "tempos_em": [
+    "assinatura",
+    "marketing",
+    "nota",
+    "sobremesa"
+   ],
+   "compacto": true
+  },
+  {
+   "tipo": "frase",
+   "texto": [
+    "Copia o",
+    "método"
+   ],
+   "carimbo": "LIÇÃO",
+   "carimboAt": "método",
+   "size": 170,
+   "top": 560
+  },
+  {
+   "tipo": "banco",
+   "texto": [
+    "Sua pizza",
+    "assinatura"
+   ],
+   "clip": "cafe-instagram",
+   "hl": [
+    1
+   ],
+   "size": 170,
+   "top": 560,
+   "vfx": [
+    "punch"
+   ]
+  },
+  {
+   "tipo": "cta",
+   "texto": [],
+   "etiquetas": [
+    "5 lições",
+    "Top Pizza"
+   ],
+   "vfx": [
+    "leak"
+   ],
+   "foto": "6068717.jpg",
+   "_cred": "https://www.pexels.com/photo/6068717/"
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Qual é a",
+    "sua?"
+   ],
+   "hl": [
+    1
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  }
+ ]
+}

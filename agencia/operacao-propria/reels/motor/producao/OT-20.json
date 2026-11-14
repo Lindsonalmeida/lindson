@@ -1,0 +1,131 @@
+{
+ "_nota": "Ficha OT (14/11/2026). Fotos Pexels (licença livre) em ../fotos/.",
+ "beat_sync": true,
+ "voz_rate": "+4%",
+ "voz_max": 27.5,
+ "trilha": "trap-electro-vibes-112bpm.mp3",
+ "trilha_ini": 20,
+ "capa": {
+  "foto": "5903237.jpg",
+  "palavra": "+ R$",
+  "manchete": "A pergunta que",
+  "caixa": "aumenta o pedido",
+  "rotulo": "Gestão",
+  "wordTop": 330,
+  "wordSize": 420,
+  "headTop": 1290,
+  "tagTop": 1225,
+  "auto": false,
+  "fx": 0,
+  "fy": 0,
+  "fw": 1080
+ },
+ "cenas": [
+  {
+   "tipo": "chat",
+   "texto": [],
+   "nome": "Cliente",
+   "msgs": [
+    [
+     "ele",
+     "Uma calabresa grande, por favor"
+    ],
+    [
+     "eu",
+     "Anotado! 🍕"
+    ]
+   ],
+   "tempos_em": [
+    "calabresa",
+    "WhatsApp"
+   ]
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Anotado",
+    "e pronto"
+   ],
+   "hl": [
+    1
+   ],
+   "hit": [
+    "pronto"
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  },
+  {
+   "tipo": "chat",
+   "texto": [],
+   "nome": "Cliente",
+   "msgs": [
+    [
+     "eu",
+     "Quer colocar borda de catupiry? Ou um refri gelado junto? 🥤"
+    ],
+    [
+     "ele",
+     "Coloca a borda! (ilustrativo)"
+    ]
+   ],
+   "tempos_em": [
+    "borda",
+    "refri"
+   ]
+  },
+  {
+   "tipo": "frase",
+   "texto": [
+    "Sem",
+    "empurrar"
+   ],
+   "carimbo": "UMA OPÇÃO",
+   "carimboAt": "empurrar",
+   "size": 170,
+   "top": 560
+  },
+  {
+   "tipo": "banco",
+   "texto": [
+    "Atenção"
+   ],
+   "clip": "respondendo-whatsapp",
+   "hl": [
+    0
+   ],
+   "size": 170,
+   "top": 560,
+   "vfx": [
+    "punch"
+   ]
+  },
+  {
+   "tipo": "cta",
+   "texto": [],
+   "etiquetas": [
+    "5 frases",
+    "Atendimento"
+   ],
+   "vfx": [
+    "leak"
+   ],
+   "foto": "5903237.jpg",
+   "_cred": "https://www.pexels.com/photo/5903237/"
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Testa no",
+    "sábado"
+   ],
+   "hl": [
+    1
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  }
+ ]
+}

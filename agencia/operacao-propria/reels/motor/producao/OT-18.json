@@ -1,0 +1,138 @@
+{
+ "_nota": "Ficha OT (14/11/2026). Fotos Pexels (licença livre) em ../fotos/.",
+ "beat_sync": true,
+ "voz_rate": "+4%",
+ "voz_max": 27.5,
+ "trilha": "midnight-funk-117bpm.mp3",
+ "trilha_ini": 8,
+ "capa": {
+  "foto": "6697476.jpg",
+  "palavra": "PERFIL",
+  "manchete": "Seu perfil espanta",
+  "caixa": "ou chama pedido?",
+  "rotulo": "Chamada para diagnóstico",
+  "wordTop": 330,
+  "wordSize": 420,
+  "headTop": 1290,
+  "tagTop": 1225,
+  "auto": false,
+  "fx": 0,
+  "fy": 0,
+  "fw": 1080
+ },
+ "cenas": [
+  {
+   "tipo": "fotofull",
+   "texto": [
+    "Chama pedido",
+    "ou espanta?"
+   ],
+   "hl": [
+    1
+   ],
+   "hit": [
+    "espanta"
+   ],
+   "vfx": [
+    "punch"
+   ],
+   "foto": "6697476.jpg",
+   "_cred": "https://www.pexels.com/photo/6697476/",
+   "top": 470,
+   "size": 180
+  },
+  {
+   "tipo": "lista",
+   "texto": [],
+   "titulo": "O que espanta",
+   "itens": [
+    [
+     "✕",
+     "Bio sem link"
+    ],
+    [
+     "✕",
+     "Foto escura"
+    ],
+    [
+     "✕",
+     "Sem preço"
+    ]
+   ],
+   "tempos_em": [
+    "bio",
+    "foto",
+    "preço"
+   ]
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Em",
+    "segundos"
+   ],
+   "hl": [
+    1
+   ],
+   "hit": [
+    "segundos"
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  },
+  {
+   "tipo": "frase",
+   "texto": [
+    "Sem segunda",
+    "chance"
+   ],
+   "carimbo": "3 SEGUNDOS",
+   "carimboAt": "chance",
+   "size": 170,
+   "top": 560
+  },
+  {
+   "tipo": "banco",
+   "texto": [
+    "O que",
+    "corrigir"
+   ],
+   "clip": "rolando-pagina-venda",
+   "hl": [
+    1
+   ],
+   "size": 170,
+   "top": 560,
+   "vfx": [
+    "punch"
+   ]
+  },
+  {
+   "tipo": "cta",
+   "texto": [],
+   "etiquetas": [
+    "Raio-X",
+    "Perfil"
+   ],
+   "vfx": [
+    "leak"
+   ],
+   "foto": "16939093.jpg",
+   "_cred": "https://www.pexels.com/photo/16939093/"
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Só",
+    "pizzarias"
+   ],
+   "hl": [
+    1
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  }
+ ]
+}
