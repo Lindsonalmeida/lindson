@@ -66,6 +66,7 @@ Legenda: ✅ feito · 🟡 em andamento · ⏳ depende do Lindson ou do cliente 
 11. ⏳ INPI, repositório `oreganoturbo` para o link definitivo, clientes atuais para a planilha
 
 ### Outros abertos (não pagam)
+- 🟡 Marca Lindson · Reels "miniaturas 3D" (série BOLSO DO DONO, 3 vídeos, 14/11, Leandro): ⏳ aprovação do Lindson; trocar para a voz 6 quando houver torch
 - **Marca e site do Lindson:** site e bio no ar; falta a aprovação, o link da bio e o Search Console.
 - **Produtos low ticket + Estado Próprio:** PDFs prontos; faltam os preços, a Hubla e as 5 decisões da escada.
 - **Canais dark (Passaporte e Raposa):** longos prontos para subir; Passaporte 10 a 12 (Milagres, Êxodo, Paulo) com roteiros prontos e render na fila desde 09/11 (Zuleide, Peter), capa nova aguardando aprovação; Raposa 13 a 16 pausado.
