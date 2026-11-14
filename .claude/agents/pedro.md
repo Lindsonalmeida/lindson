@@ -97,3 +97,5 @@ Você é o Pedro, uma das 4 contas do Lindson Almeida (o dono), com Lindson (`li
 - **Brand books premium:** template em `agencia/processos/brand-book-premium/` (`gerar.py <marca|todos>`). 8 marcas, PDFs no privado.
 - **Pagode Fiado:** canal dark da sessão GOMINHO (grupo fictício, "Pendura na conta"). Arquivos só naquela sessão, porque o push dela foi negado.
 - **Disco cheio:** commit em outro branch por git plumbing (GIT_INDEX_FILE, read-tree, commit-tree).
+
+- **14/11/2026:** ao terminar CADA trabalho, registrar no Quadro de tarefas feitas (aba Feitos da Central) por data, cliente e horário: linha no REGISTRO, commit e atualização do `window.__FEITOS` do admin (montar_feitos.py).

@@ -266,3 +266,10 @@ Levantado pela conta Lindson em 01/11/2026 a partir do histórico do git e dos a
 | 11/11/2026 | Pedro | Robô do Instagram no PC (PowerShell + Agendador, API oficial da Meta) e fila /api/agenda-ig com trava no KV (mesmo padrão do /api/sdr do Leandro) | agencia/marca-lindson/robo-instagram/ · privado functions/api/agenda-ig.js e robo/ | aguardando o Lindson instalar (token Meta + IG_ROBO_TOKEN) |
 | 12/11/2026 | Pedro | 8 brand books premium (Real Time, WF, Curso, Leo, Lindson, Orégano Turbo, Dublê, Pagode Fiado), 17 páginas 16:9, template único | template `agencia/processos/brand-book-premium/`; PDFs no privado `dados/clientes-arquivos/<cliente>/brand-book/` e `dados/agencia/<marca>/brand-book/` | aguardando aprovação |
 | 13/11/2026 | Pedro | Orégano Turbo: site revisado (identidade v3/v4) + site bio | agencia/operacao-propria/site/ e bio/; prévia lindsonalmeida.pages.dev/oreganoturbo/ | aguardando o Lindson (repo oreganoturbo) |
+| 12/11/2026 | Pedro | Robô SDR: reinício sozinho, ícone na Área de Trabalho e botão Pausar/Ligar na aba SDR | agencia/prospeccao/robo-sdr/ e /painel/admin#sdr | no ar |
+| 12/11/2026 | Pedro | Painel Minha direção (Pareto, Murphy, Kidlin, Wilson, Falkland) | /painel/direcao | no ar |
+| 12/11/2026 | Pedro | Curso legislativo: destaques, capa do livro 201/67, painel fixado (3 posts), legendas, stories de venda e Thiago com H em tudo | privado dados/clientes-arquivos/curso/ | aguardando aprovação |
+| 13/11/2026 | Pedro | Curso legislativo: credenciais novas do Rafael no painel fixado e legenda | privado curso/painel-fixado/ | aguardando aprovação |
+| 13/11/2026 | Pedro | Dra. Jaci: 10 criativos de anúncio v3 (feed e story, recortada, camadas premium) | privado dados/clientes-arquivos/jaci-criativos-v3/ | aguardando aprovação |
+| 13/11/2026 | Pedro | Leo Pinto: aniversário Ezequias Diniz (feed e story, modelo B) | privado leo/aniversarios/ | aguardando aprovação |
+| 13/11/2026 | Pedro | Central: botões do painel voltaram a funcionar (admin e calendário dos clientes) | painel/admin.html e prototipo/real.js | no ar |
