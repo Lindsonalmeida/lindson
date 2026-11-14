@@ -1,0 +1,121 @@
+{
+ "tom": 82.41,
+ "cenas": [
+  {
+   "t": "duo",
+   "w": "Sorte",
+   "dir": "v",
+   "a": {
+    "k": "Sorte",
+    "s": "",
+    "c": "#EFE6D2",
+    "w": "sorte"
+   },
+   "b": {
+    "k": "Talento",
+    "s": "",
+    "c": "#E2BE4A",
+    "w": "talento"
+   }
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "São os dois,",
+     "y": 400,
+     "s": 150,
+     "f": "ant",
+     "c": "",
+     "w": "dois"
+    },
+    {
+     "h": "juntos",
+     "y": 580,
+     "s": 240,
+     "f": "ant",
+     "c": "gold",
+     "w": "juntos",
+     "a": "slam"
+    }
+   ],
+   "w": "Maquiavel",
+   "bg": "num:VI"
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Sem ocasião",
+     "y": 380,
+     "s": 120,
+     "f": "ant",
+     "c": "",
+     "w": "ocasião"
+    },
+    {
+     "h": "o valor se apaga",
+     "y": 540,
+     "s": 90,
+     "f": "cg",
+     "c": "dim",
+     "w": "apagado"
+    },
+    {
+     "h": "Sem valor",
+     "y": 740,
+     "s": 120,
+     "f": "ant",
+     "c": "",
+     "w": "valor#2"
+    },
+    {
+     "h": "a ocasião vem em vão",
+     "y": 900,
+     "s": 90,
+     "f": "cg",
+     "c": "red",
+     "w": "vão",
+     "a": "slam"
+    }
+   ],
+   "w": "Sobre"
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "A chance vai aparecer.",
+     "y": 380,
+     "s": 100,
+     "f": "ant",
+     "c": "",
+     "w": "oportunidade"
+    },
+    {
+     "h": "Você vai estar",
+     "y": 600,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "w": "você"
+    },
+    {
+     "h": "pronto?",
+     "y": 760,
+     "s": 220,
+     "f": "ant",
+     "c": "gold",
+     "w": "pronto",
+     "a": "slam"
+    }
+   ],
+   "w": "oportunidade",
+   "bg": "foto:top:640px;bottom:-320px"
+  },
+  {
+   "t": "assinatura",
+   "apos": "vier"
+  }
+ ]
+}

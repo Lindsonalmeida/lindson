@@ -1,0 +1,112 @@
+{
+ "tom": 73.42,
+ "cenas": [
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Odiado",
+     "y": 340,
+     "s": 230,
+     "f": "ant",
+     "c": "red",
+     "d": 0
+    },
+    {
+     "h": "fazendo tudo certo?",
+     "y": 640,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "w": "certo"
+    }
+   ],
+   "bg": "glow:rgba(142,27,27,.35):40"
+  },
+  {
+   "t": "pagina",
+   "w": "Maquiavel",
+   "tag": "O PRÍNCIPE · CAP. XIX",
+   "titulo": "O aviso",
+   "ty": 300,
+   "de": "o#1",
+   "ate": "más",
+   "hl": [
+    "boas",
+    "más"
+   ],
+   "y": 760,
+   "s": 80
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "<span class='gold'>01</span> Quem cresce",
+     "y": 400,
+     "s": 95,
+     "f": "ant",
+     "c": "",
+     "w": "cresce",
+     "x": "l"
+    },
+    {
+     "h": "<span class='gold'>02</span> Quem se destaca",
+     "y": 560,
+     "s": 95,
+     "f": "ant",
+     "c": "",
+     "w": "destaca",
+     "x": "l"
+    },
+    {
+     "h": "<span class='gold'>03</span> Quem muda as regras",
+     "y": 720,
+     "s": 95,
+     "f": "ant",
+     "c": "",
+     "w": "muda",
+     "x": "l"
+    },
+    {
+     "h": "incomoda alguém",
+     "y": 920,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "w": "incomoda",
+     "box": "red"
+    }
+   ],
+   "w": "Quem"
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Faça o bem.",
+     "y": 400,
+     "s": 150,
+     "f": "ant",
+     "c": "gold",
+     "w": "faça"
+    },
+    {
+     "h": "Mas saiba de quem<br>se proteger",
+     "y": 640,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "w": "proteger",
+     "a": "slam"
+    }
+   ],
+   "w": "Não",
+   "bg": "foto:top:900px;bottom:-320px"
+  },
+  {
+   "t": "assinatura",
+   "apos": "proteger"
+  }
+ ]
+}

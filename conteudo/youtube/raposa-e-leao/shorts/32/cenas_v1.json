@@ -1,0 +1,104 @@
+{
+ "tom": 77.78,
+ "cenas": [
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Todo mundo jura",
+     "y": 340,
+     "s": 120,
+     "f": "ant",
+     "c": "",
+     "d": 0
+    },
+    {
+     "h": "estar do seu lado",
+     "y": 520,
+     "s": 100,
+     "f": "cg",
+     "c": "",
+     "w": "lado"
+    },
+    {
+     "h": "Até precisar",
+     "y": 760,
+     "s": 170,
+     "f": "ant",
+     "c": "red",
+     "w": "até",
+     "a": "slam"
+    }
+   ],
+   "bg": "foto:top:1000px;bottom:-320px"
+  },
+  {
+   "t": "pagina",
+   "w": "Maquiavel",
+   "tag": "O PRÍNCIPE · CAP. IX",
+   "titulo": "Quando a morte<br>está longe",
+   "ty": 300,
+   "de": "quando",
+   "ate": "você",
+   "hl": [
+    "prometem",
+    "longe"
+   ],
+   "y": 760,
+   "s": 74
+  },
+  {
+   "t": "duo",
+   "w": "Quando#2",
+   "dir": "v",
+   "a": {
+    "k": "Fase boa",
+    "s": "todos prometem",
+    "c": "#E2BE4A",
+    "w": "quando#2"
+   },
+   "b": {
+    "k": "Crise",
+    "s": "todos somem",
+    "c": "#E0453C",
+    "w": "somem"
+   }
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Conte apoio",
+     "y": 400,
+     "s": 130,
+     "f": "ant",
+     "c": "",
+     "w": "conte"
+    },
+    {
+     "h": "pelo que fizeram",
+     "y": 580,
+     "s": 110,
+     "f": "ant",
+     "c": "gold",
+     "w": "fizeram"
+    },
+    {
+     "h": "quando custou",
+     "y": 760,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "w": "custou",
+     "a": "slam",
+     "box": "gold"
+    }
+   ],
+   "w": "Não"
+  },
+  {
+   "t": "assinatura",
+   "apos": "coisa"
+  }
+ ]
+}

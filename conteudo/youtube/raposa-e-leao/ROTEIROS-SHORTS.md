@@ -156,3 +156,67 @@ Ordem de postagem: 1 por dia, nesta sequência (os temas se alternam para não f
 **Na tela:** VOLTE À ORIGEM
 **Narração:** Por que empresas, famílias e até religiões apodrecem com o tempo? Maquiavel dizia que tudo que dura precisa, de tempos em tempos, voltar às suas origens. Lembrar por que começou, quais eram as regras, o que te fez crescer. Quem se afasta demais da própria origem um dia não se reconhece mais.
 **Fonte:** Discursos, III.1
+
+
+## Shorts 31 a 40 (Peter, conta Leandro, 14/11/2026)
+Citações conferidas no original italiano em `conteudo/referencias/maquiavel/principe.md`.
+
+### 31 — Armas dos outros
+**Na tela:** QUEM DEPENDE DOS OUTROS, CAI
+**Narração:** Quer saber por que tanta gente perde tudo de uma hora para outra? Maquiavel escreveu: as armas dos outros ou caem de você, ou te pesam, ou te apertam. Dinheiro emprestado, cliente único, sócio que faz tudo. Na hora do aperto, isso falha ou cobra caro. Ele concluiu: sem armas próprias, ninguém está seguro. Construa o que é seu.
+**Fonte:** O Príncipe, cap. XIII
+**Original:** “le arme di altri o le ti caggiono di dosso o le ti pesano o le ti stringono” · “sanza avere arme proprie, nessuno principato è sicuro”
+
+### 32 — A promessa de longe
+**Na tela:** PROMESSA DE LONGE NÃO VALE
+**Narração:** Todo mundo jura que vai estar do seu lado. Até o dia em que precisa estar. Maquiavel viu isso de perto: quando a morte está longe, todos correm, todos prometem, e cada um quer morrer por você. Quando a crise chega, somem. Não conte apoio pelas promessas da fase boa. Conte pelo que as pessoas fizeram quando custou alguma coisa.
+**Fonte:** O Príncipe, cap. IX
+**Original:** “allora ognun corre, ognuno promette e ciascuno vuole morire per lui, quando la morte è discosto”
+
+### 33 — Na bonança, a tempestade
+**Na tela:** GUARDE NO SOL
+**Narração:** O erro que quebra empresas acontece quando tudo vai bem. Maquiavel chamou de defeito comum dos homens: não contar, na bonança, com a tempestade. O caixa está cheio, o cliente compra, e ninguém guarda nada. Quando o tempo vira, é tarde para construir o abrigo. A reserva se faz no sol, e não na chuva.
+**Fonte:** O Príncipe, cap. XXIV
+**Original:** “è comune difetto degli uomini, non fare conto nella bonaccia della tempesta”
+
+### 34 — Não culpe a sorte
+**Na tela:** A CULPA NÃO É DA SORTE
+**Narração:** O mercado caiu. O algoritmo mudou. A economia piorou. Maquiavel tinha um recado para os príncipes que perderam seus Estados: não acusem a fortuna, mas a própria inércia. Eles tiveram tempos calmos e não se prepararam. Antes de culpar o azar, pergunte: o que eu deixei de fazer quando dava para fazer?
+**Fonte:** O Príncipe, cap. XXIV
+**Original:** “non accusino la fortuna, ma la ignavia loro”
+
+### 35 — A notícia ruim
+**Na tela:** O FAVOR É SEU. O PESO, NÃO.
+**Narração:** Por que o bom líder quase nunca é quem dá a notícia ruim? Maquiavel explicou: os príncipes devem deixar com outros as coisas que pesam, e fazer eles mesmos as coisas de favor. A cobrança e o corte passam por uma regra clara ou por um processo. O elogio, o prêmio e a boa notícia saem da sua boca. Assim o respeito fica com você.
+**Fonte:** O Príncipe, cap. XIX
+**Original:** “e' principi le cose di carico debbono fare sumministrare ad altri, quelle di grazia loro medesimi”
+
+### 36 — Treine na paz
+**Na tela:** TREINE NA PAZ
+**Narração:** Quando você deveria treinar mais? Maquiavel respondeu algo que pouca gente faz: na paz, o príncipe deve se exercitar mais do que na guerra. Quem só estuda quando a crise chega já chega atrasado. O vendedor treina antes da venda difícil. O atleta treina fora do jogo. A calma é o tempo de se preparar, e não de descansar.
+**Fonte:** O Príncipe, cap. XIV
+**Original:** “nella pace vi si debbe più esercitare che nella guerra”
+
+### 37 — O mundo como ele é
+**Na tela:** O MUNDO COMO ELE É
+**Narração:** Maquiavel foi odiado por um motivo: ele falava das coisas como elas são. Escreveu que preferia ir atrás da verdade efetiva da coisa do que da imaginação dela. Muita gente planeja o negócio, a carreira e o casamento que imagina. Ele dizia: olhe o que acontece de verdade. Decisão boa nasce do mundo real, e não do mundo ideal.
+**Fonte:** O Príncipe, cap. XV
+**Original:** “mi è parso più conveniente andare dreto alla verità effettuale della cosa che alla immaginazione di essa”
+
+### 38 — Odiado por fazer o bem
+**Na tela:** FAZER O BEM TAMBÉM GERA ÓDIO
+**Narração:** Você pode ser odiado mesmo fazendo tudo certo. Maquiavel avisou: o ódio se adquire tanto pelas boas obras quanto pelas más. Quem cresce, quem se destaca, quem muda as regras para melhor também incomoda alguém. Não espere que todos te aplaudam por fazer o bem. Faça, mas saiba de quem você precisa se proteger.
+**Fonte:** O Príncipe, cap. XIX
+**Original:** “l'odio si acquista così mediante le buone opere, come le triste”
+
+### 39 — Quem te ajuda fica
+**Na tela:** QUEM TE AJUDA, FICA
+**Narração:** Quer saber quem vai ser leal a você? Maquiavel percebeu uma coisa curiosa: a natureza dos homens é se obrigar tanto pelos benefícios que fazem quanto pelos que recebem. Quem já te ajudou tende a continuar ajudando, porque investiu em você. Às vezes, para criar um aliado, peça um favor pequeno. E depois honre o que ele fez.
+**Fonte:** O Príncipe, cap. X
+**Original:** “la natura delli uomini è così obligarsi per li benefizi che si fanno, come per quelli che si ricevano”
+
+### 40 — Ocasião e preparo
+**Na tela:** A CHANCE SEM PREPARO SE PERDE
+**Narração:** Sorte ou talento? Maquiavel disse que são os dois, juntos. Sobre os grandes fundadores, ele escreveu: sem aquela ocasião, o valor deles teria se apagado, e sem aquele valor, a ocasião teria vindo em vão. A oportunidade vai aparecer na sua vida. A pergunta é se você vai estar pronto quando ela vier.
+**Fonte:** O Príncipe, cap. VI
+**Original:** “sanza quella occasione la virtù dello animo loro si sarebbe spenta, e sanza quella virtù la occasione sarebbe venuta invano”

@@ -1,0 +1,146 @@
+{
+ "tom": 73.42,
+ "cenas": [
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Por que tanta gente",
+     "y": 300,
+     "s": 100,
+     "f": "ant",
+     "c": "",
+     "d": 0
+    },
+    {
+     "h": "perde tudo",
+     "y": 460,
+     "s": 210,
+     "f": "ant",
+     "c": "red",
+     "w": "perde",
+     "a": "slam"
+    },
+    {
+     "h": "de uma hora<br>para outra?",
+     "y": 800,
+     "s": 100,
+     "f": "cg",
+     "c": "",
+     "w": "hora"
+    }
+   ],
+   "bg": "glow:rgba(142,27,27,.35):40"
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "<span class='gold'>01</span> Caem de você",
+     "y": 400,
+     "s": 100,
+     "f": "ant",
+     "c": "",
+     "w": "caem",
+     "x": "l"
+    },
+    {
+     "h": "<span class='gold'>02</span> Te pesam",
+     "y": 580,
+     "s": 100,
+     "f": "ant",
+     "c": "",
+     "w": "pesam",
+     "x": "l"
+    },
+    {
+     "h": "<span class='gold'>03</span> Te apertam",
+     "y": 760,
+     "s": 100,
+     "f": "ant",
+     "c": "",
+     "w": "apertam",
+     "a": "slam",
+     "x": "l"
+    }
+   ],
+   "w": "Maquiavel",
+   "bg": "num:XIII"
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Dinheiro emprestado",
+     "y": 360,
+     "s": 80,
+     "f": "cg",
+     "c": "dim",
+     "w": "dinheiro"
+    },
+    {
+     "h": "Cliente único",
+     "y": 480,
+     "s": 80,
+     "f": "cg",
+     "c": "dim",
+     "w": "cliente"
+    },
+    {
+     "h": "Sócio que faz tudo",
+     "y": 600,
+     "s": 80,
+     "f": "cg",
+     "c": "dim",
+     "w": "sócio"
+    },
+    {
+     "h": "falha ou cobra caro",
+     "y": 820,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "w": "falha",
+     "box": "red"
+    }
+   ],
+   "w": "Dinheiro"
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Sem armas próprias",
+     "y": 380,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "w": "armas#2"
+    },
+    {
+     "h": "ninguém está seguro",
+     "y": 560,
+     "s": 90,
+     "f": "cg",
+     "c": "",
+     "w": "ninguém"
+    },
+    {
+     "h": "Construa<br>o que é seu",
+     "y": 800,
+     "s": 170,
+     "f": "ant",
+     "c": "gold",
+     "w": "construa",
+     "a": "slam"
+    }
+   ],
+   "w": "Ele",
+   "bg": "foto:top:640px;bottom:-320px"
+  },
+  {
+   "t": "assinatura",
+   "apos": "seu"
+  }
+ ]
+}

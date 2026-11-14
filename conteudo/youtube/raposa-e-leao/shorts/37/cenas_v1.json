@@ -1,0 +1,119 @@
+{
+ "tom": 69.3,
+ "cenas": [
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Ele foi odiado",
+     "y": 340,
+     "s": 130,
+     "f": "ant",
+     "c": "",
+     "d": 0
+    },
+    {
+     "h": "por um motivo",
+     "y": 520,
+     "s": 100,
+     "f": "cg",
+     "c": "",
+     "w": "motivo"
+    },
+    {
+     "h": "falava a verdade",
+     "y": 720,
+     "s": 150,
+     "f": "ant",
+     "c": "gold",
+     "w": "como",
+     "a": "slam"
+    }
+   ],
+   "bg": "foto:top:640px;bottom:-320px"
+  },
+  {
+   "t": "duo",
+   "w": "Escreveu",
+   "dir": "v",
+   "a": {
+    "k": "Verdade efetiva",
+    "s": "o que acontece",
+    "c": "#E2BE4A",
+    "w": "verdade"
+   },
+   "b": {
+    "k": "Imaginação",
+    "s": "o que você queria",
+    "c": "#E0453C",
+    "w": "imaginação"
+   }
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "O negócio imaginado",
+     "y": 400,
+     "s": 90,
+     "f": "cg",
+     "c": "dim",
+     "w": "negócio"
+    },
+    {
+     "h": "A carreira imaginada",
+     "y": 540,
+     "s": 90,
+     "f": "cg",
+     "c": "dim",
+     "w": "carreira"
+    },
+    {
+     "h": "O casamento imaginado",
+     "y": 680,
+     "s": 90,
+     "f": "cg",
+     "c": "dim",
+     "w": "casamento"
+    }
+   ],
+   "w": "Muita",
+   "bg": "num:XV"
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Decisão boa nasce do",
+     "y": 380,
+     "s": 100,
+     "f": "ant",
+     "c": "",
+     "w": "decisão"
+    },
+    {
+     "h": "mundo real",
+     "y": 560,
+     "s": 210,
+     "f": "ant",
+     "c": "gold",
+     "w": "real",
+     "a": "slam"
+    },
+    {
+     "h": "e não do ideal",
+     "y": 860,
+     "s": 90,
+     "f": "cg",
+     "c": "dim",
+     "w": "ideal"
+    }
+   ],
+   "w": "Ele#2"
+  },
+  {
+   "t": "assinatura",
+   "apos": "ideal"
+  }
+ ]
+}

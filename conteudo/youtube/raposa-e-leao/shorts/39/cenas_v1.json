@@ -1,0 +1,111 @@
+{
+ "tom": 77.78,
+ "cenas": [
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Quem vai ser",
+     "y": 340,
+     "s": 120,
+     "f": "ant",
+     "c": "",
+     "d": 0
+    },
+    {
+     "h": "leal",
+     "y": 500,
+     "s": 260,
+     "f": "ant",
+     "c": "gold",
+     "w": "leal",
+     "a": "slam"
+    },
+    {
+     "h": "a você?",
+     "y": 820,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "w": "você"
+    }
+   ],
+   "bg": "foto:top:640px;bottom:-320px"
+  },
+  {
+   "t": "duo",
+   "w": "Maquiavel",
+   "dir": "h",
+   "a": {
+    "k": "Benefício que recebe",
+    "s": "prende",
+    "c": "#EFE6D2",
+    "w": "recebem"
+   },
+   "b": {
+    "k": "Benefício que faz",
+    "s": "prende também",
+    "c": "#E2BE4A",
+    "w": "fazem"
+   }
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Quem já te ajudou",
+     "y": 400,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "w": "ajudou"
+    },
+    {
+     "h": "investiu em você",
+     "y": 580,
+     "s": 130,
+     "f": "ant",
+     "c": "gold",
+     "w": "investiu",
+     "a": "slam"
+    }
+   ],
+   "w": "Quem#2",
+   "bg": "num:X"
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Peça um",
+     "y": 380,
+     "s": 120,
+     "f": "ant",
+     "c": "",
+     "w": "peça"
+    },
+    {
+     "h": "favor pequeno",
+     "y": 540,
+     "s": 150,
+     "f": "ant",
+     "c": "gold",
+     "w": "favor"
+    },
+    {
+     "h": "e honre o que<br>ele fez",
+     "y": 800,
+     "s": 100,
+     "f": "cg",
+     "c": "",
+     "w": "honre"
+    }
+   ],
+   "w": "Às"
+  },
+  {
+   "t": "assinatura",
+   "apos": "fez"
+  }
+ ]
+}

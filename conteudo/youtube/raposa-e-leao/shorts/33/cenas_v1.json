@@ -1,0 +1,121 @@
+{
+ "tom": 82.41,
+ "cenas": [
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "O erro que",
+     "y": 320,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "d": 0
+    },
+    {
+     "h": "quebra",
+     "y": 450,
+     "s": 240,
+     "f": "ant",
+     "c": "red",
+     "w": "quebra",
+     "a": "slam"
+    },
+    {
+     "h": "acontece quando<br>tudo vai bem",
+     "y": 780,
+     "s": 90,
+     "f": "cg",
+     "c": "",
+     "w": "bem"
+    }
+   ],
+   "bg": "glow:rgba(142,27,27,.3):45"
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Na bonança,",
+     "y": 380,
+     "s": 130,
+     "f": "ant",
+     "c": "gold",
+     "w": "bonança"
+    },
+    {
+     "h": "conte com a",
+     "y": 560,
+     "s": 90,
+     "f": "cg",
+     "c": "",
+     "w": "com#2"
+    },
+    {
+     "h": "tempestade",
+     "y": 700,
+     "s": 170,
+     "f": "ant",
+     "c": "red",
+     "w": "tempestade",
+     "a": "slam"
+    }
+   ],
+   "w": "Maquiavel",
+   "bg": "num:XXIV"
+  },
+  {
+   "t": "duo",
+   "w": "O#2",
+   "dir": "h",
+   "a": {
+    "k": "Caixa cheio",
+    "s": "cliente compra",
+    "c": "#E2BE4A",
+    "w": "caixa"
+   },
+   "b": {
+    "k": "Ninguém guarda",
+    "s": "nada",
+    "c": "#E0453C",
+    "w": "ninguém"
+   }
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "A reserva se faz",
+     "y": 400,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "w": "reserva"
+    },
+    {
+     "h": "no sol",
+     "y": 580,
+     "s": 230,
+     "f": "ant",
+     "c": "gold",
+     "w": "sol",
+     "a": "slam"
+    },
+    {
+     "h": "e não na chuva",
+     "y": 880,
+     "s": 90,
+     "f": "cg",
+     "c": "dim",
+     "w": "chuva"
+    }
+   ],
+   "w": "Quando#2",
+   "bg": "foto:top:640px;bottom:-320px"
+  },
+  {
+   "t": "assinatura",
+   "apos": "chuva"
+  }
+ ]
+}

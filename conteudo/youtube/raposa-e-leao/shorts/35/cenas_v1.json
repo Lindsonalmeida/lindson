@@ -1,0 +1,120 @@
+{
+ "tom": 61.74,
+ "cenas": [
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "O bom líder",
+     "y": 340,
+     "s": 120,
+     "f": "ant",
+     "c": "",
+     "d": 0
+    },
+    {
+     "h": "quase nunca",
+     "y": 500,
+     "s": 100,
+     "f": "cg",
+     "c": "",
+     "w": "quase"
+    },
+    {
+     "h": "dá a notícia ruim",
+     "y": 680,
+     "s": 150,
+     "f": "ant",
+     "c": "red",
+     "w": "ruim",
+     "a": "slam"
+    }
+   ],
+   "bg": "foto:top:640px;bottom:-320px"
+  },
+  {
+   "t": "duo",
+   "w": "Os",
+   "dir": "h",
+   "a": {
+    "k": "O que pesa",
+    "s": "deixa com outros",
+    "c": "#E0453C",
+    "w": "pesam"
+   },
+   "b": {
+    "k": "O que é favor",
+    "s": "faça você",
+    "c": "#E2BE4A",
+    "w": "favor"
+   }
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Cobrança e corte",
+     "y": 380,
+     "s": 110,
+     "f": "ant",
+     "c": "dim",
+     "w": "cobrança"
+    },
+    {
+     "h": "= regra clara",
+     "y": 540,
+     "s": 90,
+     "f": "cg",
+     "c": "",
+     "w": "regra"
+    },
+    {
+     "h": "Elogio e prêmio",
+     "y": 760,
+     "s": 110,
+     "f": "ant",
+     "c": "gold",
+     "w": "elogio"
+    },
+    {
+     "h": "= da sua boca",
+     "y": 920,
+     "s": 90,
+     "f": "cg",
+     "c": "",
+     "w": "boca",
+     "a": "slam"
+    }
+   ],
+   "w": "A#2",
+   "bg": "num:XIX"
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "O respeito",
+     "y": 420,
+     "s": 130,
+     "f": "ant",
+     "c": "",
+     "w": "respeito"
+    },
+    {
+     "h": "fica com você",
+     "y": 620,
+     "s": 150,
+     "f": "ant",
+     "c": "gold",
+     "w": "fica",
+     "a": "slam"
+    }
+   ],
+   "w": "Assim"
+  },
+  {
+   "t": "assinatura",
+   "apos": "você"
+  }
+ ]
+}

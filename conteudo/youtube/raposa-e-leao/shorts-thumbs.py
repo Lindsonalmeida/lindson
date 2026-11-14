@@ -1,4 +1,4 @@
-"""Capas verticais (1080x1920) dos 30 Shorts. python3 shorts-thumbs.py -> shorts-thumbs.html; renderiza em shorts/NN/capa.png"""
+"""Capas verticais (1080x1920) dos 40 Shorts. python3 shorts-thumbs.py -> shorts-thumbs.html; renderiza em shorts/NN/capa.png"""
 s=open('identidade.html').read()
 head=s[:s.index('<section')];script=s[s.index('<script>'):]
 css='''<style>
@@ -78,5 +78,15 @@ L2(27,'ces',AG,'Disciplina<br>vence<br><em>fúria</em>'),
 L6(28,'pap',DI+'II.10','Bons soldados acham dinheiro','Dinheiro<br>não compra<br><b>vitória</b>'),
 L3(29,'jul',DI+'III.9','↻','O que te trouxe<br><em>não</em> te <b>leva</b>',520),
 L1(30,'maq',DI+'III.1','Volte à<br><b>origem</b>'),
+L1(31,'fer',P+'13','Quem depende<br>dos outros<br><em>cai</em>'),
+L6(32,'ces',P+'9','Todos prometem quando a morte está longe','Promessa de<br>longe não<br><b>vale</b>'),
+L3(33,'arn',P+'24','☀','Guarde<br>no <b>sol</b>',520),
+L4(34,'pap',P+'24','Foi azar','A culpa é<br>da sua <b>inércia</b>'),
+L2(35,'lor',P+'19','O favor<br>é <b>seu</b>.<br>O peso, não.'),
+L1(36,'han',P+'14','Treine<br>na <b>paz</b>'),
+L5(37,'maq','mar','REAL','IDEAL',P+'15','O mundo<br>como ele <b>é</b>'),
+L6(38,'sav',P+'19','O ódio se adquire também pelas boas obras','Odiado por<br>fazer o <b>bem</b>'),
+L2(39,'mar',P+'10','Quem te<br>ajuda<br><b>fica</b>'),
+L3(40,'bor',P+'6','?','Sorte ou<br><b>preparo</b>?',620),
 ]
 open('shorts-thumbs.html','w').write(head.replace('</style></head>','</style>'+css+'</head>')+''.join(T)+script)

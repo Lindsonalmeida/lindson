@@ -1,0 +1,132 @@
+{
+ "tom": 77.78,
+ "cenas": [
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Todo mundo jura",
+     "y": 340,
+     "s": 120,
+     "f": "ant",
+     "c": "",
+     "d": 0
+    },
+    {
+     "h": "estar do seu lado",
+     "y": 520,
+     "s": 100,
+     "f": "cg",
+     "c": "",
+     "w": "lado#1"
+    },
+    {
+     "h": "Até precisar",
+     "y": 760,
+     "s": 170,
+     "f": "ant",
+     "c": "red",
+     "w": "Até#1",
+     "a": "slam"
+    }
+   ],
+   "bg": "foto:top:1000px;bottom:-320px"
+  },
+  {
+   "t": "pagina",
+   "w": "Maquiavel#1",
+   "tag": "O PRÍNCIPE · CAP. IX",
+   "titulo": "Quando a morte<br>está longe",
+   "ty": 300,
+   "de": "quando#1",
+   "ate": "você#1",
+   "hl": [
+    "prometem#1",
+    "longe#1"
+   ],
+   "y": 760,
+   "s": 74
+  },
+  {
+   "t": "conversa",
+   "w": "Você#2",
+   "img": "../img/hist/arno.jpg",
+   "h": "Já passou<br>por isso?",
+   "interage": {
+    "tipo": "checkin",
+    "txt": "JÁ PASSEI"
+   }
+  },
+  {
+   "t": "duo",
+   "w": "Quando#2",
+   "dir": "v",
+   "a": {
+    "k": "Fase boa",
+    "s": "todos prometem",
+    "c": "#E2BE4A",
+    "w": "Quando#2"
+   },
+   "b": {
+    "k": "Crise",
+    "s": "todos somem",
+    "c": "#E0453C",
+    "w": "somem#1"
+   }
+  },
+  {
+   "t": "stack",
+   "items": [
+    {
+     "h": "Conte apoio",
+     "y": 400,
+     "s": 130,
+     "f": "ant",
+     "c": "",
+     "w": "conte#1"
+    },
+    {
+     "h": "pelo que fizeram",
+     "y": 580,
+     "s": 110,
+     "f": "ant",
+     "c": "gold",
+     "w": "fizeram#1"
+    },
+    {
+     "h": "quando custou",
+     "y": 760,
+     "s": 110,
+     "f": "ant",
+     "c": "",
+     "w": "custou#1",
+     "a": "slam",
+     "box": "gold"
+    }
+   ],
+   "w": "Não#1"
+  },
+  {
+   "t": "conversa",
+   "w": "Manda#1",
+   "img": "../img/hist/hannibal.jpg",
+   "h": "Quem ficou<br>do seu lado?",
+   "interage": {
+    "tipo": "manda",
+    "txt": "MANDA PRA ELA"
+   }
+  },
+  {
+   "t": "assinatura",
+   "apos": "essa#1",
+   "frase": "Conte pelos fatos.",
+   "interage": {
+    "tipo": "segue",
+    "txt": "NÃO PERCA A PRÓXIMA"
+   }
+  }
+ ],
+ "abre": "zoom",
+ "pulso": 0.95,
+ "batida": "espacado"
+}
