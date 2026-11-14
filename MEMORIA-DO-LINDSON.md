@@ -452,3 +452,5 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 - 14/11/2026 (conta Leandro): REGRA do Lindson: "no final de cada trabalho, adicione ao quadro de tarefas feitas, por data e cliente e horário". Todo trabalho terminado entra na aba Feitos do Quadro de atividades do painel (`agencia/sistema-clientes/site/quadro.json` + bloco `window.__QUADRO` do `painel/admin.html` na Central), com cliente, data e hora (America/Fortaleza). Vale para todas as contas.
 
 - 14/11/2026 (conta Leandro): saudações animadas do Leo: REPROVADO "só a cabeça, desproporcional". Foto de busto = cabeça + ombros + peito em proporção; recorte que é só rosto (close) não serve para arte de busto.
+
+- 14/11/2026 (conta Leandro): REPROVADO "as fotos estão todas mal cortadas, nunca mais cometa esse erro". REGRA FIXA para todo recorte de pessoa: rodar `agencia/clientes/leo-pinto/motion-saudacoes/limpar_recorte.py` (fica só a pessoa, some pedaço solto de mão/celular, toda borda cortada pelo quadro da foto some em degradê longo, cabeça nunca é apagada) e conferir a prévia ANTES de mostrar. Nunca usar recorte que é só rosto como foto de busto.

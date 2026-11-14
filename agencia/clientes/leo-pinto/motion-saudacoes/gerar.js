@@ -107,7 +107,7 @@ const TIPO = {
 };
 function pagina(s) {
   { const png = fs.readFileSync(path.join(A, 'hd', s.foto + '.png')), pw = png.readUInt32BE(16), ph = png.readUInt32BE(20), top = s.top ?? 960;
-    const w0 = s.w; if (!s.solto) s.w = Math.max(s.w, Math.ceil((1950 - top) * pw / ph)); s.x = Math.round(s.x - (s.w - w0) / 2); }
+    const w0 = s.w; if (s.sangra) s.w = Math.max(s.w, Math.ceil((1950 - top) * pw / ph)); s.x = Math.round(s.x - (s.w - w0) / 2); }
   const t = TEMA[s.tema], cues = [], corpo = TIPO[s.tipo](s, t, cues), [mx, my, mw, mr] = s.mapa;
   const ent = { sobe: 'fSobe', esq: 'fEsq', dir: 'fDir', zoom: 'fZoom' }[s.entra]; cues.push([.05, 'whooshL'], [2.6, 'chime']);
   const logo = b64(path.join(A, t.claro ? 'logo-marinho.png' : 'logo.png'), 'png');
