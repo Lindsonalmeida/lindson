@@ -1,0 +1,27 @@
+id 42aece96-ff68-4870-b798-fd01239e9f55 22.0
+id d4c46c94-f09e-4ede-8ef7-e1c758940df6 22.0
+id 99063a30-c2e6-4705-9351-7e83df723956 22.0
+ok ia/v1-morador-preocupado.webp Juggernaut XL
+id ea0b40b2-8401-4ed1-8821-93b522a484c6 22.0
+ok ia/v1-tecnico-vaso.webp Juggernaut XL
+id 6a7b1202-fabe-4cea-a765-a162d40463f1 22.0
+ok ia/v2-mulher-porta.webp Juggernaut XL
+id 524990b0-ba8b-4044-9dd2-d182dd410673 22.0
+ok ia/v2-vaso-cheio.webp Juggernaut XL
+id f91bae26-4088-4523-a7d5-2e4862ddbfa7 22.0
+ok ia/v2-tecnico-chegando.webp Juggernaut XL
+id c948e00c-c4a4-4018-8bc8-924090c7015d 22.0
+ok ia/v3-box-alagado.webp Juggernaut XL
+id 2e1d1eb7-c33f-4047-906a-b3a02294e292 22.0
+ok ia/v3-tecnico-ralo.webp Juggernaut XL
+id 3a5e342c-f233-4629-bc47-d5ec5efae72c 22.0
+ok ia/v4-pia-cheia.webp Juggernaut XL
+id 19ecb780-8d07-4ec2-805b-791b1944d521 22.0
+ok ia/v4-mulher-cozinha.webp Juggernaut XL
+id a83ea86c-d32f-4fc8-8e08-bfb989c283cc 22.0
+ok ia/v4-pia-escoando.webp Juggernaut XL
+id 450f284a-f8f4-42f6-80c1-b71e84d7ed66 22.0
+ok ia/v5-caixa-gordura.webp Juggernaut XL
+ok ia/v5-dono-restaurante.webp Juggernaut XL
+ok ia/v5-tecnico-gordura.webp Juggernaut XL
+FIM
