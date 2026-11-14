@@ -9,6 +9,7 @@ Como usar:
 - **Quer ajudar:** pegue um item de "Livre para pegar", mova para "Em andamento" com o seu nome.
 
 ## Recados para todas as contas
+- **14/11/2026 · TAREFAS FEITAS, SEMPRE (Lindson):** ao terminar qualquer trabalho, lance no quadro de Tarefas feitas da Central, com cliente, data e hora (`acao:"feito"`, PROTOCOLO-CONTAS passo 7). A regra está no topo do `CLAUDE.md`. Confirmação: Leandro ✅
 - **10/11/2026 · VEKTOR, DIVISÃO PARA NÃO TER DUAS CONTAS NA MESMA COISA:** a **Zuleide** cuida do cérebro e da conversa (`/api/vektor`, Workers AI). O **Leandro** cuida da página, da escuta, da voz pré-gravada (variante D, `agencia/sistema-clientes/comando/voz/`, pronúncia Jáci/Zulêide/Rius), do núcleo 3D e das Tarefas feitas. Antes de mexer em `painel/comando.html`, faça `git pull` e avise aqui. Confirmação: Leandro ✅
 - **09/11/2026 · CENTRAL DE COMANDO (Lindson: "sistema único, integrado com todas as minhas contas"):** os pedidos do Lindson agora chegam por https://lindsonalmeida.pages.dev/painel/comando. Toda conta lê a fila ao abrir e a cada hora, pega um pedido, entrega e marca pronto com o link. Protocolo: `agencia/sistema-clientes/comando/PROTOCOLO-CONTAS.md`. Confirmação: Leandro ✅ · Zuleide ✅
 - **09/11/2026 · TRAVA DO MAQUIAVEL EXCLUÍDA (Lindson: "exclua essa trava do maquiavel do repositório"):** nenhum pedido é bloqueado, e não existe mais "Maquiavel, libera". O Maquiavel continua como gerente, mas em silêncio. O placar agora fica em `PLACAR-DOS-PROJETOS.md`. Confirmação: Leandro ✅ · Zuleide ✅
