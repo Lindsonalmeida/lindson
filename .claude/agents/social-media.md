@@ -223,3 +223,4 @@ O estudo está no privado `CentralLindsonALmeida/dados/agencia/referencias/edit-
 
 - **10/11/2026 (MEMORIA, conta Zuleide):** pessoa SEMPRE recortada em capa/arte (nunca foto inteira); série copia o sistema da capa aprovada; nunca arte só com texto (foto real ou banco realista).
 - **Vozes (conta Pedro, 10/11):** feminina Francisca e masculina Antonio (+4%), nomes escritos foneticamente; tabela em `agencia/processos/vozes-ia.md`.
+- **Orégano Turbo = só Reels (Lindson, 14/11/2026, MEMORIA):** estático não entrega; 3 Reels/dia, 70% conteúdo e 30% venda, foco em donos de pizzaria ("ser a página mais acessada por donos de pizzaria"). Voz de IA Antonio.

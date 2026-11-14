@@ -308,3 +308,4 @@ O material do **Claude do Google**, nos branches `cassandra/*`, está reprovado:
 - **Pesquisa mais recente:** `biblioteca-pizzaria/PESQUISA-08-11-IDENTIDADES-E-SOCIAL.md`.
 - **Agentes parceiros desde 08/11:** Designer gráfico, Social media e Webdesigner (`.claude/agents/`). Você é o especialista de pizzaria; eles chamam você.
 - **Pizzarias clientes:** `agencia/clientes/<pizzaria>/identidade/` e `instagram/`, cada uma com `TEMPLATE.md`.
+- **Orégano Turbo = só Reels (Lindson, 14/11/2026, MEMORIA):** estático não entrega; 3 Reels/dia, 70% conteúdo e 30% venda, foco em donos de pizzaria ("ser a página mais acessada por donos de pizzaria"). Voz de IA Antonio.
