@@ -103,10 +103,10 @@ em.o{font-style:normal;color:var(--ouro2)}
 .sum{columns:2;column-gap:44px;margin-top:6px}
 .sum section{break-inside:avoid;margin-bottom:22px}
 .sum h3{font:700 15px Cinzel;letter-spacing:.2em;color:var(--ouro);border-bottom:1px solid rgba(201,162,39,.4);padding-bottom:8px;margin-bottom:8px}
-.sum li{list-style:none;display:flex;gap:12px;font-size:19.5px;line-height:1.3;padding:4.5px 0;color:#e2d8c3}
+.sum li{list-style:none;display:flex;gap:12px;font-size:19.5px;line-height:1.3;padding:3.5px 0;color:#e2d8c3}
 .sum li b{font:400 20px Anton;color:var(--ouro);min-width:30px}
 .perg{margin-top:4px;border-top:1px solid rgba(201,162,39,.4)}
-.perg div{display:grid;grid-template-columns:74px 1fr;gap:10px;padding:15px 0 14px;border-bottom:1px solid rgba(239,230,210,.14)}
+.perg div{display:grid;grid-template-columns:74px 1fr;gap:10px;padding:13px 0 12px;border-bottom:1px solid rgba(239,230,210,.14)}
 .perg i{font:400 52px/1 Anton;font-style:normal;color:var(--ouro)}
 .perg h3{font:400 29px Anton;text-transform:uppercase;letter-spacing:.01em}
 .perg p{font-size:22px;line-height:1.36;margin:4px 0 4px}
@@ -127,10 +127,10 @@ em.o{font-style:normal;color:var(--ouro2)}
 .l26 b{font:700 14.5px Cinzel;letter-spacing:.12em;text-transform:uppercase;color:var(--perg);line-height:1.3}
 .l26 span{font-size:21px;line-height:1.34;color:#ded4bf}
 .ff{margin-top:2px;border-top:1px solid rgba(201,162,39,.4)}
-.ff div{padding:15px 0 14px;border-bottom:1px solid rgba(239,230,210,.14);display:grid;grid-template-columns:1fr 220px;gap:6px 20px}
+.ff div{padding:12px 0 11px;border-bottom:1px solid rgba(239,230,210,.14);display:grid;grid-template-columns:1fr 220px;gap:6px 20px}
 .ff h3{font:italic 600 31px/1.15 Cormorant;color:var(--perg)}
 .ff .v{font:700 13px Cinzel;letter-spacing:.18em;text-align:right;color:#f08a52;padding-top:8px}
-.ff p{grid-column:1/3;font-size:20.5px;line-height:1.36;color:#cfc5b0;margin:0}
+.ff p{grid-column:1/3;font-size:19.5px;line-height:1.36;color:#cfc5b0;margin:0}
 .cred{columns:2;column-gap:40px;margin-top:8px}
 .cred li{list-style:none;font-size:19px;line-height:1.35;padding:5px 0;color:#cfc5b0;break-inside:avoid}
 .cred li b{color:var(--perg);font-weight:600}
@@ -220,7 +220,7 @@ def manual():
 <div class="duas"><div><h3>NO LIVRO</h3><p>{e(x["caso"])}</p></div><div><h3>O LANCE</h3><ol>{''.join(f"<li>{e(l)}</li>" for l in x["lance"])}</ol></div></div>
 <div class="freio"><h3>O FREIO</h3><p>{e(x["freio"])}</p></div>''')
     # 13 perguntas
-    for a, b, tit in ((0, 7, 'As 13 perguntas <em class="o">do Príncipe</em>'), (7, 13, 'As 13 perguntas <em class="o">(continua)</em>')):
+    for a, b, tit in ((0, 6, 'As 13 perguntas <em class="o">do Príncipe</em>'), (6, 13, 'As 13 perguntas <em class="o">(continua)</em>')):
         s = top("FERRAMENTA 1") + f'<h1 class="m">{tit}</h1>' + ('<p>Antes de qualquer decisão que pese, passe por estas perguntas. Em geral, três ou quatro delas resolvem o caso.</p>' if a == 0 else '') + '<div class="perg">'
         for q in range(a, b):
             t, p_, r_ = C.PERGUNTAS[q]
@@ -236,7 +236,7 @@ def manual():
     s += ''.join(f'<div class="campo"><b>{e(c)}</b><i></i></div>' for c in c3)
     add("folha", s, txt="Raposa e Leão · Manual de Campo")
     # 26 linhas
-    for a, b in ((0, 13), (13, 26)):
+    for a, b in ((0, 9), (9, 18), (18, 26)):
         s = top("FERRAMENTA 3") + f'<h1 class="m">O Príncipe em <em class="o">26 linhas</em></h1>' + ('<p>Um capítulo por linha, para você saber onde procurar no livro inteiro.</p>' if a == 0 else '') + '<div class="l26">'
         s += ''.join(f'<div><i>{r_}</i><b>{e(t)}</b><span>{e(l)}</span></div>' for r_, t, l in C.LINHAS26[a:b])
         add("txt", s + '</div>', txt="Resumo nosso. Para citar, vá ao capítulo.")
@@ -275,7 +275,7 @@ def isca():
     add("capa", '''<div class="brilho" style="left:-80px;top:120px;width:760px;height:760px;background:radial-gradient(circle,rgba(201,162,39,.42),transparent 65%)"></div>
 <div class="foto" style="background-image:url(../img/maquiavel.jpg);right:auto;left:-150px;top:60px;transform:scaleX(-1)"></div>
 <div class="et">CONFERIDO NO ORIGINAL</div><div class="canal">RAPOSA E LEÃO</div>
-<h1 style="font-size:150px;bottom:290px;left:auto;right:70px;text-align:right"><small style="font-size:64px">7 FRASES QUE</small>MAQUIAVEL<em>NUNCA <span class="tarja">DISSE</span></em></h1>
+<h1 style="line-height:1.02;font-size:122px;bottom:300px;left:auto;right:70px;text-align:right"><small style="font-size:56px">7 FRASES QUE</small>MAQUIAVEL<em>NUNCA <span style="color:#fff;background:#8E1B1B;padding:0 12px;display:inline-block;line-height:.9;margin-top:10px">DISSE</span></em></h1>
 <p class="sub" style="left:auto;right:76px;text-align:right;width:640px;bottom:170px">E o que ele escreveu de verdade, com obra e capítulo.</p>
 <div class="pe"><img src="../img/selo.jpg"><span>GUIA GRATUITO DO CANAL</span><span>2026</span></div>''', r=False)
     add("txt", tp("POR QUE ISTO IMPORTA") + '''<h1 class="m">A frase mais famosa dele <em class="o">não é dele</em></h1>
