@@ -20,3 +20,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 14/11 Zuleide: entreguei 5 motions da SF (vaso, ralo, caixa de gordura) em agencia/clientes/desentupidora-sf/motion-sf-14-11/; mp4 só na máquina da Zuleide (fora do Git).
 - 14/11 22:20 · Leandro: Raposa longos 17-21 (manipulação, poder no trabalho, líderes que fingem, ingratidão, inveja): roteiros, SEO, capas e PUBLICAR em raposa-e-leao/longos/17-21. Render: 17 e 18 na fila; 19-21 livres para quem tiver CPU.
 - 14/11 Leandro: entreguei linha de frases + Provedor (4 posts, 4 carrosséis) em agencia/marca-lindson/linha-frases/.
+- 14/11 Pedro: entreguei o produto do Raposa e Leão (Manual de Campo, 50 p., + isca "7 frases que Maquiavel nunca disse", página de venda e kit) em conteudo/youtube/raposa-e-leao/produto/; aguardando preço e Hubla do Lindson.
