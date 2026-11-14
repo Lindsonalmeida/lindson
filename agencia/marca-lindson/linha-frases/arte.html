@@ -1,0 +1,95 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<!-- Linha de frases + linha Provedor · @lindsonalmeida_ (conta Leandro, 14/11/2026).
+     Composições copiadas do modelo aprovado "Papo reto" (artes-v2/artes.html, p1p: foto à direita, aspas amarelas gigantes)
+     e da capa r1p (palavra-chave em caixa amarela). Referências da pesquisa em TEMPLATE.md desta pasta. -->
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@500;700;800&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{--p:#0A0A0A;--g:#1B1B1B;--g2:#2A2A2A;--t:#F5F3EE;--ap:#A7A39A;--am:#F5C518}
+*{box-sizing:border-box;margin:0;padding:0}html,body{background:#000;overflow:hidden;font-family:Manrope}
+.a{position:relative;width:1080px;height:1350px;overflow:hidden;background:var(--p);color:var(--t)}
+.abs{position:absolute}.foto{position:absolute;background-size:cover;background-position:center}
+.esp{transform:scaleX(-1)}.gr{filter:grayscale(.55) contrast(1.15) brightness(.85)}
+.marca{font:800 30px Manrope;letter-spacing:-.02em}.marca i{display:inline-block;width:12px;height:12px;border-radius:50%;background:var(--am);margin-left:4px}
+.mono{font-family:'JetBrains Mono';font-weight:500;letter-spacing:.1em}
+.h{font:800 72px/1.02 Manrope;letter-spacing:-.045em;text-wrap:balance}
+.ant{font-family:Anton;text-transform:uppercase;line-height:.88;letter-spacing:-.005em}
+.cx{background:var(--am);color:var(--p);padding:0 .12em;display:inline-block;line-height:1.02;box-shadow:0 12px 30px rgba(245,197,24,.28)}
+.am{color:var(--am)}.asp{font:400 520px/1 'Instrument Serif';color:var(--am);text-shadow:0 20px 60px rgba(245,197,24,.25)}
+.grao{position:absolute;inset:0;pointer-events:none;opacity:.14;mix-blend-mode:overlay;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.ya{background:radial-gradient(75% 55% at 50% 30%,#FFDB4D 0,#F5C518 55%,#DFA90B 100%);color:var(--p)}.ya .marca i{background:var(--p)}
+.cxp{background:var(--p);color:var(--am);padding:0 .12em;display:inline-block;line-height:1.02}
+.pag{right:70px;bottom:56px;font-size:21px}
+</style></head><body><div id="x"></div><script>
+const F='fotos/',q=new URLSearchParams(location.search).get('a');
+const topo=(r,c)=>`<div class="abs" style="left:70px;right:70px;top:60px;display:flex;justify-content:space-between;align-items:center;z-index:5"><span class="marca">lindson almeida<i></i></span><span class="mono" style="font-size:21px;${c?'':'color:var(--am)'}">${r}</span></div>`;
+const pg=(n,t)=>`<div class="abs mono pag">${n} / ${t}</div>`;
+const foto=(f,s,cls='')=>`<div class="foto ${cls}" style="${s};background-image:url(${F}${f})"></div>`;
+// L1 PAPO RETO (modelo aprovado p1p): foto à direita, aspas gigantes, frase à esquerda
+const papo=o=>`<div class="a">${foto(o.f,'left:380px;top:0;right:0;bottom:0;background-size:'+(o.z||'125%')+';background-position:'+(o.pos||'50% 12%'),'esp gr')}
+<div class="abs" style="inset:0;background:linear-gradient(90deg,var(--p) 36%,rgba(10,10,10,.55) 60%,rgba(10,10,10,0) 82%)"></div><div class="abs" style="inset:0;background:linear-gradient(0deg,rgba(10,10,10,.95),transparent 42%)"></div>
+${topo(o.rot||'PAPO RETO')}<div class="abs asp" style="left:40px;top:60px">“</div>
+<div class="abs" style="left:70px;top:470px;width:${o.w||640}px"><div class="h" style="font-size:${o.fs||70}px">${o.h}</div></div>
+<div class="abs" style="left:70px;bottom:210px;display:flex;align-items:center;gap:18px"><div style="width:64px;height:4px;background:var(--am)"></div><span class="mono" style="font-size:22px">${o.au}</span></div>
+<div class="abs" style="left:70px;right:70px;bottom:70px;font:700 28px/1.3 Manrope;color:var(--ap)"><span class="am">NA PRÁTICA ·</span> ${o.np}</div><div class="grao"></div></div>`;
+// L2 PALAVRA GIGANTE: Anton amarelo atrás, foto no centro, manchete embaixo
+const giga=o=>`<div class="a">${foto(o.f,'left:0;right:0;top:0;bottom:0;background-size:cover;background-position:'+(o.pos||'50% 20%'),'esp gr')}
+<div class="abs" style="inset:0;background:linear-gradient(180deg,rgba(10,10,10,.85) 0,rgba(10,10,10,.2) 35%,rgba(10,10,10,.3) 55%,#0A0A0A 80%)"></div>
+${topo(o.rot)}<div class="abs ant" style="left:0;right:0;top:150px;text-align:center;font-size:${o.gs||300}px;color:var(--am);mix-blend-mode:normal;opacity:.95;text-shadow:0 20px 60px rgba(0,0,0,.6)">${o.g}</div>
+<div class="abs" style="left:70px;right:70px;bottom:${o.np?250:150}px"><div class="ant" style="font-size:${o.fs||120}px;line-height:.92">${o.h}</div></div>
+${o.np?`<div class="abs" style="left:70px;right:70px;bottom:80px;font:700 30px/1.3 Manrope;color:var(--t)"><span class="cx" style="font-size:22px;padding:4px 10px;margin-right:10px" >NA PRÁTICA</span>${o.np}</div>`:''}${o.pg||''}<div class="grao"></div></div>`;
+// L3 DIVIDIDA: foto em cima, bloco amarelo embaixo
+const div=o=>`<div class="a">${foto(o.f,'left:0;right:0;top:0;height:720px;background-position:'+(o.pos||'50% 15%'),'esp gr')}<div class="abs" style="left:0;right:0;top:420px;height:300px;background:linear-gradient(0deg,#0A0A0A,transparent)"></div>${topo(o.rot)}
+<div class="abs ya" style="left:0;right:0;top:720px;bottom:0;padding:70px"><div class="ant" style="font-size:${o.fs||118}px">${o.h}</div><p style="font:700 32px/1.35 Manrope;margin-top:36px;max-width:900px">${o.np}</p></div>${o.pg||''}<div class="grao"></div></div>`;
+// L4 CARTÃO DE CITAÇÃO: grafite, cartão com borda amarela, fonte
+const card=o=>`<div class="a" style="background:var(--g)">${topo(o.rot)}<div class="abs ant" style="right:-30px;top:120px;font-size:640px;color:#242424">${o.n||''}</div>
+<div class="abs" style="left:70px;right:70px;top:300px;border:2px solid var(--am);background:rgba(10,10,10,.75);padding:60px 56px"><div style="font:400 92px/.8 'Instrument Serif'" class="am">“</div>
+<div style="font:italic 400 64px/1.1 'Instrument Serif';margin-top:10px">${o.q}</div><div class="mono am" style="font-size:22px;margin-top:34px">${o.au}</div><div class="mono" style="font-size:17px;color:var(--ap);margin-top:8px">${o.src}</div></div>
+<div class="abs" style="left:70px;right:70px;bottom:150px"><div class="h" style="font-size:54px">${o.h}</div></div>${o.pg||''}<div class="grao"></div></div>`;
+// L5 AMARELO COM NÚMERO / CITAÇÃO INVERTIDA
+const inv=o=>`<div class="a ya">${topo(o.rot,1)}<div class="abs ant" style="left:50px;top:110px;font-size:420px;color:rgba(10,10,10,.12)">${o.n}</div>
+<div class="abs" style="left:70px;right:70px;top:420px"><div class="h" style="font-size:${o.fs||80}px">${o.h}</div><p style="font:700 32px/1.4 Manrope;margin-top:40px;max-width:880px">${o.t}</p>${o.au?`<div class="mono" style="font-size:21px;margin-top:30px">${o.au}</div>`:''}</div>${o.pg||''}<div class="grao" style="opacity:.18"></div></div>`;
+// L6 COMO EU TE AJUDO: 3 passos em linhas
+const ajudo=o=>`<div class="a">${topo('COMO EU TE AJUDO')}<div class="abs" style="left:70px;right:70px;top:190px"><div class="h" style="font-size:86px">Provedor precisa de negócio <span class="cx">organizado</span>.</div></div>
+<div class="abs" style="left:70px;right:70px;top:560px">${[['01','Organizar','Oferta clara, perfil arrumado, atendimento com roteiro.'],['02','Atrair cliente','Conteúdo toda semana e WhatsApp pronto para fechar.'],['03','Escalar','Medir o que vende e fazer mais do que funciona.']].map(x=>`<div style="display:grid;grid-template-columns:110px 1fr;gap:20px;border-top:1px solid #2f2f2f;padding:36px 0"><span class="ant am" style="font-size:80px">${x[0]}</span><div><b style="font-size:50px;letter-spacing:-.03em">${x[1]}</b><p style="font:500 28px/1.4 Manrope;color:var(--ap);margin-top:8px">${x[2]}</p></div></div>`).join('')}</div>
+<div class="abs mono" style="left:70px;bottom:56px;font-size:19px;color:var(--ap)">SEM PROMESSA DE RESULTADO. COM MÉTODO.</div>${o.pg||''}<div class="grao"></div></div>`;
+// L7 CTA: amarelo, foto em círculo, palavra para comentar
+const cta=o=>`<div class="a ya">${topo('@LINDSONALMEIDA_',1)}<div class="abs" style="left:640px;top:170px;width:360px;height:360px;border-radius:50%;border:8px solid #0A0A0A;overflow:hidden">${foto(o.f,'inset:0;background-size:'+(o.z||'180%')+';background-position:'+(o.pos||'50% 14%'),'esp')}</div>
+<div class="abs" style="left:70px;top:600px;right:70px"><div class="h" style="font-size:78px">Quer organizar e escalar o seu negócio?</div><div style="margin-top:50px"><span class="cxp ant" style="font-size:150px;padding:10px 26px">COMENTA ${o.w||'PROVEDOR'}</span></div><p class="mono" style="font-size:24px;margin-top:40px">OU ME CHAMA NO DIRECT →</p></div>${o.pg||''}<div class="grao" style="opacity:.18"></div></div>`;
+const L={papo,giga,div,card,inv,ajudo,cta};
+const S={
+// ===== exemplos da linha de frases (modelo Papo reto) =====
+ex1:papo({f:'c07.jpg',h:'Faça uma oferta tão boa que ele se sinta <span class="cx">burro</span> de dizer não.',au:'ALEX HORMOZI · $100M OFFERS',np:'Se o cliente some depois do orçamento, o problema não é o preço.'}),
+ex2:papo({f:'c08.jpg',fs:66,h:'Os covardes nunca começaram. Os fracos morreram pelo caminho. <span class="cx">Sobramos nós.</span>',au:'PHIL KNIGHT · A MARCA DA VITÓRIA',np:'Você ficou de portas abertas. Agora lidere.'}),
+ex3:papo({f:'c09.jpg',h:'Você não sobe ao nível das metas. Cai ao nível dos seus <span class="cx">sistemas</span>.',au:'JAMES CLEAR · HÁBITOS ATÔMICOS',np:'Meta sem calendário de postagem é desejo, não plano.'}),
+// ===== 4 posts provedor =====
+p1:giga({f:'c10.jpg',rot:'PAPO RETO',g:'FRACO',gs:330,h:'Homem fraco<br>não tem <span class="am">valor</span>.',np:'Dono que foge da decisão deixa família e equipe sem rumo.'}),
+p2:div({f:'c11.jpg',rot:'DINHEIRO',h:'Homem sem dinheiro não tem valor.',np:'Na prática: negócio desorganizado não sustenta ninguém. Caixa sem controle é família sem segurança.'}),
+p3:papo({f:'c13.jpg',rot:'PROVER',fs:72,h:'Mulher ama o que o homem pode <span class="cx">proporcionar</span>.',au:'LINDSON ALMEIDA',np:'Proporcionar começa no negócio: caixa organizado, cliente chegando, palavra cumprida.'}),
+p4:inv({rot:'MANIFESTO',n:'01',fs:150,h:'<span class="ant" style="font-size:190px;line-height:.9">SEJA<br>PROVEDOR.</span>',t:'Provedor não é quem fala alto. É quem acorda cedo, cumpre a palavra e constrói um negócio que se sustenta. Quer organizar e escalar o seu? Comenta PROVEDOR.'}),
+};
+// ===== 4 carrosséis (6 telas cada; layouts nunca repetem o anterior) =====
+const C={
+c1:[giga({f:'c16.jpg',rot:'ARRASTE →',g:'PROVEDOR',gs:200,fs:130,h:'Seja<br><span class="am">provedor</span>.',pg:pg('01','06')}),
+ inv({rot:'O PROBLEMA',n:'02',h:'Quem depende de você não come promessa.',t:'Família, equipe e cliente contam com a sua palavra. Negócio que vive do improviso falha justo com eles.',pg:pg('02','06')}),
+ card({rot:'DISCIPLINA',n:'03',q:'Grande parte da vida escapa a quem faz mal; a maior parte, a quem nada faz.',au:'SÊNECA',src:'CARTAS A LUCÍLIO, CARTA 1, 1',h:'Esperar o momento certo é o jeito mais caro de não fazer.',pg:pg('03','06')}),
+ inv({rot:'SISTEMA',n:'04',fs:72,h:'“Você não sobe ao nível das metas. Cai ao nível dos sistemas.”',t:'Provedor não vive de motivação. Vive de rotina: horário, processo, número.',au:'JAMES CLEAR · HÁBITOS ATÔMICOS (2018), CAP. 1',pg:pg('04','06')}),
+ ajudo({pg:pg('05','06')}),cta({f:'c12.jpg',pg:pg('06','06')})],
+c2:[div({f:'c14.jpg',rot:'ARRASTE →',fs:112,h:'Homem sem dinheiro não tem valor.',np:'Mas valor não é o que está no bolso. É o que você constrói. Arraste.',pg:pg('01','06')}),
+ card({rot:'VALOR',n:'02',q:'Preço é o que você paga. Valor é o que você leva.',au:'WARREN BUFFETT',src:'CARTA AOS ACIONISTAS DA BERKSHIRE, 2008',h:'Quem só fala de preço ensina o cliente a só olhar preço.',pg:pg('02','06')}),
+ inv({rot:'COMPORTAMENTO',n:'03',fs:68,h:'“Ir bem com dinheiro tem pouco a ver com inteligência e muito com comportamento.”',t:'Faturar bem e sumir com o dinheiro todo mês não é falta de cliente. É falta de controle.',au:'MORGAN HOUSEL · A PSICOLOGIA FINANCEIRA (2020)',pg:pg('03','06')}),
+ card({rot:'TEMPO',n:'04',q:'Lembre-se de que tempo é dinheiro.',au:'BENJAMIN FRANKLIN',src:'ADVICE TO A YOUNG TRADESMAN, 1748',h:'Cada hora respondendo “quanto custa?” no direct é dinheiro que você não cobrou.',pg:pg('04','06')}),
+ ajudo({pg:pg('05','06')}),cta({f:'c15.jpg',pg:pg('06','06')})],
+c3:[papo({f:'c16.jpg',rot:'ARRASTE →',pos:'40% 8%',h:'Homem fraco <span class="cx">não tem valor</span>.',au:'PAPO RETO · 01 / 06',np:'Fraco não é quem perde. É quem não decide.'}),
+ inv({rot:'O DIA',n:'02',fs:70,h:'“De manhã, quando custar a levantar: estou acordando para o trabalho de um homem.”',t:'Ninguém vai abrir sua loja por você. Nem postar.',au:'MARCO AURÉLIO · MEDITAÇÕES, V, 1',pg:pg('02','06')}),
+ card({rot:'CULPA',n:'03',q:'Não acusem a fortuna, mas a própria inércia.',au:'MAQUIAVEL',src:'O PRÍNCIPE, CAP. XXIV (ED. INGLESE)',h:'A culpa não é do algoritmo nem da crise. É do post que você não fez.',pg:pg('03','06')}),
+ inv({rot:'FICAR',n:'04',fs:70,h:'“Os covardes nunca começaram e os fracos morreram pelo caminho. Sobramos nós.”',t:'Se você ainda está de portas abertas, já passou por quem desistiu. Agora constrói.',au:'PHIL KNIGHT · A MARCA DA VITÓRIA (2016)',pg:pg('04','06')}).replace('class="a ya"','class="a" style="background:#0A0A0A;color:#F5F3EE"'),
+ ajudo({pg:pg('05','06')}),cta({f:'c13.jpg',pos:'50% 8%',pg:pg('06','06')})],
+c4:[giga({f:'c12.jpg',rot:'ARRASTE →',g:'PROVER',gs:300,fs:104,h:'Mulher ama o que o homem pode <span class="am">proporcionar</span>.',pg:pg('01','06')}),
+ inv({rot:'RESPONSABILIDADE',n:'02',h:'Proporcionar é responsabilidade, não discurso.',t:'Segurança, tempo com a família, palavra cumprida. Tudo isso sai de um negócio que funciona.',pg:pg('02','06')}),
+ card({rot:'REALIDADE',n:'03',q:'Uma compreensão precisa da realidade é a base essencial de qualquer bom resultado.',au:'RAY DALIO',src:'PRINCÍPIOS (2017), PARTE 2',h:'Você sabe quantos clientes vieram do Instagram este mês? Se não sabe, está chutando.',pg:pg('03','06')}),
+ inv({rot:'INVERTER',n:'04',h:'“Inverta, sempre inverta.”',t:'Pergunte o que faria seu negócio quebrar. Depois pare de fazer isso.',au:'CHARLIE MUNGER · HARVARD, 1995',pg:pg('04','06')}).replace('class="a ya"','class="a" style="background:#1B1B1B;color:#F5F3EE"'),
+ ajudo({pg:pg('05','06')}),cta({f:'c14.jpg',pos:'50% 6%',z:'200%',pg:pg('06','06')})]};
+for(const k in C)C[k].forEach((h,i)=>S[k+'_'+(i+1)]=h);
+document.getElementById('x').innerHTML=S[q]||'';
+Promise.all([document.fonts.ready]).then(()=>setTimeout(()=>window.pronto=true,700));
+</script></body></html>

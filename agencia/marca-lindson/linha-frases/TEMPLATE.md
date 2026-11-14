@@ -1,0 +1,2 @@
+# Template · linha de frases e Provedor (conta Leandro, 14/11/2026)
+Escolhidos (modelos aprovados do próprio Lindson, regra "nunca criar do zero"): Papo reto p1p e capa r1p (artes-v2/artes.html), cuja pesquisa premium (João Romualdo/JT, The Branded Agency/INFLURY, Anna Shtonda/Man UpRight; Surpluz; Nordic Division) está em ../identidade/TEMPLATE.md. Carrossel "Como eu te ajudo" copia s2_c3_2 (linhas numeradas). Nova pesquisa premium desta rodada: não feita (pendente).

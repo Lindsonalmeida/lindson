@@ -16,3 +16,4 @@ Observação: todas as fotos de estúdio (c00 a c16) já tinham sido usadas ante
 Variações (05/11, conta Pedro): o Lindson liberou "pode criar variações com IA". Variação = outro recorte, espelhada, outro enquadramento ou outro fundo/tratamento de cor. Cada variação usada entra na tabela e não se repete. Arquivos: `artes-v1/fotos/cNN-rec2-esp.png` (fora do Git).
 | c12 **variação** (espelhada, recorte do rosto em círculo amarelo) | Stories · Rebranding do curso, telas 01 e 03 (selo do autor) | 12/11/2026 | Pedro |
 | c14 **variação** (espelhada, busto com luz amarela e degradê na base) | Stories · Rebranding do curso, tela 08 (venda) | 12/11/2026 | Pedro |
+| c07-c16 **variações** (espelhadas, tratamento grafite, recortes novos: círculo no CTA, close no capa) | Linha de frases (exemplos ex1-ex3) e linha Provedor (posts p1-p4, capas e CTAs dos carrosséis c1-c4), `linha-frases/` | 14/11/2026 | Leandro |
