@@ -1,0 +1,437 @@
+{
+ "titulo": "Ingratidão das pessoas: o que Maquiavel descobriu",
+ "seg": [
+  {
+   "tela": {
+    "t": "abertura",
+    "h": "Por que quem você ajuda<br><b>te esquece</b>",
+    "s": "O Príncipe · cap. XVII",
+    "img": "maquiavel.jpg"
+   },
+   "txt": "Você emprestou dinheiro, deu carona, indicou para o emprego, segurou a barra numa fase difícil. E quando precisou, a pessoa sumiu. Se isso já aconteceu com você, não é azar e talvez nem seja maldade. Maquiavel explicou esse mecanismo há quinhentos anos, e a explicação dele dói, mas liberta."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Ingratos, volúveis,<br><b>fugitivos dos perigos.</b>"
+   },
+   "txt": "Neste vídeo eu vou te mostrar a frase mais dura de O Príncipe sobre a natureza humana, de onde nasce a ingratidão segundo os Discursos, o caso do general que salvou Roma e morreu longe dela, e cinco regras para ajudar sem ser feito de trouxa."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "No fim:<br><b>o tipo de ajuda que nunca é esquecido.</b>"
+   },
+   "txt": "E fica até o fim, porque existe um tipo de ajuda que as pessoas quase nunca esquecem. Maquiavel dá a pista no capítulo oito, num contexto bem diferente, e quando você entender, vai mudar o jeito de fazer favor."
+  },
+  {
+   "tela": {
+    "t": "inscreva",
+    "tag": "QUEM TE DEVE UM FAVOR?",
+    "s": "Pense e se inscreva."
+   },
+   "txt": "Antes de começar, pensa numa pessoa que você ajudou muito e que, quando você precisou, não apareceu. Guarda esse nome com carinho, sem raiva. E se esse canal te ajuda a entender as pessoas, se inscreve, que é de graça e me ajuda muito."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "1",
+    "h": "A frase mais dura",
+    "s": "O Príncipe, cap. XVII"
+   },
+   "txt": "Capítulo um. A frase mais dura de O Príncipe."
+  },
+  {
+   "tela": {
+    "t": "citacao",
+    "h": "Dos homens pode-se dizer isto, em geral: que são ingratos, volúveis, simuladores e dissimuladores, fogem dos perigos e são ávidos de lucro.",
+    "s": "O Príncipe, cap. XVII"
+   },
+   "txt": "No capítulo dezessete, aquele famoso sobre se é melhor ser amado ou temido, Maquiavel escreve: dos homens pode-se dizer isto, em geral: que são ingratos, volúveis, simuladores e dissimuladores, fogem dos perigos e são ávidos de lucro."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Enquanto você faz bem,<br><b>são todos seus.</b>"
+   },
+   "txt": "E ele continua: enquanto você lhes faz bem, são todos seus. Oferecem o sangue, os bens, a vida e os filhos, quando a necessidade está longe. Mas quando ela se aproxima, eles se viram. Repara no detalhe: quando a necessidade está longe. A promessa é fácil enquanto não custa nada."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Em geral.<br><b>Não todo mundo.</b>"
+   },
+   "txt": "Mas antes de sair falando que todo mundo é ingrato, presta atenção numa palavra: em geral. Maquiavel não diz que cada pessoa é assim. Ele diz que, como regra de prudência, quem depende das pessoas deve contar com esse comportamento. É uma premissa de segurança, não um retrato da sua mãe ou do seu melhor amigo."
+  },
+  {
+   "tela": {
+    "t": "citacao",
+    "h": "Então todos correm, todos prometem e cada um quer morrer por ele, quando a morte está longe.",
+    "s": "O Príncipe, cap. IX"
+   },
+   "txt": "No capítulo nove ele diz quase a mesma coisa de outro jeito. Nos tempos calmos, todos correm, todos prometem, e cada um quer morrer pelo príncipe, quando a morte está longe. Mas nos tempos adversos, quando o Estado precisa dos cidadãos, encontra poucos."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "A promessa não custa nada<br><b>até custar.</b>"
+   },
+   "txt": "O que Maquiavel está dizendo é que a promessa tem preço zero enquanto o perigo está longe. Dizer conta comigo numa festa não custa nada. Aparecer num hospital às três da manhã custa. É no momento em que a ajuda tem preço que você descobre quem estava só prometendo e quem estava disposto a pagar."
+  },
+  {
+   "tela": {
+    "t": "conversa",
+    "tipo": "checkin",
+    "h": "Já ouviu um<br>\"conta comigo\"?",
+    "x": "JÁ OUVI",
+    "img": "../img/maquiavel.jpg"
+   },
+   "txt": "Me diz: quantas vezes você já ouviu um conta comigo pra qualquer coisa, e na hora não pôde contar? Pois é. Agora vamos entender por que isso acontece, e a resposta não é só que as pessoas são más."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "2",
+    "h": "O vínculo que se rompe",
+    "s": "O Príncipe, cap. XVII"
+   },
+   "txt": "Capítulo dois. O vínculo que se rompe."
+  },
+  {
+   "tela": {
+    "t": "citacao",
+    "h": "O amor se mantém por um vínculo de obrigação que, por serem os homens maus, se rompe a cada ocasião de interesse próprio.",
+    "s": "O Príncipe, cap. XVII"
+   },
+   "txt": "Maquiavel explica o mecanismo assim: o amor se mantém por um vínculo de obrigação, e esse vínculo, por serem os homens maus, se rompe a cada ocasião de interesse próprio. Já o temor se mantém por um medo do castigo que nunca abandona."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Gratidão é obrigação.<br><b>E obrigação pesa.</b>"
+   },
+   "txt": "Repara: a gratidão é um tipo de obrigação. E obrigação pesa. Quem recebeu muito de você carrega uma dívida, mesmo que você nunca cobre. Para muita gente, a forma mais fácil de se livrar do peso não é pagar a dívida. É se afastar de quem lembra a dívida."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Às vezes quem some<br><b>tem vergonha.</b>"
+   },
+   "txt": "Isso explica um comportamento que parece absurdo: a pessoa que você mais ajudou é a que mais some. Às vezes não é desprezo. É vergonha. Ela não consegue retribuir, e cada vez que te vê lembra disso. Entender isso não apaga a dor, mas tira o veneno."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Não é para trocar amor<br><b>por medo.</b>"
+   },
+   "txt": "E cuidado com a conclusão errada. Maquiavel fala de príncipes e Estados. Ninguém precisa ser temido pelos amigos. A lição para a vida comum é outra: não construa a sua segurança só em cima da gratidão dos outros. Gratidão é bonita, mas não é base para nada que você precise de verdade."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Um exemplo genérico:<br><b>o amigo do aperto.</b>"
+   },
+   "txt": "Um exemplo genérico. Na época da faculdade, você dividia tudo com um amigo: comida, aluguel, carona. Ele passou por um aperto e você bancou o aluguel três meses. Hoje ele está bem de vida, e quando você manda mensagem, a resposta demora dias. Ele não virou outra pessoa. Ele só está fugindo de uma lembrança que o faz se sentir pequeno."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "3",
+    "h": "De onde nasce a ingratidão",
+    "s": "Discursos, livro I, cap. 29"
+   },
+   "txt": "Capítulo três. De onde nasce a ingratidão."
+  },
+  {
+   "tela": {
+    "t": "citacao",
+    "h": "Este vício da ingratidão nasce ou da avareza ou da suspeita.",
+    "s": "Discursos, livro I, cap. 29"
+   },
+   "txt": "Nos Discursos, livro um, capítulo vinte e nove, Maquiavel pergunta quem é mais ingrato, um povo ou um príncipe. E dá uma resposta que serve até hoje: este vício da ingratidão nasce ou da avareza ou da suspeita."
+  },
+  {
+   "tela": {
+    "t": "duo",
+    "a": "Avareza",
+    "as": "não quer dividir o ganho",
+    "b": "Suspeita",
+    "bs": "teme quem ficou grande"
+   },
+   "txt": "Avareza é quando a pessoa não quer dividir o que ganhou com a sua ajuda. Ela fica com o resultado e finge que conseguiu sozinha. Suspeita é mais sutil: quando a sua ajuda foi tão grande que você ficou importante demais, e a pessoa passa a ter medo de você."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "A suspeita é<br><b>a mais perigosa.</b>"
+   },
+   "txt": "A segunda é a mais perigosa. Pensa no funcionário que salvou a empresa e, um ano depois, foi demitido. Ou no amigo que ajudou alguém a crescer e depois foi afastado. Muitas vezes a pessoa não esqueceu a ajuda. Ela lembra bem demais, e é isso que incomoda. Quem te deve tudo também sabe que você sabe disso."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "4",
+    "h": "O general que salvou Roma",
+    "s": "Discursos, livro I, cap. 29"
+   },
+   "txt": "Capítulo quatro. O general que salvou Roma."
+  },
+  {
+   "tela": {
+    "t": "imagem",
+    "img": "hannibal.jpg",
+    "h": "Aníbal",
+    "s": "general de Cartago, 247 a 183 a.C."
+   },
+   "txt": "Maquiavel dá o exemplo de Cipião, o Africano. Roma estava em perigo mortal. Aníbal, o general de Cartago, tinha atravessado os Alpes, destruído exércitos romanos e passado anos dentro da Itália. Foi Cipião quem levou a guerra para a África e venceu Aníbal na batalha de Zama."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Ele salvou Roma.<br><b>Roma o afastou.</b>"
+   },
+   "txt": "E o que Roma fez com o homem que a salvou? Com o tempo, a fama de Cipião ficou tão grande que passou a assustar os próprios romanos. Ele foi acusado, perseguido, e terminou a vida longe de Roma, fora da política. Maquiavel diz que essa foi a única ingratidão de Roma que nasceu da suspeita, e que tinha alguma desculpa: a glória de Cipião era grande demais para uma república livre."
+  },
+  {
+   "tela": {
+    "t": "imagem",
+    "img": "ferdinand_ii_of_aragon.jpg",
+    "h": "Gonzalo de Córdoba e Fernando",
+    "s": "Nápoles, início do século XVI"
+   },
+   "txt": "E Maquiavel traz um exemplo do tempo dele. Gonzalo de Córdoba, o Grande Capitão, conquistou o reino de Nápoles para Fernando de Aragão, vencendo os franceses. E qual foi o prêmio? Fernando foi pessoalmente a Nápoles, tirou o comando de Gonzalo e o levou de volta para a Espanha, onde ele terminou a vida afastado dos grandes comandos."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "O rei não teve avareza.<br><b>Teve medo.</b>"
+   },
+   "txt": "Maquiavel explica que Fernando não fez isso por avareza, nem por não reconhecer o que Gonzalo tinha feito. Fez por suspeita. Um capitão que conquista um reino pode, um dia, querer o reino para si. O medo do rei foi maior do que a gratidão do rei. E quanto maior a ajuda, maior o medo."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Por que o príncipe é<br><b>mais ingrato que o povo.</b>"
+   },
+   "txt": "Daí vem a conclusão curiosa do capítulo: para Maquiavel, o povo é menos ingrato do que o príncipe. O povo, quando é ingrato, é mais por suspeita do que por avareza, e suspeita menos. O príncipe, que tem tudo a perder, suspeita de todo mundo que cresce perto dele. Quanto mais poder alguém tem, mais difícil é ser grato."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Ingratidão<br><b>não é só maldade.</b>"
+   },
+   "txt": "Olha que leitura madura. Maquiavel não diz que os romanos eram monstros. Diz que, quando alguém fica grande demais por ter ajudado, quem foi ajudado sente o próprio espaço ameaçado. Não é justo. Mas é humano. E quem entende isso consegue se proteger antes."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Um exemplo genérico<br><b>de hoje.</b>"
+   },
+   "txt": "Um exemplo genérico de hoje. Uma pessoa entra numa pequena empresa e, em dois anos, organiza tudo: processos, clientes, financeiro. A empresa triplica. E o dono, que antes elogiava, começa a cortar a autonomia dela, a pedir relatório de tudo, a deixar de convidar para reunião. Ela pensa: o que eu fiz de errado? A resposta de Maquiavel: você ficou grande demais para o tamanho da confiança dele."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "O sucesso de quem ajuda<br><b>precisa de regra.</b>"
+   },
+   "txt": "E qual a saída? Para quem é dono, Maquiavel daria um conselho claro: crie regras para que o sucesso de alguém não seja uma ameaça. Cargo definido, participação no resultado, limites claros. Para quem trabalha, o caminho é deixar evidente que você está do lado do projeto e não querendo o lugar do dono, ou negociar uma participação de verdade."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "5",
+    "h": "Como ajudar sem ser esquecido",
+    "s": "Discursos, livro I, cap. 30"
+   },
+   "txt": "Capítulo cinco. Como ajudar sem ser esquecido."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Nos Discursos,<br><b>a saída do capitão.</b>"
+   },
+   "txt": "No capítulo trinta, logo em seguida, Maquiavel ensina como o capitão vitorioso evita ser vítima da ingratidão. E dá a saída: logo depois da vitória, entregar o comando, voltar ao seu lugar e evitar todo ato insolente ou ambicioso, para que o príncipe, livre de toda suspeita, tenha motivo de premiá-lo."
+  },
+  {
+   "tela": {
+    "t": "lista",
+    "h": "5 regras para ajudar",
+    "itens": [
+     "Ajude sem exibir a ajuda",
+     "Deixe o outro ficar com o crédito",
+     "Não cobre a dívida em público",
+     "Não dependa da gratidão para viver",
+     "Ajude a pessoa a não precisar mais de você"
+    ]
+   },
+   "txt": "Juntando Maquiavel com a vida real, dá para montar cinco regras. Um: ajude sem exibir a ajuda. Dois: deixe o outro ficar com o crédito. Três: não cobre a dívida em público. Quatro: não dependa da gratidão para viver. Cinco: ajude a pessoa a não precisar mais de você."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "1. Ajude<br><b>sem exibir.</b>"
+   },
+   "txt": "Regra um: ajuda que é exibida vira humilhação para quem recebe. Quando você conta para todo mundo o que fez por alguém, transforma a ajuda numa dívida pública. E dívida pública gera exatamente a suspeita de que Maquiavel fala. A ajuda mais duradoura é discreta."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "2. Deixe o outro<br><b>com o crédito.</b>"
+   },
+   "txt": "Regra dois: deixe o outro ficar com o crédito. Se você ajudou um colega a resolver um problema, deixa ele apresentar. Você não perde nada, e ele sai com a sensação de que conseguiu. Paradoxalmente, quem recebe crédito costuma lembrar com mais carinho de quem deu a mão do que quem foi exposto como necessitado."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "3. Não cobre<br><b>em público.</b>"
+   },
+   "txt": "Regra três: nunca cobre a dívida em público. Frases como depois de tudo que eu fiz por você destroem qualquer relação. A pessoa pode até te dar o que você pede naquele dia, mas a partir dali vai fugir de você. Se precisar lembrar, lembra em particular e com uma pergunta, não com acusação."
+  },
+  {
+   "tela": {
+    "t": "conversa",
+    "tipo": "pergunta",
+    "h": "Qual regra<br>você quebra?",
+    "x": "A REGRA 3",
+    "img": "../img/hannibal.jpg"
+   },
+   "txt": "Me conta nos comentários: qual dessas regras você mais quebra? A um, a dois ou a três? Eu confesso que a três é a mais difícil para muita gente. Escreve o número aí."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "4. Não dependa<br><b>da gratidão.</b>"
+   },
+   "txt": "Regra quatro: não construa sua vida em cima da gratidão dos outros. Maquiavel diz no fim do capítulo dezessete que o príncipe sábio deve se apoiar no que é seu, e não no que é dos outros. Para você, isso significa ter a sua reserva, a sua rede, a sua profissão. Ajude por escolha, não para comprar segurança."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "5. Ajude a pessoa<br><b>a não precisar mais.</b>"
+   },
+   "txt": "Regra cinco, a mais elegante: ajude de um jeito que a pessoa fique mais forte, e não mais dependente. Ensinar a pescar, como diz o ditado. Quem depende de você para sempre carrega uma dívida para sempre. Quem fica independente graças a você carrega uma lembrança boa."
+  },
+  {
+   "tela": {
+    "t": "conversa",
+    "tipo": "salvar",
+    "h": "Salva para<br>quando precisar",
+    "x": "SALVEI",
+    "img": "../img/maquiavel.jpg"
+   },
+   "txt": "Se essas regras fizeram sentido, salva o vídeo. Na próxima vez que você sentir aquela mágoa de alguém que não retribuiu, volta aqui. Agora vem a pista do capítulo oito, sobre a ajuda que não se esquece."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Ajudar continua<br><b>valendo a pena.</b>"
+   },
+   "txt": "E uma coisa precisa ficar clara: nada disso é para você parar de ajudar. Ajudar continua sendo uma das coisas mais bonitas que alguém pode fazer, e muitas pessoas são gratas a vida inteira. O ponto é ajudar com os olhos abertos, sabendo que a gratidão pode não vir, e fazendo do jeito que protege você e respeita o outro."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "6",
+    "h": "A ajuda que não se esquece",
+    "s": "O Príncipe, cap. VIII"
+   },
+   "txt": "Capítulo seis. A ajuda que não se esquece."
+  },
+  {
+   "tela": {
+    "t": "citacao",
+    "h": "As ofensas devem ser feitas todas juntas; os benefícios devem ser feitos pouco a pouco, para que sejam mais bem saboreados.",
+    "s": "O Príncipe, cap. VIII"
+   },
+   "txt": "No capítulo oito, Maquiavel fala de quem chega ao poder por crimes, e de como usar a crueldade. E solta uma regra que vale para o bem também: as ofensas devem ser feitas todas juntas, para que ofendam menos, e os benefícios devem ser feitos pouco a pouco, para que sejam mais bem saboreados."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Pouco a pouco<br><b>vence o grande gesto.</b>"
+   },
+   "txt": "Pensa nisso aplicado à ajuda. O grande gesto de uma vez, aquele favor enorme, cria uma dívida enorme e depois some da memória. A ajuda pequena e constante, a mensagem no aniversário, a indicação de vez em quando, o café na semana difícil, é saboreada aos poucos. E é essa que fica."
+  },
+  {
+   "tela": {
+    "t": "citacao",
+    "h": "Quem crê que, nos grandes personagens, benefícios novos fazem esquecer ofensas velhas, engana-se.",
+    "s": "O Príncipe, cap. VII"
+   },
+   "txt": "E tem uma frase do capítulo sete que completa o quadro. Falando do erro final de César Bórgia, Maquiavel diz: quem crê que, nos grandes personagens, benefícios novos fazem esquecer ofensas velhas, engana-se. Ou seja, o bem se esquece fácil, mas a ofensa fica."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "O bem se esquece.<br><b>A ofensa fica.</b>"
+   },
+   "txt": "Junta as duas ideias e você tem o mapa completo. O bem precisa ser constante, porque é esquecido. E a ofensa precisa ser evitada, porque é lembrada. Uma grosseria pode apagar dez favores. Por isso, quem quer ser lembrado com gratidão precisa cuidar mais do que não faz do que do que faz."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "O que não fazer:<br><b>a ofensa no fim.</b>"
+   },
+   "txt": "Isso também explica por que tanta amizade acaba numa briga só. Anos de favores, e uma frase atravessada no grupo da família, num momento de raiva, apaga tudo. A memória humana não faz conta de saldo. Ela guarda a ferida mais recente. Por isso, quando estiver com raiva de alguém que você ajudou, espera um dia antes de falar."
+  },
+  {
+   "tela": {
+    "t": "capitulo",
+    "n": "7",
+    "h": "E se você for o ingrato?",
+    "s": "Uma provocação"
+   },
+   "txt": "Capítulo sete. E se o ingrato for você?"
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Quem te ajudou<br><b>e você sumiu?</b>"
+   },
+   "txt": "Agora a parte incômoda. Pensa numa pessoa que te ajudou muito e de quem você se afastou. Talvez por vergonha, talvez por correria, talvez porque você cresceu e ela ficou para trás. Maquiavel diria que é natural. Mas natural não quer dizer certo."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Uma mensagem<br><b>paga muita coisa.</b>"
+   },
+   "txt": "A boa notícia é que a gratidão não precisa ser paga com o mesmo tamanho do favor. Uma mensagem sincera, dizendo eu lembro do que você fez por mim, já tira muito do peso que afastou vocês. É o benefício pequeno, saboreado, que Maquiavel recomenda. Só que dessa vez vindo de você."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Gratidão é<br><b>uma escolha diária.</b>"
+   },
+   "txt": "No fundo, Maquiavel descreve a tendência natural. A ingratidão é o caminho fácil, o que acontece quando ninguém faz nada. A gratidão é uma escolha. É lembrar de propósito, ligar de propósito, agradecer de propósito. Quem escolhe ser grato vai contra a corrente, e é justamente por isso que é tão raro, e tão valioso."
+  },
+  {
+   "tela": {
+    "t": "compromisso",
+    "h": "Comenta: <b>VOU AGRADECER</b>",
+    "digita": "VOU AGRADECER"
+   },
+   "txt": "Então o compromisso de hoje é esse: manda uma mensagem para alguém que te ajudou e que você não agradece há tempo. Se você topa, comenta: vou agradecer. É o exercício mais simples deste canal, e talvez o mais poderoso."
+  },
+  {
+   "tela": {
+    "t": "resumo",
+    "itens": [
+     "Em geral, os homens são ingratos",
+     "A gratidão é obrigação, e obrigação pesa",
+     "A ingratidão nasce da avareza ou da suspeita",
+     "Cipião salvou Roma e foi afastado",
+     "Ajude sem exibir e deixe o crédito",
+     "Benefícios aos poucos, ofensas nunca",
+     "Não dependa da gratidão para viver"
+    ]
+   },
+   "txt": "Resumindo. Em geral, os homens são ingratos. A gratidão é obrigação, e obrigação pesa. A ingratidão nasce da avareza ou da suspeita. Cipião salvou Roma e foi afastado. Ajude sem exibir e deixe o crédito com o outro. Benefícios aos poucos, ofensas nunca. E não dependa da gratidão para viver."
+  },
+  {
+   "tela": {
+    "t": "fim"
+   },
+   "txt": "No próximo vídeo, a gente vai falar do inimigo mais silencioso do seu sucesso, aquele que Maquiavel diz que derrubou até Savonarola: a inveja. E se este vídeo te tocou, manda para aquela pessoa que vive se doando e se decepcionando. Te vejo lá. Seja raposa."
+  }
+ ]
+}

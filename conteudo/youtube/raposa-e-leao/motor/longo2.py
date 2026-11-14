@@ -2,10 +2,10 @@
 import json,sys,os,subprocess,asyncio,numpy as np,soundfile as sf,edge_tts
 from scipy.signal import butter,lfilter
 P=os.path.abspath(sys.argv[1]);D=os.path.dirname(os.path.abspath(__file__));nm=os.path.basename(P)
-W=f'/tmp/claude-0/-home-user/5acf6937-9ac6-56e0-bc29-78bef210dc8b/scratchpad/lg_{nm}';os.makedirs(W+'/vh',exist_ok=True)
+W=os.environ.get('RL_TMP','/tmp/claude-0/-home-user/5acf6937-9ac6-56e0-bc29-78bef210dc8b/scratchpad')+f'/lg_{nm}';os.makedirs(W+'/vh',exist_ok=True)
 rot=json.load(open(P+'/roteiro.json'));
 IM=os.path.join(D,'..','img')
-FUNDOS={'06':['palazzo_vecchio','lorenzo','piazza_della_signoria','maquiavel2'],'07':['hannibal','scipio_africanus','cesar','julius_caesar'],'08':['arno','ponte_vecchio','florence'],'09':['girolamo_savonarola','bonfire_of_the_vanities','piazza_della_signoria','palazzo_vecchio'],'10':['florence','palazzo_vecchio','maquiavel2','ponte_vecchio'],'11':['marcus_aurelius','commodus','caracalla','arco_severo','cesar']}
+FUNDOS={'06':['palazzo_vecchio','lorenzo','piazza_della_signoria','maquiavel2'],'07':['hannibal','scipio_africanus','cesar','julius_caesar'],'08':['arno','ponte_vecchio','florence'],'09':['girolamo_savonarola','bonfire_of_the_vanities','piazza_della_signoria','palazzo_vecchio'],'10':['florence','palazzo_vecchio','maquiavel2','ponte_vecchio'],'11':['marcus_aurelius','commodus','caracalla','arco_severo','cesar'],'17':['pope_alexander_vi','borgia','maquiavel','commodus'],'18':['maquiavel2','maquiavel','lorenzo','marcus_aurelius'],'19':['ferdinand_ii_of_aragon','arco_severo','maquiavel2','pope_julius_ii'],'20':['maquiavel','hannibal','ferdinand_ii_of_aragon','marcus_equestre'],'21':['maquiavel2','moses','girolamo_savonarola','maquiavel']}
 pool=[os.path.relpath(x,D) for n in FUNDOS.get(nm,[]) for x in (IM+'/hist/'+n+'.jpg',IM+'/'+n+'.jpg') if os.path.exists(x)]
 for j,g in enumerate(rot['seg']):
     if pool: g['bg']=pool[j%len(pool)]

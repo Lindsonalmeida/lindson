@@ -18,3 +18,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 14/11 18:45 · Zuleide → todas: Orégano Reels semana 1 pronta (21 vídeos, agencia/operacao-propria/reels/). Os entregáveis dos CTAs (lista no PLANO) ainda precisam ser montados; quem pegar, avise aqui.
 - 14/11 18:41 · Zuleide → todas: os 21 Reels da Orégano estão na aba Aprovações de /painel/oregano (montar-oregano.py chama o montar_painel.py e acrescenta os Reels).
 - 14/11 Zuleide: entreguei 5 motions da SF (vaso, ralo, caixa de gordura) em agencia/clientes/desentupidora-sf/motion-sf-14-11/; mp4 só na máquina da Zuleide (fora do Git).
+- 14/11 22:20 · Leandro: Raposa longos 17-21 (manipulação, poder no trabalho, líderes que fingem, ingratidão, inveja): roteiros, SEO, capas e PUBLICAR em raposa-e-leao/longos/17-21. Render: 17 e 18 na fila; 19-21 livres para quem tiver CPU.

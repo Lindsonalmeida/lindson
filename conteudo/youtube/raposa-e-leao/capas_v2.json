@@ -453,5 +453,129 @@
    "zoom": 1.0,
    "txt": "QUEM TE <b>CERCA?</b>"
   }
+ },
+ "longo-17": {
+  "A": {
+   "grav": "hist/pope_alexander_vi.jpg",
+   "txt": "Não caia<br><b>nessa</b>",
+   "tag": "O PRÍNCIPE · CAP. 18",
+   "lado": "dir",
+   "marca": "RAPOSA E LEÃO"
+  },
+  "B": {
+   "grav": "borgia.jpg",
+   "txt": "Ele mente<br><b>sorrindo</b>",
+   "tag": "O PRÍNCIPE · CAP. 18",
+   "lado": "esq",
+   "marca": "RAPOSA E LEÃO"
+  },
+  "C": {
+   "grav": "maquiavel.jpg",
+   "txt": "<em>Manipulação</em><br>se <b>defenda</b>",
+   "tag": "DISCURSOS · I, 53",
+   "lado": "dir",
+   "marca": "RAPOSA E LEÃO",
+   "luz": true,
+   "fs": 112
+  }
+ },
+ "longo-18": {
+  "A": {
+   "grav": "hist/caracalla.jpg",
+   "txt": "O jogo<br>do <b>poder</b>",
+   "tag": "O PRÍNCIPE · CAP. 22",
+   "lado": "dir",
+   "marca": "RAPOSA E LEÃO"
+  },
+  "B": {
+   "grav": "lorenzo.jpg",
+   "txt": "Talento<br><b>sozinho</b><br>perde",
+   "tag": "O PRÍNCIPE · CAP. 22",
+   "lado": "esq",
+   "marca": "RAPOSA E LEÃO"
+  },
+  "C": {
+   "grav": "maquiavel.jpg",
+   "txt": "Ninguém<br>te <em>conta</em><br><b>isso</b>",
+   "tag": "DISCURSOS · I, 30",
+   "lado": "dir",
+   "marca": "RAPOSA E LEÃO",
+   "luz": true
+  }
+ },
+ "longo-19": {
+  "A": {
+   "grav": "hist/ferdinand_ii_of_aragon.jpg",
+   "txt": "Ele<br><b>finge</b>",
+   "tag": "O PRÍNCIPE · CAP. 18",
+   "lado": "dir",
+   "marca": "RAPOSA E LEÃO",
+   "fs": 170
+  },
+  "B": {
+   "grav": "cesar.jpg",
+   "txt": "Parecer,<br><b>não ser</b>",
+   "tag": "O PRÍNCIPE · CAP. 18",
+   "lado": "esq",
+   "marca": "RAPOSA E LEÃO"
+  },
+  "C": {
+   "grav": "hist/marcus_aurelius.jpg",
+   "txt": "O chefe<br>de <b>fachada</b>",
+   "tag": "O PRÍNCIPE · CAP. 16",
+   "lado": "dir",
+   "marca": "RAPOSA E LEÃO",
+   "luz": true
+  }
+ },
+ "longo-20": {
+  "A": {
+   "grav": "hist/alexander_the_great.jpg",
+   "txt": "Eles<br>sempre<br><b>esquecem</b>",
+   "tag": "O PRÍNCIPE · CAP. 17",
+   "lado": "dir",
+   "marca": "RAPOSA E LEÃO"
+  },
+  "B": {
+   "grav": "hist/hannibal.jpg",
+   "txt": "Ajudou?<br><b>Sumiram</b>",
+   "tag": "DISCURSOS · I, 29",
+   "lado": "esq",
+   "marca": "RAPOSA E LEÃO"
+  },
+  "C": {
+   "grav": "hist/marcus_equestre.jpg",
+   "txt": "<em>Ingratidão</em><br><b>explicada</b>",
+   "tag": "O PRÍNCIPE · CAP. 17",
+   "lado": "dir",
+   "marca": "RAPOSA E LEÃO",
+   "luz": true,
+   "fs": 112
+  }
+ },
+ "longo-21": {
+  "A": {
+   "grav": "hist/marcus_aurelius.jpg",
+   "txt": "A inveja<br><b>trava</b><br>você",
+   "tag": "DISCURSOS · III, 30",
+   "lado": "dir",
+   "marca": "RAPOSA E LEÃO"
+  },
+  "B": {
+   "grav": "hist/girolamo_savonarola.jpg",
+   "txt": "Bondade<br>não <b>salva</b>",
+   "tag": "DISCURSOS · III, 30",
+   "lado": "esq",
+   "marca": "RAPOSA E LEÃO"
+  },
+  "C": {
+   "grav": "hist/moses.jpg",
+   "txt": "Inveja<br><b>silenciosa</b>",
+   "tag": "DISCURSOS · III, 30",
+   "lado": "dir",
+   "marca": "RAPOSA E LEÃO",
+   "luz": true,
+   "fs": 112
+  }
  }
 }
