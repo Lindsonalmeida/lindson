@@ -413,6 +413,48 @@
   },
   {
    "tela": {
+    "t": "frase",
+    "h": "O conselho de Maquiavel<br><b>a quem aconselha.</b>"
+   },
+   "txt": "Existe ainda uma regra bônus, para quem dá opinião no trabalho. Nos Discursos, livro três, capítulo trinta e cinco, Maquiavel fala do perigo de aconselhar coisas grandes. Os homens julgam os conselhos pelo resultado. Se der certo, o mérito é de quem decidiu. Se der errado, a culpa é de quem aconselhou."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Dar a opinião<br><b>sem paixão.</b>"
+   },
+   "txt": "E a saída que ele propõe é esta: tomar as coisas com moderação e dar a opinião sem paixão. Ou seja, diga o que pensa com clareza, mostre os riscos, e deixe a decisão com quem decide. Não brigue para que a sua ideia vença a qualquer custo. Quem defende a própria ideia com fúria vira o culpado quando ela falha."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Opinião clara,<br><b>decisão do dono.</b>"
+   },
+   "txt": "Na prática: em reunião, apresente a sua opinião por escrito, com os prós, os contras e o que você recomenda. Depois da decisão, execute bem, mesmo que tenha sido diferente da sua. Isso protege você nos dois cenários. Se der certo, você foi parte. Se der errado, você avisou com calma, e não com briga."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "As sete regras<br><b>são uma só.</b>"
+   },
+   "txt": "Se você olhar com atenção, as sete regras dizem uma coisa só: no trabalho, o poder não está apenas no que você faz, mas em como o seu trabalho é visto por quem decide. Maquiavel não pede que você finja. Pede que você enxergue. Quem enxerga escolhe melhor as batalhas, as alianças e o momento de falar."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Maquiavel perdeu<br><b>o cargo assim.</b>"
+   },
+   "txt": "E ele aprendeu isso da pior forma. Em mil quinhentos e doze, quando a república caiu, o secretário competente que tinha servido por catorze anos foi afastado em poucos dias. Competência não bastou, porque ele estava ligado ao grupo que perdeu. Depois, preso e sem cargo, escreveu O Príncipe. Muitas destas regras são lições que ele pagou caro para aprender."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Aprenda barato<br><b>o que ele pagou caro.</b>"
+   },
+   "txt": "Essa é a vantagem de ler Maquiavel hoje: você pode aprender barato o que ele pagou caro. Não precisa perder o emprego para entender que alianças importam. Não precisa ser esquecido para entender que tempo calmo promove o simpático. Basta prestar atenção e agir antes."
+  },
+  {
+   "tela": {
     "t": "capitulo",
     "n": "8",
     "h": "O limite ético",

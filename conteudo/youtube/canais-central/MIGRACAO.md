@@ -2,7 +2,7 @@
 
 Gerado por `montar-canais.py`. Página nova: https://lindsonalmeida.pages.dev/painel/canais (só o admin).
 
-- Capas migradas: **109** · capas no link antigo: **0**
+- Capas migradas: **124** · capas no link antigo: **0**
 - Vídeos migrados: **10** (65 MB) · vídeos no link antigo: **67**
 - Vídeos ainda não postados e ≤ 20 MB somam **510 MB** (limite combinado: 300 MB).
 
@@ -169,6 +169,21 @@ Os Shorts 11 a 30 do Raposa também estão no repositório público em `raposa-e
 | Raposa e Leão | longo-15 | Capa B | migrado | 2k4SSuvALdqXDcXnBQMVZH | `ff5b7b4d09c13a7937cd517ede51718a` | 276 KB |
 | Raposa e Leão | longo-16 | Capa A | migrado | 2k4SSuvALdqXDcXnBQMVZH | `0ad7d946265a1561881a0933c7397efc` | 99 KB |
 | Raposa e Leão | longo-16 | Capa B | migrado | 2k4SSuvALdqXDcXnBQMVZH | `cea2f45e9b19474d63b6d3dff734f1b6` | 253 KB |
+| Raposa e Leão | longo-17 | Capa A | migrado | 2k4SSuvALdqXDcXnBQMVZH | `` | 132 KB |
+| Raposa e Leão | longo-17 | Capa B | migrado | 2k4SSuvALdqXDcXnBQMVZH | `` | 110 KB |
+| Raposa e Leão | longo-17 | Capa C | migrado | 2k4SSuvALdqXDcXnBQMVZH | `` | 89 KB |
+| Raposa e Leão | longo-18 | Capa A | migrado | 2k4SSuvALdqXDcXnBQMVZH | `` | 71 KB |
+| Raposa e Leão | longo-18 | Capa B | migrado | 2k4SSuvALdqXDcXnBQMVZH | `` | 91 KB |
+| Raposa e Leão | longo-18 | Capa C | migrado | 2k4SSuvALdqXDcXnBQMVZH | `` | 88 KB |
+| Raposa e Leão | longo-19 | Capa A | migrado | 2k4SSuvALdqXDcXnBQMVZH | `` | 94 KB |
+| Raposa e Leão | longo-19 | Capa B | migrado | 2k4SSuvALdqXDcXnBQMVZH | `` | 99 KB |
+| Raposa e Leão | longo-19 | Capa C | migrado | 2k4SSuvALdqXDcXnBQMVZH | `` | 87 KB |
+| Raposa e Leão | longo-20 | Capa A | migrado | 2k4SSuvALdqXDcXnBQMVZH | `` | 169 KB |
+| Raposa e Leão | longo-20 | Capa B | migrado | 2k4SSuvALdqXDcXnBQMVZH | `` | 101 KB |
+| Raposa e Leão | longo-20 | Capa C | migrado | 2k4SSuvALdqXDcXnBQMVZH | `` | 110 KB |
+| Raposa e Leão | longo-21 | Capa A | migrado | 2k4SSuvALdqXDcXnBQMVZH | `` | 82 KB |
+| Raposa e Leão | longo-21 | Capa B | migrado | 2k4SSuvALdqXDcXnBQMVZH | `` | 84 KB |
+| Raposa e Leão | longo-21 | Capa C | migrado | 2k4SSuvALdqXDcXnBQMVZH | `` | 121 KB |
 | Raposa e Leão | short-31 | Vídeo | migrado | 2k4SSuvALdqXDcXnBQMVZH | `repositório` | 8659 KB |
 | Raposa e Leão | short-32 | Vídeo | migrado | 2k4SSuvALdqXDcXnBQMVZH | `repositório` | 5467 KB |
 | Raposa e Leão | short-33 | Vídeo | migrado | 2k4SSuvALdqXDcXnBQMVZH | `repositório` | 4427 KB |

@@ -26,10 +26,10 @@ Por que pessoas inteligentes caem em manipulação? Maquiavel explicou há 500 a
 5:02 3. A falsa aparência de bem
 7:31 4. Os 5 sinais
 10:13 5. O método de defesa
-13:18 6. O sinal mais perigoso
-15:23 7. O limite
-16:07 Seu compromisso
-16:22 Resumo
+15:35 6. O sinal mais perigoso
+17:40 7. O limite
+18:24 Seu compromisso
+18:39 Resumo
 
 📜 Fonte: Nicolau Maquiavel, O Príncipe, caps. VII, XVIII e XXIII; Discursos sobre a primeira década de Tito Lívio, livro I, caps. 3 e 53.
 
@@ -44,10 +44,10 @@ Por que pessoas inteligentes caem em manipulação? Maquiavel explicou há 500 a
 5:02 3. A falsa aparência de bem
 7:31 4. Os 5 sinais
 10:13 5. O método de defesa
-13:18 6. O sinal mais perigoso
-15:23 7. O limite
-16:07 Seu compromisso
-16:22 Resumo
+15:35 6. O sinal mais perigoso
+17:40 7. O limite
+18:24 Seu compromisso
+18:39 Resumo
 
 ## Tags
 manipulação psicológica, como identificar manipulação, manipulação, maquiavel, o príncipe, maquiavel manipulação, poder e manipulação, como se defender de manipulação, pessoas manipuladoras, golpe, filosofia, psicologia, raposa e leão

@@ -17,9 +17,9 @@
 9:01 4. A generosidade de vitrine
 11:06 5. Raposa e leão de verdade
 12:40 6. Como desmascarar
-15:01 7. O fingimento que todos fazem
-16:02 Seu compromisso
-16:17 Resumo
+17:21 7. O fingimento que todos fazem
+18:22 Seu compromisso
+18:37 Resumo
 
 📜 Fonte: Nicolau Maquiavel, O Príncipe, caps. XV, XVI, XVIII, XIX e XXI.
 

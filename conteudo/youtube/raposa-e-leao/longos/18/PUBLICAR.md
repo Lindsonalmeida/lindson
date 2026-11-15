@@ -18,9 +18,9 @@ Você pode ser o mais competente da empresa e mesmo assim ficar para trás. Maqu
 9:26 5. Não fique em cima do muro
 11:06 6. Não crie seu próprio rival
 12:25 7. Quando você vence, devolva o crédito
-15:27 8. O limite ético
-15:54 Seu compromisso
-16:10 Resumo
+17:43 8. O limite ético
+18:10 Seu compromisso
+18:26 Resumo
 
 📜 Fonte: Nicolau Maquiavel, O Príncipe, caps. III, XXI e XXII; Discursos sobre a primeira década de Tito Lívio, livro I, cap. 30; livro III, cap. 16.
 

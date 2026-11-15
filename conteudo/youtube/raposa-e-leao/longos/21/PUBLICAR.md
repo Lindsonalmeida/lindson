@@ -15,9 +15,9 @@
 3:49 2. Os dois remédios
 7:06 3. O erro de Soderini
 11:07 4. Como desarmar a inveja hoje
-14:18 5. A inveja que mora em você
-15:41 Seu compromisso
-15:58 Resumo
+16:36 5. A inveja que mora em você
+17:58 Seu compromisso
+18:15 Resumo
 
 📜 Fonte: Nicolau Maquiavel, Discursos sobre a primeira década de Tito Lívio, livro I, cap. 8; livro II, cap. 22; livro III, caps. 3, 9, 16 e 30; epigrama sobre Piero Soderini.
 

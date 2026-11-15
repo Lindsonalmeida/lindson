@@ -348,6 +348,48 @@
   },
   {
    "tela": {
+    "t": "frase",
+    "h": "O sucesso discreto<br><b>atrai menos inveja.</b>"
+   },
+   "txt": "Mais uma estratégia que vem da própria vida de Maquiavel e da Florença do tempo dele: o sucesso discreto atrai menos inveja. Os Médici, por muito tempo, governaram Florença sem título de príncipe, como cidadãos ricos, mantendo a aparência de que a república seguia igual. Não é para esconder conquista. É para não esfregar a conquista no rosto de ninguém."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Comemore com quem<br><b>comemora junto.</b>"
+   },
+   "txt": "Na prática de hoje: comemore com quem comemora junto. Conta a sua conquista primeiro para quem você sabe que vai ficar feliz de verdade. Nas redes e no trabalho, mostre o resultado com gratidão a quem ajudou, e não como prova de que você é melhor. A forma de contar decide se a notícia gera aplauso ou inveja."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "A inveja cresce<br><b>na comparação.</b>"
+   },
+   "txt": "Lembra o que Maquiavel disse sobre a paz? A inveja cresce quando há tempo para comparar. Nas redes sociais, a gente vive em comparação o dia inteiro. Por isso a inveja nunca foi tão comum. A cada foto de viagem, de carro, de promoção, alguém está se comparando com você, e você com alguém."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Menos vitrine,<br><b>mais obra.</b>"
+   },
+   "txt": "Talvez a lição mais atual deste vídeo seja esta: menos vitrine, mais obra. Quem gasta energia mostrando não sobra energia para construir. E quem constrói em silêncio, quando finalmente aparece, aparece com algo tão sólido que a inveja tem pouco onde morder. O resultado visível é diferente da ostentação."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Resultado é diferente<br><b>de ostentação.</b>"
+   },
+   "txt": "E essa diferença é importante. Resultado visível é mostrar o que foi feito, com número, com prova, com crédito a quem ajudou. Ostentação é mostrar o que você tem, para que os outros se sintam menores. O primeiro desarma a inveja. O segundo alimenta. Maquiavel não usa essas palavras, mas a lógica do capítulo trinta leva exatamente aqui."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "A inveja de hoje<br><b>tem nome novo.</b>"
+   },
+   "txt": "Hoje, a inveja muitas vezes aparece com nome novo: o comentário maldoso no seu post, a avaliação falsa do seu negócio, o colega que te deixa fora do grupo. A resposta continua a mesma que tiramos de Maquiavel: luz, fatos e canais certos. Não responda no calor. Registre, mostre os dados e siga construindo."
+  },
+  {
+   "tela": {
     "t": "capitulo",
     "n": "5",
     "h": "A inveja que mora em você",

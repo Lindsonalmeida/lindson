@@ -129,9 +129,12 @@ def itens_raposa():
             leg = leg.replace('{CAPITULOS}', '\n'.join(f'{x} {y}' for x, y in tp_all.get(k, [])) or '(os capítulos entram quando o vídeo ficar pronto)')
         else: continue
         capas = [dict(nome=f'Capa {x}', arq=f'{k}-{x}.jpg', fonte=at.get(f'{k}-{x}.jpg')) for x in 'ABC' if at.get(f'{k}-{x}.jpg')]
+        if not capas: capas = [dict(nome=f'Capa {x}', arq=f'{k}-{x}.jpg', fonte=(APPS['raposa']['novo'], ''), local=f'{R}/capas/{k}-{x}.jpg') for x in 'ABC' if os.path.exists(f'{R}/capas/{k}-{x}.jpg')]
         vid = at.get(f'{k}.mp4')
-        out.append(dict(id=k, tipo='longo', titulo=tit, legenda=leg, comentario=com, dur=dur(at, k), capas=capas,
-                        video=dict(arq=f'raposa-e-leao-{k}.mp4', fonte=vid) if vid else None))
+        video = dict(arq=f'raposa-e-leao-{k}.mp4', fonte=vid) if vid else None
+        if not video and os.path.exists(d + '/video-720.mp4'): video = dict(arq=f'raposa-e-leao-{k}.mp4', fonte=(APPS['raposa']['novo'], ''), local=d + '/video-720.mp4')  # longos 17+ (conta Leandro): versão ≤ 20 MB, fora do Git
+        out.append(dict(id=k, tipo='longo', titulo=tit, legenda=leg, comentario=com, dur=dur(at, k) or jl(d + '/publicar.json', {}).get('dur', ''), capas=capas, video=video))
+        if jl(d + '/publicar.json', {}).get('agenda'): out[-1]['agenda'] = jl(d + '/publicar.json')['agenda']
     return out
 
 

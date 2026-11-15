@@ -389,6 +389,48 @@
   },
   {
    "tela": {
+    "t": "frase",
+    "h": "Um exemplo genérico:<br><b>o influenciador.</b>"
+   },
+   "txt": "Um exemplo genérico de hoje. Um influenciador de negócios posta todo dia sobre humildade, gratidão e servir as pessoas. Nos vídeos, é só sorriso. Mas quem trabalhou com ele conta que atrasava pagamento, gritava com a equipe e vendia curso prometendo um resultado que ele mesmo nunca teve. O vídeo era o olho. A equipe sentia a mão."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "A tela é o palácio<br><b>de hoje.</b>"
+   },
+   "txt": "A tela do celular é o palácio de hoje. É ali que os líderes de fachada constroem a aparência. Maquiavel diria que nunca foi tão fácil parecer, e nunca foi tão difícil tocar. Por isso o teste das mãos ficou ainda mais importante. Antes de admirar alguém pela tela, procure quem trabalhou com ele fora dela."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Mas a verdade<br><b>vaza.</b>"
+   },
+   "txt": "A boa notícia é que hoje a verdade vaza mais rápido do que no tempo de Maquiavel. Ex-funcionários falam, clientes avaliam, prints circulam. O líder que só parece corre um risco que Fernando de Aragão não corria: um tribunal público que funciona dia e noite. Parecer sem ser ficou mais arriscado do que nunca."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "A reputação é<br><b>o patrimônio.</b>"
+   },
+   "txt": "Por isso, para quem lidera algo hoje, a reputação é o patrimônio mais caro. Ela demora anos para ser construída e pode cair num fim de semana. E ela só se sustenta se o que você mostra e o que você entrega forem a mesma coisa. Maquiavel descreveu o fingimento. O mundo de hoje cobra a conta dele."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "Quem lidera de verdade<br><b>aguenta ser visto de perto.</b>"
+   },
+   "txt": "Uma forma simples de resumir: o líder de verdade aguenta ser visto de perto. Ele não tem medo da pergunta difícil, nem da visita sem aviso, nem da conversa com o funcionário mais novo. O líder de fachada precisa de distância, de palco e de controle. Quanto mais ele foge da proximidade, mais você deve desconfiar."
+  },
+  {
+   "tela": {
+    "t": "frase",
+    "h": "E você,<br><b>aguenta ser visto de perto?</b>"
+   },
+   "txt": "E essa pergunta vale para você também. Se alguém da sua equipe, da sua família ou dos seus clientes pudesse ver o seu dia inteiro, sem filtro, essa pessoa veria o mesmo que você mostra? Se a resposta for sim, você está do lado certo da linha. Se for não, ainda dá tempo de aproximar as duas coisas."
+  },
+  {
+   "tela": {
     "t": "capitulo",
     "n": "7",
     "h": "O fingimento que todos fazem",
