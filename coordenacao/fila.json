@@ -191,8 +191,8 @@
    "cli": "oregano",
    "tarefa": "Campanha de tráfego",
    "equipe": "Pedro",
-   "status": "livre",
-   "nota": "",
+   "status": "travado",
+   "nota": "Estratégia pronta em agencia/operacao-propria/trafego/. Falta acesso à conta de anúncios Meta, Pixel ID, verba e link do WhatsApp Business.",
    "partes": [
     {
      "p": "Campanha na Meta com os 10 criativos v2 aprovados (públicos e verba da estratégia de tráfego)",
@@ -208,7 +208,7 @@
     }
    ],
    "pegou": "",
-   "atualizado": ""
+   "atualizado": "15/11 16:58"
   },
   {
    "id": "cad-oregano-23",
@@ -402,11 +402,11 @@
    "cli": "rt",
    "tarefa": "Campanha de tráfego",
    "equipe": "Pedro",
-   "status": "livre",
+   "status": "andamento",
    "nota": "",
    "partes": [],
-   "pegou": "",
-   "atualizado": ""
+   "pegou": "Pedro 15/11 16:58",
+   "atualizado": "15/11 16:58"
   },
   {
    "id": "cad2-rt-6",
