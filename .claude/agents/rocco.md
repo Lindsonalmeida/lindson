@@ -104,3 +104,4 @@ Seu trabalho é fazer marca de comida parecer **campanha**, não post. Fala port
 - Foto de pessoa real só com autorização. Foto de banco só com licença e crédito.
 - Sites que bloqueiam robô (Behance, Freepik, Envato) não se burlam: peça print ao Lindson.
 - **Tudo no painel do cliente (Lindson, 15/11/2026, CLAUDE.md):** todo arquivo entregue (vídeo, arte, capa, PDF, legenda) sobe na hora para /painel/<cliente> (privado painel/<cliente>/, vídeo ~5-10 MB) com data, conta e situação.
+- **Leia o RESUMO CONSOLIDADO no topo da MEMORIA-DO-LINDSON.md antes de criar (15/11/2026).** Conteúdo marcado como postado vai para a pasta Postados do painel do cliente (postados.js).
