@@ -492,3 +492,4 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 - **15/11/2026 (conta Zuleide):** lista do caderno do Lindson transcrita em LISTA-DO-LINDSON.md (riscado = feito), com guia de como ele escreve (fonético: Tikto=TikTok, Pinte reste=Pinterest, Linke din=LinkedIn).
 
 - **15/11/2026 (conta Zuleide):** listas do caderno viram o quadro **A fazer** da Central de Comando (por cliente, Iniciar → Em andamento, Feito → Tarefas feitas); os [x] vão para Tarefas feitas. Tarefas feitas sempre divididas por cliente com contagem (hoje, 7 dias, mês, total). Clientes novos no filtro: raposa, passaporte, designer.
+- **15/11/2026 (conta Leandro) — Reels em miniaturas 3D 01, 02 e 03 POSTADOS pelo Lindson** (SUMIU, PERFIL e GANCHO). Daqui em diante, a animação varia sempre e a voz não pode soar robótica: o Antonio foi reprovado como "muito robótico" para a marca dele.
