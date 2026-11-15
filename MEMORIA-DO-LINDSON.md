@@ -500,3 +500,4 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 - **15/11/2026 (conta Zuleide) · APROVADO:** os 21 Reels da semana 1 da Orégano Turbo ("os vídeos da Orégano estão aprovados"). Subir no painel com título para Shorts, legenda SEO com CTA de vendas e capa.
 
 - **15/11/2026 (Zuleide):** canal do YouTube da Orégano criado no papel (`agencia/operacao-propria/youtube/`): Shorts diários = os 21 Reels aprovados, 1 longo por quinta, @oreganoturbo. Aguardando aprovação do Lindson; nada publicado.
+- **15/11/2026 (conta Zuleide), REGRA:** "faça seguindo sempre a mesma identidade, para gerar conexão". Todos os canais de um cliente (Instagram, YouTube, TikTok, site, painel) usam EXATAMENTE a identidade do Instagram aprovado: mesma foto de perfil, mesmas cores predominantes (Orégano: verde-escuro + xadrez verde, tomate e creme), mesma fonte e grafismos. Kit YouTube Orégano v1 (fundo preto, perfil invertido) REPROVADO.
