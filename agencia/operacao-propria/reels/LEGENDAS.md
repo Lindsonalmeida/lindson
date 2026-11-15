@@ -1,463 +1,528 @@
-# Legendas · Reels Orégano Turbo semana 1 (14/11/2026)
+# Legendas SEO · Reels Orégano Turbo semana 1 (v2, 15/11/2026, conta Zuleide)
 
-## OT-01 · 16/11 12:10 · conteudo · História da pizza
+Gerado por `legendas_seo.py`. Aprovadas pelo Lindson em 15/11 (vídeos).
+
+
+## OT-01 · 16/11 12:10 · História da pizza
+
+**Título Shorts:** A pizza Margherita nasceu de um pedido da rainha (ou quase)
 
 A pizza Margherita nasceu de um pedido da rainha (ou quase) 🍕
 
-Essa pizza tem nome de rainha. Se você é dono de pizzaria, esse assunto passa pela sua noite toda semana.
+Essa pizza tem nome de rainha. Se você é dono de pizzaria, isso mexe com o seu caixa toda semana.
 
 ▶ O que acontece
 Conta a história que em 1889, em Nápoles, um pizzaiolo fez uma pizza pra rainha Margherita. Tomate, mussarela e manjericão. As cores da bandeira da Itália.
 
-▶ Na prática
+▶ Na prática, na sua pizzaria
 Se é lenda ou fato, ninguém prova. Mas a história vende até hoje. Seu sabor da casa também pode ter uma história.
 
-▶ Resumo
+▶ Conclusão
 Cliente lembra de história. Pizzaria que cresce cuida do produto e de como ele chega no cliente.
 
+🎁 Comenta RAINHA que eu te mando: 5 histórias de sabores pra usar no seu cardápio.
+
+👉 Quer saber o que trava a venda na SUA pizzaria? Peça o Raio-X da Orégano Turbo: chame no WhatsApp pelo link da bio (oreganoturbo.pages.dev) e a gente olha o seu Instagram, o cardápio e o caminho até o pedido com você.
+Orégano Turbo: marketing de vendas só para pizzarias, de São Luís/MA.
+
+#historiadapizza #pizzanapolitana #pizzaria #saoluis
 
 
-👉 Comenta RAINHA que eu te mando cinco histórias de sabores pra usar no cardápio.
-Siga a @oreganoturbo: marketing de vendas só para pizzarias, de São Luís/MA.
+## OT-02 · 16/11 19:10 · Humor de dono
 
-#historiadapizza #pizzaria #saoluis #empreendedorismogastronomico
-
-## OT-02 · 16/11 19:10 · conteudo · Humor de dono
+**Título Shorts:** POV: é terça-feira e a pizzaria está parada
 
 POV: é terça-feira e a pizzaria está parada 🍕
 
-POV: é terça-feira. O forno tá quente e o telefone tá mudo. Se você é dono de pizzaria, esse assunto passa pela sua noite toda semana.
+POV: é terça-feira. Se você é dono de pizzaria, isso mexe com o seu caixa toda semana.
 
 ▶ O que acontece
-Você abre o iFood de cinco em cinco minutos. E pensa: fim de semana eu compenso.
+O forno tá quente e o telefone tá mudo. Você abre o iFood de cinco em cinco minutos.
 
-▶ Na prática
-Só que dia fraco não se resolve no sábado. Se resolve com motivo pra pedir na terça. Sabor da semana, combo da família, pizza do dia na lista do WhatsApp.
+▶ Na prática, na sua pizzaria
+E pensa: fim de semana eu compenso. Só que dia fraco não se resolve no sábado. Se resolve com motivo pra pedir na terça.
 
-▶ Resumo
-Marca quem conhece essa terça. Pizzaria que cresce cuida do produto e de como ele chega no cliente.
+▶ Conclusão
+Sabor da semana, combo da família, pizza do dia na lista do WhatsApp. Pizzaria que cresce cuida do produto e de como ele chega no cliente.
+
+🎁 Comenta TERÇA que eu te mando: 3 ideias de ação para dia fraco (sem desconto).
+
+👉 Quer saber o que trava a venda na SUA pizzaria? Peça o Raio-X da Orégano Turbo: chame no WhatsApp pelo link da bio (oreganoturbo.pages.dev) e a gente olha o seu Instagram, o cardápio e o caminho até o pedido com você.
+Orégano Turbo: marketing de vendas só para pizzarias, de São Luís/MA.
+
+#donodepizzaria #vidadeempreendedor #pizzarias #saoluisma
 
 
+## OT-03 · 16/11 23:40 · Raio-X
 
-👉 Comenta TERÇA que eu te mando três ideias pra dia fraco sem dar desconto.
-Siga a @oreganoturbo: marketing de vendas só para pizzarias, de São Luís/MA.
-
-#donodepizzaria #pizzariadelivery #saoluisma #foodservice
-
-## OT-03 · 16/11 23:40 · venda · Raio-X
+**Título Shorts:** O Raio-X da pizzaria: o que a gente olha em 10 minutos
 
 O Raio-X da pizzaria: o que a gente olha em 10 minutos 🍕
 
-Antes de falar em anúncio, eu olho três coisas na sua pizzaria. Se você é dono de pizzaria, esse assunto passa pela sua noite toda semana.
+Antes de falar em anúncio, eu olho três coisas na sua pizzaria. Se você é dono de pizzaria, isso mexe com o seu caixa toda semana.
 
 ▶ O que acontece
-A foto do cardápio. O caminho até o pedido. E quanto tempo o cliente espera resposta no WhatsApp. Se uma delas trava, o anúncio vira dinheiro jogado fora.
+A foto do cardápio. O caminho até o pedido. E quanto tempo o cliente espera resposta no WhatsApp.
 
-▶ Na prática
-Por isso o primeiro passo é o Raio-X, e não o anúncio. Você recebe o que mudar, em ordem, sem enrolação.
+▶ Na prática, na sua pizzaria
+Se uma delas trava, o anúncio vira dinheiro jogado fora. Por isso o primeiro passo é o Raio-X, e não o anúncio. Você recebe o que mudar, em ordem, sem enrolação.
 
-▶ Resumo
+▶ Conclusão
 Só trabalhamos com pizzaria. Pizzaria que cresce cuida do produto e de como ele chega no cliente.
 
+🎁 Comenta RAIO-X que eu te mando: como pedir o Raio-X da sua pizzaria.
+
+👉 Quer saber o que trava a venda na SUA pizzaria? Peça o Raio-X da Orégano Turbo: chame no WhatsApp pelo link da bio (oreganoturbo.pages.dev) e a gente olha o seu Instagram, o cardápio e o caminho até o pedido com você.
+Orégano Turbo: marketing de vendas só para pizzarias, de São Luís/MA.
+
+#diagnosticodepizzaria #marketingparapizzaria #donodepizzaria #pizzariasaoluis
 
 
-👉 Comenta RAIO-X que eu te explico como pedir o da sua pizzaria.
-Siga a @oreganoturbo: marketing de vendas só para pizzarias, de São Luís/MA.
+## OT-04 · 17/11 12:10 · Dados do setor
 
-#marketingparapizzaria #empreendedorismogastronomico #maranhao #pizzaiolo #oreganoturbo
-
-## OT-04 · 17/11 12:10 · conteudo · Dados do setor
+**Título Shorts:** 40 mil pizzarias no Brasil: o que esse número diz para você
 
 40 mil pizzarias no Brasil: o que esse número diz para você 🍕
 
-O Brasil tem mais de quarenta mil pizzarias. Se você é dono de pizzaria, esse assunto passa pela sua noite toda semana.
+O Brasil tem mais de quarenta mil pizzarias. Se você é dono de pizzaria, isso mexe com o seu caixa toda semana.
 
 ▶ O que acontece
 Segundo a Apubra, quase todas fazem delivery: noventa e oito por cento. E setenta e cinco por cento usam aplicativo pra pegar pedido.
 
-▶ Na prática
+▶ Na prática, na sua pizzaria
 Ou seja: o cliente tem muita opção na mesma tela. O que faz ele escolher você é foto, nome do sabor e confiança.
 
-▶ Resumo
+▶ Conclusão
 Salva pra mostrar pro sócio. Pizzaria que cresce cuida do produto e de como ele chega no cliente.
 
-Fontes: Apubra via Central do Varejo (40.332 pizzarias) e Apubra + Galunion via O Povo (98% com delivery, 75% usam apps).
+🎁 Comenta MERCADO que eu te mando: as fontes e os números do setor numa imagem.
 
-👉 Comenta MERCADO que eu te mando os números com as fontes.
-Siga a @oreganoturbo: marketing de vendas só para pizzarias, de São Luís/MA.
+👉 Quer saber o que trava a venda na SUA pizzaria? Peça o Raio-X da Orégano Turbo: chame no WhatsApp pelo link da bio (oreganoturbo.pages.dev) e a gente olha o seu Instagram, o cardápio e o caminho até o pedido com você.
+Orégano Turbo: marketing de vendas só para pizzarias, de São Luís/MA.
 
-#mercadodepizza #foodservice #pizzariasaoluis #pizzaria
+#mercadodepizza #foodservice #empreendedorismogastronomico #maranhao
 
-## OT-05 · 17/11 19:10 · conteudo · Técnica de massa
+
+## OT-05 · 17/11 19:10 · Técnica de massa
+
+**Título Shorts:** Massa que encolhe no disco: 3 motivos
 
 Massa que encolhe no disco: 3 motivos 🍕
 
-Sua massa encolhe quando você abre no disco? Se você é dono de pizzaria, esse assunto passa pela sua noite toda semana.
+Sua massa encolhe quando você abre no disco? Se você é dono de pizzaria, isso mexe com o seu caixa toda semana.
 
 ▶ O que acontece
-Quase sempre é o glúten tenso. Pouco descanso depois de bolear. Massa gelada demais. Ou sova longa demais.
+Quase sempre é o glúten tenso. Pouco descanso depois de bolear. Massa gelada demais.
 
-▶ Na prática
-Deixa a bolinha voltar pra temperatura ambiente antes de abrir. E abre com a ponta dos dedos, do centro pra borda.
+▶ Na prática, na sua pizzaria
+Ou sova longa demais. Deixa a bolinha voltar pra temperatura ambiente antes de abrir. E abre com a ponta dos dedos, do centro pra borda.
 
-▶ Resumo
+▶ Conclusão
 Manda pro seu pizzaiolo. Pizzaria que cresce cuida do produto e de como ele chega no cliente.
 
+🎁 Comenta MASSA que eu te mando: o checklist da massa que não encolhe.
+
+👉 Quer saber o que trava a venda na SUA pizzaria? Peça o Raio-X da Orégano Turbo: chame no WhatsApp pelo link da bio (oreganoturbo.pages.dev) e a gente olha o seu Instagram, o cardápio e o caminho até o pedido com você.
+Orégano Turbo: marketing de vendas só para pizzarias, de São Luís/MA.
+
+#massadepizza #pizzaiolo #pizza #slz
 
 
-👉 Comenta MASSA que eu te mando o checklist da massa que não encolhe.
-Siga a @oreganoturbo: marketing de vendas só para pizzarias, de São Luís/MA.
+## OT-06 · 17/11 23:40 · Método
 
-#massadepizza #pizzaiolo #slz #pizzariadelivery
-
-## OT-06 · 17/11 23:40 · venda · Método
+**Título Shorts:** Pedido direto no WhatsApp: como funciona o método Orégano Turbo
 
 Pedido direto no WhatsApp: como funciona o método Orégano Turbo 🍕
 
-Imagina o pedido chegando direto no seu WhatsApp, sem taxa de aplicativo. Se você é dono de pizzaria, esse assunto passa pela sua noite toda semana.
+Imagina o pedido chegando direto no seu WhatsApp, sem taxa de aplicativo. Se você é dono de pizzaria, isso mexe com o seu caixa toda semana.
 
 ▶ O que acontece
-São quatro passos. Anúncio gravado na sua pizzaria. Pedido no WhatsApp. Um código em cada anúncio. E relatório toda segunda. O código mostra de qual anúncio veio cada pedido.
+São quatro passos. Anúncio gravado na sua pizzaria. Pedido no WhatsApp. Um código em cada anúncio.
 
-▶ Na prática
-Exemplo de pedido com código. Sem achismo. Você vê o que funcionou.
+▶ Na prática, na sua pizzaria
+E relatório toda segunda. O código mostra de qual anúncio veio cada pedido. Exemplo de pedido com código. Sem achismo. Você vê o que funcionou.
 
-▶ Resumo
+▶ Conclusão
 Feito só pra pizzaria. Pizzaria que cresce cuida do produto e de como ele chega no cliente.
 
+🎁 Comenta MÉTODO que eu te mando: o passo a passo do método em 4 telas.
+
+👉 Quer saber o que trava a venda na SUA pizzaria? Peça o Raio-X da Orégano Turbo: chame no WhatsApp pelo link da bio (oreganoturbo.pages.dev) e a gente olha o seu Instagram, o cardápio e o caminho até o pedido com você.
+Orégano Turbo: marketing de vendas só para pizzarias, de São Luís/MA.
+
+#vendasnowhatsapp #marketingdevendas #pizzaria #saoluis
 
 
-👉 Comenta MÉTODO que eu te mando o passo a passo.
-Siga a @oreganoturbo: marketing de vendas só para pizzarias, de São Luís/MA.
+## OT-07 · 18/11 12:10 · Forno
 
-#deliverydepizza #pizzaria #saoluis #empreendedorismogastronomico #oreganoturbo
-
-## OT-07 · 18/11 12:10 · conteudo · Forno
+**Título Shorts:** Por que a pizza napolitana assa em 90 segundos
 
 Por que a pizza napolitana assa em 90 segundos 🍕
 
-Tem pizza que assa em noventa segundos. Se você é dono de pizzaria, esse assunto passa pela sua noite toda semana.
+Tem pizza que assa em noventa segundos. Se você é dono de pizzaria, isso mexe com o seu caixa toda semana.
 
 ▶ O que acontece
 A napolitana tradicional assa em forno a lenha acima de quatrocentos graus. Por isso a borda fica alta e com aquelas pintinhas pretas.
 
-▶ Na prática
+▶ Na prática, na sua pizzaria
 Em forno elétrico ou a gás, a temperatura é menor e o tempo aumenta. O segredo é ajustar a massa ao forno que você tem.
 
-▶ Resumo
+▶ Conclusão
 Qual é o seu forno? Pizzaria que cresce cuida do produto e de como ele chega no cliente.
 
+🎁 Comenta FORNO que eu te mando: a tabela de temperatura e tempo por tipo de forno.
+
+👉 Quer saber o que trava a venda na SUA pizzaria? Peça o Raio-X da Orégano Turbo: chame no WhatsApp pelo link da bio (oreganoturbo.pages.dev) e a gente olha o seu Instagram, o cardápio e o caminho até o pedido com você.
+Orégano Turbo: marketing de vendas só para pizzarias, de São Luís/MA.
+
+#fornoalenha #pizzaiolo #pizzarias #saoluisma
 
 
-👉 Comenta FORNO que eu te mando a tabela de temperatura e tempo.
-Siga a @oreganoturbo: marketing de vendas só para pizzarias, de São Luís/MA.
+## OT-08 · 18/11 19:10 · Resposta pronta
 
-#fornoalenha #pizzariadelivery #saoluisma #foodservice
-
-## OT-08 · 18/11 19:10 · conteudo · Resposta pronta
+**Título Shorts:** Cliente reclamou da demora: a resposta que acalma
 
 Cliente reclamou da demora: a resposta que acalma 🍕
 
-O cliente mandou: cadê minha pizza? Já faz uma hora! Se você é dono de pizzaria, esse assunto passa pela sua noite toda semana.
+O cliente mandou: cadê minha pizza? Se você é dono de pizzaria, isso mexe com o seu caixa toda semana.
 
 ▶ O que acontece
-A pior resposta é: tá saindo. Ele quer três coisas: desculpa, tempo real e uma atenção.
+Já faz uma hora! A pior resposta é: tá saindo. Ele quer três coisas: desculpa, tempo real e uma atenção.
 
-▶ Na prática
+▶ Na prática, na sua pizzaria
 Manda assim: desculpa a demora, sua pizza saiu agora e chega em quinze minutos. Vai um refri por nossa conta. Resposta boa vira avaliação boa.
 
-▶ Resumo
+▶ Conclusão
 Salva e manda pro atendimento. Pizzaria que cresce cuida do produto e de como ele chega no cliente.
 
+🎁 Comenta DEMORA que eu te mando: 5 respostas prontas para reclamação.
+
+👉 Quer saber o que trava a venda na SUA pizzaria? Peça o Raio-X da Orégano Turbo: chame no WhatsApp pelo link da bio (oreganoturbo.pages.dev) e a gente olha o seu Instagram, o cardápio e o caminho até o pedido com você.
+Orégano Turbo: marketing de vendas só para pizzarias, de São Luís/MA.
+
+#atendimentoaocliente #whatsappbusiness #donodepizzaria #pizzariasaoluis
 
 
-👉 Comenta DEMORA que eu te mando cinco respostas prontas pra reclamação.
-Siga a @oreganoturbo: marketing de vendas só para pizzarias, de São Luís/MA.
+## OT-09 · 18/11 23:40 · Chamada para diagnóstico
 
-#atendimentowhatsapp #empreendedorismogastronomico #maranhao #pizzaiolo
-
-## OT-09 · 18/11 23:40 · venda · Chamada para diagnóstico
+**Título Shorts:** 3 sinais de que sua pizzaria precisa de um diagnóstico
 
 3 sinais de que sua pizzaria precisa de um diagnóstico 🍕
 
-Três sinais de que sua pizzaria precisa de um diagnóstico. Se você é dono de pizzaria, esse assunto passa pela sua noite toda semana.
+Três sinais de que sua pizzaria precisa de um diagnóstico. Se você é dono de pizzaria, isso mexe com o seu caixa toda semana.
 
 ▶ O que acontece
 Um: você posta e o pedido não muda. Dois: quase todo pedido vem do aplicativo.
 
-▶ Na prática
+▶ Na prática, na sua pizzaria
 Três: você não sabe de onde veio o cliente da semana. Não é falta de esforço. É falta de olhar de fora.
 
-▶ Resumo
+▶ Conclusão
 Quantos sinais você tem? Pizzaria que cresce cuida do produto e de como ele chega no cliente.
 
+🎁 Comenta SINAIS que eu te mando: como pedir o Raio-X da sua pizzaria.
+
+👉 Quer saber o que trava a venda na SUA pizzaria? Peça o Raio-X da Orégano Turbo: chame no WhatsApp pelo link da bio (oreganoturbo.pages.dev) e a gente olha o seu Instagram, o cardápio e o caminho até o pedido com você.
+Orégano Turbo: marketing de vendas só para pizzarias, de São Luís/MA.
+
+#diagnosticodepizzaria #consultoria #empreendedorismogastronomico #maranhao
 
 
-👉 Comenta SINAIS que eu te explico como pedir o Raio-X da sua pizzaria.
-Siga a @oreganoturbo: marketing de vendas só para pizzarias, de São Luís/MA.
+## OT-10 · 19/11 12:10 · Gestão
 
-#gestaodepizzaria #foodservice #pizzariasaoluis #pizzaria #oreganoturbo
-
-## OT-10 · 19/11 12:10 · conteudo · Gestão
+**Título Shorts:** CMV de pizzaria: a conta que muita gente não faz
 
 CMV de pizzaria: a conta que muita gente não faz 🍕
 
-Você sabe quanto custa a sua pizza de calabresa? Se você é dono de pizzaria, esse assunto passa pela sua noite toda semana.
+Você sabe quanto custa a sua pizza de calabresa? Se você é dono de pizzaria, isso mexe com o seu caixa toda semana.
 
 ▶ O que acontece
 Isso é o CMV: o custo da mercadoria vendida. Em food service, a meta costuma ficar entre vinte e cinco e trinta e cinco por cento do preço.
 
-▶ Na prática
+▶ Na prática, na sua pizzaria
 Pesa massa, molho, queijo, recheio e caixa. Soma tudo. Sem ficha técnica, o preço é chute.
 
-▶ Resumo
+▶ Conclusão
 Faz a conta hoje. Pizzaria que cresce cuida do produto e de como ele chega no cliente.
 
-Referência de mercado para food service (não é regra fixa: cada pizzaria tem a sua).
+🎁 Comenta CMV que eu te mando: a planilha simples de ficha técnica.
 
-👉 Comenta CMV que eu te mando a planilha de ficha técnica.
-Siga a @oreganoturbo: marketing de vendas só para pizzarias, de São Luís/MA.
+👉 Quer saber o que trava a venda na SUA pizzaria? Peça o Raio-X da Orégano Turbo: chame no WhatsApp pelo link da bio (oreganoturbo.pages.dev) e a gente olha o seu Instagram, o cardápio e o caminho até o pedido com você.
+Orégano Turbo: marketing de vendas só para pizzarias, de São Luís/MA.
 
-#gestaodepizzaria #pizzaiolo #slz #pizzariadelivery
+#gestaodepizzaria #cmv #pizza #slz
 
-## OT-11 · 19/11 19:10 · conteudo · Curiosidade
+
+## OT-11 · 19/11 19:10 · Curiosidade
+
+**Título Shorts:** A pizza napolitana é patrimônio da humanidade
 
 A pizza napolitana é patrimônio da humanidade 🍕
 
-A arte do pizzaiolo napolitano é patrimônio da humanidade. Se você é dono de pizzaria, esse assunto passa pela sua noite toda semana.
+A arte do pizzaiolo napolitano é patrimônio da humanidade. Se você é dono de pizzaria, isso mexe com o seu caixa toda semana.
 
 ▶ O que acontece
-A Unesco reconheceu em dois mil e dezessete. Não é a pizza em si. É o gesto: abrir, girar e assar.
+A Unesco reconheceu em dois mil e dezessete. Não é a pizza em si.
 
-▶ Na prática
-E isso diz muito: cliente gosta de ver a mão do pizzaiolo. Bastidor é conteúdo.
+▶ Na prática, na sua pizzaria
+É o gesto: abrir, girar e assar. E isso diz muito: cliente gosta de ver a mão do pizzaiolo. Bastidor é conteúdo.
 
-▶ Resumo
+▶ Conclusão
 Mostra seu pizzaiolo. Pizzaria que cresce cuida do produto e de como ele chega no cliente.
 
-Fonte: UNESCO, Lista do Patrimônio Cultural Imaterial (2017).
+🎁 Comenta UNESCO que eu te mando: 5 curiosidades de pizza para postar.
 
-👉 Comenta UNESCO que eu te mando cinco curiosidades pra postar.
-Siga a @oreganoturbo: marketing de vendas só para pizzarias, de São Luís/MA.
+👉 Quer saber o que trava a venda na SUA pizzaria? Peça o Raio-X da Orégano Turbo: chame no WhatsApp pelo link da bio (oreganoturbo.pages.dev) e a gente olha o seu Instagram, o cardápio e o caminho até o pedido com você.
+Orégano Turbo: marketing de vendas só para pizzarias, de São Luís/MA.
 
-#pizzanapoletana #pizzaria #saoluis #empreendedorismogastronomico
+#curiosidadesdapizza #pizzalovers #pizzaria #saoluis
 
-## OT-12 · 19/11 23:40 · venda · Raio-X
+
+## OT-12 · 19/11 23:40 · Raio-X
+
+**Título Shorts:** Taxa do aplicativo: como trazer o cliente pro seu canal
 
 Taxa do aplicativo: como trazer o cliente pro seu canal 🍕
 
-Cada pedido no aplicativo leva um pedaço da sua margem. Se você é dono de pizzaria, esse assunto passa pela sua noite toda semana.
+Cada pedido no aplicativo leva um pedaço da sua margem. Se você é dono de pizzaria, isso mexe com o seu caixa toda semana.
 
 ▶ O que acontece
-O app traz cliente novo. Isso é bom. O erro é deixar o cliente que voltou pedindo só pelo app.
+O app traz cliente novo. Isso é bom.
 
-▶ Na prática
-Cartão na caixa, cardápio digital e lista do WhatsApp trazem ele pro seu canal. No Raio-X a gente mostra por onde começar no seu caso.
+▶ Na prática, na sua pizzaria
+O erro é deixar o cliente que voltou pedindo só pelo app. Cartão na caixa, cardápio digital e lista do WhatsApp trazem ele pro seu canal. No Raio-X a gente mostra por onde começar no seu caso.
 
-▶ Resumo
+▶ Conclusão
 O cliente é seu. Pizzaria que cresce cuida do produto e de como ele chega no cliente.
 
+🎁 Comenta TAXA que eu te mando: como pedir o Raio-X e ver o seu caso.
+
+👉 Quer saber o que trava a venda na SUA pizzaria? Peça o Raio-X da Orégano Turbo: chame no WhatsApp pelo link da bio (oreganoturbo.pages.dev) e a gente olha o seu Instagram, o cardápio e o caminho até o pedido com você.
+Orégano Turbo: marketing de vendas só para pizzarias, de São Luís/MA.
+
+#diagnosticodepizzaria #marketingparapizzaria #pizzarias #saoluisma
 
 
-👉 Comenta TAXA que eu te explico como pedir o Raio-X.
-Siga a @oreganoturbo: marketing de vendas só para pizzarias, de São Luís/MA.
+## OT-13 · 20/11 12:10 · Ferramenta grátis
 
-#marketingparapizzaria #pizzariadelivery #saoluisma #foodservice #oreganoturbo
-
-## OT-13 · 20/11 12:10 · conteudo · Ferramenta grátis
+**Título Shorts:** Google Meu Negócio: a vitrine grátis da pizzaria
 
 Google Meu Negócio: a vitrine grátis da pizzaria 🍕
 
-Quando alguém pesquisa pizzaria perto de mim, quem aparece? Se você é dono de pizzaria, esse assunto passa pela sua noite toda semana.
+Quando alguém pesquisa pizzaria perto de mim, quem aparece? Se você é dono de pizzaria, isso mexe com o seu caixa toda semana.
 
 ▶ O que acontece
-É o Google Meu Negócio. E é grátis. Horário certo, fotos reais das pizzas, link do cardápio e resposta em toda avaliação.
+É o Google Meu Negócio. E é grátis.
 
-▶ Na prática
-Horário errado faz o cliente desistir antes de ligar. Leva dez minutos pra arrumar.
+▶ Na prática, na sua pizzaria
+Horário certo, fotos reais das pizzas, link do cardápio e resposta em toda avaliação. Horário errado faz o cliente desistir antes de ligar. Leva dez minutos pra arrumar.
 
-▶ Resumo
+▶ Conclusão
 Arruma hoje à noite. Pizzaria que cresce cuida do produto e de como ele chega no cliente.
 
+🎁 Comenta GOOGLE que eu te mando: o checklist do perfil no Google.
+
+👉 Quer saber o que trava a venda na SUA pizzaria? Peça o Raio-X da Orégano Turbo: chame no WhatsApp pelo link da bio (oreganoturbo.pages.dev) e a gente olha o seu Instagram, o cardápio e o caminho até o pedido com você.
+Orégano Turbo: marketing de vendas só para pizzarias, de São Luís/MA.
+
+#googlemeunegocio #marketinglocal #donodepizzaria #pizzariasaoluis
 
 
-👉 Comenta GOOGLE que eu te mando o checklist do perfil.
-Siga a @oreganoturbo: marketing de vendas só para pizzarias, de São Luís/MA.
+## OT-14 · 20/11 19:10 · Bastidor
 
-#googlemeunegocio #empreendedorismogastronomico #maranhao #pizzaiolo
-
-## OT-14 · 20/11 19:10 · conteudo · Bastidor
+**Título Shorts:** Bastidor: o que a gente grava numa pizzaria em 1 hora
 
 Bastidor: o que a gente grava numa pizzaria em 1 hora 🍕
 
-Com uma hora na cozinha dá pra gravar conteúdo de um mês. Se você é dono de pizzaria, esse assunto passa pela sua noite toda semana.
+Com uma hora na cozinha dá pra gravar conteúdo de um mês. Se você é dono de pizzaria, isso mexe com o seu caixa toda semana.
 
 ▶ O que acontece
-Massa sendo aberta. Queijo puxando. Pizza entrando no forno. E a caixa fechando. Grava sempre na vertical, com luz de frente.
+Massa sendo aberta. Queijo puxando. Pizza entrando no forno. E a caixa fechando.
 
-▶ Na prática
-Não precisa aparecer falando. A pizza fala. Corta em vídeos de dez segundos e posta um por dia.
+▶ Na prática, na sua pizzaria
+Grava sempre na vertical, com luz de frente. Não precisa aparecer falando. A pizza fala. Corta em vídeos de dez segundos e posta um por dia.
 
-▶ Resumo
+▶ Conclusão
 Grava no sábado. Pizzaria que cresce cuida do produto e de como ele chega no cliente.
 
+🎁 Comenta GRAVAR que eu te mando: a lista de 10 cenas para gravar no celular.
+
+👉 Quer saber o que trava a venda na SUA pizzaria? Peça o Raio-X da Orégano Turbo: chame no WhatsApp pelo link da bio (oreganoturbo.pages.dev) e a gente olha o seu Instagram, o cardápio e o caminho até o pedido com você.
+Orégano Turbo: marketing de vendas só para pizzarias, de São Luís/MA.
+
+#bastidores #fotodecomida #empreendedorismogastronomico #maranhao
 
 
-👉 Comenta GRAVAR que eu te mando a lista de dez cenas.
-Siga a @oreganoturbo: marketing de vendas só para pizzarias, de São Luís/MA.
+## OT-15 · 20/11 23:40 · Método
 
-#bastidoresdacozinha #foodservice #pizzariasaoluis #pizzaria
-
-## OT-15 · 20/11 23:40 · venda · Método
+**Título Shorts:** O relatório de segunda: o que o dono recebe toda semana
 
 O relatório de segunda: o que o dono recebe toda semana 🍕
 
-Toda segunda o dono da pizzaria recebe uma página. Se você é dono de pizzaria, esse assunto passa pela sua noite toda semana.
+Toda segunda o dono da pizzaria recebe uma página. Se você é dono de pizzaria, isso mexe com o seu caixa toda semana.
 
 ▶ O que acontece
-Quanto investiu. Quantos pedidos vieram de cada anúncio. E o que muda na semana. Uma página. Sem gráfico difícil.
+Quanto investiu. Quantos pedidos vieram de cada anúncio. E o que muda na semana.
 
-▶ Na prática
-Quem decide é você, olhando o número. É assim que trabalhamos com pizzaria.
+▶ Na prática, na sua pizzaria
+Uma página. Sem gráfico difícil. Quem decide é você, olhando o número. É assim que trabalhamos com pizzaria.
 
-▶ Resumo
+▶ Conclusão
 Sem achismo. Pizzaria que cresce cuida do produto e de como ele chega no cliente.
 
+🎁 Comenta RELATÓRIO que eu te mando: um modelo do relatório (com números ilustrativos).
+
+👉 Quer saber o que trava a venda na SUA pizzaria? Peça o Raio-X da Orégano Turbo: chame no WhatsApp pelo link da bio (oreganoturbo.pages.dev) e a gente olha o seu Instagram, o cardápio e o caminho até o pedido com você.
+Orégano Turbo: marketing de vendas só para pizzarias, de São Luís/MA.
+
+#vendasnowhatsapp #marketingdevendas #pizza #slz
 
 
-👉 Comenta RELATÓRIO que eu te mando um modelo com números ilustrativos.
-Siga a @oreganoturbo: marketing de vendas só para pizzarias, de São Luís/MA.
+## OT-16 · 21/11 12:10 · Insumo
 
-#deliverydepizza #pizzaiolo #slz #pizzariadelivery #oreganoturbo
-
-## OT-16 · 21/11 12:10 · conteudo · Insumo
+**Título Shorts:** Mussarela que solta água: o que fazer
 
 Mussarela que solta água: o que fazer 🍕
 
-Pizza encharcada no meio? Pode ser o queijo. Se você é dono de pizzaria, esse assunto passa pela sua noite toda semana.
+Pizza encharcada no meio? Se você é dono de pizzaria, isso mexe com o seu caixa toda semana.
 
 ▶ O que acontece
-Queijo com muita umidade solta água no forno. Escorre bem, rala ou fatia antes, e guarda gelado e seco.
+Pode ser o queijo. Queijo com muita umidade solta água no forno.
 
-▶ Na prática
-E não exagera no molho por baixo. Pizza que chega mole vira avaliação ruim.
+▶ Na prática, na sua pizzaria
+Escorre bem, rala ou fatia antes, e guarda gelado e seco. E não exagera no molho por baixo. Pizza que chega mole vira avaliação ruim.
 
-▶ Resumo
+▶ Conclusão
 Manda pra cozinha. Pizzaria que cresce cuida do produto e de como ele chega no cliente.
 
+🎁 Comenta QUEIJO que eu te mando: o guia rápido de queijo para pizza.
+
+👉 Quer saber o que trava a venda na SUA pizzaria? Peça o Raio-X da Orégano Turbo: chame no WhatsApp pelo link da bio (oreganoturbo.pages.dev) e a gente olha o seu Instagram, o cardápio e o caminho até o pedido com você.
+Orégano Turbo: marketing de vendas só para pizzarias, de São Luís/MA.
+
+#mussarela #insumos #pizzaria #saoluis
 
 
-👉 Comenta QUEIJO que eu te mando o guia rápido de queijo.
-Siga a @oreganoturbo: marketing de vendas só para pizzarias, de São Luís/MA.
+## OT-17 · 21/11 19:10 · Humor de dono
 
-#pizzaiolo #pizzaria #saoluis #empreendedorismogastronomico
-
-## OT-17 · 21/11 19:10 · conteudo · Humor de dono
+**Título Shorts:** Coisas que todo dono de pizzaria já ouviu
 
 Coisas que todo dono de pizzaria já ouviu 🍕
 
-Coisas que todo dono de pizzaria já ouviu. Se você é dono de pizzaria, esse assunto passa pela sua noite toda semana.
+Coisas que todo dono de pizzaria já ouviu. Se você é dono de pizzaria, isso mexe com o seu caixa toda semana.
 
 ▶ O que acontece
 Meia calabresa, meia chocolate, e borda de outra. Faz um desconto que eu divulgo.
 
-▶ Na prática
+▶ Na prática, na sua pizzaria
 E o clássico: tá chegando? E você ali, sorrindo, com o forno a mil.
 
-▶ Resumo
+▶ Conclusão
 Marca seu pizzaiolo. Pizzaria que cresce cuida do produto e de como ele chega no cliente.
 
+🎁 Comenta OUVI que eu te mando: o meme em alta para postar no seu perfil.
+
+👉 Quer saber o que trava a venda na SUA pizzaria? Peça o Raio-X da Orégano Turbo: chame no WhatsApp pelo link da bio (oreganoturbo.pages.dev) e a gente olha o seu Instagram, o cardápio e o caminho até o pedido com você.
+Orégano Turbo: marketing de vendas só para pizzarias, de São Luís/MA.
+
+#donodepizzaria #vidadeempreendedor #pizzarias #saoluisma
 
 
-👉 Comenta OUVI e me conta a pior que você já ouviu.
-Siga a @oreganoturbo: marketing de vendas só para pizzarias, de São Luís/MA.
+## OT-18 · 21/11 23:40 · Chamada para diagnóstico
 
-#donodepizzaria #pizzariadelivery #saoluisma #foodservice
-
-## OT-18 · 21/11 23:40 · venda · Chamada para diagnóstico
+**Título Shorts:** Raio-X ao vivo: o perfil de pizzaria que não vende
 
 Raio-X ao vivo: o perfil de pizzaria que não vende 🍕
 
-Seu perfil chama pedido ou espanta cliente? Se você é dono de pizzaria, esse assunto passa pela sua noite toda semana.
+Seu perfil chama pedido ou espanta cliente? Se você é dono de pizzaria, isso mexe com o seu caixa toda semana.
 
 ▶ O que acontece
-Bio sem link de pedido. Foto escura. E nenhum sabor com preço. O cliente decide em segundos.
+Bio sem link de pedido. Foto escura. E nenhum sabor com preço.
 
-▶ Na prática
-E ele não volta pra dar segunda chance. No Raio-X eu te mostro o que corrigir primeiro.
+▶ Na prática, na sua pizzaria
+O cliente decide em segundos. E ele não volta pra dar segunda chance. No Raio-X eu te mostro o que corrigir primeiro.
 
-▶ Resumo
+▶ Conclusão
 Só pizzarias. Pizzaria que cresce cuida do produto e de como ele chega no cliente.
 
+🎁 Comenta PERFIL que eu te mando: como pedir o Raio-X do seu perfil.
+
+👉 Quer saber o que trava a venda na SUA pizzaria? Peça o Raio-X da Orégano Turbo: chame no WhatsApp pelo link da bio (oreganoturbo.pages.dev) e a gente olha o seu Instagram, o cardápio e o caminho até o pedido com você.
+Orégano Turbo: marketing de vendas só para pizzarias, de São Luís/MA.
+
+#diagnosticodepizzaria #consultoria #donodepizzaria #pizzariasaoluis
 
 
-👉 Comenta PERFIL que eu te explico como pedir o Raio-X.
-Siga a @oreganoturbo: marketing de vendas só para pizzarias, de São Luís/MA.
+## OT-19 · 22/11 12:10 · Dados do setor
 
-#gestaodepizzaria #empreendedorismogastronomico #maranhao #pizzaiolo #oreganoturbo
-
-## OT-19 · 22/11 12:10 · conteudo · Dados do setor
+**Título Shorts:** As melhores pizzarias do mundo em 2026 têm isto em comum
 
 As melhores pizzarias do mundo em 2026 têm isto em comum 🍕
 
-O ranking 50 Top Pizza avalia a pizzaria inteira, não só a pizza. Se você é dono de pizzaria, esse assunto passa pela sua noite toda semana.
+O ranking 50 Top Pizza avalia a pizzaria inteira, não só a pizza. Se você é dono de pizzaria, isso mexe com o seu caixa toda semana.
 
 ▶ O que acontece
 Em 2026, o Brasil tem seis pizzarias na lista mundial. Pizza assinatura, marketing forte, nota do cliente, bebida e sobremesa.
 
-▶ Na prática
+▶ Na prática, na sua pizzaria
 Você não precisa estar no ranking pra copiar o método. Começa pela sua pizza assinatura.
 
-▶ Resumo
+▶ Conclusão
 Qual é a sua assinatura? Pizzaria que cresce cuida do produto e de como ele chega no cliente.
 
-Fonte: 50 Top Pizza World 2026 (scattidigusto.it).
+🎁 Comenta RANKING que eu te mando: as 5 lições do ranking 50 Top Pizza.
 
-👉 Comenta RANKING que eu te mando as cinco lições.
-Siga a @oreganoturbo: marketing de vendas só para pizzarias, de São Luís/MA.
+👉 Quer saber o que trava a venda na SUA pizzaria? Peça o Raio-X da Orégano Turbo: chame no WhatsApp pelo link da bio (oreganoturbo.pages.dev) e a gente olha o seu Instagram, o cardápio e o caminho até o pedido com você.
+Orégano Turbo: marketing de vendas só para pizzarias, de São Luís/MA.
 
-#mercadodepizza #foodservice #pizzariasaoluis #pizzaria
+#mercadodepizza #foodservice #empreendedorismogastronomico #maranhao
 
-## OT-20 · 22/11 19:10 · conteudo · Gestão
+
+## OT-20 · 22/11 19:10 · Gestão
+
+**Título Shorts:** Upsell no WhatsApp: a pergunta que aumenta o pedido
 
 Upsell no WhatsApp: a pergunta que aumenta o pedido 🍕
 
-O cliente pediu uma calabresa grande no WhatsApp. Se você é dono de pizzaria, esse assunto passa pela sua noite toda semana.
+O cliente pediu uma calabresa grande no WhatsApp. Se você é dono de pizzaria, isso mexe com o seu caixa toda semana.
 
 ▶ O que acontece
 A maioria responde só anotado e pronto. Tenta assim: quer colocar borda de catupiry? Ou um refri gelado junto?
 
-▶ Na prática
+▶ Na prática, na sua pizzaria
 Uma opção clara. Sem empurrar. É atenção, não insistência.
 
-▶ Resumo
+▶ Conclusão
 Testa no sábado. Pizzaria que cresce cuida do produto e de como ele chega no cliente.
 
+🎁 Comenta UPSELL que eu te mando: 5 frases de upsell para o atendimento.
+
+👉 Quer saber o que trava a venda na SUA pizzaria? Peça o Raio-X da Orégano Turbo: chame no WhatsApp pelo link da bio (oreganoturbo.pages.dev) e a gente olha o seu Instagram, o cardápio e o caminho até o pedido com você.
+Orégano Turbo: marketing de vendas só para pizzarias, de São Luís/MA.
+
+#gestaodepizzaria #cmv #pizza #slz
 
 
-👉 Comenta UPSELL que eu te mando cinco frases prontas.
-Siga a @oreganoturbo: marketing de vendas só para pizzarias, de São Luís/MA.
+## OT-21 · 22/11 23:40 · Dia da Pizza
 
-#gestaodepizzaria #pizzaiolo #slz #pizzariadelivery
-
-## OT-21 · 22/11 23:40 · conteudo · Dia da Pizza
+**Título Shorts:** Dia da Pizza é 10 de julho: comece a planejar agora
 
 Dia da Pizza é 10 de julho: comece a planejar agora 🍕
 
-Toda pizzaria precisa de um calendário de datas. Se você é dono de pizzaria, esse assunto passa pela sua noite toda semana.
+Toda pizzaria precisa de um calendário de datas. Se você é dono de pizzaria, isso mexe com o seu caixa toda semana.
 
 ▶ O que acontece
 A maior é o Dia da Pizza, dez de julho. Mas tem Copa, final de campeonato, Dia dos Pais e a noite da sexta.
 
-▶ Na prática
+▶ Na prática, na sua pizzaria
 Data boa se prepara com duas semanas de antecedência. Estoque, equipe e conteúdo prontos antes.
 
-▶ Resumo
+▶ Conclusão
 Salva esse vídeo. Pizzaria que cresce cuida do produto e de como ele chega no cliente.
 
+🎁 Comenta CALENDÁRIO que eu te mando: o calendário de datas da pizzaria.
 
+👉 Quer saber o que trava a venda na SUA pizzaria? Peça o Raio-X da Orégano Turbo: chame no WhatsApp pelo link da bio (oreganoturbo.pages.dev) e a gente olha o seu Instagram, o cardápio e o caminho até o pedido com você.
+Orégano Turbo: marketing de vendas só para pizzarias, de São Luís/MA.
 
-👉 Comenta CALENDÁRIO que eu te mando o calendário de datas.
-Siga a @oreganoturbo: marketing de vendas só para pizzarias, de São Luís/MA.
-
-#diadapizza #pizzaria #saoluis #empreendedorismogastronomico
+#diadapizza #datacomemorativa #pizzaria #saoluis

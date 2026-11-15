@@ -26,9 +26,9 @@ for r in rot:
     dd, mm = r['post']['data'].split('/'); dia = DIAS[datetime.date(2026, int(mm), int(dd)).weekday()]
     tit = r['titulo'] if len(r['titulo']) <= 70 else r['titulo'][:67].rsplit(' ', 1)[0] + '…'
     itens.append({'t': 'Reels · ' + ('venda' if r['tipo'] == 'venda' else 'conteúdo'), 'titulo': f"{r['id']} · {tit}", 'curto': tit,
-                  'data': f"Postar {dia} {r['post']['data']} às {r['post']['hora']}", 'linha': r['linha_editorial'], 'st': 'aguardando',
+                  'data': f"Postar {dia} {r['post']['data']} às {r['post']['hora']}", 'linha': r['linha_editorial'], 'st': 'aprovado', 'por': 'Lindson (vídeos aprovados em 15/11)',
                   'img': f'/painel/oregano/reels/OT-{n}-capa-p.jpg', 'capa': f'/painel/oregano/reels/OT-{n}-capa.jpg', 'video': f'/painel/oregano/reels/OT-{n}.mp4',
-                  'legenda': open(os.path.join(pasta, 'legenda.txt')).read().strip()})
+                  'legenda': open(os.path.join(pasta, 'legenda-seo.txt') if os.path.exists(os.path.join(pasta, 'legenda-seo.txt')) else os.path.join(pasta, 'legenda.txt')).read().strip()})
 p = os.path.join(PRIV, 'painel', 'oregano.html'); s = open(p).read()
 i = s.index('const APROV=') + len('const APROV=') + 1
 s = s[:i] + ','.join(json.dumps(x, ensure_ascii=False) for x in itens) + ',' + s[i:]

@@ -307,3 +307,4 @@ Levantado pela conta Lindson em 01/11/2026 a partir do histórico do git e dos a
 | 15/11/2026 | Zuleide | Comando: Tarefas feitas em quadros por cliente (hoje/7d/mês/total + lista por dia e hora) e /api/automacao?fila=afazer (semear/ler); 25 itens A fazer no servidor | /painel/comando#feitas | pronto |
 | 15/11/2026 | Zuleide | Admin, Quadro de atividades: Feitos em quadros por cliente (ao vivo) e A fazer do caderno com Iniciar/Feito | /painel/admin#quadro | pronto |
 | 15/11/2026 | Zuleide | Painel SF: aba Arquivos (10 motions v1 reprovada/v2 aguardando, 5 artes feed v1, logo, flyer, site) | /painel/sf#arquivos, arquivos em painel/sf/ do privado | no ar |
+| 15/11/2026 | Zuleide | Orégano: 21 Reels marcados como aprovados no /painel/oregano, legendas SEO com CTA do Raio-X (legendas_seo.py → LEGENDAS.md, legenda-seo.txt) | agencia/operacao-propria/reels/ + oregano-turbo/montar-oregano.py | no ar |
