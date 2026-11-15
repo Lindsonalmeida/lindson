@@ -22,8 +22,8 @@ Legenda: [x] = riscado no caderno (feito) · [ ] = a fazer. Ordem e grupos como 
 - [x] Montar um painel financeiro
 - [ ] Projeto VEKTOR
 - [ ] Projeto Dublê
-- [ ] Raio-X: Felipe Bormine (nome a confirmar)
-- [ ] Raio-X: Marcos 100 Limites (nome a confirmar)
+- [ ] Raio-X: Felipe Bormine (cliente da call; falta o @)
+- [ ] Raio-X: Marcos 100 Limites (cliente da call; falta o @)
 
 ## Orégano Turbo
 - [x] Criar site principal
