@@ -31,22 +31,22 @@
    "cli": "raposa",
    "tarefa": "Alimentar Insta",
    "equipe": "Leandro",
-   "status": "andamento",
-   "nota": "",
+   "status": "travado",
+   "nota": "Kit pronto: 40 legendas Instagram (SEO) + agenda 2/dia 16-30/11 + bio e destaques em conteudo/youtube/raposa-e-leao/redes-sociais/ e privado painel/canais/raposa/postagens-instagram-tiktok.html. Falta Lindson: criar/confirmar @raposaeleao no Instagram e logar no Metricool ou postar pelo celular.",
    "partes": [],
    "pegou": "Leandro 15/11 18:08",
-   "atualizado": ""
+   "atualizado": "Leandro 15/11 21:14"
   },
   {
    "id": "cad-raposa-6",
    "cli": "raposa",
    "tarefa": "Alimentar TikTok",
    "equipe": "Leandro",
-   "status": "andamento",
-   "nota": "",
+   "status": "travado",
+   "nota": "Kit pronto: 40 legendas TikTok + agenda na mesma página (postagens-instagram-tiktok.html). Falta Lindson: criar/confirmar @raposaeleao no TikTok e postar/agendar.",
    "partes": [],
    "pegou": "Leandro 15/11 18:08",
-   "atualizado": ""
+   "atualizado": "Leandro 15/11 21:14"
   },
   {
    "id": "cad-passaporte-8",
@@ -890,11 +890,11 @@
    "cli": "tribuna",
    "tarefa": "Tribuna 98: textos do Perfil da Empresa (Estação de rádio) e title próprio nas páginas de programa",
    "equipe": "Leandro",
-   "status": "andamento",
-   "nota": "",
+   "status": "travado",
+   "nota": "GOOGLE.md pronto (agencia/clientes/tribuna98/GOOGLE.md, privado painel/tribuna/google.html): categoria, descrição 699 car., serviços, posts, respostas, titles SEO. As 5 páginas do site já têm title próprio; não há páginas de programa. Falta Lindson: confirmar se é rádio de verdade, criar/verificar a ficha e liberar repo tribuna98.",
    "partes": [],
    "pegou": "Leandro 15/11 18:08",
-   "atualizado": ""
+   "atualizado": "Leandro 15/11 21:14"
   }
  ]
 }
