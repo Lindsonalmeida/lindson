@@ -495,3 +495,5 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 - **15/11/2026 (conta Leandro) — Reels em miniaturas 3D 01, 02 e 03 POSTADOS pelo Lindson** (SUMIU, PERFIL e GANCHO). Daqui em diante, a animação varia sempre e a voz não pode soar robótica: o Antonio foi reprovado como "muito robótico" para a marca dele.
 - **15/11/2026 (conta Zuleide):** Lindson confirmou: longos 01 a 09 do Passaporte JÁ POSTADOS. Faltam 10, 11 e 12 (roteiros e capas aprovados; render refeito em 15/11).
 - **15/11/2026 (conta Zuleide), REGRA GERAL:** todo arquivo feito para cliente sobe na hora para o painel dele na Central (todas as contas, todos os clientes). Salva no CLAUDE.md.
+
+- **15/11/2026 (conta Pedro), REGRA DO LINDSON:** "todos os vídeos feitos da SF, coloque no painel dele… tudo que todas as contas fizeram. Sempre que algum arquivo for feito, suba lá pra eu não perder, de todos os clientes". Está nas regras gerais do CLAUDE.md. Os MP4 da SF ficam em `painel/sf/video/` no privado.

@@ -68,9 +68,24 @@ if MOSTRAR_V1:
     for k in sorted(TX):
         t = TX[k]; arq = os.path.join(V1, t.get('arquivo', k + '.jpg'))
         itens.append({'t': 'Post único', 'titulo': t.get('titulo') or TIT.get(k, k), 'data': 'Postar em ' + t.get('data', 'a combinar'), 'linha': t.get('linha', ''), 'st': 'aguardando', 'img': uri(arq, 720), 'legenda': t.get('legenda', '')})
+
+# 4b · Vídeos de todas as contas (regra do Lindson, 15/11/2026: "todos os vídeos feitos da SF no painel dele"), conta Pedro.
+# Os MP4 ficam no privado em painel/sf/video/ (servidos em /painel/sf/video/, só para quem entra no painel).
+import glob
+VID = os.path.join(DADOS, '..', 'painel', 'sf', 'video')
+MOT = os.path.join(CL, 'motion-sf-14-11'); RT = {}
+try: RT = {r['n']: r for r in json.load(open(os.path.join(MOT, 'roteiros.json')))}
+except Exception: pass
+for f in sorted(glob.glob(os.path.join(VID, 'sf-motion-*.mp4'))):
+    nome = os.path.basename(f); n = int(nome.split('-')[2]); r = RT.get(n, {})
+    itens.append({'t': 'Vídeo · anúncio 9:16', 'titulo': f"Motion {n:02d} · " + r.get('servico', '') + ((' · ' + str(r.get('fala', '')).split('?')[0][:60] + '?') if r.get('fala') else ''), 'data': 'Anúncio no Meta (stories e Reels)', 'linha': 'Anúncio',
+                  'st': 'aguardando', 'img': f'/painel/sf/video/{nome[:-4]}.jpg', 'video': f'/painel/sf/video/{nome}', 'legenda': ('Narração: ' + (r['fala'] if isinstance(r.get('fala'), str) else ' '.join(map(str, r.get('fala') or [])))) if r.get('fala') else ''})
+if os.path.exists(os.path.join(VID, 'cliente-sf.mp4')):
+    itens.append({'t': 'Vídeo · story', 'titulo': 'Story do site da SF (para marcar @)', 'data': 'Story', 'linha': 'Site', 'st': 'aguardando',
+                  'img': '/painel/sf/video/cliente-sf.jpg', 'video': '/painel/sf/video/cliente-sf.mp4', 'legenda': ''})
 aprov = ','.join(json.dumps(x, ensure_ascii=False) for x in itens)
 s = re.sub(r"const APROV=\[.*?\];", lambda m: f"const APROV=[{aprov}];", s, count=1, flags=re.S)
-troca('<div class="post"><div class="img">${p.titulo}</div>', '<div class="post">${p.img?`<img src="${p.img}" alt="${p.titulo}" style="width:100%;aspect-ratio:4/5;object-fit:cover;display:block">`:`<div class="img">${p.titulo}</div>`}')
+troca('<div class="post"><div class="img">${p.titulo}</div>', '<div class="post">${p.video?`<video src="${p.video}" poster="${p.img}" controls playsinline preload="none" style="width:100%;aspect-ratio:9/16;object-fit:cover;display:block;background:#000"></video>`:p.img?`<img src="${p.img}" alt="${p.titulo}" style="width:100%;aspect-ratio:4/5;object-fit:cover;display:block">`:`<div class="img">${p.titulo}</div>`}')
 troca('<div class="d" style="color:var(--apagado);font-size:12.5px">${p.data}</div>',
       '<div class="d" style="color:var(--apagado);font-size:12.5px">${p.data}</div>${p.linha?`<span style="display:inline-block;margin-top:8px;padding:3px 10px;border-radius:999px;font-size:11.5px;font-weight:800;background:var(--amarelo);color:#04102B">${p.linha}</span>`:\'\'}<div style="font-weight:700;margin:6px 0 2px">${p.titulo}</div>'
       '${p.por?`<div style="font-size:12px;color:${p.st===\'aprovado\'?\'#4ADE80\':\'var(--amarelo)\'};margin-top:2px">${p.st===\'aprovado\'?\'✓ Aprovado no site por\':\'Ajuste pedido\'}: ${p.por}${p.em?\', \'+new Date(p.em).toLocaleDateString(\'pt-BR\'):\'\'}</div>`:\'\'}'
