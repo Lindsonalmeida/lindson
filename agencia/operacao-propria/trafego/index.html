@@ -1,0 +1,87 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tráfego Orégano Turbo</title><meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+:root{--carvao:#141311;--carvao2:#1c1b18;--linha:#2c2a26;--creme:#F3EEE6;--tomate:#C8302B;--acafrao:#F2B33D;--verde:#1E5B3B;--cinza:#8A857C;--t2:#bdb7ab}
+*{box-sizing:border-box;margin:0;padding:0}body{background:var(--carvao);color:var(--creme);font:16px/1.55 Inter,system-ui,sans-serif;overflow-x:hidden}
+.w{max-width:1080px;margin:0 auto;padding:0 16px}
+.mono{font:600 11px 'IBM Plex Mono',monospace;letter-spacing:.16em;text-transform:uppercase;color:var(--acafrao)}
+h1,h2{font-family:Anton,Impact,sans-serif;font-weight:400;text-transform:uppercase;line-height:.95;letter-spacing:.01em}
+h1{font-size:clamp(52px,14vw,128px)}h1 em{font-style:normal;color:var(--acafrao)}
+h2{font-size:clamp(34px,8vw,64px);margin:8px 0 20px}
+header{padding:28px 0 40px;border-bottom:1px solid var(--linha);position:relative;overflow:hidden}
+.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:48px}.logo{font:400 22px Anton;letter-spacing:.04em}.logo b{color:var(--tomate);font-weight:400}
+.tag{border:1px solid var(--linha);border-radius:99px;padding:6px 12px;font:600 11px 'IBM Plex Mono';color:var(--t2)}
+.lead{max-width:620px;color:var(--t2);font-size:18px;margin-top:20px}
+.kpis{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:32px}
+.k{background:var(--carvao2);border:1px solid var(--linha);border-radius:16px;padding:16px}.k b{display:block;font:400 34px Anton;color:var(--creme)}.k span{font-size:13px;color:var(--t2)}
+.k.hl{background:var(--tomate);border-color:var(--tomate)}.k.hl span{color:#fff}
+section{padding:56px 0;border-bottom:1px solid var(--linha)}
+.funil{display:grid;gap:10px}
+.et{display:grid;grid-template-columns:64px 1fr;gap:14px;align-items:center;border-radius:18px;padding:18px;color:var(--carvao)}
+.et .n{font:400 44px Anton;line-height:1}.et h3{font:400 24px Anton;text-transform:uppercase;letter-spacing:.02em}.et p{font-size:14px;line-height:1.45}.et small{display:block;font:600 11px 'IBM Plex Mono';margin-top:6px;opacity:.75}
+.e1{background:var(--creme)}.e2{background:var(--acafrao);margin:0 2%}.e3{background:var(--tomate);color:#fff;margin:0 4%}.e4{background:var(--verde);color:#fff;margin:0 6%}
+.dest{margin-top:16px;display:grid;grid-template-columns:1fr 1fr;gap:10px}.dest div{border:1px dashed var(--cinza);border-radius:14px;padding:14px;font-size:14px;color:var(--t2)}.dest b{color:var(--creme);display:block}
+.bars{display:grid;gap:18px}.bar .l{display:flex;justify-content:space-between;font-size:14px;margin-bottom:6px}.bar .l b{font:400 22px Anton}
+.track{height:34px;background:var(--carvao2);border-radius:10px;display:flex;overflow:hidden;border:1px solid var(--linha)}
+.track i{display:block;height:100%}.c1{background:var(--creme)}.c2{background:var(--tomate)}.c3{background:var(--acafrao)}
+.leg{display:flex;gap:16px;flex-wrap:wrap;margin-top:14px;font-size:13px;color:var(--t2)}.leg i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+.tl{display:grid;gap:12px}.fase{background:var(--carvao2);border:1px solid var(--linha);border-radius:18px;padding:20px;position:relative}
+.fase .d{font:400 40px Anton;color:var(--acafrao)}.fase ul{list-style:none;margin-top:8px}.fase li{padding:6px 0;border-top:1px solid var(--linha);font-size:14px;color:var(--t2)}.fase li:first-child{border:0}
+.regras{display:grid;gap:12px}.r{border-radius:16px;padding:18px;border:1px solid var(--linha)}.r h3{font:400 22px Anton;text-transform:uppercase;margin-bottom:8px}.r.cut h3{color:var(--tomate)}.r.up h3{color:#7CC596}.r li{font-size:14px;color:var(--t2);margin-left:18px;padding:3px 0}
+.chips{display:flex;flex-wrap:wrap;gap:8px}.chip{background:var(--carvao2);border:1px solid var(--linha);border-radius:99px;padding:8px 14px;font:600 12px 'IBM Plex Mono'}.chip b{color:var(--acafrao)}
+.nota{font-size:13px;color:var(--cinza);margin-top:16px}
+.dep{display:grid;gap:10px;counter-reset:x}.dep div{background:var(--creme);color:var(--carvao);border-radius:14px;padding:14px 16px 14px 52px;position:relative;font-weight:600}.dep div:before{counter-increment:x;content:counter(x);position:absolute;left:16px;top:10px;font:400 26px Anton;color:var(--tomate)}
+footer{padding:32px 0 48px;font-size:12px;color:var(--cinza)}
+.faixa{background:var(--acafrao);color:var(--carvao);font:400 18px Anton;letter-spacing:.06em;white-space:nowrap;overflow:hidden;padding:10px 0}.faixa span{display:inline-block;animation:m 30s linear infinite}@keyframes m{to{transform:translateX(-50%)}}
+.et .x{display:none;font-size:13px;font-weight:600}
+@media(min-width:760px){.e2{margin:0 4%}.e3{margin:0 8%}.e4{margin:0 12%}.kpis{grid-template-columns:repeat(4,1fr)}.tl{grid-template-columns:repeat(3,1fr)}.regras{grid-template-columns:1fr 1fr}.et{grid-template-columns:90px 1fr 220px}.et .x{display:block}.dep{grid-template-columns:1fr 1fr}}
+@media(prefers-reduced-motion:reduce){.faixa span{animation:none}}
+</style></head><body>
+<header><div class="w">
+<div class="top"><div class="logo">ORÉGANO <b>TURBO</b></div><div class="tag">TRÁFEGO · 15/11/2026</div></div>
+<div class="mono">Estratégia de tráfego pago · Meta Ads</div>
+<h1>Do Reel ao <em>diagnóstico</em> marcado.</h1>
+<p class="lead">Como os 21 Reels aprovados viram anúncio para achar donos de pizzaria em São Luís, filtrar quem pode contratar e medir cada conversa pelo código no WhatsApp.</p>
+<div class="kpis"><div class="k hl"><b>2/mês</b><span>pizzarias novas (meta aprovada)</span></div><div class="k"><b>5</b><span>fundadoras em 60 dias</span></div><div class="k"><b>R$ 40</b><span>por dia para começar (piso aprovado)</span></div><div class="k"><b>PZ01–18</b><span>códigos de rastreio</span></div></div>
+</div></header>
+<div class="faixa" aria-hidden="true"><span>SÓ PIZZARIAS · RAIO-X DA PIZZARIA · PEDIDO DIRETO NO ZAP · RELATÓRIO TODA SEGUNDA · SÓ PIZZARIAS · RAIO-X DA PIZZARIA · PEDIDO DIRETO NO ZAP · RELATÓRIO TODA SEGUNDA · </span></div>
+<section><div class="w"><div class="mono">01 · O funil</div><h2>Quatro campanhas, um caminho.</h2>
+<div class="funil">
+<div class="et e1"><div class="n">C1</div><div><h3>Topo · distribuição</h3><p>Reels de massa, CMV e terça parada. Só dono de pizzaria assiste até o fim: o vídeo filtra.</p><small>THRUPLAY · R$ 10/DIA</small></div><div class="x">OT-05 · OT-10 · OT-02 · OT-16</div></div>
+<div class="et e2"><div class="n">C2</div><div><h3>Raio-X · cadastro</h3><p>Formulário que filtra (≥ R$ 30 mil e R$ 1.000 de anúncio) ou WhatsApp com código.</p><small>LEAD · R$ 30–50/DIA</small></div><div class="x">OT-03 · 09 · 12 · 18 · 06 + N1–N5</div></div>
+<div class="et e3"><div class="n">C3</div><div><h3>Remarketing</h3><p>Quem viu 50% ou engajou: bastidor, relatório de segunda, vagas de fundadora.</p><small>WHATSAPP · R$ 15–20/DIA · DIA 31</small></div><div class="x">OT-14 · OT-15 · N4 · R$ 297</div></div>
+<div class="et e4"><div class="n">C4</div><div><h3>Escala</h3><p>Semelhante dos qualificados e cidades do MA. Só com 5 cases e dados.</p><small>+20%/SEMANA NO ALVO</small></div><div class="x">Cases autorizados</div></div>
+</div>
+<div class="dest"><div><b>Passou no filtro</b>Diagnóstico de 30 min com o Lindson</div><div><b>Ficou abaixo</b>Raio-X da Pizzaria · R$ 297</div></div>
+</div></section>
+<section><div class="w"><div class="mono">02 · Verba</div><h2>Começa pequeno. Sobe com número.</h2>
+<div class="bars">
+<div class="bar"><div class="l"><span>Fase 1 · dias 1–30</span><b>R$ 40/dia</b></div><div class="track"><i class="c1" style="width:12.5%"></i><i class="c2" style="width:37.5%"></i></div></div>
+<div class="bar"><div class="l"><span>Fase 2 · dias 31–60</span><b>R$ 65/dia</b></div><div class="track"><i class="c1" style="width:12.5%"></i><i class="c2" style="width:50%"></i><i class="c3" style="width:18.75%"></i></div></div>
+<div class="bar"><div class="l"><span>Fase 3 · dias 61–90</span><b>R$ 80/dia +</b></div><div class="track"><i class="c1" style="width:12.5%"></i><i class="c2" style="width:62.5%"></i><i class="c3" style="width:25%"></i></div></div>
+</div>
+<div class="leg"><span><i class="c1"></i>C1 distribuição</span><span><i class="c2"></i>C2 Raio-X</span><span><i class="c3"></i>C3 remarketing</span></div>
+<p class="nota">Faixas aprovadas na ESTRATEGIA-MARKETING (C1 R$ 10 · C2 R$ 30–50 · C3 R$ 15–20). O valor inicial depende do Lindson. Google: só um teste pequeno no mês 3.</p>
+</div></section>
+<section><div class="w"><div class="mono">03 · Cronograma</div><h2>30 · 60 · 90 dias</h2>
+<div class="tl">
+<div class="fase"><div class="d">0–30</div><ul><li>Semana 1: Pixel + CAPI, formulário e WhatsApp testados</li><li>C1 + C2 em ABO, 3 conjuntos × 4 anúncios</li><li>Decide no dia 7, troca os 2 piores no dia 15</li></ul></div>
+<div class="fase"><div class="d">31–60</div><ul><li>C3 remarketing no ar</li><li>Vencedores em CBO</li><li>N1–N5 gravados e testados · fechar as 5 fundadoras</li></ul></div>
+<div class="fase"><div class="d">61–90</div><ul><li>Semelhante dos qualificados</li><li>Teste de 1 cidade do interior</li><li>Google Pesquisa pequeno, para medir</li></ul></div>
+</div></div></section>
+<section><div class="w"><div class="mono">04 · Regras de segunda-feira</div><h2>Corta. Escala. Mede.</h2>
+<div class="regras">
+<div class="r cut"><h3>Corta</h3><ul><li>Gastou 2× o custo-alvo por lead sem lead</li><li>Hook rate &lt; 15% depois de 1.000 impressões</li><li>Frequência &gt; 3 no frio</li></ul></div>
+<div class="r up"><h3>Escala</h3><ul><li>Custo por diagnóstico no alvo por 7 dias: +20%</li><li>≥ 50 eventos/semana: duplica em CBO</li><li>Nunca mais que 20% de uma vez</li></ul></div>
+</div><p class="nota">Limites = referência inicial, ajustar com dados depois de 15 dias. A métrica que manda é o custo por diagnóstico, não o clique.</p>
+</div></section>
+<section><div class="w"><div class="mono">05 · Rastreio</div><h2>Cada conversa tem origem.</h2>
+<div class="chips"><span class="chip"><b>Pixel</b> + CAPI</span><span class="chip">Lead · Contact · <b>LeadQualificado</b> · Schedule</span><span class="chip">UTM dinâmica {{ad.name}}</span><span class="chip">WhatsApp <b>[PZ05]</b></span><span class="chip">Planilha: qualificado → marcado → fechou</span></div>
+<p class="nota">Sem promessa de resultado nos anúncios (garantia retirada em 05/11). Categoria especial: nenhuma. Imagem de IA com aviso.</p>
+</div></section>
+<section><div class="w"><div class="mono">06 · Depende do Lindson</div><h2>Para subir</h2>
+<div class="dep"><div>Aprovar a verba inicial (sugestão: R$ 40/dia)</div><div>Gerenciador de Negócios e conta de anúncios da Orégano, com acesso para a equipe</div><div>Pixel criado e ID enviado (CAPI no site)</div><div>WhatsApp Business ligado à página e ao IG</div><div>Forma de pagamento na conta de anúncios</div><div>Gravar N3 e N5 (rosto ou voz do Lindson)</div></div>
+</div></section>
+<footer><div class="w">Orégano Turbo · estratégia de tráfego · conta Pedro · 15/11/2026 · agentes Traffic Masters, Hormozi, Copy, Paollo, Rocco, Social media, Data Chief e Maquiavel. Detalhes em agencia/operacao-propria/trafego/.</div></footer>
+</body></html>
