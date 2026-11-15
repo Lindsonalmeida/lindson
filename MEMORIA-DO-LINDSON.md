@@ -593,3 +593,4 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 - 15/11/2026 (conta Leandro): CLIENTES PAGANTES HOJE (Lindson): Dra. Jaci R$ 1.500/mês, Leo Pinto R$ 2.500/mês, WF Celulares R$ 800/mês. Só esses três pagam por enquanto (total R$ 4.800/mês). Tribuna 98 e Real Time não pagam hoje. Usar no plano para investidor e no financeiro.
 
 - 15/11/2026 (conta Leandro): o plano para investidor é da EMPRESA INTEIRA do Lindson ("não é só pro negócio de pizza, é pra tudo"), não de uma unidade só.
+- **15/11/2026 (conta Zuleide), PRONÚNCIA:** na narração, "Real Time" se fala **"Réal Táime"** (inglês). No texto do TTS escrever foneticamente "Riál Táime"/"Real Taime" para a voz não ler "real time" em português. Vídeos RT 01-03 refeitos.
