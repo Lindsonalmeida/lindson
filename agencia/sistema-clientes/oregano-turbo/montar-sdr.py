@@ -48,7 +48,7 @@ const k=(r,v,n)=>`<div class="card kpi"><div class="rot">${r}</div><div class="v
 const FS=[['hoje','Para hoje'],['todos','Todos'],...Object.entries(E)];
 let l=st.f==='hoje'?L.filter(due):st.f==='todos'?L:L.filter(c=>c.etapa===st.f);
 if(st.q){const q=st.q.toLowerCase();l=l.filter(c=>(c.nome+c.cidade+c.ig).toLowerCase().includes(q))}
-l=l.slice().sort((a,b)=>(b.seg||0)-(a.seg||0));
+const sl=c=>/São Luís|Ribamar|Paço|Raposa/.test(c.cidade||'')?1:0;l=l.slice().sort((a,b)=>sl(b)-sl(a)||(b.seg||0)-(a.seg||0));
 return `<div class="sdr-k">${k('Enviados hoje',eh+'/'+META,'meta diária')}${k('Fila de hoje',fila,'novos + follow-ups vencidos')}${k('Responderam',cnt('respondeu'),'conversa aberta')}${k('Diagnósticos',cnt('diagnostico'),'agendados')}${k('Propostas',cnt('proposta'),'enviadas')}${k('Fechados',cnt('fechado'),'clientes')}</div>
 <div class="card"><div class="sdr-bar"><i style="width:${Math.min(100,eh/META*100)}%"></i></div><p class="sub" style="margin:8px 0 0">Cadência: 1º contato → D+2 → D+5 → D+10 (sem resposta vira Perdido). Entram só pizzarias com WhatsApp de celular, Instagram e sinal de porte (≥ 5 mil seguidores, salão, app ou mais de 1 unidade). ${L.length} leads no total.</p>
 <div class="sdr-f">${FS.map(([v,t])=>`<button data-sf="${v}" aria-pressed="${st.f===v}">${t} <b>${v==='hoje'?fila:v==='todos'?L.length:cnt(v)}</b></button>`).join('')}</div>
@@ -68,5 +68,5 @@ M.querySelectorAll('[data-sw]').forEach(a=>a.addEventListener('click',()=>{const
 M.querySelectorAll('[data-se]').forEach(s=>s.onchange=()=>post({id:s.dataset.se,acao:'etapa',etapa:s.value}));
 M.querySelectorAll('[data-sn]').forEach(b=>b.onclick=()=>{const c=st.l.find(x=>x.id===b.dataset.sn),t=prompt('Anotação',c.nota||'');if(t!==null)post({id:c.id,acao:'nota',nota:t})});};
 window.removeEventListener('hashchange',ant);addEventListener('hashchange',()=>window.__render());if(location.hash==='#sdr')setTimeout(()=>window.__render(),0);car();})();</script><!--SDR-FIM-->'''
-i = s.rindex('</body>'); s = s[:i] + JS + s[i:]
+s = s.rstrip() + '\n' + JS + '\n'
 open(p, 'w').write(s); print('aba SDR no painel da Orégano')
