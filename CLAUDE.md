@@ -1,5 +1,7 @@
 # Instruções do repositório (Lindson Almeida)
 
+> **REGRA DO LINDSON (15/11/2026, todas as contas, todos os clientes): "sempre que algum arquivo for feito, suba lá pra eu não perder".** Todo arquivo entregue (vídeo, arte, PDF, site, zip, capa), de qualquer cliente e de qualquer conta, sobe NA HORA para o painel desse cliente na Central (`painel/<cliente>.html` + arquivos em `painel/<cliente>/` ou `dados/clientes-arquivos/<cliente>/`), com título, data e situação. Nada fica só no contêiner da sessão, no scratchpad ou no HeyGen: se o arquivo é grande demais para o Git, registre onde está e suba ao menos a versão final comprimida.
+
 > **RESPOSTAS CURTAS (regra do Lindson, 08/11/2026, para todas as contas): "elimine mensagens do sistema, quero só o que me importa, pra não ter que ler muito."** Toda resposta ao Lindson tem no máximo 5 linhas, sem triagem, sem placar e sem explicar processo, ferramenta, commit ou regra: só o resultado, o que ele precisa fazer (se houver) e a pergunta (se houver). Detalhe técnico fica no repositório, não na conversa. Placar completo só quando ele pedir "status" ou "relatório", e mesmo assim enxuto.
 >
 > **REGRA DO LINDSON (07/11/2026, para todas as contas): "nunca mais faça nada sem perguntar ao repositório, e aprender o que já foi feito. Nunca repita algo que já foi feito."** Antes de qualquer ação: `git pull`, `git log`, `git grep`, `MEMORIA-DO-LINDSON.md`, `TRAVA-MAQUIAVEL.md` e `QUADRO-DA-EQUIPE.md`. Processo completo: `agencia/processos/consultar-antes.md` (e `consultar-antes-de-agir.md`, a mesma regra).
