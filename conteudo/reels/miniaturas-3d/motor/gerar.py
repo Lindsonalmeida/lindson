@@ -33,7 +33,7 @@ def voz(r):
             if 'WM' not in globals(): WM = WhisperModel('small', device='cpu', compute_type='int8')
             norm = lambda z: re.sub(r'[^a-zà-ú0-9 ]', '', z.lower().replace('pra', 'para')).split()
             melhor = (-1, None)
-            for semente in (6, 7, 8, 9):
+            for semente in (6, 7, 8, 9, 10, 11):
                 torch.manual_seed(semente)
                 wv = V6.generate(txt, language_id='pt', audio_prompt_path=REF, exaggeration=0.75, cfg_weight=0.3, temperature=0.8)
                 a16 = ta.functional.resample(wv, V6.sr, 16000)[0].numpy()
@@ -41,7 +41,7 @@ def voz(r):
                 nota = difflib.SequenceMatcher(None, norm(f['t']), norm(ouv)).ratio()
                 if nota > melhor[0]: melhor = (nota, wv)
                 print('voz6', semente, round(nota, 2), ouv, flush=True)
-                if nota >= .9: break
+                if nota >= .95: break
             ta.save(h, melhor[1], V6.sr)
         x = np.frombuffer(subprocess.check_output(['ffmpeg', '-v', 'error', '-i', h, '-af', 'atempo=1.05', '-f', 's16le', '-ac', '1', '-ar', str(SR), '-']), np.int16).astype(np.float32)
         env = np.sqrt(np.convolve(x * x, np.ones(441) / 441, 'same')); voz_ = np.where(env > 10 ** (-40 / 20) * 32768)[0]

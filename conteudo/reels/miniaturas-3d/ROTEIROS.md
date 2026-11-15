@@ -144,7 +144,7 @@ O Instagram aceita Reels de até 3 minutos desde janeiro de 2025, mas vídeo lon
 
 ---
 ## 06 · O link do WhatsApp que perde venda na Black Friday · CTA **LINK**
-**Gancho ("BLACK FRIDAY" batendo na câmera):** "Faltam poucos dias pra Black Friday, e o seu link do WhatsApp pode estar perdendo venda. Tem um detalhe que quase ninguém usa."
+**Gancho ("BLACK FRIDAY" batendo na câmera):** "A Black Friday está chegando, e o seu link do WhatsApp pode estar perdendo venda. Tem um detalhe que quase ninguém usa."
 Cenas: celular gigante → cidade top-down (conversa em branco) → macro dentro do celular (selo WHATSAPP · CLIQUE PARA CONVERSAR) → split no balcão (em branco × mensagem pronta, EXEMPLO) → contador **3 LINKS** no gráfico (bio, story, anúncio · EXEMPLO) → caixa que vira celular → enquete com explosão → whip e CTA.
 Fonte: recurso oficial "clique para conversar" do WhatsApp (link wa.me com o parâmetro text). Black Friday: 27/11/2026.
 
