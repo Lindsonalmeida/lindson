@@ -28,7 +28,7 @@ Legenda: [x] = riscado no caderno (feito) · [ ] = a fazer. Ordem e grupos como 
 ## Orégano Turbo
 - [x] Criar site principal
 - [x] Mini site da bio
-- [ ] 30 postagens
+- [ ] 30 postagens = 30 Reels (confirmado 15/11; 21 da semana 1 prontos, faltam 9)
 - [ ] SDR (no sistema)
 - [ ] Campanha de tráfego
 - [ ] 10 criativos de alta conversão
