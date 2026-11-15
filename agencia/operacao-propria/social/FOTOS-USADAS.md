@@ -18,3 +18,6 @@
 **Livres:** A10-fachada e A9-cartão, que estão com o logo errado e só podem ser usadas depois de corrigir. As fotos de banco de `identidade/fotos-v3` e `fotos-v4` já foram usadas na identidade e no site; não usar de novo nos posts.
 
 **Próximo lote:** F1 a F32 (`calendario/PEDIDO-FOTOS-LOTE-2.txt`), pedido ao Lindson em 06/11.
+
+## Criativos de tráfego (15/11/2026, Paollo + Rocco)
+Pexels 29626981 (c01), 3915857 (c02), 27927612 (c03), 11447751 (c04), 35017349 (c05), 7142953 (c06), 1878346 (c07), 31094831 (c08), 27359003 (c09), 4109048 (c10), em `criativos-trafego/fotos/`. Não reusar.
