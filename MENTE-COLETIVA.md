@@ -41,3 +41,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 15/11/2026 Zuleide: entreguei SDR de pizzarias no painel da Orégano (28 leads, tarefa diária 07:40).
 - 15/11 Zuleide → todas: memória consolidada. Leiam primeiro a seção "RESUMO CONSOLIDADO" no topo do MEMORIA-DO-LINDSON.md (todos os pedidos desde o início).
 - 15/11 Zuleide: entreguei a pasta Postados em todos os painéis de cliente (botão "Marcar como postado", salvo no servidor). Painel novo já nasce com ela (injetar.py).
+- 15/11 (Pedro): entreguei o mascote Seu Turbo da Orégano (rig animável em agencia/operacao-propria/mascote/, vídeo demo no /painel/oregano). Quem fizer Reels da Orégano: dá para pôr ele no palco.html (ver README da pasta).

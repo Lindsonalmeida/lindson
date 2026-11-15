@@ -1,0 +1,97 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<!-- Palco das peças do Seu Turbo (conta Pedro, 15/11/2026). palco.html?modo=principal|folha|expressoes|poses|reel|post|direcoes -->
+<style>
+@font-face{font-family:Bagel;src:url(../../reels/motor/fontes/bagel.ttf)}
+@font-face{font-family:Anton;src:url(../../reels/motor/fontes/anton.woff2)}
+@font-face{font-family:Manrope;src:url(../../reels/motor/fontes/manrope.woff2)}
+@font-face{font-family:Mono;src:url(../../reels/motor/fontes/jbmono.woff2)}
+:root{--t:#C8302B;--v:#1E5B3B;--c:#F3EEE6;--k:#141311;--a:#F2B33D}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{background:transparent}
+#cena{position:relative;overflow:hidden}
+.xad{background-image:linear-gradient(45deg,var(--x1) 25%,transparent 25%,transparent 75%,var(--x1) 75%),linear-gradient(45deg,var(--x1) 25%,transparent 25%,transparent 75%,var(--x1) 75%);background-color:var(--x2)}
+.mono{font:700 20px Mono;letter-spacing:.14em;text-transform:uppercase}
+.bagel{font-family:Bagel;line-height:.86}
+.tag{position:absolute;font:700 22px Mono;letter-spacing:.12em;text-transform:uppercase;padding:8px 14px;border-radius:8px}
+svg.st{position:absolute;overflow:visible}
+.grao{position:absolute;inset:0;opacity:.09;mix-blend-mode:multiply;pointer-events:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)'/%3E%3C/svg%3E")}
+</style></head><body><div id="cena"></div>
+<script src="../rig/seu-turbo.js"></script>
+<script>
+const modo=new URLSearchParams(location.search).get('modo')||'principal';
+const cena=document.getElementById('cena');
+function boneco(x,y,w,estado,pai){const s=document.createElementNS('http://www.w3.org/2000/svg','svg');s.setAttribute('class','st');s.style.left=x+'px';s.style.top=y+'px';s.style.width=w+'px';s.style.height=(w*1.5)+'px';(pai||cena).appendChild(s);const t=SeuTurbo.criar(s);t.aplicar(estado||{});return t}
+function el(html,pai){const d=document.createElement('div');d.innerHTML=html;const e=d.firstElementChild;(pai||cena).appendChild(e);return e}
+const logo=(cor,fundo)=>`<div style="display:flex;align-items:center;gap:14px"><svg viewBox="0 0 100 100" width="58" height="58"><path d="M18 86 C 14 50, 40 18, 86 14 C 86 58, 58 88, 18 86 Z" fill="${cor}"/><path d="M26 76 L44 58 L54 66 L72 40" fill="none" stroke="${fundo}" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><path d="M60 38 L74 38 L74 52" fill="none" stroke="${fundo}" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="bagel" style="font-size:44px;color:${cor}">ORÉGANO<br>TURBO</span></div>`;
+function tam(w,h,bg){cena.style.width=w+'px';cena.style.height=h+'px';if(bg)cena.style.background=bg}
+
+if(modo==='principal'){tam(1200,1800);boneco(0,0,1200,{expr:'feliz',pose:'joinha',vira:.25})}
+
+if(modo==='expressoes'){tam(3000,820);['neutro','feliz','surpreso','pensando','confiante','piscada'].forEach((e,i)=>{const s=boneco(i*500-0,-160,500,{expr:e,pose:e==='pensando'?'pensando':'neutro',vira:.2});})}
+
+if(modo==='poses'){tam(3000,760);['aceno','aponta','joinha','pensando','confiante','apresenta'].forEach((p,i)=>boneco(i*500+20,20,460,{expr:{aceno:'feliz',aponta:'confiante',joinha:'piscada',pensando:'pensando',confiante:'confiante',apresenta:'surpreso'}[p],pose:p,vira:p==='aponta'?.3:0}))}
+
+if(modo==='folha'){
+  tam(3000,2000,'#F3EEE6');
+  el(`<div style="position:absolute;left:0;top:0;right:0;height:150px;background:var(--v);display:flex;align-items:center;justify-content:space-between;padding:0 70px">
+   <div class="bagel" style="font-size:96px;color:var(--c)">SEU TURBO <span style="color:var(--a);font-size:56px">· folha de modelo</span></div>
+   <div class="mono" style="color:var(--c);text-align:right;line-height:1.6">Orégano Turbo · mascote v1<br>15/11/2026 · aguardando aprovação</div></div>`);
+  const col=(x,t)=>el(`<div class="mono" style="position:absolute;left:${x}px;top:184px;color:var(--k)">${t}</div>`);
+  col(70,'01 · frente');col(640,'02 · 3/4');col(1210,'03 · peças separadas do rig');
+  boneco(40,200,560,{expr:'neutro',pose:'neutro'});
+  boneco(600,200,560,{expr:'confiante',pose:'confiante',vira:1});
+  // peças explodidas: bocas e mãos
+  const box=el(`<div style="position:absolute;left:1210px;top:240px;width:1720px;height:820px;border:5px solid var(--k);border-radius:28px;background:#fff"></div>`);
+  el(`<div class="mono" style="position:absolute;left:1250px;top:268px">bocas do lip-sync</div>`);
+  const bocas=['repouso','A','E','O','MBP','F','sorriso','uau'];
+  bocas.forEach((b,i)=>{const x=1240+i*210;const s=document.createElementNS('http://www.w3.org/2000/svg','svg');s.setAttribute('class','st');s.style.left=x+'px';s.style.top='300px';s.style.width='200px';s.style.height='200px';cena.appendChild(s);const t=SeuTurbo.criar(s);t.aplicar({boca:b});s.style.overflow='hidden';s.setAttribute('viewBox','230 290 140 140');t.partes.raiz.querySelectorAll('#st-chapeu,#st-olhos,#st-sobrancelhas,[id^=st-braco]').forEach(e=>e.style.display='none');
+    el(`<div class="mono" style="position:absolute;left:${x}px;top:505px;width:200px;text-align:center;font-size:24px;color:var(--t)">${b==='MBP'?'M·B·P':b}</div>`)});
+  el(`<div class="mono" style="position:absolute;left:1250px;top:580px">luvas (pulso na origem)</div>`);
+  ['punho','aberta','joinha','aponta'].forEach((m,i)=>{const x=1300+i*380;const s=document.createElementNS('http://www.w3.org/2000/svg','svg');s.setAttribute('class','st');s.style.left=x+'px';s.style.top='620px';s.style.width='260px';s.style.height='360px';cena.appendChild(s);s.style.overflow='hidden';s.setAttribute('viewBox','-70 -120 140 180');s.innerHTML='';const tmp=document.createElementNS('http://www.w3.org/2000/svg','svg');const t=SeuTurbo.criar(tmp);t.aplicar({R:{mao:m}});const g=tmp.querySelector('#st-mao-dir-'+m).cloneNode(true);g.style.display='';s.appendChild(g);
+    el(`<div class="mono" style="position:absolute;left:${x}px;top:990px;width:260px;text-align:center;font-size:24px;color:var(--t)">${m}</div>`)});
+  // expressões
+  el(`<div class="mono" style="position:absolute;left:70px;top:1110px">04 · expressões</div>`);
+  ['feliz','surpreso','pensando','confiante','piscada'].forEach((e,i)=>{const x=60+i*370;const s=document.createElementNS('http://www.w3.org/2000/svg','svg');s.setAttribute('class','st');s.style.left=x+'px';s.style.top='1150px';s.style.width='340px';s.style.height='340px';cena.appendChild(s);const t=SeuTurbo.criar(s);t.aplicar({expr:e,pose:e==='pensando'?'pensando':'neutro'});s.style.overflow='hidden';s.setAttribute('viewBox','150 60 300 380');
+    el(`<div class="bagel" style="position:absolute;left:${x}px;top:1500px;width:340px;text-align:center;font-size:44px;color:var(--t)">${e}</div>`)});
+  // paleta
+  el(`<div class="mono" style="position:absolute;left:1940px;top:1110px">05 · cores (as da marca, sem cor nova)</div>`);
+  [['#C8302B','tomate'],['#1E5B3B','verde'],['#F3EEE6','creme'],['#141311','carvão'],['#F2B33D','açafrão'],['#EDB48C','pele']].forEach(([c,n],i)=>el(`<div style="position:absolute;left:${1940+(i%3)*330}px;top:${1160+Math.floor(i/3)*190}px;width:310px;height:170px;border-radius:22px;background:${c};border:5px solid var(--k);padding:18px;color:${['#F3EEE6','#F2B33D','#EDB48C'].includes(c)?'#141311':'#F3EEE6'}"><div class="bagel" style="font-size:40px">${n}</div><div class="mono" style="margin-top:10px">${c}</div></div>`));
+  el(`<div class="mono" style="position:absolute;left:60px;right:60px;bottom:40px;display:flex;justify-content:space-between;color:var(--k);border-top:5px solid var(--k);padding-top:22px"><span>traço 7 px · cantos redondos · luva branca de 3 riscos</span><span>nunca: esticar, trocar cor, olhos de bebê, chorar, prometer número</span></div>`);
+  el(`<div class="xad" style="position:absolute;left:0;right:0;bottom:0;height:16px;--x1:#C8302B;--x2:#F3EEE6;background-size:32px 32px;background-position:0 0,16px 16px"></div>`);
+}
+
+if(modo==='reel'||modo==='post'){
+  const W=1080,H=modo==='reel'?1920:1350;tam(W,H,'#1E5B3B');
+  el(`<div class="xad" style="position:absolute;inset:0;--x1:rgba(0,0,0,.14);--x2:transparent;background-size:120px 120px;background-position:0 0,60px 60px"></div>`);
+  const topo=modo==='reel'?250:120;
+  el(`<div class="bagel" style="position:absolute;left:-20px;right:-20px;top:${topo}px;text-align:center;font-size:${modo==='reel'?330:290}px;color:#F3EEE6;letter-spacing:-.02em">SEU<br><span style="color:#F2B33D">TURBO</span></div>`);
+  const bw=modo==='reel'?980:780;boneco((W-bw)/2+(modo==='reel'?-90:120),modo==='reel'?620:360,bw,{expr:'piscada',pose:modo==='reel'?'aponta':'joinha',vira:.25});
+  el(`<div style="position:absolute;left:60px;top:${modo==='reel'?110:52}px">${logo('#F3EEE6','#1E5B3B')}</div>`);
+  el(`<div class="tag" style="right:60px;top:${modo==='reel'?126:64}px;background:#C8302B;color:#F3EEE6;transform:rotate(3deg)">PEDIDO Nº 01 · prazer!</div>`);
+  if(modo==='reel'){
+    el(`<div style="position:absolute;left:60px;top:1560px;max-width:560px;background:#F3EEE6;border:6px solid #141311;border-radius:24px;padding:26px 30px;box-shadow:12px 12px 0 #141311;transform:rotate(-2deg)"><div class="bagel" style="font-size:58px;color:#141311">O forno é seu.<br><span style="color:#C8302B">O turbo é meu.</span></div></div>`);
+  } else {
+    el(`<div style="position:absolute;left:50px;top:880px;width:430px;background:#F3EEE6;border:6px solid #141311;border-radius:24px;padding:24px 28px;box-shadow:12px 12px 0 #141311;transform:rotate(-3deg)"><div class="mono" style="color:#C8302B;font-size:18px">parceiro do dono</div><div class="bagel" style="font-size:52px;color:#141311;margin-top:8px">O forno é seu.<br><span style="color:#C8302B">O turbo é meu.</span></div></div>`);
+  }
+  el(`<div style="position:absolute;left:0;right:0;bottom:0;height:${modo==='reel'?150:110}px;background:#C8302B;border-top:6px solid #141311;display:flex;align-items:center;justify-content:space-between;padding:0 60px"><span class="bagel" style="font-size:${modo==='reel'?50:40}px;color:#F3EEE6">Chame no WhatsApp</span><span class="mono" style="color:#F3EEE6">@oreganoturbo</span></div>`);
+  el(`<div class="grao"></div>`);
+}
+
+if(modo==='direcoes'){
+  tam(2400,1300,'#F3EEE6');
+  el(`<div class="bagel" style="position:absolute;left:70px;top:50px;font-size:84px;color:#141311">3 caminhos <span style="color:#C8302B">· escolhido: A</span></div>`);
+  const card=(i,t,sub,ok)=>el(`<div style="position:absolute;left:${70+i*770}px;top:190px;width:720px;height:1040px;border:6px solid ${ok?'#C8302B':'#141311'};border-radius:30px;background:${ok?'#1E5B3B':'#fff'}"><div class="bagel" style="position:absolute;left:34px;bottom:120px;font-size:58px;color:${ok?'#F3EEE6':'#141311'}">${t}</div><div class="mono" style="position:absolute;left:34px;right:34px;bottom:34px;font-size:18px;line-height:1.5;color:${ok?'#F2B33D':'#C8302B'}">${sub}</div></div>`);
+  card(0,'A · Seu Turbo','pizzaiolo de bigode, óculos de corrida. Tem rosto de gente: fala, gesticula, faz lip-sync.',1);
+  card(1,'B · Folhinha','a folha de orégano de 05/11. Simpática, mas infantil e sem boca boa para falar.',0);
+  card(2,'C · Comanda','o ticket "PEDIDO Nº" com braços. Esperto, mas pouco rosto e pouca emoção.',0);
+  boneco(110,190,640,{expr:'feliz',pose:'aceno'});
+  const img=el(`<img src="../../identidade/marca/mascote.svg" style="position:absolute;left:930px;top:300px;width:520px;filter:grayscale(.2)">`);
+  el(`<div style="position:absolute;left:1700px;top:300px;width:420px;height:560px;background:#fff;border:7px solid #141311;border-radius:14px;transform:rotate(-4deg);padding:34px">
+    <div class="mono" style="color:#C8302B">PEDIDO Nº 01</div><div style="border-top:4px dashed #141311;margin:18px 0"></div>
+    <div style="display:flex;gap:70px;justify-content:center;margin-top:60px"><div style="width:44px;height:58px;border-radius:50%;background:#141311"></div><div style="width:44px;height:58px;border-radius:50%;background:#141311"></div></div>
+    <div style="width:140px;height:40px;border-bottom:8px solid #141311;border-radius:0 0 90px 90px;margin:30px auto"></div>
+    <div style="border-top:4px dashed #141311;margin:40px 0 0"></div><div class="mono" style="margin-top:16px">1x turbo ........ ok</div></div>
+    <div style="position:absolute;left:1640px;top:600px;width:120px;height:26px;background:#141311;border-radius:20px;transform:rotate(30deg)"></div><div style="position:absolute;left:2080px;top:560px;width:120px;height:26px;background:#141311;border-radius:20px;transform:rotate(-40deg)"></div>`);
+}
+document.fonts.ready.then(()=>{window.PRONTO=1});
+</script></body></html>
