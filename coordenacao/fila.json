@@ -895,6 +895,28 @@
    "partes": [],
    "pegou": "Leandro 15/11 18:08",
    "atualizado": "Leandro 15/11 21:14"
+  },
+  {
+   "id": "wf-1511-video",
+   "cli": "wf",
+   "tarefa": "Novos criativos de vídeo para a campanha nova (pedido do Lindson 15/11)",
+   "equipe": "Pedro",
+   "status": "andamento",
+   "nota": "",
+   "partes": [],
+   "pegou": "Pedro 15/11 20:11",
+   "atualizado": "15/11 20:11"
+  },
+  {
+   "id": "wf-1511-capas",
+   "cli": "wf",
+   "tarefa": "Capas dos Reels já postados",
+   "equipe": "Pedro",
+   "status": "andamento",
+   "nota": "",
+   "partes": [],
+   "pegou": "Pedro 15/11 20:11",
+   "atualizado": "15/11 20:11"
   }
  ]
 }
