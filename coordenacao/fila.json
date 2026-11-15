@@ -690,40 +690,40 @@
    "cli": "tribuna",
    "tarefa": "Verificar destaques",
    "equipe": "Leandro",
-   "status": "livre",
-   "nota": "",
+   "status": "travado",
+   "nota": "7 capas de destaque já prontas desde 03/11 (tribuna98/instagram-perfil/capa-01..07, previa-destaques.jpg). Falta aplicar no Instagram: Lindson ou Thiago.",
    "partes": [],
-   "pegou": "",
-   "atualizado": ""
+   "pegou": "Leandro 15/11 17:01",
+   "atualizado": "15/11 17:01"
   },
   {
    "id": "cad2-tribuna-31",
    "cli": "tribuna",
    "tarefa": "Verificar capas (se é viável fazer)",
    "equipe": "Leandro",
-   "status": "livre",
-   "nota": "",
+   "status": "travado",
+   "nota": "Viável e já feito: as 7 capas estão prontas (03/11). Falta subir no app do Instagram (só pelo celular, Lindson/Thiago).",
    "partes": [],
-   "pegou": "",
-   "atualizado": ""
+   "pegou": "Leandro 15/11 17:01",
+   "atualizado": "15/11 17:01"
   },
   {
    "id": "cad2-leo-32",
    "cli": "leo",
    "tarefa": "Agendar os 10 motions",
    "equipe": "Leandro",
-   "status": "livre",
-   "nota": "",
+   "status": "travado",
+   "nota": "Os 10 motions estão prontos (5 aprovados + 5 aguardando). Agendar pede acesso ao Meta Business Suite do Leo (agendo pela extensão do Chrome) ou o Instagram do Leo conectado no Windsor.",
    "partes": [],
-   "pegou": "",
-   "atualizado": ""
+   "pegou": "Leandro 15/11 17:01",
+   "atualizado": "15/11 17:01"
   },
   {
    "id": "cad2-leo-33",
    "cli": "leo",
    "tarefa": "Criar 10 posts",
    "equipe": "Leandro",
-   "status": "livre",
+   "status": "andamento",
    "nota": "",
    "partes": [
     {
@@ -739,19 +739,19 @@
      "status": "livre"
     }
    ],
-   "pegou": "",
-   "atualizado": ""
+   "pegou": "Leandro 15/11 17:01",
+   "atualizado": "15/11 17:01"
   },
   {
    "id": "cad2-leo-34",
    "cli": "leo",
    "tarefa": "Verificar agendamentos",
    "equipe": "Leandro",
-   "status": "livre",
-   "nota": "",
+   "status": "travado",
+   "nota": "Depende do mesmo acesso do cad2-leo-32 (Business Suite do Leo).",
    "partes": [],
-   "pegou": "",
-   "atualizado": ""
+   "pegou": "Leandro 15/11 17:01",
+   "atualizado": "15/11 17:01"
   },
   {
    "id": "cad2-influencer-35",
