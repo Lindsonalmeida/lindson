@@ -53,11 +53,11 @@
    "cli": "passaporte",
    "tarefa": "Organizar Insta",
    "equipe": "Zuleide",
-   "status": "livre",
+   "status": "andamento",
    "nota": "",
    "partes": [],
-   "pegou": "",
-   "atualizado": ""
+   "pegou": "Zuleide 15/11 19:04",
+   "atualizado": "15/11 19:04"
   },
   {
    "id": "cad-passaporte-9",
@@ -835,11 +835,11 @@
    "cli": "oregano",
    "tarefa": "Orégano: sitemap, robots e dados estruturados Restaurant+Menu no site oreganoturbo (guia agencia/especialista/seo)",
    "equipe": "Zuleide",
-   "status": "livre",
+   "status": "andamento",
    "nota": "",
    "partes": [],
-   "pegou": "",
-   "atualizado": ""
+   "pegou": "Zuleide 15/11 19:04",
+   "atualizado": "15/11 19:04"
   },
   {
    "id": "esp-sf-whatsapp",
