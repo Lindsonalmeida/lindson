@@ -152,7 +152,7 @@
    "cli": "oregano",
    "tarefa": "30 postagens = 30 Reels (confirmado 15/11; 21 da semana 1 prontos, faltam 9)",
    "equipe": "Zuleide",
-   "status": "livre",
+   "status": "andamento",
    "nota": "",
    "partes": [
     {
@@ -172,8 +172,8 @@
      "status": "livre"
     }
    ],
-   "pegou": "",
-   "atualizado": ""
+   "pegou": "Zuleide 15/11 17:04",
+   "atualizado": "15/11 17:04"
   },
   {
    "id": "cad-oregano-21",
