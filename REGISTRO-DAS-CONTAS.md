@@ -232,3 +232,4 @@ Levantado pela conta Lindson em 01/11/2026 a partir do histórico do git e dos a
 | 09/11/2026 | Leandro | 30 criativos de tráfego dos 6 produtos da Hubla (estilo infoprodutor, marca preto e amarelo) | `agencia/ofertas/low-ticket/criativos-trafego/` + artes em `CentralLindsonALmeida/produtos/criativos-trafego/` | aguardando aprovação |
 
 | 15/11/2026 | Leandro | Orégano Turbo: 10 criativos de anúncio (feed e story) com textos, por Paollo + Rocco [14:29] | `agencia/operacao-propria/criativos-trafego/` + painel/oregano/criativos/ | aguardando aprovação |
+| 15/11/2026 | Leandro | Orégano Turbo: criativos v2 (mais fome, mais fotos, fundo escuro) [14:38] | `agencia/operacao-propria/criativos-trafego/pecas-v2/` + painel/oregano/criativos/v2/ | aguardando aprovação |
