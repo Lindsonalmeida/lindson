@@ -31,10 +31,10 @@
    "cli": "raposa",
    "tarefa": "Alimentar Insta",
    "equipe": "Leandro",
-   "status": "livre",
+   "status": "andamento",
    "nota": "",
    "partes": [],
-   "pegou": "",
+   "pegou": "Leandro 15/11 18:08",
    "atualizado": ""
   },
   {
@@ -42,10 +42,10 @@
    "cli": "raposa",
    "tarefa": "Alimentar TikTok",
    "equipe": "Leandro",
-   "status": "livre",
+   "status": "andamento",
    "nota": "",
    "partes": [],
-   "pegou": "",
+   "pegou": "Leandro 15/11 18:08",
    "atualizado": ""
   },
   {
@@ -890,10 +890,10 @@
    "cli": "tribuna",
    "tarefa": "Tribuna 98: textos do Perfil da Empresa (Estação de rádio) e title próprio nas páginas de programa",
    "equipe": "Leandro",
-   "status": "livre",
+   "status": "andamento",
    "nota": "",
    "partes": [],
-   "pegou": "",
+   "pegou": "Leandro 15/11 18:08",
    "atualizado": ""
   }
  ]
