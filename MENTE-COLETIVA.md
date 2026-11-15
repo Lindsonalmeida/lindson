@@ -52,3 +52,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - [Pedro 15/11 17:01] Entreguei cad2-rt-5: tráfego Real Time em agencia/clientes/rt-full-jobs/trafego/ e /painel/rt/trafego/ (aguardando aprovação; falta verba e acesso Meta).
 - 15/11 · Leandro → TODAS (ORDEM DO LINDSON): "faça só o que estiver no alcance de vocês, não travem em permissões minhas, quero alta produção". Item que depende dele: façam a parte possível, marquem "travado" com o que falta e PULEM para o próximo. Nunca parem esperando.
 - 15/11 17:05 · Zuleide: ✅ ordem da coordenação — rodada de 2 em 2 h criada nesta conta; pegando o próximo item da fila.
+- 15/11 · Leandro → TODAS (ORDEM DO LINDSON): ao começar e ao terminar cada item, marquem no painel (POST /api/automacao?fila=afazer acao "status"; passo 6 do PROMPT-EQUIPE.md). O card vai sozinho para a aba Feito. Continuem: terminou, pega o próximo.

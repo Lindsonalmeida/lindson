@@ -16,16 +16,41 @@
 //      pegar:true = a própria conta já está fazendo (st andamento, designada = ela); sem pegar, o distribuidor escolhe a conta.
 // Distribuição: cada pedido tem `designada` (só ela pega) e `motivo`. Em toda leitura da fila o servidor redistribui (functions/_distribuir.js).
 // Grava em dados:admin:ped (a mesma chave que /painel/comando usa por /api/dados), com a versão +1. A resposta do Lindson fica em item.conversa.
+// POST /api/automacao?fila=ped {acao:'feito', conta, cli, atividade, data?, hora?} → tarefa feita fora da fila, no quadro de Tarefas feitas (conta Leandro, 10/11/2026).
+// Toda entrega 'pronto' também vira uma linha em dados:admin:feitas sozinha (cliente, função + resumo, quem fez, data e hora de São Luís).
+// GET /api/automacao?fila=feitas → { itens, sementes, versao } (Tarefas feitas, só leitura)
 // QUADRO DA EQUIPE: GET /api/automacao?fila=equipe → { contas, hist, versao }
 // POST /api/automacao?fila=equipe {conta, estado:'trabalhando'|'livre'|'limite-sessao'|'limite-semana', ate?, tarefa?} → grava em dados:admin:eq (ate obrigatório nos limites)
 import { json, iguais } from '../_lib.js';
 import { distribuir, redistribuir, NOMES_CLI, NOMES_FN } from '../_distribuir.js';
-const FILA = 'dados:admin:ped', EQUIPE = 'dados:admin:eq', CONTAS = ['Lindson', 'Zuleide', 'Pedro', 'Leandro'], ACOES = ['pegar', 'pronto', 'pergunta', 'nota', 'dividir', 'criar'];
+const FILA = 'dados:admin:ped', EQUIPE = 'dados:admin:eq', FEITAS = 'dados:admin:feitas', CONTAS = ['Lindson', 'Zuleide', 'Pedro', 'Leandro'], ACOES = ['pegar', 'pronto', 'pergunta', 'nota', 'dividir', 'criar', 'feito'];
 const ABERTOS = ['novo', 'espera', 'andamento', 'pronto', 'ajuste'];
 const ESTADOS = ['trabalhando', 'livre', 'limite-sessao', 'limite-semana'];
 const qual = request => new URL(request.url).searchParams.get('fila');
 const httpsOk = u => typeof u === 'string' && u.length <= 500 && /^https:\/\/[^\s<>"']+$/.test(u);
 const txtOk = (t, n) => typeof t === 'string' && t.trim().length > 0 && t.length <= n;
+// ?fila=afazer: quadro A fazer da Central de Comando (dados:admin:afazer). POST {acao:'semear', marcador, itens:[{id,cli,texto}]} junta só os ids que faltam (conta Zuleide, 15/11/2026)
+const AFAZER = 'dados:admin:afazer';
+async function afazerPost(request, env) {
+  let b; try { b = await request.json(); } catch (e) { return json({ erro: 'JSON inválido.' }, 400); }
+  // {acao:'status', id, st:'andamento'|'feito', conta, nota?}: a equipe move o card do quadro A fazer (feito vai para a aba Feito) (conta Leandro, 15/11/2026)
+  if (b.acao === 'status') {
+    if (!/^[a-z0-9-]{3,40}$/.test(b.id || '') || !['andamento', 'feito', 'afazer'].includes(b.st) || !CONTAS.includes(b.conta)) return json({ erro: 'status: id, st (andamento|feito|afazer) e conta.' }, 400);
+    const r = await ler(env, AFAZER, { itens: [] }), d = Object.assign({ itens: [] }, r.dados || {}), agora = new Date().toISOString();
+    const x = (d.itens || []).find(y => y.id === b.id); if (!x) return json({ erro: 'item não está no quadro A fazer.' }, 404);
+    x.st = b.st; x[b.st + 'Em'] = agora; x.por = b.conta; if (typeof b.nota === 'string') x.nota = b.nota.slice(0, 300);
+    await env.CONTAS.put(AFAZER, JSON.stringify({ dados: d, versao: (r.versao || 0) + 1, por: 'automacao:' + b.conta, em: agora }));
+    if (b.st === 'feito') await feitoPost({ acao: 'feito', conta: b.conta, cli: x.cli, atividade: (x.texto + (b.nota ? ' · ' + b.nota : '')).slice(0, 300) }, env).catch(() => null);
+    return json({ ok: true, id: x.id, st: x.st });
+  }
+  if (b.acao !== 'semear' || !Array.isArray(b.itens) || b.itens.length > 200) return json({ erro: 'acao semear com itens.' }, 400);
+  const ok = b.itens.filter(x => x && /^[a-z0-9-]{3,40}$/.test(x.id) && /^[a-z0-9-]{2,30}$/.test(x.cli) && typeof x.texto === 'string' && x.texto.trim() && x.texto.length <= 200);
+  const r = await ler(env, AFAZER, { itens: [] }), d = Object.assign({ itens: [] }, r.dados || {}), tem = new Set((d.itens || []).map(x => x.id).concat(d.apagadas || [])), agora = new Date().toISOString();
+  const novos = ok.filter(x => !tem.has(x.id)).map(x => ({ id: x.id, cli: x.cli, texto: x.texto.trim(), st: 'afazer', em: agora }));
+  d.itens = (d.itens || []).concat(novos); if (b.marcador) d.sementes = [...new Set((d.sementes || []).concat([String(b.marcador).slice(0, 40)]))];
+  await env.CONTAS.put(AFAZER, JSON.stringify({ dados: d, versao: (r.versao || 0) + 1, por: 'automacao', em: agora }));
+  return json({ ok: true, novos: novos.length, total: d.itens.length });
+}
 async function ler(env, k, vazio) { return (await env.CONTAS.get(k, 'json')) || { dados: vazio, versao: 0 }; }
 async function corpo(request) {
   const txt = await request.text(); if (txt.length > 8000) return { erro: json({ erro: 'Dados grandes demais.' }, 413) };
@@ -40,9 +65,32 @@ async function filaGet(env) {
   }
   return json({ itens, versao });
 }
+// data e hora de São Luís (UTC−3, sem horário de verão)
+const slz = iso => { const d = new Date(Date.parse(iso) - 3 * 36e5).toISOString(); return { data: d.slice(0, 10), hora: d.slice(11, 16) }; };
+async function anotaFeita(env, linha) {
+  for (let i = 0; i < 3; i++) {
+    const atual = await ler(env, FEITAS, { itens: [] }), d = Object.assign({ itens: [] }, atual.dados || {});
+    d.itens = (d.itens || []).filter(x => x.id !== linha.id).concat([linha]).slice(-2000);
+    await env.CONTAS.put(FEITAS, JSON.stringify({ dados: d, versao: (atual.versao || 0) + 1, por: 'automacao:' + linha.por, em: new Date().toISOString() }));
+    const conf = await ler(env, FEITAS, { itens: [] }); if ((conf.dados.itens || []).some(x => x.id === linha.id)) return true;
+  }
+  return false;
+}
+async function feitoPost(b, env) {
+  if (!CONTAS.includes(b.conta)) return json({ erro: 'conta deve ser Lindson, Zuleide, Pedro ou Leandro.' }, 400);
+  if (typeof b.cli !== 'string' || !/^[a-z0-9-]{2,30}$/.test(b.cli)) return json({ erro: 'cli inválido (ex.: jaci, tribuna, leo, rt, oregano, sf, marca).' }, 400);
+  if (!txtOk(b.atividade, 300)) return json({ erro: 'atividade obrigatória (até 300 caracteres).' }, 400);
+  if (b.data !== undefined && !/^\d{4}-\d{2}-\d{2}$/.test(b.data)) return json({ erro: 'data no formato AAAA-MM-DD.' }, 400);
+  if (b.hora !== undefined && b.hora !== '' && !/^\d{2}:\d{2}$/.test(b.hora)) return json({ erro: 'hora no formato HH:MM.' }, 400);
+  const agora = new Date().toISOString(), h = slz(agora);
+  const linha = { id: 'f' + Date.now().toString(36) + Math.random().toString(36).slice(2, 5), data: b.data || h.data, hora: b.hora !== undefined ? b.hora : h.hora, cli: b.cli, atividade: b.atividade.trim(), por: b.conta, origem: 'conta', em: agora };
+  await anotaFeita(env, linha);
+  return json({ ok: true, item: linha });
+}
 async function filaPost(request, env) {
   const { b, erro } = await corpo(request); if (erro) return erro;
   if (b.acao === 'criar') return filaCriar(b, env);
+  if (b.acao === 'feito') return feitoPost(b, env);
   if (typeof b.id !== 'string' || !/^[a-z0-9-]{4,40}$/i.test(b.id)) return json({ erro: 'id inválido.' }, 400);
   if (!ACOES.includes(b.acao)) return json({ erro: 'acao deve ser pegar, pronto, pergunta, nota, dividir ou criar.' }, 400);
   if (!CONTAS.includes(b.conta)) return json({ erro: 'conta deve ser Lindson, Zuleide, Pedro ou Leandro.' }, 400);
@@ -86,6 +134,7 @@ async function filaPost(request, env) {
   x.atualizado = agora;
   const novo = { dados: Object.assign({}, atual.dados, { itens }), versao: (atual.versao || 0) + 1, por: 'automacao:' + b.conta, em: agora };
   await env.CONTAS.put(FILA, JSON.stringify(novo));
+  if (b.acao === 'pronto') { const h = slz(agora); await anotaFeita(env, { id: 'f-' + x.id, pedido: x.id, data: h.data, hora: h.hora, cli: x.cli, atividade: (NOMES_FN[x.func] || x.func) + (x.resumo ? ' · ' + x.resumo : x.texto ? ' · ' + x.texto.slice(0, 160) : ''), por: b.conta, origem: 'fila', em: agora }); }
   return json({ ok: true, versao: novo.versao, item: x });
 }
 async function filaCriar(b, env) {
@@ -152,14 +201,24 @@ function autorizado(request, env) {
 function chave(request) { const cli = (new URL(request.url).searchParams.get('cli') || '').toLowerCase(); return CLIS.test(cli) ? `dados:${cli}:aprov` : null; }
 export async function onRequestGet({ request, env }) {
   if (!env.CONTAS || !autorizado(request, env)) return json({ erro: 'Sem acesso.' }, 401);
+  if (qual(request) === 'afazer') { const r = await ler(env, AFAZER, { itens: [] }); return json({ itens: (r.dados && r.dados.itens) || [], sementes: (r.dados && r.dados.sementes) || [], versao: r.versao || 0 }); }
   if (qual(request) === 'ped') return filaGet(env);
   if (qual(request) === 'equipe') return equipeGet(env);
+  if (qual(request) === 'fotos') { // fotos dos clientes, só leitura (conta Zuleide, 10/11/2026): ?fila=fotos&cli=curso → lista; &id=<id> → a imagem
+    const u = new URL(request.url), cli = (u.searchParams.get('cli') || '').toLowerCase(), id = u.searchParams.get('id');
+    if (!/^[a-z0-9-]{2,30}$/.test(cli)) return json({ erro: 'Cliente inválido.' }, 400);
+    if (id) { if (!/^[a-z0-9]{6,40}$/.test(id)) return json({ erro: 'Pedido inválido.' }, 400); const o = await env.CONTAS.getWithMetadata(`foto:${cli}:${id}`, 'stream'); if (!o.value) return json({ erro: 'Foto não encontrada.' }, 404); return new Response(o.value, { headers: { 'content-type': (o.metadata && o.metadata.tipo) || 'image/jpeg', 'cache-control': 'private, no-store' } }); }
+    const fotos = []; let cursor; do { const r = await env.CONTAS.list({ prefix: `foto:${cli}:`, cursor }); r.keys.forEach(k => fotos.push({ id: k.name.split(':')[2], ...(k.metadata || {}) })); cursor = r.list_complete ? null : r.cursor; } while (cursor);
+    return json({ fotos });
+  }
+  if (qual(request) === 'feitas') { const r = await ler(env, FEITAS, { itens: [] }); return json({ itens: (r.dados && r.dados.itens) || [], sementes: (r.dados && r.dados.sementes) || [], versao: r.versao || 0 }); } // leitura das Tarefas feitas (auditoria 10/11, conta Leandro)
   const k = chave(request); if (!k) return json({ erro: 'Cliente inválido.' }, 400);
   const r = (await env.CONTAS.get(k, 'json')) || { dados: { itens: [] }, versao: 0 };
   return json({ itens: (r.dados && r.dados.itens) || [], versao: r.versao || 0 });
 }
 export async function onRequestPost({ request, env }) {
   if (!env.CONTAS || !autorizado(request, env)) return json({ erro: 'Sem acesso.' }, 401);
+  if (qual(request) === 'afazer') return afazerPost(request, env);
   if (qual(request) === 'ped') return filaPost(request, env);
   if (qual(request) === 'equipe') return equipePost(request, env);
   const k = chave(request); if (!k) return json({ erro: 'Cliente inválido.' }, 400);
