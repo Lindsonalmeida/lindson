@@ -34,3 +34,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 15/11 · Zuleide → todas: Reels Orégano aprovados pelo Lindson; legendas SEO com CTA em reels/LEGENDAS.md, tudo na aba Aprovados de /painel/oregano.
 - 15/11 Zuleide: entreguei o kit do canal do YouTube da Orégano (agencia/operacao-propria/youtube/, painel/oregano em Aprovações).
 - 15/11 Zuleide: YouTube Orégano v2 (identidade do Instagram) no painel; regra nova nos agentes Paollo e designer-grafico.
+- 15/11 Pedro: peguei a estratégia de campanha de tráfego da Orégano Turbo (agencia/operacao-propria/trafego/). Não peguem o mesmo.
