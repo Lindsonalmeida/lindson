@@ -1,11 +1,17 @@
 {
- "atualizado": "14/11/2026",
+ "atualizado": "15/11/2026",
  "grupos": [
   {
    "id": "geral",
    "nome": "Geral · automação",
    "pagante": false,
    "itens": [
+    [
+     "regras-14-11",
+     "Regras novas: feitos no quadro com hora, consultar agentes, foto sem repetir · 14/11 23:01",
+     "equipe",
+     "14/11 23:01"
+    ],
     [
      "fin-painel",
      "Painel Financeiro completo no admin (visão geral, lançamentos, a receber/pagar, fluxo de caixa, DRE, MRR por cliente) · 14/11 20:10",
@@ -39,6 +45,12 @@
    "nome": "Dra. Jaci Cunha",
    "pagante": true,
    "itens": [
+    [
+     "jaci-bf-criativos",
+     "5 criativos premium de Black Friday (feed e story) · 14/11 18:16",
+     "equipe",
+     "14/11 18:16"
+    ],
     [
      "jaci-aprovar",
      "Aprovar no painel: feed, carrosséis, stories, prova social e campanha de Meta Ads",
@@ -210,6 +222,18 @@
    "pagante": false,
    "itens": [
     [
+     "oreg-reels-s1",
+     "21 Reels da semana 1 com capa e legenda, no painel (Zuleide) · 14/11 21:41",
+     "equipe",
+     "14/11 21:41"
+    ],
+    [
+     "oreg-site",
+     "Site no ar em oreganoturbo.pages.dev (Zuleide) · 14/11 17:10",
+     "equipe",
+     "14/11 17:10"
+    ],
+    [
      "oreg-fotos",
      "Lote 2 de fotos do Gemini (27 artes esperando)",
      "voce"
@@ -232,6 +256,24 @@
    "pagante": false,
    "itens": [
     [
+     "marca-ref-3d",
+     "Pesquisa de referência dos Reels explicativos 3D · 14/11 22:08",
+     "equipe",
+     "14/11 22:08"
+    ],
+    [
+     "marca-provedor-v2",
+     "Linha Provedor v2 aprovada como direção · 14/11 22:58",
+     "equipe",
+     "14/11 22:58"
+    ],
+    [
+     "marca-papo-dono",
+     "Linha \"Papo de Dono\" e linha Provedor: 4 posts e 4 carrosséis · 14/11 22:30",
+     "equipe",
+     "14/11 22:30"
+    ],
+    [
      "marca-site",
      "Aprovar o site oficial e a bio, e trocar o link da bio para /bio/",
      "voce"
@@ -253,6 +295,72 @@
    "nome": "Desentupidora SF",
    "pagante": false,
    "itens": [
+    [
+     "sf-logo-vetor",
+     "Logo em alta, versões vetoriais e manual da logo · 14/11 22:37",
+     "equipe",
+     "14/11 22:37"
+    ],
+    [
+     "sf-branding-book",
+     "Branding book (22 p.) e logo original na farda e na frota · 14/11 22:23",
+     "equipe",
+     "14/11 22:23"
+    ],
+    [
+     "sf-prospeccao-rest",
+     "Mensagens de prospecção para restaurantes · 14/11 17:05",
+     "equipe",
+     "14/11 17:05"
+    ],
+    [
+     "sf-carrosseis",
+     "4 carrosséis educativos com legendas SEO · 14/11 22:00",
+     "equipe",
+     "14/11 22:00"
+    ],
+    [
+     "sf-motion-5",
+     "5 criativos em motion (Zuleide) · 14/11 21:54",
+     "equipe",
+     "14/11 21:54"
+    ],
+    [
+     "sf-roteiros-gordura",
+     "4 roteiros sobre caixa de gordura · 14/11 21:00",
+     "equipe",
+     "14/11 21:00"
+    ],
+    [
+     "sf-numero-novo",
+     "Número novo (98) 92010-5710 em todas as peças · 14/11 20:00",
+     "equipe",
+     "14/11 20:00"
+    ],
+    [
+     "sf-identidade",
+     "Identidade com fardamento, frota e manual (14 p.) · 14/11 20:00",
+     "equipe",
+     "14/11 20:00"
+    ],
+    [
+     "sf-videos-novos",
+     "4 vídeos novos: condomínio, padaria, apartamento e calha · 14/11 20:52",
+     "equipe",
+     "14/11 20:52"
+    ],
+    [
+     "sf-videos-personagens",
+     "4 vídeos com personagens falando e farda nova · 14/11 20:22",
+     "equipe",
+     "14/11 20:22"
+    ],
+    [
+     "sf-videos-40s",
+     "4 vídeos de 40 s (HeyGen): vídeo 2 aprovado, v6 refeitos do zero · 14/11 19:48",
+     "equipe",
+     "14/11 19:48"
+    ],
     [
      "sf-artes",
      "Aprovar as 4 artes",
@@ -284,6 +392,31 @@
      "prod-escada",
      "As 5 decisões da escada de venda",
      "voce"
+    ]
+   ]
+  },
+  {
+   "id": "canais",
+   "nome": "Canais dark (Raposa e Leão)",
+   "pagante": false,
+   "itens": [
+    [
+     "rl-manual-campo",
+     "Manual de Campo, isca, página de venda e kit de lançamento (Pedro) · 14/11 22:32",
+     "equipe",
+     "14/11 22:32"
+    ],
+    [
+     "rl-longos-17-21",
+     "Vídeos longos 17 a 21: roteiro, SEO e capas A/B/C · 14/11 22:05",
+     "equipe",
+     "14/11 22:05"
+    ],
+    [
+     "rl-shorts-31-40",
+     "Shorts 31 a 40: roteiro, capa, revisão e no painel de canais · 14/11 17:59",
+     "equipe",
+     "14/11 17:59"
     ]
    ]
   }
