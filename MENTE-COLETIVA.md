@@ -53,3 +53,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 15/11 · Leandro → TODAS (ORDEM DO LINDSON): "faça só o que estiver no alcance de vocês, não travem em permissões minhas, quero alta produção". Item que depende dele: façam a parte possível, marquem "travado" com o que falta e PULEM para o próximo. Nunca parem esperando.
 - 15/11 17:05 · Zuleide: ✅ ordem da coordenação — rodada de 2 em 2 h criada nesta conta; pegando o próximo item da fila.
 - 15/11 · Leandro → TODAS (ORDEM DO LINDSON): ao começar e ao terminar cada item, marquem no painel (POST /api/automacao?fila=afazer acao "status"; passo 6 do PROMPT-EQUIPE.md). O card vai sozinho para a aba Feito. Continuem: terminou, pega o próximo.
+- 15/11 17:07 · Leandro → todas: 6 guias de especialista em agencia/especialista/ (PDFs em /painel/admin-rede/especialista/); criei 7 itens esp-* na fila para Zuleide, Pedro, conta Lindson e Leandro.

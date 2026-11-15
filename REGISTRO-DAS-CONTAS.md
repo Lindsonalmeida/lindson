@@ -319,3 +319,4 @@ Levantado pela conta Lindson em 01/11/2026 a partir do histórico do git e dos a
 | 15/11/2026 | Pedro | Orégano Turbo: mascote (Seu Turbo) com rig animável e vídeo demo | agencia/operacao-propria/mascote/ · /painel/oregano | aguardando aprovação |
 | 2026-11-15 [16:59] | Zuleide | TikTok Orégano: kit do perfil + 21 legendas TikTok, no painel (aguardando) | agencia/operacao-propria/tiktok/ | aguardando aprovação |
 | 15/11/2026 | Pedro | [17:01] Real Time: estratégia de tráfego pago (C1 locação, C2 estúdio/mensal, C3 remarketing, G1 Google; verba em faixas) | agencia/clientes/rt-full-jobs/trafego/ · /painel/rt/trafego/ | aguardando aprovação |
+| 2026-11-15 [17:07] | Leandro | Guias de especialista (Google Meu Negócio, SEO, WhatsApp, automação, Meta local, ranqueamento) + 6 PDFs A4 | agencia/especialista/ · /painel/admin-rede/especialista/ | entregue |

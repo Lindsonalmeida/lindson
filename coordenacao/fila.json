@@ -470,66 +470,66 @@
    "cli": "marca",
    "tarefa": "Ser especialista em Google Meu Negócio",
    "equipe": "qualquer",
-   "status": "andamento",
-   "nota": "",
+   "status": "feito",
+   "nota": "Guia em agencia/especialista/<tema>/README.md; PDF resumo em /painel/admin-rede/especialista/",
    "partes": [],
    "pegou": "Leandro 15/11 17:02",
-   "atualizado": ""
+   "atualizado": "Leandro 15/11 17:07"
   },
   {
    "id": "cad2-marca-11",
    "cli": "marca",
    "tarefa": "Ser especialista em SEO",
    "equipe": "qualquer",
-   "status": "andamento",
-   "nota": "",
+   "status": "feito",
+   "nota": "Guia em agencia/especialista/<tema>/README.md; PDF resumo em /painel/admin-rede/especialista/",
    "partes": [],
    "pegou": "Leandro 15/11 17:02",
-   "atualizado": ""
+   "atualizado": "Leandro 15/11 17:07"
   },
   {
    "id": "cad2-marca-12",
    "cli": "marca",
    "tarefa": "Ser especialista em venda pelo WhatsApp",
    "equipe": "qualquer",
-   "status": "andamento",
-   "nota": "",
+   "status": "feito",
+   "nota": "Guia em agencia/especialista/<tema>/README.md; PDF resumo em /painel/admin-rede/especialista/",
    "partes": [],
    "pegou": "Leandro 15/11 17:02",
-   "atualizado": ""
+   "atualizado": "Leandro 15/11 17:07"
   },
   {
    "id": "cad2-marca-13",
    "cli": "marca",
    "tarefa": "Ser especialista em automação de vendas",
    "equipe": "qualquer",
-   "status": "andamento",
-   "nota": "",
+   "status": "feito",
+   "nota": "Guia em agencia/especialista/<tema>/README.md; PDF resumo em /painel/admin-rede/especialista/",
    "partes": [],
    "pegou": "Leandro 15/11 17:02",
-   "atualizado": ""
+   "atualizado": "Leandro 15/11 17:07"
   },
   {
    "id": "cad2-marca-14",
    "cli": "marca",
    "tarefa": "Ser especialista em Meta para negócios locais",
    "equipe": "qualquer",
-   "status": "andamento",
-   "nota": "",
+   "status": "feito",
+   "nota": "Guia em agencia/especialista/<tema>/README.md; PDF resumo em /painel/admin-rede/especialista/",
    "partes": [],
    "pegou": "Leandro 15/11 17:02",
-   "atualizado": ""
+   "atualizado": "Leandro 15/11 17:07"
   },
   {
    "id": "cad2-marca-15",
    "cli": "marca",
    "tarefa": "Ser especialista em ranqueamento de sites",
    "equipe": "qualquer",
-   "status": "andamento",
-   "nota": "",
+   "status": "feito",
+   "nota": "Guia em agencia/especialista/<tema>/README.md; PDF resumo em /painel/admin-rede/especialista/",
    "partes": [],
    "pegou": "Leandro 15/11 17:02",
-   "atualizado": ""
+   "atualizado": "Leandro 15/11 17:07"
   },
   {
    "id": "cad2-sf-16",
@@ -813,6 +813,83 @@
    "cli": "samba",
    "tarefa": "Samba do Pinto: postar Reels",
    "equipe": "Zuleide",
+   "status": "livre",
+   "nota": "",
+   "partes": [],
+   "pegou": "",
+   "atualizado": ""
+  },
+  {
+   "id": "esp-oregano-google",
+   "cli": "oregano",
+   "tarefa": "Orégano: escrever GOOGLE.md (Perfil da Empresa: Pizzaria, delivery, cardápio) no modelo de jaci-cunha/GOOGLE.md (guia agencia/especialista/google-meu-negocio)",
+   "equipe": "Zuleide",
+   "status": "livre",
+   "nota": "",
+   "partes": [],
+   "pegou": "",
+   "atualizado": ""
+  },
+  {
+   "id": "esp-oregano-seo",
+   "cli": "oregano",
+   "tarefa": "Orégano: sitemap, robots e dados estruturados Restaurant+Menu no site oreganoturbo (guia agencia/especialista/seo)",
+   "equipe": "Zuleide",
+   "status": "livre",
+   "nota": "",
+   "partes": [],
+   "pegou": "",
+   "atualizado": ""
+  },
+  {
+   "id": "esp-sf-whatsapp",
+   "cli": "sf",
+   "tarefa": "SF: 8 respostas rápidas de urgência + cadência de retorno dia 1 e 3 para orçamento não fechado (guias venda-whatsapp e automacao-vendas)",
+   "equipe": "Pedro",
+   "status": "livre",
+   "nota": "",
+   "partes": [],
+   "pegou": "",
+   "atualizado": ""
+  },
+  {
+   "id": "esp-sf-ranking",
+   "cli": "sf",
+   "tarefa": "SF: primeiro relatório Search Console (Páginas/Desempenho) e lista de ajustes (guia ranqueamento-sites)",
+   "equipe": "Pedro",
+   "status": "livre",
+   "nota": "",
+   "partes": [],
+   "pegou": "",
+   "atualizado": ""
+  },
+  {
+   "id": "esp-jaci-whatsapp",
+   "cli": "jaci",
+   "tarefa": "Jaci: 8 respostas rápidas no tom CFO + mensagens D-1 e pós-consulta pedindo avaliação (guias venda-whatsapp e automacao-vendas)",
+   "equipe": "Lindson (conta)",
+   "status": "livre",
+   "nota": "",
+   "partes": [],
+   "pegou": "",
+   "atualizado": ""
+  },
+  {
+   "id": "esp-wf-google",
+   "cli": "wf",
+   "tarefa": "WF Celulares: escrever GOOGLE.md (Loja de celulares + Assistência técnica) e resposta rápida de orçamento",
+   "equipe": "Lindson (conta)",
+   "status": "livre",
+   "nota": "",
+   "partes": [],
+   "pegou": "",
+   "atualizado": ""
+  },
+  {
+   "id": "esp-tribuna-google",
+   "cli": "tribuna",
+   "tarefa": "Tribuna 98: textos do Perfil da Empresa (Estação de rádio) e title próprio nas páginas de programa",
+   "equipe": "Leandro",
    "status": "livre",
    "nota": "",
    "partes": [],

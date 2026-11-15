@@ -129,3 +129,4 @@ Todas desligadas desde 26/10 (as de 3 em 3 horas falharam por limite de uso do p
 - `agencia/sistema-clientes/wf-celulares/montar-wf.py`: painel da WF Celulares na Central (/painel/wf), conta Zuleide, 10/11/2026.
 - `agencia/sistema-clientes/oregano-turbo/montar-oregano.py`: painel da Orégano na Central (/painel/oregano) = montar_painel.py + 21 Reels da semana 1 (vídeos comprimidos no privado em painel/oregano/reels/), conta Zuleide, 14/11/2026.
 - `agencia/operacao-propria/mascote/`: Seu Turbo, mascote animável da Orégano Turbo (SVG por partes, rig JS, peças, vídeo demo, como usar nos Reels) (conta Pedro, 15/11/2026).
+- `agencia/especialista/`: guias de especialista do Lindson (6 temas) e gerador de PDF (conta Leandro, 15/11/2026).
