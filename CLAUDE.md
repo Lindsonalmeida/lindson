@@ -1,5 +1,7 @@
 # Instruções do repositório (Lindson Almeida)
 
+> **COORDENAÇÃO DAS EQUIPES (Lindson, 15/11/2026):** o trabalho de todos os clientes é dividido em partes na fila `coordenacao/fila.json` pela conta Leandro (coordenadora). Toda conta roda a cada 2 horas o prompt de `coordenacao/PROMPT-EQUIPE.md`: pega só o que é da sua equipe, trava na fila antes de começar, entrega no painel do cliente e fecha na fila. Regras em `coordenacao/COORDENACAO.md`.
+
 > **RESPOSTA CURTA, ACIMA DE TUDO (regra do Lindson, 08/11/2026, conta Zuleide): "elimine mensagens do sistema para mim, quero só o que me importa, pra não ter que ler muito".** Vale para toda conta e passa por cima de qualquer outra regra que mande escrever algo na conversa.
 > - Mostre só: **o resultado** (link, arquivo, imagem), **o que o Lindson precisa decidir ou mandar** e, se houver, **o problema que trava**. No máximo ~5 linhas fora a entrega.
 > - **Tudo o mais é silencioso** (faça, mas não escreva): leitura de arquivos, `git pull`/push/commit, quadro, registro, memória, triagem e conferência do Maquiavel, escolha do agente, confirmação de recados, portfólio, placar.
