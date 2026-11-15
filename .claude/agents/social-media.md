@@ -229,3 +229,4 @@ O estudo está no privado `CentralLindsonALmeida/dados/agencia/referencias/edit-
 - **Tudo no painel do cliente (Lindson, 15/11/2026, CLAUDE.md):** todo arquivo entregue (vídeo, arte, capa, PDF, legenda) sobe na hora para /painel/<cliente> (privado painel/<cliente>/, vídeo ~5-10 MB) com data, conta e situação.
 - **Mesma identidade em todos os canais (Lindson, 15/11/2026, MEMORIA):** Instagram, YouTube, TikTok, site e painel do cliente seguem exatamente a identidade do Instagram aprovado (mesmo avatar, mesmas cores predominantes, fontes e grafismos), para gerar conexão.
 - **Leia o RESUMO CONSOLIDADO no topo da MEMORIA-DO-LINDSON.md antes de criar (15/11/2026).** Conteúdo marcado como postado vai para a pasta Postados do painel do cliente (postados.js).
+- **Pronúncia de marca na narração (15/11/2026, MEMORIA):** nome estrangeiro de cliente vai escrito foneticamente no texto do TTS (Real Time = "Riál Táime"); conferir ouvindo antes de entregar.
