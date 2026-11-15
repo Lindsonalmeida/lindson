@@ -3,6 +3,8 @@ Nao altera cortes: so sobrepoe texto (identidade v1) e mixa a narracao com o aud
 Uso: python3 -I render.py <pasta brutos> <pasta saida> <pasta fontes> <id>"""
 import json, os, subprocess, sys, asyncio
 from PIL import Image, ImageDraw, ImageFont
+import certifi, ssl
+if os.path.exists('/root/.ccr/ca-bundle.crt'): certifi.where = lambda: '/root/.ccr/ca-bundle.crt'
 import edge_tts
 BR, OUT, FT, VID = sys.argv[1:5]
 R = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'roteiros.json')))[VID]
