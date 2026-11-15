@@ -402,11 +402,11 @@
    "cli": "rt",
    "tarefa": "Campanha de tráfego",
    "equipe": "Pedro",
-   "status": "andamento",
-   "nota": "",
+   "status": "aguardando aprovação",
+   "nota": "agencia/clientes/rt-full-jobs/trafego/ + /painel/rt/trafego/ (APROV do painel rt)",
    "partes": [],
    "pegou": "Pedro 15/11 16:58",
-   "atualizado": "15/11 16:58"
+   "atualizado": "15/11 17:01"
   },
   {
    "id": "cad2-rt-6",
