@@ -308,3 +308,4 @@ Levantado pela conta Lindson em 01/11/2026 a partir do histórico do git e dos a
 | 15/11/2026 | Zuleide | Admin, Quadro de atividades: Feitos em quadros por cliente (ao vivo) e A fazer do caderno com Iniciar/Feito | /painel/admin#quadro | pronto |
 | 15/11/2026 | Zuleide | Painel SF: aba Arquivos (10 motions v1 reprovada/v2 aguardando, 5 artes feed v1, logo, flyer, site) | /painel/sf#arquivos, arquivos em painel/sf/ do privado | no ar |
 | 15/11/2026 | Zuleide | Orégano: 21 Reels marcados como aprovados no /painel/oregano, legendas SEO com CTA do Raio-X (legendas_seo.py → LEGENDAS.md, legenda-seo.txt) | agencia/operacao-propria/reels/ + oregano-turbo/montar-oregano.py | no ar |
+| 15/11/2026 | Lindson | [17:10] Desentupidora SF: 31 vídeos da conta Lindson (v1 a v6 e falados 1-8) em Aprovações do /painel/sf e manuais, branding book, logo e carrosséis em Entregas e arquivos (Abrir/Baixar em todo painel) | privado painel/sf/video/ e painel/sf/arquivos/ | pronto |
