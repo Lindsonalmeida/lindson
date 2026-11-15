@@ -1,32 +1,672 @@
 [
- {"id":"01","serie":"BOLSO DO DONO","tema":"WHATSAPP","titulo":"O erro que faz o cliente sumir no WhatsApp","palavra":"SUMIU","capa":["O CLIENTE","SUMIU?"],
-  "falas":[
-   {"cap":"O GANCHO","obj":"celular","t":"O cliente mandou: quanto custa? No seu WhatsApp. E sumiu. A culpa não é do preço.","chave":["sumiu","preço"],"tag":"VISUALIZADO 14:02"},
-   {"cap":"O RELÓGIO","obj":"relogio","t":"O problema é o relógio. Ele mandou a mesma pergunta pra três lojas ao mesmo tempo.","chave":["relógio","três"],"tag":"3 LOJAS"},
-   {"cap":"A PESQUISA","obj":"relogio","t":"Uma pesquisa da Harvard Business Review mostrou: quem respondia em até uma hora tinha quase sete vezes mais chance de avançar com o cliente.","chave":["uma","hora","sete"],"num":"7×","numsub":"MAIS CHANCE RESPONDENDO EM ATÉ 1 HORA","selo":"HARVARD BUSINESS REVIEW · 2011"},
-   {"cap":"O PREÇO SECO","obj":"balcao","t":"E o segundo erro: responder só o preço. Cinquenta reais, ponto. Sem pergunta, a conversa morre ali.","chave":["só","preço","morre"],"tag":"SEM PERGUNTA","x":true},
-   {"cap":"A SAÍDA","obj":"celular","t":"Faz assim: responde rápido, manda o preço e termina com uma pergunta. Por exemplo: é pra hoje ou pra amanhã? Quem pergunta, conduz.","chave":["pergunta","conduz"],"tag":"EXEMPLO","ok":true},
-   {"cap":"ENQUETE","obj":"bonecos","t":"E você? Quanto tempo demora pra responder? Vota aí na enquete.","chave":["enquete"],"enquete":["MENOS DE 1 HORA","MAIS DE 1 HORA"]},
-   {"cap":"PRESENTE","obj":"celular","t":"Comenta SUMIU, que eu te mando cinco mensagens prontas pra cliente que sumiu.","chave":["SUMIU"],"cta":"SUMIU"}
-  ]},
- {"id":"02","serie":"BOLSO DO DONO","tema":"CUSTO","titulo":"Quanto custa um cliente? (a pegadinha)","palavra":"PERFIL","capa":["QUANTO CUSTA","1 CLIENTE?"],
-  "falas":[
-   {"cap":"O GANCHO","obj":"caixa","t":"Você sabe quanto paga por cada cliente que entra no seu negócio? A pegadinha: não é o valor do anúncio.","chave":["cliente","pegadinha"],"tag":"PEGADINHA"},
-   {"cap":"A CONTA","obj":"caixa","t":"A conta tem nome: custo de aquisição. Soma tudo o que gastou pra atrair cliente no mês e divide pelos clientes novos.","chave":["custo","divide"],"num":"CAC","numsub":"GASTO PRA ATRAIR ÷ CLIENTES NOVOS","selo":"FÓRMULA · CUSTO DE AQUISIÇÃO"},
-   {"cap":"O EXEMPLO","obj":"moedas","t":"Exemplo: gastou trezentos reais e vieram dez clientes novos. Cada um custou trinta reais.","chave":["trezentos","dez","trinta"],"num":"R$ 30","numsub":"R$ 300 ÷ 10 CLIENTES · EXEMPLO","tag":"EXEMPLO"},
-   {"cap":"A PEGADINHA","obj":"pizza","t":"Agora, se o lucro de uma pizza é vinte reais, o primeiro pedido dá prejuízo. O dinheiro está na segunda, na terceira, na décima pizza.","chave":["prejuízo","décima"],"tag":"EXEMPLO","x":true},
-   {"cap":"A VOLTA","obj":"bonecos","t":"Por isso, o cliente que volta vale mais que o anúncio novo. Mande mensagem pra quem já comprou.","chave":["volta","comprou"],"ok":true},
-   {"cap":"ENQUETE","obj":"caixa","t":"Você já fez essa conta no seu negócio? Vota na enquete.","chave":["enquete"],"enquete":["JÁ FIZ","NUNCA FIZ"]},
-   {"cap":"PRESENTE","obj":"celular","t":"Comenta PERFIL, que eu analiso o seu Instagram e te mostro três pontos pra melhorar.","chave":["PERFIL"],"cta":"PERFIL"}
-  ]},
- {"id":"03","serie":"BOLSO DO DONO","tema":"INSTAGRAM","titulo":"A regra do Instagram que pouca gente entendeu","palavra":"GANCHO","capa":["CURTIDA","NÃO BASTA"],
-  "falas":[
-   {"cap":"O GANCHO","obj":"coracao","t":"Curtida não faz o seu post crescer como você pensa. A regra é outra, e tem uma pegadinha.","chave":["curtida","pegadinha"],"x":true},
-   {"cap":"O SINAL","obj":"aviao","t":"O chefe do Instagram, Adam Mosseri, disse que um dos sinais mais fortes hoje é o envio: quando alguém manda o seu post pra outra pessoa.","chave":["envio","manda"],"selo":"ADAM MOSSERI · CHEFE DO INSTAGRAM"},
-   {"cap":"A PROVA","obj":"aviao","t":"Um Reels que estudamos teve seis mil e quinhentos reposts. E setenta e um mil envios.","chave":["setenta","envios"],"num":"71 MIL","numsub":"ENVIOS × 6.510 REPOSTS","selo":"PRINT DO REELS · 14/11"},
-   {"cap":"O QUE SE ENVIA","obj":"pizza","t":"Ninguém envia propaganda. A pessoa envia o que é útil pro amigo: o cardápio da semana, a promoção de terça, uma dica que resolve.","chave":["útil","amigo"],"tag":"ÚTIL > BONITO"},
-   {"cap":"A SAÍDA","obj":"celular","t":"Antes de postar, pergunte: alguém mandaria isso pra um amigo? Se não, mude o post.","chave":["mandaria","mude"],"ok":true},
-   {"cap":"ENQUETE","obj":"bonecos","t":"E você, o que mais faz: curtir ou enviar? Vota na enquete.","chave":["enquete"],"enquete":["CURTIR","ENVIAR"]},
-   {"cap":"PRESENTE","obj":"celular","t":"Comenta GANCHO, que eu te mando dez ganchos de vídeo que fazem a pessoa parar.","chave":["GANCHO"],"cta":"GANCHO"}
-  ]}
+ {
+  "id": "01",
+  "serie": "BOLSO DO DONO",
+  "tema": "WHATSAPP",
+  "titulo": "O erro que faz o cliente sumir no WhatsApp",
+  "palavra": "SUMIU",
+  "capa": [
+   "O CLIENTE",
+   "SUMIU?"
+  ],
+  "falas": [
+   {
+    "cap": "O GANCHO",
+    "obj": "celular",
+    "t": "O cliente mandou: quanto custa? No seu WhatsApp. E sumiu. A culpa não é do preço.",
+    "chave": [
+     "sumiu",
+     "preço"
+    ],
+    "tag": "VISUALIZADO 14:02",
+    "cena": "mesa",
+    "big": "SUMIU?",
+    "tec": "quarta"
+   },
+   {
+    "cap": "O RELÓGIO",
+    "obj": "relogio",
+    "t": "O problema é o relógio. Ele mandou a mesma pergunta pra três lojas ao mesmo tempo.",
+    "chave": [
+     "relógio",
+     "três"
+    ],
+    "tag": "3 LOJAS",
+    "cena": "cidade",
+    "tec": "topdown"
+   },
+   {
+    "cap": "A PESQUISA",
+    "obj": "relogio",
+    "t": "Uma pesquisa da Harvard Business Review mostrou: quem respondia em até uma hora tinha quase sete vezes mais chance de avançar com o cliente.",
+    "chave": [
+     "uma",
+     "hora",
+     "sete"
+    ],
+    "num": "7×",
+    "numsub": "MAIS CHANCE RESPONDENDO EM ATÉ 1 HORA",
+    "selo": "HARVARD BUSINESS REVIEW · 2011",
+    "cena": "grafico",
+    "tec": "contador"
+   },
+   {
+    "cap": "O PREÇO SECO",
+    "obj": "balcao",
+    "t": "E o segundo erro: responder só o preço. Cinquenta reais, ponto. Sem pergunta, a conversa morre ali.",
+    "chave": [
+     "só",
+     "preço",
+     "morre"
+    ],
+    "tag": "SEM PERGUNTA",
+    "x": true,
+    "cena": "mesa",
+    "tec": "punch"
+   },
+   {
+    "cap": "A SAÍDA",
+    "obj": "celular",
+    "t": "Faz assim: responde rápido, manda o preço e termina com uma pergunta. Por exemplo: é pra hoje ou pra amanhã? Quem pergunta, conduz.",
+    "chave": [
+     "pergunta",
+     "conduz"
+    ],
+    "tag": "EXEMPLO",
+    "ok": true,
+    "cena": "mesa",
+    "tec": "morph",
+    "obj2": "relogio"
+   },
+   {
+    "cap": "ENQUETE",
+    "obj": "bonecos",
+    "t": "E você? Quanto tempo demora pra responder? Vota aí na enquete.",
+    "chave": [
+     "enquete"
+    ],
+    "enquete": [
+     "MENOS DE 1 HORA",
+     "MAIS DE 1 HORA"
+    ],
+    "cena": "mesa",
+    "obj2": "celular",
+    "tec": "explode"
+   },
+   {
+    "cap": "PRESENTE",
+    "obj": "celular",
+    "t": "Comenta SUMIU, que eu te mando cinco mensagens prontas pra cliente que sumiu.",
+    "chave": [
+     "SUMIU"
+    ],
+    "cta": "SUMIU",
+    "cena": "mesa",
+    "tec": "whip"
+   }
+  ]
+ },
+ {
+  "id": "02",
+  "serie": "BOLSO DO DONO",
+  "tema": "CUSTO",
+  "titulo": "Quanto custa um cliente? (a pegadinha)",
+  "palavra": "PERFIL",
+  "capa": [
+   "QUANTO CUSTA",
+   "1 CLIENTE?"
+  ],
+  "falas": [
+   {
+    "cap": "O GANCHO",
+    "obj": "caixa",
+    "t": "Você sabe quanto paga por cada cliente que entra no seu negócio? A pegadinha: não é o valor do anúncio.",
+    "chave": [
+     "cliente",
+     "pegadinha"
+    ],
+    "tag": "PEGADINHA",
+    "cena": "mesa",
+    "big": "1 CLIENTE?",
+    "tec": "quarta"
+   },
+   {
+    "cap": "A CONTA",
+    "obj": "caixa",
+    "t": "A conta tem nome: custo de aquisição. Soma tudo o que gastou pra atrair cliente no mês e divide pelos clientes novos.",
+    "chave": [
+     "custo",
+     "divide"
+    ],
+    "num": "CAC",
+    "numsub": "GASTO PRA ATRAIR ÷ CLIENTES NOVOS",
+    "selo": "FÓRMULA · CUSTO DE AQUISIÇÃO",
+    "cena": "mesa",
+    "tec": "macro"
+   },
+   {
+    "cap": "O EXEMPLO",
+    "obj": "moedas",
+    "t": "Exemplo: gastou trezentos reais e vieram dez clientes novos. Cada um custou trinta reais.",
+    "chave": [
+     "trezentos",
+     "dez",
+     "trinta"
+    ],
+    "num": "R$ 30",
+    "numsub": "R$ 300 ÷ 10 CLIENTES · EXEMPLO",
+    "tag": "EXEMPLO",
+    "cena": "grafico",
+    "tec": "contador"
+   },
+   {
+    "cap": "A PEGADINHA",
+    "obj": "pizza",
+    "t": "Agora, se o lucro de uma pizza é vinte reais, o primeiro pedido dá prejuízo. O dinheiro está na segunda, na terceira, na décima pizza.",
+    "chave": [
+     "prejuízo",
+     "décima"
+    ],
+    "tag": "EXEMPLO",
+    "x": true,
+    "cena": "mesa",
+    "tec": "punch"
+   },
+   {
+    "cap": "A VOLTA",
+    "obj": "bonecos",
+    "t": "Por isso, o cliente que volta vale mais que o anúncio novo. Mande mensagem pra quem já comprou.",
+    "chave": [
+     "volta",
+     "comprou"
+    ],
+    "ok": true,
+    "cena": "mesa",
+    "tec": "morph",
+    "obj2": "celular"
+   },
+   {
+    "cap": "ENQUETE",
+    "obj": "caixa",
+    "t": "Você já fez essa conta no seu negócio? Vota na enquete.",
+    "chave": [
+     "enquete"
+    ],
+    "enquete": [
+     "JÁ FIZ",
+     "NUNCA FIZ"
+    ],
+    "cena": "mesa",
+    "obj2": "celular",
+    "tec": "explode"
+   },
+   {
+    "cap": "PRESENTE",
+    "obj": "celular",
+    "t": "Comenta PERFIL, que eu analiso o seu Instagram e te mostro três pontos pra melhorar.",
+    "chave": [
+     "PERFIL"
+    ],
+    "cta": "PERFIL",
+    "cena": "mesa",
+    "tec": "whip"
+   }
+  ]
+ },
+ {
+  "id": "03",
+  "serie": "BOLSO DO DONO",
+  "tema": "INSTAGRAM",
+  "titulo": "A regra do Instagram que pouca gente entendeu",
+  "palavra": "GANCHO",
+  "capa": [
+   "CURTIDA",
+   "NÃO BASTA"
+  ],
+  "falas": [
+   {
+    "cap": "O GANCHO",
+    "obj": "coracao",
+    "t": "Curtida não faz o seu post crescer como você pensa. A regra é outra, e tem uma pegadinha.",
+    "chave": [
+     "curtida",
+     "pegadinha"
+    ],
+    "x": true,
+    "cena": "mesa",
+    "big": "NÃO BASTA",
+    "tec": "quarta"
+   },
+   {
+    "cap": "O SINAL",
+    "obj": "aviao",
+    "t": "O chefe do Instagram, Adam Mosseri, disse que um dos sinais mais fortes hoje é o envio: quando alguém manda o seu post pra outra pessoa.",
+    "chave": [
+     "envio",
+     "manda"
+    ],
+    "selo": "ADAM MOSSERI · CHEFE DO INSTAGRAM",
+    "cena": "cidade",
+    "tec": "topdown"
+   },
+   {
+    "cap": "A PROVA",
+    "obj": "aviao",
+    "t": "Um Reels que estudamos teve seis mil e quinhentos reposts. E setenta e um mil envios.",
+    "chave": [
+     "setenta",
+     "envios"
+    ],
+    "num": "71 MIL",
+    "numsub": "ENVIOS × 6.510 REPOSTS",
+    "selo": "PRINT DO REELS · 14/11",
+    "cena": "grafico",
+    "tec": "contador"
+   },
+   {
+    "cap": "O QUE SE ENVIA",
+    "obj": "pizza",
+    "t": "Ninguém envia propaganda. A pessoa envia o que é útil pro amigo: o cardápio da semana, a promoção de terça, uma dica que resolve.",
+    "chave": [
+     "útil",
+     "amigo"
+    ],
+    "tag": "ÚTIL > BONITO",
+    "cena": "mesa",
+    "tec": "punch"
+   },
+   {
+    "cap": "A SAÍDA",
+    "obj": "celular",
+    "t": "Antes de postar, pergunte: alguém mandaria isso pra um amigo? Se não, mude o post.",
+    "chave": [
+     "mandaria",
+     "mude"
+    ],
+    "ok": true,
+    "cena": "mesa",
+    "tec": "morph",
+    "obj2": "relogio"
+   },
+   {
+    "cap": "ENQUETE",
+    "obj": "bonecos",
+    "t": "E você, o que mais faz: curtir ou enviar? Vota na enquete.",
+    "chave": [
+     "enquete"
+    ],
+    "enquete": [
+     "CURTIR",
+     "ENVIAR"
+    ],
+    "cena": "mesa",
+    "obj2": "celular",
+    "tec": "explode"
+   },
+   {
+    "cap": "PRESENTE",
+    "obj": "celular",
+    "t": "Comenta GANCHO, que eu te mando dez ganchos de vídeo que fazem a pessoa parar.",
+    "chave": [
+     "GANCHO"
+    ],
+    "cta": "GANCHO",
+    "cena": "mesa",
+    "tec": "whip"
+   }
+  ]
+ },
+ {
+  "id": "04",
+  "serie": "BOLSO DO DONO",
+  "tema": "GOOGLE",
+  "titulo": "3 erros no Google que escondem o seu negócio",
+  "palavra": "SITE",
+  "capa": [
+   "O GOOGLE",
+   "TE ESCONDE?"
+  ],
+  "falas": [
+   {
+    "cap": "O GANCHO",
+    "cena": "mesa",
+    "obj": "pin",
+    "tec": "quarta",
+    "big": "3 ERROS",
+    "t": "Tem cliente procurando o seu negócio no Google agora, e não te achando. São três erros, e o terceiro é o pior.",
+    "chave": [
+     "Google",
+     "pior"
+    ],
+    "cont": "0/3"
+   },
+   {
+    "cap": "ERRO 1",
+    "cena": "cidade",
+    "tec": "topdown",
+    "t": "Erro um, o perfil incompleto, sem horário, sem foto, sem telefone. A pessoa passa direto pro concorrente.",
+    "chave": [
+     "incompleto",
+     "concorrente"
+    ],
+    "cont": "1/3",
+    "tag": "SEM HORÁRIO · SEM FOTO"
+   },
+   {
+    "cap": "O DADO",
+    "cena": "grafico",
+    "tec": "contador",
+    "t": "O próprio Google diz que um perfil completo tem duas vírgula sete vezes mais chance de ser visto como confiável.",
+    "chave": [
+     "completo",
+     "confiável"
+    ],
+    "num": "2,7×",
+    "numsub": "MAIS CHANCE DE PARECER CONFIÁVEL",
+    "selo": "GOOGLE · PERFIL DA EMPRESA"
+   },
+   {
+    "cap": "ERRO 2",
+    "cena": "cel",
+    "tec": "split",
+    "t": "Erro dois, avaliação sem resposta. O cliente lê a nota, e lê, principalmente, como você responde.",
+    "chave": [
+     "avaliação",
+     "responde"
+    ],
+    "cont": "2/3",
+    "split": [
+     "SEM RESPOSTA",
+     "COM RESPOSTA"
+    ]
+   },
+   {
+    "cap": "ERRO 3",
+    "cena": "mesa",
+    "obj": "balcao",
+    "tec": "punch",
+    "t": "E o terceiro, o pior, o endereço errado. O cliente chega, não acha, e não volta mais.",
+    "chave": [
+     "pior",
+     "errado"
+    ],
+    "cont": "3/3",
+    "tag": "O PIOR",
+    "x": true
+   },
+   {
+    "cap": "A SAÍDA",
+    "cena": "mesa",
+    "obj": "pin",
+    "obj2": "celular",
+    "tec": "morph",
+    "t": "Hoje mesmo, abra o seu perfil, complete tudo e responda as avaliações.",
+    "chave": [
+     "complete",
+     "responda"
+    ],
+    "ok": true
+   },
+   {
+    "cap": "ENQUETE",
+    "cena": "mesa",
+    "obj": "bonecos",
+    "tec": "explode",
+    "t": "O seu negócio aparece no Google? Vota na enquete.",
+    "chave": [
+     "enquete"
+    ],
+    "enquete": [
+     "APARECE",
+     "NÃO SEI"
+    ]
+   },
+   {
+    "cap": "PRESENTE",
+    "cena": "mesa",
+    "obj": "celular",
+    "tec": "whip",
+    "t": "Comenta SITE, que eu te mando um vídeo do seu mini site pronto. E volta pro começo, confere se o seu cliente te acha.",
+    "chave": [
+     "SITE",
+     "começo"
+    ],
+    "cta": "SITE"
+   }
+  ]
+ },
+ {
+  "id": "05",
+  "serie": "BOLSO DO DONO",
+  "tema": "REELS",
+  "titulo": "Por que pularam o seu vídeo em 2 segundos",
+  "palavra": "ROTEIRO",
+  "capa": [
+   "PULARAM",
+   "SEU VÍDEO?"
+  ],
+  "falas": [
+   {
+    "cap": "O GANCHO",
+    "cena": "cel",
+    "tec": "quarta",
+    "big": "PULOU",
+    "t": "Seu vídeo foi pulado em menos de dois segundos, e não foi pelo assunto. São três motivos, e o terceiro quase ninguém percebe.",
+    "chave": [
+     "pulado",
+     "terceiro"
+    ],
+    "cont": "0/3"
+   },
+   {
+    "cap": "MOTIVO 1",
+    "cena": "mesa",
+    "obj": "celular",
+    "tec": "macro",
+    "t": "Motivo um, começar com bom dia, tudo bem? Quem rola o feed não espera apresentação.",
+    "chave": [
+     "bom",
+     "dia",
+     "apresentação"
+    ],
+    "cont": "1/3",
+    "x": true
+   },
+   {
+    "cap": "MOTIVO 2",
+    "cena": "cidade",
+    "tec": "split",
+    "t": "Motivo dois, imagem parada. Se nada muda na tela, o dedo passa.",
+    "chave": [
+     "parada",
+     "passa"
+    ],
+    "cont": "2/3",
+    "split": [
+     "PARADA",
+     "EM MOVIMENTO"
+    ]
+   },
+   {
+    "cap": "O DADO",
+    "cena": "grafico",
+    "tec": "contador",
+    "t": "O Instagram passou a aceitar Reels de até três minutos, mas vídeo longo só segura se cada parte prender.",
+    "chave": [
+     "três",
+     "minutos",
+     "prender"
+    ],
+    "num": "3 MIN",
+    "numsub": "LIMITE DOS REELS DESDE JAN/2025",
+    "selo": "INSTAGRAM · JANEIRO 2025"
+   },
+   {
+    "cap": "MOTIVO 3",
+    "cena": "mesa",
+    "obj": "balcao",
+    "tec": "punch",
+    "t": "E o terceiro, sem legenda. Muita gente assiste sem som, e sem legenda não entende nada.",
+    "chave": [
+     "legenda",
+     "som"
+    ],
+    "cont": "3/3",
+    "tag": "O QUE QUASE NINGUÉM VÊ"
+   },
+   {
+    "cap": "A SAÍDA",
+    "cena": "mesa",
+    "obj": "relogio",
+    "obj2": "celular",
+    "tec": "morph",
+    "t": "Faz assim, a frase mais forte primeiro, algo mudando a cada dois segundos, e legenda sempre.",
+    "chave": [
+     "forte",
+     "legenda"
+    ],
+    "ok": true
+   },
+   {
+    "cap": "ENQUETE",
+    "cena": "mesa",
+    "obj": "bonecos",
+    "tec": "explode",
+    "t": "Você assiste Reels com som ou sem som? Vota na enquete.",
+    "chave": [
+     "enquete"
+    ],
+    "enquete": [
+     "COM SOM",
+     "SEM SOM"
+    ]
+   },
+   {
+    "cap": "PRESENTE",
+    "cena": "mesa",
+    "obj": "celular",
+    "tec": "whip",
+    "t": "Comenta ROTEIRO, que eu te mando três roteiros prontos pro seu nicho. E repara, este vídeo começou pela frase mais forte.",
+    "chave": [
+     "ROTEIRO",
+     "forte"
+    ],
+    "cta": "ROTEIRO"
+   }
+  ]
+ },
+ {
+  "id": "06",
+  "serie": "BOLSO DO DONO",
+  "tema": "BLACK FRIDAY",
+  "titulo": "O link do WhatsApp que perde venda na Black Friday",
+  "palavra": "LINK",
+  "capa": [
+   "SEU LINK",
+   "PERDE VENDA"
+  ],
+  "falas": [
+   {
+    "cap": "O GANCHO",
+    "cena": "mesa",
+    "obj": "celular",
+    "tec": "quarta",
+    "big": "BLACK FRIDAY",
+    "t": "Faltam poucos dias pra Black Friday, e o seu link do WhatsApp pode estar perdendo venda. Tem um detalhe que quase ninguém usa.",
+    "chave": [
+     "perdendo",
+     "detalhe"
+    ],
+    "tag": "BLACK FRIDAY · 27/11"
+   },
+   {
+    "cap": "O PROBLEMA",
+    "cena": "cidade",
+    "tec": "topdown",
+    "t": "O cliente clica no link da bio, abre a conversa em branco, não sabe o que escrever, e fecha.",
+    "chave": [
+     "branco",
+     "fecha"
+    ]
+   },
+   {
+    "cap": "A REGRA",
+    "cena": "cel",
+    "tec": "macro",
+    "t": "O próprio WhatsApp permite um link com a mensagem já escrita. O cliente só toca em enviar.",
+    "chave": [
+     "mensagem",
+     "enviar"
+    ],
+    "selo": "WHATSAPP · CLIQUE PARA CONVERSAR"
+   },
+   {
+    "cap": "ANTES × DEPOIS",
+    "cena": "mesa",
+    "obj": "balcao",
+    "tec": "split",
+    "t": "Sem mensagem, a conversa em branco. Com mensagem, oi, quero a promoção da Black Friday.",
+    "chave": [
+     "Sem",
+     "Com"
+    ],
+    "split": [
+     "EM BRANCO",
+     "MENSAGEM PRONTA"
+    ],
+    "tag": "EXEMPLO"
+   },
+   {
+    "cap": "O DETALHE",
+    "cena": "grafico",
+    "tec": "contador",
+    "t": "E o detalhe que quase ninguém usa, um link diferente pra cada lugar, da bio, do story e do anúncio. Assim você vê o que vende.",
+    "chave": [
+     "detalhe",
+     "vende"
+    ],
+    "num": "3 LINKS",
+    "numsub": "BIO · STORY · ANÚNCIO · EXEMPLO"
+   },
+   {
+    "cap": "A SAÍDA",
+    "cena": "mesa",
+    "obj": "caixa",
+    "obj2": "celular",
+    "tec": "morph",
+    "t": "Monta hoje, antes da correria, e testa no seu próprio celular.",
+    "chave": [
+     "hoje",
+     "testa"
+    ],
+    "ok": true
+   },
+   {
+    "cap": "ENQUETE",
+    "cena": "mesa",
+    "obj": "bonecos",
+    "tec": "explode",
+    "t": "O link da sua bio já tem mensagem pronta? Vota na enquete.",
+    "chave": [
+     "enquete"
+    ],
+    "enquete": [
+     "JÁ TEM",
+     "AINDA NÃO"
+    ]
+   },
+   {
+    "cap": "PRESENTE",
+    "cena": "mesa",
+    "obj": "celular",
+    "tec": "whip",
+    "t": "Comenta LINK, que eu monto o seu link com a mensagem pronta. E antes da Black Friday, troca o link da bio.",
+    "chave": [
+     "LINK",
+     "Black"
+    ],
+    "cta": "LINK"
+   }
+  ]
+ }
 ]

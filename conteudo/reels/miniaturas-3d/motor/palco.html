@@ -44,7 +44,15 @@ html,body{margin:0;width:540px;height:960px;overflow:hidden;background:#000}
 #capa .l{position:absolute;left:28px;right:28px;bottom:250px;font-family:Anton;color:#fff;font-size:84px;line-height:1.08;text-transform:uppercase}
 #capa .l em{font-style:normal;background:var(--am);color:#000;padding:2px 10px;display:inline-block;margin-top:8px;line-height:1}
 #capa .r{position:absolute;left:28px;bottom:215px;font-family:JB;font-size:12px;letter-spacing:.16em;color:var(--am)}
+#big{position:absolute;left:0;right:0;top:300px;text-align:center;font-family:Anton;font-size:110px;line-height:.95;color:var(--am);text-shadow:0 10px 40px rgba(0,0,0,.8);opacity:0;-webkit-text-stroke:2px #000}
+#cont{position:absolute;top:104px;left:22px;font-family:Anton;font-size:22px;color:#000;background:var(--am);padding:2px 10px;opacity:0}
+#spl{position:absolute;inset:0;opacity:0}
+#spl i{position:absolute;top:0;bottom:0;left:50%;width:4px;margin-left:-2px;background:var(--am)}
+#spl b{position:absolute;top:150px;font-family:JB;font-size:13px;letter-spacing:.1em;padding:5px 8px}
+#spl b.l{left:14px;background:#E5231B;color:#fff} #spl b.r{right:14px;background:var(--am);color:#000}
+#flash{position:absolute;inset:0;background:#fff;opacity:0;mix-blend-mode:overlay}
 body.capa #capa{display:block}
+body.capa #big,body.capa #cont,body.capa #spl{display:none}
 body.capa #leg,body.capa #marca,body.capa #num,body.capa #tag,body.capa #enq,body.capa #cta,body.capa #stamp{display:none}
 </style></head><body>
 <canvas id="c"></canvas>
@@ -56,7 +64,7 @@ body.capa #leg,body.capa #marca,body.capa #num,body.capa #tag,body.capa #enq,bod
     <circle cx="52" cy="52" r="50" fill="rgba(10,10,11,.85)" stroke="#FFD400" stroke-width="1.2"/>
     <g id="rot"><text font-family="JB" font-size="8.4" letter-spacing="2" fill="#F4F1E8"><textPath href="#cp">FONTE · FONTE · FONTE · FONTE · FONTE · FONTE · </textPath></text></g></svg>
     <div class="in" id="si"></div></div>
-  <div id="tag"></div>
+  <div id="tag"></div><div id="cont"></div><div id="spl"><i></i><b class="l" id="sl"></b><b class="r" id="sr"></b></div><div id="big"></div><div id="flash"></div>
   <div id="num"><div class="n" id="nn"></div><div class="d" id="nd"></div></div>
   <div id="enq"><h4 id="eh">Enquete</h4><p><u></u><s id="e1"></s></p><p><u></u><s id="e2"></s></p></div>
   <div id="cta"><div class="a">COMENTA A PALAVRA</div><div class="b" id="cb"></div><div class="a" style="margin-top:12px">QUE EU TE MANDO NO DIRECT</div></div>
@@ -119,7 +127,7 @@ function telaTex(linhas) {
   }
   const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; return t;
 }
-const OBJ = {}, ANG = {celular: 0, relogio: 1.25, balcao: 2.5, caixa: 3.75, moedas: 5.0, pizza: 1.9, coracao: 4.4, aviao: .62, bonecos: 3.1};
+const OBJ = {}, ANG = {pin: 5.6, celular: 0, relogio: 1.25, balcao: 2.5, caixa: 3.75, moedas: 5.0, pizza: 1.9, coracao: 4.4, aviao: .62, bonecos: 3.1};
 function poe(nome, g, raio = 3.6) { const a = ANG[nome]; g.position.set(Math.sin(a) * raio, 0, Math.cos(a) * raio); g.rotation.y = a; S.add(g); OBJ[nome] = g; return g; }
 // celular gigante em pé
 { const g = new THREE.Group(); const corpo = mesh(new THREE.BoxGeometry(1.5, 3, .16), preto, 0, 1.6, 0); g.add(corpo);
@@ -175,6 +183,41 @@ function poe(nome, g, raio = 3.6) { const a = ANG[nome]; g.position.set(Math.sin
 { const g = new THREE.Group(); for (let i = 0; i < 9; i++) { const b = boneco(i % 3 == 0 ? .9 : 0); b.position.set((i % 3 - 1) * .8, 0, ((i / 3 | 0) - 1) * .8); g.add(b); }
   const pl = mesh(new THREE.CylinderGeometry(1.6, 1.6, .06, 40), amarelo, 0, .03, 0); g.add(pl); poe('bonecos', g, 3.8); }
 
+// pin gigante de mapa
+{ const g = new THREE.Group(); const sh = new THREE.Shape(); sh.absarc(0, 0, .8, Math.PI * -.15, Math.PI * 1.15, false); sh.lineTo(0, -1.6); sh.closePath();
+  const pin = mesh(new THREE.ExtrudeGeometry(sh, {depth: .4, bevelEnabled: true, bevelSize: .06, bevelThickness: .06}), amarelo, 0, 2.3, -.2); g.add(pin);
+  g.add(mesh(new THREE.CylinderGeometry(.32, .32, .5, 24), preto, 0, 2.3, 0).rotateX(Math.PI / 2));
+  const disco = mesh(new THREE.CylinderGeometry(1.4, 1.4, .04, 40), M(0x2a2a2c, .9), 0, .02, 0); g.add(disco);
+  for (let i = 0; i < 3; i++) { const b = boneco(i == 1 ? .9 : 0); b.position.set(-1 + i, 0, 1.2); b.scale.setScalar(.7); g.add(b); }
+  poe('pin', g, 4.2); }
+// CENÁRIOS extras: cidade em miniatura, gráfico 3D, dentro do celular
+const CEN = {mesa: new THREE.Vector3(0, 0, 0), cidade: new THREE.Vector3(60, 0, 0), grafico: new THREE.Vector3(-60, 0, 0), cel: new THREE.Vector3(0, 0, 60)};
+{ const g = new THREE.Group(); g.position.copy(CEN.cidade); S.add(g);
+  g.add(mesh(new THREE.BoxGeometry(18, .3, 18), M(0x0e0e0f, .9), 0, -.15, 0));
+  const jan = new THREE.MeshStandardMaterial({color: 0x1a1a1b, emissive: AM, emissiveIntensity: .0, roughness: .6});
+  let sd = 7; const rnd = () => (sd = (sd * 9301 + 49297) % 233280) / 233280;
+  for (let x = -7; x <= 7; x += 2) for (let z = -7; z <= 7; z += 2) { if (Math.abs(x) < 2 && Math.abs(z) < 2) continue; if (Math.abs(x) == 3 || Math.abs(z) == 3) continue;
+    const h = .6 + rnd() * 3.2; const b = mesh(new THREE.BoxGeometry(1.5, h, 1.5), rnd() > .82 ? amarelo : M(0x1c1c1e, .7), x, h / 2, z); g.add(b);
+    if (rnd() > .5) g.add(mesh(new THREE.BoxGeometry(1.52, .08, 1.52), new THREE.MeshBasicMaterial({color: AM}), x, h * .7, z)); }
+  for (let i = 0; i < 14; i++) { const b = boneco(); b.scale.setScalar(.35); b.position.set(-3 + (i % 7), 0, i < 7 ? 3 : -3); g.add(b); }
+  const pin = mesh(new THREE.ConeGeometry(.5, 1.4, 24), amarelo, 0, 1.4, 0); pin.rotation.x = Math.PI; g.add(pin, mesh(new THREE.SphereGeometry(.55, 24, 16), amarelo, 0, 2.3, 0)); g.userData.pin = pin; CEN.cidadeG = g; }
+{ const g = new THREE.Group(); g.position.copy(CEN.grafico); S.add(g);
+  g.add(mesh(new THREE.BoxGeometry(9, .3, 5), M(0x0e0e0f, .9), 0, -.15, 0)); const barras = [];
+  [1.2, 2, 1.6, 3.2, 5.2].forEach((h, i) => { const b = mesh(new THREE.BoxGeometry(1.1, 1, 1.1), i == 4 ? amarelo : M(0x3a3a3c, .6), -3.2 + i * 1.6, 0, 0); b.userData.h = h; g.add(b); barras.push(b); });
+  g.userData.barras = barras; const b = boneco(.9); b.position.set(4.2, 0, 1.2); g.add(b); CEN.graficoG = g; }
+{ const g = new THREE.Group(); g.position.copy(CEN.cel); S.add(g);
+  g.add(mesh(new THREE.BoxGeometry(7, .2, 14), M(0x0b141a, .8), 0, -.1, 0));
+  const bal = (txt, lado, z, y) => { const c = document.createElement('canvas'); c.width = 512; c.height = 128; const x = c.getContext('2d');
+    x.fillStyle = lado ? '#005c4b' : '#202c33'; x.beginPath(); x.roundRect(0, 0, 512, 128, 40); x.fill(); x.fillStyle = '#e9edef'; x.font = 'bold 54px Manrope'; x.fillText(txt, 36, 84);
+    const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace;
+    const m = new THREE.Mesh(new THREE.BoxGeometry(3.6, .9, .25), [preto, preto, preto, preto, new THREE.MeshBasicMaterial({map: t}), preto]); m.position.set(lado ? 1.4 : -1.4, y, z); m.castShadow = true; g.add(m); return m; };
+  g.userData.b = [bal('Quanto custa?', 0, 3, 1.2), bal('Oi! É pra hoje?', 1, 1, 2.1), bal('Visto 14:02', 0, -1, 3), bal('Comenta aqui 👇', 1, -3, 3.9)];
+  for (let i = 0; i < 6; i++) { const b = boneco(); b.scale.setScalar(.6); b.position.set(-2.5 + i, 0, 4.5); g.add(b); } CEN.celG = g; }
+// explosão de partículas
+const NE = 320, eg = new THREE.BufferGeometry(), ep = new Float32Array(NE * 3), ev = [];
+for (let i = 0; i < NE; i++) { const a = Math.random() * 6.283, b = Math.acos(Math.random() * 2 - 1), v = 2 + Math.random() * 5; ev.push([Math.sin(b) * Math.cos(a) * v, Math.abs(Math.cos(b)) * v + 1, Math.sin(b) * Math.sin(a) * v]); }
+eg.setAttribute('position', new THREE.BufferAttribute(ep, 3)); const emat = new THREE.PointsMaterial({color: AM, size: .12, transparent: true, opacity: 0}); const EP = new THREE.Points(eg, emat); S.add(EP);
+const HOME = {}; for (const n in OBJ) HOME[n] = OBJ[n].position.clone();
 // ===== linha do tempo =====
 let D = null; const $ = id => document.getElementById(id);
 const ease = x => x < 0 ? 0 : x > 1 ? 1 : x * x * (3 - 2 * x), back = x => { x = Math.min(1, Math.max(0, x)); const c = 1.7; return 1 + (c + 1) * (x - 1) ** 3 + c * (x - 1) ** 2; };
@@ -190,46 +233,86 @@ function camPara(nome, k) { const o = OBJ[nome], a = ANG[nome] + .35 * Math.sin(
   return {p: new THREE.Vector3(o.position.x + Math.sin(a) * dist, 3.4 + 1.0 * (1 - k), o.position.z + Math.cos(a) * dist), t: new THREE.Vector3(o.position.x, 1.15, o.position.z)}; }
 function stampSvg(x) { return x ? '<circle cx="50" cy="50" r="44" fill="none" stroke="#E5231B" stroke-width="7"/><path d="M28 28L72 72M72 28L28 72" stroke="#E5231B" stroke-width="11" stroke-linecap="round"/>'
   : '<circle cx="50" cy="50" r="44" fill="#FFD400"/><path d="M28 52L44 67L74 35" stroke="#000" stroke-width="11" fill="none" stroke-linecap="round" stroke-linejoin="round"/>'; }
+function foco(f) { if (f.cena && f.cena != 'mesa') { const c = CEN[f.cena]; return {p: c.clone().add(new THREE.Vector3(0, f.cena == 'cel' ? 2 : 1.2, 0)), a: 0, R: f.cena == 'cidade' ? 2 : 1.2}; }
+  const o = OBJ[f.obj] || OBJ.celular; return {p: new THREE.Vector3(o.position.x, 1.15, o.position.z), a: ANG[f.obj] || 0, R: 1}; }
+function camPose(i, t) {
+  const f = D.r.falas[i], s = D.tl[i], dt = t - s.ini, len = Math.max(1, (D.tl[i + 1] ? D.tl[i + 1].ini : D.total) - s.ini), k = ease(dt / len), F = foco(f);
+  const sc = f.tec == 'split' ? 0 : Math.floor(Math.max(0, dt) / 2.6); // padrão quebrado a cada 2,6 s
+  const az = F.a + sc * 1.05 * (sc % 2 ? 1 : -1) + .3 * Math.sin(k * 1.3); let p, fov = 38, sh = 0, tg = F.p.clone();
+  const orb = (dist, y) => new THREE.Vector3(F.p.x + Math.sin(az) * dist * F.R, y, F.p.z + Math.cos(az) * dist * F.R);
+  switch (f.tec) {
+    case 'topdown': p = F.p.clone().add(new THREE.Vector3(Math.sin(az + t * .2) * .8, 13 * F.R * .7 - 2 * k, Math.cos(az + t * .2) * .8)); fov = 42; break;
+    case 'macro': p = orb(3.4 - k * .6, 1.25 + .3 * Math.sin(t)); fov = 24; tg.y = 1.3; break;
+    case 'punch': { const pk = dt < .18 ? dt / .18 : Math.max(0, 1 - (dt - .18) / .5); fov = 38 - 14 * pk; sh = pk * .06; p = orb(7.6 - k, 3.2); break; }
+    case 'quarta': p = orb(9 - k * 2.4, 3.6 - k); if (i == 0) { const e = ease(t / 1.4); p.y += (1 - e) * 3; } sh = dt > 0 && dt < .35 ? (1 - dt / .35) * .05 : 0; break;
+    case 'whip': { const w = dt < .35 ? 1 - ease(dt / .35) : 0; const a2 = az + w * 2.6; p = new THREE.Vector3(F.p.x + Math.sin(a2) * 7.5, 3.2, F.p.z + Math.cos(a2) * 7.5); break; }
+    case 'explode': p = orb(10.5 - k * 1.5, 5 - k); fov = 40; break;
+    case 'contador': p = orb(8 - k * 1.6, 2.6 + k * 1.4); tg.y = 2; break;
+    default: p = orb(8.6 - k * 1.6, 3.4 + (1 - k)); }
+  if (f.num && dt > .6 && dt < 1) sh += (1 - (dt - .6) / .4) * .06;
+  return {c: {p, t: tg}, fov, sh, sc, dt};
+}
 let ultFala = -1;
 window.seek = t => {
   const r = D.r, tl = D.tl; let i = tl.findIndex((s, j) => t < (tl[j + 1] ? tl[j + 1].ini : 1e9)); if (i < 0) i = tl.length - 1;
-  const f = r.falas[i], s = tl[i], dt = t - s.ini, k = ease((t - s.ini) / Math.max(1, s.fim - s.ini));
-  // câmera: viaja da fala anterior (0,7 s) e passeia
-  let cam = camPara(f.obj, k);
-  if (i > 0 && dt < .7) { const pr = camPara(r.falas[i - 1].obj, 1), e = ease(dt / .7); cam.p = pr.p.lerp(cam.p, e); cam.t = pr.t.lerp(cam.t, e); }
-  if (i == 0) { const e = ease(t / 1.6); cam.p.y += (1 - e) * 4; cam.p.multiplyScalar(1 + (1 - e) * .5); }
-  let shake = 0; if (f.num && dt > .6 && dt < 1.0) shake = (1 - (dt - .6) / .4) * .08;
-  C.position.copy(cam.p).add(new THREE.Vector3(Math.sin(t * 90) * shake, Math.cos(t * 77) * shake, 0)); C.lookAt(cam.t);
+  const f = r.falas[i], s = tl[i], dt = t - s.ini, k = ease((t - s.ini) / Math.max(1, s.fim - s.ini)); D.total = D.total || 60;
+  const pose = camPose(i, t); let cam = pose.c; C.fov = pose.fov; C.updateProjectionMatrix();
+  // final emenda no começo: volta à pose do quadro 0
+  const fimT = D.total; if (t > fimT - .8) { const e = ease((t - (fimT - .8)) / .8), c0 = camPose(0, 0).c; cam.p.lerp(c0.p, e); cam.t.lerp(c0.t, e); }
+  C.position.copy(cam.p).add(new THREE.Vector3(Math.sin(t * 90) * pose.sh, Math.cos(t * 77) * pose.sh, 0)); C.lookAt(cam.t);
   // objeto da fala salta
-  for (const n in OBJ) { const g = OBJ[n]; const on = n == f.obj; g.scale.setScalar(on ? .9 + .1 * back(dt / .5) : 1); }
+  for (const n in OBJ) { const g = OBJ[n]; g.position.copy(HOME[n]); const on = n == f.obj; g.scale.setScalar(on ? .9 + .1 * back(dt / .5) : 1); }
+  if (f.tec == 'morph' && f.obj2 && OBJ[f.obj2]) { const m = ease((dt - 1.0) / .5), A = OBJ[f.obj], B2 = OBJ[f.obj2];
+    if (m > 0) { B2.position.copy(HOME[f.obj]); A.position.y = -20 * (m >= 1); A.scale.setScalar(Math.max(.001, 1 - m)); B2.scale.setScalar(Math.max(.001, m)); } }
+  { const on = f.tec == 'explode' || (f.tec == 'morph' && dt > .9 && dt < 2.4); const t0 = f.tec == 'explode' ? .15 : .9, q = Math.max(0, dt - t0), F = foco(f).p;
+    emat.opacity = on ? Math.max(0, 1 - q / 1.8) : 0;
+    if (on) for (let j = 0; j < NE; j++) { const v = ev[j]; ep[j * 3] = F.x + v[0] * q * .8; ep[j * 3 + 1] = Math.max(0, .5 + v[1] * q - 4.9 * q * q * .5); ep[j * 3 + 2] = F.z + v[2] * q * .8; }
+    eg.attributes.position.needsUpdate = true; }
+  CEN.graficoG.userData.barras.forEach((b, j) => { const h = b.userData.h * (f.cena == 'grafico' ? back(Math.max(0, dt - .2 - j * .12) / .6) : 1); b.scale.y = Math.max(.01, h); b.position.y = h / 2; });
+  CEN.cidadeG.userData.pin.position.y = 1.4 + Math.abs(Math.sin(t * 3)) * .4;
+  CEN.celG.userData.b.forEach((b, j) => { b.position.y = [1.2, 2.1, 3, 3.9][j] + Math.sin(t * 1.5 + j) * .12; b.rotation.y = Math.sin(t * .7 + j) * .15; });
   const rel = OBJ.relogio.userData.p; rel[1].rotation.z = -t * 2.2; rel[0].rotation.z = -t * .18;
   OBJ.aviao.userData.av.position.set(Math.sin(t * 1.4) * .4, 1.8 + Math.sin(t * 2) * .2, 0); OBJ.aviao.userData.av.rotation.z = Math.sin(t * 1.4) * .3;
   OBJ.coracao.userData.h.rotation.y = Math.sin(t) * .4; OBJ.pizza.userData.fat.position.set(.4 + Math.sin(t * 1.5) * .15, .3 + Math.max(0, Math.sin(t * 1.5)) * .5, -.4);
   if (ultFala != i) { OBJ.celular.userData.tela.material.map = f.cta ? TEL.b : TEL.a; OBJ.celular.userData.tela.material.needsUpdate = true; ultFala = i; }
   for (let j = 0; j < NP; j++) { const q = seed[j]; pp[j * 3] = q[0] + Math.sin(t * .3 + q[3] * 9) * .6; pp[j * 3 + 1] = (q[1] + t * .25 * (q[3] + .3)) % 9; pp[j * 3 + 2] = q[2] + Math.cos(t * .25 + q[3] * 7) * .6; }
   pg.attributes.position.needsUpdate = true;
-  R.render(S, C);
+  if (f.tec == 'split') { const F = foco(f), C2 = C.clone(), a = foco(f).a + Math.PI * .9 + t * .15;
+    C2.position.set(F.p.x + Math.sin(a) * 7, 3, F.p.z + Math.cos(a) * 7); C2.lookAt(F.p); C.aspect = C2.aspect = 270 / 960; C.updateProjectionMatrix(); C2.updateProjectionMatrix();
+    R.setScissorTest(true); R.setViewport(0, 0, 270, 960); R.setScissor(0, 0, 270, 960); R.render(S, C); R.setViewport(270, 0, 270, 960); R.setScissor(270, 0, 270, 960); R.render(S, C2);
+    R.setScissorTest(false); R.setViewport(0, 0, 540, 960); C.aspect = 540 / 960; C.updateProjectionMatrix(); }
+  else R.render(S, C);
   // HUD e cartões
   $('hc').textContent = String(i + 1).padStart(2, '0') + ' · ' + f.cap;
   [...$('prog').children].forEach((b, j) => b.firstChild.style.transform = `scaleX(${j < i ? 1 : j > i ? 0 : Math.min(1, dt / (s.fim - s.ini))})`);
   const fade = (el, on, d0 = 0) => { const a = on ? ease((dt - d0) / .25) : 0; el.style.opacity = a; return a; };
   if (fade($('selo'), !!f.selo, .2)) { $('si').textContent = f.selo; $('rot').setAttribute('transform', `rotate(${t * 40} 52 52)`); }
   const ta = fade($('tag'), !!f.tag, .1); if (ta) { $('tag').textContent = f.tag; $('tag').style.transform = `translateX(${(1 - ta) * -30}px)`; }
-  const na = fade($('num'), !!f.num, .5); if (na) { $('nn').textContent = f.num; $('nd').textContent = f.numsub; $('num').style.transform = `scale(${.85 + .15 * back((dt - .5) / .35)})`; }
+  const na = fade($('num'), !!f.num, .5); if (na) { $('nn').textContent = f.num; $('nd').textContent = f.numsub; $('num').style.transform = `scale(${.85 + .15 * back((dt - .5) / .35)})`;
+    const mm = f.num.match(/^([\d]+)(,(\d))?(.*)$/); if (f.tec == 'contador' && mm) { const alvo = parseFloat(mm[1] + '.' + (mm[3] || '0')), e = ease((dt - .5) / 1.2), v = alvo * e;
+      $('nn').textContent = (mm[3] ? v.toFixed(1).replace('.', ',') : Math.round(v)) + mm[4]; } }
   const ea = fade($('enq'), !!f.enquete, .2); if (ea) { $('eh').textContent = 'ENQUETE'; $('e1').textContent = f.enquete[0]; $('e2').textContent = f.enquete[1];
     $('enq').querySelectorAll('u').forEach((u, j) => u.style.transform = `scaleX(${ease((dt - 1.2) / 1) * (j ? .38 : .62)})`); }
   const ca = fade($('cta'), !!f.cta, .2); if (ca) { $('cb').textContent = f.cta; $('cb').style.transform = `scale(${.6 + .4 * back((dt - .2) / .4)})`; }
   const st = $('stamp'); const sOn = (f.x || f.ok) && !f.num && !f.enquete && !f.cta; const sa = sOn ? ease((dt - 1.4) / .2) : 0; st.style.opacity = sa;
   if (sa) { st.innerHTML = stampSvg(f.x); st.style.transform = `scale(${1.6 - .6 * back((dt - 1.4) / .3)}) rotate(-12deg)`; }
+  $('spl').style.opacity = f.tec == 'split' ? 1 : 0; if (f.split) { $('sl').textContent = f.split[0]; $('sr').textContent = f.split[1]; }
+  const co = $('cont'); co.style.opacity = f.cont ? 1 : 0; if (f.cont) { co.textContent = f.cont; co.style.transform = `scale(${1 + .4 * (1 - ease(dt / .3))})`; }
+  const bg = $('big'); let bo = 0; if (f.tec == 'quarta' && f.big) { const q = i == 0 ? Math.max(.35, dt + .35) : dt; const e = ease(q / .35); bo = q < 2.2 ? 1 : Math.max(0, 1 - (q - 2.2) / .3);
+    bg.textContent = f.big; bg.style.transform = `scale(${4 - 3 * e}) rotate(${-4 * (1 - e)}deg)`; bg.style.filter = `blur(${(1 - e) * 8}px)`; }
+  if (t > D.total - .8) { bg.textContent = D.r.falas[0].big || ''; bo = ease((t - (D.total - .8)) / .8); bg.style.transform = 'scale(1)'; bg.style.filter = 'none'; }
+  bg.style.opacity = bo;
+  // flash no corte e nos subcortes
+  const tsc = dt - pose.sc * 2.6; $('flash').style.opacity = (i > 0 && dt < .12) ? .8 * (1 - dt / .12) : (pose.sc > 0 && tsc < .1 ? .5 * (1 - tsc / .1) : 0);
   // legenda palavra por palavra (3 a 4 palavras por tela)
   const ws = D.ws; let w = ws.findIndex(x => t < x.b); if (w < 0) w = ws.length - 1; if (t < ws[w].a && w > 0 && ws[w - 1].f == ws[w].f) w--;
   const ini = w - (w % 4) , blk = ws.slice(ini, ini + 4).filter(x => x.f == ws[w].f);
   $('leg').innerHTML = t < ws[0].a - .2 ? '' : blk.map(x => `<span class="${x.k ? 'k' : ''}${t >= x.a ? ' on' : x.k ? ' off' : ''}">${x.w.replace(/[.,:?!]+$/, '')}</span>`).join('');
   // VFX: luz vazando e desfoque direcional na troca de fala
   $('leak').style.opacity = i > 0 && dt < .5 ? .7 * (1 - dt / .5) : .12 + .06 * Math.sin(t * 2);
-  cv.style.filter = i > 0 && dt < .25 ? `blur(${(1 - dt / .25) * 3}px)` : 'none';
+  cv.style.filter = f.tec == 'whip' && dt < .35 ? `blur(${(1 - dt / .35) * 7}px)` : (i > 0 && dt < .2 ? `blur(${(1 - dt / .2) * 3}px)` : 'none');
 };
 window.modoCapa = () => { document.body.classList.add('capa'); $('hc').textContent = '01 · ' + D.r.falas[0].cap; [...$('prog').children].forEach(b => b.firstChild.style.transform = 'scaleX(0)'); $('selo').style.opacity = 0; OBJ.celular.userData.tela.material.map = TEL.a; OBJ.celular.userData.tela.material.needsUpdate = true; $('leak').style.opacity = .35; cv.style.filter = 'none';
-  const nome = D.r.falas[0].obj, cam = camPara(nome, .6); C.position.copy(cam.p); C.lookAt(cam.t); for (const n in OBJ) OBJ[n].scale.setScalar(1); R.render(S, C); };
+  const cam = camPose(0, .9).c; C.fov = 38; C.updateProjectionMatrix(); C.position.copy(cam.p); C.lookAt(cam.t); for (const n in OBJ) OBJ[n].scale.setScalar(1); R.render(S, C); };
 document.fonts.ready.then(() => window.pronto = true);
 </script></body></html>
