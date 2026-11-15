@@ -1,0 +1,32 @@
+[
+{"n":1,"slug":"laudo-checklist","titulo":"Laudo WF em 5 testes","cenas":[
+ {"img":"artes-02/img/16-camsys.jpg","tag":"Antes de comprar","txt":"Seminovo sem laudo é aposta.","az":"aposta.","voz":"iPhone seminovo sem laudo é aposta."},
+ {"img":"artes-02/img/16-camsys.jpg","fy":0.2,"tag":"Teste 1 e 2","txt":"Tela e câmera testadas.","az":"testadas.","voz":"Na dábliu éfe, a tela e a câmera são testadas."},
+ {"img":"artes-02/img/17-camera.jpg","tag":"Teste 3 e 4","txt":"Face ID, som e sinal.","az":"sinal.","voz":"Face ID, som e sinal também."},
+ {"img":"artes-02/img/17-camera.jpg","fy":0.8,"tag":"Teste 5","txt":"Bateria medida e escrita no laudo.","az":"laudo.","voz":"E a saúde da bateria vai escrita no laudo."},
+ {"img":"artes-02/img/17-camera.jpg","fy":0.3,"tag":"WhatsApp","txt":"Pede o laudo do seu próximo iPhone.","sub":"(98) 98827-1882","az":"iPhone.","voz":"Quer ver o laudo do seu próximo iPhone? Chama no WhatsApp."}]},
+{"n":2,"slug":"assistencia-orcamento","titulo":"Assistência: orçamento antes de mexer","cenas":[
+ {"img":"identidade/banco/1605236453806-6ff36851218e.jpg","tag":"Tela quebrada?","txt":"Ninguém mexe no seu iPhone sem você saber o valor.","sz":96,"az":"valor.","voz":"Aqui ninguém mexe no seu iPhone sem você saber o valor."},
+ {"img":"identidade/banco/1605236453806-6ff36851218e.jpg","fy":0.15,"tag":"Passo 1","txt":"A gente abre e testa.","az":"testa.","voz":"Primeiro, a gente abre e testa."},
+ {"img":"identidade/banco/1605236453806-6ff36851218e.jpg","fy":0.85,"tag":"Passo 2","txt":"Passa o orçamento.","az":"orçamento.","voz":"Depois, passa o orçamento."},
+ {"img":"artes-02/img/12-back.jpg","tag":"Passo 3","txt":"Só conserta se você aprovar.","az":"aprovar.","voz":"E só conserta se você aprovar."},
+ {"img":"artes-02/img/12-back.jpg","fy":0.2,"tag":"Tela · bateria · conector · placa","txt":"Manda o modelo e o problema.","sub":"WhatsApp (98) 98827-1882","az":"problema.","voz":"Manda o modelo e o problema no WhatsApp."}]},
+{"n":3,"slug":"black-30-dias","titulo":"30 dias de Black na WF","cenas":[
+ {"img":"artes-02/img/17-orange.jpg","tag":"Black Friday WF","txt":"Black de um dia só? Aqui são 30.","az":"30.","voz":"Black Friday de um dia só? Na dábliu éfe são trinta dias."},
+ {"img":"artes-02/img/17-orange.jpg","fy":0.15,"tag":"Lacrados e seminovos","txt":"iPhone, iPad e Xiaomi.","az":"Xiaomi.","voz":"iPhone, iPad e Xiaomi, lacrados e seminovos."},
+ {"img":"artes-02/img/17-lineup.jpg","tag":"Procedência","txt":"Todo aparelho com laudo, garantia e nota.","sz":100,"az":"nota.","voz":"Todo aparelho sai com laudo, garantia e nota."},
+ {"img":"artes-02/img/17-lineup.jpg","fy":0.85,"tag":"Estoque","txt":"O estoque muda todo dia.","az":"dia.","voz":"O estoque muda todo dia."},
+ {"img":"artes-02/img/17-orange.jpg","fy":0.7,"tag":"WhatsApp","txt":"Pergunta pelo seu modelo.","sub":"(98) 98827-1882","az":"modelo.","voz":"Pergunta pelo seu modelo no WhatsApp."}]},
+{"n":4,"slug":"como-comprar","titulo":"Como comprar na WF em 3 jeitos","cenas":[
+ {"img":"artes-02/img/17-lock.jpg","tag":"Quer iPhone novo?","txt":"3 jeitos de levar o seu.","az":"seu.","voz":"Três jeitos de levar o seu iPhone da dábliu éfe."},
+ {"img":"artes-02/img/17-lock.jpg","fy":0.15,"tag":"Jeito 1","txt":"Pix com desconto.","az":"desconto.","voz":"No Pix, com desconto."},
+ {"img":"artes-02/img/12-darkmode.jpg","tag":"Jeito 2","txt":"Cartão em até 18x.","az":"18x.","voz":"No cartão, em até dezoito vezes."},
+ {"img":"artes-02/img/12-darkmode.jpg","fy":0.85,"tag":"Jeito 3","txt":"Entrega em São Luís ou retirada na loja.","sz":100,"az":"loja.","voz":"Com entrega em São Luís, consulte o bairro, ou retirada na loja."},
+ {"img":"artes-02/img/17-lock.jpg","fy":0.75,"tag":"São Cristóvão | Renascença","txt":"Escolhe o jeito e chama.","sub":"WhatsApp (98) 98827-1882","az":"chama.","voz":"Escolhe o jeito e chama no WhatsApp."}]},
+{"n":5,"slug":"duas-lojas","titulo":"Duas lojas em São Luís","cenas":[
+ {"img":"artes-02/img/11-water.jpg","tag":"São Luís","txt":"Comprar iPhone com quem entende de iPhone.","sz":100,"az":"iPhone.","voz":"Comprar iPhone com quem entende de iPhone."},
+ {"img":"artes-02/img/11-water.jpg","fy":0.2,"tag":"Loja 1","txt":"São Cristóvão.","az":"Cristóvão.","voz":"Tem loja no São Cristóvão."},
+ {"img":"artes-02/img/12-announce.jpg","tag":"Loja 2","txt":"Renascença.","az":"Renascença.","voz":"E na Renascença."},
+ {"img":"artes-02/img/12-announce.jpg","fy":0.85,"tag":"Num lugar só","txt":"Comprar, trocar ou consertar.","az":"consertar.","voz":"Pra comprar, trocar ou consertar o seu iPhone."},
+ {"img":"artes-02/img/11-water.jpg","fy":0.8,"tag":"WhatsApp","txt":"Passa na loja ou chama.","sub":"(98) 98827-1882","az":"chama.","voz":"Passa na loja ou chama no WhatsApp."}]}
+]

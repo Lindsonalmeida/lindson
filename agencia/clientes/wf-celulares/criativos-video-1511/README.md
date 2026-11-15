@@ -1,0 +1,2 @@
+# WF · 5 criativos de vídeo da campanha nova (conta Pedro, 15/11/2026) · aguardando aprovação
+9:16, 15–20 s, sem preço (temas: laudo, assistência, Black 30 dias, como comprar, duas lojas). Identidade aprovada B (preto, grafite, titânio, prata; azul só como luz). Voz pt-BR-AntonioNeural +4% por cena (sincronizada), SFX (impacto + whoosh nos cortes), VFX (punch-in, flash, grão), trilha Mixkit com ducking, -14 LUFS. Fotos: Apple Newsroom/Unsplash ilustrativas (ver FOTOS-USADAS). Gerar: `python3 gerar.py` (roteiros.json; `-f` refaz).

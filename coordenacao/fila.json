@@ -901,22 +901,22 @@
    "cli": "wf",
    "tarefa": "Novos criativos de vídeo para a campanha nova (pedido do Lindson 15/11)",
    "equipe": "Pedro",
-   "status": "andamento",
-   "nota": "",
+   "status": "aguardando aprovação",
+   "nota": "5 vídeos em painel/wf/criativos-1511 (aba Aprovações)",
    "partes": [],
    "pegou": "Pedro 15/11 20:11",
-   "atualizado": "15/11 20:11"
+   "atualizado": "Pedro 15/11 20:21"
   },
   {
    "id": "wf-1511-capas",
    "cli": "wf",
    "tarefa": "Capas dos Reels já postados",
    "equipe": "Pedro",
-   "status": "andamento",
-   "nota": "",
+   "status": "aguardando aprovação",
+   "nota": "6 capas em painel/wf/capas-reels; confirmar quais Reels estão postados",
    "partes": [],
    "pegou": "Pedro 15/11 20:11",
-   "atualizado": "15/11 20:11"
+   "atualizado": "Pedro 15/11 20:21"
   }
  ]
 }
