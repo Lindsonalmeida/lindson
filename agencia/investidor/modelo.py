@@ -17,6 +17,7 @@ P = dict(
     custo_func=2080,       # criador / gestor (README operação própria, planilha Alpha)
     custo_account=3000,
     limite_solo=15,        # até 15 clientes sozinho (decisão 05/11)
+    receita_agencia=4800,  # Jaci 1.500 + Leo 2.500 + WF 800 (Lindson, 15/11/2026)
     ferramentas=500,       # ferramentas/mês [estimativa: preencher com o real]
     rs_pct=0.10, rs_teto=1.5, rs_carencia=3, rs_prazo=60,  # revenue share sugerido
 )
@@ -49,7 +50,8 @@ def projetar(nome, meses=24, ticket=None, churn=None, novos_mult=1.0, aporte=Non
     for m in range(1, meses+1):
         n = novos_mes(c, m)*novos_mult
         cli = cli*(1-c['churn']) + n
-        rec = cli*c['ticket']
+        rec_piz = cli*c['ticket']
+        rec = rec_piz + P2['receita_agencia']
         trafego = P2['trafego_ini'] if m <= 2 else P2['trafego']
         equipe = 0
         if cli > P2['limite_solo']:
@@ -62,11 +64,11 @@ def projetar(nome, meses=24, ticket=None, churn=None, novos_mult=1.0, aporte=Non
         lucro = rec - custos
         rs = 0
         if m > P2['rs_carencia'] and acum_rs < teto:
-            rs = min(rec*P2['rs_pct'], teto-acum_rs)
+            rs = min(rec_piz*P2['rs_pct'], teto-acum_rs)
         acum_rs += rs
         if quitado is None and acum_rs >= teto-0.5: quitado = m
         caixa += lucro - rs - (8000+4500 if m == 1 else 0)
-        linhas.append(dict(m=m, novos=n, cli=cli, rec=rec, custos=custos, lucro=lucro, rs=rs, acum_rs=acum_rs, caixa=caixa))
+        linhas.append(dict(m=m, novos=n, cli=cli, rec=rec, rec_piz=rec_piz, custos=custos, lucro=lucro, rs=rs, acum_rs=acum_rs, caixa=caixa))
     return dict(linhas=linhas, quitado=quitado, teto=teto, c=c)
 
 def unit(nome):

@@ -66,7 +66,7 @@ Regras: `agencia/prospeccao/PADRAO-COPY.md` (Conexão → Dor → Desejo → Per
 2. **"E se der errado?"** No cenário conservador você recebe menos e mais devagar (a planilha mostra). A 2ª parcela só sai com o marco cumprido, então o risco máximo inicial é R$ 40 mil.
 3. **"Por que pizzaria?"** Nicho único: o mesmo roteiro, a mesma gravação e os mesmos cases servem para todas. São mais de 40 mil no Brasil (fonte no deck, a conferir).
 4. **"Você já tem cliente pizzaria?"** Ainda não. A operação está pronta (marca, site, planos, contrato). O dinheiro acelera a primeira venda, e a meta é 5 fundadoras em 60 dias. Por isso a parcela 2 depende delas.
-5. **"Quanto você fatura hoje?"** [preencher com o número real antes da reunião]. A agência tem 4 clientes pagantes ativos.
+5. **"Quanto você fatura hoje?"** R$ 4.800/mês, de 3 clientes pagantes (Jaci, Leo Pinto e WF Celulares).
 6. **"Por que não pega empréstimo?"** Empréstimo cobra juros mesmo no mês ruim. No revenue share, se a receita cai, a parcela cai junto: o risco é dividido.
 7. **"Por que eu não fico sócio?"** Pode: é a estrutura 3, sócio só na unidade de pizzarias. Eu recomendo a 2 porque você recebe todo mês sem depender de venda da empresa.
 8. **"E se você sumir, adoecer ou desistir?"** Processos escritos, equipe de IA que trabalha nos mesmos arquivos e contratação prevista. No contrato entra o que acontece nesse caso (advogado).

@@ -42,7 +42,7 @@ comuns = [
     ('rs_teto', 'Revenue share: teto (múltiplo do aporte)', M.P['rs_teto'], '0.00"x"', 'Estrutura 2 (sugestão)'),
     ('rs_car', 'Revenue share: carência (meses)', M.P['rs_carencia'], '0', 'Estrutura 2 (sugestão)'),
     ('mult', 'Multiplicador de clientes novos (sensibilidade)', 1, '0.00', 'Use 0,5 para testar metade da meta'),
-    ('fat_atual', 'Faturamento atual da agência/mês', None, R, '[preencher: faturamento atual] (não está no repositório)'),
+    ('fat_atual', 'Faturamento atual da agência/mês (base)', 4800, R, 'Lindson, 15/11/2026: Jaci R$ 1.500 + Leo Pinto R$ 2.500 + WF R$ 800'),
 ]
 NM = {}
 r = 5
@@ -89,7 +89,7 @@ for col, w in zip('ABCDE', (40, 70, 14, 12, 22)): u.column_dimensions[col].width
 # ---------------- Projeção ----------------
 p = wb.create_sheet('Projeção 24 meses')
 p['A1'] = 'PROJEÇÃO 24 MESES POR CENÁRIO (projeção, não promessa)'; p['A1'].font = T
-cols = ['Mês', 'Novos', 'Clientes', 'Receita', 'Tráfego', 'Equipe', 'Pró-labore', 'Variável', 'Imposto', 'Fixos + ferr.', 'Custos', 'Lucro', 'Revenue share', 'RS acumulado', 'Caixa']
+cols = ['Mês', 'Novos', 'Clientes', 'Receita (agência + pizzarias)', 'Tráfego', 'Equipe', 'Pró-labore', 'Variável', 'Imposto', 'Fixos + ferr.', 'Custos', 'Lucro', 'Revenue share', 'RS acumulado', 'Caixa']
 BLK = {}
 start = 3
 for j, n in enumerate(cen):
@@ -102,7 +102,7 @@ for j, n in enumerate(cen):
         p.cell(rr, 2, f"=IF(A{rr}<=4,INDEX({sc('n1',j)}:{sc('n4',j)},A{rr}),{sc('nd',j)})*{NM['mult']}")
         prev = f"C{pv}" if m > 1 else "0"
         p.cell(rr, 3, f"={prev}*(1-{sc('ch',j)})+B{rr}")
-        p.cell(rr, 4, f"=C{rr}*{sc('tk',j)}")
+        p.cell(rr, 4, f"=C{rr}*{sc('tk',j)}+{NM['fat_atual']}")
         p.cell(rr, 5, f"=IF(A{rr}<=2,{NM['traf0']},{NM['traf']})")
         p.cell(rr, 6, f"=IF(C{rr}>{NM['lim']},CEILING((C{rr}-{NM['lim']})/5,1)*{NM['func']}+{NM['func']}+{NM['acc']},IF(AND(A{rr}>={NM['cri_ini']},A{rr}<={NM['cri_fim']}),{NM['func']},0))")
         p.cell(rr, 7, f"=IF(C{rr}>=3,{NM['pl']},0)")
@@ -112,7 +112,7 @@ for j, n in enumerate(cen):
         p.cell(rr, 11, f"=SUM(E{rr}:J{rr})")
         p.cell(rr, 12, f"=D{rr}-K{rr}")
         acp = f"N{pv}" if m > 1 else "0"
-        p.cell(rr, 13, f"=IF(AND(A{rr}>{NM['rs_car']},{acp}<{NM['aporte']}*{NM['rs_teto']}),MIN(D{rr}*{NM['rs_pct']},{NM['aporte']}*{NM['rs_teto']}-{acp}),0)")
+        p.cell(rr, 13, f"=IF(AND(A{rr}>{NM['rs_car']},{acp}<{NM['aporte']}*{NM['rs_teto']}),MIN((D{rr}-{NM['fat_atual']})*{NM['rs_pct']},{NM['aporte']}*{NM['rs_teto']}-{acp}),0)")
         p.cell(rr, 14, f"={acp}+M{rr}")
         cxp = f"O{pv}" if m > 1 else NM['aporte']
         p.cell(rr, 15, f"={cxp}+L{rr}-M{rr}-IF(A{rr}=1,{NM['ini']},0)")

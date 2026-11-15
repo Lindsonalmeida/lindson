@@ -13,8 +13,8 @@ def achar(*cands):
     for c in cands:
         if pathlib.Path(c).exists(): return pathlib.Path(c)
     raise SystemExit('não achei: ' + str(cands))
-ANTON = achar(REPO/'conteudo/youtube/raposa-e-leao/produto/fonts/Anton-Regular.ttf', '/tmp/claude-0/-home-user/fabab33e-729e-58f9-992e-e0c09a689812/scratchpad/inv-main/conteudo/youtube/raposa-e-leao/produto/fonts/Anton-Regular.ttf')
-MANROPE = achar(REPO/'agencia/operacao-propria/reels/motor/fontes/manrope.woff2', '/tmp/claude-0/-home-user/fabab33e-729e-58f9-992e-e0c09a689812/scratchpad/inv-main/agencia/operacao-propria/reels/motor/fontes/manrope.woff2')
+ANTON = achar(REPO/'conteudo/youtube/raposa-e-leao/produto/fonts/Anton-Regular.ttf', '/tmp/claude-0/-home-user/fabab33e-729e-58f9-992e-e0c09a689812/scratchpad/fonts/Anton-Regular.ttf')
+MANROPE = achar(REPO/'agencia/operacao-propria/reels/motor/fontes/manrope.woff2', '/tmp/claude-0/-home-user/fabab33e-729e-58f9-992e-e0c09a689812/scratchpad/fonts/manrope.woff2')
 def foto(rel): return (PRIV/rel).as_uri()
 # cada foto uma vez só (regra do dono). Deck: capa, solução, time, pedido. Plano: capa e time. One-pager: 1.
 F = dict(capa='membros/img/c16.jpg', solucao='membros/img/c10.jpg', time='site/img/lindson-sobre.jpg', pedido='membros/img/c13.jpg',

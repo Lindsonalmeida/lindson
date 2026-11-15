@@ -47,7 +47,7 @@ def slides_deck(c):
     S.append(('03 · O que já existe (sem o seu dinheiro)', '''
 <h2>A fábrica já está <span class="am">montada</span>.</h2>
 <div class="g4" style="margin-top:30px">
-<div class="box"><div class="big">4</div><p><b>clientes pagantes ativos</b>: Dra. Jaci Cunha, Tribuna 98, Vereador Leo Pinto e Real Time.</p></div>
+<div class="box"><div class="big">R$ 4.800</div><p><b>por mês de receita atual</b>, de 3 clientes pagantes: Dra. Jaci, Leo Pinto e WF Celulares.</p></div>
 <div class="box"><div class="big">72</div><p><b>trabalhos no portfólio</b> do site oficial: marca, Instagram, sites, apps, vídeo, estratégia.</p></div>
 <div class="box"><div class="big">4</div><p><b>sites de clientes no ar</b> (pages.dev): Jaci, Tribuna 98, Desentupidora SF e Rafael Imports.</p></div>
 <div class="box"><div class="big">1</div><p><b>Central do Cliente</b>: painel por cliente com aprovações, entregas, pagamentos e relatório.</p></div>
@@ -58,10 +58,9 @@ def slides_deck(c):
     S.append(('04 · Tração real', f'''
 <h2>Tração: o que é <span class="am">fato</span> hoje.</h2>
 <table style="margin-top:14px"><tr><th>Indicador</th><th>Situação real (repositório, 15/11/2026)</th></tr>
-<tr><td>Clientes pagantes</td><td>4 ativos (Jaci desde out/2026, Leo Pinto desde out/2026, Real Time desde nov/2026, Tribuna 98)</td></tr>
-<tr><td>Outros trabalhos entregues</td><td>Desentupidora SF (mini site e artes), Rafael Imports (mini site), WF Celulares (rebranding, ainda sem contrato)</td></tr>
-<tr><td>Faturamento mensal da agência</td><td>{pf('faturamento atual por mês')}</td></tr>
-<tr><td>Quanto paga cada cliente</td><td>{pf('valores dos contratos (estão nos PDFs, fora do GitHub)')}</td></tr>
+<tr><td>Clientes pagantes</td><td>3: Dra. Jaci R$ 1.500, Leo Pinto R$ 2.500, WF Celulares R$ 800 (por mês)</td></tr>
+<tr><td>Outros trabalhos entregues</td><td>Tribuna 98 e Real Time (sites e conteúdo, sem pagamento hoje), Desentupidora SF, Rafael Imports</td></tr>
+<tr><td>Faturamento mensal da agência</td><td><b>R$ 4.800/mês</b> (base atual; entra na projeção somada às pizzarias)</td></tr>
 <tr><td>Clientes pizzaria (Orégano Turbo)</td><td>0 · operação pronta para a primeira venda; meta aprovada: 5 fundadoras em 60 dias</td></tr>
 </table>
 <div class="g3" style="margin-top:24px"><div class="box"><p><b class="am">Confira ao vivo</b><br>Central do Cliente, sites no ar e portfólio em lindsonalmeida.pages.dev</p></div>
@@ -103,7 +102,7 @@ A capacidade do plano é pequena perto disso: <b>15 pizzarias</b> com o Lindson 
     S.append(('09 · Projeção em 3 cenários', f'''
 <h2>Receita mensal <span class="am">projetada</span>.</h2>
 <div class="g2" style="grid-template-columns:1.15fr 1fr;gap:50px"><div>{c['barras']('rec')}</div><div>{cards_cen(c)}</div></div>
-<p class="cz" style="margin-top:14px;font-size:25px">Projeção, não promessa. Premissas: clientes novos por mês, ticket e churn por cenário; custos de PRECOS-PIZZARIAS.md; equipe a partir do 16º cliente; pró-labore R$ 3.000 a partir do 3º. Lucro antes do revenue share. Planilha com fórmulas anexa.</p>'''))
+<p class="cz" style="margin-top:14px;font-size:25px">Projeção, não promessa. Premissas: clientes novos por mês, ticket e churn por cenário; custos de PRECOS-PIZZARIAS.md; equipe a partir do 16º cliente; pró-labore R$ 3.000 a partir do 3º. Receita inclui os R$ 4.800/mês atuais da agência. Planilha anexa.</p>'''))
     S.append(('10 · Unit economics', f'''
 <h2>Cada cliente <span class="am">se paga</span> rápido?</h2>
 <div class="g2" style="grid-template-columns:1.25fr 1fr;gap:50px"><div>{c['tabela_unit']()}</div>
@@ -139,7 +138,7 @@ A capacidade do plano é pequena perto disso: <b>15 pizzarias</b> com o Lindson 
     S.append(('14 · O time', f'''
 <img class="fot" src="{foto(F['time'])}"><div class="fade"></div>
 <div style="width:840px"><h2>Quem <span class="am">executa</span>.</h2>
-<p><b class="am">Lindson Almeida</b> · estrategista digital de São Luís, dono de agência de gestão de redes sociais, criador dos canais Passaporte da Bíblia e Raposa e Leão. Atende hoje Jaci, Tribuna 98, Leo Pinto e Real Time.</p>
+<p><b class="am">Lindson Almeida</b> · estrategista digital de São Luís, dono de agência de gestão de redes sociais, criador dos canais Passaporte da Bíblia e Raposa e Leão. Clientes pagantes hoje: Jaci, Leo Pinto e WF Celulares.</p>
 <p style="margin-top:16px"><b class="am">Equipe Claude</b> · 4 contas de IA trabalhando no mesmo repositório, com gerente (Maquiavel) e especialistas de oferta e preço (Hormozi), copy, design, sistemas (Builder), pizzaria (Paollo e Rocco) e YouTube (Peter).</p>
 <p style="margin-top:16px"><b class="am">Próximas contratações</b> · criador (grava e edita), gestor de tráfego e account, a partir do 16º cliente, cada um com teste pago antes.</p>
 <p style="margin-top:16px"><b class="am">Apoio</b> · contador e advogado {pf('nomes')}.</p></div>'''))
@@ -168,8 +167,8 @@ def paginas_plano(c):
     P.append(f'''<h2>Sumário <span class="am">executivo</span></h2>
 <div class="g3" style="margin:10px 0 14px"><div class="box"><div class="big">{b(ap)}</div><p class="nota">pedido (faixa R$ 50 a 80 mil)</p></div>
 <div class="box"><div class="big">{M.P['rs_pct']*100:.0f}% · {M.P['rs_teto']:.1f}x</div><p class="nota">revenue share com teto (recomendado)</p></div>
-<div class="box"><div class="big">4</div><p class="nota">clientes pagantes ativos hoje</p></div></div>
-<p><b>O que é.</b> Uma assessoria de marketing só para pizzarias (Orégano Turbo), com três planos com prazo (Muralha, Fortaleza e Cidadela), pagamento antecipado, relatório de segunda e a Central do Cliente. Nasce dentro de uma agência que já atende 4 clientes pagantes e tem 72 trabalhos publicados no portfólio.</p>
+<div class="box"><div class="big">R$ 4.800</div><p class="nota">receita atual/mês (3 pagantes)</p></div></div>
+<p><b>O que é.</b> Uma assessoria de marketing só para pizzarias (Orégano Turbo), com três planos com prazo (Muralha, Fortaleza e Cidadela), pagamento antecipado, relatório de segunda e a Central do Cliente. Nasce dentro de uma agência que já fatura R$ 4.800/mês com 3 clientes pagantes e tem 72 trabalhos publicados no portfólio.</p>
 <p><b>Por que agora.</b> A operação está pronta para vender (identidade, site com planos, kit social, contrato, preços aprovados). Falta dinheiro para acelerar a aquisição de clientes (tráfego), gravar com qualidade (equipamento) e contratar o primeiro criador antes que o Lindson chegue ao limite de 15 clientes sozinho.</p>
 <p><b>O pedido.</b> {b(ap)} em 2 parcelas ({b(40000)} na assinatura e {b(30000)} com 5 pizzarias pagantes), para 12 meses de uso.</p>
 <p><b>A contrapartida sugerida.</b> {M.P['rs_pct']*100:.0f}% da receita bruta da operação de pizzarias, a partir do mês {M.P['rs_carencia']+1}, até atingir {M.P['rs_teto']:.1f}x o aporte ({b(teto)}), com prazo máximo de {M.P['rs_prazo']} meses. Sem cotas, sem voto, com relatório mensal.</p>
@@ -191,8 +190,8 @@ def paginas_plano(c):
 <p>Preço 16% a 36% abaixo da referência do mercado, operação enxuta com equipe de IA, sistema próprio de acompanhamento e presença local em São Luís. A falta de autoridade no nicho é compensada com risco menor para o cliente: prazo mínimo de 3 meses, garantia de entrega e 5 vagas de fundadora.</p>''')
     P.append(f'''<h2>O que já <span class="am">existe</span></h2>
 <table><tr><th>Ativo</th><th>Situação (repositório, 15/11/2026)</th></tr>
-<tr><td>Clientes pagantes</td><td>Dra. Jaci Cunha (desde out/2026), Vereador Leo Pinto (desde out/2026), Real Time (desde nov/2026), Tribuna 98</td></tr>
-<tr><td>Outros trabalhos</td><td>Desentupidora SF (mini site e artes), Rafael Imports (mini site), WF Celulares (rebranding, sem contrato), curso de processo legislativo</td></tr>
+<tr><td>Clientes pagantes</td><td>Dra. Jaci Cunha R$ 1.500/mês, Vereador Leo Pinto R$ 2.500/mês, WF Celulares R$ 800/mês = R$ 4.800/mês</td></tr>
+<tr><td>Outros trabalhos</td><td>Tribuna 98 e Real Time (sem pagamento hoje), Desentupidora SF, Rafael Imports, curso de processo legislativo</td></tr>
 <tr><td>Portfólio</td><td>72 trabalhos no site oficial (marca 19, Instagram 17, apps 8, sites 8, vídeo 7, produtos 6, estratégia 5, YouTube 2)</td></tr>
 <tr><td>Sites de clientes no ar</td><td>drajacicunha, tribuna98, desentupidorasf e rafaelimports (.pages.dev)</td></tr>
 <tr><td>Central do Cliente</td><td>Painel por cliente: aprovações, entregas, pagamentos, relatórios, fotos usadas</td></tr>
@@ -201,7 +200,6 @@ def paginas_plano(c):
 <tr><td>Ferramentas internas</td><td>App SDR com botão de WhatsApp, Dublê (clone de voz e imagem), geradores de artes e vídeos</td></tr>
 <tr><td>Canais próprios</td><td>Passaporte da Bíblia e Raposa e Leão (YouTube)</td></tr></table>
 <h3>O que ainda é campo em branco</h3><ul>
-<li>Faturamento mensal da agência: {pf('valor')}</li><li>Valor de cada contrato ativo: {pf('valores')}</li>
 <li>Custos fixos reais do mês: {pf('valor; o plano usa R$ 1.500 + R$ 500 de ferramentas')}</li></ul>''')
     P.append(f'''<h2>Mercado e <span class="am">cliente</span></h2>
 <div class="g3"><div class="box"><div class="big">40.332</div><p class="nota">pizzarias no Brasil</p></div><div class="box"><div class="big">98%</div><p class="nota">fazem delivery</p></div><div class="box"><div class="big">75%</div><p class="nota">usam aplicativo</p></div></div>
@@ -254,7 +252,7 @@ def paginas_plano(c):
 <li>Novos clientes: conservador 1/mês, base 2/mês (meta aprovada), otimista 3/mês, com rampa nos 4 primeiros meses.</li>
 <li>Ticket médio: R$ 2.000 · R$ 2.400 (o da projeção já aprovada) · R$ 2.700. Churn: 7% · 5% · 3% ao mês.</li>
 <li>Custos: fixos R$ 1.500 + ferramentas R$ 500 [estimativa], R$ 150 por cliente, 6% de imposto [Conferir com contador], tráfego R$ 900 nos meses 1 e 2 e R$ 1.500 depois, criador de R$ 2.080 nos meses 4 a 9, equipe completa acima de 15 clientes, pró-labore R$ 3.000 a partir do 3º cliente.</li>
-<li>Lucro antes do revenue share. Começa de zero cliente pizzaria; a receita atual da agência fica fora.</li></ul>''')
+<li>Receita = R$ 4.800/mês atuais da agência + pizzarias (começa de zero). O revenue share incide só sobre a receita das pizzarias. Lucro antes do revenue share.</li></ul>''')
     P.append(f'''<h2>Unit <span class="am">economics</span></h2>{c['tabela_unit']()}
 <ul style="margin-top:8px"><li><b>Margem de contribuição</b> = ticket − 6% de imposto − R$ 150 de custo variável.</li>
 <li><b>LTV limitado a 12 meses:</b> a visão prudente. O LTV teórico (margem ÷ churn) é maior, mas depende de um churn que ainda não foi medido.</li>
@@ -317,13 +315,13 @@ def onepager(c):
     cen = ''.join(f'<tr><td><b>{n}</b></td><td>{mes(n,12)["cli"]:.0f} · {b(mes(n,12)["rec"])}</td><td>{mes(n,24)["cli"]:.0f} · {b(mes(n,24)["rec"])}</td></tr>' for n in M.CEN)
     return f'''<div style="display:flex;gap:10mm;align-items:center">
 <div style="flex:1"><span class="tag">One-pager · investidor</span><h1 style="font-size:50px;margin-top:8px">Orégano Turbo:<br><span class="am">marketing para pizzarias</span></h1>
-<p style="margin-top:6px">Lindson Almeida · São Luís (MA) · agência com 4 clientes pagantes e 72 trabalhos no portfólio.</p></div>
+<p style="margin-top:6px">Lindson Almeida · São Luís (MA) · agência com R$ 4.800/mês de 3 clientes pagantes e 72 trabalhos no portfólio.</p></div>
 <img src="{foto(F['one'])}" style="width:50mm;height:62mm;object-fit:cover;object-position:center 15%"></div>
 <div class="g2" style="margin-top:4mm"><div>
 <h3>Problema</h3><p>O dono de pizzaria depende do aplicativo e do boca a boca, posta sem método e não mede o que o anúncio traz.</p>
 <h3>Solução</h3><p>Assessoria só para pizzarias: criativos gravados na loja, tráfego para pedido no WhatsApp, iFood organizado e relatório toda segunda na Central do Cliente. Pagamento antecipado e garantia de entrega (não de resultado).</p>
 <h3>Preços aprovados (por mês)</h3><p>Muralha R$ 1.597 a 1.997 · Fortaleza R$ 2.197 a 2.997 · Cidadela R$ 3.497 a 3.997. Verba de anúncio paga pela pizzaria.</p>
-<h3>Já existe</h3><ul><li>Clientes Jaci, Tribuna 98, Leo Pinto e Real Time</li><li>Central do Cliente, app SDR, sites no ar</li><li>Orégano Turbo: identidade, site com planos, kit social, Instagram</li></ul>
+<h3>Já existe</h3><ul><li>Pagantes: Jaci, Leo Pinto e WF (R$ 4.800/mês)</li><li>Central do Cliente, app SDR, sites no ar</li><li>Orégano Turbo: identidade, site com planos, kit social, Instagram</li></ul>
 <h3>Mercado</h3><p>40.332 pizzarias no Brasil, 98% com delivery (Apubra/Galunion, a conferir). São Luís: [preencher].</p>
 </div><div>
 <h3>O pedido: {b(ap)}</h3><table>{uso}</table>
