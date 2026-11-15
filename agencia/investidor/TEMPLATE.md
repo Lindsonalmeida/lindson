@@ -3,7 +3,7 @@
 Conta Lindson, 15/11/2026. Agentes: Maquiavel (gerente), Design Chief (visual), Copy Squad (narrativa), Hormozi (oferta e alavanca), Data Chief (números), C-Level Vision (estratégia). Os squads Xquads não estavam instalados nesta sessão: os métodos foram aplicados pelo Maquiavel a partir dos arquivos do repositório (Hormozi em `agencia/operacao-propria/` e `agencia/ofertas/low-ticket/hormozi.md`).
 
 ## Persona do investidor (5 linhas)
-1. **Quem:** empresário de São Luís, 40 a 60 anos, com negócio que já dá lucro (comércio, saúde, construção), ou cliente satisfeito do Lindson.
+1. **Quem (v2, empresa inteira):** empresário de São Luís, 40 a 60 anos, com negócio que já dá lucro (comércio, saúde, construção), ou cliente satisfeito do Lindson.
 2. **Rotina:** agenda cheia, decide rápido, olha o caixa toda semana, lê no celular.
 3. **Dor:** dinheiro parado rendendo pouco; desconfia de "startup", de promessa de marketing e de quem não mostra número.
 4. **Valoriza:** saber quando e como o dinheiro volta, controle do risco, contrato de advogado, relatório simples.

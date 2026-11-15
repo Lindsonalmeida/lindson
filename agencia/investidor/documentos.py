@@ -49,48 +49,39 @@ def mes(n, m): return R[n]['linhas'][m-1]
 def luc24(n): return sum(l['lucro'] for l in R[n]['linhas'])
 b = lambda v, d=0: M.brl(v, d).replace(' ', '\u00a0')
 
-def barras(metrica='rec', meses=(6, 12, 18, 24), alt=480):
-    mx = max(mes(n, m)[metrica] for n in M.CEN for m in meses)
-    cores = {'Conservador': '#5a5a5a', 'Base': '#F5C518', 'Otimista': '#FFFFFF'}
+def barras(meses=(1, 6, 12, 18, 24), alt=470):
+    """Receita consolidada por cenário, empilhada por unidade (agência, Orégano, produtos)."""
+    mx = max(mes(n, m)['rec'] for n in M.CEN for m in meses)
+    cor = {'r_ag': '#F5C518', 'r_ot': '#FFFFFF', 'r_pd': '#777777'}
     g = ''
     for m in meses:
-        g += '<div style="display:flex;flex-direction:column;align-items:center;flex:1"><div style="display:flex;gap:6px;align-items:flex-end;height:%dpx">' % alt
+        g += f'<div style="display:flex;flex-direction:column;align-items:center;flex:1"><div style="display:flex;gap:6px;align-items:flex-end;height:{alt}px">'
         for n in M.CEN:
-            v = mes(n, m)[metrica]; h = max(4, v/mx*(alt-30))
-            g += f'<div style="display:flex;flex-direction:column;align-items:center;justify-content:flex-end"><span style="font-size:17px;font-weight:700;margin-bottom:4px">{b(v/1000,0).replace("R$\u00a0","")}k</span><div style="width:56px;height:{h:.0f}px;background:{cores[n]}"></div></div>'
-        g += f'</div><div style="margin-top:8px;font-weight:800;font-size:20px">Mês {m}</div></div>'
-    leg = ''.join(f'<span style="display:inline-flex;align-items:center;gap:6px;margin-right:18px"><i style="width:14px;height:14px;background:{c};display:inline-block"></i>{n}</span>' for n, c in cores.items())
-    return f'<div style="display:flex;gap:14px">{g}</div><div style="margin-top:14px;font-size:20px">{leg}</div>'
+            l = mes(n, m); pil = ''.join(f'<div style="width:44px;height:{max(1,l[k]/mx*(alt-40)):.0f}px;background:{c}"></div>' for k, c in (('r_pd', cor['r_pd']), ('r_ot', cor['r_ot']), ('r_ag', cor['r_ag'])))
+            g += f'<div style="display:flex;flex-direction:column;align-items:center;justify-content:flex-end"><span style="font-size:15px;font-weight:700;margin-bottom:3px">{l["rec"]/1000:.0f}k</span>{pil}<span style="font-size:13px;color:#999;margin-top:3px">{n[0]}</span></div>'
+        g += f'</div><div style="margin-top:6px;font-weight:800;font-size:19px">Mês {m}</div></div>'
+    leg = ''.join(f'<span style="display:inline-flex;align-items:center;gap:6px;margin-right:18px"><i style="width:14px;height:14px;background:{c};display:inline-block"></i>{t}</span>' for t, c in (('Agência', cor['r_ag']), ('Orégano Turbo', cor['r_ot']), ('Produtos', cor['r_pd'])))
+    return f'<div style="display:flex;gap:10px">{g}</div><div style="margin-top:12px;font-size:19px">{leg} <span class="cz">C = conservador · B = base · O = otimista</span></div>'
 
-def tabela_cen(meses=(6, 12, 18, 24)):
-    h = '<table><tr><th>Cenário</th><th>Premissas</th>' + ''.join(f'<th>Mês {m}</th>' for m in meses) + '<th>Lucro 24m</th></tr>'
+def tabela_cen(meses=(12, 24)):
+    h = '<table><tr><th>Cenário</th>' + ''.join(f'<th>Mês {m}</th>' for m in meses) + '<th>Lucro 24m</th></tr>'
     for n in M.CEN:
-        c = M.CEN[n]
-        h += f'<tr><td><b>{n}</b></td><td class="cz">{c["novos_d"]} novos/mês · {b(c["ticket"])} · churn {c["churn"]*100:.0f}%</td>'
-        h += ''.join(f'<td>{mes(n,m)["cli"]:.0f} clientes<br><b>{b(mes(n,m)["rec"])}</b><br><span class="cz">lucro {b(mes(n,m)["lucro"])}</span></td>' for m in meses)
-        h += f'<td><b>{b(luc24(n))}</b></td></tr>'
+        h += f'<tr><td><b>{n}</b></td>' + ''.join(f'<td>{mes(n,m)["cli"]:.0f} clientes · <b>{b(mes(n,m)["rec"])}</b>/mês<br><span class="cz">agência {b(mes(n,m)["r_ag"])} · Orégano {b(mes(n,m)["r_ot"])}</span></td>' for m in meses) + f'<td><b>{b(luc24(n))}</b></td></tr>'
     return h + '</table>'
 
 def tabela_uso():
-    h = '<table><tr><th>Item</th><th>Detalhe</th><th>Quando</th><th style="text-align:right">Valor</th></tr>'
-    for a, d, v, q in M.USO:
-        h += f'<tr><td><b>{a}</b></td><td class="cz">{d}</td><td>{q}</td><td style="text-align:right"><b>{b(v)}</b></td></tr>'
+    h = '<table><tr><th>Unidade</th><th>Item</th><th>Quando</th><th style="text-align:right">Valor</th></tr>'
+    for un, a, d, v, q, p in M.USO:
+        h += f'<tr><td>{un}</td><td><b>{a}</b><br><span class="cz">{d}</span></td><td>{q}</td><td style="text-align:right"><b>{b(v)}</b></td></tr>'
     return h + f'<tr><td colspan="3"><b>TOTAL</b></td><td style="text-align:right" class="am"><b>{b(M.P["aporte"])}</b></td></tr></table>'
 
 def tabela_unit():
-    rows = [('Ticket médio/mês', 'ticket', b), ('Margem de contribuição/mês', 'margem', b), ('Vida média (meses)', 'vida', lambda v: f'{v:.0f}'),
-            ('LTV limitado a 12 meses', 'ltv12', b), ('CAC só de tráfego', 'cac', b), ('CAC cheio (+R$ 500 comercial)', None, None),
-            ('Payback do CAC cheio', None, None)]
     h = '<table><tr><th>Métrica (premissa)</th>' + ''.join(f'<th>{n}</th>' for n in M.CEN) + '</tr>'
-    for rot, k, f in rows:
-        h += f'<tr><td>{rot}</td>'
-        for n in M.CEN:
-            u = U[n]
-            if rot.startswith('CAC cheio'): v = b(u['cac']+500)
-            elif rot.startswith('Payback'): v = f'{(u["cac"]+500)/u["margem"]:.1f} mês'.replace('.', ',')
-            else: v = f(u[k])
-            h += f'<td><b>{v}</b></td>'
-        h += '</tr>'
+    for un in ('Agência', 'Orégano'):
+        for rot, k, f in ((f'{un}: ticket dos novos', 'ticket', b), (f'{un}: margem/mês', 'margem', b), (f'{un}: LTV 12 meses', 'ltv12', b),
+                          (f'{un}: CAC cheio', 'cac_cheio', b), (f'{un}: payback', 'payback', lambda v: f'{v:.1f} mês'.replace('.', ','))):
+            h += f'<tr><td>{rot}</td>' + ''.join(f'<td><b>{f(U[n][un][k])}</b></td>' for n in M.CEN) + '</tr>'
+    h += '<tr><td>Produtos: retorno do tráfego (ROAS)</td>' + ''.join(f'<td><b>{U[n]["Produtos"]["roas"]:.2f}x</b></td>'.replace('.', ',') for n in M.CEN) + '</tr>'
     return h + '</table>'
 
 ctx = dict(b=b, M=M, R=R, R60=R60, U=U, mes=mes, luc24=luc24, barras=barras, tabela_cen=tabela_cen, tabela_uso=tabela_uso, tabela_unit=tabela_unit, foto=foto, F=F)
@@ -112,17 +103,17 @@ def deck():
 .g2{display:grid;grid-template-columns:1fr 1fr;gap:40px}
 .g3{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
 .g4{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
-.big{font-family:Anton;font-size:84px;color:#F5C518;line-height:1}
+.big{font-family:Anton;font-size:76px;color:#F5C518;line-height:1;white-space:nowrap}
 .fot{position:absolute;top:0;right:0;height:900px;width:620px;object-fit:cover;object-position:center 20%}
 .fade{position:absolute;top:0;right:440px;width:180px;height:900px;background:linear-gradient(90deg,#0A0A0A,transparent)}
 ul{padding-left:28px} li{margin-bottom:12px}
-.tuso td,.tuso th{font-size:20px!important;padding:10px 10px!important}
+.tuso td,.tuso th{font-size:19px!important;padding:6px 10px!important}
 .tcen td,.tcen th{font-size:20px!important;padding:9px 8px!important}
 """
     corpo = ''
     for i, (kicker, html) in enumerate(slides, 1):
         corpo += f'<section class="s"><div class="k">{kicker}</div>{html}<div class="n">{i:02d} / {len(slides):02d}</div></section>'
-    return f'<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Plano Investidor · Pitch</title><style>{css}</style></head><body>{corpo}</body></html>', len(slides)
+    return f'<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Plano Investidor · Lindson Almeida</title><style>{css}</style></head><body>{corpo}</body></html>', len(slides)
 
 def plano():
     css = CSS + """
@@ -134,7 +125,7 @@ def plano():
 .pg .num{position:absolute;bottom:10mm;right:18mm;font-size:10px;color:#777}
 .pg .rod{position:absolute;bottom:10mm;left:18mm;font-size:9.5px;color:#777;max-width:150mm}
 .pg .box{padding:12px 14px} .pg .box p{margin:0}
-.big{font-family:Anton;font-size:46px;color:#F5C518;line-height:1}
+.big{font-family:Anton;font-size:40px;color:#F5C518;line-height:1;white-space:nowrap}
 .g2{display:grid;grid-template-columns:1fr 1fr;gap:14px} .g3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
 """
     pags = paginas_plano(ctx)
