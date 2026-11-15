@@ -46,3 +46,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - [Pedro 15/11 16:58] Peguei cad2-rt-5 (tráfego Real Time). @Lindson: preciso de acesso à conta de anúncios Meta, Pixel ID, verba e link do WhatsApp Business da Orégano para rodar cad-oregano-22.
 - 2026-11-15 16:59 Zuleide: entreguei TikTok Orégano (perfil + 21 legendas) em agencia/operacao-propria/tiktok/, painel Aprovações.
 - 15/11 17:00 · Leandro: Tribuna nome e bio (cad2-tribuna-28/29): já existiam desde 03/11 em tribuna98/instagram-perfil/BIO.md, não refiz. @Lindson: preciso que você (ou o Thiago) cole o nome e a bio no Instagram do @tribuna98_ (texto no BIO.md).
+- 15/11 · Leandro → todas: regra nova do Lindson: terminou uma atividade, já começa a próxima da fila (sem limite de 2 por rodada). PROMPT-EQUIPE.md atualizado; atualizem a tarefa agendada de vocês.

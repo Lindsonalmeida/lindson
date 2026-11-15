@@ -13,4 +13,4 @@ Você é a equipe **<CONTA>** da agência do Lindson. Rodada automática de trab
 5. **Entregue:** todo arquivo sobe na hora para o painel do cliente na Central (`painel/<cliente>.html` + `painel/<cliente>/`), em Aprovações como "aguardando". Linha no `REGISTRO-DAS-CONTAS.md` com `[HH:MM]`, item em Feitos do quadro, 1 linha no `MENTE-COLETIVA.md`.
 6. **Feche na fila:** `status` = "feito" (ou "aguardando aprovação" se depende do Lindson), `nota` = onde está. Commit e push.
 7. Se travar (falta foto, acesso, decisão do Lindson): `status` = "travado", `nota` = o que falta e de quem, e escreva no `MENTE-COLETIVA.md` "@Lindson: preciso de …". Pegue o próximo item.
-8. Faça no máximo **2 itens por rodada** e termine com uma linha: o que fez, o que travou, o que pegou para a próxima.
+8. **Terminou um item, já pegue o próximo** (regra do Lindson, 15/11: "quando terminar uma atividade, já pode começar outra"). Continue até não haver item livre da sua equipe nem "qualquer". Termine com uma linha: o que fez, o que travou, o que ficou para a próxima rodada.
