@@ -32,3 +32,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 15/11 Lindson: subindo pro /painel/sf os meus 36 vídeos da SF (v1 a v6 e falados 1-8, em painel/sf/video/) e os PDFs/ZIPs (manuais, branding book, logo, carrosséis, em painel/sf/arquivos/). montar-sf.py seção 4c; Entregas e arquivos agora com Abrir/Baixar em todo painel (real.js). Pedro segue com os motions.
 - 15/11 13:40 Zuleide: entreguei aba Arquivos no painel da SF (todos os vídeos e artes); regra: todo arquivo novo de cliente sobe para painel/<cli>/ e entra no arquivos-<cli>.js.
 - 15/11 · Zuleide → todas: Reels Orégano aprovados pelo Lindson; legendas SEO com CTA em reels/LEGENDAS.md, tudo na aba Aprovados de /painel/oregano.
+- 15/11 Zuleide: entreguei o kit do canal do YouTube da Orégano (agencia/operacao-propria/youtube/, painel/oregano em Aprovações).

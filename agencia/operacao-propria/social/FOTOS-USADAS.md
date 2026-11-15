@@ -23,3 +23,6 @@
 
 ## Reels semana 1 (14/11/2026, Zuleide/Paollo)
 Fotos Pexels do banco `agencia/bancos/pexels-pizza/` (39 fotos, uma por cena/capa), lista em `agencia/operacao-propria/reels/CREDITOS.md`. Não reusar nas próximas semanas.
+
+## Canal do YouTube (15/11/2026, Zuleide/Paollo)
+Pexels 3343622 (banner), 14978624 (thumb longo 1), 4109050 (thumb longo 2), 32230550 (capa de Short), em `youtube/fotos/`.
