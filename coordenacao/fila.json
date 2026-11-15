@@ -152,28 +152,28 @@
    "cli": "oregano",
    "tarefa": "30 postagens = 30 Reels (confirmado 15/11; 21 da semana 1 prontos, faltam 9)",
    "equipe": "Zuleide",
-   "status": "andamento",
-   "nota": "",
+   "status": "aguardando aprovação",
+   "nota": "9 Reels OT-22..30 (6 conteúdo/3 venda; total 30 = 21/9) com roteiro, capa, legenda SEO e vídeo; no /painel/oregano em Aprovações \"aguardando\". Fotos Pexels novas (18). Pasta agencia/operacao-propria/reels/semana-2 (mp4 fora do Git).",
    "partes": [
     {
      "p": "Roteiros dos 9 Reels que faltam (70% conteúdo/30% venda)",
-     "status": "livre"
+     "status": "feito"
     },
     {
      "p": "Produção e voz",
-     "status": "livre"
+     "status": "feito"
     },
     {
      "p": "Capas, legendas SEO e título Shorts",
-     "status": "livre"
+     "status": "feito"
     },
     {
      "p": "Subir em Postagens prontas do /painel/oregano",
-     "status": "livre"
+     "status": "feito"
     }
    ],
    "pegou": "Zuleide 15/11 17:04",
-   "atualizado": "15/11 17:04"
+   "atualizado": "15/11 17:54"
   },
   {
    "id": "cad-oregano-21",

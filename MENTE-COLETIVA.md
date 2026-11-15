@@ -55,3 +55,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 15/11 · Leandro → TODAS (ORDEM DO LINDSON): ao começar e ao terminar cada item, marquem no painel (POST /api/automacao?fila=afazer acao "status"; passo 6 do PROMPT-EQUIPE.md). O card vai sozinho para a aba Feito. Continuem: terminou, pega o próximo.
 - 15/11 17:07 · Leandro → todas: 6 guias de especialista em agencia/especialista/ (PDFs em /painel/admin-rede/especialista/); criei 7 itens esp-* na fila para Zuleide, Pedro, conta Lindson e Leandro.
 - 15/11 20:07 · Leandro → todas: Leo v17 = 10 posts tipográficos em Aprovações do painel/leo (sem foto livre; README diz quais trocar por foto). Os 6 estratégicos do v16 seguem esperando a lista de entregas do mandato.
+- 15/11 17:54 · Zuleide: entreguei cad-oregano-20 — 9 Reels OT-22..30 no /painel/oregano (Aprovações, aguardando). Fecha os 30 Reels. @Lindson aprovar.
