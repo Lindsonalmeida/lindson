@@ -175,6 +175,21 @@ main{margin-left:var(--rail)}
 .cont-cli button{border:0;border-right:1px solid var(--fio2);background:none;padding:12px 16px;cursor:pointer;text-align:left;color:var(--apag);font:500 10px var(--f-m);letter-spacing:.14em;text-transform:uppercase;min-height:52px}
 .cont-cli button b{display:block;font:400 30px/1 var(--f-t);color:var(--txt);letter-spacing:0;margin-top:4px}
 .cont-cli button[aria-pressed="true"]{background:var(--am);color:#0A0A0A}.cont-cli button[aria-pressed="true"] b{color:#0A0A0A}
+.kanban{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px}
+.kb{border:1px solid var(--fio2);padding:14px;background:rgba(255,255,255,.015);min-width:0}
+.kb h3{margin:0 0 10px;font:400 24px/1 var(--f-t);text-transform:uppercase;display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.kb h3 small{font:500 10px var(--f-m);letter-spacing:.14em;color:var(--apag)}
+.kb .gr{font:500 9.5px var(--f-m);letter-spacing:.18em;color:var(--am);margin:12px 0 6px;text-transform:uppercase}
+.af{border-top:1px solid var(--fio);padding:10px 0;display:grid;gap:8px}
+.af p{margin:0;font-size:14px;color:#E4DFD3;overflow-wrap:anywhere}
+.af.and p::before{content:"EM ANDAMENTO";display:block;font:700 9px var(--f-m);letter-spacing:.16em;color:var(--am);margin-bottom:3px}
+.af .bt{display:flex;gap:8px;flex-wrap:wrap}
+.resumo-f{border:1px solid var(--fio2);margin-bottom:18px;overflow-x:auto}
+.resumo-f table{width:100%;border-collapse:collapse;font:500 12px var(--f-m)}
+.resumo-f th,.resumo-f td{padding:9px 12px;border-bottom:1px solid var(--fio);text-align:right;white-space:nowrap}
+.resumo-f th{font-size:9.5px;letter-spacing:.16em;color:var(--apag);text-transform:uppercase}
+.resumo-f td:first-child,.resumo-f th:first-child{text-align:left;font:400 17px var(--f-t);text-transform:uppercase}
+.resumo-f td b{color:var(--am)}
 .dia{margin-bottom:26px}
 .dia h3{margin:0 0 6px;font:400 26px/1 var(--f-t);text-transform:uppercase;display:flex;gap:12px;align-items:baseline}
 .dia h3 small{font:500 10.5px var(--f-m);letter-spacing:.16em;color:var(--apag)}
@@ -476,9 +491,10 @@ input.campo{width:100%;background:#0E0D0A;border:1px solid #2B2B28;color:var(--t
     <a href="#comando" data-sec="comando">01<span>Comando</span></a>
     <a href="#fila" data-sec="fila">02<span>Fila ao vivo</span><i data-n="esperando"></i></a>
     <a href="#resultados" data-sec="resultados">03<span>Resultados</span></a>
-    <a href="#feitas" data-sec="feitas">04<span>Tarefas feitas</span></a>
-    <a href="#equipe" data-sec="equipe">05<span>Equipe</span></a>
-    <a href="#contas" data-sec="contas">06<span>Configurar contas</span></a>
+    <a href="#afazer" data-sec="afazer">04<span>A fazer</span></a>
+    <a href="#feitas" data-sec="feitas">05<span>Tarefas feitas</span></a>
+    <a href="#equipe" data-sec="equipe">06<span>Equipe</span></a>
+    <a href="#contas" data-sec="contas">07<span>Configurar contas</span></a>
   </div>
   <div class="ferr-trilho"><small>FERR.</small><button type="button" data-ferr="/painel/recomeco" data-ferr-nome="Recomeço 90">R90<span>Recomeço 90</span></button><button type="button" data-ferr="/painel/canais" data-ferr-nome="Canais dark">CAN<span>Canais dark</span></button></div>
   <div class="rec"><span class="rec-dot"></span>&nbsp; AO VIVO</div>
@@ -586,22 +602,29 @@ input.campo{width:100%;background:#0E0D0A;border:1px solid #2B2B28;color:var(--t
   </section>
 
   <!-- 04 · equipe -->
+  <section class="sec" id="afazer" aria-label="A fazer">
+    <div class="sec-cab" data-rv><span class="num">04</span><div><span class="rot">A fazer · listas do caderno, por cliente</span><h2>O que falta. <em>Escolha e comece.</em></h2><p>Toque em “Iniciar” para pôr em andamento e em “Feito” quando terminar: vai sozinho para Tarefas feitas, com cliente, data e hora de São Luís.</p></div></div>
+    <div class="feitas-cab" data-rv><div class="abas" id="af-tot" style="margin:0"></div><button class="btn am" type="button" data-mais-af>+ A fazer</button></div>
+    <div class="kanban" id="kanban" data-rv><div class="vazio">Carregando…</div></div>
+  </section>
+
   <section class="sec" id="feitas" aria-label="Tarefas feitas">
-    <div class="sec-cab" data-rv><span class="num">04</span><div><span class="rot">Tarefas feitas · por cliente, data, hora e atividade</span><h2>O que já <em>foi feito.</em></h2><p>Toda entrega da fila entra sozinha. O que você fizer, anote em “+ Feito” ou diga: “Vektor, feito: Tribuna, refiz as capas dos Reels”.</p></div></div>
+    <div class="sec-cab" data-rv><span class="num">05</span><div><span class="rot">Tarefas feitas · por cliente, data, hora e atividade</span><h2>O que já <em>foi feito.</em></h2><p>Toda entrega da fila entra sozinha. O que você fizer, anote em “+ Feito” ou diga: “Vektor, feito: Tribuna, refiz as capas dos Reels”.</p></div></div>
     <div class="feitas-cab" data-rv><div class="abas" id="per-feitas" style="margin:0"></div><button class="btn am" type="button" data-mais-feito>+ Feito</button></div>
+    <div class="resumo-f" id="resumo-feitas" data-rv></div>
     <div class="cont-cli" id="cli-feitas" data-rv></div>
     <div id="lista-feitas" data-rv><div class="vazio">Carregando…</div></div>
   </section>
 
   <section class="sec" id="equipe" aria-label="Quadro da equipe">
-    <div class="sec-cab" data-rv><span class="num">05</span><div><span class="rot">Quadro da equipe · quem está fazendo e quem tem tempo</span><h2>Quatro contas, <em>um time.</em></h2></div></div>
+    <div class="sec-cab" data-rv><span class="num">06</span><div><span class="rot">Quadro da equipe · quem está fazendo e quem tem tempo</span><h2>Quatro contas, <em>um time.</em></h2></div></div>
     <div class="equipe" id="modulos" data-rv></div>
     <p class="nota-honesta">O Claude não informa o uso de cada conta. Os limites reais são a janela de ~5 h (Hoje) e o limite da Semana; o estado vem da própria conta (a mensagem de limite traz “resets …”) ou do seu botão aqui. “No mês” conta quantas vezes cada limite foi batido.</p>
   </section>
 
   <!-- 05 · configurar contas -->
   <section class="sec" id="contas" aria-label="Configurar contas">
-    <div class="sec-cab" data-rv><span class="num">06</span><div><span class="rot">Configurar contas · uma vez só</span><h2>Cole uma vez. <em>Nunca mais abra.</em></h2><p>Em cada conta, cole o prompt uma única vez. Ela cria a tarefa de hora em hora que lê a fila, faz, entrega e pergunta aqui. A tarefa está ativa quando a conta bateu o ponto nas últimas 2 h.</p></div></div>
+    <div class="sec-cab" data-rv><span class="num">07</span><div><span class="rot">Configurar contas · uma vez só</span><h2>Cole uma vez. <em>Nunca mais abra.</em></h2><p>Em cada conta, cole o prompt uma única vez. Ela cria a tarefa de hora em hora que lê a fila, faz, entrega e pergunta aqui. A tarefa está ativa quando a conta bateu o ponto nas últimas 2 h.</p></div></div>
     <div class="config" id="config" data-rv></div>
   </section>
 
@@ -613,9 +636,10 @@ input.campo{width:100%;background:#0E0D0A;border:1px solid #2B2B28;color:var(--t
   <a href="#comando" data-sec="comando"><b>01</b>Falar</a>
   <a href="#fila" data-sec="fila"><b>02</b>Fila<i data-n="esperando"></i></a>
   <a href="#resultados" data-sec="resultados"><b>03</b>Result.</a>
-  <a href="#feitas" data-sec="feitas"><b>04</b>Feitas</a>
-  <a href="#equipe" data-sec="equipe"><b>05</b>Equipe</a>
-  <a href="#contas" data-sec="contas"><b>06</b>Contas</a>
+  <a href="#afazer" data-sec="afazer"><b>04</b>Fazer</a>
+  <a href="#feitas" data-sec="feitas"><b>05</b>Feitas</a>
+  <a href="#equipe" data-sec="equipe"><b>06</b>Equipe</a>
+  <a href="#contas" data-sec="contas"><b>07</b>Contas</a>
 </nav>
 <div class="envio-cel" id="envio-cel"><div><small id="ec-eq">A equipe escolhe</small><b id="ec-t">—</b></div><button class="btn am" type="button" data-envia-cel>Enviar</button></div>
 <div id="toast" role="status" aria-live="polite"></div>
@@ -645,6 +669,9 @@ const CLIS = [
   { id: 'oregano', nome: 'Orégano Turbo', pg: 0, sub: 'operação própria', voz: ['oregano', 'pizzaria'] },
   { id: 'marca', nome: 'Minha marca', pg: 0, sub: '@lindsonalmeida_', voz: ['minha marca', 'meu instagram', 'meu perfil', 'lindson', 'minha pagina'] },
   { id: 'sf', nome: 'Desentupidora SF', pg: 1, sub: 'mini site e campanha', voz: ['desentupidora', 'grupo sf', 'esse efe'] },
+  { id: 'raposa', nome: 'Raposa e Leão', pg: 0, sub: 'canal dark', voz: ['raposa', 'raposa e leao'] },
+  { id: 'passaporte', nome: 'Passaporte da Bíblia', pg: 0, sub: 'canal dark', voz: ['passaporte', 'passaporte da biblia'] },
+  { id: 'designer', nome: 'Projeto Designer', pg: 0, sub: 'Behance, Pinterest, LinkedIn', voz: ['projeto designer', 'behance', 'designer'] },
   { id: 'outro', nome: 'Outro', pg: 0, sub: 'lead ou novo', voz: ['outro cliente', 'cliente novo', 'lead'] }
 ];
 // teclas: [id, nome, código, cor do grupo, voz, ação?]
@@ -675,6 +702,7 @@ const reg = (k, url, vazio) => S[k] = { url: API + url, d: vazio, vazio, v: 0, o
 reg('ped', '/api/dados?cli=admin&f=ped', { itens: [] });
 reg('eq', '/api/dados?cli=admin&f=eq', { contas: {}, hist: [] });
 reg('feitas', '/api/dados?cli=admin&f=feitas', { itens: [] });
+reg('afazer', '/api/dados?cli=admin&f=afazer', { itens: [] }); // quadro A fazer (caderno do Lindson; conta Zuleide, 15/11/2026)
 const CLIS_APROV = ['jaci', 'tribuna', 'leo', 'rt', 'oregano', 'sf'];
 CLIS_APROV.forEach(c => reg('ap-' + c, `/api/dados?cli=${c}&f=aprov`, { itens: [] }));
 async function carrega(k) {
@@ -1772,7 +1800,45 @@ function noPeriodo(f) { const d = f.data || ''; return PER_F === 'tudo' ? true :
 // linha sem hora que repete outra com hora (mesmo dia e cliente) fica escondida (duplicatas de 14/11; conta Zuleide, 15/11/2026)
 function semDupF(itens) { const pal = t => new Set(sem(String(t || '')).split(/[^a-z0-9]+/).filter(w => w.length > 3));
   return itens.filter(x => x.hora || !itens.some(y => y !== x && y.hora && y.cli === x.cli && y.data === x.data && (() => { const a = pal(x.atividade), b = pal(y.atividade); let c = 0; b.forEach(w => a.has(w) && c++); return c >= Math.min(3, b.size); })())); }
+// ---------- 04 · A fazer (Lindson, 15/11: "monte os quadros com o que falta fazer, pra eu iniciar"; conta Zuleide) ----------
+const SEM_AF = [{"id": "cad-raposa-2", "cli": "raposa", "texto": "Postar todos os longos"}, {"id": "cad-raposa-4", "cli": "raposa", "texto": "Agendar Shorts"}, {"id": "cad-raposa-5", "cli": "raposa", "texto": "Alimentar Insta"}, {"id": "cad-raposa-6", "cli": "raposa", "texto": "Alimentar TikTok"}, {"id": "cad-passaporte-8", "cli": "passaporte", "texto": "Organizar Insta"}, {"id": "cad-passaporte-9", "cli": "passaporte", "texto": "Organizar TikTok"}, {"id": "cad-passaporte-10", "cli": "passaporte", "texto": "Postar vídeos longos"}, {"id": "cad-passaporte-11", "cli": "passaporte", "texto": "Criar produto digital na Hubla"}, {"id": "cad-marca-12", "cli": "marca", "texto": "Estudar cursos que comprei"}, {"id": "cad-marca-14", "cli": "marca", "texto": "Projeto VEKTOR"}, {"id": "cad-marca-15", "cli": "marca", "texto": "Projeto Dublê"}, {"id": "cad-marca-16", "cli": "marca", "texto": "Raio-X: Felipe Bormine (cliente da call; falta o @)"}, {"id": "cad-marca-17", "cli": "marca", "texto": "Raio-X: Marcos 100 Limites (cliente da call; falta o @)"}, {"id": "cad-oregano-20", "cli": "oregano", "texto": "30 postagens = 30 Reels (confirmado 15/11; 21 da semana 1 prontos, faltam 9)"}, {"id": "cad-oregano-21", "cli": "oregano", "texto": "SDR (no sistema)"}, {"id": "cad-oregano-22", "cli": "oregano", "texto": "Campanha de tráfego"}, {"id": "cad-oregano-23", "cli": "oregano", "texto": "10 criativos de alta conversão"}, {"id": "cad-oregano-24", "cli": "oregano", "texto": "Canal no YouTube"}, {"id": "cad-oregano-25", "cli": "oregano", "texto": "TikTok"}, {"id": "cad-designer-26", "cli": "designer", "texto": "Behance"}, {"id": "cad-designer-27", "cli": "designer", "texto": "Pinterest"}, {"id": "cad-designer-28", "cli": "designer", "texto": "LinkedIn"}, {"id": "cad-designer-29", "cli": "designer", "texto": "Vender identidade visual"}, {"id": "cad-sf-34", "cli": "sf", "texto": "Configurar Google Meu Negócio"}, {"id": "cad-sf-35", "cli": "sf", "texto": "Testar criativos"}];
+async function sementeAf() { // entra uma vez só (marcador caderno-1511); item apagado não volta
+  if (!S.afazer.ok || (S.afazer.d.sementes || []).includes('caderno-1511')) return;
+  await muda('afazer', d => { const tem = new Set((d.itens || []).map(x => x.id)); d.sementes = (d.sementes || []).concat(['caderno-1511']);
+    d.itens = (d.itens || []).concat(SEM_AF.filter(x => !tem.has(x.id)).map(x => Object.assign({ st: 'afazer', em: agora() }, x))); });
+}
+const ORDEM_AF = ['oregano', 'sf', 'marca', 'raposa', 'passaporte', 'designer'];
+function pintaAfazer() {
+  if (!$('#kanban')) return;
+  if (!S.afazer.ok) { $('#kanban').innerHTML = `<div class="vazio">${S.afazer.erro ? 'Não consegui ler o quadro.' : 'Carregando…'}</div>`; return; }
+  const abertos = (S.afazer.d.itens || []).filter(x => x.st !== 'feito'), por = {};
+  abertos.forEach(x => (por[x.cli] = por[x.cli] || []).push(x));
+  const nAnd = abertos.filter(x => x.st === 'andamento').length;
+  $('#af-tot').innerHTML = `<button type="button" aria-pressed="true">A fazer<b>${abertos.length - nAnd}</b></button><button type="button" aria-pressed="false">Em andamento<b>${nAnd}</b></button>`;
+  const cl = Object.keys(por).sort((a, b) => (ORDEM_AF.indexOf(a) + 99) % 99 - (ORDEM_AF.indexOf(b) + 99) % 99);
+  const item = x => `<div class="af${x.st === 'andamento' ? ' and' : ''}"><p>${esc(x.texto)}</p><div class="bt">${x.st === 'andamento' ? '' : `<button class="btn mini" type="button" data-af-ini="${esc(x.id)}">Iniciar</button>`}<button class="btn mini am" type="button" data-af-ok="${esc(x.id)}">Feito</button></div></div>`;
+  $('#kanban').innerHTML = cl.map(c => { const l = por[c], a = l.filter(x => x.st === 'andamento'), f = l.filter(x => x.st !== 'andamento');
+    return `<div class="kb"><h3>${esc(nomeCli(c))}<small>${f.length} a fazer · ${a.length} andando</small></h3>${a.length ? '<div class="gr">Em andamento</div>' + a.map(item).join('') : ''}${f.length ? '<div class="gr">A fazer</div>' + f.map(item).join('') : ''}</div>`; }).join('') || '<div class="vazio">Nada a fazer. Tudo feito.</div>';
+}
+async function afMuda(id, st) {
+  const x = (S.afazer.d.itens || []).find(y => y.id === id); if (!x) return;
+  if (st === 'feito' && !(await anotaFeito(x.cli, x.texto, null, null, false))) return;
+  if (await muda('afazer', d => { const y = (d.itens || []).find(z => z.id === id); if (y) { y.st = st; y[st + 'Em'] = agora(); } })) { pintaAfazer(); toast(st === 'feito' ? 'Feito. Foi para Tarefas feitas.' : 'Em andamento.'); }
+}
+function novoAf() {
+  const t = prompt('O que falta fazer? Comece pelo cliente (ex.: Orégano: 10 criativos)'); if (!t) return;
+  const s0 = sem(t), c = CLIS.find(c => c.voz.concat([sem(c.nome)]).some(v => s0.startsWith(v)));
+  const texto = (c ? t.replace(/^[^:,-]*[:,-]\s*/, '') : t).trim(); if (!texto) return;
+  muda('afazer', d => { d.itens = (d.itens || []).concat([{ id: 'a' + Date.now().toString(36), cli: c ? c.id : 'outro', texto: texto.slice(0, 200), st: 'afazer', em: agora() }]); }).then(ok => ok && pintaAfazer());
+}
+function resumoFeitas() {
+  const it = semDupF(S.feitas.d.itens || []), por = {}, h = hojeSLZ(), d7 = hojeSLZ(6), m = h.slice(0, 7);
+  it.forEach(f => { const r = por[f.cli] = por[f.cli] || [0, 0, 0, 0]; const d = f.data || ''; if (d === h) r[0]++; if (d >= d7) r[1]++; if (d.slice(0, 7) === m) r[2]++; r[3]++; });
+  const tot = [0, 1, 2, 3].map(i => Object.values(por).reduce((s, r) => s + r[i], 0));
+  return `<table><thead><tr><th>Cliente</th><th>Hoje</th><th>7 dias</th><th>Mês</th><th>Total</th></tr></thead><tbody>${Object.entries(por).sort((a, b) => b[1][3] - a[1][3]).map(([c, r]) => `<tr><td>${esc(nomeCli(c))}</td><td>${r[0]}</td><td>${r[1]}</td><td>${r[2]}</td><td><b>${r[3]}</b></td></tr>`).join('')}<tr><td>Todos</td><td>${tot[0]}</td><td>${tot[1]}</td><td>${tot[2]}</td><td><b>${tot[3]}</b></td></tr></tbody></table>`;
+}
 function pintaFeitas() {
+  if ($('#resumo-feitas') && S.feitas.ok) $('#resumo-feitas').innerHTML = resumoFeitas();
   const todas = semDupF(S.feitas.d.itens || []).filter(noPeriodo), lista = todas.filter(f => CLI_F === 'todos' || f.cli === CLI_F);
   $('#per-feitas').innerHTML = PERIODOS.map(([k, n]) => `<button type="button" data-perf="${k}" aria-pressed="${PER_F === k}">${n}<b>${(S.feitas.d.itens || []).filter(f => { const o = PER_F; PER_F = k; const r = noPeriodo(f); PER_F = o; return r; }).length}</b></button>`).join('');
   const por = {}; todas.forEach(f => por[f.cli] = (por[f.cli] || 0) + 1);
@@ -1814,7 +1880,7 @@ async function janelaFeito() {
     if ('v' in b.dataset) { capturar().then(t => { ta.value = (ta.value + ' ' + t).trim(); }); return; }
     if ('s' in b.dataset) { if (!cli) { toast('Toque no cliente.'); return; } if (await anotaFeito(cli, ta.value, di.value, hi.value)) m.remove(); } });
 }
-function pintaTudo() { pintaFeitas(); pintaFila(); pintaResultados(); pintaEquipe(); pintaConfig(); contadores(); pintaEscolhas(); }
+function pintaTudo() { pintaAfazer(); pintaFeitas(); pintaFila(); pintaResultados(); pintaEquipe(); pintaConfig(); contadores(); pintaEscolhas(); }
 
 // ---------- visualizador (imagem, carrossel, vídeo, PDF, site) ----------
 function abreVer(lista, i, titulo) {
@@ -1857,6 +1923,9 @@ document.addEventListener('click', async e => {
   if (!e.target.closest('#ferr-menu,#ferr-btn')) $('#ferr-menu').hidden = true;
   const t = e.target.closest('button,a'); if (!t) return;
   if (t.id === 'mais-feito' || 'maisFeito' in t.dataset) { janelaFeito(); return; }
+  if ('maisAf' in t.dataset) { novoAf(); return; }
+  if (t.dataset.afIni) { afMuda(t.dataset.afIni, 'andamento'); return; }
+  if (t.dataset.afOk) { afMuda(t.dataset.afOk, 'feito'); return; }
   if (t.dataset.perf) { PER_F = t.dataset.perf; pintaFeitas(); return; }
   if (t.dataset.clif) { CLI_F = t.dataset.clif; pintaFeitas(); return; }
   if (t.id === 'mic' || t.id === 'escuta') { if (ESC.estado === 'ouvindo') { ESC.quer = false; desliga(); ESC.estado = 'pausado'; pintaEscuta(); responde('Escuta pausada.', true); } else { ESC.quer = true; ESC.gesto = true; iniciaEscuta(); } return; }
@@ -1953,7 +2022,7 @@ async function ciclo(primeira) {
   await Promise.all(Object.keys(S).map(carrega));
   if (primeira) { await sobePerfil(); await redistribuiAgora(); }
   const n = esperandoVoce().length; if (antes >= 0 && n > antes) { bip(); toast('Chegou algo para você na fila.'); } antes = n;
-  if (primeira) await semente();
+  if (primeira) { await semente(); await sementeAf(); }
   if (!document.querySelector('.janela,.ver,.painel-int')) pintaTudo();
   if (primeira) saudaDepoisDoGesto();
 }
