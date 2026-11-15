@@ -282,3 +282,23 @@ Levantado pela conta Lindson em 01/11/2026 a partir do histórico do git e dos a
 | 14/11/2026 | Pedro | Raposa e Leão: produto digital (Manual de Campo) com isca, página de venda e kit de lançamento | conteudo/youtube/raposa-e-leao/produto/ | aguardando aprovação |
 | 14/11 | Zuleide | SF motion v2 (v1 reprovada): número do site (98) 92010-5710, fotos geradas por IA de casa e comércio brasileiros com gente recortada | `agencia/clientes/desentupidora-sf/motion-sf-14-11/v2/` (mp4 fora do Git) | aguardando aprovação |
 | 14/11/2026 | Leandro | marca: 3 Reels virais no estilo miniaturas 3D (roteiros, legendas SEO, enquetes, gerador Three.js, capas, folhas) | conteudo/reels/miniaturas-3d/ (MP4 no privado dados/agencia/reels-3d/) | aguardando aprovação; voz provisória Antonio |
+| 14/11/2026 | Lindson | [13:08] Desentupidora SF: resumo de tudo sobre a SF (todas as contas) e número novo (98) 92010-5710 | agencia/clientes/desentupidora-sf/TUDO-SOBRE-A-SF.md | pronto |
+| 14/11/2026 | Lindson | [13:29] Leo: motor das 10 saudações animadas para Stories | agencia/clientes/leo-pinto/ | pronto |
+| 14/11/2026 | Lindson | [13:31] Desentupidora SF: prompts de 4 vídeos de 40 s para o Gemini | agencia/clientes/desentupidora-sf/videos-gemini/PROMPTS.md | pronto |
+| 14/11/2026 | Lindson | [13:47] Desentupidora SF: 4 vídeos de 40 s gerados e montados (v1) | agencia/clientes/desentupidora-sf/videos-gemini/ | pronto |
+| 14/11/2026 | Lindson | [14:05] Desentupidora SF: mensagens de prospecção para restaurantes | agencia/clientes/desentupidora-sf/PROSPECCAO-RESTAURANTES.md | pronto |
+| 14/11/2026 | Lindson | [14:18] Desentupidora SF: vídeos v2 com narração pt-BR, logo e legendas | agencia/clientes/desentupidora-sf/videos-gemini/ | pronto |
+| 14/11/2026 | Lindson | [14:58] Desentupidora SF: vídeos v3 com uniforme e logo original | agencia/clientes/desentupidora-sf/videos-gemini/ | pronto |
+| 14/11/2026 | Lindson | [15:42] Leo: saudações animadas refeitas com recorte limpo e foto grande | agencia/clientes/leo-pinto/ | pronto |
+| 14/11/2026 | Lindson | [15:54] Desentupidora SF: vídeos v4 sem travar, voz sincronizada | agencia/clientes/desentupidora-sf/videos-gemini/ | pronto |
+| 14/11/2026 | Lindson | [16:21] Desentupidora SF: vídeos v5 só com narrador; vídeo 2 aprovado | agencia/clientes/desentupidora-sf/videos-gemini/ | pronto |
+| 14/11/2026 | Lindson | [16:48] Desentupidora SF: 4 vídeos refeitos do zero (v6) | agencia/clientes/desentupidora-sf/videos-gemini/v6/ | pronto |
+| 14/11/2026 | Lindson | [17:00] Desentupidora SF: identidade visual com fardamento completo, frota e manual (14 p.) | agencia/clientes/desentupidora-sf/identidade/manual/ | pronto |
+| 14/11/2026 | Lindson | [17:22] Desentupidora SF: 4 vídeos com personagens falando (avatar) | agencia/clientes/desentupidora-sf/videos-gemini/falados/ | pronto |
+| 14/11/2026 | Lindson | [17:52] Desentupidora SF: 4 vídeos novos (condomínio, padaria, apartamento, calha) com logo fixa na farda | agencia/clientes/desentupidora-sf/videos-gemini/falados2/ | pronto |
+| 14/11/2026 | Lindson | [18:00] Desentupidora SF: 4 roteiros só de caixa de gordura (social media) | agencia/clientes/desentupidora-sf/videos-gemini/caixa-de-gordura/ROTEIROS.md | pronto |
+| 14/11/2026 | Lindson | [19:00] Desentupidora SF: 4 carrosséis educativos sobre entupimento com legendas SEO | agencia/clientes/desentupidora-sf/carrosseis-educativos/ | pronto |
+| 14/11/2026 | Lindson | [19:01] Minha marca: vídeos do batismo (Pedrão e esposa, com e sem música) | agencia/batismo/ | pronto |
+| 14/11/2026 | Lindson | [19:23] Desentupidora SF: branding book (22 p.) e logo original na farda e na frota | agencia/clientes/desentupidora-sf/identidade/branding-book/ | pronto |
+| 14/11/2026 | Lindson | [19:37] Desentupidora SF: logo em alta, versões vetoriais e manual da logo (16 p.) | agencia/clientes/desentupidora-sf/identidade/logo/ | pronto |
+| 14/11/2026 | Lindson | [20:10] Central: Painel Financeiro do admin | painel/ | pronto |

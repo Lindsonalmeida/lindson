@@ -2,7 +2,7 @@
   python3 montar_feitos.py            -> imprime quantos itens e os 5 mais novos
   from montar_feitos import feitos     -> lista usada pelo montar-site.py (window.__FEITOS)
 Fonte: feitos.json (base de 230 itens resumidos em 10/11) + toda linha NOVA do REGISTRO-DAS-CONTAS.md,
-com a hora do commit que acrescentou a linha (fuso de São Luís, UTC-3). Nada fica fixo à mão: entrou no REGISTRO, entra aqui."""
+com a hora do commit que acrescentou a linha (fuso de São Luís, UTC-3), ou a hora escrita no começo do texto: "[13:08] ...". Nada fica fixo à mão: entrou no REGISTRO, entra aqui."""
 import hashlib, json, os, re, subprocess
 from datetime import datetime, timedelta, timezone
 
@@ -48,7 +48,9 @@ def feitos():
     for l in novas:
         dd, mm, aa, conta, txt = LINHA.match(l).groups()
         q = horas.get(l)
-        itens.append({'d': f'{aa}-{mm}-{dd}', 'h': q.strftime('%H:%M') if q and q.strftime('%d/%m/%Y') == f'{dd}/{mm}/{aa}' else '',
+        hx = re.match(r'\s*\[(\d{2}:\d{2})\]\s*', txt)  # hora escrita na linha ("[13:08] ..."), para lançar depois do dia
+        if hx: txt = txt[hx.end():]
+        itens.append({'d': f'{aa}-{mm}-{dd}', 'h': hx.group(1) if hx else q.strftime('%H:%M') if q and q.strftime('%d/%m/%Y') == f'{dd}/{mm}/{aa}' else '',
                       'conta': conta.strip(), 'txt': _resumo(txt), 'cli': _cli(txt)})
     # Tarefas feitas da Central de Comando (regra de 14/11): entram também no quadro, por cliente, dia e hora
     NOMES = {'jaci': 'Dra. Jaci Cunha', 'leo': 'Leo Pinto', 'oregano': 'Orégano Turbo', 'rt': 'Real Time', 'wf': 'WF Celulares', 'sf': 'Desentupidora SF',
