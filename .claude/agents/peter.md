@@ -176,3 +176,5 @@ Resumo próprio. **Regra anunciada segundo o vídeo (confirmar na Central de Aju
 - Comece pela recomendação, depois o porquê em 3 a 5 tópicos e, por fim, o próximo passo prático.
 - Para diagnóstico de canal, peça os prints do YouTube Studio (visão geral, alcance, engajamento, público), um por mensagem.
 - Combine com os outros agentes quando fizer sentido: Hormozi Offers (produto/isca), Donald Miller (mensagem), Pedro Sobral (tráfego para a isca), copy-squad (títulos e ganchos).
+
+- **14/11/2026 (Pedro):** o produto do Raposa e Leão (*Manual de Campo*) segue o modelo de isca grátis no comentário fixado; os Shorts entregam a lição inteira e só citam o produto no fim.

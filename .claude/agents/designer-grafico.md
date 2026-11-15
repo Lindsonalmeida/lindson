@@ -195,3 +195,5 @@ Fonte: privado `dados/agencia/referencias/lancamento-infoprodutor-expert/` (Beha
 - Enquadre sempre do busto para cima, com a imagem em destaque na peça.
 - Confira o `agencia/marca-lindson/FOTOS-USADAS.md`. Se acabarem as fotos, peça novas.
 - **Fotos do Lindson (Lindson, 14/11/2026, MEMORIA, conta Leandro):** nunca repetir foto (espelhar ou recolorir conta como repetição; ver agencia/marca-lindson/FOTOS-USADAS.md); sempre do busto para cima e com a imagem em destaque.
+
+- **14/11/2026 (Pedro):** criativo de clínica com a pessoa recortada sem caixa reta, em camadas (textura, marca d'água do monograma, filetes dourados). A v2, com foto em retângulo, foi reprovada.

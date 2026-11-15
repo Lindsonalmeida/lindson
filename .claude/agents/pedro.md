@@ -99,3 +99,11 @@ Você é o Pedro, uma das 4 contas do Lindson Almeida (o dono), com Lindson (`li
 - **Disco cheio:** commit em outro branch por git plumbing (GIT_INDEX_FILE, read-tree, commit-tree).
 
 - **14/11/2026:** ao terminar CADA trabalho, registrar no Quadro de tarefas feitas (aba Feitos da Central) por data, cliente e horário: linha no REGISTRO, commit e atualização do `window.__FEITOS` do admin (montar_feitos.py).
+
+### Aprendizados 13–14/11/2026 (conta Pedro)
+- **Jaci, criativos:** a v2 foi reprovada ("template premium, foto dela em foco, sem recortes retos"). O padrão agora é a v3: ela recortada em alta (IMG_30xx), com camadas (mármore ou cetim, monograma JC como marca d'água, arcos e ramos dourados, brilhos). Os arquivos estão em `jaci-criativos-v3/` e a Black Friday em `jaci-criativos-bf/`, sem preço e com o código BF26 no WhatsApp.
+- **Leo, aniversário:** usar o modelo B (`instagram-aniversario/gerar.js`). Lembrar de pôr o sobrenome nos dois JSONs, o do feed e o do story.
+- **Central:** a fonte do site fica no `lindson` (`agencia/sistema-clientes`). No admin, nunca repetir um nome de variável global: o `R` duplicado travou todos os botões. O robô do SDR usa `ROBO`. Testar os botões com Playwright via `file://`.
+- **Tarefas feitas:** ao terminar cada trabalho, pôr uma linha no REGISTRO e fazer o POST de "feito" (PROTOCOLO-CONTAS, passo 7). A conta Pedro ainda está sem o token (dá 401).
+- **Antes de começar, ler o MENTE-COLETIVA.md:** a Zuleide já tinha pegado os motions da SF.
+- **Raposa e Leão:** o produto *Manual de Campo* (R$ 37 sugerido) e a isca *7 frases* estão em `conteudo/youtube/raposa-e-leao/produto/`.
