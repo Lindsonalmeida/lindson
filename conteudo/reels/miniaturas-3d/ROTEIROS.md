@@ -1,4 +1,6 @@
-# 3 roteiros virais · série BOLSO DO DONO (conta Leandro, 14/11/2026)
+# Roteiros virais · série BOLSO DO DONO (conta Leandro, 14 e 15/11/2026)
+
+**15/11 (v2, pedido do Lindson: "mude sempre de animação, não deixe monótono, use técnica de retenção, e use outra voz"):** os 6 Reels usam a **voz 6 do Lindson** (Chatterbox, ref6.wav; cada fala conferida pelo Whisper, refeita com outra semente abaixo de 90%). Animação: técnica diferente a cada cena (texto que bate na câmera, top-down na cidade em miniatura, contador no gráfico 3D, split screen, zoom punch, objeto que se transforma com explosão de partículas, whip pan) e 4 cenários (mesa, cidade, gráfico, dentro do celular). Retenção: gancho visual e falado no quadro 0, loop aberto ("o terceiro é o pior"), contador 1/3, barra de capítulos, corte de ângulo a cada 2,6 s com SFX, revelação no fim e final que volta ao quadro 0.
 
 Revisão aplicada nas lentes do Social media (gancho nos 3 s, legenda SEO, enquete) e do Copy Chief (Schwartz: nível de consciência "consciente do problema"; Halbert: frase curta, uma ideia por linha). Sem promessa de resultado; número só com fonte, e "EXEMPLO" na tela quando é exemplo.
 
@@ -97,3 +99,66 @@ O chefe do Instagram, Adam Mosseri, já disse que um dos sinais mais fortes hoje
 ---
 **Comentário fixado (os 3):** "Comenta a palavra do vídeo que eu te mando no direct 👊"
 **Iscas:** SUMIU (separar do atalhos.txt do Kit WhatsApp que Fecha), PERFIL (avaliação gratuita, existe), GANCHO (diagramar a folha dos 10 ganchos). Ver `leva-30s/ESTRATEGIA.md` §6.
+
+---
+## 04 · 3 erros no Google que escondem o seu negócio · CTA **SITE**
+**Gancho (quadro 0, "3 ERROS" batendo na câmera):** "Tem cliente procurando o seu negócio no Google agora, e não te achando. São três erros, e o terceiro é o pior."
+Cenas: pin gigante (quarta parede) → cidade em miniatura top-down (erro 1, perfil pela metade) → gráfico 3D com contador **2,7×** (selo GOOGLE · PERFIL DA EMPRESA) → split dentro do celular (erro 2, avaliação sem resposta × com resposta) → zoom punch no balcão (erro 3, endereço errado, carimbo X) → pin que vira celular com explosão (a saída) → enquete → whip pan e CTA, voltando ao quadro 0.
+Fonte: Google, página do Perfil da Empresa ("Businesses with complete info are 2.7x more likely to be considered reputable", estudo Ipsos citado pelo Google).
+
+**Legenda:** Google Meu Negócio: 3 erros que escondem a sua empresa 👇
+
+Tem cliente te procurando no Google agora, e achando o concorrente.
+
+**1. Perfil pela metade.** Sem horário, sem foto, sem telefone. O próprio Google diz que perfil completo tem 2,7 vezes mais chance de parecer confiável.
+**2. Avaliação sem resposta.** O cliente lê a nota e, principalmente, como você responde.
+**3. Endereço errado (o pior).** O cliente chega, não acha e não volta.
+
+**Hoje:** abra o perfil, complete tudo e responda as avaliações.
+
+📊 Enquete: o seu negócio aparece no Google?
+💬 Comenta SITE que eu te mando um vídeo do seu mini site pronto.
+
+#googlemeunegocio #perfildaempresa #negociolocal #saoluis #marketinglocal
+
+---
+## 05 · Por que pularam o seu vídeo em 2 segundos · CTA **ROTEIRO**
+**Gancho ("PULOU" batendo na câmera, dentro do celular):** "Seu vídeo foi pulado em menos de dois segundos, e não foi pelo assunto. São três motivos, e o terceiro quase ninguém percebe."
+Cenas: dentro do celular → close macro no celular ("bom dia, tudo bem?", X) → split na cidade (parada × em movimento) → contador **3 MIN** no gráfico (selo INSTAGRAM · JANEIRO 2025) → punch no balcão (sem legenda) → relógio que vira celular → enquete com explosão → whip e CTA, que revela: "este vídeo começou pela frase mais forte".
+Fonte: anúncio do Instagram (Adam Mosseri, janeiro de 2025) do limite de Reels de até 3 minutos.
+
+**Legenda:** Reels que ninguém pula: os 3 motivos de o seu vídeo perder a pessoa 👇
+
+**1. Começar com "bom dia, tudo bem?"** Quem rola o feed não espera apresentação.
+**2. Imagem parada.** Se nada muda na tela, o dedo passa.
+**3. Sem legenda.** Muita gente assiste sem som.
+
+O Instagram aceita Reels de até 3 minutos desde janeiro de 2025, mas vídeo longo só segura se cada parte prender.
+
+**Faz assim:** frase mais forte primeiro, algo mudando a cada 2 segundos, e legenda sempre.
+
+📊 Enquete: você assiste Reels com som ou sem som?
+💬 Comenta ROTEIRO que eu te mando 3 roteiros prontos pro seu nicho.
+
+#reels #dicasdereels #videomarketing #empreendedorlocal #instagramparanegocios
+
+---
+## 06 · O link do WhatsApp que perde venda na Black Friday · CTA **LINK**
+**Gancho ("BLACK FRIDAY" batendo na câmera):** "Faltam poucos dias pra Black Friday, e o seu link do WhatsApp pode estar perdendo venda. Tem um detalhe que quase ninguém usa."
+Cenas: celular gigante → cidade top-down (conversa em branco) → macro dentro do celular (selo WHATSAPP · CLIQUE PARA CONVERSAR) → split no balcão (em branco × mensagem pronta, EXEMPLO) → contador **3 LINKS** no gráfico (bio, story, anúncio · EXEMPLO) → caixa que vira celular → enquete com explosão → whip e CTA.
+Fonte: recurso oficial "clique para conversar" do WhatsApp (link wa.me com o parâmetro text). Black Friday: 27/11/2026.
+
+**Legenda:** Link do WhatsApp com mensagem pronta: o detalhe que vende na Black Friday 👇
+
+O cliente clica no link da bio, abre a conversa em branco, não sabe o que escrever e fecha.
+
+**A regra:** o próprio WhatsApp permite um link com a mensagem já escrita. O cliente só toca em enviar.
+**Exemplo:** "Oi, quero a promoção da Black Friday."
+**O detalhe:** um link para cada lugar (bio, story, anúncio). Assim você vê o que vende.
+
+**Monta hoje,** antes da correria, e testa no seu celular.
+
+📊 Enquete: o link da sua bio já tem mensagem pronta?
+💬 Comenta LINK que eu monto o seu link com a mensagem pronta.
+
+#blackfriday #whatsappbusiness #vendaspelowhatsapp #pequenonegocio #saoluisma
