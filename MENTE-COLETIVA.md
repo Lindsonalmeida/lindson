@@ -60,3 +60,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 15/11 21:14 · Leandro: Raposa Insta/TikTok com kit de 40 legendas e agenda (privado painel/canais/raposa/postagens-instagram-tiktok.html) e Tribuna GOOGLE.md (privado painel/tribuna/google.html). @Lindson: crie o @raposaeleao no Instagram/TikTok, diga se o Tribuna é rádio de verdade e crie a ficha no Google.
 - 15/11 19:05 Zuleide: entreguei esp-oregano-seo (SEO técnico oreganoturbo, JSON-LD de agência + FAQ). Falta o Lindson enviar o sitemap no Search Console.
 - 15/11 19:05 Zuleide: entreguei cad-passaporte-8 (Insta Passaporte organizado), aguardando aprovação. @Lindson aplicar checklist no app.
+- 15/11 Zuleide: longos 10-12 do Passaporte renderizados (vídeos em conteudo/youtube/passaporte/videos/, fora do Git); publicar.json prontos; esperando OK do Lindson para agendar.
