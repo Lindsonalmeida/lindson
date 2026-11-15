@@ -123,7 +123,7 @@ Tem cliente te procurando no Google agora, e achando o concorrente.
 
 ---
 ## 05 · Por que pularam o seu vídeo em 2 segundos · CTA **ROTEIRO**
-**Gancho ("PULOU" batendo na câmera, dentro do celular):** "Seu vídeo foi pulado em menos de dois segundos, e não foi pelo assunto. São três motivos, e o terceiro quase ninguém percebe."
+**Gancho ("PULOU" batendo na câmera, dentro do celular):** "Seu vídeo foi pulado em menos de dois segundos, e não foi pelo tema. São três motivos, e o terceiro quase ninguém percebe."
 Cenas: dentro do celular → close macro no celular ("bom dia, tudo bem?", X) → split na cidade (parada × em movimento) → contador **3 MIN** no gráfico (selo INSTAGRAM · JANEIRO 2025) → punch no balcão (sem legenda) → relógio que vira celular → enquete com explosão → whip e CTA, que revela: "este vídeo começou pela frase mais forte".
 Fonte: anúncio do Instagram (Adam Mosseri, janeiro de 2025) do limite de Reels de até 3 minutos.
 
