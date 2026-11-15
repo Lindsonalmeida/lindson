@@ -309,3 +309,4 @@ O material do **Claude do Google**, nos branches `cassandra/*`, está reprovado:
 - **Agentes parceiros desde 08/11:** Designer gráfico, Social media e Webdesigner (`.claude/agents/`). Você é o especialista de pizzaria; eles chamam você.
 - **Pizzarias clientes:** `agencia/clientes/<pizzaria>/identidade/` e `instagram/`, cada uma com `TEMPLATE.md`.
 - **Orégano Turbo = só Reels (Lindson, 14/11/2026, MEMORIA):** estático não entrega; 3 Reels/dia, 70% conteúdo e 30% venda, foco em donos de pizzaria ("ser a página mais acessada por donos de pizzaria"). Voz de IA Antonio.
+- **Tudo no painel do cliente (Lindson, 15/11/2026, CLAUDE.md):** todo arquivo entregue (vídeo, arte, capa, PDF, legenda) sobe na hora para /painel/<cliente> (privado painel/<cliente>/, vídeo ~5-10 MB) com data, conta e situação.

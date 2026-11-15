@@ -221,3 +221,4 @@ Não copiar: sorteio (precisa de autorização) nem números de prova que não s
 
 - **10/11/2026 (MEMORIA, conta Zuleide):** pessoa SEMPRE recortada em capa/arte (nunca foto inteira); série copia o sistema da capa aprovada; nunca arte só com texto (foto real ou banco realista).
 - **Ler TUDO do cliente antes de qualquer peça (bronca do Lindson, 14/11/2026, MEMORIA):** pasta do cliente, painel, privado dados/<cli>.json e clientes-arquivos, repo do site no ar, API de fotos e criativos anteriores. Número/WhatsApp sempre o do site no ar. Fotos em que a persona se reconheça (cena real brasileira); gerar com IA onde o banco não tiver. (Motions SF v1 reprovados por número errado e fotos genéricas.)
+- **Tudo no painel do cliente (Lindson, 15/11/2026, CLAUDE.md):** todo arquivo entregue (vídeo, arte, capa, PDF, legenda) sobe na hora para /painel/<cliente> (privado painel/<cliente>/, vídeo ~5-10 MB) com data, conta e situação.
