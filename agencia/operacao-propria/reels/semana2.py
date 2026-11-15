@@ -86,7 +86,7 @@ R = [
   F('Chegou avaliação de uma estrela. E agora?', ['Uma', 'estrela'], hl=[1], hit=['estrela'], vfx=['punch']),
   I('Primeiro: não responde com raiva.', ['Sem', 'raiva'], hl=[1], hit=['raiva']),
   Q('Quem lê a resposta é o próximo cliente, não só quem reclamou.', ['O próximo', 'cliente'], carimbo='TODOS LEEM', carimboAt='reclamou'),
-  CH('Agradece, pede desculpa e chama pro privado pra resolver.', 'Resposta', [['eu', 'Obrigado por avisar e desculpa pela experiência. Chama a gente no WhatsApp pra resolver? (ilustrativo)']], ['agradece', 'privado']),
+  CH('Agradece, pede desculpa e chama pro privado pra resolver.', 'Resposta', [['eu', 'Obrigado por avisar e desculpa pela experiência. Chama a gente no WhatsApp pra resolver?'], ['ele', 'Ok, vou chamar. (ilustrativo)']], ['agradece', 'privado']),
   B('Resposta educada mostra que tem dono cuidando.', ['Tem dono', 'cuidando'], 'sorrindo-no-celular', hl=[1]),
   C('Comenta AVALIAÇÃO que eu te mando cinco respostas prontas.', ['5 respostas', 'Avaliação']),
   I('Responde todas.', ['Responde', 'todas'], hl=[1])]),
