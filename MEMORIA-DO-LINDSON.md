@@ -14,6 +14,83 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 
 ---
 
+## RESUMO CONSOLIDADO (leia primeiro) — atualizado 15/11/2026, conta Zuleide
+
+> Tirado da memória inteira, do `CLAUDE.md`, do quadro, da mente coletiva e do privado. Detalhe e fonte de cada item: seções 1 a 8 abaixo (histórico intacto). Em conflito, vale a regra mais recente; a antiga aparece como "substituída".
+
+### A. Como ele quer ser atendido
+1. **Resposta curta**: só resultado, o que ele decide e o que trava, até ~5 linhas; tudo o mais em silêncio (08/11).
+2. **Procure antes de perguntar ou dizer que falta**: todos os branches, memória, quadro, privado `dados/agencia/referencias/`, `voz-lindson/`, `clientes-arquivos/` ("eu já fiz a pesquisa, procure… falo isso todo dia", 09/11; "busque tudo da SF", 14/11).
+3. **Nunca dizer que não consegue**: achar um jeito (10/11).
+4. **Nada pago sem ele pedir**: "eu já assino o plano"; usar o gratuito (Workers AI, edge-tts, Chatterbox) (10/11).
+5. **Automatizar**: ele só toca em "enviar"/"aprovar" (botão WhatsApp nos SDR, robôs de postagem) (CLAUDE.md; 11-12/11).
+6. **Verificar como era feito antes e nunca refazer**; continuar de onde outra conta parou (03/11).
+7. **Escolher o agente certo primeiro** (04/11) e **consultar todos os agentes** como revisores (14/11).
+8. **Maquiavel é gerente e coordenador** de tudo, em silêncio; só aparece em "status"/"relatório" (07/11). Trava do Maquiavel **revogada** em 09/11.
+9. **Ele corrige numa frase e espera que você generalize**; toda correção vira regra aqui (zuleide.md, 08-10/11).
+10. Português simples; "só o texto" = só o texto. Nunca inventar número ou fato; fato público a conferir fica marcado (03/11).
+11. Imagem: pedir uma por mensagem (CLAUDE.md). Ação irreversível pede OK dele (03/11).
+
+### B. Regras gerais de qualidade
+1. **Persona antes de criar** (5 linhas: quem, idade, rotina, dor, confiança) — "essa pessoa compraria disso?" (05/11).
+2. **Pesquisa premium no mundo todo antes de toda peça visual**, ≥8 referências de ≥3 países, 3 escolhidas, `TEMPLATE.md` (05/11; "você sempre tá esquecendo", 05/11). Régua de premium: Sermo/Dublê (03/11), "obra de arte" (04/11).
+3. **Nunca do zero: copiar a composição de um modelo** e citar qual (03/11).
+4. **Nada simplista**: camadas, glamour, zero espaço vazio, sem fundo liso (10/11 curso; 14/11 Provedor; 06/11 Orégano).
+5. **Nunca capa/arte só com texto**: sempre foto real ou banco realista (10/11).
+6. **Pessoa sempre recortada** (nunca foto inteira), **do busto para cima, em destaque**, rosto inteiro visível, sem borda de recorte aparente (03/11, 04/11, 10/11, 14/11).
+7. **Foto usada uma única vez** (aba Usadas, `FOTOS-USADAS.md`); quando acabar, pedir mais (04/11, 06/11, 14/11).
+8. **Mesma identidade em todos os canais** do cliente (Instagram, YouTube, TikTok, site) "para gerar conexão" (15/11).
+9. **Série = mesma identidade, composição diferente em cada peça**; carrossel sem repetir layout/foto; estático nunca 2 seguidos na mesma composição/cor; feed harmônico em xadrez (CLAUDE.md; 03/11; 04/11; 10/11).
+10. **Vídeo sempre com áudio**: narração fluida que não pareça IA, SFX e VFX (05/11); voz em blocos, pontuação expressiva (09/11); animação varia sempre (15/11).
+11. **Legenda estilo blog SEO** com CTA e 3-5 hashtags variadas (tema+nicho+local) (CLAUDE.md).
+12. **Copy de abordagem: Conexão → Dor → Desejo → Pergunta**, sem "vi que/parece que/gargalo" (17/10).
+13. **Sem promessa de resultado** em peça, proposta ou contrato (05/11); pagamento sempre antecipado (05/11).
+14. Sem dados de exemplo em site; sem `{{PRECO}}` aparente (03/11, 05/11). Todo produto com upsell/downsell e "seu próximo passo" (04/11).
+15. Site: imagens sem esticar, sem tela branca vazia (05/11). Central/apps sem cara de "vibe code"; estilo Apple premium (09/11, 11/11).
+
+### C. Regras de operação
+1. **Central de Comando** = lugar único dos pedidos; pegar da fila `/api/automacao?fila=ped`, marcar pronto (09/11).
+2. **Tarefas feitas** por cliente, data e hora de São Luís, ao fim de cada entrega, também no painel do cliente (14/11, 15/11).
+3. **Tudo no painel do cliente**: todo arquivo de cliente sobe na hora (vídeo até ~10 MB) (15/11).
+4. **Aprovações com 4 abas**: Para aprovar · Em ajuste · Aprovados (a postar) · Postados (05/11; antes 3 abas, 03/11, substituída). Só subir o aprovado (03/11). Aprovação da arte é do cliente no site (03/11).
+5. **Mente coletiva**: ler/escrever `MENTE-COLETIVA.md` ao abrir, de hora em hora, ao pegar/entregar (14/11). Quadro, registro, recados confirmados (03/11).
+6. **Portfólio automático** de toda entrega aprovada (05/11). PDFs na página de downloads (CLAUDE.md).
+7. **Agenda de posts**: 4 em 4 h entre 8h e 21h (08h45, 12h45, 16h45, 20h45), xadrez, vídeo intercalado; atrasou, remarcar (09/11). Lindson @lindsonalmeida_: 2 carrosséis, 2 estáticos, 2 Reels/dia pelo Windsor (08/11).
+8. **Segredos e dados**: nada de chave, senha, código, dado de paciente ou de cliente no repositório público (03/11; CLAUDE.md privado).
+9. **Voz biométrica do Lindson só no privado** (`dados/agencia/voz-lindson/`), nunca no GitHub (03/11, 08/11).
+10. Fotos dos painéis: `/api/automacao?fila=fotos&cli=<cliente>` (10/11). Painel novo sempre de `prototipo/painel.html` (02/11).
+11. Lista do caderno (`LISTA-DO-LINDSON.md`) vira quadro "A fazer" da Central (15/11).
+12. Tarefas agendadas antigas da conta Lindson só religam com OK dele (26/10).
+
+### D. Por cliente/projeto
+- **Leo Pinto** (vereador, São João Batista/MA): é **SITUAÇÃO**, nada que queime o prefeito (04/11; reprovado 31/12 "bairro precisa", 05/11). Cidade **não tem bairros, só povoados** (09/11). Foto de paisagem só se for da cidade (05/11). Sem grafismos (raios, faixas, ícones, sol) (02/11); logo direto no post, sem balão (03/11). Laranja principal + azul (03/11). Aprovado: apresentação v13 v3, datas v14, saudações v15.2 com paisagem real, 4 motions, bio v2, destaques, aniversário B/C (05/11). Sem pedir voto/número/2028.
+- **Dra. Jaci Cunha** (Zé Doca/MA): bordô e dourado, Cormorant + Montserrat, assinatura topo/rodapé (03/11). **CFO/CRO**: sem promessa, "resultados variam", CRO-MA 8514, antes/depois só autorizado caso a caso (06/11). Pronúncia "Jáci"; voz Francisca (10/11). Reprovados: identidade v1, site v2, prova social v1 genérica (07/11), criativos Meta v2 (13/11).
+- **Desentupidora SF**: número **(98) 92010-5710** (o do site; 98915-3929 está errado) (14/11). Fotos que façam a pessoa se identificar (cena brasileira). Motions v1 reprovados; v2 aguardando (14/11). Ler tudo do cliente antes ("eu sempre tenho que tá falando isso", 14/11).
+- **Tribuna 98 / curso legislativo**: professor **Thiago** Azevedo, com TH (12/11, 14/11). Thiago e Rafael sempre no mesmo patamar em toda imagem (10/11). Capas aprovadas: recortados, palavra gigante, camadas (10/11).
+- **Orégano Turbo** (pizzarias): **só Reels, 3/dia, 70% conteúdo / 30% venda**, voz Antonio (14/11). Padrão de arte = kit v3 campanha Paollo/Rocco ("AGORA SIM", 06/11); sistema v4 (comanda, tomate/verde/creme/carvão, Bagel) (08/11). 21 Reels semana 1 aprovados (15/11). YouTube no mesmo visual do Instagram; kit v1 preto reprovado (15/11). Nicho só pizzarias, sem franquia, sem garantia de resultado (05/11). Nomes clichê reprovados (05/11).
+- **WF Celulares**: tem que ter a ver com a Apple, sem maçã; sem fundo branco/claro ("parece pobre"); caminho B Assinatura aprovado (10/11).
+- **Real Time Full Jobs**: vídeos do Drive só recebem lettering e voz, "não mexer em mais nada" (15/11).
+- **Passaporte da Bíblia**: longos **01 a 09 já postados**; faltam 10-12 (15/11). Capa de longo = **v3 jovem** (Epic History/Ciência Todo Dia), aprovadas 10 "MILAGRE?", 11 "VOLTAR?", 12 "ELE CAIU" (10/11) — **substitui** "só capas2.py" de 01/11 para longos. Longo 16-20 min; Short 45-70 s.
+- **Raposa e Leão**: capas pela identidade do canal; Short 35-45 s pelo `short2.py`; longos 13-16 pausados até ele mandar.
+- **Marca Lindson**: foto colorida cinematográfica, nunca P&B lavada (03/11); amarelo só como acento/c2y (03/11). Linha Provedor v2 em camadas aprovada, fundos de liderança e animais (14/11). Voz clonada "voz 6" aprovada (09/11); **Antonio reprovado como robótico para a marca dele** (15/11). Esteira de produtos até R$ 3.500: não mexer. Comunidade ESTADO PRÓPRIO (04/11). Avatar **VEKTOR** com K (09/11).
+
+### E. Ele já pediu mais de uma vez — não esqueça
+1. **Procurar no repositório antes de perguntar/dizer que falta** — 03/11, 09/11 ("falo isso todo dia"), 14/11 (SF), CLAUDE.md.
+2. **Pesquisa premium / nada simplista** — 03/11, 04/11, 05/11 ("sempre tá esquecendo"), 10/11, 13/11, 14/11.
+3. **Foto não repete, recortada, busto em destaque** — 03/11, 04/11, 06/11, 10/11, 14/11 (2×).
+4. **Compartilhar tudo / não refazer / continuar de onde parou** — 03/11 (2 contas), 09/11 (sistema único), 14/11 (mente coletiva).
+5. **Tarefas feitas e tudo no painel** — 14/11 (2 contas), 15/11 (2 contas).
+6. **Voz fluida, sem soar IA** — 03/11, 05/11, 09/11, 10/11, 15/11.
+7. **Mesma identidade em todos os canais/apps** — 02/11, 03/11, 15/11.
+8. **Resposta curta** — 03/11, 08/11.
+
+### Contradições anotadas
+- Capas do Passaporte: CLAUDE.md (01/11) diz só `capas2.py`; vale a v3 jovem aprovada em 10/11 para longos (Shorts seguem o `capas2.py`, sem decisão nova).
+- "Copiar a composição de um modelo" (03/11, lindson) × CLAUDE.md do privado "nunca copie layout de outros designers": hoje lido como copiar a estrutura, nunca foto/texto/layout literal. **Pede decisão do Lindson.**
+- Página de downloads do CLAUDE.md (3Vn9…) é de outra organização; a conta Lindson usa a Downloads Lindson (seção 6.10).
+
+---
+
 ## 1. Quem é o Lindson, a agência e as 3 contas
 
 - Lindson Almeida: estrategista digital e conteudista em São Luís/MA, com agência de gestão de redes sociais. Também é assessor político. Instagram @lindsonalmeida_.

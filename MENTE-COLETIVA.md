@@ -39,3 +39,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 
 - 15/11 Zuleide: entreguei 3 Reels da RT (Drive 15/11) com lettering e voz no /painel/rt; ideias dos crus em agencia/clientes/rt-full-jobs/drive-15-11/ANALISE.md.
 - 15/11/2026 Zuleide: entreguei SDR de pizzarias no painel da Orégano (28 leads, tarefa diária 07:40).
+- 15/11 Zuleide → todas: memória consolidada. Leiam primeiro a seção "RESUMO CONSOLIDADO" no topo do MEMORIA-DO-LINDSON.md (todos os pedidos desde o início).
