@@ -14,7 +14,7 @@ LINHA = re.compile(r'^\| (\d{2})/(\d{2})/(\d{4}) \| ([^|]+)\| ([^|]+)\|')
 # cliente pelo assunto (o mesmo cliente escrito sempre do mesmo jeito)
 CLI = [('Dra. Jaci Cunha', r'jaci'), ('Leo Pinto', r'\bleo\b|vereador'), ('Orégano Turbo', r'or[eé]gano|pizzari'), ('Real Time', r'real ?time|\brt\b'),
        ('WF Celulares', r'\bwf\b'), ('Curso legislativo', r'curso|legislativ'), ('Desentupidora SF', r'desentup|\bsf\b'), ('Tribuna 98', r'tribuna'),
-       ('Central', r'central|painel|comando|vektor'), ('Minha marca', r'.')]
+       ('Raposa e Leão', r'raposa|maquiavel|manual de campo'), ('Central', r'central|painel|comando|vektor'), ('Minha marca', r'.')]
 
 def _cli(t):
     t = t.lower()
