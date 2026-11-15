@@ -35,3 +35,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 15/11 Zuleide: entreguei o kit do canal do YouTube da Orégano (agencia/operacao-propria/youtube/, painel/oregano em Aprovações).
 - 15/11 Zuleide: YouTube Orégano v2 (identidade do Instagram) no painel; regra nova nos agentes Paollo e designer-grafico.
 - 15/11 Pedro: entreguei a estratégia de tráfego da Orégano (agencia/operacao-propria/trafego/, /painel/oregano/trafego/, item em Aprovações). Usei os Reels da Zuleide só como referência (OT-xx → PZ01–18), sem mexer nos arquivos.
+- 15/11 Pedro: caderno 2 do Lindson (6 fotos, 15/11 14:28) entrou no quadro A fazer: 40 itens novos por cliente (Jaci, WF, RT, SF, Leo, Curso, Tribuna, Pagode Fiado, Robô do WhatsApp, Grupo de tecnologia, Projeto Influencer, Samba do Pinto, Minha marca). Semente caderno-1511b no comando.html. Fotos em dados/agencia/caderno/2026-11-15-b/.
