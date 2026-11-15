@@ -50,6 +50,22 @@ def feitos():
         q = horas.get(l)
         itens.append({'d': f'{aa}-{mm}-{dd}', 'h': q.strftime('%H:%M') if q and q.strftime('%d/%m/%Y') == f'{dd}/{mm}/{aa}' else '',
                       'conta': conta.strip(), 'txt': _resumo(txt), 'cli': _cli(txt)})
+    # Tarefas feitas da Central de Comando (regra de 14/11): entram também no quadro, por cliente, dia e hora
+    NOMES = {'jaci': 'Dra. Jaci Cunha', 'leo': 'Leo Pinto', 'oregano': 'Orégano Turbo', 'rt': 'Real Time', 'wf': 'WF Celulares', 'sf': 'Desentupidora SF',
+             'tribuna': 'Tribuna 98', 'marca': 'Minha marca', 'outro': 'Outros'}
+    try:
+        import urllib.request
+        r = urllib.request.Request('https://lindsonalmeida.pages.dev/api/automacao?fila=feitas', headers={'Authorization': 'Bearer proxy-injected', 'User-Agent': 'montar-feitos'})
+        d = json.load(urllib.request.urlopen(r, timeout=30))
+        api = d.get('itens') or (d.get('dados') or {}).get('itens') or []
+    except Exception:
+        api = []
+    ja = {(i['d'], i['txt'][:60].lower()) for i in itens}
+    for x in api:
+        t = _resumo(x.get('atividade') or '')
+        if not t or (x.get('data'), t[:60].lower()) in ja: continue
+        itens.append({'d': x.get('data') or '', 'h': x.get('hora') or '', 'conta': x.get('por') or x.get('conta') or '',
+                      'txt': t, 'cli': NOMES.get(x.get('cli'), _cli(t))})
     return itens
 
 if __name__ == '__main__':
