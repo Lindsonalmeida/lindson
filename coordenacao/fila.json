@@ -246,8 +246,8 @@
    "cli": "oregano",
    "tarefa": "TikTok",
    "equipe": "Zuleide",
-   "status": "andamento",
-   "nota": "",
+   "status": "aguardando aprovação",
+   "nota": "agencia/operacao-propria/tiktok/ (PERFIL.md, LEGENDAS-TIKTOK.md) + painel /painel/oregano Aprovações (22 cartões TikTok)",
    "partes": [
     {
      "p": "Criar perfil TikTok",

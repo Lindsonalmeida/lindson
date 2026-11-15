@@ -317,3 +317,4 @@ Levantado pela conta Lindson em 01/11/2026 a partir do histórico do git e dos a
 | 15/11/2026 | Zuleide | Aba SDR de pizzarias no painel da Orégano + 28 leads ICP + tarefa diária | /painel/oregano#sdr · agencia/operacao-propria/sdr/ · oregano-turbo/montar-sdr.py | pronto |
 | 15/11/2026 | Zuleide | Pasta Postados nos painéis (oregano, sf, rt, jaci, leo, wf, curso): Marcar como postado/Voltar, KV /api/postados | painel/postados.js · functions/api/postados.js · agencia/sistema-clientes/site/painel-feitas/ | pronto |
 | 15/11/2026 | Pedro | Orégano Turbo: mascote (Seu Turbo) com rig animável e vídeo demo | agencia/operacao-propria/mascote/ · /painel/oregano | aguardando aprovação |
+| 2026-11-15 [16:59] | Zuleide | TikTok Orégano: kit do perfil + 21 legendas TikTok, no painel (aguardando) | agencia/operacao-propria/tiktok/ | aguardando aprovação |
