@@ -1,0 +1,138 @@
+{
+ "_nota": "Ficha OT semana 2 (15/11/2026). Fotos Pexels (licença livre) em ../fotos/, nunca usadas antes.",
+ "beat_sync": true,
+ "voz_rate": "+4%",
+ "voz_max": 27.5,
+ "trilha": "midnight-funk-117bpm.mp3",
+ "trilha_ini": 24,
+ "capa": {
+  "foto": "32641694.jpg",
+  "palavra": "SÓ PIZZA",
+  "manchete": "Por que a gente",
+  "caixa": "só atende pizzaria",
+  "rotulo": "Método",
+  "wordTop": 330,
+  "wordSize": 220,
+  "headTop": 1290,
+  "tagTop": 1225,
+  "auto": false,
+  "fx": 0,
+  "fy": 0,
+  "fw": 1080
+ },
+ "cenas": [
+  {
+   "tipo": "fotofull",
+   "texto": [
+    "Só",
+    "pizzaria"
+   ],
+   "hl": [
+    1
+   ],
+   "hit": [
+    "sushi"
+   ],
+   "vfx": [
+    "punch"
+   ],
+   "foto": "32641694.jpg",
+   "_cred": "https://www.pexels.com/photo/32641694/",
+   "top": 470,
+   "size": 180
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Só",
+    "pizzaria"
+   ],
+   "hl": [
+    1
+   ],
+   "hit": [
+    "pizzaria"
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  },
+  {
+   "tipo": "lista",
+   "texto": [],
+   "titulo": "Outro jogo",
+   "itens": [
+    [
+     "1",
+     "Noite de pico"
+    ],
+    [
+     "2",
+     "Forno lotado"
+    ],
+    [
+     "3",
+     "Motoboy e caixa"
+    ]
+   ],
+   "tempos_em": [
+    "pico",
+    "forno",
+    "motoboy"
+   ]
+  },
+  {
+   "tipo": "frase",
+   "texto": [
+    "Seu dia",
+    "a dia"
+   ],
+   "carimbo": "ESPECIALISTA",
+   "carimboAt": "dia",
+   "size": 170,
+   "top": 560
+  },
+  {
+   "tipo": "banco",
+   "texto": [
+    "Primeiro",
+    "o Raio-X"
+   ],
+   "clip": "empreendedora-notebook",
+   "hl": [
+    1
+   ],
+   "size": 170,
+   "top": 560,
+   "vfx": [
+    "punch"
+   ]
+  },
+  {
+   "tipo": "cta",
+   "texto": [],
+   "etiquetas": [
+    "Raio-X",
+    "Só pizzarias"
+   ],
+   "vfx": [
+    "leak"
+   ],
+   "foto": "29626981.jpg",
+   "_cred": "https://www.pexels.com/photo/29626981/"
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Pra quem",
+    "tem forno"
+   ],
+   "hl": [
+    1
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  }
+ ]
+}

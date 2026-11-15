@@ -1,0 +1,137 @@
+{
+ "_nota": "Ficha OT semana 2 (15/11/2026). Fotos Pexels (licença livre) em ../fotos/, nunca usadas antes.",
+ "beat_sync": true,
+ "voz_rate": "+4%",
+ "voz_max": 27.5,
+ "trilha": "trap-electro-vibes-112bpm.mp3",
+ "trilha_ini": 32,
+ "capa": {
+  "foto": "17403901.jpg",
+  "palavra": "CAIXA",
+  "manchete": "A mídia que entra",
+  "caixa": "na casa do cliente",
+  "rotulo": "Gestão",
+  "wordTop": 330,
+  "wordSize": 340,
+  "headTop": 1290,
+  "tagTop": 1225,
+  "auto": false,
+  "fx": 0,
+  "fy": 0,
+  "fw": 1080
+ },
+ "cenas": [
+  {
+   "tipo": "fotofull",
+   "texto": [
+    "Entra na",
+    "casa dele"
+   ],
+   "hl": [
+    1
+   ],
+   "hit": [
+    "mesa"
+   ],
+   "vfx": [
+    "punch"
+   ],
+   "foto": "17403901.jpg",
+   "_cred": "https://www.pexels.com/photo/17403901/",
+   "top": 470,
+   "size": 180
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "A caixa"
+   ],
+   "hl": [
+    0
+   ],
+   "hit": [
+    "caixa"
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  },
+  {
+   "tipo": "lista",
+   "texto": [],
+   "titulo": "Na caixa",
+   "itens": [
+    [
+     "1",
+     "Adesivo da marca"
+    ],
+    [
+     "2",
+     "Cartão com zap"
+    ],
+    [
+     "3",
+     "Código do pedido"
+    ]
+   ],
+   "tempos_em": [
+    "adesivo",
+    "cartão",
+    "código"
+   ]
+  },
+  {
+   "tipo": "frase",
+   "texto": [
+    "Direto",
+    "pra você"
+   ],
+   "carimbo": "CANAL PRÓPRIO",
+   "carimboAt": "você",
+   "size": 170,
+   "top": 560
+  },
+  {
+   "tipo": "banco",
+   "texto": [
+    "Toda",
+    "noite"
+   ],
+   "clip": "cidade-noite",
+   "hl": [
+    1
+   ],
+   "size": 170,
+   "top": 560,
+   "vfx": [
+    "punch"
+   ]
+  },
+  {
+   "tipo": "cta",
+   "texto": [],
+   "etiquetas": [
+    "5 cartões",
+    "Pra caixa"
+   ],
+   "vfx": [
+    "leak"
+   ],
+   "foto": "6151210.jpg",
+   "_cred": "https://www.pexels.com/photo/6151210/"
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Olha sua",
+    "caixa"
+   ],
+   "hl": [
+    1
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  }
+ ]
+}

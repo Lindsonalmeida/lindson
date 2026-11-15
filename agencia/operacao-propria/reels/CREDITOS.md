@@ -43,3 +43,24 @@ Fotos: Pexels (licença Pexels, uso comercial livre; crédito voluntário). Cada
 - 35940570 (Frango): https://www.pexels.com/photo/35940570/
 
 SFX, trilhas e vídeos de banco: Mixkit (licença livre), ver `conteudo/reels/leva-30s/banco/CREDITOS.md`. Trilhas: pop-track-03, trap-electro-vibes, midnight-funk (Mixkit Stock Music Free License).
+
+## Semana 2 (OT-22 a OT-30, 15/11/2026, conta Zuleide)
+
+- 32449727 (OT-22): https://www.pexels.com/photo/32449727/
+- 18437686 (OT-22): https://www.pexels.com/photo/18437686/
+- 14538481 (OT-23): https://www.pexels.com/photo/14538481/
+- 19786235 (OT-23): https://www.pexels.com/photo/19786235/
+- 16055182 (OT-24): https://www.pexels.com/photo/16055182/
+- 27647972 (OT-24): https://www.pexels.com/photo/27647972/
+- 40262802 (OT-25): https://www.pexels.com/photo/40262802/
+- 6068713 (OT-25): https://www.pexels.com/photo/6068713/
+- 17403901 (OT-26): https://www.pexels.com/photo/17403901/
+- 6151210 (OT-26): https://www.pexels.com/photo/6151210/
+- 32641694 (OT-27): https://www.pexels.com/photo/32641694/
+- 29626981 (OT-27): https://www.pexels.com/photo/29626981/
+- 27927612 (OT-28): https://www.pexels.com/photo/27927612/
+- 1653877 (OT-28): https://www.pexels.com/photo/1653877/
+- 12288359 (OT-29): https://www.pexels.com/photo/12288359/
+- 17402721 (OT-29): https://www.pexels.com/photo/17402721/
+- 20793369 (OT-30): https://www.pexels.com/photo/20793369/
+- 36375362 (OT-30): https://www.pexels.com/photo/36375362/

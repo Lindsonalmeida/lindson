@@ -1,0 +1,133 @@
+{
+ "_nota": "Ficha OT semana 2 (15/11/2026). Fotos Pexels (licença livre) em ../fotos/, nunca usadas antes.",
+ "beat_sync": true,
+ "voz_rate": "+4%",
+ "voz_max": 27.5,
+ "trilha": "midnight-funk-117bpm.mp3",
+ "trilha_ini": 24,
+ "capa": {
+  "foto": "16055182.jpg",
+  "palavra": "ZAP",
+  "manchete": "Quanto tempo o cliente",
+  "caixa": "espera sua resposta?",
+  "rotulo": "Raio-X",
+  "wordTop": 330,
+  "wordSize": 170,
+  "headTop": 1290,
+  "tagTop": 1225,
+  "auto": false,
+  "fx": 0,
+  "fy": 0,
+  "fw": 1080
+ },
+ "cenas": [
+  {
+   "tipo": "fotofull",
+   "texto": [
+    "Quanto tempo",
+    "ele espera?"
+   ],
+   "hl": [
+    1
+   ],
+   "hit": [
+    "WhatsApp"
+   ],
+   "vfx": [
+    "punch"
+   ],
+   "foto": "16055182.jpg",
+   "_cred": "https://www.pexels.com/photo/16055182/",
+   "top": 470,
+   "size": 180
+  },
+  {
+   "tipo": "chat",
+   "texto": [],
+   "nome": "Cliente",
+   "msgs": [
+    [
+     "ele",
+     "Boa noite! Tem calabresa?"
+    ],
+    [
+     "ele",
+     "Oi?? 👀"
+    ]
+   ],
+   "tempos_em": [
+    "calabresa",
+    "ninguém"
+   ]
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Pede em",
+    "outro lugar"
+   ],
+   "hl": [
+    1
+   ],
+   "hit": [
+    "lugar"
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  },
+  {
+   "tipo": "frase",
+   "texto": [
+    "Hora do",
+    "pico"
+   ],
+   "carimbo": "ATENDIMENTO",
+   "carimboAt": "pico",
+   "size": 170,
+   "top": 560
+  },
+  {
+   "tipo": "banco",
+   "texto": [
+    "Raio-X do",
+    "atendimento"
+   ],
+   "clip": "respondendo-whatsapp",
+   "hl": [
+    1
+   ],
+   "size": 170,
+   "top": 560,
+   "vfx": [
+    "punch"
+   ]
+  },
+  {
+   "tipo": "cta",
+   "texto": [],
+   "etiquetas": [
+    "Raio-X",
+    "Só pizzarias"
+   ],
+   "vfx": [
+    "leak"
+   ],
+   "foto": "27647972.jpg",
+   "_cred": "https://www.pexels.com/photo/27647972/"
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Resposta",
+    "rápida"
+   ],
+   "hl": [
+    1
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  }
+ ]
+}

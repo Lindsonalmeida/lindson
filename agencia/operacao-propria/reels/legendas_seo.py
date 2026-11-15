@@ -14,7 +14,7 @@ CTA = ('Quer saber o que trava a venda na SUA pizzaria? Peça o Raio-X da Oréga
        '(oreganoturbo.pages.dev) e a gente olha o seu Instagram, o cardápio e o caminho até o pedido com você.\n'
        'Orégano Turbo: marketing de vendas só para pizzarias, de São Luís/MA.')
 fr = lambda t: [x.strip() for x in re.split(r'(?<=[.!?])\s+', t) if x.strip()]
-out = ['# Legendas SEO · Reels Orégano Turbo semana 1 (v2, 15/11/2026, conta Zuleide)\n', 'Gerado por `legendas_seo.py`. Aprovadas pelo Lindson em 15/11 (vídeos).\n']
+out = ['# Legendas SEO · Reels Orégano Turbo semanas 1 e 2 (30 Reels; 15/11/2026, conta Zuleide)\n', 'Gerado por `legendas_seo.py`. OT-01 a 21 aprovados pelo Lindson em 15/11; OT-22 a 30 aguardando aprovação.\n']
 for k, r in enumerate(R):
     fs = [f for f in fr(' '.join(r['blocos_voz'])) if 'Comenta' not in f and 'Marca quem' not in f]
     m = max(2, len(fs) // 2)
@@ -24,7 +24,8 @@ for k, r in enumerate(R):
          f"▶ Conclusão\n{fs[-1]} Pizzaria que cresce cuida do produto e de como ele chega no cliente.\n\n"
          f"🎁 Comenta {r['cta_palavra']} que eu te mando: {r['entrega_no_video'].replace('Te mando ', '')}\n\n👉 {CTA}\n\n{' '.join(tags)}")
     assert len(t) <= 2200
-    open(os.path.join(D, 'semana-1', r['id'][3:], 'legenda-seo.txt'), 'w').write(t)
+    pa = os.path.join(D, 'semana-1' if r['ordem'] <= 21 else 'semana-2', r['id'][3:]); os.makedirs(pa, exist_ok=True)
+    open(os.path.join(pa, 'legenda-seo.txt'), 'w').write(t)
     out.append(f"\n## {r['id']} · {r['post']['data']} {r['post']['hora']} · {r['linha_editorial']}\n\n**Título Shorts:** {r['titulo']}\n\n{t}\n")
 open(os.path.join(D, 'LEGENDAS.md'), 'w').write('\n'.join(out))
 print('ok', len(R))

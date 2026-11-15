@@ -1,0 +1,138 @@
+{
+ "_nota": "Ficha OT semana 2 (15/11/2026). Fotos Pexels (licença livre) em ../fotos/, nunca usadas antes.",
+ "beat_sync": true,
+ "voz_rate": "+4%",
+ "voz_max": 27.5,
+ "trilha": "midnight-funk-117bpm.mp3",
+ "trilha_ini": 24,
+ "capa": {
+  "foto": "20793369.jpg",
+  "palavra": "IMPULSIONAR",
+  "manchete": "Antes de apertar",
+  "caixa": "esse botão",
+  "rotulo": "Chamada para diagnóstico",
+  "wordTop": 330,
+  "wordSize": 170,
+  "headTop": 1290,
+  "tagTop": 1225,
+  "auto": false,
+  "fx": 0,
+  "fy": 0,
+  "fw": 1080
+ },
+ "cenas": [
+  {
+   "tipo": "fotofull",
+   "texto": [
+    "Antes de",
+    "impulsionar"
+   ],
+   "hl": [
+    1
+   ],
+   "hit": [
+    "impulsionar"
+   ],
+   "vfx": [
+    "punch"
+   ],
+   "foto": "20793369.jpg",
+   "_cred": "https://www.pexels.com/photo/20793369/",
+   "top": 470,
+   "size": 180
+  },
+  {
+   "tipo": "lista",
+   "texto": [],
+   "titulo": "Depois do clique",
+   "itens": [
+    [
+     "?",
+     "Pra onde vai"
+    ],
+    [
+     "?",
+     "Tem cardápio"
+    ],
+    [
+     "?",
+     "Quem responde"
+    ]
+   ],
+   "tempos_em": [
+    "clique",
+    "cardápio",
+    "respondendo"
+   ]
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Para no",
+    "vazio"
+   ],
+   "hl": [
+    1
+   ],
+   "hit": [
+    "vazio"
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  },
+  {
+   "tipo": "frase",
+   "texto": [
+    "Caminho",
+    "até o pedido"
+   ],
+   "carimbo": "PRIMEIRO ISSO",
+   "carimboAt": "pedido",
+   "size": 170,
+   "top": 560
+  },
+  {
+   "tipo": "banco",
+   "texto": [
+    "O seu",
+    "caminho"
+   ],
+   "clip": "rolando-pagina-venda",
+   "hl": [
+    1
+   ],
+   "size": 170,
+   "top": 560,
+   "vfx": [
+    "punch"
+   ]
+  },
+  {
+   "tipo": "cta",
+   "texto": [],
+   "etiquetas": [
+    "Raio-X",
+    "Antes do anúncio"
+   ],
+   "vfx": [
+    "leak"
+   ],
+   "foto": "36375362.jpg",
+   "_cred": "https://www.pexels.com/photo/36375362/"
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Primeiro",
+    "o caminho"
+   ],
+   "hl": [
+    1
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  }
+ ]
+}

@@ -1,0 +1,147 @@
+{
+ "_nota": "Ficha OT semana 2 (15/11/2026). Fotos Pexels (licença livre) em ../fotos/, nunca usadas antes.",
+ "beat_sync": true,
+ "voz_rate": "+4%",
+ "voz_max": 27.5,
+ "trilha": "pop-track-03-108bpm.mp3",
+ "trilha_ini": 14,
+ "capa": {
+  "foto": "27927612.jpg",
+  "palavra": "SEXTA",
+  "manchete": "Nove da noite",
+  "caixa": "e cadê o motoboy?",
+  "rotulo": "Humor de dono",
+  "wordTop": 330,
+  "wordSize": 340,
+  "headTop": 1290,
+  "tagTop": 1225,
+  "auto": false,
+  "fx": 0,
+  "fy": 0,
+  "fw": 1080
+ },
+ "cenas": [
+  {
+   "tipo": "fotofull",
+   "texto": [
+    "POV:",
+    "sexta 21h"
+   ],
+   "hl": [
+    1
+   ],
+   "hit": [
+    "chegou"
+   ],
+   "vfx": [
+    "punch"
+   ],
+   "foto": "27927612.jpg",
+   "_cred": "https://www.pexels.com/photo/27927612/",
+   "top": 470,
+   "size": 180
+  },
+  {
+   "tipo": "chat",
+   "texto": [],
+   "nome": "Cliente",
+   "msgs": [
+    [
+     "ele",
+     "Já saiu??"
+    ],
+    [
+     "ele",
+     "Tô com fome 😩"
+    ]
+   ],
+   "tempos_em": [
+    "cliente",
+    "mensagem"
+   ]
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Queijo",
+    "esfriando"
+   ],
+   "hl": [
+    1
+   ],
+   "hit": [
+    "esfriando"
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  },
+  {
+   "tipo": "lista",
+   "texto": [],
+   "titulo": "Na sexta",
+   "itens": [
+    [
+     "1",
+     "Motoboy reserva"
+    ],
+    [
+     "2",
+     "Escala na quinta"
+    ],
+    [
+     "3",
+     "Avisa antes"
+    ]
+   ],
+   "tempos_em": [
+    "reserva",
+    "escala",
+    "aviso"
+   ],
+   "compacto": true
+  },
+  {
+   "tipo": "banco",
+   "texto": [
+    "Prepara",
+    "na quinta"
+   ],
+   "clip": "notificacao-acorda",
+   "hl": [
+    1
+   ],
+   "size": 170,
+   "top": 560,
+   "vfx": [
+    "punch"
+   ]
+  },
+  {
+   "tipo": "cta",
+   "texto": [],
+   "etiquetas": [
+    "Checklist",
+    "Sexta"
+   ],
+   "vfx": [
+    "leak"
+   ],
+   "foto": "1653877.jpg",
+   "_cred": "https://www.pexels.com/photo/1653877/"
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Marca seu",
+    "motoboy"
+   ],
+   "hl": [
+    1
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  }
+ ]
+}

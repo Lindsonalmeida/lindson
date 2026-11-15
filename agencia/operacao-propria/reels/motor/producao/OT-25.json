@@ -1,0 +1,138 @@
+{
+ "_nota": "Ficha OT semana 2 (15/11/2026). Fotos Pexels (licença livre) em ../fotos/, nunca usadas antes.",
+ "beat_sync": true,
+ "voz_rate": "+4%",
+ "voz_max": 27.5,
+ "trilha": "pop-track-03-108bpm.mp3",
+ "trilha_ini": 14,
+ "capa": {
+  "foto": "40262802.jpg",
+  "palavra": "CALABRESA",
+  "manchete": "O sabor mais",
+  "caixa": "brasileiro da pizzaria",
+  "rotulo": "Curiosidade",
+  "wordTop": 330,
+  "wordSize": 200,
+  "headTop": 1290,
+  "tagTop": 1225,
+  "auto": false,
+  "fx": 0,
+  "fy": 0,
+  "fw": 1080
+ },
+ "cenas": [
+  {
+   "tipo": "fotofull",
+   "texto": [
+    "Sabor",
+    "brasileiro"
+   ],
+   "hl": [
+    1
+   ],
+   "hit": [
+    "brasileiro"
+   ],
+   "vfx": [
+    "punch"
+   ],
+   "foto": "40262802.jpg",
+   "_cred": "https://www.pexels.com/photo/40262802/",
+   "top": 470,
+   "size": 180
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Calábria",
+    "Itália"
+   ],
+   "hl": [
+    0
+   ],
+   "hit": [
+    "Calábria"
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  },
+  {
+   "tipo": "frase",
+   "texto": [
+    "Coisa",
+    "nossa"
+   ],
+   "carimbo": "BRASIL",
+   "carimboAt": "nossa",
+   "size": 170,
+   "top": 560
+  },
+  {
+   "tipo": "lista",
+   "texto": [],
+   "titulo": "Clássicos",
+   "itens": [
+    [
+     "1",
+     "Calabresa"
+    ],
+    [
+     "2",
+     "Portuguesa"
+    ],
+    [
+     "3",
+     "Frango catupiry"
+    ]
+   ],
+   "tempos_em": [
+    "calabresa",
+    "portuguesa",
+    "frango"
+   ]
+  },
+  {
+   "tipo": "banco",
+   "texto": [
+    "Nome",
+    "da casa"
+   ],
+   "clip": "celular-noite-digitando",
+   "hl": [
+    1
+   ],
+   "size": 170,
+   "top": 560,
+   "vfx": [
+    "punch"
+   ]
+  },
+  {
+   "tipo": "cta",
+   "texto": [],
+   "etiquetas": [
+    "5 nomes",
+    "Sabor da casa"
+   ],
+   "vfx": [
+    "leak"
+   ],
+   "foto": "6068713.jpg",
+   "_cred": "https://www.pexels.com/photo/6068713/"
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Qual é seu",
+    "campeão?"
+   ],
+   "hl": [
+    1
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  }
+ ]
+}

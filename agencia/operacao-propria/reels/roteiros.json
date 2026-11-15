@@ -1,5 +1,5 @@
 {
- "leva": "Reels Orégano Turbo · semana 1",
+ "leva": "Reels Orégano Turbo · semanas 1 e 2 (30)",
  "criado": "2026-11-14",
  "conta": "Zuleide (Paollo)",
  "reels": [
@@ -1540,6 +1540,670 @@
      "texto_tela_palavras": [
       "Salva",
       "esse vídeo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "OT-22",
+   "ordem": 22,
+   "post": {
+    "data": "23/11",
+    "hora": "12:10"
+   },
+   "titulo": "Molho cru ou cozido: o que a napolitana usa",
+   "tipo": "conteudo",
+   "linha_editorial": "Técnica de massa",
+   "capa_cor": "preto",
+   "cta_palavra": "MOLHO",
+   "entrega_no_video": "Te mando a receita base de molho cru pra testar.",
+   "blocos_voz": [
+    "Molho de pizza: cru ou cozido? Na napolitana tradicional, o molho vai cru. Sem panela, sem refogar. Ele cozinha junto com a pizza, dentro do forno, e fica com gosto de tomate fresco.",
+    "Tomate pelado amassado, sal e um fio de azeite. Só isso. Fica mais vermelho na foto, e ainda poupa uma panela no fogão da cozinha. Comenta MOLHO que eu te mando a receita base pra testar. Testa numa pizza só."
+   ],
+   "cenas": [
+    {
+     "narracao": "Molho de pizza: cru ou cozido?",
+     "texto_tela": "Cru ou cozido?",
+     "texto_tela_palavras": [
+      "Cru ou",
+      "cozido?"
+     ]
+    },
+    {
+     "narracao": "Na napolitana tradicional, o molho vai cru. Sem panela, sem refogar.",
+     "texto_tela": "Molho cru",
+     "texto_tela_palavras": [
+      "Molho",
+      "cru"
+     ]
+    },
+    {
+     "narracao": "Ele cozinha junto com a pizza, dentro do forno, e fica com gosto de tomate fresco.",
+     "texto_tela": "Cozinha no forno",
+     "texto_tela_palavras": [
+      "Cozinha",
+      "no forno"
+     ]
+    },
+    {
+     "narracao": "Tomate pelado amassado, sal e um fio de azeite. Só isso.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Fica mais vermelho na foto, e ainda poupa uma panela no fogão da cozinha.",
+     "texto_tela": "Mais vermelho",
+     "texto_tela_palavras": [
+      "Mais",
+      "vermelho"
+     ]
+    },
+    {
+     "narracao": "Comenta MOLHO que eu te mando a receita base pra testar.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Testa numa pizza só.",
+     "texto_tela": "Testa numa pizza só",
+     "texto_tela_palavras": [
+      "Testa numa",
+      "pizza só"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "OT-23",
+   "ordem": 23,
+   "post": {
+    "data": "23/11",
+    "hora": "19:10"
+   },
+   "titulo": "Foto de pizza no celular: 3 ajustes que mudam o cardápio",
+   "tipo": "conteudo",
+   "linha_editorial": "Bastidor",
+   "capa_cor": "preto",
+   "cta_palavra": "FOTO",
+   "entrega_no_video": "Te mando o guia de foto de pizza no celular.",
+   "blocos_voz": [
+    "Sua pizza é linda. Por que a foto não mostra isso? Luz de janela, de lado. Celular de cima. E limpa a lente antes. Nada de flash na cozinha escura. Fotografa a pizza saindo do forno, com o queijo ainda brilhando.",
+    "É essa foto que o cliente vê antes de pedir. Comenta FOTO que eu te mando o guia de foto no celular. Troca a foto hoje."
+   ],
+   "cenas": [
+    {
+     "narracao": "Sua pizza é linda. Por que a foto não mostra isso?",
+     "texto_tela": "E a foto?",
+     "texto_tela_palavras": [
+      "E a",
+      "foto?"
+     ]
+    },
+    {
+     "narracao": "Luz de janela, de lado. Celular de cima. E limpa a lente antes.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Nada de flash na cozinha escura.",
+     "texto_tela": "Sem flash",
+     "texto_tela_palavras": [
+      "Sem",
+      "flash"
+     ]
+    },
+    {
+     "narracao": "Fotografa a pizza saindo do forno, com o queijo ainda brilhando.",
+     "texto_tela": "Saindo do forno",
+     "texto_tela_palavras": [
+      "Saindo",
+      "do forno"
+     ]
+    },
+    {
+     "narracao": "É essa foto que o cliente vê antes de pedir.",
+     "texto_tela": "Antes de pedir",
+     "texto_tela_palavras": [
+      "Antes de",
+      "pedir"
+     ]
+    },
+    {
+     "narracao": "Comenta FOTO que eu te mando o guia de foto no celular.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Troca a foto hoje.",
+     "texto_tela": "Troca a foto hoje",
+     "texto_tela_palavras": [
+      "Troca a",
+      "foto hoje"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "OT-24",
+   "ordem": 24,
+   "post": {
+    "data": "23/11",
+    "hora": "23:40"
+   },
+   "titulo": "Quanto tempo sua pizzaria demora pra responder no WhatsApp?",
+   "tipo": "venda",
+   "linha_editorial": "Raio-X",
+   "capa_cor": "preto",
+   "cta_palavra": "ZAP",
+   "entrega_no_video": "Te mando como pedir o Raio-X do seu atendimento.",
+   "blocos_voz": [
+    "Quanto tempo o cliente espera a sua resposta no WhatsApp? Ele mandou: tem calabresa? E ninguém respondeu. Com fome, ele pede em outro lugar. Mensagem pronta, cardápio fixado e alguém olhando o celular na hora do pico.",
+    "No Raio-X a gente olha o seu atendimento junto com você. Comenta ZAP que eu te explico como pedir o Raio-X. Resposta rápida vende."
+   ],
+   "cenas": [
+    {
+     "narracao": "Quanto tempo o cliente espera a sua resposta no WhatsApp?",
+     "texto_tela": "Quanto tempo ele espera?",
+     "texto_tela_palavras": [
+      "Quanto tempo",
+      "ele espera?"
+     ]
+    },
+    {
+     "narracao": "Ele mandou: tem calabresa? E ninguém respondeu.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Com fome, ele pede em outro lugar.",
+     "texto_tela": "Pede em outro lugar",
+     "texto_tela_palavras": [
+      "Pede em",
+      "outro lugar"
+     ]
+    },
+    {
+     "narracao": "Mensagem pronta, cardápio fixado e alguém olhando o celular na hora do pico.",
+     "texto_tela": "Hora do pico",
+     "texto_tela_palavras": [
+      "Hora do",
+      "pico"
+     ]
+    },
+    {
+     "narracao": "No Raio-X a gente olha o seu atendimento junto com você.",
+     "texto_tela": "Raio-X do atendimento",
+     "texto_tela_palavras": [
+      "Raio-X do",
+      "atendimento"
+     ]
+    },
+    {
+     "narracao": "Comenta ZAP que eu te explico como pedir o Raio-X.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Resposta rápida vende.",
+     "texto_tela": "Resposta rápida",
+     "texto_tela_palavras": [
+      "Resposta",
+      "rápida"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "OT-25",
+   "ordem": 25,
+   "post": {
+    "data": "24/11",
+    "hora": "12:10"
+   },
+   "titulo": "Pizza de calabresa: o sabor mais brasileiro do cardápio",
+   "tipo": "conteudo",
+   "linha_editorial": "Curiosidade",
+   "capa_cor": "preto",
+   "cta_palavra": "SABOR",
+   "entrega_no_video": "Te mando 5 ideias de nome para sabores da casa.",
+   "blocos_voz": [
+    "A calabresa é o sabor mais brasileiro da pizzaria. O nome vem da Calábria, no sul da Itália. Mas a pizza de calabresa com cebola, do jeito que a gente come, é coisa nossa. Calabresa, portuguesa, frango com catupiry.",
+    "Sabores que o cliente já conhece. Dá um nome da casa pro clássico e ele vira assinatura. Comenta SABOR que eu te mando cinco ideias de nome pra sabor da casa. Qual é o seu campeão?"
+   ],
+   "cenas": [
+    {
+     "narracao": "A calabresa é o sabor mais brasileiro da pizzaria.",
+     "texto_tela": "Sabor brasileiro",
+     "texto_tela_palavras": [
+      "Sabor",
+      "brasileiro"
+     ]
+    },
+    {
+     "narracao": "O nome vem da Calábria, no sul da Itália.",
+     "texto_tela": "Calábria Itália",
+     "texto_tela_palavras": [
+      "Calábria",
+      "Itália"
+     ]
+    },
+    {
+     "narracao": "Mas a pizza de calabresa com cebola, do jeito que a gente come, é coisa nossa.",
+     "texto_tela": "Coisa nossa",
+     "texto_tela_palavras": [
+      "Coisa",
+      "nossa"
+     ]
+    },
+    {
+     "narracao": "Calabresa, portuguesa, frango com catupiry. Sabores que o cliente já conhece.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Dá um nome da casa pro clássico e ele vira assinatura.",
+     "texto_tela": "Nome da casa",
+     "texto_tela_palavras": [
+      "Nome",
+      "da casa"
+     ]
+    },
+    {
+     "narracao": "Comenta SABOR que eu te mando cinco ideias de nome pra sabor da casa.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Qual é o seu campeão?",
+     "texto_tela": "Qual é seu campeão?",
+     "texto_tela_palavras": [
+      "Qual é seu",
+      "campeão?"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "OT-26",
+   "ordem": 26,
+   "post": {
+    "data": "24/11",
+    "hora": "19:10"
+   },
+   "titulo": "A caixa de pizza é a mídia mais vista da sua marca",
+   "tipo": "conteudo",
+   "linha_editorial": "Gestão",
+   "capa_cor": "preto",
+   "cta_palavra": "CAIXA",
+   "entrega_no_video": "Te mando 5 ideias de cartão para a caixa.",
+   "blocos_voz": [
+    "Qual anúncio entra na casa do cliente e fica na mesa por meia hora? A caixa da sua pizza. Adesivo com a marca, cartão com o WhatsApp e um código pro próximo pedido. Assim o próximo pedido vem direto pra você.",
+    "Custa pouco e trabalha toda noite. Comenta CAIXA que eu te mando cinco ideias de cartão pra caixa. Olha sua caixa hoje."
+   ],
+   "cenas": [
+    {
+     "narracao": "Qual anúncio entra na casa do cliente e fica na mesa por meia hora?",
+     "texto_tela": "Entra na casa dele",
+     "texto_tela_palavras": [
+      "Entra na",
+      "casa dele"
+     ]
+    },
+    {
+     "narracao": "A caixa da sua pizza.",
+     "texto_tela": "A caixa",
+     "texto_tela_palavras": [
+      "A caixa"
+     ]
+    },
+    {
+     "narracao": "Adesivo com a marca, cartão com o WhatsApp e um código pro próximo pedido.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Assim o próximo pedido vem direto pra você.",
+     "texto_tela": "Direto pra você",
+     "texto_tela_palavras": [
+      "Direto",
+      "pra você"
+     ]
+    },
+    {
+     "narracao": "Custa pouco e trabalha toda noite.",
+     "texto_tela": "Toda noite",
+     "texto_tela_palavras": [
+      "Toda",
+      "noite"
+     ]
+    },
+    {
+     "narracao": "Comenta CAIXA que eu te mando cinco ideias de cartão pra caixa.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Olha sua caixa hoje.",
+     "texto_tela": "Olha sua caixa",
+     "texto_tela_palavras": [
+      "Olha sua",
+      "caixa"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "OT-27",
+   "ordem": 27,
+   "post": {
+    "data": "24/11",
+    "hora": "23:40"
+   },
+   "titulo": "Por que a Orégano Turbo só trabalha com pizzaria",
+   "tipo": "venda",
+   "linha_editorial": "Método",
+   "capa_cor": "preto",
+   "cta_palavra": "PIZZARIA",
+   "entrega_no_video": "Te mando como funciona o Raio-X da sua pizzaria.",
+   "blocos_voz": [
+    "A gente não atende hamburgueria, açaí nem sushi. Só pizzaria. Porque pizzaria tem noite de pico, forno lotado, motoboy e caixa. É outro jogo. Quem só faz isso conhece o seu dia a dia.",
+    "O primeiro passo é o Raio-X da sua pizzaria. Comenta PIZZARIA que eu te explico como funciona o Raio-X. Feito pra quem tem forno."
+   ],
+   "cenas": [
+    {
+     "narracao": "A gente não atende hamburgueria, açaí nem sushi.",
+     "texto_tela": "Só pizzaria",
+     "texto_tela_palavras": [
+      "Só",
+      "pizzaria"
+     ]
+    },
+    {
+     "narracao": "Só pizzaria.",
+     "texto_tela": "Só pizzaria",
+     "texto_tela_palavras": [
+      "Só",
+      "pizzaria"
+     ]
+    },
+    {
+     "narracao": "Porque pizzaria tem noite de pico, forno lotado, motoboy e caixa. É outro jogo.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Quem só faz isso conhece o seu dia a dia.",
+     "texto_tela": "Seu dia a dia",
+     "texto_tela_palavras": [
+      "Seu dia",
+      "a dia"
+     ]
+    },
+    {
+     "narracao": "O primeiro passo é o Raio-X da sua pizzaria.",
+     "texto_tela": "Primeiro o Raio-X",
+     "texto_tela_palavras": [
+      "Primeiro",
+      "o Raio-X"
+     ]
+    },
+    {
+     "narracao": "Comenta PIZZARIA que eu te explico como funciona o Raio-X.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Feito pra quem tem forno.",
+     "texto_tela": "Pra quem tem forno",
+     "texto_tela_palavras": [
+      "Pra quem",
+      "tem forno"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "OT-28",
+   "ordem": 28,
+   "post": {
+    "data": "25/11",
+    "hora": "12:10"
+   },
+   "titulo": "POV: sexta, nove da noite, e o motoboy não chegou",
+   "tipo": "conteudo",
+   "linha_editorial": "Humor de dono",
+   "capa_cor": "preto",
+   "cta_palavra": "SEXTA",
+   "entrega_no_video": "Te mando o checklist da sexta à noite.",
+   "blocos_voz": [
+    "POV: sexta, nove da noite. Dez pizzas prontas e o motoboy não chegou. O cliente já mandou mensagem. E o queijo esfriando na caixa. Motoboy reserva, escala fechada até quinta e aviso ao cliente antes dele perguntar.",
+    "Sexta boa se prepara na quinta. Comenta SEXTA que eu te mando o checklist da sexta à noite. Marca seu motoboy."
+   ],
+   "cenas": [
+    {
+     "narracao": "POV: sexta, nove da noite. Dez pizzas prontas e o motoboy não chegou.",
+     "texto_tela": "POV: sexta 21h",
+     "texto_tela_palavras": [
+      "POV:",
+      "sexta 21h"
+     ]
+    },
+    {
+     "narracao": "O cliente já mandou mensagem.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "E o queijo esfriando na caixa.",
+     "texto_tela": "Queijo esfriando",
+     "texto_tela_palavras": [
+      "Queijo",
+      "esfriando"
+     ]
+    },
+    {
+     "narracao": "Motoboy reserva, escala fechada até quinta e aviso ao cliente antes dele perguntar.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Sexta boa se prepara na quinta.",
+     "texto_tela": "Prepara na quinta",
+     "texto_tela_palavras": [
+      "Prepara",
+      "na quinta"
+     ]
+    },
+    {
+     "narracao": "Comenta SEXTA que eu te mando o checklist da sexta à noite.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Marca seu motoboy.",
+     "texto_tela": "Marca seu motoboy",
+     "texto_tela_palavras": [
+      "Marca seu",
+      "motoboy"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "OT-29",
+   "ordem": 29,
+   "post": {
+    "data": "25/11",
+    "hora": "19:10"
+   },
+   "titulo": "Avaliação ruim no iFood ou no Google: como responder",
+   "tipo": "conteudo",
+   "linha_editorial": "Resposta pronta",
+   "capa_cor": "preto",
+   "cta_palavra": "AVALIAÇÃO",
+   "entrega_no_video": "Te mando 5 respostas prontas para avaliação ruim.",
+   "blocos_voz": [
+    "Chegou avaliação de uma estrela. E agora? Primeiro: não responde com raiva. Quem lê a resposta é o próximo cliente, não só quem reclamou. Agradece, pede desculpa e chama pro privado pra resolver.",
+    "Resposta educada mostra que tem dono cuidando. Comenta AVALIAÇÃO que eu te mando cinco respostas prontas. Responde todas."
+   ],
+   "cenas": [
+    {
+     "narracao": "Chegou avaliação de uma estrela. E agora?",
+     "texto_tela": "Uma estrela",
+     "texto_tela_palavras": [
+      "Uma",
+      "estrela"
+     ]
+    },
+    {
+     "narracao": "Primeiro: não responde com raiva.",
+     "texto_tela": "Sem raiva",
+     "texto_tela_palavras": [
+      "Sem",
+      "raiva"
+     ]
+    },
+    {
+     "narracao": "Quem lê a resposta é o próximo cliente, não só quem reclamou.",
+     "texto_tela": "O próximo cliente",
+     "texto_tela_palavras": [
+      "O próximo",
+      "cliente"
+     ]
+    },
+    {
+     "narracao": "Agradece, pede desculpa e chama pro privado pra resolver.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Resposta educada mostra que tem dono cuidando.",
+     "texto_tela": "Tem dono cuidando",
+     "texto_tela_palavras": [
+      "Tem dono",
+      "cuidando"
+     ]
+    },
+    {
+     "narracao": "Comenta AVALIAÇÃO que eu te mando cinco respostas prontas.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Responde todas.",
+     "texto_tela": "Responde todas",
+     "texto_tela_palavras": [
+      "Responde",
+      "todas"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "OT-30",
+   "ordem": 30,
+   "post": {
+    "data": "25/11",
+    "hora": "23:40"
+   },
+   "titulo": "Antes de impulsionar o post da pizzaria, olhe isto",
+   "tipo": "venda",
+   "linha_editorial": "Chamada para diagnóstico",
+   "capa_cor": "preto",
+   "cta_palavra": "ANÚNCIO",
+   "entrega_no_video": "Te mando como pedir o Raio-X antes do anúncio.",
+   "blocos_voz": [
+    "Antes de apertar o botão impulsionar, olha isto. Pra onde o cliente vai depois do clique? Tem cardápio? Tem alguém respondendo? Se não tem, o anúncio para no vazio. Anúncio bom precisa de caminho pronto até o pedido.",
+    "O Raio-X mostra esse caminho na sua pizzaria. Comenta ANÚNCIO que eu te explico como pedir o Raio-X. Primeiro o caminho."
+   ],
+   "cenas": [
+    {
+     "narracao": "Antes de apertar o botão impulsionar, olha isto.",
+     "texto_tela": "Antes de impulsionar",
+     "texto_tela_palavras": [
+      "Antes de",
+      "impulsionar"
+     ]
+    },
+    {
+     "narracao": "Pra onde o cliente vai depois do clique? Tem cardápio? Tem alguém respondendo?",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Se não tem, o anúncio para no vazio.",
+     "texto_tela": "Para no vazio",
+     "texto_tela_palavras": [
+      "Para no",
+      "vazio"
+     ]
+    },
+    {
+     "narracao": "Anúncio bom precisa de caminho pronto até o pedido.",
+     "texto_tela": "Caminho até o pedido",
+     "texto_tela_palavras": [
+      "Caminho",
+      "até o pedido"
+     ]
+    },
+    {
+     "narracao": "O Raio-X mostra esse caminho na sua pizzaria.",
+     "texto_tela": "O seu caminho",
+     "texto_tela_palavras": [
+      "O seu",
+      "caminho"
+     ]
+    },
+    {
+     "narracao": "Comenta ANÚNCIO que eu te explico como pedir o Raio-X.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Primeiro o caminho.",
+     "texto_tela": "Primeiro o caminho",
+     "texto_tela_palavras": [
+      "Primeiro",
+      "o caminho"
      ]
     }
    ]

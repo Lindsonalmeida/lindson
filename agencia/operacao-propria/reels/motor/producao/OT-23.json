@@ -1,0 +1,142 @@
+{
+ "_nota": "Ficha OT semana 2 (15/11/2026). Fotos Pexels (licença livre) em ../fotos/, nunca usadas antes.",
+ "beat_sync": true,
+ "voz_rate": "+4%",
+ "voz_max": 27.5,
+ "trilha": "trap-electro-vibes-112bpm.mp3",
+ "trilha_ini": 32,
+ "capa": {
+  "foto": "14538481.jpg",
+  "palavra": "FOTO",
+  "manchete": "Sua pizza é linda.",
+  "caixa": "E a foto?",
+  "rotulo": "Bastidor",
+  "wordTop": 330,
+  "wordSize": 420,
+  "headTop": 1290,
+  "tagTop": 1225,
+  "auto": false,
+  "fx": 0,
+  "fy": 0,
+  "fw": 1080
+ },
+ "cenas": [
+  {
+   "tipo": "fotofull",
+   "texto": [
+    "E a",
+    "foto?"
+   ],
+   "hl": [
+    1
+   ],
+   "hit": [
+    "foto"
+   ],
+   "vfx": [
+    "punch"
+   ],
+   "foto": "14538481.jpg",
+   "_cred": "https://www.pexels.com/photo/14538481/",
+   "top": 470,
+   "size": 180
+  },
+  {
+   "tipo": "lista",
+   "texto": [],
+   "titulo": "3 ajustes",
+   "itens": [
+    [
+     "1",
+     "Luz de janela"
+    ],
+    [
+     "2",
+     "Foto de cima"
+    ],
+    [
+     "3",
+     "Lente limpa"
+    ]
+   ],
+   "tempos_em": [
+    "janela",
+    "cima",
+    "lente"
+   ]
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Sem",
+    "flash"
+   ],
+   "hl": [
+    1
+   ],
+   "hit": [
+    "flash"
+   ],
+   "vfx": [
+    "glitch"
+   ],
+   "som_hit": "glitch-quebra",
+   "size": 200,
+   "top": 640,
+   "flash": true
+  },
+  {
+   "tipo": "frase",
+   "texto": [
+    "Saindo",
+    "do forno"
+   ],
+   "carimbo": "NA HORA",
+   "carimboAt": "brilhando",
+   "size": 170,
+   "top": 560
+  },
+  {
+   "tipo": "banco",
+   "texto": [
+    "Antes de",
+    "pedir"
+   ],
+   "clip": "rolando-feed-cama",
+   "hl": [
+    1
+   ],
+   "size": 170,
+   "top": 560,
+   "vfx": [
+    "punch"
+   ]
+  },
+  {
+   "tipo": "cta",
+   "texto": [],
+   "etiquetas": [
+    "Guia",
+    "No celular"
+   ],
+   "vfx": [
+    "leak"
+   ],
+   "foto": "19786235.jpg",
+   "_cred": "https://www.pexels.com/photo/19786235/"
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Troca a",
+    "foto hoje"
+   ],
+   "hl": [
+    1
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  }
+ ]
+}

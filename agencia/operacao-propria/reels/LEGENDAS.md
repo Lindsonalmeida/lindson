@@ -1,6 +1,6 @@
-# Legendas SEO · Reels Orégano Turbo semana 1 (v2, 15/11/2026, conta Zuleide)
+# Legendas SEO · Reels Orégano Turbo semanas 1 e 2 (30 Reels; 15/11/2026, conta Zuleide)
 
-Gerado por `legendas_seo.py`. Aprovadas pelo Lindson em 15/11 (vídeos).
+Gerado por `legendas_seo.py`. OT-01 a 21 aprovados pelo Lindson em 15/11; OT-22 a 30 aguardando aprovação.
 
 
 ## OT-01 · 16/11 12:10 · História da pizza
@@ -526,3 +526,228 @@ Salva esse vídeo. Pizzaria que cresce cuida do produto e de como ele chega no c
 Orégano Turbo: marketing de vendas só para pizzarias, de São Luís/MA.
 
 #diadapizza #datacomemorativa #pizzaria #saoluis
+
+
+## OT-22 · 23/11 12:10 · Técnica de massa
+
+**Título Shorts:** Molho cru ou cozido: o que a napolitana usa
+
+Molho cru ou cozido: o que a napolitana usa 🍕
+
+Molho de pizza: cru ou cozido? Se você é dono de pizzaria, isso mexe com o seu caixa toda semana.
+
+▶ O que acontece
+Na napolitana tradicional, o molho vai cru. Sem panela, sem refogar. Ele cozinha junto com a pizza, dentro do forno, e fica com gosto de tomate fresco.
+
+▶ Na prática, na sua pizzaria
+Tomate pelado amassado, sal e um fio de azeite. Só isso. Fica mais vermelho na foto, e ainda poupa uma panela no fogão da cozinha.
+
+▶ Conclusão
+Testa numa pizza só. Pizzaria que cresce cuida do produto e de como ele chega no cliente.
+
+🎁 Comenta MOLHO que eu te mando: a receita base de molho cru pra testar.
+
+👉 Quer saber o que trava a venda na SUA pizzaria? Peça o Raio-X da Orégano Turbo: chame no WhatsApp pelo link da bio (oreganoturbo.pages.dev) e a gente olha o seu Instagram, o cardápio e o caminho até o pedido com você.
+Orégano Turbo: marketing de vendas só para pizzarias, de São Luís/MA.
+
+#massadepizza #pizzaiolo #pizzarias #saoluisma
+
+
+## OT-23 · 23/11 19:10 · Bastidor
+
+**Título Shorts:** Foto de pizza no celular: 3 ajustes que mudam o cardápio
+
+Foto de pizza no celular: 3 ajustes que mudam o cardápio 🍕
+
+Sua pizza é linda. Se você é dono de pizzaria, isso mexe com o seu caixa toda semana.
+
+▶ O que acontece
+Por que a foto não mostra isso? Luz de janela, de lado. Celular de cima.
+
+▶ Na prática, na sua pizzaria
+E limpa a lente antes. Nada de flash na cozinha escura. Fotografa a pizza saindo do forno, com o queijo ainda brilhando. É essa foto que o cliente vê antes de pedir.
+
+▶ Conclusão
+Troca a foto hoje. Pizzaria que cresce cuida do produto e de como ele chega no cliente.
+
+🎁 Comenta FOTO que eu te mando: o guia de foto de pizza no celular.
+
+👉 Quer saber o que trava a venda na SUA pizzaria? Peça o Raio-X da Orégano Turbo: chame no WhatsApp pelo link da bio (oreganoturbo.pages.dev) e a gente olha o seu Instagram, o cardápio e o caminho até o pedido com você.
+Orégano Turbo: marketing de vendas só para pizzarias, de São Luís/MA.
+
+#bastidores #fotodecomida #donodepizzaria #pizzariasaoluis
+
+
+## OT-24 · 23/11 23:40 · Raio-X
+
+**Título Shorts:** Quanto tempo sua pizzaria demora pra responder no WhatsApp?
+
+Quanto tempo sua pizzaria demora pra responder no WhatsApp? 🍕
+
+Quanto tempo o cliente espera a sua resposta no WhatsApp? Se você é dono de pizzaria, isso mexe com o seu caixa toda semana.
+
+▶ O que acontece
+Ele mandou: tem calabresa? E ninguém respondeu.
+
+▶ Na prática, na sua pizzaria
+Com fome, ele pede em outro lugar. Mensagem pronta, cardápio fixado e alguém olhando o celular na hora do pico. No Raio-X a gente olha o seu atendimento junto com você.
+
+▶ Conclusão
+Resposta rápida vende. Pizzaria que cresce cuida do produto e de como ele chega no cliente.
+
+🎁 Comenta ZAP que eu te mando: como pedir o Raio-X do seu atendimento.
+
+👉 Quer saber o que trava a venda na SUA pizzaria? Peça o Raio-X da Orégano Turbo: chame no WhatsApp pelo link da bio (oreganoturbo.pages.dev) e a gente olha o seu Instagram, o cardápio e o caminho até o pedido com você.
+Orégano Turbo: marketing de vendas só para pizzarias, de São Luís/MA.
+
+#diagnosticodepizzaria #marketingparapizzaria #empreendedorismogastronomico #maranhao
+
+
+## OT-25 · 24/11 12:10 · Curiosidade
+
+**Título Shorts:** Pizza de calabresa: o sabor mais brasileiro do cardápio
+
+Pizza de calabresa: o sabor mais brasileiro do cardápio 🍕
+
+A calabresa é o sabor mais brasileiro da pizzaria. Se você é dono de pizzaria, isso mexe com o seu caixa toda semana.
+
+▶ O que acontece
+O nome vem da Calábria, no sul da Itália. Mas a pizza de calabresa com cebola, do jeito que a gente come, é coisa nossa.
+
+▶ Na prática, na sua pizzaria
+Calabresa, portuguesa, frango com catupiry. Sabores que o cliente já conhece. Dá um nome da casa pro clássico e ele vira assinatura.
+
+▶ Conclusão
+Qual é o seu campeão? Pizzaria que cresce cuida do produto e de como ele chega no cliente.
+
+🎁 Comenta SABOR que eu te mando: 5 ideias de nome para sabores da casa.
+
+👉 Quer saber o que trava a venda na SUA pizzaria? Peça o Raio-X da Orégano Turbo: chame no WhatsApp pelo link da bio (oreganoturbo.pages.dev) e a gente olha o seu Instagram, o cardápio e o caminho até o pedido com você.
+Orégano Turbo: marketing de vendas só para pizzarias, de São Luís/MA.
+
+#curiosidadesdapizza #pizzalovers #pizza #slz
+
+
+## OT-26 · 24/11 19:10 · Gestão
+
+**Título Shorts:** A caixa de pizza é a mídia mais vista da sua marca
+
+A caixa de pizza é a mídia mais vista da sua marca 🍕
+
+Qual anúncio entra na casa do cliente e fica na mesa por meia hora? Se você é dono de pizzaria, isso mexe com o seu caixa toda semana.
+
+▶ O que acontece
+A caixa da sua pizza. Adesivo com a marca, cartão com o WhatsApp e um código pro próximo pedido.
+
+▶ Na prática, na sua pizzaria
+Assim o próximo pedido vem direto pra você. Custa pouco e trabalha toda noite.
+
+▶ Conclusão
+Olha sua caixa hoje. Pizzaria que cresce cuida do produto e de como ele chega no cliente.
+
+🎁 Comenta CAIXA que eu te mando: 5 ideias de cartão para a caixa.
+
+👉 Quer saber o que trava a venda na SUA pizzaria? Peça o Raio-X da Orégano Turbo: chame no WhatsApp pelo link da bio (oreganoturbo.pages.dev) e a gente olha o seu Instagram, o cardápio e o caminho até o pedido com você.
+Orégano Turbo: marketing de vendas só para pizzarias, de São Luís/MA.
+
+#gestaodepizzaria #cmv #pizzaria #saoluis
+
+
+## OT-27 · 24/11 23:40 · Método
+
+**Título Shorts:** Por que a Orégano Turbo só trabalha com pizzaria
+
+Por que a Orégano Turbo só trabalha com pizzaria 🍕
+
+A gente não atende hamburgueria, açaí nem sushi. Se você é dono de pizzaria, isso mexe com o seu caixa toda semana.
+
+▶ O que acontece
+Só pizzaria. Porque pizzaria tem noite de pico, forno lotado, motoboy e caixa.
+
+▶ Na prática, na sua pizzaria
+É outro jogo. Quem só faz isso conhece o seu dia a dia. O primeiro passo é o Raio-X da sua pizzaria.
+
+▶ Conclusão
+Feito pra quem tem forno. Pizzaria que cresce cuida do produto e de como ele chega no cliente.
+
+🎁 Comenta PIZZARIA que eu te mando: como funciona o Raio-X da sua pizzaria.
+
+👉 Quer saber o que trava a venda na SUA pizzaria? Peça o Raio-X da Orégano Turbo: chame no WhatsApp pelo link da bio (oreganoturbo.pages.dev) e a gente olha o seu Instagram, o cardápio e o caminho até o pedido com você.
+Orégano Turbo: marketing de vendas só para pizzarias, de São Luís/MA.
+
+#vendasnowhatsapp #marketingdevendas #pizzarias #saoluisma
+
+
+## OT-28 · 25/11 12:10 · Humor de dono
+
+**Título Shorts:** POV: sexta, nove da noite, e o motoboy não chegou
+
+POV: sexta, nove da noite, e o motoboy não chegou 🍕
+
+POV: sexta, nove da noite. Se você é dono de pizzaria, isso mexe com o seu caixa toda semana.
+
+▶ O que acontece
+Dez pizzas prontas e o motoboy não chegou. O cliente já mandou mensagem.
+
+▶ Na prática, na sua pizzaria
+E o queijo esfriando na caixa. Motoboy reserva, escala fechada até quinta e aviso ao cliente antes dele perguntar. Sexta boa se prepara na quinta.
+
+▶ Conclusão
+Marca seu motoboy. Pizzaria que cresce cuida do produto e de como ele chega no cliente.
+
+🎁 Comenta SEXTA que eu te mando: o checklist da sexta à noite.
+
+👉 Quer saber o que trava a venda na SUA pizzaria? Peça o Raio-X da Orégano Turbo: chame no WhatsApp pelo link da bio (oreganoturbo.pages.dev) e a gente olha o seu Instagram, o cardápio e o caminho até o pedido com você.
+Orégano Turbo: marketing de vendas só para pizzarias, de São Luís/MA.
+
+#donodepizzaria #vidadeempreendedor #donodepizzaria #pizzariasaoluis
+
+
+## OT-29 · 25/11 19:10 · Resposta pronta
+
+**Título Shorts:** Avaliação ruim no iFood ou no Google: como responder
+
+Avaliação ruim no iFood ou no Google: como responder 🍕
+
+Chegou avaliação de uma estrela. Se você é dono de pizzaria, isso mexe com o seu caixa toda semana.
+
+▶ O que acontece
+E agora? Primeiro: não responde com raiva.
+
+▶ Na prática, na sua pizzaria
+Quem lê a resposta é o próximo cliente, não só quem reclamou. Agradece, pede desculpa e chama pro privado pra resolver. Resposta educada mostra que tem dono cuidando.
+
+▶ Conclusão
+Responde todas. Pizzaria que cresce cuida do produto e de como ele chega no cliente.
+
+🎁 Comenta AVALIAÇÃO que eu te mando: 5 respostas prontas para avaliação ruim.
+
+👉 Quer saber o que trava a venda na SUA pizzaria? Peça o Raio-X da Orégano Turbo: chame no WhatsApp pelo link da bio (oreganoturbo.pages.dev) e a gente olha o seu Instagram, o cardápio e o caminho até o pedido com você.
+Orégano Turbo: marketing de vendas só para pizzarias, de São Luís/MA.
+
+#atendimentoaocliente #whatsappbusiness #empreendedorismogastronomico #maranhao
+
+
+## OT-30 · 25/11 23:40 · Chamada para diagnóstico
+
+**Título Shorts:** Antes de impulsionar o post da pizzaria, olhe isto
+
+Antes de impulsionar o post da pizzaria, olhe isto 🍕
+
+Antes de apertar o botão impulsionar, olha isto. Se você é dono de pizzaria, isso mexe com o seu caixa toda semana.
+
+▶ O que acontece
+Pra onde o cliente vai depois do clique? Tem cardápio? Tem alguém respondendo?
+
+▶ Na prática, na sua pizzaria
+Se não tem, o anúncio para no vazio. Anúncio bom precisa de caminho pronto até o pedido. O Raio-X mostra esse caminho na sua pizzaria.
+
+▶ Conclusão
+Primeiro o caminho. Pizzaria que cresce cuida do produto e de como ele chega no cliente.
+
+🎁 Comenta ANÚNCIO que eu te mando: como pedir o Raio-X antes do anúncio.
+
+👉 Quer saber o que trava a venda na SUA pizzaria? Peça o Raio-X da Orégano Turbo: chame no WhatsApp pelo link da bio (oreganoturbo.pages.dev) e a gente olha o seu Instagram, o cardápio e o caminho até o pedido com você.
+Orégano Turbo: marketing de vendas só para pizzarias, de São Luís/MA.
+
+#diagnosticodepizzaria #consultoria #pizza #slz

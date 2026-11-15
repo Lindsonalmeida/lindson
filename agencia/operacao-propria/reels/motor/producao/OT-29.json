@@ -1,0 +1,129 @@
+{
+ "_nota": "Ficha OT semana 2 (15/11/2026). Fotos Pexels (licença livre) em ../fotos/, nunca usadas antes.",
+ "beat_sync": true,
+ "voz_rate": "+4%",
+ "voz_max": 27.5,
+ "trilha": "trap-electro-vibes-112bpm.mp3",
+ "trilha_ini": 32,
+ "capa": {
+  "foto": "12288359.jpg",
+  "palavra": "1 ESTRELA",
+  "manchete": "Avaliação ruim?",
+  "caixa": "Responde assim",
+  "rotulo": "Resposta pronta",
+  "wordTop": 330,
+  "wordSize": 200,
+  "headTop": 1290,
+  "tagTop": 1225,
+  "auto": false,
+  "fx": 0,
+  "fy": 0,
+  "fw": 1080
+ },
+ "cenas": [
+  {
+   "tipo": "fotofull",
+   "texto": [
+    "Uma",
+    "estrela"
+   ],
+   "hl": [
+    1
+   ],
+   "hit": [
+    "estrela"
+   ],
+   "vfx": [
+    "punch"
+   ],
+   "foto": "12288359.jpg",
+   "_cred": "https://www.pexels.com/photo/12288359/",
+   "top": 470,
+   "size": 180
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Sem",
+    "raiva"
+   ],
+   "hl": [
+    1
+   ],
+   "hit": [
+    "raiva"
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  },
+  {
+   "tipo": "frase",
+   "texto": [
+    "O próximo",
+    "cliente"
+   ],
+   "carimbo": "TODOS LEEM",
+   "carimboAt": "reclamou",
+   "size": 170,
+   "top": 560
+  },
+  {
+   "tipo": "chat",
+   "texto": [],
+   "nome": "Resposta",
+   "msgs": [
+    [
+     "eu",
+     "Obrigado por avisar e desculpa pela experiência. Chama a gente no WhatsApp pra resolver? (ilustrativo)"
+    ]
+   ],
+   "tempos_em": [
+    "agradece",
+    "privado"
+   ]
+  },
+  {
+   "tipo": "banco",
+   "texto": [
+    "Tem dono",
+    "cuidando"
+   ],
+   "clip": "sorrindo-no-celular",
+   "hl": [
+    1
+   ],
+   "size": 170,
+   "top": 560,
+   "vfx": [
+    "punch"
+   ]
+  },
+  {
+   "tipo": "cta",
+   "texto": [],
+   "etiquetas": [
+    "5 respostas",
+    "Avaliação"
+   ],
+   "vfx": [
+    "leak"
+   ],
+   "foto": "17402721.jpg",
+   "_cred": "https://www.pexels.com/photo/17402721/"
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Responde",
+    "todas"
+   ],
+   "hl": [
+    1
+   ],
+   "size": 200,
+   "top": 640,
+   "flash": true
+  }
+ ]
+}
