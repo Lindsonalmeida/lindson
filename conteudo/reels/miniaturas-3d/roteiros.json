@@ -5,7 +5,7 @@
    {"cap":"O RELÓGIO","obj":"relogio","t":"O problema é o relógio. Ele mandou a mesma pergunta pra três lojas ao mesmo tempo.","chave":["relógio","três"],"tag":"3 LOJAS"},
    {"cap":"A PESQUISA","obj":"relogio","t":"Uma pesquisa da Harvard Business Review mostrou: quem respondia em até uma hora tinha quase sete vezes mais chance de avançar com o cliente.","chave":["uma","hora","sete"],"num":"7×","numsub":"MAIS CHANCE RESPONDENDO EM ATÉ 1 HORA","selo":"HARVARD BUSINESS REVIEW · 2011"},
    {"cap":"O PREÇO SECO","obj":"balcao","t":"E o segundo erro: responder só o preço. Cinquenta reais, ponto. Sem pergunta, a conversa morre ali.","chave":["só","preço","morre"],"tag":"SEM PERGUNTA","x":true},
-   {"cap":"A SAÍDA","obj":"celular","t":"Faz assim: responde rápido, passa o preço e termina com uma pergunta. Por exemplo: é pra hoje ou pra amanhã? Quem pergunta, conduz.","chave":["pergunta","conduz"],"tag":"EXEMPLO","ok":true},
+   {"cap":"A SAÍDA","obj":"celular","t":"Faz assim: responde rápido, manda o preço e termina com uma pergunta. Por exemplo: é pra hoje ou pra amanhã? Quem pergunta, conduz.","chave":["pergunta","conduz"],"tag":"EXEMPLO","ok":true},
    {"cap":"ENQUETE","obj":"bonecos","t":"E você? Quanto tempo demora pra responder? Vota aí na enquete.","chave":["enquete"],"enquete":["MENOS DE 1 HORA","MAIS DE 1 HORA"]},
    {"cap":"PRESENTE","obj":"celular","t":"Comenta SUMIU, que eu te mando cinco mensagens prontas pra cliente que sumiu.","chave":["SUMIU"],"cta":"SUMIU"}
   ]},
@@ -16,7 +16,7 @@
    {"cap":"O EXEMPLO","obj":"moedas","t":"Exemplo: gastou trezentos reais e vieram dez clientes novos. Cada um custou trinta reais.","chave":["trezentos","dez","trinta"],"num":"R$ 30","numsub":"R$ 300 ÷ 10 CLIENTES · EXEMPLO","tag":"EXEMPLO"},
    {"cap":"A PEGADINHA","obj":"pizza","t":"Agora, se o lucro de uma pizza é vinte reais, o primeiro pedido dá prejuízo. O dinheiro está na segunda, na terceira, na décima pizza.","chave":["prejuízo","décima"],"tag":"EXEMPLO","x":true},
    {"cap":"A VOLTA","obj":"bonecos","t":"Por isso, o cliente que volta vale mais que o anúncio novo. Mande mensagem pra quem já comprou.","chave":["volta","comprou"],"ok":true},
-   {"cap":"ENQUETE","obj":"caixa","t":"Você já fez essa conta no seu negócio? Responde na enquete.","chave":["enquete"],"enquete":["JÁ FIZ","NUNCA FIZ"]},
+   {"cap":"ENQUETE","obj":"caixa","t":"Você já fez essa conta no seu negócio? Vota na enquete.","chave":["enquete"],"enquete":["JÁ FIZ","NUNCA FIZ"]},
    {"cap":"PRESENTE","obj":"celular","t":"Comenta PERFIL, que eu analiso o seu Instagram e te mostro três pontos pra melhorar.","chave":["PERFIL"],"cta":"PERFIL"}
   ]},
  {"id":"03","serie":"BOLSO DO DONO","tema":"INSTAGRAM","titulo":"A regra do Instagram que pouca gente entendeu","palavra":"GANCHO","capa":["CURTIDA","NÃO BASTA"],
@@ -27,6 +27,6 @@
    {"cap":"O QUE SE ENVIA","obj":"pizza","t":"Ninguém envia propaganda. A pessoa envia o que é útil pro amigo: o cardápio da semana, a promoção de terça, uma dica que resolve.","chave":["útil","amigo"],"tag":"ÚTIL > BONITO"},
    {"cap":"A SAÍDA","obj":"celular","t":"Antes de postar, pergunte: alguém mandaria isso pra um amigo? Se não, mude o post.","chave":["mandaria","mude"],"ok":true},
    {"cap":"ENQUETE","obj":"bonecos","t":"E você, o que mais faz: curtir ou enviar? Vota na enquete.","chave":["enquete"],"enquete":["CURTIR","ENVIAR"]},
-   {"cap":"PRESENTE","obj":"celular","t":"Comenta GANCHO, que eu te mando dez começos de vídeo que fazem a pessoa parar.","chave":["GANCHO"],"cta":"GANCHO"}
+   {"cap":"PRESENTE","obj":"celular","t":"Comenta GANCHO, que eu te mando dez ganchos de vídeo que fazem a pessoa parar.","chave":["GANCHO"],"cta":"GANCHO"}
   ]}
 ]

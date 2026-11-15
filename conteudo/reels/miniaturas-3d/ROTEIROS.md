@@ -11,7 +11,7 @@ Revisão aplicada nas lentes do Social media (gancho nos 3 s, legenda SEO, enque
 | O RELÓGIO | relógio gigante + 3 bonecos | "O problema é o relógio. Ele mandou a mesma pergunta pra três lojas ao mesmo tempo." | 3 LOJAS |
 | A PESQUISA | relógio | "…quem respondia em até uma hora tinha quase sete vezes mais chance de avançar com o cliente." | **7×** · selo HARVARD BUSINESS REVIEW · 2011 |
 | O PREÇO SECO | balcão com placa R$ 50 | "Responder só o preço… sem pergunta, a conversa morre ali." | SEM PERGUNTA · carimbo X |
-| A SAÍDA | celular | "Responde rápido, passa o preço e termina com uma pergunta: é pra hoje ou pra amanhã?" | EXEMPLO · ✓ |
+| A SAÍDA | celular | "Responde rápido, manda o preço e termina com uma pergunta: é pra hoje ou pra amanhã?" | EXEMPLO · ✓ |
 | ENQUETE | bonecos | "Quanto tempo demora pra responder?" | Menos de 1 hora / Mais de 1 hora |
 | PRESENTE | celular | "Comenta SUMIU…" | COMENTA **SUMIU** |
 Fonte: Oldroyd, McElheran e Elkington, "The Short Life of Online Sales Leads", Harvard Business Review, março de 2011 (empresas que tentaram contato em até 1 hora tiveram quase 7 vezes mais chance de qualificar o lead).
@@ -90,7 +90,7 @@ O chefe do Instagram, Adam Mosseri, já disse que um dos sinais mais fortes hoje
 **Teste antes de postar:** alguém mandaria isso para um amigo? Se não, mude o post.
 
 📊 Enquete: o que você mais faz, curtir ou enviar?
-💬 Comenta GANCHO que eu te mando 10 começos de vídeo que fazem a pessoa parar.
+💬 Comenta GANCHO que eu te mando 10 ganchos de vídeo que fazem a pessoa parar.
 
 #algoritmodoinstagram #reels #marketingdigital #negociolocal #dicasdeinstagram
 

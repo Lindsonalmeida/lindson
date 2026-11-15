@@ -12,44 +12,76 @@ def sh(*a): subprocess.run(a, check=True)
 def dur(f): return float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',f]))
 
 def voz(r):
-    w = os.path.join(TMP, r['id']); os.makedirs(w, exist_ok=True); partes = []; t = 0.35; tl = []
-    for i, f in enumerate(r['falas']):
-        mp = os.path.join(w, f'f{i}.mp3'); wav = os.path.join(w, f'f{i}.wav')
-        if not os.path.exists(mp):
-            for _ in range(4):
-                if subprocess.run(['edge-tts', '--proxy', os.environ['HTTPS_PROXY'], '--voice', 'pt-BR-AntonioNeural', '--rate=+4%', '--text', f['t'], '--write-media', mp]).returncode == 0: break
-            else: sh('edge-tts', '--proxy', os.environ['HTTPS_PROXY'], '--voice', 'pt-BR-AntonioNeural', '--rate=+4%', '--text', f['t'], '--write-media', mp)
-        sh('ffmpeg','-v','error','-y','-i',mp,'-af','silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse','-ar','44100','-ac','1',wav)
-        d = dur(wav); tl.append({'ini': t, 'fim': t + d}); partes.append(wav); t += d + 0.18
-    lst = os.path.join(w, 'l.txt'); sil = os.path.join(w, 'sil.wav')
-    sh('ffmpeg','-v','error','-y','-f','lavfi','-i','anullsrc=r=44100:cl=mono','-t','0.18',sil)
-    open(lst,'w').write("file '%s'\n" % os.path.join(w,'sil0.wav') + ''.join(f"file '{p}'\nfile '{sil}'\n" for p in partes))
-    sh('ffmpeg','-v','error','-y','-f','lavfi','-i','anullsrc=r=44100:cl=mono','-t','0.35',os.path.join(w,'sil0.wav'))
-    sh('ffmpeg','-v','error','-y','-f','concat','-safe','0','-i',lst,'-af','highpass=f=80,acompressor=threshold=-20dB:ratio=3:makeup=2,loudnorm=I=-15:TP=-1','-ar','44100',os.path.join(w,'narr.wav'))
-    return tl, t + 1.2
-
-def palavras(r, tl):
-    """Whisper (faster-whisper small) dá o tempo de cada palavra e confere o texto."""
-    from faster_whisper import WhisperModel
-    m = WhisperModel('small', device='cpu', compute_type='int8')
+    """Narração inteira num só bloco (sem emendas), com o tempo de cada palavra dado pelo próprio edge-tts."""
+    import asyncio, edge_tts
+    w = os.path.join(TMP, r['id']); os.makedirs(w, exist_ok=True)
+    falas = [re.sub(r'[.:](?=\s)', ',', f['t']).rstrip('.') for f in r['falas']]
+    texto = ' '.join(x if x.endswith('?') else x + ',' for x in falas).rstrip(',') + '.'
+    texto = texto.replace('enquete', 'enquéte')
+    mp = os.path.join(w, 'narr.mp3'); bd = []
+    async def go():
+        c = edge_tts.Communicate(texto, 'pt-BR-AntonioNeural', rate='+4%', boundary='WordBoundary', proxy=os.environ['HTTPS_PROXY'])
+        with open(mp, 'wb') as fh:
+            async for ch in c.stream():
+                if ch['type'] == 'audio': fh.write(ch['data'])
+                elif ch['type'] == 'WordBoundary': bd.append((ch['offset'] / 1e7, (ch['offset'] + ch['duration']) / 1e7, ch['text']))
+    for _ in range(6):
+        try:
+            bd.clear(); asyncio.run(go())
+            if bd: break
+        except Exception as e: print('tts de novo', e)
+    pre = 0.35
+    # encurta toda pausa maior que 0,22 s (sem emenda: corte dentro do silêncio, com fade de 30 ms) e remapeia os tempos
     import numpy as np
-    pcm = subprocess.check_output(['ffmpeg', '-v', 'error', '-i', os.path.join(TMP, r['id'], 'narr.wav'), '-f', 's16le', '-ac', '1', '-ar', '16000', '-'])
-    segs, _ = m.transcribe(np.frombuffer(pcm, np.int16).astype(np.float32) / 32768, language='pt', word_timestamps=True)
-    ws = [{'w': x.word.strip(), 'a': x.start, 'b': x.end} for s in segs for x in s.words]
-    texto = ' '.join(x['w'] for x in ws)
-    # legenda usa o texto do roteiro (grafia certa), com os tempos do Whisper repartidos por fala
-    out = []
+    SR = 44100
+    x = np.frombuffer(subprocess.check_output(['ffmpeg','-v','error','-i',mp,'-f','s16le','-ac','1','-ar',str(SR),'-']), np.int16).astype(np.float32)
+    env = np.sqrt(np.convolve(x * x, np.ones(441) / 441, 'same')); quiet = env < 10 ** (-42 / 20) * 32768
+    cortes = []; i = 0
+    while i < len(quiet):
+        if quiet[i]:
+            k = i
+            while k < len(quiet) and quiet[k]: k += 1
+            if (k - i) / SR > 0.22 and i > 0 and k < len(quiet): cortes.append((i + int(.11 * SR), k - int(.11 * SR)))
+            i = k
+        else: i += 1
+    partes, pos = [], 0
+    for a0, b0 in cortes: partes.append(x[pos:a0]); pos = b0
+    partes.append(x[pos:])
+    for q in partes[:-1]: q[-int(.03 * SR):] *= np.linspace(1, 0, int(.03 * SR))
+    for q in partes[1:]: q[:int(.03 * SR)] *= np.linspace(0, 1, int(.03 * SR))
+    y = np.concatenate(partes)
+    def remap(t):
+        n0 = t * SR; tira = sum(min(b0, max(a0, n0)) - a0 for a0, b0 in cortes); return (n0 - tira) / SR
+    bd[:] = [(remap(a), remap(b2), tx) for a, b2, tx in bd]
+    raw = os.path.join(w, 'narr_raw.wav')
+    import wave
+    with wave.open(raw, 'wb') as wf: wf.setnchannels(1); wf.setsampwidth(2); wf.setframerate(SR); wf.writeframes(np.clip(y, -32768, 32767).astype(np.int16).tobytes())
+    mp = raw
+    sh('ffmpeg','-v','error','-y','-i',mp,'-af',f'adelay={int(pre*1000)},highpass=f=80,acompressor=threshold=-20dB:ratio=2.5:makeup=2,loudnorm=I=-15:TP=-1','-ar','44100','-ac','1',os.path.join(w,'narr.wav'))
+    n = sum(len(f['t'].split()) for f in r['falas'])
+    if len(bd) != n: print('AVISO contagem', len(bd), n, flush=True)
+    ws, tl, j = [], [], 0
     for i, f in enumerate(r['falas']):
-        toks = f['t'].split(); a, b = tl[i]['ini'], tl[i]['fim']
-        dentro = [x for x in ws if x['a'] >= a - 0.15 and x['a'] < b + 0.1]
-        if len(dentro) == len(toks): ts = [(x['a'], x['b']) for x in dentro]
-        else:  # reparte pelo tamanho das palavras
-            tot = sum(len(k) + 2 for k in toks); acc = a; ts = []
-            for k in toks: d = (b - a) * (len(k) + 2) / tot; ts.append((acc, acc + d)); acc += d
-        for k, (x, y) in zip(toks, ts):
+        toks = f['t'].split(); ini = None
+        for k in toks:
+            a, b2, _ = bd[min(round(j * len(bd) / n), len(bd) - 1)]; j += 1
+            if ini is None: ini = a + pre
             limpa = re.sub(r'[^\wÀ-ú]', '', k).lower()
-            out.append({'w': k, 'a': x, 'b': y, 'f': i, 'k': any(limpa == c.lower() for c in f.get('chave', []))})
-    return out, texto
+            ws.append({'w': k, 'a': a + pre, 'b': b2 + pre, 'f': i, 'k': any(limpa == c.lower() for c in f.get('chave', []))})
+        tl.append({'ini': ini, 'fim': ws[-1]['b']})
+    return tl, dur(os.path.join(w, 'narr.wav')) + 1.0, ws
+
+def palavras(r):
+    from faster_whisper import WhisperModel
+    import numpy as np
+    m = WhisperModel('small', device='cpu', compute_type='int8')
+    wav = os.path.join(TMP, r['id'], 'narr.wav')
+    pcm = subprocess.check_output(['ffmpeg', '-v', 'error', '-i', wav, '-f', 's16le', '-ac', '1', '-ar', '16000', '-'])
+    segs, _ = m.transcribe(np.frombuffer(pcm, np.int16).astype(np.float32) / 32768, language='pt')
+    txt = ' '.join(s.text.strip() for s in segs)
+    e = subprocess.run(['ffmpeg', '-i', wav, '-af', 'silencedetect=n=-40dB:d=0.3', '-f', 'null', '-'], capture_output=True, text=True).stderr
+    ini = [float(x) for x in re.findall(r'silence_start: ([\d.]+)', e)]
+    return txt + f"\n[pausas > 0,3 s no meio da fala: {len([x for x in ini if 0.5 < x < dur(wav) - 0.5])}]"
 
 def servir():
     h = functools.partial(http.server.SimpleHTTPRequestHandler, directory=D)
@@ -77,6 +109,7 @@ def render(r, dados, total, porta):
         pg.goto(f'http://127.0.0.1:{porta}/palco.html'); pg.wait_for_function('window.pronto===true')
         pg.evaluate('d=>window.carregar(d)', dados)
         for i in quadros:
+            if not prev and os.path.exists(os.path.join(fr, f'{i:05d}.jpg')) and os.path.exists(os.path.join(fr, f'{i+1:05d}.jpg')): continue
             pg.evaluate(f'window.seek({i / FPS})')
             pg.screenshot(path=os.path.join(fr, f'{i:05d}.jpg'), type='jpeg', quality=88)
         pg.evaluate('window.modoCapa()'); pg.screenshot(path=os.path.join(B, 'capas', r['id'] + '.jpg'), type='jpeg', quality=92)
@@ -112,7 +145,7 @@ def mix(r, dados, total, fr):
 if __name__ == '__main__':
     porta = servir(); os.makedirs(os.path.join(B, 'capas'), exist_ok=True)
     for nn in sys.argv[1:]:
-        r = R[nn]; tl, total = voz(r); ws, texto = palavras(r, tl)
+        r = R[nn]; tl, total, ws = voz(r); texto = palavras(r)
         os.makedirs(os.path.join(B, 'whisper'), exist_ok=True); open(os.path.join(B, 'whisper', nn + '.txt'), 'w').write(texto + '\n')
         dados = {'r': r, 'tl': tl, 'ws': ws, 'total': total}
         fr, n = render(r, dados, total, porta)
