@@ -83,6 +83,28 @@ for f in sorted(glob.glob(os.path.join(VID, 'sf-motion-*.mp4'))):
 if os.path.exists(os.path.join(VID, 'cliente-sf.mp4')):
     itens.append({'t': 'Vídeo · story', 'titulo': 'Story do site da SF (para marcar @)', 'data': 'Story', 'linha': 'Site', 'st': 'aguardando',
                   'img': '/painel/sf/video/cliente-sf.jpg', 'video': '/painel/sf/video/cliente-sf.mp4', 'legenda': ''})
+# 4c · Vídeos e arquivos da conta Lindson (14/11/2026): 4 vídeos v1 a v6 (narrador), 8 vídeos com personagens falando,
+# manuais, branding book, logo em alta e carrosséis. MP4 (720p, < 10 MB) em painel/sf/video/; PDF e ZIP em painel/sf/arquivos/ (privado).
+TEMA = {1: 'Água voltando pelo ralo', 2: 'Óleo na pia', 3: 'Caixa de esgoto', 4: 'Caixa de gordura'}
+FAL = {1: 'Ralo', 2: 'Óleo na pia', 3: 'Esgoto', 4: 'Restaurante', 5: 'Condomínio', 6: 'Padaria', 7: 'Apartamento', 8: 'Calha'}
+for n in range(1, 9):
+    nome = f'sf-falado-{n}.mp4'
+    if os.path.exists(os.path.join(VID, nome)):
+        itens.append({'t': 'Vídeo · personagens falando', 'titulo': f'Vídeo falado {n} · {FAL[n]}', 'data': 'Feito em 14/11 (conta Lindson)', 'linha': 'Reels / anúncio',
+                      'st': 'aguardando', 'img': f'/painel/sf/video/{nome[:-4]}.jpg', 'video': f'/painel/sf/video/{nome}', 'legenda': ''})
+for n in range(1, 5):
+    for v in ['-v6', '-v5', '-v4', '-v3', '-v2', '']:
+        nome = f'sf-video-{n}{v}.mp4'
+        if os.path.exists(os.path.join(VID, nome)):
+            ver = v[2:] if v else '1'
+            itens.append({'t': 'Vídeo · narrador', 'titulo': f'Vídeo {n} · {TEMA[n]} · versão {ver}' + (' (aprovado)' if (n, ver) == (2, '4') else ' (mais nova)' if ver == '6' else ''),
+                          'data': 'Feito em 14/11 (conta Lindson)', 'linha': 'Reels', 'st': 'aguardando', 'img': f'/painel/sf/video/{nome[:-4]}.jpg', 'video': f'/painel/sf/video/{nome}', 'legenda': ''})
+ARQ = os.path.join(DADOS, '..', 'painel', 'sf', 'arquivos')
+for arq, tit, tipo in [('manual-identidade-sf.pdf', 'Identidade visual com fardamento completo e frota (14 páginas)', 'Marca'), ('branding-book-sf.pdf', 'Branding book (22 páginas)', 'Marca'),
+                       ('manual-da-logo-sf.pdf', 'Manual da logo: versões, cores e regras (16 páginas)', 'Marca'), ('logo-sf-arquivos.zip', 'Logo em alta: PNG transparente e SVG vetorial de todas as versões', 'Marca'),
+                       ('logo-sf-original-4096.png', 'Logo original em 4096 px', 'Marca'), ('carrosseis-educativos-sf.zip', '4 carrosséis educativos sobre entupimento (28 telas)', 'Posts')]:
+    if os.path.exists(os.path.join(ARQ, arq)) and not any(len(e) > 4 and e[4] == f'/painel/sf/arquivos/{arq}' for e in dados.setdefault('entregas', [])):
+        dados['entregas'].append([tit, tipo, '14/11', 'entregue (conta Lindson)', f'/painel/sf/arquivos/{arq}'])
 aprov = ','.join(json.dumps(x, ensure_ascii=False) for x in itens)
 s = re.sub(r"const APROV=\[.*?\];", lambda m: f"const APROV=[{aprov}];", s, count=1, flags=re.S)
 troca('<div class="post"><div class="img">${p.titulo}</div>', '<div class="post">${p.video?`<video src="${p.video}" poster="${p.img}" controls playsinline preload="none" style="width:100%;aspect-ratio:9/16;object-fit:cover;display:block;background:#000"></video>`:p.img?`<img src="${p.img}" alt="${p.titulo}" style="width:100%;aspect-ratio:4/5;object-fit:cover;display:block">`:`<div class="img">${p.titulo}</div>`}')
