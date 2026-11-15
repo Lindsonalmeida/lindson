@@ -3,7 +3,7 @@
 Gerado por `montar-canais.py`. Página nova: https://lindsonalmeida.pages.dev/painel/canais (só o admin).
 
 - Capas migradas: **124** · capas no link antigo: **0**
-- Vídeos migrados: **10** (65 MB) · vídeos no link antigo: **67**
+- Vídeos migrados: **11** (85 MB) · vídeos no link antigo: **67**
 - Vídeos ainda não postados e ≤ 20 MB somam **510 MB** (limite combinado: 300 MB).
 
 ## Vídeos aguardando o OK do Lindson (passam do limite de 300 MB juntos)
@@ -194,6 +194,7 @@ Os Shorts 11 a 30 do Raposa também estão no repositório público em `raposa-e
 | Raposa e Leão | short-38 | Vídeo | migrado | 2k4SSuvALdqXDcXnBQMVZH | `repositório` | 4718 KB |
 | Raposa e Leão | short-39 | Vídeo | migrado | 2k4SSuvALdqXDcXnBQMVZH | `repositório` | 4939 KB |
 | Raposa e Leão | short-40 | Vídeo | migrado | 2k4SSuvALdqXDcXnBQMVZH | `repositório` | 9542 KB |
+| Raposa e Leão | longo-17 | Vídeo | migrado | 2k4SSuvALdqXDcXnBQMVZH | `repositório` | 20272 KB |
 | Passaporte da Bíblia | pv-01 | Vídeo | link antigo (já postado) | 1aUURghpLqrWgTQmkvBcG4 | `06b20abe132d2093af6ba118175a65bf` | 0 KB |
 | Passaporte da Bíblia | short-01 | Vídeo | link antigo (já postado) | 1aUURghpLqrWgTQmkvBcG4 | `729315549dd7f8817344df338b2c3506` | 0 KB |
 | Passaporte da Bíblia | short-02 | Vídeo | link antigo (já postado) | CT3Z4M3yrzGrqCt3nh95ak | `798e21d8bd64cda45fa38ee161682984` | 0 KB |

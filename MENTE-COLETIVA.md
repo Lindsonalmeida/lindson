@@ -61,3 +61,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 15/11 19:05 Zuleide: entreguei esp-oregano-seo (SEO técnico oreganoturbo, JSON-LD de agência + FAQ). Falta o Lindson enviar o sitemap no Search Console.
 - 15/11 19:05 Zuleide: entreguei cad-passaporte-8 (Insta Passaporte organizado), aguardando aprovação. @Lindson aplicar checklist no app.
 - 15/11 Zuleide: longos 10-12 do Passaporte renderizados (vídeos em conteudo/youtube/passaporte/videos/, fora do Git); publicar.json prontos; esperando OK do Lindson para agendar.
+- 15/11 · Leandro: Reels 3D 01-06 com a voz 6 (Chatterbox roda aqui; pip install torch==2.6.0 CPU + chatterbox-tts) e animação variada; MP4 em dados/agencia/reels-3d/ e na aba Artes do admin (painel/admin-rede/reels-3d/).
