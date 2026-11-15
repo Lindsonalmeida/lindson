@@ -11,15 +11,15 @@ Por que pessoas inteligentes caem em manipulação? Maquiavel explicou há 500 a
 
 ⏱️ Capítulos
 0:00 Introdução
-1:25 1. Por que a gente cai
-3:15 2. O mestre do engano
-5:02 3. A falsa aparência de bem
-7:31 4. Os 5 sinais
-10:13 5. O método de defesa
-15:35 6. O sinal mais perigoso
-17:40 7. O limite
-18:24 Seu compromisso
-18:39 Resumo
+1:14 1. Por que a gente cai
+2:48 2. O mestre do engano
+4:21 3. A falsa aparência de bem
+6:29 4. Os 5 sinais
+8:49 5. O método de defesa
+13:27 6. O sinal mais perigoso
+15:15 7. O limite
+15:52 Seu compromisso
+16:05 Resumo
 
 📜 Fonte: Nicolau Maquiavel, O Príncipe, caps. VII, XVIII e XXIII; Discursos sobre a primeira década de Tito Lívio, livro I, caps. 3 e 53.
 

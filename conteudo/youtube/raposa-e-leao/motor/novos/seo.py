@@ -53,9 +53,13 @@ def mmss(t):return f'{int(t//60)}:{int(t%60):02d}'
 for n,d in S.items():
     r=json.load(open(f'{L}/{n}/roteiro.json'));tj=f'{L}/{n}/tempos.json'
     tr=json.load(open(tj)) if os.path.exists(tj) else None
+    import subprocess;vf=f'{L}/{n}/video.mp4';fat=1;real=None
+    if os.path.exists(vf):
+        real=float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',vf]))
+        fat=real/sum(len(g['txt'].split())/2.5+.7 for g in r['seg'])
     caps=[('0:00','Introdução')];t=0
     for i,g in enumerate(r['seg']):
-        ini=tr[i] if tr else t
+        ini=tr[i] if tr else t*fat
         if g['tela']['t']=='capitulo':caps.append((mmss(ini),f"{g['tela']['n']}. {g['tela']['h']}"))
         if g['tela']['t']=='compromisso':caps.append((mmss(ini),'Seu compromisso'))
         if g['tela']['t']=='resumo':caps.append((mmss(ini),'Resumo'))
@@ -64,7 +68,7 @@ for n,d in S.items():
     for k in 'ABC':assert len(d[k])<=60,(n,k,len(d[k]))
     r['titulo']=d['A'];json.dump(r,open(f'{L}/{n}/roteiro.json','w'),ensure_ascii=False,indent=1)
     desc=f"{d['desc']}\n\n⏱️ Capítulos\n{capt}\n\n📜 Fonte: {d['fonte']}\n\n🦊🦁 Raposa e Leão: Maquiavel e as leis do poder aplicadas à vida real.\n\n{d['hash']}"
-    est='' if tr else ' (estimados por palavras; ajustar pelo vídeo final)'
+    est='' if (tr or real) else ' (estimados por palavras; ajustar pelo vídeo final)'
     open(f'{L}/{n}/SEO-{n}.md','w').write(f"""# SEO do longo {n} (conta Leandro, Peter, 14/11/2026)
 
 **Palavra-chave principal:** {d['kw']}
@@ -95,7 +99,7 @@ for n,d in S.items():
 ## Comentário fixado
 {d['fix']}
 """)
-    pub=dict(titulo=d['A'],titulos_ab=[d['A'],d['B'],d['C']],legenda=desc,comentario=d['fix'],tags=d['tags'],capas=[f'capas/longo-{n}-{k}.jpg' for k in 'ABC'],agenda=AG[n],publico='não é conteúdo para crianças',sintetico='não (voz sintética narrando e pinturas de domínio público; nada realista que se confunda com fato)')
+    pub=dict(titulo=d['A'],titulos_ab=[d['A'],d['B'],d['C']],legenda=desc,comentario=d['fix'],tags=d['tags'],capas=[f'capas/longo-{n}-{k}.jpg' for k in 'ABC'],agenda=AG[n],publico='não é conteúdo para crianças',dur=(mmss(real) if real else ''),sintetico='não (voz sintética narrando e pinturas de domínio público; nada realista que se confunda com fato)')
     json.dump(pub,open(f'{L}/{n}/publicar.json','w'),ensure_ascii=False,indent=1)
     open(f'{L}/{n}/PUBLICAR.md','w').write(f"""# Longo {n} · {d['A']}
 
