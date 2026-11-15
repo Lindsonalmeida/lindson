@@ -9,22 +9,22 @@
    "cli": "raposa",
    "tarefa": "Postar todos os longos",
    "equipe": "Leandro",
-   "status": "livre",
-   "nota": "",
+   "status": "travado",
+   "nota": "Longos prontos (01-21) no app de postagem; postar no YouTube pede o acesso do Lindson ao canal (ou Metricool).",
    "partes": [],
    "pegou": "",
-   "atualizado": ""
+   "atualizado": "15/11 20:08"
   },
   {
    "id": "cad-raposa-4",
    "cli": "raposa",
    "tarefa": "Agendar Shorts",
    "equipe": "Leandro",
-   "status": "livre",
-   "nota": "",
+   "status": "travado",
+   "nota": "Shorts 01-40 prontos com agenda no app e kit Instagram/TikTok; agendar pede o acesso do Lindson (YouTube Studio/Metricool).",
    "partes": [],
    "pegou": "",
-   "atualizado": ""
+   "atualizado": "15/11 20:08"
   },
   {
    "id": "cad-raposa-5",
@@ -130,22 +130,22 @@
    "cli": "marca",
    "tarefa": "Raio-X: Felipe Bormine (cliente da call; falta o @)",
    "equipe": "Leandro",
-   "status": "livre",
-   "nota": "",
+   "status": "travado",
+   "nota": "Falta o @ do Instagram do Felipe Bormine.",
    "partes": [],
    "pegou": "",
-   "atualizado": ""
+   "atualizado": "15/11 20:08"
   },
   {
    "id": "cad-marca-17",
    "cli": "marca",
    "tarefa": "Raio-X: Marcos 100 Limites (cliente da call; falta o @)",
    "equipe": "Leandro",
-   "status": "livre",
-   "nota": "",
+   "status": "travado",
+   "nota": "Falta o @ do Instagram do Marcos 100 Limites.",
    "partes": [],
    "pegou": "",
-   "atualizado": ""
+   "atualizado": "15/11 20:08"
   },
   {
    "id": "cad-oregano-20",
@@ -867,7 +867,7 @@
    "id": "esp-jaci-whatsapp",
    "cli": "jaci",
    "tarefa": "Jaci: 8 respostas rápidas no tom CFO + mensagens D-1 e pós-consulta pedindo avaliação (guias venda-whatsapp e automacao-vendas)",
-   "equipe": "Lindson (conta)",
+   "equipe": "Lindson",
    "status": "livre",
    "nota": "",
    "partes": [],
@@ -878,7 +878,7 @@
    "id": "esp-wf-google",
    "cli": "wf",
    "tarefa": "WF Celulares: escrever GOOGLE.md (Loja de celulares + Assistência técnica) e resposta rápida de orçamento",
-   "equipe": "Lindson (conta)",
+   "equipe": "Lindson",
    "status": "livre",
    "nota": "",
    "partes": [],
