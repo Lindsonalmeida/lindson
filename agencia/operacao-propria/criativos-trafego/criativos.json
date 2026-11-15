@@ -11,7 +11,15 @@
   "foto": "Pexels 29626981",
   "credito": "https://www.pexels.com/photo/29626981/",
   "feed": "pecas/c01-feed.jpg",
-  "story": "pecas/c01-story.jpg"
+  "story": "pecas/c01-story.jpg",
+  "fotos_v2": [
+   "Pexels 29626981",
+   "Pexels 3343627",
+   "Pexels 16386277"
+  ],
+  "feed_v2": "pecas-v2/c01-feed.jpg",
+  "story_v2": "pecas-v2/c01-story.jpg",
+  "persona_v2": "Para: o forno aceso e o \"salão vazio\" é a terça dele, e a pergunta fala com ele."
  },
  {
   "id": "c02",
@@ -25,7 +33,15 @@
   "foto": "Pexels 3915857",
   "credito": "https://www.pexels.com/photo/3915857/",
   "feed": "pecas/c02-feed.jpg",
-  "story": "pecas/c02-story.jpg"
+  "story": "pecas/c02-story.jpg",
+  "fotos_v2": [
+   "Pexels 3915857",
+   "Pexels 13730501",
+   "Pexels 16055182"
+  ],
+  "feed_v2": "pecas-v2/c02-feed.jpg",
+  "story_v2": "pecas-v2/c02-story.jpg",
+  "persona_v2": "Para: pepperoni em close dá fome, e \"fatia do app\" é a conta que ele faz toda noite."
  },
  {
   "id": "c03",
@@ -39,7 +55,20 @@
   "foto": "Pexels 27927612",
   "credito": "https://www.pexels.com/photo/27927612/",
   "feed": "pecas/c03-feed.jpg",
-  "story": "pecas/c03-story.jpg"
+  "story": "pecas/c03-story.jpg",
+  "fotos_v2": [
+   "Pexels 27927612",
+   "Pexels 31094832",
+   "Pexels 7780261",
+   "Pexels 31450871",
+   "Pexels 40135596",
+   "Pexels 842519",
+   "Pexels 30504703",
+   "Pexels 32291145"
+  ],
+  "feed_v2": "pecas-v2/c03-feed.jpg",
+  "story_v2": "pecas-v2/c03-story.jpg",
+  "persona_v2": "Para: vê 7 fotos de pizza num celular igual ao dele e lembra do próprio feed parado."
  },
  {
   "id": "c04",
@@ -53,7 +82,18 @@
   "foto": "Pexels 11447751",
   "credito": "https://www.pexels.com/photo/11447751/",
   "feed": "pecas/c04-feed.jpg",
-  "story": "pecas/c04-story.jpg"
+  "story": "pecas/c04-story.jpg",
+  "fotos_v2": [
+   "Pexels 11447751",
+   "Pexels 5903389",
+   "Pexels 1566837",
+   "Pexels 36707034",
+   "Pexels 17403900",
+   "Pexels 20154166"
+  ],
+  "feed_v2": "pecas-v2/c04-feed.jpg",
+  "story_v2": "pecas-v2/c04-story.jpg",
+  "persona_v2": "Para: 5 fotos de forno, caixa e pizzaiolo, e entende o processo sem ler muito."
  },
  {
   "id": "c05",
@@ -67,7 +107,13 @@
   "foto": "Pexels 35017349",
   "credito": "https://www.pexels.com/photo/35017349/",
   "feed": "pecas/c05-feed.jpg",
-  "story": "pecas/c05-story.jpg"
+  "story": "pecas/c05-story.jpg",
+  "fotos_v2": [
+   "Pexels 35017349"
+  ],
+  "feed_v2": "pecas-v2/c05-feed.jpg",
+  "story_v2": "pecas-v2/c05-story.jpg",
+  "persona_v2": "Para: cheese pull na tela inteira e o preço claro na comanda (R$ 297)."
  },
  {
   "id": "c06",
@@ -81,7 +127,19 @@
   "foto": "Pexels 7142953",
   "credito": "https://www.pexels.com/photo/7142953/",
   "feed": "pecas/c06-feed.jpg",
-  "story": "pecas/c06-story.jpg"
+  "story": "pecas/c06-story.jpg",
+  "fotos_v2": [
+   "Pexels 7142953",
+   "Pexels 37417637",
+   "Pexels 9993754",
+   "Pexels 27819672",
+   "Pexels 17402721",
+   "Pexels 13185303",
+   "Pexels 6068713"
+  ],
+  "feed_v2": "pecas-v2/c06-feed.jpg",
+  "story_v2": "pecas-v2/c06-story.jpg",
+  "persona_v2": "Para: o \"5\" feito de pizza e 5 fotos, uma por vaga, mostram a escassez."
  },
  {
   "id": "c07",
@@ -95,7 +153,14 @@
   "foto": "Pexels 1878346",
   "credito": "https://www.pexels.com/photo/1878346/",
   "feed": "pecas/c07-feed.jpg",
-  "story": "pecas/c07-story.jpg"
+  "story": "pecas/c07-story.jpg",
+  "fotos_v2": [
+   "Pexels 1878346",
+   "Pexels 9419406"
+  ],
+  "feed_v2": "pecas-v2/c07-feed.jpg",
+  "story_v2": "pecas-v2/c07-story.jpg",
+  "persona_v2": "Para: fogo em tela cheia e a tabela responde \"por que vocês e não a agência do meu primo\"."
  },
  {
   "id": "c08",
@@ -109,7 +174,13 @@
   "foto": "Pexels 31094831",
   "credito": "https://www.pexels.com/photo/31094831/",
   "feed": "pecas/c08-feed.jpg",
-  "story": "pecas/c08-story.jpg"
+  "story": "pecas/c08-story.jpg",
+  "fotos_v2": [
+   "Pexels 31094831"
+  ],
+  "feed_v2": "pecas-v2/c08-feed.jpg",
+  "story_v2": "pecas-v2/c08-story.jpg",
+  "persona_v2": "Para: a fatia com cebola é a pizza dele, e a frase é a objeção que ele mesmo diz."
  },
  {
   "id": "c09",
@@ -123,7 +194,14 @@
   "foto": "Pexels 27359003",
   "credito": "https://www.pexels.com/photo/27359003/",
   "feed": "pecas/c09-feed.jpg",
-  "story": "pecas/c09-story.jpg"
+  "story": "pecas/c09-story.jpg",
+  "fotos_v2": [
+   "Pexels 27359003",
+   "Pexels 37417637"
+  ],
+  "feed_v2": "pecas-v2/c09-feed.jpg",
+  "story_v2": "pecas-v2/c09-story.jpg",
+  "persona_v2": "Para: \"SÓ PIZZA\" com pizza dentro das letras é lido em 1 segundo."
  },
  {
   "id": "c10",
@@ -137,6 +215,14 @@
   "foto": "Pexels 4109048",
   "credito": "https://www.pexels.com/photo/4109048/",
   "feed": "pecas/c10-feed.jpg",
-  "story": "pecas/c10-story.jpg"
+  "story": "pecas/c10-story.jpg",
+  "fotos_v2": [
+   "Pexels 31587842",
+   "Pexels 18126737",
+   "Pexels 7241485"
+  ],
+  "feed_v2": "pecas-v2/c10-feed.jpg",
+  "story_v2": "pecas-v2/c10-story.jpg",
+  "persona_v2": "Para: queijo esticando na mão e o nome da cidade dele no título."
  }
 ]
