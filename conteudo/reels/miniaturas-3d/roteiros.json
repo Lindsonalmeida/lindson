@@ -344,9 +344,9 @@
     "cap": "ERRO 1",
     "cena": "cidade",
     "tec": "topdown",
-    "t": "Erro um, o perfil incompleto, sem horário, sem foto, sem telefone. A pessoa passa direto pro concorrente.",
+    "t": "Erro um, o perfil pela metade, sem horário, sem foto, sem telefone. A pessoa passa direto pro concorrente.",
     "chave": [
-     "incompleto",
+     "metade",
      "concorrente"
     ],
     "cont": "1/3",
