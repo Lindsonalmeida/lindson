@@ -302,3 +302,4 @@ Levantado pela conta Lindson em 01/11/2026 a partir do histórico do git e dos a
 | 14/11/2026 | Lindson | [19:23] Desentupidora SF: branding book (22 p.) e logo original na farda e na frota | agencia/clientes/desentupidora-sf/identidade/branding-book/ | pronto |
 | 14/11/2026 | Lindson | [19:37] Desentupidora SF: logo em alta, versões vetoriais e manual da logo (16 p.) | agencia/clientes/desentupidora-sf/identidade/logo/ | pronto |
 | 14/11/2026 | Lindson | [20:10] Central: Painel Financeiro do admin | painel/ | pronto |
+| 15/11/2026 | Zuleide | Aba Tarefas feitas em todo painel de cliente (por dia, hora, atividade e quem fez; só as do cliente logado; admin vê e remove), duplicatas sem hora escondidas, deploy destravado (zip >25 MB dividido) | `agencia/sistema-clientes/site/painel-feitas/`, `functions/api/feitas.js`, https://lindsonalmeida.pages.dev/painel/<cliente>#feitas | no ar |

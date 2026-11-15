@@ -1769,8 +1769,11 @@ const horaSLZ = () => new Date(Date.now() - 3 * 36e5).toISOString().slice(11, 16
 let PER_F = '7d', CLI_F = 'todos';
 const PERIODOS = [['hoje', 'Hoje'], ['ontem', 'Ontem'], ['7d', '7 dias'], ['mes', 'Mês'], ['tudo', 'Tudo']];
 function noPeriodo(f) { const d = f.data || ''; return PER_F === 'tudo' ? true : PER_F === 'hoje' ? d === hojeSLZ() : PER_F === 'ontem' ? d === hojeSLZ(1) : PER_F === '7d' ? d >= hojeSLZ(6) : d.slice(0, 7) === hojeSLZ().slice(0, 7); }
+// linha sem hora que repete outra com hora (mesmo dia e cliente) fica escondida (duplicatas de 14/11; conta Zuleide, 15/11/2026)
+function semDupF(itens) { const pal = t => new Set(sem(String(t || '')).split(/[^a-z0-9]+/).filter(w => w.length > 3));
+  return itens.filter(x => x.hora || !itens.some(y => y !== x && y.hora && y.cli === x.cli && y.data === x.data && (() => { const a = pal(x.atividade), b = pal(y.atividade); let c = 0; b.forEach(w => a.has(w) && c++); return c >= Math.min(3, b.size); })())); }
 function pintaFeitas() {
-  const todas = (S.feitas.d.itens || []).filter(noPeriodo), lista = todas.filter(f => CLI_F === 'todos' || f.cli === CLI_F);
+  const todas = semDupF(S.feitas.d.itens || []).filter(noPeriodo), lista = todas.filter(f => CLI_F === 'todos' || f.cli === CLI_F);
   $('#per-feitas').innerHTML = PERIODOS.map(([k, n]) => `<button type="button" data-perf="${k}" aria-pressed="${PER_F === k}">${n}<b>${(S.feitas.d.itens || []).filter(f => { const o = PER_F; PER_F = k; const r = noPeriodo(f); PER_F = o; return r; }).length}</b></button>`).join('');
   const por = {}; todas.forEach(f => por[f.cli] = (por[f.cli] || 0) + 1);
   $('#cli-feitas').innerHTML = `<button type="button" data-clif="todos" aria-pressed="${CLI_F === 'todos'}">Todos<b>${todas.length}</b></button>` + Object.entries(por).sort((a, b) => b[1] - a[1]).map(([c, n]) => `<button type="button" data-clif="${esc(c)}" aria-pressed="${CLI_F === c}">${esc(nomeCli(c))}<b>${n}</b></button>`).join('');

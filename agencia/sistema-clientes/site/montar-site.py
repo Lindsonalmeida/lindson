@@ -152,6 +152,8 @@ shutil.copy(os.path.join(D, 'membros.html'), os.path.join(OUT, 'painel', 'membro
 import importlib.util as _iu
 _sp = _iu.spec_from_file_location('pizz', os.path.join(SC, '..', 'operacao-propria', 'painel.py')); _m = _iu.module_from_spec(_sp); _sp.loader.exec_module(_m)
 print('pizzarias.html', _m.montar(os.path.join(OUT, 'painel')), 'documentos')
+# aba Tarefas feitas em todo painel de cliente (/api/feitas; conta Zuleide, 15/11/2026)
+sys.path.insert(0, os.path.join(D, 'painel-feitas')); from injetar import injetar; print('feitas:', injetar(os.path.join(OUT, 'painel')))
 open(os.path.join(OUT, '_headers'), 'w').write("/*\n  X-Frame-Options: SAMEORIGIN\n  Referrer-Policy: same-origin\n  X-Content-Type-Options: nosniff\n/painel/*\n  Cache-Control: private, no-store\n  X-Robots-Tag: noindex\n")
 open(os.path.join(OUT, 'robots.txt'), 'w').write("User-agent: *\nAllow: /site/\nAllow: /bio/\nAllow: /sitemap.xml\nDisallow: /\n\nSitemap: https://lindsonalmeida.pages.dev/sitemap.xml\n")
 # sitemap só das páginas públicas (site oficial, portfólio e bio) — conta Leandro, 05/11/2026
