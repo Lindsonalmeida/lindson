@@ -186,20 +186,31 @@ async function carregar(cid) {
     const j = await r.json();
     ((j.dados && j.dados.itens) || []).forEach(x => est[cid].itens[x.titulo] = x);
     est[cid].versao = j.versao || 0; est[cid].remoto = true;
-  } catch (e) {
-    try { Object.assign(est[cid].itens, JSON.parse(localStorage.getItem(LS(cid)) || '{}')); } catch (_) {}
-  }
+  } catch (e) {}
+  // o que foi marcado neste aparelho vale até o servidor confirmar (o servidor às vezes devolve a versão antiga por até 1 min)
+  let loc = {}; try { loc = JSON.parse(localStorage.getItem(LS(cid)) || '{}'); } catch (_) {}
+  let pendente = false;
+  Object.entries(loc).forEach(([id, x]) => { const s = est[cid].itens[id]; if (!s || (x.mudouEm || '') > (s.mudouEm || '')) { est[cid].itens[id] = { ...(s || {}), ...x, titulo: id }; if (s ? !!s.postado !== !!x.postado : x.postado) pendente = true; } });
+  if (pendente && est[cid].remoto) enviar(cid);
 }
+function guardaLocal(cid) { try { localStorage.setItem(LS(cid), JSON.stringify(est[cid].itens)); } catch (_) {} }
 function lista(cid) { return Object.entries(est[cid].itens).map(([id, x]) => ({ ...x, titulo: id })); }
 async function salvar(cid, id, valor) {
-  const e = est[cid]; e.itens[id] = { ...(e.itens[id] || {}), titulo: id, postado: valor, postadoEm: valor ? new Date().toISOString() : null };
-  if (!e.remoto) { try { localStorage.setItem(LS(cid), JSON.stringify(e.itens)); } catch (_) {} sinc(); return true; }
+  const e = est[cid], agora = new Date().toISOString(); e.itens[id] = { ...(e.itens[id] || {}), titulo: id, postado: valor, postadoEm: valor ? agora : null, mudouEm: agora };
+  guardaLocal(cid);
+  if (!e.remoto) { sinc(); return true; }
+  return enviar(cid, id);
+}
+async function enviar(cid, id) {
+  const e = est[cid];
   for (let i = 0; i < 3; i++) {
     try {
       const r = await fetch('/api/dados?cli=' + cid + '&f=aprov', { method: 'PUT', credentials: 'same-origin', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ dados: { itens: lista(cid) }, versao: e.versao }) });
       if (r.status === 409) {  // outra pessoa salvou antes: junta (o que eu mudei agora vence) e tenta de novo
-        const atual = await r.json(), meu = e.itens[id]; e.itens = {};
-        ((atual.dados && atual.dados.itens) || []).forEach(x => e.itens[x.titulo] = x); e.itens[id] = meu; e.versao = atual.versao || 0; continue;
+        const atual = await r.json(), meus = e.itens; e.itens = {};
+        ((atual.dados && atual.dados.itens) || []).forEach(x => e.itens[x.titulo] = x);
+        Object.entries(meus).forEach(([k, x]) => { const s = e.itens[k]; if (!s || (x.mudouEm || '') >= (s.mudouEm || '')) e.itens[k] = x; });
+        e.versao = atual.versao || 0; guardaLocal(cid); continue;
       }
       if (!r.ok) throw new Error(r.status);
       e.versao = (await r.json()).versao; sinc(); return true;
