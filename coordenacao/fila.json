@@ -75,11 +75,11 @@
    "cli": "passaporte",
    "tarefa": "Postar vídeos longos",
    "equipe": "Zuleide",
-   "status": "livre",
-   "nota": "",
+   "status": "andamento",
+   "nota": "Longos 01-09 postados; 10-12 renderizando (Zuleide/Peter), publicar após OK do Lindson",
    "partes": [],
-   "pegou": "",
-   "atualizado": ""
+   "pegou": "Zuleide 15/11 16:58",
+   "atualizado": "15/11 16:58"
   },
   {
    "id": "cad-passaporte-11",
@@ -246,7 +246,7 @@
    "cli": "oregano",
    "tarefa": "TikTok",
    "equipe": "Zuleide",
-   "status": "livre",
+   "status": "andamento",
    "nota": "",
    "partes": [
     {
@@ -258,8 +258,8 @@
      "status": "livre"
     }
    ],
-   "pegou": "",
-   "atualizado": ""
+   "pegou": "Zuleide 15/11 16:58",
+   "atualizado": "15/11 16:58"
   },
   {
    "id": "cad-designer-26",
