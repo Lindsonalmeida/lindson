@@ -230,3 +230,5 @@ Levantado pela conta Lindson em 01/11/2026 a partir do histórico do git e dos a
 | 08/11/2026 | Leandro | **Quadro de atividades no painel do administrador** (pedido do Lindson: "com cada cliente e coisas que faltam fazer, pra eu ir dando check"): 37 itens em 9 grupos (pagantes primeiro), quem faz cada um (você, cliente, equipe), barra de progresso, filtros e marcações salvas no banco do admin (valem no celular e no computador) | `/painel/admin#quadro` · itens em `agencia/sistema-clientes/site/quadro.json` · tela em `admin-quadro.js` | no ar |
 
 | 09/11/2026 | Leandro | 30 criativos de tráfego dos 6 produtos da Hubla (estilo infoprodutor, marca preto e amarelo) | `agencia/ofertas/low-ticket/criativos-trafego/` + artes em `CentralLindsonALmeida/produtos/criativos-trafego/` | aguardando aprovação |
+
+| 15/11/2026 | Leandro | Orégano Turbo: 10 criativos de anúncio (feed e story) com textos, por Paollo + Rocco [14:29] | `agencia/operacao-propria/criativos-trafego/` + painel/oregano/criativos/ | aguardando aprovação |
