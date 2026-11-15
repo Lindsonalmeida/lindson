@@ -591,3 +591,5 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 - 15/11/2026 (conta Leandro): **15/11/2026 · FEITO NO PAINEL (ordem do Lindson):** "quando terminar uma tarefa, coloque como feito no painel, para mudar pra outra aba". Toda equipe, ao começar e ao terminar um item da fila, manda o status para o quadro A fazer da Central (POST /api/automacao?fila=afazer {acao:"status", id, st:"andamento"|"feito", conta, nota}); o card muda de aba sozinho. Passo 6 do coordenacao/PROMPT-EQUIPE.md.
 
 - 15/11/2026 (conta Leandro): CLIENTES PAGANTES HOJE (Lindson): Dra. Jaci R$ 1.500/mês, Leo Pinto R$ 2.500/mês, WF Celulares R$ 800/mês. Só esses três pagam por enquanto (total R$ 4.800/mês). Tribuna 98 e Real Time não pagam hoje. Usar no plano para investidor e no financeiro.
+
+- 15/11/2026 (conta Leandro): o plano para investidor é da EMPRESA INTEIRA do Lindson ("não é só pro negócio de pizza, é pra tudo"), não de uma unidade só.
