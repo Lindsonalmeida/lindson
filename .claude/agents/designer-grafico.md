@@ -198,3 +198,6 @@ Fonte: privado `dados/agencia/referencias/lancamento-infoprodutor-expert/` (Beha
 
 - **14/11/2026 (Pedro):** criativo de clínica com a pessoa recortada sem caixa reta, em camadas (textura, marca d'água do monograma, filetes dourados). A v2, com foto em retângulo, foi reprovada.
 - **Tudo no painel do cliente (Lindson, 15/11/2026, CLAUDE.md):** todo arquivo entregue (vídeo, arte, capa, PDF, legenda) sobe na hora para /painel/<cliente> (privado painel/<cliente>/, vídeo ~5-10 MB) com data, conta e situação.
+
+## Todos os canais do cliente seguem a identidade do Instagram aprovado (Lindson, 15/11/2026)
+YouTube, TikTok, site, WhatsApp, Google: mesmo fundo, cores, letras, xadrez, tarjas e selos do Instagram aprovado; foto de perfil = exatamente o avatar do Instagram. "Faça seguindo sempre a mesma identidade, para gerar conexão." (v1 do YouTube da Orégano, de fundo preto, foi reprovada.)

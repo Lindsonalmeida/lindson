@@ -501,3 +501,5 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 
 - **15/11/2026 (Zuleide):** canal do YouTube da Orégano criado no papel (`agencia/operacao-propria/youtube/`): Shorts diários = os 21 Reels aprovados, 1 longo por quinta, @oreganoturbo. Aguardando aprovação do Lindson; nada publicado.
 - **15/11/2026 (conta Zuleide), REGRA:** "faça seguindo sempre a mesma identidade, para gerar conexão". Todos os canais de um cliente (Instagram, YouTube, TikTok, site, painel) usam EXATAMENTE a identidade do Instagram aprovado: mesma foto de perfil, mesmas cores predominantes (Orégano: verde-escuro + xadrez verde, tomate e creme), mesma fonte e grafismos. Kit YouTube Orégano v1 (fundo preto, perfil invertido) REPROVADO.
+
+- **15/11/2026 (Zuleide):** REPROVADO o kit v1 do YouTube da Orégano (fundo preto, perfil novo). Regra: todos os canais do cliente seguem a identidade do Instagram aprovado; perfil = avatar do Instagram. v2 em verde-escuro com xadrez, aguardando aprovação.

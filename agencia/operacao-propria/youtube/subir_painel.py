@@ -18,7 +18,7 @@ pecas = [('previa.jpg', 'Prévia do kit + estratégia do canal', est),
          (None, 'Títulos e descrições SEO dos 21 Shorts', bloco('## Shorts'))]
 yt = []
 for arq, tit, leg in pecas:
-    it = {'t': 'YouTube', 'yt': 1, 'titulo': 'YouTube · ' + tit, 'data': 'Kit do canal · 15/11 · conta Zuleide', 'linha': 'Canal do YouTube',
+    it = {'t': 'YouTube', 'yt': 1, 'titulo': 'YouTube · ' + tit, 'data': 'Kit do canal v2 (identidade do Instagram) · 15/11 · conta Zuleide', 'linha': 'Canal do YouTube',
           'st': 'pendente', 'por': 'aguardando o Lindson', 'legenda': leg}
     if arq:
         nome = os.path.basename(arq); shutil.copy(os.path.join(YT, arq), os.path.join(YO, nome)); it['img'] = it['baixar'] = f'/painel/oregano/youtube/{nome}'
