@@ -1,5 +1,7 @@
 # Instruções do repositório (Lindson Almeida)
 
+> **15/11/2026 · ALTA PRODUÇÃO, SEM TRAVAR (ordem do Lindson):** "faça só o que estiver no alcance de vocês e não trave em permissões minhas se eu não estiver aqui. Quero alta produção." Terminou uma atividade, já comece a próxima. Item que depende do Lindson: faça a parte possível, marque "travado" na fila com o que falta, avise "@Lindson" no MENTE-COLETIVA.md e pule para o próximo. Nunca parar esperando resposta.
+>
 > **COORDENAÇÃO DAS EQUIPES (Lindson, 15/11/2026):** o trabalho de todos os clientes é dividido em partes na fila `coordenacao/fila.json` pela conta Leandro (coordenadora). Toda conta roda a cada 2 horas o prompt de `coordenacao/PROMPT-EQUIPE.md`: pega só o que é da sua equipe, trava na fila antes de começar, entrega no painel do cliente e fecha na fila. Regras em `coordenacao/COORDENACAO.md`.
 
 > **RESPOSTA CURTA, ACIMA DE TUDO (regra do Lindson, 08/11/2026, conta Zuleide): "elimine mensagens do sistema para mim, quero só o que me importa, pra não ter que ler muito".** Vale para toda conta e passa por cima de qualquer outra regra que mande escrever algo na conversa.
