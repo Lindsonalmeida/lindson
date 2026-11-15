@@ -24,7 +24,7 @@ im('pope_alexander_vi.jpg','Papa Alexandre VI','Rodrigo Bórgia · papa de 1492 
  'Para provar o que diz, Maquiavel dá um exemplo do tempo dele: o papa Alexandre sexto, Rodrigo Bórgia, pai de César Bórgia. Segundo Maquiavel, Alexandre nunca fez outra coisa, nunca pensou em outra coisa, a não ser enganar os homens. E sempre encontrou em quem aplicar.'),
 fr('Jurava mais que todos.<br><b>Cumpria menos que todos.</b>',
  'E aqui vem o detalhe que deixa a história assustadora. Maquiavel conta que nunca houve homem que afirmasse com mais força, que jurasse com mais juramentos, e que cumprisse menos. E mesmo assim os enganos dele sempre deram certo, porque ele conhecia bem esse lado do mundo.'),
-fr('Ele não escondia o jogo.<br><b>E mesmo assim funcionava.</b>',
+fr('Jurava e não cumpria.<br><b>E sempre achou em quem aplicar.</b>',
  'Pensa no que isso significa. Quem jura muito e cumpre pouco deixa rastro, e um papa não passa despercebido. Mesmo assim, segundo Maquiavel, Alexandre sempre encontrou em quem aplicar. A minha leitura: cada um achava que, com ele, seria diferente. Esse é o ponto cego mais comum: eu sei que essa pessoa já enganou outros, mas comigo é outra história.'),
 fr('Quanto mais forte o juramento,<br><b>mais atenção.</b>',
  'Isso é uma lição direta pra hoje. A intensidade da promessa não é prova de nada. Quem jura demais, quem diz confia em mim três vezes na mesma conversa, quem fica ofendido quando você pede um papel assinado, está te dando um sinal. Não é garantia de que seja golpe, mas é motivo para olhar com as mãos.'),
