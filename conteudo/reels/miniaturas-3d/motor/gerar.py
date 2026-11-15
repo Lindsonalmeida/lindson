@@ -27,9 +27,22 @@ def voz(r):
         txt = f['t'].replace('enquete', 'enquéte')
         h = os.path.join(cache, hashlib.md5(txt.encode()).hexdigest()[:12] + '.wav')
         if not os.path.exists(h):
-            torch.manual_seed(6)
-            wv = V6.generate(txt, language_id='pt', audio_prompt_path=REF, exaggeration=0.75, cfg_weight=0.3, temperature=0.8)
-            ta.save(h, wv, V6.sr); print('voz6', h, flush=True)
+            import difflib
+            from faster_whisper import WhisperModel
+            global WM
+            if 'WM' not in globals(): WM = WhisperModel('small', device='cpu', compute_type='int8')
+            norm = lambda z: re.sub(r'[^a-zà-ú0-9 ]', '', z.lower().replace('pra', 'para')).split()
+            melhor = (-1, None)
+            for semente in (6, 7, 8, 9):
+                torch.manual_seed(semente)
+                wv = V6.generate(txt, language_id='pt', audio_prompt_path=REF, exaggeration=0.75, cfg_weight=0.3, temperature=0.8)
+                a16 = ta.functional.resample(wv, V6.sr, 16000)[0].numpy()
+                ouv = ' '.join(z.text for z in WM.transcribe(a16, language='pt')[0])
+                nota = difflib.SequenceMatcher(None, norm(f['t']), norm(ouv)).ratio()
+                if nota > melhor[0]: melhor = (nota, wv)
+                print('voz6', semente, round(nota, 2), ouv, flush=True)
+                if nota >= .9: break
+            ta.save(h, melhor[1], V6.sr)
         x = np.frombuffer(subprocess.check_output(['ffmpeg', '-v', 'error', '-i', h, '-af', 'atempo=1.05', '-f', 's16le', '-ac', '1', '-ar', str(SR), '-']), np.int16).astype(np.float32)
         env = np.sqrt(np.convolve(x * x, np.ones(441) / 441, 'same')); voz_ = np.where(env > 10 ** (-40 / 20) * 32768)[0]
         x = x[max(0, voz_[0] - 400): voz_[-1] + 2200]
