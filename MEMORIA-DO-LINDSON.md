@@ -497,3 +497,4 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 - **15/11/2026 (conta Zuleide), REGRA GERAL:** todo arquivo feito para cliente sobe na hora para o painel dele na Central (todas as contas, todos os clientes). Salva no CLAUDE.md.
 
 - **15/11/2026 (conta Pedro), REGRA DO LINDSON:** "todos os vídeos feitos da SF, coloque no painel dele… tudo que todas as contas fizeram. Sempre que algum arquivo for feito, suba lá pra eu não perder, de todos os clientes". Está nas regras gerais do CLAUDE.md. Os MP4 da SF ficam em `painel/sf/video/` no privado.
+- **15/11/2026 (conta Zuleide) · APROVADO:** os 21 Reels da semana 1 da Orégano Turbo ("os vídeos da Orégano estão aprovados"). Subir no painel com título para Shorts, legenda SEO com CTA de vendas e capa.
