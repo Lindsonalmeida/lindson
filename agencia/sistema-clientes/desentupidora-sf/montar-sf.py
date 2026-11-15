@@ -128,6 +128,7 @@ troca('<div class="grupo"><h4>Vendas e tráfego</h4>', '<div class="grupo"><h4>G
       '<a href="#noticias" data-v="noticias"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 5h13v14H6a2 2 0 0 1-2-2zM17 9h3v8a2 2 0 0 1-2 2"/><path d="M7.5 9h6M7.5 12.5h6M7.5 16h4"/></svg>Notícias do setor</a></div>'
       '<div class="grupo"><h4>Vendas e tráfego</h4>')
 s = re.sub(r'<a href="#leads" data-v="leads">.*?</a>', '', s, count=1, flags=re.S)
+troca('<a href="#fotos" data-v="fotos">', '<a href="#arquivos" data-v="arquivos"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>Arquivos</a><a href="#fotos" data-v="fotos">')
 troca("const V={", "const V=window.__V={"); troca("const T={", "const T=window.__T={")
 troca("function toast(t){", "window.__toast=t=>toast(t);function toast(t){")
 troca("const f=$('#novo-ped');", "if(window.__pos)window.__pos(view);const f=$('#novo-ped');")
@@ -168,7 +169,7 @@ FERR = {
     {'nome': 'Serviços para casa', 'q': 'encanador OR serviços residenciais manutenção'},
     {'nome': 'Marketing para prestador de serviço', 'q': 'marketing prestador de serviços Google Meu Negócio'}],
   'notaNoticias': 'Notícias de portais públicos, atualizadas sozinhas a cada 3 horas. Antes de postar sobre uma delas, abra a fonte original.',
-  'ideiaPost': 'Gancho: "Saiu uma notícia sobre {tema} e isso pode virar dor de cabeça na sua casa. Te explico em 30 segundos."\nNotícia: {titulo}\nFonte: {link}\nFechamento: chame a SF no WhatsApp (98) 98915-3929.'}
+  'ideiaPost': 'Gancho: "Saiu uma notícia sobre {tema} e isso pode virar dor de cabeça na sua casa. Te explico em 30 segundos."\nNotícia: {titulo}\nFonte: {link}\nFechamento: chame a SF no WhatsApp (98) 92010-5710.'}
 
 # 6 · bloco de promoção do Lindson: portfólio real, sem o próprio cliente
 s = s.replace(" ['Conheça um dos nossos clientes','Desentupidora <em>SF</em>','Mini site para quem tem urgência: orçamento no WhatsApp e ligação em um toque.','__SF1__'],\n", '', 1)
@@ -181,7 +182,7 @@ s = s.replace('<img src="__CINE__" alt="Lindson Almeida">', f'<img src="{webp(ci
 s = s.replace('__LOGO__', uri(os.path.join(D, 'logo.jpg'), 220))
 extra = ('window.__DADOS=' + json.dumps(dados, ensure_ascii=False).replace('</', '<\\/') + ';\n' + open(os.path.join(SC, 'prototipo', 'real.js')).read()
          + '\n' + open(os.path.join(SC, 'prototipo', 'treinamento.js')).read() + '\nwindow.__FERR=' + json.dumps(FERR, ensure_ascii=False) + ';\n'
-         + open(os.path.join(SC, 'prototipo', 'ferramentas.js')).read() + '\n' + open(os.path.join(SC, 'prototipo', 'fotos.js')).read()
+         + open(os.path.join(SC, 'prototipo', 'ferramentas.js')).read() + '\n' + open(os.path.join(SC, 'prototipo', 'fotos.js')).read() + '\n' + open(os.path.join(D, 'arquivos-sf.js')).read()
          + '\n' + open(os.path.join(SC, 'prototipo', 'interacoes.js')).read() + '\n' + open(os.path.join(SC, 'prototipo', 'movimento.js')).read())  # fotos.js depois das ferramentas: ele encadeia o __pos
 s = s.replace('</script>', '</script>\n<script>\n' + extra + '\n</script>', 1)
 s = s.replace('<meta charset="utf-8">\n', '', 1)

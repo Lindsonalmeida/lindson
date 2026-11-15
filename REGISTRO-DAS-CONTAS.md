@@ -306,3 +306,4 @@ Levantado pela conta Lindson em 01/11/2026 a partir do histórico do git e dos a
 | 15/11/2026 | Zuleide | Central de Comando: quadro A fazer (25 itens do caderno, por cliente, Iniciar/Feito) e resumo de Tarefas feitas por cliente (hoje, 7 dias, mês, total); 8 itens feitos do caderno lançados | /painel/comando#afazer | pronto |
 | 15/11/2026 | Zuleide | Comando: Tarefas feitas em quadros por cliente (hoje/7d/mês/total + lista por dia e hora) e /api/automacao?fila=afazer (semear/ler); 25 itens A fazer no servidor | /painel/comando#feitas | pronto |
 | 15/11/2026 | Zuleide | Admin, Quadro de atividades: Feitos em quadros por cliente (ao vivo) e A fazer do caderno com Iniciar/Feito | /painel/admin#quadro | pronto |
+| 15/11/2026 | Zuleide | Painel SF: aba Arquivos (10 motions v1 reprovada/v2 aguardando, 5 artes feed v1, logo, flyer, site) | /painel/sf#arquivos, arquivos em painel/sf/ do privado | no ar |
