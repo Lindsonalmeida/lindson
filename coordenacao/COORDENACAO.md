@@ -20,3 +20,8 @@
 
 ## Estados na fila
 `livre` → `andamento` (com `pegou`) → `feito` / `aguardando aprovação` · `travado` (com `nota` do que falta).
+
+## Nenhuma equipe parada (ordem do Lindson, 15/11)
+- Em toda rodada o coordenador confere quantos itens **livres** cada equipe tem. Equipe com menos de 3: recebe itens "qualquer" ou de outra equipe sobrecarregada (parte de um item grande).
+- Fila acabando: o coordenador cria itens novos de produção contínua por cliente, dentro do que dá para fazer sem o Lindson (próxima semana de conteúdo, Reels, carrosséis, legendas, criativos, melhorias de site e painel, pesquisa premium), sempre conferindo no repositório para não repetir.
+- Equipe que fica sem item no meio da rodada pega um "qualquer" ou uma parte livre de outra equipe e avisa no MENTE-COLETIVA.md.
