@@ -835,11 +835,11 @@
    "cli": "oregano",
    "tarefa": "Orégano: sitemap, robots e dados estruturados Restaurant+Menu no site oreganoturbo (guia agencia/especialista/seo)",
    "equipe": "Zuleide",
-   "status": "andamento",
-   "nota": "",
+   "status": "feito",
+   "nota": "canonical, og:url/type/locale, twitter card, JSON-LD Organization+ProfessionalService+LocalBusiness (areaServed São Luís, Instagram, WhatsApp) + FAQPage (6), sitemap com lastmod. Sem mudança visual. Falta: enviar sitemap no Search Console.",
    "partes": [],
    "pegou": "Zuleide 15/11 19:04",
-   "atualizado": "15/11 19:04"
+   "atualizado": "15/11 19:05"
   },
   {
    "id": "esp-sf-whatsapp",
