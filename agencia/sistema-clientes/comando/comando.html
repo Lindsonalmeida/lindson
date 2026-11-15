@@ -190,6 +190,12 @@ main{margin-left:var(--rail)}
 .resumo-f th{font-size:9.5px;letter-spacing:.16em;color:var(--apag);text-transform:uppercase}
 .resumo-f td:first-child,.resumo-f th:first-child{text-align:left;font:400 17px var(--f-t);text-transform:uppercase}
 .resumo-f td b{color:var(--am)}
+.kbn{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--fio2);margin-bottom:8px}
+.kbn span{padding:8px;font:500 9px var(--f-m);letter-spacing:.14em;color:var(--apag);text-transform:uppercase;border-right:1px solid var(--fio2)}
+.kbn b{display:block;font:400 24px/1 var(--f-t);color:var(--txt);letter-spacing:0;margin-top:3px}
+.kbn span:last-child b{color:var(--am)}
+.kbl{max-height:420px;overflow-y:auto}
+.kbf .af small{font:600 10px var(--f-m);color:var(--am);letter-spacing:.08em}
 .dia{margin-bottom:26px}
 .dia h3{margin:0 0 6px;font:400 26px/1 var(--f-t);text-transform:uppercase;display:flex;gap:12px;align-items:baseline}
 .dia h3 small{font:500 10.5px var(--f-m);letter-spacing:.16em;color:var(--apag)}
@@ -1844,6 +1850,16 @@ function pintaFeitas() {
   const por = {}; todas.forEach(f => por[f.cli] = (por[f.cli] || 0) + 1);
   $('#cli-feitas').innerHTML = `<button type="button" data-clif="todos" aria-pressed="${CLI_F === 'todos'}">Todos<b>${todas.length}</b></button>` + Object.entries(por).sort((a, b) => b[1] - a[1]).map(([c, n]) => `<button type="button" data-clif="${esc(c)}" aria-pressed="${CLI_F === c}">${esc(nomeCli(c))}<b>${n}</b></button>`).join('');
   if (!S.feitas.ok) { $('#lista-feitas').innerHTML = `<div class="vazio">${S.feitas.erro ? 'Não consegui ler as tarefas feitas.' : 'Carregando…'}</div>`; return; }
+  if (CLI_F === 'todos') { // quadros por cliente (Lindson, 15/11: "o quadro feitos, divida por cliente"; conta Zuleide)
+    const tudo = semDupF(S.feitas.d.itens || []), h = hojeSLZ(), d7 = hojeSLZ(6), m = h.slice(0, 7), por = {};
+    tudo.forEach(f => (por[f.cli] = por[f.cli] || { t: [], l: [] }).t.push(f)); lista.forEach(f => por[f.cli].l.push(f));
+    const ord = Object.keys(por).sort((x, y) => por[y].l.length - por[x].l.length || por[y].t.length - por[x].t.length);
+    const dd = d => d ? d.slice(8, 10) + '/' + d.slice(5, 7) : '—';
+    $('#lista-feitas').innerHTML = `<div class="kanban">${ord.map(c => { const t = por[c].t, n = [t.filter(f => f.data === h).length, t.filter(f => (f.data || '') >= d7).length, t.filter(f => (f.data || '').slice(0, 7) === m).length, t.length];
+      const l = por[c].l.sort((x, y) => ((y.data || '') + (y.hora || '')).localeCompare((x.data || '') + (x.hora || '')));
+      return `<div class="kb kbf"><h3>${esc(nomeCli(c))}<button class="btn mini" type="button" data-clif="${esc(c)}">Abrir</button></h3><div class="kbn"><span>Hoje<b>${n[0]}</b></span><span>7 dias<b>${n[1]}</b></span><span>Mês<b>${n[2]}</b></span><span>Total<b>${n[3]}</b></span></div><div class="kbl">${l.map(f => `<div class="af"><small>${dd(f.data)} · ${esc(f.hora || '—')} · ${esc(f.por || '')}</small><p>${esc(f.atividade)}</p></div>`).join('') || '<div class="vazio">Nada neste período.</div>'}</div></div>`; }).join('')}</div>`;
+    return;
+  }
   const dias = {}; lista.forEach(f => (dias[f.data] = dias[f.data] || []).push(f));
   const nomeDia = d => { const [a, m, dd] = d.split('-'); const w = new Date(d + 'T12:00:00').toLocaleDateString('pt-BR', { weekday: 'long' }); return (d === hojeSLZ() ? 'Hoje' : d === hojeSLZ(1) ? 'Ontem' : w) + ` <small>${dd}/${m}/${a}</small>`; };
   $('#lista-feitas').innerHTML = Object.keys(dias).sort().reverse().map(d => `<div class="dia"><h3>${nomeDia(d)}<small>${dias[d].length} tarefa(s)</small></h3>${dias[d].sort((a, b) => (b.hora || '').localeCompare(a.hora || '')).map(f => `<div class="tf"><span class="h">${esc(f.hora || '—')}</span><span class="c">${esc(nomeCli(f.cli))}</span><span class="a">${esc(f.atividade)}${f.aprovado ? '<i>APROVADO</i>' : ''}</span><span class="p">${esc(f.por)}${f.origem === 'fila' ? ' · fila' : ''}</span></div>`).join('')}</div>`).join('') || '<div class="vazio">Nada neste período.</div>';
