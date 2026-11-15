@@ -14,7 +14,7 @@ f = lambda n, s: ImageFont.truetype(os.path.join(FT, n), s)
 T = os.path.join(OUT, VID + '-tmp'); os.makedirs(T, exist_ok=True)
 dur = lambda p: float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',p]))
 
-async def tts(txt, p): await edge_tts.Communicate(txt, 'pt-BR-AntonioNeural', rate='+4%').save(p)
+async def tts(txt, p): await edge_tts.Communicate(txt.replace('Real Time', 'Riál Táime'), 'pt-BR-AntonioNeural', rate='+4%').save(p)
 t, partes, chips = 0.6, [], []
 for i, (fala, letra) in enumerate(R['falas']):
     p = os.path.join(T, f'v{i}.mp3'); asyncio.run(tts(fala, p)); d = dur(p)

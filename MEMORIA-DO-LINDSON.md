@@ -594,3 +594,4 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 
 - 15/11/2026 (conta Leandro): o plano para investidor é da EMPRESA INTEIRA do Lindson ("não é só pro negócio de pizza, é pra tudo"), não de uma unidade só.
 - **15/11/2026 (conta Zuleide), PRONÚNCIA:** na narração, "Real Time" se fala **"Réal Táime"** (inglês). No texto do TTS escrever foneticamente "Riál Táime"/"Real Taime" para a voz não ler "real time" em português. Vídeos RT 01-03 refeitos.
+- **15/11/2026 (conta Zuleide) · Pronúncia da Real Time:** "a pronúncia certa é REAL TAIME". No TTS, "Riál Táime". Os 3 Reels do Drive foram refeitos.

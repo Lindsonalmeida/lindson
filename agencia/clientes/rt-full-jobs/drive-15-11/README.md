@@ -4,3 +4,6 @@ Pedido: "Existem vídeos prontos só pra colocar lettering e voz. Não mexer em 
 - `zips/`: 4 zips do WhatsApp, extraídos em `zips/crus/` (36 fotos e 21 vídeos), fora do Git. Análise em `ANALISE.md`.
 - `motor/`: `render.py` + `roteiros.json`. Põem o lettering na identidade v1 (Geist, Preto Set, Azul Real e o ponto REC) e a voz Antonio +4%, mixada com o áudio original por ducking. Os cortes não mudam.
 - `finais/`: os mp4 1080x1920 e as capas, fora do Git e também no painel /painel/rt. Legendas em `LEGENDAS.md`.
+
+## Pronúncia da marca (Lindson, 15/11/2026)
+Na narração, a marca se diz **"REAL TAIME"** (como o inglês "real time"). No texto do TTS, escreva **"Riál Táime"**; na tela continua "Real Time". Conferido no Whisper.

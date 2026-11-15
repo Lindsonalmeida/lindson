@@ -44,3 +44,6 @@ Os dois PDFs do cliente (texto completo junto) estão no repositório **privado*
 
 ## Falta receber do Lindson
 O que foi contratado (serviços e plano), contato do responsável, identidade/manual da marca e logo em alta, fotos e vídeos, objetivos e público, cidade e endereço do estúdio, preços que podem ser divulgados (se houver) e prazos.
+
+## Pronúncia da marca (Lindson, 15/11/2026)
+Na narração, a marca se diz **"REAL TAIME"** (como o inglês "real time"). No texto do TTS, escreva **"Riál Táime"**; na tela continua "Real Time". Conferido no Whisper.
