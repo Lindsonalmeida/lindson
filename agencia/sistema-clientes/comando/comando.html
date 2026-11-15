@@ -1757,49 +1757,12 @@ function contadores() {
 // ---------- 06 · Tarefas feitas (pedido do Lindson, 10/11: "quadro de tarefas feitas, por cliente, data e hora e atividade") ----------
 const SEMENTE = [['tribuna', 'Refazer capas de Reels'], ['tribuna', 'Fotos do perfil'], ['tribuna', 'Site principal'], ['tribuna', 'Bio site'], ['oregano', 'Criei o Instagram'], ['oregano', 'Criei a identidade visual'],
   ['rt', 'Agendei duas semanas de conteúdo'], ['sf', 'Adicionei saldo na campanha e fiz a campanha'], ['sf', 'Criei cards'], ['sf', 'Criei criativos']];
-// tarefas de 14/11 (pedido do Lindson em 15/11: "adicione ao quadro no painel, por cliente, dia e hora"); horário de São Luís
-const SEMENTE_1411 = [
-  ["13:08", "sf", "Resumo de tudo sobre a SF (todas as contas) e número novo (98) 92010-5710", "Lindson"],
-  ["13:29", "leo", "Motor das 10 saudações animadas para Stories", "Lindson"],
-  ["13:31", "sf", "Prompts de 4 vídeos de 40 s para o Gemini", "Lindson"],
-  ["13:47", "sf", "4 vídeos de 40 s gerados e montados (v1)", "Lindson"],
-  ["14:05", "sf", "Mensagens de prospecção para restaurantes", "Lindson"],
-  ["14:07", "outro", "Raposa e Leão: Shorts 31 a 40 (roteiros, capas, publicar)", "Leandro"],
-  ["14:10", "oregano", "Site no ar em oreganoturbo.pages.dev", "Zuleide"],
-  ["14:18", "sf", "Vídeos v2 com narração pt-BR, logo e legendas", "Lindson"],
-  ["14:37", "outro", "Raposa e Leão: Shorts 31 a 40 revisados (Maquiavel + Social)", "Leandro"],
-  ["14:58", "sf", "Vídeos v3 com uniforme e logo original", "Lindson"],
-  ["14:59", "outro", "Raposa e Leão: Shorts 31 a 40 com vídeo, capa e agenda na Central", "Leandro"],
-  ["15:16", "jaci", "5 criativos premium de Black Friday", "Lindson"],
-  ["15:42", "leo", "Saudações animadas refeitas: recorte limpo e foto grande", "Lindson"],
-  ["15:43", "oregano", "21 Reels da semana 1 renderizados, com capas e prévia", "Zuleide"],
-  ["15:54", "sf", "Vídeos v4 sem travar, voz sincronizada", "Lindson"],
-  ["16:21", "sf", "Vídeos v5 só narrador; vídeo 2 aprovado", "Lindson"],
-  ["16:48", "sf", "4 vídeos refeitos do zero (v6)", "Lindson"],
-  ["17:00", "sf", "Identidade visual com fardamento completo, frota e manual (14 p.)", "Lindson"],
-  ["17:22", "sf", "4 vídeos com personagens falando (avatar)", "Lindson"],
-  ["17:52", "sf", "4 vídeos novos (condomínio, padaria, apartamento, calha) com logo fixa", "Lindson"],
-  ["18:00", "sf", "4 roteiros só de caixa de gordura (social media)", "Lindson"],
-  ["18:41", "oregano", "21 Reels no painel do Orégano", "Zuleide"],
-  ["18:54", "sf", "5 criativos em motion (vaso, ralo, caixa de gordura)", "Zuleide"],
-  ["19:00", "sf", "4 carrosséis educativos sobre entupimento com legendas SEO", "Lindson"],
-  ["19:01", "outro", "Batismo: vídeos do Pedrão e da esposa (com e sem música)", "Lindson"],
-  ["19:05", "outro", "Raposa e Leão: longos 17 a 21 (roteiros, SEO, capas A/B/C)", "Leandro"],
-  ["19:23", "sf", "Branding book (22 p.) e logo original na farda e na frota", "Lindson"],
-  ["19:30", "marca", "Linhas editoriais Papo de Dono e Provedor: 4 posts e 4 carrosséis", "Leandro"],
-  ["19:32", "outro", "Raposa e Leão: Manual de Campo, isca e página de venda", "Pedro"],
-  ["19:37", "sf", "Logo em alta, versões vetoriais e manual da logo (16 p.)", "Lindson"],
-  ["19:54", "sf", "Motion v2 com número do site", "Zuleide"],
-  ["19:58", "marca", "Linha Provedor v2 aprovada como direção", "Leandro"],
-  ["20:10", "outro", "Central: Painel Financeiro do admin", "Lindson"],
-  ["20:23", "marca", "Linha Provedor v3: fundos de liderança, 28 imagens sem repetir", "Leandro"]];
 async function semente() { // o Lindson mandou as de 09/11 sem hora; entra uma vez só (marcador semente-0911)
   // auditoria 10/11: confere item por item (id), não só o marcador; se faltar algum dos 10, repõe só o que falta
   if (!S.feitas.ok) return;
   const falta = d => SEMENTE.map(([cli, atividade], i) => ({ id: 'semente-0911-' + (i + 1), data: '2026-11-09', hora: '', cli, atividade, por: 'Lindson', origem: 'lindson', em: agora() })).filter(x => !(d.itens || []).some(y => y.id === x.id) && !(d.apagadas || []).includes(x.id));
-  const falta2 = d => SEMENTE_1411.map(([hora, cli, atividade, por], i) => ({ id: 'semente-1411-' + (i + 1), data: '2026-11-14', hora, cli, atividade, por, origem: 'conta', em: agora() })).filter(x => !(d.itens || []).some(y => y.id === x.id) && !(d.apagadas || []).includes(x.id));
-  if (!falta(S.feitas.d).length && !falta2(S.feitas.d).length) return;
-  await muda('feitas', d => { d.sementes = [...new Set((d.sementes || []).concat(['semente-0911', 'semente-1411']))]; d.itens = (d.itens || []).concat(falta(d), falta2(d)); });
+  if (!falta(S.feitas.d).length) return;
+  await muda('feitas', d => { d.sementes = [...new Set((d.sementes || []).concat(['semente-0911']))]; d.itens = (d.itens || []).concat(falta(d)); });
 }
 const hojeSLZ = (dias = 0) => new Date(Date.now() - 3 * 36e5 - dias * 864e5).toISOString().slice(0, 10);
 const horaSLZ = () => new Date(Date.now() - 3 * 36e5).toISOString().slice(11, 16);
