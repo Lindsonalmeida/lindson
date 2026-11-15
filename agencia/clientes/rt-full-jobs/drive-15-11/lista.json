@@ -1,0 +1,40 @@
+warning: `--json` is in beta and its output format may change in a future release
+warning: `--folder` is no longer required for folder URLs and will be removed in a future release
+[
+  {
+    "url": "https://drive.google.com/uc?id=1j0rQdUTs0AT1rLSVpZpFB0X4Hz4RvYwC",
+    "path": "IMG_5543 (1).MP4"
+  },
+  {
+    "url": "https://drive.google.com/uc?id=1p4gP4X5-iS4JfHm8lmVp4zIBRJe3R3lL",
+    "path": "IMG_5543.MP4"
+  },
+  {
+    "url": "https://drive.google.com/uc?id=1GZ1SDQJCgqTO4GgwzxaEO23Ae-tOvJTG",
+    "path": "IMG_5704.MP4"
+  },
+  {
+    "url": "https://drive.google.com/uc?id=1xVsrcxQn4QW9nvNRpcvIA3NYMITPMzNs",
+    "path": "IMG_6031 (1).MOV"
+  },
+  {
+    "url": "https://drive.google.com/uc?id=1Ba84c6ZSxwdyjRHZnW4cTTST6ubOSR9J",
+    "path": "IMG_6031.MOV"
+  },
+  {
+    "url": "https://drive.google.com/uc?id=101LrfMUzMSKFtVoo6IIrVTRkpk6R9Fz0",
+    "path": "WhatsApp Unknown 2026-11-15 at 13.56.40.zip"
+  },
+  {
+    "url": "https://drive.google.com/uc?id=1_w1RIq0sLIYz1YZp4NDO-TobcoH-5OfU",
+    "path": "WhatsApp Unknown 2026-11-15 at 13.56.48.zip"
+  },
+  {
+    "url": "https://drive.google.com/uc?id=1GEo_EWtM8ynOAnqD8Gv72zo45mtnQOA7",
+    "path": "WhatsApp Unknown 2026-11-15 at 13.57.27.zip"
+  },
+  {
+    "url": "https://drive.google.com/uc?id=1gyJ74ulmg6z4O5ItJlKfMwvR8MNV038U",
+    "path": "WhatsApp Unknown 2026-11-15 at 13.57.46.zip"
+  }
+]
