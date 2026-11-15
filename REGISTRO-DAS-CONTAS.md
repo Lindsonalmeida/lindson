@@ -235,3 +235,4 @@ Levantado pela conta Lindson em 01/11/2026 a partir do histórico do git e dos a
 | 15/11/2026 | Leandro | Orégano Turbo: criativos v2 (mais fome, mais fotos, fundo escuro) [14:38] | `agencia/operacao-propria/criativos-trafego/pecas-v2/` + painel/oregano/criativos/v2/ | aguardando aprovação |
 
 | 15/11/2026 | Leandro | Orégano Turbo: 21 Reels no app de postagem /painel/canais#oregano (título Shorts, legenda SEO, capa, vídeo para baixar, marcar postado) + Entregas do /painel/oregano com Abrir/Baixar (Reels, criativos v2, YouTube) [14:55]. ATENÇÃO montar-canais.py: manter o <script src="/painel/canais/oregano.js"> e a aba Orégano do canais.html | privado painel/canais/oregano.js | pronto |
+| 15/11/2026 | Leandro | Correção: os Reels da Orégano saíram do app dos canais (admin) e foram para "Postagens prontas" no painel DO CLIENTE /painel/oregano#postagens [14:57] | privado painel/oregano.html (bloco Postagens prontas no fim) | pronto |

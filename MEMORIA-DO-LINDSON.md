@@ -464,3 +464,5 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 - 15/11/2026 (conta Leandro): Orégano, criativos de anúncio v1 REPROVADOS ("quero mais fome, mais imagens, menos cor e fundo sem nada"; "compare com o público"). Padrão para anúncio da Orégano: pizza grande e de perto como protagonista, várias fotos, fundo escuro ou foto (nunca cor chapada nem área lisa), cor da marca só em detalhe, e cada peça conferida contra a persona do dono de pizzaria.
 
 - 15/11/2026 (conta Leandro): APROVADOS os criativos v2 da Orégano ("perfeito, isso sim é premium"). Padrão premium de anúncio de comida: pizza grande e de perto, várias fotos, fundo escuro/foto, cor só em detalhe, conferido com a persona. `agencia/operacao-propria/criativos-trafego/pecas-v2/`.
+
+- 15/11/2026 (conta Leandro): "não é na minha, é na do cliente". Conteúdo pronto para postar de um cliente vai no painel DO CLIENTE (aba Postagens prontas), não no admin.
