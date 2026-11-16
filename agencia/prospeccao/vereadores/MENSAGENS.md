@@ -31,3 +31,19 @@ Quer que eu te mande como funciona?
 Vereador [Nome], o Thiago Azevedo, do Tribuna 98, me passou seu contato.
 Monto e gerencio as redes do seu mandato, do roteiro ao post.
 Te mando os detalhes?
+
+## v4 (Lindson: "não precisa falar de mandato, só dos serviços")
+**V1**
+Vereador [Nome], sou o Lindson. O Thiago Azevedo, do Tribuna 98, me passou seu contato.
+Faço gestão de Instagram, vídeos, artes e sites.
+Posso te mandar uma proposta?
+
+**V2**
+Vereador [Nome], Lindson aqui, indicação do Thiago Azevedo (Tribuna 98).
+Trabalho com redes sociais, produção de vídeo, design e site.
+Quer que eu te mande como funciona?
+
+**V3**
+Vereador [Nome], o Thiago Azevedo, do Tribuna 98, me passou seu contato.
+Cuido de Instagram, vídeos, identidade visual e site, do roteiro à postagem.
+Te mando os detalhes?
