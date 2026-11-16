@@ -1,0 +1,4 @@
+Fontes livres (licença OFL, Google Fonts):
+- Instrument Serif: https://fonts.google.com/specimen/Instrument+Serif
+- Inter Tight: https://fonts.google.com/specimen/Inter+Tight
+- JetBrains Mono: https://fonts.google.com/specimen/JetBrains+Mono

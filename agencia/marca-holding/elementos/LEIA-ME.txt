@@ -1,0 +1,10 @@
+AL KÁNTARA GROUP · kit de elementos de marca v1.0 (16/11/2026)
+logos/svg  vetores com texto em curvas (positivo, negativo, bronze, mono preto, mono branco; símbolo, logotipo, horizontal, vertical, endosso)
+logos/png  as mesmas versões em PNG transparente (4x)
+paleta     paleta.json e alkantara.ase (Adobe)
+fontes     links das 3 fontes livres
+padroes    Ressonância, Viaduto e Tabuleiro (SVG)
+icones     12 ícones lineares (SVG, traço 2)
+templates  posts 1080x1350 (PNG) e slides 16:9 de apresentação
+mockups    cartão, timbrado, e-mail, apresentação, Instagram, site, crachá, fachada, endosso
+Regras completas: alkantara-manual-de-marca.pdf
