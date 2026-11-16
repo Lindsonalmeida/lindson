@@ -1,0 +1,25 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contato · Al Kántara Group</title><meta name="description" content="Fale com a Al Kántara: WhatsApp e São Luís, MA."><meta property="og:title" content="Contato · Al Kántara Group"><meta property="og:description" content="Fale com a Al Kántara: WhatsApp e São Luís, MA.">
+<meta property="og:image" content="https://lindsonalmeida.pages.dev/alkantara/i/og.jpg"><meta name="theme-color" content="#0B0C0E">
+<link rel="icon" href="i/simbolo-latao.svg"><link rel="stylesheet" href="estilo.css"></head>
+<body class="escuro" style="--div:#B8955A"><div class="grao" aria-hidden="true"></div>
+<header class="topo"><a class="marca" href="index.html" aria-label="Al Kántara Group, início"><img src="i/horizontal-negativo.svg" alt="Al Kántara Group"></a>
+<nav class="menu" id="menu"><a href="labs.html">Labs</a><a href="studio.html">Studio</a><a href="media.html">Media</a><a href="ventures.html">Ventures</a><a href="cases.html">Cases</a><a href="sobre.html">Sobre</a></nav><a class="pilula" href="contato.html">Conversar</a>
+<button class="abre" aria-label="Abrir menu" onclick="document.body.classList.toggle('aberto')"><i></i><i></i></button></header>
+<main>
+<section class="hero hero-p"><div class="hero-t"><p class="mono">CONTATO</p><h1 class="h-xl"><span class="lin">Uma conversa,</span><span class="lin it">30 minutos.</span></h1>
+<p class="lead">Conte o que você quer construir. Respondemos com franqueza se e como podemos ajudar, e com qual divisão.</p></div></section>
+<section class="sec"><div class="contato">
+<form class="form" id="form" onsubmit="return enviar(event)"><label>Seu nome<input name="nome" required autocomplete="name"></label>
+<label>Empresa<input name="empresa" autocomplete="organization"></label>
+<label>Assunto<select name="div"><option>Labs · IA e software</option><option>Studio · Marca, design e vendas</option><option>Media · Anunciar nos canais</option><option>Ventures · Parceria e investimento</option><option>Outro assunto</option></select></label>
+<label>Em poucas palavras<textarea name="msg" rows="4" required></textarea></label>
+<button class="btn" type="submit">Enviar pelo WhatsApp</button><p class="mono pe">Abre o WhatsApp com a mensagem pronta. Nada é guardado neste site.</p></form>
+<div class="dados"><div><p class="mono">WHATSAPP</p><a class="h-m" href="https://wa.me/5598985621808?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Al%20K%C3%A1ntara." target="_blank" rel="noopener">(98) 98562-1808</a></div>
+<div><p class="mono">ONDE</p><p class="h-m">São Luís, Maranhão</p></div><div><p class="mono">INSTAGRAM</p><a class="h-m" href="https://instagram.com/lindsonalmeida_" target="_blank" rel="noopener">@lindsonalmeida_</a></div></div></div></section>
+<script>function enviar(e){e.preventDefault();const f=new FormData(e.target);const t=`Olá! Sou ${f.get('nome')}${f.get('empresa')?' ('+f.get('empresa')+')':''}. Assunto: ${f.get('div')}. ${f.get('msg')}`;window.open('https://wa.me/5598985621808?text='+encodeURIComponent(t),'_blank');return false}</script></main>
+<footer class="rodape"><div class="rod-g"><div><p class="mono">AL KÁNTARA GROUP · SÃO LUÍS, MA</p><p class="serif-m">Estrutura para o que vem.</p></div>
+<div class="rod-l"><a href="labs.html">Labs</a><a href="studio.html">Studio</a><a href="media.html">Media</a><a href="ventures.html">Ventures</a></div>
+<div class="rod-l"><a href="cases.html">Cases</a><a href="sobre.html">Sobre</a><a href="contato.html">Contato</a><a href="https://wa.me/5598985621808?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Al%20K%C3%A1ntara." target="_blank" rel="noopener">WhatsApp</a></div></div>
+<div class="gigante" aria-hidden="true">Al Kántara</div><p class="mono pe">© 2026 Al Kántara Group · Quatro pedras, uma chave.</p></footer>
+<script src="movimento.js" defer></script></body></html>
