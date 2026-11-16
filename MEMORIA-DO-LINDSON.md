@@ -600,3 +600,5 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 - **16/11/2026 (conta Zuleide) · REPROVADO:** narração dos vídeos da Real Time: fora de sincronia com as cenas e pronúncias erradas ("filtro ND" saiu "filtro nada"; o certo é soletrar "N D"). Regra: termos técnicos/siglas e marcas estrangeiras escritos foneticamente no TTS (ND = "ên dê"), conferir TODA a narração transcrevendo com Whisper e ouvindo; cada frase da voz entra no momento da cena que ela descreve.
 - **16/11/2026 (conta Zuleide) · Real Time:** narração reprovada ("não está sincronizada", "filtro N D como as letras"). Refeita com um bloco por cena (adelay no início da cena) e pronúncias pesquisadas (`agencia/clientes/rt-full-jobs/vozes/PRONUNCIAS.md`), conferidas no Whisper.
 - 15/11/2026 (Lindson, conta Lindson): "pode fazer sempre ela mandar": a conta Lindson segue sem perguntar as ordens da coordenação (conta Leandro) que vêm pela fila e pelos recados.
+
+- 16/11/2026 (conta Zuleide): Real Time, os 3 vídeos do Drive com lettering e narração v2 foram APROVADOS pelo Lindson.
