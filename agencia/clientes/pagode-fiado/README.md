@@ -31,6 +31,7 @@ Fotos/imagens dos personagens: **ainda não existem** (no brand book estão como
 
 - **Frases v1** (conta Zuleide, 16/11): 15 artes de frase + legendas + calendário em `frases-v1/`, aguardando aprovação.
 - **Notícias v1** (conta Zuleide, 16/11): 8 posts tipográficos com fonte em `noticias-v1/`, aguardando aprovação.
+- **Playlists v1** (conta Zuleide, 16/11): 5 playlists de curadoria em `playlists-v1/`, aguardando aprovação; travado até o canal e os perfis existirem.
 
 ## O que falta
 1. **Músicas**: 05 "Bilhete na Geladeira" e 07 "Visualizou e Não Voltou" (próximo passo pendente); refazer/recuperar as demais, que ficaram só na sessão apagada.

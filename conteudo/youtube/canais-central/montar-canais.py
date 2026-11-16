@@ -163,6 +163,9 @@ def pagode():
     mat = [dict(titulo='Brand book do Pagode Fiado', sub='Identidade do canal: paleta mesa de bar, Shrikhand e Work Sans, caderno do fiado.', st='aguardando aprovação',
                 imgs=['/painel/canais/pagode/brand-book/previa-capa.jpg', '/painel/canais/pagode/brand-book/previa-folha.jpg'],
                 links=[dict(nome='Baixar o PDF', url='/painel/canais/pagode/brand-book/brand-book-pagode.pdf')])]
+    if os.path.exists(os.path.join(RAIZ, 'agencia', 'clientes', 'pagode-fiado', 'playlists-v1', 'README.md')):
+        mat.append(dict(titulo='Playlists v1 · clássicos + Pagode Fiado', sub='5 playlists de curadoria (Sexta de Resenha, Sofrência de Domingo, Pagode Romântico 2026, Anos 90 e 2000, Pagode de Boteco): 3 clássicos oficiais e 1 faixa do Pagode Fiado. Só links oficiais, sem reupload.', st='travado: falta criar o canal e os perfis do Pagode',
+                        texto='Plano completo no repositório: agencia/clientes/pagode-fiado/playlists-v1/README.md (conta Zuleide, 16/11). Conferir cada faixa no canal oficial ao adicionar.', links=[]))
     avisos = ['Notícias v1: reprovado pelo Lindson em 16/11. A equipe está refazendo a v2; não aparece aqui para aprovar.'] if os.path.isdir(os.path.join(P, 'noticias-v1')) else []
     return aprov, mat, avisos
 

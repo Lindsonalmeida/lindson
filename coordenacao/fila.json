@@ -699,11 +699,11 @@
    "cli": "pagode",
    "tarefa": "Playlist com cantores famosos",
    "equipe": "Zuleide",
-   "status": "andamento",
-   "nota": "",
+   "status": "travado",
+   "nota": "Plano pronto (playlists-v1/README.md, aguardando aprovação). Travado: falta criar o canal YouTube e os perfis Spotify/Deezer do Pagode e publicar as faixas.",
    "partes": [],
    "pegou": "Zuleide",
-   "atualizado": "2026-11-16 11:05",
+   "atualizado": "2026-11-16 12:10",
    "recebido": ""
   },
   {
