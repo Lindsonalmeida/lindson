@@ -237,3 +237,10 @@ body{font-size:14.5px;letter-spacing:-.005em}
 .counter .btns{grid-template-columns:repeat(4,1fr)!important}
 .counter .btns button{text-align:center}
 @media (min-width:980px){.r9-dir .counter-top{flex-direction:column-reverse;align-items:flex-start!important}}
+.tabs{display:flex!important;flex-wrap:nowrap}
+.tabs button{flex:none!important;min-width:max-content}
+@media (max-width:979px){.tabs button{padding:15px 11px 14px!important}}
+.score,.counter,.pq-top,.fbig,.sim,.form,.dsp-card,.dsp-end{border-radius:0!important}
+.em-box summary b{font:500 15px/1.2 var(--f-body)!important}
+.empty{border-radius:4px!important;border-color:var(--line-2)!important}
+.tabs .btn:hover,.counter .btns .btn:hover{transform:none!important}
