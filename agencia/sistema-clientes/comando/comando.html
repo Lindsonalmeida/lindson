@@ -3,13 +3,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0B0B0B">
-<title>Central de Comando · VEKTOR</title>
+<title>VEKTOR</title>
 <link rel="preload" as="image" href="/painel/comando/media/hero-d.jpg" media="(min-width:761px)">
 <link rel="preload" as="image" href="/painel/comando/media/hero-m.jpg" media="(max-width:760px)">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=JetBrains+Mono:wght@400;500;700&family=Manrope:wght@400;500;600;700;800&display=swap">
 <style>
-/* Central de Comando v3 · "estação de comando" com o VEKTOR do Lindson (conta Leandro, 09/11/2026). Fonte: agencia/sistema-clientes/comando/ (repositório lindson).
+/* VEKTOR v3 · "estação de comando" com o VEKTOR do Lindson (conta Leandro, 09/11/2026). Fonte: agencia/sistema-clientes/comando/ (repositório lindson).
    Referências (TEMPLATE.md): Igloo Inc/abeto (camadas e HUD em profundidade, Awwwards SOTY 2024), Teenage Engineering OP-1 (teclas de equipamento),
    Lando Norris/OFF+BRAND (vídeo cheio + tipografia gigante + rolagem que revela, Awwwards SOTD). Um lugar só: o Lindson não abre outra página. */
 :root{
@@ -492,7 +492,7 @@ input.campo{width:100%;background:#0E0D0A;border:1px solid #2B2B28;color:var(--t
 <div class="grao" aria-hidden="true"></div>
 
 <nav class="trilho" aria-label="Seções">
-  <a class="marca" href="#comando" title="Central de Comando">LA</a>
+  <a class="marca" href="#comando" title="VEKTOR">LA</a>
   <div class="nos">
     <a href="#comando" data-sec="comando">01<span>Comando</span></a>
     <a href="#fila" data-sec="fila">02<span>Fila ao vivo</span><i data-n="esperando"></i></a>
@@ -533,7 +533,7 @@ input.campo{width:100%;background:#0E0D0A;border:1px solid #2B2B28;color:var(--t
       <div class="d3" style="right:calc(var(--gut) + 10px);top:46%;writing-mode:vertical-rl">VOZ PT-BR · 48 kHz · ● ESCUTA</div>
     </div>
     <div class="camada h-titulo" data-z="-5" data-sz=".14">
-      <div class="sobre"><span class="rec-dot"></span> Central de Comando · Lindson Almeida</div>
+      <div class="sobre"><span class="rec-dot"></span> VEKTOR · Lindson Almeida</div>
       <h1><span class="l"><span>Uma voz.</span></span><span class="l"><span><span class="caixa">Quatro</span> contas.</span></span></h1>
       <p>O VEKTOR está ouvindo. Diga “Vektor” e fale normalmente: ele responde, lembra o assunto e, quando for trabalho, pergunta se pode mandar para a fila. A equipe escolhe quem faz e entrega aqui.</p>
     </div>
@@ -634,8 +634,8 @@ input.campo{width:100%;background:#0E0D0A;border:1px solid #2B2B28;color:var(--t
     <div class="config" id="config" data-rv></div>
   </section>
 
-  <footer class="rodape" aria-hidden="true"><div class="trilha"><span>Lindson <b>Almeida</b> · Central de Comando · </span><span>Lindson <b>Almeida</b> · Central de Comando · </span></div>
-    <p>Vídeo de fundo: Mixkit (licença livre) · Central de Comando v2 · conta Leandro</p></footer>
+  <footer class="rodape" aria-hidden="true"><div class="trilha"><span>Lindson <b>Almeida</b> · VEKTOR · </span><span>Lindson <b>Almeida</b> · VEKTOR · </span></div>
+    <p>Vídeo de fundo: Mixkit (licença livre) · VEKTOR v2 · conta Leandro</p></footer>
 </main>
 
 <nav class="dock" aria-label="Seções">
@@ -654,7 +654,7 @@ input.campo{width:100%;background:#0E0D0A;border:1px solid #2B2B28;color:var(--t
 <!--ESTADO-->
 <script src="/painel/comando/voz/voz.js"></script>
 <script>
-/* ===== Central de Comando v2 · lógica (conta Leandro, 09/11/2026) =====
+/* ===== VEKTOR v2 · lógica (conta Leandro, 09/11/2026) =====
    Fila:   /api/dados?cli=admin&f=ped → {dados:{itens:[{id,cli,func,texto,st,designada,motivo,conta,link,midia,resumo,conversa,esperando,partes,mae,...}]},versao}
    Equipe: /api/dados?cli=admin&f=eq  → {dados:{contas:{Nome:{estado,ate,tarefa,em,batida}},hist:[],perfil:{}},versao}
    Aprovações dos clientes: /api/dados?cli=<cli>&f=aprov (mesmo formato dos painéis: {titulo, st, em, nota}).
@@ -1632,7 +1632,7 @@ function aneis() {
   h += `<g class="an a2"><circle cx="300" cy="300" r="268" fill="none" stroke="rgba(245,197,24,.55)" stroke-width="1.4" stroke-dasharray="120 18 6 18 40 60"/></g>`;
   h += `<g class="an a3"><circle cx="300" cy="300" r="246" fill="none" stroke="rgba(255,159,28,.35)" stroke-width="7" stroke-dasharray="2 9"/></g>`;
   h += `<g class="an a4"><path d="M300 76 A224 224 0 0 1 524 300" fill="none" stroke="#F5C518" stroke-width="2.4"/><path d="M300 524 A224 224 0 0 1 76 300" fill="none" stroke="#F5C518" stroke-width="2.4"/><circle cx="300" cy="300" r="224" fill="none" stroke="rgba(242,238,227,.12)"/></g>`;
-  h += `<defs><path id="txt-anel" d="M300,300 m-206,0 a206,206 0 1,1 412,0 a206,206 0 1,1 -412,0"/></defs><g class="an a5"><text font-family="JetBrains Mono" font-size="11" letter-spacing="5" fill="rgba(245,197,24,.7)"><textPath href="#txt-anel">VEKTOR · GERENTE DA EQUIPE · CENTRAL DE COMANDO · LINDSON ALMEIDA · ESCUTA ATIVA · </textPath></text></g>`;
+  h += `<defs><path id="txt-anel" d="M300,300 m-206,0 a206,206 0 1,1 412,0 a206,206 0 1,1 -412,0"/></defs><g class="an a5"><text font-family="JetBrains Mono" font-size="11" letter-spacing="5" fill="rgba(245,197,24,.7)"><textPath href="#txt-anel">VEKTOR · GERENTE DA EQUIPE · VEKTOR · LINDSON ALMEIDA · ESCUTA ATIVA · </textPath></text></g>`;
   s.innerHTML = h;
 }
 function orbita() {
@@ -1765,7 +1765,7 @@ function pintaEquipe() {
 }
 
 // ---------- 05 · configurar contas ----------
-const promptConta = c => `Sou o Lindson. Configure esta conta (${c}) UMA VEZ para trabalhar só pela Central de Comando (a página onde eu peço tudo; a voz dela é o VEKTOR, o gerente da equipe).
+const promptConta = c => `Sou o Lindson. Configure esta conta (${c}) UMA VEZ para trabalhar só pela VEKTOR (a página onde eu peço tudo; a voz dela é o VEKTOR, o gerente da equipe).
 1. No repositório Lindsonalmeida/lindson (branch claude/global-agent-installation-vdyowf), leia agencia/sistema-clientes/comando/PROTOCOLO-CONTAS.md.
 2. Se esta conta ainda não tem a credencial de rede de lindsonalmeida.pages.dev (cabeçalho Authorization: Bearer), peça com request_credential. Nunca escreva o token em arquivo ou na conversa.
 3. Crie uma tarefa agendada de hora em hora, com sessão nova a cada disparo e este repositório, chamada "Central · ${c}", com este prompt:
@@ -1786,7 +1786,7 @@ function contadores() {
   $('#d-ent').textContent = Object.values(E.entregas_semana || {}).reduce((a, b) => a + b, 0);
   const f = `<span>Fila ${String(ab).padStart(2, '0')}<em>●</em></span><span>Esperando você ${String(n).padStart(2, '0')}<em>●</em></span><span>Entregas na semana ${Object.values(E.entregas_semana || {}).reduce((a, b) => a + b, 0)}<em>●</em></span>${(E.placar || []).map(p => `<span>${esc(p.nome)} ${p.pct}%<em>●</em></span>`).join('')}<span>Contas livres ${CONTAS.filter(c => estadoReal(EQ().contas[c], Date.now()).disponivel).length}/4<em>●</em></span>`;
   $('#faixa').innerHTML = f + f;
-  document.title = (n ? `(${n}) ` : '') + 'Central de Comando';
+  document.title = (n ? `(${n}) ` : '') + 'VEKTOR';
 }
 // ---------- 06 · Tarefas feitas (pedido do Lindson, 10/11: "quadro de tarefas feitas, por cliente, data e hora e atividade") ----------
 const SEMENTE = [['tribuna', 'Refazer capas de Reels'], ['tribuna', 'Fotos do perfil'], ['tribuna', 'Site principal'], ['tribuna', 'Bio site'], ['oregano', 'Criei o Instagram'], ['oregano', 'Criei a identidade visual'],

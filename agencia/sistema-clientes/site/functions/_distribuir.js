@@ -1,4 +1,4 @@
-// Distribuidor da Central de Comando (conta Leandro, 09/11/2026). "Você vai ver qual conta está disponível e enviar o trabalho
+// Distribuidor da VEKTOR (conta Leandro, 09/11/2026). "Você vai ver qual conta está disponível e enviar o trabalho
 // pra elas, escolhendo internamente, como um time de trabalho" (Lindson). O mesmo código roda no servidor (GET /api/automacao?fila=ped)
 // e na página /painel/comando (o montar-comando.py cola este arquivo nela). Regras, nesta ordem:
 //  a) só contas 🟢 trabalhando ou ⚪ livre, com batida da tarefa horária nas últimas 2 h; nunca conta esgotada;

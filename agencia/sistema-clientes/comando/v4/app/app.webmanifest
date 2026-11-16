@@ -1,7 +1,7 @@
 {
-  "name": "Central de Comando · VEKTOR",
+  "name": "VEKTOR",
   "short_name": "VEKTOR",
-  "description": "Central de Comando do Lindson Almeida",
+  "description": "VEKTOR do Lindson Almeida",
   "start_url": "/painel/comando",
   "scope": "/painel/comando",
   "display": "standalone",

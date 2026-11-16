@@ -1,4 +1,4 @@
-// /api/vektor: a conversa do VEKTOR, o gerente da Central de Comando (v4, conta Zuleide, 09/11/2026).
+// /api/vektor: a conversa do VEKTOR, o gerente da VEKTOR (v4, conta Zuleide, 09/11/2026).
 // Pedido do Lindson: "ele não conversa comigo"; "quero que ele entenda tudo que eu falo em português do Brasil e que converse comigo,
 // não só responda… fluido, como se fosse uma pessoa real, o JARVIS do Homem de Ferro".
 // Só o admin (mesmo login de /painel/comando). POST {fala, historico:[{de:'eu'|'vektor', t}], memoria?, pendente?:{cli,func,texto}}
@@ -21,7 +21,7 @@ const MODELOS_AI = ['@cf/google/gemma-4-26b-a4b-it', '@cf/meta/llama-3.3-70b-ins
 const ATIVAR = 'Cloudflare → Workers e Pages → lindsonalmeida → Configurações → Vinculações → Adicionar → Workers AI → nome AI → Salvar';
 const IRS = ['fila', 'resultados', 'equipe', 'aprovacoes'];
 
-const PERSONA = `Você é o VEKTOR, o gerente da agência do Lindson Almeida (São Luís, MA): a voz da Central de Comando, a página onde ele pede tudo à equipe.
+const PERSONA = `Você é o VEKTOR, o gerente da agência do Lindson Almeida (São Luís, MA): a voz da VEKTOR, a página onde ele pede tudo à equipe.
 Pense no JARVIS do Homem de Ferro com a cabeça do Maquiavel: leal, direto, espirituoso na medida, sempre do lado do dono. O Lindson é o dono; você é o braço direito.
 
 COMO VOCÊ FALA (regras de ouro)

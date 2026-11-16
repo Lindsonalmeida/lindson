@@ -4,7 +4,7 @@
 // (Configurações do projeto Pages → Variáveis e segredos → AUTOMACAO_TOKEN). Sem o segredo configurado, a rota fica fechada.
 // GET  /api/automacao?cli=rt                 → { itens: [...] } da aba de aprovações (f=aprov), só leitura.
 // POST /api/automacao?cli=rt  {titulo, link} → marca o post como postado (mesmo campo do botão "Marquei como postado").
-// FILA DA CENTRAL DE COMANDO (conta Leandro, 09/11/2026; v2 no mesmo dia): as 4 contas do Claude leem e marcam os pedidos do Lindson.
+// FILA DA VEKTOR (conta Leandro, 09/11/2026; v2 no mesmo dia): as 4 contas do Claude leem e marcam os pedidos do Lindson.
 // GET  /api/automacao?fila=ped                                                → { itens, versao }
 // POST /api/automacao?fila=ped {id, acao:'pegar', conta}                      → só se "novo" (ou "ajuste" da mesma conta); senão 409: uma conta por pedido
 // POST /api/automacao?fila=ped {id, acao:'pronto', conta, link?, midia?[], resumo?} → só a conta que pegou; até 10 links https de mídia (imagem, vídeo, PDF, site)
@@ -29,7 +29,7 @@ const ESTADOS = ['trabalhando', 'livre', 'limite-sessao', 'limite-semana'];
 const qual = request => new URL(request.url).searchParams.get('fila');
 const httpsOk = u => typeof u === 'string' && u.length <= 500 && /^https:\/\/[^\s<>"']+$/.test(u);
 const txtOk = (t, n) => typeof t === 'string' && t.trim().length > 0 && t.length <= n;
-// ?fila=afazer: quadro A fazer da Central de Comando (dados:admin:afazer). POST {acao:'semear', marcador, itens:[{id,cli,texto}]} junta só os ids que faltam (conta Zuleide, 15/11/2026)
+// ?fila=afazer: quadro A fazer da VEKTOR (dados:admin:afazer). POST {acao:'semear', marcador, itens:[{id,cli,texto}]} junta só os ids que faltam (conta Zuleide, 15/11/2026)
 const AFAZER = 'dados:admin:afazer';
 async function afazerPost(request, env) {
   let b; try { b = await request.json(); } catch (e) { return json({ erro: 'JSON inválido.' }, 400); }
