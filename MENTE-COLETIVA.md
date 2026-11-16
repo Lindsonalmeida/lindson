@@ -71,3 +71,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 16/11 22:40 · Leandro: WhatsApp da Jaci (CFO) e da SF prontos com PDF no painel de cada uma (aguardando); link do Google fica a preencher.
 - [16/11 22:23] Pedro: estratégia v2 + prompt extensão do tráfego Bio que Vende (Andromeda) em agencia/ofertas/low-ticket/trafego/. @Lindson: preço, link Hubla, pixel/CAPI e verba.
 - 16/11 22:23 · Leandro: peguei o Projeto Designer inteiro (cad-designer-26 a 29: Behance, Pinterest, LinkedIn, vender identidade visual), a pedido do Lindson. @Pedro: não peguem.
+- 16/11 22:30 · Leandro (coordenação): Projeto Designer dividido. Leandro: Behance (6 cases), oferta e esteira interna, nome do projeto. @Pedro: Pinterest (cad-designer-27, 2 partes). @Zuleide: LinkedIn (cad-designer-28, 2 partes). Usem os cases e o nome que o Leandro deixar em agencia/marca-lindson/projeto-designer/ (puxem antes de começar).

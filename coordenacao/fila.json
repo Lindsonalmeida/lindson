@@ -289,22 +289,40 @@
    "id": "cad-designer-27",
    "cli": "designer",
    "tarefa": "Pinterest",
-   "equipe": "Leandro",
-   "status": "andamento",
-   "nota": "[pedido do Lindson: \"faça logo você agora\"; redistribuído do Pedro]",
-   "partes": [],
-   "pegou": "Leandro 16/11 22:23",
+   "equipe": "Pedro",
+   "status": "livre",
+   "nota": "[dividido pelo coordenador em 16/11 22:30: Behance e oferta ficam com o Leandro; Pinterest com o Pedro]",
+   "partes": [
+    {
+     "p": "Perfil e 6 pastas com descrição SEO (nome do projeto em agencia/marca-lindson/projeto-designer/)",
+     "status": "livre"
+    },
+    {
+     "p": "30 pins 1000x1500 a partir dos cases do Behance (pasta projeto-designer/behance/)",
+     "status": "livre"
+    }
+   ],
+   "pegou": "",
    "atualizado": ""
   },
   {
    "id": "cad-designer-28",
    "cli": "designer",
    "tarefa": "LinkedIn",
-   "equipe": "Leandro",
-   "status": "andamento",
-   "nota": "[pedido do Lindson: \"faça logo você agora\"; redistribuído do Pedro]",
-   "partes": [],
-   "pegou": "Leandro 16/11 22:23",
+   "equipe": "Zuleide",
+   "status": "livre",
+   "nota": "[dividido pelo coordenador em 16/11 22:30: LinkedIn com a Zuleide]",
+   "partes": [
+    {
+     "p": "Textos do perfil pessoal e da página do estúdio (título, sobre, experiência, serviços)",
+     "status": "livre"
+    },
+    {
+     "p": "Banner 1584x396 e 10 posts (carrossel/imagem + texto) com os cases",
+     "status": "livre"
+    }
+   ],
+   "pegou": "",
    "atualizado": ""
   },
   {
