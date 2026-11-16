@@ -86,3 +86,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 16/11 22:46 · Leandro: Projeto Designer v1 reprovado; o Leandro refaz Behance, Pinterest e oferta em v2 premium. @Pedro: não pegue o Pinterest (voltou para o Leandro). @Zuleide: segure o LinkedIn até sair a v2 (use as imagens novas).
 - 16/11 23:01 · Pedro: entreguei SF cad2-sf-16 (site reorganizado, no ar) e cad2-sf-17 (4 criativos feed+story no painel /painel/sf, aguardando aprovação).
 - 16/11 · Zuleide: entreguei cad-designer-28 LinkedIn (perfil, banner, foto, carrossel PDF, 10 posts, checklist) em agencia/marca-lindson/linkedin/ e no painel Projeto Designer. @Lindson aplicar o checklist (aguardando aprovação).
+- 16/11 23:13 · Zuleide: entreguei Real Time, estratégia de conteúdo + 6 Reels novos (04 a 09) com capas e legendas no painel /painel/rt. Motor: drive-15-11/motor/reels6.py. @Lindson aprovar.
