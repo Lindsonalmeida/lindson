@@ -1,0 +1,273 @@
+{
+ "04-monte-o-kit": {
+  "tag": "MONTE O KIT COMIGO",
+  "trilha": "pop-track-03-108bpm.mp3",
+  "blocos": [
+   {
+    "fala": "Monta esse kit de cinema comigo!",
+    "letra": "Monte o kit comigo",
+    "vis": "V15"
+   },
+   {
+    "fala": "Primeiro, o tripé com cabeça fluida.",
+    "letra": "Tripé + cabeça fluida",
+    "vis": "V05"
+   },
+   {
+    "fala": "Em cima, a câmera Sony FX3, já montada na gaiola.",
+    "letra": "Sony FX3 com cage",
+    "vis": "V01"
+   },
+   {
+    "fala": "Agora, a lente de cinema DZOFilm VESPID.",
+    "letra": "Lente DZOFilm VESPID",
+    "vis": "V06"
+   },
+   {
+    "fala": "O monitor vai no topo, pra ver o quadro grande.",
+    "letra": "Monitor no topo",
+    "vis": "V12"
+   },
+   {
+    "fala": "Na frente, o matte box, pra controlar a luz.",
+    "letra": "Matte box",
+    "vis": "V16"
+   },
+   {
+    "fala": "Tudo conferido no estúdio.",
+    "letra": "Conferência final",
+    "vis": "V13"
+   },
+   {
+    "fala": "Kit montado e pronto pra gravar. Reserve na Real Time!",
+    "letra": "Reserve o kit",
+    "vis": "V11"
+   }
+  ]
+ },
+ "05-dia-de-job": {
+  "tag": "BASTIDOR · DIA DE JOB",
+  "trilha": "midnight-funk-117bpm.mp3",
+  "blocos": [
+   {
+    "fala": "Isso é um dia de job na Real Time!",
+    "letra": "Um dia de job",
+    "vis": "V04"
+   },
+   {
+    "fala": "O estúdio de fundo verde já está pronto.",
+    "letra": "Estúdio fundo verde",
+    "vis": "V05@0.5"
+   },
+   {
+    "fala": "A equipe chega e monta o set.",
+    "letra": "A equipe monta o set",
+    "vis": "V08"
+   },
+   {
+    "fala": "Câmera no tripé, todo mundo no lugar.",
+    "letra": "Câmera no lugar",
+    "vis": "V14"
+   },
+   {
+    "fala": "Teste de imagem direto no monitor.",
+    "letra": "Teste no monitor",
+    "vis": "V17@2"
+   },
+   {
+    "fala": "Cada detalhe conferido antes do REC.",
+    "letra": "Conferido antes do REC",
+    "vis": "V07"
+   },
+   {
+    "fala": "Tem fundo escuro também, pra mudar o clima.",
+    "letra": "Fundo escuro",
+    "vis": "V18"
+   },
+   {
+    "fala": "Seu próximo job pode ser aqui. Reserve na Real Time!",
+    "letra": "Reserve sua diária",
+    "vis": "V09"
+   }
+  ]
+ },
+ "06-unboxing": {
+  "tag": "UNBOXING · CHEGOU",
+  "trilha": "trap-electro-vibes-112bpm.mp3",
+  "blocos": [
+   {
+    "fala": "Chegou encomenda nova na Real Time!",
+    "letra": "Chegou encomenda nova",
+    "vis": "F33"
+   },
+   {
+    "fala": "Abre comigo!",
+    "letra": "Abre comigo",
+    "vis": "F27"
+   },
+   {
+    "fala": "Primeiro, uma maleta cheia de acessórios.",
+    "letra": "Acessórios do rig",
+    "vis": "F28"
+   },
+   {
+    "fala": "Agora, a maleta da DZOFilm.",
+    "letra": "Maleta DZOFilm",
+    "vis": "F20"
+   },
+   {
+    "fala": "São seis lentes VESPID Prime, de 18 a 105 milímetros.",
+    "letra": "VESPID Prime 2 · 18 a 105 mm",
+    "vis": "F14"
+   },
+   {
+    "fala": "Todas lado a lado.",
+    "letra": "Lado a lado",
+    "vis": "F15"
+   },
+   {
+    "fala": "E a surpresa: as anamórficas Arcana!",
+    "letra": "Anamórficas Arcana",
+    "vis": "F31"
+   },
+   {
+    "fala": "Já estão na prateleira. Reserve na Real Time!",
+    "letra": "Já na prateleira",
+    "vis": "V20"
+   }
+  ]
+ },
+ "07-qual-lente": {
+  "tag": "LENTES · VESPID PRIME 2",
+  "trilha": "midnight-funk-117bpm.mp3",
+  "blocos": [
+   {
+    "fala": "Qual lente para o seu clipe?",
+    "letra": "Qual lente pro seu clipe?",
+    "vis": "V21"
+   },
+   {
+    "fala": "Dezoito milímetros: plano aberto, o cenário inteiro.",
+    "letra": "18 mm · plano aberto",
+    "vis": "F13"
+   },
+   {
+    "fala": "Trinta e cinco: o olhar natural, ótimo pra performance.",
+    "letra": "35 mm · olhar natural",
+    "vis": "V20@4"
+   },
+   {
+    "fala": "Cinquenta: o clássico, rosto e corpo.",
+    "letra": "50 mm · o clássico",
+    "vis": "F15"
+   },
+   {
+    "fala": "Oitenta e cinco: close com o fundo desfocado.",
+    "letra": "85 mm · close",
+    "vis": "V10"
+   },
+   {
+    "fala": "Cento e cinco: o detalhe, a emoção de perto.",
+    "letra": "105 mm · detalhe",
+    "vis": "V19@2"
+   },
+   {
+    "fala": "Comenta aqui qual você usaria.",
+    "letra": "Comenta a sua",
+    "vis": "F14"
+   },
+   {
+    "fala": "O kit inteiro está na Real Time. Reserve!",
+    "letra": "Reserve o kit",
+    "vis": "V21@3"
+   }
+  ]
+ },
+ "08-teleprompter": {
+  "tag": "TELEPROMPTER · VIDEOCAST",
+  "trilha": "pop-track-03-108bpm.mp3",
+  "blocos": [
+   {
+    "fala": "Grave seu videocast sem decorar texto!",
+    "letra": "Videocast sem decorar",
+    "vis": "F25"
+   },
+   {
+    "fala": "Com o teleprompter, o texto passa na frente da lente.",
+    "letra": "O texto passa na lente",
+    "vis": "F26"
+   },
+   {
+    "fala": "Você lê olhando direto pra câmera.",
+    "letra": "Olho na câmera",
+    "vis": "V17"
+   },
+   {
+    "fala": "Sem gaguejar e sem regravar dez vezes.",
+    "letra": "Sem regravar",
+    "vis": "V12"
+   },
+   {
+    "fala": "O estúdio de fundo verde já está pronto.",
+    "letra": "Estúdio pronto",
+    "vis": "V04"
+   },
+   {
+    "fala": "Luz de estúdio no lugar, é só chegar.",
+    "letra": "Luz no lugar",
+    "vis": "F09"
+   },
+   {
+    "fala": "Reserve o teleprompter na Real Time!",
+    "letra": "Reserve o teleprompter",
+    "vis": "F25"
+   }
+  ]
+ },
+ "09-celular-x-cinema": {
+  "tag": "CELULAR × KIT DE CINEMA",
+  "trilha": "trap-electro-vibes-112bpm.mp3",
+  "blocos": [
+   {
+    "fala": "Celular ou kit de cinema? Olha a diferença!",
+    "letra": "Celular × cinema",
+    "vis": "V12"
+   },
+   {
+    "fala": "No celular, a lente é fixa.",
+    "letra": "Lente fixa",
+    "vis": "CARD:Lente fixa."
+   },
+   {
+    "fala": "No kit, você troca a lente pra cada cena.",
+    "letra": "Troca a lente",
+    "vis": "F13"
+   },
+   {
+    "fala": "No celular, o fundo fica todo nítido.",
+    "letra": "Fundo nítido",
+    "vis": "CARD:Fundo todo nítido."
+   },
+   {
+    "fala": "Com lente de cinema, o fundo desfoca de verdade.",
+    "letra": "Fundo desfocado",
+    "vis": "V10"
+   },
+   {
+    "fala": "No celular, você vê o quadro numa tela pequena.",
+    "letra": "Tela pequena",
+    "vis": "CARD:Tela pequena."
+   },
+   {
+    "fala": "No set, o monitor mostra tudo grande.",
+    "letra": "Monitor grande",
+    "vis": "V17"
+   },
+   {
+    "fala": "Seu clipe merece cinema. Reserve na Real Time!",
+    "letra": "Reserve o kit",
+    "vis": "V13"
+   }
+  ]
+ }
+}

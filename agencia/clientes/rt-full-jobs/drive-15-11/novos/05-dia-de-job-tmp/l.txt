@@ -1,0 +1,8 @@
+file '/home/user/lindson/agencia/clientes/rt-full-jobs/drive-15-11/novos/05-dia-de-job-tmp/c0.mp4'
+file '/home/user/lindson/agencia/clientes/rt-full-jobs/drive-15-11/novos/05-dia-de-job-tmp/c1.mp4'
+file '/home/user/lindson/agencia/clientes/rt-full-jobs/drive-15-11/novos/05-dia-de-job-tmp/c2.mp4'
+file '/home/user/lindson/agencia/clientes/rt-full-jobs/drive-15-11/novos/05-dia-de-job-tmp/c3.mp4'
+file '/home/user/lindson/agencia/clientes/rt-full-jobs/drive-15-11/novos/05-dia-de-job-tmp/c4.mp4'
+file '/home/user/lindson/agencia/clientes/rt-full-jobs/drive-15-11/novos/05-dia-de-job-tmp/c5.mp4'
+file '/home/user/lindson/agencia/clientes/rt-full-jobs/drive-15-11/novos/05-dia-de-job-tmp/c6.mp4'
+file '/home/user/lindson/agencia/clientes/rt-full-jobs/drive-15-11/novos/05-dia-de-job-tmp/c7.mp4'

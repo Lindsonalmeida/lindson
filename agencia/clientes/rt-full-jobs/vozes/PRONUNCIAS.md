@@ -22,3 +22,15 @@ Pedido do Lindson (15/11): "as pronúncias estão erradas. filtro N D como as le
 | follow focus, gimbal, rig | inglês | "fólou fôcus", "gímbal", "rígui" | (não usados agora) | uso no set |
 
 Evite "pro set": o TTS lê "procede". Use "pra gravar" ou "para gravar".
+
+## Termos novos dos 6 Reels de 16/11/2026 (conta Zuleide)
+| Termo | Origem | Pronúncia certa | Grafia no TTS | Fonte |
+|---|---|---|---|---|
+| Sony FX3 | câmera Sony (Japão); FX dito letra por letra | "sôni éfe xis três" | Sôni éfe xis três | uso dos videomakers brasileiros |
+| VESPID (Prime 2) | linha DZOFilm, do inglês "vespid" (vespa) /ˈvɛspɪd/ | "véspid" | Véspide | dicionário inglês |
+| Prime | inglês, lente de foco fixo | "práim" | Práime | uso no set |
+| teleprompter | inglês | "teleprômpter" | teleprômpter | uso no Brasil |
+| videocast | híbrido pt/en | "vídeo cást" | vídeo cást | uso no Brasil |
+| job | inglês, "trabalho" no mercado audiovisual | "djób" | djób | uso no set |
+| kit | inglês aportuguesado | "quít" | quit | dicionário |
+| cage | inglês, gaiola da câmera | "quêidj" | (o TTS erra: "conquede"; na fala usar "gaiola", na tela "cage") | Whisper 16/11 |
