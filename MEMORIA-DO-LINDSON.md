@@ -645,3 +645,4 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 - **16/11/2026 (conta Leandro) · CORREÇÃO DO LINDSON:** o padrão aprovado e POSTADO da Real Time é a **série Inventário da instagram-v2** (`serie.html`/`gerar-serie.js`: gelo com cartão branco + visor REC + chips; escuro com número vazado + 3 caixas; foto cheia/pódio com vidro). "Deixe como estava." A v5 NÃO foi a escolhida. Feed novo = continuação da série (instagram-v6, posts 15–44), aguardando.
 - **16/11/2026 (conta Leandro) · REGRA: RT: feed sempre premium, harmônico em xadrez claro/escuro** (ímpar claro, par escuro/foto; alterna em linhas e colunas).
 - **16/11/2026 (conta Leandro) · APROVADO:** Real Time v6 (instagram-v6/, série Inventário 15–44, feed em xadrez claro/escuro). Lindson: "ótimo".
+- 16/11/2026 (conta Leandro): NOVO FORMATO do Instagram do Lindson = carrossel 'print de tweet + vídeo' (ref. @oneyaraujo, guia em dados/agencia/referencias/carrossel-tweet-noticia/).
