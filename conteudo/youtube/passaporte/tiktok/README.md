@@ -1,4 +1,4 @@
-# TikTok do Passaporte da Bíblia: perfil pronto para o app (conta Zuleide, 16/11/2026)
+# TikTok do Passaporte da Bíblia: perfil pronto para o app (conta Zuleide, 15/11/2026)
 
 Fila `cad-passaporte-9`. Mesma identidade do YouTube e do Instagram (`../instagram/README.md`). **Nada publicado:** o Lindson aplica no app. Situação: aguardando aprovação.
 

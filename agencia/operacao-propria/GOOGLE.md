@@ -1,4 +1,4 @@
-# Orégano Turbo no Google: Perfil da Empresa, textos prontos (conta Zuleide, 16/11/2026)
+# Orégano Turbo no Google: Perfil da Empresa, textos prontos (conta Zuleide, 15/11/2026)
 
 Modelo: `agencia/clientes/jaci-cunha/GOOGLE.md` e o guia `agencia/especialista/google-meu-negocio/README.md`. **A Orégano Turbo é uma agência de marketing para pizzarias, não uma pizzaria.** Site e SEO prontos (sitemap, robots, JSON-LD, fila `esp-oregano-seo`). Falta a parte na conta Google do Lindson. Situação: **aguardando aprovação do Lindson**.
 
