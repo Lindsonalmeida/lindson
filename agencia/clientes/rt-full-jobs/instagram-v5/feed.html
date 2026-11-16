@@ -1,0 +1,87 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<!-- Real Time · feed v5 (30 artes) · conta Leandro, 16/11/2026.
+     v3 reprovada (cartões/pílulas de app) e v4 reprovada ("sem cores, feed morto"). Modelo = instagram-v2 APROVADO como padrão da RT
+     (previa-feed.jpg / posts.html): produto real recortado com luz de estúdio (Apple), fundos alternados preto · gelo · foto colorida · azul vivo,
+     manchete Geist com a 2ª linha em cinza, palavra gigante, callouts finos, botão azul discreto, cor original saturada.
+     6 composições copiadas da v2 (e das refs externas dela, ver TEMPLATE.md):
+     K1 lançamento escuro (Dribbble "iPhone 17 Pro") · K2 gelo com callouts (Dribbble "Best seller") · K4 foto colorida de ação (Dribbble "Light Leaks")
+     K5 azul vivo (Dribbble "24 hours", sem os cartões) · K3 palavra gigante no preto (Designi "Dia da Fotografia") · K6 palavra gigante no gelo.
+     Fotos: as reais da RT (Drive), recortadas por chroma key/rembg (recortes/), uma por post. Uso: feed.html?n=1..30 -->
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700;800&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--pt:#0E0E0F;--b:#F4F7FB;--cz:#8A8A8E;--az:#2E9BFF;--in:#4338F0;--rec:#FF3B3B}
+*{box-sizing:border-box;margin:0;padding:0}body{width:1080px;height:1350px;overflow:hidden;font-family:Geist,sans-serif;-webkit-font-smoothing:antialiased}
+.p{position:relative;width:1080px;height:1350px;overflow:hidden;background:var(--pt);color:var(--b)}
+.a{position:absolute}.mono{font-family:'Geist Mono',monospace;letter-spacing:.14em;text-transform:uppercase}
+.grao{inset:0;opacity:.08;mix-blend-mode:overlay;pointer-events:none;z-index:9;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>")}
+.topo{left:64px;right:64px;top:54px;display:flex;justify-content:space-between;align-items:center;z-index:8}
+.topo img{height:46px}.topo span{font:500 20px 'Geist Mono';letter-spacing:.14em;text-transform:uppercase}.topo span:before{content:"● ";color:var(--rec)}
+.rod{left:64px;right:64px;bottom:50px;display:flex;justify-content:space-between;align-items:center;z-index:8;font:500 20px 'Geist Mono';letter-spacing:.1em;text-transform:uppercase}
+.cta{display:inline-flex;align-items:center;gap:12px;background:var(--az);color:#fff;border-radius:99px;padding:16px 28px;font:600 24px Geist;letter-spacing:0;text-transform:none}.cta:after{content:"→"}
+.h{font-weight:600;letter-spacing:-.045em;line-height:.97}.h i{font-style:normal;display:block}
+.call{display:flex;align-items:center}.call .pt{width:14px;height:14px;border-radius:50%;background:var(--az);box-shadow:0 0 0 6px rgba(46,155,255,.18);flex:none}
+.call .ln{height:1.5px;background:currentColor;opacity:.45}.call .tx{font:500 18px 'Geist Mono';letter-spacing:.12em;text-transform:uppercase;line-height:1.5;white-space:nowrap}
+.call .tx b{display:block;font:600 30px Geist;letter-spacing:-.01em;text-transform:none}
+.foto{object-fit:cover;filter:saturate(1.15) contrast(1.05)}
+</style></head><body><div id="pp"></div><script src="dados.js"></script><script>
+const M='../identidade/v1/marca/',F='../instagram-v3/fotos/';
+const n=+new URLSearchParams(location.search).get('n')||1,[rot,tit0,sub,at,ft,L0,ex,o]=D[n-1],num=String(n).padStart(2,'0');
+const rec=REC[ft],cut=`recortes/${ft}.png`,ph=F+ft+'.jpg';
+// título em 2 linhas: parte fora dos colchetes (branco) / parte entre colchetes (cinza)
+let tit=tit0==='LUZ'?'Kit [luz]':L0==='D'?`${tit0[0]+tit0.slice(1).toLowerCase()} [${ex.toLowerCase()}]`:tit0;
+const l1=tit.replace(/\s*\[.*?\]\s*/,' ').trim(),l2=(tit.match(/\[(.+?)\]/)||[0,''])[1];
+const H2=(c2,sz)=>`<div class="h" style="font-size:${sz}px">${l1}<i style="color:${c2}">${l2}</i></div>`;
+const szT=Math.max(l1.length,l2.length)>16?78:Math.max(l1.length,l2.length)>11?92:110;
+const lw=t=>(t.split(/[ \-?.]/).filter(Boolean).sort((a,b)=>b.length-a.length)[0]||'').toUpperCase();
+let giant=lw(l2);if(giant.length<5)giant=lw(l1+' '+l2);
+let gtop=giant;
+const gsz=giant.length>8?190:giant.length>6?230:giant.length>4?280:330;
+const topo=(cl)=>`<div class="a topo" style="color:${cl?'#0E0E0F':'#F4F7FB'}"><img src="${M}${cl?'assinatura-horizontal-claro':'assinatura-horizontal'}.svg"><span>${rot}</span></div>`;
+const grao='<div class="a grao"></div>';
+// produto: recorte com luz de estúdio, ou a foto com máscara suave (fotos sem fundo verde)
+const prod=(x,y,w,h,sombra)=>rec?`<img class="a" src="${cut}" style="left:${x}px;top:${y}px;width:${w}px;height:${h}px;object-fit:contain;-webkit-mask:linear-gradient(180deg,#000 82%,transparent 100%),linear-gradient(90deg,transparent 0,#000 6%,#000 94%,transparent 100%);-webkit-mask-composite:source-in;filter:saturate(1.15) contrast(1.06) drop-shadow(0 ${sombra||40}px 40px rgba(0,0,0,.45))">`
+ :`<img class="a foto" src="${ph}" style="left:${x-60}px;top:${y-40}px;width:${w+120}px;height:${h+80}px;-webkit-mask:radial-gradient(60% 58% at 50% 50%,#000 55%,transparent 100%);mask:radial-gradient(60% 58% at 50% 50%,#000 55%,transparent 100%)">`;
+const calls=(cor,pos)=>at.slice(0,3).map(([k,v],i)=>{const [x,y,lado,w]=pos[i];return lado==='e'
+ ?`<div class="a call" style="left:${x}px;top:${y}px;color:${cor}"><div class="tx" style="text-align:right">${k}<b>${v}</b></div><div class="ln" style="width:${w}px;margin-left:18px"></div><div class="pt"></div></div>`
+ :`<div class="a call" style="left:${x}px;top:${y}px;color:${cor}"><div class="pt"></div><div class="ln" style="width:${w}px;margin-right:18px"></div><div class="tx">${k}<b>${v}</b></div></div>`}).join('');
+const linha=(cor,cor2)=>at.length?`<div class="a" style="left:64px;right:64px;top:1050px;display:grid;grid-template-columns:repeat(${Math.min(at.length,3)},1fr);border-top:1.5px solid ${cor2}">${at.slice(0,3).map(([k,v])=>`<div style="padding:20px 0"><div class="mono" style="font-size:18px;color:${cor}">${k}</div><div style="font:600 ${String(v).length>14?32:44}px/1.1 Geist;letter-spacing:-.03em;margin-top:6px">${v}</div></div>`).join('')}</div>`:'';
+const L=['K1','K2','K4','K5','K3','K6'][(n-1)%6];let H='';
+if(L==='K1')H=`<div class="p" style="background:radial-gradient(900px 620px at 50% 74%,#1b2a4a 0,#0E0E0F 62%)">
+<div class="a" style="left:140px;right:140px;top:1080px;height:70px;background:radial-gradient(50% 50% at 50% 50%,rgba(46,155,255,.55),transparent 70%);filter:blur(10px)"></div>${prod(150,520,780,560)}${topo()}
+<div class="a" style="left:0;right:0;top:180px;text-align:center"><div class="mono" style="font-size:22px;color:var(--az)">${at[0]?at[0][1]:'Real Time'}</div><div style="margin-top:16px">${H2('#8A8A8E',szT)}</div>
+<div style="font:400 30px/1.35 Geist;color:#c9ccd3;margin:22px auto 0;width:820px">${sub}</div></div>
+<div class="a rod" style="color:#9a9da4"><span>(98) 99133-1727</span><span class="cta">Reservar</span></div>${grao}</div>`;
+if(L==='K2')H=`<div class="p" style="background:radial-gradient(800px 700px at 50% 58%,#FFFFFF 0,#EEF2F8 55%,#DDE4EE 100%);color:#0E0E0F">${topo(1)}
+<div class="a" style="left:64px;top:150px;width:950px"><div class="mono" style="font-size:22px;color:#4338F0">${rot}</div><div style="margin-top:14px">${H2('#8A8A8E',Math.min(szT,90))}</div></div>
+<div class="a" style="left:220px;top:470px;width:640px;height:640px;border-radius:50%;background:radial-gradient(circle,rgba(46,155,255,.22),transparent 65%)"></div>
+${prod(250,450,580,600,30)}${calls('#0E0E0F',[[64,520,'e',90],[690,640,'d',40],[64,880,'e',120]])}
+<div class="a" style="left:64px;width:900px;top:1110px;font:400 26px/1.4 Geist;color:#5c5c60">${sub}</div>
+<div class="a rod" style="color:#5c5c60"><span>(98) 99133-1727</span><span class="cta">Reservar</span></div>${grao}</div>`;
+if(L==='K4')H=`<div class="p"><img class="a foto" src="${rec?'fundos/'+ft+'.jpg':ph}" style="inset:-40px;width:1160px;height:1430px;filter:brightness(${rec?.7:.85})">
+<div class="a" style="inset:0;background:radial-gradient(520px 720px at 100% 30%,rgba(67,56,240,.6),transparent 70%),radial-gradient(460px 560px at 0% 80%,rgba(46,155,255,.5),transparent 70%);mix-blend-mode:screen"></div>
+<div class="a" style="inset:0;background:linear-gradient(180deg,rgba(14,14,15,.7) 0,rgba(14,14,15,0) 30%,rgba(14,14,15,.1) 60%,rgba(14,14,15,.92) 88%)"></div>
+${rec?prod(200,330,760,700,50):''}${topo()}
+<div class="a" style="left:56px;top:140px;font:800 ${Math.min(gsz,300)}px/0.8 Geist;letter-spacing:-.07em;text-shadow:0 10px 60px rgba(0,0,0,.35)">${giant}</div>
+<div class="a" style="left:64px;top:${140+Math.min(gsz,300)*0.85}px;font:500 34px/1.28 Geist;color:#fff;width:640px;text-shadow:0 2px 16px rgba(0,0,0,.7)">${sub}</div>
+${linha('#c9ccd3','rgba(244,247,251,.3)')}<div class="a rod" style="color:#c9ccd3"><span>(98) 99133-1727</span><span class="cta">Reservar</span></div>${grao}</div>`;
+if(L==='K5')H=`<div class="p" style="background:radial-gradient(900px 800px at 70% 30%,#5aa8ff 0,#2E9BFF 35%,#3a4bf0 100%)">${topo()}
+<div class="a" style="left:64px;top:150px;width:950px">${H2('rgba(244,247,251,.62)',szT)}</div>
+<div class="a" style="left:120px;top:440px;width:840px;height:620px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.55),transparent 62%)"></div>
+${prod(130,430,820,600,40)}
+<div class="a" style="left:64px;width:900px;top:1080px;font:500 28px/1.4 Geist;color:#fff">${sub}</div>
+<div class="a rod" style="color:#eaf4ff"><span>${at.slice(0,2).map(x=>x[1]).join(' · ')}</span><span class="cta" style="background:#F4F7FB;color:#0E0E0F">Reservar</span></div>${grao}</div>`;
+if(L==='K3')H=`<div class="p" style="background:#000">${topo()}
+<div class="a" style="left:-40px;right:-40px;top:190px;text-align:center;font:800 ${gsz}px/0.82 Geist;letter-spacing:-.06em;color:transparent;-webkit-text-stroke:2px rgba(244,247,251,.25);white-space:nowrap">${gtop}</div>
+<div class="a" style="left:-40px;right:-40px;top:${190+gsz*0.78}px;text-align:center;font:800 ${gsz}px/0.82 Geist;letter-spacing:-.06em;background:linear-gradient(180deg,#F4F7FB 10%,rgba(244,247,251,0) 85%);-webkit-background-clip:text;background-clip:text;color:transparent;white-space:nowrap">${giant}</div>
+<div class="a" style="left:0;right:0;top:960px;height:120px;background:radial-gradient(50% 50% at 50% 50%,rgba(46,155,255,.35),transparent 70%)"></div>${prod(140,480,800,560)}
+<div class="a" style="left:64px;right:64px;top:1080px;display:flex;justify-content:space-between;align-items:flex-end;border-top:1.5px solid rgba(244,247,251,.2);padding-top:22px;gap:30px">
+<div style="font:600 46px/1.05 Geist;letter-spacing:-.03em;white-space:nowrap">${l1}<br><span style="color:#8A8A8E">${l2}</span></div><div style="font:400 22px/1.45 Geist;color:#9a9da4;text-align:right;max-width:520px">${sub}</div></div>
+<div class="a rod" style="color:#8A8A8E"><span>(98) 99133-1727</span><span class="cta">Reservar</span></div>${grao}</div>`;
+if(L==='K6')H=`<div class="p" style="background:linear-gradient(180deg,#F4F7FB,#DCE3ED);color:#0E0E0F">${topo(1)}
+<div class="a" style="left:-40px;right:-40px;top:200px;text-align:center;font:800 ${gsz}px/0.82 Geist;letter-spacing:-.06em;color:#E3E9F2;white-space:nowrap;text-shadow:0 1px 0 #fff">${giant}</div>
+${prod(130,320,820,640,36)}
+<div class="a" style="left:64px;right:64px;top:990px">${H2('#8A8A8E',Math.min(szT,86))}<div style="font:400 26px/1.4 Geist;color:#5c5c60;margin-top:18px;width:900px">${sub}</div></div>
+<div class="a rod" style="color:#5c5c60"><span>(98) 99133-1727</span><span class="cta">Reservar</span></div>${grao}</div>`;
+document.getElementById('pp').innerHTML=H;
+Promise.all([document.fonts.ready,...[...document.images].map(i=>i.complete?1:new Promise(r=>{i.onload=i.onerror=r}))]).then(()=>window.pronto=true);
+</script></body></html>

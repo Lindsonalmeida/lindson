@@ -90,8 +90,8 @@ for e in dados.get('entregas', []):
     n = m.group(1); REELS.append((n, {'t': 'Reels', 'titulo': f'Reel {n} · {nome}', 'curto': nome, 'data': 'Reels · 16/11 · conta Zuleide', 'linha': 'Reels',
         'st': 'aprovado' if n in ('01', '02', '03') else 'aguardando', 'video': arq, 'capa': arq[:-4] + '-capa.jpg', 'img': arq[:-4] + '-capa.jpg', 'legenda': leg}))
 itens[0:0] = [x for _, x in sorted(REELS)]
-# 4c · Feed v4 (16/11, conta Leandro; v3 reprovada): 30 artes, imagens em /painel/rt/arquivos/feed-v4/ (privado)
-itens[0:0] = json.load(open(os.path.join(CL, 'instagram-v4', 'painel-itens.json')))
+# 4c · Feed v5 (16/11, conta Leandro; v3 e v4 reprovadas): 30 artes, imagens em /painel/rt/arquivos/feed-v5/ (privado)
+itens[0:0] = json.load(open(os.path.join(CL, 'instagram-v5', 'painel-itens.json')))
 aprov = ','.join(json.dumps(x, ensure_ascii=False) for x in itens)
 s = re.sub(r"const APROV=\[.*?\];", lambda m: f"const APROV=[{aprov}];", s, count=1, flags=re.S)
 troca('<div class="post"><div class="img">${p.titulo}</div>', '<div class="post">${p.video?`<video src="${p.video}" poster="${p.img}" controls playsinline preload="none" style="width:100%;aspect-ratio:9/16;object-fit:cover;display:block;background:#000"></video><div style="display:flex;gap:8px;margin:10px 12px 0"><a class="btn lin" href="${p.video}" download style="flex:1;text-align:center">⬇ Baixar vídeo</a><a class="btn lin" href="${p.capa}" download style="flex:1;text-align:center">⬇ Baixar capa</a></div><div style="margin:10px 12px 0;padding:10px 12px;border:1px solid var(--linha);border-radius:12px"><div style="font-size:10.5px;letter-spacing:.14em;color:var(--apagado);font-weight:700">TÍTULO PARA REELS / SHORTS</div><div style="font-weight:700;margin:4px 0 8px">${p.curto}</div><button class="btn lin" onclick="navigator.clipboard.writeText(this.previousElementSibling.textContent);window.__toast&&window.__toast(\'Título copiado\')">Copiar título</button></div>`:p.img?`<img src="${p.img}" alt="${p.titulo}" style="width:100%;aspect-ratio:4/5;object-fit:cover;display:block">`:`<div class="img">${p.titulo}</div>`}')
