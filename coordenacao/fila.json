@@ -285,8 +285,8 @@
    "cli": "designer",
    "tarefa": "Behance",
    "equipe": "Leandro",
-   "status": "andamento",
-   "nota": "v1 REPROVADA (\"ficou horrível\"); refazendo v2 premium. Pinterest volta para o Leandro.",
+   "status": "aguardando aprovação",
+   "nota": "v2 premium entregue 15/11 23:38 (Leandro): mockups 3D, 6 cases Behance, 30 pins + 3 vídeos, oferta nova. Em agencia/marca-lindson/projeto-designer/v2/ e painel admin-rede/projeto-designer/v2/. Aguardando aprovação do Lindson.",
    "partes": [
     {
      "p": "Montar perfil Behance",
@@ -302,7 +302,7 @@
     }
    ],
    "pegou": "Leandro 16/11 22:46",
-   "atualizado": "Leandro 16/11 22:37",
+   "atualizado": "Leandro 15/11 23:38",
    "recebido": "Leandro 16/11 01:36"
   },
   {
@@ -310,8 +310,8 @@
    "cli": "designer",
    "tarefa": "Pinterest",
    "equipe": "Leandro",
-   "status": "andamento",
-   "nota": "v1 REPROVADA (\"ficou horrível\"); refazendo v2 premium. Pinterest volta para o Leandro.",
+   "status": "aguardando aprovação",
+   "nota": "v2 premium entregue 15/11 23:38 (Leandro): mockups 3D, 6 cases Behance, 30 pins + 3 vídeos, oferta nova. Em agencia/marca-lindson/projeto-designer/v2/ e painel admin-rede/projeto-designer/v2/. Aguardando aprovação do Lindson.",
    "partes": [
     {
      "p": "Perfil e 6 pastas com descrição SEO (nome do projeto em agencia/marca-lindson/projeto-designer/)",
@@ -323,7 +323,7 @@
     }
    ],
    "pegou": "Leandro 16/11 22:46",
-   "atualizado": "Pedro 16/11 23:10",
+   "atualizado": "Leandro 15/11 23:38",
    "recebido": "Pedro 15/11 22:37"
   },
   {
@@ -354,11 +354,11 @@
    "cli": "designer",
    "tarefa": "Vender identidade visual",
    "equipe": "Leandro",
-   "status": "andamento",
-   "nota": "v1 REPROVADA (\"ficou horrível\"); refazendo v2 premium. Pinterest volta para o Leandro.",
+   "status": "aguardando aprovação",
+   "nota": "v2 premium entregue 15/11 23:38 (Leandro): mockups 3D, 6 cases Behance, 30 pins + 3 vídeos, oferta nova. Em agencia/marca-lindson/projeto-designer/v2/ e painel admin-rede/projeto-designer/v2/. Aguardando aprovação do Lindson.",
    "partes": [],
    "pegou": "Leandro 16/11 22:46",
-   "atualizado": "Leandro 16/11 22:37",
+   "atualizado": "Leandro 15/11 23:38",
    "recebido": "Leandro 16/11 01:36"
   },
   {
