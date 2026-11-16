@@ -10,8 +10,8 @@ Siga para ver os cases. Orçamento no WhatsApp, link na bio.
 #identidadevisual #saoluis #branding #designdemarca
 
 ## 02 · 4 marcas, 4 travessias
-**Cases de identidade visual: pizzaria, vereador, app e produtora**
-Quatro negócios diferentes, um mesmo processo. Orégano Turbo (pizzaria), Leo Pinto (vereador), Dublê (app de voz) e Real Time (produtora).
+**Cases de identidade visual: pizzaria, curso, app e produtora**
+Quatro negócios diferentes, um mesmo processo. Orégano Turbo (pizzaria), Processo Legislativo (curso), Dublê (app de voz) e Real Time (produtora).
 **O que eles têm em comum** — Cada um tem cor, letra e tom próprios, aplicados em tudo.
 Arraste o perfil e veja cada case. Qual é o próximo?
 #portfoliodesign #cases #brandingbrasil #maranhao
@@ -74,12 +74,13 @@ Veja o case completo no Behance. Link na bio.
 Orçamento pelo WhatsApp, link na bio.
 #rebranding #marketinglocal #saoluis #negociolocal
 
-## 11 · Case Leo Pinto: Do povo, para o povo
-**Identidade visual para vereador: case Leo Pinto**
-Sem enfeite: só fonte, logo e cor, do outdoor ao celular.
-**Por que funciona** — Cores fortes e fáceis de reconhecer na rua.
-Arraste o carrossel do case completo no perfil.
-#marketingpolitico #identidadevisual #outdoor #maranhao
+## 11 · Case WF Celulares: Procedência que dá para ver
+**Identidade visual de loja de iPhone: case WF Celulares**
+Uma loja de produto premium que se vendia com visual de promoção de bairro.
+**A solução** — Preto, prata e titânio, muito respiro e a frase do próprio brand book: "Procedência que dá para ver."
+**Aplicado** — Cartão, papelaria, embalagem e Instagram com a mesma cara.
+Sua loja parece do tamanho do produto que vende? Orçamento no WhatsApp.
+#lojadecelulares #identidadevisual #brandingpremium #saoluis
 
 ## 12 · Seu cliente julga antes de ler
 **Primeira impressão de marca: o que chega antes do texto**
@@ -90,7 +91,7 @@ Salve e mande para quem precisa ver.
 
 ## Carrosséis
 - **C1 Anatomia (5 telas)**: "Só ter um LOGO não é ter marca" · #identidadevisual #logo #brandingtips #designgrafico
-- **C2 Case Leo Pinto (5 telas)**: "Como nasceu a marca Leo Pinto" · #case #marketingpolitico #papelaria #saoluis
+- **C2 Case Leo Pinto (5 telas)**: "Como nasceu a marca Leo Pinto" (só identidade: papelaria, celular, aplicações; sem campanha) · #case #identidadevisual #papelaria #saoluis
 - **C3 Processo (5 telas)**: "Como uma marca atravessa em 6 etapas" · #processocriativo #briefing #mockup #estudiodedesign
 
 ## Reels (capas)

@@ -81,7 +81,7 @@ S.append(('posts/03', fundo('L') + face('c12', 860, right=-230) +
   f'<div class="a p" style="left:80px;top:900px;width:330px;color:#333">Cliente que não entende a sua marca vai embora sem dizer por quê.</div>' + rod('Barzakh · a passagem da sua marca', dark=False)))
 # 02 C · mosaico de cases (R2 &Walsh)
 mos = ''.join(f'<div class="mock" style="left:{80+(k%2)*470}px;top:{300+(k//2)*470}px;width:450px;height:450px;background-image:url({u(MK+"/"+m)})"></div>'
-              for k, m in enumerate(['oregano-embalagem.jpg', 'leo-poster.jpg', 'duble-cartoes.jpg', 'realtime-celular.jpg']))
+              for k, m in enumerate(['oregano-embalagem.jpg', 'curso-poster.jpg', 'duble-cartoes.jpg', 'realtime-celular.jpg']))
 S.append(('posts/02', fundo('C', '#C8302B') + f'<div class="a fr" style="left:80px;top:90px;font-size:112px;color:{MA}">4 marcas, <span class="it">4 travessias.</span></div>' + mos + rod('Cases reais · arraste o perfil')))
 # 03 D · rosto c10 + logo (apresentação do estúdio)
 S.append(('posts/01', fundo('D') + f'<div class="a fr ouro" style="left:40px;top:130px;font-size:228px;z-index:3;letter-spacing:-.04em">BARZAKH</div>' + face('c10', 1000, x=150) +
@@ -120,9 +120,14 @@ S.append(('posts/08', fundo('D') +
   f'<div class="a fr" style="left:80px;top:90px;font-size:104px;z-index:8">Logo sozinho <span class="it ouro">não é marca.</span></div>'
   f'<div class="a mn" style="left:80px;bottom:110px;color:{BR};z-index:8">Símbolo · cores · letras · grafismos · aplicações</div>' + rod('Anatomia · Nº 08')))
 # 10 C · case Leo (azul + amarelo), outdoor
-S.append(('posts/11', fundo('C', '#1F2F9E') + f'<div class="mock" style="left:80px;top:470px;width:920px;height:690px;background-image:url({u(MK+"/leo-outdoor.jpg")})"></div>'
-  f'<div class="a tag" style="left:80px;top:90px;background:#F5C518;color:{OB}">Case · Leo Pinto · vereador</div>'
-  f'<div class="a fr" style="left:80px;top:170px;font-size:124px;color:#fff">Do povo, <span class="it" style="color:#F5C518">para o povo.</span></div>' + rod('Identidade + campanha')))
+# 11 C · case WF Celulares (preto premium sobre ouro escovado; sem maçã: só o WF em titânio, frase do brand book da WF). Leo saiu: vereador não entra com cara de campanha.
+TI = 'linear-gradient(160deg,#f4f4f2 0%,#9a9da3 35%,#e9eaec 55%,#6f7278 80%,#cfd1d4 100%)'
+S.append(('posts/11', f'<div class="a" style="inset:0;background:{OURO}"></div><div class="a" style="inset:0;background:radial-gradient(circle at 30% 20%,rgba(255,240,200,.35),transparent 55%),radial-gradient(circle at 85% 95%,rgba(40,25,5,.5),transparent 60%)"></div>'
+  f'<div class="a tag" style="left:80px;top:90px;background:{OB};color:#d9dbe0">Case · WF Celulares · loja de iPhone</div>'
+  f'<div class="a fr" style="left:80px;top:170px;width:920px;font-size:116px;color:{OB}">Procedência que <span class="it">dá para ver.</span></div>'
+  f'<div class="a" style="left:150px;top:560px;width:780px;height:560px;background:linear-gradient(150deg,#1c1d20,#050506);border-radius:28px;transform:rotate(-4deg);box-shadow:0 60px 100px rgba(40,25,5,.6),inset 0 1px 0 rgba(255,255,255,.15);display:flex;flex-direction:column;align-items:center;justify-content:center">'
+  f'<div style="font-family:Inter Tight;font-weight:600;font-size:250px;letter-spacing:-.06em;line-height:1;background:{TI};-webkit-background-clip:text;color:transparent">WF</div>'
+  f'<div style="font-family:Inter Tight;font-weight:500;font-size:34px;letter-spacing:.55em;color:#c9cbd0;margin-top:10px">CELULARES</div></div>' + rod('Identidade + papelaria', dark=False)))
 # 11 L · case Orégano em marfim (embalagem gigante)
 S.append(('posts/07', fundo('L') + f'<div class="mock" style="left:80px;top:420px;width:920px;height:690px;background-image:url({u(MK+"/oregano-embalagem.jpg")})"></div>'
   f'<div class="a tag" style="left:80px;top:90px;background:#1E5B3B;color:#F3EEE6">Case · Orégano Turbo · pizzaria</div>'
@@ -167,7 +172,7 @@ S += [
  ('carrosseis/c2-case-leo/2', fundo('L') + f'<div class="mock" style="left:0;top:0;width:1080px;height:810px;border-radius:0;background-image:url({u(MK+"/leo-papelaria.jpg")})"></div>'
    f'<div class="a fr" style="left:80px;top:880px;width:920px;font-size:96px;color:{OB}">Só fonte, logo e cor. <span class="it" style="color:#1F2F9E">Nada de enfeite.</span></div>' + rod('Papelaria', dark=False)),
  ('carrosseis/c2-case-leo/3', fundo('C', '#F5C518') + f'<div class="mock" style="left:330px;top:120px;width:680px;height:1110px;background-image:url({u(MK+"/leo-celular.jpg")})"></div>'
-   f'<div class="a fr" style="left:70px;top:140px;width:300px;font-size:84px;color:#1F2F9E">No celular, onde o eleitor está.</div>' + rod('Redes', dark=False)),
+   f'<div class="a fr" style="left:70px;top:140px;width:300px;font-size:84px;color:#1F2F9E">No celular, onde as pessoas estão.</div>' + rod('Redes', dark=False)),
  ('carrosseis/c2-case-leo/4', fundo('D') + ''.join(f'<div class="mock" style="left:{80+k*310}px;top:{360+(k%2)*80}px;width:290px;height:520px;background-image:url({u(MK+"/leo-"+m+".jpg")})"></div>' for k, m in enumerate(['cartoes', 'embalagem', 'poster']))
    + f'<div class="a fr" style="left:80px;top:110px;font-size:96px">A mesma marca <span class="it ouro">em tudo.</span></div>'
    f'<div class="a p" style="left:80px;top:1040px;width:900px;color:#cfc8bb">Cartão, copo, cartaz. Consistência nos detalhes é o que parece caro.</div>' + rod('Aplicações')),

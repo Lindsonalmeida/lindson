@@ -18,7 +18,7 @@ Observação: o Instagram mostra só a tela de login para robô (perfis tentados
 
 ## 3 escolhidas (combinadas no feed v2)
 1. **The Futur (EUA)**: rosto grande do fundador + manchete gorda de 3-7 palavras -> posts 01, 03, 06, 10, 12, capas de carrossel e Reels (rosto recortado com rim light âmbar, palavra gigante atrás).
-2. **&Walsh (EUA)**: case na cor viva do cliente, mockup enorme e nítido -> posts 02, 04, 09, 11 (vermelho, roxo Dublê, azul Real Time, azul/amarelo Leo).
+2. **&Walsh (EUA)**: case na cor viva do cliente, mockup enorme e nítido -> posts 02, 04, 09, 11 (vermelho, roxo Dublê, azul Real Time, WF preto e titânio sobre ouro; Leo fora dos posts por ser vereador).
 3. **Manual (EUA)**: serifa editorial em fundo claro com cor quente de destaque -> posts marfim 03, 05, 07, 12.
 
 Ritmo: xadrez D escuro/ouro · C cor · L marfim, sem vizinhos iguais na grade e sem dois posts seguidos iguais.
