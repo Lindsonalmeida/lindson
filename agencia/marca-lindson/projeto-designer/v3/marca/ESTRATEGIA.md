@@ -165,7 +165,7 @@ Não deu para checar disponibilidade daqui. O Lindson confere na hora de criar, 
 
 | Ordem | Handle | Observação |
 |---|---|---|
-| 1 | **barzakh.studio** | recomendado: curto, diz o que é, ponto aceito no Instagram e Pinterest |
+| 1 | **barzakhstudio** | recomendado (igual em todas as redes): curto, diz o que é, ponto aceito no Instagram e Pinterest |
 | 2 | barzakhstudio | para onde ponto não entra (Behance URL, LinkedIn página) |
 | 3 | barzakh.estudio | versão em português |
 | 4 | studiobarzakh | se os anteriores estiverem ocupados |
