@@ -1,0 +1,14 @@
+{
+ "proporcao": "60 Tinta / 25 Calcário / 15 apoio; latão só detalhe",
+ "cores": {
+  "Tinta": "#0B0C0E",
+  "Calcário": "#EFEAE1",
+  "Pedra": "#8E8A82",
+  "Grafite": "#1A1C20",
+  "Latão": "#B8955A",
+  "Labs": "#2E4BFF",
+  "Studio": "#E8461E",
+  "Media": "#F0A202",
+  "Ventures": "#0E8C66"
+ }
+}
