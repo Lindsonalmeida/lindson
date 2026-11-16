@@ -647,3 +647,5 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 - **16/11/2026 (conta Leandro) · APROVADO:** Real Time v6 (instagram-v6/, série Inventário 15–44, feed em xadrez claro/escuro). Lindson: "ótimo".
 - 16/11/2026 (conta Leandro): NOVO FORMATO do Instagram do Lindson = carrossel 'print de tweet + vídeo' (ref. @oneyaraujo, guia em dados/agencia/referencias/carrossel-tweet-noticia/).
 - **16/11/2026 (conta Leandro) · REPROVADO (visual):** Reels 3D miniaturas 01-06 (mesa preta, manequins low-poly) — "esses estão horríveis". Lindson vai postar assim mesmo, mas NUNCA repetir esse estilo. Próximos: outro tipo de vídeo 3D, pronúncias revisadas, sem voz de robô.
+
+- 16/11/2026 (conta Leandro): formato Tweet + notícia v1 feito (24 carrosséis em agencia/marca-lindson/tweet-noticia/v1/). Imagem = og:image da matéria com crédito "reprodução". Linha "Produtos do Rubla" travada: Rubla não existe nos repositórios.
