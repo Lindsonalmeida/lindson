@@ -34,3 +34,18 @@ Evite "pro set": o TTS lê "procede". Use "pra gravar" ou "para gravar".
 | job | inglês, "trabalho" no mercado audiovisual | "djób" | djób | uso no set |
 | kit | inglês aportuguesado | "quít" | kit (a grafia "quit" saiu "kick" no Whisper) | Whisper 16/11 |
 | cage | inglês, gaiola da câmera | "quêidj" | (o TTS erra: "conquede"; na fala usar "gaiola", na tela "cage") | Whisper 16/11 |
+
+## Revisão com Whisper medium sem prompt (16/11/2026, conta Zuleide) · voz mantida: pt-BR-AntonioNeural
+Testadas: Antonio, Brian/Andrew Multilingual (en-US) e Thalita Multilingual (feminina). Brian acerta Tilta, matte box, REC e VESPID, mas lê o português com sotaque americano ("paterias inclusis", "em caixas no puno", "no 7"), então Antonio ficou nos 9 vídeos.
+| Termo | Grafia no TTS agora | Resultado |
+|---|---|---|
+| Tilta | Tilta (sem acento; "Tílta," e "Tiltá" saíam "Tilt-A"/"Tiutá") | ouvido "Tilta" colado ao nome seguinte |
+| matte box | máti bóx | "matte box"/"matbox" (som certo; a grafia "matchbox" sumiu em 4 de 5) |
+| Squeeze | Squeeze (inglês direto) | "squeezy" (som certo) |
+| REC | na fala troca por "gravar"/"gravação" ("réc" e "rréque" saem "hack") | na tela continua REC |
+| Primeiro | na fala "Pra começar" (saía "Primer") | ok |
+| a equipe | "Nossa equipe" (saía "aí Fipe") | ok |
+| DZOFilm | Dê zê ô Film, | letras + film (Whisper escreve "Dayz/Deiseo film"); limite da voz |
+| VESPID | Véspide | "véspede/vesp de"; limite da voz |
+| Real Time | Riál Táime | ok nos 9 |
+Grafias do Brian (se um dia trocar a voz): `motor/pronuncias_brian.json`; motor aceita `VOZ=` e `PRON=`.
