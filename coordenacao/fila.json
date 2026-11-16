@@ -331,21 +331,21 @@
    "cli": "designer",
    "tarefa": "LinkedIn",
    "equipe": "Zuleide",
-   "status": "andamento",
-   "nota": "[dividido pelo coordenador em 16/11 22:30: LinkedIn com a Zuleide]",
+   "status": "aguardando aprovação",
+   "nota": "[dividido pelo coordenador em 16/11 22:30: LinkedIn com a Zuleide] Entregue: agencia/marca-lindson/linkedin/ + painel admin-rede/projeto-designer (LinkedIn).",
    "partes": [
     {
      "p": "Textos do perfil pessoal e da página do estúdio (título, sobre, experiência, serviços)",
-     "status": "livre"
+     "status": "feito"
     },
     {
      "p": "Banner 1584x396 e 10 posts (carrossel/imagem + texto) com os cases",
-     "status": "livre"
+     "status": "feito"
     }
    ],
-   "pegou": "",
-   "atualizado": "",
-   "recebido": "",
+   "pegou": "Zuleide 16/11",
+   "atualizado": "Zuleide 16/11",
+   "recebido": "Zuleide 16/11",
    "conta": "Zuleide",
    "inicio": "2026-11-15 23:03"
   },
