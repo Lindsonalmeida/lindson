@@ -1,0 +1,11 @@
+# Linhas editoriais v1 · marca Lindson (conta Leandro, 16/11/2026) · aguardando aprovação
+
+28 conteúdos, 4 por linha (ESTRATEGIA.md, seção 3, + Papo de Dono): `erro-que-custa-cliente/`, `bastidor-de-cliente/`, `papo-reto-do-lindson/`, `antes-e-depois/`, `faz-comigo/`, `porta-aberta/`, `papo-de-dono/` · cada `NN/` tem as telas `01.png…` (1080x1350, Playwright).
+- 10 carrosséis de 6 telas, 14 posts, 4 manchetes/foto dividida (78 PNGs). Prévia do feed: `previa-grade.jpg` (ordem de postagem, número 01 = primeiro). Legendas blog SEO: `LEGENDAS.md`.
+- Ordem: uma de cada linha por rodada (`gerador/conteudo.py`, ORDEM); capa alterna preto/amarelo; dentro do carrossel nenhuma tela repete layout nem cor da anterior.
+- Identidade: a aprovada mais recente (capas-1611: preto + #F5C518, Anton, Manrope, JetBrains Mono, grão) + linguagem das referências aprovadas em 16/11 (Denis Bugatti: pessoa recortada 50-70%, luz de cinema, palavra gigante com 1 palavra neon; Gomes & Moura: serifa itálica Fraunces e palavra gigante translúcida nas frases). Pesquisa e escolhas: `TEMPLATE.md`.
+- Fotos: as 16 de `CentralLindsonALmeida/painel/fotos-lindson/escolhidas-2026-11-16/` (IA), uma vez cada, recortadas do busto para cima (`ferramentas/recorte2.py`); aviso "imagem gerada por IA" na arte e na legenda. As outras 12 peças usam trabalho real de cliente (WF Celulares, Tribuna 98, Leo Pinto v13, Pagode Fiado, linha Provedor) ou mockup de celular.
+- Pautas novas (conferidas contra artes-v2, calendário, linha-frases, tweet-notícia): nenhuma repete. Frases usadas: F1.06, F1.10, F2.01, F3.05 (não estavam no calendário nem nas linhas Provedor).
+- Regras: sem preço, sem promessa, sem número inventado; Leo sem pedido de voto; Jaci não usada.
+- Pendências: (1) casos de cliente (WF, Tribuna 98, Leo, Pagode Fiado) dependem de o cliente autorizar o uso; (2) 6 peças sem foto do Lindson usam mockup de celular (acabaram as fotos novas: pedir lote novo); (3) pesquisa premium sem capturas novas (sem navegador nesta sessão), usou as referências aprovadas de 16/11.
+- Gerar: `REC=<pasta dos recortes> python3 gerador/gerar.py [id]` e `python3 gerador/finalizar.py` (prévia, legendas, painel.json → aba Artes do admin, imagens em privado `painel/admin-rede/le1-*.jpg`).

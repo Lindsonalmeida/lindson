@@ -649,3 +649,4 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 - **16/11/2026 (conta Leandro) · REPROVADO (visual):** Reels 3D miniaturas 01-06 (mesa preta, manequins low-poly) — "esses estão horríveis". Lindson vai postar assim mesmo, mas NUNCA repetir esse estilo. Próximos: outro tipo de vídeo 3D, pronúncias revisadas, sem voz de robô.
 
 - 16/11/2026 (conta Leandro): formato Tweet + notícia v1 feito (24 carrosséis em agencia/marca-lindson/tweet-noticia/v1/). Imagem = og:image da matéria com crédito "reprodução". Linha "Produtos do Rubla" travada: Rubla não existe nos repositórios.
+- **16/11/2026 (conta Leandro):** Linhas editoriais v1 da marca (28 peças, 7 linhas x 4) em `agencia/marca-lindson/linhas-editoriais/v1/`, aguardando aprovação. As 16 fotos escolhidas-2026-11-16 já foram todas usadas: pedir lote novo.
