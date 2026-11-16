@@ -20,3 +20,9 @@
 ## Pinterest (conta Pedro, 16/11/2026)
 Perfis de estúdios estudados: Pentagram (EUA/UK), Koto (UK), Porto Rocha (EUA/BR), Collins (EUA), Mucho (Espanha), Futura (México), Studio Dumbar (Holanda), Lundgren+Lindqvist (Suécia).
 **Escolhidas:** Koto (pin vertical com imagem do case em cima + bloco de título), Porto Rocha (tipografia gigante em cor chapada), Pentagram (colagem de aplicações). **Aproveitadas:** Collins (full-bleed + tarja), Brand New (faixas antes/depois). **Descartadas:** Lundgren+Lindqvist (branco demais), Dumbar (motion), Futura (moda).
+
+## Pinterest v2 (conta Pedro, 16/11/2026)
+Capturas em `pinterest/referencias/` (11: EUA, Reino Unido, Espanha, Brasil, Holanda, França).
+- **Escolhidas:** 1) Pentagram (aplicação em tela cheia, legenda pequena) · 2) Koto (mosaico de aplicações sem título) · 3) Mucho (logo sozinho na cor da marca). Apoio: DesignStudio (peça em palco com sombra), Porto Rocha (embalagem gigante), busca "brand identity mockup" do Pinterest.
+- **Descartadas:** Landor (vídeo abstrato, não vira pin), Collins (página vazia na captura), Ramotion (vitrine de agência, pouco editorial), Studio Dumbar (3D pesado, fora da linha da marca).
+- **Reprovado (v1):** manchetes Anton amarelas, chamadas de anúncio, prints de slide do Behance, mesmo layout em 30 pins.

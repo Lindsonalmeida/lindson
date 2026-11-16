@@ -1,15 +1,19 @@
-# Pinterest · Lindson Almeida Studio (conta Pedro, 16/11/2026)
+# Pinterest · Lindson Almeida Studio · v2 (conta Pedro, 16/11/2026)
 
-**Nome:** Lindson Almeida Studio | Identidade Visual · **Usuário:** @lindsonalmeidastudio · **Site:** https://lindsonalmeida.pages.dev/site/portfolio/ (reivindicar o domínio)
-**Bio (SEO, 160):** Identidade visual, logo, brand book e branding para negócios locais. Estúdio de design em São Luís (MA). Cases reais e inspiração de marca.
-**Foto:** avatar do Instagram @lindsonalmeida_ (mesmo, regra de 15/11). **Capa:** `prancha.jpg` (os 30 pins).
+v1 (30 pins com manchete amarela "MARCA QUE VENDE", "DO ZERO AO SISTEMA") **reprovada** pelo Lindson: parecia anúncio, texto miúdo, tudo igual, prints de slide no lugar de mockup.
 
-## 6 pastas
-1. **Cases de identidade visual** · Projetos completos de identidade visual: logo, paleta de cores, tipografia e aplicações reais para negócios brasileiros.
-2. **Brand book e manual de marca** · Exemplos de brand book e manual de identidade visual: cores com proporção, fontes, usos do logo e usos proibidos.
-3. **Antes e depois de marcas** · Rebranding na prática: como uma marca amadora vira um sistema visual profissional.
-4. **Ideias de logo e paleta de cores** · Inspiração de logotipo, monograma e paletas de cores por nicho: pizzaria, loja, clínica, curso, produtora.
-5. **Identidade visual para restaurante e pizzaria** · Branding de comida: caixa de pizza, cardápio, fachada e Instagram com a mesma marca.
-6. **Design para Instagram de negócios** · Feed, posts e stories na identidade da marca para pequenas empresas e profissionais.
+**Como o Pinterest funciona (pesquisa 16/11):** é busca visual. O algoritmo lê a imagem (busca visual/Lens), o título, a descrição e o nome da pasta. Prioriza saves e cliques de quem procura inspiração: imagem limpa, estética, uma aplicação forte por pin, 2:3 (1000×1500), pouco ou nenhum texto. Os estúdios (Pentagram, Koto, Porto Rocha, Mucho, Studio Dumbar) mostram só o trabalho: mockup em tela cheia, mosaico de aplicações, logo sozinho na cor da marca, legenda pequena.
 
-Pins: `PINS.csv` (upload em massa: Title, Media URL, Pinterest board, Description, Link, Keywords; trocar Media URL pelo link público da imagem ao subir). Gerador: `gerar.py`. Sem preço.
+**Nome:** Lindson Almeida Studio · **Usuário:** @lindsonalmeidastudio · **Site:** https://lindsonalmeida.pages.dev/site/portfolio/ (reivindicar o domínio, ativar Rich Pins)
+**Bio:** Estúdio de identidade visual e branding em São Luís (MA). Logos, papelaria, embalagem e social media de marcas reais.
+**Foto:** avatar do Instagram @lindsonalmeida_. **Capa do perfil:** `v2/pins/01-oregano-fachada.jpg`.
+
+## 5 pastas (nome = palavra-chave buscada)
+1. **Identidade visual aplicada** · fachadas, uniformes, apps e cursos com a marca no mundo real.
+2. **Logos e símbolos** · logos sozinhos na cor da marca.
+3. **Papelaria e mockups de marca** · cartão, sacola, brindes.
+4. **Design para Instagram de marcas** · feeds, destaques e posts de clientes.
+5. **Branding de restaurante e pizzaria** · campanhas de comida.
+
+## Rotina
+Subir 3 a 5 pins por dia (não os 24 de uma vez), cada pin com link do case. Pins `v2/pins/` · dados `PINS.csv` · gerador `v2/gerar.py` · prancha `v2/prancha.png`. Mockup de IA sempre com "imagem gerada por IA". Sem preço, sem chamada de anúncio.
