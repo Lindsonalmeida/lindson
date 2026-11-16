@@ -12,7 +12,7 @@ def simb(acesa=2, cor='#B8955A', base='#17191d', st=''):
     return f'<svg viewBox="0 0 480 480" style="{st}">' + ''.join(f'<path fill="{cor if i==acesa else base}" d="{p}"/>' for i, p in enumerate(P)) + '</svg>'
 def it(t):  # *palavra* -> itálico latão
     t = H.escape(t); return re.sub(r'\*(.+?)\*', r'<em>\1</em>', t)
-CSS = f'''@font-face{{font-family:F;src:url({F}fraunces.ttf)}}@font-face{{font-family:F;font-style:italic;src:url({F}fraunces-it.ttf)}}
+CSS = f'''@font-face{{font-family:F;src:url({F}fraunces.ttf)}}@font-face{{font-family:F;font-style:italic;src:url({F}fraunces-it.woff2)}}
 @font-face{{font-family:I;src:url({F}inter.ttf);font-weight:500}}@font-face{{font-family:I;src:url({F}inter-sb.ttf);font-weight:600}}@font-face{{font-family:M;src:url({F}mono.ttf)}}
 *{{margin:0;padding:0;box-sizing:border-box}}body{{font:500 30px/1.4 I;-webkit-font-smoothing:antialiased;overflow:hidden}}
 .pg{{position:relative;overflow:hidden}}

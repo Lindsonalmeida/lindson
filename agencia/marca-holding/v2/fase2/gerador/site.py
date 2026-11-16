@@ -51,6 +51,8 @@ CASES = [
  ('media', 'Raposa e Leão', 'Canal sobre poder e estratégia com identidade de retrato em preto e dourado.', 'Canal · YouTube', ''),
  ('ventures', 'Orégano Turbo', 'Operação de pizzaria com site, cardápio e pedidos em sistema próprio do grupo.', 'Negócio próprio · Alimentação', ''),
 ]
+def ph(nome, ratio='16/9', leg='', cls=''):
+    return f'<figure class="ph {cls}" data-img="f/{nome}" style="aspect-ratio:{ratio}"><div class="ph-in"></div><figcaption class="mono">{leg}<span>{nome}</span></figcaption></figure>'
 NAV = [('labs.html', 'Labs'), ('studio.html', 'Barzakh'), ('media.html', 'Media'), ('ventures.html', 'Ventures'), ('cases.html', 'Cases'), ('sobre.html', 'Sobre')]
 
 def page(arq, titulo, desc, corpo, tema='escuro', cor='#B8955A'):
@@ -68,7 +70,7 @@ def page(arq, titulo, desc, corpo, tema='escuro', cor='#B8955A'):
 <div class="rod-l"><a href="labs.html">Labs</a><a href="studio.html">Barzakh</a><a href="media.html">Media</a><a href="ventures.html">Ventures</a></div>
 <div class="rod-l"><a href="cases.html">Cases</a><a href="sobre.html">Sobre</a><a href="contato.html">Contato</a><a href="{WA}{quote('Olá! Vim pelo site da Al Kántara.')}" target="_blank" rel="noopener">WhatsApp</a></div></div>
 <div class="gigante" aria-hidden="true">Al Kántara</div><p class="mono pe">© 2026 Al Kántara Group · Quatro pedras, uma chave.</p></footer>
-<script src="movimento.js" defer></script></body></html>'''
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js" defer></script><script src="movimento.js" defer></script><script type="module" src="k3d.js"></script></body></html>'''
     open(os.path.join(D, arq), 'w').write(html)
 
 def cartoes_div():
@@ -81,13 +83,13 @@ def case_cards(filtro=None, n=None):
     out = ''
     for k, nome, txt, tag, link in cs:
         v = DIV[k]; a = f'<a class="ver" href="{link}" target="_blank" rel="noopener">Ver no ar ↗</a>' if link else '<span class="ver apag">Uso interno</span>'
-        out += f'''<article class="case rv" style="--c:{v['cor']}"><div class="case-capa">{simb(tuple(v['cor'] if i == list(DIV).index(k) else 'rgba(239,234,225,.08)' for i in range(4)), 'cc')}<span class="mono">{v.get('full','Al Kántara '+v['n'])}</span></div>
+        out += f'''<article class="case rv" style="--c:{v['cor']}"><div class="case-capa" data-img="f/case-{'barzakh' if k=='studio' else k}.jpg">{simb(tuple(v['cor'] if i == list(DIV).index(k) else 'rgba(239,234,225,.08)' for i in range(4)), 'cc')}<span class="mono">{v.get('full','Al Kántara '+v['n'])}</span></div>
 <span class="mono tag">{tag}</span><h3>{nome}</h3><p>{txt}</p>{a}</article>'''
     return out
 
 # ---------- home
 home = f'''
-<section class="hero"><div class="hero-simb" aria-hidden="true">{simb(('#1A1C20', '#1A1C20', '#B8955A', '#1A1C20'), 'gsimb')}</div>
+<section class="hero"><video class="hero-vid" data-vid="f/hero-pedra.mp4" muted loop playsinline aria-hidden="true"></video><canvas id="k3d" aria-hidden="true"></canvas><div class="hero-simb" aria-hidden="true">{simb(('#1A1C20', '#1A1C20', '#B8955A', '#1A1C20'), 'gsimb')}</div>
 <div class="hero-t"><p class="mono rv">GRUPO DE TECNOLOGIA · SÃO LUÍS, MARANHÃO</p>
 <h1 class="h-xl"><span class="lin">Estrutura para</span><span class="lin it">o que vem.</span></h1>
 <p class="lead rv">Construímos a tecnologia, a marca e a audiência de negócios que querem ir longe, a partir do Maranhão.</p>
@@ -125,6 +127,7 @@ for k, v in DIV.items():
 <p class="lead rv">{v['lead']}</p>
 <div class="acoes rv"><a class="btn" href="{WA}{quote(v['msg'])}" target="_blank" rel="noopener">Conversar sobre {v['n']}</a><a class="btn b2" href="#faz">O que fazemos</a></div></div></section>
 
+<section class="banda">{ph('div-' + ('barzakh' if k=='studio' else k) + '.jpg', '21/9', v.get('full','Al Kántara '+v['n']), 'par')}</section>
 <section class="manif claro"><p class="mono">{v['pedra'].upper()}</p><p class="acende" data-acende>{v['verbo']} {v['para']}</p></section>
 
 <section class="sec" id="faz"><div class="cab"><p class="mono">O QUE FAZEMOS</p><h2 class="h-l">{v['verbo'].replace('.', ',')}<br><em>com escopo por escrito.</em></h2></div>
@@ -156,6 +159,7 @@ page('cases.html', 'Cases · Al Kántara Group', 'Trabalho aplicado das quatro d
 page('sobre.html', 'Sobre · Al Kántara Group', 'O grupo, o nome, o propósito e os valores da Al Kántara.', f'''
 <section class="hero hero-p"><div class="hero-simb" aria-hidden="true">{simb(('#B8955A', '#1A1C20', '#1A1C20', '#1A1C20'), 'gsimb')}</div><div class="hero-t"><p class="mono">SOBRE O GRUPO</p><h1 class="h-xl"><span class="lin">Al-qantara,</span><span class="lin it">o arco.</span></h1>
 <p class="lead">Em árabe, al-qantara é a ponte de pedra, o arco. No topo de todo arco existe uma pedra-chave que segura as outras. As juntas entre as nossas quatro pedras desenham um K.</p></div></section>
+<section class="banda">{ph('sobre-arco.jpg', '21/9', 'Al-qantara, o arco', 'par')}</section>
 <section class="sec claro duas"><div><p class="mono">PROPÓSITO</p><h2 class="h-m">Dar estrutura ao que vem.</h2></div><p class="lead">Tecnologia, marca e audiência para negócios que querem ir longe a partir do Maranhão. Nossa missão é criar, operar e escalar produtos digitais, marcas e canais com rigor de engenharia e sensibilidade de design.</p></section>
 <section class="sec duas"><div><p class="mono">VISÃO</p><h2 class="h-m">Referência de rigor no Norte e no Nordeste.</h2></div><p class="lead">Ser o grupo de tecnologia que a região usa como referência de rigor, e que o resto do país reconhece.</p></section>
 <section class="sec"><div class="cab"><p class="mono">POSICIONAMENTO</p><h2 class="h-l">Construir, operar e distribuir<br><em>no mesmo lugar.</em></h2>
@@ -167,6 +171,7 @@ page('sobre.html', 'Sobre · Al Kántara Group', 'O grupo, o nome, o propósito 
 page('contato.html', 'Contato · Al Kántara Group', 'Fale com a Al Kántara: WhatsApp e São Luís, MA.', f'''
 <section class="hero hero-p"><div class="hero-t"><p class="mono">CONTATO</p><h1 class="h-xl"><span class="lin">Uma conversa,</span><span class="lin it">30 minutos.</span></h1>
 <p class="lead">Conte o que você quer construir. Respondemos com franqueza se e como podemos ajudar, e com qual divisão.</p></div></section>
+<section class="banda">{ph('contato-fundo.jpg', '21/9', 'Uma conversa', 'par')}</section>
 <section class="sec"><div class="contato">
 <form class="form" id="form" onsubmit="return enviar(event)"><label>Seu nome<input name="nome" required autocomplete="name"></label>
 <label>Empresa<input name="empresa" autocomplete="organization"></label>
