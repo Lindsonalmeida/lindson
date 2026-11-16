@@ -2,7 +2,7 @@
 # python3 gerar.py  -> agencia/clientes/<cli>/artigos/<slug>.html e, se o repo do site existir, /dicas/<slug>/index.html + /dicas/ + sitemap + link na home
 import json, html, os, re, sys, urllib.parse
 sys.path.insert(0, os.path.dirname(__file__))
-from conteudo import SF, JACI, RT, WF
+from conteudo import SF, JACI, RT, WF, EXTRA
 AG = '/home/user/lindson/agencia/clientes'
 CLI = [
  dict(k='desentupidora-sf', nome='Desentupidora SF', base='https://desentupidorasf.pages.dev', repo='/home/user/GruposSF', wa='5598920105710', arts=SF,
@@ -106,6 +106,8 @@ def indice(c):
 '''
 
 for c in CLI:
+    for a in c['arts']:
+        if not a.get('_x'): a['secoes'] = a['secoes'] + EXTRA[c['k']]; a['_x'] = 1
     os.makedirs(f"{AG}/{c['k']}/artigos", exist_ok=True)
     for a in c['arts']:
         assert len(a['title']) <= 60, a['title']; assert len(a['desc']) <= 155, a['desc']

@@ -513,3 +513,63 @@ dict(slug='tela-do-iphone-quebrou-o-que-fazer',
       ('O Face ID para de funcionar depois da troca?', 'Não deveria, se a troca for bem feita. Teste na entrega.')],
  servico=('https://wfcelulares.pages.dev/', 'Assistência WF Celulares')),
 ]
+
+# Blocos fixos por cliente (atendimento e confiança), entram em todo artigo antes da conclusão.
+EXTRA = {
+ 'desentupidora-sf': [
+  ('Como funciona o atendimento da SF', [
+   'O atendimento começa pelo WhatsApp. Você manda o endereço, o bairro e, se puder, uma foto ou um vídeo curto do problema. Com isso o técnico entende o tamanho do serviço e passa o orçamento antes de sair. Nada é feito sem você aprovar o valor.',
+   'No local, o técnico confirma o diagnóstico, explica o que vai fazer e usa equipamento profissional, como a máquina de cabo rotativo e a mola própria para vaso, para evitar quebra-quebra. No final, o teste com água é feito na sua frente e você recebe orientações para o problema não voltar.',
+   ('ul', ['Atendimento em casas, apartamentos, condomínios, restaurantes e empresas',
+           'São Luís, São José de Ribamar, Paço do Lumiar e Raposa',
+           'Orçamento antes do serviço, sem surpresa no final'])]),
+  ('Dicas para evitar novos entupimentos', [
+   ('ul', ['Óleo usado vai para uma garrafa, nunca para o ralo',
+           'Use ralo com peneira na pia e no box',
+           'Lixeira ao lado do vaso para lenço, absorvente e fio dental',
+           'Limpe a caixa de gordura e as calhas antes do período de chuvas',
+           'Jogue água nos ralos pouco usados uma vez por semana']),
+   'Pequenos hábitos como esses evitam a maior parte dos chamados de emergência e aumentam a vida útil da tubulação.'])],
+ 'jaci-cunha': [
+  ('Como é a avaliação na clínica', [
+   'A avaliação é o primeiro passo e acontece na clínica, em Zé Doca, em frente à Praça do Viva. Nela a Dra. Jaci Cunha, cirurgiã-dentista (CRO-MA 8514), conversa sobre o seu histórico de saúde, medicamentos, alergias e o que incomoda você. Depois analisa o rosto e explica, com calma, o que pode ou não ser indicado, quais são os riscos e quais são as alternativas.',
+   'Você sai da avaliação com as informações para decidir sem pressa. Se houver procedimento, ele é planejado para respeitar as suas características, buscando naturalidade.',
+   ('ul', ['Atendimento individual e com hora marcada',
+           'Explicação clara de riscos, cuidados e alternativas',
+           'Orientações por escrito e retorno combinado'])]),
+  ('Como escolher um profissional com segurança', [
+   ('ul', ['Confira se o profissional é habilitado e tem registro ativo no conselho (CRO ou CRM)',
+           'Desconfie de promessa de resultado garantido e de preço muito abaixo do comum',
+           'Pergunte qual produto será usado e se ele é registrado na Anvisa',
+           'Prefira ambiente de saúde adequado, com higiene e materiais descartáveis',
+           'Peça as orientações de pós-procedimento por escrito']),
+   'Essas perguntas valem para qualquer clínica e ajudam você a tomar uma decisão informada.'])],
+ 'rt-full-jobs': [
+  ('Como funciona a locação na Real Time', [
+   'Tudo começa pelo WhatsApp: você conta a data, o local e o tipo de gravação. A equipe indica o equipamento ou o kit que faz sentido para o seu projeto e passa o orçamento. Com a reserva confirmada, o material é separado, testado e conferido com você na retirada.',
+   'Se a produção pedir, a Real Time também oferece estúdio com fundo verde e equipe de produção, do roteiro à edição. Assim você escolhe se quer só o equipamento, o espaço ou o vídeo pronto.',
+   ('ul', ['Câmeras de cinema, lentes e iluminação por diária, avulsos ou em kits',
+           'Estúdio com fundo verde em São Luís',
+           'Produção de vídeo e de conteúdo para empresas'])]),
+  ('Checklist rápido antes da diária', [
+   ('ul', ['Roteiro ou lista de cenas, mesmo que simples',
+           'Local confirmado e com tomada disponível',
+           'Cartões e HD para copiar o material no fim do dia',
+           'Teste de som com microfone, nunca só com o da câmera',
+           'Horário de devolução combinado']),
+   'Com esse checklist, a diária rende mais e você evita voltar para regravar.'])],
+ 'wf-celulares': [
+  ('Como é o atendimento na WF Celulares', [
+   'A WF Celulares é especialista em iPhone em São Luís, com loja e assistência técnica. Você pode chamar pelo WhatsApp, mandar o modelo do seu aparelho e uma foto ou print do problema, e receber a orientação antes de ir à loja.',
+   'Na compra de seminovos, todo aparelho passa pelo Laudo WF, que confere bateria, tela e funcionamento, e sai com garantia da loja. Na assistência, o orçamento vem antes do serviço e o teste é feito na sua frente.',
+   ('ul', ['iPhone lacrado e seminovo com Laudo WF',
+           'Assistência: tela, bateria, conector, câmera e diagnóstico',
+           'Atendimento pelo WhatsApp e na loja em São Luís'])]),
+  ('Cuidados que fazem o seu iPhone durar mais', [
+   ('ul', ['Capa com borda elevada e película de vidro',
+           'Evite deixar o aparelho no sol ou dentro do carro',
+           'Use carregador e cabo de qualidade',
+           'Mantenha o iOS atualizado',
+           'Faça backup no iCloud pelo menos uma vez por semana']),
+   'Com esses cuidados, o aparelho segura melhor o valor de revenda e dá menos dor de cabeça no dia a dia.'])],
+}
