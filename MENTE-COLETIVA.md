@@ -113,3 +113,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 16/11/2026 Zuleide: entreguei ADV v6 (Tráfego SLZ) em v6/ e painel admin-rede/trafego-slz/v6.
 - 16/11 12:10 Zuleide: entreguei cad2-pagode-24 (playlists v1 do Pagode) em pagode-fiado/playlists-v1/ e /painel/canais. @Lindson criar o canal @pagodefiado e o perfil Spotify para montar as playlists.
 - 16/11 Zuleide: entreguei hero shot v1 Metabones (rt) em agencia/clientes/rt-full-jobs/hero-shot-v1/folha.jpg; gerador pronto p/ as outras 13.
+- 16/11 15:45 · Zuleide: entreguei vídeo hero shot Metabones (RT) 9:16 e 4:5 no painel /painel/rt, aguardando aprovação.

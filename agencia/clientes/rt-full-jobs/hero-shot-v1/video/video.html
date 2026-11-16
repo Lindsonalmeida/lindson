@@ -1,0 +1,51 @@
+<!doctype html><html><head><meta charset="utf-8">
+<!-- Vídeo hero shot (image-to-video por código, estilo Advantage+ da Meta). Conta Zuleide, 16/11/2026.
+ Camadas: fundo (cena_fundo.py) com dolly 1.00->1.08, produto com dolly 1.00->1.11 (parallax), varredura especular, rim azul pulsando,
+ poeira/haze, grão; textos entram em fade/slide, REC pisca, timecode corre, CTA Reservar aparece no fim. render(t) quadro a quadro. -->
+<!-- Hero shot v1 Real Time (conta Zuleide, 16/11/2026). Composição copiada do Inventário 06/14 (instagram-v2/serie.html, layout B):
+ topo assinatura + INVENTÁRIO nn/14, categoria mono, nome Geist 600, visor REC, chips DE/PARA/COMBINA, faixa preta com uso + Reservar.
+ Cena de fundo: cena.py (luz de produto, sombra de contato, reflexo), referência de linguagem: páginas de produto Apple/Sony/ARRI em fundo escuro. -->
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700;800&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>:root{--az:#2E9BFF;--in:#7C8CFF}*{box-sizing:border-box;margin:0;padding:0}
+body{width:1080px;height:var(--h);overflow:hidden;font-family:Geist,sans-serif;-webkit-font-smoothing:antialiased;background:#0E0E0F;color:#F4F7FB;position:relative}
+.a{position:absolute}.mono{font-family:'Geist Mono',monospace;letter-spacing:.14em;text-transform:uppercase}
+.topo{left:64px;right:64px;top:56px;display:flex;justify-content:space-between;align-items:center}.topo img{height:46px}.topo span{font:500 20px 'Geist Mono';letter-spacing:.14em}.topo span:before{content:"● ";color:#FF3B3B}
+.chip{border-radius:22px;padding:18px 22px;background:rgba(20,22,28,.55);backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,.14);box-shadow:0 20px 40px -20px rgba(0,0,0,.7)}
+.chip .k{font:500 17px 'Geist Mono';letter-spacing:.12em;color:#9ecbff;text-transform:uppercase}.chip .v{font:600 28px/1.1 Geist;margin-top:6px}
+.cta{display:inline-flex;align-items:center;gap:12px;background:var(--az);color:#fff;border-radius:99px;padding:14px 24px;font:600 23px Geist;white-space:nowrap}.cta:after{content:"→"}
+</style></head><body><div id="cam" class="a" style="inset:0;transform-origin:50% 62%"><img id="bg" class="a" style="inset:0"></div>
+<div id="pcam" class="a" style="inset:0;transform-origin:50% 62%"><div id="pw" class="a"><img id="pr" style="width:100%;height:100%;filter:contrast(1.06)"><div id="sw" class="a" style="inset:0"></div></div></div>
+<canvas id="pt" class="a" width="1080" style="inset:0;mix-blend-mode:screen"></canvas><canvas id="gr" class="a" width="540" style="inset:0;width:100%;height:100%;opacity:.07;mix-blend-mode:overlay"></canvas><div id="r"></div>
+<script>
+const q=new URLSearchParams(location.search),H=+q.get('h')||1350,D=JSON.parse(decodeURIComponent(q.get('d')));
+document.body.style.setProperty('--h',H+'px');document.getElementById('bg').src=D.bg;const PH=D.ph,YB=D.yb,PW=Math.round(1085*PH/1203);
+const pwd=document.getElementById('pw');Object.assign(pwd.style,{left:(540-PW/2)+'px',top:(YB-PH)+'px',width:PW+'px',height:PH+'px'});document.getElementById('pr').src=D.recorte;
+const sw=document.getElementById('sw');sw.style.webkitMaskImage=sw.style.maskImage='url('+D.recorte+')';sw.style.webkitMaskSize=sw.style.maskSize='100% 100%';
+const s=H>1500?1:0, Y=v=>s?v[1]:v[0];
+const visor=(x,y,w,h,tc)=>`<div class="a" style="left:${x}px;top:${y}px;width:${w}px;height:${h}px">${[['left:0;top:0','2.5px 0 0 2.5px'],['right:0;top:0','2.5px 2.5px 0 0'],['left:0;bottom:0','0 0 2.5px 2.5px'],['right:0;bottom:0','0 2.5px 2.5px 0']].map(([p,b])=>`<i style="position:absolute;${p};width:34px;height:34px;border:0 solid rgba(244,247,251,.8);border-width:${b}"></i>`).join('')}<span style="position:absolute;left:24px;top:20px;font:500 19px 'Geist Mono';letter-spacing:.12em"><b id="rec" style="color:#FF3B3B">●</b> REC</span><span id="tc" style="position:absolute;right:24px;bottom:18px;font:500 19px 'Geist Mono';letter-spacing:.1em">${tc}</span></div>`;
+document.getElementById('r').innerHTML=`
+<div class="a topo" data-in="0.2,0,-20"><img src="../../identidade/v1/marca/assinatura-horizontal.svg"><span>INVENTÁRIO ${D.num}/14</span></div>
+<div class="a" data-in="0.6,0,30" style="left:0;right:0;top:${Y([140,250])}px;text-align:center"><div class="mono" style="font-size:22px;color:#9ecbff">${D.cat}</div>
+<div style="font:600 ${Y([84,96])}px/0.98 Geist;letter-spacing:-.045em;margin-top:12px">${D.nome}</div><div style="font:400 27px Geist;color:#a9adb6;margin-top:10px">${D.l2}</div></div>
+<div data-in="0.1,0,0">${visor(150,Y([380,560]),780,Y([600,800]),'00:00:'+D.num+':00')}</div>
+${D.at.map(([k,v],i)=>`<div class="a chip" data-in="${1.6+i*0.35},${i%2?40:-40},0" style="${i%2?'right':'left'}:48px;top:${Y([[470,640,860],[700,640,1290]])[i]}px">
+<div class="k">${k}</div><div class="v">${v}</div></div>`).join('')}
+<div class="a" data-in="4.6,0,60" style="left:${Y([150,64])}px;right:${Y([150,64])}px;top:${Y([1080,1520])}px;background:rgba(14,14,15,.82);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.1);border-radius:26px;padding:20px 24px;display:flex;justify-content:space-between;align-items:center;gap:16px">
+<span style="font:500 23px/1.35 Geist;color:#e3e6ec">${D.uso}</span><span class="cta" id="cta">Reservar</span></div>
+<div class="a mono" data-in="5.2,0,20" style="left:0;right:0;bottom:${Y([44,120])}px;text-align:center;font-size:20px;color:#8f939b">Locação · WhatsApp (98) 99133-1727</div>`;
+Promise.all([document.fonts.ready,...[...document.images].map(i=>i.complete?1:new Promise(r=>{i.onload=i.onerror=r}))]).then(()=>window.pronto=true);
+const E=x=>1-Math.pow(1-Math.min(Math.max(x,0),1),3),HH=H;const pc=document.getElementById('pt');pc.height=HH;const cx=pc.getContext('2d');
+const g=document.getElementById('gr');g.height=HH/2;const gx=g.getContext('2d');let seed=7;const R=()=>(seed=(seed*16807)%2147483647)/2147483647;
+const P=[...Array(70)].map(()=>({x:R()*1080,y:R()*HH,r:0.6+R()*2.2,v:4+R()*14,d:R()*6.28,a:0.15+R()*0.5}));
+window.render=t=>{const T=7,k=t/T,ez=k*k*(3-2*k);
+ document.getElementById("cam").style.transformOrigin=`50% ${YB}px`;document.getElementById("cam").style.transform=`scale(${1+0.08*ez})`;document.getElementById("pcam").style.transformOrigin=`50% ${YB}px`;document.getElementById("pcam").style.transform=`scale(${1+0.11*ez})`;
+ const sx=-60+((t-0.8)/2.6)*220;sw.style.background=`linear-gradient(105deg,transparent ${sx-14}%,rgba(255,255,255,.55) ${sx}%,rgba(158,203,255,.25) ${sx+6}%,transparent ${sx+16}%)`;sw.style.mixBlendMode='screen';
+ const sx2=-60+((t-4.3)/2.2)*220;if(t>4.3)sw.style.background+=`,linear-gradient(105deg,transparent ${sx2-12}%,rgba(255,255,255,.4) ${sx2}%,transparent ${sx2+12}%)`;
+ document.getElementById('pr').style.filter=`contrast(1.06) drop-shadow(0 0 ${10+8*Math.sin(t*2.4)**2}px rgba(46,155,255,${0.25+0.25*Math.sin(t*2.4)**2}))`;
+ cx.clearRect(0,0,1080,HH);const hg=cx.createRadialGradient(540,YB-PH*0.5,0,540,YB-PH*0.5,700);hg.addColorStop(0,`rgba(90,120,170,${0.10+0.04*Math.sin(t)})`);hg.addColorStop(1,'rgba(0,0,0,0)');cx.fillStyle=hg;cx.fillRect(0,0,1080,HH);
+ for(const p of P){const y=((p.y-p.v*t)%HH+HH)%HH,x=p.x+Math.sin(t*0.7+p.d)*12;cx.beginPath();cx.arc(x,y,p.r,0,6.28);cx.fillStyle=`rgba(200,220,255,${p.a*(0.6+0.4*Math.sin(t*2+p.d))})`;cx.fill()}
+ const id=gx.createImageData(540,HH/2);for(let i=0;i<id.data.length;i+=4){const v=R()*255;id.data[i]=id.data[i+1]=id.data[i+2]=v;id.data[i+3]=255}gx.putImageData(id,0,0);
+ document.querySelectorAll('[data-in]').forEach(el=>{const [t0,dx,dy]=el.dataset.in.split(',').map(Number),e=E((t-t0)/0.7);el.style.opacity=e;el.style.translate=`${dx*(1-e)}px ${dy*(1-e)}px`});
+ document.getElementById('rec').style.opacity=(Math.floor(t*2)%2)?0.15:1;const f=Math.floor(t*24)%24,ss=Math.floor(t);document.getElementById('tc').textContent=`00:00:${String(ss).padStart(2,'0')}:${String(f).padStart(2,'0')}`;
+ const c=E((t-5.4)/0.5),cta=document.getElementById('cta');cta.style.opacity=c;cta.style.transform=`scale(${0.85+0.15*c+0.04*Math.sin(Math.max(0,t-5.9)*6)*(t>5.9?1:0)})`;cta.style.boxShadow=`0 0 ${30*c}px rgba(46,155,255,.7)`};
+</script></body></html>
