@@ -49,3 +49,4 @@ Testadas: Antonio, Brian/Andrew Multilingual (en-US) e Thalita Multilingual (fem
 | VESPID | Véspide | "véspede/vesp de"; limite da voz |
 | Real Time | Riál Táime | ok nos 9 |
 Grafias do Brian (se um dia trocar a voz): `motor/pronuncias_brian.json`; motor aceita `VOZ=` e `PRON=`.
+**Atualização 16/11 (conta Zuleide):** pt-BR-MacerioMultilingualNeural não existe no edge-tts (NoAudioReceived). Plano B aplicado: as marcas DZOFilm, VESPID e Tilta saíram da narração (continuam no lettering). Falas novas: 01 "Olha essa matte box sem fio!", 02 "Foco sem fio, na sua mão!" e "Foco e gravar.", 03 "Lentes anamórficas Arcana!", 04 "Agora, a lente de cinema.", 06 "Agora, a maleta das lentes." e "São seis lentes de cinema…". Whisper medium sem prompt: sem erro de termo nos 9.
