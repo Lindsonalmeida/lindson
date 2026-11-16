@@ -1,0 +1,902 @@
+[
+ {
+  "data": "16/11",
+  "dia": "seg",
+  "stories": [
+   {
+    "hora": "08:30",
+    "linha": "Acolhimento",
+    "titulo": "Bom dia de Zé Doca",
+    "texto": "A clínica já está pronta para te receber. Hoje tem avaliação com hora marcada.",
+    "formato": "arte com foto real (não repetir)",
+    "modo": "automático"
+   },
+   {
+    "hora": "13:00",
+    "linha": "Dúvidas e autoridade",
+    "titulo": "Botox deixa a cara parada?",
+    "texto": "Quando a dose é planejada para o seu rosto, a expressão continua sua. Isso se decide na avaliação.",
+    "formato": "arte educativa",
+    "modo": "automático"
+   },
+   {
+    "hora": "19:30",
+    "linha": "Agenda",
+    "titulo": "Agenda da semana",
+    "texto": "Os horários de avaliação desta semana estão abertos. Toque no link e garanta o seu.",
+    "formato": "figurinha de link (drajacicunha.pages.dev/avaliacao)",
+    "modo": "manual (figurinha)"
+   }
+  ]
+ },
+ {
+  "data": "17/11",
+  "dia": "ter",
+  "stories": [
+   {
+    "hora": "08:30",
+    "linha": "Acolhimento",
+    "titulo": "Aqui você é ouvida",
+    "texto": "A primeira coisa que eu faço numa avaliação é perguntar: o que te incomoda?",
+    "formato": "arte com foto real (não repetir)",
+    "modo": "automático"
+   },
+   {
+    "hora": "13:00",
+    "linha": "Dúvidas e autoridade",
+    "titulo": "Dentista pode fazer harmonização?",
+    "texto": "Pode. A harmonização orofacial é especialidade reconhecida pelo Conselho Federal de Odontologia.",
+    "formato": "arte educativa",
+    "modo": "automático"
+   },
+   {
+    "hora": "19:30",
+    "linha": "Chamada",
+    "titulo": "Avaliação",
+    "texto": "Quer entender o que é indicado para você? Comece pela avaliação. Link na bio.",
+    "formato": "arte com botão WhatsApp",
+    "modo": "automático"
+   }
+  ]
+ },
+ {
+  "data": "18/11",
+  "dia": "qua",
+  "stories": [
+   {
+    "hora": "08:30",
+    "linha": "Acolhimento",
+    "titulo": "Seu horário é seu",
+    "texto": "Atendimento com hora marcada, no tempo certo para você.",
+    "formato": "arte com foto real (não repetir)",
+    "modo": "automático"
+   },
+   {
+    "hora": "13:00",
+    "linha": "Dúvidas",
+    "titulo": "Caixinha de perguntas",
+    "texto": "Pergunte o que quiser sobre harmonização ou sorriso. Respondo aqui nos stories.",
+    "formato": "figurinha de perguntas",
+    "modo": "manual (figurinha)"
+   },
+   {
+    "hora": "19:30",
+    "linha": "Chamada",
+    "titulo": "Avaliação",
+    "texto": "Quem quer estar bem nas festas começa agora. Agende sua avaliação pelo WhatsApp.",
+    "formato": "arte com botão WhatsApp",
+    "modo": "automático"
+   }
+  ]
+ },
+ {
+  "data": "19/11",
+  "dia": "qui",
+  "stories": [
+   {
+    "hora": "08:30",
+    "linha": "Acolhimento",
+    "titulo": "Por trás do jaleco",
+    "texto": "Cirurgiã-dentista, CRO-MA 8514. Cuido de sorrisos e do equilíbrio do rosto.",
+    "formato": "arte com foto real (não repetir)",
+    "modo": "automático"
+   },
+   {
+    "hora": "13:00",
+    "linha": "Dúvidas e autoridade",
+    "titulo": "Preenchimento labial fica exagerado?",
+    "texto": "Fica do jeito que for planejado. Aqui o limite é o que combina com o seu rosto.",
+    "formato": "arte educativa",
+    "modo": "automático"
+   },
+   {
+    "hora": "19:30",
+    "linha": "Chamada",
+    "titulo": "Avaliação",
+    "texto": "Mande \"AVALIAÇÃO\" no WhatsApp (98) 98567-2646 e a equipe te responde.",
+    "formato": "arte com botão WhatsApp",
+    "modo": "automático"
+   }
+  ]
+ },
+ {
+  "data": "20/11",
+  "dia": "sex",
+  "stories": [
+   {
+    "hora": "08:30",
+    "linha": "Acolhimento",
+    "titulo": "Materiais com procedência",
+    "texto": "Pergunte na avaliação de onde vem cada produto. Você tem direito de saber.",
+    "formato": "arte com foto real (não repetir)",
+    "modo": "automático"
+   },
+   {
+    "hora": "13:00",
+    "linha": "Interação",
+    "titulo": "Enquete",
+    "texto": "Você já fez avaliação de harmonização? (Já fiz · Ainda não)",
+    "formato": "figurinha de enquete",
+    "modo": "manual (figurinha)"
+   },
+   {
+    "hora": "19:30",
+    "linha": "Chamada",
+    "titulo": "Avaliação",
+    "texto": "Vem de cidade vizinha? Marque com antecedência e venha com tudo certo.",
+    "formato": "arte com botão WhatsApp",
+    "modo": "automático"
+   }
+  ]
+ },
+ {
+  "data": "21/11",
+  "dia": "sáb",
+  "stories": [
+   {
+    "hora": "08:30",
+    "linha": "Acolhimento",
+    "titulo": "Biossegurança",
+    "texto": "Cuidado com a esterilização em cada atendimento. Segurança vem antes de tudo.",
+    "formato": "arte com foto real (não repetir)",
+    "modo": "automático"
+   },
+   {
+    "hora": "13:00",
+    "linha": "Dúvidas e autoridade",
+    "titulo": "Posso trabalhar no mesmo dia?",
+    "texto": "Na maioria dos casos, sim. As orientações de cuidado você recebe por escrito.",
+    "formato": "arte educativa",
+    "modo": "automático"
+   },
+   {
+    "hora": "19:30",
+    "linha": "Chamada",
+    "titulo": "Avaliação",
+    "texto": "Ficou com dúvida? Responda este story que eu te explico.",
+    "formato": "arte com botão WhatsApp",
+    "modo": "automático"
+   }
+  ]
+ },
+ {
+  "data": "22/11",
+  "dia": "dom",
+  "stories": [
+   {
+    "hora": "08:30",
+    "linha": "Acolhimento",
+    "titulo": "Em frente à Praça do Viva",
+    "texto": "Av. Militar, Zé Doca. Fácil de chegar, fácil de achar.",
+    "formato": "arte com foto real (não repetir)",
+    "modo": "automático"
+   },
+   {
+    "hora": "13:00",
+    "linha": "Dúvidas e autoridade",
+    "titulo": "Por que eu às vezes digo não",
+    "texto": "Nem todo pedido é indicado. Dizer não também é cuidar de você.",
+    "formato": "arte educativa",
+    "modo": "automático"
+   },
+   {
+    "hora": "19:30",
+    "linha": "Chamada",
+    "titulo": "Avaliação",
+    "texto": "Avaliações desta semana: ainda há horários. Chame no WhatsApp (98) 98567-2646.",
+    "formato": "arte com botão WhatsApp",
+    "modo": "automático"
+   }
+  ]
+ },
+ {
+  "data": "23/11",
+  "dia": "seg",
+  "stories": [
+   {
+    "hora": "08:30",
+    "linha": "Acolhimento",
+    "titulo": "Um novo conceito",
+    "texto": "Beleza, saúde e bem-estar no mesmo cuidado.",
+    "formato": "arte com foto real (não repetir)",
+    "modo": "automático"
+   },
+   {
+    "hora": "13:00",
+    "linha": "Dúvidas e autoridade",
+    "titulo": "Quanto tempo dura?",
+    "texto": "Varia de pessoa para pessoa e de produto para produto. Eu explico o seu caso na avaliação.",
+    "formato": "arte educativa",
+    "modo": "automático"
+   },
+   {
+    "hora": "19:30",
+    "linha": "Agenda",
+    "titulo": "Agenda da semana",
+    "texto": "Os horários de avaliação desta semana estão abertos. Toque no link e garanta o seu.",
+    "formato": "figurinha de link (drajacicunha.pages.dev/avaliacao)",
+    "modo": "manual (figurinha)"
+   }
+  ]
+ },
+ {
+  "data": "24/11",
+  "dia": "ter",
+  "stories": [
+   {
+    "hora": "08:30",
+    "linha": "Acolhimento",
+    "titulo": "Natural é o objetivo",
+    "texto": "Realçar o que já é seu, sem mudar quem você é.",
+    "formato": "arte com foto real (não repetir)",
+    "modo": "automático"
+   },
+   {
+    "hora": "13:00",
+    "linha": "Dúvidas e autoridade",
+    "titulo": "Sorri de boca fechada nas fotos?",
+    "texto": "Talvez o primeiro passo seja uma avaliação odontológica. Começa por aí.",
+    "formato": "arte educativa",
+    "modo": "automático"
+   },
+   {
+    "hora": "19:30",
+    "linha": "Chamada",
+    "titulo": "Avaliação",
+    "texto": "Quem quer estar bem nas festas começa agora. Agende sua avaliação pelo WhatsApp.",
+    "formato": "arte com botão WhatsApp",
+    "modo": "automático"
+   }
+  ]
+ },
+ {
+  "data": "25/11",
+  "dia": "qua",
+  "stories": [
+   {
+    "hora": "08:30",
+    "linha": "Acolhimento",
+    "titulo": "Sem pressa",
+    "texto": "A avaliação leva o tempo que você precisar para tirar todas as dúvidas.",
+    "formato": "arte com foto real (não repetir)",
+    "modo": "automático"
+   },
+   {
+    "hora": "13:00",
+    "linha": "Dúvidas",
+    "titulo": "Caixinha de perguntas",
+    "texto": "Pergunte o que quiser sobre harmonização ou sorriso. Respondo aqui nos stories.",
+    "formato": "figurinha de perguntas",
+    "modo": "manual (figurinha)"
+   },
+   {
+    "hora": "19:30",
+    "linha": "Chamada",
+    "titulo": "Avaliação",
+    "texto": "Mande \"AVALIAÇÃO\" no WhatsApp (98) 98567-2646 e a equipe te responde.",
+    "formato": "arte com botão WhatsApp",
+    "modo": "automático"
+   }
+  ]
+ },
+ {
+  "data": "26/11",
+  "dia": "qui",
+  "stories": [
+   {
+    "hora": "08:30",
+    "linha": "Acolhimento",
+    "titulo": "Bom dia de Zé Doca",
+    "texto": "A clínica já está pronta para te receber. Hoje tem avaliação com hora marcada.",
+    "formato": "arte com foto real (não repetir)",
+    "modo": "automático"
+   },
+   {
+    "hora": "13:00",
+    "linha": "Dúvidas e autoridade",
+    "titulo": "Tenho medo de agulha",
+    "texto": "É mais comum do que você imagina. Me conta na avaliação: a gente vai no seu tempo.",
+    "formato": "arte educativa",
+    "modo": "automático"
+   },
+   {
+    "hora": "19:30",
+    "linha": "Chamada",
+    "titulo": "Avaliação",
+    "texto": "Vem de cidade vizinha? Marque com antecedência e venha com tudo certo.",
+    "formato": "arte com botão WhatsApp",
+    "modo": "automático"
+   }
+  ]
+ },
+ {
+  "data": "27/11",
+  "dia": "sex",
+  "stories": [
+   {
+    "hora": "08:30",
+    "linha": "Acolhimento",
+    "titulo": "Aqui você é ouvida",
+    "texto": "A primeira coisa que eu faço numa avaliação é perguntar: o que te incomoda?",
+    "formato": "arte com foto real (não repetir)",
+    "modo": "automático"
+   },
+   {
+    "hora": "13:00",
+    "linha": "Interação",
+    "titulo": "Enquete",
+    "texto": "O que mais te incomoda? (Olheiras · Lábios)",
+    "formato": "figurinha de enquete",
+    "modo": "manual (figurinha)"
+   },
+   {
+    "hora": "19:30",
+    "linha": "Chamada",
+    "titulo": "Avaliação",
+    "texto": "Ficou com dúvida? Responda este story que eu te explico.",
+    "formato": "arte com botão WhatsApp",
+    "modo": "automático"
+   }
+  ]
+ },
+ {
+  "data": "28/11",
+  "dia": "sáb",
+  "stories": [
+   {
+    "hora": "08:30",
+    "linha": "Acolhimento",
+    "titulo": "Seu horário é seu",
+    "texto": "Atendimento com hora marcada, no tempo certo para você.",
+    "formato": "arte com foto real (não repetir)",
+    "modo": "automático"
+   },
+   {
+    "hora": "13:00",
+    "linha": "Dúvidas e autoridade",
+    "titulo": "Botox deixa a cara parada?",
+    "texto": "Quando a dose é planejada para o seu rosto, a expressão continua sua. Isso se decide na avaliação.",
+    "formato": "arte educativa",
+    "modo": "automático"
+   },
+   {
+    "hora": "19:30",
+    "linha": "Chamada",
+    "titulo": "Avaliação",
+    "texto": "Avaliações desta semana: ainda há horários. Chame no WhatsApp (98) 98567-2646.",
+    "formato": "arte com botão WhatsApp",
+    "modo": "automático"
+   }
+  ]
+ },
+ {
+  "data": "29/11",
+  "dia": "dom",
+  "stories": [
+   {
+    "hora": "08:30",
+    "linha": "Acolhimento",
+    "titulo": "Por trás do jaleco",
+    "texto": "Cirurgiã-dentista, CRO-MA 8514. Cuido de sorrisos e do equilíbrio do rosto.",
+    "formato": "arte com foto real (não repetir)",
+    "modo": "automático"
+   },
+   {
+    "hora": "13:00",
+    "linha": "Dúvidas e autoridade",
+    "titulo": "Dentista pode fazer harmonização?",
+    "texto": "Pode. A harmonização orofacial é especialidade reconhecida pelo Conselho Federal de Odontologia.",
+    "formato": "arte educativa",
+    "modo": "automático"
+   },
+   {
+    "hora": "19:30",
+    "linha": "Chamada",
+    "titulo": "Avaliação",
+    "texto": "Quer entender o que é indicado para você? Comece pela avaliação. Link na bio.",
+    "formato": "arte com botão WhatsApp",
+    "modo": "automático"
+   }
+  ]
+ },
+ {
+  "data": "30/11",
+  "dia": "seg",
+  "stories": [
+   {
+    "hora": "08:30",
+    "linha": "Acolhimento",
+    "titulo": "Materiais com procedência",
+    "texto": "Pergunte na avaliação de onde vem cada produto. Você tem direito de saber.",
+    "formato": "arte com foto real (não repetir)",
+    "modo": "automático"
+   },
+   {
+    "hora": "13:00",
+    "linha": "Dúvidas e autoridade",
+    "titulo": "Bioestimulador ou preenchimento?",
+    "texto": "Um estimula o seu colágeno; o outro repõe volume. Qual é o seu caso, só a avaliação diz.",
+    "formato": "arte educativa",
+    "modo": "automático"
+   },
+   {
+    "hora": "19:30",
+    "linha": "Agenda",
+    "titulo": "Agenda da semana",
+    "texto": "Os horários de avaliação desta semana estão abertos. Toque no link e garanta o seu.",
+    "formato": "figurinha de link (drajacicunha.pages.dev/avaliacao)",
+    "modo": "manual (figurinha)"
+   }
+  ]
+ },
+ {
+  "data": "01/12",
+  "dia": "ter",
+  "stories": [
+   {
+    "hora": "08:30",
+    "linha": "Acolhimento",
+    "titulo": "Biossegurança",
+    "texto": "Cuidado com a esterilização em cada atendimento. Segurança vem antes de tudo.",
+    "formato": "arte com foto real (não repetir)",
+    "modo": "automático"
+   },
+   {
+    "hora": "13:00",
+    "linha": "Dúvidas e autoridade",
+    "titulo": "Preenchimento labial fica exagerado?",
+    "texto": "Fica do jeito que for planejado. Aqui o limite é o que combina com o seu rosto.",
+    "formato": "arte educativa",
+    "modo": "automático"
+   },
+   {
+    "hora": "19:30",
+    "linha": "Chamada",
+    "titulo": "Avaliação",
+    "texto": "Mande \"AVALIAÇÃO\" no WhatsApp (98) 98567-2646 e a equipe te responde.",
+    "formato": "arte com botão WhatsApp",
+    "modo": "automático"
+   }
+  ]
+ },
+ {
+  "data": "02/12",
+  "dia": "qua",
+  "stories": [
+   {
+    "hora": "08:30",
+    "linha": "Acolhimento",
+    "titulo": "Em frente à Praça do Viva",
+    "texto": "Av. Militar, Zé Doca. Fácil de chegar, fácil de achar.",
+    "formato": "arte com foto real (não repetir)",
+    "modo": "automático"
+   },
+   {
+    "hora": "13:00",
+    "linha": "Dúvidas",
+    "titulo": "Caixinha de perguntas",
+    "texto": "Pergunte o que quiser sobre harmonização ou sorriso. Respondo aqui nos stories.",
+    "formato": "figurinha de perguntas",
+    "modo": "manual (figurinha)"
+   },
+   {
+    "hora": "19:30",
+    "linha": "Chamada",
+    "titulo": "Avaliação",
+    "texto": "Vem de cidade vizinha? Marque com antecedência e venha com tudo certo.",
+    "formato": "arte com botão WhatsApp",
+    "modo": "automático"
+   }
+  ]
+ },
+ {
+  "data": "03/12",
+  "dia": "qui",
+  "stories": [
+   {
+    "hora": "08:30",
+    "linha": "Acolhimento",
+    "titulo": "Um novo conceito",
+    "texto": "Beleza, saúde e bem-estar no mesmo cuidado.",
+    "formato": "arte com foto real (não repetir)",
+    "modo": "automático"
+   },
+   {
+    "hora": "13:00",
+    "linha": "Dúvidas e autoridade",
+    "titulo": "Posso trabalhar no mesmo dia?",
+    "texto": "Na maioria dos casos, sim. As orientações de cuidado você recebe por escrito.",
+    "formato": "arte educativa",
+    "modo": "automático"
+   },
+   {
+    "hora": "19:30",
+    "linha": "Chamada",
+    "titulo": "Avaliação",
+    "texto": "Ficou com dúvida? Responda este story que eu te explico.",
+    "formato": "arte com botão WhatsApp",
+    "modo": "automático"
+   }
+  ]
+ },
+ {
+  "data": "04/12",
+  "dia": "sex",
+  "stories": [
+   {
+    "hora": "08:30",
+    "linha": "Acolhimento",
+    "titulo": "Natural é o objetivo",
+    "texto": "Realçar o que já é seu, sem mudar quem você é.",
+    "formato": "arte com foto real (não repetir)",
+    "modo": "automático"
+   },
+   {
+    "hora": "13:00",
+    "linha": "Interação",
+    "titulo": "Enquete",
+    "texto": "Medo de agulha? (Tenho · Não tenho)",
+    "formato": "figurinha de enquete",
+    "modo": "manual (figurinha)"
+   },
+   {
+    "hora": "19:30",
+    "linha": "Chamada",
+    "titulo": "Avaliação",
+    "texto": "Avaliações desta semana: ainda há horários. Chame no WhatsApp (98) 98567-2646.",
+    "formato": "arte com botão WhatsApp",
+    "modo": "automático"
+   }
+  ]
+ },
+ {
+  "data": "05/12",
+  "dia": "sáb",
+  "stories": [
+   {
+    "hora": "08:30",
+    "linha": "Acolhimento",
+    "titulo": "Sem pressa",
+    "texto": "A avaliação leva o tempo que você precisar para tirar todas as dúvidas.",
+    "formato": "arte com foto real (não repetir)",
+    "modo": "automático"
+   },
+   {
+    "hora": "13:00",
+    "linha": "Dúvidas e autoridade",
+    "titulo": "Quanto tempo dura?",
+    "texto": "Varia de pessoa para pessoa e de produto para produto. Eu explico o seu caso na avaliação.",
+    "formato": "arte educativa",
+    "modo": "automático"
+   },
+   {
+    "hora": "19:30",
+    "linha": "Chamada",
+    "titulo": "Avaliação",
+    "texto": "Quer entender o que é indicado para você? Comece pela avaliação. Link na bio.",
+    "formato": "arte com botão WhatsApp",
+    "modo": "automático"
+   }
+  ]
+ },
+ {
+  "data": "06/12",
+  "dia": "dom",
+  "stories": [
+   {
+    "hora": "08:30",
+    "linha": "Acolhimento",
+    "titulo": "Bom dia de Zé Doca",
+    "texto": "A clínica já está pronta para te receber. Hoje tem avaliação com hora marcada.",
+    "formato": "arte com foto real (não repetir)",
+    "modo": "automático"
+   },
+   {
+    "hora": "13:00",
+    "linha": "Dúvidas e autoridade",
+    "titulo": "Sorri de boca fechada nas fotos?",
+    "texto": "Talvez o primeiro passo seja uma avaliação odontológica. Começa por aí.",
+    "formato": "arte educativa",
+    "modo": "automático"
+   },
+   {
+    "hora": "19:30",
+    "linha": "Chamada",
+    "titulo": "Avaliação",
+    "texto": "Quem quer estar bem nas festas começa agora. Agende sua avaliação pelo WhatsApp.",
+    "formato": "arte com botão WhatsApp",
+    "modo": "automático"
+   }
+  ]
+ },
+ {
+  "data": "07/12",
+  "dia": "seg",
+  "stories": [
+   {
+    "hora": "08:30",
+    "linha": "Acolhimento",
+    "titulo": "Aqui você é ouvida",
+    "texto": "A primeira coisa que eu faço numa avaliação é perguntar: o que te incomoda?",
+    "formato": "arte com foto real (não repetir)",
+    "modo": "automático"
+   },
+   {
+    "hora": "13:00",
+    "linha": "Dúvidas e autoridade",
+    "titulo": "O que é harmonização orofacial?",
+    "texto": "Cuidar do equilíbrio entre rosto e sorriso, respeitando os seus traços.",
+    "formato": "arte educativa",
+    "modo": "automático"
+   },
+   {
+    "hora": "19:30",
+    "linha": "Agenda",
+    "titulo": "Agenda da semana",
+    "texto": "Os horários de avaliação desta semana estão abertos. Toque no link e garanta o seu.",
+    "formato": "figurinha de link (drajacicunha.pages.dev/avaliacao)",
+    "modo": "manual (figurinha)"
+   }
+  ]
+ },
+ {
+  "data": "08/12",
+  "dia": "ter",
+  "stories": [
+   {
+    "hora": "08:30",
+    "linha": "Acolhimento",
+    "titulo": "Seu horário é seu",
+    "texto": "Atendimento com hora marcada, no tempo certo para você.",
+    "formato": "arte com foto real (não repetir)",
+    "modo": "automático"
+   },
+   {
+    "hora": "13:00",
+    "linha": "Dúvidas e autoridade",
+    "titulo": "Tenho medo de agulha",
+    "texto": "É mais comum do que você imagina. Me conta na avaliação: a gente vai no seu tempo.",
+    "formato": "arte educativa",
+    "modo": "automático"
+   },
+   {
+    "hora": "19:30",
+    "linha": "Chamada",
+    "titulo": "Avaliação",
+    "texto": "Vem de cidade vizinha? Marque com antecedência e venha com tudo certo.",
+    "formato": "arte com botão WhatsApp",
+    "modo": "automático"
+   }
+  ]
+ },
+ {
+  "data": "09/12",
+  "dia": "qua",
+  "stories": [
+   {
+    "hora": "08:30",
+    "linha": "Acolhimento",
+    "titulo": "Por trás do jaleco",
+    "texto": "Cirurgiã-dentista, CRO-MA 8514. Cuido de sorrisos e do equilíbrio do rosto.",
+    "formato": "arte com foto real (não repetir)",
+    "modo": "automático"
+   },
+   {
+    "hora": "13:00",
+    "linha": "Dúvidas",
+    "titulo": "Caixinha de perguntas",
+    "texto": "Pergunte o que quiser sobre harmonização ou sorriso. Respondo aqui nos stories.",
+    "formato": "figurinha de perguntas",
+    "modo": "manual (figurinha)"
+   },
+   {
+    "hora": "19:30",
+    "linha": "Chamada",
+    "titulo": "Avaliação",
+    "texto": "Ficou com dúvida? Responda este story que eu te explico.",
+    "formato": "arte com botão WhatsApp",
+    "modo": "automático"
+   }
+  ]
+ },
+ {
+  "data": "10/12",
+  "dia": "qui",
+  "stories": [
+   {
+    "hora": "08:30",
+    "linha": "Acolhimento",
+    "titulo": "Materiais com procedência",
+    "texto": "Pergunte na avaliação de onde vem cada produto. Você tem direito de saber.",
+    "formato": "arte com foto real (não repetir)",
+    "modo": "automático"
+   },
+   {
+    "hora": "13:00",
+    "linha": "Dúvidas e autoridade",
+    "titulo": "Botox deixa a cara parada?",
+    "texto": "Quando a dose é planejada para o seu rosto, a expressão continua sua. Isso se decide na avaliação.",
+    "formato": "arte educativa",
+    "modo": "automático"
+   },
+   {
+    "hora": "19:30",
+    "linha": "Chamada",
+    "titulo": "Avaliação",
+    "texto": "Avaliações desta semana: ainda há horários. Chame no WhatsApp (98) 98567-2646.",
+    "formato": "arte com botão WhatsApp",
+    "modo": "automático"
+   }
+  ]
+ },
+ {
+  "data": "11/12",
+  "dia": "sex",
+  "stories": [
+   {
+    "hora": "08:30",
+    "linha": "Acolhimento",
+    "titulo": "Biossegurança",
+    "texto": "Cuidado com a esterilização em cada atendimento. Segurança vem antes de tudo.",
+    "formato": "arte com foto real (não repetir)",
+    "modo": "automático"
+   },
+   {
+    "hora": "13:00",
+    "linha": "Interação",
+    "titulo": "Enquete",
+    "texto": "Prefere atendimento (De manhã · À tarde)",
+    "formato": "figurinha de enquete",
+    "modo": "manual (figurinha)"
+   },
+   {
+    "hora": "19:30",
+    "linha": "Chamada",
+    "titulo": "Avaliação",
+    "texto": "Quer entender o que é indicado para você? Comece pela avaliação. Link na bio.",
+    "formato": "arte com botão WhatsApp",
+    "modo": "automático"
+   }
+  ]
+ },
+ {
+  "data": "12/12",
+  "dia": "sáb",
+  "stories": [
+   {
+    "hora": "08:30",
+    "linha": "Acolhimento",
+    "titulo": "Em frente à Praça do Viva",
+    "texto": "Av. Militar, Zé Doca. Fácil de chegar, fácil de achar.",
+    "formato": "arte com foto real (não repetir)",
+    "modo": "automático"
+   },
+   {
+    "hora": "13:00",
+    "linha": "Dúvidas e autoridade",
+    "titulo": "Bioestimulador ou preenchimento?",
+    "texto": "Um estimula o seu colágeno; o outro repõe volume. Qual é o seu caso, só a avaliação diz.",
+    "formato": "arte educativa",
+    "modo": "automático"
+   },
+   {
+    "hora": "19:30",
+    "linha": "Chamada",
+    "titulo": "Avaliação",
+    "texto": "Quem quer estar bem nas festas começa agora. Agende sua avaliação pelo WhatsApp.",
+    "formato": "arte com botão WhatsApp",
+    "modo": "automático"
+   }
+  ]
+ },
+ {
+  "data": "13/12",
+  "dia": "dom",
+  "stories": [
+   {
+    "hora": "08:30",
+    "linha": "Acolhimento",
+    "titulo": "Um novo conceito",
+    "texto": "Beleza, saúde e bem-estar no mesmo cuidado.",
+    "formato": "arte com foto real (não repetir)",
+    "modo": "automático"
+   },
+   {
+    "hora": "13:00",
+    "linha": "Dúvidas e autoridade",
+    "titulo": "Preenchimento labial fica exagerado?",
+    "texto": "Fica do jeito que for planejado. Aqui o limite é o que combina com o seu rosto.",
+    "formato": "arte educativa",
+    "modo": "automático"
+   },
+   {
+    "hora": "19:30",
+    "linha": "Chamada",
+    "titulo": "Avaliação",
+    "texto": "Mande \"AVALIAÇÃO\" no WhatsApp (98) 98567-2646 e a equipe te responde.",
+    "formato": "arte com botão WhatsApp",
+    "modo": "automático"
+   }
+  ]
+ },
+ {
+  "data": "14/12",
+  "dia": "seg",
+  "stories": [
+   {
+    "hora": "08:30",
+    "linha": "Acolhimento",
+    "titulo": "Natural é o objetivo",
+    "texto": "Realçar o que já é seu, sem mudar quem você é.",
+    "formato": "arte com foto real (não repetir)",
+    "modo": "automático"
+   },
+   {
+    "hora": "13:00",
+    "linha": "Dúvidas e autoridade",
+    "titulo": "Dói?",
+    "texto": "Usamos anestésico e técnica cuidadosa. Na avaliação eu explico cada sensação, antes de qualquer decisão.",
+    "formato": "arte educativa",
+    "modo": "automático"
+   },
+   {
+    "hora": "19:30",
+    "linha": "Agenda",
+    "titulo": "Agenda da semana",
+    "texto": "Os horários de avaliação desta semana estão abertos. Toque no link e garanta o seu.",
+    "formato": "figurinha de link (drajacicunha.pages.dev/avaliacao)",
+    "modo": "manual (figurinha)"
+   }
+  ]
+ },
+ {
+  "data": "15/12",
+  "dia": "ter",
+  "stories": [
+   {
+    "hora": "08:30",
+    "linha": "Acolhimento",
+    "titulo": "Sem pressa",
+    "texto": "A avaliação leva o tempo que você precisar para tirar todas as dúvidas.",
+    "formato": "arte com foto real (não repetir)",
+    "modo": "automático"
+   },
+   {
+    "hora": "13:00",
+    "linha": "Dúvidas e autoridade",
+    "titulo": "Posso trabalhar no mesmo dia?",
+    "texto": "Na maioria dos casos, sim. As orientações de cuidado você recebe por escrito.",
+    "formato": "arte educativa",
+    "modo": "automático"
+   },
+   {
+    "hora": "19:30",
+    "linha": "Chamada",
+    "titulo": "Avaliação",
+    "texto": "Ficou com dúvida? Responda este story que eu te explico.",
+    "formato": "arte com botão WhatsApp",
+    "modo": "automático"
+   }
+  ]
+ }
+]
