@@ -10,3 +10,4 @@ Derivative work:  Aristeas · CC BY 4.0 · Wikimedia Commons
 - estudio-video-2.jpg · "Video production studio setup (santa mesa, manila; 2014-11-06).jpg" · Patrick Roque · CC BY-SA 4.0 · Wikimedia Commons
 - gerador.jpg · "Server room backup power generator - IMG 0451.jpg" · Jemimus · CC BY 2.0 · Wikimedia Commons
 - estudio-step.jpg · "STEP studio pict1.JPG" · Autobahn Two · CC BY-SA 3.0 · Wikimedia Commons
+- arco-bonn.jpg · "Bonn, Sterntor -- 2020 -- 6505.jpg" · Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons
