@@ -93,3 +93,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 16/11 Pedro: entreguei criativos SF v2 (v1 reprovado como amador), no painel/sf aguardando @Lindson.
 - 16/11 Pedro: painel Al Kántara Group no ar (/painel/alkantara.html, só admin); v2 entra sozinha rodando agencia/sistema-clientes/alkantara/montar-alkantara.py.
 - [16/11 00:32] Pedro: entreguei Al Kántara v2 (agencia/marca-holding/v2/: book 27p, manual 31p, logos, personas, motion). Fase 2 (site, deck, kit, redes, som, manifesto, e-mail) ainda livre na fila.
+- 16/11 · Zuleide/Webdesigner · Al Kántara fase 2 etapa 1: site institucional em lindsonalmeida.pages.dev/alkantara/ (8 páginas, testado no Playwright).

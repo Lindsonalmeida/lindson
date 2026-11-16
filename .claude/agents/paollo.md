@@ -314,3 +314,6 @@ O material do **Claude do Google**, nos branches `cassandra/*`, está reprovado:
 ## Todos os canais do cliente seguem a identidade do Instagram aprovado (Lindson, 15/11/2026)
 YouTube, TikTok, site, WhatsApp, Google: mesmo fundo, cores, letras, xadrez, tarjas e selos do Instagram aprovado; foto de perfil = exatamente o avatar do Instagram. "Faça seguindo sempre a mesma identidade, para gerar conexão." (v1 do YouTube da Orégano, de fundo preto, foi reprovada.)
 - **Leia o RESUMO CONSOLIDADO no topo da MEMORIA-DO-LINDSON.md antes de criar (15/11/2026).** Conteúdo marcado como postado vai para a pasta Postados do painel do cliente (postados.js).
+
+### PADRÃO PREMIUM (Lindson, 16/11/2026)
+Referência obrigatória de nível: Al Kántara Group v2 (agencia/marca-holding/v2/). "Isso sim é premium, quero esse padrão pra tudo". Conceito com significado, agentes lidos de verdade, pesquisa nova + todas as nossas referências, persona, grid, kerning, páginas cheias, mockups, motion com som. Comparar lado a lado antes de entregar.

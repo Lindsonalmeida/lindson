@@ -206,3 +206,6 @@ YouTube, TikTok, site, WhatsApp, Google: mesmo fundo, cores, letras, xadrez, tar
 
 ### 16/11/2026 (conta Pedro)
 - WF: o Lindson pediu feed XADREZ nas capas de Reels (escuro/claro alternado em toda a sequência); usar o quadro real do vídeo como foto. Remoção automática de fundo comeu a mão: evitar ou refinar manualmente.
+
+### PADRÃO PREMIUM (Lindson, 16/11/2026)
+Referência obrigatória de nível: Al Kántara Group v2 (agencia/marca-holding/v2/). "Isso sim é premium, quero esse padrão pra tudo". Conceito com significado, agentes lidos de verdade, pesquisa nova + todas as nossas referências, persona, grid, kerning, páginas cheias, mockups, motion com som. Comparar lado a lado antes de entregar.

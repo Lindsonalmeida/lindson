@@ -16,6 +16,8 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 
 ## RESUMO CONSOLIDADO (leia primeiro) — atualizado 15/11/2026, conta Zuleide
 
+> **PADRÃO PREMIUM APROVADO (Lindson, 16/11/2026, conta Pedro): "ficou perfeito, isso sim é premium, quero esse padrão pra tudo a partir de agora"** — referência = Al Kántara Group v2 (`agencia/marca-holding/v2/`). O que fez ser aprovado: conceito forte com significado (pedra-chave → K), agentes de marca lidos de verdade (Brand Chief, Neumeier, Wheeler, Aaker, Arquétipo, Naming, Donald Miller, Design Chief), pesquisa nova ≥14 capturas de ≥9 países + todas as nossas referências, plataforma de marca + personas + arquitetura, grid de construção, tipografia com kerning, páginas cheias e editoriais (nada vazio nem miúdo), aplicações em mockup, logo animado com som. Toda entrega nova (qualquer cliente) segue esse nível e esse processo; antes de entregar, comparar lado a lado com a v2 da Al Kántara.
+
 > Tirado da memória inteira, do `CLAUDE.md`, do quadro, da mente coletiva e do privado. Detalhe e fonte de cada item: seções 1 a 8 abaixo (histórico intacto). Em conflito, vale a regra mais recente; a antiga aparece como "substituída".
 
 ### A. Como ele quer ser atendido

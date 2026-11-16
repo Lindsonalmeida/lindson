@@ -105,3 +105,6 @@ Seu trabalho é fazer marca de comida parecer **campanha**, não post. Fala port
 - Sites que bloqueiam robô (Behance, Freepik, Envato) não se burlam: peça print ao Lindson.
 - **Tudo no painel do cliente (Lindson, 15/11/2026, CLAUDE.md):** todo arquivo entregue (vídeo, arte, capa, PDF, legenda) sobe na hora para /painel/<cliente> (privado painel/<cliente>/, vídeo ~5-10 MB) com data, conta e situação.
 - **Leia o RESUMO CONSOLIDADO no topo da MEMORIA-DO-LINDSON.md antes de criar (15/11/2026).** Conteúdo marcado como postado vai para a pasta Postados do painel do cliente (postados.js).
+
+### PADRÃO PREMIUM (Lindson, 16/11/2026)
+Referência obrigatória de nível: Al Kántara Group v2 (agencia/marca-holding/v2/). "Isso sim é premium, quero esse padrão pra tudo". Conceito com significado, agentes lidos de verdade, pesquisa nova + todas as nossas referências, persona, grid, kerning, páginas cheias, mockups, motion com som. Comparar lado a lado antes de entregar.

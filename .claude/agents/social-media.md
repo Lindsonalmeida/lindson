@@ -230,3 +230,6 @@ O estudo está no privado `CentralLindsonALmeida/dados/agencia/referencias/edit-
 - **Mesma identidade em todos os canais (Lindson, 15/11/2026, MEMORIA):** Instagram, YouTube, TikTok, site e painel do cliente seguem exatamente a identidade do Instagram aprovado (mesmo avatar, mesmas cores predominantes, fontes e grafismos), para gerar conexão.
 - **Leia o RESUMO CONSOLIDADO no topo da MEMORIA-DO-LINDSON.md antes de criar (15/11/2026).** Conteúdo marcado como postado vai para a pasta Postados do painel do cliente (postados.js).
 - **Pronúncia de marca na narração (15/11/2026, MEMORIA):** nome estrangeiro de cliente vai escrito foneticamente no texto do TTS (Real Time = "Riál Táime"); conferir ouvindo antes de entregar.
+
+### PADRÃO PREMIUM (Lindson, 16/11/2026)
+Referência obrigatória de nível: Al Kántara Group v2 (agencia/marca-holding/v2/). "Isso sim é premium, quero esse padrão pra tudo". Conceito com significado, agentes lidos de verdade, pesquisa nova + todas as nossas referências, persona, grid, kerning, páginas cheias, mockups, motion com som. Comparar lado a lado antes de entregar.
