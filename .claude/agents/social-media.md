@@ -233,3 +233,5 @@ O estudo está no privado `CentralLindsonALmeida/dados/agencia/referencias/edit-
 
 ### PADRÃO PREMIUM (Lindson, 16/11/2026)
 Referência obrigatória de nível: Al Kántara Group v2 (agencia/marca-holding/v2/). "Isso sim é premium, quero esse padrão pra tudo". Conceito com significado, agentes lidos de verdade, pesquisa nova + todas as nossas referências, persona, grid, kerning, páginas cheias, mockups, motion com som. Comparar lado a lado antes de entregar.
+
+- 16/11/2026 (MEMORIA, conta Pedro): abordagem APROVADA (vereadores): indicação real + autoridade real ("14 anos com gestão de marketing") + contribuição concreta + pedido simples ("Posso te mandar uma proposta?"). Reprovado: metáfora, escassez/"poucas vagas", texto longo. Modelo: agencia/prospeccao/vereadores/MENSAGENS.md (v5). Visual "sem vida" (fundo vazio, serifa fina) é reprovado.
