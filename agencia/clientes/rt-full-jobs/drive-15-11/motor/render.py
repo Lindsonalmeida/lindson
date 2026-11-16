@@ -14,11 +14,19 @@ f = lambda n, s: ImageFont.truetype(os.path.join(FT, n), s)
 T = os.path.join(OUT, VID + '-tmp'); os.makedirs(T, exist_ok=True)
 dur = lambda p: float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',p]))
 
-async def tts(txt, p): await edge_tts.Communicate(txt.replace('Real Time', 'Riál Táime'), 'pt-BR-AntonioNeural', rate='+4%').save(p)
-t, partes, chips = 0.6, [], []
-for i, (fala, letra) in enumerate(R['falas']):
+PR = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'pronuncias.json')))
+def fon(t):
+    for a, b in PR: t = t.replace(a, b)
+    return t
+async def tts(txt, p): await edge_tts.Communicate(fon(txt), 'pt-BR-AntonioNeural', rate='+4%').save(p)
+partes, chips = [], []
+vd0 = dur(os.path.join(BR, R['src']))
+for i, (st, fala, letra) in enumerate(R['falas']):
     p = os.path.join(T, f'v{i}.mp3'); asyncio.run(tts(fala, p)); d = dur(p)
-    partes.append((p, t)); chips.append((t, t + d + 0.25, letra)); t += d + 0.35
+    nx = R['falas'][i+1][0] if i+1 < len(R['falas']) else vd0
+    if st + d > nx: print('AVISO bloco maior que a cena:', i, fala, round(d,2), round(nx-st,2))
+    partes.append((p, st)); chips.append((st, max(st + d + 0.3, min(nx - 0.1, st + 2.5)), letra))
+t = st + d
 vd = dur(os.path.join(BR, R['src']))
 if t > vd: print('AVISO: narracao', t, '> video', vd)
 
