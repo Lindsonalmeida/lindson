@@ -1,0 +1,2 @@
+/* vídeos das divisões (Gemini/Veo, 16/11) */
+(()=>{document.querySelectorAll('.ph[data-img*="div-"]').forEach(el=>{const v=document.createElement('video');v.muted=true;v.loop=true;v.playsInline=true;v.autoplay=true;v.preload='metadata';v.poster=el.dataset.img;v.src=el.dataset.img.replace('.jpg','.mp4');v.style.cssText='position:absolute;inset:0;width:100%;height:100%;object-fit:cover';el.querySelector('.ph-in').appendChild(v);el.classList.add('ok');new IntersectionObserver(es=>es.forEach(e=>e.isIntersecting?v.play().catch(()=>{}):v.pause())).observe(el)})})();
