@@ -31,7 +31,7 @@ Formato copiado: @oneyaraujo (5 capturas no privado). Linguagem visual do "print
 | Assessor político 03 | 72 horas de silêncio para a IA | Congresso em Foco · 19/08/2026 · https://www.congressoemfoco.com.br/artigo/121395/eleicoes-2026-ia-e-redes-sociais-mudam-o-jogo-para-candidatos |
 | Assessor político 04 | O TSE se antecipou à IA | CNN Brasil · 17/01/2026 · https://www.cnnbrasil.com.br/eleicoes/uso-de-ia-e-riscos-da-desinformacao-pautam-regras-para-eleicoes-de-2026/ |
 | Dono de grupo de tecnologia (Al Kántara) 01 | Itaú compra startup de IA por R$ 2,9 bi | Eu Quero Investir · 26/10/2026 · https://euqueroinvestir.com/acoes/itau-compra-startup-brasileira-de-ia-por-r-29-bilhoes |
-| Dono de grupo de tecnologia (Al Kántara) 02 | Solo Network compra fábrica de data center | Baguete · 04/11/2026 · https://www.baguete.com.br/noticias/solo-network-adquire-planeje-tecnologia |
+| Dono de grupo de tecnologia (Al Kántara) 02 | Solo Network compra empresa que constrói data centers | Baguete · 04/11/2026 · https://www.baguete.com.br/noticias/solo-network-adquire-planeje-tecnologia |
 | Dono de grupo de tecnologia (Al Kántara) 03 | Comprou a empresa só pelo time | Startups · 09/09/2026 · https://startups.com.br/negocios/inteligencia-artificial/em-acqui-hire-strattum-adquire-tropicalia-que-encerra-atividades/ |
 | Dono de grupo de tecnologia (Al Kántara) 04 | A IA virou critério de compra de empresa | Startups · 03/08/2026 · https://startups.com.br/exclusivo/com-regua-mais-alta-mas-caem-no-1o-semestre-de-2026/ |
 | Dono de agência de design 01 | Depois de 10 anos, a agência mudou de nome | Portal Nosso Meio · 23/07/2026 · https://nossomeio.com.br/fkd-influencers-evolui-para-fkd-creators-e-reposiciona-a-marca-para-a-nova-fase-da-creator-economy/ |

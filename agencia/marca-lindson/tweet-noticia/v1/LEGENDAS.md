@@ -374,7 +374,7 @@ Quer um Instagram que trabalhe por você? Me chama no direct com a palavra PROPO
 
 #inteligenciaartificial #fusoeseaquisicoes #holding #startups #tecnologia
 
-## Dono de grupo de tecnologia (Al Kántara) 02 · Solo Network compra fábrica de data center
+## Dono de grupo de tecnologia (Al Kántara) 02 · Solo Network compra empresa que constrói data centers
 
 SOLO NETWORK COMPRA FÁBRICA DE DATA CENTER!
 

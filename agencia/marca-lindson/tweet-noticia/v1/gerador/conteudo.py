@@ -102,7 +102,7 @@ C=[
 "Detalhe que pouca gente viu: ela já prestava serviço ao banco há quase dois anos.",
 "Ou seja: o fornecedor virou o ativo. Entregar bem por muito tempo abriu a porta."],
 "Num grupo de tecnologia a lição é a mesma do pequeno negócio: confiança se constrói entregando. E precisa ser mostrada para ser lembrada."),
-("grupo-tecnologia","t2","Baguete","04/11/2026","Solo Network compra fábrica de data center",
+("grupo-tecnologia","t2","Baguete","04/11/2026","Solo Network compra empresa que constrói data centers",
 ["🚨 A Solo Network, uma das maiores integradoras de TI do Brasil, comprou participação majoritária na Planeje Tecnologia.",
 "A Planeje, do Paraná, constrói data centers. O valor não foi revelado.",
 "O investimento inicial previsto é de cerca de R$ 10 milhões, com meta de dobrar o faturamento da adquirida em 2027.",
