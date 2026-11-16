@@ -243,8 +243,8 @@
    "cli": "oregano",
    "tarefa": "Canal no YouTube",
    "equipe": "Zuleide",
-   "status": "livre",
-   "nota": "",
+   "status": "aguardando aprovação",
+   "nota": "Kit YouTube v2 na identidade do Instagram entregue 15/11 (Zuleide)",
    "partes": [
     {
      "p": "Postar o kit do canal (banner, perfil, descrição)",
@@ -331,7 +331,7 @@
    "cli": "designer",
    "tarefa": "LinkedIn",
    "equipe": "Zuleide",
-   "status": "livre",
+   "status": "andamento",
    "nota": "[dividido pelo coordenador em 16/11 22:30: LinkedIn com a Zuleide]",
    "partes": [
     {
@@ -345,7 +345,9 @@
    ],
    "pegou": "",
    "atualizado": "",
-   "recebido": ""
+   "recebido": "",
+   "conta": "Zuleide",
+   "inicio": "2026-11-15 23:03"
   },
   {
    "id": "cad-designer-29",
