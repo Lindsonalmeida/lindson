@@ -1,8 +1,0 @@
-file '/home/user/lindson/agencia/clientes/rt-full-jobs/drive-15-11/novos/07-qual-lente-tmp/c0.mp4'
-file '/home/user/lindson/agencia/clientes/rt-full-jobs/drive-15-11/novos/07-qual-lente-tmp/c1.mp4'
-file '/home/user/lindson/agencia/clientes/rt-full-jobs/drive-15-11/novos/07-qual-lente-tmp/c2.mp4'
-file '/home/user/lindson/agencia/clientes/rt-full-jobs/drive-15-11/novos/07-qual-lente-tmp/c3.mp4'
-file '/home/user/lindson/agencia/clientes/rt-full-jobs/drive-15-11/novos/07-qual-lente-tmp/c4.mp4'
-file '/home/user/lindson/agencia/clientes/rt-full-jobs/drive-15-11/novos/07-qual-lente-tmp/c5.mp4'
-file '/home/user/lindson/agencia/clientes/rt-full-jobs/drive-15-11/novos/07-qual-lente-tmp/c6.mp4'
-file '/home/user/lindson/agencia/clientes/rt-full-jobs/drive-15-11/novos/07-qual-lente-tmp/c7.mp4'
