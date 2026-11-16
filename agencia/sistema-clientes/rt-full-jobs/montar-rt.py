@@ -79,9 +79,20 @@ for arq, tit, linha, leg in [('story-01-agenda-aberta', 'Story · Agenda aberta 
 PF = os.path.join(V1, 'perfil'); BIO = open(os.path.join(PF, 'BIO.md')).read().split('<!-- bio -->')[1].split('<!-- fim -->')[0].strip()
 itens.insert(0, {'t': 'Perfil', 'titulo': 'Bio nova e 6 destaques', 'data': 'Trocar antes do 1º post', 'linha': 'Perfil', 'st': 'aguardando', 'img': uri(os.path.join(PF, 'previa-perfil.png'), 720),
                  'legenda': 'Nome: Real Time · Locação de Cinema\n\nBio:\n' + BIO + '\n\nLink: wa.me/5598991331727\n\nDestaques (nesta ordem): Kits · Luz · Estúdio · Produções · Clientes · Reservar. As capas estão em Entregas e arquivos.'})
+# 4b · Reels (16/11, Lindson: "os vídeos não estão no painel"): os 9 Reels saem das entregas do rt.json, com vídeo, capa, título curto, legenda SEO e status
+REELS = []
+for e in dados.get('entregas', []):
+    arq = (e[4] if len(e) > 4 else '') or ''
+    m = re.search(r'/rt-(\d\d)-[^/]*\.mp4$', arq)
+    if not m or 'LEGENDA:' not in e[0]: continue
+    nome = re.sub(r'^Reel ', '', e[0].split(' · LEGENDA:')[0]); nome = re.split(r' \(|: lettering', nome)[0].strip()
+    leg = e[0].split('LEGENDA: ', 1)[1].replace('<br>', '\n')
+    n = m.group(1); REELS.append((n, {'t': 'Reels', 'titulo': f'Reel {n} · {nome}', 'curto': nome, 'data': 'Reels · 16/11 · conta Zuleide', 'linha': 'Reels',
+        'st': 'aprovado' if n in ('01', '02', '03') else 'aguardando', 'video': arq, 'capa': arq[:-4] + '-capa.jpg', 'img': arq[:-4] + '-capa.jpg', 'legenda': leg}))
+itens[0:0] = [x for _, x in sorted(REELS)]
 aprov = ','.join(json.dumps(x, ensure_ascii=False) for x in itens)
 s = re.sub(r"const APROV=\[.*?\];", lambda m: f"const APROV=[{aprov}];", s, count=1, flags=re.S)
-troca('<div class="post"><div class="img">${p.titulo}</div>', '<div class="post">${p.img?`<img src="${p.img}" alt="${p.titulo}" style="width:100%;aspect-ratio:4/5;object-fit:cover;display:block">`:`<div class="img">${p.titulo}</div>`}')
+troca('<div class="post"><div class="img">${p.titulo}</div>', '<div class="post">${p.video?`<video src="${p.video}" poster="${p.img}" controls playsinline preload="none" style="width:100%;aspect-ratio:9/16;object-fit:cover;display:block;background:#000"></video><div style="display:flex;gap:8px;margin:10px 12px 0"><a class="btn lin" href="${p.video}" download style="flex:1;text-align:center">⬇ Baixar vídeo</a><a class="btn lin" href="${p.capa}" download style="flex:1;text-align:center">⬇ Baixar capa</a></div><div style="margin:10px 12px 0;padding:10px 12px;border:1px solid var(--linha);border-radius:12px"><div style="font-size:10.5px;letter-spacing:.14em;color:var(--apagado);font-weight:700">TÍTULO PARA REELS / SHORTS</div><div style="font-weight:700;margin:4px 0 8px">${p.curto}</div><button class="btn lin" onclick="navigator.clipboard.writeText(this.previousElementSibling.textContent);window.__toast&&window.__toast(\'Título copiado\')">Copiar título</button></div>`:p.img?`<img src="${p.img}" alt="${p.titulo}" style="width:100%;aspect-ratio:4/5;object-fit:cover;display:block">`:`<div class="img">${p.titulo}</div>`}')
 troca('<div class="d" style="color:var(--apagado);font-size:12.5px">${p.data}</div>',
       '<div class="d" style="color:var(--apagado);font-size:12.5px">${p.data}</div>${p.linha?`<span style="display:inline-block;margin-top:8px;padding:3px 10px;border-radius:999px;font-size:11.5px;font-weight:800;background:var(--amarelo);color:#04102B">${p.linha}</span>`:\'\'}<div style="font-weight:700;margin:6px 0 2px">${p.titulo}</div>'
       '${p.por?`<div style="font-size:12px;color:${p.st===\'aprovado\'?\'#4ADE80\':\'var(--amarelo)\'};margin-top:2px">${p.st===\'aprovado\'?\'✓ Aprovado no site por\':\'Ajuste pedido\'}: ${p.por}${p.em?\', \'+new Date(p.em).toLocaleDateString(\'pt-BR\'):\'\'}</div>`:\'\'}'
