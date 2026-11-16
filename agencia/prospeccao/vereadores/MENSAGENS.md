@@ -88,3 +88,16 @@ Te mando uma proposta?
 1. "Manda a proposta": Ótimo, Vereador. Pra montar do jeito certo pro senhor, me diz rapidinho: hoje quem cuida das suas redes? Ainda hoje te envio.
 2. "Quanto custa?": Depende do que o mandato precisa: só Instagram ou também vídeo e site. Te mando a proposta com as opções e os valores, e o senhor escolhe. Pode ser?
 3. Silêncio de 48 h: Vereador [Nome], bom dia! Sei que a agenda é cheia. Ainda quer que eu te mande a proposta? É só responder "sim".
+
+## v7 (Lindson: "Tudo bem?" no lugar de "te mando uma proposta")
+**Final**
+Vereador [Nome], sou o Lindson. O Thiago Azevedo, do Tribuna 98, me passou seu contato.
+Trabalho há 14 anos com gestão de marketing e redes sociais. Posso contribuir com o seu mandato e com o aquecimento para 2028. Tudo bem?
+
+**A**
+Vereador [Nome], aqui é o Lindson, indicação do Thiago Azevedo, do Tribuna 98.
+Há 14 anos faço gestão de marketing e redes sociais. Quero contribuir com o seu mandato e com a preparação para 2028. Tudo bem?
+
+**B**
+Vereador [Nome], meu nome é Lindson. Recebi seu contato do Thiago Azevedo, do Tribuna 98.
+São 14 anos trabalhando com marketing e redes sociais, e posso ajudar no seu mandato e no caminho até 2028. Tudo bem?
