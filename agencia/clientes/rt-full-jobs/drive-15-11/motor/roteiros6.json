@@ -4,7 +4,7 @@
   "trilha": "pop-track-03-108bpm.mp3",
   "blocos": [
    {
-    "fala": "Monta esse kit de cinema comigo!",
+    "fala": "Bora montar esse kit de cinema comigo!",
     "letra": "Monte o kit comigo",
     "vis": "V15"
    },
@@ -96,7 +96,7 @@
   "trilha": "trap-electro-vibes-112bpm.mp3",
   "blocos": [
    {
-    "fala": "Chegou encomenda nova na Real Time!",
+    "fala": "Chegou novidade na Real Time!",
     "letra": "Chegou encomenda nova",
     "vis": "F33"
    },
@@ -249,7 +249,7 @@
     "vis": "CARD:Fundo todo nítido."
    },
    {
-    "fala": "Com lente de cinema, o fundo desfoca de verdade.",
+    "fala": "Com uma lente de cinema, o fundo desfoca de verdade.",
     "letra": "Fundo desfocado",
     "vis": "V10"
    },

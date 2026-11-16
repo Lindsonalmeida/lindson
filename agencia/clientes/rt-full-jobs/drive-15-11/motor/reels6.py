@@ -45,8 +45,9 @@ def overlay(i, letra, gancho, final):
         for l in ls:
             tw = d.textlength(l, font=ft)
             d.rounded_rectangle((60, y0, 60+tw+64, y0+124), 20, fill=GRAF+(235,)); d.rectangle((60, y0+24, 70, y0+100), fill=AZUL)
-            d.text((96, y0+14), l, font=ft, fill=BRANCO); y0 += 138
-        d.ellipse((60+tw+40, 286, 60+tw+64, 310), fill=REC)
+            d.text((96, y0+14), l, font=ft, fill=BRANCO)
+            if y0 == 300: d.ellipse((60+tw+80, y0+50, 60+tw+104, y0+74), fill=REC)
+            y0 += 138
     else:
         ft = f('geist-700.ttf', 62); ls = quebra(d, letra, ft, W-240); y0 = 1130
         for l in ls:
