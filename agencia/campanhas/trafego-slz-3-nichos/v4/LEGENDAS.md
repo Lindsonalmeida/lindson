@@ -1,6 +1,6 @@
 # Legendas SEO · ADV v4b (padrão `conteudo/avaliacao-gratuita/LEGENDAS.md`)
 
-## ADV-1 · Advogado em São Luís: quando o cliente te procura e só acha a sombra
+## ADV-1 · Advogado em São Luís: quando te procuram e só acham a sombra
 O cliente procura um advogado no Instagram e no Google antes de ligar. Se ele não encontra você, encontra outro nome.
 
 **O que o cliente vê primeiro**

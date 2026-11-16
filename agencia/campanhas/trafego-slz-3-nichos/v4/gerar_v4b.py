@@ -8,7 +8,7 @@ D=os.path.dirname(os.path.abspath(__file__)); C=os.path.abspath(f'{D}/../v3/cena
 A='/home/user/lindson/conteudo/youtube/raposa-e-leao/produto/fonts/Anton-Regular.ttf'
 RED,LIME,GOLD='#FF2E3B','#C8FF2E','#FFC83D'
 # nome: posicao Y da cena (4:5), cor, linha fina, gigante, linha final, tarja
-P={'ADV-1':('-360px',LIME,'advogado, te procuram','E SÓ ACHA<br>A <n>SOMBRA?</n>','manda ADV no WhatsApp','01 · ADVOGADO'),
+P={'ADV-1':('-360px',LIME,'advogado, te procuram','E SÓ ACHAM<br>A <n>SOMBRA?</n>','manda ADV no WhatsApp','01 · ADVOGADO'),
  'ADV-2':('-300px',GOLD,'advogado sério na lei,','E <n>INVISÍVEL</n><br>NO GOOGLE?','conteúdo dentro do Provimento 205','02 · ADVOGADO'),
  'ADV-3':('-60px',RED,'advogado, estudou anos.','O CLIENTE<br><n>TE ACHA?</n>','manda ADV no WhatsApp','03 · ADVOGADO'),
  'ADV-4':('-230px',LIME,'advogado, seu marketing','JOGA XADREZ<br>OU <n>DAMAS?</n>','estratégia antes do anúncio','04 · ADVOGADO')}
@@ -36,7 +36,7 @@ def main():
     def shot(h,H,out):
         t=f'{D}/_h{len(J)}.html';open(t,'w').write(h);J.append([t,H,out])
     for n,a in P.items():
-        shot(html(1920,n,'50%',*a[1:]),1920,f'{D}/artes/{n}-9x16-v4b.jpg'); shot(html(1350,n,*a),1350,f'{D}/artes/{n}-4x5-v4b.jpg')
+        shot(html(1920,n,'50%',*a[1:]),1920,f'{D}/artes/{n}-9x16-v4c.jpg'); shot(html(1350,n,*a),1350,f'{D}/artes/{n}-4x5-v4c.jpg')
     pass#,'50%',*CAPA[1:]),1920,f'{D}/artes/ADV-capa-reels-9x16.jpg')
     open(f'{D}/_j.json','w').write(json.dumps(J));subprocess.run(['node',f'{D}/render.js',f'{D}/_j.json'],check=True,cwd='/home/user/lindson')
     for t,_,_ in J: os.remove(t)
@@ -45,6 +45,6 @@ def main():
     w,h=300,533;ns=list(P)+['ADV-capa-reels'];S=Image.new('RGB',(5*(w+20)+20,h+20+380+40),'#111')
     for j,n in enumerate(ns):
         im=Image.open(f'{D}/artes/{n}-9x16'+('-v4b' if n in P else '')+'.jpg').resize((w,h));S.paste(im,(20+j*(w+20),20))
-        if n in P: im=Image.open(f'{D}/artes/{n}-4x5-v4b.jpg').resize((w,375));S.paste(im,(20+j*(w+20),h+40))
-    S.save(f'{D}/folha-adv-v4b.jpg',quality=88)
+        if n in P: im=Image.open(f'{D}/artes/{n}-4x5-v4c.jpg').resize((w,375));S.paste(im,(20+j*(w+20),h+40))
+    S.save(f'{D}/folha-adv-v4c.jpg',quality=88)
 main()
