@@ -1,5 +1,13 @@
 # Prompts para o Gemini · 30 Stories de venda (conta Leandro, 16/11/2026)
 
+## BLOCO DE FIDELIDADE (cole no início de TODO prompt)
+> FIDELIDADE DE ROSTO 100%: a pessoa da imagem é EXATAMENTE o homem das fotos anexadas. Preserve sem nenhuma alteração: formato do rosto e da mandíbula, olhos (formato, distância, cor), sobrancelhas, nariz, boca e lábios, orelhas, linha do cabelo e corte, barba e bigode (densidade e contorno), tom e textura da pele, marcas e pintas, idade aparente, altura e porte físico. Não embeleze, não afine, não rejuvenesça, não mude etnia, não suavize a pele. Rosto nítido e em foco crítico, pele com poros reais. Use a foto 1 como referência principal do rosto e as demais para corpo e postura.
+> REGRAS: fotorrealista, aparência de foto de campanha publicitária feita com câmera real, não ilustração nem 3D. Vertical 9:16, 2160×3840. Sem nenhum texto, letra, logo, marca d'água ou número na imagem. Mãos anatômicas com 5 dedos. Deixe o terço inferior mais escuro e limpo para tipografia (exceto onde indicado).
+
+
+**Ficha técnica padrão (acrescente ao fim de cada prompt, ajustando):** full frame, 50 mm (retrato 85 mm), f/1.8–2.0, 1/200 s, ISO 400–800; câmera na altura do peito, leve contra-plongée; foco crítico no olho mais próximo; key suave 45° + rim light colorido da cena + fill fraco (razão 4:1); grade de cinema com pretos profundos e grão fino de 35 mm. Direção: olhar na lente, postura de autoridade, mãos naturais.
+
+
 O Lindson gera as cenas no Gemini (app). Cada prompt vira **1 imagem 9:16 sem texto**, salva em `stories/cenas-gemini/<nicho>/NN.jpg` (adv, barba, dente). Depois rode `python3 gerador/stories.py <recortes> <cenas> <fotos_nicho>`: o layout usa a imagem do Gemini no lugar da composição provisória e coloca título, palavra neon/itálico, CTA e assinatura por cima.
 
 **Anexar em todo prompt:** 2 fotos reais do Lindson (privado `membros/img/`): a indicada + `c13.jpg` (rosto de frente). Descarte a imagem se o rosto não parecer ele.
