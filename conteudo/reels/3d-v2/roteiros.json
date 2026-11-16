@@ -1,0 +1,231 @@
+[
+ {
+  "id": "01",
+  "modo": "orbita",
+  "foto": "c13",
+  "pal": [
+   "#FF8A1F",
+   "#0E3B4A",
+   "#FFD400"
+  ],
+  "tema": "OFERTA",
+  "cta": "PERFIL",
+  "fonte": "ALEX HORMOZI · $100M OFFERS (2021)",
+  "falas": [
+   {
+    "t": "Seu cliente pediu o orçamento e sumiu? Não foi o preço que espantou ele!",
+    "w": "SUMIU",
+    "chave": [
+     "sumiu",
+     "preço"
+    ]
+   },
+   {
+    "t": "Ele sumiu porque não achou nenhum motivo pra dizer sim.",
+    "w": "MOTIVO",
+    "chave": [
+     "motivo"
+    ]
+   },
+   {
+    "t": "Um dos maiores nomes de vendas do mundo resume assim: faça uma oferta tão boa, que a pessoa se sinta boba dizendo não.",
+    "w": "OFERTA",
+    "chave": [
+     "oferta",
+     "boba"
+    ],
+    "selo": 1
+   },
+   {
+    "t": "Preço sozinho é só um número. Oferta é o preço, mais o prazo, mais a garantia, mais o que ele ganha hoje.",
+    "w": "+ PRAZO",
+    "lista": [
+     "PREÇO",
+     "+ PRAZO",
+     "+ GARANTIA",
+     "+ BÔNUS HOJE"
+    ],
+    "chave": [
+     "oferta",
+     "garantia"
+    ]
+   },
+   {
+    "t": "Exemplo: em vez de mandar só o valor, mande o valor, o prazo de entrega, o ajuste até ele aprovar, e um bônus se fechar hoje.",
+    "w": "EXEMPLO",
+    "chave": [
+     "bônus",
+     "hoje"
+    ]
+   },
+   {
+    "t": "Então, antes do próximo orçamento, pergunte: o que faria ele se sentir bobo dizendo não?",
+    "w": "NÃO?",
+    "chave": [
+     "não"
+    ]
+   },
+   {
+    "t": "Comenta a palavra perfil, e eu te mostro onde a sua oferta está fraca!",
+    "w": "PERFIL",
+    "chave": [
+     "perfil"
+    ],
+    "cta": 1
+   }
+  ],
+  "capa": "SUMIU DEPOIS DO <em>ORÇAMENTO</em>?",
+  "legenda": "Cliente pediu orçamento e sumiu? O problema é a oferta 👇\n\nVocê manda o preço, ele visualiza e some. Quase nunca é falta de dinheiro: é falta de motivo para dizer sim.\n\n**O que diz um dos maiores nomes de vendas do mundo**\nAlex Hormozi, no livro $100M Offers (2021): faça uma oferta tão boa que a pessoa se sinta boba dizendo não (tradução livre).\n\n**Preço não é oferta**\nPreço é um número. Oferta é o preço + o prazo + a garantia + o que ele ganha se fechar hoje.\n\n**Exemplo (ilustrativo):** em vez de \"fica R$ 400\", mande \"R$ 400, entrego em 5 dias, ajusto até você aprovar e, fechando hoje, vai junto a capa dos destaques\".\n\n**Antes do próximo orçamento**, pergunte: o que faria ele se sentir bobo dizendo não?\n\n💬 Comenta PERFIL que eu olho o seu e te mostro onde a oferta está fraca.\n\n#ofertairresistivel #orcamento #vendasnowhatsapp #donodenegocio #saoluisma"
+ },
+ {
+  "id": "02",
+  "modo": "tunel",
+  "foto": "c07",
+  "pal": [
+   "#E5193A",
+   "#120408",
+   "#FFFFFF"
+  ],
+  "tema": "PERDA",
+  "cta": "PERFIL",
+  "fonte": "DANIEL KAHNEMAN · RÁPIDO E DEVAGAR (2011)",
+  "falas": [
+   {
+    "t": "Você mostra tudo o que o cliente vai ganhar, e ele não compra? O problema tá aí!",
+    "w": "NÃO COMPRA",
+    "chave": [
+     "ganhar",
+     "problema"
+    ]
+   },
+   {
+    "t": "Perder dói mais do que ganhar.",
+    "w": "PERDER",
+    "chave": [
+     "perder",
+     "dói"
+    ]
+   },
+   {
+    "t": "Um prêmio Nobél de economia mostrou isso: a dor de perder pesa mais que a alegria de ganhar a mesma coisa.",
+    "w": "DÓI MAIS",
+    "chave": [
+     "dor",
+     "pesa"
+    ],
+    "selo": 1
+   },
+   {
+    "t": "Não diga só: você vai vender mais. Diga: cada dia sem resposta, o cliente que te procurou foi parar no concorrente.",
+    "w": "CONCORRENTE",
+    "chave": [
+     "concorrente"
+    ]
+   },
+   {
+    "t": "Pensa comigo: a loja que demora a responder de noite não perde só uma mensagem. Perde o pedido, e o cliente que ia voltar no mês seguinte.",
+    "w": "O PEDIDO",
+    "chave": [
+     "perde",
+     "pedido"
+    ]
+   },
+   {
+    "t": "Mostre o que ele perde por esperar. Isso pesa mais que qualquer benefício.",
+    "w": "ESPERAR",
+    "chave": [
+     "perde",
+     "esperar"
+    ]
+   },
+   {
+    "t": "Comenta a palavra perfil, e eu te mostro o que o seu negócio está perdendo hoje!",
+    "w": "PERFIL",
+    "chave": [
+     "perfil"
+    ],
+    "cta": 1
+   }
+  ],
+  "capa": "POR QUE ELE <em>NÃO COMPRA</em>",
+  "legenda": "Por que o cliente não compra mesmo vendo tudo o que vai ganhar 👇\n\nVocê lista benefício, mostra vantagem… e nada. A explicação é antiga: perder dói mais do que ganhar.\n\n**O que a ciência mostrou**\nDaniel Kahneman, Nobel de Economia, no livro Rápido e Devagar (2011): \"as perdas pesam mais que os ganhos\" (tradução livre).\n\n**Como usar na sua venda**\nEm vez de \"você vai vender mais\", mostre o que ele perde parado: cada dia sem resposta, o cliente que procurou foi parar no concorrente.\n\n**Exemplo (ilustrativo):** \"Toda mensagem que fica sem resposta à noite é um pedido que vai para outra loja.\"\n\n**Conclusão:** benefício atrai, perda decide. Use os dois, mas não esqueça o segundo.\n\n💬 Comenta PERFIL que eu te mostro o que o seu negócio está perdendo hoje.\n\n#gatilhosmentais #psicologiadevendas #marketingdigital #empreendedor #maranhao"
+ },
+ {
+  "id": "03",
+  "modo": "cubo",
+  "foto": "c12",
+  "pal": [
+   "#1F4BFF",
+   "#FFD400",
+   "#FF3B1F"
+  ],
+  "tema": "VITRINE",
+  "cta": "PERFIL",
+  "fonte": "MAQUIAVEL · O PRÍNCIPE, CAP. XVIII",
+  "falas": [
+   {
+    "t": "Seu serviço é o melhor da cidade? Pro cliente, isso não importa. Ele já decidiu antes!",
+    "w": "NÃO IMPORTA",
+    "chave": [
+     "melhor",
+     "decidiu"
+    ]
+   },
+   {
+    "t": "Há quinhentos anos, Maquiavél escreveu: os homens julgam mais pelos olhos, do que pelas mãos.",
+    "w": "OLHOS",
+    "chave": [
+     "olhos",
+     "mãos"
+    ],
+    "selo": 1
+   },
+   {
+    "t": "Hoje, os olhos do cliente estão no seu perfil. Foto escura, post torto, bio confusa.",
+    "w": "PERFIL",
+    "chave": [
+     "escura",
+     "torto",
+     "confusa"
+    ]
+   },
+   {
+    "t": "Ele julga tudo em segundos, e vai embora. Nem chega a provar o seu trabalho.",
+    "w": "TCHAU",
+    "chave": [
+     "embora"
+    ]
+   },
+   {
+    "t": "Pensa comigo: você entraria numa loja com a vitrine suja e a luz apagada? Pois é. O seu perfil é essa vitrine.",
+    "w": "LUZ APAGADA",
+    "chave": [
+     "suja",
+     "apagada"
+    ]
+   },
+   {
+    "t": "Então, arrume a vitrine antes de pedir confiança: foto boa, bio clara, e prova de cliente.",
+    "w": "VITRINE",
+    "lista": [
+     "FOTO BOA",
+     "BIO CLARA",
+     "PROVA"
+    ],
+    "chave": [
+     "vitrine"
+    ]
+   },
+   {
+    "t": "Comenta a palavra perfil, e eu te mostro três ajustes pra fazer hoje!",
+    "w": "PERFIL",
+    "chave": [
+     "perfil"
+    ],
+    "cta": 1
+   }
+  ],
+  "capa": "SEU PERFIL TE <em>REPROVA</em>",
+  "legenda": "Seu perfil pode estar reprovando o seu negócio antes do cliente provar 👇\n\nVocê é o melhor da cidade no que faz. Mas o cliente decide antes de experimentar.\n\n**Uma regra de 500 anos**\nMaquiavel, O Príncipe, cap. XVIII: os homens julgam mais pelos olhos do que pelas mãos (tradução livre).\n\n**Hoje os olhos estão no Instagram**\nFoto escura, post torto e bio confusa fazem o cliente ir embora sem nem chegar ao seu trabalho.\n\n**Arrume a vitrine em 3 passos**\n1. Foto boa: rosto, produto e lugar com luz.\n2. Bio clara: o que você faz, para quem, onde.\n3. Prova de cliente: depoimento, antes e depois liberado, bastidor.\n\n**Conclusão:** confiança começa pelo que ele vê.\n\n💬 Comenta PERFIL que eu te mostro 3 ajustes para fazer hoje.\n\n#perfilprofissional #instagramparanegocios #vitrinedigital #pequenasempresas #saoluis"
+ }
+]
