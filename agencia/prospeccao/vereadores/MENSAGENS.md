@@ -15,3 +15,19 @@ Tenho poucas vagas. Te mostro em 2 minutos?
 Vereador [Nome], o Thiago Azevedo, do Tribuna 98, me indicou.
 2028 se decide agora, no que o eleitor vê todo dia.
 Atendo poucos mandatos. Posso te mostrar o que faria no seu?
+
+## v3 (Lindson: "sem metáfora, oferta direta pra entrar no início de uma conversa")
+**V1**
+Vereador [Nome], sou o Lindson. O Thiago Azevedo, do Tribuna 98, me passou seu contato.
+Faço o Instagram do seu mandato: posts, vídeos e stories toda semana, prontos pra postar.
+Posso te mandar uma proposta?
+
+**V2**
+Vereador [Nome], Lindson aqui, indicação do Thiago Azevedo (Tribuna 98).
+Cuido das redes de mandatos: conteúdo da semana, vídeos das ações e site.
+Quer que eu te mande como funciona?
+
+**V3**
+Vereador [Nome], o Thiago Azevedo, do Tribuna 98, me passou seu contato.
+Monto e gerencio as redes do seu mandato, do roteiro ao post.
+Te mando os detalhes?
