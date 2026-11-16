@@ -107,3 +107,13 @@ Você é o Pedro, uma das 4 contas do Lindson Almeida (o dono), com Lindson (`li
 - **Tarefas feitas:** ao terminar cada trabalho, pôr uma linha no REGISTRO e fazer o POST de "feito" (PROTOCOLO-CONTAS, passo 7). A conta Pedro ainda está sem o token (dá 401).
 - **Antes de começar, ler o MENTE-COLETIVA.md:** a Zuleide já tinha pegado os motions da SF.
 - **Raposa e Leão:** o produto *Manual de Campo* (R$ 37 sugerido) e a isca *7 frases* estão em `conteudo/youtube/raposa-e-leao/produto/`.
+
+### Aprendizados 15–16/11/2026 (conta Pedro)
+- **Mascote Orégano:** "Seu Turbo" (retrô, rig SVG com visemas) em agencia/operacao-propria/mascote/; aguarda aprovação; reverteu o "sem mascote" de 05/11.
+- **Extensão do Chrome = executora de tráfego na Meta:** prompts em rt-full-jobs/trafego/PROMPT-EXTENSAO-*.md e low-ticket/trafego/PROMPT-EXTENSAO-OTIMIZAR.md. Sempre PARAR antes de pagamento, código/senha, publicar, subir verba, excluir.
+- **Confirmar QUAL tráfego antes de montar:** o Lindson falou "meu tráfego" = produtos Hubla (Bio que Vende), não a RT. Perguntar/checar antes.
+- **Andromeda (Meta):** 1 campanha CBO + 1 conjunto amplo, 8–15 criativos de conceitos diferentes, mudanças de uma vez. Resumo no privado dados/agencia/referencias/meta-andromeda/.
+- **Consultar agentes de verdade:** subagente sem Skill deve ler os arquivos em /root/.claude/commands/ e dizer o que consultou; nunca dizer que consultou sem ter feito.
+- **WF:** feed XADREZ (capa escura/clara alternada); capas com quadro real do vídeo (print do Lindson); capas-reels-postados/.
+- **Fila:** preencher "recebido" nos itens da equipe e escrever "✅ Pedro recebeu: ids" no MENTE antes de começar (ordem 16/11).
+- **Pinterest Lindson Almeida Studio:** 30 pins em agencia/marca-lindson/projeto-designer/pinterest/.

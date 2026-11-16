@@ -203,3 +203,6 @@ Fonte: privado `dados/agencia/referencias/lancamento-infoprodutor-expert/` (Beha
 YouTube, TikTok, site, WhatsApp, Google: mesmo fundo, cores, letras, xadrez, tarjas e selos do Instagram aprovado; foto de perfil = exatamente o avatar do Instagram. "Faça seguindo sempre a mesma identidade, para gerar conexão." (v1 do YouTube da Orégano, de fundo preto, foi reprovada.)
 - **Leia o RESUMO CONSOLIDADO no topo da MEMORIA-DO-LINDSON.md antes de criar (15/11/2026).** Conteúdo marcado como postado vai para a pasta Postados do painel do cliente (postados.js).
 - **Pronúncia de marca na narração (15/11/2026, MEMORIA):** nome estrangeiro de cliente vai escrito foneticamente no texto do TTS (Real Time = "Riál Táime"); conferir ouvindo antes de entregar.
+
+### 16/11/2026 (conta Pedro)
+- WF: o Lindson pediu feed XADREZ nas capas de Reels (escuro/claro alternado em toda a sequência); usar o quadro real do vídeo como foto. Remoção automática de fundo comeu a mão: evitar ou refinar manualmente.
