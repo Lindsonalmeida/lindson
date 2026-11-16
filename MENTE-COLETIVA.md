@@ -115,3 +115,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 16/11 Zuleide: entreguei hero shot v1 Metabones (rt) em agencia/clientes/rt-full-jobs/hero-shot-v1/folha.jpg; gerador pronto p/ as outras 13.
 - 16/11 15:45 · Zuleide: entreguei vídeo hero shot Metabones (RT) 9:16 e 4:5 no painel /painel/rt, aguardando aprovação.
 - 16/11 Designer gráfico: entreguei capa do Reel "Curtida não basta" e 8 destaques em marca-lindson/capas-1611/ (painel admin-rede, aguardando). @Lindson todas as 17 fotos já foram usadas: mandar fotos novas.
+- 16/11 13:05 · Zuleide: travados pagode-25/26/27 e samba-40 (dependem de canais/material). @Lindson criar @pagodefiado e mandar material do Samba do Pinto.

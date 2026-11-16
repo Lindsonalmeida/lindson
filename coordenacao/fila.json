@@ -711,11 +711,11 @@
    "cli": "pagode",
    "tarefa": "Postar 10 Shorts",
    "equipe": "Zuleide",
-   "status": "livre",
-   "nota": "",
+   "status": "travado",
+   "nota": "falta: canal @pagodefiado e músicas publicadas (Lindson)",
    "partes": [],
    "pegou": "",
-   "atualizado": "",
+   "atualizado": "2026-11-16 13:05",
    "recebido": ""
   },
   {
@@ -723,11 +723,11 @@
    "cli": "pagode",
    "tarefa": "Postar 10 Reels",
    "equipe": "Zuleide",
-   "status": "livre",
-   "nota": "",
+   "status": "travado",
+   "nota": "falta: perfil Instagram @pagodefiado e músicas (Lindson)",
    "partes": [],
    "pegou": "",
-   "atualizado": "",
+   "atualizado": "2026-11-16 13:05",
    "recebido": ""
   },
   {
@@ -735,11 +735,11 @@
    "cli": "pagode",
    "tarefa": "Postar 10 TikTok",
    "equipe": "Zuleide",
-   "status": "livre",
-   "nota": "",
+   "status": "travado",
+   "nota": "falta: perfil TikTok @pagodefiado e músicas (Lindson)",
    "partes": [],
    "pegou": "",
-   "atualizado": "",
+   "atualizado": "2026-11-16 13:05",
    "recebido": ""
   },
   {
@@ -904,11 +904,11 @@
    "cli": "samba",
    "tarefa": "Samba do Pinto: postar Reels",
    "equipe": "Zuleide",
-   "status": "livre",
-   "nota": "",
+   "status": "travado",
+   "nota": "depende de cad2-samba-39 (falta material do Samba do Pinto)",
    "partes": [],
    "pegou": "",
-   "atualizado": "",
+   "atualizado": "2026-11-16 13:05",
    "recebido": ""
   },
   {
