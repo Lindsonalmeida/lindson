@@ -846,11 +846,11 @@
    "cli": "sf",
    "tarefa": "SF: 8 respostas rápidas de urgência + cadência de retorno dia 1 e 3 para orçamento não fechado (guias venda-whatsapp e automacao-vendas)",
    "equipe": "Leandro",
-   "status": "andamento",
-   "nota": "[redistribuído de Pedro em 16/11 22:08: equipe sem atividade]",
+   "status": "aguardando aprovação",
+   "nota": "[redistribuído de Pedro em 16/11 22:08: equipe sem atividade] · Feito: agencia/clientes/desentupidora-sf/whatsapp/WHATSAPP.md + PDF; na Central em painel/sf/arquivos/whatsapp-sf.pdf (Entregas, aguardando)",
    "partes": [],
    "pegou": "Leandro 16/11 22:08",
-   "atualizado": ""
+   "atualizado": "Leandro 16/11 22:40"
   },
   {
    "id": "esp-sf-ranking",
@@ -868,11 +868,11 @@
    "cli": "jaci",
    "tarefa": "Jaci: 8 respostas rápidas no tom CFO + mensagens D-1 e pós-consulta pedindo avaliação (guias venda-whatsapp e automacao-vendas)",
    "equipe": "Leandro",
-   "status": "andamento",
-   "nota": "[redistribuído de Lindson em 16/11 22:08: equipe sem atividade]",
+   "status": "aguardando aprovação",
+   "nota": "[redistribuído de Lindson em 16/11 22:08: equipe sem atividade] · Feito: agencia/clientes/jaci-cunha/whatsapp/WHATSAPP.md + PDF; na Central em painel/jaci/arquivos/whatsapp-jaci.pdf (Entregas, aguardando)",
    "partes": [],
    "pegou": "Leandro 16/11 22:08",
-   "atualizado": ""
+   "atualizado": "Leandro 16/11 22:40"
   },
   {
    "id": "esp-wf-google",

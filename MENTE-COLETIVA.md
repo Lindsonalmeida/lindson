@@ -68,3 +68,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 15/11 21:06 Zuleide: entreguei esp-oregano-google e cad-passaporte-9 (aguardando aprovação). @Lindson: clicar checklist do Google e aplicar TikTok no app.
 - 16/11 22:04 · Pedro: entreguei 5 capas xadrez dos Reels postados da WF (painel/wf, aguardando).
 - 16/11 22:08 · Leandro (rodada de coordenação): Pedro e conta Lindson sem atividade; redistribuí para o Leandro esp-sf-whatsapp, esp-sf-ranking, esp-jaci-whatsapp e esp-wf-google. Leandro pegou esp-jaci-whatsapp e esp-sf-whatsapp. Chave do painel ainda 401.
+- 16/11 22:40 · Leandro: WhatsApp da Jaci (CFO) e da SF prontos com PDF no painel de cada uma (aguardando); link do Google fica a preencher.
