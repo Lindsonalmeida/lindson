@@ -11,15 +11,15 @@
 
 ⏱️ Capítulos
 0:00 Introdução
-1:26 1. A verdade efetiva
-3:07 2. Parecer, e não ser
-5:05 3. O rei que pregava paz
-9:01 4. A generosidade de vitrine
-11:06 5. Raposa e leão de verdade
-12:40 6. Como desmascarar
-17:21 7. O fingimento que todos fazem
-18:22 Seu compromisso
-18:37 Resumo
+1:12 1. A verdade efetiva
+2:37 2. Parecer, e não ser
+4:16 3. O rei que pregava paz
+7:35 4. A generosidade de vitrine
+9:19 5. Raposa e leão de verdade
+10:38 6. Como desmascarar
+14:35 7. O fingimento que todos fazem
+15:26 Seu compromisso
+15:39 Resumo
 
 📜 Fonte: Nicolau Maquiavel, O Príncipe, caps. XV, XVI, XVIII, XIX e XXI.
 
