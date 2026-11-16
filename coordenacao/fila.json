@@ -594,11 +594,11 @@
    "cli": "sf",
    "tarefa": "Reorganizar site",
    "equipe": "Pedro",
-   "status": "livre",
+   "status": "andamento",
    "nota": "",
    "partes": [],
-   "pegou": "",
-   "atualizado": "",
+   "pegou": "Pedro",
+   "atualizado": "2026-11-16",
    "recebido": "Pedro 15/11 22:37"
   },
   {
@@ -606,11 +606,11 @@
    "cli": "sf",
    "tarefa": "Criar 04 criativos",
    "equipe": "Pedro",
-   "status": "livre",
+   "status": "andamento",
    "nota": "",
    "partes": [],
-   "pegou": "",
-   "atualizado": "",
+   "pegou": "Pedro",
+   "atualizado": "2026-11-16",
    "recebido": "Pedro 15/11 22:37"
   },
   {
