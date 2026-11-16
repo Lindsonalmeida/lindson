@@ -18,3 +18,4 @@ Derivative work:  Aristeas · CC BY 4.0 · Wikimedia Commons
 - slz-centro-4.jpg · "São Luís Centro Histórico (Maranhão)IMG 20190707 082126.jpg" · Demetrio Jereissati · CC BY-SA 4.0 · Wikimedia Commons
 - servidores-3.jpg · "139 Server Room 01.jpg" · Indrajit Das · CC BY-SA 3.0 · Wikimedia Commons
 - slz-juninos.jpg · "Centro Histórico São Luís Festejos Juninos.jpg" · Demetrio Jereissati · CC BY-SA 4.0 · Wikimedia Commons
+- luz-pedra.jpg · quadro do vídeo div-barzakh (Gemini/Veo, gerado pelo Lindson) · uso: miniatura YouTube 02
