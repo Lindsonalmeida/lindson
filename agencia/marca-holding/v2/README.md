@@ -7,3 +7,4 @@ v1 (conta Leandro) reprovada pelo Lindson: "muito amador". v1 continua em `../` 
 - Gerar de novo: `python3 gerador/logos.py && python3 gerador/gerar.py && node gerador/render.js book manual` (NODE_PATH do playwright em agencia/operacao-propria/social/v4)
 - Mockups são renders digitais (HTML/CSS), não fotos. Nomes em crachá e assinatura são ilustrativos.
 - Próximo (fase 2, aprovada): site, apresentação para investidor, kit comercial, LinkedIn/Instagram, logo sonoro, manifesto 60 s, e-mail.
+- **v2.1 (conta Leandro, 16/11/2026):** revisão `REVISAO-LEANDRO-16-11.md` aplicada em `entregas/v2.1/` (book 27 p., manual 35 p., PDF com texto selecionável). Gerar: `python3 gerador/mockups_v21.py && python3 gerador/gerar_v21.py && node gerador/render_v21.js book manual` (NODE_PATH=/opt/node-tools/node_modules). A v2 continua em `gerar.py`. Fotos e créditos: `fotos-v2.1/CREDITOS.md`.

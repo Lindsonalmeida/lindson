@@ -35,3 +35,21 @@ Investidor/conselheiro e empresário do Nordeste, 40-55 anos, decide em reunião
 
 ## Combinação final
 Lippincott (tipo) + Wolff Olins (aplicação física) + Landor (símbolo cortado na borda), sobre o conceito "pedra-chave": as juntas de 4 pedras desenham o K.
+
+## v2.1 · pesquisa de brand book corporativo (conta Leandro, 16/11/2026) · capturas em `referencias/v2.1/`
+| Ref | País | Decisão |
+|---|---|---|
+| **Pentagram · Mastercard** | EUA/Reino Unido | ESCOLHIDA 1: marca aplicada em foto real de lugar → mockups em foto (fachada SLZ, notebook, gravação) |
+| **Deutsche Bahn · Markendesign** | Alemanha | ESCOLHIDA 2: manual com corpo grande e foto cheia → corpo 20-24 px, páginas ocupadas |
+| **NASA Graphics Standards Manual** | EUA | ESCOLHIDA 3: rigor e versão em uma cor → página de gravação/carimbo, grid em cor da paleta |
+| Porsche Brand Guide | Alemanha | Aproveitada: aplicações em foto escura premium |
+| Wise Design | Reino Unido | Aproveitada: regras de uso escritas em linguagem simples |
+| Spotify Design Guidelines | Suécia | Aproveitada: página de redes e avatar |
+| GOV.UK Design System | Reino Unido | Aproveitada: legibilidade e acessibilidade (texto selecionável) |
+| Atlassian Foundations | Austrália | Descartada: ilustração lúdica |
+| Collins (cases) | EUA | Aproveitada: ritmo foto/cor |
+| Koto (cases) | Reino Unido | Descartada: vitrine de agência |
+| bp (marca) | Reino Unido | Descartada: site institucional sem manual visível |
+| Uber Design | EUA | Descartada: captura sem conteúdo |
+| Brand New | EUA | Fonte de acompanhamento, não modelo |
+Bloqueadas (não burlado): Siemens (verificação humana), Ørsted (WAF), IKEA, BBVA/Aalto (404).
