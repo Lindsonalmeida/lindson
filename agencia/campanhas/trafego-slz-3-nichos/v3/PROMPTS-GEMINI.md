@@ -1,48 +1,86 @@
-# Prompts para o Gemini (o Lindson gera; conta Leandro, 16/11/2026)
+# Prompts para o Gemini · v3.1 (fidelidade de rosto 100% + ficha técnica e direção de cena) · conta Leandro, 16/11/2026
 
-**Como usar:** no Gemini (app, modo imagem), anexe as fotos indicadas, cole o prompt, gere em 9:16. Salve a imagem escolhida em `v3/cenas-gemini/<NOME>.jpg` (ex.: `ADV-1.jpg`) e rode `python3 v3/gerar_cinema.py <insumos>`: o gerador troca a imagem provisória pela cena e aplica tipografia, camadas e assinatura (9:16 e 4:5). Descarte a cena se o rosto não parecer o dele.
+**Como usar:** no Gemini (modo imagem), anexe as fotos indicadas (`membros/img/c13.jpg` sempre + `c08` ou `c10`), cole o BLOCO DE FIDELIDADE + o prompt da cena, gere em 9:16. Se o rosto não for idêntico, peça "refaça mantendo o rosto 100% idêntico à foto 1". Salve como `v3/cenas-gemini/<NOME>.jpg` e mande ao Claude.
 
-**Fotos para anexar** (privado `CentralLindsonALmeida/membros/img/`): rosto de frente = `c13.jpg`; meio corpo = `c10.jpg`; braço cruzado/relógio = `c08.jpg`. Sempre 2 a 3.
+## BLOCO DE FIDELIDADE (cole no início de TODO prompt)
+> FIDELIDADE DE ROSTO 100%: a pessoa da imagem é EXATAMENTE o homem das fotos anexadas. Preserve sem nenhuma alteração: formato do rosto e da mandíbula, olhos (formato, distância, cor), sobrancelhas, nariz, boca e lábios, orelhas, linha do cabelo e corte, barba e bigode (densidade e contorno), tom e textura da pele, marcas e pintas, idade aparente, altura e porte físico. Não embeleze, não afine, não rejuvenesça, não mude etnia, não suavize a pele. Rosto nítido e em foco crítico, pele com poros reais. Use a foto 1 como referência principal do rosto e as demais para corpo e postura.
+> REGRAS: fotorrealista, aparência de foto de campanha publicitária feita com câmera real, não ilustração nem 3D. Vertical 9:16, 2160×3840. Sem nenhum texto, letra, logo, marca d'água ou número na imagem. Mãos anatômicas com 5 dedos. Deixe o terço inferior mais escuro e limpo para tipografia (exceto onde indicado).
 
-**Trecho fixo no fim de todo prompt:** "Use as fotos anexadas como referência do rosto: mesmo homem, mesmo rosto, tom de pele, cabelo, barba e porte, fotorrealista. Formato vertical 9:16. Ele ocupa 55 a 70% do quadro, rosto no terço superior; deixe o terço de baixo mais escuro e limpo para texto. Sem nenhum texto, letra, logo ou marca d'água na imagem."
+## Linguagem 1 · Cinema-impacto (ref. Denis Bugatti)
 
-## Linguagem 1 · Cinema-impacto (referência Denis Bugatti)
+**ADV-1** · anexar c13 + c08 · gancho "Seu concorrente já está no Google"
+- **Cena:** escritório de advocacia com estantes de livros jurídicos e pastas de processo pegando fogo atrás dele; brasas flutuando; fumaça leve.
+- **Direção:** Lindson em pé, centralizado, braços cruzados, peso numa perna, queixo levemente baixo, olhar direto na lente, expressão séria e calma ("eu resolvo isso"). Terno azul-marinho slim, camisa branca sem gravata, relógio prata visível.
+- **Câmera:** full frame, 50 mm, f/2.0, 1/250 s, ISO 400; câmera na altura do peito, leve contra-plongée; plano médio (cabeça a meio da coxa); foco no olho mais próximo.
+- **Luz:** key suave 45° à esquerda com softbox grande (rosto limpo); rim light laranja forte do fogo nos dois ombros; fill frio azul baixo à direita; razão 4:1.
+- **Grade:** teal & orange, pretos profundos, contraste alto, grão fino de filme 35 mm, leve halation nas chamas.
 
-**ADV-1** (anexar c13, c08) · "Seu concorrente já está no Google"
-Lindson de terno azul-marinho e camisa branca aberta no colarinho, em pé dentro de um escritório de advocacia que pega fogo atrás dele: estantes de livros jurídicos e pastas de processo em chamas, brasas no ar. Ele encara a câmera, sério e calmo, braços cruzados. Luz de fogo laranja recortando os ombros, rosto com luz de recorte fria suave. Lente 50 mm, f/1.8, plano médio, câmera na altura do peito. Cor de cinema: laranja e preto, muito contraste.
+**ADV-3** · anexar c13 + c08 · "Seja encontrado"
+- **Cena:** mesa de mogno com pilha de processos; janela ao fundo com a orla de São Luís à noite (luzes desfocadas em bokeh).
+- **Direção:** sentado, cotovelos na mesa, segurando um celular que emite brilho verde e notificações subindo em luz; olha para a câmera por cima do celular, meio sorriso de quem sabe. Terno grafite, camisa preta.
+- **Câmera:** 35 mm, f/1.8, 1/160 s, ISO 800; plano médio fechado (cabeça ao umbigo), câmera na altura dos olhos.
+- **Luz:** luz do celular verde-esmeralda subindo no rosto como key prático; luminária âmbar lateral direita como contraluz; fundo 2 stops abaixo.
+- **Grade:** verde-esmeralda e âmbar, pretos ricos, bokeh redondo, grão fino.
 
-**ADV-2** (anexar c13, c10) · "Quando a indicação para, quem te acha?" — *esta vira editorial, ver abaixo*
+**BARBA-1** · anexar c13 + c10 · "Sábado lotado. Terça vazia?"
+- **Cena:** barbearia moderna à noite, vazia; fileira de cadeiras vazias ao fundo; espelhos com reflexo de neon vermelho; lâmpadas de filamento.
+- **Direção:** sentado na cadeira de barbeiro de couro, pernas cruzadas, um braço no apoio, olhar desafiador e levemente inclinado. Terno escuro, camisa preta, sapato de couro.
+- **Câmera:** 35 mm, f/1.8, 1/200 s, ISO 640; plano inteiro sentado levemente fechado; câmera baixa (altura do joelho) para dar poder.
+- **Luz:** rim light vermelho neon atrás à esquerda; key suave lateral direita com grid; filamentos como luz prática ao fundo.
+- **Grade:** vermelho, preto e madeira escura; contraste alto; reflexos no chão.
 
-**ADV-3** (anexar c13, c08) · "Seja encontrado"
-Lindson de terno escuro sentado numa mesa de mogno com uma pilha de processos, segurando um celular que brilha forte com dezenas de notificações de mensagens subindo em luz verde. Fundo: janela com a orla de São Luís à noite, luzes da cidade desfocadas. Luz verde do celular no rosto, luz âmbar de luminária lateral. Lente 35 mm, f/2, plano médio fechado. Cor: verde-esmeralda e âmbar.
+**BARBA-2** · anexar c13 + c08 · "Agenda lotada"
+- **Cena:** porta de barbearia de rua em São Luís à noite, calçada molhada refletindo neon roxo e verde-limão; fila de homens desfocados de costas (sem rosto reconhecível).
+- **Direção:** em pé na porta, de lado para a fila, aponta com o polegar para dentro, meio sorriso confiante, olhar na lente. Blazer preto sobre camiseta preta.
+- **Câmera:** 35 mm, f/1.4, 1/125 s, ISO 1250; plano americano; câmera na altura do peito; fila em bokeh.
+- **Luz:** neon roxo como key lateral, verde-limão como rim do outro lado; luz quente vindo de dentro da barbearia.
+- **Grade:** roxo e verde-limão saturados, pretos limpos, reflexos especulares no chão.
 
-**BARBA-1** (anexar c13, c10) · "Sábado lotado, terça vazia?"
-Lindson sentado numa cadeira de barbeiro clássica de couro, de terno escuro, pernas cruzadas, olhando para a câmera, numa barbearia moderna vazia à noite: cadeiras vazias atrás, luz de neon vermelha refletida no espelho, lâmpadas de filamento. Luz vermelha de recorte, rosto com luz suave lateral. Lente 35 mm, f/1.8, plano médio. Cor: vermelho, preto e madeira escura.
+**BARBA-3** · anexar c13 + c10 · "Movimento a semana toda"
+- **Cena:** estúdio preto infinito com chuva de faíscas douradas caindo em câmera lenta.
+- **Direção:** em pé, segura uma navalha de barbeiro dourada erguida na altura do peito, lâmina virada para a luz; olhar firme na lente. Terno preto, camisa preta.
+- **Câmera:** 85 mm, f/2.0, 1/500 s (faíscas congeladas), ISO 400; plano médio; câmera na altura dos olhos.
+- **Luz:** dois strip lights laterais com gel laranja em contraluz; key beauty dish suave de cima-frente; faíscas como luz prática.
+- **Grade:** laranja e preto, contraste extremo, faíscas com glow.
 
-**BARBA-2** (anexar c13, c08) · "Agenda lotada"
-Lindson em pé na porta de uma barbearia de rua em São Luís à noite, com uma fila de homens (desfocados, de costas, sem rosto reconhecível) esperando na calçada, letreiro de neon roxo e verde. Ele aponta com o polegar para dentro da barbearia, meio sorriso confiante. Chão molhado refletindo o neon. Lente 35 mm, f/1.4, plano americano. Cor: roxo e verde-limão.
+**SORRISO-1** · anexar c13 + c08 · "Cadeira vazia custa caro"
+- **Cena:** consultório odontológico escuro; cadeira de dentista vazia iluminada por um único feixe de cima, poeira no feixe; refletor odontológico aceso.
+- **Direção:** em pé ao lado da cadeira, mão apoiada no encosto, olhar sério na lente, postura de "isso precisa mudar". Terno azul-petróleo, camisa branca.
+- **Câmera:** 50 mm, f/1.8, 1/160 s, ISO 800; plano médio-inteiro; câmera levemente acima dos olhos.
+- **Luz:** spot duro de cima (top light) sobre a cadeira; key suave frontal fraco no rosto; fundo quase preto.
+- **Grade:** azul-petróleo frio com um toque de vermelho, contraste alto, volumetria.
 
-**BARBA-3** (anexar c13, c10) · "Movimento a semana toda"
-Lindson de terno escuro entre faíscas de esmerilhadeira/fogos caindo em câmera lenta, fundo preto de estúdio, uma navalha de barbeiro dourada na mão erguida na altura do peito, olhando firme. Luz de faísca laranja nas bordas, rosto com luz de recorte. Lente 85 mm, f/2, plano médio. Cor: laranja e preto.
+## Linguagem 2 · Editorial de luxo (ref. Gomes & Moura)
 
-**SORRISO-1** (anexar c13, c08) · "Cadeira vazia custa caro"
-Lindson em pé ao lado de uma cadeira de dentista vazia, iluminada por um único foco de luz de cima num consultório escuro, como num interrogatório. Ele apoia a mão no encosto da cadeira e olha para a câmera. Refletor odontológico aceso, poeira no feixe de luz. Lente 50 mm, f/1.8, plano médio. Cor: azul-petróleo frio e um toque de vermelho.
+**ADV-2** · anexar c13 + c10 · "Quem procura te encontra?"
+- **Cena:** escritório de advocacia clássico ao fim da tarde, persiana com raios de luz dourada, estante de livros de couro, xícara de café fumegante na mesa de madeira escura.
+- **Direção:** encostado na mesa, à direita do quadro, mãos nos bolsos, olhar sereno na lente; lado esquerdo do quadro vazio (ar para texto). Terno azul-marinho, gravata vinho.
+- **Câmera:** 50 mm, f/2.0, 1/200 s, ISO 320; plano médio; altura dos olhos. (Aqui o terço SUPERIOR esquerdo fica limpo para texto.)
+- **Luz:** luz natural de janela dourada como key lateral; rebatedor dourado de fill; partículas no feixe.
+- **Grade:** terroso, dourado e marrom-café; contraste médio; pele quente.
 
-## Linguagem 2 · Editorial de luxo (referência Gomes & Moura)
+**ADV-3** · anexar c13 + c08 · "O cliente pesquisa antes"
+- **Cena:** poltrona de couro marrom, luz de janela lateral, mesa com café fumegante e celular com tela acesa (sem texto legível).
+- **Direção:** sentado, jornal dobrado nas mãos, olha por cima do jornal para a câmera, sobrancelha levemente erguida. Terno grafite.
+- **Câmera:** 85 mm, f/2.0, 1/200 s, ISO 400; plano médio; altura dos olhos.
+- **Luz:** janela à esquerda como key, sombra suave à direita, fill baixo.
+- **Grade:** âmbar e marrom, quente, grão fino.
 
-**ADV-2** (anexar c13, c10) · "Quem procura te encontra?"
-Lindson de terno azul-marinho, em pé encostado numa mesa de madeira escura de um escritório de advocacia clássico, fim de tarde, luz dourada entrando por uma janela grande com persiana, poeira no feixe, estante de livros jurídicos de couro ao fundo, xícara de café com vapor na mesa. Ele à direita do quadro, olhando para a câmera; lado esquerdo do quadro com ar para texto. Lente 50 mm, f/2, plano médio. Cor: terrosa, dourada, marrom-café.
+**SORRISO-2** · anexar c13 + c10 · "Confiança antes da consulta"
+- **Cena:** consultório odontológico de alto padrão em madeira clara e mármore, plantas, luz dourada de janela, bandeja de madeira com espelho odontológico e café.
+- **Direção:** à direita do quadro, mãos juntas à frente, leve sorriso acolhedor, olhar na lente. Terno bege ou azul-claro, camisa branca.
+- **Câmera:** 50 mm, f/2.0, 1/250 s, ISO 200; plano médio; altura dos olhos.
+- **Luz:** janela dourada lateral como key, fill suave, fundo claro 1 stop acima.
+- **Grade:** bege, dourado e verde-oliva suave; contraste baixo-médio; elegante.
 
-**ADV-3** (anexar c13, c08) · "O cliente pesquisa antes"
-Lindson sentado numa poltrona de couro marrom lendo um jornal dobrado, com luz dourada de janela batendo de lado, mesa de madeira com café fumegante e um celular com a tela acesa mostrando uma busca. Ele à esquerda, olhando por cima do jornal para a câmera. Lente 85 mm, f/2, plano médio. Cor: âmbar e marrom.
+**SORRISO-3** · anexar c13 + c08 · "Um ritual de agenda cheia"
+- **Cena:** recepção de clínica premium de manhã; agenda de couro aberta cheia de anotações (sem texto legível), café fumegante, luz dourada.
+- **Direção:** em pé atrás da mesa, à esquerda do quadro, ajustando o punho da camisa, olhar de canto para a câmera. Terno marinho.
+- **Câmera:** 35 mm, f/2.2, 1/200 s, ISO 250; plano médio; altura do peito.
+- **Luz:** luz de janela atrás-lateral (contraluz dourada) + key suave frontal.
+- **Grade:** terroso e dourado, quente.
 
-**SORRISO-2** (anexar c13, c10) · "Confiança antes da consulta"
-Lindson de terno escuro num consultório odontológico de alto padrão em tons de madeira clara e mármore, luz dourada de janela, plantas, uma xícara de café e um espelho odontológico sobre bandeja de madeira. Ele à direita, mãos juntas, leve sorriso. Lente 50 mm, f/2, plano médio. Cor: bege, dourado, verde-oliva suave.
-
-**SORRISO-3** (anexar c13, c08) · "Um ritual de agenda cheia"
-Mesa de madeira de recepção de clínica odontológica premium, de manhã, com uma agenda de couro aberta cheia de anotações (sem texto legível), café com vapor e luz de janela dourada; Lindson em pé atrás da mesa, à esquerda do quadro, ajustando o punho da camisa. Lente 35 mm, f/2.2, plano médio. Cor: terrosa e dourada.
-
-## Capas dos Reels (anexar c13 e c10)
-- **CAPA-ADV:** Lindson numa coletiva de imprensa, cercado de microfones e flashes de câmeras, de terno escuro, olhar firme. Luz de flash branca e fundo escuro com vermelho. Lente 35 mm.
-- **CAPA-BARBA:** Lindson de pé dentro de uma barbearia escura com neon roxo, segurando uma tesoura de barbeiro na altura do peito. Lente 50 mm.
-- **CAPA-SORRISO:** Lindson segurando um espelho odontológico contra a luz, que reflete um brilho dourado, fundo escuro de consultório. Lente 85 mm.
+## Capas dos Reels · anexar c13 + c10
+- **CAPA-ADV:** coletiva de imprensa, 6 a 8 microfones de emissoras sem logos apontados para ele, flashes estourando ao fundo. Olhar firme, terno escuro. 35 mm, f/2.8, 1/250 s, ISO 800; plano médio fechado; flash branco duro + fundo escuro com vermelho. Grade contraste alto.
+- **CAPA-BARBA:** barbearia escura com neon roxo; segura tesoura de barbeiro na altura do peito, meio sorriso. 50 mm, f/1.8, 1/160 s, ISO 1000; rim roxo + key suave.
+- **CAPA-SORRISO:** segura espelho odontológico contra a luz, reflexo dourado, fundo de consultório escuro. 85 mm, f/2.0, 1/250 s, ISO 400; key lateral dourado, fundo 3 stops abaixo.
