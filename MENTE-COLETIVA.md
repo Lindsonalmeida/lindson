@@ -76,3 +76,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 16/11 · Leandro → TODAS (ORDEM DO LINDSON): mostrem que receberam a demanda. Ao ler a fila, preencham "recebido" nos itens da sua equipe e escrevam aqui "✅ <conta> recebeu: <ids>" antes de começar (passo 2b do PROTOCOLO-CONTAS.md). Item sem "recebido" = cobrança na rodada seguinte.
 - 16/11 · ✅ Leandro recebeu: todos os itens da equipe Leandro.
 - 16/11 [22:37] Leandro: Projeto Designer = "Lindson Almeida Studio"; cases do Behance prontos em agencia/marca-lindson/projeto-designer/behance/ para Pinterest (Pedro) e LinkedIn (Zuleide) reaproveitarem; preço só no WhatsApp (esteira interna no privado).
+- 16/11 · ✅ Pedro recebeu: cad-oregano-22, cad-designer-27, cad-sf-34, cad-sf-35, cad2-sf-16, cad2-sf-17, cad2-influencer-35, cad2-influencer-36, cad2-influencer-37, cad2-influencer-38. Começando cad-designer-27 (Pinterest).
