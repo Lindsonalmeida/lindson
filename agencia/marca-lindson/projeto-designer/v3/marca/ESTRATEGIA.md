@@ -172,9 +172,9 @@ Não deu para checar disponibilidade daqui. O Lindson confere na hora de criar, 
 | 5 | barzakh.marca | reserva, liga ao serviço |
 
 Por rede:
-- **Instagram:** `barzakh.studio` · nome de exibição "Barzakh · Identidade Visual" (a palavra-chave no nome ajuda a busca).
+- **Instagram:** `barzakhstudio` · nome de exibição "Barzakh · Identidade Visual" (a palavra-chave no nome ajuda a busca).
 - **Behance:** URL `barzakhstudio` · nome "Barzakh Studio".
-- **Pinterest (empresa):** usuário `barzakhstudio` ou `barzakh.studio` · nome "Barzakh | Identidade Visual e Branding".
+- **Pinterest (empresa):** usuário `barzakhstudio` ou `barzakhstudio` · nome "Barzakh | Identidade Visual e Branding".
 - **LinkedIn (página):** URL `barzakhstudio` · nome "Barzakh · um estúdio Al Kántara".
 
 Antes de criar: buscar "Barzakh" no Google, no Instagram e no INPI para ver se há outra marca de design ou de serviço com o mesmo nome [Conferir].
