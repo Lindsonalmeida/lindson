@@ -1,0 +1,416 @@
+{
+ "marca": "Al Kántara Group",
+ "conta": "Pedro",
+ "data": "2026-11-16",
+ "instagram_perfil": {
+  "nome": "Al Kántara · Tecnologia SLZ",
+  "bio": "Holding de tecnologia de São Luís/MA.\nLabs · Barzakh · Media · Ventures\nIA, marca e canais com rigor.\n👇 Fale com a gente",
+  "link": "https://alkantaragroup.pages.dev",
+  "categoria": "Empresa de tecnologia",
+  "handle": "@alkantaragroup"
+ },
+ "destaques": [
+  {
+   "titulo": "Grupo",
+   "icone": "símbolo das 4 pedras em latão"
+  },
+  {
+   "titulo": "Labs",
+   "icone": "pedra azul com colchetes de código"
+  },
+  {
+   "titulo": "Barzakh",
+   "icone": "pedra laranja com traço de pincel"
+  },
+  {
+   "titulo": "Media",
+   "icone": "pedra açafrão com botão play"
+  },
+  {
+   "titulo": "Ventures",
+   "icone": "pedra verde com seta para cima"
+  },
+  {
+   "titulo": "Contato",
+   "icone": "balão de conversa em latão"
+  }
+ ],
+ "posts": [
+  {
+   "id": "p01",
+   "tipo": "estatico",
+   "fundo": "escuro",
+   "divisao": "grupo",
+   "titulo": "Dar *estrutura* ao que vem",
+   "apoio": "Holding de tecnologia de São Luís. Quatro divisões, um mesmo rigor.",
+   "legenda": "Holding de tecnologia em São Luís: o que é a Al Kántara Group\n\nAl-qantara quer dizer o arco. Num arco, cada pedra segura a outra, e a pedra-chave no alto mantém tudo de pé. Foi essa a ideia que deu nome ao grupo.\n\nQuatro divisões, um mesmo método\nLabs cuida de IA e software. Barzakh, um estúdio Al Kántara, cuida de marca e design. Media cuida de canais e conteúdo. Ventures cuida dos negócios próprios do grupo, como a Orégano Turbo e o Estado Próprio.\n\nPor que uma holding, e não uma agência\nPorque o empresário não deveria montar o próprio quebra-cabeça com cinco fornecedores que não conversam. Aqui, quem cria a marca senta à mesa com quem escreve o código e com quem cuida do canal.\n\nExemplo\nUma clínica que precisa de agenda automática, site novo e conteúdo fala com uma equipe só, com um responsável com nome e telefone.\n\nPara fechar\nVocê é quem conduz o seu negócio. O nosso papel é dar estrutura para que ele aguente o que vem pela frente.\n\nQuer conversar sobre o seu caso? O link na bio leva ao site e ao WhatsApp da Al Kántara. Uma conversa, sem compromisso.\n\n#holdingdetecnologia #saoluisma #tecnologiaparaempresas #empreendedorismonordeste"
+  },
+  {
+   "id": "p02",
+   "tipo": "carrossel",
+   "fundo": "cor",
+   "divisao": "labs",
+   "titulo": "O que se repete, *a máquina* faz",
+   "apoio": "Al Kántara Labs: IA e software para empresas de serviço.",
+   "telas": [
+    {
+     "titulo": "O que se repete, a máquina faz",
+     "texto": "Sua equipe ainda copia dado de planilha para WhatsApp? Arraste para o lado."
+    },
+    {
+     "titulo": "A dor",
+     "texto": "Horas da semana somem em tarefa repetida. Agenda, confirmação, cobrança, relatório. Ninguém contratou gente boa para isso."
+    },
+    {
+     "titulo": "O medo",
+     "texto": "Você já pagou um sistema que ninguém usou. É normal desconfiar de mais um."
+    },
+    {
+     "titulo": "Como a Labs trabalha",
+     "texto": "Primeiro olhamos o seu fluxo de verdade. Depois mostramos uma demonstração com ele. Só então se fala em contrato."
+    },
+    {
+     "titulo": "O que é seu continua seu",
+     "texto": "Código e dados ficam com a sua empresa. Prazo combinado no contrato. Suporte com nome e telefone."
+    },
+    {
+     "titulo": "Próximo passo",
+     "texto": "Mande no WhatsApp qual tarefa mais toma tempo da sua equipe. Link na bio."
+    }
+   ],
+   "legenda": "Automação de processos para empresas em São Luís: por onde começar\n\nToda empresa de serviço tem uma tarefa que se repete todo dia e que ninguém aguenta mais fazer. Confirmar consulta, lançar pedido, montar relatório. É ali que a tecnologia mais ajuda.\n\nO problema não é a ferramenta\nMuita empresa já comprou sistema e voltou para a planilha. Quase sempre porque o sistema foi escolhido antes de alguém olhar como a equipe trabalha de verdade.\n\nO método da Al Kántara Labs\nComeçamos pelo seu fluxo, desenhamos a automação em cima dele e mostramos funcionando antes de qualquer contrato. Código e dados são da sua empresa.\n\nExemplo\nUma rede de clínicas que confirma agenda à mão pode ter a confirmação saindo sozinha pelo WhatsApp, com um painel dos números do dia para o gestor.\n\nPara fechar\nVocê continua decidindo. A Labs tira da frente o que não precisa de gente.\n\nQuer conversar sobre o seu caso? O link na bio leva ao site e ao WhatsApp da Al Kántara. Uma conversa, sem compromisso.\n\n#automacaodeprocessos #inteligenciaartificial #gestaodeclinicas #saoluis"
+  },
+  {
+   "id": "p03",
+   "tipo": "reel",
+   "fundo": "escuro",
+   "divisao": "grupo",
+   "titulo": "Cinco fornecedores, *nenhum* conversa",
+   "apoio": "Uma equipe só para marca, sistema e canal.",
+   "narracao": [
+    "Você paga cinco fornecedores, e nenhum deles conversa com o outro?",
+    "O site é de um, o sistema é de outro, o conteúdo é de um terceiro.",
+    "Quando algo quebra, cada um aponta para o lado.",
+    "A Al Kántara Group junta tudo isso numa mesa só: tecnologia, marca e canal.",
+    "Um responsável com nome e telefone, e prazo combinado no contrato.",
+    "Quer ver como seria no seu negócio? Link na bio!"
+   ],
+   "letreiros": [
+    "5 fornecedores. 0 conversa.",
+    "Site, sistema, conteúdo",
+    "Cada um aponta pro lado",
+    "Uma mesa só",
+    "Nome, telefone, contrato",
+    "Link na bio"
+   ],
+   "legenda": "Fornecedores de tecnologia e marketing: por que juntar numa equipe só\n\nQuem tem negócio em São Luís conhece a cena. O site é de um, o sistema é de outro, o conteúdo é de um terceiro. Na hora do problema, ninguém é dono.\n\nO custo escondido\nO custo não está só na nota fiscal. Está nas horas que você passa repassando recado entre gente que não se fala, e nas decisões que ficam paradas.\n\nUma holding, uma mesa\nNa Al Kántara Group, Labs, Barzakh, Media e Ventures trabalham juntas. A marca nasce sabendo como o sistema funciona e o canal nasce sabendo o que a marca promete.\n\nExemplo\nUma empresa que lança um serviço novo pode ter página, automação de atendimento e conteúdo saindo da mesma reunião.\n\nPara fechar\nVocê não precisa ser o gerente de cinco fornecedores. Precisa de um parceiro que responda por tudo.\n\nQuer conversar sobre o seu caso? O link na bio leva ao site e ao WhatsApp da Al Kántara. Uma conversa, sem compromisso.\n\n#gestaoempresarial #fornecedores #empresasdomaranhao #tecnologia #marketingdigital"
+  },
+  {
+   "id": "p04",
+   "tipo": "estatico",
+   "fundo": "claro",
+   "divisao": "barzakh",
+   "titulo": "Marca boa *cobra* o que vale",
+   "apoio": "Barzakh · um estúdio Al Kántara. Marca e design para negócio local.",
+   "legenda": "Identidade visual para negócio local: quando a marca segura o preço\n\nTem negócio que entrega muito e cobra pouco. Muitas vezes o serviço é ótimo, mas a marca não mostra isso. O cliente compara pela aparência e pede desconto.\n\nO que a marca faz por você\nUma identidade bem pensada diz, antes de você falar, que ali tem cuidado. Ela organiza a fachada, o cardápio, o perfil e a proposta numa mesma voz.\n\nComo a Barzakh trabalha\nBarzakh · um estúdio Al Kántara começa pela pessoa que compra: quem é, onde está, o que faz confiar. Só depois vêm nome, cor, letra e aplicação.\n\nExemplo\nUma clínica com logo antigo e perfil confuso pode ganhar uma identidade única para recepção, uniforme, Instagram e site, tudo falando a mesma língua.\n\nPara fechar\nMarca não é enfeite. É o que ajuda o cliente a entender por que o seu trabalho vale o que vale.\n\nQuer conversar sobre o seu caso? O link na bio leva ao site e ao WhatsApp da Al Kántara. Uma conversa, sem compromisso.\n\n#identidadevisual #brandingparanegocios #designmaranhense #saoluisma"
+  },
+  {
+   "id": "p05",
+   "tipo": "carrossel",
+   "fundo": "escuro",
+   "divisao": "grupo",
+   "titulo": "As *quatro pedras* do arco",
+   "apoio": "Conheça as divisões da Al Kántara Group.",
+   "telas": [
+    {
+     "titulo": "As quatro pedras do arco",
+     "texto": "Num arco, cada pedra segura a outra. Assim funciona a Al Kántara Group."
+    },
+    {
+     "titulo": "Al Kántara Labs",
+     "texto": "IA e software. Automação, sistemas e painéis para empresas de serviço."
+    },
+    {
+     "titulo": "Barzakh · um estúdio Al Kántara",
+     "texto": "Marca e design. Identidade, embalagem, site e tudo o que mostra o valor do negócio."
+    },
+    {
+     "titulo": "Al Kántara Media",
+     "texto": "Canais e conteúdo. Vídeo, roteiro e publicação com método."
+    },
+    {
+     "titulo": "Al Kántara Ventures",
+     "texto": "Negócios próprios do grupo, como a Orégano Turbo e o Estado Próprio. Testamos em casa o que oferecemos."
+    },
+    {
+     "titulo": "A pedra-chave",
+     "texto": "O método que segura tudo: pessoa primeiro, pesquisa, contrato claro. Conheça cada divisão no link da bio."
+    }
+   ],
+   "legenda": "Al Kántara Group: as quatro divisões da holding de tecnologia\n\nO nome vem do árabe al-qantara, o arco. A marca nasceu de uma imagem simples: quatro pedras que, juntas, desenham um K e seguram o peso de uma estrutura.\n\nLabs e Barzakh\nA Al Kántara Labs faz IA e software sob medida. Barzakh, um estúdio Al Kántara, faz marca e design para quem precisa mostrar o próprio valor.\n\nMedia e Ventures\nA Al Kántara Media cuida de canais e conteúdo. A Al Kántara Ventures cuida dos negócios do próprio grupo, onde testamos o que depois levamos aos clientes.\n\nExemplo\nUm negócio local pode começar pela marca com a Barzakh e, depois, automatizar o atendimento com a Labs, sem trocar de parceiro.\n\nPara fechar\nCada divisão tem cor e função própria. O que une todas é o mesmo método e o mesmo cuidado.\n\nQuer conversar sobre o seu caso? O link na bio leva ao site e ao WhatsApp da Al Kántara. Uma conversa, sem compromisso.\n\n#holding #inovacaonordeste #empresasdesaoluis #tecnologiaedesign"
+  },
+  {
+   "id": "p06",
+   "tipo": "estatico",
+   "fundo": "cor",
+   "divisao": "media",
+   "titulo": "Conteúdo com *método*, não com sorte",
+   "apoio": "Al Kántara Media: canais e conteúdo para marcas e anunciantes de nicho.",
+   "legenda": "Produção de conteúdo para empresas: método em vez de sorte\n\nPostar todo dia sem saber por quê cansa a equipe e não constrói nada. Conteúdo que funciona tem linha, ritmo e alguém olhando o que deu certo.\n\nO que falta na maioria dos perfis\nFalta uma ideia que se repete. O perfil vira um mural de avisos soltos, e quem visita não entende o que a empresa faz nem para quem.\n\nComo a Al Kántara Media trabalha\nDefinimos a pessoa que vai assistir, as linhas editoriais e o calendário. Roteiro, edição e publicação seguem o mesmo padrão, semana após semana.\n\nExemplo\nUma empresa de serviço pode trocar posts aleatórios por uma série fixa de dúvidas de clientes, com vídeo curto toda semana.\n\nPara fechar\nNinguém controla o algoritmo. Mas dá para controlar a constância e a clareza do que você diz.\n\nQuer conversar sobre o seu caso? O link na bio leva ao site e ao WhatsApp da Al Kántara. Uma conversa, sem compromisso.\n\n#producaodeconteudo #criadordeconteudo #marketingdeconteudo #maranhao"
+  },
+  {
+   "id": "p07",
+   "tipo": "reel",
+   "fundo": "claro",
+   "divisao": "labs",
+   "titulo": "Sistema que *ninguém usa* é prejuízo",
+   "apoio": "Como a Labs evita o sistema esquecido na gaveta.",
+   "narracao": [
+    "Sabe aquele sistema caro que a sua equipe nunca usou?",
+    "Ele não falhou por falta de tecnologia. Falhou porque ninguém olhou como a equipe trabalha.",
+    "Na Al Kántara Labs, a gente começa pelo seu fluxo de verdade.",
+    "Mostramos funcionando com o seu caso, antes de qualquer contrato.",
+    "Código e dados ficam com você, e o suporte tem nome e telefone.",
+    "Quer mostrar o seu fluxo pra gente? Link na bio!"
+   ],
+   "letreiros": [
+    "Sistema caro, nunca usado",
+    "Ninguém olhou a equipe",
+    "Começa pelo seu fluxo",
+    "Demonstração antes do contrato",
+    "Seu código. Seus dados.",
+    "Link na bio"
+   ],
+   "legenda": "Software sob medida: por que tanto sistema acaba sem uso\n\nMuita empresa tem um sistema pago e esquecido. A equipe voltou para a planilha e para o caderno. Isso não é preguiça: é sinal de que a ferramenta não foi feita para aquele trabalho.\n\nOnde o projeto erra\nQuando o sistema é escolhido antes de alguém sentar com a equipe, ele resolve um problema que não existe e ignora o que dói de verdade.\n\nO caminho da Al Kántara Labs\nMapeamos o fluxo com quem faz a tarefa, montamos uma demonstração com os seus dados e só depois falamos de contrato, com prazo combinado por escrito.\n\nExemplo\nUma empresa que lança pedidos em três lugares diferentes pode ter um fluxo único, com aviso automático no WhatsApp de quem precisa agir.\n\nPara fechar\nTecnologia boa é a que a equipe usa sem pensar. Esse é o ponto de partida, não o fim.\n\nQuer conversar sobre o seu caso? O link na bio leva ao site e ao WhatsApp da Al Kántara. Uma conversa, sem compromisso.\n\n#softwaresobmedida #transformacaodigital #inteligenciaartificial #saoluisma"
+  },
+  {
+   "id": "p08",
+   "tipo": "carrossel",
+   "fundo": "escuro",
+   "divisao": "barzakh",
+   "titulo": "Cinco sinais de *marca cansada*",
+   "apoio": "Um checklist rápido da Barzakh · um estúdio Al Kántara.",
+   "telas": [
+    {
+     "titulo": "Cinco sinais de marca cansada",
+     "texto": "Se três destes forem verdade, sua marca está pedindo ajuda."
+    },
+    {
+     "titulo": "1. Cada lugar, uma cara",
+     "texto": "A fachada fala uma coisa, o Instagram outra, o cartão uma terceira."
+    },
+    {
+     "titulo": "2. Cliente pede desconto",
+     "texto": "Quando a aparência não mostra o cuidado, a conversa vira preço."
+    },
+    {
+     "titulo": "3. Vergonha de mandar o perfil",
+     "texto": "Você prefere explicar a mandar o link."
+    },
+    {
+     "titulo": "4. Ninguém lembra o nome",
+     "texto": "O cliente diz 'aquele lugar ali' em vez do nome da empresa."
+    },
+    {
+     "titulo": "5. Tudo feito às pressas",
+     "texto": "Cada peça nasce na véspera, sem regra. Quer olhar a sua com calma? Link na bio."
+    }
+   ],
+   "legenda": "Rebranding para pequenas empresas: cinco sinais de marca cansada\n\nMarca envelhece sem avisar. Um dia você percebe que tem vergonha de mandar o perfil e que o cliente sempre pede desconto. Fizemos um checklist simples para você conferir.\n\nOs sinais mais comuns\nPeças que não combinam entre si, nome que ninguém lembra, conversa que sempre termina em preço. Nenhum desses sinais aparece de uma vez; eles se somam.\n\nO que a Barzakh faz\nBarzakh · um estúdio Al Kántara revê a marca a partir de quem compra. Mantém o que tem valor, corta o que confunde e entrega um sistema que qualquer pessoa da equipe consegue aplicar.\n\nExemplo\nUm restaurante com cardápio, fachada e perfil de épocas diferentes pode ganhar uma identidade única, com regras simples para cada peça nova.\n\nPara fechar\nNão é sobre estar na moda. É sobre o cliente entender, de primeira, quem você é.\n\nQuer conversar sobre o seu caso? O link na bio leva ao site e ao WhatsApp da Al Kántara. Uma conversa, sem compromisso.\n\n#rebranding #identidadevisual #pequenasempresas #designnordeste #saoluis"
+  },
+  {
+   "id": "p09",
+   "tipo": "estatico",
+   "fundo": "cor",
+   "divisao": "ventures",
+   "titulo": "Testamos *em casa* primeiro",
+   "apoio": "Al Kántara Ventures: os negócios próprios do grupo.",
+   "legenda": "Negócios próprios: por que a Al Kántara Ventures existe\n\nÉ fácil dar conselho com o dinheiro dos outros. Por isso a Al Kántara Group mantém negócios próprios, onde cada método é testado antes de chegar a um cliente.\n\nO que é a Ventures\nA Al Kántara Ventures reúne as marcas do grupo, como a Orégano Turbo, voltada a donos de pizzaria, e o Estado Próprio. São negócios reais, com operação de verdade.\n\nPor que isso importa para você\nQuando a Labs propõe uma automação ou a Barzakh propõe uma marca, a proposta vem de quem também enfrenta caixa, equipe e cliente todos os dias.\n\nExemplo\nUm processo de atendimento que funcionou dentro de um negócio do grupo vira ponto de partida para a conversa com um cliente do mesmo tipo.\n\nPara fechar\nNão prometemos resultado. Mostramos o que fazemos, inclusive dentro de casa.\n\nQuer conversar sobre o seu caso? O link na bio leva ao site e ao WhatsApp da Al Kántara. Uma conversa, sem compromisso.\n\n#negociosproprios #empreendedorismo #holdingmaranhense #venturebuilder"
+  },
+  {
+   "id": "p10",
+   "tipo": "carrossel",
+   "fundo": "claro",
+   "divisao": "grupo",
+   "titulo": "Como é *trabalhar* com a gente",
+   "apoio": "Do primeiro contato à entrega, sem surpresa.",
+   "telas": [
+    {
+     "titulo": "Como é trabalhar com a gente",
+     "texto": "Sem surpresa no meio do caminho. Veja o passo a passo."
+    },
+    {
+     "titulo": "1. Conversa",
+     "texto": "Você conta o que dói. A gente pergunta mais do que fala."
+    },
+    {
+     "titulo": "2. Diagnóstico",
+     "texto": "Olhamos o seu fluxo, a sua marca ou o seu canal de perto, com quem faz o trabalho."
+    },
+    {
+     "titulo": "3. Proposta",
+     "texto": "Escopo claro, responsável com nome e prazo combinado no contrato."
+    },
+    {
+     "titulo": "4. Entrega",
+     "texto": "Você acompanha cada etapa. O que é seu, código, arquivos e dados, fica com você."
+    },
+    {
+     "titulo": "5. Depois",
+     "texto": "Suporte com nome e telefone. Comece pela conversa: link na bio."
+    }
+   ],
+   "legenda": "Como contratar uma empresa de tecnologia sem dor de cabeça\n\nO maior medo de quem contrata tecnologia ou marca é o fornecedor sumir no meio do projeto. Por isso deixamos o caminho inteiro à vista desde a primeira conversa.\n\nAntes do contrato\nTudo começa com uma conversa e um diagnóstico feito de perto. Só depois vem a proposta, com escopo, responsável e prazo combinado por escrito.\n\nDurante e depois\nVocê acompanha cada etapa. Ao final, código, arquivos e dados ficam com a sua empresa, e o suporte tem nome e telefone.\n\nExemplo\nUm diretor de operações que quer automatizar a agenda sabe, desde o primeiro dia, quem atende, o que será entregue e quando.\n\nPara fechar\nContrato claro não é burocracia. É respeito pelo seu tempo e pelo seu dinheiro.\n\nQuer conversar sobre o seu caso? O link na bio leva ao site e ao WhatsApp da Al Kántara. Uma conversa, sem compromisso.\n\n#contratacaodeti #gestaodeprojetos #empresasdesaoluis #tecnologiaparaempresas"
+  },
+  {
+   "id": "p11",
+   "tipo": "reel",
+   "fundo": "escuro",
+   "divisao": "media",
+   "titulo": "Postar todo dia *não basta*",
+   "apoio": "Constância sem método cansa a equipe.",
+   "narracao": [
+    "Postar todo dia não está trazendo cliente?",
+    "O problema quase nunca é a frequência. É postar sem saber pra quem.",
+    "Perfil sem linha vira mural de avisos, e ninguém entende o que você faz.",
+    "A Al Kántara Media começa pela pessoa que assiste, depois monta a série e o calendário.",
+    "Roteiro, edição e publicação no mesmo padrão, semana após semana.",
+    "Quer organizar o seu canal? Link na bio!"
+   ],
+   "letreiros": [
+    "Postar todo dia não basta",
+    "Pra quem você posta?",
+    "Mural de avisos",
+    "Pessoa, série, calendário",
+    "Mesmo padrão, toda semana",
+    "Link na bio"
+   ],
+   "legenda": "Estratégia de conteúdo para empresas: por que postar todo dia não basta\n\nMuita empresa se obriga a postar todo dia e se frustra. O esforço é grande, mas o perfil não vira conversa nem venda. A frequência sozinha não resolve.\n\nPara quem você está postando\nAntes do calendário, vem a pessoa. Quem é, onde assiste, qual dúvida tem. Sem essa resposta, cada post fala com alguém diferente.\n\nO método da Al Kántara Media\nDefinimos a persona, as linhas editoriais e uma série que se repete. O canal ganha cara própria e a equipe para de improvisar.\n\nExemplo\nUma clínica pode transformar as perguntas que ouve na recepção numa série semanal de vídeos curtos, com o mesmo formato e a mesma abertura.\n\nPara fechar\nNão há fórmula de alcance. Há clareza, constância e alguém olhando o que funcionou.\n\nQuer conversar sobre o seu caso? O link na bio leva ao site e ao WhatsApp da Al Kántara. Uma conversa, sem compromisso.\n\n#estrategiadeconteudo #reels #marketingparaempresas #saoluisma #socialmedia"
+  },
+  {
+   "id": "p12",
+   "tipo": "estatico",
+   "fundo": "claro",
+   "divisao": "grupo",
+   "titulo": "Rigor feito *no Maranhão*",
+   "apoio": "Referência de rigor no Norte e no Nordeste. Fale com a gente.",
+   "legenda": "Empresa de tecnologia no Maranhão: rigor feito aqui\n\nPor muito tempo, quem queria tecnologia e design de alto nível achava que precisava contratar fora. A Al Kántara Group nasceu em São Luís para mostrar que dá para fazer aqui, com o mesmo cuidado.\n\nPerto de quem decide\nEstar na mesma cidade muda a conversa. Dá para visitar a operação, sentar com a equipe e resolver um problema olhando no olho.\n\nGente daqui, padrão alto\nTrabalhamos com talentos da UFMA, do IFMA e remotos, com método, pesquisa e contrato claro em cada projeto.\n\nExemplo\nUm empresário de São Luís pode ter marca, sistema e conteúdo feitos por uma equipe que conhece a cidade e o cliente dele.\n\nPara fechar\nQueremos ser referência de rigor no Norte e no Nordeste. Isso se constrói projeto a projeto.\n\nQuer conversar sobre o seu caso? O link na bio leva ao site e ao WhatsApp da Al Kántara. Uma conversa, sem compromisso.\n\n#tecnologiamaranhao #saoluisma #inovacaonordeste #empresalocal"
+  }
+ ],
+ "tiktok_perfil": {
+  "nome": "Al Kántara Group",
+  "bio": "Holding de tecnologia de São Luís. IA, marca e canais."
+ },
+ "tiktok": [
+  {
+   "reel": "p03",
+   "legenda": "Cinco fornecedores e nenhum conversa? Tem jeito mais simples.",
+   "hashtags": [
+    "#empreendedor",
+    "#gestao",
+    "#saoluis",
+    "#negocios",
+    "#tecnologia"
+   ]
+  },
+  {
+   "reel": "p07",
+   "legenda": "O sistema não falhou. Ninguém olhou a sua equipe antes.",
+   "hashtags": [
+    "#software",
+    "#automacao",
+    "#empresas",
+    "#ia",
+    "#maranhao"
+   ]
+  },
+  {
+   "reel": "p11",
+   "legenda": "Postar todo dia não basta. Primeiro: pra quem?",
+   "hashtags": [
+    "#marketingdigital",
+    "#conteudo",
+    "#dicasdemarketing",
+    "#saoluisma"
+   ]
+  },
+  {
+   "id": "t04",
+   "gancho_3s": "Seu funcionário perde a manhã copiando planilha?",
+   "narracao": [
+    "Seu funcionário perde a manhã copiando planilha?",
+    "Isso é tarefa de máquina, não de gente.",
+    "Confirmação, cobrança e relatório podem sair sozinhos.",
+    "A Al Kántara Labs mostra funcionando com o seu caso.",
+    "Link na bio!"
+   ],
+   "letreiros": [
+    "Manhã perdida na planilha",
+    "Tarefa de máquina",
+    "Sai sozinho",
+    "Demonstração com o seu caso",
+    "Link na bio"
+   ],
+   "legenda": "Planilha não é trabalho de gente boa. Deixa a máquina fazer.",
+   "hashtags": [
+    "#automacao",
+    "#produtividade",
+    "#ia",
+    "#empresas",
+    "#saoluis"
+   ]
+  },
+  {
+   "id": "t05",
+   "gancho_3s": "Seu cliente sempre pede desconto?",
+   "narracao": [
+    "Seu cliente sempre pede desconto?",
+    "Pode não ser o preço. Pode ser a sua marca.",
+    "Quando a aparência não mostra o cuidado, a conversa vira preço.",
+    "A Barzakh, um estúdio Al Kántara, cuida disso.",
+    "Link na bio!"
+   ],
+   "letreiros": [
+    "Sempre pedem desconto?",
+    "Pode ser a marca",
+    "A conversa vira preço",
+    "Barzakh · um estúdio Al Kántara",
+    "Link na bio"
+   ],
+   "legenda": "Desconto toda hora? Talvez a marca não mostre o seu valor.",
+   "hashtags": [
+    "#branding",
+    "#identidadevisual",
+    "#pequenonegocio",
+    "#design",
+    "#maranhao"
+   ]
+  },
+  {
+   "id": "t06",
+   "gancho_3s": "Por que uma holding de tecnologia em São Luís?",
+   "narracao": [
+    "Por que uma holding de tecnologia em São Luís?",
+    "Porque rigor não precisa vir de fora.",
+    "Software, marca, canal e negócios próprios, numa mesma mesa.",
+    "Isso é a Al Kántara Group.",
+    "Conheça no link da bio!"
+   ],
+   "letreiros": [
+    "Holding em São Luís?",
+    "Rigor feito aqui",
+    "Quatro divisões, uma mesa",
+    "Al Kántara Group",
+    "Link na bio"
+   ],
+   "legenda": "Tecnologia e design com rigor, feitos no Maranhão.",
+   "hashtags": [
+    "#saoluisma",
+    "#tecnologia",
+    "#nordeste",
+    "#startup",
+    "#holding"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+/* v2 Awwwards (conta Pedro, 16/11/2026): preloader com o K montando, cursor, faixa de foto com parallax */
+.pre{position:fixed;inset:0;z-index:200;background:#0B0C0E;display:grid;place-items:center;transition:opacity .6s .2s,visibility .8s}
+.pre .pre-k{width:120px;height:120px}.pre path{animation:prek .9s cubic-bezier(.2,.8,.2,1) both}
+.pre path:nth-child(2){animation-delay:.1s}.pre path:nth-child(3){animation-delay:.2s}.pre path:nth-child(4){animation-delay:.3s}
+@keyframes prek{from{opacity:0;transform:translateY(30px)}}
+body.ok .pre{opacity:0;visibility:hidden}
+.cur{position:fixed;left:0;top:0;width:14px;height:14px;border-radius:50%;background:#B8955A;pointer-events:none;z-index:150;mix-blend-mode:difference;transform:translate(-50%,-50%);transition:width .25s,height .25s;display:none}
+.cur.big{width:64px;height:64px}
+@media (hover:hover) and (pointer:fine){.cur{display:block}}
+.foto-slz{position:relative;height:78vh;overflow:hidden;background:#0B0C0E}
+.foto-slz .foto-in{position:absolute;inset:-12% 0;background-size:cover;background-position:center;filter:grayscale(1) contrast(1.15) brightness(.7);will-change:transform}
+.foto-slz::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,#0B0C0E 0%,transparent 30%,transparent 70%,#EFEAE1 100%);opacity:.9}
+.foto-slz .cred{position:absolute;right:24px;bottom:28px;z-index:2;color:#0B0C0E;font-size:10px}
+@media (prefers-reduced-motion:reduce){.pre{display:none}}
