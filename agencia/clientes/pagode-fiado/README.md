@@ -29,6 +29,8 @@ Fotos/imagens dos personagens: **ainda não existem** (no brand book estão como
 - **Paleta**: amarelo mesa de bar #F2B705 · verde azulejo #1E6B52 · preto #111111 · creme caderno #F3E9D2 · vermelho toalha #C0392B. Títulos Shrikhand, texto Work Sans.
 - **Trechos recuperados** da sessão antiga: `RECUPERADO-GOMINHO.md` (só a voz do Vitinho e menção à 05).
 
+- **Frases v1** (conta Zuleide, 16/11): 15 artes de frase + legendas + calendário em `frases-v1/`, aguardando aprovação.
+
 ## O que falta
 1. **Músicas**: 05 "Bilhete na Geladeira" e 07 "Visualizou e Não Voltou" (próximo passo pendente); refazer/recuperar as demais, que ficaram só na sessão apagada.
 2. Imagens dos 6 personagens e capa do álbum com foto.

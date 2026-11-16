@@ -12,7 +12,7 @@ CSS="""@import url('https://fonts.googleapis.com/css2?family=Shrikhand&family=Wo
 .ph{position:absolute;inset:0;background-size:cover;background-position:center}
 .sh{font-family:Shrikhand;line-height:.95}.mk{font-family:'Permanent Marker'}.cv{font-family:'Caveat Brush'}
 .logo{position:absolute;width:210px}.logo svg{width:100%;height:auto}
-.tag{position:absolute;font:800 22px 'Work Sans';letter-spacing:.25em;text-transform:uppercase}
+.tag{position:absolute;text-shadow:0 2px 8px rgba(0,0,0,.6);font:800 22px 'Work Sans';letter-spacing:.25em;text-transform:uppercase}
 .cred{font:600 26px 'Work Sans';letter-spacing:.04em}
 .grao:after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at center,transparent 55%,rgba(0,0,0,.45));pointer-events:none}"""
 Y,V,K,C,R='#F2B705','#1E6B52','#111111','#F3E9D2','#C0392B'
@@ -37,7 +37,7 @@ def art(f,ph,i):
   <div class="cv" style="font-size:88px;color:{K};line-height:1;margin-top:20px">{l2}</div></div>
   {logo('top:130px;left:150px',190)}</div>'''
   if t=='C': return f'''<div class="a grao" style="background:{K}"><div class="ph" style="background-image:url({ph});filter:grayscale(1) contrast(1.15) brightness(.6)"></div>
-  <div class="sh" style="position:absolute;left:30px;top:200px;font-size:{280 if len(l1)>4 else 330}px;color:{Y};mix-blend-mode:normal;letter-spacing:-.02em;white-space:nowrap">{l1}</div>
+  <div class="sh" style="position:absolute;left:30px;top:270px;font-size:{280 if len(l1)>4 else 330}px;color:{Y};mix-blend-mode:normal;letter-spacing:-.02em;white-space:nowrap">{l1}</div>
   {num.format(c=Y)}{logo('top:40px;left:56px')}
   <div style="position:absolute;left:60px;right:60px;bottom:140px;font:800 78px/1.05 'Work Sans';color:{C}">{l2}</div>
   <div style="position:absolute;left:60px;bottom:100px;width:180px;height:10px;background:{R}"></div></div>'''
