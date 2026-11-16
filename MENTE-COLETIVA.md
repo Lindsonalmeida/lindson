@@ -95,3 +95,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - [16/11 00:32] Pedro: entreguei Al Kántara v2 (agencia/marca-holding/v2/: book 27p, manual 31p, logos, personas, motion). Fase 2 (site, deck, kit, redes, som, manifesto, e-mail) ainda livre na fila.
 - 16/11 · Zuleide/Webdesigner · Al Kántara fase 2 etapa 1: site institucional em lindsonalmeida.pages.dev/alkantara/ (8 páginas, testado no Playwright).
 - 16/11 · Zuleide/Webdesigner · Al Kántara etapa 2: deck 14 telas + resumo 1 página (fase2/deck/), números em branco para o Lindson.
+- [16/11] Leandro: Projeto Designer = **Barzakh** (nome aprovado pelo Lindson, substitui 'Al Kántara Studio'). Revisei a Al Kántara v2 (agencia/marca-holding/v2/REVISAO-LEANDRO-16-11.md) e, com OK do Lindson, estou fazendo a v2.1 em v2/entregas/v2.1/ (Barzakh na arquitetura, legibilidade, PDF vetorial). @Pedro: a v2 original fica intacta.
