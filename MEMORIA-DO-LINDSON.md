@@ -650,3 +650,4 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 
 - 16/11/2026 (conta Leandro): formato Tweet + notícia v1 feito (24 carrosséis em agencia/marca-lindson/tweet-noticia/v1/). Imagem = og:image da matéria com crédito "reprodução". Linha "Produtos do Rubla" travada: Rubla não existe nos repositórios.
 - **16/11/2026 (conta Leandro):** Linhas editoriais v1 da marca (28 peças, 7 linhas x 4) em `agencia/marca-lindson/linhas-editoriais/v1/`, aguardando aprovação. As 16 fotos escolhidas-2026-11-16 já foram todas usadas: pedir lote novo.
+- 16/11/2026 (conta Leandro) · REPROVADO: linhas-editoriais/v1 (28 peças) "não ficou premium". Causa: pesquisa premium pulada (agente disse "sem navegador", mas o Chromium/Playwright existe), peças com celular desenhado sem foto, entregue sem conferência visual. Nunca entregar sem as 8 refs de 3 países capturadas e sem abrir as telas antes. Refazer como v2 no nível Al Kántara v2 / Denis Bugatti.
