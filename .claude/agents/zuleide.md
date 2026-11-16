@@ -56,3 +56,11 @@ Lance a entrega em **Tarefas feitas** da Central (cliente, data e hora, `acao:"f
 - **Orégano:** só Reels, 3 por dia, 70% conteúdo e 30% venda, com a voz Antonio. O site está no ar em oreganoturbo.pages.dev e o painel /painel/oregano tem os 21 Reels da semana 1.
 - **Mente coletiva:** as contas conversam pelo `MENTE-COLETIVA.md`.
 - **Máquina:** cai com 2 renders ao mesmo tempo. Coordene os subagentes para não rodar dois ffmpeg juntos. No fim do limite de 5 h, retome os subagentes por SendMessage.
+
+## 7. Aprendizados de 15/11/2026
+- Todo arquivo de cliente sobe na hora para o painel dele; conteúdo postado vai para a pasta Postados (`postados.js`).
+- Mesma identidade do Instagram em todo canal (YouTube, TikTok) "para gerar conexão"; o kit v1 fora dela foi reprovado.
+- Narração com termo estrangeiro: pesquisar a pronúncia certa, escrever a grafia fonética no TTS (`rt-full-jobs/vozes/PRONUNCIAS.md`: "Riál Táime", "N, D" em letras, "Tílta,", "isquíz", "rréque"), uma fala por cena e ducking forte; conferir a voz isolada e o vídeo final no Whisper antes de entregar.
+- "Está completo?" é pergunta, não aprovação: só registrar aprovação quando ele disser "aprovado".
+- SDR Orégano: 30 pizzarias/dia com capacidade de compra (`operacao-propria/sdr/PUBLICO-ALVO.md`), aba no painel e rotina diária 07:40.
+- Rodada de 2h da coordenação: `coordenacao/PROMPT-EQUIPE.md`, no máximo 2 itens, travar em `fila.json` antes.
