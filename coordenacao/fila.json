@@ -1042,6 +1042,66 @@
    "pegou": "Leandro",
    "recebido": "16/11",
    "atualizado": "16/11/2026"
+  },
+  {
+   "id": "slz-trafego",
+   "cli": "marca",
+   "tarefa": "Tráfego São Luís 3 nichos v2 (imagens, vídeos, premium; v1 reprovada)",
+   "equipe": "Leandro",
+   "status": "andamento",
+   "nota": "coordenação (16/11)",
+   "partes": [],
+   "pegou": "Leandro",
+   "recebido": "16/11",
+   "atualizado": "16/11/2026"
+  },
+  {
+   "id": "slz-vendas",
+   "cli": "marca",
+   "tarefa": "Estratégia de vendas São Luís (advogado, barbeiro, dentista)",
+   "equipe": "Leandro",
+   "status": "andamento",
+   "nota": "coordenação (16/11)",
+   "partes": [],
+   "pegou": "Leandro",
+   "recebido": "16/11",
+   "atualizado": "16/11/2026"
+  },
+  {
+   "id": "slz-stories",
+   "cli": "marca",
+   "tarefa": "30 stories (10 por nicho) com fotos do Lindson",
+   "equipe": "Leandro",
+   "status": "andamento",
+   "nota": "coordenação (16/11)",
+   "partes": [],
+   "pegou": "Leandro",
+   "recebido": "16/11",
+   "atualizado": "16/11/2026"
+  },
+  {
+   "id": "slz-propostas",
+   "cli": "marca",
+   "tarefa": "3 propostas premium PDF (8 serviços, meta 4x)",
+   "equipe": "Leandro",
+   "status": "andamento",
+   "nota": "coordenação (16/11)",
+   "partes": [],
+   "pegou": "Leandro",
+   "recebido": "16/11",
+   "atualizado": "16/11/2026"
+  },
+  {
+   "id": "reels3d-0406",
+   "cli": "marca",
+   "tarefa": "Reels 3D 04-06 (coordenação assumiu: sem resposta à cobrança)",
+   "equipe": "Leandro",
+   "status": "andamento",
+   "nota": "coordenação (16/11)",
+   "partes": [],
+   "pegou": "Leandro",
+   "recebido": "16/11",
+   "atualizado": "16/11/2026"
   }
  ]
 }
