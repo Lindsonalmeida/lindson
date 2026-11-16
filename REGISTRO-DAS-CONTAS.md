@@ -354,3 +354,4 @@ Levantado pela conta Lindson em 01/11/2026 a partir do histórico do git e dos a
 | 16/11/2026 | Zuleide | Pagode Fiado: linha Frases v1, 15 artes 1080x1350 + legendas SEO + calendário + TEMPLATE | agencia/clientes/pagode-fiado/frases-v1/ ; privado painel/pagode/frases-v1/ | aguardando aprovação |
 | 16/11/2026 | Zuleide | Pagode Fiado · Notícias do pagode v1: 8 posts (2 carrosséis) com fonte Billboard Brasil + modelo gerar.py | agencia/clientes/pagode-fiado/noticias-v1/ e painel/pagode/noticias-v1/ | aguardando aprovação |
 | 16/11/2026 | Leandro | Tribuna 98: 9 capas de Reels (3 composições), gerador e prévia do grid | agencia/clientes/tribuna98/capas-reels/ | aguardando |
+| 16/11/2026 | Leandro | Barzakh feed 'A Travessia' (12 posts, 3 carrosséis, reels, legendas) + Al Kántara site v2 e bio | v3/feed/ · agencia/marca-holding/v2/fase3/ · lindsonalmeida.pages.dev/alkantara/ e /alkantara/bio/ | aguardando aprovação |
