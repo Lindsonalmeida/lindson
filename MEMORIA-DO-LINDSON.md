@@ -622,3 +622,4 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 - 16/11/2026 (conta Leandro): ordem do Lindson "verifique todas as regras das equipes em todos os repositórios sempre quando eu pedir algo; não cometa mais nenhum erro" → regra no topo do CLAUDE.md (conferir regras dos 2 repositórios + versão mais recente aprovada + abrir o arquivo antes de mandar).
 
 - 16/11/2026 (conta Zuleide): Pagode Fiado, notícias v1 (8 posts tipográficos) REPROVADAS: "horríveis, nada no padrão que eu já pedi". Refazer v2 seguindo o brand book premium (conta Pedro) e as referências dele.
+- 16/11/2026 (conta Leandro) · APROVADO: Barzakh branding book v2 e manual v2 (padrão placa: monolito ouro escovado, concreto, arcos, brilho Lápis, Fraunces). Pediu em seguida: estratégia de feed impactante, harmônico, lindo e impressionante.
