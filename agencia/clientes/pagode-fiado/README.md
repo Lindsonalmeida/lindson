@@ -30,6 +30,7 @@ Fotos/imagens dos personagens: **ainda não existem** (no brand book estão como
 - **Trechos recuperados** da sessão antiga: `RECUPERADO-GOMINHO.md` (só a voz do Vitinho e menção à 05).
 
 - **Frases v1** (conta Zuleide, 16/11): 15 artes de frase + legendas + calendário em `frases-v1/`, aguardando aprovação.
+- **Notícias v1** (conta Zuleide, 16/11): 8 posts tipográficos com fonte em `noticias-v1/`, aguardando aprovação.
 
 ## O que falta
 1. **Músicas**: 05 "Bilhete na Geladeira" e 07 "Visualizou e Não Voltou" (próximo passo pendente); refazer/recuperar as demais, que ficaram só na sessão apagada.

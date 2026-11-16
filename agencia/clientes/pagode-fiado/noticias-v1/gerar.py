@@ -47,13 +47,13 @@ def capa(n,i):
   <div class="sh" style="font-size:{fs(n['big'],150)}px;color:{K};margin-top:16px">{b}</div>
   <div class="tx" style="font-size:40px;color:{K};margin-top:30px">{x}</div></div><div class="fo" style="color:{C}">{f}</div></div>'''
   if t=='F': return f'''<div class="a" style="background:{K}">{sel(Y)}{lg('top:40px;left:60px')}
-  <div style="position:absolute;left:0;right:0;top:260px">{''.join(f'<div class="sh" style="font-size:112px;white-space:nowrap;color:{Y if k==1 else "transparent"};-webkit-text-stroke:3px {Y};margin-left:{70-260*(k!=1)}px">{b}</div>' for k in range(3))}</div>
+  <div style="position:absolute;left:0;right:0;top:260px">{''.join(f'<div class="sh" style="font-size:{112 if k!=1 else 90}px;white-space:nowrap;color:{Y if k==1 else "transparent"};-webkit-text-stroke:3px {Y};margin-left:{50-260*(k!=1)}px">{b}</div>' for k in range(3))}</div>
   <div style="position:absolute;left:70px;right:70px;bottom:140px"><span class="ch" style="background:{R};color:{C}">{c}</span>
   <div class="tx" style="color:{C};margin-top:30px">{x}</div></div><div class="fo" style="color:{C}">{f}</div></div>'''
   if t=='G': return f'''<div class="a" style="background:{Y}">{sel(K)}{lg('top:40px;left:60px')}
   <div style="position:absolute;top:220px;left:50%;margin-left:-300px;width:600px;height:600px;border-radius:50%;background:{V};border:16px solid {K}"></div>
   <div style="position:absolute;top:190px;left:50%;margin-left:-330px;width:660px;height:660px;border-radius:50%;border:4px dashed {R}"></div>
-  <div class="sh" style="position:absolute;top:390px;left:250px;right:250px;text-align:center;font-size:{fs(n['big'],96,6)}px;color:{Y}">{b}</div>
+  <div class="sh" style="position:absolute;top:380px;left:290px;right:290px;text-align:center;font-size:{fs(n['big'],96,6)}px;color:{Y}">{b}</div>
   <div style="position:absolute;left:70px;right:70px;top:900px;text-align:center"><span class="ch" style="background:{K};color:{Y}">{c}</span>
   <div class="tx" style="color:{K};margin-top:30px">{x}</div></div><div class="fo" style="color:{K}">{f}</div></div>'''
   if t=='H': return f'''<div class="a" style="background:{K}">{sel(C)}{lg('top:40px;left:60px')}
