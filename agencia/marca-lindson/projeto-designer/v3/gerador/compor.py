@@ -1,4 +1,4 @@
-# Projeto Designer v2 (conta Leandro, 16/11/2026): monta os cases do Behance, os pins do Pinterest e a folha.
+# Projeto Designer v3 (conta Leandro, 16/11/2026): monta os cases do Behance, os pins do Pinterest e a folha.
 # Visual editorial claro (Collins + Porto Rocha/Manual + Lundgren+Lindqvist, ver PESQUISA.md).
 # Uso: BB_TMP=<tmp> python3 compor.py <texturas> <mockups> <saida_v2>
 import sys, os, html, csv, importlib.util
@@ -8,14 +8,14 @@ sys.argv, ARGS = sys.argv[:2], sys.argv[1:]
 spec = importlib.util.spec_from_file_location('tx', os.path.join(HERE, 'texturas.py')); tx = importlib.util.module_from_spec(spec); spec.loader.exec_module(tx)
 TEX, MK, OUT = [os.path.abspath(a) for a in ARGS[:3]]
 bb = tx.bb; e = html.escape
-STUDIO = 'Lindson Almeida Studio'
-OFF, INK, AMB = '#F2EFE9', '#0A0A0A', '#F5C518'
+STUDIO = 'Barzakh · um estúdio Al Kántara'
+OFF, INK, AMB, LAP = '#EEEAE2', '#0A0C10', '#B4935A', '#2B3A8F'
 # id do case v1 -> chave do brand book
 CASES = [('leo-pinto', 'leo'), ('real-time', 'realtime'), ('processo-legislativo', 'curso'), ('wf-celulares', 'wf'), ('oregano-turbo', 'oregano'), ('duble', 'duble')]
 spec2 = importlib.util.spec_from_file_location('ct', os.path.join(HERE, '../../gerador/conteudo.py')); ct = importlib.util.module_from_spec(spec2); spec2.loader.exec_module(ct)
 INFO = {c['id']: c for c in ct.CASES}
-FONTS = 'https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;500;700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@500&display=swap'
-CSS = f'*{{box-sizing:border-box;margin:0}}body{{background:{OFF};color:{INK};font-family:Manrope}}.m{{position:relative;overflow:hidden}}.lbl{{font:500 15px "JetBrains Mono";letter-spacing:.18em;text-transform:uppercase}}img{{display:block}}'
+FONTS = 'https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@500&display=swap'
+CSS = f'*{{box-sizing:border-box;margin:0}}body{{background:{OFF};color:{INK};font-family:Inter Tight}}.m{{position:relative;overflow:hidden}}.lbl{{font:500 15px "JetBrains Mono";letter-spacing:.18em;text-transform:uppercase}}img{{display:block}}'
 
 def f(p): return 'file://' + p
 
@@ -29,13 +29,13 @@ def modulos(cid, k):
     mods.append(('02-conceito', 760, f'''<div style="padding:110px 120px;height:100%;display:flex;flex-direction:column;justify-content:space-between">
 <div style="display:flex;justify-content:space-between" class="lbl"><span>{e(nome)}</span><span>{e(I["cliente"])}</span><span>2026</span></div>
 <div style="font:400 104px/1 'Instrument Serif';letter-spacing:-.01em;max-width:1120px">“{e(tx.FRASE[k])}”</div>
-<div style="display:grid;grid-template-columns:1fr 1fr;gap:80px;font:400 21px/1.55 Manrope;color:#3a3a3a"><p><b class="lbl" style="display:block;margin-bottom:12px;color:{INK}">Desafio</b>{e(I["desafio"])}</p><p><b class="lbl" style="display:block;margin-bottom:12px;color:{INK}">Conceito</b>{e(I["conceito"])}</p></div></div>'''))
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:80px;font:400 21px/1.55 Inter Tight;color:#3a3a3a"><p><b class="lbl" style="display:block;margin-bottom:12px;color:{INK}">Desafio</b>{e(I["desafio"])}</p><p><b class="lbl" style="display:block;margin-bottom:12px;color:{INK}">Conceito</b>{e(I["conceito"])}</p></div></div>'''))
     mods.append(('03-logo', 900, f'<div style="height:100%;background:{c["bg"]};display:grid;place-items:center"><img src="{logo}" style="width:760px"></div><div class="lbl" style="position:absolute;left:60px;bottom:50px;color:{c["fg"]};opacity:.6">Assinatura principal</div>'))
     mods.append(('04-versoes', 520, f'''<div style="height:100%;display:grid;grid-template-columns:1fr 1fr 1fr">
 <div style="background:{c["bg2"]};display:grid;place-items:center;padding:70px"><img src="{logo}" style="width:100%"></div>
 <div style="background:{c["ac"]};display:grid;place-items:center"><div style="width:250px;height:250px;border-radius:56px;background:{c["bg"]};display:grid;place-items:center;padding:34px;box-shadow:0 30px 60px #0003"><img src="{logo}" style="width:100%"></div></div>
 <div style="overflow:hidden"><img src="{m('papelaria')}" style="width:1400px;height:1050px;object-fit:cover;margin:-330px 0 0 -560px"></div></div></div>'''))
-    cols = ''.join(f'<div style="flex:{max(p[2], 7)};background:{p[1]};padding:28px 22px;display:flex;flex-direction:column;justify-content:flex-end;color:{"#111" if sum(tx.bb.rgb(p[1])) > 450 else "#fff"}"><div style="font:700 22px Manrope">{e(p[0])}</div><div class="lbl" style="font-size:13px;margin-top:6px;opacity:.75">{p[1].upper()} · {p[2]}%</div></div>' for p in pal)
+    cols = ''.join(f'<div style="flex:{max(p[2], 7)};background:{p[1]};padding:28px 22px;display:flex;flex-direction:column;justify-content:flex-end;color:{"#111" if sum(tx.bb.rgb(p[1])) > 450 else "#fff"}"><div style="font:700 22px Inter Tight">{e(p[0])}</div><div class="lbl" style="font-size:13px;margin-top:6px;opacity:.75">{p[1].upper()} · {p[2]}%</div></div>' for p in pal)
     mods.append(('05-paleta', 640, f'<div style="height:100%;display:flex">{cols}</div>'))
     fn = c['fonts'].split('&family=')[0].split(':')[0].replace('+', ' '); fb = c['body'].strip("'")
     mods.append(('06-tipografia', 760, f'''<link href="https://fonts.googleapis.com/css2?family={c["fonts"]}&display=swap" rel="stylesheet">
@@ -50,7 +50,7 @@ def modulos(cid, k):
         mods.append((f'{len(mods)+1:02d}-{n}', 1050, f'<img src="{m(n)}" style="width:1400px;height:1050px;object-fit:cover">'))
     mods.append((f'{len(mods)+1:02d}-fecho', 620, f'''<div style="height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;gap:34px">
 <div style="background:{c["bg"]};padding:34px 46px;border-radius:14px"><img src="{logo}" style="width:300px"></div><div style="font:400 70px/1 'Instrument Serif'">Obrigado.</div>
-<div class="lbl">{STUDIO} · Identidade visual, brand book e web design · São Luís, MA</div><div style="width:60px;height:6px;background:{AMB}"></div></div>'''))
+<div class="lbl">{STUDIO} · Identidade visual, brand book e web design · São Luís, MA</div><img src="file:///home/user/lindson/agencia/marca-lindson/projeto-designer/v3/marca/logos/svg/barzakh-horizontal-positivo.svg" style="width:300px"></div>'''))
     return mods
 
 def pin(k, n, titulo, sub):
@@ -58,7 +58,7 @@ def pin(k, n, titulo, sub):
 <img src="{f(f'{MK}/{k}-{n}-r.jpg')}" style="width:1000px;height:1320px;object-fit:cover">
 <div style="position:absolute;left:0;right:0;bottom:0;height:180px;padding:34px 56px;display:flex;justify-content:space-between;align-items:center">
 <div><div style="font:400 50px/1.05 'Instrument Serif'">{e(titulo)}</div><div class="lbl" style="margin-top:12px;color:#555">{e(sub)}</div></div>
-<div style="text-align:right"><div style="width:44px;height:6px;background:{AMB};margin-left:auto"></div><div class="lbl" style="margin-top:14px;font-size:13px">Lindson Almeida<br>Studio</div></div></div></div>'''
+<div style="text-align:right"><img src="file:///home/user/lindson/agencia/marca-lindson/projeto-designer/v3/marca/logos/svg/barzakh-simbolo-positivo.svg" style="width:58px;margin-left:auto"><div class="lbl" style="margin-top:14px;font-size:13px">Barzakh<br>Al Kántara</div></div></div></div>'''
 
 PASTAS = [
     ('Identidade visual para pequenas empresas', 'Cases reais de identidade visual para negócios locais brasileiros: logo, paleta de cores, tipografia e a marca aplicada em mockups. Branding para loja, clínica, curso, produtora e restaurante.'),

@@ -1,0 +1,98 @@
+{
+  "Obsidiana": {
+    "hex": "#0A0C10",
+    "rgb": [
+      10,
+      12,
+      16
+    ],
+    "cmyk_aprox": [
+      38,
+      25,
+      0,
+      94
+    ],
+    "proporcao": "55%",
+    "uso": "Base. Fundos e textos sobre marfim."
+  },
+  "Marfim": {
+    "hex": "#EEEAE2",
+    "rgb": [
+      238,
+      234,
+      226
+    ],
+    "cmyk_aprox": [
+      0,
+      2,
+      5,
+      7
+    ],
+    "proporcao": "25%",
+    "uso": "Respiro, papel, texto sobre escuro."
+  },
+  "Lápis da Hora Azul": {
+    "hex": "#2B3A8F",
+    "rgb": [
+      43,
+      58,
+      143
+    ],
+    "cmyk_aprox": [
+      70,
+      59,
+      0,
+      44
+    ],
+    "proporcao": "12%",
+    "uso": "Cor do estúdio. Campos de cor, metade de baixo do disco."
+  },
+  "Bronze": {
+    "hex": "#B4935A",
+    "rgb": [
+      180,
+      147,
+      90
+    ],
+    "cmyk_aprox": [
+      0,
+      18,
+      50,
+      29
+    ],
+    "proporcao": "5%",
+    "uso": "A luz. Disco, filetes, numeração, hot stamping."
+  },
+  "Grafite": {
+    "hex": "#22262E",
+    "rgb": [
+      34,
+      38,
+      46
+    ],
+    "cmyk_aprox": [
+      26,
+      17,
+      0,
+      82
+    ],
+    "proporcao": "3%",
+    "uso": "Superfícies e cartões."
+  },
+  "Pedra": {
+    "hex": "#8A8F98",
+    "rgb": [
+      138,
+      143,
+      152
+    ],
+    "cmyk_aprox": [
+      9,
+      6,
+      0,
+      40
+    ],
+    "proporcao": "—",
+    "uso": "Legendas, linhas, texto de apoio."
+  }
+}

@@ -90,3 +90,33 @@ Base da holding mantida: Obsidiana #0A0C10, Marfim #EEEAE2, Grafite #22262E, Ped
 - Não usar o Índigo noturno da holding nas peças da Barzakh (vira dois azuis brigando).
 - Proibido junto da marca: estrela, lua crescente, olho, raios de sol, mandala, caligrafia, degradê roxo "galáxia".
 - Fontes iguais às da holding: Instrument Serif (BARZAKH em versal espaçada, como AL KÁNTARA), Inter Tight (texto e "DESIGN · BRANDING"), JetBrains Mono (rótulos e numeração).
+
+---
+
+## Referências do Lindson (Behance e Pinterest) · prioridade sobre a pesquisa acima (16/11/2026)
+Capturas em `referencias-lindson/behance/` e `referencias-lindson/pinterest/`. Aplicadas no manual e no branding book (`gerador/manual.py`).
+
+| # | Referência | O que tiramos |
+|---|---|---|
+| 01 | Dahr (Behance) | Fundo preto, luz rasante dura que corta o tecido e a marca em relevo: atmosfera das capas. |
+| 02 | Studio Arch (Behance) | Arco cheio e monolítico ao lado de pedra crua: base da variação "monolito" do símbolo. |
+| 03 | Haykalh (Behance) | Feixe de luz azul atravessando a forma: o brilho em Lápis das aberturas e do avatar. |
+| 04 | Eclipse Club (Behance) | Foto escura cinematográfica com a marca pequena e fina por cima. |
+| 05 | Forte (Behance) | Arco cheio como monograma em ambiente de luxo, luz quente baixa: placa e fachada. |
+| 06 | Arch Studio (Behance) | Ecobag sobre concreto com sombra de janela: mockup da ecobag. |
+| 07 | Arches arquitetura (Behance) | Concreto escuro, ângulo forte, símbolo pequeno: direção de foto. |
+| 08 | Arché perfume (Behance) | Luz de palco dura e sombra preta: produto isolado no escuro (mockup de caderno). |
+| 09 | Atelier by Shouq (Behance) | Mosaico de imagens em mobiliário urbano: grade de fotos do Instagram. |
+| 10 | Wujud (Behance) | Objeto têxtil com bordado sobre linho: textura de papel/tecido na papelaria. |
+| 11 | Oskaya (Pinterest) | Serifada fina, versal espaçada, muito respiro, sombra de janela: tipografia editorial. |
+| 12 | Eclipse serif (Pinterest) | Eclipse com halo de luz por trás do título: o disco partido com brilho nas capas. |
+| 13 | Portal editorial (Pinterest) | Foto desfocada com uma janela nítida: o grafismo do horizonte (nítido × desfocado). |
+| 14 | Eclissa Jewels (Pinterest) | Lua com estrela: **descartada** (lua e estrela proibidas). |
+| 15 | Arcavea Architects (Pinterest) | Arco de concreto com água refletindo: os "dois mares" em foto. |
+| 16 | Attico (Pinterest) | Arco cheio emoldurando escada e linhas: arco como moldura de foto. |
+| 17 | Arch Stone Houses (Pinterest) | Arco sólido sobre cor de pedra: avatar monolito em Marfim. |
+| 18 | Cobblestone lunar (Pinterest) | Luas e estrelas: **descartada** (proibido). |
+| 19 | Clio Moon Studio (Pinterest) | Veludo escuro com cantoneiras metálicas: caixa/pasta de entrega com hot stamping. |
+| 20 | Renovo (Pinterest) | Cartão em papel texturizado com hot stamping bronze: cartão de visita. |
+
+**Variação "monolito" do símbolo (proposta):** mesma régua dos Dois mares, mas o mundo de cima vira um arco **cheio** (sólido de R até a linha, com o vão do disco de luz recortado em Bronze); o reflexo de baixo continua em linha. Uso: avatar, hot stamping, gravação em pedra/placa. A principal continua sendo a versão em anéis.
