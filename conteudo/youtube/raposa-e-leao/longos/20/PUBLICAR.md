@@ -11,15 +11,15 @@ Você ajudou, e quando precisou a pessoa sumiu. Maquiavel explica: "os homens s�
 
 ⏱️ Capítulos
 0:00 Introdução
-1:14 1. A frase mais dura
-3:14 2. O vínculo que se rompe
-5:02 3. De onde nasce a ingratidão
-6:06 4. O general que salvou Roma
-9:20 5. Como ajudar sem ser esquecido
-12:46 6. A ajuda que não se esquece
-17:31 7. E se você for o ingrato?
-18:37 Seu compromisso
-18:54 Resumo
+1:02 1. A frase mais dura
+2:43 2. O vínculo que se rompe
+4:14 3. De onde nasce a ingratidão
+5:08 4. O general que salvou Roma
+7:52 5. Como ajudar sem ser esquecido
+10:45 6. A ajuda que não se esquece
+14:45 7. E se você for o ingrato?
+15:41 Seu compromisso
+15:55 Resumo
 
 📜 Fonte: Nicolau Maquiavel, O Príncipe, caps. VII, VIII, IX e XVII; Discursos sobre a primeira década de Tito Lívio, livro I, caps. 29 e 30.
 
