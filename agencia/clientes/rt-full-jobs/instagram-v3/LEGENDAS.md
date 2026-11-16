@@ -1,397 +1,397 @@
-# Real Time · feed v3 · legendas (conta Leandro, 16/11/2026)
-Padrão blog SEO (título com palavra-chave, introdução, subtítulos, exemplo, conclusão, chamada, 4 hashtags variadas: tema + nicho + local). Sem preço, sem promessa, sem número inventado. Ordem de postar = número do post.
+# Real Time · feed v3 · legendas (conta Leandro, 16/11/2026, revisadas pelo social-media)
+Blog SEO: título com palavra-chave, gancho próprio, subtítulos, exemplo, conclusão, chamada e 4 hashtags (tema + nicho + local). Sem preço e sem promessa. Ordem de postar = número do post.
 
 ## 01 · DZOFilm Arcana (Novo no inventário)
-**ALUGUEL DE LENTE DZOFILM ARCANA EM SÃO LUÍS**
+**DZOFILM ARCANA PARA ALUGAR EM SÃO LUÍS: NOVIDADE NA REAL TIME**
 
-Lentes de cinema na maleta, prontas para o seu job.
+Tem lente nova na prateleira, e ela veio de longe.
 
-### Para quem é
-Videomaker, produtora, agência ou empresa de São Luís que quer gravar com equipamento de cinema sem precisar comprar.
+### O que é
+As lentes de cinema DZOFilm Arcana entraram no inventário da Real Time em novembro. Agora quem grava no Maranhão tem mais uma opção de lente de cinema sem precisar trazer de fora.
 
 ### Na prática
-Você diz a data e o que vai gravar; a Real Time separa este equipamento e o kit que combina com ele, conferido e pronto para o set.
+Num clipe com cara de filme, a lente muda a textura da imagem tanto quanto a luz.
 
 ### Resumo
-Aluguel de lente DZOFilm Arcana em São Luís: na Real Time, com orientação de quem usa o equipamento todo dia.
+Quer ver a Arcana de perto antes do job? Chame a gente.
 
 ✅ Reserve pelo WhatsApp (98) 99133-1727. Seu job é na Real Time.
 
 #dzofilm #arcana #lentesdecinema #saoluis
 
-## 02 · Tilta Nucleus-M II (Novo no inventário)
-**ALUGUEL DE TILTA NUCLEUS-M II EM SÃO LUÍS**
+## 02 · A STORM 1200x em ação (Kit Luz · bastidor)
+**APUTURE STORM 1200x NO ESTÚDIO: BASTIDOR DA LUZ PRINCIPAL**
 
-Controle de foco sem fio: o foquista ajusta a lente longe da câmera.
+Essa é a luz que faz o papel do sol.
 
-### Para quem é
-Videomaker, produtora, agência ou empresa de São Luís que quer gravar com equipamento de cinema sem precisar comprar.
-
-### Na prática
-Você diz a data e o que vai gravar; a Real Time separa este equipamento e o kit que combina com ele, conferido e pronto para o set.
-
-### Resumo
-Aluguel de Tilta Nucleus-M II em São Luís: na Real Time, com orientação de quem usa o equipamento todo dia.
-
-✅ Reserve pelo WhatsApp (98) 99133-1727. Seu job é na Real Time.
-
-#tilta #nucleusm #foquista #filmmakerbrasil
-
-## 03 · A STORM 1200x em ação (Kit Luz · bastidor)
-**ALUGUEL DE APUTURE STORM 1200X EM SÃO LUÍS**
-
-Montada no nosso estúdio de fundo verde, pronta para a cena grande.
-
-### Para quem é
-Videomaker, produtora, agência ou empresa de São Luís que quer gravar com equipamento de cinema sem precisar comprar.
+### O que é
+Bastidor do nosso estúdio de fundo verde: a STORM 1200x montada com o modificador, pronta para ser a luz principal de uma cena grande.
 
 ### Na prática
-Você diz a data e o que vai gravar; a Real Time separa este equipamento e o kit que combina com ele, conferido e pronto para o set.
+Num comercial, ela ilumina o set inteiro e mantém a mesma cor do primeiro ao último take.
 
 ### Resumo
-Aluguel de Aputure STORM 1200x em São Luís: na Real Time, com orientação de quem usa o equipamento todo dia.
+Cena grande pede luz com força de sobra.
 
 ✅ Reserve pelo WhatsApp (98) 99133-1727. Seu job é na Real Time.
 
 #aputure #storm1200x #chromakey #bastidores
 
-## 04 · 6 focais. 1 maleta. (Lentes de cinema)
-**ALUGUEL DE LENTES DE CINEMA VESPID EM SÃO LUÍS**
+## 03 · Tilta Nucleus-M II (Novo no inventário)
+**FOCO SEM FIO EM SÃO LUÍS: TILTA NUCLEUS-M II NA REAL TIME**
 
-Kit DZOFilm VESPID Prime 2 completo: da cena aberta ao close.
+Quem segura o foco não precisa mais estar colado na câmera.
 
-### Para quem é
-Videomaker, produtora, agência ou empresa de São Luís que quer gravar com equipamento de cinema sem precisar comprar.
+### O que é
+O Tilta Nucleus-M II é um sistema de controle de foco sem fio. O foquista gira um volante na mão e o motor gira o anel da lente.
 
 ### Na prática
-Você diz a data e o que vai gravar; a Real Time separa este equipamento e o kit que combina com ele, conferido e pronto para o set.
+Com a câmera num gimbal ou num carro, o foco continua no rosto certo, a metros de distância.
 
 ### Resumo
-Aluguel de lentes de cinema VESPID em São Luís: na Real Time, com orientação de quem usa o equipamento todo dia.
+Para cena em movimento, é o acessório que faltava no kit.
+
+✅ Reserve pelo WhatsApp (98) 99133-1727. Seu job é na Real Time.
+
+#tilta #nucleusm #foquista #filmmakerbrasil
+
+## 04 · 6 focais. 1 maleta. (Lentes de cinema)
+**LENTES DE CINEMA EM SÃO LUÍS: KIT VESPID PRIME 2 COM 6 FOCAIS**
+
+6 lentes, 1 maleta, nenhuma desculpa para imagem sem cara de cinema.
+
+### O que é
+O kit DZOFilm VESPID Prime 2 tem 18, 24, 35, 50, 85 e 105mm. Todas com o mesmo tamanho e o mesmo padrão de cor.
+
+### Na prática
+Troca a lente entre um plano e outro sem mudar o ajuste da câmera nem a cor da imagem.
+
+### Resumo
+O kit sai completo e conferido.
 
 ✅ Reserve pelo WhatsApp (98) 99133-1727. Seu job é na Real Time.
 
 #vespidprime #dzofilm #cinematografia #maranhao
 
 ## 05 · LUZ KIT (Kit Luz · logística)
-**ALUGUEL DE KIT DE LUZ APUTURE EM SÃO LUÍS**
+**KIT DE LUZ APUTURE PARA ALUGAR: COMO ELE CHEGA NO SET**
 
-O Kit Luz sai e volta organizado nas bolsas Aputure. Chega inteiro no set.
+Já recebeu equipamento faltando peça?
 
-### Para quem é
-Videomaker, produtora, agência ou empresa de São Luís que quer gravar com equipamento de cinema sem precisar comprar.
+### O que é
+Aqui o Kit Luz sai e volta nas bolsas Aputure: cada luz no seu lugar, com cabo, fonte e acessório.
 
 ### Na prática
-Você diz a data e o que vai gravar; a Real Time separa este equipamento e o kit que combina com ele, conferido e pronto para o set.
+Na diária, a produção abre a bolsa e monta. Ninguém perde meia hora procurando um cabo.
 
 ### Resumo
-Aluguel de kit de luz Aputure em São Luís: na Real Time, com orientação de quem usa o equipamento todo dia.
+Organização também é parte do equipamento.
 
 ✅ Reserve pelo WhatsApp (98) 99133-1727. Seu job é na Real Time.
 
 #aputure #kitdeluz #producaoaudiovisual #saoluisma
 
 ## 06 · O tablet vem junto? (FAQ · teleprompter)
-**ALUGUEL DE TELEPROMPTER COM TABLET EM SÃO LUÍS**
+**TELEPROMPTER COM TABLET EM SÃO LUÍS: GRAVE SEM DECORAR**
 
-Vem. O teleprompter SmallRig sai com o tablet configurado: é só colar o texto.
+"O tablet vem junto?" é a pergunta que mais chega no WhatsApp.
 
-### Para quem é
-Videomaker, produtora, agência ou empresa de São Luís que quer gravar com equipamento de cinema sem precisar comprar.
+### O que é
+Vem. O teleprompter SmallRig sai com o tablet configurado. Você cola o texto e ajusta a velocidade.
 
 ### Na prática
-Você diz a data e o que vai gravar; a Real Time separa este equipamento e o kit que combina com ele, conferido e pronto para o set.
+O dono da empresa grava a mensagem para os clientes olhando para a lente, em poucos takes.
 
 ### Resumo
-Aluguel de teleprompter com tablet em São Luís: na Real Time, com orientação de quem usa o equipamento todo dia.
+Texto na frente da lente, naturalidade na tela.
 
 ✅ Reserve pelo WhatsApp (98) 99133-1727. Seu job é na Real Time.
 
 #teleprompter #smallrig #videoinstitucional #saoluis
 
 ## 07 · Equipe conectada (Combo · evento)
-**INTERCOMUNICADOR HOLLYLAND PARA EVENTOS EM SÃO LUÍS**
+**INTERCOMUNICADOR PARA EVENTO EM SÃO LUÍS: HOLLYLAND COM 6 UNIDADES**
 
-6 intercomunicadores Hollyland: diretor, câmeras e produção falando sem fio.
+Evento grande sem comunicação vira gritaria no corredor.
 
-### Para quem é
-Videomaker, produtora, agência ou empresa de São Luís que quer gravar com equipamento de cinema sem precisar comprar.
+### O que é
+São 6 intercomunicadores Hollyland sem fio para diretor, câmeras e produção falarem ao mesmo tempo.
 
 ### Na prática
-Você diz a data e o que vai gravar; a Real Time separa este equipamento e o kit que combina com ele, conferido e pronto para o set.
+Na transmissão de um evento, o diretor chama a câmera 2 para o palco sem ninguém sair do lugar.
 
 ### Resumo
-Intercomunicador Hollyland para eventos em São Luís: na Real Time, com orientação de quem usa o equipamento todo dia.
+Equipe que se fala grava melhor.
 
 ✅ Reserve pelo WhatsApp (98) 99133-1727. Seu job é na Real Time.
 
 #hollyland #intercom #eventoscorporativos #maranhao
 
-## 08 · Estúdio verde (Estúdio)
-**ESTÚDIO CHROMA KEY EM SÃO LUÍS**
+## 08 · Qual lente usar? (Comparativo · lentes Sony)
+**QUAL LENTE SONY ALUGAR PARA VÍDEO: GUIA DA REAL TIME**
 
-Fundo infinito de chroma key com as luzes já no lugar. Você chega e grava.
+Errar a lente é o jeito mais rápido de estragar uma boa cena.
 
-### Para quem é
-Videomaker, produtora, agência ou empresa de São Luís que quer gravar com equipamento de cinema sem precisar comprar.
-
-### Na prática
-Você diz a data e o que vai gravar; a Real Time separa este equipamento e o kit que combina com ele, conferido e pronto para o set.
-
-### Resumo
-Estúdio chroma key em São Luís: na Real Time, com orientação de quem usa o equipamento todo dia.
-
-✅ Reserve pelo WhatsApp (98) 99133-1727. Seu job é na Real Time.
-
-#estudiochromakey #fundoverde #estudiodegravacao #saoluisma
-
-## 09 · Qual lente usar? (Comparativo · lentes Sony)
-**QUAL LENTE SONY ALUGAR PARA VÍDEO**
-
-Da esquerda para a direita, a linha Sony e ZEISS da Real Time. Cada uma tem um trabalho.
-
-### Para quem é
-Videomaker, produtora, agência ou empresa de São Luís que quer gravar com equipamento de cinema sem precisar comprar.
+### O que é
+Da esquerda para a direita, a linha Sony e ZEISS da Real Time: 14mm, 24–70, 35, 50, 85 e 90 macro.
 
 ### Na prática
-Você diz a data e o que vai gravar; a Real Time separa este equipamento e o kit que combina com ele, conferido e pronto para o set.
+Entrevista? 85mm. Evento? 24–70. Produto de perto? 90 macro. Espaço inteiro? 14mm.
 
 ### Resumo
-Qual lente Sony alugar para vídeo: na Real Time, com orientação de quem usa o equipamento todo dia.
+Na dúvida, diga a cena e a gente indica.
 
 ✅ Reserve pelo WhatsApp (98) 99133-1727. Seu job é na Real Time.
 
 #lentesony #zeiss #videomaker #dicasdevideo
 
+## 09 · Estúdio verde (Estúdio)
+**ESTÚDIO CHROMA KEY EM SÃO LUÍS: FUNDO VERDE COM LUZ PRONTA**
+
+Você chega, liga a câmera e grava.
+
+### O que é
+O estúdio da Real Time tem fundo infinito verde e as luzes Aputure já posicionadas.
+
+### Na prática
+Uma marca grava a campanha no fundo verde e, na edição, coloca o cenário que quiser.
+
+### Resumo
+Menos montagem, mais gravação.
+
+✅ Reserve pelo WhatsApp (98) 99133-1727. Seu job é na Real Time.
+
+#estudiochromakey #fundoverde #estudiodegravacao #saoluisma
+
 ## 10 · FX3 pronta (Kit Cinema · montado)
 **ALUGUEL DE SONY FX3 COM KIT CINEMA EM SÃO LUÍS**
 
-Câmera, cage, matte box e monitor sem fio: o Kit Cinema sai montado.
+Câmera solta não é kit de cinema.
 
-### Para quem é
-Videomaker, produtora, agência ou empresa de São Luís que quer gravar com equipamento de cinema sem precisar comprar.
+### O que é
+O Kit Cinema sai montado: Sony FX3, cage Tilta, matte box e monitor sem fio Hollyland Pyro 7.
 
 ### Na prática
-Você diz a data e o que vai gravar; a Real Time separa este equipamento e o kit que combina com ele, conferido e pronto para o set.
+Na diária, o operador tira da maleta e já está filmando, sem montar peça por peça.
 
 ### Resumo
-Aluguel de Sony FX3 com kit cinema em São Luís: na Real Time, com orientação de quem usa o equipamento todo dia.
+Tudo encaixado, tudo testado.
 
 ✅ Reserve pelo WhatsApp (98) 99133-1727. Seu job é na Real Time.
 
 #sonyfx3 #tilta #kitcinema #saoluis
 
 ## 11 · DIRETOR CEGO? (Erro comum)
-**MONITOR SEM FIO HOLLYLAND PYRO 7 NO SET**
+**MONITOR SEM FIO NO SET: O ERRO DE DIRIGIR SEM VER**
 
-Gravar sem monitor e só descobrir o problema na edição. Com o Pyro 7, quem dirige vê o take na hora.
+Você já descobriu um erro de foco só na edição?
 
-### Para quem é
-Videomaker, produtora, agência ou empresa de São Luís que quer gravar com equipamento de cinema sem precisar comprar.
+### O que é
+Sem monitor, quem dirige confia na sorte. Com o Hollyland Pyro 7, diretor e cliente veem o take na hora, longe da câmera.
 
 ### Na prática
-Você diz a data e o que vai gravar; a Real Time separa este equipamento e o kit que combina com ele, conferido e pronto para o set.
+O cliente da agência aprova o enquadramento ali mesmo, e não depois de tudo gravado.
 
 ### Resumo
-Monitor sem fio Hollyland Pyro 7 no set: na Real Time, com orientação de quem usa o equipamento todo dia.
+Ver na hora custa menos do que regravar.
 
 ✅ Reserve pelo WhatsApp (98) 99133-1727. Seu job é na Real Time.
 
 #hollylandpyro #direcaodefotografia #setdefilmagem #maranhao
 
 ## 12 · A 14mm distorce? (FAQ · 14mm)
-**LENTE 14MM DISTORCE O VÍDEO?**
+**LENTE 14MM DISTORCE? RESPOSTA DE QUEM ALUGA**
 
-Pouco, se a câmera fica nivelada e longe do rosto. É a lente para mostrar o espaço inteiro.
+Muita gente foge da 14mm por medo de distorção.
 
-### Para quem é
-Videomaker, produtora, agência ou empresa de São Luís que quer gravar com equipamento de cinema sem precisar comprar.
+### O que é
+Ela distorce pouco se a câmera fica nivelada e longe do rosto. Para pessoa em close, use 50 ou 85mm.
 
 ### Na prática
-Você diz a data e o que vai gravar; a Real Time separa este equipamento e o kit que combina com ele, conferido e pronto para o set.
+Num tour de imóvel ou de loja, a 14mm mostra o espaço inteiro num plano só.
 
 ### Resumo
-Lente 14mm distorce o vídeo?: na Real Time, com orientação de quem usa o equipamento todo dia.
+Lente certa no lugar certo.
 
 ✅ Reserve pelo WhatsApp (98) 99133-1727. Seu job é na Real Time.
 
 #sony14mm #grandeangular #duvidas #videomakerbrasil
 
 ## 13 · Combo videocast (Combo · videocast)
-**EQUIPAMENTO PARA VIDEOCAST EM SÃO LUÍS**
+**EQUIPAMENTO PARA VIDEOCAST EM SÃO LUÍS: O COMBO DA REAL TIME**
 
-STORM 80c para cor no fundo + 400x no rosto + 24–70 GM. Três peças, cena de programa.
+Videocast com fundo sem graça perde gente nos primeiros segundos.
 
-### Para quem é
-Videomaker, produtora, agência ou empresa de São Luís que quer gravar com equipamento de cinema sem precisar comprar.
+### O que é
+Combo: STORM 80c colorindo o fundo, STORM 400x no rosto e lente 24–70 GM.
 
 ### Na prática
-Você diz a data e o que vai gravar; a Real Time separa este equipamento e o kit que combina com ele, conferido e pronto para o set.
+Três peças transformam uma sala comum num cenário de programa.
 
 ### Resumo
-Equipamento para videocast em São Luís: na Real Time, com orientação de quem usa o equipamento todo dia.
+Quer montar o seu? A gente separa.
 
 ✅ Reserve pelo WhatsApp (98) 99133-1727. Seu job é na Real Time.
 
 #videocast #podcastemvideo #aputure #saoluisma
 
-## 14 · Luz de entrevista (Combo · entrevista)
-**LUZ PARA GRAVAR ENTREVISTA**
+## 14 · Chegou em São Luís (Bastidor · chegada)
+**DZOFILM ARCANA CHEGOU EM SÃO LUÍS: BASTIDOR DA ENTREGA**
 
-A STORM 400x com bandeiras recorta o rosto e deixa o fundo no escuro.
+A caixa chegou embalada. E o que tinha dentro foi direto para o inventário.
 
-### Para quem é
-Videomaker, produtora, agência ou empresa de São Luís que quer gravar com equipamento de cinema sem precisar comprar.
-
-### Na prática
-Você diz a data e o que vai gravar; a Real Time separa este equipamento e o kit que combina com ele, conferido e pronto para o set.
-
-### Resumo
-Luz para gravar entrevista: na Real Time, com orientação de quem usa o equipamento todo dia.
-
-✅ Reserve pelo WhatsApp (98) 99133-1727. Seu job é na Real Time.
-
-#entrevista #iluminacao #storm400x #depoimento
-
-## 15 · Chegou em São Luís (Bastidor · chegada)
-**DZOFILM ARCANA CHEGOU EM SÃO LUÍS**
-
-A maleta da DZOFilm Arcana desembarcou na Real Time. Agora ela está no inventário.
-
-### Para quem é
-Videomaker, produtora, agência ou empresa de São Luís que quer gravar com equipamento de cinema sem precisar comprar.
+### O que é
+Bastidor da chegada da maleta DZOFilm Arcana na Real Time.
 
 ### Na prática
-Você diz a data e o que vai gravar; a Real Time separa este equipamento e o kit que combina com ele, conferido e pronto para o set.
+Lente nova conferida, limpa e pronta para o primeiro job.
 
 ### Resumo
-DZOFilm Arcana chegou em São Luís: na Real Time, com orientação de quem usa o equipamento todo dia.
+Acompanhe: o primeiro job com ela vem aí.
 
 ✅ Reserve pelo WhatsApp (98) 99133-1727. Seu job é na Real Time.
 
 #unboxing #dzofilm #novidade #saoluis
 
-## 16 · A parede das lentes (Lentes de cinema)
-**LENTES DE CINEMA VESPID PRIME 2**
+## 15 · Luz de entrevista (Combo · entrevista)
+**LUZ PARA GRAVAR ENTREVISTA: STORM 400x COM BANDEIRAS**
 
-O kit VESPID Prime 2 descansando entre um job e outro. Limpo, conferido e pronto.
+A diferença entre entrevista amadora e profissional está na sombra.
 
-### Para quem é
-Videomaker, produtora, agência ou empresa de São Luís que quer gravar com equipamento de cinema sem precisar comprar.
+### O que é
+A STORM 400x com bandeiras ilumina o rosto e deixa o fundo escuro, sem luz espalhada.
 
 ### Na prática
-Você diz a data e o que vai gravar; a Real Time separa este equipamento e o kit que combina com ele, conferido e pronto para o set.
+Num depoimento de cliente, a pessoa se destaca e o olhar vai direto para ela.
 
 ### Resumo
-Lentes de cinema VESPID Prime 2: na Real Time, com orientação de quem usa o equipamento todo dia.
+Luz que recorta é luz que conta história.
+
+✅ Reserve pelo WhatsApp (98) 99133-1727. Seu job é na Real Time.
+
+#entrevista #iluminacao #storm400x #depoimento
+
+## 16 · A parede das lentes (Lentes de cinema)
+**LENTES DE CINEMA VESPID PRIME 2: A PAREDE DA REAL TIME**
+
+Entre um job e outro, é assim que elas descansam.
+
+### O que é
+O kit VESPID Prime 2 fica limpo e conferido na prateleira. Encaixe PL, e na FX3 vai pelo Metabones.
+
+### Na prática
+Quando a reserva chega, a maleta já sai pronta.
+
+### Resumo
+Cuidado com a lente é cuidado com a sua imagem.
 
 ✅ Reserve pelo WhatsApp (98) 99133-1727. Seu job é na Real Time.
 
 #vespid #lentepl #cinema #audiovisualmaranhao
 
 ## 17 · MATTE BOX (Kit Cinema)
-**MATTE BOX TILTA MIRAGE PARA SONY FX3**
+**MATTE BOX TILTA MIRAGE PARA SONY FX3: PARA QUE SERVE**
 
-Matte box Tilta Mirage na frente de uma VESPID 85mm: controla a luz que entra na lente.
+Reflexo na lente estraga o take mais bonito.
 
-### Para quem é
-Videomaker, produtora, agência ou empresa de São Luís que quer gravar com equipamento de cinema sem precisar comprar.
+### O que é
+A matte box Tilta Mirage fica na frente da lente: bloqueia luz lateral e segura os filtros.
 
 ### Na prática
-Você diz a data e o que vai gravar; a Real Time separa este equipamento e o kit que combina com ele, conferido e pronto para o set.
+Numa externa com sol baixo, ela evita aquele véu branco na imagem.
 
 ### Resumo
-Matte box Tilta Mirage para Sony FX3: na Real Time, com orientação de quem usa o equipamento todo dia.
+Detalhe pequeno, diferença grande.
 
 ✅ Reserve pelo WhatsApp (98) 99133-1727. Seu job é na Real Time.
 
 #mattebox #tiltamirage #cinematografia #saoluis
 
 ## 18 · Lente de cinema (Para que serve)
-**PARA QUE SERVE LENTE DE CINEMA**
+**PARA QUE SERVE LENTE DE CINEMA (E POR QUE NÃO É SÓ FRESCURA)**
 
-Anel de foco com marcação, abertura em T e o mesmo tamanho em todo o kit. Troca rápida no set.
+Lente de cinema é cara de propósito.
 
-### Para quem é
-Videomaker, produtora, agência ou empresa de São Luís que quer gravar com equipamento de cinema sem precisar comprar.
+### O que é
+Anel de foco dentado, abertura em T e o mesmo tamanho em todo o kit. Tudo isso deixa a troca no set rápida e a imagem igual entre os planos.
 
 ### Na prática
-Você diz a data e o que vai gravar; a Real Time separa este equipamento e o kit que combina com ele, conferido e pronto para o set.
+O foquista usa o anel marcado para acertar o foco com precisão em cada take.
 
 ### Resumo
-Para que serve lente de cinema: na Real Time, com orientação de quem usa o equipamento todo dia.
+É ferramenta de trabalho, não enfeite.
 
 ✅ Reserve pelo WhatsApp (98) 99133-1727. Seu job é na Real Time.
 
 #lentedecinema #cinemabrasileiro #filmmaking #maranhao
 
 ## 19 · Tripé firme (O que vem junto)
-**TRIPÉ DE ILUMINAÇÃO NO KIT DE LUZ**
+**TRIPÉ DE ILUMINAÇÃO INCLUSO NO KIT DE LUZ**
 
-Cada luz do Kit Luz sai com tripé. Luz bem presa é set seguro.
+A luz cara no tripé errado é acidente esperando para acontecer.
 
-### Para quem é
-Videomaker, produtora, agência ou empresa de São Luís que quer gravar com equipamento de cinema sem precisar comprar.
+### O que é
+Cada luz do Kit Luz da Real Time sai com tripé firme, de base aberta e altura ajustável.
 
 ### Na prática
-Você diz a data e o que vai gravar; a Real Time separa este equipamento e o kit que combina com ele, conferido e pronto para o set.
+No set, a luz fica no lugar e ninguém tropeça no improviso.
 
 ### Resumo
-Tripé de iluminação no kit de luz: na Real Time, com orientação de quem usa o equipamento todo dia.
+Segurança faz parte da diária.
 
 ✅ Reserve pelo WhatsApp (98) 99133-1727. Seu job é na Real Time.
 
 #iluminacaodevideo #tripe #setseguro #saoluisma
 
-## 20 · Luz dura ou suave? (FAQ · luz)
-**LUZ DURA OU LUZ SUAVE NO VÍDEO**
+## 20 · PL na FX3 (Combo · cinema na FX3)
+**LENTE PL NA SONY FX3: COMO USAR COM METABONES**
 
-Refletor deixa a luz dura e marcada. Softbox e octabox deixam suave. A gente ajuda a escolher.
+Lente de cinema na FX3? Dá, e é simples.
 
-### Para quem é
-Videomaker, produtora, agência ou empresa de São Luís que quer gravar com equipamento de cinema sem precisar comprar.
-
-### Na prática
-Você diz a data e o que vai gravar; a Real Time separa este equipamento e o kit que combina com ele, conferido e pronto para o set.
-
-### Resumo
-Luz dura ou luz suave no vídeo: na Real Time, com orientação de quem usa o equipamento todo dia.
-
-✅ Reserve pelo WhatsApp (98) 99133-1727. Seu job é na Real Time.
-
-#luzsuave #softbox #dicasdeiluminacao #videomaker
-
-## 21 · PL na FX3 (Combo · cinema na FX3)
-**LENTE PL NA SONY FX3 COM METABONES**
-
-Lente VESPID PL + adaptador Metabones PL–E = lente de cinema na câmera do kit.
-
-### Para quem é
-Videomaker, produtora, agência ou empresa de São Luís que quer gravar com equipamento de cinema sem precisar comprar.
+### O que é
+As lentes VESPID têm encaixe PL. Com o adaptador Metabones PL–E, elas entram na Sony FX3 do kit.
 
 ### Na prática
-Você diz a data e o que vai gravar; a Real Time separa este equipamento e o kit que combina com ele, conferido e pronto para o set.
+Uma produtora grava com câmera compacta e imagem de lente de cinema.
 
 ### Resumo
-Lente PL na Sony FX3 com Metabones: na Real Time, com orientação de quem usa o equipamento todo dia.
+O adaptador já vai junto quando você aluga o combo.
 
 ✅ Reserve pelo WhatsApp (98) 99133-1727. Seu job é na Real Time.
 
 #metabones #sonyfx3 #lentepl #maranhao
 
-## 22 · SET PRONTO (Estúdio · diária)
-**DIÁRIA DE ESTÚDIO EM SÃO LUÍS**
+## 21 · Luz dura ou suave? (FAQ · luz)
+**LUZ DURA OU LUZ SUAVE NO VÍDEO? COMO ESCOLHER**
 
-Estúdio, luz e equipamento num lugar só. Diária para produtora, agência e marca.
+Sua imagem parece "estourada" ou sem graça? Pode ser o tipo de luz.
 
-### Para quem é
-Videomaker, produtora, agência ou empresa de São Luís que quer gravar com equipamento de cinema sem precisar comprar.
+### O que é
+Refletor deixa a luz dura, com sombra marcada. Softbox e octabox deixam a luz suave, boa para rosto.
 
 ### Na prática
-Você diz a data e o que vai gravar; a Real Time separa este equipamento e o kit que combina com ele, conferido e pronto para o set.
+Comercial de impacto pede luz dura; depoimento pede luz suave.
 
 ### Resumo
-Diária de estúdio em São Luís: na Real Time, com orientação de quem usa o equipamento todo dia.
+Diga a cena e a gente indica o modificador.
+
+✅ Reserve pelo WhatsApp (98) 99133-1727. Seu job é na Real Time.
+
+#luzsuave #softbox #dicasdeiluminacao #videomaker
+
+## 22 · SET PRONTO (Estúdio · diária)
+**DIÁRIA DE ESTÚDIO EM SÃO LUÍS: SET PRONTO PARA GRAVAR**
+
+Montar set do zero toma a manhã inteira.
+
+### O que é
+No estúdio da Real Time, fundo, luz e equipamento já estão no mesmo lugar.
+
+### Na prática
+Uma agência grava três peças de campanha na mesma diária, sem desmontar nada.
+
+### Resumo
+Seu tempo vai para gravar, não para montar.
 
 ✅ Reserve pelo WhatsApp (98) 99133-1727. Seu job é na Real Time.
 
@@ -400,106 +400,106 @@ Diária de estúdio em São Luís: na Real Time, com orientação de quem usa o 
 ## 23 · Recado do diretor (Combo · corporativo)
 **VÍDEO CORPORATIVO COM TELEPROMPTER EM SÃO LUÍS**
 
-Teleprompter + 85mm + STORM 400x: a mensagem da empresa gravada em poucos takes.
+O diretor da empresa trava na frente da câmera? É normal.
 
-### Para quem é
-Videomaker, produtora, agência ou empresa de São Luís que quer gravar com equipamento de cinema sem precisar comprar.
+### O que é
+Combo corporativo: teleprompter, lente 85mm e STORM 400x. Texto na frente da lente, rosto bem iluminado e fundo suave.
 
 ### Na prática
-Você diz a data e o que vai gravar; a Real Time separa este equipamento e o kit que combina com ele, conferido e pronto para o set.
+A mensagem de fim de ano sai em poucos takes, com naturalidade.
 
 ### Resumo
-Vídeo corporativo com teleprompter em São Luís: na Real Time, com orientação de quem usa o equipamento todo dia.
+Ninguém precisa decorar.
 
 ✅ Reserve pelo WhatsApp (98) 99133-1727. Seu job é na Real Time.
 
 #videocorporativo #comunicacaointerna #teleprompter #saoluisma
 
 ## 24 · Do roteiro à edição (Realtime Produções)
-**PRODUTORA DE VÍDEO EM SÃO LUÍS**
+**PRODUTORA DE VÍDEO EM SÃO LUÍS: DO ROTEIRO À EDIÇÃO**
 
-Além de alugar, a Real Time faz o projeto completo: roteiro, gravação e edição.
+Alugar é ótimo. Mas e quando você não tem equipe?
 
-### Para quem é
-Videomaker, produtora, agência ou empresa de São Luís que quer gravar com equipamento de cinema sem precisar comprar.
+### O que é
+A Realtime Produções faz o projeto completo: roteiro, gravação e edição, com o próprio equipamento.
 
 ### Na prática
-Você diz a data e o que vai gravar; a Real Time separa este equipamento e o kit que combina com ele, conferido e pronto para o set.
+Uma marca chega com a ideia e sai com o filme pronto.
 
 ### Resumo
-Produtora de vídeo em São Luís: na Real Time, com orientação de quem usa o equipamento todo dia.
+Fale com a gente sobre o seu projeto.
 
 ✅ Reserve pelo WhatsApp (98) 99133-1727. Seu job é na Real Time.
 
 #produtoradevideo #filmedemarca #roteiro #saoluis
 
 ## 25 · 18mm ou 105mm? (Comparativo · VESPID)
-**LENTE 18MM OU 105MM: QUAL USAR**
+**LENTE 18MM OU 105MM: QUAL USAR NA SUA CENA**
 
-18 mostra o lugar. 105 isola um detalhe. No meio, 24, 35, 50 e 85 resolvem o resto.
+As duas pontas do kit fazem trabalhos opostos.
 
-### Para quem é
-Videomaker, produtora, agência ou empresa de São Luís que quer gravar com equipamento de cinema sem precisar comprar.
+### O que é
+A 18mm abre e mostra o lugar. A 105mm fecha e isola um detalhe. 24, 35, 50 e 85 resolvem o meio.
 
 ### Na prática
-Você diz a data e o que vai gravar; a Real Time separa este equipamento e o kit que combina com ele, conferido e pronto para o set.
+Num filme de marca, a 18 apresenta a loja e a 105 mostra o produto na mão.
 
 ### Resumo
-Lente 18mm ou 105mm: qual usar: na Real Time, com orientação de quem usa o equipamento todo dia.
+Pense na história, depois na lente.
 
 ✅ Reserve pelo WhatsApp (98) 99133-1727. Seu job é na Real Time.
 
 #18mm #105mm #dzofilm #dicasdecinema
 
-## 26 · Foco sem fio? (FAQ · Nucleus)
-**O QUE É FOCO SEM FIO (FOLLOW FOCUS)**
-
-É o foquista girando o anel da lente por controle, sem encostar na câmera. Útil em gimbal e grua.
-
-### Para quem é
-Videomaker, produtora, agência ou empresa de São Luís que quer gravar com equipamento de cinema sem precisar comprar.
-
-### Na prática
-Você diz a data e o que vai gravar; a Real Time separa este equipamento e o kit que combina com ele, conferido e pronto para o set.
-
-### Resumo
-O que é foco sem fio (follow focus): na Real Time, com orientação de quem usa o equipamento todo dia.
-
-✅ Reserve pelo WhatsApp (98) 99133-1727. Seu job é na Real Time.
-
-#followfocus #gimbal #foquista #tilta
-
-## 27 · Conteúdo todo mês (Realtime Conteúdo)
+## 26 · Conteúdo todo mês (Realtime Conteúdo)
 **CONTEÚDO MENSAL EM VÍDEO PARA EMPRESAS EM SÃO LUÍS**
 
-Sua empresa grava no estúdio com dia marcado e recebe os vídeos prontos para postar.
+Postar vídeo toda semana parece impossível? Não precisa ser.
 
-### Para quem é
-Videomaker, produtora, agência ou empresa de São Luís que quer gravar com equipamento de cinema sem precisar comprar.
+### O que é
+Com a Realtime Conteúdo, sua empresa grava no estúdio com dia marcado e recebe os vídeos editados.
 
 ### Na prática
-Você diz a data e o que vai gravar; a Real Time separa este equipamento e o kit que combina com ele, conferido e pronto para o set.
+Uma clínica grava o mês inteiro numa tarde.
 
 ### Resumo
-Conteúdo mensal em vídeo para empresas em São Luís: na Real Time, com orientação de quem usa o equipamento todo dia.
+Rotina de conteúdo sem montar set toda vez.
 
 ✅ Reserve pelo WhatsApp (98) 99133-1727. Seu job é na Real Time.
 
 #marketingdeconteudo #videoparaempresas #conteudomensal #saoluis
 
-## 28 · COR NO FUNDO (Luz colorida)
-**LUZ COLORIDA NO FUNDO DO VÍDEO**
+## 27 · Foco sem fio? (FAQ · Nucleus)
+**O QUE É FOCO SEM FIO (FOLLOW FOCUS) E QUANDO USAR**
 
-Três STORM 80c pintam o fundo da cor da marca. Sem papel colorido, sem troca de cenário.
+Já viu alguém mexendo num volante longe da câmera?
 
-### Para quem é
-Videomaker, produtora, agência ou empresa de São Luís que quer gravar com equipamento de cinema sem precisar comprar.
+### O que é
+É o foquista controlando o anel da lente pelo Tilta Nucleus-M II, sem encostar na câmera.
 
 ### Na prática
-Você diz a data e o que vai gravar; a Real Time separa este equipamento e o kit que combina com ele, conferido e pronto para o set.
+Em gimbal ou grua, o foco acompanha a pessoa mesmo com a câmera em movimento.
 
 ### Resumo
-Luz colorida no fundo do vídeo: na Real Time, com orientação de quem usa o equipamento todo dia.
+Movimento e foco juntos.
+
+✅ Reserve pelo WhatsApp (98) 99133-1727. Seu job é na Real Time.
+
+#followfocus #gimbal #foquista #tilta
+
+## 28 · COR NO FUNDO (Luz colorida)
+**LUZ COLORIDA NO FUNDO DO VÍDEO: COR DA MARCA SEM CENÁRIO**
+
+Trocar o papel do fundo a cada gravação dá trabalho.
+
+### O que é
+Três STORM 80c pintam o fundo com a cor que você quiser, inclusive a da sua marca.
+
+### Na prática
+Um videocast muda de clima a cada episódio só trocando a cor da luz.
+
+### Resumo
+Cenário novo em segundos.
 
 ✅ Reserve pelo WhatsApp (98) 99133-1727. Seu job é na Real Time.
 
@@ -508,16 +508,16 @@ Luz colorida no fundo do vídeo: na Real Time, com orientação de quem usa o eq
 ## 29 · Lente errada (Erro comum)
 **ERRO COMUM AO ESCOLHER LENTE PARA GRAVAR**
 
-Escolher lente no dia da gravação. Diga a cena antes e a gente separa o kit certo.
+Escolher a lente no dia da gravação é pedir improviso.
 
-### Para quem é
-Videomaker, produtora, agência ou empresa de São Luís que quer gravar com equipamento de cinema sem precisar comprar.
+### O que é
+Diga a cena antes: a Real Time separa o kit certo e você chega só para gravar.
 
 ### Na prática
-Você diz a data e o que vai gravar; a Real Time separa este equipamento e o kit que combina com ele, conferido e pronto para o set.
+Uma produtora mandou o roteiro na véspera e recebeu o kit montado para cada plano.
 
 ### Resumo
-Erro comum ao escolher lente para gravar: na Real Time, com orientação de quem usa o equipamento todo dia.
+Planejar é mais barato que improvisar.
 
 ✅ Reserve pelo WhatsApp (98) 99133-1727. Seu job é na Real Time.
 
@@ -526,16 +526,16 @@ Erro comum ao escolher lente para gravar: na Real Time, com orientação de quem
 ## 30 · Reservar em 3 passos (Como funciona)
 **COMO ALUGAR EQUIPAMENTO AUDIOVISUAL EM SÃO LUÍS**
 
-1. Diga a data e o que vai gravar. 2. A gente indica o kit. 3. Retire e grave.
+Alugar equipamento de cinema é mais simples do que parece.
 
-### Para quem é
-Videomaker, produtora, agência ou empresa de São Luís que quer gravar com equipamento de cinema sem precisar comprar.
+### O que é
+1. Diga a data e o que vai gravar. 2. A gente indica o kit. 3. Você retira e grava.
 
 ### Na prática
-Você diz a data e o que vai gravar; a Real Time separa este equipamento e o kit que combina com ele, conferido e pronto para o set.
+Um videomaker reservou numa mensagem e retirou o kit no dia seguinte, conferido.
 
 ### Resumo
-Como alugar equipamento audiovisual em São Luís: na Real Time, com orientação de quem usa o equipamento todo dia.
+Três passos e o seu job está de pé.
 
 ✅ Reserve pelo WhatsApp (98) 99133-1727. Seu job é na Real Time.
 
