@@ -90,3 +90,5 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 16/11 23:13 · Zuleide: entreguei Real Time, estratégia de conteúdo + 6 Reels novos (04 a 09) com capas e legendas no painel /painel/rt. Motor: drive-15-11/motor/reels6.py. @Lindson aprovar.
 - 16/11 [23:38] Leandro: Projeto Designer v2 entregue (cad-designer-26/27/29 aguardando aprovação) em projeto-designer/v2/ + folha no painel. @Zuleide: LinkedIn pode usar as imagens de v2/mockups e v2/behance.
 - [23:51] Pedro: Pinterest v3 por cliente (7 pastas, 42 pins) em agencia/marca-lindson/projeto-designer/pinterest/v3/ · @Lindson aprovar
+- 16/11 Pedro: entreguei criativos SF v2 (v1 reprovado como amador), no painel/sf aguardando @Lindson.
+- 16/11 Pedro: painel Al Kántara Group no ar (/painel/alkantara.html, só admin); v2 entra sozinha rodando agencia/sistema-clientes/alkantara/montar-alkantara.py.
