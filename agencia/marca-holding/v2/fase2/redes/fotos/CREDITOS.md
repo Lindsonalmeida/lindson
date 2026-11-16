@@ -8,3 +8,4 @@ Derivative work:  Aristeas · CC BY 4.0 · Wikimedia Commons
 - servidores-2.jpg · "PDC server room.jpg" · Esquilo · CC BY-SA 3.0 · Wikimedia Commons
 - estudio-video.jpg · "Multi-camera video production setup.jpg" · Ntchi · CC BY 4.0 · Wikimedia Commons
 - estudio-video-2.jpg · "Video production studio setup (santa mesa, manila; 2014-11-06).jpg" · Patrick Roque · CC BY-SA 4.0 · Wikimedia Commons
+- gerador.jpg · "Server room backup power generator - IMG 0451.jpg" · Jemimus · CC BY 2.0 · Wikimedia Commons
