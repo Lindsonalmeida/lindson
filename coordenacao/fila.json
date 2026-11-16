@@ -670,12 +670,14 @@
    "cli": "pagode",
    "tarefa": "Pagode notícias",
    "equipe": "Zuleide",
-   "status": "livre",
+   "status": "andamento",
    "nota": "",
    "partes": [],
-   "pegou": "",
+   "pegou": "Zuleide",
    "atualizado": "",
-   "recebido": ""
+   "recebido": "",
+   "conta": "Zuleide",
+   "inicio": "2026-11-16 05:05"
   },
   {
    "id": "cad2-pagode-23",
