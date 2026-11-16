@@ -11,16 +11,16 @@ Você pode ser o mais competente da empresa e mesmo assim ficar para trás. Maqu
 
 ⏱️ Capítulos
 0:00 Introdução
-2:58 1. Você é julgado por quem está à sua volta
-4:05 2. Os três tipos de cérebro
-5:49 3. O teste do braço direito
-7:33 4. Em tempo calmo, sobe o simpático
-9:26 5. Não fique em cima do muro
-11:06 6. Não crie seu próprio rival
-12:25 7. Quando você vence, devolva o crédito
-17:43 8. O limite ético
-18:10 Seu compromisso
-18:26 Resumo
+2:24 1. Você é julgado por quem está à sua volta
+3:19 2. Os três tipos de cérebro
+4:43 3. O teste do braço direito
+6:07 4. Em tempo calmo, sobe o simpático
+7:39 5. Não fique em cima do muro
+9:00 6. Não crie seu próprio rival
+10:05 7. Quando você vence, devolva o crédito
+14:47 8. O limite ético
+15:09 Seu compromisso
+15:22 Resumo
 
 📜 Fonte: Nicolau Maquiavel, O Príncipe, caps. III, XXI e XXII; Discursos sobre a primeira década de Tito Lívio, livro I, cap. 30; livro III, cap. 16.
 

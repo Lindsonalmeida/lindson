@@ -390,6 +390,13 @@
   },
   {
    "tela": {
+    "t": "frase",
+    "h": "Uma pergunta<br><b>para levar.</b>"
+   },
+   "txt": "Antes da última parte, leva uma pergunta para a sua semana: no seu trabalho ou na sua família, quem pode estar se sentindo diminuído pelo seu crescimento? Não para você parar de crescer, mas para incluir essa pessoa. Às vezes, um convite, um pedido de conselho ou um obrigado público desarma anos de inveja silenciosa. Maquiavel mostrou que o tempo sozinho não resolve. Um gesto certo, na hora certa, muitas vezes resolve."
+  },
+  {
+   "tela": {
     "t": "capitulo",
     "n": "5",
     "h": "A inveja que mora em você",

@@ -418,6 +418,13 @@
   },
   {
    "tela": {
+    "t": "frase",
+    "h": "Uma pergunta<br><b>honesta.</b>"
+   },
+   "txt": "Uma pergunta honesta antes da última parte: quando você ajuda alguém, o que você espera de volta? Se a resposta for nada, ótimo, siga em paz. Se a resposta for reconhecimento, tudo bem também, é humano. Só seja claro com você mesmo. Muita mágoa nasce de uma expectativa que nunca foi dita, nem para o outro, nem para nós. Maquiavel diria: conheça a sua própria natureza antes de julgar a dos outros."
+  },
+  {
+   "tela": {
     "t": "capitulo",
     "n": "7",
     "h": "E se você for o ingrato?",

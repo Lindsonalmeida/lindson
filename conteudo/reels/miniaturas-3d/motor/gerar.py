@@ -153,7 +153,7 @@ def mix(r, dados, total, fr):
        '-c:v', 'libx264', '-preset', 'slow', '-crf', '24', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '160k', '-movflags', '+faststart', out)
     # folha de quadros: 12 quadros espalhados
     os.makedirs(os.path.join(B, 'folhas'), exist_ok=True)
-    sh('ffmpeg', '-v', 'error', '-y', '-i', out, '-vf', f'fps=12/{total},scale=270:480,tile=6x2:padding=6:color=black', '-frames:v', '1', os.path.join(B, 'folhas', r['id'] + '.jpg'))
+    sh('ffmpeg', '-v', 'error', '-y', '-i', out, '-vf', f'select=not(mod(n\\,{int(total*FPS/12)+1})),scale=270:480,tile=6x2:padding=6:color=black', '-vsync', 'vfr', '-frames:v', '1', os.path.join(B, 'folhas', r['id'] + '.jpg'))
     return out
 
 if __name__ == '__main__':

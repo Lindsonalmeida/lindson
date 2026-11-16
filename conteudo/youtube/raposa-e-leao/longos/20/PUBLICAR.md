@@ -17,9 +17,9 @@ Você ajudou, e quando precisou a pessoa sumiu. Maquiavel explica: "os homens s�
 6:06 4. O general que salvou Roma
 9:20 5. Como ajudar sem ser esquecido
 12:46 6. A ajuda que não se esquece
-17:01 7. E se você for o ingrato?
-18:07 Seu compromisso
-18:24 Resumo
+17:31 7. E se você for o ingrato?
+18:37 Seu compromisso
+18:54 Resumo
 
 📜 Fonte: Nicolau Maquiavel, O Príncipe, caps. VII, VIII, IX e XVII; Discursos sobre a primeira década de Tito Lívio, livro I, caps. 29 e 30.
 

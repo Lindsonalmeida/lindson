@@ -455,6 +455,13 @@
   },
   {
    "tela": {
+    "t": "frase",
+    "h": "Uma pergunta<br><b>para levar.</b>"
+   },
+   "txt": "Antes de seguir, leva uma pergunta para a sua próxima semana de trabalho: quem decide o meu próximo passo aqui dentro, e o que essa pessoa vê de mim hoje? Se você não sabe responder, comece por aí. Converse com ela, mostre o que você faz e entenda o que ela valoriza. Maquiavel escreveu O Príncipe justamente para ser visto por quem decidia. Ele sabia que o trabalho bom precisa chegar aos olhos certos."
+  },
+  {
+   "tela": {
     "t": "capitulo",
     "n": "8",
     "h": "O limite ético",

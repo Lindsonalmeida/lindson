@@ -25,9 +25,9 @@ Pesquisa feita em 14/11/2026 no autocomplete do YouTube (suggestqueries, ds=yt, 
 3:49 2. Os dois remédios
 7:06 3. O erro de Soderini
 11:07 4. Como desarmar a inveja hoje
-16:36 5. A inveja que mora em você
-17:58 Seu compromisso
-18:15 Resumo
+17:05 5. A inveja que mora em você
+18:28 Seu compromisso
+18:45 Resumo
 
 📜 Fonte: Nicolau Maquiavel, Discursos sobre a primeira década de Tito Lívio, livro I, cap. 8; livro II, cap. 22; livro III, caps. 3, 9, 16 e 30; epigrama sobre Piero Soderini.
 
@@ -41,9 +41,9 @@ Pesquisa feita em 14/11/2026 no autocomplete do YouTube (suggestqueries, ds=yt, 
 3:49 2. Os dois remédios
 7:06 3. O erro de Soderini
 11:07 4. Como desarmar a inveja hoje
-16:36 5. A inveja que mora em você
-17:58 Seu compromisso
-18:15 Resumo
+17:05 5. A inveja que mora em você
+18:28 Seu compromisso
+18:45 Resumo
 
 ## Tags
 inveja, inveja no trabalho, pessoas invejosas, inveja como lidar, inveja disfarçada, maquiavel, discursos, soderini, savonarola, florença, carreira, raposa e leão
