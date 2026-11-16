@@ -8,9 +8,9 @@ document.querySelectorAll('a[href$=".html"],a[href="./"]').forEach(a=>a.addEvent
 addEventListener('pageshow',()=>document.body.classList.remove('sai'));
 const go=()=>{if(red||!window.gsap)return;const g=window.gsap;if(window.ScrollTrigger)g.registerPlugin(ScrollTrigger);
 if(window.Lenis){const l=new Lenis({lerp:.1,smoothWheel:true});l.on('scroll',()=>window.ScrollTrigger&&ScrollTrigger.update());g.ticker.add(t=>l.raf(t*1000));g.ticker.lagSmoothing(0)}
-document.querySelectorAll('.h-l').forEach(h=>{g.from(h,{yPercent:30,opacity:0,duration:1.1,ease:'expo.out',scrollTrigger:{trigger:h,start:'top 85%'}})});
+document.querySelectorAll('.h-l').forEach(h=>{g.fromTo(h,{yPercent:30,opacity:0},{yPercent:0,opacity:1,duration:1.1,ease:'expo.out',scrollTrigger:{trigger:h,start:'top 88%'}})});
 document.querySelectorAll('.ph.par .ph-in').forEach(p=>g.to(p,{yPercent:12,ease:'none',scrollTrigger:{trigger:p.parentNode,start:'top bottom',end:'bottom top',scrub:true}}));
 document.querySelectorAll('.ph').forEach(p=>g.from(p,{clipPath:'inset(18% 8% 18% 8%)',duration:1.4,ease:'expo.out',scrollTrigger:{trigger:p,start:'top 85%'}}));
-document.querySelectorAll('.div-card,.case,.val').forEach((c,i)=>g.from(c,{y:60,opacity:0,duration:.9,delay:(i%4)*.08,ease:'power3.out',scrollTrigger:{trigger:c,start:'top 90%'}}));
+document.querySelectorAll('.div-card,.case,.val').forEach((c,i)=>{c.classList.add('on');c.style.transition='none';g.fromTo(c,{y:60,opacity:0},{y:0,opacity:1,duration:.9,delay:(i%4)*.08,ease:'power3.out',scrollTrigger:{trigger:c,start:'top 92%'}})});
 const gig=document.querySelector('.gigante');if(gig)g.from(gig,{yPercent:40,ease:'none',scrollTrigger:{trigger:gig,start:'top bottom',end:'bottom bottom',scrub:true}})};
 if(document.readyState==='complete')go();else addEventListener('load',go)})();
