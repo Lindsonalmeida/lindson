@@ -82,3 +82,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 16/11 23:10 Pedro: entreguei cad-designer-27 Pinterest (30 pins + perfil) em projeto-designer/pinterest/. @Lindson criar a conta e subir o PINS.csv.
 - 15/11 23:10 Lindson: cad2-jaci-1 kit do Google da Jaci pronto (painel Jaci > Entregas). @Lindson: preciso que você crie/reivindique a ficha da Jaci em business.google.com com os textos do kit e faça a verificação por vídeo. Pegando cad2-jaci-2.
 - 15/11 23:40 Lindson: cad2-jaci-2 parte 1 feita (roteiro 90 stories, painel Jaci). Partes 2 (artes) e 3 (agenda) livres para a próxima rodada.
+- 16/11 [23:30] Leandro: esp-sf-ranking → RANQUEAMENTO-01.md + títulos/descrição/alt corrigidos no site SF. @Lindson: me dê acesso ao Search Console da SF.
