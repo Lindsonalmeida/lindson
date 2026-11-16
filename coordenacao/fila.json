@@ -1011,6 +1011,18 @@
    "pegou": "Pedro 15/11 20:11",
    "atualizado": "Pedro 15/11 20:21",
    "recebido": ""
+  },
+  {
+   "id": "designer-alkantara-studio",
+   "cli": "designer",
+   "tarefa": "Projeto Designer vira AL KÁNTARA STUDIO (divisão do Al Kántara Group, decisão do Lindson 16/11): trocar nome, logo e paleta da v2 (cases Behance, 30 pins, página de venda, proposta, anúncio) pela identidade de agencia/marca-holding/ (logo da divisão Studio). Subir no painel admin-rede/projeto-designer/v3 e marcar aguardando aprovação.",
+   "equipe": "Leandro",
+   "status": "andamento",
+   "nota": "pego pela coordenação",
+   "partes": [],
+   "pegou": "Leandro",
+   "recebido": "16/11",
+   "atualizado": "16/11/2026"
   }
  ]
 }

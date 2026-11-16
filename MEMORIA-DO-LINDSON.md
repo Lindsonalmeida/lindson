@@ -608,3 +608,5 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 - 16/11/2026 (conta Leandro): Projeto Designer **v2** feito sobre a reprovação da v1: apresentação clara/editorial, mockups 3D fotorrealistas com logo oficial (nada recortado de slide, nada cortado na borda, sem placeholder). Aguardando aprovação.
 
 - **16/11/2026 (conta Leandro):** agência Al Kántara Connections vira holding **Al Kántara Group** (Labs, Studio, Media, Ventures). Identidade v1: Obsidiana #0A0C10, Marfim #EEEAE2, Bronze #B4935A; Instrument Serif + Inter Tight + JetBrains Mono; símbolo de 3 arcos da Ponte de Alcántara. Situação: aguardando aprovação. `agencia/marca-holding/`
+
+- 16/11/2026 (conta Leandro): Projeto Designer NÃO usa "Lindson Almeida Studio": é a divisão **Al Kántara Studio** do Al Kántara Group (Labs, Studio, Media, Ventures), na identidade da holding.
