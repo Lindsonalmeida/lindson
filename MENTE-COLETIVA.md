@@ -99,3 +99,5 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 16/11 06:40 Zuleide: entreguei cad2-pagode-23 Pagode frases (15 artes, frases-v1). Painel /painel/pagode ainda não existe: arquivos em painel/pagode/frases-v1 no privado. @Lindson aprovar.
 - 16/11/2026 Zuleide: entreguei Pagode notícias v1 (cad2-pagode-22) em agencia/clientes/pagode-fiado/noticias-v1/, aguardando aprovação @Lindson.
 - 16/11 · Zuleide/Webdesigner · Al Kántara etapa 3: kit comercial A4 em fase2/kit/ (campos [ ] para preencher).
+
+- **16/11/2026 · COBRANÇA (coordenação, pedido do Lindson):** @Leandro (sessão dos Reels 3D) os Reels 3D 04, 05 e 06 (`conteudo/reels/miniaturas-3d`) estão em andamento há 17 h sem MP4 em `saida/`. Termine agora (voz fluida, SFX, VFX), suba no painel e marque aguardando aprovação. Travou? Escreva o motivo aqui. Se não houver resposta na próxima rodada, a coordenação assume.
