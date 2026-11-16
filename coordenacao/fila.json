@@ -1,1047 +1,1047 @@
 {
-  "versao": 1,
-  "atualizado": "15/11/2026",
-  "coordenador": "Leandro",
-  "regra": "Cada equipe pega só os itens com equipe = o próprio nome (ou \"qualquer\"). Ao pegar: status andamento + pegou. Ao terminar: status feito + nota (onde está). Itens grandes têm partes: pegue parte por parte.",
-  "itens": [
-    {
-      "id": "cad-raposa-2",
-      "cli": "raposa",
-      "tarefa": "Postar todos os longos",
-      "equipe": "Leandro",
-      "status": "travado",
-      "nota": "Longos prontos (01-21) no app de postagem; postar no YouTube pede o acesso do Lindson ao canal (ou Metricool).",
-      "partes": [],
-      "pegou": "",
-      "atualizado": "15/11 20:08",
-      "recebido": "Leandro 16/11 01:36"
-    },
-    {
-      "id": "cad-raposa-4",
-      "cli": "raposa",
-      "tarefa": "Agendar Shorts",
-      "equipe": "Leandro",
-      "status": "travado",
-      "nota": "Shorts 01-40 prontos com agenda no app e kit Instagram/TikTok; agendar pede o acesso do Lindson (YouTube Studio/Metricool).",
-      "partes": [],
-      "pegou": "",
-      "atualizado": "15/11 20:08",
-      "recebido": "Leandro 16/11 01:36"
-    },
-    {
-      "id": "cad-raposa-5",
-      "cli": "raposa",
-      "tarefa": "Alimentar Insta",
-      "equipe": "Leandro",
-      "status": "travado",
-      "nota": "Kit pronto: 40 legendas Instagram (SEO) + agenda 2/dia 16-30/11 + bio e destaques em conteudo/youtube/raposa-e-leao/redes-sociais/ e privado painel/canais/raposa/postagens-instagram-tiktok.html. Falta Lindson: criar/confirmar @raposaeleao no Instagram e logar no Metricool ou postar pelo celular.",
-      "partes": [],
-      "pegou": "Leandro 15/11 18:08",
-      "atualizado": "Leandro 15/11 21:14",
-      "recebido": "Leandro 16/11 01:36"
-    },
-    {
-      "id": "cad-raposa-6",
-      "cli": "raposa",
-      "tarefa": "Alimentar TikTok",
-      "equipe": "Leandro",
-      "status": "travado",
-      "nota": "Kit pronto: 40 legendas TikTok + agenda na mesma página (postagens-instagram-tiktok.html). Falta Lindson: criar/confirmar @raposaeleao no TikTok e postar/agendar.",
-      "partes": [],
-      "pegou": "Leandro 15/11 18:08",
-      "atualizado": "Leandro 15/11 21:14",
-      "recebido": "Leandro 16/11 01:36"
-    },
-    {
-      "id": "cad-passaporte-8",
-      "cli": "passaporte",
-      "tarefa": "Organizar Insta",
-      "equipe": "Zuleide",
-      "status": "aguardando aprovação",
-      "nota": "Bio, 6 destaques (Shorts novo), 3 fixados, feed e checklist em conteudo/youtube/passaporte/instagram/ e painel/canais/passaporte/instagram/. Lindson aplica no app.",
-      "partes": [],
-      "pegou": "Zuleide 15/11 19:04",
-      "atualizado": "15/11 19:05",
-      "recebido": ""
-    },
-    {
-      "id": "cad-passaporte-9",
-      "cli": "passaporte",
-      "tarefa": "Organizar TikTok",
-      "equipe": "Zuleide",
-      "status": "aguardando aprovação",
-      "nota": "conteudo/youtube/passaporte/tiktok/README.md + painel/canais/passaporte/tiktok/. Lindson aplica no app.",
-      "partes": [],
-      "pegou": "Zuleide 15/11 21:04",
-      "atualizado": "15/11 21:06",
-      "recebido": ""
-    },
-    {
-      "id": "cad-passaporte-10",
-      "cli": "passaporte",
-      "tarefa": "Postar vídeos longos",
-      "equipe": "Zuleide",
-      "status": "andamento",
-      "nota": "Longos 01-09 postados; 10-12 renderizando (Zuleide/Peter), publicar após OK do Lindson",
-      "partes": [],
-      "pegou": "Zuleide 15/11 16:58",
-      "atualizado": "15/11 16:58",
-      "recebido": ""
-    },
-    {
-      "id": "cad-passaporte-11",
-      "cli": "passaporte",
-      "tarefa": "Criar produto digital na Hubla",
-      "equipe": "Zuleide",
-      "status": "andamento",
-      "nota": "",
-      "partes": [],
-      "pegou": "",
-      "atualizado": "",
-      "recebido": "",
-      "conta": "Zuleide",
-      "inicio": "2026-11-16 01:03"
-    },
-    {
-      "id": "cad-marca-12",
-      "cli": "marca",
-      "tarefa": "Estudar cursos que comprei",
-      "equipe": "Lindson (dono)",
-      "status": "livre",
-      "nota": "",
-      "partes": [],
-      "pegou": "",
-      "atualizado": "",
-      "recebido": ""
-    },
-    {
-      "id": "cad-marca-14",
-      "cli": "marca",
-      "tarefa": "Projeto VEKTOR",
-      "equipe": "qualquer",
-      "status": "livre",
-      "nota": "",
-      "partes": [],
-      "pegou": "",
-      "atualizado": "",
-      "recebido": ""
-    },
-    {
-      "id": "cad-marca-15",
-      "cli": "marca",
-      "tarefa": "Projeto Dublê",
-      "equipe": "qualquer",
-      "status": "livre",
-      "nota": "",
-      "partes": [],
-      "pegou": "",
-      "atualizado": "",
-      "recebido": ""
-    },
-    {
-      "id": "cad-marca-16",
-      "cli": "marca",
-      "tarefa": "Raio-X: Felipe Bormine (cliente da call; falta o @)",
-      "equipe": "Leandro",
-      "status": "travado",
-      "nota": "Falta o @ do Instagram do Felipe Bormine.",
-      "partes": [],
-      "pegou": "",
-      "atualizado": "15/11 20:08",
-      "recebido": "Leandro 16/11 01:36"
-    },
-    {
-      "id": "cad-marca-17",
-      "cli": "marca",
-      "tarefa": "Raio-X: Marcos 100 Limites (cliente da call; falta o @)",
-      "equipe": "Leandro",
-      "status": "travado",
-      "nota": "Falta o @ do Instagram do Marcos 100 Limites.",
-      "partes": [],
-      "pegou": "",
-      "atualizado": "15/11 20:08",
-      "recebido": "Leandro 16/11 01:36"
-    },
-    {
-      "id": "cad-oregano-20",
-      "cli": "oregano",
-      "tarefa": "30 postagens = 30 Reels (confirmado 15/11; 21 da semana 1 prontos, faltam 9)",
-      "equipe": "Zuleide",
-      "status": "aguardando aprovação",
-      "nota": "9 Reels OT-22..30 (6 conteúdo/3 venda; total 30 = 21/9) com roteiro, capa, legenda SEO e vídeo; no /painel/oregano em Aprovações \"aguardando\". Fotos Pexels novas (18). Pasta agencia/operacao-propria/reels/semana-2 (mp4 fora do Git).",
-      "partes": [
-        {
-          "p": "Roteiros dos 9 Reels que faltam (70% conteúdo/30% venda)",
-          "status": "feito"
-        },
-        {
-          "p": "Produção e voz",
-          "status": "feito"
-        },
-        {
-          "p": "Capas, legendas SEO e título Shorts",
-          "status": "feito"
-        },
-        {
-          "p": "Subir em Postagens prontas do /painel/oregano",
-          "status": "feito"
-        }
-      ],
-      "pegou": "Zuleide 15/11 17:04",
-      "atualizado": "15/11 17:54",
-      "recebido": ""
-    },
-    {
-      "id": "cad-oregano-21",
-      "cli": "oregano",
-      "tarefa": "SDR (no sistema)",
-      "equipe": "Zuleide",
-      "status": "feito",
-      "nota": "Zuleide 15/11 (SDR no painel)",
-      "partes": [],
-      "pegou": "",
-      "atualizado": "",
-      "recebido": ""
-    },
-    {
-      "id": "cad-oregano-22",
-      "cli": "oregano",
-      "tarefa": "Campanha de tráfego",
-      "equipe": "Pedro",
-      "status": "travado",
-      "nota": "Estratégia pronta em agencia/operacao-propria/trafego/. Falta acesso à conta de anúncios Meta, Pixel ID, verba e link do WhatsApp Business.",
-      "partes": [
-        {
-          "p": "Campanha na Meta com os 10 criativos v2 aprovados (públicos e verba da estratégia de tráfego)",
-          "status": "livre"
-        },
-        {
-          "p": "Rastreamento (pixel/WhatsApp) e planilha de teste",
-          "status": "livre"
-        },
-        {
-          "p": "Relatório de 3 dias",
-          "status": "livre"
-        }
-      ],
-      "pegou": "",
-      "atualizado": "15/11 16:58",
-      "recebido": "Pedro 15/11 22:37"
-    },
-    {
-      "id": "cad-oregano-23",
-      "cli": "oregano",
-      "tarefa": "10 criativos de alta conversão",
-      "equipe": "Zuleide",
-      "status": "feito",
-      "nota": "Leandro 15/11 (10 criativos v2 aprovados)",
-      "partes": [],
-      "pegou": "",
-      "atualizado": "",
-      "recebido": ""
-    },
-    {
-      "id": "cad-oregano-24",
-      "cli": "oregano",
-      "tarefa": "Canal no YouTube",
-      "equipe": "Zuleide",
-      "status": "aguardando aprovação",
-      "nota": "Kit YouTube v2 na identidade do Instagram entregue 15/11 (Zuleide)",
-      "partes": [
-        {
-          "p": "Postar o kit do canal (banner, perfil, descrição)",
-          "status": "livre"
-        },
-        {
-          "p": "Subir os 21 Reels como Shorts com título e legenda SEO",
-          "status": "livre"
-        }
-      ],
-      "pegou": "",
-      "atualizado": "",
-      "recebido": ""
-    },
-    {
-      "id": "cad-oregano-25",
-      "cli": "oregano",
-      "tarefa": "TikTok",
-      "equipe": "Zuleide",
-      "status": "aguardando aprovação",
-      "nota": "agencia/operacao-propria/tiktok/ (PERFIL.md, LEGENDAS-TIKTOK.md) + painel /painel/oregano Aprovações (22 cartões TikTok)",
-      "partes": [
-        {
-          "p": "Criar perfil TikTok",
-          "status": "livre"
-        },
-        {
-          "p": "Adaptar os 21 Reels (legenda curta + hashtags TikTok)",
-          "status": "livre"
-        }
-      ],
-      "pegou": "Zuleide 15/11 16:58",
-      "atualizado": "15/11 16:58",
-      "recebido": ""
-    },
-    {
-      "id": "cad-designer-26",
-      "cli": "designer",
-      "tarefa": "Behance",
-      "equipe": "Leandro",
-      "status": "aguardando aprovação",
-      "nota": "v2 premium entregue 15/11 23:38 (Leandro): mockups 3D, 6 cases Behance, 30 pins + 3 vídeos, oferta nova. Em agencia/marca-lindson/projeto-designer/v2/ e painel admin-rede/projeto-designer/v2/. Aguardando aprovação do Lindson.",
-      "partes": [
-        {
-          "p": "Montar perfil Behance",
-          "status": "feito"
-        },
-        {
-          "p": "5 projetos de case (identidades aprovadas)",
-          "status": "feito"
-        },
-        {
-          "p": "Publicar",
-          "status": "travado (login do Lindson)"
-        }
-      ],
-      "pegou": "Leandro 16/11 22:46",
-      "atualizado": "Leandro 15/11 23:38",
-      "recebido": "Leandro 16/11 01:36"
-    },
-    {
-      "id": "cad-designer-27",
-      "cli": "designer",
-      "tarefa": "Pinterest",
-      "equipe": "Leandro",
-      "status": "aguardando aprovação",
-      "nota": "v2 premium entregue 15/11 23:38 (Leandro): mockups 3D, 6 cases Behance, 30 pins + 3 vídeos, oferta nova. Em agencia/marca-lindson/projeto-designer/v2/ e painel admin-rede/projeto-designer/v2/. Aguardando aprovação do Lindson.",
-      "partes": [
-        {
-          "p": "Perfil e 6 pastas com descrição SEO (nome do projeto em agencia/marca-lindson/projeto-designer/)",
-          "status": "feito (Pedro 16/11)"
-        },
-        {
-          "p": "30 pins 1000x1500 a partir dos cases do Behance (pasta projeto-designer/behance/)",
-          "status": "feito (Pedro 16/11)"
-        }
-      ],
-      "pegou": "Leandro 16/11 22:46",
-      "atualizado": "Leandro 15/11 23:38",
-      "recebido": "Pedro 15/11 22:37"
-    },
-    {
-      "id": "cad-designer-28",
-      "cli": "designer",
-      "tarefa": "LinkedIn",
-      "equipe": "Zuleide",
-      "status": "aguardando aprovação",
-      "nota": "[dividido pelo coordenador em 16/11 22:30: LinkedIn com a Zuleide] Entregue: agencia/marca-lindson/linkedin/ + painel admin-rede/projeto-designer (LinkedIn).",
-      "partes": [
-        {
-          "p": "Textos do perfil pessoal e da página do estúdio (título, sobre, experiência, serviços)",
-          "status": "feito"
-        },
-        {
-          "p": "Banner 1584x396 e 10 posts (carrossel/imagem + texto) com os cases",
-          "status": "feito"
-        }
-      ],
-      "pegou": "Zuleide 16/11",
-      "atualizado": "Zuleide 16/11",
-      "recebido": "Zuleide 16/11",
-      "conta": "Zuleide",
-      "inicio": "2026-11-15 23:03"
-    },
-    {
-      "id": "cad-designer-29",
-      "cli": "designer",
-      "tarefa": "Vender identidade visual",
-      "equipe": "Leandro",
-      "status": "aguardando aprovação",
-      "nota": "v2 premium entregue 15/11 23:38 (Leandro): mockups 3D, 6 cases Behance, 30 pins + 3 vídeos, oferta nova. Em agencia/marca-lindson/projeto-designer/v2/ e painel admin-rede/projeto-designer/v2/. Aguardando aprovação do Lindson.",
-      "partes": [],
-      "pegou": "Leandro 16/11 22:46",
-      "atualizado": "Leandro 15/11 23:38",
-      "recebido": "Leandro 16/11 01:36"
-    },
-    {
-      "id": "cad-sf-34",
-      "cli": "sf",
-      "tarefa": "Configurar Google Meu Negócio",
-      "equipe": "Pedro",
-      "status": "livre",
-      "nota": "",
-      "partes": [],
-      "pegou": "",
-      "atualizado": "",
-      "recebido": "Pedro 15/11 22:37"
-    },
-    {
-      "id": "cad-sf-35",
-      "cli": "sf",
-      "tarefa": "Testar criativos",
-      "equipe": "Pedro",
-      "status": "livre",
-      "nota": "",
-      "partes": [],
-      "pegou": "",
-      "atualizado": "",
-      "recebido": "Pedro 15/11 22:37"
-    },
-    {
-      "id": "cad2-jaci-1",
-      "cli": "jaci",
-      "tarefa": "Google Meu Negócio",
-      "equipe": "Lindson",
-      "status": "travado",
-      "nota": "Kit pronto (ficha, 8 posts, 10 perguntas, respostas, pedido de avaliação): agencia/clientes/jaci-cunha/google-kit/ e painel Jaci > Entregas. Falta o Lindson: criar/reivindicar a ficha em business.google.com com os textos do kit, dados da clínica (horário, nº/CEP, fotos) e verificação por vídeo.",
-      "partes": [],
-      "pegou": "Lindson 15/11 22:38",
-      "atualizado": "Lindson 15/11 23:10",
-      "recebido": "Lindson 15/11 22:38"
-    },
-    {
-      "id": "cad2-jaci-2",
-      "cli": "jaci",
-      "tarefa": "3 stories automáticos por dia",
-      "equipe": "Lindson",
-      "status": "livre",
-      "nota": "Parte 1 feita: roteiro de 90 stories (77 automáticos) em agencia/clientes/jaci-cunha/stories-automaticos/ (stories.json, ROTEIRO.md) e PDF no painel Jaci > Entregas. Próximo: parte 2 (artes 1080x1920 a partir de stories.json, composições dos destaques instagram-destaques/), depois parte 3 (agendar).",
-      "partes": [
-        {
-          "p": "Roteiro de 3 stories/dia por 30 dias (CFO)",
-          "status": "feito"
-        },
-        {
-          "p": "Artes",
-          "status": "livre"
-        },
-        {
-          "p": "Agenda automática",
-          "status": "livre"
-        }
-      ],
-      "pegou": "Lindson 15/11 23:15",
-      "atualizado": "Lindson 15/11 23:40",
-      "recebido": "Lindson 15/11 22:38"
-    },
-    {
-      "id": "cad2-jaci-3",
-      "cli": "jaci",
-      "tarefa": "Mensagem automática para clientes do CRM",
-      "equipe": "Lindson",
-      "status": "livre",
-      "nota": "",
-      "partes": [],
-      "pegou": "",
-      "atualizado": "",
-      "recebido": "Lindson 15/11 22:38"
-    },
-    {
-      "id": "cad2-wf-4",
-      "cli": "wf",
-      "tarefa": "Postar artes de venda",
-      "equipe": "Lindson",
-      "status": "livre",
-      "nota": "",
-      "partes": [],
-      "pegou": "",
-      "atualizado": "",
-      "recebido": "Lindson 15/11 22:38"
-    },
-    {
-      "id": "cad2-rt-5",
-      "cli": "rt",
-      "tarefa": "Campanha de tráfego",
-      "equipe": "Pedro",
-      "status": "aguardando aprovação",
-      "nota": "agencia/clientes/rt-full-jobs/trafego/ + /painel/rt/trafego/ (APROV do painel rt)",
-      "partes": [],
-      "pegou": "Pedro 15/11 16:58",
-      "atualizado": "15/11 17:01",
-      "recebido": ""
-    },
-    {
-      "id": "cad2-rt-6",
-      "cli": "rt",
-      "tarefa": "Fotos dos novos produtos",
-      "equipe": "Lindson (dono)",
-      "status": "livre",
-      "nota": "",
-      "partes": [],
-      "pegou": "",
-      "atualizado": "",
-      "recebido": ""
-    },
-    {
-      "id": "cad2-rt-7",
-      "cli": "rt",
-      "tarefa": "Criar 10 posts",
-      "equipe": "Lindson",
-      "status": "livre",
-      "nota": "",
-      "partes": [
-        {
-          "p": "10 posts na identidade da Real Time",
-          "status": "livre"
-        },
-        {
-          "p": "Legendas SEO",
-          "status": "livre"
-        },
-        {
-          "p": "Subir em Aprovações do /painel/rt",
-          "status": "livre"
-        }
-      ],
-      "pegou": "",
-      "atualizado": "",
-      "recebido": "Lindson 15/11 22:38"
-    },
-    {
-      "id": "cad2-rt-8",
-      "cli": "rt",
-      "tarefa": "Agendar 10 artes",
-      "equipe": "Lindson",
-      "status": "livre",
-      "nota": "",
-      "partes": [],
-      "pegou": "",
-      "atualizado": "",
-      "recebido": "Lindson 15/11 22:38"
-    },
-    {
-      "id": "cad2-tecnologia-9",
-      "cli": "tecnologia",
-      "tarefa": "Grupo de tecnologia: automação do Instagram",
-      "equipe": "Lindson",
-      "status": "livre",
-      "nota": "",
-      "partes": [],
-      "pegou": "",
-      "atualizado": "",
-      "recebido": "Lindson 15/11 22:38"
-    },
-    {
-      "id": "cad2-marca-10",
-      "cli": "marca",
-      "tarefa": "Ser especialista em Google Meu Negócio",
-      "equipe": "qualquer",
-      "status": "feito",
-      "nota": "Guia em agencia/especialista/<tema>/README.md; PDF resumo em /painel/admin-rede/especialista/",
-      "partes": [],
-      "pegou": "Leandro 15/11 17:02",
-      "atualizado": "Leandro 15/11 17:07",
-      "recebido": ""
-    },
-    {
-      "id": "cad2-marca-11",
-      "cli": "marca",
-      "tarefa": "Ser especialista em SEO",
-      "equipe": "qualquer",
-      "status": "feito",
-      "nota": "Guia em agencia/especialista/<tema>/README.md; PDF resumo em /painel/admin-rede/especialista/",
-      "partes": [],
-      "pegou": "Leandro 15/11 17:02",
-      "atualizado": "Leandro 15/11 17:07",
-      "recebido": ""
-    },
-    {
-      "id": "cad2-marca-12",
-      "cli": "marca",
-      "tarefa": "Ser especialista em venda pelo WhatsApp",
-      "equipe": "qualquer",
-      "status": "feito",
-      "nota": "Guia em agencia/especialista/<tema>/README.md; PDF resumo em /painel/admin-rede/especialista/",
-      "partes": [],
-      "pegou": "Leandro 15/11 17:02",
-      "atualizado": "Leandro 15/11 17:07",
-      "recebido": ""
-    },
-    {
-      "id": "cad2-marca-13",
-      "cli": "marca",
-      "tarefa": "Ser especialista em automação de vendas",
-      "equipe": "qualquer",
-      "status": "feito",
-      "nota": "Guia em agencia/especialista/<tema>/README.md; PDF resumo em /painel/admin-rede/especialista/",
-      "partes": [],
-      "pegou": "Leandro 15/11 17:02",
-      "atualizado": "Leandro 15/11 17:07",
-      "recebido": ""
-    },
-    {
-      "id": "cad2-marca-14",
-      "cli": "marca",
-      "tarefa": "Ser especialista em Meta para negócios locais",
-      "equipe": "qualquer",
-      "status": "feito",
-      "nota": "Guia em agencia/especialista/<tema>/README.md; PDF resumo em /painel/admin-rede/especialista/",
-      "partes": [],
-      "pegou": "Leandro 15/11 17:02",
-      "atualizado": "Leandro 15/11 17:07",
-      "recebido": ""
-    },
-    {
-      "id": "cad2-marca-15",
-      "cli": "marca",
-      "tarefa": "Ser especialista em ranqueamento de sites",
-      "equipe": "qualquer",
-      "status": "feito",
-      "nota": "Guia em agencia/especialista/<tema>/README.md; PDF resumo em /painel/admin-rede/especialista/",
-      "partes": [],
-      "pegou": "Leandro 15/11 17:02",
-      "atualizado": "Leandro 15/11 17:07",
-      "recebido": ""
-    },
-    {
-      "id": "cad2-sf-16",
-      "cli": "sf",
-      "tarefa": "Reorganizar site",
-      "equipe": "Pedro",
-      "status": "aguardando aprovação",
-      "nota": "Site no ar: urgência/WhatsApp primeiro, vaso-ralo-caixa de gordura, prova, área atendida (Pedro 16/11)",
-      "partes": [],
-      "pegou": "Pedro",
-      "atualizado": "2026-11-16",
-      "recebido": "Pedro 15/11 22:37"
-    },
-    {
-      "id": "cad2-sf-17",
-      "cli": "sf",
-      "tarefa": "Criar 04 criativos",
-      "equipe": "Pedro",
-      "status": "aguardando aprovação",
-      "nota": "4 criativos feed+story no painel /painel/sf aba Aprovações (Pedro 16/11)",
-      "partes": [],
-      "pegou": "Pedro",
-      "atualizado": "2026-11-16",
-      "recebido": "Pedro 15/11 22:37"
-    },
-    {
-      "id": "cad2-robo-whats-18",
-      "cli": "robo-whats",
-      "tarefa": "Robô do WhatsApp: criar identidade visual",
-      "equipe": "Lindson",
-      "status": "livre",
-      "nota": "",
-      "partes": [],
-      "pegou": "",
-      "atualizado": "",
-      "recebido": "Lindson 15/11 22:38"
-    },
-    {
-      "id": "cad2-robo-whats-19",
-      "cli": "robo-whats",
-      "tarefa": "Montar grupo de tecnologia (Insta)",
-      "equipe": "Lindson",
-      "status": "livre",
-      "nota": "",
-      "partes": [],
-      "pegou": "",
-      "atualizado": "",
-      "recebido": "Lindson 15/11 22:38"
-    },
-    {
-      "id": "cad2-curso-20",
-      "cli": "curso",
-      "tarefa": "Subir sites no Google",
-      "equipe": "Lindson",
-      "status": "livre",
-      "nota": "",
-      "partes": [],
-      "pegou": "",
-      "atualizado": "",
-      "recebido": "Lindson 15/11 22:38"
-    },
-    {
-      "id": "cad2-curso-21",
-      "cli": "curso",
-      "tarefa": "Insta com I.A.",
-      "equipe": "Lindson",
-      "status": "livre",
-      "nota": "",
-      "partes": [],
-      "pegou": "",
-      "atualizado": "",
-      "recebido": "Lindson 15/11 22:38"
-    },
-    {
-      "id": "cad2-pagode-22",
-      "cli": "pagode",
-      "tarefa": "Pagode notícias",
-      "equipe": "Zuleide",
-      "status": "aguardando aprovação",
-      "nota": "",
-      "partes": [],
-      "pegou": "Zuleide",
-      "atualizado": "",
-      "recebido": "",
-      "conta": "Zuleide",
-      "inicio": "2026-11-16 05:05",
-      "entrega": "agencia/clientes/pagode-fiado/noticias-v1/ (Zuleide 16/11)"
-    },
-    {
-      "id": "cad2-pagode-23",
-      "cli": "pagode",
-      "tarefa": "Pagode frases",
-      "equipe": "Zuleide",
-      "status": "aguardando aprovação",
-      "nota": "15 artes de frase + legendas + calendário em agencia/clientes/pagode-fiado/frases-v1/; painel do Pagode na Central ainda não existe (arquivos em painel/pagode/frases-v1 no privado)",
-      "partes": [],
-      "pegou": "",
-      "atualizado": "2026-11-16 06:40",
-      "recebido": "",
-      "conta": "Zuleide",
-      "inicio": "2026-11-16 03:04"
-    },
-    {
-      "id": "cad2-pagode-24",
-      "cli": "pagode",
-      "tarefa": "Playlist com cantores famosos",
-      "equipe": "Zuleide",
-      "status": "livre",
-      "nota": "",
-      "partes": [],
-      "pegou": "",
-      "atualizado": "",
-      "recebido": ""
-    },
-    {
-      "id": "cad2-pagode-25",
-      "cli": "pagode",
-      "tarefa": "Postar 10 Shorts",
-      "equipe": "Zuleide",
-      "status": "livre",
-      "nota": "",
-      "partes": [],
-      "pegou": "",
-      "atualizado": "",
-      "recebido": ""
-    },
-    {
-      "id": "cad2-pagode-26",
-      "cli": "pagode",
-      "tarefa": "Postar 10 Reels",
-      "equipe": "Zuleide",
-      "status": "livre",
-      "nota": "",
-      "partes": [],
-      "pegou": "",
-      "atualizado": "",
-      "recebido": ""
-    },
-    {
-      "id": "cad2-pagode-27",
-      "cli": "pagode",
-      "tarefa": "Postar 10 TikTok",
-      "equipe": "Zuleide",
-      "status": "livre",
-      "nota": "",
-      "partes": [],
-      "pegou": "",
-      "atualizado": "",
-      "recebido": ""
-    },
-    {
-      "id": "cad2-tribuna-28",
-      "cli": "tribuna",
-      "tarefa": "Organizar nome",
-      "equipe": "Leandro",
-      "status": "travado",
-      "nota": "Nome e bio já prontos desde 03/11 (agencia/clientes/tribuna98/instagram-perfil/BIO.md: \"Tribuna 98 | Política do Maranhão\" + bio de 142 caracteres + link tribuna98.pages.dev). Falta só aplicar no app do Instagram: precisa do Lindson ou do Thiago (senha do @tribuna98_).",
-      "partes": [],
-      "pegou": "Leandro 15/11 16:59",
-      "atualizado": "15/11 17:00",
-      "recebido": "Leandro 16/11 01:36"
-    },
-    {
-      "id": "cad2-tribuna-29",
-      "cli": "tribuna",
-      "tarefa": "Organizar bio",
-      "equipe": "Leandro",
-      "status": "travado",
-      "nota": "Nome e bio já prontos desde 03/11 (agencia/clientes/tribuna98/instagram-perfil/BIO.md: \"Tribuna 98 | Política do Maranhão\" + bio de 142 caracteres + link tribuna98.pages.dev). Falta só aplicar no app do Instagram: precisa do Lindson ou do Thiago (senha do @tribuna98_).",
-      "partes": [],
-      "pegou": "Leandro 15/11 16:59",
-      "atualizado": "15/11 17:00",
-      "recebido": "Leandro 16/11 01:36"
-    },
-    {
-      "id": "cad2-tribuna-30",
-      "cli": "tribuna",
-      "tarefa": "Verificar destaques",
-      "equipe": "Leandro",
-      "status": "travado",
-      "nota": "7 capas de destaque já prontas desde 03/11 (tribuna98/instagram-perfil/capa-01..07, previa-destaques.jpg). Falta aplicar no Instagram: Lindson ou Thiago.",
-      "partes": [],
-      "pegou": "Leandro 15/11 17:01",
-      "atualizado": "15/11 17:01",
-      "recebido": "Leandro 16/11 01:36"
-    },
-    {
-      "id": "cad2-tribuna-31",
-      "cli": "tribuna",
-      "tarefa": "Verificar capas (se é viável fazer)",
-      "equipe": "Leandro",
-      "status": "travado",
-      "nota": "Viável e já feito: as 7 capas estão prontas (03/11). Falta subir no app do Instagram (só pelo celular, Lindson/Thiago).",
-      "partes": [],
-      "pegou": "Leandro 15/11 17:01",
-      "atualizado": "15/11 17:01",
-      "recebido": "Leandro 16/11 01:36"
-    },
-    {
-      "id": "cad2-leo-32",
-      "cli": "leo",
-      "tarefa": "Agendar os 10 motions",
-      "equipe": "Leandro",
-      "status": "travado",
-      "nota": "Os 10 motions estão prontos (5 aprovados + 5 aguardando). Agendar pede acesso ao Meta Business Suite do Leo (agendo pela extensão do Chrome) ou o Instagram do Leo conectado no Windsor.",
-      "partes": [],
-      "pegou": "Leandro 15/11 17:01",
-      "atualizado": "15/11 17:01",
-      "recebido": "Leandro 16/11 01:36"
-    },
-    {
-      "id": "cad2-leo-33",
-      "cli": "leo",
-      "tarefa": "Criar 10 posts",
-      "equipe": "Leandro",
-      "status": "aguardando aprovação",
-      "nota": "10 posts v17 (tipográficos, sem foto livre) no painel do Leo > Aprovações; artes em painel/leo/posts-v17/, fontes em agencia/clientes/leo-pinto/instagram-v17-posts/",
-      "partes": [
-        {
-          "p": "10 posts no padrão v13 v3 (situação)",
-          "status": "livre"
-        },
-        {
-          "p": "Legendas",
-          "status": "livre"
-        },
-        {
-          "p": "Subir no /painel/leo",
-          "status": "livre"
-        }
-      ],
-      "pegou": "Leandro 15/11 17:01",
-      "atualizado": "15/11 17:01",
-      "recebido": "Leandro 16/11 01:36"
-    },
-    {
-      "id": "cad2-leo-34",
-      "cli": "leo",
-      "tarefa": "Verificar agendamentos",
-      "equipe": "Leandro",
-      "status": "travado",
-      "nota": "Depende do mesmo acesso do cad2-leo-32 (Business Suite do Leo).",
-      "partes": [],
-      "pegou": "Leandro 15/11 17:01",
-      "atualizado": "15/11 17:01",
-      "recebido": "Leandro 16/11 01:36"
-    },
-    {
-      "id": "cad2-influencer-35",
-      "cli": "influencer",
-      "tarefa": "Criar ferramentas gratuitas que gerem tráfego gratuito",
-      "equipe": "Pedro",
-      "status": "livre",
-      "nota": "",
-      "partes": [],
-      "pegou": "",
-      "atualizado": "",
-      "recebido": "Pedro 15/11 22:37"
-    },
-    {
-      "id": "cad2-influencer-36",
-      "cli": "influencer",
-      "tarefa": "Fazer benchmarking",
-      "equipe": "Pedro",
-      "status": "livre",
-      "nota": "",
-      "partes": [],
-      "pegou": "",
-      "atualizado": "",
-      "recebido": "Pedro 15/11 22:37"
-    },
-    {
-      "id": "cad2-influencer-37",
-      "cli": "influencer",
-      "tarefa": "Definir nicho",
-      "equipe": "Pedro",
-      "status": "livre",
-      "nota": "",
-      "partes": [],
-      "pegou": "",
-      "atualizado": "",
-      "recebido": "Pedro 15/11 22:37"
-    },
-    {
-      "id": "cad2-influencer-38",
-      "cli": "influencer",
-      "tarefa": "Criar 3 nichos diferentes",
-      "equipe": "Pedro",
-      "status": "livre",
-      "nota": "",
-      "partes": [],
-      "pegou": "",
-      "atualizado": "",
-      "recebido": "Pedro 15/11 22:37"
-    },
-    {
-      "id": "cad2-samba-39",
-      "cli": "samba",
-      "tarefa": "Samba do Pinto: criar Reels",
-      "equipe": "Zuleide",
-      "status": "livre",
-      "nota": "",
-      "partes": [],
-      "pegou": "",
-      "atualizado": "",
-      "recebido": ""
-    },
-    {
-      "id": "cad2-samba-40",
-      "cli": "samba",
-      "tarefa": "Samba do Pinto: postar Reels",
-      "equipe": "Zuleide",
-      "status": "livre",
-      "nota": "",
-      "partes": [],
-      "pegou": "",
-      "atualizado": "",
-      "recebido": ""
-    },
-    {
-      "id": "esp-oregano-google",
-      "cli": "oregano",
-      "tarefa": "Orégano: escrever GOOGLE.md (Perfil da Empresa: Pizzaria, delivery, cardápio) no modelo de jaci-cunha/GOOGLE.md (guia agencia/especialista/google-meu-negocio)",
-      "equipe": "Zuleide",
-      "status": "aguardando aprovação",
-      "nota": "GOOGLE.md em agencia/operacao-propria/ (Agência de marketing, área atendida, sem preço) + painel Orégano Aprovações. Lindson clica no checklist.",
-      "partes": [],
-      "pegou": "Zuleide 15/11 21:04",
-      "atualizado": "15/11 21:06",
-      "recebido": ""
-    },
-    {
-      "id": "esp-oregano-seo",
-      "cli": "oregano",
-      "tarefa": "Orégano: sitemap, robots e dados estruturados Restaurant+Menu no site oreganoturbo (guia agencia/especialista/seo)",
-      "equipe": "Zuleide",
-      "status": "feito",
-      "nota": "canonical, og:url/type/locale, twitter card, JSON-LD Organization+ProfessionalService+LocalBusiness (areaServed São Luís, Instagram, WhatsApp) + FAQPage (6), sitemap com lastmod. Sem mudança visual. Falta: enviar sitemap no Search Console.",
-      "partes": [],
-      "pegou": "Zuleide 15/11 19:04",
-      "atualizado": "15/11 19:05",
-      "recebido": ""
-    },
-    {
-      "id": "esp-sf-whatsapp",
-      "cli": "sf",
-      "tarefa": "SF: 8 respostas rápidas de urgência + cadência de retorno dia 1 e 3 para orçamento não fechado (guias venda-whatsapp e automacao-vendas)",
-      "equipe": "Leandro",
-      "status": "aguardando aprovação",
-      "nota": "[redistribuído de Pedro em 16/11 22:08: equipe sem atividade] · Feito: agencia/clientes/desentupidora-sf/whatsapp/WHATSAPP.md + PDF; na Central em painel/sf/arquivos/whatsapp-sf.pdf (Entregas, aguardando)",
-      "partes": [],
-      "pegou": "Leandro 16/11 22:08",
-      "atualizado": "Leandro 16/11 22:40",
-      "recebido": "Leandro 16/11 01:36"
-    },
-    {
-      "id": "esp-sf-ranking",
-      "cli": "sf",
-      "tarefa": "SF: primeiro relatório Search Console (Páginas/Desempenho) e lista de ajustes (guia ranqueamento-sites)",
-      "equipe": "Leandro",
-      "status": "aguardando aprovação",
-      "nota": "agencia/clientes/desentupidora-sf/RANQUEAMENTO-01.md; ajustes 3-5 no ar; falta acesso ao Search Console",
-      "partes": [],
-      "pegou": "Leandro 16/11 23:05",
-      "atualizado": "",
-      "recebido": "Leandro 16/11 01:36"
-    },
-    {
-      "id": "esp-jaci-whatsapp",
-      "cli": "jaci",
-      "tarefa": "Jaci: 8 respostas rápidas no tom CFO + mensagens D-1 e pós-consulta pedindo avaliação (guias venda-whatsapp e automacao-vendas)",
-      "equipe": "Leandro",
-      "status": "aguardando aprovação",
-      "nota": "[redistribuído de Lindson em 16/11 22:08: equipe sem atividade] · Feito: agencia/clientes/jaci-cunha/whatsapp/WHATSAPP.md + PDF; na Central em painel/jaci/arquivos/whatsapp-jaci.pdf (Entregas, aguardando)",
-      "partes": [],
-      "pegou": "Leandro 16/11 22:08",
-      "atualizado": "Leandro 16/11 22:40",
-      "recebido": "Leandro 16/11 01:36"
-    },
-    {
-      "id": "esp-wf-google",
-      "cli": "wf",
-      "tarefa": "WF Celulares: escrever GOOGLE.md (Loja de celulares + Assistência técnica) e resposta rápida de orçamento",
-      "equipe": "Leandro",
-      "status": "travado",
-      "nota": "GOOGLE.md pronto; falta Gmail do dono, endereços, horários, fotos e vídeo de verificação (Lindson: fazer depois)",
-      "partes": [],
-      "pegou": "",
-      "atualizado": "",
-      "recebido": "Leandro 16/11 01:36"
-    },
-    {
-      "id": "esp-tribuna-google",
-      "cli": "tribuna",
-      "tarefa": "Tribuna 98: textos do Perfil da Empresa (Estação de rádio) e title próprio nas páginas de programa",
-      "equipe": "Leandro",
-      "status": "travado",
-      "nota": "GOOGLE.md pronto (agencia/clientes/tribuna98/GOOGLE.md, privado painel/tribuna/google.html): categoria, descrição 699 car., serviços, posts, respostas, titles SEO. As 5 páginas do site já têm title próprio; não há páginas de programa. Falta Lindson: confirmar se é rádio de verdade, criar/verificar a ficha e liberar repo tribuna98.",
-      "partes": [],
-      "pegou": "Leandro 15/11 18:08",
-      "atualizado": "Leandro 15/11 21:14",
-      "recebido": "Leandro 16/11 01:36"
-    },
-    {
-      "id": "wf-1511-video",
-      "cli": "wf",
-      "tarefa": "Novos criativos de vídeo para a campanha nova (pedido do Lindson 15/11)",
-      "equipe": "Pedro",
-      "status": "aguardando aprovação",
-      "nota": "5 vídeos em painel/wf/criativos-1511 (aba Aprovações)",
-      "partes": [],
-      "pegou": "Pedro 15/11 20:11",
-      "atualizado": "Pedro 15/11 20:21",
-      "recebido": ""
-    },
-    {
-      "id": "wf-1511-capas",
-      "cli": "wf",
-      "tarefa": "Capas dos Reels já postados",
-      "equipe": "Pedro",
-      "status": "aguardando aprovação",
-      "nota": "6 capas em painel/wf/capas-reels; confirmar quais Reels estão postados",
-      "partes": [],
-      "pegou": "Pedro 15/11 20:11",
-      "atualizado": "Pedro 15/11 20:21",
-      "recebido": ""
-    },
-    {
-      "id": "designer-alkantara-studio",
-      "cli": "designer",
-      "tarefa": "Projeto Designer vira AL KÁNTARA STUDIO (divisão do Al Kántara Group, decisão do Lindson 16/11): trocar nome, logo e paleta da v2 (cases Behance, 30 pins, página de venda, proposta, anúncio) pela identidade de agencia/marca-holding/ (logo da divisão Studio). Subir no painel admin-rede/projeto-designer/v3 e marcar aguardando aprovação.",
-      "equipe": "Leandro",
-      "status": "feito",
-      "nota": "Nome trocado para BARZAKH (pedido do Lindson). Branding completo + v3 + marketing/vendas em agencia/marca-lindson/projeto-designer/v3/ e painel admin-rede/projeto-designer (abre na v3). · APROVADO pelo Lindson 16/11 (book v2 e manual v2).",
-      "partes": [],
-      "pegou": "Leandro",
-      "recebido": "16/11",
-      "atualizado": "16/11/2026"
-    },
-    {
-      "id": "barzakh-feed",
-      "cli": "designer",
-      "tarefa": "Estratégia de feed Barzakh (Instagram @barzakhstudio): harmônico, impactante, posts prontos",
-      "equipe": "Leandro",
-      "status": "andamento",
-      "nota": "",
-      "partes": [],
-      "pegou": "Leandro",
-      "recebido": "16/11",
-      "atualizado": "16/11/2026"
+ "versao": 1,
+ "atualizado": "15/11/2026",
+ "coordenador": "Leandro",
+ "regra": "Cada equipe pega só os itens com equipe = o próprio nome (ou \"qualquer\"). Ao pegar: status andamento + pegou. Ao terminar: status feito + nota (onde está). Itens grandes têm partes: pegue parte por parte.",
+ "itens": [
+  {
+   "id": "cad-raposa-2",
+   "cli": "raposa",
+   "tarefa": "Postar todos os longos",
+   "equipe": "Leandro",
+   "status": "travado",
+   "nota": "Longos prontos (01-21) no app de postagem; postar no YouTube pede o acesso do Lindson ao canal (ou Metricool).",
+   "partes": [],
+   "pegou": "",
+   "atualizado": "15/11 20:08",
+   "recebido": "Leandro 16/11 01:36"
+  },
+  {
+   "id": "cad-raposa-4",
+   "cli": "raposa",
+   "tarefa": "Agendar Shorts",
+   "equipe": "Leandro",
+   "status": "travado",
+   "nota": "Shorts 01-40 prontos com agenda no app e kit Instagram/TikTok; agendar pede o acesso do Lindson (YouTube Studio/Metricool).",
+   "partes": [],
+   "pegou": "",
+   "atualizado": "15/11 20:08",
+   "recebido": "Leandro 16/11 01:36"
+  },
+  {
+   "id": "cad-raposa-5",
+   "cli": "raposa",
+   "tarefa": "Alimentar Insta",
+   "equipe": "Leandro",
+   "status": "travado",
+   "nota": "Kit pronto: 40 legendas Instagram (SEO) + agenda 2/dia 16-30/11 + bio e destaques em conteudo/youtube/raposa-e-leao/redes-sociais/ e privado painel/canais/raposa/postagens-instagram-tiktok.html. Falta Lindson: criar/confirmar @raposaeleao no Instagram e logar no Metricool ou postar pelo celular.",
+   "partes": [],
+   "pegou": "Leandro 15/11 18:08",
+   "atualizado": "Leandro 15/11 21:14",
+   "recebido": "Leandro 16/11 01:36"
+  },
+  {
+   "id": "cad-raposa-6",
+   "cli": "raposa",
+   "tarefa": "Alimentar TikTok",
+   "equipe": "Leandro",
+   "status": "travado",
+   "nota": "Kit pronto: 40 legendas TikTok + agenda na mesma página (postagens-instagram-tiktok.html). Falta Lindson: criar/confirmar @raposaeleao no TikTok e postar/agendar.",
+   "partes": [],
+   "pegou": "Leandro 15/11 18:08",
+   "atualizado": "Leandro 15/11 21:14",
+   "recebido": "Leandro 16/11 01:36"
+  },
+  {
+   "id": "cad-passaporte-8",
+   "cli": "passaporte",
+   "tarefa": "Organizar Insta",
+   "equipe": "Zuleide",
+   "status": "aguardando aprovação",
+   "nota": "Bio, 6 destaques (Shorts novo), 3 fixados, feed e checklist em conteudo/youtube/passaporte/instagram/ e painel/canais/passaporte/instagram/. Lindson aplica no app.",
+   "partes": [],
+   "pegou": "Zuleide 15/11 19:04",
+   "atualizado": "15/11 19:05",
+   "recebido": ""
+  },
+  {
+   "id": "cad-passaporte-9",
+   "cli": "passaporte",
+   "tarefa": "Organizar TikTok",
+   "equipe": "Zuleide",
+   "status": "aguardando aprovação",
+   "nota": "conteudo/youtube/passaporte/tiktok/README.md + painel/canais/passaporte/tiktok/. Lindson aplica no app.",
+   "partes": [],
+   "pegou": "Zuleide 15/11 21:04",
+   "atualizado": "15/11 21:06",
+   "recebido": ""
+  },
+  {
+   "id": "cad-passaporte-10",
+   "cli": "passaporte",
+   "tarefa": "Postar vídeos longos",
+   "equipe": "Zuleide",
+   "status": "andamento",
+   "nota": "Longos 01-09 postados; 10-12 renderizando (Zuleide/Peter), publicar após OK do Lindson",
+   "partes": [],
+   "pegou": "Zuleide 15/11 16:58",
+   "atualizado": "15/11 16:58",
+   "recebido": ""
+  },
+  {
+   "id": "cad-passaporte-11",
+   "cli": "passaporte",
+   "tarefa": "Criar produto digital na Hubla",
+   "equipe": "Zuleide",
+   "status": "andamento",
+   "nota": "",
+   "partes": [],
+   "pegou": "",
+   "atualizado": "",
+   "recebido": "",
+   "conta": "Zuleide",
+   "inicio": "2026-11-16 01:03"
+  },
+  {
+   "id": "cad-marca-12",
+   "cli": "marca",
+   "tarefa": "Estudar cursos que comprei",
+   "equipe": "Lindson (dono)",
+   "status": "livre",
+   "nota": "",
+   "partes": [],
+   "pegou": "",
+   "atualizado": "",
+   "recebido": ""
+  },
+  {
+   "id": "cad-marca-14",
+   "cli": "marca",
+   "tarefa": "Projeto VEKTOR",
+   "equipe": "qualquer",
+   "status": "livre",
+   "nota": "",
+   "partes": [],
+   "pegou": "",
+   "atualizado": "",
+   "recebido": ""
+  },
+  {
+   "id": "cad-marca-15",
+   "cli": "marca",
+   "tarefa": "Projeto Dublê",
+   "equipe": "qualquer",
+   "status": "livre",
+   "nota": "",
+   "partes": [],
+   "pegou": "",
+   "atualizado": "",
+   "recebido": ""
+  },
+  {
+   "id": "cad-marca-16",
+   "cli": "marca",
+   "tarefa": "Raio-X: Felipe Bormine (cliente da call; falta o @)",
+   "equipe": "Leandro",
+   "status": "travado",
+   "nota": "Falta o @ do Instagram do Felipe Bormine.",
+   "partes": [],
+   "pegou": "",
+   "atualizado": "15/11 20:08",
+   "recebido": "Leandro 16/11 01:36"
+  },
+  {
+   "id": "cad-marca-17",
+   "cli": "marca",
+   "tarefa": "Raio-X: Marcos 100 Limites (cliente da call; falta o @)",
+   "equipe": "Leandro",
+   "status": "travado",
+   "nota": "Falta o @ do Instagram do Marcos 100 Limites.",
+   "partes": [],
+   "pegou": "",
+   "atualizado": "15/11 20:08",
+   "recebido": "Leandro 16/11 01:36"
+  },
+  {
+   "id": "cad-oregano-20",
+   "cli": "oregano",
+   "tarefa": "30 postagens = 30 Reels (confirmado 15/11; 21 da semana 1 prontos, faltam 9)",
+   "equipe": "Zuleide",
+   "status": "aguardando aprovação",
+   "nota": "9 Reels OT-22..30 (6 conteúdo/3 venda; total 30 = 21/9) com roteiro, capa, legenda SEO e vídeo; no /painel/oregano em Aprovações \"aguardando\". Fotos Pexels novas (18). Pasta agencia/operacao-propria/reels/semana-2 (mp4 fora do Git).",
+   "partes": [
+    {
+     "p": "Roteiros dos 9 Reels que faltam (70% conteúdo/30% venda)",
+     "status": "feito"
+    },
+    {
+     "p": "Produção e voz",
+     "status": "feito"
+    },
+    {
+     "p": "Capas, legendas SEO e título Shorts",
+     "status": "feito"
+    },
+    {
+     "p": "Subir em Postagens prontas do /painel/oregano",
+     "status": "feito"
     }
-  ]
+   ],
+   "pegou": "Zuleide 15/11 17:04",
+   "atualizado": "15/11 17:54",
+   "recebido": ""
+  },
+  {
+   "id": "cad-oregano-21",
+   "cli": "oregano",
+   "tarefa": "SDR (no sistema)",
+   "equipe": "Zuleide",
+   "status": "feito",
+   "nota": "Zuleide 15/11 (SDR no painel)",
+   "partes": [],
+   "pegou": "",
+   "atualizado": "",
+   "recebido": ""
+  },
+  {
+   "id": "cad-oregano-22",
+   "cli": "oregano",
+   "tarefa": "Campanha de tráfego",
+   "equipe": "Pedro",
+   "status": "travado",
+   "nota": "Estratégia pronta em agencia/operacao-propria/trafego/. Falta acesso à conta de anúncios Meta, Pixel ID, verba e link do WhatsApp Business.",
+   "partes": [
+    {
+     "p": "Campanha na Meta com os 10 criativos v2 aprovados (públicos e verba da estratégia de tráfego)",
+     "status": "livre"
+    },
+    {
+     "p": "Rastreamento (pixel/WhatsApp) e planilha de teste",
+     "status": "livre"
+    },
+    {
+     "p": "Relatório de 3 dias",
+     "status": "livre"
+    }
+   ],
+   "pegou": "",
+   "atualizado": "15/11 16:58",
+   "recebido": "Pedro 15/11 22:37"
+  },
+  {
+   "id": "cad-oregano-23",
+   "cli": "oregano",
+   "tarefa": "10 criativos de alta conversão",
+   "equipe": "Zuleide",
+   "status": "feito",
+   "nota": "Leandro 15/11 (10 criativos v2 aprovados)",
+   "partes": [],
+   "pegou": "",
+   "atualizado": "",
+   "recebido": ""
+  },
+  {
+   "id": "cad-oregano-24",
+   "cli": "oregano",
+   "tarefa": "Canal no YouTube",
+   "equipe": "Zuleide",
+   "status": "aguardando aprovação",
+   "nota": "Kit YouTube v2 na identidade do Instagram entregue 15/11 (Zuleide)",
+   "partes": [
+    {
+     "p": "Postar o kit do canal (banner, perfil, descrição)",
+     "status": "livre"
+    },
+    {
+     "p": "Subir os 21 Reels como Shorts com título e legenda SEO",
+     "status": "livre"
+    }
+   ],
+   "pegou": "",
+   "atualizado": "",
+   "recebido": ""
+  },
+  {
+   "id": "cad-oregano-25",
+   "cli": "oregano",
+   "tarefa": "TikTok",
+   "equipe": "Zuleide",
+   "status": "aguardando aprovação",
+   "nota": "agencia/operacao-propria/tiktok/ (PERFIL.md, LEGENDAS-TIKTOK.md) + painel /painel/oregano Aprovações (22 cartões TikTok)",
+   "partes": [
+    {
+     "p": "Criar perfil TikTok",
+     "status": "livre"
+    },
+    {
+     "p": "Adaptar os 21 Reels (legenda curta + hashtags TikTok)",
+     "status": "livre"
+    }
+   ],
+   "pegou": "Zuleide 15/11 16:58",
+   "atualizado": "15/11 16:58",
+   "recebido": ""
+  },
+  {
+   "id": "cad-designer-26",
+   "cli": "designer",
+   "tarefa": "Behance",
+   "equipe": "Leandro",
+   "status": "aguardando aprovação",
+   "nota": "v2 premium entregue 15/11 23:38 (Leandro): mockups 3D, 6 cases Behance, 30 pins + 3 vídeos, oferta nova. Em agencia/marca-lindson/projeto-designer/v2/ e painel admin-rede/projeto-designer/v2/. Aguardando aprovação do Lindson.",
+   "partes": [
+    {
+     "p": "Montar perfil Behance",
+     "status": "feito"
+    },
+    {
+     "p": "5 projetos de case (identidades aprovadas)",
+     "status": "feito"
+    },
+    {
+     "p": "Publicar",
+     "status": "travado (login do Lindson)"
+    }
+   ],
+   "pegou": "Leandro 16/11 22:46",
+   "atualizado": "Leandro 15/11 23:38",
+   "recebido": "Leandro 16/11 01:36"
+  },
+  {
+   "id": "cad-designer-27",
+   "cli": "designer",
+   "tarefa": "Pinterest",
+   "equipe": "Leandro",
+   "status": "aguardando aprovação",
+   "nota": "v2 premium entregue 15/11 23:38 (Leandro): mockups 3D, 6 cases Behance, 30 pins + 3 vídeos, oferta nova. Em agencia/marca-lindson/projeto-designer/v2/ e painel admin-rede/projeto-designer/v2/. Aguardando aprovação do Lindson.",
+   "partes": [
+    {
+     "p": "Perfil e 6 pastas com descrição SEO (nome do projeto em agencia/marca-lindson/projeto-designer/)",
+     "status": "feito (Pedro 16/11)"
+    },
+    {
+     "p": "30 pins 1000x1500 a partir dos cases do Behance (pasta projeto-designer/behance/)",
+     "status": "feito (Pedro 16/11)"
+    }
+   ],
+   "pegou": "Leandro 16/11 22:46",
+   "atualizado": "Leandro 15/11 23:38",
+   "recebido": "Pedro 15/11 22:37"
+  },
+  {
+   "id": "cad-designer-28",
+   "cli": "designer",
+   "tarefa": "LinkedIn",
+   "equipe": "Zuleide",
+   "status": "aguardando aprovação",
+   "nota": "[dividido pelo coordenador em 16/11 22:30: LinkedIn com a Zuleide] Entregue: agencia/marca-lindson/linkedin/ + painel admin-rede/projeto-designer (LinkedIn).",
+   "partes": [
+    {
+     "p": "Textos do perfil pessoal e da página do estúdio (título, sobre, experiência, serviços)",
+     "status": "feito"
+    },
+    {
+     "p": "Banner 1584x396 e 10 posts (carrossel/imagem + texto) com os cases",
+     "status": "feito"
+    }
+   ],
+   "pegou": "Zuleide 16/11",
+   "atualizado": "Zuleide 16/11",
+   "recebido": "Zuleide 16/11",
+   "conta": "Zuleide",
+   "inicio": "2026-11-15 23:03"
+  },
+  {
+   "id": "cad-designer-29",
+   "cli": "designer",
+   "tarefa": "Vender identidade visual",
+   "equipe": "Leandro",
+   "status": "aguardando aprovação",
+   "nota": "v2 premium entregue 15/11 23:38 (Leandro): mockups 3D, 6 cases Behance, 30 pins + 3 vídeos, oferta nova. Em agencia/marca-lindson/projeto-designer/v2/ e painel admin-rede/projeto-designer/v2/. Aguardando aprovação do Lindson.",
+   "partes": [],
+   "pegou": "Leandro 16/11 22:46",
+   "atualizado": "Leandro 15/11 23:38",
+   "recebido": "Leandro 16/11 01:36"
+  },
+  {
+   "id": "cad-sf-34",
+   "cli": "sf",
+   "tarefa": "Configurar Google Meu Negócio",
+   "equipe": "Pedro",
+   "status": "livre",
+   "nota": "",
+   "partes": [],
+   "pegou": "",
+   "atualizado": "",
+   "recebido": "Pedro 15/11 22:37"
+  },
+  {
+   "id": "cad-sf-35",
+   "cli": "sf",
+   "tarefa": "Testar criativos",
+   "equipe": "Pedro",
+   "status": "livre",
+   "nota": "",
+   "partes": [],
+   "pegou": "",
+   "atualizado": "",
+   "recebido": "Pedro 15/11 22:37"
+  },
+  {
+   "id": "cad2-jaci-1",
+   "cli": "jaci",
+   "tarefa": "Google Meu Negócio",
+   "equipe": "Lindson",
+   "status": "travado",
+   "nota": "Kit pronto (ficha, 8 posts, 10 perguntas, respostas, pedido de avaliação): agencia/clientes/jaci-cunha/google-kit/ e painel Jaci > Entregas. Falta o Lindson: criar/reivindicar a ficha em business.google.com com os textos do kit, dados da clínica (horário, nº/CEP, fotos) e verificação por vídeo.",
+   "partes": [],
+   "pegou": "Lindson 15/11 22:38",
+   "atualizado": "Lindson 15/11 23:10",
+   "recebido": "Lindson 15/11 22:38"
+  },
+  {
+   "id": "cad2-jaci-2",
+   "cli": "jaci",
+   "tarefa": "3 stories automáticos por dia",
+   "equipe": "Lindson",
+   "status": "livre",
+   "nota": "Parte 1 feita: roteiro de 90 stories (77 automáticos) em agencia/clientes/jaci-cunha/stories-automaticos/ (stories.json, ROTEIRO.md) e PDF no painel Jaci > Entregas. Próximo: parte 2 (artes 1080x1920 a partir de stories.json, composições dos destaques instagram-destaques/), depois parte 3 (agendar).",
+   "partes": [
+    {
+     "p": "Roteiro de 3 stories/dia por 30 dias (CFO)",
+     "status": "feito"
+    },
+    {
+     "p": "Artes",
+     "status": "livre"
+    },
+    {
+     "p": "Agenda automática",
+     "status": "livre"
+    }
+   ],
+   "pegou": "Lindson 15/11 23:15",
+   "atualizado": "Lindson 15/11 23:40",
+   "recebido": "Lindson 15/11 22:38"
+  },
+  {
+   "id": "cad2-jaci-3",
+   "cli": "jaci",
+   "tarefa": "Mensagem automática para clientes do CRM",
+   "equipe": "Lindson",
+   "status": "livre",
+   "nota": "",
+   "partes": [],
+   "pegou": "",
+   "atualizado": "",
+   "recebido": "Lindson 15/11 22:38"
+  },
+  {
+   "id": "cad2-wf-4",
+   "cli": "wf",
+   "tarefa": "Postar artes de venda",
+   "equipe": "Lindson",
+   "status": "livre",
+   "nota": "",
+   "partes": [],
+   "pegou": "",
+   "atualizado": "",
+   "recebido": "Lindson 15/11 22:38"
+  },
+  {
+   "id": "cad2-rt-5",
+   "cli": "rt",
+   "tarefa": "Campanha de tráfego",
+   "equipe": "Pedro",
+   "status": "aguardando aprovação",
+   "nota": "agencia/clientes/rt-full-jobs/trafego/ + /painel/rt/trafego/ (APROV do painel rt)",
+   "partes": [],
+   "pegou": "Pedro 15/11 16:58",
+   "atualizado": "15/11 17:01",
+   "recebido": ""
+  },
+  {
+   "id": "cad2-rt-6",
+   "cli": "rt",
+   "tarefa": "Fotos dos novos produtos",
+   "equipe": "Lindson (dono)",
+   "status": "livre",
+   "nota": "",
+   "partes": [],
+   "pegou": "",
+   "atualizado": "",
+   "recebido": ""
+  },
+  {
+   "id": "cad2-rt-7",
+   "cli": "rt",
+   "tarefa": "Criar 10 posts",
+   "equipe": "Lindson",
+   "status": "livre",
+   "nota": "",
+   "partes": [
+    {
+     "p": "10 posts na identidade da Real Time",
+     "status": "livre"
+    },
+    {
+     "p": "Legendas SEO",
+     "status": "livre"
+    },
+    {
+     "p": "Subir em Aprovações do /painel/rt",
+     "status": "livre"
+    }
+   ],
+   "pegou": "",
+   "atualizado": "",
+   "recebido": "Lindson 15/11 22:38"
+  },
+  {
+   "id": "cad2-rt-8",
+   "cli": "rt",
+   "tarefa": "Agendar 10 artes",
+   "equipe": "Lindson",
+   "status": "livre",
+   "nota": "",
+   "partes": [],
+   "pegou": "",
+   "atualizado": "",
+   "recebido": "Lindson 15/11 22:38"
+  },
+  {
+   "id": "cad2-tecnologia-9",
+   "cli": "tecnologia",
+   "tarefa": "Grupo de tecnologia: automação do Instagram",
+   "equipe": "Lindson",
+   "status": "livre",
+   "nota": "",
+   "partes": [],
+   "pegou": "",
+   "atualizado": "",
+   "recebido": "Lindson 15/11 22:38"
+  },
+  {
+   "id": "cad2-marca-10",
+   "cli": "marca",
+   "tarefa": "Ser especialista em Google Meu Negócio",
+   "equipe": "qualquer",
+   "status": "feito",
+   "nota": "Guia em agencia/especialista/<tema>/README.md; PDF resumo em /painel/admin-rede/especialista/",
+   "partes": [],
+   "pegou": "Leandro 15/11 17:02",
+   "atualizado": "Leandro 15/11 17:07",
+   "recebido": ""
+  },
+  {
+   "id": "cad2-marca-11",
+   "cli": "marca",
+   "tarefa": "Ser especialista em SEO",
+   "equipe": "qualquer",
+   "status": "feito",
+   "nota": "Guia em agencia/especialista/<tema>/README.md; PDF resumo em /painel/admin-rede/especialista/",
+   "partes": [],
+   "pegou": "Leandro 15/11 17:02",
+   "atualizado": "Leandro 15/11 17:07",
+   "recebido": ""
+  },
+  {
+   "id": "cad2-marca-12",
+   "cli": "marca",
+   "tarefa": "Ser especialista em venda pelo WhatsApp",
+   "equipe": "qualquer",
+   "status": "feito",
+   "nota": "Guia em agencia/especialista/<tema>/README.md; PDF resumo em /painel/admin-rede/especialista/",
+   "partes": [],
+   "pegou": "Leandro 15/11 17:02",
+   "atualizado": "Leandro 15/11 17:07",
+   "recebido": ""
+  },
+  {
+   "id": "cad2-marca-13",
+   "cli": "marca",
+   "tarefa": "Ser especialista em automação de vendas",
+   "equipe": "qualquer",
+   "status": "feito",
+   "nota": "Guia em agencia/especialista/<tema>/README.md; PDF resumo em /painel/admin-rede/especialista/",
+   "partes": [],
+   "pegou": "Leandro 15/11 17:02",
+   "atualizado": "Leandro 15/11 17:07",
+   "recebido": ""
+  },
+  {
+   "id": "cad2-marca-14",
+   "cli": "marca",
+   "tarefa": "Ser especialista em Meta para negócios locais",
+   "equipe": "qualquer",
+   "status": "feito",
+   "nota": "Guia em agencia/especialista/<tema>/README.md; PDF resumo em /painel/admin-rede/especialista/",
+   "partes": [],
+   "pegou": "Leandro 15/11 17:02",
+   "atualizado": "Leandro 15/11 17:07",
+   "recebido": ""
+  },
+  {
+   "id": "cad2-marca-15",
+   "cli": "marca",
+   "tarefa": "Ser especialista em ranqueamento de sites",
+   "equipe": "qualquer",
+   "status": "feito",
+   "nota": "Guia em agencia/especialista/<tema>/README.md; PDF resumo em /painel/admin-rede/especialista/",
+   "partes": [],
+   "pegou": "Leandro 15/11 17:02",
+   "atualizado": "Leandro 15/11 17:07",
+   "recebido": ""
+  },
+  {
+   "id": "cad2-sf-16",
+   "cli": "sf",
+   "tarefa": "Reorganizar site",
+   "equipe": "Pedro",
+   "status": "aguardando aprovação",
+   "nota": "Site no ar: urgência/WhatsApp primeiro, vaso-ralo-caixa de gordura, prova, área atendida (Pedro 16/11)",
+   "partes": [],
+   "pegou": "Pedro",
+   "atualizado": "2026-11-16",
+   "recebido": "Pedro 15/11 22:37"
+  },
+  {
+   "id": "cad2-sf-17",
+   "cli": "sf",
+   "tarefa": "Criar 04 criativos",
+   "equipe": "Pedro",
+   "status": "aguardando aprovação",
+   "nota": "4 criativos feed+story no painel /painel/sf aba Aprovações (Pedro 16/11)",
+   "partes": [],
+   "pegou": "Pedro",
+   "atualizado": "2026-11-16",
+   "recebido": "Pedro 15/11 22:37"
+  },
+  {
+   "id": "cad2-robo-whats-18",
+   "cli": "robo-whats",
+   "tarefa": "Robô do WhatsApp: criar identidade visual",
+   "equipe": "Lindson",
+   "status": "livre",
+   "nota": "",
+   "partes": [],
+   "pegou": "",
+   "atualizado": "",
+   "recebido": "Lindson 15/11 22:38"
+  },
+  {
+   "id": "cad2-robo-whats-19",
+   "cli": "robo-whats",
+   "tarefa": "Montar grupo de tecnologia (Insta)",
+   "equipe": "Lindson",
+   "status": "livre",
+   "nota": "",
+   "partes": [],
+   "pegou": "",
+   "atualizado": "",
+   "recebido": "Lindson 15/11 22:38"
+  },
+  {
+   "id": "cad2-curso-20",
+   "cli": "curso",
+   "tarefa": "Subir sites no Google",
+   "equipe": "Lindson",
+   "status": "livre",
+   "nota": "",
+   "partes": [],
+   "pegou": "",
+   "atualizado": "",
+   "recebido": "Lindson 15/11 22:38"
+  },
+  {
+   "id": "cad2-curso-21",
+   "cli": "curso",
+   "tarefa": "Insta com I.A.",
+   "equipe": "Lindson",
+   "status": "livre",
+   "nota": "",
+   "partes": [],
+   "pegou": "",
+   "atualizado": "",
+   "recebido": "Lindson 15/11 22:38"
+  },
+  {
+   "id": "cad2-pagode-22",
+   "cli": "pagode",
+   "tarefa": "Pagode notícias",
+   "equipe": "Zuleide",
+   "status": "aguardando aprovação",
+   "nota": "",
+   "partes": [],
+   "pegou": "Zuleide",
+   "atualizado": "",
+   "recebido": "",
+   "conta": "Zuleide",
+   "inicio": "2026-11-16 05:05",
+   "entrega": "agencia/clientes/pagode-fiado/noticias-v1/ (Zuleide 16/11)"
+  },
+  {
+   "id": "cad2-pagode-23",
+   "cli": "pagode",
+   "tarefa": "Pagode frases",
+   "equipe": "Zuleide",
+   "status": "aguardando aprovação",
+   "nota": "15 artes de frase + legendas + calendário em agencia/clientes/pagode-fiado/frases-v1/; painel do Pagode na Central ainda não existe (arquivos em painel/pagode/frases-v1 no privado)",
+   "partes": [],
+   "pegou": "",
+   "atualizado": "2026-11-16 06:40",
+   "recebido": "",
+   "conta": "Zuleide",
+   "inicio": "2026-11-16 03:04"
+  },
+  {
+   "id": "cad2-pagode-24",
+   "cli": "pagode",
+   "tarefa": "Playlist com cantores famosos",
+   "equipe": "Zuleide",
+   "status": "livre",
+   "nota": "",
+   "partes": [],
+   "pegou": "",
+   "atualizado": "",
+   "recebido": ""
+  },
+  {
+   "id": "cad2-pagode-25",
+   "cli": "pagode",
+   "tarefa": "Postar 10 Shorts",
+   "equipe": "Zuleide",
+   "status": "livre",
+   "nota": "",
+   "partes": [],
+   "pegou": "",
+   "atualizado": "",
+   "recebido": ""
+  },
+  {
+   "id": "cad2-pagode-26",
+   "cli": "pagode",
+   "tarefa": "Postar 10 Reels",
+   "equipe": "Zuleide",
+   "status": "livre",
+   "nota": "",
+   "partes": [],
+   "pegou": "",
+   "atualizado": "",
+   "recebido": ""
+  },
+  {
+   "id": "cad2-pagode-27",
+   "cli": "pagode",
+   "tarefa": "Postar 10 TikTok",
+   "equipe": "Zuleide",
+   "status": "livre",
+   "nota": "",
+   "partes": [],
+   "pegou": "",
+   "atualizado": "",
+   "recebido": ""
+  },
+  {
+   "id": "cad2-tribuna-28",
+   "cli": "tribuna",
+   "tarefa": "Organizar nome",
+   "equipe": "Leandro",
+   "status": "travado",
+   "nota": "Nome e bio já prontos desde 03/11 (agencia/clientes/tribuna98/instagram-perfil/BIO.md: \"Tribuna 98 | Política do Maranhão\" + bio de 142 caracteres + link tribuna98.pages.dev). Falta só aplicar no app do Instagram: precisa do Lindson ou do Thiago (senha do @tribuna98_).",
+   "partes": [],
+   "pegou": "Leandro 15/11 16:59",
+   "atualizado": "15/11 17:00",
+   "recebido": "Leandro 16/11 01:36"
+  },
+  {
+   "id": "cad2-tribuna-29",
+   "cli": "tribuna",
+   "tarefa": "Organizar bio",
+   "equipe": "Leandro",
+   "status": "travado",
+   "nota": "Nome e bio já prontos desde 03/11 (agencia/clientes/tribuna98/instagram-perfil/BIO.md: \"Tribuna 98 | Política do Maranhão\" + bio de 142 caracteres + link tribuna98.pages.dev). Falta só aplicar no app do Instagram: precisa do Lindson ou do Thiago (senha do @tribuna98_).",
+   "partes": [],
+   "pegou": "Leandro 15/11 16:59",
+   "atualizado": "15/11 17:00",
+   "recebido": "Leandro 16/11 01:36"
+  },
+  {
+   "id": "cad2-tribuna-30",
+   "cli": "tribuna",
+   "tarefa": "Verificar destaques",
+   "equipe": "Leandro",
+   "status": "travado",
+   "nota": "7 capas de destaque já prontas desde 03/11 (tribuna98/instagram-perfil/capa-01..07, previa-destaques.jpg). Falta aplicar no Instagram: Lindson ou Thiago.",
+   "partes": [],
+   "pegou": "Leandro 15/11 17:01",
+   "atualizado": "15/11 17:01",
+   "recebido": "Leandro 16/11 01:36"
+  },
+  {
+   "id": "cad2-tribuna-31",
+   "cli": "tribuna",
+   "tarefa": "Verificar capas (se é viável fazer)",
+   "equipe": "Leandro",
+   "status": "travado",
+   "nota": "Viável e já feito: as 7 capas estão prontas (03/11). Falta subir no app do Instagram (só pelo celular, Lindson/Thiago).",
+   "partes": [],
+   "pegou": "Leandro 15/11 17:01",
+   "atualizado": "15/11 17:01",
+   "recebido": "Leandro 16/11 01:36"
+  },
+  {
+   "id": "cad2-leo-32",
+   "cli": "leo",
+   "tarefa": "Agendar os 10 motions",
+   "equipe": "Leandro",
+   "status": "travado",
+   "nota": "Os 10 motions estão prontos (5 aprovados + 5 aguardando). Agendar pede acesso ao Meta Business Suite do Leo (agendo pela extensão do Chrome) ou o Instagram do Leo conectado no Windsor.",
+   "partes": [],
+   "pegou": "Leandro 15/11 17:01",
+   "atualizado": "15/11 17:01",
+   "recebido": "Leandro 16/11 01:36"
+  },
+  {
+   "id": "cad2-leo-33",
+   "cli": "leo",
+   "tarefa": "Criar 10 posts",
+   "equipe": "Leandro",
+   "status": "aguardando aprovação",
+   "nota": "10 posts v17 (tipográficos, sem foto livre) no painel do Leo > Aprovações; artes em painel/leo/posts-v17/, fontes em agencia/clientes/leo-pinto/instagram-v17-posts/",
+   "partes": [
+    {
+     "p": "10 posts no padrão v13 v3 (situação)",
+     "status": "livre"
+    },
+    {
+     "p": "Legendas",
+     "status": "livre"
+    },
+    {
+     "p": "Subir no /painel/leo",
+     "status": "livre"
+    }
+   ],
+   "pegou": "Leandro 15/11 17:01",
+   "atualizado": "15/11 17:01",
+   "recebido": "Leandro 16/11 01:36"
+  },
+  {
+   "id": "cad2-leo-34",
+   "cli": "leo",
+   "tarefa": "Verificar agendamentos",
+   "equipe": "Leandro",
+   "status": "travado",
+   "nota": "Depende do mesmo acesso do cad2-leo-32 (Business Suite do Leo).",
+   "partes": [],
+   "pegou": "Leandro 15/11 17:01",
+   "atualizado": "15/11 17:01",
+   "recebido": "Leandro 16/11 01:36"
+  },
+  {
+   "id": "cad2-influencer-35",
+   "cli": "influencer",
+   "tarefa": "Criar ferramentas gratuitas que gerem tráfego gratuito",
+   "equipe": "Pedro",
+   "status": "livre",
+   "nota": "",
+   "partes": [],
+   "pegou": "",
+   "atualizado": "",
+   "recebido": "Pedro 15/11 22:37"
+  },
+  {
+   "id": "cad2-influencer-36",
+   "cli": "influencer",
+   "tarefa": "Fazer benchmarking",
+   "equipe": "Pedro",
+   "status": "livre",
+   "nota": "",
+   "partes": [],
+   "pegou": "",
+   "atualizado": "",
+   "recebido": "Pedro 15/11 22:37"
+  },
+  {
+   "id": "cad2-influencer-37",
+   "cli": "influencer",
+   "tarefa": "Definir nicho",
+   "equipe": "Pedro",
+   "status": "livre",
+   "nota": "",
+   "partes": [],
+   "pegou": "",
+   "atualizado": "",
+   "recebido": "Pedro 15/11 22:37"
+  },
+  {
+   "id": "cad2-influencer-38",
+   "cli": "influencer",
+   "tarefa": "Criar 3 nichos diferentes",
+   "equipe": "Pedro",
+   "status": "livre",
+   "nota": "",
+   "partes": [],
+   "pegou": "",
+   "atualizado": "",
+   "recebido": "Pedro 15/11 22:37"
+  },
+  {
+   "id": "cad2-samba-39",
+   "cli": "samba",
+   "tarefa": "Samba do Pinto: criar Reels",
+   "equipe": "Zuleide",
+   "status": "andamento",
+   "nota": "",
+   "partes": [],
+   "pegou": "Zuleide",
+   "atualizado": "2026-11-16 07:04",
+   "recebido": ""
+  },
+  {
+   "id": "cad2-samba-40",
+   "cli": "samba",
+   "tarefa": "Samba do Pinto: postar Reels",
+   "equipe": "Zuleide",
+   "status": "livre",
+   "nota": "",
+   "partes": [],
+   "pegou": "",
+   "atualizado": "",
+   "recebido": ""
+  },
+  {
+   "id": "esp-oregano-google",
+   "cli": "oregano",
+   "tarefa": "Orégano: escrever GOOGLE.md (Perfil da Empresa: Pizzaria, delivery, cardápio) no modelo de jaci-cunha/GOOGLE.md (guia agencia/especialista/google-meu-negocio)",
+   "equipe": "Zuleide",
+   "status": "aguardando aprovação",
+   "nota": "GOOGLE.md em agencia/operacao-propria/ (Agência de marketing, área atendida, sem preço) + painel Orégano Aprovações. Lindson clica no checklist.",
+   "partes": [],
+   "pegou": "Zuleide 15/11 21:04",
+   "atualizado": "15/11 21:06",
+   "recebido": ""
+  },
+  {
+   "id": "esp-oregano-seo",
+   "cli": "oregano",
+   "tarefa": "Orégano: sitemap, robots e dados estruturados Restaurant+Menu no site oreganoturbo (guia agencia/especialista/seo)",
+   "equipe": "Zuleide",
+   "status": "feito",
+   "nota": "canonical, og:url/type/locale, twitter card, JSON-LD Organization+ProfessionalService+LocalBusiness (areaServed São Luís, Instagram, WhatsApp) + FAQPage (6), sitemap com lastmod. Sem mudança visual. Falta: enviar sitemap no Search Console.",
+   "partes": [],
+   "pegou": "Zuleide 15/11 19:04",
+   "atualizado": "15/11 19:05",
+   "recebido": ""
+  },
+  {
+   "id": "esp-sf-whatsapp",
+   "cli": "sf",
+   "tarefa": "SF: 8 respostas rápidas de urgência + cadência de retorno dia 1 e 3 para orçamento não fechado (guias venda-whatsapp e automacao-vendas)",
+   "equipe": "Leandro",
+   "status": "aguardando aprovação",
+   "nota": "[redistribuído de Pedro em 16/11 22:08: equipe sem atividade] · Feito: agencia/clientes/desentupidora-sf/whatsapp/WHATSAPP.md + PDF; na Central em painel/sf/arquivos/whatsapp-sf.pdf (Entregas, aguardando)",
+   "partes": [],
+   "pegou": "Leandro 16/11 22:08",
+   "atualizado": "Leandro 16/11 22:40",
+   "recebido": "Leandro 16/11 01:36"
+  },
+  {
+   "id": "esp-sf-ranking",
+   "cli": "sf",
+   "tarefa": "SF: primeiro relatório Search Console (Páginas/Desempenho) e lista de ajustes (guia ranqueamento-sites)",
+   "equipe": "Leandro",
+   "status": "aguardando aprovação",
+   "nota": "agencia/clientes/desentupidora-sf/RANQUEAMENTO-01.md; ajustes 3-5 no ar; falta acesso ao Search Console",
+   "partes": [],
+   "pegou": "Leandro 16/11 23:05",
+   "atualizado": "",
+   "recebido": "Leandro 16/11 01:36"
+  },
+  {
+   "id": "esp-jaci-whatsapp",
+   "cli": "jaci",
+   "tarefa": "Jaci: 8 respostas rápidas no tom CFO + mensagens D-1 e pós-consulta pedindo avaliação (guias venda-whatsapp e automacao-vendas)",
+   "equipe": "Leandro",
+   "status": "aguardando aprovação",
+   "nota": "[redistribuído de Lindson em 16/11 22:08: equipe sem atividade] · Feito: agencia/clientes/jaci-cunha/whatsapp/WHATSAPP.md + PDF; na Central em painel/jaci/arquivos/whatsapp-jaci.pdf (Entregas, aguardando)",
+   "partes": [],
+   "pegou": "Leandro 16/11 22:08",
+   "atualizado": "Leandro 16/11 22:40",
+   "recebido": "Leandro 16/11 01:36"
+  },
+  {
+   "id": "esp-wf-google",
+   "cli": "wf",
+   "tarefa": "WF Celulares: escrever GOOGLE.md (Loja de celulares + Assistência técnica) e resposta rápida de orçamento",
+   "equipe": "Leandro",
+   "status": "travado",
+   "nota": "GOOGLE.md pronto; falta Gmail do dono, endereços, horários, fotos e vídeo de verificação (Lindson: fazer depois)",
+   "partes": [],
+   "pegou": "",
+   "atualizado": "",
+   "recebido": "Leandro 16/11 01:36"
+  },
+  {
+   "id": "esp-tribuna-google",
+   "cli": "tribuna",
+   "tarefa": "Tribuna 98: textos do Perfil da Empresa (Estação de rádio) e title próprio nas páginas de programa",
+   "equipe": "Leandro",
+   "status": "travado",
+   "nota": "GOOGLE.md pronto (agencia/clientes/tribuna98/GOOGLE.md, privado painel/tribuna/google.html): categoria, descrição 699 car., serviços, posts, respostas, titles SEO. As 5 páginas do site já têm title próprio; não há páginas de programa. Falta Lindson: confirmar se é rádio de verdade, criar/verificar a ficha e liberar repo tribuna98.",
+   "partes": [],
+   "pegou": "Leandro 15/11 18:08",
+   "atualizado": "Leandro 15/11 21:14",
+   "recebido": "Leandro 16/11 01:36"
+  },
+  {
+   "id": "wf-1511-video",
+   "cli": "wf",
+   "tarefa": "Novos criativos de vídeo para a campanha nova (pedido do Lindson 15/11)",
+   "equipe": "Pedro",
+   "status": "aguardando aprovação",
+   "nota": "5 vídeos em painel/wf/criativos-1511 (aba Aprovações)",
+   "partes": [],
+   "pegou": "Pedro 15/11 20:11",
+   "atualizado": "Pedro 15/11 20:21",
+   "recebido": ""
+  },
+  {
+   "id": "wf-1511-capas",
+   "cli": "wf",
+   "tarefa": "Capas dos Reels já postados",
+   "equipe": "Pedro",
+   "status": "aguardando aprovação",
+   "nota": "6 capas em painel/wf/capas-reels; confirmar quais Reels estão postados",
+   "partes": [],
+   "pegou": "Pedro 15/11 20:11",
+   "atualizado": "Pedro 15/11 20:21",
+   "recebido": ""
+  },
+  {
+   "id": "designer-alkantara-studio",
+   "cli": "designer",
+   "tarefa": "Projeto Designer vira AL KÁNTARA STUDIO (divisão do Al Kántara Group, decisão do Lindson 16/11): trocar nome, logo e paleta da v2 (cases Behance, 30 pins, página de venda, proposta, anúncio) pela identidade de agencia/marca-holding/ (logo da divisão Studio). Subir no painel admin-rede/projeto-designer/v3 e marcar aguardando aprovação.",
+   "equipe": "Leandro",
+   "status": "feito",
+   "nota": "Nome trocado para BARZAKH (pedido do Lindson). Branding completo + v3 + marketing/vendas em agencia/marca-lindson/projeto-designer/v3/ e painel admin-rede/projeto-designer (abre na v3). · APROVADO pelo Lindson 16/11 (book v2 e manual v2).",
+   "partes": [],
+   "pegou": "Leandro",
+   "recebido": "16/11",
+   "atualizado": "16/11/2026"
+  },
+  {
+   "id": "barzakh-feed",
+   "cli": "designer",
+   "tarefa": "Estratégia de feed Barzakh (Instagram @barzakhstudio): harmônico, impactante, posts prontos",
+   "equipe": "Leandro",
+   "status": "andamento",
+   "nota": "",
+   "partes": [],
+   "pegou": "Leandro",
+   "recebido": "16/11",
+   "atualizado": "16/11/2026"
+  }
+ ]
 }
