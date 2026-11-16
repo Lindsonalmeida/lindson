@@ -4,8 +4,8 @@ import json, os
 from base import *
 R = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 PL = json.load(open(f'{R}/plano/plano.json'))
-FOTO = dict(p01='slz-centro-2', p02='servidores', p03='servidores-2', p04='luz-pedra', p05='arco-concreto', p06='estudio-video',
-            p07='gerador', p08='sombra-tijolo', p09='slz-travessa', p10='arco-radial', p11='estudio-video-2', p12='slz-centro-3')
+FOTO = dict(p01='slz-centro-2', p02='servidores', p03='servidores-2', p04='sombra-tijolo', p05='arco-concreto', p06='estudio-video',
+            p07='gerador', p08='sombra-kerry', p09='slz-centro-3', p10='arco-radial', p11='estudio-video-2', p12='slz-centro-4')
 FOTO_FIM = dict(p02='estudio-monitores')  # última tela com foto (opcional)
 T = f'{R}/_tmp'; os.makedirs(T, exist_ok=True); OUT = f'{R}/instagram'; os.makedirs(OUT, exist_ok=True)
 W, Hh = 1080, 1350
@@ -81,16 +81,17 @@ def carrossel(p):
             cls = 'cla' if bgc == 'cla' else ('' if bgc == 'cor' else 'esc')
             em = tt.replace('<em>', f'<em style="color:{"#EFEAE1" if bgc=="cor" else c}">')
             if lay == 'num':
-                inner = f'<div class="num" style="color:{cc};opacity:.9">{j:02d}</div><div style="position:absolute;left:72px;top:250px;width:640px"><h2 style="font-size:96px;line-height:.98">{em}</h2><p class="ap">{tx}</p></div>'
+                inner = f'<div class="num" style="color:{cc};opacity:.9">{j:02d}</div><div style="position:absolute;left:72px;top:250px;width:640px"><h2 style="font-size:124px;line-height:.95">{em}</h2><p class="ap">{tx}</p></div>'
             elif lay == 'cartao':
-                inner = f'<div style="position:absolute;left:72px;right:72px;top:240px"><p class="mono" style="color:{cc}">{j:02d} · {NOME[d].split(" · ")[0]}</p></div><div class="card" style="position:absolute;left:72px;right:72px;bottom:150px;padding:64px"><h2 style="font-size:84px;line-height:1">{em}</h2><p class="ap">{tx}</p></div><div style="position:absolute;right:72px;top:300px;width:300px">{simb(IDX[d], cc, "rgba(127,127,127,.18)")}</div>'
+                inner = f'<div style="position:absolute;left:72px;right:72px;top:240px"><p class="mono" style="color:{cc}">{j:02d} · {NOME[d].split(" · ")[0]}</p></div><div class="card" style="position:absolute;left:72px;right:72px;bottom:150px;padding:64px"><h2 style="font-size:104px;line-height:1">{em}</h2><p class="ap">{tx}</p></div><div style="position:absolute;right:72px;top:300px;width:300px">{simb(IDX[d], cc, "rgba(127,127,127,.18)")}</div>'
             elif lay == 'frase':
-                inner = f'<div style="position:absolute;left:72px;right:72px;top:50%;transform:translateY(-50%)"><p style="font:400 italic 200px/.7 F;color:{cc}">“</p><h2 style="font-size:100px;line-height:1">{em}</h2><div style="height:4px;width:160px;background:{cc};margin:44px 0 30px"></div><p class="ap">{tx}</p></div>'
+                inner = f'<div style="position:absolute;left:72px;right:72px;top:50%;transform:translateY(-50%)"><p style="font:400 italic 200px/.7 F;color:{cc}">“</p><h2 style="font-size:120px;line-height:1">{em}</h2><div style="height:4px;width:160px;background:{cc};margin:44px 0 30px"></div><p class="ap">{tx}</p></div>'
             else:
                 partes = [s.strip() for s in t['texto'].replace(';', '.').split('.') if s.strip()]
                 li = ''.join(f'<li style="display:grid;grid-template-columns:90px 1fr;padding:26px 0;border-top:1px solid rgba(127,127,127,.3)"><span class="mono" style="color:{cc}">{k+1:02d}</span><span style="font-size:36px">{H.escape(s)}.</span></li>' for k, s in enumerate(partes[:4]))
-                inner = f'<div style="position:absolute;left:72px;right:72px;top:220px"><h2 style="font-size:92px;line-height:1">{em}</h2><ul style="list-style:none;margin-top:50px">{li}</ul></div>'
-            corpo = f'<div class="pg {cls}" style="{st};--c:{cc}">{topo(bgc=="cla" or bgc=="cor", d)}{inner}{pe(NOME[d], pag)}<div class="grao"></div></div>'
+                inner = f'<div style="position:absolute;left:72px;right:72px;top:220px"><h2 style="font-size:112px;line-height:1">{em}</h2><ul style="list-style:none;margin-top:50px">{li}</ul></div>'
+            ghost = f'<div style="position:absolute;right:-240px;bottom:-200px;width:900px;opacity:.07">{simb(IDX[d], "currentColor", "currentColor")}</div>'
+            corpo = f'<div class="pg {cls}" style="{st};--c:{cc}"><style>.pg .ap{{font-size:40px}}</style>{ghost}{topo(bgc=="cla" or bgc=="cor", d)}{inner}{pe(NOME[d], pag)}<div class="grao"></div></div>'
         salva(f"{p['id']}-{j+1:02d}", corpo)
 
 def capa_reel(p, i):
