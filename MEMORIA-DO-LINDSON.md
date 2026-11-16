@@ -16,6 +16,8 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 
 ## RESUMO CONSOLIDADO (leia primeiro) — atualizado 15/11/2026, conta Zuleide
 
+> **Abordagem de vereadores APROVADA (16/11/2026, conta Pedro): "isso sim é um bom contato".** Modelo: indicação ("o Thiago Azevedo, do Tribuna 98, me passou seu contato") + autoridade real ("trabalho há 14 anos com gestão de marketing e redes sociais") + contribuição concreta ("mandato e aquecimento para 2028") + pedido simples ("Posso te mandar uma proposta?"). Reprovado antes: metáfora, escassez/"poucas vagas", texto longo. Arquivo: agencia/prospeccao/vereadores/MENSAGENS.md (v5).
+
 > **PADRÃO PREMIUM APROVADO (Lindson, 16/11/2026, conta Pedro): "ficou perfeito, isso sim é premium, quero esse padrão pra tudo a partir de agora"** — referência = Al Kántara Group v2 (`agencia/marca-holding/v2/`). O que fez ser aprovado: conceito forte com significado (pedra-chave → K), agentes de marca lidos de verdade (Brand Chief, Neumeier, Wheeler, Aaker, Arquétipo, Naming, Donald Miller, Design Chief), pesquisa nova ≥14 capturas de ≥9 países + todas as nossas referências, plataforma de marca + personas + arquitetura, grid de construção, tipografia com kerning, páginas cheias e editoriais (nada vazio nem miúdo), aplicações em mockup, logo animado com som. Toda entrega nova (qualquer cliente) segue esse nível e esse processo; antes de entregar, comparar lado a lado com a v2 da Al Kántara.
 
 > Tirado da memória inteira, do `CLAUDE.md`, do quadro, da mente coletiva e do privado. Detalhe e fonte de cada item: seções 1 a 8 abaixo (histórico intacto). Em conflito, vale a regra mais recente; a antiga aparece como "substituída".
