@@ -682,12 +682,14 @@
    "cli": "pagode",
    "tarefa": "Pagode frases",
    "equipe": "Zuleide",
-   "status": "livre",
+   "status": "andamento",
    "nota": "",
    "partes": [],
    "pegou": "",
    "atualizado": "",
-   "recebido": ""
+   "recebido": "",
+   "conta": "Zuleide",
+   "inicio": "2026-11-16 03:04"
   },
   {
    "id": "cad2-pagode-24",
