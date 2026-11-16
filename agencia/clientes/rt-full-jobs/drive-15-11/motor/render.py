@@ -73,7 +73,7 @@ for i, (p, st) in enumerate(partes):
     ins += ['-i', p]
     base += f';[{na+i}:a]adelay={int(st*1000)}|{int(st*1000)},volume=1.6[n{i}]'
 base += ';' + ''.join(f'[n{i}]' for i in range(len(partes))) + f'amix=inputs={len(partes)}:normalize=0[voz]'
-base += ';[voz]asplit[voz1][voz2];[0:a]volume=0.55[orig];[orig][voz1]sidechaincompress=threshold=0.05:ratio=6:attack=20:release=300[duck]'
+base += ';[voz]asplit[voz1][voz2];[0:a]volume=0.4[orig];[orig][voz1]sidechaincompress=threshold=0.015:ratio=20:attack=10:release=350:makeup=1[duck]'
 base += ';[duck][voz2]amix=inputs=2:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[a]'
 outp = os.path.join(OUT, f'rt-{VID}.mp4')
 cmd = ['ffmpeg','-nostdin','-y','-v','error'] + ins + ['-filter_complex', base, '-map', f'[b{k}]', '-map', '[a]',
