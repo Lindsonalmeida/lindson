@@ -1,5 +1,7 @@
 # Tráfego pago São Luís · 3 nichos (advogado, barbeiro, dentista)
 
+> **v2 (16/11/2026, após reprovação da v1 "fundo vazio, sem vida"):** `v2/` · PDF `ESTRATEGIA-v2.pdf` com fotos e QR dos Reels, 9 artes com foto real do nicho (Mixkit, ilustrativa) e do Lindson, 3 Reels gravados (`v2/reels/*-reel.mp4`, narração por IA edge-tts porque o HeyGen estava sem créditos, SFX, VFX, trilha Mixkit), pesquisa em `v2/TEMPLATE.md`. Gerar: `python3 v2/gerar_v2.py <insumos>` e `python3 v2/reels/montar.py <insumos> conteudo/reels/leva-30s/banco`.
+
 Conta Leandro, 16/11/2026, pedido do Lindson. Agentes: Pedro Sobral (estrutura Meta Ads), Hormozi (oferta), Donald Miller (mensagem), padrão `agencia/prospeccao/PADRAO-COPY.md`, especialista `agencia/especialista/meta-negocios-locais/`.
 
 **Leitura usada:** a campanha é **da agência do Lindson para captar clientes** nesses 3 nichos (ele vende gestão de Instagram, tráfego e mini site: esteira em `agencia/ofertas/esteira-de-produtos.md`). Por isso o anúncio fala com o **dono** (advogado, barbeiro, dentista), sem promessa de resultado, sem preço no anúncio (valor só na conversa). Como o anúncio não é do advogado, o Provimento 205/2021 não rege a peça, mas a gente respeita o espírito dele: nada de "mais clientes garantidos", nada que sugira captação mercantil para o advogado; a oferta é presença digital informativa e organizada. Para dentista, a peça explica que o trabalho segue as regras do CFO (sem antes e depois, sem preço).
