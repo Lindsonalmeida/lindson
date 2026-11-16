@@ -400,12 +400,12 @@
    "cli": "jaci",
    "tarefa": "3 stories automáticos por dia",
    "equipe": "Lindson",
-   "status": "livre",
+   "status": "andamento",
    "nota": "",
    "partes": [
     {
      "p": "Roteiro de 3 stories/dia por 30 dias (CFO)",
-     "status": "livre"
+     "status": "andamento"
     },
     {
      "p": "Artes",
@@ -416,7 +416,7 @@
      "status": "livre"
     }
    ],
-   "pegou": "",
+   "pegou": "Lindson 15/11 23:15",
    "atualizado": "",
    "recebido": "Lindson 15/11 22:38"
   },
