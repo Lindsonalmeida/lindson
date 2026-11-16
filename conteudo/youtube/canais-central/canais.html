@@ -5,7 +5,7 @@
 <meta name="theme-color" content="#09090A">
 <title>Canais dark · Central</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Big+Shoulders+Display:wght@700;800&family=Cinzel:wght@700;800&family=IBM+Plex+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Shrikhand&family=Big+Shoulders+Display:wght@700;800&family=Cinzel:wght@700;800&family=IBM+Plex+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap">
 <style>
 /* Canais dark dentro da Central (conta Leandro, 09/11/2026). Fonte: conteudo/youtube/canais-central/ (repositório lindson), montado por montar-canais.py.
    Sistema da Central (menu lateral, topo, cartões, movimento.js). A identidade de cada canal entra só nos acentos:
@@ -18,6 +18,8 @@
 }
 body[data-canal="passaporte"]{--amarelo:#E9B949;--amarelo2:#F6D68A;--acento2:#3FC6D1;--f-canal:'Cinzel',Georgia,serif}
 body[data-canal="raposa"]{--amarelo:#D6A24A;--amarelo2:#ECC57A;--acento2:#D2402F;--f-canal:'Anton','Arial Narrow',Impact,sans-serif}
+body[data-canal="pagode"]{--amarelo:#F2B705;--amarelo2:#F3E9D2;--acento2:#1E6B52;--f-canal:'Shrikhand',Georgia,serif}
+body[data-canal="pagode"] .canal .etq{color:#F3E9D2}
 [hidden]{display:none!important}
 *{box-sizing:border-box}
 html,body{min-height:100%}
@@ -133,6 +135,13 @@ body[data-canal="raposa"] .canal h2{font-weight:400;letter-spacing:.01em}
   .corpo{padding:14px}
   .cab .fim{margin-left:0;width:100%;justify-content:space-between}
 }
+.aprov{display:grid;grid-template-columns:minmax(0,220px) minmax(0,1fr);gap:0;padding:0;overflow:hidden}
+.aprov .arte{background:#0b0b0b;border-right:1px solid var(--linha);display:grid;place-items:center;padding:12px}
+.aprov .arte img{width:100%;border-radius:10px;display:block;aspect-ratio:4/5;object-fit:cover}
+.aprov .corpo .acoes-ap{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.mat .imgs{display:flex;gap:10px;flex-wrap:wrap;margin:12px 0}.mat .imgs img{height:150px;max-width:100%;border-radius:10px;border:1px solid var(--linha);object-fit:cover}
+.aviso{border:1px dashed var(--linha);border-radius:14px;padding:12px 14px;color:var(--apagado);font-size:13px}
+@media (max-width:760px){.aprov{grid-template-columns:minmax(0,1fr)}.aprov .arte{border-right:0;border-bottom:1px solid var(--linha)}.aprov .arte img{max-width:300px}.mat .imgs img{height:110px}}
 @media (prefers-reduced-motion:reduce){.toast,.menu{transition:none}}
 </style>
 
@@ -142,7 +151,8 @@ body[data-canal="raposa"] .canal h2{font-weight:400;letter-spacing:.01em}
     <a class="logo" href="/painel/comando"><b>LA</b>Central</a>
     <div class="grupo"><h4>Canais dark</h4>
       <a href="#passaporte" data-c="passaporte"><span class="sw" style="background:#E9B949;box-shadow:inset -4px 0 0 #3FC6D1"></span>Passaporte da Bíblia<span class="n" id="n-passaporte"></span></a>
-      <a href="#raposa" data-c="raposa"><span class="sw" style="background:#D6A24A;box-shadow:inset -4px 0 0 #D2402F"></span>Raposa e Leão<span class="n" id="n-raposa"></span></a></div>
+      <a href="#raposa" data-c="raposa"><span class="sw" style="background:#D6A24A;box-shadow:inset -4px 0 0 #D2402F"></span>Raposa e Leão<span class="n" id="n-raposa"></span></a>
+      <a href="#pagode" data-c="pagode"><span class="sw" style="background:#F2B705;box-shadow:inset -4px 0 0 #1E6B52"></span>Pagode Fiado<span class="n" id="n-pagode"></span></a></div>
     <div class="grupo"><h4>Central</h4>
       <a href="/painel/comando"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Central de Comando</a>
       <a href="/painel/admin"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="7" height="9" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/><rect x="3" y="16" width="7" height="5" rx="1.5"/></svg>Painel do administrador</a></div>
@@ -220,6 +230,11 @@ async function enviar(cid, id) {
 }
 function sinc() { const e = est[canal], s = $('#sinc'); if (!e) return; s.className = 'sinc ' + (e.remoto ? 'ok' : 'al'); s.textContent = e.remoto ? 'Salvo no servidor' : 'Sem servidor: só neste aparelho'; }
 
+async function marcar(cid, id, campos) {
+  const e = est[cid], agora = new Date().toISOString(); e.itens[id] = { ...(e.itens[id] || {}), titulo: id, ...campos, mudouEm: agora };
+  guardaLocal(cid); if (!e.remoto) { sinc(); return true; } return enviar(cid, id);
+}
+const stAp = (cid, id) => ((est[cid] || { itens: {} }).itens[id] || {});
 // ---------- copiar ----------
 async function copiar(txt, bt) {
   try { await navigator.clipboard.writeText(txt); }
@@ -254,33 +269,60 @@ function cartaoVideo(c, v, i) {
       <div class="baixar">${baixar}</div>
     </div></article>`;
 }
+const CHIP = { 'aprovado': '<span class="chip ok">Aprovado</span>', 'ajuste': '<span class="chip al">Ajuste pedido</span>' };
+function cartaoAprov(c, a, i) {
+  const s = stAp(c.id, a.id), post = !!s.postado;
+  return `<article class="card aprov${post ? ' feito' : ''}" data-ap="${esc(a.id)}"><div class="arte"><img src="${esc(a.img)}" alt="${esc(a.titulo)}" loading="lazy"></div>
+    <div class="corpo"><div class="cab"><span class="num">${esc(a.serie)} · ${String(i + 1).padStart(2, '0')}</span>${post ? '<span class="chip ok">Postado</span>' : CHIP[s.st] || '<span class="chip am">Aguardando aprovação</span>'}
+      <div class="fim"><label class="carimbo"><input type="checkbox" data-post="${esc(a.id)}"${post ? ' checked' : ''}>Marquei como postado</label></div></div>
+      <div class="campo tit"><div class="r"><span class="rot">Título</span></div><p class="tx">${esc(a.titulo)}</p></div>
+      <div class="campo leg"><div class="r"><span class="rot">Legenda</span><button class="btn lin mini" data-cpa="legenda">${IC.copiar}Copiar legenda</button></div><p class="tx">${esc(a.legenda)}</p><button class="mais" data-mais>Ver legenda inteira</button></div>
+      ${s.st === 'ajuste' && s.nota ? `<p class="aviso">Ajuste: ${esc(s.nota)}</p>` : ''}
+      <div class="acoes-ap"><button class="btn am" data-st="aprovado">Aprovar</button><button class="btn lin" data-st="ajuste">Pedir ajuste</button><a class="btn lin" href="${esc(a.img)}" download>${IC.baixar}Baixar arte</a></div>
+    </div></article>`;
+}
+const cartaoMat = m => `<article class="card mat"><div class="cab"><h3 style="margin:0">${esc(m.titulo)}</h3><span class="chip am">${esc(m.st[0].toUpperCase() + m.st.slice(1))}</span></div><p class="sub">${esc(m.sub)}</p>
+  ${m.imgs.length ? `<div class="imgs">${m.imgs.map(x => `<img src="${esc(x)}" alt="" loading="lazy">`).join('')}</div>` : ''}${m.texto ? `<p class="tx">${esc(m.texto)}</p>` : ''}
+  <div class="baixar">${m.links.map(l => `<a class="btn lin" href="${esc(l.url)}"${/\/$/.test(l.url) ? ' target="_blank" rel="noopener"' : ' download'}>${IC.baixar}${esc(l.nome)}</a>`).join('')}</div></article>`;
 function render() {
   const c = C(); document.body.dataset.canal = c.id;
   document.querySelectorAll('.grupo a[data-c]').forEach(a => { if (a.dataset.c === c.id) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); });
-  D.canais.forEach(k => { const n = k.itens.filter(v => !postado(k.id, v)).length; const e = $('#n-' + k.id); if (e) e.textContent = est[k.id] ? n : ''; });
+  D.canais.forEach(k => { const n = k.itens.filter(v => !postado(k.id, v)).length + (k.aprov || []).filter(a => !stAp(k.id, a.id).postado && stAp(k.id, a.id).st !== 'aprovado').length; const e = $('#n-' + k.id); if (e) e.textContent = est[k.id] ? n : ''; });
   $('#titulo').textContent = c.nome; $('#sub-topo').textContent = 'Postagens prontas · atualizado em ' + (D.atualizado || '');
   const it = c.itens, sh = it.filter(v => v.tipo === 'short'), lo = it.filter(v => v.tipo === 'longo'), fe = it.filter(v => postado(c.id, v));
   const naC = it.filter(v => v.video && v.video.url).length, capasC = it.reduce((s, v) => s + v.capas.filter(x => x.url).length, 0), capasT = it.reduce((s, v) => s + v.capas.length, 0);
   const pct = it.length ? Math.round(fe.length / it.length * 100) : 0;
+  const AP = c.aprov || [], MT = c.materiais || [], apF = AP.filter(a => stAp(c.id, a.id).postado), apA = AP.filter(a => !stAp(c.id, a.id).postado);
+  const abas = [['short', 'Shorts', sh.filter(v => !postado(c.id, v)).length, sh.length], ['longo', 'Vídeos longos', lo.filter(v => !postado(c.id, v)).length, lo.length],
+    ['aprov', 'Aprovações', apA.filter(a => stAp(c.id, a.id).st !== 'aprovado').length, AP.length + (c.avisos || []).length], ['mat', 'Materiais', MT.length, MT.length], ['feito', 'Postados', fe.length + apF.length, 1]].filter(x => x[3]);
+  if (!abas.some(x => x[0] === aba)) aba = abas[0][0];
   const L = aba === 'feito' ? fe : it.filter(v => v.tipo === aba && !postado(c.id, v));
+  const lista = aba === 'aprov' ? (c.avisos || []).map(t => `<div class="aviso">${esc(t)}</div>`).join('') + (apA.map((a, i) => cartaoAprov(c, a, AP.indexOf(a))).join('') || '<div class="vazio">Nada esperando aprovação.</div>')
+    : aba === 'mat' ? MT.map(cartaoMat).join('')
+    : (aba === 'feito' ? apF.map(a => cartaoAprov(c, a, AP.indexOf(a))).join('') : '') + (L.length ? L.map(v => cartaoVideo(c, v, it.filter(x => x.tipo === v.tipo).indexOf(v))).join('') : (aba === 'feito' && apF.length ? '' : `<div class="vazio">${aba === 'feito' ? 'Nada postado ainda. Marque um item e ele vem para cá.' : 'Tudo desta aba já foi postado.'}</div>`));
+  const app = D.apps[c.id];
   $('#conteudo').innerHTML = `
-    <section class="card canal"><span class="etq">${c.id === 'passaporte' ? 'Estúdio · Doré' : 'Estúdio · Maquiavel'}</span><h2>${esc(c.nome)}</h2><p>${esc(c.sub)}</p>
-      <div class="acoes"><a class="btn lin mini" href="${esc(D.apps[c.id].novo)}" target="_blank" rel="noopener">${IC.abrir}App antigo (até conferir)</a></div></section>
+    <section class="card canal"><span class="etq">${{ passaporte: 'Estúdio · Doré', raposa: 'Estúdio · Maquiavel', pagode: 'Estúdio · Bar do Seu Tião' }[c.id] || 'Canal dark'}</span><h2>${esc(c.nome)}</h2><p>${esc(c.sub)}</p>
+      ${app ? `<div class="acoes"><a class="btn lin mini" href="${esc(app.novo)}" target="_blank" rel="noopener">${IC.abrir}App antigo (até conferir)</a></div>` : ''}</section>
     <div class="grade g4">
-      <div class="card kpi"><div class="rot">A postar</div><div class="val">${it.length - fe.length}</div><div class="d">${sh.filter(v => !postado(c.id, v)).length} Shorts · ${lo.filter(v => !postado(c.id, v)).length} longos</div></div>
+      ${it.length ? `<div class="card kpi"><div class="rot">A postar</div><div class="val">${it.length - fe.length}</div><div class="d">${sh.filter(v => !postado(c.id, v)).length} Shorts · ${lo.filter(v => !postado(c.id, v)).length} longos</div></div>
       <div class="card kpi"><div class="rot">Postados</div><div class="val">${fe.length}</div><div class="barra"><i style="width:${pct}%"></i></div></div>
       <div class="card kpi"><div class="rot">Capas na Central</div><div class="val">${capasC}</div><div class="d">de ${capasT}</div></div>
-      <div class="card kpi"><div class="rot">Vídeos na Central</div><div class="val">${naC}</div><div class="d">${it.filter(v => v.video && !v.video.url && !postado(c.id, v)).length} a postar ainda no app antigo</div></div>
+      <div class="card kpi"><div class="rot">Vídeos na Central</div><div class="val">${naC}</div><div class="d">${it.filter(v => v.video && !v.video.url && !postado(c.id, v)).length} a postar ainda no app antigo</div></div>`
+      : `<div class="card kpi"><div class="rot">Para aprovar</div><div class="val">${apA.filter(a => !stAp(c.id, a.id).st).length}</div><div class="d">artes com legenda</div></div>
+      <div class="card kpi"><div class="rot">Aprovadas</div><div class="val">${AP.filter(a => stAp(c.id, a.id).st === 'aprovado').length}</div><div class="d">de ${AP.length}</div></div>
+      <div class="card kpi"><div class="rot">Postadas</div><div class="val">${apF.length}</div><div class="barra"><i style="width:${AP.length ? Math.round(apF.length / AP.length * 100) : 0}%"></i></div></div>
+      <div class="card kpi"><div class="rot">Materiais</div><div class="val">${MT.length}</div><div class="d">identidade e kits</div></div>`}
     </div>
-    <div class="subabas" role="tablist">
-      <button role="tab" data-aba="short" aria-selected="${aba === 'short'}">Shorts<b>${sh.filter(v => !postado(c.id, v)).length}</b></button>
-      <button role="tab" data-aba="longo" aria-selected="${aba === 'longo'}">Vídeos longos<b>${lo.filter(v => !postado(c.id, v)).length}</b></button>
-      <button role="tab" data-aba="feito" aria-selected="${aba === 'feito'}">Postados<b>${fe.length}</b></button>
-    </div>
-    <div class="lista">${L.length ? L.map(v => cartaoVideo(c, v, it.filter(x => x.tipo === v.tipo).indexOf(v))).join('') : `<div class="vazio">${aba === 'feito' ? 'Nada postado ainda. Marque um vídeo e ele vem para cá.' : 'Tudo desta aba já foi postado.'}</div>`}</div>`;
+    <div class="subabas" role="tablist">${abas.map(([k, t, n]) => `<button role="tab" data-aba="${k}" aria-selected="${aba === k}">${t}<b>${n}</b></button>`).join('')}</div>
+    <div class="lista">${lista}</div>`;
   sinc();
 }
 $('#conteudo').addEventListener('click', e => {
+  const ca = e.target.closest('[data-cpa]'); if (ca) { const a = C().aprov.find(x => x.id === ca.closest('.aprov').dataset.ap); copiar(a[ca.dataset.cpa], ca); return; }
+  const bs = e.target.closest('[data-st]'); if (bs) { const id = bs.closest('.aprov').dataset.ap; let nota = '';
+    if (bs.dataset.st === 'ajuste') { nota = prompt('O que ajustar nesta arte?') || ''; if (!nota) return; }
+    marcar(canal, id, { st: bs.dataset.st, nota, stEm: new Date().toISOString() }).then(ok => { if (ok) toast(bs.dataset.st === 'aprovado' ? 'Aprovado' : 'Ajuste enviado'); render(); }); return; }
   const b = e.target.closest('[data-cp]'); if (b) { const v = C().itens.find(x => x.id === b.closest('.vid').dataset.id); copiar(v[b.dataset.cp], b); return; }
   const m = e.target.closest('[data-mais]'); if (m) { const f = m.closest('.leg'); f.classList.toggle('aberta'); m.textContent = f.classList.contains('aberta') ? 'Mostrar menos' : 'Ver legenda inteira'; return; }
   const t = e.target.closest('[data-aba]'); if (t) { aba = t.dataset.aba; try { localStorage.setItem('canais-aba', aba); } catch (_) {} render(); }

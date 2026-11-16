@@ -138,9 +138,61 @@ def itens_raposa():
     return out
 
 
+# ---------- Pagode Fiado e materiais de cada canal (conta Leandro, 16/11/2026) ----------
+# Pedido do Lindson (16/11/2026): "crie no painel uma aba de cliente só dos canais dark, e coloque dentro os 3 canais".
+# Aprovações (arte + legenda, Aprovar / Pedir ajuste) e Materiais (produto, kits, brand book) lidos do privado.
+def legendas_md(f):
+    """**NN · Título** seguido das linhas da legenda até a linha em branco → {NN: (título, legenda)}."""
+    out = {}
+    if not os.path.exists(f): return out
+    for m in re.finditer(r'^\*\*(\d\d) · (.+?)\*\*\n(.*?)(?:\n\s*\n|\Z)', open(f, encoding='utf-8').read(), re.M | re.S):
+        out[m.group(1)] = (m.group(2).strip(), m.group(3).strip())
+    return out
+
+
+def pagode():
+    P = os.path.join(PRIV, 'painel', 'pagode'); leg = legendas_md(os.path.join(P, 'frases-v1', 'LEGENDAS.md'))
+    aprov = [dict(id=f'frase-{n}', titulo=t, legenda=l, img=f'/painel/pagode/frases-v1/frase-{n}.jpg', serie='Frases v1 · feed 4:5')
+             for n, (t, l) in sorted(leg.items()) if os.path.exists(os.path.join(P, 'frases-v1', f'frase-{n}.jpg'))]
+    # brand book: está em dados/ (o site bloqueia), então a prévia e o PDF vêm para painel/canais/pagode/brand-book/
+    bb_o, bb_d = os.path.join(PRIV, 'dados', 'agencia', 'pagode-fiado', 'brand-book'), os.path.join(PRIV, 'painel', 'canais', 'pagode', 'brand-book')
+    for a in ('brand-book-pagode.pdf', 'previa-capa.jpg', 'previa-folha.jpg'):
+        if os.path.exists(os.path.join(bb_o, a)):
+            os.makedirs(bb_d, exist_ok=True)
+            shutil.copyfile(os.path.join(bb_o, a), os.path.join(bb_d, a))
+    mat = [dict(titulo='Brand book do Pagode Fiado', sub='Identidade do canal: paleta mesa de bar, Shrikhand e Work Sans, caderno do fiado.', st='aguardando aprovação',
+                imgs=['/painel/canais/pagode/brand-book/previa-capa.jpg', '/painel/canais/pagode/brand-book/previa-folha.jpg'],
+                links=[dict(nome='Baixar o PDF', url='/painel/canais/pagode/brand-book/brand-book-pagode.pdf')])]
+    avisos = ['Notícias v1: reprovado pelo Lindson em 16/11. A equipe está refazendo a v2; não aparece aqui para aprovar.'] if os.path.isdir(os.path.join(P, 'noticias-v1')) else []
+    return aprov, mat, avisos
+
+
+def materiais_passaporte():
+    B = '/painel/canais/passaporte'; L = os.path.join(PRIV, 'painel', 'canais', 'passaporte')
+    m = []
+    if os.path.isdir(L + '/produto-hubla'):
+        m.append(dict(titulo='Produto Hubla · Volume 1', sub='Guia em PDF de 19 páginas A4 (gravuras de Doré). Antes de vender: preencher o revisor teológico na última página.', st='aguardando aprovação',
+                      imgs=[B + '/produto-hubla/previa-capa.png'], links=[dict(nome='Baixar o PDF', url=B + '/produto-hubla/passaporte-da-biblia-v1.pdf'), dict(nome='Página de venda', url=B + '/produto-hubla/')]))
+    if os.path.isdir(L + '/instagram'):
+        im = sorted(glob.glob(L + '/instagram/*.png'))
+        m.append(dict(titulo='Kit Instagram @passaportedabiblia', sub='Foto de perfil e capas dos destaques na identidade do canal. Nada publicado: você aplica no app.', st='aguardando aprovação',
+                      imgs=[B + '/instagram/' + os.path.basename(x) for x in im], links=[dict(nome='Baixar ' + os.path.basename(x)[:-4].replace('-', ' '), url=B + '/instagram/' + os.path.basename(x)) for x in im]))
+    if os.path.exists(L + '/tiktok/README.md'):
+        t = open(L + '/tiktok/README.md', encoding='utf-8').read()
+        bio = re.search(r'> (.+)', t)
+        m.append(dict(titulo='Kit TikTok @passaportedabiblia', sub='Mesmo perfil do YouTube e do Instagram (mesma foto). Nada publicado: você aplica no app.', st='aguardando aprovação',
+                      imgs=[B + '/instagram/foto-perfil.png'] if os.path.exists(L + '/instagram/foto-perfil.png') else [], texto=('Bio: ' + bio.group(1).strip()) if bio else '', links=[]))
+    return m
+
+
+PG_APROV, PG_MAT, PG_AVISOS = pagode()
 CANAIS = [
-    dict(id='passaporte', nome='Passaporte da Bíblia', sub='Gravuras de Doré com narração. Shorts todo dia e um longo por semana (Metricool, marca 7990533).', itens=itens_passaporte()),
-    dict(id='raposa', nome='Raposa e Leão', sub='Maquiavel e as leis do poder. Shorts de 2 em 2 h pelo YouTube Studio; longos de 16 a 20 min.', itens=itens_raposa()),
+    dict(id='passaporte', nome='Passaporte da Bíblia', sub='Gravuras de Doré com narração. Shorts todo dia e um longo por semana (Metricool, marca 7990533).', itens=itens_passaporte(),
+         aprov=[], materiais=materiais_passaporte(), avisos=[]),
+    dict(id='raposa', nome='Raposa e Leão', sub='Maquiavel e as leis do poder. Shorts de 2 em 2 h pelo YouTube Studio; longos de 16 a 20 min.', itens=itens_raposa(),
+         aprov=[], materiais=[], avisos=[]),
+    dict(id='pagode', nome='Pagode Fiado', sub='Canal dark de música: seis amigos no Bar do Seu Tião, toda sexta. "Pendura na conta."', itens=[],
+         aprov=PG_APROV, materiais=PG_MAT, avisos=PG_AVISOS),
 ]
 
 
@@ -211,7 +263,7 @@ def montar():
 def escrever(linhas, pend, total, tot_vid):
     base = os.path.join(PRIV, 'painel', 'canais'); os.makedirs(base, exist_ok=True)
     dados = dict(atualizado=__import__('datetime').date.today().strftime('%d/%m/%Y'), apps=APPS,
-                 canais=[{k: c[k] for k in ('id', 'nome', 'sub', 'itens')} for c in CANAIS])
+                 canais=[{k: c[k] for k in ('id', 'nome', 'sub', 'itens', 'aprov', 'materiais', 'avisos')} for c in CANAIS])
     js = '// Gerado por conteudo/youtube/canais-central/montar-canais.py (repositório lindson). Não edite à mão.\nwindow.__CANAIS=' + \
          json.dumps(dados, ensure_ascii=False).replace('</', '<\\/') + ';\n'
     open(os.path.join(base, 'dados.js'), 'w', encoding='utf-8').write(js)
@@ -236,6 +288,7 @@ def escrever(linhas, pend, total, tot_vid):
     # quais apps podem ser apagados
     md += ['', '## Apps antigos: podem ser apagados?', '', 'Nenhum app foi apagado. Apagar é irreversível e só com o OK do Lindson depois de conferir a Central.', '']
     for c in CANAIS:
+        if c['id'] not in APPS: continue
         for app in ('antigo', 'novo'):
             url = APPS[c['id']][app]; sob = [l for l in linhas if l[4] == url and not l[3].startswith('migrado') and 'já ' not in l[3]]
             ja = [l for l in linhas if l[4] == url and 'já ' in l[3]]
