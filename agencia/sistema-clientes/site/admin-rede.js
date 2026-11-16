@@ -223,7 +223,11 @@ async function fEnvia(lista) {
   fEnv = ''; render();
   toast(falha ? `${ok} enviada(s), ${falha} não foi(ram). Tente de novo.` : `${ok} foto(s) enviada(s). Já entram nas próximas artes.`);
 }
-V['rede-fotos'] = () => {
+// Fotos escolhidas do Drive (16/11/2026, conta Leandro): painel/fotos-lindson/escolhidas-2026-11-16/README.md
+const ESCOLHIDAS_1611 = Array.from({length:16},(_,i)=>`/painel/fotos-lindson/escolhidas-2026-11-16/lindson-${String(i+1).padStart(2,'0')}.jpg`);
+const blocoEscolhidas1611 = () => `<div class="card" style="margin-bottom:14px"><h3>Escolhidas do Drive · 16/11</h3><p class="sub">16 melhores de 225 (imagens geradas por IA: avisar na arte). Usou? Registre em Usadas. Recorte do busto para cima.</p><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:8px">${ESCOLHIDAS_1611.map(u=>`<a href="${u}" target="_blank"><img src="${u}" loading="lazy" style="width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:10px"></a>`).join('')}</div></div>`;
+V['rede-fotos'] = () => blocoEscolhidas1611() + rf1611();
+const rf1611 = () => {
   if (fotos === null) return `<div class="card"><p class="sub">Carregando suas fotos…</p></div>`;
   if (!fRemoto) return `<div class="card"><h3>Minhas fotos</h3><p class="sub" style="margin:0">O envio funciona no site da Central (lindsonalmeida.pages.dev), com o seu login de administrador.</p></div>`;
   const l = fotos.filter(f => !fFiltro || f.cat === fFiltro), usadas = [...new Set(fotos.map(f => f.cat))];
@@ -237,7 +241,51 @@ V['rede-fotos'] = () => {
      : '<p class="sub" style="margin:0">Nenhuma foto ainda. Use "Escolher fotos" acima.</p>'}</div>`;
 };
 
-Object.assign(T, { 'rede-fotos': 'Minhas fotos', rede: 'Minha rede · visão', 'rede-estrategia': 'Estratégia de conteúdo', 'rede-calendario': 'Calendário editorial', 'rede-lote': 'Gravação da semana', 'rede-leads': 'Leads das iscas', 'rede-relatorio': 'Relatório semanal', 'rede-artes': 'Artes' });
+// ---- 7b · Conteúdos (pedido do Lindson, 16/11/2026, conta Leandro): a aba Artes vira "Conteúdos", com sub-abas por formato
+// e tudo entra como "aguardando aprovação" (Aprovar / Reprovar), como nos painéis de cliente. A antiga tela (agenda e grid) fica na sub-aba "Agenda e grid".
+const V_ARTES_AGENDA = V['rede-artes'];
+const FMTS = [['carrossel', 'Carrossel'], ['post', 'Post'], ['reels', 'Reels / Vídeo'], ['stories', 'Stories'], ['capa', 'Capa e destaque']];
+const fmtDe = a => { const t = String(a.titulo || ''), d = String(a.data || ''), tl = a.telas || [];
+  if (d === 'perfil' || /^(Foto de perfil|Capas de destaque)/i.test(t)) return 'capa';
+  if (d === 'stories' || /^Stories\b/i.test(t)) return 'stories';
+  if (d === 'reels' || /^Reels\b|· Reels ·/i.test(t) || tl.some(x => /\.mp4$/.test(x))) return 'reels';
+  if (d === 'carrossel' || /Carrossel/i.test(t) || tl.length > 1) return 'carrossel';
+  return 'post'; };
+const linhaDe = a => { if (a.tag) return a.tag; const p = String(a.titulo || '').split(' · ');
+  if (/^Tweet/i.test(p[0])) return 'Tweet+notícia · ' + (p[1] || '').replace(/\s*\d+$/, '');
+  if (/^Reels 3D/i.test(p[0])) return 'Reels 3D'; if (/^(Reels|Post|Carrossel|Stories|Apresentação)$/i.test(p[0])) return 'Calendário de novembro';
+  return p[0].replace(/\s*\d+$/, ''); };
+const stCont = a => { const v = (D.artes || {})[chaveArte(a)] || {}; if (v.postado) return 'post';
+  if (v.st === 'aprovado') return 'apr'; if (v.st === 'reprovado' || v.st === 'ajuste') return 'rep'; if (a.st === 'reprovado') return 'rep'; return 'pend'; };
+const STC = [['pend', 'Aguardando aprovação', 'al'], ['apr', 'Aprovados', 'ok'], ['rep', 'Reprovados', 'er'], ['post', 'Postados', 'ne']];
+let abaFmt = 'carrossel', abaSt = 'pend', abaLinha = '';
+const cardCont = (a, k) => { const s = stCont(a), v = (D.artes || {})[chaveArte(a)] || {}, tl = a.telas || [a.img], vid = tl.length === 1 && /\.mp4$/.test(tl[0]);
+  const b = (t, x, cl) => `<button class="btn ${cl}" type="button" data-arte="${k}" data-acao="${x}" style="padding:6px 10px;font-size:12px">${t}</button>`;
+  const bts = s === 'pend' ? b('Aprovar', 'aprovado', 'am') + b('Reprovar', 'reprovado', 'lin') : s === 'apr' ? b('Marcar postado', 'postado', 'am') + b('Reprovar', 'reprovado', 'lin')
+    : s === 'rep' ? b('Aprovar mesmo assim', 'aprovado', 'lin') : b('Voltar para a postar', 'despostar', 'lin');
+  const ch = STC.find(x => x[0] === s);
+  return `<div class="card" style="padding:10px;display:flex;flex-direction:column${s === 'rep' || s === 'post' ? ';opacity:.72' : ''}">
+   ${vid ? `<video src="${esc(tl[0])}" poster="${esc(a.img)}" controls playsinline preload="none" style="width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:10px;display:block;background:#000"></video>` : `<a href="${esc(a.img)}" target="_blank" rel="noopener"><img loading="lazy" src="${esc(a.img)}" alt="${esc(a.titulo)}" style="width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:10px;display:block;background:var(--painel2)"></a>`}
+   ${tl.length > 1 ? `<div style="display:flex;gap:6px;overflow-x:auto;margin-top:8px">${tl.map(t => `<a href="${esc(t)}" target="_blank" rel="noopener">${/\.mp4$/.test(t) ? `<video src="${esc(t)}" muted playsinline preload="metadata" style="height:64px;border-radius:6px;display:block"></video>` : `<img loading="lazy" src="${esc(t)}" alt="tela" style="height:64px;border-radius:6px;display:block">`}</a>`).join('')}</div>` : ''}
+   <div style="display:flex;gap:6px;flex-wrap:wrap;margin:10px 0 6px"><span class="chip ${ch[2]}">${s === 'rep' && a.st === 'reprovado' && !v.st ? 'Reprovado (v1)' : ch[1]}</span><span class="chip ne">${esc(linhaDe(a))}</span>${tl.length > 1 ? `<span class="chip ne">${tl.length} telas</span>` : ''}</div>
+   <b style="display:block;line-height:1.3">${esc(String(a.titulo || '').replace(/^Tweet\+notícia · /, ''))}</b>${avisoArte(a)}
+   ${a.legenda ? `<details style="margin-top:6px"><summary style="cursor:pointer;color:var(--amarelo);font-weight:700;font-size:13px">${fmtDe(a) === 'stories' ? 'Roteiro de postagem' : 'Legenda'}</summary><pre style="white-space:pre-wrap;font:inherit;font-size:13px">${esc(a.legenda)}</pre></details>` : ''}
+   <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:auto;padding-top:10px">${bts}${a.legenda ? `<button class="btn lin" type="button" data-copialeg="${k}" style="padding:6px 10px;font-size:12px">Copiar legenda</button>` : ''}<a class="btn lin" download href="${esc(tl[0])}" style="padding:6px 10px;font-size:12px">Baixar</a></div></div>`; };
+V['rede-artes'] = () => { if (abaFmt === 'agenda') return abasCont() + V_ARTES_AGENDA();
+  const T0 = (R.artes || []).map((a, k) => [a, k]), doFmt = T0.filter(([a]) => fmtDe(a) === abaFmt), linhas = [...new Set(doFmt.map(([a]) => linhaDe(a)))];
+  if (abaLinha && !linhas.includes(abaLinha)) abaLinha = '';
+  const L = doFmt.filter(([a]) => stCont(a) === abaSt && (!abaLinha || linhaDe(a) === abaLinha));
+  const n = s => doFmt.filter(([a]) => stCont(a) === s).length, nl = l => doFmt.filter(([a]) => stCont(a) === abaSt && linhaDe(a) === l).length;
+  return abasCont() + `<div class="card"><div style="display:flex;gap:8px;flex-wrap:wrap">${STC.map(([k, t]) => `<button class="btn ${k === abaSt ? 'am' : 'lin'}" type="button" data-abast="${k}" style="padding:6px 11px;font-size:12.5px">${t} · ${n(k)}</button>`).join('')}</div>
+   ${linhas.length > 1 ? `<div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:12px;align-items:center"><span class="rot" style="margin-right:4px">Linha editorial</span><button class="chip ${abaLinha ? 'ne' : 'am'}" type="button" data-abalinha="" style="cursor:pointer;border:0">Todas</button>${linhas.map(l => `<button class="chip ${l === abaLinha ? 'am' : 'ne'}" type="button" data-abalinha="${esc(l)}" style="cursor:pointer;border:0">${esc(l)} · ${nl(l)}</button>`).join('')}</div>` : ''}</div>
+   ${L.length ? `<div class="grade g3">${L.map(([a, k]) => cardCont(a, k)).join('')}</div>` : `<div class="card"><p class="sub" style="margin:0">Nada aqui. Veja as outras situações acima.</p></div>`}`; };
+const abasCont = () => { const T0 = R.artes || [], pend = f => T0.filter(a => fmtDe(a) === f && stCont(a) === 'pend').length, tot = f => T0.filter(a => fmtDe(a) === f).length;
+  const tp = T0.filter(a => stCont(a) === 'pend').length;
+  return `<div class="grade g4">${kpi('Aguardando aprovação', tp, 'de ' + T0.length + ' conteúdos')}${kpi('Aprovados', T0.filter(a => stCont(a) === 'apr').length, 'prontos para postar')}${kpi('Reprovados', T0.filter(a => stCont(a) === 'rep').length, 'não vão ao ar')}${kpi('Postados', T0.filter(a => stCont(a) === 'post').length, 'marcados aqui')}</div>
+  <div class="card"><h3>Conteúdos do seu Instagram</h3><p class="sub">Separados por formato. Tudo chega como "aguardando aprovação": aprove ou reprove cada um.</p>
+   <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px">${FMTS.filter(([f]) => tot(f)).map(([f, t]) => `<button class="btn ${f === abaFmt ? 'am' : 'lin'}" type="button" data-abafmt="${f}" style="padding:7px 12px;font-size:13px">${t} <span style="opacity:.75">${tot(f)}${pend(f) ? ' · ' + pend(f) + ' a aprovar' : ''}</span></button>`).join('')}<button class="btn ${abaFmt === 'agenda' ? 'am' : 'lin'}" type="button" data-abafmt="agenda" style="padding:7px 12px;font-size:13px">Agenda e grid</button></div></div>`; };
+
+Object.assign(T, { 'rede-fotos': 'Minhas fotos', rede: 'Minha rede · visão', 'rede-estrategia': 'Estratégia de conteúdo', 'rede-calendario': 'Calendário editorial', 'rede-lote': 'Gravação da semana', 'rede-leads': 'Leads das iscas', 'rede-relatorio': 'Relatório semanal', 'rede-artes': 'Conteúdos' });
 
 // ---- ações (depois de cada tela)
 const ant = window.__pos;
@@ -245,11 +293,14 @@ window.__pos = view => {
   if (ant) ant(view);
   const $$ = s => document.querySelectorAll('#conteudo ' + s), $1 = s => document.querySelector('#conteudo ' + s);
   $$('[data-copialeg]').forEach(b => b.onclick = () => { const a = (R.artes || [])[+b.dataset.copialeg]; if (a && navigator.clipboard) navigator.clipboard.writeText(a.legenda); toast(a && a.data === 'stories' ? 'Roteiro copiado' : 'Legenda copiada'); });
+  $$('[data-abafmt]').forEach(b => b.onclick = () => { abaFmt = b.dataset.abafmt; abaLinha = ''; render(); });
+  $$('[data-abast]').forEach(b => b.onclick = () => { abaSt = b.dataset.abast; render(); });
+  $$('[data-abalinha]').forEach(b => b.onclick = () => { abaLinha = b.dataset.abalinha; render(); });
   $$('[data-abaarte]').forEach(b => b.onclick = () => { abaArte = b.dataset.abaarte; render(); });
   $$('[data-arte]').forEach(b => b.onclick = () => { const a = (R.artes || [])[+b.dataset.arte]; if (!a) return; const x = b.dataset.acao, ch = chaveArte(a);
     salva(d => { d.artes = d.artes || {}; const v = d.artes[ch] = d.artes[ch] || {};
       if (x === 'postado') { v.postado = true; v.em = new Date().toISOString(); v.por = 'Lindson'; } else if (x === 'despostar') { delete v.postado; delete v.em; delete v.por; v.st = 'aprovado'; } else v.st = x; },
-      { aprovado: 'Aprovada', ajuste: 'Pedido de ajuste registrado', postado: 'Marcada como postada', despostar: 'Voltou para a postar' }[x]); });
+      { aprovado: 'Aprovada', reprovado: 'Reprovada', ajuste: 'Pedido de ajuste registrado', postado: 'Marcada como postada', despostar: 'Voltou para a postar' }[x]); });
   $$('[data-agleg]').forEach(b => b.onclick = () => { const p = AG[+b.dataset.agleg]; if (p && navigator.clipboard) navigator.clipboard.writeText(p.legenda); toast('Legenda copiada'); });
   $$('[data-ag]').forEach(b => b.onclick = () => { const p = AG[+b.dataset.ag]; if (!p) return; const x = b.dataset.agacao, ch = 'ag:' + p.id;
     salva(d => { d.artes = d.artes || {}; const v = d.artes[ch] = d.artes[ch] || {};
