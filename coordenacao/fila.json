@@ -404,7 +404,7 @@
    "cli": "jaci",
    "tarefa": "3 stories automáticos por dia",
    "equipe": "Lindson",
-   "status": "livre",
+   "status": "andamento",
    "nota": "Parte 1 feita: roteiro de 90 stories (77 automáticos) em agencia/clientes/jaci-cunha/stories-automaticos/ (stories.json, ROTEIRO.md) e PDF no painel Jaci > Entregas. Próximo: parte 2 (artes 1080x1920 a partir de stories.json, composições dos destaques instagram-destaques/), depois parte 3 (agendar).",
    "partes": [
     {
@@ -420,8 +420,8 @@
      "status": "livre"
     }
    ],
-   "pegou": "Lindson 15/11 23:15",
-   "atualizado": "Lindson 15/11 23:40",
+   "pegou": "Zuleide (continuando a conta Lindson)",
+   "atualizado": "2026-11-16 08:05",
    "recebido": "Lindson 15/11 22:38"
   },
   {

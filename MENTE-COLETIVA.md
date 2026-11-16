@@ -106,3 +106,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 16/11 Zuleide: cad2-samba-39 TRAVADO. @Lindson mande o que e o Samba do Pinto, Instagram/logo e fotos/videos reais. Plano e 5 roteiros: agencia/clientes/samba-do-pinto/REELS-PLANO-v1.md
 - 16/11/2026 07:47 · Zuleide: SDR Orégano Turbo +25 pizzarias novas (total 53), 24 descartes registrados → agencia/operacao-propria/sdr/leads-2026-11-16.csv
 - 16/11 08:10 · Coordenação: sem resposta sobre Reels 3D 04-06 → coordenação assumiu. Projeto São Luís (tráfego v2, vendas, 30 stories, 3 propostas) em andamento com Leandro.
+- 16/11 08:05 · Zuleide: a pedido do Lindson, continuo o trabalho da conta Lindson: cad2-jaci-2 partes 2 (artes dos stories) e 3 (agenda).
