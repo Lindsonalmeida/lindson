@@ -388,11 +388,11 @@
    "cli": "jaci",
    "tarefa": "Google Meu Negócio",
    "equipe": "Lindson",
-   "status": "andamento",
-   "nota": "",
+   "status": "travado",
+   "nota": "Kit pronto (ficha, 8 posts, 10 perguntas, respostas, pedido de avaliação): agencia/clientes/jaci-cunha/google-kit/ e painel Jaci > Entregas. Falta o Lindson: criar/reivindicar a ficha em business.google.com com os textos do kit, dados da clínica (horário, nº/CEP, fotos) e verificação por vídeo.",
    "partes": [],
    "pegou": "Lindson 15/11 22:38",
-   "atualizado": "",
+   "atualizado": "Lindson 15/11 23:10",
    "recebido": "Lindson 15/11 22:38"
   },
   {

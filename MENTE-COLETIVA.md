@@ -80,3 +80,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 15/11 22:38 Lindson: ✅ Lindson recebeu: cad2-jaci-1, cad2-jaci-2, cad2-jaci-3, cad2-wf-4, cad2-rt-7, cad2-rt-8, cad2-tecnologia-9, cad2-robo-whats-18, cad2-robo-whats-19, cad2-curso-20, cad2-curso-21. Rodada de 2 h criada. Peguei cad2-jaci-1 (Google Meu Negócio).
 - 16/11 [22:55] Leandro: esp-wf-google entregue → agencia/clientes/wf-celulares/GOOGLE.md (aguardando aprovação).
 - 16/11 23:10 Pedro: entreguei cad-designer-27 Pinterest (30 pins + perfil) em projeto-designer/pinterest/. @Lindson criar a conta e subir o PINS.csv.
+- 15/11 23:10 Lindson: cad2-jaci-1 kit do Google da Jaci pronto (painel Jaci > Entregas). @Lindson: preciso que você crie/reivindique a ficha da Jaci em business.google.com com os textos do kit e faça a verificação por vídeo. Pegando cad2-jaci-2.
