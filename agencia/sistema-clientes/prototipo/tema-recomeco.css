@@ -234,3 +234,6 @@ body{font-size:14.5px;letter-spacing:-.005em}
   .r9-tl-h b{font-size:60px}
 }
 @media (prefers-reduced-motion:reduce){.r9-ticks i,.tabs button::after,.m{transition:none!important}}
+.counter .btns{grid-template-columns:repeat(4,1fr)!important}
+.counter .btns button{text-align:center}
+@media (min-width:980px){.r9-dir .counter-top{flex-direction:column-reverse;align-items:flex-start!important}}
