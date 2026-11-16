@@ -47,3 +47,8 @@ Quer que eu te mande como funciona?
 Vereador [Nome], o Thiago Azevedo, do Tribuna 98, me passou seu contato.
 Cuido de Instagram, vídeos, identidade visual e site, do roteiro à postagem.
 Te mando os detalhes?
+
+## v5 (texto base do Lindson: 14 anos, mandato e aquecimento 2028)
+Vereador [Nome], sou o Lindson. O Thiago Azevedo, do Tribuna 98, me passou seu contato.
+Trabalho há 14 anos com gestão de marketing e redes sociais, e acredito que posso contribuir muito com o seu mandato e com o aquecimento para 2028.
+Posso te mandar uma proposta?
