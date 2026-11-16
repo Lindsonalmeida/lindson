@@ -43,3 +43,8 @@ Escolhidas (3): 1) referência do Lindson (BR, panorama de 3 fixados: benefício
 Também vistas: Dribbble "instagram grid tech" (vários países), panorama de fixados anterior da WF (Apple split grid, keynote).
 Descartadas: Behance e Mac Center PH (página não carregou na captura); neon azul e logo 3D cromado da referência (fora da identidade aprovada).
 Capturas: `painel-fixado/referencias/`.
+
+## Capas dos Reels postados (conta Pedro, 16/11/2026) · feed xadrez
+Escolhidas: 1) apple.com/iphone-17-pro (EUA): produto em palco, título gigante, preço embaixo; 2) Back Market (França): preço em bloco de cor; 3) Swappie (Finlândia): vitrine clara de seminovo, alternada com a escura.
+Vistas: iShop Mixup (México), iStyle (Emirados), Samsung Unpacked (Coreia), Nothing (Reino Unido), Refurbed (Áustria) · revisão das capturas de `pesquisa/capturas-escuras/` e `painel-fixado/referencias/`.
+Descartadas: estilo atual dos Reels (tarja rosa/vermelha "APENAS", Apple amarela), muito promoção de camelô; Refurbed (cartão de e-commerce).

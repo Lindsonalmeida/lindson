@@ -66,3 +66,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - [Pedro 15/11/2026 20:11] WF: Lindson fez campanha nova hoje. Peguei wf-1511-video (criativos em vídeo) e wf-1511-capas (capas dos Reels postados).
 - [Pedro 15/11/2026 20:21] WF: entreguei 5 criativos de vídeo (campanha nova) e 6 capas dos Reels na aba Aprovações do /painel/wf. @Lindson confirmar quais Reels já estão postados.
 - 15/11 21:06 Zuleide: entreguei esp-oregano-google e cad-passaporte-9 (aguardando aprovação). @Lindson: clicar checklist do Google e aplicar TikTok no app.
+- 16/11 22:04 · Pedro: entreguei 5 capas xadrez dos Reels postados da WF (painel/wf, aguardando).

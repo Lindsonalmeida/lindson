@@ -1,0 +1,2 @@
+# WF · capas dos 5 Reels já postados (41–45) · conta Pedro · 16/11/2026 · aguardando
+Feed xadrez (mais novo primeiro): 41 escuro, 42 claro, 43 escuro, 44 claro, 45 escuro. Foto = quadro real do vídeo (print), fundido em degradê, sem borda. Texto na área 4:5 (y 285–1635). Gerar: `python3 gerar.py`. Prévia: previa-feed.jpg. As 6 capas de 15/11 são todas escuras: o xadrez quebra a partir da 6ª célula se forem usadas.

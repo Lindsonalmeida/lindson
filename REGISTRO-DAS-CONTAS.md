@@ -331,3 +331,4 @@ Levantado pela conta Lindson em 01/11/2026 a partir do histórico do git e dos a
 | 15/11/2026 | Lindson | [20:11] WF: criou campanha nova, subiu criativos novos e reajustou a estratégia (feito por ele) | Meta Ads | feito |
 | 15/11/2026 | Pedro | [20:21] WF: 5 criativos de vídeo da campanha nova + 6 capas dos Reels (9:16, recorte 4:5) | agencia/clientes/wf-celulares/criativos-video-1511/ e capas-reels/ · privado painel/wf/ | aguardando aprovação |
 | 15/11/2026 [21:06] | Zuleide | Orégano: GOOGLE.md (Perfil da Empresa) + Passaporte: TikTok README | agencia/operacao-propria/GOOGLE.md, conteudo/youtube/passaporte/tiktok/README.md, painéis | aguardando aprovação |
+| 16/11/2026 [22:04] | Pedro | WF: 5 capas dos Reels postados (41–45) em feed xadrez + prévia do grid | agencia/clientes/wf-celulares/capas-reels-postados/ e /painel/wf | aguardando |
