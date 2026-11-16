@@ -1,3 +1,5 @@
+> Rascunho: o tráfego da extensão era o do Bio que Vende; vale como base para quando a RT rodar.
+
 # Prompt para a extensão do Chrome · Real Time Full Jobs · REVISAR e otimizar (v2)
 (conta Pedro, 16/11/2026; estratégia em ESTRATEGIA-V2.md)
 

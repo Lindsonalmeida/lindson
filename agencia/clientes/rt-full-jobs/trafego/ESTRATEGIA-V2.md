@@ -1,3 +1,5 @@
+> Rascunho: o tráfego da extensão era o do Bio que Vende; vale como base para quando a RT rodar.
+
 # Estratégia de tráfego v2 · Real Time Full Jobs (conta Pedro, 16/11/2026)
 
 Revisa a v1 que a extensão do Chrome está montando (`PROMPT-EXTENSAO-META.md`: R$ 20/dia, raio 8 km da Cohama, 3 campanhas, Reels já postados). Comparada com a Orégano (`agencia/operacao-propria/trafego/`). Agentes: Traffic Chief, Pedro Sobral, Molly Pittman, Depesh Mandalia, Media Buyer, Pixel Specialist, Fiscal, Creative Analyst, Hormozi Ads, Donald Miller.
