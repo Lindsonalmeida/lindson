@@ -340,3 +340,4 @@ Levantado pela conta Lindson em 01/11/2026 a partir do histórico do git e dos a
 | 15/11/2026 | Lindson | [23:40] Dra. Jaci: roteiro de 3 stories por dia por 30 dias (90 stories, 77 automáticos, CFO) | agencia/clientes/jaci-cunha/stories-automaticos/ · painel Jaci > Entregas | aguardando aprovação |
 | 16/11/2026 | Leandro | SEO técnico de 7 sites (títulos, descrições, alt, canonical, JSON-LD, sitemap) e 8 páginas de bairro da Desentupidora SF | agencia/processos/seo-sites-checklist.md | no ar |
 | 16/11/2026 | Leandro | SEO local grátis: AVALIACOES.md (6 clientes), 16 artigos (SF, Jaci, Real Time, WF) em clientes/<cli>/artigos e no ar em /dicas/, processos/links-gratis.md | agencia/processos/artigos-seo/ | pronto |
+| 16/11/2026 [23:01] | Pedro | SF: 4 criativos estáticos (feed+story) + site reorganizado (urgência, vaso/ralo/caixa de gordura, prova, área) publicado | agencia/clientes/desentupidora-sf/criativos-16-11/, GruposSF, painel/sf | aguardando aprovação |

@@ -12,3 +12,4 @@
 | 14/11 | motion-sf-14-11/v2/03 | IA: v3-box-alagado, v3-tecnico-ralo | IA |
 | 14/11 | motion-sf-14-11/v2/04 | IA: v4-pia-cheia, v4-pia-escoando, v4-mulher-cozinha (recortada) | IA |
 | 14/11 | motion-sf-14-11/v2/05 | IA: v5-caixa-gordura, v5-dono-restaurante (recortado), v5-tecnico-gordura | IA |
+| 16/11 | criativos-16-11 (4 feed+story) | IA: c1 técnico vaso, c2 ralo, c3 caixa de gordura, c4 mulher pia | Stable Horde · Juggernaut XL |

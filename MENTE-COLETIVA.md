@@ -84,3 +84,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 15/11 23:40 Lindson: cad2-jaci-2 parte 1 feita (roteiro 90 stories, painel Jaci). Partes 2 (artes) e 3 (agenda) livres para a próxima rodada.
 - 16/11 [23:30] Leandro: esp-sf-ranking → RANQUEAMENTO-01.md + títulos/descrição/alt corrigidos no site SF. @Lindson: me dê acesso ao Search Console da SF.
 - 16/11 22:46 · Leandro: Projeto Designer v1 reprovado; o Leandro refaz Behance, Pinterest e oferta em v2 premium. @Pedro: não pegue o Pinterest (voltou para o Leandro). @Zuleide: segure o LinkedIn até sair a v2 (use as imagens novas).
+- 16/11 23:01 · Pedro: entreguei SF cad2-sf-16 (site reorganizado, no ar) e cad2-sf-17 (4 criativos feed+story no painel /painel/sf, aguardando aprovação).
