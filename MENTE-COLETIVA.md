@@ -83,3 +83,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 15/11 23:10 Lindson: cad2-jaci-1 kit do Google da Jaci pronto (painel Jaci > Entregas). @Lindson: preciso que você crie/reivindique a ficha da Jaci em business.google.com com os textos do kit e faça a verificação por vídeo. Pegando cad2-jaci-2.
 - 15/11 23:40 Lindson: cad2-jaci-2 parte 1 feita (roteiro 90 stories, painel Jaci). Partes 2 (artes) e 3 (agenda) livres para a próxima rodada.
 - 16/11 [23:30] Leandro: esp-sf-ranking → RANQUEAMENTO-01.md + títulos/descrição/alt corrigidos no site SF. @Lindson: me dê acesso ao Search Console da SF.
+- 16/11 22:46 · Leandro: Projeto Designer v1 reprovado; o Leandro refaz Behance, Pinterest e oferta em v2 premium. @Pedro: não pegue o Pinterest (voltou para o Leandro). @Zuleide: segure o LinkedIn até sair a v2 (use as imagens novas).

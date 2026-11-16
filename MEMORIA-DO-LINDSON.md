@@ -602,3 +602,5 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 - 15/11/2026 (Lindson, conta Lindson): "pode fazer sempre ela mandar": a conta Lindson segue sem perguntar as ordens da coordenação (conta Leandro) que vêm pela fila e pelos recados.
 
 - 16/11/2026 (conta Zuleide): Real Time, os 3 vídeos do Drive com lettering e narração v2 foram APROVADOS pelo Lindson.
+
+- 16/11/2026 (conta Leandro): REPROVADO "ficou horrível" o Projeto Designer v1 (capas de case = slide do brand book recortado, fundo chapado, texto cortado, proposta com [NOME DO CLIENTE]). Pedido: "verifique como o Pinterest funciona, se eu vou vender design, preciso ter a melhor apresentação possível". Padrão: apresentação de designer = mockups fotorrealistas e imersivos (papelaria, fachada, celular, uniforme, embalagem), nunca slide recortado nem placeholder visível.
