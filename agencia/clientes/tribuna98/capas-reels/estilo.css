@@ -1,0 +1,36 @@
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#111}
+.c{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:Anton,sans-serif;color:#fff}
+.p{position:absolute;z-index:3;filter:drop-shadow(0 30px 40px rgba(0,0,0,.45))}
+.grao{position:absolute;inset:0;z-index:9;pointer-events:none;opacity:.06;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)'/%3E%3C/svg%3E")}
+.top{position:absolute;left:70px;right:70px;top:430px;z-index:6;display:flex;justify-content:space-between;align-items:center}
+.logo{height:74px;filter:drop-shadow(0 4px 10px rgba(0,0,0,.4))}
+.logo.azul{filter:brightness(0) saturate(100%) invert(14%) sepia(91%) saturate(4400%) hue-rotate(228deg) brightness(80%)}
+.tag{background:#ffd400;color:#061a5e;font-size:40px;padding:8px 22px;letter-spacing:2px}
+.h{position:absolute;left:70px;right:70px;z-index:7;text-transform:uppercase;line-height:.92}
+.rod{position:absolute;left:0;right:0;top:1520px;z-index:7;text-align:center;font:800 30px Manrope,sans-serif;letter-spacing:6px;opacity:.85}
+.sombra{position:absolute;left:0;right:0;bottom:0;height:1000px;z-index:4;background:linear-gradient(transparent,rgba(4,14,52,.75) 45%,#040e34 80%)}
+/* A telejornal */
+.A{background:radial-gradient(circle at 50% 38%,#1d5cff 0,#0b3fd6 30%,#0a2fa8 55%,#061a5e 100%)}
+.A .luz{position:absolute;left:190px;top:420px;width:700px;height:700px;border-radius:50%;background:radial-gradient(#ffd400aa,transparent 65%);z-index:1;filter:blur(30px)}
+.A .vaz{position:absolute;top:560px;left:-40px;right:-40px;text-align:center;font-size:330px;color:transparent;-webkit-text-stroke:3px rgba(255,212,0,.35);z-index:2;letter-spacing:4px}
+.A .h{top:1100px}
+.A .l1{font-size:150px;text-shadow:0 8px 24px rgba(0,0,0,.5)}
+.A .l2 span{display:inline-block;background:#ffd400;color:#061a5e;font-size:150px;padding:6px 26px 0;margin-top:14px;transform:rotate(-1.5deg)}
+/* B palavra atras */
+.B{background:radial-gradient(circle at 50% 40%,#ffe34d,#ffd400 45%,#f2b800)}
+.B .gig{position:absolute;top:590px;left:-30px;right:-30px;text-align:center;font-size:310px;line-height:1;color:#0b3fd6;z-index:2;letter-spacing:-2px;white-space:nowrap}
+.B .sombraB{position:absolute;left:0;right:0;bottom:0;height:820px;z-index:4;background:linear-gradient(transparent,rgba(6,26,94,.6) 35%,#061a5e 70%)}
+.B .h{top:1130px;text-align:center}
+.B .l1{font-size:140px;color:#fff;text-shadow:0 8px 20px rgba(0,0,0,.45)}
+.B .l2 span{display:inline-block;background:#fff;color:#0b3fd6;font-size:140px;padding:6px 26px 0;margin-top:12px}
+/* C dossie */
+.C{background:linear-gradient(160deg,#0a2fa8,#061a5e 50%,#030b2b)}
+.C .faixa{position:absolute;right:0;top:0;bottom:0;width:300px;background:#ffd400;z-index:1}
+.C .num{position:absolute;right:30px;top:1000px;font-size:420px;color:#061a5e;opacity:.18;z-index:2;line-height:1}
+.C .h{top:1070px}
+.C .tag2{display:inline-block;font:800 34px Manrope,sans-serif;letter-spacing:5px;color:#ffd400;border:3px solid #ffd400;padding:8px 20px;margin-bottom:22px}
+.C .l1{font-size:140px}
+.C .l2{font-size:140px;color:#ffd400}
+.C .lt{margin-top:26px;background:#fff;color:#061a5e;font:500 30px Manrope,sans-serif;padding:14px 22px;display:inline-block;text-transform:none}
+.C .lt b{font-weight:800}
