@@ -123,11 +123,11 @@ open(os.path.join(OUT, 'painel', 'admin.html'), 'w').write(doc(a))
 #      Na primeira vez, traz os dados do app antigo do claude.ai (dados/importar/<app>/, repositório privado).
 VOLTA = '<a href="/painel/admin" style="position:fixed;left:12px;bottom:12px;z-index:2147483000;background:#F5C518;color:#0A0A0A;font:700 13px system-ui;padding:9px 14px;border-radius:99px;text-decoration:none;box-shadow:0 8px 24px -8px #000">← Central</a>'
 SHIM = open(os.path.join(SC, 'prototipo', 'claude-shim.js')).read()
-def app_na_central(fonte, saida, importar=None, temas=('tema-central.css',)):
+def app_na_central(fonte, saida, importar=None, temas=('tema-central.css',), scripts=()):
     h = open(fonte).read()
     cab = (f"<script>window.__IMPORTAR={json.dumps(importar)}</script>" if importar else '') + '<script>\n' + SHIM + '\n</script>'
     h = re.sub(r'(<head[^>]*>)', lambda m: m.group(1) + cab, h, count=1, flags=re.I) if re.search(r'<head[^>]*>', h, re.I) else cab + h
-    tema = ''.join('<style>' + open(os.path.join(SC, 'prototipo', t)).read() + '</style>' for t in temas)
+    tema = ''.join('<style>' + open(os.path.join(SC, 'prototipo', t)).read() + '</style>' for t in temas) + ''.join('<script>\n' + open(os.path.join(SC, 'prototipo', j)).read() + '\n</script>' for j in scripts)
     volta = VOLTA.replace('<a href', '<a id="volta-central" href') + '<script>if(window.top!==window){var v=document.getElementById("volta-central");if(v)v.remove()}</script>'
     h = re.sub(r'(</body>)', lambda m: tema + volta + m.group(1), h, count=1, flags=re.I) if re.search(r'</body>', h, re.I) else h + tema + volta
     open(os.path.join(OUT, 'painel', saida), 'w').write(doc(h))
@@ -141,7 +141,7 @@ def importar_js(pasta, base, saida):
     open(os.path.join(OUT, 'painel', saida), 'w').write('window.__DADOS_IMPORTAR=' + json.dumps(docs, ensure_ascii=False) + ';')
     return len(docs)
 APPS_DIR = os.path.join(SC, '..', 'app')
-app_na_central(os.path.join(APPS_DIR, 'recomeco90.html'), 'recomeco.html', {'script': '/painel/r90-importar.js', 'marca': 'data/users/lindson/progresso'})
+app_na_central(os.path.join(APPS_DIR, 'recomeco90.html'), 'recomeco.html', {'script': '/painel/r90-importar.js', 'marca': 'data/users/lindson/progresso'}, ('tema-central.css', 'tema-recomeco.css'), ('movimento.js', 'recomeco-layout.js'))  # v2 desktop + visual editorial (conta Leandro, 16/11/2026)
 if os.path.isdir(os.path.join(DADOS, 'importar', 'r90')): print('recomeco: importar', importar_js(os.path.join(DADOS, 'importar', 'r90'), 'data/users/lindson', 'r90-importar.js'), 'documentos')
 app_na_central(os.path.join(APPS_DIR, 'fabrica.html'), 'fabrica.html', {'script': '/painel/fabrica-importar.js', 'marca': 'app/config'}, ('tema-central.css', 'tema-fabrica.css'))
 if os.path.isdir(os.path.join(DADOS, 'importar', 'fabrica')): print('fabrica: importar', importar_js(os.path.join(DADOS, 'importar', 'fabrica'), '', 'fabrica-importar.js'), 'documentos')
