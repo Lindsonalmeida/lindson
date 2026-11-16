@@ -6,3 +6,4 @@ Derivative work:  Aristeas · CC BY 4.0 · Wikimedia Commons
 - arco-concreto.jpg · "Fromberg Concrete Arch Bridge.jpg" · Jet Lowe · Public domain · Wikimedia Commons
 - servidores.jpg · "Server Room (22397102849).jpg" · Carl Lender from Sunrise, USA · CC BY 2.0 · Wikimedia Commons
 - servidores-2.jpg · "PDC server room.jpg" · Esquilo · CC BY-SA 3.0 · Wikimedia Commons
+- estudio-video.jpg · "Multi-camera video production setup.jpg" · Ntchi · CC BY 4.0 · Wikimedia Commons
