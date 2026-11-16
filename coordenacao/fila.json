@@ -64,11 +64,11 @@
    "cli": "passaporte",
    "tarefa": "Organizar TikTok",
    "equipe": "Zuleide",
-   "status": "livre",
+   "status": "andamento",
    "nota": "",
    "partes": [],
-   "pegou": "",
-   "atualizado": ""
+   "pegou": "Zuleide 15/11 21:04",
+   "atualizado": "15/11 21:04"
   },
   {
    "id": "cad-passaporte-10",
@@ -824,11 +824,11 @@
    "cli": "oregano",
    "tarefa": "Orégano: escrever GOOGLE.md (Perfil da Empresa: Pizzaria, delivery, cardápio) no modelo de jaci-cunha/GOOGLE.md (guia agencia/especialista/google-meu-negocio)",
    "equipe": "Zuleide",
-   "status": "livre",
+   "status": "andamento",
    "nota": "",
    "partes": [],
-   "pegou": "",
-   "atualizado": ""
+   "pegou": "Zuleide 15/11 21:04",
+   "atualizado": "15/11 21:04"
   },
   {
    "id": "esp-oregano-seo",
