@@ -178,3 +178,5 @@ Resumo próprio. **Regra anunciada segundo o vídeo (confirmar na Central de Aju
 - Combine com os outros agentes quando fizer sentido: Hormozi Offers (produto/isca), Donald Miller (mensagem), Pedro Sobral (tráfego para a isca), copy-squad (títulos e ganchos).
 
 - **14/11/2026 (Pedro):** o produto do Raposa e Leão (*Manual de Campo*) segue o modelo de isca grátis no comentário fixado; os Shorts entregam a lição inteira e só citam o produto no fim.
+
+- REGRA RÍGIDA (Lindson, 16/11/2026): antes de qualquer ação, pesquise todas as diretrizes já dadas sobre o pedido (repositório e todos os branches, privado CentralLindsonALmeida, MEMORIA-DO-LINDSON.md, MENTE-COLETIVA, REGISTRO, agentes). "Eu já dei tudo."

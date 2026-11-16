@@ -64,3 +64,5 @@ Lance a entrega em **Tarefas feitas** da Central (cliente, data e hora, `acao:"f
 - "Está completo?" é pergunta, não aprovação: só registrar aprovação quando ele disser "aprovado".
 - SDR Orégano: 30 pizzarias/dia com capacidade de compra (`operacao-propria/sdr/PUBLICO-ALVO.md`), aba no painel e rotina diária 07:40.
 - Rodada de 2h da coordenação: `coordenacao/PROMPT-EQUIPE.md`, no máximo 2 itens, travar em `fila.json` antes.
+
+- REGRA RÍGIDA (Lindson, 16/11/2026): antes de qualquer ação, pesquise todas as diretrizes já dadas sobre o pedido (repositório e todos os branches, privado CentralLindsonALmeida, MEMORIA-DO-LINDSON.md, MENTE-COLETIVA, REGISTRO, agentes). "Eu já dei tudo."

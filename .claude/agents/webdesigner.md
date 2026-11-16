@@ -231,3 +231,5 @@ Referência obrigatória de nível: Al Kántara Group v2 (agencia/marca-holding/
 - 16/11/2026 (MEMORIA, conta Leandro): "sem vida" = reprovado. Toda página precisa de imagem forte em camadas e energia (manchete condensada gigante, cor saturada, contraste máximo); nada de fundo vazio com serifa fina.
 
 - 16/11/2026 (Lindson, campanha advogado, conta Zuleide): pedido "deixe mais clean e rico, sem nada de pobre" após v4c com fitas/neon. Leitura aplicada na v5: luxo editorial, foto cinematográfica protagonista, preto + 1 acento champagne, serifa elegante grande e legível, CTA discreto com fio fino, sem fitas/selos/neon. (v5 aguardando aprovação.)
+
+- REGRA RÍGIDA (Lindson, 16/11/2026): antes de qualquer ação, pesquise todas as diretrizes já dadas sobre o pedido (repositório e todos os branches, privado CentralLindsonALmeida, MEMORIA-DO-LINDSON.md, MENTE-COLETIVA, REGISTRO, agentes). "Eu já dei tudo."
