@@ -310,20 +310,20 @@
    "cli": "designer",
    "tarefa": "Pinterest",
    "equipe": "Pedro",
-   "status": "andamento",
-   "nota": "[dividido pelo coordenador em 16/11 22:30: Behance e oferta ficam com o Leandro; Pinterest com o Pedro]",
+   "status": "aguardando aprovação",
+   "nota": "[dividido pelo coordenador em 16/11 22:30: Behance e oferta ficam com o Leandro; Pinterest com o Pedro] [Pedro 16/11: perfil, 6 pastas, 30 pins, PINS.csv e prancha em agencia/marca-lindson/projeto-designer/pinterest/; falta o Lindson criar a conta e subir]",
    "partes": [
     {
      "p": "Perfil e 6 pastas com descrição SEO (nome do projeto em agencia/marca-lindson/projeto-designer/)",
-     "status": "livre"
+     "status": "feito (Pedro 16/11)"
     },
     {
      "p": "30 pins 1000x1500 a partir dos cases do Behance (pasta projeto-designer/behance/)",
-     "status": "livre"
+     "status": "feito (Pedro 16/11)"
     }
    ],
    "pegou": "Pedro 15/11 22:37",
-   "atualizado": "",
+   "atualizado": "Pedro 16/11 23:10",
    "recebido": "Pedro 15/11 22:37"
   },
   {

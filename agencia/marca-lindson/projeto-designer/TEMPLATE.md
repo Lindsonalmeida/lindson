@@ -16,3 +16,7 @@
 | Behance Best of Branding | Global | https://www.behance.net/galleries/graphic-design/branding | Cases em destaque: capa limpa, 8 a 12 módulos, último com créditos. | Aproveitado: tamanho de módulos e módulo de créditos. |
 
 **3 combinadas:** Koto (ordem dos módulos do case) + Porto Rocha (tipografia gigante e frase-conceito) + Collins (página que vende processo, sem preço). Tudo na identidade do Lindson (preto #0A0A0A, amarelo #F5C518, Anton + Manrope). Estudo, sem copiar layout, foto ou texto.
+
+## Pinterest (conta Pedro, 16/11/2026)
+Perfis de estúdios estudados: Pentagram (EUA/UK), Koto (UK), Porto Rocha (EUA/BR), Collins (EUA), Mucho (Espanha), Futura (México), Studio Dumbar (Holanda), Lundgren+Lindqvist (Suécia).
+**Escolhidas:** Koto (pin vertical com imagem do case em cima + bloco de título), Porto Rocha (tipografia gigante em cor chapada), Pentagram (colagem de aplicações). **Aproveitadas:** Collins (full-bleed + tarja), Brand New (faixas antes/depois). **Descartadas:** Lundgren+Lindqvist (branco demais), Dumbar (motion), Futura (moda).
