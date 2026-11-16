@@ -1,6 +1,6 @@
 # Padrão escuro da Barzakh (conta Leandro, 16/11/2026), a partir da peça APROVADA pelo Lindson:
 # marca/aprovado/placa-arco-monolito-ouro.png (placa em arco grafite no concreto, monolito em ouro escovado,
-# brilho Lápis difuso, BARZAKH em Instrument Serif dourada espaçada, "UM ESTÚDIO AL KÁNTARA" em JetBrains Mono).
+# brilho Lápis difuso, BARZAKH em Fraunces dourada espaçada, "UM ESTÚDIO AL KÁNTARA" em JetBrains Mono).
 # Ouro, concreto, arco, grão e luz de janela copiados de marca/gerador/manual.py (mockup 5.8).
 import base64
 B = '/home/user/lindson/agencia/marca-lindson/projeto-designer/v3/marca'
@@ -10,7 +10,12 @@ GRAF = '#1b1d22'
 CONCRETO = 'file://' + B + '/gerador/trat/ando-pedra.jpg'
 APROVADA = B + '/aprovado/placa-arco-monolito-ouro.png'
 OURO = 'linear-gradient(115deg,#7a5e2f 0%,#d9bd84 22%,#8c6c38 40%,#e8d3a2 55%,#94733d 72%,#c9a86c 100%)'
-FONTS = 'https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700;800&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap'
+FONTS = 'https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700;800&family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=JetBrains+Mono:wght@400;500&display=swap'
+
+KV2 = open('/home/user/lindson/agencia/marca-holding/v2/logos/svg/alkantara-simbolo-mono-branco.svg').read()
+def kv2(px, cor=BR):  # o K (pedra-chave) da Al Kántara v2, pequeno, ao lado do endosso
+    return KV2.replace('#FFFFFF', cor).replace('<svg ', f'<svg style="width:{px}px;height:{px}px;display:inline-block;vertical-align:-.12em;margin-right:.7em" ', 1)
+ENDOSSO = lambda px=13, cor=BR: f'{kv2(px, cor)}UM ESTÚDIO AL KÁNTARA'
 
 def mask(n):
     return "url('data:image/svg+xml;base64," + base64.b64encode(open(f'{S}/barzakh-{n}.svg').read().encode()).decode() + "')"
@@ -42,7 +47,7 @@ def placa(s=1.0):
              f'<div class="paper" style="position:absolute;inset:0;opacity:.6"></div><div class="beam" style="left:120px;top:250px;width:440px;height:300px;opacity:.75"></div>'
              f'{mono(340, 170, 110)}'
              f'<div class="foil" style="position:absolute;left:150px;top:470px;width:380px;height:80px;-webkit-mask-image:{mask("logotipo-mono-branco")};mask-image:{mask("logotipo-mono-branco")}"></div>'
-             f'<div style="position:absolute;left:0;right:0;top:580px;text-align:center;font:400 13px JetBrains Mono;letter-spacing:.2em;color:{BR}">UM ESTÚDIO AL KÁNTARA</div></div>')
+             f'<div style="position:absolute;left:0;right:0;top:580px;text-align:center;font:400 13px JetBrains Mono;letter-spacing:.2em;color:{BR}">{ENDOSSO(13)}</div></div>')
     return f'<div style="position:relative;width:{W*s}px;height:{W*s}px"><div style="position:absolute;left:0;top:0;width:{W}px;height:{W}px;transform:scale({s});transform-origin:0 0">{inner}</div></div>'
 
 def parede(w, h, luz=.85):
@@ -54,7 +59,7 @@ def cartao(w, h, verso=False):
         return (f'<div class="paper" style="position:relative;width:{w}px;height:{h}px;background-color:#101218;border-radius:4px;overflow:hidden;box-shadow:0 2px 2px rgba(0,0,0,.4),0 26px 40px rgba(0,0,0,.55)">'
                 f'<div class="beam" style="left:{w*.2}px;top:{h*.2}px;width:{w*.6}px;height:{h*.6}px;opacity:.5"></div>{mono(h*.6, w/2-h*.3, h*.2)}</div>')
     return (f'<div class="paper" style="position:relative;width:{w}px;height:{h}px;background-color:#16181d;color:{MA};border-radius:4px;overflow:hidden;box-shadow:0 2px 2px rgba(0,0,0,.4),0 26px 40px rgba(0,0,0,.55);padding:{h*.12}px">'
-            f'<div style="font:400 {h*.13}px Instrument Serif">Lindson Almeida</div><div style="font:500 {h*.045}px JetBrains Mono;letter-spacing:.16em;margin-top:6px;color:{BR}">DIREÇÃO CRIATIVA</div>'
+            f'<div style="font:400 {h*.13}px Fraunces">Lindson Almeida</div><div style="font:500 {h*.045}px JetBrains Mono;letter-spacing:.16em;margin-top:6px;color:{BR}">DIREÇÃO CRIATIVA</div>'
             f'<div style="position:absolute;left:{h*.12}px;bottom:{h*.12}px;font-size:{h*.058}px;line-height:1.5;opacity:.8">@barzakhstudio<br>São Luís · Maranhão</div>'
             f'<div class="foil" style="position:absolute;right:{h*.12}px;bottom:{h*.12}px;width:{h*.42}px;height:{h*.1}px;-webkit-mask-image:{mask("logotipo-mono-branco")};mask-image:{mask("logotipo-mono-branco")}"></div></div>')
 
@@ -75,5 +80,5 @@ def rodape_pin(titulo, sub, h=190):
     """Faixa escura de rodapé do pin: Obsidiana/grafite com grão, título serifa marfim, monolito em ouro."""
     return (f'<div class="grain paper" style="position:absolute;left:0;right:0;bottom:0;height:{h}px;background-color:{GRAF};border-top:1px solid rgba(180,147,90,.35);padding:0 56px;display:flex;justify-content:space-between;align-items:center;gap:30px;overflow:hidden">'
             f'<div class="beam" style="right:-60px;top:-40px;width:360px;height:280px;opacity:.55"></div>'
-            f'<div style="position:relative;min-width:0"><div style="font:400 50px/1.05 Instrument Serif;color:{MA}">{titulo}</div><div style="margin-top:12px;font:500 14px JetBrains Mono;letter-spacing:.18em;text-transform:uppercase;color:{BR}">{sub}</div></div>'
+            f'<div style="position:relative;min-width:0"><div style="font:400 50px/1.05 Fraunces;color:{MA}">{titulo}</div><div style="margin-top:12px;font:500 14px JetBrains Mono;letter-spacing:.18em;text-transform:uppercase;color:{BR}">{sub}</div></div>'
             f'<div style="position:relative;text-align:center;flex:none">{mono_inline(78)}<div style="margin-top:10px;font:500 12px JetBrains Mono;letter-spacing:.2em;color:{BR}">BARZAKH</div></div></div>')

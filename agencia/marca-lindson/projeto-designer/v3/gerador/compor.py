@@ -15,7 +15,7 @@ OFF, INK, AMB, LAP = '#EEEAE2', '#0A0C10', '#B4935A', '#2B3A8F'
 CASES = [('leo-pinto', 'leo'), ('real-time', 'realtime'), ('processo-legislativo', 'curso'), ('wf-celulares', 'wf'), ('oregano-turbo', 'oregano'), ('duble', 'duble')]
 spec2 = importlib.util.spec_from_file_location('ct', os.path.join(HERE, '../../gerador/conteudo.py')); ct = importlib.util.module_from_spec(spec2); spec2.loader.exec_module(ct)
 INFO = {c['id']: c for c in ct.CASES}
-FONTS = 'https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@500&display=swap'
+FONTS = 'https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;700&family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=JetBrains+Mono:wght@500&display=swap'
 CSS = dk.CSS + f'*{{box-sizing:border-box;margin:0}}body{{background:{OFF};color:{INK};font-family:Inter Tight}}.m{{position:relative;overflow:hidden}}.lbl{{font:500 15px "JetBrains Mono";letter-spacing:.18em;text-transform:uppercase}}img{{display:block}}'
 
 def f(p): return 'file://' + p
@@ -31,7 +31,7 @@ def modulos(cid, k):
     mods.append(('02-conceito', 760, f'''<div class="grain" style="position:absolute;inset:0;background:{dk.OB}"><div class="conc" style="position:absolute;inset:0;opacity:.22"></div><div class="win" style="opacity:.6"></div><div class="beam" style="left:760px;top:120px;width:700px;height:520px;opacity:.6"></div></div>
 <div style="position:relative;padding:110px 120px;height:100%;display:flex;flex-direction:column;justify-content:space-between;color:{dk.MA}">
 <div style="display:flex;justify-content:space-between;color:{dk.BR}" class="lbl"><span>{e(nome)}</span><span>{e(I["cliente"])}</span><span>2026</span></div>
-<div style="font:400 104px/1 'Instrument Serif';letter-spacing:-.01em;max-width:1120px"><span class="ouro">“</span>{e(tx.FRASE[k])}<span class="ouro">”</span></div>
+<div style="font:400 104px/1 'Fraunces';letter-spacing:-.01em;max-width:1120px"><span class="ouro">“</span>{e(tx.FRASE[k])}<span class="ouro">”</span></div>
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:80px;font:300 21px/1.55 Inter Tight;color:#c9c5bd"><p style="border-top:1px solid rgba(180,147,90,.4);padding-top:22px"><b class="lbl" style="display:block;margin-bottom:12px;color:{dk.BR}">Desafio</b>{e(I["desafio"])}</p><p style="border-top:1px solid rgba(180,147,90,.4);padding-top:22px"><b class="lbl" style="display:block;margin-bottom:12px;color:{dk.BR}">Conceito</b>{e(I["conceito"])}</p></div></div>'''))
     mods.append(('03-logo', 900, f'<div style="height:100%;background:{c["bg"]};display:grid;place-items:center"><img src="{logo}" style="width:760px"></div><div class="lbl" style="position:absolute;left:60px;bottom:50px;color:{c["fg"]};opacity:.6">Assinatura principal</div>'))
     mods.append(('04-versoes', 520, f'''<div style="height:100%;display:grid;grid-template-columns:1fr 1fr 1fr">
@@ -54,8 +54,8 @@ def modulos(cid, k):
     mods.append((f'{len(mods)+1:02d}-fecho', 620, f'''<div class="grain" style="position:absolute;inset:0;background:{dk.OB}"><div class="conc" style="position:absolute;inset:0;opacity:.35"></div><div class="win" style="opacity:.75"></div><div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 50%,transparent 20%,rgba(10,12,16,.8))"></div><div class="beam" style="left:430px;top:120px;width:540px;height:380px;opacity:.7"></div></div>
 <div style="position:relative;height:100%;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;padding:0 110px;gap:70px;color:{dk.MA}">
 <div style="justify-self:end;background:{c["bg"]};padding:30px 40px;border-radius:12px;box-shadow:0 30px 60px rgba(0,0,0,.6)"><img src="{logo}" style="width:260px"></div>
-<div style="text-align:center"><div style="position:relative;width:170px;height:170px;margin:0 auto">{dk.mono(170)}</div><div style="font:400 78px/1 'Instrument Serif';margin-top:26px">Obrigado.</div></div>
-<div><div class="foil" style="width:300px;height:56px;-webkit-mask-image:{dk.mask("logotipo-mono-branco")};mask-image:{dk.mask("logotipo-mono-branco")};-webkit-mask-position:left;mask-position:left"></div><div class="lbl" style="margin-top:20px;color:{dk.BR};font-size:13px;line-height:1.9">Um estúdio Al Kántara<br>Identidade visual · brand book<br>web design · São Luís, MA</div></div></div>'''))
+<div style="text-align:center"><div style="position:relative;width:170px;height:170px;margin:0 auto">{dk.mono(170)}</div><div style="font:400 78px/1 'Fraunces';margin-top:26px">Obrigado.</div></div>
+<div><div class="foil" style="width:300px;height:56px;-webkit-mask-image:{dk.mask("logotipo-mono-branco")};mask-image:{dk.mask("logotipo-mono-branco")};-webkit-mask-position:left;mask-position:left"></div><div class="lbl" style="margin-top:20px;color:{dk.BR};font-size:13px;line-height:1.9">{dk.ENDOSSO(13)}<br>Identidade visual · brand book<br>web design · São Luís, MA</div></div></div>'''))
     return mods
 
 def pin(k, n, titulo, sub):

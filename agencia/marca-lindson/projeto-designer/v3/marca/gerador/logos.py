@@ -1,7 +1,7 @@
 # Barzakh · um estúdio Al Kántara · logos em SVG com texto em curvas (conta Leandro, 16/11/2026)
 # Símbolo "Dois mares": o arco da holding (régua de logos.py da holding) espelhado abaixo da linha,
 # o reflexo em contorno, e o disco de luz partido na linha (Bronze em cima, Lápis embaixo).
-# Uso: python3 logos.py <pasta_fontes> <saida>   (InstrumentSerif-Regular.ttf, InterTight-Medium.ttf)
+# Uso: python3 logos.py <qualquer> <saida>   (fontes vêm de agencia/marca-holding/v2/fontes)
 import os, sys, subprocess
 from fontTools.ttLib import TTFont
 from fontTools.pens.svgPathPen import SVGPathPen
@@ -9,12 +9,19 @@ from fontTools.pens.transformPen import TransformPen
 FD = sys.argv[1]; OUT = sys.argv[2]
 os.makedirs(OUT + '/svg', exist_ok=True); os.makedirs(OUT + '/png', exist_ok=True)
 OBS, MAR, GRA, PED, BRO, LAP = '#0A0C10', '#EEEAE2', '#22262E', '#8A8F98', '#B4935A', '#2B3A8F'
-SER = FD + '/InstrumentSerif-Regular.ttf'; SANS = FD + '/InterTight-Medium.ttf'
+# 16/11 (Lindson): Instrument Serif -> Fraunces (família da holding Al Kántara v2), kerning à mão.
+HV2 = '/home/user/lindson/agencia/marca-holding/v2'
+SER = HV2 + '/fontes/Fraunces-Regular.ttf'; SANS = HV2 + '/fontes/InterTight-Medium.ttf'
+KERN = {('B', 'A'): -3, ('A', 'R'): 1, ('R', 'Z'): 3, ('Z', 'A'): -5, ('A', 'K'): 1, ('K', 'H'): 4}  # px em corpo 100
+K_V2 = open(HV2 + '/logos/svg/alkantara-simbolo-mono-branco.svg').read().split('>', 1)[1].rsplit('</svg>', 1)[0]
+def k_sel(x, y, h, cor):  # o K (pedra-chave) da holding v2, pequeno, ao lado do endosso
+    return f'<g transform="translate({x:.1f},{y:.1f}) scale({h/480:.4f})">{K_V2.replace("#FFFFFF", cor)}</g>'
 
-def text_path(fontfile, s, size, track=0):
+def text_path(fontfile, s, size, track=0, kern=None):
     f = TTFont(fontfile); gs = f.getGlyphSet(); cmap = f.getBestCmap(); upm = f['head'].unitsPerEm
     sc = size / upm; pen = SVGPathPen(gs); x = 0
-    for ch in s:
+    for i, ch in enumerate(s):
+        if kern and i and (s[i-1], ch) in kern: x += kern[(s[i-1], ch)] * size / 100 / sc
         g = cmap.get(ord(ch))
         if g is None: x += 0.3 * upm; continue
         gs[g].draw(TransformPen(pen, (sc, 0, 0, -sc, x * sc, 0))); x += gs[g].width + track / sc
@@ -47,10 +54,10 @@ def svg(w, h, body, bg=None):
 VAR = {'positivo': (OBS, OBS, BRO, LAP, MAR), 'negativo': (MAR, MAR, BRO, LAP, OBS),
        'lapis': (MAR, MAR, BRO, OBS, LAP), 'mono-preto': (OBS, OBS, OBS, OBS, MAR),
        'mono-branco': (MAR, MAR, MAR, MAR, OBS), 'bronze': (BRO, BRO, BRO, BRO, OBS)}
-P1, W1 = text_path(SER, 'BARZAKH', 100, 14)
+P1, W1 = text_path(SER, 'BARZAKH', 100, 16, KERN)
 P2, W2 = text_path(SANS, 'DESIGN · BRANDING', 19, 6)
 P3, W3 = text_path(SANS, 'UM ESTÚDIO AL KÁNTARA', 15, 4.5)
-PT, WT = text_path(SER, 'A passagem da sua marca.', 40, 0)
+PT, WT = text_path(SER, 'A passagem da sua marca.', 40, 1.2)
 files = []
 for n, (c, rf, l, m, bg) in VAR.items():
     sub = PED if n in ('positivo', 'negativo', 'lapis') else c
@@ -68,7 +75,7 @@ for n, (c, rf, l, m, bg) in VAR.items():
     Wv = max(W1, 420) + 120; cx = Wv / 2
     b = simbolo(cx, 170, 112, c, rf, l, m)
     b += f'<g transform="translate({cx-W1/2:.1f},392)"><path fill="{c}" d="{P1}"/></g>'
-    b += f'<g transform="translate({cx-W3/2:.1f},436)"><path fill="{sub}" d="{P3}"/></g>'
+    b += k_sel(cx - (W3 + 30) / 2, 425, 13, sub) + f'<g transform="translate({cx-W3/2+15:.1f},436)"><path fill="{sub}" d="{P3}"/></g>'
     out['vertical'] = (Wv, 470, b)
     out['logotipo'] = (W1 + 40, 130, f'<g transform="translate(20,102)"><path fill="{c}" d="{P1}"/></g>')
     # assinatura com tagline
