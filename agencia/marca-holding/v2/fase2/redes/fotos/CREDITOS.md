@@ -13,3 +13,4 @@ Derivative work:  Aristeas · CC BY 4.0 · Wikimedia Commons
 - arco-bonn.jpg · "Bonn, Sterntor -- 2020 -- 6505.jpg" · Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons
 - sombra-kerry.jpg · "Shadow-1210864, Rossbeigh, Co. Kerry, Ireland.jpg" · Mucklagh · CC BY-SA 4.0 · Wikimedia Commons
 - estudio-monitores.jpg · "Video production workers in studio studying bank of monitors showing camera views.jpg" · Ryan Hagerty · Public domain · Wikimedia Commons
+- arco-radial.jpg · "The Radial Arch-Queen Street-Newmarket-Ontario-HPC15202-20180408.jpg" · Mhsheikholeslami · CC BY-SA 4.0 · Wikimedia Commons
