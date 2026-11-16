@@ -211,3 +211,5 @@ YouTube, TikTok, site, WhatsApp, Google: mesmo fundo, cores, letras, xadrez, tar
 Referência obrigatória de nível: Al Kántara Group v2 (agencia/marca-holding/v2/). "Isso sim é premium, quero esse padrão pra tudo". Conceito com significado, agentes lidos de verdade, pesquisa nova + todas as nossas referências, persona, grid, kerning, páginas cheias, mockups, motion com som. Comparar lado a lado antes de entregar.
 
 - 16/11/2026 (MEMORIA, conta Leandro): "sem vida" = reprovado. Nada de fundo vazio nem serifa fina pequena com muito respiro. Toda arte/página de PDF leva imagem forte em camadas (foto real, mockup, luz/sombra/grão) e energia: manchete condensada gigante, bloco de cor saturada, fitas de texto, números enormes em contorno, selo circular, contraste máximo (linha Provedor v2 aprovada em 14/11).
+
+- 16/11/2026 (Lindson, campanha advogado, conta Zuleide): pedido "deixe mais clean e rico, sem nada de pobre" após v4c com fitas/neon. Leitura aplicada na v5: luxo editorial, foto cinematográfica protagonista, preto + 1 acento champagne, serifa elegante grande e legível, CTA discreto com fio fino, sem fitas/selos/neon. (v5 aguardando aprovação.)
