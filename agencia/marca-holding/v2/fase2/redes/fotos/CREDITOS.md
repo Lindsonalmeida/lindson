@@ -14,3 +14,4 @@ Derivative work:  Aristeas · CC BY 4.0 · Wikimedia Commons
 - sombra-kerry.jpg · "Shadow-1210864, Rossbeigh, Co. Kerry, Ireland.jpg" · Mucklagh · CC BY-SA 4.0 · Wikimedia Commons
 - estudio-monitores.jpg · "Video production workers in studio studying bank of monitors showing camera views.jpg" · Ryan Hagerty · Public domain · Wikimedia Commons
 - arco-radial.jpg · "The Radial Arch-Queen Street-Newmarket-Ontario-HPC15202-20180408.jpg" · Mhsheikholeslami · CC BY-SA 4.0 · Wikimedia Commons
+- sombra-tijolo.jpg · "Sunlight and shadows of a tiny tree in Fall on a brick wall of Entrepotdok-buildings, Amsterdam city, along the canal Entrepotdok; on the border of the old city center of Amsterdam; urban photography, Fons Heijnsbroek 2013 (11132531654).jpg" · Fons Heijnsbroek from Amsterdam, Netherlands · CC0 · Wikimedia Commons
