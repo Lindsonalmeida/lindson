@@ -1,0 +1,137 @@
+[
+ {
+  "tipo": "A",
+  "linha": "Autoral",
+  "l1": "VISUALIZOU",
+  "l2": "E NÃO VOLTOU.",
+  "sub": "O pandeiro voltou. Toda sexta.",
+  "cred": "",
+  "foto": 1
+ },
+ {
+  "tipo": "F",
+  "linha": "Citação",
+  "l1": "Quem não gosta de samba",
+  "l2": "bom sujeito não é",
+  "sub": "",
+  "cred": "Dorival Caymmi · Samba da Minha Terra",
+  "foto": 7
+ },
+ {
+  "tipo": "B",
+  "linha": "Autoral",
+  "l1": "PENDURA NA CONTA.",
+  "l2": "A saudade eu pago à vista.",
+  "sub": "",
+  "cred": "",
+  "foto": 9
+ },
+ {
+  "tipo": "C",
+  "linha": "Autoral",
+  "l1": "SEXTA",
+  "l2": "sem resenha é só quinta com cansaço.",
+  "sub": "",
+  "cred": "",
+  "foto": 13
+ },
+ {
+  "tipo": "E",
+  "linha": "Autoral",
+  "l1": "O bilhete tava na geladeira.",
+  "l2": "A coragem, não.",
+  "sub": "",
+  "cred": "",
+  "foto": 23
+ },
+ {
+  "tipo": "D",
+  "linha": "Autoral",
+  "l1": "COPO AMERICANO",
+  "l2": "não julga ninguém.",
+  "sub": "",
+  "cred": "",
+  "foto": 2
+ },
+ {
+  "tipo": "H",
+  "linha": "Citação",
+  "l1": "Deixa a vida me levar,",
+  "l2": "vida leva eu",
+  "sub": "",
+  "cred": "Serginho Meriti e Eri do Cais · Deixa a Vida Me Levar",
+  "foto": 17
+ },
+ {
+  "tipo": "G",
+  "linha": "Autoral",
+  "l1": "CHORAR NÃO.",
+  "l2": "SAMBAR.",
+  "sub": "Faixa 09 do caderno.",
+  "cred": "",
+  "foto": 4
+ },
+ {
+  "tipo": "A",
+  "linha": "Autoral",
+  "l1": "RECAÍDA DE DOMINGO",
+  "l2": "não conta. Conta?",
+  "sub": "",
+  "cred": "",
+  "foto": 21
+ },
+ {
+  "tipo": "F",
+  "linha": "Citação",
+  "l1": "Não deixe",
+  "l2": "o samba morrer",
+  "sub": "",
+  "cred": "Edson Conceição e Aloísio Silva · Não Deixe o Samba Morrer",
+  "foto": 0
+ },
+ {
+  "tipo": "C",
+  "linha": "Autoral",
+  "l1": "RODA",
+  "l2": "quem tem roda não fica sozinho.",
+  "sub": "",
+  "cred": "",
+  "foto": 3
+ },
+ {
+  "tipo": "B",
+  "linha": "Autoral",
+  "l1": "MESA SETE.",
+  "l2": "Onde o coração pede mais uma.",
+  "sub": "",
+  "cred": "",
+  "foto": 10
+ },
+ {
+  "tipo": "D",
+  "linha": "Autoral",
+  "l1": "SE FOR PRA SOFRER,",
+  "l2": "que seja no tom certo.",
+  "sub": "",
+  "cred": "",
+  "foto": 19
+ },
+ {
+  "tipo": "H",
+  "linha": "Citação",
+  "l1": "O show",
+  "l2": "tem que continuar",
+  "sub": "",
+  "cred": "Arlindo Cruz, Sombrinha e Luiz Carlos da Vila · O Show Tem Que Continuar",
+  "foto": 20
+ },
+ {
+  "tipo": "G",
+  "linha": "Autoral",
+  "l1": "MARCA AÍ,",
+  "l2": "SEU TIÃO.",
+  "sub": "Hoje a conta é do coração.",
+  "cred": "",
+  "foto": 8
+ }
+]
