@@ -366,3 +366,4 @@ Levantado pela conta Lindson em 01/11/2026 a partir do histórico do git e dos a
 | 16/11/2026 | Zuleide | Tráfego SLZ ADV v6 (foto ampliada, rosto livre, letras masculinas) | agencia/campanhas/trafego-slz-3-nichos/v6/ | aguardando aprovação |
 | 16/11/2026 | Leandro | Real Time feed v3: 30 artes (fotos reais do Drive, Arcana, Nucleus-M II, tablet e bolsas novos; ângulos novos nos demais), legendas SEO, inventário, prévia do grid; painel /painel/rt | agencia/clientes/rt-full-jobs/instagram-v3/ | aguardando |
 | 16/11/2026 | Zuleide | Pagode Fiado playlists v1: 5 playlists de curadoria (clássicos + faixas PF), regras e passo a passo | agencia/clientes/pagode-fiado/playlists-v1/ | aguardando aprovação · travado (falta canal/perfis) |
+| 16/11/2026 | Zuleide | Hero shot v1 Real Time (Metabones 4:5 e 9:16, gerador) | agencia/clientes/rt-full-jobs/hero-shot-v1/ | aguardando |
