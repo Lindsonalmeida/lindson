@@ -368,3 +368,4 @@ Levantado pela conta Lindson em 01/11/2026 a partir do histórico do git e dos a
 | 16/11/2026 | Zuleide | Pagode Fiado playlists v1: 5 playlists de curadoria (clássicos + faixas PF), regras e passo a passo | agencia/clientes/pagode-fiado/playlists-v1/ | aguardando aprovação · travado (falta canal/perfis) |
 | 16/11/2026 | Zuleide | Hero shot v1 Real Time (Metabones 4:5 e 9:16, gerador) | agencia/clientes/rt-full-jobs/hero-shot-v1/ | aguardando |
 | 16/11/2026 | Zuleide | Vídeo hero shot Metabones (imagem para vídeo por código: dolly, parallax, luz, partículas, textos animados, trilha+SFX) 9:16 e 4:5 | agencia/clientes/rt-full-jobs/hero-shot-v1/video/ + painel/rt | aguardando |
+| 16/11/2026 | Designer gráfico | Capa do Reel "Curtida não basta" (amarela, xadrez) + 8 capas de destaque + mockup do grid | agencia/marca-lindson/capas-1611/ + painel/admin-rede | aguardando |
