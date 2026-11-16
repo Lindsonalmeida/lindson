@@ -265,9 +265,9 @@
    "id": "cad-designer-26",
    "cli": "designer",
    "tarefa": "Behance",
-   "equipe": "Pedro",
-   "status": "livre",
-   "nota": "",
+   "equipe": "Leandro",
+   "status": "andamento",
+   "nota": "[pedido do Lindson: \"faça logo você agora\"; redistribuído do Pedro]",
    "partes": [
     {
      "p": "Montar perfil Behance",
@@ -282,40 +282,40 @@
      "status": "livre"
     }
    ],
-   "pegou": "",
+   "pegou": "Leandro 16/11 22:23",
    "atualizado": ""
   },
   {
    "id": "cad-designer-27",
    "cli": "designer",
    "tarefa": "Pinterest",
-   "equipe": "Pedro",
-   "status": "livre",
-   "nota": "",
+   "equipe": "Leandro",
+   "status": "andamento",
+   "nota": "[pedido do Lindson: \"faça logo você agora\"; redistribuído do Pedro]",
    "partes": [],
-   "pegou": "",
+   "pegou": "Leandro 16/11 22:23",
    "atualizado": ""
   },
   {
    "id": "cad-designer-28",
    "cli": "designer",
    "tarefa": "LinkedIn",
-   "equipe": "Pedro",
-   "status": "livre",
-   "nota": "",
+   "equipe": "Leandro",
+   "status": "andamento",
+   "nota": "[pedido do Lindson: \"faça logo você agora\"; redistribuído do Pedro]",
    "partes": [],
-   "pegou": "",
+   "pegou": "Leandro 16/11 22:23",
    "atualizado": ""
   },
   {
    "id": "cad-designer-29",
    "cli": "designer",
    "tarefa": "Vender identidade visual",
-   "equipe": "Pedro",
-   "status": "livre",
-   "nota": "",
+   "equipe": "Leandro",
+   "status": "andamento",
+   "nota": "[pedido do Lindson: \"faça logo você agora\"; redistribuído do Pedro]",
    "partes": [],
-   "pegou": "",
+   "pegou": "Leandro 16/11 22:23",
    "atualizado": ""
   },
   {
