@@ -32,5 +32,5 @@ Evite "pro set": o TTS lê "procede". Use "pra gravar" ou "para gravar".
 | teleprompter | inglês | "teleprômpter" | teleprômpter | uso no Brasil |
 | videocast | híbrido pt/en | "vídeo cást" | vídeo cást | uso no Brasil |
 | job | inglês, "trabalho" no mercado audiovisual | "djób" | djób | uso no set |
-| kit | inglês aportuguesado | "quít" | quit | dicionário |
+| kit | inglês aportuguesado | "quít" | kit (a grafia "quit" saiu "kick" no Whisper) | Whisper 16/11 |
 | cage | inglês, gaiola da câmera | "quêidj" | (o TTS erra: "conquede"; na fala usar "gaiola", na tela "cage") | Whisper 16/11 |
