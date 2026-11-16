@@ -388,12 +388,12 @@
    "cli": "jaci",
    "tarefa": "Google Meu Negócio",
    "equipe": "Lindson",
-   "status": "livre",
+   "status": "andamento",
    "nota": "",
    "partes": [],
-   "pegou": "",
+   "pegou": "Lindson 15/11 22:38",
    "atualizado": "",
-   "recebido": ""
+   "recebido": "Lindson 15/11 22:38"
   },
   {
    "id": "cad2-jaci-2",
@@ -418,7 +418,7 @@
    ],
    "pegou": "",
    "atualizado": "",
-   "recebido": ""
+   "recebido": "Lindson 15/11 22:38"
   },
   {
    "id": "cad2-jaci-3",
@@ -430,7 +430,7 @@
    "partes": [],
    "pegou": "",
    "atualizado": "",
-   "recebido": ""
+   "recebido": "Lindson 15/11 22:38"
   },
   {
    "id": "cad2-wf-4",
@@ -442,7 +442,7 @@
    "partes": [],
    "pegou": "",
    "atualizado": "",
-   "recebido": ""
+   "recebido": "Lindson 15/11 22:38"
   },
   {
    "id": "cad2-rt-5",
@@ -491,7 +491,7 @@
    ],
    "pegou": "",
    "atualizado": "",
-   "recebido": ""
+   "recebido": "Lindson 15/11 22:38"
   },
   {
    "id": "cad2-rt-8",
@@ -503,7 +503,7 @@
    "partes": [],
    "pegou": "",
    "atualizado": "",
-   "recebido": ""
+   "recebido": "Lindson 15/11 22:38"
   },
   {
    "id": "cad2-tecnologia-9",
@@ -515,7 +515,7 @@
    "partes": [],
    "pegou": "",
    "atualizado": "",
-   "recebido": ""
+   "recebido": "Lindson 15/11 22:38"
   },
   {
    "id": "cad2-marca-10",
@@ -623,7 +623,7 @@
    "partes": [],
    "pegou": "",
    "atualizado": "",
-   "recebido": ""
+   "recebido": "Lindson 15/11 22:38"
   },
   {
    "id": "cad2-robo-whats-19",
@@ -635,7 +635,7 @@
    "partes": [],
    "pegou": "",
    "atualizado": "",
-   "recebido": ""
+   "recebido": "Lindson 15/11 22:38"
   },
   {
    "id": "cad2-curso-20",
@@ -647,7 +647,7 @@
    "partes": [],
    "pegou": "",
    "atualizado": "",
-   "recebido": ""
+   "recebido": "Lindson 15/11 22:38"
   },
   {
    "id": "cad2-curso-21",
@@ -659,7 +659,7 @@
    "partes": [],
    "pegou": "",
    "atualizado": "",
-   "recebido": ""
+   "recebido": "Lindson 15/11 22:38"
   },
   {
    "id": "cad2-pagode-22",
