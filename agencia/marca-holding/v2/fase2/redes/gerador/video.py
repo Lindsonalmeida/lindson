@@ -45,7 +45,7 @@ for i, b in enumerate(B):
     if i == 0: fs0 = fs * 1.12
     else: fs0 = fs
     pos = f'left:{int(W*.067)}px;right:{int(W*.067)}px;bottom:{int(Hh*(.24 if V else .16))}px' if not fim else f'left:{int(W*.067)}px;right:{int(W*.067)}px;top:50%;transform:translateY(-30%);text-align:center'
-    extra = f'<p class="mono" style="margin-top:34px;color:#EFEAE1;display:inline-block;padding:20px 30px;border:2px solid {c};border-radius:999px;font-size:{26 if V else 22}px">{H.escape(S.get("fim","Link na bio · alkantaragroup.pages.dev"))}</p>' if fim else ''
+    extra = f'<p class="mono" style="margin-top:34px;color:#EFEAE1;display:inline-block;padding:20px 30px;border:2px solid {c};border-radius:999px;font-size:{26 if V else 22}px">{H.escape(S.get("fim","Link na bio · alkantaragroup.pages.dev/bio/"))}</p>' if fim else ''
     simf = f'<div style="position:absolute;left:50%;top:{int(Hh*.16)}px;transform:translateX(-50%);width:{int(W*.32)}px">{simb(IDX[D], c, "#24262b")}</div>' if fim else ''
     fg = f'''<div style="width:{W}px;height:{Hh}px;position:relative;color:#EFEAE1">
 <div style="position:absolute;left:{int(W*.067)}px;right:{int(W*.067)}px;top:{int(Hh*.05)}px;display:flex;justify-content:space-between;align-items:center"><img src="{LOGO_N}" style="height:{40 if V else 44}px"><span class="mono" style="color:{c};font-size:{22 if V else 20}px">{NOME[D].split(" · ")[0]}</span></div>{simf}
