@@ -1,8 +1,9 @@
 """Deck institucional/investidor (14 telas 16:9), resumo 1 página e kit comercial em HTML -> PDF (render.js).
 Fase 2 Al Kántara, 16/11/2026. Sem número inventado: campos [ ] ficam para o Lindson preencher."""
 import os, sys
-sys.path.insert(0, os.path.dirname(__file__))
-from site import DIV, simb  # noqa  (o gerador do site é a fonte única de textos)
+import importlib.util as _u
+_sp=_u.spec_from_file_location('gsite',os.path.join(os.path.dirname(os.path.abspath(__file__)),'site.py'));_m=_u.module_from_spec(_sp);_sp.loader.exec_module(_m)
+DIV, simb = _m.DIV, _m.simb
 B = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
 F = '../site/f/'
 CSS = f'''@font-face{{font-family:F;src:url({F}fraunces.ttf)}}@font-face{{font-family:F;font-style:italic;src:url({F}fraunces-it.ttf)}}
@@ -33,7 +34,6 @@ T = [
  '<p class="mono">O VOLANTE</p><h2>Uma pedra <em>segura a outra.</em></h2><div class="g4">' + ''.join(f'<div style="--c:{c}"><h3>{a}</h3><p>{b}</p></div>' for c, a, b in [(C4[0], 'Labs', 'cria a tecnologia que as outras usam'), (C4[1], 'Studio', 'dá marca a clientes e às empresas do grupo'), (C4[2], 'Media', 'gera audiência própria para vender e lançar'), (C4[3], 'Ventures', 'prova tudo isso em negócio real')]) + '</div>',
  '<p class="mono">PROVA APLICADA</p><h2>Já está <em>no ar.</em></h2><div class="g2"><div><h3>Clientes Studio</h3><p class="lead">Clínica Dra. Jaci Cunha · Tribuna 98 · Rafael Imports · Desentupidora SF</p></div><div><h3>Produtos próprios</h3><p class="lead">Dublê · Central de Comando · Passaporte da Bíblia · Raposa e Leão · Orégano Turbo</p></div></div>',
  '<p class="mono">NÚMEROS</p><h2>Só número real, <em>com fonte.</em></h2><p class="lead">Esta tela é preenchida pelo Lindson antes de cada reunião, com dados conferidos.</p><div class="g4">' + ''.join(f'<div><span class="camp">[ preencher ]</span><p style="margin-top:16px">{t}</p></div>' for t in ['Clientes ativos', 'Receita recorrente mensal', 'Audiência dos canais', 'Produtos em operação']) + '</div>',
- '<p class="mono">POR QUE AGORA, POR QUE DAQUI</p><h2>IA barata, <em>execução local.</em></h2><p class="lead">Custo de construir software caiu. O que falta é quem entenda o negócio da região, atenda com nome e telefone e entregue com prazo por escrito.</p>',
  '<p class="mono">GOVERNANÇA</p><h2>Divisões separadas, <em>contas claras.</em></h2><ul class="lead" style="font-size:32px"><li>Cada divisão com responsável e resultado próprios</li><li>Produtos e empresas investidas com marca própria e endosso do grupo</li><li>Código, dados e contratos documentados</li></ul>',
  '<p class="mono">O PEDIDO</p><h2>O que buscamos <em>agora.</em></h2><p class="lead">Parceiros, conselheiros e investidores que acreditem em estrutura de longo prazo. Valor, uso e prazo: <span class="camp">[ definido pelo Lindson ]</span></p>',
  simb(('#1A1C20', '#1A1C20', '#B8955A', '#1A1C20')) + '<div style="position:absolute;bottom:200px"><p class="mono">CONTATO</p><h1 style="font-size:150px">Vamos medir<br><em>antes de prometer.</em></h1><p class="lead" style="margin-top:40px">Lindson Almeida · WhatsApp (98) 98562-1808 · lindsonalmeida.pages.dev/alkantara</p></div>',
