@@ -17,3 +17,4 @@ Derivative work:  Aristeas · CC BY 4.0 · Wikimedia Commons
 - sombra-tijolo.jpg · "Sunlight and shadows of a tiny tree in Fall on a brick wall of Entrepotdok-buildings, Amsterdam city, along the canal Entrepotdok; on the border of the old city center of Amsterdam; urban photography, Fons Heijnsbroek 2013 (11132531654).jpg" · Fons Heijnsbroek from Amsterdam, Netherlands · CC0 · Wikimedia Commons
 - slz-centro-4.jpg · "São Luís Centro Histórico (Maranhão)IMG 20190707 082126.jpg" · Demetrio Jereissati · CC BY-SA 4.0 · Wikimedia Commons
 - servidores-3.jpg · "139 Server Room 01.jpg" · Indrajit Das · CC BY-SA 3.0 · Wikimedia Commons
+- slz-juninos.jpg · "Centro Histórico São Luís Festejos Juninos.jpg" · Demetrio Jereissati · CC BY-SA 4.0 · Wikimedia Commons
