@@ -4,4 +4,4 @@ Lindson: "esse estilo… deixe como estava, essa mesma que foi feita e foram pos
 - Produtos e ângulos: inventário da v3 (`../instagram-v3/INVENTARIO.md`). Fotos reais da RT, recortadas em `../instagram-v5/recortes/`, uma por post, nenhuma das usadas na série 01–14 (que usou fotos de fabricante).
 - Dados: `dados6.js` (ordem em `ordem.json`). Gerar: `for i in $(seq 1 30); do node gerar-serie.js $i; done` → `artes/inventario-15..44.jpg`.
 - Legendas: `LEGENDAS.md` (as reescritas da v3).
-Situação: aguardando aprovação.
+Situação: APROVADO pelo Lindson (16/11).
