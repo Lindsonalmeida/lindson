@@ -4,3 +4,4 @@
 - slz-travessa.jpg · "Travessa Couto Fernandes 60 Centro São Luís 2025-6016 (pcorr, crop).jpg" · Original:  Prburley
 Derivative work:  Aristeas · CC BY 4.0 · Wikimedia Commons
 - arco-concreto.jpg · "Fromberg Concrete Arch Bridge.jpg" · Jet Lowe · Public domain · Wikimedia Commons
+- servidores.jpg · "Server Room (22397102849).jpg" · Carl Lender from Sunrise, USA · CC BY 2.0 · Wikimedia Commons
