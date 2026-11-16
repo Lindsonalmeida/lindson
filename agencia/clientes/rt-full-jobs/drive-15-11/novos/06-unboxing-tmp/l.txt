@@ -1,0 +1,8 @@
+file '/home/user/lindson/agencia/clientes/rt-full-jobs/drive-15-11/novos/06-unboxing-tmp/c0.mp4'
+file '/home/user/lindson/agencia/clientes/rt-full-jobs/drive-15-11/novos/06-unboxing-tmp/c1.mp4'
+file '/home/user/lindson/agencia/clientes/rt-full-jobs/drive-15-11/novos/06-unboxing-tmp/c2.mp4'
+file '/home/user/lindson/agencia/clientes/rt-full-jobs/drive-15-11/novos/06-unboxing-tmp/c3.mp4'
+file '/home/user/lindson/agencia/clientes/rt-full-jobs/drive-15-11/novos/06-unboxing-tmp/c4.mp4'
+file '/home/user/lindson/agencia/clientes/rt-full-jobs/drive-15-11/novos/06-unboxing-tmp/c5.mp4'
+file '/home/user/lindson/agencia/clientes/rt-full-jobs/drive-15-11/novos/06-unboxing-tmp/c6.mp4'
+file '/home/user/lindson/agencia/clientes/rt-full-jobs/drive-15-11/novos/06-unboxing-tmp/c7.mp4'

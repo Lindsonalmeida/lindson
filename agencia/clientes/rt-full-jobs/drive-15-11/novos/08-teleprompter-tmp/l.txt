@@ -1,0 +1,7 @@
+file '/home/user/lindson/agencia/clientes/rt-full-jobs/drive-15-11/novos/08-teleprompter-tmp/c0.mp4'
+file '/home/user/lindson/agencia/clientes/rt-full-jobs/drive-15-11/novos/08-teleprompter-tmp/c1.mp4'
+file '/home/user/lindson/agencia/clientes/rt-full-jobs/drive-15-11/novos/08-teleprompter-tmp/c2.mp4'
+file '/home/user/lindson/agencia/clientes/rt-full-jobs/drive-15-11/novos/08-teleprompter-tmp/c3.mp4'
+file '/home/user/lindson/agencia/clientes/rt-full-jobs/drive-15-11/novos/08-teleprompter-tmp/c4.mp4'
+file '/home/user/lindson/agencia/clientes/rt-full-jobs/drive-15-11/novos/08-teleprompter-tmp/c5.mp4'
+file '/home/user/lindson/agencia/clientes/rt-full-jobs/drive-15-11/novos/08-teleprompter-tmp/c6.mp4'

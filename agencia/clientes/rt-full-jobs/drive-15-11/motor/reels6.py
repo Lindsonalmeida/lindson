@@ -11,7 +11,7 @@ import edge_tts
 CR, OUT, FT, BANCO, VID = sys.argv[1:6]
 AQUI = os.path.dirname(os.path.abspath(__file__))
 R = json.load(open(os.path.join(AQUI, 'roteiros6.json')))[VID]
-PR = json.load(open(os.path.join(AQUI, 'pronuncias.json')))
+PR = json.load(open(os.path.join(AQUI, os.environ.get('PRON','pronuncias.json'))))
 W, H, FPS = 1080, 1920, 30
 PRETO, BRANCO, AZUL, REC, GRAF = (5,7,11), (244,247,251), (46,155,255), (255,59,59), (17,22,31)
 f = lambda n, s: ImageFont.truetype(os.path.join(FT, n), s)
@@ -22,7 +22,7 @@ def src(k): return VS[int(k[1:])-1] if k[0] == 'V' else FS[int(k[1:])-1]
 def fon(t):
     for a, b in PR: t = t.replace(a, b)
     return t
-async def tts(txt, p): await edge_tts.Communicate(fon(txt), 'pt-BR-AntonioNeural', rate='+4%').save(p)
+async def tts(txt, p): await edge_tts.Communicate(fon(txt), os.environ.get('VOZ','pt-BR-AntonioNeural'), rate='+4%').save(p)
 def run(c): subprocess.run(['ffmpeg','-nostdin','-y','-v','error'] + c, check=True)
 
 def quebra(d, txt, ft, maxw):

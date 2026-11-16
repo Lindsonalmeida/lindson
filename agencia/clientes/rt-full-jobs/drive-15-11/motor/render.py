@@ -14,11 +14,11 @@ f = lambda n, s: ImageFont.truetype(os.path.join(FT, n), s)
 T = os.path.join(OUT, VID + '-tmp'); os.makedirs(T, exist_ok=True)
 dur = lambda p: float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',p]))
 
-PR = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'pronuncias.json')))
+PR = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), os.environ.get('PRON','pronuncias.json'))))
 def fon(t):
     for a, b in PR: t = t.replace(a, b)
     return t
-async def tts(txt, p): await edge_tts.Communicate(fon(txt), 'pt-BR-AntonioNeural', rate='+4%').save(p)
+async def tts(txt, p): await edge_tts.Communicate(fon(txt), os.environ.get('VOZ','pt-BR-AntonioNeural'), rate='+4%').save(p)
 partes, chips = [], []
 vd0 = dur(os.path.join(BR, R['src']))
 for i, (st, fala, letra) in enumerate(R['falas']):

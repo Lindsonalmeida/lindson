@@ -9,7 +9,7 @@
     "vis": "V15"
    },
    {
-    "fala": "Primeiro, o tripé com cabeça fluida.",
+    "fala": "Pra começar, o tripé com cabeça fluida.",
     "letra": "Tripé + cabeça fluida",
     "vis": "V05"
    },
@@ -60,7 +60,7 @@
     "vis": "V05@0.5"
    },
    {
-    "fala": "A equipe chega e prepara tudo.",
+    "fala": "Nossa equipe chega e prepara tudo.",
     "letra": "A equipe monta o set",
     "vis": "V08"
    },
@@ -75,7 +75,7 @@
     "vis": "V17@2"
    },
    {
-    "fala": "Cada detalhe conferido antes do REC.",
+    "fala": "Cada detalhe conferido antes de gravar.",
     "letra": "Conferido antes do REC",
     "vis": "V07"
    },
@@ -106,7 +106,7 @@
     "vis": "F27"
    },
    {
-    "fala": "Primeiro, uma maleta cheia de acessórios.",
+    "fala": "Pra começar, uma maleta cheia de acessórios.",
     "letra": "Acessórios do rig",
     "vis": "F28"
    },
