@@ -364,3 +364,4 @@ Levantado pela conta Lindson em 01/11/2026 a partir do histórico do git e dos a
 | 16/11/2026 | Zuleide | Tráfego SLZ v4 advogado: ADV-1 a 4 (9:16 e 4:5) + capa Reel com cenas Gemini | agencia/campanhas/trafego-slz-3-nichos/v4/ · painel/admin-rede/trafego-slz/v4/ | aguarda aprovação; faltam cenas BARBA e SORRISO |
 | 16/11/2026 | Zuleide | ADV v5 luxo editorial (clean e rico) + pesquisa 12 refs | agencia/campanhas/trafego-slz-3-nichos/v5/ | aguarda aprovação |
 | 16/11/2026 | Zuleide | Tráfego SLZ ADV v6 (foto ampliada, rosto livre, letras masculinas) | agencia/campanhas/trafego-slz-3-nichos/v6/ | aguardando aprovação |
+| 16/11/2026 | Leandro | Real Time feed v3: 30 artes (fotos reais do Drive, Arcana, Nucleus-M II, tablet e bolsas novos; ângulos novos nos demais), legendas SEO, inventário, prévia do grid; painel /painel/rt | agencia/clientes/rt-full-jobs/instagram-v3/ | aguardando |

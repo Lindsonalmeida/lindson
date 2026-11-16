@@ -1,0 +1,107 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<!-- Real Time · feed v3 (30 artes) · conta Leandro, 16/11/2026.
+     Identidade v1 (Geist + Geist Mono, Preto Set, Azul Real, Índigo Take, ponto REC, visor). Fotos REAIS do equipamento da RT (Drive 20/10 a 07/11), cada uma uma vez só.
+     6 composições revezando A→C→B→E→D→F (nunca a mesma composição nem a mesma cor em sequência). Referências em TEMPLATE.md:
+     A · ARRI Rental "project spotlight" (ficha escura editorial, número gigante vazado, foto em cartão)
+     C · Panavision / Cinelease (foto cheia de bastidor + painel de vidro)
+     B · Lensrentals / AbelCine (cartão claro de produto com rótulos técnicos)
+     E · Cooke Optics (foto em cima, bloco Azul Real embaixo, manchete gorda)
+     D · DZOFilm / Tilta lançamentos (palavra gigante atrás do produto, recorte por máscara de luz)
+     F · Aputure "Lighting Craft" (cartão índigo de FAQ / erro comum com foto em janela)
+     Uso: feed.html?n=1..30 -->
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700;800;900&family=Geist+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--pt:#05070B;--gr:#11161F;--b:#F4F7FB;--az:#2E9BFF;--in:#4338F0;--rec:#FF3B3B}
+*{box-sizing:border-box;margin:0;padding:0}body{width:1080px;height:1350px;overflow:hidden;font-family:Geist,sans-serif;-webkit-font-smoothing:antialiased}
+.p{position:relative;width:1080px;height:1350px;overflow:hidden;background:var(--pt);color:var(--b)}
+.a{position:absolute}.mono{font-family:'Geist Mono',monospace;letter-spacing:.14em;text-transform:uppercase}
+.grao{inset:0;opacity:.09;mix-blend-mode:overlay;pointer-events:none;z-index:9;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>")}
+.topo{left:60px;right:60px;top:52px;display:flex;justify-content:space-between;align-items:center;z-index:8}
+.topo img{height:46px}.topo span{font:500 20px 'Geist Mono';letter-spacing:.14em}.topo span:before{content:"● ";color:var(--rec)}
+.cta{display:inline-flex;align-items:center;gap:12px;background:var(--az);color:#fff;border-radius:99px;padding:16px 28px;font:600 25px Geist;white-space:nowrap}.cta:after{content:"→"}
+.tag{display:inline-block;background:var(--az);color:#fff;padding:2px 14px 6px;border-radius:10px}
+.pil{border:1.5px solid rgba(244,247,251,.35);border-radius:99px;padding:10px 20px;font:500 22px Geist;white-space:nowrap}
+.foto{object-fit:cover}
+</style></head><body><div id="pp"></div><script>
+const M='../identidade/v1/marca/',F='fotos/';
+const grao='<div class="a grao"></div>';
+const visor=(x,y,w,h,cor,tc)=>`<div class="a" style="left:${x}px;top:${y}px;width:${w}px;height:${h}px;pointer-events:none;z-index:5">${[['left:0;top:0','3px 0 0 3px'],['right:0;top:0','3px 3px 0 0'],['left:0;bottom:0','0 0 3px 3px'],['right:0;bottom:0','0 3px 3px 0']].map(([p,b])=>`<i style="position:absolute;${p};width:40px;height:40px;border:0 solid ${cor};border-width:${b}"></i>`).join('')}<span style="position:absolute;left:26px;top:22px;font:500 20px 'Geist Mono';letter-spacing:.12em;color:${cor}"><b style="color:#FF3B3B">●</b> REC</span><span style="position:absolute;right:26px;bottom:20px;font:500 20px 'Geist Mono';letter-spacing:.1em;color:${cor}">${tc}</span></div>`;
+const topo=(r,cl)=>`<div class="a topo" style="color:${cl?'#05070B':'#F4F7FB'}"><img src="${M}${cl?'assinatura-horizontal-claro':'assinatura-horizontal'}.svg"><span>${r}</span></div>`;
+const wpp=(cor)=>`<span class="mono" style="font-size:20px;color:${cor}">WhatsApp (98) 99133-1727</span>`;
+// destaque: texto entre [ ] vira palavra em azul
+const hl=(t,c)=>t.replace(/\[(.+?)\]/g,`<span style="color:${c||'var(--az)'}">$1</span>`);
+// [rótulo, título, subtítulo, lista de itens [k,v], foto, layout, palavra gigante / extra, ajustes]
+const D=[
+ ['Novo no inventário','DZOFilm [Arcana]','Lentes de cinema na maleta, prontas para o seu job.',[['Tipo','Lentes de cinema'],['Chegou','Nov/2026'],['Locação','Por lente ou conjunto']],'rt-30','A','01',{pos:'50% 55%'}],
+ ['Novo no inventário','Tilta [Nucleus-M II]','Controle de foco sem fio: o foquista ajusta a lente longe da câmera.',[['Sistema','Foco sem fio'],['Marca','Tilta'],['Combina com','Sony FX3 do kit']],'rt-27','C','',{pos:'50% 50%'}],
+ ['Kit Luz · bastidor','A STORM 1200x [em ação]','Montada no nosso estúdio de fundo verde, pronta para a cena grande.',[['Luz','Principal'],['Tipo','Bicolor'],['Set','Estúdio e externa']],'rt-10','B','',{w:640}],
+ ['Lentes de cinema','6 focais. [1 maleta.]','Kit DZOFilm VESPID Prime 2 completo: da cena aberta ao close.',[['18','mm'],['24','mm'],['35','mm'],['50','mm'],['85','mm'],['105','mm']],'rt-13','E','',{pos:'50% 50%'}],
+ ['Kit Luz · logística','LUZ','O Kit Luz sai e volta organizado nas bolsas Aputure. Chega inteiro no set.',[],'rt-15','D','KIT',{pos:'50% 60%'}],
+ ['FAQ · teleprompter','O tablet [vem junto?]','Vem. O teleprompter SmallRig sai com o tablet configurado: é só colar o texto.',[['Teleprompter','SmallRig'],['Tablet','Incluso'],['Ideal','Corporativo']],'rt-25','F','?',{pos:'60% 50%'}],
+ ['Combo · evento','Equipe [conectada]','6 intercomunicadores Hollyland: diretor, câmeras e produção falando sem fio.',[['Unidades','6'],['Uso','Evento e set'],['Conexão','Sem fio']],'rt-29','A','07',{pos:'50% 50%'}],
+ ['Estúdio','Estúdio [verde]','Fundo infinito de chroma key com as luzes já no lugar. Você chega e grava.',[['Fundo','Chroma key'],['Luz','Kit Aputure'],['Ideal','Conteúdo e campanha']],'rt-09','C','',{pos:'50% 40%'}],
+ ['Comparativo · lentes Sony','Qual lente [usar?]','Da esquerda para a direita, a linha Sony e ZEISS da Real Time. Cada uma tem um trabalho.',[['14mm','Lugar inteiro'],['24–70','Faz quase tudo'],['35mm','Olhar natural'],['50mm','Fundo suave'],['85mm','Retrato'],['90 macro','Detalhe']],'rt-18','B','',{w:860,larga:1}],
+ ['Kit Cinema · montado','FX3 [pronta]','Câmera, cage, matte box e monitor sem fio: o Kit Cinema sai montado.',[['Câmera','Sony FX3'],['Cage','Tilta'],['Monitor','Hollyland Pyro 7']],'rt-20','E','',{pos:'50% 40%'}],
+ ['Erro comum','DIRETOR','Gravar sem monitor e só descobrir o problema na edição. Com o Pyro 7, quem dirige vê o take na hora.',[],'rt-22','D','CEGO?',{pos:'50% 35%'}],
+ ['FAQ · 14mm','A 14mm [distorce?]','Pouco, se a câmera fica nivelada e longe do rosto. É a lente para mostrar o espaço inteiro.',[['Distância','14 mm'],['Abertura','F1.8'],['Linha','G Master']],'rt-23','F','?',{pos:'50% 50%'}],
+ ['Combo · videocast','Combo [videocast]','STORM 80c para cor no fundo + 400x no rosto + 24–70 GM. Três peças, cena de programa.',[['Fundo','STORM 80c'],['Rosto','STORM 400x'],['Lente','24–70 GM']],'rt-06','A','13',{pos:'50% 35%'}],
+ ['Combo · entrevista','Luz de [entrevista]','A STORM 400x com bandeiras recorta o rosto e deixa o fundo no escuro.',[['Luz','STORM 400x'],['Bandeiras','Sim'],['Ideal','Depoimento']],'rt-04','C','',{pos:'50% 50%'}],
+ ['Bastidor · chegada','Chegou em [São Luís]','A maleta da DZOFilm Arcana desembarcou na Real Time. Agora ela está no inventário.',[['Lentes','DZOFilm Arcana'],['Onde','São Luís · MA'],['Locação','Já disponível']],'rt-32','B','',{w:760}],
+ ['Lentes de cinema','A parede [das lentes]','O kit VESPID Prime 2 descansando entre um job e outro. Limpo, conferido e pronto.',[['Kit','VESPID Prime 2'],['Encaixe','PL'],['Na FX3','Via Metabones']],'rt-34','E','',{pos:'50% 50%'}],
+ ['Kit Cinema','MATTE','Matte box Tilta Mirage na frente de uma VESPID 85mm: controla a luz que entra na lente.',[],'rt-28','D','BOX',{pos:'50% 50%'}],
+ ['Para que serve','Lente de [cinema]','Anel de foco com marcação, abertura em T e o mesmo tamanho em todo o kit. Troca rápida no set.',[['Foco','Anel dentado'],['Abertura','Em T'],['Kit','Padronizado']],'rt-16','F','',{pos:'45% 50%'}],
+ ['O que vem junto','Tripé [firme]','Cada luz do Kit Luz sai com tripé. Luz bem presa é set seguro.',[['Tripés','Inclusos'],['Base','Aberta'],['Ajuste','Altura']],'rt-01','A','19',{pos:'50% 55%'}],
+ ['FAQ · luz','Luz dura [ou suave?]','Refletor deixa a luz dura e marcada. Softbox e octabox deixam suave. A gente ajuda a escolher.',[['Dura','Refletor'],['Suave','Softbox'],['Pergunte','No WhatsApp']],'rt-07','C','',{pos:'50% 40%'}],
+ ['Combo · cinema na FX3','PL na [FX3]','Lente VESPID PL + adaptador Metabones PL–E = lente de cinema na câmera do kit.',[['Lente','VESPID Prime 2'],['Adaptador','Metabones PL–E'],['Câmera','Sony FX3']],'rt-19','B','',{w:900,larga:1}],
+ ['Estúdio · diária','SET','Estúdio, luz e equipamento num lugar só. Diária para produtora, agência e marca.',[],'rt-00','D','PRONTO',{pos:'50% 50%'}],
+ ['Combo · corporativo','Recado do [diretor]','Teleprompter + 85mm + STORM 400x: a mensagem da empresa gravada em poucos takes.',[['Texto','Teleprompter'],['Lente','85mm'],['Luz','STORM 400x']],'rt-24','E','',{pos:'50% 50%'}],
+ ['Realtime Produções','Do roteiro [à edição]','Além de alugar, a Real Time faz o projeto completo: roteiro, gravação e edição.',[['1','Roteiro'],['2','Gravação'],['3','Edição']],'rt-21','F','',{pos:'50% 40%'}],
+ ['Comparativo · VESPID','18mm [ou 105mm?]','18 mostra o lugar. 105 isola um detalhe. No meio, 24, 35, 50 e 85 resolvem o resto.',[['18mm','Abre'],['50mm','Natural'],['105mm','Fecha']],'rt-12','A','25',{pos:'50% 50%'}],
+ ['FAQ · Nucleus','Foco [sem fio?]','É o foquista girando o anel da lente por controle, sem encostar na câmera. Útil em gimbal e grua.',[['Sistema','Tilta Nucleus-M II'],['Uso','Gimbal e grua'],['Quem usa','Foquista']],'rt-26','C','',{pos:'50% 50%'}],
+ ['Realtime Conteúdo','Conteúdo [todo mês]','Sua empresa grava no estúdio com dia marcado e recebe os vídeos prontos para postar.',[['Onde','Estúdio RT'],['Ritmo','Mensal'],['Entrega','Vídeo editado']],'rt-08','B','',{w:640}],
+ ['Luz colorida','COR','Três STORM 80c pintam o fundo da cor da marca. Sem papel colorido, sem troca de cenário.',[],'rt-02','D','NO FUNDO',{pos:'50% 50%'}],
+ ['Erro comum','Lente [errada]','Escolher lente no dia da gravação. Diga a cena antes e a gente separa o kit certo.',[['Antes','Diga a cena'],['A RT','Separa o kit'],['No dia','Só gravar']],'rt-14','E','',{pos:'50% 50%'}],
+ ['Como funciona','Reservar [em 3 passos]','1. Diga a data e o que vai gravar. 2. A gente indica o kit. 3. Retire e grave.',[['1','Data'],['2','Kit'],['3','Gravar']],'rt-03','F','',{pos:'50% 40%'}]];
+const n=+new URLSearchParams(location.search).get('n')||1,[rot,tit,sub,at,ft,L,ex,o]=D[n-1],num=String(n).padStart(2,'0'),img=F+ft+'.jpg',tc='00:'+num+':16:11';
+let H='';
+if(L==='A')H=`<div class="p">${topo(rot)}
+<div class="a" style="right:30px;top:96px;font:800 360px/0.8 Geist;letter-spacing:-.07em;color:transparent;-webkit-text-stroke:2px rgba(244,247,251,.16)">${ex}</div>
+<div class="a" style="left:60px;top:170px;width:820px"><div style="font:700 ${tit.length>20?74:92}px/0.96 Geist;letter-spacing:-.045em">${hl(tit)}</div><div style="font:400 29px/1.35 Geist;color:#aab0bb;margin-top:18px;width:760px">${sub}</div></div>
+<div class="a" style="left:60px;right:60px;top:470px;height:560px;border-radius:34px;overflow:hidden"><img class="foto" src="${img}" style="width:100%;height:100%;object-position:${o.pos};filter:saturate(.75) contrast(1.08) brightness(.9)"></div>
+${visor(80,490,920,520,'rgba(244,247,251,.9)',tc)}
+<div class="a" style="left:60px;right:60px;top:1060px;display:grid;grid-template-columns:repeat(3,1fr);gap:14px">${at.map(([k,v])=>`<div style="background:#11161F;border-radius:22px;padding:18px 22px"><div class="mono" style="font-size:18px;color:#8b93a1">${k}</div><div style="font:600 30px/1.1 Geist;margin-top:8px">${v}</div></div>`).join('')}</div>
+<div class="a" style="left:60px;right:60px;bottom:50px;display:flex;justify-content:space-between;align-items:center">${wpp('#8b93a1')}<span class="cta">Reservar</span></div>${grao}</div>`;
+if(L==='B')H=`<div class="p" style="background:radial-gradient(800px 700px at 50% 45%,#fff,#E6ECF4 72%);color:#05070B">${topo(rot,1)}
+<div class="a" style="left:0;right:0;top:140px;text-align:center"><div style="font:700 ${tit.length>20?70:84}px/0.98 Geist;letter-spacing:-.045em">${hl(tit,'#4338F0')}</div><div style="font:400 27px/1.35 Geist;color:#565c68;margin:14px auto 0;width:820px">${sub}</div></div>
+<div class="a" style="left:${o.larga?60:150}px;right:${o.larga?60:150}px;top:${o.larga?400:370}px;height:${o.larga?560:660}px;border-radius:36px;overflow:hidden;box-shadow:0 50px 90px -40px rgba(5,7,11,.45)"><img class="foto" src="${img}" style="width:100%;height:100%"></div>${visor(o.larga?80:170,o.larga?420:390,o.larga?920:740,o.larga?520:620,'#fff',tc)}
+${o.larga?`<div class="a" style="left:60px;right:60px;top:990px;display:grid;grid-template-columns:repeat(${at.length>3?3:3},1fr);gap:10px">${at.map(([k,v])=>`<div style="background:#fff;border:1px solid #dfe5ee;border-radius:18px;padding:12px 18px"><div class="mono" style="font-size:17px;color:#4338F0">${k}</div><div style="font:600 24px Geist;margin-top:4px">${v}</div></div>`).join('')}</div>`:at.map(([k,v],i)=>`<div class="a" style="${i%2?'right':'left'}:50px;top:${[520,700,880][i]}px;background:rgba(255,255,255,.95);box-shadow:0 20px 40px -22px rgba(5,7,11,.45);border:1px solid #e3e8ef;border-radius:20px;padding:16px 22px;z-index:6"><div class="mono" style="font-size:17px;color:#4338F0">${k}</div><div style="font:600 28px Geist;margin-top:6px">${v}</div></div>`).join('')}
+<div class="a" style="left:60px;right:60px;bottom:50px;display:flex;justify-content:space-between;align-items:center">${wpp('#3d4048')}<span class="cta">Reservar</span></div>${grao}</div>`;
+if(L==='C')H=`<div class="p"><img class="a foto" src="${img}" style="inset:0;width:1080px;height:1350px;object-position:${o.pos}">
+<div class="a" style="inset:0;background:linear-gradient(180deg,rgba(5,7,11,.75) 0,rgba(5,7,11,0) 22%,rgba(5,7,11,0) 42%,rgba(5,7,11,.92) 100%)"></div>${topo(rot)}${visor(60,150,960,620,'rgba(244,247,251,.9)',tc)}
+<div class="a" style="left:44px;right:44px;bottom:44px;border-radius:34px;padding:34px 36px;background:linear-gradient(135deg,rgba(255,255,255,.17),rgba(255,255,255,.06));border:1px solid rgba(255,255,255,.28);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px)">
+<div style="font:700 ${tit.length>20?70:84}px/0.96 Geist;letter-spacing:-.045em">${hl(tit,'#7cc0ff')}</div>
+<div style="font:400 28px/1.4 Geist;color:#e3e6ec;margin-top:16px;width:900px">${sub}</div>
+<div style="display:flex;gap:12px;margin-top:22px;align-items:center;flex-wrap:wrap">${at.map(([k,v])=>`<span class="pil">${k}: <b>${v}</b></span>`).join('')}</div>
+<div style="display:flex;justify-content:space-between;align-items:center;margin-top:24px">${wpp('#c9d0dc')}<span class="cta">Reservar</span></div></div>${grao}</div>`;
+if(L==='E')H=`<div class="p" style="background:var(--az)"><div class="a" style="left:0;right:0;top:0;height:720px;overflow:hidden"><img class="foto" src="${img}" style="width:100%;height:100%;object-position:${o.pos}"></div>
+<div class="a" style="left:0;right:0;top:0;height:220px;background:linear-gradient(180deg,rgba(5,7,11,.7),transparent)"></div>${topo(rot)}${visor(60,150,960,530,'#fff',tc)}
+<div class="a" style="left:60px;right:60px;top:760px;color:#fff"><div style="font:800 ${tit.length>18?84:100}px/0.92 Geist;letter-spacing:-.05em">${hl(tit,'#05070B')}</div><div style="font:500 28px/1.38 Geist;margin-top:18px;width:900px;color:#eaf4ff">${sub}</div></div>
+<div class="a" style="left:60px;right:60px;top:1110px;display:flex;gap:10px;flex-wrap:wrap">${at.map(([k,v])=>`<span style="background:#05070B;color:#fff;border-radius:16px;padding:12px 18px;font:600 26px Geist">${k} <span style="font:500 18px 'Geist Mono';color:#7cc0ff">${v}</span></span>`).join('')}</div>
+<div class="a" style="left:60px;right:60px;bottom:46px;display:flex;justify-content:space-between;align-items:center">${wpp('#05070B')}<span class="cta" style="background:#05070B">Reservar</span></div>${grao}</div>`;
+if(L==='D')H=`<div class="p"><img class="a foto" src="${img}" style="inset:0;width:1080px;height:1350px;object-position:${o.pos};filter:brightness(.55) saturate(.7)">
+<div class="a" style="inset:0;background:radial-gradient(70% 55% at 50% 50%,rgba(5,7,11,0),rgba(5,7,11,.85))"></div>${topo(rot)}
+<div class="a" style="left:0;right:0;top:250px;text-align:center;font:900 ${tit.length>5?230:300}px/0.82 Geist;letter-spacing:-.06em;color:#F4F7FB;mix-blend-mode:normal">${tit}</div>
+<div class="a" style="left:0;right:0;top:${tit.length>5?440:500}px;text-align:center"><span style="font:900 ${ex.length>6?150:200}px/0.9 Geist;letter-spacing:-.06em;color:var(--az);">${ex}</span></div>
+<div class="a" style="left:300px;right:300px;top:780px;height:260px;border-radius:28px;overflow:hidden;box-shadow:0 40px 80px rgba(0,0,0,.7);border:2px solid rgba(244,247,251,.6)"><img class="foto" src="${img}" style="width:100%;height:100%;object-position:${o.pos}"></div>${visor(300,780,480,260,'#fff',tc)}
+<div class="a" style="left:60px;right:60px;top:1080px;text-align:center;font:500 29px/1.4 Geist;color:#e3e6ec">${sub}</div>
+<div class="a" style="left:60px;right:60px;bottom:46px;display:flex;justify-content:space-between;align-items:center">${wpp('#aab0bb')}<span class="cta">Reservar</span></div>${grao}</div>`;
+if(L==='F')H=`<div class="p" style="background:linear-gradient(160deg,#4338F0,#241c9e 75%)">${topo(rot)}
+${ex?`<div class="a" style="right:-20px;top:60px;font:900 520px/0.8 Geist;color:rgba(255,255,255,.08)">${ex}</div>`:''}
+<div class="a" style="left:60px;top:170px;width:960px"><div style="font:800 ${tit.length>20?80:96}px/0.94 Geist;letter-spacing:-.05em">${hl(tit,'#9fd0ff')}</div></div>
+<div class="a" style="left:60px;top:420px;width:520px;height:600px;border-radius:300px 300px 30px 30px;overflow:hidden;border:3px solid rgba(255,255,255,.5)"><img class="foto" src="${img}" style="width:100%;height:100%;object-position:${o.pos}"></div>
+<div class="a" style="left:610px;right:60px;top:430px"><div style="font:500 30px/1.42 Geist;color:#eef0ff">${sub}</div>
+<div style="margin-top:26px;display:flex;flex-direction:column;gap:12px">${at.map(([k,v])=>`<div style="background:rgba(5,7,11,.35);border-radius:18px;padding:14px 20px"><div class="mono" style="font-size:17px;color:#9fd0ff">${k}</div><div style="font:600 27px Geist;margin-top:4px">${v}</div></div>`).join('')}</div></div>
+<div class="a" style="left:60px;right:60px;bottom:50px;display:flex;justify-content:space-between;align-items:center">${wpp('#c9cdfa')}<span class="cta" style="background:#fff;color:#4338F0">Falar no WhatsApp</span></div>${grao}</div>`;
+document.getElementById('pp').innerHTML=H;
+Promise.all([document.fonts.ready,...[...document.images].map(i=>i.complete?1:new Promise(r=>{i.onload=i.onerror=r}))]).then(()=>window.pronto=true);
+</script></body></html>
