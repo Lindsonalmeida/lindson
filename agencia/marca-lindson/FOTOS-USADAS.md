@@ -26,3 +26,4 @@ Variações (05/11, conta Pedro): o Lindson liberou "pode criar variações com 
 | c03 **variação** (busto recortado recorte2.py, sobre amarelo com "CURTIDA" atrás) | Capa do Reel "Algoritmo: curtida não basta", `capas-1611/` (todas as 17 fotos já usadas: pedir novas) | 16/11/2026 | Designer gráfico |
 
 | lindson-01 a lindson-16 (escolhidas-2026-11-16, IA; recortes busto recorte2.py) | Linhas editoriais v1: capas de e1 01, e2 03, e3 06, b1 10, r1 07, r2 16, r3 04, a2 02, a3 05, f1 08, f2 15, f3 13, p1 14, p2 09, d1 11, d3 12 · `linhas-editoriais/v1/` (todas as 16 usadas: pedir lote novo) | 16/11/2026 | Leandro |
+| lindson-01 a lindson-16 (escolhidas-2026-11-16, IA; recortes recorte2.py) | Linhas editoriais **v2** (substitui a v1 reprovada, que não foi postada): uma foto por peça, mesmas peças da v1 · `linhas-editoriais/v2/` | 16/11/2026 | Leandro |

@@ -653,3 +653,4 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 - 16/11/2026 (conta Leandro) · REPROVADO: linhas-editoriais/v1 (28 peças) "não ficou premium". Causa: pesquisa premium pulada (agente disse "sem navegador", mas o Chromium/Playwright existe), peças com celular desenhado sem foto, entregue sem conferência visual. Nunca entregar sem as 8 refs de 3 países capturadas e sem abrir as telas antes. Refazer como v2 no nível Al Kántara v2 / Denis Bugatti.
 
 - 16/11/2026 (Lindson, conta Zuleide): REGRA RÍGIDA para todas as equipes: antes de fazer qualquer pedido, pesquisar TODAS as diretrizes já dadas sobre o tema (repositório, todos os branches, privado, memória, agentes). "Eu já dei tudo."
+- 16/11/2026 (conta Leandro): linhas editoriais v2 (20 peças, pesquisa com 10 capturas novas, refs Solaris Runway/Mattmart/No Limits) em `agencia/marca-lindson/linhas-editoriais/v2/`, aguardando aprovação. 8 pautas travadas por falta de foto.
