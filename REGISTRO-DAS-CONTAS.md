@@ -373,3 +373,4 @@ Levantado pela conta Lindson em 01/11/2026 a partir do histórico do git e dos a
 | 16/11/2026 | Leandro | Tweet + notícia v1: 24 carrosséis (marketing/IA, negócios, SLZ, assessor político, grupo tech, agência design), legendas e fontes; linha Rubla travada (produtos não encontrados) | agencia/marca-lindson/tweet-noticia/v1/ + painel admin Artes | aguardando aprovação |
 | 16/11/2026 | Leandro | Linhas editoriais v1 da marca Lindson: 28 conteúdos (78 PNGs), prévia, legendas SEO, aba Artes | agencia/marca-lindson/linhas-editoriais/v1/ | aguardando |
 | 16/11/2026 | Leandro | Linhas editoriais v2 da marca Lindson (20 peças, pesquisa premium nova) | agencia/marca-lindson/linhas-editoriais/v2/ · admin aba Artes | aguardando |
+| 17/11/2026 | Peter (subagente) | Série Previsões e Premonições: estratégia, 20 pautas, 1 longo + 2 Shorts (Raposa e Leão) | conteudo/youtube/previsoes/ | aguardando aprovação |
