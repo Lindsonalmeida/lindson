@@ -374,3 +374,4 @@ Levantado pela conta Lindson em 01/11/2026 a partir do histórico do git e dos a
 | 16/11/2026 | Leandro | Linhas editoriais v1 da marca Lindson: 28 conteúdos (78 PNGs), prévia, legendas SEO, aba Artes | agencia/marca-lindson/linhas-editoriais/v1/ | aguardando |
 | 16/11/2026 | Leandro | Linhas editoriais v2 da marca Lindson (20 peças, pesquisa premium nova) | agencia/marca-lindson/linhas-editoriais/v2/ · admin aba Artes | aguardando |
 | 17/11/2026 | Peter (subagente) | Série Previsões e Premonições: estratégia, 20 pautas, 1 longo + 2 Shorts (Raposa e Leão) | conteudo/youtube/previsoes/ | aguardando aprovação |
+| 17/11/2026 | Designer gráfico (subagente) | 5 carrosséis "Economist 2027" (série Previsões e Premonições, Raposa), 41 telas + legendas SEO | conteudo/youtube/previsoes/carrosseis-economist-2027/ e painel canais/raposa | aguardando |

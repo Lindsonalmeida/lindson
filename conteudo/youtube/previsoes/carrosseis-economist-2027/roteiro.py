@@ -1,0 +1,54 @@
+# Texto dos 5 carrosseis -> roteiro.json. Tom maximo, mas teoria so como pergunta/"a internet diz".
+import json
+M=[("Trump:","\"Not going quietly\" (não vai sair em silêncio)"),("IA:","aceleração, riscos e reação"),("Depois do Irã:","efeitos regionais e globais"),("Clima:","\"o ano mais quente, de novo\""),("Populismo:","\"o que é mais forte que Le Pen?\""),("Hollywood:","cansaço de franquias")]
+FIMTX="A revista **não publica** a decodificação dos símbolos. Os desenhos ilustram as manchetes. O resto é leitura da internet."
+def fim(cta): return dict(l='fim',et='O FATO · FECHAMENTO',manchetes=M,tx=FIMTX,cta=cta)
+C=[
+dict(id='c1',telas=[
+ dict(l='capa',img='lideres',retrato='maquiavel.jpg',alerta='OLHE COM ATENÇÃO',t='**81 símbolos** escondidos numa [[só capa]]',sub='A revista que "prevê" o mundo todo ano soltou 2027. Nossa equipe contou cada desenho. Ninguém percebeu metade.',c='left:42%;top:4%',prox='arraste'),
+ dict(l='grade',et='O MAPA DO GLOBO',t='5 regiões. **81** sinais.',itens=[('espaco','Topo'),('china','Esquerda'),('cerebro','Centro'),('kremlin','Direita')],tx='Contamos 81 elementos (contagem da equipe Raposa e Leão). Vamos região por região. A última é a mais **perturbadora**.',prox='o topo'),
+ dict(l='dossie',et='REGIÃO 1 · O TOPO',img='espaco',n='01',t='Céu, poder e **gelo vermelho**',tx='Satélite, astronauta, foguete, iceberg vermelho, a **fila de líderes de terno**, torre de transmissão, lua, camelo, avião.',c='left:30%;top:22%',prox='olhe à esquerda'),
+ dict(l='split',et='REGIÃO 2 · O CANTO ESQUERDO',img='incendio',n='02',t='O canto que **pega fogo**',tx='Bandeira da China com multidão, homem com megafone nas chamas, incêndio com cervo, robô fugindo com um saco, India Gate, mísseis. Por que tanto fogo do mesmo lado?',c='left:22%;top:40%',prox='o centro'),
+ dict(l='giga',et='REGIÃO 3 · O CENTRO',img='cerebro',g='03',t='Um **cérebro** de circuitos no meio do mundo',tx='Cérebro, seringa, comprimidos, cofre, Cybertruck, moedas, as letras **πεν** e a Marianne de Paris. Coincidência ficar bem no centro?',prox='a direita'),
+ dict(l='versus',et='REGIÃO 4 · A DIREITA',img='kremlin',t='Kremlin, **cavaleiro** e ampulheta',teoria='Cavaleiro vermelho ao lado da ampulheta = "o tempo acabou"? A internet jura que sim.',fato='Ampulheta e Kremlin aparecem perto do duto partido e da urna: o tema provável é energia e eleições.',c='left:40%;top:10%',prox='a base'),
+ dict(l='dossie',et='REGIÃO 5 · A BASE',img='cristal',n='05',t='A **bola de cristal** e a fila de peões',tx='Tanques, navio acorrentado, mar vermelho, telescópio, barracas de refugiados, lobos. E uma bola de cristal sendo **observada por uma fila**. Quem está na fila?',c='left:22%;top:8%',prox='a verdade'),
+ fim('Qual dos 81 te deu **mais arrepio**? Comenta o número.')]),
+dict(id='c2',telas=[
+ dict(l='capa',img='cristal',retrato='borgia.jpg',alerta='ELES AVISARAM?',t='10 previsões [[sobrenaturais]] na capa de 2027',sub='Bola de cristal, ampulheta, "sinal" do espaço. A internet diz que a capa **sabe demais**. Será?',c='left:20%;top:12%',prox='a nº 10'),
+ dict(l='giga',img='peoes',g='10',et='PREVISÃO 10 E 9',t='Peões em fila diante da **bola de cristal**',tx='A internet diz: "o povo esperando o destino que outros já viram". Teoria ou só a ilustração de previsões?',prox='o tempo'),
+ dict(l='dossie',et='PREVISÃO 8',img='ampulheta',n='08',t='A ampulheta está **quase vazia**?',tx='Leitores juram que a areia vermelha marca uma contagem regressiva. Para quê? Ninguém concorda.',c='left:25%;top:30%',prox='o céu'),
+ dict(l='split',et='PREVISÃO 7 E 6 · ETs?',img='espaco',n='07',t='O "sinal" vindo do **espaço**',tx='Satélite, astronauta à deriva, foguete. A capa **não mostra ETs**, mas a internet lê ali um "contato". E o telescópio na base aponta para cima. Coincidência?',c='left:20%;top:20%',prox='o cavaleiro'),
+ dict(l='versus',et='PREVISÃO 5',img='cavaleiro',t='O **cavaleiro** do apocalipse?',teoria='Cavalo escuro, cavaleiro vermelho: o "segundo cavaleiro", o da guerra, diz a internet.',fato='Ele está colado ao Kremlin. A leitura mais simples: Rússia e a guerra na Ucrânia.',c='left:40%;top:15%',prox='a seringa'),
+ dict(l='frase',et='PREVISÃO 4',img='seringa',retrato='lorenzo.jpg',q='"Uma nova peste?"',fonte='A PERGUNTA QUE A INTERNET FAZ',tx='Seringa gigante e chuva de pontos vermelhos. **Não há prova** de nada disso. O fato: a revista cobre remédios e biotecnologia todo ano.',prox='o mar'),
+ dict(l='dossie',et='PREVISÃO 3',img='navio',n='03',t='O mar ficou **vermelho**',tx='Navio preso por correntes num mar de sangue. A internet cita pragas bíblicas. Rotas de navio bloqueadas explicam bem menos dramático... ou não?',c='left:45%;top:10%',prox='as máquinas'),
+ dict(l='grade',et='PREVISÃO 2 E 1',t='As **máquinas** já fugiram?',itens=[('robo','Robô fugindo'),('cerebro','Cérebro-chip'),('cybertruck','Cybertruck'),('telescopio','Telescópio')],tx='Um robô corre com um saco. De quem? A manchete diz: **IA, aceleração, riscos e reação**.',prox='a verdade'),
+ fim('Qual previsão **te assustou** mais? Vota: 1 a 10.')]),
+dict(id='c3',telas=[
+ dict(l='capa',img='guerra',retrato='cesar.jpg',alerta='NINGUÉM PERCEBEU ISSO',t='O **maior medo** escondido na [[capa]]',sub='Não é a IA. É a parte da capa que tem **mais desenhos de guerra** do que qualquer outra.',c='left:60%;top:0%',prox='olhe'),
+ dict(l='giga',et='A MANCHETE',img='navio',g='!',t='"After **Iran**"',tx='"Depois do Irã: efeitos regionais e globais." A revista escreve como se algo **já tivesse acontecido**. O que vem depois?',prox='os mísseis'),
+ dict(l='dossie',et='EVIDÊNCIA 1',img='misseis',n='01',t='Uma chuva de **mísseis**',tx='No canto inferior esquerdo, foguetes riscam o céu em diagonal. É a maior mancha vermelha da capa.',c='left:30%;top:30%',prox='os tanques'),
+ dict(l='split',et='EVIDÊNCIA 2',img='guerra',n='02',t='Dois **tanques** e uma cidade em chamas',tx='Logo abaixo: explosão, prédios em ruína, tanques em fila. Caças e fábricas fecham o cerco.',c='left:25%;top:20%',prox='o mar'),
+ dict(l='versus',et='EVIDÊNCIA 3',img='navio',t='O navio **acorrentado**',teoria='"É o Estreito de Ormuz fechado e o petróleo parando o mundo", diz a internet.',fato='A revista fala em efeitos "regionais e globais". Energia e rotas de navios são temas que ela cobre há anos.',c='left:45%;top:5%',prox='e a IA?'),
+ dict(l='grade',et='POR QUE NÃO A IA',t='IA × guerra: **quem ocupa mais**?',itens=[('cerebro','IA'),('robo','IA'),('cacas','Guerra'),('guerra','Guerra')],tx='A IA tem cérebro, robô e chip. A guerra tem mísseis, tanques, caças, cidade bombardeada e navio. **Mais espaço, mais vermelho.** Por isso escolhemos a guerra.',prox='o fato'),
+ dict(l='frase',et='A LIÇÃO DO PRÍNCIPE',img='kremlin',retrato='maquiavel.jpg',q='"Não se evita a guerra; ela apenas se adia em proveito de outros."',fonte='MAQUIAVEL · O PRÍNCIPE, CAP. III',tx='Quem desenha o medo na capa decide **do que você vai falar** o ano inteiro.',prox='a verdade'),
+ fim('Guerra ou IA: **qual te assusta mais**? Comenta.')]),
+dict(id='c4',telas=[
+ dict(l='capa',img='peoes',retrato='lorenzo.jpg',alerta='A CAPA QUE NÃO DEVIA EXISTIR',t='Quem **manda** no globo da [[Economist]]?',sub='Uma fila de líderes no topo. Uma fila de peões na base. E no meio, um cofre. **Repare na ordem.**',c='left:30%;top:10%',prox='o topo'),
+ dict(l='dossie',et='NO TOPO DO MUNDO',img='lideres',n='01',t='A fila de **ternos**',tx='Bem no ponto mais alto do globo: homens de terno lado a lado, entre bandeiras. Ninguém tem rosto. Quem são?',c='left:40%;top:5%',prox='os 4'),
+ dict(l='split',et='OS 4 AGENTES',img='agentes',n='04',t='Quatro sombras **sem nome**',tx='Ao lado do homem com megafone, quatro figuras escuras em formação. A internet chama de "os guardiões". Teoria pura, mas quem desenhou quis que você notasse.',c='left:25%;top:25%',prox='o dinheiro'),
+ dict(l='giga',et='O COFRE',img='cofre',g='$',t='O **cofre** no centro',tx='Cofre, moedas empilhadas, gráfico caindo e maço de dinheiro. O dinheiro fica no meio; os peões, na borda.',prox='a torre'),
+ dict(l='versus',et='A TORRE',img='torre',t='Quem controla o **sinal**?',teoria='"A torre de transmissão é o controle da informação", diz a internet.',fato='Ela está entre os líderes e o Oriente Médio: comunicações e mídia, um tema da edição.',c='left:20%;top:20%',prox='os peões'),
+ dict(l='dossie',et='NA BASE',img='cristal',n='06',t='E você está **na fila**',tx='Peões alinhados olhando a bola de cristal. A leitura da internet: "uns preveem, outros obedecem". Será?',c='left:20%;top:10%',prox='Maquiavel'),
+ dict(l='frase',et='A LIÇÃO DO PRÍNCIPE',img='agentes',retrato='maquiavel2.jpg' if False else 'borgia.jpg',q='"Os homens julgam mais pelos olhos que pelas mãos."',fonte='MAQUIAVEL · O PRÍNCIPE, CAP. XVIII',tx='Quem publica o futuro **pauta** o presente. Não é segredo: é poder às claras.',prox='a verdade'),
+ fim('Você está **na fila de cima ou na de baixo**? Responde.')]),
+dict(id='c5',telas=[
+ dict(l='capa',img='seringa',retrato='cesar.jpg',alerta='OLHE O CENTRO DA CAPA',t='O que a **seringa** está [[escondendo]]?',sub='Seringa gigante, comprimidos, um cientista e uma chuva vermelha. A internet entrou em pânico. **Vamos aos fatos.**',c='left:20%;top:30%',prox='a seringa'),
+ dict(l='dossie',et='ELEMENTO 1',img='seringa',n='01',t='A maior **seringa** do globo',tx='Em pé, cheia de vermelho, maior que os prédios ao lado. Por que tão grande?',c='left:20%;top:20%',prox='os comprimidos'),
+ dict(l='split',et='ELEMENTO 2',img='comprimidos',n='02',t='Comprimidos **caindo**',tx='Cápsulas vermelhas espalhadas ao lado do cofre. Remédio virou negócio de bilhões. Coincidência estarem colados no dinheiro?',c='left:25%;top:20%',prox='a chuva'),
+ dict(l='giga',et='ELEMENTO 3',img='chuva',g='?',t='A **chuva vermelha**',tx='Centenas de pontinhos vermelhos caem sobre essa parte da capa. A internet pergunta: contágio? Ninguém sabe o que a revista quis dizer.',prox='o cientista'),
+ dict(l='dossie',et='ELEMENTO 4',img='cientista',n='04',t='O **cientista** sozinho',tx='Um homem no microscópio, em silêncio, ao lado dos frascos. O que ele está vendo?',c='left:30%;top:10%',prox='a teoria'),
+ dict(l='versus',et='TEORIA × FATO',img='chuva',t='"Uma nova **peste**"?',teoria='A internet pergunta se a capa "avisa" uma nova doença. **Não há nenhuma prova** disso.',fato='Remédios novos (como os de emagrecer), biotecnologia e IA na ciência estão entre os temas que a revista acompanha.',c='left:30%;top:25%',prox='Maquiavel'),
+ dict(l='frase',et='A LIÇÃO DO PRÍNCIPE',img='cientista',retrato='lorenzo.jpg',q='"Quem quer enganar sempre encontra quem se deixe enganar."',fonte='MAQUIAVEL · O PRÍNCIPE, CAP. XVIII',tx='Medo vende clique. Confira a **fonte** antes de compartilhar. Vacinas e remédios: ouça o seu médico.',prox='a verdade'),
+ fim('Remédio milagroso ou **negócio bilionário**? Comenta.')]),
+]
+json.dump(C,open('roteiro.json','w'),ensure_ascii=False,indent=1)
