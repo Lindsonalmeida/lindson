@@ -250,7 +250,7 @@ function cartaoVideo(c, v, i) {
   if (v.video && v.video.url) tela = `<video controls preload="none" playsinline src="${esc(v.video.url)}"${poster ? ` poster="${esc(poster)}"` : ''}></video>`;
   else tela = `${poster ? `<img src="${esc(poster)}" alt="Capa de ${esc(v.titulo)}" loading="lazy">` : `<img alt="" style="background:#111">`}
     <div class="selo"><b>${v.video ? 'Arquivo ainda no app antigo' : 'Vídeo ainda não subiu'}</b>${v.video ? `<span>${v.pre ? 'Já foi postado: o vídeo ficou no YouTube/Metricool.' : 'Toque para assistir e baixar no app antigo.'}</span><a class="btn lin mini" href="${esc(app)}" target="_blank" rel="noopener">${IC.abrir}Abrir no app antigo</a>` : '<span>As capas e os textos já estão prontos.</span>'}</div>`;
-  const capas = v.tipo === 'longo' && v.capas.length > 1 ? `<div class="capas">${v.capas.map(x => x.url ? `<figure><img src="${esc(x.url)}" alt="${esc(x.nome)} de ${esc(v.titulo)}" loading="lazy"><figcaption>${esc(x.nome)}</figcaption></figure>` : '').join('')}</div>`
+  const capas = (v.tipo === 'longo' || v.tipo === 'carrossel') && v.capas.length > 1 ? `<div class="capas">${v.capas.filter(x => !/\.zip$/.test(x.arq || '')).map(x => x.url ? `<figure><img src="${esc(x.url)}" alt="${esc(x.nome)} de ${esc(v.titulo)}" loading="lazy"><figcaption>${esc(x.nome)}</figcaption></figure>` : '').join('')}</div>`
     : (v.tipo === 'short' && v.video && v.video.url && poster ? `<div class="capas"><figure><img src="${esc(poster)}" alt="Capa de ${esc(v.titulo)}" loading="lazy"><figcaption>Capa</figcaption></figure></div>` : '');
   const nome = (c.id === 'passaporte' ? 'passaporte-' : 'raposa-e-leao-');
   const baixar = [
@@ -261,7 +261,7 @@ function cartaoVideo(c, v, i) {
   return `<article class="card vid ${v.tipo}${feito ? ' feito' : ''}" data-id="${esc(v.id)}">
     <div class="midia"><div class="tela">${tela}</div>${capas}</div>
     <div class="corpo">
-      <div class="cab"><span class="num">${v.tipo === 'longo' ? 'Vídeo longo' : 'Short'} · ${String(i + 1).padStart(2, '0')}${v.dur ? ' · ' + esc(v.dur) : ''}${v.agenda ? ' · Programar ' + esc(v.agenda) : ''}</span>${st}
+      <div class="cab"><span class="num">${v.tipo === 'longo' ? 'Vídeo longo' : v.tipo === 'carrossel' ? 'Carrossel' : 'Short'} · ${String(i + 1).padStart(2, '0')}${v.dur ? ' · ' + esc(v.dur) : ''}${v.agenda ? ' · Programar ' + esc(v.agenda) : ''}</span>${st}
         <div class="fim"><label class="carimbo"><input type="checkbox" data-post="${esc(v.id)}"${feito ? ' checked' : ''}>Marquei como postado</label></div></div>
       <div class="campo tit"><div class="r"><span class="rot">Título</span><button class="btn lin mini" data-cp="titulo">${IC.copiar}Copiar título</button></div><p class="tx">${esc(v.titulo)}</p></div>
       <div class="campo leg"><div class="r"><span class="rot">Legenda${/\d:\d\d/.test(v.legenda) ? ' · com capítulos' : ''}</span><button class="btn lin mini" data-cp="legenda">${IC.copiar}Copiar legenda</button></div><p class="tx">${esc(v.legenda)}</p><button class="mais" data-mais>Ver legenda inteira</button></div>
@@ -289,11 +289,11 @@ function render() {
   document.querySelectorAll('.grupo a[data-c]').forEach(a => { if (a.dataset.c === c.id) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); });
   D.canais.forEach(k => { const n = k.itens.filter(v => !postado(k.id, v)).length + (k.aprov || []).filter(a => !stAp(k.id, a.id).postado && stAp(k.id, a.id).st !== 'aprovado').length; const e = $('#n-' + k.id); if (e) e.textContent = est[k.id] ? n : ''; });
   $('#titulo').textContent = c.nome; $('#sub-topo').textContent = 'Postagens prontas · atualizado em ' + (D.atualizado || '');
-  const it = c.itens, sh = it.filter(v => v.tipo === 'short'), lo = it.filter(v => v.tipo === 'longo'), fe = it.filter(v => postado(c.id, v));
+  const it = c.itens, sh = it.filter(v => v.tipo === 'short'), lo = it.filter(v => v.tipo === 'longo'), ca = it.filter(v => v.tipo === 'carrossel'), fe = it.filter(v => postado(c.id, v));
   const naC = it.filter(v => v.video && v.video.url).length, capasC = it.reduce((s, v) => s + v.capas.filter(x => x.url).length, 0), capasT = it.reduce((s, v) => s + v.capas.length, 0);
   const pct = it.length ? Math.round(fe.length / it.length * 100) : 0;
   const AP = c.aprov || [], MT = c.materiais || [], apF = AP.filter(a => stAp(c.id, a.id).postado), apA = AP.filter(a => !stAp(c.id, a.id).postado);
-  const abas = [['short', 'Shorts', sh.filter(v => !postado(c.id, v)).length, sh.length], ['longo', 'Vídeos longos', lo.filter(v => !postado(c.id, v)).length, lo.length],
+  const abas = [['short', 'Shorts', sh.filter(v => !postado(c.id, v)).length, sh.length], ['longo', 'Vídeos longos', lo.filter(v => !postado(c.id, v)).length, lo.length], ['carrossel', 'Carrosséis', ca.filter(v => !postado(c.id, v)).length, ca.length],
     ['aprov', 'Aprovações', apA.filter(a => stAp(c.id, a.id).st !== 'aprovado').length, AP.length + (c.avisos || []).length], ['mat', 'Materiais', MT.length, MT.length], ['feito', 'Postados', fe.length + apF.length, 1]].filter(x => x[3]);
   if (!abas.some(x => x[0] === aba)) aba = abas[0][0];
   const L = aba === 'feito' ? fe : it.filter(v => v.tipo === aba && !postado(c.id, v));

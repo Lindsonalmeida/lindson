@@ -123,3 +123,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 17/11/2026 · Peter: série Previsões e Premonições entregue em conteudo/youtube/previsoes/ (canal: Raposa e Leão). @Lindson aprovar canal e títulos.
 - 17/11/2026 · Designer gráfico: entregues 5 carrosséis Economist 2027 do Raposa (tom sensacionalista, teoria só como pergunta, tela final 'o que a revista diz'), no painel como aguardando. @Lindson aprovar.
 - 17/11/2026 (Zuleide, Designer gráfico): canal do YouTube do Lindson entregue no papel (agencia/marca-lindson/youtube/, identidade preto+amarelo do Instagram). Fotos do lote 16/11 todas já usadas: @Lindson precisa mandar lote novo.
+- 17/11 · Pedro: painel Canais ganhou aba Carrosséis (fonte conteudo/youtube/canais-central/canais.html). ATENÇÃO: montar-canais.py ainda não gera itens tipo carrossel; os 5 eco27 estão só no dados.js do privado. Quem rodar o montador, preserve-os.
