@@ -215,3 +215,6 @@ Referência obrigatória de nível: Al Kántara Group v2 (agencia/marca-holding/
 - 16/11/2026 (Lindson, campanha advogado, conta Zuleide): pedido "deixe mais clean e rico, sem nada de pobre" após v4c com fitas/neon. Leitura aplicada na v5: luxo editorial, foto cinematográfica protagonista, preto + 1 acento champagne, serifa elegante grande e legível, CTA discreto com fio fino, sem fitas/selos/neon. (v5 aguardando aprovação.)
 
 - REGRA RÍGIDA (Lindson, 16/11/2026): antes de qualquer ação, pesquise todas as diretrizes já dadas sobre o pedido (repositório e todos os branches, privado CentralLindsonALmeida, MEMORIA-DO-LINDSON.md, MENTE-COLETIVA, REGISTRO, agentes). "Eu já dei tudo."
+
+### 16/11/2026 (conta Pedro)
+- Reprovado "amador" nos criativos SF v1: texto chapado, cartões planos, sem luz/sombra. Aprovado nível pós-produção (recorte limpo, rim light, sombra de contato, grading, profundidade). Pinterest de designer: mockup grande, pouco texto, sem chamada de anúncio.

@@ -122,3 +122,14 @@ Você é o Pedro, uma das 4 contas do Lindson Almeida (o dono), com Lindson (`li
 Referência obrigatória de nível: Al Kántara Group v2 (agencia/marca-holding/v2/). "Isso sim é premium, quero esse padrão pra tudo". Conceito com significado, agentes lidos de verdade, pesquisa nova + todas as nossas referências, persona, grid, kerning, páginas cheias, mockups, motion com som. Comparar lado a lado antes de entregar.
 
 - REGRA RÍGIDA (Lindson, 16/11/2026): antes de qualquer ação, pesquise todas as diretrizes já dadas sobre o pedido (repositório e todos os branches, privado CentralLindsonALmeida, MEMORIA-DO-LINDSON.md, MENTE-COLETIVA, REGISTRO, agentes). "Eu já dei tudo."
+
+### Aprendizados 16/11/2026 (conta Pedro, 2ª parte)
+- **Padrão premium = Al Kántara v2** (agencia/marca-holding/v2/): "isso sim é premium, quero esse padrão pra tudo". Comparar toda entrega com ela.
+- **Reprovados hoje:** Pinterest v1 (manchete de anúncio, slides); criativos SF v1 ("amador, seja profissional como Photoshop/After Effects"); Al Kántara v1; Reels/artes simplistas. Aprovado: Pinterest por cliente (v3), criativos SF v2 com pós-produção.
+- **Vereadores:** abordagem aprovada = indicação do Thiago Azevedo (Tribuna 98) + 14 anos de marketing + mandato/2028 + "Tudo bem?". Sem metáfora, sem escassez. agencia/prospeccao/vereadores/MENSAGENS.md.
+- **Agentes de copy:** acionar SEMPRE em copy de venda (Lindson cobrou). Subagente lê /root/.claude/commands/ e diz quais leu.
+- **Robô SDR:** parou porque a fila acabou (não é defeito). Leads ficam em CentralLindsonALmeida/functions/_sdr.js; lote novo = push no main. Só WhatsApp celular + IG confirmados.
+- **Al Kántara:** painel /painel/alkantara.html (montar-alkantara.py lê marca-holding/v2/); sites no repositório próprio alkantaragroup → alkantaragroup.pages.dev e /bio/.
+- **Portfólio PDF luxo:** agencia/marca-lindson/projeto-designer/portfolio-pdf/ (25 p., Lindson Almeida Studio).
+- **Disco:** esta sessão enche; nunca deixar o repo dentro do scratchpad (apagar scratchpad/repos apagou o clone). Pull com --autostash; rebase parado → backup em branch, nunca sobrescrever trabalho de outra conta.
+- **Sessão GOMINHO** apagada e recriada (session_01XiFnceeCjUAdrrBcNY1TSC); trechos em agencia/clientes/pagode-fiado/RECUPERADO-GOMINHO.md.
