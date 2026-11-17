@@ -66,3 +66,12 @@ Lance a entrega em **Tarefas feitas** da Central (cliente, data e hora, `acao:"f
 - Rodada de 2h da coordenação: `coordenacao/PROMPT-EQUIPE.md`, no máximo 2 itens, travar em `fila.json` antes.
 
 - REGRA RÍGIDA (Lindson, 16/11/2026): antes de qualquer ação, pesquise todas as diretrizes já dadas sobre o pedido (repositório e todos os branches, privado CentralLindsonALmeida, MEMORIA-DO-LINDSON.md, MENTE-COLETIVA, REGISTRO, agentes). "Eu já dei tudo."
+
+## 8. Aprendizados de 16/11/2026
+- Pedido ambíguo ("melhore", "esses criativos"): ver o contexto mais recente; se ainda houver dúvida real, 1 pergunta curta.
+- Peças de anúncio do Lindson (advogado SLZ): direção "clean e rico" (luxo editorial, preto + champagne), foto dele GRANDE de autoridade, NADA sobre o rosto (checar por código), letras masculinas sem itálico. Fitas/neon/selos = "pobre".
+- Hero shot e "vídeo a partir da imagem como a Meta faz": cena premium por código com produto fiel (recorte), animação dolly/luz/partículas + trilha e SFX; gerador em rt-full-jobs/hero-shot-v1/.
+- Narração: se a voz TTS não acerta marca estrangeira (DZOFilm, VESPID, Tilta), tirar a marca da fala e deixar só no lettering.
+- Aprovados estão na sub-aba "Aprovados" das Aprovações do painel; avisar o Lindson onde achar.
+- Disco cheio trava o git: apagar temporários antigos (/tmp/reel*) antes de renderizar.
+- REGRA RÍGIDA nova: pesquisar todas as diretrizes antes de qualquer pedido (topo do CLAUDE.md).
