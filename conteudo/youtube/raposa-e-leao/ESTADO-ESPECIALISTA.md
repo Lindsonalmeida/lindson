@@ -7,6 +7,7 @@
 - **Kit Instagram/TikTok** (conta Leandro, 15/11): bio, destaques, 40 legendas, agenda 2/dia (`redes-sociais/KIT.md`).
 - **Produto:** Manual de Campo (PDF 50 p.) + isca *7 frases que Maquiavel nunca disse* + página de venda (conta Pedro, 14/11) em `produto/`.
 - **Análise do produto (18/11):** `produto/ANALISE-2026-11-18.md`.
+- **Site v2 do produto (18/11):** `produto/site/` · prévia https://claude.ai/artifact/68nQmAkcw3mytAUQGQTWzN · falta repositório raposaeleao + Cloudflare e preço/checkout.
 - **Série Previsões e Premonições** (Peter, 17/11) + 5 carrosséis Economist 2027 (`conteudo/youtube/previsoes/`).
 - **Linhas editoriais de carrossel v2** (esta sessão, 18/11, baseadas no Manual de Campo; v1 substituída): `redes-sociais/LINHAS-EDITORIAIS-CARROSSEIS-v2.md`.
 

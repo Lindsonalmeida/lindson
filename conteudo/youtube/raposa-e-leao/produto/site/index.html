@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Manual de Campo · Raposa e Leão</title>
+<meta name="description" content="30 situações de poder no trabalho, nos negócios e na vida. O que Maquiavel escreveu, com obra e capítulo, e o que fazer hoje.">
+<meta property="og:title" content="Manual de Campo · Raposa e Leão">
+<meta property="og:description" content="30 situações de poder. O que Maquiavel escreveu, com obra e capítulo, e o que fazer hoje.">
+<meta property="og:image" content="img/og.jpg"><meta name="theme-color" content="#0B0A08">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Cinzel:wght@600;700&family=Cormorant+Garamond:ital,wght@0,600;1,500;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<!-- Site v2 do Manual de Campo (sessão especialista Raposa e Leão, conta Zuleide, 18/11/2026).
+     Composição: Stripe Press (página escura, rótulos espaçados, livro em 3D), Folio Society (pintura grande, edição de luxo),
+     Antofágica (clássico com obra de arte em tela cheia). Identidade: raposa-e-leao/IDENTIDADE.md.
+     CONFIGURAR: preencha CFG no fim da página (preço e checkout da Hubla). Vazio = preço some e o botão leva ao guia grátis. -->
+<style>
+:root{--noite:#0B0A08;--carvao:#17140F;--ouro:#C9A227;--ouro2:#E2BE4A;--brasa:#D9622B;--perg:#EFE6D2;--sangue:#8E1B1B;--cinza:#a39a86;--linha:rgba(201,162,39,.18)}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth;overflow-x:clip}
+body{background:var(--noite);color:var(--perg);font:400 17px/1.6 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{max-width:100%;display:block}a{color:inherit}
+.w{max-width:1180px;margin:0 auto;padding:0 20px}
+.rot{font:700 12px Cinzel;letter-spacing:.3em;color:var(--ouro);text-transform:uppercase;display:flex;align-items:center;gap:12px}
+.rot:before{content:"";width:28px;height:1px;background:var(--ouro)}
+h1,h2,h3{font-family:Anton;font-weight:400;text-transform:uppercase;line-height:.95;letter-spacing:.005em}
+h2{font-size:clamp(40px,8vw,84px);margin:16px 0 24px}
+em.o,h1 em,h2 em{font-style:normal;color:var(--ouro2)}
+.tj{background:var(--sangue);padding:0 .18em;display:inline-block;transform:rotate(-1.2deg)}
+section{position:relative;padding:96px 0}
+.grao:after{content:"";position:absolute;inset:0;pointer-events:none;opacity:.08;background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence baseFrequency='.9' numOctaves='3'/></filter><rect width='200' height='200' filter='url(%23n)'/></svg>")}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:12px;background:var(--ouro);color:var(--noite);font:400 21px Anton;letter-spacing:.05em;text-transform:uppercase;padding:19px 32px;text-decoration:none;border-radius:2px;transition:.25s;box-shadow:0 14px 40px rgba(201,162,39,.25)}
+.btn:hover{background:var(--ouro2);transform:translateY(-2px)}
+.btn.sec{background:transparent;color:var(--ouro2);border:1px solid var(--ouro);box-shadow:none}
+.nota{font-size:13px;color:var(--cinza);margin-top:14px}
+.rv{opacity:0;transform:translateY(34px);transition:1s cubic-bezier(.2,.7,.2,1)}.rv.in{opacity:1;transform:none}
+
+/* topo */
+.nav{position:absolute;top:0;left:0;right:0;z-index:5;display:flex;justify-content:space-between;align-items:center;padding:22px 20px;max-width:1180px;margin:0 auto}
+.nav b{font:700 13px Cinzel;letter-spacing:.32em}
+.nav a{font:600 12px Inter;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;color:var(--ouro2);border-bottom:1px solid var(--ouro)}
+
+/* hero */
+.hero{min-height:100svh;padding:0;display:flex;align-items:flex-end;overflow:hidden}
+.hero .bg{position:absolute;inset:0;will-change:transform;background:url(img/hero.jpg) 70% 18%/cover no-repeat;filter:contrast(1.15) brightness(.78);transform:scale(1.06);animation:kb 18s ease-out forwards}
+@keyframes kb{to{transform:scale(1)}}
+.hero .tint{position:absolute;inset:0;background:radial-gradient(ellipse at 72% 30%,rgba(217,98,43,.38),transparent 55%),linear-gradient(90deg,rgba(11,10,8,.96) 0%,rgba(11,10,8,.72) 45%,rgba(11,10,8,.15) 80%),linear-gradient(0deg,var(--noite) 2%,transparent 45%)}
+.hero .w{position:relative;z-index:2;width:100%;padding-top:120px;padding-bottom:64px}
+.hero h1{font-size:clamp(76px,15vw,190px);margin:20px 0 6px}
+.hero h1 small{display:block;font-size:.32em;letter-spacing:.02em;color:var(--perg)}
+.sub{font:italic 500 clamp(22px,3.6vw,32px)/1.25 "Cormorant Garamond",serif;max-width:600px;margin-bottom:28px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:30px}
+.chips span{font:600 11px Inter;letter-spacing:.14em;text-transform:uppercase;border:1px solid rgba(201,162,39,.5);padding:8px 12px;color:var(--ouro2);background:rgba(11,10,8,.5);backdrop-filter:blur(4px)}
+.hero .row{display:flex;flex-wrap:wrap;gap:14px;align-items:center}
+.preco-hero{font:400 34px Anton;color:var(--perg)}.preco-hero small{font:500 13px Inter;color:var(--cinza);display:block;letter-spacing:.06em}
+.scroll{position:absolute;right:24px;bottom:30px;z-index:3;writing-mode:vertical-rl;font:600 11px Cinzel;letter-spacing:.3em;color:var(--ouro)}
+
+/* faixa */
+.faixa{padding:0;border-block:1px solid var(--linha);background:var(--carvao);overflow:hidden}
+.mq{display:flex;gap:48px;white-space:nowrap;padding:18px 0;animation:mq 70s linear infinite;width:max-content}
+.mq span{font:400 26px Anton;text-transform:uppercase;color:var(--perg);opacity:.85}.mq span:nth-child(3n){color:var(--ouro2)}
+.mq i{font-style:normal;color:var(--brasa)}
+@keyframes mq{to{transform:translateX(-50%)}}
+
+/* cena */
+.cena{overflow:hidden;padding:120px 0}
+.cena .bg{position:absolute;inset:0;background:url(img/cena.jpg) center/cover;filter:contrast(1.2) brightness(.42)}
+.cena .tint{position:absolute;inset:0;background:linear-gradient(180deg,var(--noite),rgba(11,10,8,.55) 30%,rgba(11,10,8,.6) 70%,var(--noite)),radial-gradient(circle at 30% 50%,rgba(142,27,27,.35),transparent 60%)}
+.cena .w{position:relative;z-index:2}
+.dores{display:grid;gap:18px;margin-top:34px}
+.dor{background:rgba(23,20,15,.82);backdrop-filter:blur(6px);padding:28px 30px;border-left:4px solid var(--sangue);max-width:720px}
+.dor:nth-child(2){margin-left:auto}.dor:nth-child(3){margin-left:10%}
+.dor p{font:italic 500 clamp(24px,3.4vw,34px)/1.2 "Cormorant Garamond",serif}
+.cred{position:absolute;right:20px;bottom:18px;z-index:2;font-size:11px;color:var(--cinza);letter-spacing:.06em}
+
+/* virada */
+.virada .g{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.virada p{font-size:19px;color:#ddd3be;margin-bottom:16px;max-width:560px}
+.lei{position:relative;background:var(--perg);color:#241b0e;padding:42px 38px;border-top:6px solid var(--brasa);box-shadow:0 40px 90px rgba(0,0,0,.6)}
+.lei:before{content:"«";position:absolute;right:20px;top:-30px;font:400 180px/1 "Cormorant Garamond";color:var(--brasa);opacity:.35}
+.lei blockquote{font:italic 600 clamp(26px,3.6vw,38px)/1.15 "Cormorant Garamond",serif}
+.lei p{margin-top:14px;color:#3b3222;font-size:17px}
+.lei cite{display:block;font:700 12px Cinzel;letter-spacing:.24em;color:#7a5a1a;font-style:normal;margin-top:16px}
+.retrato-v{position:relative;height:100%;min-height:520px}
+.retrato-v img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:contrast(1.15);mask-image:linear-gradient(90deg,transparent,#000 35%)}
+.retrato-v .lei{position:absolute;left:-12%;bottom:40px;max-width:480px}
+
+/* anatomia */
+.anat{background:var(--carvao)}
+.an{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:center}
+.pagina{position:relative;transform:perspective(1400px) rotateY(10deg) rotate(-1.5deg);box-shadow:-30px 50px 100px rgba(0,0,0,.75),0 0 0 1px rgba(201,162,39,.3)}
+.pagina .pin{position:absolute;width:34px;height:34px;border-radius:50%;background:var(--sangue);color:#fff;font:400 18px Anton;display:grid;place-items:center;box-shadow:0 0 0 4px rgba(142,27,27,.35),0 6px 20px #000}
+.passos{list-style:none;counter-reset:p}
+.passos li{counter-increment:p;display:grid;grid-template-columns:54px 1fr;gap:18px;padding:22px 0;border-bottom:1px solid var(--linha)}
+.passos li:before{content:counter(p);font:400 40px/1 Anton;color:transparent;-webkit-text-stroke:1.5px var(--ouro2)}
+.passos b{font:400 26px Anton;text-transform:uppercase;letter-spacing:.02em;display:block}
+.passos span{color:#d5cbb6;font-size:16px}
+
+/* terrenos */
+.ter{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.t{position:relative;min-height:680px;overflow:hidden;background:#000;border:1px solid var(--linha);display:flex;flex-direction:column;justify-content:flex-end;padding:26px}
+.t img{position:absolute;left:0;right:0;top:0;width:100%;height:68%;object-fit:cover;object-position:50% 15%;filter:contrast(1.2) brightness(.62);transition:1.2s}
+.t:hover img{transform:scale(1.05);filter:contrast(1.2) brightness(.75)}
+.t:before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(0deg,#0B0A08 38%,rgba(11,10,8,.55) 58%,transparent 78%)}
+.t>*{position:relative;z-index:2}
+.t .n{font:400 110px/0.8 Anton;color:transparent;-webkit-text-stroke:2px var(--ouro2);position:absolute;top:22px;left:22px}
+.t h3{font-size:34px;margin-bottom:6px;text-shadow:0 3px 18px #000,0 0 2px #000}.t .d{text-shadow:0 2px 10px #000}
+.t .d{font:italic 500 19px/1.3 "Cormorant Garamond";color:var(--ouro2);margin-bottom:14px}
+.t ul{list-style:none;font-size:14.5px;color:#e4dac4}.t li{padding:6px 0;border-top:1px solid rgba(239,230,210,.12)}
+
+/* páginas */
+.pags{display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;padding:10px 20px 26px;scrollbar-width:thin}
+.pags img{width:min(78vw,340px);flex:none;scroll-snap-align:center;box-shadow:0 30px 60px rgba(0,0,0,.6),0 0 0 1px rgba(201,162,39,.25)}
+.dica{font:600 12px Inter;letter-spacing:.14em;text-transform:uppercase;color:var(--cinza);padding:0 20px}
+
+/* ferramentas */
+.fer{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--linha);border:1px solid var(--linha)}
+.fer div{background:var(--noite);padding:30px 24px}
+.fer b{font:400 88px/0.9 Anton;color:var(--ouro2);display:block}
+.fer h3{font-size:24px;margin:12px 0 8px}.fer p{font-size:15px;color:#d5cbb6}
+
+/* rigor */
+.rig{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:start}
+.falsas{display:grid;gap:14px}
+.fa{position:relative;background:var(--carvao);padding:24px 26px;border:1px solid var(--linha);overflow:hidden}
+.fa q{font:italic 600 26px/1.2 "Cormorant Garamond";quotes:"“" "”"}
+.fa .st{position:absolute;right:18px;top:50%;transform:translateY(-50%) rotate(-9deg);font:400 20px Anton;letter-spacing:.06em;color:#d43a3a;border:3px solid #d43a3a;padding:4px 12px;opacity:.92;mix-blend-mode:screen}
+.fa .st.ou{color:var(--ouro2);border-color:var(--ouro2)}
+.fa q{padding-right:150px;display:block}
+.isca{display:grid;grid-template-columns:200px 1fr;gap:26px;align-items:center;background:linear-gradient(135deg,#1d1810,#0f0d0a);border:1px solid var(--ouro);padding:26px;margin-top:30px}
+.isca img{transform:rotate(-4deg);box-shadow:0 20px 50px #000}
+.isca h3{font-size:30px;margin-bottom:8px}.isca p{color:#d5cbb6;font-size:15px;margin-bottom:16px}
+
+/* para quem */
+.pq{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.pq>div{background:var(--carvao);padding:32px;border-top:3px solid var(--ouro)}.pq>div.nao{border-color:var(--sangue)}
+.pq h3{font-size:28px;margin-bottom:16px}
+.pq li{list-style:none;padding:10px 0 10px 30px;position:relative;border-bottom:1px solid rgba(239,230,210,.08)}
+.pq li:before{content:"▲";position:absolute;left:0;color:var(--ouro);font-size:12px;top:14px}.pq .nao li:before{content:"✕";color:#d43a3a;font-size:15px;top:11px}
+
+/* oferta */
+.of{position:relative;overflow:hidden;background:radial-gradient(ellipse at 30% 40%,rgba(217,98,43,.2),transparent 60%),var(--noite)}
+.ofg{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.livro{perspective:1600px;display:flex;justify-content:center;padding:30px 0}
+.livro .b{position:relative;width:min(70vw,380px);aspect-ratio:4/5;transform-style:preserve-3d;transform:rotateY(-24deg) rotateX(6deg);transition:1.2s;animation:fl 7s ease-in-out infinite}
+.livro .b img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;box-shadow:30px 40px 80px rgba(0,0,0,.8)}
+.livro .b:before{content:"";position:absolute;left:0;top:0;width:34px;height:100%;background:linear-gradient(90deg,#1a150e,#3a2d17);transform:rotateY(90deg) translateZ(-17px) translateX(-17px);transform-origin:left}
+.livro .b:after{content:"";position:absolute;right:-14px;top:6px;bottom:6px;width:14px;background:repeating-linear-gradient(0deg,#e9dfc8 0 2px,#cfc3a6 2px 3px);transform:rotateY(70deg);transform-origin:left}
+@keyframes fl{50%{transform:rotateY(-18deg) rotateX(4deg) translateY(-10px)}}
+.caixa{border:1px solid var(--ouro);padding:34px;background:rgba(23,20,15,.85)}
+.caixa ul{list-style:none;margin:18px 0}
+.caixa li{display:flex;justify-content:space-between;gap:16px;padding:12px 0;border-bottom:1px solid var(--linha);font-size:15.5px}
+.caixa li span:last-child{font:700 11px Cinzel;letter-spacing:.2em;color:var(--ouro2);white-space:nowrap}
+.preco{font:400 76px/1 Anton;color:var(--perg);margin:18px 0 4px}
+.garantia{display:flex;gap:18px;align-items:center;margin-top:24px;padding-top:22px;border-top:1px solid var(--linha)}
+.selo7{flex:none;width:78px;height:78px;border:2px solid var(--ouro);border-radius:50%;display:grid;place-items:center;text-align:center;font:400 30px/0.9 Anton;color:var(--ouro2)}
+.selo7 small{display:block;font:700 9px Cinzel;letter-spacing:.2em}
+.garantia p{font-size:14.5px;color:#d5cbb6}
+
+/* faq */
+.faq{max-width:820px}
+details{border-bottom:1px solid var(--linha);padding:22px 0}
+summary{cursor:pointer;list-style:none;font:400 24px Anton;text-transform:uppercase;display:flex;justify-content:space-between;gap:20px}
+summary::-webkit-details-marker{display:none}summary:after{content:"+";color:var(--ouro2);transition:.3s}details[open] summary:after{transform:rotate(45deg)}
+details p{margin-top:12px;color:#d5cbb6;max-width:700px}
+
+/* fim */
+.fim{min-height:86svh;display:flex;align-items:center;text-align:center;overflow:hidden}
+.fim .bg{position:absolute;inset:0;background:url(img/borgia.jpg) center 25%/cover;filter:contrast(1.25) brightness(.35)}
+.fim .tint{position:absolute;inset:0;background:radial-gradient(circle at 50% 50%,rgba(217,98,43,.25),transparent 60%),linear-gradient(180deg,var(--noite),transparent 30%,transparent 70%,var(--noite))}
+.fim .w{position:relative;z-index:2}
+.fim h2{font-size:clamp(48px,10vw,120px)}
+.fim blockquote{font:italic 500 clamp(20px,3vw,28px)/1.35 "Cormorant Garamond";max-width:700px;margin:0 auto 34px;color:#e8dec8}
+footer{padding:40px 0 120px;border-top:1px solid var(--linha);font-size:13px;color:var(--cinza)}
+footer .w{display:grid;gap:10px}
+
+/* barra fixa */
+.bb{position:fixed;left:0;right:0;bottom:0;z-index:20;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 16px;background:rgba(11,10,8,.94);backdrop-filter:blur(10px);border-top:1px solid var(--ouro);transform:translateY(110%);transition:.4s}
+.bb.on{transform:none}.bb b{font:400 22px Anton}.bb small{display:block;font-size:11px;color:var(--cinza)}.bb .btn{padding:13px 20px;font-size:17px}
+
+@media(max-width:900px){
+ section{padding:72px 0}
+ .virada .g,.an,.rig,.ofg,.pq{grid-template-columns:1fr;gap:34px}
+ .retrato-v{min-height:620px}.retrato-v img{mask-image:linear-gradient(180deg,#000 50%,transparent)}
+ .retrato-v .lei{left:0;right:0;bottom:0;max-width:none;padding:30px 24px}
+ .ter{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;margin:0 -20px;padding:0 20px 10px}
+ .t{min-width:82vw;scroll-snap-align:center;min-height:620px}
+ .fer{grid-template-columns:1fr 1fr}
+ .fa q{font-size:22px;padding-right:0;padding-bottom:44px}.fa .st{top:auto;bottom:14px;transform:rotate(-5deg);font-size:16px}
+ .isca{grid-template-columns:1fr}.isca img{width:170px}
+ .dor:nth-child(n){margin-left:0}
+ .hero .tint{background:radial-gradient(ellipse at 70% 20%,rgba(217,98,43,.35),transparent 55%),linear-gradient(0deg,var(--noite) 30%,rgba(11,10,8,.55) 65%,rgba(11,10,8,.2))}
+ .hero .bg{background-position:62% 10%}
+ .scroll{display:none}
+}
+@media(min-width:901px){.bb{display:none}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+
+<header class="hero grao">
+ <div class="bg" role="img" aria-label="Retrato de Nicolau Maquiavel, Santi di Tito"></div><div class="tint"></div>
+ <nav class="nav"><b>RAPOSA E LEÃO</b><a href="#oferta">Ver o manual</a></nav>
+ <div class="w">
+  <div class="rot">Manual de consulta · PDF de 50 páginas</div>
+  <h1><small>O manual de</small><em>Campo</em></h1>
+  <p class="sub">30 situações de poder no trabalho, nos negócios e na vida. O que Maquiavel escreveu, com obra e capítulo, e o que fazer na segunda-feira.</p>
+  <div class="chips"><span>30 situações</span><span>Cada frase com a fonte</span><span>3 ferramentas</span><span>Garantia de 7 dias</span></div>
+  <div class="row"><a class="btn js-comprar" href="#oferta">Quero o Manual de Campo</a><div class="preco-hero js-preco"><small>pagamento único</small><span class="js-valor"></span></div></div>
+  <p class="nota js-nota-compra">Acesso na hora, pelo e-mail da compra. Pix ou cartão.</p>
+ </div>
+ <div class="scroll">ROLE ↓</div>
+</header>
+
+<div class="faixa" aria-hidden="true"><div class="mq" id="mq"></div></div>
+
+<section class="cena grao">
+ <div class="bg"></div><div class="tint"></div>
+ <div class="w">
+  <div class="rot rv">Você conhece esta cena</div>
+  <h2 class="rv">Você sabe o que <em>está errado</em>.<br>Não sabe <span class="tj">qual é o lance</span>.</h2>
+  <div class="dores">
+   <div class="dor rv"><p>"Entrego mais que ele, e quem leva o crédito é sempre ele."</p></div>
+   <div class="dor rv"><p>"Cedi para não brigar, e agora ele pede mais."</p></div>
+   <div class="dor rv"><p>"Fico adiando a conversa difícil, e a situação só piora."</p></div>
+  </div>
+ </div>
+ <div class="cred">Giotto, O Beijo de Judas (c. 1305). Domínio público.</div>
+</section>
+
+<section class="virada">
+ <div class="w g">
+  <div class="rv">
+   <div class="rot">A virada</div>
+   <h2>O problema não é falta de <em>frase</em></h2>
+   <p>Você já viu dezenas de vídeos sobre Maquiavel. Guardou frases fortes. Na hora de decidir, nenhuma delas diz o que fazer na segunda-feira.</p>
+   <p>E parte delas nem é dele. "Os fins justificam os meios" não está em nenhuma obra. "É melhor ser temido do que amado" foi cortada no meio.</p>
+   <p>O Manual de Campo faz o caminho inverso: começa pela situação que você está vivendo e vai até o texto. Ali está o que ele escreveu de fato, o que fazer hoje e onde parar.</p>
+  </div>
+  <div class="retrato-v rv">
+   <img src="img/cesar.jpg" alt="Busto de Júlio César, escultura romana" loading="lazy">
+   <div class="lei">
+    <blockquote>«bisogna adunque essere golpe a conoscere e' lacci, e lione a sbigottire e' lupi»</blockquote>
+    <p>"é preciso ser raposa para conhecer as armadilhas e leão para assustar os lobos"</p>
+    <cite>O Príncipe, cap. XVIII</cite>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section class="anat grao">
+ <div class="w an">
+  <div class="pagina rv">
+   <img src="img/p08.jpg" alt="Página real do manual: situação 02, Todo mundo julga você pela vitrine" loading="lazy">
+   <span class="pin" style="left:-14px;top:22%">1</span><span class="pin" style="right:-14px;top:36%">2</span><span class="pin" style="left:-14px;top:58%">3</span><span class="pin" style="right:-14px;top:58%">4</span><span class="pin" style="left:-14px;top:78%">5</span>
+  </div>
+  <div class="rv">
+   <div class="rot">Por dentro</div>
+   <h2>Uma situação, <em>uma página</em></h2>
+   <ol class="passos">
+    <li><div><b>A cena</b><span>A situação do jeito que ela aparece na sua semana.</span></div></li>
+    <li><div><b>O texto</b><span>Italiano e português, com obra e capítulo.</span></div></li>
+    <li><div><b>No livro</b><span>O caso que ele usa, como ele conta.</span></div></li>
+    <li><div><b>O lance</b><span>Três passos para hoje.</span></div></li>
+    <li><div><b>O freio</b><span>Onde a ideia vira abuso ou golpe. Toda página tem.</span></div></li>
+   </ol>
+  </div>
+ </div>
+</section>
+
+<section>
+ <div class="w">
+  <div class="rot rv">Seis terrenos</div>
+  <h2 class="rv">30 situações. <em>Onde o poder</em> aparece de verdade.</h2>
+  <div class="ter" id="ter"></div>
+ </div>
+</section>
+
+<section style="padding-top:0">
+ <div class="w"><div class="rot rv">Páginas reais do manual</div><h2 class="rv">Abra antes de <em>comprar</em></h2></div>
+ <div class="pags" id="pags"></div>
+ <p class="dica">Arraste para o lado →</p>
+</section>
+
+<section class="anat">
+ <div class="w">
+  <div class="rot rv">O que você leva</div>
+  <h2 class="rv">O manual e <em>3 ferramentas</em></h2>
+  <div class="fer rv">
+   <div><b>30</b><h3>Situações de poder</h3><p>Ler o jogo, carreira e comando, dinheiro e negociação, aliados e traição, rivais e conflito, fortuna e domínio próprio.</p></div>
+   <div><b>13</b><h3>Perguntas do Príncipe</h3><p>Um roteiro para qualquer decisão que pese: verdade efetiva, armas próprias, ódio e desprezo, a hora de agir.</p></div>
+   <div><b>1</b><h3>Folha de decisão</h3><p>Para imprimir ou copiar no caderno. Separa fato de esperança antes de você escolher.</p></div>
+   <div><b>26</b><h3>O Príncipe em 26 linhas</h3><p>Um capítulo por linha, para saber onde procurar no livro inteiro.</p></div>
+  </div>
+ </div>
+</section>
+
+<section>
+ <div class="w rig">
+  <div class="rv">
+   <div class="rot">O rigor do canal</div>
+   <h2>Nenhuma frase <em>inventada</em></h2>
+   <p style="color:#ddd3be;max-width:560px">Cada trecho em italiano foi comparado, palavra por palavra, com o original: O Príncipe na edição crítica de Giorgio Inglese (Einaudi, 1995) e os Discursos no texto de domínio público. O texto é de Maquiavel. A aplicação é interpretação nossa, e o manual separa uma coisa da outra em toda página.</p>
+   <div class="isca">
+    <img src="img/isca.jpg" alt="Capa do guia grátis 7 frases que Maquiavel nunca disse" loading="lazy">
+    <div><h3>Grátis: <em class="o">7 frases</em> que ele nunca disse</h3><p>O guia de 11 páginas com a frase falsa, de onde ela veio e o que está escrito de verdade.</p><a class="btn sec js-isca" href="7-frases-que-maquiavel-nunca-disse.pdf" download>Baixar o guia grátis</a></div>
+   </div>
+  </div>
+  <div class="falsas rv">
+   <div class="fa"><q>Os fins justificam os meios</q><span class="st">NÃO EXISTE</span></div>
+   <div class="fa"><q>Melhor ser temido do que amado</q><span class="st ou">CORTADA</span></div>
+   <div class="fa"><q>Amigos perto, inimigos mais perto</q><span class="st">É DE FILME</span></div>
+   <div class="fa"><q>Dividir para reinar</q><span class="st">NÃO É DELE</span></div>
+   <div class="fa"><q>Basta parecer bom. Não precisa ser.</q><span class="st ou">MEIA-VERDADE</span></div>
+  </div>
+ </div>
+</section>
+
+<section style="padding-top:0">
+ <div class="w pq rv">
+  <div><h3>É para você se</h3><ul><li>Gosta de Maquiavel, mas quer usar, e não só citar.</li><li>Trabalha com gente: chefe, sócio, cliente, equipe.</li><li>Quer a fonte de cada frase, para não passar vergonha.</li><li>Prefere pensar a decisão a seguir a regra de alguém.</li></ul></div>
+  <div class="nao"><h3>Não é para você se</h3><ul><li>Procura técnica para manipular ou enganar pessoas.</li><li>Quer promessa de enriquecer ou de virar líder em 30 dias.</li><li>Quer o livro O Príncipe inteiro (este é um manual de consulta).</li></ul></div>
+ </div>
+</section>
+
+<section class="of grao" id="oferta">
+ <div class="w ofg">
+  <div class="livro rv"><div class="b"><img src="img/capa.jpg" alt="Capa do Manual de Campo"></div></div>
+  <div class="caixa rv">
+   <div class="rot">Manual de Campo · Raposa e Leão</div>
+   <ul>
+    <li><span>Manual de Campo: 30 situações (PDF, 50 páginas)</span><span>incluso</span></li>
+    <li><span>As 13 perguntas do Príncipe</span><span>incluso</span></li>
+    <li><span>Folha de decisão para imprimir</span><span>incluso</span></li>
+    <li><span>O Príncipe em 26 linhas</span><span>incluso</span></li>
+   </ul>
+   <div class="js-preco"><div class="preco js-valor"></div><p class="nota" style="margin:0 0 20px">Pagamento único. Pix ou cartão. Acesso na hora.</p></div>
+   <p class="nota js-embreve" style="display:none;margin:0 0 18px;color:var(--ouro2)">Em breve à venda. Enquanto isso, baixe grátis o guia das 7 frases.</p>
+   <a class="btn js-comprar" href="#oferta" style="width:100%">Quero o Manual de Campo</a>
+   <div class="garantia"><div class="selo7"><div>7<small>DIAS</small></div></div><p>Leia com calma. Se em 7 dias achar que não é para você, peça o reembolso pela plataforma e devolvemos o valor inteiro, sem pergunta. É um direito seu.</p></div>
+  </div>
+ </div>
+</section>
+
+<section>
+ <div class="w faq">
+  <div class="rot rv">Perguntas</div>
+  <h2 class="rv">Antes de <em>comprar</em></h2>
+  <details><summary>Como recebo?</summary><p>Logo depois do pagamento, chega o acesso no e-mail da compra. O PDF abre no celular, no tablet e no computador, e pode ser impresso.</p></details>
+  <details><summary>Preciso ter lido O Príncipe?</summary><p>Não. Cada página explica o trecho que usa. Se depois quiser ler o livro, o manual traz um mapa de 26 linhas para você não se perder.</p></details>
+  <details><summary>Isso é um curso de manipulação?</summary><p>Não. O manual explica como o poder funciona e onde está o limite. Toda situação termina com um freio, e nada ali ensina enganar, ameaçar ou fazer algo ilegal.</p></details>
+  <details><summary>Vou ter resultado garantido?</summary><p>Não prometemos resultado. O manual ajuda a enxergar a situação e a decidir com mais calma. O que acontece depois depende de você, dos outros e, como o próprio Maquiavel dizia, também da sorte.</p></details>
+  <details><summary>As frases são confiáveis?</summary><p>Sim. Cada citação em italiano foi conferida no original e vem com obra e capítulo. As traduções são livres e simples, para ler de primeira.</p></details>
+  <details><summary>E se eu não gostar?</summary><p>Você tem 7 dias para pedir o reembolso integral pela plataforma de pagamento.</p></details>
+ </div>
+</section>
+
+<section class="fim grao">
+ <div class="bg" role="img" aria-label="César Bórgia de perfil"></div><div class="tint"></div>
+ <div class="w">
+  <div class="rot rv" style="justify-content:center">A ocasião</div>
+  <h2 class="rv">A fortuna dá a <em>ocasião</em>.<br>O preparo é seu.</h2>
+  <blockquote class="rv">«sanza quella virtù la occasione sarebbe venuta invano»<br>"sem aquela virtù, a ocasião teria vindo em vão" · O Príncipe, cap. VI</blockquote>
+  <a class="btn js-comprar rv" href="#oferta">Quero o Manual de Campo</a>
+ </div>
+</section>
+
+<footer><div class="w">
+ <div>Raposa e Leão · Manual de Campo. Produto digital (PDF).</div>
+ <div>Imagens: obras de arte em domínio público (Santi di Tito, Giotto, escultura romana, retratos do séc. XVI). Este material não substitui orientação jurídica, financeira ou psicológica.</div>
+ <div><a href="7-frases-que-maquiavel-nunca-disse.pdf" download>Baixe grátis o guia "7 frases que Maquiavel nunca disse"</a></div>
+</div></footer>
+
+<div class="bb" id="bb"><div><b class="js-valor"></b><small class="js-bbtx">Manual de Campo · PDF</small></div><a class="btn js-comprar" href="#oferta">Quero o manual</a></div>
+
+<script>
+/* ==== CONFIGURAR (Lindson): preço e link do checkout da Hubla. Vazio = preço some e o botão leva ao guia grátis. ==== */
+const CFG = { preco: "", checkout: "" };
+
+const SIT=[
+ ["I","Ler o jogo","Antes de agir, enxergue.","maquiavel",["Você decide pelo que gostaria que fosse","Todo mundo julga você pela vitrine","O problema pequeno que todos ignoram","Quem cerca você é o seu retrato","Todo mundo concorda com você"]],
+ ["II","Carreira e comando","Subir, mandar, cortar e ser lembrado.","cesar",["Você chegou para mudar as coisas","Ser querido ou ser respeitado","A notícia ruim que você precisa dar","Chefe bonzinho, equipe frouxa","Na calmaria, esqueceram de você"]],
+ ["III","Dinheiro e negociação","Preço, concessão e hora de fechar.","lorenzo",["Generoso demais para ser respeitado","Do outro lado da mesa tem um arrogante","Já ganhou, e quer mais um pouco","A decisão que nunca sai","Ficar em cima do muro"]],
+ ["IV","Aliados e traição","Quem sobe com você e de quem você depende.","borgia",["Você ajudou alguém a subir","Um favor novo não apaga a ofensa velha","Tudo depende de um só","A amizade que foi comprada","Você se protege com muralha"]],
+ ["V","Rivais e conflito","O confronto adiado e o atalho que cobra.","hannibal",["O rival já é maior que você","O confronto que você empurra com a barriga","Estão falando de você pelas costas","A vontade de humilhar o adversário","O atalho sujo que funciona"]],
+ ["VI","Fortuna e domínio próprio","Sorte, crise, ocasião e o comando de si.","caracalla",["Mês bom, guarda baixa","A culpa é da sorte","O que trouxe você até aqui parou de funcionar","A ocasião apareceu","Fundo do poço"]]];
+document.getElementById('ter').innerHTML=SIT.map(s=>`<article class="t rv"><img src="img/${s[3]}.jpg" alt="" loading="lazy"><div class="n">${s[0]}</div><h3>${s[1]}</h3><div class="d">${s[2]}</div><ul>${s[4].map(x=>`<li>${x}</li>`).join('')}</ul></article>`).join('');
+const todas=SIT.flatMap(s=>s[4]);
+document.getElementById('mq').innerHTML=[...todas,...todas].map(t=>`<span>${t}</span><i>✦</i>`).join('');
+document.getElementById('pags').innerHTML=['07','08','14','25','30','37','44','46','48'].map(p=>`<img src="img/p${p}.jpg" alt="Página ${+p} do Manual de Campo" loading="lazy">`).join('');
+
+/* preço e checkout */
+const temVenda=!!(CFG.preco&&CFG.checkout);
+document.querySelectorAll('.js-valor').forEach(e=>e.textContent=CFG.preco);
+document.querySelectorAll('.js-comprar').forEach(a=>{
+ if(temVenda){a.href=CFG.checkout;a.rel='noopener'}
+ else{a.href='7-frases-que-maquiavel-nunca-disse.pdf';a.setAttribute('download','');a.textContent='Baixar o guia grátis'}});
+if(!temVenda){document.querySelectorAll('.js-preco,.js-nota-compra').forEach(e=>e.style.display='none');
+ document.querySelectorAll('.js-embreve').forEach(e=>e.style.display='block');
+ document.querySelectorAll('.js-bbtx').forEach(e=>e.textContent='Guia grátis · 7 frases que ele nunca disse')}
+
+/* animação de entrada e barra fixa */
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.rv').forEach(e=>io.observe(e));
+const bb=document.getElementById('bb'),hero=document.querySelector('.hero'),of=document.getElementById('oferta');
+addEventListener('scroll',()=>{const y=scrollY,h=hero.offsetHeight,o=of.getBoundingClientRect();bb.classList.toggle('on',y>h*.8&&!(o.top<innerHeight&&o.bottom>0))},{passive:true});
+</script>
+</body>
+</html>
