@@ -20,8 +20,8 @@ def L(var, x, y, w, side='left'): return f'<img class="box" src="{logo(var)}" st
 
 # POST 1 · capa de revista (ref B, GQ Men of the Year): palavra gigante ATRÁS do Leo, foto dominante
 P['r3-post-capa'] = (1080, 1350, f'''<div class="box" style="inset:0;background:radial-gradient(circle at 50% 35%,#1b2a4a,var(--pr) 70%)"></div>
-<div class="H box" style="left:0;right:0;top:90px;text-align:center;font-size:262px;color:var(--la)">PRESENÇA</div>
-<img class="p rim" src="{ft('d-bracos-cruzados-branca')}" style="left:50%;transform:translateX(-50%);bottom:0;width:1080px">
+<div class="H box" style="left:0;right:0;top:110px;text-align:center;font-size:250px;color:var(--la)">PRESENÇA</div>
+<img class="p rim" src="{ft('d-bracos-cruzados-branca')}" style="left:50%;transform:translateX(-50%);bottom:0;width:880px">
 {chao(c('preto'),460)}
 <div class="k" style="left:60px;top:60px;color:var(--br)">Vereador · São João Batista</div>
 <div class="H box" style="left:60px;bottom:230px;font-size:118px;color:var(--br)">que <span class="tag">resolve.</span></div>
@@ -49,7 +49,7 @@ P['r3-car-1'] = (1080, 1350, f'''<div class="box" style="inset:0;background:var(
 <div class="box" style="left:0;top:0;width:560px;bottom:0;background:var(--la)"></div>
 <img class="p rim" src="{ft('f-punhos')}" style="left:300px;bottom:0;width:820px">
 <div class="k" style="left:56px;top:64px;color:var(--pr)">Prestação de contas · 1/4</div>
-<div class="H box" style="left:56px;top:150px;font-size:190px;color:var(--pr)">O que<br>o man-<br>dato<br><span style="color:var(--br)">entre-<br>gou</span></div>
+<div class="H box" style="left:56px;top:170px;font-size:128px;color:var(--pr);z-index:2">O que<br>o mandato<br><span style="color:var(--br)">entregou</span></div>
 {chao('rgba(8,9,12,.95)',260)}{L('branco',56,50,220)}<div class="k" style="right:56px;bottom:70px;color:var(--ou)">Arraste →</div>{fim()}''')
 P['r3-car-2'] = (1080, 1350, f'''<div class="box" style="inset:0;background:var(--br)"></div>
 <div class="H box" style="left:40px;top:-40px;font-size:760px;color:var(--la)">01</div>
@@ -59,8 +59,8 @@ P['r3-car-2'] = (1080, 1350, f'''<div class="box" style="inset:0;background:var(
 <div class="k" style="left:60px;bottom:66px;color:#999;font-size:17px">Exemplo ilustrativo do modelo</div>{L('marinho',60,40,190,'right')}''')
 P['r3-car-3'] = (1080, 1350, f'''<div class="box" style="inset:0;background:var(--ma2)"></div>
 <div class="box" style="left:60px;top:60px;right:60px;height:700px;overflow:hidden;outline:3px solid var(--ou);outline-offset:-3px;background:radial-gradient(circle at 60% 40%,#2350F5,#021A3D)"><img src="{ft('h-close-amarela')}" style="position:absolute;right:-40px;bottom:0;width:900px"><div class="k" style="left:24px;bottom:20px;color:#fff;font-size:16px;background:rgba(0,0,0,.5);padding:6px 10px">Aqui entra a foto real da entrega</div></div>
-<div class="H box" style="left:60px;top:810px;font-size:150px;color:var(--ou)">Antes de<br><span style="color:var(--br)">virar obra,</span></div>
-<div class="box" style="left:60px;top:1080px;width:900px;font:400 30px/1.45 Mont;color:#cfd6e6">virou visita técnica, ofício e acompanhamento. Olho de engenheiro do começo ao fim.</div>
+<div class="H box" style="left:60px;top:810px;font-size:130px;color:var(--ou)">Antes da obra,<br><span style="color:var(--br)">o olho técnico.</span></div>
+<div class="box" style="left:60px;top:1080px;width:900px;font:400 30px/1.45 Mont;color:#cfd6e6">Visita técnica, ofício e acompanhamento junto com a Prefeitura, do pedido até a entrega.</div>
 {L('mono',60,40,170,'right')}''')
 P['r3-car-4'] = (1080, 1350, f'''<div class="box" style="inset:0;background:var(--la)"></div>
 <img class="p" src="{ft('i-maos-abertas-branca')}" style="left:50%;transform:translateX(-50%);bottom:0;width:700px">
@@ -91,8 +91,8 @@ Q = [('q1', '01', 'Leo no', 'Povoado', 'Segunda', 'la', 'c-maos-juntas-laranja',
      ('q4', '04', 'Gente da', 'Baixada', 'Sexta', 'ro', 'd-bracos-cruzados-branca', 'br')]
 for q, n, t1, t2, dia, bg, f, tx in Q:
     P['r3-quadro-' + q] = (1080, 1350, f'''<div class="box" style="inset:0;background:var(--{bg})"></div>
-<div class="H box" style="right:-30px;top:40px;font-size:640px;color:rgba(255,255,255,.13)">{n}</div>
-<img class="p rim" src="{ft(f)}" style="right:-140px;bottom:0;width:{1000 if 'close' not in f else 1150}px">
+<img class="p rim" src="{ft(f)}" style="right:-200px;bottom:0;width:{1000 if 'close' not in f else 1080}px">
+<div class="H box" style="left:46px;top:150px;font-size:400px;color:transparent;-webkit-text-stroke:4px var(--ou);z-index:3">{n}</div>
 <div class="box" style="left:0;top:0;right:0;height:110px;background:var(--ou);display:flex;align-items:center;justify-content:space-between;padding:0 56px"><span class="H" style="font-size:64px;color:var(--pr)">Quadro {n}</span><span class="k" style="position:static;color:var(--pr)">{dia} · Reels</span></div>
 {chao('rgba(8,9,12,.96)',560)}
 <div class="H box" style="left:56px;bottom:250px;font-size:160px;color:var(--{tx if bg!='pr' else 'br'})"><span style="color:var(--br)">{t1}</span><br><span style="color:var(--{'la' if bg!='la' else 'ou'})">{t2}</span></div>
