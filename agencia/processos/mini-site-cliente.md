@@ -119,3 +119,4 @@ O Claude altera e publica; a Cloudflare atualiza sozinha em ~1 minuto.
 | WF Celulares | `Lindsonalmeida/wfcelulares` | https://wfcelulares.pages.dev (bio · código pronto em 10/11, falta importar na Cloudflare) |
 | Orégano Turbo | `Lindsonalmeida/oreganoturbo` | https://oreganoturbo.pages.dev (site) · https://oreganoturbo.pages.dev/bio/ (bio) · no ar (14/11) |
 | Al Kántara Group | `Lindsonalmeida/alkantaragroup` | https://alkantaragroup.pages.dev (site) · https://alkantaragroup.pages.dev/bio/ (bio) · no ar (16/11, conta Pedro) |
+- Mova Street + TV Cars → `Lindsonalmeida/movastreet` → https://movastreet.pages.dev (18/11/2026, conta Leandro; noindex até o Paulo aprovar)
