@@ -166,12 +166,19 @@ def pagode():
     if os.path.exists(os.path.join(RAIZ, 'agencia', 'clientes', 'pagode-fiado', 'playlists-v1', 'README.md')):
         mat.append(dict(titulo='Playlists v1 · clássicos + Pagode Fiado', sub='5 playlists de curadoria (Sexta de Resenha, Sofrência de Domingo, Pagode Romântico 2026, Anos 90 e 2000, Pagode de Boteco): 3 clássicos oficiais e 1 faixa do Pagode Fiado. Só links oficiais, sem reupload.', st='travado: falta criar o canal e os perfis do Pagode',
                         texto='Plano completo no repositório: agencia/clientes/pagode-fiado/playlists-v1/README.md (conta Zuleide, 16/11). Conferir cada faixa no canal oficial ao adicionar.', links=[]))
-    LV = os.path.join(PRIV, 'painel', 'canais', 'pagode', 'longos-v1')
-    for k, t in (('05', 'Bilhete na Geladeira'), ('07', 'Visualizou e Não Voltou')):
-        if os.path.exists(os.path.join(LV, f'pagode-fiado-{k}-longo.mp4')):
-            mat.append(dict(titulo=f'Longo {k} · {t}', sub='Faixa inteira (~3 min, 16:9) com letra sincronizada, fotos de boteco e roda de samba, quadro FIADO e fecho "Pendura na conta". Título, descrição e tags em agencia/clientes/pagode-fiado/longos-v1/publicar.json.', st='aguardando aprovação',
-                            imgs=[f'/painel/canais/pagode/longos-v1/capa-{k}.jpg'],
-                            links=[dict(nome='Assistir / baixar o vídeo', url=f'/painel/canais/pagode/longos-v1/pagode-fiado-{k}-longo.mp4')]))
+    # longos v2 (sessão GOMINHO, 18/11): uma faixa aprovada por vídeo + o álbum completo no Drive
+    LV = os.path.join(PRIV, 'painel', 'canais', 'pagode', 'longos-v2'); PJ = os.path.join(RAIZ, 'agencia', 'clientes', 'pagode-fiado', 'longos-v2')
+    ent = json.load(open(os.path.join(PJ, 'entrega.json'))) if os.path.exists(os.path.join(PJ, 'entrega.json')) else {}
+    pub = json.load(open(os.path.join(PJ, 'publicar.json'))) if os.path.exists(os.path.join(PJ, 'publicar.json')) else {}
+    if os.path.exists(os.path.join(LV, 'album.html')):
+        mat.append(dict(titulo='Álbum completo · Copo Americano ao vivo (~38 min)', sub='As 11 faixas aprovadas em sequência, com capítulos (album-capitulos.txt). Abre numa página que junta as partes e baixa como um arquivo só.', st='aguardando aprovação',
+                        imgs=['/painel/canais/pagode/longos-v2/capa06.jpg'], links=[dict(nome='Assistir / baixar o álbum', url='/painel/canais/pagode/longos-v2/album.html')]))
+    for k in sorted(pub):
+        if not os.path.exists(os.path.join(LV, f'pagode-fiado-{k}-v2.mp4')): continue
+        lk = [dict(nome='Assistir / baixar (720p)', url=f'/painel/canais/pagode/longos-v2/pagode-fiado-{k}-v2.mp4')]
+        if ent.get(k): lk.append(dict(nome='Original 1080p no Drive', url=ent[k]))
+        mat.append(dict(titulo=f'Longo v2 · {pub[k]["titulo"].replace("Pagode Fiado - ", "")}', sub='Faixa aprovada, fotos dos personagens com profundidade 3D, letra em karaokê no caderno do fiado. Título, descrição e tags em agencia/clientes/pagode-fiado/longos-v2/publicar.json. No upload, marcar conteúdo sintético.',
+                        st='aguardando aprovação', imgs=[f'/painel/canais/pagode/longos-v2/capa{k}.jpg'], links=lk))
     avisos = ['Notícias v1: reprovado pelo Lindson em 16/11. A equipe está refazendo a v2; não aparece aqui para aprovar.'] if os.path.isdir(os.path.join(P, 'noticias-v1')) else []
     return aprov, mat, avisos
 

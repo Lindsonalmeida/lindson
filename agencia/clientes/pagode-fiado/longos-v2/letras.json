@@ -1,0 +1,1464 @@
+{
+ "00": {
+  "titulo": "Prólogo: Mesa Sete",
+  "cap": "Prólogo",
+  "historia": "Noite de chuva. Davi na mesa sete, sozinho. Seu Tião começa a contar.",
+  "linhas": [
+   [
+    "Fala",
+    "Seu Tião",
+    "Mesa sete de novo, Davi?"
+   ],
+   [
+    "Fala",
+    "Davi",
+    "Bota mais uma, Seu Tião… e pendura."
+   ],
+   [
+    "Fala",
+    "Seu Tião",
+    "Esse menino nem sempre foi assim."
+   ],
+   [
+    "Fala",
+    "Seu Tião",
+    "Tudo começou numa sexta…"
+   ]
+  ]
+ },
+ "01": {
+  "titulo": "Sexta de Resenha",
+  "cap": "Capítulo 1",
+  "historia": "Uma sexta comum. Ela entra no bar e o Davi erra a letra pela primeira vez na vida.",
+  "linhas": [
+   [
+    "Verso",
+    "Davi",
+    "Sexta-feira, o patrão liberou"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "Camisa na mochila, chinelo no pé"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "O Seu Tião já gelou, já gritou"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "\"Quem chegar por último paga o café\""
+   ],
+   [
+    "Pré-refrão",
+    "Davi",
+    "O Neguinho no cavaco, a Bia no rebolo"
+   ],
+   [
+    "Pré-refrão",
+    "Davi",
+    "O Mestre Zé contando causo e pedindo outro bolo"
+   ],
+   [
+    "Refrão",
+    "Davi",
+    "É sexta de resenha, mesa amarela"
+   ],
+   [
+    "Refrão",
+    "Davi",
+    "Copo americano, a roda é janela"
+   ],
+   [
+    "Refrão",
+    "Davi",
+    "Pro que a semana tirou da gente"
+   ],
+   [
+    "Refrão",
+    "Davi",
+    "Aqui todo mundo é parente"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "E no meio do refrão a porta abriu"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "Vestido de chita, cheiro de chuva"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "Ela sorriu pro balcão e ninguém viu"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "Que a minha voz tremeu feito uva na luva"
+   ],
+   [
+    "Breque",
+    "Davi",
+    "Errei a letra, o Neguinho riu"
+   ],
+   [
+    "Breque",
+    "Davi",
+    "A roda parou e eu nem senti"
+   ],
+   [
+    "Breque",
+    "Davi",
+    "Seu Tião anotou no caderno, sorriu:"
+   ],
+   [
+    "Breque",
+    "Davi",
+    "\"Hoje esse menino não sai daqui\""
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "É sexta de resenha, mesa amarela"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Copo americano, a roda é janela"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Pro que a semana tirou da gente"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Aqui todo mundo é parente"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "É sexta de resenha, mesa amarela"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Copo americano, a roda é janela"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Pro que a semana tirou da gente"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Aqui todo mundo é parente"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "É sexta de resenha, mesa amarela"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Copo americano, a roda é janela"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Pro que a semana tirou da gente"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Aqui todo mundo é parente"
+   ],
+   [
+    "Fala",
+    "Juninho",
+    "Davi… quem é ela?"
+   ]
+  ]
+ },
+ "02": {
+  "titulo": "Maré Boa",
+  "cap": "Capítulo 2",
+  "historia": "A conquista. O primeiro verão de Davi e Lívia.",
+  "linhas": [
+   [
+    "Verso",
+    "Davi",
+    "Descobri teu nome no terceiro sábado"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "Lívia, que nem flor de beira de estrada"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "Tu pediu um samba, eu fiquei calado"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "Cantei olhando o chão, voz desafinada"
+   ],
+   [
+    "Pré-refrão",
+    "Davi",
+    "Tu riu do meu jeito, eu ri do teu riso"
+   ],
+   [
+    "Pré-refrão",
+    "Davi",
+    "Foi aí que eu soube que eu tava perdido"
+   ],
+   [
+    "Refrão",
+    "Davi",
+    "Maré tá boa, Lívia, vem comigo"
+   ],
+   [
+    "Refrão",
+    "Davi",
+    "Te levo na garupa até o Recreio"
+   ],
+   [
+    "Refrão",
+    "Davi",
+    "Teu pé na água fria, meu coração abrigo"
+   ],
+   [
+    "Refrão",
+    "Davi",
+    "O verão inteiro cabe nesse passeio"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "Dividimos milho, cuscuz, picolé"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "Tu dormiu no meu ombro no ônibus lotado"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "Eu que nunca tive nada além de fé"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "Agora tinha alguém pra chamar de \"meu lado\""
+   ],
+   [
+    "Ponte",
+    "Davi",
+    "Pendura o meu coração…"
+   ],
+   [
+    "Refrão",
+    "Davi",
+    "Maré tá boa, Lívia, vem comigo"
+   ],
+   [
+    "Refrão",
+    "Davi",
+    "Te levo na garupa até o Recreio"
+   ],
+   [
+    "Refrão",
+    "Davi",
+    "Teu pé na água fria, meu coração abrigo"
+   ],
+   [
+    "Refrão",
+    "Davi",
+    "O verão inteiro cabe nesse passeio"
+   ],
+   [
+    "Coro",
+    "Todos",
+    "Ê, ê, maré tá boa"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Maré tá boa, Lívia, vem comigo"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Te levo na garupa até o Recreio"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Teu pé na água fria, meu coração abrigo"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "O verão inteiro cabe nesse passeio"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Maré tá boa, Lívia, vem comigo"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Te levo na garupa até o Recreio"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Teu pé na água fria, meu coração abrigo"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "O verão inteiro cabe nesse passeio"
+   ]
+  ]
+ },
+ "03": {
+  "titulo": "Tantã do Coração",
+  "cap": "Capítulo 3",
+  "historia": "O amor firme. O Rafa avisa que todo amor tem dia de festa e dia de dor.",
+  "linhas": [
+   [
+    "Fala",
+    "Rafa",
+    "Tum, tum… escuta. Todo amor tem esse barulho."
+   ],
+   [
+    "Verso",
+    "Davi",
+    "Tu chegou na minha vida sem pedir licença"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "Arrumou meu quarto, minha fé, minha agenda"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "Hoje a casa tem teu cheiro, tua presença"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "Até meu pandeiro tem fita de renda"
+   ],
+   [
+    "Pré-refrão",
+    "Davi",
+    "E eu, que só sabia cantar a saudade"
+   ],
+   [
+    "Pré-refrão",
+    "Davi",
+    "Aprendi contigo a cantar a verdade"
+   ],
+   [
+    "Refrão",
+    "Davi",
+    "É o tantã do coração"
+   ],
+   [
+    "Refrão",
+    "Davi",
+    "Tum, tum, chamando teu nome"
+   ],
+   [
+    "Refrão",
+    "Davi",
+    "Se tu for, me leva na mão"
+   ],
+   [
+    "Refrão",
+    "Davi",
+    "Que sem teu ritmo esse samba some"
+   ],
+   [
+    "Fala",
+    "Rafa",
+    "Minha avó dizia: amor é batuque."
+   ],
+   [
+    "Fala",
+    "Rafa",
+    "Tem dia que é festa… tem dia que é dor."
+   ],
+   [
+    "Verso",
+    "Davi",
+    "Eu ri do conselho, fiz pouco do truque"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "Achei que o nosso nunca ia mudar de cor"
+   ],
+   [
+    "Refrão",
+    "Davi",
+    "É o tantã do coração"
+   ],
+   [
+    "Refrão",
+    "Davi",
+    "Tum, tum, chamando teu nome"
+   ],
+   [
+    "Refrão",
+    "Davi",
+    "Se tu for, me leva na mão"
+   ],
+   [
+    "Refrão",
+    "Davi",
+    "Que sem teu ritmo esse samba some"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "É o tantã do coração"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Tum, tum, chamando teu nome"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Se tu for, me leva na mão"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Que sem teu ritmo esse samba some"
+   ]
+  ]
+ },
+ "04": {
+  "titulo": "Recaída de Domingo",
+  "cap": "Capítulo 4",
+  "historia": "As primeiras brigas. Os dois terminam e voltam toda semana. Dueto de Davi e Bia, que canta como Lívia.",
+  "linhas": [
+   [
+    "Verso",
+    "Davi",
+    "Tu disse que eu vivo mais no bar que em casa"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "Que meu samba tem mais beijo que a tua boca"
+   ],
+   [
+    "Verso",
+    "Lívia (Bia)",
+    "E tu disse que eu só sei apagar a brasa"
+   ],
+   [
+    "Verso",
+    "Lívia (Bia)",
+    "Que eu queria um homem e não uma roda louca"
+   ],
+   [
+    "Pré-refrão",
+    "Os dois",
+    "Bateu a porta na sexta, no sábado chorou"
+   ],
+   [
+    "Pré-refrão",
+    "Os dois",
+    "No domingo de tarde o portão me chamou"
+   ],
+   [
+    "Refrão",
+    "Os dois",
+    "É recaída de domingo"
+   ],
+   [
+    "Refrão",
+    "Os dois",
+    "Segunda eu juro que não volto"
+   ],
+   [
+    "Refrão",
+    "Os dois",
+    "Mas o fim de semana é perigo"
+   ],
+   [
+    "Refrão",
+    "Os dois",
+    "E o teu abraço é meu desgosto"
+   ],
+   [
+    "Verso",
+    "Lívia (Bia)",
+    "Eu volto porque tu me olha como ninguém"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "Eu volto porque sem você eu não sou ninguém"
+   ],
+   [
+    "Ponte",
+    "Os dois",
+    "Mas quanto tempo um amor aguenta"
+   ],
+   [
+    "Ponte",
+    "Os dois",
+    "Viver de voltar?"
+   ],
+   [
+    "Refrão",
+    "Os dois",
+    "É recaída de domingo"
+   ],
+   [
+    "Refrão",
+    "Os dois",
+    "Segunda eu juro que não volto"
+   ],
+   [
+    "Refrão",
+    "Os dois",
+    "Mas o fim de semana é perigo"
+   ],
+   [
+    "Refrão",
+    "Os dois",
+    "E o teu abraço é meu desgosto"
+   ],
+   [
+    "Refrão final",
+    "Os dois",
+    "É recaída de domingo"
+   ],
+   [
+    "Refrão final",
+    "Os dois",
+    "Segunda eu juro que não volto"
+   ],
+   [
+    "Refrão final",
+    "Os dois",
+    "Mas o fim de semana é perigo"
+   ],
+   [
+    "Refrão final",
+    "Os dois",
+    "E o teu abraço é meu desgosto"
+   ],
+   [
+    "Fala",
+    "Lívia (Bia)",
+    "Davi… a gente precisa conversar."
+   ]
+  ]
+ },
+ "05": {
+  "titulo": "Bilhete na Geladeira",
+  "cap": "Capítulo 5",
+  "historia": "O fim. Ela vai embora e deixa só um bilhete.",
+  "linhas": [
+   [
+    "Verso",
+    "Davi",
+    "Cheguei em casa, a luz da cozinha acesa"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "O café ainda quente, mas tu não tava"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "Um bilhete preso com ímã de Fortaleza"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "Três linhas, e a minha vida desmontava"
+   ],
+   [
+    "Pré-refrão",
+    "Davi",
+    "\"Cuida da planta, paga a luz, me esquece\""
+   ],
+   [
+    "Pré-refrão",
+    "Davi",
+    "Como se fosse fácil, como se fosse prece"
+   ],
+   [
+    "Refrão",
+    "Davi",
+    "Bilhete na geladeira"
+   ],
+   [
+    "Refrão",
+    "Davi",
+    "Foi tudo que restou de nós"
+   ],
+   [
+    "Refrão",
+    "Davi",
+    "Tua letra tremida e ligeira"
+   ],
+   [
+    "Refrão",
+    "Davi",
+    "Falou mais alto que a tua voz"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "A planta eu reguei, a conta eu paguei"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "Só a terceira parte eu não cumpri"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "Todo dia eu leio, todo dia eu sei"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "Que esse ímã segura mais que eu segurei aqui"
+   ],
+   [
+    "Ponte",
+    "Davi",
+    "E no verso do bilhete, bem pequeno"
+   ],
+   [
+    "Ponte",
+    "Davi",
+    "Tu escreveu \"eu te amei\""
+   ],
+   [
+    "Ponte",
+    "Davi",
+    "No passado, Lívia… no passado"
+   ],
+   [
+    "Ponte",
+    "Davi",
+    "Foi aí que eu desabei"
+   ],
+   [
+    "Refrão final",
+    "Davi",
+    "Bilhete na geladeira"
+   ],
+   [
+    "Refrão final",
+    "Davi",
+    "Foi tudo que restou de nós"
+   ],
+   [
+    "Refrão final",
+    "Davi",
+    "Tua letra tremida e ligeira"
+   ],
+   [
+    "Refrão final",
+    "Davi",
+    "Falou mais alto que a tua voz"
+   ],
+   [
+    "Refrão final",
+    "Davi",
+    "Bilhete na geladeira"
+   ],
+   [
+    "Refrão final",
+    "Davi",
+    "Foi tudo que restou de nós"
+   ],
+   [
+    "Refrão final",
+    "Davi",
+    "Tua letra tremida e ligeira"
+   ],
+   [
+    "Refrão final",
+    "Davi",
+    "Falou mais alto que a tua voz"
+   ],
+   [
+    "Refrão final",
+    "Davi",
+    "Bilhete na geladeira"
+   ],
+   [
+    "Refrão final",
+    "Davi",
+    "Foi tudo que restou de nós"
+   ],
+   [
+    "Refrão final",
+    "Davi",
+    "Tua letra tremida e ligeira"
+   ],
+   [
+    "Refrão final",
+    "Davi",
+    "Falou mais alto que a tua voz"
+   ]
+  ]
+ },
+ "06": {
+  "titulo": "Copo Americano",
+  "cap": "Capítulo 6",
+  "historia": "O Davi afoga a saudade na mesa sete do Seu Tião.",
+  "linhas": [
+   [
+    "Verso",
+    "Davi",
+    "Deixei teu nome escrito no guardanapo"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "Do bar do Seu Tião, ali na esquina"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "O garçom já sabe, nem pergunta nada"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "Traz a gelada e a saudade de brinde"
+   ],
+   [
+    "Pré-refrão",
+    "Davi",
+    "E o cavaco chora junto comigo"
+   ],
+   [
+    "Pré-refrão",
+    "Davi",
+    "Cada nota é um \"volta\" que eu não digo"
+   ],
+   [
+    "Refrão",
+    "Davi",
+    "Copo americano, coração de vidro"
+   ],
+   [
+    "Refrão",
+    "Davi",
+    "Tu quebrou os dois e saiu sorrindo"
+   ],
+   [
+    "Refrão",
+    "Davi",
+    "Tô juntando os cacos na mesa de bar"
+   ],
+   [
+    "Refrão",
+    "Davi",
+    "Esperando o samba te trazer de volta pra cá"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "Teu batom ficou na borda do meu copo"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "Teu perfume ainda mora no meu casaco"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "Os amigos falam \"esquece, já deu\""
+   ],
+   [
+    "Verso",
+    "Davi",
+    "Mas quem esquece é quem nunca viveu"
+   ],
+   [
+    "Fala",
+    "Seu Tião",
+    "Menino… já é a terceira semana."
+   ],
+   [
+    "Ponte",
+    "Davi",
+    "Anota, Seu Tião, pendura o meu coração…"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Copo americano, coração de vidro"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Tu quebrou os dois e saiu sorrindo"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Tô juntando os cacos na mesa de bar"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Esperando o samba te trazer de volta pra cá"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Copo americano, coração de vidro"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Tu quebrou os dois e saiu sorrindo"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Tô juntando os cacos na mesa de bar"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Esperando o samba te trazer de volta pra cá"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Copo americano, coração de vidro"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Tu quebrou os dois e saiu sorrindo"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Tô juntando os cacos na mesa de bar"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Esperando o samba te trazer de volta pra cá"
+   ],
+   [
+    "Coro",
+    "Todos",
+    "Volta pra cá"
+   ]
+  ]
+ },
+ "07": {
+  "titulo": "Visualizou e Não Voltou",
+  "cap": "Capítulo 7",
+  "historia": "Duas da manhã. Ele tenta voltar por mensagem.",
+  "linhas": [
+   [
+    "Verso",
+    "Davi",
+    "Duas da manhã, o celular na mão"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "Escrevi \"saudade\", apaguei, voltei"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "Mandei um áudio tremendo de emoção"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "Tu ouviu inteiro, eu sei, eu sei"
+   ],
+   [
+    "Pré-refrão",
+    "Davi",
+    "Dois risquinhos azuis no meu peito"
+   ],
+   [
+    "Pré-refrão",
+    "Davi",
+    "Doeu mais que o adeus mal feito"
+   ],
+   [
+    "Refrão",
+    "Davi",
+    "Visualizou e não voltou"
+   ],
+   [
+    "Refrão",
+    "Davi",
+    "Leu meu coração e não respondeu"
+   ],
+   [
+    "Refrão",
+    "Davi",
+    "O status diz \"online\", mas o amor"
+   ],
+   [
+    "Refrão",
+    "Davi",
+    "Ficou offline no peito meu"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "Vi tua foto num lugar que eu não conheço"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "Teu cabelo novo, sorriso de quem venceu"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "E eu aqui, Lívia, pagando o preço"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "De um amor que só eu não esqueceu"
+   ],
+   [
+    "Ponte",
+    "Davi",
+    "\"Digitando…\" apareceu"
+   ],
+   [
+    "Ponte",
+    "Davi",
+    "E sumiu"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Visualizou e não voltou"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Leu meu coração e não respondeu"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "O status diz \"online\", mas o amor"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Ficou offline no peito meu"
+   ]
+  ]
+ },
+ "08": {
+  "titulo": "Causo do Mestre Zé",
+  "cap": "Capítulo 8",
+  "historia": "O Mestre Zé conta ao Davi o amor que ele mesmo perdeu.",
+  "linhas": [
+   [
+    "Fala",
+    "Mestre Zé",
+    "Senta aqui, menino. Larga esse celular, que eu vou te contar uma coisa."
+   ],
+   [
+    "Verso",
+    "Mestre Zé",
+    "Eu tinha a tua idade na Vila Isabel"
+   ],
+   [
+    "Verso",
+    "Mestre Zé",
+    "Pandeiro emprestado, sapato furado"
+   ],
+   [
+    "Verso",
+    "Mestre Zé",
+    "Amei uma morena de olhar de mel"
+   ],
+   [
+    "Verso",
+    "Mestre Zé",
+    "Que um dia embarcou e me deixou parado"
+   ],
+   [
+    "Pré-refrão",
+    "Mestre Zé",
+    "Mandou carta três vezes, depois o silêncio"
+   ],
+   [
+    "Pré-refrão",
+    "Mestre Zé",
+    "E eu fiquei trinta anos pagando esse preço"
+   ],
+   [
+    "Refrão",
+    "Mestre Zé",
+    "Quem tem pandeiro não anda sozinho"
+   ],
+   [
+    "Refrão",
+    "Mestre Zé",
+    "Quem tem um samba não perde o caminho"
+   ],
+   [
+    "Refrão",
+    "Mestre Zé",
+    "O tempo leva o cabelo e a juventude"
+   ],
+   [
+    "Refrão",
+    "Mestre Zé",
+    "Mas não leva o couro nem a atitude"
+   ],
+   [
+    "Verso",
+    "Mestre Zé",
+    "Guardei as três cartas no forro do violão"
+   ],
+   [
+    "Verso",
+    "Mestre Zé",
+    "Por isso ele chora melhor que ninguém"
+   ],
+   [
+    "Verso",
+    "Mestre Zé",
+    "Mas sabe o que eu aprendi, meu irmão?"
+   ],
+   [
+    "Verso",
+    "Mestre Zé",
+    "A dor vira samba, e o samba faz bem"
+   ],
+   [
+    "Fala",
+    "Mestre Zé",
+    "Não deixa a saudade virar tua casa, menino."
+   ],
+   [
+    "Fala",
+    "Mestre Zé",
+    "Ela é visita. Serve o café e manda embora."
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Quem tem pandeiro não anda sozinho"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Quem tem um samba não perde o caminho"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "O tempo leva o cabelo e a juventude"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Mas não leva o couro nem a atitude"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Quem tem pandeiro não anda sozinho"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Quem tem um samba não perde o caminho"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "O tempo leva o cabelo e a juventude"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Mas não leva o couro nem a atitude"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Quem tem pandeiro não anda sozinho"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Quem tem um samba não perde o caminho"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "O tempo leva o cabelo e a juventude"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Mas não leva o couro nem a atitude"
+   ]
+  ]
+ },
+ "09": {
+  "titulo": "Chorar Não, Sambar",
+  "cap": "Capítulo 9",
+  "historia": "A Bia sacode o amigo. Chega de mesa sete.",
+  "linhas": [
+   [
+    "Fala",
+    "Bia",
+    "Levanta dessa mesa, Davi. Agora."
+   ],
+   [
+    "Verso",
+    "Bia",
+    "Três semanas no mesmo copo, no mesmo canto"
+   ],
+   [
+    "Verso",
+    "Bia",
+    "Teu cavaco empoeirado, tua voz sumida"
+   ],
+   [
+    "Verso",
+    "Bia",
+    "Tu cantou pra todo mundo a vida inteira, e no entanto"
+   ],
+   [
+    "Verso",
+    "Bia",
+    "Esqueceu de cantar pra tua própria vida"
+   ],
+   [
+    "Pré-refrão",
+    "Bia",
+    "Eu também já caí, eu também já sangrei"
+   ],
+   [
+    "Pré-refrão",
+    "Bia",
+    "Foi no rebolo que eu me levantei"
+   ],
+   [
+    "Refrão",
+    "Bia",
+    "Chorar não, sambar"
+   ],
+   [
+    "Refrão",
+    "Bia",
+    "Quem tem roda não fica no chão"
+   ],
+   [
+    "Refrão",
+    "Bia",
+    "Se a saudade vier, deixa ela entrar"
+   ],
+   [
+    "Refrão",
+    "Bia",
+    "Mas ela dança na nossa mão"
+   ],
+   [
+    "Verso",
+    "Bia",
+    "O Seu Tião guardou teu lugar na roda"
+   ],
+   [
+    "Verso",
+    "Bia",
+    "O Neguinho afinou teu cavaco ontem"
+   ],
+   [
+    "Verso",
+    "Bia",
+    "O Juninho até parou de se achar na moda"
+   ],
+   [
+    "Verso",
+    "Bia",
+    "A gente é tua família, não te esconde"
+   ],
+   [
+    "Ponte",
+    "Todos",
+    "Pendura o meu coração na conta…"
+   ],
+   [
+    "Ponte",
+    "Bia",
+    "…que a gente paga junto."
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Chorar não, sambar"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Quem tem roda não fica no chão"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Se a saudade vier, deixa ela entrar"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Mas ela dança na nossa mão"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Chorar não, sambar"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Quem tem roda não fica no chão"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Se a saudade vier, deixa ela entrar"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Mas ela dança na nossa mão"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Chorar não, sambar"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Quem tem roda não fica no chão"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Se a saudade vier, deixa ela entrar"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Mas ela dança na nossa mão"
+   ]
+  ]
+ },
+ "10": {
+  "titulo": "Roda Até o Sol Raiar",
+  "cap": "Capítulo 10",
+  "historia": "A virada. O Davi volta a cantar feliz. No último segundo, a porta do bar se abre.",
+  "linhas": [
+   [
+    "Fala",
+    "Mestre Zé",
+    "Agora é todo mundo!"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "Puxa a cadeira, que a noite é criança"
+   ],
+   [
+    "Verso",
+    "Bia",
+    "Quem chegou tarde entra na dança"
+   ],
+   [
+    "Verso",
+    "Juninho",
+    "Quem tá sofrendo canta mais alto"
+   ],
+   [
+    "Verso",
+    "Neguinho",
+    "Quem tá devendo paga no salto"
+   ],
+   [
+    "Pré-refrão",
+    "Todos",
+    "Ninguém vai embora, ninguém vai deitar"
+   ],
+   [
+    "Refrão",
+    "Todos",
+    "É roda até o sol raiar"
+   ],
+   [
+    "Refrão",
+    "Todos",
+    "Pandeiro, banjo, cavaco e tantã"
+   ],
+   [
+    "Refrão",
+    "Todos",
+    "O samba cura o que a vida machucar"
+   ],
+   [
+    "Refrão",
+    "Todos",
+    "Tristeza fica pra amanhã"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "Eu guardei o bilhete, não vou mentir"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "Mas tirei da geladeira e botei na carteira"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "Hoje eu canto sorrindo pra não sumir"
+   ],
+   [
+    "Verso",
+    "Davi",
+    "Hoje eu sou a roda inteira"
+   ],
+   [
+    "Ponte",
+    "Todos",
+    "Pendura o meu coração na conta, Seu Tião"
+   ],
+   [
+    "Ponte",
+    "Todos",
+    "Que hoje eu pago cantando"
+   ],
+   [
+    "Ponte",
+    "Todos",
+    "Pendura o meu coração na conta, Seu Tião"
+   ],
+   [
+    "Ponte",
+    "Todos",
+    "Que o samba tá me curando"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "É roda até o sol raiar"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Pandeiro, banjo, cavaco e tantã"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "O samba cura o que a vida machucar"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Tristeza fica pra amanhã"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "É roda até o sol raiar"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Pandeiro, banjo, cavaco e tantã"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "O samba cura o que a vida machucar"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Tristeza fica pra amanhã"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "É roda até o sol raiar"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Pandeiro, banjo, cavaco e tantã"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "O samba cura o que a vida machucar"
+   ],
+   [
+    "Refrão final",
+    "Todos",
+    "Tristeza fica pra amanhã"
+   ],
+   [
+    "Fala",
+    "Seu Tião",
+    "…Davi. Olha quem chegou."
+   ]
+  ]
+ }
+}
