@@ -2,7 +2,7 @@
 (()=>{const red=matchMedia('(prefers-reduced-motion: reduce)').matches;
 const tenta=(src,ok)=>{const i=new Image();i.onload=()=>ok(src);i.src=src};
 document.querySelectorAll('[data-img]').forEach(el=>tenta(el.dataset.img,s=>{const a=el.querySelector('.ph-in')||el;a.style.backgroundImage='url('+s+')';el.classList.add('ok')}));
-const v=document.querySelector('.hero-vid');if(v&&!red&&innerWidth>700){fetch(v.dataset.vid,{method:'HEAD'}).then(r=>{if(r.ok&&(r.headers.get('content-type')||'').includes('video')){v.src=v.dataset.vid;v.play().then(()=>v.classList.add('on')).catch(()=>{})}}).catch(()=>{})}
+const v=document.querySelector('.hero-vid');if(v&&!red&&innerWidth>700){const tv=(u,nx)=>fetch(u,{method:'HEAD'}).then(r=>{if(r.ok&&(r.headers.get('content-type')||'').includes('video')){v.src=u;v.play().then(()=>v.classList.add('on')).catch(()=>{})}else if(nx)tv(nx)}).catch(()=>nx&&tv(nx));tv(v.dataset.vid,v.dataset.alt)}
 const tr=document.createElement('div');tr.className='troca';document.body.appendChild(tr);
 document.querySelectorAll('a[href$=".html"],a[href="./"]').forEach(a=>a.addEventListener('click',e=>{if(e.metaKey||e.ctrlKey||a.target)return;e.preventDefault();document.body.classList.add('sai');setTimeout(()=>location.href=a.href,450)}));
 addEventListener('pageshow',()=>document.body.classList.remove('sai'));

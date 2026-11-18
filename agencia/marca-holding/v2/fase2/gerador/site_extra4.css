@@ -1,0 +1,19 @@
+/* v4 luxo (conta Pedro, 18/11/2026) */
+.mv{position:relative;margin:0;overflow:hidden;background:#111216;border-radius:4px}
+.mv .ph-in{position:absolute;inset:0;background:radial-gradient(120% 90% at 80% 10%,rgba(184,149,90,.25),transparent 55%),repeating-linear-gradient(115deg,rgba(239,234,225,.035) 0 2px,transparent 2px 22px),linear-gradient(160deg,#1c1d22,#0e0f12);background-size:cover;background-position:center}
+.mv video,.mv img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.mv figcaption{position:absolute;left:20px;right:20px;bottom:16px;display:flex;justify-content:space-between;color:#EFEAE1;font-size:10px;z-index:2;text-shadow:0 1px 8px rgba(0,0,0,.6)}
+.mv.ok figcaption span{display:none}.mv:not(.ok) figcaption span{color:#B8955A}
+.vida{padding:120px 0 80px;background:#0B0C0E;overflow:hidden}
+.vida-cab{padding:0 var(--g);max-width:900px;margin-bottom:56px}
+.vida-trilho{display:flex;gap:20px;padding:0 var(--g);will-change:transform}
+.vc{flex:0 0 min(62vw,760px);aspect-ratio:16/10}.vc.vt{flex-basis:min(36vw,440px);aspect-ratio:4/5}
+.tec{position:relative;min-height:110vh;display:flex;align-items:center;overflow:hidden}
+.mv.fundo{position:absolute;inset:0;border-radius:0}
+.mv.fundo::after,.final-v .mv.fundo::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(11,12,14,.9),rgba(11,12,14,.3) 60%,rgba(11,12,14,.1)),linear-gradient(0deg,#0B0C0E,transparent 35%)}
+.tec-t{position:relative;z-index:2;padding:0 var(--g);max-width:900px}
+.tec2{display:grid;grid-template-columns:1fr 1fr;gap:20px;padding:20px var(--g) 120px;background:#0B0C0E}
+.materia{display:grid;grid-template-columns:1fr 1fr;gap:20px;padding:120px var(--g);background:#0B0C0E;align-items:center}
+.materia .m1{aspect-ratio:4/5}.materia .m2{grid-column:1/-1}
+.final-v{position:relative;overflow:hidden;min-height:100vh}.final-v>*:not(.mv){position:relative;z-index:2}
+@media (max-width:800px){.vida-trilho{overflow-x:auto;scroll-snap-type:x mandatory}.vc,.vc.vt{flex-basis:82vw;scroll-snap-align:start}.tec2,.materia{grid-template-columns:1fr}.tec{min-height:90vh}}
