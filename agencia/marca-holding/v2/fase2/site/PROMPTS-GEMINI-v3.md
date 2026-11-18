@@ -1,11 +1,15 @@
 # Al Kántara · prompts para o Gemini usando os NOSSOS arquivos (conta Pedro, 18/11/2026)
 
+> **CORREÇÃO (18/11): o Gemini redesenha o logo e o K errado.** A partir de agora ele NÃO desenha logo, símbolo nem letra. Antes de cada pedido, cole esta frase:
+> `Não desenhe nenhum logo, símbolo, letra K, monograma nem texto. Deixe a superfície lisa e vazia: eu aplico o logo oficial depois.`
+> Onde o prompt diz "símbolo 03" ou "logo 01", entenda "deixe esse espaço liso". O logo e o K oficiais eu coloco por cima, no arquivo final.
+
 **Passo 1, uma vez só:** baixe o kit https://alkantaragroup.pages.dev/kit/gemini-referencias.zip e descompacte. Abra uma conversa nova no Gemini.
 
 **Passo 2:** anexe as 9 imagens do kit (01 a 09) e cole o texto abaixo:
 ```
 Estas 9 imagens são a identidade oficial da Al Kántara Group, holding de tecnologia de luxo. Use-as como referência obrigatória em tudo o que eu pedir nesta conversa:
-- 01 e 02 são o logo oficial. Não redesenhe, não mude letras nem proporção. Quando eu pedir o logo, aplique exatamente este arquivo.
+- 01 e 02 são o logo oficial. Não redesenhe, não mude letras nem proporção. Nunca desenhe o logo nem o símbolo nas imagens: deixe o espaço liso, porque eu aplico o arquivo oficial depois.
 - 03 é o símbolo: um K formado por 4 pedras. É o elemento principal da marca.
 - 04 é a paleta. Use só estas cores: Tinta #0B0C0E, Calcário #EFEAE1, Latão #B8955A e, quando eu pedir, a cor da divisão (Labs azul #2E4BFF, Barzakh laranja #E8461E, Media açafrão #F0A202, Ventures verde #0E8C66).
 - 05, 06 e 07 mostram o estilo gráfico: K gigante cortado na borda, muito espaço escuro, serifa elegante.
