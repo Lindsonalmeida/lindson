@@ -1,4 +1,14 @@
-# MotionForge · painel de IA para After Effects (conta Leandro)
+# MotionForge (conta Leandro)
+
+> **18/11/2026 · O Lindson não usa After Effects.** A versão principal agora é o **MotionForge Web**, um app no navegador:
+> **https://lindsonalmeida.pages.dev/painel/motionforge** (login da Central, só admin).
+> Fonte em `web/` (index.html, app.js, fal-web.js, bg-worker.js, style.css); montagem na Central: `web/montar.sh ../../../centrallindsonalmeida`.
+> Remover fundo de foto e vídeo no próprio navegador (Transformers.js 4.3.2: BiRefNet lite e MODNet, WebGPU quando houver), grátis;
+> nuvem, animar e gerar pelo fal.ai direto do navegador (CORS conferido). Chave do fal.ai fica no localStorage do navegador.
+> Histórico no IndexedDB do navegador. Teste: `node tools/web-teste.js <pasta-montada> <saida> <imagem> <video>`.
+> O plugin de After Effects abaixo continua no repositório, para quem tiver o AE.
+
+## Plugin de After Effects
 
 Extensão CEP 11 para After Effects 2022+ (Windows e macOS). Três funções, e o resultado entra direto na composição ativa:
 

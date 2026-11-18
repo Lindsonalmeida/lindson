@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>MotionForge</title>
+<link rel="icon" href="/painel/motionforge/icon.png">
+<link rel="stylesheet" href="/painel/motionforge/style.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="gEmber" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF7A45"/><stop offset="1" stop-color="#FF3D6E"/></linearGradient>
+    <symbol id="i-cut" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="4" stroke-dasharray="2.2 2.6"/><circle cx="12" cy="10" r="3"/><path d="M6.5 19c.8-3 3-4.6 5.5-4.6s4.7 1.6 5.5 4.6"/></symbol>
+    <symbol id="i-anim" viewBox="0 0 24 24"><rect x="3" y="5" width="13" height="14" rx="2.5"/><path d="M16 10.5l5-3v9l-5-3"/><path d="M8 10l3 2-3 2z" class="fill"/></symbol>
+    <symbol id="i-gen" viewBox="0 0 24 24"><path d="M12 3l1.8 4.7L18.5 9.5l-4.7 1.8L12 16l-1.8-4.7L5.5 9.5l4.7-1.8z"/><path d="M18.5 15.5l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8z"/></symbol>
+    <symbol id="i-hist" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="7" height="7" rx="1.8"/><rect x="13.5" y="3.5" width="7" height="7" rx="1.8"/><rect x="3.5" y="13.5" width="7" height="7" rx="1.8"/><rect x="13.5" y="13.5" width="7" height="7" rx="1.8"/></symbol>
+    <symbol id="i-cfg" viewBox="0 0 24 24"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2.2"/><circle cx="10" cy="17" r="2.2"/></symbol>
+    <symbol id="i-up" viewBox="0 0 24 24"><path d="M12 16V4M7.5 8.5L12 4l4.5 4.5"/><path d="M4.5 15.5v2a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2v-2"/></symbol>
+    <symbol id="i-down" viewBox="0 0 24 24"><path d="M12 4v10M7.5 9.5L12 14l4.5-4.5"/><path d="M4.5 15.5v2a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2v-2"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+    <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12z"/><circle cx="12" cy="12" r="3"/></symbol>
+    <symbol id="i-trash" viewBox="0 0 24 24"><path d="M5 7h14M10 7V5h4v2M7 7l.8 11.2a2 2 0 0 0 2 1.8h4.4a2 2 0 0 0 2-1.8L17 7"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-alert" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7.5v5.5M12 16.2v.3"/></symbol>
+    <symbol id="i-chev" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></symbol>
+    <symbol id="i-back" viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+  </defs>
+</svg>
+
+<div class="shell">
+  <!-- ===== barra lateral ===== -->
+  <aside class="side">
+    <div class="brand">
+      <svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="url(#gEmber)"/><path d="M8 22V10l8 7 8-7v12" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <div class="brand-txt"><b>MotionForge</b><small>Estúdio de IA</small></div>
+    </div>
+    <nav class="nav" id="nav">
+      <button data-tab="bg" class="on"><svg><use href="#i-cut"/></svg><span>Remover fundo</span></button>
+      <button data-tab="anim"><svg><use href="#i-anim"/></svg><span>Animar imagem</span></button>
+      <button data-tab="gen"><svg><use href="#i-gen"/></svg><span>Gerar imagem</span></button>
+      <button data-tab="hist"><svg><use href="#i-hist"/></svg><span>Histórico</span></button>
+      <button data-tab="cfg"><svg><use href="#i-cfg"/></svg><span>Config</span></button>
+    </nav>
+    <div class="side-foot">
+      <button class="prov" id="provPill"><i class="dot"></i><span id="provTxt">fal.ai</span></button>
+      <a class="back" href="/painel/admin"><svg><use href="#i-back"/></svg>Central</a>
+    </div>
+  </aside>
+
+  <!-- ===== controles ===== -->
+  <section class="controls">
+    <div class="views">
+      <!-- REMOVER FUNDO -->
+      <section class="view on" id="view-bg">
+        <header class="vh"><h1>Remover fundo</h1><p>Fotos e vídeos. No navegador é grátis e a imagem não sai do seu computador.</p></header>
+        <div class="field">
+          <label>Motor</label>
+          <div class="seg" id="bgEngine"><button data-v="local" class="on">Navegador · grátis</button><button data-v="cloud">Nuvem · fal.ai</button></div>
+        </div>
+        <div class="field" id="bgLocalBox">
+          <label for="bgLocalModel">Modelo</label>
+          <select id="bgLocalModel">
+            <option value="onnx-community/BiRefNet_lite-ONNX">BiRefNet · melhor borda (qualquer objeto)</option>
+            <option value="Xenova/modnet">MODNet · pessoas, bem mais rápido</option>
+          </select>
+          <p class="hint" id="bgLocalHint">Na primeira vez o modelo é baixado (BiRefNet ≈ 110 a 220 MB) e fica guardado no navegador.</p>
+        </div>
+        <div class="field" id="bgCloudBox" hidden>
+          <label for="bgCloudModel">Modelo na nuvem</label>
+          <select id="bgCloudModel"></select>
+        </div>
+        <div class="field">
+          <label>Fundo do resultado</label>
+          <div class="row-c">
+            <div class="seg sm" id="bgFill"><button data-v="none" class="on">Transparente</button><button data-v="color">Cor</button></div>
+            <input type="color" id="bgColor" value="#ffffff" title="Cor de fundo" hidden>
+          </div>
+        </div>
+        <div class="field" id="bgVideoBox" hidden>
+          <label>Vídeo</label>
+          <div class="callout"><svg><use href="#i-anim"/></svg><p id="bgVideoTxt"></p></div>
+          <div class="row2" id="bgVideoLocalOpts">
+            <div class="field"><label for="bgFps">Quadros por segundo</label><select id="bgFps"><option>24</option><option>25</option><option selected>30</option><option>12</option></select></div>
+            <div class="field"><label for="bgMax">Duração máxima</label><select id="bgMax"><option value="5">5 s</option><option value="10" selected>10 s</option><option value="20">20 s</option><option value="30">30 s</option></select></div>
+          </div>
+          <div class="field" id="bgVideoCloudOpts" hidden>
+            <label for="bgVideoOut">Formato</label>
+            <select id="bgVideoOut"><option value="VP9 (.webm)">WebM com transparência (web, CapCut, Canva)</option><option value="PRORES4444 (.mov)">MOV ProRes 4444 (Premiere, After, DaVinci)</option></select>
+          </div>
+        </div>
+        <label class="tg" id="bgAllBox" hidden><input type="checkbox" id="bgAll" checked><i></i><span>Aplicar em todas as <b id="bgAllN">0</b> imagens</span></label>
+      </section>
+
+      <!-- ANIMAR -->
+      <section class="view" id="view-anim">
+        <header class="vh"><h1>Animar imagem</h1><p>A imagem selecionada na mesa vira um vídeo curto.</p></header>
+        <label class="tg" id="animUseCutBox" hidden><input type="checkbox" id="animUseCut"><i></i><span>Usar a versão sem fundo</span></label>
+        <div class="field">
+          <label for="animPrompt">Movimento <span class="count" id="animCount">0</span></label>
+          <textarea id="animPrompt" rows="4" placeholder="Ex.: câmera aproxima devagar enquanto a pessoa sorri e olha para a lente"></textarea>
+          <div class="chips" id="animPresets">
+            <button data-p="slow cinematic push-in, subtle parallax, smooth motion">Zoom lento</button>
+            <button data-p="camera slowly orbits around the subject, steady, cinematic">Órbita</button>
+            <button data-p="product rotates 360 degrees on a turntable, static background, studio light">Giro 360°</button>
+            <button data-p="the person smiles warmly and waves at the camera, natural movement">Sorri e acena</button>
+            <button data-p="gentle wind moves hair and clothes, soft natural light, subtle motion">Vento suave</button>
+            <button data-p="slow dolly out revealing the scene, cinematic, smooth">Revelar</button>
+            <button data-p="handheld camera, slight natural shake, documentary feel">Câmera na mão</button>
+            <button data-p="liquid splash and particles burst around the product, high speed, dramatic light">Splash</button>
+          </div>
+        </div>
+        <div class="row2">
+          <div class="field"><label>Duração</label><div class="seg sm" id="animDur"></div></div>
+          <div class="field"><label for="animModel">Modelo</label><select id="animModel"></select></div>
+        </div>
+        <details class="adv">
+          <summary><svg><use href="#i-chev"/></svg>Avançado</summary>
+          <div class="field" data-uses="negative"><label for="animNeg">Evitar (negativo)</label><input id="animNeg" placeholder="blur, distort, low quality"></div>
+          <div class="row2">
+            <div class="field" data-uses="seed"><label for="animSeed">Seed</label><input id="animSeed" inputmode="numeric" placeholder="aleatória"></div>
+            <div class="field" data-uses="audio"><label>Áudio</label><label class="tg"><input type="checkbox" id="animAudio"><i></i><span>Gerar som</span></label></div>
+          </div>
+        </details>
+      </section>
+
+      <!-- GERAR -->
+      <section class="view" id="view-gen">
+        <header class="vh"><h1>Gerar imagem</h1><p>Descreva e a imagem entra na mesa, pronta para animar ou recortar.</p></header>
+        <div class="field">
+          <label for="genPrompt">Descrição <span class="count" id="genCount">0</span></label>
+          <textarea id="genPrompt" rows="5" placeholder="Ex.: pizza artesanal fumegante sobre mesa de madeira escura, luz lateral quente, fotografia de produto 85 mm"></textarea>
+        </div>
+        <div class="field" data-uses="negative"><label for="genNeg">Evitar (negativo)</label><input id="genNeg" placeholder="texto, marca d'água, desfocado"></div>
+        <div class="field">
+          <label>Formato</label>
+          <div class="seg sm" id="genAspect"><button data-v="1:1">1:1</button><button data-v="4:5" class="on">4:5</button><button data-v="9:16">9:16</button><button data-v="16:9">16:9</button><button data-v="3:4">3:4</button></div>
+        </div>
+        <div class="row2">
+          <div class="field"><label for="genModel">Modelo</label><select id="genModel"></select></div>
+          <div class="field"><label for="genSeed">Seed</label><input id="genSeed" inputmode="numeric" placeholder="aleatória"></div>
+        </div>
+      </section>
+
+      <!-- HISTÓRICO -->
+      <section class="view" id="view-hist">
+        <header class="vh"><h1>Histórico</h1><p>Tudo o que foi gerado fica guardado neste navegador. Clique para levar de volta à mesa.</p></header>
+        <div class="chips sm" id="histFilter"><button data-f="all" class="on">Tudo</button><button data-f="bg">Sem fundo</button><button data-f="anim">Vídeos</button><button data-f="gen">Imagens</button></div>
+        <div class="hgrid" id="histGrid"></div>
+        <div class="empty" id="histEmpty" hidden><svg><use href="#i-hist"/></svg><b>Nada ainda</b><p>Os resultados aparecem aqui automaticamente.</p></div>
+        <div class="act-row"><span class="stat" id="histUse"></span><button class="ghost sm" id="histClear">Limpar histórico</button></div>
+      </section>
+
+      <!-- CONFIG -->
+      <section class="view" id="view-cfg">
+        <header class="vh"><h1>Config</h1><p>Fica salvo só neste navegador.</p></header>
+        <div class="group">
+          <h3>fal.ai (animar, gerar e nuvem)</h3>
+          <label for="falKey">Chave da API</label>
+          <div class="input-act"><input id="falKey" type="password" autocomplete="off" spellcheck="false" placeholder="cole aqui · fal.ai/dashboard/keys"><button class="icon-btn" id="revealKey" title="Mostrar"><svg><use href="#i-eye"/></svg></button></div>
+          <div class="act-row"><button class="ghost sm" id="testKey">Testar chave</button><span class="stat" id="keyStat"></span></div>
+          <p class="hint">A chave nunca vai para o GitHub nem para a Central: fica no armazenamento deste navegador. O custo de cada geração é cobrado na sua conta do fal.ai.</p>
+        </div>
+        <div class="group">
+          <h3>Modelos extras</h3>
+          <p class="hint">JSON para trocar ou acrescentar modelos do fal.ai sem mexer no código. Ex.: <code>[{"provider":"fal","kind":"i2v","id":"fal-ai/kling-video/v3/pro/image-to-video","label":"Kling 3.0 Pro","durations":[5,10],"input":{"start_image_url":"{{image}}","prompt":"{{prompt}}","duration":"{{duration:str}}"}}]</code></p>
+          <textarea id="customModels" rows="4" spellcheck="false" class="mono" placeholder="[]"></textarea>
+          <span class="stat" id="cmStat"></span>
+        </div>
+        <div class="group about"><span>MotionForge Web <b>1.0</b></span><span class="stat" id="gpuStat"></span></div>
+      </section>
+    </div>
+
+    <footer class="dock">
+      <div class="job" id="job" hidden>
+        <div class="job-row"><span class="spin"></span><span class="job-text" id="jobText">Preparando…</span><span class="job-time" id="jobTime">0:00</span><button class="cancel" id="btnCancel">Cancelar</button></div>
+        <div class="bar" id="bar"><i id="barFill"></i></div>
+      </div>
+      <div class="cost" id="cost"></div>
+      <button class="cta" id="cta"><span id="ctaLabel">Remover fundo</span><kbd>Ctrl ↵</kbd></button>
+    </footer>
+  </section>
+
+  <!-- ===== mesa (prévia) ===== -->
+  <main class="stage" id="stage">
+    <div class="stage-top">
+      <div class="stage-name" id="stageName">Mesa de trabalho</div>
+      <div class="stage-acts">
+        <button class="ghost sm" id="btnAdd"><svg><use href="#i-plus"/></svg>Adicionar</button>
+        <button class="ghost sm" id="btnDownload" hidden><svg><use href="#i-down"/></svg><span id="dlLabel">Baixar</span></button>
+        <button class="ghost sm" id="btnZip" hidden><svg><use href="#i-down"/></svg>Baixar tudo (.zip)</button>
+      </div>
+    </div>
+    <div class="canvas checker" id="canvas">
+      <div class="drop" id="drop">
+        <div class="drop-ico"><svg><use href="#i-up"/></svg></div>
+        <b>Arraste fotos ou vídeos aqui</b>
+        <p>ou <u>clique para escolher</u> · também dá para colar (Ctrl+V)</p>
+        <small>PNG, JPG, WebP, MP4, MOV, WebM</small>
+      </div>
+      <div class="view-img" id="viewImg" hidden>
+        <div class="cmp" id="cmp">
+          <img id="imgAfter" alt="">
+          <div class="cmp-before" id="cmpBefore"><img id="imgBefore" alt=""></div>
+          <div class="cmp-handle" id="cmpHandle"><i></i></div>
+          <span class="tag tl">Original</span><span class="tag tr">Resultado</span>
+        </div>
+      </div>
+      <video id="viewVideo" hidden controls loop playsinline></video>
+      <input type="file" id="fileIn" accept="image/*,video/*" multiple hidden>
+    </div>
+    <div class="strip" id="strip"></div>
+  </main>
+</div>
+
+<div class="toasts" id="toasts"></div>
+<div class="dragover" id="dragover"><div><svg><use href="#i-up"/></svg><b>Solte para adicionar à mesa</b></div></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+<script>var module = { exports: {} };</script>
+<script src="/painel/motionforge/models.js"></script>
+<script>window.MFModels = module.exports;</script>
+<script type="module" src="/painel/motionforge/app.js"></script>
+</body>
+</html>

@@ -137,3 +137,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 18/11/2026 (Zuleide): Pinterest Barzakh pronto (agencia/marca-holding/pinterest/, previa.jpg). @Lindson: criar conta comercial @barzakhstudio no Pinterest e pôr a página da Barzakh no ar.
 - 18/11/2026 · Zuleide (especialista Raposa): linhas de carrossel v2 baseadas no Manual de Campo (50 pautas). v1 substituída. @Lindson aprovar.
 - 18/11/2026 (Zuleide): esta sessão é a ESPECIALISTA PASSAPORTE DA BÍBLIA (estado em conteudo/youtube/passaporte/ESTADO-ESPECIALISTA.md). Entreguei as linhas editoriais de carrossel pelos produtos (instagram/LINHAS-CARROSSEL.md), aguardando OK. @Lindson: OK dos longos 10-12 e cadastro Hubla.
+- 18/11/2026 · Leandro (MotionForge): Lindson não tem AE, então virou app web na Central: https://lindsonalmeida.pages.dev/painel/motionforge (só admin). Fonte apps/motionforge/web/.

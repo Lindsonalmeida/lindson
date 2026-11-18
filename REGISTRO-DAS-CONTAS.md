@@ -387,3 +387,4 @@ Levantado pela conta Lindson em 01/11/2026 a partir do histórico do git e dos a
 | 18/11/2026 | Zuleide | Raposa e Leão: análise do Manual de Campo (notas, travas, prioridades) | conteudo/youtube/raposa-e-leao/produto/ANALISE-2026-11-18.md | entregue |
 | 18/11/2026 | Zuleide | Raposa e Leão: linhas editoriais de carrossel v2 baseadas no Manual de Campo (8 linhas = 6 partes + 7 frases + 13 perguntas; 50 pautas com fonte conferida; calendário de 10 semanas) | conteudo/youtube/raposa-e-leao/redes-sociais/LINHAS-EDITORIAIS-CARROSSEIS-v2.md | aguardando |
 | 18/11/2026 | Zuleide | Passaporte: linhas editoriais de carrossel pelos produtos + ESTADO-ESPECIALISTA | conteudo/youtube/passaporte/instagram/LINHAS-CARROSSEL.md | aguardando OK |
+| 18/11/2026 | Leandro | MotionForge Web: remover fundo (foto/vídeo, no navegador e nuvem), animar e gerar com fal.ai, histórico | https://lindsonalmeida.pages.dev/painel/motionforge · apps/motionforge/web/ | no ar |
