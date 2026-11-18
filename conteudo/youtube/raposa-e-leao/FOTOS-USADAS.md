@@ -1,0 +1,23 @@
+# Raposa e Leão · obras e fotos usadas
+
+Regra do Lindson (04/11/2026): foto usada não se repete. Antes de pôr uma obra numa capa ou tela, confira aqui. Caminhos relativos a `img/` (lista permitida em `img/acervo/MAPA.md`).
+
+## Carrosséis v1 (conta Zuleide, 18/11/2026) · `carrosseis/v1/`
+Usos: capa = tela 1 e retrato do fecho (tela 8) · dossiê = tela 4 (e textura apagada da tela 2) · lupa = tela 5 · faixa = tela 6 (e fundo vermelho apagado da tela 7). Nenhuma obra se repete entre carrosséis; nenhum retrato de capa se repete em outra capa.
+
+| Carrossel | Obras |
+|---|---|
+| c01 | capa: Rafael, Retrato de Baldassare Castiglione, 1514-15 (`acervo/castiglione_raffaello.jpg`) · dossie: Hans Holbein, o Jovem, Os Embaixadores, 1533 (`acervo/embaixadores_holbein.jpg`) · lupa: Botticelli, Giuliano de' Medici, c. 1478 (`acervo/botticelli_giuliano_de_medici_accademia_carrara.jpg`) · faixa: J.-L. David, A Sagração de Napoleão, 1805-07 (`acervo/coroacao_napoleao_david.jpg`) |
+| c02 | capa: Retrato de César Bórgia, séc. XVI (domínio público) (`borgia.jpg`) · dossie: Vincenzo Camuccini, A Morte de Júlio César, 1798 (`acervo/cesar_assassinato_camuccini.jpg`) · lupa: Retrato do Papa Alexandre VI (domínio público) (`hist/pope_alexander_vi.jpg`) · faixa: Oficina de Rafael, A Batalha da Ponte Mílvia, 1520-24 (`acervo/batalha_ponte_milvio_raffaello.jpg`) |
+| c03 | capa: Busto de Aníbal (domínio público) (`hist/hannibal.jpg`) · dossie: Giulio Romano, A Batalha de Zama (`acervo/hannibal_and_scipio_africanus.jpg`) · lupa: Busto de Marco Aurélio jovem (domínio público) (`hist/marcus_aurelius.jpg`) · faixa: Arco de Sétimo Severo, desenho (domínio público) (`hist/arco_severo.jpg`) |
+| c04 | capa: Santi di Tito, Retrato de Nicolau Maquiavel, séc. XVI (`maquiavel.jpg`) · dossie: Bernardo Bellotto, A Piazza della Signoria em Florença, 1740 (`acervo/bernardo_bellotto_the_piazza_della_signoria_in_f.jpg`) · lupa: Rembrandt, Moisés com as Tábuas da Lei, 1659 (`hist/moses.jpg`) · faixa: Pieter Bruegel, o Velho, O Sermão de São João Batista, 1566 (`acervo/sermao_bruegel.jpg`) |
+| c05 | capa: Rafael, Retrato de Júlio II, 1511-12 (`acervo/julio_ii_raffaello.jpg`) · dossie: Giuseppe Bezzuoli, Entrada de Carlos VIII em Florença, 1829 (`acervo/carlos_viii_florenca_bezzuoli.jpg`) · lupa: Rafael, Leão X com dois cardeais, 1518 (`acervo/leao_x_raffaello.jpg`) · faixa: Rafael e oficina, A Batalha de Óstia, 1514-15 (`acervo/batalha_ostia_raffaello.jpg`) |
+| c06 | capa: Busto de Caracala (domínio público) (`hist/caracalla.jpg`) · dossie: Caspar David Friedrich, Depois da tempestade, 1817 (SMK) (`acervo/smk_efter_stormen_friedrich.jpg`) · lupa: Retrato de Fernando de Aragão (domínio público) (`hist/ferdinand_ii_of_aragon.jpg`) · faixa: Albrecht Altdorfer, A Batalha de Isso, 1529 (`acervo/albrecht_altdorfer_schlacht_bei_issus_alte_pinak.jpg`) |
+| c07 | capa: Caravaggio, A Prisão de Cristo, c. 1602 (`acervo/prisao_cristo_caravaggio.jpg`) · dossie: Giotto, O Beijo de Judas, Pádua, c. 1305 (`acervo/beijo_judas_giotto.jpg`) · lupa: Retrato de Lorenzo de Médici (domínio público) (`lorenzo.jpg`) · faixa: Pieter Bruegel, o Velho, Cristo carregando a cruz, 1564 (`acervo/multidao_bruegel.jpg`) |
+| c08 | capa: Busto de Júlio César (domínio público) (`cesar.jpg`) · dossie: Alexandre, o Grande, mosaico de Pompeia (domínio público) (`hist/alexander_the_great.jpg`) · lupa: Medalha de Júlio II (domínio público) (`hist/pope_julius_ii.jpg`) · faixa: Estátua equestre de Marco Aurélio, desenho (domínio público) (`hist/marcus_equestre.jpg`) |
+| c09 | capa: Fra Bartolomeo, Retrato de Girolamo Savonarola, c. 1498 (`acervo/savonarola_fra_bartolomeo.jpg`) · dossie: Fernando Gallego, Virgem dos Reis Católicos, c. 1490-95 (`acervo/ferdinand_of_aragon_isabella_of_castile.jpg`) · lupa: C.W.E. Dietrich, Tempestade (SMK, domínio público) (`acervo/smk_uvejr_dietrich.jpg`) · faixa: Jens Juel, Sítio com tempestade chegando, 1791-93 (SMK) (`acervo/smk_uvejr_gaard_juel.jpg`) |
+| c10 | capa: Claude-Joseph Vernet, Um naufrágio (SMK, domínio público) (`acervo/smk_skibbrud_vernet.jpg`) · dossie: Claude-Joseph Vernet, A cheia (SMK, domínio público) (`acervo/smk_stormflod_vernet.jpg`) · lupa: Thomas Wijck, A cigana lê a sorte dos soldados, 1658-61 (SMK) (`acervo/smk_spaakone_wijck.jpg`) · faixa: Salomon van Ruysdael, Estrada à beira do rio, 1652 (SMK) (`acervo/smk_flod_ruysdael.jpg`) |
+
+Mockups: `produto/venda/img/mockup.jpg` (fecho de c01, c03 a c10) e `produto/venda/img/isca.jpg` (fecho do c02).
+Obras do SMK (Statens Museum for Kunst, domínio público) baixadas pela API aberta `api.smk.dk` em 18/11/2026; as da Web Gallery of Art pelo `motor/acervo_wga.py`.
+Fundos Gemini (quando chegarem): `carrosseis/v1/fundos/cNN-capa.jpg`, sempre com "imagem gerada por IA".
