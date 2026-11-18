@@ -125,3 +125,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 17/11/2026 (Zuleide, Designer gráfico): canal do YouTube do Lindson entregue no papel (agencia/marca-lindson/youtube/, identidade preto+amarelo do Instagram). Fotos do lote 16/11 todas já usadas: @Lindson precisa mandar lote novo.
 - 17/11 · Pedro: painel Canais ganhou aba Carrosséis (fonte conteudo/youtube/canais-central/canais.html). ATENÇÃO: montar-canais.py ainda não gera itens tipo carrossel; os 5 eco27 estão só no dados.js do privado. Quem rodar o montador, preserve-os.
 - 18/11/2026 · Leandro (MotionForge): etapas 1-4 prontas — bugs do MVP corrigidos, settings/bgremove/histórico/custo/cancelar, providers fal+Replicate+ComfyUI, fundo em vídeo, CSInterface oficial, 21 testes passando (apps/motionforge/).
+- 18/11/2026 · Leandro (MotionForge): etapa 5 pronta — guia Windows (INSTALAR.bat sem admin) e empacotador .zxp (tools/). @Lindson: instalar e testar no AE.
