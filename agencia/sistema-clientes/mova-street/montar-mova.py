@@ -46,7 +46,7 @@ troca(";$('#cliente').value=cli;", ';')
 troca('<div class="avatar" title="Lindson Almeida (admin)">LA</div>', '<div class="avatar" title="Mova Street">MS</div>')
 troca("const BASE={", "const BASE={mova:{nome:'Mova Street + TV Cars',seg:'Mídia em carros de aplicativo',plano:'',inicio:'Novembro/2026',kpis:[],canais:[],metas:[]},")
 troca("const FRASES={", "const FRASES={mova:['A cidade não para. Sua marca também não.','Rua + banco de trás: duas telas, uma marca.','Sua marca em movimento. Sua publicidade em evidência.'],")
-troca("const MISSOES={", "const MISSOES={mova:[['Revisar o branding v1 na aba Aprovações',40],['Aprovar ou pedir ajuste na logo redesenhada',30],['Confirmar período da tabela e escopo da exclusividade',30]],")
+troca("const MISSOES={", "const MISSOES={mova:[['Revisar o branding v2 na aba Aprovações',40],['Conferir a logo original vetorizada (v2)',30],['Confirmar período da tabela e escopo da exclusividade',30]],")
 
 # 2 · arquivos: copia para o privado e devolve o link web
 os.makedirs(OUT, exist_ok=True)
@@ -70,16 +70,22 @@ def arq(nome, tipo, data, st, link):
 
 
 v2_md = {'TEMPLATE.md (pesquisa e persona)': open(os.path.join(BR, 'TEMPLATE.md')).read()}
-# 3 · branding v1 (conta Leandro, 18/11/2026) · aguardando aprovação
-E = os.path.join(BR, 'entregas'); P = os.path.join(BR, 'paginas'); D18 = '18/11/2026'
-lb = pub(os.path.join(E, 'mova-street-book-v1.pdf'), 'v1/mova-street-book-v1.pdf'); arq('Brand book v1 (PDF, 22 p.)', 'PDF', D18, 'aguardando', lb)
-lm = pub(os.path.join(E, 'mova-street-manual-v1.pdf'), 'v1/mova-street-manual-v1.pdf'); arq('Manual de marca v1 (PDF, 22 p.)', 'PDF', D18, 'aguardando', lm)
-lz = pub(os.path.join(E, 'mova-street-v1-elementos.zip'), 'v1/mova-street-v1-elementos.zip'); arq('Elementos v1 (logos SVG/PNG/PDF, fontes, paleta)', 'ZIP', D18, 'aguardando', lz)
+# 3a · branding v2 (logo original vetorizada, 18/11/2026) · aguardando aprovação
+B2 = os.path.join(PRIV, 'dados', 'clientes-arquivos', 'mova-street', 'branding-v2'); E2 = os.path.join(B2, 'entregas'); P2 = os.path.join(B2, 'paginas'); D18 = '18/11/2026'
+lb2 = pub(os.path.join(E2, 'mova-street-book-v2.pdf'), 'v2/mova-street-book-v2.pdf'); arq('Brand book v2 (PDF, 22 p.)', 'PDF', D18, 'aguardando', lb2)
+lm2 = pub(os.path.join(E2, 'mova-street-manual-v2.pdf'), 'v2/mova-street-manual-v2.pdf'); arq('Manual de marca v2 (PDF, 22 p.)', 'PDF', D18, 'aguardando', lm2)
+lz2 = pub(os.path.join(E2, 'mova-street-v2-elementos.zip'), 'v2/mova-street-v2-elementos.zip'); arq('Elementos v2 (logo original em vetor SVG/PNG/PDF, fontes, paleta)', 'ZIP', D18, 'aguardando', lz2)
+ad2 = thumb(os.path.join(E2, 'previa-original-x-vetor-v2.jpg'), 'v2/original-x-vetor.jpg', 1600)
+itens.append({'t': 'Logo', 'titulo': 'Logo original vetorizada (fiel) · original × vetor v2', 'data': D18, 'linha': 'Branding v2', 'st': 'aguardando', 'img': ad2, 'arq': lz2})
+for nome, l, pre in [('Brand book v2 · estratégia, voz, públicos, oferta', lb2, 'book'), ('Manual de marca v2 · logo original, cor, letra, aplicações', lm2, 'manual')]:
+    tl = [thumb(os.path.join(P2, f), f'v2/{pre}/{f[:-4]}.jpg', 900) for f in sorted(os.listdir(P2)) if f.startswith(pre + '-') and f.endswith('.jpg')]
+    itens.append({'t': 'PDF', 'titulo': nome, 'data': D18, 'linha': 'Branding v2', 'st': 'aguardando', 'arq': l, 'img': tl[0], 'telas': tl[1:]})
+# 3b · branding v1 · reprovado ("não mude a logo, o dono já gostou")
+E = os.path.join(BR, 'entregas'); P = os.path.join(BR, 'paginas'); NOTA = 'v1 reprovada 18/11: não mudar a logo'
+lb = pub(os.path.join(E, 'mova-street-book-v1.pdf'), 'v1/mova-street-book-v1.pdf'); arq('Brand book v1 (logo redesenhada)', 'PDF', D18, 'reprovado', lb)
+lm = pub(os.path.join(E, 'mova-street-manual-v1.pdf'), 'v1/mova-street-manual-v1.pdf'); arq('Manual de marca v1 (logo redesenhada)', 'PDF', D18, 'reprovado', lm)
 ad = thumb(os.path.join(E, 'previa-logo-antes-depois.jpg'), 'v1/antes-depois.jpg', 1400)
-itens.append({'t': 'Logo', 'titulo': 'Logo redesenhada em vetor · antes e depois', 'data': D18, 'linha': 'Branding v1', 'st': 'aguardando', 'img': ad, 'arq': lz})
-for nome, l, pre in [('Brand book v1 · estratégia, voz, públicos, oferta', lb, 'book'), ('Manual de marca v1 · logo, cor, letra, grafismos, aplicações', lm, 'manual')]:
-    tl = [thumb(os.path.join(P, f), f'v1/{pre}/{f[:-4]}.jpg', 900) for f in sorted(os.listdir(P)) if f.startswith(pre + '-') and f.endswith('.jpg')]
-    itens.append({'t': 'PDF', 'titulo': nome, 'data': D18, 'linha': 'Branding v1', 'st': 'aguardando', 'arq': l, 'img': tl[0], 'telas': tl[1:]})
+itens.append({'t': 'Logo', 'titulo': 'v1 · logo redesenhada (não vale)', 'data': D18, 'linha': 'Branding v1', 'st': 'reprovado', 'nota': NOTA, 'img': ad, 'arq': lm})
 rf = os.path.join(BR, 'referencias'); tl = [thumb(os.path.join(rf, f), 'v1/referencias/' + f[:-4] + '.jpg', 700) for f in sorted(os.listdir(rf)) if f.lower().endswith(IMG)]
 itens.append({'t': f'Referências · {len(tl)}', 'titulo': 'Pesquisa premium (Rimac, Vistar, McLaren escolhidas)', 'data': D18, 'linha': 'Pesquisa', 'st': 'entregue', 'img': tl[0], 'telas': tl[1:]})
 
