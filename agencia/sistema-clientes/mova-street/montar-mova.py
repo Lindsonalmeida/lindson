@@ -7,7 +7,7 @@ Conta Leandro, 18/11/2026."""
 import base64, html, json, os, re, shutil
 D = os.path.dirname(os.path.abspath(__file__)); SC = os.path.join(D, '..')
 MH = V2 = ''
-PRIV = os.environ.get('CENTRAL') or next((c for c in [os.path.normpath(os.path.join(D, '..', '..', '..', '..', 'centrallindsonalmeida')), os.path.expanduser('~/centrallindsonalmeida'), '/home/user/centrallindsonalmeida'] if os.path.isdir(os.path.join(c, '.git'))), '')
+PRIV = os.environ.get('CENTRAL') or next((c for c in [os.path.normpath(os.path.join(D, '..', '..', '..', '..', 'centrallindsonalmeida')), os.path.expanduser('~/centrallindsonalmeida'), '/home/user/centrallindsonalmeida', '/home/user/CentralLindsonALmeida'] if os.path.isdir(os.path.join(c, '.git'))), '')
 BR = os.path.join(PRIV, 'dados', 'clientes-arquivos', 'mova-street', 'branding-v1')
 OUT = os.path.join(PRIV, 'painel', 'mova-street'); WEB = '/painel/mova-street/'
 MAXMB = 24  # arquivo maior que isso não vai para o Git (fica registrado)
@@ -31,7 +31,7 @@ for a, b in [('rgba(245,197,24', 'rgba(255,90,31'), ('#F5C518', '#FF5A1F'), ('#2
     s = s.replace(a, b)
 troca('.topo h1{margin:0;font:800 26px/1', '.topo h1{margin:0;font:italic 900 28px/1')
 
-LOGO = os.path.join(BR, 'logos', 'png', 'mova-horizontal-principal.png')
+LOGO = os.path.join(PRIV, 'dados', 'clientes-arquivos', 'mova-street', 'branding-v2', 'logos', 'png', 'mova-horizontal-degrade-v2.png')  # oficial transparente (nunca a negativa com caixa azul)
 def _logo(p):
     import io; from PIL import Image
     im = Image.open(p); im.thumbnail((680, 200)); b = io.BytesIO(); im.save(b, 'PNG', optimize=True)
@@ -39,14 +39,14 @@ def _logo(p):
 logo = _logo(LOGO) if LOGO else ''
 troca('<div class="logo"><b>LA</b>Central</div>', f'<div class="logo" style="display:grid;gap:10px;justify-items:start"><img src="{logo}" alt="Mova Street" style="width:170px"><span style="font:500 10px var(--f-dado);letter-spacing:.24em;color:#FF5A1F">CENTRAL DO CLIENTE</span></div>')
 s = re.sub(r'<div class="seletor">.*?</select></div>', '', s, count=1, flags=re.S)
-troca("let cli='apple';", "let cli='mova';")
+troca("let cli='apple';", "let cli='mova-street';")  # mesmo nome do login (cookie) para /api/dados e /api/agenda
 troca("try{cli=localStorage.getItem('painel-cliente')||'apple'}catch(e){}", '')
 troca("$('#cliente').onchange=e=>{cli=e.target.value;try{localStorage.setItem('painel-cliente',cli)}catch(_){}render()};", '')
 troca(";$('#cliente').value=cli;", ';')
 troca('<div class="avatar" title="Lindson Almeida (admin)">LA</div>', '<div class="avatar" title="Mova Street">MS</div>')
-troca("const BASE={", "const BASE={mova:{nome:'Mova Street + TV Cars',seg:'Mídia em carros de aplicativo',plano:'',inicio:'Novembro/2026',kpis:[],canais:[],metas:[]},")
-troca("const FRASES={", "const FRASES={mova:['A cidade não para. Sua marca também não.','Rua + banco de trás: duas telas, uma marca.','Sua marca em movimento. Sua publicidade em evidência.'],")
-troca("const MISSOES={", "const MISSOES={mova:[['Revisar o branding v2 na aba Aprovações',40],['Conferir a logo original vetorizada (v2)',30],['Confirmar período da tabela e escopo da exclusividade',30]],")
+troca("const BASE={", "const BASE={'mova-street':{nome:'Mova Street + TV Cars',seg:'Mídia em carros de aplicativo',plano:'',inicio:'Novembro/2026',kpis:[],canais:[],metas:[]},")
+troca("const FRASES={", "const FRASES={'mova-street':['A cidade não para. Sua marca também não.','Rua + banco de trás: duas telas, uma marca.','Sua marca em movimento. Sua publicidade em evidência.'],")
+troca("const MISSOES={", "const MISSOES={'mova-street':[['Revisar o branding v2 na aba Aprovações',40],['Conferir a logo original vetorizada (v2)',30],['Confirmar período da tabela e escopo da exclusividade',30]],")
 
 # 2 · arquivos: copia para o privado e devolve o link web
 os.makedirs(OUT, exist_ok=True)
@@ -103,11 +103,17 @@ troca('<div class="d" style="color:var(--apagado);font-size:12.5px">${p.data}</d
 # 5 · menu: tira leads de exemplo, põe Marca, Divisões, Arquivos
 s = re.sub(r'<a href="#leads" data-v="leads">.*?</a>', '', s, count=1, flags=re.S)
 IC = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="{}"/></svg>'
+troca('<div class="grupo"><h4>Vendas e tráfego</h4>', '<div class="grupo"><h4>Comercial</h4>'
+      '<a href="#agenda" data-v="agenda">' + '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4.5" width="18" height="16" rx="2.5"/><path d="M3 9.5h18M8 2.5v4M16 2.5v4M8 14h3v3H8z"/></svg>' + 'Agendamentos</a>'
+      '<a href="#crm" data-v="crm">' + IC.format('M9 11.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7M2.5 20c.8-3.6 3.4-5.5 6.5-5.5s5.7 1.9 6.5 5.5M16 4.5a3.5 3.5 0 0 1 0 7') + 'CRM comercial</a>'
+      '<a href="#financeiro" data-v="financeiro">' + IC.format('M2.5 5.5h19v13h-19zM12 9.4a2.6 2.6 0 1 0 0 5.2 2.6 2.6 0 0 0 0-5.2') + 'Financeiro</a>'
+      '<a href="#noticias" data-v="noticias">' + IC.format('M4 5h13v14H6a2 2 0 0 1-2-2zM17 9h3v8a2 2 0 0 1-2 2M7.5 9h6M7.5 12.5h6M7.5 16h4') + 'Notícias do setor</a></div><div class="grupo"><h4>Vendas e tráfego</h4>')
 troca('<a href="#entregas" data-v="entregas">',
-      '<a href="#marca" data-v="marca">' + IC.format('M4 20 12 4l8 16M8 13h8') + 'Marca</a>'
+      '<a href="#treinamento" data-v="treinamento">' + IC.format('M3 5h18v13H3zM10 9l5 2.5-5 2.5zM8 21h8') + 'Treinamento</a><a href="#marca" data-v="marca">' + IC.format('M4 20 12 4l8 16M8 13h8') + 'Marca</a>'
       '<a href="#divisoes" data-v="divisoes">' + IC.format('M3 3h8v8H3zM13 3h8v8h-8zM3 13h8v8H3zM13 13h8v8h-8z') + 'Produtos</a>'
       '<a href="#arquivos" data-v="arquivos">' + IC.format('M3 7h6l2 2h10v11H3z') + 'Arquivos</a><a href="#entregas" data-v="entregas">')
 troca("const V={", "const V=window.__V={"); troca("const T={", "const T=window.__T={")
+troca("const f=$('#novo-ped');", "if(window.__pos)window.__pos(view);const f=$('#novo-ped');")
 troca("function toast(t){", "window.__toast=t=>toast(t);function toast(t){")
 troca("addEventListener('hashchange',render);render();", "window.__render=render;window.__h={BASE,APROV,PEDIDOS,bomDia,chip,cli:()=>cli};addEventListener('hashchange',render);setTimeout(render,0);")
 
@@ -127,11 +133,13 @@ window.__V.marca=()=>`<div class="card"><h3>Plataforma de marca</h3><div style="
 <div style="display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));margin-top:14px">${{[['Propósito',A.marca.proposito],['Missão',A.marca.missao],['Visão',A.marca.visao]].map(x=>`<div style="background:var(--painel2);border-radius:12px;padding:18px"><div style="font:500 11px var(--f-dado);letter-spacing:.14em;color:#B4935A;text-transform:uppercase">${{x[0]}}</div><div style="${{ser}};font-size:22px;line-height:1.25;margin-top:8px">${{x[1]}}</div></div>`).join('')}}</div></div>
 <div class="card"><h3>Paleta e tipografia</h3><div style="display:flex;flex-wrap:wrap;gap:10px;margin:10px 0">${{Object.entries(A.marca.paleta).map(([n,c])=>`<div style="width:120px"><div style="height:64px;border-radius:10px;background:${{c}};border:1px solid var(--linha)"></div><div style="font-size:12.5px;margin-top:6px">${{n}}</div><div style="font:500 11px var(--f-dado);color:var(--apagado)">${{c}}</div></div>`).join('')}}</div><p class="sub">${{A.marca.fontes.join(' · ')}}</p></div>
 <div class="card"><h3>Personas e plataforma (v2)</h3>${{Object.keys(A.marca.docs).length?Object.entries(A.marca.docs).map(([n,t])=>`<details open style="margin:8px 0"><summary style="cursor:pointer;color:var(--amarelo);font-weight:700">${{esc(n)}}</summary><pre style="white-space:pre-wrap;font:inherit;font-size:13.5px;line-height:1.55;margin:10px 0">${{esc(t)}}</pre></details>`).join(''):'<p class="sub">A v2 está em produção. As personas entram aqui sozinhas quando o PERSONAS.md for entregue.</p>'}}</div>`;
-window.__V.divisoes=()=>`<div class="card"><h3>Arquitetura de marca</h3><p class="sub">Marca-mãe Mova Street, produto TV Cars.</p><div style="display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));margin-top:14px">${{A.div.map((d,i)=>`<div style="background:var(--painel2);border-radius:14px;padding:22px;border-top:2px solid #FF5A1F"><div style="font:500 11px var(--f-dado);color:#B4935A">0${{i+1}}</div><div style="${{ser}};font-size:32px;margin:6px 0">Al Kántara <i>${{d[0]}}</i></div><div style="font-weight:600">${{d[1]}}</div><p class="sub" style="margin-top:8px">${{d[2]}}</p></div>`).join('')}}</div></div>`;
+window.__V.divisoes=()=>`<div class="card"><h3>Arquitetura de marca</h3><p class="sub">Marca-mãe Mova Street, produto TV Cars.</p><div style="display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));margin-top:14px">${{A.div.map((d,i)=>`<div style="background:var(--painel2);border-radius:14px;padding:22px;border-top:2px solid #FF5A1F"><div style="font:500 11px var(--f-dado);color:#B4935A">0${{i+1}}</div><div style="${{ser}};font-size:32px;margin:6px 0">${{d[0]}}</div><div style="font-weight:600">${{d[1]}}</div><p class="sub" style="margin-top:8px">${{d[2]}}</p></div>`).join('')}}</div></div>`;
 window.__V.arquivos=()=>`<div class="card"><h3>Arquivos</h3><p class="sub">Tudo o que já foi feito para a Mova Street. Toque para baixar.</p><div class="tab"><table><thead><tr><th>Arquivo</th><th>Tipo</th><th>Data</th><th>Status</th><th></th></tr></thead><tbody>${{A.arq.map(e=>`<tr><td>${{esc(e[0])}}</td><td>${{e[1]}}</td><td>${{e[2]}}</td><td>${{window.__h.chip(e[3])}}</td><td><a class="btn lin" href="${{e[4]}}" ${{e[4].startsWith('http')?'target="_blank" rel="noopener"':'download'}}>${{e[4].startsWith('http')?'Abrir':'Baixar'}}</a></td></tr>`).join('')}}</tbody></table></div>${{A.fora.length?`<p class="sub" style="margin-top:10px">Grandes demais para o site (ficam no repositório lindson): ${{A.fora.map(esc).join(', ')}}</p>`:''}}</div>`;
 window.__V.entregas=window.__V.arquivos;
 Object.assign(window.__T,{{marca:'Marca',divisoes:'Produtos',arquivos:'Arquivos'}});}})();"""
-extra = EXTRA + '\n' + open(os.path.join(SC, 'prototipo', 'interacoes.js')).read() + '\n' + open(os.path.join(SC, 'prototipo', 'movimento.js')).read()
+FERR = json.load(open(os.path.join(D, 'ferr-mova.json')))
+DADOS = json.load(open(os.path.join(PRIV, 'dados', 'mova-street.json')))
+extra = EXTRA + '\nwindow.__DADOS=' + J(DADOS) + ';\nwindow.__FERR=' + J(FERR) + ';\n' + open(os.path.join(SC, 'prototipo', 'ferramentas.js')).read() + '\n' + open(os.path.join(D, 'agenda-mova.js')).read() + '\n' + open(os.path.join(SC, 'prototipo', 'interacoes.js')).read() + '\n' + open(os.path.join(SC, 'prototipo', 'movimento.js')).read()
 s = s.replace('</script>', '</script>\n<script>\n' + extra + '\n</script>', 1)
 open(os.path.join(D, 'painel-mova.html'), 'w').write(s)
 if os.path.isdir(os.path.join(PRIV, 'painel')):
