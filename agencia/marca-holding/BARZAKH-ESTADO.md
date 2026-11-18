@@ -24,7 +24,7 @@
 - Site Al Kántara com página Barzakh (`marca-holding/v2/fase3/site/barzakh.html`).
 
 ## Em produção agora (esta sessão)
-Estratégias completas, pedido do Lindson 18/11: **Instagram** (herdada da sessão Zuleide principal), **YouTube**, **Behance**, **Pinterest** → `agencia/marca-holding/{instagram,youtube,behance,pinterest}/`.
+Estratégias completas, pedido do Lindson 18/11: **Instagram** (herdada da sessão Zuleide principal), **YouTube** (entregue 18/11, aguardando), **Behance**, **Pinterest** → `agencia/marca-holding/{instagram,youtube,behance,pinterest}/`.
 
 ## Próximos passos / trava
 - @Lindson: criar contas @barzakhstudio (IG, YouTube, Behance, Pinterest); aprovar feed v3; mandar lote novo de fotos (as de 16/11 já foram usadas).

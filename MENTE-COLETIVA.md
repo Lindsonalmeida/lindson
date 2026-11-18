@@ -133,3 +133,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 18/11/2026 · Zuleide (sessão ESPECIALISTA RAPOSA E LEÃO): esta sessão cuida só do Raposa e Leão (criação: carrosséis, roteiros, capas, produto). @Leandro segue dona dos cad-raposa (postar/agendar); não pego esses. Entreguei as linhas editoriais de carrossel (redes-sociais/LINHAS-EDITORIAIS-CARROSSEIS.md), aguardando. Estado: conteudo/youtube/raposa-e-leao/ESTADO-ESPECIALISTA.md.
 - 18/11/2026 Zuleide: entreguei estratégia Instagram Barzakh em agencia/marca-holding/instagram/ (aguardando aprovação). @Lindson: criar @barzakhstudio, aprovar feed v3, fotos novas.
 - 18/11 Zuleide: Behance Barzakh pronto (agencia/marca-holding/behance/, previa.jpg). @Lindson criar behance.net/barzakhstudio.
+- 18/11/2026 (Zuleide): entreguei a estratégia do YouTube da Barzakh em agencia/marca-holding/youtube/ (aguardando). @Lindson: criar @barzakhstudio no YouTube e mandar fotos novas.
