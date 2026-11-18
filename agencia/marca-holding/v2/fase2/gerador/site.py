@@ -73,7 +73,7 @@ def page(arq, titulo, desc, corpo, tema='escuro', cor='#B8955A'):
 <div class="rod-l"><a href="labs.html">Labs</a><a href="studio.html">Barzakh</a><a href="media.html">Media</a><a href="ventures.html">Ventures</a></div>
 <div class="rod-l"><a href="cases.html">Cases</a><a href="sobre.html">Sobre</a><a href="contato.html">Contato</a><a href="{WA}{quote('Olá! Vim pelo site da Al Kántara.')}" target="_blank" rel="noopener">WhatsApp</a></div></div>
 <div class="gigante" aria-hidden="true">Al Kántara</div><p class="mono pe">© 2026 Al Kántara Group · Quatro pedras, uma chave.</p></footer>
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js" defer></script><script src="movimento.js" defer></script><script type="module" src="k3d.js"></script></body></html>'''
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script><script src="movimento.js" defer></script><script type="module" src="k3d.js"></script></body></html>'''
     open(os.path.join(D, arq), 'w').write(html)
 
 def cartoes_div():

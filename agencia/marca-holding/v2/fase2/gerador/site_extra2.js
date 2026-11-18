@@ -7,7 +7,7 @@ const tr=document.createElement('div');tr.className='troca';document.body.append
 document.querySelectorAll('a[href$=".html"],a[href="./"]').forEach(a=>a.addEventListener('click',e=>{if(e.metaKey||e.ctrlKey||a.target)return;e.preventDefault();document.body.classList.add('sai');setTimeout(()=>location.href=a.href,450)}));
 addEventListener('pageshow',()=>document.body.classList.remove('sai'));
 const go=()=>{if(red||!window.gsap)return;const g=window.gsap;if(window.ScrollTrigger)g.registerPlugin(ScrollTrigger);
-if(window.Lenis){const l=new Lenis({lerp:.1,smoothWheel:true});l.on('scroll',()=>window.ScrollTrigger&&ScrollTrigger.update());g.ticker.add(t=>l.raf(t*1000));g.ticker.lagSmoothing(0)}
+
 document.querySelectorAll('.h-l').forEach(h=>{g.fromTo(h,{yPercent:30,opacity:0},{yPercent:0,opacity:1,duration:1.1,ease:'expo.out',scrollTrigger:{trigger:h,start:'top 88%'}})});
 document.querySelectorAll('.ph.par .ph-in').forEach(p=>g.to(p,{yPercent:12,ease:'none',scrollTrigger:{trigger:p.parentNode,start:'top bottom',end:'bottom top',scrub:true}}));
 document.querySelectorAll('.ph').forEach(p=>g.from(p,{clipPath:'inset(18% 8% 18% 8%)',duration:1.4,ease:'expo.out',scrollTrigger:{trigger:p,start:'top 85%'}}));
