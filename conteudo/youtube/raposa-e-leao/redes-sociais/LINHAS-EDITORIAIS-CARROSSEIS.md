@@ -1,5 +1,7 @@
 # Raposa e Leão · linhas editoriais de carrossel (Instagram e TikTok)
 
+> **SUBSTITUÍDA pela v2 (18/11/2026), baseada no Manual de Campo: `LINHAS-EDITORIAIS-CARROSSEIS-v2.md`.**
+
 Sessão especialista Raposa e Leão (conta Zuleide), 18/11/2026. Agentes: Social media (linhas e legendas), Maquiavel (citações), Peter (ponte com o YouTube) e Designer gráfico (composição). **Situação: aguardando aprovação do Lindson.**
 
 ## Persona (a mesma do Manual de Campo)

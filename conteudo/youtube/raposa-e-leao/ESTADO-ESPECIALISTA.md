@@ -8,7 +8,7 @@
 - **Produto:** Manual de Campo (PDF 50 p.) + isca *7 frases que Maquiavel nunca disse* + página de venda (conta Pedro, 14/11) em `produto/`.
 - **Análise do produto (18/11):** `produto/ANALISE-2026-11-18.md`.
 - **Série Previsões e Premonições** (Peter, 17/11) + 5 carrosséis Economist 2027 (`conteudo/youtube/previsoes/`).
-- **Linhas editoriais de carrossel** (esta sessão, 18/11): `redes-sociais/LINHAS-EDITORIAIS-CARROSSEIS.md`.
+- **Linhas editoriais de carrossel v2** (esta sessão, 18/11, baseadas no Manual de Campo; v1 substituída): `redes-sociais/LINHAS-EDITORIAIS-CARROSSEIS-v2.md`.
 
 ## Aprovado
 - Capas sensacionalistas dos carrosséis Economist 2027 (17/11: "ficaram perfeitas"): modelo para capas polêmicas.
