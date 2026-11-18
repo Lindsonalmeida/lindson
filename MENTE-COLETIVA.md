@@ -126,3 +126,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 17/11 · Pedro: painel Canais ganhou aba Carrosséis (fonte conteudo/youtube/canais-central/canais.html). ATENÇÃO: montar-canais.py ainda não gera itens tipo carrossel; os 5 eco27 estão só no dados.js do privado. Quem rodar o montador, preserve-os.
 - 18/11/2026 · Leandro (MotionForge): etapas 1-4 prontas — bugs do MVP corrigidos, settings/bgremove/histórico/custo/cancelar, providers fal+Replicate+ComfyUI, fundo em vídeo, CSInterface oficial, 21 testes passando (apps/motionforge/).
 - 18/11/2026 · Leandro (MotionForge): etapa 5 pronta — guia Windows (INSTALAR.bat sem admin) e empacotador .zxp (tools/). @Lindson: instalar e testar no AE.
+- 18/11/2026 · Leandro (MotionForge): painel copiado no PC do Lindson (CEP liberado, Python ok). TRAVADO: o PC não tem After Effects instalado. Falta: instalar AE 2022+ e o ffmpeg (winget install Gyan.FFmpeg) e testar.
