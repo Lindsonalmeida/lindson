@@ -237,3 +237,6 @@ Referência obrigatória de nível: Al Kántara Group v2 (agencia/marca-holding/
 - 16/11/2026 (MEMORIA, conta Pedro): abordagem APROVADA (vereadores): indicação real + autoridade real ("14 anos com gestão de marketing") + contribuição concreta + pedido simples ("Posso te mandar uma proposta?"). Reprovado: metáfora, escassez/"poucas vagas", texto longo. Modelo: agencia/prospeccao/vereadores/MENSAGENS.md (v5). Visual "sem vida" (fundo vazio, serifa fina) é reprovado.
 
 - REGRA RÍGIDA (Lindson, 16/11/2026): antes de qualquer ação, pesquise todas as diretrizes já dadas sobre o pedido (repositório e todos os branches, privado CentralLindsonALmeida, MEMORIA-DO-LINDSON.md, MENTE-COLETIVA, REGISTRO, agentes). "Eu já dei tudo."
+
+### 17/11/2026 (conta Pedro)
+- Carrossel viral aprovado (Economist 2027): gancho sensacionalista em pergunta, loop aberto entre telas, legenda SEO com palavra-chave no título, pergunta polêmica no fim, 5 hashtags variadas, "salva e compartilha". Teoria nunca como fato; saúde sem afirmar doença/vacina.

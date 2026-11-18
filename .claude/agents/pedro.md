@@ -133,3 +133,11 @@ Referência obrigatória de nível: Al Kántara Group v2 (agencia/marca-holding/
 - **Portfólio PDF luxo:** agencia/marca-lindson/projeto-designer/portfolio-pdf/ (25 p., Lindson Almeida Studio).
 - **Disco:** esta sessão enche; nunca deixar o repo dentro do scratchpad (apagar scratchpad/repos apagou o clone). Pull com --autostash; rebase parado → backup em branch, nunca sobrescrever trabalho de outra conta.
 - **Sessão GOMINHO** apagada e recriada (session_01XiFnceeCjUAdrrBcNY1TSC); trechos em agencia/clientes/pagode-fiado/RECUPERADO-GOMINHO.md.
+
+### Aprendizados 17/11/2026 (conta Pedro)
+- **Economist 2026/2027:** pesquisa em conteudo/referencias/economist-2026.md; lista de 81 itens da capa 2027 (ampliar a imagem em recortes antes de listar; corrigido: estátua é a Marianne de Paris, há bola de cristal e robô com saco).
+- **Carrosséis polêmicos APROVADOS ("ficaram perfeitas"):** imagem do Gemini (Lindson gera; prompts em conteudo/youtube/previsoes/carrosseis-economist-2027/PROMPTS-GEMINI.md) + recorte real da capa como prova em dossiê + título-pergunta Anton ouro/tarja vermelha. Gerador capas_v2.py. Sensacionalismo extremo, mas teoria sempre como pergunta e tela final "o que a revista diz".
+- **Perfil certo:** conteúdo sobre a capa é do PERFIL DO LINDSON (@lindsonalmeida_), não do Raposa. Vai para admin → Minha rede social → Conteúdos (artes-aprovadas.json + __REDE.artes, st "aprovar"), arquivos em painel/admin-rede/<pasta>/ com zip.
+- **Painel Canais:** ganhou aba Carrosséis; item com "pre" preenchido aparece como Postado. montar-canais.py ainda não gera carrossel.
+- **Painel atrás de login:** curl dá 302; conferir no repositório e com Playwright file:// (route de file:///painel/ para o repo).
+- **Git lento (clone raso com filtro):** comandos longos em background.
