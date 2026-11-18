@@ -1,0 +1,927 @@
+{
+ "01-mapa-8-regioes": {
+  "linha": "A Bíblia em Mapa",
+  "produto": "Mapa Grandão + Passaporte",
+  "telas": [
+   {
+    "l": "capa",
+    "grav": "006",
+    "foco": [
+     0.45,
+     0.4
+    ],
+    "zoom": 0.9,
+    "tag": "A BÍBLIA EM MAPA",
+    "txt": "A BÍBLIA TEM <b>8 REGIÕES</b>",
+    "sub": "Você sabe em qual está lendo?"
+   },
+   {
+    "l": "numero",
+    "rot": "A VIAGEM INTEIRA",
+    "n": "66",
+    "cor": "ouro",
+    "txt": "livros na Bíblia evangélica",
+    "sub": "73 na católica. Parece muito. Separado por regiões, fica fácil."
+   },
+   {
+    "l": "grade8",
+    "titulo": "As 8 regiões",
+    "sub": "O número é quantos livros tem em cada uma."
+   },
+   {
+    "l": "cena",
+    "grav": "004",
+    "foco": [
+     0.45,
+     0.45
+    ],
+    "zoom": 0.85,
+    "rot": "POR QUE ISSO IMPORTA",
+    "txt": "CADA REGIÃO SE LÊ <b>DE UM JEITO</b>",
+    "ref": "Lei não se lê como poesia. Profecia não se lê como carta."
+   },
+   {
+    "l": "cartoes",
+    "rot": "EXEMPLO",
+    "cor": "ev",
+    "titulo": "Onde fica cada um",
+    "itens": [
+     [
+      "Gênesis",
+      "Lei · o começo de tudo"
+     ],
+     [
+      "Salmos",
+      "Poéticos · orações e cânticos"
+     ],
+     [
+      "Jonas",
+      "Profetas Menores · 4 capítulos"
+     ],
+     [
+      "Marcos",
+      "Evangelhos · a vida de Jesus"
+     ]
+    ]
+   },
+   {
+    "l": "frase",
+    "rot": "DICA DE VIAJANTE",
+    "cor": "ev",
+    "txt": "Nunca leu? Comece pela região azul: os Evangelhos.",
+    "sub": "É lá que a história de Jesus começa."
+   },
+   {
+    "l": "carimbo",
+    "carimbo": "MAPA<br>VISTO",
+    "txt": "Salva esse mapa e abre junto com a sua Bíblia.",
+    "cta": "Comenta ROTA"
+   }
+  ]
+ },
+ "02-marcos-explicadinho": {
+  "linha": "Destino da Semana",
+  "produto": "Passaporte da Bíblia (página do livro)",
+  "telas": [
+   {
+    "l": "capa",
+    "grav": "068",
+    "foco": [
+     0.62,
+     0.5
+    ],
+    "zoom": 0.62,
+    "tag": "DESTINO DA SEMANA",
+    "txt": "MARCOS <b>EXPLICADO</b>",
+    "sub": "O livro inteiro em 8 telas"
+   },
+   {
+    "l": "bilhete",
+    "cor": "ev",
+    "n": "41/66",
+    "livro": "MARCOS",
+    "linhas": [
+     [
+      "REGIÃO",
+      "Evangelhos"
+     ],
+     [
+      "CAPÍTULOS",
+      "16"
+     ],
+     [
+      "AUTOR (TRADIÇÃO)",
+      "Marcos"
+     ],
+     [
+      "RITMO",
+      "o mais curto dos 4"
+     ]
+    ]
+   },
+   {
+    "l": "frase",
+    "rot": "EM 1 FRASE",
+    "cor": "ev",
+    "txt": "Jesus em ação: menos discurso, mais movimento, do batismo ao túmulo vazio."
+   },
+   {
+    "l": "cartoes",
+    "rot": "QUEM VOCÊ VAI ENCONTRAR",
+    "cor": "ev",
+    "titulo": "Personagens",
+    "itens": [
+     [
+      "Jesus",
+      "o centro de tudo"
+     ],
+     [
+      "João Batista",
+      "prepara o caminho (Mc 1)"
+     ],
+     [
+      "Pedro",
+      "o discípulo que erra e volta"
+     ],
+     [
+      "Os Doze",
+      "aprendem no caminho"
+     ]
+    ]
+   },
+   {
+    "l": "lista",
+    "rot": "O ROTEIRO",
+    "cor": "ev",
+    "titulo": "6 paradas",
+    "itens": [
+     [
+      "Batismo de Jesus",
+      "Mc 1:9-11"
+     ],
+     [
+      "Acalma a tempestade",
+      "Mc 4:35-41"
+     ],
+     [
+      "Anda sobre as águas",
+      "Mc 6:45-52"
+     ],
+     [
+      "“Tu és o Cristo”",
+      "Mc 8:29"
+     ],
+     [
+      "A cruz",
+      "Mc 15"
+     ],
+     [
+      "O túmulo vazio",
+      "Mc 16:1-8"
+     ]
+    ]
+   },
+   {
+    "l": "divide",
+    "a_rot": "ONDE TRAVA",
+    "a": "Tudo acontece rápido demais. Parece que pula as partes.",
+    "b_rot": "COMO ATRAVESSAR",
+    "b": "1 capítulo por dia. Em 16 dias você leu o livro inteiro."
+   },
+   {
+    "l": "versiculo",
+    "txt": "O Filho do Homem não veio para ser servido, mas para servir e dar a sua vida em resgate de muitos.",
+    "ref": "MARCOS 10:45",
+    "fs": 64
+   },
+   {
+    "l": "carimbo",
+    "carimbo": "MARCOS<br>CARIMBADO",
+    "txt": "Salva pra ler com a Bíblia aberta.",
+    "cta": "Comenta ROTA"
+   }
+  ]
+ },
+ "03-quem-sou-eu-rute": {
+  "linha": "Passaporte do Personagem",
+  "produto": "Quem Sou Eu? Bíblico",
+  "telas": [
+   {
+    "l": "capa",
+    "grav": "028",
+    "foco": [
+     0.55,
+     0.38
+    ],
+    "zoom": 0.62,
+    "tag": "QUEM SOU EU?",
+    "txt": "ADIVINHE <b>EM 3 DICAS</b>",
+    "sub": "Só olha a resposta no fim"
+   },
+   {
+    "l": "dica",
+    "grav": "029",
+    "foco": [
+     0.5,
+     0.5
+    ],
+    "n": "1",
+    "txt": "Eu era estrangeira. Vim da terra de Moabe.",
+    "ref": "a resposta está na tela 6"
+   },
+   {
+    "l": "frase",
+    "rot": "DICA 2",
+    "cor": "hist",
+    "txt": "Perdi meu marido e, em vez de voltar pra casa, fiquei com a minha sogra.",
+    "fs": 74
+   },
+   {
+    "l": "dica",
+    "grav": "029",
+    "foco": [
+     0.35,
+     0.6
+    ],
+    "zoom": 0.7,
+    "n": "3",
+    "txt": "Fui catar espigas no campo de um homem chamado Boaz."
+   },
+   {
+    "l": "numero",
+    "rot": "ÚLTIMA CHANCE",
+    "n": "?",
+    "cor": "hist",
+    "txt": "Já sabe quem é?",
+    "sub": "Escreve nos comentários antes de arrastar."
+   },
+   {
+    "l": "revela",
+    "grav": "028",
+    "foco": [
+     0.55,
+     0.4
+    ],
+    "nome": "RUTE",
+    "linhas": [
+     "Livro de Rute, 4 capítulos (Históricos)",
+     "“O teu povo é o meu povo” · Rt 1:16",
+     "Bisavó do rei Davi · Rt 4:17",
+     "Está na genealogia de Jesus · Mt 1:5"
+    ]
+   },
+   {
+    "l": "versiculo",
+    "rot": "A LIÇÃO",
+    "txt": "Aonde quer que fores, irei eu.",
+    "ref": "RUTE 1:16",
+    "fs": 92
+   },
+   {
+    "l": "carimbo",
+    "carimbo": "RUTE<br>REVELADA",
+    "txt": "Quem você quer no próximo Quem Sou Eu?",
+    "cta": "Comenta o nome"
+   }
+  ]
+ },
+ "04-por-onde-comecar": {
+  "linha": "Leitura Sem Culpa",
+  "produto": "Cartela Sem Data + Rota da Primeira Viagem (isca)",
+  "telas": [
+   {
+    "l": "capa",
+    "grav": "044",
+    "foco": [
+     0.5,
+     0.35
+    ],
+    "zoom": 0.7,
+    "tag": "LEITURA SEM CULPA",
+    "txt": "NUNCA LEU <b>A BÍBLIA?</b>",
+    "sub": "Comece por aqui (sem culpa)"
+   },
+   {
+    "l": "frase",
+    "rot": "VOCÊ JÁ PENSOU ISSO",
+    "cor": "noite",
+    "txt": "“Comecei em Gênesis, travei em Levítico e larguei de novo.”"
+   },
+   {
+    "l": "cena",
+    "grav": "053",
+    "foco": [
+     0.5,
+     0.5
+    ],
+    "zoom": 0.9,
+    "pos": "topo",
+    "txt": "VOCÊ NÃO É <b>FRACO NA FÉ</b>. SÓ ESTAVA SEM MAPA.",
+    "fs": 104
+   },
+   {
+    "l": "rotas",
+    "rot": "ESCOLHA SUA ROTA",
+    "titulo": "3 jeitos de começar",
+    "rotas": [
+     [
+      "Primeira Viagem",
+      "#3B8EDB",
+      [
+       "Marcos",
+       "João",
+       "Atos",
+       "Salmos"
+      ],
+      "Pra quem nunca leu: começa por Jesus."
+     ],
+     [
+      "Clássica",
+      "#D9573B",
+      [
+       "Gênesis",
+       "Êxodo",
+       "...",
+       "Apocalipse"
+      ],
+      "Do primeiro ao último livro, em ordem."
+     ],
+     [
+      "Da História",
+      "#C9A227",
+      [
+       "Criação",
+       "Abraão",
+       "Reis",
+       "Jesus"
+      ],
+      "Na ordem em que as coisas aconteceram."
+     ]
+    ]
+   },
+   {
+    "l": "numero",
+    "rot": "A CONTA HONESTA",
+    "n": "1.189",
+    "fs": 300,
+    "y": 640,
+    "cor": "ouro",
+    "txt": "capítulos na Bíblia (66 livros)",
+    "sub": "Dá 3 a 4 por dia pra ler tudo em 1 ano. Se fizer menos, ainda é viagem."
+   },
+   {
+    "l": "cartoes",
+    "rot": "REGRAS DO VIAJANTE SEM CULPA",
+    "cor": "carimbo",
+    "titulo": "Combinado?",
+    "itens": [
+     [
+      "Passaporte não vence",
+      "não tem data de validade"
+     ],
+     [
+      "Atrasou? Continua",
+      "de onde parou, não do dia 1"
+     ],
+     [
+      "1 capítulo também é viagem",
+      "constância vale mais que pressa"
+     ]
+    ]
+   },
+   {
+    "l": "carimbo",
+    "carimbo": "PRIMEIRA<br>VIAGEM",
+    "txt": "Quer a rota da Primeira Viagem?",
+    "cta": "Comenta ROTA"
+   }
+  ]
+ },
+ "05-levitico-sem-dormir": {
+  "linha": "Trecho Difícil sem Medo",
+  "produto": "Kit Travessia",
+  "telas": [
+   {
+    "l": "capa",
+    "grav": "040",
+    "foco": [
+     0.45,
+     0.45
+    ],
+    "zoom": 0.7,
+    "tag": "TRECHO DIFÍCIL",
+    "txt": "TRAVOU EM <b>LEVÍTICO?</b>",
+    "sub": "Como atravessar sem dormir"
+   },
+   {
+    "l": "frase",
+    "rot": "ONDE QUASE TODO MUNDO PARA",
+    "cor": "lei",
+    "txt": "Sacrifícios, leis de comida, regras de pureza... e nenhuma história andando."
+   },
+   {
+    "l": "numero",
+    "rot": "O TAMANHO DA TRAVESSIA",
+    "n": "27",
+    "cor": "lei",
+    "txt": "capítulos",
+    "sub": "É o 3º livro da Bíblia, logo depois da saída do Egito."
+   },
+   {
+    "l": "cena",
+    "grav": "019",
+    "foco": [
+     0.5,
+     0.45
+    ],
+    "zoom": 0.85,
+    "rot": "O CONTEXTO",
+    "txt": "UM POVO RECÉM-LIBERTO APRENDENDO A <b>VIVER PERTO DE DEUS</b>",
+    "ref": "“Andarei no meio de vós” · Lv 26:12",
+    "fs": 92
+   },
+   {
+    "l": "lista",
+    "rot": "COMO ATRAVESSAR",
+    "cor": "lei",
+    "titulo": "4 passos",
+    "itens": [
+     [
+      "Procure a frase-chave: “Sede santos”",
+      "Lv 11:44 · Lv 19:2"
+     ],
+     [
+      "Leia o capítulo 16: o Dia da Expiação",
+      "Lv 16"
+     ],
+     [
+      "Ache o versículo que Jesus citou",
+      "Lv 19:18 · Mt 22:39"
+     ],
+     [
+      "Depois leia Hebreus 9 e 10",
+      "eles explicam os sacrifícios"
+     ]
+    ]
+   },
+   {
+    "l": "divide",
+    "a_rot": "O QUE PARECE",
+    "a": "Uma lista de regras sem sentido pra hoje.",
+    "b_rot": "O QUE É",
+    "b": "O manual de como um povo vivia perto de um Deus santo."
+   },
+   {
+    "l": "versiculo",
+    "txt": "Amarás o teu próximo como a ti mesmo.",
+    "ref": "LEVÍTICO 19:18",
+    "fs": 96
+   },
+   {
+    "l": "carimbo",
+    "carimbo": "LEVÍTICO<br>VENCIDO",
+    "txt": "Salva pro dia que você chegar em Levítico.",
+    "cta": "Manda pra quem travou"
+   }
+  ]
+ },
+ "06-culto-10-minutos": {
+  "linha": "Família e Célula",
+  "produto": "Passaporte Kids",
+  "telas": [
+   {
+    "l": "capa",
+    "grav": "064",
+    "foco": [
+     0.5,
+     0.55
+    ],
+    "zoom": 0.75,
+    "tag": "FAMÍLIA",
+    "txt": "CULTO EM <b>10 MINUTOS</b>",
+    "sub": "Com criança pequena, hoje à noite"
+   },
+   {
+    "l": "numero",
+    "rot": "O PLANO",
+    "n": "10",
+    "cor": "ev",
+    "txt": "minutos, 4 passos",
+    "sub": "História, pergunta, brincadeira e oração."
+   },
+   {
+    "l": "cena",
+    "grav": "064",
+    "foco": [
+     0.5,
+     0.6
+    ],
+    "zoom": 0.55,
+    "rot": "1 · A HISTÓRIA (3 MIN)",
+    "txt": "JESUS <b>ACALMA</b> A TEMPESTADE",
+    "ref": "Leia em voz alta: Marcos 4:35-41"
+   },
+   {
+    "l": "frase",
+    "rot": "2 · A PERGUNTA (2 MIN)",
+    "cor": "ev",
+    "txt": "“Do que você tem medo? Jesus estava no barco com eles.”"
+   },
+   {
+    "l": "cartoes",
+    "rot": "3 · A BRINCADEIRA (3 MIN)",
+    "cor": "pme",
+    "titulo": "Tempestade e calmaria",
+    "itens": [
+     [
+      "Todo mundo faz barulho de vento",
+      "balança os braços, sopra forte"
+     ],
+     [
+      "Alguém grita: “Silêncio! Aquieta-te!”",
+      "Mc 4:39"
+     ],
+     [
+      "Todo mundo congela",
+      "quem se mexer conta a história de novo"
+     ]
+    ]
+   },
+   {
+    "l": "versiculo",
+    "rot": "4 · A ORAÇÃO (2 MIN)",
+    "txt": "Jesus, obrigado porque o Senhor está no barco com a gente. Amém.",
+    "ref": "cada um fala 1 medo e entrega pra Ele",
+    "fs": 70,
+    "sem_salva": true
+   },
+   {
+    "l": "carimbo",
+    "carimbo": "CULTO<br>FEITO",
+    "txt": "Manda pra um pai ou uma mãe que precisa disso.",
+    "cta": "Salva pra hoje à noite"
+   }
+  ]
+ },
+ "07-grande-historia-6-capitulos": {
+  "linha": "A Bíblia em Mapa",
+  "produto": "Passaporte (A Grande História em 1 Página)",
+  "telas": [
+   {
+    "l": "capa",
+    "grav": "001",
+    "foco": [
+     0.6,
+     0.3
+    ],
+    "zoom": 0.8,
+    "tag": "A BÍBLIA EM MAPA",
+    "txt": "A BÍBLIA EM <b>6 CAPÍTULOS</b>",
+    "sub": "Do começo ao fim, em 1 minuto"
+   },
+   {
+    "l": "cena",
+    "grav": "002",
+    "foco": [
+     0.5,
+     0.45
+    ],
+    "zoom": 0.85,
+    "rot": "1 · CRIAÇÃO  ·  2 · QUEDA",
+    "txt": "DEUS FAZ TUDO BOM. <b>O HOMEM QUEBRA.</b>",
+    "ref": "Gênesis 1 e 2 · Gênesis 3"
+   },
+   {
+    "l": "frase",
+    "rot": "3 · PROMESSA E POVO",
+    "cor": "lei",
+    "txt": "Deus escolhe Abraão e promete abençoar todas as famílias da terra por meio dele.",
+    "sub": "Gênesis 12:3 até Malaquias",
+    "fs": 70
+   },
+   {
+    "l": "cena",
+    "grav": "091",
+    "foco": [
+     0.5,
+     0.5
+    ],
+    "zoom": 0.85,
+    "pos": "topo",
+    "rot": "4 · JESUS",
+    "txt": "A PROMESSA <b>CHEGA</b>",
+    "ref": "Mateus, Marcos, Lucas e João"
+   },
+   {
+    "l": "lista",
+    "rot": "5 · IGREJA  ·  6 · TUDO NOVO",
+    "cor": "cartas",
+    "titulo": "E a história continua",
+    "itens": [
+     [
+      "A igreja nasce em Jerusalém",
+      "Atos 2"
+     ],
+     [
+      "A mensagem chega aos povos",
+      "Atos até Judas"
+     ],
+     [
+      "Deus enxuga toda lágrima",
+      "Apocalipse 21:4"
+     ],
+     [
+      "“Faço novas todas as coisas”",
+      "Apocalipse 21:5"
+     ]
+    ]
+   },
+   {
+    "l": "numero",
+    "rot": "RESUMO",
+    "n": "6",
+    "cor": "ouro",
+    "txt": "capítulos, 1 história",
+    "sub": "Criação, Queda, Promessa, Jesus, Igreja, Tudo novo. Todo livro cabe em um deles."
+   },
+   {
+    "l": "carimbo",
+    "carimbo": "HISTÓRIA<br>COMPLETA",
+    "txt": "Salva e manda pra quem acha a Bíblia confusa.",
+    "cta": "Comenta ROTA"
+   }
+  ]
+ },
+ "08-apocalipse-sem-medo": {
+  "linha": "Trecho Difícil sem Medo",
+  "produto": "Kit Travessia",
+  "telas": [
+   {
+    "l": "capa",
+    "grav": "100",
+    "foco": [
+     0.5,
+     0.45
+    ],
+    "zoom": 0.75,
+    "tag": "TRECHO DIFÍCIL",
+    "txt": "MEDO DO <b>APOCALIPSE?</b>",
+    "sub": "Leia assim e o medo passa"
+   },
+   {
+    "l": "cena",
+    "grav": "100",
+    "foco": [
+     0.55,
+     0.4
+    ],
+    "zoom": 0.5,
+    "pos": "topo",
+    "rot": "O TRECHO QUE ASSUSTA",
+    "txt": "UM CAVALO AMARELO, E O CAVALEIRO <b>SE CHAMAVA MORTE</b>",
+    "ref": "Apocalipse 6:8",
+    "fs": 96
+   },
+   {
+    "l": "frase",
+    "rot": "POR QUE TRAVA",
+    "cor": "ap",
+    "txt": "Bestas, números, selos, trombetas... parece um quebra-cabeça sem tampa."
+   },
+   {
+    "l": "cartoes",
+    "rot": "O CONTEXTO",
+    "cor": "ap",
+    "titulo": "Pra quem foi escrito",
+    "itens": [
+     [
+      "Uma carta",
+      "às 7 igrejas da Ásia · Ap 1:4"
+     ],
+     [
+      "Gente perseguida",
+      "que precisava de esperança"
+     ],
+     [
+      "Linguagem de símbolos",
+      "o próprio livro explica alguns · Ap 1:20"
+     ]
+    ]
+   },
+   {
+    "l": "divide",
+    "a_rot": "O ERRO COMUM",
+    "a": "Ler como um filme de terror sobre o fim do mundo.",
+    "b_rot": "O JEITO CERTO",
+    "b": "Ler como carta de consolo: no final, Deus vence."
+   },
+   {
+    "l": "versiculo",
+    "txt": "Deus enxugará dos seus olhos toda lágrima.",
+    "ref": "APOCALIPSE 21:4",
+    "fs": 92
+   },
+   {
+    "l": "carimbo",
+    "carimbo": "APOCALIPSE<br>SEM MEDO",
+    "txt": "Salva pro dia que você chegar no último livro.",
+    "cta": "Manda pra quem tem medo"
+   }
+  ]
+ },
+ "09-quem-sou-eu-paulo": {
+  "linha": "Passaporte do Personagem",
+  "produto": "Quem Sou Eu? Bíblico",
+  "telas": [
+   {
+    "l": "capa",
+    "grav": "095",
+    "foco": [
+     0.5,
+     0.55
+    ],
+    "zoom": 0.62,
+    "tag": "QUEM SOU EU?",
+    "txt": "ELE <b>CAIU</b>. QUEM É?",
+    "sub": "3 dicas, resposta no fim"
+   },
+   {
+    "l": "dica",
+    "grav": "094",
+    "foco": [
+     0.5,
+     0.5
+    ],
+    "n": "1",
+    "txt": "Eu perseguia os cristãos de casa em casa.",
+    "ref": "a resposta está na tela 6"
+   },
+   {
+    "l": "frase",
+    "rot": "DICA 2",
+    "cor": "noite",
+    "txt": "Eu estava lá quando Estêvão foi apedrejado. Guardei as roupas de quem atirava as pedras.",
+    "fs": 68
+   },
+   {
+    "l": "dica",
+    "grav": "095",
+    "foco": [
+     0.5,
+     0.3
+    ],
+    "zoom": 0.6,
+    "n": "3",
+    "txt": "No caminho de Damasco, uma luz do céu me derrubou."
+   },
+   {
+    "l": "numero",
+    "rot": "ÚLTIMA CHANCE",
+    "n": "?",
+    "cor": "cartas",
+    "txt": "Já sabe quem é?",
+    "sub": "Escreve nos comentários antes de arrastar."
+   },
+   {
+    "l": "revela",
+    "grav": "095",
+    "foco": [
+     0.5,
+     0.6
+    ],
+    "nome": "SAULO",
+    "selo": "VIROU<br>PAULO",
+    "linhas": [
+     "Perseguidor que virou apóstolo · At 9",
+     "13 cartas do Novo Testamento levam o nome dele",
+     "Levou a mensagem a cidades do mundo romano"
+    ]
+   },
+   {
+    "l": "versiculo",
+    "rot": "A LIÇÃO",
+    "txt": "Pela graça de Deus sou o que sou.",
+    "ref": "1 CORÍNTIOS 15:10",
+    "fs": 92
+   },
+   {
+    "l": "carimbo",
+    "carimbo": "PAULO<br>REVELADO",
+    "txt": "Vídeo completo: “ELE CAIU”, no YouTube.",
+    "cta": "Link na bio"
+   }
+  ]
+ },
+ "10-jonas-explicado": {
+  "linha": "Destino da Semana",
+  "produto": "Passaporte da Bíblia (página do livro)",
+  "telas": [
+   {
+    "l": "capa",
+    "grav": "099",
+    "foco": [
+     0.45,
+     0.5
+    ],
+    "zoom": 0.7,
+    "tag": "DESTINO DA SEMANA",
+    "txt": "JONAS <b>FUGIU</b> DE DEUS",
+    "sub": "O livro inteiro em 8 telas"
+   },
+   {
+    "l": "bilhete",
+    "cor": "pme",
+    "n": "32/66",
+    "livro": "JONAS",
+    "linhas": [
+     [
+      "REGIÃO",
+      "Profetas Menores"
+     ],
+     [
+      "CAPÍTULOS",
+      "4"
+     ],
+     [
+      "DESTINO",
+      "Nínive"
+     ],
+     [
+      "LEITURA",
+      "uns 10 minutos"
+     ]
+    ]
+   },
+   {
+    "l": "frase",
+    "rot": "EM 1 FRASE",
+    "cor": "pme",
+    "txt": "O profeta que fugiu de Deus e ficou bravo porque Deus perdoou os inimigos."
+   },
+   {
+    "l": "lista",
+    "rot": "O ROTEIRO",
+    "cor": "pme",
+    "titulo": "6 paradas",
+    "itens": [
+     [
+      "Foge pra Társis",
+      "Jn 1:3"
+     ],
+     [
+      "É jogado ao mar",
+      "Jn 1:15"
+     ],
+     [
+      "3 dias no grande peixe",
+      "Jn 1:17"
+     ],
+     [
+      "Prega em Nínive",
+      "Jn 3:4"
+     ],
+     [
+      "A cidade se arrepende",
+      "Jn 3:10"
+     ],
+     [
+      "Jonas fica bravo",
+      "Jn 4"
+     ]
+    ]
+   },
+   {
+    "l": "cena",
+    "grav": "054",
+    "foco": [
+     0.5,
+     0.45
+    ],
+    "zoom": 0.85,
+    "rot": "A VIRADA",
+    "txt": "A CIDADE INIMIGA <b>SE ARREPENDE</b>",
+    "ref": "Jonas 3:10"
+   },
+   {
+    "l": "divide",
+    "a_rot": "O QUE TODO MUNDO LEMBRA",
+    "a": "A história do peixe.",
+    "b_rot": "DO QUE O LIVRO FALA",
+    "b": "Da misericórdia de Deus, que alcança até quem a gente não gosta.",
+    "x": "MAS"
+   },
+   {
+    "l": "versiculo",
+    "txt": "Eu sabia que és Deus clemente e misericordioso, tardio em irar-se e grande em bondade.",
+    "ref": "JONAS 4:2",
+    "fs": 64
+   },
+   {
+    "l": "carimbo",
+    "carimbo": "JONAS<br>CARIMBADO",
+    "txt": "Leu Jonas? São só 4 capítulos.",
+    "cta": "Comenta ROTA"
+   }
+  ]
+ }
+}
