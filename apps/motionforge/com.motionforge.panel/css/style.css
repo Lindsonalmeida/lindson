@@ -1,0 +1,12 @@
+body{background:#232323;color:#ddd;font:12px system-ui,sans-serif;margin:0;padding:8px}
+nav{display:flex;gap:4px;margin-bottom:10px}
+nav button{flex:1}
+button,input,select,textarea{background:#333;color:#eee;border:1px solid #444;border-radius:4px;padding:6px;font:inherit}
+input,select,textarea{width:100%;box-sizing:border-box;margin-bottom:8px}
+button{cursor:pointer}
+button.active,button.primary{background:#2d6cdf;border-color:#2d6cdf}
+.tab{display:none}.tab.active{display:block}
+label{display:block;margin:4px 0;color:#aaa}
+.presets{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:8px}
+#status{margin-top:10px;white-space:pre-wrap}
+progress{width:100%}

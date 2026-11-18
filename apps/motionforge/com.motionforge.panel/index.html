@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>MotionForge</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <button data-tab="bg" class="active">Fundo</button>
+    <button data-tab="anim">Animar</button>
+    <button data-tab="gen">Gerar</button>
+    <button data-tab="cfg">Config</button>
+  </nav>
+
+  <section id="bg" class="tab active">
+    <p>Selecione uma camada e remova o fundo (local, via rembg).</p>
+    <button id="btnBg" class="primary">Remover fundo</button>
+  </section>
+
+  <section id="anim" class="tab">
+    <label>Prompt de movimento</label>
+    <textarea id="animPrompt" rows="4" placeholder="câmera aproxima devagar, pessoa sorri"></textarea>
+    <div class="presets">
+      <button data-p="zoom lento in, movimento suave">Zoom lento</button>
+      <button data-p="câmera orbita ao redor do produto">Órbita</button>
+      <button data-p="produto gira 360 graus, fundo estático">Giro 360°</button>
+      <button data-p="pessoa sorri e acena para a câmera">Acenar</button>
+    </div>
+    <label>Duração</label>
+    <select id="animDur"><option value="5">5s</option><option value="10">10s</option></select>
+    <label>Modelo (ID do fal.ai)</label>
+    <input id="animModel" value="fal-ai/kling-video/v2.1/standard/image-to-video">
+    <button id="btnAnim" class="primary">Animar camada</button>
+  </section>
+
+  <section id="gen" class="tab">
+    <label>Prompt</label>
+    <textarea id="genPrompt" rows="4"></textarea>
+    <label>Modelo (ID do fal.ai)</label>
+    <input id="genModel" value="fal-ai/flux/schnell">
+    <button id="btnGen" class="primary">Gerar imagem</button>
+  </section>
+
+  <section id="cfg" class="tab">
+    <label>Chave fal.ai (FAL_KEY)</label>
+    <input id="cfgKey" type="password">
+    <label>Python (caminho)</label>
+    <input id="cfgPy" placeholder="python3">
+    <label>Modelo rembg</label>
+    <input id="cfgRembg" placeholder="birefnet-general">
+    <button id="btnSave">Salvar</button>
+  </section>
+
+  <div id="status"></div>
+  <progress id="prog" hidden></progress>
+
+  <script src="js/CSInterface.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
