@@ -4,14 +4,15 @@
 "titulo": "Abertura do perfil v4: foto gerada por IA, só tipografia por cima",
 "data": "18/11/2026",
 "linha": "Marketing v2",
-"st": "aguardando",
+"st": "reprovado",
 "img": "/painel/mova-street/marketing-v2/feed-abertura-v4/previa-grade.jpg",
 "telas": [
 "/painel/mova-street/marketing-v2/feed-abertura-v4/painel-inteiro.jpg",
 "/painel/mova-street/marketing-v2/feed-abertura-v4/post-01.jpg",
 "/painel/mova-street/marketing-v2/feed-abertura-v4/post-02.jpg",
 "/painel/mova-street/marketing-v2/feed-abertura-v4/post-03.jpg"
-]
+],
+"nota": "imagem com erros (passageiro na frente, tela só com QR)"
 },
 {
 "t": "Feed · 3 artes",
