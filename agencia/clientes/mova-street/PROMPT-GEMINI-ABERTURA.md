@@ -1,12 +1,14 @@
-# Mova Street · prompt do Gemini para a abertura do feed (conta Leandro, 18/11/2026)
-Lindson gera no Gemini (regra 16/11) e manda o arquivo. A equipe só aplica a tipografia fina e a logo vetorial por cima (nunca monta foto com foto).
+# Mova Street · prompt do Gemini para a abertura do feed · v2 (conta Leandro, 18/11/2026)
+A v1 do prompt gerou erros (passageiro no banco da frente, tela virada para a câmera e presa ao lado do encosto, tela só com QR, carro sem lógica). Conferir com agencia/processos/conferencia-imagem-ia.md antes de usar.
 
-## Prompt (formato 21:9 panorâmico, a maior resolução possível)
-Fotografia publicitária cinematográfica, panorâmica 21:9, interior de um sedã executivo preto à noite em uma cidade litorânea tropical brasileira, visto do banco de trás.
-No centro exato da imagem: uma tela digital de 10 polegadas, moldura fina de alumínio escovado, fixada no encosto de cabeça do banco do motorista, em perspectiva leve de 3/4, nítida e grande (cerca de 1/3 da altura da imagem). A tela está acesa exibindo um anúncio simples: fundo laranja vibrante (#FF5A1F) e um grande QR code branco no centro, sem nenhum outro texto. A luz laranja da tela ilumina suavemente o couro preto do encosto.
-À esquerda: um passageiro brasileiro de 35 anos, camisa social escura, sentado no banco de trás, de perfil voltado para a tela, segurando o celular apontado para o QR code; o rosto e as mãos levemente iluminados pelo laranja da tela; expressão natural e interessada; busto para cima, nítido.
-À direita: a janela traseira mostrando a orla de São Luís à noite em bokeh suave (luzes âmbar de postes, palmeiras, reflexo no mar), espaço escuro e limpo na metade superior direita para texto.
-Estilo: luxo tecnológico, tons de preto profundo, couro, aço e laranja; luz baixa e rasante, contraste alto, grão fino de filme, lente 35 mm, f/1.8, profundidade de campo rasa no fundo, tudo coerente na mesma luz (uma única cena real, sem colagem).
-Proibido: logotipos, marcas, letras ou palavras em qualquer lugar (inclusive na tela), placas legíveis, mãos deformadas, texto inventado.
+## Prompt (21:9)
+Fotografia publicitária realista, panorâmica 21:9, de dentro de um carro sedã preto de aplicativo à noite, no Brasil (volante à esquerda).
+Câmera: posicionada no centro do banco de trás, um pouco atrás e ao lado do passageiro, olhando para a frente, na altura dos olhos.
+Cena: os dois bancos da frente aparecem de costas para a câmera. No banco da frente do lado direito (carona, vazio), presa NO CENTRO DA PARTE DE TRÁS do encosto de cabeça, por um suporte de alumínio, há uma tela digital de 10 polegadas, do tamanho da largura do encosto, virada para trás, de frente para o banco de trás.
+O passageiro está SENTADO NO BANCO DE TRÁS, lado direito, logo atrás dessa tela: homem brasileiro de 35 anos, camisa social escura, visto de perfil 3/4 pelo lado esquerdo da imagem, olhando para a tela à frente dele e segurando o celular com as duas mãos, com a câmera traseira do celular apontada para a tela (a tela do celular virada para ele).
+A tela exibe um anúncio de uma loja local: fundo laranja vibrante, a frase grande em português "SUA MARCA AQUI", abaixo a frase menor "Aponte a câmera e fale no WhatsApp" e um QR code branco no canto inferior direito. Letras corretas, sem erros de ortografia.
+Pelo para-brisa e pelas janelas: avenida litorânea de São Luís à noite em bokeh suave (postes âmbar, palmeiras, mar escuro), com espaço escuro e limpo no alto à direita para texto.
+Estilo: luxo tecnológico, couro preto, detalhes em aço escovado, a luz laranja da tela iluminando o rosto e as mãos do passageiro; contraste alto, grão fino de filme, lente 35 mm f/2; uma cena real e coerente.
+Proibido: pessoa no banco do motorista mexendo no celular, tela flutuando ao lado do encosto, logotipos de marcas reais, texto além do pedido, mãos deformadas, placas legíveis.
 
-## Se o 21:9 cortar a cena, gere em 16:9 com o mesmo prompt (a equipe recorta para 3240×1350).
+## Se o 21:9 sair estranho, gerar em 16:9 com o mesmo prompt.
