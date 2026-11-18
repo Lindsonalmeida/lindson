@@ -1,0 +1,14 @@
+{
+  "name": "motionforge-dev",
+  "private": true,
+  "description": "Ferramentas de desenvolvimento do MotionForge (não vão para o .zxp).",
+  "scripts": {
+    "test": "node --test --test-timeout=120000 com.motionforge.panel/tests/*.test.js",
+    "lint": "eslint com.motionforge.panel",
+    "check": "npm run lint && npm test"
+  },
+  "devDependencies": {
+    "eslint": "9.39.1",
+    "globals": "16.5.0"
+  }
+}

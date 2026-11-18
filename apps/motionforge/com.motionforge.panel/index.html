@@ -2,60 +2,271 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>MotionForge</title>
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <nav>
-    <button data-tab="bg" class="active">Fundo</button>
-    <button data-tab="anim">Animar</button>
-    <button data-tab="gen">Gerar</button>
-    <button data-tab="cfg">Config</button>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="gEmber" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF7A45"/><stop offset="1" stop-color="#FF3D6E"/></linearGradient>
+    <symbol id="i-cut" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="4" stroke-dasharray="2.2 2.6"/><circle cx="12" cy="10" r="3"/><path d="M6.5 19c.8-3 3-4.6 5.5-4.6s4.7 1.6 5.5 4.6"/></symbol>
+    <symbol id="i-anim" viewBox="0 0 24 24"><rect x="3" y="5" width="13" height="14" rx="2.5"/><path d="M16 10.5l5-3v9l-5-3"/><path d="M8 10l3 2-3 2z" class="fill"/></symbol>
+    <symbol id="i-gen" viewBox="0 0 24 24"><path d="M12 3l1.8 4.7L18.5 9.5l-4.7 1.8L12 16l-1.8-4.7L5.5 9.5l4.7-1.8z"/><path d="M18.5 15.5l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8z"/></symbol>
+    <symbol id="i-hist" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="7" height="7" rx="1.8"/><rect x="13.5" y="3.5" width="7" height="7" rx="1.8"/><rect x="3.5" y="13.5" width="7" height="7" rx="1.8"/><rect x="13.5" y="13.5" width="7" height="7" rx="1.8"/></symbol>
+    <symbol id="i-cfg" viewBox="0 0 24 24"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2.2"/><circle cx="10" cy="17" r="2.2"/></symbol>
+    <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M20 12a8 8 0 1 1-2.4-5.7"/><path d="M20 4v4.5h-4.5"/></symbol>
+    <symbol id="i-layer" viewBox="0 0 24 24"><path d="M12 4l8.5 4.5L12 13 3.5 8.5z"/><path d="M3.5 12.5L12 17l8.5-4.5"/><path d="M3.5 16.5L12 21l8.5-4.5"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+    <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12z"/><circle cx="12" cy="12" r="3"/></symbol>
+    <symbol id="i-folder" viewBox="0 0 24 24"><path d="M3.5 7.5a2 2 0 0 1 2-2h4l2 2.2h7a2 2 0 0 1 2 2v7.8a2 2 0 0 1-2 2h-13a2 2 0 0 1-2-2z"/></symbol>
+    <symbol id="i-import" viewBox="0 0 24 24"><path d="M12 4v10M7.5 9.5L12 14l4.5-4.5"/><path d="M4.5 15.5v2a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2v-2"/></symbol>
+    <symbol id="i-trash" viewBox="0 0 24 24"><path d="M5 7h14M10 7V5h4v2M7 7l.8 11.2a2 2 0 0 0 2 1.8h4.4a2 2 0 0 0 2-1.8L17 7"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-alert" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7.5v5.5M12 16.2v.3"/></symbol>
+    <symbol id="i-chev" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></symbol>
+  </defs>
+</svg>
+
+<div class="app" id="app">
+  <header class="top">
+    <div class="brand">
+      <svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="url(#gEmber)"/><path d="M8 22V10l8 7 8-7v12" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <div class="brand-txt"><b>MotionForge</b><small>IA dentro do After Effects</small></div>
+    </div>
+    <button class="prov" id="provPill" title="Provedor ativo (troque em Config)"><i class="dot"></i><span id="provName">fal.ai</span></button>
+  </header>
+
+  <section class="layer" id="layerCard">
+    <div class="thumb checker" id="thumb"><img id="thumbImg" alt=""><svg class="ph"><use href="#i-layer"/></svg></div>
+    <div class="layer-meta">
+      <div class="layer-name" id="layerName">Nenhuma camada</div>
+      <div class="layer-sub" id="layerSub">Selecione uma camada na composição</div>
+    </div>
+    <button class="icon-btn" id="btnRefresh" title="Atualizar prévia"><svg><use href="#i-refresh"/></svg></button>
+  </section>
+
+  <nav class="tabs" role="tablist" id="tabs">
+    <i class="tab-ind" id="tabInd"></i>
+    <button role="tab" data-tab="bg" class="on"><svg><use href="#i-cut"/></svg><span>Fundo</span></button>
+    <button role="tab" data-tab="anim"><svg><use href="#i-anim"/></svg><span>Animar</span></button>
+    <button role="tab" data-tab="gen"><svg><use href="#i-gen"/></svg><span>Gerar</span></button>
+    <button role="tab" data-tab="hist"><svg><use href="#i-hist"/></svg><span>Histórico</span></button>
+    <button role="tab" data-tab="cfg"><svg><use href="#i-cfg"/></svg><span>Config</span></button>
   </nav>
 
-  <section id="bg" class="tab active">
-    <p>Selecione uma camada e remova o fundo (local, via rembg).</p>
-    <button id="btnBg" class="primary">Remover fundo</button>
-  </section>
+  <main class="views">
+    <!-- ============ REMOVER FUNDO ============ -->
+    <section class="view on" id="view-bg">
+      <div class="field">
+        <label>Motor</label>
+        <div class="seg" data-key="bgEngine">
+          <button data-v="local">Local · grátis</button>
+          <button data-v="cloud">Nuvem</button>
+        </div>
+      </div>
+      <div class="field" id="bgLocalBox">
+        <label for="bgLocalModel">Modelo rembg</label>
+        <select id="bgLocalModel">
+          <option value="birefnet-general">BiRefNet geral · melhor borda</option>
+          <option value="birefnet-portrait">BiRefNet retrato · cabelo e pele</option>
+          <option value="birefnet-general-lite">BiRefNet lite · mais rápido</option>
+          <option value="isnet-general-use">ISNet · objetos e produtos</option>
+          <option value="u2net">U²-Net · clássico</option>
+          <option value="u2netp">U²-Net P · leve (teste)</option>
+          <option value="u2net_human_seg">U²-Net pessoas</option>
+        </select>
+      </div>
+      <div class="field" id="bgCloudBox" hidden>
+        <label for="bgCloudModel">Modelo na nuvem</label>
+        <select id="bgCloudModel"></select>
+      </div>
+      <div class="field">
+        <label>Resultado</label>
+        <div class="seg" data-key="bgInsert">
+          <button data-v="dup">Nova camada acima</button>
+          <button data-v="replace">Trocar a fonte</button>
+        </div>
+        <p class="hint" id="bgInsertHint">Duplica a camada com as mesmas animações e efeitos, já sem fundo.</p>
+      </div>
+      <div class="toggles">
+        <label class="tg"><input type="checkbox" id="hideOriginal"><i></i><span>Ocultar a camada original</span></label>
+        <label class="tg"><input type="checkbox" id="isolateLayer"><i></i><span>Exportar só a camada selecionada</span></label>
+      </div>
+      <div class="callout" id="bgVideoNote" hidden>
+        <svg><use href="#i-anim"/></svg>
+        <p><b>Vídeo detectado.</b> <span id="bgVideoText">O recorte é feito frame a frame (ffmpeg + rembg) e volta como sequência PNG com alpha, alinhada à camada.</span></p>
+      </div>
+    </section>
 
-  <section id="anim" class="tab">
-    <label>Prompt de movimento</label>
-    <textarea id="animPrompt" rows="4" placeholder="câmera aproxima devagar, pessoa sorri"></textarea>
-    <div class="presets">
-      <button data-p="zoom lento in, movimento suave">Zoom lento</button>
-      <button data-p="câmera orbita ao redor do produto">Órbita</button>
-      <button data-p="produto gira 360 graus, fundo estático">Giro 360°</button>
-      <button data-p="pessoa sorri e acena para a câmera">Acenar</button>
+    <!-- ============ ANIMAR ============ -->
+    <section class="view" id="view-anim">
+      <div class="source" id="animSource">
+        <span class="source-k">Imagem</span>
+        <span class="source-v" id="animSourceName">camada selecionada</span>
+        <button class="chip-x" id="animSourceClear" hidden title="Voltar para a camada selecionada"><svg><use href="#i-x"/></svg></button>
+      </div>
+      <div class="field">
+        <label for="animPrompt">Movimento <span class="count" id="animCount">0</span></label>
+        <textarea id="animPrompt" rows="4" placeholder="Ex.: câmera aproxima devagar enquanto a pessoa sorri e olha para a lente"></textarea>
+        <div class="chips" id="animPresets">
+          <button data-p="slow cinematic push-in, subtle parallax, smooth motion">Zoom lento</button>
+          <button data-p="camera slowly orbits around the subject, steady, cinematic">Órbita</button>
+          <button data-p="product rotates 360 degrees on a turntable, static background, studio light">Giro 360°</button>
+          <button data-p="the person smiles warmly and waves at the camera, natural movement">Sorri e acena</button>
+          <button data-p="gentle wind moves hair and clothes, soft natural light, subtle motion">Vento suave</button>
+          <button data-p="slow dolly out revealing the scene, cinematic, smooth">Revelar</button>
+          <button data-p="handheld camera, slight natural shake, documentary feel">Câmera na mão</button>
+          <button data-p="liquid splash and particles burst around the product, high speed, dramatic light">Splash</button>
+        </div>
+      </div>
+      <div class="row2">
+        <div class="field">
+          <label>Duração</label>
+          <div class="seg sm" id="animDur"></div>
+        </div>
+        <div class="field">
+          <label for="animModel">Modelo</label>
+          <select id="animModel"></select>
+        </div>
+      </div>
+      <details class="adv">
+        <summary><svg><use href="#i-chev"/></svg>Avançado</summary>
+        <div class="field" data-uses="negative">
+          <label for="animNeg">Evitar (negativo)</label>
+          <input id="animNeg" placeholder="blur, distort, low quality">
+        </div>
+        <div class="row2">
+          <div class="field" data-uses="seed"><label for="animSeed">Seed</label><input id="animSeed" inputmode="numeric" placeholder="aleatória"></div>
+          <div class="field" data-uses="audio"><label>Áudio</label><label class="tg"><input type="checkbox" id="generateAudio"><i></i><span>Gerar som</span></label></div>
+        </div>
+      </details>
+    </section>
+
+    <!-- ============ GERAR ============ -->
+    <section class="view" id="view-gen">
+      <div class="field">
+        <label for="genPrompt">Descreva a imagem <span class="count" id="genCount">0</span></label>
+        <textarea id="genPrompt" rows="4" placeholder="Ex.: pizza artesanal fumegante sobre mesa de madeira escura, luz lateral quente, fotografia de produto 85 mm"></textarea>
+      </div>
+      <div class="field" data-uses="negative" id="genNegBox">
+        <label for="genNeg">Evitar (negativo)</label>
+        <input id="genNeg" placeholder="texto, marca d'água, desfocado">
+      </div>
+      <div class="field">
+        <label>Proporção</label>
+        <div class="seg sm" id="genAspect">
+          <button data-v="comp">Comp</button><button data-v="16:9">16:9</button><button data-v="9:16">9:16</button><button data-v="1:1">1:1</button><button data-v="4:5">4:5</button>
+        </div>
+      </div>
+      <div class="row2">
+        <div class="field"><label for="genModel">Modelo</label><select id="genModel"></select></div>
+        <div class="field"><label for="genSeed">Seed</label><input id="genSeed" inputmode="numeric" placeholder="aleatória"></div>
+      </div>
+      <div class="result" id="genResult" hidden>
+        <div class="result-img checker"><img id="genResultImg" alt=""></div>
+        <div class="result-actions">
+          <button class="ghost" id="genAnimate"><svg><use href="#i-anim"/></svg>Animar esta</button>
+          <button class="ghost" id="genReimport"><svg><use href="#i-import"/></svg>Importar de novo</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ HISTÓRICO ============ -->
+    <section class="view" id="view-hist">
+      <div class="hist-head">
+        <div class="chips sm" id="histFilter">
+          <button data-f="all" class="on">Tudo</button><button data-f="bg">Fundo</button><button data-f="anim">Vídeo</button><button data-f="gen">Imagem</button>
+        </div>
+        <button class="icon-btn" id="histFolder" title="Abrir pasta de saída"><svg><use href="#i-folder"/></svg></button>
+      </div>
+      <div class="grid" id="histGrid"></div>
+      <div class="empty" id="histEmpty" hidden>
+        <svg><use href="#i-hist"/></svg>
+        <b>Nada gerado ainda</b>
+        <p>Tudo o que o painel criar aparece aqui. Clique num item para importar de novo.</p>
+      </div>
+    </section>
+
+    <!-- ============ CONFIG ============ -->
+    <section class="view" id="view-cfg">
+      <div class="group">
+        <h3>Provedor de IA</h3>
+        <div class="seg" data-key="provider">
+          <button data-v="fal">fal.ai</button><button data-v="replicate">Replicate</button><button data-v="comfy">ComfyUI local</button>
+        </div>
+        <div class="field" data-prov="fal">
+          <label for="falKey">Chave do fal.ai</label>
+          <div class="input-act"><input id="falKey" type="password" autocomplete="off" spellcheck="false" placeholder="cole aqui (fal.ai/dashboard/keys)"><button class="icon-btn" data-reveal="falKey" title="Mostrar"><svg><use href="#i-eye"/></svg></button></div>
+          <div class="act-row"><button class="ghost sm" id="testFal">Testar chave</button><span class="stat" id="falStat"></span></div>
+        </div>
+        <div class="field" data-prov="replicate">
+          <label for="replicateKey">Token do Replicate</label>
+          <div class="input-act"><input id="replicateKey" type="password" autocomplete="off" spellcheck="false" placeholder="r8_… (replicate.com/account/api-tokens)"><button class="icon-btn" data-reveal="replicateKey" title="Mostrar"><svg><use href="#i-eye"/></svg></button></div>
+          <div class="act-row"><button class="ghost sm" id="testRep">Testar token</button><span class="stat" id="repStat"></span></div>
+        </div>
+        <div class="field" data-prov="comfy">
+          <label for="comfyUrl">URL do ComfyUI</label>
+          <input id="comfyUrl" spellcheck="false" placeholder="http://127.0.0.1:8188">
+          <div class="act-row"><button class="ghost sm" id="testComfy">Testar conexão</button><span class="stat" id="comfyStat"></span></div>
+          <label for="wfI2v">Workflow imagem→vídeo (opcional, formato API)</label>
+          <input id="wfI2v" spellcheck="false" placeholder="padrão: comfy/wan21-i2v-api.json">
+          <label for="wfT2i">Workflow gerar imagem (opcional, formato API)</label>
+          <input id="wfT2i" spellcheck="false" placeholder="padrão: comfy/sdxl-t2i-api.json">
+        </div>
+        <p class="hint">As chaves ficam só neste computador, em <code id="cfgPath"></code>.</p>
+      </div>
+
+      <div class="group">
+        <h3>Ferramentas locais</h3>
+        <div class="field">
+          <label for="python">Python</label>
+          <input id="python" spellcheck="false" placeholder="automático (py / python)">
+          <div class="act-row"><button class="ghost sm" id="testPy">Detectar e testar rembg</button><span class="stat" id="pyStat"></span></div>
+        </div>
+        <div class="field">
+          <label for="ffmpeg">ffmpeg (para vídeo)</label>
+          <input id="ffmpeg" spellcheck="false" placeholder="automático (ffmpeg no PATH)">
+          <div class="act-row"><button class="ghost sm" id="testFf">Testar ffmpeg</button><span class="stat" id="ffStat"></span></div>
+        </div>
+        <div class="field">
+          <label for="outDir">Pasta de saída</label>
+          <div class="input-act"><input id="outDir" spellcheck="false"><button class="icon-btn" id="openOut" title="Abrir"><svg><use href="#i-folder"/></svg></button></div>
+        </div>
+      </div>
+
+      <div class="group">
+        <h3>Modelos extras</h3>
+        <p class="hint">Lista JSON para acrescentar ou trocar modelos sem mexer no código. Ex.: <code>[{"provider":"fal","kind":"i2v","id":"fal-ai/…/image-to-video","label":"Meu modelo","durations":[5,10],"input":{"image_url":"{{image}}","prompt":"{{prompt}}","duration":"{{duration:str}}"}}]</code></p>
+        <textarea id="customModels" rows="4" spellcheck="false" class="mono" placeholder="[]"></textarea>
+        <span class="stat" id="cmStat"></span>
+      </div>
+
+      <div class="group about">
+        <span>MotionForge <b id="ver">1.0.0</b></span>
+        <button class="ghost sm" id="openLogs">Abrir logs</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="dock" id="dock">
+    <div class="job" id="job" hidden>
+      <div class="job-row">
+        <span class="spin"></span>
+        <span class="job-text" id="jobText">Preparando…</span>
+        <span class="job-time" id="jobTime">0:00</span>
+        <button class="cancel" id="btnCancel">Cancelar</button>
+      </div>
+      <div class="bar" id="bar"><i id="barFill"></i></div>
     </div>
-    <label>Duração</label>
-    <select id="animDur"><option value="5">5s</option><option value="10">10s</option></select>
-    <label>Modelo (ID do fal.ai)</label>
-    <input id="animModel" value="fal-ai/kling-video/v2.1/standard/image-to-video">
-    <button id="btnAnim" class="primary">Animar camada</button>
-  </section>
+    <div class="cost" id="cost"></div>
+    <button class="cta" id="cta"><span id="ctaLabel">Remover fundo</span><kbd>Ctrl ↵</kbd></button>
+  </footer>
 
-  <section id="gen" class="tab">
-    <label>Prompt</label>
-    <textarea id="genPrompt" rows="4"></textarea>
-    <label>Modelo (ID do fal.ai)</label>
-    <input id="genModel" value="fal-ai/flux/schnell">
-    <button id="btnGen" class="primary">Gerar imagem</button>
-  </section>
+  <div class="toasts" id="toasts"></div>
+</div>
 
-  <section id="cfg" class="tab">
-    <label>Chave fal.ai (FAL_KEY)</label>
-    <input id="cfgKey" type="password">
-    <label>Python (caminho)</label>
-    <input id="cfgPy" placeholder="python3">
-    <label>Modelo rembg</label>
-    <input id="cfgRembg" placeholder="birefnet-general">
-    <button id="btnSave">Salvar</button>
-  </section>
-
-  <div id="status"></div>
-  <progress id="prog" hidden></progress>
-
-  <script src="js/CSInterface.js"></script>
-  <script src="js/main.js"></script>
+<script src="js/CSInterface.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>

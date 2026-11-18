@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Depuração remota: com o AE aberto, acesse http://localhost:8088 no Chrome. Pode apagar este arquivo em produção. -->
+<ExtensionList>
+  <Extension Id="com.motionforge.panel.main">
+    <HostList><Host Name="AEFT" Port="8088"/></HostList>
+  </Extension>
+</ExtensionList>
