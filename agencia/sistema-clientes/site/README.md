@@ -128,3 +128,5 @@ Use `npx wrangler@3 pages dev publico --kv CONTAS` com um `.dev.vars` (fora do G
 - A foto do Lindson na tela de acesso só entra se `fotos/principal-*.webp` estiver na máquina que monta o site. Para gerar, use `prototipo/tratar-foto.py` com a foto original (fora do Git). O site montado em 01/11 já tem a foto embutida.
 
 **Atenção (13/11/2026, conta Pedro):** o `painel/admin.html` no ar tem partes que não estão nesta fonte: a aba SDR com o card do robô (Pausar/Ligar) e "Minha direção" (`/painel/direcao`). Antes de remontar o admin com o `montar-site.py`, leve essas partes do privado para `admin-sistema.js`, senão elas somem. No admin, a variável do robô se chama `ROBO`: `R` já é usada pela rede social, e repetir esse nome trava o painel inteiro.
+
+**Atenção (18/11/2026, conta Leandro):** o `painel/admin.html` no ar ganhou no menu lateral (grupo Clientes, depois de Canais dark) o atalho **MotionForge · IA** → `/painel/motionforge`. Ao remontar o admin, mantenha esse link.
