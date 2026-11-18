@@ -75,10 +75,35 @@
 },
 {
 "t": "PDF",
-"titulo": "Apresentação comercial v1 (14 p.)",
+"titulo": "Apresentação comercial v2 (14 p.): tabela oficial do Paulo, luxo clean",
 "data": "18/11/2026",
 "linha": "Comercial",
 "st": "aguardando",
+"arq": "/painel/mova-street/apresentacao-v2/mova-street-apresentacao-v2.pdf",
+"img": "/painel/mova-street/apresentacao-v2/01.jpg",
+"telas": [
+"/painel/mova-street/apresentacao-v2/02.jpg",
+"/painel/mova-street/apresentacao-v2/03.jpg",
+"/painel/mova-street/apresentacao-v2/04.jpg",
+"/painel/mova-street/apresentacao-v2/05.jpg",
+"/painel/mova-street/apresentacao-v2/06.jpg",
+"/painel/mova-street/apresentacao-v2/07.jpg",
+"/painel/mova-street/apresentacao-v2/08.jpg",
+"/painel/mova-street/apresentacao-v2/09.jpg",
+"/painel/mova-street/apresentacao-v2/10.jpg",
+"/painel/mova-street/apresentacao-v2/11.jpg",
+"/painel/mova-street/apresentacao-v2/12.jpg",
+"/painel/mova-street/apresentacao-v2/13.jpg",
+"/painel/mova-street/apresentacao-v2/14.jpg"
+],
+"nota": "pacote 10 telas por 30 dias a partir de R$ 1.600/1.800/2.000; adesivo até R$ 450; exclusividade 6 meses +50%"
+},
+{
+"t": "PDF",
+"titulo": "Apresentação comercial v1 (14 p.) · substituída pela v2",
+"data": "18/11/2026",
+"linha": "Comercial",
+"st": "reprovado",
 "arq": "/painel/mova-street/apresentacao-v1/mova-street-apresentacao-v1.pdf",
 "img": "/painel/mova-street/apresentacao-v1/01.jpg",
 "telas": [
@@ -95,7 +120,8 @@
 "/painel/mova-street/apresentacao-v1/12.jpg",
 "/painel/mova-street/apresentacao-v1/13.jpg",
 "/painel/mova-street/apresentacao-v1/14.jpg"
-]
+],
+"nota": "substituída pela v2: preços antigos (por tela/combo de 5) e fotos montadas"
 },
 {
 "t": "PDF",
