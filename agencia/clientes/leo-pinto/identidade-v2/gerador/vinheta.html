@@ -1,0 +1,33 @@
+<!doctype html><meta charset="utf-8">
+<!-- Vinheta do logo, 6 s, 1080x1920 (conta Pedro, 18/11/2026). Ref: abertura Aston Martin (preto, linha que se abre, marca firme). -->
+<style>
+@font-face{font-family:Barlow;src:url(../assets/fontes/BarlowCondensed-800.ttf);font-weight:800}
+@font-face{font-family:Cinzel;src:url(../assets/fontes/Cinzel-500.ttf);font-weight:500}
+*{margin:0;padding:0}body{width:1080px;height:1920px;background:#08090C;overflow:hidden;position:relative}
+#glow{position:absolute;left:0;right:0;top:0;bottom:0}
+#hz{position:absolute;top:1030px;left:540px;height:4px;background:#FFC20E;width:0}
+#sol{position:absolute;left:390px;width:300px;top:1030px;clip-path:inset(0 0 0 0)}
+#solw{position:absolute;left:0;right:0;top:0;height:1032px;overflow:hidden}
+#logo{position:absolute;left:190px;top:700px;width:700px;opacity:0}
+#tag{position:absolute;left:0;right:0;top:1290px;text-align:center;font:800 92px Barlow;text-transform:uppercase;color:#F4F2EE;opacity:0;letter-spacing:.02em}
+#tag span{color:#FF7A1A}
+#sub{position:absolute;left:0;right:0;top:1420px;text-align:center;font:500 30px Cinzel;letter-spacing:.45em;color:#FFC20E;opacity:0;text-transform:uppercase}
+#grao{position:absolute;inset:0;opacity:.12;mix-blend-mode:overlay;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>")}
+</style>
+<div id="glow"></div><div id="solw"><img id="sol" src="../assets/simbolo-sol.png"></div><div id="hz"></div>
+<img id="logo" src="../assets/logo.png"><div id="tag">Presença que <span>resolve.</span></div><div id="sub">Vereador · São João Batista</div><div id="grao"></div>
+<script>
+const e=(x)=>1-Math.pow(1-Math.min(Math.max(x,0),1),3), cl=(x)=>Math.min(Math.max(x,0),1);
+window.frame=function(t){
+  const a=e((t-.3)/.9); hz.style.width=(a*900)+'px'; hz.style.left=(540-a*450)+'px';
+  const s=e((t-1.1)/1.2); sol.style.top=(1030-s*300)+'px';
+  glow.style.background=`radial-gradient(circle at 50% 54%,rgba(255,122,26,${.55*s}),transparent ${30+20*s}%)`;
+  const l=e((t-2.6)/.6); const out=cl((t-2.6)/.5);
+  solw.style.opacity=1-out; logo.style.opacity=l; logo.style.transform=`scale(${1.08-.08*l})`;
+  hz.style.top=(1030+ (l*170))+'px';
+  const g=e((t-3.6)/.4); tag.style.opacity=g; tag.style.transform=`translateY(${(1-g)*30}px) scale(${1.15-.15*g})`;
+  const u=e((t-4.2)/.6); sub.style.opacity=u;
+  const f=cl((t-5.6)/.4); document.body.style.filter=`brightness(${1-f*.0})`;
+}
+frame(0);
+</script>

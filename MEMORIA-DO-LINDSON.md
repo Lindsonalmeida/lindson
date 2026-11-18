@@ -660,3 +660,5 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 - 18/11/2026 (conta Leandro) · Mova Street: NÃO redesenhar a logo (o dono já gostou). Logo v1 redesenhada reprovada; vale vetorização FIEL da original (mesmas letras, degradê, faixas e 'Street' em pincel), só com qualidade técnica.
 
 - **18/11/2026 (Lindson, conta Leandro): Mova Street, "não mude a logo, o dono já gostou".** Logo redesenhada da v1 REPROVADA. Logo de cliente que o dono aprovou: só vetorizar fiel (mesmo desenho, cores, degradê), melhorar só a técnica. v2 aguardando.
+
+- **18/11/2026 (conta Pedro) · REPROVADA a identidade antiga do Leo Pinto ("feita quando eu era muito amador")**: v1/v2/v3 de `identidade/` e o visual v13 (Montserrat Black + Kaushan, degradês, etiquetas) deixam de ser o padrão. Regra: manter o LOGO e as CORES DO PARTIDO nos hex exatos; luxo masculino (relógio, alfaiataria, carro), nada feminino; preto de base, tipografia romana de autoridade, retas, foto de liderança. Nova **identidade v2 premium** em `agencia/clientes/leo-pinto/identidade-v2/` (aguardando).

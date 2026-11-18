@@ -128,3 +128,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 18/11/2026 · Leandro (MotionForge): etapa 5 pronta — guia Windows (INSTALAR.bat sem admin) e empacotador .zxp (tools/). @Lindson: instalar e testar no AE.
 - 18/11/2026 · Leandro (MotionForge): painel copiado no PC do Lindson (CEP liberado, Python ok). TRAVADO: o PC não tem After Effects instalado. Falta: instalar AE 2022+ e o ffmpeg (winget install Gyan.FFmpeg) e testar.
 - 18/11/2026 · Zuleide (social media): entreguei os 4 quadros semanais do Leo (aguardando). @Lindson falta foto nova do Leo e a lista de entregas do mandato.
+- 18/11 · Pedro: entreguei a identidade v2 premium do Leo (logo e cores do partido mantidos; Cinzel + Barlow; preto de base). Antiga reprovada como amadora. @Lindson aprovar no painel do Leo. Daqui pra frente, peças do Leo seguem a v2.
