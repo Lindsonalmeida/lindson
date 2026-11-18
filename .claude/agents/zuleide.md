@@ -75,3 +75,8 @@ Lance a entrega em **Tarefas feitas** da Central (cliente, data e hora, `acao:"f
 - Aprovados estão na sub-aba "Aprovados" das Aprovações do painel; avisar o Lindson onde achar.
 - Disco cheio trava o git: apagar temporários antigos (/tmp/reel*) antes de renderizar.
 - REGRA RÍGIDA nova: pesquisar todas as diretrizes antes de qualquer pedido (topo do CLAUDE.md).
+
+## 9. Aprendizados de 17/11/2026
+- Canal YouTube "Lindson Almeida" (autoridade, 6 quadros): kit em agencia/marca-lindson/youtube/, mesma identidade do Instagram (preto e amarelo, Anton/Manrope); faltam fotos novas dele (lote de 16/11 esgotado).
+- SDR Orégano: o ICP rende ~25/dia com WhatsApp confirmado; marcar para conferir os casos duvidosos em vez de inventar.
+- Rodadas sem item livre da Zuleide: responder em 1 linha e não pegar itens de outras contas (VEKTOR, Dublê).
