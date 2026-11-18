@@ -1,6 +1,20 @@
 [
 {
 "t": "Feed · 3 artes",
+"titulo": "Abertura do perfil v3.1: passageiro, tela e benefícios",
+"data": "18/11/2026",
+"linha": "Marketing v2",
+"st": "aguardando",
+"img": "/painel/mova-street/marketing-v2/feed-abertura-v3/previa-grade-v3.1.jpg",
+"telas": [
+"/painel/mova-street/marketing-v2/feed-abertura-v3/painel-inteiro-v3.1.jpg",
+"/painel/mova-street/marketing-v2/feed-abertura-v3/post-01-v3.1.jpg",
+"/painel/mova-street/marketing-v2/feed-abertura-v3/post-02-v3.1.jpg",
+"/painel/mova-street/marketing-v2/feed-abertura-v3/post-03-v3.1.jpg"
+]
+},
+{
+"t": "Feed · 3 artes",
 "titulo": "Abertura do perfil v3: a tela como protagonista",
 "data": "18/11/2026",
 "linha": "Marketing v2",
