@@ -27,4 +27,4 @@
 Estratégias completas, pedido do Lindson 18/11: **Instagram** (herdada da sessão Zuleide principal), **YouTube** (entregue 18/11, aguardando), **Behance**, **Pinterest** → `agencia/marca-holding/{instagram,youtube,behance,pinterest}/`.
 
 ## Próximos passos / trava
-- @Lindson: criar contas @barzakhstudio (IG, YouTube, Behance, Pinterest); aprovar feed v3; mandar lote novo de fotos (as de 16/11 já foram usadas).
+- @Lindson: criar as contas com o kit `agencia/marca-holding/kit-contas/COMO-CRIAR.md`; decidir o feed (v3 ou v4); mandar fotos novas.
