@@ -6,6 +6,7 @@
 - **Shorts 01 a 40** (35-45 s, `short2.py`, capas `shorts/NN/capa.jpg`), agenda em `shorts/PUBLICAR-*.md`.
 - **Kit Instagram/TikTok** (conta Leandro, 15/11): bio, destaques, 40 legendas, agenda 2/dia (`redes-sociais/KIT.md`).
 - **Produto:** Manual de Campo (PDF 50 p.) + isca *7 frases que Maquiavel nunca disse* + página de venda (conta Pedro, 14/11) em `produto/`.
+- **Análise do produto (18/11):** `produto/ANALISE-2026-11-18.md`.
 - **Série Previsões e Premonições** (Peter, 17/11) + 5 carrosséis Economist 2027 (`conteudo/youtube/previsoes/`).
 - **Linhas editoriais de carrossel** (esta sessão, 18/11): `redes-sociais/LINHAS-EDITORIAIS-CARROSSEIS.md`.
 
