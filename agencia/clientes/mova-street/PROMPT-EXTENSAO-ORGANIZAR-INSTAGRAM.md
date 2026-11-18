@@ -6,7 +6,7 @@ Você vai organizar o Instagram da **Mova Street + TV Cars** (mídia em carros d
 Dono de negócio local em São Luís (restaurante, clínica, loja, academia), 30 a 55 anos, decide marketing pelo celular. Já gastou com impulsionamento "que não deu em nada" e acha outdoor caro. Confia em preço claro, ver a tela e o adesivo de perto e falar rápido no WhatsApp.
 
 ## Identidade
-Preto, laranja #FF5A1F com brilho, branco. Logo ORIGINAL do cliente (não redesenhar). Em fundo escuro, sempre a versão degradê sem fundo, nunca a versão com caixa azul.
+Preto, laranja #FF5A1F com brilho, branco. TV Cars é franquia integrada à Mova Street. Logo ORIGINAL do cliente (não redesenhar). Em fundo escuro, sempre a versão degradê sem fundo, nunca a versão com caixa azul.
 
 ## Arquivos (baixe do painel, já logado em https://lindsonalmeida.pages.dev)
 Base: https://lindsonalmeida.pages.dev/painel/mova-street/marketing-v2/
@@ -37,6 +37,7 @@ Base: https://lindsonalmeida.pages.dev/painel/mova-street/marketing-v2/
 9. **Ao final:** mande um print do topo do perfil (foto, bio, link e os 6 destaques) para eu aprovar.
 
 ## Regras (não quebrar)
+- Nenhum valor na bio nem nos destaques fixos fora de PLANOS; preço sempre "a partir de" (Paulo, 18/11).
 - Não alterar a logo nem usar a versão com caixa azul.
 - Nada de promessa de resultado nem número inventado. Visualizações só como "estimativa da empresa".
 - Não apagar posts nem destaques antigos sem me perguntar.
