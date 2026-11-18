@@ -4,6 +4,17 @@
 
 > **CONFERIR TODAS AS REGRAS ANTES DE TUDO (Lindson, 16/11/2026: "verifique todas as regras das equipes em todos os repositórios sempre quando eu pedir algo. Não cometa mais nenhum erro"):** em todo pedido, antes de executar, ler as regras dos DOIS repositórios (este `CLAUDE.md` + `MEMORIA-DO-LINDSON.md` resumo e reprovados; o `CLAUDE.md` do privado `CentralLindsonALmeida`; `.claude/agents/` do agente usado) e a versão MAIS RECENTE aprovada do projeto (`git log` de todos os branches; ex.: Al Kántara v1 foi reprovada, vale a v2). Antes de mandar qualquer arquivo, abrir a página 1 e páginas do meio e conferir: marca certa, último visual aprovado, nada cortado, sem promessa, sem número inventado. Refeito = nome de arquivo novo (-v2).
 
+> **QUEM ACIONAR EM CADA ENTREGA, TODO CLIENTE (Lindson, 18/11/2026: "não adianta ter os agentes se você não usa a inteligência"):** antes de executar, montar o time (lidera → revisam) e passar o pedido por todos:
+> - Feed/arte/post: designer-grafico → social-media (gancho, legenda), Copy squad (frase), Brand squad (marca). Pizzaria: Paollo; campanha de comida: Rocco.
+> - Abertura de perfil (bio, destaques, 3 primeiros posts): social-media → designer-grafico, Donald Miller (one-liner), Brand squad.
+> - Site/landing/bio: webdesigner → Copy squad, Donald Miller (StoryBrand), Builder.
+> - Painel/CRM/sistema: Builder (webdesigner no visual) → Data squad (métrica principal do cliente).
+> - Apresentação/proposta/oferta: Hormozi offers → designer-grafico executa; Copy squad e maquiavel revisam.
+> - Vendas/prospecção/WhatsApp: maquiavel → Copy squad (PADRAO-COPY), Hormozi (urgência real).
+> - Tráfego: Pedro Sobral/Traffic → Data squad, webdesigner (página do clique).
+> - Canal dark/YouTube: Peter → maquiavel, social-media, designer-grafico (capa).
+> Maquiavel faz a triagem antes e a conferência depois de toda entrega.
+>
 > **REGRAS FIXAS PARA TODOS OS CLIENTES, ATUAIS E NOVOS (Lindson, 18/11/2026, todas as contas):**
 > - **Menos é mais (marca de luxo):** peças clean que comunicam: muito respiro, 1 ideia por peça, tipografia refinada e espaçada, cor de destaque só como detalhe, foto herói cinematográfica. Proibido colagem de mockups, pílulas, cards de UI, notificações, glow espalhado e "cara de vibe code".
 > - **Grade em imagem única:** quando o pedido for "imagem contínua dividida em 3", é UMA foto só (mesma luz, mesmo fundo, um elemento herói atravessando as divisas), texto mínimo em frase contínua, nenhum texto na divisa, sem blocos diferentes por post.

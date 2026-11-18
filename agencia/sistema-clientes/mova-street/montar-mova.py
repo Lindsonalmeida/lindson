@@ -89,15 +89,18 @@ itens.append({'t': 'Logo', 'titulo': 'v1 · logo redesenhada (não vale)', 'data
 rf = os.path.join(BR, 'referencias'); tl = [thumb(os.path.join(rf, f), 'v1/referencias/' + f[:-4] + '.jpg', 700) for f in sorted(os.listdir(rf)) if f.lower().endswith(IMG)]
 itens.append({'t': f'Referências · {len(tl)}', 'titulo': 'Pesquisa premium (Rimac, Vistar, McLaren escolhidas)', 'data': D18, 'linha': 'Pesquisa', 'st': 'entregue', 'img': tl[0], 'telas': tl[1:]})
 
+# 3c · cartões e arquivos que entraram direto no painel por outras contas (marketing, feed, site, apresentação): ficam em aprov-extra.json / arq-extra.json
+_ex = json.load(open(os.path.join(D, 'aprov-extra.json'))); _tit = {x['titulo'] for x in itens}; itens[:0] = [x for x in _ex if x['titulo'] not in _tit]
+_ax = json.load(open(os.path.join(D, 'arq-extra.json'))); _an = {x[0] for x in arquivos}; arquivos[:0] = [x for x in _ax if x[0] not in _an]
 aprov = ','.join(json.dumps(x, ensure_ascii=False) for x in itens)
 s = re.sub(r"const APROV=\[.*?\];", lambda m: f"const APROV=[{aprov}];", s, count=1, flags=re.S)
 st_ = "st=x=>({"; assert st_ in s; s = s.replace(st_, "st=x=>({reprovado:'ve',", 1)
 troca('<div class="post"><div class="img">${p.titulo}</div>', '<div class="post">${p.video?`<video src="${p.video}" controls playsinline preload="none" style="width:100%;aspect-ratio:16/9;display:block;background:#000"></video>`:p.img?`<img src="${p.img}" alt="" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block">`:`<div class="img">${p.titulo}</div>`}')
 troca('<div class="d" style="color:var(--apagado);font-size:12.5px">${p.data}</div>',
       '<div class="d" style="color:var(--apagado);font-size:12.5px">${p.data}</div>${p.linha?`<span style="display:inline-block;margin-top:8px;padding:3px 10px;border-radius:999px;font-size:11.5px;font-weight:700;background:#FF5A1F;color:#0B0D12">${p.linha}</span>`:\'\'}<div style="font-weight:600;margin:6px 0 2px">${p.titulo}</div>'
-      '${p.nota?`<div style="color:#E07A6A;font-weight:700;font-size:12.5px">✕ ${p.nota}</div>`:\'\'}'
+      '${p.nota?`<div style="color:#E07A6A;font-weight:700;font-size:12.5px">${p.nota}</div>`:\'\'}'
       '${p.telas&&p.telas.length?`<div style="display:flex;gap:6px;overflow-x:auto;margin:8px 0;padding-bottom:4px">${p.telas.map(t=>`<a href="${t}" target="_blank"><img src="${t}" loading="lazy" style="height:100px;border-radius:6px;flex:none"></a>`).join(\'\')}</div>`:\'\'}'
-      '${p.arq?`<a class="btn lin" href="${p.arq}" ${p.ext?\'target="_blank" rel="noopener"\':\'download\'} style="display:inline-block;margin:8px 0">${p.ext?\'Abrir\':\'⬇ Baixar\'}</a>`:\'\'}'
+      '${p.arq?`<a class="btn lin" href="${p.arq}" ${p.ext?\'target="_blank" rel="noopener"\':\'download\'} style="display:inline-block;margin:8px 0">${p.ext?\'Abrir\':\'Baixar\'}</a>`:\'\'}'
       '${p.legenda?`<details style="margin:8px 0"><summary style="cursor:pointer;color:var(--amarelo);font-weight:700">Detalhes</summary><pre style="white-space:pre-wrap;font:inherit;font-size:13px;margin:10px 0">${p.legenda.replace(/</g,"&lt;")}</pre></details>`:\'\'}')
 
 # 5 · menu: tira leads de exemplo, põe Marca, Divisões, Arquivos
@@ -139,8 +142,11 @@ window.__V.entregas=window.__V.arquivos;
 Object.assign(window.__T,{{marca:'Marca',divisoes:'Produtos',arquivos:'Arquivos'}});}})();"""
 FERR = json.load(open(os.path.join(D, 'ferr-mova.json')))
 DADOS = json.load(open(os.path.join(PRIV, 'dados', 'mova-street.json')))
-extra = EXTRA + '\nwindow.__DADOS=' + J(DADOS) + ';\nwindow.__FERR=' + J(FERR) + ';\n' + open(os.path.join(SC, 'prototipo', 'ferramentas.js')).read() + '\n' + open(os.path.join(D, 'agenda-mova.js')).read() + '\n' + open(os.path.join(SC, 'prototipo', 'interacoes.js')).read() + '\n' + open(os.path.join(SC, 'prototipo', 'movimento.js')).read()
+extra = EXTRA + '\nwindow.__DADOS=' + J(DADOS) + ';\nwindow.__FERR=' + J(FERR) + ';\n' + open(os.path.join(SC, 'prototipo', 'ferramentas.js')).read() + '\n' + open(os.path.join(D, 'agenda-mova.js')).read() + '\n' + open(os.path.join(D, 'crm-mova.js')).read() + '\n' + open(os.path.join(SC, 'prototipo', 'interacoes.js')).read() + '\n' + open(os.path.join(SC, 'prototipo', 'movimento.js')).read()
 s = s.replace('</script>', '</script>\n<script>\n' + extra + '\n</script>', 1)
+s = s.replace('</style>', open(os.path.join(D, 'tema-mova.css')).read() + '\n</style>', 1)
+_pr = os.path.join(PRIV, 'dados', 'clientes-arquivos', 'mova-street', 'marketing-v2', 'estrategia', 'proposta-1-pagina.html')
+if os.path.exists(_pr): pub(_pr, 'proposta.html')  # link da proposta com ?empresa= gerado pelo CRM
 open(os.path.join(D, 'painel-mova.html'), 'w').write(s)
 if os.path.isdir(os.path.join(PRIV, 'painel')):
     open(os.path.join(PRIV, 'painel', 'mova-street.html'), 'w').write(s)
