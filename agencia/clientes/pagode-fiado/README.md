@@ -33,8 +33,11 @@ Fotos/imagens dos personagens: **ainda não existem** (no brand book estão como
 - **Notícias v1** (conta Zuleide, 16/11): 8 posts tipográficos com fonte em `noticias-v1/`, aguardando aprovação.
 - **Playlists v1** (conta Zuleide, 16/11): 5 playlists de curadoria em `playlists-v1/`, aguardando aprovação; travado até o canal e os perfis existirem.
 
+## Vídeos longos (18/11)
+- **Longos v1** (`longos-v1/`): 05 Bilhete na Geladeira e 07 Visualizou e Não Voltou prontos (música nova com voz, letra sincronizada), no painel /painel/canais (Pagode → Materiais), aguardando aprovação. As outras 9 faixas travadas por crédito de música (vidIQ renova 30/11).
+
 ## O que falta
-1. **Músicas**: 05 "Bilhete na Geladeira" e 07 "Visualizou e Não Voltou" (próximo passo pendente); refazer/recuperar as demais, que ficaram só na sessão apagada.
+1. **Músicas**: 05 e 07 feitas (18/11); faltam 00, 01, 02, 03, 04, 06, 08, 09, 10 (crédito de música) e o longo do álbum completo.
 2. Imagens dos 6 personagens e capa do álbum com foto.
 3. Canal: perfis @pagodefiado (YouTube, Instagram, TikTok) e capas de vídeo.
 4. Fila da coordenação (equipe Zuleide, livres): Pagode notícias (22), Pagode frases (23), Playlist com cantores famosos (24), 10 Shorts (25), 10 Reels (26), 10 TikTok (27).

@@ -166,6 +166,12 @@ def pagode():
     if os.path.exists(os.path.join(RAIZ, 'agencia', 'clientes', 'pagode-fiado', 'playlists-v1', 'README.md')):
         mat.append(dict(titulo='Playlists v1 · clássicos + Pagode Fiado', sub='5 playlists de curadoria (Sexta de Resenha, Sofrência de Domingo, Pagode Romântico 2026, Anos 90 e 2000, Pagode de Boteco): 3 clássicos oficiais e 1 faixa do Pagode Fiado. Só links oficiais, sem reupload.', st='travado: falta criar o canal e os perfis do Pagode',
                         texto='Plano completo no repositório: agencia/clientes/pagode-fiado/playlists-v1/README.md (conta Zuleide, 16/11). Conferir cada faixa no canal oficial ao adicionar.', links=[]))
+    LV = os.path.join(PRIV, 'painel', 'canais', 'pagode', 'longos-v1')
+    for k, t in (('05', 'Bilhete na Geladeira'), ('07', 'Visualizou e Não Voltou')):
+        if os.path.exists(os.path.join(LV, f'pagode-fiado-{k}-longo.mp4')):
+            mat.append(dict(titulo=f'Longo {k} · {t}', sub='Faixa inteira (~3 min, 16:9) com letra sincronizada, fotos de boteco e roda de samba, quadro FIADO e fecho "Pendura na conta". Título, descrição e tags em agencia/clientes/pagode-fiado/longos-v1/publicar.json.', st='aguardando aprovação',
+                            imgs=[f'/painel/canais/pagode/longos-v1/capa-{k}.jpg'],
+                            links=[dict(nome='Assistir / baixar o vídeo', url=f'/painel/canais/pagode/longos-v1/pagode-fiado-{k}-longo.mp4')]))
     avisos = ['Notícias v1: reprovado pelo Lindson em 16/11. A equipe está refazendo a v2; não aparece aqui para aprovar.'] if os.path.isdir(os.path.join(P, 'noticias-v1')) else []
     return aprov, mat, avisos
 

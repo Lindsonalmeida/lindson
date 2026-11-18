@@ -1,3 +1,26 @@
 # Fotos usadas · Pagode Fiado
 
 - 16/11/2026 (Zuleide) Frases v1: 15 fotos Wikimedia, lista em frases-v1/CREDITOS-FOTOS.md
+- 18/11/2026 (Pedro, sessão GOMINHO) Longos v1: 22 fotos Wikimedia, lista em longos-v1/CREDITOS-FOTOS.md
+  - 05: File:Rua do Rezende à noite.jpg
+  - 05: File:Botequim Gato Preto.jpg
+  - 05: File:Samba de Roda do Recôncavo - Bahia - 3909 033.jpg
+  - 05: File:Botequim do Seu Varte em 01.08.2025.2.jpg
+  - 05: File:Pandeiro.JPG
+  - 05: File:Rio de Janeiro 20110518 276.JPG
+  - 05: File:Boteco do Manolo.jpg
+  - 05: File:Bar da Zilda Centro de Vitória 1.jpg
+  - 05: File:Capoeira Angola instruments.jpg
+  - 05: File:Bar Carango da Orla.jpg
+  - 05: File:Lanxereta Chopp Bar - Rua Cipriano Barata, 1311 - panoramio.jpg
+  - 07: File:Roda de Samba no Clube do Fumagueiros - Tijuca - Rio de Janeiro.jpg
+  - 07: File:Pandeiro3.JPG
+  - 07: File:Botequim do Seu Varte em 01.08.2025.6.jpg
+  - 07: File:Samba de roda (6244051631).jpg
+  - 07: File:Bar da Zilda Centro de Vitória 3.jpg
+  - 07: File:Samba de Roda da Nega Duda 1.jpg
+  - 07: File:Samba de Roda do Recôncavo - Bahia - 3909 021.jpg
+  - 07: File:Botequim do Seu Varte em 01.08.2025.4.jpg
+  - 07: File:Samba de Roda do Recôncavo - Bahia - 3909 016.jpg
+  - 07: File:Samba de Roda do Recôncavo - Bahia - 3909 029.jpg
+  - 07: File:Samba de Roda da Nega Duda 3.jpg
