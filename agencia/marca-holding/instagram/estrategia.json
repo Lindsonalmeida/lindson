@@ -1,0 +1,258 @@
+{
+ "perfil": {
+  "usuario": "@barzakhstudio",
+  "nome": "Barzakh · Identidade Visual",
+  "bio": "A passagem da sua marca.\nIdentidade visual, embalagem e site · um estúdio Al Kántara\nDireção: Lindson Almeida · São Luís\n↓ Fale com o estúdio",
+  "link": "lindsonalmeida.pages.dev/site/identidade",
+  "whatsapp": "wa.me/5598985621808"
+ },
+ "destaques": [
+  "Cases",
+  "Processo",
+  "Pacotes",
+  "Bastidor",
+  "Dúvidas",
+  "Contato"
+ ],
+ "linhas": {
+  "L1 Cases": 30,
+  "L2 Opinião forte": 20,
+  "L3 Processo e bastidor": 20,
+  "L4 Dica pronta": 15,
+  "L5 Al Kántara": 5,
+  "L6 Oferta": 10
+ },
+ "horarios": [
+  "08:45",
+  "12:45",
+  "16:45",
+  "20:45"
+ ],
+ "calendario_e_ideias": [
+  {
+   "dia": "1",
+   "peca": "BARZAKH · a passagem da sua marca",
+   "linha": "L5",
+   "formato": "estático (feed v3 01)",
+   "gancho": "Sua marca está te deixando pequeno!"
+  },
+  {
+   "dia": "2",
+   "peca": "A caixa é a mídia mais vista (Orégano)",
+   "linha": "L1",
+   "formato": "Reel",
+   "gancho": "Sua embalagem fala mal de você?"
+  },
+  {
+   "dia": "3",
+   "peca": "Sua marca parece menor?",
+   "linha": "L2",
+   "formato": "carrossel (feed v3 03)",
+   "gancho": "3 sinais de marca que parece menor"
+  },
+  {
+   "dia": "4",
+   "peca": "Case Dublê: só grava quem disse sim",
+   "linha": "L1",
+   "formato": "Reel",
+   "gancho": "Uma regra virou uma marca inteira"
+  },
+  {
+   "dia": "5",
+   "peca": "Toda marca começa num rabisco",
+   "linha": "L3",
+   "formato": "estático (feed v3 05)",
+   "gancho": "Ninguém começa no computador"
+  },
+  {
+   "dia": "6",
+   "peca": "Logo não é marca",
+   "linha": "L4",
+   "formato": "Reel",
+   "gancho": "Seu logo sozinho não te salva"
+  },
+  {
+   "dia": "7",
+   "peca": "Case Real Time: no ar, agora",
+   "linha": "L1",
+   "formato": "carrossel (feed v3 07)",
+   "gancho": "Sua marca some no outdoor?"
+  },
+  {
+   "dia": "8",
+   "peca": "Seu cliente julga antes de ler",
+   "linha": "L2",
+   "formato": "Reel",
+   "gancho": "Ele já te julgou antes de ler"
+  },
+  {
+   "dia": "9",
+   "peca": "Quanto custa uma marca improvisada?",
+   "linha": "L2",
+   "formato": "estático (feed v3 09)",
+   "gancho": "Marca improvisada custa caro, e calada"
+  },
+  {
+   "dia": "10",
+   "peca": "Do rascunho à rua (Orégano)",
+   "linha": "L1",
+   "formato": "Reel",
+   "gancho": "Do papel à rua sem perder nada"
+  },
+  {
+   "dia": "11",
+   "peca": "Travessia: marca não é enfeite",
+   "linha": "L6",
+   "formato": "carrossel (feed v3 11)",
+   "gancho": "Marca não é enfeite"
+  },
+  {
+   "dia": "12",
+   "peca": "Sua vez: vamos atravessar a sua?",
+   "linha": "L6",
+   "formato": "Reel",
+   "gancho": "Sua vez: e a sua marca?"
+  },
+  {
+   "dia": "13",
+   "peca": "5 sinais de que a marca envelheceu",
+   "linha": "L4",
+   "formato": "carrossel",
+   "gancho": "Sua marca envelheceu e ninguém avisou"
+  },
+  {
+   "dia": "14",
+   "peca": "Bastidor: briefing de 1 hora",
+   "linha": "L3",
+   "formato": "Reel",
+   "gancho": "1 hora de briefing evita 1 ano de erro"
+  },
+  {
+   "dia": "15",
+   "peca": "Case Leo Pinto: identidade de campanha",
+   "linha": "L1",
+   "formato": "carrossel",
+   "gancho": "Campanha sem identidade é barulho"
+  },
+  {
+   "dia": "16",
+   "peca": "Cor não é gosto, é decisão",
+   "linha": "L2",
+   "formato": "Reel",
+   "gancho": "Você escolheu a cor errada pelo gosto"
+  },
+  {
+   "dia": "17",
+   "peca": "Paleta: como escolher 3 cores",
+   "linha": "L4",
+   "formato": "carrossel",
+   "gancho": "3 cores, não 12"
+  },
+  {
+   "dia": "18",
+   "peca": "A tela aberta: criando um logo",
+   "linha": "L3",
+   "formato": "Reel",
+   "gancho": "Assista um logo nascer do zero"
+  },
+  {
+   "dia": "19",
+   "peca": "O que vem num pacote Travessia",
+   "linha": "L6",
+   "formato": "carrossel",
+   "gancho": "O que você leva num Travessia"
+  },
+  {
+   "dia": "20",
+   "peca": "Seu cartão dá vergonha?",
+   "linha": "L2",
+   "formato": "Reel",
+   "gancho": "Seu cartão te dá vergonha?"
+  },
+  {
+   "dia": "21",
+   "peca": "Case Tribuna 98",
+   "linha": "L1",
+   "formato": "carrossel",
+   "gancho": "Rádio também tem cara"
+  },
+  {
+   "dia": "22",
+   "peca": "Embalagem que vira story do cliente",
+   "linha": "L4",
+   "formato": "Reel",
+   "gancho": "A caixa vira story, ou vira lixo"
+  },
+  {
+   "dia": "23",
+   "peca": "Al Kántara: por que um grupo",
+   "linha": "L5",
+   "formato": "estático",
+   "gancho": "Por que um estúdio dentro de um grupo"
+  },
+  {
+   "dia": "24",
+   "peca": "Case Dra. Jaci (só o liberado)",
+   "linha": "L1",
+   "formato": "Reel",
+   "gancho": "Clínica não precisa parecer hospital"
+  },
+  {
+   "dia": "25",
+   "peca": "Fonte: o erro mais comum",
+   "linha": "L4",
+   "formato": "carrossel",
+   "gancho": "A fonte que denuncia amador"
+  },
+  {
+   "dia": "26",
+   "peca": "Pesquisa antes do lápis",
+   "linha": "L3",
+   "formato": "Reel",
+   "gancho": "Pesquisa antes do lápis, sempre"
+  },
+  {
+   "dia": "27",
+   "peca": "Marca não é logo novo todo ano",
+   "linha": "L2",
+   "formato": "estático",
+   "gancho": "Trocar de logo todo ano é fugir"
+  },
+  {
+   "dia": "28",
+   "peca": "Antes × depois: o que mudou e por quê",
+   "linha": "L1",
+   "formato": "Reel",
+   "gancho": "O antes que ninguém posta"
+  },
+  {
+   "dia": "29",
+   "peca": "Dúvidas: prazo, revisões, o que mandar",
+   "linha": "L6",
+   "formato": "carrossel",
+   "gancho": "Prazo, revisão e o que mandar"
+  },
+  {
+   "dia": "30",
+   "peca": "Sua vez (fechamento do mês)",
+   "linha": "L6",
+   "formato": "Reel",
+   "gancho": "Fim do mês: vamos atravessar a sua?"
+  }
+ ],
+ "legendas": [
+  "Identidade visual em São Luís: a passagem da sua marca\n\nA Barzakh é um estúdio de identidade visual, embalagem e site, com direção criativa de Lindson Almeida. Um estúdio Al Kántara.\n\n▸ O que é Barzakh\nBarzakh é o espaço entre dois lugares. Aqui, é o caminho entre o que a sua marca é hoje e o que ela pode parecer.\n\n▸ O que você vai ver aqui\nCases reais, processo aberto e bastidor de cada projeto.\n\nExemplo: a Orégano Turbo saiu do rascunho e chegou à caixa, ao copo e ao pôster no mesmo sistema.\n\nMarca não é enfeite: é a primeira coisa que o cliente entende de você.\n\nComente PASSAGEM e eu te mostro por onde começar.\n\n#identidadevisual #branding #saoluis #barzakhstudio",
+  "Embalagem de pizzaria: a mídia mais vista do seu negócio\n\nA caixa entra na casa do cliente, fica na mesa e aparece no story. É mídia que você já paga.\n\n▸ Por que a caixa importa\nEla é vista por quem pediu e por quem estava junto.\n\n▸ O que levar para a caixa\nCor, letra e uma frase curta que a pessoa lembre.\n\nExemplo: na Orégano Turbo a caixa leva a frase \"Uma folha que sobe\" e a cor da marca.\n\nEmbalagem genérica fala mal de você em silêncio.\n\nComente CAIXA e eu te mando o case completo.\n\n#embalagem #pizzaria #designdeembalagem #saoluisma",
+  "Sua marca parece menor que o seu negócio? 3 sinais\n\nSeu negócio cresceu, mas a marca ficou para trás. Acontece mais do que parece.\n\n▸ Sinal 1\nCada post tem uma cara diferente.\n\n▸ Sinal 2\nO logo não se lê no celular.\n\n▸ Sinal 3\nAs cores mudam a cada material.\n\nExemplo: um restaurante com 3 versões do logo no cardápio, na fachada e no Instagram.\n\nSe você viu um dos três, a marca está pedindo passagem.\n\nComente MENOR e eu te digo qual sinal pesa mais no seu caso.\n\n#rebranding #marcaforte #negociolocal #nordeste",
+  "Case Dublê: identidade visual de app de voz\n\nO Dublê é um app de clonagem de voz com uma regra: só grava quem disse sim.\n\n▸ O conceito\nA regra virou o centro da marca.\n\n▸ O sistema\nCor, letra e tela seguem o mesmo raciocínio, do ícone ao painel.\n\nExemplo: a tela de consentimento usa a mesma cor do logo, para a regra ficar visível.\n\nUma boa identidade nasce de uma ideia, não de um enfeite.\n\nArraste o perfil e veja os outros cases.\n\n#brandingdigital #appdesign #identidadevisual #uidesign",
+  "Processo criativo: toda marca começa num rabisco\n\nAntes da tela tem papel, grafite e grid.\n\n▸ Por que rabiscar\nNo papel a ideia fica livre e rápida.\n\n▸ Do rabisco ao sistema\nO rabisco vira grid, o grid vira logo, o logo vira família visual.\n\nExemplo: o arco da Barzakh começou num rabisco de 2 linhas.\n\nProcesso, não sorte.\n\nMostre o seu rabisco nos comentários.\n\n#processocriativo #designgrafico #bastidores #designersaoluis",
+  "Logo não é identidade visual: o que falta na sua marca\n\nMuita gente paga por um logo e acha que tem uma marca.\n\n▸ O que é família visual\nLetras, cores, grafismos, fotos e variações do logo.\n\n▸ Quando falta uma peça\nCada material sai de um jeito e a marca manca.\n\nExemplo: o mesmo logo com 3 fontes diferentes no cardápio, na fachada e no story.\n\nLogo é a assinatura. Identidade é a voz inteira.\n\nSalve este post para conferir a sua.\n\n#logo #identidadevisual #designer #pequenasempresas",
+  "Case Real Time: identidade de produtora no ar\n\nA Real Time é uma produtora de São Luís que precisava parecer do tamanho do trabalho que faz.\n\n▸ O conceito\nNo ar, agora.\n\n▸ Aplicação\nDa papelaria ao outdoor, com o mesmo cuidado.\n\nExemplo: o outdoor e o cartão seguem a mesma grade.\n\nQuando a marca é um sistema, ela cresce sem perder a cara.\n\nArraste e veja as aplicações.\n\n#produtora #branding #saoluisma #audiovisual",
+  "Primeira impressão: seu cliente julga antes de ler\n\nCor, letra e cuidado chegam antes do texto.\n\n▸ Como acontece\nEm segundos a pessoa decide se você parece sério.\n\n▸ O que pesa\nConsistência e legibilidade, não enfeite.\n\nExemplo: dois perfis com o mesmo serviço: o organizado recebe a mensagem.\n\nSua marca fala antes de você.\n\nComente JULGA se já perdeu cliente pela aparência.\n\n#marketinglocal #designdemarca #empreendedorismo #maranhao",
+  "Marca improvisada: quanto ela custa de verdade\n\nNinguém manda boleto, mas a conta chega.\n\n▸ O custo invisível\nO cliente que não entende a sua marca vai embora sem dizer por quê.\n\n▸ Onde aparece\nOrçamento que não volta, preço que parece caro, indicação que não acontece.\n\nExemplo: um serviço bom com cartão improvisado parece serviço improvisado.\n\nMarca é decisão, não despesa.\n\nComente CUSTA e eu te conto como a gente avalia uma marca.\n\n#marca #pequenasempresas #branding #saoluis",
+  "Pacotes de identidade visual: Limiar, Travessia e Horizonte\n\nTrês caminhos, conforme o momento do seu negócio.\n\n▸ Limiar\nPara quem está começando a organizar a marca.\n\n▸ Travessia\nIdentidade completa com aplicações.\n\n▸ Horizonte\nMarca, embalagem e site no mesmo sistema.\n\nExemplo: uma pizzaria que começou no Limiar e foi para a embalagem depois.\n\nO pacote certo depende de onde você está, não do maior.\n\nValores e prazos na conversa: toque no link do WhatsApp da bio.\n\n#identidadevisual #branding #negociolocal #barzakhstudio"
+ ],
+ "situacao": "aguardando aprovação",
+ "conta": "Zuleide",
+ "data": "2026-11-18"
+}
