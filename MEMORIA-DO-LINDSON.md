@@ -668,3 +668,4 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 - 18/11/2026 (conta Zuleide): estratégia Instagram Barzakh entregue (agencia/marca-holding/instagram/), destaques arco-monolito ouro com glow na cor dos cases; prévia = feed v3. AGUARDANDO APROVAÇÃO.
 
 - **18/11/2026 (conta Pedro):** REPROVADO: redes v3 do Leo ("nojo"); causa: criado do zero sem as referências dele. v4 (identidade-v2/entregas/redes-v4/) copia 3 modelos dele: Sou Pedro, carrossel-tweet 61, luxury menswear 19. Aguardando.
+- **18/11/2026 (Zuleide) · aguardando OK:** linhas editoriais de carrossel do Passaporte pelos produtos (6 linhas, cada uma amostra de 1 produto: Passaporte, Mapa Grandão, Kit Travessia, Cartela Sem Data + isca Rota, Quem Sou Eu?, Kids/Kit Líder), em `conteudo/youtube/passaporte/instagram/LINHAS-CARROSSEL.md`.
