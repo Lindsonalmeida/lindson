@@ -38,3 +38,4 @@ Não usar f12 nem f13: a pose de apontar o relógio lembra número de urna.
 | `culto-23` (plateia na praça) | Culto de Gratidão · carrossel tela 4 + story 3 | 10/11/2026 | Zuleide (designer) |
 | `culto-24` (grupo diante do banner) | Culto de Gratidão · capa do carrossel + story 1 | 10/11/2026 | Zuleide (designer) |
 | `culto-25` (prefeito e convidada no palco) | Culto de Gratidão · carrossel tela 3 + story 2 | 10/11/2026 | Zuleide (designer) |
+| (provisórias, já usadas) recortes HD i, b, d, g | Capas-modelo dos 4 quadros semanais (só modelo; cada episódio usa foto nova) | 18/11/2026 | Zuleide (social media) |

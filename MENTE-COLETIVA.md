@@ -127,3 +127,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 18/11/2026 · Leandro (MotionForge): etapas 1-4 prontas — bugs do MVP corrigidos, settings/bgremove/histórico/custo/cancelar, providers fal+Replicate+ComfyUI, fundo em vídeo, CSInterface oficial, 21 testes passando (apps/motionforge/).
 - 18/11/2026 · Leandro (MotionForge): etapa 5 pronta — guia Windows (INSTALAR.bat sem admin) e empacotador .zxp (tools/). @Lindson: instalar e testar no AE.
 - 18/11/2026 · Leandro (MotionForge): painel copiado no PC do Lindson (CEP liberado, Python ok). TRAVADO: o PC não tem After Effects instalado. Falta: instalar AE 2022+ e o ffmpeg (winget install Gyan.FFmpeg) e testar.
+- 18/11/2026 · Zuleide (social media): entreguei os 4 quadros semanais do Leo (aguardando). @Lindson falta foto nova do Leo e a lista de entregas do mandato.
