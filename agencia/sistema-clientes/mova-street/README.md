@@ -4,7 +4,7 @@
 
 - `tema-mova.css`: sistema visual único do painel (asfalto + laranja #FF5A1F, Archivo/JetBrains Mono, fio de 1px, sem sombra).
 - `agenda-mova.js`: aba Agendamentos (mês/semana, lista do dia, criar/remarcar/cancelar, botões WhatsApp que registram o envio). API `functions/api/agenda.js` (KV `dados:mova-street:agenda`).
-- `crm-mova.js`: CRM comercial (kanban arrastável das 9 etapas da estratégia v2 + perdido, lista/filtros, ficha, linha do tempo, follow-up D1/D3/D7/D15/D30 automático, WhatsApp que registra e avança, agendar visita ligado ao lead, link da proposta `?empresa=`, contrato e renovação, 10 telas e exclusividade por ramo, métricas, CSV). Dados em `/api/dados?f=crm`.
+- `crm-mova.js`: CRM comercial (kanban arrastável das 9 etapas da estratégia v2 + perdido, lista/filtros, ficha, linha do tempo, follow-up D1/D3/D7/D15/D30 automático, WhatsApp que registra e avança, agendar visita ligado ao lead, link da proposta `?empresa=`, contrato e renovação, pacote de 10 telas por 30 dias com valor = pacote × meses (+50% com exclusividade, mínimo 6 meses), vagas na programação e exclusividade por ramo, métricas, CSV). Dados em `/api/dados?f=crm`.
 - `ferr-mova.json`: Financeiro e Notícias (prototipo/ferramentas.js). `aprov-extra.json` / `arq-extra.json`: cartões e arquivos postos por outras contas (não se perdem ao remontar).
 
 ## Lembrete automático no WhatsApp (DESLIGADO)

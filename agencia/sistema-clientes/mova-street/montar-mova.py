@@ -46,7 +46,7 @@ troca(";$('#cliente').value=cli;", ';')
 troca('<div class="avatar" title="Lindson Almeida (admin)">LA</div>', '<div class="avatar" title="Mova Street">MS</div>')
 troca("const BASE={", "const BASE={'mova-street':{nome:'Mova Street + TV Cars',seg:'Mídia em carros de aplicativo',plano:'',inicio:'Novembro/2026',kpis:[],canais:[],metas:[]},")
 troca("const FRASES={", "const FRASES={'mova-street':['A cidade não para. Sua marca também não.','Rua + banco de trás: duas telas, uma marca.','Sua marca em movimento. Sua publicidade em evidência.'],")
-troca("const MISSOES={", "const MISSOES={'mova-street':[['Revisar o branding v2 na aba Aprovações',40],['Conferir a logo original vetorizada (v2)',30],['Confirmar período da tabela e escopo da exclusividade',30]],")
+troca("const MISSOES={", "const MISSOES={'mova-street':[['Revisar o branding v2 na aba Aprovações',40],['Conferir a logo original vetorizada (v2)',30],['Confirmar escopo da exclusividade e quantas vagas cabem na programação',30]],")
 
 # 2 · arquivos: copia para o privado e devolve o link web
 os.makedirs(OUT, exist_ok=True)
@@ -123,12 +123,12 @@ troca("addEventListener('hashchange',render);render();", "window.__render=render
 # 6 · conteúdo das abas extras (Marca lê o PERSONAS.md da v2 quando existir)
 MARCA = {'nome': 'Mova Street + TV Cars', 'descritor': 'Mídia em carros de aplicativo, táxis e entregadores · Grande Ilha de São Luís',
          'proposito': 'Colocar o negócio da cidade no caminho de quem anda por ela.',
-         'missao': 'Transformar carros de aplicativo em vitrines em movimento, com acabamento de marca grande e preço fixo por tela.',
+         'missao': 'Transformar carros de aplicativo em vitrines em movimento, com acabamento de marca grande e preço claro, em pacote de 10 telas.',
          'visao': 'Ser a mídia de quem circula pela Grande Ilha: a marca vista na rua e reencontrada dentro do carro.',
          'paleta': {'Asfalto': '#0B0D12', 'Giz': '#F4F1EC', 'Laranja Mova': '#FF5A1F', 'Âmbar TV Cars': '#FFC21A', 'Azul Noite': '#12203F'},
          'fontes': ['Archivo Expanded Black Italic · títulos', 'Archivo · textos', 'JetBrains Mono · rótulos'],
          'docs': {k: v for k, v in v2_md.items() if True}}
-DIV = [('Mova Street', 'Marca-mãe · vidro traseiro', 'Adesivo perfurado no vidro traseiro, 30 a 180 dias ou personalizado, relatório de fotos e km rodados.'), ('TV Cars', 'Produto · tela do encosto', 'Anúncios de 10, 15 ou 20 s, combos de 5 ou 10 telas, QR Code fixo e relatório no sistema.')]
+DIV = [('Mova Street', 'Marca-mãe · vidro traseiro', 'Adesivo perfurado no vidro traseiro, até R$ 450 por adesivo por 30 dias (menor com mais carros e mais tempo), 30 a 180 dias ou personalizado, relatório de fotos e km rodados.'), ('TV Cars', 'Produto · tela do encosto', 'Pacote de 10 telas por 30 dias, anúncios de 10, 15 ou 20 s (a partir de R$ 1.600, R$ 1.800 e R$ 2.000), a partir de 40 inserções por dia em cada tela, QR Code fixo e relatório no sistema.')]
 J = lambda o: json.dumps(o, ensure_ascii=False).replace('</', '<\\/')
 EXTRA = f"""window.__AK={{marca:{J(MARCA)},div:{J(DIV)},arq:{J(arquivos)},fora:{J(fora)}}};
 (function(){{const A=window.__AK,esc=t=>String(t).replace(/[&<]/g,c=>c=='&'?'&amp;':'&lt;'),ser="font-family:var(--f-titulo);font-weight:400";
