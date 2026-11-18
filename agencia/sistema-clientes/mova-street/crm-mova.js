@@ -194,5 +194,19 @@ window.__V.inicio=()=>{if(!S.carregou){carregar();return '<div class="mv-pn"><p 
 // Financeiro: as 10 telas e a receita dos contratos vêm do CRM (dado real; vazio até haver contrato)
 const fin0=window.__V.financeiro;if(fin0)window.__V.financeiro=()=>{if(!S.carregou){carregar()}const d=S.d||base(),oc=d.telas.filter(t=>t.st==='ocupada').length,rs=d.telas.filter(t=>t.st==='reservada').length,ct=d.itens.filter(l=>['e7','e8','e9'].includes(l.etapa)),v=ct.reduce((a,l)=>a+(+l.valor||0),0);
   return `<div class="mv-kpis"><div><span class="mv-k">Telas ocupadas</span><b class="mv-big">${oc}<small>/10</small></b></div><div><span class="mv-k">Reservadas</span><b class="mv-big">${rs}</b></div><div><span class="mv-k">Livres</span><b class="mv-big">${10-oc-rs}</b></div><div><span class="mv-k">Contratos · valor</span><b class="mv-big">${ct.length}</b><span class="mv-l2">${v?brl(v):'sem valor lançado'}</span></div></div>`+fin0()};
+
+// Abas do modelo: nada de exemplo. Métricas = números reais do CRM; Calendário e Reuniões = agenda; o resto aguarda dado real.
+const vazio=(t,txt,lnk)=>`<div class="mv-blk" style="padding:48px 24px;text-align:center"><span class="mv-k">${t}</span><div class="mv-mt" style="margin:14px 0 8px">Aguardando dados</div><p class="mv-l2" style="max-width:460px;margin:0 auto">${txt}</p>${lnk?`<a class="mv-b" style="margin-top:18px" href="${lnk[0]}">${lnk[1]}</a>`:''}</div>`;
+Object.assign(window.__V,{
+ resultados:()=>{if(!S.carregou){carregar();return ''}return metricasV()},
+ calendario:()=>window.__V.agenda(), reunioes:()=>window.__V.agenda(),
+ planejamento:()=>vazio('Planejamento','O planejamento do mês entra aqui quando a agência publicar o calendário aprovado da Mova.',['#aprovacoes','Ver aprovações']),
+ relatorios:()=>vazio('Relatórios','Os relatórios mensais entram aqui com os números reais do Instagram, dos anúncios e do CRM.',['#resultados','Ver métricas do CRM']),
+ conteudos:()=>vazio('Conteúdos','As peças da Mova ficam em Aprovações enquanto aguardam o seu ok, e em Postados depois de publicadas.',['#aprovacoes','Abrir aprovações']),
+ campanhas:()=>vazio('Campanhas','As campanhas de anúncio aparecem aqui quando forem ao ar, com investimento e resultado reais.'),
+ contrato:()=>vazio('Contrato','O contrato da Mova com a agência entra aqui quando for assinado.'),
+ pedidos:()=>vazio('Pedidos','Para pedir arte, ajuste ou tirar dúvida, fale com a agência no WhatsApp. Os pedidos registrados aparecem aqui.'),
+ fotos:()=>vazio('Fotos','As fotos enviadas pela Mova aparecem aqui, separadas entre novas e usadas.')});
+Object.assign(window.__T,{resultados:'Métricas',calendario:'Agendamentos',reunioes:'Agendamentos'});
 window.__V.crm=view;window.__T.crm='CRM comercial';
 })();

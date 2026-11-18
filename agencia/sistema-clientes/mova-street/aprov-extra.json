@@ -1,17 +1,32 @@
 [
 {
 "t": "Feed · 3 artes",
-"titulo": "Abertura do perfil v2: imagem única, luxo clean",
+"titulo": "Abertura do perfil v3: a tela como protagonista",
 "data": "18/11/2026",
 "linha": "Marketing v2",
 "st": "aguardando",
+"img": "/painel/mova-street/marketing-v2/feed-abertura-v3/previa-grade.jpg",
+"telas": [
+"/painel/mova-street/marketing-v2/feed-abertura-v3/painel-inteiro.jpg",
+"/painel/mova-street/marketing-v2/feed-abertura-v3/post-01.jpg",
+"/painel/mova-street/marketing-v2/feed-abertura-v3/post-02.jpg",
+"/painel/mova-street/marketing-v2/feed-abertura-v3/post-03.jpg"
+]
+},
+{
+"t": "Feed · 3 artes",
+"titulo": "Abertura do perfil v2: imagem única, luxo clean",
+"data": "18/11/2026",
+"linha": "Marketing v2",
+"st": "reprovado",
 "img": "/painel/mova-street/marketing-v2/feed-abertura-v2/previa-grade.jpg",
 "telas": [
 "/painel/mova-street/marketing-v2/feed-abertura-v2/painel-inteiro.jpg",
 "/painel/mova-street/marketing-v2/feed-abertura-v2/post-01.jpg",
 "/painel/mova-street/marketing-v2/feed-abertura-v2/post-02.jpg",
 "/painel/mova-street/marketing-v2/feed-abertura-v2/post-03.jpg"
-]
+],
+"nota": "foco errado: carro em vez da tela"
 },
 {
 "t": "Feed · 3 artes",
