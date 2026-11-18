@@ -673,3 +673,4 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 - **18/11/2026 (Zuleide) · aguardando OK:** 10 carrosséis do Passaporte (gravuras de Doré na cor de cinema na capa + telas na identidade do produto; legendas SEO; prompts do Gemini opcionais) em `conteudo/youtube/passaporte/instagram/carrosseis/`; e página de venda do Passaporte (`produto/venda/`, prévia https://claude.ai/artifact/QirBWjUaTJKsCmt3hxizMh, preço e checkout em aberto).
 
 - **18/11/2026 (Lindson, conta Leandro): "sempre que criar um painel, coloque imediatamente na aba de clientes".** Painel novo entra na hora no admin.html (menu, __CLIENTES, NOMES) e no _distribuir.js. Falha que gerou a regra: o painel da Mova Street ficou fora da aba de clientes.
+- 18/11/2026 (Lindson, conta Leandro) · Mova Street: REPROVADA a logo negativa com caixa azul sobre fundo preto. Em fundo escuro usar a horizontal DEGRADÊ em PNG transparente (2400 px).
