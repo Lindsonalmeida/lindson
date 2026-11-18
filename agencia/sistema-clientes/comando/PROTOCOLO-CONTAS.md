@@ -33,7 +33,7 @@ U=https://lindsonalmeida.pages.dev/api/automacao; H=(-H "Authorization: Bearer $
    **Pedido feito na conversa** (o Lindson pediu direto na conta): ponha na fila para nada ser refeito.
    `-d '{"acao":"criar","conta":"Pedro","cli":"jaci","func":"reels","texto":"Reels sobre clareamento","pegar":true}'`
    Com `pegar:true` o pedido já fica com você (`andamento`); sem ele, o distribuidor escolhe a conta. Pedido igual aberto nos últimos 14 dias dá 409 com o existente (use `forcar:true` só se for outro).
-5. **Fazer** seguindo o `CLAUDE.md` (memória, persona, pesquisa premium e as regras de cada cliente).
+5. **Fazer** seguindo o `CLAUDE.md` (memória, persona, pesquisa premium e as regras de cada cliente) e **conferir pelo padrão de exigência** (`agencia/processos/padrao-de-exigencia.md`: zoom, 8 critérios de imagem de IA, sem fotomontagem) antes de marcar "pronto".
    - **Precisa de algo do Lindson?** Pergunte, com respostas rápidas:
      `-d '{"id":"<id>","acao":"pergunta","conta":"Pedro","texto":"Uso a foto 1 ou a 2?","opcoes":["Foto 1","Foto 2","Pode seguir"]}'`
      O pedido fica "Esperando você" na página. Na próxima rodada, leia a resposta em `conversa`.

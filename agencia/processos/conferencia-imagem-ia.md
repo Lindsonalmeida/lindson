@@ -9,3 +9,5 @@ Antes de usar QUALQUER imagem de IA (nossa ou do Gemini do Lindson), ampliar e c
 7. **Mensagem:** em 1 segundo dá para entender o produto do cliente?
 8. **Qualidade:** resolução suficiente para o formato final (sem ampliar mais de 1,5×), sem artefatos.
 Registrar a conferência no README da peça (item: ok/erro).
+
+Nota (18/11): o proibido é fotomontagem que finge ser foto real. Recorte de pessoa real sobre o fundo gráfico da arte (padrão Leo/Jaci) continua valendo. O prompt também passa por estes 8 critérios antes de ir para o Gemini. Padrão completo: `agencia/processos/padrao-de-exigencia.md`.

@@ -4,6 +4,15 @@
 
 > **CONFERIR TODAS AS REGRAS ANTES DE TUDO (Lindson, 16/11/2026: "verifique todas as regras das equipes em todos os repositórios sempre quando eu pedir algo. Não cometa mais nenhum erro"):** em todo pedido, antes de executar, ler as regras dos DOIS repositórios (este `CLAUDE.md` + `MEMORIA-DO-LINDSON.md` resumo e reprovados; o `CLAUDE.md` do privado `CentralLindsonALmeida`; `.claude/agents/` do agente usado) e a versão MAIS RECENTE aprovada do projeto (`git log` de todos os branches; ex.: Al Kántara v1 foi reprovada, vale a v2). Antes de mandar qualquer arquivo, abrir a página 1 e páginas do meio e conferir: marca certa, último visual aprovado, nada cortado, sem promessa, sem número inventado. Refeito = nome de arquivo novo (-v2).
 
+> **PADRÃO DE EXIGÊNCIA (Lindson, 18/11/2026: "seja exigente e detalhista"; "fixe todas essas regras de exigência para todas as equipes"):** vale para todas as contas, agentes, rotinas e clientes; documento completo em `agencia/processos/padrao-de-exigencia.md` (repo lindson).
+> - O primeiro crítico é você: nada vai como "pronto" sem conferência com zoom (imagem ampliada, PDF na capa/meio/fim, site em 390 e 1440 px, painel no ar).
+> - Achou erro, diga em lista, corrija e vire regra; nunca esconda limitação (QR falso, foto repetida).
+> - Reprovação vale para trás: audite todas as peças já entregues com a mesma técnica e proponha a troca sem esperar pedido.
+> - Revise também o próprio prompt, plano e texto (contradição, geometria impossível, número inventado, ortografia).
+> - Imagem de IA: 8 critérios de `agencia/processos/conferencia-imagem-ia.md`; um erro = não usa. Resolução: no máximo 1,5× de ampliação.
+> - Respiro sim, vazio de sentido não: clean que comunica (ele reprovou "colagem" e também "ainda está vazio").
+> - Recorte de pessoa real sobre fundo gráfico (Leo/Jaci) continua valendo; o proibido é fotomontagem que finge ser foto real.
+>
 > **QUEM ACIONAR EM CADA ENTREGA, TODO CLIENTE (Lindson, 18/11/2026: "não adianta ter os agentes se você não usa a inteligência"):** antes de executar, montar o time (lidera → revisam) e passar o pedido por todos:
 > - Feed/arte/post: designer-grafico → social-media (gancho, legenda), Copy squad (frase), Brand squad (marca). Pizzaria: Paollo; campanha de comida: Rocco.
 > - Abertura de perfil (bio, destaques, 3 primeiros posts): social-media → designer-grafico, Donald Miller (one-liner), Brand squad.
@@ -22,7 +31,7 @@
 > - **Preço:** sempre "a partir de" em material público e comercial (o valor fecha na conversa); bio do Instagram sem valores, preço só na seção de planos.
 > - **Painel do cliente:** nasce com TODAS as regras de painel já aprovadas (aba de clientes no admin, código de acesso + mensagem oficial, Postados, Tarefas feitas, Fotos/Usadas, Aprovações com download, Treinamento, Arquivos, Demandas, Agendamentos com WhatsApp, CRM completo, Financeiro, Notícias do nicho, logo e cores do cliente) e com aparência única na identidade do cliente. Só a marca do cliente aparece (nunca nome de outra marca/holding).
 > - **CRM:** o mais completo (kanban do funil, ficha, linha do tempo, follow-ups automáticos, botão WhatsApp que registra e avança, agendamentos, propostas, contratos, métricas, CSV).
-> - **Nada de montagem de foto (18/11):** nunca colar tela/anúncio em perspectiva, recortar pessoa ou juntar fotos. Cena inteira gerada por IA num prompt só (Lindson gera no Gemini; a equipe escreve o prompt) e por cima só tipografia e logo vetorial.
+> - **Nada de montagem de foto (18/11):** nunca colar tela/anúncio/logo em perspectiva numa foto, inserir pessoa recortada numa cena fotográfica ou juntar fotos (recorte de pessoa real sobre fundo gráfico da arte continua valendo). Cena inteira gerada por IA num prompt só (Lindson gera no Gemini; a equipe escreve o prompt) e por cima só tipografia e logo vetorial.
 > - **Imagem de IA só depois da conferência (18/11):** ampliar e checar os 8 critérios de `agencia/processos/conferencia-imagem-ia.md` (lógica da cena, olhar e direção dos objetos, fixação e escala, mãos, geometria do carro, texto/QR falso, mensagem, resolução). Um erro = não usa.
 > - **Site do cliente:** no repositório próprio do cliente (nomecliente.pages.dev), nunca dentro da Central.
 >

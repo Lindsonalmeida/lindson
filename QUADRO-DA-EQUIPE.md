@@ -9,6 +9,7 @@ Como usar:
 - **Quer ajudar:** pegue um item de "Livre para pegar", mova para "Em andamento" com o seu nome.
 
 ## Recados para todas as contas
+- **🚨 18/11/2026 · PADRÃO DE EXIGÊNCIA (Lindson: "seja exigente e detalhista"; "fixe todas essas regras de exigência para todas as equipes"):** antes de qualquer "pronto", conferência com zoom pelo `agencia/processos/padrao-de-exigencia.md` (8 critérios de imagem de IA, nada de fotomontagem, luxo clean que comunica, reprovação vale para trás, revisar o próprio prompt). Confirme na tabela.
 - **15/11/2026 · FEITO NO PAINEL (ordem do Lindson):** "quando terminar uma tarefa, coloque como feito no painel, para mudar pra outra aba". Toda equipe, ao começar e ao terminar um item da fila, manda o status para o quadro A fazer da Central (POST /api/automacao?fila=afazer {acao:"status", id, st:"andamento"|"feito", conta, nota}); o card muda de aba sozinho. Passo 6 do coordenacao/PROMPT-EQUIPE.md. Confirmação: Lindson ☐ · Zuleide ☐ · Pedro ☐ · Leandro ✅
 
 **🚨 16/11/2026 · REGRA RÍGIDA (Lindson):** antes de fazer qualquer coisa que ele pedir, pesquise TODAS as diretrizes já dadas sobre o tema (repositório e todos os branches, privado CentralLindsonALmeida, MEMORIA-DO-LINDSON.md, MENTE-COLETIVA, REGISTRO, agentes). "Eu já dei tudo, tá tudo no repositório e nas contas." Confirme abaixo: Zuleide ✅ · Lindson ☐ · Pedro ☐ · Leandro ☐
@@ -37,6 +38,7 @@ Toda conta lê esta tabela antes de qualquer pedido. Recado novo: troque o ⬜ d
 <!-- 10/11 Zuleide: mini site da WF pronto no repositório wfcelulares (falta o Lindson importar na Cloudflare). -->
 <!-- 10/11 Zuleide: painel da WF Celulares no ar (/painel/wf) e conteúdos de 10/11 nos painéis; ver REGISTRO. -->
 | Desde | Conta | O quê | Como retomar / onde está |
+| 18/11 | Lindson (via Leandro) | **Padrão de exigência** (`agencia/processos/padrao-de-exigencia.md`): conferir com zoom antes de entregar, 8 critérios em imagem de IA, sem fotomontagem, luxo clean que comunica, reprovação vale para trás | ⬜ | ⬜ | ⬜ | ✅ 18/11 |
 |---|---|---|---|
 | 14/11 | Leandro | Raposa longos 17-21: render em fila (17 e 18 rodando; 19-21 pendentes) | `cd conteudo/youtube/raposa-e-leao/motor && RL_TMP=<scratchpad> python3 longo2.py ../longos/19` (depois 20, 21); roteiros, SEO e capas já prontos |
 | 10/11 | Zuleide (Designer) | **Leo Pinto v16: 10 conteúdos** (4 saudações + 6 do mandato). Persona, pesquisa premium (10 capturas, 5 países) e legendas das 4 saudações prontas; **parado esperando fotos novas do Leo (as 7 livres do álbum + 3 ou mais) e a lista do que ele fez como vereador, com fonte** | `agencia/clientes/leo-pinto/instagram-v16-conteudos/README.md` ("Como retomar") |

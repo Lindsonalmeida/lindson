@@ -16,6 +16,8 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 
 ## RESUMO CONSOLIDADO (leia primeiro) — atualizado 15/11/2026, conta Zuleide
 
+> **PADRÃO DE EXIGÊNCIA (Lindson, 18/11/2026, conta Leandro): "seja exigente e detalhista" / "fixe todas essas regras de exigência para todas as equipes".** Documento: `agencia/processos/padrao-de-exigencia.md`. Conferência com zoom antes de qualquer "pronto"; 8 critérios em toda imagem de IA (`conferencia-imagem-ia.md`); erro dito em lista e virado regra; reprovação vale para trás (auditar peças antigas); revisar o próprio prompt/texto; nada de fotomontagem que finge foto real; luxo clean que comunica (nem colagem, nem vazio). Origem: Mova Street, imagem com 8 erros mandada sem conferir e 4 aberturas de feed reprovadas.
+
 > **TRABALHAR DE FORMA AUTÔNOMA (Lindson, 18/11/2026, conta Pedro): "não quero resolver nada de forma manual, resolva tudo para a criação da ferramenta. Veja quais agentes precisa, conectores, extensão e skills, sempre."** Nunca devolver passo manual ao Lindson quando dá para resolver por código, servidor, conector, extensão ou agente. Exemplo: MotionForge passou a usar a chave do fal.ai guardada no servidor (/api/fal, segredo FAL_KEY), sem colar chave no navegador. Só pedir ao Lindson o que é impossível automatizar (login, pagamento, chave que só ele pode gerar), uma única vez e em 1 linha.
 
 > **Capas sensacionalistas APROVADAS (17/11/2026, conta Pedro): "ficaram perfeitas".** Carrosséis Economist 2027 (Raposa e Leão): imagem cinematográfica gerada no Gemini pelo Lindson (prompts em conteudo/youtube/previsoes/carrosseis-economist-2027/PROMPTS-GEMINI.md) + recorte REAL da capa como prova em dossiê (papel, fita, círculo vermelho, seta, crédito) + título-pergunta em Anton com 1 palavra ouro e 1 tarja vermelha + gancho em tarja amarela + selo + "imagem gerada por IA". Gerador: capas_v2.py. Usar esse modelo para capas polêmicas/virais.
@@ -43,9 +45,9 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 1. **Persona antes de criar** (5 linhas: quem, idade, rotina, dor, confiança) — "essa pessoa compraria disso?" (05/11).
 2. **Pesquisa premium no mundo todo antes de toda peça visual**, ≥8 referências de ≥3 países, 3 escolhidas, `TEMPLATE.md` (05/11; "você sempre tá esquecendo", 05/11). Régua de premium: Sermo/Dublê (03/11), "obra de arte" (04/11).
 3. **Nunca do zero: copiar a composição de um modelo** e citar qual (03/11).
-4. **Nada simplista**: camadas, glamour, zero espaço vazio, sem fundo liso (10/11 curso; 14/11 Provedor; 06/11 Orégano).
+4. **Nada simplista** (atualizado 18/11: agora é *luxo clean que comunica*: respiro intencional sim, vazio de sentido não; colagem proibida): camadas, glamour, zero espaço vazio, sem fundo liso (10/11 curso; 14/11 Provedor; 06/11 Orégano).
 5. **Nunca capa/arte só com texto**: sempre foto real ou banco realista (10/11).
-6. **Pessoa sempre recortada** (nunca foto inteira), **do busto para cima, em destaque**, rosto inteiro visível, sem borda de recorte aparente (03/11, 04/11, 10/11, 14/11).
+6. **Pessoa sempre recortada** (vale para foto real sobre fundo gráfico da arte; desde 18/11 é proibido inserir pessoa recortada dentro de cena fotográfica: a cena vem inteira da IA) (nunca foto inteira), **do busto para cima, em destaque**, rosto inteiro visível, sem borda de recorte aparente (03/11, 04/11, 10/11, 14/11).
 7. **Foto usada uma única vez** (aba Usadas, `FOTOS-USADAS.md`); quando acabar, pedir mais (04/11, 06/11, 14/11).
 8. **Mesma identidade em todos os canais** do cliente (Instagram, YouTube, TikTok, site) "para gerar conexão" (15/11).
 9. **Série = mesma identidade, composição diferente em cada peça**; carrossel sem repetir layout/foto; estático nunca 2 seguidos na mesma composição/cor; feed harmônico em xadrez (CLAUDE.md; 03/11; 04/11; 10/11).
@@ -91,6 +93,7 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 6. **Voz fluida, sem soar IA** — 03/11, 05/11, 09/11, 10/11, 15/11.
 7. **Mesma identidade em todos os canais/apps** — 02/11, 03/11, 15/11.
 8. **Resposta curta** — 03/11, 08/11.
+9. **Exigência e conferência antes de entregar** — 16/11 ("não cometa mais nenhum erro"), 18/11 ("seja exigente e detalhista", "você não tem critérios?").
 
 ### Contradições anotadas
 - Capas do Passaporte: CLAUDE.md (01/11) diz só `capas2.py`; vale a v3 jovem aprovada em 10/11 para longos (Shorts seguem o `capas2.py`, sem decisão nova).

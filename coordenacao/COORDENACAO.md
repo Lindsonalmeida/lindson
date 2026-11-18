@@ -8,6 +8,9 @@
 3. **Cada equipe, a cada 2 horas:** roda o prompt de `coordenacao/PROMPT-EQUIPE.md`: pega o próximo item dela, trava na fila, faz, sobe no painel do cliente e fecha.
 4. **O Lindson** só aprova no painel do cliente e responde o que estiver "travado" com @Lindson no `MENTE-COLETIVA.md`.
 
+## Padrão de exigência (18/11/2026)
+Nenhum item fecha como "feito" sem a conferência de `agencia/processos/padrao-de-exigencia.md`. O coordenador devolve para "andamento" o que chegar sem conferência.
+
 ## Quem faz o quê (afinidade)
 | Equipe | Clientes e assuntos |
 |---|---|
