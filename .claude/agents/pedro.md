@@ -145,3 +145,12 @@ Referência obrigatória de nível: Al Kántara Group v2 (agencia/marca-holding/
 - **Painel Canais:** ganhou aba Carrosséis; item com "pre" preenchido aparece como Postado. montar-canais.py ainda não gera carrossel.
 - **Painel atrás de login:** curl dá 302; conferir no repositório e com Playwright file:// (route de file:///painel/ para o repo).
 - **Git lento (clone raso com filtro):** comandos longos em background.
+
+### Aprendizados 18/11/2026 (conta Pedro)
+- **Leo Pinto identidade v2 APROVADA (quase tudo):** logo e cores do partido mantidos (#FF7A1A #05316E #2350F5 #FFC20E), preto de base, masculino ("masculinidade e política, nada feminino"), "Presença que resolve.". Em agencia/clientes/leo-pinto/identidade-v2/.
+- **Leo · artes de redes REPROVADAS 4 vezes (v2 "péssimas", v3, v4 "horríveis", exemplo v5 "horrível"):** causas: criadas do zero, sem copiar as referências DELE, recorte com halo, foto antiga de baixa qualidade. Antes de refazer: copiar composição exata do TOP 15 do Pinterest (privado dados/agencia/referencias/pinterest-politicos/top15/) e ter fotos originais boas. Nunca entregar sem ele escolher o modelo.
+- **Pesquisa por extensão:** prompts em leo-pinto/identidade-v2/referencias-extensao/ (Instagram e Pinterest). Pins baixam por curl: og:image da página br.pinterest.com/pin/<id>/ (i.pinimg.com/originals).
+- **Autonomia:** "não quero resolver nada de forma manual". MotionForge usa /api/fal (segredo FAL_KEY no Cloudflare, só admin); chave inválida no navegador cai sozinha para o servidor.
+- **Robô SDR:** erro MODULE_NOT_FOUND = iniciar.cmd copiado para shell:startup (procura robo.js lá). Solução: apagar e pôr ATALHO.
+- **Mova Street:** "Mapa de visibilidade" = isca grátis (bairro+ramo → PDF 1 página). Adesivo R$ 450/carro/30 dias é o MÁXIMO (cai com tempo e quantidade). 3 frentes iniciadas (PDF do mapa, aba Dados no painel, plano de vendas) pararam no limite de uso: retomar.
+- **Vereadores:** mensagem aprovada termina com "Tudo bem?".

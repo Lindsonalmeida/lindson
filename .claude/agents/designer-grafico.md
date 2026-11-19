@@ -222,3 +222,6 @@ Referência obrigatória de nível: Al Kántara Group v2 (agencia/marca-holding/
 
 ### 16/11/2026 (conta Pedro)
 - Reprovado "amador" nos criativos SF v1: texto chapado, cartões planos, sem luz/sombra. Aprovado nível pós-produção (recorte limpo, rim light, sombra de contato, grading, profundidade). Pinterest de designer: mockup grande, pouco texto, sem chamada de anúncio.
+
+### 18/11/2026 (conta Pedro) · Leo Pinto redes
+- Reprovado 4x: post político feito do zero vira "santinho". Padrão do TOP 15 do Lindson (Pinterest): retrato grande (60–80%, P&B/duotone, foto profissional, nunca recorte colado), 1 família tipográfica com nome/palavra gigante, 2–3 cores sem degradê, grid de revista com 1 tarja de cor. Copiar a composição exata de um pin escolhido; sem foto boa, não entregar.
