@@ -1,6 +1,20 @@
 [
 {
 "t": "Feed · 3 artes",
+"titulo": "Abertura do perfil v5: foto Gemini aprovada (prévia, aguardando versão 4K)",
+"data": "19/11/2026",
+"linha": "Marketing v2",
+"st": "aguardando",
+"img": "/painel/mova-street/marketing-v2/feed-abertura-v5/previa-grade.jpg",
+"telas": [
+"/painel/mova-street/marketing-v2/feed-abertura-v5/painel-inteiro.jpg",
+"/painel/mova-street/marketing-v2/feed-abertura-v5/post-01.jpg",
+"/painel/mova-street/marketing-v2/feed-abertura-v5/post-02.jpg",
+"/painel/mova-street/marketing-v2/feed-abertura-v5/post-03.jpg"
+]
+},
+{
+"t": "Feed · 3 artes",
 "titulo": "Abertura do perfil v4: foto gerada por IA, só tipografia por cima",
 "data": "18/11/2026",
 "linha": "Marketing v2",
