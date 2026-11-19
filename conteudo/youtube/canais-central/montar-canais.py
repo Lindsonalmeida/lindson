@@ -171,7 +171,7 @@ def pagode():
     ent = json.load(open(os.path.join(PJ, 'entrega.json'))) if os.path.exists(os.path.join(PJ, 'entrega.json')) else {}
     pub = json.load(open(os.path.join(PJ, 'publicar.json'))) if os.path.exists(os.path.join(PJ, 'publicar.json')) else {}
     if os.path.exists(os.path.join(LV, 'album.html')):
-        mat.append(dict(titulo='Álbum completo · Copo Americano ao vivo (~38 min)', sub='As 11 faixas aprovadas em sequência, com capítulos (album-capitulos.txt). Abre numa página que junta as partes e baixa como um arquivo só.', st='aguardando aprovação',
+        mat.append(dict(titulo='Álbum completo · Copo Americano ao vivo (~38 min)', sub='As 11 faixas aprovadas em sequência, com capítulos (album-capitulos.txt). Abre numa página que toca as 11 em sequência.', st='aguardando aprovação',
                         imgs=['/painel/canais/pagode/longos-v2/capa06.jpg'], links=[dict(nome='Assistir / baixar o álbum', url='/painel/canais/pagode/longos-v2/album.html')]))
     for k in sorted(pub):
         if not os.path.exists(os.path.join(LV, f'pagode-fiado-{k}-v2.mp4')): continue
