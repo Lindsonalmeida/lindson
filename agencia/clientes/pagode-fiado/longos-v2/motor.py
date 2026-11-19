@@ -111,8 +111,8 @@ CAST = {'00': ['tiao', 'davi', 'copo'], '01': ['davi', 'neguinho', 'bia', 'ze', 
         '06': ['davi', 'tiao', 'neguinho', 'bia', 'juninho', 'ze', 'rafa', 'copo', 'bar'], '07': ['davi', 'copo', 'juninho', 'bia', 'neguinho'],
         '08': ['ze', 'davi', 'rafa', 'neguinho', 'juninho'], '09': ['bia', 'davi', 'neguinho', 'juninho', 'tiao', 'ze', 'rafa'],
         '10': ['davi', 'bia', 'juninho', 'neguinho', 'ze', 'rafa', 'tiao', 'bar']}[K]
-ABRE_IMG = {'00': ('copo', 'mesa'), '01': ('bar', 'esq'), '02': ('bar', 'dir'), '03': ('rafa', 'tanta'), '04': ('copo', 'caderno'), '05': ('copo', 'caderno'),
-            '06': ('copo', 'titulo'), '07': ('copo', 'copo'), '08': ('ze', 'pandeiro'), '09': ('bar', 'dir'), '10': ('bar', 'esq')}[K]
+ABRE_IMG = {'00': ('copo', 'mesa'), '01': ('bar', 'esq'), '02': ('bar', 'dir'), '03': ('rafa', 'medio'), '04': ('copo', 'caderno'), '05': ('copo', 'caderno'),
+            '06': ('copo', 'titulo'), '07': ('copo', 'copo'), '08': ('ze', 'medio'), '09': ('bar', 'dir'), '10': ('bar', 'esq')}[K]
 CUE = [('seu tiao', 'tiao'), ('neguinho', 'neguinho'), ('cavaco', 'neguinho'), ('rebolo', 'bia'), ('bia ', 'bia'), ('mestre ze', 'ze'), ('pandeiro', 'ze'),
        ('juninho', 'juninho'), ('banjo', 'juninho'), ('tanta', 'rafa'), ('tum', 'rafa'), ('copo', 'copo'), ('mesa', 'copo'), ('bilhete', 'copo'),
        ('geladeira', 'copo'), ('guardanapo', 'copo'), ('cafe', 'copo'), ('caderno', 'tiao')]
