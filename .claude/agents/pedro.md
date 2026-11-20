@@ -154,3 +154,8 @@ Referência obrigatória de nível: Al Kántara Group v2 (agencia/marca-holding/
 - **Robô SDR:** erro MODULE_NOT_FOUND = iniciar.cmd copiado para shell:startup (procura robo.js lá). Solução: apagar e pôr ATALHO.
 - **Mova Street:** "Mapa de visibilidade" = isca grátis (bairro+ramo → PDF 1 página). Adesivo R$ 450/carro/30 dias é o MÁXIMO (cai com tempo e quantidade). 3 frentes iniciadas (PDF do mapa, aba Dados no painel, plano de vendas) pararam no limite de uso: retomar.
 - **Vereadores:** mensagem aprovada termina com "Tudo bem?".
+
+### Aprendizados 19/11/2026 (conta Pedro)
+- **Padrão de exigência (18/11):** agencia/processos/padrao-de-exigencia.md + conferencia-imagem-ia.md valem para tudo; mandar subagente aplicar antes de entregar.
+- **WF campanha Meta (10–18/11, dados do Leandro):** R$ 158,97 → 95 conversas → 5 vendas (~R$ 32/venda); vencedor = Reels "aparelho na mão + preço". Plano 19/11 em wf-celulares/trafego/. Relatório bruto da extensão NÃO está no repositório (ficou com o Leandro): pedir ao Lindson. Relatório completo em andamento.
+- **Limite de uso:** subagentes em paralelo esgotam o limite de 5 h e param juntos; retomar com SendMessage após o reset, e commitar o que ficou solto.
