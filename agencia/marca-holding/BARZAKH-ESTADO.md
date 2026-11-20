@@ -13,7 +13,10 @@
 - Identidade Al Kántara v1 (arcos literais, sépia, páginas vazias).
 - Projeto Designer v1 (slide recortado, placeholder).
 
-## Direção atual (Lindson, 16-17/11)
+## Decisão 20/11: sem imagem do Lindson
+"Não precisa ter minha imagem na marca": nada de foto ou rosto dele em nenhum canal; autoridade = cases, processo e acabamento. O que apresentar e o que refazer: `APRESENTAR.md`; método de mockup: `prompts-mockups/`.
+
+## Direção anterior (Lindson, 16-17/11; o trecho da foto foi substituído em 20/11)
 "Clean e rico, sem nada de pobre": luxo editorial, foto dele GRANDE de autoridade (cintura/peito pra cima), nada sobre o rosto, letras masculinas (caixa alta romana/condensada), 1 acento ouro sobre preto, cor dos cases dando vida. Sem fitas/neon/selos baratos. Vídeo sempre com voz dele, SFX, VFX. Imagens: ele gera no Gemini, equipe escreve os prompts.
 
 ## Em aprovação
