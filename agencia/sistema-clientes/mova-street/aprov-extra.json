@@ -1,10 +1,30 @@
 [
  {
   "t": "PDF",
-  "titulo": "Plano de vendas v1 (20 p.): meta até 30/11 e dezembro, 40 empresas, visitas, scripts e objeções",
+  "titulo": "Plano de vendas v2 (24 p.): tabela de adesivos do Paulo (piso R$ 380), capacidade, bônus e garantia oficiais, visitas dos 40",
   "data": "20/11/2026",
   "linha": "Comercial",
   "st": "aguardando",
+  "arq": "/painel/mova-street/plano-vendas/mova-street-plano-de-vendas-v2.pdf",
+  "img": "/painel/mova-street/plano-vendas/plano-v2-01.jpg",
+  "telas": [
+   "/painel/mova-street/plano-vendas/plano-v2-02.jpg",
+   "/painel/mova-street/plano-vendas/plano-v2-03.jpg",
+   "/painel/mova-street/plano-vendas/plano-v2-04.jpg",
+   "/painel/mova-street/plano-vendas/plano-v2-07.jpg",
+   "/painel/mova-street/plano-vendas/plano-v2-08.jpg",
+   "/painel/mova-street/plano-vendas/plano-v2-09.jpg",
+   "/painel/mova-street/plano-vendas/plano-v2-10.jpg",
+   "/painel/mova-street/plano-vendas/plano-v2-13.jpg",
+   "/painel/mova-street/plano-vendas/plano-v2-24.jpg"
+  ]
+ },
+ {
+  "t": "PDF",
+  "titulo": "Plano de vendas v1 (20 p.): meta até 30/11 e dezembro, 40 empresas, visitas, scripts e objeções",
+  "data": "20/11/2026",
+  "linha": "Comercial",
+  "st": "reprovado",
   "arq": "/painel/mova-street/plano-vendas/mova-street-plano-de-vendas-v1.pdf",
   "img": "/painel/mova-street/plano-vendas/plano-01.jpg",
   "telas": [
@@ -15,7 +35,8 @@
    "/painel/mova-street/plano-vendas/plano-10.jpg",
    "/painel/mova-street/plano-vendas/plano-14.jpg",
    "/painel/mova-street/plano-vendas/plano-20.jpg"
-  ]
+  ],
+  "nota": "substituído pela v2 (respostas do Paulo de 20/11)"
  },
  {
   "t": "PDF",
