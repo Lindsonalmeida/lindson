@@ -1,0 +1,381 @@
+{
+  "conferido": "19/11/2026",
+  "notaMercado": "Cada número foi aberto na fonte em 19/11/2026. Dado de fora do Brasil vem marcado com o país. O que não pôde ser confirmado ficou de fora: frota de veículos de São Luís, tempo de deslocamento só da Ilha e consumo por bairro.",
+  "tabela": {
+    "fonte": "Tabela oficial do Paulo (texto de 17/11 e áudios de 18/11/2026)",
+    "pacote": {
+      "10": 1600,
+      "15": 1800,
+      "20": 2000
+    },
+    "dias": 30,
+    "telas": 10,
+    "insercoesPorTela": 40,
+    "exclusividade": 0.5,
+    "exclusividadeMeses": 6,
+    "adesivoMax": 450
+  },
+  "mercado": [
+    {
+      "grupo": "Mídia fora de casa",
+      "itens": [
+        {
+          "v": 13.4,
+          "dec": 1,
+          "suf": "%",
+          "frase": "da verba de mídia do Brasil foi para a mídia fora de casa no 1º semestre de 2026, a maior fatia nos relatórios recentes do Cenp-Meios. O investimento cresceu 30% em um ano e chegou a R$ 1,86 bilhão.",
+          "onde": "Brasil · 1º semestre de 2026",
+          "fonte": "Cenp-Meios, via Meio & Mensagem",
+          "data": "21/09/2026",
+          "url": "https://www.meioemensagem.com.br/midia/ooh-e-o-meio-que-mais-cresce-em-investimentos-publicitarios",
+          "usar": "As marcas estão voltando para a rua: é a mídia que mais cresce no Brasil."
+        },
+        {
+          "pre": "R$",
+          "v": 4.4,
+          "dec": 1,
+          "suf": " bi",
+          "frase": "foram investidos em telas digitais fora de casa no Brasil em 2025, na primeira vez que o IAB Brasil mediu esse formato.",
+          "onde": "Brasil · 2025",
+          "fonte": "IAB Brasil e Ibope (Digital AdSpend 2026), via Meio & Mensagem",
+          "data": "29/04/2026",
+          "url": "https://www.meioemensagem.com.br/midia/iab-publicidade-digital-atinge-r-427-bilhoes-em-2025",
+          "usar": "Tela digital fora de casa já movimenta bilhões no país. A TV Cars leva essa tela para dentro do carro."
+        }
+      ]
+    },
+    {
+      "grupo": "Dentro do carro",
+      "itens": [
+        {
+          "v": 80,
+          "suf": "%",
+          "frase": "dos passageiros que viram anúncios na tela do carro disseram que o anúncio chamou a atenção.",
+          "onde": "Estados Unidos · 2024 · 1.000 passageiros",
+          "fonte": "MAGNA Media Trials e Uber, estudo Inside a Rideshare",
+          "data": "12/06/2024",
+          "url": "https://www.uber.com/us/en/advertising/insights/inside-rideshare/",
+          "usar": "No banco de trás, a tela fica de frente para o passageiro. O anúncio não briga com o feed do celular."
+        },
+        {
+          "v": 74,
+          "suf": "%",
+          "frase": "dos passageiros têm interesse em usar um cupom visto durante a corrida.",
+          "onde": "Estados Unidos · 2024",
+          "fonte": "MAGNA Media Trials e Uber",
+          "data": "12/06/2024",
+          "url": "https://magnaglobal.com/rideshare-tablets-deliver-memorable-rider-experience-opportunities-for-advertisers/",
+          "usar": "Ponha uma oferta com prazo no QR: é o que o passageiro quer usar."
+        },
+        {
+          "v": 76,
+          "suf": "%",
+          "frase": "de quem viu anúncio em tela digital fora de casa fez alguma coisa depois: 36% foram a um restaurante, 30% compraram na loja e 29% visitaram uma loja.",
+          "onde": "Estados Unidos · 2024 · 1.023 adultos",
+          "fonte": "OAAA e The Harris Poll",
+          "data": "30/04/2024",
+          "url": "https://digitalsignagepulse.com/pr/oaaa-commissioned-survey-shows-76-of-consumers-have-recently-taken-action-after-seeing-a-dooh-ad/",
+          "usar": "Tela digital faz a pessoa agir. Por isso todo anúncio da Mova sai com QR para o WhatsApp do cliente."
+        }
+      ]
+    },
+    {
+      "grupo": "Carro por aplicativo",
+      "itens": [
+        {
+          "v": 41,
+          "suf": "%",
+          "frase": "dos brasileiros usaram carro por aplicativo em março de 2026. Um ano antes, eram 38%.",
+          "onde": "Brasil · 2026 · 2.003 entrevistas",
+          "fonte": "Datafolha, divulgado pela 99, via Portal ClienteSA",
+          "data": "24/08/2026",
+          "url": "https://portal.clientesa.com.br/motos-impulsionam-crescimento-da-mobilidade-por-aplicativo-no-brasil/",
+          "usar": "Quatro em cada dez brasileiros andam de carro por aplicativo. É ali que a sua marca senta junto."
+        },
+        {
+          "v": 1.2,
+          "dec": 1,
+          "suf": " milhão",
+          "frase": "de pessoas trabalham no transporte de passageiros por aplicativo no Brasil.",
+          "onde": "Brasil · 2025",
+          "fonte": "IBGE, PNAD Contínua (estatística experimental)",
+          "data": "04/09/2026",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/47966-trabalhadores-de-transporte-de-passageiros-por-aplicativo-chegam-a-1-2-milhao-de-pessoas-no-pais",
+          "usar": "Carro de aplicativo roda em todo bairro, todo dia: é uma vitrine que anda pela cidade."
+        },
+        {
+          "v": 69.4,
+          "dec": 1,
+          "suf": "%",
+          "frase": "dos trabalhadores por aplicativo do Nordeste são motoristas de transporte de passageiros, a maior proporção do país.",
+          "onde": "Nordeste · 2024",
+          "fonte": "IBGE, PNAD Contínua",
+          "data": "17/10/2025",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2012-agencia-de-noticias/noticias/44806-numero-de-trabalhadores-por-aplicativos-cresceu-25-4-entre-2022-e-2024.html",
+          "usar": "Aqui no Nordeste, aplicativo é sobretudo carro rodando com passageiro."
+        }
+      ]
+    },
+    {
+      "grupo": "São Luís e a Ilha",
+      "itens": [
+        {
+          "v": 1.54,
+          "dec": 2,
+          "suf": " milhão",
+          "frase": "de pessoas moram na Ilha: São Luís, São José de Ribamar, Paço do Lumiar e Raposa. Só a capital tem 1.090.229 moradores.",
+          "onde": "Grande Ilha · estimativa de 2026",
+          "fonte": "IBGE, Estimativas da População 2026, via O Imparcial",
+          "data": "28/08/2026",
+          "url": "https://oimparcial.com.br/sao-luis/noticias/2026/08/maranhao-ultrapassa-7-milhoes-de-habitantes-e-sao-luis-concentra-109-milhao-de-residentes-aponta-ibge/",
+          "usar": "A frota roda numa ilha de 1,5 milhão de pessoas, dentro do mercado do seu cliente."
+        },
+        {
+          "v": 62.2,
+          "dec": 1,
+          "suf": "%",
+          "frase": "dos consumidores de São Luís que vão comprar na Black Friday 2026 preferem a loja física. Pela internet, só 20%.",
+          "onde": "São Luís · 2026 · 700 entrevistas",
+          "fonte": "Fecomércio-MA, via O Imparcial",
+          "data": "16/11/2026",
+          "url": "https://oimparcial.com.br/sao-luis/cidades/2026/11/black-friday-2026-lojas-fisicas-lideram-intencao-de-compra-em-sao-luis-mas-internet-domina-a-pesquisa-de-precos/",
+          "usar": "O cliente ainda compra na loja. Ele precisa lembrar do seu nome quando estiver na rua."
+        }
+      ]
+    },
+    {
+      "grupo": "Trânsito",
+      "itens": [
+        {
+          "v": 12.6,
+          "dec": 1,
+          "suf": "%",
+          "frase": "dos trabalhadores brasileiros levam mais de 1 hora para chegar ao trabalho. A maioria (57%) leva de 6 a 30 minutos.",
+          "onde": "Brasil · Censo 2022, divulgado em 2025",
+          "fonte": "IBGE, Censo 2022, via Agência Brasil",
+          "data": "09/10/2025",
+          "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2025-10/carro-e-o-principal-meio-de-transporte-para-o-trabalho-diz-censo",
+          "usar": "Todo dia tem gente parada no trânsito, olhando a rua. O vidro da Mova está nesse caminho."
+        }
+      ]
+    }
+  ],
+  "perspectivas": [
+    {
+      "titulo": "A tela digital está perto de passar o cartaz",
+      "dado": "No mundo, a mídia fora de casa movimentou US$ 54,2 bilhões em 2025, 15% a mais que em 2024. As telas digitais já são 47% desse valor e devem chegar a 49% em 2026. O Brasil é o 7º maior mercado: US$ 1,33 bilhão.",
+      "fonte": "WOO, Global Out of Home Expenditure Report 2026",
+      "data": "2026",
+      "url": "https://www.worldooh.org/news/woo-global-ooh-expenditure-report-2026",
+      "fazer": "Venda a TV Cars como mídia digital: arte trocada rápido, QR na tela e relatório no sistema.",
+      "n": {
+        "v": 47,
+        "suf": "%",
+        "rot": "das receitas de mídia fora de casa no mundo já vêm de telas digitais (2025)"
+      }
+    },
+    {
+      "titulo": "As plataformas de mobilidade viraram mídia",
+      "dado": "A publicidade da Uber passou de US$ 2,5 bilhões por ano (ritmo do 2º trimestre de 2026) e cresce cerca de 50% em 12 meses, inclusive com formatos durante a corrida.",
+      "fonte": "Uber, resultados do 2º trimestre de 2026",
+      "data": "05/08/2026",
+      "url": "https://s23.q4cdn.com/407969754/files/doc_earnings/2026/q2/transcript/Uber-Q2-26-Prepared-Remarks.pdf",
+      "fazer": "Mostre que anúncio durante a corrida já é negócio das grandes. A Mova traz isso para o comércio da Ilha.",
+      "n": {
+        "pre": "US$",
+        "v": 2.5,
+        "dec": 1,
+        "suf": " bi",
+        "rot": "por ano em publicidade na Uber (ritmo do 2º tri de 2026)"
+      }
+    },
+    {
+      "titulo": "A compra automática de telas ainda é pequena",
+      "dado": "A compra programática de telas digitais somou US$ 2,1 bilhões em 2025, só 8,4% do que as telas digitais faturaram no mundo.",
+      "fonte": "WOO, Global Out of Home Expenditure Report 2026",
+      "data": "2026",
+      "url": "https://www.worldooh.org/news/woo-global-ooh-expenditure-report-2026",
+      "fazer": "Por enquanto, tela se vende olho no olho. Guarde o relatório de cada campanha: é ele que abre a porta para agências e marcas grandes.",
+      "n": {
+        "v": 8.4,
+        "dec": 1,
+        "suf": "%",
+        "rot": "das telas digitais são compradas de forma automática"
+      }
+    }
+  ],
+  "datas": [
+    {
+      "nome": "Black Friday",
+      "ini": "2026-11-27",
+      "rotulo": "27/11/2026",
+      "dado": "Deve movimentar R$ 160 milhões em São Luís, 9,5% a mais que em 2025. 82,3% dos consumidores estão adiando compras para esperar a data, e 45% de quem pesquisa preço começa um mês antes.",
+      "fonte": "Fecomércio-MA, via Jornal Pequeno",
+      "data": "09/11/2026",
+      "url": "https://jornalpequeno.com.br/2026/11/09/black-friday-823-dos-consumidores-de-sao-luis-adiam-compras-a-espera-de-promocoes/",
+      "vender": "Feche os anúncios até o fim de outubro: o cliente começa a pesquisar um mês antes.",
+      "ate": "2026-10-31"
+    },
+    {
+      "nome": "Natal",
+      "ini": "2026-12-25",
+      "rotulo": "25/12/2026",
+      "dado": "34,7% dos consumidores de São Luís vão aproveitar a Black Friday para adiantar os presentes de Natal. O comércio da capital deve abrir 888 vagas formais no fim do ano.",
+      "fonte": "Fecomércio-MA, via O Imparcial",
+      "data": "13/11/2026",
+      "url": "https://oimparcial.com.br/economia/2026/11/natal-antecipado-347-dos-consumidores-de-sao-luis-vao-aproveitar-a-black-friday-para-comprar-presentes/",
+      "vender": "Feche até o fim de novembro, para estar no ar quando o 13º salário cair.",
+      "ate": "2026-11-30"
+    },
+    {
+      "nome": "Carnaval",
+      "ini": "2027-02-05",
+      "fim": "2027-02-10",
+      "rotulo": "5 a 10/02/2027",
+      "dado": "O Carnaval de São Luís de 2026 teve público estimado em 5,4 milhões de pessoas ao longo da programação, segundo balanços oficiais.",
+      "fonte": "O Imparcial (datas de 2027: InfoMoney)",
+      "data": "20/02/2026",
+      "url": "https://oimparcial.com.br/cidades/2026/02/sao-luis-supera-recife-e-vira-5o-maior-carnaval-do-pais/",
+      "vender": "Venda em dezembro e janeiro para bares, eventos, moda e delivery.",
+      "ate": "2027-01-15"
+    },
+    {
+      "nome": "São João",
+      "ini": "2027-06-01",
+      "fim": "2027-06-30",
+      "rotulo": "junho de 2027",
+      "dado": "O São João do Maranhão de 2025 movimentou cerca de R$ 415 milhões na economia do estado, segundo o Imesc.",
+      "fonte": "Imesc, via O Imparcial",
+      "data": "29/07/2025",
+      "url": "https://oimparcial.com.br/noticias/2025/07/sao-joao-do-maranhao-2025-movimenta-mais-de-r-400-milhoes-na-economia-do-estado/",
+      "vender": "Venda em abril e maio, para estar no ar no começo de junho.",
+      "ate": "2027-05-15"
+    },
+    {
+      "nome": "Black Friday",
+      "ini": "2027-11-26",
+      "rotulo": "26/11/2027",
+      "dado": "Em 2026, a previsão era de R$ 160 milhões em São Luís, com 82,3% dos consumidores esperando a data para comprar.",
+      "fonte": "Fecomércio-MA, via Jornal Pequeno",
+      "data": "09/11/2026",
+      "url": "https://jornalpequeno.com.br/2026/11/09/black-friday-823-dos-consumidores-de-sao-luis-adiam-compras-a-espera-de-promocoes/",
+      "vender": "Feche os anúncios até o fim de outubro: o cliente começa a pesquisar um mês antes.",
+      "ate": "2027-10-31"
+    },
+    {
+      "nome": "Natal",
+      "ini": "2027-12-25",
+      "rotulo": "25/12/2027",
+      "dado": "Em 2026, 34,7% dos consumidores de São Luís adiantaram os presentes de Natal para a Black Friday.",
+      "fonte": "Fecomércio-MA, via O Imparcial",
+      "data": "13/11/2026",
+      "url": "https://oimparcial.com.br/economia/2026/11/natal-antecipado-347-dos-consumidores-de-sao-luis-vao-aproveitar-a-black-friday-para-comprar-presentes/",
+      "vender": "Feche até o fim de novembro, para estar no ar quando o 13º salário cair.",
+      "ate": "2027-11-30"
+    }
+  ],
+  "nichos": [
+    {
+      "id": "clinica",
+      "nome": "Clínica",
+      "dor": "Muita clínica boa depende só de indicação, e no mês fraco sente no caixa.",
+      "argumento": "A marca aparece todo dia no caminho do paciente, antes de ele precisar. O QR leva direto para marcar a avaliação.",
+      "dado": "80% dos passageiros que viram anúncio na tela do carro disseram que ele chamou a atenção.",
+      "fonte": "MAGNA Media Trials e Uber · Estados Unidos, 2024",
+      "url": "https://www.uber.com/us/en/advertising/insights/inside-rideshare/",
+      "whats": "Oi, [nome]! Tudo bem? Aqui é o {vendedor}, da Mova Street, de São Luís.\nMuita clínica boa depende só de indicação, e no mês fraco sente no caixa.\nA gente coloca sua clínica na tela e no vidro dos carros de aplicativo da Ilha.\nPosso te mostrar como fica?",
+      "cuidado": "Saúde: no anúncio, nada de promessa de resultado nem de antes e depois."
+    },
+    {
+      "id": "academia",
+      "nome": "Academia",
+      "dor": "Horário vazio na academia é dinheiro parado.",
+      "argumento": "Presença constante para quem mora e circula perto. O QR leva para marcar a aula experimental.",
+      "dado": "41% dos brasileiros usaram carro por aplicativo em março de 2026.",
+      "fonte": "Datafolha · Brasil, 2026",
+      "url": "https://portal.clientesa.com.br/motos-impulsionam-crescimento-da-mobilidade-por-aplicativo-no-brasil/",
+      "whats": "Oi, [nome]! Tudo bem? Aqui é o {vendedor}, da Mova Street, de São Luís.\nHorário vazio na academia é dinheiro parado.\nA gente coloca sua academia na tela e no vidro dos carros de aplicativo da Ilha, com QR pra aula experimental.\nPosso te mostrar como fica?"
+    },
+    {
+      "id": "restaurante",
+      "nome": "Restaurante",
+      "dor": "Fim de semana bomba, e de segunda a quarta o movimento cai.",
+      "argumento": "O passageiro está na rua, decidindo onde comer. O QR leva direto para o cardápio ou para a reserva.",
+      "dado": "36% de quem viu anúncio em tela digital fora de casa foi a um restaurante depois.",
+      "fonte": "OAAA e The Harris Poll · Estados Unidos, 2024",
+      "url": "https://digitalsignagepulse.com/pr/oaaa-commissioned-survey-shows-76-of-consumers-have-recently-taken-action-after-seeing-a-dooh-ad/",
+      "whats": "Oi, [nome]! Tudo bem? Aqui é o {vendedor}, da Mova Street, de São Luís.\nFim de semana bomba, e de segunda a quarta o movimento cai.\nA gente coloca seu restaurante na tela dos carros de aplicativo, com QR pro seu WhatsApp.\nPosso te mostrar como fica?"
+    },
+    {
+      "id": "delivery",
+      "nome": "Delivery",
+      "dor": "O cliente pede uma vez, gosta… e esquece de pedir de novo.",
+      "argumento": "Cupom no QR: o passageiro guarda a oferta e pede quando chega em casa.",
+      "dado": "74% dos passageiros têm interesse em usar um cupom visto durante a corrida.",
+      "fonte": "MAGNA Media Trials e Uber · Estados Unidos, 2024",
+      "url": "https://magnaglobal.com/rideshare-tablets-deliver-memorable-rider-experience-opportunities-for-advertisers/",
+      "whats": "Oi, [nome]! Tudo bem? Aqui é o {vendedor}, da Mova Street, de São Luís.\nO cliente pede uma vez, gosta… e esquece de pedir de novo.\nA gente coloca seu delivery na tela dos carros de aplicativo, com um cupom no QR.\nPosso te mostrar como fica?"
+    },
+    {
+      "id": "loja",
+      "nome": "Loja",
+      "dor": "Coleção nova parada no estoque é dinheiro preso.",
+      "argumento": "O cliente pesquisa no celular, mas compra na loja. A marca precisa estar no caminho dele.",
+      "dado": "62,2% dos consumidores de São Luís preferem comprar na loja física na Black Friday 2026.",
+      "fonte": "Fecomércio-MA · São Luís, 2026",
+      "url": "https://oimparcial.com.br/sao-luis/cidades/2026/11/black-friday-2026-lojas-fisicas-lideram-intencao-de-compra-em-sao-luis-mas-internet-domina-a-pesquisa-de-precos/",
+      "whats": "Oi, [nome]! Tudo bem? Aqui é o {vendedor}, da Mova Street, de São Luís.\nColeção nova parada no estoque é dinheiro preso.\nA gente coloca sua loja na tela e no vidro dos carros de aplicativo da Ilha.\nPosso te mostrar como fica?"
+    },
+    {
+      "id": "imobiliaria",
+      "nome": "Imobiliária",
+      "dor": "Imóvel parado no portal custa caro todo mês.",
+      "argumento": "Lançamento precisa ser visto pela Ilha toda. O QR leva direto para agendar a visita.",
+      "dado": "1,54 milhão de pessoas moram na Ilha de São Luís.",
+      "fonte": "IBGE, estimativa de 2026",
+      "url": "https://oimparcial.com.br/sao-luis/noticias/2026/08/maranhao-ultrapassa-7-milhoes-de-habitantes-e-sao-luis-concentra-109-milhao-de-residentes-aponta-ibge/",
+      "whats": "Oi, [nome]! Tudo bem? Aqui é o {vendedor}, da Mova Street, de São Luís.\nImóvel parado no portal custa caro todo mês.\nA gente coloca seu lançamento na tela e no vidro dos carros de aplicativo que rodam pela Ilha.\nPosso te mostrar como fica?"
+    }
+  ],
+  "objecoes": [
+    {
+      "obj": "Tá caro.",
+      "porTras": "ele ainda não sabe se vale o dinheiro.",
+      "resposta": "Entendo. Pensa por dia: as 10 telas com vídeo de 10 segundos saem a partir de R$ 53 por dia, com QR pro seu WhatsApp e relatório. Dá pra começar com 30 dias e decidir o resto com os números na mão. Faz sentido começar assim?"
+    },
+    {
+      "obj": "Já faço Instagram.",
+      "porTras": "ele acha que é a mesma coisa.",
+      "resposta": "Ótimo, continua! O Instagram fala com quem já te segue. A tela fala com quem está na rua e ainda não te conhece, e o QR traz essa pessoa pro seu WhatsApp. Um completa o outro."
+    },
+    {
+      "obj": "Como eu sei que funciona?",
+      "porTras": "ele tem medo de pagar e não ver nada.",
+      "resposta": "Você acompanha tudo: o sistema mostra os cliques no QR, o tempo de tela ligada e o mapa das rotas. No vidro, você recebe fotos e os quilômetros rodados. A renovação você decide olhando esses números."
+    },
+    {
+      "obj": "Quantas pessoas vão ver?",
+      "porTras": "ele quer uma garantia.",
+      "resposta": "Número de pessoas eu não prometo, porque depende das corridas. O que está no contrato é a programação: seu anúncio passa a partir de 40 vezes por dia em cada uma das 10 telas. E o QR mostra quantas pessoas chamaram de verdade."
+    },
+    {
+      "obj": "Vou pensar.",
+      "porTras": "ficou uma dúvida que ele não falou.",
+      "resposta": "Claro. Pra eu te ajudar: o que pesa mais, o valor, o momento ou se combina com o seu ramo? Te deixo a proposta de 1 página e te chamo amanhã pra gente tirar essa dúvida."
+    },
+    {
+      "obj": "Agora não é o momento.",
+      "porTras": "ele não vê urgência.",
+      "resposta": "Entendo. Qual é o mês mais forte do seu ramo? Te procuro 30 dias antes, que é o tempo de preparar a arte e entrar no ar antes do movimento. Pode ser?"
+    }
+  ],
+  "lembretes": [
+    "Nunca prometa alcance nem resultado. Visualização, só como “estimativa da empresa”.",
+    "Preço sempre “a partir de”: o valor final fecha na conversa. Em material público, o adesivo é “sob consulta”.",
+    "Propaganda eleitoral em carro de aplicativo é proibida pelo TSE (decisão de 2026). Não venda espaço para candidato."
+  ],
+  "lembreteFonte": {
+    "texto": "TSE, via CNN Brasil · 03/08/2026",
+    "url": "https://www.cnnbrasil.com.br/eleicoes/tse-proibe-propaganda-eleitoral-em-carros-de-aplicativo/"
+  }
+}
