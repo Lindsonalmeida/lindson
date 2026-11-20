@@ -1,265 +1,289 @@
 [
-{
-"t": "Feed · 3 artes",
-"titulo": "Abertura do perfil v5: foto Gemini aprovada (prévia, aguardando versão 4K)",
-"data": "19/11/2026",
-"linha": "Marketing v2",
-"st": "aguardando",
-"img": "/painel/mova-street/marketing-v2/feed-abertura-v5/previa-grade.jpg",
-"telas": [
-"/painel/mova-street/marketing-v2/feed-abertura-v5/painel-inteiro.jpg",
-"/painel/mova-street/marketing-v2/feed-abertura-v5/post-01.jpg",
-"/painel/mova-street/marketing-v2/feed-abertura-v5/post-02.jpg",
-"/painel/mova-street/marketing-v2/feed-abertura-v5/post-03.jpg"
-]
-},
-{
-"t": "Feed · 3 artes",
-"titulo": "Abertura do perfil v4: foto gerada por IA, só tipografia por cima",
-"data": "18/11/2026",
-"linha": "Marketing v2",
-"st": "reprovado",
-"img": "/painel/mova-street/marketing-v2/feed-abertura-v4/previa-grade.jpg",
-"telas": [
-"/painel/mova-street/marketing-v2/feed-abertura-v4/painel-inteiro.jpg",
-"/painel/mova-street/marketing-v2/feed-abertura-v4/post-01.jpg",
-"/painel/mova-street/marketing-v2/feed-abertura-v4/post-02.jpg",
-"/painel/mova-street/marketing-v2/feed-abertura-v4/post-03.jpg"
-],
-"nota": "imagem com erros (passageiro na frente, tela só com QR)"
-},
-{
-"t": "Feed · 3 artes",
-"titulo": "Abertura do perfil v3.1: passageiro, tela e benefícios",
-"data": "18/11/2026",
-"linha": "Marketing v2",
-"st": "reprovado",
-"img": "/painel/mova-street/marketing-v2/feed-abertura-v3/previa-grade-v3.1.jpg",
-"telas": [
-"/painel/mova-street/marketing-v2/feed-abertura-v3/painel-inteiro-v3.1.jpg",
-"/painel/mova-street/marketing-v2/feed-abertura-v3/post-01-v3.1.jpg",
-"/painel/mova-street/marketing-v2/feed-abertura-v3/post-02-v3.1.jpg",
-"/painel/mova-street/marketing-v2/feed-abertura-v3/post-03-v3.1.jpg"
-],
-"nota": "montagem de fotos (proibido)"
-},
-{
-"t": "Feed · 3 artes",
-"titulo": "Abertura do perfil v3: a tela como protagonista",
-"data": "18/11/2026",
-"linha": "Marketing v2",
-"st": "reprovado",
-"img": "/painel/mova-street/marketing-v2/feed-abertura-v3/previa-grade.jpg",
-"telas": [
-"/painel/mova-street/marketing-v2/feed-abertura-v3/painel-inteiro.jpg",
-"/painel/mova-street/marketing-v2/feed-abertura-v3/post-01.jpg",
-"/painel/mova-street/marketing-v2/feed-abertura-v3/post-02.jpg",
-"/painel/mova-street/marketing-v2/feed-abertura-v3/post-03.jpg"
-],
-"nota": "montagem de fotos (proibido)"
-},
-{
-"t": "Feed · 3 artes",
-"titulo": "Abertura do perfil v2: imagem única, luxo clean",
-"data": "18/11/2026",
-"linha": "Marketing v2",
-"st": "reprovado",
-"img": "/painel/mova-street/marketing-v2/feed-abertura-v2/previa-grade.jpg",
-"telas": [
-"/painel/mova-street/marketing-v2/feed-abertura-v2/painel-inteiro.jpg",
-"/painel/mova-street/marketing-v2/feed-abertura-v2/post-01.jpg",
-"/painel/mova-street/marketing-v2/feed-abertura-v2/post-02.jpg",
-"/painel/mova-street/marketing-v2/feed-abertura-v2/post-03.jpg"
-],
-"nota": "foco errado: carro em vez da tela"
-},
-{
-"t": "Feed · 3 artes",
-"titulo": "Abertura do perfil v1 (reprovada: colagem, sem cara de luxo)",
-"data": "18/11/2026",
-"linha": "Marketing v2",
-"st": "reprovado",
-"img": "/painel/mova-street/marketing-v2/feed-abertura/previa-grade.jpg",
-"telas": [
-"/painel/mova-street/marketing-v2/feed-abertura/painel-inteiro.jpg",
-"/painel/mova-street/marketing-v2/feed-abertura/post-01.jpg",
-"/painel/mova-street/marketing-v2/feed-abertura/post-02.jpg",
-"/painel/mova-street/marketing-v2/feed-abertura/post-03.jpg"
-]
-},
-{
-"t": "PDF",
-"titulo": "Apresentação comercial v2 (14 p.): tabela oficial do Paulo, luxo clean",
-"data": "18/11/2026",
-"linha": "Comercial",
-"st": "aguardando",
-"arq": "/painel/mova-street/apresentacao-v2/mova-street-apresentacao-v2.pdf",
-"img": "/painel/mova-street/apresentacao-v2/01.jpg",
-"telas": [
-"/painel/mova-street/apresentacao-v2/02.jpg",
-"/painel/mova-street/apresentacao-v2/03.jpg",
-"/painel/mova-street/apresentacao-v2/04.jpg",
-"/painel/mova-street/apresentacao-v2/05.jpg",
-"/painel/mova-street/apresentacao-v2/06.jpg",
-"/painel/mova-street/apresentacao-v2/07.jpg",
-"/painel/mova-street/apresentacao-v2/08.jpg",
-"/painel/mova-street/apresentacao-v2/09.jpg",
-"/painel/mova-street/apresentacao-v2/10.jpg",
-"/painel/mova-street/apresentacao-v2/11.jpg",
-"/painel/mova-street/apresentacao-v2/12.jpg",
-"/painel/mova-street/apresentacao-v2/13.jpg",
-"/painel/mova-street/apresentacao-v2/14.jpg"
-],
-"nota": "pacote 10 telas por 30 dias a partir de R$ 1.600/1.800/2.000; adesivo até R$ 450; exclusividade 6 meses +50%"
-},
-{
-"t": "PDF",
-"titulo": "Apresentação comercial v1 (14 p.) · substituída pela v2",
-"data": "18/11/2026",
-"linha": "Comercial",
-"st": "reprovado",
-"arq": "/painel/mova-street/apresentacao-v1/mova-street-apresentacao-v1.pdf",
-"img": "/painel/mova-street/apresentacao-v1/01.jpg",
-"telas": [
-"/painel/mova-street/apresentacao-v1/02.jpg",
-"/painel/mova-street/apresentacao-v1/03.jpg",
-"/painel/mova-street/apresentacao-v1/04.jpg",
-"/painel/mova-street/apresentacao-v1/05.jpg",
-"/painel/mova-street/apresentacao-v1/06.jpg",
-"/painel/mova-street/apresentacao-v1/07.jpg",
-"/painel/mova-street/apresentacao-v1/08.jpg",
-"/painel/mova-street/apresentacao-v1/09.jpg",
-"/painel/mova-street/apresentacao-v1/10.jpg",
-"/painel/mova-street/apresentacao-v1/11.jpg",
-"/painel/mova-street/apresentacao-v1/12.jpg",
-"/painel/mova-street/apresentacao-v1/13.jpg",
-"/painel/mova-street/apresentacao-v1/14.jpg"
-],
-"nota": "substituída pela v2: preços antigos (por tela/combo de 5) e fotos montadas"
-},
-{
-"t": "PDF",
-"titulo": "Estratégia de marketing e comercial v2 (30 p.): linhas editoriais, calendário de 30 dias, funil",
-"data": "18/11/2026",
-"linha": "Marketing v2",
-"st": "aguardando",
-"arq": "/painel/mova-street/marketing-v2/estrategia/mova-street-estrategia-v2.pdf",
-"img": "/painel/mova-street/marketing-v2/estrategia/estrategia-01.jpg",
-"telas": [
-"/painel/mova-street/marketing-v2/estrategia/estrategia-03.jpg",
-"/painel/mova-street/marketing-v2/estrategia/estrategia-06.jpg",
-"/painel/mova-street/marketing-v2/estrategia/estrategia-12.jpg",
-"/painel/mova-street/marketing-v2/estrategia/estrategia-21.jpg",
-"/painel/mova-street/marketing-v2/estrategia/estrategia-27.jpg"
-]
-},
-{
-"t": "PDF",
-"titulo": "Proposta de 1 página (editável)",
-"data": "18/11/2026",
-"linha": "Comercial",
-"st": "aguardando",
-"arq": "/painel/mova-street/marketing-v2/estrategia/proposta-1-pagina.html",
-"img": "/painel/mova-street/marketing-v2/estrategia/proposta-previa.jpg"
-},
-{
-"t": "PDF",
-"titulo": "Roteiro de visita (2 telas, para o celular)",
-"data": "18/11/2026",
-"linha": "Comercial",
-"st": "aguardando",
-"arq": "/painel/mova-street/marketing-v2/estrategia/roteiro-de-visita.pdf",
-"img": "/painel/mova-street/marketing-v2/estrategia/visita-01.jpg",
-"telas": [
-"/painel/mova-street/marketing-v2/estrategia/visita-02.jpg"
-]
-},
-{
-"t": "Feed · 12 artes",
-"titulo": "Feed v2 estilo Bynet (1080×1350, carrossel panorâmico)",
-"data": "18/11/2026",
-"linha": "Marketing v2",
-"st": "aguardando",
-"img": "/painel/mova-street/marketing-v2/feed-v2/previa-grade.jpg",
-"telas": [
-"/painel/mova-street/marketing-v2/feed-v2/post-01.jpg",
-"/painel/mova-street/marketing-v2/feed-v2/post-02.jpg",
-"/painel/mova-street/marketing-v2/feed-v2/post-03.jpg",
-"/painel/mova-street/marketing-v2/feed-v2/post-04.jpg",
-"/painel/mova-street/marketing-v2/feed-v2/post-05.jpg",
-"/painel/mova-street/marketing-v2/feed-v2/post-06.jpg",
-"/painel/mova-street/marketing-v2/feed-v2/post-07.jpg",
-"/painel/mova-street/marketing-v2/feed-v2/post-08.jpg",
-"/painel/mova-street/marketing-v2/feed-v2/post-09.jpg",
-"/painel/mova-street/marketing-v2/feed-v2/post-10.jpg",
-"/painel/mova-street/marketing-v2/feed-v2/post-11.jpg",
-"/painel/mova-street/marketing-v2/feed-v2/post-12.jpg"
-]
-},
-{
-"t": "Destaques · 6",
-"titulo": "Capas de destaque + 22 stories fixados",
-"data": "18/11/2026",
-"linha": "Marketing v2",
-"st": "aguardando",
-"arq": "/painel/mova-street/marketing-v2/destaques/mova-destaques-jpg.zip",
-"img": "/painel/mova-street/marketing-v2/destaques/previa-perfil.jpg",
-"telas": [
-"/painel/mova-street/marketing-v2/destaques/capa-clientes.jpg",
-"/painel/mova-street/marketing-v2/destaques/capa-funciona.jpg",
-"/painel/mova-street/marketing-v2/destaques/capa-motorista.jpg",
-"/painel/mova-street/marketing-v2/destaques/capa-planos.jpg",
-"/painel/mova-street/marketing-v2/destaques/capa-relatorio.jpg",
-"/painel/mova-street/marketing-v2/destaques/capa-rua.jpg"
-]
-},
-{
-"t": "Site",
-"titulo": "Site premium + site bio (prévia)",
-"data": "18/11/2026",
-"linha": "Site v1",
-"st": "aguardando",
-"arq": "https://movastreet.pages.dev/",
-"img": "/painel/mova-street/site-v1/desktop-dobra.jpg",
-"telas": [
-"/painel/mova-street/site-v1/bio-mobile-dobra.jpg",
-"/painel/mova-street/site-v1/bio-mobile-inteira.jpg",
-"/painel/mova-street/site-v1/desktop-dobra.jpg",
-"/painel/mova-street/site-v1/desktop-inteira.jpg",
-"/painel/mova-street/site-v1/mobile-dobra.jpg",
-"/painel/mova-street/site-v1/mobile-inteira.jpg"
-]
-},
-{
-"t": "PDF",
-"titulo": "Estratégia de marketing e vendas v1 (19 p.)",
-"data": "18/11/2026",
-"linha": "Marketing v1",
-"st": "aguardando",
-"arq": "/painel/mova-street/marketing-v1/mova-street-estrategia-v1.pdf",
-"img": "/painel/mova-street/marketing-v1/estrategia-01.jpg",
-"telas": [
-"/painel/mova-street/marketing-v1/estrategia-05.jpg",
-"/painel/mova-street/marketing-v1/estrategia-12.jpg"
-]
-},
-{
-"t": "Feed · 9 artes",
-"titulo": "Feed v1 · grade 3×3 (1080×1350)",
-"data": "18/11/2026",
-"linha": "Marketing v1",
-"st": "aguardando",
-"img": "/painel/mova-street/marketing-v1/previa-grade.jpg",
-"telas": [
-"/painel/mova-street/marketing-v1/post-01.jpg",
-"/painel/mova-street/marketing-v1/post-02.jpg",
-"/painel/mova-street/marketing-v1/post-03.jpg",
-"/painel/mova-street/marketing-v1/post-04.jpg",
-"/painel/mova-street/marketing-v1/post-05.jpg",
-"/painel/mova-street/marketing-v1/post-06.jpg",
-"/painel/mova-street/marketing-v1/post-07.jpg",
-"/painel/mova-street/marketing-v1/post-08.jpg",
-"/painel/mova-street/marketing-v1/post-09.jpg"
-]
-}
+ {
+  "t": "PDF",
+  "titulo": "Mapa de visibilidade · guia comercial (10 p.)",
+  "data": "20/11/2026",
+  "linha": "Comercial",
+  "st": "aguardando",
+  "arq": "/painel/mova-street/mapa-visibilidade/mova-street-mapa-de-visibilidade-v1.pdf",
+  "img": "/painel/mova-street/mapa-visibilidade/p01.jpg",
+  "telas": [
+   "/painel/mova-street/mapa-visibilidade/p02.jpg",
+   "/painel/mova-street/mapa-visibilidade/p05.jpg",
+   "/painel/mova-street/mapa-visibilidade/p07.jpg",
+   "/painel/mova-street/mapa-visibilidade/p08.jpg"
+  ]
+ },
+ {
+  "t": "Modelo",
+  "titulo": "Mapa de visibilidade de 1 página (modelo editável + exemplo)",
+  "data": "20/11/2026",
+  "linha": "Comercial",
+  "st": "aguardando",
+  "arq": "/painel/mova-street/mapa-visibilidade/modelo-mapa-1-pagina.html",
+  "img": "/painel/mova-street/mapa-visibilidade/exemplo.jpg"
+ },
+ {
+  "t": "Feed · 3 artes",
+  "titulo": "Abertura do perfil v5: foto Gemini aprovada (prévia, aguardando versão 4K)",
+  "data": "19/11/2026",
+  "linha": "Marketing v2",
+  "st": "aguardando",
+  "img": "/painel/mova-street/marketing-v2/feed-abertura-v5/previa-grade.jpg",
+  "telas": [
+   "/painel/mova-street/marketing-v2/feed-abertura-v5/painel-inteiro.jpg",
+   "/painel/mova-street/marketing-v2/feed-abertura-v5/post-01.jpg",
+   "/painel/mova-street/marketing-v2/feed-abertura-v5/post-02.jpg",
+   "/painel/mova-street/marketing-v2/feed-abertura-v5/post-03.jpg"
+  ]
+ },
+ {
+  "t": "Feed · 3 artes",
+  "titulo": "Abertura do perfil v4: foto gerada por IA, só tipografia por cima",
+  "data": "18/11/2026",
+  "linha": "Marketing v2",
+  "st": "reprovado",
+  "img": "/painel/mova-street/marketing-v2/feed-abertura-v4/previa-grade.jpg",
+  "telas": [
+   "/painel/mova-street/marketing-v2/feed-abertura-v4/painel-inteiro.jpg",
+   "/painel/mova-street/marketing-v2/feed-abertura-v4/post-01.jpg",
+   "/painel/mova-street/marketing-v2/feed-abertura-v4/post-02.jpg",
+   "/painel/mova-street/marketing-v2/feed-abertura-v4/post-03.jpg"
+  ],
+  "nota": "imagem com erros (passageiro na frente, tela só com QR)"
+ },
+ {
+  "t": "Feed · 3 artes",
+  "titulo": "Abertura do perfil v3.1: passageiro, tela e benefícios",
+  "data": "18/11/2026",
+  "linha": "Marketing v2",
+  "st": "reprovado",
+  "img": "/painel/mova-street/marketing-v2/feed-abertura-v3/previa-grade-v3.1.jpg",
+  "telas": [
+   "/painel/mova-street/marketing-v2/feed-abertura-v3/painel-inteiro-v3.1.jpg",
+   "/painel/mova-street/marketing-v2/feed-abertura-v3/post-01-v3.1.jpg",
+   "/painel/mova-street/marketing-v2/feed-abertura-v3/post-02-v3.1.jpg",
+   "/painel/mova-street/marketing-v2/feed-abertura-v3/post-03-v3.1.jpg"
+  ],
+  "nota": "montagem de fotos (proibido)"
+ },
+ {
+  "t": "Feed · 3 artes",
+  "titulo": "Abertura do perfil v3: a tela como protagonista",
+  "data": "18/11/2026",
+  "linha": "Marketing v2",
+  "st": "reprovado",
+  "img": "/painel/mova-street/marketing-v2/feed-abertura-v3/previa-grade.jpg",
+  "telas": [
+   "/painel/mova-street/marketing-v2/feed-abertura-v3/painel-inteiro.jpg",
+   "/painel/mova-street/marketing-v2/feed-abertura-v3/post-01.jpg",
+   "/painel/mova-street/marketing-v2/feed-abertura-v3/post-02.jpg",
+   "/painel/mova-street/marketing-v2/feed-abertura-v3/post-03.jpg"
+  ],
+  "nota": "montagem de fotos (proibido)"
+ },
+ {
+  "t": "Feed · 3 artes",
+  "titulo": "Abertura do perfil v2: imagem única, luxo clean",
+  "data": "18/11/2026",
+  "linha": "Marketing v2",
+  "st": "reprovado",
+  "img": "/painel/mova-street/marketing-v2/feed-abertura-v2/previa-grade.jpg",
+  "telas": [
+   "/painel/mova-street/marketing-v2/feed-abertura-v2/painel-inteiro.jpg",
+   "/painel/mova-street/marketing-v2/feed-abertura-v2/post-01.jpg",
+   "/painel/mova-street/marketing-v2/feed-abertura-v2/post-02.jpg",
+   "/painel/mova-street/marketing-v2/feed-abertura-v2/post-03.jpg"
+  ],
+  "nota": "foco errado: carro em vez da tela"
+ },
+ {
+  "t": "Feed · 3 artes",
+  "titulo": "Abertura do perfil v1 (reprovada: colagem, sem cara de luxo)",
+  "data": "18/11/2026",
+  "linha": "Marketing v2",
+  "st": "reprovado",
+  "img": "/painel/mova-street/marketing-v2/feed-abertura/previa-grade.jpg",
+  "telas": [
+   "/painel/mova-street/marketing-v2/feed-abertura/painel-inteiro.jpg",
+   "/painel/mova-street/marketing-v2/feed-abertura/post-01.jpg",
+   "/painel/mova-street/marketing-v2/feed-abertura/post-02.jpg",
+   "/painel/mova-street/marketing-v2/feed-abertura/post-03.jpg"
+  ]
+ },
+ {
+  "t": "PDF",
+  "titulo": "Apresentação comercial v2 (14 p.): tabela oficial do Paulo, luxo clean",
+  "data": "18/11/2026",
+  "linha": "Comercial",
+  "st": "aguardando",
+  "arq": "/painel/mova-street/apresentacao-v2/mova-street-apresentacao-v2.pdf",
+  "img": "/painel/mova-street/apresentacao-v2/01.jpg",
+  "telas": [
+   "/painel/mova-street/apresentacao-v2/02.jpg",
+   "/painel/mova-street/apresentacao-v2/03.jpg",
+   "/painel/mova-street/apresentacao-v2/04.jpg",
+   "/painel/mova-street/apresentacao-v2/05.jpg",
+   "/painel/mova-street/apresentacao-v2/06.jpg",
+   "/painel/mova-street/apresentacao-v2/07.jpg",
+   "/painel/mova-street/apresentacao-v2/08.jpg",
+   "/painel/mova-street/apresentacao-v2/09.jpg",
+   "/painel/mova-street/apresentacao-v2/10.jpg",
+   "/painel/mova-street/apresentacao-v2/11.jpg",
+   "/painel/mova-street/apresentacao-v2/12.jpg",
+   "/painel/mova-street/apresentacao-v2/13.jpg",
+   "/painel/mova-street/apresentacao-v2/14.jpg"
+  ],
+  "nota": "pacote 10 telas por 30 dias a partir de R$ 1.600/1.800/2.000; adesivo até R$ 450; exclusividade 6 meses +50%"
+ },
+ {
+  "t": "PDF",
+  "titulo": "Apresentação comercial v1 (14 p.) · substituída pela v2",
+  "data": "18/11/2026",
+  "linha": "Comercial",
+  "st": "reprovado",
+  "arq": "/painel/mova-street/apresentacao-v1/mova-street-apresentacao-v1.pdf",
+  "img": "/painel/mova-street/apresentacao-v1/01.jpg",
+  "telas": [
+   "/painel/mova-street/apresentacao-v1/02.jpg",
+   "/painel/mova-street/apresentacao-v1/03.jpg",
+   "/painel/mova-street/apresentacao-v1/04.jpg",
+   "/painel/mova-street/apresentacao-v1/05.jpg",
+   "/painel/mova-street/apresentacao-v1/06.jpg",
+   "/painel/mova-street/apresentacao-v1/07.jpg",
+   "/painel/mova-street/apresentacao-v1/08.jpg",
+   "/painel/mova-street/apresentacao-v1/09.jpg",
+   "/painel/mova-street/apresentacao-v1/10.jpg",
+   "/painel/mova-street/apresentacao-v1/11.jpg",
+   "/painel/mova-street/apresentacao-v1/12.jpg",
+   "/painel/mova-street/apresentacao-v1/13.jpg",
+   "/painel/mova-street/apresentacao-v1/14.jpg"
+  ],
+  "nota": "substituída pela v2: preços antigos (por tela/combo de 5) e fotos montadas"
+ },
+ {
+  "t": "PDF",
+  "titulo": "Estratégia de marketing e comercial v2 (30 p.): linhas editoriais, calendário de 30 dias, funil",
+  "data": "18/11/2026",
+  "linha": "Marketing v2",
+  "st": "aguardando",
+  "arq": "/painel/mova-street/marketing-v2/estrategia/mova-street-estrategia-v2.pdf",
+  "img": "/painel/mova-street/marketing-v2/estrategia/estrategia-01.jpg",
+  "telas": [
+   "/painel/mova-street/marketing-v2/estrategia/estrategia-03.jpg",
+   "/painel/mova-street/marketing-v2/estrategia/estrategia-06.jpg",
+   "/painel/mova-street/marketing-v2/estrategia/estrategia-12.jpg",
+   "/painel/mova-street/marketing-v2/estrategia/estrategia-21.jpg",
+   "/painel/mova-street/marketing-v2/estrategia/estrategia-27.jpg"
+  ]
+ },
+ {
+  "t": "PDF",
+  "titulo": "Proposta de 1 página (editável)",
+  "data": "18/11/2026",
+  "linha": "Comercial",
+  "st": "aguardando",
+  "arq": "/painel/mova-street/marketing-v2/estrategia/proposta-1-pagina.html",
+  "img": "/painel/mova-street/marketing-v2/estrategia/proposta-previa.jpg"
+ },
+ {
+  "t": "PDF",
+  "titulo": "Roteiro de visita (2 telas, para o celular)",
+  "data": "18/11/2026",
+  "linha": "Comercial",
+  "st": "aguardando",
+  "arq": "/painel/mova-street/marketing-v2/estrategia/roteiro-de-visita.pdf",
+  "img": "/painel/mova-street/marketing-v2/estrategia/visita-01.jpg",
+  "telas": [
+   "/painel/mova-street/marketing-v2/estrategia/visita-02.jpg"
+  ]
+ },
+ {
+  "t": "Feed · 12 artes",
+  "titulo": "Feed v2 estilo Bynet (1080×1350, carrossel panorâmico)",
+  "data": "18/11/2026",
+  "linha": "Marketing v2",
+  "st": "aguardando",
+  "img": "/painel/mova-street/marketing-v2/feed-v2/previa-grade.jpg",
+  "telas": [
+   "/painel/mova-street/marketing-v2/feed-v2/post-01.jpg",
+   "/painel/mova-street/marketing-v2/feed-v2/post-02.jpg",
+   "/painel/mova-street/marketing-v2/feed-v2/post-03.jpg",
+   "/painel/mova-street/marketing-v2/feed-v2/post-04.jpg",
+   "/painel/mova-street/marketing-v2/feed-v2/post-05.jpg",
+   "/painel/mova-street/marketing-v2/feed-v2/post-06.jpg",
+   "/painel/mova-street/marketing-v2/feed-v2/post-07.jpg",
+   "/painel/mova-street/marketing-v2/feed-v2/post-08.jpg",
+   "/painel/mova-street/marketing-v2/feed-v2/post-09.jpg",
+   "/painel/mova-street/marketing-v2/feed-v2/post-10.jpg",
+   "/painel/mova-street/marketing-v2/feed-v2/post-11.jpg",
+   "/painel/mova-street/marketing-v2/feed-v2/post-12.jpg"
+  ]
+ },
+ {
+  "t": "Destaques · 6",
+  "titulo": "Capas de destaque + 22 stories fixados",
+  "data": "18/11/2026",
+  "linha": "Marketing v2",
+  "st": "aguardando",
+  "arq": "/painel/mova-street/marketing-v2/destaques/mova-destaques-jpg.zip",
+  "img": "/painel/mova-street/marketing-v2/destaques/previa-perfil.jpg",
+  "telas": [
+   "/painel/mova-street/marketing-v2/destaques/capa-clientes.jpg",
+   "/painel/mova-street/marketing-v2/destaques/capa-funciona.jpg",
+   "/painel/mova-street/marketing-v2/destaques/capa-motorista.jpg",
+   "/painel/mova-street/marketing-v2/destaques/capa-planos.jpg",
+   "/painel/mova-street/marketing-v2/destaques/capa-relatorio.jpg",
+   "/painel/mova-street/marketing-v2/destaques/capa-rua.jpg"
+  ]
+ },
+ {
+  "t": "Site",
+  "titulo": "Site premium + site bio (prévia)",
+  "data": "18/11/2026",
+  "linha": "Site v1",
+  "st": "aguardando",
+  "arq": "https://movastreet.pages.dev/",
+  "img": "/painel/mova-street/site-v1/desktop-dobra.jpg",
+  "telas": [
+   "/painel/mova-street/site-v1/bio-mobile-dobra.jpg",
+   "/painel/mova-street/site-v1/bio-mobile-inteira.jpg",
+   "/painel/mova-street/site-v1/desktop-dobra.jpg",
+   "/painel/mova-street/site-v1/desktop-inteira.jpg",
+   "/painel/mova-street/site-v1/mobile-dobra.jpg",
+   "/painel/mova-street/site-v1/mobile-inteira.jpg"
+  ]
+ },
+ {
+  "t": "PDF",
+  "titulo": "Estratégia de marketing e vendas v1 (19 p.)",
+  "data": "18/11/2026",
+  "linha": "Marketing v1",
+  "st": "aguardando",
+  "arq": "/painel/mova-street/marketing-v1/mova-street-estrategia-v1.pdf",
+  "img": "/painel/mova-street/marketing-v1/estrategia-01.jpg",
+  "telas": [
+   "/painel/mova-street/marketing-v1/estrategia-05.jpg",
+   "/painel/mova-street/marketing-v1/estrategia-12.jpg"
+  ]
+ },
+ {
+  "t": "Feed · 9 artes",
+  "titulo": "Feed v1 · grade 3×3 (1080×1350)",
+  "data": "18/11/2026",
+  "linha": "Marketing v1",
+  "st": "aguardando",
+  "img": "/painel/mova-street/marketing-v1/previa-grade.jpg",
+  "telas": [
+   "/painel/mova-street/marketing-v1/post-01.jpg",
+   "/painel/mova-street/marketing-v1/post-02.jpg",
+   "/painel/mova-street/marketing-v1/post-03.jpg",
+   "/painel/mova-street/marketing-v1/post-04.jpg",
+   "/painel/mova-street/marketing-v1/post-05.jpg",
+   "/painel/mova-street/marketing-v1/post-06.jpg",
+   "/painel/mova-street/marketing-v1/post-07.jpg",
+   "/painel/mova-street/marketing-v1/post-08.jpg",
+   "/painel/mova-street/marketing-v1/post-09.jpg"
+  ]
+ }
 ]

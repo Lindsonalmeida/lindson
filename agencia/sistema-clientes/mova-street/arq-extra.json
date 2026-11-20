@@ -1,93 +1,121 @@
 [
-[
-"Apresentação comercial v2 (PDF, 14 p.)",
-"PDF",
-"18/11/2026",
-"aguardando",
-"/painel/mova-street/apresentacao-v2/mova-street-apresentacao-v2.pdf"
-],
-[
-"Apresentação comercial v1 (PDF, 14 p.) · substituída pela v2",
-"PDF",
-"18/11/2026",
-"reprovado",
-"/painel/mova-street/apresentacao-v1/mova-street-apresentacao-v1.pdf"
-],
-[
-"Estratégia v2 (PDF, 30 p.)",
-"PDF",
-"18/11/2026",
-"aguardando",
-"/painel/mova-street/marketing-v2/estrategia/mova-street-estrategia-v2.pdf"
-],
-[
-"Proposta de 1 página (PDF)",
-"PDF",
-"18/11/2026",
-"aguardando",
-"/painel/mova-street/marketing-v2/estrategia/proposta-1-pagina.pdf"
-],
-[
-"Roteiro de visita (PDF)",
-"PDF",
-"18/11/2026",
-"aguardando",
-"/painel/mova-street/marketing-v2/estrategia/roteiro-de-visita.pdf"
-],
-[
-"Destaques (capas + stories)",
-"ZIP",
-"18/11/2026",
-"aguardando",
-"/painel/mova-street/marketing-v2/destaques/mova-destaques-jpg.zip"
-],
-[
-"Site premium (prévia)",
-"Link",
-"18/11/2026",
-"aguardando",
-"https://movastreet.pages.dev/"
-],
-[
-"Site bio (prévia)",
-"Link",
-"18/11/2026",
-"aguardando",
-"https://movastreet.pages.dev/bio/"
-],
-[
-"Estratégia de marketing e vendas v1 (PDF, 19 p.)",
-"PDF",
-"18/11/2026",
-"aguardando",
-"/painel/mova-street/marketing-v1/mova-street-estrategia-v1.pdf"
-],
-[
-"Feed v1 · prévia da grade 3×3",
-"JPG",
-"18/11/2026",
-"aguardando",
-"/painel/mova-street/marketing-v1/previa-grade.jpg"
-],
-[
-"Brand book v3.2 (fotos, logo aplicada e frota, 23 p.)",
-"PDF",
-"18/11/2026",
-"aguardando",
-"/painel/mova-street/v3/mova-street-book-v3.2.pdf"
-],
-[
-"Manual de marca v3.2 (fotos e logo aplicada, 23 p.)",
-"PDF",
-"18/11/2026",
-"aguardando",
-"/painel/mova-street/v3/mova-street-manual-v3.2.pdf"
-],
-[
-"Prévia v3.2",
-"JPG",
-"18/11/2026",
-"aguardando",
-"/painel/mova-street/v3/previa-v3.2.jpg"
-]
+ [
+  "Mapa de 1 página · exemplo ilustrativo (PDF)",
+  "PDF",
+  "20/11/2026",
+  "aguardando",
+  "/painel/mova-street/mapa-visibilidade/exemplo-mapa-1-pagina.pdf"
+ ],
+ [
+  "Mapa de 1 página · modelo em branco (PDF)",
+  "PDF",
+  "20/11/2026",
+  "aguardando",
+  "/painel/mova-street/mapa-visibilidade/modelo-mapa-1-pagina.pdf"
+ ],
+ [
+  "Mapa de 1 página · modelo editável (HTML)",
+  "HTML",
+  "20/11/2026",
+  "aguardando",
+  "/painel/mova-street/mapa-visibilidade/modelo-mapa-1-pagina.html"
+ ],
+ [
+  "Mapa de visibilidade · guia comercial (PDF, 10 p.)",
+  "PDF",
+  "20/11/2026",
+  "aguardando",
+  "/painel/mova-street/mapa-visibilidade/mova-street-mapa-de-visibilidade-v1.pdf"
+ ],
+ [
+  "Apresentação comercial v2 (PDF, 14 p.)",
+  "PDF",
+  "18/11/2026",
+  "aguardando",
+  "/painel/mova-street/apresentacao-v2/mova-street-apresentacao-v2.pdf"
+ ],
+ [
+  "Apresentação comercial v1 (PDF, 14 p.) · substituída pela v2",
+  "PDF",
+  "18/11/2026",
+  "reprovado",
+  "/painel/mova-street/apresentacao-v1/mova-street-apresentacao-v1.pdf"
+ ],
+ [
+  "Estratégia v2 (PDF, 30 p.)",
+  "PDF",
+  "18/11/2026",
+  "aguardando",
+  "/painel/mova-street/marketing-v2/estrategia/mova-street-estrategia-v2.pdf"
+ ],
+ [
+  "Proposta de 1 página (PDF)",
+  "PDF",
+  "18/11/2026",
+  "aguardando",
+  "/painel/mova-street/marketing-v2/estrategia/proposta-1-pagina.pdf"
+ ],
+ [
+  "Roteiro de visita (PDF)",
+  "PDF",
+  "18/11/2026",
+  "aguardando",
+  "/painel/mova-street/marketing-v2/estrategia/roteiro-de-visita.pdf"
+ ],
+ [
+  "Destaques (capas + stories)",
+  "ZIP",
+  "18/11/2026",
+  "aguardando",
+  "/painel/mova-street/marketing-v2/destaques/mova-destaques-jpg.zip"
+ ],
+ [
+  "Site premium (prévia)",
+  "Link",
+  "18/11/2026",
+  "aguardando",
+  "https://movastreet.pages.dev/"
+ ],
+ [
+  "Site bio (prévia)",
+  "Link",
+  "18/11/2026",
+  "aguardando",
+  "https://movastreet.pages.dev/bio/"
+ ],
+ [
+  "Estratégia de marketing e vendas v1 (PDF, 19 p.)",
+  "PDF",
+  "18/11/2026",
+  "aguardando",
+  "/painel/mova-street/marketing-v1/mova-street-estrategia-v1.pdf"
+ ],
+ [
+  "Feed v1 · prévia da grade 3×3",
+  "JPG",
+  "18/11/2026",
+  "aguardando",
+  "/painel/mova-street/marketing-v1/previa-grade.jpg"
+ ],
+ [
+  "Brand book v3.2 (fotos, logo aplicada e frota, 23 p.)",
+  "PDF",
+  "18/11/2026",
+  "aguardando",
+  "/painel/mova-street/v3/mova-street-book-v3.2.pdf"
+ ],
+ [
+  "Manual de marca v3.2 (fotos e logo aplicada, 23 p.)",
+  "PDF",
+  "18/11/2026",
+  "aguardando",
+  "/painel/mova-street/v3/mova-street-manual-v3.2.pdf"
+ ],
+ [
+  "Prévia v3.2",
+  "JPG",
+  "18/11/2026",
+  "aguardando",
+  "/painel/mova-street/v3/previa-v3.2.jpg"
+ ]
 ]
