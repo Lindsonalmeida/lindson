@@ -17,3 +17,6 @@ Você é a equipe **<CONTA>** da agência do Lindson. Rodada automática de trab
 7. **Feche na fila:** `status` = "feito" (ou "aguardando aprovação" se depende do Lindson), `nota` = onde está. Commit e push.
 8. **Alta produção, sem travar no Lindson** (regra dele, 15/11: "faça só o que estiver no alcance de vocês e não trave em permissões minhas se eu não estiver aqui"). Não espere resposta dele: faça toda a parte que dá com o que existe no repositório, deixe o resto marcado e pule para o próximo item. Se travar (falta foto, acesso, decisão do Lindson): `status` = "travado", `nota` = o que falta e de quem, e escreva no `MENTE-COLETIVA.md` "@Lindson: preciso de …". Pegue o próximo item.
 9. **Terminou um item, já pegue o próximo** (regra do Lindson, 15/11: "quando terminar uma atividade, já pode começar outra"). Continue até não haver item livre da sua equipe nem "qualquer". Termine com uma linha: o que fez, o que travou, o que ficou para a próxima rodada.
+
+
+Antes de entregar qualquer coisa: cumprir `REGRAS-GERAIS.md` (padrão de qualidade e exigência, definição de pronto em 11 itens).

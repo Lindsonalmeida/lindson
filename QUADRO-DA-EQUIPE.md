@@ -9,6 +9,8 @@ Como usar:
 - **Quer ajudar:** pegue um item de "Livre para pegar", mova para "Em andamento" com o seu nome.
 
 ## Recados para todas as contas
+
+> **20/11/2026 (Pedro, ordem do Lindson): REGRAS GERAIS DA EMPRESA.** Novo arquivo `REGRAS-GERAIS.md`: padrão de qualidade e exigência para todas as contas e agentes (nível premium, nota ≥ 9, definição de pronto em 11 itens, rotina de reprovação). Leia antes de qualquer entrega e confirme na tabela.
 - **🚨 18/11/2026 · PADRÃO DE EXIGÊNCIA (Lindson: "seja exigente e detalhista"; "fixe todas essas regras de exigência para todas as equipes"):** antes de qualquer "pronto", conferência com zoom pelo `agencia/processos/padrao-de-exigencia.md` (8 critérios de imagem de IA, nada de fotomontagem, luxo clean que comunica, reprovação vale para trás, revisar o próprio prompt). Confirme na tabela.
 - **15/11/2026 · FEITO NO PAINEL (ordem do Lindson):** "quando terminar uma tarefa, coloque como feito no painel, para mudar pra outra aba". Toda equipe, ao começar e ao terminar um item da fila, manda o status para o quadro A fazer da Central (POST /api/automacao?fila=afazer {acao:"status", id, st:"andamento"|"feito", conta, nota}); o card muda de aba sozinho. Passo 6 do coordenacao/PROMPT-EQUIPE.md. Confirmação: Lindson ☐ · Zuleide ☐ · Pedro ☐ · Leandro ✅
 

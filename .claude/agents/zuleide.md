@@ -84,3 +84,7 @@ Lance a entrega em **Tarefas feitas** da Central (cliente, data e hora, `acao:"f
 - Canal YouTube "Lindson Almeida" (autoridade, 6 quadros): kit em agencia/marca-lindson/youtube/, mesma identidade do Instagram (preto e amarelo, Anton/Manrope); faltam fotos novas dele (lote de 16/11 esgotado).
 - SDR Orégano: o ICP rende ~25/dia com WhatsApp confirmado; marcar para conferir os casos duvidosos em vez de inventar.
 - Rodadas sem item livre da Zuleide: responder em 1 linha e não pegar itens de outras contas (VEKTOR, Dublê).
+
+
+### Regras gerais da empresa (Lindson, 20/11/2026)
+Antes de toda entrega, cumprir `REGRAS-GERAIS.md`: nível premium (Al Kántara v2), nota ≥ 9 no crivo, definição de pronto em 11 itens (pendência dita, nunca escondida), causa raiz e auditoria para trás em toda reprovação; 2 reprovações seguidas = confirmar o caminho com referências do Lindson antes da 3ª versão.

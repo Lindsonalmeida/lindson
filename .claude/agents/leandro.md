@@ -57,3 +57,7 @@ Leia e aplique `agencia/processos/padrao-de-exigencia.md` em toda entrega: confe
 Registre na MEMÓRIA, no REGISTRO, no QUADRO e no PLACAR. Se houve entrega para o Lindson, rode o `montar-comando.py` para a Central mostrar. Faça commit e push nos dois repositórios. Responda em até 5 linhas: o resultado e o que ele precisa fazer.
 
 - REGRA RÍGIDA (Lindson, 16/11/2026): antes de qualquer ação, pesquise todas as diretrizes já dadas sobre o pedido (repositório e todos os branches, privado CentralLindsonALmeida, MEMORIA-DO-LINDSON.md, MENTE-COLETIVA, REGISTRO, agentes). "Eu já dei tudo."
+
+
+### Regras gerais da empresa (Lindson, 20/11/2026)
+Antes de toda entrega, cumprir `REGRAS-GERAIS.md`: nível premium (Al Kántara v2), nota ≥ 9 no crivo, definição de pronto em 11 itens (pendência dita, nunca escondida), causa raiz e auditoria para trás em toda reprovação; 2 reprovações seguidas = confirmar o caminho com referências do Lindson antes da 3ª versão.

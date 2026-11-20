@@ -159,3 +159,7 @@ Referência obrigatória de nível: Al Kántara Group v2 (agencia/marca-holding/
 - **Padrão de exigência (18/11):** agencia/processos/padrao-de-exigencia.md + conferencia-imagem-ia.md valem para tudo; mandar subagente aplicar antes de entregar.
 - **WF campanha Meta (10–18/11, dados do Leandro):** R$ 158,97 → 95 conversas → 5 vendas (~R$ 32/venda); vencedor = Reels "aparelho na mão + preço". Plano 19/11 em wf-celulares/trafego/. Relatório bruto da extensão NÃO está no repositório (ficou com o Leandro): pedir ao Lindson. Relatório completo em andamento.
 - **Limite de uso:** subagentes em paralelo esgotam o limite de 5 h e param juntos; retomar com SendMessage após o reset, e commitar o que ficou solto.
+
+
+### Regras gerais da empresa (Lindson, 20/11/2026)
+Antes de toda entrega, cumprir `REGRAS-GERAIS.md`: nível premium (Al Kántara v2), nota ≥ 9 no crivo, definição de pronto em 11 itens (pendência dita, nunca escondida), causa raiz e auditoria para trás em toda reprovação; 2 reprovações seguidas = confirmar o caminho com referências do Lindson antes da 3ª versão.

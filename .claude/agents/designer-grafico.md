@@ -225,3 +225,7 @@ Referência obrigatória de nível: Al Kántara Group v2 (agencia/marca-holding/
 
 ### 18/11/2026 (conta Pedro) · Leo Pinto redes
 - Reprovado 4x: post político feito do zero vira "santinho". Padrão do TOP 15 do Lindson (Pinterest): retrato grande (60–80%, P&B/duotone, foto profissional, nunca recorte colado), 1 família tipográfica com nome/palavra gigante, 2–3 cores sem degradê, grid de revista com 1 tarja de cor. Copiar a composição exata de um pin escolhido; sem foto boa, não entregar.
+
+
+### Regras gerais da empresa (Lindson, 20/11/2026)
+Antes de toda entrega, cumprir `REGRAS-GERAIS.md`: nível premium (Al Kántara v2), nota ≥ 9 no crivo, definição de pronto em 11 itens (pendência dita, nunca escondida), causa raiz e auditoria para trás em toda reprovação; 2 reprovações seguidas = confirmar o caminho com referências do Lindson antes da 3ª versão.

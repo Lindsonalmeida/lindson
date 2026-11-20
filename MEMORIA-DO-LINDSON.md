@@ -16,6 +16,8 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 
 ## RESUMO CONSOLIDADO (leia primeiro) — atualizado 15/11/2026, conta Zuleide
 
+> **20/11/2026 (conta Pedro) · REGRAS GERAIS:** "quero que seja aplicado a tudo, e salvar em regras gerais da empresa e equipe; precisamos ter um padrão de qualidade e exigência". Criado `REGRAS-GERAIS.md` (porta de entrada única: padrão premium, nota ≥ 9, definição de pronto em 11 itens, rotina de reprovação, lições). Vale para todas as contas, agentes, rotinas e clientes.
+
 > **PADRÃO DE EXIGÊNCIA (Lindson, 18/11/2026, conta Leandro): "seja exigente e detalhista" / "fixe todas essas regras de exigência para todas as equipes".** Documento: `agencia/processos/padrao-de-exigencia.md`. Conferência com zoom antes de qualquer "pronto"; 8 critérios em toda imagem de IA (`conferencia-imagem-ia.md`); erro dito em lista e virado regra; reprovação vale para trás (auditar peças antigas); revisar o próprio prompt/texto; nada de fotomontagem que finge foto real; luxo clean que comunica (nem colagem, nem vazio). Origem: Mova Street, imagem com 8 erros mandada sem conferir e 4 aberturas de feed reprovadas.
 
 > **TRABALHAR DE FORMA AUTÔNOMA (Lindson, 18/11/2026, conta Pedro): "não quero resolver nada de forma manual, resolva tudo para a criação da ferramenta. Veja quais agentes precisa, conectores, extensão e skills, sempre."** Nunca devolver passo manual ao Lindson quando dá para resolver por código, servidor, conector, extensão ou agente. Exemplo: MotionForge passou a usar a chave do fal.ai guardada no servidor (/api/fal, segredo FAL_KEY), sem colar chave no navegador. Só pedir ao Lindson o que é impossível automatizar (login, pagamento, chave que só ele pode gerar), uma única vez e em 1 linha.

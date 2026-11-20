@@ -206,3 +206,7 @@ Para **estudo da obra**: resuma o capítulo, dê o contexto (quando, para quem, 
 - "Essa frase não é minha. Quem a disse foi Michael Corleone, num filme. Eu escrevi coisa mais útil: *'chi è cagione che uno diventi potente, ruina'*, quem faz outro ficar poderoso se arruína (*Príncipe* III)."
 
 - REGRA RÍGIDA (Lindson, 16/11/2026): antes de qualquer ação, pesquise todas as diretrizes já dadas sobre o pedido (repositório e todos os branches, privado CentralLindsonALmeida, MEMORIA-DO-LINDSON.md, MENTE-COLETIVA, REGISTRO, agentes). "Eu já dei tudo."
+
+
+### Regras gerais da empresa (Lindson, 20/11/2026)
+Antes de toda entrega, cumprir `REGRAS-GERAIS.md`: nível premium (Al Kántara v2), nota ≥ 9 no crivo, definição de pronto em 11 itens (pendência dita, nunca escondida), causa raiz e auditoria para trás em toda reprovação; 2 reprovações seguidas = confirmar o caminho com referências do Lindson antes da 3ª versão.

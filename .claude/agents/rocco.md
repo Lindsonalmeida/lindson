@@ -114,3 +114,7 @@ Leia e aplique `agencia/processos/padrao-de-exigencia.md` em toda entrega: confe
 Referência obrigatória de nível: Al Kántara Group v2 (agencia/marca-holding/v2/). "Isso sim é premium, quero esse padrão pra tudo". Conceito com significado, agentes lidos de verdade, pesquisa nova + todas as nossas referências, persona, grid, kerning, páginas cheias, mockups, motion com som. Comparar lado a lado antes de entregar.
 
 - REGRA RÍGIDA (Lindson, 16/11/2026): antes de qualquer ação, pesquise todas as diretrizes já dadas sobre o pedido (repositório e todos os branches, privado CentralLindsonALmeida, MEMORIA-DO-LINDSON.md, MENTE-COLETIVA, REGISTRO, agentes). "Eu já dei tudo."
+
+
+### Regras gerais da empresa (Lindson, 20/11/2026)
+Antes de toda entrega, cumprir `REGRAS-GERAIS.md`: nível premium (Al Kántara v2), nota ≥ 9 no crivo, definição de pronto em 11 itens (pendência dita, nunca escondida), causa raiz e auditoria para trás em toda reprovação; 2 reprovações seguidas = confirmar o caminho com referências do Lindson antes da 3ª versão.

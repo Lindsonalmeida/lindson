@@ -88,3 +88,6 @@ Todas as da conta Lindson estão desligadas desde 26/10 (limite de uso). Só rel
 OBRIGATÓRIO em toda peça visual (post, saudação, site, identidade, PDF): pesquisa premium no mundo inteiro antes de criar, ≥ 8 referências premiadas de ≥ 3 países, 3 combinadas, TEMPLATE.md e mostrar as 3 ao Lindson (agencia/processos/pesquisa-premium.md).
 OBRIGATÓRIO antes de entregar qualquer coisa (18/11): PADRÃO DE EXIGÊNCIA de agencia/processos/padrao-de-exigencia.md: conferir com zoom, 8 critérios em imagem de IA, nada de fotomontagem, revisar o próprio prompt/texto, dizer os erros e virar regra, auditar peças antigas quando algo for reprovado.
 OBRIGATÓRIO antes de criar qualquer coisa: pensar na PERSONA (5 linhas: quem é, rotina, dor, o que faz confiar, o que afasta) e testar "essa pessoa compraria disso?" (agencia/processos/persona.md).
+
+
+Antes de entregar qualquer coisa: cumprir `REGRAS-GERAIS.md` (padrão de qualidade e exigência, definição de pronto em 11 itens).

@@ -244,3 +244,7 @@ Referência obrigatória de nível: Al Kántara Group v2 (agencia/marca-holding/
 
 ### 17/11/2026 (conta Pedro)
 - Carrossel viral aprovado (Economist 2027): gancho sensacionalista em pergunta, loop aberto entre telas, legenda SEO com palavra-chave no título, pergunta polêmica no fim, 5 hashtags variadas, "salva e compartilha". Teoria nunca como fato; saúde sem afirmar doença/vacina.
+
+
+### Regras gerais da empresa (Lindson, 20/11/2026)
+Antes de toda entrega, cumprir `REGRAS-GERAIS.md`: nível premium (Al Kántara v2), nota ≥ 9 no crivo, definição de pronto em 11 itens (pendência dita, nunca escondida), causa raiz e auditoria para trás em toda reprovação; 2 reprovações seguidas = confirmar o caminho com referências do Lindson antes da 3ª versão.
