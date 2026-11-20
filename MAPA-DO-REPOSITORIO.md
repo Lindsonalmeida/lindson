@@ -65,6 +65,7 @@ Brand book, componentes (Cover, LinkCard, StatStrip…), modelos e guia de Insta
 | `agencia/clientes/tribuna98/` | cliente novo Tribuna 98 (Thiago Azevedo): ficha, prints, TEMPLATE.md, instagram-perfil/ (bio e capas dos destaques); mini site no repo `Lindsonalmeida/tribuna98` | (conta Leandro, 03/11) |
 | `agencia/clientes/leo-pinto/instagram-aniversario/` | Leo: modelo único de aniversário de pessoas (Designi Paulo André, laranja/azul) | (conta Leandro, 03/11) |
 | `agencia/clientes/rt-full-jobs/instagram-v1/perfil/` e `agencia/sistema-clientes/rt-full-jobs/` | Real Time: bio e capas de destaques; painel da Central (/painel/rt) | (conta Leandro, 03/11) |
+| `agencia/sistema-clientes/site/painel-biblioteca/` e `agencia/processos/biblioteca-do-cliente.md` | Biblioteca de todo painel de cliente (menu lateral): `biblioteca.js`, gerador do manifesto (`gerar_biblioteca.py`) e conferência (`testar_biblioteca.py`) | (Builder Squad, conta Lindson, 20/11) |
 | `agencia/clientes/rt-full-jobs/fotos-equipamentos/` | Real Time: 56 fotos reais dos equipamentos (luz, lentes, câmera, transmissão, acessórios, estúdio) com fontes e licenças em `FONTES.md` | (conta Leandro, 03/11) |
 | `agencia/ofertas/low-ticket/` | todos os produtos low ticket possíveis: LISTA.md (lista única) + listas do Maquiavel e do Hormozi Squad | (conta Zuleide, 03/11) |
 | `AGENTES.md` | lista de todos os 201 agentes por categoria (nossos, Xquads, Builder Squad) e qual chamar para cada pedido | (conta Zuleide, 03/11) |

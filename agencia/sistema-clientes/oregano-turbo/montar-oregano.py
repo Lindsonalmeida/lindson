@@ -42,4 +42,6 @@ s = s.replace('<summary style="cursor:pointer;color:var(--amarelo);font-weight:7
               '<summary style="cursor:pointer;color:var(--amarelo);font-weight:700">${p.video?\'Legenda completa\':\'Ver legenda\'}</summary>', 1)
 s = s.replace('</style>', '@media(max-width:600px){.posts{grid-template-columns:1fr}}</style>', 1)
 open(p, 'w').write(s)
+# Tarefas feitas, Postados e Biblioteca (menu lateral, 20/11/2026) continuam no painel remontado
+sys.path.insert(0, os.path.join(D, '..', 'site', 'painel-feitas')); import injetar; injetar.injetar(os.path.join(PRIV, 'painel'))
 print(len(itens), 'Reels no painel ·', round(sum(os.path.getsize(os.path.join(OUT, f)) for f in os.listdir(OUT)) / 1e6), 'MB em painel/oregano/reels/')

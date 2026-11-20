@@ -20,6 +20,15 @@ Um painel único para todos os clientes da agência. O Lindson (admin) vê tudo,
 | `privado/codigos-acesso.json` | códigos de acesso (admin, Jaci, Leo, Apple) e os segredos da Cloudflare | **não** (segredo) |
 | `jaci-cunha/` | painel da Dra. Jaci: `montar-jaci.py` + `clinica.js` (Avaliações, Plano de 90 dias, Pautas) | sim (o HTML gerado não) |
 | `site/` | site no ar: `functions/` (login no servidor), `montar-site.py`, README de publicação | sim (o `publico/` não) |
+| `site/painel-biblioteca/` | **Biblioteca** de todo painel de cliente (menu lateral "Biblioteca", 20/11/2026): `biblioteca.js` (tela), `gerar_biblioteca.py` (manifesto de cada cliente + cópia dos entregáveis finais), `testar_biblioteca.py` (conferência Playwright). Como rodar: `agencia/processos/biblioteca-do-cliente.md` | sim (os arquivos e manifestos ficam no privado, em `painel/<cliente>/biblioteca/`) |
+
+## Biblioteca do cliente (Builder Squad, conta Lindson, 20/11/2026)
+Todo painel de cliente tem o menu lateral **Biblioteca**: tudo o que já foi produzido para o cliente, por categoria (Marca, Artes e posts, Carrosséis, Stories, Vídeos e Reels, Capas, Documentos, Site e bio, Referências e pesquisas, Fotos), com miniatura, título, data, versão, situação (aprovado, aguardando, reprovado; reprovado e versões antigas escondidos por padrão), busca, filtros e os botões Abrir e Baixar.
+```bash
+python3 site/painel-biblioteca/gerar_biblioteca.py            # todos os clientes; ou: ... gerar_biblioteca.py jaci leo
+python3 site/painel-biblioteca/testar_biblioteca.py           # conferência (sem erro de JS, miniaturas, downloads, 390 e 1440 px)
+```
+O gerador também põe a aba em todo painel (pelo `site/painel-feitas/injetar.py`, o mesmo que o `montar-site.py`, o `montar-mova.py` e o `montar-alkantara.py` já chamam), então **todo painel novo já nasce com a Biblioteca**. Cliente novo: uma linha em `CLIENTES` no `gerar_biblioteca.py`. Passo a passo: `agencia/processos/biblioteca-do-cliente.md`.
 
 ## Como montar a tela
 ```bash
