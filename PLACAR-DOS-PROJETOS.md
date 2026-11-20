@@ -66,6 +66,7 @@ Legenda: ✅ feito · 🟡 em andamento · ⏳ depende do Lindson ou do cliente 
 11. ⏳ INPI, repositório `oreganoturbo` para o link definitivo, clientes atuais para a planilha
 
 ### Outros abertos (não pagam)
+- 🟡 **Mova Street** · plano de vendas v1 entregue em 20/11 (meta: 3 pacotes até 30/11; 40 leads no CSV): ⏳ aprovação e decisões do Paulo (vagas, escada do adesivo, bônus)
 - 🟡 Marca Lindson · Reels "miniaturas 3D" (série BOLSO DO DONO, 6 vídeos, voz 6, 15/11, Leandro): ⏳ aprovação do Lindson
 - **Marca e site do Lindson:** site e bio no ar; falta a aprovação, o link da bio e o Search Console.
 - **Produtos low ticket + Estado Próprio:** PDFs prontos; faltam os preços, a Hubla e as 5 decisões da escada.

@@ -1,6 +1,24 @@
 [
  {
   "t": "PDF",
+  "titulo": "Plano de vendas v1 (20 p.): meta até 30/11 e dezembro, 40 empresas, visitas, scripts e objeções",
+  "data": "20/11/2026",
+  "linha": "Comercial",
+  "st": "aguardando",
+  "arq": "/painel/mova-street/plano-vendas/mova-street-plano-de-vendas-v1.pdf",
+  "img": "/painel/mova-street/plano-vendas/plano-01.jpg",
+  "telas": [
+   "/painel/mova-street/plano-vendas/plano-02.jpg",
+   "/painel/mova-street/plano-vendas/plano-05.jpg",
+   "/painel/mova-street/plano-vendas/plano-06.jpg",
+   "/painel/mova-street/plano-vendas/plano-09.jpg",
+   "/painel/mova-street/plano-vendas/plano-10.jpg",
+   "/painel/mova-street/plano-vendas/plano-14.jpg",
+   "/painel/mova-street/plano-vendas/plano-20.jpg"
+  ]
+ },
+ {
+  "t": "PDF",
   "titulo": "Mapa de visibilidade · guia comercial (10 p.)",
   "data": "20/11/2026",
   "linha": "Comercial",
