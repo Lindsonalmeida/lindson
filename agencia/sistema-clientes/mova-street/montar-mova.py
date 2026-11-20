@@ -145,6 +145,10 @@ DADOS = json.load(open(os.path.join(PRIV, 'dados', 'mova-street.json')))
 extra = EXTRA + '\nwindow.__DADOS=' + J(DADOS) + ';\nwindow.__FERR=' + J(FERR) + ';\n' + open(os.path.join(SC, 'prototipo', 'ferramentas.js')).read() + '\n' + open(os.path.join(D, 'agenda-mova.js')).read() + '\n' + open(os.path.join(D, 'crm-mova.js')).read() + '\n' + open(os.path.join(SC, 'prototipo', 'interacoes.js')).read() + '\n' + open(os.path.join(SC, 'prototipo', 'movimento.js')).read()
 s = s.replace('</script>', '</script>\n<script>\n' + extra + '\n</script>', 1)
 s = s.replace('</style>', open(os.path.join(D, 'tema-mova.css')).read() + '\n</style>', 1)
+# 7 · aba Dados e Vendas (19/11/2026): módulo próprio aba-dados.js + conteúdo dados-vendas.json, num <script> logo depois do extra
+_dv = 'window.__MOVA_DV=' + J(json.load(open(os.path.join(D, 'dados-vendas.json')))) + ';\n' + open(os.path.join(D, 'aba-dados.js')).read()
+troca('<a href="#financeiro" data-v="financeiro">', '<a href="#dados" data-v="dados"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4v16h16M8.5 16v-4M12.5 16V8M16.5 16v-6.5"/></svg>Dados</a><a href="#financeiro" data-v="financeiro">')
+_k = s.index('</script>', s.index(extra) + len(extra)) + len('</script>'); s = s[:_k] + '\n<script>\n' + _dv + '\n</script>' + s[_k:]
 _pr = os.path.join(PRIV, 'dados', 'clientes-arquivos', 'mova-street', 'marketing-v2', 'estrategia', 'proposta-1-pagina.html')
 if os.path.exists(_pr): pub(_pr, 'proposta.html')  # link da proposta com ?empresa= gerado pelo CRM
 open(os.path.join(D, 'painel-mova.html'), 'w').write(s)

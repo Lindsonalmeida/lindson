@@ -2,12 +2,13 @@
 // GET → {dados, versao}. PUT {dados, versao} → grava se a versão bate; se outra pessoa salvou antes, 409 com a versão atual (o painel junta e tenta de novo).
 // Só o próprio cliente ou o admin. Conta Lindson, 01/11/2026.
 import { json, quemE, configurado, faltaConfig } from '../_lib.js';
-const FERR = ['crm', 'fin', 'dem', 'ag', 'aprov', 'ped', 'rede', 'eq', 'feitas'];  // feitas: quadro de Tarefas feitas da VEKTOR (só admin:feitas; conta Leandro, 10/11/2026)  // eq: quadro da equipe da VEKTOR (só admin:eq; conta Leandro, 09/11/2026)  // rede: a rede social do Lindson no painel do admin (conta Pedro, 03/11/2026)  // aprov: aprovações de posts; ped: pedidos à agência  // dem e ag: demandas e agenda do gabinete (painel do Leo)
+const FERR = ['crm', 'fin', 'dem', 'ag', 'aprov', 'ped', 'rede', 'eq', 'feitas', 'afazer', 'vendas'];  // vendas: aba Dados e Vendas da Mova (números semanais da equipe; 19/11/2026)  // afazer: quadro A fazer da VEKTOR (só admin:afazer; conta Zuleide, 15/11/2026)  // feitas: quadro de Tarefas feitas da VEKTOR (só admin:feitas; conta Leandro, 10/11/2026)  // eq: quadro da equipe da VEKTOR (só admin:eq; conta Leandro, 09/11/2026)  // rede: a rede social do Lindson no painel do admin (conta Pedro, 03/11/2026)  // aprov: aprovações de posts; ped: pedidos à agência  // dem e ag: demandas e agenda do gabinete (painel do Leo)
 async function acesso(request, env) {
   const q = await quemE(request, env), u = new URL(request.url);
   const cli = (u.searchParams.get('cli') || '').toLowerCase(), f = u.searchParams.get('f');
   if (!q) return { erro: json({ erro: 'Entre na Central de novo.' }, 401) };
   if (!/^[a-z0-9-]{2,30}$/.test(cli) || !FERR.includes(f)) return { erro: json({ erro: 'Pedido inválido.' }, 400) };
+  if (f === 'afazer' && (cli !== 'admin' || q.cli !== 'admin')) return { erro: json({ erro: 'Só o admin.' }, 403) };
   if (q.cli !== 'admin' && q.cli !== cli) return { erro: json({ erro: 'Sem acesso a este painel.' }, 403) };
   return { q, chave: `dados:${cli}:${f}` };
 }
