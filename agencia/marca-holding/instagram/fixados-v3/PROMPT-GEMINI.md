@@ -1,0 +1,10 @@
+# Barzakh · 3 fixados com imagem (Gemini) · conta Leandro, 21/11/2026
+Pedido do Lindson: "use imagens, gemini, só cor crua fica feio". Foto de perfil escolhida por ele: símbolo em ouro sobre marrom-oliva. Regra: a cena vem inteira do Gemini, SEM logo e sem texto; por cima só o símbolo plano em ouro (centro, post 2) e a frase "A PASSAGEM | DA SUA | MARCA." na base. Formato: gere em 21:9 e recorte para 3240×1440.
+
+## Prompt 1 · Arco e espelho d'água (recomendado: arco + reflexo = o símbolo Dois mares)
+Ultra-wide cinematic architectural photograph, 21:9. A monumental passage carved in warm sandstone and ochre plaster: a single tall semicircular arch in the exact center opens into deep soft shadow, with a calm reflecting pool of still water on the floor that mirrors the arch perfectly. Low golden-hour sunlight enters from the left as soft volumetric rays with floating dust, grazing the textured stone walls on the left and right thirds. Palette: deep olive brown, umber, burnished gold highlights, almost monochrome warm. Quiet luxury, mystical, minimal, museum atmosphere, Tadao Ando meets Moorish Andalusian architecture without ornament. Large clean calm dark area inside the arch opening. Medium-format film look, fine grain. No text, no letters, no logos, no symbols, no people.
+
+## Prompt 2 · Parede de luz com banco de travertino
+Ultra-wide cinematic photograph, 21:9. Dark olive-brown polished plaster wall, perfectly smooth and seamless, lit by a single warm golden beam of sunlight cutting diagonally from the upper left across the whole width, with soft dust in the air. In the lower third, a long low monolithic bench of travertine stone runs across the entire frame. Subtle arch shadow projected on the wall in the center. Palette: olive brown, umber, burnished gold light. Quiet luxury, mystical, minimal, gallery. Very large calm empty wall area in the center. Medium-format film, fine grain. No text, no letters, no logos, no symbols, no objects, no people.
+
+Depois de gerar: mande a imagem aqui (uma por mensagem) que a equipe aplica o símbolo e a frase e confere com zoom (8 critérios de agencia/processos/conferencia-imagem-ia.md).
