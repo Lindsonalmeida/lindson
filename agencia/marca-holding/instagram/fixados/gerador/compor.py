@@ -9,6 +9,12 @@ LOGO = os.path.join(H, '../../../../marca-lindson/projeto-designer/v3/marca/logo
 FRASE = ['A PASSAGEM', 'DA SUA', 'MARCA.']
 W, Hh = 3240, 1440
 im = Image.open(os.path.join(H, 'cru.png')).convert('RGB').resize((W, Hh), Image.LANCZOS)
+# profundidade de campo leve: desfoca o topo da parede e a frente do banco (gradiente)
+bl = im.filter(ImageFilter.GaussianBlur(3.2)); dm = Image.new('L', (W, Hh), 0); dd = ImageDraw.Draw(dm)
+for y in range(Hh):
+    t = max(0, (260 - y) / 260) if y < 260 else max(0, (y - 1180) / 260)
+    dd.line([(0, y), (W, y)], fill=int(255 * min(1, t)))
+im = Image.composite(bl, im, dm)
 v = Image.new('L', (W, Hh), 0); ImageDraw.Draw(v).ellipse([-W * .15, -Hh * .5, W * 1.15, Hh * 1.4], fill=255)
 v = v.filter(ImageFilter.GaussianBlur(260)); im = Image.composite(im, ImageChops.multiply(im, Image.new('RGB', (W, Hh), (150, 150, 155))), v)
 n = Image.effect_noise((W, Hh), 22).convert('RGB'); im = Image.blend(im, ImageChops.overlay(im, n), .12)

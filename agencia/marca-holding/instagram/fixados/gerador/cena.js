@@ -15,7 +15,7 @@ scene.environment = new THREE.PMREMGenerator(r).fromScene(new RoomEnvironment(),
 const LD = new THREE.TextureLoader();
 const tx = (n, srgb = true) => new Promise(ok => LD.load(`${T}/${n}.png`, t => { if (srgb) t.colorSpace = THREE.SRGBColorSpace; t.anisotropy = 16; ok(t); }));
 async function mat(n) { const [m, mr] = await Promise.all([tx(n), tx(n + '_mr', false)]);
-  return new THREE.MeshStandardMaterial({ map: m, roughnessMap: mr, metalnessMap: mr, roughness: 1, metalness: 1, envMapIntensity: 2.2 }); }
+  return new THREE.MeshStandardMaterial({ map: m, roughnessMap: mr, metalnessMap: mr, roughness: .9, metalness: 1, envMapIntensity: 2.8, bumpMap: m, bumpScale: .25 }); }
 function concrete(hex, rep, seed) {
   const c = document.createElement('canvas'); c.width = c.height = 1024; const g = c.getContext('2d');
   g.fillStyle = hex; g.fillRect(0, 0, 1024, 1024); const id = g.getImageData(0, 0, 1024, 1024), d = id.data;
@@ -31,7 +31,7 @@ function concrete(hex, rep, seed) {
   const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; t.wrapS = t.wrapT = THREE.RepeatWrapping; t.repeat.set(...rep);
   return new THREE.MeshStandardMaterial({ map: t, roughness: .92, bumpMap: t, bumpScale: 1.2 }); }
 const add = (o, x, y, z) => { o.position.set(x, y, z); o.castShadow = o.receiveShadow = true; scene.add(o); return o; };
-const edge = new THREE.MeshStandardMaterial({ color: 0x1a1a1c, roughness: .8 });
+const edge = new THREE.MeshStandardMaterial({ color: 0x0f0f10, roughness: .8 });
 const edgeP = new THREE.MeshStandardMaterial({ color: 0xd8d2c6, roughness: .9 });
 
 window.render = async () => {
@@ -54,26 +54,31 @@ window.render = async () => {
   const cm = await mat('cartao');
   for (let i = 0; i < 7; i++) { const c = add(new THREE.Mesh(new THREE.BoxGeometry(8.5, .06, 5.5), [edge, edge, cm, edge, edge, edge]), -40 + i * .02, 9.03 + i * .07, 16.5); c.rotation.y = .25 + i * .01; }
   const c2 = add(new THREE.Mesh(new THREE.BoxGeometry(8.5, .06, 5.5), [edge, edge, cm, edge, edge, edge]), -30, 9.03, 18); c2.rotation.y = -.3;
-  // POST 3: caixa, selo de cera, ecobag
+  // POST 3: ecobag inteira (logo legível) atrás, caixa menor à frente sem tapar o nome, selo de cera bronze deitado na tampa
+  const bag = add(new THREE.Mesh(new RoundedBoxGeometry(17, 20, 1.6, 3, .6), [edge, edge, edge, edge, edge, edge]), 44, 9 + 10, 4.5); bag.rotation.set(-.07, -.2, .012);
+  const bfm = new THREE.Mesh(new THREE.PlaneGeometry(16.2, 19.2), await mat('ecobag')); bfm.receiveShadow = true; bag.add(bfm); bfm.position.set(0, 0, .81);
+  const cord = new THREE.MeshStandardMaterial({ color: 0x15151a, roughness: .95 });
+  for (const dx of [-4.2, 4.2]) { const h = new THREE.Mesh(new THREE.TorusGeometry(3.4, .11, 10, 64, Math.PI), cord); h.position.set(dx, 10, .2); h.castShadow = true; bag.add(h); }
   const cx = await mat('caixa');
-  const box = add(new THREE.Mesh(new RoundedBoxGeometry(15, 15, 15, 3, .25), edge), 27.5, 9 + 7.5, 10); box.rotation.y = -.42;
-  const bf = add(new THREE.Mesh(new THREE.PlaneGeometry(14.4, 14.4), cx), 0, 0, 7.52); box.remove(bf); box.add(bf); bf.position.set(0, 0, 7.52);
-  const tampa = add(new THREE.Mesh(new RoundedBoxGeometry(11, 2.6, 11, 3, .2), edge), 28.1, 9 + 15 + 1.3, 10.4); tampa.rotation.y = -.15;
-  const seal = add(new THREE.Mesh(new THREE.CylinderGeometry(1.9, 2.05, .55, 64), new THREE.MeshStandardMaterial({ color: 0x2b3a8f, roughness: .35, metalness: .1 })), 28.1, 9 + 15 + 2.9, 10.4);
-  const bag = add(new THREE.Mesh(new RoundedBoxGeometry(17, 20, 1.6, 3, .6), [edge, edge, edge, edge, await mat('ecobag'), edge]), 41.5, 9 + 10, 5); bag.rotation.set(-.08, -.22, .015);
-  const bfm = add(new THREE.Mesh(new THREE.PlaneGeometry(16.2, 19.2), await mat('ecobag')), 0, 0, .81); bag.remove(bfm); bag.add(bfm); bfm.position.set(0, 0, .81);
-  for (const dx of [-4, 4]) { const h = new THREE.Mesh(new THREE.TorusGeometry(3.2, .35, 12, 48, Math.PI), new THREE.MeshStandardMaterial({ color: 0x1c1c1e, roughness: .9 })); h.position.set(dx, 10, 0); h.castShadow = true; bag.add(h); }
+  const box = add(new THREE.Mesh(new RoundedBoxGeometry(11, 11, 11, 3, .2), edge), 27.5, 9 + 5.5, 13.5); box.rotation.y = -.35;
+  const bf = new THREE.Mesh(new THREE.PlaneGeometry(10.6, 10.6), cx); bf.receiveShadow = true; box.add(bf); bf.position.set(0, 0, 5.51);
+  // selo de cera: disco irregular bronze, deitado sobre a caixa
+  const sg = new THREE.CylinderGeometry(1.8, 1.9, .38, 48, 1); const sp = sg.attributes.position;
+  for (let i = 0; i < sp.count; i++) { const x = sp.getX(i), z = sp.getZ(i), rr = Math.hypot(x, z); if (rr > 1.2) { const k = 1 + .07 * Math.sin(Math.atan2(z, x) * 7) + .04 * Math.sin(Math.atan2(z, x) * 13); sp.setX(i, x * k); sp.setZ(i, z * k); } }
+  sg.computeVertexNormals();
+  const seal = add(new THREE.Mesh(sg, new THREE.MeshStandardMaterial({ color: 0x8a6438, roughness: .38, metalness: .55, envMapIntensity: 1.6 })), 27.8, 9 + 11 + .19, 13.6); seal.rotation.y = .4;
+  const sTop = new THREE.Mesh(new THREE.CircleGeometry(1.05, 48), new THREE.MeshStandardMaterial({ color: 0x6e4f2b, roughness: .5, metalness: .5 })); sTop.rotation.x = -Math.PI / 2; sTop.position.set(27.8, 9 + 11 + .385, 13.6); scene.add(sTop);
   // luz: janela rasante da esquerda (spot com máscara de caixilho) + preenchimento fraco + brilho Lápis atrás da placa
-  const ck = document.createElement('canvas'); ck.width = ck.height = 512; const g = ck.getContext('2d');
-  g.fillStyle = '#000'; g.fillRect(0, 0, 512, 512); g.fillStyle = '#fff';
-  for (let i = 0; i < 3; i++) for (let j = 0; j < 2; j++) g.fillRect(80 + i * 122, 110 + j * 150, 110, 138);
-  g.filter = 'blur(6px)'; g.drawImage(ck, 0, 0);
-  const spot = new THREE.SpotLight(0xffd9a8, 22000, 0, .5, .35, 1.6); spot.position.set(-150, 60, 80); spot.target.position.set(10, 20, 0);
-  const cookie = new THREE.CanvasTexture(ck); cookie.colorSpace = THREE.SRGBColorSpace; spot.map = cookie;
+  const ck = document.createElement('canvas'); ck.width = ck.height = 1024; const g = ck.getContext('2d');
+  g.fillStyle = '#000'; g.fillRect(0, 0, 1024, 1024); g.fillStyle = '#fff'; g.fillRect(60, 120, 904, 760);
+  g.fillStyle = '#000'; for (let i = 1; i < 4; i++) g.fillRect(60 + i * 226 - 9, 120, 18, 760); g.fillRect(60, 440, 904, 16);
+  const ckb = document.createElement('canvas'); ckb.width = ckb.height = 1024; const g2 = ckb.getContext('2d'); g2.filter = 'blur(4px)'; g2.drawImage(ck, 0, 0);
+  const spot = new THREE.SpotLight(0xffd9a8, 40000, 0, .62, .12, 1.6); spot.position.set(-170, 85, 110); spot.target.position.set(8, 26, 0);
+  spot.map = new THREE.CanvasTexture(ckb); spot.map.colorSpace = THREE.SRGBColorSpace;
   spot.castShadow = true; spot.shadow.mapSize.set(4096, 4096); spot.shadow.bias = -.0004; spot.shadow.radius = 4; scene.add(spot, spot.target);
-  const key = new THREE.DirectionalLight(0xfff0dc, .4); key.position.set(-60, 60, 90); key.castShadow = true; key.shadow.mapSize.set(4096, 4096);
+  const key = new THREE.DirectionalLight(0xfff0dc, .22); key.position.set(-60, 60, 90); key.castShadow = true; key.shadow.mapSize.set(4096, 4096);
   Object.assign(key.shadow.camera, { left: -90, right: 90, top: 60, bottom: -20, far: 300 }); key.shadow.radius = 8; scene.add(key);
-  scene.add(new THREE.HemisphereLight(0x8a93b8, 0x2a2622, .2));
+  scene.add(new THREE.HemisphereLight(0x8a93b8, 0x2a2622, .1));
   const lapis = new THREE.PointLight(0x3c52c8, 70, 45, 1.6); lapis.position.set(0, 30, 9); scene.add(lapis);
   const cam = new THREE.PerspectiveCamera(25.5, W / H, 1, 1000); cam.position.set(0, 26, 132); cam.lookAt(0, 27, 0);
   scene.updateMatrixWorld(); r.render(scene, cam); r.render(scene, cam);

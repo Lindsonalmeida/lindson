@@ -15,7 +15,7 @@ URLS = {
  'manual': 'https://manualcreative.com/',
 }
 with sync_playwright() as pw:
-    b = pw.chromium.launch(executable_path='/opt/pw-browsers/chromium-1243/chrome-linux/chrome')
+    b = pw.chromium.launch(executable_path='/usr/bin/google-chrome', proxy={'server': os.environ.get('HTTPS_PROXY') or os.environ.get('https_proxy')} if (os.environ.get('HTTPS_PROXY') or os.environ.get('https_proxy')) else None, args=['--ignore-certificate-errors-spki-list'])
     for k, u in URLS.items():
         p = b.new_page(viewport={'width': 1440, 'height': 1100})
         try:
