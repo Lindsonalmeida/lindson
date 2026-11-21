@@ -1,5 +1,8 @@
 # Regras gerais da empresa e da equipe · padrão de qualidade e exigência
 
+> **REGRA DO LINDSON (21/11/2026, todas as contas, agentes e rotinas): "nunca refaça algo que eu já reprovei."** Antes de criar ou refazer qualquer peça, procure na `MEMORIA-DO-LINDSON.md` (REPROVADO) e no painel se o estilo, técnica ou peça já foi reprovado. Se foi, é proibido entregar de novo no mesmo estilo/técnica (ex.: Reels miniaturas 3D com bonecos, fotos paradas com zoom fingindo vídeo). Faltou caminho novo: pergunte ao Lindson com referências antes de produzir.
+
+
 Lindson, 20/11/2026: "quero que seja aplicado a tudo, e salvar em regras gerais da empresa e equipe. Precisamos ter um padrão de qualidade e exigência." Este arquivo é a **porta de entrada única**: vale para as 4 contas (Lindson, Zuleide, Pedro, Leandro), para todos os agentes, squads, skills, rotinas agendadas e contas novas, em todo cliente e em toda entrega (arte, vídeo, PDF, site, painel, texto, plano, relatório, mensagem). Em conflito com regra antiga, vale esta. Detalhe completo em `agencia/processos/padrao-de-exigencia.md` e `agencia/processos/conferencia-imagem-ia.md`.
 
 ## 1. O padrão da casa

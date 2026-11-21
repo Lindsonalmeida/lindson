@@ -1,5 +1,8 @@
 # Instruções do repositório (Lindson Almeida)
 
+> **REGRA DO LINDSON (21/11/2026, todas as contas, agentes e rotinas): "nunca refaça algo que eu já reprovei."** Antes de criar ou refazer qualquer peça, procure na `MEMORIA-DO-LINDSON.md` (REPROVADO) e no painel se o estilo, técnica ou peça já foi reprovado. Se foi, é proibido entregar de novo no mesmo estilo/técnica (ex.: Reels miniaturas 3D com bonecos, fotos paradas com zoom fingindo vídeo). Faltou caminho novo: pergunte ao Lindson com referências antes de produzir.
+
+
 > **REGRAS GERAIS DA EMPRESA E DA EQUIPE (Lindson, 20/11/2026: "precisamos ter um padrão de qualidade e exigência"):** leia `REGRAS-GERAIS.md` (repo lindson) antes de toda entrega: nível mínimo premium (Al Kántara v2 / capas Economist 2027), nota ≥ 9 no crivo dos agentes, **definição de pronto em 11 itens**, o que fazer quando ele reprovar (causa raiz + auditoria para trás; 2 reprovações seguidas = confirmar o caminho com referências antes da 3ª versão) e as lições que viraram regra.
 
 > **REGRA RÍGIDA (Lindson, 16/11/2026, todas as equipes, todas as contas): "sempre que eu pedir alguma coisa, você não faz nada antes de pesquisar todas as diretrizes sobre o que eu tô pedindo, porque eu já dei tudo, e tá tudo no repositório e nas contas."** Antes de qualquer ação, em todo pedido: pesquise o tema no repositório `lindson` (todos os branches: `git grep -i`, `git log --all --grep`), no privado `CentralLindsonALmeida` (`dados/`, `dados/agencia/referencias/`, painéis), na `MEMORIA-DO-LINDSON.md` (aprovados e reprovados), no `MENTE-COLETIVA.md`, no `REGISTRO-DAS-CONTAS.md` e nos agentes. Só depois de juntar todas as diretrizes, comece. Nunca pergunte nem invente o que já está lá.
