@@ -10,6 +10,7 @@ RED,LIME='#FF2E3B','#C8FF2E'
 P={'ADV-1':('fogo','50% 50%',0,'c08',0,'255,90,20','seu concorrente','JÁ ESTÁ<br><n>NO GOOGLE</n>',RED,'e você?'),
  'ADV-2':('fumaca','20% 50%',0,'c10',1,'120,150,255','quando a indicação para,','QUEM TE<br><n>ACHA?</n>',RED,''),
  'ADV-3':('dinheiro','70% 40%',2,'c16',0,'90,200,90','advogado em São Luís','SEJA<br><n>ENCONTRADO</n>',LIME,'sem ferir a OAB'),
+ 'ADV-4':('fumaca','50% 50%',0,'c09',0,'200,200,200','seu marketing joga','<n>XADREZ</n><br>OU DAMAS?',RED,'estratégia antes do anúncio'),
  'BARBA-1':('barbearia','40% 40%',14,'c12',0,'255,170,80','sábado lotado,','TERÇA<br><n>VAZIA?</n>',RED,''),
  'BARBA-2':('luzes','0% 50%',6,'c09',1,'200,80,255','o bairro inteiro rolando o Reels','AGENDA<br><n>LOTADA</n>',LIME,'começa no anúncio certo'),
  'BARBA-3':('fogos','50% 50%',0,'c07',0,'255,140,40','movimento','A SEMANA<br><n>TODA</n>',LIME,'não só no sábado'),
@@ -62,8 +63,13 @@ G=f'{D}/cenas-gemini'
 def encaixe(h,nome):
     g=f'{G}/{nome}.jpg'
     if os.path.exists(g):
-        h=h.replace('<div class="bg"></div>',f'<div class="bg" style="inset:0;background:url(file://{g}) center/cover;filter:none"></div>',1)
-        return __import__('re').sub(r'<img class="p"[^>]*>','',h,1)
+        h=h.replace('<div class="bg"></div>',f'<div class="bg" style="inset:0;background:url(file://{g}) 50% 22%/cover;filter:saturate(1.08) contrast(1.05)"></div>',1)
+        h=__import__('re').sub(r'<img class="p"[^>]*>','',h,1)
+        # texto nunca sobre o rosto: o rosto fica no terço de cima; o texto desce para o terço de baixo, com degradê
+        extra='.tn{background:linear-gradient(180deg,rgba(0,0,0,.25),transparent 22%,transparent 50%,rgba(0,0,0,.8) 72%,#000 96%)!important}.lt{background:linear-gradient(180deg,rgba(20,13,8,.35),transparent 25%,transparent 48%,rgba(20,13,8,.88) 70%,#140d08 95%)!important}'
+        if 'class="big"' in h: extra+='.t{top:auto!important;bottom:7.5%!important;left:70px!important;right:70px!important;width:auto!important;text-align:center!important}h1 i{display:inline!important;margin-left:.28em}.big{bottom:auto!important;top:4%!important;opacity:.8}'
+        else: extra+='.t{bottom:5.5%!important}'
+        return h.replace('</style>',extra+'</style>',1)
     return h.replace('</body>','<div style="position:absolute;top:110px;left:0;right:0;text-align:center"><span style="background:#ff2e3b;color:#fff;font:900 22px Inter;letter-spacing:.2em;padding:8px 18px">PROVISÓRIA</span></div></body>')
 async def main():
     async with async_playwright() as p:
@@ -77,9 +83,9 @@ async def main():
         for k,a in CAPAS.items(): await shot(encaixe(html(1920,*a),'CAPA-'+k),1920,f'{D}/capas-reels/{k}-capa.jpg')
         await b.close()
     from PIL import Image
-    w,h=360,640;S=Image.new('RGB',(3*w+80,3*h+80),'#111')
-    for j,n in enumerate(['ADV-1','ADV-2','ADV-3','BARBA-1','BARBA-2','BARBA-3','SORRISO-1','SORRISO-2','SORRISO-3']):
-        im=Image.open(f'{D}/artes/{n}-9x16.jpg');im.thumbnail((w,h));S.paste(im,(20+(j%3)*(w+20),20+(j//3)*(h+20)))
+    w,h=288,512;S=Image.new('RGB',(5*w+120,2*h+60),'#111')
+    for j,n in enumerate(['ADV-1','ADV-2','ADV-3','ADV-4','BARBA-1','BARBA-2','BARBA-3','SORRISO-1','SORRISO-2','SORRISO-3']):
+        im=Image.open(f'{D}/artes/{n}-9x16.jpg');im.thumbnail((w,h));S.paste(im,(20+(j%5)*(w+20),20+(j//5)*(h+20)))
     S.save(f'{D}/folha.jpg',quality=88);S=Image.new('RGB',(3*w+80,h+40),'#111')
     for j,k in enumerate(CAPAS):
         im=Image.open(f'{D}/capas-reels/{k}-capa.jpg');im.thumbnail((w,h));S.paste(im,(20+j*(w+20),20))

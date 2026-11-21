@@ -29,3 +29,8 @@ Variações (05/11, conta Pedro): o Lindson liberou "pode criar variações com 
 | lindson-01 a lindson-16 (escolhidas-2026-11-16, IA; recortes recorte2.py) | Linhas editoriais **v2** (substitui a v1 reprovada, que não foi postada): uma foto por peça, mesmas peças da v1 · `linhas-editoriais/v2/` | 16/11/2026 | Leandro |
 | lindson-03, 01, 07, 02, 06, 14, 09, 08, 16 **variações** (recorte isnet novo com rim light amarelo sobre preto/amarelo; lindson-09 também com o próprio fundo desfocado) + c10 (avatar fixo, regra "perfil = avatar do Instagram") | Canal do YouTube: banner (03), thumbs 1-6 (01, 07, 02, 06, 14, 09), capa de Short (08), bumper (16), perfil (c10) · `youtube/` (todas as fotos já usadas antes: pedir lote novo) | 17/11/2026 | Zuleide |
 | lindson-05, 04, 11, 10 **variações** (foto inteira com máscara em degradê, grade quente/Lápis; 10 em moldura de arco) | YouTube Barzakh: banner (05), thumbs 01 (04), 02 (11), 03 (10) · `marca-holding/youtube/` (pedir lote novo) | 18/11/2026 | Zuleide |
+| gemini-16-11/31 (estúdio com fumaça e sombra gigante) | Tráfego SLZ v3 · ADV-1 "Seu concorrente já está no Google" (9:16 e 4:5) | 21/11/2026 | Leandro |
+| gemini-16-11/32 (escritório de mogno, estátua da Justiça) | Tráfego SLZ v3 · ADV-2 editorial "Quem procura te encontra?" | 21/11/2026 | Leandro |
+| gemini-16-11/33 (cavalos de xadrez, fumaça) | Tráfego SLZ v3 · ADV-4 "Seu marketing joga xadrez ou damas?" | 21/11/2026 | Leandro |
+| gemini-16-11/34 (biblioteca clássica, bustos) | Tráfego SLZ v3 · ADV-3 editorial "O cliente pesquisa antes" | 21/11/2026 | Leandro |
+| gemini-16-11/35 (cortina de veludo vermelho, refletor) | Tráfego SLZ v3 · capa do Reel ADV | 21/11/2026 | Leandro |
