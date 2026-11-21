@@ -1,0 +1,39 @@
+{
+  "name": "Barzakh · um estúdio Al Kántara",
+  "tagline": "A passagem da sua marca.",
+  "colors": {
+    "primary":   {"name": "Oliva Limiar", "hex": "#50422A", "rgb": [80, 66, 42],  "cmyk": [0, 18, 48, 69], "use": "50%", "role": "fundo dominante (escolha do Lindson, 21/11: fundo da foto de perfil)"},
+    "secondary": {"name": "Obsidiana",    "hex": "#0E0F12", "rgb": [14, 15, 18],  "cmyk": [22, 17, 0, 93], "use": "25%", "role": "fundo de contraste, texto sobre marfim"},
+    "light":     {"name": "Marfim",       "hex": "#EEEAE2", "rgb": [238, 234, 226], "cmyk": [0, 2, 5, 7], "use": "15%", "role": "papel, respiro, texto sobre escuro"},
+    "accent":    {"name": "Ouro Escovado","hex": "#CFAE74", "rgb": [207, 174, 116], "cmyk": [0, 16, 44, 19], "use": "7%", "role": "símbolo, títulos, filetes (no impresso: hot stamping)",
+                  "foil": "linear-gradient(115deg,#7A5E2F 0%,#D9BD84 22%,#8C6C38 40%,#E8D3A2 55%,#94733D 72%,#C9A86C 100%)"},
+    "dark":      {"name": "Lápis da Hora Azul", "hex": "#2B3A8F", "rgb": [43, 58, 143], "cmyk": [70, 59, 0, 44], "use": "3%", "role": "brilho atrás do símbolo, detalhe raro"}
+  },
+  "contrast_wcag": {
+    "Marfim sobre Oliva Limiar": 8.26,
+    "Ouro Escovado sobre Oliva Limiar": 4.62,
+    "Ouro Escovado sobre Obsidiana": 9.09,
+    "Marfim sobre Obsidiana": 15.97,
+    "Obsidiana sobre Marfim": 15.97,
+    "Marfim sobre Lápis": 8.32,
+    "Ouro Escovado sobre Lápis": 4.73,
+    "Ouro Escovado sobre Marfim": "1.76 · PROIBIDO para texto (só símbolo grande em hot stamping)"
+  },
+  "fonts": {"display": "Fraunces (Google Fonts, OFL)", "body": "Inter Tight (Google Fonts, OFL)", "accent": "JetBrains Mono (Google Fonts, OFL) · só rótulos"},
+  "typeScale": {"ratio": 1.25, "px": [20, 25, 31, 39, 49, 61, 76, 95, 119, 149, 186]},
+  "logo": {
+    "primary": "assets/barzakh-horizontal-bronze.svg",
+    "secondary": "assets/barzakh-vertical-bronze.svg",
+    "symbol": "assets/barzakh-simbolo-bronze.svg",
+    "wordmark": "assets/barzakh-logotipo-bronze.svg",
+    "mono": "v3/marca/logos/svg/barzakh-*-mono-preto.svg",
+    "negative": "v3/marca/logos/svg/barzakh-*-mono-branco.svg",
+    "gold_png": "assets/barzakh-*-ouro.png",
+    "avatar": "assets/foto-de-perfil.jpg"
+  },
+  "clearspace": "1X em volta, X = raio do semicírculo central do símbolo",
+  "minSize": {"symbol": {"px": 24, "mm": 8}, "horizontal": {"px": 140, "mm": 35}, "vertical": {"px": 90, "mm": 22}},
+  "radius": 24,
+  "grain": 0.06,
+  "voice": {"is": ["calma", "precisa", "concreta", "frases curtas"], "isNot": ["esotérica", "promessa de resultado", "jargão", "exclamação em excesso"]}
+}
