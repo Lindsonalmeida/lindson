@@ -163,3 +163,12 @@ Referência obrigatória de nível: Al Kántara Group v2 (agencia/marca-holding/
 
 ### Regras gerais da empresa (Lindson, 20/11/2026)
 Antes de toda entrega, cumprir `REGRAS-GERAIS.md`: nível premium (Al Kántara v2), nota ≥ 9 no crivo, definição de pronto em 11 itens (pendência dita, nunca escondida), causa raiz e auditoria para trás em toda reprovação; 2 reprovações seguidas = confirmar o caminho com referências do Lindson antes da 3ª versão.
+
+### Aprendizados 20/11/2026 (conta Pedro)
+- **REGRAS-GERAIS.md (Lindson: "precisamos ter um padrão de qualidade e exigência"):** porta de entrada única; nota ≥ 9, definição de pronto em 11 itens, rotina de reprovação. Fixado em CLAUDE, MEMORIA, quadro, prompts e todos os agentes.
+- **Mova:** Mapa de visibilidade (guia 10 p. + gerador com 121 bairros reais do OSM), aba Dados (17 dados com fonte), plano de vendas v2 com a tabela do Paulo (adesivo R$ 500→484 até 10 carros, piso R$ 380 a partir de 11; capacidade 40 anúncios de 10 s/viagem; bônus mapa+relatório+troca grátis; garantia 24 h tela/36 h adesivo). Prints do grupo em dados/clientes-arquivos/mova-street/whatsapp-20-11/.
+- **WF:** relatório Meta 10–19/11 entregue (R$ 1,67/conversa, R$ 31,79/venda); auditoria achou WhatsApp do vídeo ≠ do anúncio e fotos ampliadas >1,5×.
+- **Barzakh:** estúdio SEM imagem do Lindson; bio "Barzakh · Branding Studio" (ele achou "embalagem" pobre); APRESENTAR.md com 14 formatos e prompts de mockup.
+- **Biblioteca:** menu lateral em 10 painéis; gerador agencia/sistema-clientes/site/painel-biblioteca/gerar_biblioteca.py <cliente>.
+- **Leo aniversário:** modelo B serve para homenagem pessoal (Vovó Hildene); suavizar borda reta do recorte com gradiente de alfa.
+- **Cuidado:** subagente às vezes registra a conta errada (Zuleide/Lindson); corrigir para Pedro.
