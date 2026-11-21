@@ -16,6 +16,8 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 
 ## RESUMO CONSOLIDADO (leia primeiro) — atualizado 15/11/2026, conta Zuleide
 
+> **21/11/2026 (conta Pedro) · Leo Pinto: identidade v2 NÃO está aprovada.** Lindson: "essa nova identidade do leo pinto não está aprovada, você nunca acertou". O "gostei de quase tudo" de 18/11 NÃO era aprovação. Valem só: logo e cores do partido. Identidade v1, v2 e as redes v2–v5 = reprovadas. Regra: não chamar nada de aprovado sem a palavra "aprovado" dele; para a próxima versão, primeiro ele escolhe 2–3 referências concretas (regra das 2 reprovações).
+
 > **20/11/2026 (Builder Squad, conta Lindson) · BIBLIOTECA NO PAINEL DE TODO CLIENTE (pedido):** "organize a biblioteca de cada cliente, no painel de cada cliente, na Central do cliente. Coloque um menu lateral chamado BIBLIOTECA". Feito em 10 painéis (Jaci, Leo, WF, Mova, RT, SF, Orégano, Al Kántara, Curso, Tribuna): categorias, miniatura, data, versão, situação (reprovado e versão antiga escondidos), busca, Abrir e Baixar. Regra: **todo arquivo novo entra na Biblioteca do cliente** (`agencia/processos/biblioteca-do-cliente.md`). Reprovados da memória marcados no gerador (Leo identidade antiga e redes v3, Mova logo v1, Jaci site v2 e prova social v1, SF criativos v1, RT feed v3/v4, WF artes-01). Situação: aguardando avaliação do Lindson.
 
 > **20/11/2026 (conta Pedro) · REGRAS GERAIS:** "quero que seja aplicado a tudo, e salvar em regras gerais da empresa e equipe; precisamos ter um padrão de qualidade e exigência". Criado `REGRAS-GERAIS.md` (porta de entrada única: padrão premium, nota ≥ 9, definição de pronto em 11 itens, rotina de reprovação, lições). Vale para todas as contas, agentes, rotinas e clientes.
