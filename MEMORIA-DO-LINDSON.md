@@ -712,3 +712,4 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 - **REGRA DO LINDSON (21/11/2026, todas as contas, agentes e rotinas): "nunca refaça algo que eu já reprovei."** Antes de criar ou refazer qualquer peça, procure na `MEMORIA-DO-LINDSON.md` (REPROVADO) e no painel se o estilo, técnica ou peça já foi reprovado. Se foi, é proibido entregar de novo no mesmo estilo/técnica (ex.: Reels miniaturas 3D com bonecos, fotos paradas com zoom fingindo vídeo). Faltou caminho novo: pergunte ao Lindson com referências antes de produzir.
 
 - 21/11/2026 (Leandro) · REPROVADO: Reels Cinema IA feitos de imagens estáticas com zoom ("imagens estáticas, ficou feio"). Cena tem que nascer como vídeo (Veo/Kling).
+- 22/11/2026 (Leandro): funil SDR D+3/D+6/D+9 pedido pelo Lindson; D+9 oferece Instagram organizado grátis.

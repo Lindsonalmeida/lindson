@@ -148,7 +148,7 @@ wa.on('message_create', async m => {
     await conv('', { acao: 'lindson', id: c.id, texto: m.body || '' }); diz(`${c.nome}: o Lindson assumiu a conversa pelo celular.`);
   } catch (e) {}
 });
-// follow-ups (D+2 e D+5 para quem não respondeu; "depois" volta em 3 dias), no horário e dentro do limite do dia
+// follow-ups (D+3, D+6 e D+9 para quem não respondeu; o D+9 oferece o Instagram organizado grátis; "depois" volta em 3 dias), no horário e dentro do limite do dia
 async function followUps() {
   if (!podeAgora()) return;
   let r; try { r = await conv('?followup=1&numero=' + NUMERO); } catch (e) { return; }

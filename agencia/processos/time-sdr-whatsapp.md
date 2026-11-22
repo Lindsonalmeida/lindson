@@ -69,3 +69,6 @@ Admin (navegador) ── aba SDR · Prospecção ──► /api/sdr (cookie de a
 | Conta Leandro (coordenação) | põe "leads novos" na fila `coordenacao/fila.json` quando a lista acabar |
 | Equipe de prospecção (Maquiavel → Copy squad, Hormozi) | pesquisa de leads e mensagens no PADRAO-COPY |
 | Builder squad + Jim Manico | revisão de qualquer mudança em `/api/sdr` (segurança e testes) |
+
+## Funil de follow-up (Lindson, 22/11/2026)
+Só para quem não respondeu: **D+3** contato humanizado; **D+6** terceiro contato; **D+9** último contato com apelo e oferta de **organizar o Instagram de graça** (bio, destaques, primeira impressão) para provar a qualidade. Mensagens em `CentralLindsonALmeida/functions/_sdr_fluxo.js` (FOLLOW), adaptadas ao nicho (escritório, barbearia, clínica). Quem aceitar o presente vai para o Lindson.
