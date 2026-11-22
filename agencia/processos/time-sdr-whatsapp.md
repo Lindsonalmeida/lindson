@@ -72,3 +72,10 @@ Admin (navegador) ── aba SDR · Prospecção ──► /api/sdr (cookie de a
 
 ## Funil de follow-up (Lindson, 22/11/2026)
 Só para quem não respondeu: **D+3** contato humanizado; **D+6** terceiro contato; **D+9** último contato com apelo e oferta de **organizar o Instagram de graça** (bio, destaques, primeira impressão) para provar a qualidade. Mensagens em `CentralLindsonALmeida/functions/_sdr_fluxo.js` (FOLLOW), adaptadas ao nicho (escritório, barbearia, clínica). Quem aceitar o presente vai para o Lindson.
+
+## VIRTÙ: abas por nicho, funil e fluxo (conta Leandro, 22/11/2026)
+- Marca do time: **VIRTÙ** (`agencia/marca-sdr/`). A aba SDR do admin vem de `admin-sdr.js` via `painel-sdr/injetar_sdr.py` (nunca editar o admin.html montado à mão).
+- Abas por nicho: Advogados, Barbearias, Clínicas HOF, Outros · Orégano (vereador/política cai em Outros no painel; no robô usa as mensagens aprovadas de vereador).
+- Funil: Novo → 1º contato → D+3 → D+6 → D+9 (Instagram grátis) → Respondeu → Qualificado → Reunião → Proposta → Fechado/Perdido. As colunas D+3/D+6/D+9 são deduzidas pelos dias desde o 1º envio de quem ainda está em "enviado".
+- Fluxo do nicho (oferta, regra OAB/CFO, 1º contato, perguntas q1/q2, reunião, objeções): `NICHOS` em `functions/_sdr_fluxo.js` (privado), servido por GET /api/sdr (`fluxos`). Robô: q2 respondida = etapa **qualificado**; horário confirmado = **reuniao**.
+- Limite: 30/dia por número (config.json). O robô mandava limite NaN com "inicio" vazio e o painel caía no padrão 20; `limiteDoDia` corrigido. Latência (intervalos) não mudou.

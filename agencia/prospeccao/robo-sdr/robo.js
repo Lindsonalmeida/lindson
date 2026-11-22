@@ -26,7 +26,8 @@ if (!/^\d{4}-\d{2}-\d{2}$/.test(CFG.inicio)) {                 // 1º dia do nú
   try { writeFileSync(join(PASTA, 'config.json.tmp'), JSON.stringify(CFG_TODO, null, 2)); renameSync(join(PASTA, 'config.json.tmp'), join(PASTA, 'config.json')); } catch (e) {}
 }
 // aquecimento: 20/dia na 1ª semana, +10 por semana, até o teto
-export const limiteDoDia = (cfg, dia = hoje()) => { const sem = Math.max(0, Math.floor((Date.parse(dia) - Date.parse(cfg.inicio)) / (7 * 864e5))); return Math.min(cfg.teto, cfg.inicial + cfg.aumento * sem); };
+// "inicio" vazio (config de 30/dia, 22/11/2026) dava NaN: o limite ia nulo e a Central mostrava /20. Agora sem início = sem aquecimento.
+export const limiteDoDia = (cfg, dia = hoje()) => { const t = Date.parse(cfg.inicio || ''); const sem = isNaN(t) ? 0 : Math.max(0, Math.floor((Date.parse(dia) - t) / (7 * 864e5))); return Math.min(cfg.teto, cfg.inicial + (cfg.aumento || 0) * sem) || cfg.teto || 30; };
 const minutos = s => { const [h, m] = String(s).split(':').map(Number); return h * 60 + (m || 0); };
 const podeAgora = () => { const d = new Date(), w = d.getDay(), m = d.getHours() * 60 + d.getMinutes(); return (CFG.fim_de_semana || (w >= 1 && w <= 5)) && m >= minutos(CFG.hora_ini) && m < minutos(CFG.hora_fim); };
 const MAX_SEM_WA = 3;               // 3 números sem WhatsApp seguidos = pausa (lista ruim derruba a reputação)

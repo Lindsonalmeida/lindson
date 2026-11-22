@@ -714,3 +714,4 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 - 21/11/2026 (Leandro) · REPROVADO: Reels Cinema IA feitos de imagens estáticas com zoom ("imagens estáticas, ficou feio"). Cena tem que nascer como vídeo (Veo/Kling).
 - 22/11/2026 (Leandro): funil SDR D+3/D+6/D+9 pedido pelo Lindson; D+9 oferece Instagram organizado grátis.
 - 22/11/2026 (Leandro): clínicas de dentista dos leads = foco em HOF (harmonização orofacial). Catálogo único de serviços em agencia/ofertas/SERVICOS.md; robôs SDR aprenderam os serviços por nicho.
+- 22/11/2026 (Leandro): time de robôs SDR = VIRTÙ (luxo-tecnológico: obsidiana, champanhe, Cormorant + Inter Tight). Aguardando aprovação do nome e da aba.

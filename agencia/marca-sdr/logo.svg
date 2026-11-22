@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" fill="none">
+<style>@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&amp;family=Inter+Tight:wght@500&amp;display=swap');</style>
+<g transform="translate(40 40) scale(3.4)"><path d="M10 12 32 54 54 12" stroke="#CDB27A" stroke-width="2.4"/><path d="M21 12 32 34 43 12" stroke="#E9E6DF" stroke-width="1.2" opacity=".55"/><circle cx="32" cy="54" r="2.6" fill="#8FE3CF"/></g>
+<text x="300" y="172" fill="#E9E6DF" font-family="Cormorant Garamond, Georgia, serif" font-weight="500" font-size="120" letter-spacing="40">VIRTÙ</text>
+<text x="304" y="228" fill="#CDB27A" font-family="Inter Tight, system-ui, sans-serif" font-weight="500" font-size="22" letter-spacing="9">TIME DE PROSPECÇÃO</text>
+</svg>
