@@ -715,3 +715,4 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 - 22/11/2026 (Leandro): funil SDR D+3/D+6/D+9 pedido pelo Lindson; D+9 oferece Instagram organizado grátis.
 - 22/11/2026 (Leandro): clínicas de dentista dos leads = foco em HOF (harmonização orofacial). Catálogo único de serviços em agencia/ofertas/SERVICOS.md; robôs SDR aprenderam os serviços por nicho.
 - 22/11/2026 (Leandro): time de robôs SDR = VIRTÙ (luxo-tecnológico: obsidiana, champanhe, Cormorant + Inter Tight). Aguardando aprovação do nome e da aba.
+- 22/11/2026 (Leandro) · APROVADO pelo Lindson: nome e identidade VIRTÙ do time de robôs SDR (agencia/marca-sdr/) e o Reel 04 Cinema IA com cenas do Google Flow (painel/admin-rede/reels-cinema-ia/04-flow-v1.mp4). Caminho aprovado para vídeo: cenas em vídeo no Flow/Veo + montagem nossa.
