@@ -12,6 +12,12 @@ Fonte para todas as equipes, robôs SDR, propostas e copy. Preço sempre "a part
 8. **Análise de métricas** (relatório mensal, o que funcionou e o próximo passo).
 9. **Estratégia de vendas validada** (roteiro de WhatsApp, follow-up, funil, treino da recepção).
 
+## Serviços de gestão e conhecimento (Lindson, 22/11/2026)
+10. **Gestão de marketing** (cuidar de todo o marketing do negócio: planejamento, equipe, conteúdo, tráfego e resultado).
+11. **Assessoria política** (mandatos e pré-campanhas: redes, conteúdo, site; sem promessa de voto, regras eleitorais).
+12. **Mentoria em vendas online** (ensinar o dono a vender pelo Instagram e WhatsApp).
+13. **Consultoria** (diagnóstico e plano de marketing e vendas para o negócio executar).
+
 ## Outros serviços que já entregamos
 - Identidade visual e branding (Al Kántara Studio / Projeto Designer), manual de marca, apresentação.
 - Vídeo e motion (Reels, saudações animadas, vídeos com IA, narração).
