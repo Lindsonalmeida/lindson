@@ -1,0 +1,12 @@
+{
+ "_leia": "Retrato das rotinas agendadas do Claude (conta Leandro). Atualize na rodada de coordenação com list_triggers: ultima = last_fired_at, resultado = last_run.status. Sem ids nem prompts aqui.",
+ "atualizado": "2026-11-22T15:25:00+00:00",
+ "gatilhos": {
+  "rt-post": {"ultima": "2026-11-22T12:58:26+00:00", "resultado": "rodou (SUCCEEDED) · conector Windsor ligado", "ligado": true},
+  "rodada-lindson": {"ultima": "2026-11-22T13:36:25+00:00", "resultado": "rodou (SUCCEEDED)", "ligado": true},
+  "coordenacao": {"ultima": "2026-11-22T15:07:39+00:00", "resultado": "entregue na sessão persistente", "ligado": true},
+  "bombou": {"ultima": "2026-10-27T15:01:33+00:00", "resultado": "falhou: limite de uso", "ligado": false},
+  "captacao": {"ultima": "2026-10-26T18:09:08+00:00", "resultado": "falhou: limite de uso", "ligado": false},
+  "roteiros": {"ultima": null, "resultado": "desligada", "ligado": false}
+ }
+}

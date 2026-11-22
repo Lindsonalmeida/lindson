@@ -1,0 +1,390 @@
+{
+ "gerado": "2026-11-22T15:26:47+00:00",
+ "rotas": {
+  "automacao": 401,
+  "sdr": 200,
+  "robos": {
+   "sdr1": {
+    "visto": "2026-11-22T15:23:37.548Z",
+    "estado": "Fora do horário. Aguardando…",
+    "pausado": null,
+    "enviados": 0
+   },
+   "sdr2": {
+    "visto": "2026-11-22T15:17:43.855Z",
+    "estado": "Fora do horário. Aguardando…",
+    "pausado": null,
+    "enviados": 0
+   },
+   "sdr3": {
+    "visto": "2026-11-22T15:22:06.253Z",
+    "estado": "Fora do horário. Aguardando…",
+    "pausado": null,
+    "enviados": 0
+   }
+  }
+ },
+ "gatilhos_em": "2026-11-22T15:25:00+00:00",
+ "robos": [
+  {
+   "id": "sdr1",
+   "nome": "Robô SDR 1",
+   "grupo": "Vendas",
+   "oque": "Manda a mensagem de prospecção no WhatsApp, 1 lead por vez, e conversa com quem responde (follow-ups).",
+   "onde": "PC do Lindson",
+   "dono": "Pedro",
+   "freq": "a cada 4–9 min, 09:00–18:00, todos os dias (30/dia)",
+   "agenda": {
+    "janela": [
+     "09:00",
+     "18:00"
+    ]
+   },
+   "fonte": "vivo:sdr1",
+   "link": "#sdr",
+   "arquivo": "agencia/prospeccao/robo-sdr/README.md",
+   "max_h": 0.4,
+   "ultima": "2026-11-22T15:23:37.548Z",
+   "ultima_msg": "Fora do horário. Aguardando…",
+   "status": "ativo",
+   "motivo": "",
+   "arquivo_url": "https://github.com/Lindsonalmeida/lindson/blob/claude/global-agent-installation-vdyowf/agencia/prospeccao/robo-sdr/README.md"
+  },
+  {
+   "id": "sdr2",
+   "nome": "Robô SDR 2",
+   "grupo": "Vendas",
+   "oque": "Segundo número do time de SDR: só os leads dele, saudação e pergunta variadas.",
+   "onde": "PC do Lindson",
+   "dono": "Pedro",
+   "freq": "a cada 5–10 min, 09:20–17:40, todos os dias (30/dia)",
+   "agenda": {
+    "janela": [
+     "09:20",
+     "17:40"
+    ]
+   },
+   "fonte": "vivo:sdr2",
+   "link": "#sdr",
+   "arquivo": "agencia/processos/time-sdr-whatsapp.md",
+   "max_h": 0.4,
+   "ultima": "2026-11-22T15:17:43.855Z",
+   "ultima_msg": "Fora do horário. Aguardando…",
+   "status": "ativo",
+   "motivo": "",
+   "arquivo_url": "https://github.com/Lindsonalmeida/lindson/blob/claude/global-agent-installation-vdyowf/agencia/processos/time-sdr-whatsapp.md"
+  },
+  {
+   "id": "sdr3",
+   "nome": "Robô SDR 3",
+   "grupo": "Vendas",
+   "oque": "Terceiro número do time de SDR.",
+   "onde": "PC do Lindson",
+   "dono": "Pedro",
+   "freq": "a cada 5–11 min, 09:40–17:20, todos os dias (30/dia)",
+   "agenda": {
+    "janela": [
+     "09:40",
+     "17:20"
+    ]
+   },
+   "fonte": "vivo:sdr3",
+   "link": "#sdr",
+   "arquivo": "agencia/processos/time-sdr-whatsapp.md",
+   "max_h": 0.4,
+   "ultima": "2026-11-22T15:22:06.253Z",
+   "ultima_msg": "Fora do horário. Aguardando…",
+   "status": "ativo",
+   "motivo": "",
+   "arquivo_url": "https://github.com/Lindsonalmeida/lindson/blob/claude/global-agent-installation-vdyowf/agencia/processos/time-sdr-whatsapp.md"
+  },
+  {
+   "id": "leads-sdr",
+   "nome": "Pesquisa de leads do SDR",
+   "grupo": "Vendas",
+   "oque": "Põe leads novos (WhatsApp celular + Instagram, nota 80+) na lista do time de SDR quando ela acaba.",
+   "onde": "Nuvem Claude",
+   "dono": "Leandro (coordenação) · Pedro",
+   "freq": "quando a lista acaba",
+   "fonte": "gitc:^SDR: [0-9]+ |^SDR Orégano|leads novos",
+   "link": "#sdr",
+   "arquivo": "agencia/operacao-propria/sdr/PUBLICO-ALVO.md",
+   "max_h": 168,
+   "ultima": "2026-11-22T15:23:06+00:00",
+   "ultima_msg": "SDR: 13 leads novos dos 3 nichos (dentista/advogado SLZ, barbearias capitais) - continuação do Pedro (conta Leandro)",
+   "status": "ativo",
+   "motivo": "",
+   "arquivo_url": "https://github.com/Lindsonalmeida/lindson/blob/claude/global-agent-installation-vdyowf/agencia/operacao-propria/sdr/PUBLICO-ALVO.md"
+  },
+  {
+   "id": "sdr-oregano",
+   "nome": "SDR Orégano (pizzarias)",
+   "grupo": "Vendas",
+   "oque": "Lista diária de pizzarias com mensagem pronta no painel da Orégano Turbo; envio pelo botão WhatsApp (cadência).",
+   "onde": "Nuvem Claude + Central",
+   "dono": "Zuleide",
+   "freq": "diária (leads); envio manual",
+   "fonte": "git:SDR Orégano",
+   "link": "/painel/oregano#sdr",
+   "arquivo": "agencia/sistema-clientes/oregano-turbo/montar-sdr.py",
+   "max_h": 48,
+   "vivo": "sdr-oregano",
+   "ultima": "2026-11-22T10:47:14+00:00",
+   "ultima_msg": "SDR Orégano: +9 pizzarias (complemento 22/11)",
+   "status": "ativo",
+   "motivo": "",
+   "arquivo_url": "https://github.com/Lindsonalmeida/lindson/blob/claude/global-agent-installation-vdyowf/agencia/sistema-clientes/oregano-turbo/montar-sdr.py"
+  },
+  {
+   "id": "rt-post",
+   "nome": "Real Time · postar 3x ao dia",
+   "grupo": "Postagem",
+   "oque": "Pega o próximo post APROVADO da Real Time e publica no Instagram pelo Windsor; marca como postado no painel.",
+   "onde": "Nuvem Claude",
+   "dono": "Leandro",
+   "freq": "09:58, 13:58 e 17:58",
+   "agenda": {
+    "min": 58,
+    "horas": [
+     9,
+     13,
+     17
+    ]
+   },
+   "fonte": "gatilho:rt-post",
+   "link": "/painel/rt",
+   "arquivo": "agencia/processos/automacao-operacao.md",
+   "depende": "automacao",
+   "ultima": "2026-11-22T12:58:26+00:00",
+   "ultima_msg": "rodou (SUCCEEDED) · conector Windsor ligado",
+   "ligado": true,
+   "status": "erro",
+   "motivo": "A Central recusa a chave AUTOMACAO_TOKEN (API 401): não lê as aprovações nem marca o postado.",
+   "arquivo_url": "https://github.com/Lindsonalmeida/lindson/blob/claude/global-agent-installation-vdyowf/agencia/processos/automacao-operacao.md"
+  },
+  {
+   "id": "robo-ig",
+   "nome": "Robô do Instagram @lindsonalmeida_",
+   "grupo": "Postagem",
+   "oque": "Publica sozinho a agenda do Instagram do Lindson pela API oficial (post, carrossel, Reels), 4 h entre posts.",
+   "onde": "PC do Lindson",
+   "dono": "Pedro",
+   "freq": "a cada 15 min, 08:00–21:00",
+   "agenda": {
+    "janela": [
+     "08:00",
+     "21:00"
+    ],
+    "cada_min": 15
+   },
+   "fonte": "vivo:agenda-ig",
+   "link": "#rede",
+   "arquivo": "agencia/marca-lindson/robo-instagram/README.md",
+   "max_h": 48,
+   "ultima": null,
+   "ultima_msg": "",
+   "status": "atencao",
+   "motivo": "Sem confirmação de que está instalado no PC (precisa do token da Meta e do IG_ROBO_TOKEN). A aba confere ao vivo na fila /api/agenda-ig.",
+   "arquivo_url": "https://github.com/Lindsonalmeida/lindson/blob/claude/global-agent-installation-vdyowf/agencia/marca-lindson/robo-instagram/README.md"
+  },
+  {
+   "id": "coordenacao",
+   "nome": "Coordenação das equipes",
+   "grupo": "Equipe",
+   "oque": "Lê o quadro A fazer e os cadernos, divide o trabalho na fila, cobra quem não confirmou e sincroniza o quadro do admin.",
+   "onde": "Nuvem Claude",
+   "dono": "Leandro",
+   "freq": "a cada 2 h, 08:07–22:07",
+   "agenda": {
+    "min": 7,
+    "horas": [
+     8,
+     10,
+     12,
+     14,
+     16,
+     18,
+     20,
+     22
+    ]
+   },
+   "fonte": "git:^Coordenação: rodada",
+   "link": "/painel/comando#afazer",
+   "arquivo": "coordenacao/COORDENACAO.md",
+   "max_h": 6,
+   "depende": "automacao",
+   "ultima": "2026-11-16T11:07:45+00:00",
+   "ultima_msg": "Coordenação: rodada 08:07",
+   "status": "erro",
+   "motivo": "A Central recusa a chave AUTOMACAO_TOKEN (API 401): não lê nem atualiza o quadro A fazer da Central (usa só a fila do repositório). Sem sinal há 6.2 dias (esperado a cada 6 h ou menos).",
+   "arquivo_url": "https://github.com/Lindsonalmeida/lindson/blob/claude/global-agent-installation-vdyowf/coordenacao/COORDENACAO.md"
+  },
+  {
+   "id": "rodada-lindson",
+   "nome": "Rodada da equipe Lindson (fila)",
+   "grupo": "Equipe",
+   "oque": "Pega o próximo item livre da fila da equipe Lindson, faz, sobe no painel do cliente e fecha.",
+   "onde": "Nuvem Claude",
+   "dono": "Leandro (rotina) · equipe Lindson",
+   "freq": "a cada 2 h (:36)",
+   "agenda": {
+    "min": 36,
+    "cada": 2
+   },
+   "fonte": "gatilho:rodada-lindson",
+   "link": "/painel/comando#afazer",
+   "arquivo": "coordenacao/PROMPT-EQUIPE.md",
+   "depende": "automacao",
+   "ultima": "2026-11-22T13:36:25+00:00",
+   "ultima_msg": "rodou (SUCCEEDED)",
+   "ligado": true,
+   "trabalho_em": "2026-11-16T01:42:33+00:00",
+   "trabalho_msg": "Fila: Lindson pegou cad2-jaci-2 (parte roteiro)",
+   "status": "erro",
+   "motivo": "A Central recusa a chave AUTOMACAO_TOKEN (API 401): não lê nem atualiza o quadro A fazer da Central (usa só a fila do repositório). Dispara a cada 2 h, mas não pega item da fila desde 16/11.",
+   "arquivo_url": "https://github.com/Lindsonalmeida/lindson/blob/claude/global-agent-installation-vdyowf/coordenacao/PROMPT-EQUIPE.md"
+  },
+  {
+   "id": "agregacao-zuleide",
+   "nome": "Agregação horária",
+   "grupo": "Equipe",
+   "oque": "Verifica de hora em hora o que entrou no repositório e agrega aos agentes e à memória.",
+   "onde": "Nuvem Claude",
+   "dono": "Zuleide",
+   "freq": "de hora em hora (:50)",
+   "agenda": {
+    "min": 50,
+    "cada": 1
+   },
+   "fonte": "git:^Agregação: verificação",
+   "link": "#quadro",
+   "arquivo": "MENTE-COLETIVA.md",
+   "max_h": 3,
+   "ultima": "2026-11-22T14:51:45+00:00",
+   "ultima_msg": "Agregação: verificação 22/11 11:50 (conta Zuleide)",
+   "status": "ativo",
+   "motivo": "",
+   "arquivo_url": "https://github.com/Lindsonalmeida/lindson/blob/claude/global-agent-installation-vdyowf/MENTE-COLETIVA.md"
+  },
+  {
+   "id": "filas-equipes",
+   "nome": "Rodadas das equipes Zuleide e Pedro",
+   "grupo": "Equipe",
+   "oque": "Cada equipe pega o próximo item dela na fila da coordenação a cada 2 h.",
+   "onde": "Nuvem Claude",
+   "dono": "Zuleide · Pedro",
+   "freq": "a cada 2 h",
+   "fonte": "git:^[Ff]ila: (Zuleide|Pedro)",
+   "link": "/painel/comando#afazer",
+   "arquivo": "coordenacao/PROMPT-EQUIPE.md",
+   "max_h": 24,
+   "ultima": "2026-11-16T14:05:19+00:00",
+   "ultima_msg": "Fila: Zuleide pega cad2-pagode-24",
+   "status": "atencao",
+   "motivo": "Sem sinal há 6.1 dias (esperado a cada 24 h ou menos).",
+   "arquivo_url": "https://github.com/Lindsonalmeida/lindson/blob/claude/global-agent-installation-vdyowf/coordenacao/PROMPT-EQUIPE.md"
+  },
+  {
+   "id": "vektor",
+   "nome": "VEKTOR (gerente por voz)",
+   "grupo": "Central",
+   "oque": "Conversa por voz e texto com o Lindson na Central de Comando e cria pedidos para as equipes (Workers AI).",
+   "onde": "Cloudflare",
+   "dono": "Leandro · Zuleide",
+   "freq": "sob demanda",
+   "fonte": "sob-demanda",
+   "link": "/painel/comando",
+   "arquivo": "agencia/sistema-clientes/comando/README.md",
+   "ultima": null,
+   "ultima_msg": "",
+   "status": "ativo",
+   "motivo": "",
+   "arquivo_url": "https://github.com/Lindsonalmeida/lindson/blob/claude/global-agent-installation-vdyowf/agencia/sistema-clientes/comando/README.md"
+  },
+  {
+   "id": "noticias",
+   "nome": "Notícias do nicho",
+   "grupo": "Central",
+   "oque": "Busca notícias do nicho de cada cliente (Google Notícias, reserva Bing) e guarda 3 h.",
+   "onde": "Cloudflare",
+   "dono": "Lindson (conta)",
+   "freq": "sob demanda, cache de 3 h",
+   "fonte": "sob-demanda",
+   "link": "/painel/jaci#noticias",
+   "arquivo": "agencia/sistema-clientes/site/README.md",
+   "ultima": null,
+   "ultima_msg": "",
+   "status": "ativo",
+   "motivo": "",
+   "arquivo_url": "https://github.com/Lindsonalmeida/lindson/blob/claude/global-agent-installation-vdyowf/agencia/sistema-clientes/site/README.md"
+  },
+  {
+   "id": "lembretes",
+   "nome": "Lembretes da agenda no WhatsApp (Mova Street)",
+   "grupo": "Central",
+   "oque": "Avisa contato e responsável no WhatsApp (D-1 às 18h e 2 h antes).",
+   "onde": "Cloudflare + agendador externo",
+   "dono": "Leandro",
+   "freq": "a cada 15 min (quando ligado)",
+   "fonte": "parado",
+   "link": "/painel/mova-street",
+   "arquivo": "agencia/sistema-clientes/mova-street/README.md",
+   "status": "parado",
+   "motivo": "Desligado: faltam na Cloudflare o provedor de WhatsApp (WA_API_URL, WA_TOKEN) e a senha do agendador (AGENDA_CRON), e um agendador a cada 15 min.",
+   "ultima": null,
+   "ultima_msg": "",
+   "arquivo_url": "https://github.com/Lindsonalmeida/lindson/blob/claude/global-agent-installation-vdyowf/agencia/sistema-clientes/mova-street/README.md"
+  },
+  {
+   "id": "bombou",
+   "nome": "Notícias BOMBOU",
+   "grupo": "Parados",
+   "oque": "Notícias virais do Maranhão e do Brasil para o @bombouof (5 + 5 a cada 3 h).",
+   "onde": "Nuvem Claude",
+   "dono": "Leandro",
+   "freq": "a cada 3 h",
+   "fonte": "gatilho:bombou",
+   "status": "parado",
+   "motivo": "Desligada em 26/10 (limite de uso da conta na última execução).",
+   "arquivo": "MENTE-COLETIVA.md",
+   "ultima": "2026-10-27T15:01:33+00:00",
+   "ultima_msg": "falhou: limite de uso",
+   "ligado": false,
+   "arquivo_url": "https://github.com/Lindsonalmeida/lindson/blob/claude/global-agent-installation-vdyowf/MENTE-COLETIVA.md"
+  },
+  {
+   "id": "captacao",
+   "nome": "Captação por cidades",
+   "grupo": "Parados",
+   "oque": "Leads de todos os tipos de negócio, cidade por cidade, no app Recomeço 90.",
+   "onde": "Nuvem Claude",
+   "dono": "Leandro",
+   "freq": "a cada 3 h",
+   "fonte": "gatilho:captacao",
+   "status": "parado",
+   "motivo": "Desligada em 26/10 (limite de uso); substituída pelo time de SDR.",
+   "arquivo": "agencia/prospeccao/ROTINA.md",
+   "ultima": "2026-10-26T18:09:08+00:00",
+   "ultima_msg": "falhou: limite de uso",
+   "ligado": false,
+   "arquivo_url": "https://github.com/Lindsonalmeida/lindson/blob/claude/global-agent-installation-vdyowf/agencia/prospeccao/ROTINA.md"
+  },
+  {
+   "id": "roteiros",
+   "nome": "Roteiros diários de Reels",
+   "grupo": "Parados",
+   "oque": "5 roteiros de Reels de 30 s por dia no app Recomeço 90.",
+   "onde": "Nuvem Claude",
+   "dono": "Leandro",
+   "freq": "diária 05:41",
+   "fonte": "gatilho:roteiros",
+   "status": "parado",
+   "motivo": "Desligada em 22/10: os 300 roteiros do Teste 01 foram gerados de uma vez.",
+   "arquivo": "conteudo/esteira/ROTINA.md",
+   "ultima": null,
+   "ultima_msg": "desligada",
+   "ligado": false,
+   "arquivo_url": "https://github.com/Lindsonalmeida/lindson/blob/claude/global-agent-installation-vdyowf/conteudo/esteira/ROTINA.md"
+  }
+ ]
+}
