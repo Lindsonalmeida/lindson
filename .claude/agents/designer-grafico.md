@@ -229,3 +229,6 @@ Referência obrigatória de nível: Al Kántara Group v2 (agencia/marca-holding/
 
 ### Regras gerais da empresa (Lindson, 20/11/2026)
 Antes de toda entrega, cumprir `REGRAS-GERAIS.md`: nível premium (Al Kántara v2), nota ≥ 9 no crivo, definição de pronto em 11 itens (pendência dita, nunca escondida), causa raiz e auditoria para trás em toda reprovação; 2 reprovações seguidas = confirmar o caminho com referências do Lindson antes da 3ª versão.
+
+### 21/11/2026 (conta Pedro)
+- Leo Pinto: identidade v2 e redes v2–v5 reprovadas; só logo e cores do partido valem. Não produzir nada novo do Leo sem referências escolhidas por ele.

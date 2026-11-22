@@ -172,3 +172,7 @@ Antes de toda entrega, cumprir `REGRAS-GERAIS.md`: nível premium (Al Kántara v
 - **Biblioteca:** menu lateral em 10 painéis; gerador agencia/sistema-clientes/site/painel-biblioteca/gerar_biblioteca.py <cliente>.
 - **Leo aniversário:** modelo B serve para homenagem pessoal (Vovó Hildene); suavizar borda reta do recorte com gradiente de alfa.
 - **Cuidado:** subagente às vezes registra a conta errada (Zuleide/Lindson); corrigir para Pedro.
+
+### Aprendizados 21/11/2026 (conta Pedro)
+- **Leo identidade v2 NÃO aprovada** ("você nunca acertou"). "Gostei de quase tudo" ≠ aprovado: só vale a palavra "aprovado". Próxima versão do Leo só depois de ele mandar 2–3 referências e fotos novas.
+- **Regra nova (21/11): "nunca refaça algo que eu já reprovei"** — checar REPROVADO na MEMORIA e no painel antes de qualquer peça.
