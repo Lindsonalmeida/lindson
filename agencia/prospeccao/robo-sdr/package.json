@@ -1,0 +1,3 @@
+{ "name": "robo-sdr", "private": true, "type": "module",
+  "scripts": { "start": "node robo.js --numero sdr1", "test": "node testes/api-sdr.test.mjs" },
+  "dependencies": { "whatsapp-web.js": "1.34.7", "qrcode-terminal": "0.12.0" } }

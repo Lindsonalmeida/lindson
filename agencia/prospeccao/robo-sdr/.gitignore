@@ -1,0 +1,8 @@
+node_modules/
+.wwebjs_auth/
+.wwebjs_cache/
+token.txt
+enviados-*.json
+enviados-hoje.json
+iniciar-sdr*.cmd
+ligar-sdr*.vbs

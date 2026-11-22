@@ -1,0 +1,6 @@
+{
+  "_leia": "Um bloco por número. inicio = 1º dia do número (aquecimento: 20/dia na 1ª semana, +10 por semana até o teto). Horas em 24h. Intervalo em minutos.",
+  "sdr1": { "nome": "SDR 1", "inicio": "", "teto": 40, "inicial": 20, "aumento": 10, "hora_ini": "09:00", "hora_fim": "18:00", "intervalo_min": 4, "intervalo_max": 9, "digitando": true },
+  "sdr2": { "nome": "SDR 2", "inicio": "", "teto": 40, "inicial": 20, "aumento": 10, "hora_ini": "09:20", "hora_fim": "17:40", "intervalo_min": 5, "intervalo_max": 10, "digitando": true },
+  "sdr3": { "nome": "SDR 3", "inicio": "", "teto": 40, "inicial": 20, "aumento": 10, "hora_ini": "09:40", "hora_fim": "17:20", "intervalo_min": 5, "intervalo_max": 11, "digitando": true }
+}

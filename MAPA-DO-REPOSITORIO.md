@@ -20,7 +20,7 @@ Branch principal: `claude/global-agent-installation-vdyowf`. Outros branches: `e
 | Pasta / arquivo | O que tem |
 |---|---|
 | `ofertas/` | Esteira de produtos (5 degraus até R$ 3.500), oferta Instagram que Vende: 90 Dias, **produto master** (curso + mentoria para donos de negócio), dores e desejos do público (com versão negativa), pesquisa das autoridades do nicho |
-| `prospeccao/` | Padrão de copy (Conexão → Dor → Desejo → Pergunta), padrão de entrega, rotina da lista diária de leads |
+| `prospeccao/` | Padrão de copy (Conexão → Dor → Desejo → Pergunta), padrão de entrega, rotina da lista diária de leads; `prospeccao/robo-sdr/` = robô SDR do WhatsApp com 3 números (processo: `processos/time-sdr-whatsapp.md`, conta Pedro 22/11/2026) |
 | `processos/` | Mini site de cliente, demo de mini site (vídeo de iPhone), modelo de contrato, modelo de estratégia completa (19 páginas), proposta curta (8 páginas) |
 | `app/` | Fontes dos apps **Recomeço 90** (`recomeco90.html`) e **Fábrica de Conteúdo** (`fabrica.html`) |
 | `clientes/` | Dra. Jaci Cunha (ficha, contrato, estratégia premium e manual de identidade, estilo das artes do Instagram `jaci-cunha/instagram-estilo/`), Leo Pinto (identidades v2 e v3, feed do Instagram aprovado v12, apresentação em painel v13 `instagram-v13-apresentacao/` (padrão aprovado), datas comemorativas v14 `instagram-v14-datas/`, foto de perfil `instagram-perfil/`, prompt do Claude Design; desde 02/11 identidade só com fontes, logo e cores), Katje Garcez (falas) |

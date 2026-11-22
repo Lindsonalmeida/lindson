@@ -152,6 +152,7 @@ Referência obrigatória de nível: Al Kántara Group v2 (agencia/marca-holding/
 - **Pesquisa por extensão:** prompts em leo-pinto/identidade-v2/referencias-extensao/ (Instagram e Pinterest). Pins baixam por curl: og:image da página br.pinterest.com/pin/<id>/ (i.pinimg.com/originals).
 - **Autonomia:** "não quero resolver nada de forma manual". MotionForge usa /api/fal (segredo FAL_KEY no Cloudflare, só admin); chave inválida no navegador cai sozinha para o servidor.
 - **Robô SDR:** erro MODULE_NOT_FOUND = iniciar.cmd copiado para shell:startup (procura robo.js lá). Solução: apagar e pôr ATALHO.
+- **Robô SDR = time de 3 números (22/11/2026):** `node robo.js --numero sdrN`, LocalAuth clientId `sdr-sdrN` (sdr1 reaproveita `sdr`), `config.json` por número (aquecimento 20/dia +10/semana, horários 09:00/09:20/09:40), `instalar.cmd` cria `iniciar-sdrN.cmd` com caminho absoluto e ATALHOS no Desktop/Startup. `/api/sdr?lote=1&numero=sdrN`: dono fixo `hash(id) % ativos` + reserva 2 h; cada robô grava só `sdr:st:sdrN`; pausa em `sdr:robo:sdrN` (sdr:robo antigo = sdr1). Aba SDR do admin vem de `site/admin-sdr.js` via `site/painel-sdr/injetar_sdr.py` (sumiu em 16/11 numa remontagem). Processo: `agencia/processos/time-sdr-whatsapp.md`.
 - **Mova Street:** "Mapa de visibilidade" = isca grátis (bairro+ramo → PDF 1 página). Adesivo R$ 450/carro/30 dias é o MÁXIMO (cai com tempo e quantidade). 3 frentes iniciadas (PDF do mapa, aba Dados no painel, plano de vendas) pararam no limite de uso: retomar.
 - **Vereadores:** mensagem aprovada termina com "Tudo bem?".
 
