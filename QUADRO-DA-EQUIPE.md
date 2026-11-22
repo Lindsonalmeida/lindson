@@ -83,3 +83,5 @@ Toda conta lê esta tabela antes de qualquer pedido. Recado novo: troque o ⬜ d
 
 ## Feito recentemente (últimos registros)
 Veja o fim da tabela "Entregas" do `REGISTRO-DAS-CONTAS.md`.
+
+> **22/11/2026 · FUNIL DO ROBÔ SDR PARA TODAS AS EQUIPES:** quem não responde recebe follow-up em **D+3** (humanizado), **D+6** (terceiro contato) e **D+9** (último, com o Instagram organizado grátis para provar a qualidade). Já está ligado no robô (3 números) e vale para todo nicho e cliente que usar o SDR. Como usar e onde mudar as mensagens: `agencia/processos/time-sdr-whatsapp.md` (fim) e `CentralLindsonALmeida/functions/_sdr_fluxo.js` (FOLLOW). Confirmação: Lindson ☐ · Zuleide ☐ · Pedro ☐ · Leandro ✅
