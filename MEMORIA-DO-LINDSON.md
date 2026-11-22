@@ -151,6 +151,7 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 - **Sempre que voltar, verificar se o trabalho continuou com outras equipes** (03/11 · Pedro, para todas as contas): pull, log de todos os branches, quadro, registro e privado; nunca refazer o que outra conta já fez. Recados para as contas ficam no topo do `QUADRO-DA-EQUIPE.md`, e cada conta confirma ao Lindson "Entendi o recado".
 
 ## 3. APROVADO: guardar e melhorar
+- **22/11/2026 (conta Lindson, registrado pela Zuleide) · APROVADO:** nome **VIRTÙ** para o time de robôs SDR (preto, champanhe e platina) e o **vídeo 04 estilo cinema** (4 cenas do Google Flow). Chave AUTOMACAO_TOKEN da Real Time: "deixa pra depois".
 
 **Leo Pinto**
 1. **Apresentação v13, versão 3** = padrão visual do Leo ("ficaram ótimos", 02/11): degradê azul profundo, mapa de São João Batista em camada, retrato grande, nome em blocos (LEO na caixa amarela, PINTO na caixa branca), etiquetas, Montserrat Black + Kaushan Script, logo na base. Está em `agencia/clientes/leo-pinto/instagram-v13-apresentacao/` (`gerar3.py`).
