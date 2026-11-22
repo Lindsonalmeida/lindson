@@ -16,6 +16,7 @@ if (-not (Test-Path (Join-Path $pasta 'token.txt'))) {
   Set-Content -Path (Join-Path $pasta 'token.txt') -Value $t.Trim() -NoNewline -Encoding ascii
 }
 Write-Host 'Instalando o necessário (1 a 3 minutos)...'
+$env:PUPPETEER_SKIP_DOWNLOAD = 'true'; $env:PUPPETEER_SKIP_CHROMIUM_DOWNLOAD = 'true'
 & npm install --no-audit --no-fund | Out-Null
 $sh = New-Object -ComObject WScript.Shell
 $desk = [Environment]::GetFolderPath('Desktop'); $start = [Environment]::GetFolderPath('Startup')
