@@ -9,9 +9,9 @@ def Q(n, t, **k): return ('frase', n, t, k)
 def B(n, t, clip, **k): return ('banco', n, t, dict(clip=clip, **k))
 def LI(n, tit, itens, em, **k): return ('lista', n, [], dict(titulo=tit, itens=itens, tempos_em=em, **k))
 def CH(n, nome, msgs, em, **k): return ('chat', n, [], dict(nome=nome, msgs=msgs, tempos_em=em, **k))
-def V(n, t, clip, **k): return ('banco', n, t, dict(clip='vb-'+clip, top=200, size=150, **k))
+def V(n, t, clip, **k): return ('banco', n, t, dict(clip='v2-'+clip, top=380, size=150, **k))
 def SP(n, e, d, **k): return ('split', n, [], dict(esq=e, dir=d, **k))
-CTA = ('cta', 'Comenta RAIO-X que eu te mando o link do Raio-X grátis da sua pizzaria.', [], dict(etiquetas=['Raio-X grátis', 'Só pizzarias'], vfx=['leak']))
+CTA = ('cta', 'Comenta RAIO-X que eu te mando o link do Raio-X grátis da sua pizzaria.', [], dict(etiquetas=[], mascote=True, vfx=['leak']))
 ENT = 'Te mando o link do Raio-X grátis da sua pizzaria.'
 R = [
  dict(id='OT-35', nn=35, titulo='POV: o cliente pede o cardápio e some', linha='Humor de dono', foto='33593003', trilha='trap-electro-vibes-112bpm.mp3', ini=32,

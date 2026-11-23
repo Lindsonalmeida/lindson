@@ -29,8 +29,8 @@
     "\"Tá caro\"",
     "≠ não"
    ],
-   "clip": "vb-chef-puts-the-pizza-in-the-oven",
-   "top": 200,
+   "clip": "v2-chef-puts-the-pizza-in-the-oven",
+   "top": 380,
    "size": 150,
    "hl": [
     1
@@ -67,8 +67,8 @@
     "Não baixa.",
     "Explica."
    ],
-   "clip": "vb-spreading-cheese-on-a-pizza",
-   "top": 200,
+   "clip": "v2-spreading-cheese-on-a-pizza",
+   "top": 380,
    "size": 150,
    "hl": [
     1
@@ -113,8 +113,8 @@
     "Entre duas",
     "pizzas"
    ],
-   "clip": "vb-chef-shaping-a-pizza",
-   "top": 200,
+   "clip": "v2-chef-shaping-a-pizza",
+   "top": 380,
    "size": 150,
    "hl": [
     1
@@ -129,10 +129,8 @@
   {
    "tipo": "cta",
    "texto": [],
-   "etiquetas": [
-    "Raio-X grátis",
-    "Só pizzarias"
-   ],
+   "etiquetas": [],
+   "mascote": true,
    "vfx": [
     "leak"
    ],
@@ -145,8 +143,8 @@
     "\"Tá caro\"",
     "≠ não"
    ],
-   "clip": "vb-chef-puts-the-pizza-in-the-oven",
-   "top": 200,
+   "clip": "v2-chef-puts-the-pizza-in-the-oven",
+   "top": 380,
    "size": 150,
    "hl": [
     1

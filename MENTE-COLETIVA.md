@@ -174,3 +174,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 23/11 · Leandro: Reels OT-31, 32 e 33 (Orégano, 26/11) prontos com vídeo real Mixkit + Seu Turbo + gravação de tela; em Aprovações aguardando. agencia/operacao-propria/reels/funil/
 - 23/11/2026 · Zuleide: dossiê Laci Júnior v2 entregue (Central, dados/clientes-arquivos/laci-junior/dossie-laci-junior-v2.pdf): datas legais 2028, votos de Gleydson em Raposa não localizados, 8 capturas de referência.
 - 23/11 Leandro: entreguei 3 Reels virais da Orégano (OT-35, OT-34, OT-31) no painel, aguardando o @Lindson aprovar.
+- 23/11 Leandro: v2 dos 3 Reels virais da Orégano no painel (OT-35/34/31-v2), aguardando o @Lindson.

@@ -29,8 +29,8 @@
     "Mandou.",
     "Sumiu."
    ],
-   "clip": "vb-close-up-shot-of-a-freshly-made-hot-pizza",
-   "top": 200,
+   "clip": "v2-close-up-shot-of-a-freshly-made-hot-pizza",
+   "top": 380,
    "size": 150,
    "hl": [
     1
@@ -80,8 +80,8 @@
     "Trava a",
     "escolha"
    ],
-   "clip": "vb-waiter-serving-a-pizza-at-a-table",
-   "top": 200,
+   "clip": "v2-waiter-serving-a-pizza-at-a-table",
+   "top": 380,
    "size": 150,
    "hl": [
     1
@@ -123,8 +123,8 @@
     "Pergunta",
     "fecha pedido"
    ],
-   "clip": "vb-pizza-while-someone-takes-a-slice",
-   "top": 200,
+   "clip": "v2-pizza-while-someone-takes-a-slice",
+   "top": 380,
    "size": 150,
    "hl": [
     1
@@ -136,10 +136,8 @@
   {
    "tipo": "cta",
    "texto": [],
-   "etiquetas": [
-    "Raio-X grátis",
-    "Só pizzarias"
-   ],
+   "etiquetas": [],
+   "mascote": true,
    "vfx": [
     "leak"
    ],
@@ -152,8 +150,8 @@
     "Mandou.",
     "Sumiu."
    ],
-   "clip": "vb-close-up-shot-of-a-freshly-made-hot-pizza",
-   "top": 200,
+   "clip": "v2-close-up-shot-of-a-freshly-made-hot-pizza",
+   "top": 380,
    "size": 150,
    "hl": [
     1

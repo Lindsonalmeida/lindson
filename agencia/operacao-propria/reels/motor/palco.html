@@ -131,8 +131,10 @@ B.cta=(L,s)=>{ // foto do Lindson em parallax 2.5D (ou o vídeo de lip-sync, qua
  const pre=el(`<div class="abs A" style="left:0;right:0;top:1150px;text-align:center;font-size:96px;color:#fff">Comenta</div>`);
  const pill=el(`<div class="abs" style="left:0;right:0;top:1262px;text-align:center"><span class="pill">${s.palavra||''}</span></div>`);
  const ent=el(`<div class="abs" style="left:110px;right:110px;top:1452px;text-align:center;font:700 34px/1.3 Manrope;color:rgba(255,255,255,.88)">${s.entrega||''}</div>`);L.append(pre,pill,ent,marq);
+ const masc=s.mascote?el(`<img class="abs" src="fontes/seu-turbo.svg" style="left:720px;top:930px;width:330px;transform-origin:50% 100%">`):null;if(masc)L.append(masc);
  const tp=s.pillAt??1.0;
  return async(lt,dur)=>{const a=eo(p(lt,0,.9));
+  if(masc){const k=p(lt,.2,.5);masc.style.opacity=cl(k*4);masc.style.transform=`translateY(${(1-eob(k))*500}px) rotate(${Math.sin(lt*4)*5}deg) scale(${1+Math.abs(Math.sin(lt*8))*.02})`}
   word.style.transform=`translateX(${lerp(120,-30,eio(p(lt,0,dur)))}px) scale(${lerp(1.25,1.05,a)})`;word.style.opacity=cl(lt*3)*.95;
   if(s.lipsync)await pessoa._fr(lt,dur);else{pessoa.style.transform=`rotate(${lt*14}deg) translate(${lerp(-60,25,eio(p(lt,0,dur)))}px,${lerp(260,0,eob(p(lt,0,.8)))}px) scale(${lerp(1.0,1.09,eio(p(lt,0,dur)))})`;pessoa.style.opacity=cl(lt*5)}
   tags.forEach((e,i)=>{const k=p(lt,.35+i*.22,.35);e.style.opacity=cl(k*4);e.style.transform=`rotate(${[-6,5,-3][i%3]}deg) scale(${eob(k)})`});

@@ -29,8 +29,8 @@
     "Comeu sua",
     "margem?"
    ],
-   "clip": "vb-hot-oven-baking-pizzas",
-   "top": 200,
+   "clip": "v2-hot-oven-baking-pizzas",
+   "top": 380,
    "size": 150,
    "hl": [
     1
@@ -128,10 +128,8 @@
   {
    "tipo": "cta",
    "texto": [],
-   "etiquetas": [
-    "Raio-X grátis",
-    "Só pizzarias"
-   ],
+   "etiquetas": [],
+   "mascote": true,
    "vfx": [
     "leak"
    ],
@@ -144,8 +142,8 @@
     "Comeu sua",
     "margem?"
    ],
-   "clip": "vb-hot-oven-baking-pizzas",
-   "top": 200,
+   "clip": "v2-hot-oven-baking-pizzas",
+   "top": 380,
    "size": 150,
    "hl": [
     1
