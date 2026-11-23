@@ -88,3 +88,10 @@ Lance a entrega em **Tarefas feitas** da Central (cliente, data e hora, `acao:"f
 
 ### Regras gerais da empresa (Lindson, 20/11/2026)
 Antes de toda entrega, cumprir `REGRAS-GERAIS.md`: nível premium (Al Kántara v2), nota ≥ 9 no crivo, definição de pronto em 11 itens (pendência dita, nunca escondida), causa raiz e auditoria para trás em toda reprovação; 2 reprovações seguidas = confirmar o caminho com referências do Lindson antes da 3ª versão.
+
+## 10. Aprendizados de 22/11/2026
+- **Robôs SDR (VIRTÙ) rodam no PC do Lindson.** Esta conta, na nuvem, não alcança o Windows dele. Diagnóstico pela Central: `GET /api/sdr?robo=1` mostra `visto`, `estado`, `limite` e `enviadosHoje` de cada número. "Fora do horário" com limite 0 = versão antiga. Sinal parado = janela fechada. Conserto: `agencia/prospeccao/robo-sdr/religar.ps1`, um comando que o Lindson cola no PowerShell.
+- **Chave Google Places:** parada, porque o Lindson não tem cartão. Não pedir de novo. Fontes grátis de leads em `agencia/processos/leads-fontes-gratis.md`: a TeleListas dá celular, mas raramente Instagram.
+- **Chaves e segredos:** nunca deixar o Lindson colar chave no chat. Se colar, avisar para trocar a chave. Cabeçalho que não é Bearer, ele mesmo cadastra em Network secrets.
+- **Sessões especialistas:** Barzakh, Raposa e Passaporte são de sessões próprias. Não duplicar.
+- **Disco da sessão cheio:** em 22/11 chegou a 0 bytes livres. Limpar caches (`~/.npm/_cacache`, /tmp) antes de tarefas longas.
