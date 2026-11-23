@@ -166,3 +166,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 22/11 (subagente): +3 leads dentistas SLZ no SDR via TeleListas; método em agencia/processos/leads-fontes-gratis.md
 - 23/11/2026 (Zuleide): SDR Orégano +28 pizzarias novas (WhatsApp da bio do Instagram via busca; seguidores a conferir), 25 descartadas; leads-2026-11-23.csv
 - 23/11 (Zuleide): SDR VIRTÙ abastecido com +113 leads (85 BR p/ sdr2, 28 MA p/ sdr1/sdr3) via TeleListas → site (WhatsApp do botão + Instagram). Método em agencia/processos/leads-fontes-gratis.md.
+- 23/11 (Leandro): Orégano funil de conteúdo + 90 Reels (OT-31 a OT-120, 26/11-25/12) + roteiros OT-31 a 35 prontos para produzir em agencia/operacao-propria/funil-conteudo/. Quem produzir os Reels: seguir PADRAO.md (pizza real = vídeo real, tela = gravação real).

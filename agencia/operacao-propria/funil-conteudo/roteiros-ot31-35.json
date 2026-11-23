@@ -1,0 +1,377 @@
+{
+ "leva": "Funil · OT-31 a OT-35",
+ "criado": "2026-11-23",
+ "conta": "Leandro",
+ "reels": [
+  {
+   "id": "OT-31",
+   "post": {
+    "data": "26/11",
+    "hora": "12:10"
+   },
+   "titulo": "Quanto o app leva de cada pizza",
+   "tipo": "conteudo",
+   "linha_editorial": "Dinheiro que vaza",
+   "etapa_funil": "Topo",
+   "visual": "Pizza real (vídeo)",
+   "capa_cor": "preto",
+   "cta_palavra": "TAXA",
+   "entrega_no_video": "Te mando a conta da taxa numa planilha simples.",
+   "blocos_voz": [
+    "O aplicativo comeu sua margem? Pega uma pizza de sessenta reais. Tira a taxa que está no seu contrato com o app. Tira a entrega, a caixa, o queijo e a massa.",
+    "Sobra quanto pra você? A maioria dos donos nunca fez essa conta no papel. O app traz cliente novo. O problema é o cliente que já é seu pedir lá todo mês. Comenta TAXA que eu te mando a conta numa planilha simples. Faz com o seu número."
+   ],
+   "cenas": [
+    {
+     "narracao": "O aplicativo comeu sua margem?",
+     "texto_tela": "Comeu sua margem?",
+     "texto_tela_palavras": [
+      "Comeu",
+      "sua margem?"
+     ],
+     "imagem": "vídeo: pizza sendo fatiada em close, fundo escuro"
+    },
+    {
+     "narracao": "Pega uma pizza de sessenta reais.",
+     "texto_tela": "Pizza de R$ 60",
+     "texto_tela_palavras": [
+      "Pizza",
+      "de R$ 60"
+     ],
+     "imagem": "mesma pizza, preço em tipografia grande (ilustrativo)"
+    },
+    {
+     "narracao": "Tira a taxa que está no seu contrato com o app. Tira a entrega, a caixa, o queijo e a massa.",
+     "texto_tela": "Tira, tira, tira",
+     "texto_tela_palavras": [
+      "Tira,",
+      "tira, tira"
+     ],
+     "imagem": "fatias saindo uma a uma da pizza a cada item"
+    },
+    {
+     "narracao": "Sobra quanto pra você? A maioria dos donos nunca fez essa conta no papel.",
+     "texto_tela": "Sobra quanto?",
+     "texto_tela_palavras": [
+      "Sobra",
+      "quanto?"
+     ],
+     "imagem": "uma fatia sozinha na tábua"
+    },
+    {
+     "narracao": "O app traz cliente novo. O problema é o cliente que já é seu pedir lá todo mês.",
+     "texto_tela": "Cliente seu, taxa deles",
+     "texto_tela_palavras": [
+      "Cliente",
+      "seu, taxa deles"
+     ],
+     "imagem": "vídeo: celular com o app aberto na mão do motoboy"
+    },
+    {
+     "narracao": "Comenta TAXA que eu te mando a conta numa planilha simples. Faz com o seu número.",
+     "texto_tela": "Comenta TAXA",
+     "texto_tela_palavras": [
+      "Comenta",
+      "TAXA"
+     ],
+     "imagem": "Seu Turbo aponta para o texto, logo no canto"
+    }
+   ],
+   "legenda": "Taxa do iFood na pizzaria: quanto sobra de cada pizza\n\nVocê sabe quanto sobra de uma pizza vendida pelo aplicativo? ...\n(legenda SEO completa: gerar com ../reels/legendas_seo.py no padrão aprovado)\n#pizzaria #donodepizzaria #ifood #gestaodepizzaria #saoluis"
+  },
+  {
+   "id": "OT-32",
+   "post": {
+    "data": "26/11",
+    "hora": "19:10"
+   },
+   "titulo": "Foto de pizza no celular com luz da janela",
+   "tipo": "conteudo",
+   "linha_editorial": "Aula rápida",
+   "etapa_funil": "Meio",
+   "visual": "Tela real (gravação)",
+   "capa_cor": "creme",
+   "cta_palavra": "FOTO",
+   "entrega_no_video": "Te mando o checklist de 5 itens da foto que dá fome.",
+   "blocos_voz": [
+    "Sua foto de pizza tira a fome do cliente? O erro mais comum é a luz do teto. Ela deixa o queijo amarelo e a borda sem cor. Leva a pizza pra perto da janela. Luz de lado, sem flash.",
+    "Fotografa de cima ou num ângulo baixo, na altura da borda. E puxa uma fatia. Queijo esticando vende mais do que pizza inteira parada. Comenta FOTO que eu te mando o checklist de cinco itens. Testa na pizza de hoje."
+   ],
+   "cenas": [
+    {
+     "narracao": "Sua foto de pizza tira a fome do cliente?",
+     "texto_tela": "Tira a fome?",
+     "texto_tela_palavras": [
+      "Tira",
+      "a fome?"
+     ],
+     "imagem": "gravação real: foto escura de pizza com luz amarela de teto"
+    },
+    {
+     "narracao": "O erro mais comum é a luz do teto. Ela deixa o queijo amarelo e a borda sem cor.",
+     "texto_tela": "Luz do teto: não",
+     "texto_tela_palavras": [
+      "Luz",
+      "do teto: não"
+     ],
+     "imagem": "mesma pizza, comparação lado a lado gravada"
+    },
+    {
+     "narracao": "Leva a pizza pra perto da janela. Luz de lado, sem flash.",
+     "texto_tela": "Luz da janela",
+     "texto_tela_palavras": [
+      "Luz",
+      "da janela"
+     ],
+     "imagem": "gravação: celular sendo levado até a janela"
+    },
+    {
+     "narracao": "Fotografa de cima ou num ângulo baixo, na altura da borda.",
+     "texto_tela": "De cima ou baixo",
+     "texto_tela_palavras": [
+      "De",
+      "cima ou baixo"
+     ],
+     "imagem": "tela do celular: modo câmera, grade ligada"
+    },
+    {
+     "narracao": "E puxa uma fatia. Queijo esticando vende mais do que pizza inteira parada.",
+     "texto_tela": "Puxa a fatia",
+     "texto_tela_palavras": [
+      "Puxa",
+      "a fatia"
+     ],
+     "imagem": "vídeo real: fatia puxada com queijo esticando"
+    },
+    {
+     "narracao": "Comenta FOTO que eu te mando o checklist de cinco itens. Testa na pizza de hoje.",
+     "texto_tela": "Comenta FOTO",
+     "texto_tela_palavras": [
+      "Comenta",
+      "FOTO"
+     ],
+     "imagem": "Seu Turbo com joinha"
+    }
+   ],
+   "legenda": "Foto de pizza no celular: 3 ajustes de luz e ângulo\n...\n#fotodepizza #pizzaria #marketingparapizzaria #donodepizzaria #fotografiadecomida"
+  },
+  {
+   "id": "OT-33",
+   "post": {
+    "data": "26/11",
+    "hora": "23:40"
+   },
+   "titulo": "O que vem no Raio-X grátis do Instagram",
+   "tipo": "venda",
+   "linha_editorial": "Raio-X",
+   "etapa_funil": "Fundo",
+   "visual": "Seu Turbo",
+   "capa_cor": "verde",
+   "cta_palavra": "RAIO-X",
+   "entrega_no_video": "Te mando como pedir o Raio-X grátis do seu Instagram.",
+   "blocos_voz": [
+    "Seu perfil espanta cliente e você nem percebe? A gente grava um vídeo curto olhando o Instagram da sua pizzaria.",
+    "Três coisas: a foto, a bio com o link, e o caminho até o seu WhatsApp. Você recebe o que mudar primeiro, em ordem. Sem enrolação e sem custo. Comenta RAIO-X que eu te mando como pedir. Só pizzaria."
+   ],
+   "cenas": [
+    {
+     "narracao": "Seu perfil espanta cliente e você nem percebe?",
+     "texto_tela": "Seu perfil espanta?",
+     "texto_tela_palavras": [
+      "Seu",
+      "perfil espanta?"
+     ],
+     "imagem": "Seu Turbo surpreso, fundo verde forno"
+    },
+    {
+     "narracao": "A gente grava um vídeo curto olhando o Instagram da sua pizzaria.",
+     "texto_tela": "Um vídeo sobre o SEU perfil",
+     "texto_tela_palavras": [
+      "Um",
+      "vídeo sobre o SEU perfil"
+     ],
+     "imagem": "gravação real de tela: rolagem de um perfil de exemplo (pizzaria fictícia)"
+    },
+    {
+     "narracao": "Três coisas: a foto, a bio com o link, e o caminho até o seu WhatsApp.",
+     "texto_tela": "Foto · bio · WhatsApp",
+     "texto_tela_palavras": [
+      "Foto",
+      "· bio · WhatsApp"
+     ],
+     "imagem": "Seu Turbo conta nos dedos 1, 2, 3"
+    },
+    {
+     "narracao": "Você recebe o que mudar primeiro, em ordem. Sem enrolação e sem custo.",
+     "texto_tela": "Em ordem. Sem custo.",
+     "texto_tela_palavras": [
+      "Em",
+      "ordem. Sem custo."
+     ],
+     "imagem": "tipografia grande, pizza real ao fundo desfocada"
+    },
+    {
+     "narracao": "Comenta RAIO-X que eu te mando como pedir. Só pizzaria.",
+     "texto_tela": "Comenta RAIO-X",
+     "texto_tela_palavras": [
+      "Comenta",
+      "RAIO-X"
+     ],
+     "imagem": "Seu Turbo aponta, logo e @oreganoturbo"
+    }
+   ],
+   "legenda": "Raio-X grátis do Instagram da pizzaria: o que a gente olha\n...\n#raioxdapizzaria #marketingparapizzaria #instagramparapizzaria #pizzaria #nordeste"
+  },
+  {
+   "id": "OT-34",
+   "post": {
+    "data": "27/11",
+    "hora": "12:10"
+   },
+   "titulo": "POV: cliente pede \"manda o cardápio\" e some",
+   "tipo": "conteudo",
+   "linha_editorial": "Humor de dono",
+   "etapa_funil": "Topo",
+   "visual": "Seu Turbo",
+   "capa_cor": "tomate",
+   "cta_palavra": "SUMIU",
+   "entrega_no_video": "Te mando a mensagem que traz esse cliente de volta.",
+   "blocos_voz": [
+    "Mandou o cardápio. Sumiu. POV: o cliente pede o cardápio, você manda o PDF de doze páginas... e ele visualiza e não responde nunca mais.",
+    "Cardápio grande demais trava a escolha. Manda os três mais pedidos e pergunta qual ele quer. Pergunta fecha pedido. PDF abre conversa e some. Comenta SUMIU que eu te mando a mensagem pra trazer esse cliente de volta. Marca quem já viveu isso."
+   ],
+   "cenas": [
+    {
+     "narracao": "Mandou o cardápio. Sumiu.",
+     "texto_tela": "Mandou. Sumiu.",
+     "texto_tela_palavras": [
+      "Mandou.",
+      "Sumiu."
+     ],
+     "imagem": "Seu Turbo olhando o celular, expressão hmm"
+    },
+    {
+     "narracao": "POV: o cliente pede o cardápio, você manda o PDF de doze páginas...",
+     "texto_tela": "PDF de 12 páginas",
+     "texto_tela_palavras": [
+      "PDF",
+      "de 12 páginas"
+     ],
+     "imagem": "Seu Turbo segurando um PDF enorme que cai até o chão"
+    },
+    {
+     "narracao": "e ele visualiza e não responde nunca mais.",
+     "texto_tela": "Visualizou.",
+     "texto_tela_palavras": [
+      "Visualizou."
+     ],
+     "imagem": "Seu Turbo com cara de choque, som de grilo"
+    },
+    {
+     "narracao": "Cardápio grande demais trava a escolha. Manda os três mais pedidos e pergunta qual ele quer.",
+     "texto_tela": "3 sabores + 1 pergunta",
+     "texto_tela_palavras": [
+      "3",
+      "sabores + 1 pergunta"
+     ],
+     "imagem": "pizza real: três pizzas lado a lado em vídeo"
+    },
+    {
+     "narracao": "Pergunta fecha pedido. PDF abre conversa e some.",
+     "texto_tela": "Pergunta fecha",
+     "texto_tela_palavras": [
+      "Pergunta",
+      "fecha"
+     ],
+     "imagem": "Seu Turbo confiante"
+    },
+    {
+     "narracao": "Comenta SUMIU que eu te mando a mensagem pra trazer esse cliente de volta. Marca quem já viveu isso.",
+     "texto_tela": "Comenta SUMIU",
+     "texto_tela_palavras": [
+      "Comenta",
+      "SUMIU"
+     ],
+     "imagem": "Seu Turbo acenando"
+    }
+   ],
+   "legenda": "Cliente pede cardápio e some no WhatsApp: o que fazer\n...\n#whatsappparapizzaria #donodepizzaria #pizzariadelivery #atendimento #pizzaria"
+  },
+  {
+   "id": "OT-35",
+   "post": {
+    "data": "27/11",
+    "hora": "19:10"
+   },
+   "titulo": "Resposta pronta para \"tá caro\"",
+   "tipo": "conteudo",
+   "linha_editorial": "Aula rápida",
+   "etapa_funil": "Meio",
+   "visual": "Tela real (gravação)",
+   "capa_cor": "preto",
+   "cta_palavra": "CARO",
+   "entrega_no_video": "Te mando 3 respostas prontas para \"tá caro\".",
+   "blocos_voz": [
+    "\"Tá caro\" não é um não. Quando o cliente diz que tá caro, ele está pedindo um motivo pra pagar. Não baixa o preço. Responde com o que ele leva: tamanho, ingrediente, tempo de entrega.",
+    "E oferece uma opção menor, sem desconto. Média em vez de grande. Assim ele escolhe entre duas pizzas, e não entre você e o concorrente. Comenta CARO que eu te mando três respostas prontas pra copiar."
+   ],
+   "cenas": [
+    {
+     "narracao": "\"Tá caro\" não é um não.",
+     "texto_tela": "\"Tá caro\" ≠ não",
+     "texto_tela_palavras": [
+      "\"Tá",
+      "caro\" ≠ não"
+     ],
+     "imagem": "gravação real de WhatsApp de exemplo: mensagem \"tá caro\""
+    },
+    {
+     "narracao": "Quando o cliente diz que tá caro, ele está pedindo um motivo pra pagar.",
+     "texto_tela": "Ele pede um motivo",
+     "texto_tela_palavras": [
+      "Ele",
+      "pede um motivo"
+     ],
+     "imagem": "pizza real saindo do forno"
+    },
+    {
+     "narracao": "Não baixa o preço. Responde com o que ele leva: tamanho, ingrediente, tempo de entrega.",
+     "texto_tela": "Não baixa. Explica.",
+     "texto_tela_palavras": [
+      "Não",
+      "baixa. Explica."
+     ],
+     "imagem": "gravação: digitando a resposta, sem nome de cliente real"
+    },
+    {
+     "narracao": "E oferece uma opção menor, sem desconto. Média em vez de grande.",
+     "texto_tela": "Opção menor",
+     "texto_tela_palavras": [
+      "Opção",
+      "menor"
+     ],
+     "imagem": "tipografia + fatia real"
+    },
+    {
+     "narracao": "Assim ele escolhe entre duas pizzas, e não entre você e o concorrente.",
+     "texto_tela": "Escolhe entre duas",
+     "texto_tela_palavras": [
+      "Escolhe",
+      "entre duas"
+     ],
+     "imagem": "Seu Turbo apresenta"
+    },
+    {
+     "narracao": "Comenta CARO que eu te mando três respostas prontas pra copiar.",
+     "texto_tela": "Comenta CARO",
+     "texto_tela_palavras": [
+      "Comenta",
+      "CARO"
+     ],
+     "imagem": "logo e @oreganoturbo"
+    }
+   ],
+   "legenda": "Cliente disse que a pizza está cara: 3 respostas sem dar desconto\n...\n#precodepizza #pizzaria #vendasnowhatsapp #donodepizzaria #saoluis"
+  }
+ ]
+}
