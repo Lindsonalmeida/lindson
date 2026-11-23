@@ -726,3 +726,4 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 
 - 23/11/2026 (conta Leandro) · Orégano funil de VENDAS v1 entregue (agencia/operacao-propria/funil-vendas/): 11 etapas, scripts, 10 objeções, fundadoras 3 vagas, sem garantia de resultado. Aguardando aprovação.
 - 23/11/2026 (conta Leandro) · REPROVADO: flyer Encontro na Varanda v1 (verde escuro elegante, artistas pequenos em 'meio busto', letra cursiva, tudo contido) — 'ficou péssimo, veja as referências'. Flyer de show segue as refs Rancho Beer/Pixote: artistas ENORMES ocupando o quadro, luz de palco/fogo forte por trás, nome em lettering gordo com atitude, cor saturada, energia de show.
+- 23/11/2026 (conta Leandro) · REPROVADO de novo: flyer Encontro na Varanda v3 (moldura verde-petróleo, título dourado 'ENCONTRO', 3 artistas em busto lado a lado, bloco de data laranja/creme) — 'ficou péssimo'. 2ª reprovação seguida: parar e confirmar o caminho com referências antes da v4.
