@@ -12,3 +12,10 @@ Destino: `functions/_sdr.js` (CONTATOS) no privado CentralLindsonALmeida, mesmo 
 
 ## Próximo passo sugerido
 Para os 151 celulares sem Instagram, buscar o nome + "instagram" um a um (lento) ou usar o perfil do Google Maps no navegador.
+
+## Melhor caminho (23/11/2026, conta Zuleide): TeleListas → site do negócio
+- Pegar TODOS os cartões com `data-site` (mesmo com fixo), abrir a página `/locais/...` e o site, e extrair `instagram.com/<handle>` + `wa.me/` / `api.whatsapp.com/send?phone=` (celular 55+DDD+9). O WhatsApp do botão do site rende muito mais que o telefone do cadastro.
+- Paginação: `?pag=2..6`. Bairros: `/ma/sao+luis/em+<bairro>/<categoria>`. Categorias válidas: ver links da página `/ma/sao+luis` (ex.: `advogado`, `clinicas+e+servicos+de+estetica`, `clinicas+de+psicologia`).
+- Filtros: DDD tem que bater com a UF do cadastro; descartar redes/franquias e handle genérico (`whatsapp`, `p`, `reel`).
+- Rendimento 23/11: ~7.700 cartões → ~165 leads válidos (cerca de 85 BR e 28 MA após dedupe). MA rende pouco: poucas empresas com site.
+- Script usado: Python simples com ThreadPool (16-24 conexões), roda em ~8 min por lote.

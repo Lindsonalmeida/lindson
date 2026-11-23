@@ -165,3 +165,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 22/11/2026 (Zuleide): chave Google Places para leads do VIRTÙ ficou PARADA (Lindson sem cartão para o faturamento do Google Cloud). Captação segue por Google/sites (~25/dia). Não pedir de novo até ele ter cartão.
 - 22/11 (subagente): +3 leads dentistas SLZ no SDR via TeleListas; método em agencia/processos/leads-fontes-gratis.md
 - 23/11/2026 (Zuleide): SDR Orégano +28 pizzarias novas (WhatsApp da bio do Instagram via busca; seguidores a conferir), 25 descartadas; leads-2026-11-23.csv
+- 23/11 (Zuleide): SDR VIRTÙ abastecido com +113 leads (85 BR p/ sdr2, 28 MA p/ sdr1/sdr3) via TeleListas → site (WhatsApp do botão + Instagram). Método em agencia/processos/leads-fontes-gratis.md.
