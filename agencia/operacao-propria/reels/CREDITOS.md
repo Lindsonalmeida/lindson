@@ -65,3 +65,6 @@ SFX, trilhas e vídeos de banco: Mixkit (licença livre), ver `conteudo/reels/le
 - 20793369 (OT-30): https://www.pexels.com/photo/20793369/
 - 36375362 (OT-30): https://www.pexels.com/photo/36375362/
 - Funil OT-31 a 33 (23/11, conta Leandro): vídeos Mixkit 1666, 42484, 44010, 44002, 44001, 44008, 42487, 44005, 42481 (Mixkit Stock Video Free License).
+
+## Leva viral OT-31/34/35 (23/11/2026, conta Leandro)
+Vídeos Mixkit (Mixkit Free License, uso comercial livre, sem atribuição obrigatória), recorte 9:16 com ampliação 1,125×: 42484 close-up pizza quente, 44008 garçom servindo pizza, 42487 fatia sendo tirada, 42480 pizza entrando no forno, 42475 queijo espalhado, 42469 pizzaiolo abrindo massa, 42481 forno assando pizzas (mixkit.co/free-stock-video/...). Fotos Pexels (licença Pexels) na CTA: 33593003, 5903317, 40135592. Trilhas e SFX: os mesmos do banco da semana 1 (créditos acima).

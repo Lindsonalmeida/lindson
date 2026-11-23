@@ -1,0 +1,169 @@
+{
+ "_nota": "Leva viral 23/11/2026 (conta Leandro). Foto Pexels nova.",
+ "beat_sync": true,
+ "voz_rate": "+4%",
+ "voz_max": 40,
+ "total_max": 40,
+ "total_min": 25,
+ "trilha": "trap-electro-vibes-112bpm.mp3",
+ "trilha_ini": 32,
+ "capa": {
+  "foto": "33593003.jpg",
+  "palavra": "SUMIU",
+  "manchete": "Mandou o cardápio.",
+  "caixa": "E ele sumiu.",
+  "rotulo": "Humor de dono",
+  "wordTop": 330,
+  "wordSize": 340,
+  "headTop": 1290,
+  "tagTop": 1225,
+  "auto": false,
+  "fx": 0,
+  "fy": 0,
+  "fw": 1080
+ },
+ "cenas": [
+  {
+   "tipo": "banco",
+   "texto": [
+    "Mandou.",
+    "Sumiu."
+   ],
+   "clip": "vb-close-up-shot-of-a-freshly-made-hot-pizza",
+   "top": 200,
+   "size": 150,
+   "hl": [
+    1
+   ],
+   "hit": [
+    "Sumiu"
+   ],
+   "vfx": [
+    "punch",
+    "glitch"
+   ],
+   "som_hit": "glitch-quebra"
+  },
+  {
+   "tipo": "chat",
+   "texto": [],
+   "nome": "Cliente",
+   "msgs": [
+    [
+     "ele",
+     "Boa noite! Manda o cardápio?"
+    ],
+    [
+     "eu",
+     "📄 cardapio-completo.pdf · 12 páginas"
+    ]
+   ],
+   "tempos_em": [
+    "cardápio",
+    "PDF"
+   ]
+  },
+  {
+   "tipo": "frase",
+   "texto": [
+    "Visualizou.",
+    "E sumiu."
+   ],
+   "carimbo": "VISTO ✓✓",
+   "carimboAt": "nunca",
+   "size": 170,
+   "top": 560
+  },
+  {
+   "tipo": "banco",
+   "texto": [
+    "Trava a",
+    "escolha"
+   ],
+   "clip": "vb-waiter-serving-a-pizza-at-a-table",
+   "top": 200,
+   "size": 150,
+   "hl": [
+    1
+   ],
+   "hit": [
+    "trava"
+   ],
+   "vfx": [
+    "punch"
+   ]
+  },
+  {
+   "tipo": "lista",
+   "texto": [],
+   "titulo": "Manda assim",
+   "itens": [
+    [
+     "1",
+     "Os 3 mais pedidos"
+    ],
+    [
+     "2",
+     "Uma pergunta"
+    ],
+    [
+     "3",
+     "Qual vai ser?"
+    ]
+   ],
+   "tempos_em": [
+    "três",
+    "pergunta",
+    "quer"
+   ]
+  },
+  {
+   "tipo": "banco",
+   "texto": [
+    "Pergunta",
+    "fecha pedido"
+   ],
+   "clip": "vb-pizza-while-someone-takes-a-slice",
+   "top": 200,
+   "size": 150,
+   "hl": [
+    1
+   ],
+   "vfx": [
+    "punch"
+   ]
+  },
+  {
+   "tipo": "cta",
+   "texto": [],
+   "etiquetas": [
+    "Raio-X grátis",
+    "Só pizzarias"
+   ],
+   "vfx": [
+    "leak"
+   ],
+   "foto": "33593003.jpg",
+   "_cred": "https://www.pexels.com/photo/33593003/"
+  },
+  {
+   "tipo": "banco",
+   "texto": [
+    "Mandou.",
+    "Sumiu."
+   ],
+   "clip": "vb-close-up-shot-of-a-freshly-made-hot-pizza",
+   "top": 200,
+   "size": 150,
+   "hl": [
+    1
+   ],
+   "hit": [
+    "some"
+   ],
+   "vfx": [
+    "punch"
+   ]
+  }
+ ]
+}

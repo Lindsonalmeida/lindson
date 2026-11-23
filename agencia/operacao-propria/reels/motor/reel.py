@@ -83,14 +83,14 @@ fim_voz = V0 + len(audio) / S
 CAUDA = P.get('cauda', 1.3)
 if ic is not None:  # a CTA ganha fôlego: silêncio inserido antes dela e segurado depois da palavra
     i_cta = next(i for i, (kk, _) in enumerate(toks) if kk == ic)
-    folga = max(0.0, min(P.get('pausa_cta', 1.2), 30.0 - (fim_voz + CAUDA)))
+    folga = max(0.0, min(P.get('pausa_cta', 1.2), P.get('total_max', 31.5) - 1.5 - (fim_voz + CAUDA)))
     i_end = next((i for i, (kk, _) in enumerate(toks) if kk == ic + 1), None)
     if folga > .05 and i_end is not None:
         tc = tw[i_end][0] - .12; ins = int((tc - V0) * S)
         audio = np.concatenate([audio[:ins], np.zeros(int(folga * S), np.float32), audio[ins:]])
         tw = [(x + folga, y + folga) if x >= tc else (x, y) for x, y in tw]
         fim_voz += folga
-TOTAL = min(31.5, max(P.get('total_min', 20.0), fim_voz + CAUDA))
+TOTAL = min(P.get('total_max', 31.5), max(P.get('total_min', 20.0), fim_voz + CAUDA))
 segs = []
 for k, c in enumerate(cenas):
     idx = [i for i, (kk, _) in enumerate(toks) if kk == k]

@@ -1,0 +1,162 @@
+{
+ "_nota": "Leva viral 23/11/2026 (conta Leandro). Foto Pexels nova.",
+ "beat_sync": true,
+ "voz_rate": "+4%",
+ "voz_max": 40,
+ "total_max": 40,
+ "total_min": 25,
+ "trilha": "pop-track-03-108bpm.mp3",
+ "trilha_ini": 14,
+ "capa": {
+  "foto": "5903317.jpg",
+  "palavra": "TÁ CARO",
+  "manchete": "Não é um não.",
+  "caixa": "Responde assim",
+  "rotulo": "Resposta pronta",
+  "wordTop": 330,
+  "wordSize": 250,
+  "headTop": 1290,
+  "tagTop": 1225,
+  "auto": false,
+  "fx": 0,
+  "fy": 0,
+  "fw": 1080
+ },
+ "cenas": [
+  {
+   "tipo": "banco",
+   "texto": [
+    "\"Tá caro\"",
+    "≠ não"
+   ],
+   "clip": "vb-chef-puts-the-pizza-in-the-oven",
+   "top": 200,
+   "size": 150,
+   "hl": [
+    1
+   ],
+   "hit": [
+    "não"
+   ],
+   "vfx": [
+    "punch"
+   ]
+  },
+  {
+   "tipo": "chat",
+   "texto": [],
+   "nome": "Cliente",
+   "msgs": [
+    [
+     "ele",
+     "Quanto tá a grande?"
+    ],
+    [
+     "ele",
+     "Hmm… tá caro 😬"
+    ]
+   ],
+   "tempos_em": [
+    "cliente",
+    "caro"
+   ]
+  },
+  {
+   "tipo": "banco",
+   "texto": [
+    "Não baixa.",
+    "Explica."
+   ],
+   "clip": "vb-spreading-cheese-on-a-pizza",
+   "top": 200,
+   "size": 150,
+   "hl": [
+    1
+   ],
+   "vfx": [
+    "punch"
+   ]
+  },
+  {
+   "tipo": "lista",
+   "texto": [],
+   "titulo": "O que ele leva",
+   "itens": [
+    [
+     "1",
+     "Tamanho"
+    ],
+    [
+     "2",
+     "Ingrediente"
+    ],
+    [
+     "3",
+     "Tempo de entrega"
+    ]
+   ],
+   "tempos_em": [
+    "tamanho",
+    "ingrediente",
+    "entrega"
+   ]
+  },
+  {
+   "tipo": "split",
+   "texto": [],
+   "esq": "Grande",
+   "dir": "Média"
+  },
+  {
+   "tipo": "banco",
+   "texto": [
+    "Entre duas",
+    "pizzas"
+   ],
+   "clip": "vb-chef-shaping-a-pizza",
+   "top": 200,
+   "size": 150,
+   "hl": [
+    1
+   ],
+   "hit": [
+    "concorrente"
+   ],
+   "vfx": [
+    "punch"
+   ]
+  },
+  {
+   "tipo": "cta",
+   "texto": [],
+   "etiquetas": [
+    "Raio-X grátis",
+    "Só pizzarias"
+   ],
+   "vfx": [
+    "leak"
+   ],
+   "foto": "5903317.jpg",
+   "_cred": "https://www.pexels.com/photo/5903317/"
+  },
+  {
+   "tipo": "banco",
+   "texto": [
+    "\"Tá caro\"",
+    "≠ não"
+   ],
+   "clip": "vb-chef-puts-the-pizza-in-the-oven",
+   "top": 200,
+   "size": 150,
+   "hl": [
+    1
+   ],
+   "hit": [
+    "não"
+   ],
+   "vfx": [
+    "punch"
+   ]
+  }
+ ]
+}

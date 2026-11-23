@@ -1,0 +1,161 @@
+{
+ "_nota": "Leva viral 23/11/2026 (conta Leandro). Foto Pexels nova.",
+ "beat_sync": true,
+ "voz_rate": "+4%",
+ "voz_max": 40,
+ "total_max": 40,
+ "total_min": 25,
+ "trilha": "midnight-funk-117bpm.mp3",
+ "trilha_ini": 24,
+ "capa": {
+  "foto": "40135592.jpg",
+  "palavra": "TAXA",
+  "manchete": "O app comeu",
+  "caixa": "sua margem?",
+  "rotulo": "Dinheiro que vaza",
+  "wordTop": 330,
+  "wordSize": 420,
+  "headTop": 1290,
+  "tagTop": 1225,
+  "auto": false,
+  "fx": 0,
+  "fy": 0,
+  "fw": 1080
+ },
+ "cenas": [
+  {
+   "tipo": "banco",
+   "texto": [
+    "Comeu sua",
+    "margem?"
+   ],
+   "clip": "vb-hot-oven-baking-pizzas",
+   "top": 200,
+   "size": 150,
+   "hl": [
+    1
+   ],
+   "hit": [
+    "margem"
+   ],
+   "vfx": [
+    "punch"
+   ]
+  },
+  {
+   "tipo": "frase",
+   "texto": [
+    "Pizza de",
+    "R$ 60"
+   ],
+   "carimbo": "EXEMPLO",
+   "carimboAt": "exemplo",
+   "size": 170,
+   "top": 560
+  },
+  {
+   "tipo": "lista",
+   "texto": [],
+   "titulo": "Tira",
+   "itens": [
+    [
+     "−",
+     "Taxa do app"
+    ],
+    [
+     "−",
+     "Entrega"
+    ],
+    [
+     "−",
+     "Caixa"
+    ],
+    [
+     "−",
+     "Queijo e massa"
+    ]
+   ],
+   "tempos_em": [
+    "taxa",
+    "entrega",
+    "caixa",
+    "queijo"
+   ],
+   "compacto": true
+  },
+  {
+   "tipo": "impacto",
+   "texto": [
+    "Sobra",
+    "quanto?"
+   ],
+   "hl": [
+    1
+   ],
+   "hit": [
+    "quanto"
+   ],
+   "vfx": [
+    "glitch"
+   ],
+   "som_hit": "glitch-quebra",
+   "size": 200,
+   "top": 640,
+   "flash": true
+  },
+  {
+   "tipo": "banco",
+   "texto": [
+    "Fez a conta",
+    "no papel?"
+   ],
+   "clip": "celular-noite-digitando",
+   "hl": [
+    1
+   ],
+   "size": 170,
+   "top": 560,
+   "vfx": [
+    "punch"
+   ]
+  },
+  {
+   "tipo": "split",
+   "texto": [],
+   "esq": "Cliente novo",
+   "dir": "Cliente seu"
+  },
+  {
+   "tipo": "cta",
+   "texto": [],
+   "etiquetas": [
+    "Raio-X grátis",
+    "Só pizzarias"
+   ],
+   "vfx": [
+    "leak"
+   ],
+   "foto": "40135592.jpg",
+   "_cred": "https://www.pexels.com/photo/40135592/"
+  },
+  {
+   "tipo": "banco",
+   "texto": [
+    "Comeu sua",
+    "margem?"
+   ],
+   "clip": "vb-hot-oven-baking-pizzas",
+   "top": 200,
+   "size": 150,
+   "hl": [
+    1
+   ],
+   "hit": [
+    "margem"
+   ],
+   "vfx": [
+    "punch"
+   ]
+  }
+ ]
+}

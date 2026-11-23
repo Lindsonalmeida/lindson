@@ -2207,6 +2207,238 @@
      ]
     }
    ]
+  },
+  {
+   "id": "OT-35",
+   "ordem": 35,
+   "titulo": "POV: o cliente pede o cardápio e some",
+   "tipo": "conteudo",
+   "linha_editorial": "Humor de dono",
+   "capa_cor": "preto",
+   "cta_palavra": "RAIO-X",
+   "entrega_no_video": "Te mando o link do Raio-X grátis da sua pizzaria.",
+   "blocos_voz": [
+    "Mandou o cardápio. Sumiu. POV: o cliente pede o cardápio e você manda um PDF de doze páginas. Ele visualiza. E nunca mais responde. Cardápio grande demais trava a escolha.",
+    "Manda os três mais pedidos e pergunta qual ele quer. Pergunta fecha pedido. PDF abre conversa e some. Comenta RAIO-X que eu te mando o link do Raio-X grátis da sua pizzaria. Ou manda o PDF de novo, e ele some."
+   ],
+   "cenas": [
+    {
+     "narracao": "Mandou o cardápio. Sumiu.",
+     "texto_tela": "Mandou. Sumiu.",
+     "texto_tela_palavras": [
+      "Mandou.",
+      "Sumiu."
+     ]
+    },
+    {
+     "narracao": "POV: o cliente pede o cardápio e você manda um PDF de doze páginas.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Ele visualiza. E nunca mais responde.",
+     "texto_tela": "Visualizou. E sumiu.",
+     "texto_tela_palavras": [
+      "Visualizou.",
+      "E sumiu."
+     ]
+    },
+    {
+     "narracao": "Cardápio grande demais trava a escolha.",
+     "texto_tela": "Trava a escolha",
+     "texto_tela_palavras": [
+      "Trava a",
+      "escolha"
+     ]
+    },
+    {
+     "narracao": "Manda os três mais pedidos e pergunta qual ele quer.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Pergunta fecha pedido. PDF abre conversa e some.",
+     "texto_tela": "Pergunta fecha pedido",
+     "texto_tela_palavras": [
+      "Pergunta",
+      "fecha pedido"
+     ]
+    },
+    {
+     "narracao": "Comenta RAIO-X que eu te mando o link do Raio-X grátis da sua pizzaria.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Ou manda o PDF de novo, e ele some.",
+     "texto_tela": "Mandou. Sumiu.",
+     "texto_tela_palavras": [
+      "Mandou.",
+      "Sumiu."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "OT-34",
+   "ordem": 34,
+   "titulo": "Cliente disse \"tá caro\": responde sem dar desconto",
+   "tipo": "conteudo",
+   "linha_editorial": "Resposta pronta",
+   "capa_cor": "preto",
+   "cta_palavra": "RAIO-X",
+   "entrega_no_video": "Te mando o link do Raio-X grátis da sua pizzaria.",
+   "blocos_voz": [
+    "Tá caro não é um não. Quando o cliente diz que tá caro, ele tá pedindo um motivo pra pagar. Não baixa o preço. Responde com o que ele leva. Tamanho, ingrediente e tempo de entrega.",
+    "E oferece uma opção menor, sem desconto. Média em vez de grande. Assim ele escolhe entre duas pizzas, e não entre você e o concorrente. Comenta RAIO-X que eu te mando o link do Raio-X grátis da sua pizzaria.",
+    "Porque tá caro não é um não."
+   ],
+   "cenas": [
+    {
+     "narracao": "Tá caro não é um não.",
+     "texto_tela": "\"Tá caro\" ≠ não",
+     "texto_tela_palavras": [
+      "\"Tá caro\"",
+      "≠ não"
+     ]
+    },
+    {
+     "narracao": "Quando o cliente diz que tá caro, ele tá pedindo um motivo pra pagar.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Não baixa o preço. Responde com o que ele leva.",
+     "texto_tela": "Não baixa. Explica.",
+     "texto_tela_palavras": [
+      "Não baixa.",
+      "Explica."
+     ]
+    },
+    {
+     "narracao": "Tamanho, ingrediente e tempo de entrega.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "E oferece uma opção menor, sem desconto. Média em vez de grande.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Assim ele escolhe entre duas pizzas, e não entre você e o concorrente.",
+     "texto_tela": "Entre duas pizzas",
+     "texto_tela_palavras": [
+      "Entre duas",
+      "pizzas"
+     ]
+    },
+    {
+     "narracao": "Comenta RAIO-X que eu te mando o link do Raio-X grátis da sua pizzaria.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Porque tá caro não é um não.",
+     "texto_tela": "\"Tá caro\" ≠ não",
+     "texto_tela_palavras": [
+      "\"Tá caro\"",
+      "≠ não"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "OT-31",
+   "ordem": 31,
+   "titulo": "Taxa do app na pizzaria: quanto sobra de cada pizza",
+   "tipo": "conteudo",
+   "linha_editorial": "Dinheiro que vaza",
+   "capa_cor": "preto",
+   "cta_palavra": "RAIO-X",
+   "entrega_no_video": "Te mando o link do Raio-X grátis da sua pizzaria.",
+   "blocos_voz": [
+    "O aplicativo comeu sua margem? Pega uma pizza de sessenta reais. Valor de exemplo. Tira a taxa do seu contrato com o app. Tira a entrega, a caixa, o queijo e a massa. Sobra quanto pra você?",
+    "Você já fez essa conta no papel? O app traz cliente novo. O problema é o cliente que já é seu pedir lá todo mês. Comenta RAIO-X que eu te mando o link do Raio-X grátis da sua pizzaria.",
+    "Antes que o app coma a sua margem de novo."
+   ],
+   "cenas": [
+    {
+     "narracao": "O aplicativo comeu sua margem?",
+     "texto_tela": "Comeu sua margem?",
+     "texto_tela_palavras": [
+      "Comeu sua",
+      "margem?"
+     ]
+    },
+    {
+     "narracao": "Pega uma pizza de sessenta reais. Valor de exemplo.",
+     "texto_tela": "Pizza de R$ 60",
+     "texto_tela_palavras": [
+      "Pizza de",
+      "R$ 60"
+     ]
+    },
+    {
+     "narracao": "Tira a taxa do seu contrato com o app. Tira a entrega, a caixa, o queijo e a massa.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Sobra quanto pra você?",
+     "texto_tela": "Sobra quanto?",
+     "texto_tela_palavras": [
+      "Sobra",
+      "quanto?"
+     ]
+    },
+    {
+     "narracao": "Você já fez essa conta no papel?",
+     "texto_tela": "Fez a conta no papel?",
+     "texto_tela_palavras": [
+      "Fez a conta",
+      "no papel?"
+     ]
+    },
+    {
+     "narracao": "O app traz cliente novo. O problema é o cliente que já é seu pedir lá todo mês.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Comenta RAIO-X que eu te mando o link do Raio-X grátis da sua pizzaria.",
+     "texto_tela": "",
+     "texto_tela_palavras": [
+      "·"
+     ]
+    },
+    {
+     "narracao": "Antes que o app coma a sua margem de novo.",
+     "texto_tela": "Comeu sua margem?",
+     "texto_tela_palavras": [
+      "Comeu sua",
+      "margem?"
+     ]
+    }
+   ]
   }
  ]
 }
