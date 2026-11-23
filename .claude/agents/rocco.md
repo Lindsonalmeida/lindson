@@ -118,3 +118,5 @@ Referência obrigatória de nível: Al Kántara Group v2 (agencia/marca-holding/
 
 ### Regras gerais da empresa (Lindson, 20/11/2026)
 Antes de toda entrega, cumprir `REGRAS-GERAIS.md`: nível premium (Al Kántara v2), nota ≥ 9 no crivo, definição de pronto em 11 itens (pendência dita, nunca escondida), causa raiz e auditoria para trás em toda reprovação; 2 reprovações seguidas = confirmar o caminho com referências do Lindson antes da 3ª versão.
+
+- **23/11/2026 · Orégano funil de conteúdo v2 APROVADO** (fonte: MEMORIA-DO-LINDSON.md, conta Leandro): 2 Reels/dia + Shorts/TikTok, isca "Raio-X grátis do Instagram" (página /raio-x), ganchos A/B, 3 pizzarias fundadoras com case autorizado, R$ 30/dia (R$ 15 impulsionar o Reel vencedor + R$ 15 remarketing), direct respondido pelo ManyChat, métricas por Reel. Pasta: `agencia/operacao-propria/funil-conteudo/v2/`.
