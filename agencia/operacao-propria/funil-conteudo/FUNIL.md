@@ -1,3 +1,5 @@
+> **VERSÃO ANTERIOR (v1).** Substituída em 23/11/2026 pela v2 a pedido do Lindson: `v2/FUNIL-v2.md`.
+
 # Funil de conteúdo para vendas · Orégano Turbo (conta Leandro, 23/11/2026)
 
 Pedido do Lindson (23/11): "estruture um funil de conteúdo para atrair vendas". Regras em `PADRAO.md`. Continua os Reels aprovados (OT-01 a OT-21) e a semana 2 (OT-22 a OT-30, até 25/11); o calendário novo começa em 26/11 com OT-31.

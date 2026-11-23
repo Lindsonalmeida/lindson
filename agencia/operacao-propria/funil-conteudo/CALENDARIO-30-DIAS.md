@@ -1,3 +1,5 @@
+> **VERSÃO ANTERIOR (v1).** Substituída em 23/11/2026 pela v2 a pedido do Lindson: `v2/CALENDARIO-30-DIAS-v2.md`.
+
 # Calendário 30 dias · 90 Reels · Orégano Turbo (26/11 a 25/12/2026)
 
 Conta Leandro, 23/11/2026. Continua a semana 2 (OT-22 a OT-30, até 25/11). Gerado por `montar_calendario.py` (dados em `calendario.json`). Regras: `PADRAO.md`. Funil: `FUNIL.md`.
