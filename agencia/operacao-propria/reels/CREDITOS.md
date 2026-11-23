@@ -64,3 +64,4 @@ SFX, trilhas e vídeos de banco: Mixkit (licença livre), ver `conteudo/reels/le
 - 17402721 (OT-29): https://www.pexels.com/photo/17402721/
 - 20793369 (OT-30): https://www.pexels.com/photo/20793369/
 - 36375362 (OT-30): https://www.pexels.com/photo/36375362/
+- Funil OT-31 a 33 (23/11, conta Leandro): vídeos Mixkit 1666, 42484, 44010, 44002, 44001, 44008, 42487, 44005, 42481 (Mixkit Stock Video Free License).

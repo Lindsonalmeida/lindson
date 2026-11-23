@@ -1,0 +1,93 @@
+{
+ "beat_sync": true,
+ "voz_rate": "+4%",
+ "voz_max": 29.0,
+ "trilha_ini": 20,
+ "trilha": "midnight-funk-117bpm.mp3",
+ "capa": {
+  "foto": "capa33.jpg",
+  "palavra": "RAIO-X",
+  "manchete": "O que vem no Raio-X",
+  "caixa": "grátis do Instagram",
+  "rotulo": "Raio-X",
+  "wordTop": 330,
+  "wordSize": 420,
+  "headTop": 1290,
+  "tagTop": 1225,
+  "auto": false
+ },
+ "cenas": [
+  {
+   "tipo": "banco",
+   "clip": "turbo-surpreso",
+   "texto": [
+    "Seu perfil",
+    "espanta?"
+   ],
+   "hl": [
+    1
+   ],
+   "size": 170,
+   "top": 300,
+   "vfx": [
+    "punch"
+   ],
+   "ancoras": {
+    "Seu perfil": "zzzz",
+    "espanta?": "zzzz"
+   }
+  },
+  {
+   "tipo": "banco",
+   "clip": "ot33-perfil",
+   "texto": [
+    "Um vídeo",
+    "sobre o SEU perfil"
+   ],
+   "hl": [
+    1
+   ],
+   "size": 120,
+   "top": 300
+  },
+  {
+   "tipo": "banco",
+   "clip": "turbo-conta",
+   "texto": [
+    "Foto · bio",
+    "· WhatsApp"
+   ],
+   "hl": [
+    1
+   ],
+   "size": 140,
+   "top": 300
+  },
+  {
+   "tipo": "banco",
+   "clip": "ot33-forno-blur",
+   "texto": [
+    "Em ordem.",
+    "Sem custo."
+   ],
+   "hl": [
+    1
+   ],
+   "size": 170,
+   "top": 560
+  },
+  {
+   "tipo": "cta",
+   "texto": [],
+   "lipsync": "turbo-cta-aponta",
+   "etiquetas": [
+    "Raio-X",
+    "Só pizzaria"
+   ],
+   "vfx": [
+    "leak"
+   ]
+  }
+ ],
+ "duck": 1.35
+}

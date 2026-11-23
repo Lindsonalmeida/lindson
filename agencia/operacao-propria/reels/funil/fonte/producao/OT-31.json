@@ -1,0 +1,106 @@
+{
+ "beat_sync": true,
+ "voz_rate": "+4%",
+ "voz_max": 29.0,
+ "trilha_ini": 20,
+ "trilha": "trap-electro-vibes-112bpm.mp3",
+ "capa": {
+  "foto": "capa31.jpg",
+  "palavra": "TAXA",
+  "manchete": "Quanto o app leva",
+  "caixa": "de cada pizza?",
+  "rotulo": "Dinheiro que vaza",
+  "wordTop": 330,
+  "wordSize": 420,
+  "headTop": 1290,
+  "tagTop": 1225,
+  "auto": false
+ },
+ "cenas": [
+  {
+   "tipo": "banco",
+   "clip": "pizza-cortador",
+   "texto": [
+    "Comeu",
+    "sua margem?"
+   ],
+   "hl": [
+    1
+   ],
+   "size": 170,
+   "top": 560,
+   "vfx": [
+    "punch"
+   ],
+   "ancoras": {
+    "Comeu": "zzzz",
+    "sua margem?": "zzzz"
+   }
+  },
+  {
+   "tipo": "banco",
+   "clip": "pizza-quente",
+   "texto": [
+    "Pizza de R$ 60",
+    "(exemplo)"
+   ],
+   "hl": [
+    1
+   ],
+   "size": 140,
+   "top": 560
+  },
+  {
+   "tipo": "banco",
+   "clip": "casal-comendo",
+   "texto": [
+    "Tira,",
+    "tira, tira"
+   ],
+   "hl": [
+    1
+   ],
+   "size": 170,
+   "top": 560
+  },
+  {
+   "tipo": "banco",
+   "clip": "fatia-close",
+   "texto": [
+    "Sobra",
+    "quanto?"
+   ],
+   "hl": [
+    1
+   ],
+   "size": 170,
+   "top": 560
+  },
+  {
+   "tipo": "banco",
+   "clip": "celular-noite-digitando",
+   "texto": [
+    "Cliente seu,",
+    "taxa deles"
+   ],
+   "hl": [
+    1
+   ],
+   "size": 170,
+   "top": 560
+  },
+  {
+   "tipo": "cta",
+   "texto": [],
+   "lipsync": "turbo-cta-aponta",
+   "etiquetas": [
+    "Planilha",
+    "Taxa"
+   ],
+   "vfx": [
+    "leak"
+   ]
+  }
+ ],
+ "duck": 1.35
+}

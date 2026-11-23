@@ -1,0 +1,24 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{margin:0;padding:0;box-sizing:border-box}body{background:#000}
+#c{position:relative;width:1080px;height:1920px;overflow:hidden}
+#xad{position:absolute;inset:-120px;background-image:linear-gradient(45deg,rgba(0,0,0,.15) 25%,transparent 25%,transparent 75%,rgba(0,0,0,.15) 75%),linear-gradient(45deg,rgba(0,0,0,.15) 25%,transparent 25%,transparent 75%,rgba(0,0,0,.15) 75%);background-size:120px 120px;background-position:0 0,60px 60px}
+#st{position:absolute;overflow:visible}
+#luz{position:absolute;inset:0;mix-blend-mode:screen}
+.grao{position:absolute;inset:0;opacity:.09;mix-blend-mode:multiply;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)'/%3E%3C/svg%3E")}
+</style></head><body><div id="c"><div id="xad"></div><svg id="st"></svg><div id="luz"></div><div class="grao"></div></div>
+<script src="file:///home/user/lindson/agencia/operacao-propria/mascote/rig/seu-turbo.js"></script>
+<script>
+const T=SeuTurbo.criar(document.getElementById('st'),'demo');const $=id=>document.getElementById(id);
+const ease=x=>1-Math.pow(1-Math.max(0,Math.min(1,x)),3);
+window.setup=C=>{window.C=C;$('c').style.background=C.bg==='cta'?'radial-gradient(60% 40% at 50% 34%,#5a1612 0%,#26100d 38%,#141311 72%)':'#1E5B3B';
+ $('xad').style.display=C.bg==='cta'?'none':'block';const s=$('st').style;s.left=C.x+'px';s.top=C.y+'px';s.width=C.w+'px';s.height=(C.w*1.5)+'px'};
+window.render=function(t){const C=window.C;const ent=ease(t/.5),pous=t>.5&&t<.75?Math.sin((t-.5)/.25*Math.PI):0;
+ let pose=C.pose,expr=C.expr;for(const [tt,p,e] of (C.troca||[]))if(t>=tt){pose=p;expr=e}
+ const fal=t>=C.fala[0]&&t<C.fala[1];const vol=fal?Math.max(0,.35+.45*Math.sin(t*23)*Math.sin(t*7.3)+.2*Math.sin(t*41)):0;
+ const boca=fal?SeuTurbo.visema(vol,.3+.3*Math.sin(t*13),t*9):null;
+ const giro=pose==='aceno'?Math.sin(t*14)*18:0;const R=pose==='aceno'?{giro:12+giro,x:478+giro*.6}:{};
+ T.aplicar({pose,expr,R,boca:(boca==='repouso'&&expr!=='confiante')?null:boca,respira:Math.sin(t*2.2),piscar:expr==='piscada'?0:SeuTurbo.piscada(t+1.2),
+  y:(1-ent)*700,squash:pous*.9,inclina:Math.sin(t*1.6)*2+(pose==='aponta'?-4:0),vira:pose==='aponta'?.35:0,sobe:fal?-3*Math.sin(t*20):0});
+ const fl=Math.max(0,1-Math.abs(t-.55)/.2);$('luz').style.background='radial-gradient(circle at 80% 20%, rgba(242,179,61,'+(.5*fl)+'), transparent 60%)'};
+document.fonts.ready.then(()=>window.PRONTO=1);
+</script></body></html>

@@ -1,0 +1,226 @@
+{
+ "reels": [
+  {
+   "id": "OT-31",
+   "post": {
+    "data": "26/11",
+    "hora": "12:10"
+   },
+   "titulo": "Quanto o app leva de cada pizza",
+   "tipo": "conteudo",
+   "linha_editorial": "Dinheiro que vaza",
+   "etapa_funil": "Topo",
+   "visual": "Pizza real (vídeo)",
+   "capa_cor": "preto",
+   "cta_palavra": "TAXA",
+   "entrega_no_video": "Te mando a conta da taxa numa planilha simples.",
+   "blocos_voz": [
+    "O aplicativo comeu sua margem? Pega uma pizza de sessenta reais. Tira a taxa que está no seu contrato com o app. Tira a entrega, a caixa, o queijo e a massa.",
+    "Sobra quanto pra você? A maioria dos donos nunca fez essa conta no papel. O app traz cliente novo. O problema é o cliente que já é seu pedir lá todo mês. Comenta TAXA que eu te mando a conta numa planilha simples. Faz com o seu número."
+   ],
+   "cenas": [
+    {
+     "narracao": "O aplicativo comeu sua margem?",
+     "texto_tela": "Comeu sua margem?",
+     "texto_tela_palavras": [
+      "Comeu",
+      "sua margem?"
+     ],
+     "imagem": "vídeo: pizza sendo fatiada em close, fundo escuro"
+    },
+    {
+     "narracao": "Pega uma pizza de sessenta reais.",
+     "texto_tela": "Pizza de R$ 60",
+     "texto_tela_palavras": [
+      "Pizza",
+      "de R$ 60"
+     ],
+     "imagem": "mesma pizza, preço em tipografia grande (ilustrativo)"
+    },
+    {
+     "narracao": "Tira a taxa que está no seu contrato com o app. Tira a entrega, a caixa, o queijo e a massa.",
+     "texto_tela": "Tira, tira, tira",
+     "texto_tela_palavras": [
+      "Tira,",
+      "tira, tira"
+     ],
+     "imagem": "fatias saindo uma a uma da pizza a cada item"
+    },
+    {
+     "narracao": "Sobra quanto pra você? A maioria dos donos nunca fez essa conta no papel.",
+     "texto_tela": "Sobra quanto?",
+     "texto_tela_palavras": [
+      "Sobra",
+      "quanto?"
+     ],
+     "imagem": "uma fatia sozinha na tábua"
+    },
+    {
+     "narracao": "O app traz cliente novo. O problema é o cliente que já é seu pedir lá todo mês.",
+     "texto_tela": "Cliente seu, taxa deles",
+     "texto_tela_palavras": [
+      "Cliente",
+      "seu, taxa deles"
+     ],
+     "imagem": "vídeo: celular com o app aberto na mão do motoboy"
+    },
+    {
+     "narracao": "Comenta TAXA que eu te mando a conta numa planilha simples. Faz com o seu número.",
+     "texto_tela": "Comenta TAXA",
+     "texto_tela_palavras": [
+      "Comenta",
+      "TAXA"
+     ],
+     "imagem": "Seu Turbo aponta para o texto, logo no canto"
+    }
+   ],
+   "legenda": "Taxa do iFood na pizzaria: quanto sobra de cada pizza\n\nVocê sabe quanto sobra de uma pizza vendida pelo aplicativo? ...\n(legenda SEO completa: gerar com ../reels/legendas_seo.py no padrão aprovado)\n#pizzaria #donodepizzaria #ifood #gestaodepizzaria #saoluis",
+   "ordem": 31
+  },
+  {
+   "id": "OT-32",
+   "post": {
+    "data": "26/11",
+    "hora": "19:10"
+   },
+   "titulo": "Foto de pizza no celular com luz da janela",
+   "tipo": "conteudo",
+   "linha_editorial": "Aula rápida",
+   "etapa_funil": "Meio",
+   "visual": "Tela real (gravação)",
+   "capa_cor": "creme",
+   "cta_palavra": "FOTO",
+   "entrega_no_video": "Te mando o checklist de 5 itens da foto que dá fome.",
+   "blocos_voz": [
+    "Sua foto de pizza tira a fome do cliente? O erro mais comum é a luz do teto. Ela deixa o queijo amarelo e a borda sem cor. Leva a pizza pra perto da janela. Luz de lado, sem flash.",
+    "Fotografa de cima ou num ângulo baixo, na altura da borda. E puxa uma fatia. Queijo esticando vende mais do que pizza inteira parada. Comenta FOTO que eu te mando o checklist de cinco itens. Testa na pizza de hoje."
+   ],
+   "cenas": [
+    {
+     "narracao": "Sua foto de pizza tira a fome do cliente?",
+     "texto_tela": "Tira a fome?",
+     "texto_tela_palavras": [
+      "Tira",
+      "a fome?"
+     ],
+     "imagem": "gravação real: foto escura de pizza com luz amarela de teto"
+    },
+    {
+     "narracao": "O erro mais comum é a luz do teto. Ela deixa o queijo amarelo e a borda sem cor.",
+     "texto_tela": "Luz do teto: não",
+     "texto_tela_palavras": [
+      "Luz",
+      "do teto: não"
+     ],
+     "imagem": "mesma pizza, comparação lado a lado gravada"
+    },
+    {
+     "narracao": "Leva a pizza pra perto da janela. Luz de lado, sem flash.",
+     "texto_tela": "Luz da janela",
+     "texto_tela_palavras": [
+      "Luz",
+      "da janela"
+     ],
+     "imagem": "gravação: celular sendo levado até a janela"
+    },
+    {
+     "narracao": "Fotografa de cima ou num ângulo baixo, na altura da borda.",
+     "texto_tela": "De cima ou baixo",
+     "texto_tela_palavras": [
+      "De",
+      "cima ou baixo"
+     ],
+     "imagem": "tela do celular: modo câmera, grade ligada"
+    },
+    {
+     "narracao": "E puxa uma fatia. Queijo esticando vende mais do que pizza inteira parada.",
+     "texto_tela": "Puxa a fatia",
+     "texto_tela_palavras": [
+      "Puxa",
+      "a fatia"
+     ],
+     "imagem": "vídeo real: fatia puxada com queijo esticando"
+    },
+    {
+     "narracao": "Comenta FOTO que eu te mando o checklist de cinco itens. Testa na pizza de hoje.",
+     "texto_tela": "Comenta FOTO",
+     "texto_tela_palavras": [
+      "Comenta",
+      "FOTO"
+     ],
+     "imagem": "Seu Turbo com joinha"
+    }
+   ],
+   "legenda": "Foto de pizza no celular: 3 ajustes de luz e ângulo\n...\n#fotodepizza #pizzaria #marketingparapizzaria #donodepizzaria #fotografiadecomida",
+   "ordem": 32
+  },
+  {
+   "id": "OT-33",
+   "post": {
+    "data": "26/11",
+    "hora": "23:40"
+   },
+   "titulo": "O que vem no Raio-X grátis do Instagram",
+   "tipo": "venda",
+   "linha_editorial": "Raio-X",
+   "etapa_funil": "Fundo",
+   "visual": "Seu Turbo",
+   "capa_cor": "verde",
+   "cta_palavra": "RAIO-X",
+   "entrega_no_video": "Te mando como pedir o Raio-X grátis do seu Instagram.",
+   "blocos_voz": [
+    "Seu perfil espanta cliente e você nem percebe? A gente grava um vídeo curto olhando o Instagram da sua pizzaria.",
+    "Três coisas: a foto, a bio com o link, e o caminho até o seu WhatsApp. Você recebe o que mudar primeiro, em ordem. Sem enrolação e sem custo. Comenta RAIO-X que eu te mando como pedir. Só pizzaria."
+   ],
+   "cenas": [
+    {
+     "narracao": "Seu perfil espanta cliente e você nem percebe?",
+     "texto_tela": "Seu perfil espanta?",
+     "texto_tela_palavras": [
+      "Seu",
+      "perfil espanta?"
+     ],
+     "imagem": "Seu Turbo surpreso, fundo verde forno"
+    },
+    {
+     "narracao": "A gente grava um vídeo curto olhando o Instagram da sua pizzaria.",
+     "texto_tela": "Um vídeo sobre o SEU perfil",
+     "texto_tela_palavras": [
+      "Um",
+      "vídeo sobre o SEU perfil"
+     ],
+     "imagem": "gravação real de tela: rolagem de um perfil de exemplo (pizzaria fictícia)"
+    },
+    {
+     "narracao": "Três coisas: a foto, a bio com o link, e o caminho até o seu WhatsApp.",
+     "texto_tela": "Foto · bio · WhatsApp",
+     "texto_tela_palavras": [
+      "Foto",
+      "· bio · WhatsApp"
+     ],
+     "imagem": "Seu Turbo conta nos dedos 1, 2, 3"
+    },
+    {
+     "narracao": "Você recebe o que mudar primeiro, em ordem. Sem enrolação e sem custo.",
+     "texto_tela": "Em ordem. Sem custo.",
+     "texto_tela_palavras": [
+      "Em",
+      "ordem. Sem custo."
+     ],
+     "imagem": "tipografia grande, pizza real ao fundo desfocada"
+    },
+    {
+     "narracao": "Comenta RAIO-X que eu te mando como pedir. Só pizzaria.",
+     "texto_tela": "Comenta RAIO-X",
+     "texto_tela_palavras": [
+      "Comenta",
+      "RAIO-X"
+     ],
+     "imagem": "Seu Turbo aponta, logo e @oreganoturbo"
+    }
+   ],
+   "legenda": "Raio-X grátis do Instagram da pizzaria: o que a gente olha\n...\n#raioxdapizzaria #marketingparapizzaria #instagramparapizzaria #pizzaria #nordeste",
+   "ordem": 33
+  }
+ ]
+}
