@@ -1,3 +1,6 @@
 # Raio-X de vereador
 - Prompt da extensão: `PROMPT-RAIO-X-EXTENSAO.md`.
 - **Geovane Abreu (Paço do Lumiar), 17/11/2026, conta Leandro:** PDF de venda premium v1 (12 p., template site de luxo). Por ter dados e prints, está só no privado `CentralLindsonALmeida/dados/clientes-arquivos/geovane-abreu/` (PDF, gerador, prints, TEMPLATE.md) e no painel admin (aba Artes).
+
+## Dossiê político · Laci Júnior (PSB, Raposa) · conta Leandro, 23/11/2026
+No privado: `dados/clientes-arquivos/laci-junior/` (PDF 18 p. 16:9, gerador, README). Item de prospecção no admin.
