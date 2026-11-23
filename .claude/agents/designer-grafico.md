@@ -232,3 +232,5 @@ Antes de toda entrega, cumprir `REGRAS-GERAIS.md`: nível premium (Al Kántara v
 
 ### 21/11/2026 (conta Pedro)
 - Leo Pinto: identidade v2 e redes v2–v5 reprovadas; só logo e cores do partido valem. Não produzir nada novo do Leo sem referências escolhidas por ele.
+
+- **23/11/2026 · REPROVADO flyer de show "Encontro na Varanda" v1** (fonte: MEMORIA-DO-LINDSON.md, conta Leandro): verde escuro "elegante", artistas pequenos em meio busto, letra cursiva e tudo contido. **Flyer de show segue as refs Rancho Beer/Pixote:** artistas ENORMES ocupando o quadro, luz de palco ou fogo forte por trás, nome em lettering gordo com atitude, cor saturada e energia de show.
