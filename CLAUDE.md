@@ -1,5 +1,8 @@
 # Instruções do repositório (Lindson Almeida)
 
+> **REGRA DO LINDSON (23/11/2026, todas as contas, agentes e rotinas): "sempre use todos os agentes necessários e todas as skills, não faça nada sem essas duas coisas."** Em todo pedido, antes de executar: (1) monte o time de agentes do assunto (mapa "Quem acionar") e (2) carregue pela ferramenta Skill TODAS as skills que servem ao pedido (ex.: vídeo curto: hook-writer, reels-script, viral-reverse-engineering, captions, caption-writer, thumbnail-design, /reels-viral; funil/vendas: lead-magnets-and-funnels, social-selling-and-dm, social-proof, goals-and-kpis, /landing-page). Registre na entrega quais agentes e skills foram usados e o que cada um mudou. Entrega sem isso não é "pronta".
+
+
 > **REGRA DO LINDSON (21/11/2026, todas as contas, agentes e rotinas): "nunca refaça algo que eu já reprovei."** Antes de criar ou refazer qualquer peça, procure na `MEMORIA-DO-LINDSON.md` (REPROVADO) e no painel se o estilo, técnica ou peça já foi reprovado. Se foi, é proibido entregar de novo no mesmo estilo/técnica (ex.: Reels miniaturas 3D com bonecos, fotos paradas com zoom fingindo vídeo). Faltou caminho novo: pergunte ao Lindson com referências antes de produzir.
 
 
