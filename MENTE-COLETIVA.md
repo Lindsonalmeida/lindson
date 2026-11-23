@@ -164,3 +164,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 22/11 · Leandro: o time de robôs SDR chama **VIRTÙ** (marca em agencia/marca-sdr/). Aba SDR = abas por nicho + funil + fluxo; fluxo por nicho vem de NICHOS no _sdr_fluxo.js (GET /api/sdr devolve "fluxos"). Nova etapa "qualificado". Bug corrigido: inicio vazio no config dava limite NaN e o painel mostrava /20.
 - 22/11/2026 (Zuleide): chave Google Places para leads do VIRTÙ ficou PARADA (Lindson sem cartão para o faturamento do Google Cloud). Captação segue por Google/sites (~25/dia). Não pedir de novo até ele ter cartão.
 - 22/11 (subagente): +3 leads dentistas SLZ no SDR via TeleListas; método em agencia/processos/leads-fontes-gratis.md
+- 23/11/2026 (Zuleide): SDR Orégano +28 pizzarias novas (WhatsApp da bio do Instagram via busca; seguidores a conferir), 25 descartadas; leads-2026-11-23.csv
