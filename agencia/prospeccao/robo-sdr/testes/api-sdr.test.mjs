@@ -53,4 +53,17 @@ await t('variações seguem o padrão (saudação e pergunta mudam, dor igual)',
   assert.equal(new Set(v).size, 3); for (const x of v) { assert.equal(x.split('\n')[1], m.split('\n')[1]); assert.ok(!/vi que|parece que|gargalo/i.test(x)); assert.ok(x.length <= 300); }
 });
 await t('lead sem WhatsApp nunca entra no lote', async () => { const s = api.escolhe(CONTATOS.map(c => ({ ...c, etapa: 'novo' })), 'sdr1', {}, Date.now(), 999); assert.ok(s.every(c => c.wa)); });
+await t('fallback: chip fora do NE sem lead livre passa a receber do Nordeste, sem repetir (23/11/2026)', async () => {
+  const agora = Date.now(), v = new Date(agora).toISOString(), robos = { sdr1: { visto: v, regiao: 'NE' }, sdr2: { visto: v, regiao: 'FORA_NE' }, sdr3: { visto: v, regiao: 'NE' } };
+  const base = CONTATOS.filter(c => c.wa).map(c => ({ ...c, etapa: 'novo' })), neLivres = base.filter(c => api.ehNE(c));
+  // 1) com lead fora do NE livre: sdr2 só pega fora do NE, e os do NE ficam com sdr1/sdr3
+  const fora = [{ id: 'teste-sp-1', wa: '5511999990001', cidade: 'São Paulo / SP', etapa: 'novo' }];
+  const s2 = api.escolhe(base.concat(fora), 'sdr2', robos, agora, 999); assert.ok(s2.length >= 1 && s2.every(c => !api.ehNE(c)));
+  // 2) sem lead fora do NE livre: sdr2 recebe NE; os três juntos cobrem todos os NE livres sem repetir
+  const todos = base.map(c => api.ehNE(c) ? c : { ...c, etapa: 'enviado' }), vistos = new Map();
+  for (const n of api.NUMEROS) for (const c of api.escolhe(todos, n, robos, agora, 9999)) { assert.ok(api.ehNE(c)); assert.ok(!vistos.has(c.id), `${c.id} repetiu`); vistos.set(c.id, n); }
+  assert.equal(vistos.size, neLivres.length);
+  if (neLivres.length >= 6) assert.ok([...vistos.values()].includes('sdr2'), 'sdr2 não recebeu lead do NE');
+  console.log('   fallback: NE livres', neLivres.length, 'sdr2 recebeu', [...vistos.values()].filter(n => n === 'sdr2').length);
+});
 console.log(`\n${ok} testes passaram.`);

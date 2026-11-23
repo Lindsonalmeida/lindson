@@ -115,7 +115,12 @@ a = troca(a, "addEventListener('hashchange',render);render();", "window.__render
 extra = ('window.__CLIENTES=' + json.dumps(resumo, ensure_ascii=False) + ';\nwindow.__APPS=' + json.dumps(apps, ensure_ascii=False) + ';\n').replace('</', '<\\/') + open(os.path.join(D, 'admin-sistema.js')).read() + '\n' + open(os.path.join(D, 'admin-apps.js')).read() + '\n' + 'window.__REDE=' + json.dumps(REDE, ensure_ascii=False).replace('</', '<\\/') + ';\n' + open(os.path.join(D, 'admin-rede.js')).read() + '\n' + open(os.path.join(SC, 'prototipo', 'movimento.js')).read()
 # Quadro de atividades (site/quadro.json + admin-quadro.js) com a aba Feitos em linha do tempo (montar_feitos.py: base + linhas novas do REGISTRO com a hora do commit), conta Leandro 11/11/2026
 import sys; sys.path.insert(0, D); from montar_feitos import feitos
-quadro = ('window.__QUADRO=' + json.dumps(json.load(open(os.path.join(D, 'quadro.json'))), ensure_ascii=False) + ';\nwindow.__FEITOS=' + json.dumps(feitos(), ensure_ascii=False) + ';\n').replace('</', '<\\/') + open(os.path.join(D, 'admin-quadro.js')).read().rstrip('\n') + '\n'
+# fila das equipes (coordenacao/fila.json) junto do caderno na aba A fazer: window.__FILA (conta Leandro, 23/11/2026; antes ficava só colado no admin.html)
+FILA_P = os.path.join(SC, '..', '..', 'coordenacao', 'fila.json')
+def fila_js(p=FILA_P):
+    f = json.load(open(p)) if os.path.exists(p) else {'itens': []}
+    return 'window.__FILA=' + json.dumps({'atualizado': f.get('atualizado', ''), 'itens': [{k: i.get(k, '') for k in ('id', 'cli', 'tarefa', 'equipe', 'status')} for i in f.get('itens', [])]}, ensure_ascii=False).replace('</', '<\\/') + ';\n'
+quadro = fila_js() + ('window.__QUADRO=' + json.dumps(json.load(open(os.path.join(D, 'quadro.json'))), ensure_ascii=False) + ';\nwindow.__FEITOS=' + json.dumps(feitos(), ensure_ascii=False) + ';\n').replace('</', '<\\/') + open(os.path.join(D, 'admin-quadro.js')).read().rstrip('\n') + '\n'
 a = a.replace('</script>', '</script>\n<script>\n' + extra + '\n</script>\n<script>\n' + quadro + '\n</script>', 1)
 open(os.path.join(OUT, 'painel', 'admin.html'), 'w').write(doc(a))
 # 3b · apps do Lindson dentro da Central (só o admin abre: ficam em /painel/, e o middleware barra quem não é admin)
@@ -156,6 +161,7 @@ print('pizzarias.html', _m.montar(os.path.join(OUT, 'painel')), 'documentos')
 sys.path.insert(0, os.path.join(D, 'painel-feitas')); from injetar import injetar; print('feitas, postados e biblioteca:', injetar(os.path.join(OUT, 'painel')))
 sys.path.insert(0, os.path.join(D, 'painel-sdr')); from injetar_sdr import injetar_sdr; print('aba SDR (time de 3 números):', injetar_sdr(os.path.join(OUT, 'painel', 'admin.html')))  # conta Pedro, 22/11/2026
 sys.path.insert(0, os.path.join(D, 'painel-robos')); from injetar_robos import injetar_robos; print('aba Robôs:', injetar_robos(os.path.join(OUT, 'painel', 'admin.html')))  # conta Leandro, 22/11/2026
+sys.path.insert(0, os.path.join(SC, 'oregano-turbo')); from injetar_metricas import injetar_metricas; print('aba Métricas por Reel (Orégano):', injetar_metricas(os.path.join(OUT, 'painel')))  # conta Leandro, 23/11/2026
 open(os.path.join(OUT, '_headers'), 'w').write("/*\n  X-Frame-Options: SAMEORIGIN\n  Referrer-Policy: same-origin\n  X-Content-Type-Options: nosniff\n/painel/*\n  Cache-Control: private, no-store\n  X-Robots-Tag: noindex\n")
 open(os.path.join(OUT, 'robots.txt'), 'w').write("User-agent: *\nAllow: /site/\nAllow: /bio/\nAllow: /sitemap.xml\nDisallow: /\n\nSitemap: https://lindsonalmeida.pages.dev/sitemap.xml\n")
 # sitemap só das páginas públicas (site oficial, portfólio e bio) — conta Leandro, 05/11/2026
