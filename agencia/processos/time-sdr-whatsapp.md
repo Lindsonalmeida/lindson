@@ -29,7 +29,7 @@ Admin (navegador) ── aba SDR · Prospecção ──► /api/sdr (cookie de a
 - O **Modo disparo** manual da aba SDR continua como contingência e grava como "Manual".
 
 ## 4. Aquecimento e limites
-- Por número (`config.json`): 20/dia na 1ª semana, +10 por semana, até o teto (40). Seg a sex, horários levemente diferentes (09:00–18:00, 09:20–17:40, 09:40–17:20), intervalo aleatório (4–9, 5–10, 5–11 min) e "digitando…".
+- Por número (`config.json`): 30/dia, todos os dias, inclusive sábado e domingo (`fim_de_semana: true`, pedido do Lindson em 22/11/2026). Horários 09:00–18:00, intervalo aleatório de 4 a 9 min e "digitando…".
 - 3 números sem WhatsApp seguidos = aquele número para 1 dia. 3 erros seguidos = pausa de 1 h.
 - Subir o teto só com o Lindson e depois de 2 semanas sem bloqueio.
 
