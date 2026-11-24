@@ -4,3 +4,6 @@
 
 ## Dossiê político · Laci Júnior (PSB, Raposa) · conta Leandro, 23/11/2026
 No privado: `dados/clientes-arquivos/laci-junior/` (PDF 18 p. 16:9, gerador, README). Item de prospecção no admin.
+
+## Dossiê Francisco Messias v1 (conta Leandro, 24/11/2026)
+PDF 26 p. de prospecção, gerador, fotos e pesquisa premium: privado `CentralLindsonALmeida/dados/clientes-arquivos/francisco-messias/` (README). No admin: seção perfil, "PDF Dossiê político · Vereador Francisco Messias v1". Situação: aguardando aprovação.
