@@ -151,6 +151,8 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 - **Sempre que voltar, verificar se o trabalho continuou com outras equipes** (03/11 · Pedro, para todas as contas): pull, log de todos os branches, quadro, registro e privado; nunca refazer o que outra conta já fez. Recados para as contas ficam no topo do `QUADRO-DA-EQUIPE.md`, e cada conta confirma ao Lindson "Entendi o recado".
 
 ## 3. APROVADO: guardar e melhorar
+
+- **21–24/11/2026 (conta Pedro) · APROVADO, identidade v5 do Leo Pinto (Claude Design)** em `agencia/clientes/leo-pinto/identidade-v5-design/` (README com o sistema completo): banner laranja "Do povo, pro povo." ("super aprovado"), banner azul, avatar e destaques, mockup de 3 posts, posts #tôcom, Presente nos povoados, Juntos somos + fortes, Frase "Fazer política é cuidar de gente.", Pergunte ao vereador, Enquete, Projetos aprovados, e a **figurinha e a faixa de aniversário para story** (PNG sem fundo, contorno branco; "exatamente"). Sistema: disco com arcos (cabeça saindo por cima, rosto centralizado) ou foto encostada na borda; camadas sempre (degradê, formas, mapa, palavra gigante, textura), nunca fundo só com cor; faixa marinho "JUNTOS ››› PODEMOS MAIS!" + logo na base; @ no topo. **Traços LIBERADOS pelo Lindson em 21/11** ("eu gostei daqueles traços, só achei desorganizado"): linha do contorno do município, explosão com o mapa, estrela ciano e chevrons, sempre organizados, um por zona (substitui a proibição de grafismos de 02/11 para estes elementos; balão atrás do logo continua proibido).
 - **24/11/2026 (conta Lindson, registrado pela Zuleide) · FOCO DOS LEADS DO SDR VIRTÙ:** só 3 nichos: **lojas de celular, advogados e dentistas**. Número 098 = São Luís; número 011 = outras capitais do Brasil.
 - **22/11/2026 (conta Lindson, registrado pela Zuleide) · APROVADO:** nome **VIRTÙ** para o time de robôs SDR (preto, champanhe e platina) e o **vídeo 04 estilo cinema** (4 cenas do Google Flow). Chave AUTOMACAO_TOKEN da Real Time: "deixa pra depois".
 
@@ -224,6 +226,8 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 
 ## 4. REPROVADO: nunca repetir
 
+- **21–24/11/2026 (conta Pedro) · REPROVADO, identidade v5 do Leo:** foto solta com corte lateral da camisa aparecendo e base branca esfumada; **foto dentro de arco/moldura alta** (reprovado as 4 vezes: Projeto de lei, Agenda, Chama no zap, Fique ligado); "#" gigante como fundo (#Tamo junto); cartões cheios de campos vazios (Mandato que entrega, Requerimento, Agenda); post de aniversário com espaço vazio para a foto; fundo "duro, só com a cor"; composição desorganizada. "Foto sempre centralizada"; "não precisa ser no círculo sempre".
+
 - **18/11/2026 (conta Pedro) · REPROVADO: "artes de redes da identidade v2 péssimas"** (Leo Pinto: templates de post, carrossel, story, Reels, 4 quadros e grid). O resto da identidade v2 foi aprovado. Erros a nunca repetir: recorte com halo/brilho laranja e borda borrada, texto pequeno sem hierarquia, Cinzel pequena no canto, laranja chapado vazio, foto pequena, composições repetidas. Refeito na v3 (`leo-pinto/identidade-v2/entregas/redes-v3/`, PDF `leo-pinto-identidade-v3-redes.pdf`), aguardando.
 
 0c. **Capas amarelas a2y, c1y e r3y** (03/11 · Pedro): "os outros estão reprovados". Não usar foto "nascendo" do amarelo em degradê, nem pessoa pequena no amarelo com lista ao lado. **Amarelo APROVADO = c2y**: amarelo com textura, palavra gigante preta (Anton) atrás dele, ele recortado (BiRefNet) de corpo inteiro na frente, degradê preto embaixo com a manchete branca e a palavra em caixa amarela. Pediu em seguida: "busque maneiras e técnicas para melhorar ainda mais os que já aprovei, implementar, deixar mais moderno, premium, bonito e atrativo".
@@ -257,7 +261,7 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 ## 5. Regras por cliente
 
 **Vereador Leo Pinto** (São João Batista/MA, mandato, não campanha)
-- **Cores:** laranja principal (partido); azul royal #2350F5 e marinho #082063 como apoio; amarelo #FFC20E nos destaques. No feed, xadrez laranja e azul.
+- **Cores:** laranja principal (partido); azul royal #2350F5 e marinho #05316E como apoio (hex medido no logo, 21/11 · Pedro; o #082063 estava errado); amarelo #FFC20E nos destaques. No feed, xadrez laranja e azul.
 - **Fontes:** Montserrat Black (nome e frases), Kaushan Script (toque manuscrito), Anton (títulos condensados das datas).
 - **Logo:** a oficial, aplicada direto no post e sempre "LEO PINTO" por extenso. No laranja, usar a versão marinho forte.
 - **Pode:** foto real do álbum (30 fotos de estúdio), recortada e posicionada pelo rosto; foto de banco como cenário com véu; mapa oficial da cidade em camada; cartão de checklist ou enquete na frente do peito; palavra repetida atrás.

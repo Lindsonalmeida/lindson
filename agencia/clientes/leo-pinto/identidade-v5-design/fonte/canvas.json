@@ -1,0 +1,189 @@
+{
+  "v": 3,
+  "attachments": {},
+  "boards": {
+    "BannerAzul.dc.html": {
+      "h": 900,
+      "title": "09 · Banner azul · APROVADO",
+      "w": 1600,
+      "x": 3360,
+      "y": 2240
+    },
+    "BannerLaranja.dc.html": {
+      "h": 900,
+      "title": "08 · Banner laranja · APROVADO",
+      "w": 1600,
+      "x": 1680,
+      "y": 2240
+    },
+    "Cores.dc.html": {
+      "h": 1000,
+      "title": "03 · Cores",
+      "w": 1600,
+      "x": 3360,
+      "y": 0
+    },
+    "Destaques.dc.html": {
+      "h": 420,
+      "title": "10 · Avatar e destaques · APROVADO",
+      "w": 1600,
+      "x": 0,
+      "y": 3360
+    },
+    "Fotografia.dc.html": {
+      "h": 1000,
+      "title": "05 · Fotografia",
+      "w": 1600,
+      "x": 1680,
+      "y": 1120
+    },
+    "Gabinete.dc.html": {
+      "h": 1000,
+      "title": "07 · Gabinete",
+      "w": 1600,
+      "x": 0,
+      "y": 2240
+    },
+    "Logo.dc.html": {
+      "h": 1000,
+      "title": "02 · Logo",
+      "w": 1600,
+      "x": 1680,
+      "y": 0
+    },
+    "Main.dc.html": {
+      "h": 1000,
+      "title": "01 · Capa",
+      "w": 1600,
+      "x": 0,
+      "y": 0
+    },
+    "Post10Pergunte.dc.html": {
+      "h": 1350,
+      "title": "21 · Post Pergunte ao vereador · APROVADO",
+      "w": 1080,
+      "x": 3480,
+      "y": 5950
+    },
+    "Post11Enquete.dc.html": {
+      "h": 1350,
+      "title": "22 · Post Enquete · APROVADO",
+      "w": 1080,
+      "x": 0,
+      "y": 7420
+    },
+    "Post12Projetos.dc.html": {
+      "h": 1350,
+      "title": "23 · Post Projetos aprovados · APROVADO",
+      "w": 1080,
+      "x": 1160,
+      "y": 7420
+    },
+    "Post2TocomLeo.dc.html": {
+      "h": 1350,
+      "title": "13 · Post #tôcom Leo · APROVADO",
+      "w": 1080,
+      "x": 1160,
+      "y": 4480
+    },
+    "Post3Presente.dc.html": {
+      "h": 1350,
+      "title": "14 · Post Presente nos povoados · APROVADO",
+      "w": 1080,
+      "x": 2320,
+      "y": 4480
+    },
+    "Post4Juntos.dc.html": {
+      "h": 1350,
+      "title": "15 · Post Juntos somos + fortes · APROVADO",
+      "w": 1080,
+      "x": 3480,
+      "y": 4480
+    },
+    "Post6Frase.dc.html": {
+      "h": 1350,
+      "title": "17 · Post Frase · APROVADO",
+      "w": 1080,
+      "x": 5800,
+      "y": 4480
+    },
+    "PostFeed.dc.html": {
+      "h": 1000,
+      "title": "11 · Posts do feed · APROVADO",
+      "w": 1600,
+      "x": 1680,
+      "y": 3360
+    },
+    "Redes.dc.html": {
+      "h": 1000,
+      "title": "06 · Redes sociais",
+      "w": 1600,
+      "x": 3360,
+      "y": 1120
+    },
+    "Tipografia.dc.html": {
+      "h": 1000,
+      "title": "04 · Tipografia",
+      "w": 1600,
+      "x": 0,
+      "y": 1120
+    },
+    "FigurinhaValmissandro.dc.html": {
+      "x": 1160,
+      "y": 8890,
+      "w": 1080,
+      "h": 1080,
+      "title": "27 · Figurinha story · Aniversário Valmissandro · APROVADO"
+    },
+    "FaixaValmissandro.dc.html": {
+      "x": 2320,
+      "y": 8890,
+      "w": 1080,
+      "h": 420,
+      "title": "28 · Faixa story · Aniversário Valmissandro"
+    }
+  },
+  "createdOnFiles": {
+    "at": "2026-11-21T23:40:00Z",
+    "v": 1
+  },
+  "designSystems": [],
+  "launch": {
+    "view": "canvas"
+  },
+  "notes": {
+    "image-1py7nk": {
+      "alt": "download",
+      "h": 1077,
+      "kind": "image",
+      "src": "/_blob/5c435a932810889192fbd1fdf3979de1",
+      "w": 1200,
+      "x": 1712,
+      "y": 5224
+    }
+  },
+  "order": [
+    "Main.dc.html",
+    "Logo.dc.html",
+    "Cores.dc.html",
+    "Tipografia.dc.html",
+    "Fotografia.dc.html",
+    "Redes.dc.html",
+    "Gabinete.dc.html",
+    "BannerLaranja.dc.html",
+    "BannerAzul.dc.html",
+    "Destaques.dc.html",
+    "PostFeed.dc.html",
+    "Post2TocomLeo.dc.html",
+    "Post3Presente.dc.html",
+    "Post4Juntos.dc.html",
+    "Post6Frase.dc.html",
+    "Post10Pergunte.dc.html",
+    "Post11Enquete.dc.html",
+    "Post12Projetos.dc.html",
+    "FigurinhaValmissandro.dc.html",
+    "FaixaValmissandro.dc.html"
+  ],
+  "pages": [],
+  "title": "Leo Pinto · Identidade"
+}
