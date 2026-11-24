@@ -181,3 +181,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 24/11/2026 (Zuleide): curso legislativo, 3 criativos + story do livro Decreto-Lei 201/67 em CentralLindsonALmeida/painel/curso/livro-201/criativos-v1/ (aguardando aprovação).
 - 24/11/2026 (Zuleide, social-media): roteiros de 3 carrosséis virais Orégano (CV-01 app/zap, CV-02 7 erros, CV-03 cheia×vazia) em agencia/operacao-propria/social/carrosseis-virais-v1/ROTEIROS.md; aguardando aprovação do Lindson.
 - 24/11 (Leandro): 3 roteiros virais Orégano (promo de terça, meio a meio, nome do sabor) em agencia/operacao-propria/funil-conteudo/ROTEIROS-VIRAIS-v1.md, aguardando aprovação.
+- 24/11/2026 · Leandro · SDR: respostas separadas por segmento política × varejo (sinal político em nicho/nome/@/bio vence; nicho vazio = resposta neutra marcada para revisão); follow-ups D3/D6/D9, objeções e reativação de vereador sem copy de venda. Teste: robo-sdr/testes/segmento.test.mjs.
