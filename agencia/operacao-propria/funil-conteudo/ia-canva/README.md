@@ -5,9 +5,9 @@ Antes de usar: conferir os 8 critérios de `agencia/processos/conferencia-imagem
 | # | Cena | Canva (alta) | Media id |
 |---|---|---|---|
 | 01 | Pizzas saindo do forno a lenha | https://www.canva.com/M/MAHb2K4QYMo | MAHb2K4QYMo |
-| 02 | Caixa de delivery sendo fechada | (gerando) | |
+| 02 | Caixa de delivery sendo fechada | https://www.canva.com/M/MAHb2NHBYpc | MAHb2NHBYpc |
 | 03 | Meio a meio sendo cortada | https://www.canva.com/M/MAHb2HSZMz0 | MAHb2HSZMz0 |
 | 04 | Cardápio no balcão (⚠ letras ilegíveis falsas: conferir) | https://www.canva.com/M/MAHb2CoHTuw | MAHb2CoHTuw |
 | 05 | Fatia carne de sol + coalho, queijo puxando | https://www.canva.com/M/MAHb2FPRjmI | MAHb2FPRjmI |
 
-Vídeos: ver seção abaixo quando gerados.
+Vídeos: Canva exige plano pago para gerar vídeo; Hugging Face (Wan 2.2 imagem→vídeo) precisa liberar os Spaces nas configurações do MCP do Hugging Face (huggingface.co/settings/mcp).
