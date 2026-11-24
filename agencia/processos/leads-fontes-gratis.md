@@ -19,3 +19,9 @@ Para os 151 celulares sem Instagram, buscar o nome + "instagram" um a um (lento)
 - Filtros: DDD tem que bater com a UF do cadastro; descartar redes/franquias e handle genérico (`whatsapp`, `p`, `reel`).
 - Rendimento 23/11: ~7.700 cartões → ~165 leads válidos (cerca de 85 BR e 28 MA após dedupe). MA rende pouco: poucas empresas com site.
 - Script usado: Python simples com ThreadPool (16-24 conexões), roda em ~8 min por lote.
+
+## São Luís: Google Maps no Chromium headless (24/11/2026, conta Zuleide) — FUNCIONOU
+- Playwright (`require('playwright')`, `chromium.launch()`, locale pt-BR): abrir `https://www.google.com/maps/search/<nicho> <bairro> São Luís MA`, rolar o `div[role=feed]` 6x, pegar `a.hfpxzc` (nome + link), abrir cada lugar e ler `[data-item-id^="phone:tel:"]` (telefone) e `a[data-item-id="authority"]` (site). Google não bloqueou.
+- Enriquecer: site = instagram.com → handle direto; senão abrir o site e extrair `instagram.com/<handle>` e `wa.me/` / `phone=`. Celular = DDD 98/99 + 9.
+- Rodar 6 processos em paralelo (~2 min por busca). 47 buscas (14 bairros × 3 nichos + Ribamar/Paço/assistência/iPhone) → ~440 lugares → ~98 com celular+Instagram → 65 novos após dedupe e filtro (redes/franquias, handle genérico, shopping, OAB).
+- Rendimento por nicho: dentista o melhor (~30%), depois loja de celular e advogado.
