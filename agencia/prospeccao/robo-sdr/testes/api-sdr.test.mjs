@@ -66,4 +66,11 @@ await t('fallback: chip fora do NE sem lead livre passa a receber do Nordeste, s
   if (neLivres.length >= 6) assert.ok([...vistos.values()].includes('sdr2'), 'sdr2 não recebeu lead do NE');
   console.log('   fallback: NE livres', neLivres.length, 'sdr2 recebeu', [...vistos.values()].filter(n => n === 'sdr2').length);
 });
+await t('SDR só de políticos (24/11): lote e fila sem varejo', async () => {
+  const pol = await import(CENTRAL + '/functions/_sdr_fluxo.js');
+  const ehPol = c => pol.segmento(c.nicho || '', c.nome || '', c.ig || '', c.bio || '', c.tag || '', c.msg || '', c.motivo || '') === 'politica';
+  const l = (await get('?lote=20')).lote; assert.ok(l.length > 0); assert.ok(l.every(ehPol), 'lote com varejo');
+  assert.ok((await get('')).contatos.every(ehPol), 'fila com varejo');
+  assert.equal(api.junta([{ st: {}, sdr: null }], [{ id: 'pz', nome: 'Pizzaria X', nicho: 'pizzaria', wa: '5598900000000' }]).length, 0);
+});
 console.log(`\n${ok} testes passaram.`);
