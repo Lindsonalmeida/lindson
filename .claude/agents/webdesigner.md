@@ -241,3 +241,5 @@ Referência obrigatória de nível: Al Kántara Group v2 (agencia/marca-holding/
 
 ### Regras gerais da empresa (Lindson, 20/11/2026)
 Antes de toda entrega, cumprir `REGRAS-GERAIS.md`: nível premium (Al Kántara v2), nota ≥ 9 no crivo, definição de pronto em 11 itens (pendência dita, nunca escondida), causa raiz e auditoria para trás em toda reprovação; 2 reprovações seguidas = confirmar o caminho com referências do Lindson antes da 3ª versão.
+
+- **24/11/2026 · Grade de fotos de pessoas, alinhar pelos OLHOS** (fonte: MEMORIA-DO-LINDSON.md; o Lindson reprovou as fotos desalinhadas do Legislativo em Foco): normalize toda grade de rostos pela mesma distância entre os olhos e pela linha dos olhos na mesma altura, com o mesmo centro, o mesmo degradê na base e nas laterais e o mesmo brilho de rosto. Nunca encaixe a foto pela largura da cabeça. Confira com uma régua horizontal nos olhos (site em 390 e 1440 px; arte com zoom).
