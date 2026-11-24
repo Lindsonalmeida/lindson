@@ -8,8 +8,8 @@ Monte um DOSSIÊ POLÍTICO COMPLETO do vereador RAFAEL CAPANER (descubra primeir
 2) VIDA ELEITORAL: todas as eleições que disputou (ano, cargo, partido, votos, %, colocação, eleito ou não). Em 2024: votos, colocação, votos do partido, quociente. Votos por zona/bairro se houver. Bens declarados ao TSE por eleição e doadores/gastos de campanha.
 3) MANDATO NA CÂMARA: cargos (Mesa, comissões, liderança), projetos de lei apresentados e aprovados (títulos e datas), indicações, requerimentos, votações polêmicas e como votou, frequência, homenagens que propôs (revela alianças).
 4) POSIÇÃO POLÍTICA: é base ou oposição ao prefeito atual da cidade dele? Alianças com deputados estaduais/federais, senador, governador do estado eleito em 2026. Quem apoiou em 2024 e 2026 e se o candidato ganhou.
-5) CONTEXTO DE FAZENDA RIO GRANDE: prefeito atual e vice, partido, situação para 2028 (pode se reeleger?), composição da Câmara (quantos vereadores, bancadas por partido), presidente da Câmara, principais pré-candidatos a prefeito em 2028, temas que desgastam a gestão.
-6) PESQUISAS: qualquer pesquisa eleitoral pública que cite ele ou o cenário de prefeito/vereador em da cidade dele (instituto, contratante, data, números, registro).
+5) CONTEXTO DA CIDADE: prefeito atual e vice, partido, situação para 2028 (pode se reeleger?), composição da Câmara (quantos vereadores, bancadas por partido), presidente da Câmara, principais pré-candidatos a prefeito em 2028, temas que desgastam a gestão.
+6) PESQUISAS: qualquer pesquisa eleitoral pública que cite ele ou o cenário de prefeito/vereador na cidade dele (instituto, contratante, data, números, registro).
 7) MÍDIA E REDES: Instagram, Facebook, TikTok, YouTube e site (seguidores, frequência, último post, engajamento médio, temas). Aparições em rádio/TV. Imagem pública: elogios e críticas.
 8) PASSIVOS: processos (TJ, TRE, TCE e MP do estado), denúncias, polêmicas, condenações (diga se é definitiva ou se cabe recurso), sempre com fonte e lado político.
 9) CONCORRÊNCIA: 5 vereadores/nomes da cidade dele com perfil parecido (mesma base ou mesmo bairro) e números deles.
