@@ -18,3 +18,4 @@ capa · resumo · quem é · trajetória e bens · linha do tempo eleitoral · v
 
 ## Regras
 Só dados da pesquisa, com fonte; notas = "avaliação da equipe" com critério; votos 2028 = "simulação"; mapa = "esquemático"; sem promessa de voto, sem preço, sem nota interna; passivos com fonte e lado e "sem condenação definitiva"; fotos só de fonte pública, sem login.
+- 24/11/2026 · Rafael Campaner (Leandro): dossiê v1 no gerador do Fubá, acento ciano PP #0096D6, pasta privado dados/clientes-arquivos/rafael-campaner/.
