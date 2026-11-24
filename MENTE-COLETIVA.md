@@ -178,3 +178,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 24/11 (Zuleide): SDR VIRTÙ +81 leads (78 capitais BR: 29 advogado, 26 dentista, 23 loja de celular; 3 MA São Luís). MA esgotou no TeleListas (advogado/dentista/celular já captados); falta fonte nova para Grande Ilha (Google Maps no navegador).
 - 24/11 06:39 · Zuleide: SDR VIRTÙ +141 leads (65 MA São Luís via Google Maps headless, 76 BR capitais). Fonte nova em agencia/processos/leads-fontes-gratis.md.
 - 24/11 07:50 · Zuleide: SDR Orégano +33 pizzarias novas (Google Maps SLZ/MA/NE), 388 descartadas; seguidores a conferir. Arquivo agencia/operacao-propria/sdr/leads-2026-11-24.csv
+- 24/11/2026 (Zuleide): curso legislativo, 3 criativos + story do livro Decreto-Lei 201/67 em CentralLindsonALmeida/painel/curso/livro-201/criativos-v1/ (aguardando aprovação).
