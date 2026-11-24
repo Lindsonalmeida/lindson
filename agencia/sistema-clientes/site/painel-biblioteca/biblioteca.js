@@ -128,6 +128,37 @@
   };
   V.biblioteca.real = true; T.biblioteca = 'Biblioteca';
 
+
+  // Baixar tudo (Lindson, 24/11/2026): carrossel/série sem zip pronto baixa todas as telas de uma vez.
+  // Celular: abre o Compartilhar com todas as imagens (Salvar na galeria). Computador: um .zip com 01, 02, 03… (conta Zuleide)
+  const zipTelas = window.__zipTelas || (() => {
+    const T = new Uint32Array(256).map((_, n) => { let c = n; for (let k = 0; k < 8; k++) c = c & 1 ? 0xEDB88320 ^ (c >>> 1) : c >>> 1; return c >>> 0; });
+    const crc = b => { let c = 0xFFFFFFFF; for (let i = 0; i < b.length; i++) c = T[(c ^ b[i]) & 255] ^ (c >>> 8); return (c ^ 0xFFFFFFFF) >>> 0; };
+    return arqs => { const enc = new TextEncoder(), partes = [], dir = []; let pos = 0;
+      for (const { nome, dados } of arqs) { const n = enc.encode(nome), c = crc(dados), h = new DataView(new ArrayBuffer(30));
+        [[0, 0x04034b50, 4], [4, 20, 2], [8, 0, 2], [14, c, 4], [18, dados.length, 4], [22, dados.length, 4], [26, n.length, 2]].forEach(([o, v, t]) => t === 4 ? h.setUint32(o, v, true) : h.setUint16(o, v, true));
+        partes.push(new Uint8Array(h.buffer), n, dados);
+        const d = new DataView(new ArrayBuffer(46)); [[0, 0x02014b50, 4], [4, 20, 2], [6, 20, 2], [16, c, 4], [20, dados.length, 4], [24, dados.length, 4], [28, n.length, 2], [42, pos, 4]].forEach(([o, v, t]) => t === 4 ? d.setUint32(o, v, true) : d.setUint16(o, v, true));
+        dir.push(new Uint8Array(d.buffer), n); pos += 30 + n.length + dados.length; }
+      const tam = dir.reduce((s, x) => s + x.length, 0), f = new DataView(new ArrayBuffer(22));
+      [[0, 0x06054b50, 4], [8, arqs.length, 2], [10, arqs.length, 2], [12, tam, 4], [16, pos, 4]].forEach(([o, v, t]) => t === 4 ? f.setUint32(o, v, true) : f.setUint16(o, v, true));
+      return new Blob([...partes, ...dir, new Uint8Array(f.buffer)], { type: 'application/zip' }); };
+  })();
+  const prontos = {};
+  async function baixaTudo(it, fs, b) {
+    const base = String(it.t || 'carrossel').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^A-Za-z0-9]+/g, '-').replace(/^-|-$/g, '').toLowerCase() || 'carrossel';
+    const celular = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent) && !!navigator.canShare;
+    if (celular && prontos[it.id]) { try { await navigator.share({ files: prontos[it.id], title: it.t || 'Carrossel' }); } catch (e) {} return; }
+    const txt = b.textContent; b.disabled = true; b.textContent = 'Preparando…';
+    try {
+      const blobs = await Promise.all(fs.map(u => fetch(u).then(r => { if (!r.ok) throw new Error(r.status); return r.blob(); })));
+      const files = blobs.map((x, k) => { const ext = (fs[k].split('?')[0].match(/\.([a-z0-9]+)$/i) || [, 'jpg'])[1]; return new File([x], `${base}-${String(k + 1).padStart(2, '0')}.${ext}`, { type: x.type || 'image/jpeg' }); });
+      if (celular && navigator.canShare({ files })) { prontos[it.id] = files; b.disabled = false; b.textContent = `Toque de novo para salvar as ${files.length}`; return; }
+      const z = zipTelas(await Promise.all(files.map(async f => ({ nome: f.name, dados: new Uint8Array(await f.arrayBuffer()) }))));
+      const a = document.createElement('a'); a.href = URL.createObjectURL(z); a.download = base + '.zip'; document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 4000);
+    } catch (e) { alert('Não consegui baixar agora. Tente de novo.'); }
+    b.disabled = false; b.textContent = txt;
+  }
   // visualizador (imagem, carrossel, vídeo); PDF, página e link abrem em outra aba
   let LB = null;
   function abre(id) {
@@ -138,13 +169,13 @@
     LB = document.createElement('div'); LB.className = 'bib-lb'; LB.setAttribute('role', 'dialog'); LB.setAttribute('aria-modal', 'true'); LB.setAttribute('aria-label', it.t);
     const midia = u => /\.(mp4|webm|mov)(\?|$)/i.test(u) ? `<video src="${esc(u)}" controls playsinline preload="metadata"></video>` : `<img src="${esc(u)}" alt="${esc(it.t)}">`;
     const pinta = () => {
-      LB.innerHTML = `<div class="cb"><b>${esc(it.t)}${fs.length > 1 ? ` · ${i + 1}/${fs.length}` : ''}</b><a class="btn am" href="${esc(fs[i])}" download>Baixar</a>${it.b && it.b !== fs[i] ? `<a class="btn lin" style="color:#fff" href="${esc(it.b)}" download>Baixar tudo</a>` : ''}<button type="button" class="btn lin" style="color:#fff" data-bib-fecha aria-label="Fechar">Fechar</button></div>
+      LB.innerHTML = `<div class="cb"><b>${esc(it.t)}${fs.length > 1 ? ` · ${i + 1}/${fs.length}` : ''}</b><a class="btn am" href="${esc(fs[i])}" download>Baixar</a>${it.b && it.b !== fs[i] ? `<a class="btn lin" style="color:#fff" href="${esc(it.b)}" download>Baixar tudo</a>` : fs.length > 1 ? `<button type="button" class="btn lin" style="color:#fff" data-bib-tudo>Baixar tudo (${fs.length})</button>` : ''}<button type="button" class="btn lin" style="color:#fff" data-bib-fecha aria-label="Fechar">Fechar</button></div>
 <div class="pal">${midia(fs[i])}</div>${fs.length > 1 ? `<div class="tr">${fs.map((u, k) => `<button type="button" data-bib-vai="${k}" aria-label="Tela ${k + 1}" aria-current="${k === i}">${/\.(mp4|webm|mov)/i.test(u) ? '<span style="color:#fff;font-size:11px">vídeo</span>' : `<img src="${esc(u)}" alt="" loading="lazy">`}</button>`).join('')}</div>` : '<div></div>'}`;
       const f = LB.querySelector('[data-bib-fecha]'); f && f.focus();
     };
     const fecha = () => { LB && LB.remove(); LB = null; document.removeEventListener('keydown', tecla); antes && antes.focus && antes.focus(); };
     const tecla = e => { if (e.key === 'Escape') fecha(); else if (e.key === 'ArrowRight' && i < fs.length - 1) { i++; pinta(); } else if (e.key === 'ArrowLeft' && i > 0) { i--; pinta(); } };
-    LB.addEventListener('click', e => { if (e.target === LB || e.target.closest('[data-bib-fecha]')) fecha(); const v = e.target.closest('[data-bib-vai]'); if (v) { i = +v.dataset.bibVai; pinta(); } });
+    LB.addEventListener('click', e => { if (e.target === LB || e.target.closest('[data-bib-fecha]')) fecha(); const v = e.target.closest('[data-bib-vai]'); if (v) { i = +v.dataset.bibVai; pinta(); } const t = e.target.closest('[data-bib-tudo]'); if (t) baixaTudo(it, fs, t); });
     document.addEventListener('keydown', tecla); document.body.appendChild(LB); pinta();
   }
 
