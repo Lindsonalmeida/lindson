@@ -95,3 +95,10 @@ Antes de toda entrega, cumprir `REGRAS-GERAIS.md`: nível premium (Al Kántara v
 - **Chaves e segredos:** nunca deixar o Lindson colar chave no chat. Se colar, avisar para trocar a chave. Cabeçalho que não é Bearer, ele mesmo cadastra em Network secrets.
 - **Sessões especialistas:** Barzakh, Raposa e Passaporte são de sessões próprias. Não duplicar.
 - **Disco da sessão cheio:** em 22/11 chegou a 0 bytes livres. Limpar caches (`~/.npm/_cacache`, /tmp) antes de tarefas longas.
+
+## 11. Aprendizados de 23/11/2026
+- **Leads do VIRTÙ:** meta de pelo menos 100 por dia (Lindson, 23/11). Uma tarefa agendada às 6:23 de São Luís repõe a lista. Os leads vão em `functions/_sdr.js` (Central), a região sai pelo DDD (98/99 = MA, o resto = BR) e o robô 2 atende o BR. Subir em lotes, porque o deploy demora uns minutos. O que mais rendeu foi o caminho TeleListas → site do negócio.
+- **Robôs enviam todo dia**, inclusive sábado e domingo (`fim_de_semana: true`). Se começarem tarde, é porque o PC foi ligado tarde.
+- **E-mails da Mova Street:** o modelo é o e-mail da Uninassau (anexo, 2 frentes TV Cars + Mova Street, QR Code, "a partir de", conversa rápida, assinatura do Paulo + gestor Lindson e o slogan "Sua marca em movimento. Sua publicidade em evidência"). Salvar em `dados/clientes-arquivos/mova-street/emails/`.
+- **Dossiê Laci Júnior:** v2 entregue (datas de 2028 pela lei; votos do Gleydson em Raposa não achados em fonte pública). Aguardando aprovação.
+- **PDF para o Lindson:** mandar com SendUserFile (render), não só o caminho.
