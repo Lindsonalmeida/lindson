@@ -1,4 +1,15 @@
 # Captação de vereadores · indicação do Thiago Azevedo (Tribuna 98) · conta Pedro, 16/11/2026
+
+## ATUAL · SDR v4 "estrategista" (Lindson, 24/11/2026 · conta Leandro) · no robô SDR (`functions/_sdr_fluxo.js` e `functions/api/sdr.js`, privado)
+> **REPROVADO · SDR v3 "parece social media"** (24/11/2026): "ficaram muito supérfluas, fico parecendo um simples social media; quero vender comunicação e estratégia; eles precisam entender que precisam de mim". A v3 do robô ("Faço o Instagram do seu mandato: posts, vídeos e stories…" / "Cuido das redes de mandatos…") nunca mais. Nada de posts, stories ou Instagram como oferta principal.
+
+**1ª mensagem A:** Vereador [Nome], sou o Lindson, estrategista de comunicação política. [Indicação, se houver.] / Fiz um diagnóstico de como o seu mandato chega hoje ao eleitor e do que falta para 2028. / Posso te enviar?
+**1ª mensagem B:** Vereador [Nome], Lindson aqui. [Indicação.] Trabalho com estratégia de comunicação para mandatos. / Montei um diagnóstico do seu: o que o eleitor enxerga hoje e o que pesa em 2028. / Quer que eu te mande?
+**2ª mensagem:** Meu trabalho é a estratégia por trás do mandato: diagnóstico, posicionamento, narrativa e um plano até 2028, executado nas redes, na imprensa e na base. Quem chega forte em 2028 é quem começa a construir agora. Te apresento em 10 minutos, por ligação ou aqui?
+**Objeções:** já tenho assessor/social media → "Ótimo, quem posta é importante. Eu cuido da estratégia: posicionamento e plano até 2028. Posso te mostrar a diferença em 10 minutos?" · quanto custa → "Depende do plano do mandato. Te mostro o diagnóstico primeiro e o valor vai junto. Ligação ou aqui?" · sem interesse → "Entendido, Vereador. Se 2028 entrar no radar, o diagnóstico fica à disposição." · quem é você → "Lindson Almeida, estrategista de comunicação política, de São Luís. Trabalho com mandatos de vereador. Te mostro o diagnóstico?"
+**Follow-ups:** D3 "Vereador, o diagnóstico do seu mandato está pronto aqui. Te mando?" · D6 "2028 se decide no que o eleitor vê até lá. Quer ver onde o seu mandato está hoje?" · D9 "última mensagem por aqui. O diagnóstico do seu mandato fica à disposição: posicionamento, narrativa e o que pesa em 2028. Te mando?" · reativação "voltando como combinamos. O diagnóstico do seu mandato e o plano até 2028 seguem aqui. Te apresento em 10 minutos?"
+Regras: sem preço, sem promessa de voto ou resultado, sem partido, sem "vi que"/"parece que". Tratamento Vereador/Vereadora.
+
 v2 (Lindson: "direto, eles não gostam de perder tempo, e que entendam que são eles que precisam de mim"). Sem preço, sem link, sem promessa de voto, sem partido nem crítica a gestão.
 
 **V1**
