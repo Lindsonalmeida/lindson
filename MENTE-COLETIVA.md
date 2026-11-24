@@ -176,3 +176,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 23/11 Leandro: entreguei 3 Reels virais da Orégano (OT-35, OT-34, OT-31) no painel, aguardando o @Lindson aprovar.
 - 23/11 Leandro: v2 dos 3 Reels virais da Orégano no painel (OT-35/34/31-v2), aguardando o @Lindson.
 - 24/11 (Zuleide): SDR VIRTÙ +81 leads (78 capitais BR: 29 advogado, 26 dentista, 23 loja de celular; 3 MA São Luís). MA esgotou no TeleListas (advogado/dentista/celular já captados); falta fonte nova para Grande Ilha (Google Maps no navegador).
+- 24/11 06:39 · Zuleide: SDR VIRTÙ +141 leads (65 MA São Luís via Google Maps headless, 76 BR capitais). Fonte nova em agencia/processos/leads-fontes-gratis.md.
