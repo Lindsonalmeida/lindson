@@ -179,3 +179,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 24/11 06:39 · Zuleide: SDR VIRTÙ +141 leads (65 MA São Luís via Google Maps headless, 76 BR capitais). Fonte nova em agencia/processos/leads-fontes-gratis.md.
 - 24/11 07:50 · Zuleide: SDR Orégano +33 pizzarias novas (Google Maps SLZ/MA/NE), 388 descartadas; seguidores a conferir. Arquivo agencia/operacao-propria/sdr/leads-2026-11-24.csv
 - 24/11/2026 (Zuleide): curso legislativo, 3 criativos + story do livro Decreto-Lei 201/67 em CentralLindsonALmeida/painel/curso/livro-201/criativos-v1/ (aguardando aprovação).
+- 24/11/2026 (Zuleide, social-media): roteiros de 3 carrosséis virais Orégano (CV-01 app/zap, CV-02 7 erros, CV-03 cheia×vazia) em agencia/operacao-propria/social/carrosseis-virais-v1/ROTEIROS.md; aguardando aprovação do Lindson.
