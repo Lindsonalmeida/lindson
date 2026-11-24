@@ -18,7 +18,7 @@ if ($zip) {
 } else { Write-Host 'Sem robo-sdr.zip em Downloads: so corrijo o config e religo.' -ForegroundColor Yellow }
 $cfgPath = Join-Path $pasta 'config.json'; $cfg = Get-Content $cfgPath -Raw | ConvertFrom-Json
 foreach ($n in 'sdr1','sdr2','sdr3') { if ($cfg.$n) { $cfg.$n.teto = 30; $cfg.$n.inicial = 30; $cfg.$n.aumento = 0; $cfg.$n.fim_de_semana = $true } }
-$cfg | ConvertTo-Json -Depth 10 | Set-Content $cfgPath -Encoding UTF8
+[IO.File]::WriteAllText($cfgPath, ($cfg | ConvertTo-Json -Depth 10), (New-Object Text.UTF8Encoding $false))  # sem BOM: com BOM o robô ignorava o config
 Set-Location $pasta
 if (-not (Test-Path 'node_modules')) { npm install }
 foreach ($n in 'sdr1','sdr2','sdr3') {
