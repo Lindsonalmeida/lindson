@@ -151,6 +151,7 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 - **Sempre que voltar, verificar se o trabalho continuou com outras equipes** (03/11 · Pedro, para todas as contas): pull, log de todos os branches, quadro, registro e privado; nunca refazer o que outra conta já fez. Recados para as contas ficam no topo do `QUADRO-DA-EQUIPE.md`, e cada conta confirma ao Lindson "Entendi o recado".
 
 ## 3. APROVADO: guardar e melhorar
+- **24/11/2026 (conta Lindson, registrado pela Zuleide) · FOCO DOS LEADS DO SDR VIRTÙ:** só 3 nichos: **lojas de celular, advogados e dentistas**. Número 098 = São Luís; número 011 = outras capitais do Brasil.
 - **22/11/2026 (conta Lindson, registrado pela Zuleide) · APROVADO:** nome **VIRTÙ** para o time de robôs SDR (preto, champanhe e platina) e o **vídeo 04 estilo cinema** (4 cenas do Google Flow). Chave AUTOMACAO_TOKEN da Real Time: "deixa pra depois".
 
 **Leo Pinto**
