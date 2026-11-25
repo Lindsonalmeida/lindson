@@ -19,4 +19,18 @@ Entregue em Markdown, nesta ordem:
 11) CONCORRÊNCIA: nomes de Imperatriz com perfil parecido (segurança, PSD) e possíveis rivais em 2028, com presença digital.
 12) FOTO: 1 foto oficial em alta (site da Câmara, da Prefeitura ou TSE), com link. Salve o arquivo.
 Ao final: LACUNAS e FONTES (link + data). Salve o documento e o zip com o nome "Dossiê - Ricardo Seidel". Salve prints em /prints: perfil do Instagram, os 3 melhores posts, página oficial da Câmara, foto oficial e 2 matérias principais.
+PESQUISA COMPLETA É OBRIGATÓRIA (não entregue versão parcial):
+- Trabalhe sozinho até o fim; não pare para perguntar. Só pare se pedirem senha, código ou pagamento.
+- Use o navegador logado: abra o Instagram e o Facebook de verdade (não só a busca do Google) e role o perfil até ter os 12 posts.
+- Se um site não abrir, tente de novo e use alternativas antes de desistir: outra URL do mesmo órgão, cache do Google, web.archive.org, Diário Oficial do município, portal da transparência, SAPL da Câmara, notícias da Câmara. TSE: use resultados.tse.jus.br (votos) e divulgacandcontas.tse.jus.br aberto no navegador (bens, contas, foto). Só escreva "não encontrado" depois de tentar 3 caminhos, e diga quais tentou.
+- Cada número precisa de link + data. Calcule e mostre as contas (% dos válidos, engajamento).
+
+ARQUIVOS OBRIGATÓRIOS NO ZIP "Dossiê - Ricardo Seidel" (são usados nas 26 páginas do PDF):
+1. Dossiê - Ricardo Seidel.md (a pesquisa, nesta ordem 0–12 + LACUNAS + FONTES)
+2. /fotos/foto-oficial (a maior resolução disponível, mínimo 1000 px de altura; anote a fonte)
+3. /fotos/ 3 a 5 fotos públicas dele em ação (plenário, sessão, bairro, evento), com fonte de cada uma
+4. /prints/ perfil do Instagram (tela inteira), os 3 melhores posts, a página oficial na Câmara, a ficha do TSE/DivulgaCand, 2 a 4 matérias principais (com título e data visíveis)
+5. instagram-12-posts.csv (data, formato, tema, curtidas, comentários, link)
+6. CHECKLIST no fim do .md: tabela com cada bloco 0–12 e cada arquivo acima marcado ✅ feito ou ❌ faltou + motivo e os caminhos tentados
 ```
+
