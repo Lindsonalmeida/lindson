@@ -38,5 +38,18 @@
     "intervalo_max": 11,
     "digitando": true,
     "fim_de_semana": true
+  },
+  "sdr4": {
+    "nome": "SDR 4",
+    "inicio": "",
+    "teto": 30,
+    "inicial": 30,
+    "aumento": 0,
+    "hora_ini": "10:00",
+    "hora_fim": "18:00",
+    "intervalo_min": 5,
+    "intervalo_max": 11,
+    "digitando": true,
+    "fim_de_semana": true
   }
 }

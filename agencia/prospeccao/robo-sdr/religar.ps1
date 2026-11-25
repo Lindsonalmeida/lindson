@@ -17,12 +17,12 @@ if ($zip) {
   Write-Host "Atualizado com $($zip.Name)"
 } else { Write-Host 'Sem robo-sdr.zip em Downloads: so corrijo o config e religo.' -ForegroundColor Yellow }
 $cfgPath = Join-Path $pasta 'config.json'; $cfg = Get-Content $cfgPath -Raw | ConvertFrom-Json
-foreach ($n in 'sdr1','sdr2','sdr3') { if ($cfg.$n) { $cfg.$n.teto = 30; $cfg.$n.inicial = 30; $cfg.$n.aumento = 0; $cfg.$n.fim_de_semana = $true } }
+foreach ($n in 'sdr1','sdr2','sdr3','sdr4') { if ($cfg.$n) { $cfg.$n.teto = 30; $cfg.$n.inicial = 30; $cfg.$n.aumento = 0; $cfg.$n.fim_de_semana = $true } }
 [IO.File]::WriteAllText($cfgPath, ($cfg | ConvertTo-Json -Depth 10), (New-Object Text.UTF8Encoding $false))  # sem BOM: com BOM o robô ignorava o config
 Set-Location $pasta
 if (-not (Test-Path 'node_modules')) { npm install }
-foreach ($n in 'sdr1','sdr2','sdr3') {
+foreach ($n in 'sdr1','sdr2','sdr3','sdr4') {
   Start-Process cmd -ArgumentList "/k title Robo $n && cd /d `"$pasta`" && node robo.js --numero $n"
-  Write-Host "Abri $n"; if ($n -ne 'sdr3') { Start-Sleep 40 }
+  Write-Host "Abri $n"; if ($n -ne 'sdr4') { Start-Sleep 40 }
 }
 Write-Host 'Pronto. Se alguma janela pedir QR, escaneie com o chip daquele numero.' -ForegroundColor Green
