@@ -75,7 +75,7 @@ async function umEnvio() {
   semWa = 0;
   if (CFG.digitando) { try { const chat = await wa.getChatById(id._serialized); await chat.sendStateTyping(); } catch (e) {} }
   await espera(Math.min(c.msg.length * 60, 12000) + Math.random() * 3000);
-  etapa = 'enviar mensagem'; meus.add(c.msg.trim()); await wa.sendMessage(id._serialized, c.msg); ultimoEnvio[id._serialized] = Date.now(); somaConta();
+  etapa = 'enviar mensagem'; meus.add(c.msg.trim()); { const partes = c.msg.split(/\n\s*\n/).map(x => x.trim()).filter(Boolean); for (let i = 0; i < partes.length; i++) { if (i) await espera(5000 + Math.random() * 5000); await wa.sendMessage(id._serialized, partes[i]); } } ultimoEnvio[id._serialized] = Date.now(); somaConta();
   etapa = 'avisar a Central'; await api('', { id: c.id, acao: 'enviado', canal: 'whatsapp' });
   diz(`${c.nome}: enviado ✓ (${lerConta()}/${limiteDoDia(CFG)} hoje)`);
   return 'ok';
