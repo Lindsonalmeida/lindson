@@ -243,3 +243,5 @@ Antes de toda entrega, cumprir `REGRAS-GERAIS.md`: nível premium (Al Kántara v
 - **24/11/2026 · Dossiê político:** todo dossiê segue o padrão do Francisco Messias (Lindson: "sempre vamos fazer todos no mesmo estilo"). Modelo em `agencia/processos/dossie-politico/README.md` (fonte: MEMORIA-DO-LINDSON.md, conta Leandro). Nunca criar estilo novo de dossiê.
 
 - 25/11/2026 (conta Pedro, agencia/processos/dossie-politico.md): dossiê político oficial = 26 p. 16:9, cor de destaque do partido sobre grafite, títulos em 2 linhas (2ª na cor do partido), cabeçalho com número + seção em mono, rodapé com fontes e fórmula de cada conta, números gigantes, prints reais como prova. Seguir esse processo em todo dossiê.
+
+- 25/11/2026: exigências e padrão de qualidade de dossiê em agencia/processos/dossie-politico/QUALIDADE.md. Ler antes de todo dossiê.

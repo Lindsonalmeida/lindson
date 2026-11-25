@@ -1,5 +1,7 @@
 # Dossiê de inteligência política e comunicação · o NOSSO estilo (conta Pedro, 25/11/2026)
 
+> **Exigências e padrão de qualidade: `agencia/processos/dossie-politico/QUALIDADE.md`.**
+
 Pedido do Lindson: "aprenda nosso estilo de dossiê político". Modelos oficiais (24/11/2026): Alcemir Costa (Imperatriz/MA), Rafael Campaner e Fabiano Fubá (Fazenda Rio Grande/PR). PDFs no privado `CentralLindsonALmeida/dados/agencia/referencias/dossie-politico/exemplos/`. Há também um modelo de **dossiê de negócio** (Dra. Giseli, dentista, Teresina/PI) na mesma pasta, em Markdown, com a mesma lógica de fontes e lacunas.
 
 ## Para que serve

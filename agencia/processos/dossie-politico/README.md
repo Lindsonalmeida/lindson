@@ -1,4 +1,6 @@
 # Dossiê político (padrão Francisco Messias) · conta Leandro, 24/11/2026
+
+> **Exigências e padrão de qualidade completos: `agencia/processos/dossie-politico/QUALIDADE.md` (ler antes de todo dossiê).**
 Lindson, 24/11/2026: "Sempre vamos fazer todos no mesmo estilo." Todo dossiê de vereador/político segue o do Francisco Messias:
 PDF 26 p. 16:9 (1600×900), grafite + 1 acento (cor do partido), Anton + Archivo + IBM Plex Mono, grid, números enormes, mapa esquemático, rede de alianças, gráficos de barra com rótulo direto.
 
