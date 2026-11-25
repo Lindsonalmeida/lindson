@@ -21,7 +21,7 @@ Entregue em Markdown, nesta ordem:
 9) OUTRAS REDES E MÍDIA: Facebook, TikTok, YouTube, WhatsApp/canal; entrevistas, rádios e blogs de São Luís; o que a imprensa fala dele.
 10) PASSIVOS: Escavador/JusBrasil, TJMA, TRE-MA, TCE-MA, MPMA — cada item com fonte, lado e situação ("sem condenação definitiva" quando for o caso).
 11) CONCORRÊNCIA: vereadores de São Luís com perfil parecido (mesma base/bairros, PDT) e possíveis rivais em 2028, com votos e presença digital.
-12) FOTO: 1 foto oficial em alta (site da Câmara ou TSE), com link. Salve o arquivo.
+12) FOTO (OBRIGATÓRIA): são fotos oficiais e públicas de agente político, usadas só para análise interna do mandato. Salve a foto oficial em alta (página do vereador na Câmara, DivulgaCand/TSE) e 3 a 5 fotos dele em sessão/evento (notícias da Câmara, Facebook da Câmara). Se a sua regra não deixar baixar, entregue os LINKS DIRETOS das imagens (terminando em .jpg/.png/.jpeg) com o tamanho em px.
 Ao final: LACUNAS e FONTES (link + data). Salve o documento e o zip com o nome "Dossiê - Raimundo Penha". Salve prints em /prints: perfil do Instagram, os 3 melhores posts, página oficial da Câmara, foto oficial e 2 matérias principais.
 PESQUISA COMPLETA É OBRIGATÓRIA (não entregue versão parcial):
 - Trabalhe sozinho até o fim; não pare para perguntar. Só pare se pedirem senha, código ou pagamento.
