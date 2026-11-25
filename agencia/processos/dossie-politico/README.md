@@ -67,4 +67,4 @@ Modelos em `dados/agencia/referencias/dossie-politico-modelos/` (privado). Os tr
 Todo documento do dossiê (PDF final, Markdown da pesquisa, zip) é salvo como **"Dossiê - Nome do vereador"** (ex.: `Dossiê - Ricardo Seidel.pdf`). Versão nova: `Dossiê - Nome v2.pdf`.
 
 ## Enviados aos políticos (Lindson, 25/11/2026)
-Já enviados: Francisco Messias, Fabiano Fubá, Rafael Campaner, Alcemir Costa, Laci Júnior, Amanda Pires, Ozima Cury Rad, Ricardo Seidel, Edidacio Lopes, Marcos Moura (25/11) e Dra. Giseli Araújo (negócio). Não refazer nem reenviar. Em produção: Raimundo Penha, Berson do Posto.
+Já enviados: Francisco Messias, Fabiano Fubá, Rafael Campaner, Alcemir Costa, Laci Júnior, Amanda Pires, Ozima Cury Rad, Ricardo Seidel, Edidacio Lopes, Marcos Moura, Berson do Posto, Raimundo Penha (25/11) e Dra. Giseli Araújo (negócio). Não refazer nem reenviar. Aguardando pesquisa: Francisco do Robertão.
