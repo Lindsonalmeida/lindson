@@ -747,3 +747,4 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 
 - **24/11/2026 (conta Leandro):** todo dossiê político segue o padrão do Francisco Messias (Lindson: "sempre vamos fazer todos no mesmo estilo"). Modelo: `agencia/processos/dossie-politico/README.md`; Fabiano Fubá v1 feito assim (aguardando aprovação).
 - **25/11/2026 (conta Pedro) · Dossiê político: estilo oficial aprendido** ("aprenda nosso estilo de dossiê político"). Modelos Alcemir Costa, Rafael Campaner e Fabiano Fubá: 26 páginas 16:9, cor do partido, ordem fixa e regras em `agencia/processos/dossie-politico.md`; PDFs no privado `dados/agencia/referencias/dossie-politico/`.
+- 25/11/2026 (conta Pedro) · Jaci, Grupo VIP Black Friday v1 REPROVADO ("esse ficou muito poluído"): ramos, brilhos, lista em caixa e muito texto. Vale o padrão dos stories BF de 10/11 (foto + Black Friday serifada dourada + tag vinho + 1 frase itálica + CTA em contorno). v2 aguardando.
