@@ -4,9 +4,9 @@
 REGRA Nº 1 · ESTA PESQUISA SÓ ACABA QUANDO ESTIVER COMPLETA. É PROIBIDO ENTREGAR VERSÃO PARCIAL.
 Antes de me responder, confira o CHECKLIST do fim. Se qualquer item estiver ❌ e você ainda não tentou 3 caminhos diferentes para ele, NÃO entregue: volte e continue pesquisando. Só entregue quando todos os itens estiverem ✅ ou ❌ com os 3 caminhos tentados escritos. Não resuma, não pule bloco, não troque dado por "a verificar".
 
-JÁ TEMOS (base do SDR, confirme no TSE e na Câmara): lead "Vereador Lazaro Martins"; provável nome completo Lázaro Martins Araújo, a confirmar; id/Instagram lazaromartinstimon; WhatsApp 5586988820252; cidade Timon/MA; partido informado pelo SDR: UNIÃO; situação informada: eleito em 2024; fonte https://timon.ma.leg.br/vereador/lazaro-martins-araujo; motivo do cadastro: eleito 2024 (UNIÃO), TSE; celular no site oficial da Câmara; Instagram declarado no registro de candidatura (TSE); nota SDR 100; tag mandato; etapa Proposta; SDR responsável SDR 3; data do lead 25/11/2026.
+JÁ TEMOS (base do SDR, confirme no TSE e na Câmara): lead "Vereador Lazaro Martins"; nome completo confirmado pela Câmara/TSE: Lázaro Martins Araujo; urna "Lazaro Martins"; nº 44212; Instagram informado pelo SDR: @lazaromartinstimon (NÃO está disponível no Chrome); Instagram público localizado e confirmado: @vereadorlazaromartins; WhatsApp 5586988820252; cidade Timon/MA; partido UNIÃO; eleito em 2024 com 1.578 votos; fonte oficial https://timon.ma.leg.br/vereador/lazaro-martins-araujo; motivo do cadastro: eleito 2024 (UNIÃO), TSE; nota SDR 100; tag mandato; etapa Proposta; SDR responsável SDR 3; data do lead 25/11/2026. Não enviar o handle antigo sem corrigir para o perfil oficial localizado.
 
-Faça um DOSSIÊ POLÍTICO completo do(a) [NOME COMPLETO A CONFIRMAR NO TSE/SAPL] (urna provável "Lazaro Martins", nº [confirmar]), UNIÃO, Câmara Municipal de Timon/MA, mandato 2025–2028. Instagram: @lazaromartinstimon. Perfil oficial: https://timon.ma.leg.br/vereador/lazaro-martins-araujo.
+Faça um DOSSIÊ POLÍTICO completo do VEREADOR LÁZARO MARTINS ARAUJO (urna "Lazaro Martins", nº 44212), UNIÃO, Câmara Municipal de Timon/MA, mandato 2025–2028. Instagram: @vereadorlazaromartins. Perfil oficial: https://timon.ma.leg.br/vereador/lazaro-martins-araujo.
 Use só fontes públicas, com link e data em cada informação. Não invente número. O que não achar vai em LACUNAS. Ao falar da imprensa, diga o lado de cada veículo (favorável, crítico, neutro).
 
 Entregue em Markdown, nesta ordem:
@@ -18,7 +18,7 @@ Entregue em Markdown, nesta ordem:
 5) MANDATO NA CÂMARA: projetos, indicações, requerimentos (número, tema, situação), comissões e presença.
 6) ALIANÇAS E POLÍTICA: relação com o prefeito de Timon e o grupo local; UNIÃO estadual, deputados que apoia; relação com o governador eleito Eduardo Braide (PSD) e com o ex-governador Carlos Brandão; nomes para prefeito em 2028; temas que desgastam a gestão.
 7) CONTEXTO DE TIMON: população e eleitorado, prefeito e vice, resultado de 2024, número de vereadores e bancadas, Mesa Diretora e cidades vizinhas de influência.
-8) INSTAGRAM @lazaromartinstimon: seguidores, seguindo, posts, bio, link da bio, destaques; posts nos últimos 30 dias; últimos 12 posts (data, formato, tema, curtidas, comentários); engajamento médio (interações ÷ seguidores, com a conta); 3 que mais e 3 que menos funcionaram; leitura do que funciona.
+8) INSTAGRAM @vereadorlazaromartins: seguidores, seguindo, posts, bio, link da bio, destaques; posts nos últimos 30 dias; últimos 12 posts (data, formato, tema, curtidas, comentários); engajamento médio (interações ÷ seguidores, com a conta); 3 que mais e 3 que menos funcionaram; leitura do que funciona. Registre que @lazaromartinstimon, informado no lead, estava indisponível no Chrome.
 9) OUTRAS REDES E MÍDIA: Facebook, TikTok, YouTube, WhatsApp/canal; entrevistas, rádios, blogs da região; o que a imprensa fala.
 10) PASSIVOS: Escavador/JusBrasil, TJ, TRE, TCE e MP — cada item com fonte, lado e situação ("sem condenação definitiva" quando for o caso).
 11) CONCORRÊNCIA: vereadores com perfil parecido e possíveis rivais em 2028, com votos e presença digital.
