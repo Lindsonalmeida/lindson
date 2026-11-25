@@ -65,3 +65,6 @@ Modelos em `dados/agencia/referencias/dossie-politico-modelos/` (privado). Os tr
 **Foto é obrigatória (Lindson, 25/11/2026: "sempre precisa ter fotos deles, como os modelos que foram feitos primeiro").** A equipe busca sozinha antes de montar: página do vereador na Câmara (`/upload/vereadores/`), notícias da Câmara (aniversário, sessões: `/upload/noticias/`), TSE (`resultados.tse.jus.br/oficial/<ciclo>/<eleição>/fotos/<uf>/<sqcand>.jpeg`). Capa sem foto só se não existir nenhuma foto pública; se a melhor for pequena, usar em moldura no tamanho real (≤1,5×), nunca esticar.
 
 Todo documento do dossiê (PDF final, Markdown da pesquisa, zip) é salvo como **"Dossiê - Nome do vereador"** (ex.: `Dossiê - Ricardo Seidel.pdf`). Versão nova: `Dossiê - Nome v2.pdf`.
+
+## Enviados aos políticos (Lindson, 25/11/2026)
+Já enviados: Francisco Messias, Fabiano Fubá, Rafael Campaner, Alcemir Costa, Laci Júnior, Amanda Pires, Ozima Cury Rad, Ricardo Seidel, Edidacio Lopes e Dra. Giseli Araújo (negócio). Não refazer nem reenviar. Em produção: Marcos Moura, Raimundo Penha.
