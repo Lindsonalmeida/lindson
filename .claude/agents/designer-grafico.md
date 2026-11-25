@@ -245,3 +245,5 @@ Antes de toda entrega, cumprir `REGRAS-GERAIS.md`: nível premium (Al Kántara v
 - 25/11/2026 (conta Pedro, agencia/processos/dossie-politico.md): dossiê político oficial = 26 p. 16:9, cor de destaque do partido sobre grafite, títulos em 2 linhas (2ª na cor do partido), cabeçalho com número + seção em mono, rodapé com fontes e fórmula de cada conta, números gigantes, prints reais como prova. Seguir esse processo em todo dossiê.
 
 - 25/11/2026: exigências e padrão de qualidade de dossiê em agencia/processos/dossie-politico/QUALIDADE.md. Ler antes de todo dossiê.
+
+- 25/11/2026 (MEMORIA, conta Pedro): Jaci Grupo VIP BF v1 REPROVADO, "muito poluído" (ramos, brilhos, lista em caixa, muito texto). Arte de campanha segue o padrão já aprovado da própria campanha (stories BF 10/11: foto + título serifado + tag + 1 frase).
