@@ -34,3 +34,4 @@ Variações (05/11, conta Pedro): o Lindson liberou "pode criar variações com 
 | gemini-16-11/33 (cavalos de xadrez, fumaça) | Tráfego SLZ v3 · ADV-4 "Seu marketing joga xadrez ou damas?" | 21/11/2026 | Leandro |
 | gemini-16-11/34 (biblioteca clássica, bustos) | Tráfego SLZ v3 · ADV-3 editorial "O cliente pesquisa antes" | 21/11/2026 | Leandro |
 | gemini-16-11/35 (cortina de veludo vermelho, refletor) | Tráfego SLZ v3 · capa do Reel ADV | 21/11/2026 | Leandro |
+| lindson-03 (recorte vertical, sem a marca ✦) | Capa do PDF interno "Plano de Autoridade CEO v1" (documento para o Lindson, não publicado), `autoridade-ceo-v1/` | 25/11/2026 | Leandro |
