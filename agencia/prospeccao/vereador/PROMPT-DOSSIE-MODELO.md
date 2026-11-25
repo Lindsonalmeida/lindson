@@ -1,5 +1,5 @@
 # Prompt OFICIAL da extensão para dossiê político (Lindson, 25/11/2026: "esse é o tipo de prompt")
-Use SEMPRE este formato (13 blocos numerados 0–12 + LACUNAS + FONTES + /prints). Ele alimenta as 26 páginas do padrão oficial (`agencia/processos/dossie-politico/README.md`). Troque só os dados entre [colchetes] e adapte os blocos 1, 2, 6 e 7 à pessoa e à cidade.
+Use SEMPRE este formato (13 blocos numerados 0–12 + LACUNAS + FONTES + /prints). Ele alimenta as 26 páginas do padrão oficial (`agencia/processos/dossie-politico/README.md`). ANTES de escrever: pesquise quem é o político na base de leads do SDR (`CentralLindsonALmeida/functions/_sdr.js`: cidade, @, WhatsApp, fonte) e no TSE (resultados.tse.jus.br: partido, nº, votos 2024 e 2026) e ponha um bloco "JÁ TEMOS" no prompt (regra do Lindson, 25/11: "sempre pesquise quem eles são, da base de leads do SDR"). Troque só os dados entre [colchetes] e adapte os blocos 1, 2, 6 e 7 à pessoa e à cidade.
 
 ```
 Faça um DOSSIÊ POLÍTICO completo do(a) [VEREADOR(A) NOME COMPLETO] (urna provável "[URNA]"), [PARTIDO], Câmara Municipal de [CIDADE/UF], mandato [2025–2028] ([mandatos anteriores]). Instagram: @[insta]. Perfil oficial: [link da Câmara]
