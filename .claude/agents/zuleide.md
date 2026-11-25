@@ -102,3 +102,10 @@ Antes de toda entrega, cumprir `REGRAS-GERAIS.md`: nível premium (Al Kántara v
 - **E-mails da Mova Street:** o e-mail da Uninassau que o Lindson colou em 23/11 é o modelo ANTIGO (ele disse "esse era o antigo"). Antes de usar esse modelo de novo, confirmar com ele qual vale. Salvar os e-mails em `dados/clientes-arquivos/mova-street/emails/`.
 - **Dossiê Laci Júnior:** v2 entregue (datas de 2028 pela lei; votos do Gleydson em Raposa não achados em fonte pública). Aguardando aprovação.
 - **PDF para o Lindson:** mandar com SendUserFile (render), não só o caminho.
+
+## 12. Aprendizados de 24/11/2026
+- Robôs SDR (PC do Lindson): PowerShell 5 `Set-Content -Encoding UTF8` grava BOM e o robô ignora o config.json (volta ao padrão 09–18h, 20/dia). Gravar sempre com `[IO.File]::WriteAllText(..., New-Object Text.UTF8Encoding $false)` (já corrigido no religar.ps1).
+- Robôs sem sinal na Central com "Unexpected token '<'": a Central bateu o limite diário de gravações do KV (1.000 puts/dia, zera 00:00 UTC = 21h São Luís). O POST /api/sdr agora devolve o motivo em vez de erro 1101. Pendente: reduzir gravações.
+- SDR só de vereadores desde 24/11 (vereadores com nota 100 na frente da fila). 4º número (sdr4) criado na Central, no admin e no config (10h–18h, 30/dia); falta o Lindson escanear o QR.
+- Dossiê de dentista (lead): mesmo gerador do dossiê político (fabiano-fuba), adaptado em 18 páginas de clínica, acento teal #0E8C8C. Pesquisa vem da extensão com o comando de "dossiê de negócio e marketing". Feito: Dra. Giseli Araújo (Teresina), privado dados/clientes-arquivos/dra-giseli-araujo/.
+- Subagentes às vezes dizem que usaram agentes/skills que não usaram: conferir e corrigir o README antes de entregar.
