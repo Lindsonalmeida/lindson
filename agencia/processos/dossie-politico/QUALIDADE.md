@@ -60,7 +60,7 @@ Pedido do Lindson (25/11/2026): "salve no repositório todas as exigências e pa
    - só de fonte pública oficial, com crédito;
    - ampliação no máximo 1,5× (a do TSE, 161×225, não serve para a capa);
    - recorte com rembg, e a borda da foto nunca aparece;
-   - sem foto pública: capa com números do grupo, nunca uma foto inventada.
+   - **FOTO NA CAPA É OBRIGATÓRIA (Lindson, 25/11/2026: "todos precisam vir com a foto na capa").** Sem foto em alta, o dossiê NÃO é entregue: pedir à extensão a foto (perfil/posts do Instagram e Facebook, site da Câmara, TSE, matérias) com no mínimo 1000 px de altura antes de gerar o PDF. Nunca capa só com números e nunca foto inventada.
 10. **CTA final** com WhatsApp (98) 98562-1808 (wa.me com mensagem pronta) e a assinatura "LINDSON ALMEIDA · ESTRATEGISTA DE COMUNICAÇÃO POLÍTICA · @LINDSONALMEIDA_".
 11. **Tom:** diagnóstico respeitoso que abre conversa, nunca um ataque ao político.
 

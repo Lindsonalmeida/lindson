@@ -230,6 +230,8 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 
 - **SDR vereador v5 APROVADA (25/11, conta Zuleide):** 1ª abordagem em 2 balões: apresentação com autoridade + dossiê completo (restante do mandato e aquecimento 2028). Ver agencia/prospeccao/vereadores/MENSAGENS.md.
 
+- **25/11 (conta Zuleide) · Dossiê sem foto na capa REPROVADO:** "todos precisam vir com a foto na capa". Capa só com números não vale; foto em alta (≥1000 px) é obrigatória antes do PDF.
+
 ## 4. REPROVADO: nunca repetir
 - **SF vídeos v1 (25/11, conta Zuleide) REPROVADOS:** "sem coerência e com os mesmos efeitos, não dá pra entender nada; tem horas que a voz de quem tá gravando sai". Regra: vídeo de serviço conta a história NA ORDEM em que aconteceu (começo, meio, fim), cada vídeo com edição própria, e só a voz de quem faz o trabalho (cortar/mutar a voz de quem filma).
 
