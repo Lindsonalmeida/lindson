@@ -82,7 +82,7 @@
 ## 4. O novo perfil
 
 ### Instagram @lindsonalmeida_
-- **Bio A · recomendada** (nome: Lindson Almeida | CEO e Estrategista):
+- **Bio A · recomendada** (nome: Lindson Almeida | CEO):
 
 ```
 Fundador e CEO do Al Kántara Group
@@ -90,7 +90,7 @@ Estrategista de comunicação há 14 anos
 Empresas, marcas e mandatos · São Luís-MA
 ↓ Agende uma conversa
 ```
-- **Bio B** (nome: Lindson Almeida | CEO e Estrategista):
+- **Bio B** (nome: Lindson Almeida | CEO):
 
 ```
 CEO do Al Kántara Group

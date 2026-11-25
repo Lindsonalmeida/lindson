@@ -68,8 +68,8 @@ AUDITORIA = [
 ]
 
 BIO_IG = [
-    ('A · recomendada', 'Lindson Almeida | CEO e Estrategista', 'Fundador e CEO do Al Kántara Group\nEstrategista de comunicação há 14 anos\nEmpresas, marcas e mandatos · São Luís-MA\n↓ Agende uma conversa'),
-    ('B', 'Lindson Almeida | CEO e Estrategista', 'CEO do Al Kántara Group\nComunicação e estratégia para quem lidera:\nnegócios, marcas e mandatos · São Luís\n↓ Fale comigo'),
+    ('A · recomendada', 'Lindson Almeida | CEO', 'Fundador e CEO do Al Kántara Group\nEstrategista de comunicação há 14 anos\nEmpresas, marcas e mandatos · São Luís-MA\n↓ Agende uma conversa'),
+    ('B', 'Lindson Almeida | CEO', 'CEO do Al Kántara Group\nComunicação e estratégia para quem lidera:\nnegócios, marcas e mandatos · São Luís\n↓ Fale comigo'),
 ]
 DESTAQUES = [('Grupo', 'o Al Kántara e as 4 frentes'), ('Método', 'as 4 fases do trabalho'), ('Cases', 'antes e depois autorizados'),
              ('Mandatos', 'comunicação pública, sem partido'), ('Bastidor', 'rotina de CEO, reuniões, estúdio'), ('Contato', 'primeira conversa e dossiê, sem preço')]
