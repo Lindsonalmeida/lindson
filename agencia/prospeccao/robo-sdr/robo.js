@@ -34,6 +34,10 @@ const MAX_SEM_WA = 3;               // 3 números sem WhatsApp seguidos = pausa 
 const CONTA = join(PASTA, `enviados-${NUMERO}.json`);
 const lerConta = () => { try { const j = JSON.parse(readFileSync(CONTA, 'utf8')); return j.dia === hoje() ? j.n : 0; } catch (e) { return 0; } };
 const somaConta = () => writeFileSync(CONTA, JSON.stringify({ dia: hoje(), n: lerConta() + 1 }));
+// Follow-ups contam à parte (Lindson, 25/11/2026: "30 mensagens novas, mais o follow up"). Teto de segurança próprio.
+const CONTA_FU = join(PASTA, `followups-${NUMERO}.json`), TETO_FU = 40;
+const lerFU = () => { try { const j = JSON.parse(readFileSync(CONTA_FU, 'utf8')); return j.dia === hoje() ? j.n : 0; } catch (e) { return 0; } };
+const somaFU = () => writeFileSync(CONTA_FU, JSON.stringify({ dia: hoje(), n: lerFU() + 1 }));
 
 // chamadas à Central, uma de cada vez (o laço de envio e o aviso de resposta não gravam juntos)
 let fila = Promise.resolve();
@@ -154,12 +158,12 @@ async function followUps() {
   if (!podeAgora()) return;
   let r; try { r = await conv('?followup=1&numero=' + NUMERO); } catch (e) { return; }
   for (const f of (r.lista || [])) {
-    if (limiteDoDia(CFG) - lerConta() <= 0) return;
+    if (lerFU() >= TETO_FU) return;
     try { const id = await wa.getNumberId(f.wa); if (!id) continue;
-      await digitaEEnvia(id._serialized, f.msg); somaConta();
+      await digitaEEnvia(id._serialized, f.msg); somaFU();
       const x = await conv('', { acao: 'fu', id: f.id, texto: f.msg, tipo: f.tipo });
       if (x.etapa) await api('', { id: f.id, acao: 'etapa', etapa: x.etapa });
-      diz(`Follow-up (${f.tipo}) enviado.`);
+      diz(`Follow-up (${f.tipo}) enviado (${lerFU()} follow-ups hoje, fora das ${limiteDoDia(CFG)} novas).`);
       await espera((CFG.intervalo_min + Math.random() * (CFG.intervalo_max - CFG.intervalo_min)) * MINUTO);
     } catch (e) { diz('Erro no follow-up:', String(e && e.message || e)); }
   }

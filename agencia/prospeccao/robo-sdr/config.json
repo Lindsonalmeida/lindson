@@ -1,5 +1,5 @@
 {
-  "_leia": "Um bloco por número. 30 contatos por dia desde 22/11/2026 (pedido do Lindson), todos os dias incluindo sábado e domingo (fim_de_semana). Follow-ups contam no limite. Horas em 24h. Intervalo em minutos.",
+  "_leia": "Um bloco por número. 30 contatos por dia desde 22/11/2026 (pedido do Lindson), todos os dias incluindo sábado e domingo (fim_de_semana). Follow-ups NÃO contam no limite (até 40 por dia à parte, 25/11/2026). Horas em 24h. Intervalo em minutos.",
   "sdr1": {
     "nome": "SDR 1",
     "inicio": "",
