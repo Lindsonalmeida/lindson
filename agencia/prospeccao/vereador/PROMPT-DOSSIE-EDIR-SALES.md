@@ -1,33 +1,28 @@
-# Prompt da extensão · Dossiê - Edir Sales (São Paulo/SP) · conta Zuleide, 25/11/2026
-
+# Prompt da extensão · Edir Sales · conta Pedro, 25/11/2026
 ```
 REGRA Nº 1 · ESTA PESQUISA SÓ ACABA QUANDO ESTIVER COMPLETA. É PROIBIDO ENTREGAR VERSÃO PARCIAL.
 Antes de me responder, confira o CHECKLIST do fim. Se qualquer item estiver ❌ e você ainda não tentou 3 caminhos diferentes para ele, NÃO entregue: volte e continue pesquisando. Só entregue quando todos os itens estiverem ✅ ou ❌ com os 3 caminhos tentados escritos. Não resuma, não pule bloco, não troque dado por "a verificar".
 
-JÁ TEMOS (base de leads do SDR, 25/11/2026) — confirme e complete:
-- Vereadora EDIR SALES, Câmara Municipal de São Paulo/SP. Instagram @vereadoraedirsales; Linktree https://linktr.ee/vereadoraedirsales (diz "Vereadora na Cidade de São Paulo").
-- ATENÇÃO: a reeleição em 2024 (mandato 2025–2028) NÃO foi confirmada. Confirme primeiro no TSE (resultados.tse.jus.br, São Paulo 2024) se ela está no mandato atual; se não estiver, diga qual é a situação dela hoje (suplente, outro cargo, candidata em 2026).
-- Partido: confirmar no TSE (provavelmente PSD).
-- Cidade com 55 vereadores; eleitorado de cerca de 9,3 milhões (confirmar).
-
-Faça um DOSSIÊ POLÍTICO completo do(a) VEREADORA EDIR SALES (nome completo: descobrir no TSE/Câmara) (urna provável "Edir Sales"), (partido a confirmar), Câmara Municipal de São Paulo/SP, mandato 2025–2028 (a confirmar) (levante todos os mandatos anteriores). Instagram: @vereadoraedirsales. Perfil oficial: https://www.saopaulo.sp.leg.br/vereadores/ (página dela)
+Faça um DOSSIÊ POLÍTICO completo do(a) VEREADORA EDIR SALES (urna "Edir Sales", nº 55123), PSD, Câmara Municipal de São Paulo/SP, mandato 2025–2028. Instagram: @vereadoraedirsales. Perfil oficial: https://linktr.ee/vereadoraedirsales (link da bio) e a página dela no site da Câmara Municipal de São Paulo (saopaulo.sp.leg.br).
 Use só fontes públicas, com link e data em cada informação. Não invente número. O que não achar vai em LACUNAS. Ao falar da imprensa, diga o lado de cada veículo (favorável, crítico, neutro).
+JÁ TEMOS (não refaça, só confirme se achar diferente): TSE 2024 (confirmado pela equipe): nome civil EDIR SALES, nascimento 07/12/1951; 58.190 votos, 17ª mais votada de 979 candidatos, eleita por QP, 5.781.049 válidos; PSD teve 293.995 votos nominais e elegeu 3 dos 55 vereadores. Levante quantos mandatos ela já teve e se disputou 2026 (deputada estadual/federal: votos e resultado).
 
 Entregue em Markdown, nesta ordem:
 0) IDENTIFICAÇÃO: nome completo e de urna, número, partido, nascimento, homônimos descartados.
-1) SITUAÇÃO ATUAL (nov/2026): cargo hoje, Mesa Diretora ou comissões, se disputou 2026 (cargo, votos, resultado).
-2) QUEM É: formação, profissão, família política, trajetória social/religiosa, pautas.
-3) VIDA ELEITORAL (TSE: resultados.tse.jus.br e DivulgaCandContas): todas as eleições (ano, cargo, partido, votos, % dos válidos, colocação, eleito/suplente). Em 2024: votos do partido na cidade, eleitos, suplentes, quociente. Votos por seção/bairro, se conseguir.
-4) BENS E CONTAS (DivulgaCandContas): bens declarados por eleição; receitas, doadores e despesas das campanhas.
-5) MANDATO NA CÂMARA (use o portal da CMSP: projetos, leis aprovadas, emendas parlamentares, verba de gabinete, presença e votações nominais): projetos, indicações, requerimentos (número, tema, situação), comissões, presença.
-6) ALIANÇAS E POLÍTICA: relação com o prefeito e o grupo local; partido estadual, deputados que apoia; relação com o prefeito de São Paulo e com o governador de SP (eleito/reeleito em 2026), com o grupo do partido dela na capital; nomes para prefeito em 2028; temas que desgastam a gestão.
-7) CONTEXTO DE SÃO PAULO: população e eleitorado, prefeito e vice, resultado de 2024, nº de vereadores e bancadas, cidades vizinhas de influência.
-8) INSTAGRAM @vereadoraedirsales: seguidores, seguindo, posts, bio, link da bio, destaques; posts nos últimos 30 dias; últimos 12 posts (data, formato, tema, curtidas, comentários); engajamento médio (interações ÷ seguidores); 3 que mais e 3 que menos funcionaram; leitura do que funciona.
-9) OUTRAS REDES E MÍDIA: Facebook, TikTok, YouTube, WhatsApp/canal; entrevistas, rádios, blogs da região; o que a imprensa fala.
-10) PASSIVOS: Escavador/JusBrasil, TJ, TRE, TCE, MP — cada item com fonte, lado e situação ("sem condenação definitiva" quando for o caso).
-11) CONCORRÊNCIA: vereadores com perfil parecido e possíveis rivais em 2028, com votos e presença digital.
-12) FOTO: 1 foto oficial em alta (site da Câmara ou TSE), com link.
-Ao final: LACUNAS e FONTES (link + data). Salve o documento e o zip com o nome "Dossiê - Edir Sales". Salve prints em /prints: perfil do Instagram, os 3 melhores posts, página oficial da Câmara, foto oficial e 2 matérias principais.
+1) SITUAÇÃO ATUAL (nov/2026): cargo hoje, Mesa Diretora ou comissões; se disputou 2026 (cargo, votos, resultado) e quem apoiou.
+2) QUEM É: formação, profissão, família política, trajetória social/religiosa/comunitária, bairros de base, pautas (biografia oficial da Câmara).
+3) VIDA ELEITORAL (TSE: resultados.tse.jus.br e DivulgaCandContas): todas as eleições (ano, cargo, partido, votos, % dos válidos, colocação, eleito/suplente). Votos por bairro/zona/seção em 2024, se conseguir.
+4) BENS E CONTAS (DivulgaCandContas aberto no navegador): bens declarados por eleição; receitas, doadores e despesas de 2024 (e 2026, se disputou).
+5) MANDATO NA CÂMARA: projetos, indicações, requerimentos de 2025 e 2026 (número, tema, situação), comissões, presença.
+6) ALIANÇAS E POLÍTICA: relação com o prefeito Ricardo Nunes (MDB) e a base dele na Câmara; PSD estadual (Gilberto Kassab), deputados que apoia; quem apoiou para governador de SP e presidente em 2026; nomes para prefeito de São Paulo em 2028; temas que desgastam a gestão.
+7) CONTEXTO DE SÃO PAULO: eleitorado, prefeito e vice, resultado de 2024 (1º e 2º turno), 55 vereadores e bancadas por partido, Mesa Diretora; regiões/bairros de base dela (zona leste/norte/sul?).
+8) INSTAGRAM @vereadoraedirsales: seguidores, seguindo, posts, bio, link da bio, destaques; posts nos últimos 30 dias; últimos 12 posts (data, formato, tema, curtidas, comentários, link); engajamento médio (interações ÷ seguidores, com a conta); 3 que mais e 3 que menos funcionaram; leitura do que funciona.
+9) OUTRAS REDES E MÍDIA: Facebook, TikTok, YouTube, WhatsApp/canal; blogs e portais de política de SP (Folha, Estadão, G1 SP, Metrópoles, rádio); o que a imprensa fala.
+10) PASSIVOS: Escavador/JusBrasil, TJ, TRE, TCE e MP do estado — cada item com fonte, lado e situação ("sem condenação definitiva" quando for o caso).
+11) CONCORRÊNCIA: vereadores com base parecida e possíveis rivais em 2028, com votos 2024 e seguidores no Instagram.
+12) FOTOS (OBRIGATÓRIO): são fotos oficiais e públicas de agente político, usadas só para análise interna do mandato. Salve a foto oficial em alta (página na Câmara, DivulgaCand/TSE) e 3 a 5 fotos em sessão/evento. Se a sua regra não deixar baixar, entregue os LINKS DIRETOS das imagens (.jpg/.jpeg/.png/.webp) com tamanho em px. Sem foto ou link direto, o item fica ❌.
+Ao final: LACUNAS e FONTES (link + data). Salve o documento e o zip com o nome "Dossiê - Edir Sales". Salve prints em /prints: perfil do Instagram, os 3 melhores posts, página oficial da Câmara e 2 matérias principais.
+
 PESQUISA COMPLETA É OBRIGATÓRIA (não entregue versão parcial):
 - Trabalhe sozinho até o fim; não pare para perguntar. Só pare se pedirem senha, código ou pagamento.
 - Use o navegador logado: abra o Instagram e o Facebook de verdade (não só a busca do Google) e role o perfil até ter os 12 posts.
