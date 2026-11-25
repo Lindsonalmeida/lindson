@@ -189,3 +189,4 @@ Pedido do Lindson: "quero que todas as equipes trabalhem como uma mente coletiva
 - 24/11/2026 · Zuleide: dossiê Laci Júnior v3 no padrão Francisco Messias (26 p., PSB vermelho, foco prefeito 2028) em privado dados/clientes-arquivos/laci-junior/; v2 Economist substituída. README do padrão ganhou a análise dos 3 PDFs modelo.
 - 24/11/2026 · Zuleide: dossiê político Alcemir Costa (Podemos, Imperatriz) v1 pronto no padrão Messias, 26 p., no privado dados/clientes-arquivos/alcemir-costa/ (aguarda aprovação).
 25/11 Zuleide: +29 vereadores MA no SDR
+- 25/11/2026 · Zuleide · SDR Orégano: +30 pizzarias novas (Nordeste, Google Maps), 736 descartadas; total 193 no SDR.
