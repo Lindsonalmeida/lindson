@@ -45,7 +45,7 @@ CLIENTES = {
   'rt': {'nome': 'Real Time', 'pastas': ['rt'], 'fontes': [('dados', 'rt-full-jobs'), ('lindson', 'rt-full-jobs')],
          'links': [('Site', 'https://realtimeslz.pages.dev/'), ('Bio do Instagram', 'https://realtimeslz.pages.dev/bio/')], 'reprovado': [r'feed-v[34]/|feed v[34]\b']},  # MEMORIA 16/11: feed v3 e v4
   'sf': {'nome': 'Desentupidora SF', 'pastas': ['sf'], 'fontes': [('lindson', 'desentupidora-sf')],
-         'links': [('Site e bio', 'https://desentupidorasf.pages.dev/')], 'reprovado': [r'criativos-16-11/']},  # MEMORIA 16/11: criativos v1
+         'links': [('Site e bio', 'https://desentupidorasf.pages.dev/')], 'reprovado': [r'criativos-16-11/', r'videos-2026-11-24/']},  # MEMORIA 16/11: criativos v1
   'oregano': {'nome': 'Orégano Turbo', 'pastas': ['oregano'], 'fontes': [('dados', 'oregano')], 'links': [('Site', 'https://oreganoturbo.pages.dev/')]},
   'alkantara': {'nome': 'Al Kántara Group', 'pastas': ['alkantara'], 'fontes': [], 'links': [('Site', 'https://alkantaragroup.pages.dev/')],
                 'reprovado': [r'/painel/alkantara/v1/', r'^v1 ·']},  # v1 reprovada, vale a v2
