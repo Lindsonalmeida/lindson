@@ -72,7 +72,11 @@ Pedido do Lindson (25/11/2026): "salve no repositório todas as exigências e pa
 - Arquivo refeito ganha nome novo (-v2), e a versão antiga fica marcada na Biblioteca.
 - Entregar com a lista honesta de lacunas e de defeitos que sobraram. Nunca dizer que agentes ou skills foram usados se não foram.
 
-## 6. Onde salvar
+## 6. Nome dos arquivos e prompt da extensão (conta Pedro, 25/11)
+- Nome de todo arquivo: **"Dossiê - Nome do vereador"** (ex.: `Dossiê - Ricardo Seidel.pdf`); versão nova `Dossiê - Nome v2.pdf`.
+- Prompt oficial da extensão (itens 0–12, pesquisa completa obrigatória e checklist): `agencia/prospeccao/vereador/PROMPT-DOSSIE-MODELO.md`. Cada vereador ganha o seu `PROMPT-DOSSIE-<NOME>.md` na mesma pasta.
+
+## 7. Onde salvar
 - **Privado:**
   - `dados/clientes-arquivos/<politico>/`: material/ (pesquisa + prints), gerador, PDF -vN e previa.jpg;
   - commit com "Co-Authored-By" e "Claude-Session".
@@ -81,7 +85,7 @@ Pedido do Lindson (25/11/2026): "salve no repositório todas as exigências e pa
   - aprovado ou reprovado na `MEMORIA-DO-LINDSON.md`;
   - lista "Dossiês já feitos" no README do gerador.
 
-## 7. Dossiês feitos (situação em 25/11/2026)
+## 8. Dossiês feitos (situação em 25/11/2026)
 - **Modelos oficiais:** Francisco Messias, Fabiano Fubá, Rafael Campaner, Alcemir Costa (v1; pág. 26 a corrigir se aprovado).
 - **Aguardando avaliação:**
   - Laci Júnior v3;
