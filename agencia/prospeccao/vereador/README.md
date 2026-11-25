@@ -1,5 +1,6 @@
 # Raio-X de vereador
 - Prompt da extensão: `PROMPT-RAIO-X-EXTENSAO.md`.
+- **Dossiê político: use SEMPRE `PROMPT-DOSSIE-MODELO.md` (formato oficial 0–12, 25/11/2026).**
 - **Geovane Abreu (Paço do Lumiar), 17/11/2026, conta Leandro:** PDF de venda premium v1 (12 p., template site de luxo). Por ter dados e prints, está só no privado `CentralLindsonALmeida/dados/clientes-arquivos/geovane-abreu/` (PDF, gerador, prints, TEMPLATE.md) e no painel admin (aba Artes).
 
 ## Dossiê político · Laci Júnior (PSB, Raposa) · conta Leandro, 23/11/2026
