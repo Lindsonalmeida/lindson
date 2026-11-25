@@ -19,9 +19,27 @@ PDF 26 p. 16:9 (1600×900), grafite + 1 acento (cor do partido), Anton + Archivo
 ## As 26 seções
 capa · resumo · quem é · trajetória e bens · linha do tempo eleitoral · votos em números · mapa da base (esquemático) · mandato · produção/pautas · alianças · contexto 2028 · pesquisa ou caso-chave · diagnóstico (% canais) · nota por canal · raio-X Instagram · concorrentes · lacunas · passivos ("o que os adversários vão usar") · SWOT · cenários · simulação 2028 · 4 fases da assessoria · metas e calendário · por que agora · provas e fontes · contato (WhatsApp (98) 98562-1808, "estrategista de comunicação política").
 
-## Regras
+## Regras (todas as decisões do Lindson, conferidas em 25/11/2026)
+**Fluxo comercial**
+- O dossiê é ferramenta de venda da assessoria: "faça ele entender que precisa de mim". O fechamento posiciona o Lindson como **estrategista de comunicação política** (14 anos), com assessoria em 4 fases até 2028 e "por que agora". Nunca "social media".
+- No SDR: **não citar dossiê na 1ª nem na 2ª mensagem**; ele é oferecido só quando o vereador demonstra interesse e é usado como **gancho dos follow-ups** (D3, D6, D9 e reativação). Ver `agencia/prospeccao/vereadores/MENSAGENS.md` (v4 aprovada).
+- Pesquisa primeiro: gerar o prompt da extensão a partir de `agencia/prospeccao/vereador/PROMPT-DOSSIE-*.md` (mesmo modelo; trocar nome, @, cidade, estado e tribunais).
+
+**Formato**
+- **Mesmo estilo em todos** (padrão Francisco Messias): 26 p. 16:9, masculino, bold, autoridade, grafite + cor do partido, números grandes, mapas, gráficos, percentuais.
+- **Nome do arquivo: `Dossiê - Nome do vereador.pdf`** (ex.: `Dossiê - Rafael Campaner.pdf`). Refeito: mesmo nome com " v2".
+- "Todas as fotos possíveis" dele, só de fonte pública (Câmara/SAPL, notícias, prints), sem login, fonte registrada, ampliação ≤ 1,5×.
+- Vereadores da mesma cidade (Imperatriz: Francisco e Alcemir; Fazenda Rio Grande: Fubá e Campaner): contexto igual, **texto diferente** (eles podem comparar).
+
+**Conteúdo**
 Só dados da pesquisa, com fonte; notas = "avaliação da equipe" com critério; votos 2028 = "simulação"; mapa = "esquemático"; sem promessa de voto, sem preço, sem nota interna; passivos com fonte e lado e "sem condenação definitiva"; fotos só de fonte pública, sem login.
 - 24/11/2026 · Rafael Campaner (Leandro): dossiê v1 no gerador do Fubá, acento ciano PP #0096D6, pasta privado dados/clientes-arquivos/rafael-campaner/.
+- Partido não confirmado na pesquisa: usar a cor pública do partido mais provável e avisar o Lindson.
+
+**Entrega**
+- Só no repo privado (`dados/clientes-arquivos/<vereador>/`) + cópia em `painel/admin-rede/dossie-<vereador>/` com item no admin (PDF de prospecção); nunca no repo público nem em página pública.
+- Conferir capa, meio e fim com zoom e cada número contra a pesquisa antes de enviar; dizer ao Lindson as limitações (fotos, dados não encontrados, cor do partido).
+- Feito em Tarefas feitas (cli "marca"), prévia (`previa.jpg`) junto do PDF.
 
 ## O que os 3 PDFs modelo mostram (Messias, Fubá, Campaner · análise conta Zuleide, 24/11/2026)
 Modelos em `dados/agencia/referencias/dossie-politico-modelos/` (privado). Os três são o mesmo template: só mudam nome, acento e dados.
