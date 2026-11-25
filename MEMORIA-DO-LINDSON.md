@@ -755,3 +755,4 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 - **25/11/2026 (conta Pedro) · Prompt oficial da extensão para dossiê político** ("esse é o tipo de prompt", modelo Ozima Cury Rad): 13 blocos 0–12 + LACUNAS + FONTES + /prints, lado de cada veículo. Modelo em `agencia/prospeccao/vereador/PROMPT-DOSSIE-MODELO.md`.
 - **25/11/2026 (conta Pedro) · REGRA: "sempre pesquise quem eles são, da base de leads do SDR"** antes de escrever o prompt do dossiê: cidade, @, WhatsApp e fonte do lead no _sdr.js + partido/nº/votos no TSE, num bloco JÁ TEMOS.
 - **25/11/2026 (conta Pedro) · REGRA: "sempre salve os documentos com: Dossiê - Nome do vereador"** (PDF, pesquisa e zip).
+- **25/11/2026 (conta Pedro) · REGRA: "sempre precisa ter fotos deles, como os modelos que foram feitos primeiro, siga o mesmo padrão de qualidade em todos".** Dossiê sem foto na capa = fora do padrão. Buscar na Câmara (vereador e notícias) e no TSE antes de montar.

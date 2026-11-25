@@ -62,4 +62,6 @@ Modelos em `dados/agencia/referencias/dossie-politico-modelos/` (privado). Os tr
 - Francisco Messias (PDT, vermelho) · Prof. Fabiano Fubá (PSD, azul) · Rafael Campaner (PP, azul claro) · **Laci Júnior v3 (PSB, vermelho, 24/11/2026, conta Zuleide)**: `dados/clientes-arquivos/laci-junior/dossie-laci-junior-v3.pdf`. A v2 (tinta/marfim Economist) foi SUBSTITUÍDA: estilo fora do padrão.
 
 ## Nome dos arquivos (Lindson, 25/11/2026)
+**Foto é obrigatória (Lindson, 25/11/2026: "sempre precisa ter fotos deles, como os modelos que foram feitos primeiro").** A equipe busca sozinha antes de montar: página do vereador na Câmara (`/upload/vereadores/`), notícias da Câmara (aniversário, sessões: `/upload/noticias/`), TSE (`resultados.tse.jus.br/oficial/<ciclo>/<eleição>/fotos/<uf>/<sqcand>.jpeg`). Capa sem foto só se não existir nenhuma foto pública; se a melhor for pequena, usar em moldura no tamanho real (≤1,5×), nunca esticar.
+
 Todo documento do dossiê (PDF final, Markdown da pesquisa, zip) é salvo como **"Dossiê - Nome do vereador"** (ex.: `Dossiê - Ricardo Seidel.pdf`). Versão nova: `Dossiê - Nome v2.pdf`.
