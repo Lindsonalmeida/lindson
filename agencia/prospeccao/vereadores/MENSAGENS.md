@@ -1,3 +1,5 @@
+> **v5 APROVADA (Lindson, 25/11/2026, "mensagens aprovadas"): abordagem em 2 balões.** Msg 1 = apresentação com autoridade ("Vereador X, tudo bem? Sou Lindson Almeida, estrategista de comunicação política há 14 anos, com campanhas e mandatos no currículo."). Msg 2, 5 a 10 s depois = "Gostaria de te mostrar um dossiê completo sobre o seu mandato: como ele chega hoje ao eleitor, o que podemos fazer no restante do mandato e o aquecimento para 2028. Posso te enviar?" (3 variações de cada; suplente/candidato sem "Vereador" e com "seu nome"). Substitui a 1ª mensagem da v4 e libera o dossiê já no 1º contato. Código: primeiraPol em functions/_sdr_fluxo.js (privado).
+
 # Captação de vereadores · indicação do Thiago Azevedo (Tribuna 98) · conta Pedro, 16/11/2026
 
 ## ATUAL · SDR v4 "estrategista" (Lindson, 24/11/2026 · conta Leandro) · no robô SDR (`functions/_sdr_fluxo.js` e `functions/api/sdr.js`, privado)

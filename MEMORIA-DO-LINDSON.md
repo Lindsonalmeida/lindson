@@ -228,6 +228,8 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 
 - **24/11/2026 (conta Leandro) · APROVADO, SDR vereador v4 "estrategista com autoridade"** (14 anos, "o eleitor vota no que conhece", 3 pilares de 2028, dossiê só com interesse): `agencia/prospeccao/vereadores/MENSAGENS.md`. Variações C/D/E (1ª), B/C (2ª) e ponte do dossiê sorteadas por lead.
 
+- **SDR vereador v5 APROVADA (25/11, conta Zuleide):** 1ª abordagem em 2 balões: apresentação com autoridade + dossiê completo (restante do mandato e aquecimento 2028). Ver agencia/prospeccao/vereadores/MENSAGENS.md.
+
 ## 4. REPROVADO: nunca repetir
 - **SF vídeos v1 (25/11, conta Zuleide) REPROVADOS:** "sem coerência e com os mesmos efeitos, não dá pra entender nada; tem horas que a voz de quem tá gravando sai". Regra: vídeo de serviço conta a história NA ORDEM em que aconteceu (começo, meio, fim), cada vídeo com edição própria, e só a voz de quem faz o trabalho (cortar/mutar a voz de quem filma).
 
