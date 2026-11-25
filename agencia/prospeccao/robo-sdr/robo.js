@@ -11,7 +11,7 @@ const { Client, LocalAuth } = pkg;
 const PASTA = dirname(fileURLToPath(import.meta.url));          // sempre a pasta do robô, de onde quer que seja aberto
 process.chdir(PASTA);
 const arg = process.argv.indexOf('--numero'), NUMERO = (arg > 0 ? process.argv[arg + 1] : process.env.SDR_NUMERO) || 'sdr1';
-if (!/^sdr[1-3]$/.test(NUMERO)) { console.log('Use --numero sdr1, sdr2 ou sdr3.'); process.exit(1); }
+if (!/^sdr[1-9]$/.test(NUMERO)) { console.log('Use --numero sdr1 a sdr9.'); process.exit(1); }
 const CENTRAL = process.env.SDR_CENTRAL || 'https://lindsonalmeida.pages.dev/api/sdr';
 const TOKEN = process.env.SDR_TOKEN || (existsSync(join(PASTA, 'token.txt')) ? readFileSync(join(PASTA, 'token.txt'), 'utf8').trim() : '');
 if (!TOKEN) { console.log('Falta o arquivo token.txt nesta pasta (veja o README).'); process.exit(1); }
