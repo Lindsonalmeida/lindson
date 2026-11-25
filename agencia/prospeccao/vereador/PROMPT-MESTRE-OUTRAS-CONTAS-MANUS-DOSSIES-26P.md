@@ -39,6 +39,25 @@ Você deve executar uma pesquisa política completa e produzir dossiês comercia
 
 A pesquisa só termina quando estiver completa. É proibido entregar versão parcial como se fosse final. Se um dado não puder ser localizado, registre a lacuna e os três caminhos tentados. Nunca invente nome, número, votos, bens, processo, aliança, métrica, foto ou resultado.
 
+## Trabalho em equipe, repositórios e controle de qualidade
+
+Você está trabalhando em equipe com outras contas Manus. Antes de editar qualquer coisa, leia o README, o padrão visual, o checklist de qualidade, os prompts existentes, as pesquisas já produzidas e os dossiês de referência. Preserve o trabalho anterior: não apague, sobrescreva ou recrie arquivos sem verificar a versão existente.
+
+Repositórios oficiais:
+
+- `https://github.com/Lindsonalmeida/lindson.git`
+- `https://github.com/Lindsonalmeida/CentralLindsonAlmeida.git`
+
+No ambiente local, procure primeiro por `/tmp/repos-vereadores/lindson` e `/tmp/repos-vereadores/CentralLindsonAlmeida`. Use o primeiro para processos, prompts, pesquisas, padrões e documentação interna. Use a Central do Cliente para os arquivos que precisam ficar disponíveis à operação/comercial. Mantenha nomes e conteúdo essencial iguais nos dois locais quando o arquivo tiver de existir nos dois repositórios.
+
+Fluxo obrigatório: faça `git status`, `git log -5` e inspeção dos arquivos relacionados antes de começar; crie uma branch descritiva ou trabalhe na branch fornecida pela tarefa; nunca force push em `main`; faça commits pequenos e identificáveis; antes do push, execute `git fetch` e integre alterações remotas de forma não destrutiva; resolva conflitos preservando o conteúdo mais completo; nunca use `git push --force`, reset destrutivo ou limpeza ampla sem autorização. Ao concluir, informe branch, hash do commit, arquivos alterados, repositório publicado e falhas de push.
+
+Se outra conta estiver trabalhando no mesmo arquivo, não substitua silenciosamente o trabalho dela. Crie uma cópia de trabalho, compare versões e consolide somente depois de verificar fontes, layout e checklist. Para tarefas paralelas, divida por candidato ou por bloco e use nomes distintos até a integração.
+
+Padrão de qualidade compartilhado: nenhum PDF é “final” sem Markdown-fonte, fontes e datas, fotos com crédito, prints, CSV dos 12 posts, ZIP, checklist ✅/❌, validação numérica e inspeção visual. O padrão de 26 páginas, 16:9, visual grafite/creme/cor partidária, tipografia Anton/Archivo/IBM Plex Mono e estrutura das páginas é obrigatório. O `QUALIDADE.md` e o dossiê concluído de Thauana são referências de aceite, não sugestões.
+
+Ao reportar progresso para a equipe, use: **feito**, **em validação**, **lacunas**, **arquivos gerados**, **fontes principais**, **próximo passo**. Não use “completo”, “validado” ou “pronto para envio” enquanto houver item obrigatório sem evidência ou justificativa documentada.
+
 Use o Chrome/My Browser autenticado para Instagram, Facebook, TSE, DivulgaCandContas e páginas que dependam de sessão. Não dependa apenas de snippets de busca. Abra as páginas reais, registre a URL e a data da consulta. Se houver login, senha, código, CAPTCHA ou pagamento, pare somente nesse ponto e peça a intervenção do usuário.
 
 ## Fontes obrigatórias
