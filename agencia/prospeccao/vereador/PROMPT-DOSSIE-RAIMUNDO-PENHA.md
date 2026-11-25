@@ -1,6 +1,9 @@
 # Prompt da extensão (modelo oficial 0–12) · vereador Raimundo Penha (São Luís/MA) · conta Pedro, 25/11/2026
 Pré-pesquisa da equipe: base de leads do SDR (@raimundopenha, WhatsApp no Linktree) + TSE resultados oficiais 2024 e 2026.
 ```
+REGRA Nº 1 · ESTA PESQUISA SÓ ACABA QUANDO ESTIVER COMPLETA. É PROIBIDO ENTREGAR VERSÃO PARCIAL.
+Antes de me responder, confira o CHECKLIST do fim. Se qualquer item estiver ❌ e você ainda não tentou 3 caminhos diferentes para ele, NÃO entregue: volte e continue pesquisando. Só entregue quando todos os itens estiverem ✅ ou ❌ com os 3 caminhos tentados escritos. Não resuma, não pule bloco, não troque dado por "a verificar".
+
 Faça um DOSSIÊ POLÍTICO completo do VEREADOR RAIMUNDO IVANIR ABREU PENHA (urna "Raimundo Penha", nº 12012), PDT, Câmara Municipal de São Luís/MA, mandato 2025–2028. Instagram: @raimundopenha. Link da bio: https://linktr.ee/raimundopenha. Perfil oficial: página dele no site da Câmara Municipal de São Luís (saoluis.ma.leg.br).
 Use só fontes públicas, com link e data em cada informação. Não invente número. O que não achar vai em LACUNAS. Ao falar da imprensa, diga o lado de cada veículo (favorável, crítico, neutro).
 JÁ TEMOS (só confirme se achar diferente): nascimento 06/12/1982; 2024 vereador 5.768 votos, 26º de 496, eleito por QP (575.818 válidos); 2026 deputado federal pelo PDT, 11.731 votos, suplente.
@@ -32,6 +35,7 @@ ARQUIVOS OBRIGATÓRIOS NO ZIP "Dossiê - Raimundo Penha" (são usados nas 26 pá
 3. /fotos/ 3 a 5 fotos públicas dele em ação (plenário, sessão, bairro, evento), com fonte de cada uma
 4. /prints/ perfil do Instagram (tela inteira), os 3 melhores posts, a página oficial na Câmara, a ficha do TSE/DivulgaCand, 2 a 4 matérias principais (com título e data visíveis)
 5. instagram-12-posts.csv (data, formato, tema, curtidas, comentários, link)
-6. CHECKLIST no fim do .md: tabela com cada bloco 0–12 e cada arquivo acima marcado ✅ feito ou ❌ faltou + motivo e os caminhos tentados
+6. CHECKLIST no fim do .md: tabela com cada bloco 0–12 e cada arquivo acima marcado ✅ feito ou ❌ faltou + motivo e os 3 caminhos tentados
+ÚLTIMO PASSO OBRIGATÓRIO: releia este prompt do início ao fim e confira item por item contra o que você entregou. Faltou algo que ainda dá para buscar? Volte e busque antes de responder.
 ```
 

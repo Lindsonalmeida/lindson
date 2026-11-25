@@ -1,5 +1,8 @@
 # Prompt da extensão v2 (modelo oficial) · Ricardo Seidel (conta Pedro, 25/11/2026)
 ```
+REGRA Nº 1 · ESTA PESQUISA SÓ ACABA QUANDO ESTIVER COMPLETA. É PROIBIDO ENTREGAR VERSÃO PARCIAL.
+Antes de me responder, confira o CHECKLIST do fim. Se qualquer item estiver ❌ e você ainda não tentou 3 caminhos diferentes para ele, NÃO entregue: volte e continue pesquisando. Só entregue quando todos os itens estiverem ✅ ou ❌ com os 3 caminhos tentados escritos. Não resuma, não pule bloco, não troque dado por "a verificar".
+
 Faça um DOSSIÊ POLÍTICO completo do VEREADOR RICARDO SEIDEL GUIMARÃES (urna "Ricardo Seidel", nº 55123), PSD, Câmara Municipal de Imperatriz/MA, mandato 2025–2028 (licenciado em 2025 para ser secretário municipal de Segurança Pública; a suplente Raymara Lima assumiu). Instagram: @ricardoseidel. Perfil oficial: site da Câmara Municipal de Imperatriz (imperatriz.ma.leg.br / camaraimperatriz.ma.gov.br).
 Use só fontes públicas, com link e data em cada informação. Não invente número. O que não achar vai em LACUNAS. Ao falar da imprensa, diga o lado de cada veículo (favorável, crítico, neutro).
 JÁ TEMOS (não precisa repetir, só confirmar se achar diferente): 2024 vereador 2.150 votos, 8º de 319, eleito por QP; 2026 deputado estadual 13.690 votos, suplente, 8.908 em Imperatriz; nascimento 03/05/1985.
@@ -31,6 +34,7 @@ ARQUIVOS OBRIGATÓRIOS NO ZIP "Dossiê - Ricardo Seidel" (são usados nas 26 pá
 3. /fotos/ 3 a 5 fotos públicas dele em ação (plenário, sessão, bairro, evento), com fonte de cada uma
 4. /prints/ perfil do Instagram (tela inteira), os 3 melhores posts, a página oficial na Câmara, a ficha do TSE/DivulgaCand, 2 a 4 matérias principais (com título e data visíveis)
 5. instagram-12-posts.csv (data, formato, tema, curtidas, comentários, link)
-6. CHECKLIST no fim do .md: tabela com cada bloco 0–12 e cada arquivo acima marcado ✅ feito ou ❌ faltou + motivo e os caminhos tentados
+6. CHECKLIST no fim do .md: tabela com cada bloco 0–12 e cada arquivo acima marcado ✅ feito ou ❌ faltou + motivo e os 3 caminhos tentados
+ÚLTIMO PASSO OBRIGATÓRIO: releia este prompt do início ao fim e confira item por item contra o que você entregou. Faltou algo que ainda dá para buscar? Volte e busque antes de responder.
 ```
 

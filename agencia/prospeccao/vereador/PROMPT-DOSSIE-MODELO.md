@@ -2,6 +2,9 @@
 Use SEMPRE este formato (13 blocos numerados 0–12 + LACUNAS + FONTES + /prints). Ele alimenta as 26 páginas do padrão oficial (`agencia/processos/dossie-politico/README.md`). ANTES de escrever: pesquise quem é o político na base de leads do SDR (`CentralLindsonALmeida/functions/_sdr.js`: cidade, @, WhatsApp, fonte) e no TSE (resultados.tse.jus.br: partido, nº, votos 2024 e 2026) e ponha um bloco "JÁ TEMOS" no prompt (regra do Lindson, 25/11: "sempre pesquise quem eles são, da base de leads do SDR"). Troque só os dados entre [colchetes] e adapte os blocos 1, 2, 6 e 7 à pessoa e à cidade.
 
 ```
+REGRA Nº 1 · ESTA PESQUISA SÓ ACABA QUANDO ESTIVER COMPLETA. É PROIBIDO ENTREGAR VERSÃO PARCIAL.
+Antes de me responder, confira o CHECKLIST do fim. Se qualquer item estiver ❌ e você ainda não tentou 3 caminhos diferentes para ele, NÃO entregue: volte e continue pesquisando. Só entregue quando todos os itens estiverem ✅ ou ❌ com os 3 caminhos tentados escritos. Não resuma, não pule bloco, não troque dado por "a verificar".
+
 Faça um DOSSIÊ POLÍTICO completo do(a) [VEREADOR(A) NOME COMPLETO] (urna provável "[URNA]"), [PARTIDO], Câmara Municipal de [CIDADE/UF], mandato [2025–2028] ([mandatos anteriores]). Instagram: @[insta]. Perfil oficial: [link da Câmara]
 Use só fontes públicas, com link e data em cada informação. Não invente número. O que não achar vai em LACUNAS. Ao falar da imprensa, diga o lado de cada veículo (favorável, crítico, neutro).
 
@@ -32,7 +35,8 @@ ARQUIVOS OBRIGATÓRIOS NO ZIP "Dossiê - [Nome do vereador]" (são usados nas 26
 3. /fotos/ 3 a 5 fotos públicas dele em ação (plenário, sessão, bairro, evento), com fonte de cada uma
 4. /prints/ perfil do Instagram (tela inteira), os 3 melhores posts, a página oficial na Câmara, a ficha do TSE/DivulgaCand, 2 a 4 matérias principais (com título e data visíveis)
 5. instagram-12-posts.csv (data, formato, tema, curtidas, comentários, link)
-6. CHECKLIST no fim do .md: tabela com cada bloco 0–12 e cada arquivo acima marcado ✅ feito ou ❌ faltou + motivo e os caminhos tentados
+6. CHECKLIST no fim do .md: tabela com cada bloco 0–12 e cada arquivo acima marcado ✅ feito ou ❌ faltou + motivo e os 3 caminhos tentados
+ÚLTIMO PASSO OBRIGATÓRIO: releia este prompt do início ao fim e confira item por item contra o que você entregou. Faltou algo que ainda dá para buscar? Volte e busque antes de responder.
 ```
 
 Modelo real: Ozima Cury Rad (MDB, Senador La Rocque/MA), 25/11/2026.

@@ -1,6 +1,9 @@
 # Prompt da extensão (modelo oficial 0–12) · vereador Edidacio Lopes (Porto Franco/MA) · conta Pedro, 25/11/2026
 Pré-pesquisa: base do SDR (@edidaciooliveira, celular no site da Câmara, Instagram declarado no TSE) + TSE 2024 e 2026 (não disputou 2026).
 ```
+REGRA Nº 1 · ESTA PESQUISA SÓ ACABA QUANDO ESTIVER COMPLETA. É PROIBIDO ENTREGAR VERSÃO PARCIAL.
+Antes de me responder, confira o CHECKLIST do fim. Se qualquer item estiver ❌ e você ainda não tentou 3 caminhos diferentes para ele, NÃO entregue: volte e continue pesquisando. Só entregue quando todos os itens estiverem ✅ ou ❌ com os 3 caminhos tentados escritos. Não resuma, não pule bloco, não troque dado por "a verificar".
+
 Faça um DOSSIÊ POLÍTICO completo do VEREADOR EDIDACIO LOPES DE OLIVEIRA (urna "Edidacio Lopes", nº 11777), PP, Câmara Municipal de Porto Franco/MA, mandato 2025–2028. Instagram: @edidaciooliveira. Perfil oficial: https://www.cmportofranco.ma.gov.br/vereador/edidacio-lopes-de-oliveira
 Use só fontes públicas, com link e data em cada informação. Não invente número. O que não achar vai em LACUNAS. Ao falar da imprensa, diga o lado de cada veículo (favorável, crítico, neutro).
 JÁ TEMOS (só confirme se achar diferente): nascimento 27/09/1963; 2024 vereador 613 votos, 8º de 45 candidatos, eleito por QP (14.666 válidos); não aparece como candidato a deputado em 2026.
@@ -32,6 +35,7 @@ ARQUIVOS OBRIGATÓRIOS NO ZIP "Dossiê - Edidacio Lopes" (são usados nas 26 pá
 3. /fotos/ 3 a 5 fotos públicas dele em ação (plenário, sessão, bairro, evento), com fonte de cada uma
 4. /prints/ perfil do Instagram (tela inteira), os 3 melhores posts, a página oficial na Câmara, a ficha do TSE/DivulgaCand, 2 a 4 matérias principais (com título e data visíveis)
 5. instagram-12-posts.csv (data, formato, tema, curtidas, comentários, link)
-6. CHECKLIST no fim do .md: tabela com cada bloco 0–12 e cada arquivo acima marcado ✅ feito ou ❌ faltou + motivo e os caminhos tentados
+6. CHECKLIST no fim do .md: tabela com cada bloco 0–12 e cada arquivo acima marcado ✅ feito ou ❌ faltou + motivo e os 3 caminhos tentados
+ÚLTIMO PASSO OBRIGATÓRIO: releia este prompt do início ao fim e confira item por item contra o que você entregou. Faltou algo que ainda dá para buscar? Volte e busque antes de responder.
 ```
 
