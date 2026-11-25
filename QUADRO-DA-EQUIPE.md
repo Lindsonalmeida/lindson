@@ -10,6 +10,8 @@ Como usar:
 
 ## Recados para todas as contas
 
+- **25/11/2026 (Zuleide, pedido do Lindson):** regras do dossiê para todos em `agencia/processos/dossie-politico/REGRAS-DO-DOSSIE.md` (foto na capa obrigatória; não mudar o padrão).
+
 > **22/11/2026 (Pedro): TIME DE SDR NO WHATSAPP (3 números).** O robô SDR agora roda com sdr1/sdr2/sdr3, cada um com os seus leads (sem repetir), aquecimento e Pausar/Ligar próprio na aba SDR da Central. Processo para todas as equipes: `agencia/processos/time-sdr-whatsapp.md`.
 
 > **20/11/2026 (Pedro, ordem do Lindson): REGRAS GERAIS DA EMPRESA.** Novo arquivo `REGRAS-GERAIS.md`: padrão de qualidade e exigência para todas as contas e agentes (nível premium, nota ≥ 9, definição de pronto em 11 itens, rotina de reprovação). Leia antes de qualquer entrega e confirme na tabela.

@@ -109,3 +109,5 @@ Antes de toda entrega, cumprir `REGRAS-GERAIS.md`: nível premium (Al Kántara v
 - SDR só de vereadores desde 24/11 (vereadores com nota 100 na frente da fila). 4º número (sdr4) criado na Central, no admin e no config (10h–18h, 30/dia); falta o Lindson escanear o QR.
 - Dossiê de dentista (lead): mesmo gerador do dossiê político (fabiano-fuba), adaptado em 18 páginas de clínica, acento teal #0E8C8C. Pesquisa vem da extensão com o comando de "dossiê de negócio e marketing". Feito: Dra. Giseli Araújo (Teresina), privado dados/clientes-arquivos/dra-giseli-araujo/.
 - Subagentes às vezes dizem que usaram agentes/skills que não usaram: conferir e corrigir o README antes de entregar.
+
+- 25/11/2026: REGRAS DO DOSSIÊ (todas as contas) em agencia/processos/dossie-politico/REGRAS-DO-DOSSIE.md. Ler antes de todo dossiê; foto na capa obrigatória; não mudar o padrão.

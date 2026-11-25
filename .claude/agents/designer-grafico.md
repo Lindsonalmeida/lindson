@@ -249,3 +249,5 @@ Antes de toda entrega, cumprir `REGRAS-GERAIS.md`: nível premium (Al Kántara v
 - 25/11/2026 (MEMORIA, conta Pedro): Jaci Grupo VIP BF v1 REPROVADO, "muito poluído" (ramos, brilhos, lista em caixa, muito texto). Arte de campanha segue o padrão já aprovado da própria campanha (stories BF 10/11: foto + título serifado + tag + 1 frase).
 
 - 25/11/2026 (conta Pedro): arquivos de dossiê se chamam "Dossiê - Nome do vereador" (v2 = "Dossiê - Nome v2"); prompt oficial da extensão em agencia/prospeccao/vereador/PROMPT-DOSSIE-MODELO.md.
+
+- 25/11/2026: REGRAS DO DOSSIÊ (todas as contas) em agencia/processos/dossie-politico/REGRAS-DO-DOSSIE.md. Ler antes de todo dossiê; foto na capa obrigatória; não mudar o padrão.

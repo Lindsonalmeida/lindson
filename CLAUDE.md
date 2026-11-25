@@ -1,5 +1,7 @@
 # Instruções do repositório (Lindson Almeida)
 
+> **REGRAS DO DOSSIÊ (Lindson, 25/11/2026, todas as contas, agentes e rotinas): "crie as regras do dossiê, pra todos".** Todo dossiê segue `agencia/processos/dossie-politico/REGRAS-DO-DOSSIE.md`: não mudar o padrão (26 p. estilo Messias, cor do partido), foto na capa obrigatória, prompt oficial da extensão, nenhum número inventado, homônimo/parentesco não confirmado nunca atribuído, tom de lead, conferência com zoom.
+
 > **REGRA DO LINDSON (23/11/2026, todas as contas, agentes e rotinas): "sempre use todos os agentes necessários e todas as skills, não faça nada sem essas duas coisas."** Em todo pedido, antes de executar: (1) monte o time de agentes do assunto (mapa "Quem acionar") e (2) carregue pela ferramenta Skill TODAS as skills que servem ao pedido (ex.: vídeo curto: hook-writer, reels-script, viral-reverse-engineering, captions, caption-writer, thumbnail-design, /reels-viral; funil/vendas: lead-magnets-and-funnels, social-selling-and-dm, social-proof, goals-and-kpis, /landing-page). Registre na entrega quais agentes e skills foram usados e o que cada um mudou. Entrega sem isso não é "pronta".
 
 

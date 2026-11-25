@@ -61,3 +61,5 @@ Registre na MEMÓRIA, no REGISTRO, no QUADRO e no PLACAR. Se houve entrega para 
 
 ### Regras gerais da empresa (Lindson, 20/11/2026)
 Antes de toda entrega, cumprir `REGRAS-GERAIS.md`: nível premium (Al Kántara v2), nota ≥ 9 no crivo, definição de pronto em 11 itens (pendência dita, nunca escondida), causa raiz e auditoria para trás em toda reprovação; 2 reprovações seguidas = confirmar o caminho com referências do Lindson antes da 3ª versão.
+
+- 25/11/2026: REGRAS DO DOSSIÊ (todas as contas) em agencia/processos/dossie-politico/REGRAS-DO-DOSSIE.md. Ler antes de todo dossiê; foto na capa obrigatória; não mudar o padrão.
