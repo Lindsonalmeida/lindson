@@ -19,7 +19,7 @@ Entregue em Markdown, nesta ordem:
 10) PASSIVOS: Escavador/JusBrasil, TJ, TRE, TCE, MP — cada item com fonte, lado e situação ("sem condenação definitiva" quando for o caso).
 11) CONCORRÊNCIA: vereadores com perfil parecido e possíveis rivais em 2028, com votos e presença digital.
 12) FOTO: 1 foto oficial em alta (site da Câmara ou TSE), com link.
-Ao final: LACUNAS e FONTES (link + data). Salve prints em /prints: perfil do Instagram, os 3 melhores posts, página oficial da Câmara, foto oficial e 2 matérias principais.
+Ao final: LACUNAS e FONTES (link + data). Salve o documento e o zip com o nome "Dossiê - [Nome do vereador]". Salve prints em /prints: perfil do Instagram, os 3 melhores posts, página oficial da Câmara, foto oficial e 2 matérias principais.
 ```
 Modelo real: Ozima Cury Rad (MDB, Senador La Rocque/MA), 25/11/2026.
 Lição (Ricardo Seidel, 25/11): o prompt antigo (9 itens) voltou parcial; TSE resultados.tse.jus.br funciona daqui (a equipe completa votos), DivulgaCand dá 403 fora do navegador.

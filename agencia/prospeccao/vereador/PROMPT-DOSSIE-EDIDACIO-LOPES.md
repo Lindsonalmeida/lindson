@@ -19,5 +19,5 @@ Entregue em Markdown, nesta ordem:
 10) PASSIVOS: Escavador/JusBrasil, TJMA, TRE-MA, TCE-MA, MPMA — cada item com fonte, lado e situação ("sem condenação definitiva" quando for o caso).
 11) CONCORRÊNCIA: vereadores de Porto Franco com perfil parecido e possíveis rivais em 2028, com votos e presença digital.
 12) FOTO: 1 foto oficial em alta (site da Câmara ou TSE), com link. Salve o arquivo.
-Ao final: LACUNAS e FONTES (link + data). Salve prints em /prints: perfil do Instagram, os 3 melhores posts, página oficial da Câmara, foto oficial e 2 matérias principais.
+Ao final: LACUNAS e FONTES (link + data). Salve o documento e o zip com o nome "Dossiê - Edidacio Lopes". Salve prints em /prints: perfil do Instagram, os 3 melhores posts, página oficial da Câmara, foto oficial e 2 matérias principais.
 ```

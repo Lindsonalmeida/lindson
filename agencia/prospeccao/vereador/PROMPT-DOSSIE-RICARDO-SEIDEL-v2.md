@@ -18,5 +18,5 @@ Entregue em Markdown, nesta ordem:
 10) PASSIVOS: Escavador/JusBrasil, TJMA, TRE-MA, TCE-MA, MPMA — cada item com fonte, lado e situação ("sem condenação definitiva" quando for o caso).
 11) CONCORRÊNCIA: nomes de Imperatriz com perfil parecido (segurança, PSD) e possíveis rivais em 2028, com presença digital.
 12) FOTO: 1 foto oficial em alta (site da Câmara, da Prefeitura ou TSE), com link. Salve o arquivo.
-Ao final: LACUNAS e FONTES (link + data). Salve prints em /prints: perfil do Instagram, os 3 melhores posts, página oficial da Câmara, foto oficial e 2 matérias principais.
+Ao final: LACUNAS e FONTES (link + data). Salve o documento e o zip com o nome "Dossiê - Ricardo Seidel". Salve prints em /prints: perfil do Instagram, os 3 melhores posts, página oficial da Câmara, foto oficial e 2 matérias principais.
 ```
