@@ -16,6 +16,8 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 
 ## RESUMO CONSOLIDADO (leia primeiro) — atualizado 15/11/2026, conta Zuleide
 
+> **26/11/2026 (conta Leandro) · REPROVADO:** carrossel 1.2 v3 (preto e amarelo, Instrument Serif, limpo): "não gostei". 3ª reprovação seguida da mesma peça → regra das 2 reprovações: parar e pedir ao Lindson que escolha a referência (artes v2, carrossel da bio ou capas Economist) antes da v4.
+
 > **26/11/2026 (conta Leandro) · REPROVADO + DECISÃO DE IDENTIDADE:** carrossel 1.2 v1 no estilo Provedor (faixas, Anton pesado, recorte com rim light): "péssimo essa composição. não é essa identidade". v2 na paleta Al Kántara (creme/latão) também não: "identidade premium, marca de luxo, limpa e bonita… mas use a minha identidade… preto e amarelo". **Decidido: conteúdo de CEO = identidade dele PRETO E AMARELO (#0A0A0A + #F5C518, assinatura "lindson almeida•" em Manrope 800) com composição de marca de luxo limpa: Instrument Serif grande, JetBrains Mono nos rótulos, foto cinematográfica inteira sem recorte, xadrez preto/amarelo entre telas, sem faixas, sem selos, sem colagem.** v3 em `autoridade-ceo-v1/carrosseis/c12-violinista/v3/`, aguardando.
 
 > **26/11/2026 (conta Leandro) · REPROVADO:** roteiros de carrossel v1 das linhas de CEO: "não quero coisas chatas e clichês, gere gatilho, curiosidades, pesquise". Regra: todo roteiro abre com história ou dado REAL pesquisado (com fonte), gancho com loop aberto e lição só no fim. v2 em `autoridade-ceo-v1/carrosseis/ROTEIROS-v2.md`.
