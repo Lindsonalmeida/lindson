@@ -16,6 +16,8 @@ Compilado em 03/11/2026 pela conta Lindson, a partir da conversa completa (22/10
 
 ## RESUMO CONSOLIDADO (leia primeiro) — atualizado 15/11/2026, conta Zuleide
 
+> **26/11/2026 (conta Leandro) · FOTOS:** "exclua as fotos do drive do painel, fiz novas fotos para usar, upei hoje". Excluídas as 16 fotos IA do Drive (16/11) do admin; valem as 7 fotos novas de estúdio enviadas em 26/11 (admin → Fotos). Peças novas da marca usam só esse lote.
+
 > **25/11/2026 (conta Leandro) · PEDIDO: autoridade como CEO.** "preciso rever toda a minha comunicação para gerar autoridade para mim… não quero só o lado político: quero ser visto como CEO e autoridade." Entregue o Plano de Autoridade v1 (`agencia/marca-lindson/autoridade-ceo-v1/`, PDF 26 p. + PLANO.md), aguardando. Decisões pendentes dele: (1) cargo "Fundador e CEO" em tudo menos vereador; (2) cor do perfil pessoal (amarelo aprovado × paleta Al Kántara); (3) política como prática pessoal "Lindson Almeida · Estratégia Política" e regra "um mandato por cidade". Pergunta do Maquiavel: quais campanhas e mandatos dos 14 anos podem ser citados.
 
 > **21/11/2026 (conta Pedro) · Leo Pinto: identidade v2 NÃO está aprovada.** Lindson: "essa nova identidade do leo pinto não está aprovada, você nunca acertou". O "gostei de quase tudo" de 18/11 NÃO era aprovação. Valem só: logo e cores do partido. Identidade v1, v2 e as redes v2–v5 = reprovadas. Regra: não chamar nada de aprovado sem a palavra "aprovado" dele; para a próxima versão, primeiro ele escolhe 2–3 referências concretas (regra das 2 reprovações).
