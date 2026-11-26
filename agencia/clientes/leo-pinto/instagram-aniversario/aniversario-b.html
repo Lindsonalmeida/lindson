@@ -43,7 +43,7 @@ document.getElementById('arte').innerHTML=`<div class="arte${d.story?' st':''}">
 <div class="a eco e1">PARABÉNS</div><div class="a eco e2">PARABÉNS</div><div class="a eco e3">PARABÉNS</div>
 <img class="a pessoa" src="${d.foto}" style="top:${d.story?(d.topoStory||520):(d.topoB||300)}px;width:${d.story?(d.larguraStory||1000):(d.larguraB||900)}px;margin-left:${d.dx||0}px">
 <div class="a chao"></div>
-${frase?`<div class="a frase">${frase}</div>`:''}
+${frase?`<div class="a frase" style="${d.fraseTopo?`top:${d.fraseTopo}px;`:""}${d.fraseEsq!=null?`left:${d.fraseEsq}px;`:""}">${frase}</div>`:''}
 ${dia?`<div class="a data"><b>${dia}</b>${mes||''}</div>`:''}
 <div class="a nome" id="nm"><b>${nome}</b><i>${d.subtitulo||'HOJE É O SEU DIA'}</i></div>
 <div class="a script">${d.chamada||'Parabéns!'}</div>

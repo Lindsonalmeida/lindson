@@ -33,4 +33,4 @@ O Lindson: "crie mais dois modelos da arte de parabéns, ele não gostou dessa, 
 
 **Regra do Lindson (26/11/2026): "sempre melhorando e dando upscale".** Toda foto de aniversariante passa SEMPRE pelo `melhorar_foto.py` (Real-ESRGAN x2) antes do recorte, e o recorte usa a foto HD. Foto pequena ou de corpo inteiro: recortar do rosto à cintura antes do upscale.
 
-**Regra (Lindson, 26/11/2026): "tire as frases do rosto do leo".** A frase grifada nunca cobre rosto (do Leo ou de quem for). Se cobrir, use `"frase":""` (o modelo B some com o bloco) ou ajuste `topo`/`dx`.
+**Regra (Lindson, 26/11/2026): "tire as frases do rosto do leo".** A frase grifada nunca cobre rosto (do Leo ou de quem for). Se cobrir, MOVA a frase com `"fraseTopo"` (px, ex.: 1080 no story) e `"fraseEsq"`; não tirar a frase (Lindson: "não tire a frase, só tire de cima do rosto").
