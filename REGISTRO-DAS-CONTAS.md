@@ -434,3 +434,4 @@ Levantado pela conta Lindson em 01/11/2026 a partir do histórico do git e dos a
 | 26/11/2026 | Leandro | Roteiros de carrossel v2 (25, com fato real e fonte, gatilhos); v1 reprovada | agencia/marca-lindson/autoridade-ceo-v1/carrosseis/ROTEIROS-v2.md | aguardando |
 | 26/11/2026 | Leandro | Carrossel CEO 1.2 'O violinista no metrô' (7 telas, padrão Provedor v2, fotos novas 26/11) + legenda | agencia/marca-lindson/autoridade-ceo-v1/carrosseis/c12-violinista/ + admin-rede | aguardando |
 | 26/11/2026 | Leandro | Carrossel CEO 1.2 v2 'O violinista no metrô' na identidade premium Al Kántara (v1 reprovada) | agencia/marca-lindson/autoridade-ceo-v1/carrosseis/c12-violinista/v2/ + admin-rede | aguardando |
+| 26/11/2026 | Leandro | Carrossel CEO 1.2 v3 'O violinista no metrô' (preto e amarelo, premium limpo); v1 e v2 fora | agencia/marca-lindson/autoridade-ceo-v1/carrosseis/c12-violinista/v3/ + admin-rede | aguardando |
