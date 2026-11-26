@@ -1,0 +1,71 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<!-- Carrossel 1.2 v2 (conta Leandro, 26/11/2026). v1 (preto/amarelo, faixas, recorte) REPROVADA: "péssimo essa composição. não é essa identidade".
+     v2 na identidade do Plano de Autoridade CEO = Al Kántara v2.1 (aprovada como padrão premium): Tinta/Calcário/Grafite, Latão só detalhe,
+     Fraunces editorial + Inter Tight + JetBrains Mono, foto cinematográfica inteira (lote 26/11), sem recorte, sem faixas, sem cara de anúncio.
+     Composição: Lippincott (serifada editorial gigante) + Debbie Millman (nome/tese grande) + capas de revista de negócios. -->
+<style>
+@font-face{font-family:F;src:url(../../../../../marca-holding/v2/fontes/Fraunces-Regular.ttf);font-weight:400}
+@font-face{font-family:F;src:url(../../../../../marca-holding/v2/fontes/Fraunces-SemiBold.ttf);font-weight:600}
+@font-face{font-family:F;font-style:italic;src:url("../../../../../marca-holding/v2/fontes/Fraunces-Italic%5BSOFT,WONK,opsz,wght%5D.ttf")}
+@font-face{font-family:I;src:url(../../../../../marca-holding/v2/fontes/InterTight-Medium.ttf);font-weight:500}
+@font-face{font-family:I;src:url(../../../../../marca-holding/v2/fontes/InterTight-SemiBold.ttf);font-weight:600}
+@font-face{font-family:M;src:url(../../../../../marca-holding/v2/fontes/JetBrainsMono-Medium.ttf);font-weight:500}
+:root{--ink:#0B0C0E;--lime:#EFEAE1;--graph:#1A1C20;--brass:#B8955A;--stone:#8E8A82}
+*{box-sizing:border-box;margin:0;padding:0}html,body{background:#000;overflow:hidden}
+.a{position:relative;width:1080px;height:1350px;overflow:hidden;background:var(--ink);color:var(--lime);font-family:I}
+.l{background:var(--lime);color:var(--ink)}
+.abs{position:absolute}
+.mono{font:500 19px M;letter-spacing:.18em;text-transform:uppercase}
+.br{color:var(--brass)}.l .br{color:#7a5f30}
+.it{font-style:italic;color:var(--brass)}.l .it{color:#8a6a35}
+.h{font:400 92px/1.0 F;letter-spacing:-.015em}
+.p{font:500 32px/1.45 I;opacity:.88}
+.rule{height:1px;background:currentColor;opacity:.25}
+.grain:after{content:"";position:absolute;inset:0;pointer-events:none;opacity:.06;background-image:url(../../../gerador/grao.png)}
+.hd{position:absolute;left:80px;right:80px;top:64px;display:flex;justify-content:space-between;align-items:center;z-index:5}
+.sig{font:400 30px F;letter-spacing:-.01em}.sig span{font:500 14px M;letter-spacing:.2em;opacity:.6;margin-left:12px;vertical-align:middle}
+.pg{font:500 17px M;letter-spacing:.18em;opacity:.6}
+.foto{position:absolute;inset:0;background-size:cover;background-position:50% 20%}
+</style></head><body><div id="x"></div><script>
+const q=new URLSearchParams(location.search).get('a')||'1', F='../rec-v2/';
+const hd=(n,esc)=>`<div class="hd"><div class="sig">Lindson Almeida<span>FUNDADOR · CEO</span></div><div class="pg">${n?n+' / 07':'ARRASTE →'}</div></div>`;
+const S={
+1:`<div class="a grain"><div class="foto" style="background-image:url(${F}capa.jpg);background-position:50% 18%"></div>
+<div class="abs" style="inset:0;background:linear-gradient(180deg,rgba(11,12,14,.55) 0,rgba(11,12,14,0) 22%,rgba(11,12,14,0) 42%,rgba(11,12,14,.92) 70%,#0B0C0E 100%)"></div>${hd()}
+<div class="abs" style="left:80px;right:80px;bottom:110px"><div class="mono br">Washington · 12 de janeiro de 2007</div>
+<div class="h" style="margin-top:26px;font-size:100px">Ele tocou um Stradivarius no metrô. <span class="it">Quase ninguém parou.</span></div></div></div>`,
+2:`<div class="a l grain">${hd('02')}
+<div class="abs mono br" style="left:80px;top:230px">Estação L’Enfant Plaza · sexta-feira</div>
+<div class="abs" style="left:66px;top:270px;font:400 330px/.9 F;letter-spacing:-.04em">7<span class="it">:</span>51</div>
+<div class="abs rule" style="left:80px;right:80px;top:650px"></div>
+<div class="abs" style="left:80px;right:80px;top:700px"><div class="h" style="font-size:70px">Hora do rush. Um homem de boné abre o estojo e começa a tocar.</div>
+<p class="p" style="margin-top:34px;max-width:860px">Ao redor, gente atrasada para o trabalho, café na mão, olhos no relógio.</p></div></div>`,
+3:`<div class="a grain" style="background:var(--graph)">${hd('03')}
+<div class="abs mono br" style="left:80px;top:230px">Quem era ele</div>
+<div class="abs h" style="left:80px;right:80px;top:280px;font-size:120px">Joshua <span class="it">Bell.</span></div>
+<div class="abs p" style="left:80px;right:120px;top:520px;font-size:40px;line-height:1.4">Um dos violinistas mais aclamados do mundo. Três dias antes, tinha lotado o Symphony Hall de Boston.</div>
+<div class="abs" style="left:80px;right:80px;bottom:150px;display:grid;grid-template-columns:1fr 1fr;gap:60px">
+<div style="border-top:1px solid rgba(239,234,225,.25);padding-top:26px"><div style="font:400 120px/.9 F" class="br">1713</div><div class="mono" style="margin-top:18px;opacity:.7;font-size:16px">ano do Stradivarius que ele tocava</div></div>
+<div style="border-top:1px solid rgba(239,234,225,.25);padding-top:26px"><div style="font:400 120px/.9 F;white-space:nowrap" class="br">US$ 100</div><div class="mono" style="margin-top:18px;opacity:.7;font-size:16px">cerca de, por um bom lugar em Boston</div></div></div></div>`,
+4:`<div class="a l grain">${hd('04')}
+<div class="abs mono br" style="left:80px;top:230px">Em cerca de 45 minutos</div>
+<div class="abs" style="left:80px;right:80px;top:290px">${[['1.097','pessoas passaram'],['7','pararam para ouvir'],['1','o reconheceu']].map(x=>`<div style="display:flex;align-items:baseline;justify-content:space-between;padding:22px 0;border-top:1px solid rgba(11,12,14,.2)"><span style="font:400 120px/.95 F">${x[0]}</span><span style="font:500 30px I;opacity:.8">${x[1]}</span></div>`).join('')}
+<div style="display:flex;align-items:baseline;justify-content:space-between;padding:26px 0;border-top:2px solid #8a6a35"><span style="font:italic 400 140px/.95 F;color:#8a6a35">US$ 32</span><span style="font:500 30px I">foi o que ele juntou</span></div></div>
+<div class="abs mono" style="left:80px;right:80px;bottom:64px;font-size:14px;opacity:.55;line-height:1.7">US$ 32,17, sem contar US$ 20 de quem o reconheceu · The Washington Post (2007), NPR</div></div>`,
+5:`<div class="a grain">${hd('05')}
+<div class="abs" style="left:80px;right:80px;top:300px;font:400 118px/1.08 F;letter-spacing:-.02em">Mesmo talento.<br>Mesmo violino.<br>Mesma música.<br><span class="it">Outro contexto.</span></div>
+<div class="abs rule" style="left:80px;width:140px;bottom:200px;height:2px;background:var(--brass);opacity:1"></div>
+<div class="abs mono" style="left:80px;bottom:140px;opacity:.6">O que mudou foi só o lugar</div></div>`,
+6:`<div class="a l grain">${hd('06')}
+<div class="abs mono br" style="left:80px;top:230px">A lição</div>
+<div class="abs" style="left:80px;right:80px;top:280px;font:italic 400 96px/1.04 F;letter-spacing:-.015em">As pessoas não avaliam o talento. <span style="color:#8a6a35">Avaliam o lugar onde ele aparece.</span></div>
+<div class="abs rule" style="left:80px;right:80px;top:900px"></div>
+<div class="abs p" style="left:80px;right:80px;top:950px">No seu negócio, o “lugar” é a foto, a bio, o atendimento e a proposta. Ser bom é o mínimo: o cliente precisa conseguir enxergar.</div></div>`,
+7:`<div class="a grain"><div class="foto" style="background-image:url(${F}cta.jpg);background-position:50% 25%"></div>
+<div class="abs" style="inset:0;background:linear-gradient(180deg,rgba(11,12,14,.5) 0,rgba(11,12,14,0) 20%,rgba(11,12,14,0) 45%,rgba(11,12,14,.93) 72%,#0B0C0E)"></div>${hd('07')}
+<div class="abs" style="left:80px;right:80px;bottom:120px"><div class="h" style="font-size:88px">Onde o seu talento está tocando hoje: <span class="it">no teatro ou no metrô?</span></div>
+<div class="abs rule" style="left:0;right:0;bottom:-46px"></div>
+<div class="mono" style="position:absolute;left:0;bottom:-90px;font-size:16px;opacity:.7">Salve · envie para quem é bom e ninguém vê</div></div></div>`};
+document.getElementById('x').innerHTML=S[q];
+document.fonts.ready.then(()=>Promise.all([...document.images].map(i=>i.complete?1:new Promise(r=>{i.onload=i.onerror=r})))).then(()=>setTimeout(()=>window.pronto=1,300));
+</script></body></html>
