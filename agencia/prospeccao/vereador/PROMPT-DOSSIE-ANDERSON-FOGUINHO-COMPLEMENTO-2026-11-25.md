@@ -1,0 +1,20 @@
+# Complemento da extensão · Anderson Foguinho · 25/11/2026
+
+Use este prompt na extensão logada apenas para completar os itens em aberto do dossiê já pesquisado. Relatórios-base e complementos estão em `CentralLindsonALmeida/dados/clientes-arquivos/anderson-foguinho/material/`. Não reescreva fatos confirmados salvo se encontrar fonte primária mais recente e registrar a divergência.
+
+```text
+REGRA Nº 1 · COMPLETE SÓ O QUE FALTOU, MAS COMPLETE TUDO. Não entregue parcial. Para cada item ❌, tente 3 caminhos públicos diferentes; registre os caminhos e pare se pedir senha/código/pagamento adicional.
+
+JÁ TEMOS (conferir a grafia oficial, sem inventar): o lead do SDR está como Vereador Foguinho, Instagram @vereadorfoguinho, Aceguá/RS, WhatsApp 5553999070469, fonte https://sapl.acegua.rs.leg.br/parlamentar/1. O TSE confirma candidatura eleita em 2024 pelo PSDB; os relatórios existentes documentam os votos de 2008, 2012 e 2016. A identificação de pesquisa é Anderson Barcelos Correa/Anderson Foguinho. Antes de enviar qualquer mensagem, confirme a identidade com o registro oficial.
+
+Já foram pesquisados TCE-RS PRE/1150378 e processo 008170-0200/25-4; a lista mostra títulos de peças, mas não o teor. O arquivo oficial de decisões registra sessão em 08/10/2025 com campo DECISAO vazio. DivulgaCandContas associa a prestação de 2024 ao processo 0600364-68.2024.6.21.0007, sem decisão final visível. Não inferir condenação, cumprimento, aprovação ou rejeição das contas pelos títulos.
+
+1) TCE-RS: no navegador, abra o PRE/1150378 e cada peça relevante do processo 008170-0200/25-4, inclusive Decisão, certidão de trânsito, termo de cumprimento e certidão 176/2025-CM Aceguá. Registre conteúdo, data, órgão, partes, resultado e eventual recurso, com link direto e páginas. Confirme se a decisão se refere ao agente pesquisado ou à Câmara. Se o documento não abrir, tente busca processual do TCE-RS e Diário Oficial; não atribua consequência sem texto.
+2) TSE/PJe: abra o processo 0600364-68.2024.6.21.0007 e confirme situação final das contas eleitorais de 2024, data e órgão julgador. Tente DivulgaCandContas, PJe eleitoral e Diário da Justiça Eletrônico. Não escreva “aprovadas” sem decisão expressa.
+3) FOTO: procure retrato público individual de Anderson, com identidade ligada a página institucional ou perfil oficial, arquivo original com pelo menos 1000 px de altura, rosto nítido e crédito de publicação/fotógrafo. Tente Câmara/SAPL e notícias da Câmara, posts públicos do perfil e TSE/DivulgaCand. Não use homônimo, grupo sem identificação individual, arte de campanha ou imagem ampliada. Salve uma capa e 3–5 fotos de ação; se não houver, entregue URLs diretas, dimensões e 3 caminhos tentados.
+4) INSTAGRAM @vereadorfoguinho: use a sessão pública/logada já autorizada da extensão; não contorne login, não solicite nem salve senha. Registre seguidores, seguindo, total de posts, bio, link e destaques; frequência nos últimos 30 dias; os 12 posts mais recentes em ordem cronológica inversa, com data, formato, tema, permalink, curtidas, comentários e collab/próprio; média de interações ÷ seguidores, mostrando a conta; três melhores e três piores. Se a grade não abrir, registre os 3 caminhos públicos tentados e não invente CSV.
+5) MANDATO E MÍDIA: atualizar projetos, requerimentos, comissões, presença, ações públicas e cobertura jornalística até a data da consulta; classificar cada veículo como favorável, crítico ou neutro, com evidência.
+6) LACUNAS, FONTES E ARQUIVOS: anexe prints do perfil, dos três melhores posts, SAPL/Câmara, TSE e matérias; cada imagem com fonte, data e crédito. Entregue `Dossiê - Anderson Foguinho - complemento.md`, pasta `/prints`, `/fotos` e `instagram-12-posts.csv` só se os 12 permalinks forem efetivamente verificados. Ao fim, checklist dos itens 1–6 como ✅ ou ❌, com 3 caminhos tentados em cada ❌.
+
+Toda informação tem link e data. Não use homônimos. Não transforme registro administrativo em condenação. Não gere PDF final enquanto a capa não atender ao mínimo de 1000 px e a pesquisa tiver sido conferida.
+```
