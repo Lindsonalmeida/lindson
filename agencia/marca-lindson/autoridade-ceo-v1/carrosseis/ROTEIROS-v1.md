@@ -1,5 +1,7 @@
 # 25 roteiros de carrossel · 5 por linha editorial (conta Leandro, 26/11/2026)
 
+> **REPROVADO (Lindson, 26/11/2026): "não quero coisas chatas e clichês, gere gatilho, curiosidades, pesquise".** Substituído por `ROTEIROS-v2.md`.
+
 > Pedido do Lindson: "crie 5 roteiros virais de carrossel, para cada linha". Linhas do Plano de Autoridade CEO v1 (`../PLANO.md`).
 > Situação: **aguardando aprovação** (só texto; artes depois da decisão da cor do perfil).
 > Regras aplicadas: gancho na capa em até 8 palavras; 1 ideia por tela; tela 2 segura (promete o que vem); penúltima com a virada; última com CTA de salvar/enviar/comentar; sem promessa de resultado, sem preço, sem número inventado; Leo é situação; case só com autorização (marcado ⚠).
