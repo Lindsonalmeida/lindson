@@ -1,0 +1,54 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<!-- Carrossel 1.2 v4 (conta Pedro, 26/11/2026): Lindson escolheu "A e B" = capa e fecho no modelo das artes v2 (foto + palavra gigante amarela atrás da cabeça, frase com caixa amarela) + miolo no modelo do carrossel "Arrume a sua bio" (preto, tipografia, número gigante, mono, caixa amarela, problema × solução). -->
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{--p:#0A0A0A;--t:#F5F3EE;--ap:#A7A39A;--am:#F5C518}
+*{box-sizing:border-box;margin:0;padding:0}html,body{background:#000;overflow:hidden;font-family:Manrope,sans-serif;-webkit-font-smoothing:antialiased}
+.a{position:relative;width:1080px;height:1350px;overflow:hidden;background:var(--p);color:var(--t)}.abs{position:absolute}
+.marca{font:800 30px Manrope;letter-spacing:-.02em}.marca i{display:inline-block;width:12px;height:12px;border-radius:50%;background:var(--am);margin-left:4px}
+.mono{font-family:'JetBrains Mono';font-weight:500;letter-spacing:.08em;text-transform:uppercase}
+.h{font:800 84px/1 Manrope;letter-spacing:-.05em;text-wrap:balance}
+.cx{background:var(--am);color:var(--p);padding:0 .14em;margin:0 -.04em;display:inline-block;line-height:1.04;box-shadow:0 12px 30px rgba(245,197,24,.28)}
+.ant{font-family:Anton;text-transform:uppercase;line-height:.86}
+.ouro{background:linear-gradient(180deg,#FFE27A 0%,#F5C518 45%,#D99A06 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.p{font:500 32px/1.42 Manrope;color:#D8D4CB}.p b{color:var(--t)}
+.fan{color:#1C1C1C}
+.grao{position:absolute;inset:0;pointer-events:none;opacity:.10;mix-blend-mode:overlay;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.box{border:2px solid #2a2a2a;padding:30px 34px}.box.y{border-color:var(--am)}
+</style></head><body><div id="x"></div><script>
+const i=+new URLSearchParams(location.search).get('a')||1,T=7;
+const topo=r=>`<div class="abs marca" style="left:70px;top:64px">lindson almeida<i></i></div><div class="abs mono" style="right:70px;top:72px;font-size:20px;color:var(--ap)">${r}</div>`;
+const rod=(e)=>`<div class="abs mono" style="left:70px;bottom:60px;font-size:21px;color:var(--am)">${e||''}</div><div class="abs mono" style="right:70px;bottom:60px;font-size:21px;color:var(--ap)">0${i} / 0${T}</div>`;
+const foto=(f,top,w,word,fs,wt)=>`<img class="abs" src="rec/${f}.jpg" style="left:${(1080-w)/2}px;top:${top}px;width:${w}px;filter:brightness(.8)">
+<div class="abs ant ouro" style="left:0;right:0;top:${wt}px;text-align:center;font-size:${fs}px">${word}</div>
+<img class="abs" src="rec/${f}.png" style="left:${(1080-w)/2}px;top:${top}px;width:${w}px;filter:brightness(.8) drop-shadow(18px 26px 22px rgba(0,0,0,.55))">
+<div class="abs" style="inset:0;background:linear-gradient(180deg,rgba(10,10,10,.45) 0,transparent 16%,transparent 52%,rgba(10,10,10,.97) 80%)"></div>`;
+const S={
+1:`${foto('capa',-40,1180,'METRÔ',360,150)}${topo('WASHINGTON · 2007')}
+<div class="abs" style="left:70px;right:70px;bottom:130px"><div class="h">Ele tocou um Stradivarius no metrô. Quase <span class="cx">ninguém parou</span>.</div></div>
+<div class="abs mono" style="left:70px;bottom:60px;font-size:21px;color:var(--am)">ARRASTE PARA O LADO →</div><div class="abs mono" style="right:70px;bottom:60px;font-size:21px;color:var(--ap)">01 / 07</div>`,
+2:`${topo('A CENA')}<div class="abs ant fan" style="right:40px;top:150px;font-size:400px">7H51</div>
+<div class="abs mono" style="left:70px;top:300px;font-size:22px;color:var(--am)">12 DE JANEIRO DE 2007</div>
+<div class="abs" style="left:70px;right:70px;top:360px"><div class="h">Um músico de boné, na <span class="cx">hora do rush</span>.</div></div>
+<div class="abs p" style="left:70px;right:180px;top:720px">Estação L'Enfant Plaza, em Washington. Ele abriu o estojo, colocou o chapéu no chão e começou a tocar.</div>${rod()}`,
+3:`${topo('QUEM ERA')}<div class="abs mono" style="left:70px;top:230px;font-size:22px;color:var(--am)">O MÚSICO</div>
+<div class="abs" style="left:70px;right:70px;top:290px"><div class="h">Era <span class="cx">Joshua Bell</span>.</div></div>
+<div class="abs p" style="left:70px;right:120px;top:470px">Um dos violinistas mais famosos do mundo, com um Stradivarius de <b>1713</b>.</div>
+<div class="abs box" style="left:70px;right:70px;top:780px"><div class="mono" style="font-size:20px;color:var(--ap)">DIAS ANTES</div><div style="font:700 40px/1.25 Manrope;margin-top:12px">Tinha lotado um teatro em Boston.</div></div>${rod()}`,
+4:`${topo('O RESULTADO')}<div class="abs ant ouro" style="left:60px;top:200px;font-size:520px">32</div>
+<div class="abs mono" style="left:76px;top:660px;font-size:24px;color:var(--am)">DÓLARES E UNS TROCADOS</div>
+<div class="abs p" style="left:70px;right:120px;top:760px">Em cerca de <b>45 minutos</b>, mais de <b>mil pessoas</b> passaram por ele.</div>
+<div class="abs" style="left:70px;right:70px;top:1000px"><div class="h" style="font-size:70px">Quase <span class="cx">ninguém</span> parou.</div></div>${rod()}`,
+5:`${topo('A VIRADA')}<div class="abs" style="left:70px;top:230px;width:440px"><div class="mono" style="font-size:20px;color:var(--ap)">TEATRO</div><div style="font:800 54px/1.08 Manrope;margin-top:16px;letter-spacing:-.04em">Mesmo talento.<br>Mesmo violino.</div><div class="p" style="margin-top:22px">Ingresso esgotado.</div></div>
+<div class="abs" style="left:539px;top:230px;width:2px;height:520px;background:var(--am)"></div>
+<div class="abs" style="left:580px;top:230px;width:430px"><div class="mono" style="font-size:20px;color:var(--am)">METRÔ</div><div style="font:800 54px/1.08 Manrope;margin-top:16px;letter-spacing:-.04em">Mesmo talento.<br>Mesmo violino.</div><div class="p" style="margin-top:22px">US$ 32.</div></div>
+<div class="abs" style="left:70px;right:70px;top:930px"><div class="h">Só mudou o <span class="cx">contexto</span>.</div></div>${rod()}`,
+6:`${topo('A LIÇÃO')}<div class="abs ant fan" style="right:40px;top:140px;font-size:460px">06</div>
+<div class="abs" style="left:70px;right:70px;top:340px"><div class="h">As pessoas não avaliam o talento. Avaliam <span class="cx">onde ele aparece</span>.</div></div>
+<div class="abs box" style="left:70px;right:70px;top:860px"><div class="mono" style="font-size:20px;color:var(--ap)">NO SEU NEGÓCIO</div><div style="font:600 34px/1.35 Manrope;margin-top:12px">Perfil, vitrine e atendimento são o teatro. Ou o metrô.</div></div>${rod()}`,
+7:`${foto('cta',-20,1140,'TEATRO',330,140)}${topo('E VOCÊ?')}
+<div class="abs" style="left:70px;right:70px;bottom:170px"><div class="h" style="font-size:76px">Onde o seu talento está tocando hoje: no <span class="cx">teatro</span> ou no metrô?</div></div>
+<div class="abs mono" style="left:70px;bottom:60px;font-size:21px;color:var(--am)">ENVIE PARA QUEM É BOM E NINGUÉM PERCEBE</div><div class="abs mono" style="right:70px;bottom:60px;font-size:21px;color:var(--ap)">07 / 07</div>`};
+document.getElementById('x').innerHTML=`<div class="a">${S[i]}<div class="grao"></div></div>`;
+Promise.all([document.fonts.ready,...[...document.images].map(m=>m.complete?1:new Promise(r=>m.onload=m.onerror=r))]).then(()=>window.pronto=true);
+</script></body></html>

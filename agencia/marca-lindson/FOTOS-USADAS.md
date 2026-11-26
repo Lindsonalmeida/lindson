@@ -38,3 +38,4 @@ Variações (05/11, conta Pedro): o Lindson liberou "pode criar variações com 
 
 **26/11/2026 (conta Leandro) · LOTE NOVO:** o Lindson subiu 7 fotos novas de estúdio (camisa preta, fundo grafite) no painel admin → Fotos (`/api/automacao?fila=fotos&cli=lindson`, ids mwxpl…). Ainda nenhuma usada. As 16 "escolhidas do Drive 16/11" (IA) foram EXCLUÍDAS do painel a pedido dele: não usar mais.
 | mwxplx55aslk5b (recorte BiRefNet, busto) e mwxpm0m2c0dgkr (recorte, mão no queixo) — lote 26/11 | Carrossel CEO 1.2 "O violinista no metrô": capa e CTA, `autoridade-ceo-v1/carrosseis/c12-violinista/` | 26/11/2026 | Leandro |
+| Lote 26/11 enviado na conversa: em pé (capa) e sentado mãos no joelho (CTA) | Carrossel CEO 1.2 violinista **v4** (A+B), `autoridade-ceo-v1/carrosseis/c12-violinista/v4/` | 26/11/2026 | Pedro |
