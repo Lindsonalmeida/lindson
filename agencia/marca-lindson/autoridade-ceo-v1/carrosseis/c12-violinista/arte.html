@@ -1,0 +1,88 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<!-- Carrossel 1.2 "O violinista no metrô" (conta Leandro, 26/11/2026). Roteiro: ../ROTEIROS-v2.md.
+     Composição copiada da linha Provedor v2 (aprovada 14/11): Anton gigante, amarelo #F5C518 só de acento, faixas, grade, selo, grão, número em contorno.
+     Fotos: lote novo do Lindson (26/11), só capa e última tela. Sem foto de terceiros (bancos bloqueados nesta sessão): telas do meio em tipografia com camadas. -->
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@500;700;800&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{--p:#0A0A0A;--g:#161616;--t:#F5F3EE;--ap:#B5B0A6;--am:#F5C518}
+*{box-sizing:border-box;margin:0;padding:0}html,body{background:#000;overflow:hidden;font-family:Manrope}
+.a{position:relative;width:1080px;height:1350px;overflow:hidden;background:var(--p);color:var(--t)}
+.abs{position:absolute}
+.marca{font:800 30px Manrope;letter-spacing:-.02em}.marca i{display:inline-block;width:12px;height:12px;border-radius:50%;background:var(--am);margin-left:4px}
+.mono{font-family:'JetBrains Mono';font-weight:500;letter-spacing:.12em}
+.ant{font-family:Anton;text-transform:uppercase;line-height:.9}
+.h{font:800 66px/1.04 Manrope;letter-spacing:-.045em;text-wrap:balance}
+.am{color:var(--am)}.cx{background:var(--am);color:var(--p);padding:0 .12em;display:inline-block;line-height:1.05}
+.grade{position:absolute;inset:0;background-image:linear-gradient(rgba(245,197,24,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(245,197,24,.08) 1px,transparent 1px);background-size:90px 90px;-webkit-mask-image:radial-gradient(70% 60% at 50% 45%,#000,transparent);mask-image:radial-gradient(70% 60% at 50% 45%,#000,transparent)}
+.grao{position:absolute;inset:0;pointer-events:none;opacity:.22;mix-blend-mode:overlay;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.vin{position:absolute;inset:0;background:radial-gradient(90% 75% at 50% 40%,transparent 40%,rgba(0,0,0,.85))}
+.pes{position:absolute;filter:brightness(.95) contrast(1.08) drop-shadow(-3px -2px 0 rgba(255,200,60,.5)) drop-shadow(0 0 26px rgba(245,170,24,.4)) drop-shadow(0 40px 50px rgba(0,0,0,.7))}
+.fx{position:absolute;left:-100px;width:1400px;height:74px;background:var(--am);color:var(--p);display:flex;align-items:center;white-space:nowrap;overflow:hidden;font:400 40px Anton;letter-spacing:.06em;box-shadow:0 20px 50px rgba(0,0,0,.5)}
+.fxp{background:#0A0A0A;color:var(--am);border-top:2px solid var(--am);border-bottom:2px solid var(--am)}
+.vidro{background:rgba(20,20,20,.6);border:1px solid rgba(245,197,24,.35)}
+.pag{position:absolute;right:70px;bottom:50px;font:500 21px 'JetBrains Mono';letter-spacing:.12em;z-index:9}
+.flap{display:inline-flex;gap:6px}.flap b{display:inline-block;width:58px;height:92px;background:linear-gradient(180deg,#232323 0 49%,#0c0c0c 49% 51%,#1d1d1d 51%);border-radius:6px;font:400 70px/92px Anton;text-align:center;color:var(--am);box-shadow:inset 0 0 0 1px rgba(255,255,255,.06),0 10px 20px rgba(0,0,0,.5)}
+.flap b.v{background:none;box-shadow:none;width:20px}
+</style></head><body><div id="x"></div><script>
+const q=new URLSearchParams(location.search).get('a')||'1';
+const topo=(r,esc)=>`<div class="abs" style="left:70px;right:70px;top:60px;display:flex;justify-content:space-between;align-items:center;z-index:9;color:${esc?'#0A0A0A':'#F5F3EE'}"><span class="marca">lindson almeida<i ${esc?'style="background:#0A0A0A"':''}></i></span><span class="mono" style="font-size:20px;padding:8px 16px;border:1px solid ${esc?'#0A0A0A':'rgba(245,197,24,.6)'};border-radius:99px;color:${esc?'#0A0A0A':'#F5C518'}">${r}</span></div>`;
+const luz=(x,y,r=420,o=.5)=>`<div class="abs" style="left:${x-r}px;top:${y-r}px;width:${2*r}px;height:${2*r}px;border-radius:50%;background:radial-gradient(closest-side,rgba(245,170,24,${o}),transparent);mix-blend-mode:screen"></div>`;
+const leak=()=>`<div class="abs" style="right:-200px;top:-150px;width:700px;height:900px;background:radial-gradient(closest-side,rgba(255,140,30,.4),transparent);transform:rotate(25deg);mix-blend-mode:screen"></div>`;
+const fx=(t,top,rot,p)=>`<div class="fx ${p?'fxp':''}" style="top:${top}px;transform:rotate(${rot}deg)">${(t+' ✦ ').repeat(12)}</div>`;
+const flap=s=>`<span class="flap">${[...s].map(c=>c===' '?'<b class="v"></b>':`<b>${c}</b>`).join('')}</span>`;
+const pg=n=>`<div class="pag">${n} / 07</div>`;
+const fim='<div class="grao"></div>';
+const fundo=`background:radial-gradient(120% 80% at 70% 20%,#2a2116 0,#121212 45%,#0A0A0A 75%)`;
+const S={
+// 1 · CAPA: Lindson à direita, 1713 em contorno atrás, manchete Anton
+1:`<div class="a" style="${fundo}"><div class="grade"></div>${luz(760,560,560,.5)}${leak()}
+<div class="abs ant" style="right:-30px;top:140px;font-size:400px;color:transparent;-webkit-text-stroke:3px rgba(245,197,24,.75)">1713</div>
+<img class="pes" src="rec/capa.png" style="right:-120px;bottom:0;width:820px">
+<div class="abs" style="left:0;right:0;bottom:0;height:640px;background:linear-gradient(0deg,#0A0A0A 38%,transparent)"></div>
+${topo('ARRASTE →')}
+<div class="abs" style="left:70px;right:70px;bottom:190px"><div class="mono am" style="font-size:22px;margin-bottom:22px">UMA HISTÓRIA REAL · WASHINGTON, 2007</div>
+<div class="ant" style="font-size:122px">Ele tocou um<br>Stradivarius<br>no metrô.</div>
+<div class="ant am" style="font-size:122px;margin-top:6px">Quase ninguém<br>parou.</div></div>${fim}</div>`,
+// 2 · PAINEL DE HORÁRIOS (split-flap)
+2:`<div class="a" style="${fundo}"><div class="grade"></div>${luz(540,520,520,.35)}${topo('O CENÁRIO')}
+<div class="abs mono" style="left:70px;top:200px;font-size:22px;color:var(--ap)">ESTAÇÃO · DATA · HORA</div>
+<div class="abs" style="left:70px;top:250px;display:grid;gap:14px">${flap('L’ENFANT PLAZA')}${flap('12 JAN 2007')}${flap('07:51')}</div>
+<div class="abs" style="left:70px;right:70px;top:700px"><div class="h">Sexta-feira, hora do rush, em Washington.</div>
+<p style="font:700 34px/1.4 Manrope;color:var(--ap);margin-top:30px">Um homem de boné abre o estojo do violino perto das escadas rolantes e começa a tocar. Quem passa está atrasado para o trabalho.</p></div>
+${fx('L’ENFANT PLAZA · METRÔ DE WASHINGTON',1160,-3,1)}${pg('02')}${fim}</div>`,
+// 3 · QUEM ERA ELE: número gigante US$ 100 em contorno + revelação
+3:`<div class="a" style="background:#121212">${topo('A REVELAÇÃO')}${luz(800,380,420,.35)}
+<div class="abs ant" style="left:50px;top:150px;font-size:330px;color:transparent;-webkit-text-stroke:3px #F5C518">US$100</div>
+<div class="abs" style="left:70px;right:70px;top:540px"><div class="h">O homem de boné era <span class="cx">Joshua Bell</span>, um dos violinistas mais aclamados do mundo.</div>
+<p style="font:700 32px/1.42 Manrope;color:var(--ap);margin-top:34px">Três dias antes, ele tinha lotado o Symphony Hall de Boston, onde bons lugares custavam cerca de US$ 100.</p></div>
+<div class="abs vidro" style="left:70px;right:70px;bottom:120px;padding:30px 34px;display:flex;gap:26px;align-items:center"><span class="ant am" style="font-size:84px">1713</span><span style="font:700 30px/1.35 Manrope">O violino era um Stradivarius feito em 1713.</span></div>
+${pg('03')}${fim}</div>`,
+// 4 · OS NÚMEROS
+4:`<div class="a" style="${fundo}"><div class="grade"></div>${topo('O RESULTADO')}
+<div class="abs" style="left:70px;right:70px;top:180px"><div class="h" style="font-size:60px">Ele tocou por cerca de 45 minutos.</div></div>
+<div class="abs" style="left:70px;right:70px;top:360px;display:grid;gap:0">
+${[['1.097','pessoas passaram por ele'],['7','pararam para ouvir'],['1','o reconheceu'],['US$ 32,17','foi o que ele juntou']].map((x,i)=>`<div style="display:flex;align-items:baseline;gap:30px;padding:26px 0;border-top:2px solid ${i==3?'#F5C518':'rgba(245,243,238,.15)'}"><span class="ant ${i==3?'am':''}" style="font-size:${i==3?150:120}px;min-width:${i==3?560:300}px">${x[0]}</span><span style="font:700 34px/1.2 Manrope;color:${i==3?'#F5C518':'#F5F3EE'}">${x[1]}</span></div>`).join('')}</div>
+<div class="abs mono" style="left:70px;right:260px;bottom:46px;font-size:15px;line-height:1.6;color:var(--ap)">SEM CONTAR OS US$ 20 DE QUEM O RECONHECEU<br>FONTE: THE WASHINGTON POST (2007) E NPR</div>${pg('04')}${fim}</div>`,
+// 5 · VIRADA: faixas cruzadas
+5:`<div class="a" style="${fundo}">${luz(540,640,560,.45)}${topo('A VIRADA')}
+<div class="abs ant" style="left:70px;right:70px;top:190px;font-size:150px">Mesmo<br>talento.</div>
+${fx('MESMO VIOLINO',600,-6)}${fx('MESMA MÚSICA',720,4,1)}
+<div class="abs ant am" style="left:70px;right:70px;top:880px;font-size:150px">Outro<br>contexto.</div>${pg('05')}${fim}</div>`,
+// 6 · LIÇÃO: painel amarelo
+6:`<div class="a" style="background:#141414">${topo('A LIÇÃO')}
+<div class="abs" style="left:70px;right:70px;top:180px"><div style="font:italic 400 108px/1.0 'Instrument Serif'">“As pessoas não avaliam o talento. Avaliam o lugar onde ele aparece.”</div></div>
+<div class="abs" style="left:0;right:0;top:660px;bottom:0;background:var(--am);color:#0A0A0A;padding:70px 70px">
+<div class="mono" style="font-size:20px;margin-bottom:22px">NO SEU NEGÓCIO</div>
+<div class="h" style="font-size:62px">Sua foto, sua bio, seu atendimento: é o teatro ou o metrô do que você faz.</div>
+<p style="font:700 30px/1.4 Manrope;margin-top:26px">Ser bom é o mínimo. O cliente precisa conseguir enxergar.</p></div><div class="pag" style="color:#0A0A0A">06 / 07</div>${fim}</div>`,
+// 7 · CTA: amarelo, Lindson, faixa preta
+7:`<div class="a" style="background:radial-gradient(75% 55% at 60% 35%,#FFDB4D 0,#F5C518 55%,#D89F06 100%);color:#0A0A0A">
+<div class="abs" style="inset:0;background:repeating-linear-gradient(115deg,rgba(255,255,255,.06) 0 2px,transparent 2px 9px)"></div>
+<div class="abs ant" style="left:0;right:0;top:130px;text-align:center;font-size:250px;color:rgba(10,10,10,.13)">CONTEXTO</div>
+<img class="pes" src="rec/cta.png" style="right:-60px;bottom:0;width:720px;filter:contrast(1.06) drop-shadow(0 40px 50px rgba(0,0,0,.35))">${topo('@LINDSONALMEIDA_',1)}
+<div class="abs" style="left:70px;top:420px;width:470px"><div class="h" style="font-size:64px">Onde o seu talento está tocando hoje?</div>
+<p style="font:700 28px/1.4 Manrope;margin-top:24px">No teatro ou no metrô?</p><div class="mono" style="display:inline-block;margin-top:34px;font-size:22px;background:#0A0A0A;color:#F5C518;padding:12px 18px">SALVE ESTE POST →</div></div>
+${fx('ENVIE PRA QUEM É BOM E NINGUÉM VÊ',1215,-3,1)}${fim}</div>`};
+document.getElementById('x').innerHTML=S[q];
+document.fonts.ready.then(()=>Promise.all([...document.images].map(i=>i.complete?1:new Promise(r=>{i.onload=i.onerror=r})))).then(()=>window.pronto=1);
+</script></body></html>

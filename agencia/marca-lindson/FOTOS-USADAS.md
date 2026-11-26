@@ -37,3 +37,4 @@ Variações (05/11, conta Pedro): o Lindson liberou "pode criar variações com 
 | lindson-03 (recorte vertical, sem a marca ✦) | Capa do PDF interno "Plano de Autoridade CEO v1" (documento para o Lindson, não publicado), `autoridade-ceo-v1/` | 25/11/2026 | Leandro |
 
 **26/11/2026 (conta Leandro) · LOTE NOVO:** o Lindson subiu 7 fotos novas de estúdio (camisa preta, fundo grafite) no painel admin → Fotos (`/api/automacao?fila=fotos&cli=lindson`, ids mwxpl…). Ainda nenhuma usada. As 16 "escolhidas do Drive 16/11" (IA) foram EXCLUÍDAS do painel a pedido dele: não usar mais.
+| mwxplx55aslk5b (recorte BiRefNet, busto) e mwxpm0m2c0dgkr (recorte, mão no queixo) — lote 26/11 | Carrossel CEO 1.2 "O violinista no metrô": capa e CTA, `autoridade-ceo-v1/carrosseis/c12-violinista/` | 26/11/2026 | Leandro |
