@@ -1,0 +1,51 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<!-- Carrossel 1.3 chamariz (mesmo modelo da v4 do 1.2 + imagens reais da história) (conta Pedro, 26/11/2026): Lindson escolheu "A e B" = capa e fecho no modelo das artes v2 (foto + palavra gigante amarela atrás da cabeça, frase com caixa amarela) + miolo no modelo do carrossel "Arrume a sua bio" (preto, tipografia, número gigante, mono, caixa amarela, problema × solução). -->
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{--p:#0A0A0A;--t:#F5F3EE;--ap:#A7A39A;--am:#F5C518}
+*{box-sizing:border-box;margin:0;padding:0}html,body{background:#000;overflow:hidden;font-family:Manrope,sans-serif;-webkit-font-smoothing:antialiased}
+.a{position:relative;width:1080px;height:1350px;overflow:hidden;background:var(--p);color:var(--t)}.abs{position:absolute}
+.marca{font:800 30px Manrope;letter-spacing:-.02em}.marca i{display:inline-block;width:12px;height:12px;border-radius:50%;background:var(--am);margin-left:4px}
+.mono{font-family:'JetBrains Mono';font-weight:500;letter-spacing:.08em;text-transform:uppercase}
+.h{font:800 84px/1 Manrope;letter-spacing:-.05em;text-wrap:balance}
+.cx{background:var(--am);color:var(--p);padding:0 .14em;margin:0 -.04em;display:inline-block;line-height:1.04;box-shadow:0 12px 30px rgba(245,197,24,.28)}
+.ant{font-family:Anton;text-transform:uppercase;line-height:.86}
+.ouro{background:linear-gradient(180deg,#FFE27A 0%,#F5C518 45%,#D99A06 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.p{font:500 32px/1.42 Manrope;color:#D8D4CB}.p b{color:var(--t)}
+.fan{color:#1C1C1C}
+.grao{position:absolute;inset:0;pointer-events:none;opacity:.10;mix-blend-mode:overlay;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.box{border:2px solid #2a2a2a;padding:30px 34px}.box.y{border-color:var(--am)}
+</style></head><body><div id="x"></div><script>
+const i=+new URLSearchParams(location.search).get('a')||1,T=7;
+const topo=r=>`<div class="abs marca" style="left:70px;top:64px">lindson almeida<i></i></div><div class="abs mono" style="right:70px;top:72px;font-size:20px;color:var(--ap)">${r}</div>`;
+const rod=(e)=>`<div class="abs mono" style="left:70px;bottom:60px;font-size:21px;color:var(--am)">${e||''}</div><div class="abs mono" style="right:70px;bottom:60px;font-size:21px;color:var(--ap)">0${i} / 0${T}</div>`;
+const foto=(f,top,w,word,fs,wt)=>`<img class="abs" src="rec/${f}.jpg" style="left:${(1080-w)/2}px;top:${top}px;width:${w}px;filter:brightness(.8)">
+<div class="abs ant ouro" style="left:0;right:0;top:${wt}px;text-align:center;font-size:${fs}px">${word}</div>
+<img class="abs" src="rec/${f}.png" style="left:${(1080-w)/2}px;top:${top}px;width:${w}px;filter:brightness(.8) drop-shadow(18px 26px 22px rgba(0,0,0,.55))">
+<div class="abs" style="inset:0;background:linear-gradient(180deg,rgba(10,10,10,.45) 0,transparent 16%,transparent 52%,rgba(10,10,10,.97) 80%)"></div>`;
+const S={
+1:`${foto('capa',-30,1160,'CHAMARIZ',250,190)}${topo('O SEGREDO DO CARDÁPIO')}
+<div class="abs" style="left:70px;right:70px;bottom:130px"><div class="h">Existe uma opção no cardápio feita para <span class="cx">ninguém escolher</span>.</div></div>
+<div class="abs mono" style="left:70px;bottom:60px;font-size:21px;color:var(--am)">ARRASTE PARA O LADO →</div><div class="abs mono" style="right:70px;bottom:60px;font-size:21px;color:var(--ap)">01 / 07</div>`,
+2:`<div class="abs" style="inset:0;background:url(rec/h109.jpg) 60% center/cover;filter:brightness(0.85) saturate(.9)"></div><div class="abs" style="inset:0;background:linear-gradient(180deg,rgba(10,10,10,.55) 0,rgba(10,10,10,.15) 25%,rgba(10,10,10,.7) 55%,rgba(10,10,10,.98) 78%)"></div>${topo('O EXPERIMENTO')}
+<div class="abs mono" style="left:70px;top:820px;font-size:22px;color:var(--am)">DAN ARIELY · ECONOMISTA · MIT</div>
+<div class="abs" style="left:70px;right:70px;top:880px"><div class="h" style="font-size:72px">Ele testou uma oferta <span class="cx">real</span> da revista The Economist.</div></div>
+<div class="abs mono" style="left:70px;bottom:60px;font-size:16px;color:var(--ap)">FOTO: DAN ARIELY EM PALESTRA</div><div class="abs mono" style="right:70px;bottom:60px;font-size:21px;color:var(--ap)">02 / 07</div>`,
+3:`<div class="abs" style="inset:0;background:url(rec/h108.jpg) center/cover;filter:brightness(0.35) saturate(.9)"></div><div class="abs" style="inset:0;background:linear-gradient(180deg,rgba(10,10,10,.55) 0,rgba(10,10,10,.15) 25%,rgba(10,10,10,.7) 55%,rgba(10,10,10,.98) 78%)"></div>${topo('A OFERTA')}<div class="abs mono" style="left:70px;top:230px;font-size:22px;color:var(--am)">ASSINATURA ANUAL · THE ECONOMIST</div>
+<div class="abs" style="left:70px;right:70px;top:300px">${[['Só digital','US$ 59',''],['Só impressa','US$ 125',''],['Impressa + digital','US$ 125','y']].map(x=>`<div class="box ${x[2]}" style="display:flex;justify-content:space-between;align-items:center;margin-bottom:22px;background:rgba(10,10,10,.72)"><span style="font:700 44px Manrope">${x[0]}</span><span class="ant" style="font-size:80px;${x[2]?'color:var(--am)':''}">${x[1]}</span></div>`).join('')}</div>
+<div class="abs" style="left:70px;right:70px;top:930px"><div class="h" style="font-size:68px">Repare: a impressa custa o <span class="cx">mesmo</span> que as duas juntas.</div></div>${rod()}`,
+4:`<div class="abs" style="inset:0;background:url(rec/h107.jpg) center/cover;filter:brightness(0.3) saturate(.9)"></div><div class="abs" style="inset:0;background:linear-gradient(180deg,rgba(10,10,10,.55) 0,rgba(10,10,10,.15) 25%,rgba(10,10,10,.7) 55%,rgba(10,10,10,.98) 78%)"></div>${topo('O RESULTADO')}<div class="abs ant ouro" style="left:60px;top:220px;font-size:400px">84%</div>
+<div class="abs mono" style="left:76px;top:620px;font-size:24px;color:var(--am)">ESCOLHERAM O PACOTE DE US$ 125</div>
+<div class="abs" style="left:70px;right:70px;top:760px"><div class="h" style="font-size:72px">E <span class="cx">ninguém</span> escolheu "só impressa".</div></div>${rod()}`,
+5:`<div class="abs" style="inset:0;background:url(rec/h111.jpg) 70% center/cover;filter:brightness(0.45) saturate(.9)"></div><div class="abs" style="inset:0;background:linear-gradient(180deg,rgba(10,10,10,.55) 0,rgba(10,10,10,.15) 25%,rgba(10,10,10,.7) 55%,rgba(10,10,10,.98) 78%)"></div>${topo('A VIRADA')}<div class="abs mono" style="left:70px;top:230px;font-size:22px;color:var(--am)">ELE TIROU A OPÇÃO QUE NINGUÉM QUERIA</div>
+<div class="abs ant ouro" style="left:60px;top:290px;font-size:430px">68%</div>
+<div class="abs" style="left:70px;right:70px;top:700px"><div class="h" style="font-size:72px">passaram a escolher a <span class="cx">mais barata</span>, de US$ 59.</div></div>${rod()}`,
+6:`<div class="abs" style="inset:0;background:url(rec/h110.jpg) center 20%/cover;filter:brightness(0.75) saturate(.9)"></div><div class="abs" style="inset:0;background:linear-gradient(180deg,rgba(10,10,10,.55) 0,rgba(10,10,10,.15) 25%,rgba(10,10,10,.7) 55%,rgba(10,10,10,.98) 78%)"></div>${topo('A LIÇÃO')}
+<div class="abs" style="left:70px;right:70px;top:760px"><div class="h" style="font-size:70px">A opção "inútil" fazia o pacote parecer um <span class="cx">presente</span>.</div></div>
+<div class="abs box y" style="left:70px;right:70px;top:1040px;background:rgba(10,10,10,.8)"><div class="mono" style="font-size:20px;color:var(--am)">ISSO TEM NOME</div><div style="font:700 40px Manrope;margin-top:10px">Efeito chamariz.</div></div>${rod()}`,
+7:`${foto('cta',-20,1140,'TABELA',330,140)}${topo('E VOCÊ?')}
+<div class="abs" style="left:70px;right:70px;bottom:170px"><div class="h" style="font-size:70px">Olhe a sua tabela hoje. Comente <span class="cx">CHAMARIZ</span> que eu te mostro onde ele está.</div></div>
+<div class="abs mono" style="left:70px;bottom:60px;font-size:19px;color:var(--am)">FONTE: DAN ARIELY, PREVISIVELMENTE IRRACIONAL (2008)</div><div class="abs mono" style="right:70px;bottom:60px;font-size:21px;color:var(--ap)">07 / 07</div>`};
+document.getElementById('x').innerHTML=`<div class="a">${S[i]}<div class="grao"></div></div>`;
+Promise.all([document.fonts.ready,...[...document.images].map(m=>m.complete?1:new Promise(r=>m.onload=m.onerror=r))]).then(()=>window.pronto=true);
+</script></body></html>
