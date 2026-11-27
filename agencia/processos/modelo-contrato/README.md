@@ -2,7 +2,7 @@
 
 Usar sempre que o Lindson pedir um contrato de cliente.
 
-1. Dados da CONTRATADA (Lindson Almeida Pinheiro Lopes — ALKANTARA, CNPJ 47.826.006/0001-86): `agencia/contratos/meus-dados.json`, fora do GitHub. Se não existir na sessão, pedir ao Lindson os dados ou o PDF de um contrato anterior.
+1. Dados da CONTRATADA (ALKANTARA CONNECTIONS LTDA, CNPJ 65.497.977/0001-01, Tv. Padre Vieira, 18, Parque Universitário, São Luís/MA (corrigido 27/11/2026: o CNPJ 47.826.006 estava errado)): `agencia/contratos/meus-dados.json`, fora do GitHub. Se não existir na sessão, pedir ao Lindson os dados ou o PDF de um contrato anterior.
 2. Dados do cliente: `agencia/contratos/<cliente>/dados.json` (exemplo de campos: `plano`, `subtitulo`, `objeto`, `contratante{nome,qualificacao,email,whats,assinatura[]}`, `incluido[]`, `nao_incluido[]`, `gravacoes[]` opcional, `responsabilidade_tecnica` opcional (ex.: CFO/CRO na saúde), `valor`, `tabela`/`desconto` opcionais, `inicio`, `fim`, `vencimento_dia`, `meses`, `arquivo`).
 3. `python3 agencia/processos/modelo-contrato/gerar.py agencia/contratos/<cliente>/dados.json` → PDF A4 com rodapé e páginas.
 
