@@ -33,6 +33,11 @@ const podeAgora = () => { const d = new Date(), w = d.getDay(), m = d.getHours()
 const MAX_SEM_WA = 3;               // 3 números sem WhatsApp seguidos = pausa (lista ruim derruba a reputação)
 const CONTA = join(PASTA, `enviados-${NUMERO}.json`);
 const lerConta = () => { try { const j = JSON.parse(readFileSync(CONTA, 'utf8')); return j.dia === hoje() ? j.n : 0; } catch (e) { return 0; } };
+// memória local de números já enviados (Lindson, 27/11/2026: "os robôs estão repetindo os números"): nunca manda 2 vezes para o mesmo número
+const JA = join(PASTA, 'ja-enviados.json');
+const lerJa = () => { try { return new Set(JSON.parse(readFileSync(JA, 'utf8'))); } catch (e) { return new Set(); } };
+const somaJa = n => { const s = lerJa(); s.add(String(n).replace(/\D/g, '').slice(-8)); writeFileSync(JA, JSON.stringify([...s])); };
+const jaFoi = n => lerJa().has(String(n).replace(/\D/g, '').slice(-8));
 const somaConta = () => writeFileSync(CONTA, JSON.stringify({ dia: hoje(), n: lerConta() + 1 }));
 // Follow-ups contam à parte (Lindson, 25/11/2026: "30 mensagens novas, mais o follow up"). Teto de segurança próprio.
 const CONTA_FU = join(PASTA, `followups-${NUMERO}.json`), TETO_FU = 40;
@@ -64,19 +69,22 @@ wa.on('auth_failure', m => { diz('Falha no login do WhatsApp:', m); process.exit
 
 const MINUTO = 60e3;
 let semWa = 0, etapa = '', erros = 0;
+// avisa a Central que enviou; se a internet falhar, tenta de novo (antes, a falha deixava o lead voltar para a fila e receber outra vez)
+async function avisaEnviado(id) { for (let t = 0; t < 6; t++) { try { await api('', { id, acao: 'enviado', canal: 'whatsapp' }); return true; } catch (e) { diz('Aviso de enviado falhou, tentando de novo:', e.message); await espera(20000 * (t + 1)); } } return false; }
 async function umEnvio() {
   if (!podeAgora()) return 'fora';
   if (limiteDoDia(CFG) - lerConta() <= 0) return 'limite';
   let r; try { r = await api('?lote=1&numero=' + NUMERO); } catch (e) { diz('Central fora do ar:', e.message); return 'erro'; }
   if (r.pausado) return 'pausado';
   const c = r.lote && r.lote[0]; if (!c) return 'vazio';
+  if (jaFoi(c.wa)) { await avisaEnviado(c.id); diz(`${c.nome}: já recebeu antes, não mando de novo.`); return 'pulou'; }
   etapa = 'conferir o número ' + c.wa; const id = await wa.getNumberId(c.wa);
   if (!id) { semWa++; await api('', { id: c.id, acao: 'etapa', etapa: 'perdido' }); diz(`${c.nome}: sem WhatsApp → Perdido`); return semWa >= MAX_SEM_WA ? 'semwa' : 'pulou'; }
   semWa = 0;
   if (CFG.digitando) { try { const chat = await wa.getChatById(id._serialized); await chat.sendStateTyping(); } catch (e) {} }
   await espera(Math.min(c.msg.length * 60, 12000) + Math.random() * 3000);
-  etapa = 'enviar mensagem'; meus.add(c.msg.trim()); { const partes = c.msg.split(/\n\s*\n/).map(x => x.trim()).filter(Boolean); for (let i = 0; i < partes.length; i++) { if (i) await espera(5000 + Math.random() * 5000); await wa.sendMessage(id._serialized, partes[i]); } } ultimoEnvio[id._serialized] = Date.now(); somaConta();
-  etapa = 'avisar a Central'; await api('', { id: c.id, acao: 'enviado', canal: 'whatsapp' });
+  etapa = 'enviar mensagem'; meus.add(c.msg.trim()); { const partes = c.msg.split(/\n\s*\n/).map(x => x.trim()).filter(Boolean); for (let i = 0; i < partes.length; i++) { if (i) await espera(5000 + Math.random() * 5000); await wa.sendMessage(id._serialized, partes[i]); } } ultimoEnvio[id._serialized] = Date.now(); somaConta(); somaJa(c.wa);
+  etapa = 'avisar a Central'; await avisaEnviado(c.id);
   diz(`${c.nome}: enviado ✓ (${lerConta()}/${limiteDoDia(CFG)} hoje)`);
   return 'ok';
 }
