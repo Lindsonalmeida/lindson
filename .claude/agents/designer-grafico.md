@@ -251,3 +251,4 @@ Antes de toda entrega, cumprir `REGRAS-GERAIS.md`: nível premium (Al Kántara v
 - 25/11/2026 (conta Pedro): arquivos de dossiê se chamam "Dossiê - Nome do vereador" (v2 = "Dossiê - Nome v2"); prompt oficial da extensão em agencia/prospeccao/vereador/PROMPT-DOSSIE-MODELO.md.
 
 - 25/11/2026: REGRAS DO DOSSIÊ (todas as contas) em agencia/processos/dossie-politico/REGRAS-DO-DOSSIE.md. Ler antes de todo dossiê; foto na capa obrigatória; não mudar o padrão.
+- **26/11/2026 (conta Pedro, MEMORIA-DO-LINDSON):** carrossel de história nunca só tipográfico/preto: imagens reais da história nas telas do meio (extensão busca antes). Aniversário do Leo: frase nunca sobre rosto (mover, não remover) e upscale sempre antes do recorte.
