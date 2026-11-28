@@ -34,7 +34,7 @@ await t('status guarda qual número enviou', async () => {
 });
 await t('(28/11) robô não devolve lead enviado para "novo"', async () => {
   const { contatos } = await get(''); const e = contatos.find(c => c.etapa === 'enviado');
-  const r = await post({ id: e.id, acao: 'etapa', etapa: 'novo', numero: e.sdr }); assert.equal(r.s, 409);
+  const r = await post({ id: e.id, acao: 'etapa', etapa: 'novo', numero: e.sdr }); assert.equal(r.s, 409); // já enviado: bloqueado (devolver reserva nunca enviada continua permitido)
   const depois = (await get('')).contatos.find(c => c.id === e.id); assert.equal(depois.etapa, 'enviado');
 });
 await t('(28/11) lead com "enviado" no hist nunca sai no lote, mesmo com reserva vencida mais nova em outro chip', async () => {
