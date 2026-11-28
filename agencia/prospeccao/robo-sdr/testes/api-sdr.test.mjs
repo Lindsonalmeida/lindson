@@ -14,7 +14,7 @@ let ok = 0; const t = async (nome, f) => { await f(); ok++; console.log('ok', no
 
 await t('sem token = 401', async () => { assert.equal((await api.onRequestGet(req('', null, 'errado'))).status, 401); });
 await t('numero inválido = 400', async () => { assert.equal((await api.onRequestGet(req('?lote=1&numero=sdr9'))).status, 400); assert.equal((await post({ acao: 'robo', numero: '../x' })).s, 400); });
-await t('3 robôs ligados', async () => { for (const n of api.NUMEROS) assert.equal((await post({ acao: 'robo', numero: n, estado: 'Trabalhando', enviados: 0, limite: 20 })).s, 200); });
+await t('robôs ligados', async () => { for (const n of api.NUMEROS) assert.equal((await post({ acao: 'robo', numero: n, estado: 'Trabalhando', enviados: 0, limite: 20 })).s, 200); });
 await t('nenhum lead repetido entre os 3 números (30 rodadas cada, intercaladas)', async () => {
   const visto = new Map();
   for (let i = 0; i < 30; i++) for (const n of api.NUMEROS) {
@@ -22,7 +22,7 @@ await t('nenhum lead repetido entre os 3 números (30 rodadas cada, intercaladas
     for (const c of lote) { assert.ok(!visto.has(c.id), `${c.id} saiu para ${visto.get(c.id)} e ${n}`); visto.set(c.id, n); assert.equal((await post({ id: c.id, acao: 'enviado', canal: 'whatsapp', numero: n })).s, 200); }
   }
   const por = {}; for (const n of visto.values()) por[n] = (por[n] || 0) + 1; console.log('   distribuição', por, 'de', CONTATOS.filter(c => c.wa).length);
-  assert.equal(Object.keys(por).length, 3);
+  assert.equal(Object.keys(por).length, api.NUMEROS.length);
 });
 await t('reserva: mesmo número pedindo 2x sem enviar não pega o mesmo lead', async () => {
   const a = (await get('?lote=1&numero=sdr1')).lote[0], b = (await get('?lote=1&numero=sdr1')).lote[0];
@@ -31,6 +31,18 @@ await t('reserva: mesmo número pedindo 2x sem enviar não pega o mesmo lead', a
 await t('status guarda qual número enviou', async () => {
   const { contatos } = await get(''); const e = contatos.filter(c => c.etapa === 'enviado');
   assert.ok(e.length > 0 && e.every(c => api.NUMEROS.includes(c.sdr)));
+});
+await t('(28/11) robô não devolve lead enviado para "novo"', async () => {
+  const { contatos } = await get(''); const e = contatos.find(c => c.etapa === 'enviado');
+  const r = await post({ id: e.id, acao: 'etapa', etapa: 'novo', numero: e.sdr }); assert.equal(r.s, 409);
+  const depois = (await get('')).contatos.find(c => c.id === e.id); assert.equal(depois.etapa, 'enviado');
+});
+await t('(28/11) lead com "enviado" no hist nunca sai no lote, mesmo com reserva vencida mais nova em outro chip', async () => {
+  const c = { id: 'x1', nome: 'Vereador Teste', nicho: 'vereador', wa: '5598900000000' };
+  const j = api.junta([{ st: { x1: { etapa: 'enviado', em: '2026-11-24T10:00:00Z', hist: [{ etapa: 'enviado' }] } }, sdr: 'sdr1' }, { st: { x1: { etapa: 'reservado', ate: '2026-11-27T10:00:00Z', em: '2026-11-27T09:45:00Z' } }, sdr: 'sdr3' }], [c])[0];
+  assert.equal(api.livre(j, Date.now()), false);
+  const k = api.junta([{ st: { x1: { etapa: 'novo', em: '2026-11-27T15:47:00Z', hist: [{ etapa: 'enviado' }, { etapa: 'novo' }] } }, sdr: 'sdr1' }], [c])[0];
+  assert.equal(api.livre(k, Date.now()), false);
 });
 await t('pausa por número', async () => {
   await post({ acao: 'pausa', numero: 'sdr2', pausado: true });
@@ -43,14 +55,14 @@ await t('compatível: sdr:robo antigo vira sdr1', async () => {
   const r = await (await api.onRequestGet({ request: new Request('https://x/api/sdr?robo=1', { headers: { Authorization: 'Bearer ' + TOKEN } }), env: e2 })).json();
   assert.equal(r.robos.sdr1.pausado, true); assert.equal(r.robo.pausado, true);
 });
-await t('admin volta lead para novo (registro mais novo vence)', async () => {
+await t('(28/11) lead já enviado não volta para "novo" nem pela chave antiga', async () => {
   const { contatos } = await get(''); const c = contatos.find(x => x.etapa === 'enviado');
-  await new Promise(r => setTimeout(r, 5)); await post({ id: c.id, acao: 'etapa', etapa: 'novo' });
-  assert.equal((await get('')).contatos.find(x => x.id === c.id).etapa, 'novo');
+  await new Promise(r => setTimeout(r, 5)); assert.equal((await post({ id: c.id, acao: 'etapa', etapa: 'novo' })).s, 409);
+  assert.equal((await get('')).contatos.find(x => x.id === c.id).etapa, 'enviado');
 });
 await t('variações seguem o padrão (saudação e pergunta mudam, dor igual)', async () => {
   const m = CONTATOS[0].msg, v = api.NUMEROS.map(n => api.varia(m, n));
-  assert.equal(new Set(v).size, 3); for (const x of v) { assert.equal(x.split('\n')[1], m.split('\n')[1]); assert.ok(!/vi que|parece que|gargalo/i.test(x)); assert.ok(x.length <= 300); }
+  assert.equal(new Set(v).size, api.NUMEROS.length); for (const x of v) { assert.equal(x.split('\n')[1], m.split('\n')[1]); assert.ok(!/vi que|parece que|gargalo/i.test(x)); assert.ok(x.length <= 300); }
 });
 await t('lead sem WhatsApp nunca entra no lote', async () => { const s = api.escolhe(CONTATOS.map(c => ({ ...c, etapa: 'novo' })), 'sdr1', {}, Date.now(), 999); assert.ok(s.every(c => c.wa)); });
 await t('fallback: chip fora do NE sem lead livre passa a receber do Nordeste, sem repetir (23/11/2026)', async () => {
