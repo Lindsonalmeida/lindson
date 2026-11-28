@@ -58,13 +58,21 @@ const CHROME = [process.env.CHROME, 'C:\\Program Files\\Google\\Chrome\\Applicat
   (process.env.LOCALAPPDATA || '') + '\\Google\\Chrome\\Application\\chrome.exe', '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'].find(c => c && existsSync(c));
 // sessão própria por número; o sdr1 reaproveita a sessão antiga ("sdr") para não pedir QR de novo
 const clientId = NUMERO === 'sdr1' && existsSync(join(PASTA, '.wwebjs_auth', 'session-sdr')) ? 'sdr' : 'sdr-' + NUMERO;
-const wa = new Client({ authStrategy: new LocalAuth({ clientId, dataPath: join(PASTA, '.wwebjs_auth') }),
+// (Lindson, 28/11/2026: "os robôs devem permanecer conectados, não deixe fazer logout")
+// takeoverOnConflict: se o WhatsApp Web abrir em outro lugar, o robô retoma a sessão em vez de sair; o robô NUNCA chama wa.logout().
+const wa = new Client({ authStrategy: new LocalAuth({ clientId, dataPath: join(PASTA, '.wwebjs_auth') }), takeoverOnConflict: true, takeoverTimeoutMs: 15000,
   puppeteer: { headless: false, executablePath: CHROME, args: ['--no-sandbox', '--disable-gpu'] } });
 process.title = 'Robo ' + CFG.nome;
 wa.on('qr', qr => { console.log(`\n=== ${CFG.nome}: escaneie este QR com o WhatsApp DESTE chip (Aparelhos conectados → Conectar) ===`); qrcode.generate(qr, { small: true }); });
 wa.on('loading_screen', p => diz(`Carregando WhatsApp ${p}%`));
 wa.on('authenticated', () => diz('Login feito. Esperando o WhatsApp abrir as conversas…'));
-wa.on('disconnected', r => { diz('WhatsApp desconectou:', r); process.exit(1); });
+// queda de conexão: só reinicia o processo (a sessão salva continua; o laço do iniciar religa em 1 min, sem pedir QR)
+wa.on('disconnected', r => { diz('WhatsApp desconectou:', r, r === 'LOGOUT' ? '→ o celular removeu este aparelho: abra o robô e escaneie o QR de novo' : '→ religando sem perder o login'); process.exit(r === 'LOGOUT' ? 1 : 2); });
+// vigia: se em 4 min o WhatsApp não abriu, ou se a conexão cair e não voltar em 3 min, reinicia (mantém o login)
+let pronto = false, fora = 0;
+setTimeout(() => { if (!pronto) { diz('WhatsApp não abriu em 4 min: reiniciando (o login continua salvo).'); process.exit(2); } }, 4 * 60e3);
+setInterval(async () => { if (!pronto) return; let st = ''; try { st = await Promise.race([wa.getState(), new Promise(r => setTimeout(() => r('TRAVOU'), 30e3))]); } catch (e) { st = 'ERRO'; }
+  if (st === 'CONNECTED') { fora = 0; return; } fora++; diz('Conexão do WhatsApp:', st, `(${fora}/3)`); if (fora >= 3) { diz('Reiniciando para reconectar (sem logout).'); process.exit(2); } }, 60e3);
 wa.on('auth_failure', m => { diz('Falha no login do WhatsApp:', m); process.exit(1); });
 
 const MINUTO = 60e3;
@@ -91,6 +99,7 @@ async function umEnvio() {
 // DDD do próprio chip: 11 = capta no Brasil inteiro; os outros só no Maranhão (Lindson, 22/11/2026)
 const meuDDD = () => { const u = String((wa.info && wa.info.wid && wa.info.wid.user) || ''); const ddd = u.startsWith('55') ? u.slice(2, 4) : ''; return { ddd, regiao: CFG.regiao || (ddd === '11' ? 'BR' : 'MA') }; };
 wa.on('ready', async () => {
+  pronto = true;
   await espera(15000);
   diz(`WhatsApp conectado. Envia de seg a sex, das ${CFG.hora_ini} às ${CFG.hora_fim}, até ${limiteDoDia(CFG)} por dia (aquecimento desde ${CFG.inicio}, teto ${CFG.teto}).`);
   let aviso = '', ultFU = 0;
